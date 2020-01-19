@@ -22,6 +22,6 @@ The resulting output JSON at `auspice/ncov.json` can be visualized by running `a
 
 ## Notes
 
-There were 6 SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. A SNP at 18529 in BetaCoV/Wuhan/IVDC-HB-04/2020 appears directly adjacent to long stretch of ambiguous bases and so has also been masked. Additionally, sample BetaCoV/Wuhan/IVDC-HB-05/2019 may have sequencing artifacts that make it appear more diverged than it actually is. This sample has been dropped from the above analysis.
+There were 6 SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. A SNP at 18529 in BetaCoV/Wuhan/IVDC-HB-04/2020 appears directly adjacent to long stretch of ambiguous bases and so has also been masked.
 
 Site numbering and genome structure uses [BetaCoV/Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to the closest outgroup virus [bat-SL-CoVZXC21](https://www.ncbi.nlm.nih.gov/nuccore/MG772934). Temporal resolution assumes a nucleotide substitution rate consistent with MERS-CoV evolution of 4.59 &times; 10^-4 subs per site per year.

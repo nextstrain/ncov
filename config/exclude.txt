@@ -1,3 +1,0 @@
-# nCoV that has apparently artifactual mutations
-BetaCoV/Wuhan/IVDC-HB-05/2019
-
