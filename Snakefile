@@ -225,6 +225,7 @@ rule refine:
             --output-node-data {output.node_data} \
             --keep-root \
             --timetree \
+            --keep-polytomies \
             --clock-rate {params.clock_rate} \
             --clock-std-dev {params.clock_std_dev} \
             --coalescent {params.coalescent} \
