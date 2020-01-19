@@ -2,11 +2,9 @@ This is a [Nextstrain](https://nextstrain.org) build for novel coronavirus (nCoV
 
 ## Data
 
-The Wuhan coronavirus genomes were generously shared by scientists at the Shanghai Public Health Clinical Center & School of Public Health, Fudan University (sample *WH-Human_1*) via this [post on virological.org](http://virological.org/t/initial-genome-release-of-novel-coronavirus/319), and by scientists at the National Institute for Viral Disease Control and Prevention, China CDC (samples *BetaCoV/Wuhan/IVDC-HB-01/2019*, *BetaCoV/Wuhan/IVDC-HB-05/2019*, *BetaCoV/Wuhan/IVDC-HB-04/2020*) at the Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College (sample *BetaCoV/Wuhan/IPBCAMS-WH-01/2019*), at the Wuhan Institute of Virology, Chinese Academy of Sciences (sample *BetaCoV/Wuhan/WIV04/2019*) and at the Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand (samples ) via [GISAID](https://gisaid.org). We gratefully acknowledgement their contributions.
+The nCoV genomes were generously shared by scientists at the Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China (sample *BetaCoV/Wuhan-Hu-1/2019*), at the National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China (samples *BetaCoV/Wuhan/IVDC-HB-01/2019*, *BetaCoV/Wuhan/IVDC-HB-05/2019*, *BetaCoV/Wuhan/IVDC-HB-04/2020*) at the Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China (sample *BetaCoV/Wuhan/IPBCAMS-WH-01/2019*), at the Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China (samples *BetaCoV/Wuhan/WIV02/2019*, *BetaCoV/Wuhan/WIV04/2019*, *BetaCoV/Wuhan/WIV05/2019*, *BetaCoV/Wuhan/WIV06/2019*, *BetaCoV/Wuhan/WIV07/2019*) and at the Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand (samples *BetaCoV/Nonthaburi/61/2020*, *BetaCoV/Nonthaburi/74/2020*) via [GISAID](https://gisaid.org). We gratefully acknowledgement their contributions.
 
-Background data for this build was sourced [from Genbank via VIPR](https://www.viprbrc.org/brc/vipr_genome_search.spg?method=ShowCleanSearch&decorator=corona). Here, we downloaded all the SARS-like coronaviruses that were more than 5000 bases in length. These sequences are available in the repo at `data/sequences.fasta`.
-
-Novel coronaviruses from Wuhan are not included as part of this repo as many of them are protected by the terms of GISAID sharing. Here, these 6 genomes will need to be supplemented by the user. Please add these as additional strains in `data/sequences.fasta`. Metadata for these 6 viruses already exists in `data/metadata.tsv`.
+nCoV genomes are not included as part of this repo as many of them are protected by the terms of GISAID sharing. These genomes will need to be supplemented by the user. Please add these as strains in `data/sequences.fasta`. Metadata for these viruses already exists in `data/metadata.tsv`.
 
 ## Building
 
@@ -24,4 +22,6 @@ The resulting output JSON at `auspice/ncov.json` can be visualized by running `a
 
 ## Notes
 
-There were 5 SNPs present in the Wuhan samples in the first 11 bases of the alignment that are masked with `N` in the pipeline (via rule `mask`) as likely sequencing artifacts. Additionally, sample BetaCoV/Wuhan/IVDC-HB-05/2019 may have sequencing artifacts that make it appear more diverged than it actually is.
+There were 6 SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. A SNP at 18529 in BetaCoV/Wuhan/IVDC-HB-04/2020 appears directly adjacent to long stretch of ambiguous bases and so has also been masked. Additionally, sample BetaCoV/Wuhan/IVDC-HB-05/2019 may have sequencing artifacts that make it appear more diverged than it actually is. This sample has been dropped from the above analysis.
+
+Site numbering and genome structure uses [BetaCoV/Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to the closest outgroup virus [bat-SL-CoVZXC21](https://www.ncbi.nlm.nih.gov/nuccore/MG772934). Temporal resolution assumes a nucleotide substitution rate consistent with MERS-CoV evolution of 4.59 &times; 10^-4 subs per site per year.

@@ -133,7 +133,7 @@ rule mask:
     params:
         mask_from_beginning = 15,
         mask_from_end = 15,
-        mask_sites = 18545
+        mask_sites = 18529
     shell:
         """
         python3 scripts/mask-alignment.py \
@@ -246,7 +246,7 @@ rule ancestral:
         augur ancestral \
             --tree {input.tree} \
             --alignment {input.alignment} \
-            --output {output.node_data} \
+            --output-node-data {output.node_data} \
             --inference {params.inference}
         """
 
@@ -264,7 +264,7 @@ rule translate:
             --tree {input.tree} \
             --ancestral-sequences {input.node_data} \
             --reference-sequence {input.reference} \
-            --output {output.node_data} \
+            --output-node-data {output.node_data} \
         """
 
 rule export:
