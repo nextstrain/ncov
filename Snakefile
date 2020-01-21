@@ -295,6 +295,20 @@ rule export:
             --output {output.auspice_json}
         """
 
+rule poisson_tmrca:
+    input:
+        tree = rules.refine.output.tree,
+        metadata = rules.parse.output.metadata,
+        nt_muts = rules.ancestral.output.node_data
+    output:
+        "figures/poisson_tmrca.png"
+    shell:
+        """
+        python scripts/tmrca_estimate.py --tree {input.tree} --metadata {input.metadata} --node-data {input.nt_muts} --output {output}
+        """
+
+
+
 rule clean:
     message: "Removing directories: {params}"
     params:
@@ -302,3 +316,4 @@ rule clean:
         "auspice"
     shell:
         "rm -rfv {params}"
+
