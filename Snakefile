@@ -225,7 +225,6 @@ rule refine:
             --output-node-data {output.node_data} \
             --keep-root \
             --timetree \
-            --keep-polytomies \
             --clock-rate {params.clock_rate} \
             --clock-std-dev {params.clock_std_dev} \
             --coalescent {params.coalescent} \
@@ -301,13 +300,11 @@ rule poisson_tmrca:
         metadata = rules.parse.output.metadata,
         nt_muts = rules.ancestral.output.node_data
     output:
-        "figures/poisson_tmrca.png"
+        "figures/ncov_poisson_tmrca.png"
     shell:
         """
         python scripts/tmrca_estimate.py --tree {input.tree} --metadata {input.metadata} --node-data {input.nt_muts} --output {output}
         """
-
-
 
 rule clean:
     message: "Removing directories: {params}"
@@ -316,4 +313,3 @@ rule clean:
         "auspice"
     shell:
         "rm -rfv {params}"
-

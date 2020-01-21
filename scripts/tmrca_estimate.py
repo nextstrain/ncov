@@ -1,5 +1,5 @@
 """
-Estimate Tmrca assuming a star topology and a poisson mutation process
+Estimate TMRCA assuming a star topology and a poisson mutation process
 """
 import argparse, math
 import numpy as np
@@ -11,7 +11,7 @@ from augur.utils import read_node_data, read_metadata, get_numerical_dates
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Estimate Tmrca assuming a star topology and a poisson mutation process",
+        description="Estimate TMRCA assuming a star topology and a poisson mutation process",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--node-data", required=True, help="JSON with ancestral reconstruction")
@@ -49,12 +49,11 @@ if __name__ == '__main__':
         p /= p.sum()
         plt.plot(tmrca, p, label=f"rate={mu:1.1e} per site and year", lw=2)
 
-    plt.title('Tmrca of 2019-nCov assuming a star tree\nand Poisson statistics of mutations', fontsize=16)
-    plt.xlabel('Tmrca', fontsize=16)
+    plt.title('TMRCA of 2019-nCov assuming a star tree\nand Poisson statistics of mutations', fontsize=16)
+    plt.xlabel('TMRCA', fontsize=16)
     plt.ylabel('Probability density', fontsize=16)
     ticks = ['2019-10-01', '2019-11-01', '2019-12-01', '2020-01-01']
     plt.legend(loc=2, fontsize=12)
     plt.tick_params(labelsize=12)
     plt.xticks([numeric_date(datetime.datetime.strptime(x, '%Y-%m-%d')) for x in ticks], ticks)
     plt.savefig(args.output)
-
