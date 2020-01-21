@@ -1,5 +1,5 @@
 """
-Mask initial bases from alignment FASTA
+Estimate Tmrca assuming a star topology and a poisson mutation process
 """
 import argparse, math
 import numpy as np
@@ -11,7 +11,7 @@ from augur.utils import read_node_data, read_metadata, get_numerical_dates
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Mask initial bases from alignment FASTA",
+        description="Estimate Tmrca assuming a star topology and a poisson mutation process",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--node-data", required=True, help="JSON with ancestral reconstruction")
