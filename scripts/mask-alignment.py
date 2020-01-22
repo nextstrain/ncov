@@ -12,11 +12,11 @@ if __name__ == '__main__':
         description="Mask initial bases from alignment FASTA",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    parser.add_argument("--alignment", required=True, help="FASTA file of aligment")
+    parser.add_argument("--alignment", required=True, help="FASTA file of alignment")
     parser.add_argument("--mask-from-beginning", type = int, required=True, help="number of bases to mask from start")
     parser.add_argument("--mask-from-end", type = int, help="number of bases to mask from end")
     parser.add_argument("--mask-sites", nargs='+', type = int,  help="list of sites to mask")
-    parser.add_argument("--output", required=True, help="FASTA file of output aligment")
+    parser.add_argument("--output", required=True, help="FASTA file of output alignment")
     args = parser.parse_args()
 
     being_length = 0
