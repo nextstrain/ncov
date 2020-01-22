@@ -131,7 +131,7 @@ rule mask:
     output:
         alignment = "results/masked.fasta"
     params:
-        mask_from_beginning = 15,
+        mask_from_beginning = 130,
         mask_from_end = 15,
         mask_sites = 18529
     shell:
@@ -212,7 +212,7 @@ rule refine:
         node_data = "results/branch_lengths.json"
     params:
         clock_rate = 0.000459, # estimate taken from MERS via Dudas et al. 2018. eLife.
-        clock_std_dev = 0.000459,
+        clock_std_dev = 0.0003,
         coalescent = "skyline",
         date_inference = "marginal"
     shell:
@@ -229,7 +229,8 @@ rule refine:
             --clock-std-dev {params.clock_std_dev} \
             --coalescent {params.coalescent} \
             --date-inference {params.date_inference} \
-            --date-confidence
+            --date-confidence \
+            --no-covariance
         """
 
 rule ancestral:
