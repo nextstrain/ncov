@@ -307,6 +307,28 @@ rule poisson_tmrca:
         python scripts/tmrca_estimate.py --tree {input.tree} --metadata {input.metadata} --node-data {input.nt_muts} --output {output}
         """
 
+rule branching_process_R0:
+    params:
+        infectious_period = 10, # days
+        population = [500, 3000, 10000],
+        start_recent = "2019-12-01",
+        start_early = "2019-11-01"
+    output:
+        "figures/branching_R0_recent.png",
+        "figures/branching_R0_early.png"
+    shell:
+        """
+        python scripts/branching_process.py --infectious-period {params.infectious_period}\
+                    --start {params.start_recent} \
+                    --population {params.population} \
+                    --output {output[0]} &&\
+        python scripts/branching_process.py --infectious-period {params.infectious_period}\
+                    --start {params.start_early} \
+                    --population {params.population} \
+                    --output {output[1]}
+        """
+
+
 rule clean:
     message: "Removing directories: {params}"
     params:
