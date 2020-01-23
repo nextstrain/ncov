@@ -21,17 +21,17 @@ abstract: "This is a DRAFT narrative containing our commentary of the ongoing no
 
 ## Different human coronaviruses
 
-Coronaviruses (CoV) are members of a diverse species of (+)ssRNA viruses which have a history of causing respiratory infections in humans.
+Coronaviruses (CoV) are members of a diverse species of positive-sense single-stranded RNA ((+)ssRNA) viruses which have a history of causing respiratory infections in humans.
 Some variants of coronaviruses are associated with outbreaks, others are continuously circulating and cause mostly mild respiratory infections (e.g. the common cold).
 
 #### SARS-CoV & MERS-CoV
-The most well known of these Coronaviruses is the [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a 2002-2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a fatality rate of around 9-11%.
+The most well known of these coronaviruses is the [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a November 2002- July 2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a case fatality rate of around 9-11%.
 
 In 2012, a novel coronavirus, [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Middle East respiratory syndrome"), causing severe respiratory symptoms was identified. MERS has resulted in fatalities comparable to SARS, however the transmission route of MERS is very different. Whereas SARS was efficiently spread from one human to another, human MERS infections were generally a result of independent zoonoses (animal to human transmissions) from camels (see [Dudas _et al._](https://elifesciences.org/articles/31257) for more information).
 
 
 #### Seasonal CoV
-However it's not fair to categorize all coronaviruses as deadly as SARS-CoV and MERS-CoV.
+However not all coronaviruses as deadly as SARS-CoV and MERS-CoV.
 There are now [seven different groups of coronaviruses](https://www.cdc.gov/coronavirus/types.html) which can cause infections in humans, with four of them considered "seasonal" and commonly infecting humans each year.
 Compared with SARS, these seasonal coronavirus strains are ["much more prevalent, much less severe, and common causes of influenza‐like illness (ILI)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
 In fact, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/) - [12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% of all ILI cases test positive for coronaviruses, so they are rather common.
@@ -42,7 +42,7 @@ Coronaviruses infect a wide range of animals, and the human outbreaks described 
 SARS was originally believed to have arrived in the human population from Masked palm civets, but is now considered to have arrived [from horseshoe bats](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
 
 
-#### Human to Human transmission
+#### Human-to-Human transmission
 The ability for different lineages to be transmitted between humans is extremely important to understand the potential development of an outbreak.
 Due to the ability of SARS to spread between humans and the high case fatality rate, SARS (or a SARS-like virus) is considered a [global public health threat](https://www.who.int/whr/2007/overview/en/index1.html) by the WHO.
 
@@ -62,11 +62,11 @@ Due to the ability of SARS to spread between humans and the high case fatality r
 
 ## Recent outbreak of a novel coronavirus
 In December 2019, a new illness was first detected in Wuhan, China.
-We now know this to another outbreak of coronavirus in humans (the 7th), and is being called nCoV (novel coronavirus).
+We now know this to be another outbreak of coronavirus in humans (the 7th), and it is being called nCoV (novel coronavirus).
 
-As of January 23rd, over 624 cases and 17 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
+As of January 23rd, 2020 over 624 cases and 17 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
 It's still too early to know the case fatality rate, but early indications are that it is less than SARS-CoV.
-The case counts are dramatically rising in part due to increased surveillance and testing, with 131 new cases reported on Jan 22nd.
+The case counts are dramatically rising in part due to increased surveillance and testing, with 131 new cases reported on Jan 22nd, 2020.
 
 While the outbreak seems to be centered in Wuhan, which is now [under quarantine](https://twitter.com/PDChina/status/1220060879112282117), the virus has spread throughout China and abroad, including Hong Kong, Macau, Thailand, USA, Japan and South Korea.
 
@@ -148,20 +148,20 @@ Sequences that have just one mutation sit just to the left of the 0.00004 line o
 
 # [Phylogenetic Interpretation](https://nextstrain.org/ncov?d=tree)
 
-We currently see little genetic diversity across the nCov sequences with 8 out of 24 sequences having no unique mutations.
+We currently see little genetic diversity across the nCoV sequences, with 8 out of 24 sequences having no unique mutations.
 
 <br>
 
-Low genetic diversity across these sequences suggest that the most recent common ancestor of all nCov sequences was fairly recent.
+Low genetic diversity across these sequences suggest that the most recent common ancestor of all nCoV sequences was fairly recent.
 
 <br>
 
-At the moment, most mutations that can be observed are singletons -- they are unique to individual genomes. Only sequences that form the two clusters from Guangdong share mutations -- we will explore these in later slides.
+At the moment, most mutations that can be observed are singletons -- they are unique to individual genomes. Only the sequences that form the two clusters from Guangdong share mutations -- we will explore these in later slides.
 
 <br>
 
 Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging. 
-Some of the differences observed in these sequences may be sequencing error rather than actual mutations. 
+Some of the differences observed in these sequences may be sequencing errors rather than actual mutations. 
 Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
 
 
@@ -171,7 +171,7 @@ Of the four isolates from Shenzhen (Southeastern China) we see three isolates wh
 
 <br>
 
-These three samples are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), and likely represent human to human transmission.
+These three samples are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), and likely represent human-to-human transmission.
 
 <br>
 
@@ -184,9 +184,9 @@ Similarly, there are two genetically-identical isolates from Zhuhai (Southeaster
 
 <br>
 
-These two cases are also [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating likely human to human transmission.
+These two cases are also [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission is likely.
 
-# [Cases outside china](https://nextstrain.org/ncov?c=country&d=tree,map)
+# [Cases outside China](https://nextstrain.org/ncov?c=country&d=tree,map)
 
 There are reported nCoV cases in Thailand, USA, Japan and South Korea.
 These cases are all linked to Wuhan, and we are not aware of evidence for nCoV transmission in these countries.
@@ -194,7 +194,7 @@ These cases are all linked to Wuhan, and we are not aware of evidence for nCoV t
 <br>
 
 The only currently available sequence data for cases outside of China are the two cases from Thailand, which are coloured here in red.
-These samples are genetically identical to 6 Chinese sequences, including 5 isolated in Wuhan.
+These samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
 
 
 # [Dating the zoonosis](https://nextstrain.org/ncov?d=tree)
@@ -202,11 +202,11 @@ The high similarity of the genomes currently suggests they have a recent common 
 
 <br>
 
-Previous research on related Coronavirus suggest that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 0.003 - 0.001/site and year).
+Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 0.003 - 0.001/site and year).
 
 <br>
 
-On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, gives us estimates for the timing of the outbreak. 
+On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak. 
 
 ```auspiceMainDisplayMarkdown
 
@@ -235,12 +235,12 @@ One the right, we present simple estimates of R0.
 Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases.
 Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
 
-If we assume the outbreak started at the beginning of November (12 weeks ago), we find that R0 should range between 1.5 and 2.5, depending on how large ('n') the outbreak is now.
+If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.5 and 2.5, depending on how large ('n') the outbreak is now.
 <div>
   <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="http://data.nextstrain.org/ncov_branching-R0-early.png"/>
 </div>
 
-If we assume a more recent start, at the beginning of December (8 weeks ago), the estimates for R0 range between 1.8 and 3.5:
+If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 1.8 and 3.5:
 <div>
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="http://data.nextstrain.org/ncov_branching-R0-recent.png"/>
 </div>
@@ -269,7 +269,7 @@ These data were shared via [GISAID](https://gisaid.org). We gratefully acknowled
 
 
 
-# [Detailed Scientific credit](https://nextstrain.org/ncov?d=map&c=author)
+# [Detailed scientific credit](https://nextstrain.org/ncov?d=map&c=author)
 
 These data were shared via [GISAID](https://gisaid.org). We gratefully acknowledge their contributions.
 
