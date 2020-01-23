@@ -229,9 +229,11 @@ This number is known as R0 ("R-zero" or "R-nought").
 One the right, we present simple estimates of R0.
 
 ```auspiceMainDisplayMarkdown
-
+## Estimates of epidemic growth rate
 Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases.
 Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
+
+**We find plausible estimates of R0 between 1.5 and 3.5.**
 
 If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.5 and 2.5, depending on how large ('n') the outbreak is now.
 <div>
@@ -242,18 +244,16 @@ If we assume a more recent start, at the beginning of December 2019 (8 weeks ago
 <div>
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="http://data.nextstrain.org/ncov_branching-R0-recent.png"/>
 </div>
-
 ```
-
-
-
 
 # [Scientific credit](https://nextstrain.org/ncov/2020-01-23?d=map&c=author)
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
 
-The nCoV genomes were generously shared by scientists at the
+<br>
+
+The nCoV genomes were generously shared by scientists at the:
 
  * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
  * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
@@ -263,13 +263,10 @@ The nCoV genomes were generously shared by scientists at the
  * Guangdong Provincial Center for Diseases Control and Prevention
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
 
-These data were shared via [GISAID](https://gisaid.org). We gratefully acknowledge their contributions.
-
-
-
 # [Detailed scientific credit](https://nextstrain.org/ncov/2020-01-23?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org). We gratefully acknowledge their contributions.
+These data were shared via [GISAID](https://gisaid.org).
+We gratefully acknowledge their contributions.
 
 <br>
 
