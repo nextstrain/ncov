@@ -1,11 +1,11 @@
 ---
 title: Genomic analysis of nCoV spread. Situation update 2020-01-23.
-authors: "Bedford, Neher, Hadfield, Hodcroft, et al"
+authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 Jan 23"
 dataset: "https://nextstrain.org/ncov?d=map"
-abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared."
+abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
 
 
@@ -21,18 +21,18 @@ abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic dat
 
 ## Different human coronaviruses
 
-Coronaviruses (CoV) are members of a diverse species of (+)ssRNA viruses which have a history of causing respiratory infections in humans.
+Coronaviruses (CoV) are members of a diverse species of positive-sense single-stranded RNA ((+)ssRNA) viruses which have a history of causing respiratory infections in humans.
 Some variants of coronaviruses are associated with outbreaks, others are continuously circulating and cause mostly mild respiratory infections (e.g. the common cold).
 
 #### SARS-CoV & MERS-CoV
-The most well known of these coronaviruses is [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a 2002-2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a fatality rate of around 9-11%.
+The most well known of these coronaviruses is [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a Nov 2002 to Jul 2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a case fatality rate of around 9-11%.
 
 In 2012, a novel coronavirus, [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Middle East respiratory syndrome"), causing severe respiratory symptoms was identified. MERS has resulted in fatalities comparable to SARS, however the transmission route of MERS is very different. Whereas SARS was efficiently spread from one human to another, human MERS infections were generally a result of independent zoonoses (animal to human transmissions) from camels (see [Dudas _et al._](https://elifesciences.org/articles/31257) for more information). This has lead to a self-limiting outbreak largely restricted to the Arabian Peninsula.
 
 
 #### Seasonal CoV
-However it's not fair to categorize all coronaviruses as deadly as SARS-CoV and MERS-CoV.
-There are four "seasonal" coronaviruses and commonly infecting humans each year.
+However, not all coronaviruses are as deadly as SARS-CoV and MERS-CoV.
+There are four "seasonal" coronaviruses that commonly infect humans each year.
 Compared with SARS, these seasonal coronavirus strains are ["much more prevalent, much less severe, and common causes of influenza‐like illness (ILI)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
 In fact, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/) - [12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% of all ILI cases test positive for coronaviruses, so they are rather common, resulting in millions of infections every year with low severity.
 
@@ -42,7 +42,7 @@ Coronaviruses infect a wide range of animals, and the human outbreaks described 
 SARS is believed to have arrived in the human population from [horseshoe bats via a masked palm civet intermediary](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
 
 
-#### Human to Human transmission
+#### Human-to-human transmission
 The ability for different lineages to be transmitted between humans is extremely important to understand the potential development of an outbreak.
 Due to the ability of SARS to spread between humans and the high case fatality rate, SARS (or a SARS-like virus) is considered a [global public health threat](https://www.who.int/whr/2007/overview/en/index1.html) by the WHO.
 
@@ -114,19 +114,19 @@ Sequences that have the same mutations are more closely related, so these mutati
 ### Reading a Phylogenetic Tree
 
 Below, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles.
-We can see that sequences that share the same mutations group together. 
+We can see that sequences that share the same mutations group together.
 When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them - their sequences are identical.
 
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations. 
+When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
 A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
 
 <div>
   <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="http://data.nextstrain.org/toy_alignment_tree.png"/>
 </div>
 
-At the moment, the novel Coronavirus (nCoV) phylogeny may not look much like a 'tree.' 
-Many of the sequences are identical - they sit together on vertical lines like A and B (some are on the left-most part of the tree). 
-Others have unique or shared mutations and so sit on lines, or 'branches,' going to the right. 
+At the moment, the novel Coronavirus (nCoV) phylogeny may not look much like a 'tree.'
+Many of the sequences are identical - they sit together on vertical lines like A and B (some are on the left-most part of the tree).
+Others have unique or shared mutations and so sit on lines, or 'branches,' going to the right.
 You can see how many mutations a branch has by hoving your mouse over it.
 
 ```
@@ -143,7 +143,7 @@ The colours represent the city of isolation, with the x-axis representing nucleo
 <br>
 
 Divergence is measured as the number of changes (mutations) per base.
-Since the nCoV genome is 29,000 bases long, one mutation corresponds to a distance 1/29,000 = 0.0000335. 
+Since the nCoV genome is 29,000 bases long, one mutation corresponds to a distance 1/29,000 = 0.0000335.
 
 Sequences that have just one mutation sit just to the left of the 0.00004 line on the x-axis.
 
@@ -161,8 +161,8 @@ At the moment, most mutations that can be observed are singletons -- they are un
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging. 
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations. 
+Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
+Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
 Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
 
 
@@ -207,7 +207,7 @@ Previous research on related coronavirus suggests that these viruses accumulate 
 
 <br>
 
-On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak. 
+On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak.
 
 ```auspiceMainDisplayMarkdown
 
