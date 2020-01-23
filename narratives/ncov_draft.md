@@ -191,7 +191,7 @@ If we assume a more recent start at the beginning of December, the estimates for
 <div>
   <img alt="tmrca" width="500" src="http://data.nextstrain.org/ncov_branching-R0-recent.png"/>
 </div>
-
+```
 
 
 
