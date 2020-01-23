@@ -198,12 +198,12 @@ The only currently available sequence data for cases outside of China are the tw
 These samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
 
 
-# [Dating the zoonosis](https://nextstrain.org/ncov?d=tree)
-The high similarity of the genomes currently suggests they have a recent common ancestor (that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples..
+# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov?d=tree)
+The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
 
 <br>
 
-Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 0.003 - 0.001/site and year).
+Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3*10<sup>-4<sup> - 1*10<sup>-3<sup>/site and year).
 
 <br>
 
