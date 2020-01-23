@@ -8,8 +8,21 @@ dataset: "https://nextstrain.org/ncov/2020-01-23?d=map"
 abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
 
+# [Executive summary](https://nextstrain.org/ncov/2020-01-23)
 
-# [Coronaviruses](https://nextstrain.org/ncov)
+```auspiceMainDisplayMarkdown
+## Executive summary
+
+Using 24 public shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
+We find:
+* 24 sampled genomes are nearly identical, differing by 0-3 mutations
+* This lack of genetic diversity has a parsimonious explanation that the outbreak descends from a single zoonotic introduction event into the human population.
+* This event most likely occurred between mid-Nov and early-Dec 2019.
+* There has been ongoing human-to-human spread since this point resulting in observed cases.
+* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number of between 1.5 and 3.5 indicating rapid epidemic growth in the Nov-Jan period.
+```
+
+# [Coronaviruses](https://nextstrain.org/ncov/2020-01-23)
 
 ### Further Reading:
 
