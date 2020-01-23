@@ -166,7 +166,36 @@ Here, we use this star-like structure along with a Poisson distribution of mutat
   <img alt="tmrca" width="500" src="http://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
+As the more samples are sequenced, we expect the tree to show more structure such that the star topology is no longer a good assumption.
+At this point, phylodynamic estimates of the age of the epidemic will become feasible.
+
 ```
+
+# [Estimating the growth rate](https://nextstrain.org/ncov?d=tree)
+
+A central quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
+This number is known as R0 ("R-zero" or "R-nought").
+One the right, we present simple estimates of this quantity.
+
+```auspiceMainDisplayMarkdown
+
+Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases.
+Together with the above estimates of the age of the outbreak and previous information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
+
+If we assume the outbreak started beginning of November, we find that R0 should range between 1.5 and 2.5, depending on how large the outbreak is now.
+<div>
+  <img alt="tmrca" width="500" src="http://data.nextstrain.org/ncov_branching-R0-early.png"/>
+</div>
+
+If we assume a more recent start at the beginning of December, the estimates for R0 range between 1.8 and 3.5:
+<div>
+  <img alt="tmrca" width="500" src="http://data.nextstrain.org/ncov_branching-R0-recent.png"/>
+</div>
+
+
+
+
+
 
 # [Scientific credit](https://nextstrain.org/ncov?d=map&c=author)
 
