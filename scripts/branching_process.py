@@ -49,7 +49,7 @@ if __name__ == '__main__':
     T = numeric_date() - numeric_date(datetime.datetime.strptime(args.start, '%Y-%m-%d'))
     b_vals = d*np.linspace(0.5, 6, 111)
 
-    weeks = int(T*365/7)
+    weeks = int(np.round(T*365/7))
     inf_period = int(365/d)
 
     fs=16

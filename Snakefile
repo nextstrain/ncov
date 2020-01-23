@@ -31,7 +31,7 @@ rule download:
             --resolve_method choose_genbank \
             --path $(dirname {output.sequences}) \
             --fstem $(basename {output.sequences} .fasta)
-        sed -i -e 's/BetaCoV\///g' data/ncov.fasta            
+        sed -i -e 's/BetaCoV\///g' data/ncov.fasta
         """
 
 rule parse:
@@ -311,7 +311,7 @@ rule poisson_tmrca:
 rule branching_process_R0:
     params:
         infectious_period = 10, # days
-        population = [500, 3000, 10000],
+        population = [600, 3000, 15000],
         start_recent = "2019-12-01",
         start_early = "2019-11-01"
     output:
