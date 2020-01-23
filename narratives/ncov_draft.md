@@ -129,7 +129,7 @@ You can see how many mutations a branch has by hovering your mouse over it.
 
 # [Phylogenetic analysis](https://nextstrain.org/ncov/2020-01-23?d=tree)
 
-Here we present a maximum likelihood phylogeny of 24 strains of nCoV that have been publicly shared.
+Here we present a phylogeny of 24 strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
@@ -139,7 +139,7 @@ The colours represent the city of isolation, with the x-axis representing nucleo
 <br>
 
 Divergence is measured as the number of changes (mutations) per base.
-Since the nCoV genome is 29,000 bases long, one mutation corresponds to a distance 1/29,000 = 0.0000335.
+Since the nCoV genome is 29,000 bases long, one mutation corresponds to a divergence of 1/29,000 = 0.0000335.
 
 Sequences that have just one mutation sit just to the left of the 0.00004 line on the x-axis.
 
@@ -149,11 +149,11 @@ We currently see little genetic diversity across the nCoV sequences, with 8 out 
 
 <br>
 
-Low genetic diversity across these sequences suggest that the most recent common ancestor of all nCoV sequences was fairly recent.
+Low genetic diversity across these sequences suggests that the most recent common ancestor of all nCoV sequences was fairly recent, since mutations generally accumulate slowly, around 1-2 mutations per month for coronaviruses.
 
 <br>
 
-At the moment, most mutations that can be observed are singletons -- they are unique to individual genomes. Only the sequences that form the two clusters from Guangdong share mutations -- we will explore these in later slides.
+At the moment, most mutations that can be observed are singletons – they are unique to individual genomes. Only the sequences that form the two clusters from Guangdong share mutations – we will explore these in later slides.
 
 <br>
 
@@ -164,11 +164,11 @@ Insertions, deletions, and differences at the ends of the genome are more likely
 
 # [Potential within-family transmission 1](https://nextstrain.org/ncov/2020-01-23?d=tree&f_city=Shenzhen)
 
-Of the four isolates from Shenzhen (Southeastern China) we see three isolates which are genetically identical and share three mutations unique to those three samples (you can hover your mouse over the branches to see which mutations are present).
+Of the four isolates from Shenzhen (Southeastern China, Guangdong Province) we see three isolates which are genetically identical and share three mutations unique to those three samples (you can hover your mouse over the branches to see which mutations are present).
 
 <br>
 
-These three samples are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), and likely represent human-to-human transmission.
+These three samples are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), and almost certainly represent human-to-human transmission.
 
 <br>
 
@@ -177,16 +177,16 @@ Its genome has one mutation not seen in any other genome.
 
 # [Potential within-family transmission 2](https://nextstrain.org/ncov?d=tree&f_city=Zhuhai)
 
-Similarly, there are two genetically-identical isolates from Zhuhai (Southeastern China) which form a cluster, sharing one unique mutation seen in no other isolate.
+Similarly, there are two genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate.
 
 <br>
 
-These two cases are also [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission is likely.
+These two cases are also [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
 
 # [Cases outside China](https://nextstrain.org/ncov/2020-01-23?c=country&d=tree,map)
 
-There are reported nCoV cases in Thailand, USA, Japan and South Korea.
-These cases are all linked to Wuhan, and we are not aware of evidence for nCoV transmission in these countries.
+There are reported diagnostically confirmed nCoV cases in Thailand, USA, Japan and South Korea.
+These cases are all linked to Wuhan, and we are not aware of evidence for local nCoV spread in these countries.
 
 <br>
 
@@ -199,15 +199,16 @@ The high similarity of the genomes suggests they share a recent common ancestor 
 
 <br>
 
-Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3*10<sup>-4<sup> - 1*10<sup>-3<sup>/site and year).
+Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 1 &times; 10<sup>-3</sup> per site per year).
 
 <br>
 
 On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak.
 
 ```auspiceMainDisplayMarkdown
-
-Here, we assume a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses:
+## Date of the common ancestor of outbreak viruses
+Here, we assume a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
+**We find that the common ancestor most likely existed between mid-Nov and early-Dec 2019.**
 
 <div>
   <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="http://data.nextstrain.org/ncov_poisson-tmrca.png"/>
