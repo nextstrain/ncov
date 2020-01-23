@@ -113,7 +113,8 @@ Sequences that have the same mutations are more closely related, so these mutati
 
 ### Reading a Phylogenetic Tree
 
-Below, we can see that sequences that share the same mutations group together. 
+Below, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles.
+We can see that sequences that share the same mutations group together. 
 When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them - their sequences are identical.
 
 When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations. 
