@@ -65,7 +65,7 @@ In December 2019, a new illness was first detected in Wuhan, China.
 We now know this to be another outbreak of coronavirus in humans (the 7th), and it is provisionally being called nCoV (novel coronavirus).
 
 As of January 23rd, 2020 over 624 cases and 17 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
-It's still too early to know the case fatality rate, but early indications are that it is less than significantly less SARS-CoV.
+It's still too early to know the case fatality rate, but early indications are that it is significantly less than SARS-CoV.
 The case counts are dramatically rising in part due to increased surveillance and testing, with 131 new cases reported on Jan 22nd, 2020.
 
 While the outbreak seems to be centered in Wuhan, which is now [under quarantine](https://twitter.com/PDChina/status/1220060879112282117), the virus has spread throughout China and abroad, including Hong Kong, Macau, Thailand, USA, Japan and South Korea, but local transmission outside of China has yet to be reported.
