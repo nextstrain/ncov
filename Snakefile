@@ -31,6 +31,7 @@ rule download:
             --resolve_method choose_genbank \
             --path $(dirname {output.sequences}) \
             --fstem $(basename {output.sequences} .fasta)
+        sed -i -e 's/BetaCoV\///g' data/ncov.fasta            
         """
 
 rule parse:

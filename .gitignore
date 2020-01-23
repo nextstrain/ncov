@@ -3,6 +3,7 @@
 results/
 build/
 data/ncov.fasta
+data/ncov.fasta-e
 data/sequences.fasta
 
 # Sensitive environment variables
