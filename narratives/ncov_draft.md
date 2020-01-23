@@ -115,10 +115,8 @@ In this example, three mutations (little diamonds) are indicated on the tree and
 
 Here we present a maximum likelihood phylogeny of 24 strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging and not all differences observed in these sequences might represent actual mutations but could instead be due to sequencing errors.
-Insertions and deletions as well as differences at the ends of the genome are more likely to be errors and we therefore masked those for the purposes of this analysis.
 
-The colours represent the city of isolation, with the x-axis representing nucleotide divergence (you can hover over the branches to see which mutations are present on a given branch.)
+The colours represent the city of isolation, with the x-axis representing nucleotide divergence.
 Divergence is measured as the number of changes per site.
 Since the genome is 29'000 bases long, one mutation corresponds to a distance 1/29'000 = 0.0000335.
 
@@ -128,14 +126,13 @@ Since the genome is 29'000 bases long, one mutation corresponds to a distance 1/
 
 * At the moment, most mutations that can be observed are singletons -- that is they are unique to individual genomes. Only sequences form two clusters from Guangdong share mutations -- we will explore in the following slides.
 
-Previous estimates of the rate at which mutations accumulate in Coronaviruses suggest a rate of about 1-3 changes per month.
-The sequence data available to date therefore points towards an common ancestor of the sampled cases between early November to early December 2019.
-While the sequences provide allow to make inferences about the age of the outbreak, they don't allow us to differentiate between multiple transmission from a homogeneous animal reservoir and a single animal-human transmission followed by spread among humans.
+Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging and not all differences observed in these sequences might represent actual mutations but could instead be due to sequencing errors.
+Insertions and deletions as well as differences at the ends of the genome are more likely to be errors and we therefore masked those for the purposes of this analysis.
 
 
 # [Potential within-family transmission I](https://nextstrain.org/ncov?d=tree&f_city=Shenzhen)
 
-Of the four isolates from Shenzhen (Southeastern China) we see three isolates which are genetically identical and share three mutations unique to those three samples.
+Of the four isolates from Shenzhen (Southeastern China) we see three isolates which are genetically identical and share three mutations unique to those three samples (you can hover over the branches to see which mutations are present on a given branch),
 These three samples are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896) and likely represent human to human transmission.
 
 The fourth sample does not seem to be related to the other three or to any other of the available sequences.
@@ -176,6 +173,37 @@ Here, we use this star-like structure along with a Poisson distribution of mutat
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
 
-.
+The nCoV genomes were generously shared by scientists at the
 
-The nCoV genomes were generously shared by scientists at the Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China (Wuhan-Hu-1/2019), at the National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China (Wuhan/IVDC-HB-01/2019, Wuhan/IVDC-HB-04/2020, Wuhan/IVDC-HB-05/2019) at the Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China (Wuhan/IPBCAMS-WH-01/2019, Wuhan/IPBCAMS-WH-02/2019, Wuhan/IPBCAMS-WH-03/2019, Wuhan/IPBCAMS-WH-04/2019), at the Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China (Wuhan/WIV02/2019, Wuhan/WIV04/2019, Wuhan/WIV05/2019, Wuhan/WIV06/2019, Wuhan/WIV07/2019), at the Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China (Zhejiang/WZ-01/2020, Zhejiang/WZ-02/2020), at the Guangdong Provincial Center for Diseases Control and Prevention (Guangdong/20SF012/2020, Guangdong/20SF013/2020, Guangdong/20SF014/2020, Guangdong/20SF025/2020, Guangdong/20SF028/2020, Guangdong/20SF040/2020) and at the Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand (Nonthaburi/61/2020, Nonthaburi/74/2020) via GISAID. We gratefully acknowledgement their contributions.
+ * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
+   - Wuhan-Hu-1/2019
+ * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
+   - Wuhan/IVDC-HB-01/2019
+   - Wuhan/IVDC-HB-04/2020
+   - Wuhan/IVDC-HB-05/2019)
+ * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
+   - Wuhan/IPBCAMS-WH-01/2019
+   - Wuhan/IPBCAMS-WH-02/2019
+   - Wuhan/IPBCAMS-WH-03/2019
+   - Wuhan/IPBCAMS-WH-04/2019
+ * Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China
+   - Wuhan/WIV02/2019
+   - Wuhan/WIV04/2019
+   - Wuhan/WIV05/2019
+   - Wuhan/WIV06/2019
+   - Wuhan/WIV07/2019
+ * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
+   - Zhejiang/WZ-01/2020
+   - Zhejiang/WZ-02/2020
+ * Guangdong Provincial Center for Diseases Control and Prevention
+   - Guangdong/20SF012/2020
+   - Guangdong/20SF013/2020
+   - Guangdong/20SF014/2020
+   - Guangdong/20SF025/2020
+   - Guangdong/20SF028/2020
+   - Guangdong/20SF040/2020
+ * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
+   - Nonthaburi/61/2020
+   - Nonthaburi/74/2020
+
+These data were shared via [GISAID](https://gisaid.org). We gratefully acknowledge their contributions.
