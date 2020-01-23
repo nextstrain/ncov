@@ -156,6 +156,12 @@ Since the nCoV genome is 29,000 bases long, one mutation corresponds to a diverg
 
 Sequences that have just one mutation sit just to the left of the 0.00004 line on the x-axis.
 
+<br>
+
+Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
+Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
+Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
+
 # [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-23?d=tree)
 
 We currently see little genetic diversity across the nCoV sequences, with 8 out of 24 sequences having no unique mutations.
@@ -163,17 +169,12 @@ We currently see little genetic diversity across the nCoV sequences, with 8 out 
 <br>
 
 Low genetic diversity across these sequences suggests that the most recent common ancestor of all nCoV sequences was fairly recent, since mutations generally accumulate slowly, around 1-2 mutations per month for coronaviruses.
+Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV and avian flu).
+The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
 
 <br>
 
 At the moment, most mutations that can be observed are singletons – they are unique to individual genomes. Only the sequences that form the two clusters from Guangdong share mutations – we will explore these in later slides.
-
-<br>
-
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
-
 
 # [Potential within-family transmission 1](https://nextstrain.org/ncov/2020-01-23?d=tree&f_city=Shenzhen)
 
