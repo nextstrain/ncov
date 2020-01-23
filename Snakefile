@@ -301,7 +301,7 @@ rule poisson_tmrca:
         metadata = rules.parse.output.metadata,
         nt_muts = rules.ancestral.output.node_data
     output:
-        "figures/ncov_poisson_tmrca.png"
+        "figures/ncov_poisson-tmrca.png"
     shell:
         """
         python scripts/tmrca_estimate.py --tree {input.tree} --metadata {input.metadata} --node-data {input.nt_muts} --output {output}
@@ -314,8 +314,8 @@ rule branching_process_R0:
         start_recent = "2019-12-01",
         start_early = "2019-11-01"
     output:
-        "figures/branching_R0_recent.png",
-        "figures/branching_R0_early.png"
+        "figures/ncov_branching-R0-recent.png",
+        "figures/ncov_branching-R0-early.png"
     shell:
         """
         python scripts/branching_process.py --infectious-period {params.infectious_period}\

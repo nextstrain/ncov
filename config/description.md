@@ -5,7 +5,7 @@ We now observe clustering of related infections. These are a cluster of two infe
 Here, we use this star-like structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor of sequenced viruses:
 
 <div>
-  <img alt="tmrca" width="500" src="http://data.nextstrain.org/ncov_poisson_tmrca.png"/>
+  <img alt="tmrca" width="500" src="http://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
 Site numbering and genome structure uses [BetaCoV/Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to the closest outgroup virus [bat-SL-CoVZXC21](https://www.ncbi.nlm.nih.gov/nuccore/MG772934). Temporal resolution assumes a nucleotide substitution rate consistent with MERS-CoV evolution of 4.59 &times; 10^-4 subs per site per year. There were 6 SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. A SNP at 18529 in Wuhan/IVDC-HB-04/2020 appears directly adjacent to long stretch of ambiguous bases and so has also been masked. Full details on bioinformatic processing can be found [here](https://github.com/nextstrain/ncov). The sample Wuhan/IPBCAMS-WH-05/2020 has been dropped from the analysis due to the appearance of clustered, spurious SNPs.
