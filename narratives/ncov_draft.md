@@ -1,6 +1,6 @@
 ---
 title: DRAFT nCoV narrative
-authors: "Bedford, Neher, Hadfield, Muller et al (TODO)"
+authors: "Bedford, Neher, Hadfield, Mueller et al (TODO)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA"
 date: "23rd January 2020"
@@ -28,25 +28,25 @@ _copy Richard's guide here?_
 
 # [Phylogenetic analysis](https://nextstrain.org/ncov?d=tree)
 
-* A lot of the samples (8/24) are genetically identical.
-* Very little diversity indicating a single zoonosis or a highly homegenous (and therefore recent?) reservoir.
-* Most mutations are singletons -- that is they are not shared by other genomes, however we are starting to see come clustering which we will explore in the following slides.
+* We currently see little genetic diversity across the nCov sequences with 8 out of 24 sequences being genetically identical.
+* Low genetic diversity across these sequences suggest that the most recent common ancestor of all nCov sequences was fairly recent. 
+* At the moment, most mutations that can be observed are singletons -- that is they are unique to individual genomes. However, we are starting to see come clustering which we will explore in the following slides.
 
 # [Potential within-family transmission I](https://nextstrain.org/ncov?d=tree&f_city=Shenzhen)
 
-Of the four isolates from Shenzhen (Southeastern China) we see three isolates which are genetically identical and all sharing 3 mutations with the root of the tree.
+Of the four isolates from Shenzhen (Southeastern China) we see three isolates which are genetically identical and all share mutations unique to those 3 samples.
 These samples have been indicated as putative within-family transmission via epidemiological data _to do - cite GISAID_
 
 # [Potential within-family transmission II](https://nextstrain.org/ncov?d=tree&f_city=Zhuhai)
 
 * Less clear whether this is within-family _need to check GISAID_
 
-
-# [Worldwide transmission](https://nextstrain.org/ncov?c=country&d=tree,map)
+# [Cases outside china](https://nextstrain.org/ncov?c=country&d=tree,map)
 
 There are reported nCoV cases in South Korea (n=1), USA (n=1), Thailand (n=2) and Japan (n=2).
-The only sequence data is for the two Thai cases, which are coloured here in Red.
-These samples are genetically identical to the root of the tree, as well as 6 other genomes sequences from Chinese cases.
+These cases are all linked to Wuhan and there is no evidence for transmission of nCov in these countries (true?).
+The only currently available sequence data is for the two cases from Thailand, which are coloured here in Red.
+These samples are genetically identical to sequences isolated in Wuhan, as well as 6 other genomes sequences from Chinese cases.
 
 
 # [Dating the zoonosis](https://nextstrain.org/ncov?d=tree)
