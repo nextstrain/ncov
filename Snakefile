@@ -1,6 +1,11 @@
+def get_todays_date():
+    from datetime import datetime
+    date = datetime.today().strftime('%Y-%m-%d')
+    return date
+
 rule all:
     input:
-        auspice_json = "auspice/ncov.json",
+        dated_auspice_json = expand("auspice/ncov_{date}.json", date=get_todays_date()),
 
 rule files:
     params:
@@ -12,7 +17,8 @@ rule files:
         auspice_config = "config/auspice_config.json",
         colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
-        description = "config/description.md"
+        description = "config/description.md",
+        auspice_json = "auspice/ncov.json"
 
 files = rules.files.params
 
@@ -21,7 +27,7 @@ rule download:
     output:
         sequences = "data/ncov.fasta"
     params:
-        fasta_fields = "strain virus accession collection_date region country division city locus host originating_lab submitting_lab authors url title journal puburls"
+        fasta_fields = "strain virus accession collection_date region country location locus host originating_lab submitting_lab authors url title journal puburls"
     shell:
         """
         python3 ../fauna/vdb/download.py \
@@ -32,6 +38,8 @@ rule download:
             --path $(dirname {output.sequences}) \
             --fstem $(basename {output.sequences} .fasta)
         sed -i -e 's/BetaCoV\///g' data/ncov.fasta
+        sed -i -e 's/2019-nCoV_//g' data/ncov.fasta
+        sed -i -e 's/2019-nCoV\///g' data/ncov.fasta
         """
 
 rule parse:
@@ -42,8 +50,8 @@ rule parse:
         sequences = "data/sequences.fasta",
         metadata = "data/metadata.tsv"
     params:
-        fasta_fields = "strain virus accession date region country division city segment host originating_lab submitting_lab authors url title",
-        prettify_fields = "region country division city"
+        fasta_fields = "strain virus accession date region country location segment host originating_lab submitting_lab authors url title",
+        prettify_fields = "region country location"
     shell:
         """
         augur parse \
@@ -86,17 +94,17 @@ rule filter:
             --min-length {params.min_length}
         """
 
-rule include_outgroup:
-    message: "Including outgroup"
-    input:
-        sequences = rules.filter.output.sequences,
-        outgroup = files.outgroup
-    output:
-        sequences = "results/filtered_with_outgroup.fasta"
-    shell:
-        """
-        cat {input.sequences} {input.outgroup} > {output.sequences}
-        """
+# rule include_outgroup:
+#     message: "Including outgroup"
+#     input:
+#         sequences = rules.filter.output.sequences,
+#         outgroup = files.outgroup
+#     output:
+#         sequences = "results/filtered_with_outgroup.fasta"
+#     shell:
+#         """
+#         cat {input.sequences} {input.outgroup} > {output.sequences}
+#         """
 
 rule align:
     message:
@@ -105,7 +113,7 @@ rule align:
           - filling gaps with N
         """
     input:
-        sequences = rules.include_outgroup.output.sequences,
+        sequences = rules.filter.output.sequences,
         reference = files.reference
     output:
         alignment = "results/aligned.fasta"
@@ -158,43 +166,43 @@ rule tree:
             --output {output.tree}
         """
 
-rule root:
-    message:
-        """
-        Rooting tree
-        """
-    input:
-        tree = rules.tree.output.tree,
-        alignment = rules.mask.output,
-        metadata = rules.parse.output.metadata
-    output:
-        tree = "results/tree_rooted.nwk"
-    params:
-        root = "bat-SL-CoVZXC21"
-    shell:
-        """
-        augur refine \
-            --tree {input.tree} \
-            --alignment {input.alignment} \
-            --metadata {input.metadata} \
-            --output-tree {output.tree} \
-            --root {params.root}
-        """
-
-rule prune_outgroup:
-    message: "Pruning the outgroup from the tree"
-    input:
-        tree = rules.root.output.tree
-    output:
-        tree = "results/tree_pruned.nwk"
-    params:
-        root = "bat-SL-CoVZXC21"
-    run:
-        from Bio import Phylo
-        T = Phylo.read(input[0], "newick")
-        outgroup = [c for c in T.find_clades() if str(c.name) == params[0]][0]
-        T.prune(outgroup)
-        Phylo.write(T, output[0], "newick")
+# rule root:
+#     message:
+#         """
+#         Rooting tree
+#         """
+#     input:
+#         tree = rules.tree.output.tree,
+#         alignment = rules.mask.output,
+#         metadata = rules.parse.output.metadata
+#     output:
+#         tree = "results/tree_rooted.nwk"
+#     params:
+#         root = "bat-SL-CoVZXC21"
+#     shell:
+#         """
+#         augur refine \
+#             --tree {input.tree} \
+#             --alignment {input.alignment} \
+#             --metadata {input.metadata} \
+#             --output-tree {output.tree} \
+#             --root {params.root}
+#         """
+#
+# rule prune_outgroup:
+#     message: "Pruning the outgroup from the tree"
+#     input:
+#         tree = rules.root.output.tree
+#     output:
+#         tree = "results/tree_pruned.nwk"
+#     params:
+#         root = "bat-SL-CoVZXC21"
+#     run:
+#         from Bio import Phylo
+#         T = Phylo.read(input[0], "newick")
+#         outgroup = [c for c in T.find_clades() if str(c.name) == params[0]][0]
+#         T.prune(outgroup)
+#         Phylo.write(T, output[0], "newick")
 
 rule refine:
     message:
@@ -205,13 +213,14 @@ rule refine:
           - estimate {params.date_inference} node dates
         """
     input:
-        tree = rules.prune_outgroup.output.tree,
+        tree = rules.tree.output.tree,
         alignment = rules.mask.output,
         metadata = rules.parse.output.metadata
     output:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
     params:
+        root = "Wuhan/IPBCAMS-WH-01/2019",
         clock_rate = 0.000459, # estimate taken from MERS via Dudas et al. 2018. eLife.
         clock_std_dev = 0.0003,
         coalescent = "skyline",
@@ -224,7 +233,7 @@ rule refine:
             --metadata {input.metadata} \
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
-            --keep-root \
+            --root {params.root} \
             --timetree \
             --clock-rate {params.clock_rate} \
             --clock-std-dev {params.clock_std_dev} \
@@ -282,7 +291,7 @@ rule export:
         lat_longs = files.lat_longs,
         description = files.description
     output:
-        auspice_json = rules.all.input.auspice_json
+        auspice_json = files.auspice_json
     shell:
         """
         augur export v2 \
@@ -294,6 +303,17 @@ rule export:
             --lat-longs {input.lat_longs} \
             --description {input.description} \
             --output {output.auspice_json}
+        """
+
+rule dated_json:
+    message: "Copying dated Auspice JSON"
+    input:
+        auspice_json = rules.export.output.auspice_json
+    output:
+        dated_auspice_json = rules.all.input.dated_auspice_json
+    shell:
+        """
+        cp {input.auspice_json} {output.dated_auspice_json}
         """
 
 rule poisson_tmrca:
