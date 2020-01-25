@@ -199,21 +199,21 @@ The sequences form Shenzhen are [known to come from a single family](https://www
 <br>
 
 
-# [Cases outside China](https://nextstrain.org/ncov/2020-01-25?c=country&d=tree,map)
+# [Cases outside China](https://nextstrain.org/ncov/2020-01-25?c=country&d=tree&m=div)
 
 There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, and Europe.
 Vietnam has reported a case without travel history to Wuhan who possibly got infected from a [relative visiting from Wuhan](https://www.aljazeera.com/news/2020/01/china-coronavirus-outbreak-latest-updates-200123133559818.html).
 
 <br>
 
-The only currently available sequence data for cases outside of China are the two cases from Thailand and the USA, which are coloured here in yellow and red, respectively.
+The only currently available sequence data for cases outside of China are the two cases from Thailand and one case from the USA, which are coloured here in yellow and red, respectively.
 The Thai samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
 The sequence from Washington, US, shares two mutations with the cluster of sequences from Shenzhen.
 
 <br>
 
 The case from Washington, USA, had travelled to Wuhan.
-The most parsimonious explanation for the observed pattern of mutation sharing is that viruses with the two shared mutations circulated in Wuhan and were independently exported to Shenzhen and the USA.
+The most parsimonious explanation for the observed pattern of mutation sharing is the virus variant with the two shared mutations circulates in Wuhan and was independently exported to Shenzhen and the USA.
 
 
 
