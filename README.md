@@ -20,6 +20,8 @@ with a [containerized Nextstrain installation](https://nextstrain.org/docs/getti
 
 The resulting output JSON at `auspice/ncov.json` can be visualized by running `auspice view --datasetDir auspice` or `nextstrain view auspice/` depending on local vs containerized installation.
 
+_This requires Augur version >=6.2.0, released Jan 25, 2020._
+
 ## Notes
 
 There were 6 SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. A SNP at 18529 in BetaCoV/Wuhan/IVDC-HB-04/2020 appears directly adjacent to long stretch of ambiguous bases and so has also been masked.
