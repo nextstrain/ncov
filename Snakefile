@@ -176,7 +176,8 @@ rule refine:
         clock_rate = 0.00035,
         clock_std_dev = 0.00015,
         coalescent = "skyline",
-        date_inference = "marginal"
+        date_inference = "marginal",
+        divergence_unit = "mutations"
     shell:
         """
         augur refine \
@@ -191,6 +192,7 @@ rule refine:
             --clock-std-dev {params.clock_std_dev} \
             --coalescent {params.coalescent} \
             --date-inference {params.date_inference} \
+            --divergence-unit {params.divergence_unit} \
             --date-confidence \
             --no-covariance
         """
