@@ -5,7 +5,7 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 Jan 25"
 dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
-abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
 
 # [Executive summary](https://nextstrain.org/ncov/2020-01-25)
@@ -13,10 +13,10 @@ abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic dat
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 27 public shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
+Using 27 publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
 We find:
 * 27 sampled genomes are very similar, differing by 0-5 mutations
-* This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal to human transmissions of very similar viruses.
+* This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
 * This event most likely occurred in November or early December 2019.
 * There has been ongoing human-to-human spread since this point resulting in observed cases.
 * Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.5 and 3.5 indicating rapid growth in the Nov-Jan period.
@@ -78,7 +78,7 @@ Due to the ability of SARS to spread between humans and the high case fatality r
 In December 2019, a new illness was first detected in Wuhan, China.
 We now know this to be another outbreak of coronavirus in humans (the 7th), and it is provisionally being called nCoV (novel coronavirus).
 
-As of January 25rd, 2020 over 1400 cases and 42 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
+As of January 25th over 1400 cases and 42 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
 It's still too early to know the case fatality rate, but early indications are that it is significantly less than SARS-CoV.
 The case counts are dramatically rising in part due to increased surveillance and testing.
 
@@ -176,7 +176,7 @@ The observation of such strong clustering of human infections can be explained b
 
 At the moment, most mutations that can be observed are singletons – they are unique to individual genomes. Only the sequences that form the two clusters from Guangdong and the sequence form the USA share mutations – we will explore these in later slides.
 
-# [Potential within-family transmission 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
+# [Within-family transmission 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
 There are two genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
 
@@ -185,7 +185,7 @@ There are two genetically-identical isolates from Zhuhai (Southeastern China, Gu
 These two cases are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
 
 
-# [Potential within-family transmission 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
+# [Within-family transmission 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
 
 Of the six isolates from Shenzhen (Southeastern China, Guangdong Province) we see four isolates which are genetically identical.
 These sequences differ by 3 mutations from the root of the tree.
@@ -213,8 +213,7 @@ The sequence from Washington, US, shares two mutations with the cluster of seque
 <br>
 
 The case from Washington, USA, had travelled to Wuhan.
-The most parsimonious explanation for the observed pattern of mutation sharing is the virus variant with the two shared mutations circulates in Wuhan and was independently exported to Shenzhen and the USA.
-
+The most parsimonious explanation for the observed pattern of mutation sharing is the virus variant with the two shared mutations was circulating in Wuhan and was independently exported to Shenzhen and to the USA.
 
 
 # [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-25?d=tree)
@@ -231,7 +230,7 @@ On the right, we explore how different assumptions about the rate of change, and
 ```auspiceMainDisplayMarkdown
 ## Date of the common ancestor of outbreak viruses
 Here, we assume a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
-**We find that the common ancestor most likely existed between mid-Nov and early-Dec 2019.**
+**We find that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019.**
 
 <div>
   <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
@@ -239,6 +238,8 @@ Here, we assume a star-like phylogeny structure along with a Poisson distributio
 
 As the more samples are sequenced, we expect the tree to show more structure, such that the star-like phylogeny topology is no longer a good assumption.
 At this point, phylodynamic estimates of the age of the epidemic will become feasible.
+
+There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor. And strongly suggests evolutionary rates of ~3.0 x 10^-4 are more plausible.
 
 ```
 
@@ -331,6 +332,6 @@ The nCoV genomes were generously shared by scientists at the
    - Nonthaburi/61/2020
    - Nonthaburi/74/2020
  * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
-   - 2019-nCoV/USA-WA1/2020
+   - USA-WA1/2020
 
 ```
