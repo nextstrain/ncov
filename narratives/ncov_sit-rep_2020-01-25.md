@@ -198,9 +198,6 @@ The sequences form Shenzhen are [known to come from a single family](https://www
 
 <br>
 
-The case from Washington, USA, had travelled to Wuhan.
-The most parsimonious explanation for the observed pattern of mutation sharing is that viruses with the two shared mutations circulate in Wuhan and were independently exported to Shenzhen and the USA.
-
 
 # [Cases outside China](https://nextstrain.org/ncov/2020-01-25?c=country&d=tree,map)
 
@@ -209,8 +206,15 @@ Vietnam has reported a case without travel history to Wuhan who possibly got inf
 
 <br>
 
-The only currently available sequence data for cases outside of China are the two cases from Thailand, which are coloured here in red.
-These samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
+The only currently available sequence data for cases outside of China are the two cases from Thailand and the USA, which are coloured here in yellow and red, respectively.
+The Thai samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
+The sequence from Washington, US, shares two mutations with the cluster of sequences from Shenzhen.
+
+<br>
+
+The case from Washington, USA, had travelled to Wuhan.
+The most parsimonious explanation for the observed pattern of mutation sharing is that viruses with the two shared mutations circulated in Wuhan and were independently exported to Shenzhen and the USA.
+
 
 
 # [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-25?d=tree)
@@ -281,6 +285,7 @@ The nCoV genomes were generously shared by scientists at the:
  * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
  * Guangdong Provincial Center for Diseases Control and Prevention
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
+ * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
 
 # [Detailed scientific credit](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
 
@@ -325,5 +330,7 @@ The nCoV genomes were generously shared by scientists at the
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
    - Nonthaburi/61/2020
    - Nonthaburi/74/2020
+ * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
+   - 2019-nCoV/USA-WA1/2020
 
 ```
