@@ -78,7 +78,7 @@ Due to the ability of SARS to spread between humans and the high case fatality r
 In December 2019, a new illness was first detected in Wuhan, China.
 We now know this to be another outbreak of coronavirus in humans (the 7th), and it is provisionally being called nCoV (novel coronavirus).
 
-As of January 25rd, 2020 over 1300 cases and 45 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
+As of January 25rd, 2020 over 1400 cases and 42 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
 It's still too early to know the case fatality rate, but early indications are that it is significantly less than SARS-CoV.
 The case counts are dramatically rising in part due to increased surveillance and testing.
 
@@ -141,20 +141,20 @@ Others have unique or shared mutations and so sit on lines, or 'branches', going
 You can see how many mutations a branch has by hovering your mouse over it.
 ```
 
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-01-25?d=tree)
+# [Phylogenetic analysis](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
 
-Here we present a phylogeny of 24 strains of nCoV that have been publicly shared.
+Here we present a phylogeny of 27 strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
 
-The colours represent the city of isolation, with the x-axis representing nucleotide divergence.
+The colours represent the city/US-state of isolation, with the x-axis representing nucleotide divergence.
 
 <br>
 
 Divergence is measured as the number of changes (mutations) in the genome.
 Several sequences have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have been one and five mutations.
+Other viruses have between one and five mutations.
 
 <br>
 
@@ -162,7 +162,7 @@ Sequencing the genome of a large novel RNA virus in an evolving outbreak situati
 Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
 Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
 
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-25?d=tree)
+# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
 We currently see little genetic diversity across the nCoV sequences, with 8 out of 27 sequences having no unique mutations.
 
@@ -176,7 +176,7 @@ The observation of such strong clustering of human infections can be explained b
 
 At the moment, most mutations that can be observed are singletons – they are unique to individual genomes. Only the sequences that form the two clusters from Guangdong and the sequence form the USA share mutations – we will explore these in later slides.
 
-# [Potential within-family transmission 1](https://nextstrain.org/2020-01-25?ncov?d=tree&f_city=Zhuhai)
+# [Potential within-family transmission 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
 There are two genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
 
@@ -185,7 +185,7 @@ There are two genetically-identical isolates from Zhuhai (Southeastern China, Gu
 These two cases are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
 
 
-# [Potential within-family transmission 2](https://nextstrain.org/ncov/2020-01-25?d=tree&f_city=Shenzhen)
+# [Potential within-family transmission 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
 
 Of the six isolates from Shenzhen (Southeastern China, Guangdong Province) we see four isolates which are genetically identical.
 These sequences differ by 3 mutations from the root of the tree.
