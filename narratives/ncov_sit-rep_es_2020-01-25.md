@@ -1,5 +1,5 @@
 ---
-title: Análisis genómico de la propagación de nCoV. Informe de la situación hasta 2020-01-25.
+title: Análisis genómico de la propagación del nCoV. Informe de la situación hasta 2020-01-25.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Julian Villabona-Arenas"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; and CMMID & LSHTM, London, UK"
@@ -18,13 +18,13 @@ fecha de la traducción: "2020 Jan 26"
 ```auspiceMainDisplayMarkdown
 ## Resumen Ejecutivo
 
-Examinamos la diversidad genética 27 genomas públicos del nuevo coronavirus (nCoV) para inferir la fecha del ancestro común más reciente y la tasa de propagación.
-Encontramos:
-* Los 27 genomas muestreados son muy similares y solo han acumulado entre 0 y 5 mutaciones.
-* La explicación mas parsimoniosa para este bajo grado de diversidad genética es que el brote proviene de una sola introducción en la población humana. También es posible que un pequeño número de transmisiones de virus muy similares hayan ocurrido desde animales a humanos.
-* Este evento probablemente ocurrió en noviembre o principios de diciembre de 2019.
+Hemos examinados la diversidad genética de los 27 genomas públicos del nuevo coronavirus (nCoV) para inferir la fecha del ancestro común más reciente y la tasa de propagación del virus.
+Principales hallazgos:
+* Los 27 genomas muestreados son muy similares y solamente han acumulado entre 0 y 5 mutaciones.
+* La explicación más parsimoniosa para el bajo grado de diversidad genética observado es que el brote proviene de una sola introducción en la población humana. También es posible que un pequeño número de transmisiones de virus muy similares hayan ocurrido desde animales a humanos (zoonosis).
+* Este evento probablemente ocurrió entre noviembre y principios de diciembre de 2019.
 * Ha habido una propagación continua de persona a persona desde su introducción, lo que resulta en los casos observados.
-* Usando las estimaciones del número total de casos hechas por el Imperial College de Londres (del orden de varios miles de casos), inferimos un número reproductivo que oscila entre 1.5 y 3.5. Estas cifras indican un rápido crecimiento de la epidemia en el período de noviembre a enero.
+* Usando las estimaciones del número total de casos hechas por el Imperial College de Londres (del orden de varios miles de casos), hemos inferido un número reproductivo que oscila entre 1.5 y 3.5. Estas cifras indican un rápido crecimiento de la epidemia en el período comprendido entre noviembre y enero.
 ```
 
 # [Coronavirus](https://nextstrain.org/ncov/2020-01-25)
@@ -41,25 +41,25 @@ Encontramos:
 ## Diferentes coronavirus humanos
 
 
-Los coronavirus (CoV) agrupan diversas especies de virus de ARN ((+) ssRNA) de sentido positivo que causan infecciones respiratorias en humanos.
-Algunas variantes de los coronavirus están asociadas solamente con brotes, otras circulan continuamente y causan generalmente infecciones respiratorias leves (por ejemplo, el resfriado común).
+Los coronavirus (CoV) agrupan diversas especies de virus de ARN de sentido positivo ((+) ssRNA) que causan infecciones respiratorias en humanos.
+Algunas variantes de los coronavirus están asociadas solamente con brotes, otras circulan continuamente y causan generalmente infecciones respiratorias leves (por ejemplo, un resfriado común).
 
 #### SARS-CoV y MERS-CoV
-El más conocido de estos coronavirus es el [SARS-CoV](https://es.wikipedia.org/wiki/S%C3%ADndrome_respiratorio_agudo_grave) ("síndrome respiratorio agudo severo"), que en un brote que ocurrió entre noviembre de 2002 y julio de 2003 y se propagó por todo el mundo resultando en [más de 8000 casos y 774 muertes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), con una tasa de letalidad de alrededor del 9-11%.
+El más conocido de estos coronavirus es el [SARS-CoV](https://es.wikipedia.org/wiki/S%C3%ADndrome_respiratorio_agudo_grave) ("síndrome respiratorio agudo severo"), que fue responsable por el brote que ocurrió entre noviembre de 2002 y julio de 2003 y que se propagó por todo el mundo resultando en [más de 8000 casos y 774 muertes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), con una tasa de letalidad de entre el 9% y el 11%.
 
-En 2012, un nuevo coronavirus [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Síndrome respiratorio del Medio Oriente"), asociado con síntomas respiratorios graves fue identificado. MERS ha resultado en un número de muertes comparable al SARS, sin embargo, la ruta de transmisión de MERS es muy diferente. Mientras que el SARS se propagó eficientemente de un humano a otro, las infecciones por MERS en humanos fueron generalmente el resultado de zoonosis independientes (transmisiones de animales a humanos) a partir de  camellos (consultar [Dudas _et al._](https://elifesciences.org/articles/31257) para mayores informaciones). Esto ha llevado a que el brote de MERS se limita a la Península Arábiga.
+En 2012, un nuevo coronavirus [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Síndrome respiratorio del Medio Oriente"), asociado con síntomas respiratorios graves fue identificado. MERS ha resultado en un número de muertes comparable al SARS, sin embargo, la ruta de transmisión de MERS es muy diferente. Mientras que el SARS se propagó eficientemente de persona a persona, las infecciones por MERS en humanos fueron generalmente el resultado de varias zoonosis independientes (transmisiones de animales a humanos) a partir de  camellos (consultar [Dudas _et al._](https://elifesciences.org/articles/31257) para mayores informaciones). Esto ha llevado a que el brote de MERS se encuentra restringido a la Península Arábiga.
 
 
 #### CoV estacional
-Sin embargo, no todos los coronavirus son tan mortales como el SARS-CoV y el MERS-CoV. Hay cuatro coronavirus "estacionales" que comúnmente infectan a los humanos cada año.
-En comparación con el SARS, estas cepas estacionales de coronavirus son ["mucho más prevalentes, mucho menos graves y causan generalmente enfermedades similares a la influenza (ILI)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
-De hecho, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% de todos los casos de Ili dan positivo en las pruebas de infección por coronavirus, por lo tanto, son bastante comunes, lo que resulta en millones de infecciones leves cada año.
-Estos coronavirus estacionales son el resultado de múltiples zoonosis a partir de murciélagos que ocurrieron hace aproximadamente 100 años. Después de la transmisión entre especies, cada virus estableció una transmisión continua y generalizada en la población humana.
+Sin embargo, no todos los coronavirus son tan letales como el SARS-CoV y el MERS-CoV. Hay cuatro coronavirus "estacionales" que comúnmente infectan a los humanos cada año.
+En comparación con el SARS, estas cepas estacionales de coronavirus son ["mucho más prevalentes, mucho menos graves y causan generalmente enfermedades similares a la influenza (ILI, por sus siglas en inglés)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
+De hecho, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% de todos los casos de ILI dan positivo en las pruebas de infección por coronavirus, por lo tanto, los coronavirus estacionales son bastante comunes, lo que resulta en millones de infecciones leves cada año.
+Estos coronavirus estacionales son el resultado de varias zoonosis independientes a partir de murciélagos que funcionan como un reservorio animal y que ocurrieron hace aproximadamente 100 años. Después de la transmisión entre especies, cada virus estableció una transmisión continua y generalizada en la población humana.
 
 
 #### Reservorios animales
 Los coronavirus infectan una amplia gama de animales y los brotes humanos supracitados son el resultado de uno o más "saltos" de estos reservorios animales a la población humana.
-Se cree que el SARS fue introducido en la población humana a partir de  [murciélagos de herradura--Rhinolophidae--con la ayuda de civetas--Paguma larvata--como intermediario](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
+Se cree que el SARS fue introducido en la población humana a partir de  [murciélagos de herradura (Rhinolophidae) con la ayuda de civetas (Paguma larvata) como intermediario](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
 
 
 #### Transmisión de persona a persona
