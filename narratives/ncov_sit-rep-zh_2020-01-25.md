@@ -16,7 +16,7 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 至今我们使用27个公开共享的新型冠状病毒基因组，检查了遗传多样性以推断共同祖先的日期和传播速度。
 我们发现:
 * 27个采样的基因组非常相似，相差0-5个突变。 
-* This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.  
+* 缺乏遗传多样性表明了病毒可能来自于一次动物传人的病例或少数但相同的动物传人的病毒而引起的.  
 * 此传播事件最有可能发生在2019年11月或12月初。 
 * 传播事件之后，疫情即便开始人传人，导致观察到病例。 
 * 根据伦敦帝国理工学院（Imperial London London）的总病例数估算值，我们得出的生殖数在1.5到3.5之间，表明在11月至1月期间迅速增长。 
@@ -91,7 +91,7 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 # [如何解读系统树](https://nextstrain.org/ncov/2020-01-25)
 
-### Further Reading:
+### 更多资料:
 
 * [Exploring interactive phylogenies with Auspice](https://neherlab.org/201901_krisp_auspice.html) _2019-01-24_
 
