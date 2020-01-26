@@ -234,7 +234,8 @@ A la derecha, exploramos cómo las diferentes suposiciones sobre la tasa de camb
 ```auspiceMainDisplayMarkdown
 ## Fecha de origen del ancestro común de los virus del brote
 Hemos asumido una estructura filogenética con forma de estrella y una distribución de Poisson para las mutaciones a través del tiempo a fin de estimar el tiempo del ancestro común más reciente ('TRMCA', por sus singlas en inglés) de los virus secuenciados.
-** Encontramos que el antepasado común de los virus secuenciados probablemente existió entre mediados de noviembre y principios de diciembre de 2019. **
+
+**Encontramos que el antepasado común de los virus secuenciados probablemente existió entre mediados de noviembre y principios de diciembre de 2019.**
 
 <div>
   <img alt="Gráfico de las estimaciones de TACMR basado en diferentes tasas de mutación" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
@@ -261,7 +262,7 @@ A la derecha, presentamos estimaciones simples del R0.
 Los científicos del Imperial College de Londres han utilizado el número de casos observados fuera de China para estimar el [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) Y sugieren que han habido al menos varios miles de casos.
 Junto con nuestras estimaciones anteriores de la 'edad' del brote y la información disponible sobre la duración del período de infección, podemos estimar posibles rangos de R0 utilizando un modelo matemático del tipo de procesos de ramificación.
 
-** Nuestras estimaciones apuntan a un R0 plausible entre 1.5 y 3.5. **
+**Nuestras estimaciones apuntan a un R0 plausible entre 1.5 y 3.5.**
 
 Si asumimos que el brote comenzó a principios de noviembre de 2019 (hace 12 semanas), encontramos que el R0 debería oscilar entre 1.5 y 2.5, dependiendo de qué tan grande ('n') sea el brote ahora.
 
@@ -269,7 +270,9 @@ Si asumimos que el brote comenzó a principios de noviembre de 2019 (hace 12 sem
   <img alt="Gráfico de estimaciones de R0 con el inicio del brote ocurriendo hace 12 semanas" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
 </div>
 
+
 Si suponemos un comienzo más reciente, por ejemplo, a principios de diciembre de 2019 (hace 8 semanas), las estimaciones para R0 oscilan entre 1.8 y 3.5:
+
 <div>
   <img alt="Gráfico de estimaciones de R0 con el inicio del brote ocurriendo hace 8 semanas" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
 </div>
