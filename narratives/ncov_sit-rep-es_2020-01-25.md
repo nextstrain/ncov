@@ -27,44 +27,44 @@ Encontramos:
 * Usando las estimaciones del número total de casos hechas por el Imperial College de Londres (del orden de varios miles de casos), inferimos un número reproductivo que oscila entre 1.5 y 3.5. Estas cifras indican un rápido crecimiento de la epidemia en el período de noviembre a enero.
 ```
 
-# [Coronaviruses](https://nextstrain.org/ncov/2020-01-25)
+# [Coronavirus](https://nextstrain.org/ncov/2020-01-25)
 
-### Further Reading:
+### Lecturas adicionales:
 
-* General information on coronaviruses on [Wikipedia](https://en.wikipedia.org/wiki/Coronavirus) _2020-01-25_
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-25_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-23_
-* Organization and genome on [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
+* Información general sobre coronavirus en [Wikipedia](https://es.wikipedia.org/wiki/Coronavirus) _2020-01-25_
+* Resumen del brote de nCov en [Wikipedia](https://es.wikipedia.org/wiki/Epidemia_de_neumon%C3%ADa_por_coronavirus_de_Wuhan_de_2019-2020) _2020-01-25_
+* Material proporcionado por los Centros para el Control y la Prevención de Enfermedades de los Estados Unidos en [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-23_
+* Características del genoma en [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
 
 ```auspiceMainDisplayMarkdown
 
-## Different human coronaviruses
-
-Coronaviruses (CoV) are members of a diverse species of positive-sense single-stranded RNA ((+)ssRNA) viruses which have a history of causing respiratory infections in humans.
-Some variants of coronaviruses are associated with outbreaks, others are continuously circulating and cause mostly mild respiratory infections (e.g. the common cold).
-
-#### SARS-CoV & MERS-CoV
-The most well known of these coronaviruses is [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a Nov 2002 to Jul 2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a case fatality rate of around 9–11%.
-
-In 2012, a novel coronavirus, [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Middle East respiratory syndrome"), causing severe respiratory symptoms was identified. MERS has resulted in fatalities comparable to SARS, however the transmission route of MERS is very different. Whereas SARS was efficiently spread from one human to another, human MERS infections were generally a result of independent zoonoses (animal to human transmissions) from camels (see [Dudas _et al._](https://elifesciences.org/articles/31257) for more information). This has lead to a self-limiting outbreak largely restricted to the Arabian Peninsula.
+## Diferentes coronavirus humanos
 
 
-#### Seasonal CoV
-However, not all coronaviruses are as deadly as SARS-CoV and MERS-CoV.
-There are four "seasonal" coronaviruses that commonly infect humans each year.
-Compared with SARS, these seasonal coronavirus strains are ["much more prevalent, much less severe, and common causes of influenza‐like illness (ILI)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
-In fact, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% of all ILI cases test positive for coronaviruses, so they are rather common, resulting in millions of infections every year with low severity.
-These seasonal coronaviruses are the results of separate spillovers from the bat animal reservoir into humans in the past ~100 years, in which after spillover, each seasonal virus established itself and spread widely in the human population.
+Los coronavirus (CoV) agrupan diversas especies de virus de ARN ((+) ssRNA) de sentido positivo que causan infecciones respiratorias en humanos.
+Algunas variantes de los coronavirus están asociadas solamente con brotes, otras circulan continuamente y causan generalmente infecciones respiratorias leves (por ejemplo, el resfriado común).
+
+#### SARS-CoV y MERS-CoV
+El más conocido de estos coronavirus es el [SARS-CoV](https://es.wikipedia.org/wiki/S%C3%ADndrome_respiratorio_agudo_grave) ("síndrome respiratorio agudo severo"), que en un brote que ocurrió entre noviembre de 2002 y julio de 2003 y se propagó por todo el mundo resultando en [más de 8000 casos y 774 muertes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), con una tasa de letalidad de alrededor del 9-11%.
+
+En 2012, un nuevo coronavirus [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Síndrome respiratorio del Medio Oriente"), asociado con síntomas respiratorios graves fue identificado. MERS ha resultado en un número de muertes comparable al SARS, sin embargo, la ruta de transmisión de MERS es muy diferente. Mientras que el SARS se propagó eficientemente de un humano a otro, las infecciones por MERS en humanos fueron generalmente el resultado de zoonosis independientes (transmisiones de animales a humanos) a partir de  camellos (consultar [Dudas _et al._](https://elifesciences.org/articles/31257) para mayores informaciones). Esto ha llevado a que el brote de MERS se limita a la Península Arábiga.
 
 
-#### Animal reservoirs
-Coronaviruses infect a wide range of animals, and the human outbreaks described above are a result of one or more "jumps" from these animal reservoirs into the human population.
-SARS is believed to have arrived in the human population from [horseshoe bats via a masked palm civet intermediary](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
+#### CoV estacional
+Sin embargo, no todos los coronavirus son tan mortales como el SARS-CoV y el MERS-CoV. Hay cuatro coronavirus "estacionales" que comúnmente infectan a los humanos cada año.
+En comparación con el SARS, estas cepas estacionales de coronavirus son ["mucho más prevalentes, mucho menos graves y causan generalmente enfermedades similares a la influenza (ILI)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
+De hecho, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% de todos los casos de Ili dan positivo en las pruebas de infección por coronavirus, por lo tanto, son bastante comunes, lo que resulta en millones de infecciones leves cada año.
+Estos coronavirus estacionales son el resultado de múltiples zoonosis a partir de murciélagos que ocurrieron hace aproximadamente 100 años. Después de la transmisión entre especies, cada virus estableció una transmisión continua y generalizada en la población humana.
 
 
-#### Human-to-human transmission
-The ability for different lineages to be transmitted between humans is extremely important to understand the potential development of an outbreak.
-Due to the ability of SARS to spread between humans and the high case fatality rate, SARS (or a SARS-like virus) is considered a [global public health threat](https://www.who.int/whr/2007/overview/en/index1.html) by the WHO.
+#### Reservorios animales
+Los coronavirus infectan una amplia gama de animales y los brotes humanos supracitados son el resultado de uno o más "saltos" de estos reservorios animales a la población humana.
+Se cree que el SARS fue introducido en la población humana a partir de  [murciélagos de herradura--Rhinolophidae--con la ayuda de civetas--Paguma larvata--como intermediario](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
+
+
+#### Transmisión de persona a persona
+La capacidad de transmitir diferentes linajes virales entre humanos es extremadamente importante para comprender el potencial desarrollo de un brote.
+Debido a la capacidad del SARS de propagarse entre los humanos y su alta tasa de letalidad, el SARS (o cualquier virus similar al SARS) se considera una [amenaza de salud pública global](https://www.who.int/whr/2007/overview/en/index1.html) por la OMS.
 
 ```
 
