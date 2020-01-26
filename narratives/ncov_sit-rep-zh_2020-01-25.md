@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of nCoV spread. Situation report 2020-01-25.
+title: 新型冠状病毒传播基因组分析。 状况报告2020-01-25。
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
@@ -8,10 +8,10 @@ dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
 abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（nCoV）基因组数据来估计疫情的流传速度和方式。 一旦收集到新的病毒数据，我们将陆续更新该状况报告。请用桌面浏览器游览该网站"
 ---
 
-# [Executive summary](https://nextstrain.org/ncov/2020-01-25)
+# [执行摘要](https://nextstrain.org/ncov/2020-01-25)
 
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## 执行摘要
 
 至今我们使用27个公开共享的新型冠状病毒基因组，检查了遗传多样性以推断共同祖先的日期和传播速度。
 我们发现:
