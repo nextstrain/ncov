@@ -5,7 +5,7 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 Jan 25"
 dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
-abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（nCoV）基因组数据来估计疫情的流传速度和方式。 一旦收集到新的病毒数据，我们将陆续更新该状况报告。请用桌面浏览器游览该网站"
 ---
 
 # [Executive summary](https://nextstrain.org/ncov/2020-01-25)
@@ -13,59 +13,53 @@ abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic dat
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 27 publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
-We find:
-* 27 sampled genomes are very similar, differing by 0-5 mutations
-* This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
-* This event most likely occurred in November or early December 2019.
-* There has been ongoing human-to-human spread since this point resulting in observed cases.
-* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.5 and 3.5 indicating rapid growth in the Nov-Jan period.
+至今我们使用27个公开共享的新型冠状病毒基因组，检查了遗传多样性以推断共同祖先的日期和传播速度。
+我们发现:
+* 27个采样的基因组非常相似，相差0-5个突变。 
+* This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.  
+* 此传播事件最有可能发生在2019年11月或12月初。 
+* 传播事件之后，疫情即便开始人传人，导致观察到病例。 
+* 根据伦敦帝国理工学院（Imperial London London）的总病例数估算值，我们得出的生殖数在1.5到3.5之间，表明在11月至1月期间迅速增长。 
+
 ```
 
-# [Coronaviruses](https://nextstrain.org/ncov/2020-01-25)
+# [冠状病毒](https://nextstrain.org/ncov/2020-01-25)
 
-### Further Reading:
+### 更多资料:
 
-* General information on coronaviruses on [Wikipedia](https://en.wikipedia.org/wiki/Coronavirus) _2020-01-25_
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-25_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-23_
-* Organization and genome on [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
+* 冠状病毒摘要[维基百科](https://en.wikipedia.org/wiki/Coronavirus) _2020-01-25_
+* 新型冠状病毒爆发摘要 [维基百科](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-25_
+* [美国CDC提供的材料](https://www.cdc.gov/coronavirus/index.html) _2020-01-23_
+* 冠状病毒组织和基因组 [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
 
 ```auspiceMainDisplayMarkdown
 
-## Different human coronaviruses
+## 不同的人类冠状病毒
 
-Coronaviruses (CoV) are members of a diverse species of positive-sense single-stranded RNA ((+)ssRNA) viruses which have a history of causing respiratory infections in humans.
-Some variants of coronaviruses are associated with outbreaks, others are continuously circulating and cause mostly mild respiratory infections (e.g. the common cold).
+冠状病毒（CoV）是一种能引起呼吸道感染的正链单股RNA((+)ssRNA)病毒 。
+某些冠状病毒变体能引发致命的呼吸系统疾病暴发，另一些则能持续传播并引起一般轻微感染症状（例如普通感冒）。
 
-#### SARS-CoV & MERS-CoV
-The most well known of these coronaviruses is [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a Nov 2002 to Jul 2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a case fatality rate of around 9–11%.
+#### SARS-CoV 和 MERS-CoV
+冠状病毒中最著名的是[严重急性呼吸道综合征冠状病毒(SARS-CoV)](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome)。该病毒在2002年11月至2003年7月爆发，传播扩散于世界各地，导致[超过8000个病例和774例死亡](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome)，病死率约为9-11％。
 
-In 2012, a novel coronavirus, [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Middle East respiratory syndrome"), causing severe respiratory symptoms was identified. MERS has resulted in fatalities comparable to SARS, however the transmission route of MERS is very different. Whereas SARS was efficiently spread from one human to another, human MERS infections were generally a result of independent zoonoses (animal to human transmissions) from camels (see [Dudas _et al._](https://elifesciences.org/articles/31257) for more information). This has lead to a self-limiting outbreak largely restricted to the Arabian Peninsula.
+[中东呼吸综合征冠状病毒(MERS-CoV)](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome)则是在2012年首次被确认。 虽然MERS-CoV和SARS-CoV导致的死亡率相当，它们的传播途径却大有差异。 SARS-CoV能有效地人传人，但MERS-CoV病例大多源自于人与动物（骆驼）接触的独立案件（人畜共患病）（请参阅[Dudas _et al._](https://elifesciences.org/articles/31257)了解详情）。这导致了一次局限于阿拉伯半岛的限制性爆发。 
 
+#### 季节性冠状病毒
+并非所有冠状病毒都像SARS-CoV和MERS-CoV一样致命。 
+每年普遍感染人类的 “季节性”冠状病毒有四种。与SARS相比，这些季节性冠状病毒[“更为普遍，轻微，并且经常导致流感样疾病”](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)。
+实际上，[5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)%所呈现的流感样疾病都属阳性冠状病毒。因此冠状病毒是相当普遍的 - 每年导致数百万例轻微病例。这些季节性冠状病毒是在过去约100年前个别从蝙蝠传染给人类的。之后，该季节性病毒便在人群中广泛传播，独立演化。
 
-#### Seasonal CoV
-However, not all coronaviruses are as deadly as SARS-CoV and MERS-CoV.
-There are four "seasonal" coronaviruses that commonly infect humans each year.
-Compared with SARS, these seasonal coronavirus strains are ["much more prevalent, much less severe, and common causes of influenza‐like illness (ILI)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
-In fact, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% of all ILI cases test positive for coronaviruses, so they are rather common, resulting in millions of infections every year with low severity.
-These seasonal coronaviruses are the results of separate spillovers from the bat animal reservoir into humans in the past ~100 years, in which after spillover, each seasonal virus established itself and spread widely in the human population.
+#### 天然动物宿主  
+冠状病毒可感染多种动物，而上述的人类冠状病毒可来至于单方或多方的天然动物宿主 – SARS病毒的[天然宿主为中华菊头蝠，并而透过果子狸为中间宿主](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698)传染给人类。 
 
-
-#### Animal reservoirs
-Coronaviruses infect a wide range of animals, and the human outbreaks described above are a result of one or more "jumps" from these animal reservoirs into the human population.
-SARS is believed to have arrived in the human population from [horseshoe bats via a masked palm civet intermediary](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
-
-
-#### Human-to-human transmission
-The ability for different lineages to be transmitted between humans is extremely important to understand the potential development of an outbreak.
-Due to the ability of SARS to spread between humans and the high case fatality rate, SARS (or a SARS-like virus) is considered a [global public health threat](https://www.who.int/whr/2007/overview/en/index1.html) by the WHO.
+#### 人与人之间的传播
+分析不同冠状病毒传染人类的能力对于了解疫情的爆发潜能和发展极为重要。由于SARS具有人与人之间传播的能力以及较高的病死率，SARS（或类似SARS的病毒）因此被视为[全球公共卫生威胁](https://www.who.int/whr/2007/overview/en/index1.html)。
 
 ```
 
-# [Novel coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-25)
+# [2019-2020 新型冠状病毒](https://nextstrain.org/ncov/2020-01-25)
 
-### Further Reading:
+### 更多资料:
 
 * New China virus: Five questions scientists are asking  [Nature news](https://www.nature.com/articles/d41586-020-00166-6) _2020-01-22_
 * China virus latest: first US case confirmed  [Nature news](https://www.nature.com/articles/d41586-020-00154-w) _2020-01-21_
@@ -74,93 +68,87 @@ Due to the ability of SARS to spread between humans and the high case fatality r
 
 ```auspiceMainDisplayMarkdown
 
-## Recent outbreak of a novel coronavirus
-In December 2019, a new illness was first detected in Wuhan, China.
-We now know this to be another outbreak of coronavirus in humans (the 7th), and it is provisionally being called nCoV (novel coronavirus).
+## 最新爆发的新型冠状病毒
+2019年12月，中国武汉首次发现新疾病。我们现以知道这是新一次的人类冠状病毒爆发（第7次），暂且称为新型冠状病毒。
 
-As of January 25th over 1400 cases and 42 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
-It's still too early to know the case fatality rate, but early indications are that it is significantly less than SARS-CoV.
-The case counts are dramatically rising in part due to increased surveillance and testing.
+截至1月25日，[已有1400多起案例和42例死亡](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)). 现在断定病死率还为时过早，但早期迹象表明它大大低于SARS-CoV。 
+案件数量还在急剧增加的部分原因在于更广泛的侦察与测试。 
 
-While the outbreak seems to be centered in Wuhan, which is now [under quarantine](https://twitter.com/PDChina/status/1220060879112282117), the virus has spread throughout China and abroad, including Hong Kong, Macau, Thailand, Japan, South Korea, USA, and France. Limited local transmission outside of China has been reported.
+虽然疫情集中在武汉（[现已被隔离](https://twitter.com/PDChina/status/1220060879112282117)），该病毒已在中国和海外蔓延，包括香港，澳门，泰国， 日本，韩国，美国和法国。中国境外的本地传播暂时有限。
 
-The origin of the virus is still unclear, however [genomic analyis](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) suggests nCoV is most closely related to viruses previously identified in bats.
-It is plausible that there were other intermediate animal transmissions before the introduction into humans.
-There is no evidence of snakes as an intermediary.
+病毒的来源尚未清楚，但是[基因组分析](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331)表明新型冠状病毒与先前在蝙蝠中发现的冠状病毒基因最接近。 
+暂时还不能排除有中间宿主的可能性，但没有证据表明蛇是中间宿主。 
 
-#### Nextstrain narratives
+#### Nextstrain 叙述
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right hand side.
+以下页面包含使用[Nextstrain](https://nextstrain.org)执行的分析。
+滚动左侧边栏将显示文本段落，并在右侧显示相应的基因组数据视化。
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+快速破译新的大型RNA病毒完整基因组是一项了不起的成就。
+这些分析能实现是因为世界各地的科学家快速开放地共享基因组数据和分解（有关基因组数据作者身份，请参见最后一张幻灯片）。
+
 ```
 
-# [How to interpret the phylogenetic trees](https://nextstrain.org/ncov/2020-01-25)
+# [如何解读系统树](https://nextstrain.org/ncov/2020-01-25)
 
 ### Further Reading:
 
 * [Exploring interactive phylogenies with Auspice](https://neherlab.org/201901_krisp_auspice.html) _2019-01-24_
 
 ```auspiceMainDisplayMarkdown
-## Transmission trees vs phylogenetic trees
+## 传播树与系统发生树
 
-Pathogens spread through rapid replication in one host followed by transmission to another host.
-An epidemic can only take off when one infection results in more than one subsequent infections.
+病原体能通过在一个宿主中快速复制然后传播到另一宿主。一宗病例唯有在逐渐传播后才能演变成传染行疾病。 
 
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes)  will accumulate in the genome.
-Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+随着病原体的复制和传播，随机突变（复制错误）会在基因组中累积。 
+这种随机突变可以帮助追踪病原体的传播并了解其传播途径和动态。 
 
 <div>
   <img alt="cartoon showing how transmission tree and phylogenetic tree relate" width="500" src="https://neherlab.org/talk_images/infection_tree_combined.png"/>
 </div>
 
-The illustration above shows a sketch of a transmission tree with a subset of cases that were sampled (blue).
-In practice, the transmission tree is unknown and typically only rough estimates of case counts are available.
-Genome sequences allow us to infer parts of the transmission tree.
-In this example, three mutations (little diamonds) are indicated on the tree.
-Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+上方的插图显示了传播树的示意图，其中包含抽样的案例（蓝色）。 
+在实践中，传播树是未知的，只能粗略估计案例计数。 
+基因组序列能让我们推断出传播树的一部分。 
+在此示例中，树上指示了三个突变（小菱形）。 
+具有相同突变的序列更紧密相关。因此这些突变能让我们揣测属于相同传播链的紧密相关病毒簇。 
 
-### Reading a Phylogenetic Tree
+### 解读系统树
 
-Below, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles.
-We can see that sequences that share the same mutations group together.
-When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+以下左侧显示系统进化树的插图，其中的突变陈列为彩色圆圈。 右边是相应的序列，突变也陈列为彩色圆圈。 
+我们可以看到，共享相同突变的序列会组合在一起。 
+当序列显示为一条垂直的平线时（例如A和B），这意味着它们之间没有区别 - 它们的序列是相同的。
 
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+当一个序列像C或E那样排成一行时，这意味着它具有在其他序列中找不到的独特突变。 行越长，突变越多。
+A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此相同。
 
 <div>
   <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://nextstrain-data.s3.amazonaws.com/toy_alignment_tree.png"/>
 </div>
 
-At the moment, the novel coronavirus (nCoV) phylogeny may not look much like a 'tree'.
-Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or 'branches', going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+目前，新型冠状病毒的系统树可能看起来并不像“树”。 
+许多序列是相同的 – 它们像A和B一样排列在垂直线上（有些在树的最左侧）。 
+其它则具有独特或共享的变异，因此排列于一行往右边 “分支”。 
+您可以通过鼠标悬停在某个分支上来查看该分支有多少个突变。 
+
 ```
 
-# [Phylogenetic analysis](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
+# [系统树分析](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
 
-Here we present a phylogeny of 27 strains of nCoV that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
-
-<br>
-
-The colours represent the city/US-state of isolation, with the x-axis representing nucleotide divergence.
+这里我们呈现公开共享的27种新型冠状病毒的系统树。 [GitHub存储库](github.com/nextstrain/ncov)中提供了有关如何执行分析的资料。
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Several sequences have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and five mutations.
+颜色表示病毒的起源地（隔别的城市/州），x轴表示核苷酸差异。 
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
+散度测量为基因组中变化（突变）的数量。 
+几个序列的突变为零，这意味着它们都与树根（中心）相同。 其他病毒具有一到五个突变。 
+
+<br>
+
+随着疫情不断地突变发展，破译新的大型RNA病毒基因组进行测序是具有大大挑战性的。这些序列中观察到的某些差异可能是测序错误，而不是实际的突变。 基因组末端的插入，缺失和差异更有可能是错误。出于分析目的，我们将其屏蔽。 
 
 # [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
