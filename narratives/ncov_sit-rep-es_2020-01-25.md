@@ -68,38 +68,39 @@ Debido a la capacidad del SARS de propagarse entre los humanos y su alta tasa de
 
 ```
 
-# [Novel coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-25)
+# [Nuevo coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-25)
 
-### Further Reading:
+### Lecturas adicionales:
 
-* New China virus: Five questions scientists are asking  [Nature news](https://www.nature.com/articles/d41586-020-00166-6) _2020-01-22_
-* China virus latest: first US case confirmed  [Nature news](https://www.nature.com/articles/d41586-020-00154-w) _2020-01-21_
-* New virus surging in Asia rattles scientists  [Nature news](https://www.nature.com/articles/d41586-020-00129-x) _2020-01-20_
-* New virus identified as likely cause of mystery illness in China [Nature news](https://www.nature.com/articles/d41586-020-00020-9) _2020-01-08_
+* Nuevo virus en China: cinco preguntas que se hacen los científicos (en inglés)  [Nature news](https://www.nature.com/articles/d41586-020-00166-6) _2020-01-22_
+* Última actualización del virus en China: primer caso confirmado en los Estados Unidos (en inglés)   [Nature news](https://www.nature.com/articles/d41586-020-00154-w) _2020-01-21_
+* Un nuevo virus en Asia preocupa a los científicos (en inglés)  [Nature news](https://www.nature.com/articles/d41586-020-00129-x) _2020-01-20_
+* Un nuevo virus es identificado como la causa probable de la enfermedad misteriosa en China (en inglés) [Nature news](https://www.nature.com/articles/d41586-020-00020-9) _2020-01-08_
 
 ```auspiceMainDisplayMarkdown
 
-## Recent outbreak of a novel coronavirus
-In December 2019, a new illness was first detected in Wuhan, China.
-We now know this to be another outbreak of coronavirus in humans (the 7th), and it is provisionally being called nCoV (novel coronavirus).
+## Brote reciente por un nuevo coronavirus
+En diciembre de 2019, se detectó por primera vez una nueva enfermedad en Wuhan, China.
+Actualmente sabemos que se trata de un nuevo brote por coronavirus en humanos (el séptimo), y se llama provisionalmente nCoV (nuevo coronavirus).
 
-As of January 25th over 1400 cases and 42 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
-It's still too early to know the case fatality rate, but early indications are that it is significantly less than SARS-CoV.
-The case counts are dramatically rising in part due to increased surveillance and testing.
 
-While the outbreak seems to be centered in Wuhan, which is now [under quarantine](https://twitter.com/PDChina/status/1220060879112282117), the virus has spread throughout China and abroad, including Hong Kong, Macau, Thailand, Japan, South Korea, USA, and France. Limited local transmission outside of China has been reported.
+Hasta el 25 de enero, más de 1400 casos y 42 muertes [han sido reportados](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
+Todavía es demasiado pronto para saber la tasa de letalidad, pero los datos preliminares indican que es significativamente menor que el SARS-CoV.
+El número de casos aumenta rápidamente en parte debido a una mayor vigilancia epidemiologica y un aumento de las pruebas de diagnóstico.
 
-The origin of the virus is still unclear, however [genomic analyis](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) suggests nCoV is most closely related to viruses previously identified in bats.
-It is plausible that there were other intermediate animal transmissions before the introduction into humans.
-There is no evidence of snakes as an intermediary.
+Si bien el brote parece estar centrado en Wuhan, que ahora está [en cuarentena](https://twitter.com/PDChina/status/1220060879112282117), el virus se ha extendido por toda China y en el exterior, incluyendo Hong Kong, Macao, Tailandia, Japón, Corea del Sur, Estados Unidos y Francia. La transmisión local fuera de China ha sido limitada hasta el momento.
 
-#### Nextstrain narratives
+El origen del virus aún no está claro, sin embargo [análisis genómicos](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) sugiere que nCoV está más estrechamente relacionado con virus previamente identificados en murciélagos.
+Es posible que la transmissión haya ocurrido a traves de otros animales (intermediarios) antes de la introducción en humanos.
+No hay evidencia de serpientes como intermediario.
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right hand side.
+#### Narrativas Nextstrain 
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org).
+El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente será mostrada en el lado derecho.
+
+La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro notable.
+Estos análisis han sido posibles gracias al intercambio rápido y abierto de datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes esfuerzos de secuenciación).
 ```
 
 # [How to interpret the phylogenetic trees](https://nextstrain.org/ncov/2020-01-25)
