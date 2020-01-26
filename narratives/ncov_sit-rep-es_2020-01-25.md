@@ -1,11 +1,11 @@
 ---
-título: Análisis genómico de la propagación de nCoV. Informe de la situación hasta 2020-01-25.
-autores: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
-vinculo: "https://nextstrain.org"
-afiliaciones: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-fecha: "2020 Jan 25"
-conjunto de datos: "https://nextstrain.org/ncov/2020-01-25?d=map"
-resumen: " Este informe utiliza datos genómicos del nuevo coronavirus (nCoV) compartidos públicamente en GISAID y Genbank para estimar las tasas y los patrones de propagación de la epidemia viral. Planeamos emitir informes de la situación que se actualizaran en la medida que se produzcan y compartan nuevos datos. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
+title: Análisis genómico de la propagación de nCoV. Informe de la situación hasta 2020-01-25.
+authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Julian Villabona-Arenas"
+authorLinks: "https://nextstrain.org"
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; and CMMID & LSHTM, London, UK"
+date: "2020 Jan 25"
+dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
+abstract: " Este informe utiliza datos genómicos del nuevo coronavirus (nCoV) compartidos públicamente en GISAID y Genbank para estimar las tasas y los patrones de propagación de la epidemia viral. Planeamos emitir informes de la situación que se actualizaran en la medida que se produzcan y compartan nuevos datos. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
 
 traducción: "Julian Villabona-Arenas"
 afiliación: "CMMID & LSHTM, London, UK"
