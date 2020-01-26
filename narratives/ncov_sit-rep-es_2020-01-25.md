@@ -103,48 +103,48 @@ La obtención (secuenciación) rápida de genomas completos de un nuevo virus de
 Estos análisis han sido posibles gracias al intercambio rápido y abierto de datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes esfuerzos de secuenciación).
 ```
 
-# [How to interpret the phylogenetic trees](https://nextstrain.org/ncov/2020-01-25)
+# [¿Cómo interpretar los árboles filogenéticos?](https://nextstrain.org/ncov/2020-01-25)
 
-### Further Reading:
+### Lecturas adicionales:
 
-* [Exploring interactive phylogenies with Auspice](https://neherlab.org/201901_krisp_auspice.html) _2019-01-24_
+* [Explorando filogenias interactivas con Auspice](https://neherlab.org/201901_krisp_auspice.html) _2019-01-24_
 
 ```auspiceMainDisplayMarkdown
-## Transmission trees vs phylogenetic trees
+## Árboles de transmisión vs árboles filogenéticos
 
-Pathogens spread through rapid replication in one host followed by transmission to another host.
-An epidemic can only take off when one infection results in more than one subsequent infections.
+Los patógenos se propagan a través de una replicación rápida en un huésped infectado seguido de su transmisión a otro huésped.
+Una epidemia solo puede comenzar cuando una infección da como resultado más de una infección adicional.
 
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes)  will accumulate in the genome.
-Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
-
-<div>
-  <img alt="cartoon showing how transmission tree and phylogenetic tree relate" width="500" src="https://neherlab.org/talk_images/infection_tree_combined.png"/>
-</div>
-
-The illustration above shows a sketch of a transmission tree with a subset of cases that were sampled (blue).
-In practice, the transmission tree is unknown and typically only rough estimates of case counts are available.
-Genome sequences allow us to infer parts of the transmission tree.
-In this example, three mutations (little diamonds) are indicated on the tree.
-Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
-
-### Reading a Phylogenetic Tree
-
-Below, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles.
-We can see that sequences that share the same mutations group together.
-When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
-
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+A medida que el patógeno se replica y se propaga, su genoma necesita ser copiado muchas veces y estos conlleva a la acumulación de mutaciones aleatorias (errores de copia) en el genoma.
+Dichas mutaciones aleatorias pueden ayudar a rastrear la propagación del patógeno y conocer sus rutas y dinámicas de transmisión.
 
 <div>
-  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://nextstrain-data.s3.amazonaws.com/toy_alignment_tree.png"/>
+  <img alt="Ilustración que muestra la relación entre el árbol de transmisión y el árbol filogenético" width="500" src="https://neherlab.org/talk_images/infection_tree_combined.png"/>
 </div>
 
-At the moment, the novel coronavirus (nCoV) phylogeny may not look much like a 'tree'.
-Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or 'branches', going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+La ilustración anterior muestra un bosquejo de un árbol de transmisión con un subconjunto de casos que fueron muestreados (en azul).
+En la práctica, el árbol de transmisión es desconocido y, por lo general, solo tenemos disponibles las estimaciones del número apróximado de casos.
+Las secuencias genómicas nos permiten inferir partes del árbol de transmisión. En este ejemplo, se indican tres mutaciones (los diamantes pequeños) en el árbol.
+Las secuencias que tienen las mismas mutaciones están estrechamente relacionadas entre sí, por lo que estas mutaciones nos permiten agrupar muestras en grupos de virus estrechamente relacionados que pertenecen a las mismas cadenas de transmisión.
+
+### Leyendo un árbol filogenético
+
+A continuación a la izquierda, vemos la ilustración de un árbol filogenético donde las mutaciones se muestran como círculos de colores. A la derecha están las secuencias correspondientes, también con mutaciones que se muestran como círculos de colores.
+Podemos ver que las secuencias que comparten las mismas mutaciones se agrupan juntas.
+Cuando las secuencias aparecen unidas por una línea vertical plana, como A y B, esto significa que no hay diferencias entre ellas y por tanto sus secuencias son idénticas.
+
+
+Cuando una secuencia se encuentra sola en una línea larga, como C o E, esto significa que tiene mutaciones únicas que no se encuentran en otras secuencias. Cuanto más larga es la línea, más mutaciones tiene la secuencia.
+A y B también tienen mutaciones únicas (el círculo verde) que no comparten con las otras secuencias, pero A y B son idénticas entre sí.
+
+<div>
+  <img alt="Ilustración del árbol filogenético y del alineamiento de secuencias correspondiente, con las muestras rotuladas como A-E" width="500" src="https://nextstrain-data.s3.amazonaws.com/toy_alignment_tree.png"/>
+</div>
+
+Por el momento, la  filogenia del nuevo coronavirus (nCoV) puede que no se parezca mucho a un 'árbol'.
+Muchas de las secuencias son idénticas: aparecen juntas en líneas verticales como A y B (algunas están más en la parte izquierda del árbol).
+Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen en las líneas o 'ramas' que van hacia la derecha.
+Puede ver cuántas mutaciones tiene una rama al pasar el mouse sobre ella.
 ```
 
 # [Phylogenetic analysis](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
