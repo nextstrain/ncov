@@ -151,166 +151,161 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 
 随着疫情不断地突变发展，破译新的大型RNA病毒基因组进行测序是具有大大挑战性的。这些序列中观察到的某些差异可能是测序错误，而不是实际的突变。 基因组末端的插入，缺失和差异更有可能是错误。出于分析目的，我们将其屏蔽。 
 
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
+# [系统发生树的解释](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
-We currently see little genetic diversity across the nCoV sequences, with 8 out of 27 sequences having no unique mutations.
-
-<br>
-
-Low genetic diversity across these sequences suggests that the most recent common ancestor of all nCoV sequences was fairly recent, since mutations accumulate slowly compared to other RNA viruses at a rate of around 1-2 mutations per month for coronaviruses.
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
+目前，我们并未在新冠状病毒的序列内发现很多基因多样性，27条序列中的8条不含有其独有的核酸突变。
 
 <br>
 
-At the moment, most mutations that can be observed are singletons – they are unique to individual genomes. Only the sequences that form the two clusters from Guangdong and the sequence form the USA share mutations – we will explore these in later slides.
-
-# [Within-family transmission 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
-
-There are two genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
+这些序列的低核酸碱基多样性，相对于其他RNA冠状病毒每个月会有的1-2个碱基突变，提示了所有新冠状病毒的最近共同祖先出现在较短的时间内。
+通常来说，从动物宿主的多次转染将会有非常显著的核酸碱基多样性（拉撒热，埃博拉，中东呼吸综合征和禽流感都是如此）
 
 <br>
 
-These two cases are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
+现阶段，大部分的突变存在于单序列（即在各个样本的基因组内独有的序列）中。只有形成两个来自广东的基因簇的序列和来自美国的序列有共同存在的突变（我们会在之后的分析中继续挖掘这些数据）。
 
+# [家庭内传染 案例1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
-# [Within-family transmission 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
-
-Of the six isolates from Shenzhen (Southeastern China, Guangdong Province) we see four isolates which are genetically identical.
-These sequences differ by 3 mutations from the root of the tree.
-Two of these mutations are also found in the sequence of the case in Washington, USA (more below).
-One sequence from Shenzhen has two additional mutations.
+两例从珠海（华南，广东省）得到的核酸碱基一致的病毒分离株，含有这两例独有的，未在其他分离株内发现的突变（可以把鼠标放在该分支上查看是哪一个突变）。
 
 <br>
 
-The sequences form Shenzhen are [known to come from a single family](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), and almost certainly represent human-to-human transmission.
+这两例 [已知是来源于一个家庭](https://twitter.com/JingLu_LuJing/status/1220143773532880896)，也暗示了人传人的现象存在。
+
+
+# [家庭内传染 案例2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
+
+从深圳（华南，广东省）得到的六株分离样本中，我们发现其中四株含有一致的核酸碱基。
+这些序列同进化树根部相差三个突变。三个突变中的两个，也在美国华盛顿州的病例序列中找到（详情见下方）。
+来自深圳的其中一条序列，含有两个额外的突变。
+
+<br>
+
+这些来自深圳的序列[已知是来自同一个家庭](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext)，几乎是肯定了人传人的现象确实存在。
 
 <br>
 
 
-# [Cases outside China](https://nextstrain.org/ncov/2020-01-25?c=country&d=tree&m=div)
+# [海外病例](https://nextstrain.org/ncov/2020-01-25?c=country&d=tree&m=div)
 
-There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, and Europe.
-Vietnam has reported a case without travel history to Wuhan who possibly got infected from a [relative visiting from Wuhan](https://www.aljazeera.com/news/2020/01/china-coronavirus-outbreak-latest-updates-200123133559818.html).
-
-<br>
-
-The only currently available sequence data for cases outside of China are the two cases from Thailand and one case from the USA, which are coloured here in yellow and red, respectively.
-The Thai samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
-The sequence from Washington, US, shares two mutations with the cluster of sequences from Shenzhen.
+在许多亚洲东部，东南部国家，美国，澳大利亚，和欧洲，许多病例都被确诊为由新冠状病毒导致。
+越南已报道了一例未有过武汉访问经历的病例，该病例很可能经由一位[因访问武汉而受感染的亲戚](https://www.aljazeera.com/news/2020/01/china-coronavirus-outbreak-latest-updates-200123133559818.html)传染获病。
 
 <br>
 
-The case from Washington, USA, had travelled to Wuhan.
-The most parsimonious explanation for the observed pattern of mutation sharing is the virus variant with the two shared mutations was circulating in Wuhan and was independently exported to Shenzhen and to the USA.
-
-
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-25?d=tree)
-The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
+目前能获取得到的海外病例序列数据有三例，二例来自泰国，一例来自美国，这三例被分别标注为黄色和红色。
+来自泰国的样本在核酸碱基上和六条中国序列一致，其中包括分离自武汉的五条序列。
+来自美国华盛顿州的序列，则拥有两个同深圳序列基因簇相同的突变。
 
 <br>
 
-Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 1 &times; 10<sup>-3</sup> per site per year).
+美国华盛顿州的病例，曾访问过武汉市。
+对观察到的美国病例拥有的共有突变，最大简约法的解释是拥有这两个突变的病毒株曾在武汉市内流通，并且各自独立地输出至深圳市，并来到美国。
+
+# [确定最近共同祖先的出现时间](https://nextstrain.org/ncov/2020-01-25?d=tree)
+这些病毒基因组的高相似性提示了他们可能来自同一个时间上较为近期的共同祖先（即他们可能最近才从同一祖先病毒传代而来）。如果上述推论不成立，我们应该在样本之间得到更多不同之处。
 
 <br>
 
-On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak.
+冠状病毒之前的研究现实这些病毒会每个月在他们的基因组里累积一到三个序列变化 (变化率为每年每个位点 3 &times; 10<sup>-4</sup> 到 1 &times; 10<sup>-3</sup> )。
+
+<br>
+
+我们观察了各种假设在变化率，和观察得到的核酸碱基多样性上会有多不同，并在预估除了爆发的时间（见右方）。
 
 ```auspiceMainDisplayMarkdown
-## Date of the common ancestor of outbreak viruses
-Here, we assume a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
-**We find that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019.**
+## 病毒共同祖先的出现时间
+这里，我们会假设一个星状系统发生树结构，以及假设突变会随时间呈现柏森分布。基于以上两种假设，我们估算已测序序列的最近共同祖先（'TMRCA'）。
+**我们发现最近共同祖先出现在于2019年11月中旬和12月上旬。**
 
 <div>
-  <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
+  <img alt="基于不同突变率的TMRA估计图" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
 </div>
 
-As the more samples are sequenced, we expect the tree to show more structure, such that the star-like phylogeny topology is no longer a good assumption.
-At this point, phylodynamic estimates of the age of the epidemic will become feasible.
+随着更多样本将被测序，我们估计该系统发生树会呈现更多的结构，导致星状拓扑结构将不再是一个好的假设模型。
+在这种情况下，流行病时间的系统发生估计将会变得可行。
 
-There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor. And strongly suggests evolutionary rates of ~3.0 x 10^-4 are more plausible.
+数据中有一宗病毒被识别的第一日，即2019年12月1日，[在武汉被确诊的病例](https://twitter.com/trvrb/status/1220749265380593664)。这宗病例为最近共同祖先的出现时间确认，设置了最晚日期，同时也明显显示了进化率在 ~3.0 x 10^-4 左右会更合理。
 
 ```
 
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-01-25?d=tree)
+# [增长率的预估](https://nextstrain.org/ncov/2020-01-25?d=tree)
 
-An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
+在病原传播中，一个很重要的量化数据是每个感染者平均会产生的二次感染病例。
 
 <br>
 
-This number is known as R0 ("R-zero" or "R-nought").
-One the right, we present simple estimates of R0.
+这个数字即为R0值 (念成"R-zero"或"R-nought")。在右边，我们简单预估了一下R0值。
 
 ```auspiceMainDisplayMarkdown
-## Estimates of epidemic growth rate
-Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases.
-Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
+## 流行病增长率的评估
+伦敦帝国学院的科学研究人员使用了海外确诊病例的数字来估算[所有感染病例的数量](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/)，并预计已有几千实际感染病例。
+结合之前的对爆发时间的估计，和感染期间的一些信息，我们可以使用分支过程的模型，推得R0值的可信范围。
 
-**We find plausible estimates of R0 between 1.5 and 3.5.**
+**我们发现可信的R0值范围为 1.5 到 3.5。**
 
-If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.5 and 2.5, depending on how large ('n') the outbreak is now.
+如果我们假设爆发起始于2019年11月上旬（12星期之前），我们发现R0值将会在 1.5 到 2.5 范围内, 此范围主要取决于现在爆发有多大（'n'）。
 <div>
-  <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
+  <img alt="流行开始于12星期前情况下的R0值预估图" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
 </div>
 
-If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 1.8 and 3.5:
+如果我们假设爆发起始于更近的2019年12月（8个星期前），R0值的预估将会在 1.8 and 3.5之间：
 <div>
-  <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
+  <img alt="流行开始于8星期前情况下的R0值预估图" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
 </div>
 ```
 
 # [Scientific credit](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+我们非常感谢在这段爆发时期参与研究的所有科学家，特别是在中国的科研工作者，感谢他们提供的及时的高质量分析。
+只有快速分享基因组数据和其他信息才使得即时的数据分析成为可能。
 
 <br>
 
-The nCoV genomes were generously shared by scientists at the:
+新冠状病毒由以下单位机构和实验室慷慨分享：
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
- * Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
- * Guangdong Provincial Center for Diseases Control and Prevention
+ * 复旦大学医学院，中国上海
+ * 中国疾病预防控制中心 病毒病预防控制所，中国北京
+ * 中国医学科学院北京和谐医学院 病原生物学研究所，中国北京
+ * 中国科学院 武汉病毒研究所，中国武汉
+ * 中国疾病预防控制中心 浙江省疾病预防控制中心，中国杭州
+ * 中国疾病预防控制中心 广东省疾病预防控制中心，中国广州
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
  * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
 
 # [Detailed scientific credit](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+以上数据结果已在[GISAID](https://gisaid.org)平台分享，我们诚心感谢他们的贡献。
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+我们在右边列出了每个实验室分享的各条序列。
 
 ```auspiceMainDisplayMarkdown
 
-The nCoV genomes were generously shared by scientists at the
+新冠状病毒的基因组序列是由以下实验室的科学家慷慨分享：
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
+ * 复旦大学医学院，中国上海
    - Wuhan-Hu-1/2019
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
+ * 中国疾病预防控制中心 病毒病预防控制所，中国北京
    - Wuhan/IVDC-HB-01/2019
    - Wuhan/IVDC-HB-04/2020
    - Wuhan/IVDC-HB-05/2019)
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
+ * 中国医学科学院北京和谐医学院 病原生物学研究所，中国北京
    - Wuhan/IPBCAMS-WH-01/2019
    - Wuhan/IPBCAMS-WH-02/2019
    - Wuhan/IPBCAMS-WH-03/2019
    - Wuhan/IPBCAMS-WH-04/2019
- * Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China
+ * 中国科学院 武汉病毒研究所，中国武汉
    - Wuhan/WIV02/2019
    - Wuhan/WIV04/2019
    - Wuhan/WIV05/2019
    - Wuhan/WIV06/2019
    - Wuhan/WIV07/2019
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
+ * 中国疾病预防控制中心 浙江省疾病预防控制中心，中国杭州
    - Zhejiang/WZ-01/2020
    - Zhejiang/WZ-02/2020
- * Guangdong Provincial Center for Diseases Control and Prevention
+ * 中国疾病预防控制中心 广东省疾病预防控制中心，中国广州
    - Guangdong/20SF012/2020
    - Guangdong/20SF013/2020
    - Guangdong/20SF014/2020
