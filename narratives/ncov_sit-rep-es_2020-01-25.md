@@ -147,79 +147,77 @@ Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen en las l
 Puede ver cuántas mutaciones tiene una rama al pasar el mouse sobre ella.
 ```
 
-# [Phylogenetic analysis](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
+# [Análisis filogenético](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
 
-Here we present a phylogeny of 27 strains of nCoV that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
-
-<br>
-
-The colours represent the city/US-state of isolation, with the x-axis representing nucleotide divergence.
+Aquí presentamos una filogenia de 27 cepas del nCoV que se han compartido públicamente.
+La información sobre cómo se realizó el análisis está disponible [en este repositorio de GitHub](github.com/nextstrain/ncov).
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Several sequences have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and five mutations.
+Los colores representan la ciudad o el estado (Estados Unidos) donde fue colectada la muestra, con el eje 'x' representando la divergencia genética (de nucleótidos).
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
-
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
-
-We currently see little genetic diversity across the nCoV sequences, with 8 out of 27 sequences having no unique mutations.
+La divergencia se mide como el número de cambios (mutaciones) en el genoma.
+Varias secuencias tienen cero mutaciones, lo que significa que todas son idénticas a la raíz (centro) del árbol.
+Otros virus tienen entre una y cinco mutaciones.
 
 <br>
 
-Low genetic diversity across these sequences suggests that the most recent common ancestor of all nCoV sequences was fairly recent, since mutations accumulate slowly compared to other RNA viruses at a rate of around 1-2 mutations per month for coronaviruses.
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
+La secuenciación del genoma de un virus nuevo de ARN durante un brote es un desafío.
+Algunas de las diferencias observadas en estas secuencias pueden ser errores de secuenciación en lugar de mutaciones reales.
+Las inserciones, deleciones y diferencias en los extremos del genoma tienen mayor probabilidad de ser errores, por lo que no son presentadas en este análisis.
+
+# [Interpretación filogenética](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
+
+Actualmente vemos poca diversidad genética en las secuencias del nCoV y 8 de las 27 secuencias no tienen mutaciones únicas.
 
 <br>
 
-At the moment, most mutations that can be observed are singletons – they are unique to individual genomes. Only the sequences that form the two clusters from Guangdong and the sequence form the USA share mutations – we will explore these in later slides.
-
-# [Within-family transmission 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
-
-There are two genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
+La baja diversidad genética en estas secuencias sugiere que el ancestro común de todas las secuencias del nCoV fue bastante reciente ya que las mutaciones se acumulan lentamente en comparación con otros virus de ARN (a una tasa de alrededor de 1-2 mutaciones por mes para los coronavirus).
+En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ebola, MERS-CoV y la gripe aviar).
+El hecho de que ocurra una agrupación tan fuerte de las infecciones humanas puede indicar que el brote se inició a partir de un único evento de introducción zoonótica en la población humana seguido de la propagación epidémica de persona a persona.
 
 <br>
 
-These two cases are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
+Por el momento, la mayoría de las mutaciones observadas corresponden a lo que llamamos singletons: son mutaciones exclusivas para cada genoma individual. Solamente las secuencias que forman los dos grupos de Guangdong y la secuencias de los Estados Unidos comparten mutaciones; exploraremos esto en las diapositivas siguientes.
 
+# [Transmisión dentro de la familia 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
-# [Within-family transmission 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
-
-Of the six isolates from Shenzhen (Southeastern China, Guangdong Province) we see four isolates which are genetically identical.
-These sequences differ by 3 mutations from the root of the tree.
-Two of these mutations are also found in the sequence of the case in Washington, USA (more below).
-One sequence from Shenzhen has two additional mutations.
+Hay dos aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (puede pasar el mouse sobre las ramas para ver qué mutaciones están presentes).
 
 <br>
 
-The sequences form Shenzhen are [known to come from a single family](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), and almost certainly represent human-to-human transmission.
+Sabemos que estos dos casos [provienen de una misma familia](https://twitter.com/JingLu_LuJing/status/1220143773532880896), indicando nuevamente una transmisión de persona a persona.
+
+# [Transmisión dentro de la familia 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
+
+Cuatro de los seis aislamientos de Shenzhen (en el sudeste de China, provincia de Guangdong) son genéticamente idénticos.
+Estas secuencias comparten 3 mutaciones únicas.
+Dos de estas mutaciones también se encuentran en la secuencia del caso reportado en Washington en los Estados Unidos (Más detalles a continuación).
+Una secuencia de Shenzhen tiene dos mutaciones adicionales.
+
+<br>
+
+Sabemos que las secuencias de Shenzhen [provienen de una misma familia](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), y casi seguramente representan una transmisión de persona a persona.
 
 <br>
 
 
-# [Cases outside China](https://nextstrain.org/ncov/2020-01-25?c=country&d=tree&m=div)
+# [Casos fuera de China](https://nextstrain.org/ncov/2020-01-25?c=country&d=tree&m=div)
 
-There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, and Europe.
-Vietnam has reported a case without travel history to Wuhan who possibly got infected from a [relative visiting from Wuhan](https://www.aljazeera.com/news/2020/01/china-coronavirus-outbreak-latest-updates-200123133559818.html).
-
-<br>
-
-The only currently available sequence data for cases outside of China are the two cases from Thailand and one case from the USA, which are coloured here in yellow and red, respectively.
-The Thai samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
-The sequence from Washington, US, shares two mutations with the cluster of sequences from Shenzhen.
+Se han notificado casos confirmados por diagnóstico del nCoV en muchos países de Asia oriental y sudoriental, Estados Unidos, Australia y Europa.
+Vietnam ha informado un caso en un individuo sin historial de viaje a Wuhan, quien posiblemente se infectó a partir de un [pariente que visitó Wuhan](https://www.aljazeera.com/news/2020/01/china-coronavirus-outbreak-latest-updates-200123133559818.html).
 
 <br>
 
-The case from Washington, USA, had travelled to Wuhan.
-The most parsimonious explanation for the observed pattern of mutation sharing is the virus variant with the two shared mutations was circulating in Wuhan and was independently exported to Shenzhen and to the USA.
+Los únicos datos genéticos actuales que no provienen de casos en China son dos casos de Tailandia y un caso de los Estados Unidos (coloreados en amarillo y rojo, respectivamente). Las secuencias de Tailandia son genéticamente idénticas a seis secuencias de China, incluyendo cinco aisladas de Wuhan.
+La secuencia de Washington en los Estados Unidos comparte dos mutaciones con el conjunto de secuencias de Shenzhen.
+
+<br>
+
+El caso de Washington (Estados Unidos) había viajado a Wuhan.
+La explicación más parsimoniosa para este patrón de mutaciones compartidas es que la variante del virus con las dos mutaciones compartidas circulaba en Wuhan y fue exportado de forma independiente a Shenzhen y a los Estados Unidos.
 
 
 # [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-25?d=tree)
