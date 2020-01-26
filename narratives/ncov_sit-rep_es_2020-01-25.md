@@ -91,7 +91,7 @@ El número de casos aumenta rápidamente en parte debido a una mayor vigilancia 
 Si bien el brote parece estar centrado en Wuhan, que ahora está [en cuarentena](https://twitter.com/PDChina/status/1220060879112282117), el virus se ha extendido por toda China y en el exterior, incluyendo Hong Kong, Macao, Tailandia, Japón, Corea del Sur, Estados Unidos y Francia. La transmisión local fuera de China ha sido limitada hasta el momento.
 
 El origen del virus aún no está claro, sin embargo [análisis genómicos](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) sugiere que nCoV está más estrechamente relacionado con virus previamente identificados en murciélagos.
-Es posible que la transmissión haya ocurrido a traves de otros animales (intermediarios) antes de la introducción en humanos.
+Es posible que la transmisión haya ocurrido a través de otros animales (intermediarios) antes de la introducción en humanos.
 No hay evidencia de serpientes como intermediario.
 
 #### Narrativas Nextstrain 
