@@ -7,7 +7,8 @@ rule all:
     input:
         auspice_json = "auspice/ncov.json",
         dated_auspice_json = expand("auspice/ncov_{date}.json", date=get_todays_date()),
-        auspice_json_gisaid = "auspice/ncov_gisaid.json"
+        auspice_json_gisaid = "auspice/ncov_gisaid.json",
+        auspice_json_zh = "auspice/ncov_zh.json"
 
 rule files:
     params:
@@ -18,9 +19,11 @@ rule files:
         outgroup = "config/outgroup.fasta",
         auspice_config = "config/auspice_config.json",
         auspice_config_gisaid = "config/auspice_config_gisaid.json",
+        auspice_config_zh = "config/auspice_config_zh.json",
         colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
-        description = "config/description.md"
+        description = "config/description.md",
+        description_zh = "config/description_zh.md"
 
 files = rules.files.params
 
@@ -273,6 +276,33 @@ rule gisaid_export:
         description = files.description
     output:
         auspice_json = "auspice/ncov_gisaid.json"
+    shell:
+        """
+        augur export v2 \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
+            --auspice-config {input.auspice_config} \
+            --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
+            --description {input.description} \
+            --output {output.auspice_json}
+        """
+
+rule chinese_language_export:
+    message: "Exporting data files for for auspice"
+    input:
+        tree = rules.refine.output.tree,
+        metadata = rules.parse.output.metadata,
+        branch_lengths = rules.refine.output.node_data,
+        nt_muts = rules.ancestral.output.node_data,
+        aa_muts = rules.translate.output.node_data,
+        auspice_config = files.auspice_config_zh,
+        colors = files.colors,
+        lat_longs = files.lat_longs,
+        description = files.description_zh
+    output:
+        auspice_json = "auspice/ncov_zh.json"
     shell:
         """
         augur export v2 \

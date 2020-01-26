@@ -1,3 +1,5 @@
+[请点击这里查看中文版本](/ncov/zh)
+
 This phylogeny shows evolutionary relationships of viruses from the novel coronavirus (nCoV) outbreak. All samples are highly related with at most five mutations relative to a common ancestor, suggesting a shared common ancestor sometime in Nov 2019. This indicates an initial human infection in Nov 2019 followed by sustained human-to-human transmission leading to sampled infections.
 
 We observe clustering of related infections. These are a cluster of two infections in Zhuhai (Guangdong/20SF028/2020 and Guangdong/20SF040/2020) and a cluster of three infections in Shenzhen (Guangdong/20SF013/2020, Guangdong/20SF025/2020, Guangdong/20SF012/2020). These are noted in GISAID as "family cluster infection". This represents clear direct human-to-human transmission.
