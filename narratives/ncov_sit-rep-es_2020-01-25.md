@@ -1,25 +1,30 @@
 ---
-title: Genomic analysis of nCoV spread. Situation report 2020-01-25.
-authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
-authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 Jan 25"
-dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
-abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+título: Análisis genómico de la propagación de nCoV. Informe de la situación hasta 2020-01-25.
+autores: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
+vinculo: "https://nextstrain.org"
+afiliaciones: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
+fecha: "2020 Jan 25"
+conjunto de datos: "https://nextstrain.org/ncov/2020-01-25?d=map"
+resumen: " Este informe utiliza datos genómicos del nuevo coronavirus (nCoV) compartidos públicamente en GISAID y Genbank para estimar las tasas y los patrones de propagación de la epidemia viral. Planeamos emitir informes de la situación que se actualizaran en la medida que se produzcan y compartan nuevos datos. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
+
+traducción: "Julian Villabona-Arenas"
+afiliación: "CMMID & LSHTM, London, UK"
+fecha de la traducción: "2020 Jan 26"
+
 ---
 
-# [Executive summary](https://nextstrain.org/ncov/2020-01-25)
+# [Resumen Ejecutivo](https://nextstrain.org/ncov/2020-01-25)
 
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Resumen Ejecutivo
 
-Using 27 publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
-We find:
-* 27 sampled genomes are very similar, differing by 0-5 mutations
-* This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
-* This event most likely occurred in November or early December 2019.
-* There has been ongoing human-to-human spread since this point resulting in observed cases.
-* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.5 and 3.5 indicating rapid growth in the Nov-Jan period.
+Examinamos la diversidad genética 27 genomas públicos del nuevo coronavirus (nCoV) para inferir la fecha del ancestro común más reciente y la tasa de propagación.
+Encontramos:
+* Los 27 genomas muestreados son muy similares y solo han acumulado entre 0 y 5 mutaciones.
+* La explicación mas parsimoniosa para este bajo grado de diversidad genética es que el brote proviene de una sola introducción en la población humana. También es posible que un pequeño número de transmisiones de virus muy similares hayan ocurrido desde animales a humanos.
+* Este evento probablemente ocurrió en noviembre o principios de diciembre de 2019.
+* Ha habido una propagación continua de persona a persona desde su introducción, lo que resulta en los casos observados.
+* Usando las estimaciones del número total de casos hechas por el Imperial College de Londres (del orden de varios miles de casos), inferimos un número reproductivo que oscila entre 1.5 y 3.5. Estas cifras indican un rápido crecimiento de la epidemia en el período de noviembre a enero.
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-01-25)
