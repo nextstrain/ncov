@@ -138,173 +138,171 @@ Outras tem mutações únicas ou compartilhadas e, portanto, aparecem nas linhas
 você pode ver quantas  mutações uma ramificação tem passando seu mouse sobre ela.
 ```
 
-# [Phylogenetic analysis](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
+# [Análise filogenética](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
 
-Here we present a phylogeny of 27 strains of nCoV that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
-
-<br>
-
-The colours represent the city/US-state of isolation, with the x-axis representing nucleotide divergence.
+Aqui apresentamos uma filogenia de 27 cepas de nCoV que foram compartilhadas publicamente.
+Informações sobre como a análise foi realizada está disponível em [nosso repositório no GitHub](github.com/nextstrain/ncov).
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Several sequences have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and five mutations.
+As cores representam a cidade ou estado onde foi coletada a amostra, e o eixo x representa a divergência genética (de nucleótidos).
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
-
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
-
-We currently see little genetic diversity across the nCoV sequences, with 8 out of 27 sequences having no unique mutations.
+A divergência é medida conforme o número de mudanças (mutações) no genoma.
+Muitas sequências têm 0 mutações, o que significa que são todas idênticas até a raíz (centro) da árvore.
+Outros vírus têm entre uma e cinco mutações.
 
 <br>
 
-Low genetic diversity across these sequences suggests that the most recent common ancestor of all nCoV sequences was fairly recent, since mutations accumulate slowly compared to other RNA viruses at a rate of around 1-2 mutations per month for coronaviruses.
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
+Sequenciar o genoma de um novo vírus de RNA amplo durante situação de surto é desafiante.
+Algumas das diferenças observadas nessas sequências podem ser resultado de erros de sequenciamento, e não mutações reais.
+Inserções, exclusões, e diferenças nos extremos do genoma têm grandes chances de serem erros, por isso as encobrimos visando cumprir os propósitos dessa análise.
+
+# [Interpretação filogenética](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
+
+Atualmente vemos uma diversidade genética mínima nas sequências do nCoV; 8 das 27 sequências não têm mutações únicas.
 
 <br>
 
-At the moment, most mutations that can be observed are singletons – they are unique to individual genomes. Only the sequences that form the two clusters from Guangdong and the sequence form the USA share mutations – we will explore these in later slides.
-
-# [Within-family transmission 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
-
-There are two genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
+A baixa diversidade genética nessas sequências sugerem que o ancestral comum de todas as sequências de nCoV foi bastante recente, já que as mutações se acumulam lentamente comparado a outros vírus RNA (com taxas em torno de 1-2 mutações por mês para coronavírus).
+Geralmente,quando as introduções por reservatório são múltiplas, é possível observar diversidade genética significativa (como tem sido com a febre de Lassa, o Ebola, a MERS-CoV e a gripe Aviária).
+O fato de podermos observar uma agrupação tão forte em infecções humanas pode indicar que o surto descende de uma única introdução zoonótica (por animal) na população humana, seguida da propagação epidêmica de pessoa para pessoa.
 
 <br>
 
-These two cases are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
+No momento, a maioria das mutações observadas são o que se conhece por "singletons", ou seja, genomas com mutações únicas. Somente as sequências que formam os dois grupos de Guangdong e a sequência dos EUA compartilham mutações, o que será explorado nos próximos slides.
 
+# [Transmissão dentro da família 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
-# [Within-family transmission 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
-
-Of the six isolates from Shenzhen (Southeastern China, Guangdong Province) we see four isolates which are genetically identical.
-These sequences differ by 3 mutations from the root of the tree.
-Two of these mutations are also found in the sequence of the case in Washington, USA (more below).
-One sequence from Shenzhen has two additional mutations.
+Há dois isolamentos de Zhuhai (sudeste da China, na província de Guangdong) geneticamente idênticos que formam um grupo, compartilhando uma mutação única que não é vista em outros isolamentos (passe o mouse sobre as ramificações para ver quais mutações estão presentes).
 
 <br>
 
-The sequences form Shenzhen are [known to come from a single family](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), and almost certainly represent human-to-human transmission.
+Sabemos que esses dois casos [vêm de uma mesma família](https://twitter.com/JingLu_LuJing/status/1220143773532880896), indicando novamente que ocorreu uma transmissão de humano para humano.
+
+
+# [Transmissão dentro da família 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
+
+4 dos 6 isolamentos de Shenzhen (sudeste da China, na província de Guangdong) são geneticamente idênticos. Essas sequências compartilham as mesmas 3 mutações únicas.
+2 dessas 3 mutações também foram encontradas na sequência do caso em Washington, nos EUA (mais detalhes abaixo). 
+Uma sequência de Shenzhen tem 2 mutações adicionais.
+
+<br>
+
+Sabemos que as sequências de Shenzhen são [provenientes de uma mesma família](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), e muito provavelmente representam novamente transmissão de humano para humano.
 
 <br>
 
 
-# [Cases outside China](https://nextstrain.org/ncov/2020-01-25?c=country&d=tree&m=div)
+# [Casos fora da China](https://nextstrain.org/ncov/2020-01-25?c=country&d=tree&m=div)
 
-There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, and Europe.
-Vietnam has reported a case without travel history to Wuhan who possibly got infected from a [relative visiting from Wuhan](https://www.aljazeera.com/news/2020/01/china-coronavirus-outbreak-latest-updates-200123133559818.html).
-
-<br>
-
-The only currently available sequence data for cases outside of China are the two cases from Thailand and one case from the USA, which are coloured here in yellow and red, respectively.
-The Thai samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
-The sequence from Washington, US, shares two mutations with the cluster of sequences from Shenzhen.
+Há casos de diagnóstico confirmado de nCoV reportados em muitos países da Ásia oriental, sudeste asiático, EUA, Austrália, e Europa. O Vietnã reportou um caso de alguém que não viajou para Wuhan, que possivelmente foi [infectado por um familiar que visitou a cidade](https://www.aljazeera.com/news/2020/01/china-coronavirus-outbreak-latest-updates-200123133559818.html).
 
 <br>
 
-The case from Washington, USA, had travelled to Wuhan.
-The most parsimonious explanation for the observed pattern of mutation sharing is the virus variant with the two shared mutations was circulating in Wuhan and was independently exported to Shenzhen and to the USA.
-
-
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-25?d=tree)
-The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
+Atualmente, os únicos dados genéticos de casos fora da China são os dois da Tailândia, e um dos EUA, representados respectivamente pelas cores amarela e vermelha.
+As amostras tailandesas são geneticamente idênticas a seis sequências chinesas. Dessas seis, cinco foram isoladas em Wuhan.
+A sequência de Washington (EUA) compartilha duas mutações com o grupo de sequências de Shenzhen.
 
 <br>
 
-Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 1 &times; 10<sup>-3</sup> per site per year).
+O infectado do caso em Washington (EUA) havia viajado para Wuhan.
+A explicação mais comedida para o padrão observado de mutações comuns é de que: o vírus com duas mutações compartilhadas circulava em Wuhan, e foi exportado de forma independente para Shenzhen e para os EUA.
+
+
+# [Calculando a provável data do ancestral comum mais recente](https://nextstrain.org/ncov/2020-01-25?d=tree)
+A grande similaridade dos genomas sugere que eles compartilham um ancestral comum recente, ou seja, eles descenderam do mesmo vírus ancestral recentemente. De outro modo, poderíamos esperar por um número maior de diferenças entre as amostras.
 
 <br>
 
-On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak.
+Pesquisas anteriores com coronavírus similares sugerem que esses vírus acumulam entre 1 e 3 mudanças em seus genomas por mês (taxas de 3 &times; 10<sup>-4</sup> e 1 &times; 10<sup>-3</sup> substituições por local do genoma por ano).
+
+<br>
+
+A direita, exploramos como as diferentes suposições sobre a taxa de mudança, e a diversidade genética observada, nos permitem deduzir o momento estimado da origem do surto.
 
 ```auspiceMainDisplayMarkdown
-## Date of the common ancestor of outbreak viruses
-Here, we assume a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
-**We find that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019.**
+## Provável data do ancestral comum dos vírus do surto
+Aqui assumimos uma estrutura filogenética com formato de estrela, e uma distribuição de Poisson para as mutações através do tempo, a fim de estimar a época do ancestral comum mais recente (também conhecido pela sigla em inglês "TRMCA") dos vírus sequenciados.
+**Concluímos que o ancestral comum provavelmente existiu entre meados de novembro e o início de dezembro de 2019.**
 
 <div>
   <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
 </div>
 
-As the more samples are sequenced, we expect the tree to show more structure, such that the star-like phylogeny topology is no longer a good assumption.
-At this point, phylodynamic estimates of the age of the epidemic will become feasible.
+À medida que mais amostras são sequenciadas, esperamos que a árvore mostre mais estrutura, de modo que a topologia de filogenia em formato de estrela não seja uma hipótese adequada.
+Neste ponto, estimativas filodinâmicas da idade da epidemia se tornarão possíveis.
 
-There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor. And strongly suggests evolutionary rates of ~3.0 x 10^-4 are more plausible.
+Há um [caso confirmado em Wuhan datado de 1 de dezembro de 2019](https://twitter.com/trvrb/status/1220749265380593664), que colocaria um limite máximo na data do ancestral comum mais recente. E também sugere fortemente que as taxas evolutivas de aproximadamente ~3.0 x 10^-4 são as mais plausíveis.
 
 ```
 
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-01-25?d=tree)
+# [Estimando a taxa de crescimento](https://nextstrain.org/ncov/2020-01-25?d=tree)
 
-An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
+Uma quantidade importante a ser calculada durante a propagação de um patógeno é o número médio de casos secundários que cada infecção produz.
 
 <br>
 
-This number is known as R0 ("R-zero" or "R-nought").
-One the right, we present simple estimates of R0.
+Esse número é conhecido como R0 ("R-zero" ou "R-nada").
+A direita, apresentamos estimativas simples do R0.
 
 ```auspiceMainDisplayMarkdown
-## Estimates of epidemic growth rate
-Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases.
-Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
+## Estimativas da taxa de crescimento epidêmico
+Cientistas da Imperial COllege de London tem usado o número de casos detectados fora da China para estimar o [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/), e sugerem que há pelo menos milhares de casos.
+Junto com nossas estimativas anteriores acerca da idade do surto, e informações sobre a duração do período de infecção, podemos estimar possíveis faixas de R0 usando um modelo matémático de processos de ramificação.
 
-**We find plausible estimates of R0 between 1.5 and 3.5.**
+**Nossas estimativas apontam um R0 provável entre 1,5 e 3,5.**
 
-If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.5 and 2.5, depending on how large ('n') the outbreak is now.
+Se assumimos que o surto começou no início de novembro de 2019 (12 semanas atrás), cremos que o R0 deveria oscilar entre 1,5 e 2,5, dependendo de quão grande ('n') o surto esteja agora.
 <div>
-  <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
+  <img alt="Gráfico de estimativas de R0 com o início da epidemia 12 semanas atrás" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
 </div>
 
-If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 1.8 and 3.5:
+Se consideramos um início mais recente, no começo de dezembro de 2019 (8 semanas atrás), as estimativas são de que o R0 oscile entre 1,8 e 3,5:
 <div>
-  <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
+  <img alt="Gráfico de estimativas de R0 com o início da epidemia 8 semanas atrás" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
 </div>
 ```
 
-# [Scientific credit](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
+# [Crédito científico](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Gostaríamos de reconhecer o trabalho incrível e oportuno realizado por todos os cientistas envolvidos nesse surto, sobretudo os que estão trabalhando na China.
+Somente com o compartilhamento rápido de dados genômicos e de metadados que se faz possível realizar análises como esta.
 
 <br>
 
-The nCoV genomes were generously shared by scientists at the:
+Os genomas do nCoV foram generosamente compartilhados por cientistas de várias instituições. São elas:
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
+ * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Xangai, China
+ * National Institute for Viral Disease Control and Prevention, China CDC, Pequim, China
+ * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Pequim, China
  * Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
+ * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hancheu, China
  * Guangdong Provincial Center for Diseases Control and Prevention
- * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
- * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
+ * Department of Medical Sciences, National Institute of Health, Nonthaburi, Tailândia
+ * Division of Viral Diseases, Centers for Disease Control and Prevention, Estados Unidos
 
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
+# [Crédito cientifíco detalhado](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Esses dados foram compartilhados através do [GISAID](https://gisaid.org).
+Agradecemos as suas contribuições com profunda gratidão.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+A direita, especificamos quais sequências foram compartilhadas por quais laboratórios.
 
 ```auspiceMainDisplayMarkdown
 
-The nCoV genomes were generously shared by scientists at the
+Os genomas do nCoV foram generosamente cedidos por cientistas de várias instituições. São elas:
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
+ * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Xangai, China
    - Wuhan-Hu-1/2019
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
+ * National Institute for Viral Disease Control and Prevention, China CDC, Pequim, China
    - Wuhan/IVDC-HB-01/2019
    - Wuhan/IVDC-HB-04/2020
    - Wuhan/IVDC-HB-05/2019)
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
+ * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Pequim, China
    - Wuhan/IPBCAMS-WH-01/2019
    - Wuhan/IPBCAMS-WH-02/2019
    - Wuhan/IPBCAMS-WH-03/2019
@@ -315,7 +313,7 @@ The nCoV genomes were generously shared by scientists at the
    - Wuhan/WIV05/2019
    - Wuhan/WIV06/2019
    - Wuhan/WIV07/2019
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
+ * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hancheu, China
    - Zhejiang/WZ-01/2020
    - Zhejiang/WZ-02/2020
  * Guangdong Provincial Center for Diseases Control and Prevention
@@ -325,10 +323,10 @@ The nCoV genomes were generously shared by scientists at the
    - Guangdong/20SF025/2020
    - Guangdong/20SF028/2020
    - Guangdong/20SF040/2020
- * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
+ * Department of Medical Sciences, National Institute of Health, Nonthaburi, Tailândia
    - Nonthaburi/61/2020
    - Nonthaburi/74/2020
- * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
+ * Division of Viral Diseases, Centers for Disease Control and Prevention, Estados Unidos
    - USA-WA1/2020
 
 ```
