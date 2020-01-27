@@ -141,7 +141,7 @@ Others have unique or shared mutations and so sit on lines, or 'branches', going
 You can see how many mutations a branch has by hovering your mouse over it.
 ```
 
-# [Phylogenetic analysis](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
+# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
 Here we present a phylogeny of 27 strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).

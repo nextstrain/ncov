@@ -146,7 +146,7 @@ Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen en las l
 Podrás ver cuántas mutaciones tiene una rama al pasar el mouse sobre ella.
 ```
 
-# [Análisis filogenético](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
+# [Análisis filogenético](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
 Aquí presentamos una filogenia de 27 cepas del nCoV que se han compartido públicamente.
 La información sobre cómo se realizó el análisis está disponible [en este repositorio de GitHub](github.com/nextstrain/ncov).

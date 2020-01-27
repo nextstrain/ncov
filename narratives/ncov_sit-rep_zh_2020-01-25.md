@@ -134,7 +134,7 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 
 ```
 
-# [系统发生树分析](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
+# [系统发生树分析](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
 这里我们呈现公开共享的27种新型冠状病毒的系统发生树。 [GitHub存储库](github.com/nextstrain/ncov)中提供了有关如何执行分析的资料。
 
