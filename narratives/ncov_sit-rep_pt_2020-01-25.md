@@ -1,65 +1,65 @@
 ---
-title: Genomic analysis of nCoV spread. Situation report 2020-01-25.
+title: Análise genômica da propagação do nCoV. Relatório da situação até 25/01/2020.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 Jan 25"
 dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
-abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "Esse relatório usa dados genômicos do novo coronavírus (nCoV) compartilhados publicamente pelo GISAID e Genbank, para estimar as taxas e padrões de propagação da epidemia viral. Planejamos emitir relatórios da situação tão logo dados são produzidos e compartilhados. Esse site é otimizado para visualização em navegadores desktop."
 ---
 
-# [Executive summary](https://nextstrain.org/ncov/2020-01-25)
+# [Resumo](https://nextstrain.org/ncov/2020-01-25)
 
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Resumo
 
-Using 27 publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
-We find:
-* 27 sampled genomes are very similar, differing by 0-5 mutations
-* This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
-* This event most likely occurred in November or early December 2019.
-* There has been ongoing human-to-human spread since this point resulting in observed cases.
-* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.5 and 3.5 indicating rapid growth in the Nov-Jan period.
+Examinamos a diversidade genética dos 27 genomas do novo coronavírus (nCoV) compartilhados publicamente, a fim de deduzir a data do ancestral comum e a taxa de propagação do vírus.
+Concluímos que:
+* Os 27 genomas em amostragem são muito similares, acumulando somente entre 0 e 5 mutações
+* Essa falta de diversidade genética tem uma explicação cautelosa de que o surto ou descende de uma única introdução do vírus na população humana, ou descende de um pequeno número de transmissões de animais para humanos.
+* Esse evento provavelmente ocorreu em Novembro ou no início de Dezembro de 2019.
+* Há propagação contínua de humano para humano desde sua introdução, o que resulta nos casos observados.
+* Usando o total estimado pela Imperial College London — que aponta milhares de casos —, deduzimos uma taxa de reprodução entre 1,5 e 3,5, o que significa um crescimento rápido no período de novembro a janeiro.
 ```
 
-# [Coronaviruses](https://nextstrain.org/ncov/2020-01-25)
+# [Coronavírus](https://nextstrain.org/ncov/2020-01-25)
 
-### Further Reading:
+### Leituras adicionais::
 
-* General information on coronaviruses on [Wikipedia](https://en.wikipedia.org/wiki/Coronavirus) _2020-01-25_
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-25_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-23_
-* Organization and genome on [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
+* Informações gerais sobre os coronavírus no [Wikipédia](https://pt.wikipedia.org/wiki/Coronavirus) 25/01/2020
+* Resumo do surto de nCoV no [Wikipédia](https://pt.wikipedia.org/wiki/Epidemia_de_pneumonia_por_novo_coronav%C3%ADrus_de_2019%E2%80%932020) 25/01/2020
+* Material disponibilizado pelo [Centro de Controle e Prevenção de Doenças dos Estados Unidos (CDC)](https://www.cdc.gov/coronavirus/index.html) 23/01/2020
+* Características do genoma em [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) 23/01/2020
 
 ```auspiceMainDisplayMarkdown
 
-## Different human coronaviruses
+## Diferentes coronavírus humanos
 
-Coronaviruses (CoV) are members of a diverse species of positive-sense single-stranded RNA ((+)ssRNA) viruses which have a history of causing respiratory infections in humans.
-Some variants of coronaviruses are associated with outbreaks, others are continuously circulating and cause mostly mild respiratory infections (e.g. the common cold).
+Os coronavírus (CoV) são membros de um conjunto numeroso de especíes de vírus de RNA de sentido positivo ((+) ssRNA), com histórico de causar infecções respiratórias em humanos.
+Alguns tipos de coronavírus estão associados com surtos, já outros estão continuamente circulando e causando principalmente infecções respiratórias leves (como por exemplo, o resfriado comum).
 
-#### SARS-CoV & MERS-CoV
-The most well known of these coronaviruses is [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a Nov 2002 to Jul 2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a case fatality rate of around 9–11%.
+#### SARS-CoV e MERS-CoV
+O mais conhecido dos coronavírus é o [SARS-CoV](https://pt.wikipedia.org/wiki/S%C3%ADndrome_respirat%C3%B3ria_aguda_grave) (Síndrome respiratória aguda grave), que foi responsável por um surto global entre novembro de 2002 e julho de 2003, que resultou em [mais de 8000 casos e 774 mortes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), com uma taxa de letalidade entre 9 e 11%.
 
-In 2012, a novel coronavirus, [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Middle East respiratory syndrome"), causing severe respiratory symptoms was identified. MERS has resulted in fatalities comparable to SARS, however the transmission route of MERS is very different. Whereas SARS was efficiently spread from one human to another, human MERS infections were generally a result of independent zoonoses (animal to human transmissions) from camels (see [Dudas _et al._](https://elifesciences.org/articles/31257) for more information). This has lead to a self-limiting outbreak largely restricted to the Arabian Peninsula.
-
-
-#### Seasonal CoV
-However, not all coronaviruses are as deadly as SARS-CoV and MERS-CoV.
-There are four "seasonal" coronaviruses that commonly infect humans each year.
-Compared with SARS, these seasonal coronavirus strains are ["much more prevalent, much less severe, and common causes of influenza‐like illness (ILI)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
-In fact, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% of all ILI cases test positive for coronaviruses, so they are rather common, resulting in millions of infections every year with low severity.
-These seasonal coronaviruses are the results of separate spillovers from the bat animal reservoir into humans in the past ~100 years, in which after spillover, each seasonal virus established itself and spread widely in the human population.
+Em 2012, identificaram um novo coronavírus, o [MERS-CoV](https://pt.wikipedia.org/wiki/Coronav%C3%ADrus_da_s%C3%ADndrome_respirat%C3%B3ria_do_Oriente_M%C3%A9dio) ("Síndrome respiratória do Oriente Médio"), causando graves sintomas respiratórios. O MERS resultou em um número de mortes comparável ao SARS, porém sua rota de transmissão é muito diferente. Enquanto o SARS é propagado eficientemente de um humano para outro, infecções humanas com MERS são geralmente resultante de contato com animas, isto é, por camelos (consulte [Dudas _et al._](https://elifesciences.org/articles/31257) para mais informações). O que fez com que o surto de MERS se auto-restringisse a Península Arábica.
 
 
-#### Animal reservoirs
-Coronaviruses infect a wide range of animals, and the human outbreaks described above are a result of one or more "jumps" from these animal reservoirs into the human population.
-SARS is believed to have arrived in the human population from [horseshoe bats via a masked palm civet intermediary](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
+#### CoVs Sazonais
+Contudo, nem todos os coronavírus são tão mortais quanto o SARS-CoV e MERS-CoV.
+Há quatro coronavírus "sazonais" que  normalmente infectam humanos todo ano.
+Comparado com o SARS, as cepas sazonais são ["muito mais prevalentes, muito menos graves, e geralmente causas de doenças parecidas com a influenza (ILI, segundo a sigla em inglês)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
+Na verdade, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% de todos os casos de ILI testam positivo para coronavírus, portanto os sazonais são muito comuns, o que resulta em milhões de infecções leves todo ano..
+Estes coronavírus sazonais são resultados de transbordamentos separados do reservatório de morcegos para humanos no passado (100 anos), em que após a transmissão entre espécies, cada vírus se estabeleceu e se espalhou amplamente na população humana.
 
 
-#### Human-to-human transmission
-The ability for different lineages to be transmitted between humans is extremely important to understand the potential development of an outbreak.
-Due to the ability of SARS to spread between humans and the high case fatality rate, SARS (or a SARS-like virus) is considered a [global public health threat](https://www.who.int/whr/2007/overview/en/index1.html) by the WHO.
+#### Reservatórios Animais
+Coronavírus infectam uma gama grande de animas, e os surtos humanos descritos anteriormente são resultado de um ou mais "saltos" dos vírus desses reservatórios animais para dentro da população humana.
+Acredita-se que o SARS chegou até a população humana por meio de [morcegos-de-ferradura via uma civetas (Paguma larvata) como intermediário](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
+
+
+#### Transmissão de Pessoa para Pessoa
+A capacidade de transmitir diferentes linhagens virais entre humanos é extremamente importante para entender o crescimento potencial de um surto.
+Devido a sua habilidade de se propagar entre humanos, acrescido de sua alta taxa de letalidade, o SARS (ou um vírus similar a ele) é considerado pela OMS uma [ameaça global  de saúde pública](https://www.who.int/whr/2007/overview/en/index1.html).
 
 ```
 
