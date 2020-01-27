@@ -55,7 +55,7 @@ rule parse:
         sequences = "data/sequences.fasta",
         metadata = "data/metadata.tsv"
     params:
-        fasta_fields = "strain virus gisaid_epi_isl genbank_accession date region division country location segment host originating_lab submitting_lab authors url title",
+        fasta_fields = "strain virus gisaid_epi_isl genbank_accession date region country division location segment host originating_lab submitting_lab authors url title",
         prettify_fields = "region country division location"
     shell:
         """

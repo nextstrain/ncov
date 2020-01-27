@@ -6,6 +6,13 @@ location	Bangkok	#DCAB3C
 location	Seattle	#E67932
 location	Chicago	#DC2F24
 
+division	Hubei	#4B8EC1
+division	Zhejiang	#8CBB69
+division	Guangdong	#B8BC4A
+division	Nonthaburi	#DCAB3C
+division	Washington	#E67932
+division	Illinois	#DC2F24
+
 country	China	#59A3AA
 country	Thailand	#DCAB3C
 country	USA	#DC2F24

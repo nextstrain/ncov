@@ -6,6 +6,11 @@
       "type": "categorical"
     },
     {
+      "key": "division",
+      "title": "Admin division",
+      "type": "categorical"
+    },
+    {
       "key": "country",
       "title": "Country",
       "type": "categorical"
@@ -42,6 +47,7 @@
   },
   "filters": [
     "location",
+    "division",    
     "country",
     "host",
     "author",
