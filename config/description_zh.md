@@ -6,7 +6,7 @@
 在此，我们估算已测序病毒距离最近共同祖先的时间。
 
 <div>
-  <img alt="tmrca" width="500" src="http://data.nextstrain.org/ncov_poisson-tmrca.png"/>
+  <img alt="tmrca" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
 </div>
 
 位点编号和基因组结构采用[BetaCoV/Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947)作为参照。系统发生树植根于早期武汉病例的样本。时间分辨率假定核苷酸取代率在 3 &times; 10^-4 个单位年，单位点的核苷酸取代。单核苷酸多态性出现在新型冠状病毒样本序列对比中最前和最后的几个碱基被标注为可能的测序错误。有关生物信息处理的完整详细信息，请参见[此处](https://github.com/nextstrain/ncov)。由于出现了可疑的单核苷酸多态集群，因此从分析中删除了样本Wuhan/IPBCAMS-WH-05/2020。
