@@ -10,7 +10,7 @@ Here, we estimate the time of the most recent common ancestor of sequenced virus
   <img alt="tmrca" width="500" src="http://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
-Site numbering and genome structure uses [BetaCoV/Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 3 &times; 10^-4 subs per site per year. There were SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. Full details on bioinformatic processing can be found [here](https://github.com/nextstrain/ncov). The sample Wuhan/IPBCAMS-WH-05/2020 has been dropped from the analysis due to the appearance of clustered, spurious SNPs.
+Site numbering and genome structure uses [BetaCoV/Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 3 &times; 10^-4 subs per site per year. There were SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. The sample Wuhan/IPBCAMS-WH-05/2020 has been dropped from the analysis due to the appearance of clustered, spurious SNPs. Full details on bioinformatic processing can be found [here](https://github.com/nextstrain/ncov).
 
 Phylogenetic context of nCoV in SARS-related betacoronaviruses can be seen [here](https://nextstrain.org/groups/blab/sars-like-cov) and phylogenetic context in betacoronaviruses can be seen [here](https://nextstrain.org/groups/blab/beta-cov).
 

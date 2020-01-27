@@ -32,7 +32,7 @@ rule download:
     output:
         sequences = "data/ncov.fasta"
     params:
-        fasta_fields = "strain virus accession collection_date region country location locus host originating_lab submitting_lab authors url title journal puburls"
+        fasta_fields = "strain virus gisaid_epi_isl genbank_accession collection_date region country division location locus host originating_lab submitting_lab authors url title journal puburls"
     shell:
         """
         python3 ../fauna/vdb/download.py \
@@ -55,8 +55,8 @@ rule parse:
         sequences = "data/sequences.fasta",
         metadata = "data/metadata.tsv"
     params:
-        fasta_fields = "strain virus accession date region country location segment host originating_lab submitting_lab authors url title",
-        prettify_fields = "region country location"
+        fasta_fields = "strain virus gisaid_epi_isl genbank_accession date region division country location segment host originating_lab submitting_lab authors url title",
+        prettify_fields = "region country division location"
     shell:
         """
         augur parse \
@@ -248,7 +248,7 @@ rule export:
         lat_longs = files.lat_longs,
         description = files.description
     output:
-        auspice_json = "auspice/ncov.json"
+        auspice_json = "results/ncov_with_accessions.json"
     shell:
         """
         augur export v2 \
@@ -262,7 +262,7 @@ rule export:
             --output {output.auspice_json}
         """
 
-rule gisaid_export:
+rule export_gisaid:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
@@ -275,7 +275,7 @@ rule gisaid_export:
         lat_longs = files.lat_longs,
         description = files.description
     output:
-        auspice_json = "auspice/ncov_gisaid.json"
+        auspice_json = "results/ncov_gisaid_with_accessions.json"
     shell:
         """
         augur export v2 \
@@ -289,7 +289,7 @@ rule gisaid_export:
             --output {output.auspice_json}
         """
 
-rule chinese_language_export:
+rule export_zh:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
@@ -302,7 +302,7 @@ rule chinese_language_export:
         lat_longs = files.lat_longs,
         description = files.description_zh
     output:
-        auspice_json = "auspice/ncov_zh.json"
+        auspice_json = "results/ncov_zh_with_accessions.json"
     shell:
         """
         augur export v2 \
@@ -313,6 +313,45 @@ rule chinese_language_export:
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
+            --output {output.auspice_json}
+        """
+
+rule fix_colorings:
+    message: "Remove extraneous colorings"
+    input:
+        auspice_json = rules.export.output.auspice_json
+    output:
+        auspice_json = "auspice/ncov.json"
+    shell:
+        """
+        python scripts/fix-colorings.py \
+            --input {input.auspice_json} \
+            --output {output.auspice_json}
+        """
+
+rule fix_colorings_gisaid:
+    message: "Remove extraneous colorings"
+    input:
+        auspice_json = rules.export_gisaid.output.auspice_json
+    output:
+        auspice_json = "auspice/ncov_gisaid.json"
+    shell:
+        """
+        python scripts/fix-colorings.py \
+            --input {input.auspice_json} \
+            --output {output.auspice_json}
+        """
+
+rule fix_colorings_zh:
+    message: "Remove extraneous colorings"
+    input:
+        auspice_json = rules.export_zh.output.auspice_json
+    output:
+        auspice_json = "auspice/ncov_zh.json"
+    shell:
+        """
+        python scripts/fix-colorings.py \
+            --input {input.auspice_json} \
             --output {output.auspice_json}
         """
 

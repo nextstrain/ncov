@@ -31,6 +31,12 @@
       "key": "submitting_lab",
       "title": "Submitting Lab",
       "type": "categorical"
+    },
+    {
+      "key": "gisaid_epi_isl"
+    },
+    {
+      "key": "genbank_accession"
     }
   ],
   "geo_resolutions": [
