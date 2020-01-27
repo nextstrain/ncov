@@ -2,9 +2,17 @@ This is a [Nextstrain](https://nextstrain.org) build for novel coronavirus (nCoV
 
 ## Data
 
-The nCoV genomes were generously shared by scientists at the Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China (*Wuhan-Hu-1/2019*), at the National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China (*Wuhan/IVDC-HB-01/2019*, *Wuhan/IVDC-HB-05/2019*, *Wuhan/IVDC-HB-04/2020*) at the Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China (*Wuhan/IPBCAMS-WH-01/2019*), at the Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China (*Wuhan/WIV02/2019*, *Wuhan/WIV04/2019*, *Wuhan/WIV05/2019*, *Wuhan/WIV06/2019*, *Wuhan/WIV07/2019*) and at the Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand (*Nonthaburi/61/2020*, *Nonthaburi/74/2020*) via [GISAID](https://gisaid.org). We gratefully acknowledgement their contributions.
+The nCoV genomes were generously shared via [GISAID](https://gisaid.org). We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based. For a full list of attributions please see this [description file](config/description.md).
 
-nCoV genomes are not included as part of this repo as many of them are protected by the terms of GISAID sharing. These genomes will need to be supplemented by the user. Please add these as strains in `data/sequences.fasta`. Metadata for these viruses already exists in `data/metadata.tsv`.
+nCoV genomes are not included as part of this repo as many of them are protected by the terms of GISAID sharing. These genomes will need to be supplemented by the user. Please add these as strains in `data/sequences.fasta`. Metadata for these viruses already exists in `data/metadata.tsv`. This `data/sequences.fasta` should just have strain name in the FASTA header, like so:
+```
+>Wuhan/WIV04/2019
+attaaaggtttat...
+>USA/IL1/2020
+attaaaggtttat...
+>Wuhan/WIV06/2019
+ccttcccaggtaa...
+```
 
 ## Situation Report Translations
 
@@ -14,7 +22,7 @@ Please get in touch if you can help.
 We suggest creating a branch for each language after the each release of the English version.
 Unfortunately this means that the changes are not visible through nextstrain.org until release, but we are working on improving this.
 
-The situation reports are generated from markdown files (such as [this one](https://github.com/nextstrain/ncov/blob/master/narratives/ncov_sit-rep_2020-01-25.md) for 2020-01-25).
+The situation reports are generated from Markdown files (such as [this one](https://github.com/nextstrain/ncov/blob/master/narratives/ncov_sit-rep_2020-01-25.md) for 2020-01-25).
 
 #### Current translations:
 
@@ -25,8 +33,9 @@ The situation reports are generated from markdown files (such as [this one](http
 
 
 ## Contributing
-We welcome contributions from the community to make this effort as useful as possible to as many people as possible. 
+We welcome contributions from the community to make this effort as useful as possible to as many people as possible.
 If you spot errors or inaccuracies, please file an issue or make a pull request.
+Or get in touch over email at hello@nextstrain.org or on Twitter at [@nextstrain](https://twitter.com/nextstrain).
 
 
 ## Building
@@ -47,6 +56,6 @@ _This requires Augur version >=6.2.0, released Jan 25, 2020._
 
 ## Notes
 
-There were 6 SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. A SNP at 18529 in BetaCoV/Wuhan/IVDC-HB-04/2020 appears directly adjacent to long stretch of ambiguous bases and so has also been masked.
+There were apparently spurious SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. A SNP at 18529 in BetaCoV/Wuhan/IVDC-HB-04/2020 appears directly adjacent to long stretch of ambiguous bases and so has also been masked.
 
-Site numbering and genome structure uses [BetaCoV/Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to the closest outgroup virus [bat-SL-CoVZXC21](https://www.ncbi.nlm.nih.gov/nuccore/MG772934). Temporal resolution assumes a nucleotide substitution rate consistent with MERS-CoV evolution of 4.59 &times; 10^-4 subs per site per year.
+Site numbering and genome structure uses [BetaCoV/Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 3 &times; 10^-4 subs per site per year. There were SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts. The sample Wuhan/IPBCAMS-WH-05/2020 has been dropped from the analysis due to the appearance of clustered, spurious SNPs.
