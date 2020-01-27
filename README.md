@@ -6,11 +6,28 @@ The nCoV genomes were generously shared by scientists at the Shanghai Public Hea
 
 nCoV genomes are not included as part of this repo as many of them are protected by the terms of GISAID sharing. These genomes will need to be supplemented by the user. Please add these as strains in `data/sequences.fasta`. Metadata for these viruses already exists in `data/metadata.tsv`.
 
+## Situation Report Translations
+
+We welcome translations of the situation reports (narratives) into languages other than English (in particular to countries affected by the outbreak), and have been very impressed with the contributions provided so far.
+Please get in touch if you can help.
+
+We suggest creating a branch for each language after the each release of the English version.
+Unfortunately this means that the changes are not visible through nextstrain.org until release, but we are working on improving this.
+
+The situation reports are generated from markdown files (such as [this one](https://github.com/nextstrain/ncov/blob/master/narratives/ncov_sit-rep_2020-01-25.md) for 2020-01-25).
+
+#### Current translations:
+
+| Language | Translator(s) | Latest version released |
+| -------- | ------------- | ----------------------- |
+| Mandarin | [Alvin X. Han](https://twitter.com/AlvinXHan), [Fengjun Zhang](https://twitter.com/fengjun_zhang) | 2020-01-25 |
+| Spanish  | [Ch. Julian Villabona-Arenas](https://twitter.com/Chjulian) | 2020-01-25 |
+
+
 ## Contributing
 We welcome contributions from the community to make this effort as useful as possible to as many people as possible. 
-If you spot errors or inaccuracies, please file and issue or make a pull request.
-Translations of the [situation reports](https://nextstrain.org/narratives/ncov/sit-rep/2020-01-25) into languages other than English (in particular to countries affected by the outbreak) are very welcome. 
-The situation reports are generated from [markdown files](https://github.com/nextstrain/ncov/blob/master/narratives/ncov_sit-rep_2020-01-25.md) -- please get in touch if you can help.
+If you spot errors or inaccuracies, please file an issue or make a pull request.
+
 
 ## Building
 
