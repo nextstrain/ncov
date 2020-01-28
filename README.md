@@ -52,7 +52,7 @@ with a [containerized Nextstrain installation](https://nextstrain.org/docs/getti
 
 The resulting output JSON at `auspice/ncov.json` can be visualized by running `auspice view --datasetDir auspice` or `nextstrain view auspice/` depending on local vs containerized installation.
 
-_This requires Augur version >=6.2.0, released Jan 25, 2020._
+_This requires [Augur](https://github.com/nextstrain/augur) version >=6.2.0, released Jan 25, 2020._
 
 ## Notes
 
