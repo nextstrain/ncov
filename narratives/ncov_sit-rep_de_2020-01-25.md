@@ -84,13 +84,13 @@ Wir wissen jetzt, dass es sich um einen Ausbruch eines neuen Coronavirus handelt
 Dieses Virus wird vorläufig als nCoV (novel coronavirus) bezeichnet.
 
 Bis zum 28. Januar wurden ca 5000 Fälle und 106 Todesfälle [gemeldet](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
-Es ist noch zu früh, die Sterblichkeitsrate zu schätzen, aber es gibt erste Anzeichen dafür, dass sie deutlich unter der von SARS-CoV liegt.
-Die Fallzahlen stiegen in den letzten Tagen zum Teil aufgrund der verstärkten Überwachung und Tests dramatisch an.
+Es ist noch zu früh um die Sterblichkeitsrate einzuschätzen, aber es gibt erste Anzeichen dafür, dass sie deutlich unter jener von SARS-CoV liegt.
+Die Fallzahlen stiegen in den letzten Tagen dramatisch an, dies ist zum Teil auf eine verstärkte Überwachung und vermehrte Tests dramatisch an.
 
 Während das Epizentrum des Ausbruch Wuhan ist, das jetzt [unter Quarantäne](https://twitter.com/PDChina/status/1220060879112282117) steht, hat sich das Virus in ganz China und im Ausland, einschließlich Hongkong, Macao, Thailand, Japan, Südkorea, USA, Frankreich und Deutschland, ausgebreitet.
 Vereinzelt gibt es Berichte über Übertragungen ausserhalb Chinas, zum Beispiel aus Deutschland, Vietnam, und Japan.
 
-Der Ursprung des Virus ist noch unklar, doch [Genomanalyse](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) lässt vermuten, dass nCoV am engsten mit den zuvor in Fledermäusen identifizierten Viren verwandt ist.
+Der Ursprung des Virus ist noch unklar, doch eine [Genomanalyse](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) lässt vermuten, dass nCoV am engsten mit zuvor in Fledermäusen identifizierten Viren verwandt ist.
 Es ist jedoch möglich, dass es vor der Übertragung auf den Menschen noch andere tierische Wirte gab.
 Entgegen manchen Berichten gibt keine Hinweise auf Schlangen als Zwischenwirt.
 
@@ -101,7 +101,7 @@ Die folgenden Seiten enthalten Analysen, die mit [Nextstrain](https://nextstrain
 Wenn Sie durch die linke Leiste blättern, werden Textabschnitte mit einer entsprechenden Visualisierung der genomischen Daten auf der rechten Seite angezeigt.
 
 Das vollständige Genom eines neuartigen und großen RNA-Virus schnell zu entschlüsseln ist eine bemerkenswerte Leistung.
-Diese Analysen wurden durch den schnellen und offenen Austausch von genomischen Daten und Interpretationen durch Wissenschaftler auf der ganzen Welt ermöglicht (siehe die letzte Folie mit der Liste der beitragenden Institute).
+Diese Analysen wurden durch den schnellen und offenen Austausch von genomischen Daten und Interpretationen durch Wissenschaftler auf der ganzen Welt ermöglicht (siehe die letzte Folie mit einer Liste der beitragenden Institute).
 
 ```
 
@@ -117,32 +117,33 @@ Krankheitserreger verbreiten sich durch Replikation in einem Wirt und anschließ
 Eine Epidemie kann nur dann ausbrechen, wenn eine Infektion im Mittel zu mehr als einer Folgeinfektion führt.
 
 Wenn sich der Erreger vermehrt und ausbreitet, muss sein Genom mehrfach repliziert werden.
-Während der Replikation passieren zufällige Mutationen (Kopierfehler) und akkumulieren sich im Genom.
-Solche Zufallsmutationen können helfen, die Ausbreitung des Erregers zu verfolgen und etwas über seine Übertragungswege und -dynamik zu erfahren.
+Während der Replikation passieren zufällige Mutationen (Kopierfehler), welche sich im Genom akkumulieren.
+Solche Zufallsmutationen können helfen, die Ausbreitung des Erregers zu verfolgen und etwas über seine Übertragungswege und Übertragungsdynamik zu erfahren.
 
 <div>
   <img alt="cartoon showing how transmission tree and phylogenetic tree relate" width="500" src="https://neherlab.org/talk_images/infection_tree_combined.png"/>
 </div>
 
 Die obige Abbildung zeigt eine Skizze eines Übertragungsbaums.
-Ein Bruchteil der Fälle wurde getestet und analysiert (blau).
+In diesem Beispies, ein Bruchteil der Fälle wurde getestet und analysiert (dargestellt in blau).
 In der Praxis ist der Übertragungsbaum unbekannt und es liegen in der Regel nur grobe Schätzungen der Fallzahlen vor.
-Genomsequenzen erlauben es, den Übertragungsbaum zu rekonstruieren.
+Genomsequenzen erlauben es, diesen Übertragungsbaum zu rekonstruieren.
 In diesem Beispiel sind drei Mutationen (kleine Rauten) auf dem Baum markiert.
-Sequenzen, die dieselben Mutationen aufweisen, sind enger miteinander verwandt.
+Sequenzen, welche dieselben Mutationen aufweisen, sind enger miteinander verwandt.
 Daher erlauben uns diese Mutationen, Gruppen von verwandten Fällen, die zu denselben Übertragungsketten gehören, zu identifizieren.
 
 ### Phylogenetische Bäume interpretieren
-Unten sehen wir eine Illustration mit einem phylogenetischen Baum auf der linken Seite, in dem Mutationen als farbige Kreise dargestellt sind.
-Auf der rechten Seite sind die entsprechenden Sequenzen, ebenfalls mit Mutationen als farbige Kreise dargestellt.
-Der Baum gruppiert Sequenzen mit denselben Mutationen.
+Unten sehen wir eine Illustration mit einem phylogenetischen Baum auf der linken Seite, in welchem Mutationen als farbige Kreise dargestellt sind.
+Auf der rechten Seite sind die entsprechenden Sequenzen, ebenfalls mit Mutationen als farbige Kreise, dargestellt.
+Der Baum gruppiert Sequenzen mit denselben Mutationen zusammen.
 Wenn Sequenzen durch eine vertikale Linie verbunden sind -- (z.b. A und B) -- bedeutet dies, dass es keine Unterschiede zwischen ihnen gibt - ihre Sequenzen sind identisch.
 
-Wenn eine Sequenz wie C oder E allein am Ende einer langen horizontalen Linie sitzt, bedeutet dies, dass sie Mutationen hat, die in anderen Sequenzen nicht zu finden sind. Je länger die Linie ist, desto mehr Mutationen gibt es.
-A und B haben auch Mutationen (der grüne Kreis), die von den anderen Sequenzen nicht geteilt werden, aber sie sind miteinander identisch.
+Wenn eine Sequenz wie C oder E allein am Ende einer langen horizontalen Linie sitzt, bedeutet dies, dass sie Mutationen hat, welche in anderen Sequenzen nicht zu finden sind. 
+A und B haben zusätzliche je eine Mutation (der grüne Kreis), welche von den anderen Sequenzen nicht geteilt werden, aber auf A und B vorhanden sind.
 
 <div>
-  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
+  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>Je länger die Linie ist, desto mehr Mutationen gibt es.
+
 </div>
 
 Im Moment sieht die Phylogenie des neuartigen Coronavirus (nCoV) nicht sehr "baum-artig" aus.
@@ -158,11 +159,11 @@ Informationen darüber, wie die Analyse durchgeführt wurde, finden Sie [in dies
 
 <br>
 
-Die Farben repräsentieren den Stadt/US-Staat der Isolation, wobei die x-Achse die Nukleotid-Divergenz darstellt.
+Die Farben repräsentieren diejenige Stadt oder den US-Staat der Isolation, wobei die x-Achse die Nukleotid-Divergenz darstellt.
 
 <br>
 
-Die Divergenz wird als Anzahl der Veränderungen (Mutationen) im Genom gemessen.
+Die Divergenz wird als Anzahl der Veränderungen (Mutationen) im Genom, relative zur Grösse des Genoms, gemessen.
 Mehrere Sequenzen haben keine Mutationen -- das heißt, sie sind alle identisch mit der Wurzel (Mitte) des Baumes.
 Andere Viren haben zwischen einer und fünf Mutationen.
 
@@ -170,16 +171,16 @@ Andere Viren haben zwischen einer und fünf Mutationen.
 
 Die Sequenzierung des Genoms eines großen neuartigen RNA-Virus in einer Ausbruchssituation ist eine grosse Herausforderung.
 Einige der in diesen Sequenzen beobachteten Unterschiede können eher auf Sequenzierungsfehler als auf tatsächliche Mutationen zurückzuführen sein.
-Einfügungen, Deletionen und Unterschiede an den Enden des Genoms sind mit grösserer Wahrscheinlichkeit Fehler und wurden deshalb in dieser Analyse maskiert.
+Einfügungen, Deletionen und Unterschiede an den Enden des Genoms sind mit grösserer Wahrscheinlichkeit Fehler und wurden deshalb in dieser Analyse weggelassen.
 
 # [Phylogenetische Interpretation](https://nextstrain.org/ncov/2020-01-26?m=div&d=tree)
 
-Die genetische Vielfalt der verfügbaren nCoV-Sequenzen ist niedrig: 8 von 27 Sequenzen haben Mutationen.
+Die genetische Vielfalt der verfügbaren nCoV-Sequenzen ist relativ niedrig: 8 von 27 Sequenzen haben Mutationen.
 
 <br>
 
 Die geringe genetische Vielfalt deutet darauf hin, dass der letzte gemeinsame Vorfahre aller nCoV-Sequenzen erst vor kurzer Zeit zirkulierte.
-Dieser Schluss beruht auf der Tatsache, dass Mutationen bei Coronaviren mit einer Rate von etwa 1-2 Mutationen pro Monat auftreten (verglichen mit anderen RNA Viren eher langsam).
+Dieser Schluss beruht auf der Tatsache, dass Mutationen bei Coronaviren mit einer Rate von etwa 1-2 Mutationen pro Monat auftreten, was verglichen mit anderen RNA Viren eher langsam ist.
 Typischerweise beobachtet man eine hohe genetische Diversität wenn der Ausbruch auf wiederholte Einführungen aus einem Tierreservoir zurückgeht (dies gilt für Lassa, Ebola, MERS-CoV und Vogelgrippe).
 Daher gehen wir davon aus, dass dieser Ausbruch auf eine einzige Übertragung aus dem Tierreich herrührt (oder wenige Übertragungen von der gleichen Quelle), gefolgt von einer Ausbreitung des Virus von Mensch zu Mensch.
 
@@ -235,7 +236,7 @@ Andernfalls würden wir eine höhere Anzahl von Unterschieden zwischen den Seque
 
 <br>
 
-Frühere Forschungen über verwandte Coronaviren legen nahe, dass diese Viren zwischen 1 und 3 Veränderungen in ihrem Genom pro Monat akkumulieren (Raten von 3&times; 10<sup>-4</sup> bis 1&times;10<sup>-3</sup> pro base und Jahr).
+Frühere Forschungen über verwandte Coronaviren legen nahe, dass diese Viren zwischen 1 und 3 Veränderungen in ihrem Genom pro Monat akkumulieren (Raten von 3&times; 10<sup>-4</sup> bis 1&times;10<sup>-3</sup> pro Position und Jahr).
 
 <br>
 
@@ -274,7 +275,7 @@ Zusammen mit unseren früheren Schätzungen des Alters des Ausbruchs und Informa
 
 **Schätzungen von R0 deuten auf Werte zwischen 1,5 und 3,5 hin**
 
-Wenn wir davon ausgehen, dass der Ausbruch Anfang November 2019 (vor 12 Wochen) begann, finden wir, dass R0 zwischen 1,5 und 2,5 liegen sollte, je nachdem, wie groß ('n') der Ausbruch jetzt ist.
+Wenn wir davon ausgehen, dass der Ausbruch Anfang November 2019 (vor 12 Wochen) begann, finden wir, dass R0 zwischen 1,5 und 2,5 liegen sollte, je nachdem, wie groß ('n') der Ausbruch zum momentanen Zeitpunkt ist.
 <div>
   <img alt="Graph der R0-Schätzungen mit Epidemiebeginn vor 12 Wochen" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early.png"/>
 </div>
@@ -287,7 +288,7 @@ Geht man von einem Start Anfang Dezember 2019 (vor 8 Wochen) aus, liegen die Sch
 ```
 
 # [Danksagung](https://nextstrain.org/ncov/2020-01-26?d=map&c=author)
-Wir möchten uns für die beeindruckende, schnelle und transparente Arbeit aller an diesem Ausbruch beteiligten Wissenschaftler, insbesondere aber der in China tätigen, bedanken.
+Wir möchten uns für die beeindruckende, schnelle und transparente Arbeit aller an diesem Ausbruch beteiligten Wissenschaftler, insbesondere aber jener in China tätigen, bedanken.
 Nur durch den raschen Austausch von genomischen Daten und Metadaten sind solche Analysen möglich.
 
 <br>
