@@ -44,11 +44,12 @@
   ],
   "geo_resolutions": [
     "location",
+    "division",
     "country"
   ],
   "display_defaults": {
-    "color_by": "location",
-    "geo_resolution": "location",
+    "color_by": "division",
+    "geo_resolution": "division",
     "map_triplicate": true
   },
   "filters": [

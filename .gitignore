@@ -5,8 +5,7 @@ build/
 data/ncov.fasta
 data/ncov.fasta-e
 data/sequences.fasta
-auspice/ncov_gisaid.json
-auspice/ncov_zh.json
+auspice/ncov_*.json
 
 # Sensitive environment variables
 environment*
