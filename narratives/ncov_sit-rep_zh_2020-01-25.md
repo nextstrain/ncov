@@ -124,7 +124,7 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此相同。
 
 <div>
-  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://nextstrain-data.s3.amazonaws.com/toy_alignment_tree.png"/>
+  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
 </div>
 
 目前，新型冠状病毒的系统发生树可能看起来并不像“树”。
@@ -134,7 +134,7 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 
 ```
 
-# [系统发生树分析](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
+# [系统发生树分析](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
 这里我们呈现公开共享的27种新型冠状病毒的系统发生树。 [GitHub存储库](github.com/nextstrain/ncov)中提供了有关如何执行分析的资料。
 
@@ -219,7 +219,7 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 **我们发现最近共同祖先出现在于2019年11月中旬和12月上旬。**
 
 <div>
-  <img alt="基于不同突变率的TMRA估计图" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
+  <img alt="基于不同突变率的TMRA估计图" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
 随着更多样本将被测序，我们估计该系统发生树会呈现更多的结构，导致星状拓扑结构将不再是一个好的假设模型。
@@ -246,12 +246,12 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 
 如果我们假设爆发起始于2019年11月上旬（12星期之前），我们发现R0值将会在 1.5 到 2.5 范围内, 此范围主要取决于现在爆发有多大（'n'）。
 <div>
-  <img alt="流行开始于12星期前情况下的R0值预估图" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
+  <img alt="流行开始于12星期前情况下的R0值预估图" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early.png"/>
 </div>
 
 如果我们假设爆发起始于更近的2019年12月（8个星期前），R0值的预估将会在 1.8 and 3.5之间：
 <div>
-  <img alt="流行开始于8星期前情况下的R0值预估图" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
+  <img alt="流行开始于8星期前情况下的R0值预估图" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent.png"/>
 </div>
 ```
 

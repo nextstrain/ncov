@@ -137,7 +137,7 @@ Cuando una secuencia se encuentra sola en una línea larga, como C o E, signific
 A y B también tienen mutaciones únicas (el círculo verde) que no comparten con las otras secuencias, pero A y B son idénticas entre sí.
 
 <div>
-  <img alt="Ilustración del árbol filogenético y del alineamiento de secuencias correspondiente, con las muestras rotuladas como A-E" width="500" src="https://nextstrain-data.s3.amazonaws.com/toy_alignment_tree.png"/>
+  <img alt="Ilustración del árbol filogenético y del alineamiento de secuencias correspondiente, con las muestras rotuladas como A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
 </div>
 
 Por el momento, la  filogenia del nuevo coronavirus (nCoV) en la diapositiva siguiente puede que no se parezca mucho a un 'árbol'.
@@ -146,7 +146,7 @@ Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen en las l
 Podrás ver cuántas mutaciones tiene una rama al pasar el mouse sobre ella.
 ```
 
-# [Análisis filogenético](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
+# [Análisis filogenético](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
 Aquí presentamos una filogenia de 27 cepas del nCoV que se han compartido públicamente.
 La información sobre cómo se realizó el análisis está disponible [en este repositorio de GitHub](github.com/nextstrain/ncov).
@@ -237,7 +237,7 @@ Hemos asumido una estructura filogenética con forma de estrella y una distribuc
 **Encontramos que el antepasado común de los virus secuenciados probablemente existió entre mediados de noviembre y principios de diciembre de 2019.**
 
 <div>
-  <img alt="Gráfico de las estimaciones de TACMR basado en diferentes tasas de mutación" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
+  <img alt="Gráfico de las estimaciones de TACMR basado en diferentes tasas de mutación" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
 A medida que se secuencian más muestras, esperamos que el árbol muestre más estructura, de modo que la topología de filogenia con forma de estrella ya no sea una suposición adecuada.
@@ -266,14 +266,14 @@ Junto con nuestras estimaciones anteriores de la 'edad' del brote y la informaci
 Si asumimos que el brote comenzó a principios de noviembre de 2019 (hace 12 semanas), encontramos que el R0 debería oscilar entre 1.5 y 2.5, dependiendo de qué tan grande ('n') sea el brote ahora.
 
 <div>
-  <img alt="Gráfico de estimaciones de R0 con el inicio del brote ocurriendo hace 12 semanas" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
+  <img alt="Gráfico de estimaciones de R0 con el inicio del brote ocurriendo hace 12 semanas" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early.png"/>
 </div>
 
 
 Si suponemos un comienzo más reciente, por ejemplo, a principios de diciembre de 2019 (hace 8 semanas), las estimaciones para R0 oscilan entre 1.8 y 3.5:
 
 <div>
-  <img alt="Gráfico de estimaciones de R0 con el inicio del brote ocurriendo hace 8 semanas" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
+  <img alt="Gráfico de estimaciones de R0 con el inicio del brote ocurriendo hace 8 semanas" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent.png"/>
 </div>
 ```
 
