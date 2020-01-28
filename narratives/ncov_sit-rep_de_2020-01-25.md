@@ -85,7 +85,7 @@ Dieses Virus wird vorläufig als nCoV (novel coronavirus) bezeichnet.
 
 Bis zum 28. Januar wurden ca 5000 Fälle und 106 Todesfälle [gemeldet](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
 Es ist noch zu früh um die Sterblichkeitsrate einzuschätzen, aber es gibt erste Anzeichen dafür, dass sie deutlich unter jener von SARS-CoV liegt.
-Die Fallzahlen stiegen in den letzten Tagen dramatisch an, dies ist zum Teil auf eine verstärkte Überwachung und vermehrte Tests dramatisch an.
+Die Fallzahlen stiegen in den letzten Tagen dramatisch an, dies ist zum Teil auf eine verstärkte Überwachung und vermehrte Tests zurückzuführen.
 
 Während das Epizentrum des Ausbruch Wuhan ist, das jetzt [unter Quarantäne](https://twitter.com/PDChina/status/1220060879112282117) steht, hat sich das Virus in ganz China und im Ausland, einschließlich Hongkong, Macao, Thailand, Japan, Südkorea, USA, Frankreich und Deutschland, ausgebreitet.
 Vereinzelt gibt es Berichte über Übertragungen ausserhalb Chinas, zum Beispiel aus Deutschland, Vietnam, und Japan.
@@ -125,7 +125,7 @@ Solche Zufallsmutationen können helfen, die Ausbreitung des Erregers zu verfolg
 </div>
 
 Die obige Abbildung zeigt eine Skizze eines Übertragungsbaums.
-In diesem Beispies, ein Bruchteil der Fälle wurde getestet und analysiert (dargestellt in blau).
+In diesem Beispiel, wurde ein Bruchteil der Fälle wurde getestet und analysiert (dargestellt in blau).
 In der Praxis ist der Übertragungsbaum unbekannt und es liegen in der Regel nur grobe Schätzungen der Fallzahlen vor.
 Genomsequenzen erlauben es, diesen Übertragungsbaum zu rekonstruieren.
 In diesem Beispiel sind drei Mutationen (kleine Rauten) auf dem Baum markiert.
@@ -139,11 +139,11 @@ Der Baum gruppiert Sequenzen mit denselben Mutationen zusammen.
 Wenn Sequenzen durch eine vertikale Linie verbunden sind -- (z.b. A und B) -- bedeutet dies, dass es keine Unterschiede zwischen ihnen gibt - ihre Sequenzen sind identisch.
 
 Wenn eine Sequenz wie C oder E allein am Ende einer langen horizontalen Linie sitzt, bedeutet dies, dass sie Mutationen hat, welche in anderen Sequenzen nicht zu finden sind. 
-A und B haben zusätzliche je eine Mutation (der grüne Kreis), welche von den anderen Sequenzen nicht geteilt werden, aber auf A und B vorhanden sind.
+Dabei gilt, je länger eine Linie ist, desto mehr Mutationen trennen den Start und das Ende der Linie.
+A und B haben zusätzliche je eine Mutation (der grüne Kreis), welche von den anderen Sequenzen nicht geteilt werden, aber bei A und B vorhanden sind.
 
 <div>
-  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>Je länger die Linie ist, desto mehr Mutationen gibt es.
-
+  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
 </div>
 
 Im Moment sieht die Phylogenie des neuartigen Coronavirus (nCoV) nicht sehr "baum-artig" aus.
@@ -159,11 +159,11 @@ Informationen darüber, wie die Analyse durchgeführt wurde, finden Sie [in dies
 
 <br>
 
-Die Farben repräsentieren diejenige Stadt oder den US-Staat der Isolation, wobei die x-Achse die Nukleotid-Divergenz darstellt.
+Die Farben repräsentieren diejenige Stadt oder denjenigen US-Staat der Isolation, wobei die x-Achse die Nukleotid-Divergenz darstellt.
 
 <br>
 
-Die Divergenz wird als Anzahl der Veränderungen (Mutationen) im Genom, relative zur Grösse des Genoms, gemessen.
+Die Divergenz wird als Anzahl der Veränderungen (Mutationen) im Genom, relativ zur Grösse des Genoms, gemessen.
 Mehrere Sequenzen haben keine Mutationen -- das heißt, sie sind alle identisch mit der Wurzel (Mitte) des Baumes.
 Andere Viren haben zwischen einer und fünf Mutationen.
 
@@ -180,7 +180,7 @@ Die genetische Vielfalt der verfügbaren nCoV-Sequenzen ist relativ niedrig: 8 v
 <br>
 
 Die geringe genetische Vielfalt deutet darauf hin, dass der letzte gemeinsame Vorfahre aller nCoV-Sequenzen erst vor kurzer Zeit zirkulierte.
-Dieser Schluss beruht auf der Tatsache, dass Mutationen bei Coronaviren mit einer Rate von etwa 1-2 Mutationen pro Monat auftreten, was verglichen mit anderen RNA Viren eher langsam ist.
+Diese Aussage beruht auf der Tatsache, dass Mutationen bei Coronaviren mit einer Rate von etwa 1-2 Mutationen pro Monat auftreten, was verglichen mit anderen RNA Viren eher wenig ist.
 Typischerweise beobachtet man eine hohe genetische Diversität wenn der Ausbruch auf wiederholte Einführungen aus einem Tierreservoir zurückgeht (dies gilt für Lassa, Ebola, MERS-CoV und Vogelgrippe).
 Daher gehen wir davon aus, dass dieser Ausbruch auf eine einzige Übertragung aus dem Tierreich herrührt (oder wenige Übertragungen von der gleichen Quelle), gefolgt von einer Ausbreitung des Virus von Mensch zu Mensch.
 
