@@ -145,11 +145,6 @@ A und B haben auch Mutationen (der grüne Kreis), die von den anderen Sequenzen 
   <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
 </div>
 
-At the moment, the novel coronavirus (nCoV) phylogeny may not look much like a 'tree'.
-Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or 'branches', going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
-
 Im Moment sieht die Phylogenie des neuartigen Coronavirus (nCoV) nicht sehr "baum-artig" aus.
 Viele der Sequenzen sind identisch - sie sitzen zusammen auf vertikalen Linien wie A und B oder finden sich ganz links an der "Wurzel" des Baums.
 Andere haben Mutationen und sitzen daher am Ende von Linien oder "Ästen".
