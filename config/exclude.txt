@@ -1,5 +1,7 @@
 # a number of extra mutations that look spurious
 Wuhan/IPBCAMS-WH-05/2020
+Shenzhen/SZTH-004/2020
+Shenzhen/SZTH-001/2020
 
 # duplicate of Guangdong/20SF012/2020 / EPI_ISL_403932 as described here:
 # http://virological.org/t/phylogenetic-analysis-of-23-ncov-2019-genomes-2020-01-23/335/5

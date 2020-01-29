@@ -175,8 +175,8 @@ rule refine:
         node_data = "results/branch_lengths.json"
     params:
         root = "Wuhan/WIV04/2019 Wuhan/WIV06/2019",
-        clock_rate = 0.00035,
-        clock_std_dev = 0.00015,
+        clock_rate = 0.0005,
+        clock_std_dev = 0.0003,
         coalescent = "skyline",
         date_inference = "marginal",
         divergence_unit = "mutations"
