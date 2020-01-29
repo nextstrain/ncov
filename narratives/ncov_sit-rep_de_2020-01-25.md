@@ -13,13 +13,13 @@ abstract: "Dieser Bericht verwendet öffentlich zugängliche Genome des neuartig
 ```auspiceMainDisplayMarkdown
 ## Zusammenfassung
 
-Wir haben 27 öffentlich zugängliche Genome des neuartigen Coronavirus (nCoV) untersucht, um auf das Datum des gemeinsamen Vorfahren und die Verbreitungsrate zurückzuschließen.
+Wir haben 27 öffentlich zugängliche Genome des neuartigen Coronavirus (nCoV) untersucht, um auf das Datum des gemeinsamen Vorfahren und die Verbreitungsrate zurückzuschliessen.
 Wir finden:
 * 27 untersuchte Genome sind sehr ähnlich und unterscheiden sich durch 0-5 Mutationen.
-* Diese geringe Diversität deutet darauf hin, dass der Ausbruch entweder auf eine einzige Tier-zu-Mensch Übertragung oder auf eine geringe Anzahl von Übertragungen sehr ähnlicher Viren zurückzuführen ist.
-* Dieses Tier-zu-Mensch Übertragung war höchstwahrscheinlich im November oder Anfang Dezember 2019.
+* Diese geringe Diversität deutet darauf hin, dass der Ausbruch entweder auf eine einzige Tier zu Mensch Übertragung oder auf eine geringe Anzahl von Übertragungen sehr ähnlicher Viren zurückzuführen ist.
+* Dieses Tier zu Mensch Übertragung war höchstwahrscheinlich im November oder Anfang Dezember 2019.
 * Seit diesem Zeitpunkt hat sich das Virus von Mensch zu Mensch übertragen.
-* Aus den Schätzungen der Gesamtzahl der Fälle vom Imperial College London von mehreren zehntausend Fällen schließen wir auf eine Reproduktionszahl zwischen 1.5 und 3.5, was auf ein schnelles Wachstum im Zeitraum von November bis Januar hindeutet.
+* Aus den Schätzungen der Gesamtzahl der Fälle vom Imperial College London von mehreren zehntausend Fällen schliessen wir auf eine Reproduktionszahl zwischen 1.5 und 3.5, was auf ein schnelles Wachstum im Zeitraum von November bis Januar hindeutet.
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-01-26)
@@ -41,7 +41,7 @@ Einige Varianten von Coronaviren haben in der Vergangenheit zu Ausbrüchen gefü
 
 #### SARS-CoV & MERS-CoV
 
-Das bekannteste dieser Coronaviren ist [SARS-CoV](https://de.wikipedia.org/wiki/Schweres_Akutes_Atemwegssyndrom) ("Schweres Akutes Respiratorisches Syndrom"), das sich bei einem Ausbruch von November 2002 bis Juli 2003 weltweit ausbreitete und zu über 8.000 Fällen und 774 Todesfällen führte (Sterblichkeit: etwa 9-11%).
+Das bekannteste dieser Coronaviren ist [SARS-CoV](https://de.wikipedia.org/wiki/Schweres_Akutes_Atemwegssyndrom) ("Schweres Akutes Respiratorisches Syndrom"), das sich bei einem Ausbruch von November 2002 bis Juli 2003 weltweit ausbreitete und zu über 8000 Fällen und 774 Todesfällen führte (Sterblichkeitsrate: 9-11%).
 
 Im Jahr 2012 wurde ein neuartiges Coronavirus, [MERS-CoV (englisch)](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Middle East Respiratory Syndrome"), das schwere Atemwegssymptome verursacht, identifiziert. MERS hat zu Todesfällen geführt, die mit denen von SARS vergleichbar sind.
 Der Übertragungsweg von MERS ist jedoch sehr unterschiedlich. Während SARS effizient von einem Menschen auf einen anderen übertragen wurde, waren Infektionen mit MERS beim Menschen im Allgemeinen das Ergebnis unabhängiger Zoonosen (Übertragungen von Tier zu Mensch) von Kamelen (siehe [Dudas _et al._](https://elifesciences.org/articles/31257) für weitere Informationen). Dies hat zu einem sich selbst begrenzenden Ausbruch geführt, der weitgehend auf die Arabische Halbinsel beschränkt blieb.
@@ -55,7 +55,7 @@ Sie sind häufiger [Ursache für grippeähnliche Erkrankungen (ILI)"](https://ww
 Tatsächlich werden bei [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)-[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% aller ILI-Fälle Coronaviren gefunden.
 Weltweit gibt es vermutlich jedes Jahr Millionen Infektionen, die zu Erkältungen ohne weitere Komplikationen führen.
 
-Diese saisonalen Coronaviren sind das Ergebnis separater Tier-zu-Mensch-Übertragungen vermutlich von Fledermäusen in den letzten ~100 Jahren.
+Diese saisonalen Coronaviren sind das Ergebnis separater Tier zu Mensch Übertragungen vermutlich von Fledermäusen in den letzten ~100 Jahren.
 Nach der Zoonose haben sich diese Varianten in der menschlichen Bevölkerung etabliert und zirkulieren weltweit.
 
 
@@ -65,9 +65,9 @@ Coronaviren infizieren eine Vielzahl von Tieren. Die oben beschriebenen Ausbrüc
 Es wird angenommen, dass SARS von [Hufeisenfledermäusen über Musangs](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698) in die menschliche Population gelangt ist.
 
 
-#### Mensch-zu-Mensch Übertragungen
+#### Mensch zu Mensch Übertragungen
 
-Die Fähigkeit zwischen Menschen übertragen zu werden ist äußerst wichtig, um die mögliche weitere Entwicklung des Ausbruchs zu verstehen.
+Die Fähigkeit zwischen Menschen übertragen zu werden ist äusserst wichtig, um die mögliche weitere Entwicklung des Ausbruchs zu verstehen.
 SARS wurde damals von der WHO als [globale Bedrohung der öffentlichen Gesundheit](https://www.who.int/whr/2007/overview/en/index1.html) eingestuft, da es sich effizient von Mensch zu Mensch übertrug und eine hohe Sterblichkeit hatte.
 ```
 
@@ -82,18 +82,18 @@ SARS wurde damals von der WHO als [globale Bedrohung der öffentlichen Gesundhei
 
 ```auspiceMainDisplayMarkdown
 
-## Akueller Ausbruch eines neuartigen Coronavirus
+## Aktueller Ausbruch eines neuartigen Coronavirus
 
 Im Dezember 2019 wurden in Wuhan, China, Lungenentzündungen unbekannter Herkunft beschrieben.
 Wir wissen jetzt, dass es sich um einen Ausbruch eines neuen Coronavirus handelt.
 Dieses Virus wird vorläufig als nCoV (novel coronavirus) bezeichnet.
 
-Bis zum 28. Januar wurden ca 5.000 Fälle und 106 Todesfälle [gemeldet](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
-Es ist noch zu früh um die Sterblichkeit einzuschätzen; es gibt jedoch erste Anzeichen dafür, dass sie deutlich unter jener von SARS-CoV liegt.
+Bis zum 28. Januar wurden ca. 5000 Fälle und 106 Todesfälle [gemeldet](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
+Es ist noch zu früh um die Sterblichkeitsrate einzuschätzen; es gibt jedoch erste Anzeichen dafür, dass sie deutlich unter jener von SARS-CoV liegt.
 Die Fallzahlen stiegen in den letzten Tagen dramatisch an. Dies ist zum Teil auf eine verstärkte Überwachung und vermehrte Tests zurückzuführen.
 
-Während das Epizentrum des Ausbruch Wuhan ist, das jetzt [unter Quarantäne](https://twitter.com/PDChina/status/1220060879112282117) steht, hat sich das Virus in ganz China und im Ausland, einschließlich Hongkong, Macao, Thailand, Japan, Südkorea, USA, Frankreich und Deutschland, ausgebreitet.
-Vereinzelt gibt es Berichte über Übertragungen außerhalb Chinas, zum Beispiel aus Deutschland, Vietnam, und Japan.
+Während das Epizentrum des Ausbruch Wuhan ist, das jetzt [unter Quarantäne](https://twitter.com/PDChina/status/1220060879112282117) steht, hat sich das Virus in ganz China und im Ausland, einschliesslich Hongkong, Macao, Thailand, Japan, Südkorea, USA, Frankreich und Deutschland, ausgebreitet.
+Vereinzelt gibt es Berichte über Übertragungen ausserhalb Chinas, zum Beispiel aus Deutschland, Vietnam, und Japan.
 
 Der Ursprung des Virus ist noch unklar, doch eine [Genomanalyse](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) lässt vermuten, dass nCoV am engsten mit zuvor in Fledermäusen identifizierten Viren verwandt ist.
 Es ist jedoch möglich, dass es vor der Übertragung auf den Menschen noch andere tierische Wirte gab.
@@ -105,7 +105,7 @@ Entgegen manchen Berichten gibt keine Hinweise auf Schlangen als Zwischenwirt.
 Die folgenden Seiten enthalten Analysen, die mit [Nextstrain](https://nextstrain.org) durchgeführt wurden.
 Wenn Sie durch die linke Leiste blättern, werden Textabschnitte mit einer entsprechenden Visualisierung der genomischen Daten auf der rechten Seite angezeigt.
 
-Das vollständige Genom eines neuartigen und großen RNA-Virus schnell zu entschlüsseln ist eine bemerkenswerte Leistung.
+Das vollständige Genom eines neuartigen und grossen RNA-Virus schnell zu entschlüsseln ist eine bemerkenswerte Leistung.
 Diese Analysen wurden durch den schnellen und offenen Austausch von genomischen Daten und Interpretationen durch Wissenschaftler auf der ganzen Welt ermöglicht (siehe die letzte Folie mit einer Liste der beitragenden Institute).
 
 ```
@@ -119,7 +119,7 @@ Diese Analysen wurden durch den schnellen und offenen Austausch von genomischen 
 
 ## Übertragungs-Bäume und Phylogenien
 
-Krankheitserreger verbreiten sich durch Replikation in einem Wirt und anschließender Übertragung auf einen anderen Wirt.
+Krankheitserreger verbreiten sich durch Replikation in einem Wirt und anschliessender Übertragung auf einen anderen Wirt.
 Eine Epidemie kann nur dann ausbrechen, wenn eine Infektion im Mittel zu mehr als einer Folgeinfektion führt.
 
 Wenn sich der Erreger vermehrt und ausbreitet, muss sein Genom mehrfach repliziert werden.
@@ -170,15 +170,15 @@ Die Farben repräsentieren diejenige Stadt oder denjenigen US-Staat der Isolatio
 
 <br>
 
-Die Divergenz wird als Anzahl der Veränderungen (Mutationen) im Genom, relativ zur Größe des Genoms, gemessen.
-Mehrere Sequenzen haben keine Mutationen -- das heißt, sie sind alle identisch mit der Wurzel (Mitte) des Baumes.
+Die Divergenz wird als Anzahl der Veränderungen (Mutationen) im Genom, relativ zur Grösse des Genoms, gemessen.
+Mehrere Sequenzen haben keine Mutationen -- das heisst, sie sind alle identisch mit der Wurzel (Mitte) des Baumes.
 Andere Viren haben zwischen einer und fünf Mutationen.
 
 <br>
 
-Die Sequenzierung des Genoms eines großen neuartigen RNA-Virus in einer Ausbruchssituation ist eine große Herausforderung.
+Die Sequenzierung des Genoms eines grossen neuartigen RNA-Virus in einer Ausbruchssituation ist eine grosse Herausforderung.
 Einige der in diesen Sequenzen beobachteten Unterschiede können eher auf Sequenzierungsfehler als auf tatsächliche Mutationen zurückzuführen sein.
-Einfügungen, Deletionen und Unterschiede an den Enden des Genoms sind mit größerer Wahrscheinlichkeit Fehler und wurden deshalb in dieser Analyse weggelassen.
+Einfügungen, Deletionen und Unterschiede an den Enden des Genoms sind mit grösserer Wahrscheinlichkeit Fehler und wurden deshalb in dieser Analyse weggelassen.
 
 # [Phylogenetische Interpretation](https://nextstrain.org/ncov/2020-01-26?m=div&d=tree)
 
@@ -217,7 +217,7 @@ Die Sequenzen aus Shenzhen stammen [auch aus einer Familie](https://www.thelance
 
 <br>
 
-# [Fälle außerhalb Chinas](https://nextstrain.org/ncov/2020-01-26?c=country&d=tree&m=div)
+# [Fälle ausserhalb Chinas](https://nextstrain.org/ncov/2020-01-26?c=country&d=tree&m=div)
 
 Aus vielen ost- und südostasiatischen Ländern, den USA, Australien und Europa werden diagnostisch bestätigte nCoV-Fälle gemeldet.
 Aus Vietnam, Japan und Deutschland wurden Fälle ohne Reisegeschichte nach Wuhan gemeldet.
@@ -225,7 +225,7 @@ Bei diesen Fällen handelt es sich vermutlich um Infektionen durch Verwandtschaf
 
 <br>
 
-Die einzigen derzeit verfügbaren Sequenzdaten für Fälle außerhalb Chinas sind die beiden Fälle aus Thailand und ein Fall aus den USA, die hier gelb bzw. rot eingefärbt sind.
+Die einzigen derzeit verfügbaren Sequenzdaten für Fälle ausserhalb Chinas sind die beiden Fälle aus Thailand und ein Fall aus den USA, die hier gelb bzw. rot eingefärbt sind.
 Die thailändischen Proben sind genetisch identisch mit sechs chinesischen Sequenzen, darunter fünf isoliert in Wuhan.
 Die Sequenz aus Washington, USA, teilt zwei Mutationen mit dem Sequenzcluster aus Shenzhen.
 
@@ -266,7 +266,7 @@ Dies setzt eine Obergrenze für das Datum des jüngsten gemeinsamen Vorfahren un
 
 # [Schätzungen der Wachstumsrate](https://nextstrain.org/ncov/2020-01-26?d=tree)
 
-Eine wichtige Größe bei der Ausbreitung eines Erregers ist die durchschnittliche Anzahl von Sekundärfällen, die jede Infektion hervorruft.
+Eine wichtige Grösse bei der Ausbreitung eines Erregers ist die durchschnittliche Anzahl von Sekundärfällen, die jede Infektion hervorruft.
 
 <br>
 
@@ -276,12 +276,12 @@ Wir präsentieren hier einfache Schätzungen von R0.
 ```auspiceMainDisplayMarkdown
 ## Schätzung der Ausbreitungsrate
 
-Wissenschaftler des Imperial College London haben die Zahl der außerhalb Chinas beobachteten Fälle zur Schätzung der [Gesamtzahl der Fälle](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) herangezogen und gehen davon aus, dass es bereits vor eine Woche mehrere Tausend Fälle in Wuhan gegeben hat.
+Wissenschaftler des Imperial College London haben die Zahl der ausserhalb Chinas beobachteten Fälle zur Schätzung der [Gesamtzahl der Fälle](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) herangezogen und gehen davon aus, dass es bereits vor eine Woche mehrere Tausend Fälle in Wuhan gegeben hat.
 Zusammen mit unseren früheren Schätzungen des Alters des Ausbruchs und Informationen über den Infektionszeitraum können wir mit Hilfe eines Verzweigungsmodelles plausible Bereiche von R0 abschätzen.
 
 **Schätzungen von R0 deuten auf Werte zwischen 1,5 und 3,5 hin**
 
-Wenn wir davon ausgehen, dass der Ausbruch Anfang November 2019 (vor 12 Wochen) begann, finden wir, dass R0 zwischen 1,5 und 2,5 liegen sollte, je nachdem, wie groß ('n') der Ausbruch zum momentanen Zeitpunkt ist.
+Wenn wir davon ausgehen, dass der Ausbruch Anfang November 2019 (vor 12 Wochen) begann, finden wir, dass R0 zwischen 1,5 und 2,5 liegen sollte, je nachdem, wie gross ('n') der Ausbruch zum momentanen Zeitpunkt ist.
 <div>
   <img alt="Graph der R0-Schätzungen mit Epidemiebeginn vor 12 Wochen" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early.png"/>
 </div>
