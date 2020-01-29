@@ -1,13 +1,16 @@
-location	Wuhan	#4137C2
-location	Hangzhou	#4066CF
-location	Shenzhen	#4B8DC2
-location	Zhuhai	#5DA8A3
-location	Kaohsiung City	#77B67F
-location	Bangkok	#96BD60
-location	Seattle	#B8BC4B
-location	Orange County	#D4B13F
-location	Los Angeles	#E59638
-location	Phoenix	#E4672F
+location	Wuhan	#511EA8
+location	Hangzhou	#403DC5
+location	Guangdong	#4063CF
+location	Shenzhen	#4785C7
+location	Zhuhai	#559EB1
+location	Guangzhou	#67AF94
+location	Foshan	#7EB877
+location	Kaohsiung	#98BD5E
+location	Bangkok	#B4BD4C
+location	Seattle	#CDB642
+location	Orange County	#DFA53B
+location	Los Angeles	#E68735
+location	Phoenix	#E35D2D
 location	Chicago	#DC2F24
 
 division	Hubei	#3F4DCB

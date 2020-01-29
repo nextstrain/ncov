@@ -4,3 +4,7 @@ Wuhan/IPBCAMS-WH-05/2020
 # duplicate of Guangdong/20SF012/2020 / EPI_ISL_403932 as described here:
 # http://virological.org/t/phylogenetic-analysis-of-23-ncov-2019-genomes-2020-01-23/335/5
 HKU-SZ-002a_2020
+
+# lack of precise date is leading to an incorrect time placement (end of Jan)
+HKU-SZ-005b_2020
+
