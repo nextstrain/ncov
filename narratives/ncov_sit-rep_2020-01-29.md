@@ -13,9 +13,9 @@ abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic dat
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 33 publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
+Using 38 publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
 We find:
-* 33 sampled genomes are very similar, differing from the consensus by 0-7 mutations
+* the 38 sampled genomes are very similar, differing from the consensus by 0-7 mutations
 * This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
 * This event most likely occurred in November or early December 2019.
 * There has been ongoing human-to-human spread since this point resulting in observed cases.
@@ -145,7 +145,7 @@ You can see how many mutations a branch has by hovering your mouse over it.
 
 # [Phylogenetic analysis](https://nextstrain.org/ncov?m=div&d=tree)
 
-Here we present a phylogeny of 33 strains of nCoV that have been publicly shared.
+Here we present a phylogeny of 38 strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
@@ -166,7 +166,7 @@ Insertions, deletions, and differences at the ends of the genome are more likely
 
 # [Phylogenetic Interpretation](https://nextstrain.org/ncov?m=div&d=tree)
 
-We currently see little genetic diversity across the nCoV sequences, with 10 out of 33 sequences having no unique mutations.
+We currently see little genetic diversity across the nCoV sequences, with 11 out of 38 sequences having no unique mutations.
 
 <br>
 
@@ -176,10 +176,11 @@ The observation of such strong clustering of human infections can be explained b
 
 <br>
 
-At the moment, most mutations that can be observed are singletons – they are unique to individual genomes.
-However, recent sequences have revealed two clusters:
-The larger one with 25 sequences contains 8 identical genomes and a number of singleton mutations.
-The other cluster contains sequences from Guangdong and four isolates from the US.
+We are starting to see groups of sequences that share mutations.
+One cluster contains sequences from Guangdong and four isolates from the US.
+Other clusters contain two to three isolates.
+Sequences in these clusters tend to be from more recent samples, suggesting that the virus has started to accumulate mutations as it spread in Wuhan and subsequently to other cities.
+There is currently no evidence that these mutations change how the virus behaves -- it is expected that RNA viruses mutate.
 
 # [Within-family transmission 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
@@ -192,10 +193,9 @@ These two cases are [known to come from a single family](https://twitter.com/Jin
 
 # [Within-family transmission 2](https://nextstrain.org/ncov?m=div&d=tree&f_location=Shenzhen)
 
-Of the six isolates from Shenzhen (Southeastern China, Guangdong Province) we see three isolates which are genetically identical.
+Of the four isolates from Shenzhen (Southeastern China, Guangdong Province) we see three isolates which are genetically identical.
 These sequences differ by 3 mutations from the root of the tree.
-Two of these mutations are also found in the sequence of the case in Washington, USA (more below).
-One sequence from Shenzhen has two additional mutations.
+Two of these mutations are also found in several of the sequences from the US.
 
 <br>
 
@@ -214,7 +214,7 @@ Vietnam, Japan, and Germany have reported transmission within the country, albei
 The only currently available sequence data for cases outside of China are the two cases from Thailand, five case from the USA, and one sequence from Taiwan, which are coloured here in blue, yellow, and green, respectively.
 The Thai samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
 Four sequences from the US share two mutations with the cluster of sequences from Shenzhen.
-The remaining sequence from the US shaoes a mutation with the sequence from Taiwan.
+The remaining sequence from the US shares a mutation with the sequence from Taiwan.
 
 <br>
 
@@ -234,11 +234,23 @@ On the right, we explore how different assumptions about the rate of change, and
 
 ```auspiceMainDisplayMarkdown
 ## Date of the common ancestor of outbreak viruses
-With the additional sequences shared during the past week, the tree now shows two distinct clusters such that our analysis from 2020-01-25 assuming a star-like topology is no longer appropriate.
-The nextstrain analysis pipeline estimates that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019.**
-The biggest source of uncertainty is the substitution rate.
+With the additional sequences shared during the past week, the tree now shows several distinct clusters such that our analysis from 2020-01-25 assuming a star-like topology is no longer appropriate.
 
-There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor. And strongly suggests evolutionary rates of ~3.0 x 10^-4 are more plausible.
+We reproduce here our analysis based on data available up to 2020-01-25
+assuming a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
+**We found that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019. The biggest source of uncertainty is the substitution rate.**
+
+<div>
+  <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
+</div>
+
+Using the entire data set, the nextstrain analysis pipeline estimates that the common ancestor most likely existed between late-Nov and the beginning of Dec 2019.
+
+There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor.
+The common ancestor of viruses sequenced to date might be later than this date though.
+
+More detailed modeling of the onset of the outbreak are onging.
+Despite considerable uncertainty, our best guess is remains late November/early December.
 
 ```
 
@@ -261,12 +273,12 @@ Together with our previous estimates of the age of the outbreak and information 
 
 If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.8 and 2.5, depending on how large ('n') the outbreak is now.
 <div>
-  <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early.png"/>
+  <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early_2020-01-29.png"/>
 </div>
 
 If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 2.2 and 3.5:
 <div>
-  <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent.png"/>
+  <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
 This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example [this preprint](https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1).
 Importantly, R0 is a quantitity that depends strongly on the socio-economic context and infection control measures.
@@ -325,12 +337,20 @@ The nCoV genomes were generously shared by scientists at the
    - Zhejiang/WZ-01/2020
    - Zhejiang/WZ-02/2020
  * Guangdong Provincial Center for Diseases Control and Prevention
+   - Guangdong/20SF001/2020
    - Guangdong/20SF012/2020
    - Guangdong/20SF013/2020
    - Guangdong/20SF014/2020
    - Guangdong/20SF025/2020
    - Guangdong/20SF028/2020
    - Guangdong/20SF040/2020
+   - Guangdong/20SF174/2020
+   - Guangdong/20SF206/2020
+   - Guangdong/20SF207/2020
+   - Foshan/20SF207/2020
+   - Foshan/20SF210/2020
+   - Foshan/20SF211/2020
+
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
    - Nonthaburi/61/2020
    - Nonthaburi/74/2020
