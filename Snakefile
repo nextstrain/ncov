@@ -174,7 +174,7 @@ rule refine:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
     params:
-        root = "Wuhan/WIV04/2019 Wuhan/WIV06/2019",
+        root = "min_dev",
         clock_rate = 0.00035,
         clock_std_dev = 0.00015,
         coalescent = "skyline",
@@ -380,7 +380,7 @@ rule poisson_tmrca:
 rule branching_process_R0:
     params:
         infectious_period = 10, # days
-        population = [600, 3000, 15000],
+        population = [6000, 30000, 150000],
         start_recent = "2019-12-01",
         start_early = "2019-11-01"
     output:
