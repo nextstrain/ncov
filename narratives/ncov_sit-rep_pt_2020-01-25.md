@@ -1,11 +1,13 @@
 ---
-title: Análise genômica da propagação do nCoV. Relatório da situação até 25/01/2020.
+title: Análise genômica do espalhamento do coronavírus nCoV. Relatório da situação até 25/01/2020.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 Jan 25"
 dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
-abstract: "Esse relatório usa dados genômicos do novo coronavírus (nCoV) compartilhados publicamente pelo GISAID e Genbank, para estimar as taxas e padrões de propagação da epidemia viral. Planejamos emitir relatórios da situação tão logo dados são produzidos e compartilhados. Esse site é otimizado para visualização em navegadores desktop."
+abstract: "Esse relatório usa dados genômicos publicamente compartilhados sobre o novo coronavírus (nCov) da GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores. 
+
+Tradução por: Glaucio Santos & Anderson Brito
 ---
 
 # [Resumo](https://nextstrain.org/ncov/2020-01-25)
@@ -13,21 +15,21 @@ abstract: "Esse relatório usa dados genômicos do novo coronavírus (nCoV) comp
 ```auspiceMainDisplayMarkdown
 ## Resumo
 
-Examinamos a diversidade genética dos 27 genomas do novo coronavírus (nCoV) compartilhados publicamente, a fim de deduzir a data do ancestral comum e a taxa de propagação do vírus.
+Examinamos a diversidade genética dos 27 genomas do novo coronavírus (nCoV) compartilhados publicamente, a fim de inferir a data do ancestral comum e taxas de espalhamento.
 Concluímos que:
-* Os 27 genomas em amostragem são muito similares, acumulando somente entre 0 e 5 mutações
+* Os 27 genomas amostrados são muito similares, diferindo em apenas 0-5 mutações
 * Essa falta de diversidade genética tem uma explicação cautelosa de que o surto ou descende de uma única introdução do vírus na população humana, ou descende de um pequeno número de transmissões de animais para humanos.
 * Esse evento provavelmente ocorreu em Novembro ou no início de Dezembro de 2019.
-* Há propagação contínua de humano para humano desde sua introdução, o que resulta nos casos observados.
-* Usando o total estimado pela Imperial College London — que aponta milhares de casos —, deduzimos uma taxa de reprodução entre 1,5 e 3,5, o que significa um crescimento rápido no período de novembro a janeiro.
+* Desde então espalhamento de humanos para humanos tem ocorrido, resultando em casos observáveis da doença .
+* Usando o total estimado pela Imperial College London — que aponta milhares de casos —, inferimos um número reprodutivo básico entre 1,5 e 3,5, indicando rápido crescimento do surto viral no período entre Novembro e Janeiro.
 ```
 
 # [Coronavírus](https://nextstrain.org/ncov/2020-01-25)
 
 ### Leituras adicionais::
 
-* Informações gerais sobre os coronavírus no [Wikipédia](https://pt.wikipedia.org/wiki/Coronavirus) 25/01/2020
-* Resumo do surto de nCoV no [Wikipédia](https://pt.wikipedia.org/wiki/Epidemia_de_pneumonia_por_novo_coronav%C3%ADrus_de_2019%E2%80%932020) 25/01/2020
+* Informações gerais sobre os coronavírus na [Wikipédia](https://pt.wikipedia.org/wiki/Coronavirus) 25/01/2020
+* Resumo do surto de nCoV na [Wikipédia](https://pt.wikipedia.org/wiki/Epidemia_de_pneumonia_por_novo_coronav%C3%ADrus_de_2019%E2%80%932020) 25/01/2020
 * Material disponibilizado pelo [Centro de Controle e Prevenção de Doenças dos Estados Unidos (CDC)](https://www.cdc.gov/coronavirus/index.html) 23/01/2020
 * Características do genoma em [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) 23/01/2020
 
@@ -39,27 +41,27 @@ Os coronavírus (CoV) são membros de um conjunto numeroso de especíes de víru
 Alguns tipos de coronavírus estão associados com surtos, já outros estão continuamente circulando e causando principalmente infecções respiratórias leves (como por exemplo, o resfriado comum).
 
 #### SARS-CoV e MERS-CoV
-O mais conhecido dos coronavírus é o [SARS-CoV](https://pt.wikipedia.org/wiki/S%C3%ADndrome_respirat%C3%B3ria_aguda_grave) (Síndrome respiratória aguda grave), que foi responsável por um surto global entre novembro de 2002 e julho de 2003, que resultou em [mais de 8000 casos e 774 mortes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), com uma taxa de letalidade entre 9 e 11%.
+O mais conhecido dos coronavírus é o [SARS-CoV](https://pt.wikipedia.org/wiki/S%C3%ADndrome_respirat%C3%B3ria_aguda_grave) (Síndrome respiratória aguda grave), que foi responsável por um surto global entre Novembro de 2002 e Julho de 2003, que resultou em [mais de 8000 casos e 774 mortes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), com uma taxa de letalidade entre 9 e 11%.
 
-Em 2012, identificaram um novo coronavírus, o [MERS-CoV](https://pt.wikipedia.org/wiki/Coronav%C3%ADrus_da_s%C3%ADndrome_respirat%C3%B3ria_do_Oriente_M%C3%A9dio) ("Síndrome respiratória do Oriente Médio"), causando graves sintomas respiratórios. O MERS resultou em um número de mortes comparável ao SARS, porém sua rota de transmissão é muito diferente. Enquanto o SARS é propagado eficientemente de um humano para outro, infecções humanas com MERS são geralmente resultante de contato com animas, isto é, por camelos (consulte [Dudas _et al._](https://elifesciences.org/articles/31257) para mais informações). O que fez com que o surto de MERS se auto-restringisse a Península Arábica.
+Em 2012, um novo coronavírus foi identificado, o [MERS-CoV](https://pt.wikipedia.org/wiki/Coronav%C3%ADrus_da_s%C3%ADndrome_respirat%C3%B3ria_do_Oriente_M%C3%A9dio) ("Síndrome respiratória do Oriente Médio"), o qual causa graves sintomas respiratórios. O MERS resultou em um número de mortes comparável ao SARS, porém sua via de transmissão é muito diferente. Enquanto o SARS é transmitido eficientemente de um humano para outro, infecções humanas com MERS são geralmente resultante de contato com animas, isto é, por camelos (veja [Dudas _et al._](https://elifesciences.org/articles/31257) para mais informações). Esse fator fez com que o surto de MERS se auto-restringisse a Península Arábica.
 
 
 #### CoVs Sazonais
 Contudo, nem todos os coronavírus são tão mortais quanto o SARS-CoV e MERS-CoV.
 Há quatro coronavírus "sazonais" que  normalmente infectam humanos todo ano.
-Comparado com o SARS, as cepas sazonais são ["muito mais prevalentes, muito menos graves, e geralmente causas de doenças parecidas com a influenza (ILI, segundo a sigla em inglês)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
-Na verdade, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% de todos os casos de ILI testam positivo para coronavírus, portanto os sazonais são muito comuns, o que resulta em milhões de infecções leves todo ano..
-Estes coronavírus sazonais são resultados de transbordamentos separados do reservatório de morcegos para humanos no passado (100 anos), em que após a transmissão entre espécies, cada vírus se estabeleceu e se espalhou amplamente na população humana.
+Comparado com o SARS, as cepas sazonais são ["muito mais prevalentes, muito menos graves, e geralmente causam doenças parecidas com a gripe (ILI, segundo a sigla em inglês)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
+Na verdade, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/) de todos os casos de ILI testam positivo para coronavírus, portanto os sazonais são muito comuns, o que resulta em milhões de infecções leves todo ano.
+Estes coronavírus sazonais são resultados de transmissões independentes de vírus provenientes de morcegos (reservatórios naturais de vírus) para humanos ao longo de aproximadamente 100 anos. Após tais transmissões entre espécies, cada vírus se estabeleceu e se espalhou amplamente na população humana.
 
 
-#### Reservatórios Animais
-Coronavírus infectam uma gama grande de animas, e os surtos humanos descritos anteriormente são resultado de um ou mais "saltos" dos vírus desses reservatórios animais para dentro da população humana.
+#### Reservatórios animais
+Coronavírus infectam uma ampla gama de animas, e os surtos virais em humanos descritos anteriormente são resultado de um ou mais "saltos" dos vírus desses reservatórios animais para populações humanas.
 Acredita-se que o SARS chegou até a população humana por meio de [morcegos-de-ferradura via uma civetas (Paguma larvata) como intermediário](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
 
 
 #### Transmissão de Pessoa para Pessoa
 A capacidade de transmitir diferentes linhagens virais entre humanos é extremamente importante para entender o crescimento potencial de um surto.
-Devido a sua habilidade de se propagar entre humanos, acrescido de sua alta taxa de letalidade, o SARS (ou um vírus similar a ele) é considerado pela OMS uma [ameaça global  de saúde pública](https://www.who.int/whr/2007/overview/en/index1.html).
+Devido a sua habilidade de se transmitir entre humanos, acrescido de sua alta taxa de letalidade, o SARS (ou um vírus similar a ele) é considerado pela OMS uma [ameaça global de saúde pública](https://www.who.int/whr/2007/overview/en/index1.html).
 
 ```
 
@@ -75,24 +77,20 @@ Devido a sua habilidade de se propagar entre humanos, acrescido de sua alta taxa
 ```auspiceMainDisplayMarkdown
 
 ## Surto recente de um novo coronavírus
-Em dezembro de 2019, uma nova doença foi detectada pela primeira vez em Wuhan, China.
-Com sua identificação, sabendo que trata-se de mais um surto de coronavírus em humanos (o 7º), passa a ser provisoriamente chamado de nCoV (novo coronavírus).
+Em Dezembro de 2019, uma nova doença foi detectada pela primeira vez em Wuhan, China. Com sua identificação, ficou estabelecido que trata-se de mais um surto de coronavírus em humanos (o 7º), e o vírus passou a ser provisoriamente chamado de nCoV (novo coronavírus).
 
-Até 25 de janeiro, acima de 1400 casos e 42 mortes [foram reportadas](https://pt.wikipedia.org/wiki/Epidemia_de_pneumonia_por_novo_coronav%C3%ADrus_de_2019%E2%80%932020).
-Ainda é muito cedo para saber a taxa de letalidade, mas segundo indicações preliminares é menor que a do SARS-CoV. O número de casos estão aumentando dramaticamente, em partes graças ao aumento de vigilância epidemiológica e de testes.
+Até 25 de janeiro, mais de 1400 casos e 42 mortes [foram reportadas](https://pt.wikipedia.org/wiki/Epidemia_de_pneumonia_por_novo_coronav%C3%ADrus_de_2019%E2%80%932020). Ainda é muito cedo para saber a taxa de letalidade, mas segundo indicações preliminares é menor que a do SARS-CoV. O número de casos estão aumentando dramaticamente, em partes graças ao aumento de vigilância epidemiológica e de testes.
 
-Enquanto o surto parece ter seu epicentro em Wuhan, que atualmente está [sob quarentena](https://twitter.com/PDChina/status/1220060879112282117), o vírus tem se espalhado por toda a China, e detectado no exterior, como em Hong Kong, Macau, Tailândia, Japão, Coreia do Sul, EUA, e França. Fora da China, a transmissão local (de pessoa para pessoa) foi reportada, mas é limitada até o momento.
+Enquanto o surto parece ter seu epicentro em Wuhan, que atualmente está [sob quarentena](https://twitter.com/PDChina/status/1220060879112282117), o vírus tem se espalhado por toda a China, e tem sido detectado no exterior, como em Hong Kong, Macau, Tailândia, Japão, Coreia do Sul, EUA, e França. Fora da China, a transmissão local (de pessoa para pessoa) foi reportada, mas é limitada até o momento.
 
 A origem do vírus ainda não está clara, entretanto [análises genômicas](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) sugerem que o nCoV é provavelmente relacionado a vírus anteriormente identificados em morcegos.
-É plausível que a transmissão ocorreu através de outros animais como intermediários antes de ser transmitido aos humanos. Não há evidências de cobras como intermediário.
+É plausível que a transmissão ocorreu tendo outros animais como intermediários antes de ser transmitido aos humanos. Porém, não há evidências de cobras como intermediário.
 
 #### Narrativas da Nextstrain
 
-As páginas seguintes contém análises realizadas usando o [Nextstrain](https://nextstrain.org).
-Rolando a página no menu a esquerda, textos correspondentes aos dados genômicos visualizados na direita surgirão na tela.
+As páginas seguintes contém análises realizadas usando o [Nextstrain](https://nextstrain.org). Rolando a página no menu a esquerda, textos correspondentes aos dados genômicos visualizados na direita surgirão na tela.
 
-Ter acesso aos genomas completos de um vírus novo e de RNA extenso tão rapidamente é uma conquista notável.
-Essas análises têm sido possíveis devido ao rápido compartilhamento público de dados genômicos e interpretações. por cientistas de todo o mundo (veja a última página para conhecer os autores do sequenciamento).
+Ter acesso a longos genomas completos, de um novo vírus de RNA, e tão rapidamente, é uma conquista notável. Essas análises têm sido possíveis devido ao rápido compartilhamento público de dados genômicos e interpretações por cientistas de todo o mundo (veja a última página para conhecer os autores do sequenciamento).
 ```
 
 # [Como interpretar as árvores filogenéticas?](https://nextstrain.org/ncov/2020-01-25)
@@ -102,80 +100,67 @@ Essas análises têm sido possíveis devido ao rápido compartilhamento público
 * [Explorando filogenias interativas com o Auspice](https://neherlab.org/201901_krisp_auspice.html) 24/01/2019
 
 ```auspiceMainDisplayMarkdown
-## Árvores de transmissão vs. Árvores filogenéticas
+## Árvores de transmissão versus árvores filogenéticas
 
-Os patógenos se propagam através da replicação rápida em um hospedeiro, seguido da sua transmissão para outro hospedeiro.
-Uma epidemia só começa quando uma infecção resulta em mais de uma infecção subsequente.
+Os patógenos se propagam através da replicação rápida em um hospedeiro, seguido da sua transmissão para outro hospedeiro. Uma epidemia só começa quando uma infecção resulta em mais de uma infecção subsequente.
 
-Conforme o patógeno replica e se propaga, seu genoma precisa ser copiado muitas vezes e isto causa mutações aleatórias ("erros de cópia") que se acumularão no genoma.
-Tais mutações aleatórias podem ajudar a rastrear a propagação do patógeno e aprender sobre suas rotas e dinâmicas de transmissão. 
+Conforme o patógeno replica e se espalha, seu genoma precisa ser copiado muitas vezes e isto causa mutações aleatórias ("erros de cópia") que se acumularão no genoma. Tais mutações aleatórias podem ajudar a rastrear o espalhamento do patógeno, e aprender sobre suas vias e dinâmicas de transmissão. 
 
 <div>
   <img alt="cartoon showing how transmission tree and phylogenetic tree relate" width="500" src="https://neherlab.org/talk_images/infection_tree_combined.png"/>
 </div>
 
-A ilustração acima mostra um esboço de uma árvore de transmissão com um subconjunto de casos que foram amostrados (em azul).
-Na prática, a árvore de transmissão é desconhecida, assim sendo só temos disponoveis as estimativas do número total de casos.
-Sequências genômicas nos permitem deduzir partes da árvore de transmissão.
-Nesse exemplo, três mutações (losangos pequenos) estão indicadas na árvore. 
-As sequências que têm as mesmas mutações estão intimamente relacionadas entre si, então essas mutações nos permitem agrupar amostras em grupos de vírus próximos que pertencem as mesmas cadeiras de transmissão.
+A ilustração acima mostra um esboço de uma árvore de transmissão com um subconjunto de casos que foram amostrados (em azul). Na prática, a árvore de transmissão é desconhecida, e assim sendo, só temos disponíveis as estimativas do número total de casos.
+Sequências genômicas nos permitem inferir partes da árvore de transmissão.
+Nesse exemplo, três mutações (losangos pequenos) estão indicadas na árvore. As sequências que têm as mesmas mutações estão intimamente relacionadas, logo, essas mutações nos permitem agrupar amostras em grupos de vírus próximos, os quais pertencem às mesmas cadeias de transmissão.
 
-### Lendo uma Árvore Filogenética
+### Lendo uma árvore filogenética
 
-Abaixo, vemos uma ilustração com uma árvore filogenética na esquerda, onde mutações são mostradas como círculos coloridos. A direita estão as sequências correspondentes, também com mutações mostradas como círculos coloridos.
-Podemos ver que sequências que compartilham as mesmas mutações se agrupam juntas.
-Quando sequências aparecem ligadas por uma linha vertical, como A e B, isso significa que não há diferenças entre eles - suas sequências são idênticas.
+Abaixo, vemos uma ilustração com uma árvore filogenética a esquerda, onde mutações são mostradas como círculos coloridos. A direita estão as sequências correspondentes, também com mutações mostradas como círculos coloridos. Podemos ver que sequências que compartilham as mesmas mutações se agrupam juntas.
+Quando sequências aparecem ligadas por uma linha vertical, como A e B, isso significa que não há diferenças entre eles: suas sequências são idênticas.
 
-Quando uma sequência está sozinha em uma linha longa, como C ou E, significa que tem mutações únicas que não se encontram em outras sequências. Quanto mais longa a linha, mais mutações.
-A e B também tem mutações únicas (círculo verde) não compartilhadas por outras sequências, mas ambos são idênticos.
+Quando uma sequência está sozinha em uma linha longa, como C ou E, isso indica a presença de mutações únicas, que não se encontram em outras sequências. Quanto mais longa a linha, mais mutações. A e B também tem mutações únicas (círculo verde) não compartilhadas por outras sequências, mas ambos vírus são idênticos.
 
 <div>
   <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://nextstrain-data.s3.amazonaws.com/toy_alignment_tree.png"/>
 </div>
 
-No momento, a filogenia do novo coronavírus (nCov) pode não parecer muito como uma "árvore". Muitas das sequências são idênticas: aparecem juntas em linhas verticais como A e B (algumas estão mais na parte esquerda da árvore).
-Outras tem mutações únicas ou compartilhadas e, portanto, aparecem nas linhas ("ramificações") que vão para a direita.
-você pode ver quantas  mutações uma ramificação tem passando seu mouse sobre ela.
+No momento, a filogenia do novo coronavírus (nCov) pode não parecer muito como uma "árvore". Muitas das sequências são idênticas: aparecem juntas em linhas verticais, como A e B. Outras têm mutações únicas ou compartilhadas e, portanto, aparecem nas linhas ("ramificações") que vão para a direita. Você pode ver quantas  mutações uma ramificação tem passando seu mouse sobre ela (verifique na próxima página).
 ```
 
 # [Análise filogenética](http://localhost:4000/ncov/2020-01-25?m=div&d=tree)
 
-Aqui apresentamos uma filogenia de 27 cepas de nCoV que foram compartilhadas publicamente.
-Informações sobre como a análise foi realizada está disponível em [nosso repositório no GitHub](github.com/nextstrain/ncov).
+Aqui apresentamos uma filogenia de 27 cepas de nCoV que foram compartilhadas publicamente. Informações sobre como a análise foi realizada está disponível em [nosso repositório no GitHub](github.com/nextstrain/ncov).
 
 <br>
 
-As cores representam a cidade ou estado onde foi coletada a amostra, e o eixo x representa a divergência genética (de nucleótidos).
+As cores representam a cidade ou estado onde foram coletadas as amostras, e o eixo X representa a divergência genética (de nucleótideos).
 
 <br>
 
 A divergência é medida conforme o número de mudanças (mutações) no genoma.
-Muitas sequências têm 0 mutações, o que significa que são todas idênticas até a raíz (centro) da árvore.
-Outros vírus têm entre uma e cinco mutações.
+Muitas sequências têm 0 mutações, o que significa que são todas idênticas até a raíz (base) da árvore. Outros vírus têm entre uma e cinco mutações.
 
 <br>
 
-Sequenciar o genoma de um novo vírus de RNA amplo durante situação de surto é desafiante.
-Algumas das diferenças observadas nessas sequências podem ser resultado de erros de sequenciamento, e não mutações reais.
-Inserções, exclusões, e diferenças nos extremos do genoma têm grandes chances de serem erros, por isso as encobrimos visando cumprir os propósitos dessa análise.
+Sequenciar o genoma de um novo vírus de RNA longo durante um surto é desafiante. Algumas das diferenças observadas nessas sequências podem ser resultado de erros de sequenciamento, e não mutações reais. Inserções, deleções, e diferenças nos extremos do genoma têm grandes chances de serem erros, por isso as ignoramos visando cumprir os propósitos dessa análise.
 
 # [Interpretação filogenética](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
-Atualmente vemos uma diversidade genética mínima nas sequências do nCoV; 8 das 27 sequências não têm mutações únicas.
+Atualmente vemos uma diversidade genética mínima nas sequências do nCoV: 8 das 27 sequências não têm mutações únicas.
 
 <br>
 
-A baixa diversidade genética nessas sequências sugerem que o ancestral comum de todas as sequências de nCoV foi bastante recente, já que as mutações se acumulam lentamente comparado a outros vírus RNA (com taxas em torno de 1-2 mutações por mês para coronavírus).
-Geralmente,quando as introduções por reservatório são múltiplas, é possível observar diversidade genética significativa (como tem sido com a febre de Lassa, o Ebola, a MERS-CoV e a gripe Aviária).
-O fato de podermos observar uma agrupação tão forte em infecções humanas pode indicar que o surto descende de uma única introdução zoonótica (por animal) na população humana, seguida da propagação epidêmica de pessoa para pessoa.
+A baixa diversidade genética nessas sequências sugerem que o ancestral comum de todas as sequências de nCoV é bastante recente, já que as mutações se acumulam lentamente comparado a outros vírus de RNA (com taxas em torno de 1-2 mutações por mês para coronavírus). Geralmente, quando as introduções por reservatório são múltiplas, é possível observar diversidade genética significativa (como tem sido com a febre de Lassa, o Ebola, a MERS-CoV e a gripe aviária).
+O fato de podermos observar uma agrupação tão forte em infecções humanas pode indicar que o surto descende de uma única introdução zoonótica (vinda de um animal) para a população humana, seguida do espalhamento epidêmico de pessoa para pessoa.
 
 <br>
 
-No momento, a maioria das mutações observadas são o que se conhece por "singletons", ou seja, genomas com mutações únicas. Somente as sequências que formam os dois grupos de Guangdong e a sequência dos EUA compartilham mutações, o que será explorado nos próximos slides.
+No momento, a maioria das mutações observadas são o que se conhece por "singletons", ou seja, genomas com mutações únicas. Somente as sequências que formam os dois grupos de Guangdong e a sequência dos EUA compartilham mutações, o que será explorado nas próximas páginas (abaixo).
 
 # [Transmissão dentro da família 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
-Há dois isolamentos de Zhuhai (sudeste da China, na província de Guangdong) geneticamente idênticos que formam um grupo, compartilhando uma mutação única que não é vista em outros isolamentos (passe o mouse sobre as ramificações para ver quais mutações estão presentes).
+Há dois isolados de Zhuhai (sudeste da China, na província de Guangdong) que são geneticamente idênticos, e que formam um grupo, compartilhando uma mutação única que não é vista em outros isolamentos (passe o mouse sobre as ramificações para ver quais mutações estão presentes).
 
 <br>
 
@@ -184,8 +169,7 @@ Sabemos que esses dois casos [vêm de uma mesma família](https://twitter.com/Ji
 
 # [Transmissão dentro da família 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
 
-4 dos 6 isolamentos de Shenzhen (sudeste da China, na província de Guangdong) são geneticamente idênticos. Essas sequências compartilham as mesmas 3 mutações únicas.
-2 dessas 3 mutações também foram encontradas na sequência do caso em Washington, nos EUA (mais detalhes abaixo). 
+Dos seis (6) isolados de Shenzhen (sudeste da China, na província de Guangdong), quatro (4) são geneticamente idênticos. Essas sequências compartilham as mesmas 3 mutações únicas. Duas dessas três mutações também foram encontradas na sequência do caso em Washington, nos EUA (mais detalhes abaixo). 
 Uma sequência de Shenzhen tem 2 mutações adicionais.
 
 <br>
@@ -201,31 +185,28 @@ Há casos de diagnóstico confirmado de nCoV reportados em muitos países da Ás
 
 <br>
 
-Atualmente, os únicos dados genéticos de casos fora da China são os dois da Tailândia, e um dos EUA, representados respectivamente pelas cores amarela e vermelha.
-As amostras tailandesas são geneticamente idênticas a seis sequências chinesas. Dessas seis, cinco foram isoladas em Wuhan.
-A sequência de Washington (EUA) compartilha duas mutações com o grupo de sequências de Shenzhen.
+Atualmente, os únicos dados genéticos de casos fora da China são os dois da Tailândia, e um dos EUA, representados respectivamente pelas cores amarela e vermelha. As amostras tailandesas são geneticamente idênticas a seis sequências chinesas. Dessas seis, cinco foram isoladas em Wuhan. A sequência de Washington (EUA) compartilha duas mutações com o grupo de sequências de Shenzhen.
 
 <br>
 
-O infectado do caso em Washington (EUA) havia viajado para Wuhan.
-A explicação mais comedida para o padrão observado de mutações comuns é de que: o vírus com duas mutações compartilhadas circulava em Wuhan, e foi exportado de forma independente para Shenzhen e para os EUA.
+O infectado do caso em Washington (EUA) havia viajado para Wuhan. A explicação mais cautelosa para o padrão observado de mutações comuns é de que: o vírus com duas mutações compartilhadas circulava em Wuhan, e foi exportado de forma independente para Shenzhen e para os EUA.
 
 
 # [Calculando a provável data do ancestral comum mais recente](https://nextstrain.org/ncov/2020-01-25?d=tree)
-A grande similaridade dos genomas sugere que eles compartilham um ancestral comum recente, ou seja, eles descenderam do mesmo vírus ancestral recentemente. De outro modo, poderíamos esperar por um número maior de diferenças entre as amostras.
+A grande similaridade dos genomas sugere que os vírus compartilham um ancestral comum recente (ou seja, eles descenderam do mesmo vírus ancestral recentemente). Caso contrário, esperaríamos um número maior de diferenças genéticas entre as amostras.
 
 <br>
 
-Pesquisas anteriores com coronavírus similares sugerem que esses vírus acumulam entre 1 e 3 mudanças em seus genomas por mês (taxas de 3 &times; 10<sup>-4</sup> e 1 &times; 10<sup>-3</sup> substituições por local do genoma por ano).
+Pesquisas anteriores com coronavírus similares sugerem que esses vírus acumulam entre 1 e 3 mutações em seus genomas por mês (taxas de 3 &times; 10<sup>-4</sup> e 1 &times; 10<sup>-3</sup> substituições por sítio por ano).
 
 <br>
 
-A direita, exploramos como as diferentes suposições sobre a taxa de mudança, e a diversidade genética observada, nos permitem deduzir o momento estimado da origem do surto.
+A direita nós exploramos como diferentes proposições sobre as taxas de substituição (“mutações”) e a diversidade genética observada nos dá estimativas temporais sobre o surto viral.
 
 ```auspiceMainDisplayMarkdown
-## Provável data do ancestral comum dos vírus do surto
-Aqui assumimos uma estrutura filogenética com formato de estrela, e uma distribuição de Poisson para as mutações através do tempo, a fim de estimar a época do ancestral comum mais recente (também conhecido pela sigla em inglês "TRMCA") dos vírus sequenciados.
-**Concluímos que o ancestral comum provavelmente existiu entre meados de novembro e o início de dezembro de 2019.**
+## Provável data do ancestral comum dos vírus causadores do surto
+Aqui nós supomos uma estrutura filogenética em forma de estrela ao longo de uma distribuição Poisson de mutações ao longo do tempo, para estimar o tempo do ancestral comum mais recente (conhecido em inglês pela sigla “tMRCA”) dos vírus sequenciados.
+**Concluímos que o ancestral comum de nCoV provavelmente existiu entre meados de Novembro e princípios de Dezembro..**
 
 <div>
   <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
@@ -240,17 +221,17 @@ Há um [caso confirmado em Wuhan datado de 1 de dezembro de 2019](https://twitte
 
 # [Estimando a taxa de crescimento](https://nextstrain.org/ncov/2020-01-25?d=tree)
 
-Uma quantidade importante a ser calculada durante a propagação de um patógeno é o número médio de casos secundários que cada infecção produz.
+Uma importante medida durante o espalhamento de um patógeno é o número médio de novos casos secundários que cada pessoa infectada gera.
+
 
 <br>
 
-Esse número é conhecido como R0 ("R-zero" ou "R-nada").
+Esse número é conhecido como R0 ("R-zero").
 A direita, apresentamos estimativas simples do R0.
 
 ```auspiceMainDisplayMarkdown
-## Estimativas da taxa de crescimento epidêmico
-Cientistas da Imperial COllege de London tem usado o número de casos detectados fora da China para estimar o [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/), e sugerem que há pelo menos milhares de casos.
-Junto com nossas estimativas anteriores acerca da idade do surto, e informações sobre a duração do período de infecção, podemos estimar possíveis faixas de R0 usando um modelo matémático de processos de ramificação.
+## Estimativas das taxas epidêmicas de crescimento provenientes do Imperial College London utilizaram o número de casos observados fora da China para estimar o [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/), e sugeriram a ocorrência de pelo menos alguns milhares de casos.
+Juntamente com nossas estimativas prévias sobre a data de surgimento do surto viral, e informações sobre a duração do período de infecção, podemos estimar possíveis faixas de R0 usando um modelo matémático de processos de ramificação.
 
 **Nossas estimativas apontam um R0 provável entre 1,5 e 3,5.**
 
@@ -268,7 +249,7 @@ Se consideramos um início mais recente, no começo de dezembro de 2019 (8 seman
 # [Crédito científico](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
 
 Gostaríamos de reconhecer o trabalho incrível e oportuno realizado por todos os cientistas envolvidos nesse surto, sobretudo os que estão trabalhando na China.
-Somente com o compartilhamento rápido de dados genômicos e de metadados que se faz possível realizar análises como esta.
+Somente com o compartilhamento rápido de dados genômicos e de metadados que tais análises foram possíveis.
 
 <br>
 
