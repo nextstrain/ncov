@@ -174,7 +174,7 @@ rule refine:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
     params:
-        root = "min_dev",
+        root = "Wuhan/WIV04/2019 Wuhan/WIV06/2019",
         clock_rate = 0.00035,
         clock_std_dev = 0.00015,
         coalescent = "skyline",
