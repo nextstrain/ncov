@@ -218,9 +218,8 @@ The remaining sequence from the US shaoes a mutation with the sequence from Taiw
 
 <br>
 
-The case from Washington, USA, had travelled to Wuhan.
-The most parsimonious explanation for the observed pattern of mutation sharing is the virus variant with the two shared mutations was circulating in Wuhan and was independently exported to Shenzhen and to the USA.
-
+The most parsimonious explanation for the observed pattern of mutation sharing between the US and Shenzhen sequences is a virus variant with the two shared mutations was circulating in Wuhan and was independently exported to Shenzhen and multiple times to the USA.
+There is no evidence for a link between US sequences other than a link to Wuhan.
 
 # [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov?d=tree)
 The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
@@ -235,15 +234,9 @@ On the right, we explore how different assumptions about the rate of change, and
 
 ```auspiceMainDisplayMarkdown
 ## Date of the common ancestor of outbreak viruses
-Here, we assume a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
-**We find that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019.**
-
-<div>
-  <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
-</div>
-
-As the more samples are sequenced, we expect the tree to show more structure, such that the star-like phylogeny topology is no longer a good assumption.
-At this point, phylodynamic estimates of the age of the epidemic will become feasible.
+With the additional sequences shared during the past week, the tree now shows two distinct clusters such that our analysis from 2020-01-25 assuming a star-like topology is no longer appropriate.
+The nextstrain analysis pipeline estimates that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019.**
+The biggest source of uncertainty is the substitution rate.
 
 There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor. And strongly suggests evolutionary rates of ~3.0 x 10^-4 are more plausible.
 
@@ -260,20 +253,23 @@ One the right, we present simple estimates of R0.
 
 ```auspiceMainDisplayMarkdown
 ## Estimates of epidemic growth rate
-Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases.
+Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 2020-01-22.
+With the additional exported cases since and the continued growth of confirmed cases in China, we currently have to expect at least 50000 cases to date.
 Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
 
-**We find plausible estimates of R0 between 1.5 and 3.5.**
+**We find plausible estimates of R0 between 1.8 and 3.5.**
 
-If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.5 and 2.5, depending on how large ('n') the outbreak is now.
+If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.8 and 2.5, depending on how large ('n') the outbreak is now.
 <div>
   <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early.png"/>
 </div>
 
-If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 1.8 and 3.5:
+If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 2.2 and 3.5:
 <div>
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent.png"/>
 </div>
+This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example [this preprint](https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1).
+Importantly, R0 is a quantitity that depends strongly on the socio-economic context and infection control measures.
 ```
 
 # [Scientific credit](https://nextstrain.org/ncov?d=map&c=author)
@@ -293,6 +289,7 @@ The nCoV genomes were generously shared by scientists at the:
  * Guangdong Provincial Center for Diseases Control and Prevention
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
  * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
+ * Centers for Disease Control, R.O.C., Taipei, Taiwan
 
 # [Detailed scientific credit](https://nextstrain.org/ncov?d=map&c=author)
 
@@ -339,5 +336,11 @@ The nCoV genomes were generously shared by scientists at the
    - Nonthaburi/74/2020
  * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
    - USA-WA1/2020
+   - USA/AZ1/2020
+   - USA/IL1/2020
+   - USA/CA1/2020
+   - USA/CA2/2020
+ * Centers for Disease Control, R.O.C., Taipei, Taiwan
+   - Taiwan/2/2020
 
 ```
