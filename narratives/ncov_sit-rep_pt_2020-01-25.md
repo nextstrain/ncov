@@ -5,7 +5,9 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 Jan 25"
 dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
-abstract: "Esse relatório usa dados genômicos publicamente compartilhados sobre o novo coronavírus (nCov) da GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores."
+abstract: "Esse relatório usa dados genômicos publicamente compartilhados sobre o novo coronavírus (nCov) da GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores. 
+
+Tradução por: Glaucio Santos & Anderson Brito
 ---
 
 # [Resumo](https://nextstrain.org/ncov/2020-01-25)
