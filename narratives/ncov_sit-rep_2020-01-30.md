@@ -1,9 +1,9 @@
 ---
-title: Genomic analysis of nCoV spread. Situation report 2020-01-29.
+title: Genomic analysis of nCoV spread. Situation report 2020-01-30.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 Jan 29"
+date: "2020 Jan 30"
 dataset: "https://nextstrain.org/ncov?d=map"
 abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
@@ -13,9 +13,9 @@ abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic dat
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 38 publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
+Using 38</tag> publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
 We find:
-* the 38 sampled genomes are very similar, differing from the consensus by 0-7 mutations
+* the 38</tag> sampled genomes are very similar, differing from the consensus by 0-7 mutations
 * This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
 * This event most likely occurred in November or early December 2019.
 * There has been ongoing human-to-human spread since this point resulting in observed cases.
@@ -80,11 +80,11 @@ Due to the ability of SARS to spread between humans and the high case fatality r
 In December 2019, a new illness was first detected in Wuhan, China.
 We now know this to be another outbreak of coronavirus in humans (the 7th), and it is provisionally being called nCoV (novel coronavirus).
 
-As of January 25th over 1400 cases and 42 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
+As of January 29th over 6229 cases and 133 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
 It's still too early to know the case fatality rate, but early indications are that it is significantly less than SARS-CoV.
 The case counts are dramatically rising in part due to increased surveillance and testing.
 
-While the outbreak seems to be centered in Wuhan, which is now [under quarantine](https://twitter.com/PDChina/status/1220060879112282117), the virus has spread throughout China and abroad, including Hong Kong, Macau, Thailand, Japan, South Korea, USA, and France. Limited local transmission outside of China has been reported.
+While the outbreak seems to be centered in Wuhan, which is now [under quarantine](https://twitter.com/PDChina/status/1220060879112282117), the virus has spread throughout China and abroad, including Hong Kong, Singapore, and Thailand, as well as Europe, North America, South Asia, the Middle East, and Australia. Limited local transmission outside of China has been reported.
 
 The origin of the virus is still unclear, however [genomic analyis](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) suggests nCoV is most closely related to viruses previously identified in bats.
 It is plausible that there were other intermediate animal transmissions before the introduction into humans.
@@ -145,7 +145,7 @@ You can see how many mutations a branch has by hovering your mouse over it.
 
 # [Phylogenetic analysis](https://nextstrain.org/ncov?m=div&d=tree)
 
-Here we present a phylogeny of 38 strains of nCoV that have been publicly shared.
+Here we present a phylogeny of 38</tag> strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
@@ -166,7 +166,7 @@ Insertions, deletions, and differences at the ends of the genome are more likely
 
 # [Phylogenetic Interpretation](https://nextstrain.org/ncov?m=div&d=tree)
 
-We currently see little genetic diversity across the nCoV sequences, with 11 out of 38 sequences having no unique mutations.
+We currently see little genetic diversity across the nCoV sequences, with 11</tag> out of 38</tag> sequences having no unique mutations.
 
 <br>
 
@@ -178,43 +178,59 @@ The observation of such strong clustering of human infections can be explained b
 
 We are starting to see groups of sequences that share mutations.
 One cluster contains sequences from Guangdong and four isolates from the US.
-Other clusters contain two to three isolates.
+Other clusters contain two to four isolates.
 Sequences in these clusters tend to be from more recent samples, suggesting that the virus has started to accumulate mutations as it spread in Wuhan and subsequently to other cities.
 There is currently no evidence that these mutations change how the virus behaves -- it is expected that RNA viruses mutate.
 
 # [Within-family transmission 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
-There are two genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
+There are three genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
 
 <br>
 
-These two cases are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
+Two of these cases (ending 028 and 040) are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
+We don't have information about the third case.
 
 
 # [Within-family transmission 2](https://nextstrain.org/ncov?m=div&d=tree&f_location=Shenzhen)
 
-Of the four isolates from Shenzhen (Southeastern China, Guangdong Province) we see three isolates which are genetically identical.
+Of the six isolates from Guangdong Province (which includes the city of Shenzhen) we see four isolates which are genetically identical.
 These sequences differ by 3 mutations from the root of the tree.
-Two of these mutations are also found in several of the sequences from the US.
 
 <br>
 
-The sequences form Shenzhen are [known to come from a single family](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), and almost certainly represent human-to-human transmission.
+Three of the sequences from Guangdong (ending F025, F013, and F012) are [known to come from a single family](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), and almost certainly represent human-to-human transmission.
+
 
 <br>
+
+# [Within-family transmission 2 - shared mutations](https://nextstrain.org/ncov?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
+
+The three mutations found in this cluster are also present in the Arizona, USA isolate, and two of the mutations are found in three other USA isolates.
+
+
+<br>
+
+# [Within-family transmission 3](https://nextstrain.org/ncov?m=div&d=tree&f_location=Paris)
+
+Finally, the two sequences from France are identical, sharing one unique mutation, and one mutation also found in one of the USA isoaltes and the Taiwanese isolate.
+
+<br>
+
+The two french sequences are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
 
 
 # [Cases outside China](https://nextstrain.org/ncov?c=country&d=tree&m=div)
 
-There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, and Europe.
-Vietnam, Japan, and Germany have reported transmission within the country, albeit always with a direct link Wuhan, China.
+There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, the Middle East, and Europe.
+Vietnam, Japan, and Germany have reported transmission within the country, albeit always with a known link to Wuhan, China.
 
 <br>
 
-The only currently available sequence data for cases outside of China are the two cases from Thailand, five case from the USA, and one sequence from Taiwan, which are coloured here in blue, yellow, and green, respectively.
-The Thai samples are genetically identical to six Chinese sequences, including five isolated in Wuhan.
+The only currently available sequence data for cases outside of China are the two cases from Thailand, five from the USA, two from France, and one from Taiwan.
+The Thai samples are genetically identical to nine Chinese sequences, including seven isolated in Wuhan.
 Four sequences from the US share two mutations with the cluster of sequences from Shenzhen.
-The remaining sequence from the US shares a mutation with the sequence from Taiwan.
+The remaining sequence from the US shares a mutation with the sequence from Taiwan, and the two from France.
 
 <br>
 
@@ -280,7 +296,7 @@ If we assume a more recent start, at the beginning of December 2019 (8 weeks ago
 <div>
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
-This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example [this preprint](https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1).
+This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
 Importantly, R0 is a quantitity that depends strongly on the socio-economic context and infection control measures.
 ```
 
@@ -302,6 +318,7 @@ The nCoV genomes were generously shared by scientists at the:
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
  * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
  * Centers for Disease Control, R.O.C., Taipei, Taiwan
+ * Institut Pasteur, Paris, France
 
 # [Detailed scientific credit](https://nextstrain.org/ncov?d=map&c=author)
 
@@ -362,5 +379,8 @@ The nCoV genomes were generously shared by scientists at the
    - USA/CA2/2020
  * Centers for Disease Control, R.O.C., Taipei, Taiwan
    - Taiwan/2/2020
+ * Institut Pasteur, Paris, France
+   - France/IDF0372/2020
+   - France/IDF0373/2020
 
 ```
