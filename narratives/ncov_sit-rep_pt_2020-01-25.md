@@ -5,9 +5,7 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 Jan 25"
 dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
-abstract: "Esse relatório usa dados genômicos publicamente compartilhados sobre o novo coronavírus (nCov) da GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores. 
-
-Tradução por: Glaucio Santos & Anderson Brito
+abstract: "Esse relatório usa dados genômicos publicamente compartilhados sobre o novo coronavírus (nCov) da GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores. Tradução por: Glaucio Santos & Anderson Brito"
 ---
 
 # [Resumo](https://nextstrain.org/ncov/2020-01-25)
@@ -104,7 +102,7 @@ Ter acesso a longos genomas completos, de um novo vírus de RNA, e tão rapidame
 
 Os patógenos se propagam através da replicação rápida em um hospedeiro, seguido da sua transmissão para outro hospedeiro. Uma epidemia só começa quando uma infecção resulta em mais de uma infecção subsequente.
 
-Conforme o patógeno replica e se espalha, seu genoma precisa ser copiado muitas vezes e isto causa mutações aleatórias ("erros de cópia") que se acumularão no genoma. Tais mutações aleatórias podem ajudar a rastrear o espalhamento do patógeno, e aprender sobre suas vias e dinâmicas de transmissão. 
+Conforme o patógeno replica e se espalha, seu genoma precisa ser copiado muitas vezes e isto causa mutações aleatórias ("erros de cópia") que se acumularão no genoma. Tais mutações aleatórias podem ajudar a rastrear o espalhamento do patógeno, e aprender sobre suas vias e dinâmicas de transmissão.
 
 <div>
   <img alt="cartoon showing how transmission tree and phylogenetic tree relate" width="500" src="https://neherlab.org/talk_images/infection_tree_combined.png"/>
@@ -169,7 +167,7 @@ Sabemos que esses dois casos [vêm de uma mesma família](https://twitter.com/Ji
 
 # [Transmissão dentro da família 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
 
-Dos seis (6) isolados de Shenzhen (sudeste da China, na província de Guangdong), quatro (4) são geneticamente idênticos. Essas sequências compartilham as mesmas 3 mutações únicas. Duas dessas três mutações também foram encontradas na sequência do caso em Washington, nos EUA (mais detalhes abaixo). 
+Dos seis (6) isolados de Shenzhen (sudeste da China, na província de Guangdong), quatro (4) são geneticamente idênticos. Essas sequências compartilham as mesmas 3 mutações únicas. Duas dessas três mutações também foram encontradas na sequência do caso em Washington, nos EUA (mais detalhes abaixo).
 Uma sequência de Shenzhen tem 2 mutações adicionais.
 
 <br>
