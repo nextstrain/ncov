@@ -20,8 +20,8 @@ Concluímos que:
 * Os 27 genomas amostrados são muito similares, diferindo em apenas 0-5 mutações
 * Essa falta de diversidade genética tem uma explicação cautelosa de que o surto ou descende de uma única introdução do vírus na população humana, ou descende de um pequeno número de transmissões de animais para humanos.
 * Esse evento provavelmente ocorreu em Novembro ou no início de Dezembro de 2019.
-* Desde então espalhamento de humanos para humanos tem ocorrido, resultando em casos observáveis da doença .
-* Usando o total estimado pela Imperial College London — que aponta milhares de casos —, inferimos um número reprodutivo básico entre 1,5 e 3,5, indicando rápido crescimento do surto viral no período entre Novembro e Janeiro.
+* Desde então a transmissão de humanos para humanos tem ocorrido, resultando em casos observáveis da doença .
+* Usando o total estimado pelo Imperial College London — que aponta milhares de casos —, inferimos um número reprodutivo básico entre 1,5 e 3,5, indicando rápido crescimento do surto viral no período entre Novembro e Janeiro.
 ```
 
 # [Coronavírus](https://nextstrain.org/ncov/2020-01-25)
@@ -134,7 +134,7 @@ Aqui apresentamos uma filogenia de 27 cepas de nCoV que foram compartilhadas pub
 
 <br>
 
-As cores representam a cidade ou estado onde foram coletadas as amostras, e o eixo X representa a divergência genética (de nucleótideos).
+As cores representam a cidade ou estado onde foram coletadas as amostras, e o eixo X representa a distância genética (medida em nucleotídeos).
 
 <br>
 
@@ -147,7 +147,7 @@ Sequenciar o genoma de um novo vírus de RNA longo durante um surto é desafiant
 
 # [Interpretação filogenética](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
-Atualmente vemos uma diversidade genética mínima nas sequências do nCoV: 8 das 27 sequências não têm mutações únicas.
+Atualmente vemos uma diversidade genética mínima nas sequências do nCoV: 8 das 27 sequências não têm mutações exclusivas.
 
 <br>
 
@@ -212,8 +212,7 @@ Aqui nós supomos uma estrutura filogenética em forma de estrela ao longo de um
   <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
 </div>
 
-À medida que mais amostras são sequenciadas, esperamos que a árvore mostre mais estrutura, de modo que a topologia de filogenia em formato de estrela não seja uma hipótese adequada.
-Neste ponto, estimativas filodinâmicas da idade da epidemia se tornarão possíveis.
+À medida que mais amostras são sequenciadas, esperamos que a árvore mostre mais estrutura, de modo que a topologia filogenética em formato de estrela não seja uma hipótese adequada. Neste ponto, estimativas filodinâmicas sobre o período de surgimento da epidemia se tornarão possíveis.
 
 Há um [caso confirmado em Wuhan datado de 1 de dezembro de 2019](https://twitter.com/trvrb/status/1220749265380593664), que colocaria um limite máximo na data do ancestral comum mais recente. E também sugere fortemente que as taxas evolutivas de aproximadamente ~3.0 x 10^-4 são as mais plausíveis.
 
@@ -230,7 +229,8 @@ Esse número é conhecido como R0 ("R-zero").
 A direita, apresentamos estimativas simples do R0.
 
 ```auspiceMainDisplayMarkdown
-## Estimativas das taxas epidêmicas de crescimento provenientes do Imperial College London utilizaram o número de casos observados fora da China para estimar o [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/), e sugeriram a ocorrência de pelo menos alguns milhares de casos.
+## Estimativas sobre taxas de crescimento epidêmico
+Cientistas do Imperial College London utilizaram o número de casos observados fora da China para estimar o [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/), e sugeriram a ocorrência de pelo menos alguns milhares de casos.
 Juntamente com nossas estimativas prévias sobre a data de surgimento do surto viral, e informações sobre a duração do período de infecção, podemos estimar possíveis faixas de R0 usando um modelo matémático de processos de ramificação.
 
 **Nossas estimativas apontam um R0 provável entre 1,5 e 3,5.**
