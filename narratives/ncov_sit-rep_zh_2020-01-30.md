@@ -168,25 +168,24 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 这些基因簇中的序列往往来自较新的样本，这表明病毒随着疫情的扩散已开始累积突变。
 目前尚无证据表明这些突变会改变病毒的行为 - RNA病毒变异是正常的。
 
-# [Within-family transmission 1](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Zhuhai)
+# [家庭内传染 案例1](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Zhuhai)
 
-There are three genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
-
-<br>
-
-Two of these cases (ending 028 and 040) are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
-We don't have information about the third case.
-
-
-# [Within-family transmission 2](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen)
-
-Of the six isolates from Guangdong Province (which includes the city of Shenzhen) we see four isolates which are genetically identical.
-These sequences differ by 3 mutations from the root of the tree.
+3例从珠海（华南，广东省）得到的核酸碱基一致的病毒分离株，含有这两例独有的，未在其他分离株内发现的突变（可以把鼠标放在该分支上查看是哪一个突变）。
 
 <br>
 
-Three of the sequences from Guangdong (ending F025, F013, and F012) are [known to come from a single family](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), and almost certainly represent human-to-human transmission.
+其中两例 [已知是来源于一个家庭](https://twitter.com/JingLu_LuJing/status/1220143773532880896)，也暗示了人传人的现象存在。 
+我们目前没有关于第三宗病例的信息。 
 
+# [家庭内传染 案例2](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen)
+
+从深圳（华南，广东省）得到的六株分离样本中，我们发现其中四株含有一致的核酸碱基。
+这些序列同进化树根部相差三个突变。
+
+<br>
+
+来自广东的三个序列（F025，F013和F012结尾）[已知来自一个家庭](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext)。
+几乎可以肯定代表了人与人之间的传播。 
 
 <br>
 
