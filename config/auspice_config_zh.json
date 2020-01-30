@@ -51,6 +51,7 @@
   ],
   "display_defaults": {
     "color_by": "division",
+    "distance_measure": "div",    
     "geo_resolution": "division",
     "map_triplicate": true
   },
