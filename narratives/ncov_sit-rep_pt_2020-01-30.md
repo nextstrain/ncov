@@ -1,345 +1,292 @@
 ---
-title: Genomic analysis of nCoV spread. Situation report 2020-01-30.
+title: Análise genômica do espalhamento do coronavírus nCoV. Relatório da situação até 25/01/2020.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 Jan 30"
 dataset: "https://nextstrain.org/ncov/2020-01-30?d=map"
-abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "Esse relatório usa dados genômicos publicamente compartilhados sobre o novo coronavírus (nCov) da GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores. Tradução por: Glaucio Santos & Anderson Brito"
 ---
 
-# [Executive summary](https://nextstrain.org/ncov/2020-01-30/2020-01-30)
+# [Resumo](https://nextstrain.org/ncov/2020-01-30)
 
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Resumo
 
-Using 42</tag> publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
-We find:
-* the 42</tag> sampled genomes are very similar, differing from the consensus by 0-7 mutations
-* This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
-* This event most likely occurred in November or early December 2019.
-* There has been ongoing human-to-human spread since this point resulting in observed cases.
-* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.5 and 3.5 indicating rapid growth in the Nov-Jan period.
+Examinamos a diversidade genética dos 42</tag> genomas do novo coronavírus (nCoV) compartilhados publicamente, a fim de inferir a data do ancestral comum e taxas de espalhamento.
+Concluímos que:
+* Os 42</tag> genomas amostrados são muito similares, diferindo em apenas 0-5 mutações
+* Essa falta de diversidade genética tem uma explicação cautelosa de que o surto ou descende de uma única introdução do vírus na população humana, ou descende de um pequeno número de transmissões de animais para humanos.
+* Esse evento provavelmente ocorreu em Novembro ou no início de Dezembro de 2019.
+* Desde então a transmissão de humanos para humanos tem ocorrido, resultando em casos observáveis da doença .
+* Usando o total estimado pelo Imperial College London — que aponta milhares de casos —, inferimos um número reprodutivo básico entre 1,5 e 3,5, indicando rápido crescimento do surto viral no período entre Novembro e Janeiro.
 ```
 
-# [Coronaviruses](https://nextstrain.org/ncov/2020-01-30)
+# [Coronavírus](https://nextstrain.org/ncov/2020-01-30)
 
-### Further Reading:
+### Leituras adicionais::
 
-* General information on coronaviruses on [Wikipedia](https://en.wikipedia.org/wiki/Coronavirus) _2020-01-30_
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
-* Organization and genome on [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
-* Interactive risk analysis by [MOBS-lab](https://datastudio.google.com/reporting/3ffd36c3-0272-4510-a140-39e288a9f15c/page/U5lCB) _2010-01-29_
-* Interactive risk analysis by [ROCS-lab](http://rocs.hu-berlin.de/corona/) _2010-01-29_
+* Informações gerais sobre os coronavírus na [Wikipédia](https://pt.wikipedia.org/wiki/Coronavirus) 30/01/2020
+* Resumo do surto de nCoV na [Wikipédia](https://pt.wikipedia.org/wiki/Epidemia_de_pneumonia_por_novo_coronav%C3%ADrus_de_2019%E2%80%932020) 25/01/2020
+* Material disponibilizado pelo [Centro de Controle e Prevenção de Doenças dos Estados Unidos (CDC)](https://www.cdc.gov/coronavirus/index.html) 29/01/2020
+* Características do genoma em [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) 23/01/2020
+* Análise interativa de risco do [MOBS-lab](https://datastudio.google.com/reporting/3ffd36c3-0272-4510-a140-39e288a9f15c/page/U5lCB) 29/01/2020
+* Análise interativa de risco do [ROCS-lab](http://rocs.hu-berlin.de/corona/)
 
 ```auspiceMainDisplayMarkdown
 
-## Different human coronaviruses
+## Diferentes coronavírus humanos
 
-Coronaviruses (CoV) are members of a diverse species of positive-sense single-stranded RNA ((+)ssRNA) viruses which have a history of causing respiratory infections in humans.
-Some variants of coronaviruses are associated with outbreaks, others are continuously circulating and cause mostly mild respiratory infections (e.g. the common cold).
+Os coronavírus (CoV) são membros de um conjunto numeroso de especíes de vírus de RNA de sentido positivo ((+) ssRNA), com histórico de causar infecções respiratórias em humanos.
+Alguns tipos de coronavírus estão associados com surtos, já outros estão continuamente circulando e causando principalmente infecções respiratórias leves (como por exemplo, o resfriado comum).
 
-#### SARS-CoV & MERS-CoV
-The most well known of these coronaviruses is [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a Nov 2002 to Jul 2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a case fatality rate of around 9–11%.
+#### SARS-CoV e MERS-CoV
+O mais conhecido dos coronavírus é o [SARS-CoV](https://pt.wikipedia.org/wiki/S%C3%ADndrome_respirat%C3%B3ria_aguda_grave) (Síndrome respiratória aguda grave), que foi responsável por um surto global entre Novembro de 2002 e Julho de 2003, que resultou em [mais de 8000 casos e 774 mortes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), com uma taxa de letalidade entre 9 e 11%.
 
-In 2012, a novel coronavirus, [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Middle East respiratory syndrome"), causing severe respiratory symptoms was identified. MERS has resulted in fatalities comparable to SARS, however the transmission route of MERS is very different. Whereas SARS was efficiently spread from one human to another, human MERS infections were generally a result of independent zoonoses (animal to human transmissions) from camels (see [Dudas _et al._](https://elifesciences.org/articles/31257) for more information). This has lead to a self-limiting outbreak largely restricted to the Arabian Peninsula.
-
-
-#### Seasonal CoV
-However, not all coronaviruses are as deadly as SARS-CoV and MERS-CoV.
-There are four "seasonal" coronaviruses that commonly infect humans each year.
-Compared with SARS, these seasonal coronavirus strains are ["much more prevalent, much less severe, and common causes of influenza‐like illness (ILI)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
-In fact, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% of all ILI cases test positive for coronaviruses, so they are rather common, resulting in millions of infections every year with low severity.
-These seasonal coronaviruses are the results of separate spillovers from the bat animal reservoir into humans in the past ~100 years, in which after spillover, each seasonal virus established itself and spread widely in the human population.
+Em 2012, um novo coronavírus foi identificado, o [MERS-CoV](https://pt.wikipedia.org/wiki/Coronav%C3%ADrus_da_s%C3%ADndrome_respirat%C3%B3ria_do_Oriente_M%C3%A9dio) ("Síndrome respiratória do Oriente Médio"), o qual causa graves sintomas respiratórios. O MERS resultou em um número de mortes comparável ao SARS, porém sua via de transmissão é muito diferente. Enquanto o SARS é transmitido eficientemente de um humano para outro, infecções humanas com MERS são geralmente resultante de contato com animas, isto é, por camelos (veja [Dudas _et al._](https://elifesciences.org/articles/31257) para mais informações). Esse fator fez com que o surto de MERS se auto-restringisse a Península Arábica.
 
 
-#### Animal reservoirs
-Coronaviruses infect a wide range of animals, and the human outbreaks described above are a result of one or more "jumps" from these animal reservoirs into the human population.
-SARS is believed to have arrived in the human population from [horseshoe bats via a masked palm civet intermediary](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
+#### CoVs Sazonais
+Contudo, nem todos os coronavírus são tão mortais quanto o SARS-CoV e MERS-CoV.
+Há quatro coronavírus "sazonais" que  normalmente infectam humanos todo ano.
+Comparado com o SARS, as cepas sazonais são ["muito mais prevalentes, muito menos graves, e geralmente causam doenças parecidas com a gripe (ILI, segundo a sigla em inglês)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
+Na verdade, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/) de todos os casos de ILI testam positivo para coronavírus, portanto os sazonais são muito comuns, o que resulta em milhões de infecções leves todo ano.
+Estes coronavírus sazonais são resultados de transmissões independentes de vírus provenientes de morcegos (reservatórios naturais de vírus) para humanos ao longo de aproximadamente 100 anos. Após tais transmissões entre espécies, cada vírus se estabeleceu e se espalhou amplamente na população humana.
 
 
-#### Human-to-human transmission
-The ability for different lineages to be transmitted between humans is extremely important to understand the potential development of an outbreak.
-Due to the ability of SARS to spread between humans and the high case fatality rate, SARS (or a SARS-like virus) is considered a [global public health threat](https://www.who.int/whr/2007/overview/en/index1.html) by the WHO.
+#### Reservatórios animais
+Coronavírus infectam uma ampla gama de animas, e os surtos virais em humanos descritos anteriormente são resultado de um ou mais "saltos" dos vírus desses reservatórios animais para populações humanas.
+Acredita-se que o SARS chegou até a população humana por meio de [morcegos-de-ferradura via uma civetas (Paguma larvata) como intermediário](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
+
+
+#### Transmissão de Pessoa para Pessoa
+A capacidade de transmitir diferentes linhagens virais entre humanos é extremamente importante para entender o crescimento potencial de um surto.
+Devido a sua habilidade de se transmitir entre humanos, acrescido de sua alta taxa de letalidade, o SARS (ou um vírus similar a ele) é considerado pela OMS uma [ameaça global de saúde pública](https://www.who.int/whr/2007/overview/en/index1.html).
 
 ```
 
-# [Novel coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-30)
+# [Novo coronavírus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-30)
 
-### Further Reading:
+### Leituras Adicionais:
 
-* New China virus: Five questions scientists are asking  [Nature news](https://www.nature.com/articles/d41586-020-00166-6) _2020-01-22_
-* China virus latest: first US case confirmed  [Nature news](https://www.nature.com/articles/d41586-020-00154-w) _2020-01-21_
-* New virus surging in Asia rattles scientists  [Nature news](https://www.nature.com/articles/d41586-020-00129-x) _2020-01-20_
-* New virus identified as likely cause of mystery illness in China [Nature news](https://www.nature.com/articles/d41586-020-00020-9) _2020-01-08_
+* Novo vírus na China: 5 Perguntas que cientistas estão fazendo (em inglês) [Nature news](https://www.nature.com/articles/d41586-020-00166-6) _2020-01-22_
+* Última atualização do vírus da China: primeiro caso confirmado nos EUA (em inglês) [Nature news](https://www.nature.com/articles/d41586-020-00154-w) 21/01/2020
+* Novo vírus surgindo na Ásia preocupa cientistas (em inglês) [Nature news](https://www.nature.com/articles/d41586-020-00129-x) 20/01/2020
+* Novo vírus identificado como provável causa de doença misteriosa na China (em inglês) [Nature news](https://www.nature.com/articles/d41586-020-00020-9) 08/01/2020
 
 ```auspiceMainDisplayMarkdown
 
-## Recent outbreak of a novel coronavirus
-In December 2019, a new illness was first detected in Wuhan, China.
-We now know this to be another outbreak of coronavirus in humans (the 7th), and it is provisionally being called nCoV (novel coronavirus).
+## Surto recente de um novo coronavírus
+Em Dezembro de 2019, uma nova doença foi detectada pela primeira vez em Wuhan, China. Com sua identificação, ficou estabelecido que trata-se de mais um surto de coronavírus em humanos (o 7º), e o vírus passou a ser provisoriamente chamado de nCoV (novo coronavírus).
 
-As of January 30th over 7,914 cases and 170 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
-It's still too early to know the case fatality rate, but early indications are that it is significantly less than SARS-CoV.
-The case counts are dramatically rising in part due to increased surveillance and testing.
+Até 30 de janeiro, mais de 7,914 casos e 170 mortes [foram reportadas](https://pt.wikipedia.org/wiki/Epidemia_de_pneumonia_por_novo_coronav%C3%ADrus_de_2019%E2%80%932020). Ainda é muito cedo para saber a taxa de letalidade, mas segundo indicações preliminares é menor que a do SARS-CoV. O número de casos estão aumentando dramaticamente, em partes graças ao aumento de vigilância epidemiológica e de testes.
 
-While the outbreak seems to be centered in Wuhan, which is now [under quarantine](https://twitter.com/PDChina/status/1220060879112282117), the virus has spread throughout China and abroad, including Hong Kong, Singapore, Japan, and Thailand, as well as Europe, North America, South Asia, the Middle East, and Australia. Limited local transmission outside of China has been reported.
+Enquanto o surto parece ter seu epicentro em Wuhan, que atualmente está [sob quarentena](https://twitter.com/PDChina/status/1220060879112282117), o vírus tem se espalhado por toda a China, e tem sido detectado no exterior, como em Hong Kong, Singapura, Japão, e Tailândia, assim como na Europa, América do Norte, Ásia Meridional, Oriente Médio, e Austrália. Fora da China, a transmissão local (de pessoa para pessoa) foi reportada, mas é limitada até o momento.
 
-The origin of the virus is still unclear, however [genomic analyis](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) suggests nCoV is most closely related to viruses previously identified in bats.
-It is plausible that there were other intermediate animal transmissions before the introduction into humans.
-There is no evidence of snakes as an intermediary.
+A origem do vírus ainda não está clara, entretanto [análises genômicas](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) sugerem que o nCoV é provavelmente relacionado a vírus anteriormente identificados em morcegos.
+É plausível que a transmissão ocorreu tendo outros animais como intermediários antes de ser transmitido aos humanos. Porém, não há evidências de cobras como intermediário.
 
-#### Nextstrain narratives
+#### Narrativas da Nextstrain
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right hand side.
+As páginas seguintes contém análises realizadas usando o [Nextstrain](https://nextstrain.org). Rolando a página no menu a esquerda, textos correspondentes aos dados genômicos visualizados na direita surgirão na tela.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+Ter acesso a longos genomas completos, de um novo vírus de RNA, e tão rapidamente, é uma conquista notável. Essas análises têm sido possíveis devido ao rápido compartilhamento público de dados genômicos e interpretações por cientistas de todo o mundo (veja a última página para conhecer os autores do sequenciamento).
 ```
 
-# [How to interpret the phylogenetic trees](https://nextstrain.org/ncov/2020-01-30)
+# [Como interpretar as árvores filogenéticas?](https://nextstrain.org/ncov/2020-01-30)
 
-### Further Reading:
+### Leituras adicionais:
 
-* [Exploring interactive phylogenies with Auspice](https://neherlab.org/201901_krisp_auspice.html) _2019-01-24_
+* [Explorando filogenias interativas com o Auspice](https://neherlab.org/201901_krisp_auspice.html) 24/01/2019
 
 ```auspiceMainDisplayMarkdown
-## Transmission trees vs phylogenetic trees
+## Árvores de transmissão versus árvores filogenéticas
 
-Pathogens spread through rapid replication in one host followed by transmission to another host.
-An epidemic can only take off when one infection results in more than one subsequent infections.
+Os patógenos se propagam através da replicação rápida em um hospedeiro, seguido da sua transmissão para outro hospedeiro. Uma epidemia só começa quando uma infecção resulta em mais de uma infecção subsequente.
 
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes)  will accumulate in the genome.
-Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+Conforme o patógeno replica e se espalha, seu genoma precisa ser copiado muitas vezes e isto causa mutações aleatórias ("erros de cópia") que se acumularão no genoma. Tais mutações aleatórias podem ajudar a rastrear o espalhamento do patógeno, e aprender sobre suas vias e dinâmicas de transmissão.
 
 <div>
   <img alt="cartoon showing how transmission tree and phylogenetic tree relate" width="500" src="https://neherlab.org/talk_images/infection_tree_combined.png"/>
 </div>
 
-The illustration above shows a sketch of a transmission tree with a subset of cases that were sampled (blue).
-In practice, the transmission tree is unknown and typically only rough estimates of case counts are available.
-Genome sequences allow us to infer parts of the transmission tree.
-In this example, three mutations (little diamonds) are indicated on the tree.
-Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+A ilustração acima mostra um esboço de uma árvore de transmissão com um subconjunto de casos que foram amostrados (em azul). Na prática, a árvore de transmissão é desconhecida, e assim sendo, só temos disponíveis as estimativas do número total de casos.
+Sequências genômicas nos permitem inferir partes da árvore de transmissão.
+Nesse exemplo, três mutações (losangos pequenos) estão indicadas na árvore. As sequências que têm as mesmas mutações estão intimamente relacionadas, logo, essas mutações nos permitem agrupar amostras em grupos de vírus próximos, os quais pertencem às mesmas cadeias de transmissão.
 
-### Reading a Phylogenetic Tree
+### Lendo uma árvore filogenética
 
-Below, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles.
-We can see that sequences that share the same mutations group together.
-When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+Abaixo, vemos uma ilustração com uma árvore filogenética a esquerda, onde mutações são mostradas como círculos coloridos. A direita estão as sequências correspondentes, também com mutações mostradas como círculos coloridos. Podemos ver que sequências que compartilham as mesmas mutações se agrupam juntas.
+Quando sequências aparecem ligadas por uma linha vertical, como A e B, isso significa que não há diferenças entre eles: suas sequências são idênticas.
 
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+Quando uma sequência está sozinha em uma linha longa, como C ou E, isso indica a presença de mutações únicas, que não se encontram em outras sequências. Quanto mais longa a linha, mais mutações. A e B também tem mutações únicas (círculo verde) não compartilhadas por outras sequências, mas ambos vírus são idênticos.
 
 <div>
-  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
+  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://nextstrain-data.s3.amazonaws.com/toy_alignment_tree.png"/>
 </div>
 
-At the moment, the novel coronavirus (nCoV) phylogeny may not look much like a 'tree'.
-Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or 'branches', going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+No momento, a filogenia do novo coronavírus (nCov) pode não parecer muito como uma "árvore". Muitas das sequências são idênticas: aparecem juntas em linhas verticais, como A e B. Outras têm mutações únicas ou compartilhadas e, portanto, aparecem nas linhas ("ramificações") que vão para a direita. Você pode ver quantas  mutações uma ramificação tem passando seu mouse sobre ela (verifique na próxima página).
 ```
 
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
+# [Análise filogenética](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
-Here we present a phylogeny of 42</tag> strains of nCoV that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
-
-<br>
-
-The colours represent the within-country region or US-state of isolation, with the x-axis representing nucleotide divergence.
+Aqui apresentamos uma filogenia de 42</tag> cepas de nCoV que foram compartilhadas publicamente. Informações sobre como a análise foi realizada está disponível em [nosso repositório no GitHub](github.com/nextstrain/ncov).
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Several sequences have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and seven mutations.
+As cores representam a região ou estado onde foram coletadas as amostras, e o eixo X representa a distância genética (medida em nucleotídeos).
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
-
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
-
-We currently see little genetic diversity across the nCoV sequences, with 11</tag> out of 42</tag> sequences having no unique mutations.
+A divergência é medida conforme o número de mudanças (mutações) no genoma.
+Muitas sequências têm 0 mutações, o que significa que são todas idênticas até a raíz (base) da árvore. Outros vírus têm entre uma e sete mutações.
 
 <br>
 
-Low genetic diversity across these sequences suggests that the most recent common ancestor of all nCoV sequences was fairly recent, since mutations accumulate slowly compared to other RNA viruses at a rate of around 1-2 mutations per month for coronaviruses.
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
+Sequenciar o genoma de um novo vírus de RNA longo durante um surto é desafiante. Algumas das diferenças observadas nessas sequências podem ser resultado de erros de sequenciamento, e não mutações reais. Inserções, deleções, e diferenças nos extremos do genoma têm grandes chances de serem erros, por isso as ignoramos visando cumprir os propósitos dessa análise.
+
+# [Interpretação filogenética](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
+
+Atualmente vemos uma diversidade genética mínima nas sequências do nCoV: 11</tag> das 42</tag> sequências não têm mutações exclusivas.
 
 <br>
 
-We are starting to see groups of sequences that share mutations.
-One cluster contains sequences from Guangdong and four isolates from the US.
-Other clusters contain two to four isolates.
-Sequences in these clusters tend to be from more recent samples, suggesting that the virus has started to accumulate mutations as it spread in Wuhan and subsequently to other cities.
-There is currently no evidence that these mutations change how the virus behaves -- it is expected that RNA viruses mutate.
-
-# [Within-family transmission 1](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Zhuhai)
-
-There are three genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
+A baixa diversidade genética nessas sequências sugerem que o ancestral comum de todas as sequências de nCoV é bastante recente, já que as mutações se acumulam lentamente comparado a outros vírus de RNA (com taxas em torno de 1-2 mutações por mês para coronavírus). Geralmente, quando as introduções por reservatório são múltiplas, é possível observar diversidade genética significativa (como tem sido com a febre de Lassa, o Ebola, a MERS-CoV e a gripe aviária).
+O fato de podermos observar uma agrupação tão forte em infecções humanas pode indicar que o surto descende de uma única introdução zoonótica (vinda de um animal) para a população humana, seguida do espalhamento epidêmico de pessoa para pessoa.
 
 <br>
 
-Two of these cases (ending 028 and 040) are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
-We don't have information about the third case.
+Nesse momento começamos a ver grupos de sequências que compartilham mutações. 
+Um grupo inclui sequências de Guangdong, e quatro isolados dos Estados Unidos. 
+Outro grupo contém de dois a quatro isolados. 
+Sequências nestes grupos tendem a ser de amostras mais recentes, sugerindo que o vírus começou a acumular mutações a medida que ele se espalha in Wuhan e para outras cidades. 
+Atualmente não há qualquer evidência de que tais mutações mudaram a forma como o vírus se comporta: é normal e esperado que vírus de RNA sofram mutações.
 
+
+# [Transmissão dentro da família 1](https://nextstrain.org/2020-01-30/ncov?m=div&d=tree&f_location=Zhuhai)
+
+Há três isolados de Zhuhai (sudeste da China, na província de Guangdong) que são geneticamente idênticos, e que formam um grupo, compartilhando uma mutação única que não é vista em outros isolamentos (passe o mouse sobre as ramificações para ver quais mutações estão presentes).
+
+<br>
+
+Dois desses casos (identificados por 028 and 040) [vêm de uma mesma família](https://twitter.com/JingLu_LuJing/status/1220143773532880896), indicando novamente que ocorreu uma transmissão de humano para humano. 
+Não temos informações a cerca do terceiro caso.
 
 # [Within-family transmission 2](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen)
 
-Of the six isolates from Guangdong Province (which includes the city of Shenzhen) we see four isolates which are genetically identical.
-These sequences differ by 3 mutations from the root of the tree.
+Dos seis (6) isolados da província de Guangdong (onde se localiza a cidade de Shenzhen), quatro (4) são geneticamente idênticos. 
+Essas sequências compartilham as mesmas 3 mutações únicas. 
 
 <br>
 
-Three of the sequences from Guangdong (ending F025, F013, and F012) are [known to come from a single family](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), and almost certainly represent human-to-human transmission.
+Três das sequências de Guangdong (identificadas por F025, F013, e F012) são [provenientes de uma mesma família](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), e muito provavelmente representam novamente transmissão de humano para humano.
+
+# [Transmissão dentro da família 2 - mutações compartilhadas] (https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
+
+As três mutações encontradas nesse grupo estão também presentes no Arizona, isolado dos EUA, e duas das mutações são encontradas em outros três isolados dos EUA.
+
+# [Transmissão dentro da família 3](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Paris)
+
+Por fim, as duas sequências da França são idênticas, compartilhando uma única mutação, e uma mutação também encontrada em um dos isolados dos EUA e de Taiwan.
 
 
 <br>
 
-# [Within-family transmission 2 - shared mutations](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
-
-The three mutations found in this cluster are also present in the Arizona, USA isolate, and two of the mutations are found in three other USA isolates.
+O infectado do caso em Washington (EUA) havia viajado para Wuhan. A explicação mais cautelosa para o padrão observado de mutações comuns é de que: o vírus com duas mutações compartilhadas circulava em Wuhan, e foi exportado de forma independente para Shenzhen e para os EUA.
 
 
-<br>
-
-# [Within-family transmission 3](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Paris)
-
-Finally, the two sequences from France are identical, sharing one unique mutation, and one mutation also found in one of the USA isoaltes and the Taiwanese isolate.
+# [Calculando a provável data do ancestral comum mais recente](https://nextstrain.org/ncov/2020-01-30?d=tree)
+A grande similaridade dos genomas sugere que os vírus compartilham um ancestral comum recente (ou seja, eles descenderam do mesmo vírus ancestral recentemente). Caso contrário, esperaríamos um número maior de diferenças genéticas entre as amostras.
 
 <br>
 
-The two french sequences are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
-
-
-# [Cases outside China](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
-
-There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, the Middle East, and Europe.
-Vietnam, Japan, and Germany have reported transmission within the country, albeit always with a known link to Wuhan, China.
+Pesquisas anteriores com coronavírus similares sugerem que esses vírus acumulam entre 1 e 3 mutações em seus genomas por mês (taxas de 3 &times; 10<sup>-4</sup> e 1 &times; 10<sup>-3</sup> substituições por sítio por ano).
 
 <br>
 
-The only currently available sequence data for cases outside of China are the two cases from Thailand, five from the USA, two from France, and one from Taiwan.
-The Thai samples are genetically identical to nine Chinese sequences, including seven isolated in Wuhan.
-Four sequences from the US share two mutations with the cluster of sequences from Shenzhen.
-The remaining sequence from the US shares a mutation with the sequence from Taiwan and the two from France.
-
-<br>
-
-The most parsimonious explanation for the observed pattern of mutation sharing between the US and Shenzhen sequences is a virus variant with the two shared mutations was circulating in Wuhan and was independently exported to Shenzhen and multiple times to the USA.
-There is no evidence for a link between US sequences other than a link to Wuhan.
-
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-30?d=tree)
-The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
-
-<br>
-
-Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 1 &times; 10<sup>-3</sup> per site per year).
-
-<br>
-
-On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak.
+A direita nós exploramos como diferentes proposições sobre as taxas de substituição (“mutações”) e a diversidade genética observada nos dá estimativas temporais sobre o surto viral.
 
 ```auspiceMainDisplayMarkdown
-## Date of the common ancestor of outbreak viruses
-With the additional sequences shared during the past week, the tree now shows several distinct clusters such that our analysis from 2020-01-25 assuming a star-like topology is no longer appropriate.
-
-We reproduce here our analysis based on data available up to 2020-01-25
-assuming a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
-**We found that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019. The biggest source of uncertainty is the substitution rate.**
+## Provável data do ancestral comum dos vírus causadores do surto
+Aqui nós supomos uma estrutura filogenética em forma de estrela ao longo de uma distribuição Poisson de mutações ao longo do tempo, para estimar o tempo do ancestral comum mais recente (conhecido em inglês pela sigla “tMRCA”) dos vírus sequenciados.
+**Concluímos que o ancestral comum de nCoV provavelmente existiu entre meados de Novembro e princípios de Dezembro..**
 
 <div>
-  <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
+  <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
 </div>
 
-Using the entire data set, the nextstrain analysis pipeline estimates that the common ancestor most likely existed between late-Nov and the beginning of Dec 2019.
+À medida que mais amostras são sequenciadas, esperamos que a árvore mostre mais estrutura, de modo que a topologia filogenética em formato de estrela não seja uma hipótese adequada. Neste ponto, estimativas filodinâmicas sobre o período de surgimento da epidemia se tornarão possíveis.
 
-There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor.
-The common ancestor of viruses sequenced to date might be later than this date though.
-
-More detailed modeling of the onset of the outbreak are onging.
-Despite considerable uncertainty, our best guess is remains late November/early December.
+Há um [caso confirmado em Wuhan datado de 1 de dezembro de 2019](https://twitter.com/trvrb/status/1220749265380593664), que colocaria um limite máximo na data do ancestral comum mais recente. E também sugere fortemente que as taxas evolutivas de aproximadamente ~3.0 x 10^-4 são as mais plausíveis.
 
 ```
 
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-01-30?d=tree)
+# [Estimando a taxa de crescimento](https://nextstrain.org/ncov/2020-01-30?d=tree)
 
-An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
+Uma importante medida durante o espalhamento de um patógeno é o número médio de novos casos secundários que cada pessoa infectada gera.
+
 
 <br>
 
-This number is known as R0 ("R-zero" or "R-nought").
-One the right, we present simple estimates of R0.
+Esse número é conhecido como R0 ("R-zero").
+A direita, apresentamos estimativas simples do R0.
 
 ```auspiceMainDisplayMarkdown
-## Estimates of epidemic growth rate
-Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 2020-01-22.
-With the additional exported cases since and the continued growth of confirmed cases in China, we currently have to expect at least 50000 cases to date.
-Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
+## Estimativas sobre taxas de crescimento epidêmico
+Cientistas do Imperial College London utilizaram o número de casos observados fora da China para estimar o [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/), e sugeriram a ocorrência de pelo menos alguns milhares de casos.
+Juntamente com nossas estimativas prévias sobre a data de surgimento do surto viral, e informações sobre a duração do período de infecção, podemos estimar possíveis faixas de R0 usando um modelo matémático de processos de ramificação.
 
-**We find plausible estimates of R0 between 1.8 and 3.5.**
+**Nossas estimativas apontam um R0 provável entre 1,5 e 3,5.**
 
-If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.8 and 2.5, depending on how large ('n') the outbreak is now.
+Se assumimos que o surto começou no início de novembro de 2019 (12 semanas atrás), cremos que o R0 deveria oscilar entre 1,5 e 2,5, dependendo de quão grande ('n') o surto esteja agora.
 <div>
-  <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early_2020-01-29.png"/>
+  <img alt="Gráfico de estimativas de R0 com o início da epidemia 12 semanas atrás" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
 </div>
 
-If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 2.2 and 3.5:
+Se consideramos um início mais recente, no começo de dezembro de 2019 (8 semanas atrás), as estimativas são de que o R0 oscile entre 1,8 e 3,5:
 <div>
-  <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
+  <img alt="Gráfico de estimativas de R0 com o início da epidemia 8 semanas atrás" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
 </div>
-This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
-Importantly, R0 is a quantitity that depends strongly on the socio-economic context and infection control measures.
 ```
 
-# [Scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
+# [Crédito científico](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Gostaríamos de reconhecer o trabalho incrível e oportuno realizado por todos os cientistas envolvidos nesse surto, sobretudo os que estão trabalhando na China.
+Somente com o compartilhamento rápido de dados genômicos e de metadados que tais análises foram possíveis.
 
 <br>
 
-The nCoV genomes were generously shared by scientists at the:
+Os genomas do nCoV foram generosamente compartilhados por cientistas de várias instituições. São elas:
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
+ * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Xangai, China
+ * National Institute for Viral Disease Control and Prevention, China CDC, Pequim, China
+ * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Pequim, China
  * Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
+ * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hancheu, China
  * Guangdong Provincial Center for Diseases Control and Prevention
- * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
- * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
- * Centers for Disease Control, R.O.C., Taipei, Taiwan
- * Institut Pasteur, Paris, France
+ * Department of Medical Sciences, National Institute of Health, Nonthaburi, Tailândia
+ * Division of Viral Diseases, Centers for Disease Control and Prevention, Estados Unidos
 
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
+# [Crédito cientifíco detalhado](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Esses dados foram compartilhados através do [GISAID](https://gisaid.org).
+Agradecemos as suas contribuições com profunda gratidão.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+A direita, especificamos quais sequências foram compartilhadas por quais laboratórios.
 
 ```auspiceMainDisplayMarkdown
 
-The nCoV genomes were generously shared by scientists at the
+Os genomas do nCoV foram generosamente cedidos por cientistas de várias instituições. São elas:
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
+ * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Xangai, China
    - Wuhan-Hu-1/2019
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
+ * National Institute for Viral Disease Control and Prevention, China CDC, Pequim, China
    - Wuhan/IVDC-HB-01/2019
    - Wuhan/IVDC-HB-04/2020
    - Wuhan/IVDC-HB-05/2019)
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
+ * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Pequim, China
    - Wuhan/IPBCAMS-WH-01/2019
    - Wuhan/IPBCAMS-WH-02/2019
    - Wuhan/IPBCAMS-WH-03/2019
@@ -350,37 +297,20 @@ The nCoV genomes were generously shared by scientists at the
    - Wuhan/WIV05/2019
    - Wuhan/WIV06/2019
    - Wuhan/WIV07/2019
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
+ * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hancheu, China
    - Zhejiang/WZ-01/2020
    - Zhejiang/WZ-02/2020
  * Guangdong Provincial Center for Diseases Control and Prevention
-   - Guangdong/20SF001/2020
    - Guangdong/20SF012/2020
    - Guangdong/20SF013/2020
    - Guangdong/20SF014/2020
    - Guangdong/20SF025/2020
    - Guangdong/20SF028/2020
    - Guangdong/20SF040/2020
-   - Guangdong/20SF174/2020
-   - Guangdong/20SF206/2020
-   - Guangdong/20SF207/2020
-   - Foshan/20SF207/2020
-   - Foshan/20SF210/2020
-   - Foshan/20SF211/2020
-
- * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
+ * Department of Medical Sciences, National Institute of Health, Nonthaburi, Tailândia
    - Nonthaburi/61/2020
    - Nonthaburi/74/2020
- * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
+ * Division of Viral Diseases, Centers for Disease Control and Prevention, Estados Unidos
    - USA-WA1/2020
-   - USA/AZ1/2020
-   - USA/IL1/2020
-   - USA/CA1/2020
-   - USA/CA2/2020
- * Centers for Disease Control, R.O.C., Taipei, Taiwan
-   - Taiwan/2/2020
- * Institut Pasteur, Paris, France
-   - France/IDF0372/2020
-   - France/IDF0373/2020
 
 ```
