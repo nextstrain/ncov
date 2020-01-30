@@ -220,8 +220,9 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 
 <br>
 
-The most parsimonious explanation for the observed pattern of mutation sharing between the US and Shenzhen sequences is a virus variant with the two shared mutations was circulating in Wuhan and was independently exported to Shenzhen and multiple times to the USA.
-There is no evidence for a link between US sequences other than a link to Wuhan.
+美国和深圳之所以有共同的突变有可能是因为具有两个共有突变的病毒变体原本在武汉传播，之后分别传播到深圳以及多次传播到美国。 
+
+除了与武汉的联系外，没有证据表明美国序列之间存在联系。 
 
 # [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-30?d=tree)
 The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
