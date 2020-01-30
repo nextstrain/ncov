@@ -35,115 +35,126 @@ Principales hallazgos:
 
 ```auspiceMainDisplayMarkdown
 
-## Different human coronaviruses
+# [Coronavirus](https://nextstrain.org/ncov/2020-01-25)
 
-Coronaviruses (CoV) are members of a diverse species of positive-sense single-stranded RNA ((+)ssRNA) viruses which have a history of causing respiratory infections in humans.
-Some variants of coronaviruses are associated with outbreaks, others are continuously circulating and cause mostly mild respiratory infections (e.g. the common cold).
+### Lecturas adicionales:
 
-#### SARS-CoV & MERS-CoV
-The most well known of these coronaviruses is [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a Nov 2002 to Jul 2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a case fatality rate of around 9–11%.
-
-In 2012, a novel coronavirus, [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Middle East respiratory syndrome"), causing severe respiratory symptoms was identified. MERS has resulted in fatalities comparable to SARS, however the transmission route of MERS is very different. Whereas SARS was efficiently spread from one human to another, human MERS infections were generally a result of independent zoonoses (animal to human transmissions) from camels (see [Dudas _et al._](https://elifesciences.org/articles/31257) for more information). This has lead to a self-limiting outbreak largely restricted to the Arabian Peninsula.
-
-
-#### Seasonal CoV
-However, not all coronaviruses are as deadly as SARS-CoV and MERS-CoV.
-There are four "seasonal" coronaviruses that commonly infect humans each year.
-Compared with SARS, these seasonal coronavirus strains are ["much more prevalent, much less severe, and common causes of influenza‐like illness (ILI)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
-In fact, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% of all ILI cases test positive for coronaviruses, so they are rather common, resulting in millions of infections every year with low severity.
-These seasonal coronaviruses are the results of separate spillovers from the bat animal reservoir into humans in the past ~100 years, in which after spillover, each seasonal virus established itself and spread widely in the human population.
-
-
-#### Animal reservoirs
-Coronaviruses infect a wide range of animals, and the human outbreaks described above are a result of one or more "jumps" from these animal reservoirs into the human population.
-SARS is believed to have arrived in the human population from [horseshoe bats via a masked palm civet intermediary](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
-
-
-#### Human-to-human transmission
-The ability for different lineages to be transmitted between humans is extremely important to understand the potential development of an outbreak.
-Due to the ability of SARS to spread between humans and the high case fatality rate, SARS (or a SARS-like virus) is considered a [global public health threat](https://www.who.int/whr/2007/overview/en/index1.html) by the WHO.
-
-```
-
-# [Novel coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-30)
-
-### Further Reading:
-
-* New China virus: Five questions scientists are asking  [Nature news](https://www.nature.com/articles/d41586-020-00166-6) _2020-01-22_
-* China virus latest: first US case confirmed  [Nature news](https://www.nature.com/articles/d41586-020-00154-w) _2020-01-21_
-* New virus surging in Asia rattles scientists  [Nature news](https://www.nature.com/articles/d41586-020-00129-x) _2020-01-20_
-* New virus identified as likely cause of mystery illness in China [Nature news](https://www.nature.com/articles/d41586-020-00020-9) _2020-01-08_
+* Información general sobre los coronavirus en [Wikipedia](https://es.wikipedia.org/wiki/Coronavirus) _2020-01-25_
+* Resumen del brote por nCov en [Wikipedia](https://es.wikipedia.org/wiki/Epidemia_de_neumon%C3%ADa_por_coronavirus_de_Wuhan_de_2019-2020) _2020-01-25_
+* Material proporcionado por los Centros para el Control y la Prevención de Enfermedades de los Estados Unidos en [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-23_
+* Características del genoma en [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
 
 ```auspiceMainDisplayMarkdown
 
-## Recent outbreak of a novel coronavirus
-In December 2019, a new illness was first detected in Wuhan, China.
-We now know this to be another outbreak of coronavirus in humans (the 7th), and it is provisionally being called nCoV (novel coronavirus).
+## Diferentes coronavirus infectan humanos
 
-As of January 30th over 7,914 cases and 170 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
-It's still too early to know the case fatality rate, but early indications are that it is significantly less than SARS-CoV.
-The case counts are dramatically rising in part due to increased surveillance and testing.
 
-While the outbreak seems to be centered in Wuhan, which is now [under quarantine](https://twitter.com/PDChina/status/1220060879112282117), the virus has spread throughout China and abroad, including Hong Kong, Singapore, Japan, and Thailand, as well as Europe, North America, South Asia, the Middle East, and Australia. Limited local transmission outside of China has been reported.
+Los coronavirus (CoV) agrupan diversas especies de virus de ARN de sentido positivo ((+) ssRNA) que causan infecciones respiratorias en humanos.
+Algunas variantes de los coronavirus están asociadas solamente con brotes, otras circulan continuamente y causan generalmente infecciones respiratorias leves (por ejemplo, un resfriado común).
 
-The origin of the virus is still unclear, however [genomic analyis](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) suggests nCoV is most closely related to viruses previously identified in bats.
-It is plausible that there were other intermediate animal transmissions before the introduction into humans.
-There is no evidence of snakes as an intermediary.
+#### SARS-CoV y MERS-CoV
+El más conocido de estos coronavirus es el [SARS-CoV](https://es.wikipedia.org/wiki/S%C3%ADndrome_respiratorio_agudo_grave) ("síndrome respiratorio agudo severo"), que fue responsable por el brote que ocurrió entre noviembre de 2002 y julio de 2003. El SARS-CoV se propagó por todo el mundo resultando en [más de 8000 casos y 774 muertes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), con una tasa de letalidad de entre el 9% y el 11%.
 
-#### Nextstrain narratives
+En 2012, un nuevo coronavirus [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Síndrome respiratorio del Medio Oriente"), asociado con síntomas respiratorios graves fue identificado. MERS ha resultado en un número de muertes comparable al SARS, sin embargo, la ruta de transmisión de MERS es muy diferente. Mientras que el SARS se propagó eficientemente de persona a persona, las infecciones por MERS en humanos fueron generalmente el resultado de varias zoonosis independientes (transmisiones de animales a humanos) a partir de  camellos (consultar [Dudas _et al._](https://elifesciences.org/articles/31257) para mayores informaciones). Esto ha llevado a que el brote de MERS se encuentra restringido a la Península Arábiga.
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right hand side.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+#### CoV estacional
+Sin embargo, no todos los coronavirus son tan letales como el SARS-CoV y el MERS-CoV. Hay cuatro coronavirus "estacionales" que comúnmente infectan a los humanos cada año.
+En comparación con el SARS, estas cepas estacionales de coronavirus son ["mucho más prevalentes, mucho menos graves y causan generalmente enfermedades similares a la influenza (ILI, por sus siglas en inglés)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
+De hecho, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/)% de todos los casos de ILI dan positivo en las pruebas de infección por coronavirus, por lo tanto, los coronavirus estacionales son bastante comunes, lo que resulta en millones de infecciones leves cada año.
+Estos coronavirus estacionales son el resultado de varias zoonosis independientes a partir de murciélagos que funcionan como un reservorio animal y que ocurrieron hace aproximadamente 100 años. Después de la transmisión entre especies, cada virus estableció una transmisión continua y generalizada en la población humana.
+
+
+#### Reservorios animales
+Los coronavirus infectan una amplia gama de animales y los brotes humanos supracitados son el resultado de uno o más "saltos" de estos reservorios animales a la población humana.
+Se cree que el SARS-CoV fue introducido en la población humana a partir de  [murciélagos de herradura (Rhinolophidae) con la ayuda de civetas (Paguma larvata) como intermediario](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
+
+
+#### Transmisión de persona a persona
+La capacidad de transmitir diferentes linajes virales entre humanos es extremadamente importante para comprender el potencial de crecimiento de un brote.
+Debido a la capacidad del SARS-CoV de propagarse entre los humanos y a su alta tasa de letalidad, la OMS considera el SARS-CoV (o cualquier virus similar al SARS-CoV) una [amenaza global de salud pública](https://www.who.int/whr/2007/overview/en/index1.html).
+
 ```
 
-# [How to interpret the phylogenetic trees](https://nextstrain.org/ncov/2020-01-30)
+# [Nuevo coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-25)
 
-### Further Reading:
+### Lecturas adicionales:
 
-* [Exploring interactive phylogenies with Auspice](https://neherlab.org/201901_krisp_auspice.html) _2019-01-24_
+* Nuevo virus en China: cinco preguntas que se hacen los científicos (en inglés)  [Nature news](https://www.nature.com/articles/d41586-020-00166-6) _2020-01-22_
+* Última actualización del virus en China: primer caso confirmado en los Estados Unidos (en inglés)   [Nature news](https://www.nature.com/articles/d41586-020-00154-w) _2020-01-21_
+* Un nuevo virus en Asia preocupa a los científicos (en inglés)  [Nature news](https://www.nature.com/articles/d41586-020-00129-x) _2020-01-20_
+* Un nuevo virus es identificado como la causa probable de la enfermedad misteriosa en China (en inglés) [Nature news](https://www.nature.com/articles/d41586-020-00020-9) _2020-01-08_
 
 ```auspiceMainDisplayMarkdown
-## Transmission trees vs phylogenetic trees
 
-Pathogens spread through rapid replication in one host followed by transmission to another host.
-An epidemic can only take off when one infection results in more than one subsequent infections.
+## Brote reciente por un nuevo coronavirus
+En diciembre de 2019, se detectó por primera vez una nueva enfermedad en Wuhan, China.
+Actualmente sabemos que se trata de un brote por un nuevo coronavirus en humanos (el séptimo identificado) y se llama provisionalmente nCoV (nuevo coronavirus).
 
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes)  will accumulate in the genome.
-Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+Hasta el 30 de enero, más de 7914 casos y 170 muertes [han sido reportados](https://es.wikipedia.org/wiki/Epidemia_de_neumon%C3%ADa_por_coronavirus_de_Wuhan_de_2019-2020).
+Todavía es demasiado pronto para saber su tasa de letalidad, pero los datos preliminares indican que es significativamente menor que la del SARS-CoV.
+El número de casos aumenta rápidamente en parte debido a una mayor vigilancia epidemiologica y a un aumento en las pruebas de diagnóstico.
 
-<div>
-  <img alt="cartoon showing how transmission tree and phylogenetic tree relate" width="500" src="https://neherlab.org/talk_images/infection_tree_combined.png"/>
-</div>
+A pesar de que el brote parece estar centrado en Wuhan, que ahora está [en cuarentena](https://twitter.com/PDChina/status/1220060879112282117), el virus se ha extendido por toda China y se ha documentado en el exterior, incluyendo Hong Kong, Singapur, Japón y Tailandia, así como Europa, América del Norte, Asia meridional, el Oriente Medio y Australia. La transmisión local (persona a persona) fuera de China ha sido limitada hasta el momento.
 
-The illustration above shows a sketch of a transmission tree with a subset of cases that were sampled (blue).
-In practice, the transmission tree is unknown and typically only rough estimates of case counts are available.
-Genome sequences allow us to infer parts of the transmission tree.
-In this example, three mutations (little diamonds) are indicated on the tree.
-Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+El origen del virus aún no está claro, sin embargo [análisis genómicos](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) sugieren que el nCoV está más estrechamente relacionado con virus previamente identificados en murciélagos.
+Es posible que la transmisión del virus haya ocurrido a través de otros animales (intermediarios) antes de ser transmitido a los humanos.
+No hay evidencia de serpientes como animal intermediario durante la transmisión del virus.
 
-### Reading a Phylogenetic Tree
+#### Narrativas Nextstrain 
 
-Below, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles.
-We can see that sequences that share the same mutations group together.
-When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org).
+El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
 
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
-
-<div>
-  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
-</div>
-
-At the moment, the novel coronavirus (nCoV) phylogeny may not look much like a 'tree'.
-Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or 'branches', going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro notable.
+Estos análisis han sido posibles gracias al intercambio rápido y abierto de datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye todos los autores de cada uno de los diferentes esfuerzos de secuenciación).
 ```
 
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
+# [¿Cómo interpretar los árboles filogenéticos?](https://nextstrain.org/ncov/2020-01-25)
+
+### Lecturas adicionales:
+
+* [Explorando filogenias interactivas con Auspice](https://neherlab.org/201901_krisp_auspice.html) _2019-01-24_
+
+```auspiceMainDisplayMarkdown
+## Árboles de transmisión vs árboles filogenéticos
+
+Los patógenos se propagan a través de una replicación rápida en un huésped infectado seguido de su transmisión a otro huésped.
+Una epidemia solo puede comenzar cuando una infección da como resultado más de una infección adicional.
+
+A medida que el patógeno se replica y se propaga, su genoma necesita ser copiado muchas veces y estos lleva a la acumulación de mutaciones aleatorias (errores de copia) en el genoma.
+Dichas mutaciones aleatorias pueden ayudar a rastrear la propagación del patógeno y a conocer sus rutas y dinámicas de transmisión.
+
+<div>
+  <img alt="Ilustración que muestra la relación entre el árbol de transmisión y el árbol filogenético" width="500" src="https://neherlab.org/talk_images/infection_tree_combined.png"/>
+</div>
+
+La ilustración anterior muestra el bosquejo de un árbol de transmisión con un subconjunto de casos que fueron muestreados (en azul).
+En la práctica, el árbol de transmisión es desconocido y, por lo general, solo tenemos disponibles las estimaciones del número total apróximado de casos.
+Las secuencias genómicas nos permiten inferir partes del árbol de transmisión. En este ejemplo, se indican tres mutaciones (los diamantes pequeños) en el árbol.
+Las secuencias que tienen las mismas mutaciones están estrechamente relacionadas entre sí, por lo que estas mutaciones nos permiten agrupar muestras en grupos de virus estrechamente relacionados que pertenecen a las mismas cadenas de transmisión.
+
+### Leyendo un árbol filogenético
+
+A continuación a la izquierda, vemos la ilustración de un árbol filogenético donde las mutaciones se muestran como círculos de colores. A la derecha vemos el bosquejo de las secuencias correspondientes y también las mutaciones que se muestran como círculos de colores.
+Podemos ver que las secuencias que comparten las mismas mutaciones se agrupan juntas.
+Cuando las secuencias aparecen unidas por una línea vertical plana, como A y B, significa que no hay diferencias entre sí y por tanto son idénticas.
+
+
+Cuando una secuencia se encuentra sola en una línea larga, como C o E, significa que tiene mutaciones únicas que no se encuentran en otras secuencias. Cuanto más larga es la línea, más mutaciones tiene la secuencia.
+A y B también tienen mutaciones únicas (el círculo verde) que no comparten con las otras secuencias, pero A y B son idénticas entre sí.
+
+<div>
+  <img alt="Ilustración del árbol filogenético y del alineamiento de secuencias correspondiente, con las muestras rotuladas como A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
+</div>
+
+Por el momento, la  filogenia del nuevo coronavirus (nCoV) en la diapositiva siguiente puede que no se parezca mucho a un 'árbol'.
+Muchas de las secuencias son idénticas: aparecen juntas en líneas verticales como A y B (algunas están más en la parte izquierda del árbol).
+Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen en las líneas o 'ramas' que van hacia la derecha.
+Podrás ver cuántas mutaciones tiene una rama al pasar el mouse sobre ella.
+```
+
+# [Análisis filogenético](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
 Here we present a phylogeny of 42</tag> strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
