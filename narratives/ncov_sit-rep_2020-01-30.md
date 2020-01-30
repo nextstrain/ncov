@@ -213,7 +213,7 @@ The three mutations found in this cluster are also present in the Arizona, USA i
 
 # [Within-family transmission 3](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Paris)
 
-Finally, the two sequences from France are identical, sharing one unique mutation, and one mutation also found in one of the USA isoaltes and the Taiwanese isolate.
+Finally, the two sequences from France are identical, sharing one unique mutation, and one mutation also found in one of the USA isolates and the Taiwanese isolate.
 
 <br>
 
@@ -265,7 +265,7 @@ Using the entire data set, the nextstrain analysis pipeline estimates that the c
 There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor.
 The common ancestor of viruses sequenced to date might be later than this date though.
 
-More detailed modeling of the onset of the outbreak are onging.
+More detailed modeling of the onset of the outbreak are ongoing.
 Despite considerable uncertainty, our best guess is remains late November/early December.
 
 ```
@@ -297,7 +297,7 @@ If we assume a more recent start, at the beginning of December 2019 (8 weeks ago
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
 This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
-Importantly, R0 is a quantitity that depends strongly on the socio-economic context and infection control measures.
+Importantly, R0 is a quantity that depends strongly on the socio-economic context and infection control measures.
 ```
 
 # [Scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
