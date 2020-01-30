@@ -35,17 +35,6 @@ Principales hallazgos:
 
 ```auspiceMainDisplayMarkdown
 
-# [Coronavirus](https://nextstrain.org/ncov/2020-01-25)
-
-### Lecturas adicionales:
-
-* Información general sobre los coronavirus en [Wikipedia](https://es.wikipedia.org/wiki/Coronavirus) _2020-01-25_
-* Resumen del brote por nCov en [Wikipedia](https://es.wikipedia.org/wiki/Epidemia_de_neumon%C3%ADa_por_coronavirus_de_Wuhan_de_2019-2020) _2020-01-25_
-* Material proporcionado por los Centros para el Control y la Prevención de Enfermedades de los Estados Unidos en [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-23_
-* Características del genoma en [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
-
-```auspiceMainDisplayMarkdown
-
 ## Diferentes coronavirus infectan humanos
 
 
@@ -156,24 +145,24 @@ Podrás ver cuántas mutaciones tiene una rama al pasar el mouse sobre ella.
 
 # [Análisis filogenético](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
-Here we present a phylogeny of 42</tag> strains of nCoV that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
+Aquí presentamos una filogenia de 27 cepas del nCoV que se han compartido públicamente.
+La información sobre cómo se realizó el análisis está disponible [en este repositorio de GitHub](github.com/nextstrain/ncov).
 
 <br>
 
-The colours represent the within-country region or US-state of isolation, with the x-axis representing nucleotide divergence.
+Los colores representan la ciudad o el estado (Estados Unidos) donde fue colectada la muestra y el eje 'x' representa la divergencia genética (de nucleótidos).
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Several sequences have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and seven mutations.
+La divergencia se mide como el número de cambios (mutaciones) en el genoma.
+Varias secuencias tienen cero mutaciones, lo que significa que todas son idénticas a la raíz (centro) del árbol.
+Otros virus tienen entre una y cinco mutaciones.
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
+La secuenciación del genoma de un nuevo virus de ARN durante un brote es un desafío.
+Algunas de las diferencias observadas en estas secuencias pueden ser errores de secuenciación en lugar de mutaciones reales.
+Las inserciones, deleciones y diferencias en los extremos del genoma tienen mayor probabilidad de ser errores, por lo que no son indicadas en este análisis.
 
 # [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
