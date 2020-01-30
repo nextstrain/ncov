@@ -19,7 +19,7 @@ Principales hallazgos:
 * La explicación más parsimoniosa para el bajo grado de diversidad genética observado es que el brote proviene de una sola introducción en la población humana. También es posible que un pequeño número de transmisiones de virus muy similares hayan ocurrido desde animales a humanos (zoonosis).
 * Este evento probablemente ocurrió entre noviembre y principios de diciembre de 2019.
 * Ha habido una propagación continua de persona a persona desde su introducción, lo que resulta en los casos observados.
-* Usando las estimaciones del número total de casos hechas por el Imperial College de Londres (del orden de varios miles de casos), hemos inferido un número reproductivo que oscila entre 1.5 y 3.5. Estas cifras indican un rápido crecimiento de la epidemia en el período comprendido entre noviembre y enero.
+* Usando las estimaciones del número total de casos hechas por el Imperial College de Londres (del orden de varios miles de casos), hemos inferido un número reproductivo que oscila entre 1.8 y 3.5. Estas cifras indican un rápido crecimiento de la epidemia en el período comprendido entre noviembre y enero.
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-01-30)
