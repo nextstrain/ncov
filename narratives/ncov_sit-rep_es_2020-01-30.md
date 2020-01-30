@@ -145,18 +145,18 @@ Podrás ver cuántas mutaciones tiene una rama al pasar el mouse sobre ella.
 
 # [Análisis filogenético](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
-Aquí presentamos una filogenia de 27 cepas del nCoV que se han compartido públicamente.
+Aquí presentamos una filogenia de 42</tag> cepas del nCoV que se han compartido públicamente.
 La información sobre cómo se realizó el análisis está disponible [en este repositorio de GitHub](github.com/nextstrain/ncov).
 
 <br>
 
-Los colores representan la ciudad o el estado (Estados Unidos) donde fue colectada la muestra y el eje 'x' representa la divergencia genética (de nucleótidos).
+Los colores representan la región dentrol del país o el estado (Estados Unidos) donde fue colectada la muestra y el eje 'x' representa la divergencia genética (de nucleótidos).
 
 <br>
 
 La divergencia se mide como el número de cambios (mutaciones) en el genoma.
 Varias secuencias tienen cero mutaciones, lo que significa que todas son idénticas a la raíz (centro) del árbol.
-Otros virus tienen entre una y cinco mutaciones.
+Otros virus tienen entre una y siete mutaciones.
 
 <br>
 
@@ -164,63 +164,61 @@ La secuenciación del genoma de un nuevo virus de ARN durante un brote es un des
 Algunas de las diferencias observadas en estas secuencias pueden ser errores de secuenciación en lugar de mutaciones reales.
 Las inserciones, deleciones y diferencias en los extremos del genoma tienen mayor probabilidad de ser errores, por lo que no son indicadas en este análisis.
 
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
+# [Interpretación filogenética](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
 
-We currently see little genetic diversity across the nCoV sequences, with 11</tag> out of 42</tag> sequences having no unique mutations.
-
-<br>
-
-Low genetic diversity across these sequences suggests that the most recent common ancestor of all nCoV sequences was fairly recent, since mutations accumulate slowly compared to other RNA viruses at a rate of around 1-2 mutations per month for coronaviruses.
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
+Actualmente vemos poca diversidad genética en las secuencias del nCoV; 11</tag> de las 42</tag> secuencias no tienen mutaciones únicas.
 
 <br>
 
-We are starting to see groups of sequences that share mutations.
-One cluster contains sequences from Guangdong and four isolates from the US.
-Other clusters contain two to four isolates.
-Sequences in these clusters tend to be from more recent samples, suggesting that the virus has started to accumulate mutations as it spread in Wuhan and subsequently to other cities.
-There is currently no evidence that these mutations change how the virus behaves -- it is expected that RNA viruses mutate.
-
-# [Within-family transmission 1](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Zhuhai)
-
-There are three genetically-identical isolates from Zhuhai (Southeastern China, Guangdong Province) which form a cluster, sharing one unique mutation seen in no other isolate (you can hover your mouse over the branches to see which mutations are present).
+La baja diversidad genética en estas secuencias sugiere que el ancestro común de todas las secuencias del nCoV fue bastante reciente ya que las mutaciones se acumulan lentamente en comparación con otros virus de ARN (a una tasa de alrededor de 1-2 mutaciones por mes para los coronavirus).
+En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ebola, MERS-CoV y la gripe aviar).
+El hecho de que ocurra una agrupación tan fuerte de las infecciones humanas por el nCoV puede indicar que el brote se inició a partir de un único evento de zoonosis seguido de la propagación epidémica de persona a persona.
 
 <br>
 
-Two of these cases (ending 028 and 040) are [known to come from a single family](https://twitter.com/JingLu_LuJing/status/1220143773532880896), again indicating human-to-human transmission.
-We don't have information about the third case.
+Estamos comenzando a ver grupos de secuencias que comparten mutaciones.
+Un grupo contiene secuencias de Guangdong y cuatro aislados de los Estados Unidos.
+Otros grupos contienen de dos a cuatro aislamientos.
+Las secuencias en estos grupos tienden a ser de muestras más recientes, lo que sugiere que el virus ha comenzado a acumular mutaciones desde que comenzó a propagarse en Wuhan y posteriormente a otras ciudades.
+Actualmente no hay evidencia de que estas mutaciones cambien la forma en que se comporta el virus; se espera que los virus de ARN muten.
 
 
-# [Within-family transmission 2](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen)
+# [Transmisión dentro de la familia 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
-Of the six isolates from Guangdong Province (which includes the city of Shenzhen) we see four isolates which are genetically identical.
-These sequences differ by 3 mutations from the root of the tree.
-
-<br>
-
-Three of the sequences from Guangdong (ending F025, F013, and F012) are [known to come from a single family](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), and almost certainly represent human-to-human transmission.
-
+Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (puede pasar el mouse sobre las ramas para ver qué mutaciones están presentes).
 
 <br>
 
-# [Within-family transmission 2 - shared mutations](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
+Sabemos que dos de estos casos (terminando en 028 y 040) [provienen de una misma familia](https://twitter.com/JingLu_LuJing/status/1220143773532880896), indicando nuevamente que ocurrió una transmisión de persona a persona.
+No tenemos información sobre el tercer caso.
 
-The three mutations found in this cluster are also present in the Arizona, USA isolate, and two of the mutations are found in three other USA isolates.
+# [Transmisión dentro de la familia 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
 
-
-<br>
-
-# [Within-family transmission 3](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Paris)
-
-Finally, the two sequences from France are identical, sharing one unique mutation, and one mutation also found in one of the USA isoaltes and the Taiwanese isolate.
+Cuatro de los seis aislamientos en la provincia de Guangdong (Que incluye la ciudad de Shenzhen) son genéticamente idénticos.
+Estas secuencias comparten 3 mutaciones únicas.
 
 <br>
 
-The two french sequences are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
+Sabemos que tres de las los aislamientos de Guangdong (terminando en F025, F013, y F012) [provienen de una misma familia](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), y casi seguramente representan una transmisión de persona a persona.
+
+<br>
+
+# [Transmisión dentro de la familia 2 - mutaciones compartidas](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
+
+Las tres mutaciones encontradas en este grupo también están presentes en el aislado de Arizona, Estados Unidos, y dos de las mutaciones se encuentran en los otros tres aislamientos de los Estados Unidos.
+
+<br>
+
+# [Transmisión dentro de la familia 3](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Paris)
+
+Finalmente, las dos secuencias de Francia son idénticas. Estas secuencias comparten una mutación única y una mutación que también se encuentra en uno de los aislados de los Estados Unidos y el aislado de Taiwán.
+
+<br>
+
+Sabemos que las dos secuencias de Francia [provienen de una misma familia](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - una pareja de Chinos de Wuhan.
 
 
-# [Cases outside China](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
+# [Casos fuera de China](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
 
 There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, the Middle East, and Europe.
 Vietnam, Japan, and Germany have reported transmission within the country, albeit always with a known link to Wuhan, China.
