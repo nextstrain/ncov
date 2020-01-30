@@ -24,14 +24,14 @@ Concluímos que:
 
 # [Coronavírus](https://nextstrain.org/ncov/2020-01-30)
 
-### Leituras adicionais::
+### Leituras adicionais:
 
 * Informações gerais sobre os coronavírus na [Wikipédia](https://pt.wikipedia.org/wiki/Coronavirus) 30/01/2020
 * Resumo do surto de nCoV na [Wikipédia](https://pt.wikipedia.org/wiki/Epidemia_de_pneumonia_por_novo_coronav%C3%ADrus_de_2019%E2%80%932020) 25/01/2020
 * Material disponibilizado pelo [Centro de Controle e Prevenção de Doenças dos Estados Unidos (CDC)](https://www.cdc.gov/coronavirus/index.html) 29/01/2020
 * Características do genoma em [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) 23/01/2020
 * Análise interativa de risco do [MOBS-lab](https://datastudio.google.com/reporting/3ffd36c3-0272-4510-a140-39e288a9f15c/page/U5lCB) 29/01/2020
-* Análise interativa de risco do [ROCS-lab](http://rocs.hu-berlin.de/corona/)
+* Análise interativa de risco do [ROCS-lab](http://rocs.hu-berlin.de/corona/) 29/01/2020
 
 ```auspiceMainDisplayMarkdown
 
