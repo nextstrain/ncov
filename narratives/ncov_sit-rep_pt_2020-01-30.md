@@ -201,7 +201,7 @@ Não temos informações a cerca do terceiro caso.
 
 
 
-# [Within-family transmission 2](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen)
+# [Transmissão dentro da família 2](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen)
 
 Dos seis (6) isolados da província de Guangdong (onde se localiza a cidade de Shenzhen), quatro (4) são geneticamente idênticos. 
 Essas sequências compartilham as mesmas 3 mutações únicas. 
@@ -212,8 +212,7 @@ Três das sequências de Guangdong (identificadas por F025, F013, e F012) são [
 
 
 
-
-# [Transmissão dentro da família 2 - mutações compartilhadas] (https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
+# [Transmissão dentro da família 2 - mutações compartilhadas](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
 
 As três mutações encontradas nesse grupo estão também presentes no Arizona, isolado dos EUA, e duas das mutações são encontradas em outros três isolados dos EUA.
 
