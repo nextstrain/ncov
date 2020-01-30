@@ -19,7 +19,7 @@ Concluímos que:
 * Essa falta de diversidade genética tem uma explicação cautelosa de que o surto ou descende de uma única introdução do vírus na população humana, ou descende de um pequeno número de transmissões de animais para humanos.
 * Esse evento provavelmente ocorreu em Novembro ou no início de Dezembro de 2019.
 * Desde então a transmissão de humanos para humanos tem ocorrido, resultando em casos observáveis da doença .
-* Usando o total estimado pelo Imperial College London — que aponta milhares de casos —, inferimos um número reprodutivo básico entre 1,5 e 3,5, indicando rápido crescimento do surto viral no período entre Novembro e Janeiro.
+* Usando o total estimado pelo Imperial College London — que aponta milhares de casos —, inferimos um número reprodutivo básico entre 1,8 e 3,5, indicando rápido crescimento do surto viral no período entre Novembro e Janeiro.
 ```
 
 # [Coronavírus](https://nextstrain.org/ncov/2020-01-30)
