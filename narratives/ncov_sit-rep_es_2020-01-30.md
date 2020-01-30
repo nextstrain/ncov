@@ -236,77 +236,76 @@ La explicación más parsimoniosa para este patrón de mutaciones compartidas ob
 No hay evidencia de un vínculo entre las secuencias de Estados Unidos excepto su conexión con Wuhan.
 
 
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-30?d=tree)
-The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
+# [Calculando la fecha de origen del ancestro común más reciente](https://nextstrain.org/ncov/2020-01-25?d=tree)
+La elevada similaridad de los genomas del nCoV sugiere que los virus colectados comparten un ancestro común bastante reciente (es decir, que han descendido del mismo virus recientemente). De lo contrario, esperaríamos un mayor número de diferencias (mutaciones) en los virus secuenciados.
 
 <br>
 
-Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 1 &times; 10<sup>-3</sup> per site per year).
+Investigaciones previas sugieren que coronavirus similares acumulan entre 1 y 3 mutaciones en su genoma por mes (una tasa entre 3 &times; 10<sup>-4</sup> y 1 &times; 10<sup>-3</sup> substituciones por sitio del genoma por año).
 
 <br>
 
-On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak.
+A la derecha, exploramos cómo las diferentes suposiciones sobre la tasa de cambio del virus junto con la diversidad genética observada nos permiten hacer estimaciones sobre la fecha de origen del brote.
 
 ```auspiceMainDisplayMarkdown
-## Date of the common ancestor of outbreak viruses
-With the additional sequences shared during the past week, the tree now shows several distinct clusters such that our analysis from 2020-01-25 assuming a star-like topology is no longer appropriate.
+## Fecha de origen del ancestro común de los virus del brote
+El árbol filogenético actual muestra varios grupos distintos debido a las secuencias adicionales que fueron compartidas durante la semana pasada. Esto implica que nuestro análisis del 2020-01-25 ya no es apropiado pues allí asumimos la existencia de una topología similar a una estrella (star-like en inglés).
 
-We reproduce here our analysis based on data available up to 2020-01-25
-assuming a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
-**We found that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019. The biggest source of uncertainty is the substitution rate.**
+Reproducimos aquí nuestro análisis basado en datos disponibles hasta 2020-01-25, asumiendo una estructura filogenética con forma de estrella y una distribución de Poisson para las mutaciones a través del tiempo a fin de estimar el tiempo del ancestro común más reciente ('TRMCA', por sus singlas en inglés) de los virus secuenciados.
+**Encontramos que el antepasado común de los virus secuenciados probablemente existió entre mediados de noviembre y principios de diciembre de 2019. La mayor fuente de incertidumbre es la tasa de sustitución.**
 
 <div>
-  <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
+  <img alt="Gráfico de las estimaciones de TRMCA basado en diferentes tasas de mutación" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
-Using the entire data set, the nextstrain analysis pipeline estimates that the common ancestor most likely existed between late-Nov and the beginning of Dec 2019.
+Usando todo el conjunto de datos, El análisis de nextstrain estima que el ancestro común probablemente existió entre fines de noviembre y principios de diciembre de 2019.
 
-There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor.
-The common ancestor of viruses sequenced to date might be later than this date though.
+Hay un [caso confirmado en Wuhan datado con fecha del 1 de diciembre de 2019](https://twitter.com/trvrb/status/1220749265380593664), lo que pondría un límite en la estimación de la fecha de origen del ancestro común más reciente. 
+Sin embargo, el ancestro común de los virus secuenciados hasta la fecha podría haber existido antes de esta fecha.
 
-More detailed modeling of the onset of the outbreak are onging.
-Despite considerable uncertainty, our best guess is remains late November/early December.
+Se está realizando una modelización más detallada del inicio del brote.
+A pesar de la incertidumbre, nuestra mejor estimativa continua siendo entre finales de noviembre y principios de diciembre.
 
 ```
 
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-01-30?d=tree)
+# [Estimando la tasa de crecimiento](https://nextstrain.org/ncov/2020-01-25?d=tree)
 
-An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
+Una cantidad importante a ser calculada durante la propagación de un patógeno es el número promedio de casos secundarios que se producen por cada infección.
 
 <br>
 
-This number is known as R0 ("R-zero" or "R-nought").
-One the right, we present simple estimates of R0.
+Este número se conoce como R0 ("R-cero" o "número reproductivo básico").
+A la derecha, presentamos estimaciones simples del R0.
 
 ```auspiceMainDisplayMarkdown
-## Estimates of epidemic growth rate
-Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 2020-01-22.
-With the additional exported cases since and the continued growth of confirmed cases in China, we currently have to expect at least 50000 cases to date.
-Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
+## Estimaciones de la tasa de crecimiento epidémico.
+Los científicos del Imperial College de Londres han utilizado el número de casos observados fuera de China para estimar el [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) Y sugieren que han habido al menos varios miles de casos hasta el 2020-01-22.
+Junto con los casos exportados adicionales que se han reportado dede entonces y el continuo incremento de casos confirmados en China, actualmente esperamos que al menos 50000 casos han ocurrido hasta la fecha.
+Junto con nuestras estimaciones anteriores de la fecha del origen del brote y la información disponible sobre la duración del período de infección, podemos estimar posibles rangos de R0 utilizando un modelo matemático del tipo de procesos de ramificación.
 
-**We find plausible estimates of R0 between 1.8 and 3.5.**
+**Nuestras estimaciones apuntan a un R0 plausible entre 1.8 and 3.5.**
 
-If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.8 and 2.5, depending on how large ('n') the outbreak is now.
+Si asumimos que el brote comenzó a principios de noviembre de 2019 (hace 12 semanas), encontramos que el R0 debería oscilar entre 1.8 y 2.5, dependiendo de qué tan grande ('n') sea el brote ahora.
 <div>
-  <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early_2020-01-29.png"/>
+  <img alt="Gráfico de estimaciones de R0 con el inicio del brote ocurriendo hace 12 semanas" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early_2020-01-29.png"/>
 </div>
 
-If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 2.2 and 3.5:
+Si suponemos un comienzo más reciente, por ejemplo, a principios de diciembre de 2019 (hace 8 semanas), las estimaciones para R0 oscilan entre 1.8 y 3.5:
 <div>
-  <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
+  <img alt="Gráfico de estimaciones de R0 con el inicio del brote ocurriendo hace 8 semanas" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
-This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
-Importantly, R0 is a quantitity that depends strongly on the socio-economic context and infection control measures.
+Estas estimaciones del R0 son muy consistentes con las de otros científicos que en su mayoría oscilan entre 2-3, ver por ejemplo <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
+Es importante destacar que el R0 es una cantidad que depende en gran medida del contexto socioeconómico y las medidas para el control de infecciones.
 ```
 
-# [Scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
+# [Crédito científico](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Nos gustaría reconocer el trabajo increíble y oportuno realizado por todos los científicos involucrados en este brote, pero particularmente aquellos que trabajan en China.
+Solo a través del intercambio rápido de datos genómicos y metadatos se pueden realizar análisis como este.
 
 <br>
 
-The nCoV genomes were generously shared by scientists at the:
+Los genomas del nCoV fueron generosamente compartidos por científicos de:
 
  * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
  * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
@@ -319,14 +318,14 @@ The nCoV genomes were generously shared by scientists at the:
  * Centers for Disease Control, R.O.C., Taipei, Taiwan
  * Institut Pasteur, Paris, France
 
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
+# [Crédito científico detallado](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Estos datos fueron compartidos a través de [GISAID](https://gisaid.org).
+Agradecemos enormemente sus contribuciones.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+A la derecha especifícamos las secuencias compartida por cada laboratorio.
 
 ```auspiceMainDisplayMarkdown
 
