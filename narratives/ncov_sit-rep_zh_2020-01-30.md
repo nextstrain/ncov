@@ -189,10 +189,9 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 
 <br>
 
-# [Within-family transmission 2 - shared mutations](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
+# [家庭内传染 案例2 - 共享突变](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
 
-The three mutations found in this cluster are also present in the Arizona, USA isolate, and two of the mutations are found in three other USA isolates.
-
+该簇中发现的三个突变也存在于美国亚利桑那州的病毒株，其中两个突变也在其他三个美国病毒株中发现。 
 
 <br>
 
