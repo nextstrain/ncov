@@ -140,7 +140,7 @@ A y B también tienen mutaciones únicas (el círculo verde) que no comparten co
 Por el momento, la filogenia del nuevo coronavirus (nCoV) en la diapositiva siguiente puede que no se parezca mucho a un 'árbol'.
 Muchas de las secuencias son idénticas: aparecen juntas en líneas verticales como A y B (algunas están más en la parte izquierda del árbol).
 Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen en las líneas o 'ramas' que van hacia la derecha.
-Podrás ver cuántas mutaciones tiene una rama al pasar el ratón sobre ella.
+Podrás ver cuántas mutaciones tiene una rama al pasar el puntero sobre ella.
 ```
 
 # [Análisis filogenético](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
@@ -185,7 +185,7 @@ Actualmente no hay evidencia de que estas mutaciones cambien la forma en que se 
 
 # [Transmisión dentro de la familia 1](https://nextstrain.org/2020-01-30/ncov?m=div&d=tree&f_location=Zhuhai)
 
-Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (pasa el puntero sobre las ramas para ver qué mutaciones están presentes).
+Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (puedes pasar el puntero sobre las ramas para ver qué mutaciones están presentes).
 
 <br>
 
