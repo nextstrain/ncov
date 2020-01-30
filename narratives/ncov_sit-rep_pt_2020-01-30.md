@@ -1,5 +1,5 @@
 ---
-title: Análise genômica do espalhamento do coronavírus nCoV. Relatório da situação até 25/01/2020.
+title: Análise genômica do espalhamento do coronavírus nCoV. Relatório da situação até 30/01/2020.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
@@ -176,7 +176,7 @@ Atualmente vemos uma diversidade genética mínima nas sequências do nCoV: 11</
 <br>
 
 A baixa diversidade genética nessas sequências sugerem que o ancestral comum de todas as sequências de nCoV é bastante recente, já que as mutações se acumulam lentamente comparado a outros vírus de RNA (com taxas em torno de 1-2 mutações por mês para coronavírus). Geralmente, quando as introduções por reservatório são múltiplas, é possível observar diversidade genética significativa (como tem sido com a febre de Lassa, o Ebola, a MERS-CoV e a gripe aviária).
-O fato de podermos observar uma agrupação tão forte em infecções humanas pode indicar que o surto descende de uma única introdução zoonótica (vinda de um animal) para a população humana, seguida do espalhamento epidêmico de pessoa para pessoa.
+O fato de podermos observar uma agrupamento tão forte em infecções humanas pode indicar que o surto descende de uma única introdução zoonótica (vinda de um animal) para a população humana, seguida do espalhamento epidêmico de pessoa para pessoa.
 
 <br>
 
