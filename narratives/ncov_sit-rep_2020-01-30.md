@@ -19,7 +19,7 @@ We find:
 * This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
 * This event most likely occurred in November or early December 2019.
 * There has been ongoing human-to-human spread since this point resulting in observed cases.
-* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.5 and 3.5 indicating rapid growth in the Nov-Jan period.
+* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the Nov-Jan period.
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-01-30)
