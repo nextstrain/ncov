@@ -40,10 +40,14 @@ Concluímos que:
 Os coronavírus (CoV) são membros de um conjunto numeroso de especíes de vírus de RNA de sentido positivo ((+) ssRNA), com histórico de causar infecções respiratórias em humanos.
 Alguns tipos de coronavírus estão associados com surtos, já outros estão continuamente circulando e causando principalmente infecções respiratórias leves (como por exemplo, o resfriado comum).
 
+
+
 #### SARS-CoV e MERS-CoV
 O mais conhecido dos coronavírus é o [SARS-CoV](https://pt.wikipedia.org/wiki/S%C3%ADndrome_respirat%C3%B3ria_aguda_grave) (Síndrome respiratória aguda grave), que foi responsável por um surto global entre Novembro de 2002 e Julho de 2003, que resultou em [mais de 8000 casos e 774 mortes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), com uma taxa de letalidade entre 9 e 11%.
 
 Em 2012, um novo coronavírus foi identificado, o [MERS-CoV](https://pt.wikipedia.org/wiki/Coronav%C3%ADrus_da_s%C3%ADndrome_respirat%C3%B3ria_do_Oriente_M%C3%A9dio) ("Síndrome respiratória do Oriente Médio"), o qual causa graves sintomas respiratórios. O MERS resultou em um número de mortes comparável ao SARS, porém sua via de transmissão é muito diferente. Enquanto o SARS é transmitido eficientemente de um humano para outro, infecções humanas com MERS são geralmente resultante de contato com animas, isto é, por camelos (veja [Dudas _et al._](https://elifesciences.org/articles/31257) para mais informações). Esse fator fez com que o surto de MERS se auto-restringisse a Península Arábica.
+
+
 
 
 #### CoVs Sazonais
@@ -52,6 +56,8 @@ Há quatro coronavírus "sazonais" que  normalmente infectam humanos todo ano.
 Comparado com o SARS, as cepas sazonais são ["muito mais prevalentes, muito menos graves, e geralmente causam doenças parecidas com a gripe (ILI, segundo a sigla em inglês)"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/).
 Na verdade, [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2879166/)–[12%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820427/) de todos os casos de ILI testam positivo para coronavírus, portanto os sazonais são muito comuns, o que resulta em milhões de infecções leves todo ano.
 Estes coronavírus sazonais são resultados de transmissões independentes de vírus provenientes de morcegos (reservatórios naturais de vírus) para humanos ao longo de aproximadamente 100 anos. Após tais transmissões entre espécies, cada vírus se estabeleceu e se espalhou amplamente na população humana.
+
+
 
 
 #### Reservatórios animais
@@ -65,6 +71,9 @@ Devido a sua habilidade de se transmitir entre humanos, acrescido de sua alta ta
 
 ```
 
+
+
+
 # [Novo coronavírus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-30)
 
 ### Leituras Adicionais:
@@ -76,6 +85,9 @@ Devido a sua habilidade de se transmitir entre humanos, acrescido de sua alta ta
 
 ```auspiceMainDisplayMarkdown
 
+
+
+
 ## Surto recente de um novo coronavírus
 Em Dezembro de 2019, uma nova doença foi detectada pela primeira vez em Wuhan, China. Com sua identificação, ficou estabelecido que trata-se de mais um surto de coronavírus em humanos (o 7º), e o vírus passou a ser provisoriamente chamado de nCoV (novo coronavírus).
 
@@ -86,12 +98,18 @@ Enquanto o surto parece ter seu epicentro em Wuhan, que atualmente está [sob qu
 A origem do vírus ainda não está clara, entretanto [análises genômicas](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) sugerem que o nCoV é provavelmente relacionado a vírus anteriormente identificados em morcegos.
 É plausível que a transmissão ocorreu tendo outros animais como intermediários antes de ser transmitido aos humanos. Porém, não há evidências de cobras como intermediário.
 
+
+
+
 #### Narrativas da Nextstrain
 
 As páginas seguintes contém análises realizadas usando o [Nextstrain](https://nextstrain.org). Rolando a página no menu a esquerda, textos correspondentes aos dados genômicos visualizados na direita surgirão na tela.
 
 Ter acesso a longos genomas completos, de um novo vírus de RNA, e tão rapidamente, é uma conquista notável. Essas análises têm sido possíveis devido ao rápido compartilhamento público de dados genômicos e interpretações por cientistas de todo o mundo (veja a última página para conhecer os autores do sequenciamento).
 ```
+
+
+
 
 # [Como interpretar as árvores filogenéticas?](https://nextstrain.org/ncov/2020-01-30)
 
@@ -128,6 +146,9 @@ Quando uma sequência está sozinha em uma linha longa, como C ou E, isso indica
 No momento, a filogenia do novo coronavírus (nCov) pode não parecer muito como uma "árvore". Muitas das sequências são idênticas: aparecem juntas em linhas verticais, como A e B. Outras têm mutações únicas ou compartilhadas e, portanto, aparecem nas linhas ("ramificações") que vão para a direita. Você pode ver quantas  mutações uma ramificação tem passando seu mouse sobre ela (verifique na próxima página).
 ```
 
+
+
+
 # [Análise filogenética](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
 Aqui apresentamos uma filogenia de 42</tag> cepas de nCoV que foram compartilhadas publicamente. Informações sobre como a análise foi realizada está disponível em [nosso repositório no GitHub](github.com/nextstrain/ncov).
@@ -144,6 +165,9 @@ Muitas sequências têm 0 mutações, o que significa que são todas idênticas 
 <br>
 
 Sequenciar o genoma de um novo vírus de RNA longo durante um surto é desafiante. Algumas das diferenças observadas nessas sequências podem ser resultado de erros de sequenciamento, e não mutações reais. Inserções, deleções, e diferenças nos extremos do genoma têm grandes chances de serem erros, por isso as ignoramos visando cumprir os propósitos dessa análise.
+
+
+
 
 # [Interpretação filogenética](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
@@ -163,6 +187,8 @@ Sequências nestes grupos tendem a ser de amostras mais recentes, sugerindo que 
 Atualmente não há qualquer evidência de que tais mutações mudaram a forma como o vírus se comporta: é normal e esperado que vírus de RNA sofram mutações.
 
 
+
+
 # [Transmissão dentro da família 1](https://nextstrain.org/2020-01-30/ncov?m=div&d=tree&f_location=Zhuhai)
 
 Há três isolados de Zhuhai (sudeste da China, na província de Guangdong) que são geneticamente idênticos, e que formam um grupo, compartilhando uma mutação única que não é vista em outros isolamentos (passe o mouse sobre as ramificações para ver quais mutações estão presentes).
@@ -171,6 +197,9 @@ Há três isolados de Zhuhai (sudeste da China, na província de Guangdong) que 
 
 Dois desses casos (identificados por 028 and 040) [vêm de uma mesma família](https://twitter.com/JingLu_LuJing/status/1220143773532880896), indicando novamente que ocorreu uma transmissão de humano para humano. 
 Não temos informações a cerca do terceiro caso.
+
+
+
 
 # [Within-family transmission 2](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen)
 
@@ -181,18 +210,48 @@ Essas sequências compartilham as mesmas 3 mutações únicas.
 
 Três das sequências de Guangdong (identificadas por F025, F013, e F012) são [provenientes de uma mesma família](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), e muito provavelmente representam novamente transmissão de humano para humano.
 
+
+
+
 # [Transmissão dentro da família 2 - mutações compartilhadas] (https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen,Los%20Angeles,Orange%20County,Seattle,Chicago,Phoenix)
 
 As três mutações encontradas nesse grupo estão também presentes no Arizona, isolado dos EUA, e duas das mutações são encontradas em outros três isolados dos EUA.
+
+
+
 
 # [Transmissão dentro da família 3](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Paris)
 
 Por fim, as duas sequências da França são idênticas, compartilhando uma única mutação, e uma mutação também encontrada em um dos isolados dos EUA e de Taiwan.
 
+<br>
+
+The two french sequences are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
+
+As duas sequências francesas são [originários da mesma família](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - um casal chinês de Wuhan.
+
+
+
+
+# [Casos fora da China](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
+
+Existem casos diagnosticados e confirmados de nCoV em muitos países do Sudeste Asiático e Ásia Oriental, UEUA, Austrália, Oriente Médio, e Europa.
+Vietnã, Japão, e Alemanha registraram transmissões locais dentro desses países, muito embora sempre com uma conexão com Wuhan, China.
 
 <br>
 
-O infectado do caso em Washington (EUA) havia viajado para Wuhan. A explicação mais cautelosa para o padrão observado de mutações comuns é de que: o vírus com duas mutações compartilhadas circulava em Wuhan, e foi exportado de forma independente para Shenzhen e para os EUA.
+As únicas sequências genômicas atualmente disponível de casos fora da China são de: dois casos da Tailândia; cinco dos EUA, dois da França, e um de Taiwan.
+As sequências tailandesa são geneticamente idênticas a nove sequências chinesas, incluindo sete de Wuhan.
+
+Quatro sequências dos EUA compartilham duas mutações com grupos de sequências de Shenzhen.
+As sequências restantes dos EUA compartilham uma mutação com a sequência de Taiwan, e duas da França.
+
+<br>
+
+A explicação mais cautelosa sobre o padrão observados de mutações compartilhadas entre sequências dos EUA e de Shenzhen indica que o variante viral com duas mutações compartilhadas estava circulando em Wuhan, e foi independentemente exportado para Shenzhen, e introduzido múltiplas vezes nos EUA.
+Não há evidências de outras conexões de casos nos EUA que não sejam ligadas a Wuhan.
+
+
 
 
 # [Calculando a provável data do ancestral comum mais recente](https://nextstrain.org/ncov/2020-01-30?d=tree)
@@ -206,25 +265,36 @@ Pesquisas anteriores com coronavírus similares sugerem que esses vírus acumula
 
 A direita nós exploramos como diferentes proposições sobre as taxas de substituição (“mutações”) e a diversidade genética observada nos dá estimativas temporais sobre o surto viral.
 
+
+
+
 ```auspiceMainDisplayMarkdown
 ## Provável data do ancestral comum dos vírus causadores do surto
-Aqui nós supomos uma estrutura filogenética em forma de estrela ao longo de uma distribuição Poisson de mutações ao longo do tempo, para estimar o tempo do ancestral comum mais recente (conhecido em inglês pela sigla “tMRCA”) dos vírus sequenciados.
-**Concluímos que o ancestral comum de nCoV provavelmente existiu entre meados de Novembro e princípios de Dezembro..**
+
+Com as sequência adicionais compartilhadas ao longo da última semana, a filogenia agora mostra distintos grupos, de forma que nossa análise prévia supondo uma topologia em forma de estrela não é mais apropriada.
+
+De toda forma, mostramos abaixo o resultado de nossa análise baseada nos dados disponíveis até dia 25/01/2020, assumindo uma filogenia em forma de estrela, com uma distribuição Poisson de mutações ao longo do tempo, para estimar o tempo até o ancestral comum mais recente (conhecido em inglês pela sigla “tMRCA”) dos vírus sequenciados.
+
+**Usando o conjunto de dados completo, a análise feita pelo nextstrain estima que o ancestral comum de nCoV provavelmente existiu entre o fim de Novembro e princípios de Dezembro de 2019. A taxa de substituição ainda se impõem como a principal fonte de incertezas nessa análise.**
 
 <div>
   <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
 </div>
 
-À medida que mais amostras são sequenciadas, esperamos que a árvore mostre mais estrutura, de modo que a topologia filogenética em formato de estrela não seja uma hipótese adequada. Neste ponto, estimativas filodinâmicas sobre o período de surgimento da epidemia se tornarão possíveis.
+Existe um [caso confirmado em Wuhan com início de sintomas em 01/12/2019](https://twitter.com/trvrb/status/1220749265380593664), o qual colocaria um limite máximo para a data de ancestralidade comum.
+O ancestral comum dos vírus sequenciados até hoje deve, no entanto, deve ter existido antes da data citada acima.
 
-Há um [caso confirmado em Wuhan datado de 1 de dezembro de 2019](https://twitter.com/trvrb/status/1220749265380593664), que colocaria um limite máximo na data do ancestral comum mais recente. E também sugere fortemente que as taxas evolutivas de aproximadamente ~3.0 x 10^-4 são as mais plausíveis.
+Modelagem mais detalhadas sobre o início do surto estão em andamento.
+Apesar das incertezas consideráveis, nova melhor suposição continua sendo que a epidemia começou entre fins de Novembro e princípios de Dezembro.
 
 ```
+
+
+
 
 # [Estimando a taxa de crescimento](https://nextstrain.org/ncov/2020-01-30?d=tree)
 
 Uma importante medida durante o espalhamento de um patógeno é o número médio de novos casos secundários que cada pessoa infectada gera.
-
 
 <br>
 
@@ -233,21 +303,31 @@ A direita, apresentamos estimativas simples do R0.
 
 ```auspiceMainDisplayMarkdown
 ## Estimativas sobre taxas de crescimento epidêmico
-Cientistas do Imperial College London utilizaram o número de casos observados fora da China para estimar o [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/), e sugeriram a ocorrência de pelo menos alguns milhares de casos.
+
+Cientistas do Imperial College London utilizaram o número de casos observados fora da China para estimar o [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/), e sugeriram a ocorrência de pelo menos alguns milhares de casos até o dia 22/01/2020.
+
+Com os adicionais casos importados, e o contínuado crescimento em número de casos na China, não atualmente estimamos pelo menos 5000 casos até hora. 
+
 Juntamente com nossas estimativas prévias sobre a data de surgimento do surto viral, e informações sobre a duração do período de infecção, podemos estimar possíveis faixas de R0 usando um modelo matémático de processos de ramificação.
 
-**Nossas estimativas apontam um R0 provável entre 1,5 e 3,5.**
+**Nossas estimativas apontam um R0 provável entre 1,8 e 3,5.**
 
-Se assumimos que o surto começou no início de novembro de 2019 (12 semanas atrás), cremos que o R0 deveria oscilar entre 1,5 e 2,5, dependendo de quão grande ('n') o surto esteja agora.
+Se assumimos que o surto começou no início de novembro de 2019 (12 semanas atrás), cremos que o R0 deveria oscilar entre 1,8 e 2,5, dependendo de quão grande ('n') o surto esteja agora.
 <div>
-  <img alt="Gráfico de estimativas de R0 com o início da epidemia 12 semanas atrás" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
+  <img alt="Gráfico de estimativas de R0 com o início da epidemia 12 semanas atrás" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early_2020-01-29.png"/>
 </div>
 
-Se consideramos um início mais recente, no começo de dezembro de 2019 (8 semanas atrás), as estimativas são de que o R0 oscile entre 1,8 e 3,5:
+Se consideramos um início mais recente, no começo de dezembro de 2019 (8 semanas atrás), as estimativas são de que o R0 oscile entre 2,2 e 3,5:
 <div>
-  <img alt="Gráfico de estimativas de R0 com o início da epidemia 8 semanas atrás" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
+  <img alt="Gráfico de estimativas de R0 com o início da epidemia 8 semanas atrás" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
+
+Estas estimativas são de maneira geral consistentes com aquelas feitas por outros cientistas, os quais em grande parte mostram um R0 entre 2 e 3, veja por exemplo <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">esta pré-publicação</a>. 
+Importante salientar: o R0 é uma medida que depende fortemente do contexto sócio-econômico, e de medidas de controle de infecções.
 ```
+
+
+
 
 # [Crédito científico](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
@@ -266,6 +346,10 @@ Os genomas do nCoV foram generosamente compartilhados por cientistas de várias 
  * Guangdong Provincial Center for Diseases Control and Prevention
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Tailândia
  * Division of Viral Diseases, Centers for Disease Control and Prevention, Estados Unidos
+ * Centers for Disease Control, R.O.C., Taipé, Taiwan
+ * Institut Pasteur, Paris, França
+
+
 
 # [Crédito cientifíco detalhado](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
@@ -301,16 +385,32 @@ Os genomas do nCoV foram generosamente cedidos por cientistas de várias institu
    - Zhejiang/WZ-01/2020
    - Zhejiang/WZ-02/2020
  * Guangdong Provincial Center for Diseases Control and Prevention
+   - Guangdong/20SF001/2020
    - Guangdong/20SF012/2020
    - Guangdong/20SF013/2020
    - Guangdong/20SF014/2020
    - Guangdong/20SF025/2020
    - Guangdong/20SF028/2020
    - Guangdong/20SF040/2020
+   - Guangdong/20SF174/2020
+   - Guangdong/20SF206/2020
+   - Guangdong/20SF207/2020
+   - Foshan/20SF207/2020
+   - Foshan/20SF210/2020
+   - Foshan/20SF211/2020
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Tailândia
    - Nonthaburi/61/2020
    - Nonthaburi/74/2020
  * Division of Viral Diseases, Centers for Disease Control and Prevention, Estados Unidos
    - USA-WA1/2020
+   - USA/AZ1/2020
+   - USA/IL1/2020
+   - USA/CA1/2020
+   - USA/CA2/2020
+ * Centers for Disease Control, R.O.C., Taipé, Taiwan
+   - Taiwan/2/2020
+ * Institut Pasteur, Paris, França
+   - France/IDF0372/2020
+   - France/IDF0373/2020
 
 ```
