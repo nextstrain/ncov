@@ -195,26 +195,28 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 
 <br>
 
-# [Within-family transmission 3](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Paris)
+# [家庭内传染 案例3](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Paris)
 
-Finally, the two sequences from France are identical, sharing one unique mutation, and one mutation also found in one of the USA isoaltes and the Taiwanese isolate.
-
-<br>
-
-The two french sequences are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
-
-
-# [Cases outside China](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
-
-There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, the Middle East, and Europe.
-Vietnam, Japan, and Germany have reported transmission within the country, albeit always with a known link to Wuhan, China.
+来自法国的两个序列是相同的，具有一个独特的突变。并且在台湾和美国病毒株之一中也发现了一个突变。
+这些序列还存有另一个在美国和台湾病株中发现的突变。
 
 <br>
 
-The only currently available sequence data for cases outside of China are the two cases from Thailand, five from the USA, two from France, and one from Taiwan.
-The Thai samples are genetically identical to nine Chinese sequences, including seven isolated in Wuhan.
-Four sequences from the US share two mutations with the cluster of sequences from Shenzhen.
-The remaining sequence from the US shares a mutation with the sequence from Taiwan and the two from France.
+这两个法国序列[已知来自同一家庭](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - 一对中国武汉夫妇。
+
+
+# [海外病例](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
+
+据报道，许多东亚和东南亚国家，美国，澳大利亚，中东和欧洲，已有确诊的新冠状病毒病例。 
+
+越南，日本和德国都报出了疫情在国内传播，但都病例都与中国武汉有联系。
+
+<br>
+
+海外病例中，唯有泰国（两例），美国（五例），法国（两例），和台湾（一例）已共享基因组。 
+泰国样本与9个中国序列相同，包括在武汉7个序列。 
+来自美国的四个序列与深圳的序列簇共有两个突变。 
+其余的美国序列和台湾（一例）以及法国（两例）的序列共有一个突变。
 
 <br>
 
