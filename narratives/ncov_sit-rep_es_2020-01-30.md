@@ -220,20 +220,21 @@ Sabemos que las dos secuencias de Francia [provienen de una misma familia](https
 
 # [Casos fuera de China](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
 
-There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, the Middle East, and Europe.
-Vietnam, Japan, and Germany have reported transmission within the country, albeit always with a known link to Wuhan, China.
+Se han notificado casos del nCoV confirmados por diagnóstico  en muchos países de Asia oriental y sudoriental, EE. UU., Australia, Oriente Medio y Europa.
+Vietnam, Japón y Alemania han reportado la transmisión dentro del país, pero siempre con un caso vinculado a Wuhan, China.
 
 <br>
 
-The only currently available sequence data for cases outside of China are the two cases from Thailand, five from the USA, two from France, and one from Taiwan.
-The Thai samples are genetically identical to nine Chinese sequences, including seven isolated in Wuhan.
-Four sequences from the US share two mutations with the cluster of sequences from Shenzhen.
-The remaining sequence from the US shares a mutation with the sequence from Taiwan and the two from France.
+Los únicos datos genéticos actuales que no provienen de China son dos casos de Tailandia, cinco casos de los Estados Unidos, dos casos de Francia y un caso de Taiwán.
+Las secuencias de Tailandia son genéticamente idénticas a nueve secuencias de China, incluyendo siete aisladas de Wuhan.
+Cuatro secuencias de los Estados Unidos comparten dos mutaciones con el grupo de secuencias de Shenzhen.
+La secuencia restante de los Estados Unidos comparte una mutación con la secuencia de Taiwán y las dos secuencia de Francia.
 
 <br>
 
-The most parsimonious explanation for the observed pattern of mutation sharing between the US and Shenzhen sequences is a virus variant with the two shared mutations was circulating in Wuhan and was independently exported to Shenzhen and multiple times to the USA.
-There is no evidence for a link between US sequences other than a link to Wuhan.
+La explicación más parsimoniosa para este patrón de mutaciones compartidas observado entre secuencias de Shenzhen y de los Estados Unidos es que la variante del virus con las dos mutaciones compartidas circulaba en Wuhan y fue exportada de forma independiente a Shenzhen y exportada varias veces a los Estados Unidos.
+No hay evidencia de un vínculo entre las secuencias de Estados Unidos excepto su conexión con Wuhan.
+
 
 # [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-30?d=tree)
 The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
