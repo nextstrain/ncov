@@ -4,11 +4,11 @@ authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Il
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; and CMMID-LSHTM, London, UK"
 date: "2020 Jan 30"
-dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
+dataset: "https://nextstrain.org/ncov/2020-01-30?d=map"
 abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV) compartidos públicamente en GISAID y en Genbank. Los datos se usan para estimar las tasas y los patrones de propagación de la epidemia viral. Planeamos emitir informes de la situación que se actualizaran en la medida que se produzcan y compartan nuevos datos. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
 ---
 
-# [Resumen Ejecutivo](https://nextstrain.org/ncov/2020-01-25)
+# [Resumen Ejecutivo](https://nextstrain.org/ncov/2020-01-30)
 
 ```auspiceMainDisplayMarkdown
 ## Resumen Ejecutivo
@@ -65,7 +65,7 @@ Debido a la capacidad del SARS-CoV de propagarse entre los humanos y a su alta t
 
 ```
 
-# [Nuevo coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-25)
+# [Nuevo coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-30)
 
 ### Lecturas adicionales:
 
@@ -99,7 +99,7 @@ La obtención (secuenciación) rápida de genomas completos de un nuevo virus de
 Estos análisis han sido posibles gracias al intercambio rápido y abierto de datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye todos los autores de cada uno de los diferentes esfuerzos de secuenciación).
 ```
 
-# [¿Cómo interpretar los árboles filogenéticos?](https://nextstrain.org/ncov/2020-01-25)
+# [¿Cómo interpretar los árboles filogenéticos?](https://nextstrain.org/ncov/2020-01-30)
 
 ### Lecturas adicionales:
 
@@ -143,7 +143,7 @@ Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen en las l
 Podrás ver cuántas mutaciones tiene una rama al pasar el ratón sobre ella.
 ```
 
-# [Análisis filogenético](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
+# [Análisis filogenético](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
 Aquí presentamos una filogenia de 42</tag> cepas del nCoV que se han compartido públicamente.
 La información sobre cómo se realizó el análisis está disponible [en este repositorio de GitHub](github.com/nextstrain/ncov).
@@ -164,7 +164,7 @@ La secuenciación del genoma de un nuevo virus de ARN durante un brote es un des
 Algunas de las diferencias observadas en estas secuencias pueden ser errores de secuenciación en lugar de mutaciones reales.
 Las inserciones, deleciones y diferencias en los extremos del genoma tienen mayor probabilidad de ser errores, por lo que no son indicadas en este análisis.
 
-# [Interpretación filogenética](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
+# [Interpretación filogenética](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
 Actualmente vemos poca diversidad genética en las secuencias del nCoV; 11</tag> de las 42</tag> secuencias no tienen mutaciones únicas.
 
@@ -183,7 +183,7 @@ Las secuencias en estos grupos tienden a ser de muestras más recientes, lo que 
 Actualmente no hay evidencia de que estas mutaciones cambien la forma en que se comporta el virus; se espera que los virus de ARN muten.
 
 
-# [Transmisión dentro de la familia 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
+# [Transmisión dentro de la familia 1](https://nextstrain.org/2020-01-30/ncov?m=div&d=tree&f_location=Zhuhai)
 
 Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (puede pasar el ratón sobre las ramas para ver qué mutaciones están presentes).
 
@@ -192,7 +192,7 @@ Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de Chin
 Sabemos que dos de estos casos (terminando en 028 y 040) [provienen de una misma familia](https://twitter.com/JingLu_LuJing/status/1220143773532880896), indicando nuevamente que ocurrió una transmisión de persona a persona.
 No tenemos información sobre el tercer caso.
 
-# [Transmisión dentro de la familia 2](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree&f_location=Shenzhen)
+# [Transmisión dentro de la familia 2](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen)
 
 Cuatro de los seis aislamientos en la provincia de Guangdong (Que incluye la ciudad de Shenzhen) son genéticamente idénticos.
 Estas secuencias comparten 3 mutaciones únicas.
@@ -236,7 +236,7 @@ La explicación más parsimoniosa para este patrón de mutaciones compartidas ob
 No hay evidencia de un vínculo entre las secuencias de Estados Unidos excepto su conexión con Wuhan.
 
 
-# [Estimando la fecha de origen del ancestro común más reciente](https://nextstrain.org/ncov/2020-01-25?d=tree)
+# [Estimando la fecha de origen del ancestro común más reciente](https://nextstrain.org/ncov/2020-01-30?d=tree)
 La elevada similitud de los genomas del nCoV sugiere que los virus colectados comparten un ancestro común bastante reciente (es decir, que han descendido del mismo virus recientemente). De lo contrario, esperaríamos un mayor número de diferencias (mutaciones) en los virus secuenciados.
 
 <br>
@@ -268,7 +268,7 @@ A pesar de la incertidumbre, nuestra mejor estimativa continúa siendo entre fin
 
 ```
 
-# [Estimando la tasa de crecimiento](https://nextstrain.org/ncov/2020-01-25?d=tree)
+# [Estimando la tasa de crecimiento](https://nextstrain.org/ncov/2020-01-30?d=tree)
 
 Una cantidad importante a ser calculada durante la propagación de un patógeno es el número promedio de casos secundarios que se producen por cada infección.
 
@@ -298,7 +298,7 @@ Estas estimaciones del R0 son muy consistentes con las de otros científicos que
 Es importante destacar que el R0 es una cantidad que depende en gran medida del contexto socioeconómico y las medidas para el control de infecciones.
 ```
 
-# [Crédito científico](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
+# [Crédito científico](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
 Nos gustaría reconocer el trabajo increíble y oportuno realizado por todos los científicos involucrados en este brote, pero particularmente aquellos que trabajan en China.
 Solo a través del intercambio rápido de datos genómicos y metadatos se pueden realizar análisis como este.
@@ -318,7 +318,7 @@ Los genomas del nCoV fueron generosamente compartidos por científicos de:
  * Centers for Disease Control, R.O.C., Taipei, Taiwan
  * Institut Pasteur, Paris, France
 
-# [Crédito científico detallado](https://nextstrain.org/ncov/2020-01-25?d=map&c=author)
+# [Crédito científico detallado](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
 Estos datos fueron compartidos a través de [GISAID](https://gisaid.org).
 Agradecemos enormemente sus contribuciones.
