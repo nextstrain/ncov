@@ -179,7 +179,7 @@ El hecho de que ocurra una agrupación tan fuerte de las infecciones humanas por
 Estamos comenzando a ver grupos de secuencias que comparten mutaciones.
 Un grupo contiene secuencias de Guangdong y cuatro aislados de los Estados Unidos.
 Otros grupos contienen de dos a cuatro aislamientos.
-Las secuencias en estos grupos tienden a ser de muestras más recientes, lo que sugiere que el virus ha comenzado a acumular mutaciones desde que comenzó a propagarse en Wuhan y posteriormente a otras ciudades.
+Las secuencias en estos grupos tienden a ser de muestras más recientes, lo que sugiere que el virus ha comenzado a acumular mutaciones desde que comenzó a propagarse en Wuhan y durante su propagación a otras ciudades.
 Actualmente no hay evidencia de que estas mutaciones cambien la forma en que se comporta el virus; se espera que los virus de ARN muten.
 
 
@@ -199,7 +199,7 @@ Estas secuencias comparten 3 mutaciones únicas.
 
 <br>
 
-Sabemos que tres de las los aislamientos de Guangdong (terminando en F025, F013, y F012) [provienen de una misma familia](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), y casi seguramente representan una transmisión de persona a persona.
+Sabemos que tres de los aislamientos de Guangdong (terminando en F025, F013, y F012) [provienen de una misma familia](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), y casi seguramente representan una transmisión de persona a persona.
 
 <br>
 
