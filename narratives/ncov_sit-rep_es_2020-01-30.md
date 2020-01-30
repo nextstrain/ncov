@@ -185,7 +185,7 @@ Actualmente no hay evidencia de que estas mutaciones cambien la forma en que se 
 
 # [Transmisión dentro de la familia 1](https://nextstrain.org/2020-01-30/ncov?m=div&d=tree&f_location=Zhuhai)
 
-Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (puede pasar el ratón sobre las ramas para ver qué mutaciones están presentes).
+Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (pasa el puntero sobre las ramas para ver qué mutaciones están presentes).
 
 <br>
 
