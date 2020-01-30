@@ -236,7 +236,7 @@ La explicación más parsimoniosa para este patrón de mutaciones compartidas ob
 No hay evidencia de un vínculo entre las secuencias de Estados Unidos excepto su conexión con Wuhan.
 
 
-# [Calculando la fecha de origen del ancestro común más reciente](https://nextstrain.org/ncov/2020-01-25?d=tree)
+# [Estimando la fecha de origen del ancestro común más reciente](https://nextstrain.org/ncov/2020-01-25?d=tree)
 La elevada similitud de los genomas del nCoV sugiere que los virus colectados comparten un ancestro común bastante reciente (es decir, que han descendido del mismo virus recientemente). De lo contrario, esperaríamos un mayor número de diferencias (mutaciones) en los virus secuenciados.
 
 <br>
