@@ -15,7 +15,7 @@ abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV
 
 Hemos examinados la diversidad genética de los 42</tag> genomas públicos del nuevo coronavirus (nCoV) para inferir la fecha del ancestro común más reciente y la tasa de propagación del virus.
 Principales hallazgos:
-* Los 42</tag> genomas muestreados son muy similares y difieren del consenso por 0-7 mutaciones.
+* Los 42</tag> genomas muestreados son muy similares y difieren de la secuencia consenso por 0-7 mutaciones.
 * La explicación más parsimoniosa para el bajo grado de diversidad genética observado es que el brote proviene de una sola introducción en la población humana. También es posible que un pequeño número de transmisiones de virus muy similares hayan ocurrido desde animales a humanos (zoonosis).
 * Este evento probablemente ocurrió entre noviembre y principios de diciembre de 2019.
 * Ha habido una propagación continua de persona a persona desde su introducción, lo que resulta en los casos observados.
@@ -44,7 +44,7 @@ Algunas variantes de los coronavirus están asociadas solamente con brotes, otra
 #### SARS-CoV y MERS-CoV
 El más conocido de estos coronavirus es el [SARS-CoV](https://es.wikipedia.org/wiki/S%C3%ADndrome_respiratorio_agudo_grave) ("síndrome respiratorio agudo severo"), que fue responsable por el brote que ocurrió entre noviembre de 2002 y julio de 2003. El SARS-CoV se propagó por todo el mundo resultando en [más de 8000 casos y 774 muertes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), con una tasa de letalidad de entre el 9% y el 11%.
 
-En 2012, un nuevo coronavirus [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Síndrome respiratorio del Medio Oriente"), asociado con síntomas respiratorios graves fue identificado. MERS ha resultado en un número de muertes comparable al SARS, sin embargo, la ruta de transmisión de MERS es muy diferente. Mientras que el SARS se propagó eficientemente de persona a persona, las infecciones por MERS en humanos fueron generalmente el resultado de varias zoonosis independientes (transmisiones de animales a humanos) a partir de  camellos (consultar [Dudas _et al._](https://elifesciences.org/articles/31257) para mayores informaciones). Esto ha llevado a que el brote de MERS se encuentra restringido a la Península Arábiga.
+En 2012, un nuevo coronavirus [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Síndrome respiratorio del Medio Oriente"), asociado con síntomas respiratorios graves fue identificado. MERS ha resultado en un número de muertes comparable al SARS, sin embargo, la ruta de transmisión de MERS es muy diferente. Mientras que el SARS se propagó eficientemente de persona a persona, las infecciones por MERS en humanos fueron generalmente el resultado de varias zoonosis independientes (transmisiones de animales a humanos) a partir de camellos (consultar [Dudas _et al._](https://elifesciences.org/articles/31257) para mayores informaciones). Esto ha llevado a que el brote de MERS se encuentra restringido a la Península Arábiga.
 
 
 #### CoV estacional
@@ -55,8 +55,8 @@ Estos coronavirus estacionales son el resultado de varias zoonosis independiente
 
 
 #### Reservorios animales
-Los coronavirus infectan una amplia gama de animales y los brotes humanos supracitados son el resultado de uno o más "saltos" de estos reservorios animales a la población humana.
-Se cree que el SARS-CoV fue introducido en la población humana a partir de  [murciélagos de herradura (Rhinolophidae) con la ayuda de civetas (Paguma larvata) como intermediario](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
+Los coronavirus infectan una amplia gama de animales y los brotes humanos que hemos mencionado son el resultado de uno o más "saltos" de estos reservorios animales a la población humana.
+Se cree que el SARS-CoV fue introducido en la población humana a partir de [murciélagos de herradura (Rhinolophidae) con la ayuda de civetas (Paguma larvata) como intermediario](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
 
 
 #### Transmisión de persona a persona
@@ -82,7 +82,7 @@ Actualmente sabemos que se trata de un brote por un nuevo coronavirus en humanos
 
 Hasta el 30 de enero, más de 7914 casos y 170 muertes [han sido reportados](https://es.wikipedia.org/wiki/Epidemia_de_neumon%C3%ADa_por_coronavirus_de_Wuhan_de_2019-2020).
 Todavía es demasiado pronto para saber su tasa de letalidad, pero los datos preliminares indican que es significativamente menor que la del SARS-CoV.
-El número de casos aumenta rápidamente en parte debido a una mayor vigilancia epidemiologica y a un aumento en las pruebas de diagnóstico.
+El número de casos aumenta rápidamente en parte debido a una mayor vigilancia epidemiológica y a un aumento en las pruebas de diagnóstico.
 
 A pesar de que el brote parece estar centrado en Wuhan, que ahora está [en cuarentena](https://twitter.com/PDChina/status/1220060879112282117), el virus se ha extendido por toda China y se ha documentado en el exterior, incluyendo Hong Kong, Singapur, Japón y Tailandia, así como Europa, América del Norte, Asia meridional, el Oriente Medio y Australia. La transmisión local (persona a persona) fuera de China ha sido limitada hasta el momento.
 
@@ -119,13 +119,13 @@ Dichas mutaciones aleatorias pueden ayudar a rastrear la propagación del patóg
 </div>
 
 La ilustración anterior muestra el bosquejo de un árbol de transmisión con un subconjunto de casos que fueron muestreados (en azul).
-En la práctica, el árbol de transmisión es desconocido y, por lo general, solo tenemos disponibles las estimaciones del número total apróximado de casos.
+En la práctica, el árbol de transmisión es desconocido y, por lo general, solo tenemos disponibles las estimaciones del número total aproximado de casos.
 Las secuencias genómicas nos permiten inferir partes del árbol de transmisión. En este ejemplo, se indican tres mutaciones (los diamantes pequeños) en el árbol.
 Las secuencias que tienen las mismas mutaciones están estrechamente relacionadas entre sí, por lo que estas mutaciones nos permiten agrupar muestras en grupos de virus estrechamente relacionados que pertenecen a las mismas cadenas de transmisión.
 
 ### Leyendo un árbol filogenético
 
-A continuación a la izquierda, vemos la ilustración de un árbol filogenético donde las mutaciones se muestran como círculos de colores. A la derecha vemos el bosquejo de las secuencias correspondientes y también las mutaciones que se muestran como círculos de colores.
+A continuación, a la izquierda, vemos la ilustración de un árbol filogenético donde las mutaciones se muestran como círculos de colores. A la derecha vemos el bosquejo de las secuencias correspondientes y también las mutaciones que se muestran como círculos de colores.
 Podemos ver que las secuencias que comparten las mismas mutaciones se agrupan juntas.
 Cuando las secuencias aparecen unidas por una línea vertical plana, como A y B, significa que no hay diferencias entre sí y por tanto son idénticas.
 
@@ -137,10 +137,10 @@ A y B también tienen mutaciones únicas (el círculo verde) que no comparten co
   <img alt="Ilustración del árbol filogenético y del alineamiento de secuencias correspondiente, con las muestras rotuladas como A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
 </div>
 
-Por el momento, la  filogenia del nuevo coronavirus (nCoV) en la diapositiva siguiente puede que no se parezca mucho a un 'árbol'.
+Por el momento, la filogenia del nuevo coronavirus (nCoV) en la diapositiva siguiente puede que no se parezca mucho a un 'árbol'.
 Muchas de las secuencias son idénticas: aparecen juntas en líneas verticales como A y B (algunas están más en la parte izquierda del árbol).
 Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen en las líneas o 'ramas' que van hacia la derecha.
-Podrás ver cuántas mutaciones tiene una rama al pasar el mouse sobre ella.
+Podrás ver cuántas mutaciones tiene una rama al pasar el ratón sobre ella.
 ```
 
 # [Análisis filogenético](https://nextstrain.org/ncov/2020-01-25?m=div&d=tree)
@@ -150,7 +150,7 @@ La información sobre cómo se realizó el análisis está disponible [en este r
 
 <br>
 
-Los colores representan la región dentrol del país o el estado (Estados Unidos) donde fue colectada la muestra y el eje 'x' representa la divergencia genética (de nucleótidos).
+Los colores representan la región dentro del país o el estado (Estados Unidos) donde fue colectada la muestra y el eje 'x' representa la divergencia genética (de nucleótidos).
 
 <br>
 
@@ -185,7 +185,7 @@ Actualmente no hay evidencia de que estas mutaciones cambien la forma en que se 
 
 # [Transmisión dentro de la familia 1](https://nextstrain.org/2020-01-25/ncov?m=div&d=tree&f_location=Zhuhai)
 
-Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (puede pasar el mouse sobre las ramas para ver qué mutaciones están presentes).
+Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (puede pasar el ratón sobre las ramas para ver qué mutaciones están presentes).
 
 <br>
 
@@ -228,7 +228,7 @@ Vietnam, Japón y Alemania han reportado la transmisión dentro del país, pero 
 Los únicos datos genéticos actuales que no provienen de China son dos casos de Tailandia, cinco casos de los Estados Unidos, dos casos de Francia y un caso de Taiwán.
 Las secuencias de Tailandia son genéticamente idénticas a nueve secuencias de China, incluyendo siete aisladas de Wuhan.
 Cuatro secuencias de los Estados Unidos comparten dos mutaciones con el grupo de secuencias de Shenzhen.
-La secuencia restante de los Estados Unidos comparte una mutación con la secuencia de Taiwán y las dos secuencia de Francia.
+La secuencia restante de los Estados Unidos comparte una mutación con la secuencia de Taiwán y las dos secuencias de Francia.
 
 <br>
 
@@ -237,7 +237,7 @@ No hay evidencia de un vínculo entre las secuencias de Estados Unidos excepto s
 
 
 # [Calculando la fecha de origen del ancestro común más reciente](https://nextstrain.org/ncov/2020-01-25?d=tree)
-La elevada similaridad de los genomas del nCoV sugiere que los virus colectados comparten un ancestro común bastante reciente (es decir, que han descendido del mismo virus recientemente). De lo contrario, esperaríamos un mayor número de diferencias (mutaciones) en los virus secuenciados.
+La elevada similitud de los genomas del nCoV sugiere que los virus colectados comparten un ancestro común bastante reciente (es decir, que han descendido del mismo virus recientemente). De lo contrario, esperaríamos un mayor número de diferencias (mutaciones) en los virus secuenciados.
 
 <br>
 
@@ -264,7 +264,7 @@ Hay un [caso confirmado en Wuhan datado con fecha del 1 de diciembre de 2019](ht
 Sin embargo, el ancestro común de los virus secuenciados hasta la fecha podría haber existido antes de esta fecha.
 
 Se está realizando una modelización más detallada del inicio del brote.
-A pesar de la incertidumbre, nuestra mejor estimativa continua siendo entre finales de noviembre y principios de diciembre.
+A pesar de la incertidumbre, nuestra mejor estimativa continúa siendo entre finales de noviembre y principios de diciembre.
 
 ```
 
@@ -279,8 +279,8 @@ A la derecha, presentamos estimaciones simples del R0.
 
 ```auspiceMainDisplayMarkdown
 ## Estimaciones de la tasa de crecimiento epidémico.
-Los científicos del Imperial College de Londres han utilizado el número de casos observados fuera de China para estimar el [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) Y sugieren que han habido al menos varios miles de casos hasta el 2020-01-22.
-Junto con los casos exportados adicionales que se han reportado dede entonces y el continuo incremento de casos confirmados en China, actualmente esperamos que al menos 50000 casos han ocurrido hasta la fecha.
+Los científicos del Imperial College de Londres han utilizado el número de casos observados fuera de China para estimar el [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) Y sugieren que ha habido al menos varios miles de casos hasta el 2020-01-22.
+Junto con los casos exportados adicionales que se han reportado desde entonces y el continuo incremento de casos confirmados en China, actualmente esperamos que al menos 50000 casos han ocurrido hasta la fecha.
 Junto con nuestras estimaciones anteriores de la fecha del origen del brote y la información disponible sobre la duración del período de infección, podemos estimar posibles rangos de R0 utilizando un modelo matemático del tipo de procesos de ramificación.
 
 **Nuestras estimaciones apuntan a un R0 plausible entre 1.8 and 3.5.**
@@ -325,7 +325,7 @@ Agradecemos enormemente sus contribuciones.
 
 <br>
 
-A la derecha especifícamos las secuencias compartida por cada laboratorio.
+A la derecha especificamos las secuencias compartida por cada laboratorio.
 
 ```auspiceMainDisplayMarkdown
 
