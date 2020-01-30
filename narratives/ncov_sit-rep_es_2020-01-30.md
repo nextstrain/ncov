@@ -2,36 +2,36 @@
 title: Análisis genómico de la propagación del nCoV. Informe de la situación hasta 2020-01-30.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Julian Villabona-Arenas"
 authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland and CMMID-LSHTM, London, UK"
-date: "2020 Ene 30"
-dataset: "https://nextstrain.org/ncov/2020-01-30?d=map"
-abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV) que han sido compartidos públicamente en GISAID y Genbank. Estos datos se usan para estimar las tasas y los patrones de propagación de la epidemia viral. Planeamos emitir informes de la situación que se actualizaran en la medida que se produzcan y compartan nuevos datos. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; and CMMID-LSHTM, London, UK"
+date: "2020 Jan 30"
+dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
+abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV) compartidos públicamente en GISAID y en Genbank. Los datos se usan para estimar las tasas y los patrones de propagación de la epidemia viral. Planeamos emitir informes de la situación que se actualizaran en la medida que se produzcan y compartan nuevos datos. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
 ---
 
-# [Executive summary](https://nextstrain.org/ncov/2020-01-30/2020-01-30)
+# [Resumen Ejecutivo](https://nextstrain.org/ncov/2020-01-25)
 
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Resumen Ejecutivo
 
-Using 42</tag> publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
-We find:
-* the 42</tag> sampled genomes are very similar, differing from the consensus by 0-7 mutations
-* This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
-* This event most likely occurred in November or early December 2019.
-* There has been ongoing human-to-human spread since this point resulting in observed cases.
-* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.5 and 3.5 indicating rapid growth in the Nov-Jan period.
+Hemos examinados la diversidad genética de los 42</tag> genomas públicos del nuevo coronavirus (nCoV) para inferir la fecha del ancestro común más reciente y la tasa de propagación del virus.
+Principales hallazgos:
+* Los 42</tag> genomas muestreados son muy similares y difieren del consenso por 0-7 mutaciones.
+* La explicación más parsimoniosa para el bajo grado de diversidad genética observado es que el brote proviene de una sola introducción en la población humana. También es posible que un pequeño número de transmisiones de virus muy similares hayan ocurrido desde animales a humanos (zoonosis).
+* Este evento probablemente ocurrió entre noviembre y principios de diciembre de 2019.
+* Ha habido una propagación continua de persona a persona desde su introducción, lo que resulta en los casos observados.
+* Usando las estimaciones del número total de casos hechas por el Imperial College de Londres (del orden de varios miles de casos), hemos inferido un número reproductivo que oscila entre 1.5 y 3.5. Estas cifras indican un rápido crecimiento de la epidemia en el período comprendido entre noviembre y enero.
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-01-30)
 
-### Further Reading:
+### Lecturas adicionales:
 
-* General information on coronaviruses on [Wikipedia](https://en.wikipedia.org/wiki/Coronavirus) _2020-01-30_
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
-* Organization and genome on [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
-* Interactive risk analysis by [MOBS-lab](https://datastudio.google.com/reporting/3ffd36c3-0272-4510-a140-39e288a9f15c/page/U5lCB) _2010-01-29_
-* Interactive risk analysis by [ROCS-lab](http://rocs.hu-berlin.de/corona/) _2010-01-29_
+* Información general sobre los coronavirus en [Wikipedia](https://es.wikipedia.org/wiki/Coronavirus) _2020-01-29_
+* Resumen del brote por nCov en [Wikipedia](https://es.wikipedia.org/wiki/Epidemia_de_neumon%C3%ADa_por_coronavirus_de_Wuhan_de_2019-2020) _2020-01-30_
+* Material proporcionado por los Centros para el Control y la Prevención de Enfermedades de los Estados Unidos en [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-26_
+* Características del genoma (en inglés) por [ViralZone](https://viralzone.expasy.org/764?outline=all_by_species) _2020-01-23_
+* Análisis interactivo del riesgo (en inglés) por  [MOBS-lab](https://datastudio.google.com/reporting/3ffd36c3-0272-4510-a140-39e288a9f15c/page/U5lCB) _2010-01-29_
+* Análisis interactivo del riesgo (en inglés) por [ROCS-lab](http://rocs.hu-berlin.de/corona/) _2010-01-29_
 
 ```auspiceMainDisplayMarkdown
 
