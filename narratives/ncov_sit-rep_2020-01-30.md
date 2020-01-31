@@ -279,7 +279,7 @@ There, however, remains a great deal of uncertainty in these estimates and the r
 [Analyzing](https://nicfel.github.io/nCov-Nicola/ExponentialCoalescent_20200130.html) this data assuming once a constant population of infected individuals and once and exponentially growing population estimates the tMRCA to be anywhere between the end of November and the middle of December.
 
 <div>
-  <img alt="graph of TMRCA estimates inferred from genetic sequence data and sampling times in BEAST" width="500" src="https://data.nextstrain.org/beast_coal-tmrca_20200130.png"/>
+  <img alt="TMRCA estimates inferred from genetic sequence data and sampling times in BEAST" width="500" src="https://data.nextstrain.org/beast_coal-tmrca_20200130.png"/>
 </div>
 
 
