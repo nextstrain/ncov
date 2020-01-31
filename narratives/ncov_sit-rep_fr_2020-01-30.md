@@ -4,11 +4,11 @@ authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Il
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, États-Unis et Biozentrum, Bâle, Suisse"
 date: "2020 Jan 30"
-dataset: "https://nextstrain.org/ncov/2020-01-25?d=map"
+dataset: "https://nextstrain.org/ncov/2020-01-30?d=map"
 abstract: "Ce rapport utilise des données génomiques du nouveau coronavirus (nCoV) rendues publiques sur GISAID et Genbank afin d'estimer la vitesse et les modalités de propagation de l'épidémie virale. Nous prévoyons d'émettre des rapports de situation à mesure que de nouvelles données sont produites et partagées. Ce site web est optimisé pour être affiché sur un ordinateur de bureau."
 ---
 
-# [Résumé exécutif](https://nextstrain.org/ncov/2020-01-25)
+# [Résumé exécutif](https://nextstrain.org/ncov/2020-01-30)
 
 ```auspiceMainDisplayMarkdown
 ## Résumé exécutif
@@ -19,10 +19,10 @@ Principaux résultats :
 * L'explication parcimonieuse de cette faible diversité est que l'épidémie est issue d'une unique introduction du virus dans la population humaine, ou d'un faible nombre de transmissions animal-homme de virus très similaires. 
 * Cette transmission a probablement eu lieu en novembre ou début décembre 2019.  
 * La transmission d'homme à homme a eu lieu en continu depuis cette date, aboutissant aux cas observés. 
-* À l'aide des estimations du nombre total de cas de l'Imperial College de Londres, nous avons inféré un taux de reproduction entre 1,5 et 3,5, indiquant une croissance rapide sur la période de novembre à janvier. 
+* À l'aide des estimations du nombre total de cas de l'Imperial College de Londres, nous avons inféré un taux de reproduction entre 1,8 et 3,5, indiquant une croissance rapide sur la période de novembre à janvier. 
 ```
 
-# [Coronavirus](https://nextstrain.org/ncov/2020-01-25)
+# [Coronavirus](https://nextstrain.org/ncov/2020-01-30)
 
 ### Lectures additionnelles:
 
@@ -66,7 +66,7 @@ La capacité de différents lignages à se transmettre d'homme à homme est extr
 
 ```
 
-# [Nouveau coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-25)
+# [Nouveau coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-30)
 
 ### Lectures additionnelles (en anglais):
 
@@ -85,15 +85,15 @@ Au 30 janvier, plus de 7,914 cas et 170 decès [ont été signalés](https://en.
 Il est encore trop tôt pour connaître le taux de mortalié, mais les premiers chiffres indiquent qu'il est nettement inférieur à celui du SRAS-CoV.
 Le nombre de cas augmente considérablement en partie en raison de la surveillance et des tests accrus.
 
-Alors que l'épidémie semble être concentrée à Wuhan, qui est maintenant [en quarantaine] (https://twitter.com/PDChina/status/1220060879112282117), le virus s'est propagé dans toute la Chine et à l'étranger, notamment à Hong Kong, Macao, Thaïlande, Japon, Corée du Sud, États-Unis et France. Une transmission locale limitée en dehors de la Chine a été signalée.
+Alors que l'épidémie semble être concentrée à Wuhan, qui est maintenant [en quarantaine](https://twitter.com/PDChina/status/1220060879112282117), le virus s'est propagé dans toute la Chine et à l'étranger, notamment à Hong Kong, Macao, Thaïlande, Japon, Corée du Sud, États-Unis et France. Une transmission locale limitée en dehors de la Chine a été signalée.
 
-L'origine du virus n'est pas encore claire, cependant [l'analyse génomique] (https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) suggère que le nCoV est proche de virus précédemment identifiés chez des chauves-souris.
+L'origine du virus n'est pas encore claire, cependant [l'analyse génomique](https://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes/331) suggère que le nCoV est proche de virus précédemment identifiés chez des chauves-souris.
 Il est plausible qu'il y ait eu d'autres transmissions animales intermédiaires avant l'introduction chez l'homme.
 Il n'y a aucune preuve que l'intermédiaire soit des serpents.
 
 #### récits Nextstrain
 
-Les pages suivantes contiennent des analyses effectuées à l'aide de [Nextstrain] (https://nextstrain.org).
+Les pages suivantes contiennent des analyses effectuées à l'aide de [Nextstrain](https://nextstrain.org).
 En faisant défiler la barre latérale gauche, vous découvrirez des paragraphes de texte avec sur le côté droit une visualisation correspondant aux données génomiques.
 
 Avoir des génomes complets d'un nouveau et  grand virus à ARN si rapidement est une réalisation remarquable.
@@ -147,7 +147,7 @@ Vous pouvez voir le nombre de mutations d'une branche en passant votre souris de
 # [Analyse phylogénétique](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
 Nous présentons ici une phylogénie de 42 </tag> souches de nCoV qui ont été partagées publiquement.
-Des informations sur la façon dont l'analyse a été effectuée sont disponibles [dans ce recueil GitHub] (github.com/nextstrain/ncov).
+Des informations sur la façon dont l'analyse a été effectuée sont disponibles [dans ce recueil GitHub](github.com/nextstrain/ncov).
 
 <br>
 
@@ -189,7 +189,7 @@ Il existe trois isolats génétiquement identiques de Zhuhai (sud-est de la Chin
 
 <br>
 
-Deux de ces cas (se terminant par 028 et 040) sont [connus pour provenir d'une même famille] (https://twitter.com/JingLu_LuJing/status/1220143773532880896), indiquant à nouveau une transmission interhumaine.
+Deux de ces cas (se terminant par 028 et 040) sont [connus pour provenir d'une même famille](https://twitter.com/JingLu_LuJing/status/1220143773532880896), indiquant à nouveau une transmission interhumaine.
 Nous n'avons pas d'informations sur le troisième cas.
 
 
@@ -200,7 +200,7 @@ Ces séquences diffèrent par 3 mutations de la racine de l'arbre.
 
 <br>
 
-Trois des séquences de Guangdong (se terminant par F025, F013 et F012) sont [connues pour provenir d'une même famille] (https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), et représentent presque certainement une transmission interhumaine.
+Trois des séquences de Guangdong (se terminant par F025, F013 et F012) sont [connues pour provenir d'une même famille](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), et représentent presque certainement une transmission interhumaine.
 
 <br>
 
@@ -262,7 +262,7 @@ en supposant une structure de phylogénie en forme d'étoile ainsi qu'une distri
 
 En utilisant l'ensemble des données, le pipeline d'analyse de la souche suivante estime que l'ancêtre commun existait probablement entre fin novembre et début décembre 2019.
 
-Il y a un [cas confirmé à Wuhan dont la date de survenue est le 1er décembre 2019] (https://twitter.com/trvrb/status/1220749265380593664), qui mettrait une limite supérieure à la date du dernier ancêtre commun.
+Il y a un [cas confirmé à Wuhan dont la date de survenue est le 1er décembre 2019](https://twitter.com/trvrb/status/1220749265380593664), qui mettrait une limite supérieure à la date du dernier ancêtre commun.
 L'ancêtre commun des virus séquencés à ce jour pourrait cependant être postérieur à cette date.
 
 Une modélisation plus détaillée du début de l'épidémie est en cours.
