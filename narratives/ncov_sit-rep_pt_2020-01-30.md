@@ -225,8 +225,6 @@ Por fim, as duas sequências da França são idênticas, compartilhando uma úni
 
 <br>
 
-The two french sequences are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
-
 As duas sequências francesas são [originários da mesma família](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - um casal chinês de Wuhan.
 
 
@@ -240,14 +238,14 @@ Vietnã, Japão, e Alemanha registraram transmissões locais dentro desses país
 <br>
 
 As únicas sequências genômicas atualmente disponível de casos fora da China são de: dois casos da Tailândia; cinco dos EUA, dois da França, e um de Taiwan.
-As sequências tailandesa são geneticamente idênticas a nove sequências chinesas, incluindo sete de Wuhan.
+As sequências tailandesas são geneticamente idênticas a nove sequências chinesas, incluindo sete de Wuhan.
 
 Quatro sequências dos EUA compartilham duas mutações com grupos de sequências de Shenzhen.
 As sequências restantes dos EUA compartilham uma mutação com a sequência de Taiwan, e duas da França.
 
 <br>
 
-A explicação mais cautelosa sobre o padrão observados de mutações compartilhadas entre sequências dos EUA e de Shenzhen indica que o variante viral com duas mutações compartilhadas estava circulando em Wuhan, e foi independentemente exportado para Shenzhen, e introduzido múltiplas vezes nos EUA.
+A explicação mais cautelosa sobre o padrão observado de mutações compartilhadas entre sequências dos EUA e de Shenzhen indica que o variante viral com duas mutações compartilhadas estava circulando em Wuhan, e foi independentemente exportado para Shenzhen, e introduzido múltiplas vezes nos EUA.
 Não há evidências de outras conexões de casos nos EUA que não sejam ligadas a Wuhan.
 
 
