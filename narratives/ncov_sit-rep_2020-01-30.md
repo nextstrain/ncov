@@ -238,19 +238,31 @@ The most parsimonious explanation for the observed pattern of mutation sharing b
 There is no evidence for a link between US sequences other than a link to Wuhan.
 
 # [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-30?d=tree)
-The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
+The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently).
+Otherwise, we would expect a higher number of differences between the samples.
 
 <br>
 
-Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 1 &times; 10<sup>-3</sup> per site per year).
+Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 2 &times; 10<sup>-3</sup> per site per year).
 
 <br>
 
-On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak.
+On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates about when all sequenced cases last shared a common ancestor.
 
 ```auspiceMainDisplayMarkdown
 ## Date of the common ancestor of outbreak viruses
-With the additional sequences shared during the past week, the tree now shows several distinct clusters such that our analysis from 2020-01-25 assuming a star-like topology is no longer appropriate.
+The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
+This time can be as early as the time when a virus first entered the human population, but can also be substantially later as show in the figure below.
+
+<div>
+  <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://data.nextstrain.org/zoonosis.png"/>
+</div>
+
+Using different approaches, the tMRCA can be estimated either jointly with the rate of evolution or one can fix this rate.
+Below, we estimate this tMRCA using different approaches.
+
+1) With the additional sequences shared during the past week, the tree now shows several distinct clusters such that our analysis from 2020-01-25 assuming a star-like topology is no longer appropriate.
+
 
 We reproduce here our analysis based on data available up to 2020-01-25
 assuming a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
@@ -262,11 +274,16 @@ assuming a star-like phylogeny structure along with a Poisson distribution of mu
 
 Using the entire data set, the nextstrain analysis pipeline estimates that the common ancestor most likely existed between late-Nov and the beginning of Dec 2019.
 
-There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor.
-The common ancestor of viruses sequenced to date might be later than this date though.
+2) With more and more sequences being made available publicly, we can start to estimate the rate of evolution and the tMRCA from sequence data directly.
+There, however, remains a great deal of uncertainty in these estimates and the results have to therefore be treated as very uncertain.
+[Analyzing](https://nicfel.github.io/nCov-Nicola/ExponentialCoalescent_20200130.html) this data assuming once a constant population of infected individuals and once and exponentially growing population estimates the tMRCA to be anywhere between the end of November and the middle of December.
+
+<div>
+  <img alt="graph of TMRCA estimates inferred from genetic sequence data and sampling times in BEAST" width="500" src="https://data.nextstrain.org/beast_coal-tmrca_20200130.png"/>
+</div>
+
 
 More detailed modeling of the onset of the outbreak are ongoing.
-Despite considerable uncertainty, our best guess is remains late November/early December.
 
 ```
 
