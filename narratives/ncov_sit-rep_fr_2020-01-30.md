@@ -1,5 +1,5 @@
 ---
-title: Analyse génomique de la propagation du nCoV. Rapport de situation au 2020-01-25.
+title: Analyse génomique de la propagation du nCoV. Rapport de situation au 2020-01-30.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Etienne Simon-Lorière, Pierre Barrat-Charlaix"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, États-Unis; Biozentrum, Bâle, Suisse; et Institut Pasteur, Paris, France"
