@@ -3,7 +3,7 @@ title: Genomic analysis of nCoV spread. Situation report 2020-01-30.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 Jan 30"
+date: "2020 January 30"
 dataset: "https://nextstrain.org/ncov/2020-01-30?d=map"
 abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
@@ -19,7 +19,7 @@ We find:
 * This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
 * This event most likely occurred in November or early December 2019.
 * There has been ongoing human-to-human spread since this point resulting in observed cases.
-* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.5 and 3.5 indicating rapid growth in the Nov-Jan period.
+* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the November 2019-January 2020 period.
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-01-30)
@@ -41,7 +41,7 @@ Coronaviruses (CoV) are members of a diverse species of positive-sense single-st
 Some variants of coronaviruses are associated with outbreaks, others are continuously circulating and cause mostly mild respiratory infections (e.g. the common cold).
 
 #### SARS-CoV & MERS-CoV
-The most well known of these coronaviruses is [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a Nov 2002 to Jul 2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a case fatality rate of around 9–11%.
+The most well known of these coronaviruses is [SARS-CoV](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome) ("severe acute respiratory syndrome"), which in a November 2002 to July 2003 outbreak spread around the world and resulted in [over 8000 cases and 774 deaths](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), with a case fatality rate of around 9–11%.
 
 In 2012, a novel coronavirus, [MERS-CoV](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome) ("Middle East respiratory syndrome"), causing severe respiratory symptoms was identified. MERS has resulted in fatalities comparable to SARS, however the transmission route of MERS is very different. Whereas SARS was efficiently spread from one human to another, human MERS infections were generally a result of independent zoonoses (animal to human transmissions) from camels (see [Dudas _et al._](https://elifesciences.org/articles/31257) for more information). This has lead to a self-limiting outbreak largely restricted to the Arabian Peninsula.
 
@@ -80,7 +80,7 @@ Due to the ability of SARS to spread between humans and the high case fatality r
 In December 2019, a new illness was first detected in Wuhan, China.
 We now know this to be another outbreak of coronavirus in humans (the 7th), and it is provisionally being called nCoV (novel coronavirus).
 
-As of January 30th over 7,914 cases and 170 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
+As of January 30th, 2020 over 7,914 cases and 170 deaths [have been reported](https://en.wikipedia.org/wiki/2019%E2%80%9320_outbreak_of_novel_coronavirus_(2019-nCoV)).
 It's still too early to know the case fatality rate, but early indications are that it is significantly less than SARS-CoV.
 The case counts are dramatically rising in part due to increased surveillance and testing.
 
@@ -213,11 +213,11 @@ The three mutations found in this cluster are also present in the Arizona, USA i
 
 # [Within-family transmission 3](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Paris)
 
-Finally, the two sequences from France are identical, sharing one unique mutation, and one mutation also found in one of the USA isoaltes and the Taiwanese isolate.
+Finally, the two sequences from France are identical, sharing one unique mutation, and one mutation also found in one of the USA isolates and the Taiwanese isolate.
 
 <br>
 
-The two french sequences are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
+The two French sequences are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
 
 
 # [Cases outside China](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
@@ -227,10 +227,10 @@ Vietnam, Japan, and Germany have reported transmission within the country, albei
 
 <br>
 
-The only currently available sequence data for cases outside of China are the two cases from Thailand, five from the USA, two from France, and one from Taiwan.
+The only currently available sequence data for cases outside of China are two cases from Thailand, five from the USA, two from France, and one from Taiwan.
 The Thai samples are genetically identical to nine Chinese sequences, including seven isolated in Wuhan.
-Four sequences from the US share two mutations with the cluster of sequences from Shenzhen.
-The remaining sequence from the US shares a mutation with the sequence from Taiwan and the two from France.
+Four sequences from the USA share two mutations with the cluster of sequences from Shenzhen.
+The remaining sequence from the USA shares a mutation with the sequence from Taiwan and the two from France.
 
 <br>
 
@@ -254,19 +254,19 @@ With the additional sequences shared during the past week, the tree now shows se
 
 We reproduce here our analysis based on data available up to 2020-01-25
 assuming a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
-**We found that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019. The biggest source of uncertainty is the substitution rate.**
+**We found that the common ancestor most likely existed between mid-November and the beginning of December 2019. The biggest source of uncertainty is the substitution rate.**
 
 <div>
   <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
-Using the entire data set, the nextstrain analysis pipeline estimates that the common ancestor most likely existed between late-Nov and the beginning of Dec 2019.
+Using the entire data set, the nextstrain analysis pipeline estimates that the common ancestor most likely existed between late-Nov and the beginning of December 2019.
 
-There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor.
+There is a [confirmed case in Wuhan with onset date of December 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor.
 The common ancestor of viruses sequenced to date might be later than this date though.
 
-More detailed modeling of the onset of the outbreak are onging.
-Despite considerable uncertainty, our best guess is remains late November/early December.
+More detailed modeling of the onset of the outbreak are ongoing.
+Despite considerable uncertainty, our best guess is remains late November/early December 2019.
 
 ```
 
@@ -297,7 +297,7 @@ If we assume a more recent start, at the beginning of December 2019 (8 weeks ago
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
 This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
-Importantly, R0 is a quantitity that depends strongly on the socio-economic context and infection control measures.
+Importantly, R0 is a quantity that depends strongly on the socio-economic context and infection control measures.
 ```
 
 # [Scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
