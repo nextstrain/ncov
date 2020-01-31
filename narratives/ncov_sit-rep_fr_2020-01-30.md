@@ -2,7 +2,7 @@
 title: Analyse génomique de la propagation du nCoV. Rapport de situation au 2020-01-25.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Etienne Simon-Lorière, Pierre Barrat-Charlaix"
 authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, États-Unis et Biozentrum, Bâle, Suisse"
+affiliations: "Fred Hutch, Seattle, États-Unis; Biozentrum, Bâle, Suisse; et Institut Pasteur, Paris, France"
 date: "2020 Jan 30"
 dataset: "https://nextstrain.org/ncov/2020-01-30?d=map"
 abstract: "Ce rapport utilise des données génomiques du nouveau coronavirus (nCoV) rendues publiques sur GISAID et Genbank afin d'estimer la vitesse et les modalités de propagation de l'épidémie virale. Nous prévoyons d'émettre des rapports de situation à mesure que de nouvelles données sont produites et partagées. Ce site web est optimisé pour être affiché sur un ordinateur de bureau."
