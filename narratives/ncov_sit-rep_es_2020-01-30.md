@@ -19,7 +19,7 @@ Principales hallazgos:
 * La explicación más parsimoniosa para el bajo grado de diversidad genética observado es que el brote proviene de una sola introducción en la población humana. También es posible que un pequeño número de transmisiones de virus muy similares hayan ocurrido desde animales a humanos (zoonosis).
 * Este evento probablemente ocurrió entre noviembre y principios de diciembre de 2019.
 * Ha habido una propagación continua de persona a persona desde su introducción, lo que resulta en los casos observados.
-* Usando las estimaciones del número total de casos hechas por el Imperial College de Londres (del orden de varios miles de casos), hemos inferido un número reproductivo que oscila entre 1.5 y 3.5. Estas cifras indican un rápido crecimiento de la epidemia en el período comprendido entre noviembre y enero.
+* Usando las estimaciones del número total de casos hechas por el Imperial College de Londres (del orden de varios miles de casos), hemos inferido un número reproductivo que oscila entre 1.8 y 3.5. Estas cifras indican un rápido crecimiento de la epidemia en el período comprendido entre noviembre y enero.
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-01-30)
@@ -140,7 +140,7 @@ A y B también tienen mutaciones únicas (el círculo verde) que no comparten co
 Por el momento, la filogenia del nuevo coronavirus (nCoV) en la diapositiva siguiente puede que no se parezca mucho a un 'árbol'.
 Muchas de las secuencias son idénticas: aparecen juntas en líneas verticales como A y B (algunas están más en la parte izquierda del árbol).
 Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen en las líneas o 'ramas' que van hacia la derecha.
-Podrás ver cuántas mutaciones tiene una rama al pasar el ratón sobre ella.
+Podrás ver cuántas mutaciones tiene una rama al pasar el puntero sobre ella.
 ```
 
 # [Análisis filogenético](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
@@ -179,13 +179,13 @@ El hecho de que ocurra una agrupación tan fuerte de las infecciones humanas por
 Estamos comenzando a ver grupos de secuencias que comparten mutaciones.
 Un grupo contiene secuencias de Guangdong y cuatro aislados de los Estados Unidos.
 Otros grupos contienen de dos a cuatro aislamientos.
-Las secuencias en estos grupos tienden a ser de muestras más recientes, lo que sugiere que el virus ha comenzado a acumular mutaciones desde que comenzó a propagarse en Wuhan y posteriormente a otras ciudades.
+Las secuencias en estos grupos tienden a ser de muestras más recientes, lo que sugiere que el virus ha comenzado a acumular mutaciones desde que comenzó a propagarse en Wuhan y durante su propagación a otras ciudades.
 Actualmente no hay evidencia de que estas mutaciones cambien la forma en que se comporta el virus; se espera que los virus de ARN muten.
 
 
 # [Transmisión dentro de la familia 1](https://nextstrain.org/2020-01-30/ncov?m=div&d=tree&f_location=Zhuhai)
 
-Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (puede pasar el ratón sobre las ramas para ver qué mutaciones están presentes).
+Hay tres aislamientos genéticamente idénticos de Zhuhai (en el sureste de China, provincia de Guangdong) que forman un grupo. Estas secuencias comparten una mutación que no se ve en ningún otro aislado (puedes pasar el puntero sobre las ramas para ver qué mutaciones están presentes).
 
 <br>
 
@@ -199,7 +199,7 @@ Estas secuencias comparten 3 mutaciones únicas.
 
 <br>
 
-Sabemos que tres de las los aislamientos de Guangdong (terminando en F025, F013, y F012) [provienen de una misma familia](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), y casi seguramente representan una transmisión de persona a persona.
+Sabemos que tres de los aislamientos de Guangdong (terminando en F025, F013, y F012) [provienen de una misma familia](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext), y casi seguramente representan una transmisión de persona a persona.
 
 <br>
 

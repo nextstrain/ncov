@@ -43,6 +43,7 @@ rule download:
             --path $(dirname {output.sequences}) \
             --fstem $(basename {output.sequences} .fasta)
         sed -i -e 's/BetaCoV[\/_ ]//g' data/ncov.fasta
+        sed -i -e 's/BetaCov[\/_ ]//g' data/ncov.fasta
         sed -i -e 's/2019-nCoV[\/_ ]//g' data/ncov.fasta
         """
 
