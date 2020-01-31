@@ -25,6 +25,7 @@ division	Ile De France	#B8BC4B
 division	Washington	#D4B13F
 division	California	#E59638
 division	Arizona	#E4672F
+division	Bavaria	#A1D99B
 division	Illinois	#DC2F24
 
 country	China	#416DCE
@@ -32,4 +33,5 @@ country	Taiwan	#59A3AA
 country	Thailand	#84BA6F
 country	Australia	#BBBC49
 country	France	#E29D39
+country	Germany	#FC9272
 country	USA	#E1502A
