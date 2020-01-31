@@ -225,123 +225,126 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
 
 除了与武汉的联系外，没有证据表明美国序列之间存在联系。 
 
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-30?d=tree)
-The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently). Otherwise, we would expect a higher number of differences between the samples.
+# [确定最近共同祖先的出现时间](https://nextstrain.org/ncov/2020-01-30?d=tree)
+这些病毒基因组的高相似度提示了他们可能来自同一个时间上较为近期的共同祖先（即他们可能最近才从同一祖先病毒传代而来）。如果上述推论不成立，我们应该在样本之间得到更多不同之处。
 
 <br>
 
-Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 1 &times; 10<sup>-3</sup> per site per year).
+冠状病毒之前的研究现实这些病毒会每个月在他们的基因组里累积一到三个序列变化 (变化率为每年每个位点 3 &times; 10<sup>-4</sup> 到 1 &times; 10<sup>-3</sup> )。
 
 <br>
 
-On the right, we explore how different assumptions about the rate of change, and the observed genetic diversity, give us estimates for the timing of the outbreak.
+为了预计病毒爆发的时间（见右方），我们做了各种病毒变化率以及核酸碱基因多样性的假设。
 
 ```auspiceMainDisplayMarkdown
-## Date of the common ancestor of outbreak viruses
-With the additional sequences shared during the past week, the tree now shows several distinct clusters such that our analysis from 2020-01-25 assuming a star-like topology is no longer appropriate.
+## 病毒共同祖先的出现时间
 
-We reproduce here our analysis based on data available up to 2020-01-25
-assuming a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
-**We found that the common ancestor most likely existed between mid-Nov and the beginning of Dec 2019. The biggest source of uncertainty is the substitution rate.**
+由于过去一周序列的增加，系统发生树已显示了几个不同的病毒基因簇。因此我们2020-01-25假设的星状系统发生树结构已不再适用。
+
+在此，我们使用截至2020年1月25日的序列，假设了星状系统发生树结构以及泊松（Poisson）分布来描述突变随机事件发生的次数，来估计病毒共同祖先的出现时间（TMRCA）。
+
+**我们发现共同祖先很可能存在于11月中旬至2019年12月初之间。不确定性的最大来源是单核苷酸取代率。**
 
 <div>
   <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
-Using the entire data set, the nextstrain analysis pipeline estimates that the common ancestor most likely existed between late-Nov and the beginning of Dec 2019.
+如果使用整个序列集，nextstrain分析估计共同祖先很可能存在于11月下旬至2019年12月初之间。
 
-There is a [confirmed case in Wuhan with onset date of Dec 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor.
-The common ancestor of viruses sequenced to date might be later than this date though.
+[武汉有一起确诊病例，发病日期为2019年12月1日](https://twitter.com/trvrb/status/1220749265380593664) - 这是共同祖先的日期的上限。
+迄今为止，病毒序列的共同祖先有可能晚于该日期。
 
-More detailed modeling of the onset of the outbreak are onging.
-Despite considerable uncertainty, our best guess is remains late November/early December.
+更详细的爆发时间分析正在进行中。
+尽管现在仍存在着一些不确定性，我们仍然猜测共同祖先的出现时间是11月下旬/ 12月上旬。
 
 ```
 
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-01-30?d=tree)
+# [增长率的预估](https://nextstrain.org/ncov/2020-01-30?d=tree)
 
-An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
+在病原传播中，一个很重要的量化数据是每个感染者平均会产生的二次感染病例。 
 
 <br>
 
-This number is known as R0 ("R-zero" or "R-nought").
-One the right, we present simple estimates of R0.
+这个数字即为R0值 (念成"R-zero"或"R-nought")。在右边，我们简单预估了一下R0值。 
 
 ```auspiceMainDisplayMarkdown
-## Estimates of epidemic growth rate
-Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 2020-01-22.
-With the additional exported cases since and the continued growth of confirmed cases in China, we currently have to expect at least 50000 cases to date.
-Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
+## 流行病增长率的评估
+伦敦帝国学院的科学研究人员使用了海外确诊病例的数字来估算[所有感染病例的数量](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/)，并预计在2020年1月22日已有几千实际感染病例。
+随着出口案件的增加以及中国确诊病例的持续增长，我们揣测目前已有50000病例。
+结合之前的对爆发时间的估计，和感染期间的一些信息，我们可以使用分支过程的模型，推得R0值的可信范围。
 
-**We find plausible estimates of R0 between 1.8 and 3.5.**
+**我们发现可信的R0值范围为 1.8 到 3.5。**
 
-If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.8 and 2.5, depending on how large ('n') the outbreak is now.
+如果我们假设爆发起始于2019年11月上旬（12星期之前），我们发现R0值将会在 1.8 到 2.5 范围内, 此范围主要取决于现在爆发有多大（'n'）。
+
 <div>
   <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early_2020-01-29.png"/>
 </div>
 
-If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 2.2 and 3.5:
+如果我们假设爆发起始于更近的2019年12月（8个星期前），R0值的预估将会在 2.2 and 3.5之间：
 <div>
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
-This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
-Importantly, R0 is a quantitity that depends strongly on the socio-economic context and infection control measures.
+
+这些估计与其他科学家的估计大致上一致，这些估计大多在R0 = 2-3之间 (例如参见此<a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">预印文章</a>。)
+重要的是R0值取决于社会经济背景和感染控制措施。
+
 ```
 
 # [Scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+我们非常感谢在这段爆发时期参与研究的所有科学家，特别是在中国的科研工作者，感谢他们提供的及时的高质量分析。
+只有快速分享基因组数据和其他信息才使得即时的数据分析成为可能。
 
 <br>
 
-The nCoV genomes were generously shared by scientists at the:
+新冠状病毒由以下单位机构和实验室慷慨分享：
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
- * Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
- * Guangdong Provincial Center for Diseases Control and Prevention
+ * 复旦大学医学院，中国上海
+ * 中国疾病预防控制中心 病毒病预防控制所，中国北京
+ * 中国医学科学院北京和谐医学院 病原生物学研究所，中国北京
+ * 中国科学院 武汉病毒研究所，中国武汉
+ * 中国疾病预防控制中心 浙江省疾病预防控制中心，中国杭州
+ * 中国疾病预防控制中心 广东省疾病预防控制中心，中国广州
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
  * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
- * Centers for Disease Control, R.O.C., Taipei, Taiwan
+ * 台湾卫生福利部疾病管制署
  * Institut Pasteur, Paris, France
+ 
 
 # [Detailed scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+以上数据结果已在[GISAID](https://gisaid.org)平台分享，我们诚心感谢他们的贡献。
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+我们在右边列出了每个实验室分享的各条序列。
 
 ```auspiceMainDisplayMarkdown
 
-The nCoV genomes were generously shared by scientists at the
+新冠状病毒的基因组序列是由以下实验室的科学家慷慨分享：
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
+ * 复旦大学医学院，中国上海
    - Wuhan-Hu-1/2019
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
+ * 中国疾病预防控制中心 病毒病预防控制所，中国北京
    - Wuhan/IVDC-HB-01/2019
    - Wuhan/IVDC-HB-04/2020
    - Wuhan/IVDC-HB-05/2019)
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
+ * 中国医学科学院北京和谐医学院 病原生物学研究所，中国北京
    - Wuhan/IPBCAMS-WH-01/2019
    - Wuhan/IPBCAMS-WH-02/2019
    - Wuhan/IPBCAMS-WH-03/2019
    - Wuhan/IPBCAMS-WH-04/2019
- * Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China
+ * 中国科学院 武汉病毒研究所，中国武汉
    - Wuhan/WIV02/2019
    - Wuhan/WIV04/2019
    - Wuhan/WIV05/2019
    - Wuhan/WIV06/2019
    - Wuhan/WIV07/2019
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
+ * 中国疾病预防控制中心 浙江省疾病预防控制中心，中国杭州
    - Zhejiang/WZ-01/2020
    - Zhejiang/WZ-02/2020
- * Guangdong Provincial Center for Diseases Control and Prevention
+ * 中国疾病预防控制中心 广东省疾病预防控制中心，中国广州
    - Guangdong/20SF001/2020
    - Guangdong/20SF012/2020
    - Guangdong/20SF013/2020
@@ -355,7 +358,6 @@ The nCoV genomes were generously shared by scientists at the
    - Foshan/20SF207/2020
    - Foshan/20SF210/2020
    - Foshan/20SF211/2020
-
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
    - Nonthaburi/61/2020
    - Nonthaburi/74/2020
@@ -365,7 +367,7 @@ The nCoV genomes were generously shared by scientists at the
    - USA/IL1/2020
    - USA/CA1/2020
    - USA/CA2/2020
- * Centers for Disease Control, R.O.C., Taipei, Taiwan
+ * 台湾卫生福利部疾病管制署
    - Taiwan/2/2020
  * Institut Pasteur, Paris, France
    - France/IDF0372/2020
