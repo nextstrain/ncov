@@ -286,7 +286,7 @@ A和B也具有其他序列不共有的独特突变（绿色圆圈），但彼此
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
 
-这些估计与其他科学家的估计大致上一致，这些估计大多在R0 = 2-3之间 (例如参见此<a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">预印文章</a>。)
+这些估计与其他科学家的估计大致上一致，大多在R0 = 2-3之间 (例如参见此<a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">预印文章</a>。)
 重要的是R0值取决于社会经济背景和感染控制措施。
 
 ```
