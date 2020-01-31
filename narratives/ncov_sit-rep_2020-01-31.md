@@ -7,6 +7,8 @@ date: "2020 January 30"
 dataset: "https://nextstrain.org/ncov/2020-01-30?d=map"
 abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
+<!-- Translators: Only text after : in the above ^ needs to be translated -->
+<!-- Comment tags like these do not need to be translated, they are only to help you! -->
 
 <!-- This is left-side text -->
 # [Executive summary](https://nextstrain.org/ncov/2020-01-30/2020-01-30)
