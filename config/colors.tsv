@@ -1,37 +1,38 @@
 location	Wuhan	#511EA8
-location	Hangzhou	#4138C3
-location	Guangdong	#3E59CF
-location	Shenzhen	#4379CD
-location	Zhuhai	#4D92BE
-location	Guangzhou	#5AA5A8
-location	Foshan	#6BB18E
-location	Kaohsiung	#7FB975
-location	Bangkok	#96BD5F
-location	Clayton	#AFBD4F
-location	Paris	#C5B945
-location	Seattle	#D8AE3E
-location	Orange County	#E39B39
-location	Los Angeles	#E67D33
-location	Phoenix	#E2572B
+location	Hangzhou	#4236C1
+location	Guangdong	#3F55CE
+location	Shenzhen	#4273CE
+location	Zhuhai	#4A8CC2
+location	Guangzhou	#569FAF
+location	Foshan	#64AD98
+location	Kaohsiung	#76B680
+location	Bangkok	#8BBB6A
+location	Clayton	#A1BE58
+location	Paris	#B7BC4B
+location	Starnberg	#CCB742
+location	Seattle	#DCAB3C
+location	Orange County	#E59638
+location	Los Angeles	#E67932
+location	Phoenix	#E1552B
 location	Chicago	#DC2F24
 
-division	Hubei	#4137C2
-division	Zhejiang	#4066CF
-division	Guangdong	#4B8DC2
-division	Taiwan	#5DA8A3
-division	Nonthaburi	#77B67F
-division	Victoria	#96BD60
-division	Ile De France	#B8BC4B
-division	Washington	#D4B13F
-division	California	#E59638
-division	Arizona	#E4672F
-division	Bavaria	#A1D99B
+division	Hubei	#462EB9
+division	Zhejiang	#3E58CF
+division	Guangdong	#4580CA
+division	Taiwan	#549DB2
+division	Nonthaburi	#69B091
+division	Victoria	#83BA70
+division	Ile De France	#A2BE57
+division	Bavaria	#C1BA47
+division	Washington	#D9AD3D
+division	California	#E69136
+division	Arizona	#E4632E
 division	Illinois	#DC2F24
 
-country	China	#416DCE
-country	Taiwan	#59A3AA
-country	Thailand	#84BA6F
-country	Australia	#BBBC49
-country	France	#E29D39
-country	Germany	#FC9272
-country	USA	#E1502A
+country	China	#3F63CF
+country	Taiwan	#529AB6
+country	Thailand	#75B681
+country	Australia	#A6BE55
+country	France	#D4B13F
+country	Germany	#E68133
+country	USA	#DC2F24
