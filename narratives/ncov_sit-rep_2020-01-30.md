@@ -13,9 +13,9 @@ abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic dat
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 42</tag> publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
+Using 42 publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
 We find:
-* the 42</tag> sampled genomes are very similar, differing from the consensus by 0-7 mutations
+* the 42 sampled genomes are very similar, differing from the consensus by 0-7 mutations
 * This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
 * This event most likely occurred in November or early December 2019.
 * There has been ongoing human-to-human spread since this point resulting in observed cases.
