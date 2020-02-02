@@ -19,7 +19,7 @@ Wir finden:
 * Diese geringe Diversität deutet darauf hin, dass der Ausbruch entweder auf eine einzige Tier zu Mensch Übertragung oder auf eine geringe Anzahl von Übertragungen sehr ähnlicher Viren zurückzuführen ist.
 * Diese Tier zu Mensch Übertragung fand höchstwahrscheinlich im November oder Anfang Dezember 2019 statt.
 * Seit diesem Zeitpunkt hat sich das Virus durch Mensch zu Mensch Übertragung ausgebreitet.
-* Aus den Schätzungen der Gesamtzahl der Fälle vom Imperial College London von mehreren zehntausend Fällen schliessen wir auf eine Reproduktionszahl zwischen 1.5 und 3.5, was auf ein schnelles Wachstum im Zeitraum von November bis Januar hindeutet.
+* Aus den Schätzungen der Gesamtzahl der Fälle vom Imperial College London von mehreren zehntausend Fällen schliessen wir auf eine Reproduktionszahl zwischen 1.8 und 3.5, was auf ein schnelles Wachstum im Zeitraum von November bis Januar hindeutet.
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-01-30)
