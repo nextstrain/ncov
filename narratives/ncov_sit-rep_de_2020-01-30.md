@@ -269,11 +269,12 @@ Hier nehmen wir eine sternförmige Phylogenie-Struktur und eine Poisson-Verteilu
   <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
-Wenn mehr Proben sequenziert worden sind, erwarten wir, dass der Baum mehr Struktur zeigt und die sternförmige Phylogenie-Topologie keine gute Annahme mehr ist.
-Ab diesem Punkt werden phylodynamische Schätzungen des Alters der Epidemie möglich.
+Mit dem gesamten Datensatz, die Zeit des gemeinsamen Vorfahren aller Sequenzen wird von der Nextstrain pipeline auf Ende November oder Anfangs Dezember geschätzt.
 
 Es gibt einen [bestätigten Fall in Wuhan vom 1. Dezember 2019](https://twitter.com/trvrb/status/1220749265380593664).
-Dies setzt eine Obergrenze für das Datum des jüngsten gemeinsamen Vorfahren und legt nahe, dass evolutionäre Raten von ~3&times;10^-4 plausibel sind.
+Der gemeinsame Vorfahre aller Sequenzen kann aber später als dieses Datum sein.
+
+Genauere Analysen sind in Arbeit.
 ```
 
 # [Schätzungen der Wachstumsrate](https://nextstrain.org/ncov/2020-01-26?d=tree)
@@ -288,20 +289,24 @@ Wir präsentieren hier einfache Schätzungen von R0.
 ```auspiceMainDisplayMarkdown
 ## Schätzung der Ausbreitungsrate
 
-Wissenschaftler des Imperial College London haben die Zahl der ausserhalb Chinas beobachteten Fälle zur Schätzung der [Gesamtzahl der Fälle](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) herangezogen und gehen davon aus, dass es bereits vor eine Woche mehrere Tausend Fälle in Wuhan gegeben hat.
+Wissenschaftler des Imperial College London haben die Zahl der ausserhalb Chinas beobachteten Fälle zur Schätzung der [Gesamtzahl der Fälle](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) herangezogen und gehen davon aus, dass es bereits vor eine Woche mehrere Tausend Fälle in Wuhan gegeben hat (per 2020-01-22).
+Mit den zusätzlichen exportieren Fällen mus bis Heute von mindestens 50000 Fällen ausgegangen werden.
 Zusammen mit unseren früheren Schätzungen des Alters des Ausbruchs und Informationen über den Infektionszeitraum können wir mit Hilfe eines Verzweigungsmodelles plausible Bereiche von R0 abschätzen.
 
-**Schätzungen von R0 deuten auf Werte zwischen 1,5 und 3,5 hin**
+**Schätzungen von R0 deuten auf Werte zwischen 1,8 und 3,5 hin**
 
-Wenn wir davon ausgehen, dass der Ausbruch Anfang November 2019 (vor 12 Wochen) begann, finden wir, dass R0 zwischen 1,5 und 2,5 liegen sollte, je nachdem, wie gross ('n') der Ausbruch zum momentanen Zeitpunkt ist.
+Wenn wir davon ausgehen, dass der Ausbruch Anfang November 2019 (vor 12 Wochen) begann, finden wir, dass R0 zwischen 1,8 und 2,5 liegen sollte, je nachdem, wie gross ('n') der Ausbruch zum momentanen Zeitpunkt ist.
 <div>
-  <img alt="Graph der R0-Schätzungen mit Epidemiebeginn vor 12 Wochen" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early.png"/>
+  <img alt="Graph der R0-Schätzungen mit Epidemiebeginn vor 12 Wochen" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early_2020-01-29.png"/>
 </div>
 
-Geht man von einem Start Anfang Dezember 2019 (vor 8 Wochen) aus, liegen die Schätzungen für R0 zwischen 1,8 und 3,5:
+Geht man von einem Start Anfang Dezember 2019 (vor 8 Wochen) aus, liegen die Schätzungen für R0 zwischen 2.2 und 3,5:
 <div>
-  <img alt="Graph der R0-Schätzungen mit Epidemiebeginn vor 8 Wochen" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent.png"/>
+  <img alt="Graph der R0-Schätzungen mit Epidemiebeginn vor 8 Wochen" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
+
+Diese Schätzungen sind weitgehen konsisten mit deren anderer Wissenschaftler, welche einen R0-Wert zwischen 2 und 3 schätzen, sehen Sie zum Beispiel <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">diese Vorveröffentlichung</a>.
+Es ist wichtig anzumerken, dass der R0-Wert stark auf den Sozioökonomischen Kontext und Bestrebungen zur Kontrolle der Ausbreitung einer Krankheit ankommen.
 
 ```
 
@@ -322,6 +327,9 @@ Die nCoV Genom-Daten wurde produziert von:
  * Guangdong Provincial Center for Diseases Control and Prevention
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
  * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
+ * Centers for Disease Control, R.O.C., Taipei, Taiwan
+* Institut Pasteur, Paris, France
+
 
 # [Herkunft der Daten](https://nextstrain.org/ncov/2020-01-26?d=map&c=author)
 
@@ -332,6 +340,8 @@ Diese Daten wurden via [GISAID](https://gisaid.org) zur Verfügung gestellt.
 Auf der rechten Seite finden Sie eine detaillierte Auflistung der Sequenzen und ihrer Urheber.
 
 ```auspiceMainDisplayMarkdown
+
+The nCoV genomes were generously shared by scientists at the
 
  * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
    - Wuhan-Hu-1/2019
@@ -354,16 +364,33 @@ Auf der rechten Seite finden Sie eine detaillierte Auflistung der Sequenzen und 
    - Zhejiang/WZ-01/2020
    - Zhejiang/WZ-02/2020
  * Guangdong Provincial Center for Diseases Control and Prevention
+   - Guangdong/20SF001/2020
    - Guangdong/20SF012/2020
    - Guangdong/20SF013/2020
    - Guangdong/20SF014/2020
    - Guangdong/20SF025/2020
    - Guangdong/20SF028/2020
    - Guangdong/20SF040/2020
+   - Guangdong/20SF174/2020
+   - Guangdong/20SF206/2020
+   - Guangdong/20SF207/2020
+   - Foshan/20SF207/2020
+   - Foshan/20SF210/2020
+   - Foshan/20SF211/2020
+
  * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
    - Nonthaburi/61/2020
    - Nonthaburi/74/2020
  * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
    - USA-WA1/2020
+   - USA/AZ1/2020
+   - USA/IL1/2020
+   - USA/CA1/2020
+   - USA/CA2/2020
+ * Centers for Disease Control, R.O.C., Taipei, Taiwan
+   - Taiwan/2/2020
+ * Institut Pasteur, Paris, France
+   - France/IDF0372/2020
+   - France/IDF0373/2020
 
 ```
