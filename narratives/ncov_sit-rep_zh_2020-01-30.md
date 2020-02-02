@@ -1,5 +1,5 @@
 ---
-title: 新型冠状病毒传播基因组分析。 状况报告2020-01-30。
+title: 新型冠状病毒传播基因组分析。 状况报告2020-01-30
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Alvin X. Han, Fengjun Zhang, Wei Ding"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
