@@ -4,11 +4,11 @@ authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Il
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 Jan 30"
-dataset: "https://nextstrain.org/ncov/2020-01-26?d=map"
+dataset: "https://nextstrain.org/ncov/2020-01-30?d=map"
 abstract: "Dieser Bericht verwendet öffentlich zugängliche Genome des neuartigen Coronavirus (nCoV) aus GISAID oder Genbank, um die Rate und das Muster der Verbreitung des Ausbruchs abzuschätzen. Wir planen, aktualisierte Lageberichte herauszugeben, sobald neue Daten verfügbar sind. Diese Website ist für Desktop-Browser optimiert und nur eingeschränkt auf mobilen Endgeräten nutzbar."
 ---
 
-# [Zusammenfassung](https://nextstrain.org/ncov/2020-01-26)
+# [Zusammenfassung](https://nextstrain.org/ncov/2020-01-30)
 
 ```auspiceMainDisplayMarkdown
 ## Zusammenfassung
@@ -17,12 +17,12 @@ Wir haben 42 öffentlich zugängliche Genome des neuartigen Coronavirus (nCoV) u
 Wir finden:
 * 42 untersuchte Genome sind sehr ähnlich und unterscheiden sich von den frühesten sequenzen durch 0-7 Mutationen.
 * Diese geringe Diversität deutet darauf hin, dass der Ausbruch entweder auf eine einzige Tier zu Mensch Übertragung oder auf eine geringe Anzahl von Übertragungen sehr ähnlicher Viren zurückzuführen ist.
-* Dieses Tier zu Mensch Übertragung war höchstwahrscheinlich im November oder Anfang Dezember 2019.
-* Seit diesem Zeitpunkt hat sich das Virus von Mensch zu Mensch übertragen.
+* Diese Tier zu Mensch Übertragung fand höchstwahrscheinlich im November oder Anfang Dezember 2019 statt.
+* Seit diesem Zeitpunkt hat sich das Virus durch Mensch zu Mensch Übertragung ausgebreitet.
 * Aus den Schätzungen der Gesamtzahl der Fälle vom Imperial College London von mehreren zehntausend Fällen schliessen wir auf eine Reproduktionszahl zwischen 1.5 und 3.5, was auf ein schnelles Wachstum im Zeitraum von November bis Januar hindeutet.
 ```
 
-# [Coronaviruses](https://nextstrain.org/ncov/2020-01-26)
+# [Coronaviruses](https://nextstrain.org/ncov/2020-01-30)
 
 ### Weiterführende Informationen:
 
@@ -71,7 +71,7 @@ Die Fähigkeit zwischen Menschen übertragen zu werden ist äusserst wichtig, um
 SARS wurde damals von der WHO als [globale Bedrohung der öffentlichen Gesundheit](https://www.who.int/whr/2007/overview/en/index1.html) eingestuft, da es sich effizient von Mensch zu Mensch übertrug und eine hohe Sterblichkeit hatte.
 ```
 
-# [Neuartiges Coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-26)
+# [Neuartiges Coronavirus (nCoV) 2019-2020](https://nextstrain.org/ncov/2020-01-30)
 
 ### Weiterführende Informationen (englisch):
 
@@ -110,7 +110,7 @@ Diese Analysen wurden durch den schnellen und offenen Austausch von genomischen 
 
 ```
 
-# [Wie interpretiert man Virus-Stammbäume](https://nextstrain.org/ncov/2020-01-26)
+# [Wie interpretiert man Virus-Stammbäume](https://nextstrain.org/ncov/2020-01-30)
 
 ### Weiterführende Informationen:
 
@@ -159,7 +159,7 @@ Andere haben Mutationen und sitzen daher am Ende von Linien oder "Ästen".
 Wenn Sie die Maus über einen der Äste halten, öffnet sich eine Infobox mit Details zu den Mutationen.
 ```
 
-# [Phylogenetische Analysen](https://nextstrain.org/ncov/2020-01-26?m=div&d=tree)
+# [Phylogenetische Analysen](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
 Zur Rechten sehen Sie eine Phylogenie von 42 nCoV-Stämmen, die öffentlich zugänglich sind.
 Informationen darüber, wie die Analyse durchgeführt wurde, finden Sie [in diesem GitHub-Repository](github.com/nextstrain/ncov).
@@ -180,7 +180,7 @@ Die Sequenzierung des Genoms eines grossen neuartigen RNA-Virus in einer Ausbruc
 Einige der in diesen Sequenzen beobachteten Unterschiede können eher auf Sequenzierungsfehler als auf tatsächliche Mutationen zurückzuführen sein.
 Einfügungen, Deletionen und Unterschiede an den Enden des Genoms sind mit grösserer Wahrscheinlichkeit Fehler und wurden deshalb in dieser Analyse weggelassen.
 
-# [Phylogenetische Interpretation](https://nextstrain.org/ncov/2020-01-26?m=div&d=tree)
+# [Phylogenetische Interpretation](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
 Die genetische Vielfalt der verfügbaren nCoV-Sequenzen ist relativ niedrig: 11</tag> von 42</tag> Sequenzen haben keine einzigartigen Mutationen.
 
@@ -209,7 +209,7 @@ Es gibt drei genetisch identische Isolate aus Zhuhai (Südostchina, Provinz Guan
 Diese beiden Fälle (welche auf 028 und 040 enden) gehören [zu einer Familie](https://twitter.com/JingLu_LuJing/status/1220143773532880896), was auf eine Übertragung von Mensch zu Mensch hindeutet.
 Wir haben keine näheren Information zum dritten Fall.
 
-# [Übertragung in Familien - 2](https://nextstrain.org/ncov/2020-01-26?m=div&d=tree&f_location=Shenzhen)
+# [Übertragung in Familien - 2](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&f_location=Shenzhen)
 
 Von den sechs Isolaten aus der Guangdong Provinz, in welched die Stadt Shenzhen ist, sehen wir vier Isolate, die genetisch identisch sind.
 Diese Sequenzen unterscheiden sich durch drei Mutationen von der Wurzel des Baumes.
@@ -225,7 +225,7 @@ Drei der Sequenzen von Guangdong, welche auf F025, F013 und F012 enden, stammen 
 Die beiden Sequenzen von Frankreich sind identisch und haben beide eine Mutation, welche auch eine Sequenz und den USA und aus Taiwan haben.
 Es ist bekannt, dass diese [beiden Fälle aus der gleichen Familie sind](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - einem Chinesischen Paar aus Wuhan
 
-# [Fälle ausserhalb Chinas](https://nextstrain.org/ncov/2020-01-26?c=country&d=tree&m=div)
+# [Fälle ausserhalb Chinas](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
 
 Aus vielen ost- und südostasiatischen Ländern, den USA, Australien und Europa werden diagnostisch bestätigte nCoV-Fälle gemeldet.
 Aus Vietnam, Japan und Deutschland wurden Fälle ohne Reisegeschichte nach Wuhan gemeldet.
@@ -243,7 +243,7 @@ Die einfachste Erklärung für die beobachteten Muster der geteilten Mutation zw
 Es gibt keinen Beweis für einen Bezug zwischen den US Sequenzen ausser den Bezug zu Wuhan
 
 
-# [Datierung des letzten gemeinsamen Vorfahren](https://nextstrain.org/ncov/2020-01-26?d=tree)
+# [Datierung des letzten gemeinsamen Vorfahren](https://nextstrain.org/ncov/2020-01-30?d=tree)
 
 Die hohe Ähnlichkeit der Genome deutet darauf hin, dass sie in der nahen Vergangenheit einen gemeinsamen Vorfahren hatten.
 Andernfalls würden wir eine höhere Anzahl von Unterschieden zwischen den Sequenzen erwarten.
@@ -277,7 +277,7 @@ Der gemeinsame Vorfahre aller Sequenzen kann aber später als dieses Datum sein.
 Genauere Analysen sind in Arbeit.
 ```
 
-# [Schätzungen der Wachstumsrate](https://nextstrain.org/ncov/2020-01-26?d=tree)
+# [Schätzungen der Wachstumsrate](https://nextstrain.org/ncov/2020-01-30?d=tree)
 
 Eine wichtige Grösse bei der Ausbreitung eines Erregers ist die durchschnittliche Anzahl von Sekundärfällen, die jede Infektion hervorruft.
 
@@ -310,7 +310,7 @@ Es ist wichtig anzumerken, dass der R0-Wert stark auf den Sozioökonomischen Kon
 
 ```
 
-# [Danksagung](https://nextstrain.org/ncov/2020-01-26?d=map&c=author)
+# [Danksagung](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
 Wir möchten uns für die beeindruckende, schnelle und transparente Arbeit aller an diesem Ausbruch beteiligten Wissenschaftler, insbesondere aber jener in China tätigen, bedanken.
 Nur durch den raschen Austausch von genomischen Daten und Metadaten sind solche Analysen möglich.
@@ -331,7 +331,7 @@ Die nCoV Genom-Daten wurde produziert von:
 * Institut Pasteur, Paris, France
 
 
-# [Herkunft der Daten](https://nextstrain.org/ncov/2020-01-26?d=map&c=author)
+# [Herkunft der Daten](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
 Diese Daten wurden via [GISAID](https://gisaid.org) zur Verfügung gestellt.
 
