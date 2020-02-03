@@ -1,41 +1,44 @@
 location	Wuhan	#511EA8
-location	Hangzhou	#4335BF
-location	Guangdong	#3F51CC
-location	Shenzhen	#416ECE
-location	Zhuhai	#4887C6
-location	Guangzhou	#529BB6
-location	Foshan	#5FA9A0
-location	Kaohsiung	#6EB389
-location	Bangkok	#81B973
-location	Singapore	#95BD61
-location	Clayton	#AABD52
-location	Paris	#BFBB48
-location	Starnberg	#D1B340
-location	Seattle	#DEA63B
-location	Orange County	#E69237
-location	Los Angeles	#E67531
-location	Phoenix	#E1522A
+location	Hangzhou	#4333BE
+location	Guangdong	#3F4ECB
+location	Shenzhen	#4169CF
+location	Zhuhai	#4682C9
+location	Guangzhou	#4F96BB
+location	Foshan	#5AA5A8
+location	Kaohsiung	#68AF92
+location	Bangkok	#78B77D
+location	Singapore	#8BBB6A
+location	Clayton	#9EBE59
+location	Paris	#B3BD4D
+location	Starnberg	#C5B945
+location	England	#D5B03F
+location	Seattle	#E0A23A
+location	Orange County	#E68D36
+location	Los Angeles	#E67231
+location	Phoenix	#E1502A
 location	Chicago	#DC2F24
 
-division	Hubei	#4B26B1
-division	Zhejiang	#3F4ACA
-division	Guangdong	#4272CE
-division	Taiwan	#4D92BF
-division	Nonthaburi	#5DA8A3
-division	Singapore	#74B583
-division	Victoria	#8EBC66
-division	Ile De France	#ACBD51
-division	Bavaria	#C8B944
-division	Washington	#DDA93C
-division	California	#E68B35
-division	Arizona	#E3602D
+division	Hubei	#511EA8
+division	Zhejiang	#403DC5
+division	Guangdong	#4063CF
+division	Taiwan	#4785C7
+division	Nonthaburi	#559EB1
+division	Singapore	#67AF94
+division	Victoria	#7EB877
+division	Ile De France	#98BD5E
+division	Bavaria	#B4BD4C
+division	England	#CDB642
+division	Washington	#DFA53B
+division	California	#E68735
+division	Arizona	#E35D2D
 division	Illinois	#DC2F24
 
-country	China	#3E58CF
-country	Taiwan	#4B8EC1
-country	Thailand	#65AE96
-country	Singapore	#8CBB69
-country	Australia	#B8BC4A
-country	France	#DCAB3C
-country	Germany	#E67932
+country	China	#3F4DCB
+country	Taiwan	#4681C9
+country	Thailand	#5AA4A8
+country	Singapore	#78B67E
+country	Australia	#9EBE5A
+country	France	#C5B945
+country	Germany	#E0A23A
+country	United Kingdom	#E67231
 country	USA	#DC2F24
