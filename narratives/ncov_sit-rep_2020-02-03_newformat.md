@@ -1,9 +1,9 @@
 ---
-title: Genomic analysis of nCoV spread. Situation report 2020-01-30.
+title: Genomic analysis of nCoV spread. Situation report 2020-02-03.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 January 30"
+date: "2020 February 03"
 dataset: "https://nextstrain.org/ncov?d=map"
 abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
@@ -14,10 +14,10 @@ abstract: "This report uses publicly shared novel coronavirus (nCoV) genomic dat
 # [Executive summary](https://nextstrain.org/ncov)
 
 <!-- It seems the ending '.' is needed or the whole slide 'breaks'... -->
-Since the last report we have updated: 
-* Discussion of the latest [German sequence](http://localhost:4000/narratives/ncov/sit-rep/2020-01-31/newformat?n=7).
-* Estimates of [TMRCA](http://localhost:4000/narratives/ncov/sit-rep/2020-01-31/newformat?n=9).
-* Estimates of [R0](http://localhost:4000/narratives/ncov/sit-rep/2020-01-31/newformat?n=10).
+Since the last report we have updated:
+* Discussion of the latest [German sequence](http://localhost:4000/narratives/ncov/sit-rep/2020-03-03/newformat?n=7).
+* Estimates of [TMRCA](http://localhost:4000/narratives/ncov/sit-rep/2020-02-03/newformat?n=9).
+* Estimates of [R0](http://localhost:4000/narratives/ncov/sit-rep/2020-02-03/newformat?n=10).
 
 _Please see the right for background links_
 
@@ -25,11 +25,11 @@ _Please see the right for background links_
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 42</tag> publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
+Using 52</tag> publicly shared novel coronavirus (nCoV) genomes, we examined genetic diversity to infer date of common ancestor and rate of spread.
 We find:
-* the 42</tag> sampled genomes are very similar, differing from the consensus by 0-7 mutations
+* the 52</tag> sampled genomes are very similar, differing from the consensus by 0-7 mutations
 * This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
-* This event most likely occurred in November or early December 2019.
+* All the sequenced cases included in this analysis likely share a common ancestor sometime between the end of November and mid December 2019.
 * There has been ongoing human-to-human spread since this point resulting in observed cases.
 * Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the November 2019-Janurary 2020 period.
 
@@ -87,8 +87,8 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 
 ## Conspiracy Theories
 
-A number of false ideas have been circulated about the origins of the novel coronavirus. 
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are likely to follow advisories and take appropriate precautions. 
+A number of false ideas have been circulated about the origins of the novel coronavirus.
+During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are likely to follow advisories and take appropriate precautions.
 
 In an effort to try and explain why these views are incorrect, we have 'debunked' these theories at the pages below:
 
@@ -137,10 +137,10 @@ We currently see little genetic diversity across the nCoV sequences, with 11</ta
 
 <br>
 
-Low genetic diversity across these sequences suggests that the most recent common ancestor of all nCoV sequences was fairly recent and was from many independant introductions from an animal reservoir.
+Low genetic diversity across these sequences suggests that the most recent common ancestor of all nCoV sequences was fairly recent and was from many independent introductions from an animal reservoir.
 <!-- since mutations accumulate slowly compared to other RNA viruses at a rate of around 1-2 mutations per month for coronaviruses.
 Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread. --> 
+The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread. -->
 
 <br>
 
@@ -160,7 +160,7 @@ There is currently no evidence that these mutations change how the virus behaves
 <!-- This is left-side text -->
 # [Large Cluster](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
-Peraps this slide would zoom in on the largest cluster, maybe with map view. 
+Peraps this slide would zoom in on the largest cluster, maybe with map view.
 
 <br>
 
@@ -198,7 +198,7 @@ Here we could say something about the latest German sequence
 
 This came from one of the 8 employees of a small company in Bavaria who were infected by a visitor from Wuhan who was not symptomatic during the visit.
 
-None of those infected have had severe symptoms, but this does provide some suggestion that the infection can be transmitted before and/or without symptoms appear. 
+None of those infected have had severe symptoms, but this does provide some suggestion that the infection can be transmitted before and/or without symptoms appear.
 
 <!-- There is NO right-side text -->
 
@@ -232,7 +232,7 @@ Otherwise, we would expect a higher number of differences between the samples.
 
 <br>
 
-Previous research on related coronavirus suggests that these viruses accumulate between 1 and 3 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 2 &times; 10<sup>-3</sup> per site per year).
+Previous research on related coronavirus suggests that these viruses accumulate between 1 and 4 changes in their genome per month (rates of 3 &times; 10<sup>-4</sup> to 2 &times; 10<sup>-3</sup> per site per year).
 
 <br>
 
@@ -253,7 +253,6 @@ Below, we estimate this tMRCA using different approaches.
 
 1) With the additional sequences shared during the past week, the tree now shows several distinct clusters such that our analysis from 2020-01-25 assuming a star-like topology is no longer appropriate.
 
-
 We reproduce here our analysis based on data available up to 2020-01-25
 assuming a star-like phylogeny structure along with a Poisson distribution of mutations through time to estimate the time of the most recent common ancestor ('TMRCA') of sequenced viruses.
 **We found that the common ancestor most likely existed between mid-November and the beginning of December 2019. The biggest source of uncertainty is the substitution rate.**
@@ -266,14 +265,14 @@ Using the entire data set, the nextstrain analysis pipeline estimates that the c
 
 2) With more and more sequences being made available publicly, we can start to estimate the rate of evolution and the tMRCA from sequence data directly.
 There, however, remains a great deal of uncertainty in these estimates and the results have to therefore be treated as very uncertain.
-[Analyzing](https://nicfel.github.io/nCov-Nicola/ExponentialCoalescent_20200130.html) this data assuming once a constant population of infected individuals and once and exponentially growing population estimates the tMRCA to be anywhere between the end of November and the middle of December.
+[Analyzing](https://nicfel.github.io/nCov-Nicola/ExponentialCoalescent_2020203.html) this data assuming once a constant population of infected individuals and once and exponentially growing population estimates the tMRCA to be anywhere between the end of November and the middle of December.
 
 <div>
-  <img alt="TMRCA estimates inferred from genetic sequence data and sampling times in BEAST" width="500" src="https://data.nextstrain.org/beast_coal-tmrca_20200130.png"/>
+  <img alt="TMRCA estimates inferred from genetic sequence data and sampling times in BEAST" width="500" src="https://data.nextstrain.org/beast_coal-tmrca_2020203.png"/>
 </div>
 
 
-More detailed modeling of the onset of the outbreak are ongoing.
+More detailed modeling of the onset of the outbreak are ongoing and with more and more sequence data being made publicly available, the quality of these estimates will improve.
 
 ```
 
@@ -294,7 +293,8 @@ One the right, we present simple estimates of R0.
 ## Estimates of epidemic growth rate
 Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 2020-01-22.
 With the additional exported cases since and the continued growth of confirmed cases in China, we currently have to expect at least 50000 cases to date.
-Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
+Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 a [standard birth-death model](https://en.wikipedia.org/wiki/Birth%E2%80%93death_process).
+However, these estimates can be sensitive to the date of the onset of the outbreak, as well as to the initial number of infected.
 
 **We find plausible estimates of R0 between 1.8 and 3.5.**
 
@@ -307,6 +307,8 @@ If we assume a more recent start, at the beginning of December 2019 (8 weeks ago
 <div>
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
+
+
 This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
 Importantly, R0 is a quantity that depends strongly on the socio-economic context and infection control measures.
 ```
