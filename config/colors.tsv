@@ -1,44 +1,47 @@
 location	Wuhan	#511EA8
-location	Hangzhou	#4333BE
-location	Guangdong	#3F4ECB
-location	Shenzhen	#4169CF
-location	Zhuhai	#4682C9
-location	Guangzhou	#4F96BB
-location	Foshan	#5AA5A8
-location	Kaohsiung	#68AF92
-location	Bangkok	#78B77D
-location	Singapore	#8BBB6A
-location	Clayton	#9EBE59
-location	Paris	#B3BD4D
-location	Starnberg	#C5B945
-location	England	#D5B03F
-location	Seattle	#E0A23A
-location	Orange County	#E68D36
-location	Los Angeles	#E67231
-location	Phoenix	#E1502A
+location	Hangzhou	#4432BD
+location	Guangdong	#3F4BCA
+location	Shenzhen	#4065CF
+location	Zhuhai	#447ECC
+location	Guangzhou	#4C91BF
+location	Foshan	#56A0AE
+location	Kaohsiung	#63AC9A
+location	Bangkok	#71B486
+location	Singapore	#81BA72
+location	Clayton	#94BD62
+location	Paris	#A7BE54
+location	Starnberg	#BABC4A
+location	England	#CBB742
+location	Rovaniemi	#D9AE3E
+location	Seattle	#E29E39
+location	Orange County	#E68935
+location	Los Angeles	#E56E30
+location	Phoenix	#E14F2A
 location	Chicago	#DC2F24
 
 division	Hubei	#511EA8
-division	Zhejiang	#403DC5
-division	Guangdong	#4063CF
-division	Taiwan	#4785C7
-division	Nonthaburi	#559EB1
-division	Singapore	#67AF94
-division	Victoria	#7EB877
-division	Ile De France	#98BD5E
-division	Bavaria	#B4BD4C
-division	England	#CDB642
-division	Washington	#DFA53B
-division	California	#E68735
-division	Arizona	#E35D2D
+division	Zhejiang	#403AC4
+division	Guangdong	#3F5ED0
+division	Taiwan	#457FCB
+division	Nonthaburi	#5098B9
+division	Singapore	#60AA9F
+division	Victoria	#73B583
+division	Ile De France	#8BBB6A
+division	Bavaria	#A4BE56
+division	England	#BDBB48
+division	Lapland	#D3B240
+division	Washington	#E19F3A
+division	California	#E68234
+division	Arizona	#E25A2C
 division	Illinois	#DC2F24
 
-country	China	#3F4DCB
-country	Taiwan	#4681C9
-country	Thailand	#5AA4A8
-country	Singapore	#78B67E
-country	Australia	#9EBE5A
-country	France	#C5B945
-country	Germany	#E0A23A
-country	United Kingdom	#E67231
+country	China	#4042C7
+country	Taiwan	#4274CE
+country	Thailand	#5199B7
+country	Singapore	#69B091
+country	Australia	#88BB6C
+country	France	#ADBD51
+country	Germany	#CEB541
+country	United Kingdom	#E39B39
+country	Finland	#E56C2F
 country	USA	#DC2F24
