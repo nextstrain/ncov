@@ -29,7 +29,7 @@ Using 52</tag> publicly shared novel coronavirus (nCoV) genomes, we examined gen
 We find:
 * the 52</tag> sampled genomes are very similar, differing from the consensus by 0-7 mutations
 * This lack of genetic diversity has a parsimonious explanation that the outbreak descends either from a single introduction into the human population or a small number of animal-to-human transmissions of very similar viruses.
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between the end of November and mid December 2019.
+* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid November and mid December 2019.
 * There has been ongoing human-to-human spread since this point resulting in observed cases.
 * Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the November 2019-Janurary 2020 period.
 
@@ -158,7 +158,7 @@ There is currently no evidence that these mutations change how the virus behaves
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Large Cluster](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
+# [Large Cluster](https://nextstrain.org/ncov/2020-02-03?m=div&d=tree)
 
 Peraps this slide would zoom in on the largest cluster, maybe with map view.
 
@@ -174,23 +174,25 @@ Three of the sequences from Guangdong (ending F025, F013, and F012) are [known t
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Entirely Exported Cluster](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
+# [Cluster comprised entirely from sequences outside of China](https://nextstrain.org/ncov/2020-02-03?m=div&d=tree)
 
-Perhaps this slide could zoom into the 5-sequence cluster of the USA, France, Taiwan, and Australian sequences.
-
-<br>
-
-We could discuss what it means that this cluster is made up only of exported cases.
+On the left, a cluster of 5 sequences consisting of isolates from the USA, France, Taiwan, and Australian is shown.
 
 <br>
 
-The two French sequences in this cluster are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
+Sequences that are sampled at the same point of an outbreak are more likely to share a recent common ancestor than sequences sampled at different points in an epidemic.
+With a lot of newer sequences originating outside of China, it is expected that clusters of sequences that are entirely comprised of sequences from outside of China are observed.
+The most parsimonious explanation to why these sequences would cluster together, is the absence of sequences from China, rather than direct transmission between them outside of China.
+In fact, the two French sequences in this cluster are [known to be from the same family](https://www.thelocal.fr/20200129/coronavirus-in-france-what-you-need-to-know) - a Chinese couple from Wuhan.
+
+<br>
+
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [New German Sequence](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree&s=Germany/BavPat1/2020)
+# [New German Sequence](https://nextstrain.org/ncov/2020-02-03?m=div&d=tree&s=Germany/BavPat1/2020)
 
 Here we could say something about the latest German sequence
 
@@ -205,7 +207,7 @@ None of those infected have had severe symptoms, but this does provide some sugg
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Cases outside China](https://nextstrain.org/ncov/2020-01-30?c=country&d=tree&m=div)
+# [Cases outside China](https://nextstrain.org/ncov/2020-02-03?c=country&d=tree&m=div)
 
 There are reported diagnostically confirmed nCoV cases in many East and South-East Asian countries, USA, Australia, the Middle East, and Europe.
 Vietnam, Japan, and Germany have reported transmission within the country, albeit always with a known link to Wuhan, China.
@@ -226,7 +228,7 @@ There is no evidence for a link between US sequences other than a link to Wuhan.
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-01-30?d=tree)
+# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-02-03?d=tree)
 The high similarity of the genomes suggests they share a recent common ancestor (i.e. that they have descended from the same ancestral virus recently).
 Otherwise, we would expect a higher number of differences between the samples.
 
@@ -279,7 +281,7 @@ More detailed modeling of the onset of the outbreak are ongoing and with more an
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-01-30?d=tree)
+# [Estimating the growth rate](https://nextstrain.org/ncov/2020-02-03?d=tree)
 
 An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
 
@@ -316,7 +318,7 @@ Importantly, R0 is a quantity that depends strongly on the socio-economic contex
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
+# [Scientific credit](https://nextstrain.org/ncov/2020-02-03?d=map&c=author)
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
@@ -340,7 +342,7 @@ The nCoV genomes were generously shared by scientists at the:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
+# [Detailed scientific credit](https://nextstrain.org/ncov/2020-02-03?d=map&c=author)
 
 These data were shared via [GISAID](https://gisaid.org).
 We gratefully acknowledge their contributions.
