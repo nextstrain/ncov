@@ -620,7 +620,7 @@
           "country": {
             "value": "China"
           },
-          "div": 2.0090782210807374,
+          "div": 1.9979652956198355,
           "division": {
             "value": "Hubei"
           },
@@ -676,7 +676,7 @@
           "country": {
             "value": "China"
           },
-          "div": 3.013693001731225,
+          "div": 2.9970186981477096,
           "division": {
             "value": "Hubei"
           },
@@ -731,7 +731,7 @@
           "country": {
             "value": "China"
           },
-          "div": 2.009188837574779,
+          "div": 1.9980712537411387,
           "division": {
             "value": "Hubei"
           },
@@ -785,7 +785,7 @@
           "country": {
             "value": "Japan"
           },
-          "div": 2.0090782210807374,
+          "div": 1.9979652956198355,
           "division": {
             "value": "Aichi"
           },
@@ -842,7 +842,7 @@
           "country": {
             "value": "China"
           },
-          "div": 2.009060710604647,
+          "div": 1.9979446973237134,
           "division": {
             "value": "Hubei"
           },
@@ -896,7 +896,7 @@
           "country": {
             "value": "China"
           },
-          "div": 2.009060710604647,
+          "div": 1.9979446973237134,
           "division": {
             "value": "Hubei"
           },
@@ -950,7 +950,7 @@
           "country": {
             "value": "China"
           },
-          "div": 2.0090782210807374,
+          "div": 1.9979652956198355,
           "division": {
             "value": "Guangdong"
           },
@@ -1005,7 +1005,7 @@
           "country": {
             "value": "China"
           },
-          "div": 2.0090939529812806,
+          "div": 1.9979806865716252,
           "division": {
             "value": "Hubei"
           },
@@ -1059,7 +1059,7 @@
           "country": {
             "value": "Germany"
           },
-          "div": 3.0136612037624637,
+          "div": 2.9969922528920248,
           "division": {
             "value": "Bavaria"
           },
@@ -1106,7 +1106,7 @@
           "country": {
             "value": "China"
           },
-          "div": 2.009083683701589,
+          "div": 1.9979678086653294,
           "division": {
             "value": "Hubei"
           },
@@ -1159,7 +1159,7 @@
           "country": {
             "value": "China"
           },
-          "div": 1.004500733057565,
+          "div": 0.9989432731281699,
           "division": {
             "value": "Hubei"
           },
@@ -1212,7 +1212,7 @@
           "country": {
             "value": "China"
           },
-          "div": 1.00453430013728,
+          "div": 0.9989770229803104,
           "division": {
             "value": "Hubei"
           },
@@ -1280,7 +1280,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 2.0090382953203774,
+              "div": 1.9979239523114902,
               "division": {
                 "value": "Guangdong"
               },
@@ -1327,7 +1327,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 2.0090382953203774,
+              "div": 1.9979239523114902,
               "division": {
                 "value": "Guangdong"
               },
@@ -1359,13 +1359,13 @@
         ],
         "name": "NODE_0000016",
         "node_attrs": {
-          "div": 1.0045129383255669,
+          "div": 0.9989555411598275,
           "num_date": {
             "confidence": [
-              2019.9715541245862,
-              2020.0434691496635
+              2019.9227052556425,
+              2019.9964359245266
             ],
-            "value": 2019.9959643562709
+            "value": 2019.959488860817
           }
         }
       },
@@ -1409,7 +1409,7 @@
               "country": {
                 "value": "Australia"
               },
-              "div": 3.0135771215334914,
+              "div": 2.9969033432331766,
               "division": {
                 "value": "Victoria"
               },
@@ -1467,7 +1467,7 @@
               "country": {
                 "value": "Taiwan"
               },
-              "div": 4.018205039468079,
+              "div": 3.9959798669444755,
               "division": {
                 "value": "Taiwan"
               },
@@ -1525,7 +1525,7 @@
                   "country": {
                     "value": "USA"
                   },
-                  "div": 2.0090273553113147,
+                  "div": 1.997913451134576,
                   "division": {
                     "value": "California"
                   },
@@ -1586,7 +1586,7 @@
                       "country": {
                         "value": "France"
                       },
-                      "div": 2.0090307895760944,
+                      "div": 1.9979165892112165,
                       "division": {
                         "value": "Ile De France"
                       },
@@ -1629,7 +1629,7 @@
                       "country": {
                         "value": "France"
                       },
-                      "div": 2.0090307895760944,
+                      "div": 1.9979165892112165,
                       "division": {
                         "value": "Ile De France"
                       },
@@ -1661,39 +1661,39 @@
                 ],
                 "name": "NODE_0000013",
                 "node_attrs": {
-                  "div": 2.0090307895760056,
+                  "div": 1.997916589211124,
                   "num_date": {
                     "confidence": [
-                      2020.0264301521827,
+                      2020.0229399333207,
                       2020.062970568104
                     ],
-                    "value": 2020.036024385029
+                    "value": 2020.0413997653286
                   }
                 }
               }
             ],
             "name": "NODE_0000003",
             "node_attrs": {
-              "div": 1.0045160809216105,
+              "div": 0.998958969710475,
               "num_date": {
                 "confidence": [
-                  2019.9702623405658,
-                  2020.0469702993644
+                  2019.9711347732255,
+                  2020.0469703008512
                 ],
-                "value": 2019.9962854015223
+                "value": 2019.9997713117843
               }
             }
           }
         ],
         "name": "NODE_0000010",
         "node_attrs": {
-          "div": 1.004516080921522,
+          "div": 0.9989589697103824,
           "num_date": {
             "confidence": [
-              2019.9831002756243,
-              2019.9992124631597
+              2019.9226644234732,
+              2019.9952059171062
             ],
-            "value": 2019.993424840462
+            "value": 2019.9588045868707
           }
         }
       },
@@ -1744,7 +1744,7 @@
               "country": {
                 "value": "USA"
               },
-              "div": 7.0322975521929045,
+              "div": 6.993393058832618,
               "division": {
                 "value": "California"
               },
@@ -1794,14 +1794,14 @@
             "name": "Korea/KCDC03/2020",
             "node_attrs": {
               "author": {
-                "author": "?",
+                "author": "Kim et al",
                 "title": "Newly discovered betacoronavirus, 2019-2020",
-                "value": "?"
+                "value": "Kim et al"
               },
               "country": {
                 "value": "South Korea"
               },
-              "div": 4.018110688851666,
+              "div": 3.995881184443756,
               "division": {
                 "value": "Gyeonggi"
               },
@@ -1825,7 +1825,7 @@
                 "value": "Korea Centers for Disease Control & Prevention (KCDC), Center for Laboratory Control of Infectious Diseases, Division of Viral Diseases, Cheongju, Korea"
               },
               "submitting_lab": {
-                "value": "Kim et al"
+                "value": "Korea Centers for Disease Control & Prevention (KCDC), Center for Laboratory Control of Infectious Diseases, Division of Viral Diseases, Cheongju, Korea"
               },
               "url": "https://www.gisaid.org"
             }
@@ -1870,7 +1870,7 @@
                   "country": {
                     "value": "United Kingdom"
                   },
-                  "div": 5.022611148132715,
+                  "div": 4.9948168847306285,
                   "division": {
                     "value": "England"
                   },
@@ -1913,7 +1913,7 @@
                   "country": {
                     "value": "United Kingdom"
                   },
-                  "div": 4.018118636617709,
+                  "div": 3.9958843924729965,
                   "division": {
                     "value": "England"
                   },
@@ -1945,13 +1945,13 @@
             ],
             "name": "NODE_0000022",
             "node_attrs": {
-              "div": 4.01811863661762,
+              "div": 3.995884392472904,
               "num_date": {
                 "confidence": [
-                  2019.9852370080746,
-                  2020.079280204693
+                  2020.0102308143107,
+                  2020.0640244287104
                 ],
-                "value": 2020.0392315153554
+                "value": 2020.0394538411633
               }
             }
           },
@@ -1974,7 +1974,7 @@
                   "country": {
                     "value": "China"
                   },
-                  "div": 2.0090539944687174,
+                  "div": 1.9979377624153154,
                   "division": {
                     "value": "Hubei"
                   },
@@ -2026,7 +2026,7 @@
                       "country": {
                         "value": "USA"
                       },
-                      "div": 3.0135669327942844,
+                      "div": 2.996893303575143,
                       "division": {
                         "value": "Washington"
                       },
@@ -2066,7 +2066,7 @@
                       "country": {
                         "value": "USA"
                       },
-                      "div": 2.0090539944688057,
+                      "div": 1.997937762415408,
                       "division": {
                         "value": "Illinois"
                       },
@@ -2101,26 +2101,26 @@
                 ],
                 "name": "NODE_0000008",
                 "node_attrs": {
-                  "div": 2.0090539944687174,
+                  "div": 1.9979377624153154,
                   "num_date": {
                     "confidence": [
-                      2019.9865210206128,
-                      2020.0437519422403
+                      2019.9831015758741,
+                      2020.037447858896
                     ],
-                    "value": 2020.005706227082
+                    "value": 2020.0015595577415
                   }
                 }
               }
             ],
             "name": "NODE_0000007",
             "node_attrs": {
-              "div": 2.009053994468629,
+              "div": 1.9979377624152228,
               "num_date": {
                 "confidence": [
-                  2019.9880162290065,
-                  2020.009095828255
+                  2019.9739152104598,
+                  2020.0136892539356
                 ],
-                "value": 2019.9933146682438
+                "value": 2019.9874809821274
               }
             }
           },
@@ -2157,7 +2157,7 @@
                   "country": {
                     "value": "USA"
                   },
-                  "div": 4.018095452808566,
+                  "div": 3.995866046018651,
                   "division": {
                     "value": "Arizona"
                   },
@@ -2208,7 +2208,7 @@
                       "country": {
                         "value": "China"
                       },
-                      "div": 3.0135669327942844,
+                      "div": 2.9968933035751424,
                       "division": {
                         "value": "Guangdong"
                       },
@@ -2256,7 +2256,7 @@
                           "country": {
                             "value": "China"
                           },
-                          "div": 3.013566932794373,
+                          "div": 2.9968933035752348,
                           "division": {
                             "value": "Guangdong"
                           },
@@ -2304,7 +2304,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 3.013566932794461,
+                              "div": 2.996893303575327,
                               "division": {
                                 "value": "Guangdong"
                               },
@@ -2347,7 +2347,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 3.013566932794461,
+                              "div": 2.996893303575327,
                               "division": {
                                 "value": "Guangdong"
                               },
@@ -2379,10 +2379,10 @@
                         ],
                         "name": "NODE_0000014",
                         "node_attrs": {
-                          "div": 3.013566932794373,
+                          "div": 2.9968933035752348,
                           "num_date": {
                             "confidence": [
-                              2020.0200501497104,
+                              2020.0156893442506,
                               2020.0355920602328
                             ],
                             "value": 2020.0355920602328
@@ -2392,52 +2392,52 @@
                     ],
                     "name": "NODE_0000012",
                     "node_attrs": {
-                      "div": 3.0135669327942844,
+                      "div": 2.9968933035751424,
                       "num_date": {
                         "confidence": [
-                          2019.989220300831,
-                          2020.0333709258095
+                          2019.962463406044,
+                          2020.0327144107544
                         ],
-                        "value": 2020.0310688062268
+                        "value": 2020.028898081725
                       }
                     }
                   }
                 ],
                 "name": "NODE_0000011",
                 "node_attrs": {
-                  "div": 3.013566932794196,
+                  "div": 2.99689330357505,
                   "num_date": {
                     "confidence": [
-                      2019.9885299913617,
-                      2020.03234644476
+                      2019.9675268806677,
+                      2020.0247258397603
                     ],
-                    "value": 2020.018984929342
+                    "value": 2020.0006542365404
                   }
                 }
               }
             ],
             "name": "NODE_0000024",
             "node_attrs": {
-              "div": 3.0135669327941077,
+              "div": 2.9968933035749576,
               "num_date": {
                 "confidence": [
-                  2019.9906233728743,
-                  2020.030506836591
+                  2019.9762156225586,
+                  2020.02178810714
                 ],
-                "value": 2020.0053405106748
+                "value": 2019.9868955827483
               }
             }
           }
         ],
         "name": "NODE_0000017",
         "node_attrs": {
-          "div": 2.0090539944685406,
+          "div": 1.9979377624151302,
           "num_date": {
             "confidence": [
-              2019.9767047538842,
-              2019.9960601609964
+              2019.940502083262,
+              2020.003244205636
             ],
-            "value": 2019.9923476705233
+            "value": 2019.9592510241532
           }
         }
       },
@@ -2474,7 +2474,7 @@
                       "country": {
                         "value": "China"
                       },
-                      "div": 1.0045007330578308,
+                      "div": 0.9989432731284474,
                       "division": {
                         "value": "Guangdong"
                       },
@@ -2517,7 +2517,7 @@
                       "country": {
                         "value": "China"
                       },
-                      "div": 3.5432748663513575e-13,
+                      "div": 3.700698331271776e-13,
                       "division": {
                         "value": "Hubei"
                       },
@@ -2549,10 +2549,10 @@
                 ],
                 "name": "NODE_0000019",
                 "node_attrs": {
-                  "div": 2.657456149763518e-13,
+                  "div": 2.775523748453832e-13,
                   "num_date": {
                     "confidence": [
-                      2019.9615628453948,
+                      2019.9609842076256,
                       2019.9856262833675
                     ],
                     "value": 2019.9856262833675
@@ -2573,22 +2573,22 @@
                         "branch_attrs": {
                           "mutations": {}
                         },
-                        "name": "Wuhan/WIV06/2019",
+                        "name": "Wuhan/IPBCAMS-WH-04/2019",
                         "node_attrs": {
                           "author": {
-                            "author": "Zhou et al",
+                            "author": "Ren et al",
                             "title": "Newly discovered betacoronavirus, 2019-2020",
-                            "value": "Zhou et al"
+                            "value": "Ren et al"
                           },
                           "country": {
                             "value": "China"
                           },
-                          "div": 4.429093582939197e-13,
+                          "div": 4.62587291408972e-13,
                           "division": {
                             "value": "Hubei"
                           },
                           "gisaid_epi_isl": {
-                            "value": "EPI_ISL_402129"
+                            "value": "EPI_ISL_403929"
                           },
                           "host": {
                             "value": "human"
@@ -2604,10 +2604,10 @@
                             "value": 2019.996577686516
                           },
                           "originating_lab": {
-                            "value": "Wuhan Jinyintan Hospital, Wuhan, China"
+                            "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
                           },
                           "submitting_lab": {
-                            "value": "Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China"
+                            "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
                           },
                           "url": "https://www.gisaid.org"
                         }
@@ -2626,7 +2626,7 @@
                           "country": {
                             "value": "Thailand"
                           },
-                          "div": 4.429093582939197e-13,
+                          "div": 4.62587291408972e-13,
                           "division": {
                             "value": "Nonthaburi"
                           },
@@ -2658,13 +2658,13 @@
                     ],
                     "name": "NODE_0000021",
                     "node_attrs": {
-                      "div": 3.5432748663513575e-13,
+                      "div": 3.700698331271776e-13,
                       "num_date": {
                         "confidence": [
-                          2019.9800840137386,
+                          2019.9792537790959,
                           2019.996577686516
                         ],
-                        "value": 2019.9866715392272
+                        "value": 2019.9860363642617
                       }
                     }
                   },
@@ -2692,7 +2692,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Hubei"
                               },
@@ -2729,7 +2729,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Hubei"
                               },
@@ -2755,13 +2755,13 @@
                         ],
                         "name": "NODE_0000025",
                         "node_attrs": {
-                          "div": 4.429093582939197e-13,
+                          "div": 4.62587291408972e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9757330751293,
+                              2019.9859371816362,
                               2020.0054757015744
                             ],
-                            "value": 2020.0005323012776
+                            "value": 2019.9998395746863
                           }
                         }
                       },
@@ -2784,7 +2784,7 @@
                               "country": {
                                 "value": "Finland"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Lapland"
                               },
@@ -2827,7 +2827,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Guangdong"
                               },
@@ -2859,52 +2859,52 @@
                         ],
                         "name": "NODE_0000026",
                         "node_attrs": {
-                          "div": 4.429093582939197e-13,
+                          "div": 4.62587291408972e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9659038719685,
+                              2019.9719024904748,
                               2020.062970568104
                             ],
-                            "value": 2019.9999407465766
+                            "value": 2019.9998056301201
                           }
                         }
                       }
                     ],
                     "name": "NODE_0000023",
                     "node_attrs": {
-                      "div": 3.5432748663513575e-13,
+                      "div": 3.700698331271776e-13,
                       "num_date": {
                         "confidence": [
-                          2019.972357064964,
-                          2019.997400276844
+                          2019.9744275820512,
+                          2020.0034308641639
                         ],
-                        "value": 2019.9863317402685
+                        "value": 2019.9867347231352
                       }
                     }
                   }
                 ],
                 "name": "NODE_0000020",
                 "node_attrs": {
-                  "div": 2.657456149763518e-13,
+                  "div": 2.775523748453832e-13,
                   "num_date": {
                     "confidence": [
-                      2019.9554036063985,
-                      2019.9953946902674
+                      2019.9529681878541,
+                      2019.9949076526345
                     ],
-                    "value": 2019.9726348815009
+                    "value": 2019.9727734639594
                   }
                 }
               }
             ],
             "name": "NODE_0000018",
             "node_attrs": {
-              "div": 1.7716374331756787e-13,
+              "div": 1.850349165635888e-13,
               "num_date": {
                 "confidence": [
-                  2019.9569109556408,
-                  2019.9830181126479
+                  2019.9577384275842,
+                  2019.9830344828665
                 ],
-                "value": 2019.9724794091387
+                "value": 2019.9728339999783
               }
             }
           },
@@ -2941,7 +2941,7 @@
                           "country": {
                             "value": "Singapore"
                           },
-                          "div": 1.0045019551887453,
+                          "div": 0.9989455132665518,
                           "division": {
                             "value": "Singapore"
                           },
@@ -2993,7 +2993,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 1.0045129383260099,
+                              "div": 0.9989555411602901,
                               "division": {
                                 "value": "Guangdong"
                               },
@@ -3036,7 +3036,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 1.0045129383260099,
+                              "div": 0.9989555411602901,
                               "division": {
                                 "value": "Guangdong"
                               },
@@ -3068,26 +3068,26 @@
                         ],
                         "name": "NODE_0000046",
                         "node_attrs": {
-                          "div": 1.0045129383259213,
+                          "div": 0.9989555411601976,
                           "num_date": {
                             "confidence": [
-                              2020.0168246853486,
+                              2020.016206128515,
                               2020.060232717317
                             ],
-                            "value": 2020.0552731268692
+                            "value": 2020.0548938029794
                           }
                         }
                       }
                     ],
                     "name": "NODE_0000029",
                     "node_attrs": {
-                      "div": 3.5432748663513575e-13,
+                      "div": 3.700698331271776e-13,
                       "num_date": {
                         "confidence": [
-                          2019.9774228551212,
-                          2020.0089248425352
+                          2019.9715249674696,
+                          2020.0058103432357
                         ],
-                        "value": 2019.9864259678511
+                        "value": 2019.9861419252388
                       }
                     }
                   },
@@ -3115,7 +3115,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Zhejiang"
                               },
@@ -3158,7 +3158,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Zhejiang"
                               },
@@ -3190,13 +3190,13 @@
                         ],
                         "name": "NODE_0000032",
                         "node_attrs": {
-                          "div": 4.429093582939197e-13,
+                          "div": 4.62587291408972e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9847178694745,
+                              2019.966562097445,
                               2020.0465434633813
                             ],
-                            "value": 2019.9928255798427
+                            "value": 2019.9926765627572
                           }
                         }
                       },
@@ -3219,7 +3219,7 @@
                               "country": {
                                 "value": "Thailand"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Nonthaburi"
                               },
@@ -3262,7 +3262,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Hubei"
                               },
@@ -3294,39 +3294,39 @@
                         ],
                         "name": "NODE_0000033",
                         "node_attrs": {
-                          "div": 4.429093582939197e-13,
+                          "div": 4.62587291408972e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9886157138187,
+                              2019.9889721434438,
                               2020.002737850787
                             ],
-                            "value": 2019.9996919593925
+                            "value": 2019.999295290735
                           }
                         }
                       }
                     ],
                     "name": "NODE_0000031",
                     "node_attrs": {
-                      "div": 3.5432748663513575e-13,
+                      "div": 3.700698331271776e-13,
                       "num_date": {
                         "confidence": [
-                          2019.9781262739616,
+                          2019.956571282277,
                           2019.9980733001373
                         ],
-                        "value": 2019.9859510478168
+                        "value": 2019.9864431600097
                       }
                     }
                   }
                 ],
                 "name": "NODE_0000028",
                 "node_attrs": {
-                  "div": 2.657456149763518e-13,
+                  "div": 2.775523748453832e-13,
                   "num_date": {
                     "confidence": [
-                      2019.9723686240807,
-                      2019.9959149159433
+                      2019.9688287206175,
+                      2019.9960440821671
                     ],
-                    "value": 2019.9859510478168
+                    "value": 2019.98598548217
                   }
                 }
               },
@@ -3358,7 +3358,7 @@
                           "country": {
                             "value": "China"
                           },
-                          "div": 1.0045129383259213,
+                          "div": 0.9989555411601976,
                           "division": {
                             "value": "Zhejiang"
                           },
@@ -3416,7 +3416,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 1.0045129383260099,
+                              "div": 0.9989555411602901,
                               "division": {
                                 "value": "Guangdong"
                               },
@@ -3464,7 +3464,7 @@
                                   "country": {
                                     "value": "China"
                                   },
-                                  "div": 1.0045129383260984,
+                                  "div": 0.9989555411603825,
                                   "division": {
                                     "value": "Guangdong"
                                   },
@@ -3507,7 +3507,7 @@
                                   "country": {
                                     "value": "China"
                                   },
-                                  "div": 1.0045129383260984,
+                                  "div": 0.9989555411603825,
                                   "division": {
                                     "value": "Guangdong"
                                   },
@@ -3539,39 +3539,39 @@
                             ],
                             "name": "NODE_0000037",
                             "node_attrs": {
-                              "div": 1.0045129383260099,
+                              "div": 0.9989555411602901,
                               "num_date": {
                                 "confidence": [
-                                  2020.0292725004733,
+                                  2020.028582419652,
                                   2020.0492813141684
                                 ],
-                                "value": 2020.0407746837502
+                                "value": 2020.0445413353036
                               }
                             }
                           }
                         ],
                         "name": "NODE_0000050",
                         "node_attrs": {
-                          "div": 1.0045129383259213,
+                          "div": 0.9989555411601976,
                           "num_date": {
                             "confidence": [
-                              2019.9697519229246,
+                              2019.9801476156706,
                               2020.0404361073836
                             ],
-                            "value": 2020.0297513918833
+                            "value": 2020.0347366884903
                           }
                         }
                       }
                     ],
                     "name": "NODE_0000035",
                     "node_attrs": {
-                      "div": 3.5432748663513575e-13,
+                      "div": 3.700698331271776e-13,
                       "num_date": {
                         "confidence": [
-                          2019.966676943864,
-                          2020.0250736090845
+                          2019.9754437599227,
+                          2020.007835398151
                         ],
-                        "value": 2019.9857216779167
+                        "value": 2019.9861945001308
                       }
                     }
                   },
@@ -3589,22 +3589,22 @@
                             "branch_attrs": {
                               "mutations": {}
                             },
-                            "name": "Wuhan/IVDC-HB-01/2019",
+                            "name": "Wuhan/WIV04/2019",
                             "node_attrs": {
                               "author": {
-                                "author": "Tan et al",
+                                "author": "Zhou et al",
                                 "title": "Newly discovered betacoronavirus, 2019-2020",
-                                "value": "Tan et al"
+                                "value": "Zhou et al"
                               },
                               "country": {
                                 "value": "China"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Hubei"
                               },
                               "gisaid_epi_isl": {
-                                "value": "EPI_ISL_402119"
+                                "value": "EPI_ISL_402124"
                               },
                               "host": {
                                 "value": "human"
@@ -3620,10 +3620,10 @@
                                 "value": 2019.996577686516
                               },
                               "originating_lab": {
-                                "value": "National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China"
+                                "value": "Wuhan Jinyintan Hospital, Wuhan, China"
                               },
                               "submitting_lab": {
-                                "value": "National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China"
+                                "value": "Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China"
                               },
                               "url": "https://www.gisaid.org"
                             }
@@ -3642,7 +3642,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Hubei"
                               },
@@ -3674,13 +3674,13 @@
                         ],
                         "name": "NODE_0000039",
                         "node_attrs": {
-                          "div": 4.429093582939197e-13,
+                          "div": 4.62587291408972e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9827421733826,
+                              2019.9838130511193,
                               2019.996577686516
                             ],
-                            "value": 2019.986459182157
+                            "value": 2019.9871304772682
                           }
                         }
                       },
@@ -3693,50 +3693,7 @@
                             "branch_attrs": {
                               "mutations": {}
                             },
-                            "name": "Wuhan/IPBCAMS-WH-04/2019",
-                            "node_attrs": {
-                              "author": {
-                                "author": "Ren et al",
-                                "title": "Newly discovered betacoronavirus, 2019-2020",
-                                "value": "Ren et al"
-                              },
-                              "country": {
-                                "value": "China"
-                              },
-                              "div": 5.314912299527036e-13,
-                              "division": {
-                                "value": "Hubei"
-                              },
-                              "gisaid_epi_isl": {
-                                "value": "EPI_ISL_403929"
-                              },
-                              "host": {
-                                "value": "human"
-                              },
-                              "location": {
-                                "value": "Wuhan"
-                              },
-                              "num_date": {
-                                "confidence": [
-                                  2019.996577686516,
-                                  2019.996577686516
-                                ],
-                                "value": 2019.996577686516
-                              },
-                              "originating_lab": {
-                                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
-                              },
-                              "submitting_lab": {
-                                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
-                              },
-                              "url": "https://www.gisaid.org"
-                            }
-                          },
-                          {
-                            "branch_attrs": {
-                              "mutations": {}
-                            },
-                            "name": "Wuhan/WIV04/2019",
+                            "name": "Wuhan/WIV06/2019",
                             "node_attrs": {
                               "author": {
                                 "author": "Zhou et al",
@@ -3746,12 +3703,12 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 5.314912299527036e-13,
+                              "div": 5.551047496907665e-13,
                               "division": {
                                 "value": "Hubei"
                               },
                               "gisaid_epi_isl": {
-                                "value": "EPI_ISL_402124"
+                                "value": "EPI_ISL_402129"
                               },
                               "host": {
                                 "value": "human"
@@ -3774,69 +3731,112 @@
                               },
                               "url": "https://www.gisaid.org"
                             }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "Wuhan/IVDC-HB-01/2019",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Tan et al",
+                                "title": "Newly discovered betacoronavirus, 2019-2020",
+                                "value": "Tan et al"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 5.551047496907665e-13,
+                              "division": {
+                                "value": "Hubei"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_402119"
+                              },
+                              "host": {
+                                "value": "human"
+                              },
+                              "location": {
+                                "value": "Wuhan"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2019.996577686516,
+                                  2019.996577686516
+                                ],
+                                "value": 2019.996577686516
+                              },
+                              "originating_lab": {
+                                "value": "National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China"
+                              },
+                              "submitting_lab": {
+                                "value": "National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China"
+                              },
+                              "url": "https://www.gisaid.org"
+                            }
                           }
                         ],
                         "name": "NODE_0000040",
                         "node_attrs": {
-                          "div": 4.429093582939197e-13,
+                          "div": 4.62587291408972e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9827421733826,
+                              2019.9838130511193,
                               2019.996577686516
                             ],
-                            "value": 2019.986459182157
+                            "value": 2019.9871304772682
                           }
                         }
                       }
                     ],
                     "name": "NODE_0000038",
                     "node_attrs": {
-                      "div": 3.5432748663513575e-13,
+                      "div": 3.700698331271776e-13,
                       "num_date": {
                         "confidence": [
-                          2019.9839689868456,
+                          2019.9686218203015,
                           2019.9935608242856
                         ],
-                        "value": 2019.9860864112277
+                        "value": 2019.9863862390089
                       }
                     }
                   }
                 ],
                 "name": "NODE_0000034",
                 "node_attrs": {
-                  "div": 2.657456149763518e-13,
+                  "div": 2.775523748453832e-13,
                   "num_date": {
                     "confidence": [
-                      2019.9639203172085,
+                      2019.9613971715473,
                       2019.9882696941875
                     ],
-                    "value": 2019.9859130315149
+                    "value": 2019.9861945001308
                   }
                 }
               }
             ],
             "name": "NODE_0000027",
             "node_attrs": {
-              "div": 1.7716374331756787e-13,
+              "div": 1.850349165635888e-13,
               "num_date": {
                 "confidence": [
-                  2019.9479886696647,
-                  2019.9870366656978
+                  2019.948965307811,
+                  2019.9871130701308
                 ],
-                "value": 2019.9589644839034
+                "value": 2019.9592244836713
               }
             }
           }
         ],
         "name": "NODE_0000015",
         "node_attrs": {
-          "div": 8.858187165878394e-14,
+          "div": 9.25174582817944e-14,
           "num_date": {
             "confidence": [
-              2019.944895641701,
-              2019.9756783030552
+              2019.9451180604135,
+              2019.9758199963617
             ],
-            "value": 2019.9588100302872
+            "value": 2019.959069830077
           }
         }
       }
@@ -3846,10 +3846,10 @@
       "div": 0,
       "num_date": {
         "confidence": [
-          2019.9442627638555,
-          2019.9518449734965
+          2019.9443888016206,
+          2019.9518900944108
         ],
-        "value": 2019.9451836717244
+        "value": 2019.9448962318233
       }
     }
   },
