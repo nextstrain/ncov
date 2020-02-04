@@ -1,47 +1,50 @@
 location	Wuhan	#511EA8
-location	Hangzhou	#4432BD
-location	Guangdong	#3F4BCA
-location	Shenzhen	#4065CF
-location	Zhuhai	#447ECC
-location	Guangzhou	#4C91BF
-location	Foshan	#56A0AE
-location	Kaohsiung	#63AC9A
-location	Bangkok	#71B486
-location	Singapore	#81BA72
-location	Clayton	#94BD62
-location	Paris	#A7BE54
-location	Starnberg	#BABC4A
-location	England	#CBB742
-location	Rovaniemi	#D9AE3E
-location	Seattle	#E29E39
-location	Orange County	#E68935
-location	Los Angeles	#E56E30
-location	Phoenix	#E14F2A
+location	Hangzhou	#4531BC
+location	Guangdong	#3F48C9
+location	Shenzhen	#3F61D0
+location	Zhuhai	#4379CD
+location	Guangzhou	#4A8CC2
+location	Foshan	#539CB4
+location	Kaohsiung	#5EA9A2
+location	Bangkok	#6BB18E
+location	Japan	#7AB77B
+location	Singapore	#8BBB6A
+location	Clayton	#9CBE5B
+location	Paris	#AFBD4F
+location	Starnberg	#C0BA47
+location	England	#CFB541
+location	Rovaniemi	#DCAB3C
+location	Seattle	#E39B39
+location	Orange County	#E68534
+location	Los Angeles	#E56B2F
+location	Phoenix	#E04D29
 location	Chicago	#DC2F24
 
 division	Hubei	#511EA8
-division	Zhejiang	#403AC4
-division	Guangdong	#3F5ED0
-division	Taiwan	#457FCB
-division	Nonthaburi	#5098B9
-division	Singapore	#60AA9F
-division	Victoria	#73B583
-division	Ile De France	#8BBB6A
-division	Bavaria	#A4BE56
-division	England	#BDBB48
-division	Lapland	#D3B240
-division	Washington	#E19F3A
-division	California	#E68234
-division	Arizona	#E25A2C
+division	Zhejiang	#4138C3
+division	Guangdong	#3E59CF
+division	Japan	#4379CD
+division	Taiwan	#4D92BE
+division	Nonthaburi	#5AA5A8
+division	Singapore	#6BB18E
+division	Victoria	#7FB975
+division	Ile De France	#96BD5F
+division	Bavaria	#AFBD4F
+division	England	#C5B945
+division	Lapland	#D8AE3E
+division	Washington	#E39B39
+division	California	#E67D33
+division	Arizona	#E2572B
 division	Illinois	#DC2F24
 
-country	China	#4042C7
-country	Taiwan	#4274CE
-country	Thailand	#5199B7
-country	Singapore	#69B091
-country	Australia	#88BB6C
-country	France	#ADBD51
-country	Germany	#CEB541
-country	United Kingdom	#E39B39
-country	Finland	#E56C2F
+country	China	#4137C2
+country	Japan	#4066CF
+country	Taiwan	#4B8DC2
+country	Thailand	#5DA8A3
+country	Singapore	#77B67F
+country	Australia	#96BD60
+country	France	#B8BC4B
+country	Germany	#D4B13F
+country	United Kingdom	#E59638
+country	Finland	#E4672F
 country	USA	#DC2F24
