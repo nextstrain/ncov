@@ -160,7 +160,7 @@ There is currently no evidence that these mutations change how the virus behaves
 <!-- This is left-side text -->
 # [Large Cluster](https://nextstrain.org/ncov/2020-02-03?m=div&d=tree)
 
-Peraps this slide would zoom in on the largest cluster, maybe with map view.
+Perhaps this slide would zoom in on the largest cluster, maybe with map view.
 
 <br>
 
@@ -247,7 +247,7 @@ The time of the most recent common ancestor (or tMRCA) of a set of sequenced cas
 This time can be as early as the time when a virus first entered the human population, but can also be substantially later as show in the figure below.
 
 <div>
-  <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://data.nextstrain.org/zoonosis.png"/>
+  <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
 </div>
 
 Using different approaches, the tMRCA can be estimated either jointly with the rate of evolution or one can fix this rate.
@@ -270,7 +270,7 @@ There, however, remains a great deal of uncertainty in these estimates and the r
 [Analyzing](https://nicfel.github.io/nCov-Nicola/ExponentialCoalescent_2020203.html) this data assuming once a constant population of infected individuals and once and exponentially growing population estimates the tMRCA to be anywhere between the end of November and the middle of December.
 
 <div>
-  <img alt="TMRCA estimates inferred from genetic sequence data and sampling times in BEAST" width="500" src="https://data.nextstrain.org/beast_coal-tmrca_2020203.png"/>
+  <img alt="TMRCA estimates inferred from genetic sequence data and sampling times in BEAST" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/beast_coal-tmrca_2020203.png"/>
 </div>
 
 
