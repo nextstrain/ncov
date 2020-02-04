@@ -107,7 +107,7 @@ In an effort to try and explain why these views are incorrect, we have 'debunked
 <!-- This is left-side text -->
 # [Phylogenetic analysis](https://nextstrain.org/ncov?m=div&d=tree)
 
-Here we present a phylogeny of 42</tag> strains of nCoV that have been publicly shared.
+Here we present a phylogeny of 52</tag> strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
@@ -133,7 +133,7 @@ Insertions, deletions, and differences at the ends of the genome are more likely
 <!-- This is left-side text -->
 # [Phylogenetic Interpretation](https://nextstrain.org/ncov?m=div&d=tree)
 
-We currently see little genetic diversity across the nCoV sequences, with 11</tag> out of 42</tag> sequences having no unique mutations.
+We currently see little genetic diversity across the nCoV sequences, with 11</tag> out of 52</tag> sequences having no unique mutations. (Where is the 11 calculated?, seems like it should be more from the divergence tree)
 
 <br>
 
@@ -267,7 +267,7 @@ Using the entire data set, the nextstrain analysis pipeline estimates that the c
 
 2) With more and more sequences being made available publicly, we can start to estimate the rate of evolution and the tMRCA from sequence data directly.
 There, however, remains a great deal of uncertainty in these estimates and the results have to therefore be treated as very uncertain.
-[Analyzing](https://nicfel.github.io/nCov-Nicola/ExponentialCoalescent_2020203.html) this data assuming once a constant population of infected individuals and once and exponentially growing population estimates the tMRCA to be anywhere between the end of November and the middle of December.
+[Analyzing](https://nicfel.github.io/nCov-Nicola/ExponentialCoalescent_2020203.html) this data assuming once a constant population of infected individuals and once and exponentially growing population estimates the tMRCA to be anywhere between the mid-November and the mid-December.
 
 <div>
   <img alt="TMRCA estimates inferred from genetic sequence data and sampling times in BEAST" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/beast_coal-tmrca_2020203.png"/>
@@ -295,8 +295,8 @@ One the right, we present simple estimates of R0.
 ## Estimates of epidemic growth rate
 Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 2020-01-22.
 With the additional exported cases since and the continued growth of confirmed cases in China, we currently have to expect at least 50000 cases to date.
-Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 a [standard birth-death model](https://en.wikipedia.org/wiki/Birth%E2%80%93death_process).
-However, these estimates can be sensitive to the date of the onset of the outbreak, as well as to the initial number of infected.
+Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 a [birth-death model](https://en.wikipedia.org/wiki/Birth%E2%80%93death_process).
+These estimates can be sensitive to, amongst other factors, the date of the onset of the outbreak, as well as to the initial number of infected and should therefore be treated with some caution.
 
 **We find plausible estimates of R0 between 1.8 and 3.5.**
 
