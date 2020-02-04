@@ -1,50 +1,53 @@
 location	Wuhan	#511EA8
-location	Hangzhou	#4531BC
-location	Guangdong	#3F48C9
-location	Shenzhen	#3F61D0
-location	Zhuhai	#4379CD
-location	Guangzhou	#4A8CC2
-location	Foshan	#539CB4
-location	Kaohsiung	#5EA9A2
-location	Bangkok	#6BB18E
-location	Japan	#7AB77B
-location	Singapore	#8BBB6A
-location	Clayton	#9CBE5B
-location	Paris	#AFBD4F
-location	Starnberg	#C0BA47
-location	England	#CFB541
-location	Rovaniemi	#DCAB3C
-location	Seattle	#E39B39
-location	Orange County	#E68534
-location	Los Angeles	#E56B2F
-location	Phoenix	#E04D29
+location	Hangzhou	#4530BB
+location	Guangdong	#3F46C8
+location	Shenzhen	#3F5ED0
+location	Zhuhai	#4375CD
+location	Guangzhou	#4988C5
+location	Foshan	#5098B9
+location	Kaohsiung	#5AA5A8
+location	Bangkok	#66AE95
+location	Aichi	#73B583
+location	Gyeonggi	#82BA71
+location	Singapore	#93BC62
+location	Clayton	#A4BE56
+location	Paris	#B5BD4C
+location	Starnberg	#C5B945
+location	England	#D3B240
+location	Rovaniemi	#DEA73B
+location	Seattle	#E59738
+location	Orange County	#E68234
+location	Los Angeles	#E4682F
+location	Phoenix	#E04C29
 location	Chicago	#DC2F24
 
 division	Hubei	#511EA8
-division	Zhejiang	#4138C3
-division	Guangdong	#3E59CF
-division	Japan	#4379CD
-division	Taiwan	#4D92BE
-division	Nonthaburi	#5AA5A8
-division	Singapore	#6BB18E
-division	Victoria	#7FB975
-division	Ile De France	#96BD5F
-division	Bavaria	#AFBD4F
-division	England	#C5B945
-division	Lapland	#D8AE3E
-division	Washington	#E39B39
-division	California	#E67D33
-division	Arizona	#E2572B
+division	Zhejiang	#4236C1
+division	Guangdong	#3F55CE
+division	Taiwan	#4273CE
+division	Nonthaburi	#4A8CC2
+division	Aichi	#569FAF
+division	Gyeonggi	#64AD98
+division	Singapore	#76B680
+division	Victoria	#8BBB6A
+division	Ile De France	#A1BE58
+division	Bavaria	#B7BC4B
+division	England	#CCB742
+division	Lapland	#DCAB3C
+division	Washington	#E59638
+division	California	#E67932
+division	Arizona	#E1552B
 division	Illinois	#DC2F24
 
-country	China	#4137C2
-country	Japan	#4066CF
-country	Taiwan	#4B8DC2
-country	Thailand	#5DA8A3
-country	Singapore	#77B67F
-country	Australia	#96BD60
-country	France	#B8BC4B
-country	Germany	#D4B13F
-country	United Kingdom	#E59638
-country	Finland	#E4672F
+country	China	#462EB9
+country	Taiwan	#3E58CF
+country	Thailand	#4580CA
+country	Japan	#549DB2
+country	South Korea	#69B091
+country	Singapore	#83BA70
+country	Australia	#A2BE57
+country	France	#C1BA47
+country	Germany	#D9AD3D
+country	United Kingdom	#E69136
+country	Finland	#E4632E
 country	USA	#DC2F24
