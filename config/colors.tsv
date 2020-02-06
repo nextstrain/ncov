@@ -1,42 +1,46 @@
 location	Wuhan	#511EA8
-location	Hangzhou	#4530BB
-location	Guangdong	#3F46C8
-location	Shenzhen	#3F5ED0
-location	Zhuhai	#4375CD
-location	Guangzhou	#4988C5
-location	Foshan	#5098B9
-location	Kaohsiung	#5AA5A8
-location	Bangkok	#66AE95
-location	Aichi	#73B583
-location	Gyeonggi	#82BA71
-location	Singapore	#93BC62
-location	Clayton	#A4BE56
-location	Paris	#B5BD4C
-location	Starnberg	#C5B945
-location	England	#D3B240
-location	Rovaniemi	#DEA73B
-location	Seattle	#E59738
-location	Orange County	#E68234
-location	Los Angeles	#E4682F
-location	Phoenix	#E04C29
+location	Hangzhou	#462EB9
+location	Guangdong	#4042C7
+location	Shenzhen	#3E58CF
+location	Zhuhai	#416DCE
+location	Guangzhou	#4580CA
+location	Foshan	#4C90C0
+location	Kaohsiung	#549DB2
+location	Bangkok	#5DA8A3
+location	Aichi	#69B091
+location	Gyeonggi	#75B681
+location	Singapore	#83BA70
+location	Gold Coast	#92BC63
+location	Sydney	#A2BE57
+location	Clayton	#B2BD4D
+location	Paris	#C1BA47
+location	Starnberg	#CEB541
+location	England	#D9AD3D
+location	Rovaniemi	#E1A03A
+location	Seattle	#E69136
+location	Orange County	#E67C32
+location	Los Angeles	#E4632E
+location	Phoenix	#E04929
 location	Chicago	#DC2F24
 
 division	Hubei	#511EA8
-division	Zhejiang	#4236C1
-division	Guangdong	#3F55CE
-division	Taiwan	#4273CE
-division	Nonthaburi	#4A8CC2
-division	Aichi	#569FAF
-division	Gyeonggi	#64AD98
-division	Singapore	#76B680
-division	Victoria	#8BBB6A
-division	Ile De France	#A1BE58
-division	Bavaria	#B7BC4B
-division	England	#CCB742
-division	Lapland	#DCAB3C
-division	Washington	#E59638
-division	California	#E67932
-division	Arizona	#E1552B
+division	Zhejiang	#4333BE
+division	Guangdong	#3F4ECB
+division	Taiwan	#4169CF
+division	Nonthaburi	#4682C9
+division	Aichi	#4F96BB
+division	Gyeonggi	#5AA5A8
+division	Singapore	#68AF92
+division	Queensland	#78B77D
+division	New South Wales	#8BBB6A
+division	Victoria	#9EBE59
+division	Ile De France	#B3BD4D
+division	Bavaria	#C5B945
+division	England	#D5B03F
+division	Lapland	#E0A23A
+division	Washington	#E68D36
+division	California	#E67231
+division	Arizona	#E1502A
 division	Illinois	#DC2F24
 
 country	China	#462EB9
