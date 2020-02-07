@@ -399,6 +399,10 @@
             "latitude": 13.803139,
             "longitude": 100.491612
           },
+          "California": {
+            "latitude": 36.357039,
+            "longitude": -119.690182
+          },
           "Chicago": {
             "latitude": 41.858966,
             "longitude": -87.637242
@@ -691,7 +695,7 @@
               "country": {
                 "value": "South Korea"
               },
-              "div": 4.010353853851195,
+              "div": 3.996641270203498,
               "division": {
                 "value": "Gyeonggi"
               },
@@ -751,7 +755,7 @@
               "country": {
                 "value": "USA"
               },
-              "div": 7.018649579408569,
+              "div": 6.994661016586529,
               "division": {
                 "value": "California"
               },
@@ -824,7 +828,7 @@
                   "country": {
                     "value": "Australia"
                   },
-                  "div": 6.015618347210564,
+                  "div": 5.995045522840697,
                   "division": {
                     "value": "Queensland"
                   },
@@ -867,7 +871,7 @@
                   "country": {
                     "value": "Australia"
                   },
-                  "div": 4.010373045763749,
+                  "div": 3.9966570459302417,
                   "division": {
                     "value": "Queensland"
                   },
@@ -899,13 +903,13 @@
             ],
             "name": "NODE_0000007",
             "node_attrs": {
-              "div": 4.010373045763677,
+              "div": 3.996657045930162,
               "num_date": {
                 "confidence": [
-                  2020.008864880447,
-                  2020.0622532056639
+                  2020.0068691924555,
+                  2020.0624555013696
                 ],
-                "value": 2020.0389033341266
+                "value": 2020.0403922272142
               }
             }
           },
@@ -932,7 +936,7 @@
                   "country": {
                     "value": "Belgium"
                   },
-                  "div": 3.007750736609941,
+                  "div": 2.9974642820951294,
                   "division": {
                     "value": "Flanders"
                   },
@@ -1001,7 +1005,7 @@
                       "country": {
                         "value": "United Kingdom"
                       },
-                      "div": 5.012902985275573,
+                      "div": 4.995758550314461,
                       "division": {
                         "value": "England"
                       },
@@ -1044,7 +1048,7 @@
                       "country": {
                         "value": "United Kingdom"
                       },
-                      "div": 4.010353982605058,
+                      "div": 3.9966396458194726,
                       "division": {
                         "value": "England"
                       },
@@ -1076,26 +1080,26 @@
                 ],
                 "name": "NODE_0000001",
                 "node_attrs": {
-                  "div": 4.010353982604986,
+                  "div": 3.9966396458193927,
                   "num_date": {
                     "confidence": [
-                      2020.0234980100865,
+                      2020.006398516551,
                       2020.0793976728269
                     ],
-                    "value": 2020.036619864024
+                    "value": 2020.0358980217381
                   }
                 }
               }
             ],
             "name": "NODE_0000000",
             "node_attrs": {
-              "div": 2.005172156605389,
+              "div": 1.9983148222357394,
               "num_date": {
                 "confidence": [
-                  2019.9807470212231,
-                  2020.011570048487
+                  2019.9854377594331,
+                  2020.0162312211369
                 ],
-                "value": 2019.993735562555
+                "value": 2019.9944813493207
               }
             }
           },
@@ -1122,12 +1126,12 @@
                       "author": {
                         "author": "Queen et al",
                         "title": "Full genome sequence of first U.S. case of nCoV-2019",
-                        "value": "Queen et al"
+                        "value": "Queen et al A"
                       },
                       "country": {
                         "value": "USA"
                       },
-                      "div": 3.0077434917246557,
+                      "div": 2.9974576744903194,
                       "division": {
                         "value": "Washington"
                       },
@@ -1157,41 +1161,41 @@
                     "branch_attrs": {
                       "mutations": {}
                     },
-                    "name": "Australia/NSW01/2020",
+                    "name": "Wuhan/WH04/2020",
                     "node_attrs": {
                       "author": {
-                        "author": "Eden et al",
+                        "author": "Chen et al",
                         "title": "Newly discovered betacoronavirus, 2019-2020",
-                        "value": "Eden et al"
+                        "value": "Chen et al A"
                       },
                       "country": {
-                        "value": "Australia"
+                        "value": "China"
                       },
-                      "div": 2.005172156605534,
+                      "div": 1.9983148222358993,
                       "division": {
-                        "value": "New South Wales"
+                        "value": "Hubei"
                       },
                       "gisaid_epi_isl": {
-                        "value": "EPI_ISL_407893"
+                        "value": "EPI_ISL_406801"
                       },
                       "host": {
                         "value": "human"
                       },
                       "location": {
-                        "value": "Sydney"
+                        "value": "Wuhan"
                       },
                       "num_date": {
                         "confidence": [
-                          2020.065708418891,
-                          2020.065708418891
+                          2020.0136892539356,
+                          2020.0136892539356
                         ],
-                        "value": 2020.065708418891
+                        "value": 2020.0136892539356
                       },
                       "originating_lab": {
-                        "value": "Centre for Infectious Diseases and Microbiology Laboratory Services, Westmead, Australia"
+                        "value": "General Hospital of Central Theater Command of People's Liberation Army of China, Wuhan, China"
                       },
                       "submitting_lab": {
-                        "value": "NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney, Westmead, Australia"
+                        "value": "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences"
                       },
                       "url": "https://www.gisaid.org"
                     }
@@ -1199,13 +1203,13 @@
                 ],
                 "name": "NODE_0000006",
                 "node_attrs": {
-                  "div": 2.0051721566054614,
+                  "div": 1.9983148222358194,
                   "num_date": {
                     "confidence": [
-                      2019.9898609459556,
-                      2020.035452729996
+                      2019.9904722496808,
+                      2020.0088971008702
                     ],
-                    "value": 2019.9937686070969
+                    "value": 2019.9944726021265
                   }
                 }
               },
@@ -1233,7 +1237,7 @@
                           "country": {
                             "value": "USA"
                           },
-                          "div": 2.005172156605606,
+                          "div": 1.9983148222359792,
                           "division": {
                             "value": "Illinois"
                           },
@@ -1269,41 +1273,41 @@
                         "branch_attrs": {
                           "mutations": {}
                         },
-                        "name": "Wuhan/WH04/2020",
+                        "name": "Australia/NSW01/2020",
                         "node_attrs": {
                           "author": {
-                            "author": "Chen et al",
+                            "author": "Eden et al",
                             "title": "Newly discovered betacoronavirus, 2019-2020",
-                            "value": "Chen et al A"
+                            "value": "Eden et al"
                           },
                           "country": {
-                            "value": "China"
+                            "value": "Australia"
                           },
-                          "div": 2.005172156605606,
+                          "div": 1.9983148222359792,
                           "division": {
-                            "value": "Hubei"
+                            "value": "New South Wales"
                           },
                           "gisaid_epi_isl": {
-                            "value": "EPI_ISL_406801"
+                            "value": "EPI_ISL_407893"
                           },
                           "host": {
                             "value": "human"
                           },
                           "location": {
-                            "value": "Wuhan"
+                            "value": "Sydney"
                           },
                           "num_date": {
                             "confidence": [
-                              2020.0136892539356,
-                              2020.0136892539356
+                              2020.065708418891,
+                              2020.065708418891
                             ],
-                            "value": 2020.0136892539356
+                            "value": 2020.065708418891
                           },
                           "originating_lab": {
-                            "value": "General Hospital of Central Theater Command of People's Liberation Army of China, Wuhan, China"
+                            "value": "Centre for Infectious Diseases and Microbiology Laboratory Services, Westmead, Australia"
                           },
                           "submitting_lab": {
-                            "value": "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences"
+                            "value": "NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney, Westmead, Australia"
                           },
                           "url": "https://www.gisaid.org"
                         }
@@ -1311,13 +1315,13 @@
                     ],
                     "name": "NODE_0000010",
                     "node_attrs": {
-                      "div": 2.005172156605534,
+                      "div": 1.9983148222358993,
                       "num_date": {
                         "confidence": [
-                          2019.9905230070246,
-                          2020.0136892539356
+                          2019.9565508549574,
+                          2020.0574948665299
                         ],
-                        "value": 2020.007095581012
+                        "value": 2020.007912114511
                       }
                     }
                   },
@@ -1344,7 +1348,7 @@
                           "country": {
                             "value": "China"
                           },
-                          "div": 3.007743491724728,
+                          "div": 2.9974576744903993,
                           "division": {
                             "value": "Guangdong"
                           },
@@ -1397,7 +1401,7 @@
                           "country": {
                             "value": "USA"
                           },
-                          "div": 4.010331781078304,
+                          "div": 3.9966201781142376,
                           "division": {
                             "value": "Arizona"
                           },
@@ -1443,7 +1447,7 @@
                           "country": {
                             "value": "China"
                           },
-                          "div": 3.007743491724728,
+                          "div": 2.9974576744903993,
                           "division": {
                             "value": "Guangdong"
                           },
@@ -1491,7 +1495,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 3.0077434917248005,
+                              "div": 2.9974576744904793,
                               "division": {
                                 "value": "Guangdong"
                               },
@@ -1534,7 +1538,7 @@
                               "country": {
                                 "value": "China"
                               },
-                              "div": 3.0077434917248005,
+                              "div": 2.9974576744904793,
                               "division": {
                                 "value": "Guangdong"
                               },
@@ -1566,10 +1570,10 @@
                         ],
                         "name": "NODE_0000011",
                         "node_attrs": {
-                          "div": 3.007743491724728,
+                          "div": 2.9974576744903993,
                           "num_date": {
                             "confidence": [
-                              2020.0263646348255,
+                              2020.033503491797,
                               2020.041067761807
                             ],
                             "value": 2020.041067761807
@@ -1579,52 +1583,52 @@
                     ],
                     "name": "NODE_0000009",
                     "node_attrs": {
-                      "div": 3.0077434917246557,
+                      "div": 2.9974576744903194,
                       "num_date": {
                         "confidence": [
-                          2020.0074618607348,
+                          2019.9816270773256,
                           2020.0355920602328
                         ],
-                        "value": 2020.033525606231
+                        "value": 2020.0351731423245
                       }
                     }
                   }
                 ],
                 "name": "NODE_0000008",
                 "node_attrs": {
-                  "div": 2.0051721566054614,
+                  "div": 1.9983148222358194,
                   "num_date": {
                     "confidence": [
-                      2019.9835616937835,
-                      2020.0035676839634
+                      2019.9886379452605,
+                      2020.0180935036706
                     ],
-                    "value": 2019.9937825358193
+                    "value": 2019.9946243868294
                   }
                 }
               }
             ],
             "name": "NODE_0000005",
             "node_attrs": {
-              "div": 2.005172156605389,
+              "div": 1.9983148222357394,
               "num_date": {
                 "confidence": [
-                  2019.9889475188668,
-                  2019.9986584238457
+                  2019.9889747362806,
+                  2019.9982214938063
                 ],
-                "value": 2019.9935274381044
+                "value": 2019.9940333461902
               }
             }
           }
         ],
         "name": "NODE_0000002",
         "node_attrs": {
-          "div": 2.0051721566053167,
+          "div": 1.9983148222356595,
           "num_date": {
             "confidence": [
-              2019.9708747885536,
-              2019.9991962500521
+              2019.9800196706212,
+              2019.9969403743457
             ],
-            "value": 2019.9934039644136
+            "value": 2019.9947209487127
           }
         }
       },
@@ -1658,7 +1662,7 @@
               "country": {
                 "value": "Japan"
               },
-              "div": 2.005198073015832,
+              "div": 1.998339538627973,
               "division": {
                 "value": "Aichi"
               },
@@ -1713,7 +1717,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 2.005198073015832,
+              "div": 1.998339538627973,
               "division": {
                 "value": "Hubei"
               },
@@ -1761,7 +1765,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 2.0052008891584325,
+              "div": 1.9983422236945823,
               "division": {
                 "value": "Hubei"
               },
@@ -1817,7 +1821,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 3.0078626886305577,
+              "div": 2.997576648977834,
               "division": {
                 "value": "Hubei"
               },
@@ -1872,7 +1876,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 2.0053113061463548,
+              "div": 1.9984509439019793,
               "division": {
                 "value": "Hubei"
               },
@@ -1926,7 +1930,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 2.0051775280325987,
+              "div": 1.9983208159228543,
               "division": {
                 "value": "Hubei"
               },
@@ -1981,7 +1985,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 2.0052261336403503,
+              "div": 1.9983679823620981,
               "division": {
                 "value": "Hubei"
               },
@@ -2038,7 +2042,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 2.0051775280325987,
+              "div": 1.9983208159228543,
               "division": {
                 "value": "Hubei"
               },
@@ -2092,7 +2096,7 @@
               "country": {
                 "value": "Germany"
               },
-              "div": 3.007837342952089,
+              "div": 2.9975491795899663,
               "division": {
                 "value": "Bavaria"
               },
@@ -2144,7 +2148,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 1.0025602568855934,
+              "div": 0.9991311594588889,
               "division": {
                 "value": "Hubei"
               },
@@ -2198,7 +2202,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 2.005198073015832,
+              "div": 1.998339538627973,
               "division": {
                 "value": "Guangdong"
               },
@@ -2251,7 +2255,7 @@
               "country": {
                 "value": "China"
               },
-              "div": 1.002591214671249,
+              "div": 0.999162702706606,
               "division": {
                 "value": "Hubei"
               },
@@ -2319,7 +2323,7 @@
                   "country": {
                     "value": "China"
                   },
-                  "div": 2.005156324689417,
+                  "div": 1.9983006087776638,
                   "division": {
                     "value": "Guangdong"
                   },
@@ -2366,7 +2370,7 @@
                   "country": {
                     "value": "China"
                   },
-                  "div": 2.005156324689417,
+                  "div": 1.9983006087776638,
                   "division": {
                     "value": "Guangdong"
                   },
@@ -2394,17 +2398,133 @@
                   },
                   "url": "https://www.gisaid.org"
                 }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF1a: A117T, I1607V"
+                  },
+                  "mutations": {
+                    "ORF1a": [
+                      "A117T",
+                      "I1607V"
+                    ],
+                    "nuc": [
+                      "G614A",
+                      "A5084G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "USA/CA4/2020",
+                    "node_attrs": {
+                      "author": {
+                        "author": "Queen et al",
+                        "title": "Newly discovered betacoronavirus, 2019-2020",
+                        "value": "Queen et al B"
+                      },
+                      "country": {
+                        "value": "USA"
+                      },
+                      "div": 2.9974859588236296,
+                      "division": {
+                        "value": "California"
+                      },
+                      "gisaid_epi_isl": {
+                        "value": "EPI_ISL_408009"
+                      },
+                      "host": {
+                        "value": "human"
+                      },
+                      "location": {
+                        "value": "California"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2020.0793976728269,
+                          2020.0793976728269
+                        ],
+                        "value": 2020.0793976728269
+                      },
+                      "originating_lab": {
+                        "value": "California Department of Public Health, Richmond CA, USA"
+                      },
+                      "submitting_lab": {
+                        "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention, Atlanta GA, USA"
+                      },
+                      "url": "https://www.gisaid.org"
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "name": "USA/CA3/2020",
+                    "node_attrs": {
+                      "author": {
+                        "author": "Queen et al",
+                        "title": "Newly discovered betacoronavirus, 2019-2020",
+                        "value": "Queen et al B"
+                      },
+                      "country": {
+                        "value": "USA"
+                      },
+                      "div": 2.9974859588236296,
+                      "division": {
+                        "value": "California"
+                      },
+                      "gisaid_epi_isl": {
+                        "value": "EPI_ISL_408008"
+                      },
+                      "host": {
+                        "value": "human"
+                      },
+                      "location": {
+                        "value": "California"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2020.0793976728269,
+                          2020.0793976728269
+                        ],
+                        "value": 2020.0793976728269
+                      },
+                      "originating_lab": {
+                        "value": "California Department of Public Health, Richmond CA, USA"
+                      },
+                      "submitting_lab": {
+                        "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention, Atlanta GA, USA"
+                      },
+                      "url": "https://www.gisaid.org"
+                    }
+                  }
+                ],
+                "name": "NODE_0000018",
+                "node_attrs": {
+                  "div": 2.9974859588235496,
+                  "num_date": {
+                    "confidence": [
+                      2020.0101681831848,
+                      2020.0759037568903
+                    ],
+                    "value": 2020.035978127954
+                  }
+                }
               }
             ],
             "name": "NODE_0000016",
             "node_attrs": {
-              "div": 1.0025713351192664,
+              "div": 0.99914285225458,
               "num_date": {
                 "confidence": [
-                  2019.9445793849086,
-                  2020.0060979358002
+                  2019.980490707908,
+                  2020.0063888784496
                 ],
-                "value": 2019.9703415661493
+                "value": 2019.9962199921772
               }
             }
           },
@@ -2448,7 +2568,7 @@
                   "country": {
                     "value": "Australia"
                   },
-                  "div": 3.007758623388917,
+                  "div": 2.99747676249774,
                   "division": {
                     "value": "Victoria"
                   },
@@ -2506,7 +2626,7 @@
                   "country": {
                     "value": "Taiwan"
                   },
-                  "div": 4.010447081712439,
+                  "div": 3.9967461447313104,
                   "division": {
                     "value": "Taiwan"
                   },
@@ -2564,7 +2684,7 @@
                       "country": {
                         "value": "USA"
                       },
-                      "div": 2.0051473612405957,
+                      "div": 1.9982944468208543,
                       "division": {
                         "value": "California"
                       },
@@ -2625,7 +2745,7 @@
                           "country": {
                             "value": "France"
                           },
-                          "div": 2.005152224010415,
+                          "div": 1.998301412540816,
                           "division": {
                             "value": "Ile De France"
                           },
@@ -2668,7 +2788,7 @@
                           "country": {
                             "value": "France"
                           },
-                          "div": 2.005152224010415,
+                          "div": 1.998301412540816,
                           "division": {
                             "value": "Ile De France"
                           },
@@ -2698,41 +2818,41 @@
                         }
                       }
                     ],
-                    "name": "NODE_0000029",
+                    "name": "NODE_0000024",
                     "node_attrs": {
-                      "div": 2.0051522240103425,
+                      "div": 1.998301412540736,
                       "num_date": {
                         "confidence": [
-                          2020.0222185887783,
+                          2020.0153612656054,
                           2020.062970568104
                         ],
-                        "value": 2020.0385026770516
+                        "value": 2020.0367426874218
                       }
                     }
                   }
                 ],
                 "name": "NODE_0000017",
                 "node_attrs": {
-                  "div": 1.002576764896521,
+                  "div": 0.9991501274838808,
                   "num_date": {
                     "confidence": [
-                      2019.9745155282628,
-                      2020.0294039703888
+                      2019.985232860815,
+                      2020.0316548604346
                     ],
-                    "value": 2019.996669952776
+                    "value": 2019.9956431625933
                   }
                 }
               }
             ],
-            "name": "NODE_0000026",
+            "name": "NODE_0000021",
             "node_attrs": {
-              "div": 1.0025767648964488,
+              "div": 0.9991501274838007,
               "num_date": {
                 "confidence": [
-                  2019.9440582771317,
-                  2020.0390292205425
+                  2019.9786228352157,
+                  2020.0036579236428
                 ],
-                "value": 2019.9692678365982
+                "value": 2019.994920710118
               }
             }
           },
@@ -2753,113 +2873,640 @@
                     "children": [
                       {
                         "branch_attrs": {
-                          "labels": {
-                            "aa": "ORF1a: L3606F"
-                          },
-                          "mutations": {
-                            "ORF1a": [
-                              "L3606F"
-                            ],
-                            "nuc": [
-                              "G11083T"
-                            ]
-                          }
+                          "mutations": {}
                         },
-                        "name": "Singapore/3/2020",
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "Wuhan/IPBCAMS-WH-02/2019",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Ren et al",
+                                "title": "Newly discovered betacoronavirus, 2019-2020",
+                                "value": "Ren et al"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 4.802161710484932e-13,
+                              "division": {
+                                "value": "Hubei"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_403931"
+                              },
+                              "host": {
+                                "value": "human"
+                              },
+                              "location": {
+                                "value": "Wuhan"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2019.996577686516,
+                                  2019.996577686516
+                                ],
+                                "value": 2019.996577686516
+                              },
+                              "originating_lab": {
+                                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
+                              },
+                              "submitting_lab": {
+                                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
+                              },
+                              "url": "https://www.gisaid.org"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "Wuhan/IPBCAMS-WH-04/2019",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Ren et al",
+                                "title": "Newly discovered betacoronavirus, 2019-2020",
+                                "value": "Ren et al"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 4.802161710484932e-13,
+                              "division": {
+                                "value": "Hubei"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_403929"
+                              },
+                              "host": {
+                                "value": "human"
+                              },
+                              "location": {
+                                "value": "Wuhan"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2019.996577686516,
+                                  2019.996577686516
+                                ],
+                                "value": 2019.996577686516
+                              },
+                              "originating_lab": {
+                                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
+                              },
+                              "submitting_lab": {
+                                "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
+                              },
+                              "url": "https://www.gisaid.org"
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000023",
                         "node_attrs": {
-                          "author": {
-                            "author": "Anderson et al",
-                            "title": "Newly discovered betacoronavirus, 2019-2020",
-                            "value": "Anderson et al"
-                          },
-                          "country": {
-                            "value": "Singapore"
-                          },
-                          "div": 1.0025767648966657,
-                          "division": {
-                            "value": "Singapore"
-                          },
-                          "gisaid_epi_isl": {
-                            "value": "EPI_ISL_407988"
-                          },
-                          "host": {
-                            "value": "human"
-                          },
-                          "location": {
-                            "value": "Singapore"
-                          },
+                          "div": 4.00180142540411e-13,
                           "num_date": {
                             "confidence": [
-                              2020.0876112251883,
-                              2020.0876112251883
+                              2019.9911292887084,
+                              2019.996577686516
                             ],
-                            "value": 2020.0876112251883
-                          },
-                          "originating_lab": {
-                            "value": "Singapore General Hospital, Singapore"
-                          },
-                          "submitting_lab": {
-                            "value": "Programme in Emerging Infectious Diseases, Duke-NUS Medical School, Signapore"
-                          },
-                          "url": "https://www.gisaid.org"
+                            "value": 2019.996577686516
+                          }
                         }
                       },
                       {
                         "branch_attrs": {
                           "mutations": {}
                         },
-                        "name": "Wuhan-Hu-1/2019",
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "Wuhan/WIV04/2019",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Zhou et al",
+                                "title": "Newly discovered betacoronavirus, 2019-2020",
+                                "value": "Zhou et al"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 4.802161710484932e-13,
+                              "division": {
+                                "value": "Hubei"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_402124"
+                              },
+                              "host": {
+                                "value": "human"
+                              },
+                              "location": {
+                                "value": "Wuhan"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2019.996577686516,
+                                  2019.996577686516
+                                ],
+                                "value": 2019.996577686516
+                              },
+                              "originating_lab": {
+                                "value": "Wuhan Jinyintan Hospital, Wuhan, China"
+                              },
+                              "submitting_lab": {
+                                "value": "Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China"
+                              },
+                              "url": "https://www.gisaid.org"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "Wuhan/IVDC-HB-01/2019",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Tan et al",
+                                "title": "Newly discovered betacoronavirus, 2019-2020",
+                                "value": "Tan et al"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 4.802161710484932e-13,
+                              "division": {
+                                "value": "Hubei"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_402119"
+                              },
+                              "host": {
+                                "value": "human"
+                              },
+                              "location": {
+                                "value": "Wuhan"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2019.996577686516,
+                                  2019.996577686516
+                                ],
+                                "value": 2019.996577686516
+                              },
+                              "originating_lab": {
+                                "value": "National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China"
+                              },
+                              "submitting_lab": {
+                                "value": "National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China"
+                              },
+                              "url": "https://www.gisaid.org"
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000025",
                         "node_attrs": {
-                          "author": {
-                            "author": "Zhang et al",
-                            "title": "Newly discovered betacoronavirus, 2019-2020",
-                            "value": "Zhang et al"
-                          },
-                          "country": {
-                            "value": "China"
-                          },
-                          "div": 3.6126396830035316e-13,
-                          "division": {
-                            "value": "Hubei"
-                          },
-                          "genbank_accession": {
-                            "value": "MN908947"
-                          },
-                          "gisaid_epi_isl": {
-                            "value": "EPI_ISL_402125"
-                          },
-                          "host": {
-                            "value": "human"
-                          },
-                          "location": {
-                            "value": "Wuhan"
-                          },
+                          "div": 4.00180142540411e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9856262833675,
-                              2019.9856262833675
+                              2019.9911292887084,
+                              2019.996577686516
                             ],
-                            "value": 2019.9856262833675
-                          },
-                          "submitting_lab": {
-                            "value": "National Institute for Communicable Disease Control and Prevention (ICDC), China CDC, Beijing, China"
-                          },
-                          "url": "https://www.gisaid.org"
+                            "value": 2019.996577686516
+                          }
                         }
                       }
                     ],
-                    "name": "NODE_0000021",
+                    "name": "NODE_0000022",
                     "node_attrs": {
-                      "div": 2.8901117464028253e-13,
+                      "div": 3.201441140323288e-13,
                       "num_date": {
                         "confidence": [
-                          2019.970315501075,
-                          2019.9856262833675
+                          2019.9612274750211,
+                          2019.9938350844884
                         ],
-                        "value": 2019.9833766060376
+                        "value": 2019.9795116151183
                       }
                     }
                   },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "Wuhan/WIV06/2019",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Zhou et al",
+                                "title": "Newly discovered betacoronavirus, 2019-2020",
+                                "value": "Zhou et al"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 4.802161710484932e-13,
+                              "division": {
+                                "value": "Hubei"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_402129"
+                              },
+                              "host": {
+                                "value": "human"
+                              },
+                              "location": {
+                                "value": "Wuhan"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2019.996577686516,
+                                  2019.996577686516
+                                ],
+                                "value": 2019.996577686516
+                              },
+                              "originating_lab": {
+                                "value": "Wuhan Jinyintan Hospital, Wuhan, China"
+                              },
+                              "submitting_lab": {
+                                "value": "Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China"
+                              },
+                              "url": "https://www.gisaid.org"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "Wuhan/WH03/2020",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Chen et al",
+                                "title": "Newly discovered betacoronavirus, 2019-2020",
+                                "value": "Chen et al A"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 4.802161710484932e-13,
+                              "division": {
+                                "value": "Hubei"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_406800"
+                              },
+                              "host": {
+                                "value": "human"
+                              },
+                              "location": {
+                                "value": "Wuhan"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2020.002737850787,
+                                  2020.002737850787
+                                ],
+                                "value": 2020.002737850787
+                              },
+                              "originating_lab": {
+                                "value": "General Hospital of Central Theater Command of People's Liberation Army of China, Wuhan, China"
+                              },
+                              "submitting_lab": {
+                                "value": "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences"
+                              },
+                              "url": "https://www.gisaid.org"
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000027",
+                        "node_attrs": {
+                          "div": 4.00180142540411e-13,
+                          "num_date": {
+                            "confidence": [
+                              2019.9888636264577,
+                              2019.996577686516
+                            ],
+                            "value": 2019.992880062605
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C583T"
+                                ]
+                              }
+                            },
+                            "name": "Zhejiang/WZ-01/2020",
+                            "node_attrs": {
+                              "author": {
+                                "author": "Chen et al",
+                                "title": "Newly discovered betacoronavirus, 2019-2020",
+                                "value": "Chen et al A"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "div": 0.9991428522549002,
+                              "division": {
+                                "value": "Zhejiang"
+                              },
+                              "gisaid_epi_isl": {
+                                "value": "EPI_ISL_404227"
+                              },
+                              "host": {
+                                "value": "human"
+                              },
+                              "location": {
+                                "value": "Hangzhou"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2020.043805612594,
+                                  2020.043805612594
+                                ],
+                                "value": 2020.043805612594
+                              },
+                              "originating_lab": {
+                                "value": "Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China"
+                              },
+                              "submitting_lab": {
+                                "value": "Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China"
+                              },
+                              "url": "https://www.gisaid.org"
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "S: H49Y"
+                              },
+                              "mutations": {
+                                "S": [
+                                  "H49Y"
+                                ],
+                                "nuc": [
+                                  "C21707T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "ORF1a: T609I"
+                                  },
+                                  "mutations": {
+                                    "ORF1a": [
+                                      "T609I"
+                                    ],
+                                    "nuc": [
+                                      "C2091T"
+                                    ]
+                                  }
+                                },
+                                "name": "USA/CA5/2020",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Queen et al",
+                                    "title": "Newly discovered betacoronavirus, 2019-2020",
+                                    "value": "Queen et al B"
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "div": 1.998300608777984,
+                                  "division": {
+                                    "value": "California"
+                                  },
+                                  "gisaid_epi_isl": {
+                                    "value": "EPI_ISL_408010"
+                                  },
+                                  "host": {
+                                    "value": "human"
+                                  },
+                                  "location": {
+                                    "value": "California"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.0793976728269,
+                                      2020.0793976728269
+                                    ],
+                                    "value": 2020.0793976728269
+                                  },
+                                  "originating_lab": {
+                                    "value": "California Department of Public Health, Richmond CA, USA"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Dieases Control and Prevention, Atlanta GA, USA"
+                                  },
+                                  "url": "https://www.gisaid.org"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "Guangdong/20SF040/2020",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Kang et al",
+                                    "title": "Newly discovered betacoronavirus, 2019-2020",
+                                    "value": "Kang et al"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.9991428522549802,
+                                  "division": {
+                                    "value": "Guangdong"
+                                  },
+                                  "gisaid_epi_isl": {
+                                    "value": "EPI_ISL_403937"
+                                  },
+                                  "host": {
+                                    "value": "human"
+                                  },
+                                  "location": {
+                                    "value": "Zhuhai"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.0492813141684,
+                                      2020.0492813141684
+                                    ],
+                                    "value": 2020.0492813141684
+                                  },
+                                  "originating_lab": {
+                                    "value": "Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
+                                  },
+                                  "url": "https://www.gisaid.org"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "Guangdong/20SF028/2020",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Kang et al",
+                                    "title": "Newly discovered betacoronavirus, 2019-2020",
+                                    "value": "Kang et al"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.9991428522549802,
+                                  "division": {
+                                    "value": "Guangdong"
+                                  },
+                                  "gisaid_epi_isl": {
+                                    "value": "EPI_ISL_403936"
+                                  },
+                                  "host": {
+                                    "value": "human"
+                                  },
+                                  "location": {
+                                    "value": "Zhuhai"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.0465434633813,
+                                      2020.0465434633813
+                                    ],
+                                    "value": 2020.0465434633813
+                                  },
+                                  "originating_lab": {
+                                    "value": "Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
+                                  },
+                                  "url": "https://www.gisaid.org"
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "Guangdong/20SF174/2020",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Kang et al",
+                                    "title": "Newly discovered betacoronavirus, 2019-2020",
+                                    "value": "Kang et al"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.9991428522549802,
+                                  "division": {
+                                    "value": "Guangdong"
+                                  },
+                                  "gisaid_epi_isl": {
+                                    "value": "EPI_ISL_406531"
+                                  },
+                                  "host": {
+                                    "value": "human"
+                                  },
+                                  "location": {
+                                    "value": "Zhuhai"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.060232717317,
+                                      2020.060232717317
+                                    ],
+                                    "value": 2020.060232717317
+                                  },
+                                  "originating_lab": {
+                                    "value": "Guangdong Provincial Institute of Public Health, Guangzhou, China"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Guangdong Provincial Center for Diseases Control and Prevention, Guangzhou, China"
+                                  },
+                                  "url": "https://www.gisaid.org"
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000054",
+                            "node_attrs": {
+                              "div": 0.9991428522549002,
+                              "num_date": {
+                                "confidence": [
+                                  2020.031532509073,
+                                  2020.0465434633813
+                                ],
+                                "value": 2020.0364334629141
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000028",
+                        "node_attrs": {
+                          "div": 4.00180142540411e-13,
+                          "num_date": {
+                            "confidence": [
+                              2019.978394326999,
+                              2020.010823496589
+                            ],
+                            "value": 2019.9945113025424
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000026",
+                    "node_attrs": {
+                      "div": 3.201441140323288e-13,
+                      "num_date": {
+                        "confidence": [
+                          2019.9637447558168,
+                          2019.9938350844884
+                        ],
+                        "value": 2019.9794904318821
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000020",
+                "node_attrs": {
+                  "div": 2.4010808552424657e-13,
+                  "num_date": {
+                    "confidence": [
+                      2019.947275801945,
+                      2019.9887558223943
+                    ],
+                    "value": 2019.965830076899
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
                   {
                     "branch_attrs": {
                       "mutations": {}
@@ -2888,7 +3535,7 @@
                               "country": {
                                 "value": "Singapore"
                               },
-                              "div": 1.0025615606883775,
+                              "div": 0.9991336068540083,
                               "division": {
                                 "value": "Singapore"
                               },
@@ -2919,441 +3566,57 @@
                           },
                           {
                             "branch_attrs": {
-                              "labels": {
-                                "aa": "M: D209H"
-                              },
-                              "mutations": {
-                                "M": [
-                                  "D209H"
-                                ],
-                                "nuc": [
-                                  "G27147C"
-                                ]
-                              }
+                              "mutations": {}
                             },
-                            "name": "Singapore/2/2020",
+                            "name": "Wuhan-Hu-1/2019",
                             "node_attrs": {
                               "author": {
-                                "author": "Anderson et al",
+                                "author": "Zhang et al",
                                 "title": "Newly discovered betacoronavirus, 2019-2020",
-                                "value": "Anderson et al"
-                              },
-                              "country": {
-                                "value": "Singapore"
-                              },
-                              "div": 1.002596477864408,
-                              "division": {
-                                "value": "Singapore"
-                              },
-                              "gisaid_epi_isl": {
-                                "value": "EPI_ISL_407987"
-                              },
-                              "host": {
-                                "value": "human"
-                              },
-                              "location": {
-                                "value": "Singapore"
-                              },
-                              "num_date": {
-                                "confidence": [
-                                  2020.0684462696784,
-                                  2020.0684462696784
-                                ],
-                                "value": 2020.0684462696784
-                              },
-                              "originating_lab": {
-                                "value": "Singapore General Hospital, Singapore"
-                              },
-                              "submitting_lab": {
-                                "value": "Programme in Emerging Infectious Diseases, Duke-NUS Medical School, Signapore"
-                              },
-                              "url": "https://www.gisaid.org"
-                            }
-                          }
-                        ],
-                        "name": "NODE_0000023",
-                        "node_attrs": {
-                          "div": 3.6126396830035316e-13,
-                          "num_date": {
-                            "confidence": [
-                              2019.9789958050565,
-                              2020.062953273479
-                            ],
-                            "value": 2019.9965545539635
-                          }
-                        }
-                      },
-                      {
-                        "branch_attrs": {
-                          "mutations": {}
-                        },
-                        "children": [
-                          {
-                            "branch_attrs": {
-                              "mutations": {
-                                "nuc": [
-                                  "T23569C"
-                                ]
-                              }
-                            },
-                            "name": "Guangdong/20SF014/2020",
-                            "node_attrs": {
-                              "author": {
-                                "author": "Kang et al",
-                                "title": "Newly discovered betacoronavirus, 2019-2020",
-                                "value": "Kang et al"
+                                "value": "Zhang et al"
                               },
                               "country": {
                                 "value": "China"
                               },
-                              "div": 1.0025602568858825,
+                              "div": 4.802161710484932e-13,
                               "division": {
-                                "value": "Guangdong"
+                                "value": "Hubei"
+                              },
+                              "genbank_accession": {
+                                "value": "MN908947"
                               },
                               "gisaid_epi_isl": {
-                                "value": "EPI_ISL_403934"
+                                "value": "EPI_ISL_402125"
                               },
                               "host": {
                                 "value": "human"
                               },
                               "location": {
-                                "value": "Shenzhen"
+                                "value": "Wuhan"
                               },
                               "num_date": {
                                 "confidence": [
-                                  2020.041067761807,
-                                  2020.041067761807
+                                  2019.9856262833675,
+                                  2019.9856262833675
                                 ],
-                                "value": 2020.041067761807
-                              },
-                              "originating_lab": {
-                                "value": "Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
+                                "value": 2019.9856262833675
                               },
                               "submitting_lab": {
-                                "value": "Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
-                              },
-                              "url": "https://www.gisaid.org"
-                            }
-                          },
-                          {
-                            "branch_attrs": {
-                              "mutations": {
-                                "nuc": [
-                                  "C583T"
-                                ]
-                              }
-                            },
-                            "name": "Zhejiang/WZ-01/2020",
-                            "node_attrs": {
-                              "author": {
-                                "author": "Chen et al",
-                                "title": "Newly discovered betacoronavirus, 2019-2020",
-                                "value": "Chen et al A"
-                              },
-                              "country": {
-                                "value": "China"
-                              },
-                              "div": 1.0025713351195555,
-                              "division": {
-                                "value": "Zhejiang"
-                              },
-                              "gisaid_epi_isl": {
-                                "value": "EPI_ISL_404227"
-                              },
-                              "host": {
-                                "value": "human"
-                              },
-                              "location": {
-                                "value": "Hangzhou"
-                              },
-                              "num_date": {
-                                "confidence": [
-                                  2020.043805612594,
-                                  2020.043805612594
-                                ],
-                                "value": 2020.043805612594
-                              },
-                              "originating_lab": {
-                                "value": "Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China"
-                              },
-                              "submitting_lab": {
-                                "value": "Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China"
+                                "value": "National Institute for Communicable Disease Control and Prevention (ICDC), China CDC, Beijing, China"
                               },
                               "url": "https://www.gisaid.org"
                             }
                           }
                         ],
-                        "name": "NODE_0000024",
+                        "name": "NODE_0000032",
                         "node_attrs": {
-                          "div": 3.6126396830035316e-13,
+                          "div": 4.00180142540411e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9815679588107,
-                              2020.0410096059902
+                              2019.9621160485135,
+                              2019.9856262833675
                             ],
-                            "value": 2019.9965737409905
-                          }
-                        }
-                      }
-                    ],
-                    "name": "NODE_0000022",
-                    "node_attrs": {
-                      "div": 2.8901117464028253e-13,
-                      "num_date": {
-                        "confidence": [
-                          2019.9672316739839,
-                          2020.0382355134311
-                        ],
-                        "value": 2019.9931657565191
-                      }
-                    }
-                  }
-                ],
-                "name": "NODE_0000020",
-                "node_attrs": {
-                  "div": 2.167583809802119e-13,
-                  "num_date": {
-                    "confidence": [
-                      2019.9549715659884,
-                      2019.9827373668315
-                    ],
-                    "value": 2019.9697965093142
-                  }
-                }
-              },
-              {
-                "branch_attrs": {
-                  "mutations": {}
-                },
-                "children": [
-                  {
-                    "branch_attrs": {
-                      "mutations": {}
-                    },
-                    "children": [
-                      {
-                        "branch_attrs": {
-                          "mutations": {}
-                        },
-                        "children": [
-                          {
-                            "branch_attrs": {
-                              "mutations": {}
-                            },
-                            "children": [
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "name": "Nonthaburi/74/2020",
-                                "node_attrs": {
-                                  "author": {
-                                    "author": "Pilailuk et al",
-                                    "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Pilailuk et al"
-                                  },
-                                  "country": {
-                                    "value": "Thailand"
-                                  },
-                                  "div": 5.057695556204945e-13,
-                                  "division": {
-                                    "value": "Nonthaburi"
-                                  },
-                                  "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_403963"
-                                  },
-                                  "host": {
-                                    "value": "human"
-                                  },
-                                  "location": {
-                                    "value": "Bangkok"
-                                  },
-                                  "num_date": {
-                                    "confidence": [
-                                      2020.0355920602328,
-                                      2020.0355920602328
-                                    ],
-                                    "value": 2020.0355920602328
-                                  },
-                                  "originating_lab": {
-                                    "value": "Bamrasnaradura Hospital, Nonthaburi, Thailand"
-                                  },
-                                  "submitting_lab": {
-                                    "value": "Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand"
-                                  },
-                                  "url": "https://www.gisaid.org"
-                                }
-                              },
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "name": "Zhejiang/WZ-02/2020",
-                                "node_attrs": {
-                                  "author": {
-                                    "author": "Zhang et al",
-                                    "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Zhang et al"
-                                  },
-                                  "country": {
-                                    "value": "China"
-                                  },
-                                  "div": 5.057695556204945e-13,
-                                  "division": {
-                                    "value": "Zhejiang"
-                                  },
-                                  "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_404228"
-                                  },
-                                  "host": {
-                                    "value": "human"
-                                  },
-                                  "location": {
-                                    "value": "Hangzhou"
-                                  },
-                                  "num_date": {
-                                    "confidence": [
-                                      2020.0465434633813,
-                                      2020.0465434633813
-                                    ],
-                                    "value": 2020.0465434633813
-                                  },
-                                  "originating_lab": {
-                                    "value": "Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China"
-                                  },
-                                  "submitting_lab": {
-                                    "value": "Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China"
-                                  },
-                                  "url": "https://www.gisaid.org"
-                                }
-                              }
-                            ],
-                            "name": "NODE_0000030",
-                            "node_attrs": {
-                              "div": 4.335167619604238e-13,
-                              "num_date": {
-                                "confidence": [
-                                  2019.9977993197815,
-                                  2020.0355920602328
-                                ],
-                                "value": 2020.0355920602328
-                              }
-                            }
-                          },
-                          {
-                            "branch_attrs": {
-                              "mutations": {}
-                            },
-                            "children": [
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "name": "Zhejiang/Hangzhou-1/2020",
-                                "node_attrs": {
-                                  "author": {
-                                    "author": "Hua et al",
-                                    "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Hua et al"
-                                  },
-                                  "country": {
-                                    "value": "China"
-                                  },
-                                  "div": 5.057695556204945e-13,
-                                  "division": {
-                                    "value": "Zhejiang"
-                                  },
-                                  "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_406970"
-                                  },
-                                  "host": {
-                                    "value": "human"
-                                  },
-                                  "location": {
-                                    "value": "Hangzhou"
-                                  },
-                                  "num_date": {
-                                    "confidence": [
-                                      2020.0547570157426,
-                                      2020.0547570157426
-                                    ],
-                                    "value": 2020.0547570157426
-                                  },
-                                  "originating_lab": {
-                                    "value": "Hangzhou Center for Disease and Control Microbiology Lab, Zhejiang, China"
-                                  },
-                                  "submitting_lab": {
-                                    "value": "Hangzhou Center for Disease and Control Microbiology Lab, Zhejiang, China"
-                                  },
-                                  "url": "https://www.gisaid.org"
-                                }
-                              },
-                              {
-                                "branch_attrs": {
-                                  "mutations": {}
-                                },
-                                "name": "Nonthaburi/61/2020",
-                                "node_attrs": {
-                                  "author": {
-                                    "author": "Pilailuk et al",
-                                    "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Pilailuk et al"
-                                  },
-                                  "country": {
-                                    "value": "Thailand"
-                                  },
-                                  "div": 5.057695556204945e-13,
-                                  "division": {
-                                    "value": "Nonthaburi"
-                                  },
-                                  "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_403962"
-                                  },
-                                  "host": {
-                                    "value": "human"
-                                  },
-                                  "location": {
-                                    "value": "Bangkok"
-                                  },
-                                  "num_date": {
-                                    "confidence": [
-                                      2020.021902806297,
-                                      2020.021902806297
-                                    ],
-                                    "value": 2020.021902806297
-                                  },
-                                  "originating_lab": {
-                                    "value": "Bamrasnaradura Hospital, Nonthaburi, Thailand"
-                                  },
-                                  "submitting_lab": {
-                                    "value": "Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand"
-                                  },
-                                  "url": "https://www.gisaid.org"
-                                }
-                              }
-                            ],
-                            "name": "NODE_0000031",
-                            "node_attrs": {
-                              "div": 4.335167619604238e-13,
-                              "num_date": {
-                                "confidence": [
-                                  2019.9783263422237,
-                                  2020.021902806297
-                                ],
-                                "value": 2020.0103278836023
-                              }
-                            }
-                          }
-                        ],
-                        "name": "NODE_0000028",
-                        "node_attrs": {
-                          "div": 3.6126396830035316e-13,
-                          "num_date": {
-                            "confidence": [
-                              2019.980690534628,
-                              2020.0158699480555
-                            ],
-                            "value": 2019.996992998844
+                            "value": 2019.9798565691694
                           }
                         }
                       },
@@ -3381,7 +3644,7 @@
                                   "country": {
                                     "value": "China"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 5.602521995565755e-13,
                                   "division": {
                                     "value": "Hubei"
                                   },
@@ -3418,7 +3681,7 @@
                                   "country": {
                                     "value": "China"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 5.602521995565755e-13,
                                   "division": {
                                     "value": "Hubei"
                                   },
@@ -3442,15 +3705,15 @@
                                 }
                               }
                             ],
-                            "name": "NODE_0000033",
+                            "name": "NODE_0000034",
                             "node_attrs": {
-                              "div": 4.335167619604238e-13,
+                              "div": 4.802161710484932e-13,
                               "num_date": {
                                 "confidence": [
-                                  2019.9930759314072,
+                                  2019.96307695611,
                                   2020.0054757015744
                                 ],
-                                "value": 2019.9966703679258
+                                "value": 2019.9934268952738
                               }
                             }
                           },
@@ -3473,7 +3736,7 @@
                                   "country": {
                                     "value": "Finland"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 5.602521995565755e-13,
                                   "division": {
                                     "value": "Lapland"
                                   },
@@ -3516,7 +3779,7 @@
                                   "country": {
                                     "value": "China"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 5.602521995565755e-13,
                                   "division": {
                                     "value": "Guangdong"
                                   },
@@ -3546,41 +3809,41 @@
                                 }
                               }
                             ],
-                            "name": "NODE_0000034",
+                            "name": "NODE_0000035",
                             "node_attrs": {
-                              "div": 4.335167619604238e-13,
+                              "div": 4.802161710484932e-13,
                               "num_date": {
                                 "confidence": [
-                                  2019.9600850671934,
+                                  2019.9535350360097,
                                   2020.062970568104
                                 ],
-                                "value": 2019.9971561645352
+                                "value": 2019.9933440291481
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000032",
+                        "name": "NODE_0000033",
                         "node_attrs": {
-                          "div": 3.6126396830035316e-13,
+                          "div": 4.00180142540411e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9807583936563,
+                              2019.9578718424862,
                               2020.0045615008985
                             ],
-                            "value": 2019.9965415031702
+                            "value": 2019.9796122342698
                           }
                         }
                       }
                     ],
-                    "name": "NODE_0000027",
+                    "name": "NODE_0000031",
                     "node_attrs": {
-                      "div": 2.8901117464028253e-13,
+                      "div": 3.201441140323288e-13,
                       "num_date": {
                         "confidence": [
-                          2019.9721312259296,
-                          2019.9975484173601
+                          2019.9629867554559,
+                          2019.9828196009091
                         ],
-                        "value": 2019.9928417581325
+                        "value": 2019.979486541156
                       }
                     }
                   },
@@ -3603,41 +3866,41 @@
                                 "branch_attrs": {
                                   "mutations": {}
                                 },
-                                "name": "Wuhan/IVDC-HB-01/2019",
+                                "name": "Zhejiang/Hangzhou-1/2020",
                                 "node_attrs": {
                                   "author": {
-                                    "author": "Tan et al",
+                                    "author": "Hua et al",
                                     "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Tan et al"
+                                    "value": "Hua et al"
                                   },
                                   "country": {
                                     "value": "China"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 5.602521995565755e-13,
                                   "division": {
-                                    "value": "Hubei"
+                                    "value": "Zhejiang"
                                   },
                                   "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_402119"
+                                    "value": "EPI_ISL_406970"
                                   },
                                   "host": {
                                     "value": "human"
                                   },
                                   "location": {
-                                    "value": "Wuhan"
+                                    "value": "Hangzhou"
                                   },
                                   "num_date": {
                                     "confidence": [
-                                      2019.996577686516,
-                                      2019.996577686516
+                                      2020.0547570157426,
+                                      2020.0547570157426
                                     ],
-                                    "value": 2019.996577686516
+                                    "value": 2020.0547570157426
                                   },
                                   "originating_lab": {
-                                    "value": "National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China"
+                                    "value": "Hangzhou Center for Disease and Control Microbiology Lab, Zhejiang, China"
                                   },
                                   "submitting_lab": {
-                                    "value": "National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China"
+                                    "value": "Hangzhou Center for Disease and Control Microbiology Lab, Zhejiang, China"
                                   },
                                   "url": "https://www.gisaid.org"
                                 }
@@ -3646,55 +3909,55 @@
                                 "branch_attrs": {
                                   "mutations": {}
                                 },
-                                "name": "Wuhan/IPBCAMS-WH-04/2019",
+                                "name": "Nonthaburi/61/2020",
                                 "node_attrs": {
                                   "author": {
-                                    "author": "Ren et al",
+                                    "author": "Pilailuk et al",
                                     "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Ren et al"
+                                    "value": "Pilailuk et al"
                                   },
                                   "country": {
-                                    "value": "China"
+                                    "value": "Thailand"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 5.602521995565755e-13,
                                   "division": {
-                                    "value": "Hubei"
+                                    "value": "Nonthaburi"
                                   },
                                   "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_403929"
+                                    "value": "EPI_ISL_403962"
                                   },
                                   "host": {
                                     "value": "human"
                                   },
                                   "location": {
-                                    "value": "Wuhan"
+                                    "value": "Bangkok"
                                   },
                                   "num_date": {
                                     "confidence": [
-                                      2019.996577686516,
-                                      2019.996577686516
+                                      2020.021902806297,
+                                      2020.021902806297
                                     ],
-                                    "value": 2019.996577686516
+                                    "value": 2020.021902806297
                                   },
                                   "originating_lab": {
-                                    "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
+                                    "value": "Bamrasnaradura Hospital, Nonthaburi, Thailand"
                                   },
                                   "submitting_lab": {
-                                    "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
+                                    "value": "Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand"
                                   },
                                   "url": "https://www.gisaid.org"
                                 }
                               }
                             ],
-                            "name": "NODE_0000037",
+                            "name": "NODE_0000038",
                             "node_attrs": {
-                              "div": 4.335167619604238e-13,
+                              "div": 4.802161710484932e-13,
                               "num_date": {
                                 "confidence": [
-                                  2019.9682337400566,
-                                  2019.996577686516
+                                  2019.986921899652,
+                                  2020.021902806297
                                 ],
-                                "value": 2019.9834944591883
+                                "value": 2019.993283663864
                               }
                             }
                           },
@@ -3705,113 +3968,133 @@
                             "children": [
                               {
                                 "branch_attrs": {
-                                  "mutations": {}
+                                  "labels": {
+                                    "aa": "ORF1a: L3606F"
+                                  },
+                                  "mutations": {
+                                    "ORF1a": [
+                                      "L3606F"
+                                    ],
+                                    "nuc": [
+                                      "G11083T"
+                                    ]
+                                  }
                                 },
-                                "name": "Wuhan/WIV04/2019",
+                                "name": "Singapore/3/2020",
                                 "node_attrs": {
                                   "author": {
-                                    "author": "Zhou et al",
+                                    "author": "Anderson et al",
                                     "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Zhou et al"
+                                    "value": "Anderson et al"
                                   },
                                   "country": {
-                                    "value": "China"
+                                    "value": "Singapore"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 0.9991501274842008,
                                   "division": {
-                                    "value": "Hubei"
+                                    "value": "Singapore"
                                   },
                                   "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_402124"
+                                    "value": "EPI_ISL_407988"
                                   },
                                   "host": {
                                     "value": "human"
                                   },
                                   "location": {
-                                    "value": "Wuhan"
+                                    "value": "Singapore"
                                   },
                                   "num_date": {
                                     "confidence": [
-                                      2019.996577686516,
-                                      2019.996577686516
+                                      2020.0876112251883,
+                                      2020.0876112251883
                                     ],
-                                    "value": 2019.996577686516
+                                    "value": 2020.0876112251883
                                   },
                                   "originating_lab": {
-                                    "value": "Wuhan Jinyintan Hospital, Wuhan, China"
+                                    "value": "Singapore General Hospital, Singapore"
                                   },
                                   "submitting_lab": {
-                                    "value": "Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China"
+                                    "value": "Programme in Emerging Infectious Diseases, Duke-NUS Medical School, Signapore"
                                   },
                                   "url": "https://www.gisaid.org"
                                 }
                               },
                               {
                                 "branch_attrs": {
-                                  "mutations": {}
+                                  "labels": {
+                                    "aa": "M: D209H"
+                                  },
+                                  "mutations": {
+                                    "M": [
+                                      "D209H"
+                                    ],
+                                    "nuc": [
+                                      "G27147C"
+                                    ]
+                                  }
                                 },
-                                "name": "Wuhan/IPBCAMS-WH-02/2019",
+                                "name": "Singapore/2/2020",
                                 "node_attrs": {
                                   "author": {
-                                    "author": "Ren et al",
+                                    "author": "Anderson et al",
                                     "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Ren et al"
+                                    "value": "Anderson et al"
                                   },
                                   "country": {
-                                    "value": "China"
+                                    "value": "Singapore"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 0.9991707554925312,
                                   "division": {
-                                    "value": "Hubei"
+                                    "value": "Singapore"
                                   },
                                   "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_403931"
+                                    "value": "EPI_ISL_407987"
                                   },
                                   "host": {
                                     "value": "human"
                                   },
                                   "location": {
-                                    "value": "Wuhan"
+                                    "value": "Singapore"
                                   },
                                   "num_date": {
                                     "confidence": [
-                                      2019.996577686516,
-                                      2019.996577686516
+                                      2020.0684462696784,
+                                      2020.0684462696784
                                     ],
-                                    "value": 2019.996577686516
+                                    "value": 2020.0684462696784
                                   },
                                   "originating_lab": {
-                                    "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
+                                    "value": "Singapore General Hospital, Singapore"
                                   },
                                   "submitting_lab": {
-                                    "value": "Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China"
+                                    "value": "Programme in Emerging Infectious Diseases, Duke-NUS Medical School, Signapore"
                                   },
                                   "url": "https://www.gisaid.org"
                                 }
                               }
                             ],
-                            "name": "NODE_0000038",
+                            "name": "NODE_0000039",
                             "node_attrs": {
-                              "div": 4.335167619604238e-13,
+                              "div": 4.802161710484932e-13,
                               "num_date": {
                                 "confidence": [
-                                  2019.9682337400566,
-                                  2019.996577686516
+                                  2019.9748863010354,
+                                  2020.068285081087
                                 ],
-                                "value": 2019.9834944591883
+                                "value": 2019.9945438242978
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000036",
+                        "name": "NODE_0000037",
                         "node_attrs": {
-                          "div": 3.6126396830035316e-13,
+                          "div": 4.00180142540411e-13,
                           "num_date": {
                             "confidence": [
-                              2019.9703837778436,
-                              2019.9938350844884
+                              2019.9773299156732,
+                              2020.0057299922055
                             ],
-                            "value": 2019.9833717072793
+                            "value": 2019.9929346026488
                           }
                         }
                       },
@@ -3829,41 +4112,41 @@
                                 "branch_attrs": {
                                   "mutations": {}
                                 },
-                                "name": "Wuhan/WIV06/2019",
+                                "name": "Nonthaburi/74/2020",
                                 "node_attrs": {
                                   "author": {
-                                    "author": "Zhou et al",
+                                    "author": "Pilailuk et al",
                                     "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Zhou et al"
+                                    "value": "Pilailuk et al"
                                   },
                                   "country": {
-                                    "value": "China"
+                                    "value": "Thailand"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 5.602521995565755e-13,
                                   "division": {
-                                    "value": "Hubei"
+                                    "value": "Nonthaburi"
                                   },
                                   "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_402129"
+                                    "value": "EPI_ISL_403963"
                                   },
                                   "host": {
                                     "value": "human"
                                   },
                                   "location": {
-                                    "value": "Wuhan"
+                                    "value": "Bangkok"
                                   },
                                   "num_date": {
                                     "confidence": [
-                                      2019.996577686516,
-                                      2019.996577686516
+                                      2020.0355920602328,
+                                      2020.0355920602328
                                     ],
-                                    "value": 2019.996577686516
+                                    "value": 2020.0355920602328
                                   },
                                   "originating_lab": {
-                                    "value": "Wuhan Jinyintan Hospital, Wuhan, China"
+                                    "value": "Bamrasnaradura Hospital, Nonthaburi, Thailand"
                                   },
                                   "submitting_lab": {
-                                    "value": "Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China"
+                                    "value": "Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand"
                                   },
                                   "url": "https://www.gisaid.org"
                                 }
@@ -3872,55 +4155,55 @@
                                 "branch_attrs": {
                                   "mutations": {}
                                 },
-                                "name": "Wuhan/WH03/2020",
+                                "name": "Zhejiang/WZ-02/2020",
                                 "node_attrs": {
                                   "author": {
-                                    "author": "Chen et al",
+                                    "author": "Zhang et al",
                                     "title": "Newly discovered betacoronavirus, 2019-2020",
-                                    "value": "Chen et al A"
+                                    "value": "Zhang et al"
                                   },
                                   "country": {
                                     "value": "China"
                                   },
-                                  "div": 5.057695556204945e-13,
+                                  "div": 5.602521995565755e-13,
                                   "division": {
-                                    "value": "Hubei"
+                                    "value": "Zhejiang"
                                   },
                                   "gisaid_epi_isl": {
-                                    "value": "EPI_ISL_406800"
+                                    "value": "EPI_ISL_404228"
                                   },
                                   "host": {
                                     "value": "human"
                                   },
                                   "location": {
-                                    "value": "Wuhan"
+                                    "value": "Hangzhou"
                                   },
                                   "num_date": {
                                     "confidence": [
-                                      2020.002737850787,
-                                      2020.002737850787
+                                      2020.0465434633813,
+                                      2020.0465434633813
                                     ],
-                                    "value": 2020.002737850787
+                                    "value": 2020.0465434633813
                                   },
                                   "originating_lab": {
-                                    "value": "General Hospital of Central Theater Command of People's Liberation Army of China, Wuhan, China"
+                                    "value": "Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China"
                                   },
                                   "submitting_lab": {
-                                    "value": "BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences"
+                                    "value": "Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China"
                                   },
                                   "url": "https://www.gisaid.org"
                                 }
                               }
                             ],
-                            "name": "NODE_0000040",
+                            "name": "NODE_0000041",
                             "node_attrs": {
-                              "div": 4.335167619604238e-13,
+                              "div": 4.802161710484932e-13,
                               "num_date": {
                                 "confidence": [
-                                  2019.9833192346882,
-                                  2019.996577686516
+                                  2019.9390735258658,
+                                  2020.0355920602328
                                 ],
-                                "value": 2019.996577686516
+                                "value": 2020.034171992235
                               }
                             }
                           },
@@ -3929,6 +4212,53 @@
                               "mutations": {}
                             },
                             "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T23569C"
+                                    ]
+                                  }
+                                },
+                                "name": "Guangdong/20SF014/2020",
+                                "node_attrs": {
+                                  "author": {
+                                    "author": "Kang et al",
+                                    "title": "Newly discovered betacoronavirus, 2019-2020",
+                                    "value": "Kang et al"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "div": 0.999131159459289,
+                                  "division": {
+                                    "value": "Guangdong"
+                                  },
+                                  "gisaid_epi_isl": {
+                                    "value": "EPI_ISL_403934"
+                                  },
+                                  "host": {
+                                    "value": "human"
+                                  },
+                                  "location": {
+                                    "value": "Shenzhen"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.041067761807,
+                                      2020.041067761807
+                                    ],
+                                    "value": 2020.041067761807
+                                  },
+                                  "originating_lab": {
+                                    "value": "Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
+                                  },
+                                  "submitting_lab": {
+                                    "value": "Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
+                                  },
+                                  "url": "https://www.gisaid.org"
+                                }
+                              },
                               {
                                 "branch_attrs": {
                                   "mutations": {
@@ -3952,7 +4282,7 @@
                                       "country": {
                                         "value": "China"
                                       },
-                                      "div": 1.0025713351196999,
+                                      "div": 0.9991428522550602,
                                       "division": {
                                         "value": "Guangdong"
                                       },
@@ -3995,7 +4325,7 @@
                                       "country": {
                                         "value": "China"
                                       },
-                                      "div": 1.0025713351196999,
+                                      "div": 0.9991428522550602,
                                       "division": {
                                         "value": "Guangdong"
                                       },
@@ -4025,250 +4355,93 @@
                                     }
                                   }
                                 ],
-                                "name": "NODE_0000049",
+                                "name": "NODE_0000051",
                                 "node_attrs": {
-                                  "div": 1.0025713351196277,
+                                  "div": 0.9991428522549801,
                                   "num_date": {
                                     "confidence": [
-                                      2019.996095172632,
+                                      2020.0076538210035,
                                       2020.060232717317
                                     ],
-                                    "value": 2020.0381851557886
-                                  }
-                                }
-                              },
-                              {
-                                "branch_attrs": {
-                                  "labels": {
-                                    "aa": "S: H49Y"
-                                  },
-                                  "mutations": {
-                                    "S": [
-                                      "H49Y"
-                                    ],
-                                    "nuc": [
-                                      "C21707T"
-                                    ]
-                                  }
-                                },
-                                "children": [
-                                  {
-                                    "branch_attrs": {
-                                      "mutations": {}
-                                    },
-                                    "name": "Guangdong/20SF174/2020",
-                                    "node_attrs": {
-                                      "author": {
-                                        "author": "Kang et al",
-                                        "title": "Newly discovered betacoronavirus, 2019-2020",
-                                        "value": "Kang et al"
-                                      },
-                                      "country": {
-                                        "value": "China"
-                                      },
-                                      "div": 1.0025713351196999,
-                                      "division": {
-                                        "value": "Guangdong"
-                                      },
-                                      "gisaid_epi_isl": {
-                                        "value": "EPI_ISL_406531"
-                                      },
-                                      "host": {
-                                        "value": "human"
-                                      },
-                                      "location": {
-                                        "value": "Zhuhai"
-                                      },
-                                      "num_date": {
-                                        "confidence": [
-                                          2020.060232717317,
-                                          2020.060232717317
-                                        ],
-                                        "value": 2020.060232717317
-                                      },
-                                      "originating_lab": {
-                                        "value": "Guangdong Provincial Institute of Public Health, Guangzhou, China"
-                                      },
-                                      "submitting_lab": {
-                                        "value": "Guangdong Provincial Center for Diseases Control and Prevention, Guangzhou, China"
-                                      },
-                                      "url": "https://www.gisaid.org"
-                                    }
-                                  },
-                                  {
-                                    "branch_attrs": {
-                                      "mutations": {}
-                                    },
-                                    "name": "Guangdong/20SF040/2020",
-                                    "node_attrs": {
-                                      "author": {
-                                        "author": "Kang et al",
-                                        "title": "Newly discovered betacoronavirus, 2019-2020",
-                                        "value": "Kang et al"
-                                      },
-                                      "country": {
-                                        "value": "China"
-                                      },
-                                      "div": 1.0025713351196999,
-                                      "division": {
-                                        "value": "Guangdong"
-                                      },
-                                      "gisaid_epi_isl": {
-                                        "value": "EPI_ISL_403937"
-                                      },
-                                      "host": {
-                                        "value": "human"
-                                      },
-                                      "location": {
-                                        "value": "Zhuhai"
-                                      },
-                                      "num_date": {
-                                        "confidence": [
-                                          2020.0492813141684,
-                                          2020.0492813141684
-                                        ],
-                                        "value": 2020.0492813141684
-                                      },
-                                      "originating_lab": {
-                                        "value": "Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
-                                      },
-                                      "submitting_lab": {
-                                        "value": "Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
-                                      },
-                                      "url": "https://www.gisaid.org"
-                                    }
-                                  },
-                                  {
-                                    "branch_attrs": {
-                                      "mutations": {}
-                                    },
-                                    "name": "Guangdong/20SF028/2020",
-                                    "node_attrs": {
-                                      "author": {
-                                        "author": "Kang et al",
-                                        "title": "Newly discovered betacoronavirus, 2019-2020",
-                                        "value": "Kang et al"
-                                      },
-                                      "country": {
-                                        "value": "China"
-                                      },
-                                      "div": 1.0025713351196999,
-                                      "division": {
-                                        "value": "Guangdong"
-                                      },
-                                      "gisaid_epi_isl": {
-                                        "value": "EPI_ISL_403936"
-                                      },
-                                      "host": {
-                                        "value": "human"
-                                      },
-                                      "location": {
-                                        "value": "Zhuhai"
-                                      },
-                                      "num_date": {
-                                        "confidence": [
-                                          2020.0465434633813,
-                                          2020.0465434633813
-                                        ],
-                                        "value": 2020.0465434633813
-                                      },
-                                      "originating_lab": {
-                                        "value": "Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
-                                      },
-                                      "submitting_lab": {
-                                        "value": "Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health, Guangzhou, China"
-                                      },
-                                      "url": "https://www.gisaid.org"
-                                    }
-                                  }
-                                ],
-                                "name": "NODE_0000056",
-                                "node_attrs": {
-                                  "div": 1.0025713351196277,
-                                  "num_date": {
-                                    "confidence": [
-                                      2019.992604008163,
-                                      2020.0465434633813
-                                    ],
-                                    "value": 2020.03827351223
+                                    "value": 2020.033798211058
                                   }
                                 }
                               }
                             ],
-                            "name": "NODE_0000041",
+                            "name": "NODE_0000042",
                             "node_attrs": {
-                              "div": 4.335167619604238e-13,
+                              "div": 4.802161710484932e-13,
                               "num_date": {
                                 "confidence": [
-                                  2019.9702889040677,
-                                  2020.009192720605
+                                  2019.9805122795403,
+                                  2020.015062617898
                                 ],
-                                "value": 2019.9833188616897
+                                "value": 2019.9930694864697
                               }
                             }
                           }
                         ],
-                        "name": "NODE_0000039",
+                        "name": "NODE_0000040",
                         "node_attrs": {
-                          "div": 3.6126396830035316e-13,
+                          "div": 4.00180142540411e-13,
                           "num_date": {
                             "confidence": [
-                              2019.970140348122,
-                              2019.9938350844884
+                              2019.9696025554833,
+                              2020.0027852858461
                             ],
-                            "value": 2019.983064209774
+                            "value": 2019.9927204845294
                           }
                         }
                       }
                     ],
-                    "name": "NODE_0000035",
+                    "name": "NODE_0000036",
                     "node_attrs": {
-                      "div": 2.8901117464028253e-13,
+                      "div": 3.201441140323288e-13,
                       "num_date": {
                         "confidence": [
-                          2019.9613084943926,
-                          2019.990191499699
+                          2019.9341633491063,
+                          2020.009912441997
                         ],
-                        "value": 2019.9832179585267
+                        "value": 2019.9655784597885
                       }
                     }
                   }
                 ],
-                "name": "NODE_0000025",
+                "name": "NODE_0000030",
                 "node_attrs": {
-                  "div": 2.167583809802119e-13,
+                  "div": 2.4010808552424657e-13,
                   "num_date": {
                     "confidence": [
-                      2019.9563229532964,
-                      2019.9833781153184
+                      2019.9311326256513,
+                      2019.976295296471
                     ],
-                    "value": 2019.9694494108062
+                    "value": 2019.9654525206408
                   }
                 }
               }
             ],
             "name": "NODE_0000019",
             "node_attrs": {
-              "div": 1.4450558732014126e-13,
+              "div": 1.600720570161644e-13,
               "num_date": {
                 "confidence": [
-                  2019.9411553756706,
-                  2019.979298865178
+                  2019.9353956396137,
+                  2019.9751932927113
                 ],
-                "value": 2019.9561568073782
+                "value": 2019.9524873009216
               }
             }
           }
         ],
         "name": "NODE_0000015",
         "node_attrs": {
-          "div": 7.225279366007063e-14,
+          "div": 8.00360285080822e-14,
           "num_date": {
             "confidence": [
-              2019.955603911097,
-              2019.9577867509597
+              2019.9499747551474,
+              2019.9573419549424
             ],
-            "value": 2019.9563868812459
+            "value": 2019.9518844640068
           }
         }
       }
@@ -4278,10 +4451,10 @@
       "div": 0,
       "num_date": {
         "confidence": [
-          2019.8996265967853,
-          2019.9630131979309
+          2019.6644957197473,
+          2019.9552350711806
         ],
-        "value": 2019.9555393209914
+        "value": 2019.9510190041567
       }
     }
   },
