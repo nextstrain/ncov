@@ -116,7 +116,6 @@ rule align:
             --sequences {input.sequences} \
             --reference-sequence {input.reference} \
             --output {output.alignment} \
-            --fill-gaps \
             --remove-reference
         """
 
