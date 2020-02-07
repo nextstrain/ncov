@@ -1,57 +1,60 @@
 location	Wuhan	#511EA8
 location	Hangzhou	#462EB9
-location	Guangdong	#4042C7
-location	Shenzhen	#3E58CF
-location	Zhuhai	#416DCE
-location	Guangzhou	#4580CA
-location	Foshan	#4C90C0
-location	Kaohsiung	#549DB2
-location	Bangkok	#5DA8A3
-location	Aichi	#69B091
-location	Gyeonggi	#75B681
-location	Singapore	#83BA70
-location	Gold Coast	#92BC63
-location	Sydney	#A2BE57
-location	Clayton	#B2BD4D
-location	Paris	#C1BA47
-location	Starnberg	#CEB541
-location	England	#D9AD3D
-location	Rovaniemi	#E1A03A
-location	Seattle	#E69136
-location	Orange County	#E67C32
-location	Los Angeles	#E4632E
-location	Phoenix	#E04929
+location	Guangdong	#4040C6
+location	Shenzhen	#3F55CE
+location	Zhuhai	#4169CF
+location	Guangzhou	#447DCC
+location	Foshan	#4A8CC2
+location	Kaohsiung	#529AB7
+location	Bangkok	#5AA5A8
+location	Aichi	#64AD98
+location	Gyeonggi	#70B487
+location	Singapore	#7DB878
+location	Gold Coast	#8BBB6A
+location	Sydney	#99BD5D
+location	Clayton	#A9BD53
+location	Paris	#B7BC4B
+location	Leuven	#C5B945
+location	Starnberg	#D1B340
+location	England	#DCAB3C
+location	Rovaniemi	#E29D39
+location	Seattle	#E68D36
+location	Orange County	#E67932
+location	Los Angeles	#E3612D
+location	Phoenix	#E04828
 location	Chicago	#DC2F24
 
 division	Hubei	#511EA8
-division	Zhejiang	#4333BE
-division	Guangdong	#3F4ECB
-division	Taiwan	#4169CF
-division	Nonthaburi	#4682C9
-division	Aichi	#4F96BB
-division	Gyeonggi	#5AA5A8
-division	Singapore	#68AF92
-division	Queensland	#78B77D
-division	New South Wales	#8BBB6A
-division	Victoria	#9EBE59
-division	Ile De France	#B3BD4D
-division	Bavaria	#C5B945
-division	England	#D5B03F
-division	Lapland	#E0A23A
-division	Washington	#E68D36
-division	California	#E67231
-division	Arizona	#E1502A
+division	Zhejiang	#4432BD
+division	Guangdong	#3F4BCA
+division	Taiwan	#4065CF
+division	Nonthaburi	#447ECC
+division	Aichi	#4C91BF
+division	Gyeonggi	#56A0AE
+division	Singapore	#63AC9A
+division	Queensland	#71B486
+division	New South Wales	#81BA72
+division	Victoria	#94BD62
+division	Ile De France	#A7BE54
+division	Flanders	#BABC4A
+division	Bavaria	#CBB742
+division	England	#D9AE3E
+division	Lapland	#E29E39
+division	Washington	#E68935
+division	California	#E56E30
+division	Arizona	#E14F2A
 division	Illinois	#DC2F24
 
-country	China	#462EB9
-country	Taiwan	#3E58CF
-country	Thailand	#4580CA
-country	Japan	#549DB2
-country	South Korea	#69B091
-country	Singapore	#83BA70
-country	Australia	#A2BE57
-country	France	#C1BA47
-country	Germany	#D9AD3D
-country	United Kingdom	#E69136
-country	Finland	#E4632E
+country	China	#4B26B1
+country	Taiwan	#3F4ACA
+country	Thailand	#4272CE
+country	Japan	#4D92BF
+country	South Korea	#5DA8A3
+country	Singapore	#74B583
+country	Australia	#8EBC66
+country	France	#ACBD51
+country	Belgium	#C8B944
+country	Germany	#DDA93C
+country	United Kingdom	#E68B35
+country	Finland	#E3602D
 country	USA	#DC2F24
