@@ -10,3 +10,8 @@ HKU-SZ-002a_2020
 # lack of precise date is leading to an incorrect time placement (end of Jan)
 HKU-SZ-005b_2020
 
+#These seem very divergent - excluding for moment on 9 Feb 20
+Shandong/IVDC-SD-001/2020
+Beijing/IVDC-BJ-005/2020
+Henan/IVDC-HeN-002/2020
+Shanghai/IVDC-SH-001/2020

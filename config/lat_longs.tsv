@@ -24,6 +24,18 @@ location	Phoenix	33.433362	-112.068786
 location	Chicago	41.858966	-87.637242
 location	Leuven	50.880674	4.700109
 location	California	36.357039	-119.690182
+location	Chongqing	29.858721	107.375623
+location	Beijing	40.071320	116.406908
+location	Shanghai	31.171447	121.429896
+location	Yongchuan	29.374774	105.925391
+location	Zhongxian	30.323947	108.012855
+location	Kunming	25.013024	102.866742
+location	Qingdao	36.171557	120.398496
+location	Chengdu	30.640989	104.067518
+location	Pingxiang	27.632413	113.892981
+location	Zhengzhou	34.714074	113.621939
+location	Huaian	33.574586	119.132155
+location	Taipei	25.043279	121.565717
 
 division	Hubei	31.095477	112.676644
 division	Zhejiang	29.225710	120.299125
@@ -46,3 +58,12 @@ division	Arizona	34.220707	-111.657462
 division	Illinois	40.088552	-89.301876
 division	Japan	35.68536	139.75309
 division	Flanders	51.056536	4.254283
+division	Chongqing	29.858721	107.375623
+division	Yunnan	24.556297	101.366210
+division	Shandong	36.298013	118.193884
+division	Shanghai	31.171447	121.429896
+division	Sichuan	30.709229	102.693949
+division	Beijing	40.071320	116.406908
+division	Jiangxi	27.458973	115.535326
+division	Henan	33.817629	113.690243
+division	Jiangsu	33.077761	119.825116
