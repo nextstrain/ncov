@@ -1,48 +1,59 @@
 location	Wuhan	#511EA8
-location	Hangzhou	#462EB9
-location	Guangdong	#4040C6
-location	Shenzhen	#3F55CE
-location	Zhuhai	#4169CF
-location	Guangzhou	#447DCC
-location	Foshan	#4A8CC2
-location	Kaohsiung	#529AB7
-location	Bangkok	#5AA5A8
-location	Aichi	#64AD98
-location	Gyeonggi	#70B487
-location	Singapore	#7DB878
-location	Gold Coast	#8BBB6A
-location	Sydney	#99BD5D
-location	Clayton	#A9BD53
-location	Paris	#B7BC4B
-location	Leuven	#C5B945
-location	Starnberg	#D1B340
-location	England	#DCAB3C
-location	Rovaniemi	#E29D39
-location	Seattle	#E68D36
-location	Orange County	#E67932
-location	Los Angeles	#E3612D
-location	Phoenix	#E04828
+location	Pingxiang	#482AB5
+location	Zhongxian	#4138C3
+location	Yongchuan	#3F48C9
+location	Chengdu	#3E59CF
+location	Kunming	#4169CF
+location	Hangzhou	#4379CD
+location	Guangdong	#4886C6
+location	Shenzhen	#4D92BE
+location	Zhuhai	#539CB4
+location	Huaian	#5AA5A8
+location	Guangzhou	#62AB9B
+location	Foshan	#6BB18E
+location	Taipei	#75B581
+location	Kaohsiung	#7FB975
+location	Bangkok	#8BBB6A
+location	Aichi	#96BD5F
+location	Gyeonggi	#A2BE57
+location	Singapore	#AFBD4F
+location	Gold Coast	#BABC4A
+location	Sydney	#C5B945
+location	Clayton	#CFB541
+location	Paris	#D8AE3E
+location	Leuven	#DFA63B
+location	Starnberg	#E39B39
+location	Rovaniemi	#E68D36
+location	Seattle	#E67D33
+location	Orange County	#E56B2F
+location	Los Angeles	#E2572B
+location	Phoenix	#DF4328
 location	Chicago	#DC2F24
 
 division	Hubei	#511EA8
-division	Zhejiang	#4432BD
-division	Guangdong	#3F4BCA
-division	Taiwan	#4065CF
-division	Nonthaburi	#447ECC
-division	Aichi	#4C91BF
-division	Gyeonggi	#56A0AE
-division	Singapore	#63AC9A
-division	Queensland	#71B486
-division	New South Wales	#81BA72
-division	Victoria	#94BD62
-division	Ile De France	#A7BE54
-division	Flanders	#BABC4A
-division	Bavaria	#CBB742
-division	England	#D9AE3E
-division	Lapland	#E29E39
-division	Washington	#E68935
-division	California	#E56E30
-division	Arizona	#E14F2A
+division	Jiangxi	#462EB9
+division	Chongqing	#4040C6
+division	Sichuan	#3F55CE
+division	Yunnan	#4169CF
+division	Jiangsu	#447DCC
+division	Zhejiang	#4A8CC2
+division	Guangdong	#529AB7
+division	Taiwan	#5AA5A8
+division	Nonthaburi	#64AD98
+division	Aichi	#70B487
+division	Gyeonggi	#7DB878
+division	Singapore	#8BBB6A
+division	Queensland	#99BD5D
+division	New South Wales	#A9BD53
+division	Victoria	#B7BC4B
+division	Ile De France	#C5B945
+division	Flanders	#D1B340
+division	Bavaria	#DCAB3C
+division	England	#E29D39
+division	Lapland	#E68D36
+division	Washington	#E67932
+division	California	#E3612D
+division	Arizona	#E04828
 division	Illinois	#DC2F24
 
 country	China	#4B26B1
