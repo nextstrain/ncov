@@ -36,6 +36,9 @@ location	Pingxiang	27.632413	113.892981
 location	Zhengzhou	34.714074	113.621939
 location	Huaian	33.574586	119.132155
 location	Taipei	25.043279	121.565717
+location	Tokyo	35.683441	139.766131
+location	Thanh Hoa	19.805359	105.784515
+location	Kyoto	35.007542	135.768455
 
 division	Hubei	31.095477	112.676644
 division	Zhejiang	29.225710	120.299125
@@ -67,3 +70,6 @@ division	Beijing	40.071320	116.406908
 division	Jiangxi	27.458973	115.535326
 division	Henan	33.817629	113.690243
 division	Jiangsu	33.077761	119.825116
+division	Thanh Hoa	20.026365	105.439044
+division	Kanto	36.167777	139.170466
+division	Kansai	34.778675	135.880055
