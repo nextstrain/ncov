@@ -40,6 +40,7 @@ location	Tokyo	35.683441	139.766131
 location	Thanh Hoa	19.805359	105.784515
 location	Kyoto	35.007542	135.768455
 location	Wisconsin	44.535145	-89.527762
+location	Boston	42.354750	-71.061299
 
 division	Hubei	31.095477	112.676644
 division	Zhejiang	29.225710	120.299125
@@ -75,3 +76,6 @@ division	Thanh Hoa	20.026365	105.439044
 division	Kanto	36.167777	139.170466
 division	Kansai	34.778675	135.880055
 division	Wisconsin	44.535145	-89.527762
+division	Massachusetts	42.340741	-71.998513
+division	Tokyo	35.683441	139.766131
+division	Kyoto	35.007542	135.768455
