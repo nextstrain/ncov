@@ -249,7 +249,7 @@ rule traits:
     output:
         node_data = "results/traits.json",
     params:
-        columns = "country",
+        columns = "division",
         sampling_bias_correction = 2
     shell:
         """
