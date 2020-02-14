@@ -1,86 +1,90 @@
 location	Wuhan	#511EA8
-location	Pingxiang	#4A28B3
-location	Zhongxian	#4433BE
-location	Yongchuan	#403FC6
-location	Chongqing	#3F4DCB
-location	Chengdu	#3E5ACF
-location	Kunming	#4067CF
-location	Hangzhou	#4274CE
-location	Guangdong	#4580CA
-location	Shenzhen	#498AC4
-location	Zhuhai	#4D94BE
-location	Huaian	#539BB5
-location	Guangzhou	#58A2AB
-location	Foshan	#5EA9A1
-location	Taipei	#65AD96
-location	Kaohsiung	#6CB28C
-location	Bangkok	#75B582
-location	Aichi	#7DB877
-location	Tokyo	#86BB6E
-location	Kyoto	#8FBC66
-location	Gyeonggi	#99BD5D
-location	Singapore	#A3BE57
-location	Thanh Hoa	#ADBD51
-location	Gold Coast	#B6BD4B
-location	Sydney	#BFBB47
-location	Clayton	#C8B843
-location	Paris	#D0B441
-location	Leuven	#D7AF3E
-location	Starnberg	#DDA93C
-location	England	#E1A03A
-location	Rovaniemi	#E59738
-location	Seattle	#E68B35
-location	Orange County	#E67E33
-location	Los Angeles	#E67030
-location	California	#E3602D
-location	Phoenix	#E1502A
-location	Chicago	#DE3F27
-location	Illinois	#DE3F27
-location	Wisconsin	#DC2F24
+location	Pingxiang	#4A27B2
+location	Zhongxian	#4531BC
+location	Yongchuan	#403BC5
+location	Chongqing	#3F47C9
+location	Chengdu	#3F54CD
+location	Kunming	#3F60D0
+location	Hangzhou	#416BCE
+location	Guangdong	#4377CD
+location	Shenzhen	#4681CA
+location	Zhuhai	#498AC4
+location	Huaian	#4D93BE
+location	Guangzhou	#529AB6
+location	Foshan	#57A1AE
+location	Taipei	#5CA7A5
+location	Kaohsiung	#62AB9B
+location	Bangkok	#68AF92
+location	Aichi	#6FB388
+location	Tokyo	#77B67F
+location	Kyoto	#7EB976
+location	Gyeonggi	#86BB6D
+location	Kathmandu	#8FBC66
+location	Thanh Hoa	#98BD5E
+location	Bangkok	#A0BE58
+location	Singapore	#A9BD53
+location	Gold Coast	#B2BD4D
+location	Sydney	#BBBC49
+location	Clayton	#C3BA46
+location	Paris	#CBB842
+location	Leuven	#D1B340
+location	Starnberg	#D7AF3E
+location	England	#DDA93C
+location	Rovaniemi	#E0A13A
+location	Seattle	#E49938
+location	Orange County	#E68F36
+location	Los Angeles	#E68334
+location	California	#E67832
+location	Phoenix	#E56A2F
+location	Chicago	#E25B2C
+location	Illinois	#E04C29
+location	Wisconsin	#DE3E27
 location	Boston	#DC2F24
 
 division	Hubei	#511EA8
-division	Jiangxi	#482BB6
-division	Chongqing	#4039C3
-division	Sichuan	#3F4ACA
-division	Yunnan	#3E5CD0
-division	Jiangsu	#416CCE
-division	Zhejiang	#447CCD
-division	Guangdong	#4989C4
-division	Taiwan	#4E96BC
-division	Nonthaburi	#559FB0
-division	Aichi	#5DA8A4
-division	Tokyo	#66AE96
-division	Kyoto	#6FB388
-division	Gyeonggi	#7AB77C
-division	Singapore	#85BA6F
-division	Thanh Hoa	#91BC64
-division	Queensland	#9DBE5A
-division	New South Wales	#AABD53
-division	Victoria	#B6BD4B
-division	Ile De France	#C2BA46
-division	Flanders	#CDB642
-division	Bavaria	#D6B03F
-division	England	#DDA83C
-division	Lapland	#E29D39
-division	Washington	#E69036
-division	California	#E67F33
-division	Arizona	#E56D30
-division	Illinois	#E2592C
-division	Wisconsin	#DF4428
+division	Jiangxi	#482AB5
+division	Chongqing	#4138C3
+division	Sichuan	#3F48C9
+division	Yunnan	#3E59CF
+division	Jiangsu	#4169CF
+division	Zhejiang	#4379CD
+division	Guangdong	#4886C6
+division	Taiwan	#4D92BE
+division	Aichi	#539CB4
+division	Tokyo	#5AA5A8
+division	Kyoto	#62AB9B
+division	Gyeonggi	#6BB18E
+division	Kathmandu	#75B581
+division	Thanh Hoa	#7FB975
+division	Nonthaburi	#8BBB6A
+division	Singapore	#96BD5F
+division	Queensland	#A2BE57
+division	New South Wales	#AFBD4F
+division	Victoria	#BABC4A
+division	Ile De France	#C5B945
+division	Flanders	#CFB541
+division	Bavaria	#D8AE3E
+division	England	#DFA63B
+division	Lapland	#E39B39
+division	Washington	#E68D36
+division	California	#E67D33
+division	Arizona	#E56B2F
+division	Illinois	#E2572B
+division	Wisconsin	#DF4328
 division	Massachusetts	#DC2F24
 
 country	China	#511EA8
-country	Taiwan	#403DC5
-country	Thailand	#4063CF
-country	Japan	#4785C7
-country	South Korea	#559EB1
-country	Singapore	#67AF94
-country	Vietnam	#7EB877
-country	Australia	#98BD5E
-country	France	#B4BD4C
-country	Belgium	#CDB642
-country	Germany	#DFA53B
-country	United Kingdom	#E68735
-country	Finland	#E35D2D
+country	Taiwan	#403AC4
+country	Japan	#3F5ED0
+country	South Korea	#457FCB
+country	Nepal	#5098B9
+country	Vietnam	#60AA9F
+country	Thailand	#73B583
+country	Singapore	#8BBB6A
+country	Australia	#A4BE56
+country	France	#BDBB48
+country	Belgium	#D3B240
+country	Germany	#E19F3A
+country	United Kingdom	#E68234
+country	Finland	#E25A2C
 country	USA	#DC2F24
