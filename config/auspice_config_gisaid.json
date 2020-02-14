@@ -49,6 +49,7 @@
   ],
   "display_defaults": {
     "color_by": "division",
+    "distance_measure": "num_date",    
     "geo_resolution": "division",
     "map_triplicate": true
   },
