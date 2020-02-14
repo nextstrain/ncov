@@ -28,44 +28,22 @@ rule files:
 
 files = rules.files.params
 
-rule download:
-    message: "Downloading sequences from fauna"
+rule download_fasta:
+    message: "Downloading fasta file from S3"
     output:
-        sequences = "data/ncov.fasta"
-    params:
-        fasta_fields = "strain virus gisaid_epi_isl genbank_accession collection_date region country division location locus host originating_lab submitting_lab authors url title journal puburls"
+        sequences = "data/sequences.fasta"
     shell:
         """
-        python3 ../fauna/vdb/download.py \
-            --database vdb \
-            --virus ncov \
-            --fasta_fields {params.fasta_fields} \
-            --resolve_method choose_genbank \
-            --path $(dirname {output.sequences}) \
-            --fstem $(basename {output.sequences} .fasta)
-        sed -i -e 's/BetaCoV[\/_ ]//g' data/ncov.fasta
-        sed -i -e 's/BetaCov[\/_ ]//g' data/ncov.fasta
-        sed -i -e 's/2019-nCoV[\/_ ]//g' data/ncov.fasta
+        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta data/
         """
 
-rule parse:
-    message: "Parsing fasta into sequences and metadata"
-    input:
-        sequences = rules.download.output.sequences
+rule download_metadata:
+    message: "Downloading metadata file from S3"
     output:
-        sequences = "data/sequences.fasta",
         metadata = "data/metadata.tsv"
-    params:
-        fasta_fields = "strain virus gisaid_epi_isl genbank_accession date region country division location segment host originating_lab submitting_lab authors url title",
-        prettify_fields = "region country division location"
     shell:
         """
-        augur parse \
-            --sequences {input.sequences} \
-            --output-sequences {output.sequences} \
-            --output-metadata {output.metadata} \
-            --fields {params.fasta_fields} \
-            --prettify-fields {params.prettify_fields}
+        aws s3 cp s3://nextstrain-ncov-private/metadata.tsv data/
         """
 
 rule filter:
@@ -77,8 +55,8 @@ rule filter:
           - minimum genome length of {params.min_length}
         """
     input:
-        sequences = rules.parse.output.sequences,
-        metadata = rules.parse.output.metadata,
+        sequences = rules.download_fasta.output.sequences,
+        metadata = rules.download_metadata.output.metadata,
         include = files.include,
         exclude = files.exclude
     output:
@@ -171,7 +149,7 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment = rules.mask.output,
-        metadata = rules.parse.output.metadata
+        metadata = rules.download_metadata.output.metadata
     output:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
@@ -244,7 +222,7 @@ rule traits:
         """
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download_metadata.output.metadata,
         weights = files.weights
     output:
         node_data = "results/traits.json",
@@ -267,7 +245,7 @@ rule export:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download_metadata.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -295,7 +273,7 @@ rule export_gisaid:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download_metadata.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -322,7 +300,7 @@ rule export_zh:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download_metadata.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -398,7 +376,7 @@ rule dated_json:
 rule poisson_tmrca:
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download_metadata.output.metadata,
         nt_muts = rules.ancestral.output.node_data
     output:
         "figures/ncov_poisson-tmrca.png"
