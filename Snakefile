@@ -1,3 +1,9 @@
+import os
+from snakemake.remote.S3 import RemoteProvider as S3RemoteProvider
+
+S3 = S3RemoteProvider()
+BUCKET = "nextstrain-ncov-private/"
+
 def get_todays_date():
     from datetime import datetime
     date = datetime.today().strftime('%Y-%m-%d')
@@ -28,22 +34,18 @@ rule files:
 
 files = rules.files.params
 
-rule download_fasta:
-    message: "Downloading fasta file from S3"
+rule download:
+    message: "Downloading metadata and fasta files from S3"
+    input:
+        metadata = S3.remote(BUCKET + "metadata.tsv"),
+        sequences = S3.remote(BUCKET + "sequences.fasta")
     output:
+        metadata = "data/metadata.tsv",
         sequences = "data/sequences.fasta"
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta data/
-        """
-
-rule download_metadata:
-    message: "Downloading metadata file from S3"
-    output:
-        metadata = "data/metadata.tsv"
-    shell:
-        """
-        aws s3 cp s3://nextstrain-ncov-private/metadata.tsv data/
+        cp {input.metadata:q} {output.metadata:q}
+        cp {input.sequences:q} {output.sequences:q}
         """
 
 rule filter:
@@ -55,8 +57,8 @@ rule filter:
           - minimum genome length of {params.min_length}
         """
     input:
-        sequences = rules.download_fasta.output.sequences,
-        metadata = rules.download_metadata.output.metadata,
+        sequences = rules.download.output.sequences,
+        metadata = rules.download.output.metadata,
         include = files.include,
         exclude = files.exclude
     output:
@@ -149,7 +151,7 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment = rules.mask.output,
-        metadata = rules.download_metadata.output.metadata
+        metadata = rules.download.output.metadata
     output:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
@@ -222,7 +224,7 @@ rule traits:
         """
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.download_metadata.output.metadata,
+        metadata = rules.download.output.metadata,
         weights = files.weights
     output:
         node_data = "results/traits.json",
@@ -245,7 +247,7 @@ rule export:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.download_metadata.output.metadata,
+        metadata = rules.download.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -273,7 +275,7 @@ rule export_gisaid:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.download_metadata.output.metadata,
+        metadata = rules.download.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -300,7 +302,7 @@ rule export_zh:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.download_metadata.output.metadata,
+        metadata = rules.download.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -376,7 +378,7 @@ rule dated_json:
 rule poisson_tmrca:
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.download_metadata.output.metadata,
+        metadata = rules.download.output.metadata,
         nt_muts = rules.ancestral.output.node_data
     output:
         "figures/ncov_poisson-tmrca.png"
