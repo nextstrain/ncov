@@ -2,7 +2,7 @@ This is a [Nextstrain](https://nextstrain.org) build for novel coronavirus (nCoV
 
 ## Data
 
-The nCoV genomes were generously shared via [GISAID](https://gisaid.org). We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based. For a full list of attributions please see this [description file](config/description.md).
+The nCoV genomes were generously shared via [GISAID](https://gisaid.org). We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based. For a full list of attributions please see the [metadata file](data/metadata.tsv).
 
 nCoV genomes are not included as part of this repo as many of them are protected by the terms of GISAID sharing. These genomes will need to be supplemented by the user. Please add these as strains in `data/sequences.fasta`. Metadata for these viruses already exists in `data/metadata.tsv`. This `data/sequences.fasta` should just have strain name in the FASTA header, like so:
 ```
@@ -33,6 +33,7 @@ The situation reports are generated from Markdown files (such as [this one](http
 
 
 ## Contributing
+
 We welcome contributions from the community to make this effort as useful as possible to as many people as possible.
 If you spot errors or inaccuracies, please file an issue or make a pull request.
 Or get in touch over email at hello@nextstrain.org or on Twitter at [@nextstrain](https://twitter.com/nextstrain).
@@ -65,4 +66,4 @@ conda env create -f environment.yml
 
 ## Notes
 
-Site numbering and genome structure uses [BetaCoV/Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 5 &times; 10^-4 subs per site per year. There were SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts.
+Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 5 &times; 10^-4 subs per site per year. There were SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts.
