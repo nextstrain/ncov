@@ -52,7 +52,6 @@ rule filter:
     message:
         """
         Filtering to
-          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
           - excluding strains in {input.exclude}
           - minimum genome length of {params.min_length}
         """
@@ -64,20 +63,16 @@ rule filter:
     output:
         sequences = "results/filtered.fasta"
     params:
-        group_by = "country",
-        sequences_per_group = 100,
-        min_length = 5000,
+        min_length = 15000
     shell:
         """
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
-            --exclude {input.exclude} \
             --include {input.include} \
-            --output {output.sequences} \
-            --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
-            --min-length {params.min_length}
+            --exclude {input.exclude} \
+            --min-length {params.min_length} \
+            --output {output.sequences}
         """
 
 rule align:
@@ -156,7 +151,7 @@ rule refine:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
     params:
-        root = "Wuhan/WIV04/2019 Wuhan/WIV06/2019",
+        root = "Wuhan-Hu-1/2019 Wuhan/WIV06/2019",
         clock_rate = 0.0005,
         clock_std_dev = 0.0003,
         coalescent = "skyline",
@@ -197,7 +192,7 @@ rule ancestral:
             --alignment {input.alignment} \
             --output-node-data {output.node_data} \
             --inference {params.inference} \
-            --keep-ambiguous
+            --infer-ambiguous
         """
 
 rule translate:

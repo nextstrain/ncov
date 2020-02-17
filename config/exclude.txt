@@ -1,17 +1,30 @@
-# a number of extra mutations that look spurious
-Wuhan/IPBCAMS-WH-05/2020
-Shenzhen/SZTH-004/2020
-Shenzhen/SZTH-001/2020
-
-# duplicate of Guangdong/20SF012/2020 / EPI_ISL_403932 as described here:
-# http://virological.org/t/phylogenetic-analysis-of-23-ncov-2019-genomes-2020-01-23/335/5
+# Duplicate of Guangdong/20SF012/2020 / EPI_ISL_403932
 HKU-SZ-002a_2020
 
-# lack of precise date is leading to an incorrect time placement (end of Jan)
+# Duplicates of USA/WA1/2020
+USA/WA1-F6/2020
+USA/WA1-A12/2020
+
+# Duplicates of Wuhan/IVDC-HB-envF13/2020
+Wuhan/IVDC-HB-envF13-20/2020
+Wuhan/IVDC-HB-envF13-21/2020
+
+# Lack of precise date is leading to an incorrect time placement (end of Jan)
 HKU-SZ-005b_2020
 
-#These seem very divergent - excluding for moment on 9 Feb 20
-Shandong/IVDC-SD-001/2020
+# Bat relative, too divergent to be included here
+bat/Yunnan/RaTG13/2013
+
+# Confusing phylogeography
+USA/IL2/2020
+
+# These have more tip-specific divergence than expected
 Beijing/IVDC-BJ-005/2020
 Henan/IVDC-HeN-002/2020
+Shandong/IVDC-SD-001/2020
 Shanghai/IVDC-SH-001/2020
+Shenzhen/SZTH-001/2020
+Shenzhen/SZTH-004/2020
+Wuhan/IPBCAMS-WH-05/2020
+Wuhan/IVDC-HB-envF54/2020
+Wuhan/WH02/2019
