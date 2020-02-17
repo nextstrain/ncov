@@ -141,7 +141,7 @@ rule refine:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
     params:
-        root = "Wuhan-Hu-1/2019 Wuhan/WIV06/2019",
+        root = "Wuhan-Hu-1/2019 Wuhan/WH01/2019",
         clock_rate = 0.0005,
         clock_std_dev = 0.0003,
         coalescent = "skyline",
@@ -265,6 +265,7 @@ rule export_gisaid:
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
+        traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_gisaid,
         colors = files.colors,
         lat_longs = files.lat_longs,
@@ -276,7 +277,7 @@ rule export_gisaid:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -292,6 +293,7 @@ rule export_zh:
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
+        traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_zh,
         colors = files.colors,
         lat_longs = files.lat_longs,
@@ -303,7 +305,7 @@ rule export_zh:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \

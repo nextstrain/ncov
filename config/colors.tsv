@@ -43,36 +43,38 @@ location	Wisconsin	#DE3D27
 location	Boston	#DC2F24
 
 division	Hubei	#511EA8
-division	Jiangxi	#492AB5
-division	Chongqing	#4137C2
-division	Sichuan	#3F47C9
-division	Yunnan	#3E57CE
-division	Jiangsu	#4067CF
-division	Zhejiang	#4376CD
-division	Guangdong	#4783C8
-division	Taiwan	#4C8FC0
-division	Aichi	#519AB7
-division	Tokyo	#58A2AC
-division	Kyoto	#5FA9A0
-division	Gyeonggi	#68AF93
-division	Kathmandu	#70B486
-division	Thanh Hoa	#7BB77A
-division	Nonthaburi	#85BA6F
-division	Singapore	#90BC65
-division	Queensland	#9CBE5B
-division	New South Wales	#A8BE54
-division	Victoria	#B3BD4D
-division	Ile De France	#BEBB48
-division	Auvergne Rhone Alpes	#C9B843
-division	Flanders	#D2B340
-division	Bavaria	#DAAD3D
-division	England	#E0A33B
-division	Lapland	#E49838
-division	Washington	#E68B35
-division	California	#E67B32
-division	Arizona	#E5692F
-division	Illinois	#E2562B
-division	Wisconsin	#DF4227
+division	Jiangxi	#4929B4
+division	Chongqing	#4235C0
+division	Sichuan	#3F44C8
+division	Yunnan	#3F53CD
+division	Jiangsu	#3F62CF
+division	Zhejiang	#4270CE
+division	Guangdong	#457ECB
+division	Taiwan	#4989C4
+division	Aichi	#4E95BD
+division	Tokyo	#549DB3
+division	Nara	#5AA5A8
+division	Osaka	#61AB9C
+division	Kyoto	#69B090
+division	Gyeonggi	#72B485
+division	Kathmandu	#7BB879
+division	Thanh Hoa	#85BA6E
+division	Nonthaburi	#90BC65
+division	Singapore	#9BBE5C
+division	Queensland	#A6BE55
+division	New South Wales	#B1BD4E
+division	Victoria	#BBBC49
+division	Ile De France	#C5B945
+division	Auvergne Rhone Alpes	#CEB541
+division	Flanders	#D6AF3E
+division	Bavaria	#DDA93C
+division	England	#E29F39
+division	Lapland	#E69537
+division	Washington	#E68634
+division	California	#E67732
+division	Arizona	#E4662E
+division	Illinois	#E1532B
+division	Wisconsin	#DF4127
 division	Massachusetts	#DC2F24
 
 country	China	#511EA8
