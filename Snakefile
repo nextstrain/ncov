@@ -1,9 +1,3 @@
-import os
-from snakemake.remote.S3 import RemoteProvider as S3RemoteProvider
-
-S3 = S3RemoteProvider()
-BUCKET = "nextstrain-ncov-private/"
-
 def get_todays_date():
     from datetime import datetime
     date = datetime.today().strftime('%Y-%m-%d')
@@ -18,7 +12,6 @@ rule all:
 
 rule files:
     params:
-        input_fasta = "data/ncov.fasta",
         include = "config/include.txt",
         exclude = "config/exclude.txt",
         reference = "config/reference.gb",
@@ -36,16 +29,13 @@ files = rules.files.params
 
 rule download:
     message: "Downloading metadata and fasta files from S3"
-    input:
-        metadata = S3.remote(BUCKET + "metadata.tsv"),
-        sequences = S3.remote(BUCKET + "sequences.fasta")
     output:
-        metadata = "data/metadata.tsv",
-        sequences = "data/sequences.fasta"
+        sequences = "data/sequences.fasta",
+        metadata = "data/metadata.tsv"
     shell:
         """
-        cp {input.metadata:q} {output.metadata:q}
-        cp {input.sequences:q} {output.sequences:q}
+        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta data/
+        aws s3 cp s3://nextstrain-ncov-private/metadata.tsv data/
         """
 
 rule filter:
