@@ -196,7 +196,8 @@ rule ancestral:
             --tree {input.tree} \
             --alignment {input.alignment} \
             --output-node-data {output.node_data} \
-            --inference {params.inference}
+            --inference {params.inference} \
+            --keep-ambiguous
         """
 
 rule translate:
