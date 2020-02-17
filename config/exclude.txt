@@ -16,6 +16,7 @@ HKU-SZ-005b_2020
 bat/Yunnan/RaTG13/2013
 
 # Confusing phylogeography
+Australia/QLD02/2020
 USA/IL2/2020
 
 # These have more tip-specific divergence than expected
