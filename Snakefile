@@ -1,3 +1,9 @@
+import os
+from snakemake.remote.S3 import RemoteProvider as S3RemoteProvider
+
+S3 = S3RemoteProvider()
+BUCKET = "nextstrain-ncov-private/"
+
 def get_todays_date():
     from datetime import datetime
     date = datetime.today().strftime('%Y-%m-%d')
@@ -29,75 +35,44 @@ rule files:
 files = rules.files.params
 
 rule download:
-    message: "Downloading sequences from fauna"
-    output:
-        sequences = "data/ncov.fasta"
-    params:
-        fasta_fields = "strain virus gisaid_epi_isl genbank_accession collection_date region country division location locus host originating_lab submitting_lab authors url title journal puburls"
-    shell:
-        """
-        python3 ../fauna/vdb/download.py \
-            --database vdb \
-            --virus ncov \
-            --fasta_fields {params.fasta_fields} \
-            --resolve_method choose_genbank \
-            --path $(dirname {output.sequences}) \
-            --fstem $(basename {output.sequences} .fasta)
-        sed -i -e 's/BetaCoV[\/_ ]//g' data/ncov.fasta
-        sed -i -e 's/BetaCov[\/_ ]//g' data/ncov.fasta
-        sed -i -e 's/2019-nCoV[\/_ ]//g' data/ncov.fasta
-        """
-
-rule parse:
-    message: "Parsing fasta into sequences and metadata"
+    message: "Downloading metadata and fasta files from S3"
     input:
-        sequences = rules.download.output.sequences
+        metadata = S3.remote(BUCKET + "metadata.tsv"),
+        sequences = S3.remote(BUCKET + "sequences.fasta")
     output:
-        sequences = "data/sequences.fasta",
-        metadata = "data/metadata.tsv"
-    params:
-        fasta_fields = "strain virus gisaid_epi_isl genbank_accession date region country division location segment host originating_lab submitting_lab authors url title",
-        prettify_fields = "region country division location"
+        metadata = "data/metadata.tsv",
+        sequences = "data/sequences.fasta"
     shell:
         """
-        augur parse \
-            --sequences {input.sequences} \
-            --output-sequences {output.sequences} \
-            --output-metadata {output.metadata} \
-            --fields {params.fasta_fields} \
-            --prettify-fields {params.prettify_fields}
+        cp {input.metadata:q} {output.metadata:q}
+        cp {input.sequences:q} {output.sequences:q}
         """
 
 rule filter:
     message:
         """
         Filtering to
-          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
           - excluding strains in {input.exclude}
           - minimum genome length of {params.min_length}
         """
     input:
-        sequences = rules.parse.output.sequences,
-        metadata = rules.parse.output.metadata,
+        sequences = rules.download.output.sequences,
+        metadata = rules.download.output.metadata,
         include = files.include,
         exclude = files.exclude
     output:
         sequences = "results/filtered.fasta"
     params:
-        group_by = "country",
-        sequences_per_group = 100,
-        min_length = 5000,
+        min_length = 15000
     shell:
         """
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
-            --exclude {input.exclude} \
             --include {input.include} \
-            --output {output.sequences} \
-            --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
-            --min-length {params.min_length}
+            --exclude {input.exclude} \
+            --min-length {params.min_length} \
+            --output {output.sequences}
         """
 
 rule align:
@@ -171,12 +146,12 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment = rules.mask.output,
-        metadata = rules.parse.output.metadata
+        metadata = rules.download.output.metadata
     output:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
     params:
-        root = "Wuhan/WIV04/2019 Wuhan/WIV06/2019",
+        root = "Wuhan-Hu-1/2019 Wuhan/WIV06/2019",
         clock_rate = 0.0005,
         clock_std_dev = 0.0003,
         coalescent = "skyline",
@@ -217,7 +192,7 @@ rule ancestral:
             --alignment {input.alignment} \
             --output-node-data {output.node_data} \
             --inference {params.inference} \
-            --keep-ambiguous
+            --infer-ambiguous
         """
 
 rule translate:
@@ -245,7 +220,7 @@ rule traits:
         """
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download.output.metadata,
         weights = files.weights
     output:
         node_data = "results/traits.json",
@@ -268,7 +243,7 @@ rule export:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -296,7 +271,7 @@ rule export_gisaid:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -323,7 +298,7 @@ rule export_zh:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -399,7 +374,7 @@ rule dated_json:
 rule poisson_tmrca:
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.parse.output.metadata,
+        metadata = rules.download.output.metadata,
         nt_muts = rules.ancestral.output.node_data
     output:
         "figures/ncov_poisson-tmrca.png"
