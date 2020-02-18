@@ -18,6 +18,7 @@ HKU-SZ-005b_2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
+pangolin/Guandong/1/2020
 pangolin/Guangdong/P2S/2019
 pangolin/Guangxi/P1E/2017
 pangolin/Guangxi/P2V/2017
@@ -27,8 +28,9 @@ pangolin/Guangxi/P5E/2017
 pangolin/Guangxi/P5L/2017
 
 # Confusing phylogeography
-Australia/QLD02/2020
 USA/IL2/2020
+Singapore/4/2020
+Sydney/3/2020
 
 # These have more tip-specific divergence than expected
 Beijing/IVDC-BJ-005/2020
