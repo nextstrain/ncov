@@ -17,10 +17,11 @@ rule files:
         reference = "config/reference.gb",
         outgroup = "config/outgroup.fasta",
         weights = "config/weights.tsv",
+        ordering = "config/ordering.tsv",
+        color_schemes = "config/color_schemes.tsv",
         auspice_config = "config/auspice_config.json",
         auspice_config_gisaid = "config/auspice_config_gisaid.json",
         auspice_config_zh = "config/auspice_config_zh.json",
-        colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
         description = "config/description.md",
         description_zh = "config/description_zh.md"
@@ -229,6 +230,21 @@ rule traits:
             --sampling-bias-correction {params.sampling_bias_correction} \
         """
 
+rule colors:
+    message: "Constructing colors file"
+    input:
+        ordering = files.ordering,
+        color_schemes = files.color_schemes
+    output:
+        colors = "config/colors.tsv"
+    shell:
+        """
+        python3 scripts/assign-colors.py \
+            --ordering {input.ordering} \
+            --color-schemes {input.color_schemes} \
+            --output {output.colors}
+        """
+
 rule export:
     message: "Exporting data files for for auspice"
     input:
@@ -239,7 +255,7 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config,
-        colors = files.colors,
+        colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description
     output:
@@ -267,7 +283,7 @@ rule export_gisaid:
         aa_muts = rules.translate.output.node_data,
         traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_gisaid,
-        colors = files.colors,
+        colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description
     output:
@@ -295,7 +311,7 @@ rule export_zh:
         aa_muts = rules.translate.output.node_data,
         traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_zh,
-        colors = files.colors,
+        colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description_zh
     output:

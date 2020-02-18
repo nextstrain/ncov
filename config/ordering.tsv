@@ -1,0 +1,97 @@
+location	Wuhan
+location	Pingxiang
+location	Zhongxian
+location	Yongchuan
+location	Chongqing
+location	Chengdu
+location	Kunming
+location	Hangzhou
+location	Guangdong
+location	Shenzhen
+location	Zhuhai
+location	Huaian
+location	Guangzhou
+location	Foshan
+location	Taipei
+location	Kaohsiung
+location	Bangkok
+location	Aichi
+location	Tokyo
+location	Kyoto
+location	Gyeonggi
+location	Kathmandu
+location	Thanh Hoa
+location	Bangkok
+location	Singapore
+location	Gold Coast
+location	Sydney
+location	Clayton
+location	Paris
+location	Contamines
+location	Leuven
+location	Starnberg
+location	Rome
+location	England
+location	Rovaniemi
+location	Seattle
+location	Orange County
+location	Los Angeles
+location	California
+location	Phoenix
+location	Chicago
+location	Illinois
+location	Wisconsin
+location	Boston
+
+division	Hubei
+division	Jiangxi
+division	Chongqing
+division	Sichuan
+division	Yunnan
+division	Jiangsu
+division	Zhejiang
+division	Guangdong
+division	Taiwan
+division	Aichi
+division	Tokyo
+division	Nara
+division	Osaka
+division	Kyoto
+division	Gyeonggi
+division	Kathmandu
+division	Thanh Hoa
+division	Nonthaburi
+division	Singapore
+division	Queensland
+division	New South Wales
+division	Victoria
+division	Ile De France
+division	Auvergne Rhone Alpes
+division	Flanders
+division	Bavaria
+division	Lazio
+division	England
+division	Lapland
+division	Washington
+division	California
+division	Arizona
+division	Illinois
+division	Wisconsin
+division	Massachusetts
+
+country	China
+country	Taiwan
+country	Japan
+country	South Korea
+country	Nepal
+country	Vietnam
+country	Thailand
+country	Singapore
+country	Australia
+country	France
+country	Belgium
+country	Germany
+country	Italy
+country	United Kingdom
+country	Finland
+country	USA
