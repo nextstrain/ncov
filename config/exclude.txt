@@ -13,6 +13,10 @@ Wuhan/IVDC-HB-envF13-21/2020
 Italy/INMI1/2020
 Italy/INMI1-isl/2020
 
+# Duplicates of France/IDF0372/2020 and France/IDF0515/2020
+France/IDF0372-isl/2020
+France/IDF0515-isl/2020
+
 # Lack of precise date is leading to an incorrect time placement (end of Jan)
 HKU-SZ-005b_2020
 
@@ -26,6 +30,7 @@ pangolin/Guangxi/P3B/2017
 pangolin/Guangxi/P4L/2017
 pangolin/Guangxi/P5E/2017
 pangolin/Guangxi/P5L/2017
+pangolin/Guandong/1/2019
 
 # Confusing phylogeography
 USA/IL2/2020
