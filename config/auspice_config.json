@@ -23,6 +23,16 @@
       "type": "categorical"
     },
     {
+      "key": "age",
+      "title": "Age",
+      "type": "continuous"
+    },
+    {
+      "key": "sex",
+      "title": "Sex",
+      "type": "categorical"
+    },
+    {
       "key": "author",
       "title": "Authors",
       "type": "categorical"

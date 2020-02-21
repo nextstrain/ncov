@@ -217,7 +217,7 @@ rule traits:
         node_data = "results/traits.json",
     params:
         columns = "division",
-        sampling_bias_correction = 2
+        sampling_bias_correction = 2.5
     shell:
         """
         augur traits \
