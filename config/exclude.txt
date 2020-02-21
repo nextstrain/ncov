@@ -24,6 +24,9 @@ France/IDF0571/2020
 # Lack of precise date is leading to an incorrect time placement (end of Jan)
 HKU-SZ-005b_2020
 
+# Unknown precise date and unknown admin division
+SouthKorea/SNU01/2020
+
 # Confusing phylogeography
 USA/IL2/2020
 Singapore/4/2020
