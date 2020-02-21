@@ -10,7 +10,8 @@ rule all:
         auspice_json = "auspice/ncov.json",
         dated_auspice_json = expand("auspice/ncov_{date}.json", date=get_todays_date()),
         auspice_json_gisaid = "auspice/ncov_gisaid.json",
-        auspice_json_zh = "auspice/ncov_zh.json"
+        auspice_json_zh = "auspice/ncov_zh.json",
+        aa_mutations_frequencies = "auspice/ncov_aa-mutation-frequencies.json"
 
 rule files:
     params:
@@ -204,7 +205,8 @@ rule translate:
         node_data = rules.ancestral.output.node_data,
         reference = files.reference
     output:
-        node_data = "results/aa_muts.json"
+        node_data = "results/aa_muts.json",
+        s_alignment = "results/aa-alignment_S.fasta"
     shell:
         """
         augur translate \
@@ -212,6 +214,48 @@ rule translate:
             --ancestral-sequences {input.node_data} \
             --reference-sequence {input.reference} \
             --output-node-data {output.node_data} \
+            --alignment-output results/aa-alignment_%GENE.fasta
+        """
+
+ncov_genes = ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF8", "N", "ORF10"]
+
+def translations(w):
+    genes = ncov_genes
+    return ["results/aa-alignment_%s.fasta"%(g) for g in ncov_genes]
+
+def max_date(w):
+    from datetime import datetime
+    from treetime.utils import numeric_date
+    return numeric_date(datetime.today())
+
+rule mutation_frequencies:
+    input:
+        metadata = rules.download.output.metadata,
+        alignment = translations
+    params:
+        genes = ncov_genes,
+        min_date = 2020.0,
+        max_date = max_date,
+        min_freq = 0.003,
+        pivot_interval = 1,
+        stiffness = 20,
+        inertia = 0.2
+    output:
+        mut_freq = "auspice/ncov_aa-mutation-frequencies.json"
+    shell:
+        """
+        augur frequencies --method diffusion \
+            --alignments {input.alignment:q} \
+            --metadata {input.metadata} \
+            --gene-names {params.genes} \
+            --pivot-interval {params.pivot_interval} \
+            --stiffness {params.stiffness} \
+            --inertia {params.inertia} \
+            --ignore-char X \
+            --min-date {params.min_date} \
+            --max-date {params.max_date} \
+            --minimal-frequency {params.min_freq} \
+            --output {output.mut_freq}
         """
 
 rule traits:
