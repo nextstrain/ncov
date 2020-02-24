@@ -1,4 +1,5 @@
 location	Wuhan
+location	Hefei
 location	Pingxiang
 location	Zhongxian
 location	Yongchuan
@@ -46,6 +47,7 @@ location	Wisconsin
 location	Boston
 
 division	Hubei
+division	Anhui
 division	Jiangxi
 division	Chongqing
 division	Sichuan
