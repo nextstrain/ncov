@@ -56,14 +56,6 @@ The resulting output JSON at `auspice/ncov.json` can be visualized by running `a
 _This requires [Augur](https://github.com/nextstrain/augur) version >=6.3.0, released Feb 13, 2020._
 
 
-## Development
-
-To develop locally, install required dependencies into a conda environment named `ncov` with:
-```
-conda env create -f environment.yml
-```
-
-
 ## Notes
 
 Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 5 &times; 10^-4 subs per site per year. There were SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts.
