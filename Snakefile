@@ -145,6 +145,7 @@ rule refine:
         root = "Wuhan-Hu-1/2019 Wuhan/WH01/2019",
         clock_rate = 0.0005,
         clock_std_dev = 0.0003,
+        precision = 3,
         coalescent = "skyline",
         date_inference = "marginal",
         divergence_unit = "mutations"
@@ -158,6 +159,7 @@ rule refine:
             --output-node-data {output.node_data} \
             --root {params.root} \
             --timetree \
+            --precision {params.precision} \
             --clock-rate {params.clock_rate} \
             --clock-std-dev {params.clock_std_dev} \
             --coalescent {params.coalescent} \
