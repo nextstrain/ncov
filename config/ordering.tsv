@@ -13,6 +13,7 @@ location	Zhuhai
 location	Huaian
 location	Guangzhou
 location	Foshan
+location	Hong Kong
 location	Taipei
 location	Taoyuan
 location	Kaohsiung
@@ -56,6 +57,7 @@ division	Jiangsu
 division	Zhejiang
 division	Fujian
 division	Guangdong
+division	Hong Kong
 division	Taiwan
 division	Aichi
 division	Tokyo
@@ -89,6 +91,7 @@ division	Massachusetts
 division	Texas
 
 country	China
+country	Hong Kong
 country	Taiwan
 country	Japan
 country	South Korea

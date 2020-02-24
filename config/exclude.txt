@@ -30,6 +30,9 @@ SouthKorea/SNU01/2020
 # Doesn't have the enough divergence relative to supposed sampling date
 Hefei/2/2020
 
+# Too divergent? 3 clustered mutations at end
+Vietnam/VR03-38142/2020
+
 # Confusing phylogeography
 USA/CA7/2020
 USA/IL2/2020
