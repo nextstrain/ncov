@@ -58,9 +58,16 @@ _This requires [Augur](https://github.com/nextstrain/augur) version >=6.3.0, rel
 
 ## Development
 
-To develop locally, install required dependencies into a conda environment named `ncov` with:
+We always recommend creating a virtual environment to isolate dependencies between projects.
+If you have conda installed, create a new environment named `ncov` with:
 ```
-conda env create -f environment.yml
+conda create -n ncov python=3.7
+```
+
+Then, activate your environment and install the required dependencies with:
+```
+conda activate ncov
+pip install -r requirements.txt
 ```
 
 
