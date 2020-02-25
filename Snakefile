@@ -101,7 +101,7 @@ rule mask:
         alignment = "results/masked.fasta"
     params:
         mask_from_beginning = 130,
-        mask_from_end = 15,
+        mask_from_end = 50,
         mask_sites = 18529
     shell:
         """
