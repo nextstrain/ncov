@@ -35,7 +35,7 @@ USA/CA7/2020
 USA/IL2/2020
 Singapore/4/2020
 Singapore/7/2020
-Singapore/8/2020s
+Singapore/8/2020
 Sydney/3/2020
 
 # These have more tip-specific divergence than expected
