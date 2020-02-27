@@ -30,6 +30,9 @@ SouthKorea/SNU01/2020
 # Doesn't have the enough divergence relative to supposed sampling date
 Hefei/2/2020
 
+# Seems divergent - sample date 8 Jan, but 6 muts from root.
+Jingzhou/HBCDC-HB-01/2020
+
 # Confusing phylogeography
 USA/CA7/2020
 USA/IL2/2020
@@ -60,3 +63,4 @@ pangolin/Guangxi/P4L/2017
 pangolin/Guangxi/P5E/2017
 pangolin/Guangxi/P5L/2017
 pangolin/Guandong/1/2019
+pangolin/China/MP789/2019
