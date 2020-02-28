@@ -33,6 +33,9 @@ Hefei/2/2020
 # Seems divergent - sample date 8 Jan, but 6 muts from root.
 Jingzhou/HBCDC-HB-01/2020
 
+# Far to divergent- 30 mutations
+Wuhan/HBCDC-HB-04/2019
+
 # Confusing phylogeography
 USA/CA7/2020
 USA/IL2/2020
