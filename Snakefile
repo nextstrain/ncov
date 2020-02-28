@@ -102,7 +102,7 @@ rule mask:
     params:
         mask_from_beginning = 130,
         mask_from_end = 50,
-        mask_sites = 18529
+        mask_sites = "18529 28881 28882 28883"
     shell:
         """
         python3 scripts/mask-alignment.py \

@@ -40,6 +40,7 @@ location	Rome
 location	England
 location	Rovaniemi
 location	Jönköping
+location	Sao Paulo
 location	Seattle
 location	Solano County
 location	Orange County
@@ -84,10 +85,12 @@ division	Ile De France
 division	Auvergne Rhone Alpes
 division	Flanders
 division	Bavaria
+division	Baden-Wuerttemberg
 division	Lazio
 division	England
 division	Lapland
 division	Småland
+division	Sao Paulo
 division	Washington
 division	California
 division	Arizona
@@ -114,4 +117,5 @@ country	Italy
 country	United Kingdom
 country	Finland
 country	Sweden
+country	Brazil
 country	USA
