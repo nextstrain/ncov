@@ -23,6 +23,8 @@ location	Aichi
 location	Tokyo
 location	Kyoto
 location	Gyeonggi
+location	Chungcheongnam
+location	Seoul
 location	Kathmandu
 location	Thanh Hoa
 location	Bangkok
@@ -67,6 +69,8 @@ division	Nara
 division	Osaka
 division	Kyoto
 division	Gyeonggi
+division	Chungcheongnam
+division	Seoul
 division	Kathmandu
 division	Thanh Hoa
 division	Sihanoukville

@@ -6,6 +6,7 @@ location	California	36.357039	-119.690182
 location	Chengdu	30.640989	104.067518
 location	Chicago	41.858966	-87.637242
 location	Chongqing	29.858721	107.375623
+location	Chungcheongnam	36.685948	126.799198
 location	Clayton	-37.915200	145.127165
 location	Contamines	45.820585	6.727730
 location	England	52.405994	-1.671707
@@ -35,6 +36,7 @@ location	Qingdao	36.171557	120.398496
 location	Rome	41.881118	12.492817
 location	Rovaniemi	66.501553	25.728919
 location	Seattle	47.748301	-121.850150
+location	Seoul	37.548278	126.990916
 location	Shanghai	31.171447	121.429896
 location	Shenzhen	22.639468	114.044046
 location	Singapore	1.344189	103.867546
@@ -60,6 +62,7 @@ division	Bavaria	48.1382614	11.5845093
 division	Beijing	40.071320	116.406908
 division	California	36.357039	-119.690182
 division	Chongqing	29.858721	107.375623
+division	Chungcheongnam	36.685948	126.799198
 division	England	52.405994	-1.671707
 division	Flanders	51.056536	4.254283
 division	Fujian	26.284852	118.122938
@@ -91,6 +94,7 @@ division	Sichuan	30.709229	102.693949
 division	Sihanoukville	10.616351	103.512278
 division	Singapore	1.344189	103.867546
 division	Småland	57.528294	14.463824
+division	Seoul	37.548278	126.990916
 division	Taiwan	23.816900	121.031365
 division	Texas	31.146868	-99.188758
 division	Thanh Hoa	20.026365	105.439044
