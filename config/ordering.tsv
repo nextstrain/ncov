@@ -59,6 +59,7 @@ division	Chongqing
 division	Sichuan
 division	Yunnan
 division	Jiangsu
+division	Shandong
 division	Zhejiang
 division	Fujian
 division	Guangdong
@@ -69,6 +70,7 @@ division	Tokyo
 division	Nara
 division	Osaka
 division	Kyoto
+division	Kanagawa
 division	Gyeonggi
 division	Chungcheongnam
 division	Seoul
@@ -98,6 +100,7 @@ division	Illinois
 division	Wisconsin
 division	Massachusetts
 division	Texas
+division	British Columbia
 
 country	China
 country	Hong Kong
@@ -119,3 +122,4 @@ country	Finland
 country	Sweden
 country	Brazil
 country	USA
+country	Canada

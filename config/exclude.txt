@@ -47,7 +47,6 @@ Sydney/3/2020
 # These have more tip-specific divergence than expected
 Beijing/IVDC-BJ-005/2020
 Henan/IVDC-HeN-002/2020
-Shandong/IVDC-SD-001/2020
 Shanghai/IVDC-SH-001/2020
 Shenzhen/SZTH-001/2020
 Shenzhen/SZTH-004/2020
