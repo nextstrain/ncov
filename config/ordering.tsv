@@ -37,10 +37,13 @@ location	Contamines
 location	Leuven
 location	Starnberg
 location	Rome
+location	Milan
 location	England
 location	Rovaniemi
 location	Jönköping
+location	Helsinki
 location	Sao Paulo
+location	Mexico City
 location	Seattle
 location	Solano County
 location	Orange County
@@ -89,6 +92,7 @@ division	Flanders
 division	Bavaria
 division	Baden-Wuerttemberg
 division	Lazio
+division	Lombardy
 division	England
 division	Lapland
 division	Småland
@@ -123,5 +127,6 @@ country	United Kingdom
 country	Finland
 country	Sweden
 country	Brazil
+country	Mexico
 country	USA
 country	Canada
