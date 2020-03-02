@@ -203,6 +203,22 @@ rule translate:
             --output-node-data {output.node_data} \
         """
 
+
+rule make_div_tree_for_dta:
+    message: "Making Nucleotide tree for DTA"
+    input:
+        tree = rules.refine.output.tree,
+        node_data = rules.refine.output.node_data
+    output:
+        tree = "results/tree_refined_divergence.nwk"
+    shell:
+        """
+        python3 ./scripts/make-divergence-newick.py \
+            --tree {input.tree} \
+            --node-data {input.node_data} \
+            --output {output.tree}
+        """
+
 rule traits:
     message:
         """
@@ -210,7 +226,7 @@ rule traits:
           - increase uncertainty of reconstruction by {params.sampling_bias_correction} to partially account for sampling bias
         """
     input:
-        tree = rules.refine.output.tree,
+        tree = rules.make_div_tree_for_dta.output.tree,
         metadata = rules.download.output.metadata,
         weights = files.weights
     output:
