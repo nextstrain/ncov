@@ -72,7 +72,7 @@ TODO: Add more links here to others covering this
 ### FAQs
 
 We know that a lot of people have questions about COVID-19. 
-We've set up a guide to try and answer some of those most frequently asked [here]() TODO.
+We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/FAQ) TODO: make tile! Or prettier somehow.
 
 
 ### Conspiracy Theories
@@ -96,20 +96,34 @@ TODO: Move these out to proper pages
 ```
 
 
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-03?m=div&d=tree)
+# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-03?d=tree)
 
 Here we present a phylogeny of 151</tag> strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
 
-The colours represent the within-country region or US-state of isolation, with the x-axis representing nucleotide divergence.
+The colours represent the within-country region or US-state of isolation, with the x-axis representing the sample date.
+The y-axis just shows how the sequences are connected, and does not have any units of measurement.
+
+<br>
+
+Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
+
+# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-03?d=tree&m=div)
+
+We can change the view so that the x-axis now shows 'divergence' instead.
+
+<br>
+
+Notice how many sequences that looked different previously, now sit in a line vertically.
+You can scroll up and down between the previous slide and this one, to see how the tree changes.
 
 <br>
 
 Divergence is measured as the number of changes (mutations) in the genome.
 Several sequences have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and seven mutations.
+Other viruses have between one and ten mutations.
 
 <br>
 
@@ -117,7 +131,14 @@ Sequencing the genome of a large novel RNA virus in an evolving outbreak situati
 Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
 Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
 
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-03?m=div&d=tree)
+<br>
+
+Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' view, depending on what we are trying to highlight.
+
+
+
+
+# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-03?d=tree)
 
 We currently have sequenced cases from five different continents.
 While the early cases where all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
@@ -129,33 +150,31 @@ The observation of such strong clustering of human infections can be explained b
 
 <br>
 
-# [At least two introductions with community spread into Italy](https://nextstrain.org/ncov/2020-02-03?m=div&d=tree)
+# [At least two introductions with community spread into Italy](https://nextstrain.org/ncov/2020-02-03?d=tree&f_country=Italy)
 
 We currently have 3 sequences from Italy, two of which from the Rome area and one from Lombardy in northern Italy.
-These 3 sequences share a common ancestor early in the epidemic, which strongly suggests that there were at least two introductions with community spread into Italy.
+These 3 sequences share a common ancestor early in the epidemic (near the base of the tree, to the left), which strongly suggests that there were at least two introductions with community spread into Italy.
 
-<br>
+# [Local Spread in Rome](https://nextstrain.org/ncov/2020-02-03?d=tree&label=clade:italy_2_seq&m=div)
 
 The two sequences from the Rome are cluster together and therefore indicate local spread.
-The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected in Italy.
 
 <br>
 
-# [Export of COVID-19 from Italy to other countries in Europe and Brazil](https://nextstrain.org/ncov/2020-02-03?m=div&d=tree)
+We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, and China) are actually separated from the Italian sequences by 4-5 mutations.
 
-There are several cases of COVID-19 with known travel history to Lombardy.
+# [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-02-03?d=tree&label=clade:italy_brazil_mex_germany)
 
-
-<br>
-
-We can observe these patterns in the phylogenetic tree.
-Brazil/SPBR-01/2020 and Finland/FIN-25/2020 for example have a known travel history to Italy and cluster together with a sequence from Lombardy, Italy/CDG1/2020.
+The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected in Italy (Mexico, Germany, Brazil, Finland).
 
 <br>
+
+The German "BavPat1" sequence is part of an introduction from China much earlier in the epidemic - its exact connection to the other sequences is currently unclear.
+
 
 
 <!-- This is left-side text -->
-# [Likely spread of SARS-Cov 2 in the Seattle area](https://nextstrain.org/ncov/2020-02-03?m=div&d=tree)
+# [Likely spread of SARS-Cov 2 in the Seattle area](https://nextstrain.org/ncov/2020-02-03?label=clade:WA_state&d=tree)
 
 There are now several cases of COVID-19 reported in the greater Seattle area and the US in general.
 The newly isolated and sequenced case from Snohomish County (north of Seattle), is genetically closely related to a case isolated at the end of January in the same area.
@@ -167,6 +186,8 @@ Either, the virus was introduced at least twice into the greater Seattle area fr
 The far more likely explanation, however, is that the virus was circulating undetected in the area for a while.
 
 <br>
+
+Trevor Bedford has written a great blog post about these possibilities, which you can read [here](https://bedford.io/blog/ncov-cryptic-transmission/).
 
 
 
