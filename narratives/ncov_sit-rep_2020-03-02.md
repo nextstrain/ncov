@@ -13,12 +13,13 @@ abstract: "This report uses publicly shared COVID-19 genomic data from GISAID an
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 146</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer date of common ancestor.
+Using 151</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+
 We find:
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([show me](link)). TODO
-* COVID-19 was introduced into Italy at least twice with subsequent community spread. ([show me](link)). TODO
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid November and mid December 2019. ([show me](link)). TODO
-* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the November 2019-Janurary 2020 period. ([show me](link)). TODO
+* COVID-19 was introduced into Italy at least twice with subsequent community spread. ([skip to this](SLIDE=7)). TODO: update link
+* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([skip to this](SLIDE=10)). TODO: update link
+* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid November and mid December 2019. ([skip to this](SLIDE=11)). TODO: update link
+* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the November 2019-Janurary 2020 period. ([skip to this](SLIDE=12)). TODO: update link
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-03-03)
@@ -35,7 +36,7 @@ We find:
 Below, we've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier.
 
-ALL OF THESE LINKS MUST BE UPDATED BEFORE GOING LIVE
+ALL OF THESE LINKS MUST BE UPDATED FROM THE HEROKU TO REAL NEXTSTRAIN BEFORE GOING LIVE
 <div>
   <a href="https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
 
@@ -45,7 +46,7 @@ ALL OF THESE LINKS MUST BE UPDATED BEFORE GOING LIVE
 
 </div>
 
-#### Nextstrain narratives
+## Nextstrain narratives
 
 The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
 Scrolling through the left hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right hand side.
@@ -61,7 +62,7 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 
 ### Further Reading:
 
-TODO: Add more links here to others covering this
+TODO: Add more links here to others covering conspiracy theories & FAQs from others?
 
 * Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
 
@@ -72,7 +73,13 @@ TODO: Add more links here to others covering this
 ### FAQs
 
 We know that a lot of people have questions about COVID-19. 
-We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/FAQ) TODO: make tile! Or prettier somehow.
+We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/FAQ):
+
+<div>
+
+  <a href="https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://emmahodcroft.com/images/question-mark.jpg"/> COVID-19 FAQ </a>
+
+</div>
 
 
 ### Conspiracy Theories
