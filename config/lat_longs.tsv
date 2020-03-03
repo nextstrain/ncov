@@ -42,6 +42,7 @@ location	Seoul	37.548278	126.990916
 location	Shanghai	31.171447	121.429896
 location	Shenzhen	22.639468	114.044046
 location	Singapore	1.344189	103.867546
+location	Snohomish County	48.006	-122.0731
 location	Solano County	38.295909	-121.928845
 location	Starnberg	48.0000	11.3390
 location	Sydney	-33.870747	151.208359
@@ -106,7 +107,6 @@ division	Sichuan	30.709229	102.693949
 division	Sihanoukville	10.616351	103.512278
 division	Singapore	1.344189	103.867546
 division	Småland	57.528294	14.463824
-location	Snohomish County	48.006	-122.0731
 division	Seoul	37.548278	126.990916
 division	Taiwan	23.816900	121.031365
 division	Texas	31.146868	-99.188758
@@ -117,3 +117,4 @@ division	Washington	47.183945	-119.950361
 division	Wisconsin	44.535145	-89.527762
 division	Yunnan	24.556297	101.366210
 division	Zhejiang	29.225710	120.299125
+division	Zurich	47.441242	8.641154
