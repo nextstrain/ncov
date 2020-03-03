@@ -1,4 +1,5 @@
 clade	gene	site	alt
+<<<<<<< de3820077dcb359597eb9105e197baf8c1ff638b
 
 
 A1	nuc	17373	T
@@ -28,3 +29,10 @@ B2 	nuc	29095	T
 
 B4	ORF8	84	S
 B4 	N	202	N
+=======
+italy_2_seq	nuc	11083	T
+italy_2_seq	nuc	26144	T
+italy_brazil_mex_germany	S	614	G
+WA_state	nuc	18060	T
+WA_state	nuc	8782	T
+>>>>>>> add clade labels for italy seqs (2) and WA state seqs (1)
