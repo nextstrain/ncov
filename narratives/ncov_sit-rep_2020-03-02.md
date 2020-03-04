@@ -4,11 +4,11 @@ authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Il
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 March 03"
-dataset: "https://nextstrain.org/ncov/2020-03-03"
+dataset: "https://nextstrain.org/ncov/2020-03-02"
 abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
 
-# [Executive summary](https://nextstrain.org/ncov/2020-03-03)
+# [Executive summary](https://nextstrain.org/ncov/2020-03-02)
 
 ```auspiceMainDisplayMarkdown
 ## Executive summary
@@ -22,7 +22,7 @@ We find:
 * Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the November 2019-Janurary 2020 period. ([skip to this](SLIDE=12)). TODO: update link
 ```
 
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-03)
+# [Coronaviruses](https://nextstrain.org/ncov/2020-03-02)
 
 ### Further Reading:
 
@@ -58,7 +58,7 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 ```
 
 
-# [FAQs & Conspiracies](https://nextstrain.org/ncov/2020-03-03)
+# [FAQs & Conspiracies](https://nextstrain.org/ncov/2020-03-02)
 
 ### Further Reading:
 
@@ -72,7 +72,7 @@ TODO: Add more links here to others covering conspiracy theories & FAQs from oth
 
 ### FAQs
 
-We know that a lot of people have questions about COVID-19. 
+We know that a lot of people have questions about COVID-19.
 We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/FAQ):
 
 <div>
@@ -103,7 +103,7 @@ TODO: Move these out to proper pages
 ```
 
 
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-03?d=tree)
+# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-02?d=tree)
 
 Here we present a phylogeny of 151</tag> strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
@@ -117,7 +117,7 @@ The y-axis just shows how the sequences are connected, and does not have any uni
 
 Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
 
-# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-03?d=tree&m=div)
+# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-02?d=tree&m=div)
 
 We can change the view so that the x-axis now shows 'divergence' instead.
 
@@ -145,7 +145,7 @@ Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' vi
 
 
 
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-03?d=tree)
+# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-02?d=tree)
 
 We currently have sequenced cases from five different continents.
 While the early cases where all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
@@ -198,7 +198,7 @@ Trevor Bedford has written a great blog post about these possibilities, which yo
 
 
 
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-03?d=tree)
+# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-02?d=tree)
 
 The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
 This time can be as early as the time when a virus first entered the human population, but can also be substantially later as show in the figure below.
@@ -208,32 +208,22 @@ This time can be as early as the time when a virus first entered the human popul
 </div>
 
 
-
 ```auspiceMainDisplayMarkdown
 ## Date of the common ancestor of outbreak viruses
 
-Several research groups and people have estimated the time of the most recent common ancestor.
-http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020/356
-http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes/405/2
+Several research groups and people have estimated the time of the most recent common ancestor (see for exampled [here](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020) or [here](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes))
 
 The common ancestor of all sequences is most likely between mid November and mid December.
-This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020/356).
+This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020).
+
 
 <div>
-  <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
+  <img alt="estimate of the tMRCA using Bayesian phylogenetics" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/beast_coal-tmrca_2020303.png"/>
 </div>
-
-Using the entire data set, the nextstrain analysis pipeline estimates that the common ancestor most likely existed between late-Nov and the beginning of December 2019.
-
-There is a [confirmed case in Wuhan with onset date of December 1, 2019](https://twitter.com/trvrb/status/1220749265380593664), which would put an upper bound on the date of most recent common ancestor.
-The common ancestor of viruses sequenced to date might be later than this date though.
-
-More detailed modeling of the onset of the outbreak are ongoing.
-Despite considerable uncertainty, our best guess is remains late November/early December 2019.
 
 ```
 
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-03-03?d=tree)
+# [Estimating the growth rate](https://nextstrain.org/ncov/2020-03-02?d=tree)
 
 An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
 
@@ -244,30 +234,39 @@ One the right, we present simple estimates of R0.
 
 ```auspiceMainDisplayMarkdown
 ## Estimates of epidemic growth rate
+
+
 Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 2020-01-22.
 With the additional exported cases since and the continued growth of confirmed cases in China, we currently have to expect at least 50000 cases to date.
 Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
 
-**We find plausible estimates of R0 between 1.8 and 3.5.**
+**We find plausible estimates of R0 between 2.2 and 3.5 for the initial spread of COVID-19 in China.**
 
-If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.8 and 2.5, depending on how large ('n') the outbreak is now.
-<div>
-  <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early_2020-01-29.png"/>
-</div>
-
-If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 2.2 and 3.5:
+If we assume a more recent start, at the beginning of December 2019, the estimates for R0 range between 2.2 and 3.5:
 <div>
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
-This estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
+
+These estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
 Importantly, R0 is a quantity that depends strongly on the socio-economic context and infection control measures.
+
+Using an exponential growth model, we additionally estimated the doubling time using the genetic sequences.
+We estimate the number of cases to double every 5 to 13 days.
+
+<div>
+  <img alt="estimates of doubling times from genetic sequences" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/beast_coal-doubling_2020303.png"/>
+</div>
+
+These estimates come with a significant amount of assumptions, such as that all isolates were taken at random from a well mixed population where everyone is equally likely to transmit to anyone else.
+These estimates are broken by, for example, a disease being spread in different geographic areas.
+
 ```
 
 
 
 
 
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-03?d=map&c=author)
+# [Scientific credit](https://nextstrain.org/ncov/2020-03-02?d=map&c=author)
 
 TODO: Is this up to date?
 
@@ -289,7 +288,7 @@ The nCoV genomes were generously shared by scientists at the:
  * Centers for Disease Control, R.O.C., Taipei, Taiwan
  * Institut Pasteur, Paris, France
 
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-03?d=map&c=author)
+# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-02?d=map&c=author)
 
 These data were shared via [GISAID](https://gisaid.org).
 We gratefully acknowledge their contributions.
