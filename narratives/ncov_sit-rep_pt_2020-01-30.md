@@ -151,7 +151,7 @@ No momento, a filogenia do novo coronavírus (nCov) pode não parecer muito como
 
 # [Análise filogenética](https://nextstrain.org/ncov/2020-01-30?m=div&d=tree)
 
-Aqui apresentamos uma filogenia de 42</tag> cepas de nCoV que foram compartilhadas publicamente. Informações sobre como a análise foi realizada está disponível em [nosso repositório no GitHub](github.com/nextstrain/ncov).
+Aqui apresentamos uma filogenia de 42</tag> cepas de nCoV que foram compartilhadas publicamente. Informações sobre como a análise foi realizada está disponível em [nosso repositório no GitHub](https://github.com/nextstrain/ncov).
 
 <br>
 
