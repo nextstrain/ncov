@@ -74,7 +74,7 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 
 ```auspiceMainDisplayMarkdown
 
-## FAQs & Conspiracy Theories
+## FAQs & Misconceptions
 
 ### FAQs
 
@@ -88,7 +88,7 @@ We've set up a guide to try and answer some of those most frequently asked [here
 </div>
 
 
-### Conspiracy Theories
+### Misconceptions
 
 A number of false ideas have been circulated about the origins of the novel coronavirus.
 During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
