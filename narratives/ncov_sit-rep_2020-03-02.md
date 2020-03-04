@@ -17,9 +17,10 @@ Using 160</tag> publicly shared COVID-19 genomes, we examined genetic diversity 
 
 We find:
 * COVID-19 was introduced into Italy at least twice with subsequent community spread. ([skip to this](SLIDE=7)). TODO: update link
+* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([skip to this](SLIDE=9)). TODO: update link
 * Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([skip to this](SLIDE=10)). TODO: update link
 * All the sequenced cases included in this analysis likely share a common ancestor sometime between mid November and mid December 2019. ([skip to this](SLIDE=11)). TODO: update link
-* Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the November 2019-Janurary 2020 period. ([skip to this](SLIDE=12)). TODO: update link
+
 ```
 
 # [Coronaviruses](https://nextstrain.org/ncov/2020-03-04)
@@ -166,13 +167,26 @@ We currently have 3 sequences from Italy, two of which are from the Rome area an
 
 These 3 sequences share a common ancestor early in the epidemic (near the base of the tree, to the left), which strongly suggests that there were at least two introductions with community spread into Italy.
 
+<br>
+
+Dr Nuno Faria et al. give an excellent breakdown [here](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
+
 # [Local Spread in Rome](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A1a&m=div)
 
-The two sequences from the Rome are cluster together and therefore indicate local spread.
+The two sequences from the Rome (29 January 2020) cluster together and therefore suggest local spread.
 
 <br>
 
 We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, Switzerland, the USA, and China) are actually separated from the Italian sequences by 2-4 mutations.
+
+<br>
+
+However, the Brazilian sequence (SPBR-02) has a travel history to Milan, in Lombardy, and it is thought that the Swiss sequence in this cluster also recently travelled to Italy. We do not know anything about the travel history of the USA sample. The England/09c isolate is a direct importation from China.
+
+<br>
+
+As the English sample (from China) sits between the earlier Italian samples from Rome and the cases with known (Swiss, Brazilian) or possible (USA) travel to Italy, we should not assume that the older Italian sequences and newer Italian-linked sequences are directly linked. The more recent samples could come from another independant introduction to Italy
+
 
 # [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A2)
 
@@ -232,70 +246,103 @@ This would be consistent with all currently sequenced cases descending from the 
 ```
 
 
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-03-04?d=tree)
-
-An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
-
-<br>
-
-This number is known as R0 ("R-zero" or "R-nought").
-One the right, we present simple estimates of R0.
-
-```auspiceMainDisplayMarkdown
-## Estimates of epidemic growth rate
-
-
-Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 22 January 2020.
-Since then, there have been many additional cases both within China and exported around the globe.
-Together with our previous estimates of the age of the outbreak, and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
-
-**We find plausible estimates of R0 between 2.2 and 3.5 for the initial spread of COVID-19 in China.**
-
-If we assume an epidemic start at the beginning of December 2019, the estimates for R0 range between 2.2 and 3.5:
-<div>
-  <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
-</div>
-
-These estimates are broadly consistent with those by other scientists which mostly fall between R0=2-3, see for example <a href="https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1">this preprint</a>.
-Importantly, R0 is a quantity that depends strongly on the socio-economic context and infection control measures.
-
-Using an exponential growth model, we additionally estimated the doubling time using the genetic sequences.
-We estimate the number of cases to double every 5 to 13 days.
-
-<div>
-  <img alt="estimates of doubling times from genetic sequences" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/beast_coal-doubling_2020303.png"/>
-</div>
-
-These estimates come with a significant amount of assumptions, such as that all isolates were taken at random from a well mixed population where everyone is equally likely to transmit to anyone else.
-These estimates are broken by, for example, a disease being spread in different geographic areas.
-
-```
-
-
 
 
 
 # [Scientific credit](https://nextstrain.org/ncov/2020-03-04?d=map&c=author)
-
-TODO: Is this up to date?
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
 
 <br>
 
-The nCoV genomes were generously shared by scientists at the:
+We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
- * Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
- * Guangdong Provincial Center for Diseases Control and Prevention
- * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
- * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
- * Centers for Disease Control, R.O.C., Taipei, Taiwan
- * Institut Pasteur, Paris, France
+
+```auspiceMainDisplayMarkdown
+
+We are grateful for the data gathered by these originating labs:
+
+* Centre for Infectious Diseases and Microbiology Laboratory Services
+* Pathology Queensland
+* Monash Medical Centre
+* National Institute for Viral Disease Control and Prevention, China CDC
+* KU Leuven, Clinical and Epidemiological Virology
+* Hospital Israelita Albert Einstein
+* Virology Unit, Institut Pasteur du Cambodge.
+* BCCDC Public Health Laboratory
+* Yongchuan District Center for Disease Control and Prevention
+* Zhongxian Center for Disease Control and Prevention
+* Respiratory Virus Unit, Microbiology Services Colindale, Public Health England
+* Lapland Central Hospital
+* HUS Diagnostiikkakeskus, Hallinto
+* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health
+* Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris
+* Sorbonne Universite, Inserm et Assistance Publique-Hopitaux de Paris (Pitie Salpetriere)
+* CNR Virus des Infections Respiratoires - France SUD
+* Fujian Center for Disease Control and Prevention
+* State Health Office Baden-Wuerttemberg
+* Charite Universitatsmedizin Berlin, Institute of Virology; Institut fur Mikrobiologie der Bundeswehr, Munich
+* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health
+* Guangdong Provincial Center for Diseases Control and Prevention;Guangdong Provincial Institute of Public Health
+* Hangzhou Center for Disease and Control Microbiology Lab
+* Hangzhou Center for Disease Control and Prevention
+* Second Hospital of Anhui Medical University
+* Hong Kong Department of Health
+* Department of Infectious Diseases, Istituto Superiore di Sanita, Roma , Italy
+* INMI Lazzaro Spallanzani IRCCS
+* Department of Infectious Diseases, Istituto Superiore di Sanita, Rome, Italy
+* Department of Virology III, National Institute of Infectious Diseases
+* Dept. of Virology III, National Institute of Infectious Diseases
+* Dept. of Pathology, National Institute of Infectious Diseases
+* NHC Key laboratory of Enteric Pathogenic Microbiology, Institute of Pathogenic Microbiology
+* Jingzhou Center for Disease Control and Prevention
+* Division of Viral Diseases, Center for Laboratory Control of Infectious Diseases, Korea Centers for Diseases Control and Prevention
+* Instituto Nacional de Enfermedades Respiratorias
+* National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal
+* Bamrasnaradura Hospital
+* The University of Hong Kong - Shenzhen Hospital
+* Shenzhen Third People's Hospital
+* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
+* Singapore General Hospital
+* National Public Health Laboratory, National Centre for Infectious Diseases
+* National Public Health Laboratory
+* National Centre for Infectious Diseases
+* Singapore General Hospital, Molecular Laboratory, Division of Pathology
+* Korea Centers for Disease Control & Prevention (KCDC) Center for Laboratory Control of Infectious Diseases Division of Viral Diseases
+* Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology Randwick
+* Centers for Disease Control, R.O.C. (Taiwan)
+* Taiwan Centers for Disease Control
+* Laboratory Medicine
+* Department of Laboratory Medicine, National Taiwan University Hospital
+* Tianmen Center for Disease Control and Prevention
+* Arizona Department of Health Services
+* California Department of Public Health
+* California Department of Health
+* IL Department of Public Health Chicago Laboratory
+* Massachusetts Department of Public Health
+* Texas Department of State Health Services
+* WA State Department of Health
+* Washington State Department of Health
+* Providence Regional Medical Center
+* Wisconsin Department of Health Services
+* National Influenza Center - National Institute of Hygiene and Epidemiology (NIHE)
+* Wuhan Jinyintan Hospital
+* The Central Hospital Of Wuhan
+* Union Hospital of Tongji Medical College, Huazhong University of Science and Technology
+* CR & Wisco General Hospital
+* Wuhan Lung Hospital
+* Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College
+* Institute of Viral Disease Control and Prevention, China CDC
+* General Hospital of Central Theater Command of People's Liberation Army of China
+* Wuhan Fourth Hospital
+* Zhejiang Provincial Center for Disease Control and Prevention
+* Wuhan Institute of Virology, Chinese Academy of Sciences
+* Shandong First Medical University & Shandong Academy of Medical Sciences
+* South China Agricultural University
+* Beijing Institute of Microbiology and Epidemiology
+
+```
 
 # [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-04?d=map&c=author)
 
@@ -308,56 +355,330 @@ To the right we give specific sequences shared by each lab.
 
 ```auspiceMainDisplayMarkdown
 
-The nCoV genomes were generously shared by scientists at the
+The nCoV genomes were generously shared by scientists at these submitting labs:
 
- * Shanghai Public Health Clinical Center & School of Public Health, Fudan University, Shanghai, China
-   - Wuhan-Hu-1/2019
- * National Institute for Viral Disease Control and Prevention, China CDC, Beijing, China
-   - Wuhan/IVDC-HB-01/2019
-   - Wuhan/IVDC-HB-04/2020
-   - Wuhan/IVDC-HB-05/2019)
- * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
-   - Wuhan/IPBCAMS-WH-01/2019
-   - Wuhan/IPBCAMS-WH-02/2019
-   - Wuhan/IPBCAMS-WH-03/2019
-   - Wuhan/IPBCAMS-WH-04/2019
- * Wuhan Institute of Virology, Chinese Academy of Sciences, Wuhan, China
-   - Wuhan/WIV02/2019
-   - Wuhan/WIV04/2019
-   - Wuhan/WIV05/2019
-   - Wuhan/WIV06/2019
-   - Wuhan/WIV07/2019
- * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China
-   - Zhejiang/WZ-01/2020
-   - Zhejiang/WZ-02/2020
- * Guangdong Provincial Center for Diseases Control and Prevention
-   - Guangdong/20SF001/2020
-   - Guangdong/20SF012/2020
-   - Guangdong/20SF013/2020
-   - Guangdong/20SF014/2020
-   - Guangdong/20SF025/2020
-   - Guangdong/20SF028/2020
-   - Guangdong/20SF040/2020
-   - Guangdong/20SF174/2020
-   - Guangdong/20SF206/2020
-   - Guangdong/20SF207/2020
-   - Foshan/20SF207/2020
-   - Foshan/20SF210/2020
-   - Foshan/20SF211/2020
+* NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney
+	* Australia/NSW01/2020
+	* Australia/NSW05/2020
+	* Sydney/2/2020
 
- * Department of Medical Sciences, National Institute of Health, Nonthaburi, Thailand
-   - Nonthaburi/61/2020
-   - Nonthaburi/74/2020
- * Division of Viral Diseases, Centers for Disease Control and Prevention, USA
-   - USA-WA1/2020
-   - USA/AZ1/2020
-   - USA/IL1/2020
-   - USA/CA1/2020
-   - USA/CA2/2020
- * Centers for Disease Control, R.O.C., Taipei, Taiwan
-   - Taiwan/2/2020
- * Institut Pasteur, Paris, France
-   - France/IDF0372/2020
-   - France/IDF0373/2020
+* Public Health Virology Laboratory
+	* Australia/QLD01/2020
+	* Australia/QLD02/2020
+	* Australia/QLD03/2020
+	* Australia/QLD04/2020
+
+* Collaboration between the University of Melbourne at The Peter Doherty Institute for Infection and Immunity, and the Victorian Infectious Disease Reference Laboratory
+	* Australia/VIC01/2020
+
+* National Institute for Viral Disease Control & Prevention, CCDC
+	* Beijing/IVDC-BJ-005/2020
+	* Chongqing/IVDC-CQ-001/2020
+	* Jiangsu/IVDC-JS-001/2020
+	* Jiangxi/IVDC-JX-002/2020
+	* Shandong/IVDC-SD-001/2020
+	* Shanghai/IVDC-SH-001/2020
+	* Sichuan/IVDC-SC-001/2020
+	* Yunnan/IVDC-YN-003/2020
+
+* KU Leuven, Clinical and Epidemiological Virology
+	* Belgium/GHB-03021/2020
+
+* Instituto Adolfo Lutz Interdisciplinary Procedures Center Strategic Laboratory
+	* Brazil/SPBR-01/2020
+
+* Virology Unit, Institut Pasteur du Cambodge (Sequencing done by: Jessica E Manning/Jennifer A Bohl at Malaria and Vector Research Research Laboratory, National Institute of Allergy and Infectious Diseases and Vida Ahyong from Chan-Zuckerberg Biohub)
+	* Cambodia/0012/2020
+
+* BCCDC Public Health Laboratory
+	* Canada/BC_37_0-2/2020
+
+* Technology Centre, Guangzhou Customs
+	* China/IQTC01/2020
+	* China/IQTC02/2020
+
+* Key Laboratory of Human Diseases, Comparative Medicine, Institute of Laboratory Animal Science
+	* China/WH-09/2020
+
+* State Key Laboratory of Virology, Wuhan University
+	* China/WHU01/2020
+	* China/WHU02/2020
+
+* Chongqing Municipal Center for Disease Control and Prevention
+	* Chongqing/YC01/2020
+	* Chongqing/ZX01/2020
+
+* Respiratory Virus Unit, Microbiology Services Colindale, Public Health England
+	* England/01/2020
+	* England/02/2020
+	* England/09c/2020
+
+* Department of Virology, University of Helsinki and Helsinki University Hospital, Helsinki, Finland
+	* Finland/1/2020
+
+* Department of Virology Faculty of Medicine, Medicum University of Helsinki
+	* Finland/FIN-25/2020
+
+* Guangdong Provincial Center for Diseases Control and Prevention
+	* Foshan/20SF207/2020
+	* Foshan/20SF210/2020
+	* Foshan/20SF211/2020
+	* Guangdong/20SF201/2020
+	* Guangzhou/20SF206/2020
+
+* National Reference Center for Viruses of Respiratory Infections, Institut Pasteur, Paris
+	* France/IDF0372-isl/2020
+	* France/IDF0372/2020
+	* France/IDF0373/2020
+	* France/IDF0515-isl/2020
+	* France/IDF0515/2020
+	* France/IDF0626/2020
+
+* Laboratoire Virpath, CIRI U111, UCBL1, INSERM, CNRS, ENS Lyon
+	* France/IDF0386-islP1/2020
+	* France/IDF0386-islP3/2020
+	* France/IDF0571/2020
+
+* CNR Virus des Infections Respiratoires - France SUD
+	* France/RA739/2020
+
+* Fujian Center for Disease Control and Prevention
+	* Fujian/13/2020
+	* Fujian/8/2020
+
+* Charite Universitatsmedizin Berlin, Institute of Virology
+	* Germany/Baden-Wuerttemberg-1/2020
+	* Germany/BavPat1/2020
+
+* Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention
+	* Guangdong/20SF012/2020
+	* Guangdong/20SF013/2020
+	* Guangdong/20SF014/2020
+	* Guangdong/20SF025/2020
+	* Guangdong/20SF028/2020
+	* Guangdong/20SF040/2020
+
+* Guangdong Provincial Center for Disease Control and Prevention
+	* Guangdong/20SF174/2020
+
+* Hangzhou Center for Disease and Control Microbiology Lab
+	* Hangzhou/HZ-1/2020
+
+* Hangzhou Center for Disease Control and Prevention
+	* Hangzhou/HZCDC0001/2020
+
+* Second Hospital of Anhui Medical University
+	* Hefei/2/2020
+
+* National Institute for Viral Disease Control & Prevention, China CDC
+	* Henan/IVDC-HeN-002/2020
+
+* School of Public Health, The University of Hon g Kong
+	* HongKong/VB20026565/2020
+	* HongKong/VM20001061/2020
+
+* The University of Hong Kong
+	* HongKong/VM20001988/2020
+	* Nepal/61/2020
+
+* Virology Laboratory, Scientific Department, Army Medical Center
+	* Italy/CDG1/2020
+	* Italy/SPL1/2020
+
+* Laboratory of Virology, INMI Lazzaro Spallanzani IRCCS
+	* Italy/INMI1-cs/2020
+	* Italy/INMI1-isl/2020
+
+* Pathogen Genomics Center, National Institute of Infectious Diseases
+	* Japan/AI/I-004/2020
+	* Japan/KY-V-029/2020
+	* Japan/NA-20-05-1/2020
+	* Japan/OS-20-07-1/2020
+	* Japan/TY-WK-012/2020
+	* Japan/TY-WK-501/2020
+	* Japan/TY-WK-521/2020
+
+* Takayuki Hishiki Kanagawa Prefectural Institute of Public Health, Department of Microbiology
+	* Japan/Hu_DP_Kng_19-020/2020
+	* Japan/Hu_DP_Kng_19-027/2020
+
+* Jiangsu Provincial Center for Disease Control & Prevention
+	* Jiangsu/JS01/2020
+	* Jiangsu/JS02/2020
+	* Jiangsu/JS03/2020
+
+* Hubei Provincial Center for Disease Control and Prevention
+	* Jingzhou/HBCDC-HB-01/2020
+	* Tianmen/HBCDC-HB-07/2020
+	* Wuhan/HBCDC-HB-01/2019
+	* Wuhan/HBCDC-HB-02/2019
+	* Wuhan/HBCDC-HB-02/2020
+	* Wuhan/HBCDC-HB-03/2019
+	* Wuhan/HBCDC-HB-03/2020
+	* Wuhan/HBCDC-HB-04/2019
+	* Wuhan/HBCDC-HB-04/2020
+	* Wuhan/HBCDC-HB-05/2020
+	* Wuhan/HBCDC-HB-06/2020
+
+* Division of Viral Diseases, Center for Laboratory Control of Infectious Diseases, Korea Centers for Diseases Control and Prevention
+	* Korea/KCDC05/2020
+	* Korea/KCDC06/2020
+	* Korea/KCDC07/2020
+	* Korea/KCDC12/2020
+	* Korea/KCDC24/2020
+
+* Instituto de Diagnostico y Referencia Epidemiologicos (INDRE)
+	* Mexico/CDMX/InDRE_01/2020
+
+* 1. Department of Medical Sciences, Ministry of Public Health, Thailand 2. Thai Red Cross Emerging Infectious Diseases - Health Science Centre 3. Department of Disease Control, Ministry of Public Health, Thailand
+	* Nonthaburi/61/2020
+	* Nonthaburi/74/2020
+
+* Li Ka Shing Faculty of Medicine, The University of Hong Kong
+	* Shenzhen/HKU-SZ-002/2020
+	* Shenzhen/HKU-SZ-005/2020
+
+* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease,Shenzhen Third People's Hospital
+	* Shenzhen/SZTH-001/2020
+
+* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
+	* Shenzhen/SZTH-002/2020
+	* Shenzhen/SZTH-003/2020
+	* Shenzhen/SZTH-004/2020
+
+* National Public Health Laboratory
+	* Singapore/1/2020
+	* Singapore/11/2020
+
+* National Centre for Infectious Diseases, National Centre for Infectious Diseases
+	* Singapore/10/2020
+
+* Programme in Emerging Infectious Diseases, Duke-NUS Medical School
+	* Singapore/2/2020
+	* Singapore/3/2020
+	* Singapore/4/2020
+	* Singapore/5/2020
+	* Singapore/6/2020
+
+* National Public Health Laboratory, National Centre for Infectious Diseases
+	* Singapore/7/2020
+	* Singapore/8/2020
+	* Singapore/9/2020
+
+* Korea Centers for Disease Control & Prevention (KCDC) Center for Laboratory Control of Infectious Diseases Division of Viral Diseases
+	* SouthKorea/KCDC03/2020
+
+* Department of Clinical Diagnostics
+	* SouthKorea/SNU01/2020
+
+* Unit for Laboratory Development and Technology Transfer, Public Health Agency of Sweden
+	* Sweden/01/2020
+
+* NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Centre for Infectious Diseases and Microbiology Laboratory Services; Westmead Hospital; University of Sydney
+	* Sydney/3/2020
+
+* Centers for Disease Control, R.O.C. (Taiwan)
+	* Taiwan/2/2020
+
+* Taiwan Centers for Disease Control
+	* Taiwan/3/2020
+	* Taiwan/4/2020
+
+* Department of Laboratory Medicine, Lin-Kou Chang Gung Memorial Hospital, Taoyuan, Taiwan.
+	* Taiwan/CGMH-CGU-01/2020
+
+* Microbial Genomics Core Lab, National Taiwan University Centers of Genomic and Precision Medicine
+	* Taiwan/NTU01/2020
+	* Taiwan/NTU02/2020
+
+* Pathogen Discovery, Respiratory Viruses Branch, Division of Viral Diseases, Centers for Disease Control and Prevention
+	* USA/AZ1/2020
+	* USA/CA1/2020
+	* USA/CA2/2020
+	* USA/CA3/2020
+	* USA/CA4/2020
+	* USA/CA5/2020
+	* USA/CA6/2020
+	* USA/CA7/2020
+	* USA/CA8/2020
+	* USA/CA9/2020
+	* USA/IL1/2020
+	* USA/IL2/2020
+	* USA/MA1/2020
+	* USA/TX1/2020
+	* USA/WA1-A12/2020
+	* USA/WA1-F6/2020
+	* USA/WI1/2020
+
+* Division of Viral Diseases, Centers for Disease Control and Prevention
+	* USA/WA1/2020
+
+* Seattle Flu Study
+	* USA/WA2/2020
+
+* National Influenza Center - National Institute of Hygiene and Epidemiology (NIHE)
+	* Vietnam/VR03-38142/2020
+
+* National Institute for Communicable Disease Control and Prevention (ICDC) Chinese Center for Disease Control and Prevention (China CDC)
+	* Wuhan-Hu-1/2019
+
+* Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College
+	* Wuhan/IPBCAMS-WH-01/2019
+	* Wuhan/IPBCAMS-WH-02/2019
+	* Wuhan/IPBCAMS-WH-03/2019
+	* Wuhan/IPBCAMS-WH-04/2019
+	* Wuhan/IPBCAMS-WH-05/2020
+
+* National Institute for Viral Disease Control and Prevention, China CDC
+	* Wuhan/IVDC-HB-01/2019
+	* Wuhan/IVDC-HB-04/2020
+	* Wuhan/IVDC-HB-05/2019
+
+* Institute of Viral Disease Control and Prevention, China CDC
+	* Wuhan/IVDC-HB-envF13-20/2020
+	* Wuhan/IVDC-HB-envF13-21/2020
+	* Wuhan/IVDC-HB-envF13/2020
+	* Wuhan/IVDC-HB-envF54/2020
+
+* BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China
+	* Wuhan/WH01/2019
+	* Wuhan/WH02/2019
+	* Wuhan/WH03/2020
+	* Wuhan/WH04/2020
+
+* Beijing Genomics Institute (BGI)
+	* Wuhan/WH05/2020
+
+* Wuhan Institute of Virology, Chinese Academy of Sciences
+	* Wuhan/WIV02/2019
+	* Wuhan/WIV04/2019
+	* Wuhan/WIV05/2019
+	* Wuhan/WIV06/2019
+	* Wuhan/WIV07/2019
+	* bat/Yunnan/RaTG13/2013
+
+* Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention
+	* Zhejiang/WZ-01/2020
+	* Zhejiang/WZ-02/2020
+
+* Institute of Microbiology, Chinese Academy of Sciences
+	* bat/Yunnan/RmYN01/2019
+	* bat/Yunnan/RmYN02/2019
+
+* SCSFRI, South China Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences (SCSFRI, CAFS)
+	* pangolin/China/MP789/2019
+
+* South China Agricultural University
+	* pangolin/Guandong/1/2019
+
+* Beijing Institute of Microbiology and Epidemiology
+	* pangolin/Guangdong/P2S/2019
+	* pangolin/Guangxi/P1E/2017
+	* pangolin/Guangxi/P2V/2017
+	* pangolin/Guangxi/P3B/2017
+	* pangolin/Guangxi/P4L/2017
+	* pangolin/Guangxi/P5E/2017
+	* pangolin/Guangxi/P5L/2017> 
+
 
 ```
