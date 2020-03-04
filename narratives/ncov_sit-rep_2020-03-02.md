@@ -1,19 +1,19 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-03.
+title: Genomic analysis of COVID-19 spread. Situation report 2020-03-04.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 March 03"
-dataset: "https://nextstrain.org/ncov/2020-03-03"
+date: "2020 March 04"
+dataset: "https://nextstrain.org/ncov/2020-03-04"
 abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
 
-# [Executive summary](https://nextstrain.org/ncov/2020-03-03)
+# [Executive summary](https://nextstrain.org/ncov/2020-03-04)
 
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 151</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+Using 160</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
 
 We find:
 * COVID-19 was introduced into Italy at least twice with subsequent community spread. ([skip to this](SLIDE=7)). TODO: update link
@@ -22,7 +22,7 @@ We find:
 * Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the November 2019-Janurary 2020 period. ([skip to this](SLIDE=12)). TODO: update link
 ```
 
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-03)
+# [Coronaviruses](https://nextstrain.org/ncov/2020-03-04)
 
 ### Further Reading:
 
@@ -36,13 +36,12 @@ We find:
 Below, we've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier.
 
-ALL OF THESE LINKS MUST BE UPDATED FROM THE HEROKU TO REAL NEXTSTRAIN BEFORE GOING LIVE
 <div>
-  <a href="https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
 
-  <a href="https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://emmahodcroft.com/images/nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
-  <a href="https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/phylogenetic-trees"><img alt="cartoon of a phylogenetic tree" width="100" src="http://emmahodcroft.com/images/toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 
 </div>
 
@@ -58,13 +57,17 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 ```
 
 
-# [FAQs & Conspiracies](https://nextstrain.org/ncov/2020-03-03)
+# [FAQs & Conspiracies](https://nextstrain.org/ncov/2020-03-04)
 
 ### Further Reading:
 
-TODO: Add more links here to others covering conspiracy theories & FAQs from others?
+* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+
+* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+
+* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 ```auspiceMainDisplayMarkdown
 
@@ -73,11 +76,11 @@ TODO: Add more links here to others covering conspiracy theories & FAQs from oth
 ### FAQs
 
 We know that a lot of people have questions about COVID-19.
-We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/FAQ):
+We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain.org/help/coronavirus/FAQ):
 
 <div>
 
-  <a href="https://nextstrain-s-help-l4vprghc6cr6.herokuapp.com/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://emmahodcroft.com/images/question-mark.jpg"/> COVID-19 FAQ </a>
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ </a>
 
 </div>
 
@@ -87,14 +90,12 @@ We've set up a guide to try and answer some of those most frequently asked [here
 A number of false ideas have been circulated about the origins of the novel coronavirus.
 During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are likely to follow advisories and take appropriate precautions.
 
-In an effort to try and explain why these views are incorrect, we have 'debunked' these theories at the pages below:
-
-TODO: Move these out to proper pages
+In an effort to try and explain why these views are incorrect, scientists have 'debunked' these theories at the pages below:
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://emmahodcroft.com/images/snake-freeToUse.jpg"/> 'Snake' Origins of nCoV (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://emmahodcroft.com/images/HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of nCoV (Technical) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
 
 
 </div>
@@ -103,21 +104,21 @@ TODO: Move these out to proper pages
 ```
 
 
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-03?d=tree)
+# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-04?d=tree)
 
-Here we present a phylogeny of 151</tag> strains of nCoV that have been publicly shared.
+Here we present a phylogeny of 160</tag> strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
 
 The colours represent the within-country region or US-state of isolation, with the x-axis representing the sample date.
-The y-axis just shows how the sequences are connected, and does not have any units of measurement.
+The y-axis shows how the sequences are connected, and does not have any units of measurement.
 
 <br>
 
 Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
 
-# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-03?d=tree&m=div)
+# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-04?d=tree&m=div)
 
 We can change the view so that the x-axis now shows 'divergence' instead.
 
@@ -129,8 +130,8 @@ You can scroll up and down between the previous slide and this one, to see how t
 <br>
 
 Divergence is measured as the number of changes (mutations) in the genome.
-Several sequences have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and ten mutations.
+Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
+Other viruses have between one and eleven mutations.
 
 <br>
 
@@ -145,10 +146,10 @@ Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' vi
 
 
 
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-03?d=tree)
+# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-04?d=tree)
 
-We currently have sequenced cases from five different continents.
-While the early cases where all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
+We currently have sequences from samples taken in five different continents.
+While the early cases were all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
 
 <br>
 
@@ -157,51 +158,57 @@ The observation of such strong clustering of human infections can be explained b
 
 <br>
 
-# [At least two introductions with community spread into Italy](https://nextstrain.org/ncov/2020-03-03?d=tree&f_country=Italy)
+# [At least two introductions into Italy, with subsequent community spread](https://nextstrain.org/ncov/2020-03-04?d=tree&f_country=Italy)
 
-We currently have 3 sequences from Italy, two of which from the Rome area and one from Lombardy in northern Italy.
+We currently have 3 sequences from Italy, two of which are from the Rome area and one from Lombardy in northern Italy.
+
+<br>
+
 These 3 sequences share a common ancestor early in the epidemic (near the base of the tree, to the left), which strongly suggests that there were at least two introductions with community spread into Italy.
 
-# [Local Spread in Rome](https://nextstrain.org/ncov/2020-03-03?d=tree&label=clade:italy_2_seq&m=div)
+# [Local Spread in Rome](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A1a&m=div)
 
 The two sequences from the Rome are cluster together and therefore indicate local spread.
 
 <br>
 
-We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, and China) are actually separated from the Italian sequences by 4-5 mutations.
+We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, Switzerland, the USA, and China) are actually separated from the Italian sequences by 2-4 mutations.
 
-# [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-03?d=tree&label=clade:italy_brazil_mex_germany)
+# [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A2)
 
 The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected in Italy (Mexico, Germany, Brazil, Finland).
 
 <br>
 
-The German "BavPat1" sequence is part of an introduction from China much earlier in the epidemic - its exact connection to the other sequences is currently unclear.
+The German "BavPat1" sequence is part of an introduction from China much earlier in the epidemic. Its similarity to the other sequence in the cluster (they are separated by only one mutation), could indicate undetected ("cryptic") transmission in Europe stemming from this early German cluster.
+
+<br>
+
+However, we cannot rule out the possibility of two separate introductions to Europe - an unsampled sequence from elsewhere could fall between 'BavPat1' and the rest of the cluster. At the moment, we cannot say with certainty which scenario is correct.
 
 
 
 <!-- This is left-side text -->
-# [Likely spread of SARS-Cov 2 in the Seattle area](https://nextstrain.org/ncov/2020-03-03?label=clade:WA_state&d=tree)
+# [Likely spread of SARS-Cov 2 in the Seattle area](https://nextstrain.org/ncov/2020-03-04?label=clade:B1%20&d=tree)
 
 There are now several cases of COVID-19 reported in the greater Seattle area and the US in general.
 The newly isolated and sequenced case from Snohomish County (north of Seattle), is genetically closely related to a case isolated at the end of January in the same area.
 
 <br>
 
-There are two explanations to why this is the case.
-Either, the virus was introduced at least twice into the greater Seattle area from a common source in China.
-The far more likely explanation, however, is that the virus was circulating undetected in the area for a while.
+There are two possible explanations for this.
+The virus could have been introduced at least twice into the greater Seattle area from a common source in China.
+However, the far more likely explanation is that the virus was circulating undetected in the area for a while.
 
 <br>
 
-Trevor Bedford has written a great blog post about these possibilities, which you can read [here](https://bedford.io/blog/ncov-cryptic-transmission/).
+Trevor Bedford (co-founder of Nextstrain) has written a great blog post about these possibilities, which you can read [here](https://bedford.io/blog/ncov-cryptic-transmission/).
 
 
-
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-03?d=tree)
+# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-04?d=tree)
 
 The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
-This time can be as early as the time when a virus first entered the human population, but can also be substantially later as show in the figure below.
+This time can be as early as the time when a virus first entered the human population, but can also be substantially later, as shown in the figure below.
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -209,9 +216,10 @@ This time can be as early as the time when a virus first entered the human popul
 
 
 ```auspiceMainDisplayMarkdown
+
 ## Date of the common ancestor of outbreak viruses
 
-Several research groups and people have estimated the time of the most recent common ancestor (see for exampled [here](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020) or [here](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes))
+Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020) or [this post by T Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
 The common ancestor of all sequences is most likely between mid November and mid December.
 This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020).
@@ -223,7 +231,8 @@ This would be consistent with all currently sequenced cases descending from the 
 
 ```
 
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-03-03?d=tree)
+
+# [Estimating the growth rate](https://nextstrain.org/ncov/2020-03-04?d=tree)
 
 An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
 
@@ -236,13 +245,13 @@ One the right, we present simple estimates of R0.
 ## Estimates of epidemic growth rate
 
 
-Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 2020-01-22.
-With the additional exported cases since and the continued growth of confirmed cases in China, we currently have to expect at least 50000 cases to date.
-Together with our previous estimates of the age of the outbreak and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
+Scientists at Imperial College London have used the number of cases observed outside of China to estimate the [total number of cases](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) and suggested that there have been at least several thousand cases by 22 January 2020.
+Since then, there have been many additional cases both within China and exported around the globe.
+Together with our previous estimates of the age of the outbreak, and information on the infectious period, we can estimate plausible ranges of R0 using a branching process model.
 
 **We find plausible estimates of R0 between 2.2 and 3.5 for the initial spread of COVID-19 in China.**
 
-If we assume a more recent start, at the beginning of December 2019, the estimates for R0 range between 2.2 and 3.5:
+If we assume an epidemic start at the beginning of December 2019, the estimates for R0 range between 2.2 and 3.5:
 <div>
   <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent_2020-01-29.png"/>
 </div>
@@ -266,7 +275,7 @@ These estimates are broken by, for example, a disease being spread in different 
 
 
 
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-03?d=map&c=author)
+# [Scientific credit](https://nextstrain.org/ncov/2020-03-04?d=map&c=author)
 
 TODO: Is this up to date?
 
@@ -288,7 +297,7 @@ The nCoV genomes were generously shared by scientists at the:
  * Centers for Disease Control, R.O.C., Taipei, Taiwan
  * Institut Pasteur, Paris, France
 
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-03?d=map&c=author)
+# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-04?d=map&c=author)
 
 These data were shared via [GISAID](https://gisaid.org).
 We gratefully acknowledge their contributions.
