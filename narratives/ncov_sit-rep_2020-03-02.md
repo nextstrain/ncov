@@ -1,14 +1,14 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-02.
+title: Genomic analysis of COVID-19 spread. Situation report 2020-03-03.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 March 03"
-dataset: "https://nextstrain.org/ncov/2020-03-02"
+dataset: "https://nextstrain.org/ncov/2020-03-03"
 abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
 
-# [Executive summary](https://nextstrain.org/ncov/2020-03-02)
+# [Executive summary](https://nextstrain.org/ncov/2020-03-03)
 
 ```auspiceMainDisplayMarkdown
 ## Executive summary
@@ -22,7 +22,7 @@ We find:
 * Using estimates of total case count from Imperial College London of several thousand cases, we infer a reproductive number between 1.8 and 3.5 indicating rapid growth in the November 2019-Janurary 2020 period. ([skip to this](SLIDE=12)). TODO: update link
 ```
 
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-02)
+# [Coronaviruses](https://nextstrain.org/ncov/2020-03-03)
 
 ### Further Reading:
 
@@ -58,7 +58,7 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 ```
 
 
-# [FAQs & Conspiracies](https://nextstrain.org/ncov/2020-03-02)
+# [FAQs & Conspiracies](https://nextstrain.org/ncov/2020-03-03)
 
 ### Further Reading:
 
@@ -103,7 +103,7 @@ TODO: Move these out to proper pages
 ```
 
 
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-02?d=tree)
+# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-03?d=tree)
 
 Here we present a phylogeny of 151</tag> strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
@@ -117,7 +117,7 @@ The y-axis just shows how the sequences are connected, and does not have any uni
 
 Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
 
-# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-02?d=tree&m=div)
+# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-03?d=tree&m=div)
 
 We can change the view so that the x-axis now shows 'divergence' instead.
 
@@ -145,7 +145,7 @@ Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' vi
 
 
 
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-02?d=tree)
+# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-03?d=tree)
 
 We currently have sequenced cases from five different continents.
 While the early cases where all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
@@ -157,12 +157,12 @@ The observation of such strong clustering of human infections can be explained b
 
 <br>
 
-# [At least two introductions with community spread into Italy](https://nextstrain.org/ncov/2020-02-03?d=tree&f_country=Italy)
+# [At least two introductions with community spread into Italy](https://nextstrain.org/ncov/2020-03-03?d=tree&f_country=Italy)
 
 We currently have 3 sequences from Italy, two of which from the Rome area and one from Lombardy in northern Italy.
 These 3 sequences share a common ancestor early in the epidemic (near the base of the tree, to the left), which strongly suggests that there were at least two introductions with community spread into Italy.
 
-# [Local Spread in Rome](https://nextstrain.org/ncov/2020-02-03?d=tree&label=clade:italy_2_seq&m=div)
+# [Local Spread in Rome](https://nextstrain.org/ncov/2020-03-03?d=tree&label=clade:italy_2_seq&m=div)
 
 The two sequences from the Rome are cluster together and therefore indicate local spread.
 
@@ -170,7 +170,7 @@ The two sequences from the Rome are cluster together and therefore indicate loca
 
 We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, and China) are actually separated from the Italian sequences by 4-5 mutations.
 
-# [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-02-03?d=tree&label=clade:italy_brazil_mex_germany)
+# [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-03?d=tree&label=clade:italy_brazil_mex_germany)
 
 The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected in Italy (Mexico, Germany, Brazil, Finland).
 
@@ -181,7 +181,7 @@ The German "BavPat1" sequence is part of an introduction from China much earlier
 
 
 <!-- This is left-side text -->
-# [Likely spread of SARS-Cov 2 in the Seattle area](https://nextstrain.org/ncov/2020-02-03?label=clade:WA_state&d=tree)
+# [Likely spread of SARS-Cov 2 in the Seattle area](https://nextstrain.org/ncov/2020-03-03?label=clade:WA_state&d=tree)
 
 There are now several cases of COVID-19 reported in the greater Seattle area and the US in general.
 The newly isolated and sequenced case from Snohomish County (north of Seattle), is genetically closely related to a case isolated at the end of January in the same area.
@@ -198,7 +198,7 @@ Trevor Bedford has written a great blog post about these possibilities, which yo
 
 
 
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-02?d=tree)
+# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-03?d=tree)
 
 The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
 This time can be as early as the time when a virus first entered the human population, but can also be substantially later as show in the figure below.
@@ -223,7 +223,7 @@ This would be consistent with all currently sequenced cases descending from the 
 
 ```
 
-# [Estimating the growth rate](https://nextstrain.org/ncov/2020-03-02?d=tree)
+# [Estimating the growth rate](https://nextstrain.org/ncov/2020-03-03?d=tree)
 
 An important quantity in the spread of a pathogen is the average number of secondary cases each infection produces.
 
@@ -266,7 +266,7 @@ These estimates are broken by, for example, a disease being spread in different 
 
 
 
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-02?d=map&c=author)
+# [Scientific credit](https://nextstrain.org/ncov/2020-03-03?d=map&c=author)
 
 TODO: Is this up to date?
 
@@ -288,7 +288,7 @@ The nCoV genomes were generously shared by scientists at the:
  * Centers for Disease Control, R.O.C., Taipei, Taiwan
  * Institut Pasteur, Paris, France
 
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-02?d=map&c=author)
+# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-03?d=map&c=author)
 
 These data were shared via [GISAID](https://gisaid.org).
 We gratefully acknowledge their contributions.
