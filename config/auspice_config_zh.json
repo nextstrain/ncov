@@ -63,7 +63,8 @@
     "color_by": "division",
     "distance_measure": "num_date",
     "geo_resolution": "division",
-    "map_triplicate": true
+    "map_triplicate": true,
+    "branch_label": "none"
   },
   "filters": [
     "location",
