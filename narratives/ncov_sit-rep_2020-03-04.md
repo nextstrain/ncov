@@ -19,9 +19,9 @@ Using 161</tag> publicly shared COVID-19 genomes, we examined genetic diversity 
 
 We find:
 * COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=7)).
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=9)). 
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=10)). 
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=11)). 
+* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=9)).
+* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=10)).
+* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=11)).
 
 ```
 
@@ -60,7 +60,7 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 ```
 
 
-# [FAQs & Conspiracies](https://nextstrain.org/ncov/2020-03-04)
+# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-04)
 
 ### Further Reading:
 
@@ -90,10 +90,10 @@ We've set up a guide to try and answer some of those most frequently asked [here
 
 ### Misconceptions
 
-A number of false ideas have been circulated about the origins of the novel coronavirus.
+A number of misconceptions have been circulated about the origins of the novel coronavirus.
 During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
 
-In an effort to try and explain why these views are incorrect, scientists have 'debunked' these theories at the pages below:
+In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
 
 <div>
 
