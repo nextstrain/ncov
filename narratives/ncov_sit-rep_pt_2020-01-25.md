@@ -41,7 +41,7 @@ Alguns tipos de coronavírus estão associados com surtos, já outros estão con
 #### SARS-CoV e MERS-CoV
 O mais conhecido dos coronavírus é o [SARS-CoV](https://pt.wikipedia.org/wiki/S%C3%ADndrome_respirat%C3%B3ria_aguda_grave) (Síndrome respiratória aguda grave), que foi responsável por um surto global entre Novembro de 2002 e Julho de 2003, que resultou em [mais de 8000 casos e 774 mortes](https://www.theguardian.com/world/2017/dec/10/sars-virus-bats-china-severe-acute-respiratory-syndrome), com uma taxa de letalidade entre 9 e 11%.
 
-Em 2012, um novo coronavírus foi identificado, o [MERS-CoV](https://pt.wikipedia.org/wiki/Coronav%C3%ADrus_da_s%C3%ADndrome_respirat%C3%B3ria_do_Oriente_M%C3%A9dio) ("Síndrome respiratória do Oriente Médio"), o qual causa graves sintomas respiratórios. O MERS resultou em um número de mortes comparável ao SARS, porém sua via de transmissão é muito diferente. Enquanto o SARS é transmitido eficientemente de um humano para outro, infecções humanas com MERS são geralmente resultante de contato com animas, isto é, por camelos (veja [Dudas _et al._](https://elifesciences.org/articles/31257) para mais informações). Esse fator fez com que o surto de MERS se auto-restringisse a Península Arábica.
+Em 2012, um novo coronavírus foi identificado, o [MERS-CoV](https://pt.wikipedia.org/wiki/Coronav%C3%ADrus_da_s%C3%ADndrome_respirat%C3%B3ria_do_Oriente_M%C3%A9dio) ("Síndrome respiratória do Oriente Médio"), o qual causa graves sintomas respiratórios. O MERS resultou em um número de mortes comparável ao SARS, porém sua via de transmissão é muito diferente. Enquanto o SARS é transmitido eficientemente de um humano para outro, infecções humanas com MERS são geralmente resultante de contato com animais, isto é, por camelos (veja [Dudas _et al._](https://elifesciences.org/articles/31257) para mais informações). Esse fator fez com que o surto de MERS se auto-restringisse a Península Arábica.
 
 
 #### CoVs Sazonais
@@ -53,7 +53,7 @@ Estes coronavírus sazonais são resultados de transmissões independentes de v�
 
 
 #### Reservatórios animais
-Coronavírus infectam uma ampla gama de animas, e os surtos virais em humanos descritos anteriormente são resultado de um ou mais "saltos" dos vírus desses reservatórios animais para populações humanas.
+Coronavírus infectam uma ampla gama de animais, e os surtos virais em humanos descritos anteriormente são resultado de um ou mais "saltos" dos vírus desses reservatórios animais para populações humanas.
 Acredita-se que o SARS chegou até a população humana por meio de [morcegos-de-ferradura via uma civetas (Paguma larvata) como intermediário](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698).
 
 
