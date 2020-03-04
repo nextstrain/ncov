@@ -97,7 +97,7 @@ In an effort to try and explain why these views are incorrect, scientists have '
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of nCoV (Technical) </a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
   <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
 
 
@@ -109,7 +109,7 @@ In an effort to try and explain why these views are incorrect, scientists have '
 
 # [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-04?d=tree)
 
-Here we present a phylogeny of 161</tag> strains of nCoV that have been publicly shared.
+Here we present a phylogeny of 161</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
@@ -156,7 +156,7 @@ While the early cases were all directly linked to cases in Wuhan, associated wit
 
 <br>
 
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV and avian flu).
+Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV, and avian flu).
 The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
 
 <br>
@@ -175,7 +175,7 @@ Dr Nuno Faria et al. give an excellent breakdown [here](http://virological.org/t
 
 # [Local Spread in Rome](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A1a&m=div)
 
-The two sequences from the Rome (29 January 2020) cluster together and therefore suggest local spread.
+The two sequences from Rome (29 January 2020) cluster together and therefore suggest local spread.
 
 <br>
 
@@ -357,7 +357,7 @@ To the right we give specific sequences shared by each lab.
 
 ```auspiceMainDisplayMarkdown
 
-The nCoV genomes were generously shared by scientists at these submitting labs:
+The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
 
 * NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney
 	* Australia/NSW01/2020
