@@ -268,7 +268,7 @@ Pesquisas anteriores com coronavírus similares sugerem que esses vírus acumula
 ```auspiceMainDisplayMarkdown
 ## Provável data do ancestral comum dos vírus causadores do surto
 
-Com as sequência adicionais compartilhadas ao longo da última semana, a filogenia agora mostra distintos grupos, de forma que nossa análise prévia supondo uma topologia em forma de estrela não é mais apropriada.
+Com as sequências adicionais compartilhadas ao longo da última semana, a filogenia agora mostra distintos grupos, de forma que nossa análise prévia supondo uma topologia em forma de estrela não é mais apropriada.
 
 De toda forma, mostramos abaixo o resultado de nossa análise baseada nos dados disponíveis até dia 25/01/2020, assumindo uma filogenia em forma de estrela, com uma distribuição Poisson de mutações ao longo do tempo, para estimar o tempo até o ancestral comum mais recente (conhecido em inglês pela sigla “tMRCA”) dos vírus sequenciados.
 
@@ -303,7 +303,7 @@ Esse número é conhecido como R0 ("R-zero").
 
 Cientistas do Imperial College London utilizaram o número de casos observados fora da China para estimar o [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/), e sugeriram a ocorrência de pelo menos alguns milhares de casos até o dia 22/01/2020.
 
-Com os adicionais casos importados, e o contínuado crescimento em número de casos na China, não atualmente estimamos pelo menos 5000 casos até hora. 
+Com os adicionais casos importados, e o contínuo crescimento em número de casos na China, estimamos pelo menos 5000 casos até agora.
 
 Juntamente com nossas estimativas prévias sobre a data de surgimento do surto viral, e informações sobre a duração do período de infecção, podemos estimar possíveis faixas de R0 usando um modelo matémático de processos de ramificação.
 
