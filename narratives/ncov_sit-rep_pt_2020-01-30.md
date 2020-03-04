@@ -134,7 +134,7 @@ Nesse exemplo, três mutações (losangos pequenos) estão indicadas na árvore.
 
 ### Lendo uma árvore filogenética
 
-Abaixo, vemos uma ilustração com uma árvore filogenética a esquerda, onde mutações são mostradas como círculos coloridos. A direita estão as sequências correspondentes, também com mutações mostradas como círculos coloridos. Podemos ver que sequências que compartilham as mesmas mutações se agrupam juntas.
+Abaixo, vemos uma ilustração com uma árvore filogenética a esquerda, onde mutações são mostradas como círculos coloridos. À direita estão as sequências correspondentes, também com mutações mostradas como círculos coloridos. Podemos ver que sequências que compartilham as mesmas mutações se agrupam juntas.
 Quando sequências aparecem ligadas por uma linha vertical, como A e B, isso significa que não há diferenças entre eles: suas sequências são idênticas.
 
 Quando uma sequência está sozinha em uma linha longa, como C ou E, isso indica a presença de mutações únicas, que não se encontram em outras sequências. Quanto mais longa a linha, mais mutações. A e B também tem mutações únicas (círculo verde) não compartilhadas por outras sequências, mas ambos vírus são idênticos.
@@ -143,7 +143,7 @@ Quando uma sequência está sozinha em uma linha longa, como C ou E, isso indica
   <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://nextstrain-data.s3.amazonaws.com/toy_alignment_tree.png"/>
 </div>
 
-No momento, a filogenia do novo coronavírus (nCov) pode não parecer muito como uma "árvore". Muitas das sequências são idênticas: aparecem juntas em linhas verticais, como A e B. Outras têm mutações únicas ou compartilhadas e, portanto, aparecem nas linhas ("ramificações") que vão para a direita. Você pode ver quantas  mutações uma ramificação tem passando seu mouse sobre ela (verifique na próxima página).
+No momento, a filogenia do novo coronavírus (nCov) pode não parecer muito como uma "árvore". Muitas das sequências são idênticas: aparecem juntas em linhas verticais, como A e B. Outras têm mutações únicas ou compartilhadas e, portanto, aparecem nas linhas ("ramificações") que vão para à direita. Você pode ver quantas  mutações uma ramificação tem passando seu mouse sobre ela (verifique na próxima página).
 ```
 
 
@@ -260,7 +260,7 @@ Pesquisas anteriores com coronavírus similares sugerem que esses vírus acumula
 
 <br>
 
-A direita nós exploramos como diferentes proposições sobre as taxas de substituição (“mutações”) e a diversidade genética observada nos dá estimativas temporais sobre o surto viral.
+À direita nós exploramos como diferentes proposições sobre as taxas de substituição (“mutações”) e a diversidade genética observada nos dá estimativas temporais sobre o surto viral.
 
 
 
@@ -296,7 +296,7 @@ Uma importante medida durante o espalhamento de um patógeno é o número médio
 <br>
 
 Esse número é conhecido como R0 ("R-zero").
-A direita, apresentamos estimativas simples do R0.
+À direita, apresentamos estimativas simples do R0.
 
 ```auspiceMainDisplayMarkdown
 ## Estimativas sobre taxas de crescimento epidêmico
@@ -355,7 +355,7 @@ Agradecemos as suas contribuições com profunda gratidão.
 
 <br>
 
-A direita, especificamos quais sequências foram compartilhadas por quais laboratórios.
+À direita, especificamos quais sequências foram compartilhadas por quais laboratórios.
 
 ```auspiceMainDisplayMarkdown
 
