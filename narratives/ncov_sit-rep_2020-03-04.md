@@ -187,7 +187,7 @@ However, the Brazilian sequence (SPBR-02) has a travel history to Milan, in Lomb
 
 <br>
 
-As the English sample (from China) sits between the earlier Italian samples from Rome and the cases with known (Swiss, Brazilian) or possible (USA) travel to Italy, we should not assume that the older Italian sequences and newer Italian-linked sequences are directly linked. The more recent samples could come from another independant introduction to Italy
+The English sample (from China) sits between the earlier Italian samples from Rome and the cases with known (Swiss, Brazilian) or possible (USA) travel to Italy. This means we should not assume that the older Italian sequences and newer Italian-associated sequences are directly linked. The more recent samples could come from another independent introduction to Italy.
 
 
 # [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A2)
