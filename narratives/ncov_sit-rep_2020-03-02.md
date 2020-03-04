@@ -13,13 +13,15 @@ abstract: "This report uses publicly shared COVID-19 genomic data from GISAID an
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 160</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+Using 161</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+
+
 
 We find:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread. ([skip to this](SLIDE=7)). TODO: update link
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([skip to this](SLIDE=9)). TODO: update link
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([skip to this](SLIDE=10)). TODO: update link
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid November and mid December 2019. ([skip to this](SLIDE=11)). TODO: update link
+* COVID-19 was introduced into Italy at least twice with subsequent community spread. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=7)).
+* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=9)). 
+* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=10)). 
+* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid November and mid December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=11)). 
 
 ```
 
@@ -107,7 +109,7 @@ In an effort to try and explain why these views are incorrect, scientists have '
 
 # [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-04?d=tree)
 
-Here we present a phylogeny of 160</tag> strains of nCoV that have been publicly shared.
+Here we present a phylogeny of 161</tag> strains of nCoV that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
@@ -198,7 +200,7 @@ The German "BavPat1" sequence is part of an introduction from China much earlier
 
 <br>
 
-However, we cannot rule out the possibility of two separate introductions to Europe - an unsampled sequence from elsewhere could fall between 'BavPat1' and the rest of the cluster. At the moment, we cannot say with certainty which scenario is correct.
+It could also be the result of two separate introductions to Europe - an unsampled sequence from elsewhere could fall between 'BavPat1' and the rest of the cluster. At the moment, we cannot say with certainty which scenario is correct.
 
 
 
@@ -206,13 +208,13 @@ However, we cannot rule out the possibility of two separate introductions to Eur
 # [Likely spread of SARS-Cov 2 in the Seattle area](https://nextstrain.org/ncov/2020-03-04?label=clade:B1%20&d=tree)
 
 There are now several cases of COVID-19 reported in the greater Seattle area and the US in general.
-The newly isolated and sequenced case from Snohomish County (north of Seattle), is genetically closely related to a case isolated at the end of January in the same area.
+The newly isolated and sequenced case from Snohomish County (north of Seattle), is genetically closely related to a case isolated in the middle of January in the same area.
 
 <br>
 
 There are two possible explanations for this.
 The virus could have been introduced at least twice into the greater Seattle area from a common source in China.
-However, the far more likely explanation is that the virus was circulating undetected in the area for a while.
+However, another explanation is that the virus was circulating undetected in the area for a while.
 
 <br>
 
@@ -538,10 +540,8 @@ The nCoV genomes were generously shared by scientists at these submitting labs:
 	* Shenzhen/HKU-SZ-002/2020
 	* Shenzhen/HKU-SZ-005/2020
 
-* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease,Shenzhen Third People's Hospital
-	* Shenzhen/SZTH-001/2020
-
 * Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
+	* Shenzhen/SZTH-001/2020
 	* Shenzhen/SZTH-002/2020
 	* Shenzhen/SZTH-003/2020
 	* Shenzhen/SZTH-004/2020
@@ -655,30 +655,11 @@ The nCoV genomes were generously shared by scientists at these submitting labs:
 	* Wuhan/WIV05/2019
 	* Wuhan/WIV06/2019
 	* Wuhan/WIV07/2019
-	* bat/Yunnan/RaTG13/2013
 
 * Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention
 	* Zhejiang/WZ-01/2020
 	* Zhejiang/WZ-02/2020
 
-* Institute of Microbiology, Chinese Academy of Sciences
-	* bat/Yunnan/RmYN01/2019
-	* bat/Yunnan/RmYN02/2019
-
-* SCSFRI, South China Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences (SCSFRI, CAFS)
-	* pangolin/China/MP789/2019
-
-* South China Agricultural University
-	* pangolin/Guandong/1/2019
-
-* Beijing Institute of Microbiology and Epidemiology
-	* pangolin/Guangdong/P2S/2019
-	* pangolin/Guangxi/P1E/2017
-	* pangolin/Guangxi/P2V/2017
-	* pangolin/Guangxi/P3B/2017
-	* pangolin/Guangxi/P4L/2017
-	* pangolin/Guangxi/P5E/2017
-	* pangolin/Guangxi/P5L/2017> 
 
 
 ```
