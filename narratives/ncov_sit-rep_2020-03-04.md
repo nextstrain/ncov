@@ -18,10 +18,10 @@ Using 161</tag> publicly shared COVID-19 genomes, we examined genetic diversity 
 
 
 We find:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=7)).
+* COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=7)).
 * This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=9)). 
 * Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=10)). 
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid November and mid December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=11)). 
+* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=11)). 
 
 ```
 
@@ -51,7 +51,7 @@ This information will make interpreting the data we present in this narrative ea
 ## Nextstrain narratives
 
 The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right hand side.
+Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
 
 To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
 These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
@@ -91,7 +91,7 @@ We've set up a guide to try and answer some of those most frequently asked [here
 ### Conspiracy Theories
 
 A number of false ideas have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are likely to follow advisories and take appropriate precautions.
+During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
 
 In an effort to try and explain why these views are incorrect, scientists have 'debunked' these theories at the pages below:
 
@@ -221,7 +221,7 @@ However, another explanation is that the virus was circulating undetected in the
 Trevor Bedford (co-founder of Nextstrain) has written a great blog post about these possibilities, which you can read [here](https://bedford.io/blog/ncov-cryptic-transmission/).
 
 
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-04?d=tree)
+# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-04?label=clade:B1%20&d=tree)
 
 The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
 This time can be as early as the time when a virus first entered the human population, but can also be substantially later, as shown in the figure below.
