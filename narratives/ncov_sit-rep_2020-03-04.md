@@ -192,7 +192,7 @@ The English sample (from China) sits between the earlier Italian samples from Ro
 
 # [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A2)
 
-The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected in Italy (Mexico, Germany, Brazil, Finland).
+The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected there: the sequences from Mexico, Germany, Brazil & Finland.
 
 <br>
 
@@ -205,7 +205,7 @@ It could also be the result of two separate introductions to Europe - an unsampl
 
 
 <!-- This is left-side text -->
-# [Likely spread of SARS-Cov 2 in the Seattle area](https://nextstrain.org/ncov/2020-03-04?label=clade:B1%20&d=tree)
+# [Likely spread of SARS-CoV-2 in the Seattle area](https://nextstrain.org/ncov/2020-03-04?label=clade:B1%20&d=tree)
 
 There are now several cases of COVID-19 reported in the greater Seattle area and the US in general.
 The newly isolated and sequenced case from Snohomish County (north of Seattle), is genetically closely related to a case isolated in the middle of January in the same area.
@@ -237,7 +237,7 @@ This time can be as early as the time when a virus first entered the human popul
 
 Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020) or [this post by T Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
-The common ancestor of all sequences is most likely between mid November and mid December.
+The common ancestor of all sequences is most likely between mid-November and mid-December.
 This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020).
 
 
