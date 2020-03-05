@@ -13,15 +13,15 @@ abstract: "Questo rapporto utilizza i dati genomici del COVID-19 pubblicati su G
 ```auspiceMainDisplayMarkdown
 ## Sintesi
 
-Utilizzando i 161</tag> genomi pubblicati del COVID-19, abbiamo esaminato la diversità genetica che caratterizza la propagazione del COVID-19 in diverse aree geografiche e determinare la data del loro antenato comune.
+Utilizzando i 161</tag> genomi pubblicati del COVID-19, abbiamo esaminato la diversità genetica che caratterizza la propagazione del COVID-19 in diverse aree geografiche e determinato la data del loro antenato comune.
 
 
 
 Risultati principali:
 * Il COVID-19 è stato introdotto in Italia almeno due volte, con successiva propagazione nella popolazione. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=7)).
 * Questo include un gruppo di sequenze genetiche da 6 nazioni differenti dove i casi sembrano essere stati esportati dall'Italia. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=9)).
-* I dati delle sequenze genetiche supportano l'ipotesi di una diffusione inosservata e sostenuta del COVID-19 nell'area di Seattle dalla metà di Gennaio. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=10)).
-* Tutti i casi sequenziati inclusi in questa analisi condividono probabilmente un antenato comune tra la metà di Novembre e quella di Dicembre 2019. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=11)).
+* I dati delle sequenze genetiche supportano l'ipotesi di una diffusione inosservata e sostenuta del COVID-19 nell'area di Seattle dalla metà di gennaio. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=10)).
+* Tutti i casi sequenziati inclusi in questa analisi condividono probabilmente un antenato comune tra la metà di novembre e quella di dicembre 2019. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04?n=11)).
 
 ```
 
@@ -53,8 +53,8 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
 Le pagine che seguono contengono un'analisi eseguita utilizzando [Nextstrain](https://nextstrain.org).
 Scorrendo lungo la barra laterale sinistra sarà possibile leggere il testo illustrativo relativo alla visualizzazione dei dati genomici nel lato destro della pagina.
 
-Avere a disposizione i genomi completi e di grandi dimensioni per un nuovo virus RNA così velocemente è un risultato notevole.
-Queste analisi sono state rese possibili dalla rapida e libera diffusione dei dati genomici e della loro interpretazione da parte degli scienziati di tutto il mondo (nella slide finale è possibile leggere i nomi degli autori del sequenziamento).
+Avere a disposizione così rapidamente i genomi completi per un nuovo virus RNA così velocemente è un risultato notevole.
+Queste analisi sono state rese possibili grazie alla rapida e libera diffusione dei dati genomici e alla loro interpretazione da parte degli scienziati di tutto il mondo (nella slide finale è possibile leggere i nomi degli autori del sequenziamento).
 
 
 ```
@@ -152,7 +152,7 @@ In base a ciò che cerchiamo di evidenziare, a volte mostreremo l'albero filogen
 # [Interpretazione filogenetica](https://nextstrain.org/ncov/2020-03-04?d=tree)
 
 Al momento abbiamo sequenze da campioni presi in cinque diversi continenti.
-Mentre i primi casi erano tutti collegati direttamente a casi di Wuhan, associati al focolaio originato al mercato del pesce, ora osserviamo molti casi differenti. Questi sono correlati a una diffuzione nella popolazione o a un'importazione da regioni al di fuori della Cina.
+Mentre i primi casi erano tutti collegati direttamente a casi di Wuhan, associati al focolaio originato al mercato del pesce, ora osserviamo molti casi differenti. Questi sono correlati a una diffusione nella popolazione o a un'importazione da regioni al di fuori della Cina.
 
 <br>
 
@@ -192,7 +192,7 @@ Il campione inglese (dalla Cina) si trova tra i precedenti campioni italiani da 
 
 # [Diffusione globale dalla Lombardia, Italia](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A2)
 
-La sequenza dalla Lombardia (Italy/CDG1/2020) si raggruppa con sequenze da Messico, Germania, Brasile e Finlandia con legami noti a viaggi in Italia e che molto probabilmente hanno contratto l'infezione in Italia.
+La sequenza dalla Lombardia (Italy/CDG1/2020) è nel gruppo con sequenze da Messico, Germania, Brasile e Finlandia, con legami noti a viaggi in Italia e che molto probabilmente hanno contratto l'infezione nello stesso paese.
 
 <br>
 
