@@ -35,6 +35,7 @@ location	Singapore
 location	Gold Coast
 location	Sydney
 location	Clayton
+location	Heinsberg District
 location	Paris
 location	Contamines
 location	Leuven
@@ -97,8 +98,10 @@ division	Auvergne Rhone Alpes
 division	Flanders
 division	Bavaria
 division	Baden-Wuerttemberg
+division	North Rhine Westphalia
 division	Zurich
 division	Lazio
+division	Milan
 division	Rome
 division	Lombardy
 division	England
