@@ -161,7 +161,7 @@ The observation of such strong clustering of human infections can be explained b
 
 <br>
 
-# [At least two introductions into Italy, with subsequent community spread](https://nextstrain.org/ncov/2020-03-04?d=tree&f_country=Italy)
+# [At least two introductions into Italy, with possible community spread](https://nextstrain.org/ncov/2020-03-04?d=tree&f_country=Italy)
 
 We currently have 3 sequences from Italy, two of which are from the Rome area and one from Lombardy in northern Italy.
 
@@ -173,9 +173,9 @@ These 3 sequences share a common ancestor early in the epidemic (near the base o
 
 Dr Nuno Faria et al. give an excellent breakdown [here](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
 
-# [Local Spread in Rome](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A1a&m=div)
+# [Possible hidden transmission in Italy](https://nextstrain.org/ncov/2020-03-04?d=tree&label=clade:A1a&m=div)
 
-The two sequences from Rome (29 January 2020) cluster together and therefore suggest local spread.
+The two sequences from Rome (29 January 2020) are directly connected to each other and both have a travel history to China.
 
 <br>
 
