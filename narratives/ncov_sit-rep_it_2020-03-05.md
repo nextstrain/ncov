@@ -199,7 +199,7 @@ Queste 3 sequenze condividono un antenato comune nelle fasi iniziali dell'epidem
 
 <br>
 
-Il Dr. Nuno Faria et al. propone [qui](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) un'eccellente analisi di come sequenze globali, tra cui quella brasiliana, mostrano che "l'epidemia nel nord Italia è stata probabilmente il risultato di introduzioni multiple nella regione e non da un'unica fonte."
+Il Dr. Nuno Faria et al. propone [qui (in inglese)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) un'eccellente analisi di come sequenze globali, tra cui quella brasiliana, mostrano che "l'epidemia nel nord Italia è stata probabilmente il risultato di introduzioni multiple nella regione e non da un'unica fonte."
 
 
 
