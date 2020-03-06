@@ -47,7 +47,7 @@ We find:
 
 ## COVID-19 Resources
 
-Below, we've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
+Below, we've prepared some resources (currently in English) that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier.
 
 <div>
@@ -98,7 +98,7 @@ We've set up a guide to try and answer some of those most frequently asked [here
 
 <div>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ </a>
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ (in English) </a>
 
 </div>
 
@@ -108,7 +108,7 @@ We've set up a guide to try and answer some of those most frequently asked [here
 A number of misconceptions have been circulated about the origins of the novel coronavirus.
 During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below (in English):
 
 <div>
 
@@ -128,7 +128,7 @@ In an effort to try and explain why these views are incorrect, scientists have a
 # [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
+Information on how the analysis was performed is available [in this GitHub repository](https://github.com/nextstrain/ncov).
 
 <br>
 
@@ -202,7 +202,7 @@ These 3 sequences share a common ancestor early in the epidemic (near the base o
 
 <br>
 
-Dr Nuno Faria et al. give an excellent breakdown [here](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
+Dr Nuno Faria et al. give an excellent breakdown [here (in English)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
 
 
 
@@ -263,7 +263,7 @@ However, another explanation is that the virus was circulating undetected in the
 
 <br>
 
-Trevor Bedford (co-founder of Nextstrain) has written a great blog post about these possibilities, which you can read [here](https://bedford.io/blog/ncov-cryptic-transmission/).
+Trevor Bedford (co-founder of Nextstrain) has written a great blog post about these possibilities, which you can read [here (in English)](https://bedford.io/blog/ncov-cryptic-transmission/).
 
 <br>
 
@@ -292,7 +292,7 @@ This time can be as early as the time when a virus first entered the human popul
 
 ## Date of the common ancestor of outbreak viruses
 
-Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020) or [this post by T Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut (in English)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [this post by T Stadler (in English)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 The common ancestor of all sequences is most likely between mid-November and mid-December.
 This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020).
