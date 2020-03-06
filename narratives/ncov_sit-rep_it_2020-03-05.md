@@ -132,7 +132,7 @@ Nel tentativo di spiegare perché queste convinzioni non sono corrette, gli scie
 <!-- This is left-side text -->
 # [Analisi filogenetica](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-Qui presentiamo la filogenesi dei 161</tag> ceppi di SARS-CoV-2 (il virus che causa COVID-19) che sono stati pubblicati. Informazioni su come l'analisi è stata condotta sono disponibili [in questo repository GitHub.](github.com/nextstrain/ncov).
+Qui presentiamo la filogenesi dei 161</tag> ceppi di SARS-CoV-2 (il virus che causa COVID-19) che sono stati pubblicati. Informazioni su come l'analisi è stata condotta sono disponibili [in questo repository GitHub.](https://github.com/nextstrain/ncov).
 
 <br>
 
