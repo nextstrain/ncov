@@ -1,6 +1,6 @@
 [请点击这里查看中文版本](/ncov/zh)
 
-[Latest Nextstrain COVID-19 situation report in English](https://nextstrain.org/narratives/ncov/sit-rep/2020-01-30) and [in other languages](https://nextstrain.org/narratives/ncov/sit-rep/)
+[Latest Nextstrain COVID-19 situation report in English](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-04) and [in other languages](https://nextstrain.org/narratives/ncov/sit-rep/)
 
 This phylogeny shows evolutionary relationships of HCoV-19 viruses from the ongoing novel coronavirus COVID-19 pandemic. All samples are still closely related with few mutations relative to a common ancestor, suggesting a shared common ancestor some time in Nov-Dec 2019. This indicates an initial human infection in Nov-Dec 2019 followed by sustained human-to-human transmission leading to sampled infections.
 
