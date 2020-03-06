@@ -1,4 +1,5 @@
 location	Aichi	35.067543	137.334061
+location	Auckland	-36.8314	174.7606
 location	Bangkok	13.803139	100.491612
 location	Beijing	40.071320	116.406908
 location	Boston	42.354750	-71.061299
@@ -66,6 +67,7 @@ location	Zhuhai	22.271346	113.562879
 division	Aichi	35.067543	137.334061
 division	Anhui	31.754331	117.211441
 division	Arizona	34.220707	-111.657462
+division	Auckland	-36.8314	174.7606
 division	Auvergne Rhone Alpes	45.126511	5.480724
 division	Baden-Wuerttemberg	48.712618	9.134030
 division	Bavaria	48.1382614	11.5845093
