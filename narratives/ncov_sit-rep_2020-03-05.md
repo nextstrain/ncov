@@ -1,19 +1,25 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-04.
+title: Genomic analysis of COVID-19 spread. Situation report 2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 March 04"
+date: "2020 March 05"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
 abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
 ---
+<!-- Translators: Only text after : in the above ^ needs to be translated -->
+<!-- Comment tags like these do not need to be translated, they are only to help you! -->
+<!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
+<!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
+<!-- This is left-side text -->
 # [Executive summary](https://nextstrain.org/ncov/2020-03-05)
 
+<!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 161</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
 
 
 
@@ -25,6 +31,10 @@ We find:
 
 ```
 
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
 
 ### Further Reading:
@@ -32,6 +42,7 @@ We find:
 * Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
 * Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
+<!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 ## COVID-19 Resources
@@ -60,6 +71,9 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 ```
 
 
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
 
 ### Further Reading:
@@ -72,6 +86,7 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 
 * "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
+<!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 ## FAQs & Misconceptions
@@ -107,9 +122,12 @@ In an effort to try and explain why these views are incorrect, scientists have a
 ```
 
 
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-Here we present a phylogeny of 161</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
 Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
 
 <br>
@@ -121,6 +139,12 @@ The y-axis shows how the sequences are connected, and does not have any units of
 
 Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
 
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
 We can change the view so that the x-axis now shows 'divergence' instead.
@@ -146,9 +170,12 @@ Insertions, deletions, and differences at the ends of the genome are more likely
 
 Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' view, depending on what we are trying to highlight.
 
+<!-- There is NO right-side text -->
 
 
+<!-- ############ SLIDE BREAK ############# -->
 
+<!-- This is left-side text -->
 # [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 We currently have sequences from samples taken in five different continents.
@@ -159,8 +186,12 @@ While the early cases were all directly linked to cases in Wuhan, associated wit
 Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV, and avian flu).
 The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
 
-<br>
+<!-- There is NO right-side text -->
 
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # [At least two introductions into Italy, with possible community spread](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
 We currently have 3 sequences from Italy, two of which are from the Rome area and one from Lombardy in northern Italy.
@@ -173,6 +204,11 @@ These 3 sequences share a common ancestor early in the epidemic (near the base o
 
 Dr Nuno Faria et al. give an excellent breakdown [here](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
 
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # [Possible hidden transmission in Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
 The two sequences from Rome (29 January 2020) are directly connected to each other and both have a travel history to China.
@@ -189,7 +225,13 @@ However, the Brazilian sequence (SPBR-02) has a travel history to Milan, in Lomb
 
 The English sample (from China) sits between the earlier Italian samples from Rome and the cases with known (Swiss, Brazilian) or possible (USA) travel to Italy. This means we should not assume that the older Italian sequences and newer Italian-associated sequences are directly linked. The more recent samples could come from another independent introduction to Italy.
 
+<!-- There is NO right-side text -->
 
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
 The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected there: the sequences from Mexico, Germany, Brazil & Finland.
@@ -202,7 +244,10 @@ The German "BavPat1" sequence is part of an introduction from China much earlier
 
 It could also be the result of two separate introductions to Europe - an unsampled sequence from elsewhere could fall between 'BavPat1' and the rest of the cluster. At the moment, we cannot say with certainty which scenario is correct.
 
+<!-- There is NO right-side text -->
 
+
+<!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [Likely spread of SARS-CoV-2 in the Seattle area](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
@@ -225,7 +270,13 @@ Trevor Bedford (co-founder of Nextstrain) has written a great blog post about th
 The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together. 
 This strongly suggest community spread, and that the SARS-CoV-2 virus has been circulating in the area for some time already.
 
+<!-- There is NO right-side text -->
 
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
 The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
@@ -236,6 +287,7 @@ This time can be as early as the time when a virus first entered the human popul
 </div>
 
 
+<!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 ## Date of the common ancestor of outbreak viruses
@@ -256,6 +308,9 @@ This would be consistent with all currently sequenced cases descending from the 
 
 
 
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
@@ -265,7 +320,8 @@ Only through the rapid sharing of genomic data and metadata are analyses such as
 
 We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
 
-
+<!-- Do not need to translate insitutions names -->
+<!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 We are grateful for the data gathered by these originating labs:
@@ -351,6 +407,10 @@ We are grateful for the data gathered by these originating labs:
 
 ```
 
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
 # [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 These data were shared via [GISAID](https://gisaid.org).
@@ -360,6 +420,7 @@ We gratefully acknowledge their contributions.
 
 To the right we give specific sequences shared by each lab.
 
+<!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
