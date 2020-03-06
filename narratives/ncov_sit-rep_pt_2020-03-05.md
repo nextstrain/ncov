@@ -76,7 +76,7 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 <!-- This is left-side text -->
 # [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### Further Reading (in English):
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
