@@ -58,7 +58,7 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="immagine al microscopio di coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Informazioni generali sui Coronavirus </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustrazione di un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Informazioni sulla recente epidemia di COVID-19 d </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustrazione di un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Informazioni sulla recente epidemia di COVID-19 </a>
 
   <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="disegno di un albero filogenetico" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Come leggere una filogenesi </a>
 
