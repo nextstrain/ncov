@@ -261,8 +261,7 @@ Trevor Bedford (co-fondatore di Nextstrain) ha scritto un ottimo blog post su qu
 
 <br>
 
-The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together. 
-This strongly suggest community spread, and that the SARS-CoV-2 virus has been circulating in the area for some time already.
+Le restanti sequenze dello stato di Washington ci dicono qualcosa di diverso: queste sequenze formano un gruppo unico. Questo fatto suggerisce che ci sia un focolaio attivo all’interno della comunita’, e che quindi il virus SARS-CoV2 sia in giro nell’area già da un po’ di tempo.
 
 <!-- There is NO right-side text -->
 
@@ -285,11 +284,11 @@ La datazione del più recente antenato comune (detta tMRCA) di un insieme di cas
 
 ## Datazione dell'antenato comune dei virus epidemici
 
-Molti scienziati e gruppi di ricerca hanno stimato la data del più recente antenato comune, vedi [questo post di A. Rambaut](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020) oppure [questo post di T. Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Molti scienziati e gruppi di ricerca hanno stimato la data del più recente antenato comune, vedi [questo post di A. Rambaut](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) oppure [questo post di T. Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
 L'antenato comune a tutte le sequenze si trova probabilmente tra metà novembre e metà dicembre.
 Questo sarebbe coerente con l'ipotesi che tutti i casi attualmente sequenziati discendano dal 
-[gruppo iniziale di casi al mercato del pesce di Wuhan](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020).
+[gruppo iniziale di casi al mercato del pesce di Wuhan](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
