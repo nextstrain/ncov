@@ -128,7 +128,7 @@ In an effort to try and explain why these views are incorrect, scientists have a
 # [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
+Information on how the analysis was performed is available [in this GitHub repository](https://github.com/nextstrain/ncov).
 
 <br>
 
