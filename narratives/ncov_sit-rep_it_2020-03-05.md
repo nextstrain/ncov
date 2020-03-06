@@ -56,11 +56,11 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
 
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="immagine al microscopio di coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Informazioni generali sui Coronavirus </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="immagine al microscopio di coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Informazioni generali sui Coronavirus (in inglese) </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustrazione di un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Informazioni sulla recente epidemia di COVID-19 </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustrazione di un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Informazioni sulla recente epidemia di COVID-19 (in inglese) </a>
 
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="disegno di un albero filogenetico" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Come leggere una filogenesi </a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="disegno di un albero filogenetico" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Come leggere una filogenesi (in inglese) </a>
 
 </div>
 
@@ -103,7 +103,7 @@ Per questo abbiamo creato una guida per provare a rispondere ad alcune delle dom
 
 <div>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="foto di un punto interrogativo" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> FAQ sul COVID-19  </a>
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="foto di un punto interrogativo" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> FAQ sul COVID-19 (in inglese)  </a>
 
 </div>
 
@@ -284,11 +284,11 @@ La datazione del più recente antenato comune (detta tMRCA) di un insieme di cas
 
 ## Datazione dell'antenato comune dei virus epidemici
 
-Molti scienziati e gruppi di ricerca hanno stimato la data del più recente antenato comune, vedi [questo post di A. Rambaut](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) oppure [questo post di T. Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Molti scienziati e gruppi di ricerca hanno stimato la data del più recente antenato comune, vedi [questo post di A. Rambaut (in inglese)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) oppure [questo post di T. Stadler (in inglese)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
 L'antenato comune a tutte le sequenze si trova probabilmente tra metà novembre e metà dicembre.
 Questo sarebbe coerente con l'ipotesi che tutti i casi attualmente sequenziati discendano dal 
-[gruppo iniziale di casi al mercato del pesce di Wuhan](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+[gruppo iniziale di casi al mercato del pesce di Wuhan (in inglese)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
