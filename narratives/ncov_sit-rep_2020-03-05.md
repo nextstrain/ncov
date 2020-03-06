@@ -128,7 +128,7 @@ In an effort to try and explain why these views are incorrect, scientists have a
 # [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](github.com/nextstrain/ncov).
+Information on how the analysis was performed is available [in this GitHub repository](https://github.com/nextstrain/ncov).
 
 <br>
 
@@ -267,7 +267,7 @@ Trevor Bedford (co-founder of Nextstrain) has written a great blog post about th
 
 <br>
 
-The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together. 
+The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together.
 This strongly suggest community spread, and that the SARS-CoV-2 virus has been circulating in the area for some time already.
 
 <!-- There is NO right-side text -->
@@ -292,10 +292,10 @@ This time can be as early as the time when a virus first entered the human popul
 
 ## Date of the common ancestor of outbreak viruses
 
-Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020) or [this post by T Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [this post by T Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
 The common ancestor of all sequences is most likely between mid-November and mid-December.
-This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-129-genomes-24-feb-2020).
+This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
