@@ -236,6 +236,7 @@ La sequenza dalla Lombardia (Italy/CDG1/2020) è nel gruppo con sequenze da Mess
 <br>
 
 La sequenza tedesca "BavPat1" è parte di una introduzione dalla Cina in una fase molto precedente dell'epidemia. La sua somiglianza con le altre sequenze del gruppo (sono separate da una singola mutazione) potrebbe indicare una trasmissione inosservata ("criptica") in Europa, nata da questo gruppo tedesco.
+
 <br>
 
 Potrebbe anche essere il risultato di due separate introduzioni in Europa, una sequenza non campionata di provenienza sconosciuta potrebbe collocarsi tra 'BavPat1' e il resto del gruppo. Al momento non possiamo affermare con certezza quale dei due scenari sia quello corretto.
