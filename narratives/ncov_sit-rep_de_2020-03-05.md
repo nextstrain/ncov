@@ -174,15 +174,16 @@ Machmal werden wir die Phylogeie mit der x-Achse als Zeit und machmal als Diverg
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [Phylogenetische Interpretation](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-We currently have sequences from samples taken in five different continents.
-While the early cases were all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
+Wir habe momentan Sequenzen von fünf verschiedenen Kontinenten
+Während die ersten Fälle alle direkt mit Wuhan verbunden waren, welche wiederum mit einem Ausbruch an einem Meeresfrüchte Markt verbunden sind, beobachten wir nun mehrere Fälle von lokaler Verbreitung ausserhalb von China.
 
 <br>
 
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV, and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
+Generell weisen wiederholte Einführungen von Viren aus einem tierischen Reservoir starke Diversität der genetischen Sequenzen, dies ist zum Beispiel bei Lassa, Ebola, MERS-CoV und der Vogelgrippe der Fall.
+
+Die Beobachtung von so geringer Diversität bei den Infektionen kann durch eine sogenannte Zoonose erklärt weden, welche danach von Mensch zu Mensch verbreitet wurde.
 
 <!-- There is NO right-side text -->
 
