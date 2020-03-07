@@ -144,8 +144,8 @@ rule refine:
         node_data = "results/branch_lengths.json"
     params:
         root = "Wuhan-Hu-1/2019 Wuhan/WH01/2019",
-        clock_rate = 0.0005,
-        clock_std_dev = 0.0003,
+        clock_rate = 0.0008,
+        clock_std_dev = 0.0004,
         coalescent = "skyline",
         date_inference = "marginal",
         divergence_unit = "mutations"
@@ -246,7 +246,7 @@ rule clades:
             --mutations {input.nuc_muts} {input.aa_muts} \
             --clades {input.clades} \
             --output-node-data {output.clade_data}
-        """  
+        """
 
 rule colors:
     message: "Constructing colors file"

@@ -2,11 +2,11 @@
 # (or at least out of _this_ git repo).
 results/
 build/
+auspice/
 data/ncov.fasta
 data/ncov.fasta-e
 data/sequences.fasta
 data/*ndjson
-auspice/ncov_*.json
 config/colors.tsv
 
 # Sensitive environment variables
