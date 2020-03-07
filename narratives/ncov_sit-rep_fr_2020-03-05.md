@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-05.
+title: Analyse génomique de la propagation du nCoV. Rapport de situation au 2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
+affiliations: "États-Unis, Seattle, USA et Biozentrum, Bâle, Suisse"
 date: "2020 March 05"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "Ce rapport utilise des données génomiques du nouveau coronavirus (nCoV) rendues publiques sur GISAID et Genbank afin d'estimer la vitesse et les modalités de propagation de l'épidémie virale. Nous prévoyons d'émettre des rapports de situation à mesure que de nouvelles données sont produites et partagées. Ce site web est optimisé pour être affiché sur un ordinateur de bureau."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -17,7 +17,7 @@ abstract: "This report uses publicly shared COVID-19 genomic data from GISAID an
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Résumé exécutif
 
 Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
 
