@@ -235,17 +235,20 @@ Die neueren Sequenzen könnten von einer weiteren unabhängigen Einführung stam
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
+# [Globale Verbreitung von der Lombardei, Italien](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected there: the sequences from Mexico, Germany, Brazil & Finland.
-
-<br>
-
-The German "BavPat1" sequence is part of an introduction from China much earlier in the epidemic. Its similarity to the other sequence in the cluster (they are separated by only one mutation), could indicate undetected ("cryptic") transmission in Europe stemming from this early German cluster.
+Die Sequenz aus der Lombardey (Italy/CDG1/2020) is nahe mit anderen Sequenze verwandt, für welche wir wissen, dass sie eine Reisgeschichte nach Italien haben, sprich sie haben sich sehr wahrscheindlich dort angesteckt:
 
 <br>
 
-It could also be the result of two separate introductions to Europe - an unsampled sequence from elsewhere could fall between 'BavPat1' and the rest of the cluster. At the moment, we cannot say with certainty which scenario is correct.
+Die Sequenz aus Deutschland "BavPat1" ist Teil einer Einführung von China viel früher während der Epidemie.
+Die nahe Verwandschaft (sie unterscheidet sich von den anderen Sequenzen nur durch eine Mutation), könnte unter Umständen auf eine versteckte Verbreitung des Vrisues in Europa hindeuten, welche eventuell auf diese Sequenz zurückgeht.
+
+<br>
+
+Sie könnte aber genauso das Resultat einer seperaten Einführung nach Europa sein.
+Eine bis dato unsequenzirte Sequenz könnte zwischen 'BavPat1' und den anderen Sequenzen fallen.
+Im Moment können wir zwischen den beiden Szenarien nicht unterscheiden.
 
 <!-- There is NO right-side text -->
 
