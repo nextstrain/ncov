@@ -19,12 +19,12 @@ abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV
 ```auspiceMainDisplayMarkdown
 ## Resumen Ejecutivo
 
-Hemos examinados la diversidad genética de 169</tag> genomas públicos del nuevo coronavirus (nCoV) para caracterizar la propagación del virus en diferentes åreas y estimar la fecha del ancestro común más reciente.
+Hemos examinados la diversidad genética de 169</tag> genomas públicos del nuevo coronavirus (nCoV) para caracterizar la propagación del virus en diferentes áreas y estimar la fecha del ancestro común más reciente.
 
 Principales hallazgos:
 * El COVID-19 ha sido introducido en Italia al menos dos veces y se ha documentado transmisión comunitaria([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
 * Esto incluye un grupo de secuencias de 6 países diferentes donde los casos parecen haber sido importados desde Italia ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Los datos de secuencias genéticas apoyan la hipótesis de una propagación no detectada y sostenida del COVID-19 en el área metropolitana de Seattle desde mediados de enero ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Los datos de secuencias genéticas apoyan la hipótesis de una propagación no detectada (críptica) y sostenida del COVID-19 en el área metropolitana de Seattle desde mediados de enero ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
 * Todas las secuencias incluidas en este análisis comparten un ancestro común que existió en algún momento entre mediados de noviembre y mediados de diciembre de 2019([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
@@ -78,11 +78,11 @@ Estos análisis han sido posibles gracias al intercambio rápido y abierto de lo
 
 ### Lectura adicional (en inglés):
 
-* "No crea las teorías de conspiración que escucha sobre el coronavirus y el VIH" [articulo](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "No crea las teorías de conspiración que escucha sobre el coronavirus y el VIH" [artículo](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Teorías de conspiración sin fundamento afirman que el nuevo coronavirus fue producto de la bioingeniería" [articulo](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "Teorías de conspiración sin fundamento afirman que el nuevo coronavirus fue producto de la bioingeniería" [artículo](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "No, el coronavirus de Wuhan no fue diseñado genéticamente para insertar trozos del VIH en él" [articulo](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "No, el coronavirus de Wuhan no fue diseñado genéticamente para insertar trozos del VIH en él" [artículo](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
 * "Rompiendo los mitos del coronavirus" [Verificación de información por la AFP](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
@@ -152,7 +152,7 @@ Podemos cambiar la opción de visualización para que el eje x ahora muestre 'di
 
 <br>
 
-Presta atención a cuántas secuencias que se veían diferentes antes, ahora aparecen en una línea verticalmente.
+Presta atención a cuántas secuencias que se veían diferentes antes, ahora aparecen verticalmente en una línea.
 Puedes desplazarte entre la diapositiva anterior y esta, para que veas cómo cambia el árbol.
 
 <br>
@@ -164,9 +164,9 @@ Otros virus tienen entre una y once mutaciones.
 
 <br>
 
-La secuenciación del genoma de un virus nuevo de ARN durante una emergencia sanitaria por un brote es un desafío enorme.
+La secuenciación del genoma de un virus nuevo de ARN durante un brote es un desafío enorme.
 Algunas de las diferencias observadas en estas secuencias pueden ser errores de secuenciación en lugar de mutaciones reales.
-Las inserciones, las deleciones y las diferencias observadas en los extremos del genoma tienen una mayor probabilidad de ser errores, por lo que las filtramos durante los presentes análisis.
+Las inserciones, las deleciones y las diferencias observadas en los extremos del genoma tienen una mayor probabilidad de ser errores, por lo que los filtramos durante los presentes análisis.
 
 <br>
 
@@ -187,7 +187,7 @@ Si bien todos los primeros casos estaban directamente relacionados con los casos
 <br>
 
 En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ebola, MERS-CoV y la gripe aviar). 
-El hecho de que ocurra una agrupación tan fuerte de las infecciones humanas por el nCoV puede indicar que el brote se inició a partir de un único evento de zoonosis seguido de la propagación epidémica de persona a persona.
+El hecho de que ocurra una agrupación tan próxima de las infecciones humanas por el nCoV puede indicar que el brote se inició a partir de un único evento de zoonosis seguido de la propagación epidémica de persona a persona.
 
 <!-- There is NO right-side text -->
 
@@ -205,14 +205,14 @@ Estas 3 secuencias comparten un ancestro común al comienzo de la epidemia (cerc
 
 <br>
 
-El Dr. Nuno Faria y colaboradores dan un excelente análisis [aquí (en inglés)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) de cómo las secuencias brasileñas junto con otras secuencias del mundo evidencian que "el brote en el norte de Italia fue probablemente el resultado de múltiples introducciones en la región y no el resultado de una única introducción".
+El Dr. Nuno Faria y colaboradores hacen un excelente análisis [aquí (en inglés)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) de cómo las secuencias brasileñas junto con otras secuencias del mundo evidencian que "el brote en el norte de Italia fue probablemente el resultado de múltiples introducciones en la región y no el resultado de una única introducción".
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [Posible transmisión no detectada (críptica) en Italia](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-Las dos secuencias de Roma (29 de enero de 2020) están directamente conectadas entre sí y ambas tienen un historial de viajes a China.
+Las dos secuencias de Roma (29 de enero de 2020) están directamente conectadas entre sí y ambas tienen un historial de viaje a China.
 
 <br>
 
