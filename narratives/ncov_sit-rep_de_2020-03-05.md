@@ -208,21 +208,25 @@ Dr Nuno Faria et al. geben eine gute [Erklärung dazu (in English)](http://virol
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Possible hidden transmission in Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
+# [Vermutlich versteckte Verbreitung in Italien](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-The two sequences from Rome (29 January 2020) are directly connected to each other and both have a travel history to China.
-
-<br>
-
-We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, Switzerland, the USA, and China) are actually separated from the Italian sequences by 2-4 mutations.
+Zwei Sequenzen aus Rom vom 29ten Januar 2020 sind direkt mit einander Verbunden und haben ein Reisegeschichte nach China.
 
 <br>
 
-However, the Brazilian sequence (SPBR-02) has a travel history to Milan, in Lombardy, and it is thought that the Swiss sequence in this cluster also recently travelled to Italy. We do not know anything about the travel history of the USA sample. The England/09c isolate is a direct importation from China.
+Wir haben  hier in die 'Divergenz' Ansicht gewechselt um zu zeigen das die beiden Sequenzen aus Rom identisch sind, während andere Sequenzen (aus Brasilien, der Schweiz, den USA und China) sich von den Italienischen in 2-4 Mutation unterscheiden.
 
 <br>
 
-The English sample (from China) sits between the earlier Italian samples from Rome and the cases with known (Swiss, Brazilian) or possible (USA) travel to Italy. This means we should not assume that the older Italian sequences and newer Italian-associated sequences are directly linked. The more recent samples could come from another independent introduction to Italy.
+Die Sequenz aus Brasilien (SPBR-02) hat eine Reisegeschichte nach Mailand in der Lombardei und es wird angenommen, dass das gleiche auch für die Sequenz aus der Schweiz gilt.
+Wir haben keine genauere Informationen zur Reisegeschichte der Sequenz aus den USA.
+Die Sequenz aus England (England/09c) wurde jedoch von China importiert.
+
+<br>
+
+Die Sequenz aus England (importiert von China) sitzt zwischen der beiden Sequenzen aus Rom und denjenigen mit Reisegeschichte nach Mailand (Schweiz und Brasilien) und eventueller Reisegeschichte nach Italien (US Sequenz).
+WIr können darum nicht davon ausgehen, dass die beiden Sequenzen aus Italien mit den späteren Sequenzen assoziiert sind.
+Die neueren Sequenzen könnten von einer weiteren unabhängigen Einführung stammen.
 
 <!-- There is NO right-side text -->
 
