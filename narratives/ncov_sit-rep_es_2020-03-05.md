@@ -266,7 +266,7 @@ Sin embargo, otra explicación es que el virus estuvo circulando sin ser detecta
 
 <br>
 
-Trevor Bedford (cofundador de Nextstrain) ha escrito una gran publicación en su blog sobre estas posibilidades, que puede leer [aquí (en inglés)](https://bedford.io/blog/ncov-cryptic-transmission/).
+Trevor Bedford (cofundador de Nextstrain) ha escrito una gran publicación en su blog sobre estas posibilidades, que puedes leer [aquí (en inglés)](https://bedford.io/blog/ncov-cryptic-transmission/).
 
 <br>
 
