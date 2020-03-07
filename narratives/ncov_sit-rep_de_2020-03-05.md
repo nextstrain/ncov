@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-05.
+title: Analyse von Virus-Genomen zur Ausbreitung von nCoV. Lagebericht 2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 March 05"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "Dieser Bericht verwendet öffentlich zugängliche Genome des neuartigen Coronavirus (nCoV) aus GISAID oder Genbank, um die Rate und das Muster der Verbreitung des Ausbruchs abzuschätzen. Wir planen, aktualisierte Lageberichte herauszugeben, sobald neue Daten verfügbar sind. Diese Website ist für Desktop-Browser optimiert und nur eingeschränkt auf mobilen Endgeräten nutzbar."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,21 +13,19 @@ abstract: "This report uses publicly shared COVID-19 genomic data from GISAID an
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Executive summary](https://nextstrain.org/ncov/2020-03-05)
+# [Zusammenfassung](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Zusammenfassung
 
-Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+Wir haben 169</tag> öffentlich zugängliche Genome des neuartigen Coronavirus (nCoV) untersucht, um auf das Datum des gemeinsamen Vorfahren und die Verbreitungsrate zurückzuschliessen.
 
-
-
-We find:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+Wir finden:
+* COVID-19 wurde mindestens zwei mal nach Italien eingeführt und vermutlich lokal verbreitet ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
+* Einer dieser lokalen Cluster beinhalted Sequenzen von 6 verschieden Ländern welche direkt von Italien exportiert zu sein scheinen ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
+* Genetische Sequenzen stützen die Hypothese, dass COVID-19 seit mitte Januar in der Region um Seattle präsent ist. ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Alle in dieser Analyse inkludierten Sequenzen haben einen geminsame Vorfahren irgendwann zwischen mitte November und mitte Dezember ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -35,17 +33,17 @@ We find:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
+# [Coronaviren](https://nextstrain.org/ncov/2020-03-05)
 
 ### Further Reading:
 
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* Zusammenfassubng des COVID-19 Ausbruches auf [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* Infomaterial des [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 Resources
+## COVID-19 Resourcen
 
 Below, we've prepared some resources (currently in English) that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier.
@@ -267,7 +265,7 @@ Trevor Bedford (co-founder of Nextstrain) has written a great blog post about th
 
 <br>
 
-The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together. 
+The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together.
 This strongly suggest community spread, and that the SARS-CoV-2 virus has been circulating in the area for some time already.
 
 <!-- There is NO right-side text -->
