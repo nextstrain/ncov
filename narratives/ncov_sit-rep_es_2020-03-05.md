@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-05.
-authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
+title: Análisis genómico de la propagación del nCoV. Informe de la situación hasta 2020-03-05.
+authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Julian Villabona-Arenas"
 authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland and CMMID-LSHTM, London, UK"
 date: "2020 March 05"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV) compartidos públicamente en GISAID y en Genbank. Los datos se usan para estimar las tasas y los patrones de propagación de la epidemia viral. Planeamos emitir informes de la situación que se actualizaran en la medida que se produzcan y compartan nuevos datos. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,21 +13,19 @@ abstract: "This report uses publicly shared COVID-19 genomic data from GISAID an
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Executive summary](https://nextstrain.org/ncov/2020-03-05)
+# [Resumen Ejecutivo](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Resumen Ejecutivo
 
-Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+Hemos examinados la diversidad genética de 169</tag> genomas públicos del nuevo coronavirus (nCoV) para caracterizar la propagación del virus en diferentes åreas y estimar la fecha del ancestro común más reciente.
 
-
-
-We find:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+Principales hallazgos:
+* El COVID-19 ha sido introducido en Italia al menos dos veces y se ha documentado transmisión comunitaria ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
+* Esto incluye un grupo de secuencias de 6 países diferentes donde los casos parecen haber sido importados desde Italia ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
+* Los datos de secuencias genéticas apoyan la hipótesis de una propagación no detectada y sostenida del COVID-19 en el área metropolitana de Seattle desde mediados de enero ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Todas las secuencias incluídas en este análisis comparten un ancestro común que existió en algún momento entre mediados de noviembre y mediados de diciembre de 2019. ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -35,88 +33,39 @@ We find:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
+# [Coronavirus](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### Lecturas adicionales:
 
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
-
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
-
-## COVID-19 Resources
-
-Below, we've prepared some resources (currently in English) that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier.
-
-<div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
-
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
-
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
-
-</div>
-
-## Nextstrain narratives
-
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
-
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
-
-
-```
-
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
-
-### Further Reading (in English):
-
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
-
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
-
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
-
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* Resumen del brote de COVID-19 en [Wikipedia](https://es.wikipedia.org/wiki/Epidemia_de_neumon%C3%ADa_por_coronavirus_de_2019-2020) _2020-03-07_
+* Material proporcionado por los Centros para el Control y la Prevención de Enfermedades de los Estados Unidos en [US CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-sp.html) _2020-02-14_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## FAQs & Misconceptions
+## Recursos de información relacionados con el COVID-19
 
-### FAQs
-
-We know that a lot of people have questions about COVID-19.
-We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain.org/help/coronavirus/FAQ):
+A continuación, hemos preparado algunos recursos (actualmente en inglés) que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2.
+Esta información facilitará la interpretación de los datos que presentamos en esta narrativa.
 
 <div>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="Imagen por microscopio de los coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Antecedentes sobre los coronavirus </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ (in English) </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="Ilustración de un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Antecedentes recientes del brote de COVID-19 </a>
+
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="Ilustración de un árbol filogenético" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer filogenias</a>
 
 </div>
 
+## Narrativas Nextstrain 
 
-### Misconceptions
-
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
-
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below (in English):
-
-<div>
-
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
+Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org).
+El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
 
 
-</div>
+La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro muy notable.
+Estos análisis han sido posibles gracias al intercambio rápido y abierto de los datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes genomas).
+
 
 
 ```
@@ -125,19 +74,71 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [Preguntas frecuentes y conceptos erróneos](https://nextstrain.org/ncov/2020-03-05)
 
-Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](https://github.com/nextstrain/ncov).
+### Lectura adicional (en inglés):
+
+* "No crea las teorías de conspiración que escucha sobre el coronavirus y el VIH" [articulo](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+
+* "Teorías de conspiración sin fundamento afirman que el nuevo coronavirus fue producto de la bioingeniería" [articulo](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+
+* "No, el coronavirus de Wuhan no fue diseñado genéticamente para insertar trozos del VIH en él" [articulo](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+
+* "Rompiendo los mitos del coronavirus" [Verificación de información por la AFP](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+
+<!-- This is right-side text -->
+```auspiceMainDisplayMarkdown
+
+## Preguntas frecuentes y conceptos erróneos
+
+### Preguntas frecuentes
+
+Sabemos que mucha gente tiene preguntas sobre el COVID-19.
+Hemos creado una guía para tratar de responder algunas de las preguntas más frecuentes [aquí](https://nextstrain.org/help/coronavirus/FAQ):
+
+<div>
+
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="Imagen de un signo de interrogación" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> Preguntas frecuentes sobre el COVID-19 (en inglés) </a>
+
+</div>
+
+
+### Conceptos erróneos
+
+Se han circulado varios conceptos erróneos sobre los orígenes del nuevo coronavirus.
+Durante brotes como este, la difusión de información que se sabe que es incorrecta puede generar más pánico y hacer que las personas no confíen en los científicos y los gobiernos, lo que significa que es menos probable que sigan las advertencias y tomen las precauciones adecuadas.
+
+En un esfuerzo por tratar de explicar por qué estos puntos de vista son incorrectos, los científicos han abordado estas teorías en las siguientes páginas (en inglés):
+
+<div>
+
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="Foto de una serpiente" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> Orígen a partir de 'serpientes' del SARS-CoV-2 (informe técnico) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="Ilustración del VIH" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> Ideas sobre la 'bioingeniería del VIH' (hilo en Twitter)</a>
+
+
+</div>
+
+
+```
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [Análisis filogenético](https://nextstrain.org/ncov/2020-03-05?d=tree)
+
+Aquí presentamos una filogenia de 169 </tag> cepas del SARS-CoV-2 (el virus que causa COVID-19) que se han compartido públicamente.
+La información sobre cómo se realizó el análisis está disponible [en este repositorio de GitHub](https://github.com/nextstrain/ncov).
 
 <br>
 
-The colours represent the within-country region or US-state of isolation, with the x-axis representing the sample date.
-The y-axis shows how the sequences are connected, and does not have any units of measurement.
+Los colores representan la región del país o el estado de los EE. UU. donde se produjo el aislamiento. El eje x representa la fecha de aislamiento de las muestras.
+El eje y muestra cómo están conectadas las secuencias, y no tiene ninguna unidad de medida.
 
 <br>
 
-Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
+Las fechas de aislamiento son útiles, pero no siempre muestran exactamente cómo se relacionan genéticamente dos secuencias: dos secuencias que son idénticas podrían tener fechas de aislamiento diferentes y, por lo tanto, se ven muy separadas usando esra opción de visualización.
+
 
 <!-- There is NO right-side text -->
 
