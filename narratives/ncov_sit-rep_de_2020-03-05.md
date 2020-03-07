@@ -143,30 +143,30 @@ Zwei Sequenzen welche identisch siund und am gleichen Tag isoliert wurden könne
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
+# ['Divergenz' in Phylogenien](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-We can change the view so that the x-axis now shows 'divergence' instead.
+Wir könen die Ansicht nun so ändern, dass auf der x-Achse nun die 'Divergenz' angezeit wird.
+
+<br>
+Viele Sequenzen welche bis anhin unterschiedlich ausgesehne haben sitzen nun auf der gleichen vertikalen Linie.
+Sie können nun nun herauf und herunter scrollen um zwischen den einzelnen Seiten hin und her zu welchseln und um zu sehen, wie sich die Phylogenie verändert.
 
 <br>
 
-Notice how many sequences that looked different previously, now sit in a line vertically.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+Divergenz wird in der Anzahl Änderungen (Mutationen) im Genom gemessen
+Gewisse Sequenzen haben unter Umständen keine Mutation, sprich sie sind alle identisch mit dem Ursprung der Phylogenie.
+Andere Vieren wiederum haben zwischen einer und elf Mutationen.
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+
+Die Sequenzierung des Genoms eines grossen neuartigen RNA-Virus in einer Ausbruchssituation ist eine grosse Herausforderung.
+Einige der in diesen Sequenzen beobachteten Unterschiede können eher auf Sequenzierungsfehler als auf tatsächliche Mutationen zurückzuführen sein.
+Einfügungen, Deletionen und Unterschiede an den Enden des Genoms sind mit grösserer Wahrscheinlichkeit Fehler und wurden deshalb in dieser Analyse weggelassen.
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
-
-<br>
-
-Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' view, depending on what we are trying to highlight.
+Machmal werden wir die Phylogeie mit der x-Achse als Zeit und machmal als Divergenz darstellen, je nach dem was wir versuchen zu betonen.
 
 <!-- There is NO right-side text -->
 
