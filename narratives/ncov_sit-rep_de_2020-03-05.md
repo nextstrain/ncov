@@ -191,17 +191,17 @@ Die Beobachtung von so geringer Diversität bei den Infektionen kann durch eine 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [At least two introductions into Italy, with possible community spread](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
+# [Ministens zwei Einführungen nach Italien, mit nachfolgender lokalen Verbreitung](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-We currently have 3 sequences from Italy, two of which are from the Rome area and one from Lombardy in northern Italy.
+Wir haben im Moment 3 Sequenzen aus Italie, zei davon aus Rom und eine aus der Lombardei.
+
+<br>
+Diese 3 Sequenzen haben einen gemeinsame Vorfahren früh in der Epidemie (in the Nähe des Ursprungs am linken Rande der Phylogenie).
+Dies stützt die Vermutung, dass das Virus im Minimum zweimal nach Italien eingeführt wurde.
 
 <br>
 
-These 3 sequences share a common ancestor early in the epidemic (near the base of the tree, to the left), which strongly suggests that there were at least two introductions with community spread into Italy.
-
-<br>
-
-Dr Nuno Faria et al. give an excellent breakdown [here (in English)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
+Dr Nuno Faria et al. geben eine gute [Erklärung dazu (in English)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) wie ein brasilianische und andere Weltweit gesammelte Sequenzen zeigen, dass der Ausbruch in Italien vurmutlich von mehreren Quellen und nicht nur einer verursacht wurde.
 
 
 
