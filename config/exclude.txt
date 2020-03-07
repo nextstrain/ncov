@@ -68,3 +68,25 @@ pangolin/Guandong/1/2019
 pangolin/China/MP789/2019
 bat/Yunnan/RmYN02/2019
 bat/Yunnan/RmYN01/2019
+
+# Temporarily excluded
+Netherlands/Berlicum_1363564/2020
+Netherlands/Berlicum_1363564/2020
+Netherlands/Blaricum_1364780/2020
+Netherlands/Blaricum_1364780/2020
+Netherlands/Diemen_1363454/2020
+Netherlands/Diemen_1363454/2020
+Netherlands/Haarlem_1363688/2020
+Netherlands/Haarlem_1363688/2020
+NetherlandsL/Andel_1365066/2020
+NetherlandsL/Andel_1365066/2020
+Netherlands/Coevorden_1363618/2020
+Netherlands/Dalen_1363624/2020
+Netherlands/Delft_1363424/2020
+Netherlands/Eindhoven_1363782/2020
+Netherlands/Helmond_1363548/2020
+Netherlands/Coevorden_1363618/2020
+Netherlands/Dalen_1363624/2020
+Netherlands/Delft_1363424/2020
+Netherlands/Eindhoven_1363782/2020
+Netherlands/Helmond_1363548/2020
