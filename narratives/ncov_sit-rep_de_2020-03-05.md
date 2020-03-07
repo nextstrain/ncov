@@ -273,7 +273,7 @@ Trevor Bedford (Co-Founder von Nextstrain) hat einen guten Blog post zu diesen u
 <br>
 
 Die weiteren Sequenzen aus Washington State erzählen zusätzlich eine weirtere Geschichte.
-Diese Sequenzen sind eng miteinander verwandt, was sehr start darauf hindeutet, fsadd SARS-CoV-2 bereits seit mehreren Wochen in der Region um Seattle zirkuliert.
+Diese Sequenzen sind eng miteinander verwandt, was sehr stark darauf hindeutet, dass SARS-CoV-2 bereits seit mehreren Wochen in der Region um Seattle zirkuliert.
 
 <!-- There is NO right-side text -->
 
@@ -282,10 +282,10 @@ Diese Sequenzen sind eng miteinander verwandt, was sehr start darauf hindeutet, 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [Datierung des letzten gemeinsamen Vorfahren](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
-This time can be as early as the time when a virus first entered the human population, but can also be substantially later, as shown in the figure below.
+Die Zeit des letzten geimensamen Vorfahrens (oder tMRCA vom Englischen) von Sequenzen ist die Zeit in welcher alle diese Sequenzen zuletzt einen gemeinsamen Vorfahren hatten.
+Dies kann die Zeit sein als ein Virus zum ersten Mal auf Menschen übertragen wurde, kann aber unter Umständen auch signifikant später sein, wie wir hier zeigen.
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -295,12 +295,12 @@ This time can be as early as the time when a virus first entered the human popul
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Date of the common ancestor of outbreak viruses
+## Zeit des gemeinsamen Vorfahrens
 
-Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut (in English)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [this post by T Stadler (in English)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Mehrere Forschungsgruppen haben die Zeit des letzten geimensame Vorfahren geschätzt, siehe zum Beispiel dieser Eintrag von A. Rambaut (in Englisch)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) oder [dieser Eintrag von T Stadler (in Englisch)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
-The common ancestor of all sequences is most likely between mid-November and mid-December.
-This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+Der letzte gemeinsame Vorfahre aller Sequenzen war sehr wahrscheindlich zweischen Mitte November und Mitte Dezember.
+Dies würde mit der Hypothese übereinstimmen, dass alle momentan Sequenzierten Fälle auf eine Ursprüngliche Verbreitung in einem [Meeresfrüchte Markt in Wuhan zurückzuführen sind]http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
