@@ -43,10 +43,10 @@ Wir finden:
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 Resourcen
+## COVID-19 Ressourcen
 
-Below, we've prepared some resources (currently in English) that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier.
+Hier haben wir mehrere lesenswerte Resourcen (auf Englisch) zusammegestellt um sich mit COVID-19 (der Krankeit) un dem Virus welche sie verursacht, SARS-CoV-2, bekannt zu machen.
+Diese Informationen werden es einfacher machen die nachfolgenden Daten zu verstehen.
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -57,13 +57,13 @@ This information will make interpreting the data we present in this narrative ea
 
 </div>
 
-## Nextstrain narratives
+## Nextstrain Narrative
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
+Die folgenden Seiten enthalten Analysen, die mit [Nextstrain](https://nextstrain.org) durchgeführt wurden.
+Wenn Sie durch die linke Leiste blättern, werden Textabschnitte mit einer entsprechenden Visualisierung der genomischen Daten auf der rechten Seite angezeigt.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+Das vollständige Genom eines neuartigen und grossen RNA-Virus schnell zu entschlüsseln ist eine bemerkenswerte Leistung.
+Diese Analysen wurden durch den schnellen und offenen Austausch von genomischen Daten und Interpretationen durch Wissenschaftler auf der ganzen Welt ermöglicht (siehe die letzte Folie mit einer Liste der beitragenden Institute).
 
 
 ```
@@ -72,9 +72,9 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [Weiterführende Informationen und Missverständnisse](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading (in English):
+### Weiterführende Informationen (in Englisch):
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
@@ -87,12 +87,12 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## FAQs & Misconceptions
+## Weiterführende Informationen und Missverständnisse
 
-### FAQs
+### Weiterführende Informationen
 
-We know that a lot of people have questions about COVID-19.
-We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain.org/help/coronavirus/FAQ):
+Wir sind uns bewusst, dass viele Personen offene Fragen bezüglich COVID-19 haben.
+Wir habe mehrere dieser zusammegetragen und [here](https://nextstrain.org/help/coronavirus/FAQ) versucht zu beantworten:
 
 <div>
 
@@ -101,12 +101,12 @@ We've set up a guide to try and answer some of those most frequently asked [here
 </div>
 
 
-### Misconceptions
+### Missverständnisse
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+Momentan sind mehrere Missverständnisse über den Ursprung dieses neurtigen Coronaviruses am zirkulieren.
+Während solcher Ausbrüche können solche Information zu verstärkter Unsicherheit und Misstrauen in die Wissenschaft und Behörden führen, was wiederum die Wahrscheindlichkeit veringert das gewisse Vorsichtsmassnahmen getroffen werden.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below (in English):
+Wissenschaftler bemühen sich darum zu erklären, wieso dies Theorien nicht der Wahrheit entsprechen und wir haben ein paar davon hier (in Englisch) zusammengetragen :
 
 <div>
 
