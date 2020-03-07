@@ -123,19 +123,19 @@ Wissenschaftler bemühen sich darum zu erklären, wieso dies Theorien nicht der 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [Phylogenetische Analysen](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](https://github.com/nextstrain/ncov).
-
-<br>
-
-The colours represent the within-country region or US-state of isolation, with the x-axis representing the sample date.
-The y-axis shows how the sequences are connected, and does not have any units of measurement.
+Zur Rechten sehen Sie eine Phylogenie von 169</tag> SARS-CoV-2-Stämmen (dem Virus welches COVID-29 verursacht), die öffentlich zugänglich sind.
+Informationen darüber, wie die Analyse durchgeführt wurde, finden Sie [in diesem GitHub-Repository](github.com/nextstrain/ncov).
 
 <br>
 
-Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
+Die Farben repräsentieren diejenige regions innerhalb einses Landes oder denjenigen US-Staat der Isolation, wobei die x-Achse die Nukleotid-Divergenz darstellt.
+
+<br>
+
+Wann ein Virus isoliert wurde kann hilfreich sein, sagt aber nicht genau aus wie zwei Sequenzen miteinander verwandt sind.
+Zwei Sequenzen welche identisch siund und am gleichen Tag isoliert wurden können theoretisch in diser Ansicht nur entfernt miteinander verwandt sein.
 
 <!-- There is NO right-side text -->
 
