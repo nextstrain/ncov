@@ -19,11 +19,11 @@ abstract: "Ce rapport utilise des données génomiques du nouveau coronavirus (n
 ```auspiceMainDisplayMarkdown
 ## Résumé exécutif
 
-Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+Nous avons examiné la diversité génétique de 169</tag> génomes rendus publics pour estimer la date de l'ancêtre commun et le taux de propagation. 
 
 
 
-We find:
+Principaux résultats:
 * COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
 * This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
 * Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
