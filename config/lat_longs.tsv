@@ -1,7 +1,10 @@
 location	Aichi	35.067543	137.334061
+location  Andel 51.7851 5.0549
 location	Auckland	-36.8314	174.7606
 location	Bangkok	13.803139	100.491612
 location	Beijing	40.071320	116.406908
+location  Berlicum 51.6789  5.4012
+location  Blaricum  52.2727 5.2481
 location	Boston	42.354750	-71.061299
 location	California	36.357039	-119.690182
 location	Chengdu	30.640989	104.067518
@@ -10,12 +13,14 @@ location	Chongqing	29.858721	107.375623
 location	Chungcheongnam	36.685948	126.799198
 location	Clayton	-37.915200	145.127165
 location	Contamines	45.820585	6.727730
+location  Diemen  52.3390 4.9592
 location	England	52.405994	-1.671707
 location	Foshan	23.018766	113.121428
 location	Gold Coast	-28.019726	153.398160
 location	Guangdong	23.615762	114.483257
 location	Guangzhou	23.123972	113.292889
 location	Gyeonggi	37.397957	127.380864
+location  Haarlem 52.3874 4.6462
 location	Hangzhou	30.272732	120.154501
 location	Heinsberg District	51.0499	6.1163
 location	Hefei	31.806280	117.227234
@@ -105,6 +110,8 @@ division	Massachusetts	42.340741	-71.998513
 division	Mexico City	19.404497	-99.143041
 division	Nara	34.371026	135.887389
 division	New South Wales	-32.688430	146.228414
+division  North Brabant 51.4827 5.2322
+division  North Holland 52.5206 4.7885
 division	North Rhine Westphalia	51.44	7.705
 division	Nonthaburi	13.852511	100.522791
 division	Ontario	44.429	-79.377
