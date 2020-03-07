@@ -256,25 +256,24 @@ Im Moment können wir zwischen den beiden Szenarien nicht unterscheiden.
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Likely spread of SARS-CoV-2 in the Seattle area](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [Vermutliche Verbreitung von SARS-CoV-2 in der Region um Seattle](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-There are now several cases of COVID-19 reported in the greater Seattle area and the US in general.
-The newly isolated and sequenced cases are genetically closely related to a case isolated in the middle of January in the same area.
+Es gibt bis dato mehrere Fälle von COVID-19 in der Regions um Seattle und den USA im Allgemeinen.
+Diese neu isolierten und Sequenzierten Fälle sind genetisch eng miteinander Verwandt mit einem Fall welche mitte Januar in der gleichen Region aufgetreten ist.
+
+<br>
+Es gibt hierführ zwei unterschiedliche Erklärungen.
+Einerseits könnte das Virus im Minimum zweimal in die Region von einer gemeinsame Quelle in China eingeführt worden sein.
+Die andere Erklärung ist, dass das Virus bereits seit längerem in der Region zirkuliert.
 
 <br>
 
-There are two possible explanations for this.
-The virus could have been introduced at least twice into the greater Seattle area from a common source in China.
-However, another explanation is that the virus was circulating undetected in the area for a while.
+Trevor Bedford (Co-Founder von Nextstrain) hat einen guten Blog post zu diesen unterschiedlichen Möglichkeiten verfasst, [siehe hier (in Englisch)](https://bedford.io/blog/ncov-cryptic-transmission/).
 
 <br>
 
-Trevor Bedford (co-founder of Nextstrain) has written a great blog post about these possibilities, which you can read [here (in English)](https://bedford.io/blog/ncov-cryptic-transmission/).
-
-<br>
-
-The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together.
-This strongly suggest community spread, and that the SARS-CoV-2 virus has been circulating in the area for some time already.
+Die weiteren Sequenzen aus Washington State erzählen zusätzlich eine weirtere Geschichte.
+Diese Sequenzen sind eng miteinander verwandt, was sehr start darauf hindeutet, fsadd SARS-CoV-2 bereits seit mehreren Wochen in der Region um Seattle zirkuliert.
 
 <!-- There is NO right-side text -->
 
@@ -316,15 +315,14 @@ This would be consistent with all currently sequenced cases descending from the 
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Danksagung](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Wir möchten uns für die beeindruckende, schnelle und transparente Arbeit aller an diesem Ausbruch beteiligten Wissenschaftler, insbesondere aber jener in China tätigen, bedanken.
+Nur durch den raschen Austausch von genomischen Daten und Metadaten sind solche Analysen möglich.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Wir möchten uns auch bei [GISAID](https://gisaid.org) bedanken, dass sie eine Platform bieten um diese Daten heraufzuladen und zu teilen.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
@@ -417,14 +415,13 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Detailierte Herkunft der Daten](https://nextstrain.org/ncov/2020-01-30?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Diese Daten wurden via [GISAID](https://gisaid.org) zur Verfügung gestellt.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+Auf der rechten Seite finden Sie eine detaillierte Auflistung der Sequenzen und ihrer Urheber.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
