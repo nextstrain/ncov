@@ -1,6 +1,6 @@
 ---
-title: Análisis genómico de la propagación del nCoV. Informe de la situación hasta 2020-03-05.
-authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Julian Villabona-Arenas"
+title: Análisis genómico de la propagación del nCoV. Informe de la situación hasta el 2020-03-05.
+authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Julián Villabona-Arenas"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland and CMMID-LSHTM, London, UK"
 date: "2020 March 05"
@@ -22,10 +22,10 @@ abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV
 Hemos examinados la diversidad genética de 169</tag> genomas públicos del nuevo coronavirus (nCoV) para caracterizar la propagación del virus en diferentes åreas y estimar la fecha del ancestro común más reciente.
 
 Principales hallazgos:
-* El COVID-19 ha sido introducido en Italia al menos dos veces y se ha documentado transmisión comunitaria ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
+* El COVID-19 ha sido introducido en Italia al menos dos veces y se ha documentado transmisión comunitaria([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
 * Esto incluye un grupo de secuencias de 6 países diferentes donde los casos parecen haber sido importados desde Italia ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
 * Los datos de secuencias genéticas apoyan la hipótesis de una propagación no detectada y sostenida del COVID-19 en el área metropolitana de Seattle desde mediados de enero ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Todas las secuencias incluídas en este análisis comparten un ancestro común que existió en algún momento entre mediados de noviembre y mediados de diciembre de 2019. ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* Todas las secuencias incluidas en este análisis comparten un ancestro común que existió en algún momento entre mediados de noviembre y mediados de diciembre de 2019([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -148,7 +148,7 @@ Las fechas de aislamiento son útiles, pero no siempre muestran exactamente cóm
 <!-- This is left-side text -->
 # ['Divergencia' en filogenias](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-Podemos cambiar la opción de visualización para que el eje x ahora muestre 'divergencia' en lugar de la fecha de aislamiento .
+Podemos cambiar la opción de visualización para que el eje x ahora muestre 'divergencia' en lugar de la fecha de aislamiento.
 
 <br>
 
@@ -164,13 +164,13 @@ Otros virus tienen entre una y once mutaciones.
 
 <br>
 
-La secuenciación del genoma de un virus nuevo de ARN durante una emergencia sanitária por un brote es un desafío enorme.
+La secuenciación del genoma de un virus nuevo de ARN durante una emergencia sanitaria por un brote es un desafío enorme.
 Algunas de las diferencias observadas en estas secuencias pueden ser errores de secuenciación en lugar de mutaciones reales.
 Las inserciones, las deleciones y las diferencias observadas en los extremos del genoma tienen una mayor probabilidad de ser errores, por lo que las filtramos durante los presentes análisis.
 
 <br>
 
-A veces mostraremos el árbol con la opción de visualizaciónde 'tiempo', y a veces con la opción de visualización 'divergencia', dependiendo de lo que estemos tratando de resaltar.
+A veces mostraremos el árbol con la opción de visualización de 'tiempo', y a veces con la opción de visualización 'divergencia', dependiendo de lo que estemos tratando de resaltar.
 
 <!-- There is NO right-side text -->
 
@@ -220,7 +220,7 @@ Hemos cambiado a la visualización de 'divergencia' para mostrar que las dos sec
 
 <br>
 
-Sin embargo, la secuencia brasileña (SPBR-02) tiene un historial de viajes a Milán, en Lombardía, y se cree que la secuencia Suiza en este grupo también viajó recientemente a Italia. No sabemos nada sobre el historial de viajes de la muestra de EE. UU. La secuencia Inglesa (England/09c) representa una importación directa de China.
+Sin embargo, la secuencia brasileña (SPBR-02) tiene un historial de viajes a Milán, en Lombardía, y se cree que la secuencia suiza en este grupo también viajó recientemente a Italia. No sabemos nada sobre el historial de viajes de la muestra de EE. UU. La secuencia inglesa (England/09c) representa una importación directa de China.
 
 <br>
 
