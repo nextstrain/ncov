@@ -1,13 +1,13 @@
 ---
-title: Análise genômica do espalhamento da COVID-19: Relatório da situação até 05/03/2020.
+title: Análise genômica do espalhamento da COVID-19. Relatório da situação até 05/03/2020.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "05 de Março de 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "Este relatório usa dados genômicos sobre a COVID-19 publicamente compartilhados pela GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores.
+abstract: "Este relatório usa dados genômicos sobre a COVID-19 publicamente compartilhados pela GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores. 
 
-Tradução por: Glaucio Santos & Anderson Brito"
+Tradução por: Glaucio Santos & Anderson Brito."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -22,10 +22,10 @@ Tradução por: Glaucio Santos & Anderson Brito"
 ## Resumo
 
 Examinamos a diversidade genética dos 169</tag> genomas do SARS-CoV-2 compartilhados publicamente, a fim de caracterizar o espalhamento da doença COVID-19 em diferentes áreas, e inferir a data do ancestral comum dos vírus. Concluímos que:
-* O vírus da COVID-19 foi introduzido na Itália ao menos duas vezes, seguido por espalhamento comunitário a partir disso ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* Isso inclui um grupo de sequências de 6 diferentes países, onde casos parecem ter sido exportados da Itália ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Dados de sequências genéticas sustentam a hipótese de espalhamento sustentado do vírus da COVID-19 na Região Metropolitana de Seattle desde meados de Janeiro ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Todos os casos sequenciados nesta análise provavelmente compartilham um ancestral comum de algum momento entre meados de Novembro e meados de Dezembro de 2019 ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* O vírus da COVID-19 foi introduzido na Itália ao menos duas vezes, seguido por espalhamento comunitário a partir disso ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=7)).
+* Isso inclui um grupo de sequências de 6 diferentes países, onde casos parecem ter sido exportados da Itália ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=9)).
+* Dados de sequências genéticas sustentam a hipótese de espalhamento sustentado do vírus da COVID-19 na Região Metropolitana de Seattle desde meados de Janeiro ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=10)).
+* Todos os casos sequenciados nesta análise provavelmente compartilham um ancestral comum de algum momento entre meados de Novembro e meados de Dezembro de 2019 ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=11)).
 
 ```
 
@@ -273,7 +273,7 @@ O tMRCA (sigla em Inglês para 'tempo até o ancestral comum mais recente') de u
 
 Inúmeros grupos de pesquisa e pessoas têm estimado a data do ancestral comum mais recente - confira [esta postagem de A. Rambaut (em Inglês)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) ou [esta postagem de T. Stadler (em Inglês)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
-O ancestral comum de todas as sequências provavelmente existiu entre meados de Novembro e meados de Dezembro. Isso seria consistente com todos os casos atualmente sequenciados, descendentes do [conjunto inicial de casos no mercado de frutos do mar de Wuhan.](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+O ancestral comum de todas as sequências provavelmente existiu entre meados de Novembro e meados de Dezembro. Isso seria consistente com todos os casos atualmente sequenciados, descendentes do [conjunto inicial de casos no mercado de frutos do mar de Wuhan](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
