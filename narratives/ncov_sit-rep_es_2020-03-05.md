@@ -22,10 +22,10 @@ abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV
 Hemos examinados la diversidad genética de 169</tag> genomas públicos del nuevo coronavirus (nCoV) para caracterizar la propagación del virus en diferentes áreas y estimar la fecha del ancestro común más reciente.
 
 Principales hallazgos:
-* El COVID-19 ha sido introducido en Italia al menos dos veces y se ha documentado transmisión comunitaria([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* Esto incluye un grupo de secuencias de 6 países diferentes donde los casos parecen haber sido importados desde Italia ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Los datos de secuencias genéticas apoyan la hipótesis de una propagación no detectada (críptica) y sostenida del COVID-19 en el área metropolitana de Seattle desde mediados de enero ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Todas las secuencias incluidas en este análisis comparten un ancestro común que existió en algún momento entre mediados de noviembre y mediados de diciembre de 2019([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* El COVID-19 ha sido introducido en Italia al menos dos veces y se ha documentado transmisión comunitaria([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-05?n=7)).
+* Esto incluye un grupo de secuencias de 6 países diferentes donde los casos parecen haber sido importados desde Italia ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-05?n=9)).
+* Los datos de secuencias genéticas apoyan la hipótesis de una propagación no detectada (críptica) y sostenida del COVID-19 en el área metropolitana de Seattle desde mediados de enero ([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-05?n=10)).
+* Todas las secuencias incluidas en este análisis comparten un ancestro común que existió en algún momento entre mediados de noviembre y mediados de diciembre de 2019([Enlace a esto](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-05?n=11)).
 
 ```
 
@@ -57,7 +57,7 @@ Esta información facilitará la interpretación de los datos que presentamos en
 
 </div>
 
-## Narrativas Nextstrain 
+## Narrativas Nextstrain
 
 Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org).
 El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
@@ -186,7 +186,7 @@ Si bien todos los primeros casos estaban directamente relacionados con los casos
 
 <br>
 
-En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ebola, MERS-CoV y la gripe aviar). 
+En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ebola, MERS-CoV y la gripe aviar).
 El hecho de que ocurra una agrupación tan próxima de las infecciones humanas por el nCoV puede indicar que el brote se inició a partir de un único evento de zoonosis seguido de la propagación epidémica de persona a persona.
 
 <!-- There is NO right-side text -->
@@ -322,7 +322,7 @@ Solo mediante el intercambio rápido de datos genómicos y metadatos se pueden r
 
 <br>
 
-También agradecemos a [GISAID] (https://gisaid.org) por proporcionar la plataforma a través de la cual estos datos se pueden depositar y compartir.
+También agradecemos a [GISAID](https://gisaid.org) por proporcionar la plataforma a través de la cual estos datos se pueden depositar y compartir.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
@@ -417,7 +417,7 @@ Agradecemos los datos generados por estos laboratorios:
 <!-- This is left-side text -->
 # [Crédito científico detallado](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Estos datos se compartieron a través de [GISAID] (https://gisaid.org).
+Estos datos se compartieron a través de [GISAID](https://gisaid.org).
 Agradecemos sus contribuciones.
 
 <br>
