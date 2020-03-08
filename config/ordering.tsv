@@ -1,0 +1,188 @@
+location	Wuhan
+location	Tianmen
+location	Hefei
+location	Jingzhou
+location	Pingxiang
+location	Zhongxian
+location	Yongchuan
+location	Chongqing
+location	Suzhou
+location	Chengdu
+location	Kunming
+location	Hangzhou
+location	Guangdong
+location	Shenzhen
+location	Zhuhai
+location	Huaian
+location	Qingdao
+location	Guangzhou
+location	Foshan
+location	Hong Kong
+location	Taipei
+location	Taoyuan
+location	Kaohsiung
+location	Bangkok
+location	Aichi
+location	Tokyo
+location	Kyoto
+location	Gyeonggi
+location	Chungcheongnam
+location	Seoul
+location	Kathmandu
+location	Thanh Hoa
+location	Bangkok
+location	Singapore
+location	Gold Coast
+location	Sydney
+location	Clayton
+location	Auckland
+location	Heinsberg District
+location	Delft
+location	Utrecht
+location	Zeewolde
+location	Loon op zand
+location	Berlicum
+location	Blaricum
+location	Hardinxveld Giessendam
+location	Coevorden
+location	Diemen
+location	Nootdorp
+location	Naarden
+location	Eindhoven
+location	Houten
+location	Haarlem
+location	Nieuwendijk
+location	Andel
+location	Rotterdam
+location	Oss
+location	Tilburg
+location	Helmond
+location	Oisterwijk
+location	Dalen
+location	Paris
+location	Contamines
+location	Leuven
+location	Starnberg
+location	Rome
+location	Milan
+location	England
+location	Rovaniemi
+location	Jönköping
+location	Helsinki
+location	Sao Paulo
+location	Mexico City
+location	Seattle
+location	Solano County
+location	Sonoma County
+location	Orange County
+location	Los Angeles
+location	California
+location	Snohomish County
+location	King County
+location	Phoenix
+location	Chicago
+location	Illinois
+location	Wisconsin
+location	Boston
+
+division	Hubei
+division	Beijing
+division	Anhui
+division	Jiangxi
+division	Chongqing
+division	Sichuan
+division	Yunnan
+division	Jiangsu
+division	Shandong
+division	Zhejiang
+division	Fujian
+division	Guangdong
+division	Hong Kong
+division	Taiwan
+division	Aichi
+division	Tokyo
+division	Nara
+division	Osaka
+division	Kyoto
+division	Kanagawa
+division	Gyeonggi
+division	Chungcheongnam
+division	Seoul
+division	South Korea
+division	Kathmandu
+division	Kerala
+division	Thanh Hoa
+division	Sihanoukville
+division	Nonthaburi
+division	Singapore
+division	Gyeonggi
+division	Queensland
+division	New South Wales
+division	Victoria
+division	Auckland
+division	Ile De France
+division	Auvergne Rhone Alpes
+division	Flanders
+division	Bavaria
+division	Baden-Wuerttemberg
+division	North Rhine Westphalia
+division	Andel
+division	Utrecht
+division	Drenthe
+division	North brabant
+division	Flevoland
+division	South Holland
+division	North Holland
+division	Luxemburg
+division	Zurich
+division	Lazio
+division	Milan
+division	Rome
+division	Lombardy
+division	England
+division	Wales
+division	Scotland
+division	Lapland
+division	Småland
+division	Helsinki
+division	Lagos
+division	Sao Paulo
+division	Mexico City
+division	Texas
+division	Arizona
+division	California
+division	Illinois
+division	Wisconsin
+division	Massachusetts
+division	Washington
+division	British Columbia
+division	Ontario
+
+country	China
+country	Hong Kong
+country	Taiwan
+country	Japan
+country	South Korea
+country	Nepal
+country	India
+country	Vietnam
+country	Cambodia
+country	Thailand
+country	Singapore
+country	Australia
+country	New Zealand
+country	France
+country	Netherlands
+country	Belgium
+country	Luxemburg
+country	Germany
+country	Switzerland
+country	Italy
+country	United Kingdom
+country	Finland
+country	Sweden
+country	Nigeria
+country	Brazil
+country	Mexico
+country	USA
+country	Canada

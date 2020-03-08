@@ -1,10 +1,15 @@
 {
-  "title": "新型冠状病毒（nCoV）的基因组流行病学",
+  "title": "新型冠状病毒（hCoV-19）的基因组流行病学",
   "build_url": "https://github.com/nextstrain/ncov",
   "colorings": [
     {
       "key": "location",
       "title": "Location",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Admin division",
       "type": "categorical"
     },
     {
@@ -15,6 +20,16 @@
     {
       "key": "host",
       "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "age",
+      "title": "Age",
+      "type": "continuous"
+    },
+    {
+      "key": "sex",
+      "title": "Sex",
       "type": "categorical"
     },
     {
@@ -31,19 +46,29 @@
       "key": "submitting_lab",
       "title": "Submitting Lab",
       "type": "categorical"
+    },
+    {
+      "key": "gisaid_epi_isl"
+    },
+    {
+      "key": "genbank_accession"
     }
   ],
   "geo_resolutions": [
     "location",
+    "division",
     "country"
   ],
   "display_defaults": {
-    "color_by": "location",
-    "geo_resolution": "location",
-    "map_triplicate": true
+    "color_by": "division",
+    "distance_measure": "num_date",
+    "geo_resolution": "division",
+    "map_triplicate": true,
+    "branch_label": "none"
   },
   "filters": [
     "location",
+    "division",
     "country",
     "host",
     "author",

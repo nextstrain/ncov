@@ -131,7 +131,7 @@ When a sequence sits on a long line on its own, like C or E, this means it has u
 A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
 
 <div>
-  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://nextstrain-data.s3.amazonaws.com/toy_alignment_tree.png"/>
+  <img alt="cartoon of phylogenetic tree and corresponding alignment, with samples labelled A-E" width="500" src="https://data.nextstrain.org/toy_alignment_tree.png"/>
 </div>
 
 At the moment, the novel coronavirus (nCoV) phylogeny may not look much like a 'tree'.
@@ -225,7 +225,7 @@ Here, we assume a star-like phylogeny structure along with a Poisson distributio
 **We find that the common ancestor most likely existed between mid-Nov and early-Dec 2019.**
 
 <div>
-  <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_poisson-tmrca.png"/>
+  <img alt="graph of TMRCA estimates based on different mutation rates" width="500" src="https://data.nextstrain.org/ncov_poisson-tmrca.png"/>
 </div>
 
 As the more samples are sequenced, we expect the tree to show more structure, such that the star-like phylogeny topology is no longer a good assumption.
@@ -251,12 +251,12 @@ Together with our previous estimates of the age of the outbreak and information 
 
 If we assume the outbreak started at the beginning of November 2019 (12 weeks ago), we find that R0 should range between 1.5 and 2.5, depending on how large ('n') the outbreak is now.
 <div>
-  <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-early.png"/>
+  <img alt="graph of R0 estimates with epidemic start 12 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-early.png"/>
 </div>
 
 If we assume a more recent start, at the beginning of December 2019 (8 weeks ago), the estimates for R0 range between 1.8 and 3.5:
 <div>
-  <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://nextstrain-data.s3.amazonaws.com/ncov_branching-R0-recent.png"/>
+  <img alt="graph of R0 estimates with epidemic start 8 weeks ago" width="500" src="https://data.nextstrain.org/ncov_branching-R0-recent.png"/>
 </div>
 ```
 
