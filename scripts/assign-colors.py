@@ -1,5 +1,10 @@
 import argparse
 
+extra_colors = [
+    ["division", "Cruise ship", "#CCC"],
+    ["location", "Cruise ship", "#CCC"]
+]
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="Assign colors based on ordering",
@@ -38,3 +43,6 @@ if __name__ == '__main__':
             for trait_value, color in zipped:
                 f.write(trait_name + "\t" + trait_value + "\t" + color + "\n")
             f.write("\n")
+        for trait_name, trait_value, color in extra_colors:
+            f.write(trait_name + "\t" + trait_value + "\t" + color + "\n")
+        f.write("\n")
