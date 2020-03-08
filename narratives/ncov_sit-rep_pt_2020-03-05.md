@@ -273,7 +273,7 @@ O tMRCA (sigla em Inglês para 'tempo até o ancestral comum mais recente') de u
 
 Inúmeros grupos de pesquisa e pessoas têm estimado a data do ancestral comum mais recente - confira [esta postagem de A. Rambaut (em Inglês)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) ou [esta postagem de T. Stadler (em Inglês)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
-O ancestral comum de todas as sequências provavelmente existiu entre meados de Novembro e meados de Dezembro. Isso seria consistente com todos os casos atualmente sequenciados, descendentes do [conjunto inicial de casos no mercado de frutos do mar de Wuhan.](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+O ancestral comum de todas as sequências provavelmente existiu entre meados de Novembro e meados de Dezembro. Isso seria consistente com todos os casos atualmente sequenciados, descendentes do [conjunto inicial de casos no mercado de frutos do mar de Wuhan](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
