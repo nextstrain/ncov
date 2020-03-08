@@ -23,10 +23,10 @@ Gebruik makende van 169</tag> publiekelijk gedeelde COVID-19 genomen, hebben we 
 
 
 Wat we vinden:
-* COVID-19 is minimaal twee keer geïntroduceerd in Italië, om vervolgens binnen de gemeenschap te verspreiden. ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
+* COVID-19 is minimaal twee keer geïntroduceerd in Italië, om vervolgens binnen de gemeenschap te verspreiden ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
 * Dit bevat een cluster van sequenties uit 6 verschillende landen waar besmettingen geëxporteerd lijken vanuit Italië ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetische sequentiedata ondersteunt de hypothese van onopgemerkte, constante verspreiding van COVID-19 in en rond Seattle sinds medio januari. ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Alle sequenties in deze analyse delen een gemeenschappelijke voorouder, ergens tussen medio november en medio december 2019.  ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* Genetische sequentiedata ondersteunt de hypothese van onopgemerkte, constante verspreiding van COVID-19 in en rond Seattle sinds medio januari ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Alle sequenties in deze analyse delen een gemeenschappelijke voorouder, ergens tussen medio november en medio december 2019  ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -66,7 +66,7 @@ De volgende pagina's bevatten analyses uitgevoerd met [Nextstrain](https://nexts
 Scrollen aan de linkerkant laat paragrafen tekst zien met een bijbehorende visualisatie van de genomische data aan de rechterkant. 
 
 Het zo snel verkrijgen van het volledige genoom van een nieuw en groot RNA-virus is een opmerkelijke prestatie. 
-Deze analyses zijn mogelijk gemaakt door het snelle en openlijk delen van genoomdata en interpretatie door wetenschappers vanuit de gehele wereld. (bekijk de laatste pagina voor een visualisatie wie er verantwoordelijk was voor welke sequenties). 
+Deze analyses zijn mogelijk gemaakt door het snelle en openlijk delen van genoomdata en interpretatie door wetenschappers vanuit de gehele wereld (bekijk de laatste pagina voor een visualisatie wie er verantwoordelijk was voor welke sequenties). 
 
 
 ```
@@ -95,7 +95,7 @@ Deze analyses zijn mogelijk gemaakt door het snelle en openlijk delen van genoom
 ### Veel gestelde vragen
 
 We weten dat veel mensen vragen hebben over COVID-19.
-We hebben een gids gemaakt en proberen enkele van de meestgestelde vragen te beantwoorden.  [Hier](https://nextstrain.org/help/coronavirus/FAQ):
+We hebben een gids gemaakt en proberen enkele van de meestgestelde vragen te beantwoorden. De gids vind je [hier](https://nextstrain.org/help/coronavirus/FAQ):
 
 <div>
 
@@ -106,10 +106,10 @@ We hebben een gids gemaakt en proberen enkele van de meestgestelde vragen te bea
 
 ### Misvattingen
 
-Een aantal misvattingen zijn verspreid over de herkomst van het nieuwe coronavirus. 
-Gedurende uitbraken zoals deze, kan verspreiden van incorrecte informatie leiden tot meer paniek en ervoor zorgen dat men wetenschappers en de overheid niet meer vertrouwd. Hierdoor zullen mensen minder snel advies opvolgen en de juiste maatregelen nemen.
+Een aantal misvattingen zijn verspreid over de herkomst van het nieuwe Coronavirus. 
+Gedurende uitbraken zoals deze, kan verspreiden van incorrecte informatie leiden tot meer paniek en ervoor zorgen dat men wetenschappers en de overheid niet meer vertrouwt. Hierdoor zullen mensen minder snel advies opvolgen en de juiste maatregelen nemen.
 
-In een poging om uit te leggen waarom deze misvattingen incorrect zijn, weerleggen wetenschappers deze in de onderstaande pagina's:
+In een poging om uit te leggen waarom deze misvattingen incorrect zijn, weerleggen wetenschappers deze op de onderstaande pagina's:
 
 <div>
 
@@ -280,7 +280,7 @@ Dit suggereert sterk verspreiding binnen de gemeenschap, en dat het SARS-CoV-2 v
 <!-- This is left-side text -->
 # [Tijdsbepaling van de meest recente gemeenschappelijke voorouder](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-De tijd tot de meest recentelijke gemeenschappelijke voorouder (of tMRGV) van een set sequenties geeft aan wanneer deze sequenties voor het laatst een gemeenschappelijke voorouder hadden. 
+De tijd tot de meest recentelijke gemeenschappelijke voorouder (of tMRCA) van een set sequenties geeft aan wanneer deze sequenties voor het laatst een gemeenschappelijke voorouder hadden. 
 Deze tijd kan zo vroeg zijn als de eerste keer dat het virus geïntroduceerd werd in de menselijke populatie, maar kan ook substantieel later zijn, zoals te zien is in het onderstaande figuur. 
 
 <div>
