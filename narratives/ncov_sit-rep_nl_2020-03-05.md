@@ -230,7 +230,7 @@ Het Engelse monster (uit China) zit tussen het eerdere Italiaanse monster vanuit
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Wereldweide verspreiding vanuit Lombardije, Italië](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
+# [Wereldwijde verspreiding vanuit Lombardije, Italië](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
 De sequentie vanuit Lombardije (Italy/CDG1/2020) clustert samen met sequenties met bekende reisgeschiedenis naar Italië en zijn waarschijnlijk ook daar besmet. Dit zijn de sequenties vanuit Mexico, Duitsland, Brazilië en Finland. 
 
