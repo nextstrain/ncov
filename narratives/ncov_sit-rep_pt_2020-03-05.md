@@ -22,10 +22,10 @@ Tradução por: Glaucio Santos & Anderson Brito."
 ## Resumo
 
 Examinamos a diversidade genética dos 169</tag> genomas do SARS-CoV-2 compartilhados publicamente, a fim de caracterizar o espalhamento da doença COVID-19 em diferentes áreas, e inferir a data do ancestral comum dos vírus. Concluímos que:
-* O vírus da COVID-19 foi introduzido na Itália ao menos duas vezes, seguido por espalhamento comunitário a partir disso ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* Isso inclui um grupo de sequências de 6 diferentes países, onde casos parecem ter sido exportados da Itália ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Dados de sequências genéticas sustentam a hipótese de espalhamento sustentado do vírus da COVID-19 na Região Metropolitana de Seattle desde meados de Janeiro ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Todos os casos sequenciados nesta análise provavelmente compartilham um ancestral comum de algum momento entre meados de Novembro e meados de Dezembro de 2019 ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* O vírus da COVID-19 foi introduzido na Itália ao menos duas vezes, seguido por espalhamento comunitário a partir disso ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=7)).
+* Isso inclui um grupo de sequências de 6 diferentes países, onde casos parecem ter sido exportados da Itália ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=9)).
+* Dados de sequências genéticas sustentam a hipótese de espalhamento sustentado do vírus da COVID-19 na Região Metropolitana de Seattle desde meados de Janeiro ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=10)).
+* Todos os casos sequenciados nesta análise provavelmente compartilham um ancestral comum de algum momento entre meados de Novembro e meados de Dezembro de 2019 ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=11)).
 
 ```
 
