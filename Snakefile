@@ -304,6 +304,20 @@ rule export:
             --output {output.auspice_json}
         """
 
+rule incorporate_travel_history:
+    message: "Adjusting main auspice JSON to take into account travel history"
+    input:
+        lat_longs = rules.recode_lat_longs.output.lat_longs,
+        colors = rules.colors.output.colors,
+        auspice_json = rules.export.output.auspice_json
+    output:
+        auspice_json = "results/ncov_with_accessions_and_travel_branches.json"
+    shell:
+        """
+        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
+        """
+
 rule export_gisaid:
     message: "Exporting data files for for auspice"
     input:
@@ -363,9 +377,9 @@ rule export_zh:
         """
 
 rule fix_colorings:
-    message: "Remove extraneous colorings"
+    message: "Remove extraneous colorings for main build"
     input:
-        auspice_json = rules.export.output.auspice_json
+        auspice_json = rules.incorporate_travel_history.output.auspice_json
     output:
         auspice_json = "auspice/ncov.json"
     shell:
@@ -376,7 +390,7 @@ rule fix_colorings:
         """
 
 rule fix_colorings_gisaid:
-    message: "Remove extraneous colorings"
+    message: "Remove extraneous colorings for the GISAID build"
     input:
         auspice_json = rules.export_gisaid.output.auspice_json
     output:
@@ -389,7 +403,7 @@ rule fix_colorings_gisaid:
         """
 
 rule fix_colorings_zh:
-    message: "Remove extraneous colorings"
+    message: "Remove extraneous colorings for the Chinese language build"
     input:
         auspice_json = rules.export_zh.output.auspice_json
     output:
@@ -404,7 +418,7 @@ rule fix_colorings_zh:
 rule dated_json:
     message: "Copying dated Auspice JSON"
     input:
-        auspice_json = rules.export.output.auspice_json
+        auspice_json = rules.fix_colorings.output.auspice_json
     output:
         dated_auspice_json = rules.all.input.dated_auspice_json
     shell:

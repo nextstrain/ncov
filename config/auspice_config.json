@@ -69,7 +69,7 @@
     "country"
   ],
   "display_defaults": {
-    "color_by": "division",
+    "color_by": "division_exposure",
     "distance_measure": "num_date",
     "geo_resolution": "division_exposure",
     "map_triplicate": true,
