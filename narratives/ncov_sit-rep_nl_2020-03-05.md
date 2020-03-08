@@ -1,12 +1,11 @@
 ---
-title: Genoomanalyse van de COVID-19 verspreiding. Situatierapport 2020-03-05.
+title: Genomische analyse van de COVID-19 verspreiding. Situatierapportage 2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "5 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "Dit rapport gebruikt publiekelijk gedeelde COVID-19 genoomdata van GISAID en Genbank om een inschatting te maken van de snelheid en patronen van de virale epidemische verspreiding. We zijn van plan om geupdate situatierapporten uit te geven zodra nieuwe data beschikbaar komt. De website is geoptimaliseerd voor weergave op desktop browers."
-
+abstract: "Dit rapport gebruikt publiekelijk gedeelde COVID-19 genomische data van GISAID en Genbank om de snelheid en patronen van de virale epidemische verspreiding in te schatten. We zijn van plan om nieuwe situatierapporten uit te geven zodra nieuwe data beschikbaar komt. Deze website is geoptimaliseerd voor weergave op desktop browsers."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -14,21 +13,20 @@ abstract: "Dit rapport gebruikt publiekelijk gedeelde COVID-19 genoomdata van GI
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Executive summary](https://nextstrain.org/ncov/2020-03-05)
+# [Samenvatting](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Samenvatting
 
-Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+Gebruik makende van 169</tag> publiek gedeelde COVID-19 genomen, hebben we gekeken naar genetische diversiteit om de verspreiding van COVID-19 in verschillende gebieden te karakteriseren en de datum van hun gemeenschappelijke voorouder te bepalen.
 
 
-
-We find:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+Wat we vinden:
+* COVID-19 is minimaal twee keer geïntroduceerd in Italië, om vervolgens binnen de gemeenschap te verspreiden. ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
+* Dit bevat een cluster van sequenties van 6 verschillende landen waar besmettingen geëxporteerd lijken vanuit Italië ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
+* Genetische sequentiedata ondersteunt de hypothese van onopgemerkte, constante verspreiding van COVI-19 in het gebied van en rond Seattle sinds medio januari. ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Alle sequenties in deze analyse delen een gemeenschappelijke voorouder, ergens tussen medio november en medio december 2019.  ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -36,37 +34,37 @@ We find:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
+# [Coronavirussen](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### Verdere informatie:
 
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* Samenvatting vann de nCOV-uitbraak op [Wikipedia (in het Engels)](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* Materiaal beschikbaar gemaakt door de [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 Resources
+## COVID-19 Bronnen
 
-Below, we've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier.
+Hieronder hebben wij enkele bronnen die handig zijn om te lezen, om jezelf vertrouwd te maken met COVID-19 en het virus wat het veroorzaakt, SARS-CoV-2. 
+Deze informatie maakt het interpretere van de data die we presenteren in dit verhaal makkelijker. 
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="Microscopische afbeelding van een coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Achtergrondinformatie over Coronavirussen (in het Engels) </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="Illustratie van een coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recente COVID-19 Uitbraak achtergrondinformatie (in het Engels) </a>
 
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="Cartoon van een fylogenetische stamboom" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Hoe lees je een fylogenie (in het Engels)</a>
 
 </div>
 
-## Nextstrain narratives
+## Nextstrain verhalen
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
+De volgende pagina's bevatten analyses uitgevoerd met [Nextstrain](https://nextstrain.org).
+Scrollen aan de linkerkant laat paragrafen tekst zien met een bijbehorende visualisatie van de genomische data aan de rechterkant. 
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+Het zo snel verkrijgen van het volledige genoom van een nieuw en groot RNA-virus is een opmerkelijke prestatie. 
+Deze analyses zijn mogelijk gemaakt door het snelle en openlijk delen van genoomdata en interpretatie door wetenschappers vanuit de hele wereld. (bekijk de laatste pagina voor een visualisatie wie er verantwoordelijk was voor welke sequenties). 
 
 
 ```
@@ -75,9 +73,9 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [FAQs & Misvattingen](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### Verdere informatie (in het Engels):
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
