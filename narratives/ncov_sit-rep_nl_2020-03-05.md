@@ -38,7 +38,9 @@ Wat we vinden:
 
 ### Verdere informatie:
 
-* Samenvatting vann de nCOV-uitbraak op [Wikipedia (in het Engels)](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* Samenvatting van de nCOV-uitbraak op [Wikipedia]
+(https://nl.wikipedia.org/wiki/Uitbraak_coronavirus_(SARS-CoV-2)_in_2019) _2020-01-30_
+* Informatie van het [RIVM](https://www.rivm.nl/coronavirus/covid-19)
 * Materiaal beschikbaar gemaakt door de [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
