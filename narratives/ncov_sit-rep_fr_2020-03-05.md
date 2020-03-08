@@ -26,7 +26,7 @@ abstract: "Ce rapport utilise des données génomiques du nouveau coronavirus (n
 Principaux résultats :
 * COVID-19 a été introduit en Italie au moins deux fois avec par la suite de la transmission au sein de la communauté ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
 * Cela inclut un regroupement de séquences de 6 pays différents où il semble que des cas ont été exportés d’Italie ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* L’analyse des séquences génétiques suggérée confirme l’hypothèse d’une propagation non détectée de COVID-19 dans la région de Seattle depuis la mi-janvier ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* L’analyse des séquences génétiques suggère l’hypothèse d’une propagation non détectée de COVID-19 dans la région de Seattle depuis la mi-janvier ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
 * Tous les cas séquencés inclus dans cette analyse partagent probablement un ancêtre commun apparu entre la mi-novembre et la mi-décembre 2019. ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
@@ -48,7 +48,7 @@ Principaux résultats :
 ## Ressources sur COVID-19
 
 Ci-dessous, nous avons préparé quelques ressources (en anglais) pour vous familiariser avec COVID-19 et le virus qui le provoque, SARS-CoV-2.
-Ces informations faciliteront l'interprétation des données que nous présentons dans ce récit.
+Ces informations faciliteront l'interprétation des données que nous présentons parla suite.
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="image de microscopie des coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
