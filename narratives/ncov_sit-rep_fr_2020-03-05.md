@@ -3,7 +3,7 @@ title: Analyse génomique de la propagation du nCoV. Rapport de situation au 202
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "États-Unis, Seattle, USA et Biozentrum, Bâle, Suisse"
-date: "2020 March 05"
+date: "5 mars 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
 abstract: "Ce rapport utilise des données génomiques du nouveau coronavirus (nCoV) rendues publiques sur GISAID et Genbank afin d'estimer la vitesse et les modalités de propagation de l'épidémie virale. Nous prévoyons d'émettre des rapports de situation à mesure que de nouvelles données sont produites et partagées. Ce site web est optimisé pour être affiché sur un ordinateur de bureau."
 ---
@@ -26,8 +26,8 @@ abstract: "Ce rapport utilise des données génomiques du nouveau coronavirus (n
 Principaux résultats :
 * COVID-19 a été introduit en Italie au moins deux fois avec par la suite de la transmission au sein de la communauté ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
 * Cela inclut un regroupement de séquences de 6 pays différents où il semble que des cas ont été exportés d’Italie ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* L’analyse des séquences génétiques suggère l’hypothèse d’une propagation non détectée de COVID-19 dans la région de Seattle depuis la mi-janvier ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Tous les cas séquencés inclus dans cette analyse partagent probablement un ancêtre commun apparu entre la mi-novembre et la mi-décembre 2019. ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* L’analyse des séquences génétiques supporte l’hypothèse d’une propagation non détectée de COVID-19 dans la région de Seattle depuis la mi-janvier ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Tous les cas séquencés inclus dans cette analyse partagent vraisemblablement un ancêtre commun apparu entre la mi-novembre et la mi-décembre 2019. ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -39,7 +39,7 @@ Principaux résultats :
 
 ### Lectures additionnelles:
 
-* Informations générales sur le coronavirus sur [Wikipedia](https://fr.wikipedia.org/wiki/Coronavirus)  _2020-01-30_
+* Informations générales sur les coronavirus sur [Wikipedia](https://fr.wikipedia.org/wiki/Coronavirus)  _2020-01-30_
 * Documents fournis par l'[US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
@@ -47,24 +47,24 @@ Principaux résultats :
 
 ## Ressources sur COVID-19
 
-Ci-dessous, nous avons préparé quelques ressources (en anglais) pour vous familiariser avec COVID-19 et le virus qui le provoque, SARS-CoV-2.
-Ces informations faciliteront l'interprétation des données que nous présentons par la suite.
+Ci-dessous, nous avons préparé quelques ressources (en anglais) pour vous familiariser avec COVID-19 et le virus qui la provoque, SARS-CoV-2.
+Ces informations faciliteront l'interprétation des données que nous présentons dans ce récit.
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="image de microscopie des coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="image de microscopie des coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Informations sur les coronavirus </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration d'un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration d'un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Contexte de l'émergence de COVID-19 </a>
 
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="illustration d'un arbre phylogénétique" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies </a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="illustration d'un arbre phylogénétique" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Comment lire les phylogénies </a>
 
 </div>
 
-## Nextstrain narratives
+## Récits Nextstrain
 
 Les pages suivantes contiennent des analyses effectuées à l'aide de [Nextstrain](https://nextstrain.org).
 En faisant défiler la barre latérale gauche, vous découvrirez des paragraphes de texte avec sur le côté droit une visualisation correspondant aux données génomiques.
 
-Avoir des génomes complets d'un nouveau et grand virus à ARN si rapidement est une réalisation remarquable. Ces analyses ont été rendues possibles grâce au partage rapide et ouvert de données génomiques et aux interprétations de scientifiques du monde entier (voir la diapositive finale pour une visualisation des crédits des séquençages).
+Obtenir des génomes complets d'un nouveau et grand virus à ARN si rapidement est une réalisation remarquable. Ces analyses ont été rendues possibles grâce au partage rapide et ouvert de données génomiques et aux interprétations de scientifiques du monde entier (voir la diapositive finale pour une visualisation des crédits des séquençages).
 
 ```
 
@@ -136,7 +136,7 @@ L'axe des `y` montre comment les séquences sont connectées et n'a aucune unit�
 
 <br>
 
-Les dates d'échantillonnage sont utiles, mais elles ne montrent pas toujours exactement comment deux séquences sont génétiquement liées - deux séquences qui sont identiques peuvent avoir des dates d'échantillonnage différentes et peuvent avoir l'air très éloignées dans cette vue.
+Les dates d'échantillonnage sont utiles, mais elles ne montrent pas toujours exactement comment deux séquences sont génétiquement liées - deux séquences qui sont identiques peuvent avoir des dates d'échantillonnage différentes et peuvent avoir l'air très éloignées dans cette visualisation.
 
 <!-- There is NO right-side text -->
 
@@ -144,20 +144,20 @@ Les dates d'échantillonnage sont utiles, mais elles ne montrent pas toujours ex
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [La divergence nucléotidique dans les Phylogénies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
+# [La divergence nucléotidique dans les phylogénies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
 Il est possible de changer la représentation graphique pour que l'axe des 'x' représente la divergence nucléotidique.
 
 <br>
 
-Vous pouvez remarquer combien de séquences, qui avaient l'air différentes avant, sont maintenant sur une meme ligne verticale. 
-En faisant défiler la diapositive précédente et celle-ci, vous pouvez observer comment l'arbre change.
+Vous pouvez remarquer combien de séquences qui avaient l'air différentes avant sont maintenant sur une ligne verticale. 
+En faisant défiler la diapo précédente et celle-ci, vous pouvez observer comment l'arbre change.
 
 <br>
 
 La divergence correspond au nombre de changements (mutations) dans le génome. 
 Certaines séquences peuvent ne pas avoir de mutations, ce qui veut dire qu'elles sont toutes identiques à la racine (centre) de l'arbre.
-Certains virus peuvent avoir des séquences qui portent de une à onze mutations.
+Certains virus peuvent avoir entre une et onze mutations.
 
 <br>
 
@@ -165,7 +165,7 @@ Le séquençage du génome d'un nouveau et grand virus à ARN dans une situation
 
 <br>
 
-En fonction ce que nous cherchons a montrer, nous représenterons l'arbre en utilisant parfois le temps sur l'axe de 'x' ou parfois la divergence nucléotidique. 
+Nous représenterons l'arbre en utilisant parfois le temps sur l'axe de 'x' ou parfois la divergence nucléotidique, selon ce que nous cherchons à mettre en lumière. 
 
 <!-- There is NO right-side text -->
 
@@ -176,12 +176,12 @@ En fonction ce que nous cherchons a montrer, nous représenterons l'arbre en uti
 # [Interprétation phylogénétique](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 Nous possédons actuellement des séquences d'échantillons prélevés sur cinq continents différents.
-Alors que les premiers cas étaient tous directement liés à des cas à Wuhan, associés à l'épidémie du marché des fruits de mer, nous observons maintenant divers cas différents qui montrent des preuves de propagation  communautaire ou ont été importés de sources extérieures à la Chine.
+Alors que les premiers cas étaient tous directement liés à des cas à Wuhan, associés à l'épidémie du marché de fruits de mer, nous observons maintenant divers cas différents qui montrent des preuves de propagation communautaire ou qui ont été importés de sources extérieures à la Chine.
 
 <br>
 
-En général, les introductions répétées à partir d'un réservoir animal montreront une diversité significative (comme pour Lassa, Ebola, MERS-CoV et la grippe aviaire).
-L'observation d'une forte concentration d'infections humaines peut s'expliquer par une épidémie qui découle d'un seul événement d'introduction zoonotique dans la population humaine suivie d'une propagation d'épidémie interhumaine.
+En général, des introductions répétées à partir d'un réservoir animal montreront une diversité significative (comme pour Lassa, Ebola, MERS-CoV et la grippe aviaire).
+L'observation d'une telle forte concentration d'infections humaines peut s'expliquer par une épidémie qui découle d'un seul événement d'introduction zoonotique dans la population humaine suivi d'une propagation d'épidémie interhumaine.
 
 <!-- There is NO right-side text -->
 
@@ -189,17 +189,17 @@ L'observation d'une forte concentration d'infections humaines peut s'expliquer p
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Au moins deux introductions en Italie avec potentiellement de la diffusion au sein de la communauté](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
+# [Au moins deux introductions en Italie, avec potentiellement de la diffusion communautaire](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-Nous avons actuellement 3 séquences en provenance d'Italie, dont deux de la région de Rome et une de Lombardie (située dans le nord de l'Italie).
-
-<br>
-
-Ces trois séquences ont un ancêtre commun au début de l'épidémie (près de la base de l'arbre, à gauche), ce qui suggère fortement qu'il y a eu au moins deux introductions séparées en Italie avec ensuite avec de la diffusion intra-communautaire.
+Nous avons actuellement 3 séquences en provenance d'Italie, dont deux de la région de Rome et une de Lombardie, dans le nord de l'Italie.
 
 <br>
 
-L'article du Dr Nuno Faria et al. donne une excellente explication [ici (en anglais)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) de pourquoi les séquences brésiliennes et d'autres séquences observées au niveau mondial montrent que "l'épidémie en Italie du Nord est probablement le résultat de plusieurs introductions dans la région et non d'une source unique".
+Ces trois séquences ont un ancêtre commun au début de l'épidémie (près de la base de l'arbre, à gauche), ce qui suggère fortement qu'il y a eu au moins deux introductions séparées en Italie avec ensuite avec de la diffusion dans la communauté.
+
+<br>
+
+L'article du Dr Nuno Faria et coll. donne une excellente explication [ici (en anglais)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) de comment les séquences brésiliennes et d'autres séquences observées au niveau mondial montrent que "l'épidémie en Italie du Nord est probablement le résultat de plusieurs introductions dans la région et non d'une source unique".
 
 
 
@@ -212,7 +212,7 @@ Les deux séquences de Rome (29 janvier 2020) sont directement connectées et on
 
 <br>
 
-Nous avons basculé sur la visualisation avec la divergence pour montrer que les deux séquences italiennes sont identiques alors que les autres séquences les plus proches (virus isolés en Angleterre, au Brésil, en Suisse, aux États-Unis et en <chine) sont séparées des séquences italiennes par 2 - 4 mutations. 
+Nous avons basculé sur la visualisation avec la divergence pour montrer que les deux séquences italiennes sont identiques alors que les autres séquences les plus proches (virus isolés en Angleterre, au Brésil, en Suisse, aux États-Unis et en <chine) sont séparées des séquences italiennes par 2-4 mutations. 
 
 <br>
 
@@ -228,17 +228,17 @@ L’échantillon d’Angleterre (venant de Chine) se trouve entre les échantill
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Une transmission mondiale à partir de la Lombardie (Italie)](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
+# [Une diffusion globale depuis la Lombardie (Italie)](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-La séquence provenant de Lombardie (Italy/CDG1/2020) se regroupe avec des séquences qui ont des historiques de voyage en italie connus et qui y ont tres porbablement été infectés: les déquecne du Mexique, de l'Allemagne, du Brésil et de la Finlande.
-
-<br>
-
-La séquence « BavPat1 » fait partie d’une introduction provenant de la Chine bien plus tôt au cours de l’épidémie. Sa similarité avec les autres séquences du regroupement (elles ne sont séparées que par une seule mutation) pourrait indiquer de la transmission non détectée (« cryptique ») en Europe venant de ce regroupement allemand plus ancien.
+La séquence provenant de Lombardie (Italy/CDG1/2020) se groupe avec des séquences qui ont des historiques de voyage en Italie connus et qui y ont tres probablement été infectés: les séquences du Mexique, de l'Allemagne, du Brésil et de la Finlande.
 
 <br>
 
-Cela pourrait être aussi le résultat de deux introductions séparées en Europe: une séquence non encore échantillonnée pourrait se trouver entre « bavPat1' et le reste du regroupement. Pour l’instant, nous ne pouvons pas savoir avec certitude quel scénario est correct.
+La séquence d'Allemagne « BavPat1 » fait partie d’une introduction provenant de la Chine bien plus tôt au cours de l’épidémie. Sa similarité avec les autres séquences du regroupement (elles ne sont séparées que par une seule mutation) pourrait indiquer de la transmission non détectée (« cryptique ») en Europe venant de ce cluster allemand plus ancien.
+
+<br>
+
+Cela pourrait aussi être le résultat de deux introductions séparées en Europe: une séquence pas encore échantillonnée pourrait se situer entre « bavPat1' et le reste du cluster. Pour l’instant, nous ne pouvons pas savoir avec certitude quel scénario est correct.
 
 <!-- There is NO right-side text -->
 
@@ -248,14 +248,14 @@ Cela pourrait être aussi le résultat de deux introductions séparées en Europ
 <!-- This is left-side text -->
 # [Propagation probable du SRAS-CoV-2 dans la région de Seattle](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-Il y a maintenant plusieurs cas de COVID-19 signalés dans la grande région de Seattle et aux États-Unis en général.
-Les nouveaux cas isolés et séquencés sont étroitement  génétiquement liés à un cas isolé à la mi-janvier dans la même zone.
+Il y a maintenant plusieurs cas de COVID-19 signalés dans la région autour de Seattle et aux États-Unis en général.
+Les nouveaux cas isolés et séquencés sont génétiquement très proches d'un cas isolé à la mi-janvier dans la même zone.
 
 <br>
 
 Il y a deux explications possibles à cela.
-Le virus aurait pu être introduit au moins deux fois dans la grande région de Seattle à partir d'une source commune en Chine.
-Cependant, une autre explication est que le virus circulait sans être détecté dans la région pendant un certain temps.
+Le virus aurait pu être introduit au moins deux fois dans la région de Seattle à partir d'une source commune en Chine.
+Cependant, une autre explication est que le virus a circulé sans être détecté dans la région pendant un certain temps.
 
 <br>
 
@@ -263,8 +263,8 @@ Trevor Bedford (co-fondateur de Nextstrain) a écrit un excellent article de blo
 
 <br>
 
-Les dernières séquences récentes de Washington nous disent autre chose: ces séquences de la grande région de Seattle se regroupent.
-Cela suggère fortement une propagation intracommunautaire et une circulation du virus du SRAS-CoV-2 dans la région depuis un certain temps.
+Les autres séquences récentes de Washington nous disent autre chose: ces séquences de la région de Seattle se groupent ensemble.
+Cela suggère fortement une propagation intracommunautaire et une circulation du virus SRAS-CoV-2 dans la région depuis un certain temps.
 
 <!-- There is NO right-side text -->
 
@@ -275,7 +275,7 @@ Cela suggère fortement une propagation intracommunautaire et une circulation du
 <!-- This is left-side text -->
 # [Datation de l'ancêtre commun le plus récent](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-La date de l'ancêtre commun le plus récent (DAC) d'un ensemble de cas séquencés correspond au dernier moment où ces cas ont partagé un ancêtre commun. Cette date peut correspondre au moment où un virus est entré pour la première fois dans la population humaine, mais elle peut aussi être bien plus tardive que la date d'introduction comme cela est montré dans la figure ci-dessous.
+La date de l'ancêtre commun le plus récent d'un ensemble de cas séquencés correspond au dernier moment où ces cas ont partagé un ancêtre commun. Cette date peut correspondre au moment où un virus est entré pour la première fois dans la population humaine, mais elle peut aussi être bien plus tardive que la date d'introduction comme cela est montré dans la figure ci-dessous.
 
 <div>
   <img alt="Exemple de phylogénie où le moment de la zoonose initiale est différent de l'ancêtre commun le plus récent de plusieurs cas séquencés" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -287,10 +287,10 @@ La date de l'ancêtre commun le plus récent (DAC) d'un ensemble de cas séquenc
 
 ## Datation de l'ancêtre commun des virus épidémiques
 
-Plusieurs groupes de recherche et personnes ont estimé une datation de l'ancêtre commun le plus récent - voir [cet article de A Rambaut (en anglais)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [cet article de T Stadler (en anglais)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Plusieurs groupes de recherche et personnes ont estimé une datation de l'ancêtre commun le plus récent - voir [cet article de A. Rambaut (en anglais)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [cet article de T. Stadler (en anglais)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
 L'ancêtre commun de toutes les séquences se situe probablement entre la mi-novembre et la mi-décembre.
-Cela serait cohérent avec tous les cas actuellement séquencés issus du [groupe initial de cas sur le marché des fruits de mer de Wuhan](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/4200).
+Cela serait cohérent avec tous les cas actuellement séquencés issus du [groupe initial de cas sur un marché de fruits de mer de Wuhan](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/4200).
 
 
 <div>
