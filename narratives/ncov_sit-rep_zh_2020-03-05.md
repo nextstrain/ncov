@@ -256,14 +256,14 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- This is left-side text -->
 # [SARS-CoV-2可能在西雅图地区蔓延](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-现在在大西雅图地区和整个美国报告了几例COVID-19病例.
+现在在大西雅图地区和整个美国报告了许多例COVID-19病例.
 新分离和测序的病例在基因上与1月中旬在同一地区分离的一例密切相关.
 
 <br>
 
-对此有两种可能的解释.
-该病毒可能至少两次从中国的共同源头传入大西雅图地区.
-然而，另一种解释是，病毒在该地区传播了一段时间，没有被发现.
+对此，我们有两种可能的解释.
+一种解释是，该病毒可能至少两次从中国的共同源头传入大西雅图地区.
+而另一种解释是，病毒在该地区传播了一段时间，只是没有被发现.
 
 <br>
 
@@ -271,8 +271,8 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 
 <br>
 
-华盛顿最近剩余的序列告诉我们另一件事：这些来自大西雅图地区的序列聚集在一起
-这强烈表明社区传播，且SARS-CoV-2病毒已经在该地区传播了一段时间
+华盛顿最近的其他序列告诉我们另一件事：这些序列和来自大西雅图地区的序列，在分析中被聚集在了一起.
+这强烈表明已存在社区传播，且SARS-CoV-2病毒已经在该地区传播了一段时间.
 
 <!-- There is NO right-side text -->
 
@@ -299,7 +299,7 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 数个研究小组估算了最近共同祖先的时间 - 查看 [A Rambaut的文章 (英文)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的文章 (英文)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
 所有序列的共同祖先最有可能出现在11月中旬至12月中旬之间.
-这与目前所有测序是从[武汉海鲜市场最初的病例集群](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)衍生下来的说法一致.
+这与目前所有测序是从[武汉华南海鲜市场获得的最初病例群](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)衍生下来的说法一致.
 
 
 <div>
@@ -338,8 +338,8 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 * Hospital Israelita Albert Einstein
 * Virology Unit, Institut Pasteur du Cambodge.
 * BCCDC Public Health Laboratory
-* 永川区疾病预防控制中心
-* 忠县疾病预防控制中心
+* 重庆市永川区疾病预防控制中心
+* 重庆市忠县疾病预防控制中心
 * Respiratory Virus Unit, Microbiology Services Colindale, Public Health England
 * Lapland Central Hospital
 * HUS Diagnostiikkakeskus, Hallinto
@@ -522,7 +522,7 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 	* Germany/Baden-Wuerttemberg-1/2020
 	* Germany/BavPat1/2020
 
-* 微生物部, 广东省疾控中心
+* 广东省疾控中心微生物部门
 	* Guangdong/20SF012/2020
 	* Guangdong/20SF013/2020
 	* Guangdong/20SF014/2020
