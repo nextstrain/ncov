@@ -1,13 +1,13 @@
 ---
-title: Análise genômica do espalhamento da COVID-19: Relatório da situação até 05/03/2020.
+title: Análise genômica do espalhamento da COVID-19. Relatório da situação até 05/03/2020.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "05 de Março de 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "Este relatório usa dados genômicos sobre a COVID-19 publicamente compartilhados pela GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores.
+abstract: "Este relatório usa dados genômicos sobre a COVID-19 publicamente compartilhados pela GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores. 
 
-Tradução por: Glaucio Santos & Anderson Brito"
+Tradução por: Glaucio Santos & Anderson Brito."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
