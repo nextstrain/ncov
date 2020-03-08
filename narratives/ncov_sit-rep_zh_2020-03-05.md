@@ -24,10 +24,10 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 
 我们发现:
-* COVID-19至少两次被引入意大利，随后在社区传播. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7))
-* 这包括来自6个不同国家的一组序列，这些国家的病例应该是输出自意大利的病例. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9))
-* 基因序列数据支持自1月中旬以来COVID-19在大西雅图地区未被检测到从而进一步传播的假设. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10))
-* 这项分析中包括的所有测序病例可能有一个在2019年11月中旬至12月中旬之间的某个时间出现的共同祖先. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11))
+* COVID-19至少两次被引入意大利，随后在社区传播. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=7))
+* 这包括来自6个不同国家的一组序列，这些国家的病例应该是输出自意大利的病例. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=9))
+* 基因序列数据支持自1月中旬以来COVID-19在大西雅图地区未被检测到从而进一步传播的假设. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=10))
+* 这项分析中包括的所有测序病例可能有一个在2019年11月中旬至12月中旬之间的某个时间出现的共同祖先. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=11))
 
 ```
 
