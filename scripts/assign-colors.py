@@ -1,9 +1,14 @@
 import argparse
 
-extra_colors = [
-    ["division", "Cruise ship", "#CCC"],
-    ["location", "Cruise ship", "#CCC"]
-]
+# Forced colours MUST NOT appear in the ordering TSV
+forced_colors = {
+  "division": {
+    "Cruise ship": "#CCCCCC",
+  },
+  "location": {
+    "Cruise ship": "#CCCCCC",
+  }
+}
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -39,10 +44,21 @@ if __name__ == '__main__':
     with open(args.output, 'w') as f:
         for trait_name, trait_array in assignment.items():
             color_array = schemes[len(trait_array)]
-            zipped = list(zip(trait_array, color_array))
+            extra_trait_values = list(forced_colors.get(trait_name, {}).keys())
+            extra_color_values = list(forced_colors.get(trait_name, {}).values())
+
+            zipped = list(zip(trait_array+extra_trait_values, color_array+extra_color_values))
             for trait_value, color in zipped:
                 f.write(trait_name + "\t" + trait_value + "\t" + color + "\n")
             f.write("\n")
-        for trait_name, trait_value, color in extra_colors:
-            f.write(trait_name + "\t" + trait_value + "\t" + color + "\n")
-        f.write("\n")
+
+            # We want `division_exposure` to mirror `division` in order to improve
+            # comprehension when switching between the two. This means that _all_
+            # demes exclusive to `division_exposure` should be added to the ordering
+            # TSV under `division`. `augur export` won't export values which don't appear
+            # in the tree, so the legend won't be cluttered, but the colors will be
+            # consistent
+            if trait_name == "division":
+                for trait_value, color in zipped:
+                    f.write(trait_name + "_exposure\t" + trait_value + "\t" + color + "\n")
+                f.write("\n")

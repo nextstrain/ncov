@@ -217,7 +217,7 @@ rule traits:
     output:
         node_data = "results/traits.json",
     params:
-        columns = "division",
+        columns = "division_exposure",
         sampling_bias_correction = 2.5
     shell:
         """
@@ -263,6 +263,18 @@ rule colors:
             --output {output.colors}
         """
 
+rule recode_lat_longs:
+    message: "Copying division lat/longs to division_exposure"
+    input:
+        lat_longs = files.lat_longs
+    output:
+        lat_longs = "results/lat_longs.tsv"
+    shell:
+        """
+        cp {input.lat_longs} {output.lat_longs} && \
+        grep 'division' {input.lat_longs} | sed 's/division/division_exposure/' >> {output.lat_longs}
+        """
+
 rule export:
     message: "Exporting data files for for auspice"
     input:
@@ -271,10 +283,10 @@ rule export:
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        # traits = rules.traits.output.node_data,
+        traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config,
         colors = rules.colors.output.colors,
-        lat_longs = files.lat_longs,
+        lat_longs = rules.recode_lat_longs.output.lat_longs,
         description = files.description,
         clades = rules.clades.output.clade_data
     output:
@@ -284,7 +296,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -300,10 +312,10 @@ rule export_gisaid:
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        # traits = rules.traits.output.node_data,
+        traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_gisaid,
         colors = rules.colors.output.colors,
-        lat_longs = files.lat_longs,
+        lat_longs = rules.recode_lat_longs.output.lat_longs,
         description = files.description,
         clades = rules.clades.output.clade_data
     output:
@@ -313,7 +325,7 @@ rule export_gisaid:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -329,10 +341,10 @@ rule export_zh:
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        # traits = rules.traits.output.node_data,
+        traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_zh,
         colors = rules.colors.output.colors,
-        lat_longs = files.lat_longs,
+        lat_longs = rules.recode_lat_longs.output.lat_longs,
         description = files.description_zh,
         clades = rules.clades.output.clade_data
     output:
@@ -342,7 +354,7 @@ rule export_zh:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
