@@ -70,9 +70,6 @@ bat/Yunnan/RmYN02/2019
 bat/Yunnan/RmYN01/2019
 
 # Temporarily excluded
-USA/CA-CDPH-UC1/2020
-
-#Temporarily excluded
 USA/CruiseA-1/2020
 USA/CruiseA-10/2020
 USA/CruiseA-11/2020
