@@ -126,6 +126,7 @@ division	Lagos	6.542520	3.286661
 division	Lapland	67.700017	26.273752
 division	Lazio	41.994328	12.622686
 division	Lombardy	45.4791	9.8452
+division	Luxemburg	49.755428	6.119486
 division	Massachusetts	42.340741	-71.998513
 division	Mexico City	19.404497	-99.143041
 division	Nara	34.371026	135.887389
@@ -163,3 +164,5 @@ division	Drenthe	52.846963	6.608915
 division	Flevoland	52.488510	5.615829
 division	Tilburg	51.567213	5.047957
 division	Utrecht	52.085320	5.184968
+
+country	Luxemburg	49.755428	6.119486

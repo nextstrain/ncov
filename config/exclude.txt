@@ -70,6 +70,7 @@ bat/Yunnan/RmYN02/2019
 bat/Yunnan/RmYN01/2019
 
 # Temporarily excluded
+Netherlands/Andel_1365066/2020
 Netherlands/Berlicum_1363564/2020
 Netherlands/Berlicum_1363564/2020
 Netherlands/Blaricum_1364780/2020
