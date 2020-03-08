@@ -1,5 +1,5 @@
 ---
-title: Analisi genomica della propagazione del COVID-19. Rapporto sulla situazione al 2020-03-04.
+title: Analisi genomica della propagazione del COVID-19. Rapporto sulla situazione al 2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
@@ -24,13 +24,13 @@ Utilizzando i 169</tag> genomi pubblicati del COVID-19, abbiamo esaminato la div
 
 
 Risultati principali:
-* Il COVID-19 è stato introdotto in Italia almeno due volte, con successiva propagazione nella popolazione. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-04?n=7)).
+* Il COVID-19 è stato introdotto in Italia almeno due volte, con successiva propagazione nella popolazione. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-05?n=7)).
 
-* Questo include un gruppo di sequenze genetiche da 6 nazioni differenti dove i casi sembrano essere stati esportati dall'Italia. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-04?n=9)).
+* Questo include un gruppo di sequenze genetiche da 6 nazioni differenti dove i casi sembrano essere stati esportati dall'Italia. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-05?n=9)).
 
-* I dati delle sequenze genetiche supportano l'ipotesi di una diffusione inosservata e sostenuta del COVID-19 nell'area di Seattle dalla metà di gennaio. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-04?n=10)).
+* I dati delle sequenze genetiche supportano l'ipotesi di una diffusione inosservata e sostenuta del COVID-19 nell'area di Seattle dalla metà di gennaio. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-05?n=10)).
 
-* Tutti i casi sequenziati inclusi in questa analisi condividono probabilmente un antenato comune tra la metà di novembre e quella di dicembre 2019. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-04?n=11)).
+* Tutti i casi sequenziati inclusi in questa analisi condividono probabilmente un antenato comune tra la metà di novembre e quella di dicembre 2019. ([Leggi](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-05?n=11)).
 
 
 ```
