@@ -1,11 +1,11 @@
 ---
-title: Análise genômica do espalhamento da COVID-19. Relatório da situação até 05/03/2020.
+title: Análise genômica do espalhamento da COVID-19: Relatório da situação até 05/03/2020.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "05 de Março de 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "Esse relatório usa dados genômicos sobre a COVID-19 publicamente compartilhados pela GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores.
+abstract: "Este relatório usa dados genômicos sobre a COVID-19 publicamente compartilhados pela GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores.
 
 Tradução por: Glaucio Santos & Anderson Brito"
 ---
@@ -21,11 +21,11 @@ Tradução por: Glaucio Santos & Anderson Brito"
 ```auspiceMainDisplayMarkdown
 ## Resumo
 
-Examinamos a diversidade genética dos 169</tag> genomas do Sars-CoV-2 compartilhados publicamente, a fim de caracterizar o espalhamento da doença COVID-19 em diferentes áreas, e inferir a data do ancestral comum dos vírus. Concluímos que:
+Examinamos a diversidade genética dos 169</tag> genomas do SARS-CoV-2 compartilhados publicamente, a fim de caracterizar o espalhamento da doença COVID-19 em diferentes áreas, e inferir a data do ancestral comum dos vírus. Concluímos que:
 * O vírus da COVID-19 foi introduzido na Itália ao menos duas vezes, seguido por espalhamento comunitário a partir disso ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
 * Isso inclui um grupo de sequências de 6 diferentes países, onde casos parecem ter sido exportados da Itália ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
 * Dados de sequências genéticas sustentam a hipótese de espalhamento sustentado do vírus da COVID-19 na Região Metropolitana de Seattle desde meados de Janeiro ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Todos os casos sequenciados nesta análise provavelmente compartilham um ancestral comum de algum momento entre meados de Novembro e meados de Dezembro de 2019 ([ver mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* Todos os casos sequenciados nesta análise provavelmente compartilham um ancestral comum de algum momento entre meados de Novembro e meados de Dezembro de 2019 ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -35,7 +35,7 @@ Examinamos a diversidade genética dos 169</tag> genomas do Sars-CoV-2 compartil
 <!-- This is left-side text -->
 # [Coronavírus](https://nextstrain.org/ncov/2020-03-05)
 
-### Leituras adicionais::
+### Leituras adicionais:
 
 * Resumo do surto de nCov na [Wikipédia](https://pt.wikipedia.org/wiki/Surto_de_COVID-19) 30/01/2020
 * Material disponibilizado pelo [Centro de Controle e Prevenção de Doenças dos Estados Unidos (CDC)](https://www.cdc.gov/coronavirus/index.html) 29/01/2020
@@ -89,11 +89,11 @@ Ter acesso a genomas completos de um novo vírus de RNA longo, e tão rapidament
 
 ### Dúvidas Frequentes
 
-Sabemos que muitas pessoas têm dúvidas sobre o COVID-19. Criamos um guia para tentar responder algumas das perguntas mais frequentes:
+Sabemos que muitas pessoas têm dúvidas sobre a COVID-19. Criamos um guia para tentar responder algumas das perguntas mais frequentes:
 
 <div>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> Dúvidas Frequentes sobre COVID-19 (em Inglês) </a>
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> Dúvidas Frequentes sobre a COVID-19 (em Inglês) </a>
 
 </div>
 
@@ -121,15 +121,15 @@ Num esforço conjunto para tentar explicar por que essas visões estão incorret
 <!-- This is left-side text -->
 # [Análise filogenética](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-Aqui apresentamos uma filogenia de 169 cepas de SARS-CoV-2 (o vírus que causa COVID-19) que foram compartilhadas publicamente. Informações sobre como a análise foi realizada estão disponíveis [em nosso repositório no GitHub](https://github.com/nextstrain/ncov).
+Aqui apresentamos uma filogenia de 169 cepas de SARS-CoV-2 (o vírus que causa a COVID-19) que foram compartilhadas publicamente. Informações sobre como a análise foi realizada estão disponíveis [em nosso repositório no GitHub](https://github.com/nextstrain/ncov).
 
 <br>
 
-As cores representam a região ou estado onde foram coletadas as amostras, com o eixo x representando a data da amostra. O eixo y mostra como as seqüências estão conectadas e não possui nenhuma unidade de medida.
+As cores representam a região ou estado onde foram coletadas as amostras, com o eixo X representando a data da amostra. O eixo Y mostra como as sequências estão conectadas e não possui nenhuma unidade de medida.
 
 <br>
 
-As datas das amostras são úteis, mas nem sempre mostram exatamente como duas seqüências estão relacionadas geneticamente - duas sequências idênticas podem ter datas de amostragem diferentes e, portanto, podem parecer distantes.
+As datas das amostras são úteis, mas nem sempre mostram exatamente como duas sequências estão relacionadas geneticamente - duas sequências idênticas podem ter datas de amostragem diferentes e, portanto, podem parecer distantes.
 
 <!-- There is NO right-side text -->
 
@@ -155,7 +155,7 @@ Sequenciar o genoma de um novo vírus de RNA longo durante um surto é desafiant
 
 <br>
 
-Algumas vezes mostraremos a árvore em modo "cronológico" (tempo) e, às vezes no modo de "divergências", dependendo do que estamos tentando destacar.
+Algumas vezes mostraremos a árvore em modo "cronológico" (tempo) e, às vezes no modo "divergência", dependendo do que estamos tentando destacar.
 
 <!-- There is NO right-side text -->
 
@@ -179,14 +179,14 @@ Geralmente, quando as introduções via animais reservatórios são múltiplas, 
 <!-- This is left-side text -->
 # [Ao menos duas introduções do vírus na Itália, com possível transmissão comunitária](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-Atualmente, temos três seqüências da Itália, duas das quais são da área de Roma e uma da Lombardia (norte do país).
+Atualmente, temos três sequências da Itália, duas das quais são da área de Roma e uma da Lombardia (norte do país).
 
 <br>
 
-Essas três seqüências compartilham um ancestral comum no início da epidemia (próximo à base da árvore, à esquerda), o que sugere fortemente que houve pelo menos duas introduções com transmissão comunitária na Itália.
+Essas três sequências compartilham um ancestral comum no início da epidemia (próximo à base da árvore, à esquerda), o que sugere fortemente que houve pelo menos duas introduções com transmissão comunitária na Itália.
 <br>
 
-Dr. Nuno Faria e colaboradores publicaram uma excelente análise disponível [aqui (em Inglês)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) de como as sequências brasileiras e outras sequências globais mostram que "o surto no norte da Itália foi provavelmente resultado de várias introduções na região, e não de uma única fonte".
+Dr. Nuno Faria e colaboradores publicaram uma excelente análise disponível [aqui (em Inglês)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409), explicando como as sequências brasileiras e outras sequências globais mostram que "o surto no norte da Itália foi provavelmente resultado de várias introduções na região, e não de uma única fonte".
 
 
 
@@ -195,7 +195,7 @@ Dr. Nuno Faria e colaboradores publicaram uma excelente análise disponível [aq
 <!-- This is left-side text -->
 # [Possíveis transmissões silenciosas na Itália](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-As duas seqüências de Roma (29 de Janeiro de 2020) estão diretamente conectadas entre si e ambas têm um histórico de viagens para a China.
+As duas sequências de Roma (29 de Janeiro de 2020) estão diretamente conectadas entre si e ambas têm um histórico de viagens para a China.
 
 <br>
 
@@ -207,7 +207,7 @@ Contudo, a sequência brasileira (SPBR-02) tem um histórico de viagem para Mil�
 
 <br>
 
-A amostra da Inglaterra (oriunda da China) fica entre as amostras italianas mais antigas (de Roma) e os casos com viagens confirmadas para a Itália (Suíça e Brasil) ou viagens possíveis (EUA). Isso significa que não devemos supor que as seqüências italianas mais antigas e as as sequências mais recentes associadas às italianas estão diretamente ligadas. As amostras mais recentes podem ser resultado de outra introdução independente na Itália.
+A amostra da Inglaterra (oriunda da China) fica entre as amostras italianas mais antigas (de Roma) e os casos com viagens confirmadas para a Itália (Suíça e Brasil) ou viagens possíveis (EUA). Isso significa que não devemos supor que as sequências italianas mais antigas e as as sequências mais recentes associadas às italianas estão diretamente ligadas. As amostras mais recentes podem ser resultado de outra introdução independente na Itália.
 <!-- There is NO right-side text -->
 
 
@@ -248,7 +248,7 @@ Trevor Bedford (co-fundador da Nextstrain) escreveu um ótimo artigo sobre essas
 
 <br>
 
-As sequências recentes de Washington nos dizem outra coisa: essas seqüências da região de Seattle estão proximamente agrupadas. Isso sugere fortemente uma transmissão comunitária, e que o vírus SARS-CoV-2 já estava circulando na área há algum tempo.
+As sequências recentes de Washington nos dizem outra coisa: essas sequências da região de Seattle estão proximamente agrupadas. Isso sugere fortemente uma transmissão comunitária, e que o vírus SARS-CoV-2 já estava circulando na área há algum tempo.
 
 <!-- There is NO right-side text -->
 
@@ -259,7 +259,7 @@ As sequências recentes de Washington nos dizem outra coisa: essas seqüências 
 <!-- This is left-side text -->
 # [Calculando a provável data do ancestral comum mais recente](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-O tMRCA (sigla para 'tempo até o ancestral comum mais recente') de um conjunto de casos conhecidos indica quando esses casos sequenciados compartilharam pela última vez um ancestral comum. Esse momento pode ser tão cedo quanto no exato momento em que um vírus entrou na população humana, mas também pode ser substancialmente mais tarde, como mostra a figura abaixo.
+O tMRCA (sigla em Inglês para 'tempo até o ancestral comum mais recente') de um conjunto de casos conhecidos indica quando esses casos sequenciados compartilharam pela última vez um ancestral comum. Esse momento pode ser tão cedo quanto no exato momento em que um vírus entrou na população humana, mas também pode ser substancialmente mais tarde, como mostra a figura abaixo.
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -271,9 +271,9 @@ O tMRCA (sigla para 'tempo até o ancestral comum mais recente') de um conjunto 
 
 ## Provável data do ancestral comum dos vírus causadores do surto
 
-Inúmeros grupos de pesquisa e pessoas têm estimado a data do ancestral comum mais recente - confira [essa postagem de A. Rambaut (em Inglês)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) ou [essa postagem de T. Stadler (em Inglês)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Inúmeros grupos de pesquisa e pessoas têm estimado a data do ancestral comum mais recente - confira [esta postagem de A. Rambaut (em Inglês)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) ou [esta postagem de T. Stadler (em Inglês)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
-O ancestral comum de todas as seqüências é muito provavelmente do período entre meados de Novembro e meados de Dezembro. O que seria consistente com todos os casos atualmente seqüenciados, descendentes do [conjunto inicial de casos no mercado de frutos do mar de Wuhan.](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+O ancestral comum de todas as sequências provavelmente existiu entre meados de Novembro e meados de Dezembro. Isso seria consistente com todos os casos atualmente sequenciados, descendentes do [conjunto inicial de casos no mercado de frutos do mar de Wuhan.](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
