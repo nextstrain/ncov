@@ -53,7 +53,7 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> コロナウイルスの背景 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近のCOVID-19流行の背景 Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近のCOVID-19流行の背景 </a>
 
   <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 系統発生の読み方 </a>
 
@@ -92,7 +92,7 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 ### FAQ
 
 多くの方々がCOVID-19について疑問を持っているということは承知しています。
-よくある質問について回答を試みるために[こちら](https://nextstrain.org/help/coronavirus/FAQ) にガイドを用意しました
+よくある質問について回答を試みるために[こちら](https://nextstrain.org/help/coronavirus/FAQ)にガイドを用意しました
 
 <div>
 
@@ -106,8 +106,7 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 新型コロナウイルスの由来については多くの誤解が流布されているます。
 このような大きな感染症流行の間は、不適切であるとわかる情報の拡散はより大きなパニックを引き起こし、人々に科学者と政府を不信を抱かせることになり、これは勧告に従ったり、適切な警戒をしなくなるようになることを意味します.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
-次のような見方がなぜ適切でないかを説明しようと、科学者は下記のページで理論について言及しました.
+次のような見方がなぜ適切でないかを説明しようと、科学者は下記のページで理論について言及しました：
 
 <div>
 
@@ -127,7 +126,7 @@ In an effort to try and explain why these views are incorrect, scientists have a
 # [系統発生解析](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 
-ここに示すのが、SARS-CoV-2(COVID-19を引き起こすウイルス)の169</tag>系統の発生解析です
+ここに示すのが、SARS-CoV-2(COVID-19を引き起こすウイルス)の169</tag>系統の発生解析です。
 解析方法の情報にについては[このGitHubリポジトリ](https://github.com/nextstrain/ncov)で閲覧可能です.
 
 <br>
