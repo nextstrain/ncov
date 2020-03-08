@@ -23,9 +23,9 @@ Wir haben 169</tag> öffentlich zugängliche Genome des neuartigen Coronavirus (
 
 Wir finden:
 * COVID-19 wurde mindestens zwei mal nach Italien eingeführt und vermutlich lokal verbreitet ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* Einer dieser lokalen Cluster beinhalted Sequenzen von 6 verschieden Ländern welche direkt von Italien exportiert zu sein scheinen ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetische Sequenzen stützen die Hypothese, dass COVID-19 seit mitte Januar in der Region um Seattle präsent ist. ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Alle in dieser Analyse inkludierten Sequenzen haben einen geminsame Vorfahren irgendwann zwischen mitte November und mitte Dezember ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* Einer dieser lokalen Cluster beinhalted Sequenzen von 6 verschieden Ländern welche direkt aus Italien exportiert zu sein scheinen ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
+* Genetische Sequenzen stützen die Hypothese, dass COVID-19 seit Mitte Januar in der Region um Seattle präsent ist. ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Alle Sequenzen in dieser Analyse haben einen geminsame Vorfahren irgendwann zwischen Mitte November und Mitte Dezember ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -37,7 +37,7 @@ Wir finden:
 
 ### Further Reading:
 
-* Zusammenfassubng des COVID-19 Ausbruches auf [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* Zusammenfassung des COVID-19 Ausbruches auf [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
 * Infomaterial des [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
@@ -45,7 +45,7 @@ Wir finden:
 
 ## COVID-19 Ressourcen
 
-Hier haben wir mehrere lesenswerte Resourcen (auf Englisch) zusammegestellt um sich mit COVID-19 (der Krankeit) un dem Virus welche sie verursacht, SARS-CoV-2, bekannt zu machen.
+Hier haben wir mehrere lesenswerte Resourcen (auf Englisch) zusammengestellt um sich mit COVID-19 (der Krankeit) um dem Virus welche sie verursacht, SARS-CoV-2, bekannt zu machen.
 Diese Informationen werden es einfacher machen die nachfolgenden Daten zu verstehen.
 
 <div>
@@ -103,10 +103,10 @@ Wir habe mehrere dieser zusammegetragen und [here](https://nextstrain.org/help/c
 
 ### Missverständnisse
 
-Momentan sind mehrere Missverständnisse über den Ursprung dieses neurtigen Coronaviruses am zirkulieren.
-Während solcher Ausbrüche können solche Information zu verstärkter Unsicherheit und Misstrauen in die Wissenschaft und Behörden führen, was wiederum die Wahrscheindlichkeit veringert das gewisse Vorsichtsmassnahmen getroffen werden.
+Momentan zirkulieren mehrere Missverständnisse über den Ursprung dieses neurtigen Coronaviruses.
+Solche Falsch-Informationen führen zu verstärkter Unsicherheit und Misstrauen in die Wissenschaft und Behörden, was wiederum die Wahrscheinlichkeit verringert, dass geeignete Vorsichtsmassnahmen getroffen werden.
 
-Wissenschaftler bemühen sich darum zu erklären, wieso dies Theorien nicht der Wahrheit entsprechen und wir haben ein paar davon hier (in Englisch) zusammengetragen :
+Wissenschaftler bemühen sich darum zu erklären, wieso diese Behauptungen nicht der Wahrheit entsprechen und wir haben ein paar davon hier (in Englisch) zusammengetragen :
 
 <div>
 
@@ -125,17 +125,17 @@ Wissenschaftler bemühen sich darum zu erklären, wieso dies Theorien nicht der 
 <!-- This is left-side text -->
 # [Phylogenetische Analysen](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-Zur Rechten sehen Sie eine Phylogenie von 169</tag> SARS-CoV-2-Stämmen (dem Virus welches COVID-29 verursacht), die öffentlich zugänglich sind.
+Zur Rechten sehen Sie eine Phylogenie von 169</tag> SARS-CoV-2-Stämmen (dem Virus welches COVID-19 verursacht), die öffentlich zugänglich sind.
 Informationen darüber, wie die Analyse durchgeführt wurde, finden Sie [in diesem GitHub-Repository](github.com/nextstrain/ncov).
 
 <br>
 
-Die Farben repräsentieren diejenige regions innerhalb einses Landes oder denjenigen US-Staat der Isolation, wobei die x-Achse die Nukleotid-Divergenz darstellt.
+Die Farben repräsentieren die Region eines Landes wie zum Beispiel einem US-Staat der Isolation der Probe, wobei die x-Achse die Zeit darstellt.
 
 <br>
 
 Wann ein Virus isoliert wurde kann hilfreich sein, sagt aber nicht genau aus wie zwei Sequenzen miteinander verwandt sind.
-Zwei Sequenzen welche identisch siund und am gleichen Tag isoliert wurden können theoretisch in diser Ansicht nur entfernt miteinander verwandt sein.
+Zwei Sequenzen welche identisch sind und am gleichen Tag isoliert wurden können dennoch in dieser Ansicht nur entfernt miteinander verwandt sein.
 
 <!-- There is NO right-side text -->
 
@@ -145,17 +145,17 @@ Zwei Sequenzen welche identisch siund und am gleichen Tag isoliert wurden könne
 <!-- This is left-side text -->
 # ['Divergenz' in Phylogenien](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-Wir könen die Ansicht nun so ändern, dass auf der x-Achse nun die 'Divergenz' angezeit wird.
+Wir können die Ansicht nun so ändern, dass auf der x-Achse nun die 'Divergenz' angezeit wird.
 
 <br>
-Viele Sequenzen welche bis anhin unterschiedlich ausgesehne haben sitzen nun auf der gleichen vertikalen Linie.
-Sie können nun nun herauf und herunter scrollen um zwischen den einzelnen Seiten hin und her zu welchseln und um zu sehen, wie sich die Phylogenie verändert.
+Viele Sequenzen welche bis jetzt unterschiedlich ausgesehen haben sitzen nun auf der gleichen vertikalen Linie.
+Sie können nun herauf und herunter scrollen um zwischen den einzelnen Seiten hin und her zu wechseln um zu sehen, wie sich die Phylogenie verändert.
 
 <br>
 
 Divergenz wird in der Anzahl Änderungen (Mutationen) im Genom gemessen
 Gewisse Sequenzen haben unter Umständen keine Mutation, sprich sie sind alle identisch mit dem Ursprung der Phylogenie.
-Andere Vieren wiederum haben zwischen einer und elf Mutationen.
+Andere Viren wiederum haben zwischen einer und elf Mutationen.
 
 <br>
 
@@ -183,7 +183,7 @@ Während die ersten Fälle alle direkt mit Wuhan verbunden waren, welche wiederu
 
 Generell weisen wiederholte Einführungen von Viren aus einem tierischen Reservoir starke Diversität der genetischen Sequenzen, dies ist zum Beispiel bei Lassa, Ebola, MERS-CoV und der Vogelgrippe der Fall.
 
-Die Beobachtung von so geringer Diversität bei den Infektionen kann durch eine sogenannte Zoonose erklärt weden, welche danach von Mensch zu Mensch verbreitet wurde.
+Die Beobachtung von so geringer Diversität bei den Infektionen kann durch eine sogenannte Zoonose erklärt werden, welche danach von Mensch zu Mensch verbreitet wurde.
 
 <!-- There is NO right-side text -->
 
@@ -193,15 +193,15 @@ Die Beobachtung von so geringer Diversität bei den Infektionen kann durch eine 
 <!-- This is left-side text -->
 # [Ministens zwei Einführungen nach Italien, mit nachfolgender lokalen Verbreitung](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-Wir haben im Moment 3 Sequenzen aus Italie, zei davon aus Rom und eine aus der Lombardei.
+Wir haben im Moment 3 Sequenzen aus Italien, zwei davon aus Rom und eine aus der Lombardei.
 
 <br>
-Diese 3 Sequenzen haben einen gemeinsame Vorfahren früh in der Epidemie (in the Nähe des Ursprungs am linken Rande der Phylogenie).
-Dies stützt die Vermutung, dass das Virus im Minimum zweimal nach Italien eingeführt wurde.
+Diese 3 Sequenzen haben einen gemeinsamen Vorfahren früh in der Epidemie (in der Nähe des Ursprungs am linken Rand der Phylogenie).
+Dies stützt die Vermutung, dass das Virus mindestens zweimal nach Italien eingeführt wurde.
 
 <br>
 
-Dr Nuno Faria et al. geben eine gute [Erklärung dazu (in English)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) wie ein brasilianische und andere Weltweit gesammelte Sequenzen zeigen, dass der Ausbruch in Italien vurmutlich von mehreren Quellen und nicht nur einer verursacht wurde.
+Dr Nuno Faria et al. geben eine gute [Erklärung dazu (in English)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) wie ein brasilianische und andere weltweit gesammelte Sequenzen zeigen, dass der Ausbruch in Italien vermutlich von mehreren Quellen und nicht nur einer verursacht wurde.
 
 
 
@@ -214,18 +214,18 @@ Zwei Sequenzen aus Rom vom 29ten Januar 2020 sind direkt mit einander Verbunden 
 
 <br>
 
-Wir haben  hier in die 'Divergenz' Ansicht gewechselt um zu zeigen das die beiden Sequenzen aus Rom identisch sind, während andere Sequenzen (aus Brasilien, der Schweiz, den USA und China) sich von den Italienischen in 2-4 Mutation unterscheiden.
+Wir haben hier zur 'Divergenz' Ansicht gewechselt um zu zeigen,  dass die beiden Sequenzen aus Rom identisch sind, während andere Sequenzen (aus Brasilien, der Schweiz, den USA und China) sich von den italienischen durch 2-4 Mutationen unterscheiden.
 
 <br>
 
 Die Sequenz aus Brasilien (SPBR-02) hat eine Reisegeschichte nach Mailand in der Lombardei und es wird angenommen, dass das gleiche auch für die Sequenz aus der Schweiz gilt.
 Wir haben keine genauere Informationen zur Reisegeschichte der Sequenz aus den USA.
-Die Sequenz aus England (England/09c) wurde jedoch von China importiert.
+Die Sequenz England/09c wurde jedoch von China importiert nach England.
 
 <br>
 
-Die Sequenz aus England (importiert von China) sitzt zwischen der beiden Sequenzen aus Rom und denjenigen mit Reisegeschichte nach Mailand (Schweiz und Brasilien) und eventueller Reisegeschichte nach Italien (US Sequenz).
-WIr können darum nicht davon ausgehen, dass die beiden Sequenzen aus Italien mit den späteren Sequenzen assoziiert sind.
+Die Sequenz aus England (importiert von China) sitzt zwischen der beiden Sequenzen aus Rom und denjenigen mit Reisegeschichte nach Mailand (Schweiz und Brasilien) und möglicher Reisegeschichte nach Italien (US Sequenz).
+Wir können darum nicht davon ausgehen, dass die beiden Sequenzen aus Italien mit den späteren Sequenzen assoziiert sind.
 Die neueren Sequenzen könnten von einer weiteren unabhängigen Einführung stammen.
 
 <!-- There is NO right-side text -->
@@ -237,17 +237,17 @@ Die neueren Sequenzen könnten von einer weiteren unabhängigen Einführung stam
 <!-- This is left-side text -->
 # [Globale Verbreitung von der Lombardei, Italien](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-Die Sequenz aus der Lombardey (Italy/CDG1/2020) is nahe mit anderen Sequenze verwandt, für welche wir wissen, dass sie eine Reisgeschichte nach Italien haben, sprich sie haben sich sehr wahrscheindlich dort angesteckt:
+Die Sequenz aus der Lombardei (Italy/CDG1/2020) ist nahe mit anderen Sequenzen verwandt, für welche wir wissen, dass sie eine Reisegeschichte nach Italien haben, sprich sie haben sich sehr wahrscheindlich dort angesteckt:
 
 <br>
 
 Die Sequenz aus Deutschland "BavPat1" ist Teil einer Einführung von China viel früher während der Epidemie.
-Die nahe Verwandschaft (sie unterscheidet sich von den anderen Sequenzen nur durch eine Mutation), könnte unter Umständen auf eine versteckte Verbreitung des Vrisues in Europa hindeuten, welche eventuell auf diese Sequenz zurückgeht.
+Die nahe Verwandschaft (sie unterscheidet sich von den anderen Sequenzen nur durch eine Mutation), könnte unter Umständen auf eine versteckte Verbreitung des Viruses in Europa hindeuten, welche eventuell auf diese Sequenz zurückgeht.
 
 <br>
 
-Sie könnte aber genauso das Resultat einer seperaten Einführung nach Europa sein.
-Eine bis dato unsequenzirte Sequenz könnte zwischen 'BavPat1' und den anderen Sequenzen fallen.
+Sie könnte aber genauso gut das Resultat einer seperaten Einführung nach Europa sein.
+Eine bis dato unsequenzierte Probe könnte zwischen 'BavPat1' und den anderen Sequenzen fallen.
 Im Moment können wir zwischen den beiden Szenarien nicht unterscheiden.
 
 <!-- There is NO right-side text -->
@@ -258,12 +258,12 @@ Im Moment können wir zwischen den beiden Szenarien nicht unterscheiden.
 <!-- This is left-side text -->
 # [Vermutliche Verbreitung von SARS-CoV-2 in der Region um Seattle](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-Es gibt bis dato mehrere Fälle von COVID-19 in der Regions um Seattle und den USA im Allgemeinen.
-Diese neu isolierten und Sequenzierten Fälle sind genetisch eng miteinander Verwandt mit einem Fall welche mitte Januar in der gleichen Region aufgetreten ist.
+Es gibt bis dato mehrere Fälle von COVID-19 in der Region um Seattle und den USA im Allgemeinen.
+Diese neu isolierten und sequenzierten Fälle sind genetisch eng verwandt mit einem Fall welcher Mitte Januar in der gleichen Region aufgetreten ist.
 
 <br>
 Es gibt hierführ zwei unterschiedliche Erklärungen.
-Einerseits könnte das Virus im Minimum zweimal in die Region von einer gemeinsame Quelle in China eingeführt worden sein.
+Einerseits könnte das Virus im Minimum zweimal in die Region von einer gemeinsamen Quelle in China eingeführt worden sein.
 Die andere Erklärung ist, dass das Virus bereits seit längerem in der Region zirkuliert.
 
 <br>
@@ -272,7 +272,7 @@ Trevor Bedford (Co-Founder von Nextstrain) hat einen guten Blog post zu diesen u
 
 <br>
 
-Die weiteren Sequenzen aus Washington State erzählen zusätzlich eine weirtere Geschichte.
+Die weiteren Sequenzen aus Washington State erzählen zusätzlich eine weitere Geschichte.
 Diese Sequenzen sind eng miteinander verwandt, was sehr stark darauf hindeutet, dass SARS-CoV-2 bereits seit mehreren Wochen in der Region um Seattle zirkuliert.
 
 <!-- There is NO right-side text -->
@@ -299,8 +299,9 @@ Dies kann die Zeit sein als ein Virus zum ersten Mal auf Menschen übertragen wu
 
 Mehrere Forschungsgruppen haben die Zeit des letzten geimensame Vorfahren geschätzt, siehe zum Beispiel dieser Eintrag von A. Rambaut (in Englisch)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) oder [dieser Eintrag von T Stadler (in Englisch)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
-Der letzte gemeinsame Vorfahre aller Sequenzen war sehr wahrscheindlich zweischen Mitte November und Mitte Dezember.
-Dies würde mit der Hypothese übereinstimmen, dass alle momentan Sequenzierten Fälle auf eine Ursprüngliche Verbreitung in einem [Meeresfrüchte Markt in Wuhan zurückzuführen sind]http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+Der letzte gemeinsame Vorfahre aller Sequenzen war sehr wahrscheindlich zwischen Mitte November und Mitte Dezember.
+Dies wäre mit der Hypothese kompatibel, dass alle bis jetzt sequenzierten Fälle auf eine ursprüngliche Verbreitung in einem [Meeresfrüchte Markt in Wuhan zurückzuführen sind]http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+Gewissheit darüber besteht aber nicht.
 
 
 <div>
