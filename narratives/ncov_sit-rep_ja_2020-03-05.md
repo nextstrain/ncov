@@ -145,7 +145,7 @@ y軸はどのようにシーケンスがつながるかを表し、計測にお�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
+# [系統解析における "多様性"](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
 サンプル取得日の代わりにx軸に"多様性"を表すように表示を変えました
 
@@ -192,7 +192,7 @@ y軸はどのようにシーケンスがつながるかを表し、計測にお�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [At least two introductions into Italy, with possible community spread](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
+# [イタリアへの少なくとも2度の持ち込み, コミュニティでの拡散](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
 現時点でイタリアからのシーケンスが3つあり、そのうち2つはRomeから1つは北イタリアのLombardy由来です.
 
