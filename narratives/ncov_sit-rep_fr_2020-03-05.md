@@ -24,10 +24,10 @@ abstract: "Ce rapport utilise des données génomiques du nouveau coronavirus (n
 
 
 Principaux résultats :
-* COVID-19 a été introduit en Italie au moins deux fois avec par la suite de la transmission au sein de la communauté ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* Cela inclut un regroupement de séquences de 6 pays différents où il semble que des cas ont été exportés d’Italie ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* L’analyse des séquences génétiques supporte l’hypothèse d’une propagation non détectée de COVID-19 dans la région de Seattle depuis la mi-janvier ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Tous les cas séquencés inclus dans cette analyse partagent vraisemblablement un ancêtre commun apparu entre la mi-novembre et la mi-décembre 2019. ([lien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* COVID-19 a été introduit en Italie au moins deux fois avec par la suite de la transmission au sein de la communauté ([lien](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-05?n=7)).
+* Cela inclut un regroupement de séquences de 6 pays différents où il semble que des cas ont été exportés d’Italie ([lien](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-05?n=9)).
+* L’analyse des séquences génétiques supporte l’hypothèse d’une propagation non détectée de COVID-19 dans la région de Seattle depuis la mi-janvier ([lien](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-05?n=10)).
+* Tous les cas séquencés inclus dans cette analyse partagent vraisemblablement un ancêtre commun apparu entre la mi-novembre et la mi-décembre 2019. ([lien](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-05?n=11)).
 
 ```
 
@@ -126,7 +126,7 @@ Afin d'essayer d'expliquer pourquoi ces vues sont incorrectes, les scientifiques
 # [Analyse phylogénétique](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 Nous présentons ici une phylogénie de 169</tag> souches de SARS-CoV-2 (le virus responsable de COVID-19) qui ont été partagées publiquement.
-Des informations sur la façon dont l'analyse a été effectuée sont disponibles [dans ce répertoire GitHub](github.com/nextstrain/ncov).
+Des informations sur la façon dont l'analyse a été effectuée sont disponibles [dans ce répertoire GitHub](https://github.com/nextstrain/ncov).
 
 <br>
 
@@ -290,7 +290,7 @@ La date de l'ancêtre commun le plus récent d'un ensemble de cas séquencés co
 Plusieurs groupes de recherche et personnes ont estimé une datation de l'ancêtre commun le plus récent - voir [cet article de A. Rambaut (en anglais)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [cet article de T. Stadler (en anglais)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
 L'ancêtre commun de toutes les séquences se situe probablement entre la mi-novembre et la mi-décembre.
-Cela serait cohérent avec tous les cas actuellement séquencés issus du [groupe initial de cas sur un marché de fruits de mer de Wuhan](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/4200).
+Cela serait cohérent avec tous les cas actuellement séquencés issus du [groupe initial de cas sur un marché de fruits de mer de Wuhan](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
