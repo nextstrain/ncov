@@ -71,3 +71,23 @@ bat/Yunnan/RmYN01/2019
 
 # Temporarily excluded
 USA/CA-CDPH-UC1/2020
+
+#Temporarily excluded
+USA/CruiseA-1/2020
+USA/CruiseA-10/2020
+USA/CruiseA-11/2020
+USA/CruiseA-12/2020
+USA/CruiseA-13/2020
+USA/CruiseA-14/2020
+USA/CruiseA-15/2020
+USA/CruiseA-16/2020
+USA/CruiseA-17/2020
+USA/CruiseA-18/2020
+USA/CruiseA-2/2020
+USA/CruiseA-3/2020
+USA/CruiseA-4/2020
+USA/CruiseA-5/2020
+USA/CruiseA-6/2020
+USA/CruiseA-7/2020
+USA/CruiseA-8/2020
+USA/CruiseA-9/2020
