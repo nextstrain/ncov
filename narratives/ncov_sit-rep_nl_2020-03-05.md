@@ -1,11 +1,12 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-05.
+title: Genoomanalyse van de COVID-19 verspreiding. Situatierapport 2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 March 05"
+date: "5 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "Dit rapport gebruikt publiekelijk gedeelde COVID-19 genoomdata van GISAID en Genbank om een inschatting te maken van de snelheid en patronen van de virale epidemische verspreiding. We zijn van plan om geupdate situatierapporten uit te geven zodra nieuwe data beschikbaar komt. De website is geoptimaliseerd voor weergave op desktop browers."
+
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
