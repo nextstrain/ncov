@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-05.
+title: 新型冠状病毒（COVID-19）传播基因组分析。 状况报告2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 March 05"
+date: "2020年3月5日"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（COVID-19）基因组数据来估计疫情的流传速度和方式。 一旦收集到新的病毒数据，我们将陆续更新该状况报告。请用桌面浏览器游览该网站."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,21 +13,21 @@ abstract: "This report uses publicly shared COVID-19 genomic data from GISAID an
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Executive summary](https://nextstrain.org/ncov/2020-03-05)
+# [执行摘要](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## 执行摘要
 
-Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+通过使用169</tag>个公开共享的COVID-19新型冠状病毒基因组, 我们检查了遗传多样性以推断病毒共同祖先的日期和传播速度.
 
 
 
-We find:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+我们发现:
+* COVID-19至少两次被引入意大利，随后在社区传播. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
+* 这包括来自6个不同国家的一组序列，这些国家的病例似乎是来自意大利. ([链接]](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
+* 基因序列数据支持自1月中旬以来COVID-19在大西雅图地区未被检测到、持续传播的假设. ([链接]](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* 这项分析中包括的所有测序病例可能在2019年11月中旬至12月中旬之间的某个时间有共同的祖先. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -35,88 +35,37 @@ We find:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
+# [冠状病毒](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### 更多资料:
 
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
-
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
-
-## COVID-19 Resources
-
-Below, we've prepared some resources (in English) that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier.
-
-<div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
-
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
-
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
-
-</div>
-
-## Nextstrain narratives
-
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
-
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
-
-
-```
-
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
-
-### Further Reading (in English):
-
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
-
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
-
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
-
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* 维基百科上NCoV爆发综述 [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* 由美国疾控中心提供的材料 [CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## FAQs & Misconceptions
+## COVID-19 资源
 
-### FAQs
-
-We know that a lot of people have questions about COVID-19.
-We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain.org/help/coronavirus/FAQ):
+下面，我们准备了一些值得一读的资源(英文)，让您熟悉COVID-19和导致它的病毒-SARS-CoV-2.
+这些信息将使我们更容易解释我们在这篇叙述中呈现的数据.
 
 <div>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ (in English) </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近COVID-19爆发的背景 </a>
+
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 如何解读进化树</a>
 
 </div>
 
+## Nextstrain 叙述
 
-### Misconceptions
+以下页面包含使用[NextSstraint](https://nextstrain.org)执行的分析.
+滚动左侧侧栏将显示文本段落，并在右侧显示相应的基因组数据可视化图.
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
-
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below (in English):
-
-<div>
-
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
-
-
-</div>
+这么快就发现一种新的大型RNA病毒的全基因组是一项了不起的成就.
+这些分析是由世界各地的科学家快速和开放地共享基因组数据和解释而实现的(参见最后一张幻灯片，查看测序作者的可视化图).
 
 
 ```
@@ -125,19 +74,70 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [常见问题和误区](https://nextstrain.org/ncov/2020-03-05)
 
-Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](https://github.com/nextstrain/ncov).
+### 更多资料 (英文):
+
+* "不要相信你听到的关于冠状病毒和艾滋病的阴谋论" [文章](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+
+* "毫无根据的阴谋论声称新的冠状病毒是生物工程制造的" [文章](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+
+* "不，武汉冠状病毒不是经过基因改造植入艾滋病病毒片段的。" [文章](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+
+* "冠状病毒解密" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+
+<!-- This is right-side text -->
+```auspiceMainDisplayMarkdown
+
+## 常见问题和误区
+
+### 常见问题
+
+我们知道很多人对COVID-19有疑问.
+我们建立了一个指南来尝试回答一些最常被问到的问题. [链接](https://nextstrain.org/help/coronavirus/FAQ):
+
+<div>
+
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 常见问题 (英文) </a>
+
+</div>
+
+
+### 误区
+
+有许多关于这种新型冠状病毒起源的误区流传开来.
+在像这样的疫情爆发期间，不正确信息的传播可能会导致更多的恐慌，并导致人们不信任科学家和政府，这意味着他们不太可能遵循建议并采取适当的预防措施.
+
+科学家们在下面的文章中了解释了为什么这些观点是不正确的. (英文):
+
+<div>
+
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2起源于"蛇" (技术文档) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV基因工程'说法 (推特帖)</a>
+
+
+</div>
+
+
+```
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [进化树分析](https://nextstrain.org/ncov/2020-03-05?d=tree)
+
+我们在这里阐述169</tag>株SARS-CoV-2 (引发COVID-19的病毒)的进化树, 这些毒株已经公开分享.
+分析的过程可在 [此GitHub Repo找到](https://github.com/nextstrain/ncov).
 
 <br>
 
-The colours represent the within-country region or US-state of isolation, with the x-axis representing the sample date.
-The y-axis shows how the sequences are connected, and does not have any units of measurement.
+颜色表示国内区域或美国各州的状态，x轴表示样本日期.
+y轴显示序列如何连接，并且没有任何测量单位.
 
 <br>
 
-Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
+样本日期很有用，但它们并不总是准确地显示两个序列在基因上是如何相关的-两个完全相同的序列可能具有不同的样本日期，因此在此图中看起来相距很远.
 
 <!-- There is NO right-side text -->
 
@@ -145,30 +145,30 @@ Sample dates are useful, but they don't always show exactly how two sequences ar
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
+# [进化树上的“分叉”](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-We can change the view so that the x-axis now shows 'divergence' instead.
-
-<br>
-
-Notice how many sequences that looked different previously, now sit in a line vertically.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+可以更改视图，使x轴显示“分叉”.
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+注意有多少以前看起来不同的序列现在垂直地排成一条线.
+您可以在上一张幻灯片和这张幻灯片之间上下滚动，以查看树是如何变化的.
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
+分叉是用基因组中变化(突变)的数量来衡量的.
+有些序列可能有零突变--这意味着它们都与树的根(中心)完全相同。
+其他病毒有1到11个突变.
 
 <br>
 
-Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' view, depending on what we are trying to highlight.
+在不断演变的暴发情况下，对一种新的大型RNA病毒的基因组进行测序是具有挑战性的.
+在这些序列中观察到的一些差异可能是测序错误，而不是实际的突变.
+基因组末端的插入、缺失和差异更有可能是错误的，所以为了分析的目的，我们屏蔽了这些.
+
+<br>
+
+有时我们会在“时间”视图中显示树，有时在“分叉”视图中显示树，这取决于我们要突出显示的内容.
 
 <!-- There is NO right-side text -->
 
@@ -176,15 +176,15 @@ Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' vi
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [进化树解释](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-We currently have sequences from samples taken in five different continents.
-While the early cases were all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
+我们目前有来自五个不同大陆的样本的序列.
+虽然早期的病例都与武汉的病例直接相关，与海产品市场爆发有关，但我们现在观察到各种不同的病例，这些病例表明有社区传播的证据，或者是从中国以外的来源输入的.
 
 <br>
 
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV, and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
+通常，从动物集中地重复引入将显示出显著的多样性(拉萨病毒、埃博拉病毒、MERS冠状病毒和禽流感都是如此).
+观察到如此强烈的人类感染聚集性可以用一次暴发来解释，该暴发源于单一的人畜共患病传入人口事件，随后是人与人之间的流行病传播.
 
 <!-- There is NO right-side text -->
 
@@ -192,83 +192,38 @@ The observation of such strong clustering of human infections can be explained b
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [At least two introductions into Italy, with possible community spread](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
+# [至少两次输入意大利，可能会存在社区传播](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-We currently have 3 sequences from Italy, two of which are from the Rome area and one from Lombardy in northern Italy.
-
-<br>
-
-These 3 sequences share a common ancestor early in the epidemic (near the base of the tree, to the left), which strongly suggests that there were at least two introductions with community spread into Italy.
+我们目前有3个来自意大利的序列，其中两个来自罗马地区，一个来自意大利北部的伦巴第.
 
 <br>
 
-Dr Nuno Faria et al. give an excellent breakdown [here (in English)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
+这3个序列在疫情早期共享一个共同的祖先(在树基附近，左边)，这强烈地表明至少有两个引入并社区传播到了意大利.
+
+<br>
+
+努诺·法里亚博士团队很好地细分了巴西和其他全球序列如何表明“意大利北部的疫情很可能是多个人传入该地区的结果，而不是来自一个单一的来源 [链接 (英文)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)
 
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Possible hidden transmission in Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
+# [意大利可能存在的隐藏传播](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-The two sequences from Rome (29 January 2020) are directly connected to each other and both have a travel history to China.
-
-<br>
-
-We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, Switzerland, the USA, and China) are actually separated from the Italian sequences by 2-4 mutations.
+来自罗马(2020年1月29日)的两个序列相互直接联系，都有去过中国的旅行历史.
 
 <br>
 
-However, the Brazilian sequence (SPBR-02) has a travel history to Milan, in Lombardy, and it is thought that the Swiss sequence in this cluster also recently travelled to Italy. We do not know anything about the travel history of the USA sample. The England/09c isolate is a direct importation from China.
+我们切换到“分叉”视图，可以表明这两个意大利序列是相同的，而其他邻近的序列(来自英国、巴西、瑞士、美国和中国)实际上与意大利序列相差2-4个突变
 
 <br>
 
-The English sample (from China) sits between the earlier Italian samples from Rome and the cases with known (Swiss, Brazilian) or possible (USA) travel to Italy. This means we should not assume that the older Italian sequences and newer Italian-associated sequences are directly linked. The more recent samples could come from another independent introduction to Italy.
-
-<!-- There is NO right-side text -->
-
-
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
-
-The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected there: the sequences from Mexico, Germany, Brazil & Finland.
+然而，巴西的序列(SPBR-02)有前往伦巴第米兰的旅行历史，因此认为，该集群中的瑞士序列最近也曾前往意大利。我们对美国序列的旅行史一无所知。英格兰/09c分离株是从中国直接输入的.
 
 <br>
 
-The German "BavPat1" sequence is part of an introduction from China much earlier in the epidemic. Its similarity to the other sequence in the cluster (they are separated by only one mutation), could indicate undetected ("cryptic") transmission in Europe stemming from this early German cluster.
-
-<br>
-
-It could also be the result of two separate introductions to Europe - an unsampled sequence from elsewhere could fall between 'BavPat1' and the rest of the cluster. At the moment, we cannot say with certainty which scenario is correct.
-
-<!-- There is NO right-side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [Likely spread of SARS-CoV-2 in the Seattle area](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
-
-There are now several cases of COVID-19 reported in the greater Seattle area and the US in general.
-The newly isolated and sequenced cases are genetically closely related to a case isolated in the middle of January in the same area.
-
-<br>
-
-There are two possible explanations for this.
-The virus could have been introduced at least twice into the greater Seattle area from a common source in China.
-However, another explanation is that the virus was circulating undetected in the area for a while.
-
-<br>
-
-Trevor Bedford (co-founder of Nextstrain) has written a great blog post about these possibilities, which you can read [here (in English)](https://bedford.io/blog/ncov-cryptic-transmission/).
-
-<br>
-
-The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together. 
-This strongly suggest community spread, and that the SARS-CoV-2 virus has been circulating in the area for some time already.
+英国序列(来自中国)处于早期意大利罗马的病例和有已知(瑞士、巴西)或可能(美国)意大利旅行史的病例之间。这意味着我们不应该假设较早的意大利序列和较新的意大利相关序列是直接相关的。意大利最近的样本可能来自另一次独立的输入.
 
 <!-- There is NO right-side text -->
 
@@ -277,10 +232,55 @@ This strongly suggest community spread, and that the SARS-CoV-2 virus has been c
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [从意大利伦巴第传播至全球](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
-This time can be as early as the time when a virus first entered the human population, but can also be substantially later, as shown in the figure below.
+来自伦巴第(意大利/CDG1/2020)的序列与已知有意大利旅行史的序列聚在一起(最有可能在那里感染)：来自墨西哥、德国、巴西和芬兰的序列.
+
+<br>
+
+德国的“BavPat1”序列是在疫情更早的时候从中国传入的一部分。它与该簇中的另一个序列的相似性(它们只被一个突变分开)，可能表明欧洲未被检测到的(“隐蔽的”)传播起源于这个早期的德国病例.
+
+<br>
+
+这也可能是两次单独输入欧洲的结果--来自其他地方的未采样序列可能落在“BavPat1”和集群的其余部分之间。目前，我们不能肯定的确认是哪种情况.
+
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [SARS-CoV-2可能在西雅图地区蔓延](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+
+现在在大西雅图地区和整个美国报告了几例COVID-19病例.
+新分离和测序的病例在基因上与1月中旬在同一地区分离的一例密切相关.
+
+<br>
+
+对此有两种可能的解释.
+该病毒可能至少两次从中国的共同源头传入大西雅图地区.
+然而，另一种解释是，病毒在该地区传播了一段时间，没有被发现.
+
+<br>
+
+特雷弗·贝德福德(Nextstraint的联合创始人)就这些可能性写了一篇很棒的博客文章，你可以在这里读到 [链接 (英文)](https://bedford.io/blog/ncov-cryptic-transmission/).
+
+<br>
+
+华盛顿最近剩余的序列告诉我们另一件事：这些来自大西雅图地区的序列聚集在一起
+这强烈表明社区传播，且SARS-CoV-2病毒已经在该地区传播了一段时间
+
+<!-- There is NO right-side text -->
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [测定最近共同祖先的时间](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+
+一组测序案例的最近共同祖先(或tMRCA)的时间表示这些测序案例最后共享共同祖先的时间.
+这一时间可以早于病毒首次进入人类群体的时间，但也可以大大晚于此时间，如下图所示.
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -290,12 +290,12 @@ This time can be as early as the time when a virus first entered the human popul
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Date of the common ancestor of outbreak viruses
+## 爆发病毒共同祖先的日期
 
-Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut (in English)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [this post by T Stadler (in English)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+数个研究小组估算了最近共同祖先的时间 - 查看 [A Rambaut的文章 (英文)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的文章 (英文)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
-The common ancestor of all sequences is most likely between mid-November and mid-December.
-This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+所有序列的共同祖先最有可能出现在11月中旬至12月中旬之间.
+这与目前所有测序是从[武汉海鲜市场最初的病例集群](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)衍生下来的说法一致.
 
 
 <div>
@@ -311,47 +311,47 @@ This would be consistent with all currently sequenced cases descending from the 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [科学贡献人员](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家.
+只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+我们也感谢[GISAID](https://gisaid.org))提供了上传和共享这些数据的平台.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+非常感谢以下单位机构和实验室慷慨分享:
 
 * Centre for Infectious Diseases and Microbiology Laboratory Services
 * Pathology Queensland
 * Monash Medical Centre
-* National Institute for Viral Disease Control and Prevention, China CDC
+* 中国疾控中心国家病毒性疾病预防控制研究所
 * KU Leuven, Clinical and Epidemiological Virology
 * Hospital Israelita Albert Einstein
 * Virology Unit, Institut Pasteur du Cambodge.
 * BCCDC Public Health Laboratory
-* Yongchuan District Center for Disease Control and Prevention
-* Zhongxian Center for Disease Control and Prevention
+* 永川区疾病预防控制中心
+* 忠县疾病预防控制中心
 * Respiratory Virus Unit, Microbiology Services Colindale, Public Health England
 * Lapland Central Hospital
 * HUS Diagnostiikkakeskus, Hallinto
-* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health
+* 广东省疾病预防控制中心；广东省公共卫生厅
 * Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris
 * Sorbonne Universite, Inserm et Assistance Publique-Hopitaux de Paris (Pitie Salpetriere)
 * CNR Virus des Infections Respiratoires - France SUD
-* Fujian Center for Disease Control and Prevention
+* 福建省疾病预防控制中心
 * State Health Office Baden-Wuerttemberg
 * Charite Universitatsmedizin Berlin, Institute of Virology; Institut fur Mikrobiologie der Bundeswehr, Munich
-* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health
-* Guangdong Provincial Center for Diseases Control and Prevention;Guangdong Provincial Institute of Public Health
-* Hangzhou Center for Disease and Control Microbiology Lab
-* Hangzhou Center for Disease Control and Prevention
-* Second Hospital of Anhui Medical University
-* Hong Kong Department of Health
+* 广东省疾病预防控制中心；广东省公共卫生厅
+* 广东省疾病预防控制中心；广东省公共卫生研究所
+* 杭州市疾病预防控制中心微生物学实验室
+* 杭州市疾病预防控制中心
+* 安徽医科大学第二医院
+* 香港卫生署
 * Department of Infectious Diseases, Istituto Superiore di Sanita, Roma , Italy
 * INMI Lazzaro Spallanzani IRCCS
 * Department of Infectious Diseases, Istituto Superiore di Sanita, Rome, Italy
@@ -359,14 +359,14 @@ We are grateful for the data gathered by these originating labs:
 * Dept. of Virology III, National Institute of Infectious Diseases
 * Dept. of Pathology, National Institute of Infectious Diseases
 * NHC Key laboratory of Enteric Pathogenic Microbiology, Institute of Pathogenic Microbiology
-* Jingzhou Center for Disease Control and Prevention
+* 荆州市疾病预防控制中心
 * Division of Viral Diseases, Center for Laboratory Control of Infectious Diseases, Korea Centers for Diseases Control and Prevention
 * Instituto Nacional de Enfermedades Respiratorias
 * National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal
 * Bamrasnaradura Hospital
-* The University of Hong Kong - Shenzhen Hospital
-* Shenzhen Third People's Hospital
-* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
+* 香港大学深圳医院
+* 深圳市第三人民医院
+* 深圳市第三人民医院国家传染病临床研究中心深圳市病原与免疫重点实验室
 * Singapore General Hospital
 * National Public Health Laboratory, National Centre for Infectious Diseases
 * National Public Health Laboratory
@@ -378,7 +378,7 @@ We are grateful for the data gathered by these originating labs:
 * Taiwan Centers for Disease Control
 * Laboratory Medicine
 * Department of Laboratory Medicine, National Taiwan University Hospital
-* Tianmen Center for Disease Control and Prevention
+* 天门市疾病预防控制中心
 * Arizona Department of Health Services
 * California Department of Public Health
 * California Department of Health
@@ -390,20 +390,20 @@ We are grateful for the data gathered by these originating labs:
 * Providence Regional Medical Center
 * Wisconsin Department of Health Services
 * National Influenza Center - National Institute of Hygiene and Epidemiology (NIHE)
-* Wuhan Jinyintan Hospital
-* The Central Hospital Of Wuhan
-* Union Hospital of Tongji Medical College, Huazhong University of Science and Technology
+* 武汉金银潭医院
+* 武汉市中心医院
+* 华中科技大学同济医学院协和医院
 * CR & Wisco General Hospital
-* Wuhan Lung Hospital
-* Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College
-* Institute of Viral Disease Control and Prevention, China CDC
-* General Hospital of Central Theater Command of People's Liberation Army of China
-* Wuhan Fourth Hospital
-* Zhejiang Provincial Center for Disease Control and Prevention
-* Wuhan Institute of Virology, Chinese Academy of Sciences
-* Shandong First Medical University & Shandong Academy of Medical Sciences
-* South China Agricultural University
-* Beijing Institute of Microbiology and Epidemiology
+* 武汉肺科医院
+* 中国医学科学院、北京协和医学院病原生物学研究所
+* 中国疾控中心病毒病预防控制研究所
+* 中国人民解放军中央战区总医院
+* 武汉市第四医院
+* 浙江省疾病预防控制中心
+* 中国科学院武汉病毒研究所
+* 山东第一医科大学&山东省医学科学院
+* 华南农业大学
+* 北京微生物学与流行病学研究所
 
 ```
 
@@ -411,35 +411,35 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [科学贡献详情](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+数据共享于 [GISAID](https://gisaid.org).
+感谢他们的贡献.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+在右边，我们给出了每个实验室共享的特定序列.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+感谢下列实验室里科学家们慷慨分享SARS-CoV-2的基因组:
 
-* NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney
+* 新南威尔士州健康病理学 - 临床病理和医学研究所, 韦斯特米德医院, 悉尼大学
 	* Australia/NSW01/2020
 	* Australia/NSW05/2020
 	* Sydney/2/2020
 
-* Public Health Virology Laboratory
+* 公共卫生病毒学实验室， 澳大利亚
 	* Australia/QLD01/2020
 	* Australia/QLD02/2020
 	* Australia/QLD03/2020
 	* Australia/QLD04/2020
 
-* Collaboration between the University of Melbourne at The Peter Doherty Institute for Infection and Immunity, and the Victorian Infectious Disease Reference Laboratory
+* 墨尔本大学,The Peter Doherty感染和免疫研究所, 维多利亚传染病参考实验室之间的合作
 	* Australia/VIC01/2020
 
-* National Institute for Viral Disease Control & Prevention, CCDC
+* 中国疾病预防控制中心 病毒病预防控制所
 	* Beijing/IVDC-BJ-005/2020
 	* Chongqing/IVDC-CQ-001/2020
 	* Jiangsu/IVDC-JS-001/2020
@@ -461,18 +461,18 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * BCCDC Public Health Laboratory
 	* Canada/BC_37_0-2/2020
 
-* Technology Centre, Guangzhou Customs
+* 科学中心, 广州海关
 	* China/IQTC01/2020
 	* China/IQTC02/2020
 
 * Key Laboratory of Human Diseases, Comparative Medicine, Institute of Laboratory Animal Science
 	* China/WH-09/2020
 
-* State Key Laboratory of Virology, Wuhan University
+* 病毒学国家重点实验室, 武汉大学
 	* China/WHU01/2020
 	* China/WHU02/2020
 
-* Chongqing Municipal Center for Disease Control and Prevention
+* 重庆市疾控中心
 	* Chongqing/YC01/2020
 	* Chongqing/ZX01/2020
 
@@ -487,7 +487,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * Department of Virology Faculty of Medicine, Medicum University of Helsinki
 	* Finland/FIN-25/2020
 
-* Guangdong Provincial Center for Diseases Control and Prevention
+* 广东省疾控中心
 	* Foshan/20SF207/2020
 	* Foshan/20SF210/2020
 	* Foshan/20SF211/2020
@@ -510,7 +510,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * CNR Virus des Infections Respiratoires - France SUD
 	* France/RA739/2020
 
-* Fujian Center for Disease Control and Prevention
+* 福建省疾控中心
 	* Fujian/13/2020
 	* Fujian/8/2020
 
@@ -518,7 +518,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Germany/Baden-Wuerttemberg-1/2020
 	* Germany/BavPat1/2020
 
-* Department of Microbiology, Guangdong Provincial Center for Diseases Control and Prevention
+* 微生物部, 广东省疾控中心
 	* Guangdong/20SF012/2020
 	* Guangdong/20SF013/2020
 	* Guangdong/20SF014/2020
@@ -526,26 +526,26 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Guangdong/20SF028/2020
 	* Guangdong/20SF040/2020
 
-* Guangdong Provincial Center for Disease Control and Prevention
+* 广东省疾控中心
 	* Guangdong/20SF174/2020
 
-* Hangzhou Center for Disease and Control Microbiology Lab
+* 杭州疾控中心微生物实验室
 	* Hangzhou/HZ-1/2020
 
-* Hangzhou Center for Disease Control and Prevention
+* 杭州疾控中心
 	* Hangzhou/HZCDC0001/2020
 
-* Second Hospital of Anhui Medical University
+* 安徽医科大学第二医院
 	* Hefei/2/2020
 
-* National Institute for Viral Disease Control & Prevention, China CDC
+* 国家病毒性疾病控制与预防研究所, 中国疾控中心
 	* Henan/IVDC-HeN-002/2020
 
-* School of Public Health, The University of Hon g Kong
+* School of Public Health, 香港大学
 	* HongKong/VB20026565/2020
 	* HongKong/VM20001061/2020
 
-* The University of Hong Kong
+* 香港大学
 	* HongKong/VM20001988/2020
 	* Nepal/61/2020
 
@@ -570,12 +570,12 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Japan/Hu_DP_Kng_19-020/2020
 	* Japan/Hu_DP_Kng_19-027/2020
 
-* Jiangsu Provincial Center for Disease Control & Prevention
+* 江苏省疾控中心
 	* Jiangsu/JS01/2020
 	* Jiangsu/JS02/2020
 	* Jiangsu/JS03/2020
 
-* Hubei Provincial Center for Disease Control and Prevention
+* 湖北省疾控中心
 	* Jingzhou/HBCDC-HB-01/2020
 	* Tianmen/HBCDC-HB-07/2020
 	* Wuhan/HBCDC-HB-01/2019
@@ -602,11 +602,11 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Nonthaburi/61/2020
 	* Nonthaburi/74/2020
 
-* Li Ka Shing Faculty of Medicine, The University of Hong Kong
+* 李嘉诚医学院, 香港大学
 	* Shenzhen/HKU-SZ-002/2020
 	* Shenzhen/HKU-SZ-005/2020
 
-* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
+* 深圳市病原与免疫重点实验室, 国家传染病临床研究中心, 深圳第三人民医院
 	* Shenzhen/SZTH-001/2020
 	* Shenzhen/SZTH-002/2020
 	* Shenzhen/SZTH-003/2020
@@ -685,44 +685,44 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * National Influenza Center - National Institute of Hygiene and Epidemiology (NIHE)
 	* Vietnam/VR03-38142/2020
 
-* National Institute for Communicable Disease Control and Prevention (ICDC) Chinese Center for Disease Control and Prevention (China CDC)
+* 中国疾病预防控制中心(中国疾控中心)
 	* Wuhan-Hu-1/2019
 
-* Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College
+* 中国医学科学院、北京协和医学院病原生物学研究所
 	* Wuhan/IPBCAMS-WH-01/2019
 	* Wuhan/IPBCAMS-WH-02/2019
 	* Wuhan/IPBCAMS-WH-03/2019
 	* Wuhan/IPBCAMS-WH-04/2019
 	* Wuhan/IPBCAMS-WH-05/2020
 
-* National Institute for Viral Disease Control and Prevention, China CDC
+* 中国疾控中心国家病毒病预防控制研究所
 	* Wuhan/IVDC-HB-01/2019
 	* Wuhan/IVDC-HB-04/2020
 	* Wuhan/IVDC-HB-05/2019
 
-* Institute of Viral Disease Control and Prevention, China CDC
+* 中国疾控中心病毒病预防控制研究所
 	* Wuhan/IVDC-HB-envF13-20/2020
 	* Wuhan/IVDC-HB-envF13-21/2020
 	* Wuhan/IVDC-HB-envF13/2020
 	* Wuhan/IVDC-HB-envF54/2020
 
-* BGI & Institute of Microbiology, Chinese Academy of Sciences & Shandong First Medical University & Shandong Academy of Medical Sciences & General Hospital of Central Theater Command of People's Liberation Army of China
+* 华大基因与中国科学院微生物学研究所、山东第一医科大学、山东医学科学院、中国人民解放军中心战区总医院
 	* Wuhan/WH01/2019
 	* Wuhan/WH02/2019
 	* Wuhan/WH03/2020
 	* Wuhan/WH04/2020
 
-* Beijing Genomics Institute (BGI)
+* 北京基因组研究所 (BGI)
 	* Wuhan/WH05/2020
 
-* Wuhan Institute of Virology, Chinese Academy of Sciences
+* 中国科学院武汉病毒研究所
 	* Wuhan/WIV02/2019
 	* Wuhan/WIV04/2019
 	* Wuhan/WIV05/2019
 	* Wuhan/WIV06/2019
 	* Wuhan/WIV07/2019
 
-* Department of Microbiology, Zhejiang Provincial Center for Disease Control and Prevention
+* 浙江省疾病预防控制中心微生物室
 	* Zhejiang/WZ-01/2020
 	* Zhejiang/WZ-02/2020
 
