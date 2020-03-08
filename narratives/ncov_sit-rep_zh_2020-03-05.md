@@ -202,7 +202,7 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 
 <br>
 
-努诺·法里亚博士团队很好地细分了巴西和其他全球序列如何表明“意大利北部的疫情很可能是多个人传入该地区的结果，而不是来自一个单一的来源 [链接 (英文)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)
+努诺·法里亚博士团队很好地细分了巴西和其他全球序列如何表明“意大利北部的疫情很可能是多个人传入该地区的结果，而不是来自一个单一的来源 [链接 (英文)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409).
 
 
 
