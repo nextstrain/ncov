@@ -47,24 +47,38 @@ def modify(node):
 
 
 def collect_division_exposures(values, node):
-    v = node["node_attrs"].get("division_exposure", {}).get("value", None)
+    v = node["node_attrs"].get("division", {}).get("value", None)
     if v:
         values.add(v)
 
+def switch_division(node):
+    """
+    For a given node, replae "division" with the info in "division_exposure" (removing the latter)
+    """
+    division_exposure = node["node_attrs"].get("division_exposure", None)
+    division = node["node_attrs"].get("division", None)
+    if (division and not division_exposure):
+        raise Exception("Where there's division we should always have division_exposure")
+    node["node_attrs"]["division"] = division_exposure
+    del node["node_attrs"]["division_exposure"]
 
-def update_colors(colorings, values_wanted, colors):
-    trait = [x for x in colorings if x["key"]=="division_exposure"][0]
-    values_present = {x[0] for x in trait["scale"]}
-    for x in values_wanted:
-        if x not in values_present:
-            print(x, colors[x])
-            trait["scale"].append([x, colors[x]])
+def reset_colors(colorings, values_wanted, colors):
+    """
+    Reset the color scale for `division` so that it's in the correct order
+    """
+    trait = [x for x in colorings if x["key"]=="division"][0]
+    trait["scale"] = []
+    values_wanted_lower = {x.lower() for x in values_wanted}
+    for [name, value] in colors:
+        if name.lower() in values_wanted_lower:
+            trait["scale"].append([name, value])
+        else:
+            print(name)
 
 def update_latlongs(geo_resolutions, values_wanted, latlongs):
-    trait = [x for x in geo_resolutions if x["key"]=="division_exposure"][0]
+    trait = [x for x in geo_resolutions if x["key"]=="division"][0]
     for x in values_wanted:
         if x not in trait["demes"].keys():
-            print(x, latlongs[x])
             trait["demes"][x] = latlongs[x]
 
 if __name__ == '__main__':
@@ -73,12 +87,12 @@ if __name__ == '__main__':
         input_json = json.load(fh)
 
     # Read colorings & lat-longs
-    colors = {}
+    colors = []
     with open(sys.argv[2]) as fh:
         for line in fh:
             fields = line.strip().split("\t")
-            if len(fields)==3 and fields[0]=="division_exposure":
-                colors[fields[1]] = fields[2]
+            if len(fields)==3 and fields[0]=="division":
+                colors.append([fields[1], fields[2]])
     latlongs = {}
     with open(sys.argv[3]) as fh:
         for line in fh:
@@ -89,13 +103,20 @@ if __name__ == '__main__':
     # Modify branches
     modify_branches(input_json["tree"])
 
+    # And now move `division_exposure` to `division` (i.e. what was `division` is gone)
+    traverse(input_json["tree"], switch_division)
+
     # Collect all `division_exposure` values (we may have created ones which didn't previously exist)
-    division_exposure_values = set()
-    traverse(input_json["tree"], partial(collect_division_exposures, division_exposure_values))
+    division_values = set()
+    traverse(input_json["tree"], partial(collect_division_exposures, division_values))
 
     # Ensure the colors & lat-longsare up-to-date
-    update_colors(input_json["meta"]["colorings"], division_exposure_values, colors)
-    update_latlongs(input_json["meta"]["geo_resolutions"], division_exposure_values, latlongs)
+    reset_colors(input_json["meta"]["colorings"], division_values, colors)
+    update_latlongs(input_json["meta"]["geo_resolutions"], division_values, latlongs)
+
+    # Remove `division_exposure` from filters - we only included it so that `augur_export` would include the trait
+    # on the nodes. 
+    input_json["meta"]["filters"] = [f for f in input_json["meta"]["filters"] if f!="division_exposure"]
 
     with open(sys.argv[4], 'w') as fh:
         json.dump(input_json, fh, indent=2)

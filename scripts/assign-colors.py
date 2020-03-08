@@ -51,14 +51,3 @@ if __name__ == '__main__':
             for trait_value, color in zipped:
                 f.write(trait_name + "\t" + trait_value + "\t" + color + "\n")
             f.write("\n")
-
-            # We want `division_exposure` to mirror `division` in order to improve
-            # comprehension when switching between the two. This means that _all_
-            # demes exclusive to `division_exposure` should be added to the ordering
-            # TSV under `division`. `augur export` won't export values which don't appear
-            # in the tree, so the legend won't be cluttered, but the colors will be
-            # consistent
-            if trait_name == "division":
-                for trait_value, color in zipped:
-                    f.write(trait_name + "_exposure\t" + trait_value + "\t" + color + "\n")
-                f.write("\n")

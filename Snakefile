@@ -263,17 +263,6 @@ rule colors:
             --output {output.colors}
         """
 
-rule recode_lat_longs:
-    message: "Copying division lat/longs to division_exposure"
-    input:
-        lat_longs = files.lat_longs
-    output:
-        lat_longs = "results/lat_longs.tsv"
-    shell:
-        """
-        cp {input.lat_longs} {output.lat_longs} && \
-        grep 'division' {input.lat_longs} | sed 's/division/division_exposure/' >> {output.lat_longs}
-        """
 
 rule export:
     message: "Exporting data files for for auspice"
@@ -286,7 +275,7 @@ rule export:
         traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config,
         colors = rules.colors.output.colors,
-        lat_longs = rules.recode_lat_longs.output.lat_longs,
+        lat_longs = files.lat_longs,
         description = files.description,
         clades = rules.clades.output.clade_data
     output:
@@ -304,20 +293,6 @@ rule export:
             --output {output.auspice_json}
         """
 
-rule incorporate_travel_history:
-    message: "Adjusting main auspice JSON to take into account travel history"
-    input:
-        lat_longs = rules.recode_lat_longs.output.lat_longs,
-        colors = rules.colors.output.colors,
-        auspice_json = rules.export.output.auspice_json
-    output:
-        auspice_json = "results/ncov_with_accessions_and_travel_branches.json"
-    shell:
-        """
-        python3 ./scripts/modify_tree_according_to_division_exposure.py \
-            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
-        """
-
 rule export_gisaid:
     message: "Exporting data files for for auspice"
     input:
@@ -329,7 +304,7 @@ rule export_gisaid:
         traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_gisaid,
         colors = rules.colors.output.colors,
-        lat_longs = rules.recode_lat_longs.output.lat_longs,
+        lat_longs = files.lat_longs,
         description = files.description,
         clades = rules.clades.output.clade_data
     output:
@@ -347,6 +322,8 @@ rule export_gisaid:
             --output {output.auspice_json}
         """
 
+
+
 rule export_zh:
     message: "Exporting data files for for auspice"
     input:
@@ -358,7 +335,7 @@ rule export_zh:
         traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_zh,
         colors = rules.colors.output.colors,
-        lat_longs = rules.recode_lat_longs.output.lat_longs,
+        lat_longs = files.lat_longs,
         description = files.description_zh,
         clades = rules.clades.output.clade_data
     output:
@@ -374,6 +351,48 @@ rule export_zh:
             --lat-longs {input.lat_longs} \
             --description {input.description} \
             --output {output.auspice_json}
+        """
+
+rule incorporate_travel_history:
+    message: "Adjusting main auspice JSON to take into account travel history"
+    input:
+        lat_longs = files.lat_longs,
+        colors = rules.colors.output.colors,
+        auspice_json = rules.export.output.auspice_json
+    output:
+        auspice_json = "results/ncov_with_accessions_and_travel_branches.json"
+    shell:
+        """
+        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
+        """
+
+rule incorporate_travel_history_gisaid:
+    message: "Adjusting GISAID auspice JSON to take into account travel history"
+    input:
+        lat_longs = files.lat_longs,
+        colors = rules.colors.output.colors,
+        auspice_json = rules.export_gisaid.output.auspice_json
+    output:
+        auspice_json = "results/ncov_gisaid_with_accessions_and_travel_branches.json"
+    shell:
+        """
+        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
+        """
+
+rule incorporate_travel_history_zh:
+    message: "Adjusting ZH auspice JSON to take into account travel history"
+    input:
+        lat_longs = files.lat_longs,
+        colors = rules.colors.output.colors,
+        auspice_json = rules.export_zh.output.auspice_json
+    output:
+        auspice_json = "results/ncov_zh_with_accessions_and_travel_branches.json"
+    shell:
+        """
+        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
         """
 
 rule fix_colorings:
@@ -392,7 +411,7 @@ rule fix_colorings:
 rule fix_colorings_gisaid:
     message: "Remove extraneous colorings for the GISAID build"
     input:
-        auspice_json = rules.export_gisaid.output.auspice_json
+        auspice_json = rules.incorporate_travel_history_gisaid.output.auspice_json
     output:
         auspice_json = "auspice/ncov_gisaid.json"
     shell:
@@ -405,7 +424,7 @@ rule fix_colorings_gisaid:
 rule fix_colorings_zh:
     message: "Remove extraneous colorings for the Chinese language build"
     input:
-        auspice_json = rules.export_zh.output.auspice_json
+        auspice_json = rules.incorporate_travel_history_zh.output.auspice_json
     output:
         auspice_json = "auspice/ncov_zh.json"
     shell:
