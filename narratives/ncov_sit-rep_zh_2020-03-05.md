@@ -1,11 +1,11 @@
 ---
-title: 新型冠状病毒（COVID-19）传播基因组分析。 状况报告2020-03-05.
+title: 新型冠状病毒（COVID-19）传播基因组分析. 状况报告2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020年3月5日"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（COVID-19）基因组数据来估计疫情的流传速度和方式。 一旦收集到新的病毒数据，我们将陆续更新该状况报告。请用桌面浏览器游览该网站."
+abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（COVID-19）基因组数据来估计疫情的流传速度和方式. 一旦收集到新的病毒数据，我们将陆续更新该状况报告. 请用桌面浏览器游览该网站."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -24,10 +24,10 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 
 我们发现:
-* COVID-19至少两次被引入意大利，随后在社区传播. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* 这包括来自6个不同国家的一组序列，这些国家的病例似乎是来自意大利. ([链接]](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* 基因序列数据支持自1月中旬以来COVID-19在大西雅图地区未被检测到、持续传播的假设. ([链接]](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* 这项分析中包括的所有测序病例可能在2019年11月中旬至12月中旬之间的某个时间有共同的祖先. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* COVID-19至少两次被引入意大利，随后在社区传播. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7))
+* 这包括来自6个不同国家的一组序列，这些国家的病例应该是输出自意大利的病例. ([链接]](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9))
+* 基因序列数据支持自1月中旬以来COVID-19在大西雅图地区未被检测到从而进一步传播的假设. ([链接]](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10))
+* 这项分析中包括的所有测序病例可能有一个在2019年11月中旬至12月中旬之间的某个时间出现的共同祖先. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11))
 
 ```
 
@@ -39,7 +39,7 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 ### 更多资料:
 
-* 维基百科上NCoV爆发综述 [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* 维基百科上NCoV爆发的总结 [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
 * 由美国疾控中心提供的材料 [CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
@@ -48,14 +48,14 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 ## COVID-19 资源
 
 下面，我们准备了一些值得一读的资源(英文)，让您熟悉COVID-19和导致它的病毒-SARS-CoV-2.
-这些信息将使我们更容易解释我们在这篇叙述中呈现的数据.
+了解这些信息后，能使您更容易理解我们在这篇叙述中呈现的数据.
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景 </a>
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近COVID-19爆发的背景 </a>
 
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 如何解读进化树</a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 如何解读进化树 </a>
 
 </div>
 
@@ -64,8 +64,8 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 以下页面包含使用[NextSstraint](https://nextstrain.org)执行的分析.
 滚动左侧侧栏将显示文本段落，并在右侧显示相应的基因组数据可视化图.
 
-这么快就发现一种新的大型RNA病毒的全基因组是一项了不起的成就.
-这些分析是由世界各地的科学家快速和开放地共享基因组数据和解释而实现的(参见最后一张幻灯片，查看测序作者的可视化图).
+这么快就获得一种新的大型RNA病毒的全基因组是一项了不起的成就.
+而这些分析是由世界各地的科学家快速和开放地共享基因组数据和解释而实现的(参见最后一张幻灯片，查看测序作者的可视化图).
 
 
 ```
@@ -94,7 +94,7 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 ### 常见问题
 
 我们知道很多人对COVID-19有疑问.
-我们建立了一个指南来尝试回答一些最常被问到的问题. [链接](https://nextstrain.org/help/coronavirus/FAQ):
+我们建立了一个指南来回答一些最常被问到的问题. [链接](https://nextstrain.org/help/coronavirus/FAQ):
 
 <div>
 
@@ -105,10 +105,10 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 ### 误区
 
-有许多关于这种新型冠状病毒起源的误区流传开来.
+当下流行着许多关于新型冠状病毒起源的谣言.
 在像这样的疫情爆发期间，不正确信息的传播可能会导致更多的恐慌，并导致人们不信任科学家和政府，这意味着他们不太可能遵循建议并采取适当的预防措施.
 
-科学家们在下面的文章中了解释了为什么这些观点是不正确的. (英文):
+科学家们在下面的文章中了解释了为什么这些观点是不正确的(英文):
 
 <div>
 
@@ -127,17 +127,17 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 <!-- This is left-side text -->
 # [进化树分析](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-我们在这里阐述169</tag>株SARS-CoV-2 (引发COVID-19的病毒)的进化树, 这些毒株已经公开分享.
+我们在这里阐述169</tag>株SARS-CoV-2 (引发COVID-19的病毒)的进化树, 这些毒株序列已经公开分享.
 分析的过程可在 [此GitHub Repo找到](https://github.com/nextstrain/ncov).
 
 <br>
 
-颜色表示国内区域或美国各州的状态，x轴表示样本日期.
-y轴显示序列如何连接，并且没有任何测量单位.
+颜色表示各个国家内地区或美国各州的状态，x轴则表示样本日期.
+y轴显示的是序列之间有怎样的关系，但请注意它没有测量单位.
 
 <br>
 
-样本日期很有用，但它们并不总是准确地显示两个序列在基因上是如何相关的-两个完全相同的序列可能具有不同的样本日期，因此在此图中看起来相距很远.
+样本日期信息很有用，但它们并不总是准确地显示两个序列在基因上是如何相关的-两个完全相同的序列可能具有不同的样本日期，因此在此图中会看起来相距很远.
 
 <!-- There is NO right-side text -->
 
@@ -145,30 +145,30 @@ y轴显示序列如何连接，并且没有任何测量单位.
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [进化树上的“分叉”](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
+# [进化树上的“差异程度”](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-可以更改视图，使x轴显示“分叉”.
-
-<br>
-
-注意有多少以前看起来不同的序列现在垂直地排成一条线.
-您可以在上一张幻灯片和这张幻灯片之间上下滚动，以查看树是如何变化的.
+您可以从“时间”（Time）视图模式转换成“差异程度”（Divergence）视图模式，使x轴按“差异程度”显示.
 
 <br>
 
-分叉是用基因组中变化(突变)的数量来衡量的.
-有些序列可能有零突变--这意味着它们都与树的根(中心)完全相同。
+请注意有多少以前看起来不同的序列现在排在一条竖直线上.
+您可以通过上下滚动在上一张幻灯片和这张幻灯片之间切换，以查看进化树是如何变化的.
+
+<br>
+
+遗传差异程度是用基因组中变化(突变)的数量来衡量的.
+有些序列可能有零突变--这意味着它们都与树的根(中心)完全相同.
 其他病毒有1到11个突变.
 
 <br>
 
-在不断演变的暴发情况下，对一种新的大型RNA病毒的基因组进行测序是具有挑战性的.
+在不断变化的流行病爆发情况下，对一种新的大型RNA病毒的基因组进行测序是具有挑战性的.
 在这些序列中观察到的一些差异可能是测序错误，而不是实际的突变.
 基因组末端的插入、缺失和差异更有可能是错误的，所以为了分析的目的，我们屏蔽了这些.
 
 <br>
 
-有时我们会在“时间”视图中显示树，有时在“分叉”视图中显示树，这取决于我们要突出显示的内容.
+有时我们会在“时间”视图中显示树，有时在“差异程度”视图中显示树，这取决于我们要突出显示的内容.
 
 <!-- There is NO right-side text -->
 
@@ -179,12 +179,12 @@ y轴显示序列如何连接，并且没有任何测量单位.
 # [进化树解释](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 我们目前有来自五个不同大陆的样本的序列.
-虽然早期的病例都与武汉的病例直接相关，与海产品市场爆发有关，但我们现在观察到各种不同的病例，这些病例表明有社区传播的证据，或者是从中国以外的来源输入的.
+虽然早期的病例都与武汉的病例直接相关，与华南野生市场有着密切联系，但以我们现在观察到各种不同的病例，这些病例表明已有本地社区传播的征兆，或者是从中国以外的国家通过旅行者输入的.
 
 <br>
 
-通常，从动物集中地重复引入将显示出显著的多样性(拉萨病毒、埃博拉病毒、MERS冠状病毒和禽流感都是如此).
-观察到如此强烈的人类感染聚集性可以用一次暴发来解释，该暴发源于单一的人畜共患病传入人口事件，随后是人与人之间的流行病传播.
+通常，从动物身上集中地反复感染人类的情况下，病毒基因组将显示出显著的核酸碱基多样性(拉萨病毒、埃博拉病毒、MERS冠状病毒和禽流感都是如此).
+观察到如此显著的人类来源样本的基因簇，可以用一次爆发模型来解释，即该爆发源于单一的人畜共患病传入人口事件，随后才是人与人之间的流行病传播.
 
 <!-- There is NO right-side text -->
 
