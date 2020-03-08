@@ -23,10 +23,10 @@ Gebruik makende van 169</tag> publiekelijk gedeelde COVID-19 genomen, hebben we 
 
 
 Wat we vinden:
-* COVID-19 is minimaal twee keer geïntroduceerd in Italië, om vervolgens binnen de gemeenschap te verspreiden. ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=7)).
-* Dit bevat een cluster van sequenties uit 6 verschillende landen waar besmettingen geëxporteerd lijken vanuit Italië ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=9)).
-* Genetische sequentiedata ondersteunt de hypothese van onopgemerkte, constante verspreiding van COVID-19 in en rond Seattle sinds medio januari. ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=10)).
-* Alle sequenties in deze analyse delen een gemeenschappelijke voorouder, ergens tussen medio november en medio december 2019.  ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=11)).
+* COVID-19 is minimaal twee keer geïntroduceerd in Italië, om vervolgens binnen de gemeenschap te verspreiden. ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-05?n=7)).
+* Dit bevat een cluster van sequenties uit 6 verschillende landen waar besmettingen geëxporteerd lijken vanuit Italië ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-05?n=9)).
+* Genetische sequentiedata ondersteunt de hypothese van onopgemerkte, constante verspreiding van COVID-19 in en rond Seattle sinds medio januari. ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-05?n=10)).
+* Alle sequenties in deze analyse delen een gemeenschappelijke voorouder, ergens tussen medio november en medio december 2019.  ([ga hier naartoe](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-05?n=11)).
 
 ```
 
