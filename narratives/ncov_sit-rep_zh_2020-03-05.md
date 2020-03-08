@@ -25,8 +25,8 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 我们发现:
 * COVID-19至少两次被引入意大利，随后在社区传播. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7))
-* 这包括来自6个不同国家的一组序列，这些国家的病例应该是输出自意大利的病例. ([链接]](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9))
-* 基因序列数据支持自1月中旬以来COVID-19在大西雅图地区未被检测到从而进一步传播的假设. ([链接]](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10))
+* 这包括来自6个不同国家的一组序列，这些国家的病例应该是输出自意大利的病例. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9))
+* 基因序列数据支持自1月中旬以来COVID-19在大西雅图地区未被检测到从而进一步传播的假设. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10))
 * 这项分析中包括的所有测序病例可能有一个在2019年11月中旬至12月中旬之间的某个时间出现的共同祖先. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11))
 
 ```
@@ -61,7 +61,7 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 ## Nextstrain 叙述
 
-以下页面包含使用[NextSstraint](https://nextstrain.org)执行的分析.
+以下页面包含使用[Nextstrain](https://nextstrain.org)执行的分析.
 滚动左侧侧栏将显示文本段落，并在右侧显示相应的基因组数据可视化图.
 
 这么快就获得一种新的大型RNA病毒的全基因组是一项了不起的成就.
@@ -267,7 +267,7 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 
 <br>
 
-特雷弗·贝德福德(Nextstraint的联合创始人)就这些可能性写了一篇很棒的博客文章，你可以在这里读到 [链接 (英文)](https://bedford.io/blog/ncov-cryptic-transmission/).
+特雷弗·贝德福德(Nextstrain的联合创始人)就这些可能性写了一篇很棒的博客文章，你可以在这里读到 [链接 (英文)](https://bedford.io/blog/ncov-cryptic-transmission/).
 
 <br>
 
@@ -322,7 +322,7 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 
 <br>
 
-我们也感谢[GISAID](https://gisaid.org))提供了上传和共享这些数据的平台.
+我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
