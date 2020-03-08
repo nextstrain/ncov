@@ -25,7 +25,7 @@ echo "Normalizing GISAID file $GISAID_SARSCOV2_IN to $GISAID_SARSCOV2_OUT (min l
 # Eliminate duplicate sequences (keep only the first seen)
 
 #cat $GISAID_SARSCOV2_IN | 
-	sed 's/^>BetaCoV\//>/gi' $GISAID_SARSCOV2_IN |	# remove leading BetaCo[vV]
+	sed 's/^>hCoV-19\//>/gi' $GISAID_SARSCOV2_IN |	# remove leading BetaCo[vV]
 	sed 's/ //g' |					# remove embedded spaces
 	sed 's/|.*$//' | 				# remove trailing metadata
 	awk "BEGIN{RS=\">\";FS=\"\n\"}length>$MIN_LENGTH{print \">\"\$0}" |	# remove short seqs
