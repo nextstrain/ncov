@@ -150,7 +150,7 @@ Il est possible de changer la représentation graphique pour que l'axe des 'x' r
 
 <br>
 
-Vous pouvez remarquer combien de séquences qui avaient l'air différentes avant sont maintenant sur une meme ligne verticale. 
+Vous pouvez remarquer combien de séquences, qui avaient l'air différentes avant, sont maintenant sur une meme ligne verticale. 
 En faisant défiler la diapositive précédente et celle-ci, vous pouvez observer comment l'arbre change.
 
 <br>
@@ -191,15 +191,15 @@ L'observation d'une forte concentration d'infections humaines peut s'expliquer p
 <!-- This is left-side text -->
 # [Au moins deux introductions en Italie avec potentiellement de la diffusion au sein de la communauté](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-Nous avons actuellement 3 séquences en provenance d'Italie, dont deux de la région de Rome et une de Lombardie située dans le nord de l'Italie.
+Nous avons actuellement 3 séquences en provenance d'Italie, dont deux de la région de Rome et une de Lombardie (située dans le nord de l'Italie).
 
 <br>
 
-Ces trois séquences ont un ancêtre commun au début de l'épidémie (près de la base de l'arbre, à gauche), ce qui suggère fortement qu'il y a eu au moins deux introductions séparées en Italie avec ensuite avec de la diffusion dans la communauté.
+Ces trois séquences ont un ancêtre commun au début de l'épidémie (près de la base de l'arbre, à gauche), ce qui suggère fortement qu'il y a eu au moins deux introductions séparées en Italie avec ensuite avec de la diffusion intra-communautaire.
 
 <br>
 
-L'article du Dr Nuno Faria et al. donne une excellente explication [ici (en anglais)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) de comment les séquences brésiliennes et d'autres séquences observées au niveau mondial montrent que "l'épidémie en Italie du Nord est probablement le résultat de plusieurs introductions dans la région et non d'une source unique".
+L'article du Dr Nuno Faria et al. donne une excellente explication [ici (en anglais)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) de pourquoi les séquences brésiliennes et d'autres séquences observées au niveau mondial montrent que "l'épidémie en Italie du Nord est probablement le résultat de plusieurs introductions dans la région et non d'une source unique".
 
 
 
