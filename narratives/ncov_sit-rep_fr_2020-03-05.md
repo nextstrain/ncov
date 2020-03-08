@@ -24,10 +24,10 @@ Nous avons examiné la diversité génétique de 169</tag> génomes rendus publi
 
 
 Principaux résultats:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* * COVID-19 a été introduit en Italie au moins deux fois, suivi par une diffusion communautaire ([aller à ceci] (https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
+* Cela comprend un groupe de séquences de 6 pays différents dont les cas semblent avoir été exportés d'Italie ([aller à ceci](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
+* Les données sur les séquences génétiques soutiennent l'hypothèse d'une propagation non détectée et durable de COVID-19 dans la grande région de Seattle depuis mi-janvier ([aller à ceci](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Tous les cas séquencés inclus dans cette analyse partagent vraisemblablement un ancêtre commun entre mi-novembre et mi-décembre 2019. ([aller à ceci](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -35,37 +35,38 @@ Principaux résultats:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
+# [Coronavirus](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### Pour en savoir plus :
 
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* Résumé de l'épidémie nCov sur [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* Matériel fourni par le [CDC américain](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 Resources
+## Ressources sur COVID-19
 
-Below, we've prepared some resources (currently in English) that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier.
+Ci-dessous, nous avons préparé quelques ressources (actuellement en anglais) qui valent la peine d'être lues pour vous familiariser avec COVID-19 et le virus qui la provoque, SARS-CoV-2.
+Ces informations faciliteront l'interprétation des données que nous présentons dans ce récit.
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="image de microscopie de coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Notions sur les Coronavirus </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration d'un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Contexte récent de l'émergence de COVID-19 </a>
 
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies </a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="Schéma d'un arbre phylogénétique" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Comment lire les phylogénies </a>
 
 </div>
 
-## Nextstrain narratives
+## Récits Nextstrain
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
+Les pages suivantes contiennent des analyses effectuées à l'aide de [Nextstrain](https://nextstrain.org).
+En faisant défiler la barre latérale gauche, vous découvrirez des paragraphes de texte avec une visualisation correspondante des données génomiques sur le côté droit.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+Avoir des génomes complets d'un nouveau et gros virus à ARN si rapidement est une réalisation remarquable.
+Ces analyses ont été rendues possibles par le partage rapide et ouvert de données génomiques et d'interprétations par des scientifiques du monde entier (voir la diapositive finale pour une visualisation des crédits du séquençage).
 
 
 ```
