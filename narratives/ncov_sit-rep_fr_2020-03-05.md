@@ -48,7 +48,7 @@ Principaux résultats :
 ## Ressources sur COVID-19
 
 Ci-dessous, nous avons préparé quelques ressources (en anglais) pour vous familiariser avec COVID-19 et le virus qui le provoque, SARS-CoV-2.
-Ces informations faciliteront l'interprétation des données que nous présentons parla suite.
+Ces informations faciliteront l'interprétation des données que nous présentons par la suite.
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="image de microscopie des coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -150,14 +150,14 @@ Il est possible de changer la représentation graphique pour que l'axe des 'x' r
 
 <br>
 
-Vous pouvez remarquer combien de séquences qui avaient l'air différentes avant sont maintenant sur une ligne verticale. 
-En faisant défiler la diapo précédente et celle-ci, vous pouvez observer comment l'arbre change.
+Vous pouvez remarquer combien de séquences qui avaient l'air différentes avant sont maintenant sur une meme ligne verticale. 
+En faisant défiler la diapositive précédente et celle-ci, vous pouvez observer comment l'arbre change.
 
 <br>
 
 La divergence correspond au nombre de changements (mutations) dans le génome. 
 Certaines séquences peuvent ne pas avoir de mutations, ce qui veut dire qu'elles sont toutes identiques à la racine (centre) de l'arbre.
-Certains virus peuvent avoir entre une et onze mutations.
+Certains virus peuvent avoir des séquences qui portent de une à onze mutations.
 
 <br>
 
@@ -165,7 +165,7 @@ Le séquençage du génome d'un nouveau et grand virus à ARN dans une situation
 
 <br>
 
-En fonction ce que nous cherchons a montré, nous représenterons l'arbre en utilisant parfois le temps sur l'axe de 'x' ou parfois la divergence nucléotidique. 
+En fonction ce que nous cherchons a montrer, nous représenterons l'arbre en utilisant parfois le temps sur l'axe de 'x' ou parfois la divergence nucléotidique. 
 
 <!-- There is NO right-side text -->
 
