@@ -22,10 +22,10 @@ abstract: "Dieser Bericht verwendet öffentlich zugängliche Genome des neuartig
 Wir haben 169</tag> öffentlich zugängliche Genome des neuartigen Coronavirus (nCoV) untersucht, um auf das Datum des gemeinsamen Vorfahren und die Verbreitungsrate zurückzuschliessen.
 
 Wir finden:
-* COVID-19 wurde mindestens zwei mal nach Italien eingeführt und vermutlich lokal verbreitet ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* Einer dieser lokalen Cluster beinhalted Sequenzen von 6 verschieden Ländern welche direkt aus Italien exportiert zu sein scheinen ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetische Sequenzen stützen die Hypothese, dass COVID-19 seit Mitte Januar in der Region um Seattle präsent ist. ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Alle Sequenzen in dieser Analyse haben einen geminsame Vorfahren irgendwann zwischen Mitte November und Mitte Dezember ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* COVID-19 wurde mindestens zwei mal nach Italien eingeführt und vermutlich lokal verbreitet ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-05?n=7)).
+* Einer dieser lokalen Cluster beinhalted Sequenzen von 6 verschieden Ländern welche direkt aus Italien exportiert zu sein scheinen ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-05?n=9)).
+* Genetische Sequenzen stützen die Hypothese, dass COVID-19 seit Mitte Januar in der Region um Seattle präsent ist. ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-05?n=10)).
+* Alle Sequenzen in dieser Analyse haben einen geminsame Vorfahren irgendwann zwischen Mitte November und Mitte Dezember ([siehe hier](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-05?n=11)).
 
 ```
 
@@ -297,10 +297,10 @@ Dies kann die Zeit sein als ein Virus zum ersten Mal auf Menschen übertragen wu
 
 ## Zeit des gemeinsamen Vorfahrens
 
-Mehrere Forschungsgruppen haben die Zeit des letzten geimensame Vorfahren geschätzt, siehe zum Beispiel dieser Eintrag von A. Rambaut (in Englisch)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) oder [dieser Eintrag von T Stadler (in Englisch)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Mehrere Forschungsgruppen haben die Zeit des letzten geimensame Vorfahren geschätzt, siehe zum Beispiel [dieser Eintrag von A. Rambaut (in Englisch)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) oder [dieser Eintrag von T Stadler (in Englisch)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
 Der letzte gemeinsame Vorfahre aller Sequenzen war sehr wahrscheindlich zwischen Mitte November und Mitte Dezember.
-Dies wäre mit der Hypothese kompatibel, dass alle bis jetzt sequenzierten Fälle auf eine ursprüngliche Verbreitung in einem [Meeresfrüchte Markt in Wuhan zurückzuführen sind]http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+Dies wäre mit der Hypothese kompatibel, dass alle bis jetzt sequenzierten Fälle auf eine ursprüngliche Verbreitung in einem [Meeresfrüchte Markt in Wuhan zurückzuführen sind](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 Gewissheit darüber besteht aber nicht.
 
 
