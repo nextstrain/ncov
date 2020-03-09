@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-05.
+title: COVID-19 확산에 대한 유전체 분석. 상황 보고서 2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 March 05"
+date: "2020년 3월 5일"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체 데이터를 사용하여 바이러스 전염병 확산의 비율과 패턴을 추정합니다. 새로운 데이터가 생성되고 공유 될 때 마다 업데이트 된 상황 보고서를 발행 할 계획입니다. 이 웹 사이트는 데스크탑 브라우저에 표시하기에 최적화되어 있습니다."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
