@@ -80,3 +80,10 @@ USA/CruiseA-6/2020
 USA/CruiseA-7/2020
 USA/CruiseA-8/2020
 USA/CruiseA-9/2020
+
+# temporarily excluded until names are fixed
+USA/WA14-UW10/2020
+USA/WA15-UW11/2020
+USA/WA16-UW12/2020
+USA/WA17-UW13/2020
+USA/WA18-UW14/2020
