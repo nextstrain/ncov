@@ -7,8 +7,10 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
 
-    parser.add_argument('--input', type=str, metavar="JSON", required=True, help="input Auspice JSON")
-    parser.add_argument('--output', type=str, metavar="JSON", required=True, help="output Auspice JSON")
+    parser.add_argument('--input', metavar="JSON", required=True,
+                        help="input Auspice JSON")
+    parser.add_argument('--output', metavar="JSON", required=True,
+                        help="output Auspice JSON")
     args = parser.parse_args()
 
     with open(args.input, "r") as f:
@@ -16,7 +18,7 @@ if __name__ == '__main__':
 
     fixed_colorings = []
     for coloring in input_json["meta"]["colorings"]:
-        if coloring['key'] != "genbank_accession" and coloring['key'] != "gisaid_epi_isl":
+        if coloring['key'] not in ("genbank_accession", "gisaid_epi_isl"):
             fixed_colorings.append(coloring)
 
     input_json["meta"]["colorings"] = fixed_colorings
