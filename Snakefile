@@ -70,8 +70,7 @@ rule filter:
 rule align:
     message:
         """
-        Aligning sequences to {input.reference}
-          - filling gaps with N
+        Aligning sequences to {input.reference}. Gaps are considered real.
         """
     input:
         sequences = rules.filter.output.sequences,
@@ -84,7 +83,6 @@ rule align:
             --sequences {input.sequences} \
             --reference-sequence {input.reference} \
             --output {output.alignment} \
-            --fill-gaps \
             --remove-reference
         """
 
@@ -169,7 +167,7 @@ rule refine:
         """
 
 rule ancestral:
-    message: "Reconstructing ancestral sequences and mutations"
+    message: "Reconstructing ancestral sequences and mutations. Not inferring ambiguous mutations"
     input:
         tree = rules.refine.output.tree,
         alignment = rules.mask.output
@@ -184,7 +182,7 @@ rule ancestral:
             --alignment {input.alignment} \
             --output-node-data {output.node_data} \
             --inference {params.inference} \
-            --infer-ambiguous
+            --keep-ambiguous
         """
 
 rule translate:
