@@ -486,3 +486,8 @@ rule clean:
         "auspice"
     shell:
         "rm -rfv {params}"
+
+
+rule flake8:
+    shell:
+        "find scripts -name '*.py' | xargs flake8"
