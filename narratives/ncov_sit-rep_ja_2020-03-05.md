@@ -1,6 +1,6 @@
 ---
 title: 新型コロナウイルス拡散の遺伝的解析. 状況報告 2020-01-23.
-authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
+authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Takeshi Sato, Fengjun Zhang"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 March 05"
@@ -53,7 +53,7 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> コロナウイルスの背景 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近のCOVID-19流行の背景 Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近のCOVID-19流行の背景 </a>
 
   <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 系統発生の読み方 </a>
 
@@ -92,7 +92,7 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 ### FAQ
 
 多くの方々がCOVID-19について疑問を持っているということは承知しています。
-よくある質問について回答を試みるために[こちら](https://nextstrain.org/help/coronavirus/FAQ) にガイドを用意しました
+よくある質問について回答を試みるために[こちら](https://nextstrain.org/help/coronavirus/FAQ)にガイドを用意しました
 
 <div>
 
@@ -106,8 +106,7 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 新型コロナウイルスの由来については多くの誤解が流布されているます。
 このような大きな感染症流行の間は、不適切であるとわかる情報の拡散はより大きなパニックを引き起こし、人々に科学者と政府を不信を抱かせることになり、これは勧告に従ったり、適切な警戒をしなくなるようになることを意味します.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
-次のような見方がなぜ適切でないかを説明しようと、科学者は下記のページで理論について言及しました.
+次のような見方がなぜ適切でないかを説明しようと、科学者は下記のページで理論について言及しました：
 
 <div>
 
@@ -127,7 +126,7 @@ In an effort to try and explain why these views are incorrect, scientists have a
 # [系統発生解析](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 
-ここに示すのが、SARS-CoV-2(COVID-19を引き起こすウイルス)の169</tag>系統の発生解析です
+ここに示すのが、SARS-CoV-2(COVID-19を引き起こすウイルス)の169</tag>系統の発生解析です。
 解析方法の情報にについては[このGitHubリポジトリ](https://github.com/nextstrain/ncov)で閲覧可能です.
 
 <br>
@@ -194,7 +193,7 @@ y軸はどのようにシーケンスがつながるかを表し、計測にお�
 <!-- This is left-side text -->
 # [イタリアへの少なくとも2度の持ち込み, コミュニティでの拡散](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-現時点でイタリアからのシーケンスが3つあり、そのうち2つはRomeから1つは北イタリアのLombardy由来です.
+現時点でイタリアからのシーケンスが3つあり、そのうち2つはローマ(Rome)から1つは北イタリアのロンバルディア(Lombardy)由来です.
 
 <br>
 
@@ -212,7 +211,7 @@ Nuno Faria 博士らは [ここで](http://virological.org/t/first-cases-of-coro
 <!-- This is left-side text -->
 # [イタリア内での検出されていない伝染の可能性](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-Rome(2020/01/29)由来の2つのシーケンスは互いに直接的に結びついていて、どちらの患者の方も中国への渡航歴がありました.
+ローマRome(2020/01/29)由来の2つのシーケンスは互いに直接的に結びついていて、どちらの患者の方も中国への渡航歴がありました.
 
 <br>
 
@@ -221,7 +220,7 @@ Rome(2020/01/29)由来の2つのシーケンスは互いに直接的に結びつ
 
 <br>
 
-しかしながら、ブラジルのシーケンス(SPBR-02)はMilanのLombardyへの渡航歴があり、このクラスタ内でのスイスのシーケンスもイタリアへの渡航歴があったと考えられています.アメリカのサンプルの渡航歴については不明です。The England/09cの1件は中国からの直接的な持ち込みです.
+しかしながら、ブラジルのシーケンス(SPBR-02)はミラノ(Milan)のロンバルディア(Lombardy)への渡航歴があり、このクラスタ内でのスイスのシーケンスもイタリアへの渡航歴があったと考えられています.アメリカのサンプルの渡航歴については不明です。England/09cの1件は中国からの直接的な持ち込みです.
 
 <br>
 (中国からの)イングランドのサンプルは早期のローマからのイタリアのサンプルとイタリアへの渡航が基地のサンプル(スイス、ブラジル)またはその可能性がある(アメリカ)のサンプルの間にあります.これはこれらの早期のイタリアのシーケンスが最近のイタリアに関係するシーケンスと直接結びついていると想定すべきではないということを意味します.最近のサンプルはイタリアに独立して別に持ち込まれた持ち込まれた可能性があります。
@@ -233,9 +232,9 @@ Rome(2020/01/29)由来の2つのシーケンスは互いに直接的に結びつ
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [イタリア, Lombardyから地球規模の拡散](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
+# [イタリア, ロンバルディア(Lombardy)から地球規模への拡散](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-Lombardy (Italy/CDG1/2020)由来のシーケンスはイタリアへの渡航歴があり、そこで感染した可能性が高い既知のシーケンスとクラスタを形成しています: メキシコ、ドイツ、ブラジルそしてフィンランドからのシーケンスです.
+ロンバルディア(Lombardy) (Italy/CDG1/2020)由来のシーケンスはイタリアへの渡航歴があり、そこで感染した可能性が高い既知のシーケンスとクラスタを形成しています: メキシコ、ドイツ、ブラジルそしてフィンランドからのシーケンスです.
 
 <br>
 
@@ -251,15 +250,15 @@ Lombardy (Italy/CDG1/2020)由来のシーケンスはイタリアへの渡航歴
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [SeattleでのSARS-CoV-2拡散の可能性](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [シアトル(Seattle)でのSARS-CoV-2拡散の可能性](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-COVID-19のいくつかの症例がgreater Seattleエリアとアメリカ全域で報告されています.
+COVID-19のいくつかの症例がシアトル大都市圏(greater Seattle area)とアメリカ全域で報告されています.
 新たに分離されシーケンスが行われた症例は、1月半ばに同じ地域で単離されたケースと遺伝的に強く関連します.
 
 <br>
 
 これには2つの説明の可能性があります.
-ウイルスは少なくとも2度greater Seattleエリアに中国の共通の感染源から持ち込まれた可能性があります.
+ウイルスは少なくとも2度シアトル大都市圏(greater Seattle area)に中国の共通の感染源から持ち込まれた可能性があります.
 他方の説明としては、一定期間の間、ウイルスは未検出の状態で伝搬していたというものです.
 
 <br>
@@ -268,7 +267,7 @@ Trevor Bedford(Nextstrainの共同設立者)はこれらの可能性について
 
 <br>
 
-残ったWashingtonのシーケンスからは別なことがわかります: greater Seattleエリア由来のシーケンスとともにクラスタを形成します.
+残ったワシントン(Washington)のシーケンスからは別なことがわかります: シアトル大都市圏(greater Seattle area)由来のシーケンスとともにクラスタを形成します.
 このことはコミュニティでの拡散があること、SARS-CoV-2 ウイルスが当該のエリアですでにある一定の期間伝搬していることを強く示唆します.
 
 <!-- There is NO right-side text -->
@@ -278,7 +277,7 @@ Trevor Bedford(Nextstrainの共同設立者)はこれらの可能性について
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [最近共通祖先時間の推定](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
 シーケンスが行われた症例の集合の、最近共通祖先時間(つまりtMRCA)は、これらのシーケンスされた症例が最後に共通の祖先を持つのがいつかを示します.
 下の図に示すように、この時間はウイルスがヒト社会に初めて侵入した時間と同じ程度であることがありますが、それよりもかなり遅いということもありえます.
