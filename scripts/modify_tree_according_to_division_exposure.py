@@ -53,14 +53,15 @@ def collect_division_exposures(values, node):
 
 def switch_division(node):
     """
-    For a given node, replae "division" with the info in "division_exposure" (removing the latter)
+    For a given node, replace "division" with the info in "division_exposure" (removing the latter)
     """
     division_exposure = node["node_attrs"].get("division_exposure", None)
     division = node["node_attrs"].get("division", None)
     if (division and not division_exposure):
         raise Exception("Where there's division we should always have division_exposure")
-    node["node_attrs"]["division"] = division_exposure
-    del node["node_attrs"]["division_exposure"]
+    if division_exposure:
+      node["node_attrs"]["division"] = division_exposure
+      del node["node_attrs"]["division_exposure"]
 
 def reset_colors(colorings, values_wanted, colors):
     """
