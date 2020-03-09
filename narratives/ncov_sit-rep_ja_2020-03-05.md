@@ -24,10 +24,10 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 
 
 私たちが発見したこととしては、
-* COVID-19はイタリアに少なくとも2度持ち込まれ、それに続きコミュニティで拡散した([ページを見る](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* イタリアから持ち込まれた症例が出現したとされる6つの異なる国由来のシーケンスのクラスターがこれに含まれる([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9))
-* 遺伝子シーケンスのデータは1月中頃からgreater SeattleエリアでCOVID-19の未検出でかつ持続的に拡散しているという仮設を支持する([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10))
-* この解析で用いられたものも含み、シーケンスが行われたすべての症例は、2019年11月中頃から12月中頃までの期間に共通祖先を持つ可能性がある.([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11))
+* COVID-19はイタリアに少なくとも2度持ち込まれ、それに続きコミュニティで拡散した([ページを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=7)).
+* イタリアから持ち込まれた症例が出現したとされる6つの異なる国由来のシーケンスのクラスターがこれに含まれる([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=9))
+* 遺伝子シーケンスのデータは1月中頃からgreater SeattleエリアでCOVID-19の未検出でかつ持続的に拡散しているという仮設を支持する([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=10))
+* この解析で用いられたものも含み、シーケンスが行われたすべての症例は、2019年11月中頃から12月中頃までの期間に共通祖先を持つ可能性がある.([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=11))
 
 ```
 
@@ -296,7 +296,7 @@ Trevor Bedford(Nextstrainの共同設立者)はこれらの可能性について
 いくつかの研究グループや個人が最も近い共通祖先時間を評価しています。[Rambautによるこの投稿](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)か[T Stadlerによるこの投稿](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)を参照してください.
 
 全シーケンスの共通の祖先は11月中頃と12月中頃の間に現れた可能性が最も高いです.
-ことことは、現在のところ[武漢海産食品市場での初期のクラスタ](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420以来、シーケンスされた全症例で一貫しているでしょう.
+ことことは、現在のところ[武漢海産食品市場での初期のクラスタ](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)以来、シーケンスされた全症例で一貫しているでしょう.
 
 
 <div>
