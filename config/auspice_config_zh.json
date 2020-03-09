@@ -69,6 +69,7 @@
   "filters": [
     "location",
     "division",
+    "division_exposure",
     "country",
     "host",
     "author",
