@@ -3,10 +3,10 @@ import argparse
 # Forced colours MUST NOT appear in the ordering TSV
 forced_colors = {
   "division": {
-    "Cruise ship": "#CCCCCC",
+    "Diamond Princess": "#CCCCCC",
   },
   "location": {
-    "Cruise ship": "#CCCCCC",
+    "Diamond Princess": "#CCCCCC",
   }
 }
 

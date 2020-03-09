@@ -36,14 +36,6 @@ Jingzhou/HBCDC-HB-01/2020
 # Far to divergent- 30 mutations
 Wuhan/HBCDC-HB-04/2019
 
-# Confusing phylogeography
-USA/CA7/2020
-USA/IL2/2020
-Singapore/4/2020
-Singapore/7/2020
-Singapore/8/2020
-Sydney/3/2020
-
 # These have more tip-specific divergence than expected
 Beijing/IVDC-BJ-005/2020
 Henan/IVDC-HeN-002/2020
