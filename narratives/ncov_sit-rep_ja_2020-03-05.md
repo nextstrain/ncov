@@ -271,7 +271,7 @@ Trevor Bedford (Nextstrainの共同設立者) はこれらの可能性につい�
 
 ## 感染が流行したウイルスの共通祖先の出現日
 
-いくつかの研究グループや個人が、最も最近の共通の祖先の時間を推定しました [Rambautによるこの投稿](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)か[T Stadlerによるこの投稿](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)を参照してください。
+いくつかの研究グループや個人が、最近の共通の祖先の時間を推定しました [Rambautによるこの投稿](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)か[T Stadlerによるこの投稿](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)を参照してください。
 
 全遺伝系統の共通の祖先は、11 月中頃と 12 月中頃の間に現れた可能性が最も高いです。これは[武漢海産食品市場での初期のクラスタ] (http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) から派生した、現在遺伝子解析されているすべての事例と一致します。
 
