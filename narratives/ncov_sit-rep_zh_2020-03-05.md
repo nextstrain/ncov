@@ -50,7 +50,8 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 我们准备了一些值得一读的材料，让您熟悉 COVID-19 和导致其致病病毒 SARS-CoV-2。以下材料来源于 [Nextstrain](https://nextstrain.org) 网站的英文文档，我们建议您用谷歌翻译或者类似的机器翻译服务辅助浏览。
 了解这些信息后，能使您更容易理解我们在这篇报告中的分析和结论。
-（注：如果您想阅读关于如何解读系统进化树的中文版资料，我们在网上也找到了浅显易懂的[公开文档](http://www.360doc.com/content/17/1226/18/33459258_716501139.shtml)。）
+
+（注：如果您想阅读关于如何解读系统进化树的中文版资料，我们在网上也找到了浅显易懂的[中文公开文档](http://www.360doc.com/content/17/1226/18/33459258_716501139.shtml)。）
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景 </a>
@@ -78,44 +79,48 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 <!-- This is left-side text -->
 # [常见问题和误区](https://nextstrain.org/ncov/2020-03-05)
 
-### 更多资料 (英文):
+### 更多详细资料：
 
-* "不要相信你听到的关于冠状病毒和艾滋病的阴谋论" [文章](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+_以下材料均来自英文网站，我们建议您使用机器翻译服务辅助阅读。_
 
-* "毫无根据的阴谋论声称新的冠状病毒是生物工程制造的" [文章](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "不要相信你听到的关于冠状病毒和艾滋病的阴谋论" [文章链接](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "不，武汉冠状病毒不是经过基因改造植入艾滋病病毒片段的。" [文章](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "毫无根据的阴谋论声称新的冠状病毒是生物工程制造的" [文章链接](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "冠状病毒解密" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "不，武汉冠状病毒不是经过基因改造植入艾滋病病毒片段的。" [文章链接](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+
+* "冠状病毒解密" [文章链接](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 ## 常见问题和误区
 
+_以下材料均来自英文网站，我们建议您使用机器翻译服务辅助阅读。_
+
 ### 常见问题
 
-我们知道很多人对COVID-19有疑问.
-我们建立了一个指南来回答一些最常被问到的问题. [链接](https://nextstrain.org/help/coronavirus/FAQ):
+我们知道很多人对 COVID-19 有疑问，
+我们特地建立了一个指南（英语）来回答一些最常被问到的问题。[FAQ](https://nextstrain.org/help/coronavirus/FAQ):
 
 <div>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 常见问题 (英文) </a>
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 常见问题</a>
 
 </div>
 
 
-### 误区
+### 常见误区
 
-当下流行着许多关于新型冠状病毒起源的谣言.
-在像这样的疫情爆发期间，不正确信息的传播可能会导致更多的恐慌，并导致人们不信任科学家和政府，这意味着他们不太可能遵循建议并采取适当的预防措施.
+目前社会上流行着许多关于新型冠状病毒起源的谣言。
+但在像这样的疫情爆发期间，不正确信息的传播可能会引发更多的恐慌，并导致人们不信任科学家和政府，这意味着人们可能不遵循建议并采取适当的预防措施。
 
-科学家们在下面的文章中了解释了为什么这些观点是不正确的(英文):
+科学家们在下面的文章中了解释了为什么一些观点是不正确的：
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2起源于"蛇" (技术文档) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV基因工程'说法 (推特帖)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2 并不起源于"蛇" (技术文档) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV基因工程'之说错在哪里（推特系列帖）</a>
 
 
 </div>
