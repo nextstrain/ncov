@@ -3,6 +3,8 @@ def get_todays_date():
     date = datetime.today().strftime('%Y-%m-%d')
     return date
 
+configfile: "config/Snakefile.yaml"
+
 rule all:
     input:
         auspice_json = "auspice/ncov.json",
@@ -478,6 +480,25 @@ rule branching_process_R0:
                     --output {output[1]}
         """
 
+rule deploy_to_staging:
+    input:
+        *rules.all.input
+    params:
+        slack_message = json.dumps({"text":"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov>"}),
+        slack_webhook = config["slack_webhook"] or "",
+        s3_staging_url = config["s3_staging_url"]
+    shell:
+        """
+        nextstrain deploy {params.s3_staging_url:q} {input:q}
+
+        if [[ -n "{params.slack_webhook}" ]]; then
+            curl {params.slack_webhook:q} \
+                --header 'Content-type: application/json' \
+                --data-raw {params.slack_message:q} \
+                --fail --silent --show-error \
+                --include
+        fi
+        """
 
 rule clean:
     message: "Removing directories: {params}"
