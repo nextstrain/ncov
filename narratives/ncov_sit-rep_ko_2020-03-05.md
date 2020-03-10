@@ -19,15 +19,12 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 ```auspiceMainDisplayMarkdown
 ## Executive summary
 
-Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+우리는 169</tag>개의 공개된 코로나-19 유전체의 유전적 다양성을 분석하여 각 지역에 퍼져있는 코로나-19의 현황을 파악하고 공통조상의 연원을 계산하였습니다.
 
-
-
-We find:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+밝혀진 사실들:
+* 이탈리아에서는 최소 두 번의 개별적인 코로나-19 유입이 있었으며 각각 모두 지역사회전파로 이어졌습니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7))
+* 이 바이러스 클러스터에는 모두 이탈리아에서 건너온 것으로 보이는 6개 국가의 바이러스 유전체가 포함되어 있습니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* 이 분석에 사용된 모든 바이러스는 11월 중순과 12월 중순 사이에 공통조상을 갖는 것으로 보입니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11))
 
 ```
 
@@ -37,18 +34,17 @@ We find:
 <!-- This is left-side text -->
 # [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### 더 읽을거리:
 
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* [위키피디아](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak)의 코로나 바이러스 유행의 요약 _2020-01-30_
+* [미국 질병관리본부](https://www.cdc.gov/coronavirus/index.html)에서 제공한 자료 _2020-01-29_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 Resources
+## 코로나바이러스감염증-19 관련 자료
 
-Below, we've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier.
+하단에는 여러분이 코로나바이러스감염증-19와 그것을 일으키는 바이러스 SARS-CoV-2를 이해하는데 도움이 될 수 있는 자료를 수록하였습니다.
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -61,11 +57,11 @@ This information will make interpreting the data we present in this narrative ea
 
 ## Nextstrain narratives
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
+이 페이지부터는  [Nextstrain](https://nextstrain.org)을 이용한 분석결과들입니다.
+좌측에 있는 사이드바를 스크롤하면 우측에는 유전체 정보를 이용한 분석의 시각화 자료가 나타나며 그 좌측에는 시각화 자료에 대한 설명이 등장합니다.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+새롭게 등장한 큰 RNA 바이러스의 전장 유전체를 짧은 시간동안에 획득한 것은 큰 성취입니다.
+이 분석들은 세계 각국의 과학자들이 신속하게 제공한 유전체 정보 공개와 분석 덕분에 가능했습니다 (각 유전체를 제공자는 마지막 슬라이드의 시각화에서 확인하실 수 있습니다).
 
 
 ```
@@ -125,20 +121,19 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [계통유전학적 분석](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](https://github.com/nextstrain/ncov).
-
-<br>
-
-The colours represent the within-country region or US-state of isolation, with the x-axis representing the sample date.
-The y-axis shows how the sequences are connected, and does not have any units of measurement.
+이것은 공개된 169</tag> 개의 SARS-CoV-2 (코로나바이러스감염증-19을 일으키는 바이러스) 들의 계통도입니다.
+이 분석이 어떻게 이뤄졌는가에 관한 정보는 [이 GitHub 저장소](https://github.com/nextstrain/ncov)에서 확인하실 수 있습니다.
 
 <br>
 
-Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
+색깔은 각 국가 혹은 미국의 주 별로 주어지며 x-축은 바이러스가 채취된 날짜를 가리킵니다.
+y-축은 각 바이러스의 시퀀스가 어떻게 연결되었는지 보여주며 별도의 단위는 없습니다.
 
+<br>
+
+바이러스가 채취된 날짜는 유용하지만 두 시퀀스가 유전적으로 어떻게 관련됐는지 알려주지는 않습니다 - 동일한 시퀀스를 가진 바이러스가 다른 날짜에 채취됐을 수 있습니다. 따라서 이 그림에서는 서로 멀리 떨어진 것처럼 보입니다.
 <!-- There is NO right-side text -->
 
 
@@ -147,29 +142,27 @@ Sample dates are useful, but they don't always show exactly how two sequences ar
 <!-- This is left-side text -->
 # ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-We can change the view so that the x-axis now shows 'divergence' instead.
+보기 방식을 바꿔 x-축이 '분기'를 나타내도록 할 수 있습니다.
 
 <br>
 
-Notice how many sequences that looked different previously, now sit in a line vertically.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+이전에는 다른 것처럼 보이던 시퀀스들이 같은 수직선상에 놓인 것을 확인할 수 있습니다.
+화면을 이전 슬라이드와 이번 슬라이드를 위 아래로 스크롤하며 번갈아보면 나무의 모양이 어떻게 바뀌는지 볼 수 있습니다.
+<br>
+
+분기는 유전체 상의 변화 (돌연변이) 갯수로 측정됩니다.
+어떤 시퀀스들은 돌연변이가 하나도 없습니다 -- 모두 나무의 뿌리에 있는 시퀀스와 동일하다는 의미입니다.
+다른 바이러스들은 1개에서 11개 사이의 돌연변이를 갖습니다.
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+계속 변화중인 유행에서 새롭게 등장한 큰 RNA 바이러스의 유전체를 시퀀싱하는 것은 어려운 일입니다.
+어떤 변화들은 실제 돌연변이보다는 시퀀스를 얻는 과정에서 발생한 오류일 가능성도 있습니다.
+삽입, 결실, 그리고 유전체 양끝에서 발생한 변화들은 실제 변화보다는 시퀀싱 오류일 가능성이 높기 때문에 이 분석에서는 모두 가렸습니다.
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
-
-<br>
-
-Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' view, depending on what we are trying to highlight.
-
+우리는 강조점에 따라서 나무를 '시간' 보기로 제시하기도 '분기' 보기로 제시하기도 할 것입니다.
 <!-- There is NO right-side text -->
 
 
@@ -178,13 +171,13 @@ Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' vi
 <!-- This is left-side text -->
 # [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-We currently have sequences from samples taken in five different continents.
-While the early cases were all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
+우리는 현재 5개의 다른 대륙에서 채취된 시퀀스를 갖고 있습니다.
+초기에 발견된 것들이 우한 수산시장에서의 유행과 관련있는 반면 이제는 지역사회전파나 중국 외 다른 지역에서 유입된 경우를 관찰할 수 있습니다.
 
 <br>
 
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV, and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
+일반적으로 동물 숙주로부터의 반복적 유입이 있을 경우 높은 수준의 유전적 다양성이 발견됩니다 (이는 라싸열, 에볼라, 메르스 그리고 조류독감에서 일반적으로 발견되는 패턴입니다).
+인간 감염의 경우 바이러스들이 유전적으로 가까운 것을 볼 때 한 번의 인수공통감염이 일어난 후 인간-대-인간 전파를 통해 유행이 일어난 것으로 보입니다.
 
 <!-- There is NO right-side text -->
 
@@ -194,16 +187,14 @@ The observation of such strong clustering of human infections can be explained b
 <!-- This is left-side text -->
 # [At least two introductions into Italy, with possible community spread](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-We currently have 3 sequences from Italy, two of which are from the Rome area and one from Lombardy in northern Italy.
-
+현재 우리는 3개의 이탈리아 시퀀스를 갖고 있습니다.
+두 개는 로마에서 왔으며 하나는 북부 이탈리의 롬바르디아에서 왔습니다.
 <br>
 
-These 3 sequences share a common ancestor early in the epidemic (near the base of the tree, to the left), which strongly suggests that there were at least two introductions with community spread into Italy.
-
+3개의 시퀀스는 유행 초기에 공통조상을 가지는데 (나무뿌리 근처, 왼쪽에) 이는 지역사회전파를 동반한 최소 두 번 이상의 유입이 있었음을 시사합니다.
 <br>
 
-Dr Nuno Faria et al. give an excellent breakdown [here](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
-
+Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)에서 브라질과 세계 다른 지역의 시퀀스가 어떻게 "이탈리아 북부가 한 번이 아닌 복수의 유입에 의해 유행"의 증거가 되는지에 대한 멋진 설명을 제공했습니다.
 
 
 <!-- ############ SLIDE BREAK ############# -->
