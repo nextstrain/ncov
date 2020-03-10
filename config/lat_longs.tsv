@@ -50,6 +50,7 @@ location	Pingxiang	27.632413	113.892981
 location	Qingdao	36.171557	120.398496
 location	Rome	41.881118	12.492817
 location	Rovaniemi	66.501553	25.728919
+location	San Francisco	37.757679	-122.440006
 location	Sao Paulo	-23.551096	-46.634874
 location	Seattle	47.748301	-121.850150
 location	Seoul	37.548278	126.990916
@@ -98,6 +99,7 @@ division	Arizona	34.220707	-111.657462
 division	Auckland	-36.8314	174.7606
 division	Auvergne Rhone Alpes	45.126511	5.480724
 division	Baden-Wuerttemberg	48.712618	9.134030
+division	Basel	47.559198	7.590640
 division	Bavaria	48.1382614	11.5845093
 division	Beijing	40.071320	116.406908
 division	British Columbia	54.010982	-124.745183
@@ -171,6 +173,8 @@ division	Drenthe	52.846963	6.608915
 division	Flevoland	52.488510	5.615829
 division	Tilburg	51.567213	5.047957
 division	Utrecht	52.085320	5.184968
+division	Vaud	46.619469	6.472479
 division	Diamond Princess	35.046935	139.419325
+division	Grand Princess	37.579905	-123.673130
 
 country	Luxembourg	49.755428	6.119486
