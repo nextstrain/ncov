@@ -240,7 +240,7 @@ y 轴显示的是序列之间有怎样的关系，但请注意它没有测量单
 
 <br>
 
-该基因簇中巴西的序列(SPBR-02)，已知有前往伦巴第米兰的旅行历史，报道称该簇中的瑞士病例最近也曾前往意大利。
+该基因簇中巴西的序列（SPBR-02），已知有前往伦巴第米兰的旅行历史，报道称该簇中的瑞士病例最近也曾前往意大利。
 
 我们对同簇中的美国病例的旅行史一无所知，但英国的病例（England/09c）已知是从中国直接输入的。
 
@@ -306,8 +306,8 @@ y 轴显示的是序列之间有怎样的关系，但请注意它没有测量单
 <!-- This is left-side text -->
 # [测定最近共同祖先的时间](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-一组测序案例的最近共同祖先(或tMRCA)的时间表示这些测序案例最后共享共同祖先的时间.
-这一时间可以早于病毒首次进入人类群体的时间，但也可以大大晚于此时间，如下图所示.
+一群个体序列的最近共同祖先时间（即tMRCA）能够提示这些个体共同的祖先株最近在何时出现。
+如下图所示，这一时间可以早于病毒首次进入人类群体的时间，但也可以大大晚于此时间。
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -319,10 +319,10 @@ y 轴显示的是序列之间有怎样的关系，但请注意它没有测量单
 
 ## 爆发病毒共同祖先的日期
 
-数个研究小组估算了最近共同祖先的时间 - 查看 [A Rambaut的文章 (英文)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的文章 (英文)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+数个研究小组估算了最近共同祖先时间，您可以查看 [A Rambaut的报告 (英文)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的报告 (英文)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)。
 
-所有序列的共同祖先最有可能出现在11月中旬至12月中旬之间.
-这与目前所有测序是从[武汉华南海鲜市场获得的最初病例群](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)衍生下来的说法一致.
+所有序列的共同祖先最有可能出现在11月中旬至12月中旬之间。
+这个时间点，与目前所有已测序的病毒个体，是从由武汉华南海鲜市场序列构成的最初基因簇中的，病毒群体衍生下来的说法一致[点击此处查看专业论坛的讨论帖](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)。
 
 
 <div>
