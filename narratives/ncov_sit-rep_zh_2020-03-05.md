@@ -68,7 +68,7 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 滚动左侧侧栏将显示文本段落的同时，在右侧会显示相应的基因组数据可视化图。
 
 在疫情正在爆发的当下，这么迅速就获得新发现的大型RNA病毒的全基因组是一项了不起的成就。
-而这些成果是由世界各地的科学家，快速公开共享基因组数据和分析而实现的(您可阅读本报告最后一页，我们列出了详细的序列提供单位)。
+而这些成果是由世界各地的科学家，快速公开共享基因组数据和分析而实现的（您可阅读本报告最后一页，我们列出了详细的序列提供单位）。
 
 
 ```
@@ -101,7 +101,7 @@ _以下材料均来自英文网站，我们建议您使用机器翻译服务辅�
 ### 常见问题
 
 我们知道很多人对 COVID-19 有疑问，
-我们特地建立了一个指南（英语）来回答一些最常被问到的问题。[FAQ](https://nextstrain.org/help/coronavirus/FAQ):
+我们特地建立了一个指南来回答一些最常被问到的问题。[FAQ](https://nextstrain.org/help/coronavirus/FAQ):
 
 <div>
 
@@ -119,7 +119,7 @@ _以下材料均来自英文网站，我们建议您使用机器翻译服务辅�
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2 并不起源于"蛇" (技术文档) </a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2 并不起源于"蛇"（专业论坛帖）</a>
   <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV基因工程'之说错在哪里（推特系列帖）</a>
 
 
@@ -132,19 +132,22 @@ _以下材料均来自英文网站，我们建议您使用机器翻译服务辅�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [进化树分析](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [系统进化树分析](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-我们在这里阐述169</tag>株SARS-CoV-2 (引发COVID-19的病毒)的进化树, 这些毒株序列已经公开分享.
-分析的过程可在 [此GitHub Repo找到](https://github.com/nextstrain/ncov).
-
-<br>
-
-颜色表示各个国家内地区或美国各州的状态，x轴则表示样本日期.
-y轴显示的是序列之间有怎样的关系，但请注意它没有测量单位.
+我们在这里给出了由 169</tag> 株 SARS-CoV-2（即 COVID-19 致病病毒）病毒个体的公开序列构成的系统进化树。
+分析的方法可在 [此GitHub仓库中找到](https://github.com/nextstrain/ncov)。
 
 <br>
 
-样本日期信息很有用，但它们并不总是准确地显示两个序列在基因上是如何相关的-两个完全相同的序列可能具有不同的样本日期，因此在此图中会看起来相距很远.
+颜色表示各个国家内地区或美国各州的状态，x 轴则表示样本日期。
+
+y 轴显示的是序列之间有怎样的关系，但请注意它没有测量单位。
+
+<br>
+
+样本日期信息虽然很有用，但它们并不总是准确地显示两个序列在基因上是如何相关的。
+
+两个完全相同的序列可能具有不同的样本日期，因而在此图中，它们会看起来相距甚远。
 
 <!-- There is NO right-side text -->
 
