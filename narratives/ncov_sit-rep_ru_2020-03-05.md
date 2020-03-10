@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-05.
+title: Геномный анализ распространения COVID-19. Ситуационный отчет 2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 March 05"
+date: "5 Марта 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: Для оценки скорости и моделей распространения вирусной эпидемии в этом отчете используются общедоступные геномные данные COVID-19 полученные от GISAID и Genbank. Мы планируем выпускать обновленные отчеты по мере появления и обработки новых общедоступных данных. Этот сайт оптимизирован для отображения в настольных браузерах.
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,21 +13,19 @@ abstract: "This report uses publicly shared COVID-19 genomic data from GISAID an
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Executive summary](https://nextstrain.org/ncov/2020-03-05)
+# [Краткое изложение](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Краткое изложение
 
-Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
+Используя 169</tag> общедоступных генома, мы провели анализ генетического разнообразия COVID-19 для того, чтобы охарактеризовать его распространение в разных регионах и установить примерный возраст общего предка.
 
-
-
-We find:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+Мы обнаружили следущее:
+* COVID-19 был привезен в Италию по крайней мере дважды с последующим распространением в общинах ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
+* Это включает в себя группу цепочек в 6 разных странах где случаи вируса предположительно были ввезены из Италии ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
+* Данные генетической последовательности поддерживают гипотезу о невыявленном, медленном распространении COVID-19 в районе Сиэтла (the greater Seattle area) с середины Января ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Все секвенированные образцы вируса в этом анализе вероятно произошли от общего предка в промежутке между серединой Ноября и серединой Декября 2019 ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
