@@ -259,7 +259,7 @@ Trevor Bedford (Nextstrainの共同設立者) はこれらの可能性につい�
 <!-- This is left-side text -->
 # [最近共通祖先時間の推定](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-系統解析が行われた症例集合の、最新の共通祖先 (または tMRCA) の時間は、これらの系統解析された症例が、最後に共通の祖先を持ったのがいつかを示します。下の図に示すように、この時間は、ウイルスが最初に人間の集団に侵入したときと同じくらい早い場合もありますが、下の図に示すように、かなり遅い場合もあります。
+遺伝子の配列解析が行われた症例の集合の、最新の共通祖先 (つまり tMRCA) の時間は、これらの配列解析された症例が、最後に共通の祖先を持ったのがいつかを示します。下の図に示すように、この時間は、ウイルスが最初に人間の集団に侵入したときと同じくらい早い場合もありますが、下の図に示すように、かなり遅い場合もあります。
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
