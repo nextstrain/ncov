@@ -317,9 +317,9 @@ y 轴显示的是序列之间有怎样的关系，但请注意它没有测量单
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## 爆发病毒共同祖先的日期
+## 病毒的最近共同祖先时间
 
-数个研究小组估算了最近共同祖先时间，您可以查看 [A Rambaut的报告 (英文)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的报告 (英文)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)。
+数个研究小组估算了最近共同祖先时间，您可以查看 [A Rambaut的报告（英文）](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的报告（英文）](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)。
 
 所有序列的共同祖先最有可能出现在11月中旬至12月中旬之间。
 这个时间点，与目前所有已测序的病毒个体，是从由武汉华南海鲜市场序列构成的最初基因簇中的，病毒群体衍生下来的说法一致[点击此处查看专业论坛的讨论帖](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)。
@@ -340,12 +340,12 @@ y 轴显示的是序列之间有怎样的关系，但请注意它没有测量单
 <!-- This is left-side text -->
 # [科学贡献人员](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家.
-只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析.
+我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家。
+只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析。
 
 <br>
 
-我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台.
+我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台。
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
@@ -440,12 +440,11 @@ y 轴显示的是序列之间有怎样的关系，但请注意它没有测量单
 <!-- This is left-side text -->
 # [科学贡献详情](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-数据共享于 [GISAID](https://gisaid.org).
-感谢他们的贡献.
+所有基因组数据已被共享至 [GISAID](https://gisaid.org)数据库。感谢各位科学家的慷慨分享。
 
 <br>
 
-在右边，我们给出了每个实验室共享的特定序列.
+在右边，我们列出了每个实验室共享的序列。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
