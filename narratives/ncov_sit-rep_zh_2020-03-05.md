@@ -41,7 +41,6 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 * 维基百科上 COVID-19 疫情的总结 [中文维基](https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E6%83%85) _2020-01-30_
 * 美国疾病预防控制中心提供的材料 [CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-Chinese.html) _2020-01-29_
-* 中国疾病预防控制中心关于[新型冠状病毒肺炎的专题网站](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -50,8 +49,6 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 我们准备了一些值得一读的材料，让您熟悉 COVID-19 和导致其致病病毒 SARS-CoV-2。以下材料来源于 [Nextstrain](https://nextstrain.org) 网站的英文文档，我们建议您用谷歌翻译或者类似的机器翻译服务辅助浏览。
 了解这些信息后，能使您更容易理解我们在这篇报告中的分析和结论。
-
-（注：如果您想阅读关于如何解读系统进化树的中文版资料，我们在网上也找到了浅显易懂的[中文公开文档](http://www.360doc.com/content/17/1226/18/33459258_716501139.shtml)。）
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景 </a>
@@ -161,22 +158,12 @@ y 轴显示的是序列之间有怎样的关系，但请注意它没有测量单
 
 <br>
 
-由于中文没有明确的 Divergence 概念，这里译者提供一些辅助的维基资料帮助您理解系统进化树如何阅读。
-
-网上公开的中文文档：[如何解读系统进化树](http://www.360doc.com/content/17/1226/18/33459258_716501139.shtml)
-
-英文维基：[核酸差异程度](https://en.wikipedia.org/wiki/Genetic_divergence)
-
-中文维基：[数学中的 Divergence 散度](https://zh.wikipedia.org/wiki/%E6%95%A3%E5%BA%A6)
-
-<br>
-
 请注意之前看起来关联性不大的序列，现在可能会排在一条竖直线上。
 您可以通过上下滚动在上一张幻灯片和这张幻灯片之间切换，以查看系统进化树是如何变化的。
 
 <br>
 
-遗传差异程度是用基因组中的核酸变化（[自然突变](https://zh.wikipedia.org/wiki/%E7%AA%81%E5%8F%98)）的数量来衡量的。
+遗传差异程度是用基因组中的核酸变化（自然突变）的数量来衡量的。
 有些序列可能完全没有突变或者没有核酸变化，这意味着它们都与系统进化树根部假定的祖先株序列上一致。
 而其他病毒个体则有1到11个突变。
 
@@ -322,7 +309,7 @@ y 轴显示的是序列之间有怎样的关系，但请注意它没有测量单
 数个研究小组估算了最近共同祖先时间，您可以查看 [A Rambaut的报告（英文）](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的报告（英文）](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)。
 
 所有序列的共同祖先最有可能出现在11月中旬至12月中旬之间。
-这个时间点，与目前所有已测序的病毒个体，是从由武汉华南海鲜市场序列构成的最初基因簇中的，病毒群体衍生下来的说法一致[点击此处查看专业论坛的讨论帖](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)。
+这个时间点，与目前所有已测序的病毒个体，是从由武汉华南海鲜市场序列构成的最初基因簇中的，病毒群体衍生下来的说法一致，[点击此处查看专业论坛的讨论帖](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)。
 
 
 <div>
