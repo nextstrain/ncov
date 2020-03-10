@@ -1,11 +1,11 @@
 ---
-title: 新型冠状病毒（COVID-19）传播基因组分析. 状况报告2020-03-05.
-authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Fengjun Zhang"
+title: 新型冠状病毒（COVID-19）疫情——基因组分析（状况报告2020-03-05）
+authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Derek Zhang, Fengjun Zhang"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020年3月5日"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（COVID-19）基因组数据来估计疫情的流传速度和方式. 一旦收集到新的病毒数据，我们将陆续更新该状况报告. 请用桌面浏览器游览该网站."
+abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（COVID-19）基因组数据来估计疫情的流传速度和方式。一旦收集到新的病毒数据，我们将陆续更新该状况报告。我们建议您使用桌面浏览器游览该网站。"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,21 +13,21 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [执行摘要](https://nextstrain.org/ncov/2020-03-05)
+# [摘要](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## 执行摘要
+## 摘要
 
-通过使用169</tag>个公开共享的COVID-19新型冠状病毒基因组, 我们检查了遗传多样性以推断病毒共同祖先的日期和传播速度.
+通过使用 169</tag> 个公开共享的 COVID-19 新型冠状病毒基因组, 我们分析了各病毒个体的遗传多样性，以推断病毒共同祖先的日期和疫情传播速度。
 
 
 
-我们发现:
-* COVID-19至少两次被引入意大利，随后在社区传播. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=7))
-* 这包括来自6个不同国家的一组序列，这些国家的病例应该是输出自意大利的病例. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=9))
-* 基因序列数据支持自1月中旬以来COVID-19在大西雅图地区未被检测到从而进一步传播的假设. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=10))
-* 这项分析中包括的所有测序病例可能有一个在2019年11月中旬至12月中旬之间的某个时间出现的共同祖先. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=11))
+我们发现：
+* 在意大利，新冠病毒 SARS-CoV-2 发生了至少两次的输入感染事件，并且两次事件都伴随发生了在意大利的本地区内传播。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=7))
+* 来自六个不同国家的序列，按照核酸多样性被分在一个基因簇中，这些国家的病例应该是输出自意大利的病例。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=9))
+* 根据现有的核酸序列数据推测，自一月中旬以来 COVID-19 在大西雅图地区发生了一定程度的本地传播，但没有被检测到。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=10))
+* 这项分析中包括的所有病毒个体核酸序列，可能有一个共同祖先，其出现时间范围在在2019年11月中旬至12月中旬之间。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=11))
 
 ```
 
