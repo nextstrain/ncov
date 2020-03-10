@@ -48,9 +48,9 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 ## COVID-19 的一些其他信息
 
-我们准备了一些值得一读的材料，让您熟悉 COVID-19 和导致其致病病毒 SARS-CoV-2。这些材料来源于 Nextstrain 网站的英文文档，我们建议您用谷歌翻译或者类似的机器翻译服务辅助浏览。
+我们准备了一些值得一读的材料，让您熟悉 COVID-19 和导致其致病病毒 SARS-CoV-2。以下材料来源于 [Nextstrain](https://nextstrain.org) 网站的英文文档，我们建议您用谷歌翻译或者类似的机器翻译服务辅助浏览。
 了解这些信息后，能使您更容易理解我们在这篇报告中的分析和结论。
-如果您想阅读关于如何解读系统进化树的中文版资料，我们在网上也找到了浅显易懂的[公开文档](http://www.360doc.com/content/17/1226/18/33459258_716501139.shtml)。
+（注：如果您想阅读关于如何解读系统进化树的中文版资料，我们在网上也找到了浅显易懂的[公开文档](http://www.360doc.com/content/17/1226/18/33459258_716501139.shtml)。）
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景 </a>
@@ -61,13 +61,13 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 
 </div>
 
-## Nextstrain 叙述
+## Nextstrain 状况描述报告
 
-以下页面包含使用[Nextstrain](https://nextstrain.org)执行的分析.
-滚动左侧侧栏将显示文本段落，并在右侧显示相应的基因组数据可视化图.
+以下页面包含使用 [Nextstrain](https://nextstrain.org) 执行的分析。
+滚动左侧侧栏将显示文本段落的同时，在右侧会显示相应的基因组数据可视化图。
 
-这么快就获得一种新的大型RNA病毒的全基因组是一项了不起的成就.
-而这些分析是由世界各地的科学家快速和开放地共享基因组数据和解释而实现的(参见最后一张幻灯片，查看测序作者的可视化图).
+在疫情正在爆发的当下，这么迅速就获得新发现的大型RNA病毒的全基因组是一项了不起的成就。
+而这些成果是由世界各地的科学家，快速公开共享基因组数据和分析而实现的(您可阅读本报告最后一页，我们列出了详细的序列提供单位)。
 
 
 ```
