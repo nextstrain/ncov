@@ -1,11 +1,11 @@
 ---
-title: 新型冠状病毒（COVID-19）疫情——基因组分析（状况报告2020-03-05）
+title: 新型冠状病毒（COVID-19）流行病学基因组分析（状况报告2020-03-05）
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Derek Zhang, Fengjun Zhang"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020年3月5日"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（COVID-19）基因组数据来估计疫情的流传速度和方式。一旦收集到新的病毒数据，我们将陆续更新该状况报告。我们建议您使用桌面浏览器游览该网站。"
+abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（COVID-19）基因组数据来推算疫情的流传速度和方式。一旦收集到新的病毒数据，我们将陆续更新该状况报告。我们建议您使用桌面浏览器游览该网站。"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,11 +13,11 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [摘要](https://nextstrain.org/ncov/2020-03-05)
+# [报告摘要](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## 摘要
+## 报告摘要
 
 通过使用 169</tag> 个公开共享的 COVID-19 新型冠状病毒基因组, 我们分析了各病毒个体的遗传多样性，以推断病毒共同祖先的日期和疫情传播速度。
 
@@ -26,7 +26,7 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 我们发现：
 * 在意大利，新冠病毒 SARS-CoV-2 发生了至少两次的输入感染事件，并且两次事件都伴随发生了在意大利的本地区内传播。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=7))
 * 来自六个不同国家的序列，按照核酸多样性被分在一个基因簇中，这些国家的病例应该是输出自意大利的病例。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=9))
-* 根据现有的核酸序列数据推测，自一月中旬以来 COVID-19 在大西雅图地区发生了一定程度的本地传播，但没有被检测到。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=10))
+* 根据现有的核酸序列数据可推得，自一月中旬以来 COVID-19 在大西雅图地区发生了一定程度的本地传播，但没有被检测到。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=10))
 * 这项分析中包括的所有病毒个体核酸序列，可能有一个共同祖先，其出现时间范围在在2019年11月中旬至12月中旬之间。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=11))
 
 ```
@@ -35,25 +35,27 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [冠状病毒](https://nextstrain.org/ncov/2020-03-05)
+# [什么是冠状病毒？](https://nextstrain.org/ncov/2020-03-05)
 
 ### 更多资料:
 
-* 维基百科上NCoV爆发的总结 [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* 由美国疾控中心提供的材料 [CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* 维基百科上 COVID-19 疫情的总结 [中文维基](https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E6%83%85) _2020-01-30_
+* 美国疾病预防控制中心提供的材料 [CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-Chinese.html) _2020-01-29_
+* 中国疾病预防控制中心关于[新型冠状病毒肺炎的专题网站](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 资源
+## COVID-19 的一些其他信息
 
-下面，我们准备了一些值得一读的资源(英文)，让您熟悉COVID-19和导致它的病毒-SARS-CoV-2.
-了解这些信息后，能使您更容易理解我们在这篇叙述中呈现的数据.
+我们准备了一些值得一读的材料，让您熟悉 COVID-19 和导致其致病病毒 SARS-CoV-2。这些材料来源于 Nextstrain 网站的英文文档，我们建议您用谷歌翻译或者类似的机器翻译服务辅助浏览。
+了解这些信息后，能使您更容易理解我们在这篇报告中的分析和结论。
+如果您想阅读关于如何解读系统进化树的中文版资料，我们在网上也找到了浅显易懂的[公开文档](http://www.360doc.com/content/17/1226/18/33459258_716501139.shtml)。
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近COVID-19爆发的背景 </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 近期 COVID-19 疫情总结 </a>
 
   <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 如何解读进化树 </a>
 
