@@ -309,7 +309,7 @@ y 轴显示的是序列之间的关系，请注意它没有测量单位。
 数个研究小组已经估算了最近共同祖先时间，您可以查看 [A Rambaut的报告（英文）](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的报告（英文）](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)。
 
 所有序列的共同祖先最有可能出现在11月中旬至12月中旬之间。
-有报告表明，目前所有已测序病毒都来源于武汉华南海鲜市场的聚集性病例 （[点击此处查看专业论坛的讨论帖](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)），而共同祖先时间也与此结果相一致。
+这也支持目前所有已测序病毒都来源于武汉华南海鲜市场的聚集性病例的说法 （[点击此处查看专业论坛的讨论帖](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)）。
 
 
 <div>
