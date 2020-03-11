@@ -303,12 +303,12 @@ Trevor Bedford (Nextstrain의 공동 설립자)는 [여기](https://bedford.io/b
 <!-- This is left-side text -->
 # [기여자들](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+이번 유행에 관여하고 있는 모든, 특히 중국의 과학자들의 멋지고 시의적절한 작업을 언급하고자 합니다.
+이 분석은 유전체 정보 및 메타정보의 신속한 공유가 아니었다면 불가능했을 것입니다. 
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+또한, 이 데이터들이 업로드되고 공유할 수 있는 플랫폼을 제공한 [GISAID](https://gisaid.org)에도 감사의 뜻을 전합니다.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
@@ -401,14 +401,14 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [과학적 기여: 상세](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다.
+우리는 그들의 기여에 감사의 뜻을 전합니다.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+오른쪽에는 각 시퀀스를 제공한 각각의 연구실들이 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
