@@ -5,7 +5,7 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020년 3월 5일"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체 데이터를 사용하여 바이러스 전염병 확산의 비율과 패턴을 추정합니다. 새로운 데이터가 생성되고 공유 될 때 마다 업데이트 된 상황 보고서를 발행 할 계획입니다. 이 웹 사이트는 데스크탑 브라우저에 표시하기에 최적화되어 있습니다."
+abstract: "이 보고서는 GISAID와 Genbank가 공개한 COVID-19 유전체 데이터를 사용해 바이러스 전염병 확산의 비율과 그 패턴을 추정하는데 목적이 있습니다. 또한 새로운 데이터 공개 때마다 갱신된 정보를 반영한 동향 보고서를 발행합니다. 이 웹 사이트는 데스크탑 브라우저에 최적화되어 있습니다."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -19,12 +19,13 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 ```auspiceMainDisplayMarkdown
 ## 개요
 
-우리는 169</tag>개의 공개된 코로나-19 유전체의 유전적 다양성을 분석하여 각 지역에 퍼져있는 코로나-19의 현황을 파악하고 공통조상의 연원을 계산하였습니다.
+저희는 공개된 코로나-19 유전체 169</tag>개의 유전적 다양성을 분석해 각 지역에 퍼진 코로나-19의 현황 및 공통조상을 파악했습니다.
 
-밝혀진 사실들:
-* 이탈리아에서는 최소 두 번의 개별적인 코로나-19 유입이 있었으며 각각 모두 지역사회전파로 이어졌습니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7))
-* 이 바이러스 클러스터에는 모두 이탈리아에서 건너온 것으로 보이는 6개 국가의 바이러스 유전체가 포함되어 있습니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* 이 분석에 사용된 모든 바이러스는 11월 중순과 12월 중순 사이에 공통조상을 갖는 것으로 보입니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11))
+다음을 찾았습니다:
+* 이탈리아에서는 최소 두 번의 개별적인 코로나-19 유입이 있었으며 이는 모두 지역사회전파로 이어졌습니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7))
+* 이 바이러스 군집은 모두 이탈리아에서 건너온 것으로 보이는 6개 국가의 바이러스 유전체를 포함합니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* 유전자 염기서열 자료는 신종코로나바이러스감염증-19가 1월 중순 이후로 시애틀 지역에서 탐지되지 않은 채로 전파되고 있었다는 가설을 지지합니다.
+* 이 분석에 포함된 모든 바이러스는 11월 중순과 12월 중순 사이에 공통조상을 갖는 것으로 보입니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11))
 
 ```
 
@@ -36,7 +37,7 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 
 ### 더 읽을거리:
 
-* [위키피디아](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak)의 코로나 바이러스 유행의 요약 _2020-01-30_
+* [위키피디아](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak)의 코로나 바이러스 유행을 다룬 요약 _2020-01-30_
 * [미국 질병관리본부](https://www.cdc.gov/coronavirus/index.html)에서 제공한 자료 _2020-01-29_
 
 <!-- This is right-side text -->
@@ -47,9 +48,9 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 하단에는 여러분이 코로나바이러스감염증-19와 그것을 일으키는 바이러스 SARS-CoV-2를 이해하는데 도움이 될 수 있는 자료를 수록하였습니다.
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 코로나 바이러스 배경지식 </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 코로나 바이러스 관련 배경지식 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 신종코로나바이러스감염증-19 배경지식 </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 신종코로나바이러스감염증-19 유행 관련 배경지식 </a>
 
   <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 계통도를 읽는 법 </a>
 
@@ -57,10 +58,10 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 
 ## Nextstrain 보고서 
 
-이 페이지부터는  [Nextstrain](https://nextstrain.org)을 이용한 분석결과들입니다.
+이 페이지부터는 [Nextstrain](https://nextstrain.org)을 이용한 분석결과를 포함하고 있습니다.
 좌측에 있는 사이드바를 스크롤하면 우측에는 유전체 정보를 이용한 분석의 시각화 자료가 나타나며 그 좌측에는 시각화 자료에 대한 설명이 등장합니다.
 
-새롭게 등장한 큰 RNA 바이러스의 전장 유전체 (Whole genome) 를 짧은 시간동안에 획득한 것은 큰 성취입니다.
+새롭게 등장한 큰 RNA 바이러스의 전장 유전체 (Whole genome) 를 짧은 시간동안에 모은 것은 큰 성취입니다.
 이 분석들은 세계 각국의 과학자들이 신속하게 제공한 유전체 정보 공개와 분석 덕분에 가능했습니다 (각 유전체의 제공자는 마지막 슬라이드의 시각화에서 확인하실 수 있습니다).
 
 
@@ -74,11 +75,11 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 
 ### Further Reading:
 
-* "코로나 바이러스와 인간후천성면역결핍 바이러스 (HIV)에 대한 음모론을 믿지마세요" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "코로나 바이러스와 인간후천성면역결핍 바이러스 (HIV)에 관한 음모론을 믿지마세요" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "근거가 빈약한 음모론이 신종 코로나 바이러스가 생명공학의 결과물이라고 주장" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "근거가 빈약한 음모론들이 신종 코로나 바이러스가 생명공학의 결과물이라고 주장" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "우한 코로나 바이러스는 HIV의 부품을 인위적으로 삽입한 결과물이 아니다" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "우한 코로나 바이러스는 HIV의 부품을 인위적으로 삽입한 결과물이 아닙니다" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
 * "코로나 바이러스 음모론 파해치기" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
@@ -90,7 +91,7 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 ### 질의응답
 
 많은 분들이 신종코로나바이러스감염증-19에 대한 궁금증을 갖고 있음을 알고 있습니다.
-이 [링크](https://nextstrain.org/help/coronavirus/FAQ)는 자주 있는 질문들 중 일부에 대한 답변을 제공하고 있습니다.
+저희는 이 [링크](https://nextstrain.org/help/coronavirus/FAQ)는 자주 있는 질문들 중 일부에 대한 답변을 제공하려고 했습니다.
 
 <div>
 
@@ -102,14 +103,14 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 ### 오해들
 
 신종 코로나바이러스의 기원에 관한 여러 오해가 있습니다.
-지금과 같은 대규모 유행이 있는 상황에서 이와 같은 오개념은 사람들을 공포에 몰아넣고 과학자와 정부를 향한 사람들의 신뢰를 무너뜨림으로써 전문가들의 적절한 권고를 무시하게끔 합니다.
+지금과 같은 대규모 유행 동안에 이와 같은 오해는 사람들을 공포에 몰아넣고 과학자와 정부를 향한 사람들의 신뢰를 무너뜨림으로써 전문가들의 적절한 권고를 무시하게끔 합니다.
 
-아래 링크들은 과학자들이 이러한 오해를 바로잡으려는 시도에서 쓰인 글들입니다.
+아래 링크들은 과학자들이 이러한 오해를 바로잡으려는 차원에서 쓴 글들입니다.
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2의 '뱀' 기원설 (전문가용) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV 조작' 가설 (트위터 글타래)</a>
 
 
 </div>
@@ -124,16 +125,16 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 # [계통유전학적 분석](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 이것은 공개된 169</tag> 개의 SARS-CoV-2 (코로나바이러스감염증-19을 일으키는 바이러스) 들의 계통도입니다.
-이 분석이 어떻게 이뤄졌는가에 관한 정보는 [이 GitHub 저장소](https://github.com/nextstrain/ncov)에서 확인하실 수 있습니다.
+분석 방법에 관한 정보는 [이 GitHub 저장소](https://github.com/nextstrain/ncov)에서 확인하실 수 있습니다.
 
 <br>
 
-각 가지의 색깔은 각 국가 혹은 미국의 주 별로 주어지며 x-축은 바이러스가 채취된 날짜를 가리킵니다.
+각 가지의 색깔은 각 국가 혹은 미국의 주 별로 주어지며 x-축은 바이러스를 채취된 날짜입니다.
 y-축은 각 바이러스의 시퀀스가 어떻게 연결되었는지 보여주며 별도의 단위는 없습니다.
 
 <br>
 
-바이러스가 채취된 날짜는 유용하지만 두 시퀀스가 유전적으로 어떻게 관련됐는지 알려주지는 않습니다 - 동일한 시퀀스를 가진 바이러스가 다른 날짜에 채취됐을 수 있습니다. 이 경우에는 그림상에서 서로 멀리 떨어진 것처럼 보입니다.
+바이러스를 채취한 날짜는 유용한 정보지만 제한적이어서, 두 바이러스의 유전적 관련성을 알려주지는 않습니다 - 동일한 RNA 염기서열 가진 두 바이러스가 다른 날짜에 채취됐을 수도 있기 때문입니다. 이 경우에는 그림상에서 서로 멀리 떨어진 것처럼 보입니다.
 <!-- There is NO right-side text -->
 
 
@@ -142,28 +143,28 @@ y-축은 각 바이러스의 시퀀스가 어떻게 연결되었는지 보여주
 <!-- This is left-side text -->
 # [가계도에서의 '분기'](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-보기 방식을 바꿔 x-축이 '분기'를 나타내도록 할 수 있습니다.
+시각화 방식을 바꿔 x-축이 '분기'를 나타내도록 했습니다.
 
 <br>
 
 이전에는 다른 위치에 있던 시퀀스들이 같은 수직선상에 놓인 것을 볼 수 있습니다.
-화면을 이전 슬라이드와 이번 슬라이드를 위 아래로 스크롤하며 번갈아보면 나무의 모양이 어떻게 바뀌는지 볼 수 있습니다.
+이전 슬라이드와 이번 슬라이드를 위 아래로 화면을 번갈아가며 스크롤하면 나무 모양의 계통도가 어떻게 바뀌는지 볼 수 있습니다.
 
 <br>
 
-분기는 유전체 상의 변화 (돌연변이) 갯수로 측정됩니다.
+분기는 유전체 상의 변화 (돌연변이) 갯수를 측정한 것입니다.
 어떤 시퀀스들은 돌연변이가 하나도 없습니다 -- 모두 나무의 뿌리에 있는 시퀀스와 동일하다는 의미입니다.
 다른 바이러스들은 1개에서 11개 사이의 돌연변이를 갖습니다.
 
 <br>
 
-계속 변화중인 유행에서 새롭게 등장한 큰 RNA 바이러스의 유전체를 시퀀싱하는 것은 어려운 일입니다.
-염기서열 상의 어떤 차이들은 실제 돌연변이로 인한 차이보다는 시퀀스를 얻는 과정에서 발생한 오류에서 기인했을 가능성도 있습니다.
-삽입 (Insertion), 결실 (Deletion), 그리고 유전체 양끝에서 발생한 변화들은 실제 변화보다는 시퀀싱 오류일 가능성이 높기 때문에 이 분석에서는 모두 가렸습니다.
+바이러스의 유전정보가 계속해서 변하는 상황에서 질병이 유행할 때, 새롭게 등장했을 뿐 아니라 유전정보가 많은 바이러스의 RNA 염기서열을 해독하는 것은 어려운 일입니다.
+해독한 염기서열 상의 어떤 차이들은 실제 돌연변이로 인한 차이일 수도 있지만 RNA 염기서열을 해독하는 과정에서 발생한 기계적 오류에서 기인한 오차일 가능성도 있습니다.
+새로운 염기서열이 추가 (Insertion) 되거나, 기존의 염기서열이 소실 (Deletion) 된 경우, 혹은 해독된 염기서열 양끝에서 나타난 변화들은 실제 RNA 염기서열 상의 변화보다는 RNA 염기서열을 해독하는 과정에서 발생한 기계적 오류일 가능성이 높기 때문에 이 분석에서는 모두 제외됐습니다.
 
 <br>
 
-우리는 강조점에 따라서 나무를 '시간' 보기 모드로 제시하기도 '분기' 보기 모드로 제시하기도 할 것입니다.
+우리는 강조점에 따라서 계통도 나무를 '시간' 보기 모드로 제시하기도 '분기' 보기 모드로 제시하기도 할 것입니다.
 <!-- There is NO right-side text -->
 
 
@@ -172,13 +173,13 @@ y-축은 각 바이러스의 시퀀스가 어떻게 연결되었는지 보여주
 <!-- This is left-side text -->
 # [계통유전학적 해석](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-우리는 현재 5개의 다른 대륙에서 채취된 시퀀스를 갖고 있습니다.
-초기에 발견된 것들이 우한 수산시장에서의 유행과 관련있는 반면 이제는 지역사회전파나 중국 외 다른 지역에서 유입된 경우를 관찰할 수 있습니다.
+우리는 현재 5개의 다른 대륙에서 채취된 바이러스 RNA 염기서열 정보를 갖고 있습니다.
+초기에 발견된 바이러스들은 우한 수산시장에서의 유행과 관련있는 반면 근래의 사례들은 지역사회전파나 중국 외 다른 지역에서 유입된 경우도 있습니다.
 
 <br>
 
-일반적으로 바이러스가 동물 숙주로부터 반복적으로 유입됐을 경우 높은 수준의 유전적 다양성이 발견됩니다 (이는 라싸열, 에볼라, 메르스 그리고 조류독감에서 일반적으로 발견되는 패턴입니다).
-인간에서 유행 중인 코로나 바이러스들은 그림에서처럼 유전적으로 가까운 것을 볼 때 (유전적 다양성이 낮음) 한 번의 인수공통감염이 일어난 후 인간-대-인간 전파를 통해 유행이 일어난 것으로 보입니다.
+일반적으로 바이러스가 인간이 아닌 동물 숙주로부터 여러 번 유입됐을 경우 높은 수준의 유전적 다양성을 갖습니다 (이는 라싸열, 에볼라, 메르스 그리고 조류독감에서 일반적으로 발견되는 패턴입니다).
+인간에서 유행 중인 코로나 바이러스들은 그림에서처럼 유전적으로 가까운 것을 볼 때 (유전적 다양성이 낮음) 동물 숙주에서 인간으로의 전파가 일회적으로 발생한 이후 인간-대-인간 전파를 통해 유행이 일어난 것으로 보입니다.
 
 <!-- There is NO right-side text -->
 
@@ -188,35 +189,35 @@ y-축은 각 바이러스의 시퀀스가 어떻게 연결되었는지 보여주
 <!-- This is left-side text -->
 # [잠재적 지역사회전파를 동반한 최소 두 번 이상의 이탈리아로의 유입](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-현재 우리는 3개의 이탈리아 시퀀스를 갖고 있습니다.
+현재 저희는 이탈리아에서 발견된 3개의 바이러스 RNA 염기서열 정보를 확보했습니다.
 두 개는 로마에서 왔으며 하나는 북부 이탈리의 롬바르디아에서 왔습니다.
 
 <br>
 
-3개의 시퀀스는 유행 초기에 공통조상을 가지는데 (나무뿌리 근처, 그림의 왼쪽) 이는 지역사회전파를 동반한 최소 두 번 이상의 유입이 있었음을 시사합니다.
+이 3개의 바이러스는 유행 초기에 공통조상을 가진 뒤 (계통도 나무의 뿌리 근처, 그림의 왼쪽) 두 개의 가지로 갈라지는데 이는 지역사회전파를 동반한 최소 두 번 이상의 바이러스 유입이 있었음을 시사합니다.
 
 <br>
 
-Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)에서 '이탈리아 북부의 유행이 한 번이 아닌 복수의 유입에 의해 시작됐다'는 주장이 어떻게 브라질과 세계 다른 지역에서 발견된 시퀀스에 의해 뒷받침 되는지 멋지게 설명했습니다.
+Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)에서 '이탈리아 북부의 유행이 한 번이 아닌 복수의 유입에 의해 시작됐다'는 주장이 어떻게 브라질과 세계 다른 지역에서 발견된 시퀀스에 의해 뒷받침 되는지 설명하고 있습니다.
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [이탈리아에서의 탐지되지 않은 전파](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-로마에서 온 두 개의 시퀀스 (2020년 1월 29일) 는 직접적으로 관련되어 있으며 (계통도에서 직접 이어져 있다는 뜻) 모두 중국 여행력이 있습니다.
+로마에서 발견된 두 개의 바이러스 (2020년 1월 29일)는 계통도 상에서 직접적으로 관련돼 있으며 (계통도에서 직접 이어져 있다는 뜻) 모두 중국 여행력이 있습니다.
 
 <br>
 
-'분기' 보기 모드로 바꿨을 때 두 이탈리아 시퀀스가 동일한 것을 볼 수 있으며, (영국, 브라질, 스위스, 미국 그리고 중국에서 온) 나머지 시퀀스들은 이탈리아 시퀀스와 돌연변이 2-4개의 차이를 보입니다.
+'분기' 보기 모드로 바꿔서 보면 두 이탈리아 바이러스의 RNA 염기서열이 동일한 것을 볼 수 있으며, (영국, 브라질, 스위스, 미국 그리고 중국에서 온) 나머지 시퀀스들은 이탈리아 바이러스와 돌연변이 2-4개의 차이를 보입니다.
 
 <br>
 
-그런데 브라질 시퀀스 (SPBR-02)는 최근 롬바르디아에 있는 이탈리아 밀란에 다녀온 여행력을 가지고 있으며 이 클러스터에 있는 스위스 시퀀스 역시 이탈리아 여행력이 있는 것으로 추측됩니다. 현재로써 미국 시퀀스의 여행력에 대해서는 알기 어렵습니다. 영국/09c 시퀀스는 중국에서 직접 유입된 것입니다.
+그런데 브라질에서 발견된 바이러스 (SPBR-02)는 최근 롬바르디아에 있는 이탈리아 밀란에 다녀온 여행력을 가지고 있으며 이 클러스터에 있는 스위스 바이러스 역시 이탈리아 여행력이 있는 것으로 추측됩니다. 현재로써 미국에서 확보된 바이러스의 여행력에 대해서는 알기 어렵습니다. 영국/09c 바이러스는 중국에서 직접 유입된 것입니다.
 
 <br>
 
-(중국에서 온) 영국 시퀀스는 로마의 초기 이탈리아 시퀀스와 이탈리아 여행력이 있는 (스위스, 브라질) 혹은 있는 것으로 추정되는 (미국) 시퀀스 사이에 놓여있습니다. 이로부터 초기 이탈리아 시퀀스와 이탈리아와 연관된 이후의 시퀀스들이 직접적으로 연관되었다는 결론은 성급함을 알 수 있습니다. 이후 시퀀스들은 이탈리아로의 독립적 유입의 결과일 수 있습니다.
+(중국에서 온) 영국 바이러스는 로마에서 초기에 발견된 이탈리아 바이러스와 이탈리아 여행력이 있는 (스위스, 브라질) 혹은 있는 것으로 추정되는 (미국) 바이러스 사이에 놓여있습니다. 이로부터 초기 이탈리아 바이러스와 이탈리아와 관련된 이후에 발견된 바이러스들이 직접적으로 연관되었다는 결론은 성급함을 알 수 있습니다. 이후에 발견된 바이러스들은 각각 독립적으로 이탈리아에 유입된 것일 가능성도 있기 때문입니다.
 
 <!-- There is NO right-side text -->
 
@@ -227,15 +228,15 @@ Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-corona
 <!-- This is left-side text -->
 # [이탈리아 롬바르디아에서 시작한 전세계적 전파](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-롬바르디아 시퀀스 (이탈리아/CDG1/2020)는 이탈리아 여행력이 있는 다른 시퀀스들과 근연관계에 있으며 멕시코, 독일, 브라질과 핀란드의 해당 시퀀스들 역시 이탈리아에서 획득된 것으로 보입니다
+롬바르디아에서 확보된 바이러스 (이탈리아/CDG1/2020)는 이탈리아 여행력이 있는 다른 바이러스들과 근연관계에 있으며 멕시코, 독일, 브라질과 핀란드의 해당 바이러스들 역시 이탈리아에서 넘어온 것으로 보입니다
 
 <br>
 
-독일의 "BavPat1" 시퀀스는 유행이 시작되기 훨씬 전에 중국에서 유입됐습니다. 클러스터 안에 있는 다른 시퀀스와의 유사성으로 볼 때 (단 하나의 돌연변이 차이) 독일에서 시작한 전파가 오랜시간 동안 발견되지 않은 채 유럽에서 진행되고 있었을 가능성을 시사합니다.
+독일의 "BavPat1" 바이러스는 유행이 시작되기 훨씬 전에 중국에서 유입됐습니다. 클러스터 (같은 가지에 안에 포함된 바이러스)안에 있는 다른 바이러스와의 유사성으로 볼 때 (단 하나의 돌연변이 차이) 독일에서 시작한 전파가 오랜시간 동안 발견되지 않은 채 유럽에서 진행되고 있었을 가능성을 시사합니다.
 
 <br>
 
-물론 두 개의 독립된 유입이었을 가능성 역시 존재합니다 - 채취되지 않은 시퀀스가 'BavPat1'과 클러스터의 나머지 시퀀스 사이에 놓여있을 수도 있습니다. 현재로써는 두 가지 가능성 중 하나가 맞다고 보긴 어렵습니다.
+물론 두 개의 독립된 유입이었을 가능성 역시 존재합니다 - 확보하지 못한 바이러스가 'BavPat1'과 우측 그림에 나타난 클러스터의 나머지 바이러스들 사이에 놓여있을 수도 있기 때문입니다. 현재로써는 두 가지 가능성 중 어느 하나가 맞다고 보긴 어렵습니다.
 
 <!-- There is NO right-side text -->
 
@@ -245,23 +246,23 @@ Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-corona
 <!-- This is left-side text -->
 # [시애틀 지역의 잠재적 SARS-CoV-2 전파](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-현재 시애틀 주변 지역과 미국에서 적지 않은 수의 코로나바이러스감염증-19이 발견됐습니다.
-상대적으로 새로 채취 및 시퀀싱된 경우들은 1월 중순에 같은 지역에서 채취된 바이러스와 유전적으로 가깝다는 것을 알 수 있습니다. 
+현재 시애틀 주변 지역과 미국에서 적지 않은 수의 코로나바이러스감염증-19이 보고됐습니다.
+상대적으로 새로 채취 및 염기서열이 해독된 경우들은 1월 중순에 같은 지역에서 채취된 바이러스와 유전적으로 가깝다는 것을 알 수 있습니다. 
 
 <br>
 
 여기에는 두 가지 설명이 가능합니다.
-바이러스가 중국의 공통 감염원에서 독립적으로 두 번 시애틀 주변 지역으로 유입됐다는 설명입니다.
+바이러스가 중국의 공통 감염원에서 독립적으로 두 번 시애틀 인근 지역으로 유입됐다는 설명입니다.
 다른 설명은 한 번의 바이러스 유입 후 이 지역에서 발견되지 않은 채로 전파가 일어나고 있었을 가능성입니다.
 
 <br>
 
-Trevor Bedford (Nextstrain의 공동 설립자)는 [여기](https://bedford.io/blog/ncov-cryptic-transmission/)에서 이 가능성들을 분석한 멋진 블로그 포스트를 남겼습니다.
+Trevor Bedford (Nextstrain의 공동 설립자)는 [여기](https://bedford.io/blog/ncov-cryptic-transmission/)에서 이 가능성들을 분석한 블로그 포스트를 남겼습니다.
 
 <br>
 
-최근에 발견된 다른 워싱턴 시퀀스들로부터 또 다른 사실을 알 수 있습니다: 이 시퀀스들은 하나의 클러스터로 뭉쳐있습니다.
-이는 지역사회전파가 일어났음을 강하게 시사하며, SARS-CoV-2가 이 지역에서 이미 전파되고 있었음을 뜻합니다.
+최근에 확보한 다른 워싱턴의 바이러스들로부터 또 다른 사실을 알 수 있습니다: 이 바이러스들은 하나의 클러스터를 이룹니다.
+이는 지역사회전파의 강력한 증거이며, SARS-CoV-2가 이 지역에서 이미 전파되고 있었음을 뜻합니다.
 
 <!-- There is NO right-side text -->
 
@@ -272,7 +273,7 @@ Trevor Bedford (Nextstrain의 공동 설립자)는 [여기](https://bedford.io/b
 <!-- This is left-side text -->
 # [가장 최근의 공통조상까지의 시간](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-확인된 시퀀스들의 가장 최근의 공통조상으로부터의 시간 (time of the most common ancestor, tMRCA)은 이 시퀀스들로부터 마지막 공통조상까지의 시간을 말합니다.
+확인된 바이러스들의 가장 최근의 공통조상으로부터의 시간 (time of the most common ancestor, tMRCA)은 이 바이러스들로부터 마지막 공통조상까지의 시간을 말합니다.
 이 시간은 바이러스가 최초로 인간에게 전달된 시기일 수도 있지만 아래 그림에서처럼 그보다 훨씬 이후의 시점일 수도 있습니다.
 
 <div>
@@ -287,8 +288,8 @@ Trevor Bedford (Nextstrain의 공동 설립자)는 [여기](https://bedford.io/b
 
 몇몇 연구자 및 그룹에서는 tMRCA를 추정하고자 했습니다 - A Rambaut의 분석은 [여기](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420), T Stadler의 분석은 [여기](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)에서 찾을 수 있습니다.
 
-이 시퀀스들의 공통조상은 11월 중순에서 12월 중순 사이에 존재할 것으로 추정됩니다.
-이는 시퀀싱된 [우한 수산시장 발 클러스터](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)의 모든 검체와 일치하는 결과입니다.
+이 바이러스들의 공통조상은 11월 중순에서 12월 중순 사이에 존재했던 것으로 추정됩니다.
+이는 염기서열이 확보된 [우한 수산시장 발 클러스터](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)의 모든 검체와 일치하는 결과입니다.
 
 <div>
   <img alt="estimate of the tMRCA using Bayesian phylogenetics" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/beast_coal-tmrca_2020303.png"/>
