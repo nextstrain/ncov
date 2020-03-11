@@ -7,6 +7,12 @@ forced_colors = {
   },
   "location": {
     "Diamond Princess": "#CCCCCC",
+  },
+  "division": {
+    "Grand Princess": "#595959",
+  },
+  "location": {
+    "Grand Princess": "#595959",
   }
 }
 

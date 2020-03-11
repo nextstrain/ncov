@@ -1,6 +1,6 @@
 ---
 title: 新型コロナウイルス拡散の遺伝的解析と状況報告 2020-03-05.
-authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Takeshi Sato, Fengjun Zhang"
+authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Takeshi Sato, Fengjun Zhang, Tomoyuki Nezu"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 March 05"
