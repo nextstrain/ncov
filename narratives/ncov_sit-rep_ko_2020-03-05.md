@@ -194,27 +194,26 @@ y-축은 각 바이러스의 시퀀스가 어떻게 연결되었는지 보여주
 3개의 시퀀스는 유행 초기에 공통조상을 가지는데 (나무뿌리 근처, 왼쪽에) 이는 지역사회전파를 동반한 최소 두 번 이상의 유입이 있었음을 시사합니다.
 <br>
 
-Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)에서 브라질과 세계 다른 지역의 시퀀스가 어떻게 "이탈리아 북부가 한 번이 아닌 복수의 유입에 의해 유행"의 증거가 되는지에 대한 멋진 설명을 제공했습니다.
-
+Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)에서 '이탈리아 북부의 유행이 한 번이 아닌 복수의 유입에 의해 시작됐다'는 주장이 어떻게 브라질과 세계 다른 지역에서 발견된 시퀀스에 의해 뒷받침 되는지 멋진 설명을 제공하였습니다.
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [Possible hidden transmission in Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-The two sequences from Rome (29 January 2020) are directly connected to each other and both have a travel history to China.
+로마에서 온 두 개의 시퀀스 (2020년 1월 29일)은 직접적으로 관련되어 있으며 모두 중국 여행력이 있는 있습니다.
 
 <br>
 
-We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, Switzerland, the USA, and China) are actually separated from the Italian sequences by 2-4 mutations.
+'분기' 보기 모드로 바꿨을 때 두 이탈리아 시퀀스가 동일한 것을 볼 수 있으며, (영국, 브라질, 스위스, 미국 그리고 중국에서 온) 나머지 시퀀스들은 이탈리아 시퀀스와 돌연변이 2-4개의 차이를 보임을 알 수 있습니다.
 
 <br>
 
-However, the Brazilian sequence (SPBR-02) has a travel history to Milan, in Lombardy, and it is thought that the Swiss sequence in this cluster also recently travelled to Italy. We do not know anything about the travel history of the USA sample. The England/09c isolate is a direct importation from China.
+그런데 브라질 시퀀스 (SPBR-02)는 최근 롬바르디아에 있는 이탈리아 밀란에 다녀온 여행력을 가지고 있으며 이 클러스터에 있는 스위스 시퀀스 역시 이탈리아 여행력이 있는 것으로 추측됩니다. 현재로써 미국 시퀀스의 여행력에 대해서는 알기 어렵습니다. 영국/09c 시퀀스는 중국에서 직접 유입된 것입니다.
 
 <br>
 
-The English sample (from China) sits between the earlier Italian samples from Rome and the cases with known (Swiss, Brazilian) or possible (USA) travel to Italy. This means we should not assume that the older Italian sequences and newer Italian-associated sequences are directly linked. The more recent samples could come from another independent introduction to Italy.
+(중국에서 온) 영국 시퀀스는 로마의 초기 이탈리아 시퀀스와 이탈리아 여행력이 있는 (스위스, 브라질) 혹은 있는 것으로 추정되는 (미국) 시퀀스 사이에 놓여있습니다. 이로부터 초기 이탈리아 시퀀스와 이탈리아와 연관된 이후 시퀀스들이 직접적으로 연관되었다고 섣부르게 결론내리지 말아야함을 알 수 있습니다. 이후 시퀀스들은 이탈리아로의 독립적 유입의 결과일 수 있습니다.
 
 <!-- There is NO right-side text -->
 
@@ -225,15 +224,15 @@ The English sample (from China) sits between the earlier Italian samples from Ro
 <!-- This is left-side text -->
 # [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected there: the sequences from Mexico, Germany, Brazil & Finland.
+롬바르디아 시퀀스 (이탈리아/CDG1/2020)는 이탈리아 여행력이 있는 다른 시퀀스들과 근연관계에 있는 것을 볼 수 있으며 멕시코, 독일, 브라질과 핀란드의 해당 시퀀스들 역시 이탈리아에서 획득된 것으로 보입니다
 
 <br>
 
-The German "BavPat1" sequence is part of an introduction from China much earlier in the epidemic. Its similarity to the other sequence in the cluster (they are separated by only one mutation), could indicate undetected ("cryptic") transmission in Europe stemming from this early German cluster.
+독일의 "BavPat1" 시퀀스는 유행이 시작되기 훨씬 전에 중국에서 유입됐습니다. 클러스터 안에 있는 다른 시퀀스와의 유사성으로 볼 때 (단 하나의 돌연변이 차이) 독일에서 시작한 전파가 오랜시간 동안 발견되지 않은 채 유럽에서 진행되고 있었을 가능성을 시사합니다.
 
 <br>
 
-It could also be the result of two separate introductions to Europe - an unsampled sequence from elsewhere could fall between 'BavPat1' and the rest of the cluster. At the moment, we cannot say with certainty which scenario is correct.
+이는 두 개의 독립된 유입이었을 가능성 역시 존재합니다 - 채취되지 않은 시퀀스가 'BavPat1'과 클러스터의 나머지 시퀀스 사이에 놓여있을 수 있습니다. 현재로써는 두 가지 가능성 중 하나가 맞다고 보긴 어렵습니다.
 
 <!-- There is NO right-side text -->
 
@@ -243,23 +242,23 @@ It could also be the result of two separate introductions to Europe - an unsampl
 <!-- This is left-side text -->
 # [Likely spread of SARS-CoV-2 in the Seattle area](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-There are now several cases of COVID-19 reported in the greater Seattle area and the US in general.
-The newly isolated and sequenced cases are genetically closely related to a case isolated in the middle of January in the same area.
+현 시점에서는 시애틀 주변 지역과 미국에서 적지 않은 수의 코로나바이러스감염증-19이 알려졌습니다.
+새로 채취 및 시퀀싱된 경우들은 1월 중순에 같은 지역에서 채취된 바이러스와 유전적으로 가깝다는 것을 알 수 있습니다. 
 
 <br>
 
-There are two possible explanations for this.
-The virus could have been introduced at least twice into the greater Seattle area from a common source in China.
-However, another explanation is that the virus was circulating undetected in the area for a while.
+여기에는 두 가지 설명이 존재합니다.
+바이러스가 중국의 공통 감염원에서 독립적으로 두 번 시애틀 주변 지역으로 유입됐다는 설명입니다.
+다른 설명은 한 번의 바이러스 유입 후 이 지역에서 발견되지 않은 채로 전파가 일어나고 있었을 가능성입니다.
 
 <br>
 
-Trevor Bedford (co-founder of Nextstrain) has written a great blog post about these possibilities, which you can read [here](https://bedford.io/blog/ncov-cryptic-transmission/).
+Trevor Bedford (Nextstrain의 공동 설립자)는 [여기](https://bedford.io/blog/ncov-cryptic-transmission/)에서 이 가능성들을 다루는 멋진 블로그 포스트를 남겼습니다.
 
 <br>
 
-The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together.
-This strongly suggest community spread, and that the SARS-CoV-2 virus has been circulating in the area for some time already.
+최근에 발견된 다른 워싱턴 시퀀스들로부터 또 다른 사실을 알 수 있습니다: 이 시퀀스들은 하나의 클러스터에 뭉쳐있습니다.
+이는 지역사회전파가 일어났음을 강하게 시사하며, SARS-CoV-2가 이 지역에서 이미 전파되고 있었음을 뜻합니다.
 
 <!-- There is NO right-side text -->
 
@@ -270,8 +269,8 @@ This strongly suggest community spread, and that the SARS-CoV-2 virus has been c
 <!-- This is left-side text -->
 # [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
-This time can be as early as the time when a virus first entered the human population, but can also be substantially later, as shown in the figure below.
+확인된 시퀀스들의 가장 최근의 공통조상으로부터의 시간 (time of the most common ancestor, tMRCA)은 이 시퀀스들로부터 마지막 공통조상까지의 시간을 말합니다.
+이 시간은 바이러스가 최초로 인간에게 전달된 시기일 수도 있지만 아래 그림에서처럼 그보다 훨씬 이후의 시점일 수도 있습니다.
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -283,19 +282,16 @@ This time can be as early as the time when a virus first entered the human popul
 
 ## Date of the common ancestor of outbreak viruses
 
-Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [this post by T Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+몇몇 연구자 및 그룹에서는 tMRCA를 추정하고자 했습니다 - A Rambaut의 분석은 [여기](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420), T Stadler의 분석은 [여기](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)에서 찾을 수 있습니다.
 
-The common ancestor of all sequences is most likely between mid-November and mid-December.
-This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
-
+이 시퀀스들의 공통조상은 11월 중순에서 12월 중순 사이에 존재할 것으로 추정됩니다.
+이는 시퀀싱된 [우한 수산시장 발 클러스터](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)의 모든 검체와 일치하는 결과입니다.
 
 <div>
   <img alt="estimate of the tMRCA using Bayesian phylogenetics" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/beast_coal-tmrca_2020303.png"/>
 </div>
 
 ```
-
-
 
 
 
