@@ -23,8 +23,8 @@ abstract: "이 보고서는 GISAID와 Genbank가 공개한 COVID-19 유전체 �
 
 다음을 찾았습니다:
 * 이탈리아에서는 최소 두 번의 개별적인 코로나-19 유입이 있었으며 이는 모두 지역사회전파로 이어졌습니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* 이 바이러스 군집은 모두 이탈리아에서 건너온 것으로 보이는 6개 국가의 바이러스 유전체를 포함합니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* 유전자 염기서열 자료는 신종코로나바이러스감염증-19가 1월 중순 이후로 시애틀 지역에서 탐지되지 않은 채로 전파되고 있었다는 가설을 지지합니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* 이 바이러스 군집은 모두 이탈리아에서 건너온 것으로 보이는 6개 국가의 바이러스 유전체를 포함합니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
+* 바이러스 RNA 염기서열 자료는 신종코로나바이러스감염증-19이 1월 중순 이후로 시애틀 지역에서 탐지되지 않은 채로 전파되고 있었다는 가설을 지지합니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
 * 이 분석에 포함된 모든 바이러스는 11월 중순과 12월 중순 사이에 공통조상을 갖는 것으로 보입니다 ([여기서 확인](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
