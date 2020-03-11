@@ -186,7 +186,7 @@ abstract: "このレポートでは、GISAID および Genbank から公開さ�
 
 <br>
 
-Nuno Faria 博士らは [ここで](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)ブラジルや世界の他の遺伝子情報が "北イタリアの感染流行が一つの感染源由来ではなく、複数回当該の地域に持ち込まれた結果である可能性が高い" という優れた解析を提示しています。
+Nuno Faria 博士らは [ここで](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)ブラジルや世界の他の遺伝子配列が "北イタリアの感染流行が一つの感染源由来ではなく、複数回当該の地域に持ち込まれた結果である可能性が高い" という優れた解析を提示しています。
 
 
 
