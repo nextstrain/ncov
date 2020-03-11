@@ -5,7 +5,9 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020年3月5日"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
+
 abstract: "这份报告使用了在GISAID和Genbank数据库公开共享的2019新型冠状病毒（COVID-19）基因组数据来推算疫情的传播速度和方式。一旦收集到新的病毒数据，我们将陆续更新该状况报告。我们建议您使用桌面浏览器游览该网站。"
+
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -46,6 +48,7 @@ abstract: "这份报告使用了在GISAID和Genbank数据库公开共享的2019�
 ```auspiceMainDisplayMarkdown
 
 ## COVID-19 的一些其他信息
+
 
 我们准备了一些值得一读的材料，让您了解COVID-19（2019冠状病毒病）及其致病病毒SARS-CoV-2（严重急性呼吸综合征冠状病毒2型）。以下材料来源于 [Nextstrain](https://nextstrain.org) 网站的英文文档，我们建议您用谷歌翻译或者类似的机器翻译服务辅助浏览。
 这些信息能使您更容易理解我们在这篇报告中的分析和结论。
@@ -227,6 +230,7 @@ y 轴显示的是序列之间的关系，请注意它没有测量单位。
 
 <br>
 
+
 该基因簇中巴西的序列（SPBR-02），已知有前往伦巴第地区米兰市的旅行历史，而有报道称该簇中的瑞士病例最近也曾前往意大利。
 
 我们对同簇中的美国病例的旅行史一无所知，但英国的病例（England/09c）已知是从中国直接输入的。
@@ -244,7 +248,7 @@ y 轴显示的是序列之间的关系，请注意它没有测量单位。
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [从意大利伦巴第传播至全球](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
+# [从意大利伦巴第传播至全球其他地域的序列](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
 来自伦巴第（Italy/CDG1/2020）的序列与其他国家的已知有意大利旅行史的序列被分在了一起（已知有可能在意大利被感染的病例分别来自墨西哥、德国、巴西和芬兰）。
 
