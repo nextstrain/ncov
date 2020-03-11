@@ -1,11 +1,11 @@
 ---
-title: 新型コロナウイルス拡散の遺伝的解析. 状況報告 2020-03-05.
+title: 新型コロナウイルス拡散の遺伝的解析と状況報告 2020-03-05.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Takeshi Sato, Fengjun Zhang"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020 March 05"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "このレポートは、GISAIDとGenbankが公的に共有している新型コロナウイルス(nCOV)の遺伝情報を用い、ウイルスの疫学的拡散の速度とパターンを評価しています。データが新たに取得、共有され次第状況報告を更新する予定です。このウェブサイトはデスクトップブラウザ上での表示に最適化されています."
+abstract: "このレポートでは、GISAID および Genbank から公開されている COVID-19 遺伝子情報を使用して、ウイルスの流行の広がりの割合とパターンを推定します。 新しいデータが作成および共有次第、このレポートを更新する予定です。 この Web サイトは、デスクトップブラウザーでの表示用に最適化されています。"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,21 +13,21 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [エグゼクティブサマリ](https://nextstrain.org/ncov/2020-03-05)
+
+# [概要](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
+
 ```auspiceMainDisplayMarkdown
-## エグゼクティブサマリ
+## 概要
 
-公的にシェアされたCOVID-19の 169</tag> のゲノム情報を用いて 、私たちは様々な地域でのCOVID-19の拡散を特徴付け、共通祖先の出現日を推測するために、遺伝的多様性を調査しました.
-
-
+公開共有された169系統の COVID-19 遺伝子情報を使用して遺伝的多様性を調べることで、さまざまな地域での COVID-19 の広がりを特徴付け、共通の祖先の日付を推測しました。
 
 私たちが発見したこととしては、
-* COVID-19はイタリアに少なくとも2度持ち込まれ、それに続きコミュニティで拡散した([ページを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=7)).
-* イタリアから持ち込まれた症例が出現したとされる6つの異なる国由来のシーケンスのクラスターがこれに含まれる([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=9))
-* 遺伝子シーケンスのデータは1月中頃からgreater SeattleエリアでCOVID-19の未検出でかつ持続的に拡散しているという仮設を支持する([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=10))
-* この解析で用いられたものも含み、シーケンスが行われたすべての症例は、2019年11月中頃から12月中頃までの期間に共通祖先を持つ可能性がある.([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=11))
+* COVID-19 はイタリアに少なくとも2度持ち込まれ、その後コミュニティで拡散した ([ページを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=7))
+* これには、イタリアから症例が輸出されたと思われる6か国の遺伝子情報のクラスターが含まれます ([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=9))
+* 遺伝子配列データは、1月中旬以降にシアトル地域で COVID-19 が検出されずに持続的に拡散するという仮説を裏付けています ([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=10))
+* この解析で用いられたものも含み、遺伝子解析が行われたすべての症例は、2019年11月中頃から12月中頃までの期間に共通祖先を持つ可能性があります ([これを見る](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-05?n=11))
 
 ```
 
@@ -39,33 +39,31 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 
 ### 参考文献:
 
-* [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_ のコロナウイルス感染症流行の要旨
-* [米CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_ が提供する資料
+* [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) のコロナウイルス感染症流行の概要 2020-01-30
+* [米CDC](https://www.cdc.gov/coronavirus/index.html) が提供する資料 2020-01-29
 
 <!-- This is right-side text -->
+
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 資料
+## COVID-19 に関する資料
 
-下記に、COVID-19とその症状を引き起こすウイルスであるSARS-CoV-2の詳細を知るために一読する値する資料を用意しました.
-この情報によって、このNarrativeの中で私たちが提示するデータを解釈するのがより容易になります.
+以下に、COVID-19 とその症例を引き起こすウイルスである SARS-CoV-2 を理解するための参考文献を用意しました。この情報により、このレポートで提示するデータの解釈が容易になります。
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> コロナウイルスの背景 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近のCOVID-19流行の背景 </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近の COVID-19 流行の背景 </a>
 
   <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 系統発生の読み方 </a>
 
 </div>
 
-## Nextstrain Narrative
+## Nextstrain からの状況報告
 
-このあとのページが[Nextstrain](https://nextstrain.org) を使って行われた解析です
-左側のサイドバーをスクロールしていくと、右側に対応するゲノムデータの可視化とともに段落としてテキストが表示されます.
+このあとのページが[Nextstrain](https://nextstrain.org) を使用して行われた解析です。左側のサイドバーをスクロールすると項目ごとのテキストが表示され、右側に対応するゲノム情報が表示されます。
 
-新型でかつ大型のRNAウイルスを早い段階でこのような形にするのは優れた業績です.
-このような解析は素早くかつオープンなゲノムデータの共有と世界中の科学者による解釈によって可能になりました(シーケンシングのオーサシップについては最後のスライドを参照してください).
+新規で大型な RNA ウイルスの完全なゲノム情報を早い段階でこのような形にするのは驚くべき成果です。これらの解析は、世界中の科学者によるゲノム情報の迅速かつオープンな共有、解釈によって可能になりました（遺伝子配列の提供者については最後のスライドを参照してください）
 
 
 ```
@@ -87,12 +85,11 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## FAQと誤解
+## よくある質問と誤解
 
-### FAQ
+### よくある質問
 
-多くの方々がCOVID-19について疑問を持っているということは承知しています。
-よくある質問について回答を試みるために[こちら](https://nextstrain.org/help/coronavirus/FAQ)にガイドを用意しました
+多くの方々が COVID-19 について疑問をお持ちでしょう。よくある質問について[こちら](https://nextstrain.org/help/coronavirus/FAQ)にガイドを用意しました。
 
 <div>
 
@@ -103,15 +100,14 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 
 ### 誤解
 
-新型コロナウイルスの由来については多くの誤解が流布されているます。
-このような大きな感染症流行の間は、不適切であるとわかる情報の拡散はより大きなパニックを引き起こし、人々に科学者と政府を不信を抱かせることになり、これは勧告に従ったり、適切な警戒をしなくなるようになることを意味します.
+新規コロナウイルスの起源について、多くの誤解が広まっています。このような大きな感染症流行において、不適切であるとわかる情報の拡散はより大きなパニックを引き起こし、人々が科学者と政府に対して不信を抱かせることに繋がります。つまり、助言に従い、適切な予防措置を取る可能性が低くなります。
 
-次のような見方がなぜ適切でないかを説明しようと、科学者は下記のページで理論について言及しました：
+次のような見方がなぜ適切でないかを説明しようと、科学者は以下のページでこれらの理論に取り組んでいます。
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2の起源 "蛇"  (専門的) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> "HIVエンジニアリング"という考え(Twitter)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2 の起源 "蛇"  (専門的) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> "HIV エンジニアリング"という考え(Twitter)</a>
 
 
 </div>
@@ -125,49 +121,41 @@ abstract: "このレポートは、GISAIDとGenbankが公的に共有してい�
 <!-- This is left-side text -->
 # [系統発生解析](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-
-ここに示すのが、SARS-CoV-2(COVID-19を引き起こすウイルス)の169</tag>系統の発生解析です。
-解析方法の情報にについては[このGitHubリポジトリ](https://github.com/nextstrain/ncov)で閲覧可能です.
+ここでは、公に共有されている SARS-CoV-2（COVID-19を引き起こすウイルス）の169系統の系統発生を示します。 解析の実行方法に関する情報は、[このGitHubリポジトリ](https://github.com/nextstrain/ncov)で閲覧可能です。
 
 <br>
 
-色は単離された国内での地域あるいはアメリカの州を表し、x軸は取得された日付を表します。
-y軸はどのようにシーケンスがつながるかを表し、計測における単位はありません。
+色は、国内の地域または米国の州別を表し、x軸はサンプルの日付を、y軸は遺伝子情報の関係性を示します。測定単位はありません。
 
 <br>
 
-サンプル取得日は有益ですが、2つのシーケンスが遺伝的に関連敷いているかを確かに示しているとは限りません - 2つの遺伝シーケンスはサンプル取得日が違ったとしても同一ですし、この表示方法ではかなり異なって見えてしまっています。
+サンプル取得日は有益ですが、2つの系統が遺伝的にどのように関連するかを常に正確に示すわけではありません。2つの遺伝子配列はサンプル取得日が違ったとしても同一ですが、この表示方法では離れて見えてしまっています。
 
 <!-- There is NO right-side text -->
-
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
+
 # [系統解析における "多様性"](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-サンプル取得日の代わりにx軸に"多様性"を表すように表示を変えました
+サンプル取得日の代わりに x軸に"多様性"を表すように表示を変えました
 
 <br>
 
-さきほどの表示とは違った見え方をするシーケンスの数の多さに注意してください、この画面では垂直方向に一列に並んでいます。
-前のスライドとこのスライドの間をスクロールで行き来して、系統樹の変化を見ることができます。
+さきほどの表示とは違った見え方をする系統の多さに注意してください、この画面では垂直方向に一列に並んでいます。前のスライドとこのスライドの間をスクロールで行き来して、系統樹の変化を見ることができます。
 
 <br>
 
-多様性はゲノム中の変化(変異)の数で計測しています。
-変異がゼロのものもあります -- 系統樹の根(中心)と全く同一であることを意味します。
-その他のウイルスは、変異が1-11の間です.
+多様性は遺伝子情報の変化 (突然変異) の数で計測しています。系統によっては、突然変異がゼロの場合があります。つまり、それらはすべてツリーのルート（中心）と同一です。 他のウイルスには1から11個の変異があります。
 
 <br>
 
-流行が今まさに起きている状況での、大型かつ新タガタのRNAウイルスのゲノムのシーケンスは難しいものです.
-これらのシーケンス結果中の観測された違いには、実際の変異というよりは、シーケンス作業そのものエラーであるものも含まれるかもしれません.
-ゲノム末端での挿入、欠損、変異はエラーである可能性が高く、この解析の目的に従い、ゲノム末端での違いを除外しています.
+今まさに流行が起きている状況下で、新規の大規模な RNA ウイルスの遺伝子情報に対して系統解析を行う事は困難です。これらの系統解析で観察される違いの一部は、実際の突然変異ではなく、遺伝子配列解析のエラーである可能性があります。 遺伝子配列の両端での挿入、削除、および変異はエラーである可能性が高いため、この解析の目的に従い除去しました。
 
 <br>
 
-系統樹を"時間" ビューで表示する場合もありますし、 "多様性" ビューで表示する場合もあります。私たちが何を強調しようとしているかによって変わります。
+私たちが何を強調しようとしているかにより、系統樹を"時間" ビューで表示する場合もありますし、 "多様性" ビューで表示する場合もあります。
 
 <!-- There is NO right-side text -->
 
@@ -177,53 +165,49 @@ y軸はどのようにシーケンスがつながるかを表し、計測にお�
 <!-- This is left-side text -->
 # [系統解析の解釈](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-私たちは現在5つの異なる大陸で採取されたサンプル由来のシーケンスを所有しています.
-早期の症例は、海産食品市場での感染流行と関連した、武漢での症例と直接的に結びついていましたが、現在では、コミュニティでの拡散を示すものや、中国国外の感染源から持ち込まれた、様々な症例が見られます.
+私たちは現在5つの異なる大陸で採取されたサンプル由来の遺伝子配列を所有しています。早期の症例は、海産食品市場での感染流行と関連した、武漢での症例と直接的に結びついていましたが、現在では、コミュニティでの拡散を示すものや、中国国外の感染源から持ち込まれた、様々な症例が見られます。
 
 <br>
 
-一般的に、動物を宿主とし何度も持ち込まれるウイルスは大きな多様性を示します(ラサ、エボラ、MERSや鳥インフルエンザで当てはまります).
-このようにヒトでの感染でクラスタ化が強いことが観測されるということは、動物からヒトへののウイルスの持ち込みが一度きりの感染流行で、ヒトからヒトへの疫学的拡散が続いたと説明することができます.
+一般的に、動物を宿主とし何度も持ち込まれるウイルスは大きな多様性を示します (ラサ、エボラ、MERSや鳥インフルエンザで当てはまります) このような強いヒト感染のクラスター化の観察は、動物からヒトへのウイルスの持ち込みが一度きりの感染流行で、ヒトからヒトへの疫学的拡散が続いたと説明することができます。
 
 <!-- There is NO right-side text -->
-
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [イタリアへの少なくとも2度の持ち込み, コミュニティでの拡散](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-現時点でイタリアからのシーケンスが3つあり、そのうち2つはローマ(Rome)から1つは北イタリアのロンバルディア(Lombardy)由来です.
+現時点でイタリアからの遺伝子情報が3つあり、そのうち2つはローマ (Rome) 地域からのもので、1つは北イタリアのロンバルディア (Lombardy) からのものです。
 
 <br>
 
-これらの3つのシーケンスは感染流行の初期に共通の祖先を持ちます(左側、系統樹の元の近く),
-このことはイタリアには少なくとも2度ウイルスが持ち込まれたことを強く示唆します。
+これらの3つの遺伝子配列は感染流行の初期に共通の祖先を持ちます (左側、系統樹の元の近く) このことはイタリアには少なくとも 2 度ウイルスが持ち込まれたことを強く示唆します。
 
 <br>
 
-Nuno Faria 博士らは [ここで](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)ブラジルや世界の他のシーケンスが "北イタリアの感染流行が一つの感染源由来ではなく、複数回当該の地域に持ち込まれた結果である可能性が高い" という優れた分析を提示しています.
+Nuno Faria 博士らは [ここで](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)ブラジルや世界の他の遺伝子配列が "北イタリアの感染流行が一つの感染源由来ではなく、複数回当該の地域に持ち込まれた結果である可能性が高い" という優れた解析を提示しています。
 
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
+
 # [イタリア内での検出されていない伝染の可能性](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-ローマRome(2020/01/29)由来の2つのシーケンスは互いに直接的に結びついていて、どちらの患者の方も中国への渡航歴がありました.
+ローマ由来の2つの遺伝子情報 (2020/01/29)  は互いに直接的に結びついていて、どちらの患者の方も中国への渡航歴がありました。
 
 <br>
 
-"多様性" ビューに切り替えて、イタリアの2つのシーケンスが同一であることを示しました。
-一方で、(イングランド、ブラジル、スイス、アメリカ、中国由来の)近いシーケンスは実際そのイタリアのシーケンスとは2-4つの変異の差があります。
+"多様性" ビューに切り替えて、イタリアの2つの遺伝子情報が同一であることを示しました。他の近くの遺伝子情報 (イングランド、ブラジル、スイス、アメリカ、中国由来の) は実際そのイタリアの遺伝子情報とは2から4つの変異の差があることを示しました。
 
 <br>
 
-しかしながら、ブラジルのシーケンス(SPBR-02)はミラノ(Milan)のロンバルディア(Lombardy)への渡航歴があり、このクラスタ内でのスイスのシーケンスもイタリアへの渡航歴があったと考えられています.アメリカのサンプルの渡航歴については不明です。England/09cの1件は中国からの直接的な持ち込みです.
+しかしながら、ブラジルの遺伝子配列 (SPBR-02) はロンバルディア (Lombardy) 州のミラノ (Milan) への渡航歴があり、このクラスタ内でのスイスの遺伝子配列もイタリアへの渡航歴があったと考えられています。アメリカのサンプルの渡航歴については不明です。England/09c の1件は中国からの直接的な持ち込みです。
 
 <br>
-(中国からの)イングランドのサンプルは早期のローマからのイタリアのサンプルとイタリアへの渡航が基地のサンプル(スイス、ブラジル)またはその可能性がある(アメリカ)のサンプルの間にあります.これはこれらの早期のイタリアのシーケンスが最近のイタリアに関係するシーケンスと直接結びついていると想定すべきではないということを意味します.最近のサンプルはイタリアに独立して別に持ち込まれた持ち込まれた可能性があります。
+(中国からの) イングランドのサンプルは早期のローマからのイタリアのサンプルと、イタリアへの渡航が既知のサンプル (スイス、ブラジル) またはその可能性がある (アメリカ) のサンプルの間にあります。これは、これらの早期のイタリアの遺伝子配列が、最近のイタリアに関係する遺伝子配列と直接結びついていると想定すべきではないということを意味します。最近のサンプルはイタリアに独立して別に持ち込まれた持ち込まれた可能性があります。
 
 <!-- There is NO right-side text -->
 
@@ -234,15 +218,15 @@ Nuno Faria 博士らは [ここで](http://virological.org/t/first-cases-of-coro
 <!-- This is left-side text -->
 # [イタリア, ロンバルディア(Lombardy)から地球規模への拡散](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-ロンバルディア(Lombardy) (Italy/CDG1/2020)由来のシーケンスはイタリアへの渡航歴があり、そこで感染した可能性が高い既知のシーケンスとクラスタを形成しています: メキシコ、ドイツ、ブラジルそしてフィンランドからのシーケンスです.
+ロンバルディア (Lombardy) (Italy / CDG1 / 2020) 由来の遺伝子配列はイタリアへの渡航歴があり、そこで感染した可能性が高い既知の遺伝子配列とクラスタを形成しています。メキシコ、ドイツ、ブラジルそしてフィンランドからの遺伝子配列です。
 
 <br>
 
-ドイツの "BavPat1" は感染流行のかなり早期に中国から持ち込まれたものの一部です。もう一方のシーケンスに対するその類似度(変異はたった1つしか変わりません)は早期のドイツのクラスタに由来する、ヨーロッパでの未検出("cryptic"な)伝染を示唆しえます.
+ドイツの "BavPat1" 遺伝子配列は、感染流行のかなり早期に中国から持ち込まれたものの一部です。もう一方の遺伝子配列に対するその類似度 (1つだけの突然変異によって分離されている) は早期のドイツのクラスタに由来する、ヨーロッパでの未検出 ("cryptic"な) 伝染を示唆しえます。
 
 <br>
 
-ヨーロッパに2度独立して持ち込まれた結果であるということもありえます - まだ採取されていないどこかのシーケンスが、"BavPat1 と他方のクラスタの間に入る、このとき、私たちはどちらのシナリオが確かに正しいかを言うことができなくなります.
+また、ヨーロッパに2度独立して持ち込まれた結果である可能性もあります。まだ採取されていないどこかの遺伝子配列が、"BavPat1 と他方のクラスタの間に入る可能性があります。現時点では、私たちはどちらのシナリオが正しいかを明言できません。
 
 <!-- There is NO right-side text -->
 
@@ -252,23 +236,19 @@ Nuno Faria 博士らは [ここで](http://virological.org/t/first-cases-of-coro
 <!-- This is left-side text -->
 # [シアトル(Seattle)でのSARS-CoV-2拡散の可能性](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-COVID-19のいくつかの症例がシアトル大都市圏(greater Seattle area)とアメリカ全域で報告されています.
-新たに分離されシーケンスが行われた症例は、1月半ばに同じ地域で単離されたケースと遺伝的に強く関連します.
+COVID-19のいくつかの症例がシアトル大都市圏 (Greater Seattle area) とアメリカ全域で報告されています。新たに分離され解析が行われた症例は、1月半ばに同じ地域で単離されたケースと遺伝的に強く関連します。
 
 <br>
 
-これには2つの説明の可能性があります.
-ウイルスは少なくとも2度シアトル大都市圏(greater Seattle area)に中国の共通の感染源から持ち込まれた可能性があります.
-他方の説明としては、一定期間の間、ウイルスは未検出の状態で伝搬していたというものです.
+これには 2 つの説明の可能性があります。ウイルスは少なくとも2度シアトル大都市圏 (Greater Seattle area) に中国の共通の感染源から持ち込まれた可能性があります。他方の説明としては、一定期間の間、ウイルスは未検出の状態で伝搬していたというものです。
 
 <br>
 
-Trevor Bedford(Nextstrainの共同設立者)はこれらの可能性については素晴らしい投稿をしています.[ここで](https://bedford.io/blog/ncov-cryptic-transmission/)閲覧することができます.
+Trevor Bedford (Nextstrainの共同設立者) はこれらの可能性については素晴らしい投稿をしています。[ここで](https://bedford.io/blog/ncov-cryptic-transmission/)閲覧することができます。
 
 <br>
 
-残ったワシントン(Washington)のシーケンスからは別なことがわかります: シアトル大都市圏(greater Seattle area)由来のシーケンスとともにクラスタを形成します.
-このことはコミュニティでの拡散があること、SARS-CoV-2 ウイルスが当該のエリアですでにある一定の期間伝搬していることを強く示唆します.
+残ったワシントン (Washington) の解析からは別なことがわかります。これらの遺伝子配列は、シアトル大都市圏 (Greater Seattle area) 由来の遺伝子配列とともにクラスタを形成します。このことはコミュニティでの拡散があること、SARS-CoV-2 ウイルスが当該のエリアですでにある一定の期間伝搬していることを強く示唆します。
 
 <!-- There is NO right-side text -->
 
@@ -279,8 +259,7 @@ Trevor Bedford(Nextstrainの共同設立者)はこれらの可能性について
 <!-- This is left-side text -->
 # [最近共通祖先時間の推定](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-シーケンスが行われた症例の集合の、最近共通祖先時間(つまりtMRCA)は、これらのシーケンスされた症例が最後に共通の祖先を持つのがいつかを示します.
-下の図に示すように、この時間はウイルスがヒト社会に初めて侵入した時間と同じ程度であることがありますが、それよりもかなり遅いということもありえます.
+遺伝子の配列解析が行われた症例の集合の、最新の共通祖先 (つまり tMRCA) の時間は、これらの配列解析された症例が、最後に共通の祖先を持ったのがいつかを示します。下の図に示すように、この時間は、ウイルスが最初に人間の集団に侵入したときと同じくらい早い場合もありますが、下の図に示すように、かなり遅い場合もあります。
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -292,11 +271,9 @@ Trevor Bedford(Nextstrainの共同設立者)はこれらの可能性について
 
 ## 感染が流行したウイルスの共通祖先の出現日
 
-いくつかの研究グループや個人が最も近い共通祖先時間を評価しています。[Rambautによるこの投稿](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)か[T Stadlerによるこの投稿](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)を参照してください.
+いくつかの研究グループや個人が、最近の共通の祖先の時間を推定しました [Rambautによるこの投稿](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)か[T Stadlerによるこの投稿](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)を参照してください。
 
-全シーケンスの共通の祖先は11月中頃と12月中頃の間に現れた可能性が最も高いです.
-ことことは、現在のところ[武漢海産食品市場での初期のクラスタ](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)以来、シーケンスされた全症例で一貫しているでしょう.
-
+全遺伝系統の共通の祖先は、11月中頃と12月中頃の間に現れた可能性が最も高いです。これは[武漢海産食品市場での初期のクラスタ] (http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) から派生した、現在遺伝子解析されているすべての事例と一致します。
 
 <div>
   <img alt="estimate of the tMRCA using Bayesian phylogenetics" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/beast_coal-tmrca_2020303.png"/>
@@ -313,18 +290,17 @@ Trevor Bedford(Nextstrainの共同設立者)はこれらの可能性について
 <!-- This is left-side text -->
 # [クレジット](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-私たちはこの感染症流行の中、関係したすべての科学者によるすばらしくかつタイムリーな研究に、とくに中国内でのものに謝意を表します.
-このようなゲノム情報とメタ情報の迅速な共有を通してのみ、解析は実現可能です.
+私たちはこの感染症流行の中において、関係したすべての科学者、中国で働いている科学者による驚くべきタイムリーな研究に謝意を表します。これらのような解析は、ゲノム情報とメタデータの迅速な共有を通じてのみ可能です。
 
 <br>
 
-私たちはデータをアップロード・共有するプラットフォームを提供している [GISAID](https://gisaid.org) にも謝意を表します.
+また、これらのデータをアップロードおよび共有できるプラットフォームを提供してくれた [GISAID](https://gisaid.org) にも感謝します。
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-私たちはこれらの研修室によって集積されたデータに感謝しています:
+私たちはこれらの研修室によって集積されたデータに感謝します:
 
 * Centre for Infectious Diseases and Microbiology Laboratory Services
 * Pathology Queensland
@@ -413,12 +389,11 @@ Trevor Bedford(Nextstrainの共同設立者)はこれらの可能性について
 <!-- This is left-side text -->
 # [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-これらのデータは[GISAID](https://gisaid.org)を通じて共有されています.
-私たちはコントリビュータに謝意を表します.
+これらのデータは [GISAID](https://gisaid.org) を介して共有されました。 彼らの貢献に感謝します。
 
 <br>
 
-それぞれの研究室によって共有されたシーケンスを右側に挙げています.
+右側に、各ラボで共有される特定の遺伝子配列を示します。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
