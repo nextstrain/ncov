@@ -59,7 +59,7 @@ abstract: "このレポートでは、GISAID および Genbank から公開さ�
 
 </div>
 
-## Nextstrain での解析について
+## Nextstrain からの状況報告
 
 このあとのページが[Nextstrain](https://nextstrain.org) を使用して行われた解析です。左側のサイドバーをスクロールすると、項目ごとのテキストが表示され、右側に対応するゲノム情報が表示されます。
 
