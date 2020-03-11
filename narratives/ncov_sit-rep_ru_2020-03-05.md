@@ -191,18 +191,17 @@ Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' vi
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [At least two introductions into Italy, with possible community spread](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
+# [Как минимум два случая внедрения в Италии, с возможным распространением от человека к человеку](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-We currently have 3 sequences from Italy, two of which are from the Rome area and one from Lombardy in northern Italy.
-
-<br>
-
-These 3 sequences share a common ancestor early in the epidemic (near the base of the tree, to the left), which strongly suggests that there were at least two introductions with community spread into Italy.
+В настоящее время нам доступны 3 генетические последовательности из Италии: две из окрестности Рима и одна из Ломбардии на севере Италии.
 
 <br>
 
-Dr Nuno Faria et al. give an excellent breakdown [here (in English)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
+Эти 3 последовательности имеют общего предка в начале эпидемии (у корня дерева, слева). Это означает, что в Италии было как минимум два случая внедрения с последующим распространением от человека к человеку.
 
+<br>
+
+Д-р Nuno Faria и др. показывают [здесь (англ)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409), как бразильские и другие глобальные последовательности показывают, что "вспышка в северной Италии, вероятно, была результатом нескольких внедрений в регион из нескольких источников."
 
 
 <!-- ############ SLIDE BREAK ############# -->
