@@ -393,7 +393,7 @@ Trevor Bedford (Nextstrainの共同設立者) はこれらの可能性につい�
 
 <br>
 
-右側に、各ラボで共有される特定の遺伝子情報を示します。
+右側に、各ラボで共有される特定の遺伝子配列を示します。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
