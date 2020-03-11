@@ -218,7 +218,7 @@ Nuno Faria 博士らは [ここで](http://virological.org/t/first-cases-of-coro
 <!-- This is left-side text -->
 # [イタリア, ロンバルディア(Lombardy)から地球規模への拡散](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-ロンバルディア (Lombardy) (Italy / CDG1 / 2020) 由来の遺伝子情報はイタリアへの渡航歴があり、そこで感染した可能性が高い既知の遺伝子情報とクラスタを形成しています。メキシコ、ドイツ、ブラジルそしてフィンランドからの遺伝子情報です。
+ロンバルディア (Lombardy) (Italy / CDG1 / 2020) 由来の遺伝子配列はイタリアへの渡航歴があり、そこで感染した可能性が高い既知の遺伝子配列とクラスタを形成しています。メキシコ、ドイツ、ブラジルそしてフィンランドからの遺伝子配列です。
 
 <br>
 
