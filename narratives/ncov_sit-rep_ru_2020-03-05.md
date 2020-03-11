@@ -24,8 +24,8 @@ abstract: Для оценки скорости и моделей распрос�
 Мы обнаружили следущее:
 * COVID-19 был привезен в Италию по крайней мере дважды с последующим распространением в общинах ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
 * Это включает в себя группу цепочек в 6 разных странах где случаи вируса предположительно были ввезены из Италии ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Данные генетической последовательности поддерживают гипотезу о невыявленном, медленном распространении COVID-19 в районе Сиэтла (the greater Seattle area) с середины января ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Все секвенированные образцы вируса в этом анализе вероятно произошли от общего предка в промежутке между серединой ноября и серединой декабря 2019 ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* Данные генетической последовательности поддерживают гипотезу о невыявленном, медленном распространении COVID-19 в районе Сиэтла (the greater Seattle area) с середины Января ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Все секвенированные образцы вируса в этом анализе вероятно произошли от общего предка в промежутке между серединой Ноября и серединой Декября 2019 ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -33,20 +33,20 @@ abstract: Для оценки скорости и моделей распрос�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Коронавирусы](https://nextstrain.org/ncov/2020-03-05)
+# [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
 
-### Дополнительно к прочтению (на английском):
+### Further Reading (in English):
 
-* Обзор вспышки nCov в [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Материалы предоставленные [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Информация о COVID-19
+## COVID-19 Resources
 
-Ниже вы можете найти ссылки на подготовленные нами ресурсы (пока только на английском), которые стоит прочитать, чтобы ознакомиться с COVID-19 и вирусом SARS-CoV-2, который вызывает это заболевание.
-Данная информация поможет интерпретировать данные, которые мы представляем в данном отчете.
+Below, we've prepared some resources (currently in English) that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
+This information will make interpreting the data we present in this narrative easier.
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -59,11 +59,11 @@ abstract: Для оценки скорости и моделей распрос�
 
 ## Nextstrain narratives
 
-Последующие страницы содержат результаты анализа выполненного с помощью платформы [Nextstrain](https://nextstrain.org).
-Пользуясь полосой прокрутки слева вы можете увидеть параграфы текста и соответствующую им визуализацию геномных данных, отображенную справа.
+The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
+Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
 
-Тот факт, что нам удалось так быстро получить полные геномы нового и значительного в размере РНК-вируса, само по себе является огромным достижением. 
-Анализ этих данных возможен благодаря своевременному и беспрепятственному обмену геномной информации и интерпретация этих данных учеными по всему миру (см. слайд в конце отражающий вклад в секвенирование от разных участников).
+To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
+These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
 
 
 ```
@@ -123,19 +123,18 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [Филогенетический анализ](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](https://github.com/nextstrain/ncov).
-
-<br>
-
-The colours represent the within-country region or US-state of isolation, with the x-axis representing the sample date.
-The y-axis shows how the sequences are connected, and does not have any units of measurement.
+Здесь представлена филогения 169</tag> штаммов вируса SARS-CoV-2 (который вызвает заболевание COVID-19), общественно-доступных на данный момент. Информация о методах анализа доступна [в данном GitHub repository](https://github.com/nextstrain/ncov).
 
 <br>
 
-Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
+Разные цвета представляют регионы различных стран или штаты (в случае США), в которых был выделен конкретный штамм. На оси Х отмечены соответсвующие даты выделения. 
+Ось Y отображает связь между геномами и не имеет единиц измерения.
+
+<br>
+
+Даты выделения полезны, но не всегда отражают конкретную связь между двумя генетическими последовательностями- две генетические последовательности могут быть идентичны, но при этом иметь отличные даты выделения, и поэтому находиться далеко друг от друга на данной схеме. 
 
 <!-- There is NO right-side text -->
 
@@ -143,9 +142,9 @@ Sample dates are useful, but they don't always show exactly how two sequences ar
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
+# ['Дивергенция' в Филогенезе](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-We can change the view so that the x-axis now shows 'divergence' instead.
+Мы можем изменить данный вид чтобы показать дивергенцию вдоль оси X. 
 
 <br>
 
