@@ -13,11 +13,11 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Executive summary](https://nextstrain.org/ncov/2020-03-05)
+# [개요](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## 개요
 
 우리는 169</tag>개의 공개된 코로나-19 유전체의 유전적 다양성을 분석하여 각 지역에 퍼져있는 코로나-19의 현황을 파악하고 공통조상의 연원을 계산하였습니다.
 
@@ -32,7 +32,7 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
+# [코로나 바이러스](https://nextstrain.org/ncov/2020-03-05)
 
 ### 더 읽을거리:
 
@@ -47,20 +47,20 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 하단에는 여러분이 코로나바이러스감염증-19와 그것을 일으키는 바이러스 SARS-CoV-2를 이해하는데 도움이 될 수 있는 자료를 수록하였습니다.
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 코로나 바이러스 배경지식 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 신종코로나바이러스감염증-19 유행에 대한 배경지식 </a>
 
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 계통도를 읽는 법 </a>
 
 </div>
 
-## Nextstrain narratives
+## Nextstrain 보고서 
 
 이 페이지부터는  [Nextstrain](https://nextstrain.org)을 이용한 분석결과들입니다.
 좌측에 있는 사이드바를 스크롤하면 우측에는 유전체 정보를 이용한 분석의 시각화 자료가 나타나며 그 좌측에는 시각화 자료에 대한 설명이 등장합니다.
 
-새롭게 등장한 큰 RNA 바이러스의 전장 유전체를 짧은 시간동안에 획득한 것은 큰 성취입니다.
+새롭게 등장한 큰 RNA 바이러스의 전장 유전체 (Whole genome) 를 짧은 시간동안에 획득한 것은 큰 성취입니다.
 이 분석들은 세계 각국의 과학자들이 신속하게 제공한 유전체 정보 공개와 분석 덕분에 가능했습니다 (각 유전체의 제공자는 마지막 슬라이드의 시각화에서 확인하실 수 있습니다).
 
 
@@ -70,41 +70,41 @@ abstract: "이 보고서는 GISAID와 Genbank에서 공개된 COVID-19 유전체
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [질의응답 & 오해들](https://nextstrain.org/ncov/2020-03-05)
 
 ### Further Reading:
 
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "코로나 바이러스와 인간후천성면역결핍 바이러스 (HIV)에 대한 음모론을 믿지마세요" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "근거가 빈약한 음모론이 신종 코로나 바이러스가 생명공학의 결과물이라고 주장" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "우한 코로나 바이러스는 HIV의 부품을 인위적으로 삽입한 결과물이 아니다" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "코로나 바이러스 음모론 파해치기" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## FAQs & Misconceptions
+## 질의응답 & 오해들 
 
-### FAQs
+### 질의응답
 
-We know that a lot of people have questions about COVID-19.
-We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain.org/help/coronavirus/FAQ):
+많은 분들이 신종코로나바이러스감염증-19에 대한 궁금증을 갖고 있음을 알고 있습니다.
+이 [링크](https://nextstrain.org/help/coronavirus/FAQ)는 자주 있는 질문들 중 일부에 대한 답변을 제공하고 있습니다.
 
 <div>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ </a>
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> 신종코로나바이러스감염증-19 질의응답 </a>
 
 </div>
 
 
-### Misconceptions
+### 오해들
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+신종 코로나바이러스의 기원에 관한 여러 오해가 있습니다.
+지금과 같은 대규모 유행이 있는 상황에서 이와 같은 오개념은 사람들을 공포에 몰아넣고 과학자와 정부를 향한 사람들의 신뢰를 무너뜨림으로써 전문가들의 적절한 권고를 무시하게끔 합니다.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+아래 링크들은 과학자들이 이러한 오해를 바로잡으려는 시도에서 쓰인 글들입니다.
 
 <div>
 
@@ -140,7 +140,7 @@ y-축은 각 바이러스의 시퀀스가 어떻게 연결되었는지 보여주
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
+# [가계도에서의 '분기'](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
 보기 방식을 바꿔 x-축이 '분기'를 나타내도록 할 수 있습니다.
 
@@ -170,7 +170,7 @@ y-축은 각 바이러스의 시퀀스가 어떻게 연결되었는지 보여주
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [계통유전학적 해석](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
 우리는 현재 5개의 다른 대륙에서 채취된 시퀀스를 갖고 있습니다.
 초기에 발견된 것들이 우한 수산시장에서의 유행과 관련있는 반면 이제는 지역사회전파나 중국 외 다른 지역에서 유입된 경우를 관찰할 수 있습니다.
@@ -186,7 +186,7 @@ y-축은 각 바이러스의 시퀀스가 어떻게 연결되었는지 보여주
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [At least two introductions into Italy, with possible community spread](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
+# [잠재적 지역사회전파를 동반한 최소 두 번 이상의 이탈리아로의 유입](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
 현재 우리는 3개의 이탈리아 시퀀스를 갖고 있습니다.
 두 개는 로마에서 왔으며 하나는 북부 이탈리의 롬바르디아에서 왔습니다.
@@ -202,7 +202,7 @@ Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-corona
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Possible hidden transmission in Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
+# [이탈리아에서의 탐지되지 않은 전파](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
 로마에서 온 두 개의 시퀀스 (2020년 1월 29일) 는 직접적으로 관련되어 있으며 (계통도에서 직접 이어져 있다는 뜻) 모두 중국 여행력이 있습니다.
 
@@ -225,7 +225,7 @@ Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-corona
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
+# [이탈리아 롬바르디아에서 시작한 전세계적 전파](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
 롬바르디아 시퀀스 (이탈리아/CDG1/2020)는 이탈리아 여행력이 있는 다른 시퀀스들과 근연관계에 있으며 멕시코, 독일, 브라질과 핀란드의 해당 시퀀스들 역시 이탈리아에서 획득된 것으로 보입니다
 
@@ -243,7 +243,7 @@ Nuno Faria 박사 등은 [여기](http://virological.org/t/first-cases-of-corona
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Likely spread of SARS-CoV-2 in the Seattle area](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [시애틀 지역의 잠재적 SARS-CoV-2 전파](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
 현재 시애틀 주변 지역과 미국에서 적지 않은 수의 코로나바이러스감염증-19이 발견됐습니다.
 상대적으로 새로 채취 및 시퀀싱된 경우들은 1월 중순에 같은 지역에서 채취된 바이러스와 유전적으로 가깝다는 것을 알 수 있습니다. 
@@ -270,7 +270,7 @@ Trevor Bedford (Nextstrain의 공동 설립자)는 [여기](https://bedford.io/b
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [가장 최근의 공통조상까지의 시간](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
 확인된 시퀀스들의 가장 최근의 공통조상으로부터의 시간 (time of the most common ancestor, tMRCA)은 이 시퀀스들로부터 마지막 공통조상까지의 시간을 말합니다.
 이 시간은 바이러스가 최초로 인간에게 전달된 시기일 수도 있지만 아래 그림에서처럼 그보다 훨씬 이후의 시점일 수도 있습니다.
@@ -283,7 +283,7 @@ Trevor Bedford (Nextstrain의 공동 설립자)는 [여기](https://bedford.io/b
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Date of the common ancestor of outbreak viruses
+## 유행하는 바이러스의 가장 최근의 공통조상까지의 시간
 
 몇몇 연구자 및 그룹에서는 tMRCA를 추정하고자 했습니다 - A Rambaut의 분석은 [여기](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420), T Stadler의 분석은 [여기](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)에서 찾을 수 있습니다.
 
@@ -301,7 +301,7 @@ Trevor Bedford (Nextstrain의 공동 설립자)는 [여기](https://bedford.io/b
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [기여자들](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
