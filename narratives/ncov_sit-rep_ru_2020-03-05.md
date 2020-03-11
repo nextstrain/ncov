@@ -22,10 +22,10 @@ abstract: Для оценки скорости и моделей распрос�
 Используя 169</tag> общедоступных генома, мы провели анализ генетического разнообразия COVID-19 для того, чтобы охарактеризовать его распространение в разных регионах и установить примерный возраст общего предка.
 
 Мы обнаружили следущее:
-* COVID-19 был привезен в Италию по крайней мере дважды с последующим распространением в общинах ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* Это включает в себя группу цепочек в 6 разных странах где случаи вируса предположительно были ввезены из Италии ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Данные генетической последовательности поддерживают гипотезу о невыявленном, медленном распространении COVID-19 в районе Сиэтла (the greater Seattle area) с середины Января ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* Все секвенированные образцы вируса в этом анализе вероятно произошли от общего предка в промежутке между серединой Ноября и серединой Декября 2019 ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+* COVID-19 был привезен в Италию по крайней мере дважды с последующим распространением в общинах ([подробнее здесь](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
+* Это включает в себя группу цепочек в 6 разных странах где случаи вируса предположительно были ввезены из Италии ([подробнее здесь](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
+* Данные генетической последовательности поддерживают гипотезу о невыявленном, медленном распространении COVID-19 в районе Сиэтла (the greater Seattle area) с середины Января ([подробнее здесь](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
+* Все секвенированные образцы вируса в этом анализе вероятно произошли от общего предка в промежутке между серединой Ноября и серединой Декября 2019 ([подробнее здесь](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
 
 ```
 
@@ -33,37 +33,38 @@ abstract: Для оценки скорости и моделей распрос�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
+# [Коронавирусы](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading (in English):
+### Дальнейшее чтение (на английском языке)
 
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* Статья о вспышке COVID-19 на [Википедии](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* Материалы предoставленные [центром по контролю и профилактике заболеваний США (US CDC)](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 Resources
+## Ресурсы о COVID-19
 
-Below, we've prepared some resources (currently in English) that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier.
+Ниже мы подготовили некоторые ресурсы (в настоящее время только на английском языке) которые стоит прочитать для ознокомления с болезнью COVID-19 и вирусом SARS-CoV-2 вызывающим ее.
+Эта информация поможет в интерпретации данных представленных в нашем изложении фактов. 
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Главная информация о Коронавирусах </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Главная информация о недавней вспышке COVID-19</a>
 
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Как читать филогенетические деревья</a>
 
 </div>
 
-## Nextstrain narratives
+## Nextstrain изложенные факты
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
+Последующие страницы содержат анализ выполненный с использованием [Nextstrain](https://nextstrain.org).
+Прокрутка левой боковой панели показывает абзацы текста с соответствующей визуализацией геномных данных с правой стороны.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+
+Заполучить образцы полного генома нового и большого РНК вируса так быстро - замечательное достижение.
+Эти исследования стали возможными благодаря быстрому и открытому обмену геномными данными и их интерпретацией учеными со всего мира (см. последний слайд с информацией об авторах принимавших участие в секвенировании).
 
 
 ```
