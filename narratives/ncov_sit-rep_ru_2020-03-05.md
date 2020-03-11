@@ -174,10 +174,10 @@ Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' vi
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [Филогенетическая Интерпретация](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-We currently have sequences from samples taken in five different continents.
-While the early cases were all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
+К настоящему моменту мы отсеквенировали образцы из пяти разных континентов. 
+В то время как все ранние случаи были напрямую соединены со случаями в Ухань, связанными со вспышкой на рынке морепродуктов, сейчас мы наблюдаем разные случаи, которые свидетельствуют об общественном распространении, или были импортированы из источников за пределами Китая.
 
 <br>
 
