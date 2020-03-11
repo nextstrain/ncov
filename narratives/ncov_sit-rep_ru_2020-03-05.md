@@ -201,27 +201,27 @@ Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' vi
 
 <br>
 
-Д-р Nuno Faria и др. показывают [здесь (англ)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409), как бразильские и другие глобальные последовательности показывают, что "вспышка в северной Италии, вероятно, была результатом нескольких внедрений в регион из нескольких источников."
+Д-р Nuno Faria и др. наглядно демонстрируют [здесь (англ)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409), как бразильские и другие глобальные последовательности показывают: "вспышка в северной Италии, вероятно, была результатом нескольких внедрений в регион из нескольких источников."
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Possible hidden transmission in Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
+# [Возможная скрытая трансмиссия в Италии](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-The two sequences from Rome (29 January 2020) are directly connected to each other and both have a travel history to China.
-
-<br>
-
-We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, Switzerland, the USA, and China) are actually separated from the Italian sequences by 2-4 mutations.
+Две последовательности из Рима (29 января 2020) напрямую связаны друг с другом и в их истории перемещений присутствует Китай.
 
 <br>
 
-However, the Brazilian sequence (SPBR-02) has a travel history to Milan, in Lombardy, and it is thought that the Swiss sequence in this cluster also recently travelled to Italy. We do not know anything about the travel history of the USA sample. The England/09c isolate is a direct importation from China.
+Мы перешли в 'дивергенционный' интерфейс, чтобы продемонстрировать полную идентичность двух последовательностей из Италии, в то время как другие близлежащие последовательности (из Англии, Бразилии, Швейцарии, США и Китая) отделены от итальянских последовательностей 2-4 мутациями.
 
 <br>
 
-The English sample (from China) sits between the earlier Italian samples from Rome and the cases with known (Swiss, Brazilian) or possible (USA) travel to Italy. This means we should not assume that the older Italian sequences and newer Italian-associated sequences are directly linked. The more recent samples could come from another independent introduction to Italy.
+Однако, последовательность из Бразилии (SPBR-02) имеет в истории перемещений Милан, Ломбардия. Также считается, что Швейцарская последовательность в этом кластере недавно побывала в Италии. Нам ничего не известно об истории перемещений образца из США. Английский изолят England/09c является прямым импортированием из Китая.
+
+<br>
+
+Английский образец (из Китая) находится между ранними итальянскими образцами из Рима и случаями с известными (Швеция, Бразилия) или возможными (США) посещениями Италии. Это говорит о том, что нам не следует предполагать прямую связь между старшими итальянскими и новыми ассоциированными с Италией последовательностями. 
 
 <!-- There is NO right-side text -->
 
