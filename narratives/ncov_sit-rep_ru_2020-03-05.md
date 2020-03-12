@@ -258,7 +258,7 @@ In an effort to try and explain why these views are incorrect, scientists have a
 
 Этому существует два возможных объяснения. 
 Вероятно, вирус был занесен в район Сиэтла как минимум дважды из общего источника в Китае. 
-Хотя возможно и другое обяснение, что вирус цикулировал незамеченным в регионе в течении некоторого времени. 
+Хотя возможно и другое обяснение, что вирус циркулировал незамеченным в регионе в течении некоторого времени. 
 
 <br>
 
@@ -275,25 +275,25 @@ Trevor Bedford (ко-оснаватель Nextstrain) написал замеч�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [Датирование времени последнего общего предка](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
-This time can be as early as the time when a virus first entered the human population, but can also be substantially later, as shown in the figure below.
+Время последнего общего предка (time of the most recent common ancestor, или tMRCA) для набора генетических последовательностей обозначает время, когда все эти последовательности в последний раз имели общего предка.
+Это время может быть на самом раннем этапе, когда вирус в первый раз вошел в человеческую популяцию, но может быть и намного позже, как показано на рисунке снизу. 
 
 <div>
-  <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
+  <img alt="Пример фиологении, в которой время первоначального зооноза отличается от последнего общего предка для нескольких отсеквенированных случаев" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
 </div>
 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Date of the common ancestor of outbreak viruses
+## Время последнего общего предка во вспышке вирусов
 
-Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut (in English)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [this post by T Stadler(in English)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Несколько научных коллективов и ученых оценили время последнего общего предка - см. [пост A Rambaut (англ.)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) или [этот пост T Stadler(англ.)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
-The common ancestor of all sequences is most likely between mid-November and mid-December.
-This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+Последний общий предок всех последовательностей скорее всего существовал между серединой ноября и серединой декабря. 
+Это предположение находится в согласии со всеми отсеквенированными на данный момент случаями произошедшими от [первоначального кластера случаев на рынке морепродуктов в Ухане](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
