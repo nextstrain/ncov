@@ -1,5 +1,5 @@
 ---
-title: COVID-19 확산에 대한 유전체 분석. 상황 보고서 2020-03-05.
+title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 5일 상황 보고서.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
