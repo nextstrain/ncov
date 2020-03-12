@@ -149,24 +149,24 @@ In an effort to try and explain why these views are incorrect, scientists have a
 
 <br>
 
-Notice how many sequences that looked different previously, now sit in a line vertically.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+Обратите внимание насколько больше последовательностей которые до этого казались несхожими, теперь расположены вдоль одной вертикальной линии.
+Вы можете пролистать вверх и вниз между предыдущим и данным слайдом, чтобы увидеть как изменилось дерево. 
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+Дивергенция измеряется как количетво изменений (мутаций) в геноме.
+В некоторых последовательностях может не быть ни одной мутиции- это означает что эти последовательности идентичны корню (центру) этого дерева. 
+Другие вирусы имеют от одной до одинадцати мутаций.
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
+Секвенирование генома крупного нового РНК-вируса в состоянии эволюционирующей вспышки является сложной задачей. 
+Некоторые отличия, найденные в данных последовательностях, могут представлять собой ошибки секвенирования, а не настоящие мутации. 
+Инсерции, делеции, и отличия ближе к концам генома с большей вероятностью могут являться ошибками и поэтому были исключены из целях данного анализа. 
 
 <br>
 
-Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' view, depending on what we are trying to highlight.
+Иногда мы будем представлять деревья во 'временном' виде, и иногда- в 'дивергентном', в зависимости от того, что бы пытаемся подчеркнуть. 
 
 <!-- There is NO right-side text -->
 
