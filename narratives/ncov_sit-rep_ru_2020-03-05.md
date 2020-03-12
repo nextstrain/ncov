@@ -104,15 +104,15 @@ abstract: Для оценки скорости и моделей распрос�
 
 ### Заблуждения
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+Распространены ряд заблуждений о происхождении нового коронавируса.
+Во время вспышек как в настоящий момент, распространение заведомо ложной информации может привести к увеличению паники и заставить людей не доверять ученым и государственным органам, означая, что они с меньшей вероятностью бутут следовать рекомендациям и предпринимать меры предосторожности.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below (in English):
+В попытке объяснить почему эти взгляды неверны, ученые разобрали их в ниже приведенных материалах (в настоящее время только на английском языке):
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Змеиное' происхождение SARS-CoV-2 (Технический) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> Идея о 'искусственно созданном ВИЧ'  (Twitter thread)</a>
 
 
 </div>
