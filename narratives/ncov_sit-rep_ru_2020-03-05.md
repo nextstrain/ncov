@@ -97,7 +97,7 @@ abstract: Для оценки скорости и моделей распрос�
 
 <div>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ (in English) </a>
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ (англ.) </a>
 
 </div>
 
@@ -112,7 +112,7 @@ abstract: Для оценки скорости и моделей распрос�
 <div>
 
   <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Змеиное' происхождение SARS-CoV-2 (Технический) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> Идея об 'искусственно созданном ВИЧ'  (Twitter thread)</a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> Идея об 'искусственно созданном ВИЧ' (Twitter thread)</a>
 
 
 </div>
@@ -135,7 +135,7 @@ abstract: Для оценки скорости и моделей распрос�
 
 <br>
 
-Даты выделения полезны, но не всегда отражают конкретную связь между двумя генетическими последовательностями- две генетические последовательности могут быть идентичны, но при этом иметь отличные даты выделения, и поэтому находиться далеко друг от друга на данной схеме. 
+Даты выделения полезны, но не всегда отражают конкретную связь между двумя генетическими последовательностями -- две генетические последовательности могут быть идентичны, но при этом иметь отличные даты выделения, и поэтому находиться далеко друг от друга на данной схеме. 
 
 <!-- There is NO right-side text -->
 
