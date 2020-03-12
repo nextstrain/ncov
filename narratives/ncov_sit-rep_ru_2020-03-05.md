@@ -75,7 +75,7 @@ abstract: Для оценки скорости и моделей распрос�
 <!-- This is left-side text -->
 # [FAQs & Заблуждения](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### Дальнейшее чтение:
 
 * "Не верьте теориям заговора которые вы услышите о коронавирусе и ВИЧ" [статья](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
@@ -309,20 +309,20 @@ Trevor Bedford (ко-оснаватель Nextstrain) написал замеч�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Благодарности](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 Мы хотим отметить великолепную и своевременную работу, выполненную всеми учеными, вовлеченными в расследование этой вспышки, но собенно ученых работающих в Китае.
 Этот анализ возможен только благодаря тому, что геномная информация и метаданные были быстро выложены в общественный доступ.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Мы также глубоко благодарны [GISAID](https://gisaid.org) за предоставление платформы через которую эти данные могут быть загружены и распространены.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Мы благодарим следующие лаборатории за собранные исходные данные:
 
 * Centre for Infectious Diseases and Microbiology Laboratory Services
 * Pathology Queensland
@@ -409,19 +409,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Детальные благодарности](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Эти данные были распространены через [GISAID](https://gisaid.org).
+Мы глубоко благодарны за их вклад.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+Справа мы приводим детальный список последовательностей генома, предоставленных каждой из лабораторий.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+Геномы SARS-CoV-2 были щедро предоставлены учеными из следующих лабораторий занимающихся образцами:
 
 * NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney
 	* Australia/NSW01/2020
