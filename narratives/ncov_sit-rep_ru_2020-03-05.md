@@ -73,22 +73,22 @@ abstract: Для оценки скорости и моделей распрос�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [FAQs & Заблуждения](https://nextstrain.org/ncov/2020-03-05)
 
 ### Further Reading:
 
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "Не верьте теориям заговора которые вы слышите о коронавирусе и ВИЧ" [статья](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "Необоснованные теории заговора утверждают что новый коронавирус был продуктом биоинженерии" [статья](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "Нет, коронавирус из Ухани не был генетически сконструирован чтобы включить в него куски ВИЧ" [статья](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "Разрушаем мифы о короновирусе" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## FAQs & Misconceptions
+## FAQs & Заблуждения
 
 ### FAQs
 
@@ -102,7 +102,7 @@ We've set up a guide to try and answer some of those most frequently asked [here
 </div>
 
 
-### Misconceptions
+### Заблуждения
 
 A number of misconceptions have been circulated about the origins of the novel coronavirus.
 During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
@@ -240,7 +240,7 @@ In an effort to try and explain why these views are incorrect, scientists have a
 
 <br>
 
-Это также может являться результатом двух независимых событий заноса в Европу- невыявленная последовательность от куда-нибудь еще могла бы впасть между 'BavPat1' и остальными последовательностями в кластере. 
+Это также может являться результатом двух независимых событий заноса в Европу- невыявленная последовательность от куда-нибудь еще могла бы находиться между 'BavPat1' и остальными последовательностями в кластере. 
 На данный момент мы не можем сказать с уверенностью какой из этих сценариев является наиболее правильным. 
 
 <!-- There is NO right-side text -->
@@ -311,8 +311,8 @@ Trevor Bedford (ко-оснаватель Nextstrain) написал замеч�
 <!-- This is left-side text -->
 # [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Мы хотим отметить великолепную и своевременную работу, выполненную всеми учеными, вовлеченными в расследование этой вспышки, но собенно ученых работающих в Китае.
+Этот анализ возможен только благодаря тому, что геномная информация и метаданные были быстро выложены в общественный доступ.
 
 <br>
 
