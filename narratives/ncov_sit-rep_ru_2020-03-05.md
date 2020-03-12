@@ -77,13 +77,13 @@ abstract: Для оценки скорости и моделей распрос�
 
 ### Further Reading:
 
-* "Не верьте теориям заговора которые вы слышите о коронавирусе и ВИЧ" [статья](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "Не верьте теориям заговора которые вы услышите о коронавирусе и ВИЧ" [статья](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Необоснованные теории заговора утверждают что новый коронавирус был продуктом биоинженерии" [статья](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "Необоснованные теории заговора утверждают, что новый коронавирус был продуктом биоинженерии" [статья](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "Нет, коронавирус из Ухани не был генетически сконструирован чтобы включить в него куски ВИЧ" [статья](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "Нет, коронавирус из Ухани не был генетически сконструирован, чтобы включить в него куски ВИЧ" [статья](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
-* "Разрушаем мифы о короновирусе" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "Разрушаем мифы о коронавирусе" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -92,8 +92,8 @@ abstract: Для оценки скорости и моделей распрос�
 
 ### FAQs
 
-We know that a lot of people have questions about COVID-19.
-We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain.org/help/coronavirus/FAQ):
+Мы знаем что у многих людей есть вопросы о COVID-19.
+Мы сделали указатель чтобы попытаться ответить на некоторые из наиболее частых вопросов [см. здесь](https://nextstrain.org/help/coronavirus/FAQ):
 
 <div>
 
