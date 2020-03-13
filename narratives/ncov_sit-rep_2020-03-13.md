@@ -2,10 +2,10 @@
 title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
 authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
-dataset: "https://nextstrain.org/ncov/2020-03-10"
-abstract: "This report uses publicly shared genomic data from GISAID and Genbank to track the spread of COVID-19. These situation reports are updated weekly. This website is optimized for display on desktop browsers."
+dataset: "https://nextstrain.org/ncov/2020-03-13"
+abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly. This website is optimized for desktop browsers."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,15 +13,15 @@ abstract: "This report uses publicly shared genomic data from GISAID and Genbank
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-## [Table of Contents](https://nextstrain.org/ncov/2020-03-10?d=tree,map&p=grid)
+## [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
 * Executive summary
-* [Background resources & how to use these narratives](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3)    
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4)
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5)  
-* [What YOU can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=)
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9)
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10)
+* [Background resources & how to use these narratives](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).    
+* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
+* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).  
+* [What YOU can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=).
+* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -43,20 +43,14 @@ In this week's updates, we report:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Background](https://nextstrain.org/ncov/2020-03-05)
-
-### Further Reading:
-
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
+We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
+This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the 'How to read phylogenies' narrative and come back when you're ready.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 Resources
-
-Below, we've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the 'How to read phylogenies' narrative and come back when you're ready.
+## Background
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -64,8 +58,12 @@ This information will make interpreting the data we present in this narrative ea
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
   <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
-
 </div>
+
+## Further Reading
+
+* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
 ## Nextstrain narratives
 
@@ -79,7 +77,7 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note about sampling](https://nextstrain.org/ncov/2020-03-12?c=country&d=map&p=full)
+# [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data. For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
@@ -89,7 +87,7 @@ While this data enables us to infer many useful characteristics of the outbreak 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-12?c=country&f_country=Belgium,Finland,France,Germany,Italy,Luxembourg,Netherlands,Portugal,Sweden,Switzerland,United%20Kingdom&label=clade:A2&m=div&p=grid)
+# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom&label=clade:A2&m=div)
 Here, we see a large clade of sequences from Europe.
 Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
 Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred, and other hypotheses that can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
@@ -98,24 +96,31 @@ Zooming in on the map, we see that there are many links between Italy and other 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-12?c=country&f_country=Belgium,Finland,France,Germany,Italy,Netherlands,Sweden,Switzerland,United%20Kingdom,Portugal&p=grid)
+# [Circulation across Europe](hhttps://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom&label=clade:A2&m=div&p=grid)
 Let's zoom out to start to disentangle this. Here, we can see that within Europe, there are at least 3 active transmission chains -- that is, groups of closely related cases that are all from countries within Europe.
 <!-- There is no right side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Local transmission in the UK](https://nextstrain.org/ncov/2020-03-12?c=country&d=tree&f_country=United%20Kingdom&p=full)
+# [Local transmission in the U.K.](https://nextstrain.org/ncov/2020-03-13?c=country&d=tree&f_country=United%20Kingdom&p=full)
 Looking at the United Kingdom as an example, we can see that this story becomes more complex as we zoom in to more specific areas.
-We now have 28 genomes from the United Kingdom; this is consistent with 4 or more introductions from other locations.
-The data supports the occurrence of onward community transmission from more than one of these introductions.
+Here, we can see several instances where viruses that are closely related to samples from other countries appear in the U.K.
+This is consistent with 4 or more introductions from other locations.
+<br><br>
+We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Introductions to the US](https://nextstrain.org/ncov/2020-03-12?d=tree,map&f_country=USA&m=div&p=full)
-Here, we can see several instances where viruses that are closely related to samples from other countries appear in the U.S.
-This indicates that the virus has been introduced to the U.S. on multiple independent occasions.
+# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov?label=clade:A3&d=map)
+A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places. Note that there are no full genomes available from patients in Iran.
+<!-- There is NO right-side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full)
+Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
 <br><br>
 Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
 However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases.
@@ -126,7 +131,7 @@ This suggests ongoing transmission and local spread within these two states.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-12?label=clade:B1&m=div)
+# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?f_country=USA&label=clade:B1&m=div)
 Here, we see a large cluster of cases from Washington that are all closely related.
 From this, we conclude that there is extensive local spread within Washington state.
 <br><br>
@@ -135,20 +140,15 @@ We aren't sure yet whether the virus spread from the cruise ship to Washington o
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-12?branchLabel=clade&c=num_date&f_division=California&m=div)
+# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&d=tree,map&f_division=California&m=div&p=grid)
 Looking at samples from California, we see evidence for multiple introductions.
-It's unclear how far the virus has spread in California; we'll give you an update in next week's situation report.
+More importantly, if we see at least one cluster of closely related cases, all sampled in California over a short time period (click on 'Explore the Data' and search for 'CA9' to see on example).
+This strongly suggests that there is ongoing local transmission within California.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov?label=clade:A3&d=map)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places. Note that there are no full genomes available from patients in Iran.
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-12?c=country&d=map&p=full)
+# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
 <br><br>
 - We see evidence of local transmission across Europe, parts of the United States, Australia, China, and Southeast Asia.  
@@ -161,22 +161,22 @@ A number of genomes have been sequenced from patients reporting travel history t
 # What you can do  
 
 Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
-If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases ([Klein et al., 2020-03-10](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div width="50%">
-<img src="https://github.com/nextstrain/ncov/raw/master/figures/social_distancing_efficacy.png" width="500px">
+<img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="500px">
 </div>
 
 ## Steps individuals can take
-### Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions)
-### Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others
-### Wash your hands "like you just chopped a jalepeno and have to change a contact lens"  
-### Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine  
-### If you are an employer, encourage your employees to stay home when sick (and financially support them to do so)  
+* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions)
+* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others
+* Wash your hands "like you just chopped a jalepeno and have to change a contact lens"  
+* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine  
+* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so)  
 
 ## Steps officials can take  
-### Make testing free and broadly available  
-### Put social distancing measures in place  
-### Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.)
+* Make testing free and broadly available  
+* Put social distancing measures in place  
+* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.)
 ```
 
 
