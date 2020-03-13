@@ -33,15 +33,18 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 # Executive summary
 <div width="50%">
 Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
-
+<br><br>
+In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on at least 4 continents.
+At this time, we urge focus on efforts to slow the spread within communities; travel bans are unlikely to be effective.
+<br><br>
 In this week's updates, we report:  
 * COVID-19 is circulating widely across Europe, with significant movement between countries  
-<br><br>
-* We identify at least 3 independent transmission chains currently moving across Europe  
 <br><br>
 * We identify at least 4 introductions to the UK, some with onward community transmission  
 <br><br>
 * There have been a number of travel-related cases linking Iran with other parts of the world  
+<br><br>
+* COVID-19 is circulating across Australia after a travel-related introduction  
 <br><br>
 * There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states  
 <br><br>
@@ -49,7 +52,7 @@ In this week's updates, we report:
 <br><br>
 * There is local circulation of COVID-19 in California  
 <br><br>
-* Social distancing measures should be enacted swiftly to prevent further spread
+* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable
 </div>
 ```
 
