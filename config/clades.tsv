@@ -11,6 +11,7 @@ A3	ORF1a	378	I
 A3	ORF1a	3606	F
 
 A6	nuc	514	C
+A6a ORF1a 3220 V
 
 
 
@@ -26,4 +27,3 @@ B2	nuc	29095	T
 B4	ORF8	84	S
 B4	N	202	N
 B4	N	202	N
-
