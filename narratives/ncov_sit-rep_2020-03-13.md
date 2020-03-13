@@ -20,12 +20,13 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [Circulation in Europe](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=4).  
 * [Local transmission in the U.K.](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=6).
 * [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=7).
-* [Introductions to the U.S.](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=9).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=10).
-* [What you can do](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=11).
-* [FAQ & common misconceptions](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=12).
-* [Scientific credit](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=13).
+* [Local circulation in Australia](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=8).
+* [Introductions to the U.S.](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=9).
+* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=10).
+* [Spread of SARS-CoV-2 in California](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=11).
+* [What you can do](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=12).
+* [FAQ & common misconceptions](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=13).
+* [Scientific credit](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -122,6 +123,13 @@ We also see instances where after an introduction, there are several closely-rel
 <!-- This is left-side text -->
 # [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid)
 A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places. Note that there are no full genomes available from patients in Iran.
+<!-- There is NO right-side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Transmission across Australia](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Australia&label=clade:A3&p=grid)
+Looking at just the genomes from Australia, there are clusters of closely related cases that were all sampled around the same time within Australia.
+This indicates that the virus is circulating within the community here.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
