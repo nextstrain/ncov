@@ -33,8 +33,8 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 # Executive summary
 Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
 <br><br>
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on at least 4 continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are unlikely to be effective.
+## In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on at least 4 continents.
+## At this time, we urge focus on efforts to slow the spread within communities; travel bans are unlikely to be effective.
 <br><br>
 In this week's updates, we report:  
 
@@ -44,14 +44,15 @@ In this week's updates, we report:
 <br><br>
 #### There have been a number of travel-related cases linking Iran with other parts of the world  
 <br><br>
+#### COVID-19 is circulating across Australia after a travel-related introduction  
+<br><br>
 #### There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states  
 <br><br>
 #### The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship  
 <br><br>
 #### There is local circulation of COVID-19 in California  
 <br><br>
-#### Social distancing measures should be enacted swiftly to prevent further spread
-</div>
+#### Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable
 ```
 
 
@@ -112,8 +113,8 @@ Zooming in on the map, we see that there are many links between Italy and other 
 
 
 # [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=open&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see that we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland/
-
+Looking at the British Isles & Ireland as an example, we can see that we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland
+<br><br>
 This is consistent with 4 or more introductions from other locations.
 <br><br>
 We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
@@ -146,7 +147,7 @@ This suggests ongoing transmission and local spread within these two states.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=divisio&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 Here, we see a large cluster of cases from Washington that are all closely related.
 From this, we conclude that there is extensive local spread within Washington state.
 <br><br>
