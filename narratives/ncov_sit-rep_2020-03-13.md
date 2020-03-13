@@ -33,8 +33,8 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 # Executive summary
 Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
 <br><br>
-#### In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on at least 4 continents.
-#### At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on at least 4 continents.
+At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
 <br><br>
 In this week's updates, we report:  
 
