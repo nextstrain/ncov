@@ -108,18 +108,11 @@ Zooming in on the map, we see that there are many links between Italy and other 
 
 <!-- There is no right side text -->
 
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom&label=clade:A2&m=div&p=grid)
-Let's zoom out to start to disentangle this. Here, we can see that within Europe, there are at least 3 active transmission chains -- that is, groups of closely related cases that are all from countries within Europe.
-<!-- There is no right side text -->
-
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Local transmission in the U.K.](https://nextstrain.org/ncov/2020-03-13?c=country&d=tree&f_country=United%20Kingdom&p=full)
-Looking at the United Kingdom as an example, we can see that this story becomes more complex as we zoom in to more specific areas.
-Here, we can see several instances where viruses that are closely related to samples from other countries appear in the U.K.
+Looking at the United Kingdom as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the U.K.
 This is consistent with 4 or more introductions from other locations.
 <br><br>
 We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
