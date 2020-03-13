@@ -34,13 +34,12 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
 
+For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
 
 In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on at least 4 continents.
 At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
 
-
 In this week's updates, we report:  
-
 
 * COVID-19 is circulating widely across Europe, with significant movement between countries.  
 
@@ -82,8 +81,8 @@ This information will make interpreting the data we present in this narrative ea
 
 ## Further Reading
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
 
 ## Nextstrain narratives
 
@@ -211,8 +210,11 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- This is left-side text -->
 # [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
 
-### We know that a lot of people have questions about COVID-19. [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+#### We know that a lot of people have questions about COVID-19.
 
+#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+
+#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
