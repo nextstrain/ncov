@@ -100,7 +100,7 @@ While this data enables us to infer many useful characteristics of the outbreak 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom&label=clade:A2a&m=div&p=grid)
+# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom&m=div&p=grid)
 Here, we see a large clade of sequences from Europe.
 Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
 <br><br>
@@ -201,7 +201,12 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- This is left-side text -->
 # [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### We know that a lot of people have questions about COVID-19. [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+
+
+<!-- This is right-side text -->
+```auspiceMainDisplayMarkdown
+# Further reading  
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
@@ -211,24 +216,8 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 * "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
 
-## FAQs & Misconceptions
-
-### FAQs
-
-We know that a lot of people have questions about COVID-19.
-We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain.org/help/coronavirus/FAQ):
-
-<div>
-
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ </a>
-
-</div>
-
-
-### Misconceptions
+# Misconceptions
 
 A number of misconceptions have been circulated about the origins of the novel coronavirus.
 During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
