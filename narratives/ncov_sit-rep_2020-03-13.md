@@ -18,15 +18,14 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [Background resources](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=2).     
 * [A note on sampling](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=3).
 * [Circulation in Europe](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=4).   
-* [Local transmission in the U.K.](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=6).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=7).
-* [Local circulation in Australia](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=8).
-* [Introductions to the U.S.](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=9).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=10).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=11).
-* [What you can do](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=12).
-* [FAQ & common misconceptions](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=13).
-* [Scientific credit](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=14).
+* [Local transmission in the U.K.](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=5).
+* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=6).
+* [Introductions to the U.S.](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=7).
+* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=8).
+* [Spread of SARS-CoV-2 in California](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=9).
+* [What you can do](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=10).
+* [FAQ & common misconceptions](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=11).
+* [Scientific credit](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -36,8 +35,8 @@ Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these
 
 For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on at least 4 continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+#### In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
+#### At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
 
 In this week's updates, we report:  
 
@@ -46,8 +45,6 @@ In this week's updates, we report:
 * We identify at least 4 introductions to the UK, some with onward community transmission.  
 
 * There have been a number of travel-related cases linking Iran with other parts of the world.  
-
-* COVID-19 is circulating across Australia after a travel-related introduction.  
 
 * There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
 
@@ -135,13 +132,6 @@ Note that there are no full genomes available from patients in Iran.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Transmission across Australia](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Australia&label=clade:A3&p=grid&legend=closed&m=div)
-Looking at just the genomes from Australia, there are clusters of closely related cases that were all sampled around the same time within Australia.
-This indicates that the virus is circulating within the community here.
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
 # [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
 Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
 <br><br>
@@ -175,7 +165,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 # [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, Australia, China, and Southeast Asia.  
+- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
 <br><br>
 - Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
 
@@ -193,7 +183,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 ## Steps individuals can take
 * Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
 * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalepeno and have to change a contact lens".  
+* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
 * Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
 * If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
 
