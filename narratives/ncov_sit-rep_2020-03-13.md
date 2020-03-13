@@ -256,84 +256,125 @@ We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the pl
 
 We are grateful for the data gathered by these originating labs:
 
-* Centre for Infectious Diseases and Microbiology Laboratory Services
-* Pathology Queensland
-* Monash Medical Centre
-* National Institute for Viral Disease Control and Prevention, China CDC
-* KU Leuven, Clinical and Epidemiological Virology
-* Hospital Israelita Albert Einstein
-* Virology Unit, Institut Pasteur du Cambodge.
+* Arizona Department of Health Services
+* Auckland Hospital
 * BCCDC Public Health Laboratory
-* Yongchuan District Center for Disease Control and Prevention
-* Zhongxian Center for Disease Control and Prevention
-* Respiratory Virus Unit, Microbiology Services Colindale, Public Health England
-* Lapland Central Hospital
-* HUS Diagnostiikkakeskus, Hallinto
-* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health
-* Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris
-* Sorbonne Universite, Inserm et Assistance Publique-Hopitaux de Paris (Pitie Salpetriere)
+* Bamrasnaradura Hospital
+* Bundeswehr Institute of Microbiology
 * CNR Virus des Infections Respiratoires - France SUD
-* Fujian Center for Disease Control and Prevention
-* State Health Office Baden-Wuerttemberg
+* CR&WISCO GENERAL HOSPITAL
+* California Department of Health
+* California Department of Public Health
+* Center of Medical Microbiology, Virology, and Hospital Hygiene
+* Center of Medical Microbiology, Virology, and Hospital Hygiene, University of Duesseldorf
+* Centers for Disease Control, R.O.C. (Taiwan)
+* Centre for Human and Zoonotic Virology (CHAZVY), College of Medicine University of Lagos/Lagos University Teaching Hospital (LUTH), part of the Laboratory Network of the Nigeria Centre for Disease Control (NCDC)
+* Centre for Infectious Diseases and Microbiology - Public Health
+* Centre for Infectious Diseases and Microbiology Laboratory Services
+* Centro Hospital do Porto, E.P.E. - H. Geral de Santo Antonio
+* Centro Hospitalar e Universitario de Sao Joao, Porto
 * Charite Universitatsmedizin Berlin, Institute of Virology; Institut fur Mikrobiologie der Bundeswehr, Munich
+* Department of Infectious Diseases, Istituto Superiore di Sanita, Roma , Italy
+* Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris
+* Department of Internal Medicine, Triemli Hospital
+* Department of Laboratory Medicine, National Taiwan University Hospital
+* Department of Microbiology, Institute for Viral Diseases, College of Medicine, Korea University
+* Department of Pathology, Toshima Hospital
+* Department of Virology III, National Institute of Infectious Diseases
+* Department of Virology and Immunology, University of Helsinki and Helsinki University Hospital, Huslab Finland
+* Department of microbiology laboratory,Anhui Provincial Center for Disease Control and Prevention
+* Dept. of Pathology, National Institute of Infectious Diseases
+* Dept. of Virology III, National Institute of Infectious Diseases
+* Dienst Gezondheid & Jeugd Zuid-Holland Zuid
+* Division of Infectious Diseases, Department of Internal Medicine, Korea University College of Medicine
+* Division of Infectious Diseases, University Hospital Zurich
+* Division of Viral Diseases, Center for Laboratory Control of Infectious Diseases, Korea Centers for Diseases Control and Prevention
+* Dutch COVID-19 response team
+* ErasmusMC
+* Foundation Elisabeth-Tweesteden Ziekenhuis
+* Foundation Pamm
+* Fujian Center for Disease Control and Prevention
+* General Hospital of Central Theater Command of People's Liberation Army of China
+* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health
 * Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health
 * Guangdong Provincial Center for Diseases Control and Prevention;Guangdong Provincial Institute of Public Health
-* Hangzhou Center for Disease and Control Microbiology Lab
+* Guangdong Provincial Institution of Public Health, Guangdong Provinical Center for Disease Control and Prevention
+* HUS Diagnostiikkakeskus, Hallinto
 * Hangzhou Center for Disease Control and Prevention
-* Second Hospital of Anhui Medical University
+* Hangzhou Center for Disease and Control Microbiology Lab
+* Harborview Medical Center
 * Hong Kong Department of Health
-* Department of Infectious Diseases, Istituto Superiore di Sanita, Roma , Italy
-* INMI Lazzaro Spallanzani IRCCS
-* Department of Infectious Diseases, Istituto Superiore di Sanita, Rome, Italy
-* Department of Virology III, National Institute of Infectious Diseases
-* Dept. of Virology III, National Institute of Infectious Diseases
-* Dept. of Pathology, National Institute of Infectious Diseases
-* NHC Key laboratory of Enteric Pathogenic Microbiology, Institute of Pathogenic Microbiology
-* Jingzhou Center for Disease Control and Prevention
-* Division of Viral Diseases, Center for Laboratory Control of Infectious Diseases, Korea Centers for Diseases Control and Prevention
-* Instituto Nacional de Enfermedades Respiratorias
-* National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal
-* Bamrasnaradura Hospital
-* The University of Hong Kong - Shenzhen Hospital
-* Shenzhen Third People's Hospital
-* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
-* Singapore General Hospital
-* National Public Health Laboratory, National Centre for Infectious Diseases
-* National Public Health Laboratory
-* National Centre for Infectious Diseases
-* Singapore General Hospital, Molecular Laboratory, Division of Pathology
-* Korea Centers for Disease Control & Prevention (KCDC) Center for Laboratory Control of Infectious Diseases Division of Viral Diseases
-* Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology Randwick
-* Centers for Disease Control, R.O.C. (Taiwan)
-* Taiwan Centers for Disease Control
-* Laboratory Medicine
-* Department of Laboratory Medicine, National Taiwan University Hospital
-* Tianmen Center for Disease Control and Prevention
-* Arizona Department of Health Services
-* California Department of Public Health
-* California Department of Health
+* Hospital Israelita Albert Einstein
 * IL Department of Public Health Chicago Laboratory
-* Massachusetts Department of Public Health
-* Texas Department of State Health Services
-* WA State Department of Health
-* Washington State Department of Health
-* Providence Regional Medical Center
-* Wisconsin Department of Health Services
-* National Influenza Center - National Institute of Hygiene and Epidemiology (NIHE)
-* Wuhan Jinyintan Hospital
-* The Central Hospital Of Wuhan
-* Union Hospital of Tongji Medical College, Huazhong University of Science and Technology
-* CR & Wisco General Hospital
-* Wuhan Lung Hospital
+* INMI Lazzaro Spallanzani IRCCS
+* Indian Council of Medical Research - National Institute of Virology
+* Indian Council of Medical Research-National Institute of Virology
 * Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College
 * Institute of Viral Disease Control and Prevention, China CDC
-* General Hospital of Central Theater Command of People's Liberation Army of China
+* Instituto Nacional de Enfermedades Respiratorias
+* KU Leuven, Clinical and Epidemiological Virology
+* Klinik Hirslanden Zurich
+* Korea Centers for Disease Control & Prevention (KCDC) Center for Laboratory Control of Infectious Diseases Division of Viral Diseases
+* Laboratoire National de Sante
+* Laboratoire de Virologie, HUG
+* Laboratorio di Microbiologia e Virologia, Universita Vita-Salute San Raffaele, Milano
+* Laboratory Medicine
+* Lapland Central Hospital
+* MHC Brabant Zuidoost
+* MHC Drente
+* MHC Flevoland
+* MHC Gooi & Vechtstreek
+* MHC Haaglanden
+* MHC Kennemerland
+* MHC Rotterdam-Rijnmond
+* MHC Utrecht
+* MHC West-Brabant
+* MSHS Clinical Microbiology Laboratories
+* Massachusetts Department of Public Health
+* Monash Medical Centre
+* NHC Key laboratory of Enteric Pathogenic Microbiology, Institute of Pathogenic Microbiology
+* National Centre for Infectious Diseases
+* National Influenza Center - National Institute of Hygiene and Epidemiology (NIHE)
+* National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal
+* National Institute for Viral Disease Control and Prevention, China CDC
+* National Public Health Laboratory
+* National Public Health Laboratory, National Centre for Infectious Diseases
+* Pathology Queensland
+* Providence Regional Medical Center
+* Public Health Ontario Laboratory
+* RIVM
+* Respiratory Virus Unit, Microbiology Services Colindale, Public Health England
+* Seattle Flu Study
+* Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology Randwick
+* Servicio Microbiologia. Hospital Clinico Universitario. Valencia.
+* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
+* Singapore General Hospital
+* Sorbonne Universite, Inserm et Assistance Publique-Hopitaux de Paris (Pitie Salpetriere)
+* State Health Office Baden-Wuerttemberg
+* Taiwan Centers for Disease Control
+* Texas Department of State Health Services
+* The Central Hospital Of Wuhan
+* The National Institute of Public Health Center for Epidemiology and Microbiology
+* The University of Hong Kong - Shenzhen Hospital
+* Tianmen Center for Disease Control and Prevention
+* UCD National Virus Reference Laboratory
+* University of Washington Virology Lab
+* Union Hospital of Tongji Medical College, Huazhong University of Science and Technology
+* Valley Medical Center
+* Virology Department, Sheffield Teaching Hospitals NHS Foundation Trust
+* Virology Unit, Institut Pasteur du Cambodge.
+* Wales Specialist Virology Centre
+* Washington State Department of Health
+* Washington State Public Health Lab
+* Weifang Center for Disease Control and Prevention
+* West of Scotland Specialist Virology Centre, NHSGGC
+* Wisconsin Department of Health Services
 * Wuhan Fourth Hospital
+* Wuhan Jinyintan Hospital
+* Wuhan Lung Hospital
+* Yongchuan District Center for Disease Control and Prevention
 * Zhejiang Provincial Center for Disease Control and Prevention
-* Wuhan Institute of Virology, Chinese Academy of Sciences
-* Shandong First Medical University & Shandong Academy of Medical Sciences
-* South China Agricultural University
-* Beijing Institute of Microbiology and Epidemiology
+* Zhongxian Center for Disease Control and Prevention
 
 ```
 
