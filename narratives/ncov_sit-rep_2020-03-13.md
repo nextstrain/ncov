@@ -15,9 +15,9 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text -->
 # [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=2).    
+* [Background resources](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=2).     
 * [A note on sampling](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=4).  
+* [Circulation in Europe](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=4).   
 * [Local transmission in the U.K.](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=6).
 * [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=7).
 * [Local circulation in Australia](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=8).
@@ -42,21 +42,21 @@ At this time, we urge focus on efforts to slow the spread within communities; tr
 In this week's updates, we report:  
 
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries  
+* COVID-19 is circulating widely across Europe, with significant movement between countries.  
 
-* We identify at least 4 introductions to the UK, some with onward community transmission  
+* We identify at least 4 introductions to the UK, some with onward community transmission.  
 
-* There have been a number of travel-related cases linking Iran with other parts of the world  
+* There have been a number of travel-related cases linking Iran with other parts of the world.  
 
-* COVID-19 is circulating across Australia after a travel-related introduction  
+* COVID-19 is circulating across Australia after a travel-related introduction.  
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states  
+* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship  
+* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
 
-* There is local circulation of COVID-19 in California  
+* There is local circulation of COVID-19 in California.  
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable
+* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
 ```
 
 
@@ -65,7 +65,7 @@ In this week's updates, we report:
 <!-- This is left-side text -->
 # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the 'How to read phylogenies' narrative and come back when you're ready.
+This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -100,7 +100,9 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 # [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data. For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+<br><br>
+For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
 
 <!-- There is NO right-side text -->
 
@@ -111,13 +113,13 @@ While this data enables us to infer many useful characteristics of the outbreak 
 Here, we see a large clade of sequences from Europe.
 Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
 <br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred, and other hypotheses that can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
 
 <!-- There is no right side text -->
 
 
 # [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland
+Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
 <br><br>
 This is consistent with 4 or more introductions from other locations.
 <br><br>
@@ -127,7 +129,9 @@ We also see instances where after an introduction, there are several closely-rel
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places. Note that there are no full genomes available from patients in Iran.
+A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
+<br><br>
+Note that there are no full genomes available from patients in Iran.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -162,7 +166,7 @@ We aren't sure yet whether the virus spread from the cruise ship to Washington o
 <!-- This is left-side text -->
 # [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on 'Explore the Data' and search for 'CA9' to see on example).
+More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
 <br><br>
 This strongly suggests that there is ongoing local transmission within California.
 <!-- There is NO right-side text -->
@@ -182,22 +186,22 @@ This strongly suggests that there is ongoing local transmission within Californi
 # What you can do  
 
 Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what that means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+ If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
 ## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions)
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others
-* Wash your hands "like you just chopped a jalepeno and have to change a contact lens"  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so)  
+* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
+* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
+* Wash your hands "like you just chopped a jalepeno and have to change a contact lens".  
+* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
+* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
 
 ## Steps officials can take  
-* Make testing free and broadly available  
-* Put social distancing measures in place  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.)
+* Make testing free and broadly available.  
+* Put social distancing measures in place.  
+* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
 ```
 
 
