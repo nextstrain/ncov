@@ -13,7 +13,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-## [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
 * [Background resources](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=2).    
 * [A note on sampling](https://nextstrain.org/community/narratives/nextstrain/ncov/sit-rep/2020-03-13?n=3).
@@ -33,26 +33,26 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 # Executive summary
 Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
 <br><br>
-## In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on at least 4 continents.
-## At this time, we urge focus on efforts to slow the spread within communities; travel bans are unlikely to be effective.
+#### In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on at least 4 continents.
+#### At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
 <br><br>
 In this week's updates, we report:  
 
-#### COVID-19 is circulating widely across Europe, with significant movement between countries  
+* COVID-19 is circulating widely across Europe, with significant movement between countries  
 <br><br>
-#### We identify at least 4 introductions to the UK, some with onward community transmission  
+* We identify at least 4 introductions to the UK, some with onward community transmission  
 <br><br>
-#### There have been a number of travel-related cases linking Iran with other parts of the world  
+* There have been a number of travel-related cases linking Iran with other parts of the world  
 <br><br>
-#### COVID-19 is circulating across Australia after a travel-related introduction  
+* COVID-19 is circulating across Australia after a travel-related introduction  
 <br><br>
-#### There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states  
+* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states  
 <br><br>
-#### The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship  
+* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship  
 <br><br>
-#### There is local circulation of COVID-19 in California  
+* There is local circulation of COVID-19 in California  
 <br><br>
-#### Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable
+* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable
 ```
 
 
@@ -122,7 +122,7 @@ We also see instances where after an introduction, there are several closely-rel
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov?label=clade:A3&d=map&legend=closed)
+# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid)
 A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places. Note that there are no full genomes available from patients in Iran.
 <!-- There is NO right-side text -->
 
