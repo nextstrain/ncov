@@ -35,8 +35,8 @@ Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these
 
 For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
 
-#### In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-#### At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
+At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
 
 In this week's updates, we report:  
 
@@ -84,7 +84,7 @@ This information will make interpreting the data we present in this narrative ea
 ## Nextstrain narratives
 
 The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
+Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
 
 To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
 These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
