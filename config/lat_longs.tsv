@@ -14,6 +14,7 @@ location	Chungcheongnam	36.685948	126.799198
 location	Clayton	-37.915200	145.127165
 location	Coevorden	52.6614	6.7411
 location	Contamines	45.820585	6.727730
+location	Cork	51.899	-8.460
 location	Dalen	52.6994	6.7568
 location	Delft	52.0116	4.3571
 location	Diemen	52.3390	4.9592
@@ -68,10 +69,12 @@ location	Taoyuan	24.951706	121.219785
 location	Thanh Hoa	19.805359	105.784515
 location	Tianmen	30.6510	113.1556
 location	Tokyo	35.683441	139.766131
+location	Valencia	39.337	-0.354
 location	Wisconsin	44.535145	-89.527762
 location	Wuhan	30.554807	114.271501
 location	Xishuangbanna	21.995	100.837
 location	Yongchuan	29.374774	105.925391
+location	Yorkshire	53.3833	-1.4599
 location	Zhengzhou	34.714074	113.621939
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
@@ -106,6 +109,7 @@ division	British Columbia	54.010982	-124.745183
 division	California	36.357039	-119.690182
 division	Chongqing	29.858721	107.375623
 division	Chungcheongnam	36.685948	126.799198
+division	Comunitat Valenciana	39.337	-0.354
 division	England	52.405994	-1.671707
 division	Flanders	51.056536	4.254283
 division	Fujian	26.284852	118.122938
@@ -120,6 +124,7 @@ division	Hubei	31.095477	112.676644
 division	Ile De France	48.724751	2.491522
 division	Illinois	40.088552	-89.301876
 division	Iran	34.5732	51.876
+division	Ireland	52.865	-7.979
 division	Italy	43.382775	12.183629 
 division	Japan	35.68536	139.75309
 division	Jiangsu	33.077761	119.825116

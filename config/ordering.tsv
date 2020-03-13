@@ -65,7 +65,10 @@ location	Leuven
 location	Starnberg
 location	Rome
 location	Milan
+location	valencia
 location	England
+location	Yorkshire
+location	Cork
 location	Rovaniemi
 location	Jönköping
 location	Helsinki
@@ -127,7 +130,6 @@ division	Flanders
 division	Bavaria
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
-division	Andel
 division	Utrecht
 division	Overijssel
 division	Gelderland
@@ -144,14 +146,14 @@ division	Aargau
 division	Geneva
 division	Vaud
 division	Ticino
+division	Comunitat Valenciana
 division	Italy
 division	Lazio
-division	Milan
-division	Rome
 division	Lombardy
 division	Usti nad Labem
 division	England
 division	Wales
+division	Ireland
 division	Scotland
 division	Lapland
 division	Småland
@@ -166,6 +168,7 @@ division	California
 division	Illinois
 division	Wisconsin
 division	Massachusetts
+division	New York
 division	Washington
 division	British Columbia
 division	Ontario
@@ -190,8 +193,10 @@ country	Luxembourg
 country	Germany
 country	Switzerland
 country	Italy
+country	Spain
 country	Czech Republic
 country	United Kingdom
+country	Ireland
 country	Finland
 country	Sweden
 country	Portugal

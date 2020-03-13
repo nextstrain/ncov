@@ -21,10 +21,10 @@ France/IDF0386-islP3/2020
 # Appears to be a duplicate of France/IDF0515/2020 47F taken 3 days later on Feb 2
 France/IDF0571/2020
 
-# Lack of precise date is leading to an incorrect time placement (end of Jan)
+# Presumed early submission of the now-included Shenzhen/HKU-SZ-005/2020. Formerly a lack of precise date lead to an incorrect time placement (end of Jan)
 HKU-SZ-005b_2020
 
-# Unknown precise date and unknown admin division
+# Unknown precise date (2020-01-XX). Travel history shows Hubei, so may be good to rerun and see how this fits.
 SouthKorea/SNU01/2020
 
 # Doesn't have the enough divergence relative to supposed sampling date
@@ -70,6 +70,14 @@ bat/Yunnan/RmYN01/2019
 
 # Temporarily excluded
 USA/CruiseA-1/2020
+USA/CruiseA-2/2020
+USA/CruiseA-3/2020
+USA/CruiseA-4/2020
+USA/CruiseA-5/2020
+USA/CruiseA-6/2020
+USA/CruiseA-7/2020
+USA/CruiseA-8/2020
+USA/CruiseA-9/2020
 USA/CruiseA-10/2020
 USA/CruiseA-11/2020
 USA/CruiseA-12/2020
@@ -79,14 +87,14 @@ USA/CruiseA-15/2020
 USA/CruiseA-16/2020
 USA/CruiseA-17/2020
 USA/CruiseA-18/2020
-USA/CruiseA-2/2020
-USA/CruiseA-3/2020
-USA/CruiseA-4/2020
-USA/CruiseA-5/2020
-USA/CruiseA-6/2020
-USA/CruiseA-7/2020
-USA/CruiseA-8/2020
-USA/CruiseA-9/2020
+USA/CruiseA-19/2020
+USA/CruiseA-20/2020
+USA/CruiseA-21/2020
+USA/CruiseA-22/2020
+USA/CruiseA-23/2020
+USA/CruiseA-24/2020
+USA/CruiseA-25/2020
+USA/CruiseA-26/2020
 
 # Temporarily excluded
 Brazil/SPBR-03/2020

@@ -87,6 +87,7 @@ rule align:
             --reference-sequence {input.reference} \
             --output {output.alignment} \
             --fill-gaps \
+            --nthreads auto \
             --remove-reference
         """
 

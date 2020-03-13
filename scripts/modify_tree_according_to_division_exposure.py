@@ -70,17 +70,27 @@ def reset_colors(colorings, values_wanted, colors):
     trait = [x for x in colorings if x["key"]=="division"][0]
     trait["scale"] = []
     values_wanted_lower = {x.lower() for x in values_wanted}
+    values_added = set()
     for [name, value] in colors:
         if name.lower() in values_wanted_lower:
             trait["scale"].append([name, value])
+            values_added.add(name.lower())
         else:
-            print(name)
+            print("Heads up: a colour has been set for division -> {} but it is not found in the data!".format(name))
+    for missing_name in values_wanted_lower - values_added:
+        print("WARNING: Colour for division -> {} is missing & auspice will choose a shade of grey for this.".format(missing_name))
+
 
 def update_latlongs(geo_resolutions, values_wanted, latlongs):
+    """Add in values to the geo_resolutions section of the JSON from the latlongs"""
     trait = [x for x in geo_resolutions if x["key"]=="division"][0]
     for x in values_wanted:
         if x not in trait["demes"].keys():
-            trait["demes"][x] = latlongs[x]
+            try:
+                trait["demes"][x] = latlongs[x]
+            except KeyError:
+                print("WARNING: The lat/long value for division -> {} is missing from the lat/longs TSV. Please add it!".format(x))
+                # sys.exit(2)
 
 if __name__ == '__main__':
 
