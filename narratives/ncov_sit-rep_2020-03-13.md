@@ -144,7 +144,7 @@ This suggests ongoing transmission and local spread within these two states.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&label=clade:A6a&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 Here, we see a large cluster of cases from Washington that are all closely related.
 From this, we conclude that there is extensive local spread within Washington state.
 <br><br>
