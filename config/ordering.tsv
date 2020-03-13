@@ -37,6 +37,8 @@ location	Sydney
 location	Clayton
 location	Auckland
 location	Heinsberg District
+location	Heinsberg
+location	Munich
 location	Duesseldorf
 location	Delft
 location	Utrecht
@@ -130,6 +132,7 @@ division	Ile de France
 division	Auvergne Rhone Alpes
 division	Flanders
 division	Bavaria
+
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
 division	Utrecht
