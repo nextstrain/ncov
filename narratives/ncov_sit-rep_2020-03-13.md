@@ -15,27 +15,34 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text -->
 ## [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* Executive summary
-* [Background resources & how to use these narratives](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).    
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).  
-* [What YOU can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).    
+* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).  
+* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=13).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-<div width="50%">
 # Executive summary
-
+<div width="50%">
 Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
 
 In this week's updates, we report:  
-### COVID-19 is circulating widely across Europe, with significant movement between countries  
-### We identify at least 3 independent transmission chains currently moving across Europe  
-### We identify at least 4 introductions to the UK, some with onward community transmission  
-### Many introductions into the U.S. to date, resulting in local transmission chains in multiple states  
-### Link between the Grand Princess cruise and the ongoing outbreak in Washington state, USA  
+* COVID-19 is circulating widely across Europe, with significant movement between countries  
+<br><br>
+* We identify at least 3 independent transmission chains currently moving across Europe  
+<br><br>
+* We identify at least 4 introductions to the UK, some with onward community transmission  
+<br><br>
+* Many introductions into the U.S. to date, resulting in local transmission chains in multiple states  
+<br><br>
+* Link between the Grand Princess cruise and the ongoing outbreak in Washington state, USA  
 </div>
 ```
 
@@ -87,16 +94,17 @@ While this data enables us to infer many useful characteristics of the outbreak 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom&label=clade:A2&m=div)
+# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom&label=clade:A2a&m=div&p=grid)
 Here, we see a large clade of sequences from Europe.
 Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
+<br><br>
 Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred, and other hypotheses that can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](hhttps://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom&label=clade:A2&m=div&p=grid)
+# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom&label=clade:A2&m=div&p=grid)
 Let's zoom out to start to disentangle this. Here, we can see that within Europe, there are at least 3 active transmission chains -- that is, groups of closely related cases that are all from countries within Europe.
 <!-- There is no right side text -->
 
@@ -131,7 +139,7 @@ This suggests ongoing transmission and local spread within these two states.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?f_country=USA&label=clade:B1&m=div)
+# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid)
 Here, we see a large cluster of cases from Washington that are all closely related.
 From this, we conclude that there is extensive local spread within Washington state.
 <br><br>
@@ -142,7 +150,8 @@ We aren't sure yet whether the virus spread from the cruise ship to Washington o
 <!-- This is left-side text -->
 # [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&d=tree,map&f_division=California&m=div&p=grid)
 Looking at samples from California, we see evidence for multiple introductions.
-More importantly, if we see at least one cluster of closely related cases, all sampled in California over a short time period (click on 'Explore the Data' and search for 'CA9' to see on example).
+More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on 'Explore the Data' and search for 'CA9' to see on example).
+<br><br>
 This strongly suggests that there is ongoing local transmission within California.
 <!-- There is NO right-side text -->
 
@@ -161,7 +170,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 # What you can do  
 
 Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
-If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+ If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div width="50%">
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="500px">
 </div>
