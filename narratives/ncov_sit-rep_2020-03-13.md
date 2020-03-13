@@ -31,6 +31,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Executive summary
+
 Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
 
 
@@ -106,7 +107,7 @@ While this data enables us to infer many useful characteristics of the outbreak 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=open&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 Here, we see a large clade of sequences from Europe.
 Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
 <br><br>
@@ -115,8 +116,8 @@ Zooming in on the map, we see that there are many links between Italy and other 
 <!-- There is no right side text -->
 
 
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=open&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see that we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland
+# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland
 <br><br>
 This is consistent with 4 or more introductions from other locations.
 <br><br>
@@ -125,20 +126,20 @@ We also see instances where after an introduction, there are several closely-rel
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid)
+# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed)&m=div
 A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places. Note that there are no full genomes available from patients in Iran.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Transmission across Australia](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Australia&label=clade:A3&p=grid)
+# [Transmission across Australia](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=Australia&label=clade:A3&p=grid&legend=closed&m=div)
 Looking at just the genomes from Australia, there are clusters of closely related cases that were all sampled around the same time within Australia.
 This indicates that the virus is circulating within the community here.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full)
+# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
 Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
 <br><br>
 Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
@@ -159,7 +160,7 @@ We aren't sure yet whether the virus spread from the cruise ship to Washington o
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid)
+# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 Looking at samples from California, we see evidence for multiple introductions.
 More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on 'Explore the Data' and search for 'CA9' to see on example).
 <br><br>
