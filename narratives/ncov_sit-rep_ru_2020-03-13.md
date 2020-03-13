@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
+title: Геномный анализ распространения COVID-19. Ситуационный отчет 2020-03-13.
 authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Этот отчет использует общедоступные геномные данные для отслеживания распространения COVID-19. Отчеты обновляются еженедельно."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,19 +13,19 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [Содержание](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Справочные ресурсы](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).
+* [Примечяние о сборе образцов](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [Распространение в Европе](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
+* [Локальная передача в Великобритании](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
+* [Распространение SARS-CoV-2 из Ирана](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [Ввоз в США](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [Распространение SARS-CoV-2 в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [Распространение SARS-CoV-2 в Калифорнии](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [Что вы можете предпринять](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [FAQ & Заблуждения](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+* [Благодарности](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
