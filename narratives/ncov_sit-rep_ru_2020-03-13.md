@@ -29,30 +29,31 @@ abstract: "Этот отчет использует общедоступные �
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Резюме
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+Мы провели анализ 410</tag> общедоступных генома COVID-19. Сопоставив эти геномы вируса между собой, мы можем охарактеризовать как COVID-19 развивается и перемещается по всему миру.
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+Чтобы узнать текущее количество случаев коронавируса по всему миру, смотрите [Our World In Data](https://ourworldindata.org/coronavirus).
 
-In this week's updates, we report:  
+В этом отчете мы показываем, что вирус широко циркулирует по всему миру, с признаками локальной передачи на нескольких континентах.
+В настоящее время, мы призываем сосредоточиться на усилиях по замедлению распространения в общинах; запреты на поездки в менее вероятной степени эффективны.
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+В обновлениях этой недели мы сообщаем:
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* COVID-19 широко циркулирует по всей Европе, со значительным перемещением между странами.
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* Мы установили по крайней мере 4 случая ввоза в Великобританию, в некоторых случаях с последующей передачей в общинах.
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+* Был ряд случаев, связанных с поездками, соединяющих Иран с другими частями мира.
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+* На сегодняшний день было много случаев ввоза в США, что привело к цепочкам локальных передач в нескольких штатах.
 
-* There is local circulation of COVID-19 in California.  
+* Вспышка продолжает расти в штате Вашингтон; некоторые случаи тесно связаны со случаями на круизном лайнере Grand Princess.
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+* Наблюдается локальная циркуляция COVID-19 в Калифорнии.
+
+* Меры социального дистанцирования должны быть быстро задействованы для того, чтобы облегчить нагрузку на системы здравоохранения и защитить уязвимых.
 ```
 
 
