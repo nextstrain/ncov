@@ -269,6 +269,18 @@ rule colors:
             --output {output.colors}
         """
 
+rule recency:
+    message: "Use metadata on submission date to construct submission recency field"
+    input:
+        metadata = rules.download.output.metadata
+    output:
+        "results/recency.json"
+    shell:
+        """
+        python3 scripts/construct-recency-from-submission-date.py \
+            --metadata {input.metadata} \
+            --output {output}
+        """
 
 rule export:
     message: "Exporting data files for for auspice"
@@ -283,7 +295,8 @@ rule export:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description,
-        clades = rules.clades.output.clade_data
+        clades = rules.clades.output.clade_data,
+        recency = rules.recency.output
     output:
         auspice_json = "results/ncov_with_accessions.json"
     shell:
@@ -291,7 +304,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency}\
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \

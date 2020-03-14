@@ -9,7 +9,7 @@
     },
     {
       "key": "division",
-      "title": "Admin division",
+      "title": "Admin Division",
       "type": "categorical"
     },
     {
@@ -47,6 +47,11 @@
       "title": "Submitting Lab",
       "type": "categorical"
     },
+    {
+      "key": "recency",
+      "title": "Submission Date",
+      "type": "categorical"
+    },    
     {
       "key": "gisaid_epi_isl"
     },
