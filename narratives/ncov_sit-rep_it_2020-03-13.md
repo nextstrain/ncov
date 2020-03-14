@@ -267,10 +267,18 @@ Se tutti diminuissero i loro contatti giornalieri con le altre persone del 25%, 
 <!-- * If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  -->
 * Se sei un datore di lavoro, incoraggia i tuoi impegnati a stare a casa quando sono malati (e dagli il supporto economico per farlo).
 
-## Steps officials can take
-* Make testing free and broadly available.
-* Put social distancing measures in place.
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+<!-- ## Steps officials can take  -->
+## Quello che i governi possono fare
+
+<!--  * Make testing free and broadly available. -->
+* Far sì che i test siano gratuiti e ampiamente disponibili
+
+<!-- * Put social distancing measures in place. -->
+* Implementare misure di distanziamento sociale
+
+<!-- * Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.). -->
+* Garantire il supporto finanziario a chi è affetto dalla misure di distanziamento sociale (ad esempio: lavoratori ad ora, persone con anziani o bambini a carico, piccole attività commerciali, etc. )
+
 ```
 
 
