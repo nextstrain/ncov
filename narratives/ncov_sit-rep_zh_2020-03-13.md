@@ -114,12 +114,12 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- There is no right side text -->
 
 
-# [在英国和爱尔兰的传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=dull)
-以不列颠群岛和爱尔兰为例，我们可以看到有几个与其他国家的样本密切相关的病毒出现在不列颠群岛和爱尔兰.
+# [在英国和爱尔兰的本地传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=dull)
+以不列颠群岛和爱尔兰为例，我们可以看到与其他国家的样本亲缘关系很近的病毒出现在不列颠群岛和爱尔兰，并且有多个分支都是如此。
 <br><br>
-这与病毒从其他地方输入至少4次的结论是一致的.
+这表明病毒从其他地方输入至少4次。
 <br><br>
-我们还看到，在输入之后，有几个密切相关的案例来自同一地点。这与当地社区传播是来自于不止一次输入的结论是一致的.
+我们还看到，在输入之后，有几个分支内的多个亲缘关系很近的序列是来自同一地点。这与当地社区传播是来自于不止一次输入的结论是一致的.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
