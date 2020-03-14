@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
+title: 新型コロナウイルス拡散の遺伝的解析と状況報告 2020-03-13.
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (Tomoyuki Nezu)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "このレポートでは、公開されているゲノム情報を使用して、COVID-19の広がりを追跡しています。 これらのレポートは毎週更新されます。"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,9 +13,9 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [目次](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
+* [COVID-19 に関する資料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
 * [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
 * [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
 * [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
@@ -29,65 +29,63 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# 概要
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+ここでは、公に共有されている 410</tag>種のゲノムを分析しました。これらのウイルスのゲノムを相互に比較することにより、COVID-19 が世界中でどのように進化し、移動しているかを特徴付けることができます。
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+世界中のコロナウイルス症例の現在の状況についてはこちらを参照して下さい。 [Our World In Data](https://ourworldindata.org/coronavirus).
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+このレポートでは、複数の大陸でのローカルな感染の証拠とともに、ウイルスが世界中に広まっていることを示しています。
+現時点では、コミュニティ内での拡散を遅らせるための取り組みに焦点を当てることをお勧めします。旅行の禁止は効果的ではありません。
 
-In this week's updates, we report:  
+今週の更新では、以下を報告します： 
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+* COVID-19 はヨーロッパ全体に広く伝搬しており、国々の間で大きな移動があります。  
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* 英国への少なくとも４つの伝搬を特定し、その一部はコミュニティへの広がりを行っています。（Translator note: I think the translation of "community transmission -> コミュニティへの広がり" is incorrect. Rewrite if appropriate.）
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* イランを世界の他の地域と結びつける旅行関連の事例が数多くありました。
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+* これまでに米国に多くの伝搬があり、その結果、複数の州で地域的な広がりの連鎖が生まれました。
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+* ワシントン州でのアウトブレイクは拡大し続けています。いくつかのケースは、グランドプリンセスクルーズ船のケースと密接に関連しています。
 
-* There is local circulation of COVID-19 in California.  
+* カリフォルニアには　COVID-19　の地域伝搬があります。
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+* 医療システムの負担を軽減し、脆弱な人々を保護するために、社会的な距離を置く措置を迅速に実施する必要があります。
+
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
+# [COVID-19 に関する資料](https://nextstrain.org/ncov/2020-03-05)
+COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解するために、読む価値のあるリソースを用意しました。この情報は、このレポートで提示するデータの解釈を容易にします。系統樹に詳しくない場合は、[系統発生の読み方](https://nextstrain.org/narratives/trees-background)の内容を確認した後に戻ってくることをお勧めします。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## 背景
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/>コロナウィルスの背景</a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/>最近の COVID-19 流行の背 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 系統発生の読み方</a>
 </div>
 
-## Further Reading
+## 参考文献
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+* [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) のコロナウイルス感染症流行の概要
+* [米CDC](https://www.cdc.gov/coronavirus/index.html) が提供する資料
 
-## Nextstrain narratives
+## Nextstrain からの状況報告
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+このあとのページが [Nextstrain](https://nextstrain.org) を使用して行われた解析です。左側のサイドバーをスクロールすると項目ごとのテキストが表示され、右側に対応するゲノム情報が表示されます。
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+新規で大型な RNA ウイルスの完全なゲノム情報を早い段階でこのような形にするのは驚くべき成果です。これらの解析は、世界中の科学者によるゲノム情報の迅速かつオープンな共有、解釈によって可能になりました（遺伝子配列の提供者については最後のスライドを参照してください）
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
