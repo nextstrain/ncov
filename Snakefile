@@ -73,7 +73,7 @@ rule align:
     message:
         """
         Aligning sequences to {input.reference}
-          - filling gaps with N
+          - gaps relative to reference are considered real
         """
     input:
         sequences = rules.filter.output.sequences,
@@ -86,7 +86,6 @@ rule align:
             --sequences {input.sequences} \
             --reference-sequence {input.reference} \
             --output {output.alignment} \
-            --fill-gaps \
             --nthreads auto \
             --remove-reference
         """
@@ -106,7 +105,7 @@ rule mask:
     params:
         mask_from_beginning = 130,
         mask_from_end = 50,
-        mask_sites = "18529"
+        mask_sites = "18529 29849 29851 29853"
     shell:
         """
         python3 scripts/mask-alignment.py \
@@ -172,7 +171,11 @@ rule refine:
         """
 
 rule ancestral:
-    message: "Reconstructing ancestral sequences and mutations"
+    message:
+        """
+        Reconstructing ancestral sequences and mutations
+          - not inferring ambiguous mutations
+        """
     input:
         tree = rules.refine.output.tree,
         alignment = rules.mask.output
@@ -187,7 +190,7 @@ rule ancestral:
             --alignment {input.alignment} \
             --output-node-data {output.node_data} \
             --inference {params.inference} \
-            --infer-ambiguous
+            --keep-ambiguous
         """
 
 rule translate:

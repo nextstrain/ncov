@@ -77,7 +77,9 @@ location	Jönköping
 location	Helsinki
 location	Sao Paulo
 location	Mexico City
-location	Seattle
+location	King County
+location	Snohomish County
+location	Pierce County
 location	Solano County
 location	Sonoma County
 location	Orange County
@@ -129,10 +131,11 @@ division	New South Wales
 division	Victoria
 division	Auckland
 division	Ile de France
+division	Normandie
+division	Grand Est
 division	Auvergne Rhone Alpes
 division	Flanders
 division	Bavaria
-
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
 division	Utrecht
