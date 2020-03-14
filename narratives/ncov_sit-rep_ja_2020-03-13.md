@@ -13,17 +13,18 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
+
 # [目次](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
 * [COVID-19 に関する資料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
 * [収集されたデータについて](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
 * [ヨーロッパでの拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [イギリス諸島とアイルランドにおける地域拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
+* [イギリス諸島とアイルランドにおける地域拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [米国への伝搬](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [ワシントン州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [私達に出来ること](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10)
 * [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 * [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
@@ -126,65 +127,57 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
-<br><br>
-Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
-However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases.
-<br><br>
-For Washington and California, though, we do see clusters of cases that are closely related.
-This suggests ongoing transmission and local spread within these two states.
+# [米国への伝搬](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+ここでは、複数の独立した機会にウイルスが米国に伝搬していることがわかります。
+<br><br>これらの伝搬のほとんどは、米国のその他のサンプルケースに関連付けられていないため、これらの伝搬がローカルで拡散したかどうかはわかりません。ただし、感染テストの規模がほとんどの地域でまだ脆弱であることを考えると、多くの未報告のケースがあると予想されます。
+<br><br>ただし、ワシントンとカリフォルニアについては、密接に関連するケースのクラスターがあります。これは、これらの2つの州内で進行中の伝搬と地域拡散を示唆しています。
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Here, we see a large cluster of cases from Washington that are all closely related.
-From this, we conclude that there is extensive local spread within Washington state.
-<br><br>
-Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship.
-We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis.
+
+# [ワシントン州での SARS-CoV-2 の拡散](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+ここでは、ワシントンのケースと密接に関連する大規模なクラスターが見られます。このことから、私達はワシントン州内に広範な地域的な拡散があると結論付けました。
+<br><br>興味深いことに、ワシントンのサンプルには、グランドプリンセスクルーズ船のサンプルが挿入されています。ウイルスがクルーズ船からワシントンに広がったのか、それともその逆であったのかはまだわかりません。 データが増えた段階で、分析を更新します。
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
-<br><br>
-This strongly suggests that there is ongoing local transmission within California.
+# [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+カリフォルニアからのサンプルを見ると、複数の伝搬の証拠があります。さらに重要なことは、密接に関連するケースのクラスターが少なくとも1つあり、すべてが短期間にカリフォルニアで採取されていることです(['Explore the Data'](https://nextstrain.org/ncov) をクリックして Search Strains メニューで 'CA9' を検索して下さい).
+<br><br>これは、カリフォルニア州内で進行中の地域伝搬があることを強く示唆しています。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
+# [まとめ](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+- このウイルスは世界中の多くの場所に何度も伝搬されています。 すべての伝搬が地域拡散になるわけではありません。  
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
+- ヨーロッパ、米国の一部、中国、および東南アジアでの地域拡散の証拠があります。 
 <br><br>
-- Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
+- 地域拡散をコントロールするため、社会的な距離を保ち、弱者を保護することが重要です。
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do  
+# 私達に出来ること  
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+社会的な距離、つまり毎日出会う人の数を減らすことは時には困難を伴いますが、公共の利益にとって非常に有益です。もし全員が毎日の接触数を25％減らすと、来月の累積接触件数は50％減ると予想されます。([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). 
+社会的距離についてはこちらを参照して下さい。[Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
-## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
+## 個人が出来ること
+* 特に脆弱なグループ（高齢者や既往症のある方など）の場合は、毎日接触する人の数を減らしてください。
+* あなたが健康であっても、あなたの周りの多くの人々がそうでないことを忘れないでください。 他の人を守るためにこれらの慣行に従ってください。
+* 良く手を洗って下さい。(Translator note: Is there a Japanese joke that changes to "like you just chopped a jalapeno and have to change a contact lens"? :) ) 
+* 体調が悪い場合は家にいましょう。 自主検疫（自主隔離）する必要がある場合に備えて、いくつかの追加の備品を用意しておきましょう。
+* あなたが雇用主である場合、従業員が病気になったときに自宅待機にして下さい（そして、それを可能とするために、従業員を財政的に支援して下さい。
 
-## Steps officials can take  
-* Make testing free and broadly available.  
-* Put social distancing measures in place.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## 行政機関が出来ること  
+* 検査を広く、無料で利用出来るようにすること。
+* 社会的な距離が保たれているのかを計測すること。 
+* 社会的距離測定の影響を受ける人々を経済的に支援すること（例：時間給労働者、高齢者や育児の責任者、中小企業など）
 ```
 
 
