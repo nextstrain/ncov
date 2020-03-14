@@ -148,7 +148,7 @@ Dit suggereert een voortdurende overdracht en lokale verspreiding binnen deze tw
 Hier zien we een grote cluster van gevallen uit Washington die allemaal nauw aan elkaar verwant zijn.
 Hieruit concluderen we dat er sprake is van een grote lokale verspreiding binnen de staat Washington.
 <br><br>
-Interessant is dat de Washington monsters zich voegen tussen de monsters van het Grand Princess cruiseschip.
+Interessant is dat de monsters van het Grand Princess cruiseschip zich voegen tussen de Washington monsters.
 We weten nog niet zeker of het virus zich heeft verspreid van het cruiseschip naar Washington of andersom; naarmate we meer gegevens krijgen, zullen we onze analyse updaten.
 <!-- There is NO right-side text -->
 
