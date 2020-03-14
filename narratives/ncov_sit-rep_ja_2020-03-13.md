@@ -162,7 +162,7 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 ```auspiceMainDisplayMarkdown
 # 私達に出来ること  
 
-社会的な距離、つまり毎日出会う人の数を減らすことは時には困難を伴いますが、公共の利益にとって非常に有益です。もし全員が毎日の接触数を25％減らすと、来月の累積症例数は50％減ると予想されます。([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). 
+社会的な距離、つまり毎日出会う人の数を減らすことは時には困難を伴いますが、公共の利益にとって非常に有益です。もし全員が毎日の接触数を25％減らすと、来月の累積症例数は50％減ると予想されます([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf))。 
 社会的距離については[こちら](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/)を参照して下さい。
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
