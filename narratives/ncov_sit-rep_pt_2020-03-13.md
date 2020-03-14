@@ -114,7 +114,7 @@ Observando as Ilhas Britânicas e a Irlanda como exemplo, podemos ver vários ca
 <br><br>
 Isso dá consistência a tese de ter havido 4 ou mais introduções de outros locais.
 <br><br>
-Também vemos casos em que após uma introdução, existem vários casos intimamente relacionados no mesmo lugar. Isso reforça que há transmissão comunitária local oriunda de mais de uma dessas introduções.
+Também vemos casos em que após uma introdução, vários casos intimamente relacionados surgem no mesmo lugar. Isso reforça que há transmissão comunitária local oriunda de mais de uma dessas introduções.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
