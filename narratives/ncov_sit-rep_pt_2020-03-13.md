@@ -94,7 +94,7 @@ Atualmente temos amostras sequenciadas em 30 países entre 5 continentes. Isso �
 <br><br>
 Embora esses dados nos permitem inferir muitas características úteis do surto e rastrear seu espalhamento em tempo real, é importante enfatizar que nossas conclusões são limitadas pela quantidade de dados disponíveis no momento.
 <br><br>
-Por exemplo, o mapa mostra muitas poucas sequências do hemisfério sul. Isso NÃO É porque o COVID-19 não está circulando nessas áreas, ou que esses casos não sejam tão importantes para entender; pelo contrário, apenas não temos muitos dados disponíveis dessas áreas. O tamanho de cada círculo no mapa indica a quantidade de dados atualmente disponíveis sobre essa área, e não o tamanho real do surto.
+Por exemplo, o mapa mostra muitas poucas sequências do hemisfério sul. Isso NÃO É porque o COVID-19 não está circulando nessas áreas, ou que esses casos não sejam tão importantes para entender a epidemia; pelo contrário, apenas não temos muitos dados disponíveis dessas áreas. O tamanho de cada círculo no mapa indica a quantidade de dados atualmente disponíveis sobre essa área, e não o tamanho real do surto.
 
 <!-- There is NO right-side text -->
 
@@ -104,7 +104,7 @@ Por exemplo, o mapa mostra muitas poucas sequências do hemisfério sul. Isso N�
 # [Circulação pela Europa](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 Aqui vemos um grande número de sequências da Europa. Visivelmente as sequências de muitos países diferentes se intercalam, indicando que o COVID-19 já está circulando amplamente pelo continente europeu.
 <br><br>
-Aproximando o mapa, vemos que há muitas ligações entre a Itália e outras áreas; No entanto, é importante ter em mente que a direção dessas ligações nem sempre pode ser determinada de forma confiável. Outras hipóteses também podem explicar esses dados (por exemplo, se um caso não amostrado infectou dois casos secundários: um da Itália e um de outro lugar).
+Aproximando o mapa, vemos que há muitas ligações entre a Itália e outras áreas. No entanto, é importante ter em mente que a direção dessas ligações nem sempre pode ser determinada de forma confiável. Outras hipóteses também podem explicar esses dados (por exemplo, se um caso não amostrado infectou dois casos secundários: um da Itália e um de outro lugar).
 
 <!-- There is no right side text -->
 
