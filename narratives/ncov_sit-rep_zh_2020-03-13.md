@@ -22,7 +22,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
 * [病毒进入美国](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
 * [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [SARS-CoV-2在加利佛尼亚州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [SARS-CoV-2在加利福尼亚州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
 * [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
 * [常见问题和误区](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 * [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
@@ -119,27 +119,27 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <br><br>
 这表明病毒从其他地方输入至少4次。
 <br><br>
-我们还看到，在输入之后，有几个分支内的多个亲缘关系很近的序列是来自同一地点。这与当地社区传播是来自于不止一次输入的结论是一致的.
+我们还看到，在输入之后，有几个分支内的多个亲缘关系很近的序列是来自同一地点。这与当地社区传播是来自于不止一次输入的结论是一致的。
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-有多条序列来自于有前往伊朗的旅行史的患者。这些基因组都极其相似，表明伊朗的疫情可能是单次输入的结果，随后传播到了许多其他地方.
+有多条序列来自于有前往伊朗的旅行史的患者。这些基因组都极其相似，表明伊朗的疫情可能是单次输入的结果，随后传播到了许多其他地方。
 <br><br>
-请注意，我们目前还没有伊朗本土病例的完整基因组数据.
+请注意，我们目前还没有伊朗本土病例的完整基因组数据。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [病毒进入美国](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-在这里我们可以看到，该病毒已经有多个独立的输入案例至美国.
+在这里我们可以看到，该病毒已经被多次、独立地输入至美国。
 <br><br>
-这些输入病例中的大多数与来自美国的其他任何样本病例没有关联，所以我们不确定是否是这些输入导致了当地的疫情.
-然而，考虑到美国大多数地区的检测能力还没有提高，我们预计会有很多未报告的病例.
+这些输入病例中的大多数与同处美国的其他样本没有关联，所以我们不确定这些输入案例是否导致了社区传播。
+然而，考虑到美国大多数地区的检测能力还没有提高，我们预期有很多未报告的病例。
 <br><br>
-然而，对于华盛顿州和加利福尼亚州，我们确实看到了密切相关的一连串案例.
-这表明这两个州的传播是持续性的且局部扩大.
+然而，对于华盛顿州和加利福尼亚州，我们确实看到了亲缘关系很近的多条序列聚集成簇的现象。
+这表明这两个州中正发生持续的社区传播。
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -153,7 +153,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [SARS-CoV-2在加利佛尼亚州的传播](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+# [SARS-CoV-2在加利福尼亚州的传播](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 从加利福尼亚州的样本来看，我们发现了多次输入的证据.
 更重要的是，我们看到至少一组密切相关的案例都是在加州短时间内采样的(点击 ['查看数据'](https://nextstrain.org/ncov) 并搜索 'CA9' 来查看示例).
 <br><br>
