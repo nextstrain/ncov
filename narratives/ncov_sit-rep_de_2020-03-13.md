@@ -1,6 +1,6 @@
 ---
 title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (Astrid Gall)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
@@ -38,7 +38,7 @@ gemeinsamen Vorfahren zu schätzen und die Verbreitungsrate zurückzuschliessen.
 Für einen tagesaktuellen Überblick über Fallzahlen verweisen wir auf [Our World In Data](https://ourworldindata.org/coronavirus).
 In diesem Report zeigen wir, dass das Virus weltweit zirkuliert and dass es wiederholt zwischen Kontinenten wandert.
 Daher drängen wir darauf, Resourcen auf die Verlangsamung von lokalen Ausbrüchen zu fokussieren, Reiseeinschränkungen sind zu diesem Zeitpunkt in den meisten Gegenden wenig effektiv.
-In diesem aktualisiertem Bericht legen wir dar, dass
+In diesem aktualisierten Bericht legen wir dar, dass
 
 * COVID-19 europaweit zirkuliert mit vielen Verbindungen zwischen Ländern.
 
