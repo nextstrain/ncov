@@ -155,9 +155,9 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text -->
 # [SARS-CoV-2在加利福尼亚州的传播](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 从加利福尼亚州的样本中，我们发现了多次输入的证据。
-更重要的是，我们看到至少一组密切相关的案例都是在加州短时间内采样得到的(点击 ['查看数据'](https://nextstrain.org/ncov) 并搜索 'CA9' 来查看示例)。
+更重要的是，我们看到至少一组密切相关的案例都是在加州短时间内采样得到的（点击 ['查看数据/Explore the Data'](https://nextstrain.org/ncov) 并搜索 'CA9' 来查看示例）。
 <br><br>
-这强烈地表明加州存在持续的社区传播。
+这强烈地表明加州已存在持续的社区传播。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
