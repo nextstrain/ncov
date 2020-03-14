@@ -60,6 +60,7 @@ Wuhan/WH02/2019
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
 pangolin/Guandong/1/2020
+pangolin/Guangdong/1/2019
 pangolin/Guangdong/P2S/2019
 pangolin/Guangxi/P1E/2017
 pangolin/Guangxi/P2V/2017
