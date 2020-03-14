@@ -117,12 +117,12 @@ abstract: "Этот отчет использует общедоступные �
 <!-- There is no right side text -->
 
 
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
+# [Локальное распространение на Британских островах и в Ирландии](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+Глядя на Британские острова и Ирландию, мы видим несколько случаев появления вирусов, родственных образцам из других стран.
 <br><br>
-This is consistent with 4 or more introductions from other locations.
+Это согласуется с 4 или более случаями проникновения вируса из других мест.
 <br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
+Мы также видим ситуации, где после проникновения вируса наблюдаются несколько родственных случаев в том же самом месте. Это согласуется с местным распространением вируса после подле более чем единичного проникновения.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
