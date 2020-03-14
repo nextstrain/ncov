@@ -17,7 +17,7 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 
 * [COVID-19 に関する資料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
 * [収集されたデータについて](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [ヨーロッパでの拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
+* [ヨーロッパでの拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
 * [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
 * [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
 * [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
@@ -109,20 +109,19 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 <!-- There is no right side text -->
 
 
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
-<br><br>
-This is consistent with 4 or more introductions from other locations.
-<br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
+# [イギリス諸島とアイルランドにおける地域拡散](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+イギリス諸島とアイルランドを例として見ると、他の国のサンプルに密接に関連するウイルスがイギリス諸島とアイルランドに出現するいくつかの事例を見ることができます。
+<br><br>これは、他の場所からの4つ、もしくはそれ以上の伝搬と一致しています。
+<br><br>また、伝搬後の事例として、同じ場所より密接に関連するケースがいくつかあります。これは、複数の地域コミュニティでの伝搬から、地域コミュニティへ伝搬されたことと一致します。
+
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
-<br><br>
-Note that there are no full genomes available from patients in Iran.
+
+# [イランからの SARS-CoV-2 の拡散](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+イランへの渡航歴を報告している患者から多くのゲノムが分析されています。これらのゲノムはすべてが非常に酷似しており、イランでの単一の流行が、その後多くの地域に伝搬した可能性があります。(Translator note: Some english words have been cut off to make sense in Japanese.)
+<br><br>イランの患者から入手できる完全なゲノムはないことに注意してください。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
