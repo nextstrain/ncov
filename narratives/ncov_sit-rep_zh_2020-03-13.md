@@ -38,7 +38,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 在这份报告中，我们能够看到该病毒正在全球广泛传播，并有证据表明该病毒在多个大洲内存在本地传播。
 在这样的形式之下，我们鼓励将防疫重点放在减缓社区传播的努力上。此外，旅行禁令可能不会有明显的防疫效果。
 
-在本周的更新中，我们发现:  
+在本周的更新中，我们发现：
 
 * COVID-19在整个欧洲广泛传播，在国家之间有很大的流动。
 
@@ -175,7 +175,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 # 你能做些什么
 
 减少接触--也就是说，减少你每天遇到的人的数量。这可能很有挑战性，但能为全体人的公共利益作出极大的贡献。
- 如果每个人的日常接触减少25%，我们预计下个月的累计病例数量将减少50% ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf))。“减少接触”是什么意思？ [请查看这篇有用的指南（英文）](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+ 如果每个人的日常接触减少25%，我们预计下个月的累计病例数量将减少50% ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf))。“减少接触”是什么意思？ [请查看这篇有用的指南（英文）](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/)。
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -190,7 +190,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 ## 政府可以采取的行动
 * 推广免费检测。  
 * 推行减少社交接触的措施。  
-* 在经济上支持受到上述措施影响的人(例如，小时工、老人或儿童的看护人员、小型企业等)。
+* 在经济上支持受到上述措施影响的人（例如，小时工、老人或儿童的看护人员、小型企业等）。
 ```
 
 
@@ -243,12 +243,12 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text -->
 # [科学贡献人员](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家.
-只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析.
+我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家。
+只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析。
 
 <br>
 
-我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台.
+我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台。
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
@@ -384,12 +384,12 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text -->
 # [科学贡献详情](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-所有数据已被共享至[GISAID](https://gisaid.org)数据库.
-我们感谢各位科学家的慷慨分享.
+所有数据已被共享至[GISAID](https://gisaid.org)数据库。
+我们感谢各位科学家的慷慨分享。
 
 <br>
 
-在右边，我们列出了每个实验室共享的序列.
+在右边，我们列出了每个实验室共享的序列。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
