@@ -60,8 +60,8 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 <!-- This is left-side text -->
 # [背景资料](https://nextstrain.org/ncov/2020-03-05)
-我们准备了一些值得一读的材料，让您了解COVID-19（2019冠状病毒病）及其致病病毒SARS-CoV-2（严重急性呼吸综合征冠状病毒2型）.
-这些资料将让我们在本报告中提供的数据更容易理解；如果你不熟悉系统进化树，我们建议你先阅读[如何解读系统进化树](https://nextstrain.org/narratives/trees-background)并在阅读后再回到此页.
+我们准备了一些值得一读的材料，让您了解COVID-19（2019冠状病毒病）及其致病病毒SARS-CoV-2（严重急性呼吸综合征冠状病毒2型）。
+这些资料将让我们在本报告中提供的数据更容易理解；如果你不熟悉系统进化树，我们建议你先阅读[如何解读系统进化树](https://nextstrain.org/narratives/trees-background)并在阅读后再回到此页。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -78,27 +78,27 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 ## 更多资料
 
-* 维基百科上 COVID-19 疫情的概览[中文维基](https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E6%83%85).
-* 美国疾病预防控制中心提供的材料 [US CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-Chinese.html).
+* 维基百科上 COVID-19 疫情的概览[中文维基](https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E6%83%85)。
+* 美国疾病预防控制中心提供的材料 [US CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-Chinese.html)。
 
 ## Nextstrain 状况描述报告
 
-以下页面包含使用[Nextstrain](https://nextstrain.org)执行的分析.
-滚动左侧侧栏将显示文本段落的同时，在右侧会显示相应的基因组数据可视化图.
+以下页面包含使用[Nextstrain](https://nextstrain.org)执行的分析。
+滚动左侧侧栏将显示文本段落的同时，在右侧会显示相应的基因组数据可视化图。
 
 对于一种新型的、基因组较大的RNA病毒，在疫情正在爆发的当下，这么迅速就能获得多条全基因组序列是一项了不起的成就。
-而这些成果是由世界各地的科学家快速公开共享基因组数据和分析而实现的（您可阅读本报告最后一页，我们列出了详细的序列提供单位）.
+而这些成果是由世界各地的科学家快速公开共享基因组数据和分析而实现的（您可阅读本报告最后一页，我们列出了详细的序列提供单位）。
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [关于抽样的注记](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-我们目前有来自5大洲30个国家的样本序列。这是一项令人难以置信的壮举--在病毒大流行期间对一种未知的大型RNA病毒进行测序是很困难的，只有通过世界各地的科学家和医生令人难以置信的工作和及时共享数据才有可能.
+我们目前有来自5大洲30个国家的样本序列。这是一项令人难以置信的壮举--在病毒大流行期间对一种未知的大型RNA病毒进行测序是很困难的，只有通过世界各地的科学家和医生令人难以置信的工作和及时共享数据才有可能。
 <br><br>
-虽然这些数据使我们能够推断出这场疫情的许多有用的特征并实时跟踪其传播，但需要强调的是，我们的结论受到现有数据的限制.
+虽然这些数据使我们能够推断出这场疫情的许多有用的特征并实时跟踪其传播，但需要强调的是，我们的结论受到现有数据的限制。
 <br><br>
-例如，地图上显示来自南半球的序列很少。这既不是因为COVID-19没有在这些地区传播，也不是因为理解这些病例不重要，而仅仅是因为我们没有从这些地区获得多少数据。地图上每个圆圈的大小表示该区域当前有多少数据可用，而不是疫情的真实严重程度.
+例如，地图上显示来自南半球的序列很少。这既不是因为COVID-19没有在这些地区传播，也不是因为理解这些病例不重要，而仅仅是因为我们没有从这些地区获得多少数据。地图上每个圆圈的大小表示该区域当前有多少数据可用，而不是疫情的真实严重程度。
 
 <!-- There is NO right-side text -->
 
@@ -106,15 +106,15 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [在欧洲的传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-在这里，我们可以看到一大批来自欧洲的序列.
-值得注意的是，有来自许多不同国家的序列插入，表明COVID-19已经在欧洲相当广泛地传播.
+在这里，我们可以看到来自欧洲的序列组成了演化树的一个很大的分支。
+值得注意的是，有很多不同国家的序列在这个分支中交织在一起，表明COVID-19已经在欧洲相当广泛地传播。
 <br><br>
-放大地图，我们看到意大利和其他地区之间有许多联系；但是，重要的是要记住，这些联系的方向性并不总是可以肯定地推断出来。其他假设也可以解释这些现象(例如，一个未抽样的病例感染了在意大利测序的继发病例和在其他地方测序的继发病例).
+放大地图，我们看到意大利和其他地区之间有许多联系；但一定要注意，我们并不总能确定这些联系的方向性，其他假设也可以解释这些现象(例如，一个未抽样的病例感染了在意大利测序的继发病例和在其他地方测序的继发病例)。
 
 <!-- There is no right side text -->
 
 
-# [在英国和爱尔兰的传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+# [在英国和爱尔兰的传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=dull)
 以不列颠群岛和爱尔兰为例，我们可以看到有几个与其他国家的样本密切相关的病毒出现在不列颠群岛和爱尔兰.
 <br><br>
 这与病毒从其他地方输入至少4次的结论是一致的.
