@@ -109,10 +109,15 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
   <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
-## Further Reading
+<!--  ## Further Reading -->
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+## Ulteriori Letture
+
+<!--  * Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak). -->
+* Informazioni generali sull'epidemia di SARS-CoV-2 su [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+<!-- * Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html). -->
+* Materiale fornito dal Centro per il Controllo e la Prevenzione delle Malattie degli Stati Uniti[US CDC](https://www.cdc.gov/coronavirus/index.html).
+
 
 ## Nextstrain narratives
 
