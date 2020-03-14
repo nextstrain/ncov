@@ -31,11 +31,11 @@ abstract: "Esse relatório usa dados genômicos compartilhados publicamente para
 ```auspiceMainDisplayMarkdown
 # Resumo
 
-Aqui analisamos 410 genomas do COvID-19 compartilhados publicamente. Ao comparar esses genomas virais uns com os outros, podemos caracterizar como o COVID-19 está evoluindo e se movendo ao redor do mundo.
+Aqui analisamos 410 genomas do COVID-19 compartilhados publicamente. Ao comparar esses genomas virais uns com os outros, podemos caracterizar como o COVID-19 está evoluindo e se movendo ao redor do mundo.
 
 Para uma fotografia atual do número de casos de coronavírus pelo mundo, veja o [Our World In Data](https://ourworldindata.org/coronavirus).
 
-Nesse relatório mostramos como o vírus está circulando amplamente em todo o mundo, com evidências de transmissão local em vários continentes. Nesse momento, pedimos que se concentrem esforços para diminuir a disseminação dentro de comunidades; Proibições de viagens têm menos probabilidade de serem eficazes.
+Nesse relatório mostramos como o vírus está circulando amplamente em todo o mundo, com evidências de transmissão local em vários continentes. Nesse momento, pedimos que concentrem esforços para diminuir a disseminação dentro de comunidades; Proibições de viagens têm menos probabilidade de serem eficazes.
 
 Nesse relatório semanal, relatamos que:  
 
@@ -45,9 +45,9 @@ Nesse relatório semanal, relatamos que:
 
 * Houve um número de casos relacionados a viagens partindo do Irã para outras partes do mundo.  
 
-* Houve muitas introduções do vírus nos Estados Unidos até o momento, o que resultou em correntes de transmissões locais em vários estados.
+* Houve muitas introduções do vírus nos Estados Unidos até o momento, o que resultou em cadeias de transmissões locais em vários estados.
 
-* O surto continua crescendo no estado de Washington; Alguns casos são intimamente relacionados àqueles do cruzeiro Grand Princess.  
+* O surto continua crescendo no estado de Washington; Alguns casos são proximamente relacionados àqueles do cruzeiro Grand Princess.  
 
 * Há circulação local do COVID-19 no estado da Califórnia.
 
@@ -77,7 +77,7 @@ Preparamos alguns materiais (em Inglês) que valem a pena ser lidos para se fami
 ## Leituras adicionais
 
 * Resumo do surto de SARS-CoV-2 na [Wikipédia](https://pt.wikipedia.org/wiki/Surto_de_COVID-19).
-* Material disponibilizado pelo [Centro de Controle e Prevenção de Doenças dos Estados Unidos (CDC)](https://www.cdc.gov/coronavirus/index.html).
+* Material (em inglês) disponibilizado pelo [Centro de Controle e Prevenção de Doenças dos Estados Unidos (CDC)](https://www.cdc.gov/coronavirus/index.html).
 
 ## Narrativas Nextstrain
 
@@ -90,7 +90,7 @@ Ter acesso a genomas completos de um novo vírus de RNA longo, e tão rapidament
 
 <!-- This is left-side text -->
 # [Observação sobre amostragem](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-Atualmente temos amostras sequenciadas em 30 países entre 5 continentes. Isso é um feito incrível — sequenciar um vírus RNA grande e desconhecido em meio a uma pandemia é difícil, e só é possível através do trabalho incrível, além do compartilhamento oportuno de dados por cientistas e médicos em todo o mundo
+Atualmente temos amostras sequenciadas em 30 países entre 5 continentes. Isso é um feito incrível — sequenciar um vírus RNA longo e desconhecido em meio a uma pandemia é difícil, e só é possível através do incrível trabalho e rápido compartilhamento de dados por cientistas e médicos em todo o mundo.
 <br><br>
 Embora esses dados nos permitem inferir muitas características úteis do surto e rastrear seu espalhamento em tempo real, é importante enfatizar que nossas conclusões são limitadas pela quantidade de dados disponíveis no momento.
 <br><br>
