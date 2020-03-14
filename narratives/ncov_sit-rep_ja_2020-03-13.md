@@ -16,8 +16,8 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 # [目次](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
 * [COVID-19 に関する資料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
+* [収集されたデータについて](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [ヨーロッパでの拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
 * [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
 * [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
 * [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
@@ -91,23 +91,20 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
-<br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
-<br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+
+# [収集されたデータについて](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+現在、我々の元には、5大陸の30か国で採取されたサンプルの遺伝子配列があります。 これは信じられないほどの偉業です。今まさに流行が起きている状況下で、未知の大きな RNA ウイルスを分析することは難しいことです。これは世界中の科学者や医師による信じられないほどの作業とデータのタイムリーな共有によってのみ可能です。
+<br><br>このデータにより、多くの有用な特性を推測し、流行の広がりをリアルタイムで追跡することができますが、結論は利用可能なデータによって制限されることに留意して下さい。
+<br><br>たとえば、地図には南半球からの遺伝子配列がほとんど表示されていません。これは、COVID-19 がこれらの地域で流通していないため、またはこれらのケースを理解する重要性が無いためではありません。むしろ、これらの地域からの入手可能なデータが少ないことを意味します。マップ上のそれぞれの円のサイズは、流行の広がり度合いを示すものではなく、そのエリアにおいて利用可能なデータ量を示します。
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
-<br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+# [ヨーロッパでの拡散](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+ここでは、ヨーロッパからの遺伝子配列の大きな系統群が見られます。特に、多くの異なる国からの遺伝子配列が挿入され、COVID-19 がすでにヨーロッパ全体に非常に広く流行していることを示しています。
+<br><br>地図を拡大すると、イタリアと他の地域との間に多くのリンクがあることがわかります。ただし、これらのリンクの方向性を確実に推測できるわけではないことに注意してください。他の仮説でもこれらのデータを説明できます（たとえば、収集されていないケースが、イタリアで分析されたセカンダリケースと他の場所で分析されたセカンダリケースの両方に感染した場合）（Translator note: Is there a proper Japanese translation of the "secondary case"? 二次感染？）
 
 <!-- There is no right side text -->
 
