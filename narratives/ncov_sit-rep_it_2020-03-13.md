@@ -20,7 +20,7 @@ abstract: "Questo report usa dati genomici pubblicamente condivisi per ricostrui
 <!--* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2). -->
 * [Una nota sulla raccolta dei campioni](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
 <!--* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3). -->
-* [Circolazione in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).  
+* [Circolazione in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
 <!--* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).  -->
 * [Trasmissione locale in U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
 <!--* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).-->
@@ -49,38 +49,38 @@ abstract: "Questo report usa dati genomici pubblicamente condivisi per ricostrui
 In quanto segue, abbiamo analizzato 410</tag> genomi di COVID-19 pubblicamente condivisi. Confrontando tra loro questi genomi virali possiamo caratterizzare come COVID-19 si sta evolvendo e spostando nel mondo.
 
 <!-- For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).-->
-Per seguire in tempo reale il numero di casi di coronavirus nel mondo, vai a [Our World In Data] 
+Per seguire in tempo reale il numero di casi di coronavirus nel mondo, vai a [Our World In Data]
 (https://ourworldindata.org/coronavirus).
 
 <!-- In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
 At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.-->
 
 In questo report, osserviamo come il virus stia circolando in tutto il mondo con prove di trasmissione locale in multipli continenti.
-In questo momento, riteniamo necessario che gli sforzi siano concentrati a rallentare la diffusione nelle comunità; i divieti di viaggare hanno meno probabilità di essere efficaci. 
+In questo momento, riteniamo necessario che gli sforzi siano concentrati a rallentare la diffusione nelle comunità; i divieti di viaggare hanno meno probabilità di essere efficaci.
 
 <!-- In this week's updates, we report:-->
-Nell'aggiornamento di questa settimana: 
+Nell'aggiornamento di questa settimana:
 
 <!-- * COVID-19 is circulating widely across Europe, with significant movement between countries.-->
-* COVID-19 si sta ampiamente diffondendo in tutta Europa, spostandosi in modo significativo tra i diversi stati.  
+* COVID-19 si sta ampiamente diffondendo in tutta Europa, spostandosi in modo significativo tra i diversi stati.
 
-<!-- * We identify at least 4 introductions to the UK, some with onward community transmission.--> 
+<!-- * We identify at least 4 introductions to the UK, some with onward community transmission.-->
 * Abbiamo indentificato almeno 4 diversi ingressi del virus nel Regno Unito, alcuni dei quali seguiti dalla trasmissione nella comunità.
 
-<!-- * There have been a number of travel-related cases linking Iran with other parts of the world.--> 
+<!-- * There have been a number of travel-related cases linking Iran with other parts of the world.-->
 * Ci sono stati un certo numero di casi relativi a viaggi effetuati dall'Iran ad altre parti del mondo.
 
-<!-- * There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.--> 
+<!-- * There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.-->
 * Ad oggi, ci sono stati molti ingressi del virus negli Stati Uniti che sono risultati in trasmissioni a catena in più stati.
 
-<!-- * The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.-->  
-* L'epidemia continua a crescere nello stato di Washinton; alcuni casi sono strettamenti connessi a quelli della nave da crociera Grand Princess. 
+<!-- * The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.-->
+* L'epidemia continua a crescere nello stato di Washinton; alcuni casi sono strettamenti connessi a quelli della nave da crociera Grand Princess.
 
-<!-- * There is local circulation of COVID-19 in California.--> 
+<!-- * There is local circulation of COVID-19 in California.-->
 * C'è una diffusione locale di COVID-19 in California.
 
-<!-- * Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.--> 
-* Misure di isolamento sociale dovrebbero essere messe in atto velocemente per alleviare l'onere sul sistema sanitario e proteggere i più vulnerabili. 
+<!-- * Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.-->
+* Misure di isolamento sociale dovrebbero essere messe in atto velocemente per alleviare l'onere sul sistema sanitario e proteggere i più vulnerabili.
 
 ```
 
@@ -192,18 +192,18 @@ This strongly suggests that there is ongoing local transmission within Californi
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
+- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
+- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.
 <br><br>
 - Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do  
+# What you can do
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
+Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.
  If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
@@ -212,13 +212,13 @@ Social distancing -- that is, decreasing the number of people you encounter each
 ## Steps individuals can take
 * Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
 * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
+* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".
+* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.
+* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).
 
-## Steps officials can take  
-* Make testing free and broadly available.  
-* Put social distancing measures in place.  
+## Steps officials can take
+* Make testing free and broadly available.
+* Put social distancing measures in place.
 * Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
 ```
 
@@ -237,7 +237,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Further reading  
+# Further reading
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
