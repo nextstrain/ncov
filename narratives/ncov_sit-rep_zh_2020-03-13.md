@@ -16,7 +16,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 # [目录](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
 * [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [关于抽样的注记](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [关于抽样](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
 * [在欧洲的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
 * [在英国国内的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
 * [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
@@ -93,7 +93,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [关于抽样的注记](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+# [关于抽样](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
 我们目前有来自5大洲30个国家的样本序列。这是一项令人难以置信的壮举--在病毒大流行期间对一种未知的大型RNA病毒进行测序是很困难的，只有通过世界各地的科学家和医生令人难以置信的工作和及时共享数据才有可能。
 <br><br>
 虽然这些数据使我们能够推断出这场疫情的许多有用的特征并实时跟踪其传播，但需要强调的是，我们的结论受到现有数据的限制。
@@ -183,7 +183,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 ## 个人可以采取的行动
 * 减少每天接触的人数，风险人群尤其要这样做（例如老年人和有既往疾病的人）。
 * 请记住，即使你不属于高风险人群，你周围的许多人也可能属于高危人群；遵循以上做法可以保护他人。
-* 仔细洗手，要像你沾上恶心的东西一样经常洗手。
+* 仔细洗手，要像你沾上过恶心的东西一样经常洗手。
 * 生病时留在家里；准备一些额外的补给，以备自我隔离。
 * 如果你是雇主，请鼓励员工在生病时留在家里（并提供相应的经济支持）。  
 
