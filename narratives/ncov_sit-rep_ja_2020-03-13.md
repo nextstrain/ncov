@@ -20,7 +20,7 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 * [収集されたデータについて](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
 * [ヨーロッパでの拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
 * [イギリス諸島とアイルランドにおける地域拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [イギリス諸島とアイルランドにおける地域拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [イランからの SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
 * [米国への伝搬](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
 * [ワシントン州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
 * [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
