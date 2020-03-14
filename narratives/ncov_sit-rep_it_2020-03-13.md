@@ -115,17 +115,24 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
 
 <!--  * Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak). -->
 * Informazioni generali sull'epidemia di SARS-CoV-2 su [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+
 <!-- * Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html). -->
 * Materiale fornito dal Centro per il Controllo e la Prevenzione delle Malattie degli Stati Uniti[US CDC](https://www.cdc.gov/coronavirus/index.html).
 
 
-## Nextstrain narratives
+<!--  ## Nextstrain narratives -->
+## Analisi Nextstrain
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+<!-- The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
+Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data. --> 
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+Le pagine che seguono contengono l'analisi eseguita utilizzando [Nextstrain](https://nextstrain.org).
+Scorrendo lungo la barra laterale sinistra sarà possibile leggere il testo relativo alla visualizzazione dei dati genomici.
+
+<!-- To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
+These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship). --> 
+Avere a disposizione così rapidamente i genomi completi per un nuovo RNA virale è un risultato notevole. 
+Queste analisi sono state rese possibili grazie alla rapida e libera diffusione dei dati genomici e alla loro interpretazione da parte degli scienziati di tutto il mondo (nella slide finale è possibile leggere i nomi degli autori del sequenziamento).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
