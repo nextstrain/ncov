@@ -91,7 +91,7 @@ Nell'aggiornamento di questa settimana:
  <!-- # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.-->
 # [COVID-19 Risorse](https://nextstrain.org/ncov/2020-03-05)
-Di seguito elenchiamo alcune letture utili per familiarizzare con i concetti generali relativi al COVID-19 e al virus che ne è la causa, SARS-CoV-2. 
+Di seguito elenchiamo alcune letture utili per familiarizzare con i concetti generali relativi al COVID-19 e al virus che ne è la causa, SARS-CoV-2.
 
  <!--  This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.-->
 Queste informazioni renderanno più semplice interpretare i dati che presenteremo più avanti; se non conosci gli alberi filogenetici, leggi ['Come leggere la filogenetica'](https://nextstrain.org/narratives/trees-background) e continua a leggere il resto più tardi.
@@ -124,14 +124,14 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
 ## Analisi Nextstrain
 
 <!-- The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data. --> 
+Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data. -->
 
 Le pagine che seguono contengono l'analisi eseguita utilizzando [Nextstrain](https://nextstrain.org).
 Scorrendo lungo la barra laterale sinistra sarà possibile leggere il testo relativo alla visualizzazione dei dati genomici.
 
 <!-- To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship). --> 
-Avere a disposizione così rapidamente i genomi completi per un nuovo RNA virale è un risultato notevole. 
+These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship). -->
+Avere a disposizione così rapidamente i genomi completi per un nuovo RNA virale è un risultato notevole.
 Queste analisi sono state rese possibili grazie alla rapida e libera diffusione dei dati genomici e alla loro interpretazione da parte degli scienziati di tutto il mondo (nella pagina finale è possibile leggere i nomi degli autori del sequenziamento).
 ```
 
@@ -246,7 +246,7 @@ Distanziamento sociale -- ossia, diminuire il numero di persone che si incontran
 Se tutti diminuissero i loro contatti giornalieri con le altre persone del 25%, ci potrebbe essere una diminuizione del 50% nel numero di casi totali nel mese successivo ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Leggi questa utile guida (in inglese)](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
-</div> 
+</div>
 
 
 <!-- ## Steps individuals can take -->
