@@ -1,6 +1,6 @@
 ---
 title: Genomische analyse van COVID-19 verspreiding. Situatierapportage 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Rutger Vos, Pleuni Pennings, Roan van Scheppingen, Jisca Huisman"
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Rutger Vos, Pleuni Pennings, Roan van Scheppingen, Jisca Huisman)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "13 maart 2020"
