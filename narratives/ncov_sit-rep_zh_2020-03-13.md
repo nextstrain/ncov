@@ -167,14 +167,14 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <br><br>
 - 我们在欧洲、美国部分地区、中国和东南亚看到了本地传播的证据。
 <br><br>
-- 通过减少接触来控制局部疫情对于保护风险人群至关重要。
+- 通过减少接触来控制局部疫情，对于保护风险人群来说，至关重要。
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
 # 你能做些什么
 
-社交控制--也就是说，减少自己每天遇到的人的数量。这可能很有挑战性，但却能为整个社会的公共利益作出极大的贡献。
+社交控制——也就是说，减少自己每天遇到的人的数量。这可能很有挑战性，但却能为整个社会的公共利益作出极大的贡献。
 如果每个人的日常接触减少25%，我们预计下个月的累计病例数量将减少50% ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf))。“社交控制/Social distancing”是什么意思？ [请查看这篇有用的指南（英文）](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/)。
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
@@ -182,8 +182,8 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 ## 个人可以采取的行动
 * 减少每天接触的人数，风险人群尤其要这样做（例如老年人和有既往疾病的人）。
-* 请记住，即使你不属于高风险人群，你周围的许多人也可能属于；遵循这些做法可以保护他人。
-* 仔细洗手。
+* 请记住，即使你不属于高风险人群，你周围的许多人也可能属于高危人群；遵循以上做法可以保护他人。
+* 仔细洗手，要像你沾上恶心的东西一样经常洗手。
 * 生病时留在家里；准备一些额外的补给，以备自我隔离。
 * 如果你是雇主，请鼓励员工在生病时留在家里（并提供相应的经济支持）。  
 
