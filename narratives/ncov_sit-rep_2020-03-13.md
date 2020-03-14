@@ -11,48 +11,50 @@ abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento d
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
-
 <!-- This is left-side text -->
+<!-- Acentos: 	íóú -->
+
 # [Contenidos](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
 * [Lecturas adicionales](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
 * [Nota acerca del muestreo](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulación en Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
+* [Circulación en Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
 * [Transmisión local en Reino Unido](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Propagacion del SARS-CoV-2 desde Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [Propagación del SARS-CoV-2 desde Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
 * [Introdución a EEUU](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Propagacion del SARS-CoV-2 en el estado de Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Propagacion SARS-CoV-2 en California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [Que puedes hacer tu!](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [Propagación del SARS-CoV-2 en el estado de Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [Propagación SARS-CoV-2 en California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [¡Que puedes hacer tu!](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
 * [Preguntas frequentes y conceptos erróneos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Creditos Cientificos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Resumen Ejecutivo
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+Este informe analiza 410</tag> genomas públicos del virus COVID-19. La comparación de estos genomas virales nos permite caracterizar como el COVID-19 evoluciona y va mutando en las diferentes regiones del mundo.
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+Una versión actualizada del numero de casos del coronavirus en el mundo puede encontrarse en [Nuestro mundo en Datos](https://ourworldindata.org/coronavirus).
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+Este reporte muestra que el virus esta circulando alrededor del mundo, con evidencia de transmisión local en varios continentes.
 
-In this week's updates, we report:  
+Como resultado, en este momento urge concentrar esfuerzos en la disminución de la velocidad de contagio entre comunidades locales, pues las restricciones a los viajes son menos probables de ser efectivas.
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+En la actualización de esta semana, reportamos que:
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* El COVID-19 circula abiertamente en toda Europa, con mucho movimiento entre países.
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* Identificamos al menos 4 introducciones del virus al Reino Unido, algunas con transmisiones comunitarias adicionales.
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+* Existen varios casos de transmisiones relacionadas con viajes a Irán.
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+* Existen varias introducciones del virus a EEUU, mismas que han generado cadenas de transmisión local en varios estados.
 
-* There is local circulation of COVID-19 in California.  
+* EL brote del virus continúa creciendo en el estado de Washington. Algunos de estos, están relacionados con los casos originales del crucero Grand Princess.
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+* Existe circulación local del COVID-19 en California.
+
+* Medidas de distanciamiento social deben ser promulgadas para disminuir el impacto en los sistemas de salud y proteger a las personas mas vulnerables. 
 ```
 
 
