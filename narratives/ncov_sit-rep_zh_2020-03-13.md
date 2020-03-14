@@ -19,7 +19,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * [关于抽样的注记](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
 * [在欧洲的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
 * [在英国国内的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [从伊朗传出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
 * [病毒进入美国](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
 * [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
 * [SARS-CoV-2在加利佛尼亚州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
@@ -50,7 +50,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 * 华盛顿州的疫情继续增长；一些病例与至尊公主号游轮上的病例密切相关.  
 
-* 加州由本地传播案例.  
+* 加州有本地传播案例.  
 
 * 应迅速制定社会疏远措施，以减轻医疗系统的负担，保护高风险人群.
 ```
@@ -59,7 +59,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 相关资料](https://nextstrain.org/ncov/2020-03-05)
+# [背景资料](https://nextstrain.org/ncov/2020-03-05)
 我们准备了一些值得一读的材料，让您了解COVID-19（2019冠状病毒病）及其致病病毒SARS-CoV-2（严重急性呼吸综合征冠状病毒2型）.
 这些资料将让我们在本报告中提供的数据更容易理解；如果你不熟悉系统进化树，我们建议你先阅读[如何解读系统进化树](https://nextstrain.org/narratives/trees-background)并在阅读后再回到此页.
 
@@ -93,58 +93,58 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [关于抽样的注记](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+我们目前有来自5大洲30个国家的样本序列。这是一项令人难以置信的壮举--在病毒大流行期间对一种未知的大型RNA病毒进行测序是很困难的，只有通过世界各地的科学家和医生令人难以置信的工作和及时共享数据才有可能.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+虽然这些数据使我们能够推断疫情的许多有用特征并实时跟踪其传播，但需要强调的是，我们的结论受到现有数据的限制.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+例如，地图上显示来自南半球的序列很少。这并不是因为COVID-19没有在这些地区传播，也不是因为这些病例不那么重要，而是因为我们没有从这些地区获得太多数据。地图上每个圆圈的大小表示该区域当前有多少数据可用，而不是疫情的真实严重程度.
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
+# [在欧洲的传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+在这里，我们可以看到一大批来自欧洲的序列.
+值得注意的是，有来自许多不同国家的序列插入，表明COVID-19已经在欧洲相当广泛地传播.
 <br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+放大地图，我们看到意大利和其他地区之间有许多联系；但是，重要的是要记住，这些联系的方向性并不总是可以肯定地推断出来。其他假设也可以解释这些现象(例如，一个未抽样的病例感染了在意大利测序的继发病例和在其他地方测序的继发病例).
 
 <!-- There is no right side text -->
 
 
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
+# [在英国和爱尔兰的传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+以不列颠群岛和爱尔兰为例，我们可以看到有几个与其他国家的样本密切相关的病毒出现在不列颠群岛和爱尔兰.
 <br><br>
-This is consistent with 4 or more introductions from other locations.
+这与病毒从其他地方输入至少4次的结论是一致的.
 <br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
+我们还看到，在输入之后，有几个密切相关的案例来自同一地点。这与当地社区传播是来自于不止一次输入的结论是一致的.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
+# [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+部分测序来自于有前往伊朗的旅行史的患者。这些基因组都极其相似，表明伊朗的疫情可能是单一传播的结果，随后传播到了许多其他地方.
 <br><br>
-Note that there are no full genomes available from patients in Iran.
+请注意，目前来自伊朗病例的基因组是不完整的.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
+# [病毒进入美国](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+在这里我们可以看到，该病毒已经有多个独立的输入案例至美国.
 <br><br>
-Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
-However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases.
+这些输入病例中的大多数与来自美国的其他任何样本病例没有关联，所以我们不确定是否是这些输入导致了当地的疫情.
+然而，考虑到美国大多数地区的检测能力还没有提高，我们预计会有很多未报告的病例.
 <br><br>
-For Washington and California, though, we do see clusters of cases that are closely related.
-This suggests ongoing transmission and local spread within these two states.
+然而，对于华盛顿州和加利福尼亚州，我们确实看到了密切相关的一连串案例.
+这表明这两个州的传播正在进行且局部扩大.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+# [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 Here, we see a large cluster of cases from Washington that are all closely related.
 From this, we conclude that there is extensive local spread within Washington state.
 <br><br>
@@ -153,7 +153,7 @@ We aren't sure yet whether the virus spread from the cruise ship to Washington o
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+# [SARS-CoV-2在加利佛尼亚州的传播](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 Looking at samples from California, we see evidence for multiple introductions.
 More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
 <br><br>
@@ -172,7 +172,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do  
+# 你能做些什么
 
 Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
  If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
@@ -198,7 +198,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [常见问题和误区](https://nextstrain.org/ncov/2020-03-05)
 
 #### We know that a lot of people have questions about COVID-19.
 
@@ -241,7 +241,7 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [科学贡献人员](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
