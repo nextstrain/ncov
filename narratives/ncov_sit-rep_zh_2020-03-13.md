@@ -107,7 +107,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text -->
 # [在欧洲的传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 在这里，我们可以看到来自欧洲的序列组成了演化树的一个很大的分支。
-值得注意的是，有很多不同国家的序列在这个分支中交织在一起，表明COVID-19已经在欧洲相当广泛地传播。
+值得注意的是，很多不同国家的序列在这个分支中交错排列，表明COVID-19已经在欧洲相当广泛地传播。
 <br><br>
 放大地图，我们看到意大利和其他地区之间有许多联系；但一定要注意，我们并不总能确定这些联系的方向性，其他假设也可以解释这些现象(例如，一个未抽样的病例感染了在意大利测序的继发病例和在其他地方测序的继发病例)。
 
@@ -145,11 +145,11 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-在这里我们可以看到来自华盛顿的一大群密切相关的病例.
-由此，我们得出结论，华盛顿州内存在广泛的地方性传播.
+在这里我们可以看到，来自华盛顿州的病毒序列的亲缘关系很近，在演化树中被聚成一大簇。
+由此我们得出结论，华盛顿州内存在广泛的社区传播。
 <br><br>
-值得注意的是，华盛顿的样本与至尊公主号游轮上的样本参杂在一起.
-我们还不确定病毒是从游轮传播到华盛顿还是从华盛顿传播到游轮；随着我们获得更多的数据，我们将更新我们的分析.
+值得注意的是，在这个分支中，华盛顿州的样本与至尊公主号游轮上的样本交织在一起。
+我们还不确定病毒是从游轮传播到华盛顿州还是从华盛顿州传播到游轮；随着我们获得更多的数据，我们将更新我们的分析.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
