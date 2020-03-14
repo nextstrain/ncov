@@ -227,17 +227,22 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [Domande frequenti e convinzioni errate](https://nextstrain.org/ncov/2020-03-05)
+<!-- # [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05) -->
 
-#### We know that a lot of people have questions about COVID-19.
+#### Sappiamo che molte persone hanno domande sul COVID-19.
+<!-- #### We know that a lot of people have questions about COVID-19. -->
 
-#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+#### [Per questo abbiamo creato una guida per provare a rispondere ad alcune delle domande più frequenti](https://nextstrain.org/help/coronavirus/FAQ).
+<!-- #### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ). -->
 
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
+#### Anche la Federazione degli Scienziati Americani mantiene [un'ottima risorsa per delle FAQ](https://covid19.fas.org/l/en).
+<!-- #### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en). -->
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Further reading
+# Ulteriori letture (in inglese)
+<!-- # Further reading -->
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
@@ -247,13 +252,16 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 * "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
+# Convinzioni errate
+<!-- # Misconceptions -->
 
-# Misconceptions
+Stanno circolando diverse idee errate sulle origini del nuovo coronavirus.
+<!-- A number of misconceptions have been circulated about the origins of the novel coronavirus. -->
+Durante epidemie come questa, la diffusione incontrollata di informazioni notoriamente errate può generare panico e diminuire la fiducia della popolazione negli scienziati e nel governo. Questo può portare a non seguire i consigli più sensati e a non prendere le appropriate precauzioni per evitare il contagio.
+<!-- During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions. -->
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
-
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+Nel tentativo di spiegare perché queste convinzioni non sono corrette, gli scienziati hanno affrontato queste teorie nelle pagine che seguono (in inglese):
+<!-- In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below: -->
 
 <div>
 
@@ -270,20 +278,25 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Ringraziamenti](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+<!-- # [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->i
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Ringraziamo tutti gli scienziati al lavoro su questa epidemia, e in particolare quelli che lavorano in Cina, per lo straordinario e tempestivo lavoro fatto.
+<!-- We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China. -->
+È solo attraverso la rapida condivisione di dati e metadati genomici che analisi come questa sono possibili.
+<!-- Only through the rapid sharing of genomic data and metadata are analyses such as these possible. -->
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Siamo anche grati a [GISAID](https://gisaid.org) per aver fornito la piattaforma su cui questi dati sono stati caricati e condivisi.
+<!-- We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared. -->
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Ringraziamo i seguenti laboratori per i dati raccolti:
+<!-- We are grateful for the data gathered by these originating labs: -->
 
 * Arizona Department of Health Services
 * Auckland Hospital
