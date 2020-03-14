@@ -35,7 +35,7 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 
 ここでは、公に共有されている 410</tag>種のゲノムを分析しました。これらのウイルスのゲノムを相互に比較することにより、COVID-19 が世界中でどのように進化し、移動しているかを特徴付けることができます。
 
-世界中のコロナウイルス症例の現在の状況についてはこちらを参照して下さい。 [Our World In Data](https://ourworldindata.org/coronavirus).
+世界中のコロナウイルス症例の現在の状況についてはこちらのリンクを参照して下さい。 [Our World In Data](https://ourworldindata.org/coronavirus).
 
 このレポートでは、複数の大陸でのローカルな感染の証拠とともに、ウイルスが世界中に広まっていることを示しています。
 現時点では、コミュニティ内での拡散を遅らせるための取り組みに焦点を当てることを要請します。旅行の禁止は効果的でないようです。
@@ -63,7 +63,7 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 
 <!-- This is left-side text -->
 # [COVID-19 に関する資料](https://nextstrain.org/ncov/2020-03-05)
-COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解するために、読む価値のあるリソースを用意しました。この情報は、このレポートで提示するデータの解釈を容易にします。系統樹に詳しくない場合は、[系統発生の読み方](https://nextstrain.org/narratives/trees-background)の内容を確認した後に戻ってくることをお勧めします。
+COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解するために、読む価値のあるリソースを用意しました。この情報は、このレポートで提示するデータの解釈を容易にします。系統樹に詳しくない場合は、[系統発生の読み方（英語）](https://nextstrain.org/narratives/trees-background)の内容を確認した上で、次のページへ進めることを推薦します。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -73,21 +73,21 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/>コロナウィルスの背景</a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/>最近の COVID-19 流行の背景 </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/>最近の COVID-19 流行の背景</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 系統発生の読み方</a>
+  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/>系統発生の読み方</a>
 </div>
 
 ## 参考文献
 
-* [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) のコロナウイルス感染症流行の概要
+* [Wikipedia](https://ja.wikipedia.org/wiki/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E6%B5%81%E8%A1%8C_(2019%E5%B9%B4-)) のコロナウイルス感染症流行の概要
 * [米CDC](https://www.cdc.gov/coronavirus/index.html) が提供する資料
 
 ## Nextstrain からの状況報告
 
 このあとのページが [Nextstrain](https://nextstrain.org) を使用して行われた解析です。スクロールすると項目ごとのテキストと対応するゲノム情報が表示されます。
 
-新規で大型な RNA ウイルスの完全なゲノム情報を早い段階でこのような形にするのは驚くべき成果です。これらの解析は、世界中の科学者によるゲノム情報の迅速かつオープンな共有、解釈によって可能になりました（遺伝子配列の提供者については最後のスライドを参照してください）
+新規で大型な RNA ウイルスの完全なゲノム情報を早い段階でこのような形にするのは驚くべき成果です。これらの解析は、世界中の科学者によるゲノム情報の迅速かつオープンな共有、解釈によって可能になりました（遺伝子配列の提供者については最後のスライドを参照してください）。
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
