@@ -30,7 +30,7 @@ The situation reports are generated from Markdown files (such as [this one](http
 | -------- | ------------- | ----------------------- |
 | Mandarin | [Alvin X. Han](https://twitter.com/AlvinXHan), [Fengjun Zhang](https://twitter.com/fengjun_zhang), Wei Ding | 2020-01-30 |
 | Spanish  | [Ch. Julian Villabona-Arenas](https://twitter.com/Chjulian) | 2020-01-30 |
-| Portugese  | [Glaucio Santos](https://twitter.com/glauciomarcos), [Anderson Brito](https://twitter.com/AndersonBrito_) | 2020-01-30 |
+| Portuguese  | [Glaucio Santos](https://twitter.com/glauciomarcos), [Anderson Brito](https://twitter.com/AndersonBrito_) | 2020-01-30 |
 | French  | Etienne Simon-Lorière, Pierre Barrat-Charlaix | 2020-01-30 |
 | German  | Vielen Dank, [Nicola Müller](https://twitter.com/nicfelm), [Richard Neher](https://twitter.com/richardneher) | 2020-01-30 |
 | Russian  | [Ivan Aksamentov](https://twitter.com/ivan_aksamentov), Vadim Puller | 2020-01-30 |
