@@ -144,7 +144,7 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 
 <!-- This is left-side text -->
 # [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-カリフォルニアからのサンプルを見ると、複数の伝搬の証拠があります。さらに重要なことは、密接に関連するケースのクラスターが少なくとも1つあり、すべてが短期間にカリフォルニアで採取されていることです(['Explore the Data'](https://nextstrain.org/ncov) をクリックして Search Strains メニューで 'CA9' を検索して下さい).
+カリフォルニアからのサンプルを見ると、複数の伝搬の証拠があります。さらに重要なことは、密接に関連するケースのクラスターが少なくとも1つあり、すべてが短期間にカリフォルニアで採取されていることです（['Explore the Data'](https://nextstrain.org/ncov) をクリックして Search Strains メニューで 'CA9' を検索して下さい）。
 <br><br>これは、カリフォルニア州内で進行中の地域伝搬があることを強く示唆しています。
 <!-- There is NO right-side text -->
 
