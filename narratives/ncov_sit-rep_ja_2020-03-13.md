@@ -24,9 +24,9 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 * [米国への伝搬](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
 * [ワシントン州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
 * [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [私達に出来ること](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10)
+* [私達に出来ること](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
 * [よくある質問と誤解](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [分析データのクレジット](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 
