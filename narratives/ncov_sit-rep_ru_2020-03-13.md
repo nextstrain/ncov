@@ -1,6 +1,6 @@
 ---
 title: Геномный анализ распространения COVID-19. Ситуационный отчет 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford" (Translation: Vadim Puller, Irina Kalita)
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford. (Translation: Vadim Puller, Irina Kalita, Daniel Taliun)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "13 Марта 2020"
