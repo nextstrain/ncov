@@ -221,10 +221,10 @@ Unsicher was soziale Distanzierung bedeutet? Sehen Sie sich diesen hilfreichen L
 
 # Missverständnisse
 
-Momentan zirkulieren mehrere Missverständnisse über den Ursprung dieses neurtigen Coronaviruses.
+Momentan zirkulieren mehrere Missverständnisse über den Ursprung dieses neuartigen Coronaviruses.
 Solche Falsch-Informationen führen zu verstärkter Unsicherheit und Misstrauen in die Wissenschaft und Behörden, was wiederum die Wahrscheinlichkeit verringert, dass geeignete Vorsichtsmassnahmen getroffen werden.
 
-Wissenschaftler bemühen sich darum zu erklären, wieso diese Behauptungen nicht der Wahrheit entsprechen und wir haben ein paar davon hier (in Englisch) zusammengetragen :
+Wissenschaftler bemühen sich darum zu erklären, wieso diese Behauptungen nicht der Wahrheit entsprechen, und wir haben ein paar davon hier (in Englisch) zusammengetragen :
 
 <div>
 
@@ -248,7 +248,7 @@ Nur durch den raschen Austausch von genomischen Daten und Metadaten sind solche 
 
 <br>
 
-Wir möchten uns auch bei [GISAID](https://gisaid.org) bedanken, dass sie eine Platform bieten um diese Daten heraufzuladen und zu teilen.
+Wir möchten uns auch bei [GISAID](https://gisaid.org) bedanken, dass sie eine Platform bieten, um diese Daten heraufzuladen und zu teilen.
 
 
 <!-- Do not need to translate institutions names -->
