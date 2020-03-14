@@ -60,13 +60,14 @@ In diesem aktualisiertem Bericht legen wir dar, dass
 
 <!-- This is left-side text -->
 # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
+Hier haben wir mehrere lesenswerte Resourcen (auf Englisch) zusammengestellt um sich mit COVID-19 (der Krankeit) um dem Virus welche sie verursacht, SARS-CoV-2, bekannt zu machen.
+Diese Informationen werden es einfacher machen die nachfolgenden Daten zu verstehen.
+
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Hintergrund
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -76,29 +77,28 @@ This information will make interpreting the data we present in this narrative ea
   <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
-## Further Reading
+* Zusammenfassung des COVID-19 Ausbruches auf [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
+* Infomaterial des [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+## Nextstrain Narrative
 
-## Nextstrain narratives
+Die folgenden Seiten enthalten Analysen, die mit [Nextstrain](https://nextstrain.org) durchgeführt wurden.
+Wenn Sie durch die linke Leiste blättern, werden Textabschnitte mit einer entsprechenden Visualisierung der genomischen Daten auf der rechten Seite angezeigt.
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+Das vollständige Genom eines neuartigen und grossen RNA-Virus schnell zu entschlüsseln ist eine bemerkenswerte Leistung.
+Diese Analysen wurden durch den schnellen und offenen Austausch von genomischen Daten und Interpretationen durch Wissenschaftler auf der ganzen Welt ermöglicht (siehe die letzte Folie mit einer Liste der beitragenden Institute).
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
-<br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
-<br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+Wir verfügen derzeit über Sequenzen, die in 30 Ländern auf 5 Kontinenten entnommen wurden. Dies ist eine beieindruckende Leistung - die Sequenzierung eines unbekannten, großen RNA-Virus inmitten einer Pandemie ist schwierig und nur durch die grossartige Arbeit und den rechtzeitigen Datenaustausch von Wissenschaftlern und Ärzten auf der ganzen Welt möglich.
+<br><<br>
+Obwohl wir anhand dieser Daten viele nützliche Merkmale des Ausbruchs ableiten und seine Ausbreitung in Echtzeit verfolgen können, ist es wichtig zu betonen, dass unsere Schlussfolgerungen durch die verfügbaren Daten begrenzt sind.
+<br><<br>
+So zeigt die Karte beispielsweise nur sehr wenige Sequenzen aus dem globalen Süden. Das liegt NICHT daran, dass COVID-19 in diesen Gebieten nicht im Umlauf ist oder dass diese Fälle nicht so entscheidend für das Verständnis sind; vielmehr haben wir einfach nicht viele Daten aus diesen Gebieten zur Verfügung. Die Größe der einzelnen Kreise auf der Karte zeigt an, wie viele Daten aus diesem Gebiet derzeit verfügbar sind, und nicht die wahre Größe des Ausbruchs.
 
 <!-- There is NO right-side text -->
 
@@ -106,40 +106,40 @@ For example, the map shows very few sequences from the global south. This is NOT
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
-<br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+Hier sehen wir eine große Gruppe von Sequenzen aus Europa.
+Insbesondere sind Sequenzen aus vielen verschiedenen Ländern gut gemischt, was darauf hinweist, dass COVID-19 bereits weit in Europa verbreitet ist.
+<br><<br>
+Wenn wir die Karte vergrößern, sehen wir, dass es viele Verbindungen zwischen Italien und anderen Gebieten gibt; es ist jedoch wichtig, sich vor Augen zu halten, dass die Richtung dieser Verbindungen nicht immer sicher abgeleitet werden kann. Auch andere Hypothesen können diese Daten erklären (z.B. wenn ein nicht sequenzierter Fall sowohl einen in Italien sequenzierten Sekundärfall als auch einen anderswo sequenzierten Sekundärfall infiziert hat).
 
 <!-- There is no right side text -->
 
 
 # [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
-<br><br>
-This is consistent with 4 or more introductions from other locations.
-<br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
+Betrachtet man die Britischen Inseln & Irland als Beispiel, so können wir mehrere Fälle sehen, in denen Viren, die eng mit Proben aus anderen Ländern verwandt sind, auf den Britischen Inseln & Irland auftreten.
+<br><<br>
+Dies ist kompatibel mit 4 oder mehr Einführungen von anderen Orten.
+<br><<br>
+Wir sehen auch Fälle, in denen es nach einer Einführung mehrere eng miteinander verbundene Fälle vom selben Ort gibt. Dies stimmt mit der Übertragung von mehr als einer dieser Einführungen durch die lokale Gemeinschaft überein.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
-<br><br>
-Note that there are no full genomes available from patients in Iran.
+Eine Reihe von Genomen von Patienten, die über rezente Reisen in den Iran berichten, wurden sequenziert. Diese Genome sind alle sehr ähnlich und weisen darauf hin, dass der Ausbruch im Iran von einem grossen Cluster dominiert wird, der anschließend an viele andere Orte übertragen wurde.
+<br><<br>
+Beachten Sie, dass vollständigen Genome von Viren direkt aus dem Iran verfügbar sind.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
-<br><br>
-Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
-However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases.
-<br><br>
-For Washington and California, though, we do see clusters of cases that are closely related.
-This suggests ongoing transmission and local spread within these two states.
+Hier können wir sehen, dass das Virus bei mehreren unabhängigen Gelegenheiten in die USA eingeschleppt wurde.
+<br><<br>
+Die meisten dieser Einschleppungen stehen in keinem Zusammenhang mit anderen sequenzierten Fällen aus den USA, so dass wir nicht sicher sind, ob diese Einschleppungen zu lokalen Ausbrüchen führten.
+Da jedoch die Testkapazität in den meisten Gebieten noch nicht ausgebaut ist, gehen wir davon aus, dass es viele nicht gemeldete Fälle gibt.
+<br><<br>
+Für Washington und Kalifornien sehen wir jedoch Cluster von Fällen, die eng miteinander verbunden sind.
+Dies deutet auf eine kontinuierliche Übertragung und lokale Verbreitung innerhalb dieser beiden Bundesstaaten hin.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
