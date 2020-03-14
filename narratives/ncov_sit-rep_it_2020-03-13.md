@@ -48,27 +48,40 @@ abstract: "Questo report usa dati genomici pubblicamente condivisi per ricostrui
 <!--Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.-->
 In quanto segue, abbiamo analizzato 410</tag> genomi di COVID-19 pubblicamente condivisi. Confrontando tra loro questi genomi virali possiamo caratterizzare come COVID-19 si sta evolvendo e spostando nel mondo.
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
-Per una
+<!-- For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).-->
+Per seguire in tempo reale il numero di casi di coronavirus nel mondo, vai a [Our World In Data] 
+(https://ourworldindata.org/coronavirus).
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+<!-- In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
+At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.-->
 
-In this week's updates, we report:  
+In questo report, osserviamo come il virus stia circolando in tutto il mondo con prove di trasmissione locale in multipli continenti.
+In questo momento, riteniamo necessario che gli sforzi siano concentrati a rallentare la diffusione nelle comunità; i divieti di viaggare hanno meno probabilità di essere efficaci. 
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+<!-- In this week's updates, we report:-->
+Nell'aggiornamento di questa settimana: 
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+<!-- * COVID-19 is circulating widely across Europe, with significant movement between countries.-->
+* COVID-19 si sta ampiamente diffondendo in tutta Europa, spostandosi in modo significativo tra i diversi stati.  
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+<!-- * We identify at least 4 introductions to the UK, some with onward community transmission.--> 
+* Abbiamo indentificato almeno 4 diversi ingressi del virus nel Regno Unito, alcuni dei quali seguiti dalla trasmissione nella comunità.
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+<!-- * There have been a number of travel-related cases linking Iran with other parts of the world.--> 
+* Ci sono stati un certo numero di casi relativi a viaggi effetuati dall'Iran ad altre parti del mondo.
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+<!-- * There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.--> 
+* Ad oggi, ci sono stati molti ingressi del virus negli Stati Uniti che sono risultati in trasmissioni a catena in più stati.
 
-* There is local circulation of COVID-19 in California.  
+<!-- * The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.-->  
+* L'epidemia continua a crescere nello stato di Washinton; alcuni casi sono strettamenti connessi a quelli della nave da crociera Grand Princess. 
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+<!-- * There is local circulation of COVID-19 in California.--> 
+* C'è una diffusione locale di COVID-19 in California.
+
+<!-- * Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.--> 
+* Misure di isolamento sociale dovrebbero essere messe in atto velocemente per alleviare l'onere sul sistema sanitario e proteggere i più vulnerabili. 
+
 ```
 
 
