@@ -15,17 +15,17 @@ abstract: "Ce rapport utilise des données génomiques partagées publiquement p
 <!-- This is left-side text -->
 # [Table des matières](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Ressources sur COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).
-* [Une note sur les questions d'échantillonnage](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation en Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
-* [Transmission locale dans les îles britanniques et en Irlande](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?)
-* [Propagation du SRAS-CoV-2 en provenance d'Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions aux Etats-Unis](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Propagation du SRAS-CoV-2 dans l'État de Washington (USA)](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Propagation du SRAS-CoV-2 en Californie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [Ce que vous pouvez faire](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQs & Idées reçues](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Crédit scientifique](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Ressources sur COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=2).
+* [Une note sur les questions d'échantillonnage](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=3).
+* [Circulation en Europe](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=4).
+* [Transmission locale dans les îles britanniques et en Irlande](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?).
+* [Propagation du SRAS-CoV-2 en provenance d'Iran](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=6).
+* [Introductions aux Etats-Unis](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=7).
+* [Propagation du SRAS-CoV-2 dans l'État de Washington (USA)](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=8).
+* [Propagation du SRAS-CoV-2 en Californie](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=9).
+* [Ce que vous pouvez faire](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=10).
+* [FAQs & Idées reçues](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=11).
+* [Crédit scientifique](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -33,7 +33,7 @@ abstract: "Ce rapport utilise des données génomiques partagées publiquement p
 
 Ici, nous avons analysé 410 </tag> génomes du SARS-Cov-2 partagés publiquement. En comparant ces génomes viraux entre eux, nous pouvons caractériser comment Sars-Cov-2 évolue et se déplace dans le monde.
 
-Pour un aperçu actuel du nombre de cas de coronavirus dans le monde, voir[Our World In Data (en anglais)](https://ourworldindata.org/coronavirus).
+Pour un aperçu actuel du nombre de cas de coronavirus dans le monde, voir [Our World In Data (en anglais)](https://ourworldindata.org/coronavirus).
 
 Dans ce rapport, nous montrons que le virus circule largement à travers le monde, avec des preuves de transmission locale sur plusieurs continents. En ce moment, nous demandons instamment aux autorités de se  concentrer sur les efforts pour ralentir la propagation au sein des communautés; les interdictions de voyager sont moins susceptibles d'être efficaces.
 
