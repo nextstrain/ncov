@@ -21,6 +21,7 @@ rule files:
         weights = "config/weights.tsv",
         ordering = "config/ordering.tsv",
         color_schemes = "config/color_schemes.tsv",
+        other_color_schemes = "config/misc_color_schemes.tsv",
         auspice_config = "config/auspice_config.json",
         auspice_config_gisaid = "config/auspice_config_gisaid.json",
         auspice_config_zh = "config/auspice_config_zh.json",
@@ -255,7 +256,8 @@ rule colors:
     message: "Constructing colors file"
     input:
         ordering = files.ordering,
-        color_schemes = files.color_schemes
+        color_schemes = files.color_schemes,
+        other_color_schemes = files.other_color_schemes
     output:
         colors = "config/colors.tsv"
     shell:
@@ -263,9 +265,22 @@ rule colors:
         python3 scripts/assign-colors.py \
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
-            --output {output.colors}
+            --output {output.colors} &&\
+        cat {input.other_color_schemes} >> {output.colors}
         """
 
+rule recency:
+    message: "adding note on submission date"
+    input:
+        metadata = rules.download.output.metadata
+    output:
+        "results/recency.json"
+    shell:
+        """
+        python3 scripts/recency_field.py \
+            --metadata {input.metadata} \
+            --output {output}
+        """
 
 rule export:
     message: "Exporting data files for for auspice"
@@ -280,7 +295,8 @@ rule export:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description,
-        clades = rules.clades.output.clade_data
+        clades = rules.clades.output.clade_data,
+        recency = rules.recency.output
     output:
         auspice_json = "results/ncov_with_accessions.json"
     shell:
@@ -288,7 +304,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency}\
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
