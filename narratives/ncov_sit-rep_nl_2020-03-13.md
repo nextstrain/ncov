@@ -31,7 +31,7 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 ```auspiceMainDisplayMarkdown
 # Samenvatting
 
-Hier hebben we 410</tag> publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virale genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld. 
+Hier hebben we 410</tag> publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virus genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld. 
 
 Voor een actuele momentopname van het aantal coronavirusgevallen in de wereld, zie [Our World In Data](https://ourworldindata.org/coronavirus).
 
@@ -42,7 +42,7 @@ In de updates van deze week rapporteren we het volgende:
 
 * COVID-19 circuleert op grote schaal in Europa, met aanzienlijke bewegingen tussen landen.  
 
-* We identificeren ten minste 4 introducties in het Verenigd Koninkrijk, waarvan sommige met doorgifte binnen de gemeenschap.  
+* We identificeren ten minste 4 introducties in het Verenigd Koninkrijk, waarvan sommige met transmissie binnen de gemeenschap.  
 
 * Er zijn een aantal reisgerelateerde gevallen geweest die Iran met andere delen van de wereld in verband brachten.  
 
@@ -61,7 +61,8 @@ In de updates van deze week rapporteren we het volgende:
 <!-- This is left-side text -->
 # [COVID-19 Bronnen](https://nextstrain.org/ncov/2020-03-05)
 We hebben een aantal bronnen voorbereid die het waard zijn om te lezen om jezelf vertrouwd te maken met COVID-19 en het virus dat het veroorzaakt, SARS-CoV-2.
-Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal presenteren gemakkelijker; als u niet bekend bent met fylogenetische bomen, raden we u aan de ['Hoe kan ik Fylogenieën lezen?' narratief (in English)](https://nextstrain.org/narratives/trees-background) te bekijken en terug te komen wanneer u klaar bent.
+<br><br>
+Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal presenteren makkelijker; als u niet bekend bent met fylogenetische bomen, raden we u aan de ['Hoe kan ik Fylogenieën lezen?' narratief](https://nextstrain.org/narratives/trees-background) te bekijken en terug te komen wanneer u klaar bent.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -87,7 +88,7 @@ De volgende pagina's bevatten analyses die zijn uitgevoerd met behulp van [Nexts
 Door te scrollen worden alinea's met tekst onthuld met een bijbehorende visualisatie van de genomische gegevens.
 
 Om zo snel volledige genomen te hebben van een nieuw en groot RNA-virus is een opmerkelijke prestatie.
-Deze analyses zijn mogelijk gemaakt door het snel en open delen van genomische gegevens en interpretaties door wetenschappers over de hele wereld (zie de laatste dia voor een visualisatie van het sequencing auteurschap).
+Deze analyses zijn mogelijk gemaakt door het snel en open delen van genomische gegevens en interpretaties door wetenschappers over de hele wereld (zie de laatste pagina voor een visualisatie van het sequencing auteurschap).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -98,7 +99,6 @@ We hebben momenteel sequenties van monsters die genomen zijn in 30 landen op 5 c
 <br><br>
 Hoewel deze gegevens ons in staat stellen om veel nuttige kenmerken van de uitbraak af te leiden en de verspreiding ervan in real time te volgen, is het belangrijk om te benadrukken dat onze conclusies beperkt zijn door de beschikbare gegevens.
 <br><br>
-De kaart toont bijvoorbeeld zeer weinig sequenties uit het globale zuiden. Dit is NIET omdat COVID-19 niet in deze gebieden circuleert, of omdat deze gevallen niet zo cruciaal zijn om te begrijpen; we hebben gewoon niet veel gegevens beschikbaar van deze gebieden. De grootte van elke cirkel op de kaart geeft aan hoeveel gegevens er momenteel beschikbaar zijn uit dat gebied, in plaats van de werkelijke grootte van de uitbraak.
 
 <!-- There is NO right-side text -->
 
@@ -125,7 +125,7 @@ We zien ook gevallen waarin er na een introductie verschillende nauw verwante ge
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Verspreiding van SARS-CoV-2 uit Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Een aantal genomen zijn gesequenced uit patiënten die een reisgeschiedenis naar Iran rapporteren. Deze genomen zijn allemaal zeer vergelijkbaar en geven aan dat de uitbraak in Iran het resultaat kan zijn van een enkele overdracht die vervolgens naar vele andere plaatsen is overgebracht.
+Een aantal virus genomen zijn gesequenced uit patiënten die een reisgeschiedenis naar Iran rapporteren. Deze genomen zijn allemaal zeer nauw verwant zijn en geven aan dat de uitbraak in Iran het resultaat kan zijn van een enkele overdracht die vervolgens naar vele andere plaatsen is overgebracht.
 <br><br>
 Merk op dat er geen volledige genomen beschikbaar zijn van patiënten in Iran.
 <!-- There is NO right-side text -->
@@ -133,7 +133,7 @@ Merk op dat er geen volledige genomen beschikbaar zijn van patiënten in Iran.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Introducties in de V.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Hier kunnen we zien dat het virus bij meerdere onafhankelijke gelegenheden in de VS is geïntroduceerd.
+Hier kunnen we zien dat het virus meerdere keren onafhankelijk in de VS is geïntroduceerd.
 <br><br>
 De meeste van deze introducties worden niet geassocieerd met andere bemonsterde gevallen uit de VS, dus we weten niet zeker of deze introducties tot lokale uitbraken hebben geleid.
 Aangezien de testcapaciteit in de meeste gebieden echter nog niet is opgevoerd, verwachten we dat er veel niet-gerapporteerde gevallen zijn.
@@ -174,7 +174,7 @@ Dit wijst er sterk op dat er binnen Californië nog steeds sprake is van lokale 
 ```auspiceMainDisplayMarkdown
 # Wat u kunt doen
 
-Beperken van sociale contacten - dat wil zeggen, het verminderen van het aantal mensen dat je elke dag tegenkomt - kan een uitdaging zijn, maar is enorm gunstig voor het algemeen belang.  
+Beperken van sociale contacten - dat wil zeggen, het verminderen van het aantal mensen dat je elke dag tegenkomt - kan een uitdaging zijn, maar is erg goed voor het algemeen belang.  
  Als iedereen zijn dagelijkse contacten met 25% zou verminderen, dan verwachten we de volgende maand een afname van 50% van het cumulatieve aantal gevallen. ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Weet u niet zeker wat 'social distancing' betekent? [Bekijk deze handige gids (engels)](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
@@ -182,12 +182,12 @@ Beperken van sociale contacten - dat wil zeggen, het verminderen van het aantal 
 
 ## Stappen die individuen kunnen nemen
 * Verminder het aantal mensen met wie u dagelijks in contact komt, vooral als u tot een kwetsbare groep behoort (bijv. senioren en mensen met een bestaande aandoening).
-* Vergeet niet dat zelfs als je niet super kwetsbaar bent, veel mensen om je heen dat wel zijn; volg deze werkwijze om anderen te beschermen.
+* Vergeet niet dat zelfs als je niet erg kwetsbaar bent, veel mensen om je heen dat wel zijn; volg deze werkwijze om anderen te beschermen.
 * Was je handen "alsof je net een chilipeper hebt gesnipperd en een contactlens moet verwisselen".  
 * Blijf thuis als je ziek bent; wees voorbereid met een paar extra benodigdheden voor het geval je zelfquarantaine nodig hebt.  
 * Als u een werkgever bent, moedig dan uw werknemers aan om thuis te blijven als ze ziek zijn (en ondersteun ze financieel).  
 
-## Stappen die functionarissen kunnen nemen  
+## Stappen die bestuurders kunnen nemen  
 * Maak het testen gratis en breed beschikbaar.  
 * Tref maatregelen om sociale contacten te beperken.
 * Verleen financiële steun aan degenen die de gevolgen ondervinden van maatregelen om sociale contacten te beperken (bv. werknemers die per uur betaald worden, werknemers met verantwoordelijkheden op het gebied van ouderen of kinderopvang, kleine bedrijven, enz.)
@@ -204,7 +204,7 @@ Beperken van sociale contacten - dat wil zeggen, het verminderen van het aantal 
 
 #### [We hebben een gids opgesteld om te proberen de meest gestelde vragen te beantwoorden](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### De Federatie van Amerikaanse Wetenschappers onderhoudt ook [een grote bron voor FAQ's](https://covid19.fas.org/l/en).
+#### De Federation of American Scientists onderhoudt ook [een grote bron voor meest gestelde vragen](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -254,7 +254,7 @@ Wij zijn ook [GISAID](https://gisaid.org) dankbaar voor het leveren van het plat
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We zijn dankbaar voor de gegevens die door deze oorspronkelijke laboratoria zijn verzameld:
+We zijn dankbaar voor de gegevens die door deze laboratoria zijn verzameld:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -382,14 +382,14 @@ We zijn dankbaar voor de gegevens die door deze oorspronkelijke laboratoria zijn
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Gedetailleerd wetenschappelijk credits](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Gedetailleerde wetenschappelijk credits](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 Deze gegevens werden gedeeld via [GISAID](https://gisaid.org).
 Wij zijn dankbaar voor hun bijdragen.
 
 <br>
 
-Rechts geven we specifieke sequenties die door elk lab worden gedeeld.
+Rechts geven we specifieke sequenties die door elk lab zijn gedeeld.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
