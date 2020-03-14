@@ -277,7 +277,7 @@ Se tutti diminuissero i loro contatti giornalieri con le altre persone del 25%, 
 * Implementare misure di distanziamento sociale
 
 <!-- * Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.). -->
-* Garantire il supporto finanziario a chi è affetto dalla misure di distanziamento sociale (ad esempio: lavoratori ad ora, persone con anziani o bambini a carico, piccole attività commerciali, etc. )
+* Garantire il supporto finanziario a chi è affetto dalla misure di distanziamento sociale (ad esempio: lavoratori ad orario, persone con anziani o bambini a carico, piccole attività commerciali, etc. )
 
 ```
 
