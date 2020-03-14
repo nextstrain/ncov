@@ -1,13 +1,11 @@
 ---
 title: Analisi genomica della diffusione di COVID-19. Aggiornamento al 2020-03-13.
-<!---Genomic analysis of COVID-19 spread. Situation report 2020-03-13.-->
 authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract:"Questo report usa dati genomici pubblicamente condivisi per ricostruire la diffusione di COVID-19. Questi report sono aggiornati settimanalmente"
-<!--"This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."-->
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -18,7 +16,7 @@ abstract:"Questo report usa dati genomici pubblicamente condivisi per ricostruir
 # [Indice dei contenuti](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 <!--# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)-->
 
-* [Risorse di base](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2). 
+* [Risorse di base](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).
 <!--* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2). -->
 * [Una nota sulla raccolta dei campioni](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
 <!--* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3). -->
@@ -48,10 +46,10 @@ abstract:"Questo report usa dati genomici pubblicamente condivisi per ricostruir
 # Sommario
 
 <!--Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.-->
-In quanto segue, abbiamo analizzato 410</tag> genomi di COVID-19 pubblicamente condivisi. Confrontando tra loro questi genomi virali possiamo caratterizzare come COVID-19 si sta evolvendo e spostando nel mondo. 
+In quanto segue, abbiamo analizzato 410</tag> genomi di COVID-19 pubblicamente condivisi. Confrontando tra loro questi genomi virali possiamo caratterizzare come COVID-19 si sta evolvendo e spostando nel mondo.
 
 For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
-Per una 
+Per una
 
 In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
 At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
