@@ -145,28 +145,25 @@ abstract: "Этот отчет использует общедоступные �
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Here, we see a large cluster of cases from Washington that are all closely related.
-From this, we conclude that there is extensive local spread within Washington state.
+# [Распространение SARS-CoV-2 в штате Вашингтон](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+Здесь мы видим группу близко взаимосвязанных случаев. Мы делаем из этого заключение, что в штате Вашингтон происходит активное локальное распространение вируса.
 <br><br>
-Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship.
-We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis.
+Интересно отметить, что образцы из Вашингтона перекрываются с образцами с круизного лайнера Гранд Принцес (Grand Princess). У нас пока нет уверенности, что вирус распространился с круизного лайнера в Вашингтон или наоборот; с получением новых данных мы обновим наш анализ.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
+# [Распространение SARS-CoV-2 в Калифорнии](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+Глядя на образцы из Калифорнии, мы видим свидетельство многочисленных привнесении вируса. Что более важно, мы видим; как минимум, один кластер близко связанных случаев, все обнаруженные в Калифорнии в течение короткого отрезка времени (кликните на ['Explore the Data'](https://nextstrain.org/ncov) и найдите 'CA9' чтобы увидеть один такой пример).
 <br><br>
-This strongly suggests that there is ongoing local transmission within California.
+Все это убедительно предполагает, что происходит местное распространение вируса в Калифорнии.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
+# [Резюме](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+- Вирус был многократно привнесен во многие части света. Не все привнесения привели к местной передаче вируса.
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
+- Мы видим доказательства местной передачи вируса в Европе, частях Соединенных Штатов, Китае и Западно-Восточной Азии.  
 <br><br>
 - Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
 
