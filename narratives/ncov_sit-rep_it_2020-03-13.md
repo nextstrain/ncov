@@ -80,7 +80,7 @@ Nell'aggiornamento di questa settimana:
 * C'è una diffusione locale di COVID-19 in California.
 
 <!-- * Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.-->
-* Misure di isolamento sociale dovrebbero essere messe in atto velocemente per alleviare l'onere sul sistema sanitario e proteggere i più vulnerabili.
+* Misure di limitazione delle interazioni sociali dovrebbero essere messe in atto velocemente per alleviare l'onere sul sistema sanitario e proteggere i più vulnerabili.
 
 ```
 
@@ -211,19 +211,34 @@ This strongly suggests that there is ongoing local transmission within Californi
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.
+<!-- # [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full) -->
+# [Cose utile da sapere](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+<!-- - The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.
+<br><br> -->
+- Il virus si è introdotto in molte parti del mondo multiple volte. Non tutte gli ingressi del virus sono risultati in trasmissioni dello stesso a livello locale.
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.
+
+<!-- - We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.
+<br><br> -->
+
+- Abbiamo evidenze di trasmissione locale del virus in Europa, parti degli Stati Uniti, Cina e del Sud-Est dell'Asia.
 <br><br>
-- Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
+
+<!-- - Controlling local outbreaks through social distancing is crucial to protect the vulnerable. -->
+
+- Controllare le epidemie locali attraverso la limitazione delle interazioni sociali è fondamentale per proteggere le categorie più vulnerabili.
+
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
+<!-- # What you can do -->
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.
+# Cosa puoi fare
+
+<!-- Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  -->
+Distanziamento sociale -- ossia, diminuire il numero di persone che incontri ogni un giorno-- può essere difficile, ma è estremamente positivo per la salute publica.
+
  If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
