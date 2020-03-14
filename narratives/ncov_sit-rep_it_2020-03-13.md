@@ -221,7 +221,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 <!-- - We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.
 <br><br> -->
 
-- Abbiamo evidenze di trasmissione locale del virus in Europa, parti degli Stati Uniti, Cina e del Sud-Est dell'Asia.
+- Abbiamo evidenze di trasmissione locale del virus in Europa, parte degli Stati Uniti, Cina e del Sud-Est dell'Asia.
 <br><br>
 
 <!-- - Controlling local outbreaks through social distancing is crucial to protect the vulnerable. -->
