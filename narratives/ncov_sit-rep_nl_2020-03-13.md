@@ -107,7 +107,7 @@ De kaart toont bijvoorbeeld zeer weinig sequenties uit het globale zuiden. Dit i
 <!-- This is left-side text -->
 # [Verspreiding binnen Europa](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 Hier zien we een grote clade van sequenties uit Europa.
-Het valt op dat de sequenties uit veel verschillende landen intercaleren, wat erop wijst dat COVID-19 al op grote schaal in Europa circuleert.
+Het valt op dat de sequenties uit veel verschillende landen door elkaar heen staan, wat erop wijst dat COVID-19 al op grote schaal in Europa circuleert.
 <br><br>
 Als we inzoomen op de kaart zien we dat er veel verbanden zijn tussen Italië en andere gebieden; het is echter belangrijk om in gedachten te houden dat de richting van deze verbanden niet altijd met vertrouwen kan worden afgeleid. Andere hypothesen kunnen deze gegevens ook verklaren (bv. als een niet bemonsterd geval zowel een secundair geval bemonsterd in Italië heeft geïnfecteerd als een secundair geval dat elders is bemonsterd).
 
@@ -148,7 +148,7 @@ Dit suggereert een voortdurende overdracht en lokale verspreiding binnen deze tw
 Hier zien we een grote cluster van gevallen uit Washington die allemaal nauw aan elkaar verwant zijn.
 Hieruit concluderen we dat er sprake is van een grote lokale verspreiding binnen de staat Washington.
 <br><br>
-Interessant is dat de Washington monsters intercaleren met monsters van het Grand Princess cruiseschip.
+Interessant is dat de Washington monsters zich voegen tussen de monsters van het Grand Princess cruiseschip.
 We weten nog niet zeker of het virus zich heeft verspreid van het cruiseschip naar Washington of andersom; naarmate we meer gegevens krijgen, zullen we onze analyse updaten.
 <!-- There is NO right-side text -->
 
