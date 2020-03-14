@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
+title: 新型冠状病毒（COVID-19）流行病学基因组分析状况报告2020-03-13.
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, Derek Zhang"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-date: "2020 March 13"
+date: "2020年3月13日"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19）基因组数据来追踪病毒的传播. 报告每周更新."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,81 +13,81 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [目录](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
+* [关于抽样的注记](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [在欧洲的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
+* [在英国国内的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
+* [从伊朗传出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [病毒进入美国](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [SARS-CoV-2在加利佛尼亚州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [常见问题和误区](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# 报告摘要
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+在这里，我们分析了410</tag>个公开共享的COVID-19基因组。通过相互比较这些病毒基因组，我们可以描述COVID-19是如何进化和在世界各地传播的.
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+有关全球冠状病毒病例数量的最新信息，请参阅[Our World In Data](https://ourworldindata.org/coronavirus).
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+在这份报告中，我们能够看到该病毒正在全球广泛传播，并有证据表明该病毒在多个大洲进行了局部传播.
+此时，我们敦促将重点放在减缓社区传播的努力上；旅行禁令可能不会有太好的效果.
 
-In this week's updates, we report:  
+在本周的更新中，我们发现:  
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+* COVID-19在整个欧洲广泛传播，在国家之间有很大的流动.  
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* 我们确定了至少4个至英国的单独输入事件，其中一些已有社区传播的发生.  
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* 已经有一些有伊朗旅行史的案例，表面有病毒从伊朗传入世界其他地区.  
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+* 到目前为止，美国已经有了许多输入案例，在多个州建立了本地传播链.  
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+* 华盛顿州的疫情继续增长；一些病例与至尊公主号游轮上的病例密切相关.  
 
-* There is local circulation of COVID-19 in California.  
+* 加州由本地传播案例.  
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+* 应迅速制定社会疏远措施，以减轻医疗系统的负担，保护高风险人群.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
+# [COVID-19 相关资料](https://nextstrain.org/ncov/2020-03-05)
+我们准备了一些值得一读的材料，让您了解COVID-19（2019冠状病毒病）及其致病病毒SARS-CoV-2（严重急性呼吸综合征冠状病毒2型）.
+这些资料将让我们在本报告中提供的数据更容易理解；如果你不熟悉系统进化树，我们建议你先阅读[如何解读系统进化树](https://nextstrain.org/narratives/trees-background)并在阅读后再回到此页.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## 背景
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景知识 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 近期 COVID-19 疫情的背景 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 如何解读进化树 </a>
 </div>
 
-## Further Reading
+## 更多资料
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+* 维基百科上 COVID-19 疫情的概览[中文维基](https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E6%83%85).
+* 美国疾病预防控制中心提供的材料 [US CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-Chinese.html).
 
-## Nextstrain narratives
+## Nextstrain 状况描述报告
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+以下页面包含使用[Nextstrain](https://nextstrain.org)执行的分析.
+滚动左侧侧栏将显示文本段落的同时，在右侧会显示相应的基因组数据可视化图.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+对于一种新型的、基因组较大的RNA病毒，在疫情正在爆发的当下，这么迅速就能获得多条全基因组序列是一项了不起的成就。
+而这些成果是由世界各地的科学家快速公开共享基因组数据和分析而实现的（您可阅读本报告最后一页，我们列出了详细的序列提供单位）.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
