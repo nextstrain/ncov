@@ -36,8 +36,8 @@ Wir haben 410</tag> öffentlich zugängliche Genome des neuartigen Coronavirus
 gemeinsamen Vorfahren zu schätzen und die Verbreitungsrate zurückzuschliessen.
 
 Für einen tagesaktuellen Überblick über Fallzahlen verweisen wir auf [Our World In Data](https://ourworldindata.org/coronavirus).
-In diesem Report zeigen wir, dass das Virus weltweit zirkuliert and das es wiederholt zwischen Kontinenten wandert.
-Daher drängen wir darauf Resourcen auf die Verlangsamung von lokalen Ausbrüchen zu fokussieren, Reiseeinschränkungen sind zu diesem Zeitpunkt in den meisten Gegenden wenig effektiv.
+In diesem Report zeigen wir, dass das Virus weltweit zirkuliert and dass es wiederholt zwischen Kontinenten wandert.
+Daher drängen wir darauf, Resourcen auf die Verlangsamung von lokalen Ausbrüchen zu fokussieren, Reiseeinschränkungen sind zu diesem Zeitpunkt in den meisten Gegenden wenig effektiv.
 In diesem aktualisiertem Bericht legen wir dar, dass
 
 * COVID-19 europaweit zirkuliert mit vielen Verbindungen zwischen Ländern
