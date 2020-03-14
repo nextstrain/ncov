@@ -139,58 +139,58 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 然而，考虑到美国大多数地区的检测能力还没有提高，我们预计会有很多未报告的病例.
 <br><br>
 然而，对于华盛顿州和加利福尼亚州，我们确实看到了密切相关的一连串案例.
-这表明这两个州的传播正在进行且局部扩大.
+这表明这两个州的传播是持续性的且局部扩大.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Here, we see a large cluster of cases from Washington that are all closely related.
-From this, we conclude that there is extensive local spread within Washington state.
+在这里我们可以看到来自华盛顿的一大群密切相关的病例.
+由此，我们得出结论，华盛顿州内存在广泛的地方性传播.
 <br><br>
-Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship.
-We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis.
+值得注意的是，华盛顿的样本与至尊公主号游轮上的样本参杂在一起.
+我们还不确定病毒是从游轮传播到华盛顿还是从华盛顿传播到游轮；随着我们获得更多的数据，我们将更新我们的分析.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
 # [SARS-CoV-2在加利佛尼亚州的传播](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
+从加利福尼亚州的样本来看，我们发现了多次输入的证据.
+更重要的是，我们看到至少一组密切相关的案例都是在加州短时间内采样的(点击 ['查看数据'](https://nextstrain.org/ncov) 并搜索 'CA9' 来查看示例).
 <br><br>
-This strongly suggests that there is ongoing local transmission within California.
+这强烈地表明在加州有持续的局部传播.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
+# [结论](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+- 该病毒已多次传入全球许多地区。但并不是所有的传入都会导致本地传播.  
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
+- 我们在欧洲、美国部分地区、中国和东南亚看到了本地传播的证据.  
 <br><br>
-- Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
+- 通过减少接触来控制局部疫情对于保护风险人群至关重要.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
 # 你能做些什么
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+减少接触--也就是说，减少你每天遇到的人的数量--可能具有挑战性，但对全体人的公共利益是非常有好处的.  
+ 如果每个人的日常接触减少25%，我们预计下个月的累计病例数量将减少50% ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). 不确定减少接触是什么意思？ [请查看这本有用的指南](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
-## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
+## 个人可以采取的行动
+* 减少每天与你接触的人数，特别是如果你属于风险人群(例如，老年人和有既往疾病的人).
+* 请记住，即使你不是高风险人群，你周围的许多人也可能是；遵循这些做法可以保护他人.
+* 仔细洗手.  
+* 如果你生病了，就呆在家里；准备一些额外的补给，以防你需要自我隔离.  
+* 如果你是雇主，鼓励你的员工在生病时呆在家里(并在经济上支持他们这样做).  
 
-## Steps officials can take  
-* Make testing free and broadly available.  
-* Put social distancing measures in place.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## 政府可以采取的步骤  
+* 免费且广泛可用的检测.  
+* 实施减少社交接触的措施.  
+* 在经济上支持那些受减少社交接触措施影响的人(例如，小时工、有年长或照看儿童责任的人、小企业等).
 ```
 
 
@@ -200,36 +200,36 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- This is left-side text -->
 # [常见问题和误区](https://nextstrain.org/ncov/2020-03-05)
 
-#### We know that a lot of people have questions about COVID-19.
+#### 我们知道很多人对 COVID-19 有疑问.
 
-#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+#### [我们特地设立了一个指南来回答一些最常被问到的问题](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
+#### 美国科学家联合会也有[一个很棒的常见问题解答页面](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Further reading  
+# 延伸阅读 
 
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "不要相信你听到的关于冠状病毒和艾滋病的阴谋论" [文章链接](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "毫无根据的阴谋论声称新的冠状病毒是生物工程制造的" [文章链接](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "不，武汉冠状病毒并没有被人为插入艾滋病病毒片段" [文章链接](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "关于冠状病毒的辟谣" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 
-# Misconceptions
+# 常见误区
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+目前社会上流行着许多关于新型冠状病毒起源的谣言.
+但在像这样的疫情爆发期间，不正确信息的传播可能会引发更多的恐慌，使人们丧失对科学家和政府的信任，从而可能不遵循建议或不采取适当的预防措施.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+科学家们在下面的文章中了解释了为什么一些观点是不正确的:
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2 并不起源于"蛇"（专业论坛帖） </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV基因工程'之说错在哪里（推特系列帖）</a>
 
 
 </div>
@@ -243,18 +243,18 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- This is left-side text -->
 # [科学贡献人员](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家.
+只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+非常感谢以下单位机构和实验室慷慨分享:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -267,7 +267,7 @@ We are grateful for the data gathered by these originating labs:
 * California Department of Public Health
 * Center of Medical Microbiology, Virology, and Hospital Hygiene
 * Center of Medical Microbiology, Virology, and Hospital Hygiene, University of Duesseldorf
-* Centers for Disease Control, R.O.C. (Taiwan)
+* 中国台湾疾病控制中心 (中国台湾)
 * Centre for Human and Zoonotic Virology (CHAZVY), College of Medicine University of Lagos/Lagos University Teaching Hospital (LUTH), part of the Laboratory Network of the Nigeria Centre for Disease Control (NCDC)
 * Centre for Infectious Diseases and Microbiology - Public Health
 * Centre for Infectious Diseases and Microbiology Laboratory Services
@@ -277,12 +277,12 @@ We are grateful for the data gathered by these originating labs:
 * Department of Infectious Diseases, Istituto Superiore di Sanita, Roma , Italy
 * Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris
 * Department of Internal Medicine, Triemli Hospital
-* Department of Laboratory Medicine, National Taiwan University Hospital
+* 国立台湾大学医院检验科
 * Department of Microbiology, Institute for Viral Diseases, College of Medicine, Korea University
 * Department of Pathology, Toshima Hospital
 * Department of Virology III, National Institute of Infectious Diseases
 * Department of Virology and Immunology, University of Helsinki and Helsinki University Hospital, Huslab Finland
-* Department of microbiology laboratory,Anhui Provincial Center for Disease Control and Prevention
+* 安徽省疾病预防控制中心微生物检验科
 * Dept. of Pathology, National Institute of Infectious Diseases
 * Dept. of Virology III, National Institute of Infectious Diseases
 * Dienst Gezondheid & Jeugd Zuid-Holland Zuid
@@ -293,24 +293,24 @@ We are grateful for the data gathered by these originating labs:
 * ErasmusMC
 * Foundation Elisabeth-Tweesteden Ziekenhuis
 * Foundation Pamm
-* Fujian Center for Disease Control and Prevention
-* General Hospital of Central Theater Command of People's Liberation Army of China
-* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health
-* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health
-* Guangdong Provincial Center for Diseases Control and Prevention;Guangdong Provincial Institute of Public Health
-* Guangdong Provincial Institution of Public Health, Guangdong Provinical Center for Disease Control and Prevention
+* 福建省疾病预防控制中心
+* 中国人民解放军中央战区总医院
+* 广东省疾病预防控制中心；广东省公共卫生厅
+* 广东省疾病预防控制中心；广东省公共卫生厅
+* 广东省疾病预防控制中心；广东省公共卫生研究所
+* 广东省公共卫生厅, 广东省疾病预防控制中心
 * HUS Diagnostiikkakeskus, Hallinto
-* Hangzhou Center for Disease Control and Prevention
-* Hangzhou Center for Disease and Control Microbiology Lab
+* 杭州市疾病预防控制中心
+* 杭州市疾病预防控制中心微生物学实验室
 * Harborview Medical Center
-* Hong Kong Department of Health
+* 香港卫生署
 * Hospital Israelita Albert Einstein
 * IL Department of Public Health Chicago Laboratory
 * INMI Lazzaro Spallanzani IRCCS
 * Indian Council of Medical Research - National Institute of Virology
 * Indian Council of Medical Research-National Institute of Virology
-* Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College
-* Institute of Viral Disease Control and Prevention, China CDC
+* 中国医学科学院、北京协和医学院病原生物学研究所
+* 中国疾控中心病毒病预防控制研究所
 * Instituto Nacional de Enfermedades Respiratorias
 * KU Leuven, Clinical and Epidemiological Virology
 * Klinik Hirslanden Zurich
@@ -336,7 +336,7 @@ We are grateful for the data gathered by these originating labs:
 * National Centre for Infectious Diseases
 * National Influenza Center - National Institute of Hygiene and Epidemiology (NIHE)
 * National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal
-* National Institute for Viral Disease Control and Prevention, China CDC
+* 中国疾控中心国家病毒病预防控制研究所
 * National Public Health Laboratory
 * National Public Health Laboratory, National Centre for Infectious Diseases
 * Pathology Queensland
@@ -347,34 +347,34 @@ We are grateful for the data gathered by these originating labs:
 * Seattle Flu Study
 * Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology Randwick
 * Servicio Microbiologia. Hospital Clinico Universitario. Valencia.
-* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
+* 深圳市第三人民医院国家传染病临床研究中心深圳市病原与免疫重点实验室
 * Singapore General Hospital
 * Sorbonne Universite, Inserm et Assistance Publique-Hopitaux de Paris (Pitie Salpetriere)
 * State Health Office Baden-Wuerttemberg
-* Taiwan Centers for Disease Control
+* 台湾疾病控制中心
 * Texas Department of State Health Services
-* The Central Hospital Of Wuhan
+* 武汉市中心医院
 * The National Institute of Public Health Center for Epidemiology and Microbiology
-* The University of Hong Kong - Shenzhen Hospital
-* Tianmen Center for Disease Control and Prevention
+* 香港大学深圳医院
+* 天门市疾病预防控制中心
 * UCD National Virus Reference Laboratory
 * University of Washington Virology Lab
-* Union Hospital of Tongji Medical College, Huazhong University of Science and Technology
+* 华中科技大学同济医学院协和医院
 * Valley Medical Center
 * Virology Department, Sheffield Teaching Hospitals NHS Foundation Trust
 * Virology Unit, Institut Pasteur du Cambodge.
 * Wales Specialist Virology Centre
 * Washington State Department of Health
 * Washington State Public Health Lab
-* Weifang Center for Disease Control and Prevention
+* 潍坊市疾病预防控制中心
 * West of Scotland Specialist Virology Centre, NHSGGC
 * Wisconsin Department of Health Services
-* Wuhan Fourth Hospital
-* Wuhan Jinyintan Hospital
-* Wuhan Lung Hospital
-* Yongchuan District Center for Disease Control and Prevention
-* Zhejiang Provincial Center for Disease Control and Prevention
-* Zhongxian Center for Disease Control and Prevention
+* 武汉市第四医院
+* 武汉金银潭医院
+* 武汉肺科医院
+* 永川区疾病预防控制中心
+* 浙江省疾病预防控制中心
+* 忠县疾病预防控制中心
 
 ```
 
@@ -382,19 +382,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [科学贡献详情](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+所有数据已被共享至[GISAID](https://gisaid.org)数据库.
+我们感谢各位科学家的慷慨分享.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+在右边，我们列出了每个实验室共享的序列.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+感谢下列实验室里科学家们慷慨分享SARS-CoV-2的基因组:
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
@@ -408,7 +408,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Nonthaburi/61/2020
 	* Nonthaburi/74/2020
 
-* Beijing Institute of Microbiology and Epidemiology
+* 北京微生物学与流行病学研究所
 	* pangolin/Guangdong/P2S/2019
 	* pangolin/Guangxi/P1E/2017
 	* pangolin/Guangxi/P2V/2017
@@ -465,7 +465,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Germany/NRW-09/2020
 	* Germany/NRW-10/2020
 
-* Centers for Disease Control, R.O.C. (Taiwan)
+* 台湾疾病控制中心(中国台湾)
 	* Taiwan/2/2020
 
 * Centre for Human and Zoonotic Virology (CHAZVY), College of Medicine University of Lagos/Lagos University Teaching Hospital (LUTH), part of the Laboratory Network of the Nigeria Centre for Disease Control (NCDC)
@@ -518,7 +518,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Switzerland/1000477102/2020
 	* Switzerland/1000477377/2020
 
-* Department of Laboratory Medicine, National Taiwan University Hospital
+* 国立台湾大学医院检验科
 	* Taiwan/NTU01/2020
 	* Taiwan/NTU02/2020
 	* Taiwan/NTU03/2020
@@ -541,7 +541,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Finland/FIN03032020B/2020
 	* Finland/FIN03032020C/2020
 
-* Department of microbiology laboratory,Anhui Provincial Center for Disease Control and Prevention
+* 安徽省疾病预防控制中心微生物检验科
 	* Anhui/SZ005/2020
 
 * Dept. of Pathology, National Institute of Infectious Diseases
@@ -668,17 +668,17 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * Foundation Pamm
 	* Netherlands/Berlicum_1363564/2020
 
-* Fujian Center for Disease Control and Prevention
+* 福建省疾病预防控制中心
 	* Fujian/13/2020
 	* Fujian/8/2020
 
-* General Hospital of Central Theater Command of People's Liberation Army of China
+* 中国人民解放军中央战区总医院
 	* Wuhan/WH01/2019
 	* Wuhan/WH02/2019
 	* Wuhan/WH03/2020
 	* Wuhan/WH04/2020
 
-* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health
+* 广东省疾病预防控制中心；广东省公共卫生厅
 	* Foshan/20SF207/2020
 	* Foshan/20SF210/2020
 	* Foshan/20SF211/2020
@@ -689,14 +689,14 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Guangdong/20SF028/2020
 	* Guangdong/20SF040/2020
 
-* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health
+* 广东省疾病预防控制中心；广东省公共卫生厅
 	* Guangdong/20SF174/2020
 	* Guangzhou/20SF206/2020
 
-* Guangdong Provincial Center for Diseases Control and Prevention;Guangdong Provincial Institute of Public Health
+* 广东省疾病预防控制中心；广东省公共卫生研究所
 	* Guangdong/20SF201/2020
 
-* Guangdong Provincial Institution of Public Health, Guangdong Provinical Center for Disease Control and Prevention
+* 广东省公共卫生机构、广东省疾病预防控制中心
 	* Guangdong/2020XN4239-P0034/2020
 	* Guangdong/2020XN4243-P0035/2020
 	* Guangdong/2020XN4273-P0036/2020
@@ -754,17 +754,17 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * HUS Diagnostiikkakeskus, Hallinto
 	* Finland/FIN-25/2020
 
-* Hangzhou Center for Disease Control and Prevention
+* 杭州市疾病预防控制中心
 	* Hangzhou/HZCDC0001/2020
 
-* Hangzhou Center for Disease and Control Microbiology Lab
+* 杭州市疾病预防控制中心微生物学实验室
 	* Hangzhou/HZ-1/2020
 
 * Harborview Medical Center
 	* USA/WA3-UW1/2020
 	* USA/WA9-UW6/2020
 
-* Hong Kong Department of Health
+* 香港卫生署
 	* HongKong/VB20024950/2020
 	* HongKong/VB20026565/2020
 	* HongKong/VM20001061/2020
@@ -800,14 +800,14 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * Indian Council of Medical Research-National Institute of Virology
 	* India/1-31/2020
 
-* Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College
+* 中国医学科学院、北京协和医学院病原生物学研究所
 	* Wuhan/IPBCAMS-WH-01/2019
 	* Wuhan/IPBCAMS-WH-02/2019
 	* Wuhan/IPBCAMS-WH-03/2019
 	* Wuhan/IPBCAMS-WH-04/2019
 	* Wuhan/IPBCAMS-WH-05/2020
 
-* Institute of Viral Disease Control and Prevention, China CDC
+* 中国疾控中心病毒病预防控制研究所
 	* Wuhan/IVDC-HB-envF13-20/2020
 	* Wuhan/IVDC-HB-envF13-21/2020
 	* Wuhan/IVDC-HB-envF13/2020
@@ -816,7 +816,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * Instituto Nacional de Enfermedades Respiratorias
 	* Mexico/CDMX/InDRE_01/2020
 
-* Jingzhou Center for Disease Control and Prevention
+* 荆州市疾病预防控制中心
 	* Jingzhou/HBCDC-HB-01/2020
 
 * KU Leuven, Clinical and Epidemiological Virology
@@ -911,7 +911,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal
 	* Nepal/61/2020
 
-* National Institute for Viral Disease Control and Prevention, China CDC
+* 中国疾控中心国家病毒病预防控制研究所
 	* Beijing/IVDC-BJ-005/2020
 	* Chongqing/IVDC-CQ-001/2020
 	* Henan/IVDC-HeN-002/2020
@@ -983,7 +983,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* USA/WA-S2/2020
 	* USA/WA-S3/2020
 
-* Second Hospital of Anhui Medical University
+* 安徽医科大学第二医院
 	* Hefei/2/2020
 
 * Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology Randwick
@@ -993,12 +993,12 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Spain/Valencia1/2020
 	* Spain/Valencia2/2020
 
-* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
+* 深圳市第三人民医院国家传染病临床研究中心深圳市病原与免疫重点实验室
 	* Shenzhen/SZTH-002/2020
 	* Shenzhen/SZTH-003/2020
 	* Shenzhen/SZTH-004/2020
 
-* Shenzhen Third People's Hospital
+* 深圳市第三人民医院
 	* Shenzhen/SZTH-001/2020
 
 * Singapore General Hospital
@@ -1012,30 +1012,30 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * Sorbonne Universite, Inserm et Assistance Publique-Hopitaux de Paris (Pitie Salpetriere)
 	* France/IDF0626/2020
 
-* South China Agricultural University
+* 华南农业大学
 	* pangolin/Guandong/1/2019
 
 * State Health Office Baden-Wuerttemberg
 	* Germany/Baden-Wuerttemberg-1/2020
 
-* Taiwan Centers for Disease Control
+* 台湾疾病控制中心
 	* Taiwan/3/2020
 	* Taiwan/4/2020
 
 * Texas Department of State Health Services
 	* USA/TX1/2020
 
-* The Central Hospital Of Wuhan
+* 武汉市中心医院
 	* Wuhan/HBCDC-HB-02/2020
 
 * The National Institute of Public Health Center for Epidemiology and Microbiology
 	* CzechRepublic/951/2020
 
-* The University of Hong Kong - Shenzhen Hospital
+* 香港大学深圳医院
 	* Shenzhen/HKU-SZ-002/2020
 	* Shenzhen/HKU-SZ-005/2020
 
-* Tianmen Center for Disease Control and Prevention
+* 天门市疾病预防控制中心
 	* Tianmen/HBCDC-HB-07/2020
 
 * UCD National Virus Reference Laboratory
@@ -1058,7 +1058,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* USA/WA17-UW13/2020
 	* USA/WA18-UW14/2020
 
-* Union Hospital of Tongji Medical College, Huazhong University of Science and Technology
+* 华中科技大学同济医学院协和医院
 	* Wuhan/HBCDC-HB-03/2020
 	* Wuhan/HBCDC-HB-04/2020
 
@@ -1093,7 +1093,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* USA/WA6-UW3/2020
 	* USA/WA7-UW4/2020
 
-* Weifang Center for Disease Control and Prevention
+* 潍坊市疾病预防控制中心
 	* China/WF0001/2020
 	* China/WF0002/2020
 	* China/WF0003/2020
@@ -1125,13 +1125,13 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * Wisconsin Department of Health Services
 	* USA/WI1/2020
 
-* Wuhan Fourth Hospital
+* 武汉市第四医院
 	* Wuhan/WH05/2020
 
-* Wuhan Institute of Virology, Chinese Academy of Sciences
+* 中国科学院武汉病毒研究所
 	* bat/Yunnan/RaTG13/2013
 
-* Wuhan Jinyintan Hospital
+* 武汉金银潭医院
 	* Wuhan/HBCDC-HB-01/2019
 	* Wuhan/HBCDC-HB-02/2019
 	* Wuhan/HBCDC-HB-03/2019
@@ -1142,17 +1142,17 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 	* Wuhan/WIV06/2019
 	* Wuhan/WIV07/2019
 
-* Wuhan Lung Hospital
+* 武汉肺科医院
 	* Wuhan/HBCDC-HB-06/2020
 
-* Yongchuan District Center for Disease Control and Prevention
+* 永川区疾病预防控制中心
 	* Chongqing/YC01/2020
 
-* Zhejiang Provincial Center for Disease Control and Prevention
+* 浙江省疾病预防控制中心
 	* Zhejiang/WZ-01/2020
 	* Zhejiang/WZ-02/2020
 
-* Zhongxian Center for Disease Control and Prevention
+* 忠县疾病预防控制中心
 	* Chongqing/ZX01/2020
 
 ```
