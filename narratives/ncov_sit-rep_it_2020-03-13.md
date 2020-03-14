@@ -94,7 +94,7 @@ We've prepared some resources that are worth reading to familiarize yourself wit
 Di seguito elenchiamo alcune letture utili per familiarizzare con i concetti generali relativi al COVID-19 e al virus che ne è la causa, SARS-CoV-2. 
 
  <!--  This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.-->
-Queste informazioni renderanno più semplice interpretare i dati che presenteremo più avanti; se non conosci gli alberi filogenetici, leggi ['Come leggere la filogenetica' narrative](https://nextstrain.org/narratives/trees-background) e continua a leggere il resto più tardi.
+Queste informazioni renderanno più semplice interpretare i dati che presenteremo più avanti; se non conosci gli alberi filogenetici, leggi ['Come leggere la filogenetica'](https://nextstrain.org/narratives/trees-background) e continua a leggere il resto più tardi.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
