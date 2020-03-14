@@ -57,7 +57,9 @@ rule filter:
     output:
         sequences = "results/filtered.fasta"
     params:
-        min_length = 15000
+        min_length = 15000,
+        group_by = "country",
+        sequences_per_group = 500
     shell:
         """
         augur filter \
@@ -66,6 +68,8 @@ rule filter:
             --include {input.include} \
             --exclude {input.exclude} \
             --min-length {params.min_length} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences}
         """
 
