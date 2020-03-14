@@ -12,12 +12,12 @@ abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento d
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 <!-- This is left-side text -->
-<!-- Acentos: 	íóú -->
+<!-- Acentos: 	áeíóú -->
 
 # [Contenidos](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Lecturas adicionales](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [Nota acerca del muestreo](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
+* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
 * [Circulación en Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
 * [Transmisión local en Reino Unido](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
 * [Propagación del SARS-CoV-2 desde Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
@@ -42,7 +42,7 @@ Como resultado, en este momento urge concentrar esfuerzos en la disminución de 
 
 En la actualización de esta semana, reportamos que:
 
-* El COVID-19 circula abiertamente en toda Europa, con mucho movimiento entre países.
+* El COVID-19 circula fluidamente en toda Europa, con mucho movimiento entre países.
 
 * Identificamos al menos 4 introducciones del virus al Reino Unido, algunas con transmisiones comunitarias adicionales.
 
@@ -61,58 +61,55 @@ En la actualización de esta semana, reportamos que:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
+# [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-05)
+A continuación, hemos preparado algunos recursos de información (actualmente en inglés) que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
+
+Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion en ingles ['Cómo leer philogenias'](https://nextstrain.org/narratives/trees-background) antes de leer el presente reporte.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Recursos de información relacionados con el COVID-19
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Antecendentes sobre los coronavirus </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Antecendentes recientes del brote de COVID-19</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer philogenias</a>
 </div>
 
-## Further Reading
+## Lecturas Adicionales
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+* Resumen del brote de SARS-CoV-2 en [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2019-2020).
+* Material proporcionado por los Centros para el Control y la Prevención de Enfermedades de los Estados Unidos en [US CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-sp.html).
 
-## Nextstrain narratives
+## Narrativas Nextstrain 
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org). El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro muy notable. Estos análisis han sido posibles gracias al intercambio rápido y abierto de los datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes genomas).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Nota acerca del muestreo de casos](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+El presente reporte documenta la información de muestras tomadas en 30 países de 5 continentes. Este es un logro muy importante, el secuenciamiento de un virus desconocido de ARN en el medio de una pandemia, que ha sido posible gracias al trabajo sacrificado y la cooperación para compartir datos de muchos científicos y médicos en todo el mundo.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+A pesar que estos datos nos permiten hacer importantes inferencias acerca del brote del virus y monitorear su propagación en tiempo real, debemos enfatizar que estas conclusiones son limitadas en su representatividad a nivel mundial.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
-
+Por ejemplo, el mapa muestra muy pocas secuencias en países del hemisferio sur. Esto NO se debe a que el COVID-19 no se haya propagado en estas regiones, o que estos casos no proporcionen información crucial para caracterizar el virus. Por el contrario, simplemente las secuencias genómicas no están disponibles en estos lugares. De esta forma, el área de los círculos en el mapa es solo proporcional a la cantidad de información disponible y no representa la magnitud del brote en cada región.
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
-<br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+# [Circulación en Europa](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 
+Aquí podemos apreciar un clado (grupo/aglomerado) grande de secuencias de Europa. Nótese que las secuencias de varios países se intercalan, indicando que el COVID-19 esta circulando fluidamente por todo el continente europeo.
+<br><br>
+Si vemos el mapa en detalle, podemos apreciar los muchos vínculos entre Italia y otras áreas. Sin embargo, es importante recordar que la incertidumbre estadística en la direccionalidad de estos vínculos. Hipótesis alternativas también podrían explicar los datos actuales (por ejemplo, que un caso omitido en la muestra actual haya infectado tanto a un caso secuenciado en Italia como a otro secuenciado en otro país europeo).
 <!-- There is no right side text -->
 
 
