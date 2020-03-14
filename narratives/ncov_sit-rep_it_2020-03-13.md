@@ -132,7 +132,7 @@ Scorrendo lungo la barra laterale sinistra sarà possibile leggere il testo rela
 <!-- To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
 These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship). --> 
 Avere a disposizione così rapidamente i genomi completi per un nuovo RNA virale è un risultato notevole. 
-Queste analisi sono state rese possibili grazie alla rapida e libera diffusione dei dati genomici e alla loro interpretazione da parte degli scienziati di tutto il mondo (nella slide finale è possibile leggere i nomi degli autori del sequenziamento).
+Queste analisi sono state rese possibili grazie alla rapida e libera diffusione dei dati genomici e alla loro interpretazione da parte degli scienziati di tutto il mondo (nella pagina finale è possibile leggere i nomi degli autori del sequenziamento).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
