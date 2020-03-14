@@ -15,9 +15,9 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text -->
 # [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
+* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).
 * [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
+* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
 * [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
 * [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
 * [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
@@ -29,30 +29,30 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+## Zusammenfassung
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+Wir haben 410</tag> öffentlich zugängliche Genome des neuartigen Coronavirus
+(nCoV) untersucht, um die Ausbreitung des Virus nachzuzeichnen, das Datum des
+gemeinsamen Vorfahren zu schätzen und die Verbreitungsrate zurückzuschliessen.
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+Für einen tagesaktuellen Überblick über Fallzahlen verweisen wir auf [Our World In Data](https://ourworldindata.org/coronavirus).
+In diesem Report zeigen wir, dass das Virus weltweit zirkuliert and das es wiederholt zwischen Kontinenten wandert.
+Daher drängen wir darauf Resourcen auf die Verlangsamung von lokalen Ausbrüchen zu fokussieren, Reiseeinschränkungen sind zu diesem Zeitpunkt in den meisten Gegenden wenig effektiv.
+In diesem aktualisiertem Bericht legen wir dar, dass
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+* COVID-19 europaweit zirkuliert mit vielen Verbindungen zwischen Ländern
 
-In this week's updates, we report:  
+* es mindestens 4 Einträge nach Grossbritannien gab, gefolgt von lokaler Verbreitung.
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+* mehrere Viren die in verschiedenen Teilen der Welt isoliert wurden vermutlich eine Verbindung mit dem Ausbruch im Iran haben.
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* es mehrere Einträge in die USA gab, gefolgt von lokaler Verbreitung.
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* der Ausbruch im US-Staat Washington weiter wächst und mit dem Ausbruch auf dem Kreuzfahrtschiff Grand Princess verknüpft ist.
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+* das hCoV19 in Kalifornien zirkuliert.
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
-
-* There is local circulation of COVID-19 in California.  
-
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+* dass soziale Distanzierung schnell implementiert werden sollte, um das Gesundheitssystem zu entlasten und Risikogruppen zu schützen.
 ```
 
 
@@ -163,18 +163,18 @@ This strongly suggests that there is ongoing local transmission within Californi
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
+- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
+- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.
 <br><br>
 - Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do  
+# What you can do
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
+Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.
  If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
@@ -183,13 +183,13 @@ Social distancing -- that is, decreasing the number of people you encounter each
 ## Steps individuals can take
 * Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
 * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
+* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".
+* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.
+* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).
 
-## Steps officials can take  
-* Make testing free and broadly available.  
-* Put social distancing measures in place.  
+## Steps officials can take
+* Make testing free and broadly available.
+* Put social distancing measures in place.
 * Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
 ```
 
@@ -208,7 +208,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Further reading  
+# Further reading
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
