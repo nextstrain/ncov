@@ -1,6 +1,6 @@
 ---
 title: 新型コロナウイルス拡散の遺伝的解析と状況報告 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (Tomoyuki Nezu)"
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Tomoyuki Nezu, Takeshi Sato, Fengjun Zhang)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
@@ -16,17 +16,17 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 
 # [目次](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [COVID-19 に関する資料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [収集されたデータについて](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [ヨーロッパでの拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
-* [イギリス諸島とアイルランドにおける地域拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [イランからの SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [米国への伝搬](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [ワシントン州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [私達に出来ること](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [よくある質問と誤解](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [分析データのクレジット](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [COVID-19 に関する資料](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=2).     
+* [収集されたデータについて](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=3).
+* [ヨーロッパでの拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=4).
+* [イギリス諸島とアイルランドにおける地域拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=5).
+* [イランからの SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=6).
+* [米国への伝搬](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=7).
+* [ワシントン州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=8).
+* [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=9).
+* [私達に出来ること](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=10).
+* [よくある質問と誤解](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=11).
+* [分析データのクレジット](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 
@@ -190,7 +190,7 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 
 #### 多くの方々が COVID-19 について疑問をお持ちでしょう。
 
-#### [よくある質問についてこちらにガイドを用意しました。](https://nextstrain.org/help/coronavirus/FAQ)
+#### [よくある質問についてこちらにガイドを用意しました。](https://nextstrain.org/help/coronavirus/FAQ).
 
 #### アメリカ科学者連盟 (Federation of American Scientists) は、よくある質問のための素晴らしい[リソース](https://covid19.fas.org/l/en)を提供しています。
 
