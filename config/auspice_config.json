@@ -9,7 +9,7 @@
     },
     {
       "key": "division",
-      "title": "Admin division",
+      "title": "Admin Division",
       "type": "categorical"
     },
     {
@@ -49,9 +49,9 @@
     },
     {
       "key": "recency",
-      "title": "Submission date",
+      "title": "Submission Date",
       "type": "categorical"
-    },
+    },    
     {
       "key": "gisaid_epi_isl"
     },

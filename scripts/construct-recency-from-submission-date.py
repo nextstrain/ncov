@@ -9,21 +9,21 @@ def get_recency(date_str, ref_date):
 
     delta_days = ref_day - date_submitted
     if delta_days<=0:
-        return 'new'
+        return 'New'
     elif delta_days<3:
         return '1-2 days ago'
     elif delta_days<8:
         return '3-7 days ago'
     elif delta_days<15:
-        return 'one week ago'
+        return 'One week ago'
     elif delta_days<31:
-        return 'one month ago'
-    elif delta_days<31:
-        return 'older'
+        return 'One month ago'
+    elif delta_days>=31:
+        return 'Older'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="assign each sequence a field that specifies when it was added",
+        description="Assign each sequence a field that specifies when it was added",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
 
@@ -42,4 +42,3 @@ if __name__ == '__main__':
 
     with open(args.output, 'wt') as fh:
         json.dump(node_data, fh)
-
