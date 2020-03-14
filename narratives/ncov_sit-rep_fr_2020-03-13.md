@@ -18,7 +18,7 @@ abstract: "Ce rapport utilise des données génomiques partagées publiquement p
 * [Ressources sur COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=2).
 * [Une note sur les questions d'échantillonnage](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=3).
 * [Circulation en Europe](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=4).
-* [Transmission locale dans les îles britanniques et en Irlande](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?).
+* [Transmission locale dans les îles britanniques et en Irlande](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=5).
 * [Propagation du SRAS-CoV-2 en provenance d'Iran](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=6).
 * [Introductions aux Etats-Unis](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=7).
 * [Propagation du SRAS-CoV-2 dans l'État de Washington (USA)](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-13?n=8).
@@ -39,7 +39,7 @@ Dans ce rapport, nous montrons que le virus circule largement à travers le mond
 
 Dans les mises à jour de cette semaine, nous rapportons:  
 
-* COVID-19 circule largement à travers l'Europe, avec des mouvements importants entre les pays. 
+* COVID-19 circule largement à travers l'Europe, avec des mouvements importants entre les pays.
 
 * Nous identifions au moins 4 introductions au Royaume-Uni, certaines avec transmission communautaire continue.
 
@@ -49,7 +49,7 @@ Dans les mises à jour de cette semaine, nous rapportons:
 
 * L'épidémie continue de croître dans l'État de Washington; certains cas sont étroitement liés à ceux du navire de croisière Grand Princess.
 
-* Il y a une circulation locale de COVID-19 en Californie. 
+* Il y a une circulation locale de COVID-19 en Californie.
 
 * Des mesures de distanciation sociale doivent être adoptées rapidement pour alléger la charge pesant sur les systèmes de santé et protéger les personnes vulnérables.
 ```
@@ -80,7 +80,7 @@ Ces informations faciliteront l'interprétation des données que nous présenton
 
 ## Lectures additionnelles:
 
-* Informations générales sur les coronavirus sur [Wikipedia](https://fr.wikipedia.org/wiki/Coronavirus) 
+* Informations générales sur les coronavirus sur [Wikipedia](https://fr.wikipedia.org/wiki/Coronavirus)
 * Documents fournis par l'[US CDC](https://www.cdc.gov/coronavirus/index.html)
 
 ## Récits Nextstrain
@@ -159,14 +159,14 @@ Cela suggère fortement qu'il y a une transmission locale en cours en Californie
 # [A retenir](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - Le virus a été introduit à plusieurs reprises dans de nombreuses régions du globe. Toutes les introductions n'entraînent pas une transmission locale.
 <br><br>
-- Nous observons des preuves de transmission locale à travers l'Europe, certaines parties des États-Unis, la Chine et l'Asie du Sud-Est. 
+- Nous observons des preuves de transmission locale à travers l'Europe, certaines parties des États-Unis, la Chine et l'Asie du Sud-Est.
 <br><br>
 - Le contrôle des épidémies locales par la distanciation sociale est crucial pour protéger les personnes vulnérables.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# Ce que vous pouvez faire 
+# Ce que vous pouvez faire
 
 La distanciation sociale - c'est-à-dire la diminution du nombre de personnes que vous rencontrez chaque jour - cela peut être difficile, mais cette mesure est extrêmement bénéfique pour le bien public.  
 
@@ -184,7 +184,7 @@ Si chacun diminuait ses contacts quotidiens de 25 %, on pourrait s'attendre à u
 
 ## Mesures que vous pouvez prendre en tant que vous pouvez prendre en tant qu'autorité responsable
 * Rendre les tests gratuits et largement disponibles.  
-* Mettre en place des mesures de distanciation sociale. 
+* Mettre en place des mesures de distanciation sociale.
 * Soutenir financièrement les personnes touchées par les mesures de distanciation sociale (par exemple, les travailleurs payés a l'heure, les personnes ayant des responsabilités de soins aux personnes âgées ou aux enfants, les petites entreprises, etc.)
 ```
 
