@@ -157,40 +157,40 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 从加利福尼亚州的样本来看，我们发现了多次输入的证据。
 更重要的是，我们看到至少一组密切相关的案例都是在加州短时间内采样得到的(点击 ['查看数据'](https://nextstrain.org/ncov) 并搜索 'CA9' 来查看示例)。
 <br><br>
-这强烈地表明加州存在持续的社区传播.
+这强烈地表明加州存在持续的社区传播。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [结论](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- 该病毒已多次传入全球许多地区。但并不是所有的传入都会导致本地传播.  
+- 该病毒已多次传入全球许多地区，但并不是所有的传入都导致了社区传播。  
 <br><br>
-- 我们在欧洲、美国部分地区、中国和东南亚看到了本地传播的证据.  
+- 我们在欧洲、美国部分地区、中国和东南亚看到了本地传播的证据。
 <br><br>
-- 通过减少接触来控制局部疫情对于保护风险人群至关重要.
+- 通过减少接触来控制局部疫情对于保护风险人群至关重要。
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
 # 你能做些什么
 
-减少接触--也就是说，减少你每天遇到的人的数量--可能具有挑战性，但对全体人的公共利益是非常有好处的.  
- 如果每个人的日常接触减少25%，我们预计下个月的累计病例数量将减少50% ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). 不确定减少接触是什么意思？ [请查看这本有用的指南](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+减少接触--也就是说，减少你每天遇到的人的数量。这可能很有挑战性，但对全体人的公共利益是非常有好处的。
+ 如果每个人的日常接触减少25%，我们预计下个月的累计病例数量将减少50% ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf))。不确定减少接触是什么意思？ [请查看这本有用的指南（英文）](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
 ## 个人可以采取的行动
-* 减少每天与你接触的人数，特别是如果你属于风险人群(例如，老年人和有既往疾病的人).
-* 请记住，即使你不是高风险人群，你周围的许多人也可能是；遵循这些做法可以保护他人.
-* 仔细洗手.  
-* 如果你生病了，就呆在家里；准备一些额外的补给，以防你需要自我隔离.  
-* 如果你是雇主，鼓励你的员工在生病时呆在家里(并在经济上支持他们这样做).  
+* 减少每天接触的人数，风险人群要尤其注意这样做(例如老年人和有既往疾病的人)。
+* 请记住，即使你不属于高风险人群，你周围的许多人也可能属于；遵循这些做法可以保护他人。
+* 仔细洗手。
+* 生病时留在家里；准备一些额外的补给，以备自我隔离。
+* 如果你是雇主，请鼓励员工在生病时留在家里(并提供经济支持)。  
 
-## 政府可以采取的步骤  
-* 免费且广泛可用的检测.  
-* 实施减少社交接触的措施.  
-* 在经济上支持那些受减少社交接触措施影响的人(例如，小时工、有年长或照看儿童责任的人、小企业等).
+## 政府可以采取的行动
+* 推广免费检测。  
+* 推行减少社交接触的措施。  
+* 在经济上支持那些受到上述措施影响的人(例如，小时工、老人或儿童的看护人员、小型企业等)。
 ```
 
 
