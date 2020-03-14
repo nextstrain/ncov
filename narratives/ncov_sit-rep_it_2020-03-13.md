@@ -99,7 +99,8 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+<!-- ## Background -->
+## Informazioni di base (in inglese)
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -237,13 +238,10 @@ This strongly suggests that there is ongoing local transmission within Californi
 # Cosa puoi fare
 
 <!-- Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  -->
-Distanziamento sociale -- ossia, diminuire il numero di persone che si incontrano ogni un giorno-- può essere difficile, ma è estremamente positivo per il bene colletivo.
+Il distanziamento sociale -- ossia, diminuire il numero di persone che si incontrano ogni giorno -- può essere difficile, ma è estremamente positivo per il bene colletivo.
 
-<!-- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
-<div>
-  <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
-</div>  -->
-Se tutti diminuissero i loro contatti giornalieri con le altre persone del 25%, ci potrebbe essere una diminuizione del 50% nel numero di casi totali nel mese successivo ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Leggi questa utile guida (in inglese)](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+<!-- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/). -->
+Se tutti diminuissero i loro contatti giornalieri con le altre persone del 25%, ci potrebbe essere una diminuizione del 50% nel numero di casi totali nel mese successivo ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Non sei sicuro di cosa significhi distanziamento sociale? [Leggi questa utile guida (in inglese)](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
