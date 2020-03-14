@@ -162,33 +162,35 @@ Dies deutet stark darauf hin, dass es lokale Übertragung innerhalb Kaliforniens
 <!-- This is left-side text -->
 # [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - Das Virus wurde mehrfach in viele Teile der Welt eingeschleppt. Nicht alle Einführungen führen zu einer lokalen Übertragung.
-<br><<br>
+<br><br>
 - Wir sehen Hinweise für eine lokale Übertragung in ganz Europa, Teilen der Vereinigten Staaten, China und Südostasien.
-<br><<br>
+<br><br>
 - Die Kontrolle lokaler Ausbrüche durch soziale Distanzierung ist entscheidend für den Schutz von Risikogruppen.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
+# Was Sie tun können
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+Soziale Distanzierung - d.h. die Verringerung der sozialen Kontakte - kann eine Herausforderung sein, ist aber für das öffentliche Wohl von großem Nutzen.
+Wenn jeder seine täglichen Kontakte um 25% verringern würde, würden wir erwarten, dass die kumulierte Zahl der Fälle im nächsten Monat um ca 50% zurückgeht ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+Unsicher was soziale Distanzierung bedeutet? Sehen Sie sich diesen hilfreichen Leitfaden an](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
-## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).
+## Schritte, die Einzelpersonen unternehmen können
+* Verringern Sie die Anzahl der Menschen, mit denen Sie täglich in Kontakt sind, insbesondere wenn Sie einer gefährdeten Gruppe angehören (z.B. Senioren und Menschen mit Vorerkrankungen).
+* Denken Sie daran, dass selbst wenn Sie nicht zu einer Risikogruppe gehören, viele Menschen um Sie herum gefährdet sind; befolgen Sie diese Praktiken, um andere zu schützen.
+* Waschen Sie Ihre Hände, "als hätten Sie gerade eine Jalapeno gehackt und müssten eine Kontaktlinse wechseln".
+* Bleiben Sie zu Hause, wenn Sie krank sind.
+* Wenn Sie ein Arbeitgeber sind, ermutigen Sie Ihre Mitarbeiter, im Krankheitsfall zu Hause zu bleiben (und unterstützen Sie sie dabei finanziell).
 
-## Steps officials can take
-* Make testing free and broadly available.
-* Put social distancing measures in place.
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## Maßnahmen die Behörden ergreifen können
+* Tests kostenlos und in großem Stil verfügbar machen.
+* Soziale Distanzierungsmaßnahmen einführen.
+* Finanzielle Unterstützung der von sozialen Distanzmaßnahmen Betroffenen (z. B. Stundenlohnarbeiter, Personen mit Verantwortung für die Betreuung älterer Menschen oder Kinder, kleine Unternehmen usw.).
+
 ```
 
 
