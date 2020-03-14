@@ -40,11 +40,11 @@ In diesem Report zeigen wir, dass das Virus weltweit zirkuliert and dass es wied
 Daher drängen wir darauf, Resourcen auf die Verlangsamung von lokalen Ausbrüchen zu fokussieren, Reiseeinschränkungen sind zu diesem Zeitpunkt in den meisten Gegenden wenig effektiv.
 In diesem aktualisiertem Bericht legen wir dar, dass
 
-* COVID-19 europaweit zirkuliert mit vielen Verbindungen zwischen Ländern
+* COVID-19 europaweit zirkuliert mit vielen Verbindungen zwischen Ländern.
 
-* es mindestens 4 Einträge nach Grossbritannien gab, gefolgt von lokaler Verbreitung.
+* es mindestens vier Einträge nach Grossbritannien gab, gefolgt von lokaler Verbreitung.
 
-* mehrere Viren die in verschiedenen Teilen der Welt isoliert wurden vermutlich eine Verbindung mit dem Ausbruch im Iran haben.
+* mehrere Viren, die in verschiedenen Teilen der Welt isoliert wurden, vermutlich eine Verbindung mit dem Ausbruch im Iran haben.
 
 * es mehrere Einträge in die USA gab, gefolgt von lokaler Verbreitung.
 
@@ -60,8 +60,8 @@ In diesem aktualisiertem Bericht legen wir dar, dass
 
 <!-- This is left-side text -->
 # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-Hier haben wir mehrere lesenswerte Resourcen (auf Englisch) zusammengestellt um sich mit COVID-19 (der Krankeit) um dem Virus welche sie verursacht, SARS-CoV-2, bekannt zu machen.
-Diese Informationen werden es einfacher machen die nachfolgenden Daten zu verstehen.
+Hier haben wir mehrere lesenswerte Resourcen (auf Englisch) zusammengestellt um sich mit COVID-19 (der Krankeit) und dem Virus, welche sie verursacht, SARS-CoV-2, bekannt zu machen.
+Diese Informationen werden es einfacher machen, die nachfolgenden Daten zu verstehen.
 
 
 <!-- This is right-side text -->
@@ -94,7 +94,7 @@ Diese Analysen wurden durch den schnellen und offenen Austausch von genomischen 
 
 <!-- This is left-side text -->
 # [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-Wir verfügen derzeit über Sequenzen, die in 30 Ländern auf 5 Kontinenten entnommen wurden. Dies ist eine beieindruckende Leistung - die Sequenzierung eines unbekannten, großen RNA-Virus inmitten einer Pandemie ist schwierig und nur durch die grossartige Arbeit und den rechtzeitigen Datenaustausch von Wissenschaftlern und Ärzten auf der ganzen Welt möglich.
+Wir verfügen derzeit über Sequenzen, die in 30 Ländern auf 5 Kontinenten entnommen wurden. Dies ist eine beeindruckende Leistung - die Sequenzierung eines unbekannten, großen RNA-Virus inmitten einer Pandemie ist schwierig und nur durch die grossartige Arbeit und den rechtzeitigen Datenaustausch von Wissenschaftlern und Ärzten auf der ganzen Welt möglich.
 <br><br>
 Obwohl wir anhand dieser Daten viele nützliche Merkmale des Ausbruchs ableiten und seine Ausbreitung in Echtzeit verfolgen können, ist es wichtig zu betonen, dass unsere Schlussfolgerungen durch die verfügbaren Daten begrenzt sind.
 <br><br>
@@ -117,7 +117,7 @@ Wenn wir die Karte vergrößern, sehen wir, dass es viele Verbindungen zwischen 
 # [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 Betrachtet man die Britischen Inseln & Irland als Beispiel, so können wir mehrere Fälle sehen, in denen Viren, die eng mit Proben aus anderen Ländern verwandt sind, auf den Britischen Inseln & Irland auftreten.
 <br><br>
-Dies ist kompatibel mit 4 oder mehr Einführungen von anderen Orten.
+Dies ist kompatibel mit vier oder mehr Einführungen von anderen Orten.
 <br><br>
 Wir sehen auch Fälle, in denen es nach einer Einführung mehrere eng miteinander verbundene Fälle vom selben Ort gibt. Dies stimmt mit der Übertragung von mehr als einer dieser Einführungen durch die lokale Gemeinschaft überein.
 <!-- There is no right side text -->
