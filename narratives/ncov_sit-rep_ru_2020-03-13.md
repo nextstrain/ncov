@@ -1,6 +1,6 @@
 ---
 title: Геномный анализ распространения COVID-19. Ситуационный отчет 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford" (Translation: Vadim Puller)
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford" (Translation: Vadim Puller, Irina Kalita)
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "13 Марта 2020"
@@ -15,17 +15,17 @@ abstract: "Этот отчет использует общедоступные �
 <!-- This is left-side text -->
 # [Содержание](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Справочные ресурсы](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).
-* [Примечание о сборе образцов](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Распространение в Европе](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
-* [Локальная передача в Великобритании](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Распространение SARS-CoV-2 из Ирана](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Ввоз в США](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Распространение SARS-CoV-2 в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Распространение SARS-CoV-2 в Калифорнии](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [Что вы можете предпринять](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQ & Заблуждения](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Благодарности](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Справочные ресурсы](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=2).
+* [Примечание о сборе образцов](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=3).
+* [Распространение в Европе](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=4).
+* [Локальная передача в Великобритании](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=5).
+* [Распространение SARS-CoV-2 из Ирана](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=6).
+* [Ввоз в США](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=7).
+* [Распространение SARS-CoV-2 в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=8).
+* [Распространение SARS-CoV-2 в Калифорнии](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=9).
+* [Что вы можете предпринять](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=10).
+* [FAQ & Заблуждения](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=11).
+* [Благодарности](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -109,7 +109,7 @@ abstract: "Этот отчет использует общедоступные �
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Циркуляция вируса в Европе](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Здесь мы видим большую ветвь последовательностей из Европы. 
+Здесь мы видим большую ветвь последовательностей из Европы.
 Важно отметить, что последовательности из многочисленных стран перекрываются между собой, свидетельствуя о том, что COVID-19 уже широко циркулирует по Европе.
 <br><br>
 При увеличении можно заметить, что на карте присутствует много связей между Италией и другими регионами; однако важно иметь в виду, что направление этих связей не всегда может быть достоверно установлено. Возможны другие гипотезы, объясняющие эти данные (например, если неизвестный случаи инфицировал два других: вторичный случай, секвенированный в Италии, и вторичный случай где-то еще).
