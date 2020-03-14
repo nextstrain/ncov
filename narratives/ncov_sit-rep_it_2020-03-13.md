@@ -212,7 +212,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 <!-- # [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full) -->
-# [Cose utile da sapere](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+# [Cose utili da sapere](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 <!-- - The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.
 <br><br> -->
 - Il virus si è introdotto in molte parti del mondo multiple volte. Non tutte gli ingressi del virus sono risultati in trasmissioni dello stesso a livello locale.
@@ -237,19 +237,35 @@ This strongly suggests that there is ongoing local transmission within Californi
 # Cosa puoi fare
 
 <!-- Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  -->
-Distanziamento sociale -- ossia, diminuire il numero di persone che incontri ogni un giorno-- può essere difficile, ma è estremamente positivo per la salute publica.
+Distanziamento sociale -- ossia, diminuire il numero di persone che si incontrano ogni un giorno-- può essere difficile, ma è estremamente positivo per il bene colletivo.
 
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+<!-- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
-</div>
+</div>  -->
+Se tutti diminuissero i loro contatti giornalieri con le altre persone del 25%, ci potrebbe essere una diminuizione del 50% nel numero di casi totali nel mese successivo ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Leggi questa utile guida (in inglese)](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+<div>
+  <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
+</div> 
 
-## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).
+
+<!-- ## Steps individuals can take -->
+## Quello che si puo fare individualmente
+
+<!-- * Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions). -->
+* Ridurre il numero di persone con cui si è in contatto ogni giorno, in particolare se fai parte di una categoria vunerabile (ad esempio: anziani e persone con patologie mediche pre-esistenti)
+
+<!-- * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others. -->
+* Ricorda che anche se non fai parte delle categorie vulnerabili, molte persone attorno a te lo sono; segui queste regole per proteggere gli altri
+
+<!-- * Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  -->
+* Lava le mani come se avessi appena tagliato un peperoncino e dovessi cambiarti le lenti a contatto.
+
+<!-- * Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  -->
+* Stai a casa se stai male; prepara qualche provvista extra nel caso avessi bisogno di metterti in auto-quarantena.
+
+<!-- * If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  -->
+* Se sei un datore di lavoro, incoraggia i tuoi impegnati a stare a casa quando sono malati (e dagli il supporto economico per farlo).
 
 ## Steps officials can take
 * Make testing free and broadly available.
