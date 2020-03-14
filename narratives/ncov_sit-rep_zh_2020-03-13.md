@@ -15,17 +15,17 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text -->
 # [目录](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2)
-* [关于抽样的注记](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3)
-* [在欧洲的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4)
-* [在英国国内的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5)
-* [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6)
-* [病毒进入美国](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7)
-* [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8)
-* [SARS-CoV-2在加利佛尼亚州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9)
-* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10)
-* [常见问题和误区](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11)
-* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12)
+* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
+* [关于抽样的注记](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [在欧洲的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
+* [在英国国内的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
+* [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [病毒进入美国](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [SARS-CoV-2在加利佛尼亚州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [常见问题和误区](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
