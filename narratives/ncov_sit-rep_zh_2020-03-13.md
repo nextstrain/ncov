@@ -1,11 +1,11 @@
 ---
-title: 新型冠状病毒（COVID-19）流行病学基因组分析状况报告2020-03-13.
+title: 新型冠状病毒（COVID-19）流行病学基因组分析状况报告2020-03-13
 authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, Derek Zhang"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020年3月13日"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19）基因组数据来追踪病毒的传播. 报告每周更新."
+abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19）基因组数据来追踪疫情的传播，此报告将每周更新。"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
