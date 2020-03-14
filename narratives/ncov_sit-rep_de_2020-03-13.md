@@ -15,17 +15,17 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text -->
 # [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=2).
+* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=3).
+* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=4).
+* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=5).
+* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=6).
+* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=7).
+* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=8).
+* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=9).
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=10).
+* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=11).
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -153,7 +153,7 @@ Die Natur dieses Zusammenhangs ist noch nicht klar; sobald wir mehr Daten erhalt
 <!-- This is left-side text -->
 # [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 Wenn wir uns Proben aus Kalifornien ansehen, sehen wir Hinweise auf mehrfache Einführungen.
-Wichtiger ist, dass wir mindestens eine Gruppe eng miteinander verbundener Fälle sehen, die alle in Kalifornien über einen kurzen Zeitraum gesammelt wurden (klicken Sie auf ['Explore the Data'] (https://nextstrain.org/ncov) und suchen Sie nach 'CA9', um ein Beispiel zu sehen).
+Wichtiger ist, dass wir mindestens eine Gruppe eng miteinander verbundener Fälle sehen, die alle in Kalifornien über einen kurzen Zeitraum gesammelt wurden (klicken Sie auf ['Explore the Data'](https://nextstrain.org/ncov) und suchen Sie nach 'CA9', um ein Beispiel zu sehen).
 <br><br>
 Dies deutet stark darauf hin, dass es lokale Übertragung innerhalb Kaliforniens gibt.
 <!-- There is NO right-side text -->
@@ -174,7 +174,7 @@ Dies deutet stark darauf hin, dass es lokale Übertragung innerhalb Kaliforniens
 
 Soziale Distanzierung - d.h. die Verringerung der sozialen Kontakte - kann eine Herausforderung sein, ist aber für das öffentliche Wohl von großem Nutzen.
 Wenn jeder seine täglichen Kontakte um 25% verringern würde, würden wir erwarten, dass die kumulierte Zahl der Fälle im nächsten Monat um ca 50% zurückgeht ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
-Unsicher was soziale Distanzierung bedeutet? Sehen Sie sich diesen hilfreichen Leitfaden an](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+Unsicher was soziale Distanzierung bedeutet? [Sehen Sie sich diesen hilfreichen Leitfaden an](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
