@@ -61,6 +61,7 @@ In de updates van deze week rapporteren we het volgende:
 <!-- This is left-side text -->
 # [COVID-19 Bronnen](https://nextstrain.org/ncov/2020-03-05)
 We hebben een aantal bronnen voorbereid die het waard zijn om te lezen om jezelf vertrouwd te maken met COVID-19 en het virus dat het veroorzaakt, SARS-CoV-2.
+<br><br>
 Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal presenteren makkelijker; als u niet bekend bent met fylogenetische bomen, raden we u aan de ['Hoe kan ik Fylogenieën lezen?' narratief](https://nextstrain.org/narratives/trees-background) te bekijken en terug te komen wanneer u klaar bent.
 
 <!-- This is right-side text -->
@@ -106,11 +107,9 @@ Hoewel deze gegevens ons in staat stellen om veel nuttige kenmerken van de uitbr
 <!-- This is left-side text -->
 # [Verspreiding binnen Europa](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 Hier zien we een grote clade van sequenties uit Europa.
-Het valt op dat de sequenties uit veel verschillende landen intercaleren, wat erop wijst dat COVID-19 al op grote schaal in Europa circuleert.
+Het valt op dat de sequenties uit veel verschillende landen door elkaar heen staan, wat erop wijst dat COVID-19 al op grote schaal in Europa circuleert.
 <br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
-
-Als we inzoomen op de kaart zien we dat er veel verbanden zijn tussen Italië en andere gebieden; het is echter belangrijk om in gedachten te houden dat de richting van deze verbanden niet altijd met vertrouwen kan worden afgeleid. Andere hypothesen kunnen deze gegevens ook verklaren (bv. als een niet bemonsterd geval zowel een secundair geval in Italië heeft geïnfecteerd als een secundair geval dat elders is gevonden).
+Als we inzoomen op de kaart zien we dat er veel verbanden zijn tussen Italië en andere gebieden; het is echter belangrijk om in gedachten te houden dat de richting van deze verbanden niet altijd met vertrouwen kan worden afgeleid. Andere hypothesen kunnen deze gegevens ook verklaren (bv. als een niet bemonsterd geval zowel een secundair geval bemonsterd in Italië heeft geïnfecteerd als een secundair geval dat elders is bemonsterd).
 
 <!-- There is no right side text -->
 
@@ -149,7 +148,7 @@ Dit suggereert een voortdurende overdracht en lokale verspreiding binnen deze tw
 Hier zien we een grote cluster van gevallen uit Washington die allemaal nauw aan elkaar verwant zijn.
 Hieruit concluderen we dat er sprake is van een grote lokale verspreiding binnen de staat Washington.
 <br><br>
-Interessant is dat de Washington monsters intercaleren met monsters van het Grand Princess cruiseschip.
+Interessant is dat de Washington monsters zich voegen tussen de monsters van het Grand Princess cruiseschip.
 We weten nog niet zeker of het virus zich heeft verspreid van het cruiseschip naar Washington of andersom; naarmate we meer gegevens krijgen, zullen we onze analyse updaten.
 <!-- There is NO right-side text -->
 
