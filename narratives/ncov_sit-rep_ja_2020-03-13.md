@@ -25,10 +25,11 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 * [ワシントン州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
 * [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
 * [私達に出来ること](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10)
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+* [よくある質問と誤解](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 * [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
+
 ```auspiceMainDisplayMarkdown
 # 概要
 
@@ -185,17 +186,18 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [よくある質問と誤解](https://nextstrain.org/ncov/2020-03-05)
 
-#### We know that a lot of people have questions about COVID-19.
+#### 多くの方々が COVID-19 について疑問をお持ちでしょう。
 
-#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+#### [よくある質問についてこちらにガイドを用意しました。](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
+#### アメリカ科学者連盟 (Federation of American Scientists) は、よくある質問のための素晴らしい[リソース](https://covid19.fas.org/l/en)を提供しています。
 
 <!-- This is right-side text -->
+
 ```auspiceMainDisplayMarkdown
-# Further reading  
+# 参考文献：
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
@@ -206,12 +208,11 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 * "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 
-# Misconceptions
+# 誤解：
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+新規コロナウイルスの起源について、多くの誤解が広まっています。このような大きな感染症流行において、不適切であるとわかる情報の拡散はより大きなパニックを引き起こし、人々が科学者と政府に対して不信を抱かせることに繋がります。つまり、助言に従い、適切な予防措置を取る可能性が低くなります。
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+次のような見方がなぜ適切でないかを説明しようと、科学者は以下のページでこれらの理論に取り組んでいます。
 
 <div>
 
@@ -228,20 +229,19 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [分析データのクレジット](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+私たちはこの感染症流行の中において、関係したすべての科学者、中国で働いている科学者による驚くべきタイムリーな研究に謝意を表します。これらのような解析は、ゲノム情報とメタデータの迅速な共有を通じてのみ可能です。
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+また、これらのデータをアップロードおよび共有できるプラットフォームを提供してくれた [GISAID](https://gisaid.org) にも感謝します。
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+私たちはこれらの研修室によって集積されたデータに感謝します:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -369,14 +369,13 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [分析データの詳細](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+これらのデータは [GISAID](https://gisaid.org) を介して共有されました。 彼らの貢献に感謝します。
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+右側に、各ラボで共有される特定の遺伝子配列を示します。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
