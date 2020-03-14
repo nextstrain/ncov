@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
+title: Analyse génomique de la propagation du SARS-Cov-2. Rapport de situation 2020-03-13.
 authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-date: "2020 March 13"
+date: "13 Mars 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Ce rapport utilise des données génomiques partagées publiquement pour suivre la propagation du SARS-Cov-2. Nos rapports sont mis à jour chaque semaine."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,202 +13,195 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [Table des matières](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Ressources sur COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).
+* [Une note sur les questions d'échantillonnage](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [Circulation en Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
+* [Transmission locale dans les îles britanniques et en Irlande](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?)
+* [Propagation du SRAS-CoV-2 en provenance d'Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [Introductions aux Etats-Unis](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [Propagation du SRAS-CoV-2 dans l'État de Washington (USA)](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [Propagation du SRAS-CoV-2 en Californie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [Ce que vous pouvez faire](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [FAQs & Idées reçues](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+* [Crédit scientifique](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Résumé exécutif
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+Ici, nous avons analysé 410 </tag> génomes du SARS-Cov-2 partagés publiquement. En comparant ces génomes viraux entre eux, nous pouvons caractériser comment Sars-Cov-2 évolue et se déplace dans le monde.
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+Pour un aperçu actuel du nombre de cas de coronavirus dans le monde, voir[Our World In Data (en anglais)](https://ourworldindata.org/coronavirus).
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+Dans ce rapport, nous montrons que le virus circule largement à travers le monde, avec des preuves de transmission locale sur plusieurs continents. En ce moment, nous demandons instamment aux autorités de se  concentrer sur les efforts pour ralentir la propagation au sein des communautés; les interdictions de voyager sont moins susceptibles d'être efficaces.
 
-In this week's updates, we report:  
+Dans les mises à jour de cette semaine, nous rapportons:  
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+* COVID-19 circule largement à travers l'Europe, avec des mouvements importants entre les pays. 
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* Nous identifions au moins 4 introductions au Royaume-Uni, certaines avec transmission communautaire continue.
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* Il y a eu un certain nombre de cas liés aux voyages reliant l'Iran à d'autres parties du monde.
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+* Il y a eu à ce jour de nombreuses introductions aux États-Unis, ce qui a résulté en des chaînes de transmission locales dans plusieurs États.
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+* L'épidémie continue de croître dans l'État de Washington; certains cas sont étroitement liés à ceux du navire de croisière Grand Princess.
 
-* There is local circulation of COVID-19 in California.  
+* Il y a une circulation locale de COVID-19 en Californie. 
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+* Des mesures de distanciation sociale doivent être adoptées rapidement pour alléger la charge pesant sur les systèmes de santé et protéger les personnes vulnérables.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
+# [Ressources sur COVID-19](https://nextstrain.org/ncov/2020-03-05)
+
+Nous avons préparé quelques ressources qui valent la peine d'être lues pour vous familiariser avec COVID-19 et le virus qui le provoque, SARS-CoV-2.
+
+Ces informations faciliteront l'interprétation des données que nous présentons dans ce document. Si vous n'êtes pas familier avec les arbres phylogénétiques, nous vous encourageons à consulter le ["Comment lire les phylogénie" en anglais](https://nextstrain.org/narratives/trees-background) et à revenir quand vous serez prêt.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Contexte
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="image de microscopie des coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Informations sur les coronavirus </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration d'un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Contexte de l'émergence de COVID-19 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="illustration d'un arbre phylogénétique" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Comment lire les phylogénies </a>
+
 </div>
 
-## Further Reading
+## Lectures additionnelles:
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+* Informations générales sur les coronavirus sur [Wikipedia](https://fr.wikipedia.org/wiki/Coronavirus) 
+* Documents fournis par l'[US CDC](https://www.cdc.gov/coronavirus/index.html)
 
-## Nextstrain narratives
+## Récits Nextstrain
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+Les pages suivantes contiennent des analyses effectuées à l'aide de [Nextstrain](https://nextstrain.org).
+En faisant défiler la barre latérale gauche, vous découvrirez des paragraphes de texte avec sur le côté droit une visualisation correspondant aux données génomiques.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+Obtenir des génomes complets d'un nouveau et grand virus à ARN si rapidement est une réalisation remarquable. Ces analyses ont été rendues possibles grâce au partage rapide et ouvert de données génomiques et aux interprétations de scientifiques du monde entier (voir la diapositive finale pour une visualisation des crédits des séquençages).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Une note sur les questions d'échantillonnage](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+Nous avons actuellement des séquences d'échantillons prélevés dans 30 pays sur 5 continents. C'est un exploit incroyable: séquencer un virus à ARN inconnu de grande taille au milieu d'une pandémie est difficile et n'est possible que grâce au travail incroyable et au partage en temps opportun de données par des scientifiques et des médecins du monde entier.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+Bien que ces données nous permettent d'inférer de nombreuses caractéristiques utiles de l'épidémie et de suivre sa propagation en temps réel, il est important de souligner que nos conclusions sont limitées par les données disponibles.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+Par exemple, la carte montre très peu de séquences des pays du Sud. Ce n'est PAS parce que COVID-19 ne circule pas dans ces zones, ou que ces cas ne sont pas aussi cruciaux à comprendre; c'est simplement que nous n'avons pas beaucoup de données disponibles dans ces régions. La taille de chaque cercle sur la carte indique la quantité de données actuellement disponibles dans cette région, et non pas la taille réelle de l'épidémie.
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
+# [Circulation en Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+Ici, nous observons un grand clade de séquences d'Europe. Il est important de noter que des séquences de nombreux pays différents s'intercalent, ce qui indique COVID-19 circule déjà assez largement à travers l'Europe.
 <br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+En zoomant sur la carte, on observe qu'il existe de nombreux liens entre l'Italie et d'autres zones ; il est toutefois important de garder à l'esprit que la direction de ces liens ne peut pas toujours être déduite avec certitude. D'autres hypothèses peuvent également expliquer ces données (par exemple, si un cas non échantillonné a infecté à la fois un cas secondaire séquencé en Italie et un cas secondaire séquencé ailleurs).
 
 <!-- There is no right side text -->
 
-
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
+# [Transmission locale dans les îles britanniques et en Irlande](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+En prenant l'exemple des îles britanniques et de l'Irlande, on peut observer plusieurs cas où des virus étroitement liés à des échantillons provenant d'autres pays apparaissent dans les îles britanniques et en Irlande.
 <br><br>
-This is consistent with 4 or more introductions from other locations.
+Cela correspond à 4 introductions ou plus en provenance d'autres endroits.
 <br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
-<br><br>
-Note that there are no full genomes available from patients in Iran.
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
-<br><br>
-Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
-However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases.
-<br><br>
-For Washington and California, though, we do see clusters of cases that are closely related.
-This suggests ongoing transmission and local spread within these two states.
+Nous voyons également des cas où après une introduction, il y a plusieurs cas étroitement liés au même endroit. Ceci est cohérent avec de la transmission intracommunautaire à partir de plusieurs de ces introductions.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Here, we see a large cluster of cases from Washington that are all closely related.
-From this, we conclude that there is extensive local spread within Washington state.
+# [Propagation du SRAS-CoV-2 en provenance d'Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+Un certain nombre de génomes ont été séquencés à partir de patients ayant des antécédents de voyage en Iran. Ces génomes sont tous extrêmement similaires et indiquent que l'épidémie en Iran est peut-être le résultat d'une seule introduction qui a ensuite été transmise à de nombreux autres endroits.
 <br><br>
-Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship.
-We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis.
-<!-- There is NO right-side text -->
-
-<!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
-<br><br>
-This strongly suggests that there is ongoing local transmission within California.
+Notez qu'il n'y a pas de génomes complets disponibles provenant de patients en Iran.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
+# [Introductions aux Etats-Unis](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+Ici, nous pouvons observer que le virus a été introduit aux États-Unis à de multiples occasions indépendantes.
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
+Ici, nous pouvons observer que le virus a été introduit aux États-Unis à plusieurs reprises de manière indépendante. La plupart de ces introductions ne sont associées à aucun autre cas échantillonné aux États-Unis, nous ne savons donc pas si ces introductions ont conduit à des épidémies locales. Cependant, étant donné que la capacité de test diagnostic n'a pas encore augmenté suffisamment dans la plupart des régions, nous nous attendons à ce qu'il y ait de nombreux cas non signalés.
 <br><br>
-- Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
+Pour l'état de Washington et la Californie, cependant, nous observons des groupes de cas qui sont étroitement liés. Cela suggère une transmission continue et une propagation locale dans ces deux États.
+<!-- There is no right side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Propagation du SRAS-CoV-2 dans l'État de Washington (USA)](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+Ici, nous observons un grand regroupement de cas dans l'État de Washington qui sont tous étroitement liés. Nous concluons donc qu'il existe une large propagation locale dans cet État.
+<br><br>
+Il est intéressant de noter que les échantillons de l'Etat de Washington sont intercalés avec des échantillons du navire de croisière Grand Princess. Nous ne savons pas encore si le virus s'est propagé du navire de croisière à Washington ou l'inverse; à mesure que nous obtiendrons plus de données, nous mettrons à jour notre analyse.
+<!-- There is NO right-side text -->
+
+<!-- This is left-side text -->
+# [Propagation du SRAS-CoV-2 en Californie](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+En regardant les échantillons de Californie, nous observons la preuve d'introductions multiples. Plus importants encore, nous observons au moins un groupe de cas étroitement liés, tous échantillonnés en Californie sur une courte période (cliquez sur ['Explore the Data'](https://nextstrain.org/ncov) et recherchez 'CA9' pour voir l'exemple).
+<br><br>
+Cela suggère fortement qu'il y a une transmission locale en cours en Californie.
+<!-- There is NO right-side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [A retenir](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+- Le virus a été introduit à plusieurs reprises dans de nombreuses régions du globe. Toutes les introductions n'entraînent pas une transmission locale.
+<br><br>
+- Nous observons des preuves de transmission locale à travers l'Europe, certaines parties des États-Unis, la Chine et l'Asie du Sud-Est. 
+<br><br>
+- Le contrôle des épidémies locales par la distanciation sociale est crucial pour protéger les personnes vulnérables.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do  
+# Ce que vous pouvez faire 
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+La distanciation sociale - c'est-à-dire la diminution du nombre de personnes que vous rencontrez chaque jour - cela peut être difficile, mais cette mesure est extrêmement bénéfique pour le bien public.  
+
+Si chacun diminuait ses contacts quotidiens de 25 %, on pourrait s'attendre à une diminution de 50 % du nombre cumulé de cas au cours du mois prochain ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Vous n'êtes pas sûr de ce que signifie la distanciation sociale ? [Consultez ce guide pratique en anglais](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
-## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
+## Mesures que vous pouvez prendre en tant que particulier
+* Réduisez le nombre de personnes avec lesquelles vous êtes en contact chaque jour, surtout si vous faites partie d'un groupe vulnérable (par exemple, les personnes âgées et les personnes souffrant de maladies préexistantes).
+* N'oubliez pas que même si vous ne faites pas partie de ces personnes vulnérables, de nombreuses personnes autour de vous le sont ; suivez ces pratiques pour protéger les autres.
+* Lavez-vous les mains "comme si vous veniez de couper un piment et que vous deviez changer une lentille de contact".
+* Restez à la maison si vous êtes malade ; soyez prêt à vous procurer quelques provisions supplémentaires au cas où vous auriez besoin de vous mettre en quarantaine.
+* Si vous êtes un employeur, encouragez vos employés à rester chez eux lorsqu'ils sont malades (et soutenez-les financièrement).
 
-## Steps officials can take  
-* Make testing free and broadly available.  
-* Put social distancing measures in place.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## Mesures que vous pouvez prendre en tant que vous pouvez prendre en tant qu'autorité responsable
+* Rendre les tests gratuits et largement disponibles.  
+* Mettre en place des mesures de distanciation sociale. 
+* Soutenir financièrement les personnes touchées par les mesures de distanciation sociale (par exemple, les travailleurs payés a l'heure, les personnes ayant des responsabilités de soins aux personnes âgées ou aux enfants, les petites entreprises, etc.)
 ```
-
-
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [FAQs & Idées reçues](https://nextstrain.org/ncov/2020-03-05)
 
-#### We know that a lot of people have questions about COVID-19.
+#### Nous savons que beaucoup de gens ont des questions sur COVID-19.
 
-#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+#### [Nous avons mis en place un guide pour tenter de répondre aux questions les plus fréquemment posées](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
+#### La Fédération des scientifiques américains (Federation of American Scientists) maintient également [une excellente FAQ](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Further reading  
+# Lectures additionnelles (en anglais):
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
@@ -219,17 +212,17 @@ Social distancing -- that is, decreasing the number of people you encounter each
 * "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 
-# Misconceptions
+# Idées reçues
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+Un certain nombre d'idées fausses ont été diffusées sur les origines du nouveau coronavirus.
+Lors d'épidémies comme celle-ci, la diffusion d'informations connues pour être incorrectes peut conduire à davantage de panique et amener les gens à ne pas faire confiance aux scientifiques et aux gouvernements, ce qui signifie qu'ils sont moins susceptibles de suivre les avis et de prendre les précautions appropriées.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+Afin d'essayer d'expliquer pourquoi ces vues sont incorrectes, les scientifiques ont abordé ces théories dans les pages ci-dessous (en anglais):
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="photo d'un serpent" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration du VIH" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
 
 
 </div>
@@ -241,20 +234,19 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Crédit scientifique](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Nous tenons à souligner le superbe travail accompli si rapidement par tous les scientifiques impliqués dans cette épidémie, et en particulier ceux qui travaillent en Chine. Ce n'est que par le partage rapide des données génomiques et des métadonnées que de telles analyses sont possibles.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Nous remercions également [GISAID](https://gisaid.org) d'avoir fourni la plate-forme à travers laquelle ces données peuvent être téléchargées et partagées.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Nous sommes reconnaissants pour les données recueillies par ces laboratoires d'origine:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -382,19 +374,18 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Crédit scientifique détaillé](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Ces données ont été partagées par [GISAID](https://gisaid.org). Nous remercions chaleureusement leurs contributions.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+Sur la droite nous indiquons les séquences partagées par chaque laboratoire.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+Les génomes du SRAS-CoV-2 ont été généreusement partagés par les scientifiques de ces laboratoires:
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
