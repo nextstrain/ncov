@@ -118,7 +118,7 @@ En prenant l'exemple des îles britanniques et de l'Irlande, on peut observer pl
 <br><br>
 Cela correspond à 4 introductions ou plus en provenance d'autres endroits.
 <br><br>
-Nous voyons également des cas où après une introduction, il y a plusieurs cas étroitement liés au même endroit. Ceci est cohérent avec de la transmission intracommunautaire à partir de plusieurs de ces introductions.
+Nous voyons également des situations où, après une introduction, il y a plusieurs cas étroitement liés au même endroit. Ceci est cohérent avec de la transmission intracommunautaire à partir de plusieurs de ces introductions.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
