@@ -107,61 +107,62 @@ So zeigt die Karte beispielsweise nur sehr wenige Sequenzen aus dem globalen Sü
 <!-- This is left-side text -->
 # [Verbreitung in Europa](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 Hier sehen wir eine große Gruppe von Sequenzen aus Europa.
-Insbesondere sind Sequenzen aus vielen verschiedenen Ländern gut gemischt, was darauf hinweist, dass COVID-19 bereits weit in Europa verbreitet ist.
+Insbesondere sind Sequenzen aus vielen verschiedenen Ländern eng miteinander verwandt, was darauf hinweist, dass COVID-19 bereits weit in Europa verbreitet ist.
 <br><br>
 Wenn wir die Karte vergrößern, sehen wir, dass es viele Verbindungen zwischen Italien und anderen Gebieten gibt; es ist jedoch wichtig, sich vor Augen zu halten, dass die Richtung dieser Verbindungen nicht immer sicher abgeleitet werden kann. Auch andere Hypothesen können diese Daten erklären (z.B. wenn ein nicht sequenzierter Fall sowohl einen in Italien sequenzierten Sekundärfall als auch einen anderswo sequenzierten Sekundärfall infiziert hat).
 
 <!-- There is no right side text -->
 
 
-# [Lokale Verbreitung in Vereinigten Königreich und Irland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+# [Lokale Verbreitung im Vereinigten Königreich und Irland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 Betrachtet man die Britischen Inseln & Irland als Beispiel, so können wir mehrere Fälle sehen, in denen Viren, die eng mit Proben aus anderen Ländern verwandt sind, auf den Britischen Inseln & Irland auftreten.
 <br><br>
-Dies ist kompatibel mit vier oder mehr Einführungen von anderen Orten.
+Dies ist kompatibel mit mindestens vier Einführungen von anderen Orten.
 <br><br>
-Wir sehen auch Fälle, in denen es nach einer Einführung mehrere eng miteinander verbundene Fälle vom selben Ort gibt. Dies stimmt mit der Übertragung von mehr als einer dieser Einführungen durch die lokale Gemeinschaft überein.
+Wir sehen auch Fälle, in denen es nach einer Einführung mehrere eng miteinander verbundene Fälle vom selben Ort gibt. 
+Dies suggerierrt, dass es nach mehr als einer dieser Einführungen zu lokaler Verbreitung gekommen ist.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Verteilung von SARS-CoV-2 von Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Eine Reihe von Genomen von Patienten, die über rezente Reisen in den Iran berichten, wurden sequenziert. Diese Genome sind alle sehr ähnlich und weisen darauf hin, dass der Ausbruch im Iran von einem grossen Cluster dominiert wird, der anschließend an viele andere Orte übertragen wurde.
+Eine Reihe von Genomen von Viren wurden von Patienten isoliert, welche kürzlich im Iran waren. Diese Genome sind alle sehr ähnlich, was darauf hinweist, dass der Ausbruch im Iran von einem grossen Cluster dominiert wird, der anschließend an viele andere Orte übertragen wurde.
 <br><br>
-Beachten Sie, dass vollständigen Genome von Viren direkt aus dem Iran verfügbar sind.
+Beachten Sie jedoch, dass vollständigen Genome von Viren direkt aus dem Iran verfügbar sind.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Einführung in die USA](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Hier können wir sehen, dass das Virus bei mehreren unabhängigen Gelegenheiten in die USA eingeschleppt wurde.
+Hier können wir sehen, dass das Virus in mehreren unabhängigen Fällen in die USA eingeschleppt wurde.
 <br><br>
-Die meisten dieser Einschleppungen stehen in keinem Zusammenhang mit anderen sequenzierten Fällen aus den USA, so dass wir nicht sicher sind, ob diese Einschleppungen zu lokalen Ausbrüchen führten.
+Die meisten dieser Einführung stehen in keinem Zusammenhang mit anderen sequenzierten Fällen aus den USA, so dass wir nicht sicher sind, ob diese Einschleppungen zu lokalen Ausbrüchen geführt haben.
 Da jedoch die Testkapazität in den meisten Gebieten noch nicht ausgebaut ist, gehen wir davon aus, dass es viele nicht gemeldete Fälle gibt.
 <br><br>
-Für Washington und Kalifornien sehen wir jedoch Cluster von Fällen, die eng miteinander verbunden sind.
-Dies deutet auf eine kontinuierliche Übertragung und lokale Verbreitung innerhalb dieser beiden Bundesstaaten hin.
+Für Washington und Kalifornien sehen wir Cluster von Fällen, die eng miteinander verbunden sind.
+Dies deutet auf eine fortschreitende, lokale Verbreitung innerhalb dieser beiden Bundesstaaten hin.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Verbreitung von SARS-CoV-2 in Washington State](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Hier sehen wir eine große Gruppe von Fällen aus Washington, die alle eng miteinander verwandt sind.
+Hier sehen wir eine große Gruppe von Fällen aus Washington, welche alle eng miteinander verwandt sind.
 Interessant ist, dass die Sequenzen aus Washington mit Sequenzen vom Kreuzfahrtschiff Grand Princess verwandt sind.
-Die Natur dieses Zusammenhangs ist noch nicht klar; sobald wir mehr Daten erhalten, werden wir unsere Analyse aktualisieren.
+Wi genau diese Fälle zusammenhängen ist noch nicht klar; sobald wir mehr Daten erhalten, werden wir unsere Analysen aktualisieren.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
 # [Verbreitung von SARS-CoV-2 in Kalifornien](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Wenn wir uns Proben aus Kalifornien ansehen, sehen wir Hinweise auf mehrfache Einführungen.
-Wichtiger ist, dass wir mindestens eine Gruppe eng miteinander verbundener Fälle sehen, die alle in Kalifornien über einen kurzen Zeitraum gesammelt wurden (klicken Sie auf ['Explore the Data'](https://nextstrain.org/ncov) und suchen Sie nach 'CA9', um ein Beispiel zu sehen).
+Die Sequenzen aus Kalifornien zeigen starke Hinweise auf mehrfache Einführungen.
+In mindestens einem Fall sind Sequezen über einen kurzen Zeitraum gesammelt wurden eng miteinander verwandt (klicken Sie auf ['Explore the Data'](https://nextstrain.org/ncov) und suchen Sie nach 'CA9', um ein Beispiel zu sehen).
 <br><br>
-Dies deutet stark darauf hin, dass es lokale Übertragung innerhalb Kaliforniens gibt.
+Dies deutet stark darauf hin, dass es zu lokale Übertragung innerhalb Kaliforniens gekommen ist.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Wichtigste Punkte](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- Das Virus wurde mehrfach in viele Teile der Welt eingeschleppt. Nicht alle Einführungen führen zu einer lokalen Übertragung.
+- Das Virus wurde mehrfach in viele Teile der Welt eingeschleppt. Nicht alle Einführungen führten zu einer lokalen Übertragung.
 <br><br>
 - Wir sehen Hinweise für eine lokale Übertragung in ganz Europa, Teilen der Vereinigten Staaten, China und Südostasien.
 <br><br>
@@ -204,7 +205,7 @@ Unsicher was soziale Distanzierung bedeutet? [Sehen Sie sich diesen hilfreichen 
 
 #### [Wir habe mehrere dieser zusammegetragen](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
+#### Die Federation of American Scientists stellt eine [gute Ressource für offene Fragen zur verfügung](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
