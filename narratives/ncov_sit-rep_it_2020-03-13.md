@@ -138,8 +138,8 @@ Queste analisi sono state rese possibili grazie alla rapida e libera diffusione 
 <!-- # [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed) -->
 # [Una nota su come sono state raccolte le sequenze](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
 <!-- We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world. -->
-<br><br>
 Al momento abbiamo sequenze da campioni raccolti in 30 Paesi e 5 continenti. Questa è un'impresa incredibile -- sequenziare un virus a RNA così grande e sconosciuto nel bel mezzo di una pandemia è difficile ed è stato possibile solamente grazie all'incredibile sforzo e la tempestiva condivisione dei dati da parte di scienziati e medici in tutto il mondo.
+<br><br>
 <!-- While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data. -->
 Anche se questi dati ci permettono di dedurre molte utili caratteristiche dell'epidemia e di tracciare la sua evoluzione in tempo reale, è però importante enfatizzare che le nostre conclusioni sono limitate dalla disponibilità di dati.
 <br><br>
