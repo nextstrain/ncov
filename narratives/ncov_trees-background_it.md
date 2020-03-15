@@ -45,11 +45,11 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 
 <!-- This is left-side text -->
 <!--* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?--> 
-# [Qual'è la relazione tra le reti di trasmissione e gli alberi filogenetici?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+# [Qual'è la relazione tra le reti di trasmissione e gli alberi filogenetici](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
 I patogeni si diffondono attraverso una replicazione rapida in un organismo ospite, seguita dalla trasmissione ad un altro organismo ospite. Un'epidemia può verificarsi solo quando un'infezione risulta in più di una infezione successiva. 
 <!--Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.-->
 <br><br>
-Quando il patogeno si replica e si diffonde, il suo genome ha bisogno di essere replicato molte volte e mutazioni casuali (errori di replicazione) si accumulano sul genoma; questo è un fatto normale. Tali mutazioni casuali possono aiutare a tracciare la diffusione del patogeno e a saperne di più sulle sue rotte di trasmissione e sulla sua dinamica.
+Quando il patogeno si replica e si diffonde, il suo genome ha bisogno di essere replicato molte volte e mutazioni casuali (errori di replicazione) si accumulano sul genoma; questo è un fatto normale. Tali mutazioni casuali possono aiutare a tracciare la diffusione del patogeno e imparare cose sulle sue rotte di trasmissione e la sua dinamica.
 <!--As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.-->
 
 <!-- This is right-side text -->
@@ -60,11 +60,9 @@ Quando il patogeno si replica e si diffonde, il suo genome ha bisogno di essere 
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-L'illustrazione qui sopra mostra un albero di trasmissione schematico. Ogni cerchio rappresenta un caso (persona infetta), con le linee orizzontaliche indicano la durata della loro infezione. Casi connessi rappresentano trasmissioni da una persona alla successiva.
-<!--The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.-->
+The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
 <br> <br>
-Qui vediamo una immagine reale dell'albero di trasmissione. In pratica, comunque, solo un sottoinsieme dei casi sono stati sequenziati (blu); l'albero di trasmissione è tipicamente sconosciuto e sono disponibili solo stime rozze del numero dei casi. In questo esempio, sono indicate sull'albero tre mutazioni (rombi piccolini). Le sequenze che hanno le stesse mutazioni sono più strettamente legate, quindi queste mutazioni ci permettono di raggruppare le sequenze in gruppi di virus strettamente legati, che appartengono alle stesse catene di trasmissione. 
-<!--Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.-->
+Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
 </p>
 </div>
 ```
@@ -73,10 +71,7 @@ Qui vediamo una immagine reale dell'albero di trasmissione. In pratica, comunque
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-<!--# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)-->
-# [Come faccio a leggere un albero?](https://nextstrain.org/ncov/2020-03-11)
-
-
+# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
 
 The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
 <br><br>
@@ -220,14 +215,20 @@ However, there is always uncertainty in these estimates. Generally speaking, par
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+<!-- # [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->
+# [Ringraziamenti scientifici](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+<!-- We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
+Only through the rapid sharing of genomic data and metadata are analyses such as these possible. -->
+Ringraziamo tutti gli scienziati al lavoro su questa epidemia, e in particolare quelli che lavorano in Cina, per lo straordinario e tempestivo lavoro fatto.
+È solo attraverso la rapida condivisione di dati e metadati genomici che analisi come questa sono possibili.
+
 
 <br><br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+<!-- We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared. -->
+
+Siamo anche grati a [GISAID](https://gisaid.org) per aver fornito la piattaforma su cui questi dati sono stati caricati e condivisi.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
@@ -361,19 +362,24 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+<!-- # [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->
+# [Crediti scientifici dettagliati](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+<!-- These data were shared via [GISAID](https://gisaid.org).
+We gratefully acknowledge their contributions. -->
 
+Questi dati sono condivisi via [GISAID](https://gisaid.org).
+Riconosciamo con gratitudine i loro contributi.
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+<!--  To the right we give specific sequences shared by each lab. -->
+Sulla destra le sequenze specifiche condivise da ogni laboratorio.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+<!-- The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs: -->
+I genomi del SARS-CoV-2 sono stati generosamente condivisi dagli scienziati presso questi laboratori:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
