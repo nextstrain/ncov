@@ -48,7 +48,7 @@ abstract: "Ce document explique comment lire et interpréter les arbres phylogé
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Comment les réseaux de transmission sont liés aux arbres phylogénétiques](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full) ?
+# [Comment les réseaux de transmission sont liés aux arbres phylogénétiques?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
 Les agents pathogènes se propagent par réplication rapide dans un hôte, puis par transmission à un autre hôte. Une épidémie ne peut gagner en ampleur que lorsqu'une infection entraîne plusieurs autres infections.
 <br><br>
 À mesure que l'agent pathogène se réplique et se propage, son génome doit être répliqué de nombreuses fois et des mutations aléatoires (erreurs de copie) s'accumulent dans le génome ; ceci est normal. Ces mutations aléatoires peuvent aider à suivre la propagation de l'agent pathogène et à connaître ses voies de transmission et sa dynamique.
@@ -72,7 +72,7 @@ Ici, nous observons l'ensemble de l'arbre de transmission. En pratique, cependan
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Comment lire un arbre phylogénétique](https://nextstrain.org/ncov/2020-03-11) ?
+# [Comment lire un arbre phylogénétique?](https://nextstrain.org/ncov/2020-03-11)
 
 L'axe des x d'un arbre représente le degré de différence (en temps ou en divergence génétique - nous y reviendrons). L'axe des y permet juste d'étaler les choses pour que nous puissions tout voir ; il n'a pas d'unité.
 <br><br>
@@ -106,7 +106,7 @@ Sur la base de cet arbre, nous pourrions conclure que A et B sont étroitement l
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Comment le panneau "diversité" se rapporte à l'arbre](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open) ?
+# [Comment le panneau "diversité" se rapporte à l'arbre?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
 Examinons les 169</tag> premières souches de SARS-CoV-2 (le virus qui cause COVID-19) qui ont été publiquement partagées. Tout comme sur la page précédente, nous avons construit un alignement de ces séquences virales (vous pouvez voir comment toutes les analyses mentionnées ici ont été faites [sur GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
@@ -163,7 +163,7 @@ Si vous passez la souris sur la ligne verticale la plus à gauche, vous pouvez v
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Comment interpréter les traits (couleurs) sur l'arbre](https://nextstrain.org/ncov/2020-03-11) ?
+# [Comment interpréter les traits (couleurs) sur l'arbre?](https://nextstrain.org/ncov/2020-03-11)
 Les arbres phylogénétiques contiennent souvent des informations supplémentaires, telles que l'emplacement de chaque prélèvement d'échantillons. De cela, nous pouvons déduire l'emplacement des nœuds internes (cas intermédiaires hypothétiques, non échantillonnés) à l'aide de modèles mathématiques. Cela peut nous aider à comprendre comment le virus se déplace d'un endroit à l'autre.
 <br><br>
 Il convient toutefois de les interpréter avec prudence, car l'échantillonnage et le séquençage ou leur absence peuvent influencer considérablement l'interprétation.
@@ -190,7 +190,7 @@ Ainsi, bien que ces conclusions puissent être précieuses, elles doivent égale
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Comment la carte est reliée à l'arbre](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed) ?
+# [Comment la carte est reliée à l'arbre?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
 Ici, nous montrons l'arbre coloré par provenance de chaque échantillon (et provenance déduite pour chaque nœud interne).
 Si vous cliquez sur ["Explorer les données"] (https://nextstrain.org/ncov), vous pouvez voir une animation de la propagation déduite du virus au cours de l'épidémie.
