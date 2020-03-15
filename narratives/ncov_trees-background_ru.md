@@ -1,11 +1,11 @@
 ---
-title: How to interpret phylogenetic trees
+title: Как интерпретировать филогенетические деревья
 authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
-date: "2020 March 13"
+date: "13 марта 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."
+abstract: "Этот документ обясняет как читать и интерпретировать филогенетические деревья, которые позволяют информировать геномную эпидемиологию. Данный сайт оптимизирован для отображения в браузерах настольных компьютеров"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,9 +13,9 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [Содержание](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [Как цепи передачи соотносятся с филогенетическими деревьями?](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
@@ -32,10 +32,10 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+# [Как цепи передачи соотносятся с филогенетическими деревьями?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Патогены распространяются путем быстрой репликации в одном хозяине, за которым следует передача к другому хозяину. Эпидемия может набрать обороты только если одна инфекция ведет к более чем одной последующей инфекции. 
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+По мере того как патоген размножается и распространяется, его геном проходит через множество репликаций и случайные мутации (ошибки копирования) аккумулируются в геноме; это является нормальным процессом. Такие случайные мутации могут помочь отслеживать распространение патогена и понять пути и динамику его передачи.    
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
