@@ -1,5 +1,5 @@
 ---
-title: Analisi genomica della diffusione di COVID-19. Aggiornamento al 13 marzo 2020.
+title: Analisi genomica della diffusione del COVID-19. Aggiornamento al 13 marzo 2020.
 authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
@@ -24,13 +24,13 @@ abstract: "Questo report usa dati genomici pubblicamente condivisi per ricostrui
 <!-- * [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).  -->
 * [Trasmissione locale in Regno Unito](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
 <!-- * [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5). -->
-* [Diffusione della SARS-CoV-2 dall'Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [Diffusione del virus SARS-CoV-2 dall'Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
 <!-- * [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6). -->
 * [Introduzioni negli Stati Uniti](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
 <!-- *[Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7). -->
-* [Diffusione della SARS-CoV-2 nello Stato di Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [Diffusione del virus SARS-CoV-2 nello Stato di Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
 <!-- *[Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8). -->
-* [Diffusione della SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [Diffusione del virus SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
 <!-- * [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9). -->
 * [Cosa puoi fare](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
 <!-- * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10). -->
@@ -46,7 +46,7 @@ abstract: "Questo report usa dati genomici pubblicamente condivisi per ricostrui
 # Sommario
 
 <!-- Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world. -->
-Di seguito, abbiamo analizzato 410</tag> genomi di COVID-19 pubblicamente condivisi. Confrontando tra loro questi genomi virali possiamo caratterizzare come il COVID-19 si sta evolvendo e spostando nel mondo.
+Di seguito, abbiamo analizzato 410</tag> genomi del COVID-19 pubblicamente condivisi. Confrontando tra loro questi genomi virali possiamo caratterizzare come il COVID-19 si sta evolvendo e spostando nel mondo.
 
 <!-- For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus). -->
 Per seguire in tempo reale il numero di casi di coronavirus nel mondo, vai a [Our World In Data](https://ourworldindata.org/coronavirus).
@@ -72,7 +72,7 @@ Nell'aggiornamento di questa settimana:
 * Ad oggi, ci sono stati molti ingressi del virus negli Stati Uniti che hanno causato trasmissioni a catena in più Stati.
 
 <!-- * The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship. -->
-* L'epidemia continua a crescere nello Stato di Washinton; alcuni casi sono strettamenti connessi a quelli della nave da crociera Grand Princess.
+* L'epidemia continua a crescere nello Stato di Washington; alcuni casi sono strettamenti connessi a quelli della nave da crociera Grand Princess.
 
 <!-- * There is local circulation of COVID-19 in California. -->
 * C'è una diffusione locale del COVID-19 in California.
@@ -160,7 +160,7 @@ In particolare, le sequenze di molti Paesi diversi si intercalano, indicando com
 <br><br>
 
 <!-- Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere). -->
-Ingrandendo la mappa, si può osservare come ci siano molte connessioni tra l'Italia e altre aree; Tìtuttavia, è importante ricordare che la direzionalità di queste connessioni non può essere sempre dedotta in modo sicuro. Ci sono anche altre ipotesi che possono spiegare questi dati (ad esempio, se un caso non campionato ha infettato sia un caso secondario sequenziato in Italia che un caso secondario sequenziato altrove).
+Ingrandendo la mappa, si può osservare che ci sono molte connessioni tra l'Italia e altre aree; tuttavia, è importante ricordare che la direzionalità di queste connessioni non può essere sempre dedotta in modo sicuro. Ci sono anche altre ipotesi che possono spiegare questi dati (ad esempio, se un caso non campionato ha infettato sia un caso secondario sequenziato in Italia che un caso secondario sequenziato altrove).
 <!-- There is no right side text -->
 
 
@@ -168,7 +168,7 @@ Ingrandendo la mappa, si può osservare come ci siano molte connessioni tra l'It
 # [Trasmissione locale nelle Isole britanniche e in Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 
 <!-- Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.-->
-Prendendo le Isole britanniche e l'Irlanda come esempio, osserviamo come in diversi casi la comparsa del virus in queste aree sia strettamente correlata a campioni di altri Paesi.
+Prendendo le Isole britanniche e l'Irlanda come esempio, osserviamo che in diversi casi la comparsa del virus in queste aree è strettamente correlata a campioni di altri Paesi.
 <br><br>
 
 <!-- This is consistent with 4 or more introductions from other locations. -->
@@ -183,7 +183,7 @@ Abbiamo osservato anche casi in cui, dopo un ingresso del virus, ci siano divers
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 <!-- # [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div) -->
-# [Diffusione del SARS-CoV-2 dall'Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+# [Diffusione del virus SARS-CoV-2 dall'Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
 
 <!-- A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places. -->
 Numerosi genomi sono stati sequenziati da pazienti che hanno riportato di aver viaggiato in Iran. Questi genomi sono tutti estremamente simili tra loro ed indicano che l'epidemia in Iran potrebbe essere il risultato di una singola trasmissione che è stata successivamente diffusa a molte altre località.
@@ -218,7 +218,7 @@ Ciò suggerisce che stia avvenendo la trasmissione e diffusione locale del virus
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 <!-- # [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed) -->
-# [Diffusione del SARS-CoV-2 nello stato di Washington](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+# [Diffusione del virus SARS-CoV-2 nello Stato di Washington](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 
 <!-- Here, we see a large cluster of cases from Washington that are all closely related. -->
 Qui, osserviamo un grande gruppo di casi da Washington che sono tutti strettamente correlati.
@@ -235,7 +235,7 @@ Non è ancora chiaro se il virus si sia diffuso dalla nave da crociera a Washing
 
 <!-- This is left-side text -->
 <!-- # [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed) -->
-# [Diffusione del SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+# [Diffusione del virus SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 
 <!-- Looking at samples from California, we see evidence for multiple introductions. -->
 Osservando i campioni provenienti dalla California, notiamo prove di introduzioni multiple.
