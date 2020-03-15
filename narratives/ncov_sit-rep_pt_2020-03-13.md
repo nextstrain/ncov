@@ -130,7 +130,7 @@ Perceba que não há genomas completos disponíveis de pacientes no Irã.
 # [Introduções do Vírus nos EUA](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
 Aqui vemos que o vírus foi introduzido nos EUA em várias ocasiões independentes.
 <br><br>
-A maioria dessas introduções não está associada a nenhum outro caso amostrado dos EUA, portanto não temos certeza se essas introduções levaram a surtos locais. No entanto, considerando que a capacidade de testagem ainda não foi aumentada na maioria das áreas, esperamos que haja muitos casos não relatados.
+A maioria dessas introduções não está associada a nenhum outro caso amostrado dos EUA, portanto não temos certeza se essas introduções levaram a surtos locais. No entanto, considerando que a capacidade de testagem ainda não foi aumentada na maioria das áreas, supomos que haja muitos casos não relatados.
 <br><br>
 Para Washington e Califórnia porém, vemos grupos de casos intimamente relacionados, o que sugere transmissão contínua e espalhamento local dentro desses dois estados.
 <!-- There is no right side text -->
@@ -138,14 +138,14 @@ Para Washington e Califórnia porém, vemos grupos de casos intimamente relacion
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Espalhamento do SARS-CoV-2 no estado de Washington (EUA)](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Aqui vemos um grande grupo de casos de Washington que estão intimamente ligados. A partir disso, concluímos que há uma ampla disseminação local dentro do estado.
+Aqui vemos um grande grupo de casos de Washington que estão proximamente ligados. A partir disso, concluímos que há uma ampla disseminação local dentro do estado.
 <br><br>
-Curiosamente, as amostras de Washington se intercalam com as amostras do cruzeiro Grand Princess. Ainda não temos certeza se o vírus se espalhou do navio para dentro do Estado ou o contrário; Conforme recebermos mais dados, atualizaremos nossa análise.
+Curiosamente, as amostras de Washington se intercalam com as amostras do cruzeiro Grand Princess. Ainda não temos certeza se o vírus se espalhou do navio para dentro do Estado ou o contrário. Conforme recebermos mais dados, atualizaremos nossa análise.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
 # [Espalhamento do SARS-CoV-2 no estado da Califórnia (EUA)](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Observando as amostras da Califórnia, vemos evidências de múltiplas introduções. O mais importante é que vemos ao  menos um grupo de casos intimamente ligados, todos amostrados na Califórnia em um período curto de tempo (clique em ['Explorar os Dados'](https://nextstrain.org/ncov) e procure por "CA9" para ver o exemplo).
+Observando as amostras da Califórnia, vemos evidências de múltiplas introduções. O mais importante é que vemos ao  menos um grupo de casos intimamente ligados, todos amostrados na Califórnia em um período curto de tempo (clique em ['Explore the data yourself'](https://nextstrain.org/ncov) e procure por "CA9" para ver o exemplo).
 <br><br>
 Isso sugere fortemente que há uma transmissão local em andamento dentro da Califórnia.
 <!-- There is NO right-side text -->
@@ -164,17 +164,16 @@ Isso sugere fortemente que há uma transmissão local em andamento dentro da Cal
 ```auspiceMainDisplayMarkdown
 # O que você pode fazer
 
-O distanciamento social — isto é, diminuir o número de pessoas que você encontra todos os dias — pode ser desafiador, mas é extremamente benéfico para o bem comum.  
- Se todos diminuíssem seus contatos diários em 25%, esperaríamos uma redução de 50% no número acumulado de casos no próximo mês ([Klein et al., 2020](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Ainda não tem certeza do que distanciamento social significa? [Confirma esse guia útil (em Inglês)](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+O distanciamento social — isto é, diminuir o número de pessoas que você encontra todos os dias — pode ser desafiador, mas é extremamente benéfico para o bem comum. Se todos diminuíssem seus contatos diários em 25%, esperaríamos uma redução de 50% no número acumulado de casos no próximo mês ([Klein et al., 2020](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Ainda não tem certeza do que distanciamento social significa? [Confirma esse guia útil (em Inglês)](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
 ## Dicas que indivíduos podem seguir
 * Reduza o número de pessoas que você tem contato todos os dias, especialmente se você está em um grupo vulnerável (ou seja, idosos e doentes crônicos).
-* Lembre-se que mesmo que você não seja vulnerável, muitas pessoas ao seu redor são; Siga as mesmas práticas para proteger os outros.
+* Lembre-se que mesmo que você não seja vulnerável, muitas pessoas ao seu redor são. Siga as mesmas práticas para proteger os outros.
 * Lave suas mãos "como se você tivesse acabado de cortar pimenta e precisasse colocar suas lentes de contato".  
-* Fique em casa se estiver doente; Esteja preparado com alguns suprimentos extras para caso você precise se auto-colocar em quarentena.  
+* Fique em casa se estiver doente, e esteja preparado com alguns suprimentos extras para caso você precise se auto-colocar em quarentena.  
 * Se você é um empregador, encoraje seus funcionários a ficarem em casa se estiverem doentes (e os apoie financeiramente para isso).  
 
 ## Dicas que autoridades podem seguir  
