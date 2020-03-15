@@ -1,7 +1,23 @@
 ---
 title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
@@ -61,7 +77,7 @@ In this week's updates, we report:
 <!-- This is left-side text -->
 # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
+This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -73,7 +89,7 @@ This information will make interpreting the data we present in this narrative ea
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
 ## Further Reading
