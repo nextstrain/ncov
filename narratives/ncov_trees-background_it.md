@@ -23,7 +23,7 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!--* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?  --> 
 * [Qual'è la relazione tra il pannello "diversità" e l'albero](https://nextstrain.org/narratives/trees-background?n=3)?  
 <!--* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  -->
-* [Misurare le differenze usando la distanze genetica](https://nextstrain.org/narratives/trees-background?n=4).  
+* [Misurare le differenze usando la distanze genetiche](https://nextstrain.org/narratives/trees-background?n=4).  
 <!--* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  -->
 * [Misurare le differenze nel tempo](https://nextstrain.org/narratives/trees-background?n=5).  
 <!--* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)? -->
@@ -128,11 +128,11 @@ Approfondimenti
 Diamo un'occhiata ai primi 169</tag> ceppi virali di SARS-CoV-2 (the virus che causa COVID-19) che sono stati pubblicamente condivisi. Come abbiamo fatto anche nella pagina precedente, abbiamo costruito un allineamento di queste sequenze virali (potete vedere tutte le analisi che sono state fatte [on GitHub](https://github.com/nextstrain/ncov)).
 <!--Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).-->
 <br><br>
-Qui mostriamo l'albero filogenetico sopra un diagramma che mostra le variazioni (mutazioni) lungo il genome. Senza queste mutazioni non potremmo costruire l'albero, quindi i due sono strettamente connessi.
+Qui mostriamo l'albero filogenetico sopra un diagramma che mostra le variazioni (mutazioni) lungo il genome. Dato che queste mutazioni non potremmo costruire l'albero, questi due grafici sono strettamente connessi.
 <!--Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
 Without these mutations we couldn't build the tree, so the two are intimitely connected.-->
 <br><br>
-In questo pannello di diversità, làasse orizzontale rappresenta i trentamila siti lungo il genoma virale. L'asse verticale indica quanta variabilità è stata riscontrata in ciascun sito.
+In questo pannello di diversità, l'asse orizzontale rappresenta i trentamila siti lungo il genoma virale. L'asse verticale indica quanta variabilità è stata riscontrata in ciascun sito.
 <!--In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
 The vertical axis indicates how much variability there is at each site.-->
 <br><br>
@@ -147,12 +147,17 @@ It is precisely mutations such as this which we use to define the relationships 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+<!--# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)-->
+# [Misurare le differenze usando la distanze genetiche](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+
+Questo è un albero filogenico dei primi 169</tag> ceppi virali del SARS-CoV-2 (the virus che causa COVID-19) che sono stati pubblicamente condivisi. 
+<!--This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.-->
 <br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
+In questo albero, l'asse orizzontale indica la divergenza, che è il numero di cambiamenti (mutazioni) nel genoma rispetto alla radice dell'albero (cioè l'inizio dell'epidemia).
+Alcune sequenze potrebbero contenere zero mutazioni -- il che significa che sono uguali alla radice (centro) dell'albero. Altri virus hanno tra una e undici mutazioni.
+<!--Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
 Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+Other viruses have between one and eleven mutations.-->
 <br><br>
 At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
 Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
