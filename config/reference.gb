@@ -1,8 +1,7 @@
 LOCUS       MN908947               29903 bp ss-RNA     linear   VRL 17-JAN-2020
-DEFINITION  Wuhan seafood market pneumonia virus isolate Wuhan-Hu-1, complete
-            genome.
+DEFINITION  MN908947
 ACCESSION   MN908947
-VERSION     MN908947.3
+VERSION     MN908947
 KEYWORDS    .
 SOURCE      Wuhan seafood market pneumonia virus
   ORGANISM  Wuhan seafood market pneumonia virus
