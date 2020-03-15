@@ -18,7 +18,7 @@ abstract: "ここでは、遺伝疫学における系統樹を理解するため
 * [伝搬経路と系統樹との関係性](https://nextstrain.org/narratives/trees-background?n=1).  
 * [系統樹の読み方.](https://nextstrain.org/narratives/trees-background?n=2)  
 * [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-background?n=3)   
-* [遺伝的多様性の違いを測定](https://nextstrain.org/narratives/trees-background?n=4).  
+* [「遺伝的相違」を用いて遺伝子配列の違いを測定](https://nextstrain.org/narratives/trees-background?n=4).  
 * [経時的な差異の測定](https://nextstrain.org/narratives/trees-background?n=5).  
 * [感染の拡大が始まった日](https://nextstrain.org/narratives/trees-background?n=6).
 * [どのように系統樹の性質(色)を解釈すべきか](https://nextstrain.org/narratives/trees-background?n=7).
@@ -101,9 +101,9 @@ abstract: "ここでは、遺伝疫学における系統樹を理解するため
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [遺伝的多様性の違いを測定](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+# [「遺伝的相違」を用いて遺伝子配列の違いを測定](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
 これは、公に共有されているSARS-CoV-2（COVID-19を引き起こすウイルス）の最初の169個の</ tag>株の系統樹です。
-<br><br>ここで、横軸は差異を示します。差異とは、系統樹の根（つまり、発生の始まり）に対するゲノムの変化（突然変異）の数です。遺伝子配列によっては、突然変異がゼロの場合があります。つまり、それらはすべてツリーのルート（中心）と同一です。他のウイルスには1〜11個の変異があります。
+<br><br>ここで、横軸は遺伝的相違を示します。遺伝的相違（Divergence）とは、系統樹の根（つまり、疫病発生の始まり）に対するゲノムの変化（突然変異）の数です。遺伝子配列によっては、突然変異がゼロの場合があります。つまり、それらはすべてツリーのルート（中心）と同一です。他のウイルスには1〜11個の変異があります。
 <br><br>現時点では、これは「ツリー」のようには見えません。遺伝子配列の多くは同一であり、先の例の A や B のように垂直線上に並んでいます（一部はツリーの左端にあります）。残りは独自の、または共有された突然変異を持っているため、系統樹の「枝」（右に行くライン）に位置しています。系統樹の枝の上にマウスを置くと、突然変異の数を確認できます。
 
 <!-- There is NO right-side text -->
