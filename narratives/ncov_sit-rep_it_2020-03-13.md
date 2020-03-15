@@ -383,7 +383,7 @@ Nel tentativo di spiegare perché queste convinzioni non sono corrette, gli scie
 
 <!-- This is left-side text -->
 # [Ringraziamenti](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
-<!-- # [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->i
+<!-- # [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->
 
 Ringraziamo tutti gli scienziati al lavoro su questa epidemia, e in particolare quelli che lavorano in Cina, per lo straordinario e tempestivo lavoro fatto.
 <!-- We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China. -->
@@ -535,7 +535,7 @@ Ringraziamo i seguenti laboratori per i dati raccolti:
 <!-- These data were shared via [GISAID](https://gisaid.org).
 We gratefully acknowledge their contributions. -->
 
-Quest dati sono stati condivisi via GISAID](https://gisaid.org).
+Quest dati sono stati condivisi via [GISAID](https://gisaid.org).
 Riconosciamo con gratitudine i loro contributi.
 
 <br>
