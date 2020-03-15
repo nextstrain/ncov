@@ -144,7 +144,7 @@ Dies deutet auf eine kontinuierliche Übertragung und lokale Verbreitung innerha
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Verbreitung von SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+# [Verbreitung von SARS-CoV-2 in Washington State](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 Hier sehen wir eine große Gruppe von Fällen aus Washington, die alle eng miteinander verwandt sind.
 Interessant ist, dass die Sequenzen aus Washington mit Sequenzen vom Kreuzfahrtschiff Grand Princess verwandt sind.
 Die Natur dieses Zusammenhangs ist noch nicht klar; sobald wir mehr Daten erhalten, werden wir unsere Analyse aktualisieren.
@@ -160,7 +160,7 @@ Dies deutet stark darauf hin, dass es lokale Übertragung innerhalb Kaliforniens
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Wichtigste punkte](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+# [Wichtigste Punkte](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - Das Virus wurde mehrfach in viele Teile der Welt eingeschleppt. Nicht alle Einführungen führen zu einer lokalen Übertragung.
 <br><br>
 - Wir sehen Hinweise für eine lokale Übertragung in ganz Europa, Teilen der Vereinigten Staaten, China und Südostasien.
