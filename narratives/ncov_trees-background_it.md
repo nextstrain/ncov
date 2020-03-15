@@ -61,10 +61,10 @@ Quando il patogeno si replica e si diffonde, il suo genoma ha bisogno di essere 
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-L'immagine qui sopra mostra un'illustrazione schematica di un albero di trasmissione. Ciascun cerchio rappresenta un caso (una persona infetta), e le linee orizzontali indicano la durata della loro infezione. Casi connessi indicano la trasmissione da una persona alla successiva  
+L'immagine qui sopra mostra un'illustrazione schematica di un albero di trasmissione. Ciascun cerchio rappresenta un caso (una persona infetta), e le linee orizzontali indicano la durata della loro infezione. Casi connessi indicano la trasmissione da una persona alla successiva
 <!--The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.-->
 <br> <br>
-Qui vediamo una immagine completa dell' albero di trasmissione. In pratica, comunque, solo un sottoinsieme dei casi vengono censiti (identificati in blu); l'albero di trasmissione non è noto e sono disponibili solo stime rozze sul computo dei casi. Le sequeze genomiche ci permettono di inferire alcune parti dell'albero di trasmissione. In questo esempio abbiamo evidenziato tre mutazioni sull'albero (piccoli rombi). Siccome le sequenze che hanno le stesse mutazioni sono più strettamente relazionate, queste mutazioni ci permettono di raggruppare i campioni in gruppi di virus simili che appartengono alle stesse catene di trasmissione.   
+Qui vediamo una immagine completa dell' albero di trasmissione. In pratica, comunque, solo un sottoinsieme dei casi vengono censiti (identificati in blu); l'albero di trasmissione non è noto e sono disponibili solo stime rozze sul computo dei casi. Le sequeze genomiche ci permettono di inferire alcune parti dell'albero di trasmissione. In questo esempio abbiamo evidenziato tre mutazioni sull'albero (piccoli rombi). Siccome le sequenze che hanno le stesse mutazioni sono più strettamente relazionate, queste mutazioni ci permettono di raggruppare i campioni in gruppi di virus simili che appartengono alle stesse catene di trasmissione.
 <!--Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.-->
 </p>
 </div>
@@ -77,11 +77,11 @@ Qui vediamo una immagine completa dell' albero di trasmissione. In pratica, comu
 # [Come faccio a leggere un albero](https://nextstrain.org/ncov/2020-03-11)
 <!--# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)-->
 
-In un albero, sull'asse delle x viene riportato il grado di differenza (in unità di tempo o di distanza genetica - ci arriveremo).  L'asse y serve solo a allargare il disegno in modo che si possano vedere meglio i dettagli; non ha unità di misura. 
+In un albero, sull'asse delle x viene riportato il grado di differenza (in unità di tempo o di distanza genetica - ci arriveremo).  L'asse y serve solo a allargare il disegno in modo che si possano vedere meglio i dettagli; non ha unità di misura.
 <!-- AL: (in unità di tempo o di distanza genetica - lo spiegeremo più avanti)
 <!--The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.-->
 <br><br>
-Le foglie dell'albero rappresentano i campioni raccolti (per esempio i casi blu della slide precedente). I nodi interni rappresentano casi che non sono stati osservati, ma che si pensa siano l'antenato di tutti i casi che discendono da loro (per esempio i nodi rossi nella slide precedente). Queste relazioni vengono inferite usando la struttura delle mutazioni nei casi osservati. 
+Le foglie dell'albero rappresentano i campioni raccolti (per esempio i casi blu della slide precedente). I nodi interni rappresentano casi che non sono stati osservati, ma che si pensa siano l'antenato di tutti i casi che discendono da loro (per esempio i nodi rossi nella slide precedente). Queste relazioni vengono inferite usando la struttura delle mutazioni nei casi osservati.
 <!--The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.-->
 
 <!-- This is right-side text -->
@@ -90,7 +90,7 @@ Le foglie dell'albero rappresentano i campioni raccolti (per esempio i casi blu 
 <div width="50%" margin="auto">
 <p>
 <!-- <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" -->
-<img width="700px" alt="Esempio di un albero filogenetico in cui vengono inclusi tutti o solo una parte dei casi" 
+<img width="700px" alt="Esempio di un albero filogenetico in cui vengono inclusi tutti o solo una parte dei casi"
 src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
@@ -98,7 +98,7 @@ In alto, sulla sinistra si mostra un' illustrazione con un albero filogenetico i
 <!--Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.-->
 <br><br>
 Quando una sequenza si trova da sola in fondo ad una lunga linea, come C o E, questo significa che ha mutazioni uniche che non sono state trovate in altre sequenze. Quanto più lunga la linea, più grande il numero di mutazioni.
-<!-- AL: significa che ha mutazioni uniche 
+<!-- AL: significa che ha mutazioni uniche
 Anche A e B hanno mutazioni uniche (il cerchio verde) che non sono condivise da altre sequenze, ma sono identiche tra di loro
 <!--When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
 A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.-->
@@ -139,7 +139,7 @@ In questo pannello di diversità, l' asse orizzontale rappresenta i trentamila s
 <!--In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
 The vertical axis indicates how much variability there is at each site.-->
 <br><br>
-Abbiamo colorato l'albero seguendo una di queste mutazioni - in questo caso il codone 314 nel gene  "ORF1b". Non c'è nessuna ragione per pensare a priori che questa sia una mutazione funzionale (cioè che conferisca un cambiamento biologico). 
+Abbiamo colorato l'albero seguendo una di queste mutazioni - in questo caso il codone 314 nel gene  "ORF1b". Non c'è nessuna ragione per pensare a priori che questa sia una mutazione funzionale (cioè che conferisca un cambiamento biologico).
 Mutazioni come questa sono precisamente quelle che usiamo per definire una relazione tra le sequenze e costruire l'albero.
 <!--We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
 There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
@@ -199,7 +199,7 @@ Dato che possiamo assegnare delle date ad ogni campione e nodo nell'albero, poss
 <!--We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
 Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.-->
 <br><br>
-Posizionando il mouse sulla linea verticale più a sinistra, si può vedere che la data d'inizio inferita per questa specifica epidemia è tra metà Novembre e metà Dicembre del 2019. 
+Posizionando il mouse sulla linea verticale più a sinistra, si può vedere che la data d'inizio inferita per questa specifica epidemia è tra metà Novembre e metà Dicembre del 2019.
 <!--If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.-->
 
 <!-- There is NO right-side text -->
@@ -211,7 +211,7 @@ Posizionando il mouse sulla linea verticale più a sinistra, si può vedere che 
 # [Come devo interperetare i tratti (colori) sull'albero](https://nextstrain.org/ncov/2020-03-11)
 
 Gli alberi filogenetici contengono spesso informazioni aggiuntive, quali per esempio la provenienza geografica del campione. Da questo si può inferire la localizzazione geografica dei nodi interni (ipotetici casi intermedi e non identificati) usando dei modelli matematici. Questo può aiutare a capire meglio come il virus si stia muovendo da un luogo ad un altro.
-<!-- AL: ...dedurre la localizzazione geografica... 
+<!-- AL: ...dedurre la localizzazione geografica...
 <!--Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.-->
 <br><br>
 L'interpretazione di queste inferenze comunque deve essere fatta con cautela dato che i campioni e le sequenze, o la loro mancanza, può fortemente influenzarne l'interpretazione.
@@ -224,7 +224,7 @@ L'interpretazione di queste inferenze comunque deve essere fatta con cautela dat
 <div width="50%" margin="auto">
 <p>
 <!--<img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" -->
-<img width="700px" alt="Illustrazione che mostra come il modo in cui vengono raccolti i campioni influenzi làinterpretazione della diffusione del virus" 
+<img width="700px" alt="Illustrazione che mostra come il modo in cui vengono raccolti i campioni influenzi làinterpretazione della diffusione del virus"
 src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
