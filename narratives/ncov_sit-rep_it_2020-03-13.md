@@ -528,19 +528,27 @@ Ringraziamo i seguenti laboratori per i dati raccolti:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+<!-- # [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->
+# [Crediti scientifici dettagliati](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+
+<!-- These data were shared via [GISAID](https://gisaid.org).
+We gratefully acknowledge their contributions. -->
+
+Quest dati sono stati condivisi via GISAID](https://gisaid.org).
+Riconosciamo con gratitudine i loro contributi.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+<!--  To the right we give specific sequences shared by each lab. -->
+Sulla destra le sequenze specifiche condivise da ogni laboratorio.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+<!--  The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs: -->
+I genomi del SARS-CoV-2 sono stati generosamente condivisi dagli scienziati di questi laboratori: 
+
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
