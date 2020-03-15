@@ -24,7 +24,7 @@ translators:
   - Miguel I. Paredes
   - Julián Villabona-Arenas
 translatorLinks:
-  - https://twitter.com/CmRoycostilla
+  - https://researchers.uq.edu.au/researcher/18392
   - https://twitter.com/miguelp1120
   - https://www.lshtm.ac.uk/aboutus/people/villabona-arenas.julian
 date: "2020 March 13"
@@ -43,7 +43,7 @@ abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento d
 * [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=2).     
 * [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=3).
 * [Circulación en Europa](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=4).   
-* [Transmisión local en Reino Unido](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=5).
+* [Transmisión local en las Islas británicas e Irlanda](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=5).
 * [Propagación del SARS-CoV-2 desde Iran](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=6).
 * [Introdución a EEUU](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=7).
 * [Propagación del SARS-CoV-2 en el estado de Washington](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=8).
@@ -137,7 +137,7 @@ Si vemos el mapa en detalle, podemos apreciar los muchos vínculos entre Italia 
 <!-- There is no right side text -->
 
 
-# [Transmisión local en el Reino Unido](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+# [Transmisión local en las Islas británicas e Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 Usando a las islas británicas e Irlanda como ejemplo, podemos apreciar varias instancias en las cuales virus que son genéticamente cercanos a muestras de otros países aparecen en las islas británicas e Irlanda.
 <br><br>
 Este hallazgo implica que hubo al menos cuatro introducciones del virus desde otros lugares.
