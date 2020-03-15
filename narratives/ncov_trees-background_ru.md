@@ -342,17 +342,19 @@ abstract: "Этот документ обясняет как читать и и�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Подробные научные благодарности](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Эти данные были переданы через [GISAID](https://gisaid.org).
+Мы с удовольствием признаем их вклад.
 
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+Справа мы указываем конкретные генетические последовательности, переданные каждой лабораторией.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
+
+Геномы  SARS-CoV-2 были переданы учеными из следующих лабораторий:
 
 The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
 
