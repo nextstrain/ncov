@@ -172,7 +172,7 @@ abstract: "Этот документ обясняет как читать и и�
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [Как карта связана с деревом?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
 Здесь представлено дерево, окрашенное согласно географическому местоположению каждого образца (и определенному теоретически местоположению внутренних узлов).
 Кликнув на ['Explore the data'](https://nextstrain.org/ncov), вы можете проиграть анимацию определенного теоретически распространения вируса в течение эпидемии.
@@ -181,13 +181,16 @@ abstract: "Этот документ обясняет как читать и и�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+# [Дополнительное чтение: неопределенность в деревьях](https://nextstrain.org/ncov/2020-03-11)
+Прежде мы уже говорили о том, как внутренние узлы представляют _гипотетические_ ненаблюдаемые случаи заражения.
+На самом деле, все деревья представляют _гипотезу_ о том, как патоген эволюционировал и распространялся со временем.
+Деревья, показанные на Nextstrain это точечные оценки -- то есть версия истории, которая максимизирует вероятность наблюдения имеющихся данных.
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+Однако в этих оценках всегда есть неопределенность. 
+Вообще говоря, части дерева  с большей плотностью образцов более вероятны, а частид ерева с малой плотностью образцов - менее вероятны.
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+# Иллюстрация
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
