@@ -47,7 +47,7 @@ Nesse relatório semanal, relatamos que:
 
 * Houve muitas introduções do vírus nos Estados Unidos até o momento, o que resultou em cadeias de transmissões locais em vários estados.
 
-* O surto continua crescendo no estado de Washington; Alguns casos são proximamente relacionados àqueles do cruzeiro Grand Princess.  
+* O surto continua crescendo no estado de Washington. Alguns casos são proximamente relacionados àqueles do cruzeiro Grand Princess.  
 
 * Há circulação local do COVID-19 no estado da Califórnia.
 
@@ -59,7 +59,7 @@ Nesse relatório semanal, relatamos que:
 
 <!-- This is left-side text -->
 # [Fontes sobre COVID-19](https://nextstrain.org/ncov/2020-03-05)
-Preparamos alguns materiais (em Inglês) que valem a pena ser lidos para se familiarizar com o COVID-19 e o vírus que o causa, conhecido como SARS-CoV-2. Essa informação tornará mais fácil a interpretação dos dados apresentados aqui; Se você não está familiarizado com árvores filogenéticas, indicamos antes a leitura ['desse artigo da Khan Academy'](https://pt.khanacademy.org/science/biology/her/tree-of-life/a/phylogenetic-trees) para em seguida retornar quando estiver pronto.
+Preparamos alguns materiais (em Inglês) que valem a pena ser lidos para se familiarizar com o COVID-19 e o vírus que o causa, conhecido como SARS-CoV-2. Essa informação tornará mais fácil a interpretação dos dados apresentados aqui. Se você não está familiarizado com árvores filogenéticas, indicamos antes a leitura ['desse artigo da Khan Academy'](https://pt.khanacademy.org/science/biology/her/tree-of-life/a/phylogenetic-trees) para em seguida retornar quando estiver pronto.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
