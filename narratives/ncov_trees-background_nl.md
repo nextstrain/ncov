@@ -40,7 +40,7 @@ Terwijl de ziekteverwekker zich vermenigvuldigt en verspreidt, moet zijn genoom 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Een voorbeeld
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="Afbeelding die laat zien hoe een besmettingsboom en een transmissieboom relateren" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
@@ -66,7 +66,7 @@ De toppen van de boom vertegenwoordigen voorbeelden (d.w.z. de blauwe punten van
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## Een voorbeeld
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Voorbeeld fylogenie waar alle, of enkel een deel van de gevallen zijn opgenomen in de uiteindelijke fylogenie" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
@@ -160,7 +160,7 @@ Het interpreteren hiervan moet echter met de nodige voorzichtigheid gebeuren, aa
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Een voorbeeld
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Afbeelding die laat zien hoe bemonstering de interpretatie van virale verspreiding kan beïnvloeden" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
@@ -196,7 +196,7 @@ Er is echter altijd onzekerheid in deze schattingen. Over het algemeen zijn dele
 
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+# Een illustratie
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
