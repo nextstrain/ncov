@@ -15,16 +15,16 @@ abstract: "Dit verhaal legt uit hoe je een fylogenetische boom, die genetische e
 <!-- This is left-side text -->
 # [Inhoud](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background?n=1)
-* [Hoe lees ik een boom?](https://nextstrain.org/narratives/trees-background?n=2) 
-* [Hoe verhoudt het diversiteitspaneel zich tot de boom?](https://nextstrain.org/narratives/trees-background?n=3)   
-* [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background?n=4)
-* [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background?n=5)
-* [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background?n=6)
-* [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren?](https://nextstrain.org/narratives/trees-background?n=7) 
-* [Hoe verhoudt de kaart zich tot de boom?](https://nextstrain.org/narratives/trees-background?n=8) 
-* [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/narratives/trees-background?n=9)
-* [Over de dataset](https://nextstrain.org/narratives/trees-background?n=10)
+* [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background?n=1)?
+* [Hoe lees ik een boom](https://nextstrain.org/narratives/trees-background?n=2)?
+* [Hoe verhoudt het diversiteitspaneel zich tot de boom](https://nextstrain.org/narratives/trees-background?n=3)?  
+* [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background?n=4).
+* [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background?n=5).
+* [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background?n=6).
+* [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren](https://nextstrain.org/narratives/trees-background?n=7)?
+* [Hoe verhoudt de kaart zich tot de boom](https://nextstrain.org/narratives/trees-background?n=8)?
+* [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/narratives/trees-background?n=9).
+* [Over de dataset](https://nextstrain.org/narratives/trees-background?n=10).
 
 <!-- No right-side text -->
 
