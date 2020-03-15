@@ -63,6 +63,9 @@ location	Helmond
 location	Oisterwijk
 location	Dalen
 location	Paris
+location	Reims
+location	Pontoise
+location	Compiègne
 location	Contamines
 location	Rouen
 location	Leuven
@@ -73,7 +76,6 @@ location	Milan
 location	valencia
 location	England
 location	Yorkshire
-location	Cork
 location	Rovaniemi
 location	Jönköping
 location	Helsinki
@@ -85,6 +87,8 @@ location	Pierce County
 location	Solano County
 location	Sonoma County
 location	Orange County
+location	Kirkland
+location	Seattle
 location	Los Angeles
 location	California
 location	San Francisco
@@ -133,6 +137,7 @@ division	New South Wales
 division	Victoria
 division	Auckland
 division	Ile de France
+division	Hauts de France
 division	Normandie
 division	Grand Est
 division	Auvergne Rhone Alpes
@@ -163,7 +168,6 @@ division	Lombardy
 division	Usti nad Labem
 division	England
 division	Wales
-division	Cork
 division	Dublin
 division	Limerick
 division	Scotland
