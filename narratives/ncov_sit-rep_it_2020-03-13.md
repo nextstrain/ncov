@@ -207,7 +207,7 @@ Si noti che non ci sono genomi completi disponibili da pazienti in Iran.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 <!--  # [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed) -->
-# [Introduzione negli Stati Uniti.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+# [Introduzione negli Stati Uniti](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
 
 <!--  Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions. -->
 Qui possiamo osservare come il virus sia stato introdotto negli Stati Uniti in multiple e indipendenti occasioni.
