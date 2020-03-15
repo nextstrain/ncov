@@ -5,7 +5,7 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "13 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die genetische epidemidiologie informeert, leest en interpreteert. De website is geoptimiseerd voor weergave op desktop browsers. "
+abstract: "Dit verhaal legt uit hoe je een fylogenetische boom, die genetische epidemiologie informeert, leest en interpreteert. De website is geoptimaliseerd voor weergave op desktop browsers. "
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -17,12 +17,12 @@ abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die genetische ep
 
 * [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [Hoe lees ik een boom](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Hoe relateert het diversiteitspaneel met de boom](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Hoe verhoudt het diversiteitspaneel zich tot de boom?](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background?n=5).  
 * [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [Hoe relateert de kaart met de boom](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren?](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [Hoe verhoudt de kaart zich tot de boom?](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/narratives/trees-background?n=9).  
 * [Over de dataset](https://nextstrain.org/narratives/trees-background?n=10).  
 
@@ -92,19 +92,19 @@ Op basis van deze boom concluderen we dat A & B nauw verwant zijn aan elkaar, en
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Hoe relateert het diversiteitspaneel met de boom?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [Hoe verhoudt het diversiteitspaneel zich tot de boom?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
 Laten we eens kijken naar de eerste 169 </tag> stammen van SARS-CoV-2 (het virus dat COVID-19 veroorzaakt) die openbaar zijn gedeeld. Net als op de laatste pagina hebben we een uitlijning van deze virale sequenties gebouwd (je kunt zien hoe alle hier genoemde analyses zijn uitgevoerd [op GitHub] (https://github.com/nextstrain/ncov)).
 <br> <br>
 Hier tonen we de fylogenetische boom boven een staafdiagram met de variatie (d.w.z. mutaties) in het genoom.
-Zonder deze mutaties zouden we de boom niet kunnen bouwen, dus de twee zijn nauw met elkaar verbonden.
+Zonder deze mutaties zouden we de boom niet kunnen bouwen, dus de twee horen bij elkaar.
 <br> <br>
 In dit "diversiteitspaneel" is de horizontale as elke locatie in het virale genoom (ongeveer dertigduizend locaties).
 De verticale as geeft aan hoeveel variatie er is op elke locatie.
 <br> <br>
 We hebben de boom gekleurd volgens een van deze mutaties - in dit geval codon 314 in het gen "ORF1b".
-Er is in den beginne geen reden om aan te nemen dat deze mutatie een functionele mutatie is (d.w.z. het verlenen van enige biologische verandering).
-Het zijn mutaties zoals deze die we gebruiken om de relaties tussen sequenties te definiëren en de boom samen te stellen.
+Er is in beginsel geen reden om aan te nemen dat deze mutatie een functionele mutatie is (die biologische verandering veroorzaakt).
+Het zijn mutaties zoals deze die we gebruiken om de relaties tussen sequenties te definiëren en de boom te reconstrueren.
 
 <!-- There is NO right-side text -->
 
@@ -142,9 +142,9 @@ Je kunt op en neer scrollen tussen deze en de vorige pagina om te zien hoe de bo
 
 # [De start van een uitbraak dateren](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 We kunnen genomische data ook gebruiken om een datum toe te wijzen waarop een uitbraak is begonnen, zelfs als dit was voordat we ons realiseerden dat dit gebeurde.
-Omdat we aan elk monster en knooppunt in de boom een datum kunnen toewijzen, kunnen we dit gebruiken om de datum van de 'wortel' van de boom af te leiden. Dit vertegenwoordigt de "meest recente gemeenschappelijke voorouder" van alle SARS-CoV-2-sequenties die we tot nu toe hebben. Zo zijn uw grootouders de 'meest recente gemeenschappelijke voorouders' van u en al uw neven en nichten.
+Omdat we aan elk monster en knooppunt in de boom een datum kunnen toewijzen, kunnen we dit gebruiken om de datum van de 'wortel' van de boom af te leiden. Dit vertegenwoordigt de "meest recente gemeenschappelijke voorouder" van alle SARS-CoV-2-sequenties die we tot nu toe hebben, ongeveer zoals uw grootouders de 'meest recente gemeenschappelijke voorouders' van jou en al jouw neven en nichten zijn.
 <br> <br>
-Als u met de muis over de meest linkse verticale lijn beweegt, kunt u zien dat de afgeleide startdatum tussen half november en half december 2019 ligt voor deze specifieke uitbraak.
+Als je met de muis over de meest linkse verticale lijn beweegt, kun je zien dat de afgeleide startdatum tussen half november en half december 2019 ligt voor deze specifieke uitbraak.
 
 <!-- There is NO right-side text -->
 
@@ -180,9 +180,9 @@ Hoewel deze conclusies van onschatbare waarde kunnen zijn, moeten ze ook voorzic
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Hoe relateert de kaart met de boom?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [Hoe verhoudt de kaart zich tot de boom?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 Hier tonen we de boom gekleurd aan de hand van de locatie van elk monster (en afgeleide locatie voor elk intern knooppunt).
-Als u op ['Explore the data'] (https://nextstrain.org/ncov) klikt, kunt u een animatie afspelen van de afgeleide verspreiding van het virus in de loop van de uitbraak.
+Als je op ['Explore the data'] (https://nextstrain.org/ncov) klikt, kun je een animatie afspelen van de afgeleide verspreiding van het virus in de loop van de uitbraak.
 
 
 
@@ -190,7 +190,7 @@ Als u op ['Explore the data'] (https://nextstrain.org/ncov) klikt, kunt u een an
 
 <!-- This is left-side text -->
 # [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/ncov/2020-03-11)
-Eerder bespraken we hoe interne knooppunten _veronderstelde_ niet-bemonsterde gevallen vertegenwoordigen. In feite vertegenwoordigen alle bomen _veronderstelling_ over hoe een ziekteverwekker in de loop van de tijd is geëvolueerd en verplaatst. De bomen die we presenteren op Nextstrain zijn puntschattingen -- dat wil zeggen, de versie van deze geschiedenis, die de kans op observatie van de gegevens die we hebben, maximaliseert.
+Eerder bespraken we hoe interne knooppunten _veronderstelde_ niet-bemonsterde gevallen vertegenwoordigen. In feite vertegenwoordigen alle bomen _veronderstellingen_ over hoe een ziekteverwekker in de loop van de tijd is geëvolueerd en verplaatst. De bomen die we presenteren op Nextstrain zijn puntschattingen -- dat wil zeggen, hypotheses van de geschiedenis die de kans op observatie van de gegevens die we hebben, maximaliseren.
 <br> <br>
 Er is echter altijd onzekerheid in deze schattingen. Over het algemeen zijn delen van de boom die dicht bemonsterd zijn zekerder; gebieden die spaarzaam bemonsterd zijn, zijn minder zeker.
 
