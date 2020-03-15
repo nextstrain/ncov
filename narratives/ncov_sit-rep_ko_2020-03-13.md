@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
+title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 13일 상황 보고서
 authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나-19의 전파를 추적합니다. 이 보고서는 매주 업데이트 됩니다."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,46 +13,54 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [목차](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
+* [데이터 수집에 관한 쪽지](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [유럽의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
+* [영국의 지역사회전파](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
+* [이란에서 시작한 SARS-CoV-2 전파](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [미국의 유입경로](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [워싱턴 주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [캘리포니아 주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [질의응답 & 오해들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+저희는 410</tag>개 공개된 코로나-19의 유전체 염기서열을 분석하였습니다.
+바이러스들을 비교분석하여 코로나-19가 어떻게 진화하고 세계 곳곳으로 퍼지고
+있는지 분석했습니다.
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+현재 코로나바이러스의 현황을 알고 싶은 분들은 [Our World In Data](https://ourworldindata.org/coronavirus)를 참고하십시오.
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+이 보고서는 바이러스가 전세계적으로 유행하고 있으며 여러 대륙에서
+지역사회전파가 이뤄지고 있다는 증거를 제시합니다. 
+현 시점에서는 여행 제한은 효과가 떨어지며 지역사회 내부에서의 전파를 억제하는
+전략을 권장합니다.
 
-In this week's updates, we report:  
+금주 보고서에서 새로 업데이트된 것들:
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+* 코로나-19는 유럽 전역에서 국경을 넘나들며 유행하고 있습니다.
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* 영국에는 최소 4번의 외부 유입이 있었으며 그 중 일부는 지역사회전파로
+  이어졌습니다.
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* 몇몇 여행관련 확진자들은 이란과 다른 지역 사이의 전파를 암시합니다.
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+* 현재 미국은 엄청난 양의 외부유이비 발견되며 많은 주에서 지역사회전파로
+  이어졌습니다.
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+* 워싱턴 주의 유행은 점점 커지고 있으며 그 중 일부는 그랜드 프린세스 크루즈선과
+  관련있습니다.
 
-* There is local circulation of COVID-19 in California.  
+* 캘리포니아에서 코로나-19의 지역사회전파가 진행중입니다.
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+* 의료체계의 부담을 덜고 취약계층을 보호하기 위해서는 신속한 사회적 거리두기가
+  이뤄져야합니다.
 ```
 
 
