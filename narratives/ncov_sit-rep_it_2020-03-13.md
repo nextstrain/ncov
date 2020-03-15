@@ -155,12 +155,19 @@ Per esempio, la cartina mostra molte poche sequenze dal sud del mondo. Questo NO
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
-<br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+<!-- # [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)-->
 
+# [Circolazione del virus in Europa](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+
+<!--  Here, we see a large clade of sequences from Europe.
+Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
+<br><br> -->
+Qui osserviamo un gran numero di sequenze dall'Europa.
+In particolare,le sequenze di molti paesi diversi si intercalano, indicando come COVID-19 stia già circolando piuttosto ampiamente in tutta Europa.
+<br><br> 
+
+<!-- Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere). -->
+Ingrandendo la mappa, si può osservare come ci siano molte connesioni tra l'Italia ed altre aree; Tuttavia, è importante ricordare che la direzionalità di queste connessioni non si può sempre determinare sicuramente. Ci sono anche altre ipotesi che possono spiegare questi dati (ad esempio, se un caso non campionato ha infettato sia un caso secondario sequenziato in Italia che un caso secondario sequenziato altrove).
 <!-- There is no right side text -->
 
 
