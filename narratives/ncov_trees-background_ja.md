@@ -124,49 +124,58 @@ You can see how many mutations a branch has by hovering your mouse over it.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
-Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
+# [経時的な差異の測定](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+x 軸としてサンプル取得日を使用することによって、どれだけウイルスが拡散したかを経時的に可視化することもできます。
+ここでは、 x 軸はそれぞれのウイルスのサンプル取得日を表しています。
+先端の位置ははそのサンプルが採取された日付を反映しています。
+内部の節 -- 「見つかっていない症例」 -- の日付は、その子孫のサンプルが取得された時間とウイルスの変異の速度によって推定されています。
 <br><br>
-Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
-This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+先程は一列に並んでいた(同一のゲノムであることを示唆しています)が、時間軸で表示した今度は離れて散らばっている遺伝子配列の数の多さに注目してください。
+ウイルスが拡散する速度よりも、ウイルスに変異が生じる速度のほうがやや遅いとこのようなことが起きます。
+スクロールをすることで一つ前のスライドとこのスライドを行き来して、系統樹がどのように変化するかを見えることができます。
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [感染の拡大が始まった日](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
-Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
+ゲノム学を使うと感染拡大が始まった日時を当てはめることもできます。私たちが拡大が起きたということ理解する以前の日時であっても可能です。
+系統樹の各サンプルと節に日付を当てはめていくので、系統樹の「根」の日時を推定するためにこれを使うことができます。
+この図は、私たちが今現在所有している SARS-CoV-2 すべての遺伝子配列の「最近共通祖先」を表しています。 
+例えば、ある人とそのいとことすべての「最近共通祖先」はそのひとの祖父です。
 <br><br>
-If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+一番左の縦のラインをマウスでかざすと、11月半ばから12月半ばの間のこの特定の感染拡大の推定された開始日時を見ることができます。
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+# [系統樹の性質(色)の解釈の仕方](https://nextstrain.org/ncov/2020-03-11)
+系統樹には追加的な情報が含まれていることがよくあります、例えばサンプルが収集された場所です。
+これによって、数学的モデルを使い内部の節(仮説上の中間者、未収集の症例)の場所を推定することができます。
+これは、ウイルスがある場所から次の場所にどのように移動しているかを理解するのに役立ちます。
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+しかし、こういったことは注意して行うべきです、というのもサンプルの採取や遺伝子配列解析、あるいはそれらの不足が解釈に大きな影響を与えることがあるためです。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# 例
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+左側にサンプルの取得が完全に行われた系統樹を示しています。オレンジ色と青色で示すようように、2つの異なる場所からのサンプルがあります。
+系統樹を下っていくと、オレンジから青へと色(場所)が切り替わる3つの例を見ることができまる。
+これによって、オレンジ色の場所から青色への場所へと3度の異なった伝搬があったと結論づけることができるでしょう。
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+しかし、こういった解釈はサンプルの採取のされ方次第です: 真ん中の系統樹では、オレンジ色ののサンプルを一つ取り除きました。
+このとき、オレンジから青への切り替わりは一つだけ見ることができます。これは青色への伝搬は一度きりで、より早く起きたことを示唆しています。
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+最後の例では、オレンジ色からの遺伝子配列は一つだけとなりました。オレンジ色から青色への伝搬は一度だけだと私たちは考えるでしょう。
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+このように、こういった推定は有益ですが、注意して解釈されなければなりません。
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
@@ -174,19 +183,21 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [地図は系統樹とどのように関係しているか](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+ここには、各サンプルの場所(と内側の節の推定された場所)によって色分けされた系統樹を示しています。
+"Explore the data" をクリックすると、感染拡大の間、どのようにウイルスが拡散していったかという推定をアニメーションとして再生することができます。
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+# [発展的な資料: 系統樹の不確かさ](https://nextstrain.org/ncov/2020-03-11)
+先程、内側の節がどのように仮説上の未収集の症例を表しているについて話しました。
+実際、すべての系統樹が経時的にどのように病原体が進化し、動いているかについての _仮説_ として表されています。
+Nextstarin で私たちが提示している系統樹は点推定です -- つまり、私たちが提示しているのは、データを観測する確率を最大化する歴史のバージョンです。
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+しかし、このような推定には常に不確かさがあります。一般的に言って、密にサンプルが収集された系統樹の部分はより確かで、サンプル収集がまばらな箇所はより不確かです。
 
 ```auspiceMainDisplayMarkdown
 # An illustration
@@ -200,20 +211,19 @@ However, there is always uncertainty in these estimates. Generally speaking, par
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [クレジット](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+私たちはこの感染症流行の中において、関係したすべての科学者、中国で働いている科学者による驚くべきタイムリーな研究に謝意を表します。これらのような解析は、ゲノム情報とメタデータの迅速な共有を通じてのみ可能です。
 
 <br><br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+また、これらのデータをアップロードおよび共有できるプラットフォームを提供してくれた GISAID にも感謝します。
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+私たちはこれらの研修室によって集積されたデータに感謝します:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -341,18 +351,18 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [分析データの詳細](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+これらのデータは GISAID を介して共有されました。 彼らの貢献に感謝します。
 
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+右側に、各ラボで共有される特定の遺伝子配列を示します。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
+SARS-CoV-2 のゲノムは以下のラボによって提出され、共有されました
 The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
 
 * Arizona Department of Health Services
