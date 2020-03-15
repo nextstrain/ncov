@@ -1,6 +1,6 @@
 ---
 title: Análise genômica do espalhamento de COVID-19. Relatório da situação até 13/03/2020.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford" (Glaucio Santos & Anderson Brito)
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford. (Translation: Glaucio Santos & Anderson Brito)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
@@ -15,17 +15,17 @@ abstract: "Esse relatório usa dados genômicos compartilhados publicamente para
 <!-- This is left-side text -->
 # [Índice](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Fontes sobre COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [Observação sobre amostragem](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulação pela Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Transmissão local no Reino Unido](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Espalhamento do SARS-CoV-2 advindo do Irã](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introduções do Vírus nos EUA](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Espalhamento do SARS-CoV-2 no estado de Washington (EUA)](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Espalhamento do SARS-CoV-2 no estado da Califórnia (EUA)](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [O que você pode fazer](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [Dúvidas & Equívocos Frequentes](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Crédito científico](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Fontes sobre COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=2).     
+* [Observação sobre amostragem](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=3).
+* [Circulação pela Europa](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=4).   
+* [Transmissão local no Reino Unido](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=5).
+* [Espalhamento do SARS-CoV-2 advindo do Irã](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=6).
+* [Introduções do Vírus nos EUA](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=7).
+* [Espalhamento do SARS-CoV-2 no estado de Washington (EUA)](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=8).
+* [Espalhamento do SARS-CoV-2 no estado da Califórnia (EUA)](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=9).
+* [O que você pode fazer](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=10).
+* [Dúvidas & Equívocos Frequentes](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=11).
+* [Crédito científico](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -39,7 +39,7 @@ Nesse relatório mostramos como o vírus está circulando amplamente em todo o m
 
 Nesse relatório semanal, relatamos que:  
 
-* O COVID-19 está circulando em grandes proporções pela Europa, com circulação significativa entre países. 
+* O COVID-19 está circulando em grandes proporções pela Europa, com circulação significativa entre países.
 
 * Identificamos pelo menos 4 introduções no Reino Unido, algumas com transmissão comunitária depois disso.  
 
