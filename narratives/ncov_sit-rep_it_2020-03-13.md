@@ -192,10 +192,16 @@ Abbiamo osservato anche casi in cui, dopo un ingresso del virus, ci siano divers
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
+<!-- # [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div) -->
+# [Diffusione di SARS-CoV-2 dall'Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+
+<!-- A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places. -->
+Numerosi genomi sono stati sequenziati da pazienti che hanno riportato di aver viaggiato in Iran. Questi genomi sono tutti estremamente simili tra loro ed indicano che l'epidemia in Iran potrebbe essere il risultato di una singola trasmissione che è stata successivamente trasmessa in molte altre località. 
 <br><br>
-Note that there are no full genomes available from patients in Iran.
+
+<!-- Note that there are no full genomes available from patients in Iran. -->
+Si noti che non ci sono genomi completi disponibili da pazienti in Iran.
+
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
