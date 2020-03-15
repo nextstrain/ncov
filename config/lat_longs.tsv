@@ -1,7 +1,10 @@
 location	Aichi	35.067543	137.334061
+location	Andel	51.7851	5.0549
 location	Auckland	-36.8314	174.7606
 location	Bangkok	13.803139	100.491612
 location	Beijing	40.071320	116.406908
+location	Berlicum	51.6789	5.4012
+location	Blaricum	52.2727	5.2481
 location	Boston	42.354750	-71.061299
 location	California	36.357039	-119.690182
 location	Chengdu	30.640989	104.067518
@@ -9,16 +12,26 @@ location	Chicago	41.858966	-87.637242
 location	Chongqing	29.858721	107.375623
 location	Chungcheongnam	36.685948	126.799198
 location	Clayton	-37.915200	145.127165
+location	Coevorden	52.6614	6.7411
 location	Contamines	45.820585	6.727730
+location	Cork	51.899	-8.460
+location	Dalen	52.6994	6.7568
+location	Delft	52.0116	4.3571
+location	Diemen	52.3390	4.9592
+location	Duesseldorf	51.22166	6.75289
+location	Eindhoven	51.4416	5.4697
 location	England	52.405994	-1.671707
 location	Foshan	23.018766	113.121428
 location	Gold Coast	-28.019726	153.398160
 location	Guangdong	23.615762	114.483257
 location	Guangzhou	23.123972	113.292889
 location	Gyeonggi	37.397957	127.380864
+location	Haarlem	52.3874	4.6462
 location	Hangzhou	30.272732	120.154501
 location	Heinsberg District	51.0499	6.1163
+location	Heinsberg	51.056262	6.113915
 location	Hefei	31.806280	117.227234
+location	Helmond	51.4793	5.6570
 location	Helsinki	60.1698848	24.9384991
 location	Hong Kong	22.3964	114.1095
 location	Huaian	33.574586	119.132155
@@ -33,6 +46,7 @@ location	Kyoto	35.007542	135.768455
 location	Leuven	50.880674	4.700109
 location	Los Angeles	34.029267	-118.242865
 location	Milan	45.474	9.177
+location	Munich	48.155742	11.549380
 location	Orange County	33.689584	-117.788718
 location	Paris	48.853884	2.341738
 location	Phoenix	33.433362	-112.068786
@@ -40,6 +54,7 @@ location	Pingxiang	27.632413	113.892981
 location	Qingdao	36.171557	120.398496
 location	Rome	41.881118	12.492817
 location	Rovaniemi	66.501553	25.728919
+location	San Francisco	37.757679	-122.440006
 location	Sao Paulo	-23.551096	-46.634874
 location	Seattle	47.748301	-121.850150
 location	Seoul	37.548278	126.990916
@@ -48,6 +63,7 @@ location	Shenzhen	22.639468	114.044046
 location	Singapore	1.344189	103.867546
 location	Snohomish County	48.006	-122.0731
 location	Solano County	38.295909	-121.928845
+location	Sonoma County	38.506902	-122.863769
 location	Starnberg	48.0000	11.3390
 location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
@@ -56,29 +72,52 @@ location	Taoyuan	24.951706	121.219785
 location	Thanh Hoa	19.805359	105.784515
 location	Tianmen	30.6510	113.1556
 location	Tokyo	35.683441	139.766131
+location	Valencia	39.337	-0.354
 location	Wisconsin	44.535145	-89.527762
 location	Wuhan	30.554807	114.271501
 location	Xishuangbanna	21.995	100.837
 location	Yongchuan	29.374774	105.925391
+location	Yorkshire	53.3833	-1.4599
 location	Zhengzhou	34.714074	113.621939
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
+location	Nieuwendijk	51.7774	4.8743
+location	Zeewolde	52.3311	5.5405
+location	Utrecht	52.0907	5.1214
+location	Naarden	52.2953	5.1604
+location	Nootdorp	52.0440	4.3909
+location	Rotterdam	51.9244	4.4777
+location	Naarden	52.2953	5.1604
+location	Hardinxveld	51.8324	4.8336
+location	Houten	52.0278	5.1630
+location	Tilburg	51.571419	5.052759
+location	Oss	51.762396	5.530563
+location	Oisterwijk	51.568179	5.211873
+location	Loon	51.379197	5.443200
+location	Hardinxveld Giessendam	51.830196	4.840971
+location	Loon op zand	51.625527	5.070262
 
+division	Aargau	47.420629	8.172097
 division	Aichi	35.067543	137.334061
+division	Andel	51.7851	5.0549
 division	Anhui	31.754331	117.211441
 division	Arizona	34.220707	-111.657462
 division	Auckland	-36.8314	174.7606
 division	Auvergne Rhone Alpes	45.126511	5.480724
 division	Baden-Wuerttemberg	48.712618	9.134030
+division	Basel	47.559198	7.590640
 division	Bavaria	48.1382614	11.5845093
 division	Beijing	40.071320	116.406908
 division	British Columbia	54.010982	-124.745183
 division	California	36.357039	-119.690182
 division	Chongqing	29.858721	107.375623
 division	Chungcheongnam	36.685948	126.799198
+division	Comunitat Valenciana	39.337	-0.354
 division	England	52.405994	-1.671707
 division	Flanders	51.056536	4.254283
 division	Fujian	26.284852	118.122938
+division	Gelderland	52.042091	6.014860
+division	Geneva	46.216038	6.136984
 division	Guangdong	23.615762	114.483257
 division	Gyeonggi	37.397957	127.380864
 division	Helsinki	60.1698848	24.9384991
@@ -87,6 +126,9 @@ division	Hong Kong	22.3964	114.1095
 division	Hubei	31.095477	112.676644
 division	Ile De France	48.724751	2.491522
 division	Illinois	40.088552	-89.301876
+division	Iran	34.5732	51.876
+division	Ireland	52.865	-7.979
+division	Italy	43.382775	12.183629 
 division	Japan	35.68536	139.75309
 division	Jiangsu	33.077761	119.825116
 division	Jiangxi	27.458973	115.535326
@@ -99,15 +141,21 @@ division	Kyoto	35.007542	135.768455
 division	Lagos	6.542520	3.286661
 division	Lapland	67.700017	26.273752
 division	Lazio	41.994328	12.622686
+division	Limburg	51.230477	5.956744
 division	Lombardy	45.4791	9.8452
+division	Luxembourg	49.755428	6.119486
 division	Massachusetts	42.340741	-71.998513
 division	Mexico City	19.404497	-99.143041
 division	Nara	34.371026	135.887389
 division	New South Wales	-32.688430	146.228414
+division	North Brabant	51.4827	5.2322
+division	North Holland	52.5206	4.7885
 division	North Rhine Westphalia	51.44	7.705
 division	Nonthaburi	13.852511	100.522791
 division	Ontario	44.429	-79.377
 division	Osaka	34.648720	135.525013
+division	Overijssel	52.436273	6.463628
+division	Portugal	39.540460	-8.174701
 division	Queensland	-23.094025	144.192275
 division	Sao Paulo	-23.598060	-46.660537
 division	Scotland	56.415858	-4.090641
@@ -120,12 +168,25 @@ division	South Korea	36.609249	127.917932
 division	Småland	57.528294	14.463824
 division	Seoul	37.548278	126.990916
 division	Taiwan	23.816900	121.031365
+division	Ticino	46.345334	8.774813
 division	Texas	31.146868	-99.188758
 division	Thanh Hoa	20.026365	105.439044
 division	Tokyo	35.683441	139.766131
 division	Victoria	-37.121673	144.106178
+division	Wales	52.306085	-3.621944
 division	Washington	47.183945	-119.950361
 division	Wisconsin	44.535145	-89.527762
 division	Yunnan	24.556297	101.366210
 division	Zhejiang	29.225710	120.299125
 division	Zurich	47.441242	8.641154
+division	South Holland	52.006053	4.485728
+division	Drenthe	52.846963	6.608915
+division	Flevoland	52.488510	5.615829
+division	Tilburg	51.567213	5.047957
+division	Utrecht	52.085320	5.184968
+division	Vaud	46.619469	6.472479
+division	Usti nad Labem	50.656527	14.053702
+division	Diamond Princess	35.046935	139.419325
+division	Grand Princess	37.579905	-123.673130
+
+country	Luxembourg	49.755428	6.119486

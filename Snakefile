@@ -3,6 +3,8 @@ def get_todays_date():
     date = datetime.today().strftime('%Y-%m-%d')
     return date
 
+configfile: "config/Snakefile.yaml"
+
 rule all:
     input:
         auspice_json = "auspice/ncov.json",
@@ -85,6 +87,7 @@ rule align:
             --reference-sequence {input.reference} \
             --output {output.alignment} \
             --fill-gaps \
+            --nthreads auto \
             --remove-reference
         """
 
@@ -103,7 +106,7 @@ rule mask:
     params:
         mask_from_beginning = 130,
         mask_from_end = 50,
-        mask_sites = "18529 28881 28882 28883"
+        mask_sites = "18529"
     shell:
         """
         python3 scripts/mask-alignment.py \
@@ -144,8 +147,8 @@ rule refine:
         node_data = "results/branch_lengths.json"
     params:
         root = "Wuhan-Hu-1/2019 Wuhan/WH01/2019",
-        clock_rate = 0.0005,
-        clock_std_dev = 0.0003,
+        clock_rate = 0.0008,
+        clock_std_dev = 0.0004,
         coalescent = "skyline",
         date_inference = "marginal",
         divergence_unit = "mutations"
@@ -217,7 +220,7 @@ rule traits:
     output:
         node_data = "results/traits.json",
     params:
-        columns = "division",
+        columns = "division_exposure",
         sampling_bias_correction = 2.5
     shell:
         """
@@ -246,7 +249,7 @@ rule clades:
             --mutations {input.nuc_muts} {input.aa_muts} \
             --clades {input.clades} \
             --output-node-data {output.clade_data}
-        """  
+        """
 
 rule colors:
     message: "Constructing colors file"
@@ -263,6 +266,7 @@ rule colors:
             --output {output.colors}
         """
 
+
 rule export:
     message: "Exporting data files for for auspice"
     input:
@@ -271,7 +275,7 @@ rule export:
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        # traits = rules.traits.output.node_data,
+        traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config,
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
@@ -284,7 +288,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -300,7 +304,7 @@ rule export_gisaid:
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        # traits = rules.traits.output.node_data,
+        traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_gisaid,
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
@@ -313,13 +317,15 @@ rule export_gisaid:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
             --output {output.auspice_json}
         """
+
+
 
 rule export_zh:
     message: "Exporting data files for for auspice"
@@ -329,7 +335,7 @@ rule export_zh:
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        # traits = rules.traits.output.node_data,
+        traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config_zh,
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
@@ -342,7 +348,7 @@ rule export_zh:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -350,10 +356,52 @@ rule export_zh:
             --output {output.auspice_json}
         """
 
-rule fix_colorings:
-    message: "Remove extraneous colorings"
+rule incorporate_travel_history:
+    message: "Adjusting main auspice JSON to take into account travel history"
     input:
+        lat_longs = files.lat_longs,
+        colors = rules.colors.output.colors,
         auspice_json = rules.export.output.auspice_json
+    output:
+        auspice_json = "results/ncov_with_accessions_and_travel_branches.json"
+    shell:
+        """
+        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
+        """
+
+rule incorporate_travel_history_gisaid:
+    message: "Adjusting GISAID auspice JSON to take into account travel history"
+    input:
+        lat_longs = files.lat_longs,
+        colors = rules.colors.output.colors,
+        auspice_json = rules.export_gisaid.output.auspice_json
+    output:
+        auspice_json = "results/ncov_gisaid_with_accessions_and_travel_branches.json"
+    shell:
+        """
+        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
+        """
+
+rule incorporate_travel_history_zh:
+    message: "Adjusting ZH auspice JSON to take into account travel history"
+    input:
+        lat_longs = files.lat_longs,
+        colors = rules.colors.output.colors,
+        auspice_json = rules.export_zh.output.auspice_json
+    output:
+        auspice_json = "results/ncov_zh_with_accessions_and_travel_branches.json"
+    shell:
+        """
+        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
+        """
+
+rule fix_colorings:
+    message: "Remove extraneous colorings for main build"
+    input:
+        auspice_json = rules.incorporate_travel_history.output.auspice_json
     output:
         auspice_json = "auspice/ncov.json"
     shell:
@@ -364,9 +412,9 @@ rule fix_colorings:
         """
 
 rule fix_colorings_gisaid:
-    message: "Remove extraneous colorings"
+    message: "Remove extraneous colorings for the GISAID build"
     input:
-        auspice_json = rules.export_gisaid.output.auspice_json
+        auspice_json = rules.incorporate_travel_history_gisaid.output.auspice_json
     output:
         auspice_json = "auspice/ncov_gisaid.json"
     shell:
@@ -377,9 +425,9 @@ rule fix_colorings_gisaid:
         """
 
 rule fix_colorings_zh:
-    message: "Remove extraneous colorings"
+    message: "Remove extraneous colorings for the Chinese language build"
     input:
-        auspice_json = rules.export_zh.output.auspice_json
+        auspice_json = rules.incorporate_travel_history_zh.output.auspice_json
     output:
         auspice_json = "auspice/ncov_zh.json"
     shell:
@@ -392,7 +440,7 @@ rule fix_colorings_zh:
 rule dated_json:
     message: "Copying dated Auspice JSON"
     input:
-        auspice_json = rules.export.output.auspice_json
+        auspice_json = rules.fix_colorings.output.auspice_json
     output:
         dated_auspice_json = rules.all.input.dated_auspice_json
     shell:
@@ -433,6 +481,25 @@ rule branching_process_R0:
                     --output {output[1]}
         """
 
+rule deploy_to_staging:
+    input:
+        *rules.all.input
+    params:
+        slack_message = json.dumps({"text":"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov>"}),
+        slack_webhook = config["slack_webhook"] or "",
+        s3_staging_url = config["s3_staging_url"]
+    shell:
+        """
+        nextstrain deploy {params.s3_staging_url:q} {input:q}
+
+        if [[ -n "{params.slack_webhook}" ]]; then
+            curl {params.slack_webhook:q} \
+                --header 'Content-type: application/json' \
+                --data-raw {params.slack_message:q} \
+                --fail --silent --show-error \
+                --include
+        fi
+        """
 
 rule clean:
     message: "Removing directories: {params}"

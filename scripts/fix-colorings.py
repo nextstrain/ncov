@@ -11,7 +11,7 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=str, metavar="JSON", required=True, help="output Auspice JSON")
     args = parser.parse_args()
 
-    with open(args.input, "rU") as f:
+    with open(args.input, "r") as f:
         input_json = json.load(f)
 
     fixed_colorings = []

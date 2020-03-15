@@ -37,13 +37,41 @@ location	Sydney
 location	Clayton
 location	Auckland
 location	Heinsberg District
+location	Heinsberg
+location	Munich
+location	Duesseldorf
+location	Delft
+location	Utrecht
+location	Zeewolde
+location	Loon op zand
+location	Berlicum
+location	Blaricum
+location	Hardinxveld Giessendam
+location	Coevorden
+location	Diemen
+location	Nootdorp
+location	Naarden
+location	Eindhoven
+location	Houten
+location	Haarlem
+location	Nieuwendijk
+location	Andel
+location	Rotterdam
+location	Oss
+location	Tilburg
+location	Helmond
+location	Oisterwijk
+location	Dalen
 location	Paris
 location	Contamines
 location	Leuven
 location	Starnberg
 location	Rome
 location	Milan
+location	valencia
 location	England
+location	Yorkshire
+location	Cork
 location	Rovaniemi
 location	Jönköping
 location	Helsinki
@@ -51,9 +79,11 @@ location	Sao Paulo
 location	Mexico City
 location	Seattle
 location	Solano County
+location	Sonoma County
 location	Orange County
 location	Los Angeles
 location	California
+location	San Francisco
 location	Snohomish County
 location	King County
 location	Phoenix
@@ -74,6 +104,7 @@ division	Shandong
 division	Zhejiang
 division	Fujian
 division	Guangdong
+division	Shanghai
 division	Hong Kong
 division	Taiwan
 division	Aichi
@@ -88,31 +119,51 @@ division	Seoul
 division	South Korea
 division	Kathmandu
 division	Kerala
+division	Iran
 division	Thanh Hoa
 division	Sihanoukville
 division	Nonthaburi
 division	Singapore
-division	Gyeonggi
 division	Queensland
 division	New South Wales
 division	Victoria
 division	Auckland
-division	Ile De France
+division	Ile de France
 division	Auvergne Rhone Alpes
 division	Flanders
 division	Bavaria
+
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
+division	Utrecht
+division	Overijssel
+division	Gelderland
+division	Limburg
+division	Drenthe
+division	North Brabant
+division	Flevoland
+division	South Holland
+division	North Holland
+division	Luxembourg
+division	Basel
 division	Zurich
+division	Aargau
+division	Geneva
+division	Vaud
+division	Ticino
+division	Comunitat Valenciana
+division	Italy
 division	Lazio
-division	Milan
-division	Rome
 division	Lombardy
+division	Usti nad Labem
 division	England
+division	Wales
+division	Ireland
 division	Scotland
 division	Lapland
 division	Småland
 division	Helsinki
+division	Portugal
 division	Lagos
 division	Sao Paulo
 division	Mexico City
@@ -122,6 +173,7 @@ division	California
 division	Illinois
 division	Wisconsin
 division	Massachusetts
+division	New York
 division	Washington
 division	British Columbia
 division	Ontario
@@ -140,13 +192,19 @@ country	Singapore
 country	Australia
 country	New Zealand
 country	France
+country	Netherlands
 country	Belgium
+country	Luxembourg
 country	Germany
 country	Switzerland
 country	Italy
+country	Spain
+country	Czech Republic
 country	United Kingdom
+country	Ireland
 country	Finland
 country	Sweden
+country	Portugal
 country	Nigeria
 country	Brazil
 country	Mexico

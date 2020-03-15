@@ -1,5 +1,21 @@
 import argparse
 
+# Forced colours MUST NOT appear in the ordering TSV
+forced_colors = {
+  "division": {
+    "Diamond Princess": "#CCCCCC",
+  },
+  "location": {
+    "Diamond Princess": "#CCCCCC",
+  },
+  "division": {
+    "Grand Princess": "#AAAAAA",
+  },
+  "location": {
+    "Grand Princess": "#AAAAAA",
+  }
+}
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="Assign colors based on ordering",
@@ -34,7 +50,10 @@ if __name__ == '__main__':
     with open(args.output, 'w') as f:
         for trait_name, trait_array in assignment.items():
             color_array = schemes[len(trait_array)]
-            zipped = list(zip(trait_array, color_array))
+            extra_trait_values = list(forced_colors.get(trait_name, {}).keys())
+            extra_color_values = list(forced_colors.get(trait_name, {}).values())
+
+            zipped = list(zip(trait_array+extra_trait_values, color_array+extra_color_values))
             for trait_value, color in zipped:
                 f.write(trait_name + "\t" + trait_value + "\t" + color + "\n")
             f.write("\n")

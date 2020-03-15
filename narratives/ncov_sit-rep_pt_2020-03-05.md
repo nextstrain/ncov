@@ -1,11 +1,13 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-05.
+title: Análise genômica do espalhamento da COVID-19. Relatório da situação até 05/03/2020.
 authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
-date: "2020 March 05"
+date: "05 de Março de 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "This report uses publicly shared COVID-19 genomic data from GISAID and Genbank to estimate rates and patterns of viral epidemic spread. We plan to issue updated situation reports as new data is produced and shared. This website is optimized for display on desktop browsers."
+abstract: "Este relatório usa dados genômicos sobre a COVID-19 publicamente compartilhados pela GISAID e Genbank, para estimar taxas e padrões de espalhamento de epidemia viral. Nós planejamos liberar relatórios atualizados assim que novos dados sejam produzidos e compartilhados. Esse site é otimizado para visualização em navegadores de computadores. 
+
+Tradução por: Glaucio Santos & Anderson Brito."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,21 +15,17 @@ abstract: "This report uses publicly shared COVID-19 genomic data from GISAID an
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Executive summary](https://nextstrain.org/ncov/2020-03-05)
+# [Resumo](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## Executive summary
+## Resumo
 
-Using 169</tag> publicly shared COVID-19 genomes, we examined genetic diversity to characterize the spread of COVID-19 in different areas and infer the date of their common ancestor.
-
-
-
-We find:
-* COVID-19 was introduced into Italy at least twice with subsequent community spread ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=7)).
-* This includes a cluster of sequences from 6 different countries where cases appear to have been exported from Italy ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=9)).
-* Genetic sequence data supports the hypothesis of undetected, sustained spread of COVID-19 in the greater Seattle area since mid-January ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=10)).
-* All the sequenced cases included in this analysis likely share a common ancestor sometime between mid-November and mid-December 2019. ([go to this](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-05?n=11)).
+Examinamos a diversidade genética dos 169</tag> genomas do SARS-CoV-2 compartilhados publicamente, a fim de caracterizar o espalhamento da doença COVID-19 em diferentes áreas, e inferir a data do ancestral comum dos vírus. Concluímos que:
+* O vírus da COVID-19 foi introduzido na Itália ao menos duas vezes, seguido por espalhamento comunitário a partir disso ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=7)).
+* Isso inclui um grupo de sequências de 6 diferentes países, onde casos parecem ter sido exportados da Itália ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=9)).
+* Dados de sequências genéticas sustentam a hipótese de espalhamento sustentado do vírus da COVID-19 na Região Metropolitana de Seattle desde meados de Janeiro ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=10)).
+* Todos os casos sequenciados nesta análise provavelmente compartilham um ancestral comum de algum momento entre meados de Novembro e meados de Dezembro de 2019 ([saiba mais](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-05?n=11)).
 
 ```
 
@@ -35,37 +33,35 @@ We find:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Coronaviruses](https://nextstrain.org/ncov/2020-03-05)
+# [Coronavírus](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### Leituras adicionais:
 
-* Summary of the nCov outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* Resumo do surto de nCov na [Wikipédia](https://pt.wikipedia.org/wiki/Surto_de_COVID-19) 30/01/2020
+* Material disponibilizado pelo [Centro de Controle e Prevenção de Doenças dos Estados Unidos (CDC)](https://www.cdc.gov/coronavirus/index.html) 29/01/2020
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 Resources
+## Fontes sobre COVID-19
 
-Below, we've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier.
+Abaixo preparamos alguns materiais (em Inglês) que valem a pena ler para se familiarizar com a COVID-19 e o vírus que o causa, conhecido como SARS-CoV-2.
+Essa informação tornará mais fácil a interpretação dos dados apresentados aqui.
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Sobre os Coronavírus </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Sobre o Recente Surto de COVID-19 </a>
 
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Como interpretar filogenias</a>
 
 </div>
 
-## Nextstrain narratives
+## Narrativas Nextstrain
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through the left-hand sidebar will reveal paragraphs of text with a corresponding visualization of the genomic data on the right-hand side.
+As páginas seguintes contém análises realizadas usando o [Nextstrain](https://nextstrain.org). Rolando a página no menu a esquerda, textos correspondentes aos dados genômicos visualizados na direita surgirão na tela.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+Ter acesso a genomas completos de um novo vírus de RNA longo, e tão rapidamente, é uma conquista notável. Essas análises têm sido possíveis devido ao rápido compartilhamento público de dados genômicos e interpretações por cientistas de todo o mundo (veja a última página para conhecer os autores do sequenciamento).
 
 
 ```
@@ -74,46 +70,44 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [Dúvidas & Equívocos Frequentes](https://nextstrain.org/ncov/2020-03-05)
 
-### Further Reading:
+### Leituras Adicionais (em Inglês):
 
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "Não acredite nas teorias da conspiração que você ouve sobre coronavírus & HIV (em Inglês)" [artigo](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) 31/01/2020
 
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "Teorias da conspiração infundadas afirmam que o novo coronavírus foi criado por bioengenharia (em Inglês)" [artigo](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) 07/02/2020
 
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "Não, o coronavírus de Wuhan não foi geneticamente modificado para colocar pedaços de HIV nele (em Inglês)" [artigo](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) 02/02/2020
 
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "Derrubando mitos envolvendo coronavírus (em Inglês)" [AFP Checamos](https://factcheck.afp.com/busting-coronavirus-myths) 19/02/2020
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## FAQs & Misconceptions
+## Dúvidas & Equívocos Frequentes
 
-### FAQs
+### Dúvidas Frequentes
 
-We know that a lot of people have questions about COVID-19.
-We've set up a guide to try and answer some of those most frequently asked [here](https://nextstrain.org/help/coronavirus/FAQ):
+Sabemos que muitas pessoas têm dúvidas sobre a COVID-19. Criamos um guia para tentar responder algumas das perguntas mais frequentes:
 
 <div>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ </a>
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> Dúvidas Frequentes sobre a COVID-19 (em Inglês) </a>
 
 </div>
 
 
-### Misconceptions
+### Equívocos
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+Vários conceitos errados estão em circulação acerca das origens do novo coronavírus. Durante surtos como este, a disseminação de informações claramente incorretas pode levar a mais pânico, e fazer com que as pessoas não confiem em cientistas e governos, o que significa que estarão menos propensos a seguir orientações e tomar as devidas precauções.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+Num esforço conjunto para tentar explicar por que essas visões estão incorretas, cientistas abordaram essas teorias nas páginas abaixo (em Inglês):
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2 tem origem em "cobras"? (texto técnico) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> "A suposta engenharia do HIV" (Tópico no Twitter)</a>
 
 
 </div>
@@ -125,19 +119,17 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic analysis](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [Análise filogenética](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-Here we present a phylogeny of 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-Information on how the analysis was performed is available [in this GitHub repository](https://github.com/nextstrain/ncov).
-
-<br>
-
-The colours represent the within-country region or US-state of isolation, with the x-axis representing the sample date.
-The y-axis shows how the sequences are connected, and does not have any units of measurement.
+Aqui apresentamos uma filogenia de 169 cepas de SARS-CoV-2 (o vírus que causa a COVID-19) que foram compartilhadas publicamente. Informações sobre como a análise foi realizada estão disponíveis [em nosso repositório no GitHub](https://github.com/nextstrain/ncov).
 
 <br>
 
-Sample dates are useful, but they don't always show exactly how two sequences are related genetically - two sequences that are identical could have different sample dates, and so look far apart in this view.
+As cores representam a região ou estado onde foram coletadas as amostras, com o eixo X representando a data da amostra. O eixo Y mostra como as sequências estão conectadas e não possui nenhuma unidade de medida.
+
+<br>
+
+As datas das amostras são úteis, mas nem sempre mostram exatamente como duas sequências estão relacionadas geneticamente - duas sequências idênticas podem ter datas de amostragem diferentes e, portanto, podem parecer distantes.
 
 <!-- There is NO right-side text -->
 
@@ -145,30 +137,25 @@ Sample dates are useful, but they don't always show exactly how two sequences ar
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# ['Divergence' in Phylogenies](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
+# ['Divergência' em Filogenias](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-We can change the view so that the x-axis now shows 'divergence' instead.
-
-<br>
-
-Notice how many sequences that looked different previously, now sit in a line vertically.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+Podemos mudar a forma de visualização para que o eixo x agora mostre 'divergência'.
 
 <br>
 
-Divergence is measured as the number of changes (mutations) in the genome.
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+Perceba quantas sequências que pareciam diferentes antes, agora estão alinhadas verticalmente. Você pode rolar para cima e para baixo entre a página anterior e esta, para ver como a árvore muda.
 
 <br>
 
-Sequencing the genome of a large novel RNA virus in an evolving outbreak situation is challenging.
-Some of the differences observed in these sequences may be sequencing errors rather than actual mutations.
-Insertions, deletions, and differences at the ends of the genome are more likely to be errors and so we masked these for the purposes of this analysis.
+A divergência é medida conforme o número de mudanças (mutações) no genoma. Muitas sequências têm 0 mutações, o que significa que são todas idênticas até a raíz (base) da árvore. Outros vírus têm entre uma e onze mutações.
 
 <br>
 
-Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' view, depending on what we are trying to highlight.
+Sequenciar o genoma de um novo vírus de RNA longo durante um surto é desafiante. Algumas das diferenças observadas nessas sequências podem ser resultado de erros de sequenciamento, e não mutações reais. Inserções, deleções, e diferenças nas extremidades do genoma têm grandes chances de serem erros, por isso as ignoramos visando cumprir os propósitos dessa análise.
+
+<br>
+
+Algumas vezes mostraremos a árvore em modo "cronológico" (tempo) e, às vezes no modo "divergência", dependendo do que estamos tentando destacar.
 
 <!-- There is NO right-side text -->
 
@@ -176,15 +163,13 @@ Sometimes we will show the tree in 'time' view, and sometimes in 'divergence' vi
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Phylogenetic Interpretation](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [Interpretação Filogenética](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-We currently have sequences from samples taken in five different continents.
-While the early cases were all directly linked to cases in Wuhan, associated with the seafood market outbreak, we now observe various different cases that show evidence for community spread or were imported from sources outside China.
+Atualmente temos sequências de amostras colhidas em cinco continentes diferentes. Enquanto os primeiros casos estavam todos diretamente ligados aos casos em Wuhan (associados com o surto do mercado de frutos do mar), agora observamos vários casos diferentes que mostram evidências de transmissão comunitária (ou seja, no próprio local de detecção do vírus) ou importados de outros lugares fora da China.
 
 <br>
 
-Generally, repeated introductions from an animal reservoir will show significant diversity (this has been true for Lassa, Ebola, MERS-CoV, and avian flu).
-The observation of such strong clustering of human infections can be explained by an outbreak that descends from a single zoonotic introduction event into the human population followed by human-to-human epidemic spread.
+Geralmente, quando as introduções via animais reservatórios são múltiplas, é possível observar diversidade genética significativa (como tem sido com a febre de Lassa, o Ebola, a MERS-CoV e a gripe aviária). O fato de podermos observar um agrupamento tão forte em infecções humanas pode indicar que o surto descende de uma única introdução zoonótica (vinda de um animal) para a população humana, seguida do espalhamento epidêmico de pessoa para pessoa.
 
 <!-- There is NO right-side text -->
 
@@ -192,39 +177,37 @@ The observation of such strong clustering of human infections can be explained b
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [At least two introductions into Italy, with possible community spread](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
+# [Ao menos duas introduções do vírus na Itália, com possível transmissão comunitária](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-We currently have 3 sequences from Italy, two of which are from the Rome area and one from Lombardy in northern Italy.
-
-<br>
-
-These 3 sequences share a common ancestor early in the epidemic (near the base of the tree, to the left), which strongly suggests that there were at least two introductions with community spread into Italy.
+Atualmente, temos três sequências da Itália, duas das quais são da área de Roma e uma da Lombardia (norte do país).
 
 <br>
 
-Dr Nuno Faria et al. give an excellent breakdown [here](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409) of how Brazilian and other global sequences show that "the outbreak in Northern Italy was likely the result of multiple introductions to the region and from not a single source."
+Essas três sequências compartilham um ancestral comum no início da epidemia (próximo à base da árvore, à esquerda), o que sugere fortemente que houve pelo menos duas introduções com transmissão comunitária na Itália.
+<br>
+
+Dr. Nuno Faria e colaboradores publicaram uma excelente análise disponível [aqui (em Inglês)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409), explicando como as sequências brasileiras e outras sequências globais mostram que "o surto no norte da Itália foi provavelmente resultado de várias introduções na região, e não de uma única fonte".
 
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Possible hidden transmission in Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
+# [Possíveis transmissões silenciosas na Itália](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-The two sequences from Rome (29 January 2020) are directly connected to each other and both have a travel history to China.
-
-<br>
-
-We have switched to 'divergence' view to show that the two Italian sequences are identical, while other nearby sequences (from England, Brazil, Switzerland, the USA, and China) are actually separated from the Italian sequences by 2-4 mutations.
+As duas sequências de Roma (29 de Janeiro de 2020) estão diretamente conectadas entre si e ambas têm um histórico de viagens para a China.
 
 <br>
 
-However, the Brazilian sequence (SPBR-02) has a travel history to Milan, in Lombardy, and it is thought that the Swiss sequence in this cluster also recently travelled to Italy. We do not know anything about the travel history of the USA sample. The England/09c isolate is a direct importation from China.
+Mudamos agora para a visualização de "divergências" para exibir como as duas sequências italianas são idênticas, enquanto outras sequências próximas (da Inglaterra, Brasil, Suíça, EUA e China) são na verdade separadas das sequências italianas por 2 a 4 mutações.
 
 <br>
 
-The English sample (from China) sits between the earlier Italian samples from Rome and the cases with known (Swiss, Brazilian) or possible (USA) travel to Italy. This means we should not assume that the older Italian sequences and newer Italian-associated sequences are directly linked. The more recent samples could come from another independent introduction to Italy.
+Contudo, a sequência brasileira (SPBR-02) tem um histórico de viagem para Milão (Lombardia), e acredita-se que a sequência suíça desse grupo também tenha viajado recentemente para a Itália. Não sabemos nada sobre o histórico de viagens da amostra dos Estados Unidos. O caso da Inglaterra é uma importação direta da China.
 
+<br>
+
+A amostra da Inglaterra (oriunda da China) fica entre as amostras italianas mais antigas (de Roma) e os casos com viagens confirmadas para a Itália (Suíça e Brasil) ou viagens possíveis (EUA). Isso significa que não devemos supor que as sequências italianas mais antigas e as as sequências mais recentes associadas às italianas estão diretamente ligadas. As amostras mais recentes podem ser resultado de outra introdução independente na Itália.
 <!-- There is NO right-side text -->
 
 
@@ -232,43 +215,17 @@ The English sample (from China) sits between the earlier Italian samples from Ro
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Global Spread from Lombardy, Italy](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
+# [Espalhamento global partindo da Lombardia, Itália](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-The sequence from Lombardy (Italy/CDG1/2020) clusters together with sequences with known travel history to Italy that were most likely infected there: the sequences from Mexico, Germany, Brazil & Finland.
-
-<br>
-
-The German "BavPat1" sequence is part of an introduction from China much earlier in the epidemic. Its similarity to the other sequence in the cluster (they are separated by only one mutation), could indicate undetected ("cryptic") transmission in Europe stemming from this early German cluster.
+A sequência da Lombardia (Italy/CDG1/2020) se agrupa junto das sequências de pacientes com histórico de viagens para a Itália, os quais foram provavelmente infectados naquele país. São elas: as sequências do México, Alemanha, Brasil & Finlândia.
 
 <br>
 
-It could also be the result of two separate introductions to Europe - an unsampled sequence from elsewhere could fall between 'BavPat1' and the rest of the cluster. At the moment, we cannot say with certainty which scenario is correct.
-
-<!-- There is NO right-side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [Likely spread of SARS-CoV-2 in the Seattle area](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
-
-There are now several cases of COVID-19 reported in the greater Seattle area and the US in general.
-The newly isolated and sequenced cases are genetically closely related to a case isolated in the middle of January in the same area.
+A sequência alemã "BavPat1" faz parte de uma introdução mais antiga proveniente da China. Sua semelhança com a outra sequência no grupo (elas são separadas por apenas uma mutação), pode indicar uma transmissão não detectada ("silenciosa") na Europa, decorrente daquele antigo grupo de sequências alemãs.
 
 <br>
 
-There are two possible explanations for this.
-The virus could have been introduced at least twice into the greater Seattle area from a common source in China.
-However, another explanation is that the virus was circulating undetected in the area for a while.
-
-<br>
-
-Trevor Bedford (co-founder of Nextstrain) has written a great blog post about these possibilities, which you can read [here](https://bedford.io/blog/ncov-cryptic-transmission/).
-
-<br>
-
-The remaining recent Washington sequences tell us something else: These sequences from the greater Seattle area cluster together.
-This strongly suggest community spread, and that the SARS-CoV-2 virus has been circulating in the area for some time already.
+Esse grupo de sequências pode também ser resultado de duas introduções separadas na Europa - por exemplo, uma sequência ainda não amostrada de outro lugar poderia se posicionar entre "BavPat1" e o resto do grupo mostrado ao lado, levantando uma hipótese alternativa. Nesse sentido, no momento não podemos dizer com certeza qual cenário está correto.
 
 <!-- There is NO right-side text -->
 
@@ -277,10 +234,32 @@ This strongly suggest community spread, and that the SARS-CoV-2 virus has been c
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Dating the time of the most recent common ancestor](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [Provável espalhamento do SARS-CoV-2 na área de Seattle](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-The time of the most recent common ancestor (or tMRCA) of a set of sequenced cases denotes when these sequenced cases last shared a common ancestor.
-This time can be as early as the time when a virus first entered the human population, but can also be substantially later, as shown in the figure below.
+No momento há vários casos de COVID-19 relatados na área metropolitana de Seattle e nos Estados Unidos em geral. Os casos recém-descobertos e sequenciados são geneticamente relacionados a um caso amostrado no meio de Janeiro na mesma região.
+
+<br>
+
+Há duas possíveis explicações para isso. O vírus pode ter sido introduzido ao menos duas vezes na área da grande Seattle de uma fonte comum na China. No entanto, outra explicação é que o vírus circulava sem ser detectado na área por algum tempo.
+
+<br>
+
+Trevor Bedford (co-fundador da Nextstrain) escreveu um ótimo artigo sobre essas possibilidades, o qual você pode ler [aqui (em Inglês)](https://bedford.io/blog/ncov-cryptic-transmission/).
+
+<br>
+
+As sequências recentes de Washington nos dizem outra coisa: essas sequências da região de Seattle estão proximamente agrupadas. Isso sugere fortemente uma transmissão comunitária, e que o vírus SARS-CoV-2 já estava circulando na área há algum tempo.
+
+<!-- There is NO right-side text -->
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [Calculando a provável data do ancestral comum mais recente](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+
+O tMRCA (sigla em Inglês para 'tempo até o ancestral comum mais recente') de um conjunto de casos conhecidos indica quando esses casos sequenciados compartilharam pela última vez um ancestral comum. Esse momento pode ser tão cedo quanto no exato momento em que um vírus entrou na população humana, mas também pode ser substancialmente mais tarde, como mostra a figura abaixo.
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -290,12 +269,11 @@ This time can be as early as the time when a virus first entered the human popul
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Date of the common ancestor of outbreak viruses
+## Provável data do ancestral comum dos vírus causadores do surto
 
-Several research groups and people have estimated the time of the most recent common ancestor - see [this post by A Rambaut](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) or [this post by T Stadler](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+Inúmeros grupos de pesquisa e pessoas têm estimado a data do ancestral comum mais recente - confira [esta postagem de A. Rambaut (em Inglês)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) ou [esta postagem de T. Stadler (em Inglês)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
 
-The common ancestor of all sequences is most likely between mid-November and mid-December.
-This would be consistent with all currently sequenced cases descending from the [initial cluster of cases at the Wuhan seafood market](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
+O ancestral comum de todas as sequências provavelmente existiu entre meados de Novembro e meados de Dezembro. Isso seria consistente com todos os casos atualmente sequenciados, descendentes do [conjunto inicial de casos no mercado de frutos do mar de Wuhan](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420).
 
 
 <div>
@@ -311,20 +289,19 @@ This would be consistent with all currently sequenced cases descending from the 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Crédito científico](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Gostaríamos de reconhecer o trabalho incrível e oportuno realizado por todos os cientistas envolvidos nesse surto, sobretudo os que estão trabalhando na China. Somente com o compartilhamento rápido de dados genômicos e de metadados que tais análises foram possíveis.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Também agradecemos a [GISAID](https://gisaid.org) por fornecer a plataforma pela qual esses dados podem ser inseridos e compartilhados.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Somos gratos pelos dados coletados pelos seguintes laboratórios:
 
 * Centre for Infectious Diseases and Microbiology Laboratory Services
 * Pathology Queensland
@@ -411,19 +388,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Crédito cientifíco detalhado](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Esses dados foram compartilhados através da [GISAID](https://gisaid.org).
+Agradecemos as suas contribuições com profunda gratidão.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+A direita, especificamos quais sequências foram compartilhadas por quais laboratórios.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+Os genomas de SARS-CoV-2 foram generosamente cedidos por cientistas desses laboratórios:
 
 * NSW Health Pathology - Institute of Clinical Pathology and Medical Research; Westmead Hospital; University of Sydney
 	* Australia/NSW01/2020
@@ -454,6 +431,7 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 
 * Instituto Adolfo Lutz Interdisciplinary Procedures Center Strategic Laboratory
 	* Brazil/SPBR-01/2020
+	* Brazil/SPBR-02/2020
 
 * Virology Unit, Institut Pasteur du Cambodge (Sequencing done by: Jessica E Manning/Jennifer A Bohl at Malaria and Vector Research Research Laboratory, National Institute of Allergy and Infectious Diseases and Vida Ahyong from Chan-Zuckerberg Biohub)
 	* Cambodia/0012/2020
