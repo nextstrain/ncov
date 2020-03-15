@@ -26,7 +26,6 @@ translators:
 translatorLinks:
   - https://twitter.com/CmRoycostilla
   - https://twitter.com/miguelp1120
-  - https://twitter.com/Chjulian
   - https://www.lshtm.ac.uk/aboutus/people/villabona-arenas.julian
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
@@ -41,17 +40,17 @@ abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento d
 
 # [Contenidos](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulación en Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Transmisión local en Reino Unido](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Propagación del SARS-CoV-2 desde Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introdución a EEUU](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Propagación del SARS-CoV-2 en el estado de Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Propagación SARS-CoV-2 en el estado de California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [¡Que puedes hacer tu!](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [Preguntas frequentes y conceptos erróneos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=2).     
+* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=3).
+* [Circulación en Europa](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=4).   
+* [Transmisión local en Reino Unido](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=5).
+* [Propagación del SARS-CoV-2 desde Iran](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=6).
+* [Introdución a EEUU](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=7).
+* [Propagación del SARS-CoV-2 en el estado de Washington](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=8).
+* [Propagación SARS-CoV-2 en el estado de California](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=9).
+* [¡Que puedes hacer tu!](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=10).
+* [Preguntas frequentes y conceptos erróneos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=11).
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
