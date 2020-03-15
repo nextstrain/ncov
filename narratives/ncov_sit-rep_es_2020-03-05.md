@@ -187,7 +187,11 @@ Si bien todos los primeros casos estaban directamente relacionados con los casos
 <br>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ébola, MERS-CoV y la gripe aviar).
+=======
+En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ebola, MERS-CoV y la gripe aviar).
+>>>>>>> 9cf3f03fc819fe6152e7ede4ce31c467cd8401ed
 =======
 En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ebola, MERS-CoV y la gripe aviar).
 >>>>>>> 9cf3f03fc819fe6152e7ede4ce31c467cd8401ed
