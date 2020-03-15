@@ -13,18 +13,30 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+<!--# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)-->
+# [Indice](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+<!--* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?--> 
+* [Qual'è la relazione tra le reti di trasmissione e gli alberi filogenetici](https://nextstrain.org/narratives/trees-background?n=1)? 
+<!--* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  -->
+* [Come faccio a leggere un albero](https://nextstrain.org/narratives/trees-background?n=2)?  
+<!--* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?  --> 
+* [Qual'è la relazione tra il pannello "diversità" e l'albero](https://nextstrain.org/narratives/trees-background?n=3)?  
+<!--* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  -->
+* [Misurare le differenze usando la distanze genetica](https://nextstrain.org/narratives/trees-background?n=4).  
+<!--* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  -->
+* [Misurare le differenze nel tempo](https://nextstrain.org/narratives/trees-background?n=5).  
+<!--* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)? -->
+* [Datare l'inizio di un focolaio](https://nextstrain.org/narratives/trees-background?n=6)? 
+<!--* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  -->
+* [Come devo interperetare i tratti (colori) sull'albero](https://nextstrain.org/narratives/trees-background?n=7)?  
+<!--* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  -->
+* [Che relazione c'è tra la cartina e l'albero](https://nextstrain.org/narratives/trees-background?n=8)?  
+<!--* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  -->
+* [Approfindimentiç incertezze sull'albero](https://nextstrain.org/narratives/trees-background?n=9).  
+<!--* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10). -->
+* [Dettagli sul dataset](https://nextstrain.org/narratives/trees-background?n=10). 
+
 
 <!-- No right-side text -->
 
@@ -32,7 +44,9 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+<!--* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?--> 
+# [Qual'è la relazione tra le reti di trasmissione e gli alberi filogenetici](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+
 Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
 <br><br>
 As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
