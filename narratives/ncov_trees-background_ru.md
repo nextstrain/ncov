@@ -17,7 +17,7 @@ abstract: "Этот документ обясняет как читать и и�
 
 * [Как цепи передачи соотносятся с филогенетическими деревьями](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [Как читать дерево](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Как панель "разнообразия" соотносится с деревом](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
@@ -33,7 +33,7 @@ abstract: "Этот документ обясняет как читать и и�
 
 <!-- This is left-side text -->
 # [Как цепи передачи соотносятся с филогенетическими деревьями?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Патогены распространяются путем быстрой репликации в одном хозяине, за которым следует передача к другому хозяину. Эпидемия может набрать обороты только если одна инфекция ведет к более чем одной последующей инфекции. 
+Патогены распространяются путем быстрой репликации в одном хозяине, за которой следует передача к другому хозяину. Эпидемия может набрать обороты только если одна инфекция ведет к более чем одной последующей инфекции. 
 <br><br>
 По мере того как патоген размножается и распространяется, его геном проходит через множество репликаций и случайные мутации (ошибки копирования) аккумулируются в геноме; это является нормальным процессом. Такие случайные мутации могут помочь отслеживать распространение патогена и понять пути и динамику его передачи.    
 
@@ -66,7 +66,7 @@ abstract: "Этот документ обясняет как читать и и�
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## Пример
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
@@ -81,7 +81,7 @@ abstract: "Этот документ обясняет как читать и и�
 Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
 </p>
 
-### Further reading  
+### Дальнейшее чтение  
 * [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
 * [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
@@ -93,19 +93,18 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [Как панель "разнообразия" соотносится с деревом?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+Давайте взглянем на первые 169</tag> штамма SARS-CoV-2 (вирус вызывающий заболевание COVID-19), которые были предоставлены в общественный доступ. Так же, как и на предыдущем слайде, мы построили сравнение (alignment) этих вирусных последовательностей (вы можете увидеть все методы анализа предоставленные здесь [на GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
+Здесь мы отображаем филогенетическое дерево над столбчатой диаграммой, показывающей вариацию (другими словами, мутации) в геноме. Без этих мутаций мы не могли бы построить дерево, так что они неразрывно связаны. 
 <br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
+В этой панели "разнообразия" горизонтальная ось представляет собой каждую позицию вирусного генома (все 30 тысяч или около того!)
+Вертикальная ось отражает долю вариации в каждой из этих позиций. 
 <br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+Мы расскрасили дерево в соответствии с одной из этих мутаций -- в данном случае кодон 314 в гене "ORF1b".
+Нет никакой причины, чтобы априори считать эту мутацию функциональной (т.е. которая вызывает какое-либо биологическое изменение).
+Мы используем именно такие мутации, как эта, чтобы определить взаимоотношения между последовательностями и постоить дерево. 
 
 <!-- There is NO right-side text -->
 
