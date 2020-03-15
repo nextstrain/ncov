@@ -178,14 +178,14 @@ x 軸としてサンプル取得日を使用することによって、どれだ
 
 <!-- This is left-side text -->
 # [発展的な資料: 系統樹の不確かさ](https://nextstrain.org/ncov/2020-03-11)
-先程、内側の節がどのように仮説上の未収集の症例を表しているについて話しました。
+先程、内側の節がどのように _仮説_ 上の未収集の症例を表しているについて話しました。
 実際、すべての系統樹が経時的にどのように病原体が進化し、動いているかについての _仮説_ として表されています。
 Nextstarin で私たちが提示している系統樹は点推定です -- つまり、私たちが提示しているのは、データを観測する確率を最大化する歴史のバージョンです。
 <br><br>
 しかし、このような推定には常に不確かさがあります。一般的に言って、密にサンプルが収集された系統樹の部分はより確かで、サンプル収集がまばらな箇所はより不確かです。
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+# 図例
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="系統樹における不確実性の図" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
