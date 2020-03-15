@@ -115,10 +115,10 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
 ## Ulteriori Letture
 
 <!--  * Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak). -->
-* Informazioni generali sull'epidemia di SARS-CoV-2 su [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* Informazioni generali sull'epidemia di SARS-CoV-2 su [Wikipedia](https://it.wikipedia.org/wiki/Pandemia_di_COVID-19_del_2019-2020).
 
 <!-- * Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html). -->
-* Materiale fornito dal Centro per il Controllo e la Prevenzione delle Malattie degli Stati Uniti[US CDC](https://www.cdc.gov/coronavirus/index.html).
+* Materiale fornito dal Centro per il Controllo e la Prevenzione delle Malattie degli Stati Uniti[US CDC](https://www.cdc.gov/coronavirus/index.html) (in inglese).
 
 
 <!--  ## Nextstrain narratives -->
