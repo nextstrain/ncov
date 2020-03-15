@@ -13,18 +13,18 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [Inhoud](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [Hoe lees ik een boom](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [Hoe relateerd het "diversity" paneel met de boom](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background?n=4).  
+* [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background?n=5).  
+* [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [Hoe relateerd de kaart met de boom](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/narratives/trees-background?n=9).  
+* [Over de dataset](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
 
@@ -32,10 +32,11 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
-<br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+# [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Ziekteverwekkers verspreiden zich door snelle vermenigvuldiging in één gastheer, gevolgd door overdracht naar een andere gastheer. Een epidemie kan alleen optreden als één infectie leidt tot meer dan één volgende infectie.
+<br> <br>
+Terwijl de ziekteverwekker zich vermenigvuldigt en verspreidt, moet zijn genoom vele malen worden gekopieerd en zullen willekeurige mutaties (kopieerfouten) zich ophopen in het genoom; dit is normaal. Dergelijke willekeurige mutaties kunnen helpen de verspreiding van de ziekteverwekker te volgen en meer te weten te komen over de transmissieroutes en dynamiek ervan.
+
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -45,9 +46,9 @@ As the pathogen replicates and spreads, its genome needs to be replicated many t
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+De afbeelding hierboven toont een schets van een transmissieboom. Elke cirkel vertegenwoordigt een geval (geïnfecteerde persoon), met horizontale lijnen die de duur van hun infectie aangeven. Verbonden gevallen vertegenwoordigen overdracht van de ene persoon naar de andere.
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+Hier zien we het volledige beeld van de transmissiestructuur. In de praktijk wordt echter slechts een subset van gevallen bemonsterd (blauw); de transmissiestructuur is onbekend en doorgaans zijn slechts ruwe schattingen van het aantal gevallen beschikbaar. Met genoomsequenties kunnen we delen van de transmissiestructuur afleiden. In dit voorbeeld zijn drie mutaties (kleine diamanten) op de boom aangegeven. Sequenties met dezelfde mutaties zijn nauwer verwant, dus met deze mutaties kunnen we monsters groeperen in clusters van nauw verwante virussen die tot dezelfde transmissieketens behoren.
 </p>
 </div>
 ```
@@ -56,11 +57,12 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [Hoe lees ik een boom?](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
-<br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+De x-as van een boom vertegenwoordigt de mate van verschil (in tijd of genetische divergentie - daar komen we zo op terug). De y-as helpt alleen om dingen uit te spreiden zodat we alles kunnen zien; het heeft geen meeteenheden.
+<br> <br>
+De toppen van de boom vertegenwoordigen voorbeelden (d.w.z. blauwe gevallen van de vorige pagina). De interne knooppunten vertegenwoordigen gevallen die niet zijn bemonsterd, maar waarvan we denken dat ze de bron waren van alle gevallen die daarvan afstammen (d.w.z. de rode knooppunten van de vorige pagina). Deze relaties worden afgeleid door het analyseren van het patroon van mutaties dat is waargenomen in de bemonsterde gevallen.
+
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -70,12 +72,12 @@ The tips of the tree represent samples (i.e., blue cases from the last slide). T
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
-<br><br>
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
-<br><br>
-Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
+Hierboven zien we een illustratie met links een fylogenetische boom, waar mutaties worden weergegeven als gekleurde cirkels. Rechts staan de bijbehorende sequenties, ook met mutaties weergegeven als gekleurde cirkels. We kunnen zien dat sequenties die dezelfde mutatie delen samen groepen. Wanneer sequenties verschijnen die met elkaar zijn verbonden door een vlakke verticale lijn, zoals A en B, betekent dit dat er geen verschillen tussen beide zijn - hun sequenties zijn identiek.
+<br> <br>
+Wanneer een sequentie op zichzelf op een lange lijn staat, zoals C of E, betekent dit dat het unieke mutaties heeft die niet in andere sequenties worden aangetroffen. Hoe langer de lijn, hoe meer mutaties.
+A en B hebben ook unieke mutaties (de groene cirkel) die niet worden gedeeld door de andere sequenties, maar ze zijn identiek aan elkaar.
+<br> <br>
+Op basis van deze boom concluderen we dat A & B nauw verwant zijn aan elkaar, en D & E nauw verwant zijn aan elkaar. A & B zijn nauwer verwant aan C dan aan D & E.
 </p>
 
 ### Further reading  
