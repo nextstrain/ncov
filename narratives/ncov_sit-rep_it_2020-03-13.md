@@ -36,7 +36,7 @@ abstract: "Questo report usa dati genomici pubblicamente condivisi per ricostrui
 <!-- * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10). -->
 * [FAQ & idee errate](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 <!-- * [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11). -->
-* [Ringraziamenti scientifici ](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Ringraziamenti scientifici](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 <!-- * [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12). -->
 
 
@@ -101,11 +101,14 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
 ## Informazioni di base (in inglese)
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+ <!-- <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a> -->
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="Immagine di un coronavirus al microscopio" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+ <!-- <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a> -->
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustrazione di un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+ <!-- <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a> -->
+  <a href="https://nextstrain.org/narratives/trees-background"><img alt="disegno di un albero filogenetico" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a> 
 </div>
 
 <!-- ## Further Reading -->
