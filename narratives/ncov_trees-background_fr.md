@@ -60,7 +60,7 @@ Ici, nous observons l'ensemble de l'arbre de transmission. En pratique, cependan
 
 L'axe des x d'un arbre représente le degré de différence (en temps ou en divergence génétique - nous y reviendrons). L'axe des y permet juste d'étaler les choses pour que nous puissions tout voir ; il n'a pas d'unité.
 <br><br>
-Les pointes de l'arbre représentent des échantillons (c'est-à-dire les cas bleus de la diapositive précédente). Les nœuds internes représentent les cas qui n'ont pas été échantillonnés, mais dont nous pensons qu'ils sont à l'origine de tous les cas qui en découlent (c'est-à-dire les nœuds rouges de la diapositive précédente). Ces relations sont déduites en analysant le schéma des mutations observées dans les cas échantillonnés.
+Les extrémités de l'arbre représentent des échantillons (c'est-à-dire les cas bleus de la diapositive précédente). Les nœuds internes représentent les cas qui n'ont pas été échantillonnés, mais dont nous pensons qu'ils sont à l'origine de tous les cas qui en découlent (c'est-à-dire les nœuds rouges de la diapositive précédente). Ces relations sont déduites en analysant le schéma des mutations observées dans les cas échantillonnés.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -75,7 +75,7 @@ Ci-dessus, nous voyons une illustration avec un arbre phylogénétique à gauche
 Lorsqu'une séquence se trouve seule sur une longue ligne, comme C ou E, cela signifie qu'elle présente des mutations uniques que l'on ne trouve pas dans d'autres séquences. Plus la ligne est longue, plus il y a de mutations.
 A et B possèdent également des mutations uniques (le cercle vert) non partagées par les autres séquences, mais elles sont identiques l'une à l'autre.
 <br><br>
-Sur la base de cet arbre, nous pourrions conclure que A et B sont étroitement liés l'un à l'autre, et que D et E sont étroitement liés l'un à l'autre. A et B sont plus étroitement liés à C qu'à D et C.
+Sur la base de cet arbre, nous pourrions conclure que A et B sont étroitement liés l'un à l'autre, et que D et E sont étroitement liés l'un à l'autre. A et B sont plus étroitement liés à C qu'à D et E.
 </p>
 
 ### Pour en savoir plus
@@ -97,7 +97,7 @@ Examinons les 169</tag> premières souches de SARS-CoV-2 (le virus qui cause COV
 Ici, nous présentons l'arbre phylogénétique au-dessus d'un diagramme à barres montrant la variation (c'est-à-dire les mutations) du génome.
 Sans ces mutations, nous ne pourrions pas construire l'arbre, donc les deux sont intimement liés.
 <br><br>
-Dans ce panneau de "divisibilité", l'axe horizontal correspond à chaque site du génome viral (environ 30 000 !).
+Dans ce panneau "diversité", l'axe horizontal correspond à chaque site du génome viral (environ 30 000 !).
 L'axe vertical indique le degré de variabilité de chaque site.
 <br><br>
 Nous avons coloré l'arbre selon l'une de ces mutations - dans ce cas le codon 314 du gène "ORF1b".
@@ -126,7 +126,7 @@ Vous pouvez voir combien de mutations présentent une branche en passant votre s
 <!-- ############ SLIDE BREAK ############# -->
 # [Mesurer des différences dans le temps](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 Nous pouvons également visualiser comment le virus s'est propagé dans le temps en utilisant la date de collecte des échantillons comme axe des x.
-Ici, l'axe des x représente la date de collecte de chaque virus. La position des pointes reflète la date à laquelle ces échantillons ont été collectés. Les dates des nœuds internes - les "cas manquants" - sont déduites en fonction de la date à laquelle leurs descendants ont été collectés et du taux de mutation du virus.
+Ici, l'axe des x représente la date de collecte de chaque virus. La position des extrémités reflète la date à laquelle ces échantillons ont été collectés. Les dates des nœuds internes - les "cas manquants" - sont déduites en fonction de la date à laquelle leurs descendants ont été collectés et du taux de mutation du virus.
 <br><br>
 Remarquez combien de séquences qui se trouvaient auparavant dans une ligne (indiquant des génomes identiques) sont maintenant différenciées dans le temps.
 Cela se produit lorsque la vitesse à laquelle le virus mute est légèrement plus lente que la vitesse à laquelle il se propage.
