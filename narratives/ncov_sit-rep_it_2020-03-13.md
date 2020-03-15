@@ -46,7 +46,7 @@ abstract: "Questo report usa dati genomici pubblicamente condivisi per ricostrui
 # Sommario
 
 <!-- Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world. -->
-Di seguito, abbiamo analizzato 410</tag> genomi del COVID-19 pubblicamente condivisi. Confrontando tra loro questi genomi virali possiamo caratterizzare come il COVID-19 si sta evolvendo e spostando nel mondo.
+Di seguito, abbiamo analizzato 410</tag> genomi del COVID-19 pubblicamente condivisi. Confrontando tra loro questi genomi virali possiamo determinare come il COVID-19 si sta evolvendo e spostando nel mondo.
 
 <!-- For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus). -->
 Per seguire in tempo reale il numero di casi di coronavirus nel mondo, vai a [Our World In Data](https://ourworldindata.org/coronavirus).
@@ -159,7 +159,7 @@ Per esempio, la cartina mostra molte poche sequenze dal sud del mondo. Questo NO
 <!-- Here, we see a large clade of sequences from Europe. -->
 Qui osserviamo un gran numero di sequenze dall'Europa.
 <!-- Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe. -->
-In particolare, le sequenze di molti Paesi diversi si intercalano, indicando come il COVID-19 stia già circolando piuttosto ampiamente in tutta Europa.
+In particolare, le sequenze di molti Paesi diversi risultano mescolate, e ciò indica che il COVID-19 sta già circolando piuttosto ampiamente in tutta Europa.
 <br><br>
 
 <!-- Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere). -->
@@ -230,7 +230,7 @@ Da ciò, concludiamo che esista una ampia diffusione locale del virus nello Stat
 <br><br>
 
 <!-- Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship. -->
-È interessante notare che i campioni di Washington si intercalano con quelli della nave da crociera Grand Princess.
+È interessante notare che i campioni di Washington hanno caratteristiche che indicano una mescolanza tra questi e quelli della nave da crociera Grand Princess.
 <!-- We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis. -->
 Non è ancora chiaro se il virus si sia diffuso dalla nave da crociera a Washington o viceversa; man mano che otteremo più dati, aggiorneremo la nostra analisi.
 
