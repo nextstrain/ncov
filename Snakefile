@@ -206,7 +206,17 @@ rule translate:
         reference = files.reference
     output:
         node_data = "results/aa_muts.json",
-        s_alignment = "results/aa-alignment_S.fasta"
+        alignment_ORF1a = "results/aa-alignment_ORF1a.fasta",
+        alignment_ORF1b = "results/aa-alignment_ORF1b.fasta",
+        alignment_S = "results/aa-alignment_S.fasta",
+        alignment_ORF3a = "results/aa-alignment_ORF3a.fasta",
+        alignment_E = "results/aa-alignment_E.fasta",
+        alignment_M = "results/aa-alignment_M.fasta",
+        alignment_ORF6 = "results/aa-alignment_ORF6.fasta",
+        alignment_ORF7a = "results/aa-alignment_ORF7a.fasta",
+        alignment_ORF8 = "results/aa-alignment_ORF8.fasta",        
+        alignment_N = "results/aa-alignment_N.fasta",
+        alignment_ORF10 = "results/aa-alignment_ORF10.fasta"
     shell:
         """
         augur translate \
