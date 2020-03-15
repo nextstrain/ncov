@@ -125,18 +125,21 @@ Approfondimenti
 <!--# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)-->
 # [Qual'è la relazione tra il pannello "diversità" e l'albero](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Diamo un'occhiata ai primi 169</tag> ceppi virali di SARS-CoV-2 (the virus che causa COVID-19) che sono stati pubblicamente condivisi. Come abbiamo fatto anche nella pagina precedente, abbiamo costruito un allineamento di queste sequenze virali (potete vedere tutte le analisi 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+Diamo un'occhiata ai primi 169</tag> ceppi virali di SARS-CoV-2 (the virus che causa COVID-19) che sono stati pubblicamente condivisi. Come abbiamo fatto anche nella pagina precedente, abbiamo costruito un allineamento di queste sequenze virali (potete vedere tutte le analisi che sono state fatte [on GitHub](https://github.com/nextstrain/ncov)).
+<!--Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).-->
 <br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
+Qui mostriamo l'albero filogenetico sopra un diagramma che mostra le variazioni (mutazioni) lungo il genome. Senza queste mutazioni non potremmo costruire l'albero, quindi i due sono strettamente connessi.
+<!--Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
+Without these mutations we couldn't build the tree, so the two are intimitely connected.-->
 <br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
+In questo pannello di diversità, làasse orizzontale rappresenta i trentamila siti lungo il genoma virale. L'asse verticale indica quanta variabilità è stata riscontrata in ciascun sito.
+<!--In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
+The vertical axis indicates how much variability there is at each site.-->
 <br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
+Abbiamo colorato l'albero seguendo una di queste mutazioni - in questo caso il codone 314 nel gene  "ORF1b". Non c'è nessuna ragione per pensare a priori che questa sia una mutazione funzionale (cioè che conferisca un cambiamento biologico). Mutazioni come questa sono precisamente quelle che usiamo per definire una relazione tra le sequenze e costruire l'albero.
+<!--We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
 There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.-->
 
 <!-- There is NO right-side text -->
 
