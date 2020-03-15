@@ -1,6 +1,6 @@
 ---
 title: 新型冠状病毒（COVID-19）流行病学基因组分析状况报告2020-03-13
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, Derek Zhang, (Fengjun Zhang), （李雪莹）"
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Derek Zhang), (Fengjun Zhang), （李雪莹）"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020年3月13日"
