@@ -368,7 +368,7 @@ Nel tentativo di spiegare perché queste convinzioni non sono corrette, gli scie
 
 <!-- This is left-side text -->
 <!-- # [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->
-# [Ringraziamenti](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Ringraziamenti scientifici](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 <!-- We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China. -->
 Ringraziamo tutti gli scienziati al lavoro su questa epidemia, e in particolare quelli che lavorano in Cina, per lo straordinario e tempestivo lavoro fatto.
@@ -514,7 +514,7 @@ Ringraziamo i seguenti laboratori per i dati raccolti:
 
 <!-- This is left-side text -->
 <!-- # [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->
-# [Crediti scientifici dettagliati](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Ringraziamenti scientifici dettagliati](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 
 <!-- These data were shared via [GISAID](https://gisaid.org). -->
@@ -525,7 +525,7 @@ Riconosciamo con gratitudine i loro contributi.
 <br>
 
 <!--  To the right we give specific sequences shared by each lab. -->
-Sulla destra le sequenze specifiche condivise da ogni laboratorio.
+Sulla destra si possono vedere le sequenze specifiche condivise da ogni laboratorio.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
