@@ -308,7 +308,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency}\
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -329,7 +329,8 @@ rule export_gisaid:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description,
-        clades = rules.clades.output.clade_data
+        clades = rules.clades.output.clade_data,
+        recency = rules.recency.output
     output:
         auspice_json = "results/ncov_gisaid_with_accessions.json"
     shell:
@@ -337,15 +338,13 @@ rule export_gisaid:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
             --output {output.auspice_json}
         """
-
-
 
 rule export_zh:
     message: "Exporting data files for for auspice"
@@ -360,7 +359,8 @@ rule export_zh:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description_zh,
-        clades = rules.clades.output.clade_data
+        clades = rules.clades.output.clade_data,
+        recency = rules.recency.output
     output:
         auspice_json = "results/ncov_zh_with_accessions.json"
     shell:
@@ -368,7 +368,7 @@ rule export_zh:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
