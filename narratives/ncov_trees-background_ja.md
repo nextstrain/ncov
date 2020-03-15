@@ -39,7 +39,7 @@ abstract: "ここでは、遺伝疫学における系統樹を理解するため
 <!-- This is right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# An example
+# 伝搬経路の例
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="伝搬経路と系統樹との関係性の図" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
