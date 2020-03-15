@@ -1,8 +1,28 @@
 ---
 title: 新型冠状病毒（COVID-19）流行病学基因组分析状况报告2020-03-13
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Derek Zhang), (Fengjun Zhang), （李雪莹）"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Derek Zhang
+  - Fengjun Zhang
+  - 李雪莹
 date: "2020年3月13日"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19）基因组数据来追踪疫情的传播，此报告将每周更新。"
@@ -15,17 +35,17 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text -->
 # [目录](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [关于抽样](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [在欧洲的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [在英国国内的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [病毒进入美国](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [SARS-CoV-2在加利福尼亚州的传播](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [常见问题和误区](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=2).     
+* [关于抽样](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=3).
+* [在欧洲的传播](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=4).   
+* [在英国国内的传播](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=5).
+* [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=6).
+* [病毒进入美国](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=7).
+* [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=8).
+* [SARS-CoV-2在加利福尼亚州的传播](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=9).
+* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=10).
+* [常见问题和误区](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=11).
+* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -208,7 +228,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# 延伸阅读 
+# 延伸阅读
 
 * "不要相信你听到的关于冠状病毒和艾滋病的阴谋论" [文章链接](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
