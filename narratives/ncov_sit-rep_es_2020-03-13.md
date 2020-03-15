@@ -27,6 +27,7 @@ translatorLinks:
   - https://twitter.com/CmRoycostilla
   - https://twitter.com/miguelp1120
   - https://twitter.com/Chjulian
+  - https://www.lshtm.ac.uk/aboutus/people/villabona-arenas.julian
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento de la propagación del COVID-19. Los reportes son actualizados semanalmente."
