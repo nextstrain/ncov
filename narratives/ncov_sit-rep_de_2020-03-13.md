@@ -1,8 +1,28 @@
 ---
 title: Genomische Analyse der Verbreitung von COVID-19. Lagebericht 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Astrid Gall)"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Astrid Gall
+translatorLinks:
+  - https://twitter.com/AstridGAGall
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "Dieser Bericht basiert auf genetischen Daten um die Verbreitung von COVID-19 zu beschreiben. Diese Berichte werden wöchentlich aktualisiert."
@@ -119,7 +139,7 @@ Betrachtet man die Britischen Inseln & Irland als Beispiel, so können wir mehre
 <br><br>
 Dies ist kompatibel mit mindestens vier Einführungen von anderen Orten.
 <br><br>
-Wir sehen auch Fälle, in denen es nach einer Einführung mehrere eng miteinander verbundene Fälle vom selben Ort gibt. 
+Wir sehen auch Fälle, in denen es nach einer Einführung mehrere eng miteinander verbundene Fälle vom selben Ort gibt.
 Dies suggerierrt, dass es nach mehr als einer dieser Einführungen zu lokaler Verbreitung gekommen ist.
 <!-- There is no right side text -->
 
