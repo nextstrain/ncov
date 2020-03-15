@@ -1,11 +1,11 @@
 ---
 title: Hoe interpreteer je een fylogenetische boom
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
+authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Jisca Huisman, Roan van Scheppingen, Jana S. Huisman)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "13 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die genetische epidemidiologie informeert, leest en interpreteert. De website is geoptimiseerd voor weergave op desktop browsers. "
+abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die informatie over de genetische epidemidiologie bevat, leest en interpreteert. De website is geoptimaliseerd voor weergave in desktop browsers. "
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -17,12 +17,12 @@ abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die genetische ep
 
 * [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [Hoe lees ik een boom](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Hoe relateert het diversiteitspaneel met de boom](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Hoe is het diversiteitspaneel gerelateerd aan de boom](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background?n=5).  
 * [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background?n=6)?  
 * [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [Hoe relateert de kaart met de boom](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [Hoe is de kaart gerelateerd aan de boom](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/narratives/trees-background?n=9).  
 * [Over de dataset](https://nextstrain.org/narratives/trees-background?n=10).  
 
@@ -33,10 +33,9 @@ abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die genetische ep
 
 <!-- This is left-side text -->
 # [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Ziekteverwekkers verspreiden zich door snelle vermenigvuldiging in één gastheer, gevolgd door overdracht naar een andere gastheer. Een epidemie kan alleen optreden als één infectie leidt tot meer dan één volgende infectie.
+Ziekteverwekkers verspreiden zich door snelle vermenigvuldiging in een gastheer, gevolgd door overdracht naar een andere gastheer. Een epidemie kan alleen optreden als een infectie leidt tot meer dan één volgende infectie.
 <br> <br>
-Terwijl de ziekteverwekker zich vermenigvuldigt en verspreidt, moet zijn genoom vele malen gekopieerd worden en zullen willekeurige mutaties (kopieerfouten) zich ophopen in het genoom; dit is normaal. Dergelijke willekeurige mutaties kunnen helpen de verspreiding van de ziekteverwekker te volgen en meer te weten te komen over de transmissieroutes en dynamiek ervan.
-
+Terwijl de ziekteverwekker zich vermenigvuldigt en verspreidt, moet zijn genoom vele malen gekopieerd worden en zullen willekeurige mutaties (kopieerfouten) zich ophopen in het genoom; dit is normaal. Dergelijke willekeurige mutaties bevatten informatie over de transmissieroutes en populatie dynamiek van de ziekteverwekker. Ze kunnen als sporen dienen, die helpen de verspreiding van de ziekteverwekker te volgen. 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -46,9 +45,10 @@ Terwijl de ziekteverwekker zich vermenigvuldigt en verspreidt, moet zijn genoom 
 <img width="500px" alt="Afbeelding die laat zien hoe een besmettingsboom en een transmissieboom relateren" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-De afbeelding hierboven toont een schets van een transmissieboom. Elke cirkel vertegenwoordigt een geval (geïnfecteerde persoon), met horizontale lijnen die de duur van hun infectie aangeven. Verbonden gevallen vertegenwoordigen overdracht van de ene persoon naar de andere.
-<br> <br>
-Hier zien we het volledige beeld van de transmissiestructuur. In de praktijk wordt echter slechts een subset van gevallen bemonsterd (blauw); de transmissiestructuur is onbekend en doorgaans zijn slechts ruwe schattingen van het aantal gevallen beschikbaar. Met genoomsequenties kunnen we delen van de transmissiestructuur afleiden. In dit voorbeeld zijn drie mutaties (kleine diamanten) op de boom aangegeven. Sequenties met dezelfde mutaties zijn nauwer verwant, dus met deze mutaties kunnen we monsters groeperen in clusters van nauw verwante virussen die tot dezelfde transmissieketens behoren.
+De afbeelding hierboven toont een schets van een transmissie netwerk. Elke cirkel verbeeldt een geïnfecteerde persoon (een geval), waarbij de horizontale lijn naar rechts de duur van hun infectie aangeeft. Verbonden gevallen tonen overdracht van de ene persoon naar de andere.
+<br> 
+<br>
+Hier zien we het volledige beeld van de transmissiestructuur. In de praktijk wordt echter slechts een subset van alle gevallen bemonsterd en gesequenced (blauw). De ware transmissiestructuur is dus onbekend en doorgaans zijn slechts ruwe schattingen van het aantal gevallen beschikbaar. Met genoomsequenties kunnen we delen van de transmissiestructuur afleiden. In dit voorbeeld zijn drie mutaties (kleine diamanten) op de boom aangegeven. Sequenties met dezelfde mutaties zijn nauwer verwant, dus met deze mutaties kunnen we monsters groeperen in clusters van nauw verwante virussen die tot dezelfde transmissieketen behoren.
 </p>
 </div>
 ```
