@@ -46,8 +46,8 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- This is left-side text -->
 <!--* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?--> 
 # [Qual è la relazione tra le reti di trasmissione e gli alberi filogenetici](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-I patogeni si diffondono attraverso una replicazione rapida in un organismo ospite, seguita dalla trasmissione ad un altro organismo ospite. Un'epidemia può verificarsi solo quando un'infezione risulta in più di una infezione successiva. 
-<!-- AL: Un'epidemia può verificarsi solo quando un'infezione in organismo ospite dà succesivamente luogo a più di una infezione in altri organismi.
+I patogeni si diffondono attraverso una replicazione rapida in un organismo ospite, seguita dalla trasmissione ad un altro organismo ospite. <!--Un'epidemia può verificarsi solo quando un'infezione risulta in più di una infezione successiva. -->
+Parliamo di un'epidemia solo quando un'infezione in organismo ospite dà succesivamente luogo a più di una infezione in altri organismi.
 <!--Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.-->
 <br><br>
 Quando il patogeno si replica e si diffonde, il suo genoma ha bisogno di essere replicato molte volte e mutazioni casuali (errori di replicazione) si accumulano sul genoma; questo è un fatto normale. Tali mutazioni casuali possono aiutare a tracciare la diffusione del patogeno e imparare cose sulle sue rotte di trasmissione e la sua dinamica.
