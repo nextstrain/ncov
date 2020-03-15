@@ -207,23 +207,30 @@ Posizionando il mouse sulla linea verticale più a sinistra, si può vedere che 
 Gli alberi filogenetici contengono spesso informazioni aggiuntive, quali per esempio la provenienza geografica del campione. Da questo si può inferire la localizzazione geografica dei nodi interni (ipotetici casi intermedi e non identificati) usando dei modelli matematici. Questo può aiutare a capire meglio come il virus si stia muovendo da un luogo ad un altro.
 <!--Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.-->
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+L'interpretazione di queste inferenze comunque deve essere fatta con cautela dato che i campioni e le sequenze, o la loro mancanza, può fortemente influenzarne l'interpretazione.
+<!--Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.-->
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # An example
 <div width="50%" margin="auto">
 <p>
-<img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
+<!--<img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" -->
+<img width="700px" alt="Illustrazione che mostra come il modo in cui vengono raccolti i campioni influenzi làinterpretazione della diffusione del virus" 
+src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+A sinistra, mostriamo un albero filogenetico completo, con campioni provenienti da due diverse località, indicate in blu e arancione. Scorrendo l'albero vediamo tre punti in cui il colore (località) cambia da rancione a blu. Perciò possiamo concludere che ci siano state tre diverse introduzioni dalla località arancione a quella blu.
+<!--On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.-->
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+Ma questa interpretazione si basa sulla disponibilità dei dati: abbiamo rimosso un campione arancione in mezzo all'albero. Ora osserviamo solo un cambiamento di colore, suggerendo una sola introduzione nella regione blu che, avvenuta molto prima.
+<!--But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.-->
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+Nellàultimo esempio abbiamo solo una sequenza dalla regione arancione , che ci potrebbe portare a pensare che ci sia stata una introduzione dall'arancione al blu.
+<!--In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.-->
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+Quindi, per quanto queste inferenze siano importantissime, devono essere interpretate con cauzione.
+<!--Thus, while these inferences can be invaluable, they also must be interpreted with caution.-->
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
@@ -231,19 +238,25 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
+<!--# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)-->
 # [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+Qui mostriamo l'albero colorato secondo la provenienza di ogni campione (e provenienza inferita, per i nodi interni).
+Cliccando su ['Esplore i dati'](https://nextstrain.org/ncov) si puoà vedere unàanimazione della diffusione inferita del virus nel corso dell'epidemia.
+<!--Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
+If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.-->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+<!--# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)-->
+Abbiamo detto prima che i nodi interni rappresentano _ipotetici_ casi non identificati. Di fatto, tutti i casi rappresentano delle _ipotesi_ su come il patogeno si sia evoluto e spostato nel tempo. Gli alberi che presentiamo su Nextstrain sono stime puntuali -- cioè le versioni di questa storia che massimizzano la probabilità di osservare quello che osserviamo in realtà.
+<!--Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.-->
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+Comunque c'e' sempre un'incertezza in queste stime. In generale, le parti dell'albero in cui abbiamo più campioni sono più affidabili; le aree che contengono campioni più radi sono meno affidabili.
+<!--However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.-->
 
 ```auspiceMainDisplayMarkdown
 # An illustration
