@@ -139,7 +139,7 @@ Si vemos el mapa en detalle, podemos apreciar los muchos vínculos entre Italia 
 
 
 # [Transmisión local en las islas británicas e Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Usando a las islas británicas e Irlanda como ejemplo, podemos apreciar varias instancias en cuales virus que son genéticamente cercanos a muestras de otros países aparecen en las islas británicas e Irlanda.
+Usando a las islas británicas e Irlanda como ejemplo, podemos apreciar varias instancias en las cuales virus que son genéticamente cercanos a muestras de otros países aparecen en las islas británicas e Irlanda.
 <br><br>
 Este hallazgo implica que hubo al menos cuatro introducciones del virus desde otros lugares.
 <br><br>
@@ -149,7 +149,7 @@ También podemos apreciar instancias en las cuales encontramos varios casos gen�
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Propagación de SARS-CoV-2 desde Irán](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Varios de los genomas secuenciados han sido aislados de pacientes que reportan un historial de viaje a Irán. Estos genomas son extremadamente similares, indicando que el brote en Irán es el resultado de una transmisión singular que se ha propagado a otros lugares.
+Varios de los genomas secuenciados han sido aislados de pacientes que reportan un historial de viaje a Irán. Estos genomas son extremadamente similares, indicando que el brote en Irán es el resultado de una única transmisión que se ha propagado a otros lugares.
 <br><br>
 Tome nota que no hay genomas completos disponibles que han sido aislados desde pacientes en Irán.
 <!-- There is NO right-side text -->
@@ -169,7 +169,7 @@ Sin embargo, en Washington y California podemos apreciar grupos de casos que est
 <!-- This is left-side text -->
 # [Propagación de SARS-CoV-2 en el estado de Washington](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 Aquí podemos apreciar un grupo grande de casos aislados en Washington que están genéticamente relacionados.
-Usando este hallazgo concluimos que en el estado de Washington se encuentra una extensa propagación local del virus.
+Usando este hallazgo concluimos que en el estado de Washington ocurre una extensa propagación local del virus.
 <br><br>
 Interesantemente, las muestras aisladas de casos en Washington se encuentran intercaladas con las muestras aisladas de casos del crucero Grand Princess.
 Todavía no estamos seguros si la propagación del virus fue desde el crucero a Washington o viceversa; cuando obtengamos datos adicionales, actualizaremos nuestro análisis.
@@ -188,7 +188,7 @@ Esto sugiere fuertemente que hay propagación continua y local del virus en Cali
 # [Hallazgos Principales](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - El virus ha sido introducido a varias partes del mundo múltiples veces. No todas las introducciones resultan en propagación local.  
 <br><br>
-- Apreciamos evidencia de la propagación comunitaria en Europa, partes de los EEUU, la China, y el Sudeste Asiático.  
+- Existe evidencia de la propagación comunitaria en Europa, en partes de los EEUU, en China, y el Sudeste Asiático.  
 <br><br>
 - Controlar los brotes locales a través de la distanciación social es crucial para proteger las poblaciones más vulnerables al virus.
 
@@ -207,7 +207,6 @@ Distanciación social – es decir, disminuir el número de personas con cual te
 * Reducir el número de personas con cual tienes contacto diariamente, especialmente si eres parte de un grupo de gente vulnerable al virus (por ejemplo: gente mayor y gente con condiciones médicas pre-existentes).
 * Recuerde que, aunque usted no sea particularmente vulnerable al virus, hay muchas personas que sí lo son; debe seguir estas prácticas para proteger a otros.
 * Lávese las manos “como si acabas de picar un jalapeño y tienes que cambiar tus lentes de contacto”.  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
 * Quédese en casa si está enfermo; prepárese con provisiones adicionales por si tiene que estar en auto-cuarentena.  
 
 ## Pasos que pueden tomar oficiales gubernamentales  
