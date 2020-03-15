@@ -19,12 +19,12 @@ abstract: "ここでは、遺伝疫学における系統樹を理解するため
 * [系統樹の読み方.](https://nextstrain.org/narratives/trees-background?n=2)  
 * [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-background?n=3)   
 * [遺伝的多様性の違いを測定](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [経時的な差異の測定](https://nextstrain.org/narratives/trees-background?n=5).  
+* [感染の拡大が始まった日](https://nextstrain.org/narratives/trees-background?n=6).
+* [どのように系統樹の性質(色)を解釈すべきか](https://nextstrain.org/narratives/trees-background?n=7).
+* [地図は系統樹とどのように関係しているか](https://nextstrain.org/narratives/trees-background?n=8).
+* [発展的な資料: 系統樹の不確かさ](https://nextstrain.org/narratives/trees-background?n=9).  
+* [データセットについて](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
 
@@ -136,7 +136,7 @@ x 軸としてサンプル取得日を使用することによって、どれだ
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [系統樹の性質(色)の解釈の仕方](https://nextstrain.org/ncov/2020-03-11)
+# [どのように系統樹の性質(色)を解釈すべきか](https://nextstrain.org/ncov/2020-03-11)
 系統樹には追加的な情報が含まれていることがよくあります、例えばサンプルが収集された場所です。
 これによって、数学的モデルを使い内部の節(仮説上の中間者、未収集の症例)の場所を推定することができます。
 これは、ウイルスがある場所から次の場所にどのように移動しているかを理解するのに役立ちます。
