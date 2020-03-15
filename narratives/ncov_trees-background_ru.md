@@ -1,8 +1,8 @@
 ---
 title: Как интерпретировать филогенетические деревья
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford. Translation: Varvara Kozyreva, )"
+authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford. (Translation: Varvara Kozyreva, )"
 authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+affiliations: "Fred Hutch, Сиэтл, США; Biozentrum, Базель, Швейцария; Chan Zuckerberg Initiative, Калифорния, США"
 date: "13 марта 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Этот документ обясняет как читать и интерпретировать филогенетические деревья, которые позволяют информировать геномную эпидемиологию. Данный сайт оптимизирован для отображения в браузерах настольных компьютеров"
@@ -20,8 +20,8 @@ abstract: "Этот документ обясняет как читать и и�
 * [Как панель "разнообразия" соотносится с деревом](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Измерение различий на основании генетической дивергенции](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Измерение различий на протяжении времени](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Датирование начала вспышки](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [Датирование начала вспышки](https://nextstrain.org/narratives/trees-background?n=6).  
+* [Как интерпретировать черты (цвета) дерева](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
 * [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
@@ -39,7 +39,7 @@ abstract: "Этот документ обясняет как читать и и�
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Пример
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
@@ -115,7 +115,7 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 # [Измерение различий на основании генетической дивергенции](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
 Здесь представленна филогения первых 169</tag> штаммов SARS-CoV-2 (вируса вызывающего заболевание COVID-19), которые были выложены в общественный доступ. 
 <br><br>
-На горизонтальной оси отмечена дивергенция, которая представляет количесво изменений (мутаций) в геноме, по отношению к корню дерева (т.е. начало вспышки). 
+На горизонтальной оси отмечена дивергенция, которая соответствует количеству изменений (мутаций) в геноме, по отношению к корню дерева (т.е. начало вспышки). 
 У некоторых последовательностей может не быть ни одной мутации -- это означает что эти последовательности идентичны корню (центру) дерева. Другие вирусы имеют от одной до одиннадцати мутаций. 
 <br><br>
 На данный момент, эта схема может не напоминать "дерево". Многие последовательности идентичны- они находятся вместе на одной вертикальной линии, как А и В (некоторые в левой части дерева). Другие- обладают уникальными или одинаковыми мутациями и поэтому сидят на линиях, или ветвях, протягивающихся вправо. 
@@ -146,26 +146,26 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+# [Как интерпретировать черты (цвета) дерева?](https://nextstrain.org/ncov/2020-03-11)
+Филогенетические деревья часто содержат дополнительную информацию, например географическое место выделения каждого образца. Исходя из этого, мы можем предсказать место положение для внутренних узлов (гипотетические промежуточные незафиксированные случаи) используя математические модели. Это может помочь нам понять как вирус передвигается из одного места положения в другое.   
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+Данная интерпретация, однако, должна быть сделана с осторожностью, поскольку сбор образцов и секвенирование, или отсутствие таковых, могут значительно влиять на выводы. 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Пример
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+Слева мы показываем дерево с полным набором образцов, в котором образцы из двух разных местностей обозначены оранжевым и синим цветами. По мере продвижения вниз по дереву мы наблюдаем 3 случая когда цвет (место положения) изменяется с оранжевого на синий. Из этого, мы сделаем вывод, что произошло 3 независимых заноса из оранжевой местности в голубую местность.
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+Однако, интерпретация зависит от собранных образцов: в дереве по середине мы удалили один из оранжевых образцов. Теперь мы видим только одно изменения в цвете с оранжевого на синий, предпологающее один единственный занос в голубую местность, который произошел намного раньше. 
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+В послежнем примере, у нас есть только одна последовательность из оранжевой местности, что может навести нас на мысль, что произошел только один занос из оранжевой в голубую местность.
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+Таким образом, несмотря на то, что подобные реконструкции могут быть черезвычайно полезны, они также должны быть интерпретированы с осторожностью. 
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
