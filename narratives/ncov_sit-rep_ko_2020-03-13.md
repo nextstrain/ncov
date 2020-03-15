@@ -240,38 +240,37 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [자주 묻는 질문과 오해들](https://nextstrain.org/ncov/2020-03-05)
 
-#### We know that a lot of people have questions about COVID-19.
+#### 우리는 많은 분들이 코로나19에 대해 궁금해 한다는 것을 잘 알고 있습니다.
 
-#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+#### [우리는 이곳에 자주 제기되는 질문들 중 일부에 대한 답변을 제공하고 있습니다.](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
+#### 미국 과학자 연맹(Federation of American Scientists)도 [훌륭한 질의응답](https://covid19.fas.org/l/en) 란을 제공하고 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Further reading  
+# 더 읽어볼 것  
 
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "코로나바이러스와 인간면역결핍바이러스(HIV)에 관한 음모론을 믿지마세요" (영어) [기사원문](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "근거가 빈약한 음모론들이 신종 코로나바이러스가 생명공학의 결과물이라고 주장" (영어) [기사원문](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "우한 코로나바이러스는 HIV의 일부을 유전공학적으로 삽입한 결과물이 아닙니다" (영어) [기사원문](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "코로나바이러스 음모론 파해치기" (영어) [AFP 팩트체크](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 
-# Misconceptions
+# 잘못된 사실들
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+신종 코로나바이러스의 기원에 관한 다수의 잘못된 소문들이 돌아다니고 있습니다. 지금과 같은 대규모 유행 사태에 이러한 잘못된 정보들은 사람들을 공포에 몰아넣고 과학자와 정부를 향한 사람들의 신뢰를 무너뜨림으로써 사람들이 전문가들의 권고를 무시하도록 만듭니다.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+아래 링크들은 과학자들이 이러한 오해를 바로잡으려는 차원에서 쓴 글들입니다.
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2의 '뱀'기원설 (전문가용) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV 조작' 가설 (트위터 글타래)</a>
 
 
 </div>
@@ -283,10 +282,9 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [기여자들](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+이번 유행에 관련된 모든 과학자들, 특히 중국의 과학자들의 대단하고 신속한 작업에 감사를 표합니다. 유전체 정보 및 메타정보의 빠른 공유가 아니었다면 이 분석들은 불가능했을 것입니다.
 
 <br>
 
