@@ -1,8 +1,29 @@
 ---
 title: Genomische analyse van COVID-19 verspreiding. Situatierapportage 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford,  (Rutger Vos, Pleuni Pennings, Roan van Scheppingen, Jisca Huisman)"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Rutger Vos
+  - Pleuni Pennings
+  - Roan van Scheppingen
+  - Jisca Huisman
 date: "13 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om zo de verspreiding van COVID-19 te volgen. Deze rapportages worden wekelijks bijgewerkt."
@@ -31,7 +52,7 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 ```auspiceMainDisplayMarkdown
 # Samenvatting
 
-Hier hebben we 410</tag> publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virus genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld. 
+Hier hebben we 410</tag> publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virus genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld.
 
 Voor een actuele momentopname van het aantal coronavirusgevallen in de wereld, zie [Our World In Data](https://ourworldindata.org/coronavirus).
 
@@ -62,7 +83,7 @@ In de updates van deze week rapporteren we het volgende:
 # [COVID-19 Bronnen](https://nextstrain.org/ncov/2020-03-05)
 We hebben een aantal bronnen voorbereid die het waard zijn om te lezen om jezelf vertrouwd te maken met COVID-19 en het virus dat het veroorzaakt, SARS-CoV-2.
 <br><br>
-Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal presenteren makkelijker; als u niet bekend bent met fylogenetische bomen, raden we u aan de ['Hoe kan ik Fylogenieën lezen?' narratief](https://nextstrain.org/narratives/trees-background) te bekijken en terug te komen wanneer u klaar bent.
+Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal presenteren makkelijker; als u niet bekend bent met fylogenetische bomen, raden we u aan de ['Hoe kan ik Fylogenieën lezen?' narratief](https://nextstrain.org/narratives/trees-background/nl) te bekijken en terug te komen wanneer u klaar bent.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -74,7 +95,7 @@ Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal pr
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recente COVID-19-uitbraak achtergrond </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Hoe kan ik Fylogenieën lezen? </a>
+  <a href="https://nextstrain.org/narratives/trees-background/nl"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Hoe kan ik Fylogenieën lezen? </a>
 </div>
 
 ## Verder lezen
