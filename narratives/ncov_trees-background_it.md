@@ -27,7 +27,7 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!--* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  -->
 * [Misurare le differenze nel tempo](https://nextstrain.org/narratives/trees-background?n=5).  
 <!--* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)? -->
-* [Datare l'inizio di un focolaio](https://nextstrain.org/narratives/trees-background?n=6)? 
+* [Datare l'inizio dell'epidemia](https://nextstrain.org/narratives/trees-background?n=6)? 
 <!--* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  -->
 * [Come devo interperetare i tratti (colori) sull'albero](https://nextstrain.org/narratives/trees-background?n=7)?  
 <!--* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  -->
@@ -149,45 +149,63 @@ It is precisely mutations such as this which we use to define the relationships 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+# [Misurare le differenze usando la distanza genetica](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+Questo è un albero filogenetico dei primi 169</tag> ceppi virali di SARS-CoV-2 (the virus che causa COVID-19) che sono stati condivisi pubblicamente.
+<!--This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.-->
 <br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
+Qui, l'asse orizzontale indica la divergenza, che è data dal numero di cambiamenti (mutazioni) nel genoma, relativamente alla radice dell'albero (che indica l'inizio dell'epidemia).
+Alcune sequenze possono avere zero mutazioni -- significa che sono uguali alla radice al centro dell'albero. Gli altri virus hanno tra zero e undici mutazioni.
+<!--Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
 Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+Other viruses have between one and eleven mutations.-->
 <br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
+Al momento, questo potrebbe non sembrare molto un 'albero'. Molte di queste sequenze sono identiche - stanno insieme su linee verticali, come A e B (alcune sono nella parte più a sinistra dell'albero).
+Altre habbo mutazioni uniche o condivise, per questo le troviamo su linee orizzontali, o 'rami' dirette verso destra.
+Si puo' vedere quante mutazioni sono contenute in un ramo passandoci sopra il mouse.
+<!--At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
 Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+You can see how many mutations a branch has by hovering your mouse over it.-->
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
-Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
+<!--# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)-->
+# [Misurare le differenze nel tempo](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+
+Possiamo visualizzare come il virus si è diffuso nel tempo, usando il la data di raccolta dei campioni sullàasse delle x.
+Qui l'asse x rappresenta la data in cui ciascun virus e' stato isolato. La posizione delle foglie identifica la data in cui i campioni sono stati raccolti. Le date dei nodi interni -- i 'casi mancanti' -- sono state inferite basandosi sulle date in cui i loro discendenti sono stati identificati e la velocità a cui il virus muta.
+<!--We can also visualize how the virus has spread over time by using the sampling date as the x axis.
+Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.-->
 <br><br>
-Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
+E' importante notare quante sequenze che prima erano sulla stessa linea (che indicava genomi identici) siano ora distanziate nel tempo. Questo succede quando la velocità a cui il virus muta è lievemente minore di quella a cui si diffonde. Potete scorrere tra questa slide e la precedente per vedere meglio come cambia l'albero.
+<!--Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
 This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+You can scroll up and down between the previous slide and this one, to see how the tree changes.-->
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+<!--# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)-->
+# [Datare l'inizio dell'epidemia](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
-Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
+Possiamo anche usare la genetica per assegnare una data all'inizio dell'epidemia, anche se questo è successo ancora prima che ci accorgessimo che ci fosse un'epidemia.
+Dato che possiamo assegnare delle date ad ogni campione e nodo nell'albero, possiamo usare questo fatto per inferire la data della 'radice' dell'albero. Questo rappresenta 'l'antenato comune più recente' di tutte le sequenze di SARS-CoV-2 che abbiamo finora. Per esempio: i tuoi nonni sono 'l'antenato comune più recente' vostro e dei vostri cugini primi.
+<!--We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
+Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.-->
 <br><br>
-If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+Posizionando il mouse sulla linea verticale più a sinistra, si può vedere che la data d'inizio inferita per questa specifica epidemia e' tra metà Novembre e metà Dicembre del 2019. 
+<!--If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.-->
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+<!--# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)-->
+# [Come devo interperetare i tratti (colori) sull'albero](https://nextstrain.org/ncov/2020-03-11)
+
+Gli alberi filogenetici contengono spesso informazioni aggiuntive, quali per esempio la provenienza geografica del campione. Da questo si può inferire la localizzazione geografica dei nodi interni (ipotetici casi intermedi e non identificati) usando dei modelli matematici. Questo può aiutare a capire meglio come il virus si stia muovendo da un luogo ad un altro.
+<!--Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.-->
 <br><br>
 Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
 
