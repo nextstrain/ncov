@@ -1,11 +1,11 @@
 ---
-title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 13일 상황 보고서
+title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 13일 상황 보고서.
 authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나-19의 전파를 추적합니다. 이 보고서는 매주 업데이트 됩니다."
+abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19의 전파를 추적합니다. 이 보고서는 매주 업데이트됩니다."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -15,52 +15,45 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나-19
 <!-- This is left-side text -->
 # [목차](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [데이터 수집에 관련 사항](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [유럽의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [영국과 아일랜드의 지역사회전파](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [이란에서 시작한 SARS-CoV-2 전파](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [미국의 유입경로](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [워싱턴 주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [캘리포니아 주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [질의응답 & 오해들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=2).     
+* [데이터 수집 관련 사항](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=3).
+* [유럽의 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=4).   
+* [영국과 아일랜드의 지역사회전파](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=5).
+* [이란에서 시작한 SARS-CoV-2 전파](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=6).
+* [미국의 유입경로](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=7).
+* [워싱턴주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=8).
+* [캘리포니아주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=9).
+* [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=10).
+* [자주 묻는 질문과 오해들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=11).
+* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-저희는 410</tag>개 공개된 코로나-19의 유전체 염기서열을 분석하였습니다.
-바이러스들을 비교분석하여 코로나-19가 어떻게 진화하고 세계 곳곳으로 퍼지고
-있는지 분석했습니다.
+저희는 410</tag>개 공개된 코로나19의 유전체 염기서열을 분석하였습니다.
+바이러스들을 비교분석하여 코로나19가 어떻게 진화하고 세계 곳곳으로 퍼지고 있는지 분석했습니다.
 
 현재 코로나바이러스의 현황을 알고 싶은 분들은 [Our World In Data](https://ourworldindata.org/coronavirus)를 참고하십시오.
 
-이 보고서는 바이러스가 전세계적으로 유행하고 있으며 여러 대륙에서
-지역사회전파가 이뤄지고 있다는 증거를 제시합니다. 
-현 시점에서는 여행 제한은 효과가 떨어지며 지역사회 내부에서의 전파를 억제하는
-전략을 권장합니다.
+이 보고서는 바이러스가 전세계적으로 유행하고 있으며 여러 대륙에서 지역사회전파가 이뤄지고 있다는 증거를 제시합니다. 
+현 시점에서는 여행 제한은 효과가 떨어지며 지역사회 내부에서의 전파를 억제하는 전략을 권장합니다.
 
 금주 보고서에서 새로 업데이트된 것들:
 
-* 코로나-19는 유럽 전역에서 국경을 넘나들며 유행하고 있습니다.
+* 코로나19는 유럽 전역에서 국경을 넘나들며 유행하고 있습니다.
 
-* 영국에는 최소 4번의 외부 유입이 있었으며 그 중 일부는 지역사회전파로
-  이어졌습니다.
+* 영국에는 최소 4번의 외부 유입이 있었으며 그 중 일부는 지역사회전파로 이어졌습니다.
 
-* 몇몇 여행관련 확진자들은 이란과 다른 지역 사이의 전파를 암시합니다.
+* 이란과 다른 지역 사이의 연결을 암시하는 몇 가지 여행 관련 사례가 있었습니다.
 
-* 현재 미국은 엄청난 양의 외부유입이 발견되며 많은 주에서 지역사회전파로
-  이어졌습니다.
+* 현재 미국은 엄청난 양의 외부유입이 발견되며 많은 주에서 지역사회전파로 이어졌습니다.
 
-* 워싱턴 주의 유행은 점점 커지고 있으며 그 중 일부는 그랜드 프린세스 크루즈선과
-  관련있습니다.
+* 워싱턴주의 유행은 점점 커지고 있으며 그 중 일부는 그랜드 프린세스호 크루즈선과   관련있습니다.
 
-* 캘리포니아에서 코로나-19의 지역사회전파가 진행중입니다.
+* 캘리포니아주에서 코로나19의 지역사회전파가 진행중입니다.
 
-* 의료체계의 부담을 덜고 취약계층을 보호하기 위해서는 신속한 사회적 거리두기가
-  이뤄져야합니다.
+* 의료체계의 부담을 덜고 취약계층을 보호하기 위해서는 신속한 사회적 거리두기가 이뤄져야합니다.
 ```
 
 
@@ -115,7 +108,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나-19
 결론은 현재 활용가능한 데이터에만 국한됩니다.
 <br><br>
 예를 들어, 하단 지도는 남반구에서 채취된 바이러스가 매우 적음을 보여줍니다.
-이는 그 지역에 코로나-19 유행이 없어서가 아니라 다른 지역보다 덜 중요해서가
+이는 그 지역에 코로나19 유행이 없어서가 아니라 다른 지역보다 덜 중요해서가
 아닙니다. 단지 그 지역에서 수집된 데이터가 부족하다는 것을 의미합니다. 지도
 상의 원의 크기는 그 지역에서 얻은 데이터의 양을 말할 뿐 실제 유행의 규모와는
 무관합니다.
@@ -203,7 +196,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나-19
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [배울점들](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+# [배울 점들](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - 바이러스는 세계 각국에 반복적으로 퍼졌습니다. 그 중 모든 경우가
   지역사회전파로 이어지지는 않았습니다.
 <br><br>
@@ -299,7 +292,9 @@ Only through the rapid sharing of genomic data and metadata are analyses such as
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 우리는 그들의 기여에 감사의 뜻을 전합니다.
+
+오른쪽에는 각 염기서열을 제공한 각각의 연구실들이 있습니다.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
