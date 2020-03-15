@@ -1,6 +1,6 @@
 ---
 title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 13일 상황 보고서.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
+authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford. (Translation: Hanbin, Kyeong Seok, Kyo Bin, Minkyu)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
@@ -24,8 +24,8 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 * [워싱턴주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=8).
 * [캘리포니아주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=9).
 * [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=10).
-* [자주 묻는 질문과 오해들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=11).
-* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=12).
+* [자주 묻는 질문과 잘못된 사실들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=11).
+* [과학적 기여자들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -240,7 +240,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [자주 묻는 질문과 오해들](https://nextstrain.org/ncov/2020-03-05)
+# [자주 묻는 질문과 잘못된 사실들](https://nextstrain.org/ncov/2020-03-05)
 
 #### 우리는 많은 분들이 코로나19에 대해 궁금해 한다는 것을 잘 알고 있습니다.
 
@@ -282,7 +282,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [기여자들](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [과학적 기여자들](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 이번 유행에 관련된 모든 과학자들, 특히 중국의 과학자들의 대단하고 신속한 작업에 감사를 표합니다. 유전체 정보 및 메타정보의 빠른 공유가 아니었다면 이 분석들은 불가능했을 것입니다.
 
@@ -296,7 +296,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+우리는 다음 실험실들이 제공한 데이터들에 대하여 감사의 말씀을 전합니다:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -424,19 +424,18 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [과학적 기여: 상세 내역](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+우측에 각 연구실이 기여한 구체적인 서열 정보가 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+SARS-CoV-2 유전체는 아래 연구실의 과학자들에 의해 제공되었습니다:
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
