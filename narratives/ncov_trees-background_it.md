@@ -74,9 +74,9 @@ Qui vediamo una immagine completa dellàalbero di trasmissione. In pratica, comu
 
 <!-- This is left-side text -->
 # [Come faccio a leggere un albero](https://nextstrain.org/ncov/2020-03-11)
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+<!--# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)-->
 
-In un albero, sull'asse delle x viene riportato il grado di differenza (in unità di tempo o di distanza genetica - ci arriveremo). L'asse y serve solo a allargare il disegno in modo che si possano vedere meglio i dettagli; non ha unità di misura. 
+In un albero, sull'asse delle x viene riportato il grado di differenza (in unità di tempo o di distanza genetica - ci arriveremo).  L'asse y serve solo a allargare il disegno in modo che si possano vedere meglio i dettagli; non ha unità di misura. 
 <!--The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.-->
 <br><br>
 Le foglie dell'albero rappresentano i campioni raccolti (per esempio i casi blu della slide precedente). I nodi interni rappresentano casi che non sono stati osservati, ma che si pensa siano l'antenato di tutti i casi che discendono da loro (per esempio i nodi rossi nella slide precedente). Queste relazioni vengono inferite usando la struttura delle mutazioni nei casi osservati. 
@@ -95,15 +95,24 @@ src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content
 In alto, sulla sinistra si mostra unàillustrazione con un albero filogenetico in cui le mutazioni sono indicate come cerchi colorati. Sulla destra vengono riportate le sequenze corrispondenti, con le mutazioni evidenziate nello stesso colore dei cerchi. Si vede chiaramente che le sequenze che condividono le stesse mutazioni stanno nello stesso gruppo. Quando le sequenze appaiono legate de una riga verticale, come A e B, significa che non ci sono differenze tra loro - queste sequenze sono identiche.
 <!--Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.-->
 <br><br>
+Quando una sequenza si trova da sola in fondo ad una lunga linea, come C o E, questo significa che ha mutazioni uniche che non sono state trovate in altre sequenze. Quanto più lunga la linea, più grande il numero di mutazioni.
+Anche A e B hanno mutazioni uniche (il cerchio verde) che non sono condivise da altre sequenze, ma sono identiche tra di loro
 <!--When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
 A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.-->
 <br><br>
+Basandoci su questo albero, concluderemmo che A e B sono strettamente relazionate tra di loro, cosià come D ed E. A e B sono piuà strettamente relazionate con C di quanto non lo siano D ed E.
 <!--Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.-->
 </p>
 
-### Further reading  
-* [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
-* [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
+<!--### Further reading-->
+Approfondimenti
+
+<!--* [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  -->
+* [Come leggere un albero filogenetico: guida di Arctic Network](https://artic.network/how-to-read-a-tree.html).
+
+<!--* [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).-->
+* [Come leggere un albero filogenetico: video di Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).
+
 
 </div>
 
