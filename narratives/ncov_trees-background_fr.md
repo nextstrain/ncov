@@ -193,7 +193,7 @@ Ainsi, bien que ces conclusions puissent être précieuses, elles doivent égale
 # [Comment la carte est reliée à l'arbre?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
 Ici, nous montrons l'arbre coloré par provenance de chaque échantillon (et provenance déduite pour chaque nœud interne).
-Si vous cliquez sur ["Explorer les données"] (https://nextstrain.org/ncov), vous pouvez voir une animation de la propagation déduite du virus au cours de l'épidémie.
+Si vous cliquez sur ["Explorer les données"](https://nextstrain.org/ncov), vous pouvez voir une animation de la propagation déduite du virus au cours de l'épidémie.
 
 
 <!-- ############ SLIDE BREAK ############# -->
