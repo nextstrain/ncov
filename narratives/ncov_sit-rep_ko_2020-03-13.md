@@ -171,7 +171,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [워싱턴 캘리포니아 주의 SARS-CoV-2 현황](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+# [워싱턴 주의 SARS-CoV-2 현황](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 
 워싱턴 주에는 서로 밀접하게 연관된 바이러스들이 큰 군집들이 발견됩니다.
 이로부터 워싱턴 주에는 상당한 수준의 지역사회전파가 이뤄지고 있음을 알 수
