@@ -18,7 +18,7 @@ abstract: "Этот документ обясняет как читать и и�
 * [Как цепи передачи соотносятся с филогенетическими деревьями](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [Как читать дерево](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [Как панель "разнообразия" соотносится с деревом](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
+* [Измерение различий на основании генетической дивергенции](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
 * [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
@@ -112,16 +112,14 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+# [Измерение различий на основании генетической дивергенции](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+Здесь представлена филогения первых 169</tag> штаммов SARS-CoV-2 (вируса вызывающего заболевание COVID-19), которые были выложены в общественный доступ. 
 <br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+На горизонтальной оси отмечена дивергенция, которая представляет количесво изменений (мутаций) в геноме, по отношению к корню дерева (т.е. начало вспышки). 
+У некоторых последовательностей может не быть ни одной мутации -- это означает что эти последовательности идентичны корню (центру) дерева. Другие вирусы имеют от одной до одиннадцати мутаций. 
 <br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+На данный момент, этот рисунок может не напоминать "дерево". Многие последовательности идентичны- они находятся вместе на одной вертикальной линии, как А и В (некоторые в левой части дерева). Другие- обладают уникальными или одинаковыми мутациями и поэтому сидят на линиях, или ветвях, протягивающихся вправо. 
+Вы можете видеть количество мутаций в каждой ветви, если наведете на нее указатель мыши.
 
 <!-- There is NO right-side text -->
 
