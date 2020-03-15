@@ -2,7 +2,7 @@
 title: Comment interpréter les arbres phylogénétiques
 authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA (Translation: Maxime Morin, Daniel Thédié)"
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA (Translation: Maxime Morin, Daniel Thédié, Etienne Simon-Loriere)"
 date: "13 Mars 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Ce document explique comment lire et interpréter les arbres phylogénétiques qui informent sur l'épidémiologie génomique. Ce site web est optimisé pour être affiché sur un ordinateur de bureau."
