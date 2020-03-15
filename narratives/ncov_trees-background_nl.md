@@ -1,8 +1,25 @@
 ---
 title: Hoe interpreteer je een fylogenetische boom
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Jisca Huisman, Roan van Scheppingen, Jana S. Huisman)"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+translators:
+  - Jisca Huisman
+  - Roan van Scheppingen
+	- Jana S. Huisman
+	- Rutger Vos
 date: "13 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die informatie over de genetische epidemidiologie bevat, leest en interpreteert. De website is geoptimaliseerd voor weergave in desktop browsers. "
@@ -14,16 +31,16 @@ abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die informatie ov
 
 <!-- This is left-side text -->
 # [Inhoud](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
-* [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background?n=1)?
-* [Hoe lees ik een boom](https://nextstrain.org/narratives/trees-background?n=2)?
-* [Hoe verhoudt het diversiteitspaneel zich tot de boom](https://nextstrain.org/narratives/trees-background?n=3)?  
-* [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background?n=4).
-* [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background?n=5).
-* [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background?n=6).
-* [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren](https://nextstrain.org/narratives/trees-background?n=7)?
-* [Hoe verhoudt de kaart zich tot de boom](https://nextstrain.org/narratives/trees-background?n=8)?
-* [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/narratives/trees-background?n=9).
-* [Over de dataset](https://nextstrain.org/narratives/trees-background?n=10).
+* [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background/nl?n=2)?
+* [Hoe lees ik een boom](https://nextstrain.org/narratives/trees-background/nl?n=3)?
+* [Hoe verhoudt het diversiteitspaneel zich tot de boom](https://nextstrain.org/narratives/trees-background/nl?n=4)?  
+* [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background/nl?n=5).
+* [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background/nl?n=6).
+* [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background/nl?n=7).
+* [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren](https://nextstrain.org/narratives/trees-background/nl?n=8)?
+* [Hoe verhoudt de kaart zich tot de boom](https://nextstrain.org/narratives/trees-background/nl?n=9)?
+* [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/narratives/trees-background/nl?n=10).
+* [Over de dataset](https://nextstrain.org/narratives/trees-background/nl?n=11).
 
 <!-- No right-side text -->
 
@@ -34,7 +51,7 @@ abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die informatie ov
 # [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
 Ziekteverwekkers verspreiden zich door snelle vermenigvuldiging in een gastheer, gevolgd door overdracht naar andere gastheren. Een epidemie kan alleen optreden als een infectie leidt tot meer dan één volgende infectie.
 <br> <br>
-Terwijl de ziekteverwekker zich vermenigvuldigt en verspreidt, moet zijn genoom vele malen gekopieerd worden en zullen willekeurige mutaties (kopieerfouten) zich ophopen in het genoom; dit is normaal. Dergelijke willekeurige mutaties bevatten informatie over de transmissieroutes en populatie dynamiek van de ziekteverwekker. Ze kunnen als sporen dienen, die helpen de verspreiding van de ziekteverwekker te volgen. 
+Terwijl de ziekteverwekker zich vermenigvuldigt en verspreidt, moet zijn genoom vele malen gekopieerd worden en zullen willekeurige mutaties (kopieerfouten) zich ophopen in het genoom; dit is normaal. Dergelijke willekeurige mutaties bevatten informatie over de transmissieroutes en populatie dynamiek van de ziekteverwekker. Ze kunnen als sporen dienen, die helpen de verspreiding van de ziekteverwekker te volgen.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -45,7 +62,7 @@ Terwijl de ziekteverwekker zich vermenigvuldigt en verspreidt, moet zijn genoom 
 </p>
 <p>
 De afbeelding hierboven toont een schets van een transmissie netwerk. Elke cirkel verbeeldt een geïnfecteerde persoon (een geval), waarbij de horizontale lijn naar rechts de duur van hun infectie aangeeft. Verbonden gevallen tonen overdracht van de ene persoon naar de andere.
-<br> 
+<br>
 <br>
 Hier zien we het volledige beeld van de transmissiestructuur. In de praktijk wordt echter slechts een subset van alle gevallen bemonsterd en gesequenced (blauw). De ware transmissiestructuur is dus onbekend en doorgaans zijn slechts ruwe schattingen van het aantal gevallen beschikbaar. Met genoomsequenties kunnen we delen van de transmissiestructuur afleiden. In dit voorbeeld zijn drie mutaties (kleine diamanten) op de boom aangegeven. Sequenties met dezelfde mutaties zijn nauwer verwant, dus met deze mutaties kunnen we monsters groeperen in clusters van nauw verwante virussen die tot dezelfde transmissieketen behoren.
 </p>
@@ -208,7 +225,7 @@ Er is echter altijd onzekerheid in deze schattingen. Over het algemeen zijn dele
 <!-- This is left-side text -->
 # [Wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Wij willen onze dank uitspreken voor het fantastische en tijdige werk dat is verricht door alle wetenschappers die bij deze uitbraak betrokken zijn, en met name door degenen die in China werkzaam zijn. 
+Wij willen onze dank uitspreken voor het fantastische en tijdige werk dat is verricht door alle wetenschappers die bij deze uitbraak betrokken zijn, en met name door degenen die in China werkzaam zijn.
 Alleen door het snel delen van genomische gegevens en metadata zijn dit soort analyses mogelijk.
 
 <br><br>
@@ -349,7 +366,7 @@ We zijn dankbaar voor de gegevens die door deze laboratoria zijn verzameld:
 <!-- This is left-side text -->
 # [Gedetailleerd wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Deze gegevens werden gedeeld via [GISAID](https://gisaid.org). 
+Deze gegevens werden gedeeld via [GISAID](https://gisaid.org).
 Wij zijn dankbaar voor hun bijdragen.
 
 <br><br>
