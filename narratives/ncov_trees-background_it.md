@@ -56,7 +56,8 @@ Quando il patogeno si replica e si diffonde, il suo genoma ha bisogno di essere 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+<!-- # An example -->
+# Un esempio
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
@@ -87,7 +88,8 @@ Le foglie dell'albero rappresentano i campioni raccolti (per esempio i casi blu 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+<!-- ## An example -->
+## Un esempio
 <div width="50%" margin="auto">
 <p>
 <!-- <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/> -->
@@ -226,7 +228,8 @@ L'interpretazione di queste inferenze comunque deve essere fatta con cautela dat
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+<!-- # An example -->
+# Un esempio
 <div width="50%" margin="auto">
 <p>
 <!-- <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/> -->
@@ -275,7 +278,8 @@ Abbiamo detto prima che i nodi interni rappresentano _ipotetici_ casi non identi
 Comunque c'è sempre un'incertezza in queste stime. In generale, le parti dell'albero in cui abbiamo più campioni sono più affidabili; le aree che contengono campioni più radi sono meno affidabili.
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+<!-- # An illustration -->
+Un'illustrazione
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
