@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e 
+set -e
 GISAID_SARSCOV2_IN=$1
 GISAID_SARSCOV2_OUT=$2
 MIN_LENGTH=$3
@@ -24,8 +24,8 @@ echo "Normalizing GISAID file $GISAID_SARSCOV2_IN to $GISAID_SARSCOV2_OUT (min l
 # Remove sequences shorter than minimum length
 # Eliminate duplicate sequences (keep only the first seen)
 
-#cat $GISAID_SARSCOV2_IN | 
-	sed 's/^>hCoV-19\//>/gi' $GISAID_SARSCOV2_IN |	# remove leading BetaCo[vV]
+#cat $GISAID_SARSCOV2_IN |
+	sed 's/^>hCoV-19\//>/g' $GISAID_SARSCOV2_IN |	# remove leading BetaCo[vV]
 	sed 's/ //g' |					# remove embedded spaces
 	sed 's/|.*$//' | 				# remove trailing metadata
 	awk "BEGIN{RS=\">\";FS=\"\n\"}length>$MIN_LENGTH{print \">\"\$0}" |	# remove short seqs
