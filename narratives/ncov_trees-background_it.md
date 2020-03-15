@@ -27,7 +27,7 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!--* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  -->
 * [Misurare le differenze nel tempo](https://nextstrain.org/narratives/trees-background?n=5).  
 <!--* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6) -->
-* [Datare l'inizio dell'epidemia](https://nextstrain.org/narratives/trees-background?n=6) 
+* [Datare l'inizio dell'epidemia](https://nextstrain.org/narratives/trees-background?n=6). 
 <!--* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  -->
 * [Come devo interperetare i tratti (colori) sull'albero](https://nextstrain.org/narratives/trees-background?n=7)?  
 <!--* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  -->
