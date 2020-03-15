@@ -267,7 +267,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * California Department of Public Health
 * Center of Medical Microbiology, Virology, and Hospital Hygiene
 * Center of Medical Microbiology, Virology, and Hospital Hygiene, University of Duesseldorf
-* 中国台湾疾病控制中心 (中国台湾)
+* Centers for Disease Control, R.O.C. (Taiwan)
 * Centre for Human and Zoonotic Virology (CHAZVY), College of Medicine University of Lagos/Lagos University Teaching Hospital (LUTH), part of the Laboratory Network of the Nigeria Centre for Disease Control (NCDC)
 * Centre for Infectious Diseases and Microbiology - Public Health
 * Centre for Infectious Diseases and Microbiology Laboratory Services
@@ -277,12 +277,12 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * Department of Infectious Diseases, Istituto Superiore di Sanita, Roma , Italy
 * Department of Infectious and Tropical Diseases, Bichat Claude Bernard Hospital, Paris
 * Department of Internal Medicine, Triemli Hospital
-* 国立台湾大学医院检验科
+* Department of Laboratory Medicine, National Taiwan University Hospital
 * Department of Microbiology, Institute for Viral Diseases, College of Medicine, Korea University
 * Department of Pathology, Toshima Hospital
 * Department of Virology III, National Institute of Infectious Diseases
 * Department of Virology and Immunology, University of Helsinki and Helsinki University Hospital, Huslab Finland
-* 安徽省疾病预防控制中心微生物检验科
+* Department of microbiology laboratory,Anhui Provincial Center for Disease Control and Prevention
 * Dept. of Pathology, National Institute of Infectious Diseases
 * Dept. of Virology III, National Institute of Infectious Diseases
 * Dienst Gezondheid & Jeugd Zuid-Holland Zuid
@@ -293,24 +293,24 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * ErasmusMC
 * Foundation Elisabeth-Tweesteden Ziekenhuis
 * Foundation Pamm
-* 福建省疾病预防控制中心
-* 中国人民解放军中央战区总医院
-* 广东省疾病预防控制中心；广东省公共卫生厅
-* 广东省疾病预防控制中心；广东省公共卫生厅
-* 广东省疾病预防控制中心；广东省公共卫生研究所
-* 广东省公共卫生厅, 广东省疾病预防控制中心
+* Fujian Center for Disease Control and Prevention
+* General Hospital of Central Theater Command of People's Liberation Army of China
+* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health
+* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health
+* Guangdong Provincial Center for Diseases Control and Prevention;Guangdong Provincial Institute of Public Health
+* Guangdong Provincial Institution of Public Health, Guangdong Provinical Center for Disease Control and Prevention
 * HUS Diagnostiikkakeskus, Hallinto
-* 杭州市疾病预防控制中心
-* 杭州市疾病预防控制中心微生物学实验室
+* Hangzhou Center for Disease Control and Prevention
+* Hangzhou Center for Disease and Control Microbiology Lab
 * Harborview Medical Center
-* 香港卫生署
+* Hong Kong Department of Health
 * Hospital Israelita Albert Einstein
 * IL Department of Public Health Chicago Laboratory
 * INMI Lazzaro Spallanzani IRCCS
 * Indian Council of Medical Research - National Institute of Virology
 * Indian Council of Medical Research-National Institute of Virology
-* 中国医学科学院、北京协和医学院病原生物学研究所
-* 中国疾控中心病毒病预防控制研究所
+* Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College
+* Institute of Viral Disease Control and Prevention, China CDC
 * Instituto Nacional de Enfermedades Respiratorias
 * KU Leuven, Clinical and Epidemiological Virology
 * Klinik Hirslanden Zurich
@@ -336,7 +336,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * National Centre for Infectious Diseases
 * National Influenza Center - National Institute of Hygiene and Epidemiology (NIHE)
 * National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal
-* 中国疾控中心国家病毒病预防控制研究所
+* National Institute for Viral Disease Control and Prevention, China CDC
 * National Public Health Laboratory
 * National Public Health Laboratory, National Centre for Infectious Diseases
 * Pathology Queensland
@@ -347,34 +347,34 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * Seattle Flu Study
 * Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology Randwick
 * Servicio Microbiologia. Hospital Clinico Universitario. Valencia.
-* 深圳市第三人民医院国家传染病临床研究中心深圳市病原与免疫重点实验室
+* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
 * Singapore General Hospital
 * Sorbonne Universite, Inserm et Assistance Publique-Hopitaux de Paris (Pitie Salpetriere)
 * State Health Office Baden-Wuerttemberg
-* 台湾疾病控制中心
+* Taiwan Centers for Disease Control
 * Texas Department of State Health Services
-* 武汉市中心医院
+* The Central Hospital Of Wuhan
 * The National Institute of Public Health Center for Epidemiology and Microbiology
-* 香港大学深圳医院
-* 天门市疾病预防控制中心
+* The University of Hong Kong - Shenzhen Hospital
+* Tianmen Center for Disease Control and Prevention
 * UCD National Virus Reference Laboratory
 * University of Washington Virology Lab
-* 华中科技大学同济医学院协和医院
+* Union Hospital of Tongji Medical College, Huazhong University of Science and Technology
 * Valley Medical Center
 * Virology Department, Sheffield Teaching Hospitals NHS Foundation Trust
 * Virology Unit, Institut Pasteur du Cambodge.
 * Wales Specialist Virology Centre
 * Washington State Department of Health
 * Washington State Public Health Lab
-* 潍坊市疾病预防控制中心
+* Weifang Center for Disease Control and Prevention
 * West of Scotland Specialist Virology Centre, NHSGGC
 * Wisconsin Department of Health Services
-* 武汉市第四医院
-* 武汉金银潭医院
-* 武汉肺科医院
-* 永川区疾病预防控制中心
-* 浙江省疾病预防控制中心
-* 忠县疾病预防控制中心
+* Wuhan Fourth Hospital
+* Wuhan Jinyintan Hospital
+* Wuhan Lung Hospital
+* Yongchuan District Center for Disease Control and Prevention
+* Zhejiang Provincial Center for Disease Control and Prevention
+* Zhongxian Center for Disease Control and Prevention
 
 ```
 
@@ -395,6 +395,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 ```auspiceMainDisplayMarkdown
 
 感谢下列实验室里科学家们慷慨分享SARS-CoV-2的基因组:
+The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
@@ -408,7 +409,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* Nonthaburi/61/2020
 	* Nonthaburi/74/2020
 
-* 北京微生物学与流行病学研究所
+* Beijing Institute of Microbiology and Epidemiology
 	* pangolin/Guangdong/P2S/2019
 	* pangolin/Guangxi/P1E/2017
 	* pangolin/Guangxi/P2V/2017
@@ -465,7 +466,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* Germany/NRW-09/2020
 	* Germany/NRW-10/2020
 
-* 台湾疾病控制中心(中国台湾)
+* Centers for Disease Control, R.O.C. (Taiwan)
 	* Taiwan/2/2020
 
 * Centre for Human and Zoonotic Virology (CHAZVY), College of Medicine University of Lagos/Lagos University Teaching Hospital (LUTH), part of the Laboratory Network of the Nigeria Centre for Disease Control (NCDC)
@@ -518,7 +519,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* Switzerland/1000477102/2020
 	* Switzerland/1000477377/2020
 
-* 国立台湾大学医院检验科
+* Department of Laboratory Medicine, National Taiwan University Hospital
 	* Taiwan/NTU01/2020
 	* Taiwan/NTU02/2020
 	* Taiwan/NTU03/2020
@@ -541,7 +542,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* Finland/FIN03032020B/2020
 	* Finland/FIN03032020C/2020
 
-* 安徽省疾病预防控制中心微生物检验科
+* Department of microbiology laboratory,Anhui Provincial Center for Disease Control and Prevention
 	* Anhui/SZ005/2020
 
 * Dept. of Pathology, National Institute of Infectious Diseases
@@ -668,17 +669,17 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * Foundation Pamm
 	* Netherlands/Berlicum_1363564/2020
 
-* 福建省疾病预防控制中心
+* Fujian Center for Disease Control and Prevention
 	* Fujian/13/2020
 	* Fujian/8/2020
 
-* 中国人民解放军中央战区总医院
+* General Hospital of Central Theater Command of People's Liberation Army of China
 	* Wuhan/WH01/2019
 	* Wuhan/WH02/2019
 	* Wuhan/WH03/2020
 	* Wuhan/WH04/2020
 
-* 广东省疾病预防控制中心；广东省公共卫生厅
+* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provincial Public Health
 	* Foshan/20SF207/2020
 	* Foshan/20SF210/2020
 	* Foshan/20SF211/2020
@@ -689,14 +690,14 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* Guangdong/20SF028/2020
 	* Guangdong/20SF040/2020
 
-* 广东省疾病预防控制中心；广东省公共卫生厅
+* Guangdong Provincial Center for Diseases Control and Prevention; Guangdong Provinical Public Health
 	* Guangdong/20SF174/2020
 	* Guangzhou/20SF206/2020
 
-* 广东省疾病预防控制中心；广东省公共卫生研究所
+* Guangdong Provincial Center for Diseases Control and Prevention;Guangdong Provincial Institute of Public Health
 	* Guangdong/20SF201/2020
 
-* 广东省公共卫生机构、广东省疾病预防控制中心
+* Guangdong Provincial Institution of Public Health, Guangdong Provinical Center for Disease Control and Prevention
 	* Guangdong/2020XN4239-P0034/2020
 	* Guangdong/2020XN4243-P0035/2020
 	* Guangdong/2020XN4273-P0036/2020
@@ -754,17 +755,17 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * HUS Diagnostiikkakeskus, Hallinto
 	* Finland/FIN-25/2020
 
-* 杭州市疾病预防控制中心
+* Hangzhou Center for Disease Control and Prevention
 	* Hangzhou/HZCDC0001/2020
 
-* 杭州市疾病预防控制中心微生物学实验室
+* Hangzhou Center for Disease and Control Microbiology Lab
 	* Hangzhou/HZ-1/2020
 
 * Harborview Medical Center
 	* USA/WA3-UW1/2020
 	* USA/WA9-UW6/2020
 
-* 香港卫生署
+* Hong Kong Department of Health
 	* HongKong/VB20024950/2020
 	* HongKong/VB20026565/2020
 	* HongKong/VM20001061/2020
@@ -800,14 +801,14 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * Indian Council of Medical Research-National Institute of Virology
 	* India/1-31/2020
 
-* 中国医学科学院、北京协和医学院病原生物学研究所
+* Institute of Pathogen Biology, Chinese Academy of Medical Sciences & Peking Union Medical College
 	* Wuhan/IPBCAMS-WH-01/2019
 	* Wuhan/IPBCAMS-WH-02/2019
 	* Wuhan/IPBCAMS-WH-03/2019
 	* Wuhan/IPBCAMS-WH-04/2019
 	* Wuhan/IPBCAMS-WH-05/2020
 
-* 中国疾控中心病毒病预防控制研究所
+* Institute of Viral Disease Control and Prevention, China CDC
 	* Wuhan/IVDC-HB-envF13-20/2020
 	* Wuhan/IVDC-HB-envF13-21/2020
 	* Wuhan/IVDC-HB-envF13/2020
@@ -816,7 +817,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * Instituto Nacional de Enfermedades Respiratorias
 	* Mexico/CDMX/InDRE_01/2020
 
-* 荆州市疾病预防控制中心
+* Jingzhou Center for Disease Control and Prevention
 	* Jingzhou/HBCDC-HB-01/2020
 
 * KU Leuven, Clinical and Epidemiological Virology
@@ -911,7 +912,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * National Influenza Centre, National Public Health Laboratory, Kathmandu, Nepal
 	* Nepal/61/2020
 
-* 中国疾控中心国家病毒病预防控制研究所
+* National Institute for Viral Disease Control and Prevention, China CDC
 	* Beijing/IVDC-BJ-005/2020
 	* Chongqing/IVDC-CQ-001/2020
 	* Henan/IVDC-HeN-002/2020
@@ -983,7 +984,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* USA/WA-S2/2020
 	* USA/WA-S3/2020
 
-* 安徽医科大学第二医院
+* Second Hospital of Anhui Medical University
 	* Hefei/2/2020
 
 * Serology, Virology and OTDS Laboratories (SAViD), NSW Health Pathology Randwick
@@ -993,12 +994,12 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* Spain/Valencia1/2020
 	* Spain/Valencia2/2020
 
-* 深圳市第三人民医院国家传染病临床研究中心深圳市病原与免疫重点实验室
+* Shenzhen Key Laboratory of Pathogen and Immunity, National Clinical Research Center for Infectious Disease, Shenzhen Third People's Hospital
 	* Shenzhen/SZTH-002/2020
 	* Shenzhen/SZTH-003/2020
 	* Shenzhen/SZTH-004/2020
 
-* 深圳市第三人民医院
+* Shenzhen Third People's Hospital
 	* Shenzhen/SZTH-001/2020
 
 * Singapore General Hospital
@@ -1012,30 +1013,30 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * Sorbonne Universite, Inserm et Assistance Publique-Hopitaux de Paris (Pitie Salpetriere)
 	* France/IDF0626/2020
 
-* 华南农业大学
+* South China Agricultural University
 	* pangolin/Guandong/1/2019
 
 * State Health Office Baden-Wuerttemberg
 	* Germany/Baden-Wuerttemberg-1/2020
 
-* 台湾疾病控制中心
+* Taiwan Centers for Disease Control
 	* Taiwan/3/2020
 	* Taiwan/4/2020
 
 * Texas Department of State Health Services
 	* USA/TX1/2020
 
-* 武汉市中心医院
+* The Central Hospital Of Wuhan
 	* Wuhan/HBCDC-HB-02/2020
 
 * The National Institute of Public Health Center for Epidemiology and Microbiology
 	* CzechRepublic/951/2020
 
-* 香港大学深圳医院
+* The University of Hong Kong - Shenzhen Hospital
 	* Shenzhen/HKU-SZ-002/2020
 	* Shenzhen/HKU-SZ-005/2020
 
-* 天门市疾病预防控制中心
+* Tianmen Center for Disease Control and Prevention
 	* Tianmen/HBCDC-HB-07/2020
 
 * UCD National Virus Reference Laboratory
@@ -1058,7 +1059,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* USA/WA17-UW13/2020
 	* USA/WA18-UW14/2020
 
-* 华中科技大学同济医学院协和医院
+* Union Hospital of Tongji Medical College, Huazhong University of Science and Technology
 	* Wuhan/HBCDC-HB-03/2020
 	* Wuhan/HBCDC-HB-04/2020
 
@@ -1093,7 +1094,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* USA/WA6-UW3/2020
 	* USA/WA7-UW4/2020
 
-* 潍坊市疾病预防控制中心
+* Weifang Center for Disease Control and Prevention
 	* China/WF0001/2020
 	* China/WF0002/2020
 	* China/WF0003/2020
@@ -1125,13 +1126,13 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * Wisconsin Department of Health Services
 	* USA/WI1/2020
 
-* 武汉市第四医院
+* Wuhan Fourth Hospital
 	* Wuhan/WH05/2020
 
-* 中国科学院武汉病毒研究所
+* Wuhan Institute of Virology, Chinese Academy of Sciences
 	* bat/Yunnan/RaTG13/2013
 
-* 武汉金银潭医院
+* Wuhan Jinyintan Hospital
 	* Wuhan/HBCDC-HB-01/2019
 	* Wuhan/HBCDC-HB-02/2019
 	* Wuhan/HBCDC-HB-03/2019
@@ -1142,17 +1143,17 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 	* Wuhan/WIV06/2019
 	* Wuhan/WIV07/2019
 
-* 武汉肺科医院
+* Wuhan Lung Hospital
 	* Wuhan/HBCDC-HB-06/2020
 
-* 永川区疾病预防控制中心
+* Yongchuan District Center for Disease Control and Prevention
 	* Chongqing/YC01/2020
 
-* 浙江省疾病预防控制中心
+* Zhejiang Provincial Center for Disease Control and Prevention
 	* Zhejiang/WZ-01/2020
 	* Zhejiang/WZ-02/2020
 
-* 忠县疾病预防控制中心
+* Zhongxian Center for Disease Control and Prevention
 	* Chongqing/ZX01/2020
 
 ```
