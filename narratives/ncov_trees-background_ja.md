@@ -202,10 +202,11 @@ Nextstarin で私たちが提示している系統樹は点推定です -- つ�
 
 <br><br>
 
-また、これらのデータをアップロードおよび共有できるプラットフォームを提供してくれた GISAID にも感謝します。
+また、これらのデータをアップロードおよび共有できるプラットフォームを提供してくれた [GISAID](https://gisaid.org) にも感謝します。
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
+
 ```auspiceMainDisplayMarkdown
 
 私たちはこれらの研修室によって集積されたデータに感謝します:
@@ -338,7 +339,7 @@ Nextstarin で私たちが提示している系統樹は点推定です -- つ�
 <!-- This is left-side text -->
 # [分析データの詳細](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-これらのデータは GISAID を介して共有されました。 彼らの貢献に感謝します。
+これらのデータは [GISAID](https://gisaid.org) を介して共有されました。 彼らの貢献に感謝します。
 
 <br><br>
 
