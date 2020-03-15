@@ -171,12 +171,23 @@ Ingrandendo la mappa, si può osservare come ci siano molte connesioni tra l'Ita
 <!-- There is no right side text -->
 
 
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
+<!-- # [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full) -->
+
+# [Trasmissione locale nelle Isole britanniche & Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+
+<!-- Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
+<br><br> -->
+Prendendo le Isole britanniche e l'Irlanda come esempio, osserviamo come in diversi casi la comparsa del virus nelle Isole britanniche e in Irlanda sia strettamente correlata a campioni di altri paesi. 
 <br><br>
-This is consistent with 4 or more introductions from other locations.
+
+<!-- This is consistent with 4 or more introductions from other locations.
+<br><br> -->
+Questo è consistente con 4 o più introduzioni del virus da altre località.
 <br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
+
+<!-- We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions. -->
+Abbiamo osservato anche casi in cui, dopo un ingresso del virus, ci siano diversi casi strettamente connessi tra loro nella stessa località. Questo è consistente con una trasmissione del virus a livello locale derivata da una o più di questi ingressi. 
+
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
