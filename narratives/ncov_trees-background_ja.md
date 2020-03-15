@@ -20,7 +20,7 @@ abstract: "ここでは、遺伝疫学における系統樹を理解するため
 * [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-background?n=3)   
 * [「遺伝的相違」を測定](https://nextstrain.org/narratives/trees-background?n=4).  
 * [経時的な差異の測定](https://nextstrain.org/narratives/trees-background?n=5).  
-* [感染の拡大が始まった日](https://nextstrain.org/narratives/trees-background?n=6).
+* [感染症集団発生日](https://nextstrain.org/narratives/trees-background?n=6).
 * [どのように系統樹の性質(色)を解釈すべきか](https://nextstrain.org/narratives/trees-background?n=7).
 * [地図は系統樹とどのように関係しているか](https://nextstrain.org/narratives/trees-background?n=8).
 * [発展的な資料: 系統樹の不確かさ](https://nextstrain.org/narratives/trees-background?n=9).  
@@ -122,7 +122,7 @@ x 軸としてサンプル取得日を使用することによって、どれだ
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [感染の拡大が始まった日](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [感染症集団発生日](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
 ゲノム学を使うと感染拡大が始まった日時を当てはめることもできます。私たちが拡大が起きたということ理解する以前の日時であっても可能です。
 系統樹の各サンプルと節に日付を当てはめていくので、系統樹の「根」の日時を推定するためにこれを使うことができます。
