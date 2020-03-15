@@ -22,9 +22,9 @@ abstract: "Этот документ обясняет как читать и и�
 * [Измерение различий на протяжении времени](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Датирование начала вспышки](https://nextstrain.org/narratives/trees-background?n=6).  
 * [Как интерпретировать черты (цвета) дерева](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [Как карта связана с деревом](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [Дополнительное чтение: неопределенность в деревьях](https://nextstrain.org/narratives/trees-background?n=9).  
+* [Благодарности](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
 
@@ -212,6 +212,7 @@ abstract: "Этот документ обясняет как читать и и�
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
+<br>
 Мы благодарны за данные, собранные следующими лабораториями:
 
 
