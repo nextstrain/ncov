@@ -100,7 +100,7 @@ Le foglie dell'albero rappresentano i campioni raccolti (per esempio i casi blu 
 In alto, sulla sinistra, un' illustrazione con un albero filogenetico in cui le mutazioni sono indicate come cerchi colorati. Sulla destra vengono riportate le sequenze corrispondenti, con le mutazioni evidenziate nello stesso colore dei cerchi. Si vede chiaramente che le sequenze che condividono le stesse mutazioni stanno nello stesso gruppo. Quando le sequenze appaiono legate de una riga verticale, come A e B, significa che non ci sono differenze tra loro - queste sequenze sono identiche.
 <br><br>
 <!--When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations. -->
-Quando una sequenza si trova da sola in fondo ad una lunga linea, come C o E, questo significa che ha mutazioni uniche che non sono state trovate in altre sequenze. Quanto più lunga la linea, più grande il numero di mutazioni.
+Quando una sequenza si trova da sola in fondo ad una lunga linea, come C o E, significa che ha mutazioni uniche che non sono state trovate in altre sequenze. Quanto più lunga la linea, più grande il numero di mutazioni.
 <!-- AL: significa che ha mutazioni uniche -->
 <!-- A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.-->
 Anche A e B hanno mutazioni uniche (il cerchio verde) che non sono condivise da altre sequenze, ma sono identiche tra di loro
