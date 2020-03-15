@@ -1,8 +1,29 @@
 ---
 title: Analisi genomica della diffusione del COVID-19. Aggiornamento al 13 marzo 2020.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (trad.it. Andrea Claudi, Alice Ledda, Alessia Lepore, Sara Pilia)"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Andrea Claudi
+  - Alice Ledda
+  - Alessia Lepore
+  - Sara Pilia
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "Questo report usa dati genomici pubblicamente condivisi per ricostruire la diffusione del COVID-19. Questi report sono aggiornati settimanalmente"
@@ -16,27 +37,27 @@ abstract: "Questo report usa dati genomici pubblicamente condivisi per ricostrui
 # [Indice dei contenuti](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 <!-- # [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)-->
 
-* [Risorse di base](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).
+* [Risorse di base](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=2).
 <!-- * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2). -->
-* [Una nota sulla raccolta dei campioni](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [Una nota sulla raccolta dei campioni](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=3).
 <!-- * [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3). -->
-* [Circolazione in Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).
+* [Circolazione in Europa](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=4).
 <!-- * [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).  -->
-* [Trasmissione locale in Regno Unito](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
+* [Trasmissione locale in Regno Unito](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=5).
 <!-- * [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5). -->
-* [Diffusione del virus SARS-CoV-2 dall'Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [Diffusione del virus SARS-CoV-2 dall'Iran](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=6).
 <!-- * [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6). -->
-* [Introduzioni negli Stati Uniti](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [Introduzioni negli Stati Uniti](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=7).
 <!-- *[Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7). -->
-* [Diffusione del virus SARS-CoV-2 nello Stato di Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [Diffusione del virus SARS-CoV-2 nello Stato di Washington](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=8).
 <!-- *[Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8). -->
-* [Diffusione del virus SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [Diffusione del virus SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=9).
 <!-- * [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9). -->
-* [Cosa puoi fare](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [Cosa puoi fare](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=10).
 <!-- * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10). -->
-* [FAQ & idee errate](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+* [FAQ & idee errate](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=11).
 <!-- * [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11). -->
-* [Ringraziamenti scientifici](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Ringraziamenti scientifici](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=12).
 <!-- * [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12). -->
 
 
@@ -108,7 +129,7 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustrazione di un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
  <!-- <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a> -->
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="disegno di un albero filogenetico" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a> 
+  <a href="https://nextstrain.org/narratives/trees-background"><img alt="disegno di un albero filogenetico" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
 <!-- ## Further Reading -->
@@ -118,7 +139,7 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
 * Informazioni generali sull'epidemia di SARS-CoV-2 su [Wikipedia](https://it.wikipedia.org/wiki/Pandemia_di_COVID-19_del_2019-2020).
 
 <!-- * Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html). -->
-* Materiale fornito dal Centro per il Controllo e la Prevenzione delle Malattie degli Stati Uniti[US CDC](https://www.cdc.gov/coronavirus/index.html) (in inglese).
+* Materiale fornito dal Centro per il Controllo e la Prevenzione delle Malattie degli Stati Uniti [US CDC](https://www.cdc.gov/coronavirus/index.html) (in inglese).
 
 
 <!-- ## Nextstrain narratives -->
