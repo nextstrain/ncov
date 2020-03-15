@@ -171,7 +171,7 @@ Ingrandendo la mappa, si può osservare che ci sono molte connessioni tra l'Ital
 # [Trasmissione locale nelle Isole britanniche e in Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 
 <!-- Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.-->
-Prendendo le Isole britanniche e l'Irlanda come esempio, osserviamo che in diversi casi la comparsa del virus in queste aree è strettamente correlata a campioni di altri Paesi.
+Prendendo le Isole britanniche e l'Irlanda come esempio, osserviamo diversi casi in cui compaiono nelle Isole Britanniche e in Irlanda virus molto simile a quelli presenti in altri paesi.
 <br><br>
 
 <!-- This is consistent with 4 or more introductions from other locations. -->
@@ -207,15 +207,15 @@ Qui possiamo osservare come il virus sia stato introdotto negli Stati Uniti in p
 <br><br>
 
 <!-- Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks. -->
-La maggior parte di queste introduzioni non sono associate con nessuno dei casi campionati negli Stati Uniti, perciò non siamo sicuri se queste introduzioni abbiano causato focolai locali.
+La maggior parte di queste introduzioni non sono associate con nessuno dei campioni raccolti negli Stati Uniti, perciò non siamo sicuri se queste introduzioni abbiano causato focolai locali.
 <!-- However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases. -->
 Tuttavia, dato che il numero di test effettuato in molte aree non è ancora alto, prevediamo l'esistenza di molti casi che non sono stati segnalati.
 <br><br>
 
 <!-- For Washington and California, though, we do see clusters of cases that are closely related. -->
-Nello Stato di Washington e in California, tuttavia, notiamo gruppi di casi strettamente correlati.
+Nello Stato di Washington e in California, tuttavia, notiamo gruppi di casi geneticamente molto simili.
 <!-- This suggests ongoing transmission and local spread within these two states. -->
-Ciò suggerisce che stia avvenendo la trasmissione e diffusione locale del virus all’interno di questi due Stati.
+Ciò suggerisce che ci sia un focolaio attivo e stia avvenendo diffusione locale del virus all’interno di questi due Stati.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -224,9 +224,9 @@ Ciò suggerisce che stia avvenendo la trasmissione e diffusione locale del virus
 # [Diffusione del virus SARS-CoV-2 nello Stato di Washington](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 
 <!-- Here, we see a large cluster of cases from Washington that are all closely related. -->
-Qui, osserviamo un grande gruppo di casi da Washington che sono tutti strettamente correlati.
+Qui, osserviamo un grande gruppo di casi da Washington che sono tutti molto simili geneticamente.
 <!-- From this, we conclude that there is extensive local spread within Washington state. -->
-Da ciò, concludiamo che esista una ampia diffusione locale del virus nello Stato di Washington.
+Da ciò, concludiamo che esista un grosso focolaio locale del virus nello Stato di Washington.
 <br><br>
 
 <!-- Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship. -->
@@ -241,13 +241,13 @@ Non è ancora chiaro se il virus si sia diffuso dalla nave da crociera a Washing
 # [Diffusione del virus SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 
 <!-- Looking at samples from California, we see evidence for multiple introductions. -->
-Osservando i campioni provenienti dalla California, notiamo prove di introduzioni multiple.
+Osservando i campioni provenienti dalla California, notiamo evidenze di introduzioni multiple.
 <!-- More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example). -->
-Ancora più importante, vediamo che almeno un gruppo di casi strettamente correlati sono stati tutti campionati in California durante un breve periodo di tempo (clicca su ['Esplora i dati'](https://nextstrain.org/ncov) and cerca 'CA9' per vedere un esempio).
+Ancora più importante, vediamo che almeno un gruppo di casi molto simili geneticamente in campioni rilevati in California durante un breve periodo di tempo (clicca su ['Esplora i dati'](https://nextstrain.org/ncov) and cerca 'CA9' per vedere un esempio).
 <br><br>
 
 <!-- This strongly suggests that there is ongoing local transmission within California. -->
-Questo suggerisce fortemente che in California sia in atto una trasmissione locale del virus.
+Questo suggerisce fortemente che in California sia attivo un focolaio locale del virus.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -255,7 +255,7 @@ Questo suggerisce fortemente che in California sia in atto una trasmissione loca
 <!-- # [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full) -->
 # [Cose utili da sapere](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 <!-- - The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission. -->
-- Il virus è stato introdotto in molte parti del mondo diverse volte. Non tutte le volte gli ingressi del virus hanno poi causato contagi a livello locale.
+- Il virus è stato introdotto in molte parti del mondo diverse volte. Non tutte le volte le introduzioni del virus hanno poi causato focolai locale.
 <br><br>
 
 <!-- - We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia. -->
