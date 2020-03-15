@@ -15,17 +15,17 @@ abstract: "Dieser Bericht basiert auf genetischen Daten um die Verbreitung von C
 <!-- This is left-side text -->
 # [Inhaltsverzeichnis](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=2).
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=4).
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=10).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=12).
+* [COVID-19 Ressourcen](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=2).
+* [Ein Wort über die Entnahme von Sequenzen](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=3).
+* [Verbreitung in Europa](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=4).
+* [Lokale Verbreitung im Vereinigten Königreich und Irland](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=5).
+* [Verteilung von SARS-CoV-2 von Iran](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=6).
+* [Einführung in die USA](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=7).
+* [Verbreitung von SARS-CoV-2 in Washington State](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=8).
+* [Verbreitung von SARS-CoV-2 in Kalifornien](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=9).
+* [Was Sie tun können](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=10).
+* [Weiterführende Informationen](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=11).
+* [Detailierte Herkunft der Daten](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -384,14 +384,14 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Detailierte Herkunft der Daten](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Diese Daten wurden über [GISAID](https://gisaid.org) geteilt.
+Wir sind sehr dankbar für ihre Beitrag.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+Auf der rechten Seite finden Sie eine detaillierte Auflistung der Sequenzen und ihrer Urheber.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
