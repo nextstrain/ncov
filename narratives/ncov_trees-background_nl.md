@@ -15,16 +15,16 @@ abstract: "Dit verhaal legt uit hoe je een fylogenetische boom, die genetische e
 <!-- This is left-side text -->
 # [Inhoud](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [Hoe lees ik een boom](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Hoe verhoudt het diversiteitspaneel zich tot de boom?](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background?n=5).  
-* [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren?](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [Hoe verhoudt de kaart zich tot de boom?](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/narratives/trees-background?n=9).  
-* [Over de dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background?n=1)
+* [Hoe lees ik een boom?](https://nextstrain.org/narratives/trees-background?n=2) 
+* [Hoe verhoudt het diversiteitspaneel zich tot de boom?](https://nextstrain.org/narratives/trees-background?n=3)   
+* [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background?n=4)
+* [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background?n=5)
+* [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background?n=6)
+* [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren?](https://nextstrain.org/narratives/trees-background?n=7) 
+* [Hoe verhoudt de kaart zich tot de boom?](https://nextstrain.org/narratives/trees-background?n=8) 
+* [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/narratives/trees-background?n=9)
+* [Over de dataset](https://nextstrain.org/narratives/trees-background?n=10)
 
 <!-- No right-side text -->
 
@@ -33,7 +33,7 @@ abstract: "Dit verhaal legt uit hoe je een fylogenetische boom, die genetische e
 
 <!-- This is left-side text -->
 # [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Ziekteverwekkers verspreiden zich door snelle vermenigvuldiging in één gastheer, gevolgd door overdracht naar een andere gastheer. Een epidemie kan alleen optreden als één infectie leidt tot meer dan één volgende infectie.
+Ziekteverwekkers verspreiden zich door snelle vermenigvuldiging in één gastheer, gevolgd door overdracht naar andere gastheren. Een epidemie kan alleen optreden als één infectie leidt tot meer dan één volgende infectie.
 <br> <br>
 Terwijl de ziekteverwekker zich vermenigvuldigt en verspreidt, moet zijn genoom vele malen gekopieerd worden en zullen willekeurige mutaties (kopieerfouten) zich ophopen in het genoom; dit is normaal. Dergelijke willekeurige mutaties kunnen helpen de verspreiding van de ziekteverwekker te volgen en meer te weten te komen over de transmissieroutes en dynamiek ervan.
 
@@ -61,7 +61,7 @@ Hier zien we het volledige beeld van de transmissiestructuur. In de praktijk wor
 
 De x-as van een boom vertegenwoordigt de mate van verschil (in tijd, of genetische divergentie - daar komen we zo op terug). De y-as helpt alleen om dingen uit te spreiden zodat we alles kunnen zien; het heeft geen meeteenheden.
 <br> <br>
-De toppen van de boom vertegenwoordigen voorbeelden (d.w.z. de blauwe punten van de vorige pagina). De interne knooppunten vertegenwoordigen gevallen die niet zijn bemonsterd, maar waarvan we denken dat ze de bron waren van alle gevallen die daarvan afstammen (d.w.z. de rode knooppunten van de vorige pagina). Deze relaties worden afgeleid door het analyseren van het patroon van mutaties dat is waargenomen in de bemonsterde gevallen.
+De uiteinden van de boom vertegenwoordigen monsters (d.w.z. de blauwe cirkels van de vorige pagina). De interne knooppunten vertegenwoordigen gevallen die niet zijn bemonsterd, maar waarvan we denken dat ze de bron waren van de gevallen die daarvan afstammen (d.w.z. de rode knooppunten van de vorige pagina). Deze relaties worden afgeleid door het analyseren van het patroon van mutaties dat is waargenomen in de bemonsterde gevallen.
 
 
 <!-- This is right-side text -->
@@ -94,7 +94,7 @@ Op basis van deze boom concluderen we dat A & B nauw verwant zijn aan elkaar, en
 <!-- This is left-side text -->
 # [Hoe verhoudt het diversiteitspaneel zich tot de boom?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Laten we eens kijken naar de eerste 169 </tag> stammen van SARS-CoV-2 (het virus dat COVID-19 veroorzaakt) die openbaar zijn gedeeld. Net als op de laatste pagina hebben we een uitlijning van deze virale sequenties gebouwd (je kunt zien hoe alle hier genoemde analyses zijn uitgevoerd [op GitHub] (https://github.com/nextstrain/ncov)).
+Laten we eens kijken naar de eerste 169 </tag> stammen van SARS-CoV-2 -- het virus dat COVID-19 veroorzaakt -- die openbaar zijn gedeeld. Net als op de laatste pagina hebben we een uitlijning van deze virale sequenties gebouwd (je kunt [op GitHub](https://github.com/nextstrain/ncov) zien hoe alle hier genoemde analyses zijn uitgevoerd).
 <br> <br>
 Hier tonen we de fylogenetische boom boven een staafdiagram met de variatie (d.w.z. mutaties) in het genoom.
 Zonder deze mutaties zouden we de boom niet kunnen bouwen, dus de twee horen bij elkaar.
@@ -115,8 +115,8 @@ Het zijn mutaties zoals deze die we gebruiken om de relaties tussen sequenties t
 # [Verschillen meten met genetische afstand](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
 Dit is een fylogenie van de eerste 169 </tag> monsters van SARS-CoV-2 (het virus dat COVID-19 veroorzaakt) die openbaar zijn gedeeld.
 <br> <br>
-Hier geeft de horizontale as divergentie aan, wat het aantal veranderingen (mutaties) in het genoom is, ten opzichte van de wortel van de boom (d.w.z. het begin van de uitbraak).
-Sommige sequenties hebben mogelijk geen mutaties, wat betekent dat ze allemaal identiek zijn aan de wortel (midden) van de boom.
+Hier geeft de horizontale as divergentie aan, het aantal  mutaties in het genoom ten opzichte van de wortel van de boom (d.w.z. het begin van de uitbraak).
+Sommige sequenties hebben mogelijk geen mutaties, wat betekent dat ze identiek zijn aan de wortel (links) van de boom.
 Andere monsters hebben tussen één en elf mutaties.
 <br> <br>
 Op dit moment lijkt dit misschien niet veel op een ‘boom’. Veel van de sequenties zijn identiek - ze zitten samen op verticale lijnen zoals A en B (sommige bevinden zich in het meest linkse deel van de boom).
@@ -128,10 +128,10 @@ Je kunt zien hoeveel mutaties een tak heeft door er met je muis over te bewegen.
 <!-- ############ SLIDE BREAK ############# -->
 
 # [Verschillen meten door de tijd](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We kunnen ook visualiseren hoe het virus zich in de tijd heeft verspreid door de bemonsteringsdatum als de x-as te gebruiken.
-Hier vertegenwoordigt de x-as de bemonsteringsdatum van elk virus. De posities van de toppen van de fylogenie geven de datum aan waarop die monsters zijn genomen. De datums van interne knooppunten -- de 'ontbrekende gevallen' -- worden afgeleid op basis van wanneer hun nakomelingen zijn bemonsterd en de snelheid waarmee het virus muteert.
+We kunnen ook visualiseren hoe het virus zich in de tijd heeft verspreid door te schalen op de bemonsteringsdatum.
+Hier vertegenwoordigt de x-as de bemonsteringsdatum van elk virus. De posities van de uiteinden van de fylogenie geven de datum aan waarop die monsters zijn genomen. De datums van interne knooppunten -- de 'ontbrekende gevallen' -- worden afgeleid op basis van wanneer hun nakomelingen zijn bemonsterd en de snelheid waarmee het virus muteert.
 <br> <br>
-Merk op hoeveel sequenties die voorheen in een lijn zaten (die identieke genomen aangeeft) nu in de tijd van elkaar verwijderd liggen.
+Merk op hoeveel sequenties die voorheen op een lijn zaten (die identieke genomen aangeeft) nu in de tijd van elkaar verwijderd liggen.
 Dit gebeurt wanneer de snelheid waarmee het virus muteert iets langzamer is dan de snelheid waarmee het wordt verspreid.
 Je kunt op en neer scrollen tussen deze en de vorige pagina om te zien hoe de boom verandert.
 
@@ -141,8 +141,8 @@ Je kunt op en neer scrollen tussen deze en de vorige pagina om te zien hoe de bo
 <!-- ############ SLIDE BREAK ############# -->
 
 # [De start van een uitbraak dateren](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We kunnen genomische data ook gebruiken om een datum toe te wijzen waarop een uitbraak is begonnen, zelfs als dit was voordat we ons realiseerden dat dit gebeurde.
-Omdat we aan elk monster en knooppunt in de boom een datum kunnen toewijzen, kunnen we dit gebruiken om de datum van de 'wortel' van de boom af te leiden. Dit vertegenwoordigt de "meest recente gemeenschappelijke voorouder" van alle SARS-CoV-2-sequenties die we tot nu toe hebben, ongeveer zoals uw grootouders de 'meest recente gemeenschappelijke voorouders' van jou en al jouw neven en nichten zijn.
+We kunnen genomische data ook gebruiken om de datum waarop de uitbraak is begonnen te reconstrueren, zelfs als dit was voordat we ons realiseerden dat dit gebeurde.
+Omdat we aan elk monster en knooppunt in de boom een datum kunnen toewijzen, kunnen we dit gebruiken om de datum van de 'wortel' van de boom af te leiden. Dit vertegenwoordigt de meest recente gemeenschappelijke voorouder van alle SARS-CoV-2-sequenties die we tot nu toe hebben, ongeveer zoals je grootouders de 'meest recente gemeenschappelijke voorouders' van jou en al jouw neven en nichten zijn.
 <br> <br>
 Als je met de muis over de meest linkse verticale lijn beweegt, kun je zien dat de afgeleide startdatum tussen half november en half december 2019 ligt voor deze specifieke uitbraak.
 
@@ -166,13 +166,13 @@ Het interpreteren hiervan moet echter met de nodige voorzichtigheid gebeuren, aa
 <img width="700px" alt="Afbeelding die laat zien hoe bemonstering de interpretatie van virale verspreiding kan beïnvloeden" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-Aan de linkerkant tonen we een volledig bemonsterde fylogenetische boom, met monsters van twee verschillende locaties aangegeven met oranje en blauw. Als we langs de boom omlaag gaan, zien we drie gevallen waarin de kleur (locatie) verandert van oranje naar blauw. Hieruit zouden we kunnen concluderen dat er drie verschillende introducties waren van de oranje locatie naar de blauwe locatie.
+Links tonen we een volledig bemonsterde fylogenetische boom, met monsters van twee verschillende locaties aangegeven met oranje en blauw. Als we langs de boom omlaag gaan, zien we drie gevallen waarin de kleur (locatie) verandert van oranje naar blauw. Hieruit zouden we kunnen concluderen dat er drie verschillende introducties waren van de oranje locatie naar de blauwe locatie.
 <br> <br>
 Maar deze interpretatie is gebaseerd op bemonstering: in de middelste boom hebben we één oranje monster verwijderd. We zien nu slechts één omschakeling van oranje naar blauw, wat suggereert dat er maar één introductie in blauw was die veel eerder plaatsvond.
 <br> <br>
-In het laatste voorbeeld hebben we maar één oranje genoom, wat ons zou kunnen doen denken dat er één introductie was van oranje naar blauw.
+In het laatste voorbeeld hebben we maar één oranje genoom, waardoor we reconstrueren dat er maar één introductie was van oranje naar blauw.
 <br> <br>
-Hoewel deze conclusies van onschatbare waarde kunnen zijn, moeten ze ook voorzichtig worden geïnterpreteerd.
+Hoewel fylogenetische conclusies van onschatbare waarde kunnen zijn, moeten ze dus ook voorzichtig worden geïnterpreteerd.
 </p>
 ```
 
@@ -181,8 +181,8 @@ Hoewel deze conclusies van onschatbare waarde kunnen zijn, moeten ze ook voorzic
 
 <!-- This is left-side text -->
 # [Hoe verhoudt de kaart zich tot de boom?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
-Hier tonen we de boom gekleurd aan de hand van de locatie van elk monster (en afgeleide locatie voor elk intern knooppunt).
-Als je op ['Explore the data'] (https://nextstrain.org/ncov) klikt, kun je een animatie afspelen van de afgeleide verspreiding van het virus in de loop van de uitbraak.
+Hier tonen we de boom gekleurd aan de hand van de locatie van elk monster en de gereconstrueerde locatie voor elk intern knooppunt.
+Als je op ['Explore the data'](https://nextstrain.org/ncov) klikt, kun je een animatie afspelen van de gereconstrueerde verspreiding van het virus in de loop van de uitbraak.
 
 
 
@@ -190,7 +190,7 @@ Als je op ['Explore the data'] (https://nextstrain.org/ncov) klikt, kun je een a
 
 <!-- This is left-side text -->
 # [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/ncov/2020-03-11)
-Eerder bespraken we hoe interne knooppunten _veronderstelde_ niet-bemonsterde gevallen vertegenwoordigen. In feite vertegenwoordigen alle bomen _veronderstellingen_ over hoe een ziekteverwekker in de loop van de tijd is geëvolueerd en verplaatst. De bomen die we presenteren op Nextstrain zijn puntschattingen -- dat wil zeggen, hypotheses van de geschiedenis die de kans op observatie van de gegevens die we hebben, maximaliseren.
+Eerder bespraken we hoe interne knooppunten _veronderstelde_, niet-bemonsterde gevallen vertegenwoordigen. In feite vertegenwoordigen alle bomen _veronderstellingen_ over hoe een ziekteverwekker in de loop van de tijd is geëvolueerd en verplaatst. De bomen die we presenteren op Nextstrain zijn 'puntschattingen', dat wil zeggen, veronderstelde geschiedenissen die zodanig zijn geconstrueerd dat ze de kans op het patroon van gegevens dat we hebben, maximaliseren.
 <br> <br>
 Er is echter altijd onzekerheid in deze schattingen. Over het algemeen zijn delen van de boom die dicht bemonsterd zijn zekerder; gebieden die spaarzaam bemonsterd zijn, zijn minder zeker.
 
