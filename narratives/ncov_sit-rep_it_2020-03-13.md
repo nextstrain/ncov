@@ -243,11 +243,18 @@ Non è ancora chiaro se il virus si sia diffuso dalla nave da crociera a Washing
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
+<!-- # [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed) -->
+# [Diffusione del SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+
+<!-- Looking at samples from California, we see evidence for multiple introductions.
+More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example). -->
+Osservando i campioni provenienti dalla California, notiamo evidenze di introduzioni multiple.
+Ancora più importante, vediamo come almeno un gruppo di casi strettamente correlati, siano tutti stati campionati in California durante un breve periodo di tempo.
+(clicca su ['Esplora i dati'](https://nextstrain.org/ncov) and cerca 'CA9' per vedere un esempio).
 <br><br>
-This strongly suggests that there is ongoing local transmission within California.
+
+<!-- This strongly suggests that there is ongoing local transmission within California. -->
+Questo suggerisce fortemente che in California sia in atto una trasmissione locale del virus. 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
