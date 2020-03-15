@@ -1,11 +1,11 @@
 ---
 title: How to interpret phylogenetic trees
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
+authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (Tomoyuki Nezu)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."
+abstract: "ここでは、遺伝疫学における系統樹を理解するための方法を説明します。 このWebサイトは、デスクトップブラウザーでの表示用に最適化されています。"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,12 +13,12 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [目次](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
+* [伝搬経路と系統樹との関係性](https://nextstrain.org/narratives/trees-background?n=1).  
+* [系統樹の読み方.](https://nextstrain.org/narratives/trees-background?n=2)  
+* [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-background?n=3)   
+* [遺伝的多様性の違いを測定](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
 * [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
@@ -32,22 +32,23 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
-<br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+# [伝搬経路と系統樹との関係性](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+病原体は、ある対象者での迅速な複製と、それに続く別の対象者への伝播によって広がります。 伝染病は、１度の感染で２度以上の感染が起こった場合にのみ発生します。(translator note: I translated host = 対象者, but sometimes it is not human. Is the ホスト good as it is?)
+<br><br>通常、病原体が複製および拡散するにつれて、そのゲノムを何度も複製する必要があり、ランダムな突然変異（コピーミス）がゲノムに蓄積します。 このようなランダムな変異は、病原体の広がりを追跡し、その伝播経路と動態を知るのに役立ちます。
 
 <!-- This is right-side text -->
+
 ```auspiceMainDisplayMarkdown
 # An example
 <div width="50%" margin="auto">
 <p>
-<img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
+<img width="500px" alt="伝搬経路と系統樹との関係性の図" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+上の図は、伝搬経路の模式図です。 各円はケース（感染者）を表し、水平線は感染期間を示します。接続されたケース(
+各円)は、ある人から次の人への送信を表します。
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+ここでは、伝搬経路の全体像を見ることができます。ただし、実際には、ケースの一部のみが採取されます（青丸）。伝搬経路は不明であり、通常、症例数の大まかな推定値のみが利用可能です。遺伝子配列により、伝搬経路の一部を推測できます。この例では、3つの突然変異（小さなひし形）がツリーに示されています。同じ変異を持つ配列はより密接に関連しているため、これらの変異により、サンプルを同じ伝搬経路に属する密接に関連するウイルスのクラスターにグループ化することができます。
 </p>
 </div>
 ```
@@ -56,29 +57,27 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [系統樹の読み方](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
-<br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+ツリーのx軸は、差異の程度を表します（時間または遺伝的相違です。これらは次で説明します）。描画されるべ系統図が増えれば、y軸方向に描画範囲が伸びていきます。測定単位はありません。
+<br><br>ツリーのヒント（Tips）はサンプル（１つ前のスライドの青丸）を表しています。 内部ノードは、採取されなかったケースを表しますが、それらの子孫のすべてのケースの派生元であると考えられます（つまり、１つ前のスライドの赤丸）。 これらの関係は、採取された症例で観察された突然変異のパターンを分析することにより推測されます。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## 系統樹の例
 <div width="50%" margin="auto">
 <p>
-<img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
+<img width="700px" alt="ケースのすべてまたは一部のみが最終系統に含まれる系統発生の例" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+上の図では、左側に系統樹があり、突然変異が色付きの円で示されています。右側には対応する遺伝子配列があり、突然変異も色付きの円で示されています。同じ変異を共有する遺伝子配列がグループ化されていることがわかります。遺伝子配列が A や B のように平らな垂直線でリンクされている場合、これはそれらの間に違いがないことを意味します。つまり遺伝子配列は同一です。
 <br><br>
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+シーケンスが C や E のようにそれ自体で長い行にある場合、これは他のシーケンスには見られない固有の突然変異があることを意味します。ラインが長いほど、突然変異が多くなります。A と B には、他の配列と共有されていない固有の突然変異（緑色の円）もありますが、それらは互いに同一です。
 <br><br>
-Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
+以上のことから、このツリーにおいて、A と B、そして D と E は互いに密接に関連していると結論付けられます。また、A と B は、D と C よりも C と密接に関連しています。
 </p>
 
-### Further reading  
+### 参考文献
 * [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
 * [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
@@ -90,36 +89,22 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [「多様性」パネルと系統樹の関係性](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
-<br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
-<br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
-<br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+公に共有されている SARS-CoV-2（COVID-19 を引き起こすウイルス）の最初の169</ tag>株を見てみましょう。前ページと同様に、これらのウイルス配列を並べました（ここで言及したすべての分析の手法を[GitHub]（https://github.com/nextstrain/ncov）で確認できます）。
+<br><br>ここでは、ゲノムの変化（つまり、変異）を示す棒グラフを系統樹の下に表示しています。突然変異が発生した際に系統樹にも変化が現れますので、この２つのグラフは密接に結びついています。
+<br><br>この「変化」パネルでは、水平軸はウイルスゲノムの各サイト（すべて3万程度）です。縦軸は、各サイトの変動性を示しています。(translator note: I do not known good translation of "site" in this context.)
+<br><br>これらの突然変異の1つ、この場合は遺伝子「ORF1b」の コドン314 に従ってツリーに色を付けました。この変異が機能的変異であると考える先験的な理由はありません（つまり、生物学的変化）。遺伝子配列間の関係を定義し、系統樹を構築するために使用するのは、まさにこのような突然変異です。(translator note: I translated it as "a priori = 先験的". Is there a more better translation for general people?)
 
 <!-- There is NO right-side text -->
-
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-<br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
-<br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+# [遺伝的多様性の違いを測定](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+これは、公に共有されているSARS-CoV-2（COVID-19を引き起こすウイルス）の最初の169個の</ tag>株の系統樹です。
+<br><br>ここで、横軸は発散を示します。発散とは、系統樹の根（つまり、発生の始まり）に対するゲノムの変化（突然変異）の数です。遺伝子配列によっては、突然変異がゼロの場合があります。つまり、それらはすべてツリーのルート（中心）と同一です。他のウイルスには1〜11個の変異があります。(translator note: Is 分岐 better than 発散 as a translation of divergence?)
+<br><br>現時点では、これは「ツリー」のようには見えません。遺伝子配列の多くは同一であり、先の例の A や B のように垂直線上に並んでいます（一部はツリーの左端にあります）。残りは独自の、または共有された突然変異を持っているため、系統樹の枝（右に行くライン）に位置しています。系統樹の枝の上にマウスを置くと、突然変異の数を確認できます。(translator note: please check the translation in this block.)
 
 <!-- There is NO right-side text -->
 
