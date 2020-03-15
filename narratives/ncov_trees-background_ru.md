@@ -174,8 +174,8 @@ abstract: "Этот документ обясняет как читать и и�
 <!-- This is left-side text -->
 # [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+Здесь представлено дерево, окрашенное согласно географическому местоположению каждого образца (и определенному теоретически местоположению внутренних узлов).
+Кликнув на ['Explore the data'](https://nextstrain.org/ncov), вы можете проиграть анимацию определенного теоретически распространения вируса в течение эпидемии.
 
 
 <!-- ############ SLIDE BREAK ############# -->
