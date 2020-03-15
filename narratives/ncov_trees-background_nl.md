@@ -79,7 +79,7 @@ A en B hebben een unieke mutatie (de groene cirkel) die niet wordt gedeeld door 
 Op basis van deze boom concluderen we dat A & B nauw verwant zijn, en D & E ook. A & B zijn nauwer verwant aan C dan aan D & E.
 </p>
 
-### Meer informatie
+### Meer informatie (in het Engels)
 * [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
 * [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
@@ -181,7 +181,7 @@ Hoewel fylogenetische conclusies van onschatbare waarde kunnen zijn, moeten ze d
 <!-- This is left-side text -->
 # [Hoe verhoudt de kaart zich tot de boom?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 Hier tonen we de boom gekleurd aan de hand van de locatie van elk monster en de gereconstrueerde locatie voor elk intern knooppunt.
-Als je op ['Explore the data'](https://nextstrain.org/ncov) klikt, kun je een animatie afspelen van de gereconstrueerde verspreiding van het virus in de loop van de uitbraak.
+Als je rechtsboven op ['Explore the data'](https://nextstrain.org/ncov) ('verken de data') klikt, kun je een animatie afspelen van de gereconstrueerde verspreiding van het virus in de loop van de uitbraak.
 
 
 
@@ -347,7 +347,7 @@ We zijn dankbaar voor de gegevens die door deze laboratoria zijn verzameld:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Gedetailleerde wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Gedetailleerd wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 Deze gegevens werden gedeeld via [GISAID](https://gisaid.org). 
 Wij zijn dankbaar voor hun bijdragen.
