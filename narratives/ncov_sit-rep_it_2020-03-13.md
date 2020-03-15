@@ -230,7 +230,7 @@ Da ciò, concludiamo che esista una ampia diffusione locale del virus nello Stat
 <br><br>
 
 <!-- Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship. -->
-È interessante notare che i campioni di Washington hanno caratteristiche che indicano una mescolanza tra questi e quelli della nave da crociera Grand Princess.
+È interessante notare che i campioni di Washington si mescolano nell'albero con quelli della nave da crociera Grand Princess.
 <!-- We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis. -->
 Non è ancora chiaro se il virus si sia diffuso dalla nave da crociera a Washington o viceversa; man mano che otteremo più dati, aggiorneremo la nostra analisi.
 
