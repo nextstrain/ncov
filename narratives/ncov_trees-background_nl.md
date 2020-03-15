@@ -17,7 +17,7 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 
 * [Hoe zijn transmissie netwerken gerelateerd aan fylogenetische bomen](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [Hoe lees ik een boom](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Hoe relateerd het "diversity" paneel met de boom](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Hoe relateerd het diversiteitspaneel met de boom](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Verschillen meten met genetische afstand](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Verschillen meten door de tijd](https://nextstrain.org/narratives/trees-background?n=5).  
 * [De start van een uitbraak dateren](https://nextstrain.org/narratives/trees-background?n=6)?  
@@ -92,19 +92,19 @@ Op basis van deze boom concluderen we dat A & B nauw verwant zijn aan elkaar, en
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [Hoe relateerd het diversiteitspaneel met de boom?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
-<br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
-<br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
-<br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+Laten we eens kijken naar de eerste 169 </tag> stammen van SARS-CoV-2 (het virus dat COVID-19 veroorzaakt) die openbaar zijn gedeeld. Net als op de laatste pagina hebben we een uitlijning van deze virale sequenties gebouwd (je kunt zien hoe alle hier genoemde analyses zijn uitgevoerd [op GitHub] (https://github.com/nextstrain/ncov)).
+<br> <br>
+Hier tonen we de fylogenetische boom boven een staafdiagram met de variatie (d.w.z. mutaties) in het genoom.
+Zonder deze mutaties zouden we de boom niet kunnen bouwen, dus de twee zijn nauw met elkaar verbonden.
+<br> <br>
+In dit "diversiteitspaneel" is de horizontale as elke locatie in het virale genoom (alle dertigduizend ofzo!).
+De verticale as geeft aan hoeveel variatie er is op elke locatie.
+<br> <br>
+We hebben de boom gekleurd volgens een van deze mutaties - in dit geval codon 314 in het gen "ORF1b".
+Er is a priori geen reden om aan te nemen dat deze mutatie een functionele mutatie is (d.w.z. het verlenen van enige biologische verandering).
+Het zijn juist mutaties zoals deze die we gebruiken om de relaties tussen sequenties te definiëren en de boom samen te stellen.
 
 <!-- There is NO right-side text -->
 
@@ -112,47 +112,51 @@ It is precisely mutations such as this which we use to define the relationships 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
-<br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
-<br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+# [Verschillen meten met genetische afstand](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+Dit is een fylogenie van de eerste 169 </tag> monsters van SARS-CoV-2 (het virus dat COVID-19 veroorzaakt) die openbaar zijn gedeeld.
+<br> <br>
+Hier geeft de horizontale as divergentie aan, wat het aantal veranderingen (mutaties) in het genoom is, ten opzichte van de wortel van de boom (d.w.z. het begin van de uitbraak).
+Sommige sequenties hebben mogelijk geen mutaties, wat betekent dat ze allemaal identiek zijn aan de wortel (midden) van de boom.
+Andere virussen hebben tussen één en elf mutaties.
+<br> <br>
+Op dit moment lijkt dit misschien niet veel op een ‘boom’. Veel van de sequenties zijn identiek - ze zitten samen op verticale lijnen zoals A en B (sommige bevinden zich in het meest linkse deel van de boom).
+Anderen hebben unieke of gedeelde mutaties en zitten dus op lijnen of ‘takken’ die naar rechts gaan.
+Je kunt zien hoeveel mutaties een branch heeft door er met je muis over te bewegen.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
-Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
-<br><br>
-Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
-This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
-<!-- There is NO right-side text -->
 
-
-<!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
-Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
-<br><br>
-If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+# [Verschillen meten door de tijd](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+We kunnen ook visualiseren hoe het virus zich in de tijd heeft verspreid door de bemonsteringsdatum als de x-as te gebruiken.
+Hier vertegenwoordigt de x-as de bemonsteringsdatum van elk virus. De posities van de tips geven de datum aan waarop die monsters zijn genomen. De datums van interne knooppunten -- de 'ontbrekende gevallen' -- worden afgeleid op basis van wanneer hun nakomelingen zijn bemonsterd en de snelheid waarmee het virus muteert.
+<br> <br>
+Merk op hoeveel sequenties die voorheen in een lijn zaten (die identieke genomen aangeeft) nu in de tijd uit elkaar zijn gespreid.
+Dit gebeurt wanneer de snelheid waarmee het virus muteert iets langzamer is dan de snelheid waarmee het wordt verspreid.
+Je kunt op en neer scrollen tussen deze en de vorige pagina om te zien hoe de boom verandert.
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
+
+# [De start van een uitbraak dateren](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+We kunnen genomics ook gebruiken om een datum toe te wijzen waarop een uitbraak is begonnen, zelfs als dit was voordat we ons realiseerden dat dit gebeurde.
+Omdat we aan elk monster en knooppunt in de boom datums kunnen toewijzen, kunnen we dit gebruiken om de datum van de 'wortel' van de boom af te leiden. Dit vertegenwoordigt de "meest recente gemeenschappelijke voorouder" van alle SARS-CoV-2-sequenties die we tot nu toe hebben. Zo zijn uw grootouders de 'meest recente gemeenschappelijke voorouders' van u en al uw neven en nichten.
+<br> <br>
+Als u met de muis over de meest linkse verticale lijn beweegt, kunt u zien dat de afgeleide startdatum tussen half november en half december 2019 ligt voor deze specifieke uitbraak.
+
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
-<br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+# [Hoe moet ik eigenschappen (kleuren) op de boom interpreteren?](https://nextstrain.org/ncov/2020-03-11)
+Fylogenetische bomen bevatten vaak aanvullende informatie, zoals de locatie van elke bemonstering. Hieruit kunnen we de locaties van interne knooppunten (veronderstelde tussenliggende, niet-bemonsterde gevallen) afleiden met behulp van wiskundige modellen. Dit kan ons helpen begrijpen hoe het virus van de ene naar de andere locatie beweegt.
+<br> <br>
+Het interpreteren hiervan moet echter met de nodige voorzichtigheid gebeuren, aangezien de steekproefname en sequencing of het ontbreken daarvan de interpretatie aanzienlijk kunnen beïnvloeden.
+
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -162,33 +166,34 @@ Interpreting these should, however, be done with caution, as the sampling and se
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
-<br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
-<br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
-<br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+Aan de linkerkant tonen we een volledig bemonsterde fylogenetische boom, met monsters van twee verschillende locaties aangegeven met oranje en blauw. Als we langs de boom omlaag gaan, zien we drie gevallen waarin de kleur (locatie) verandert van oranje naar blauw. Hieruit zouden we kunnen concluderen dat er drie verschillende introducties waren van de oranje locatie naar de blauwe locatie.
+<br> <br>
+Maar deze interpretatie is gebaseerd op bemonstering: in de middelste boom hebben we één oranje monster verwijderd. We zien nu slechts één omschakeling van oranje naar blauw, wat suggereert dat er maar één introductie in blauw was die veel eerder plaatsvond.
+<br> <br>
+In het laatste voorbeeld hebben we maar één genoom van oranje, wat ons zou kunnen doen denken dat er één introductie was van oranje naar blauw.
+<br> <br>
+Hoewel deze gevolgtrekkingen van onschatbare waarde kunnen zijn, moeten ze ook voorzichtig worden geïnterpreteerd.
 </p>
 ```
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
-
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
-<br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+# [Hoe relateerd de kaart met de boom?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+Hier tonen we de boom gekleurd aan de hand van de locatie van elk monster (en afgeleide locatie voor elk intern knooppunt).
+Als u op ['Explore the data'] (https://nextstrain.org/ncov) klikt, kunt u een animatie afspelen van de afgeleide verspreiding van het virus in de loop van de uitbraak.
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [Voor gevorderden: onzekerheid in bomen](https://nextstrain.org/ncov/2020-03-11)
+Eerder bespraken we hoe interne knooppunten _veronderstelde_ niet-bemonsterde gevallen vertegenwoordigen. In feite vertegenwoordigen alle bomen _veronderstelling_ over hoe een ziekteverwekker in de loop van de tijd is geëvolueerd en verplaatst. De bomen die we presenteren op Nextstrain zijn puntschattingen -- dat wil zeggen, de versie van deze geschiedenis die de kans op observatie van de gegevens die we hebben maximaliseert.
+<br> <br>
+Er is echter altijd onzekerheid in deze schattingen. Over het algemeen zijn delen van de boom die dicht bemonsterd zijn zekerder; gebieden die spaarzaam bemonsterd zijn, zijn minder zeker.
+
 
 ```auspiceMainDisplayMarkdown
 # An illustration
@@ -202,20 +207,20 @@ However, there is always uncertainty in these estimates. Generally speaking, par
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Wij willen onze dank uitspreken voor het fantastische en tijdige werk dat is verricht door alle wetenschappers die bij deze uitbraak betrokken zijn, en met name door degenen die in China werkzaam zijn. 
+Alleen door het snel delen van genomische gegevens en metadata zijn dit soort analyses mogelijk.
 
 <br><br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Wij zijn ook [GISAID](https://gisaid.org) dankbaar voor het leveren van het platform waarmee deze gegevens kunnen worden geüpload en gedeeld.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+We zijn dankbaar voor de gegevens die door deze laboratoria zijn verzameld:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -343,19 +348,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Gedetailleerde wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Deze gegevens werden gedeeld via [GISAID](https://gisaid.org). 
+Wij zijn dankbaar voor hun bijdragen.
 
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+Rechts geven we specifieke sequenties die door elk lab zijn gedeeld.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+De SARS-CoV-2 genomen werden ruimhartig gedeeld door de wetenschappers in deze inzendende laboratoria:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
