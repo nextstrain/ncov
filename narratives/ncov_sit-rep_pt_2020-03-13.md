@@ -191,9 +191,9 @@ O distanciamento social — isto é, diminuir o número de pessoas que você enc
 
 #### Sabemos que muitas pessoas têm dúvidas sobre o COVID-19.
 
-#### [Criamos um guia para tentar responder as perguntas mais frequentes:](https://nextstrain.org/help/coronavirus/FAQ).
+#### [Criamos um guia para tentar responder as perguntas mais frequentes (em Inglês):](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### A Federação de Cientistas Americanos também mantém [um ótimo meio para se consultar perguntas frequentes](https://covid19.fas.org/l/en).
+#### A Federação de Cientistas Americanos também mantém [um ótimo meio para se consultar perguntas frequentes (em Inglês)](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -210,7 +210,7 @@ O distanciamento social — isto é, diminuir o número de pessoas que você enc
 
 # Equívocos
 
-Vários conceitos errados estão em circulação acerca das origens do novo coronavírus. Durante surtos como este, a disseminação de informações claramente incorretas pode levar a mais pânico, e fazer com que as pessoas não confiem em cientistas e governos, o que significa que estarão menos propensos a seguir orientações e tomar as devidas precauções.
+Vários conceitos errados sobre as origens do novo coronavírus estão em circulação. Durante surtos como este, a disseminação de informações incorretas pode levar a mais pânico, e fazer com que as pessoas não confiem em cientistas e governos, o que significa que estarão menos propensos a seguir orientações, e tomar as devidas precauções.
 
 Num esforço conjunto para tentar explicar por que essas visões estão incorretas, cientistas abordaram essas teorias nas páginas abaixo (em Inglês):
 
@@ -218,11 +218,7 @@ Num esforço conjunto para tentar explicar por que essas visões estão incorret
 
   <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2 tem origem em "cobras"? (texto técnico) </a>
   <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> "A suposta engenharia do HIV" (Tópico no Twitter)</a>
-
-
 </div>
-
-
 ```
 
 
@@ -231,7 +227,7 @@ Num esforço conjunto para tentar explicar por que essas visões estão incorret
 <!-- This is left-side text -->
 # [Crédito científico](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Gostaríamos de reconhecer o trabalho incrível e oportuno realizado por todos os cientistas envolvidos nesse surto, sobretudo os que estão trabalhando na China. Somente com o compartilhamento rápido de dados genômicos e de metadados que tais análises foram possíveis.
+Gostaríamos de reconhecer o trabalho incrível e oportuno realizado por todos os cientistas envolvidos nesse surto, sobretudo os que estão trabalhando na China. Somente com o compartilhamento rápido de dados genômicos e de metadados é que tais análises foram possíveis.
 
 <br>
 
