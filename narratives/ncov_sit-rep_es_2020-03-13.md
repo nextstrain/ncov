@@ -152,7 +152,7 @@ Todavía no estamos seguros si la propagación del virus fue desde el crucero a 
 
 <!-- This is left-side text -->
 # [Propagación de SARS-CoV-2 en California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-LUsando las muestras aisladas en California, encontramos evidencia de múltiples introducciones del virus en el estado.
+Usando las muestras aisladas en California, encontramos evidencia de múltiples introducciones del virus en el estado.
 Importantemente, apreciamos al menos un grupo de casos genéticamente relacionados que fueron recolectados en California durante un corto periodo de tiempo  (haz click en ['Explora los datos'](https://nextstrain.org/ncov) y busca ‘CA9’ para ver un ejemplo).
 <br><br>
 Esto sugiere fuertemente que hay propagación continua y local del virus en California.
@@ -170,7 +170,7 @@ Esto sugiere fuertemente que hay propagación continua y local del virus en Cali
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do  
+# Qué se puede hacer  
 
 Distanciación social – es decir, disminuir el número de personas con cual te encuentras cada día – puede ser difícil, pero es increíblemente beneficioso para el público.  
  Si cada persona disminuye su número de contactos diarios por un 25%, esperamos apreciar una reducción del 50% en el número de casos acumulados en el próximo mes ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). ¿Confundido sobre la distanciación social [¡Revisa esta guía!](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
