@@ -164,7 +164,7 @@ Notably, sequences from many different countries intercalate, indicating that CO
 <br><br> -->
 Qui osserviamo un gran numero di sequenze dall'Europa.
 In particolare,le sequenze di molti paesi diversi si intercalano, indicando come COVID-19 stia già circolando piuttosto ampiamente in tutta Europa.
-<br><br> 
+<br><br>
 
 <!-- Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere). -->
 Ingrandendo la mappa, si può osservare come ci siano molte connesioni tra l'Italia ed altre aree; Tuttavia, è importante ricordare che la direzionalità di queste connessioni non si può sempre determinare sicuramente. Ci sono anche altre ipotesi che possono spiegare questi dati (ad esempio, se un caso non campionato ha infettato sia un caso secondario sequenziato in Italia che un caso secondario sequenziato altrove).
@@ -177,7 +177,7 @@ Ingrandendo la mappa, si può osservare come ci siano molte connesioni tra l'Ita
 
 <!-- Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
 <br><br> -->
-Prendendo le Isole britanniche e l'Irlanda come esempio, osserviamo come in diversi casi la comparsa del virus nelle Isole britanniche e in Irlanda sia strettamente correlata a campioni di altri paesi. 
+Prendendo le Isole britanniche e l'Irlanda come esempio, osserviamo come in diversi casi la comparsa del virus nelle Isole britanniche e in Irlanda sia strettamente correlata a campioni di altri paesi.
 <br><br>
 
 <!-- This is consistent with 4 or more introductions from other locations.
@@ -186,7 +186,7 @@ Questo è consistente con 4 o più introduzioni del virus da altre località.
 <br><br>
 
 <!-- We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions. -->
-Abbiamo osservato anche casi in cui, dopo un ingresso del virus, ci siano diversi casi strettamente connessi tra loro nella stessa località. Questo è consistente con una trasmissione del virus a livello locale derivata da una o più di questi ingressi. 
+Abbiamo osservato anche casi in cui, dopo un ingresso del virus, ci siano diversi casi strettamente connessi tra loro nella stessa località. Questo è consistente con una trasmissione del virus a livello locale derivata da una o più di questi ingressi.
 
 <!-- There is no right side text -->
 
@@ -196,7 +196,7 @@ Abbiamo osservato anche casi in cui, dopo un ingresso del virus, ci siano divers
 # [Diffusione del SARS-CoV-2 dall'Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
 
 <!-- A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places. -->
-Numerosi genomi sono stati sequenziati da pazienti che hanno riportato di aver viaggiato in Iran. Questi genomi sono tutti estremamente simili tra loro ed indicano che l'epidemia in Iran potrebbe essere il risultato di una singola trasmissione che è stata successivamente trasmessa in molte altre località. 
+Numerosi genomi sono stati sequenziati da pazienti che hanno riportato di aver viaggiato in Iran. Questi genomi sono tutti estremamente simili tra loro ed indicano che l'epidemia in Iran potrebbe essere il risultato di una singola trasmissione che è stata successivamente trasmessa in molte altre località.
 <br><br>
 
 <!-- Note that there are no full genomes available from patients in Iran. -->
@@ -215,12 +215,12 @@ Qui possiamo osservare come il virus sia stato introdotto negli Stati Uniti in m
 
 <!-- Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
 However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases. -->
-La maggiorparte di queste introduzioni non sono associate con nessuno dei casi campionati negli Stati Uniti, perciò non siamo sicuri se queste introduzioni abbiano portato a focolai locali. Tuttavia, dato che il numero di test effetuato non è ancora alta in molte aree, prevediamo che ci siano molti casi che non siano stati segnalati. 
+La maggiorparte di queste introduzioni non sono associate con nessuno dei casi campionati negli Stati Uniti, perciò non siamo sicuri se queste introduzioni abbiano portato a focolai locali. Tuttavia, dato che il numero di test effetuato non è ancora alta in molte aree, prevediamo che ci siano molti casi che non siano stati segnalati.
 <br><br>
 
 <!-- For Washington and California, though, we do see clusters of cases that are closely related.
 This suggests ongoing transmission and local spread within these two states. -->
-Nello stato di Washington e in California, tuttavia notiamo gruppi di casi strettamente correlati. 
+Nello stato di Washington e in California, tuttavia notiamo gruppi di casi strettamente correlati.
 Ciò suggerisce che stia avvenendo la trasmissione e diffusione locale del virus all’interno di questi due stati.
 <!-- There is no right side text -->
 
@@ -231,7 +231,7 @@ Ciò suggerisce che stia avvenendo la trasmissione e diffusione locale del virus
 
 <!-- Here, we see a large cluster of cases from Washington that are all closely related.
 From this, we conclude that there is extensive local spread within Washington state. -->
-Qui, osserviamo un grande gruppi di casi da Washington che sono tutti strettamente legati. 
+Qui, osserviamo un grande gruppi di casi da Washington che sono tutti strettamente legati.
 Da ciò, concludiamo la diffusione locale del virus sia ampia nello stato di Washington.
 <br><br>
 
@@ -254,7 +254,7 @@ Ancora più importante, vediamo come almeno un gruppo di casi strettamente corre
 <br><br>
 
 <!-- This strongly suggests that there is ongoing local transmission within California. -->
-Questo suggerisce fortemente che in California sia in atto una trasmissione locale del virus. 
+Questo suggerisce fortemente che in California sia in atto una trasmissione locale del virus.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -547,7 +547,7 @@ Sulla destra le sequenze specifiche condivise da ogni laboratorio.
 ```auspiceMainDisplayMarkdown
 
 <!--  The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs: -->
-I genomi del SARS-CoV-2 sono stati generosamente condivisi dagli scienziati di questi laboratori: 
+I genomi del SARS-CoV-2 sono stati generosamente condivisi dagli scienziati di questi laboratori:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
