@@ -1,11 +1,11 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
+title: Genomische Analyse der Verbreitung von COVID-19. Lagebericht 2020-03-13.
 authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Astrid Gall)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Dieser Bericht basiert auf genetischen Daten um die Verbreitung von COVID-19 zu beschreiben. Diese Berichte werden wöchentlich aktualisiert."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,7 +13,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [Inhaltsverzeichnis](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=2).
 * [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=3).
@@ -59,7 +59,7 @@ In diesem aktualisierten Bericht legen wir dar, dass
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
+# [COVID-19 Ressourcen](https://nextstrain.org/ncov/2020-03-05)
 Hier haben wir mehrere lesenswerte Resourcen (auf Englisch) zusammengestellt um sich mit COVID-19 (der Krankeit) und dem Virus, welche sie verursacht, SARS-CoV-2, bekannt zu machen.
 Diese Informationen werden es einfacher machen, die nachfolgenden Daten zu verstehen.
 
@@ -93,7 +93,7 @@ Diese Analysen wurden durch den schnellen und offenen Austausch von genomischen 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+# [Ein Wort über die Entnahme von Sequenzen](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
 Wir verfügen derzeit über Sequenzen, die in 30 Ländern auf 5 Kontinenten entnommen wurden. Dies ist eine beeindruckende Leistung - die Sequenzierung eines unbekannten, großen RNA-Virus inmitten einer Pandemie ist schwierig und nur durch die grossartige Arbeit und den rechtzeitigen Datenaustausch von Wissenschaftlern und Ärzten auf der ganzen Welt möglich.
 <br><br>
 Obwohl wir anhand dieser Daten viele nützliche Merkmale des Ausbruchs ableiten und seine Ausbreitung in Echtzeit verfolgen können, ist es wichtig zu betonen, dass unsere Schlussfolgerungen durch die verfügbaren Daten begrenzt sind.
@@ -105,7 +105,7 @@ So zeigt die Karte beispielsweise nur sehr wenige Sequenzen aus dem globalen Sü
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+# [Verbreitung in Europa](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 Hier sehen wir eine große Gruppe von Sequenzen aus Europa.
 Insbesondere sind Sequenzen aus vielen verschiedenen Ländern gut gemischt, was darauf hinweist, dass COVID-19 bereits weit in Europa verbreitet ist.
 <br><br>
@@ -114,7 +114,7 @@ Wenn wir die Karte vergrößern, sehen wir, dass es viele Verbindungen zwischen 
 <!-- There is no right side text -->
 
 
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+# [Lokale Verbreitung in Vereinigten Königreich und Irland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 Betrachtet man die Britischen Inseln & Irland als Beispiel, so können wir mehrere Fälle sehen, in denen Viren, die eng mit Proben aus anderen Ländern verwandt sind, auf den Britischen Inseln & Irland auftreten.
 <br><br>
 Dies ist kompatibel mit vier oder mehr Einführungen von anderen Orten.
@@ -124,7 +124,7 @@ Wir sehen auch Fälle, in denen es nach einer Einführung mehrere eng miteinande
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+# [Verteilung von SARS-CoV-2 von Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
 Eine Reihe von Genomen von Patienten, die über rezente Reisen in den Iran berichten, wurden sequenziert. Diese Genome sind alle sehr ähnlich und weisen darauf hin, dass der Ausbruch im Iran von einem grossen Cluster dominiert wird, der anschließend an viele andere Orte übertragen wurde.
 <br><br>
 Beachten Sie, dass vollständigen Genome von Viren direkt aus dem Iran verfügbar sind.
@@ -132,7 +132,7 @@ Beachten Sie, dass vollständigen Genome von Viren direkt aus dem Iran verfügba
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+# [Einführung in die USA](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
 Hier können wir sehen, dass das Virus bei mehreren unabhängigen Gelegenheiten in die USA eingeschleppt wurde.
 <br><br>
 Die meisten dieser Einschleppungen stehen in keinem Zusammenhang mit anderen sequenzierten Fällen aus den USA, so dass wir nicht sicher sind, ob diese Einschleppungen zu lokalen Ausbrüchen führten.
@@ -144,14 +144,14 @@ Dies deutet auf eine kontinuierliche Übertragung und lokale Verbreitung innerha
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+# [Verbreitung von SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 Hier sehen wir eine große Gruppe von Fällen aus Washington, die alle eng miteinander verwandt sind.
 Interessant ist, dass die Sequenzen aus Washington mit Sequenzen vom Kreuzfahrtschiff Grand Princess verwandt sind.
 Die Natur dieses Zusammenhangs ist noch nicht klar; sobald wir mehr Daten erhalten, werden wir unsere Analyse aktualisieren.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+# [Verbreitung von SARS-CoV-2 in Kalifornien](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 Wenn wir uns Proben aus Kalifornien ansehen, sehen wir Hinweise auf mehrfache Einführungen.
 Wichtiger ist, dass wir mindestens eine Gruppe eng miteinander verbundener Fälle sehen, die alle in Kalifornien über einen kurzen Zeitraum gesammelt wurden (klicken Sie auf ['Explore the Data'](https://nextstrain.org/ncov) und suchen Sie nach 'CA9', um ein Beispiel zu sehen).
 <br><br>
@@ -160,7 +160,7 @@ Dies deutet stark darauf hin, dass es lokale Übertragung innerhalb Kaliforniens
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+# [Wichtigste punkte](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - Das Virus wurde mehrfach in viele Teile der Welt eingeschleppt. Nicht alle Einführungen führen zu einer lokalen Übertragung.
 <br><br>
 - Wir sehen Hinweise für eine lokale Übertragung in ganz Europa, Teilen der Vereinigten Staaten, China und Südostasien.
