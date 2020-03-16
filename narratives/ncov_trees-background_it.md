@@ -1,8 +1,24 @@
 ---
 title: Come interpretare gli alberi filogenetici
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (traduttori: Alice Ledda, Alessia Lepore, Sara Pilia)"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+translators:
+  - Alice Ledda
+  - Alessia Lepore
+  - Sara Pilia
 date: "13 marzo 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Questo testo spiega come leggere e interpretare gli alberi filogenetici che caratterizzano l'epidemiologia genomica. Questo sito è ottimizzato per visualizzazione da browser desktop."
@@ -17,25 +33,25 @@ abstract: "Questo testo spiega come leggere e interpretare gli alberi filogeneti
 # [Indice](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
 <!-- * [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)? -->
-* [Qual è la relazione tra le reti di trasmissione e gli alberi filogenetici](https://nextstrain.org/narratives/trees-background?n=1)?
+* [Qual è la relazione tra le reti di trasmissione e gli alberi filogenetici](https://nextstrain.org/narratives/trees-background/it?n=2)?
 <!-- * [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  -->
-* [Come faccio a leggere un albero?](https://nextstrain.org/narratives/trees-background?n=2)?
+* [Come faccio a leggere un albero?](https://nextstrain.org/narratives/trees-background/it?n=3)?
 <!-- * [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?  -->
-* [Qual è la relazione tra il pannello "diversità" e l'albero?](https://nextstrain.org/narratives/trees-background?n=3)?
+* [Qual è la relazione tra il pannello "diversità" e l'albero?](https://nextstrain.org/narratives/trees-background/it?n=4)?
 <!-- * [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  -->
-* [Misurare le differenze usando le distanze genetiche](https://nextstrain.org/narratives/trees-background?n=4).
+* [Misurare le differenze usando le distanze genetiche](https://nextstrain.org/narratives/trees-background/it?n=5).
 <!-- * [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  -->
-* [Misurare le differenze nel tempo](https://nextstrain.org/narratives/trees-background?n=5).
+* [Misurare le differenze nel tempo](https://nextstrain.org/narratives/trees-background/it?n=6).
 <!-- * [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6) -->
-* [Datare l'inizio dell'epidemia](https://nextstrain.org/narratives/trees-background?n=6).
+* [Datare l'inizio dell'epidemia](https://nextstrain.org/narratives/trees-background/it?n=7).
 <!-- * [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  -->
-* [Come devo interpretare i tratti (colori) sull'albero](https://nextstrain.org/narratives/trees-background?n=7)?
+* [Come devo interpretare i tratti (colori) sull'albero](https://nextstrain.org/narratives/trees-background/it?n=8)?
 <!-- * [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  -->
-* [Che relazione c'è tra la cartina e l'albero](https://nextstrain.org/narratives/trees-background?n=8)?
+* [Che relazione c'è tra la cartina e l'albero](https://nextstrain.org/narratives/trees-background/it?n=9)?
 <!-- * [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  -->
-* [Approfondimenti: incertezze sull'albero](https://nextstrain.org/narratives/trees-background?n=9).
+* [Approfondimenti: incertezze sull'albero](https://nextstrain.org/narratives/trees-background/it?n=10).
 <!-- * [About the dataset](https://nextstrain.org/narratives/trees-background?n=10). -->
-* [Dettagli sul dataset](https://nextstrain.org/narratives/trees-background?n=10).
+* [Dettagli sul dataset](https://nextstrain.org/narratives/trees-background/it?n=11).
 
 
 <!-- No right-side text -->
@@ -284,7 +300,7 @@ Un'illustrazione
 <div width="50%" margin="auto">
 <p>
 <!-- <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/> -->
-<img width="700px" alt="Illustrazione dell'incertezza inerente alla ricostruzione dell'albero" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/> 
+<img width="700px" alt="Illustrazione dell'incertezza inerente alla ricostruzione dell'albero" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
 </p>
 </div>
 ```
