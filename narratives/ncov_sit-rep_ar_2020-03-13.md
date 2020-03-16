@@ -29,30 +29,30 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# الخلاصة الحصريةExecutive summary
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+قمنا هنا بإجراء تحليل 410 جينومات فيروسات كوفيد 19 تم مشاركتها للعموم. نستطيع من خلال مقارنة هذه الجينومات الفيروسية مع بعضها البعض تحديد آلية تطور الفيروس وانتقاله حول العالم
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+للحصول على نظرة على إعداد الإصابات بفيروس كورونا حول العالم انظر الى [عالمنا بالبيانات](https://ourworldindata.org/coronavirus).
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+نرى في هذا التقرير أن الفيروس يدور بشكل واسع في كل الكرة الأرضية مع بعض الدلائل على الانتقال المحلي في عدة قارات
+في هذا الوقت، نحن نحث على التركيز على الجهود من أجل إبطاء الانتشار داخل المجتمعات، حظر السفر لن يكون له تأثير كبير على الاغلب
 
-In this week's updates, we report:  
+ نقوم من خلال هذا التقرير توثيق ما يلي
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+* يدور كوفيد 19 بشكل واسع خلال اوروبا ،مع حركة ملحوظة بين الدول 
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* حددنا أربعة ادخالات على الأقل إلى المملكة المتحدة، بعضها ما زال يتنقل في المجتمع  
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* هناك عدد من الحالات المرتبطة بالسفر تربط ما بين إيران والعديد من أجزاء العالم  
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+*  هناك العديد من حالات الادخال للولايات المتحدة الأمريكية حتى الان،مؤدية الى سلاسل من الانتقال المحلي في العديد من الولايات  
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+* يستمر الوباء في النمو في ولاية واشنطن،بعض الحالات مرتبطة عن قرب بتلك الموجودة على سفينة الأميرة جراند السياحية
 
-* There is local circulation of COVID-19 in California.  
+* هناك دوران محلي ل كوفيد 19 في ولاية كاليفورنيا 
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+* يجب تفعيل إجراءات العزل الاجتماعي بسرعة لتخفيف الخطر عن المؤسسات الصحية وحماية من هم معرضون أكثر للإصابة
 ```
 
 
