@@ -33,7 +33,7 @@ abstract: "ここでは、遺伝疫学における系統樹を理解するため
 
 * [伝搬経路と系統樹との関係性](https://nextstrain.org/narratives/trees-background/ja?n=2).  
 * [系統樹の読み方.](https://nextstrain.org/narratives/trees-background/ja?n=3)  
-* [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-backgroun/ja?n=4)   
+* [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-background/ja?n=4)   
 * [「遺伝的相違」を測定](https://nextstrain.org/narratives/trees-background/ja?n=5).  
 * [経時的な差異の測定](https://nextstrain.org/narratives/trees-background/ja?n=6).  
 * [感染症集団発生日](https://nextstrain.org/narratives/trees-background/ja?n=7).

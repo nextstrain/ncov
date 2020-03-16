@@ -83,7 +83,7 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 
 <!-- This is left-side text -->
 # [COVID-19 に関する資料](https://nextstrain.org/ncov/2020-03-05)
-COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解するために、読む価値のあるリソースを用意しました。この情報は、このレポートで提示するデータの解釈を容易にします。系統樹に詳しくない場合は、[系統発生の読み方（英語）](https://nextstrain.org/narratives/trees-background/ja)の内容を確認した上で、次のページへ進めることを推薦します。
+COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解するために、読む価値のあるリソースを用意しました。この情報は、このレポートで提示するデータの解釈を容易にします。系統樹に詳しくない場合は、[系統発生の読み方](https://nextstrain.org/narratives/trees-background/ja)の内容を確認した上で、次のページへ進めることを推薦します。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
