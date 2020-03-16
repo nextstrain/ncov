@@ -56,6 +56,7 @@ location	Milan	45.474	9.177
 location	Munich	48.155742	11.549380
 location	Naarden	52.2953	5.1604
 location	Naarden	52.2953	5.1604
+location	Nassau County	40.7333	-73.58010
 location	Nieuwendijk	51.7774	4.8743
 location	Nootdorp	52.0440	4.3909
 location	Oisterwijk	51.568179	5.211873
@@ -68,6 +69,7 @@ location	Pingxiang	27.632413	113.892981
 location	Pontoise	49.049228	2.098595
 location	Qingdao	36.171557	120.398496
 location	Reims	49.253754	4.035860
+location	Rio de Janeiro	-22.89445	-43.2099
 location	Rome	41.881118	12.492817
 location	Rotterdam	51.9244	4.4777
 location	Rouen	49.4432	1.1000
@@ -150,6 +152,7 @@ division	Kansai	34.778675	135.880055
 division	Kanto	36.167777	139.170466
 division	Kathmandu	27.712907	85.323557
 division	Kerala	10.359825	76.399550
+division	Kinshasa	-4.2978	15.2962
 division	Kyoto	35.007542	135.768455
 division	Lagos	6.542520	3.286661
 division	Lapland	67.700017	26.273752
@@ -173,6 +176,7 @@ division	Osaka	34.648720	135.525013
 division	Overijssel	52.436273	6.463628
 division	Portugal	39.540460	-8.174701
 division	Queensland	-23.094025	144.192275
+division	Rio de Janeiro	-22.89445	-43.2099
 division	Santiago	-33.383304	-70.530623
 division	Sao Paulo	-23.598060	-46.660537
 division	Scotland	56.415858	-4.090641

@@ -80,6 +80,7 @@ location	Rovaniemi
 location	Jönköping
 location	Helsinki
 location	Sao Paulo
+location	Rio de Janeiro
 location	Mexico City
 location	King County
 location	Snohomish County
@@ -99,6 +100,8 @@ location	Chicago
 location	Illinois
 location	Wisconsin
 location	Boston
+location	Nassau County
+
 
 division	Hubei
 division	Beijing
@@ -176,9 +179,11 @@ division	Småland
 division	Helsinki
 division	Portugal
 division	Lagos
+division	Kinshasa
 division	Santiago
 division	Talca
 division	Sao Paulo
+division	Rio de Janeiro
 division	Mexico City
 division	Texas
 division	Arizona
@@ -220,6 +225,7 @@ country	Finland
 country	Sweden
 country	Portugal
 country	Nigeria
+country	Congo
 country	Chile
 country	Brazil
 country	Mexico
