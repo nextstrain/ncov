@@ -180,7 +180,7 @@ Per esempio, la cartina mostra molte poche sequenze dal sud del mondo. Questo NO
 <!-- Here, we see a large clade of sequences from Europe. -->
 Qui osserviamo un grane ramo che contiene sequenze provenienti dall'Europa.
 <!-- Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe. -->
-Eà interessante notare che le sequenze di molti Paesi diversi risultano mescolate, e ciò indica che il COVID-19 sta già circolando piuttosto ampiamente in tutta Europa.
+È interessante notare che le sequenze di molti Paesi diversi risultano mescolate, e ciò indica che il COVID-19 sta già circolando piuttosto ampiamente in tutta Europa.
 <br><br>
 
 <!-- Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere). -->
@@ -264,7 +264,7 @@ Non è ancora chiaro se il virus si sia diffuso dalla nave da crociera a Washing
 <!-- Looking at samples from California, we see evidence for multiple introductions. -->
 Osservando i campioni provenienti dalla California, osserviamo evidenze di introduzioni multiple.
 <!-- More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example). -->
-Ancora più importante, vediamo che almeno un gruppo di casi molto simili geneticamente in campioni rilevati in California durante un breve periodo di tempo (clicca su ['Esplora i dati'](https://nextstrain.org/ncov) and cerca 'CA9' per vedere un esempio).
+Ancora più importante, vediamo che almeno un gruppo di casi molto simili geneticamente in campioni rilevati in California durante un breve periodo di tempo (clicca su ['Esplora i dati'](https://nextstrain.org/ncov) e cerca 'CA9' per vedere un esempio).
 <br><br>
 
 <!-- This strongly suggests that there is ongoing local transmission within California. -->
