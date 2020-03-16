@@ -1,11 +1,11 @@
 ---
-title: How to interpret phylogenetic trees
+title: Como interpretar árvores filogenéticas
 authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."
+abstract: "Essa narrativa explica como ler e interpretar árvores genéticas que informam sobre epidemiologia genômica. Esse site é otimizado para visualização em navegadores de computadores."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,18 +13,18 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [Índice](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [Como redes de transmissão estão relacionadas com árvores filogenéticas?](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [Como ler uma árvore filogenética](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [Como o painel de "diversidade" se relaciona com a árvore](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Medindo diferenças com divergências genéticas](https://nextstrain.org/narratives/trees-background?n=4).  
+* [Medindo diferenças ao longo do tempo](https://nextstrain.org/narratives/trees-background?n=5).  
+* [Calculando a data de início de um surto](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [Como devo interpretar traços (cores) na árvore](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [Como o mapa se relaciona com a árvore](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [Leitura avançada: incerteza nas árvores](https://nextstrain.org/narratives/trees-background?n=9).  
+* [Sobre o conjunto de dados](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
 
@@ -79,7 +79,9 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 </p>
 
 ### Further reading  
-* [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
+* [
+
+read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
 * [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
 </div>
