@@ -89,19 +89,15 @@ Baseado nessa árvore, concluímos que A e B estão intimamente relacionados ent
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [Como o painel de "diversidade" se relaciona com a árvore?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+Vamos dar uma olhada nos primeiras 169 cepas de SARS-CoV-2 (vírus que causa COVID-19) que foram compartilhados publicamente. Assim como na página anterior, construímos um alinhamento dessas sequências virais (veja como fizemos essas análises [consultando nosso repositório no GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
+Aqui exibimos a árvore filogenética acima de um gráfico de barras que mostra a variação (ou seja, mutações) no genoma. Sem essas mutações, não poderíamos construir a árvore, então os dois estão intimamente conectados.
 <br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
+Nesse painel de "diversidade", o eixo horizontal representa cada local do genoma viral (todos os trinta mil ou mais!). O eixo vertical indica quanta variabilidade existe em cada local.
 <br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+Colorimos a árvore de acordo com uma dessas mutações — nesse caso, o códon 314 no gene "ORF1b". Não há uma razão a priori para pensar que esta mutação é uma mutação funcional (ou seja, conferindo qualquer alteração biológica). São precisamente mutações como essa que usamos para definir as relações entre sequências e construir a árvore.
 
 <!-- There is NO right-side text -->
 
@@ -109,32 +105,26 @@ It is precisely mutations such as this which we use to define the relationships 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+# [Medindo diferenças com divergências genéticas](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+Esta é uma filogenia das primeiras 169 cepas de SARS-CoV-2 (vírus que causa COVID-19) que foram compartilhadas publicamente.
 <br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+Aqui, o eixo horizontal indica divergência, que é o número de alterações (mutações) no genoma, em relação à raiz da árvore (isto é, o início do surto).
+Algumas sequências têm 0 mutações, o que significa que são todas idênticas até a raíz (base) da árvore. Outros vírus têm entre uma e onze mutações.
 <br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+No momento, isso pode não parecer muito com uma "árvore". Muitas das seqüências são idênticas - elas ficam juntas em linhas verticais como A e B (algumas estão na parte mais à esquerda da árvore). Outras têm mutações únicas ou compartilhadas e, portanto, estão em linhas, ou "ramificações" indo para a direita. Você pode ver quantas mutações uma ramificação possui passando o mouse sobre ela.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
-Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
+# [Medindo diferenças ao longo do tempo](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+Também podemos visualizar como o vírus se espalhou ao longo do tempo usando a data de amostragem como o eixo x. Aqui, o eixo x representa a data de amostragem de cada vírus. As posições dos pontos refletem a data em que essas amostras foram coletadas. As datas dos pontos internos — os "casos desconhecidos" — são inferidas com base na amostragem de seus descendentes e na medida na qual o vírus sofre mutação.
 <br><br>
-Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
-This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+Observe quantas seqüências que anteriormente estavam em uma linha (indicando genomas idênticos) agora estão separadas ao longo do tempo. Isso acontece quando a proporção na qual o vírus sofre mutação é um pouco mais lenta que a proporção na qual ele se espalha. Você pode rolar para cima e para baixo entre a página anterior e essa para ver como a árvore muda.
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [Calculando a data de início de um surto](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
 We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
 Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
