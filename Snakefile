@@ -57,7 +57,7 @@ rule filter:
     output:
         sequences = "results/filtered.fasta"
     params:
-        min_length = 15000,
+        min_length = 25000,
         group_by = "country",
         sequences_per_group = 500
     shell:
