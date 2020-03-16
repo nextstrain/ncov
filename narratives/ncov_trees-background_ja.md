@@ -31,16 +31,16 @@ abstract: "ここでは、遺伝疫学における系統樹を理解するため
 <!-- This is left-side text -->
 # [目次](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [伝搬経路と系統樹との関係性](https://nextstrain.org/narratives/trees-background?n=2).  
-* [系統樹の読み方.](https://nextstrain.org/narratives/trees-background?n=3)  
-* [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-background?n=4)   
-* [「遺伝的相違」を測定](https://nextstrain.org/narratives/trees-background?n=5).  
-* [経時的な差異の測定](https://nextstrain.org/narratives/trees-background?n=6).  
-* [感染症集団発生日](https://nextstrain.org/narratives/trees-background?n=7).
-* [どのように系統樹の性質(色)を解釈すべきか](https://nextstrain.org/narratives/trees-background?n=8).
-* [地図は系統樹とどのように関係しているか](https://nextstrain.org/narratives/trees-background?n=9).
-* [発展的な資料: 系統樹の不確かさ](https://nextstrain.org/narratives/trees-background?n=10).  
-* [データセットについて](https://nextstrain.org/narratives/trees-background?n=11).  
+* [伝搬経路と系統樹との関係性](https://nextstrain.org/narratives/trees-background/ja?n=2).  
+* [系統樹の読み方.](https://nextstrain.org/narratives/trees-background/ja?n=3)  
+* [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-backgroun/ja?n=4)   
+* [「遺伝的相違」を測定](https://nextstrain.org/narratives/trees-background/ja?n=5).  
+* [経時的な差異の測定](https://nextstrain.org/narratives/trees-background/ja?n=6).  
+* [感染症集団発生日](https://nextstrain.org/narratives/trees-background/ja?n=7).
+* [どのように系統樹の性質(色)を解釈すべきか](https://nextstrain.org/narratives/trees-background/ja?n=8).
+* [地図は系統樹とどのように関係しているか](https://nextstrain.org/narratives/trees-background/ja?n=9).
+* [発展的な資料: 系統樹の不確かさ](https://nextstrain.org/narratives/trees-background/ja?n=10).  
+* [データセットについて](https://nextstrain.org/narratives/trees-background/ja?n=11).  
 
 <!-- No right-side text -->
 
