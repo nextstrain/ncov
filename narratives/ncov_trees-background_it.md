@@ -35,7 +35,7 @@ abstract: "Questo testo spiega come leggere e interpretare gli alberi filogeneti
 <!-- * [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)? -->
 * [Qual è la relazione tra le reti di trasmissione e gli alberi filogenetici](https://nextstrain.org/narratives/trees-background/it?n=2)?
 <!-- * [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  -->
-* [Come faccio a leggere un albero?](https://nextstrain.org/narratives/trees-background/it?n=3)?
+* [Come faccio a leggere un albero](https://nextstrain.org/narratives/trees-background/it?n=3)?
 <!-- * [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?  -->
 * [Qual è la relazione tra il pannello "diversità" e l'albero](https://nextstrain.org/narratives/trees-background/it?n=4)?
 <!-- * [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  -->

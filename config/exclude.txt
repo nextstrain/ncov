@@ -60,6 +60,9 @@ Wuhan/IVDC-HB-envF54/2020
 Wuhan/WH02/2019
 Guangzhou/GZMU0016/2020
 
+# Excluding because seem to be too divergent - worth double checking
+Shandong/LY002/2020
+Shandong/LY001/2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
