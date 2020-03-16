@@ -35,7 +35,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 <!-- This is left-side text -->
 # [Πίνακας περιεχομένων](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=2).     
+* [Πηγές](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=2).     
 * [Μια σημείωση σχετικά με τη δειγματοληψία](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=3).
 * [Κυκλοφορία στην Ευρώπη](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=4).   
 * [Τοπική μετάδοση στο Ηνωμένο Βασίλειο](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=5).
@@ -175,7 +175,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 <!-- This is left-side text -->
 # [Διάδοση του SARS-CoV-2 στην Καλιφόρνια](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 Κοιτώντας δείγματα από την Καλιφόρνια, βλέπουμε στοιχεία για πολλαπλές εισαγωγές.
-Το πιο σημαντικό είναι ότι βλέπουμε τουλάχιστον μία δέσμη στενά συσχετιζόμενων περιπτώσεων, όλες οι οποίες έχουν δειχθεί στην Καλιφόρνια σε σύντομο χρονικό διάστημα (κάντε κλικ στο ['Εξερευνήστε τα δεδομένα'] (https://nextstrain.org/ncov) και αναζητήστε 'CA9' για παράδειγμα).
+Το πιο σημαντικό είναι ότι βλέπουμε τουλάχιστον μία δέσμη στενά συσχετιζόμενων περιπτώσεων, οι οποίες έχουν εμφανιστεί στην Καλιφόρνια σε σύντομο χρονικό διάστημα (κάντε κλικ στο [Εξερευνήστε τα δεδομένα](https://nextstrain.org/ncov) και αναζητήστε 'CA9' για παράδειγμα).
 <br> <br>
 Αυτό δείχνει έντονα ότι υπάρχει συνεχής τοπική μετάδοση στην Καλιφόρνια.
 <!-- There is NO right-side text -->
@@ -195,7 +195,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 # Τι μπορείς να κάνεις
 
 Η κοινωνική απομάκρυνση - δηλαδή, μείωση του αριθμού των ατόμων που συναντάτε κάθε μέρα - μπορεί να είναι δύσκολη υπόθεση, αλλά είναι εξαιρετικά επωφελής για το δημόσιο καλό.
-  Αν ο καθένας μείωσε τις καθημερινές επαφές κατά 25%, αναμένεται μείωση κατά 50% του σωρευτικού αριθμού των περιπτώσεων τον επόμενο μήνα ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Δεν είστε σίγουροι τι σημαίνει κοινωνική απομάκρυνση; [Ανατρέξτε σε αυτόν τον χρήσιμο οδηγό](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+  Αν ο καθένας μείωσε τις καθημερινές επαφές κατά 25%, αναμένεται μείωση κατά 50% του σωρευτικού αριθμού των περιπτώσεων τον επόμενο μήνα ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Δεν είστε σίγουροι τι σημαίνει κοινωνική απομάκρυνση;([Ανατρέξτε σε αυτόν τον χρήσιμο οδηγό](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -230,11 +230,11 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 ```auspiceMainDisplayMarkdown
 # Περαιτέρω ανάγνωση
 
-* "Μην πιστεύετε στις θεωρίες συνωμοσίας που ακούτε για τον κοροναϊό και τον ιό HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "Μην πιστεύετε στις θεωρίες συνωμοσίας που ακούτε για τον κοροναϊό και τον ιό HIV" [άρθρο](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Αβάσιμες Θεωρίες Συνωμοσίας Απαίτηση Νέου Κοροναϊού Βιοενεργοποιήθηκε" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "Αβάσιμες Θεωρίες Συνωμοσίας Απαίτηση Νέου Κοροναϊού Βιοενεργοποιήθηκε" [άρθρο](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "Όχι, ο κορωναϊός Wuhan δεν ήταν γενετικά σχεδιασμένος για να βάλει κομμάτια του HIV σε αυτό" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "Όχι, ο κορωναϊός Wuhan δεν ήταν γενετικά σχεδιασμένος για να βάλει κομμάτια του HIV σε αυτό" [άρθρο](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
 * "Μύθοι κοροναϊών που καταρίπτονται" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
@@ -261,11 +261,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-<<<<<<< HEAD
 # [Επιστημονική αναγνώριση](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
-=======
-# [Επιστημονική πίστωση](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
->>>>>>> 8a106d927b4534db0961b7ba9a7e304763f4a490
 
 Θα θέλαμε να αναγνωρίσουμε την εκπληκτική και έγκαιρη δουλειά όλων των επιστημόνων που εμπλέκονται σε αυτό το ξέσπασμα και ιδιαίτερα εκείνων που εργάζονται στην Κίνα.
 Μόνο μέσω της ταχείας ανταλλαγής γονιδιωματικών δεδομένων και μεταδεδομένων είναι δυνατές αναλύσεις όπως αυτές.
