@@ -25,7 +25,7 @@ translators:
   - Mohammad Hossein Rimaz
 date: "سیزده مارس ۲۰۲۰"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "این گزارش از داده‌های کووید-۱۹ که در اختیار عموم گذاشته‌شده استفاده می‌کند. این گزارش‌ها هر هفته بروز رسانی می‌باشد"
+abstract: "این گزارش از داده‌های کووید-۱۹ که در اختیار عموم گذاشته‌شده استفاده می‌کند. این گزارش‌ها هر هفته بروز رسانی می‌شود"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
