@@ -37,7 +37,7 @@ abstract: "Questo testo spiega come leggere e interpretare gli alberi filogeneti
 <!-- * [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  -->
 * [Come faccio a leggere un albero?](https://nextstrain.org/narratives/trees-background/it?n=3)?
 <!-- * [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?  -->
-* [Qual è la relazione tra il pannello "diversità" e l'albero?](https://nextstrain.org/narratives/trees-background/it?n=4)?
+* [Qual è la relazione tra il pannello "diversità" e l'albero](https://nextstrain.org/narratives/trees-background/it?n=4)?
 <!-- * [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  -->
 * [Misurare le differenze usando le distanze genetiche](https://nextstrain.org/narratives/trees-background/it?n=5).
 <!-- * [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  -->

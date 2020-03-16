@@ -113,13 +113,13 @@ Nell'aggiornamento di questa settimana:
 Di seguito elenchiamo alcune letture utili per familiarizzare con i concetti generali relativi al COVID-19 e al virus che ne è la causa, il SARS-CoV-2.
 
 <!-- This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready. -->
-Queste informazioni renderanno più semplice interpretare i dati che presenteremo più avanti; se non conosci gli alberi filogenetici, ti consigliamo di leggere ['Come leggere la filogenetica'](https://nextstrain.org/narratives/trees-background) e di continuare a leggere il resto più tardi.
+Queste informazioni renderanno più semplice interpretare i dati che presenteremo più avanti; se non conosci gli alberi filogenetici, ti consigliamo di leggere ['Come leggere la filogenetica'](https://nextstrain.org/narratives/trees-background/it) e di continuare a leggere il resto più tardi.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 <!-- ## Background -->
-## Informazioni di base (in inglese)
+## Informazioni di base
 
 <div>
  <!-- <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a> -->
@@ -129,7 +129,7 @@ Queste informazioni renderanno più semplice interpretare i dati che presenterem
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustrazione di un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
  <!-- <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a> -->
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="disegno di un albero filogenetico" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/it"><img alt="disegno di un albero filogenetico" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Come leggere la filogenetica </a>
 </div>
 
 <!-- ## Further Reading -->
