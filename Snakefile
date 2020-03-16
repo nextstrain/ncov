@@ -86,12 +86,10 @@ rule align:
         alignment = "results/aligned.fasta"
     shell:
         """
-        augur align \
-            --sequences {input.sequences} \
-            --reference-sequence {input.reference} \
-            --output {output.alignment} \
-            --nthreads auto \
-            --remove-reference
+        python3 scripts/align_pairwise.py \
+                --sequences {input.sequences} \
+                --reference {input.reference} \
+                --output {output.alignment}
         """
 
 rule mask:
