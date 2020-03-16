@@ -22,10 +22,10 @@ affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA
 translators:
   - Mahan Ghafari
   - Alireza Zamani Dahaj
-  - Hossein Rimaz
+  - Mohammad Hossein Rimaz
 date: "سیزده مارس ۲۰۲۰"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "این گزارش از داده های کوید-۱۹ که در اختیار عموم گذاشته شده استفاده میکند. این گزارش ها هر هفته بروز رسانی میشود"
+abstract: "این گزارش از داده‌های کووید-۱۹ که در اختیار عموم گذاشته‌شده استفاده می‌کند. این گزارش‌ها هر هفته بروز رسانی می‌باشد"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -35,26 +35,26 @@ abstract: "این گزارش از داده های کوید-۱۹ که در اخت
 <!-- This is left-side text -->
 # [فهرست مطالب](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [منابع پیش زمینه](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=2).   
-* [یادداشتی در مورد نمونه گیری](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=3).
+* [منابع پیش‌زمینه](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=2).   
+* [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=3).
 * [چرخش در اروپا](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=4).  
 * [شیوع محلی در بریتانیا](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=5).
 * [شیوع سارس-کووید-۲ از ایران](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=6).
 * [ورود به ایالات متحده](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=7).
 * [شیوع سارس-کووید-۲ در ایالت واشنتگتن](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=8).
 * [شیوع سارس-کووید-۲ در کالیفرنیا](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=9).
-* [کارهایی که شما میتوانید انجام دهید](https://nextstrain.org/narratives/ncov/fa/sit-rep/2020-03-13?n=10).
+* [کارهایی که شما می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/fa/sit-rep/2020-03-13?n=10).
 * [سوالات متداول و تصورات غلط](https://nextstrain.org/narratives/ncov/fa/sit-rep/2020-03-13?n=11).
 * [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # شرح اجرایی
-در اینجا، ما ۴۱۰ داده ژنتیکی کووید-۱۹ را که به اشتراک عموم گذاشته شده بررسی میکنم.
+در این‌جا، ما ۴۱۰ داده ژنتیکی کووید-۱۹ را که به اشتراک عموم گذاشته‌شده بررسی می‌کنیم.
 برای مشاهده تعداد موارد ویروس کورونا در حال حاضر در سراسر جهان، به سایت مقابل نگاه کنید
 [Our World In Data](https://ourworldindata.org/coronavirus).
 
-در این گزارش، ما نشان می دهیم که این ویروس به طور گسترده ای در سراسر جهان در حال گردش است و شواهدی از انتقال محلی آن در قاره های مختلف وجود دارد
+در این گزارش، ما نشان می‌دهیم که این ویروس به طور گسترده ای در سراسر جهان در حال گردش است و شواهدی از انتقال محلی آن در قاره های مختلف وجود دارد
 در این زمان، ما تآکید بر تمرکز برای کاهش سرعت پخش بیماری در اجتماعات داریم؛ ممنوعیت های مسافرتی در این راستا کمتر موثر است
 
 :در به روزرسانی این هفته، ما گزارش می کنیم
