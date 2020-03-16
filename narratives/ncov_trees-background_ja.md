@@ -1,8 +1,24 @@
 ---
 title: 系統発生樹の解読について
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (Translator: Tomoyuki Nezu, Takeshi Sato, Fengjun Zhang)"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+translators:
+  - Tomoyuki Nezu
+  - Takeshi Sato
+  - Fengjun Zhang
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "ここでは、遺伝疫学における系統樹を理解するための方法を説明します。 このWebサイトは、デスクトップブラウザーでの表示用に最適化されています。"
@@ -15,16 +31,16 @@ abstract: "ここでは、遺伝疫学における系統樹を理解するため
 <!-- This is left-side text -->
 # [目次](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [伝搬経路と系統樹との関係性](https://nextstrain.org/narratives/trees-background?n=1).  
-* [系統樹の読み方.](https://nextstrain.org/narratives/trees-background?n=2)  
-* [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-background?n=3)   
-* [「遺伝的相違」を測定](https://nextstrain.org/narratives/trees-background?n=4).  
-* [経時的な差異の測定](https://nextstrain.org/narratives/trees-background?n=5).  
-* [感染症集団発生日](https://nextstrain.org/narratives/trees-background?n=6).
-* [どのように系統樹の性質(色)を解釈すべきか](https://nextstrain.org/narratives/trees-background?n=7).
-* [地図は系統樹とどのように関係しているか](https://nextstrain.org/narratives/trees-background?n=8).
-* [発展的な資料: 系統樹の不確かさ](https://nextstrain.org/narratives/trees-background?n=9).  
-* [データセットについて](https://nextstrain.org/narratives/trees-background?n=10).  
+* [伝搬経路と系統樹との関係性](https://nextstrain.org/narratives/trees-background?n=2).  
+* [系統樹の読み方.](https://nextstrain.org/narratives/trees-background?n=3)  
+* [「多様性」パネルと系統樹の関係性.](https://nextstrain.org/narratives/trees-background?n=4)   
+* [「遺伝的相違」を測定](https://nextstrain.org/narratives/trees-background?n=5).  
+* [経時的な差異の測定](https://nextstrain.org/narratives/trees-background?n=6).  
+* [感染症集団発生日](https://nextstrain.org/narratives/trees-background?n=7).
+* [どのように系統樹の性質(色)を解釈すべきか](https://nextstrain.org/narratives/trees-background?n=8).
+* [地図は系統樹とどのように関係しているか](https://nextstrain.org/narratives/trees-background?n=9).
+* [発展的な資料: 系統樹の不確かさ](https://nextstrain.org/narratives/trees-background?n=10).  
+* [データセットについて](https://nextstrain.org/narratives/trees-background?n=11).  
 
 <!-- No right-side text -->
 
@@ -74,7 +90,7 @@ abstract: "ここでは、遺伝疫学における系統樹を理解するため
 <br><br>
 シーケンスが C や E のようにそれ自体で長い行にある場合、これは他のシーケンスには見られない固有の突然変異があることを意味します。ラインが長いほど、突然変異が多くなります。A と B には、他の配列と共有されていない固有の突然変異（緑色の円）もありますが、それらは互いに同一です。
 <br><br>
-以上のことから、このツリーにおいて、A と B、そして D と E は互いに密接に関連していると結論付けられます。また、A と B は、D と C よりも C と密接に関連しています。
+以上のことから、このツリーにおいて、A と B、そして D と E は互いに密接に関連していると結論付けられます。また、A と B は、D と E よりも C と密接に関連しています。
 </p>
 
 ### 参考文献
@@ -126,7 +142,7 @@ x 軸としてサンプル取得日を使用することによって、どれだ
 
 ゲノム学を使うと感染拡大が始まった日時を当てはめることもできます。私たちが拡大が起きたということ理解する以前の日時であっても可能です。
 系統樹の各サンプルと節に日付を当てはめていくので、系統樹の「根」の日時を推定するためにこれを使うことができます。
-この図は、私たちが今現在所有している SARS-CoV-2 すべての遺伝子配列の「最近共通祖先」を表しています。 
+この図は、私たちが今現在所有している SARS-CoV-2 すべての遺伝子配列の「最近共通祖先」を表しています。
 例えば、ある人とそのいとことすべての「最近共通祖先」はそのひとの祖父です。
 <br><br>
 一番左の縦のラインをマウスでかざすと、11月半ばから12月半ばの間のこの特定の感染拡大の推定された開始日時を見ることができます。
