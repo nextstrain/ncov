@@ -43,8 +43,8 @@ abstract: "این گزارش از داده‌های کووید-۱۹ که در ا
 * [ورود به ایالات متحده](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=7).
 * [شیوع سارس-کووید-۲ در ایالت واشنتگتن](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=8).
 * [شیوع سارس-کووید-۲ در کالیفرنیا](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=9).
-* [کارهایی که شما می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/fa/sit-rep/2020-03-13?n=10).
-* [سوالات متداول و تصورات غلط](https://nextstrain.org/narratives/ncov/fa/sit-rep/2020-03-13?n=11).
+* [کارهایی که شما می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=10).
+* [سوالات متداول و تصورات غلط](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=11).
 * [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=12).
 
 <!-- This is right-side text -->
@@ -82,7 +82,7 @@ abstract: "این گزارش از داده‌های کووید-۱۹ که در ا
 <p dir="rtl">
 ما منابع گوناگون دیگری که ارزش خواندن برای آشنایی با کووید-۱۹ و ویروس ایجاد‌کننده‌ی آن یعنی  سارس-کووید-۲ دارند آماده کرده‌ایم تا با آن‌ها آشنا شوید
 این اطلاعات تفسیر داده‌های ارائه شده در این گزارش را آسان‌تر می‌کند. اگر با درختهای  
-ژنتیکی آشنا نیستید، ما شما را تشویق می‌کنیم تا به این‌جا مراجعه کنید 
+ژنتیکی آشنا نیستید، ما شما را تشویق می‌کنیم تا به این‌جا مراجعه کنید
 (
 <a href="https://nextstrain.org/narratives/trees-background"> چگونه درخت‌های ژنتیکی را بخوانیم' روایت </a>
 )
