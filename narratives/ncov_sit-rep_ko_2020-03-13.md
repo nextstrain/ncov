@@ -1,8 +1,29 @@
 ---
 title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 13일 상황 보고서.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford. (Translation: Hanbin Lee, Kyeong Seok Kim, Kyo Bin Kang, Minkyu Kim)"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Hanbin Lee
+  - Kyeong Seok Kim
+  - Kyo Bin Kang
+  - Minkyu Kim
 date: "2020년 3월 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19의 전파를 추적합니다. 이 보고서는 매주 업데이트됩니다."
@@ -29,14 +50,14 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# 
+#
 
 저희는 410</tag>개 공개된 코로나19의 유전체 염기서열을 분석하였습니다.
 바이러스 유전체들을 비교분석하여 코로나19가 어떻게 진화하고 세계 곳곳으로 퍼지고 있는지 확인했습니다.
 
 현재 전세계 코로나바이러스의 현황을 알고 싶은 분들은 [Our World In Data](https://ourworldindata.org/coronavirus)를 참고하십시오.
 
-이 보고서는 바이러스가 전세계적으로 유행하고 있으며 여러 대륙에서 지역사회전파가 이뤄지고 있다는 증거를 제시합니다. 
+이 보고서는 바이러스가 전세계적으로 유행하고 있으며 여러 대륙에서 지역사회전파가 이뤄지고 있다는 증거를 제시합니다.
 현 시점에서 여행 제한은 효과가 떨어지며 지역사회 내부에서의 전파를 억제하는데 집중해야 함을 강조하고 싶습니다.
 
 금주 보고서에서 새로 업데이트된 것들:
@@ -84,7 +105,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 * [한국어 위키백과](https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4%EA%B0%90%EC%97%BC%EC%A6%9D-19_%EB%B2%94%EC%9C%A0%ED%96%89)의 코로나 바이러스 유행을 다룬 요약 _2020-01-30_
 * [미국 질병통제예방센터](https://www.cdc.gov/coronavirus/index.html)에서 제공하는 자료 _2020-01-29_
 
-## Nextstrain 보고서 
+## Nextstrain 보고서
 
 다음 페이지부터는 [Nextstrain](https://nextstrain.org)을 이용한 분석결과를 포함하고 있습니다.
 좌측에 있는 사이드바를 스크롤하면 우측에는 유전체 정보를 이용한 분석의 시각화 자료가 나타나며 그 좌측에는 시각화 자료에 대한 설명이 등장합니다.
@@ -206,7 +227,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-#  우리가 할 수 있는 것들 
+#  우리가 할 수 있는 것들
 
 사회적 거리두기(하루에 만나는 사람의 수를 줄이는 것)은 어려울 수 있지만
 공공을 위해서 매우 중요한 일입니다.
@@ -228,7 +249,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 * 당신이 고용주라면 직원들이 아플 때 집에 있을 수 있도록 해주세요 (이를 위한
   금전적 지원도 제공하세요).
 
-## 지도자와 관료들이 할 일 
+## 지도자와 관료들이 할 일
 * 검사가 무료로 광범위하게 이뤄질 수 있도록 하십시오.
 * 사회적 거리두기가 이뤄질 수 있도록 하십시오.
 * 사회적 거리두기로 인해 피해를 입은 사람들을 위한 경제적 지원이 필요합니다
