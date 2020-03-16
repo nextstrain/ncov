@@ -21,7 +21,7 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Sotiris Salloumis
-  translatorLinks:
+translatorLinks:
   - https://github.com/codergr
 date: "2020 Μαρτίου 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
@@ -35,17 +35,17 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 <!-- This is left-side text -->
 # [Πίνακας περιεχομένων](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [Μια σημείωση σχετικά με τη δειγματοληψία](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Κυκλοφορία στην Ευρώπη](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Τοπική μετάδοση στο Ηνωμένο Βασίλειο](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Διάδοση του SARS-CoV-2 από το Ιράν](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Εισαγωγή στις ΗΠΑ](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Διάδοση του SARS-CoV-2 στη πολιτεία της Ουάσινγκτον](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Διάδοση του SARS-CoV-2 στην Καλιφόρνια](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [Τι μπορείς να κάνεις](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [Συχνές ερωτήσεις και κοινές παρανοήσεις](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Επιστημονικές αναγνωρίσεις](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=2).     
+* [Μια σημείωση σχετικά με τη δειγματοληψία](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=3).
+* [Κυκλοφορία στην Ευρώπη](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=4).   
+* [Τοπική μετάδοση στο Ηνωμένο Βασίλειο](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=5).
+* [Διάδοση του SARS-CoV-2 από το Ιράν](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=6).
+* [Εισαγωγή στις ΗΠΑ](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=7).
+* [Διάδοση του SARS-CoV-2 στη πολιτεία της Ουάσινγκτον](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=8).
+* [Διάδοση του SARS-CoV-2 στην Καλιφόρνια](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=9).
+* [Τι μπορείς να κάνεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=10).
+* [Συχνές ερωτήσεις και κοινές παρανοήσεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=11).
+* [Επιστημονικές αναγνωρίσεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -53,7 +53,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 
 Εδώ, έχουμε αναλύσει 410</tag> δημόσια διαθέσιμα COVID-19 γωνιδιόματα. Συγκρίνοντας τα ιικά γονιδιώματα μεταξύ τους, μπορούμε να χαρακτηρίσουμε το πώς εξελίσσεται και κινείται το COVID-19 σε όλο τον κόσμο.
 
-Για ένα τρέχον στιγμιότυπο του αριθμού των περιπτώσεων κορωναϊού σε ολόκληρο τον κόσμο, βλ. [Ο κόσμος μας στα δεδομένα] (https://ourworldindata.org/coronavirus).
+Για ένα τρέχον στιγμιότυπο του αριθμού των περιπτώσεων κορωναϊού σε ολόκληρο τον κόσμο, βλ. [Ο κόσμος μας στα δεδομένα](https://ourworldindata.org/coronavirus).
 
 Σε αυτήν την έκθεση, δείχνουμε ότι ο ιός κυκλοφορεί ευρέως σε ολόκληρο τον κόσμο, με στοιχεία τοπικής μετάδοσης σε πολλές ηπείρους.
 Αυτή τη στιγμή, παροτρύνουμε την εστίαση στις προσπάθειες για την επιβράδυνση της εξάπλωσης στις κοινότητες. οι ταξιδιωτικές απαγορεύσεις είναι λιγότερο πιθανό να είναι αποτελεσματικές.
@@ -81,7 +81,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 <!-- This is left-side text -->
 # [COVID-19 σύνδεσμοι](https://nextstrain.org/ncov/2020-03-05)
 Εδώ έχουμε συγκεντρώσει αρκετούς πόρους που αξίζει να διαβάσετε για να εξοικειωθείτε με το COVID-19 (τη νόσο) και τον ιό που το προκαλεί, το SARS-CoV-2. Αυτές οι πληροφορίες θα διευκολύνουν την κατανόηση των παρακάτω δεδομένων.
-Οι πληροφορίες αυτές θα διευκολύνουν την ερμηνεία των δεδομένων που παρουσιάζουμε σε αυτή την αφήγηση. αν δεν είστε εξοικειωμένοι με φυλογενετικά δέντρα, σας συνιστούμε να ελέγξετε την αφήγηση ['Πώς να διαβάσετε τα Φυλογόνα'] (https://nextstrain.org/narratives/trees-background/) και να επιστρέψετε όταν είστε έτοιμοι .
+Οι πληροφορίες αυτές θα διευκολύνουν την ερμηνεία των δεδομένων που παρουσιάζουμε σε αυτή την αφήγηση. αν δεν είστε εξοικειωμένοι με φυλογενετικά δέντρα, σας συνιστούμε να ελέγξετε την αφήγηση ['Πώς να διαβάσετε τα Φυλογόνα'](https://nextstrain.org/narratives/trees-background/) και να επιστρέψετε όταν είστε έτοιμοι .
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -103,7 +103,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 
 ## Αφηγήσεις του Nextstrain
 
-Οι ακόλουθες σελίδες περιέχουν ανάλυση που εκτελείται χρησιμοποιώντας το [Nextstrain] (https://nextstrain.org).
+Οι ακόλουθες σελίδες περιέχουν ανάλυση που εκτελείται χρησιμοποιώντας το [Nextstrain](https://nextstrain.org).
 Η κύλιση θα αποκαλύψει παραγράφους του κειμένου με αντίστοιχη απεικόνιση των γονιδιωματικών δεδομένων.
 
 Για να έχουν πλήρη γονιδιώματα ενός νέου και μεγάλου ιού RNA αυτό είναι γρήγορα ένα αξιόλογο επίτευγμα.
@@ -272,7 +272,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 
 <br>
 
-Ευχαριστούμε επίσης το [GISAID] (https://gisaid.org) για την παροχή της πλατφόρμας μέσω της οποίας μπορούν να μεταφορτωθούν και να μοιραστούν αυτά τα δεδομένα.
+Ευχαριστούμε επίσης το [GISAID](https://gisaid.org) για την παροχή της πλατφόρμας μέσω της οποίας μπορούν να μεταφορτωθούν και να μοιραστούν αυτά τα δεδομένα.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
@@ -406,13 +406,10 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-<<<<<<< HEAD
-# [Λεπτομερής επιστημονική αναγνώριση](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
-=======
-# [Λεπτομερής επιστημονική πίστωση](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
->>>>>>> 8a106d927b4534db0961b7ba9a7e304763f4a490
 
-Αυτά τα δεδομένα κοινοποιήθηκαν μέσω του [GISAID] (https://gisaid.org).
+# [Λεπτομερής επιστημονική αναγνώριση](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+
+Αυτά τα δεδομένα κοινοποιήθηκαν μέσω του [GISAID](https://gisaid.org).
 Ευχαριστούμε πολύ για τη συμβολή τους.
 
 <br>
