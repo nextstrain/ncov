@@ -35,17 +35,17 @@ abstract: "این گزارش از داده های کوید-۱۹ که در اخت
 <!-- This is left-side text -->
 # [فهرست مطالب](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [منابع پیش زمینه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2)   
-* [یادداشتی در مورد نمونه گیری](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3)
-* [چرخش در اروپا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4)  
-* [شیوع محلی در بریتانیا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5)
-* [شیوع سارس-کووید-۲ از ایران](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6)
-* [ورود به ایالات متحده](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7)
-* [شیوع سارس-کووید-۲ در ایالت واشنتگتن](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8)
-* [شیوع سارس-کووید-۲ در کالیفرنیا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9)
-* [کارهایی که شما میتوانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10)
-* [سوالات متداول و تصورات غلط](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11)
-* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12)
+* [منابع پیش زمینه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).   
+* [یادداشتی در مورد نمونه گیری](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
+* [چرخش در اروپا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).  
+* [شیوع محلی در بریتانیا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
+* [شیوع سارس-کووید-۲ از ایران](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
+* [ورود به ایالات متحده](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [شیوع سارس-کووید-۲ در ایالت واشنتگتن](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [شیوع سارس-کووید-۲ در کالیفرنیا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [کارهایی که شما میتوانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
+* [سوالات متداول و تصورات غلط](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
