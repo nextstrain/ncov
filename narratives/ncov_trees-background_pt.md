@@ -1,6 +1,6 @@
 ---
 title: Como interpretar árvores filogenéticas
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
+authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford" (Glaucio Santos, Anderson Brito)
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
@@ -126,36 +126,35 @@ Observe quantas seqüências que anteriormente estavam em uma linha (indicando g
 <!-- ############ SLIDE BREAK ############# -->
 # [Calculando a data de início de um surto](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
-Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
+Também podemos usar a genômica para atribuir uma data para o início de um surto, mesmo que isso tenha acontecido antes de percebermos o que estava acontecendo. Como podemos atribuir datas a cada amostra e ponto na árvore, podemos usar isso para inferir a data da 'raiz' da árvore. Isso representa o "ancestral comum mais recente" de todas as seqüências SARS-CoV-2 que temos até agora. Por exemplo, seus avós são os "ancestrais comuns mais recentes" de você e todos os seus primos de primeiro grau.
 <br><br>
-If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+Se você passar o mouse sobre a linha vertical mais à esquerda, poderá ver que a data de início inferida é entre meados de Novembro e meados de Nezembro de 2019 para esse surto em específico.
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+# [Como devo interpretar traços (cores) na árvore?](https://nextstrain.org/ncov/2020-03-11)
+Árvores filogenéticas geralmente contêm informações adicionais, como o local de coleta de cada amostra. A partir disso, podemos inferir as localizações dos pontos internos (casos hipotéticos intermediários, ainda não amostrados) usando modelos matemáticos. Isso pode nos ajudar a entender como o vírus está se movendo de um local para o outro.
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+No entanto, devemos ter cautela ao interpretar estes, pois a amostragem e o seqüenciamento ou a falta deles podem influenciar significativamente a interpretação.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Examplo
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+À esquerda, mostramos uma árvore filogenética completamente amostrada, com amostras de dois locais diferentes, marcados na cor laranja e azul. Ao descermos a árvore, observamos três instâncias em que a cor (local) muda de laranja para azul. A partir disso, concluímos que houve três introduções diferentes, desde o local laranja até o azul.
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+Mas, essa interpretação se baseia em amostragem: na árvore do meio, removemos uma amostra de cor laranja. Agora observamos apenas uma mudança de laranja para azul, sugerindo que houve apenas uma introdução de cor azul que aconteceu muito antes.
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+No último exemplo, temos apenas uma sequência de cor laranja, o que pode nos levar a pensar que houve uma introdução de cor laranja no azul.
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+Assim sendo, embora essas inferências possam ser valiosas, elas também devem ser interpretadas com cuidado.
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
@@ -163,22 +162,21 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [Como o mapa se relaciona com a árvore?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+Aqui, mostramos a árvore colorida de acordo com o local de cada amostra (e local inferido para cada ponto interno desconhecido). Se você clicar em ['Explorar os dados'](https://nextstrain.org/ncov), poderá reproduzir uma animação da propagação inferida do vírus ao longo de todo o surto.
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+# [Leitura avançada: incerteza nas árvores](https://nextstrain.org/ncov/2020-03-11)
+Anteriormente, falamos sobre como os pontos internos das filogenias representam casos hipoteticamente não amostrados. Na verdade, todas as árvores representam hipóteses sobre como um patógeno evoluiu e se moveu ao longo do tempo. As árvores que apresentamos no Nextstrain são estimativas — ou seja, a versão desse histórico que maximiza a probabilidade de observação dos dados que fazemos.
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+No entanto, sempre há incerteza nessas estimativas. De um modo geral, partes da árvore que estão densamente amostradas são mais precisas, enquanto áreas com pouca amostragem são menos precisas.
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+# Ilustração
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
@@ -189,14 +187,13 @@ However, there is always uncertainty in these estimates. Generally speaking, par
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Crédito científico](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Gostaríamos de reconhecer o trabalho incrível e oportuno realizado por todos os cientistas envolvidos nesse surto, sobretudo os que estão trabalhando na China. Somente com o compartilhamento rápido de dados genômicos e de metadados que tais análises foram possíveis.
 
 <br><br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Também agradecemos a [GISAID](https://gisaid.org) por fornecer a plataforma pela qual esses dados podem ser inseridos e compartilhados.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
@@ -330,19 +327,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Crédito cientifíco detalhado](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Esses dados foram compartilhados através do [GISAID](https://gisaid.org).
+Agradecemos as suas contribuições com profunda gratidão.
 
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+A direita, especificamos quais sequências foram compartilhadas por cada laboratório.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+Os genomas de SARS-CoV-2 foram generosamente cedidos por cientistas de várias instituições. São elas:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
