@@ -274,7 +274,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Είμαστε ευγνώμονες για τα δεδομένα που συλλέχθηκαν από αυτά τα αρχικά εργαστήρια:
 
 * Arizona Department of Health Services
 * Auckland Hospital
