@@ -1,11 +1,28 @@
-
-
-
 ---
 title: آنالیز ژنتیکی شیوع ویروس کووید-۱۹.  شرح گزارش ۱۳ مارس ۲۰۲۰
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Mahan Ghafari
+  - Alireza Zamani Dahaj
+  - Hossein Rimaz
 date: "سیزده مارس ۲۰۲۰"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "این گزارش از داده های کوید-۱۹ که در اختیار عموم گذاشته شده استفاده میکند. این گزارش ها هر هفته بروز رسانی میشود"
@@ -40,11 +57,11 @@ abstract: "این گزارش از داده های کوید-۱۹ که در اخت
 در این گزارش، ما نشان می دهیم که این ویروس به طور گسترده ای در سراسر جهان در حال گردش است و شواهدی از انتقال محلی آن در قاره های مختلف وجود دارد
 در این زمان، ما تآکید بر تمرکز برای کاهش سرعت پخش بیماری در اجتماعات داریم؛ ممنوعیت های مسافرتی در این راستا کمتر موثر است
 
-:در به روزرسانی این هفته، ما گزارش می کنیم 
+:در به روزرسانی این هفته، ما گزارش می کنیم
 
 * کووید-۱۹ در حال پخش گسترده بین کشورهای اروپایی با جابجایی های پیاپی بین کشورهاست
 
-* ما حداقل ۴ ورود مستقل بیماری به انگلستان را شناسایی کردیم که برخی از آنها با پخش زنجیره ای در بین اجتماعات همراه بوده است 
+* ما حداقل ۴ ورود مستقل بیماری به انگلستان را شناسایی کردیم که برخی از آنها با پخش زنجیره ای در بین اجتماعات همراه بوده است
 
 * چندین مورد در ارتباط با مسافرتهای داخل/خارج ایران به اقصی نقاط جهان وجود داشته است
 
@@ -67,7 +84,7 @@ abstract: "این گزارش از داده های کوید-۱۹ که در اخت
 این اطلاعات تفسیر داده های ارائه شده در این گزارش را آسان تر می کند. اگر با درختهای  
 ژنتیکی آشنا نیستید، ما شما را تشویق می  کنیم تا به اینجا مراجعه کنید و
 (
-<a href="https://nextstrain.org/narratives/trees-background"> How to Read Phylogenies' narrative </a> 
+<a href="https://nextstrain.org/narratives/trees-background"> How to Read Phylogenies' narrative </a>
 )
 پس از مطالعه به اینجا بازگردید
 </p>
@@ -95,11 +112,11 @@ abstract: "این گزارش از داده های کوید-۱۹ که در اخت
 ## Nextstrain شرح
 
 صفحه ذیل حاوی آنالیزهای انجام شده توسط  Nextstrain نکست استرین هست: (https://nextstrain.org)
-این صفحه متن پاراگراف و تصویو داده های ژنتیک را در بر دارد. 
+این صفحه متن پاراگراف و تصویو داده های ژنتیک را در بر دارد.
 
 
-داشتن ژنوم کامل یک آر ان ای ویروس جدید و بزرگ به این سرعت یک موفقیت بزرگ است. 
-اشتراک گذاری سریع و باز داده های ژنومیک و تفسیر آنها توسط دانشمندانی در اقصی نقات دنیا این آنالیز رو مسیر کرده است‌ (‌به اسلاید آخر برای تصویر حق تالیف توالی یابی رجوع کنید.). 
+داشتن ژنوم کامل یک آر ان ای ویروس جدید و بزرگ به این سرعت یک موفقیت بزرگ است.
+اشتراک گذاری سریع و باز داده های ژنومیک و تفسیر آنها توسط دانشمندانی در اقصی نقات دنیا این آنالیز رو مسیر کرده است‌ (‌به اسلاید آخر برای تصویر حق تالیف توالی یابی رجوع کنید.).
 
 ```
 
@@ -182,7 +199,7 @@ abstract: "این گزارش از داده های کوید-۱۹ که در اخت
 <p dir="rtl">
 با نگاهی به نمونه های کالیفرنیا، شواهدی مبنی بر چندین ورود مستقل می‌بینیم.
 مهمتر از همه، ما حداقل یک گروه از نمونه های ژنتیکی مشابه را مشاهده می کنیم که همگی در یک دوره زمانی کوتاه از کالیفرنیا نمونه برداری شدند.
-بر روی 
+بر روی
 (
 بر روی
 <a href = "https://nextstrain.org/ncov"> بررسی داده</a>
@@ -196,9 +213,9 @@ abstract: "این گزارش از داده های کوید-۱۹ که در اخت
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [جمع بندی](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- این ویروس در بسیاری از نقاط جهان چندین نوبت مستقلاً پخش شده است. همه این موارد منجر به شیوع محلی نمی شوند 
+- این ویروس در بسیاری از نقاط جهان چندین نوبت مستقلاً پخش شده است. همه این موارد منجر به شیوع محلی نمی شوند
 <br>
-- شواهدی دال بر گسترش شیوع ویروس در اروپا و مناطقی از آمریکا، چین و جنوب شرق آسیا می بینیم 
+- شواهدی دال بر گسترش شیوع ویروس در اروپا و مناطقی از آمریکا، چین و جنوب شرق آسیا می بینیم
 <br>
 - کنترل شیوع محلی ویروس از طریق فاصله گیری اجتماعی اهمیت فوق العاده‌ای برای دفاع از اقشار آسیب پذیر جامعه دارد
 
@@ -209,9 +226,9 @@ abstract: "این گزارش از داده های کوید-۱۹ که در اخت
 فاصله گیری اجتماعی یعنی کاهش تعداد افرادی که در طی روز با آنها در ارتباط هستید و یا با آنها معاشرت کاری دارید. این کار سخت است اما برای سلامت عمومی بسیار موثر است
 اگر همه ارتباطات خود را تنها ۲۵ درصد کاهش دهند، انتظار کاهش ۵۰ درصدی برای کل مبتلایان در ماه‌ آتی می رود.
 
-([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). 
+([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 
-مطمئن نیستید که فاصله اجتماعی به چه معناست؟ 
+مطمئن نیستید که فاصله اجتماعی به چه معناست؟
 [این راهنمای مفید را بررسی کنید](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
@@ -290,9 +307,9 @@ abstract: "این گزارش از داده های کوید-۱۹ که در اخت
 
 
 <p dir="rtl">
- با سپاس و قدردانی از 
+ با سپاس و قدردانی از
 <a href="https://gisaid.org">GISAID</a>
- برای در اختیار گذاشتن پلتفرم که از طریق آن داده ها می‌تواند بارگذاری و به اشتراک گذاشته شود. 
+ برای در اختیار گذاشتن پلتفرم که از طریق آن داده ها می‌تواند بارگذاری و به اشتراک گذاشته شود.
 </p>
 
 <!-- Do not need to translate institutions names -->
