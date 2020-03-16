@@ -58,6 +58,7 @@ Shenzhen/SZTH-004/2020
 Wuhan/IPBCAMS-WH-05/2020
 Wuhan/IVDC-HB-envF54/2020
 Wuhan/WH02/2019
+Guangzhou/GZMU0016/2020
 
 
 # Bat and pangolin relatives, too divergent to be included here

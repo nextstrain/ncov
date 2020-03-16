@@ -62,6 +62,8 @@ location	Tilburg
 location	Helmond
 location	Oisterwijk
 location	Dalen
+location	Nantes
+location	Crépy en Valois
 location	Paris
 location	Reims
 location	Pontoise
@@ -93,6 +95,7 @@ location	Seattle
 location	Los Angeles
 location	California
 location	San Francisco
+location	San Diego County
 location	Snohomish County
 location	King County
 location	Phoenix
@@ -140,6 +143,7 @@ division	New South Wales
 division	Victoria
 division	Auckland
 division	Ile de France
+division	Pays de la Loire
 division	Hauts de France
 division	Normandie
 division	Grand Est
@@ -174,7 +178,6 @@ division	Wales
 division	Dublin
 division	Limerick
 division	Scotland
-division	Lapland
 division	Småland
 division	Helsinki
 division	Finland
