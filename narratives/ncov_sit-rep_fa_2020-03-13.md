@@ -97,7 +97,7 @@ abstract: "این گزارش از داده‌های کووید-۱۹ که در ا
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> پیش‌درآمدی بر ویروس کرونا </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> همه گیری اخیر کووید-۱۹ </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> همه‌گیری اخیر کووید-۱۹ </a>
 
   <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> چگونه تبارزایش (فیلوژنتیک) را بخوانید</a>
 </div>
@@ -123,7 +123,7 @@ abstract: "این گزارش از داده‌های کووید-۱۹ که در ا
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [یادداشتی در مورد نمونه گیری](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+# [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
 <p dir="rtl">
 ما در حال حاضر از ۳۰ کشور در ۵ قاره نمونه‌های توالی ژنتیکی داریم. این یک شاهکار باورنکردنی است. نمونه‌گیری از توالی ژنتیکی یک ویروس بزرگ آر‌ان‌ای ناشناخته در وسط یک همه‌گیری جهانی دشوار است و فقط با تلاش باورنکردنی و به اشتراک‌گذاری به موقع داده‌ها توسط دانشمندان و پزشکان در سراسر جهان امکان‌پذیر است
 <br>
