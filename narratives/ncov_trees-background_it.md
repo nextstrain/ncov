@@ -1,6 +1,6 @@
 ---
 title: Come interpretare gli alberi filogenetici
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
+authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (traduttori: Alice Ledda, Alessia Lepore, Sara Pilia)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "13 marzo 2020"
@@ -293,7 +293,7 @@ Un'illustrazione
 
 <!-- This is left-side text -->
 <!-- # [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->
-# [Ringraziamenti scientifici](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Riconoscimenti scientifici](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 <!-- We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China. -->
 Ringraziamo tutti gli scienziati al lavoro su questa epidemia, e in particolare quelli che lavorano in Cina, per lo straordinario e tempestivo lavoro fatto.
@@ -438,7 +438,7 @@ Siamo grati per i dati raccolti da questi laboratori di origine:
 
 <!-- This is left-side text -->
 <!-- # [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author) -->
-# [Ringraziamenti scientifici dettagliati](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Riconoscimenti scientifici dettagliati](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 <!-- These data were shared via [GISAID](https://gisaid.org). -->
 Questi dati sono condivisi via [GISAID](https://gisaid.org).
