@@ -1,8 +1,28 @@
 ---
 title: 新型コロナウイルス拡散の遺伝的解析と状況報告 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Tomoyuki Nezu, Takeshi Sato, Fengjun Zhang)"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Tomoyuki Nezu
+  - Takeshi Sato
+  - Fengjun Zhang
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "このレポートでは、公開されているゲノム情報を使用して、COVID-19の広がりを追跡しています。 これらのレポートは毎週更新されます。"
@@ -40,7 +60,7 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 このレポートでは、複数の大陸でのローカルな感染の証拠とともに、ウイルスが世界中に広まっていることを示しています。
 現時点では、コミュニティ内での拡散を遅らせるための取り組みに焦点を当てることを要請します。旅行の禁止は効果的でないようです。
 
-今週の更新では、以下を報告します： 
+今週の更新では、以下を報告します：
 
 * COVID-19 はヨーロッパ全体に広く伝搬しており、国々の間で大きな移動があります。  
 
@@ -63,7 +83,7 @@ abstract: "このレポートでは、公開されているゲノム情報を使
 
 <!-- This is left-side text -->
 # [COVID-19 に関する資料](https://nextstrain.org/ncov/2020-03-05)
-COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解するために、読む価値のあるリソースを用意しました。この情報は、このレポートで提示するデータの解釈を容易にします。系統樹に詳しくない場合は、[系統発生の読み方（英語）](https://nextstrain.org/narratives/trees-background)の内容を確認した上で、次のページへ進めることを推薦します。
+COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解するために、読む価値のあるリソースを用意しました。この情報は、このレポートで提示するデータの解釈を容易にします。系統樹に詳しくない場合は、[系統発生の読み方](https://nextstrain.org/narratives/trees-background/ja)の内容を確認した上で、次のページへ進めることを推薦します。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -75,7 +95,7 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/>最近の COVID-19 流行の背景</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/>系統発生の読み方</a>
+  <a href="https://nextstrain.org/narratives/trees-background/ja"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/>系統発生の読み方</a>
 </div>
 
 ## 参考文献
@@ -153,7 +173,7 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 # [まとめ](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - このウイルスは世界中の多くの場所に何度も伝搬されています。 すべての伝搬が地域拡散になるわけではありません。  
 <br><br>
-- ヨーロッパ、米国の一部、中国、および東南アジアでの地域拡散の証拠があります。 
+- ヨーロッパ、米国の一部、中国、および東南アジアでの地域拡散の証拠があります。
 <br><br>
 - 地域拡散をコントロールするため、社会的な距離を保ち、感染の影響を受けやすい人々を保護することが重要です。
 
@@ -162,7 +182,7 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 ```auspiceMainDisplayMarkdown
 # 私達に出来ること  
 
-社会的な距離、つまり毎日出会う人の数を減らすことは時には困難を伴いますが、公共の利益にとって非常に有益です。もし全員が毎日の接触数を25％減らすと、来月の累積症例数は50％減ると予想されます([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf))。 
+社会的な距離、つまり毎日出会う人の数を減らすことは時には困難を伴いますが、公共の利益にとって非常に有益です。もし全員が毎日の接触数を25％減らすと、来月の累積症例数は50％減ると予想されます([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf))。
 社会的距離については[こちら](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/)を参照して下さい。
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
@@ -171,7 +191,7 @@ COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解す�
 ## 個人が出来ること
 * 特に感染の影響を受けやすい集団（高齢者や既往症のある方など）の場合は、毎日接触する人数を減らしてください。
 * あなたが健康であっても、あなたの周りの多くの人々がそうでないことを忘れないでください。 他の人を守るために次に上げるこれらの慣行に従ってください。
-* 良く手を洗って下さい。(辛いものを触ったあとにコンタクトレンズを変えなければならないように) 
+* 良く手を洗って下さい。(辛いものを触ったあとにコンタクトレンズを変えなければならないように)
 * 体調が悪い場合は家にいましょう。 自主隔離する必要がある場合に備えて、いくつかの追加の備品を用意しておきましょう。
 * あなたが雇用主である場合、従業員が病気になったときに自宅待機にして下さい（そして、それを可能とするために、従業員を財政的に支援して下さい）。
 

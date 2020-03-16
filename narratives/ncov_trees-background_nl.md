@@ -19,7 +19,7 @@ translators:
   - Jisca Huisman
   - Roan van Scheppingen
   - Jana S. Huisman
-  - Ruger Vos
+  - Rutger Vos
 date: "13 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Dit verhaal legt uit hoe je een fylogenetische boom die informatie over de genetische epidemidiologie bevat, leest en interpreteert. De website is geoptimaliseerd voor weergave in desktop browsers. "
