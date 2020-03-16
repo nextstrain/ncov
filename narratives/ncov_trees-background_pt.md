@@ -15,7 +15,7 @@ abstract: "Essa narrativa explica como ler e interpretar árvores genéticas que
 <!-- This is left-side text -->
 # [Índice](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Como redes de transmissão estão relacionadas com árvores filogenéticas?](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [Como redes de transmissão estão relacionadas às árvores filogenéticas](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [Como ler uma árvore filogenética](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [Como o painel de "diversidade" se relaciona com a árvore](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Medindo diferenças com divergências genéticas](https://nextstrain.org/narratives/trees-background?n=4).  
@@ -32,22 +32,22 @@ abstract: "Essa narrativa explica como ler e interpretar árvores genéticas que
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+# [Como redes de transmissão estão relacionadas às árvores filogenéticas?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Patógenos se espalham através da replicação rápida em um hospedeiro, seguido da transmissão para outro hospedeiro. Considera-se uma epidemia só quando uma infecção resulta em mais de uma nova infecção subsequente.
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+À medida que o patógeno se replica e espalha, seu genoma precisa ser replicado várias vezes e, consequentemente, mutações aleatórias ("erros copiados") serão acumulados no genoma; isto é normal. Tais mutações aleatórias podem ajudar a rastrear o espalhamento do patógeno e aprender sobre suas rotas e dinâmicas de transmissão.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Exemplo
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+A ilustração acima mostra um esboço de uma árvore de transmissão. Cada círculo representa um caso (pessoa infectada), com linhas horizontais indicando a duração da infecção. Casos conectados representam transmissões de uma pessoa para a próxima.
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+Aqui, vemos a imagem completa da árvore de transmissão. Na prática, no entanto, apenas um subconjunto de casos é amostrado (azul); a árvore de transmissão é desconhecida e normalmente apenas estimativas aproximadas de contagens de casos estão disponíveis. Seqüências genômicas nos permitem inferir partes da árvore de transmissão. Neste exemplo, três mutações (pequenos losangos) estão indicadas na árvore. Seqüências que têm as mesmas mutações estão mais intimamente relacionadas, portanto, essas mutações nos permitem agrupar amostras em grupos de vírus intimamente relacionados que pertencem às mesmas cadeias de transmissão.
 </p>
 </div>
 ```
@@ -56,33 +56,30 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [Como ler uma árvore filogenética?](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+O eixo X de uma árvore representa o grau de diferença (por tempo ou divergência genética — veremos em seguida). Já o eixo y apenas ajuda a dividir para que possamos ver tudo com clareza; ele não possui nenhuma unidade de medida.
 <br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+Os pontos na árvore representam amostras (isto é, os pontos azuis da página anterior). Os pontos internos representam casos que não foram amostrados, mas que entendemos ser a fonte dos casos que descendem deles (pontos vermelhos da página anterior). Essas relações são inferidas analisando os padrões das mutações observadas em casos amostrados.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## Exemplo
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+Acima, vemos uma ilustração com uma árvore filogenética a esquerda, onde mutações são mostradas como círculos coloridos. A direita estão as sequências correspondentes, também com mutações mostradas como círculos coloridos. Podemos ver que sequências que compartilham as mesmas mutações se agrupam juntas. Quando sequências aparecem ligadas por uma linha vertical, como A e B, isso significa que não há diferenças entre eles: suas sequências são idênticas.
 <br><br>
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+Quando uma sequência está sozinha em uma linha longa, como C ou E, isso indica a presença de mutações únicas, que não se encontram em outras sequências. Quanto mais longa a linha, mais mutações. A e B também tem mutações únicas (círculo verde) não compartilhadas por outras sequências, mas ambos vírus são idênticos.
 <br><br>
-Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
+Baseado nessa árvore, concluímos que A e B estão intimamente relacionados entre si, e D & E estão intimamente relacionados entre si. A e B estão mais relacionados a C, do que a dupla D e E.
 </p>
 
-### Further reading  
-* [
-
-read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
-* [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
+### Leitura adicional (em inglês)
+* [Como ler uma árvore: tutorial do Arctic Network](https://artic.network/how-to-read-a-tree.html).  
+* [Como ler uma árvore: vídeo do Khan Academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
 </div>
 
