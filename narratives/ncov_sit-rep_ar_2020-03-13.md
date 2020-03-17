@@ -60,14 +60,14 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- This is left-side text -->
 # [مصادر كوفيد 19](https://nextstrain.org/ncov/2020-03-05)
-قمنا بتجهيز بعض المصادر التي تستحق القراءه لتجعلك مطلعا على كوفيد 19 والفيروس الذي يسببه وهو سارس كو في 2We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
+قمنا هنا بتجهيز بعض المصادر التي تستحق القراءه لتجعلك مطلعا على كوفيد 19 والفيروس الذي يسببه وهو سارس كو في 2
 ستجعل هذه المعلومات من السهل عليك فهم البيانات التي سنعرضها في هذا التقرير; في حال كان من الصعب عليك فهم أشجار التصنيف الجيني 
-, ننصحك بالدخول إلى الموقع التالي [كيف تقرأ تقارير أشجار التصنيف الجيني](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
+, ننصحك بالدخول إلى الموقع التالي [كيف تقرأ تقارير أشجار التصنيف الجيني](https://nextstrain.org/narratives/trees-background) الرجاء العودة بعد إكمال القراءة
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## الخلفية العلمية
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -77,18 +77,19 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
   <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
-## Further Reading
+## القراءات الاضافية
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+* ملخص عن وباء سارس كو في 2 على [ويكيبيديا](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* مادة علمية من Material provided by the[مركز مكافحة الأمراض في الولايات المتحدة](https://www.cdc.gov/coronavirus/index.html).
 
-## Nextstrain narratives
+##  Nextstrain تقارير
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+تحتوي الصفحات التالية على تحليلات تمت بواسطة [Nextstrain](https://nextstrain.org).
+الاستعراض خلالها سيؤدي بك الى فقرات نصية بمعلومات سورية عن البيانات الجينومية ذات العلاقة
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+ يعتبر الحصول على الجينوم الكامل لفيروس ار إن أي كبير وفريد بهذه السرعة إنجازا كبيرا
+أصبح بالإمكان الحصول على هذه التحليلات من خلال المشاركة السريعة والمفتوحة للبيانات الجينومية ومن خلال تك
+تحليلات العلماء من جميع العالم لهذه البيانات (انظر اخر شريحة للاطلاع على حقوق المؤلفين لتسلسل الجينومات).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
