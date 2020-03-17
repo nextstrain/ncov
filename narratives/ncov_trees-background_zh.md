@@ -33,7 +33,7 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 
 <!-- This is left-side text -->
 # [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-病原体的传播分两步：先是在宿主体内快速复制，然后传给下一个宿主。只有当一位感染者能够传给多个人时，病原体才会开始在人群中流行。
+病原体的传播分两步：先是在宿主体内快速复制，然后传给下一个宿主。只有当一位感染者能够传给多个人时，才会开始在疾病人群中流行。
 <br><br>
 随着病原体的复制和传播，它的基因组会被复制很多次，随机突变（基因组复制时产生的错误）会在基因组中积累，这是正常现象。这些随机突变可以帮助我们追踪病原体的传播，了解它的传播路线和动态。
 
@@ -45,8 +45,9 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+这是一个传播树的简图。图上的每个圆点代表一个病例，横线的长度表明了他们感染的时长；用线连起来的病例表明了病原体在人际之间的传播。The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
 <br> <br>
+在这张图上，我们可以看到传播树的全貌，但是在现实中，我们只能观察到部分病例（蓝色）。传播树是未知的，而且对病例的数量一般也只能进行粗略的估计。基因组序列则使我们能够推测出传播树的部分未知区域。在这个例子中，传播树上标出了三个突变（小方块所示）。有同样突变的序列在遗传上的亲缘关系更近，这些突变可以让我们根据病毒的亲缘关系对属于同一条传播链的病例进行聚类。
 Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
 </p>
 </div>
