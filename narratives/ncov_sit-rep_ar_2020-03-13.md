@@ -95,7 +95,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- This is left-side text -->
 # [ملاحظة عن جمع العينات](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-لدينا حاليا تسلسلات جينومات لفيروسات من عينات أخذت من 30 دولة من 5 قارات. تعتبر هذه قفزة غير معقولة-- حيث أن تحديد التسلسل لفيروس ار إن أي كبير وغير معروف في وسط جائحة وقاسية أمرا صعبا, وما كان لذلك أن يكون ممكنا لولا العمل المضني والمشاركة السريعة للبيانات من قبل العلماء والأطباء حول العالم
+لدينا حاليا تسلسلات جينومات لفيروسات من عينات أخذت من 30 دولة من 5 قارات. تعتبر هذه قفزة غير معقولة-- حيث أن تحديد التسلسل لفيروس ار إن أي كبير وغير معروف في وسط جائحة وباءية أمرا صعبا, وما كان لذلك أن يكون ممكنا لولا العمل المضني والمشاركة السريعة للبيانات من قبل العلماء والأطباء حول العالم
 <br><br>
 في حين أن هذه البيانات تمكننا من استنتاج العديد من الخصائص المفيدة للوباء ومن تتبع انتشاره بالزمن الحقيقي إلا أنه من المهم التأكيد على أن استنتاجاتنا تبقى محدودة بسبب ندرة البيانات
 <br><br>
@@ -106,21 +106,21 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
+# [دوران العدوى في اوروبا](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+نشاهد هنا عنقود كبير من التسلسلات من اوروبا
+من الجدير ملاحظته هو تداخل التسلسلات من عدة دول مختلفة مشيرة الانتشار الواسع لكوفيد 19 خلال اوروبا
 <br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+من خلال التكبير على الخريطة نستطيع ملاحظة أن هناك العديد من الارتباطات ما بين ايطاليا والمناطق الأخرى، لكن من المهم أن نتذكر بأن تحديد اتجاهية هذه الارتباطات لا يمكن التنبؤ به بمصداقية عالية. فرضيات أخرى يمكن أن تفسر هذه البيانات )مثال:اذا كانت هناك حالة إصابة لم يؤخذ منها عينة أدت إلى عدوى ثانوية لشخص تم تحديد تسلسل جينوم الفيروس لديه في إيطاليا واخر تم تحديد تسلسل جينوم الفيروس لديه في مكان آخر)
 
 <!-- There is no right side text -->
 
 
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
+# [الانتقال المحلي للعدوى في الجزر البريطانية وايرلاندا](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+بالنظر إلى الجزر البريطانية وايرلاندا كمثال، نستطيع في العديد من الحالات ملاحظة أن الفيروسات التي تم تحديدها في دول أخرى تظهر في الجزر البريطانية وايرلاندا
 <br><br>
-This is consistent with 4 or more introductions from other locations.
+هذا يتوافق مع 4 او اكثر من حالات الادخال الفيروسي من أماكن اخرى
 <br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
+كما نرى ايضا حالات حيث بعد الادخال الفيروسي، هناك عدة حالات متقاربة جدا من نفس المنطقة.وهذا يتوافق مع الانتقال المجتمعي المحليمن أكثر من واحدة من تلك الادخالات
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
