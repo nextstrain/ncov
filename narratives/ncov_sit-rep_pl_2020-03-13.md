@@ -33,11 +33,16 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
  
 Przeanalizowaliśmy tutaj 410</tag> dostępnych publicznie genomów COVID-19. Porównując ze sobą te wirusowe genomy potrafimy ocenić jak COVID-19 ewoluuje i jak rozprzestrzenia się po świecie.
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+W celu zapoznania się z aktualnymi danymi o liczbie potwierdzonych zakażeń w różnych krajach sprawdź [Our World In Data](https://ourworldindata.org/coronavirus).
 
+W tym raporcie pokazujemy, że wirus rozprzestrzenia się na dużym obszarze planety, z dowodami na lokalne przekazywanie wirusa na wielu kontynantach.
+
+W tym momencie, nalegamy aby skupić się na działaniach prowadzących do spowolnienia rosprzestrzeniania się wirusa wewnątrz lokalnych społeczności; zabranianie podróżowania ma mniejsze szanse bycia efektywnym.
+
+<!-- 
 In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
 At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
-
+<-->
 In this week's updates, we report:  
 
 * COVID-19 is circulating widely across Europe, with significant movement between countries.  
