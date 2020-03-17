@@ -15,15 +15,15 @@ abstract: "Esta narrativa explica como leer e interpretar arboles filogenéticos
 <!-- This is left-side text -->
 # [Tabla de contenido](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos?](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [¿Cómo puedo leer un árbol?](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [¿Cómo se relaciona el panel de "diversidad" con el árbol?](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos?](https://nextstrain.org/narratives/trees-background?n=1)
+* [¿Cómo puedo leer un árbol?](https://nextstrain.org/narratives/trees-background?n=2)
+* [¿Cómo se relaciona el panel de "diversidad" con el árbol?](https://nextstrain.org/narratives/trees-background?n=3)   
 * [Diferencias en función de la divergencia genética](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Diferencias en función del tiempo](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Estimando le fecha del inicio de un brote](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [¿Cómo debo interpretar los rasgos (colores) en el árbol?](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [¿Cómo se relaciona el mapa con el árbol?](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Lectura avanzada: incertidumbre en los árboles](https://nextstrain.org/narratives/trees-background?n=9).  
+* [Estimando le fecha del inicio de un brote](https://nextstrain.org/narratives/trees-background?n=6)
+* [¿Cómo debo interpretar los rasgos (colores) en el árbol?](https://nextstrain.org/narratives/trees-background?n=7) 
+* [¿Cómo se relaciona el mapa con el árbol?](https://nextstrain.org/narratives/trees-background?n=8)
+* [Lectura avanzada: incertidumbre estadística en los árboles](https://nextstrain.org/narratives/trees-background?n=9).  
 * [Sobre el conjunto de datos](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
@@ -58,7 +58,7 @@ Aquí, podemos visualizar el árbol de transmisión completo. En la práctica, s
 <!-- This is left-side text -->
 # [¿Cómo puedo leer un árbol?](https://nextstrain.org/ncov/2020-03-11)
 
-El eje "x" de un árbol representa el grado de diferencia y a estas líneas las llamamos de "ramas" (en unidades de tiempo o alguna medida de divergencia genética -- discutiremos esto a continuación). El eje "y" solo ayuda a expandir la visualización de las cosas para que podamos ver todo; Este eje no tiene ninguna unidad de medida.
+El eje horizontal "x" de un árbol representa el grado de diferencia y a estas líneas las llamamos de "ramas" (en unidades de tiempo o alguna medida de divergencia genética -- discutiremos esto a continuación). El eje vertical "y" solo ayuda a expandir la visualización de las cosas para que podamos ver todo; Este eje no tiene ninguna unidad de medida.
 <br><br>
 Las puntas de las ramas del árbol representan las muestras y también se denominan de nodos externos (es decir, los nodos azules que visualizamos en la  diapositiva anterior). Los nodos internos representan casos que no fueron muestreados, pero que creemos que fueron la fuente de todos los casos descendientes de ellos (es decir, los nodos rojos que visualizamos en la  diapositiva anterior). Estas relaciones se infieren analizando el patrón de mutaciones observado en los casos muestreados.
 
@@ -98,8 +98,8 @@ Echemos un vistazo a las primeras 169</tag> cepas del SARS-CoV-2 (el virus que c
 Aquí estamos mostrando el árbol filogenético en la parte superior de un gráfico de barras que muestra la variación (es decir, mutaciones) en el genoma.
 Sin estas mutaciones no podríamos construir el árbol, por lo que los dos están íntimamente conectados.
 <br><br>
-En este panel de "diversidad", el eje horizontal representa cada sitio del genoma viral (¡los aproximadamente treinta mil sitios!).
-El eje vertical indica cuánta variabilidad hay en cada sitio.
+En este panel de "diversidad", el eje horizontal representa cada locus (sitio/lugar) del genoma viral. Existen aproximadamente treinta mil locus en el genoma del SARS-CoV-2!.
+El eje vertical indica cuánta variabilidad hay en cada locus.
 <br><br>
 Hemos coloreado el árbol de acuerdo con una de estas mutaciones, en este caso el codón 314 en el gen "ORF1b".
 No hay una razón a priori para pensar que esta mutación es una mutación funcional (es decir, que confiere algún cambio biológico).
@@ -125,12 +125,11 @@ Puede ver cuántas mutaciones tiene una rama del árbol puedes pasar el puntero 
 
 <!-- ############ SLIDE BREAK ############# -->
 # [Diferencias en función del tiempo](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-También podemos visualizar cómo se ha propagado el virus a lo largo del tiempo utilizando la fecha de muestreo en el eje "x".
-Aquí, el eje "x" representa la fecha de muestreo de cada virus. Las posiciones de las puntas de las ramas del árbol indican la fecha en que se tomaron esas muestras. Las fechas de los nodos internos, los "casos que no muestreamos", se infieren en función de las fechas de muestreo de sus descendientes y la velocidad a la que muta el virus.
+También podemos visualizar cómo se ha propagado el virus a lo largo del tiempo utilizando la fecha de muestreo en el eje horizontal "x".
+Aquí, este eje "x" representa la fecha de muestreo de cada virus. Las posiciones de las puntas de las ramas del árbol indican la fecha en que se tomaron esas muestras. Las fechas de los nodos internos, los "casos que no muestreamos", se infieren en función de las fechas de muestreo de sus descendientes y la velocidad a la que muta el virus.
 <br><br>
 Observe cuántas secuencias que anteriormente aparecían juntas en una línea (lo que indica que son genomas idénticos) ahora se separan en el tiempo.
-Esto sucede cuando la velocidad a la que muta el virus es ligeramente más lenta que la velocidad a la que se propaga.
-Puede desplazarse hacia arriba y hacia abajo entre la diapositiva anterior y esta, para ver cómo cambia el árbol.
+Esto sucede cuando la velocidad a la que muta el virus es ligeramente más lenta que la velocidad a la que se propaga. Para ver las diferencias entre estos dos arboles, puede desplazarse hacia arriba y hacia abajo entre la diapositiva anterior y esta.
 
 <!-- There is NO right-side text -->
 
@@ -151,7 +150,7 @@ Si pasas el puntero sobre la línea vertical más a la izquierda, puede ver que 
 # [¿Cómo debo interpretar los rasgos (colores) en el árbol?](https://nextstrain.org/ncov/2020-03-11)
 Los árboles filogenéticos a menudo contienen información adicional, como la ubicación geográfica de cada muestra. A partir de esto, podemos inferir las ubicaciones de los nodos internos (casos intermedios hipotéticos, sin muestrear) utilizando modelos matemáticos. Esto puede ayudarnos a comprender cómo se mueve el virus de un lugar a otro.
 <br><br>
-Sin embargo, la interpretación de estos debe hacerse con precaución, ya que el muestreo y la secuenciación (o la falta de estos) pueden influir significativamente en la interpretación.
+Sin embargo, la interpretación de estos debe hacerse con precaución, ya que el muestreo y el secuenciamiento (o la falta de estos) pueden influir significativamente en la interpretación.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -184,11 +183,11 @@ Si hace clic en ['Explorar los datos'](https://nextstrain.org/ncov), puedes repr
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Lectura avanzada: incertidumbre en los árboles](https://nextstrain.org/ncov/2020-03-11)
+# [Lectura avanzada: incertidumbre estadística en los árboles](https://nextstrain.org/ncov/2020-03-11)
 Anteriormente, hablamos sobre cómo los nodos internos representan casos _hipotéticos_ no muestreados. De hecho, todos los árboles representan _hipótesis_ sobre cómo un patógeno evolucionó y se movió con el tiempo. Los árboles que presentamos en Nextstrain son estimaciones puntuales, es decir, la versión de esta historia que maximiza la probabilidad de observar los datos que tenemos.
 
 <br><br>
-Sin embargo, siempre hay incertidumbre en estas estimaciones. En términos generales, las partes del árbol que están densamente muestreadas tienen menos incertidumbre; las áreas escasamente muestreadas tienen mayor incertidumbre.
+Sin embargo, siempre hay incertidumbre estadística en estas estimaciones. En términos generales, las partes del árbol que están densamente muestreadas tienen menos incertidumbre; las áreas escasamente muestreadas tienen mayor incertidumbre.
 
 ```auspiceMainDisplayMarkdown
 # Una ilustración
