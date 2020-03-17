@@ -29,7 +29,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Streszczenie wykonawcze
  
 Przeanalizowaliśmy tutaj 410</tag> dostępnych publicznie genomów COVID-19. Porównując ze sobą te wirusowe genomy potrafimy ocenić jak COVID-19 ewoluuje i jak rozprzestrzenia się po świecie.
 
