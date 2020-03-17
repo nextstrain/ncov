@@ -32,7 +32,7 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+# [病原体的传播和系统发生树有什么关系？](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
 病原体的传播分两步：先是在宿主体内快速复制，然后传给下一个宿主。只有当一位感染者能够传给多个人时，才会开始在疾病人群中流行。
 <br><br>
 随着病原体的复制和传播，它的基因组会被复制很多次，随机突变（基因组复制时产生的错误）会在基因组中积累，这是正常现象。这些随机突变可以帮助我们追踪病原体的传播，了解它的传播路线和动态。
@@ -45,10 +45,9 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-这是一个传播树的简图。图上的每个圆点代表一个病例，横线的长度表明了他们感染的时长；用线连起来的病例表明了病原体在人际之间的传播。The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+这是一个传播树的简图。图上的每个圆点代表一个病例，横线的长度表明了他们感染的时长；用线连起来的病例表明了病原体在人际之间的传播。
 <br> <br>
-在这张图上，我们可以看到传播树的全貌，但是在现实中，我们只能观察到部分病例（蓝色）。传播树是未知的，而且对病例的数量一般也只能进行粗略的估计。基因组序列则使我们能够推测出传播树的部分未知区域。在这个例子中，传播树上标出了三个突变（小方块所示）。有同样突变的序列在遗传上的亲缘关系更近，这些突变可以让我们根据病毒的亲缘关系对属于同一条传播链的病例进行聚类。
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+在这张图上我们可以看到传播树的全貌，但是在现实中，我们只能观察到部分病例（蓝色），传播树是未知的，对病例的数量一般也只能进行粗略的估计。基因组序列则使我们能够推测出传播树的部分区域。在这个例子中，传播树上标出了三个突变（小方块所示）。因为有同样突变的序列在遗传上的亲缘关系更近，我们可以根据这些突变对属于同一条传播链的、亲缘关系很近的病毒进行聚类。
 </p>
 </div>
 ```
@@ -59,13 +58,13 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- This is left-side text -->
 # [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+演化树的横轴代表差异程度（时间上或者遗传上的差异——接下来就会讲到）。纵轴则是让数据展开，让我们能够看到各个点，它是没有测量单位的。
 <br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+演化树的末端代表样本（也就是上一页的蓝色病例），内部的节点代表没有被取样到、但被我们认为是所有后续病例的共同来源的病例（也就是上一页的红色节点）。它们的关系是通过分析样本中突变的分布来推测出的。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## 例子
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
