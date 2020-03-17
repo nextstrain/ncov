@@ -13,7 +13,7 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [目录](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
 * [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
@@ -33,13 +33,13 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 
 <!-- This is left-side text -->
 # [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+病原体的传播分两步：先是在宿主体内快速复制，然后传给下一个宿主。只有当一位感染者能够导致多起继发感染时，病原体才会开始在人群中流行。
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+随着病原体的复制和传播，它的基因组会被复制很多次，随机突变（基因组复制时产生的错误）会在基因组中积累，这是正常现象。这些随机突变可以帮助我们追踪病原体的传播，了解它的传播路线和动态。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# 例子
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
