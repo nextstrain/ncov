@@ -33,7 +33,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <!-- This is left-side text -->
 # [جدول المحتويات](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [مصادر الخلفية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=2).     
+* [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=2).     
 * [ملحوظة عن جمع العينات](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=3).
 * [دوران العدوى في اوروبا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=4).   
 * [الانتقال المحلي في المملكة المتحدة](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=5).
