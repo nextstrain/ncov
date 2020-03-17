@@ -427,7 +427,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-تمت المشاركات الكريمة لجينومات سارس كو في 2 من قبل علماء في المختبرات التاليةhe SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+تمت المشاركات الكريمة لجينومات سارس كو في 2 من قبل علماء في المختبرات التالية:
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
