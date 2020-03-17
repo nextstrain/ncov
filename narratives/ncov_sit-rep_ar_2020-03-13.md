@@ -42,7 +42,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 * [انتشار سارس كو في 2 في ولاية واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=8).
 * [انتشار سارس كو في 2 في ولاية كاليفورنيا](https://nextstrain.org/narratives/ncov/ar/sit-rep/2020-03-13?n=9).
 * [ماذا يمكنك فعله](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=10).
-* [اسءلة شاءعة ومفاهيم عامة مغلوطة](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=11).
+* [اسئلة شائعة ومفاهيم عامة خاطئة](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=11).
 * [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-13?n=12).
 
 <!-- This is right-side text -->
