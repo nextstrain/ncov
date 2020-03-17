@@ -120,45 +120,48 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <br><br>
 هذا يتوافق مع 4 او اكثر من حالات الادخال الفيروسي من أماكن اخرى
 <br><br>
-كما نرى ايضا حالات حيث بعد الادخال الفيروسي، هناك عدة حالات متقاربة جدا من نفس المنطقة.وهذا يتوافق مع الانتقال المجتمعي المحليمن أكثر من واحدة من تلك الادخالات
+كما نرى ايضا حالات حيث بعد الادخال الفيروسي، هناك عدة حالات متقاربة جدا من نفس المنطقة.وهذا يتوافق مع الانتقال المجتمعي المحلي من أكثر من واحدة من تلك الادخالات
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
+# [انتشار سارس كو في 2 من ايران](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+تم تحديد تسلسلات عدد من جينومات الفيروس لمرضى لديهم تاريخ سفر الى إيران. حيث كانت الجينومات متشابهة جدا. هذا يشير إلى أن الوباء في إيران يمكن أن يكون بسبب حالة إدخال واحدة والتي فيما بعد انتشرت إلى أماكن أخرى متعددة
 <br><br>
-Note that there are no full genomes available from patients in Iran.
+لاحظ بأنه لا يتوفر جينومات كاملة لفيروسات من مرضى في ايران
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
+# [الادخالات الفيروسية إلى الولايات المتحدة الأميركية](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+يمكننا هنا ملاحظة أن الفيروس تم إدخاله إلى الولايات المتحدة الأميركية مراحل متعددة مستقلة
 <br><br>
-Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
-However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases.
+معظم هذه الادخالات غير مرتبطة مع أي حالات تم جمع عينات منها من الولايات المتحدة، ولذلك نحن لسنا على يقين اذا أدت هذه الادخالات إلى حالات وباءية محلية.
+ومع ذلك، وحيث أن قدرات الفحص للكشف عن الفيروس لم تتزايد حتى الان في بعض المناطق، فنحن نتوقع أن هناك العديد من الحالات غير المسجلة.
+
 <br><br>
-For Washington and California, though, we do see clusters of cases that are closely related.
-This suggests ongoing transmission and local spread within these two states.
+أما بالنسبة لواشنطن وكاليفورنيا، فعلى الرغم من ذلك، فنحن نرى تط
+تجمعات لحالات متقاربة جدا.
+هذا يؤدي إلى الاقتراح بأن هناك انتقال مستمر للعدوى وانتشار محلي في هاتين الولايتين
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Here, we see a large cluster of cases from Washington that are all closely related.
-From this, we conclude that there is extensive local spread within Washington state.
+# [انتشار سارس كو في 2 في ولاية واشنطن في الولايات المتحدة](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+نستطيع هنا أن نشاهد تجمع كبير لحالات من واشنطن وهي مرتبطة جدا ببعضها
+
+نستنتج من ذلك بأن هناكزانتشارا محليا مكثفا في ولاية واشنطن.
 <br><br>
-Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship.
-We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis.
+من المثير للاهتمام أن عينات واشنطن تتداخل مع عينات من سفرة الأميرة جراند السياحية
+لسنا متأكدين حتى الان أن كان الانتشار الفيروسي حدث من السفينة إلى واشنطن ام بالعكس، مع حصولنا على بيانات إضافية سنقوم بتحديث تحليلاتنا.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
+# [انتشار سارس كو في 2 في ولاية كاليفورنيا في الولايات المتحدة](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+بالنظر إلى العينات من كاليفورنيا فنحن نرى دليلا على عدة ادخالات فيروسية.Looking at samples from California, we see evidence for multiple introductions.
+والاكثر أهمية أننا نرى على الاقل تجمع واحد على الأقل لحالات مرتبطة جدا،كل العينات في كاليفورنيا خلال فترة زمنية قصيرة (اضغط هنا ['استعرض البيانات'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
 <br><br>
-This strongly suggests that there is ongoing local transmission within California.
+وهذا يقترح بقوة أن هناك انتقال محلي جار في كاليفورنيا
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
