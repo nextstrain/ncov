@@ -42,6 +42,7 @@ def modify(node):
     }
 
     # change actual NODE division_exposure to have collection division 
+    node["node_attrs"]["division_exposure_backup"] = node["node_attrs"]["division_exposure"]
     node["node_attrs"]["division_exposure"] = node["node_attrs"]["division"]
     return n
 
@@ -60,8 +61,13 @@ def switch_division(node):
     if (division and not division_exposure):
         raise Exception("Where there's division we should always have division_exposure")
     if division_exposure:
+      if node["name"] == "Germany/BavPat2/2020":
+        import ipdb; ipdb.set_trace()
       node["node_attrs"]["division"] = division_exposure
-      del node["node_attrs"]["division_exposure"]
+      if "division_exposure_backup" in node["node_attrs"] and node["node_attrs"]["division_exposure_backup"]["value"] != node["node_attrs"]["division_exposure"]["value"]:
+        node["node_attrs"]["division_exposure"]["value"] = node["node_attrs"]["division_exposure_backup"]["value"]
+      else:
+        del node["node_attrs"]["division_exposure"]
 
 def reset_colors(colorings, values_wanted, colors):
     """

@@ -57,6 +57,9 @@
     },
     {
       "key": "genbank_accession"
+    },
+    {
+      "key": "division_exposure"
     }
   ],
   "geo_resolutions": [
