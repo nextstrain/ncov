@@ -83,6 +83,8 @@ location	Jönköping
 location	Helsinki
 location	Sao Paulo
 location	Rio de Janeiro
+location	feira de santana
+location	vila velha
 location	Mexico City
 location	King County
 location	Snohomish County
@@ -149,6 +151,11 @@ division	Normandie
 division	Grand Est
 division	Auvergne Rhone Alpes
 division	Flanders
+division	Leuven
+division	Sint-Niklaas
+division	Kraainem
+division	Huldenberg
+division	Brussels
 division	Bavaria
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
@@ -188,7 +195,10 @@ division	Kinshasa
 division	Santiago
 division	Talca
 division	Sao Paulo
+division	Espirito Santo
+division	Bahia
 division	Rio de Janeiro
+division	Panama City
 division	Mexico City
 division	Texas
 division	Arizona
@@ -233,6 +243,7 @@ country	Nigeria
 country	Congo
 country	Chile
 country	Brazil
+country	Panama
 country	Mexico
 country	USA
 country	Canada
