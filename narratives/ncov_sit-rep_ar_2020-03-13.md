@@ -167,37 +167,33 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [ماخوذات](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- تم الدخول الفيروس إلى عدة أجزاء من العالم عدة مرات.لم تتسبب كل الادخالات بانتشار محلي
-
+- تم ادخال الفيروس إلى عدة أجزاء من العالم عدة مرات.لم تتسبب كل الادخالات بانتشار محلي
 <br><br>
 -نشاهد دليلا على انتشار محلي في اوروبا، أجزاء من الولايات المتحدة،الصين، جنوب شرق آسيا
-
-
 <br><br>
 -السيطرة على الانتشارات الوبائية المحلية من خلال العزل الاجتماعي مهمة جدا لحماية الأشخاص الأكثر عرضة للاصابة
-
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
 # What you can do  
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+العزل الاجتماعي -- هذا يعني, تقليل عدد الأشخاص الذين تلاقيهم في كل يوم-- يمكن أن يشكل تحديا لكنه مفيد جدا لمصلحة الجميع  
+ لو أن كل شخص بلا اتصاله اليومي بالآخرين بنسبة 25 بالمئة فسنتوقع أن نرى انخفاضا بنسبة 50 بالمئة في الإعداد التراكمية لحاىات الإصابة خلال الشهر القادم ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
-## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
+## خطوات يستطيع الأفراد القيام بها
+* تقليل عدد الأشخاص الذين تتواصل معهم يوميا، خصوصا أن كنت من مجموعة الأشخاص الأكثر عرضة للاصابة(كبار السن والأشخاص المصابون بأمراض مزمنة () 
+* تذكر لو انك ليس مؤهلا للإصابة فهناك العديد من الاشخاص من حولك ممن هم مؤهلون للاصابة، لذلك اعمل بهذه الإجراءات الوقائية لحمايتهم 
+* اغسل يديك Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
+* ابق في المنزل إن كنت مريضا،كنت مستعدا مع كميات إضافية من الاحتياجات في حال احتجت إلى حجر صحي. ذاتي
+* اذا كان مالك عمل ، قم بتشجيع موظفيك للبقاء في المنزل عند مرضهم) وعوضهم ماديا من أجل ذلك( 
 
-## Steps officials can take  
-* Make testing free and broadly available.  
-* Put social distancing measures in place.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## خطوات يستطيع المسؤولون القيام بها
+* اجعل الفحوصات مجانية ومنارة في كل مكان 
+* قم بمتابعة تنفيذ العزل الاجتماعي 
+* قم بتعويض مادي للمتضررين من إجراءاتالعزل الاجتماعي)مثلا:العاملون بنظام الساعات، اولئك من لديهم مسؤوليات رعاية الدكرور أو الصغار،المشاريع الصغيرة وغيرهم( 
 ```
 
 
@@ -205,33 +201,33 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [اسءلة شاءعة ومفاهيم خاطئة](https://nextstrain.org/ncov/2020-03-05)
 
-#### We know that a lot of people have questions about COVID-19.
+#### نعرف بأن العديد من الاشخاص لديهم اسءلة عن كوفيد 19
 
-#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+#### [يجب علينا إعداد دليل لمحاولة الإجابة عن معظم الأسئلة الشائعة](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
+#### فيدرالية العلماء الأمريكية تحتفظ ايضا بمصدر ممتاز الأسئلة الأكثر شيوعاً (https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Further reading  
 
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "لا تصدق نظريات المؤامرة التي تسمعها عن فيروس كورونا وفيروس الايدز" [مقالة علمية](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "ادعاءات نظرية المؤامرة الغير مستندة على دلائل تدعي بأن فيروس كورونا المستجد معدل جينيا" [مقالة علمية](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "لا، فيروس كورونا ووهان ليس معدلة جينيا ليتم به وضع قطع من فيروس الايدز" [مقالة علمية](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "محاربة خرافات دور ما فيروس" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 
-# Misconceptions
+# مفاهيم خاطئة
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+هناك عدد من المفاهيم الخاطئة التي تم تداولها عن أصل ومصدر فيروس كورونا المستجد
+خلال الانتشارات الوبائية مثل هذه الحالة فإن انتشار المعلومات المعروف بأنها غير صحيحة سيؤدي إلى حالات الهلع ويؤدي إلى عدم وجود ثقة بالعلماء والحكومات وهذا يعني بأنهم لن يلتزموا بالنصائح والإجراءات المناسبة 
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+من أجل محاولة تفسير لماذا هذه الآراء غير صحيحة قام العلماء بالعيد هذه النظريات في الصفحات التالية أدناه
 
 <div>
 
@@ -248,20 +244,19 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
-
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+# [الحقوق العلمية](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+نود هنا أن نقدر اعمال وجهود جميع العلماء 
+العاملين على مواجهة هذا الوباء على العمل الرائع الذي قاموا به وخصوصا أولئك في الصين.فقط من خلال مشاركة بيانات الجينومات أصبحت مثل هذه التحليلات ممكنة
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+نقدر عاليا.  [GISAID](https://gisaid.org) على مشاركتهم منصتهم والتي من خلالها تم رفع البيانات ومشاركتها.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+نحن شاكرين للمختبرات التالية التي شاركونا بالبيانات
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -389,11 +384,11 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [الحقوق العلمية التفصيلية](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+هذه البيانات تم مشاركتها من خلال [GISAID](https://gisaid.org).
 
+نقدر ونؤمن عاليا مساهماتهم
 <br>
 
 To the right we give specific sequences shared by each lab.
