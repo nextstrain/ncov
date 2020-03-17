@@ -79,7 +79,7 @@ A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹
 </p>
 
 ### Further reading  
-* [계통도를 읽는 법: Arctic Network의 서 (영어)](https://artic.network/how-to-read-a-tree.html).  
+* [계통도를 읽는 법: Arctic Network의 설명서 (영어)](https://artic.network/how-to-read-a-tree.html).  
 * [계통도를 읽는 법: Khan academy의 영상 (영어)](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
 </div>
