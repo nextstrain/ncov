@@ -79,7 +79,7 @@ A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹
 </p>
 
 ### Further reading  
-* [계통도를 읽는 법: Arctic Network의 셜멍서 (영어)](https://artic.network/how-to-read-a-tree.html).  
+* [계통도를 읽는 법: Arctic Network의 서 (영어)](https://artic.network/how-to-read-a-tree.html).  
 * [계통도를 읽는 법: Khan academy의 영상 (영어)](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
 </div>
@@ -200,20 +200,19 @@ However, there is always uncertainty in these estimates. Generally speaking, par
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [과학적 기여자들](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+이번 유행에 관련된 모든 과학자들, 특히 중국의 과학자들의 대단하고 신속한 작업에 감사를 표합니다. 유전체 정보 및 메타정보의 빠른 공유가 아니었다면 이 분석들은 불가능했을 것입니다.
 
 <br><br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+우리는 데이터를 업로드하고 공유할 수 있는 플랫폼을 제공한 [GISAID](https://gisaid.org)에게 감사의 뜻을 전합니다.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+우리는 다음 실험실들이 제공한 데이터들에 대하여 감사의 말씀을 전합니다:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -341,19 +340,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [과학적 기여: 상세 내역](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
+
 
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+우측에 각 연구실이 기여한 구체적인 서열 정보가 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+SARS-CoV-2 유전체는 아래 연구실의 과학자들에 의해 제공되었습니다:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
