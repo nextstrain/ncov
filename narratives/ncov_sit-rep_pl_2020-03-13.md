@@ -37,13 +37,29 @@ W celu zapoznania się z aktualnymi danymi o liczbie potwierdzonych zakażeń w 
 
 W tym raporcie pokazujemy, że wirus rozprzestrzenia się na dużym obszarze planety, z dowodami na lokalne przekazywanie wirusa na wielu kontynantach.
 
-W tym momencie, nalegamy aby skupić się na działaniach prowadzących do spowolnienia rosprzestrzeniania się wirusa wewnątrz lokalnych społeczności; zabranianie podróżowania ma mniejsze szanse bycia efektywnym.
+W tym momencie, nalegamy aby skupić się na działaniach prowadzących do spowolnienia rosprzestrzeniania się wirusa wewnątrz lokalnych społeczności; zabronienie podróżowania ma mniejsze szanse bycia efektywnym.
 
 <!-- 
 In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
 At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
 <-->
-In this week's updates, we report:  
+W wiadomościach z tego tygodnia raportujemy:
+
+* COVID-19 rozprzestrzenia się szeroko po Europie ze znaczącą ilością transmisji między państwami.
+
+* Zidentyfikowaliśmy przynajmniej 4 niezależne transmisje do Wielkiej Brytanii. <!--FIXME-->
+
+* Wystąpiło kilka transmisji związanych z podróżami z Iranu do innym miejsc na świecie.
+
+* Do dziś natąpiło dużo wprowadzeń do USA, skutkujących w lokalnych łańcuchach transmisji w wielu stanach.
+
+* Wybuch fali zakażeń w stanie Washington się utrzymuje; niektóre z przypadków są ściśle związane z do tych ze statku wycieczkowego Grand Princess.
+
+* W stanie California występuje lokalna cyrkulacja COVID-19
+
+* Zabranianie bezpośrednich kontaktów społecznych <!-- TODO a better term for social distancing? --> powinno być szybko wprowadzone aby obniżyć ciężar na systemy opieki zdrowotnej i aby chronić osoby wysokiego ryzyka.
+ 
+<!-- In this week's updates, we report:  
 
 * COVID-19 is circulating widely across Europe, with significant movement between countries.  
 
@@ -58,6 +74,7 @@ In this week's updates, we report:
 * There is local circulation of COVID-19 in California.  
 
 * Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+-->
 ```
 
 
