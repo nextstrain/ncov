@@ -47,7 +47,7 @@ A medida que el patógeno se replica y se propaga, su genoma necesita ser replic
 <p>
 La ilustración anterior muestra el boceto de un árbol de transmisión. Cada círculo representa un caso (persona infectada) y las líneas horizontales indican la duración de su infección. Los casos que aparecen conectados representan transmisiones de una persona a otra.
 <br> <br>
-Aquí, podemos visualizar el árbol de transmisión completo. En la práctica, sin embargo, solo se muestrea un subconjunto de casos (en azul) y el árbol de transmisión es desconocido. Por lo general, solo contamos con estimaciones aproximadas del número de casos. Las secuencias genomicas nos permiten inferir partes del árbol de transmisión. En este ejemplo, se indican tres mutaciones (los pequeños diamantes) en el árbol. Las secuencias que tienen las mismas mutaciones están estrechamente relacionadas entre sí, por lo que estas mutaciones nos permiten agrupar muestras en grupos de virus estrechamente relacionados que pertenecen a las mismas cadenas de transmisión.
+Aquí, podemos visualizar el árbol de transmisión completo. En la práctica, sin embargo, solo se muestrea un subconjunto de casos (en azul) y el árbol de transmisión es desconocido. Por lo general, solo contamos con estimaciones aproximadas del número de casos. Las secuencias genómicas nos permiten inferir partes del árbol de transmisión. En este ejemplo, se indican tres mutaciones (los pequeños diamantes) en el árbol. Las secuencias que tienen las mismas mutaciones están estrechamente relacionadas entre sí, por lo que estas mutaciones nos permiten agrupar muestras en grupos de virus estrechamente relacionados que pertenecen a las mismas cadenas de transmisión.
 </p>
 </div>
 ```
@@ -93,7 +93,7 @@ Basados en este árbol, concluiríamos que A y B están estrechamente relacionad
 <!-- This is left-side text -->
 # [¿Cómo se relaciona el panel de "diversidad" con el árbol?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Echemos un vistazo a las primeras 169</tag> cepas ded SARS-CoV-2 (el virus que causa COVID-19) que se han compartido públicamente. Al igual que en la última página, creamos un alineamiento de estas secuencias virales (puede ver cómo se realizaron todos los análisis mencionados aquí [en GitHub](https://github.com/nextstrain/ncov)).
+Echemos un vistazo a las primeras 169</tag> cepas del SARS-CoV-2 (el virus que causa COVID-19) que se han compartido públicamente. Al igual que en la última página, creamos un alineamiento de estas secuencias virales (puede ver cómo se realizaron todos los análisis mencionados aquí [en GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
 Aquí estamos mostrando el árbol filogenético en la parte superior de un gráfico de barras que muestra la variación (es decir, mutaciones) en el genoma.
 Sin estas mutaciones no podríamos construir el árbol, por lo que los dos están íntimamente conectados.
@@ -102,7 +102,7 @@ En este panel de "diversidad", el eje horizontal representa cada sitio del genom
 El eje vertical indica cuánta variabilidad hay en cada sitio.
 <br><br>
 Hemos coloreado el árbol de acuerdo con una de estas mutaciones, en este caso el codón 314 en el gen "ORF1b".
-No hay una razón a priori para pensar que esta mutación es una mutación funcional (es decir, que confiere algun cambio biológico).
+No hay una razón a priori para pensar que esta mutación es una mutación funcional (es decir, que confiere algún cambio biológico).
 Son precisamente mutaciones como esta las que usamos para definir las relaciones entre secuencias y construir el árbol.
 <!-- There is NO right-side text -->
 
@@ -141,7 +141,7 @@ Puede desplazarse hacia arriba y hacia abajo entre la diapositiva anterior y est
 También podemos usar la genómica para estimar la fecha del inicio de un brote, incluso si el brote comenzó antes de darnos cuenta de que estaba sucediendo.
 Debido a que podemos asignar fechas a cada muestra y nodo en el árbol, podemos usar esto para inferir la fecha de la 'raíz' del árbol. Esto representa el "ancestro común más reciente" de todas las secuencias del SARS-CoV-2 que tenemos hasta ahora. Por ejemplo, tus abuelos son los "antepasados comunes más recientes" de ti y de todos tus primos hermanos.
 <br><br>
-Si pasa el mouse sobre la línea vertical más a la izquierda, puede ver que la fecha de inicio inferida es entre mediados de noviembre y mediados de diciembre de 2019 para este brote en particular.
+Si pasas el puntero sobre la línea vertical más a la izquierda, puede ver que la fecha de inicio inferida es entre mediados de noviembre y mediados de diciembre de 2019 para este brote en particular.
 
 <!-- There is NO right-side text -->
 
@@ -151,7 +151,7 @@ Si pasa el mouse sobre la línea vertical más a la izquierda, puede ver que la 
 # [¿Cómo debo interpretar los rasgos (colores) en el árbol?](https://nextstrain.org/ncov/2020-03-11)
 Los árboles filogenéticos a menudo contienen información adicional, como la ubicación geográfica de cada muestra. A partir de esto, podemos inferir las ubicaciones de los nodos internos (casos intermedios hipotéticos, sin muestrear) utilizando modelos matemáticos. Esto puede ayudarnos a comprender cómo se mueve el virus de un lugar a otro.
 <br><br>
-Sin embargo, la interpretación de estos debe hacerse con precaución, ya que el muestreo y el secuenciamiento (o la falta de los mismos) pueden influir significativamente en la interpretación.
+Sin embargo, la interpretación de estos debe hacerse con precaución, ya que el muestreo y la secuenciación (o la falta de estos) pueden influir significativamente en la interpretación.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
