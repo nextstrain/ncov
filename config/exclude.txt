@@ -63,6 +63,7 @@ Guangzhou/GZMU0016/2020
 # Excluding because seem to be too divergent - worth double checking
 Shandong/LY002/2020
 Shandong/LY001/2020
+Guangzhou/GZMU0047/2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
