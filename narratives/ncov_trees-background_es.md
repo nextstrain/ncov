@@ -13,7 +13,7 @@ abstract: "Esta narrativa explica como leer e interpretar arboles filogenéticos
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [Tabla de contenido](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
 * [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos?](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [¿Cómo puedo leer un árbol?](https://nextstrain.org/narratives/trees-background?n=2)?  
@@ -39,7 +39,7 @@ A medida que el patógeno se replica y se propaga, su genoma necesita ser replic
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Un ejemplo
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="Ilustración que muestra cómo se relacionan el árbol de transmisión y el árbol filogenético" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
