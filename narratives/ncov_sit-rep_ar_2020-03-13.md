@@ -166,12 +166,15 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
+# [ماخوذات](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+- تم الدخول الفيروس إلى عدة أجزاء من العالم عدة مرات.لم تتسبب كل الادخالات بانتشار محلي
+
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
+-نشاهد دليلا على انتشار محلي في اوروبا، أجزاء من الولايات المتحدة،الصين، جنوب شرق آسيا
+
+
 <br><br>
-- Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
+-السيطرة على الانتشارات الوبائية المحلية من خلال العزل الاجتماعي مهمة جدا لحماية الأشخاص الأكثر عرضة للاصابة
 
 <!-- This is the right-side text -->
 
