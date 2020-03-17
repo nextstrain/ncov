@@ -16,7 +16,7 @@ abstract: "Esta narrativa explica como leer e interpretar arboles filogenéticos
 # [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
 * [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos?](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [¿Cómo leo un árbol?](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [¿Cómo puedo leer un árbol?](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [¿Cómo se relaciona el panel de "diversidad" con el árbol?](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Medición de diferencias en función de la divergencia genética](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Medición de diferencias en función del tiempo](https://nextstrain.org/narratives/trees-background?n=5).  
@@ -32,22 +32,22 @@ abstract: "Esta narrativa explica como leer e interpretar arboles filogenéticos
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+# [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Los patógenos se propagan a través de la replicación rápida en un huésped infectado seguido de la transmisión a otro huésped. Una epidemia solo puede comenzar cuando una infección da como resultado más de una infección adicional.
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+A medida que el patógeno se replica y se propaga, su genoma necesita ser replicado muchas veces y esto lleva a la acumulación de mutaciones aleatorias (errores de copia) en el genoma; esto es normal. Estas mutaciones aleatorias pueden ayudar a rastrear la propagación del patógeno y nos pueden permitir aprender sobre sus rutas y dinámicas de transmisión.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # An example
 <div width="50%" margin="auto">
 <p>
-<img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
+<img width="500px" alt="Ilustración que muestra cómo se relacionan el árbol de transmisión y el árbol filogenético" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+La ilustración anterior muestra el boceto de un árbol de transmisión. Cada círculo representa un caso (persona infectada) y las líneas horizontales indican la duración de su infección. Los casos que aparecen conectados representan transmisiones de una persona a otra.
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+Aquí, podemos visualizar el árbol de transmisión completo. En la práctica, sin embargo, solo se muestrea un subconjunto de casos (en azul) y el árbol de transmisión es desconocido. Por lo general, solo contamos con estimaciones aproximadas del número de casos. Las secuencias genomicas nos permiten inferir partes del árbol de transmisión. En este ejemplo, se indican tres mutaciones (los pequeños diamantes) en el árbol. Las secuencias que tienen las mismas mutaciones están estrechamente relacionadas entre sí, por lo que estas mutaciones nos permiten agrupar muestras en grupos de virus estrechamente relacionados que pertenecen a las mismas cadenas de transmisión.
 </p>
 </div>
 ```
@@ -56,26 +56,27 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [¿Cómo puedo leer un árbol?](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+El eje "x" de un árbol representa el grado de diferencia y a estas líneas las llamamos de "ramas" (en unidades de tiempo o alguna medida de divergencia genética -- discutiremos esto a continuación). El eje "y" solo ayuda a expandir la visualización de las cosas para que podamos ver todo; Este eje no tiene ninguna unidad de medida.
 <br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+Las puntas de las ramas del árbol representan las muestras y también se denominan de nodos externos (es decir, los nodos azules que visualizamos en la  diapositiva anterior). Los nodos internos representan casos que no fueron muestreados, pero que creemos que fueron la fuente de todos los casos descendientes de ellos (es decir, los nodos rojos que visualizamos en la  diapositiva anterior). Estas relaciones se infieren analizando el patrón de mutaciones observado en los casos muestreados.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## Un ejemplo
 <div width="50%" margin="auto">
 <p>
-<img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
+<img width="700px" alt="Ejemplo de filogenia donde todos o solo un subconjunto de casos están incluidos en la filogenia final" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+Arriba a la izquierda, vemos una ilustración con un árbol filogenético donde las mutaciones se muestran como círculos de colores. A la derecha están las secuencias correspondientes, también con mutaciones que se muestran como círculos de colores. Podemos ver que las secuencias que comparten las mismas mutaciones se agrupan. Cuando las secuencias aparecen unidas por una línea vertical plana, como A y B, esto significa que no hay diferencias entre ellas, sus secuencias son idénticas.
 <br><br>
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+Cuando una secuencia se encuentra por sí sola en una línea larga, como C o E, esto significa que tiene mutaciones únicas que no se encuentran en otras secuencias. Cuanto más larga es la línea, más mutaciones tiene la secuencia.
+A y B también tienen mutaciones únicas (el círculo verde) que no comparten con las otras secuencias, pero A y B son idénticas entre sí.
 <br><br>
-Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
+Basados en este árbol, concluiríamos que A y B están estrechamente relacionados entre sí, y que D y E están estrechamente relacionados entre sí. A y B están más estrechamente relacionados con C que con D y C.
+
 </p>
 
 ### Further reading  
