@@ -15,14 +15,14 @@ abstract: "Esta narrativa explica como leer e interpretar arboles filogenéticos
 <!-- This is left-side text -->
 # [Tabla de contenido](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos?](https://nextstrain.org/narratives/trees-background?n=1)
-* [¿Cómo puedo leer un árbol?](https://nextstrain.org/narratives/trees-background?n=2)
-* [¿Cómo se relaciona el panel de "diversidad" con el árbol?](https://nextstrain.org/narratives/trees-background?n=3)   
+* [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos](https://nextstrain.org/narratives/trees-background?n=1)?
+* [¿Cómo puedo leer un árbol](https://nextstrain.org/narratives/trees-background?n=2)?
+* [¿Cómo se relaciona el panel de "diversidad" con el árbol](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Diferencias en función de la divergencia genética](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Diferencias en función del tiempo](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Estimando le fecha del inicio de un brote](https://nextstrain.org/narratives/trees-background?n=6)
-* [¿Cómo debo interpretar los rasgos (colores) en el árbol?](https://nextstrain.org/narratives/trees-background?n=7) 
-* [¿Cómo se relaciona el mapa con el árbol?](https://nextstrain.org/narratives/trees-background?n=8)
+* [Estimando le fecha del inicio de un brote](https://nextstrain.org/narratives/trees-background?n=6)?
+* [¿Cómo debo interpretar los rasgos (colores) en el árbol](https://nextstrain.org/narratives/trees-background?n=7)?
+* [¿Cómo se relaciona el mapa con el árbol](https://nextstrain.org/narratives/trees-background?n=8)?
 * [Lectura avanzada: incertidumbre estadística en los árboles](https://nextstrain.org/narratives/trees-background?n=9).  
 * [Sobre el conjunto de datos](https://nextstrain.org/narratives/trees-background?n=10).  
 
@@ -79,7 +79,7 @@ Basados en este árbol, concluiríamos que A y B están estrechamente relacionad
 
 </p>
 
-### Lecturas adicionales 
+### Lecturas adicionales
 * [Cómo leer un árbol: tutorial por Arctic Network(en inglés)](https://artic.network/how-to-read-a-tree.html).  
 * [Cómo leer un árbol: video por la academia Khan(en inglés)](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
