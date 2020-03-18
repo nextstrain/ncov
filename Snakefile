@@ -93,7 +93,8 @@ rule align:
             --reference-sequence {input.reference} \
             --output {output.alignment} \
             --nthreads auto \
-            --remove-reference
+            --remove-reference \
+            --fill-gaps
         """
 
 rule mask:
@@ -196,7 +197,7 @@ rule ancestral:
             --alignment {input.alignment} \
             --output-node-data {output.node_data} \
             --inference {params.inference} \
-            --keep-ambiguous
+            --infer-ambiguous
         """
 
 rule translate:

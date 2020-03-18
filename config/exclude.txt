@@ -59,6 +59,7 @@ Wuhan/IPBCAMS-WH-05/2020
 Wuhan/IVDC-HB-envF54/2020
 Wuhan/WH02/2019
 Guangzhou/GZMU0016/2020
+Guangzhou/GZMU0047/2020
 
 # Excluding because seem to be too divergent - worth double checking
 Shandong/LY002/2020
