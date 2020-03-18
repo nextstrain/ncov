@@ -65,6 +65,11 @@ Guangzhou/GZMU0047/2020
 Shandong/LY002/2020
 Shandong/LY001/2020
 USA/MN1-MDH1/2020
+USA/WA-UW40/2020
+USA/WA-UW53/2020
+USA/WA-UW65/2020
+USA/WA11-UW7/2020
+Wuhan/IVDC-HB-envF13/2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
