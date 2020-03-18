@@ -60,7 +60,7 @@ rule filter:
         min_length = 25000,
         group_by = "country",
         sequences_per_group = 500,
-        exclude_where = "date='2020'"
+        exclude_where = "date='2020' date='2020-01' date='2020-02' date='2020-03'"
     shell:
         """
         augur filter \
