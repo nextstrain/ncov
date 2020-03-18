@@ -1,8 +1,28 @@
 ---
 title: ¿Cómo interpretar los árboles filogenéticos?
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
-authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Roy Costilla
+  - Miguel I. Paredes
+  - Julián Villabona-Arenas
+translatorLinks:
+  - https://researchers.uq.edu.au/researcher/18392
+  - https://twitter.com/miguelp1120
+  - https://www.lshtm.ac.uk/aboutus/people/villabona-arenas.julian
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Esta narrativa explica como leer e interpretar arboles filogenéticos que informan la epidemiología genómica. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
@@ -15,16 +35,16 @@ abstract: "Esta narrativa explica como leer e interpretar arboles filogenéticos
 <!-- This is left-side text -->
 # [Tabla de contenido](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos](https://nextstrain.org/narratives/trees-background?n=1)?
-* [¿Cómo puedo leer un árbol](https://nextstrain.org/narratives/trees-background?n=2)?
-* [¿Cómo se relaciona el panel de "diversidad" con el árbol](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Diferencias en función de la divergencia genética](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Diferencias en función del tiempo](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Estimando le fecha del inicio de un brote](https://nextstrain.org/narratives/trees-background?n=6)?
-* [¿Cómo debo interpretar los rasgos (colores) en el árbol](https://nextstrain.org/narratives/trees-background?n=7)?
-* [¿Cómo se relaciona el mapa con el árbol](https://nextstrain.org/narratives/trees-background?n=8)?
-* [Lectura avanzada: incertidumbre estadística en los árboles](https://nextstrain.org/narratives/trees-background?n=9).  
-* [Sobre el conjunto de datos](https://nextstrain.org/narratives/trees-background?n=10).  
+* [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos](https://nextstrain.org/narratives/trees-background/es?n=2)?
+* [¿Cómo puedo leer un árbol](https://nextstrain.org/narratives/trees-background/es?n=3)?
+* [¿Cómo se relaciona el panel de "diversidad" con el árbol](https://nextstrain.org/narratives/trees-background/es?n=4)?   
+* [Diferencias en función de la divergencia genética](https://nextstrain.org/narratives/trees-background/es?n=5).  
+* [Diferencias en función del tiempo](https://nextstrain.org/narratives/trees-background/es?n=6).  
+* [Estimando le fecha del inicio de un brote](https://nextstrain.org/narratives/trees-background/es?n=7)?
+* [¿Cómo debo interpretar los rasgos (colores) en el árbol](https://nextstrain.org/narratives/trees-background/es?n=8)?
+* [¿Cómo se relaciona el mapa con el árbol](https://nextstrain.org/narratives/trees-background/es?n=9)?
+* [Lectura avanzada: incertidumbre estadística en los árboles](https://nextstrain.org/narratives/trees-background/es?n=10).  
+* [Sobre el conjunto de datos](https://nextstrain.org/narratives/trees-background/es?n=11).  
 
 <!-- No right-side text -->
 
