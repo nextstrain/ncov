@@ -45,9 +45,9 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+يظهر الشكل الموضح أعلاه عرض لشجرة انتشار العدوى. حيث أن كل دائرة تمثل حالة (شخص مصاب), والخطوط الافقية تشير الى طول فترة اصاباتهم. الحالات المترابطة تشير الى انتشار العدوى من شخص واحد الى الآخر.
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+يظهر هنا صورة كاملة لشجرة انتشار العدوى. عمليا، مع ذلك، مجموعة واحدة من الحالات فقط تم جمعها (بالازرق)؛ ولذلك شجرة الانتشار غير معلومة وما هو متوفر فقط تقدير تقريبي عن عدد الحالات. تسلسل الجينومات يجعلنا قادرين على تحليل اجزاء من شجرة الانتشار. في هذا المثال، مع ذلك، هناك ثلاث طفرات (معينات صغيرة) مشار لها على الشجرة. التسلسلات التي تمتلك نفس الطفرات هي الاكثر ارتباطا وهذه الطفرات تجعلنا نجمع العينات في عناقيد من الفيروسات الاكثر تقاربا والتي تنتمي لنفس سلاسل الانتشار
 </p>
 </div>
 ```
