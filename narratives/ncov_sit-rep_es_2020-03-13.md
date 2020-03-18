@@ -88,7 +88,7 @@ En la actualización de esta semana, reportamos que:
 # [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-05)
 A continuación, hemos preparado algunos recursos de información (actualmente en inglés) que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
 
-Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion en ingles ['Cómo leer philogenias'](https://nextstrain.org/narratives/trees-background) antes de leer el presente reporte.
+Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion ['Cómo leer philogenias'](https://nextstrain.org/narratives/trees-background/es) antes de leer el presente reporte.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -100,7 +100,7 @@ Si no estas familiarizado con la filogenética, te recomendamos leer la siguient
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Antecendentes recientes del brote de COVID-19</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer philogenias</a>
+  <a href="https://nextstrain.org/narratives/trees-background/es"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer philogenias</a>
 </div>
 
 ## Lecturas Adicionales
