@@ -128,6 +128,7 @@ division	Bern	46.855135	7.570549
 division	British Columbia	54.010982	-124.745183
 division	Brussels	50.8503	4.3517
 division	California	36.357039	-119.690182
+division	China	33.394333	104.689839
 division	Chongqing	29.858721	107.375623
 division	Chungcheongnam	36.685948	126.799198
 division	Comunitat Valenciana	39.337	-0.354
@@ -136,6 +137,7 @@ division	Diamond Princess	35.046935	139.419325
 division	Drenthe	52.846963	6.608915
 division	Dublin	53.343100	-6.262191
 division	England	52.405994	-1.671707
+division	Europe	48.684312	13.651501
 division	Espirito Santo	-19.1834	-40.3089
 division	Finland	61.751734	26.186437
 division	Flanders	51.056536	4.254283
@@ -214,6 +216,7 @@ division	Småland	57.528294	14.463824
 division	Seoul	37.548278	126.990916
 division	Taiwan	23.816900	121.031365
 division	Talca	-35.462909	-71.370960
+division	Tbilisi	41.733699	44.818487
 division	Texas	31.146868	-99.188758
 division	Ticino	46.345334	8.774813
 division	Tilburg	51.567213	5.047957
@@ -231,5 +234,6 @@ division	Yunnan	24.556297	101.366210
 division	Zhejiang	29.225710	120.299125
 division	Zurich	47.441242	8.641154
 
+country	Georgia	41.989378	43.597463
 country	Luxembourg	49.755428	6.119486
 country	Panama	8.98333	-79.5166

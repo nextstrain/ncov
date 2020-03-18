@@ -109,6 +109,7 @@ location	Boston
 location	Nassau County
 
 
+division	China
 division	Hubei
 division	Beijing
 division	Anhui
@@ -137,6 +138,7 @@ division	South Korea
 division	Kathmandu
 division	Kerala
 division	Iran
+division	Tbilisi
 division	Thanh Hoa
 division	Sihanoukville
 division	Nonthaburi
@@ -145,6 +147,7 @@ division	Queensland
 division	New South Wales
 division	Victoria
 division	Auckland
+division	Europe
 division	Ile de France
 division	Pays de la Loire
 division	Hauts de France
@@ -229,6 +232,7 @@ country	Thailand
 country	Singapore
 country	Australia
 country	New Zealand
+country	Georgia
 country	France
 country	Netherlands
 country	Belgium
