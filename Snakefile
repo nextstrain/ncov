@@ -38,12 +38,12 @@ files = rules.files.params
 rule download:
     message: "Downloading metadata and fasta files from S3"
     output:
-        sequences = "data/sequences.fasta",
-        metadata = "data/metadata.tsv"
+        sequences = config["sequences"],
+        metadata = config["metadata"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta data/
-        aws s3 cp s3://nextstrain-ncov-private/metadata.tsv data/
+        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta {output.sequences:q}
+        aws s3 cp s3://nextstrain-ncov-private/metadata.tsv {output.metadata:q}
         """
 
 rule filter:
