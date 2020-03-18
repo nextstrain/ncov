@@ -1,10 +1,8 @@
 ---
-title: Análisis genómico de la propagación del COVID-19. Informe de la situación hasta el 2020-03-13.
+title: ¿Cómo interpretar los árboles filogenéticos?
 authors:
   - Emma Hodcroft
   - Nicola Müller
-  - Cassia Wagner
-  - Misja Ilcisin
   - James Hadfield
   - Sidney M. Bell
   - Richard Neher
@@ -12,8 +10,6 @@ authors:
 authorLinks:
   - https://neherlab.org/emma-hodcroft.html
   - https://bedford.io/team/nicola-mueller/
-  - https://bedford.io/team/cassia-wagner/
-  - https://bedford.io/team/misja-ilcisin/
   - https://bedford.io/team/james-hadfield/
   - https://twitter.com/sidneymbell
   - https://neherlab.org/richard-neher.html
@@ -28,254 +24,217 @@ translatorLinks:
   - https://twitter.com/miguelp1120
   - https://www.lshtm.ac.uk/aboutus/people/villabona-arenas.julian
 date: "2020 March 13"
-dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento de la propagación del COVID-19. Los reportes son actualizados semanalmente."
+dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
+abstract: "Esta narrativa explica como leer e interpretar arboles filogenéticos que informan la epidemiología genómica. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
+
 <!-- This is left-side text -->
-<!-- Acentos: 	áeíóú -->
+# [Tabla de contenido](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-# [Contenidos](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+* [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos](https://nextstrain.org/narratives/trees-background/es?n=2)?
+* [¿Cómo puedo leer un árbol](https://nextstrain.org/narratives/trees-background/es?n=3)?
+* [¿Cómo se relaciona el panel de "diversidad" con el árbol](https://nextstrain.org/narratives/trees-background/es?n=4)?   
+* [Diferencias en función de la divergencia genética](https://nextstrain.org/narratives/trees-background/es?n=5).  
+* [Diferencias en función del tiempo](https://nextstrain.org/narratives/trees-background/es?n=6).  
+* [Estimando le fecha del inicio de un brote](https://nextstrain.org/narratives/trees-background/es?n=7)?
+* [¿Cómo debo interpretar los rasgos (colores) en el árbol](https://nextstrain.org/narratives/trees-background/es?n=8)?
+* [¿Cómo se relaciona el mapa con el árbol](https://nextstrain.org/narratives/trees-background/es?n=9)?
+* [Lectura avanzada: incertidumbre estadística en los árboles](https://nextstrain.org/narratives/trees-background/es?n=10).  
+* [Sobre el conjunto de datos](https://nextstrain.org/narratives/trees-background/es?n=11).  
 
-* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=2).     
-* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=3).
-* [Circulación en Europa](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=4).   
-* [Transmisión local en las Islas británicas e Irlanda](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=5).
-* [Propagación del SARS-CoV-2 desde Iran](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=6).
-* [Introdución a EEUU](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=7).
-* [Propagación del SARS-CoV-2 en el estado de Washington](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=8).
-* [Propagación SARS-CoV-2 en el estado de California](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=9).
-* [¡Que puedes hacer tu!](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=10).
-* [Preguntas frequentes y conceptos erróneos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=11).
-* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=12).
+<!-- No right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [¿Cómo se relacionan las redes de transmisión con los árboles filogenéticos?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Los patógenos se propagan a través de la replicación rápida en un huésped infectado seguido de la transmisión a otro huésped. Una epidemia solo puede comenzar cuando una infección da como resultado más de una infección adicional.
+<br><br>
+A medida que el patógeno se replica y se propaga, su genoma necesita ser replicado muchas veces y esto lleva a la acumulación de mutaciones aleatorias (errores de copia) en el genoma; esto es normal. Estas mutaciones aleatorias pueden ayudar a rastrear la propagación del patógeno y nos pueden permitir aprender sobre sus rutas y dinámicas de transmisión.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Resumen Ejecutivo
-
-Este informe analiza 410</tag> genomas públicos del virus COVID-19. La comparación de estos genomas virales nos permite caracterizar como el COVID-19 evoluciona y va mutando en las diferentes regiones del mundo.
-
-Una versión actualizada del numero de casos del coronavirus en el mundo puede encontrarse en [Nuestro mundo en Datos](https://ourworldindata.org/coronavirus).
-
-Este reporte muestra que el virus esta circulando alrededor del mundo, con evidencia de transmisión local en varios continentes.
-
-Como resultado, en este momento urge concentrar esfuerzos en la disminución de la velocidad de contagio entre comunidades locales, pues las restricciones a los viajes son menos probables de ser efectivas.
-
-En la actualización de esta semana, reportamos que:
-
-* El COVID-19 circula fluidamente en toda Europa, con mucho movimiento entre países.
-
-* Identificamos al menos 4 introducciones del virus al Reino Unido, algunas con transmisiones comunitarias adicionales.
-
-* Existen varios casos de transmisiones relacionadas con viajes a Irán.
-
-* Existen varias introducciones del virus a EEUU, mismas que han generado cadenas de transmisión local en varios estados.
-
-* El brote del virus continúa creciendo en el estado de Washington. Algunos de estos, están relacionados con los casos originales del crucero Grand Princess.
-
-* Existe circulación local del COVID-19 en California.
-
-* Medidas de distanciamiento social deben ser promulgadas para disminuir el impacto en los sistemas de salud y proteger a las personas mas vulnerables.
+# Un ejemplo
+<div width="50%" margin="auto">
+<p>
+<img width="500px" alt="Ilustración que muestra cómo se relacionan el árbol de transmisión y el árbol filogenético" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
+</p>
+<p>
+La ilustración anterior muestra el boceto de un árbol de transmisión. Cada círculo representa un caso (persona infectada) y las líneas horizontales indican la duración de su infección. Los casos que aparecen conectados representan transmisiones de una persona a otra.
+<br> <br>
+Aquí, podemos visualizar el árbol de transmisión completo. En la práctica, sin embargo, solo se muestrea un subconjunto de casos (en azul) y el árbol de transmisión es desconocido. Por lo general, solo contamos con estimaciones aproximadas del número de casos. Las secuencias genómicas nos permiten inferir partes del árbol de transmisión. En este ejemplo, se indican tres mutaciones (los pequeños diamantes) en el árbol. Las secuencias que tienen las mismas mutaciones están estrechamente relacionadas entre sí, por lo que estas mutaciones nos permiten agrupar muestras en grupos de virus estrechamente relacionados que pertenecen a las mismas cadenas de transmisión.
+</p>
+</div>
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-05)
-A continuación, hemos preparado algunos recursos de información (actualmente en inglés) que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
+# [¿Cómo puedo leer un árbol?](https://nextstrain.org/ncov/2020-03-11)
 
-Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion ['Cómo leer philogenias'](https://nextstrain.org/narratives/trees-background/es) antes de leer el presente reporte.
+El eje horizontal "x" de un árbol representa el grado de diferencia y a estas líneas las llamamos de "ramas" (en unidades de tiempo o alguna medida de divergencia genética -- discutiremos esto a continuación). El eje vertical "y" solo ayuda a expandir la visualización de las cosas para que podamos ver todo; Este eje no tiene ninguna unidad de medida.
+<br><br>
+Las puntas de las ramas del árbol representan las muestras y también se denominan de nodos externos (es decir, los nodos azules que visualizamos en la  diapositiva anterior). Los nodos internos representan casos que no fueron muestreados, pero que creemos que fueron la fuente de todos los casos descendientes de ellos (es decir, los nodos rojos que visualizamos en la  diapositiva anterior). Estas relaciones se infieren analizando el patrón de mutaciones observado en los casos muestreados.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
+## Un ejemplo
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Ejemplo de filogenia donde todos o solo un subconjunto de casos están incluidos en la filogenia final" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
+</p>
+<p>
+Arriba a la izquierda, vemos una ilustración con un árbol filogenético donde las mutaciones se muestran como círculos de colores. A la derecha están las secuencias correspondientes, también con mutaciones que se muestran como círculos de colores. Podemos ver que las secuencias que comparten las mismas mutaciones se agrupan. Cuando las secuencias aparecen unidas por una línea vertical plana, como A y B, esto significa que no hay diferencias entre ellas, sus secuencias son idénticas.
+<br><br>
+Cuando una secuencia se encuentra por sí sola en una línea larga, como C o E, esto significa que tiene mutaciones únicas que no se encuentran en otras secuencias. Cuanto más larga es la línea, más mutaciones tiene la secuencia.
+A y B también tienen mutaciones únicas (el círculo verde) que no comparten con las otras secuencias, pero A y B son idénticas entre sí.
+<br><br>
+Basados en este árbol, concluiríamos que A y B están estrechamente relacionados entre sí, y que D y E están estrechamente relacionados entre sí. A y B están más estrechamente relacionados con C que con D y E.
 
-## Recursos de información relacionados con el COVID-19
+</p>
 
-<div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Antecendentes sobre los coronavirus </a>
+### Lecturas adicionales
+* [Cómo leer un árbol: tutorial por Arctic Network(en inglés)](https://artic.network/how-to-read-a-tree.html).  
+* [Cómo leer un árbol: video por la academia Khan(en inglés)](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Antecendentes recientes del brote de COVID-19</a>
-
-  <a href="https://nextstrain.org/narratives/trees-background/es"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer philogenias</a>
 </div>
 
-## Lecturas Adicionales
-
-* Resumen del brote de SARS-CoV-2 en [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2019-2020).
-* Material proporcionado por los Centros para el Control y la Prevención de Enfermedades de los Estados Unidos en [US CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-sp.html).
-
-## Narrativas Nextstrain
-
-Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org). El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
-
-La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro muy notable. Estos análisis han sido posibles gracias al intercambio rápido y abierto de los datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes genomas).
-```
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [Nota acerca del muestreo de casos](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-El presente reporte documenta la información de muestras tomadas en 30 países de 5 continentes. Este es un logro muy importante, el secuenciamiento de un virus desconocido de ARN en el medio de una pandemia, que ha sido posible gracias al trabajo sacrificado y la cooperación para compartir datos de muchos científicos y médicos en todo el mundo.
-<br><br>
-A pesar que estos datos nos permiten hacer importantes inferencias acerca del brote del virus y monitorear su propagación en tiempo real, debemos enfatizar que estas conclusiones son limitadas en su representatividad a nivel mundial.
-<br><br>
-Por ejemplo, el mapa muestra muy pocas secuencias en países del hemisferio sur. Esto NO se debe a que el COVID-19 no se haya propagado en estas regiones, o que estos casos no proporcionen información crucial para caracterizar el virus. Por el contrario, simplemente las secuencias genómicas no están disponibles en estos lugares. De esta forma, el área de los círculos en el mapa es solo proporcional a la cantidad de información disponible y no representa la magnitud del brote en cada región.
-<!-- There is NO right-side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Circulación en Europa](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-
-Aquí podemos apreciar un clado (grupo/aglomerado) grande de secuencias de Europa. Nótese que las secuencias de varios países se intercalan, indicando que el COVID-19 esta circulando fluidamente por todo el continente europeo.
-<br><br>
-Si vemos el mapa en detalle, podemos apreciar los muchos vínculos entre Italia y otras áreas. Sin embargo, es importante recordar que la incertidumbre estadística en la direccionalidad de estos vínculos. Hipótesis alternativas también podrían explicar los datos actuales (por ejemplo, que un caso omitido en la muestra actual haya infectado tanto a un caso secuenciado en Italia como a otro secuenciado en otro país europeo).
-<!-- There is no right side text -->
-
-
-# [Transmisión local en las Islas británicas e Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Usando a las islas británicas e Irlanda como ejemplo, podemos apreciar varias instancias en las cuales virus que son genéticamente cercanos a muestras de otros países aparecen en las islas británicas e Irlanda.
-<br><br>
-Este hallazgo implica que hubo al menos cuatro introducciones del virus desde otros lugares.
-<br><br>
-También podemos apreciar instancias en las cuales encontramos varios casos genéticamente cercanos desde el mismo lugar después de una introducción. Esto implica que la transmisión local y comunitaria ha surgido desde más de una de estas introducciones.
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Propagación de SARS-CoV-2 desde Irán](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Varios de los genomas secuenciados han sido aislados de pacientes que reportan un historial de viaje a Irán. Estos genomas son extremadamente similares, indicando que el brote en Irán es el resultado de una única transmisión que se ha propagado a otros lugares.
-<br><br>
-Tome nota que no hay genomas completos disponibles que han sido aislados desde pacientes en Irán.
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Introducciones en los EEUU](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Aquí podemos apreciar que el virus ha sido introducido a los EEUU en múltiples ocasiones independientes.
-<br><br>
-Como la mayoría de estas introducciones no están asociadas con ningún otro caso aislado desde los EEUU, hay incertidumbre si estas introducciones han resultado en brotes locales.
-Sin embargo, dado que la capacidad diagnóstica todavía no se ha aumentado en la mayoría de los lugares, se espera que todavía haya varios casos no reportados.
-<br><br>
-Sin embargo, en Washington y California podemos apreciar grupos de casos que están genéticamente relacionados, implicando que ocurre transmisión continua y propagación local entre estos dos estados.
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Propagación de SARS-CoV-2 en el estado de Washington](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Aquí podemos apreciar un grupo grande de casos aislados en Washington que están genéticamente relacionados.
-Usando este hallazgo concluimos que en el estado de Washington ocurre una extensa propagación local del virus.
-<br><br>
-Interesantemente, las muestras aisladas de casos en Washington se encuentran intercaladas con las muestras aisladas de casos del crucero Grand Princess.
-Todavía no estamos seguros si la propagación del virus fue desde el crucero a Washington o viceversa; cuando obtengamos datos adicionales, actualizaremos nuestro análisis.
-<!-- There is NO right-side text -->
-
-<!-- This is left-side text -->
-# [Propagación de SARS-CoV-2 en el estado de California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Usando las muestras aisladas en California, encontramos evidencia de múltiples introducciones del virus en el estado.
-Importantemente, apreciamos al menos un grupo de casos genéticamente relacionados que fueron recolectados en California durante un corto periodo de tiempo  (haz click en ['Explora los datos'](https://nextstrain.org/ncov) y busca ‘CA9’ para ver un ejemplo).
-<br><br>
-Esto sugiere fuertemente que hay propagación continua y local del virus en California.
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Hallazgos Principales](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- El virus ha sido introducido a varias partes del mundo múltiples veces. No todas las introducciones resultan en propagación local.  
-<br><br>
-- Existe evidencia de la propagación comunitaria en Europa, en partes de los EEUU, en China, y el Sudeste Asiático.  
-<br><br>
-- Controlar los brotes locales a través de la distanciación social es crucial para proteger las poblaciones más vulnerables al virus.
-
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-# Qué se puede hacer  
-
-Distanciación social – es decir, disminuir el número de personas con cual te encuentras cada día – puede ser difícil, pero es increíblemente beneficioso para el público.  
- Si cada persona disminuye su número de contactos diarios por un 25%, esperamos apreciar una reducción del 50% en el número de casos acumulados en el próximo mes ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). ¿Confundido sobre la distanciación social [¡Revisa esta guía!](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
-<div>
-  <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
-</div>
-
-## Pasos que pueden tomar individuos
-* Reducir el número de personas con cual tienes contacto diariamente, especialmente si eres parte de un grupo de gente vulnerable al virus (por ejemplo: gente mayor y gente con condiciones médicas pre-existentes).
-* Recuerde que, aunque usted no sea particularmente vulnerable al virus, hay muchas personas que sí lo son; debe seguir estas prácticas para proteger a otros.
-* Lávese las manos “como si acabas de picar un jalapeño y tienes que cambiar tus lentes de contacto”.  
-* Quédese en casa si está enfermo; prepárese con provisiones adicionales por si tiene que estar en auto-cuarentena.  
-
-## Pasos que pueden tomar oficiales gubernamentales  
-* Ofrecer pruebas diagnósticas gratuitas y fácilmente disponibles.  
-* Establecer políticas de distanciación social.  
-* Apoyar financieramente a las personas y los establecimientos impactados por las políticas de distanciación social (entre ellos: trabajadores que les pagan por hora, personas responsables por gente mayor o niños pequeños, empresas pequeñas, etc.).
 ```
 
 
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [¿Cómo se relaciona el panel de "diversidad" con el árbol?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+
+Echemos un vistazo a las primeras 169</tag> cepas del SARS-CoV-2 (el virus que causa COVID-19) que se han compartido públicamente. Al igual que en la última página, creamos un alineamiento de estas secuencias virales (puede ver cómo se realizaron todos los análisis mencionados aquí [en GitHub](https://github.com/nextstrain/ncov)).
+<br><br>
+Aquí estamos mostrando el árbol filogenético en la parte superior de un gráfico de barras que muestra la variación (es decir, mutaciones) en el genoma.
+Sin estas mutaciones no podríamos construir el árbol, por lo que los dos están íntimamente conectados.
+<br><br>
+En este panel de "diversidad", el eje horizontal representa cada locus (sitio/lugar) del genoma viral. Existen aproximadamente treinta mil locus en el genoma del SARS-CoV-2!.
+El eje vertical indica cuánta variabilidad hay en cada locus.
+<br><br>
+Hemos coloreado el árbol de acuerdo con una de estas mutaciones, en este caso el codón 314 en el gen "ORF1b".
+No hay una razón a priori para pensar que esta mutación es una mutación funcional (es decir, que confiere algún cambio biológico).
+Son precisamente mutaciones como esta las que usamos para definir las relaciones entre secuencias y construir el árbol.
+<!-- There is NO right-side text -->
+
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Preguntas frecuentes y conceptos erróneos](https://nextstrain.org/ncov/2020-03-05)
+# [Diferencias en función de la divergencia genética](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+Esta es una filogenia de las primeras 169</tag> cepas del SARS-CoV-2 (el virus que causa COVID-19) que se han compartido públicamente.
+<br><br>
+Aquí el eje horizontal indica la divergencia, es decir, el número de cambios (mutaciones) en el genoma, en relación con la raíz del árbol (es decir, lo que observamos al inicio del brote).
+Algunas secuencias pueden tener cero mutaciones, lo que significa que todas son idénticas a la raíz del árbol.
+Otros virus tienen entre una y once mutaciones.
+<br><br>
+Por el momento, esta filogenia no se parece mucho a un "árbol". Muchas de las secuencias son idénticas: aparecen juntas a lo largo de líneas verticales como A y B (algunas están en la parte más a la izquierda del árbol).
+Otros tienen mutaciones únicas o compartidas y, por lo tanto, aparecen como líneas, o "ramas", yendo hacia la derecha.
+Puede ver cuántas mutaciones tiene una rama del árbol puedes pasar el puntero sobre ella.
 
-#### Sabemos que mucha gente tiene preguntas sobre el COVID-19.
+<!-- There is NO right-side text -->
 
-#### [Hemos creado una guía para tratar de responder algunas de las preguntas más frecuentes](https://nextstrain.org/help/coronavirus/FAQ).
+<!-- ############ SLIDE BREAK ############# -->
+# [Diferencias en función del tiempo](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+También podemos visualizar cómo se ha propagado el virus a lo largo del tiempo utilizando la fecha de muestreo en el eje horizontal "x".
+Aquí, este eje "x" representa la fecha de muestreo de cada virus. Las posiciones de las puntas de las ramas del árbol indican la fecha en que se tomaron esas muestras. Las fechas de los nodos internos, los "casos que no muestreamos", se infieren en función de las fechas de muestreo de sus descendientes y la velocidad a la que muta el virus.
+<br><br>
+Observe cuántas secuencias que anteriormente aparecían juntas en una línea (lo que indica que son genomas idénticos) ahora se separan en el tiempo.
+Esto sucede cuando la velocidad a la que muta el virus es ligeramente más lenta que la velocidad a la que se propaga. Para ver las diferencias entre estos dos arboles, puede desplazarse hacia arriba y hacia abajo entre la diapositiva anterior y esta.
 
-#### La Federación de Científicos Americanos también tiene un buen recurso para las preguntas más frecuentes.](https://covid19.fas.org/l/en).
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+# [Estimando le fecha del inicio de un brote](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+
+También podemos usar la genómica para estimar la fecha del inicio de un brote, incluso si el brote comenzó antes de darnos cuenta de que estaba sucediendo.
+Debido a que podemos asignar fechas a cada muestra y nodo en el árbol, podemos usar esto para inferir la fecha de la 'raíz' del árbol. Esto representa el "ancestro común más reciente" de todas las secuencias del SARS-CoV-2 que tenemos hasta ahora. Por ejemplo, tus abuelos son los "antepasados comunes más recientes" de ti y de todos tus primos hermanos.
+<br><br>
+Si pasas el puntero sobre la línea vertical más a la izquierda, puede ver que la fecha de inicio inferida es entre mediados de noviembre y mediados de diciembre de 2019 para este brote en particular.
+
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [¿Cómo debo interpretar los rasgos (colores) en el árbol?](https://nextstrain.org/ncov/2020-03-11)
+Los árboles filogenéticos a menudo contienen información adicional, como la ubicación geográfica de cada muestra. A partir de esto, podemos inferir las ubicaciones de los nodos internos (casos intermedios hipotéticos, sin muestrear) utilizando modelos matemáticos. Esto puede ayudarnos a comprender cómo se mueve el virus de un lugar a otro.
+<br><br>
+Sin embargo, la interpretación de estos debe hacerse con precaución, ya que el muestreo y el secuenciamiento (o la falta de estos) pueden influir significativamente en la interpretación.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Lectura adicional (en inglés)  
-
-* "No crea las teorías de conspiración que escucha sobre el coronavirus y el VIH" [artículo](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
-
-* "Teorías de conspiración sin fundamento afirman que el nuevo coronavirus fue producto de la bioingeniería" [artículo](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
-
-* "No, el coronavirus de Wuhan no fue diseñado genéticamente para insertar trozos del VIH en él" [artículo](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
-
-* "Rompiendo los mitos del coronavirus" [Verificación de información por la AFP](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
-
-
-# Conceptos erróneos
-
-Se han circulado varios conceptos erróneos sobre los orígenes del nuevo coronavirus.
-Durante brotes como este, la difusión de información que se sabe que es incorrecta puede generar más pánico y hacer que las personas no confíen en los científicos y los gobiernos, lo que significa que es menos probable que sigan las advertencias y tomen las precauciones adecuadas.
-
-En un esfuerzo por tratar de explicar por qué estos puntos de vista son incorrectos, los científicos han abordado estas teorías en las siguientes páginas (en inglés):
-
-<div>
-
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
-
-
-</div>
-
-
+# Un ejemplo
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Ilustración que muestra cómo el muestreo afecta la interpretación de la propagación viral" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
+</p>
+<p>
+A la izquierda, mostramos un árbol filogenético completamente muestreado, con muestras de dos ubicaciones diferentes coloreadas en naranja y azul. Mientras avanzamos por el árbol, observamos tres casos en los que el color (ubicación) cambia de naranja a azul. A partir de esto, concluiríamos que hubo tres introducciones diferentes desde la ubicación naranja a la ubicación azul.
+<br><br>
+Pero, esta interpretación se basa en el muestreo: en el árbol del medio, hemos eliminado una muestra naranja. Ahora observamos solo un cambio de naranja a azul, lo que sugiere que solo hubo una introducción en azul que ocurrió mucho antes.
+<br><br>
+En el último ejemplo, solo tenemos una secuencia de naranja, lo que podría llevarnos a pensar que hubo una introducción de naranja a azul.
+<br><br>
+Por lo tanto, si bien estas inferencias pueden ser invaluables, también deben interpretarse con precaución.
+</p>
 ```
+<!-- ############ SLIDE BREAK ############# -->
 
+<!-- This is left-side text -->
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [¿Cómo se relaciona el mapa con el árbol?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+
+Aquí, mostramos el árbol coloreado por la ubicación de cada muestra (y la ubicación inferida para cada nodo interno).
+Si hace clic en ['Explorar los datos'](https://nextstrain.org/ncov), puedes reproducir una animación sobre cómo se propagó el virus durante el transcurso del brote.
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [Lectura avanzada: incertidumbre estadística en los árboles](https://nextstrain.org/ncov/2020-03-11)
+Anteriormente, hablamos sobre cómo los nodos internos representan casos _hipotéticos_ no muestreados. De hecho, todos los árboles representan _hipótesis_ sobre cómo un patógeno evolucionó y se movió con el tiempo. Los árboles que presentamos en Nextstrain son estimaciones puntuales, es decir, la versión de esta historia que maximiza la probabilidad de observar los datos que tenemos.
+
+<br><br>
+Sin embargo, siempre hay incertidumbre estadística en estas estimaciones. En términos generales, las partes del árbol que están densamente muestreadas tienen menos incertidumbre; las áreas escasamente muestreadas tienen mayor incertidumbre.
+
+```auspiceMainDisplayMarkdown
+# Una ilustración
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Ilustración de la incertidumbre inherente a la reconstrucción de los árboles." src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
+</p>
+</div>
+```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [Crédito científico](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Nos gustaría reconocer el increíble y oportuno trabajo realizado por todos los científicos involucrados en este brote, pero particularmente aquellos que trabajan en China.
+Nos gustaría reconocer el trabajo increíble y oportuno realizado por todos los científicos involucrados en este brote, pero particularmente aquellos que trabajan en China.
 Solo mediante el intercambio rápido de datos genómicos y metadatos se pueden realizar análisis como estos.
 
-<br>
+<br><br>
 
 También agradecemos a [GISAID](https://gisaid.org) por proporcionar la plataforma a través de la cual estos datos se pueden depositar y compartir.
 
-<!-- Do not need to translate institutions names -->
+<!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-Agradecemos los datos generados por estos laboratorios:
+Agradecemos los datos recopilados por estos laboratorios:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -408,14 +367,15 @@ Agradecemos los datos generados por estos laboratorios:
 Estos datos se compartieron a través de [GISAID](https://gisaid.org).
 Agradecemos sus contribuciones.
 
-<br>
+<br><br>
 
-A la derecha especifícamos las secuencias compartidas por cada laboratorio.
+A la derecha indicamos las secuencias específicas compartidas por cada laboratorio.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-Los genomas del SARS-CoV-2 fueron generosamente compartidos por los científicos en estos laboratorios::
+Los genomas del SARS-CoV-2 fueron generosamente compartidos por los científicos en estos laboratorios:
+
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
@@ -1175,5 +1135,6 @@ Los genomas del SARS-CoV-2 fueron generosamente compartidos por los científicos
 
 * Zhongxian Center for Disease Control and Prevention
 	* Chongqing/ZX01/2020
+
 
 ```
