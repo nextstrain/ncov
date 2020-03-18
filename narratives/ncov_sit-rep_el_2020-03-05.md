@@ -321,7 +321,7 @@ abstract: "Αυτή η αναφορά χρησιμοποιεί δημόσια CO
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Είμαστε ευγνώμονες για τα δεδομένα που συλλέχθηκαν από τα ακόλουθα εργαστήρια:
 
 * Centre for Infectious Diseases and Microbiology Laboratory Services
 * Pathology Queensland
