@@ -1,3 +1,7 @@
+from os import environ
+from socket import getfqdn
+from getpass import getuser
+
 def get_todays_date():
     from datetime import datetime
     date = datetime.today().strftime('%Y-%m-%d')
@@ -504,11 +508,17 @@ rule branching_process_R0:
                     --output {output[1]}
         """
 
+deploy_origin = (
+    f"from AWS Batch job `{environ['AWS_BATCH_JOB_ID']}`"
+    if environ.get("AWS_BATCH_JOB_ID") else
+    f"by the hands of {getuser()}@{getfqdn()}"
+)
+
 rule deploy_to_staging:
     input:
         *rules.all.input
     params:
-        slack_message = json.dumps({"text":"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov>"}),
+        slack_message = json.dumps({"text":f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}"}),
         slack_webhook = config["slack_webhook"] or "",
         s3_staging_url = config["s3_staging_url"]
     shell:
