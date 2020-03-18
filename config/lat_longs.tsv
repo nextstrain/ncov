@@ -120,24 +120,31 @@ division	Arizona	34.220707	-111.657462
 division	Auckland	-36.8314	174.7606
 division	Auvergne Rhone Alpes	45.126511	5.480724
 division	Baden-Wuerttemberg	48.712618	9.134030
+division	Bahia	-12.5797	-41.7007
 division	Basel	47.559198	7.590640
 division	Bavaria	48.1382614	11.5845093
 division	Beijing	40.071320	116.406908
 division	Bern	46.855135	7.570549
 division	British Columbia	54.010982	-124.745183
+division	Brussels	50.8503	4.3517
 division	California	36.357039	-119.690182
 division	Chongqing	29.858721	107.375623
 division	Chungcheongnam	36.685948	126.799198
 division	Comunitat Valenciana	39.337	-0.354
 division	Cork	51.895349	-8.474381
+division	Diamond Princess	35.046935	139.419325
+division	Drenthe	52.846963	6.608915
 division	Dublin	53.343100	-6.262191
 division	England	52.405994	-1.671707
+division	Espirito Santo	-19.1834	-40.3089
 division	Finland	61.751734	26.186437
 division	Flanders	51.056536	4.254283
+division	Flevoland	52.488510	5.615829
 division	Fujian	26.284852	118.122938
 division	Gelderland	52.042091	6.014860
 division	Geneva	46.216038	6.136984
 division	Grand Est	48.691467	5.566495
+division	Grand Princess	37.579905	-123.673130
 division	Guangdong	23.615762	114.483257
 division	Gyeonggi	37.397957	127.380864
 division	Hauts de France	49.934396	2.783002
@@ -145,6 +152,7 @@ division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
 division	Hong Kong	22.3964	114.1095
 division	Hubei	31.095477	112.676644
+division	Huldenberg	50.7886	4.5881
 division	Ile De France	48.724751	2.491522
 division	Grand Est	48.6998	6.1878
 division	Normandie	48.8799	0.1713
@@ -162,10 +170,12 @@ division	Kanto	36.167777	139.170466
 division	Kathmandu	27.712907	85.323557
 division	Kerala	10.359825	76.399550
 division	Kinshasa	-4.2978	15.2962
+division	Kraainem	50.8611	4.4593
 division	Kyoto	35.007542	135.768455
 division	Lagos	6.542520	3.286661
 division	Lapland	67.700017	26.273752
 division	Lazio	41.994328	12.622686
+division	Leuven	50.8798	4.7005
 division	Limburg	51.230477	5.956744
 division	Limerick	52.662235	-8.627565
 division	Lombardy	45.4791	9.8452
@@ -175,6 +185,7 @@ division	Mexico City	19.404497	-99.143041
 division	Minnesota	46.126042	-94.619581
 division	Nara	34.371026	135.887389
 division	New South Wales	-32.688430	146.228414
+division	Netherlands	52.1326	5.2913
 division	Normandie	49.055810	0.060987
 division	North Brabant	51.4827	5.2322
 division	North Holland	52.5206	4.7885
@@ -183,6 +194,7 @@ division	Nonthaburi	13.852511	100.522791
 division	Ontario	44.429	-79.377
 division	Osaka	34.648720	135.525013
 division	Overijssel	52.436273	6.463628
+division	Panama City	8.98333	-79.5166
 division	Pays de la Loire	47.640237	-0.647258
 division	Portugal	39.540460	-8.174701
 division	Queensland	-23.094025	144.192275
@@ -194,16 +206,23 @@ division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
 division	Sichuan	30.709229	102.693949
 division	Sihanoukville	10.616351	103.512278
+division	Sint-Niklaas	51.1559	4.1544
 division	Singapore	1.344189	103.867546
+division	South Holland	52.006053	4.485728
 division	South Korea	36.609249	127.917932
 division	Småland	57.528294	14.463824
 division	Seoul	37.548278	126.990916
 division	Taiwan	23.816900	121.031365
 division	Talca	-35.462909	-71.370960
-division	Ticino	46.345334	8.774813
 division	Texas	31.146868	-99.188758
+division	Ticino	46.345334	8.774813
+division	Tilburg	51.567213	5.047957
 division	Thanh Hoa	20.026365	105.439044
 division	Tokyo	35.683441	139.766131
+division	Usti nad Labem	50.656527	14.053702
+division	Utah	39.4225192	-111.7143583
+division	Utrecht	52.085320	5.184968
+division	Vaud	46.619469	6.472479
 division	Victoria	-37.121673	144.106178
 division	Wales	52.306085	-3.621944
 division	Washington	47.183945	-119.950361
@@ -211,24 +230,6 @@ division	Wisconsin	44.535145	-89.527762
 division	Yunnan	24.556297	101.366210
 division	Zhejiang	29.225710	120.299125
 division	Zurich	47.441242	8.641154
-division	South Holland	52.006053	4.485728
-division	Drenthe	52.846963	6.608915
-division	Flevoland	52.488510	5.615829
-division	Tilburg	51.567213	5.047957
-division	Utrecht	52.085320	5.184968
-division	Vaud	46.619469	6.472479
-division	Usti nad Labem	50.656527	14.053702
-division	Diamond Princess	35.046935	139.419325
-division	Grand Princess	37.579905	-123.673130
-division	Panama City	8.98333	-79.5166
-division	Leuven	50.8798	4.7005
-division	Bahia	12.5797	41.7007
-division	Sint-Niklaas	51.1559	4.1544
-division	Kraainem	50.8611	4.4593
-division	Huldenberg	50.7886	4.5881
-division	Espirito Santo	19.1834	40.3089
-division	Brussels	50.8503	4.3517
-division	Netherlands	52.1326	5.2913
 
 country	Luxembourg	49.755428	6.119486
 country	Panama	8.98333	-79.5166
