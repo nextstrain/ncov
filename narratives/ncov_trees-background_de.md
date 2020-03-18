@@ -1,11 +1,11 @@
 ---
-title: How to interpret phylogenetic trees
+title: Wie phylogenetische Bäume zu interpretieren sind
 authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."
+abstract: "Dieses Narrativ erklärt wie man phylogenetische Bäume lesen und interpretieren kann, welche die genetische Epidemiologie informieren. Diese Webseite ist für Desktop Browser optimiert."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -32,10 +32,11 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+# [Was verbindet die transmissions Geschichte mit phylogenetischen Bäumen?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Krankheitserreger verbreiten sich durch eine schnelle Vermehrung im inneren eines Wirtes gefolgt von der Transmission zum nächsten Wirt.
+Eine Epidemie kann sich nur verbreiten wenn eine Infektion gefolgt wird von mehr als einer Übertragung.
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom mehrere male repliziert and zufällige Änderungen (oder Mutationen) akkumilieren sich in seinem Genom. Dies ist absolut normal und erlaubt es, dass die Verbreitung eines Krankheitserregers nachvollzogen werden kann und seine Ubertragungsrouten und Dynamiken verstanden werden können.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
