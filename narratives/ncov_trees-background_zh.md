@@ -56,7 +56,7 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [如何解读系统发生树？](https://nextstrain.org/ncov/2020-03-11)
 
 系统发生树的横轴代表差异程度（时间上或者遗传上的差异——接下来就会讲到）。纵轴则是让数据展开，让我们能够看到各个点，它是没有测量单位的。
 <br><br>
@@ -70,17 +70,17 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+在上图中，左边是一个系统发生树，不同颜色的圆点代表突变；右边是对应的基因组序列，也是由不同颜色的圆点代表突变。我们可以看到有相同突变的序列被聚在一起。如果两条序列被一条垂直的、没有转弯的线连接起来，比如A和B，就表示它们之间没有区别，两条序列是完全相同的。
 <br><br>
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+如果一条序列单独位于一条长的水平横线上，比如C和E，就意味着它有一些其他序列中没有的独特突变。这条线越长，就代表独特的突变越多。
+A和B中也有不存在于其他序列中的独特突变（绿色圆点），但是A和B彼此是相同的。
 <br><br>
-Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
+从这个树中，我们可以得出结论，A和B的亲缘关系很近，D和E的亲缘关系很近；与D和E比起来，AB与C的关系更近。
 </p>
 
-### Further reading  
-* [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
-* [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
+### 延伸阅读 
+* [如何解读系统发生树：ARTIC network团队的教程（英文）](https://artic.network/how-to-read-a-tree.html).  
+* [如何解读系统发生树：可汗学院的文章（英文）](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
 </div>
 
