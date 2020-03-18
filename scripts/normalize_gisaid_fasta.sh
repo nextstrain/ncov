@@ -12,8 +12,8 @@ fi
 
 if [[ -z "$MIN_LENGTH" ]]
 then
-	echo "Using default minimum length of 15000"
-	MIN_LENGTH=15000
+	echo "Using default minimum length of 25000"
+	MIN_LENGTH=25000
 fi
 
 echo "Normalizing GISAID file $GISAID_SARSCOV2_IN to $GISAID_SARSCOV2_OUT (min length $MIN_LENGTH)"
