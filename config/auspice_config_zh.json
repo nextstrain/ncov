@@ -57,6 +57,11 @@
     },
     {
       "key": "genbank_accession"
+    },
+    {
+      "key": "division_exposure",
+      "title": "Exposure History",
+      "type": "categorical"
     }
   ],
   "geo_resolutions": [
