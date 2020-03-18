@@ -1,11 +1,11 @@
 ---
-title: How to interpret phylogenetic trees
+title: كيف تقرأ وتحلل الشجرة الجينية
 authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."
+abstract: " يفسر هذا التقرير كيفية قراءة وتحليل الاشجار الجينية والني تغذي بالمعلومات علم الوبائيات الجينومي. هذا الموقع الالكتروني مهيأ للعرض على متصفحات اجهزة الحاسوب المكتبية"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,9 +13,9 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [جدول المحتويات](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [كيف ترتبط شبكات الانتشار بالاشجار التصنيفية الجينية](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
