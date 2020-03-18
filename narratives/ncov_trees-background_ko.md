@@ -15,16 +15,16 @@ abstract: "이 문서는 유전체 역학적 정보를 제공하는 계통유전
 <!-- This is left-side text -->
 # [목차](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [전염병의 전파 경로는 어떻게 계통유전학적 나무와 연관되는가?](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [전염병의 전파 경로는 어떻게 계통유전학적 나무와 연관되는가](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [계통유전학적 나무는 어떻게 해석하는가](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
+* ["다양성" 패널은 어떻게 계통유전학적 나무와 연관되는가](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
 * [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [지도와 계통유전학적 나무는 어떤 관련이 있습니까](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [추가 읽기자료: 계통유전학적 나무의 통계적 불확실성](https://nextstrain.org/narratives/trees-background?n=9).  
+* [데이터셋에 대하여](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
 
@@ -90,19 +90,17 @@ A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# ["다양성" 패널은 어떻게 계통유전학적 나무와 연관되는가?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+공개된 SARS-CoV-2 (COVID-19를 유발하는 바이러스)의 169개 균주를 살펴 보도록 하겠습니다. 
 <br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
+이전 페이지에서 보신 것처럼, 우리는 바이러스의 염기서열을 정리해 보았습니다. (여기서 언급 된 모든 분석이 어떻게 이루어졌는지는 Github에서 확인할 수 있습니다).
 <br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
+이 그림은 유전적 다양성 (즉, 유전자 변이) 을 보여주는 막대 그래프 위에 계통유전학적 나무를 보여주고 있습니다. 만약 유전자 변이가 없었다면, 계통유전학적 나무를 그릴 수 없었을 것입니다. 따라서, 다양성 패널과 계통유전학적 나무는 서로 밀접한 연관성을 가지고 있습니다. 
 <br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+이 "다양성" 패널에서, x축은 (다 합쳐서 약 3 만 개 정도 되는) 코로나19 바이러스 염기서열 위치를 의미합니다. 반면, y축은 얼마나 많은 유전자 변이가 있었는지를 보여 줍니다.
+<br><br>
+우리는 이러한 유전자 변이들 중 하나를 선택하여 이에 따라 계통유전학적 나무의 색깔을 달리하여 채색했습니다. -- 여기에서 선택된 것은 "ORF1b" 유전자 안에 들어 있는 Codon 314입니다. 이 변이가 기능적 변이 (즉, 생물학적 변화를 주는 것) 라고 여겨지는 마땅한 근거는 아직 없습니다. 보통 이런 종류의 유전자 변이는 변이와 변이 사이의 관계를 정의하고, 계통유전학적 나무를 구성하는데 사용됩니다.
 
 <!-- There is NO right-side text -->
 
@@ -174,20 +172,24 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [지도와 계통유전학적 나무는 어떤 관련이 있습니까?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+여기서 보여지는 계통유전학적 나무는 각 샘플의 지정학적 위치 (계통유전학적 나무 내부의 노드에서 보여지는 지역은 발생 추정 지역을 의미함)에 따라 다른 색으로 표현 되었습니다. '데이터 탐색'을 클릭하시면 바이러스가 확산되는 과정을 추정한 애니메이션을 재생할 수 있습니다.
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
-<br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+# [추가 읽기자료: 계통유전학적 나무의 통계적 불확실성](https://nextstrain.org/ncov/2020-03-11)
 
+추가 설명: 나무의 불확실성
+
+이전에 우리는 계통유전학적 나무 내부의 노드가 실제 존재하는 샘플이 아닌 가상으로 추정한 케이스를 의미한다고 이야기했습니다. 하지만 실상은 계통유전학적 나무도 병원체가 어떻게 진화하고 이동했는지에 대한 일종의 가설입니다. Nextstrain에서 보여지는 모든 나무들은 점 추정을 사용합니다. 즉, 여기서 보여지는 나무는 존재할 수 있는 여러 버전의 나무들 중 우리가 현재 가진 데이터를 관찰할 확률을 최대로 하는 버전이라고 할 수 있습니다.
+<br><br>
+그러나, 이러한 추정에는 항상 불확실성이 있습니다. 일반적으로, 나무에서 데이터를 많이 가진 부분은 상대적으로 예측력이 더 높다고 할 수 있는 반면, 데이터가 적은 부분은 상대적으로 예측력이 낮다고 할 수 있습니다.
+
+
+<!-- There is NO right-side text -->
 ```auspiceMainDisplayMarkdown
 # An illustration
 <div width="50%" margin="auto">
