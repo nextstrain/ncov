@@ -24,7 +24,8 @@ France/IDF0571/2020
 # Presumed early submission of the now-included Shenzhen/HKU-SZ-005/2020. Formerly a lack of precise date lead to an incorrect time placement (end of Jan)
 HKU-SZ-005b_2020
 
-# Note for future reference: SouthKorea/SNU01/2020 is excluded due to Unknown precise date (2020-01-XX). Travel history shows Hubei, so may be good to rerun and see how this fits.
+# Unknown precise date (2020-01-XX). Travel history shows Hubei, so may be good to rerun and see how this fits.
+SouthKorea/SNU01/2020
 
 # Doesn't have the enough divergence relative to supposed sampling date
 Hefei/2/2020
@@ -43,6 +44,9 @@ Ireland/COR-20134/2020
 # Confusing phylogeography
 Netherlands/Rotterdam_1363790/2020
 
+# Missing precise date
+Netherlands/NoordBrabant_34/2020
+
 # These have more tip-specific divergence than expected
 Beijing/IVDC-BJ-005/2020
 China/WF0023/2020
@@ -59,8 +63,7 @@ Guangzhou/GZMU0016/2020
 # Excluding because seem to be too divergent - worth double checking
 Shandong/LY002/2020
 Shandong/LY001/2020
-Guangzhou/GZMU0047/2020
-France/HF1805/2020
+USA/MN1-MDH1/2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
