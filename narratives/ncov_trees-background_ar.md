@@ -1,11 +1,11 @@
 ---
-title: كيف تقرأ وتحلل الشجرة الجينية
+title: كيف تقرأ وتحلل شجرة التصنيف الجينية
 authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: " يفسر هذا التقرير كيفية قراءة وتحليل الاشجار الجينية والني تغذي بالمعلومات علم الوبائيات الجينومي. هذا الموقع الالكتروني مهيأ للعرض على متصفحات اجهزة الحاسوب المكتبية"
+abstract: " يفسر هذا التقرير كيفية قراءة وتحليل الاشجار التصنيفي الجينية والني تغذي بالمعلومات علم الوبائيات الجينومي. هذا الموقع الالكتروني مهيأ للعرض على متصفحات اجهزة الحاسوب المكتبية"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -16,15 +16,15 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 # [جدول المحتويات](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
 * [كيف ترتبط شبكات الانتشار بالاشجار التصنيفية الجينية](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [كيف تقرأ الشجرة ](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [كيف يرتبط اطار "التنوع" بالشجرة](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [قياس الاختلافات مع الافتراق الجيني](https://nextstrain.org/narratives/trees-background?n=4).  
+* [قياس الاختلافات مع الزمن](https://nextstrain.org/narratives/trees-background?n=5).  
+* [تحديد موعد بداية الانفجار الوبائي](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [كيف احلل الصفات (الالوان) على الشجرة](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [كيف ترتبط الخريطة بالشجرة](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [قراءات متقدمة: عدم اليقين بالاشجار](https://nextstrain.org/narratives/trees-background?n=9).  
+* [عن مجموعة البيانات](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
 
