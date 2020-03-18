@@ -32,14 +32,14 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+# [كيف ترتبط شبكات الانتشار بالاشجار التصنيفية الجينية?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+تنتشر مسببات الأمراض من خلال تكاثرها السريع في عائل اول ثم تنتقل منه لعائل آخر. يتصاعد الإنتشار الوبائي فقط عندما تؤدي حالة اصابة واحدة الى اكثر من حالة عدوى بشكل متتالي
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+كلما تكاثر مسبب المرض وانتشر فإن جينومه سيتضاعف عدة مرات مما يؤدي الى تراكم العديد من الطفرات (أخطاء تضاعف) في الجينوم وهذا أمر طبيعي. مثل هذه الطفرات العشوائية يمكن ان تساعد في تتبع انتشار مسبب المرض وتعلمنا عن طرق وحركية الانتشار.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# مثال
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
