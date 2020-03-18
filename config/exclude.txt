@@ -24,28 +24,7 @@ France/IDF0571/2020
 # Presumed early submission of the now-included Shenzhen/HKU-SZ-005/2020. Formerly a lack of precise date lead to an incorrect time placement (end of Jan)
 HKU-SZ-005b_2020
 
-# Unknown precise date (2020-01-XX). Travel history shows Hubei, so may be good to rerun and see how this fits.
-SouthKorea/SNU01/2020
-
-# unknown precise date, and inferred date is quite a lot too early; showing up with no amino acid mutations despite sampling in 2020
-Netherlands/NoordBrabant/51/2020
-
-# no day or month information Netherlands/NoordBrabant_34/2020
-Netherlands/NoordBrabant/41/2020
-Netherlands/NoordBrabant/51/2020
-Netherlands/NoordBrabant/53/2020
-Netherlands/NoordBrabant/61/2020
-Netherlands/NoordBrabant/62/2020
-Netherlands/NoordBrabant/63/2020
-Netherlands/NoordBrabant/64/2020
-Netherlands/NoordBrabant/65/2020
-Netherlands/NoordBrabant/66/2020
-Netherlands/NoordBrabant/67/2020
-Netherlands/Tilburg_/2020
-Netherlands/Coevorden_1363618/2020
-Netherlands/Limburg/7/2020
-Netherlands/NA/4/2020
-Netherlands/NA/5/2020
+# Note for future reference: SouthKorea/SNU01/2020 is excluded due to Unknown precise date (2020-01-XX). Travel history shows Hubei, so may be good to rerun and see how this fits.
 
 # Doesn't have the enough divergence relative to supposed sampling date
 Hefei/2/2020
@@ -63,9 +42,6 @@ Ireland/COR-20134/2020
 
 # Confusing phylogeography
 Netherlands/Rotterdam_1363790/2020
-
-# Missing precise date
-Netherlands/NoordBrabant_34/2020
 
 # These have more tip-specific divergence than expected
 Beijing/IVDC-BJ-005/2020
