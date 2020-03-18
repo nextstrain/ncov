@@ -49,7 +49,7 @@
       "key": "recency",
       "title": "Submission Date",
       "type": "categorical"
-    },    
+    },
     {
       "key": "gisaid_epi_isl"
     },
@@ -70,6 +70,7 @@
     "branch_label": "none"
   },
   "filters": [
+    "recency",
     "location",
     "division",
     "division_exposure",
