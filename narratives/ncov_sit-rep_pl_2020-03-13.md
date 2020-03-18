@@ -53,7 +53,7 @@ W wiadomościach z tego tygodnia raportujemy:
 
 * Do dziś natąpiło dużo wprowadzeń do USA, skutkujących w lokalnych łańcuchach transmisji w wielu stanach.
 
-* Wybuch fali zakażeń w stanie Washington się utrzymuje; niektóre z przypadków są ściśle związane z do tych ze statku wycieczkowego Grand Princess.
+* Wybuch fali zakażeń w stanie Washington się utrzymuje; niektóre z przypadków są ściśle związane z tymi ze statku wycieczkowego Grand Princess.
 
 * W stanie California występuje lokalna cyrkulacja COVID-19
 
