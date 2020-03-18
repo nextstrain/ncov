@@ -18,14 +18,14 @@ fi
 
 echo "Normalizing GISAID file $GISAID_SARSCOV2_IN to $GISAID_SARSCOV2_OUT (min length $MIN_LENGTH)"
 
-# Remove leading 'BetaCoV' and 'BetaCov' from sequence names
+# Remove leading 'hCoV-19' from sequence names (case insensitive)
 # Remove embedded spaces in sequence names (Hong Kong sequences)
 # Remove trailing |EPI_ISL_id|datestamp from sequence names
 # Remove sequences shorter than minimum length
 # Eliminate duplicate sequences (keep only the first seen)
 
 #cat $GISAID_SARSCOV2_IN |
-	sed 's/^>hCoV-19\//>/g' $GISAID_SARSCOV2_IN |	# remove leading BetaCo[vV]
+	sed 's/^>hCoV-19\//>/gI' $GISAID_SARSCOV2_IN |	# remove leading hCoV-19
 	sed 's/ //g' |					# remove embedded spaces
 	sed 's/|.*$//' | 				# remove trailing metadata
 	awk "BEGIN{RS=\">\";FS=\"\n\"}length>$MIN_LENGTH{print \">\"\$0}" |	# remove short seqs
