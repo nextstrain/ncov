@@ -16,6 +16,11 @@
       "type": "categorical"
     },
     {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
       "key": "host",
       "title": "Host",
       "type": "categorical"
@@ -81,6 +86,7 @@
     "division_exposure",
     "country",
     "host",
+    "region",
     "author",
     "originating_lab",
     "submitting_lab"
