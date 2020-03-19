@@ -93,12 +93,13 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [كيف يرتبط اطار "التنوع" بالشجرة؟](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+دعنا نلقي نظرة على اول ١٦٩ سلالة لفيروس سارس كو فب ٢ (الفيروس المسبب ل كوفيد ١٩( والتي تم مساركتها للعموم. تماما كما في الصفحة الاخيرة، نبني محاذاة لهذه التسلسلات الفيروسية (يمكنك مشاهدة كيف تم عمل كل هذه التحليلات المذكورة هنا على موقع Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
+نقوم هنا بعرض شجرة التصنيف الجيني فوق مخطط يبين التغيرات (اي الطفرات) في الجينوم.
+بدون هذه الطفرات لا يمكننا بناء الشجرة، لذلك فإن كلامها مرتبط بالاخر.
+
 <br><br>
 In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
 The vertical axis indicates how much variability there is at each site.
