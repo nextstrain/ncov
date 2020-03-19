@@ -20,7 +20,7 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu �
 * [Rozprzestrzenianie po Europie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
 * [Lokalna transmisja we Zjednoczonym Królestwie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
 * [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Wprowadzenia do sytuacji w USA](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
+* [Introdukcja do USA](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
 * [Rozprzestrzenianie SARS-CoV-2 w stanie Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
 * [Rozprzestrzenianie SARS-CoV-2 w stanie California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
 * [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
@@ -210,9 +210,9 @@ We also see instances where after an introduction, there are several closely-rel
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Wiele genomów zostało zsekwencjonowanych sposród pacjentów raportujących podróż do Iranu. Te wszystkie genomy są niezwykle podobne do siebie, and wksazują, że wybuch epidemii w Iranie może byc wynikiem pojedynczej introdukcji wirusa i jego nastepującej transmisji do wielu innych miejsc.
+Wiele genomów zostało zsekwencjonowanych sposród pacjentów raportujących podróż do Iranu. Te wszystkie genomy są niezwykle podobne do siebie i wskazują, że wybuch epidemii w Iranie może być wynikiem pojedynczej introdukcji wirusa i jego następującej transmisji do wielu innych miejsc.
 <br><br>
-Należy zauważyć, że kompletne genomy nie są dostepne dla pacjentów z Iranu.
+Należy zauważyć, że kompletne genomy nie są dostępne od pacjentów z Iranu.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
@@ -223,6 +223,16 @@ Note that there are no full genomes available from patients in Iran.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Introdukcja do USA](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+Tutaj widzimy, że wirus został introdukowany do USA niezależnie wiele razy. 
+<br><br>
+Większość tych introdukcji nie jest związana z żadnym innym przypadkiem wirusa z USA, w związku z tym nie jest jasne czy te introdukcje doprowadziły do lokalnych ognisk. 
+Niemniej jednak, w związku z tym, że wydajność testowania obecności wirusa nie została zintensyfikowana na większości obszarów, oczekujemy, że istnieje wiele niezaraportowanych przypadków.
+<br><br>
+Mimo to, dla stanów Waszyngton i Kalifornia, widzimy grupy blisko spokrewnionych przypadków. To sugeruje trwającą transmisję i lokalne rozprzestrzenianie się wirusa  w tych dwóch stanach.
+<!-- There is no right side text -->
+
 <!-- This is left-side text -->
 # [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
 Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
