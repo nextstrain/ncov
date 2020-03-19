@@ -21,7 +21,7 @@ abstract: "이 문서는 유전체 역학적 정보를 제공하는 계통유전
 * [유전적 분화들 간의 차이 측정하기](https://nextstrain.org/narratives/trees-background?n=4).  
 * [시간에 따른 차이 측정하기](https://nextstrain.org/narratives/trees-background?n=5).  
 * [바이러스 발생 시점 추정하기](https://nextstrain.org/narratives/trees-background?n=6).  
-* [계통유전학적 나무에 (여러 색으로 표현된) 특징들을 어떻게 해석해야 합니까](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [계통유전학적 나무에 (색깔로 구분된) 특징들을 어떻게 해석해야 합니까](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [지도와 계통유전학적 나무는 어떤 관련이 있습니까](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [추가 읽기자료: 계통유전학적 나무의 통계적 불확실성](https://nextstrain.org/narratives/trees-background?n=9).  
 * [데이터셋에 대하여](https://nextstrain.org/narratives/trees-background?n=10).  
@@ -139,7 +139,7 @@ A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [계통유전학적 나무에 (여러 색으로 표현된) 특징들을 어떻게 해석해야 합니까?](https://nextstrain.org/ncov/2020-03-11)
+# [계통유전학적 나무에 (색깔로 구분된) 특징들을 어떻게 해석해야 합니까?](https://nextstrain.org/ncov/2020-03-11)
 종종 계통유전학적 나무는 각각의 샘플 수집 지역 같이 추가적인 정보를 포함합니다. 이러한 정보들을 통해, 우리는 수학적 모델을 활용하여 내부 노드들의 (가상의, 나무 중간에 위치한, 샘플링이 되지 않은) 위치를 추정할 수 있습니다. 우리는 이를 통해 바이러스가 한 지역에서 다른 위치로 어떻게 이동하고 있는지를 이해할 수 있습니다.
 <br><br>
 하지만 샘플링이나 시퀀싱이 충분하지 않은 경우, 통계적 해석이 큰 영향을 받을 수 있기 때문에, 주의를 기울여서 해석해야 합니다.
