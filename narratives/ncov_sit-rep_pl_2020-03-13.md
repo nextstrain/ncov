@@ -84,7 +84,7 @@ W wiadomościach z tego tygodnia raportujemy:
 
 # [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-05)
 
-Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który go wywołuje. Te materiały ułatwią interpretację danych, które prezentujemy w tym raporcie; jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background). <!-- is this narrative translated to polish as well? -->
+Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który go wywołuje. Te materiały ułatwią interpretację danych, które prezentujemy w tym raporcie; jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -107,7 +107,7 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 ## Raporty Nextstrain
 
 Nastepujące strony zawierają analizy wykonane przy użyciu [Nextstrain](https://nextstrain.org).
-Podczas przeglądnia pojawią się fragmenty tekstu wraz z odpowiadającymi wizualizacjami danych genomowych <!-- not sure if I understand this part-->
+Podczas przeglądnia pojawią się fragmenty tekstu wraz z odpowiadającymi wizualizacjami danych genomowych. <!-- may need better phrasing-->
 
 Uzyskanie całkowitych genomów nowych i dużych wirusów RNA w tak krótkim czasie jest niezwykłym osiągnięciem.
 Te analizy były możliwe dzięki szybkiemu i nieograniczonemu dostępowi do danych genomowych oraz współpracy naukowców z całego świata (wizualizacja autorstwa w sekwencjonowaniu na ostatnim slajdzie).
@@ -150,11 +150,11 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 
 <!-- This is left-side text -->
 # [Opis próbkowania](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-Obecnie dysponujemy sekwencjami próbek pobranych z 30 krajów z 5 kontynenów. To niesamowity wyczyn -- sekwenjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i jedynie możliwe dzięki niezwykłemu pracy i szybkiemu udostępnianiu danych poprzez naukowców i fizyków z całego świata.
+Obecnie dysponujemy sekwencjami próbek pobranych z 30 krajów z 5 kontynenów. To niesamowity wyczyn -- sekwenjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i jedynie możliwe dzięki ogromnej pracy i sprawnemu udostępnianiu danych poprzez naukowców i fizyków z całego świata.
 <br><br>
-Podczas gdy te dane umożliwiają nam wyciąganie wniosków na temat wielu przydatnych aspektów epidemii oraz śledzić jej rozprzestrzenianie w czasie rzeczywistym, nalezy podkreslić, że nasze wnioski są ograniczone dostępnymi danymi
+Podczas gdy te dane umożliwiają nam wyciąganie wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, nalezy podkreślić, że nasze wnioski są ograniczone dostępnymi danymi.
 <br><br>
-Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych rejonach, bądź przypadki z tych regionów nie są istotne <!-- maybe some better phrase here -->; powodem jest po prostu niewielka ilość danych z tych regionów. Wielkość każdego kółka na mapie wskazuje jak wiele danych jest dostepnych w danym momencie z tego regionu, a nie rzeczywista skala epidemii. 
+Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych rejonach, bądź przypadki z tych regionów nie są istotne<!-- maybe some better phrase here -->; powodem jest po prostu niewielka ilość danych z tych regionów. Wielkość każdego kółka na mapie wskazuje jak wiele danych jest dostepnych w danym momencie z tego regionu, a nie rzeczywista skala epidemii. 
 
 <!-- There is NO right-side text -->
 
@@ -172,6 +172,15 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 
 <!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Rozprzestrzenianie po Europie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+Tutaj widzimy duży klad zawierający sekwencje z Europy.
+Co znamienne, sekwencje pochodzące z różnych krajów wystepują naprzemiennie, pokazując, że COVID-19 jest już w szerokim obiegu w Europie.
+<br><br>
+Po przybliżeniu mapy, widzimy, że jest wiele punktów łączących Włochy z innymi rejonami; należy jednak pamiętać, że nie zawsze możemy pewnie wnioskować co do kierunku tych łaczników. Powyższe dane mogą być tłumaczone innymi hipotezami (np. jeśli drugorzędowe przypadki wirusa zarówno we Włoszech jak i w innych rejonach, nie zostały zsekwencjonowane). <!-- not really understand the part in parentheses -->
+
+<!-- There is no right side text -->
+
 <!-- This is left-side text -->
 # [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 Here, we see a large clade of sequences from Europe.
