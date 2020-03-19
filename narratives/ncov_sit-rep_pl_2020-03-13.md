@@ -37,7 +37,7 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu �
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Spis treści](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid).
+# [Spis treści](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
 * [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=2).     
 * [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=3).
@@ -117,7 +117,7 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 Nastepujące strony zawierają analizy wykonane przy użyciu [Nextstrain](https://nextstrain.org).
 Podczas przeglądnia prezentacji zobaczysz wizualizacje danych genomowych wraz z krótkim komentarzem.
 
-Uzyskanie całkowitych genomów nowych i dużych wirusów RNA w tak krótkim czasie jest niezwykłym osiągnięciem.
+Uzyskanie całkowitych genomów nowych wirusów RNA o dużych genomach w tak krótkim czasie jest niezwykłym osiągnięciem.
 Te analizy były możliwe dzięki szybkiemu i nieograniczonemu dostępowi do danych genomowych oraz współpracy naukowców z całego świata (wizualizacja autorstwa w sekwencjonowaniu znajduje się na ostatnim slajdzie).
 ```
 
