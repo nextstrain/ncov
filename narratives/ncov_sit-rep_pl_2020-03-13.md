@@ -190,6 +190,15 @@ Zooming in on the map, we see that there are many links between Italy and other 
 
 <!-- There is no right side text -->
 
+# [Lokalna transmisja we Zjednoczonym Królestwie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+Przykład Wysp Brytyjskich i Irlandii pokazuje, że wiele przypadków gdzie wirus jest blisko spokrewniony z próbkami z innych krajów znajduje się w Wielkiej Brytanii i Irlandii.
+<br><br>
+Jest to zgodne z występieniem 4 lub więcej introdukcji wirusa z innych miejsc. 
+<br><br>
+Widzimy również przypadki, gdzie po introdukcji, obserwuje się kilka blisko spokrewnionych przypadków wirusa z tego samego miejsca.<!-- not sure here several closely-related cases from same original location? --> Jest to zgodne z transmisją wirusa w obrębie lokalnych społeczności z więcej niż jednej fali introdukcji.
+We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
+<!-- There is no right side text -->
+
 
 # [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
