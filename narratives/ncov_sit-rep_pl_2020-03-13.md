@@ -293,7 +293,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 ```auspiceMainDisplayMarkdown
 # Co ty możesz zrobić  
 
-Unikanie bezpośrednich kontaktów -- czyli ograniczanie ilości osób, z którymi spotykasz się na codzień -- może być wyzwaniem, ale ma ogromne korzyści dla dobra publicznego. Jeśli każdy ograniczy liczbę dziennych kontaktów o 25%, możemy oczekiwać 50% spadek kumulatywnej liczby przypadków przez następny miesiąc ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Sprawdź ten pomocny przewodnik](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+Unikanie bezpośrednich kontaktów -- czyli ograniczanie ilości osób, z którymi spotykasz się na codzień -- może być wyzwaniem, ale ma ogromne korzyści dla dobra publicznego. Jeśli każdy ograniczy liczbę dziennych kontaktów o 25%, możemy oczekiwać 50% spadku kumulatywnej liczby przypadków przez następny miesiąc ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Nie jesteś pewna/y co to znaczy ograniczenie bezpośrednich kontaktów? [Sprawdź ten pomocny przewodnik](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -308,7 +308,7 @@ Unikanie bezpośrednich kontaktów -- czyli ograniczanie ilości osób, z który
 ## Kroki jaki mogą podjąć urzędnicy  
 * Spraw, aby testy były darmowe i szeroko dostępne.
 * Wprowadź środki ograniczające bezpośrednie kontakty. 
-* Wspomóź finansowo tych, którzy są pod największym wpływem ograniczeń kontaktów (np. pracowników godzinowych, odpowiedzialnych za dzieczi i osoby starsze, małe przedsiębiorstwa, itd.).
+* Wspomóź finansowo tych, którzy są pod największym wpływem ograniczeń kontaktów (np. pracowników godzinowych, odpowiedzialnych za dzieci i osoby starsze, małe przedsiębiorstwa, itd.).
 ```
 
 
@@ -350,6 +350,46 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
+# [FAQ i przesądy](https://nextstrain.org/ncov/2020-03-05)<!-- maybe change FAQ for "Pytania" -->
+
+#### Wiemy, że mnóstwo ludzi ma pytania dotyczące COVID-19.
+
+#### [Stworzyliśmy przewodnik aby spróbować odpowiedzieć na najczęściej zadawane pytania](https://nextstrain.org/help/coronavirus/FAQ).
+
+#### Związek Naukowców Amerykańskich (The Federation of American Scientists) również posiada [świetną stronę dla najczęściej zadawanych pytań](https://covid19.fas.org/l/en).
+
+<!-- This is right-side text -->
+```auspiceMainDisplayMarkdown
+# Źródła dodatkowe 
+
+* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [artykuł](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+
+* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [artykuł](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+
+* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [artykuł](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+
+* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+
+
+# Przesądy
+
+Liczne przesądy są rozpowszechniane na temat źródeł powstania nowego koronawirusa.
+Podczas wybuchów epidemii jak ta, rozpowszechnianie nieprawdziwych informacji może prowadzić do wzrostu paniki i powodować obniżenie zaufania do naukowców czy rządów, sprawiając, że mniej ludzi będzie się stosować do ogólnych zaleceń czy podejmowało odpowiednie środki ostrożności.
+
+Aby rozwiać wątpliwości co do nieprawidłowości tych sądów, naukowcy odnieśli się do tych teorii na poniżsych stronach:
+
+<div>
+
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (techniczny)<!-- not sure what technical refers to, article? --> </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (wątek Twitter)</a>
+
+
+</div>
+```
+
+
+
+<!-- This is left-side text -->
 # [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
 
 #### We know that a lot of people have questions about COVID-19.
@@ -385,8 +425,6 @@ In an effort to try and explain why these views are incorrect, scientists have a
 
 
 </div>
-
-
 ```
 
 
