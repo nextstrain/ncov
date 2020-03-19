@@ -52,7 +52,7 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 التسلسلات التي تمتلك نفس الطفرات هي الاكثر ارتباطا وهذه الطفرات تجعلنا نجمع العينات في عناقيد من الفيروسات الاكثر تقاربا والتي تنتمي لنفس سلاسل الانتشار
 </p>
 </div>
-```
+
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -171,14 +171,15 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+# [كيف احلل الصفات (الالوان) على الشجرة؟](https://nextstrain.org/ncov/2020-03-11)
+تحتوي شجرة التصنيف الجيني عادة على معلومات إضافية مثل موقع جمع كل عينة. من هنا نستطيع استنتاج مواقع العقد الداخلية (وسيط مفترض، حالات لم تجمع) باستخدام نماذج رياضية. يمكن ان بساعدنا هذا على فهم كيف يتنقل الفيروس من موقع الى الاخر.
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+عمليات الاستنتاج هذه يجب ان يتم عملها بحذر حيث ان ندرة عمليات الجمع او تحديد التسلسلات يمكن ان تؤثر بشكل ملحوظ على هذه الاستنتاجات.
+
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# مثال
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
@@ -198,10 +199,10 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [كيف ترتبط الخارطة بالشجرة](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+نعرض هنا الشجرة ملونة بموقع كل عينة (والموقع المستنتج لكل عقدة داخلية)
+اذا ضغطت هنا ['استعرض البيانات'](https://nextstrain.org/ncov), يمكنك تشغيل فيديو توضيحي لكيفية الانتشار المستنتج للفيروس خلال فترة الوباء.
 
 
 <!-- ############ SLIDE BREAK ############# -->
