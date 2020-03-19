@@ -95,18 +95,22 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- This is left-side text -->
 # [كيف يرتبط اطار "التنوع" بالشجرة؟](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-دعنا نلقي نظرة على اول ١٦٩ سلالة لفيروس سارس كو فب ٢ (الفيروس المسبب ل كوفيد ١٩( والتي تم مساركتها للعموم. تماما كما في الصفحة الاخيرة، نبني محاذاة لهذه التسلسلات الفيروسية (يمكنك مشاهدة كيف تم عمل كل هذه التحليلات المذكورة هنا على موقع Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+دعنا نلقي نظرة على اول ١٦٩ سلالة لفيروس سارس كو في ٢ (الفيروس المسبب ل كوفيد ١٩( والتي تم مشاركتها للعموم. تماما كما في الصفحة الاخيرة، نبني محاذاة لهذه التسلسلات الفيروسية (يمكنك مشاهدة كيف تم عمل كل هذه التحليلات المذكورة هنا على موقع [on GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
 نقوم هنا بعرض شجرة التصنيف الجيني فوق مخطط يبين التغيرات (اي الطفرات) في الجينوم.
-بدون هذه الطفرات لا يمكننا بناء الشجرة، لذلك فإن كلامها مرتبط بالاخر.
+بدون هذه الطفرات لا يمكننا بناء الشجرة، لذلك فإن كلاهما مرتبط بالاخر.
 
 <br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
+في اطار "التنوع" هذا، فالمحور الافقي يمثل كل نيوكليوتيد على جينوم الفيروس (كل الثلاثون الف او ما شابه منهم)!). 
+المحور العمودي يشير الى كمية التغير هناك على كل نيوكليوتيد.
+
 <br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+قمنا بتلوين الشجرة بناءاً على على واحدة من هذه الطفرات -- في هذه الحالة كودون رقم ٣١٤ في "اطار القراءة ١ ب". 
+
+لا يوجد سبب للظن بأن هناك افضلية لان تكون هذه الطفرة طفرة وظيفية (اي تسبب اي تغير وظيفي)
+انها بالضبط طفرات كهذه والتي نستخدمها لتحديد العلاقات بيت التسلسلات ونبني منها الشجرة.
+
+
 
 <!-- There is NO right-side text -->
 
