@@ -56,7 +56,7 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [كيف تقرأ الشحرة?](https://nextstrain.org/ncov/2020-03-11)
+# [كيف تقرأ الشجرة?](https://nextstrain.org/ncov/2020-03-11)
 
 المحور السيني للشجرة يمثل درجة الاختلاف (في الزمن او التباعد الجيني--سناتي على ذلك لاحقاً). اما المحور الصادي فهو فقط من اجل المساعدة على فصل الاشياء بعيداً عن بعضها لنرى كل شيء بوضوح، ولذلك ليس له أي وحدات قياس
 <br><br>
@@ -67,7 +67,7 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 ## مثال
 <div width="50%" margin="auto">
 <p>
-<img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-opgeneral/figures/toy_alignment_tree.png"/>
+<img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
 نرى في الشكل الموضح اعلاه شجرة تصنيف جيني على اليسار، حيث ان الطفرات مشار لها بدوائر ملونة. علي اليمين يوجد التسلسلات المقابلة لها حيث يشار للطفرات بدوائر ملونة ايضا. نستطيع مشاهدة ان التسلسلات التي تشترك بنفس الطفرات تتجمع معا (مثل اي و بي). عندما تظهر التسلسلات مرتبطة معا بخط عمودي فهذا يعني انه لا يوجد هناك فروقات فيما بينهم-- اي تسلسلاتهم متطابقة.
