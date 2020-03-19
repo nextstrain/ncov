@@ -37,9 +37,9 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu �
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Spis treści](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [Spis treści](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid).
 
-* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=2)     
+* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=2).     
 * [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=3).
 * [Rozprzestrzenianie się SARS-CoV-2 w Europie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=4).   
 * [Lokalna transmisja w Zjednoczonym Królestwie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=5).
@@ -49,7 +49,7 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu �
 * [Rozprzestrzenianie się SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=9).
 * [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=10).
 * [Często zadawane pytania oraz przesądy](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=11).
-* [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=12).
+* [Podziękowania](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -61,7 +61,7 @@ W celu zapoznania się z aktualnymi danymi o liczbie potwierdzonych zakażeń w 
 
 W tym raporcie pokazujemy, że wirus rozprzestrzenia się na dużym obszarze planety, a dowody wskazują też na lokalne przekazywanie wirusa na wielu kontynantach.
 
-W tym momencie nalegamy, aby skupić się na działaniach prowadzących do spowolnienia rosprzestrzeniania się wirusa w obrębie lokalnych społeczności; zabronienie podróżowania ma mniejsze szanse na efektywne spowolnienie tempa rozprzestrzeniania wirusa.
+W tym momencie nalegamy, aby skupić się na działaniach prowadzących do spowolnienia rosprzestrzeniania się wirusa w obrębie lokalnych społeczności; zabronienie podróżowania ma mniejsze szanse na efektywne spowolnienie tempa rozprzestrzeniania się wirusa.
 
 <!--
 In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
@@ -69,19 +69,19 @@ At this time, we urge focus on efforts to slow the spread within communities; tr
 -->
 W wiadomościach z tego tygodnia raportujemy:
 
-* COVID-19 rozprzestrzenia się szeroko po Europie, dochodzi do znacznej liczby transmisji między państwami.
+* COVID-19 rozprzestrzenia się szeroko po Europie, dochodzi do licznych transmisji między państwami.
 
 * Zidentyfikowaliśmy przynajmniej 4 introdukcje wirusa w Wielkiej Brytanii, w kilku przypadkach prowadzące do transmisji lokalnej.
 
-* Wystąpiło kilka transmisji związanych z podróżami z Iranu do innym miejsc na świecie.
+* Wystąpiło kilka transmisji związanych z podróżami z Iranu do innych miejsc na świecie.
 
-* Do dziś natąpiło dużo introdukcji do USA, skutkujących lokalnymi łańcuchami transmisji w wielu stanach.
+* Do tej pory nastąpiło wiele introdukcji do USA, skutkujących lokalnymi łańcuchami transmisji w wielu stanach.
 
-* Ognisko w stanie Waszyngton się utrzymuje; niektóre z przypadków są ściśle związane z tymi ze statku wycieczkowego Grand Princess.
+* Ognisko w stanie Waszyngton się utrzymuje; niektóre przypadki są ściśle związane z tymi ze statku wycieczkowego Grand Princess.
 
-* W stanie Kalifornia występuje lokalna cyrkulacja COVID-19
+* W stanie Kalifornia występuje lokalna cyrkulacja COVID-19.
 
-* Dystansowanie społeczne <!-- TODO a better term for social distancing? ZMIENIŁEM ZA RAFAŁEM MOSTOWYM, BL --> powinno być szybko wprowadzone, aby odciążyć systemy opieki zdrowotnej i aby chronić osoby z grupa ryzyka.
+* Dystansowanie społeczne <!-- TODO a better term for social distancing? ZMIENIŁEM ZA RAFAŁEM MOSTOWYM, BL --> powinno być wprowadzone jak najszybciej, aby odciążyć systemy opieki zdrowotnej i aby chronić osoby w grupie podwyższonego ryzyka.
 
 ```
 
@@ -115,7 +115,7 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 ## Raporty Nextstrain
 
 Nastepujące strony zawierają analizy wykonane przy użyciu [Nextstrain](https://nextstrain.org).
-Podczas przeglądnia przezentacji zobaczysz wizualizacje danych genomowych wraz z krótkim komentarzem. <!-- may need better phrasing; ZMIENIŁEM Z: pojawią się fragmenty tekstu wraz z odpowiadającymi wizualizacjami danych genomowych.-->
+Podczas przeglądnia prezentacji zobaczysz wizualizacje danych genomowych wraz z krótkim komentarzem.
 
 Uzyskanie całkowitych genomów nowych i dużych wirusów RNA w tak krótkim czasie jest niezwykłym osiągnięciem.
 Te analizy były możliwe dzięki szybkiemu i nieograniczonemu dostępowi do danych genomowych oraz współpracy naukowców z całego świata (wizualizacja autorstwa w sekwencjonowaniu znajduje się na ostatnim slajdzie).
