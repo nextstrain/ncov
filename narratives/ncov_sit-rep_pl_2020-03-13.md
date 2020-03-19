@@ -24,6 +24,7 @@ translators:
   - Anna Fijarczyk
   - Bartosz Lisowski
 translatorLinks:
+  - http://group.genereg.net/people/piotr-balwierz/
 date: "13 marca 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu śledzenia rozprzestrzeniania się COVID-19. Raporty takie, jak ten, są tworzone co tydzień."
