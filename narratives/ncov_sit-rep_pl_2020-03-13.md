@@ -39,14 +39,14 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu �
 <!-- This is left-side text -->
 # [Spis treści](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=2).     
+* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=2)     
 * [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=3).
-* [Rozprzestrzenianie SARS-CoV-2 po Europie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=4).   
-* [Lokalna transmisja we Zjednoczonym Królestwie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=5).
-* [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=6).
-* [Introdukcja do SARS-CoV-2 USA](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=7).
-* [Rozprzestrzenianie SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=8).
-* [Rozprzestrzenianie SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=9).
+* [Rozprzestrzenianie się SARS-CoV-2 w Europie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=4).   
+* [Lokalna transmisja w Zjednoczonym Królestwie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=5).
+* [Rozprzestrzenianie się SARS-CoV-2 z Iranu](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=6).
+* [Introdukcja SARS-CoV-2 do USA](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=7).
+* [Rozprzestrzenianie się SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=8).
+* [Rozprzestrzenianie się SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=9).
 * [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=10).
 * [Często zadawane pytania oraz przesądy](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=11).
 * [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=12).
@@ -149,7 +149,7 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Rozprzestrzenianie SARS-CoV-2 po Europie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+# [Rozprzestrzenianie się SARS-CoV-2 w Europie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 Widzimy duży klad, zawierający sekwencje z Europy.
 Co znamienne, sekwencje pochodzące z różnych krajów wystepują naprzemiennie, pokazując, że COVID-19 jest już w szerokim obiegu w Europie.
 <br><br>
@@ -185,7 +185,7 @@ We also see instances where after an introduction, there are several closely-rel
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+# [Rozprzestrzenianie się SARS-CoV-2 z Iranu](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
 Wiele genomów zostało zsekwencjonowanych z próbek pobranych od pacjentów zgłąszających podróż do Iranu. Te wszystkie genomy są niezwykle podobne do siebie i wskazują, że wybuch epidemii w Iranie może być wynikiem pojedynczej introdukcji wirusa i jego dalszej transmisji do wielu innych miejsc.
 <br><br>
 Należy zauważyć, że nie dysponujemy kompletnymi genomami wirusa z próbek pobranych od pacjentów z Iranu.
@@ -201,7 +201,7 @@ Note that there are no full genomes available from patients in Iran.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Introdukcja do USA](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+# [Introdukcja SARS-CoV-2 do USA](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
 Widzimy, że wirus został introdukowany do USA niezależnie wiele razy.
 <br><br>
 Większość tych introdukcji nie jest związana z żadnym innym przypadkiem wirusa z USA, w związku z tym nie jest jasne, czy te introdukcje doprowadziły do wybuchu lokalnych ognisk.
@@ -221,7 +221,7 @@ This suggests ongoing transmission and local spread within these two states.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Rozprzestrzenianie SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+# [Rozprzestrzenianie się SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 Widzimy dużą grupę blisko spokrewnionych przypadków ze stanu Waszyngton.
 Na tej podstawie wnioskujemy, że w obrębie tego stanu znajduje się intensywne lokalne ognisko wirusa.
 <br><br>
@@ -240,7 +240,7 @@ We aren't sure yet whether the virus spread from the cruise ship to Washington o
 
 
 <!-- This is left-side text -->
-# [Rozprzestrzenianie SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+# [Rozprzestrzenianie się SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 Dane z Kaliforni wskazują na wielokrotne introdukcje.
 Co istoniejsze, widzimy co najmniej jedną grupę blisko spokrewnionych przypadków wirusa, wszystkich uzyskanych z próbek pobranych w Kalifornii w ciągu krótkiego czasu (jako przykład kliknij na ['Explore the Data'](https://nextstrain.org/ncov) i poszukaj 'CA9').
 <br><br>
@@ -323,8 +323,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [FAQ i przesądy](https://nextstrain.org/ncov/2020-03-05)
-<!-- maybe change FAQ for "Pytania" -->
+# [Często zadawane pytania oraz przesądy](https://nextstrain.org/ncov/2020-03-05)
 
 #### Wiemy, że mnóstwo ludzi ma pytania dotyczące COVID-19.
 
@@ -334,7 +333,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Źródła dodatkowe
+# Materiały dodatkowe
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [artykuł](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
