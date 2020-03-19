@@ -281,6 +281,16 @@ This strongly suggests that there is ongoing local transmission within Californi
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
+# [Konluzje](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+- Wirus został introdukowany w wielu częściach świata wielokrotnie. Nie wszystkie introdukcje kończą się lokalną transmisją wirusa. 
+<br><br>
+- Widzimy dowody na lokalną transmisję wirusa w Europie, częściach Stanów Zjednoczonych, Chin i Azji Południowo-Wschodniej.
+<br><br>
+- Kontrola lokalnych ognisk poprzez ograniczanie bezpośrednich kontaktów jest istotna aby chronić osoby najbardziej zagrożone.
+
+<!-- This is the right-side text -->
+
+<!-- This is left-side text -->
 # [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
 <br><br>
