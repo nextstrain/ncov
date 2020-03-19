@@ -20,7 +20,7 @@ abstract: "이 문서는 유전체 역학적 정보를 제공하는 계통유전
 * ["다양성" 패널은 어떻게 계통유전학적 나무와 연관되는가](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [유전적 분기들 간의 차이 측정하기](https://nextstrain.org/narratives/trees-background?n=4).  
 * [시간에 따른 차이 측정하기](https://nextstrain.org/narratives/trees-background?n=5).  
-* [바이러스 발생 시점 추정하기](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [바이러스 발생 시점 추정하기](https://nextstrain.org/narratives/trees-background?n=6).  
 * [계통유전학적 나무에 (여러 색으로 표현된) 특징들을 어떻게 해석해야 합니까](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [지도와 계통유전학적 나무는 어떤 관련이 있습니까](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [추가 읽기자료: 계통유전학적 나무의 통계적 불확실성](https://nextstrain.org/narratives/trees-background?n=9).  
