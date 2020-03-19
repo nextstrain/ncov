@@ -190,13 +190,12 @@ Zooming in on the map, we see that there are many links between Italy and other 
 
 <!-- There is no right side text -->
 
-# [Lokalna transmisja we Zjednoczonym Królestwie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+# [Lokalna transmisja w Zjednoczonym Królestwie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 Przykład Wysp Brytyjskich i Irlandii pokazuje, że wiele przypadków gdzie wirus jest blisko spokrewniony z próbkami z innych krajów znajduje się w Wielkiej Brytanii i Irlandii.
 <br><br>
 Jest to zgodne z występieniem 4 lub więcej introdukcji wirusa z innych miejsc. 
 <br><br>
 Widzimy również przypadki, gdzie po introdukcji, obserwuje się kilka blisko spokrewnionych przypadków wirusa z tego samego miejsca.<!-- not sure here several closely-related cases from same original location? --> Jest to zgodne z transmisją wirusa w obrębie lokalnych społeczności z więcej niż jednej fali introdukcji.
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
 <!-- There is no right side text -->
 
 
@@ -209,6 +208,13 @@ We also see instances where after an introduction, there are several closely-rel
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+Wiele genomów zostało zsekwencjonowanych sposród pacjentów raportujących podróż do Iranu. Te wszystkie genomy są niezwykle podobne do siebie, and wksazują, że wybuch epidemii w Iranie może byc wynikiem pojedynczej introdukcji wirusa i jego nastepującej transmisji do wielu innych miejsc.
+<br><br>
+Należy zauważyć, że kompletne genomy nie są dostepne dla pacjentów z Iranu.
+<!-- There is NO right-side text -->
+
 <!-- This is left-side text -->
 # [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
 A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
