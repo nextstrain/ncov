@@ -18,10 +18,10 @@ abstract: "이 문서는 유전체 역학적 정보를 제공하는 계통유전
 * [전염병의 전파 경로는 어떻게 계통유전학적 나무와 연관되는가](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [계통유전학적 나무는 어떻게 해석하는가](https://nextstrain.org/narratives/trees-background?n=2)?  
 * ["다양성" 패널은 어떻게 계통유전학적 나무와 연관되는가](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [유전적 분기들 간의 차이 측정하기](https://nextstrain.org/narratives/trees-background?n=4).  
+* [시간에 따른 차이 측정하기](https://nextstrain.org/narratives/trees-background?n=5).  
+* [바이러스 발생 시점 추정하기](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [계통유전학적 나무에 (여러 색으로 표현된) 특징들을 어떻게 해석해야 합니까](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [지도와 계통유전학적 나무는 어떤 관련이 있습니까](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [추가 읽기자료: 계통유전학적 나무의 통계적 불확실성](https://nextstrain.org/narratives/trees-background?n=9).  
 * [데이터셋에 대하여](https://nextstrain.org/narratives/trees-background?n=10).  
@@ -108,7 +108,7 @@ A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [유전적 분기들 간의 차이 측정](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+# [유전적 분기들 간의 차이 측정하기](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
 이 그림은 공개된 SARS-CoV-2(COVID-19를 유발하는 바이러스)의 169개 균주를 표시한 계통도입니다.
 <br><br>
 가로 축은 유전적 분기를 나타내며, 이는 계통유전학적 나무의 시작점(즉, 바이러스 발생의 최초 지점)에 대한 유전적 변화(돌연변이) 횟수이다. 일부 서열에서는 돌연변이가 없을 수 있습니다. 다시 말해, 변이가 없는 서열은 그 뿌리(가운데 지점)와 동일합니다.
@@ -119,7 +119,7 @@ A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [시간에 따른 차이 측정](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [시간에 따른 차이 측정하기](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 또한 x축에 위치한 샘플링 날짜를 이용하여 시간이 지남에 따라 바이러스가 어떻게 퍼져 나갔는지를 시각화 할 수 있습니다. 여기서 x축은 각 바이러스들을 샘플링한 날짜를 의미합니다. 나무의 끝부분은 각 샘플들이 샘플링 된 날짜를 나타냅니다. 나무의 내부 노드들의 날짜(또는 "결측 케이스")는 그 하위의 바이러스들이 샘플링 된 시점과 바이러스가 변이되는 속도를 기준으로 추정합니다.
 <br><br>
 이전에는 동일 선상에 위치했던(동일한 염기서열을 가진) 서열들이 이윽고 지금은 얼마나 다양하게 갈라지고 퍼지게 되었는지를 확인해 보십시오.
