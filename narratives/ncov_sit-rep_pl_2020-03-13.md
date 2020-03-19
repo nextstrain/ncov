@@ -156,11 +156,6 @@ Choć zgromadzone dane umożliwiają wyciąganie pewnych wniosków na temat wiel
 <br><br>
 Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych rejonach, bądź przypadki z tych regionów są mniej istotne dla zrozumienia sytuacji<!-- maybe some better phrase here -->; powodem jest po prostu niewielka ilość danych docierająca z tych regionów. Wielkość każdego kółka na mapie wskazuje, jak wiele danych z tego regionu jest dostępnych w danym momencie, a nie jaka jest rzeczywista skala ogniska epidemii. 
 
-<!-- There is NO right-side text -->
-
-
-
-<!-- This is left-side text -->
 <!-- # [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
@@ -168,7 +163,13 @@ While this data enables us to infer many useful characteristics of the outbreak 
 <br><br>
 For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
 -->
+
 <!-- There is NO right-side text -->
+
+
+
+
+
 
 
 <!-- ############ SLIDE BREAK ############# -->
