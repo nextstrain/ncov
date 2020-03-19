@@ -290,6 +290,29 @@ This strongly suggests that there is ongoing local transmission within Californi
 
 <!-- This is the right-side text -->
 
+```auspiceMainDisplayMarkdown
+# Co ty możesz zrobić  
+
+Unikanie bezpośrednich kontaktów -- czyli ograniczanie ilości osób, z którymi spotykasz się na codzień -- może być wyzwaniem, ale ma ogromne korzyści dla dobra publicznego. Jeśli każdy ograniczy liczbę dziennych kontaktów o 25%, możemy oczekiwać 50% spadek kumulatywnej liczby przypadków przez następny miesiąc ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Sprawdź ten pomocny przewodnik](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+<div>
+  <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
+</div>
+
+## Kroki jakie każdy może podjąć
+* Ogranicz liczbę osób, z którymi się spotykasz każdego dnia, zwłaszcza jeśli jesteś w grupie podwyższonego ryzyka (np. seniorzy i osoby z osłabioną odpornością).
+* Pamiętaj, że nawet jeśli nie jesteś szczególnie narażona/y, wiele osób wokół ciebie jest; postępuj zgodnie z tymi praktykami, aby chronić innych.
+* My ręcę "jakbyś właśnie pokroił jalapeno i musiał zmienić soczewkę kontaktową".  
+* Pozostań w domu jeśli jesteś chora/y; przygotuj trochę zapasów w razie potrzeby przebycia kwarantanny. 
+* Jeśli jesteś pracodawcą, zachęć swoich pracowników, aby zostali w domu jeśli źle się czują (i wspomóż ich finansowo w tym celu). 
+
+## Kroki jaki mogą podjąć urzędnicy  
+* Spraw, aby testy były darmowe i szeroko dostępne.
+* Wprowadź środki ograniczające bezpośrednie kontakty. 
+* Wspomóź finansowo tych, którzy są pod największym wpływem ograniczeń kontaktów (np. pracowników godzinowych, odpowiedzialnych za dzieczi i osoby starsze, małe przedsiębiorstwa, itd.).
+```
+
+
+
 <!-- This is left-side text -->
 # [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
