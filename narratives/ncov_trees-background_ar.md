@@ -76,11 +76,12 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 
 
 
+
 <br><br>
 اعتمادا على هذه الشجرة نستطيع الإستنتاج بأن اي و بي مرتبطتان جدا ببعضهما وان دي و اي مرتبطتان جدا ببعضهما في حين ان اي و بي اكثر ارتباطا ب سي من ارتباطهما ب دي و اي.
 </p>
 
-### Further reading  
+### قراءات اضافية
 * [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
 * [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
