@@ -27,13 +27,13 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 * [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
 -->
 
-* [病原体的传播和系统发生树有什么关系?](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [如何解读系统发生树？](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [病原体的传播和系统发生树有什么关系](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [如何解读系统发生树](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [“多样性”面板与发生树之间的联系](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [用遗传差异来衡量基因差异大小](https://nextstrain.org/narratives/trees-background?n=4).  
 * [衡量差异的时间变化](https://nextstrain.org/narratives/trees-background?n=5).  
 * [推断疫情爆发的时间](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [系统发生树上的性状(颜色)是什么意思？](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [系统发生树上的性状(颜色)是什么意思](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [地图与系统发生树的联系](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [高级阅读：系统发生树中的不确定性](https://nextstrain.org/narratives/trees-background?n=9).  
 * [关于数据集](https://nextstrain.org/narratives/trees-background?n=10).  
