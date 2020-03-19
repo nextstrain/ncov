@@ -6,6 +6,7 @@ affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA
 date: "13 marca 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu śledzenia rozprzestrzeniania się COVID-19. Raporty takie, jak ten, są tworzone co tydzień."
+tłumaczenie: "Ania Fijarczyk, Piotr Balwierz, Bartosz Lisowski"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -30,7 +31,7 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu �
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Streszczenie wykonawcze
- 
+
 Przeanalizowaliśmy tutaj 410</tag> dostępnych publicznie genomów COVID-19. Porównując je potrafimy ocenić, jak wirus ewoluuje i w jaki sposób rozprzestrzenia się po świecie.
 
 W celu zapoznania się z aktualnymi danymi o liczbie potwierdzonych zakażeń w różnych krajach sprawdź [Our World In Data](https://ourworldindata.org/coronavirus).
@@ -39,10 +40,10 @@ W tym raporcie pokazujemy, że wirus rozprzestrzenia się na dużym obszarze pla
 
 W tym momencie nalegamy, aby skupić się na działaniach prowadzących do spowolnienia rosprzestrzeniania się wirusa w obrębie lokalnych społeczności; zabronienie podróżowania ma mniejsze szanse na efektywne spowolnienie tempa rozprzestrzeniania wirusa.
 
-<!-- 
+<!--
 In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
 At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
-<-->
+-->
 W wiadomościach z tego tygodnia raportujemy:
 
 * COVID-19 rozprzestrzenia się szeroko po Europie, dochodzi do znacznej liczby transmisji między państwami.
@@ -58,23 +59,7 @@ W wiadomościach z tego tygodnia raportujemy:
 * W stanie Kalifornia występuje lokalna cyrkulacja COVID-19
 
 * Dystansowanie społeczne <!-- TODO a better term for social distancing? ZMIENIŁEM ZA RAFAŁEM MOSTOWYM, BL --> powinno być szybko wprowadzone, aby odciążyć systemy opieki zdrowotnej i aby chronić osoby z grupa ryzyka.
- 
-<!-- In this week's updates, we report:  
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
-
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
-
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
-
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
-
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
-
-* There is local circulation of COVID-19 in California.  
-
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
--->
 ```
 
 
@@ -121,7 +106,7 @@ Obecnie dysponujemy sekwencjami próbek pobranych w 30 krajach z 5 kontynenów. 
 <br><br>
 Choć zgromadzone dane umożliwiają wyciąganie pewnych wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone. <!--nasze konkluzje są ograniczone wnioski są ograniczone dostępnymi danymi.-->
 <br><br>
-Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych rejonach, bądź przypadki z tych regionów są mniej istotne dla zrozumienia sytuacji<!-- maybe some better phrase here -->; powodem jest po prostu niewielka ilość danych docierająca z tych regionów. Wielkość każdego kółka na mapie wskazuje, jak wiele danych z tego regionu jest dostępnych w danym momencie, a nie jaka jest rzeczywista skala ogniska epidemii. 
+Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych rejonach, bądź przypadki z tych regionów są mniej istotne dla zrozumienia sytuacji<!-- maybe some better phrase here -->; powodem jest po prostu niewielka ilość danych docierająca z tych regionów. Wielkość każdego kółka na mapie wskazuje, jak wiele danych z tego regionu jest dostępnych w danym momencie, a nie jaka jest rzeczywista skala ogniska epidemii.
 
 <!--
 We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
@@ -162,7 +147,7 @@ Zooming in on the map, we see that there are many links between Italy and other 
 # [Lokalna transmisja w Zjednoczonym Królestwie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 Kilka genomów zsekwencjonowanych na Wyspach Brytyjskich i w Irlandii wykazuje duże pokrewieństwo z wirusami spotykanymi w innych krajach.
 <br><br>
-Jest to zgodne z występieniem 4 lub więcej introdukcji wirusa z innych miejsc. 
+Jest to zgodne z występieniem 4 lub więcej introdukcji wirusa z innych miejsc.
 <br><br>
 Widzimy również przypadki, gdzie po introdukcji obserwuje się kilka blisko spokrewnionych przypadków wirusa z tego samego miejsca.<!-- not sure here several closely-related cases from same original location? --> Jest to zgodne z transmisją wirusa w obrębie lokalnych społeczności z więcej niż jednej fali introdukcji.
 
@@ -172,9 +157,6 @@ This is consistent with 4 or more introductions from other locations.
 <br><br>
 We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
 -->
-
-<!-- There is no right side text -->
-
 
 <!-- There is no right side text -->
 
@@ -197,9 +179,9 @@ Note that there are no full genomes available from patients in Iran.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Introdukcja do USA](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Widzimy, że wirus został introdukowany do USA niezależnie wiele razy. 
+Widzimy, że wirus został introdukowany do USA niezależnie wiele razy.
 <br><br>
-Większość tych introdukcji nie jest związana z żadnym innym przypadkiem wirusa z USA, w związku z tym nie jest jasne, czy te introdukcje doprowadziły do wybuchu lokalnych ognisk. 
+Większość tych introdukcji nie jest związana z żadnym innym przypadkiem wirusa z USA, w związku z tym nie jest jasne, czy te introdukcje doprowadziły do wybuchu lokalnych ognisk.
 Niemniej jednak, w związku z tym, że wydajność testowania obecności wirusa nie została zintensyfikowana na większości obszarów, spodziewamy się znacznej liczby nieraportowanych przypadków.
 <br><br>
 Mimo to, dla stanów Waszyngton i Kalifornia, widzimy grupy blisko spokrewnionych przypadków. To sugeruje trwającą transmisję i lokalne rozprzestrzenianie się wirusa  w tych dwóch stanach.
@@ -252,7 +234,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Konkluzje](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- Wirus został wielokrotnie introdukowany w wielu częściach świata. Nie wszystkie introdukcje kończą się lokalną transmisją wirusa. 
+- Wirus został wielokrotnie introdukowany w wielu częściach świata. Nie wszystkie introdukcje kończą się lokalną transmisją wirusa.
 <br><br>
 - Widzimy dowody na lokalną transmisję wirusa w Europie, częściach Stanów Zjednoczonych, Chin i Azji Południowo-Wschodniej.
 <br><br>
@@ -272,19 +254,19 @@ Unikanie bezpośrednich kontaktów -- czyli ograniczanie liczby osób, z którym
 * Ogranicz liczbę osób, z którymi się spotykasz każdego dnia, zwłaszcza jeśli jesteś w grupie podwyższonego ryzyka (np. seniorzy i osoby z osłabioną odpornością).
 * Pamiętaj, że nawet jeśli nie jesteś szczególnie narażona/y, wiele osób wokół ciebie jest; postępuj zgodnie z tymi praktykami, aby chronić innych.
 * Myj ręcę "jakbyś właśnie pokroił papryczkę jalapeno i musiał zmienić soczewkę kontaktową".  
-* Pozostań w domu jeśli jesteś chora/y; przygotuj trochę zapasów w razie potrzeby przebycia kwarantanny. 
-* Jeśli jesteś pracodawcą, zachęć swoich pracowników, aby zostali w domu jeśli źle się czują (i wspomóż ich finansowo w tym czasie). 
+* Pozostań w domu jeśli jesteś chora/y; przygotuj trochę zapasów w razie potrzeby przebycia kwarantanny.
+* Jeśli jesteś pracodawcą, zachęć swoich pracowników, aby zostali w domu jeśli źle się czują (i wspomóż ich finansowo w tym czasie).
 
 ## Kroki jakie mogą podjąć urzędnicy  
 * Spraw, aby testy informujące o pandemii były darmowe i szeroko dostępne.
-* Wprowadź środki ograniczające bezpośrednie kontakty. 
+* Wprowadź środki ograniczające bezpośrednie kontakty.
 * Wspomóź finansowo tych, którzy najbardziej ucierpią w wyniku dystansowania społecznego (np. pracowników godzinowych, odpowiedzialnych za dzieci i osoby starsze, małe przedsiębiorstwa itd.).
 ```
 
 
 
 
-<!-- 
+<!--
 - The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
 <br><br>
 - We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
@@ -328,7 +310,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Źródła dodatkowe 
+# Źródła dodatkowe
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [artykuł](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
@@ -366,7 +348,7 @@ Aby rozwiać wątpliwości co do kontrowersyjnych i niepotwierdzonych teorii, na
 
 #### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
 
-```auspiceMainDisplayMarkdown
+auspiceMainDisplayMarkdown
 # Further reading  
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
@@ -392,7 +374,6 @@ In an effort to try and explain why these views are incorrect, scientists have a
 
 
 </div>
-```
 -->
 
 <!-- ############ SLIDE BREAK ############# -->
