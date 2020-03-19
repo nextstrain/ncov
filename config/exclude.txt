@@ -114,3 +114,6 @@ USA/CruiseA-23/2020
 USA/CruiseA-24/2020
 USA/CruiseA-25/2020
 USA/CruiseA-26/2020
+
+# way too divergent 
+Saint-Petersburg/3524S/2020
