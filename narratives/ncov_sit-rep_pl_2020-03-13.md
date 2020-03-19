@@ -5,7 +5,7 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "13 marca 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu śledzenia rozprzestrzeniania się COVID-19. Raporty takie jak ten są tworzone co tydzień."
+abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu śledzenia rozprzestrzeniania się COVID-19. Raporty takie, jak ten, są tworzone co tydzień."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -21,8 +21,8 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu �
 * [Lokalna transmisja we Zjednoczonym Królestwie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
 * [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
 * [Introdukcja do USA](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Rozprzestrzenianie SARS-CoV-2 w stanie Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Rozprzestrzenianie SARS-CoV-2 w stanie California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
+* [Rozprzestrzenianie SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
+* [Rozprzestrzenianie SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
 * [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
 * [Często zadawane pytania oraz przesądy](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 * [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
@@ -31,13 +31,13 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu �
 ```auspiceMainDisplayMarkdown
 # Streszczenie wykonawcze
  
-Przeanalizowaliśmy tutaj 410</tag> dostępnych publicznie genomów COVID-19. Porównując ze sobą te wirusowe genomy potrafimy ocenić jak COVID-19 ewoluuje i jak rozprzestrzenia się po świecie.
+Przeanalizowaliśmy tutaj 410</tag> dostępnych publicznie genomów COVID-19. Porównując je potrafimy ocenić, jak wirus ewoluuje i w jaki sposób rozprzestrzenia się po świecie.
 
 W celu zapoznania się z aktualnymi danymi o liczbie potwierdzonych zakażeń w różnych krajach sprawdź [Our World In Data](https://ourworldindata.org/coronavirus).
 
-W tym raporcie pokazujemy, że wirus rozprzestrzenia się na dużym obszarze planety, z dowodami na lokalne przekazywanie wirusa na wielu kontynantach.
+W tym raporcie pokazujemy, że wirus rozprzestrzenia się na dużym obszarze planety, a dowody wskazują też na lokalne przekazywanie wirusa na wielu kontynantach.
 
-W tym momencie, nalegamy aby skupić się na działaniach prowadzących do spowolnienia rosprzestrzeniania się wirusa wewnątrz lokalnych społeczności; zabronienie podróżowania ma mniejsze szanse bycia efektywnym.
+W tym momencie nalegamy, aby skupić się na działaniach prowadzących do spowolnienia rosprzestrzeniania się wirusa w obrębie lokalnych społeczności; zabronienie podróżowania ma mniejsze szanse na efektywne spowolnienie tempa rozprzestrzeniania wirusa.
 
 <!-- 
 In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
@@ -45,19 +45,19 @@ At this time, we urge focus on efforts to slow the spread within communities; tr
 <-->
 W wiadomościach z tego tygodnia raportujemy:
 
-* COVID-19 rozprzestrzenia się szeroko po Europie ze znaczącą ilością transmisji między państwami.
+* COVID-19 rozprzestrzenia się szeroko po Europie, dochodzi do znacznej liczby transmisji między państwami.
 
-* Zidentyfikowaliśmy przynajmniej 4 introdukcje wirusa w Wielkiej Brytanii.
+* Zidentyfikowaliśmy przynajmniej 4 introdukcje wirusa w Wielkiej Brytanii, w kilku przypadkach prowadzące do transmisji lokalnej.
 
 * Wystąpiło kilka transmisji związanych z podróżami z Iranu do innym miejsc na świecie.
 
-* Do dziś natąpiło dużo wprowadzeń do USA, skutkujących w lokalnych łańcuchach transmisji w wielu stanach.
+* Do dziś natąpiło dużo introdukcji do USA, skutkujących lokalnymi łańcuchami transmisji w wielu stanach.
 
-* Wybuch fali zakażeń w stanie Washington się utrzymuje; niektóre z przypadków są ściśle związane z tymi ze statku wycieczkowego Grand Princess.
+* Ognisko w stanie Waszyngton się utrzymuje; niektóre z przypadków są ściśle związane z tymi ze statku wycieczkowego Grand Princess.
 
-* W stanie California występuje lokalna cyrkulacja COVID-19
+* W stanie Kalifornia występuje lokalna cyrkulacja COVID-19
 
-* Zabranianie bezpośrednich kontaktów społecznych <!-- TODO a better term for social distancing? --> powinno być szybko wprowadzone aby obniżyć ciężar na systemy opieki zdrowotnej i aby chronić osoby wysokiego ryzyka.
+* Dystansowanie społeczne <!-- TODO a better term for social distancing? ZMIENIŁEM ZA RAFAŁEM MOSTOWYM, BL --> powinno być szybko wprowadzone, aby odciążyć systemy opieki zdrowotnej i aby chronić osoby z grupa ryzyka.
  
 <!-- In this week's updates, we report:  
 
@@ -84,7 +84,7 @@ W wiadomościach z tego tygodnia raportujemy:
 
 # [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-05)
 
-Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który go wywołuje. Te materiały ułatwią interpretację danych, które prezentujemy w tym raporcie; jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background).
+Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który tę chorobę wywołuje. Zawarte w nich informacje ułatwią interpretację danych, które prezentujemy w tym raporcie; jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -107,10 +107,10 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 ## Raporty Nextstrain
 
 Nastepujące strony zawierają analizy wykonane przy użyciu [Nextstrain](https://nextstrain.org).
-Podczas przeglądnia pojawią się fragmenty tekstu wraz z odpowiadającymi wizualizacjami danych genomowych. <!-- may need better phrasing-->
+Podczas przeglądnia przezentacji zobaczysz wizualizacje danych genomowych wraz z krótkim komentarzem. <!-- may need better phrasing; ZMIENIŁEM Z: pojawią się fragmenty tekstu wraz z odpowiadającymi wizualizacjami danych genomowych.-->
 
 Uzyskanie całkowitych genomów nowych i dużych wirusów RNA w tak krótkim czasie jest niezwykłym osiągnięciem.
-Te analizy były możliwe dzięki szybkiemu i nieograniczonemu dostępowi do danych genomowych oraz współpracy naukowców z całego świata (wizualizacja autorstwa w sekwencjonowaniu na ostatnim slajdzie).
+Te analizy były możliwe dzięki szybkiemu i nieograniczonemu dostępowi do danych genomowych oraz współpracy naukowców z całego świata (wizualizacja autorstwa w sekwencjonowaniu znajduje się na ostatnim slajdzie).
 ```
 
 
@@ -150,11 +150,11 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 
 <!-- This is left-side text -->
 # [Opis próbkowania](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-Obecnie dysponujemy sekwencjami próbek pobranych z 30 krajów z 5 kontynenów. To niesamowity wyczyn -- sekwenjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i jedynie możliwe dzięki ogromnej pracy i sprawnemu udostępnianiu danych poprzez naukowców i fizyków z całego świata.
+Obecnie dysponujemy sekwencjami próbek pobranych w 30 krajach z 5 kontynenów. To niesamowity wyczyn -- sekwenjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
 <br><br>
-Podczas gdy te dane umożliwiają nam wyciąganie wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, nalezy podkreślić, że nasze wnioski są ograniczone dostępnymi danymi.
+Choć zgromadzone dane umożliwiają wyciąganie pewnych wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone. <!--nasze konkluzje są ograniczone wnioski są ograniczone dostępnymi danymi.-->
 <br><br>
-Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych rejonach, bądź przypadki z tych regionów nie są istotne<!-- maybe some better phrase here -->; powodem jest po prostu niewielka ilość danych z tych regionów. Wielkość każdego kółka na mapie wskazuje jak wiele danych jest dostepnych w danym momencie z tego regionu, a nie rzeczywista skala epidemii. 
+Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych rejonach, bądź przypadki z tych regionów są mniej istotne dla zrozumienia sytuacji<!-- maybe some better phrase here -->; powodem jest po prostu niewielka ilość danych docierająca z tych regionów. Wielkość każdego kółka na mapie wskazuje, jak wiele danych z tego regionu jest dostępnych w danym momencie, a nie jaka jest rzeczywista skala ogniska epidemii. 
 
 <!-- There is NO right-side text -->
 
@@ -174,10 +174,10 @@ For example, the map shows very few sequences from the global south. This is NOT
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Rozprzestrzenianie po Europie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Tutaj widzimy duży klad zawierający sekwencje z Europy.
+Widzimy duży klad, zawierający sekwencje z Europy.
 Co znamienne, sekwencje pochodzące z różnych krajów wystepują naprzemiennie, pokazując, że COVID-19 jest już w szerokim obiegu w Europie.
 <br><br>
-Po przybliżeniu mapy, widzimy, że jest wiele punktów łączących Włochy z innymi rejonami; należy jednak pamiętać, że nie zawsze możemy pewnie wnioskować co do kierunku tych łaczników. Powyższe dane mogą być tłumaczone innymi hipotezami (np. jeśli drugorzędowe przypadki wirusa zarówno we Włoszech jak i w innych rejonach, nie zostały zsekwencjonowane). <!-- not really understand the part in parentheses -->
+Po przybliżeniu mapy widzimy, że jest wiele punktów łączących Włochy z innymi rejonami; należy jednak pamiętać, że kierunek tych łączników nie zawsze da się łatwo określić. Dane te mogą być tłumaczone innymi hipotezami (np. przekazaniem wirusa przez nieznanego pacjenta zarówno we Włoszech, jak i w Niemczech)  <!-- not really understand the part in parentheses: how about this istead of: jeśli drugorzędowe przypadki wirusa, zarówno we Włoszech, jak i w innych rejonach, nie zostały zsekwencjonowane).-->
 
 <!-- There is no right side text -->
 
@@ -191,11 +191,11 @@ Zooming in on the map, we see that there are many links between Italy and other 
 <!-- There is no right side text -->
 
 # [Lokalna transmisja w Zjednoczonym Królestwie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Przykład Wysp Brytyjskich i Irlandii pokazuje, że wiele przypadków gdzie wirus jest blisko spokrewniony z próbkami z innych krajów znajduje się w Wielkiej Brytanii i Irlandii.
+Kilka genomów zsekwencjonowanych na Wyspach Brytyjskich i w Irlandii wykazuje duże pokrewieństwo z wirusami spotykanymi w innych krajach.
 <br><br>
 Jest to zgodne z występieniem 4 lub więcej introdukcji wirusa z innych miejsc. 
 <br><br>
-Widzimy również przypadki, gdzie po introdukcji, obserwuje się kilka blisko spokrewnionych przypadków wirusa z tego samego miejsca.<!-- not sure here several closely-related cases from same original location? --> Jest to zgodne z transmisją wirusa w obrębie lokalnych społeczności z więcej niż jednej fali introdukcji.
+Widzimy również przypadki, gdzie po introdukcji obserwuje się kilka blisko spokrewnionych przypadków wirusa z tego samego miejsca.<!-- not sure here several closely-related cases from same original location? --> Jest to zgodne z transmisją wirusa w obrębie lokalnych społeczności z więcej niż jednej fali introdukcji.
 <!-- There is no right side text -->
 
 
@@ -210,9 +210,9 @@ We also see instances where after an introduction, there are several closely-rel
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Wiele genomów zostało zsekwencjonowanych sposród pacjentów raportujących podróż do Iranu. Te wszystkie genomy są niezwykle podobne do siebie i wskazują, że wybuch epidemii w Iranie może być wynikiem pojedynczej introdukcji wirusa i jego następującej transmisji do wielu innych miejsc.
+Wiele genomów zostało zsekwencjonowanych z próbek pobranych od pacjentów zgłąszających podróż do Iranu. Te wszystkie genomy są niezwykle podobne do siebie i wskazują, że wybuch epidemii w Iranie może być wynikiem pojedynczej introdukcji wirusa i jego dalszej transmisji do wielu innych miejsc.
 <br><br>
-Należy zauważyć, że kompletne genomy nie są dostępne od pacjentów z Iranu.
+Należy zauważyć, że nie dysponujemy kompletnymi genomami wirusa z próbek pobranych od pacjentów z Iranu.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
@@ -225,10 +225,10 @@ Note that there are no full genomes available from patients in Iran.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Introdukcja do USA](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Tutaj widzimy, że wirus został introdukowany do USA niezależnie wiele razy. 
+Widzimy, że wirus został introdukowany do USA niezależnie wiele razy. 
 <br><br>
-Większość tych introdukcji nie jest związana z żadnym innym przypadkiem wirusa z USA, w związku z tym nie jest jasne czy te introdukcje doprowadziły do lokalnych ognisk. 
-Niemniej jednak, w związku z tym, że wydajność testowania obecności wirusa nie została zintensyfikowana na większości obszarów, oczekujemy, że istnieje wiele niezaraportowanych przypadków.
+Większość tych introdukcji nie jest związana z żadnym innym przypadkiem wirusa z USA, w związku z tym nie jest jasne, czy te introdukcje doprowadziły do wybuchu lokalnych ognisk. 
+Niemniej jednak, w związku z tym, że wydajność testowania obecności wirusa nie została zintensyfikowana na większości obszarów, spodziewamy się znacznej liczby nieraportowanych przypadków.
 <br><br>
 Mimo to, dla stanów Waszyngton i Kalifornia, widzimy grupy blisko spokrewnionych przypadków. To sugeruje trwającą transmisję i lokalne rozprzestrzenianie się wirusa  w tych dwóch stanach.
 <!-- There is no right side text -->
@@ -247,11 +247,11 @@ This suggests ongoing transmission and local spread within these two states.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Rozprzestrzenianie SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Tutaj widzimy dużą grupę blisko spokrewnionych przypadków ze stanu Waszyngton.
-Na tej podstawie wnioskujemy, że w obrębie stanu Waszyngton znajduje się intensywne lokalne ognisko wirusa.
+Widzimy dużą grupę blisko spokrewnionych przypadków ze stanu Waszyngton.
+Na tej podstawie wnioskujemy, że w obrębie tego stanu znajduje się intensywne lokalne ognisko wirusa.
 <br><br>
 Co ciekawe, próbki ze stanu Waszyngton występują naprzemiennie z próbkami ze statku wycieczkowego Grand Princess.
-Nie jesteśmy jeszcze pewni czy wirus przeniósł się ze statku wycieczkowego do stanu Waszyngton, czy na odwrót; analizy zostaną zaktualizowane przy większej islości danych.
+Nie jesteśmy jeszcze pewni, czy wirus przeniósł się ze statku wycieczkowego do stanu Waszyngton, czy na odwrót; analizy zostaną zaktualizowane w miarę dostępu do większej ilości danych.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
@@ -266,9 +266,9 @@ We aren't sure yet whether the virus spread from the cruise ship to Washington o
 <!-- This is left-side text -->
 # [Rozprzestrzenianie SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 Dane z Kaliforni wskazują na wielokrotne introdukcje.
-Co istoniejsze, widzimy co najmniej jedną grupę blisko spokrewnionych przypadków wirusa, wszystkich pobranych w Kaliforni w ciągu krótkiego czasu (jako przykład kliknij na ['Explore the Data'](https://nextstrain.org/ncov) i poszukaj 'CA9').
+Co istoniejsze, widzimy co najmniej jedną grupę blisko spokrewnionych przypadków wirusa, wszystkich uzyskanych z próbek pobranych w Kalifornii w ciągu krótkiego czasu (jako przykład kliknij na ['Explore the Data'](https://nextstrain.org/ncov) i poszukaj 'CA9').
 <br><br>
-To mocno sugeruje, że trwa lokalne rozprzestrzenianie się wirusa w Kaliforni.
+To sugeruje, że trwa lokalne rozprzestrzenianie się wirusa w Kalifornii.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
@@ -282,18 +282,18 @@ This strongly suggests that there is ongoing local transmission within Californi
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Konluzje](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- Wirus został introdukowany w wielu częściach świata wielokrotnie. Nie wszystkie introdukcje kończą się lokalną transmisją wirusa. 
+- Wirus został wielokrotnie introdukowany w wielu częściach świata. Nie wszystkie introdukcje kończą się lokalną transmisją wirusa. 
 <br><br>
 - Widzimy dowody na lokalną transmisję wirusa w Europie, częściach Stanów Zjednoczonych, Chin i Azji Południowo-Wschodniej.
 <br><br>
-- Kontrola lokalnych ognisk poprzez ograniczanie bezpośrednich kontaktów jest istotna aby chronić osoby najbardziej zagrożone.
+- Kontrola lokalnych ognisk poprzez ograniczanie bezpośrednich kontaktów jest istotna dla ochrony osób najbardziej zagrożonych.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
 # Co ty możesz zrobić  
 
-Unikanie bezpośrednich kontaktów -- czyli ograniczanie ilości osób, z którymi spotykasz się na codzień -- może być wyzwaniem, ale ma ogromne korzyści dla dobra publicznego. Jeśli każdy ograniczy liczbę dziennych kontaktów o 25%, możemy oczekiwać 50% spadku kumulatywnej liczby przypadków przez następny miesiąc ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Nie jesteś pewna/y co to znaczy ograniczenie bezpośrednich kontaktów? [Sprawdź ten pomocny przewodnik](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+Unikanie bezpośrednich kontaktów -- czyli ograniczanie liczby osób, z którymi spotykasz się na co dzień -- może być wyzwaniem, ale ma ogromne korzyści dla dobra publicznego. Jeśli każdy ograniczy liczbę dziennych kontaktów o 25%, możemy oczekiwać 50% spadku całkowitej liczby przypadków w następnym miesiącu ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Nie jesteś pewna/y co to znaczy ograniczenie bezpośrednich kontaktów? [Sprawdź ten pomocny przewodnik](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -301,14 +301,14 @@ Unikanie bezpośrednich kontaktów -- czyli ograniczanie ilości osób, z który
 ## Kroki jakie każdy może podjąć
 * Ogranicz liczbę osób, z którymi się spotykasz każdego dnia, zwłaszcza jeśli jesteś w grupie podwyższonego ryzyka (np. seniorzy i osoby z osłabioną odpornością).
 * Pamiętaj, że nawet jeśli nie jesteś szczególnie narażona/y, wiele osób wokół ciebie jest; postępuj zgodnie z tymi praktykami, aby chronić innych.
-* My ręcę "jakbyś właśnie pokroił jalapeno i musiał zmienić soczewkę kontaktową".  
+* Myj ręcę "jakbyś właśnie pokroił papryczkę jalapeno i musiał zmienić soczewkę kontaktową".  
 * Pozostań w domu jeśli jesteś chora/y; przygotuj trochę zapasów w razie potrzeby przebycia kwarantanny. 
-* Jeśli jesteś pracodawcą, zachęć swoich pracowników, aby zostali w domu jeśli źle się czują (i wspomóż ich finansowo w tym celu). 
+* Jeśli jesteś pracodawcą, zachęć swoich pracowników, aby zostali w domu jeśli źle się czują (i wspomóż ich finansowo w tym czasie). 
 
-## Kroki jaki mogą podjąć urzędnicy  
-* Spraw, aby testy były darmowe i szeroko dostępne.
+## Kroki jakie mogą podjąć urzędnicy  
+* Spraw, aby testy informujące o pandemii były darmowe i szeroko dostępne.
 * Wprowadź środki ograniczające bezpośrednie kontakty. 
-* Wspomóź finansowo tych, którzy są pod największym wpływem ograniczeń kontaktów (np. pracowników godzinowych, odpowiedzialnych za dzieci i osoby starsze, małe przedsiębiorstwa, itd.).
+* Wspomóź finansowo tych, którzy najbardziej ucierpią w wyniku dystansowania społecznego (np. pracowników godzinowych, odpowiedzialnych za dzieci i osoby starsze, małe przedsiębiorstwa itd.).
 ```
 
 
@@ -354,7 +354,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 #### Wiemy, że mnóstwo ludzi ma pytania dotyczące COVID-19.
 
-#### [Stworzyliśmy przewodnik aby spróbować odpowiedzieć na najczęściej zadawane pytania](https://nextstrain.org/help/coronavirus/FAQ).
+#### [Stworzyliśmy przewodnik, w którym próbujemy odpowiedzieć na najczęściej zadawane pytania](https://nextstrain.org/help/coronavirus/FAQ).
 
 #### Związek Naukowców Amerykańskich (The Federation of American Scientists) również posiada [świetną stronę dla najczęściej zadawanych pytań](https://covid19.fas.org/l/en).
 
@@ -374,9 +374,9 @@ Social distancing -- that is, decreasing the number of people you encounter each
 # Przesądy
 
 Liczne przesądy są rozpowszechniane na temat źródeł powstania nowego koronawirusa.
-Podczas wybuchów epidemii jak ta, rozpowszechnianie nieprawdziwych informacji może prowadzić do wzrostu paniki i powodować obniżenie zaufania do naukowców czy rządów, sprawiając, że mniej ludzi będzie się stosować do ogólnych zaleceń czy podejmowało odpowiednie środki ostrożności.
+Podczas wybuchów epidemii jak ta, rozpowszechnianie nieprawdziwych informacji może prowadzić do wzrostu paniki i powodować obniżenie zaufania do naukowców czy rządów, sprawiając, że mniej ludzi będzie się stosowało do ogólnych zaleceń i podejmowało odpowiednie środki ostrożności.
 
-Aby rozwiać wątpliwości co do nieprawidłowości tych sądów, naukowcy odnieśli się do tych teorii na poniżsych stronach:
+Aby rozwiać wątpliwości co do kontrowersyjnych i niepotwierdzonych teorii, naukowcy odnieśli się do nich w materiałach znajdujących się na poniższych stronach:
 
 <div>
 
