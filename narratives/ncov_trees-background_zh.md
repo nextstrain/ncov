@@ -137,6 +137,7 @@ It is precisely mutations such as this which we use to define the relationships 
 <!-- This is left-side text -->
 <!-- # [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div) -->
 # [用遗传差异来衡量基因差异大小](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+<!-- 
 This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
 <br><br>
 Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
@@ -146,28 +147,51 @@ Other viruses have between one and eleven mutations.
 At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
 Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
 You can see how many mutations a branch has by hovering your mouse over it.
-
+-->
+这是第一批公开共享的169</tag>株SARS-CoV-2(导致COVID-19的病毒)毒株的系统发生树.
+<br><br>
+这里，横轴表示差异大小，这是基因组中相对于树根(即爆发的开始)的变化(突变)的数量.
+一些序列可能有零突变--这意味着它们都与树的根(中心)完全相同.
+其他病毒有1到11个突变.
+<br><br>
+目前，这可能看起来不太像一棵“树”。许多序列是相同的-它们一起位于一条垂直线上，如A和B(有些位于树的最左边).
+其余得有独特的或共同的突变，所以他们坐在线上，或向右的“分支”上.
+您可以通过将鼠标悬停在分支上来查看该分支有多少突变.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- # [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open) -->
 # [衡量差异的时间变化](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+<!--
 We can also visualize how the virus has spread over time by using the sampling date as the x axis.
 Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
 <br><br>
 Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
 This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
 You can scroll up and down between the previous slide and this one, to see how the tree changes.
+-->
+我们还可以通过使用采样日期作为x轴来看见病毒是如何随时间增长而传播的.
+在这里看到，x轴代表每个病毒的采样日期。树梢末的位置代表这些样本的采集日期。内部节点的日期--“缺失病例”--是根据对其后代进行采样的时间和病毒变异率来推断的.
+<br><br>
+注意有多少以前排成一条线的序列(表示完全相同的基因组)现在随着时间变化分散开来.
+当病毒变异的速度比传播的速度稍慢时，就会发生这种情况.
+您可以在上一张幻灯片和这张幻灯片之间切换来查看树的变化.
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- # [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open) -->
 # [推断疫情爆发的时间](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+<!--
 We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
 Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
 <br><br>
 If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+-->
+我们也可以使用基因组学来推断爆发开始的日期，就算这个时间是在疫情正式被人们发现之前.
+因为我们可以为树中的每个样本和节点分配日期，所以我们可以使用它来推断树的“根”的日期.树根代表我们到目前为止所有SARS-CoV-2序列中的“最近共同祖先”.就像你的祖父母是你和你所有的表亲的“最近共同祖先”一样.
+<br><br>
+如果将鼠标悬停在最左侧的垂直线上，您可以看到，对于此次疫情，推断出来的开始日期在2019年11月中旬至12月中旬之间.
 
 <!-- There is NO right-side text -->
 
@@ -176,25 +200,30 @@ If you mouse over the leftmost vertical line, you can see that the inferred star
 <!-- This is left-side text -->
 <!-- # [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)-->
 # [系统发生树上的性状(颜色)是什么意思?](https://nextstrain.org/ncov/2020-03-11)
+<!-- 
 Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
 <br><br>
 Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+-->
+系统发生树通常包含一些额外信息，比如每个样本集合的位置。由此，我们可以使用数学模型来推断内部节点的位置(假设中介、未抽样病例)。这可以帮助我们了解病毒是如何从一个位置移动到下一个位置的.
+<br><br>
+然而，推断这些结论时应谨慎行事，因为采样和测序的正确性或缺少采样和测序会很大的影响到结论的正确性.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# 范例
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+在左边，我们展示了一个有着完整采样的系统发生树，样本来自两个不同的地方，用橙色和蓝色表示。当我们沿着树往下看时，我们可以观察到有三次颜色(位置)从橙色切换到蓝色。由此，我们可以得出结论，从橙色位置到蓝色位置有三个不同的输入事件.
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+但是，这种推断依赖于采样：在中间的树中，我们移除了一个橙色样本。我们现在只能观察到一次从橙色到蓝色的转变，这表明只有一次早期发生的蓝色输入事件.
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+在最后一个例子中，我们只有一个来自橙色的序列，这可能会让我们认为只有一次从橙色输入到蓝色的病例.
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+因此，虽然这些推论可能有意义的，但对它们的理解也必须谨慎.
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
@@ -205,8 +234,8 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- # [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed) -->
 # [地图与系统发生树的联系](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+在这里，我们可以看到用样本的位置(以及为每个内部节点推断的位置)着色的树.
+点击['浏览数据'](https://nextstrain.org/ncov), 您可以播放一段动画，演示在爆发过程中推断出的病毒传播情况.
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -214,12 +243,12 @@ If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an 
 <!-- This is left-side text -->
 <!-- # [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11) -->
 # [高级阅读：系统发生树中的不确定性](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+前面，我们讨论了内部节点是如何表示_假设的_未采样病例。事实上，所有的树都代表了关于病原体如何随时间进化和移动的“假设”。我们在NextStress上展示的树是对点的估计 -- 也就是我们为了能最大限度地增加可观察到的历史数据的概率而采用的版本.
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+不过，这些预估总是存在不确定性。一般说来，采样密集的部分比较确定；采样稀疏的区域就不太确定.
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+# 插图
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
