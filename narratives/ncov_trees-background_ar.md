@@ -191,13 +191,14 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+نعرض على اليسار شجرة تصنيف جيني لمجموعة كاملة من العينات، مع عينات من موقعين مختلفين موضحة باللونين البرتقالي والازرق. كلما انتقلنا في الشجرة من اعلى لاسفل نلاحظ ثلاثة مرات حيث يتغير اللون من البرتفالي للازرق. نستنتج من ذلك بانه كان هناك ثلاثة حالات ادخال مختلفة من المنطقة البرتقالية الى المنطقة الزرقاء.
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+لكن هذا الاستنتاج يعتمد على جمع العينات: في وسط الشجرة . الوسطى قمنا بازالة عينة برتقالية. نلاحظ الان تبدل واحد فقط من البرتقالي للازرق، مقترحا بانه كان هناك حالة ادخال واحدة الى المنطقة الزرقاء والتي حدثت ابكر بكثير.ة
+
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+في المثال الاخير، لدينا تسلسل واحد فقط من المنطقة البرتقالية والذي قد يدعونا للاعتقاد بانه كان هناك بأنه كان هناك ادخال واحد من المنطقة البرتقالية للمنطقة الزرقاء.
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+لذلك وببنما ان هذه الاستنتاجات يمكن ان تكون قبمة الا انه يجب تحليلها بحذر
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
