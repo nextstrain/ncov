@@ -246,12 +246,29 @@ This suggests ongoing transmission and local spread within these two states.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
+# [Rozprzestrzenianie SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+Tutaj widzimy dużą grupę blisko spokrewnionych przypadków ze stanu Waszyngton.
+Na tej podstawie wnioskujemy, że w obrębie stanu Waszyngton znajduje się intensywne lokalne ognisko wirusa.
+<br><br>
+Co ciekawe, próbki ze stanu Waszyngton występują naprzemiennie z próbkami ze statku wycieczkowego Grand Princess.
+Nie jesteśmy jeszcze pewni czy wirus przeniósł się ze statku wycieczkowego do stanu Waszyngton, czy na odwrót; analizy zostaną zaktualizowane przy większej islości danych.
+<!-- There is NO right-side text -->
+
+<!-- This is left-side text -->
 # [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 Here, we see a large cluster of cases from Washington that are all closely related.
 From this, we conclude that there is extensive local spread within Washington state.
 <br><br>
 Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship.
 We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis.
+<!-- There is NO right-side text -->
+
+<!-- This is left-side text -->
+# [Rozprzestrzenianie SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+Dane z Kaliforni wskazują na wielokrotne introdukcje.
+Co istoniejsze, widzimy co najmniej jedną grupę blisko spokrewnionych przypadków wirusa, wszystkich pobranych w Kaliforni w ciągu krótkiego czasu (jako przykład kliknij na ['Explore the Data'](https://nextstrain.org/ncov) i poszukaj 'CA9').
+<br><br>
+To mocno sugeruje, że trwa lokalne rozprzestrzenianie się wirusa w Kaliforni.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
