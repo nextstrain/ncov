@@ -94,13 +94,13 @@ A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹
 
 공개된 SARS-CoV-2 (COVID-19를 유발하는 바이러스)의 169개 균주를 살펴 보도록 하겠습니다. 
 <br><br>
-이전 페이지에서 보신 것처럼, 우리는 바이러스의 염기서열을 정리해 보았습니다. (여기서 언급된 모든 분석이 어떻게 이루어졌는지는 Github에서 확인할 수 있습니다).
+이전 슬라이드에서 보신 것처럼, 우리는 바이러스의 염기서열을 정리해 보았습니다. (여기서 언급된 모든 분석이 어떻게 이루어졌는지는 Github에서 확인할 수 있습니다).
 <br><br>
-여기에선 유전적 다양성 (즉, 유전자 변이) 을 보여주는 막대 그래프와 계통유전학적 나무를 함께 보여주고 있습니다. 만약 유전자 변이가 없었다면, 계통유전학적 나무를 그릴 수 없었을 것입니다. 따라서, 다양성 패널과 계통유전학적 나무는 서로 밀접한 연관성을 가지고 있습니다. 
+여기에선 유전체 변이(즉, 돌연변이)를 보여주는 막대 그래프와 계통유전학적 나무를 함께 보여주고 있습니다. 만약 이런 돌연변이들이 없었다면, 계통유전학적 나무를 그릴 수 없었을 것입니다. 따라서 다양성 패널과 계통유전학적 나무는 서로 밀접한 연관성을 가지고 있습니다. 
 <br><br>
-이 "다양성" 패널에서, x축은 (다 합쳐서 약 3만 개 정도 되는) 코로나19 바이러스 염기서열 위치를 의미합니다. 반면, y축은 얼마나 많은 유전자 변이가 있었는지를 보여 줍니다.
+이 "다양성" 패널에서 가로축은(다 합쳐서 약 3만 개 정도 되는) 바이러스 염기서열 위치를 의미합니다. 반면 세로축은 얼마나 많은 유전자 변이가 있었는지를 보여 줍니다.
 <br><br>
-우리는 이러한 유전자 변이들 중 하나를 선택하여 이에 따라 계통유전학적 나무의 색깔을 달리 표시했습니다. -- 여기에서 선택된 것은 "ORF1b" 유전자 안에 들어 있는 Codon 314입니다. 이 변이가 기능적 변이 (즉, 생물학적 변화를 주는 것) 라고 여겨지는 마땅한 근거는 아직 없습니다. 보통 이런 종류의 유전자 변이는 변이와 변이 사이의 관계를 정의하고, 계통유전학적 나무를 구성하는 데 사용됩니다.
+우리는 이러 돌연변이들 중 하나를 선택하여 이에 따라 나무의 색깔을 다르게 표시했습니다. 여기서 선택된 것은 "ORF1b" 안에 들어 있는 Codon 314입니다. 이 돌연변이가 기능적 변이 (즉, 생물학적 변화를 주는 것) 라고 여겨지는 마땅한 근거는 아직 없습니다. 보통 이런 종류의 돌연변이는 서열과 서열 사이의 관계를 정의하고, 계통유전학적 나무를 구성하는 데 사용됩니다.
 
 <!-- There is NO right-side text -->
 
@@ -108,47 +108,41 @@ A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+# [유전적 분기들 간의 차이 측정](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+이 그림은 공개된 SARS-CoV-2(COVID-19를 유발하는 바이러스)의 169개 균주를 표시한 계통도입니다.
 <br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+가로 축은 유전적 분기를 나타내며, 이는 계통유전학적 나무의 시작점(즉, 바이러스 발생의 최초 지점)에 대한 유전적 변화(돌연변이) 횟수이다. 일부 서열에서는 돌연변이가 없을 수 있습니다. 다시 말해, 변이가 없는 서열은 그 뿌리(가운데 지점)와 동일합니다.
 <br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+현재로서는 이 그림이 '나무'처럼 보이지 않을 수 있습니다. 많은 서열들이 동일하기 때문인데, 여기서 동일하다는 의미는 A와 B처럼 동일 수직선 상에 위치해 있는 것을 의미합니다. (일부는 나무의 가장 왼쪽 지점에 위치해 있습니다.) 나머지 바이러스들은 독특한 돌연변이를 보이기도 하고, 서로 같은 돌연변이를 가지기도 해서 오른쪽으로 뻗어나가는 줄(또는 '가지')의 선상에 위치하기도 합니다. 마우스 커서를 나뭇가지 위에 가져다 놓으면 얼마나 많은 돌연변이들을 가지고 있는지 확인하실 수 있습니다.
+
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
-Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
+# [시간에 따른 차이 측정](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+또한 x축에 위치한 샘플링 날짜를 이용하여 시간이 지남에 따라 바이러스가 어떻게 퍼져 나갔는지를 시각화 할 수 있습니다. 여기서 x축은 각 바이러스들을 샘플링한 날짜를 의미합니다. 나무의 끝부분은 각 샘플들이 샘플링 된 날짜를 나타냅니다. 나무의 내부 노드들의 날짜(또는 "결측 케이스")는 그 하위의 바이러스들이 샘플링 된 시점과 바이러스가 변이되는 속도를 기준으로 추정합니다.
 <br><br>
-Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
-This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+이전에는 동일 선상에 위치했던(동일한 염기서열을 가진) 서열들이 이윽고 지금은 얼마나 다양하게 갈라지고 퍼지게 되었는지를 확인해 보십시오.
+이런 현상은 바이러스가 변이되는 속도가 확산되는 속도보다 약간 느릴 때 발생합니다. 이전 슬라이드와 슬라이드 사이를 위아래로 스크롤하여 나무가 어떻게 변하는 지 확인할 수 있습니다.
+
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
-Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
+# [바이러스 발생 시점 추정하기](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+뿐만 아니라 유전체학적 지식을 이용하여, 설령 우리가 바이러스 대해 인지하기 이전 시점이라 해도, 언제 바이러스가 발생 했는지를 특정할 수 있습니다. 나무의 각 샘플과 노드에 날짜를 특정할 수 있으므로, 이를 활용하여 트리의 '뿌리' 날짜를 추정할 수 있습니다. 이것은 우리가 지금까지 가지고 있는 모든 SARS-CoV-2 서열들 중 "가장 가까운 공통의 조상(상위 노드)"을 의미합니다. 예를 들어, 조부모 노드는 당신과 당신의 모든 사촌 노드들의 "가장 가까운 공통 조상"입니다.
 <br><br>
-If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+가장 왼쪽에 위치한 수직선 위로 마우스 커서를 가져다 놓으면, 바이러스 발생 추정 시기가 2019 년 11 월 중순과 12 월 중순 사이임을 알 수 있습니다.
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+# [계통유전학적 나무에 (여러 색으로 표현된) 특징들을 어떻게 해석해야 합니까?](https://nextstrain.org/ncov/2020-03-11)
+종종 계통유전학적 나무는 각각의 샘플 수집 지역 같이 추가적인 정보를 포함합니다. 이러한 정보들을 통해, 우리는 수학적 모델을 활용하여 내부 노드들의 (가상의, 나무 중간에 위치한, 샘플링이 되지 않은) 위치를 추정할 수 있습니다. 우리는 이를 통해 바이러스가 한 지역에서 다른 위치로 어떻게 이동하고 있는지를 이해할 수 있습니다.
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+하지만 샘플링이나 시퀀싱이 충분하지 않은 경우, 통계적 해석이 큰 영향을 받을 수 있기 때문에, 주의를 기울여서 해석해야 합니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -158,13 +152,13 @@ Interpreting these should, however, be done with caution, as the sampling and se
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+왼쪽은 완전히 샘플링 된 계통유전학적 나무인데, 주황색과 파란색으로 각각 서로 다른 두 지역을 구분하였습니다. 나무를 따라 내려 가면 색상(위치)이 주황색에서 파란색으로 바뀌는 세 가지 경우를 관찰할 수 있습니다. 이를 통해 우리는 주황색 위치에서 파란색 위치로 전해질 때 세 개의 전파 사례가 있었다고 결론 내릴 수 있을 것입니다.
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+하지만, 이 해석은 샘플링을 기반으로 하고 있습니다. 중앙에 위치한 나무를 보면 (왼쪽 나무와 비교하였을 때) 주황색 샘플 하나를 제거한 것을 확인 할 수 있습니다. 이제는 주황색 지역과 파랑색 지역으로 옮겨질 때 오직 하나의 케이스만이 관찰됩니다. 그리고 이 전파 사례는 현재보다 더 이전 시점에 발생한 것으로 보입니다.
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+마지막 오른쪽 나무는 오직 하나의 접점만이 있는 것을 볼 수 있습니다. 이를 통해 우리는 주황색에서 파랑색으로 옮겨지는 사례가 오직 하나 뿐임을 확인할 수 있습니다. 
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+따라서 이런 추론법은 매우 유용하지만, 주의를 기울여 해석해야 합니다.
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
