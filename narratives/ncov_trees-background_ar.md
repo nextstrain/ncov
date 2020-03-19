@@ -60,7 +60,9 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 
 المحور السيني للشجرة يمثل درجة الاختلاف (في الزمن او التباعد الجيني--سناتي على ذلك لاحقاً). اما المحور الصادي فهو فقط من اجل المساعدة على فصل الاشياء بعيداً عن بعضها لنرى كل شيء بوضوح، ولذلك ليس له أي وحدات قياس
 <br><br>
-نهايات فروع الشجرة تمثل العينات (وهذا يعني الحالات الزرقاء في الشريحة السابقة). العقد الداخلية للشجرة تمثل الحالات التي لم يتم جمعها، ولكن نعتقد انها مصدر جميع الحالات التي انحدرت منها ( وهذا يعني العقد الحمراء في الشريحة السابقة). هذا العلاقات تم ربطها من خلال تحليل انماط الطفرات التي تم ملاحظتها في العينات التي جمعها من الحالات المصابة.
+نهايات فروع الشجرة تمثل العينات (وهذا يعني الحالات الزرقاء في الشريحة السابقة).
+العقد الداخلية للشجرة تمثل الحالات التي لم يتم جمعها، ولكن نعتقد انها مصدر جميع الحالات التي انحدرت منها ( وهذا يعني العقد الحمراء في الشريحة السابقة). 
+هذا العلاقات تم ربطها من خلال تحليل انماط الطفرات التي تم ملاحظتها في العينات التي جمعها من الحالات المصابة.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -70,9 +72,14 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-نرى في الشكل الموضح اعلاه شجرة تصنيف جيني على اليسار، حيث ان الطفرات مشار لها بدوائر ملونة. علي اليمين يوجد التسلسلات المقابلة لها حيث يشار للطفرات بدوائر ملونة ايضا. نستطيع مشاهدة ان التسلسلات التي تشترك بنفس الطفرات تتجمع معا (مثل اي و بي). عندما تظهر التسلسلات مرتبطة معا بخط عمودي فهذا يعني انه لا يوجد هناك فروقات فيما بينهم-- اي تسلسلاتهم متطابقة.
+نرى في الشكل الموضح اعلاه شجرة تصنيف جيني على اليسار، حيث ان الطفرات مشار لها بدوائر ملونة.
+علي اليمين يوجد التسلسلات المقابلة لها حيث يشار للطفرات بدوائر ملونة ايضا.
+نستطيع مشاهدة ان التسلسلات التي تشترك بنفس الطفرات تتجمع معا (مثل اي و بي).
+عندما تظهر التسلسلات مرتبطة معا بخط عمودي فهذا يعني انه لا يوجد هناك فروقات فيما بينهم-- اي تسلسلاتهم متطابقة.
 <br><br>
-عندما يتواجد تسلسل معين على خط طويل لوحده (مثلا سي او اي) فهذا يعني أنه يمتلك طفرة فريدة غير موجودة في التسلسلات الأخرى. كلما كان طول الخط اكبر كلما كانت الطفرات أكثر. اي و بي أيضاً تمتلك طفرات (الدوائر الخضراء) غير مشتركة مع تسلسلات أخرى، لكنها متطابقة مع بعضها.
+عندما يتواجد تسلسل معين على خط طويل لوحده (مثلا سي او اي) فهذا يعني أنه يمتلك طفرة فريدة غير موجودة في التسلسلات الأخرى.
+كلما كان طول الخط اكبر كلما كانت الطفرات أكثر. 
+اي و بي أيضاً تمتلك طفرات (الدوائر الخضراء) غير مشتركة مع تسلسلات أخرى، لكنها متطابقة مع بعضها.
 
 
 
@@ -148,9 +155,9 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [تحديد موعد بدء الانفجار الوبائي](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
+نستطيع أيضاً استخدام علم الجينومات من اجل تحديد متى بدأ الإنفجار الوبائي حتى لو حدث ذلك قبل ان ندرك حدوثه. We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
 Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
 <br><br>
 If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
