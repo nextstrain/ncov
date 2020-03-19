@@ -67,12 +67,12 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 ## مثال
 <div width="50%" margin="auto">
 <p>
-<img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
+<img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-opgeneral/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-نرى في الشكل الموضح اعلاه شجرة تصنيف جيني على اليسار، حيث ان الطفرات مشار لها بدوائر ملونة. علي اليمين يوجد التسلسلات المقابلة لها حيث يشار للطفرات بدوائر ملونة ايضا. نستطيع مشاهدة ان التسلسلات التي تشترك بنفس الطفرات تتجمع معا. عندما تظهر التسلسلات مرتبطة معا بخط عمودي مثل A و B فهذا يعني ان لا يوجد هناك فروقات فيما بينهم-- اي تسلسلاتهم متطابقة.
+نرى في الشكل الموضح اعلاه شجرة تصنيف جيني على اليسار، حيث ان الطفرات مشار لها بدوائر ملونة. علي اليمين يوجد التسلسلات المقابلة لها حيث يشار للطفرات بدوائر ملونة ايضا. نستطيع مشاهدة ان التسلسلات التي تشترك بنفس الطفرات تتجمع معا (مثل اي و بي). عندما تظهر التسلسلات مرتبطة معا بخط عمودي فهذا يعني انه لا يوجد هناك فروقات فيما بينهم-- اي تسلسلاتهم متطابقة.
 <br><br>
-عندما يتواجد تسلسل معين على خط طويل لوحده مثل C او  فهذا يعE ني انه يمتلك طفرة فريدة غير موجوظة في التسلسلات الأخرى. كلما كان طول الخط اكبر كلما كانت الطفرات اكثر. When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
+عندما يتواجد تسلسل معين على خط طويل لوحده )مثلا سي او اي) فهذا يعني أنه يمتلك طفرة فريدة غير موجودة في التسلسلات الأخرى. كلما كان طول الخط اكبر كلما كانت الطفرات اكثر. When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
 A and B also have unique mutations (the green circle) n
 <br><br>
 Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
