@@ -30,7 +30,6 @@ translatorLinks:
 date: "13 marca 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu śledzenia rozprzestrzeniania się COVID-19. Raporty takie, jak ten, są tworzone co tydzień."
-tłumaczenie: "Ania Fijarczyk, Piotr Balwierz"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
