@@ -135,13 +135,15 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
-Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
+# [قياس الاختلافات مع الزمن](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+نستطيع ايضا رؤية كيف انتشرت الفيروسات مع الزمن من خلال استخدام تاريخ جمع العينات كمحور سيني.
+
+هنا يمثل المحور السيني تاريخ جمع العينة لكل فيروس. مواقع الاطراف تبين اخذ تلك العينات. تواريخ العقد الداخلية-- "الحالات المفقودة"-- يتم استنتاجها بناءا على متى تم جمع العينات المنحدرة منها ومعدل حدوث الطفرات للفيروس.
 <br><br>
-Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
-This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+لاحظ كم عدد التسلسلات التي تواجدت سابقا على خط (مشيرة للجينومات المتطابقة) والتي اصبحت متباعدة مع الزمن.
+هذا يحدث عندما يكون معدل حدوث الطفرات في الفيروس اقل بقليل من من معدل انتشاره.
+
+يمكنك التنقل للاعلى والاسفل بين الشرائح السابقة والشريحة الحالية لرؤية كيف تتغير الشجرة.
 <!-- There is NO right-side text -->
 
 
