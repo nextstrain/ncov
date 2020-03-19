@@ -117,3 +117,6 @@ USA/CruiseA-26/2020
 
 # way too divergent 
 Russia/StPetersburg-3524/2020
+
+# temporarily excluded because is currently reverse complement 
+Peru/010/2020
