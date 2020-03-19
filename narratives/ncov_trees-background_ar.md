@@ -1,11 +1,11 @@
 ---
-title: كيف تقرأ وتحلل شجرة التصنيف الجينية
+title: كيف تقرأ وتحلل شجرة التصنيف الجيني
 authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: " يفسر هذا التقرير كيفية قراءة وتحليل الاشجار التصنيفي الجينية والني تغذي بالمعلومات علم الوبائيات الجينومي. هذا الموقع الالكتروني مهيأ للعرض على متصفحات اجهزة الحاسوب المكتبية"
+abstract: " يفسر هذا التقرير كيفية قراءة وتحليل اشجار التصنيف الجيني والني تغذي علم الوبائيات الجينومي بالمعلومات. هذا الموقع الالكتروني مهيأ للعرض على متصفحات اجهزة الحاسوب المكتبية"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -15,7 +15,7 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- This is left-side text -->
 # [جدول المحتويات](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [كيف ترتبط شبكات الانتشار بالاشجار التصنيفية الجينية](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [كيف ترتبط شبكات الانتشار بأشجار التصنيف الجيني](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [كيف تقرأ الشجرة ](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [كيف يرتبط اطار "التنوع" بالشجرة](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [قياس الاختلافات مع الافتراق الجيني](https://nextstrain.org/narratives/trees-background?n=4).  
@@ -56,11 +56,11 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [كيف تقرأ الشحرة?](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+المحور السيني للشجرة يمثل درجة الاختلاف (في الزمن او التباعد الجيني--سناتي على ذلك لاحقاً). اما المحور الصادي فهو فقط من اجل المساعدة على فصل الاشياء بعيداً عن بعضها لنرى كل شيء بوضوح، ولذلك ليس له أي وحدات قياس
 <br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+نهايات فروع الشجرة تمثل العينات (وهذا يعني الحالات الزرقاء في السريخة السابقة). العقد الداخلية للشجرة تمثل الحالات التي لم يتم جمعها، ولكن نعتقد انها انها نصدر جميع الحالات التي انحدرت منها ( وهذا يعني العقد الحمراء في الشريحة السابقة). هذا العلاقات يمكن ربطها من خلال تحليل انماط الطفرات التي تم ملاحظتها في العينات التي جمعها من الحالات المصابة.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
