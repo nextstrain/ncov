@@ -1,8 +1,28 @@
 ---
 title: Analiza genomiczna rozprzestrzeniania się COVID-19. Raport sytuacyjny 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Piotr Balwierz
+  - Anna Fijarczyk
+translatorLinks:
 date: "13 marca 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu śledzenia rozprzestrzeniania się COVID-19. Raporty takie, jak ten, są tworzone co tydzień."
@@ -16,17 +36,17 @@ tłumaczenie: "Ania Fijarczyk, Piotr Balwierz, Bartosz Lisowski"
 <!-- This is left-side text -->
 # [Spis treści](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Rozprzestrzenianie po Europie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Lokalna transmisja we Zjednoczonym Królestwie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introdukcja do USA](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Rozprzestrzenianie SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Rozprzestrzenianie SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [Często zadawane pytania oraz przesądy](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=2).     
+* [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=3).
+* [Rozprzestrzenianie po Europie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=4).   
+* [Lokalna transmisja we Zjednoczonym Królestwie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=5).
+* [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=6).
+* [Introdukcja do USA](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=7).
+* [Rozprzestrzenianie SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=8).
+* [Rozprzestrzenianie SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=9).
+* [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=10).
+* [Często zadawane pytania oraz przesądy](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=11).
+* [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -300,7 +320,8 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [FAQ i przesądy](https://nextstrain.org/ncov/2020-03-05)<!-- maybe change FAQ for "Pytania" -->
+# [FAQ i przesądy](https://nextstrain.org/ncov/2020-03-05)
+<!-- maybe change FAQ for "Pytania" -->
 
 #### Wiemy, że mnóstwo ludzi ma pytania dotyczące COVID-19.
 
