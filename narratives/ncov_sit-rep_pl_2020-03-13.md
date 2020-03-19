@@ -47,7 +47,7 @@ W wiadomościach z tego tygodnia raportujemy:
 
 * COVID-19 rozprzestrzenia się szeroko po Europie ze znaczącą ilością transmisji między państwami.
 
-* Zidentyfikowaliśmy przynajmniej 4 niezależne transmisje do Wielkiej Brytanii. <!--FIXME-->
+* Zidentyfikowaliśmy przynajmniej 4 introdukcje wirusa w Wielkiej Brytanii.
 
 * Wystąpiło kilka transmisji związanych z podróżami z Iranu do innym miejsc na świecie.
 
@@ -81,13 +81,48 @@ W wiadomościach z tego tygodnia raportujemy:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
+
+# [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-05).
+
+Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który go wywołuje. Te materiały ułatwią interpretację danych, które prezentujemy w tym raporcie; jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background). <!-- is this narrative translated to polish as well? -->
+
 # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
 
+
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
+## Wprowadzenie
+
+<div>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+
+  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+</div>
+
+## Źródła dodatkowe
+
+* Podsumowanie epidemii wywołanej przez SARS-CoV-2 na [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* Materiały przygotowane przez [US CDC](https://www.cdc.gov/coronavirus/index.html).
+
+## Raporty Nextstrain
+
+Nastepujące strony zawierają analizy wykonane przy użyciu [Nextstrain](https://nextstrain.org).
+Podczas przeglądnia pojawią się fragmenty tekstu wraz z odpowiadającymi wizualizacjami danych genomowych <!-- not sure if I understand this part-->
+
+Uzyskanie całkowitych genomów nowych i dużych wirusów RNA w tak krótkim czasie jest niezwykłym osiągnięciem.
+Te analizy były możliwe dzięki szybkiemu i nieograniczonemu dostępowi do danych genomowych oraz współpracy naukowców z całego świata (wizualizacja autorstwa w sekwencjonowaniu na ostatnim slajdzie).
+```
+
+
+<!-- This is right-side text -->
+```auspiceMainDisplayMarkdown
+
+## Wprowadzenie
 ## Background
 
 <div>
