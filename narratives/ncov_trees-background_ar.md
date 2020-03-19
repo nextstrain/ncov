@@ -60,17 +60,17 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 
 المحور السيني للشجرة يمثل درجة الاختلاف (في الزمن او التباعد الجيني--سناتي على ذلك لاحقاً). اما المحور الصادي فهو فقط من اجل المساعدة على فصل الاشياء بعيداً عن بعضها لنرى كل شيء بوضوح، ولذلك ليس له أي وحدات قياس
 <br><br>
-نهايات فروع الشجرة تمثل العينات (وهذا يعني الحالات الزرقاء في السريخة السابقة). العقد الداخلية للشجرة تمثل الحالات التي لم يتم جمعها، ولكن نعتقد انها انها نصدر جميع الحالات التي انحدرت منها ( وهذا يعني العقد الحمراء في الشريحة السابقة). هذا العلاقات يمكن ربطها من خلال تحليل انماط الطفرات التي تم ملاحظتها في العينات التي جمعها من الحالات المصابة.
+نهايات فروع الشجرة تمثل العينات (وهذا يعني الحالات الزرقاء في الشريحة السابقة). العقد الداخلية للشجرة تمثل الحالات التي لم يتم جمعها، ولكن نعتقد انها مصدر جميع الحالات التي انحدرت منها ( وهذا يعني العقد الحمراء في الشريحة السابقة). هذا العلاقات تم ربطها من خلال تحليل انماط الطفرات التي تم ملاحظتها في العينات التي جمعها من الحالات المصابة.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## مثال
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+نرى في الشكل الموضح اعلاه شجرة تصنيف جيني على اليسار، حيث ان الطفرات مشار لها بدوائر ملونة. علي اليمين يوجد التسلسلات المقابلة لها حيث يشار للطفرات بدوائر ملونة ايضا. نستطيع مشاهدة ان التسلسلات التي تشترك بنفس الطفرات تتجمع معا. عندما تظهر التسلسلات مرتبطة معا بخط عمودي مثل A و B فهذا يعني ان لا يوجد هناك فروقات فيما بينهم-- اي تسلسلاتهم متطابقة. Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
 <br><br>
 When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
 A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
