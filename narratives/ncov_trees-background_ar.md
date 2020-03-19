@@ -208,10 +208,10 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+# [قراءة متقدمة: عدم اليقين بالاشجارAdvanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
+تحدثنا سابقاً عن كيف ان العقد الداخلية تمثل عينات حالات _افتراضية_ لم تجمع. في الحقيقة، كل الاشجار تمثا _فرضيات_ عن كيف ان مسبب المرض تطور وتنقل عبر الزمن. الاشجار التي نعرضها على موقع نيكست سترين هي تقديرات دقيقة-- وهذا يعني نسخة هذا التاريخ والتي تزيد بالحد الاقصى احتمالية ملاحظة البيانات التي نقوم بها.
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+ومع ذلك فهناك دائما عدم يقين في هذه التقديرات. وبالحديث بشكل عام فإن اجزاء الشجرة التي تمثل المناطق التي جمع منها كثافة اكبر من العينات هي اكثر تأكيدا، في حين المناطق التي كان جمع العينات منها قليل فهي اقل تأكيدا.
 
 ```auspiceMainDisplayMarkdown
 # An illustration
@@ -225,20 +225,20 @@ However, there is always uncertainty in these estimates. Generally speaking, par
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [الحقوق العلمية](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+نود هنا ان نقدر العمل السريع والرائع من قبل جميع العلماء الذين  عملوا على هذا الوباء، ولكن نخص اولئك العاملين في الصين. 
+ما كان لمثل هذه التحليلات ان تكون لولا المشاركة السريعة لبيانات الجينومات.
 
 <br><br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+عظيم شكرنا موجه الى [GISAID](https://gisaid.org) على تزويدنا بمنصتهم والتي تم من خلالها رفع وتحليل البيانات التي تم مشاركتها.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+نحن ممنونون للبيانات الاصلية التي تم جمعها من قبل المختبرات التالية:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -366,19 +366,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [الحقوق العلمية التفصيلية](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+تم مشاركة هذه البيانات من خلال[GISAID](https://gisaid.org).
+نقدر ونثمن عاليا مساهماتهم
 
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+على اليمين نقدم التسلسلات المحددة والتي تم مشاركتها من كل مختبر
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+تسلسلات جينومات سارس كو في ٢ تم مشاركتها بجهود كريمة مم علماء في المختبرات التالية:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
