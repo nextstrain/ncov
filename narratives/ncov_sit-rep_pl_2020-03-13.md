@@ -343,12 +343,12 @@ Social distancing -- that is, decreasing the number of people you encounter each
 * Make testing free and broadly available.  
 * Put social distancing measures in place.  
 * Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+
 ```
 
 
 
 <!-- ############ SLIDE BREAK ############# -->
-
 <!-- This is left-side text -->
 # [FAQ i przesądy](https://nextstrain.org/ncov/2020-03-05)<!-- maybe change FAQ for "Pytania" -->
 
@@ -385,8 +385,8 @@ Aby rozwiać wątpliwości co do nieprawidłowości tych sądów, naukowcy odnie
 
 
 </div>
-```
 
+```
 
 
 <!-- This is left-side text -->
