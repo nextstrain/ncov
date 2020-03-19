@@ -22,11 +22,12 @@ affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA
 translators:
   - Piotr Balwierz
   - Anna Fijarczyk
+  - Bartosz Lisowski
 translatorLinks:
 date: "13 marca 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
 abstract: "Ten raport wykorzystuje publicznie dostępne dane genomiczne w celu śledzenia rozprzestrzeniania się COVID-19. Raporty takie, jak ten, są tworzone co tydzień."
-tłumaczenie: "Ania Fijarczyk, Piotr Balwierz, Bartosz Lisowski"
+tłumaczenie: "Ania Fijarczyk, Piotr Balwierz"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -38,10 +39,10 @@ tłumaczenie: "Ania Fijarczyk, Piotr Balwierz, Bartosz Lisowski"
 
 * [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=2).     
 * [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=3).
-* [Rozprzestrzenianie po Europie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=4).   
+* [Rozprzestrzenianie SARS-CoV-2 po Europie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=4).   
 * [Lokalna transmisja we Zjednoczonym Królestwie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=5).
 * [Rozprzestrzenianie SARS-CoV-2 z Iranu](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=6).
-* [Introdukcja do USA](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=7).
+* [Introdukcja do SARS-CoV-2 USA](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=7).
 * [Rozprzestrzenianie SARS-CoV-2 w stanie Waszyngton](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=8).
 * [Rozprzestrzenianie SARS-CoV-2 w stanie Kalifornia](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=9).
 * [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=10).
@@ -146,7 +147,7 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Rozprzestrzenianie po Europie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+# [Rozprzestrzenianie SARS-CoV-2 po Europie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 Widzimy duży klad, zawierający sekwencje z Europy.
 Co znamienne, sekwencje pochodzące z różnych krajów wystepują naprzemiennie, pokazując, że COVID-19 jest już w szerokim obiegu w Europie.
 <br><br>
