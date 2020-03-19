@@ -101,14 +101,14 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 بدون هذه الطفرات لا يمكننا بناء الشجرة، لذلك فإن كلاهما مرتبط بالاخر.
 
 <br><br>
-في اطار "التنوع" هذا، فالمحور الافقي يمثل كل نيوكليوتيد على جينوم الفيروس (كل الثلاثون الف او ما شابه منهم)!). 
+في اطار "التنوع" هذا، فالمحور الافقي يمثل كل نيوكليوتيد على جينوم الفيروس (كل الثلاثون الف او ما شابه منه)!). 
 المحور العمودي يشير الى كمية التغير هناك على كل نيوكليوتيد.
 
 <br><br>
-قمنا بتلوين الشجرة بناءاً على على واحدة من هذه الطفرات -- في هذه الحالة كودون رقم ٣١٤ في "اطار القراءة ١ ب". 
+قمنا بتلوين الشجرة بناءاً على على واحدة من هذه الطفرات -- في هذه الحالة في كودون رقم ٣١٤ في "اطار القراءة ١ ب". 
 
 لا يوجد سبب للظن بأن هناك افضلية لان تكون هذه الطفرة طفرة وظيفية (اي تسبب اي تغير وظيفي)
-انها بالضبط طفرات كهذه والتي نستخدمها لتحديد العلاقات بيت التسلسلات ونبني منها الشجرة.
+انها بالضبط طفرات كهذه هي التي نستخدمها لتحديد العلاقات بيت التسلسلات ونبني منها الشجرة.
 
 
 
@@ -118,16 +118,16 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+# [قياس الاختلافات مع الافتراق الجيني](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+هذه شجرة تصنيف جيني لاول ١٦٩ سلالة لفيروسات سارس كو في ٢ (االفيروسات المسببة ل كوفيد ١٩) والتي تم مشاركتها للعموم.This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
 <br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+هنا يشير المحور الافقي للافتراق، والذي هو عدد التغيرات (الطفرات) في الجينوم مقارنة بجذر الشجرة ( اي بداية الانفجار الوبائي)
+بعض التسلسلات يمكن ان لا تمتلك اي طفرات-- وهذا يعني انها متطابقة مع جذر (مركز) الشجرة
+فيروسات اخرى تمتلك ما بين طفرة الى احد عشرة طفرة.
 <br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+في هذه اللحظة فقد لا تبدو بانها تشبه "شجرة". العديد من التسلسلات متطابقة-ولذلك تتواجد معا على خطوط عمودية مثل اي و بي ( بعضها على الجانب الايسر البعيد للشجرة)
+بعضها الاخر يمتلك طفرات فريدة او مشتركة ولذلك تتواجد على خطوط او 'فروع' تتجه نحو اليمين.
+يمكنك مشاهدة كم عدد الطفرات على الفرع من خلال تمرير الفأرة فوقها
 
 <!-- There is NO right-side text -->
 
