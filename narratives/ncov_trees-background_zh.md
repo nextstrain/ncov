@@ -1,6 +1,6 @@
 ---
 title: 如何解读系统发生树
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (translator: Fengjun Zhang)"
+authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (translators: Fengjun Zhang, Derek Zhang)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020年2月13日"
@@ -14,7 +14,7 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 
 <!-- This is left-side text -->
 # [目录](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
-
+<!--
 * [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
@@ -25,7 +25,18 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 * [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
 * [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+-->
 
+* [病原体的传播和系统发生树有什么关系?](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [如何解读系统发生树？](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [“多样性”面板与发生树之间的联系](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [用遗传差异来衡量基因差异大小](https://nextstrain.org/narratives/trees-background?n=4).  
+* [衡量差异的时间变化](https://nextstrain.org/narratives/trees-background?n=5).  
+* [推断疫情爆发的时间](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [系统发生树上的性状(颜色)是什么意思？](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [地图与系统发生树的联系](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [高级阅读：系统发生树中的不确定性](https://nextstrain.org/narratives/trees-background?n=9).  
+* [关于数据集](https://nextstrain.org/narratives/trees-background?n=10).  
 <!-- No right-side text -->
 
 
@@ -90,8 +101,10 @@ A和B中也有不存在于其他序列中的独特突变（绿色圆点），但
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+<!-- # [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open) -->
+# [“多样性”面板与发生树之间的联系](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
+<!--
 Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
 Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
@@ -103,6 +116,18 @@ The vertical axis indicates how much variability there is at each site.
 We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
 There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
 It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+-->
+让我们来看看已经公开分享的第一批169株SARS-CoV-2</tag>(导致COVID-19的病毒)毒株. 就像在上一页一样，我们建立了这些病毒序列的比对(您可以在[GitHub](https://github.com/nextstrain/ncov)看到这里提到的所有分析是如何完成的 ).
+<br><br>
+在这里，我们在显示基因组变异(即突变)的条形图上方显示了系统发生树.
+如果没有这些突变，我们就无法构建这棵树，所以两者紧密相连.
+<br><br>
+在这个“多样性”面板中，横轴是病毒基因组中的位点(总共三万个左右!).
+竖轴表示每个位点的变化的大小.
+<br><br>
+我们根据其中一个突变给树着色 -- 示例为 "ORF1b"基因的密码子314.
+没有事先的理由认为这种突变是功能性突变(即导致任何生物变化).
+我们正是用这样的突变来定义序列之间的关系并构建系统发生树.
 
 <!-- There is NO right-side text -->
 
@@ -110,7 +135,8 @@ It is precisely mutations such as this which we use to define the relationships 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+<!-- # [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div) -->
+# [用遗传差异来衡量基因差异大小](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
 This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
 <br><br>
 Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
@@ -124,7 +150,8 @@ You can see how many mutations a branch has by hovering your mouse over it.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+<!-- # [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open) -->
+# [衡量差异的时间变化](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 We can also visualize how the virus has spread over time by using the sampling date as the x axis.
 Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
 <br><br>
@@ -135,8 +162,8 @@ You can scroll up and down between the previous slide and this one, to see how t
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-
+<!-- # [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open) -->
+# [推断疫情爆发的时间](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
 Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
 <br><br>
@@ -147,7 +174,8 @@ If you mouse over the leftmost vertical line, you can see that the inferred star
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
+<!-- # [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)-->
+# [系统发生树上的性状(颜色)是什么意思?](https://nextstrain.org/ncov/2020-03-11)
 Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
 <br><br>
 Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
@@ -174,7 +202,8 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+<!-- # [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed) -->
+# [地图与系统发生树的联系](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
 Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
 If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
@@ -183,7 +212,8 @@ If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
+<!-- # [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11) -->
+# [高级阅读：系统发生树中的不确定性](https://nextstrain.org/ncov/2020-03-11)
 Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
 <br><br>
 However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
@@ -200,20 +230,20 @@ However, there is always uncertainty in these estimates. Generally speaking, par
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [科学贡献人员](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家。
+只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析。
 
 <br><br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台。
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+非常感谢以下单位机构和实验室慷慨分享:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -341,19 +371,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [科学贡献详情](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+所有基因组数据已被共享至 [GISAID](https://gisaid.org)数据库。
+我们非常感谢各位科学家的慷慨分享。
 
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+在右边，我们列出了每个实验室共享的序列。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+在这些实验室的科学家们慷慨地分享了SARS-CoV-2的基因组:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
