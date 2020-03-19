@@ -1,6 +1,6 @@
 ---
 title: 如何解读系统发生树
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (translators: Fengjun Zhang, Derek Zhang)"
+authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford (translators: Fengjun Zhang, Derek Zhang, 李雪莹)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020年2月13日"
