@@ -82,14 +82,9 @@ W wiadomościach z tego tygodnia raportujemy:
 
 <!-- This is left-side text -->
 
-# [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-05).
+# [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-05)
 
 Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który go wywołuje. Te materiały ułatwią interpretację danych, które prezentujemy w tym raporcie; jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background). <!-- is this narrative translated to polish as well? -->
-
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
-
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -119,10 +114,14 @@ Te analizy były możliwe dzięki szybkiemu i nieograniczonemu dostępowi do dan
 ```
 
 
+# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
+We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
+This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background) and come back when you're ready.
+
+
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Wprowadzenie
 ## Background
 
 <div>
@@ -148,6 +147,18 @@ These analyses have been made possible by the rapid and open sharing of genomic 
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [Opis próbkowania](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+Obecnie dysponujemy sekwencjami próbek pobranych z 30 krajów z 5 kontynenów. To niesamowity wyczyn -- sekwenjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i jedynie możliwe dzięki niezwykłemu pracy i szybkiemu udostępnianiu danych poprzez naukowców i fizyków z całego świata.
+<br><br>
+Podczas gdy te dane umożliwiają nam wyciąganie wniosków na temat wielu przydatnych aspektów epidemii oraz śledzić jej rozprzestrzenianie w czasie rzeczywistym, nalezy podkreslić, że nasze wnioski są ograniczone dostępnymi danymi
+<br><br>
+Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych rejonach, bądź przypadki z tych regionów nie są istotne <!-- maybe some better phrase here -->; powodem jest po prostu niewielka ilość danych z tych regionów. Wielkość każdego kółka na mapie wskazuje jak wiele danych jest dostepnych w danym momencie z tego regionu, a nie rzeczywista skala epidemii. 
+
+<!-- There is NO right-side text -->
+
+
 
 <!-- This is left-side text -->
 # [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
