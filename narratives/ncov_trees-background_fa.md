@@ -1,11 +1,11 @@
 ---
-title: How to interpret phylogenetic trees
+title: چگونه درخت فیلوژنتیک (تبارزایش) تابیر کنیم
 authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
-date: "2020 March 13"
+date: "سیزده مارس ۲۰۲۰"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."
+abstract: "این متن چگونگی خواندن و تعبیر درخت های فیلوژنتیک که برای اطلاع رسانی همه‌گیر شناسی ژنتیک استفاده می‌شوند توضیح می‌دهد. این سایت برای براوزر کامپیوتر بهینه شده است "
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,18 +13,18 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [فهرست مطالب](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [ارتباط شبکه ی انتقال و درخت فیوژنیک](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [چگونه درخت را بخوانم](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [چگونگی ارتناط پنل تنوع و درخت](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [اندازه گیری تفاوت با واگرایی ژنتیک](https://nextstrain.org/narratives/trees-background?n=4).  
+* [اندازه گیری تفاوت در زمان](https://nextstrain.org/narratives/trees-background?n=5).  
+* [تعیین تاریخ شروع شیوع](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [چگونه باید خصیصه (رنگ) در درخت را تعبیر کنم؟](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [ارتباط نقشه و درخت](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [مطالعه‌ی پیشرفته: عدم قطعیت در درخت](https://nextstrain.org/narratives/trees-background?n=9).  
+* [درباره ی پایگاه داده](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
 
@@ -32,10 +32,10 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+# [ارتباط شبکه ی انتقال و درخت فیوژنیک](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+پاتوژن ها ابتدا با تکثیر در یک میزبان و سپس انتقال به میزبان دیگر پخش می‌شوند.یک بیماری همه گیر هنگامی می‌تواد گسترش پیدا کند که یک مورد عفونت منجر به بیشتر از یک مورد دیگر عفونت شود. 
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+هنگامی که یک پاتوژن پخش می‌شود ژنوم آن باید به مقدار زیاد تکثیر شود و جهش های تصادفی (اشتباه در کبی کردن) به مرور انباشته می‌شوند. این جهش های تصادفی می‌توانند برای پیگیری مسیر پخش شدن و مطالعه‌ی مسیر انتقال و دینامیک آن مورد استفاده قرار بگیرند. 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -45,9 +45,9 @@ As the pathogen replicates and spreads, its genome needs to be replicated many t
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+تصویر بالا نمایی از یک درخت انتقال رو نشان می‌دهد. هر دایره نمایان گر یک مورد (فرد مریض) و خطوط افقی طول مدت عفونت رو نشان میدهند. موارد متصل انقال از یک فرد به نفر بعدی را نشان می‌دهد. 
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+در اینجا یک تصویر کامل از درخت انتقال را می‌بینیم. در عمل اما تنها زیرمجموعه‌ای از موارد نمونه برداری می‌شوند (آبی). درخت کامل انتقال ناشناخته است و معمولاً تنها یک تقریب نسبی از تعداد موارد در دسترس قرار دارند. توالی‌یابی ژنتیک به ما امکان استنباط قسمت‌هایی از درخت انتقال را می‌دهند. در این مثال سه جهش (لوزی کوچک) پر درخت نشان داده شده‌اند. رشته‌های که جهش های یکسان دارند به هم نزدیک تر هستند. بنابراین این جهش ها به ما اجازه می‌دهند که نمونه ها را در گروه هایی با ویروس های مشابه که متعلق به یک زنجیره‌‌ی انتقال هستند دسته بندی کنیم.  
 </p>
 </div>
 ```
@@ -56,11 +56,11 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [چگونه درخت را بخوانم؟](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+محوری افقی درخت درجه ی اختلاف (در زمان یا از نظر ژنتیکی - به این مورد بعداً خواهیم برداخت) نشان می‌دهد. محور عمودی برای گسترش تصویر درخت است و کمک به دیده شدن همه چیز است. این محور هیچ واحد اندازه‌گیری ندارد.   
 <br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+سر شاخه های درخت نشان دهنده‌ی موارد نمونه (موارد آبی در اسلاید قبلی) هستند. رئوس داخلی نشان دهنده‌ی مواردی هستند که از آنها نمونه برداری نشده است. اما گمان می‌رود که منشا تمام مواردی باشند که به آنها منتج می‌شود (موارد قرمز در سلاید قبلی). این ارتباطات با استفاده از تحلیل الگوی جهش ها که در موارد نمونه‌برداری شده استنتاج شده‌اند. 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -70,12 +70,11 @@ The tips of the tree represent samples (i.e., blue cases from the last slide). T
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+در بالا ما تصویری از یک درخت فیلوژنیک را در چپ می‌بینیم که در آن جهش ها با دایره‌ی رنگی مشخض شده‌اند. در سمت راست رشته‌های متناظر و جهش‌ها بصورت دایره‌ی رنگی نشان داده شده‌اند. رشته‌های که دارای جهش‌های یکسان هستند با یکدیگر در یک دسته قرار گرفته‌اند. خط عمودی و صاف بین دو رشته مانند A و B به این معناست که تفاوتی میان آن دو رشته نیست و همسان هستند. 
 <br><br>
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+وقتی یک رشته روی یک خط طولانی به تنهایی قرار دارد مانند موارد C و E به این معناست که هر کدام دارای جهش های منحصر به فرد هستند که در بقیه ی نمونه ها پیدا نشده است. هرچه طول خط بیشتر باشد تعداد جهش منحصر به فرد بیشتری مشاهده شده است. 
 <br><br>
-Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
+با توجه به این درخت ما نتیجه می‌گیریم که A و B بسیار به هم نزدیک هستند و D و E ارتباط نزدیکی دارند. A و B به C نزدیکتر هستند تا D و E. 
 </p>
 
 ### Further reading  
@@ -90,19 +89,15 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [چگونگی ارتناط پنل تنوع و درخت](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+ بیایید نگاهی بیندازیم به ۱۶۹ گونه ی SARS-CoV-2 (ویروسی که باعث بیماری COVID-19 می‌شود) که بصورت عمومی قابل دسترس هستند. در صفحه ی قبلی ما هم‌ترازی این رشته‌ها را ساختیم.(تجزیه و تحلیل مورد اشاره را می‌توانید اینجا ببینید:(    [on GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
+در اینجا درخت فیلوژنیک را در بالای یک نمودار میله‌ای که میزان تفاوت ژنتیک (جهش ها) را نشان می‌دهد نمایش داده‌ایم. بدون جهش‌ها نمی‌توانستیم درخت را درست کنیم بنابراین این دو بشدت به همدیگر مرتبط هستند. 
 <br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
+در این پنل تنوع محور افقی هر سایت در ژنوم ویروس هست (تمام سی‌هزار سایت). محور عمودی نمایانگر میزان تغیرات در هر سایت هست. 
 <br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+ما درخت را بر مبنای یکی ازین جهش ها رنگ کرده‌ایم. در اینجا بر مبنای کودون ۳۱۴ در ژن "ORF1b". هیچ دلیل قبلی وجود ندارد که این جهش یک جهش عملکردیست (باعث تغییر بیولوژیکی شود) دقیقاً جهش‌هایی نظیر این هستند که ما برای تعریف فاصله بین رشته‌ها و ساخت درخت استفاده می‌کنیم.  
 
 <!-- There is NO right-side text -->
 
@@ -110,21 +105,17 @@ It is precisely mutations such as this which we use to define the relationships 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+# [اندازه گیری تفاوت با واگرایی ژنتیک](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+این درخت فیلیوژنیک اولین  ۱۶۹ گونه ی SARS-CoV-2 (ویروسی که باعث بیماری COVID-19 می‌شود) که بصورت عمومی قابل دسترس هستند.
 <br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+در اینجا محور افقی نشان دهنده‌ی واگرایی -تعداد تغییرات (جهش‌ها) در ژنوم نسبت به ریشه‌ی درخت(زمان شروع شیوع)- است. بعضی رشته‌ها ممکن است هیچ جهشی نداشته باشند یعنی کاملاً مشابه ریشه (مرکز) هستند. بقیه ی ویروس‌های می‌توانند بین یک تا یازده جهش داشته باشند. 
 <br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+در این لحظه ممکن است این شکل شبیه درخت به نظر نرسد. تعداد زیادی از رشته‌ها کاملاً یکسان هستند -به همراه یکدیگر روی یکشاخه قرار داردند مانند A و B( بعضی در منتهی علیه سمت چپ درخت هستند.). بقیه ی رشته ها جهش های مشترک یا منحصر به فرد دارند و روی خطوط یا شاخه‌ها در سمت راست قرار دارند. شما می‌‌توانید با حرکت موس خود روی هر شاخه تعداد جهش آنرا مشاهده کنید.  
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [اندازه گیری تفاوت در زمان](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 We can also visualize how the virus has spread over time by using the sampling date as the x axis.
 Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
 <br><br>
