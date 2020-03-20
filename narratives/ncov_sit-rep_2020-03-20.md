@@ -120,10 +120,10 @@ Here, the tree is colored by the travel history of a case (when known). Mousing 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-19?legend=closed&branchLabel=clade&c=division_exposure&d=tree,map&p=full)
+# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-19?legend=closed&c=division_exposure&d=tree,map&p=full)
 
 Zooming out, we can see that this isn't always so consistent.
-For example, mousing over the bright green Canadian sequence in the top right (near clade A7), we see that this case has a travel history to Iran.
+For example, mousing over the bright green Canadian sequence in the top right, we see that this case has a travel history to Iran.
 However, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history! This makes it much less clear where this person was actually infected, despite the travel history.
 
 <!-- There is no right side text -->
@@ -131,7 +131,7 @@ However, this sequence doesn't group anywhere near the rest of the cases with Ir
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 7 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-19?legend=closed&branchLabel=clade&c=country&d=tree,map&p=grid)
+# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-19?legend=closed&c=country&d=tree,map&p=grid)
 
 On the tree, we see lots of this kind of intermingling of samples from different countries.
 This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
@@ -144,7 +144,7 @@ However, it's important to keep in mind that not all introductions result in out
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 8 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-19?legend=closed&branchLabel=clade&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-19?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
 It may seem as though COVID-19 has suddenly exploded -- for many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts our daily lives, seemingly overnight.
 <br><br>
