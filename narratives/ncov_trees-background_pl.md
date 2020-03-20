@@ -27,7 +27,7 @@ abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenet
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-<!--"This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."-->
+<!--abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."-->
 # [Spis treści](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
 * [Jak sieci transmisji są powiązane z drzewami filogenetycznymi](https://nextstrain.org/narratives/trees-background?n=1)?  
@@ -43,7 +43,8 @@ abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenet
 
 <!-- No right-side text -->
 
-<!-- # [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+
+<!-- Table of Contents(https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 * [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
@@ -53,32 +54,40 @@ abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenet
 * [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10). -->
+* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  -->
 
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+# [Jak sieci transmisji są powiązane z drzewami filogenetycznymi?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Patogeny rozprzestrzeniają się poprzez szybką replikację w jednym gospodarzu, a nastepnie transmisję do kolejnego gospodarza. Epidemia może wybuchnąć jednynie wtedy gdy pojedyncza infekcja prowadzi do więcej niż jednej kolejnej infekcji. 
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+Podczas gdy patogen podlega replikacji i rozprzestrzenia się, jego genom podlega wielokrotnej replikacji co prowadzi do akumulacji losowych mutacji (błędów kopiowania) w genomie; jest to naturalny proces. Takie losowe mutacje pomagają w śledzeniu rozprzestrzeniania się patogenu i dowiadywaniu się o drogach i historii transmisji.
+
+<!-- How are transmission networks related to phylogenetic trees?
+Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.-->
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Przykład
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+Powyższa ilustracja pokazuje schemat drzewa transmisji. Każde kółko przedstawia jeden przypadek (zainfekowaną osobę), gdzie linie poziome wskazują czas trwania infekcji. Pionowo połączone kółka przedstawiają transmisję z jednej osoby na drugą. 
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+W tym przypadku, widzimy pełny obraz drzewa transmisji. W praktyce, mamy dostęp jedynie do podzbioru przypadków (niebieskie); drzewo transmisji jest nieznane i zazwyczaj znamy tylko przybliżone oszacowania liczby przypadków. Sekwencje genomów pozwalają nam rekonstruować niektóre części drzewa transmisji. W tym przypadku widzimy trzy mutacje (romby) na drzewie. Sekwencje, które współdzielą te same mutacje, są bliżej ze sobą spokrewnione, w związku z tym te mutacje pozwalają nam pogrupować próbki w grupy blisko spokrewnionych wirusów pochodzących z tego samego ciągu transmisji.
 </p>
 </div>
 ```
+
+<!-- The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+<br> <br>
+Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains. -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
