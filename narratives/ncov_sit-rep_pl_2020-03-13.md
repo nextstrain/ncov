@@ -268,7 +268,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 ```auspiceMainDisplayMarkdown
 # Co ty możesz zrobić  
 
-Unikanie bezpośrednich kontaktów -- czyli ograniczanie liczby osób, z którymi spotykasz się na co dzień -- może być wyzwaniem, ale ma ogromne korzyści dla dobra publicznego. Jeśli każdy ograniczy liczbę dziennych kontaktów o 25%, możemy oczekiwać 50% spadku całkowitej liczby przypadków w następnym miesiącu ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Nie jesteś pewna/y co to znaczy ograniczenie bezpośrednich kontaktów? [Sprawdź ten pomocny przewodnik](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+Unikanie bezpośrednich kontaktów -- czyli ograniczanie liczby osób, z którymi spotykasz się na co dzień -- może być wyzwaniem, ale ma ogromne korzyści dla dobra publicznego. Jeśli każdy ograniczy liczbę dziennych kontaktów o 25%, możemy oczekiwać 50% spadku całkowitej liczby przypadków w następnym miesiącu ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Nie jesteś pewna/y co oznacza dystansowanie społeczne? [Sprawdź ten pomocny przewodnik](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
