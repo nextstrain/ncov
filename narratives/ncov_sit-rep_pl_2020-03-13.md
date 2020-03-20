@@ -170,7 +170,7 @@ Zooming in on the map, we see that there are many links between Italy and other 
 # [Lokalna transmisja w Zjednoczonym Królestwie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 Kilka genomów zsekwencjonowanych na Wyspach Brytyjskich i w Irlandii wykazuje duże pokrewieństwo z wirusami spotykanymi w innych krajach.
 <br><br>
-Jest to zgodne z nastąpieniem 4 lub więcej introdukcji wirusa z innych miejsc.
+Jest to zgodne z nastąpieniem 4</tag> lub więcej introdukcji wirusa z innych miejsc.
 <br><br>
 Widzimy również przypadki, gdzie po introdukcji obserwuje się kilka blisko spokrewnionych przypadków wirusa z tego samego miejsca.<!-- not sure here several closely-related cases from same original location? --> Jest to zgodne z transmisją wirusa w obrębie lokalnych społeczności w przypadku więcej niż jednej fali introdukcji.
 
@@ -378,7 +378,7 @@ Ponadto szczególnie dziękujemy [GISAID](https://gisaid.org) za udostępnienie 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-Jesteśmy wdzięczni za dane zgromadzone w tych ośrodkach:
+Jesteśmy wdzięczni za dane zebrane w tych ośrodkach:
 <!-- We are grateful for the data gathered by these originating labs:-->
 
 * Arizona Department of Health Services
