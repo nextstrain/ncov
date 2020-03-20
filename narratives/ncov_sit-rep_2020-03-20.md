@@ -155,8 +155,8 @@ However, it's important to keep in mind that not all introductions result in out
 
 It may seem as though COVID-19 has suddenly exploded -- for many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts our daily lives, seemingly overnight.
 <br><br>
-But, keep in mind that this has been brewing for awhile. It's not that the virus is being introduced to new places more often.
-Rather, it's that introductions that happened weeks ago started localized outbreaks that we're now becoming aware of.
+But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
+Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
 <br><br>
 Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
 
