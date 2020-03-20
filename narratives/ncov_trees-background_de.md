@@ -1,6 +1,6 @@
 ---
 title: Wie phylogenetische Bäume zu interpretieren sind
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
+authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Astrid Gall)"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
@@ -59,7 +59,7 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- This is left-side text -->
 # [Wie interpretiere ich einen Baum?](https://nextstrain.org/ncov/2020-03-11)
 
-Die x-Achse respraesentiert das Ausmass der Unterschiede (in Zeit oder genetischer Divergenz -- wir kommen darauf im naechsten Abschnitt zurueck). Die y-Achse hilft, die Teile des Baumes weiter auszubreiten, so dass wir alles sehen koennen; sie hat keine Einheit.
+Die x-Achse respraesentiert das Ausmass der Unterschiede (in Zeiteinheiten oder genetischer Divergenz -- wir kommen darauf im naechsten Abschnitt zurueck). Die y-Achse hilft, die Teile des Baumes weiter auszubreiten, so dass wir alles sehen koennen; sie hat keine Einheit.
 <br><br>
 Die Spitzen des Baumes repraesentieren Proben (d.h. blaue Faelle in der vorherigen Abbildung). Die internen Verzweigungspunkte repraesentieren Faelle, die nicht beprobt wurden (d.h. rote Punkte in der vorherigen Abbildung). Wir nehmen an, dass diese der Ursprung aller Faelle, die von ihnen ausgehen, waren. Diese Verwandtschaftsbeziehungen werden aus dem Muster der Mutationen in den Faellen abgeleitet.
 
@@ -125,13 +125,11 @@ You can see how many mutations a branch has by hovering your mouse over it.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
-Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
+# [Messung von Unterschieden mittels Zeit](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+Wir koennen ebenfalls visualisieren, wie das Virus sich ueber einen Zeitrahmen verbreitet hat, indem wir das Datum der Probennahmen auf der x-Achse verwenden. Dabei repraesentiert die x-Achse das Datum der Probennahme fuer jedes Virus. Die Positionen der Spitzen des Baumes stellen das Datum dar, an dem die jeweilige Probe genommen wurde. Die Daten der internen Verzweigungspunkte -- der 'unbekannten Faelle' -- werden basierend auf den Daten der Nachkommen und der Geschwindigkeit, mit der das Virus mutiert, abgeleitet.
 <br><br>
-Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
-This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+Beachten Sie, wie viele Sequenzen, die urspruenglich auf einer Linie waren (d.h. identische Genome) nun ueber einen Zeitrahmen ausgebreitet sind. Das passiert, wenn das Virus mit einer Geschwindigkeit mutiert, die etwas geringer ist als die Geschwindigkeit, mit der es sich ausbreitet.
+Sie koennen nach oben und unten zwischen dieser und der vorherigen Ansicht scrollen, um zu sehen, wie der Baum sich aendert.
 <!-- There is NO right-side text -->
 
 
