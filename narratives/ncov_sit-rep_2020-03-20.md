@@ -94,7 +94,7 @@ This information will make interpreting the data we present in this narrative ea
 
 <!-- This is left-side text 3 -->
 # [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
 Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
@@ -196,9 +196,9 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 # [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area around the end of January 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)); this is consistent with the first reported case on January 19, 2020.
+Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Now, in mid-March (~8 weeks later), we see that a local outbreak is in full swing in this area. This is consistent with a doubling rate of about 4 days, assuming an exponentially growing population.  
+Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. This is consistent with a doubling rate of about 4 days, assuming an exponentially growing population.  
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
