@@ -33,17 +33,17 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text 1 -->
 # [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=13).
-* [FAQ & common misconceptions](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=14).
-* [Scientific credit](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=15).
+* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
+* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
