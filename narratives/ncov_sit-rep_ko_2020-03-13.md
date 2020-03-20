@@ -84,7 +84,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 # [코로나바이러스감염증-19 관련자료](https://nextstrain.org/ncov/2020-03-05)
 코로나바이러스감염증-19와 이를 유발하는 SARS-CoV-2 바이러스에 대한 몇 가지 자료를 준비했습니다.
 이 정보들은 저희가 이 보고서에서 제시한 내용을 이해하는데 도움을 줄 것입니다.
-계통유전학적 나무가 익숙하지 않은 분들은 ['계통도를 읽는 법'](https://nextstrain.org/narratives/trees-background)을 읽고 오십시오.
+계통유전학적 나무가 익숙하지 않은 분들은 ['계통도를 읽는 법'](https://nextstrain.org/narratives/trees-background/ko)을 읽고 오십시오.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -96,7 +96,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 최근 코로나바이러스감염증-19 유행 관련 배경지식</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 계통도를 읽는 법 </a>
+  <a href="https://nextstrain.org/narratives/trees-background/ko"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 계통도를 읽는 법 </a>
 </div>
 
 ## 더 읽을거리
