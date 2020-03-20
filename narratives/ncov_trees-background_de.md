@@ -33,10 +33,10 @@ abstract: "Dieses Narrativ erklärt wie man phylogenetische Bäume lesen und int
 
 <!-- This is left-side text -->
 # [Was verbindet die transmissions Geschichte mit phylogenetischen Bäumen?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Krankheitserreger verbreiten sich durch eine schnelle Vermehrung im inneren eines Wirtes gefolgt von der Transmission zum nächsten Wirt.
-Eine Epidemie kann sich nur verbreiten wenn eine Infektion gefolgt wird von mehr als einer Übertragung.
+Krankheitserreger verbreiten sich durch eine schnelle Vermehrung im Inneren eines Wirtes, gefolgt von der Transmission zum nächsten Wirt.
+Eine Epidemie kann sich nur verbreiten, wenn eine Infektion gefolgt wird von mehr als einer Übertragung.
 <br><br>
-Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom mehrere male repliziert and zufällige Änderungen (oder Mutationen) akkumilieren sich in seinem Genom. Dies ist absolut normal und erlaubt es, dass die Verbreitung eines Krankheitserregers nachvollzogen werden kann und seine Ubertragungsrouten und Dynamiken verstanden werden können.
+Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom mehrere Male repliziert and zufällige Änderungen (oder Mutationen) akkumulieren in seinem Genom. Dies ist absolut normal und erlaubt es, dass die Verbreitung eines Krankheitserregers nachvollzogen werden kann und seine Ubertragungsrouten und Dynamiken verstanden werden können.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -59,7 +59,7 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- This is left-side text -->
 # [Wie interpretiere ich einen Baum?](https://nextstrain.org/ncov/2020-03-11)
 
-Die x-Achse respraesentiert den Grad der Differenz (in Zeit oder genetischer Divergenz -- wir kommen darauf im naechsten Abschnitt zurueck). Die y-Achse hilft, die Teile des Baumes weiter auszubreiten, so dass wir alles sehen koennen; sie hat keine Einheit.
+Die x-Achse respraesentiert das Ausmass der Unterschiede (in Zeit oder genetischer Divergenz -- wir kommen darauf im naechsten Abschnitt zurueck). Die y-Achse hilft, die Teile des Baumes weiter auszubreiten, so dass wir alles sehen koennen; sie hat keine Einheit.
 <br><br>
 Die Spitzen des Baumes repraesentieren Proben (d.h. blaue Faelle in der vorherigen Abbildung). Die internen Verzweigungspunkte repraesentieren Faelle, die nicht beprobt wurden (d.h. rote Punkte in der vorherigen Abbildung). Wir nehmen an, dass diese der Ursprung aller Faelle, die von ihnen ausgehen, waren. Diese Verwandtschaftsbeziehungen werden aus dem Muster der Mutationen in den Faellen abgeleitet.
 
