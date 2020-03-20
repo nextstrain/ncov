@@ -57,11 +57,11 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [Wie interpretiere ich einen Baum?](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+Die x-Achse respraesentiert den Grad der Differenz (in Zeit oder genetischer Divergenz -- wir kommen darauf im naechsten Abschnitt zurueck). Die y-Achse hilft, die Teile des Baumes weiter auszubreiten, so dass wir alles sehen koennen; sie hat keine Einheit.
 <br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+Die Spitzen des Baumes repraesentieren Proben (d.h. blaue Faelle in der vorherigen Abbildung). Die internen Verzweigungspunkte repraesentieren Faelle, die nicht beprobt wurden (d.h. rote Punkte in der vorherigen Abbildung). Wir nehmen an, dass diese der Ursprung aller Faelle, die von ihnen ausgehen, waren. Diese Verwandtschaftsbeziehungen werden aus dem Muster der Mutationen in den Faellen abgeleitet.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
