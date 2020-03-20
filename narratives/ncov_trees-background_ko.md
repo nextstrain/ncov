@@ -15,7 +15,7 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
-authors:
+translators:
   - Kyo Bin Kang
   - Minkyu Kim
   - Taehoon Ha
