@@ -71,7 +71,7 @@ W wiadomościach z tego tygodnia raportujemy:
 
 * COVID-19 rozprzestrzenia się szeroko po Europie, dochodzi do licznych transmisji między państwami.
 
-* Zidentyfikowaliśmy przynajmniej 4 introdukcje wirusa w Wielkiej Brytanii, w kilku przypadkach prowadzące do transmisji lokalnej.
+* Zidentyfikowaliśmy przynajmniej 4</tag> introdukcje wirusa w Wielkiej Brytanii, w kilku przypadkach prowadzące do transmisji lokalnej.
 
 * Wystąpiło kilka transmisji związanych z podróżami z Iranu do innych miejsc na świecie.
 
@@ -125,11 +125,11 @@ Te analizy były możliwe dzięki szybkiemu i nieograniczonemu dostępowi do dan
 
 <!-- This is left-side text -->
 # [Opis próbkowania](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-Obecnie dysponujemy sekwencjami próbek pobranych w 30 krajach z 5 kontynenów. To niesamowity wyczyn -- sekwenjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
+Obecnie dysponujemy sekwencjami próbek pobranych w 30</tag> krajach z 5</tag> kontynenów. To niesamowity wyczyn -- sekwencjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
 <br><br>
-Choć zgromadzone dane umożliwiają wyciąganie pewnych wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone. <!--nasze konkluzje są ograniczone wnioski są ograniczone dostępnymi danymi.-->
+Choć zgromadzone dane umożliwiają wyciąganie wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone.
 <br><br>
-Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych rejonach, bądź przypadki z tych regionów są mniej istotne dla zrozumienia sytuacji<!-- maybe some better phrase here -->; powodem jest po prostu niewielka ilość danych docierająca z tych regionów. Wielkość każdego kółka na mapie wskazuje, jak wiele danych z tego regionu jest dostępnych w danym momencie, a nie jaka jest rzeczywista skala ogniska epidemii.
+Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych regionach, bądź przypadki z tych regionów są mniej istotne dla zrozumienia sytuacji; powodem jest po prostu niewielka ilość danych docierająca z tych obszarów. Wielkość każdego kółka na mapie wskazuje, jak wiele danych z tego regionu jest dostępnych w danym momencie, a nie jaka jest rzeczywista skala ogniska epidemii.
 
 <!--
 We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
@@ -153,7 +153,7 @@ For example, the map shows very few sequences from the global south. This is NOT
 Widzimy duży klad, zawierający sekwencje z Europy.
 Co znamienne, sekwencje pochodzące z różnych krajów wystepują naprzemiennie, pokazując, że COVID-19 jest już w szerokim obiegu w Europie.
 <br><br>
-Po przybliżeniu mapy widzimy, że jest wiele punktów łączących Włochy z innymi rejonami; należy jednak pamiętać, że kierunek tych łączników nie zawsze da się łatwo określić. Dane te mogą być tłumaczone innymi hipotezami (np. przekazaniem wirusa przez nieznanego pacjenta zarówno we Włoszech, jak i w Niemczech)  <!-- not really understand the part in parentheses: how about this istead of: jeśli drugorzędowe przypadki wirusa, zarówno we Włoszech, jak i w innych rejonach, nie zostały zsekwencjonowane).-->
+Po przybliżeniu mapy widzimy, że jest wiele punktów łączących Włochy z innymi rejonami; należy jednak pamiętać, że kierunek tych łączników nie zawsze da się łatwo określić. Dane te mogą być tłumaczone innymi hipotezami (np. przekazaniem wirusa przez nieznanego pacjenta zarówno we Włoszech, jak i w Niemczech)  <!-- not really understand the part in parentheses: how about this istead of: jeśli drugorzędowe przypadki wirusa, zarówno we Włoszech, jak i w innych rejonach, nie zostały zsekwencjonowane ; OK! brzmi znacznie lepiej:).-->
 
 <!--
 Here, we see a large clade of sequences from Europe.
@@ -170,9 +170,9 @@ Zooming in on the map, we see that there are many links between Italy and other 
 # [Lokalna transmisja w Zjednoczonym Królestwie](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 Kilka genomów zsekwencjonowanych na Wyspach Brytyjskich i w Irlandii wykazuje duże pokrewieństwo z wirusami spotykanymi w innych krajach.
 <br><br>
-Jest to zgodne z występieniem 4 lub więcej introdukcji wirusa z innych miejsc.
+Jest to zgodne z nastąpieniem 4 lub więcej introdukcji wirusa z innych miejsc.
 <br><br>
-Widzimy również przypadki, gdzie po introdukcji obserwuje się kilka blisko spokrewnionych przypadków wirusa z tego samego miejsca.<!-- not sure here several closely-related cases from same original location? --> Jest to zgodne z transmisją wirusa w obrębie lokalnych społeczności z więcej niż jednej fali introdukcji.
+Widzimy również przypadki, gdzie po introdukcji obserwuje się kilka blisko spokrewnionych przypadków wirusa z tego samego miejsca.<!-- not sure here several closely-related cases from same original location? --> Jest to zgodne z transmisją wirusa w obrębie lokalnych społeczności w przypadku więcej niż jednej fali introdukcji.
 
 <!-- Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
 <br><br>
@@ -186,7 +186,7 @@ We also see instances where after an introduction, there are several closely-rel
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Rozprzestrzenianie się SARS-CoV-2 z Iranu](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Wiele genomów zostało zsekwencjonowanych z próbek pobranych od pacjentów zgłąszających podróż do Iranu. Te wszystkie genomy są niezwykle podobne do siebie i wskazują, że wybuch epidemii w Iranie może być wynikiem pojedynczej introdukcji wirusa i jego dalszej transmisji do wielu innych miejsc.
+Wiele genomów zostało zsekwencjonowanych z próbek pobranych od pacjentów zgłaszających podróż do Iranu. Te wszystkie genomy są niezwykle podobne do siebie i wskazują, że wybuch epidemii w Iranie może być wynikiem pojedynczej introdukcji wirusa i jego dalszej transmisji do wielu innych miejsc.
 <br><br>
 Należy zauważyć, że nie dysponujemy kompletnymi genomami wirusa z próbek pobranych od pacjentów z Iranu.
 <!-- There is NO right-side text -->
@@ -207,7 +207,7 @@ Widzimy, że wirus został introdukowany do USA niezależnie wiele razy.
 Większość tych introdukcji nie jest związana z żadnym innym przypadkiem wirusa z USA, w związku z tym nie jest jasne, czy te introdukcje doprowadziły do wybuchu lokalnych ognisk.
 Niemniej jednak, w związku z tym, że wydajność testowania obecności wirusa nie została zintensyfikowana na większości obszarów, spodziewamy się znacznej liczby nieraportowanych przypadków.
 <br><br>
-Mimo to, dla stanów Waszyngton i Kalifornia, widzimy grupy blisko spokrewnionych przypadków. To sugeruje trwającą transmisję i lokalne rozprzestrzenianie się wirusa  w tych dwóch stanach.
+Mimo to, dla stanów Waszyngton i Kalifornia, widzimy grupy blisko spokrewnionych przypadków. To sugeruje trwającą transmisję i lokalne rozprzestrzenianie się wirusa w tych dwóch stanach.
 <!--Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
 <br><br>
 Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
@@ -276,12 +276,12 @@ Unikanie bezpośrednich kontaktów -- czyli ograniczanie liczby osób, z którym
 ## Kroki jakie każdy może podjąć
 * Ogranicz liczbę osób, z którymi się spotykasz każdego dnia, zwłaszcza jeśli jesteś w grupie podwyższonego ryzyka (np. seniorzy i osoby z osłabioną odpornością).
 * Pamiętaj, że nawet jeśli nie jesteś szczególnie narażona/y, wiele osób wokół ciebie jest; postępuj zgodnie z tymi praktykami, aby chronić innych.
-* Myj ręcę "jakbyś właśnie pokroił papryczkę jalapeno i musiał zmienić soczewkę kontaktową".  
+* Myj ręcę "jakbyś właśnie pokroił papryczkę jalapeno i musiał zmienić soczewkę kontaktową". 
 * Pozostań w domu jeśli jesteś chora/y; przygotuj trochę zapasów w razie potrzeby przebycia kwarantanny.
 * Jeśli jesteś pracodawcą, zachęć swoich pracowników, aby zostali w domu jeśli źle się czują (i wspomóż ich finansowo w tym czasie).
 
 ## Kroki jakie mogą podjąć urzędnicy  
-* Spraw, aby testy informujące o pandemii były darmowe i szeroko dostępne.
+* Spraw, aby testy na obecność wirusa były darmowe i szeroko dostępne.
 * Wprowadź środki ograniczające bezpośrednie kontakty.
 * Wspomóź finansowo tych, którzy najbardziej ucierpią w wyniku dystansowania społecznego (np. pracowników godzinowych, odpowiedzialnych za dzieci i osoby starsze, małe przedsiębiorstwa itd.).
 ```
@@ -329,7 +329,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 #### [Stworzyliśmy przewodnik, w którym próbujemy odpowiedzieć na najczęściej zadawane pytania](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### Związek Naukowców Amerykańskich (The Federation of American Scientists) również posiada [świetną stronę dla najczęściej zadawanych pytań](https://covid19.fas.org/l/en).
+#### Związek Naukowców Amerykańskich (The Federation of American Scientists) również posiada [świetną stronę z najczęściej zadawanymi pytaniami](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -353,7 +353,7 @@ Aby rozwiać wątpliwości co do kontrowersyjnych i niepotwierdzonych teorii, na
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (techniczny)<!-- not sure what technical refers to, article? --> </a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (techniczny) </a>
   <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (wątek Twitter)</a>
 
 
@@ -378,7 +378,8 @@ Ponadto szczególnie dziękujemy [GISAID](https://gisaid.org) za udostępnienie 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Jesteśmy wdzięczni za dane zgromadzone w tych ośrodkach:
+<!-- We are grateful for the data gathered by these originating labs:-->
 
 * Arizona Department of Health Services
 * Auckland Hospital
