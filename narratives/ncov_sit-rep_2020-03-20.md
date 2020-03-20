@@ -133,7 +133,7 @@ Here, the tree is colored by the travel history of a case (when known). Looking 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?branchLabel=clade&c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
 Zooming out, we can see that this isn't always so consistent.
 <br><br>
