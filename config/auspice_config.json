@@ -1,6 +1,9 @@
 {
-  "title": "Genomic epidemiology of novel coronavirus (hCoV-19)",
+  "title": "Genomic epidemiology of novel coronavirus",
   "build_url": "https://github.com/nextstrain/ncov",
+  "maintainers": [
+    {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
+  ],
   "colorings": [
     {
       "key": "location",
@@ -56,7 +59,7 @@
       "key": "recency",
       "title": "Submission Date",
       "type": "categorical"
-    },    
+    },
     {
       "key": "gisaid_epi_isl"
     },
