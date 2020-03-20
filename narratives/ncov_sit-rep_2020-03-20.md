@@ -168,7 +168,7 @@ Areas that aren't yet aware of local outbreaks should prepare now and start surv
 # [Once introduced, epidemics become evident ~4-8 weeks later](https://nextstrain.org/ncov/2020-03-19?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 We can see a clear example of this in Washington state.
-Mousing over the internal nodes at the root of the clade tells us that the virus was likely introduced once to this area in early- to mid-January 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Mousing over the internal nodes at the root of the clade tells us that the virus was likely introduced once to this area around the end of January 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)); this is consistent with the first reported case on January 19, 2020.
 <br><br>
 Now, in mid-March (~8 weeks later), we see that a local outbreak is in full swing in this area. This is consistent with a doubling rate of about 4 days, assuming an exponentially growing population.  
 <br>
