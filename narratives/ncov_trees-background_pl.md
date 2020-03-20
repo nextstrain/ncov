@@ -1,5 +1,5 @@
 ---
-title: How to interpret phylogenetic trees
+title: Jak interpretować drzewa filogenetyczne
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -17,9 +17,10 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
 translatorLinks:
-date: "2020 March 13"
+date: "13 marca 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."
+abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenetyczne w epidemiologii genomowej. Prezentacja jest dostosowana do wyświetlania w przeglądarkach komputerowych."
+<!--"This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."-->
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -27,8 +28,22 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [Spis treści](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
+* [Jak sieci transmisji są powiązane z drzewami filogenetycznymi](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [Jak czytać drzewo](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [Jak panel "zmienności" odnosi się do drzewa](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Mierzenie różnic przy pomocy dywergencji genetycznej](https://nextstrain.org/narratives/trees-background?n=4).  
+* [Mierzenie różnic w czasie](https://nextstrain.org/narratives/trees-background?n=5).  
+* [Datowanie początku wybuchu epidemii](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [Jak należy interpretować cechy (kolory) na drzewie](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [Jak mapa odnosi się do drzewa](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [Lektura zaawansowana: miary niepewności drzewa](https://nextstrain.org/narratives/trees-background?n=9).  
+* [O zestawie danych](https://nextstrain.org/narratives/trees-background?n=10).  
+
+<!-- No right-side text -->
+
+<!-- # [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 * [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
@@ -38,9 +53,8 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 * [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10). -->
 
-<!-- No right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
