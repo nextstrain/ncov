@@ -52,7 +52,7 @@ Here, we analyzed 713 publicly shared COVID-19 genomes. By comparing these viral
 
 In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
 Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid, widespread testing, as well as a strong focus on slowing local transmissions.
+This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
 
 In this week's updates, we report:  
 
@@ -86,7 +86,7 @@ This information will make interpreting the data we present in this narrative ea
 ## Further Reading
 
 * Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-19.
+* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -96,9 +96,10 @@ This information will make interpreting the data we present in this narrative ea
 We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the overall number of cases, only a subset of patients is tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of the overall number of cases is tested and sequenced can greatly vary across geographic regions and time.
+Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
+Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
 Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+<br><br>
 Let's look at a few examples.
 
 <!-- There is NO right-side text -->
@@ -106,7 +107,7 @@ Let's look at a few examples.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
 # [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where the WHO reports cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
 <br><br>
 <!-- There is NO right-side text -->
 
@@ -127,7 +128,7 @@ So, when reading this narrative, keep in mind that the size of each circle on th
 
 Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the blue Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+Here, the tree is colored by the travel history of a case (when known). Looking at the green Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
@@ -152,7 +153,7 @@ It's certainly possible that this person was infected by a second ongoing transm
 On the tree, we see lots of this kind of intermingling of samples from different countries.
 This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
 <br><br>
-In fact, the WHO reports confirmed cases in 159 out of 195 total countries in the world.
+In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
 <br><br>
 However, not all introductions result in outbreaks.
 
@@ -192,8 +193,8 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 <!-- ############ SLIDE BREAK ############# -->
 # [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-19?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in Washington state.
-Mousing over the internal nodes at the root of the clade tells us that the virus was likely introduced once to this area around the end of January 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)); this is consistent with the first reported case on January 19, 2020.
+We can see a clear example of this in the data from Washington state.
+Mousing over root of the main clade shows that the virus was likely introduced to this area around the end of January 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)); this is consistent with the first reported case on January 19, 2020.
 <br><br>
 Now, in mid-March (~8 weeks later), we see that a local outbreak is in full swing in this area. This is consistent with a doubling rate of about 4 days, assuming an exponentially growing population.  
 <br>
@@ -209,7 +210,7 @@ Now, in mid-March (~8 weeks later), we see that a local outbreak is in full swin
 
 We can also see an example of how intially localized outbreaks seed introductions to other locations.
 The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with a possible introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
+This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
 <br><br>
 We don't know for sure whether this introduction will result in a local outbreak in Utah.
 But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
@@ -247,9 +248,9 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- This is left-side text 11-->
 # [Takeaways](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&p=full)
 - The virus has been introduced to many parts of the globe multiple times.  
-<br><br>
+<br>
 - We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
-<br><br>
+<br>
 - Controlling local outbreaks through social distancing is crucial to:  
   - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
   - Reduce the total number of cases and fatalities  
