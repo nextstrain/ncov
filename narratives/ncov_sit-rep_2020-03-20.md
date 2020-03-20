@@ -124,7 +124,7 @@ Here, the tree is colored by the travel history of a case (when known). Mousing 
 
 Zooming out, we can see that this isn't always so consistent.
 For example, mousing over the bright green Canadian sequence in the top right, we see that this case has a travel history to Iran.
-However, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history! This makes it much less clear where this person was actually infected, despite the travel history.
+However, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history. Although it's certainly possible that this person was infected by a different cluster in Iran, it's somewhat less clear whether this was truly a travel related case.
 
 <!-- There is no right side text -->
 
