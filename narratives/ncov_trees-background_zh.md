@@ -102,32 +102,20 @@ A和B中也有不存在于其他序列中的独特突变（绿色圆点），但
 
 <!-- This is left-side text -->
 <!-- # [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open) -->
-# [“多样性”面板与发生树之间的联系](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [“多样性”图与系统发生树之间的联系](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
 <!--
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+让我们来看看已经公开分享的第一批由169</tag>株SARS-CoV-2病毒(COVID-19的致病病毒)毒株组成的数据。和上一页一样，我们比对了这些病毒的序列(您可以在[GitHub](https://github.com/nextstrain/ncov)看到这里提到的所有分析是如何完成的)。
 <br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
+在这里，系统发生树的下方有一个条形图，上面显示病毒基因组中的变异（即突变）。
+如果没有这些突变，我们就无法构建这棵树，所以这两个图是紧密相关的。
 <br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
+在这个“多样性”条形图中，横轴是病毒基因组中的位点(总共三万个左右!)，竖轴表示每个位点的变异程度。
 <br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+我们已经根据一个突变给系统发生树涂上了两种颜色 -- 在这个例子中，所根据的突变是 "ORF1b"基因的314号密码子。
+没有已知的实验证据表明这个突变是功能性突变(有生物学意义的改变)。
+我们正是用这样的突变来定义序列之间的关系，构建系统发生树。
 -->
-让我们来看看已经公开分享的第一批169株SARS-CoV-2</tag>(导致COVID-19的病毒)毒株. 就像在上一页一样，我们建立了这些病毒序列的比对(您可以在[GitHub](https://github.com/nextstrain/ncov)看到这里提到的所有分析是如何完成的 ).
-<br><br>
-在这里，我们在显示基因组变异(即突变)的条形图上方显示了系统发生树.
-如果没有这些突变，我们就无法构建这棵树，所以两者紧密相连.
-<br><br>
-在这个“多样性”面板中，横轴是病毒基因组中的位点(总共三万个左右!).
-竖轴表示每个位点的变化的大小.
-<br><br>
-我们根据其中一个突变给树着色 -- 示例为 "ORF1b"基因的密码子314.
-没有事先的理由认为这种突变是功能性突变(即导致任何生物变化).
-我们正是用这样的突变来定义序列之间的关系并构建系统发生树.
 
 <!-- There is NO right-side text -->
 
