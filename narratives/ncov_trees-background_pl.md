@@ -20,7 +20,6 @@ translatorLinks:
 date: "13 marca 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenetyczne w epidemiologii genomowej. Prezentacja jest dostosowana do wyświetlania w przeglądarkach komputerowych."
-<!--"This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."-->
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -28,6 +27,7 @@ abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenet
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
+<!--"This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."-->
 # [Spis treści](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
 * [Jak sieci transmisji są powiązane z drzewami filogenetycznymi](https://nextstrain.org/narratives/trees-background?n=1)?  
