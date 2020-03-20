@@ -39,7 +39,7 @@ abstract: "این متن چگونگی خواندن و تعبیر درخت های
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# یک مثال 
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
@@ -64,7 +64,7 @@ abstract: "این متن چگونگی خواندن و تعبیر درخت های
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## یک مثال
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
@@ -116,48 +116,44 @@ abstract: "این متن چگونگی خواندن و تعبیر درخت های
 
 <!-- ############ SLIDE BREAK ############# -->
 # [اندازه گیری تفاوت در زمان](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
-Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
+ما می‌توانیم چگونگی گسترش ویروس در طی زمان را با استفاده از تاریخ نمونه گیری به عنوان محور افقی نمایش دهیم. سر شاخه‌ها نمایش دهنده ی تاریخ نمونه‌گیری هستند. تاریخ رئوس داخلی -موارد گم شده - با استفاده تاریخ نمونه گیری پایین دست هر راس و سرعت جهش ویروس محاسبه شده‌اند.   
 <br><br>
-Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
-This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+نکته‌ی قابل توجه اینکه تعدادی از رشته‌ها که پیش از این روی یک خط عمودی بودند (دارای ژنوم یکسان بودند) در زمان از هم جدا هستند. این اتفاق زمانی می‌افتد که نرخ جهش ویروس اندکی از سرعت پخش شدن آن آهسته‌تر است. با رفت و برگشت بین این اسلاید و اسلاید قبلی می‌توانید مشاهده کنید که درخت چگونه تغییر می‌کند.  
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [تعیین تاریخ شروع شیوع](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
-Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
+ما همچنین می‌توانیم بوسیله‌ی ژنومیک تاریخ شروع شیوع بیماری را تعیین کنیم حتی اگر این تاریخ قبل از زمانی باشد که ما متوجه وجود بیماری شده‌ایم. ما‌ می‌توانیم تاریخ سرشاخه‌ها و رئوس داخلی درخت را تعیین کنیم و با استفاده از همین روش می‌توانیم تاریخ ریشه‌ی درخت را هم بدست بیاوریم. این ریشه «متئخرین جد مشترک» تمام رشته‌های توالی SARS-CoV-2 که در اختیار داریم هست. برای مثال پدربزرگ شما «متئخرین جد مشترک» شما و عموزاده‌های شما هست. 
 <br><br>
-If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+اگر نشانگر موس خود را روی خط عمودی در منتهی علیه سمت چپ ببرید می‌توانید ببینید که تاریخ شروع این شیوع بین نیمه‌ی نوامبر و نیمه‌ی دسامبر بوده است. 
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+# [چگونه باید خصیصه (رنگ) در درخت را تعبیر کنم؟](https://nextstrain.org/ncov/2020-03-11)
+درخت‌های فیلیوژنیک معوملاً اطلاعات بیشتری مانند مکان هر نمونه را دارا می‌باشند. با این اطلاعات ما می‌توانیم مکان رئوس داخلی (موارد نمونه برداری نشده‌ی فرضی) بوسیله‌ی مدل‌های ریاضی استنتاج کنیم. این می‌تواند به درک چگونگی انتقال ویروس از یک مکان به مکان دیگر کمک کند. 
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+اما باید تعبیر این نتایج باید با احتیاط همراه باشد زیرا نمونه گیری و توالی یابی رشته‌ها یا عدم وجود آنها می‌توانند این نتیجه‌ی این استنتاج رو بطور قابل توجهی تغییر دهند. 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# یک مثال
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+در سمت چپ یک درخت فیلیوژنیک با نمونه گیری کامل از دو مکان مختلف که با رنگ‌های آبی و نارنجی مشخص شده‌اند می‌بینید. با حرکت از بالا به پایین درخت مشاهده می‌کنیم که در سه مورد زنگ(مکان) از نارنجی به قرمز تغییر می‌کند. از این می‌توانیم نتیجه بگیریم که در سه مورد انقال از نارنجی به آبی اتفاق افتاده است. 
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+اما این نتیجه‌گیری به نمی‌توان متکی بود: یک مورد نارنجی را در درخت وسطی حذف کرده‌ایم. در این حالت فقط یک تغییر از نارنجی به آبی مشا‌هده می‌کنیم که به معنی فقط یک انتقال به آبی در زمان خیلی زودتری می‌باشد.  
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+در مثال آخر (سمت راست) ما فقط یک نمونه از رشته‌ی نارنجی را داریم که می‌تواند به معنی انتقال از آبی به نارنجی باشد. 
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+بنابراین، اگرچه این استنتاج‌ها می‌توانند ذی قیمت باشند اما باید با احتیاط تعبیر شوند. 
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
@@ -165,22 +161,22 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [ارتباط نقشه و درخت](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+در اینجا با مکان هر نمونه روی درخت را رنگی مختلف نشان داده‌ایم (مکان‌های استنتاج شده برای رئوس داخلی).
+اگر روی ['کاووش داده‌ها'](https://nextstrain.org/ncov),  کلیک کنید می‌توانید انیمیشن  استنتاج چگونگی پخش شدن ویروس از زمان شیوع را ببینید.  
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+# [مطالعه‌ی پیشرفته: عدم قطعیت در درخت](https://nextstrain.org/ncov/2020-03-11)
+پیش از این ما در مورد اینکه رئوس داخلی نشانگر موارد نمونه‌گیری نشده‌ی فرضی هستند حرف زدیم. در واقع هر درختی یک فرضیه در مورد چگونگی فرگشت و حرکت پتوژن در زمان است. درخت‌هایی که ما در نکست‌ استرین نشان می‌دهیم تخمین نقطه‌ای هستند -- یعنی احتمال مشاهده‌ي داده‌هایی که داریم را بیشینه می‌کنند. 
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+با این حال، این تقریب ها همیشه دارای عدم قطعیت هستند. به طور کلی، بخش‌هایی از درخت که با تراکم بیشتری نمونه‌گیری شده اند دارای قطعیّت بیشتری هستند. مناطقی که ضعیفتر نمونه‌گیری شده‌اند کمتر مطمئن هستند.  
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+# تصویر
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
@@ -191,14 +187,14 @@ However, there is always uncertainty in these estimates. Generally speaking, par
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [اعتبار علمی](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+ما می خواهیم کار شگفت انگیز و به موقع انجام شده توسط همه دانشمندان در حال کار بر روی این همه گیری جهانی و به ویژه افرادی که در چین کار می کنند قدردانی کنیم.
+که با به اشتراک گذاری سریع داده های ژنتیکی و داده‌های آماری خود اجازه ی تحلیل های اینچنینی را برای ما ممکن میسازد.
 
 <br><br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+ با سپاس و قدردانی از  [GISAID](https://gisaid.org)  برای در اختیار گذاشتن پلتفرمی که از طریق آن داده ها می‌تواند بارگذاری و به اشتراک گذاشته شود. .
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
