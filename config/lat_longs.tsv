@@ -17,6 +17,7 @@ location	Clayton	-37.915200	145.127165
 location	Coevorden	52.6614	6.7411
 location	Compiègne	49.408175	2.842839
 location	Contamines	45.820585	6.727730
+location	Copenhagen	55.680681	12.573362
 location	Cork	51.899	-8.460
 location	Crépy en Valois	49.234399	2.888491
 location	Dalen	52.6994	6.7568
@@ -133,6 +134,7 @@ division	China	33.394333	104.689839
 division	Chongqing	29.858721	107.375623
 division	Chungcheongnam	36.685948	126.799198
 division	Comunitat Valenciana	39.337	-0.354
+division	Copenhagen	55.680681	12.573362
 division	Cork	51.895349	-8.474381
 division	Diamond Princess	35.046935	139.419325
 division	Drenthe	52.846963	6.608915
@@ -227,6 +229,8 @@ division	Ticino	46.345334	8.774813
 division	Tilburg	51.567213	5.047957
 division	Thanh Hoa	20.026365	105.439044
 division	Tokyo	35.683441	139.766131
+division	UK	54.259802	-2.232603
+division	USA	40.672581	-98.979263
 division	Usti nad Labem	50.656527	14.053702
 division	Utah	39.4225192	-111.7143583
 division	Utrecht	52.085320	5.184968
@@ -241,6 +245,7 @@ division	Zurich	47.441242	8.641154
 division	Bourgogne-France-Comté	47.2805	4.9994
 division	Taoyuan	24.9936	121.3010
 division	Distrito Federal	-15.7998	-47.8645
+
 
 country	Georgia	41.989378	43.597463
 country	Luxembourg	49.755428	6.119486

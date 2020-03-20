@@ -193,6 +193,7 @@ division	Italy
 division	Lazio
 division	Lombardy
 division	Usti nad Labem
+division	UK
 division	Northern Ireland
 division	England
 division	Wales
@@ -202,6 +203,7 @@ division	Scotland
 division	Småland
 division	Helsinki
 division	Finland
+division	Copenhagen
 division	Portugal
 division	Lagos
 division	Kinshasa
@@ -214,6 +216,7 @@ division	Rio de Janeiro
 division	Distrito Federal
 division	Panama City
 division	Mexico City
+division	USA
 division	Texas
 division	Utah
 division	Arizona
@@ -253,6 +256,7 @@ country	Czech Republic
 country	United Kingdom
 country	Ireland
 country	Finland
+country	Denmark
 country	Sweden
 country	Portugal
 country	Nigeria
