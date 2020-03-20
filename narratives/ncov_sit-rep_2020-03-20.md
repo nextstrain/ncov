@@ -163,9 +163,20 @@ Areas that aren't yet aware of local outbreaks should prepare now and start surv
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-<img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
+# How do introductions become outbreaks?
+
+Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
+Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+
+Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
 
 "COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+
+These new outbreaks may, in turn, seed further introductions to other locations.
+
+<img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
+
+
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
