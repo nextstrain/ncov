@@ -19,6 +19,8 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+translatorLinks:
 date: "2020 March 19"
 dataset: "https://nextstrain.org/ncov/2020-03-19?legend=closed&d=map&legend=closed"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
@@ -46,15 +48,17 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-Here, we analyzed 713 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+Here, we analyzed 713 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
 
-In this report, we highlight that the virus has been introduced and is circulating locally in many parts of the globe. This emphasizes the importance of rapid, widespread testing, as well as a strong focus on slowing local transmissions.
+In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
+Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
+This emphasizes the importance of rapid, widespread testing, as well as a strong focus on slowing local transmissions.
 
 In this week's updates, we report:  
 
 * Evidence for travel-related introductions to many parts of the world.  
 * Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but for new cases to plateau and decline in the medium- to long-term.
+* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
 * Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
 ```
 
@@ -91,14 +95,18 @@ This information will make interpreting the data we present in this narrative ea
 # [A note on sampling](https://nextstrain.org/ncov/2020-03-19?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data. This happens because we expect that the true number of infections is far greater than the number of confirmed cases. Of these confirmed cases, only a fraction of viral samples are sequenced, and this fraction varies widely by country and region. Let's look at a few examples.  
+While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
+Of the overall number of cases, only a subset of patients is tested. Of those tested, only a subset of samples are also sequenced.
+Which subset of the overall number of cases is tested and sequenced can greatly vary across geographic regions and time.
+Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+Let's look at a few examples.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
 # [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where the WHO reports cases of COVID-19. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where the WHO reports cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
 <br><br>
 <!-- There is NO right-side text -->
 
@@ -106,9 +114,9 @@ The map shows very few sequences from the global south. For example, we only hav
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
 # [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-Conversely, the map shows many sequences from the Netherlands compared to the rest of Europe. However, looking at the WHO's total case counts, the confirmed cases in the Netherlands actually make up about 2\% of all the confirmed cases in Europe.
+In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
 <br><br>
-So, when you're reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -126,6 +134,7 @@ Here, the tree is colored by the travel history of a case (when known). Looking 
 # [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-19?branchLabel=clade&c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
 Zooming out, we can see that this isn't always so consistent.
+<br><br>
 Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
 This main cluster was likely generated by a single introduction, followed by local spread.
 <br><br>
@@ -145,7 +154,7 @@ This indicates that this kind of inevitable human movement has already introduce
 <br><br>
 In fact, the WHO reports confirmed cases in 159 out of 195 total countries in the world.
 <br><br>
-However, it's important to keep in mind that not all introductions result in outbreaks.
+However, not all introductions result in outbreaks.
 
 <!-- There is no right side text -->
 
@@ -153,7 +162,8 @@ However, it's important to keep in mind that not all introductions result in out
 <!-- This is left-side text 8 -->
 # [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-19?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded -- for many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts our daily lives, seemingly overnight.
+It may seem as though COVID-19 has suddenly exploded.
+For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
 <br><br>
 But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
 Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
@@ -204,7 +214,9 @@ This is consistent with a possible introduction from Washington to Utah, althoug
 We don't know for sure whether this introduction will result in a local outbreak in Utah.
 But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
 <br><br>
-This is just one example. Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+This is just one example.
+There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
+Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
 
 <!-- There is no right side text -->
 
@@ -215,7 +227,7 @@ This is just one example. Most importantly, areas that aren't yet aware of local
 Following this same logic, there are likely many local transmission chains that we don't yet know about.
 <br><br>
 This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We'll also see a bump in the number of reported cases as testing becomes more widely available.
+These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
 <br><br>
 It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
 
