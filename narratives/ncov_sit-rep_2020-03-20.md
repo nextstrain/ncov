@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-18.
+title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -20,7 +20,7 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 date: "2020 March 19"
-dataset: "https://nextstrain.org/ncov/2020-03-19?d=map&legend=closed"
+dataset: "https://nextstrain.org/ncov/2020-03-19?legend=closed&d=map&legend=closed"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
@@ -28,16 +28,19 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
-<!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov?d=tree,map&p=grid)
+<!-- This is left-side text 1 -->
+# [Table of Contents](https://nextstrain.org/ncov/2020-03-19?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep?n=3).
-* [](https://nextstrain.org/narratives/ncov/sit-rep?n=X).
-
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep?n=X).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep?n=X).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep?n=X).
+* [Background resources](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=2).     
+* [A note about sampling](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=3).
+* [Sequence data & travel histories](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=5).
+* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=7).
+* [How outbreaks grow](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=8).
+* [How the Washington outbreak has grown](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=9).
+* [How case counts change with social distancing](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=10).
+* [What you can do](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=11).
+* [FAQ & common misconceptions](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=12).
+* [Scientific credit](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=13).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -51,17 +54,15 @@ In this week's updates, we report:
 
 * Evidence for travel-related introductions to many parts of the world.  
 * Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Clear evidence for local circulation on every continent.  
-* The size of the virus population in Washington state is likely far larger than the number of confirmed cases; more testing is desperately needed across the U.S. and around the globe.
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but for the curve to flatten in the medium-term.
+* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but for new cases to plateau and decline in the medium- to long-term.
 * Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
+<!-- This is left-side text 2 -->
+# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-19)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
 
@@ -86,8 +87,8 @@ This information will make interpreting the data we present in this narrative ea
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text -->
-# [A note on sampling](https://nextstrain.org/ncov?c=country&r=country&d=map&p=grid&legend=closed)
+<!-- This is left-side text 3 -->
+# [A note on sampling](https://nextstrain.org/ncov/2020-03-19?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data. This happens because we expect that the true number of infections is far greater than the number of confirmed cases. Of these confirmed cases, only a fraction of viral samples are sequenced, and this fraction varies widely by country and region. Let's look at a few examples.  
@@ -97,8 +98,8 @@ While this data enables us to infer many useful characteristics of the outbreak 
 <!-- ############ SLIDE BREAK ############# -->
 
 
-<!-- This is left-side text -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&f_region=Central%20America,Europe,South%20America&p=full&r=country)
+<!-- This is left-side text 4 -->
+# [A note on sampling](https://nextstrain.org/ncov/2020-03-19?legend=closed&c=country&d=map&f_region=Central%20America,Europe,South%20America&p=full&r=country)
 First, the map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where the WHO reports cases of COVID-19. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
 <br><br>
 Conversely, the map shows many sequences from the Netherlands compared to the rest of Europe. However, looking at the WHO's total case counts, the confirmed cases in the Netherlands actually make up about 2\% of all the confirmed cases in Europe.
@@ -110,16 +111,16 @@ So, when you're reading this narrative, keep in mind that the size of each circl
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-19?&c=division_exposure&label=clade:A1a&d=tree,map)
+<!-- This is left-side text 5 -->
+# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-19?legend=closed&&c=division_exposure&label=clade:A1a&d=tree,map)
 
 Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
 <br><br>
 Here, the tree is colored by the travel history of a case (when known). Mousing over the blue Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-19?branchLabel=clade&c=division_exposure&d=tree,map&p=full)
+<!-- This is left-side text 6 -->
+# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-19?legend=closed&branchLabel=clade&c=division_exposure&d=tree,map&p=full)
 
 Zooming out, we can see that this isn't always so consistent.
 For example, mousing over the bright green Canadian sequence in the top right (near clade A7), we see that this case has a travel history to Iran.
@@ -129,19 +130,21 @@ However, this sequence doesn't group anywhere near the rest of the cases with Ir
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-19?branchLabel=clade&c=country&d=tree,map&p=grid)
+<!-- This is left-side text 7 -->
+# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-19?legend=closed&branchLabel=clade&c=country&d=tree,map&p=grid)
 
 On the tree, we see lots of this kind of intermingling of samples from different countries.
 This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
 <br><br>
 In fact, the WHO reports confirmed cases in 159 out of 195 total countries in the world.
+<br><br>
+However, it's important to keep in mind that not all introductions result in outbreaks.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Once introduced, epidemics become evident ~4-8 weeks later](https://nextstrain.org/ncov/2020-03-19?branchLabel=clade&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+<!-- This is left-side text 8 -->
+# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-19?legend=closed&branchLabel=clade&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
 It may seem as though COVID-19 has suddenly exploded -- for many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts our daily lives, seemingly overnight.
 <br><br>
@@ -159,7 +162,7 @@ Areas that aren't yet aware of local outbreaks should prepare now and start surv
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Once introduced, epidemics become evident ~4-8 weeks later](https://nextstrain.org/ncov/2020-03-19?d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Once introduced, epidemics become evident ~4-8 weeks later](https://nextstrain.org/ncov/2020-03-19?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 We can see a clear example of this in Washington state.
 Mousing over the internal nodes at the root of the clade tells us that the virus was likely introduced once to this area in early- to mid-January 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
@@ -173,8 +176,8 @@ Now, in mid-March (~8 weeks later), we see that a local outbreak is in full swin
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [We can expect case counts to grow over the next month](https://nextstrain.org/ncov/2020-03-19?d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+<!-- This is left-side text 9-->
+# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-19?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
 We can also see early evidence that 'sparks' from this cluster have led to introductions in Utah. Following this pattern, we expect to see a local outbreak in Utah pick up within the next 4 weeks.
 <br><br>
@@ -183,7 +186,7 @@ This is just one example. Most importantly, areas that aren't yet aware of local
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 10 -->
 # [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-19)
 
 Following this same logic, there are likely many local transmission chains that we don't yet know about.
@@ -206,8 +209,8 @@ Social distancing -- that is, decreasing the number of people you encounter each
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+<!-- This is left-side text 11-->
+# [Takeaways](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&p=full)
 - The virus has been introduced to many parts of the globe multiple times.  
 <br><br>
 - We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
@@ -239,8 +242,8 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 
-<!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov?d=map&c=author)
+<!-- This is left-side text 12-->
+# [Scientific credit](https://nextstrain.org/ncov/2020-03-19?d=map&c=author)
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
@@ -556,8 +559,8 @@ We are grateful for the data gathered by these originating labs:
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+<!-- This is left-side text 13-->
+# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-19?d=map&c=author)
 
 These data were shared via [GISAID](https://gisaid.org).
 We gratefully acknowledge their contributions.
