@@ -1,11 +1,12 @@
 ---
-title: چگونه درخت فیلوژنتیک (تبارزایش) تابیر کنیم
+title: چگونه درخت فیلوژنتیک (تبارزایش) را تفسیر کنیم
 authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+translators: "Alireza Zamani Dahaj, Mahan Ghafari"
 date: "سیزده مارس ۲۰۲۰"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "این متن چگونگی خواندن و تعبیر درخت های فیلوژنتیک که برای اطلاع رسانی همه‌گیر شناسی ژنتیک استفاده می‌شوند توضیح می‌دهد. این سایت برای براوزر کامپیوتر بهینه شده است "
+abstract: "این روایت چگونگی خواندن و تفسیر درخت‌های فیلوژنتیک را توضیح می‌دهد که برای اطلاع‌رسانی همه‌گیر شناسی ژنتیک استفاده می‌شوند. این سایت برای چستجوگرهای کامپیوتری بهینه‌سازی شده‌است "
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -15,16 +16,16 @@ abstract: "این متن چگونگی خواندن و تعبیر درخت های
 <!-- This is left-side text -->
 # [فهرست مطالب](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [ارتباط شبکه ی انتقال و درخت فیوژنیک](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [ارتباط شبکه‌ی انتقال و درخت فیلوژنتیک](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [چگونه درخت را بخوانم](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [چگونگی ارتناط پنل تنوع و درخت](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [اندازه گیری تفاوت با واگرایی ژنتیک](https://nextstrain.org/narratives/trees-background?n=4).  
-* [اندازه گیری تفاوت در زمان](https://nextstrain.org/narratives/trees-background?n=5).  
+* [اندازه‌گیری تفاوت‌ها با واگرایی ژنتیک](https://nextstrain.org/narratives/trees-background?n=4).  
+* [اندازه‌گیری تفاوت‌ها در طول زمان](https://nextstrain.org/narratives/trees-background?n=5).  
 * [تعیین تاریخ شروع شیوع](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [چگونه باید خصیصه (رنگ) در درخت را تعبیر کنم؟](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [چگونه باید خصیصه‌ها (رنگ‌ها) در درخت را تفسیر کنم؟](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [ارتباط نقشه و درخت](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [مطالعه‌ی پیشرفته: عدم قطعیت در درخت](https://nextstrain.org/narratives/trees-background?n=9).  
-* [درباره ی پایگاه داده](https://nextstrain.org/narratives/trees-background?n=10).  
+* [درباره‌ی پایگاه داده](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
 
@@ -32,10 +33,10 @@ abstract: "این متن چگونگی خواندن و تعبیر درخت های
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [ارتباط شبکه ی انتقال و درخت فیوژنیک](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-پاتوژن ها ابتدا با تکثیر در یک میزبان و سپس انتقال به میزبان دیگر پخش می‌شوند.یک بیماری همه گیر هنگامی می‌تواد گسترش پیدا کند که یک مورد عفونت منجر به بیشتر از یک مورد دیگر عفونت شود. 
+# [ارتباط شبکه‌ی انتقال و درخت فیوژنیک](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+پاتوژن‌ها ابتدا با تکثیر در یک میزبان (ناقل بیماری) و سپس انتقال به میزبان دیگر پخش می‌شوند. یک بیماری همه‌گیر هنگامی می‌تواند گسترش پیدا کند که یک مورد ابتلا منجر به بیشتر از یک مورد ابتلای دیگر شود. 
 <br><br>
-هنگامی که یک پاتوژن پخش می‌شود ژنوم آن باید به مقدار زیاد تکثیر شود و جهش های تصادفی (اشتباه در کبی کردن) به مرور انباشته می‌شوند. این جهش های تصادفی می‌توانند برای پیگیری مسیر پخش شدن و مطالعه‌ی مسیر انتقال و دینامیک آن مورد استفاده قرار بگیرند. 
+هنگامی که یک پاتوژن پخش می‌شود ژنوم آن باید به مقدار زیادی تکثیر شود و در این حین جهش‌های تصادفی (اشتباه در کپی کردن) به مرور انباشته می‌شوند. این جهش‌های تصادفی می‌توانند برای پیگیری کانال‌های پخش شدن و مطالعه‌ی مسیر انتقال و دینامیک شیوع آن مورد استفاده قرار بگیرند. 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
