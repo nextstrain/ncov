@@ -1,9 +1,24 @@
 ---
 title: 계통수를 읽는 법
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
-Translators: "Kyo Bin Kang, Minkyu Kim, Taehoon Ha"
+authors:
+  - Kyo Bin Kang
+  - Minkyu Kim
+  - Taehoon Ha
 date: "2020년 3월 13일"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "이 문서는 유전체 역학적 정보를 제공하는 계통수를 어떻게 읽고 해석하는지에 대해 다룹니다. 이 웹사이트는 데스크톱 브라우저에 최적화되어 있습니다."
@@ -16,16 +31,16 @@ abstract: "이 문서는 유전체 역학적 정보를 제공하는 계통수를
 <!-- This is left-side text -->
 # [목차](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [전염병의 전파 경로는 계통수와 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [계통수는 어떻게 읽는가](https://nextstrain.org/narratives/trees-background?n=2)?  
-* ["다양성" 패널은 계통수와 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [유전적 발산 사이의 차이 측정하기](https://nextstrain.org/narratives/trees-background?n=4).  
-* [시간에 따른 차이 측정하기](https://nextstrain.org/narratives/trees-background?n=5).  
-* [바이러스 발생 시점 추정하기](https://nextstrain.org/narratives/trees-background?n=6).  
-* [계통수의 (색깔로 구분된) 특징들을 어떻게 해석해야 합니까](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [지도와 계통수는 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [추가 읽기자료: 계통수의 통계적 불확실성](https://nextstrain.org/narratives/trees-background?n=9).  
-* [데이터셋에 대하여](https://nextstrain.org/narratives/trees-background?n=10).  
+* [전염병의 전파 경로는 계통수와 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background/ko?n=2)?  
+* [계통수는 어떻게 읽는가](https://nextstrain.org/narratives/trees-background/ko?n=3)?  
+* ["다양성" 패널은 계통수와 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background/ko?n=4)?   
+* [유전적 발산 사이의 차이 측정하기](https://nextstrain.org/narratives/trees-background/ko?n=5).  
+* [시간에 따른 차이 측정하기](https://nextstrain.org/narratives/trees-background/ko?n=6).  
+* [바이러스 발생 시점 추정하기](https://nextstrain.org/narratives/trees-background/ko?n=7).  
+* [계통수의 (색깔로 구분된) 특징들을 어떻게 해석해야 합니까](https://nextstrain.org/narratives/trees-background/ko?n=8)?  
+* [지도와 계통수는 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background/ko?n=9)?  
+* [추가 읽기자료: 계통수의 통계적 불확실성](https://nextstrain.org/narratives/trees-background/ko?n=10).  
+* [데이터셋에 대하여](https://nextstrain.org/narratives/trees-background/ko?n=11).  
 
 <!-- No right-side text -->
 
