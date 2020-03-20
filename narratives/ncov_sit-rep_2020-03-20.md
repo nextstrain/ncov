@@ -22,7 +22,7 @@ affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA
 translators:
 translatorLinks:
 date: "2020 March 19"
-dataset: "https://nextstrain.org/ncov/2020-03-19?legend=closed&d=map&legend=closed"
+dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
@@ -31,7 +31,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-19?d=tree,map&p=grid)
+# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
 * [Background resources](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=2).     
 * [A note about sampling](https://nextstrain.org/community/narratives/nextstrain/ncov@ncov_sit-rep_2020-03-21/sit-rep_2020-03-20?n=3).
@@ -49,7 +49,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-Here, we analyzed 713 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
 
 In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
 Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
@@ -67,7 +67,7 @@ In this week's updates, we report:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-19)
+# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
 
@@ -93,7 +93,7 @@ This information will make interpreting the data we present in this narrative ea
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-19?c=country&r=country&d=map&p=grid&legend=closed)
+# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
@@ -107,7 +107,7 @@ Let's look at a few examples.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
 The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
 <br><br>
 <!-- There is NO right-side text -->
@@ -115,7 +115,7 @@ The map shows very few sequences from the global south. For example, we only hav
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
 <br><br>
 So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
@@ -124,16 +124,16 @@ So, when reading this narrative, keep in mind that the size of each circle on th
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 5 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-19?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+<!-- This is left-side text 6 -->
+# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
 Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
 <br><br>
 Here, the tree is colored by the travel history of a case (when known). Looking at the green Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-19?branchLabel=clade&c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+<!-- This is left-side text 7 -->
+# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?branchLabel=clade&c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
 Zooming out, we can see that this isn't always so consistent.
 <br><br>
@@ -148,8 +148,8 @@ It's certainly possible that this person was infected by a second ongoing transm
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text 7 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-19?legend=closed&c=country&d=tree,map&p=grid)
+<!-- This is left-side text 8 -->
+# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
 On the tree, we see lots of this kind of intermingling of samples from different countries.
 This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
@@ -161,8 +161,8 @@ However, not all introductions result in outbreaks.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 8 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-19?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+<!-- This is left-side text 9 -->
+# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
 It may seem as though COVID-19 has suddenly exploded.
 For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
@@ -192,7 +192,8 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-19?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+<!-- This is left-side text 10 -->
+# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 We can see a clear example of this in the data from Washington state.
 Mousing over root of the main clade shows that the virus was likely introduced to this area around the end of January 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)); this is consistent with the first reported case on January 19, 2020.
@@ -206,8 +207,8 @@ Now, in mid-March (~8 weeks later), we see that a local outbreak is in full swin
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 9-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-19?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+<!-- This is left-side text 11-->
+# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
 We can also see an example of how intially localized outbreaks seed introductions to other locations.
 The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
@@ -223,8 +224,8 @@ Most importantly, areas that aren't yet aware of local outbreaks should prepare 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 10 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-19)
+<!-- This is left-side text 12 -->
+# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
 
 Following this same logic, there are likely many local transmission chains that we don't yet know about.
 <br><br>
@@ -246,8 +247,8 @@ Social distancing -- that is, decreasing the number of people you encounter each
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 11-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&p=full)
+<!-- This is left-side text 13-->
+# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
 - The virus has been introduced to many parts of the globe multiple times.  
 <br>
 - We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
@@ -279,8 +280,8 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 
-<!-- This is left-side text 12-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-19?d=map&c=author)
+<!-- This is left-side text 14-->
+# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
@@ -597,7 +598,7 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-19?d=map&c=author)
+# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
 These data were shared via [GISAID](https://gisaid.org).
 We gratefully acknowledge their contributions.
