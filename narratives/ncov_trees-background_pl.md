@@ -64,7 +64,7 @@ abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenet
 # [Jak sieci transmisji są powiązane z drzewami filogenetycznymi?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
 Patogeny rozprzestrzeniają się poprzez szybką replikację w jednym gospodarzu, a nastepnie transmisję do kolejnego gospodarza. Epidemia może wybuchnąć jednynie wtedy gdy pojedyncza infekcja prowadzi do więcej niż jednej kolejnej infekcji. 
 <br><br>
-Podczas gdy patogen podlega replikacji i rozprzestrzenia się, jego genom podlega wielokrotnej replikacji co prowadzi do akumulacji losowych mutacji (błędów kopiowania) w genomie; jest to naturalny proces. Takie losowe mutacje pomagają w śledzeniu rozprzestrzeniania się patogenu i dowiadywaniu się o drogach i historii transmisji.
+Podczas gdy patogen podlega namnaża i rozprzestrzenia się, jego genom podlega wielokrotnej replikacji co prowadzi do akumulacji losowych mutacji (błędów kopiowania) w genomie; jest to naturalny proces. Takie losowe mutacje pomagają w śledzeniu rozprzestrzeniania się patogenu i dowiadywaniu się o drogach i historii transmisji.
 
 <!-- How are transmission networks related to phylogenetic trees?
 Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
