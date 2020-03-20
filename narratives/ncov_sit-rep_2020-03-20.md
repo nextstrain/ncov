@@ -96,19 +96,22 @@ While this data enables us to infer many useful characteristics of the outbreak 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-
-
 <!-- This is left-side text 4 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-19?legend=closed&c=country&d=map&f_region=Central%20America,Europe,South%20America&p=full&r=country)
-First, the map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where the WHO reports cases of COVID-19. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where the WHO reports cases of COVID-19. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
 <br><br>
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text 5 -->
+# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-19?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 Conversely, the map shows many sequences from the Netherlands compared to the rest of Europe. However, looking at the WHO's total case counts, the confirmed cases in the Netherlands actually make up about 2\% of all the confirmed cases in Europe.
 <br><br>
 So, when you're reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
-
+<br><br>
 
 <!-- There is NO right-side text -->
-
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
