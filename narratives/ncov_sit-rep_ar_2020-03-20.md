@@ -75,7 +75,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## الخلفية العلمية
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -85,10 +85,10 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
   <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
-## Further Reading
+## قراءات اضافيه
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* ملخص عن سارس كو في 2 على ويكيبيديا [ويكيبيديا](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* كل اعداد الحالات الموثقة في هذا التقرير تم الحصول عليها من  [منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
