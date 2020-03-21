@@ -108,8 +108,8 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [بعض الاماكن فير ممثلة بشكل كاف في هذه البيانات](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+تعرض الخارطة تسلسلات قليلة جدا من نصف المرة الارضية الجنوبي. على سبيل المثال، لدينا فقط 4 تسلسلات من اصل 25 دولة في أمريكا اللاتينية، حيث حالات كوفيد 19. [تقارير منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)  وهذا ليس لأن كوفيد 19 لا يدور في تلك الأماكن ولا لان حالات الاصابة هناك غير مهمة للفهم وانما بسبب عدم امتلاكنا بيانات كثيرة من تلك الاماكن.
 <br><br>
 <!-- There is NO right-side text -->
 
@@ -117,9 +117,9 @@ The map shows very few sequences from the global south. For example, we only hav
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
 # [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+في بعض الاماكن كهولندا هناك كمية كبيرة متاحة عن بيانات تسلسل جينومات الفيروس مقارنة بعدد الحالات الكلي للاصابات
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+لذلك عند قراءة هذا التقرير يجب تذكر ان حجم الدوائر على الشجرة يشير الى  كمية البيانات المتوفرة حاليا من تلك المنطقة وليس الحجم الحقيقي للوباء هناك. تستطيع [اقرأ هنا](https://nextstrain.org/narratives/trees-background?n=8) فهم كيف يمكن ان يؤثر ذلك على استنتاجاتنا عن الانتشار الوبائي
 <br><br>
 
 <!-- There is NO right-side text -->
