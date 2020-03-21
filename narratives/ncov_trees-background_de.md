@@ -134,12 +134,12 @@ Sie koennen nach oben und unten zwischen dieser und der vorherigen Ansicht scrol
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Die Datierung des Startes eines Ausbruches](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
-Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
+Wir koennen genomische Analysen ebenfalls verwenden, um das Datum festzustellen, an dem der Ausbruch begonnen hat. Das ist sogar moeglich, wenn das war, bevor wir bemerkt haben, dass der Ausbruch passierte.
+Weil wir Daten die Daten der Proben und der internen Verzweigungspunkte des Baumes bestimmen koennen, koennen wird diese nutzen, um das Datum der 'Wurzel' des Baumes abzuleiten. Diese repraesentiert den 'letzten gemeinsamen Vorfahren' von allen SARS-CoV-2 Sequenzen, die wir bisher haben. Zum Beispiel sind Ihre Grosseltern die 'letzten gemeinsamen Vorfahren' von Ihnen selbst und aller Ihrer Cousinen und Cousins.
 <br><br>
-If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+Wenn Sie den Mauszeiger ueber die vertikale Linie ganz links bewegen, sehen Sie, dass das abgeleitete Datum des Beginns dieses vorliegenden Ausbruches zwischen Mitte November und Mitte Dezember 2019 liegt.
 
 <!-- There is NO right-side text -->
 
