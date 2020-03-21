@@ -70,7 +70,7 @@ Os pontos na árvore representam amostras (isto é, os pontos azuis da página a
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Acima, vemos uma ilustração com uma árvore filogenética a esquerda, onde mutações são mostradas como círculos coloridos. A direita estão as sequências correspondentes, também com mutações mostradas como círculos coloridos. Podemos ver que sequências que compartilham as mesmas mutações se agrupam juntas. Quando sequências aparecem ligadas por uma linha vertical, como A e B, isso significa que não há diferenças entre eles: suas sequências são idênticas.
+Acima, vemos uma ilustração de uma árvore filogenética (à esquerda), onde mutações são mostradas como círculos coloridos. À direita estão as sequências correspondentes, também com mutações mostradas como círculos coloridos. Podemos ver que sequências que compartilham as mesmas mutações se agrupam juntas. Quando sequências aparecem ligadas por uma linha vertical, como A e B, isso significa que não há diferenças entre eles: são sequências são idênticas.
 <br><br>
 Quando uma sequência está sozinha em uma linha longa, como C ou E, isso indica a presença de mutações únicas, que não se encontram em outras sequências. Quanto mais longa a linha, mais mutações. A e B também tem mutações únicas (círculo verde) não compartilhadas por outras sequências, mas ambos vírus são idênticos.
 <br><br>
@@ -79,7 +79,7 @@ Baseado nessa árvore, concluímos que A e B estão intimamente relacionados ent
 
 ### Leitura adicional (em inglês)
 * [Como ler uma árvore: tutorial do Arctic Network](https://artic.network/how-to-read-a-tree.html).  
-* [Como ler uma árvore: vídeo do Khan Academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
+* [Como ler uma árvore: vídeo do Khan Academy](https://pt.khanacademy.org/science/biology/her/tree-of-life/a/phylogenetic-trees).  
 
 </div>
 
