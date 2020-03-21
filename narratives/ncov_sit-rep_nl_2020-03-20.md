@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title: Genomische analyse van COVID-19 verspreiding. Situatierapportage 2020-03-20.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -19,11 +19,12 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators:
-translatorLinks:
-date: "2020 March 19"
+translators: Roan van Scheppingen
+TranslatorLinks:
+  - https://twitter.com/RScheppingen
+date: "19 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om zo de verspreiding van COVID-19 te volgen. Deze rapportages worden wekelijks bijgewerkt."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -33,34 +34,35 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text 1 -->
 # [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [Achtergrondinformatie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
+* [Een opmerking over bemonstering](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [Sequentiedata en reisgeschiedenis](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [Introductie van COVID-19 naar bijna alle landen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [Hoe uitbraken groeien en verspreiden](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [Hoe de uitbraak in Washington groeide](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [Hoe de uitbraak in Washington verspreidde](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [Hoe besmettingsgevallen veranderen door sociale distanciëring](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [Wat u kunt doen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [FAQ & veelvoorkomende misvattingen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Wetenschappelijke verantwoording](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+Hier hebben we 723 publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virus genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld.
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+In dit rapport, lichten we toe dat het virus wereldwijd geintroduceerd is en circuleert in vele delen van de wereld. 
+Weten of en in welke mate COVID-19 lokaal circuleert en hoe maatregelen deze verspreiding vertragen, vergt goede kennis van locale uitbraakdynamiek. Dit, op zijn beurt, vereist wijdverspreid testen. 
+Dit benadrukt het belang van snel testen, met een sterke focus op het verminderen van locale transmissies. 
 
-In this week's updates, we report:  
+In de updates van deze week, rapporteren we:
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+
+* Bewijs voor reisafhankelijke introductie in veel delen van de wereld. 
+* Veel plaatsen met recente introducties kunnen verwachten dat de gevallen verder groeien in 4 tot 8 weken. Ze moeten zich nu voorbereiden. 
+* Veel plaatsen hebben recent maatregelen genomen, zoals sociale distanciëring. Op de korte termijn zullen het aantal besmettingen toenemen, maar besmettingen zullen waarschijnlijk in een plateaufase  komen en afnemen op de langere termijn. 
+* Testen op zowel actieve infectie als op herstelde individuen zal van vitaal belang zijn om met deze epidimie om te gaan. 
 ```
 
 
