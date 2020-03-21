@@ -35,46 +35,46 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 * [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
 * [关于抽样](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [测序数据和旅行史](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [COVID-19已经输入到几乎所有国家](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [疫情是如何加剧和传播的](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [华盛顿的疫情是如何发展起来的](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [华盛顿的疫情是如何蔓延的](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [减少社交接触可以对病例数量产生什么影响](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
 * [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
 * [常见问题和误区](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
 * [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# 报告摘要
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+在这里，我们分析了723个公开共享的COVID-19基因组。通过将这些病毒基因组相互比较，我们可以推断COVID-19是如何在世界各地传播的。
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+我们在这份报告中强调，该病毒已被引入并在全球许多地区传播。
+为了知道COVID-19是否在当地传播以及传播到什么程度，以及缓解措施如何减缓这种传播，需要对当地的疫情状态有很好的了解。这需要进行广泛的检测才能实现。
+这强调了快速检测确诊病例的重要性，重点要放在降低本地疫情的传播速度上。
 
-In this week's updates, we report:  
+在本周的更新中，我们发现:  
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* 在世界上许多地区的输入病例是与旅行相关的证据  
+* 许多最近有输入性案例的地方将在4-8周的时间内看到疫情扩大。这些地区现在就应该有所准备。   
+* 在许多最近实施社交隔离的地方，预计短期内病例将继续增加，但新增病例数量可能会在中长期的时间内停止并下降。
+* 对确诊病例和已恢复病例的检测对于应对这一流行病将是至关重要的。
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
+# [背景资料](https://nextstrain.org/ncov/2020-03-20)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## 背景
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -84,7 +84,7 @@ This information will make interpreting the data we present in this narrative ea
   <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
-## Further Reading
+## 更多资料
 
 * Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
 * All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
@@ -93,7 +93,7 @@ This information will make interpreting the data we present in this narrative ea
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+# [关于抽样](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
@@ -148,7 +148,7 @@ It's certainly possible that this person was infected by a second ongoing transm
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [COVID-19已经输入到几乎所有国家](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
 On the tree, we see lots of this kind of intermingling of samples from different countries.
 This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
@@ -192,7 +192,7 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [疫情是如何加剧的: 例子](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 We can see a clear example of this in the data from Washington state.
 Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
@@ -207,7 +207,7 @@ Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swin
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [疫情是如何传播的: 例子](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
 We can also see an example of how initially localized outbreaks seed introductions to other locations.
 The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
@@ -247,8 +247,8 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [结论](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- 该病毒已多次传入全球许多地区.  
 <br>
 - We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
 <br>
@@ -260,19 +260,19 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
+# 你能做些什么
+## ...个人可以采取的行动
 * Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
 * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
 * Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
 * Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
 * If you are an employer, encourage your employees to work from home wherever possible
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## ...政府可以采取的行动  
+* 推广覆盖大部分人群的免费检测。  
+* 推行减少社交接触的措施。
+* 拨款用于实施广泛的接触者追踪工作。  
+* 在经济上支持受到上述措施影响的人（例如，小时工、老人或儿童的看护人员、小型企业等）。
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -280,20 +280,20 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [科学贡献人员](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家。
+只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析。
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台。
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+非常感谢以下单位机构和实验室的慷慨分享:
 
 * Arizona Department of Health Services
 * Auckland Hospital
