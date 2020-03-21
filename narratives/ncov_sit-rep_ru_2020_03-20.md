@@ -247,15 +247,15 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [Выводы](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- Во многих частях мира вирус был привнесен множество раз.  
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- У нас есть доказательства местного переноса во многих регионах; более того, мы предполагаем, что предыдущие заносы уже породили многочисленные местные очаги, которые проявят себя в ближайшие недели. 
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- Контроль местных вспышек посредством социального дистанцирования необходим, чтобы
+  - Выравнять кривую (#FlattenTheCurve), тем самым предохраняя систему здравоохранения от перегрузки многочисленными одновременными случаями.
+  - Уменьшить общее количество случаев и смертей
+  - Выйграть время для разработки лекарств и вакцин  
 
 <!-- This is the right-side text -->
 
