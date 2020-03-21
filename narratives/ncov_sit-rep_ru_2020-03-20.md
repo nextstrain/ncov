@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title: Геномный анализ распространения COVID-19. Ситуационный отчет 2020-03-20.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -20,10 +20,14 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - Varvara Kozyreva
+  - Vadim Puller
 translatorLinks:
-date: "2020 March 20"
+  - https://twitter.com/varvarakozyreva
+  - https://www.linkedin.com/in/vadimpuller/
+date: "19 Марта 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Этот отчет использует общедоступные геномные данные для отслеживания распространения COVID-19. Отчеты обновляются еженедельно."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -31,159 +35,158 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [Содержание](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [Справочные ресурсы](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=2).
+* [Примечание о сборе образцов](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=3).
+* [Последовательности и истории поездок](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=6).
+* [Внедрение COVID-19 практически во все страны](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=8).
+* [Как вспышки растут и распространяются](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=9).
+* [Как выросла вспышка в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=10).
+* [Как распространилась вспышка в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=11).
+* [Как изменяется количество случаев заражения с социальным дистанцированием](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=12).
+* [Что вы можете предпринять](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=13).
+* [Часто задаваемые вопросы и Заблуждения](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=14).
+* [Благодарности](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Резюме
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+Мы провели анализ 723</tag> общедоступных геномов COVID-19. Сопоставив эти геномы вируса между собой, мы можем охарактеризовать, как COVID-19 развивается и перемещается по всему миру.
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+В этом отчете мы подчеркиваем, что вирус был внедрен и циркулирует во многих частях земного шара.
+Чтобы узнать, циркулирует ли COVID-19 локально, и в какой степени и как меры по смягчению последствий могут замедлить его распространение, требуется хорошее понимание динамики локальной вспышки. Это, в свою очередь, требует широкого тестирования.
+Это подчеркивает важность быстрого тестирования с упором на замедление локальных передач вируса.
 
-In this week's updates, we report:  
+В обновлениях этой недели мы сообщаем:
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* Признаки внедрения вируса через поездки во многие части мира.
+* Во многих местах с недавним внедрением вируса можно ожидать увелечения числа случаев заражения за 4-8 недель. Они должны подготовиться сейчас.
+* Во многих местах, где недавно были приняты меры по социальному дистанцированию, можно ожидать дальнейшего возрастания случаев заражения в краткосрочной перспективе, но количество новых случаев, вероятно, достигнет плато и уменьшится в средне- и долгосрочной перспективе.
+* Тестирование на активные инфекции а также выздоровевших людей, будет иметь жизненно важное значение для борьбы с этой эпидемией.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [Ресурсы по COVID-19](https://nextstrain.org/ncov/2020-03-20)
+Мы подготовили некоторые ресурсы, которые стоит прочитать для ознакомления с COVID-19 и вызывающим ее вирусом SARS-CoV-2.
+Эта информация поможет в интерпретации данных, представленных нами в этом отчете; если вы прежде не сталкивались с филогенетическими деревьями, мы предлагаем вам ознакомиться с [брошюрой 'Как читать филогенетические деревья'](https://nextstrain.org/narratives/trees-background/ru) и вернуться, когда вы чувствуете себя подготовленными.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Главная информация
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Главная информация о Коронавирусах </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Главная информация о недавней вспышке COVID-19 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/ru"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Как читать филогенетические деревья</a>
 </div>
 
-## Further Reading
+## Дальнейшее чтение
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* Краткое описание эпидемии SARS-CoV-2 на [Википедия](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* Все цифры по случаям заражения, приведенные в этом отчете, взяты из [ВОЗ](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) от 2020-03-20.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Заметка о сборе образцов](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+На данный момент в нашем распоряжении есть последовательности из образцов собранных в 36 странах на 6 континентах..
+Это необыкновенное достижение-- Секвенирование генома крупного нового РНК-вируса в состоянии пандемии является сложной задачей, и, возможно, только благодаря необычайной работе и своевременному предоставлению данных в общий доступ учеными и врачами по всему миру.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+Хотя эти данные позволяют предсказать многие важные характеристики вспышки и отслеживать ее распространение в реальном времени, очень важно подчеркнуть, что выводы ограничиваются доступными данными.
+Из общего количества случаев, протестирована только часть пациентов. Их тех, кто протестирован, только для части образцов было выполнено секвенирование. Какая часть случаев протестирована и отсеквенирована может очень сильно отличаться между разными географическими регионами и во времени.
+Дополнительно, филогенетическая реконструкция вспышек всегда связана с некоторой степенью неопределенности.
 <br><br>
-Let's look at a few examples.
+Давайте рассмотрим несколько примеров.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [В этой выборке данных некоторые регионы недопредставлены](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+Карта показывает очень немногочисленные последовательности доступные с южной части мира. Например, у нас есть последовательности только из 4-х из 25-ти стран в Латинской Америке, в которых [ВОЗ объявил](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) о случаях COVID-19. Это происходит не из-за того, что COVID-19 не циркулирует в этих местностях, или потому, что эти случаи неважны для понимания, мы попросту не обладаем достаточными данными из этих регионов.
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+# [Другие регионы черезмерно представлены в этой выборке данных](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+В других районах, например в Нидерландах, огромное количество последовательностей доступно по отношению к количесву случаев.
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+Таким образом, когда вы читаете это изложение фактов, помните, что размер каждого круга на карте соответствует количеству доступной информации, а не реальному размеру вспышки. Вы можете прочитать [здесь](https://nextstrain.org/narratives/trees-background/ru?n=8) от том, как это может повлиять наши предсказания трансмиссии.
 <br><br>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [Данные секвенирования могут перепроверить историю путешествий](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+Определение, где конкретный случай был инфицирован, позволяет нам понять в каких регионах наблюдается местная передача, а где- первичные случаи связанные с путешествиями. Данные секвенирования могут помочь нам различить эти два сценария.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+В данном примере, дерево раскрашено в соответствии с историей путешествий пациента (если она известна). В случае с Канадским геномом (Canada/BC_78548/2020) посередине видно, что пациент сообщил об истории путешествия в Европу. Этот случай инфекции группируется с другими европейскими последовательностями, подтверждая вероятность того, что этот случай, наверняка, является связанным с путешествием.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Данные секвенирования могут перепроверить историю путешествий](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
+Отодвинувшись, мы видеть, что эта связь не всегда присутствует.
 <br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
+Здесь видно, что почти все случаи сообщившие о недавной поездке в Иран, попадают в один кластер посередине дерева.
 <br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
+Ближе к вершине дерева, мы также видим Канадский случай с историей путешествия в Иран; однако соответствующая последовательность абсолютно не группируется с остальными случаями с иранской историей путешествий.
 <br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+Конечно возможно, что данный человек был инфицирован от другой текущей цепи передач в Иране, но пока у нас нет других данных, мы не можем подтвердить, что данная инфекция связана с путешествием.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [Вирус был занесен почти в каждую страну в мире](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+На дереве мы видим множество перемешанных образцов из разных стран.
+Это означает, что такое непредотвратимое передвижение людей уже привнесло вирус во многие части земного шара.  
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
+В частности, [ВОЗ сообщает](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) о 159 подтвержденных случаях из 195 стран мира.
 <br><br>
-However, not all introductions result in outbreaks.
+Несмотря на это, не все явления заноса приводят к вспышкам.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [Эпидемии проявляются через ~4-8 недель после заноса](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
+Может показаться, как будто COVID-19, вдруг, взорвался.
+Для многих людей эта вспышка прошла путь от абстрактного предмета беспокойства в других частях мира к чему-то, что сильнейшим образом влияет на их жизнь, и все это, как кажется, в одночасье.
 <br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
+Но не забывайте, это все находилось в состоянии брожения на протяжении некоторого времени. Это не означает, что явления заноса вируса в новые районы теперь происходят более часто. Скорее всего, многие районы начинают узнавать о местных вспышках, которые начались с заноса несколько недель назад.
 <br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+Те районы, которые пока еще не знают о местных вспышках, должны подготовиться сейчас и начать тестирование с целью надзора.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
+# Как заносы становятся вспышками?
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+Иногда эти заносы не приводят к вторичным случаям или локализованным вспышкам -- особенно если первичный случай быстро выявлен и изолирован.
+Во многих случаях, однако, вирус распространяется в местных популяциях незамеченным до тех пор, пока вспышка не достигнет значительного размера.
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
+Внизу, мысленный эксперемент, показывающий как этот сценарий разыгрался в Ухане. На оси Y мы имеем пространство, на оси X- время. Заштрихованная область представляет количество случаев.
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"В Ухане COVID-19 прошел путь от первичного случая в ~ноябре 2019 к нескольким тысячам случаев к середине января 2020, таким образом, развившись от первоначального события заноса до обширной местной цепи переноса, где-то за 10 недель. Мы считаем, что международные явления заноса начали происходить в середине января. Таким образом, у нас есть ~10 переломных недель от этого момента до конца марта чтобы сдержать эти зарождающиеся вспышки, прежде чем они станут значительными в размере" [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Февраль 2020.
 
-These new outbreaks may, in turn, seed further introductions to other locations.
+Эти новые вспышки могут в свою очередь привести к последующим заносам в другие местности.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -192,12 +195,12 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Как растут вспышки: пример](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Мы ясно видим это на примере данных из штата Вашингтона.
+Наводя указатель мыши на главный кластер вы увидите, что вирус был, скорее всего, привнесен в этот регион между концом января и серединой февраля 2020 ([методы](https://nextstrain.org/narratives/trees-background/ru?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+Теперь, в середине марта (~6 недель позже), мы видим что местная вспышка идет поным ходом в этой местности. Только исходя из данных секвенирования, мы оцениваем время удвоения от 3 до 6 дней, при условии что популяция растет экспоненциально.   
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -207,38 +210,39 @@ Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swin
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [Как растут вспышки: пример](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
+Мы также видим на этом примере, как первоночально локализованные вспышки дали начало заносам в другие регионы.
+Образцы из Юты, ближе к вершине дерева (оранжевый круг), находятся внутри главного кластера, относящегося к вспышке в Вашингтоне.  
+Это поддерживает привнесение из Вашингтона в Юту, хотя промежуточные этапы в цепи переноса также возможны.
 <br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
+Мы не знаем наверняка, вызвет ли этот занос местную вспышку в Юте.
+Но, если вирус продолжит распространяться вслед за этими событиями заноса, мы, вероятно, сможем наблюдать развитие этой вспышки на протяжении следующих 4-х недель.
 <br><br>
-This is just one example.
-There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
-Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+Это только единичный пример.
+Другие заносы вируса в Юту (или в другие регионы) могли иметь место, но мы не можем видеть их на дереве, поскольку они не были отсеквенированы.
+Что особенно важно, регионы, которые на данный момент не обладают информацией о наличии местных вспышек, должны подготовиться сейчас и начать тестирование с целью эпидемиологического надзора.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [Ограничительные меры требуют времени, но спасают жизни](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
+Следуя той же логике, существуют мнижественные локальные цепи передачи, о которых мы еще не знаем.
 <br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
+Это означает, что даже в регионах, которые ввели ограничительные меры, мы должны, все еще, ожидать увеличения числа случаев в ближайшие недели.
+Это увеличение не означает, что ограничительные меры неэффективны. Требуется время, чтобы уже инфицированные люди (и, возможно, их близкие) проявили симптомы, подверглись лечению и выздоровели.
+Мы также ожидаем скачка в числе известных случаев, когда тестирование на вирус станет более широкодоступным.
 <br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
+Важно, чтобы социальное дистанцирование продолжалось поддерживаться в течение этого периода. Как показано справа, число случаев продолжает нарастать после введения ограничительных мер. Однако со временем оно значительно уменьшается.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## Социальное дистанцирование не останавливает новые случаи болезни немедленно, но значительно уменьшает число случаев и смертей со временем.
+Социальное дистанцирование -- то есть уменьшение числа людей, с которыми вы физически взаимодействуете каждый день -- может быть затруднительным.
+Социальное дистанцирование -- то есть уменьшение числа людей, с которыми вы физически взаимодействуете каждый день -- может быть затруднительным. Если бы каждый из нас уменьшил число повседневных контактов на 25%, те бы ожидали 50%-го уменьшения общего числа случаев в следующем месяце. ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -247,53 +251,52 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [Выводы](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- Во многих частях мира вирус был привнесен множество раз.  
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- У нас есть доказательства местного переноса во многих регионах; более того, мы предполагаем, что предыдущие заносы уже породили многочисленные местные очаги, которые проявят себя в ближайшие недели.
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- Контроль местных вспышек посредством социального дистанцирования необходим, чтобы
+  - Выравнять кривую (#FlattenTheCurve), тем самым предохраняя систему здравоохранения от перегрузки многочисленными одновременными случаями.
+  - Уменьшить общее количество случаев и смертей
+  - Выйграть время для разработки лекарств и вакцин  
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# Что можешь сделать ты
+## ...лично
+* Значительно снизить количество людей с которыми ты контактируешь каждый день, особенно если ты относишься к уязвимой группе (например, пожилые люди и люди с существующими заболеваниями).
+* Помни, что, даже если ты не особо подвержен опасности, то многие люди окружающие тебя могут быть уязвимы; следуй этим мерам предосторожности, чтобы защитить окружающих.
+* Мой руки так, как будто ты "только что порезал острый перец халапиньо и должен поменять контактные линзы"
+* Оставайся дома, насколько это возможно, - особенно, если ты болен; запасись дополнительными предметами первой необходимости, на случай если тебе придется находиться под домашним карантином.   
+* Если ты работадатель, поощряй своих сотрудников работать на дому, если возможно.
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## ...и как должностное лицо
+* Обеспечь свободное и широкодоступное тестирование
+* Учереди строгие меры социального дистанцирования.
+* Обеспечь финансирование и введи массовые действия по отслеживанию контактов.
+* Финансово поддерживай тех, кто наиболее пострадал в связи с мерами социального дистанцирования (например, работники с почасовой оплатой, люди с зависящими от них детьми и стариками, мелкие бизнесы, и т.д.).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 
 
-<!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+<!-- This is left-side text -->
+# [Благодарности](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Мы хотели бы отметить удивительную и своевременную работу всех ученых, вовлеченных в исследование этой эпидемии, особенно тех, кто работает в Китае. Только благодаря интенсивному и быстрому обмену генетическими данными и метаданными стали возможны анализы, подобные этому.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Мы хотели бы поблагодарить [GISAID](https://gisaid.org) за обеспечение платформы, через которую эти данные могут храниться и передаваться.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Мы благодарны за данные, собранные следующими лабораториями:
 
 * Arizona Department of Health Services
 * Auckland Hospital
