@@ -46,8 +46,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 * [Πώς έγινε η διασπορά της εστίας στη Ουάσινγκτον](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=11).
 * [Πώς η κοινωνική απόσταση αλλάζει των αριθμό των περιπτώσεων](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=12).
 * [Τι μπορείς να κάνεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=13).
-* [Συχνές ερωτήσεις και κοινές παρανοήσεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=14).
-* [Επιστημονικές αναγνωρίσεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=15).
+* [Επιστημονικές αναγνωρίσεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
