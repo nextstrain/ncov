@@ -67,27 +67,35 @@ In this week's updates, we report:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [منابع کووید-۱۹](https://nextstrain.org/ncov/2020-03-20)
+<p dir="rtl">
+ما منابع گوناگون دیگری که ارزش خواندن برای آشنایی با کووید-۱۹ و ویروس ایجاد‌کننده‌ی آن یعنی  سارس-کووید-۲ دارند آماده کرده‌ایم تا با آن‌ها آشنا شوید
+این اطلاعات تفسیر داده‌های ارائه شده در این گزارش را آسان‌تر می‌کند. اگر با درختهای  
+ژنتیکی آشنا نیستید، ما شما را تشویق می‌کنیم تا به این‌جا مراجعه کنید
+(
+<a href="https://nextstrain.org/narratives/trees-background"> چگونه درخت‌های ژنتیکی را بخوانیم' روایت </a>
+)
+و پس از مطالعه به این‌جا بازگردید
+</p>
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## پیش‌زمینه
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> پیش‌درآمدی بر ویروس کرونا </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> همه‌گیری اخیر کووید-۱۹ </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> چگونه تبارزایش (فیلوژنتیک) را بخوانید</a>
 </div>
 
-## Further Reading
+## مطالعات بیشتر
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* خلاصه‌ای از همه‌گیری سارس-کووید-۲ در
+[ویکی‌پدیا](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* [تمامی موارد بیماری ذکر شده در این گزارش از گزارش سازمان جهانی بهداشت برگرفته شده](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
