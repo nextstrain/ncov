@@ -169,8 +169,20 @@ It is precisely mutations such as this which we use to define the relationships 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+# [Mierzenie różnic przy pomocy dywergencji genetycznej](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+To jest drzewo filogenetycze zbudowane na podstawie pierwszych 169</tag> sekwencji wirusa SARS-CoV-2 (który wywołuje COVID-19), które zostały publicznie udostępnione.
+<br><br>
+Oś pozioma odpowiada dywergencji, czyli liczbie zmian (mutacji) w genomie, względem korzenia drzewa (tzn. początku wybuchu epidemii). 
+Niektóre sekwencje mają 0 mutacji -- co oznacza że są identyczne z korzeniem (środkiem) drzewa.
+Inne wirusy mają między 1 a 11 mutacji.
+<br><br>
+Obecnie, nasze drzewo mało przypomina prawdziwe 'drzewo'. Wiele sekwencji jest indentycznych - znajdują się obok siebie na pionowych liniach, jak A i B (niektóre z nich położone są po lewej stronie drzewa).
+Inne mają unikatowe lub współdzielone mutacje i są położone na poziomym liniach, lub 'gałęziach', skierowanych na prawo.
+Możesz sprawdzić ile mutacji znajduje się na gałęzi przesuwając nad nią myszkę. 
+
+<!-- There is NO right-side text -->
+
+<!-- This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
 <br><br>
 Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
 Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
@@ -178,9 +190,8 @@ Other viruses have between one and eleven mutations.
 <br><br>
 At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
 Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+You can see how many mutations a branch has by hovering your mouse over it. -->
 
-<!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 # [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
