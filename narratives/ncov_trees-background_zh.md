@@ -27,7 +27,7 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 * [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
 -->
 
-* [病原体的传播和系统发生树有什么关系](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [病原体的传播和系统发生树有什么关系](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=2)?  
 * [如何解读系统发生树](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [“多样性”图表与系统发生树之间的联系](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [测量遗传差异](https://nextstrain.org/narratives/trees-background?n=4).  
@@ -234,7 +234,7 @@ Interpreting these should, however, be done with caution, as the sampling and se
 <!-- This is left-side text -->
 <!-- # [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11) -->
 # [进阶阅读：系统发生树的不确定性](https://nextstrain.org/ncov/2020-03-11)
-前面，我们讨论了内部节点是如何代表_假设的_未采样病例的。事实上，每个系统发生树都代表着关于病原体随时间进化和传播的一种“_假说_”。我们在NextStrain网页上展示的树是“点估计” -- 意思是，在众多版本的演化史中，这棵树所展示的病毒演化史是最有可能让我们观测到现在所观测到的数据的。
+前面，我们讨论了内部节点是如何代表 **假设的** 未采样病例的。事实上，每个系统发生树都代表着关于病原体随时间进化和传播的一种“ **假说** ”。我们在NextStrain网页上展示的树是“点估计” -- 意思是，在众多版本的演化史中，这棵树所展示的病毒演化史是最有可能让我们观测到现在所观测到的数据的。
 <br><br>
 不过，这样的估测总是存在不确定性。一般说来，树中采样密集的区域确定性较高，采样稀疏的区域就不太确定。
 
