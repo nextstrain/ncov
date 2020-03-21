@@ -20,9 +20,9 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
-	- Varvara Kozyreva
+  - Varvara Kozyreva
 translatorLinks:
-	- https://twitter.com/varvarakozyreva
+  - https://twitter.com/varvarakozyreva
 date: "19 Марта 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Этот отчет использует общедоступные геномные данные для отслеживания распространения COVID-19. Отчеты обновляются еженедельно."
@@ -95,15 +95,15 @@ abstract: "Этот отчет использует общедоступные �
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Заметка о сборе образцов](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+На данный момент в нашем распоряжении есть последовательности от образцов собранных в 36 странах из 6 континентов. 
+Это необыкновенное достижение-- Секвенирование генома крупного нового РНК-вируса в состоянии пандемии является сложной задачей, и возможно только благодаря необычайной работе и своевременному предоставлению данных в общий доступ учеными и врачами по всему миру. 
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+Хотя эти данные позволяют предсказать многие важные характеристики вспышки и отслеживать ее распространение в реальном времени, очень важно подчеркнуть, что выводы ограничиваются доступными данными. 
+Из общего количества случаев, протестирована только часть пациентов. Их тех, кто протестирован, только для части образцов было выполнено секвенирование. Которая часть случаев протестирована и отсеквенирована может очень сильно отличаться между разными географическими регионами и во времени. 
+Дополнительно, филогенетическая реконструкция вспышек всегда связана с некоторой степенью неизвестности. 
 <br><br>
-Let's look at a few examples.
+Давайте рассмотрим несколько примеров.
 
 <!-- There is NO right-side text -->
 
