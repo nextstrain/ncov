@@ -38,6 +38,7 @@ location	Sydney
 location	Melbourne
 location	Clayton
 location	Auckland
+location	Riyadh
 location	Heinsberg District
 location	Heinsberg
 location	Munich
@@ -157,6 +158,7 @@ division	Queensland
 division	New South Wales
 division	Victoria
 division	Auckland
+division	Riyadh
 division	Europe
 division	Central Hungary
 division	Copenhagen
@@ -251,6 +253,7 @@ country	Thailand
 country	Singapore
 country	Australia
 country	New Zealand
+country	Saudi Arabia
 country	Georgia
 country	Hungary
 country	France
