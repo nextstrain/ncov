@@ -120,8 +120,7 @@ El mapa muestra muy pocas secuencias del hemisferio Sur. Por ejemplo, solo se ti
 # [Otras regiones estan sobrerepresentadas en los datos actuales](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 En otras áreas, como los Países Bajos, hay una gran cantidad relativa de secuencias genómicas disponibles con respecto al numero total de casos. 
 <br><br>
-Por lo tanto, al leer este documento se debe tener en cuenta que el tamaño de los círculos en el mapa es solo proporcional a la cantidad de información disponible y no representa la magnitud del brote en cada región. Mas información sobre el efecto de esto en las inferencias estadísticas pueden encontrarse [aquí]
-(https://nextstrain.org/narratives/trees-background?n=8).
+Por lo tanto, al leer este documento se debe tener en cuenta que el tamaño de los círculos en el mapa es solo proporcional a la cantidad de información disponible y no representa la magnitud del brote en cada región. Mas información sobre el efecto de esto en las inferencias estadísticas pueden encontrarse [aquí](https://nextstrain.org/narratives/trees-background?n=8).
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -130,21 +129,22 @@ Por lo tanto, al leer este documento se debe tener en cuenta que el tamaño de l
 <!-- This is left-side text 6 -->
 # [Los datos de secuenciamiento genético pueden ser usados para validar los historiales de viaje](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+Identificar el momento de infección de un caso es importante para entender cuales son las areas que experimentan transmisión local en comparación con aquellas donde la introducción se dio por viajes (caso cero).
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the green Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+Aquí, el color del árbol representa la historia de viaje del caso (si es conocido). Por ejemplo, la secuencia canadiense verde en el medio representa un caso con historial de viaje en Europa. Esta infección esta agrupada con otras secuencias europeas pues es casi seguro, en términos estadísticos, que es una infección relacionada con un viaje.
+
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
 # [Los datos de secuenciamiento genético pueden ser usados para validar los historiales de viaje](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
+Si nos alejamos un poco, podemos ver que esto no siempre es tan consistente.
 <br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
+Aquí, podemos ver que casi todos los casos que han reportado algún viaje reciente a Irán forman un conglomerado en el medio del árbol.
 <br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
+Hacia la cabecera del árbol, también podemos ver que existe un caso canadiense con historial de viaje a Irán. Sin embargo, en este caso esta secuencia no se agrupa cerca del resto de casos con historial de viaje a Irán.
 <br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+Aunque es probable que esta persona se haya infectado a través de una segunda cadena de transmisión en Irán, no podemos confirmar que esta infección se haya dado a través de un viaje hasta que no haya mas datos precisos.
 
 <!-- There is no right side text -->
 
@@ -152,19 +152,17 @@ It's certainly possible that this person was infected by a second ongoing transm
 
 <!-- This is left-side text 8 -->
 # [Introdución del COVID-19 en la mayoría de países del mundo](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
-
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+En el arbol, podemos ejemplos donde los casos estan inter-relacionados los unos con los otros.
+Esto indica que debido al inevitable movimiento migratorio humano el virus del COVID-19 ha sido introducido en muchas partes del mundo.
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
+En efecto, [la OMS reporta](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) que 159 paises de un total del 195 en todo el mundo tienen casos confirmados.
 <br><br>
-However, not all introductions result in outbreaks.
-
+Sin embargo, no todas las introducciones resultan en epidemias.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [La epidemia se hace evidente luego de 4-8 semanas desde las primeras introducciones](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
 It may seem as though COVID-19 has suddenly exploded.
 For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
