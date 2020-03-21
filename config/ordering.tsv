@@ -62,28 +62,46 @@ location	Tilburg
 location	Helmond
 location	Oisterwijk
 location	Dalen
+location	Nantes
+location	Crépy en Valois
 location	Paris
+location	Reims
+location	Pontoise
+location	Compiègne
 location	Contamines
+location	Thise
+location	Montreux-Chateau
+location	Rouen
 location	Leuven
 location	Starnberg
+location	Strasbourg
 location	Rome
 location	Milan
 location	valencia
 location	England
 location	Yorkshire
-location	Cork
+location	Cardiff
 location	Rovaniemi
 location	Jönköping
 location	Helsinki
 location	Sao Paulo
+location	Brasilia
+location	Rio de Janeiro
+location	feira de santana
+location	vila velha
 location	Mexico City
-location	Seattle
+location	King County
+location	Snohomish County
+location	Pierce County
 location	Solano County
 location	Sonoma County
 location	Orange County
+location	Kirkland
+location	Seattle
 location	Los Angeles
 location	California
 location	San Francisco
+location	San Diego County
 location	Snohomish County
 location	King County
 location	Phoenix
@@ -91,7 +109,10 @@ location	Chicago
 location	Illinois
 location	Wisconsin
 location	Boston
+location	Nassau County
 
+
+division	China
 division	Hubei
 division	Beijing
 division	Anhui
@@ -107,6 +128,7 @@ division	Guangdong
 division	Shanghai
 division	Hong Kong
 division	Taiwan
+division	Taoyuan
 division	Aichi
 division	Tokyo
 division	Nara
@@ -120,6 +142,7 @@ division	South Korea
 division	Kathmandu
 division	Kerala
 division	Iran
+division	Tbilisi
 division	Thanh Hoa
 division	Sihanoukville
 division	Nonthaburi
@@ -128,13 +151,25 @@ division	Queensland
 division	New South Wales
 division	Victoria
 division	Auckland
+division	Europe
+division	Copenhagen
 division	Ile de France
+division	Pays de la Loire
+division	Hauts de France
+division	Bourgogne-France-Comté
+division	Normandie
+division	Grand Est
 division	Auvergne Rhone Alpes
 division	Flanders
+division	Leuven
+division	Sint-Niklaas
+division	Kraainem
+division	Huldenberg
+division	Brussels
 division	Bavaria
-
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
+division	Netherlands
 division	Utrecht
 division	Overijssel
 division	Gelderland
@@ -146,32 +181,47 @@ division	South Holland
 division	North Holland
 division	Luxembourg
 division	Basel
+division	Bern
 division	Zurich
 division	Aargau
 division	Geneva
 division	Vaud
 division	Ticino
+division	Graubünden
+division	Schwyz
 division	Comunitat Valenciana
 division	Italy
 division	Lazio
 division	Lombardy
 division	Usti nad Labem
+division	Northern Ireland
 division	England
 division	Wales
-division	Ireland
+division	Dublin
+division	Limerick
 division	Scotland
-division	Lapland
 division	Småland
 division	Helsinki
+division	Finland
 division	Portugal
 division	Lagos
+division	Kinshasa
+division	Santiago
+division	Talca
 division	Sao Paulo
+division	Espirito Santo
+division	Bahia
+division	Rio de Janeiro
+division	Distrito Federal
+division	Panama City
 division	Mexico City
 division	Texas
+division	Utah
 division	Arizona
 division	California
 division	Illinois
 division	Wisconsin
+division	Minnesota
 division	Massachusetts
 division	New York
 division	Washington
@@ -191,7 +241,9 @@ country	Thailand
 country	Singapore
 country	Australia
 country	New Zealand
+country	Georgia
 country	France
+country	Denmark
 country	Netherlands
 country	Belgium
 country	Luxembourg
@@ -206,7 +258,25 @@ country	Finland
 country	Sweden
 country	Portugal
 country	Nigeria
+country	Congo
+country	Chile
 country	Brazil
+country	Panama
 country	Mexico
 country	USA
 country	Canada
+
+recency	Older
+recency	One month ago
+recency	One week ago
+recency	3-7 days ago
+recency	1-2 days ago
+recency	New
+
+region	Oceania
+region	Asia
+region	Africa
+region	Europe
+region	North America
+region	Central America
+region	South America

@@ -1,6 +1,7 @@
 import json
 import sys
 from functools import partial
+import copy
 
 def traverse(node, fun):
     """ Traverse the tree calling `fun(node)` on each node """
@@ -41,7 +42,9 @@ def modify(node):
         "children": [node]
     }
 
-    # change actual NODE division_exposure to have collection division 
+    # Story a backup of the original exposure, to put back in later
+    node["node_attrs"]["division_exposure_backup"] = node["node_attrs"]["division_exposure"]
+    # change actual NODE division_exposure to have collection division
     node["node_attrs"]["division_exposure"] = node["node_attrs"]["division"]
     return n
 
@@ -60,8 +63,13 @@ def switch_division(node):
     if (division and not division_exposure):
         raise Exception("Where there's division we should always have division_exposure")
     if division_exposure:
-      node["node_attrs"]["division"] = division_exposure
-      del node["node_attrs"]["division_exposure"]
+      node["node_attrs"]["division"] = copy.copy(division_exposure)
+      # if has a 'real' exposure history, then put this back in place now! Delete all others.
+      if "division_exposure_backup" in node["node_attrs"] and node["node_attrs"]["division_exposure_backup"]["value"] != node["node_attrs"]["division_exposure"]["value"]:
+        node["node_attrs"]["division_exposure"]["value"] = node["node_attrs"]["division_exposure_backup"]["value"]
+        del node["node_attrs"]["division_exposure_backup"]
+      else:
+        del node["node_attrs"]["division_exposure"]
 
 def reset_colors(colorings, values_wanted, colors):
     """

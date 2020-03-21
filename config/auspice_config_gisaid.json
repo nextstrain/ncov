@@ -7,12 +7,17 @@
     },
     {
       "key": "division",
-      "title": "Admin division",
+      "title": "Admin Division",
       "type": "categorical"
     },
     {
       "key": "country",
       "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
       "type": "categorical"
     },
     {
@@ -46,10 +51,20 @@
       "type": "categorical"
     },
     {
+      "key": "recency",
+      "title": "Submission Date",
+      "type": "categorical"
+    },
+    {
       "key": "gisaid_epi_isl"
     },
     {
       "key": "genbank_accession"
+    },
+    {
+      "key": "division_exposure",
+      "title": "Exposure History",
+      "type": "categorical"
     }
   ],
   "geo_resolutions": [
@@ -65,11 +80,13 @@
     "branch_label": "none"
   },
   "filters": [
+    "recency",
     "location",
     "division",
     "division_exposure",
     "country",
     "host",
+    "region",
     "author",
     "originating_lab",
     "submitting_lab"
