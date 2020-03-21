@@ -194,14 +194,22 @@ You can see how many mutations a branch has by hovering your mouse over it. -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
+# [Mierzenie różnic w czasie](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+Możemy również pokazać jak wirus rozprzestrzenia się w czasie używając daty pobrania próby jako osi x.
+W tym przypadku, oś x przedstawia czas uzyskania próby. Krańce gałęzi odpowiadają dacie, w którym pobrano daną próbę. Daty dla węzłów wewnątrz drzewa -- "brakująch przypadków" -- są wnioskowane na podstawie tego, kiedy ich potomkowie zostali próbkowani oraz tempa z jakim wirus mutuje. 
+<br><br>
+Zwróć uwagę, jak wiele sekwencji, które wcześniej były położone w jedne pionowej linii (wskazującej na identyczne genomy) są teraz rozłożone w czasie. 
+Tak dzieje się, kiedy tempo z jakim wirus mutuje, jest niewiele wolniejsze od tempa z jakim się rozprzestrzenia. 
+Przewiń do poprzedniego slajdu i porównaj z obecnym aby zobaczyć jak drzewo się zmienia.
+
+<!-- There is NO right-side text -->
+
+<!-- We can also visualize how the virus has spread over time by using the sampling date as the x axis.
 Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
 <br><br>
 Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
 This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
-<!-- There is NO right-side text -->
+You can scroll up and down between the previous slide and this one, to see how the tree changes. -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
