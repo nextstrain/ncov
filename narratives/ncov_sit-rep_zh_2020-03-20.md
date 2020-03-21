@@ -64,7 +64,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * 证据表明，全球许多地区的输入病例是与旅行相关的
 * 许多近期有输入性案例的地区将在4-8周的时间内看到疫情扩大。这些地区现在就应该有所准备。   
 * 在许多最近实施了社交隔离的地区，预计短期内病例将继续增加，但新增病例数量可能会在中长期的时间内达到平台期并下降。
-* 对确诊病例和已恢复病例的检测对于应对这一流行病将是至关重要的。
+* 对新近感染者和已恢复病例的检测对于应对这一流行病将是至关重要的。
 ```
 
 
@@ -111,18 +111,18 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [来自某些地区的序列在数据中的数量不足](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-地图上显示来自南半球的序列很少。比如, 在拉丁美洲25个[WHO报告](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)有确诊病例的国家中，我们只有4个国家的序列。 这既不是因为COVID-19没有在这些地区传播，也不是因为理解这些病例不重要，而仅仅是因为我们没有从这些地区获得足够的数据。
+# [一些地区的数据不足](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+地图上显示来自南半球的序列很少。比如, 在拉丁美洲25个[WHO报告](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)有确诊病例的国家中，我们只有4个国家的序列。这既不是因为COVID-19没有在这些地区传播，也不是因为理解这些病例不重要，而仅仅是因为我们没有从这些地区获得足够的数据。
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [来自某些地区的序列在数据中的占比太大](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-在其他地区，如荷兰，相对于病例总数来说，有大量可使用的序列数据。
+# [一些地区的数据占比偏大](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+在其他地区，如荷兰，相对于病例总数来说，他们获得的序列数据非常多。
 <br><br>
-因此，在阅读这篇文章时，请记住地图上每个圆圈的大小表示的是该区域当前有多少数据可用，而不是该地区疫情的真实严重程度。你可以[阅读此页](https://nextstrain.org/narratives/trees-background?n=8) 来了解这种数据差异如何影响我们的对于疫情传播的推断。
+因此，在阅读这篇文章时，请记住地图上每个圆圈的大小表示的是该区域当前有多少数据可用，而不是该地区疫情的真实严重程度。你可以[阅读此页](https://nextstrain.org/narratives/trees-background?n=8) 来了解这种数据量的差异会如何影响我们对于疫情传播的推断。
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -131,21 +131,21 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text 6 -->
 # [序列数据可以交叉印证旅行史](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-确定病例在哪里感染，对于了解某个地区的疫情主要是与旅行有关，还是正在发生本地传播非常重要。序列数据可以帮助我们区分这些疫情的发展情况。
+确定病例在哪里感染，对于了解某个地区的疫情主要是与旅行有关，还是正在发生本地传播非常重要。序列数据可以帮助我们区分这两种情况。
 <br><br>
-这里可以看到用病例的旅行史(如果可以确认)进行着色的系统发生树。我们可以看到中间绿色的来自加拿大的序列，他们有报告有欧洲旅行史。通过将这一感染组与其他欧洲的序列比较，几乎可以肯定该病例是属于与旅行相关的感染。
+这里可以看到用病例的（已知的）旅行史进行着色的系统发生树。我们可以看到中间有一条蓝色的来自加拿大的序列，该病例报告有欧洲旅行史。这条序列与欧洲的其他序列聚在一起，因此几乎可以肯定该病例是属于与旅行相关的感染。
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
 # [序列数据可以交叉印证旅行史](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-将地图拉远后，我们可以看到情况并不总是这样的一致。
+将地图拉远后，我们可以看到数据也并不总是与旅行史一致。
 <br><br>
 在这里，我们可以看到，几乎所有报告最近有伊朗旅行史的病例都集中在树的中间.
 <br><br>
-在树的顶端，我们还看到了一个有伊朗旅行史的加拿大病例；但是，这个序列与其他有伊朗旅行史的病例没有任何相似之处。
+在树的顶端，我们还看到了一个有伊朗旅行史的加拿大病例，但这个序列没有与其他有伊朗旅行史的病例聚在一起，甚至都不接近。
 <br><br>
-当然，完全有这样的可能性，这个人有可能是被正在伊朗发生的第二个传播链所感染，但在我们获得更多数据之前，我们不能确认这一感染是和旅行相关的。
+当然，这个人完全有可能是被伊朗当地的另一个传播链所感染，但在我们获得更多数据之前，我们不能确认这一感染是和旅行相关的。
 
 <!-- There is no right side text -->
 
