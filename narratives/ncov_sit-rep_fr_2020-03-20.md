@@ -140,7 +140,7 @@ Ainsi, en lisant ce récit, gardez à l'esprit que la taille de chaque cercle su
 
 Identifier où un cas donné a été infecté est important pour comprendre quelles régions ont une transmission locale par rapport aux cas principalement associés aux voyages. Les données de séquence peuvent nous aider à différencier ces scénarios.
 <br><br>
-Ici, l'arbre est coloré par l'historique de voyage d'un cas (lorsqu'il est connu). En regardant la séquence verte du Canada au milieu, nous observons qu'il y a un historique de voyage en Europe. Cette infection se regroupe avec d'autres séquences européennes, montrant que ce cas est presque certainement une infection liée aux voyages.
+Ici, l'arbre est coloré par l'historique de voyage d'un cas (lorsqu'il est connu). En regardant la séquence du Canada (Canada/BC_78548/2020) au milieu, nous observons qu'il y a un historique de voyage en Europe. Cette infection se regroupe avec d'autres séquences européennes, montrant que ce cas est presque certainement une infection liée aux voyages.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
