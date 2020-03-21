@@ -5,7 +5,7 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "Dieses Narrativ erklärt wie man phylogenetische Bäume lesen und interpretieren kann, welche die genetische Epidemiologie informieren. Diese Webseite ist für Desktop Browser optimiert."
+abstract: "Dieses Narrativ erklärt, wie man phylogenetische Bäume lesen und interpretieren kann, welche die genetische Epidemiologie informieren. Diese Webseite ist für Desktop Browser optimiert."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -15,15 +15,15 @@ abstract: "Dieses Narrativ erklärt wie man phylogenetische Bäume lesen und int
 <!-- This is left-side text -->
 # [Inhaltsverzeichniss](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=9).  
+* [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen?](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [Wie interpretiere ich einen Baum?](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [Was verbindet die "diversity" Tabelle mit dem phylogenetischen Baum?](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Messung von Unterschieden in genetischer Divergenz](https://nextstrain.org/narratives/trees-background?n=4).  
+* [Messung von Unterschieden in Zeiteinheiten](https://nextstrain.org/narratives/trees-background?n=5).  
+* [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [Wie soll ich die Farben in einem Baum interpretieren?](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [Wie haengen die Karte und der phylogenetische Baum zusammen?](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background?n=9).  
 * [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
 
 <!-- No right-side text -->
@@ -93,7 +93,7 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 <!-- This is left-side text -->
 # [Was verbindet die "diversity" Tabelle mit dem phylogenetischen Baum?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Lassen Sie uns einen Blick auf die ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, das COVID-19 verursacht), die oeffentlich gemacht wurden, werfen. Genau wie auf der letzten Seite haben wir ein Alignment der Virus-Sequenzen konstruiert (Unter [on GitHub](https://github.com/nextstrain/ncov) koennen Sie sehen, wie saemtliche hier erwaehnte Analysen gemacht wurden).
+Lassen Sie uns einen Blick auf die ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, das COVID-19 verursacht), die oeffentlich gemacht wurden, werfen. Genau wie auf der letzten Seite haben wir ein Alignment der Virus-Sequenzen konstruiert (Unter [GitHub](https://github.com/nextstrain/ncov) koennen Sie sehen, wie saemtliche hier erwaehnte Analysen gemacht wurden).
 <br><br>
 Hier stellen wir den phylogenetischen Baum oberhalb eines Balkendiagrammes, das die Unterschiede (d.h. Mutationen) im Genom zeigt, dar. Ohne diese Mutationen koennen wir den Baum nicht konstruieren; die beiden sind also eng verbuden.
 <br><br>
@@ -175,7 +175,7 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 # [Wie haengen die Karte und der phylogenetische Baum zusammen?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
 Hier sehen sie einen Baum, in dem die Farben die Orte der jeweiligen Proben (und der abgeleiteten Orte fuer die internen Verzweigungspunkte) darstellen.
-Wenn Sie auf ['Explore the data'](https://nextstrain.org/ncov)klicken, koennen Sie eine Animation ablaufen lassen, die die abgeleitete Ausbreitung des Virus im Verlauf des Ausbruchs zeigt.
+Wenn Sie auf ['Explore the data'](https://nextstrain.org/ncov) klicken, koennen Sie eine Animation ablaufen lassen, die die abgeleitete Ausbreitung des Virus im Verlauf des Ausbruchs zeigt.
 
 
 <!-- ############ SLIDE BREAK ############# -->
