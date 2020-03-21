@@ -137,9 +137,23 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [Jak panel "zmienności" odnosi się do drzewa?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+Spójrzmy na pierwsze 169</tag> sekwencji wirusa SARS-CoV-2 (wirus, który wywołuje COVID-19), które zostały publicznie udostępnione. Tak jak na poprzedniej stronie, przyrównaliśmy te sekwencje wirusa do siebie (możesz sprawdzić jak wszystkie analizy zostały wykonane [na GitHub](https://github.com/nextstrain/ncov)).
+<br><br>
+Pokazujemy tutaj drzewo filogenetyczne powyżej wykresu słupkowego przedstawiającego zmienność (tzn. mutacje) w genomie.
+Bez tych mutacji, nie bylibyśmy w stanie zbudować drzewa, wobec tego te dwa elementy są ze sobą ściśle powiązane.
+<br><br>
+W tym panelu "zmienności", oś pozioma przedstawia kolejne pozycje w genomie wirusa (w sumie około trzydzieści tysięcy!). 
+Oś pionowa pokazuje jak wiele zmienności jest w każdej pozycji.
+<br><br>
+Drzewo pokolorowaliśmy na podstawie jednej z tych mutacji -- w tym przypadku mutacji w kodonie 314 w genie "ORF1b".
+Nie ma powodu myśleć za wczasu, że ta mutacja jest funkcjonalna (tzn. wywołuje jakąś biologiczną zmianę).
+Dokładnie takie mutacje wykorzystujemy do definiowania związków pomiędzy sekwencjami i konstruowania drzewa. 
+
+<!-- There is NO right-side text -->
+
+<!-- Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
 Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
 Without these mutations we couldn't build the tree, so the two are intimitely connected.
@@ -149,9 +163,7 @@ The vertical axis indicates how much variability there is at each site.
 <br><br>
 We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
 There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
-
-<!-- There is NO right-side text -->
+It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree. -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
