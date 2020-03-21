@@ -1,8 +1,7 @@
 LOCUS       MN908947               29903 bp ss-RNA     linear   VRL 17-JAN-2020
-DEFINITION  Wuhan seafood market pneumonia virus isolate Wuhan-Hu-1, complete
-            genome.
+DEFINITION  MN908947
 ACCESSION   MN908947
-VERSION     MN908947.3
+VERSION     MN908947
 KEYWORDS    .
 SOURCE      Wuhan seafood market pneumonia virus
   ORGANISM  Wuhan seafood market pneumonia virus
@@ -51,12 +50,12 @@ FEATURES             Location/Qualifiers
                      /gene="ORF1b"
                      /note="translated by -1 ribosomal frameshift"
                      /codon_start=1
-                     /protein_id="QHD43415.1"                     
+                     /protein_id="QHD43415.1"
      gene            21563..25384
                      /gene="S"
      CDS             21563..25384
                      /gene="S"
-                     /note="structural protein"
+                     /note="structural protein; spike protein"
                      /codon_start=1
                      /product="surface glycoprotein"
                      /protein_id="QHD43416.1"
@@ -71,7 +70,7 @@ FEATURES             Location/Qualifiers
                      /gene="E"
      CDS             26245..26472
                      /gene="E"
-                     /note="structural protein; E protein"
+                     /note="ORF4; structural protein; E protein"
                      /codon_start=1
                      /product="envelope protein"
                      /protein_id="QHD43418.1"
@@ -79,7 +78,7 @@ FEATURES             Location/Qualifiers
                      /gene="M"
      CDS             26523..27191
                      /gene="M"
-                     /note="structural protein"
+                     /note="ORF5; structural protein"
                      /codon_start=1
                      /product="membrane glycoprotein"
                      /protein_id="QHD43419.1"
@@ -97,6 +96,13 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /product="ORF7a protein"
                      /protein_id="QHD43421.1"
+     gene            27756..27887
+                     /gene="ORF7b"
+     CDS             27756..27887
+                     /gene="ORF7b"
+                     /codon_start=1
+                     /product="ORF7b"
+                     /protein_id="YP_009725296.1"
      gene            27894..28259
                      /gene="ORF8"
      CDS             27894..28259
@@ -108,10 +114,16 @@ FEATURES             Location/Qualifiers
                      /gene="N"
      CDS             28274..29533
                      /gene="N"
-                     /note="structural protein"
+                     /note="ORF9; structural protein"
                      /codon_start=1
                      /product="nucleocapsid phosphoprotein"
                      /protein_id="QHD43423.2"
+     gene            28284..28577
+                     /gene="ORF9b"
+     CDS             28284..28577
+                     /gene="ORF9b"
+                     /codon_start=1
+                     /product="Protein 9b"
      gene            29558..29674
                      /gene="ORF10"
      CDS             29558..29674
@@ -119,6 +131,12 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /product="ORF10 protein"
                      /protein_id="QHI42199.1"
+     gene            28734..28955
+                     /gene="ORF14"
+     CDS             28734..28955
+                     /gene="ORF14"
+                     /codon_start=1
+                     /product="ORF14 protein"
      3'UTR           29675..29903
 ORIGIN      
         1 attaaaggtt tataccttcc caggtaacaa accaaccaac tttcgatctc ttgtagatct
@@ -621,4 +639,3 @@ ORIGIN
     29821 tttagtagtg ctatccccat gtgattttaa tagcttctta ggagaatgac aaaaaaaaaa
     29881 aaaaaaaaaa aaaaaaaaaa aaa
 //
-

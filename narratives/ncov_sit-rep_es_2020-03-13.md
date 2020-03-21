@@ -1,11 +1,35 @@
 ---
 title: Análisis genómico de la propagación del COVID-19. Informe de la situación hasta el 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Roy Costilla, Miguel I. Paredes, Julián Villabona-Arenas)"
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Roy Costilla
+  - Miguel I. Paredes
+  - Julián Villabona-Arenas
+translatorLinks:
+  - https://researchers.uq.edu.au/researcher/18392
+  - https://twitter.com/miguelp1120
+  - https://www.lshtm.ac.uk/aboutus/people/villabona-arenas.julian
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento de la propagación del COVID-19. Los reportes son actualizados semanalmente.
+abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento de la propagación del COVID-19. Los reportes son actualizados semanalmente."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -16,17 +40,17 @@ abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento d
 
 # [Contenidos](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulación en Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Transmisión local en Reino Unido](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Propagación del SARS-CoV-2 desde Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introdución a EEUU](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Propagación del SARS-CoV-2 en el estado de Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Propagación SARS-CoV-2 en California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [¡Que puedes hacer tu!](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [Preguntas frequentes y conceptos erróneos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=2).     
+* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=3).
+* [Circulación en Europa](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=4).   
+* [Transmisión local en las Islas británicas e Irlanda](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=5).
+* [Propagación del SARS-CoV-2 desde Iran](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=6).
+* [Introdución a EEUU](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=7).
+* [Propagación del SARS-CoV-2 en el estado de Washington](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=8).
+* [Propagación SARS-CoV-2 en el estado de California](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=9).
+* [¡Que puedes hacer tu!](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=10).
+* [Preguntas frequentes y conceptos erróneos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=11).
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -50,7 +74,7 @@ En la actualización de esta semana, reportamos que:
 
 * Existen varias introducciones del virus a EEUU, mismas que han generado cadenas de transmisión local en varios estados.
 
-* EL brote del virus continúa creciendo en el estado de Washington. Algunos de estos, están relacionados con los casos originales del crucero Grand Princess.
+* El brote del virus continúa creciendo en el estado de Washington. Algunos de estos, están relacionados con los casos originales del crucero Grand Princess.
 
 * Existe circulación local del COVID-19 en California.
 
@@ -64,7 +88,7 @@ En la actualización de esta semana, reportamos que:
 # [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-05)
 A continuación, hemos preparado algunos recursos de información (actualmente en inglés) que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
 
-Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion en ingles ['Cómo leer philogenias'](https://nextstrain.org/narratives/trees-background) antes de leer el presente reporte.
+Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion ['Cómo leer philogenias'](https://nextstrain.org/narratives/trees-background/es) antes de leer el presente reporte.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -76,7 +100,7 @@ Si no estas familiarizado con la filogenética, te recomendamos leer la siguient
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Antecendentes recientes del brote de COVID-19</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer philogenias</a>
+  <a href="https://nextstrain.org/narratives/trees-background/es"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer philogenias</a>
 </div>
 
 ## Lecturas Adicionales
@@ -113,8 +137,8 @@ Si vemos el mapa en detalle, podemos apreciar los muchos vínculos entre Italia 
 <!-- There is no right side text -->
 
 
-# [Transmisión local en las islas británicas e Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Usando a las islas británicas e Irlanda como ejemplo, podemos apreciar varias instancias en cuales virus que son genéticamente cercanos a muestras de otros países aparecen en las islas británicas e Irlanda.
+# [Transmisión local en las Islas británicas e Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+Usando a las islas británicas e Irlanda como ejemplo, podemos apreciar varias instancias en las cuales virus que son genéticamente cercanos a muestras de otros países aparecen en las islas británicas e Irlanda.
 <br><br>
 Este hallazgo implica que hubo al menos cuatro introducciones del virus desde otros lugares.
 <br><br>
@@ -124,7 +148,7 @@ También podemos apreciar instancias en las cuales encontramos varios casos gen�
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Propagación de SARS-CoV-2 desde Irán](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Varios de los genomas secuenciados han sido aislados de pacientes que reportan un historial de viaje a Irán. Estos genomas son extremadamente similares, indicando que el brote en Irán es el resultado de una transmisión singular que se ha propagado a otros lugares.
+Varios de los genomas secuenciados han sido aislados de pacientes que reportan un historial de viaje a Irán. Estos genomas son extremadamente similares, indicando que el brote en Irán es el resultado de una única transmisión que se ha propagado a otros lugares.
 <br><br>
 Tome nota que no hay genomas completos disponibles que han sido aislados desde pacientes en Irán.
 <!-- There is NO right-side text -->
@@ -144,14 +168,14 @@ Sin embargo, en Washington y California podemos apreciar grupos de casos que est
 <!-- This is left-side text -->
 # [Propagación de SARS-CoV-2 en el estado de Washington](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
 Aquí podemos apreciar un grupo grande de casos aislados en Washington que están genéticamente relacionados.
-Usando este hallazgo concluimos que en el estado de Washington se encuentra una extensa propagación local del virus.
+Usando este hallazgo concluimos que en el estado de Washington ocurre una extensa propagación local del virus.
 <br><br>
 Interesantemente, las muestras aisladas de casos en Washington se encuentran intercaladas con las muestras aisladas de casos del crucero Grand Princess.
 Todavía no estamos seguros si la propagación del virus fue desde el crucero a Washington o viceversa; cuando obtengamos datos adicionales, actualizaremos nuestro análisis.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Propagación de SARS-CoV-2 en California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+# [Propagación de SARS-CoV-2 en el estado de California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 Usando las muestras aisladas en California, encontramos evidencia de múltiples introducciones del virus en el estado.
 Importantemente, apreciamos al menos un grupo de casos genéticamente relacionados que fueron recolectados en California durante un corto periodo de tiempo  (haz click en ['Explora los datos'](https://nextstrain.org/ncov) y busca ‘CA9’ para ver un ejemplo).
 <br><br>
@@ -163,7 +187,7 @@ Esto sugiere fuertemente que hay propagación continua y local del virus en Cali
 # [Hallazgos Principales](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
 - El virus ha sido introducido a varias partes del mundo múltiples veces. No todas las introducciones resultan en propagación local.  
 <br><br>
-- Apreciamos evidencia de la propagación comunitaria en Europa, partes de los EEUU, la China, y el Sudeste Asiático.  
+- Existe evidencia de la propagación comunitaria en Europa, en partes de los EEUU, en China, y el Sudeste Asiático.  
 <br><br>
 - Controlar los brotes locales a través de la distanciación social es crucial para proteger las poblaciones más vulnerables al virus.
 
@@ -182,7 +206,6 @@ Distanciación social – es decir, disminuir el número de personas con cual te
 * Reducir el número de personas con cual tienes contacto diariamente, especialmente si eres parte de un grupo de gente vulnerable al virus (por ejemplo: gente mayor y gente con condiciones médicas pre-existentes).
 * Recuerde que, aunque usted no sea particularmente vulnerable al virus, hay muchas personas que sí lo son; debe seguir estas prácticas para proteger a otros.
 * Lávese las manos “como si acabas de picar un jalapeño y tienes que cambiar tus lentes de contacto”.  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
 * Quédese en casa si está enfermo; prepárese con provisiones adicionales por si tiene que estar en auto-cuarentena.  
 
 ## Pasos que pueden tomar oficiales gubernamentales  

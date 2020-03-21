@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
+title: 新型コロナウイルス拡散の遺伝的解析と状況報告 2020-03-13.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -19,9 +19,13 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Tomoyuki Nezu
+  - Takeshi Sato
+  - Fengjun Zhang
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "このレポートでは、公開されているゲノム情報を使用して、COVID-19の広がりを追跡しています。 これらのレポートは毎週更新されます。"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -29,197 +33,172 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+# [目次](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+
+* [COVID-19 に関する資料](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=2).     
+* [収集されたデータについて](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=3).
+* [ヨーロッパでの拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=4).
+* [イギリス諸島とアイルランドにおける地域拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=5).
+* [イランからの SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=6).
+* [米国への伝搬](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=7).
+* [ワシントン州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=8).
+* [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=9).
+* [私達に出来ること](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=10).
+* [よくある質問と誤解](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=11).
+* [分析データのクレジット](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=12).
 
 <!-- This is right-side text -->
+
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# 概要
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+ここでは、公に共有されている 410</tag>種のゲノムを分析しました。これらのウイルスのゲノムを相互に比較することにより、COVID-19 が世界中でどのように進化し、移動しているかを特徴付けることができます。
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+世界中のコロナウイルス症例の現在の状況についてはこちらのリンクを参照して下さい。 [Our World In Data](https://ourworldindata.org/coronavirus).
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+このレポートでは、複数の大陸でのローカルな感染の証拠とともに、ウイルスが世界中に広まっていることを示しています。
+現時点では、コミュニティ内での拡散を遅らせるための取り組みに焦点を当てることを要請します。旅行の禁止は効果的でないようです。
 
-In this week's updates, we report:  
+今週の更新では、以下を報告します：
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+* COVID-19 はヨーロッパ全体に広く伝搬しており、国々の間で大きな移動があります。  
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* 英国への少なくとも４つの伝搬を特定し、その一部にはコミュニティでの広がりがあります。
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* イランを世界の他の地域と結びつける旅行関連の事例が数多くありました。
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+* これまでに米国に多くの伝搬があり、その結果、複数の州で地域的な広がりの連鎖が生まれました。
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+* ワシントン州での流行は拡大し続けています。いくつかのケースは、グランドプリンセスクルーズ船のケースと密接に関連しています。
 
-* There is local circulation of COVID-19 in California.  
+* カリフォルニアで COVID-19 の地域伝搬が発生しています。
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+* 医療システムの負担を軽減し、感染の影響を受けやすい人々を保護するために、社会的な距離を置く措置を迅速に実施する必要があります。
+
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [COVID-19 に関する資料](https://nextstrain.org/ncov/2020-03-05)
+COVID-19とそれを引き起こすウイルスであるSARS-CoV-2を理解するために、読む価値のあるリソースを用意しました。この情報は、このレポートで提示するデータの解釈を容易にします。系統樹に詳しくない場合は、[系統発生の読み方](https://nextstrain.org/narratives/trees-background/ja)の内容を確認した上で、次のページへ進めることを推薦します。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## 背景
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/>コロナウィルスの背景</a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/>最近の COVID-19 流行の背景</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/ja"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/>系統発生の読み方</a>
 </div>
 
-## Further Reading
+## 参考文献
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+* [Wikipedia](https://ja.wikipedia.org/wiki/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E3%81%AE%E6%B5%81%E8%A1%8C_(2019%E5%B9%B4-)) のコロナウイルス感染症流行の概要
+* [米CDC](https://www.cdc.gov/coronavirus/index.html) が提供する資料
 
-## Nextstrain narratives
+## Nextstrain からの状況報告
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+このあとのページが [Nextstrain](https://nextstrain.org) を使用して行われた解析です。スクロールすると項目ごとのテキストと対応するゲノム情報が表示されます。
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
-
-Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org). El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
-
-La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro muy notable. Estos análisis han sido posibles gracias al intercambio rápido y abierto de los datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes genomas).
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+新規で大型な RNA ウイルスの完全なゲノム情報を早い段階でこのような形にするのは驚くべき成果です。これらの解析は、世界中の科学者によるゲノム情報の迅速かつオープンな共有、解釈によって可能になりました（遺伝子配列の提供者については最後のスライドを参照してください）。
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
-<br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
-<br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+
+# [収集されたデータについて](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+現在、私たちのもとには、5大陸の30か国で採取されたサンプルの遺伝子配列があります。 これは信じられないほどの偉業です。今まさに流行が起きている状況下で、未知の大きな RNA ウイルスを遺伝子配列解析することは難しいことです。これは世界中の科学者や医師による信じられないほどの作業とデータのタイムリーな共有によってのみ可能です。
+<br><br>このデータにより、多くの有用な特性を推測し、流行の広がりをリアルタイムで追跡することができますが、結論は利用可能なデータによって制限されることに留意して下さい。
+<br><br>たとえば、地図には南半球からの遺伝子配列がほとんど表示されていません。これは、COVID-19 がこれらの地域で伝搬してい _ない_ ため、またはこれらの症例を理解する重要性が _無い_ ためではありません。むしろ、これらの地域からの入手可能なデータが少ないことを意味します。マップ上のそれぞれの円のサイズは、実際の流行の広がり度合いを示すというよりも、そのエリアにおいて利用可能なデータ量を示します。
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
-<br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+# [ヨーロッパでの拡散](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+ここでは、ヨーロッパからの遺伝子配列の大きな系統群が見られます。特に、多くの異なる国からの遺伝子配列が組み込まれ、COVID-19 がすでにヨーロッパ全体に非常に広く流行していることを示しています。
+<br><br>地図を拡大すると、イタリアと他の地域との間に多くのリンクがあることがわかります。ただし、これらのリンクの方向性を確実に推測できるわけではないことに注意してください。他の仮説でもこれらのデータを説明できます（たとえば、イタリアと他の場所で遺伝子配列分析された症例はどちらも、収集されていない症例によって感染が生じた、二次感染の症例である場合もあります）。
 
 <!-- There is no right side text -->
 
 
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
-<br><br>
-This is consistent with 4 or more introductions from other locations.
-<br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+# [イギリス諸島とアイルランドにおける地域拡散](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+イギリス諸島とアイルランドを例として見ると、他の国のサンプルに密接に関連するウイルスがイギリス諸島とアイルランドに出現するいくつかの事例を見ることができます。
+<br><br>これは、他の場所からの4つ、もしくはそれ以上の伝搬と一致しています。
+<br><br>また、伝搬後の事例として、同じ場所より密接に関連するケースがいくつかあります。これは、複数の地域コミュニティでの伝搬から、地域コミュニティへ伝搬されたことと一致します。
+
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
-<br><br>
-Note that there are no full genomes available from patients in Iran.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+
+# [イランからの SARS-CoV-2 の拡散](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+イランへの渡航歴の報告がある患者から多くのゲノムが分析されています。これらのゲノムはすべてが非常に酷似しており、イランでの単一の流行が、その後多くの地域に伝搬した可能性があります。
+<br><br>イランの患者から入手できる完全なゲノムはないことに注意してください。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
-<br><br>
-Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
-However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases.
-<br><br>
-For Washington and California, though, we do see clusters of cases that are closely related.
-This suggests ongoing transmission and local spread within these two states.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+# [米国への伝搬](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+ここでは、複数の独立した機会にウイルスが米国に伝搬していることがわかります。
+<br><br>これらの伝搬のほとんどは、米国のその他のサンプルケースに関連付けられていないため、これらの伝搬がローカルで拡散したかどうかはわかりません。ただし、感染検査能力がほとんどの地域でまだ強化されていないことを考えると、多くの未報告のケースがあると予想されます。
+<br><br>ただし、ワシントンとカリフォルニアについては、密接に関連するケースのクラスターがあります。これは、これらの2つの州内での進行中の伝搬と地域拡散を示唆しています。
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Here, we see a large cluster of cases from Washington that are all closely related.
-From this, we conclude that there is extensive local spread within Washington state.
-<br><br>
-Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship.
-We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis.
+
+# [ワシントン州での SARS-CoV-2 の拡散](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+ここでは、ワシントンのケースと密接に関連する大規模なクラスターが見られます。このことから、私達はワシントン州内に広範な地域的な拡散があると結論付けました。
+<br><br>興味深いことに、ワシントンのサンプルには、グランドプリンセスクルーズ船のサンプルが組み込まれています。ウイルスがクルーズ船からワシントンに広がったのか、それともその逆であったのかはまだわかりません。 データが増えた段階で、分析を更新します。
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
-<br><br>
-This strongly suggests that there is ongoing local transmission within California.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+# [カリフォルニア州での SARS-CoV-2 の拡散](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+カリフォルニアからのサンプルを見ると、複数の伝搬の証拠があります。さらに重要なことは、密接に関連するケースのクラスターが少なくとも1つあり、すべてが短期間にカリフォルニアで採取されていることです（['Explore the Data'](https://nextstrain.org/ncov) をクリックして Search Strains メニューで 'CA9' を検索して下さい）。
+<br><br>これは、カリフォルニア州内で進行中の地域伝搬があることを強く示唆しています。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
+# [まとめ](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+- このウイルスは世界中の多くの場所に何度も伝搬されています。 すべての伝搬が地域拡散になるわけではありません。  
 <br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
+- ヨーロッパ、米国の一部、中国、および東南アジアでの地域拡散の証拠があります。
 <br><br>
-- Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+- 地域拡散をコントロールするため、社会的な距離を保ち、感染の影響を受けやすい人々を保護することが重要です。
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do  
+# 私達に出来ること  
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+社会的な距離、つまり毎日出会う人の数を減らすことは時には困難を伴いますが、公共の利益にとって非常に有益です。もし全員が毎日の接触数を25％減らすと、来月の累積症例数は50％減ると予想されます([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf))。
+社会的距離については[こちら](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/)を参照して下さい。
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
-## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
+## 個人が出来ること
+* 特に感染の影響を受けやすい集団（高齢者や既往症のある方など）の場合は、毎日接触する人数を減らしてください。
+* あなたが健康であっても、あなたの周りの多くの人々がそうでないことを忘れないでください。 他の人を守るために次に上げるこれらの慣行に従ってください。
+* 良く手を洗って下さい。(辛いものを触ったあとにコンタクトレンズを変えなければならないように)
+* 体調が悪い場合は家にいましょう。 自主隔離する必要がある場合に備えて、いくつかの追加の備品を用意しておきましょう。
+* あなたが雇用主である場合、従業員が病気になったときに自宅待機にして下さい（そして、それを可能とするために、従業員を財政的に支援して下さい）。
 
-## Steps officials can take  
-* Make testing free and broadly available.  
-* Put social distancing measures in place.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+## 行政機関が出来ること  
+* 検査を広く、無料で利用出来るようにすること。
+* 社会的な距離をつという措置をとること。
+* 社会的距離に関する措置の影響を受ける人々を経済的に支援すること（例：時間給労働者、高齢者や育児の責任者、中小企業など）
 ```
 
 
@@ -227,17 +206,18 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [よくある質問と誤解](https://nextstrain.org/ncov/2020-03-05)
 
-#### We know that a lot of people have questions about COVID-19.
+#### 多くの方々が COVID-19 について疑問をお持ちでしょう。
 
-#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+#### [よくある質問についてこちらにガイドを用意しました。](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
+#### アメリカ科学者連盟 (Federation of American Scientists) は、よくある質問のための素晴らしい[リソース](https://covid19.fas.org/l/en)を提供しています。
 
 <!-- This is right-side text -->
+
 ```auspiceMainDisplayMarkdown
-# Further reading  
+# 参考文献：
 
 * "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
@@ -248,13 +228,11 @@ Social distancing -- that is, decreasing the number of people you encounter each
 * "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 
-# Misconceptions
+# 誤解：
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+新型コロナウイルスの起源について、多くの誤解が広まっています。このような大きな感染症流行において、不適切であるとわかる情報の拡散はより大きなパニックを引き起こし、人々が科学者と政府に対して不信を抱かせることに繋がります。つまり、助言に従い、適切な予防措置を取る可能性が低くなります。
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+次のような見方がなぜ適切でないかを説明しようと、科学者は以下のページでこれらの理論に取り組んでいます。
 
 <div>
 
@@ -271,22 +249,19 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [分析データのクレジット](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+私たちはこの感染症流行の中において、関係したすべての科学者、中国で働いている科学者による驚くべきタイムリーな研究に謝意を表します。これらのような解析は、ゲノム情報とメタデータの迅速な共有を通じてのみ可能です。
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+また、これらのデータをアップロードおよび共有できるプラットフォームを提供してくれた [GISAID](https://gisaid.org) にも感謝します。
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+私たちはこれらの研修室によって集積されたデータに感謝します:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -414,21 +389,18 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [分析データの詳細](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+これらのデータは [GISAID](https://gisaid.org) を介して共有されました。 彼らの貢献に感謝します。
 
 <br>
 
-To the right we give specific sequences shared by each lab.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+右側に、各ラボで共有される特定の遺伝子配列を示します。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 

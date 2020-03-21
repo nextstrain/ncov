@@ -14,9 +14,11 @@ if __name__ == '__main__':
     with open(args.input, "r") as f:
         input_json = json.load(f)
 
+    keys_to_remove = ["genbank_accession", "gisaid_epi_isl"]
+
     fixed_colorings = []
     for coloring in input_json["meta"]["colorings"]:
-        if coloring['key'] != "genbank_accession" and coloring['key'] != "gisaid_epi_isl":
+        if coloring['key'] not in keys_to_remove:
             fixed_colorings.append(coloring)
 
     input_json["meta"]["colorings"] = fixed_colorings

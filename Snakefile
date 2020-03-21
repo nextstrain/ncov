@@ -1,3 +1,7 @@
+from os import environ
+from socket import getfqdn
+from getpass import getuser
+
 def get_todays_date():
     from datetime import datetime
     date = datetime.today().strftime('%Y-%m-%d')
@@ -34,12 +38,12 @@ files = rules.files.params
 rule download:
     message: "Downloading metadata and fasta files from S3"
     output:
-        sequences = "data/sequences.fasta",
-        metadata = "data/metadata.tsv"
+        sequences = config["sequences"],
+        metadata = config["metadata"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta data/
-        aws s3 cp s3://nextstrain-ncov-private/metadata.tsv data/
+        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta {output.sequences:q}
+        aws s3 cp s3://nextstrain-ncov-private/metadata.tsv {output.metadata:q}
         """
 
 rule filter:
@@ -57,7 +61,10 @@ rule filter:
     output:
         sequences = "results/filtered.fasta"
     params:
-        min_length = 15000
+        min_length = 25000,
+        group_by = "country",
+        sequences_per_group = 500,
+        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-01' date='2020-02' date='2020-03'"
     shell:
         """
         augur filter \
@@ -65,7 +72,10 @@ rule filter:
             --metadata {input.metadata} \
             --include {input.include} \
             --exclude {input.exclude} \
+            --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences}
         """
 
@@ -73,7 +83,7 @@ rule align:
     message:
         """
         Aligning sequences to {input.reference}
-          - filling gaps with N
+          - gaps relative to reference are considered real
         """
     input:
         sequences = rules.filter.output.sequences,
@@ -86,9 +96,9 @@ rule align:
             --sequences {input.sequences} \
             --reference-sequence {input.reference} \
             --output {output.alignment} \
-            --fill-gaps \
             --nthreads auto \
-            --remove-reference
+            --remove-reference \
+            --fill-gaps
         """
 
 rule mask:
@@ -106,7 +116,7 @@ rule mask:
     params:
         mask_from_beginning = 130,
         mask_from_end = 50,
-        mask_sites = "18529"
+        mask_sites = "18529 29849 29851 29853"
     shell:
         """
         python3 scripts/mask-alignment.py \
@@ -172,7 +182,11 @@ rule refine:
         """
 
 rule ancestral:
-    message: "Reconstructing ancestral sequences and mutations"
+    message:
+        """
+        Reconstructing ancestral sequences and mutations
+          - not inferring ambiguous mutations
+        """
     input:
         tree = rules.refine.output.tree,
         alignment = rules.mask.output
@@ -266,6 +280,18 @@ rule colors:
             --output {output.colors}
         """
 
+rule recency:
+    message: "Use metadata on submission date to construct submission recency field"
+    input:
+        metadata = rules.download.output.metadata
+    output:
+        "results/recency.json"
+    shell:
+        """
+        python3 scripts/construct-recency-from-submission-date.py \
+            --metadata {input.metadata} \
+            --output {output}
+        """
 
 rule export:
     message: "Exporting data files for for auspice"
@@ -280,7 +306,8 @@ rule export:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description,
-        clades = rules.clades.output.clade_data
+        clades = rules.clades.output.clade_data,
+        recency = rules.recency.output
     output:
         auspice_json = "results/ncov_with_accessions.json"
     shell:
@@ -288,7 +315,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -309,7 +336,8 @@ rule export_gisaid:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description,
-        clades = rules.clades.output.clade_data
+        clades = rules.clades.output.clade_data,
+        recency = rules.recency.output
     output:
         auspice_json = "results/ncov_gisaid_with_accessions.json"
     shell:
@@ -317,15 +345,13 @@ rule export_gisaid:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
             --output {output.auspice_json}
         """
-
-
 
 rule export_zh:
     message: "Exporting data files for for auspice"
@@ -340,7 +366,8 @@ rule export_zh:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description_zh,
-        clades = rules.clades.output.clade_data
+        clades = rules.clades.output.clade_data,
+        recency = rules.recency.output
     output:
         auspice_json = "results/ncov_zh_with_accessions.json"
     shell:
@@ -348,7 +375,7 @@ rule export_zh:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -481,11 +508,22 @@ rule branching_process_R0:
                     --output {output[1]}
         """
 
+try:
+    deploy_origin = (
+        f"from AWS Batch job `{environ['AWS_BATCH_JOB_ID']}`"
+        if environ.get("AWS_BATCH_JOB_ID") else
+        f"by the hands of {getuser()}@{getfqdn()}"
+    )
+except:
+    # getuser() and getfqdn() may not always succeed, and this catch-all except
+    # means that the Snakefile won't crash.
+    deploy_origin = "by an unknown identity"
+
 rule deploy_to_staging:
     input:
         *rules.all.input
     params:
-        slack_message = json.dumps({"text":"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov>"}),
+        slack_message = json.dumps({"text":f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}"}),
         slack_webhook = config["slack_webhook"] or "",
         s3_staging_url = config["s3_staging_url"]
     shell:
