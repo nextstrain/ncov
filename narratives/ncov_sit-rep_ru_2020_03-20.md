@@ -31,19 +31,19 @@ abstract: "Этот отчет использует общедоступные �
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [Содержание](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [Справочные ресурсы](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).
+* [Примечание о сборе образцов](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [Последовательности & истории поездок](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [Внедрение COVID-19 практически во все страны](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [Как вспышки растут и распространяются](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [Как выросла вспышка в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [Как распространилась вспышка в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [Как изменяется количество случаев заражения с социальным дистанцированием](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [Что вы можете предпринять](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [FAQ & Заблуждения](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Благодарности](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
