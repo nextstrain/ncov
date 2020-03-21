@@ -43,8 +43,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 * [كيف ينتشر وباء واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
 * [كيف بتغير عدد الحالات مع التباعد الاجتماعي](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
 * [ماذا يمكنك أن تفعل](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [أسئلة شائعة ومفاهيم خاطئة](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
