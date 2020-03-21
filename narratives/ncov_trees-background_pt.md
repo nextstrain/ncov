@@ -109,9 +109,9 @@ Colorimos a árvore de acordo com uma dessas mutações — nesse caso, o códon
 Esta é uma filogenia das primeiras 169 cepas de SARS-CoV-2 (vírus que causa COVID-19) que foram compartilhadas publicamente.
 <br><br>
 Aqui, o eixo horizontal indica divergência, que é o número de alterações (mutações) no genoma, em relação à raiz da árvore (isto é, o início do surto).
-Algumas sequências têm 0 mutações, o que significa que são todas idênticas até a raíz (base) da árvore. Outros vírus têm entre uma e onze mutações.
+Algumas sequências têm 0 mutações, o que significa que são todas idênticas até a raiz (base) da árvore. Outros vírus têm entre uma e onze mutações.
 <br><br>
-No momento, isso pode não parecer muito com uma "árvore". Muitas das seqüências são idênticas - elas ficam juntas em linhas verticais como A e B (algumas estão na parte mais à esquerda da árvore). Outras têm mutações únicas ou compartilhadas e, portanto, estão em linhas, ou "ramificações" indo para a direita. Você pode ver quantas mutações uma ramificação possui passando o mouse sobre ela.
+No momento, isso pode não parecer muito com uma "árvore". Muitas das seqüências são idênticas - elas ficam juntas em linhas verticais como A e B (algumas estão na parte mais à esquerda da árvore). Outras têm mutações únicas ou compartilhadas e, portanto, estão em linhas, ou "ramificações" indo para a direita. Você pode ver quantas mutações uma ramificação possui passando o ponteiro sobre ela.
 
 <!-- There is NO right-side text -->
 
