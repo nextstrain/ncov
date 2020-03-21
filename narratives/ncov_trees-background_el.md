@@ -33,16 +33,16 @@ abstract: "Αυτή η παρουσίαση εξηγεί πώς να διαβά�
 <!-- This is left-side text -->
 # [Πίνακας περιεχομένων](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Πώς συνδέονται τα δίκτυα μεταφοράς με φυλογενετικά δέντρα;](https://nextstrain.org/narratives/trees-background/el?n=2)
-* [Πώς διαβάζουμε ένα δένδρο](https://nextstrain.org/narratives/trees-background/el?n=3)
-* [Πώς αναφέρεται το πάνελ "ποικιλομορφία" στο δέντρο;](https://nextstrain.org/narratives/trees-background/el?n=4) 
-* [Μετρήσεις διαφορών με γενετική απόκλιση.](https://nextstrain.org/narratives/trees-background/el?n=5)  
-* [Μέτρηση των διαφορών με την πάροδο του χρόνου.](https://nextstrain.org/narratives/trees-background/el?n=6)
-* [Πώς βρίσκουμε την ημερομηνία έναρξης μιας επιδημίας;](https://nextstrain.org/narratives/trees-background/el?n=7) 
-* [Πώς πρέπει να ερμηνεύσω τα χαρακτηριστικά (χρώματα) στο δέντρο;](https://nextstrain.org/narratives/trees-background/el?n=8)  
-* [Πώς σχετίζεται ο χάρτης με το δέντρο;](https://nextstrain.org/narratives/trees-background/el?n=9)
-* [Επιπλέον ανάγνωση: Aβεβαιότητα στα δέντρα.](https://nextstrain.org/narratives/trees-background/el?n=10) 
-* [Σχετικά με το σύνολο δεδομένων](https://nextstrain.org/narratives/trees-background/el?n=11)
+* [Πώς συνδέονται τα δίκτυα μεταφοράς με φυλογενετικά δέντρα](https://nextstrain.org/narratives/trees-background/el?n=2);
+* [Πώς διαβάζουμε ένα δένδρο](https://nextstrain.org/narratives/trees-background/el?n=3);
+* [Πώς αναφέρεται το πάνελ "ποικιλομορφία" στο δέντρο](https://nextstrain.org/narratives/trees-background/el?n=4);
+* [Μετρήσεις διαφορών με γενετική απόκλιση](https://nextstrain.org/narratives/trees-background/el?n=5).
+* [Μέτρηση των διαφορών με την πάροδο του χρόνου](https://nextstrain.org/narratives/trees-background/el?n=6).
+* [Πώς βρίσκουμε την ημερομηνία έναρξης μιας επιδημίας](https://nextstrain.org/narratives/trees-background/el?n=7);
+* [Πώς πρέπει να ερμηνεύσω τα χαρακτηριστικά (χρώματα) στο δέντρο](https://nextstrain.org/narratives/trees-background/el?n=8);
+* [Πώς σχετίζεται ο χάρτης με το δέντρο](https://nextstrain.org/narratives/trees-background/el?n=9);
+* [Επιπλέον ανάγνωση: Aβεβαιότητα στα δέντρα](https://nextstrain.org/narratives/trees-background/el?n=10).
+* [Σχετικά με το σύνολο δεδομένων](https://nextstrain.org/narratives/trees-background/el?n=11).
 
 <!-- No right-side text -->
 
