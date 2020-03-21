@@ -29,13 +29,13 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 
 * [病原体的传播和系统发生树有什么关系](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [如何解读系统发生树](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [“多样性”图与系统发生树之间的联系](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [用遗传差异来衡量基因差异大小](https://nextstrain.org/narratives/trees-background?n=4).  
-* [衡量差异的时间变化](https://nextstrain.org/narratives/trees-background?n=5).  
+* [“多样性”图表与系统发生树之间的联系](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [测量遗传差异](https://nextstrain.org/narratives/trees-background?n=4).  
+* [在时间上的差异](https://nextstrain.org/narratives/trees-background?n=5).  
 * [推断疫情爆发的时间](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [系统发生树上的性状(颜色)是什么意思](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [地图与系统发生树的联系](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [高级阅读：系统发生树中的不确定性](https://nextstrain.org/narratives/trees-background?n=9).  
+* [系统发生树上的性状（颜色）是什么意思](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [地图与系统发生树的关系](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [进阶阅读：系统发生树的不确定性](https://nextstrain.org/narratives/trees-background?n=9).  
 * [关于数据集](https://nextstrain.org/narratives/trees-background?n=10).  
 <!-- No right-side text -->
 
@@ -58,7 +58,7 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 <p>
 这是一个传播树的简图。图上的每个圆点代表一个病例，横线的长度表明了他们感染的时长；用线连起来的病例表明了病原体在人际之间的传播。
 <br> <br>
-在这张图上我们可以看到传播树的全貌，但是在现实中，我们只能观察到部分病例（蓝色），传播树是未知的，对病例的数量一般也只能进行粗略的估计。基因组序列则使我们能够推测出传播树的部分区域。在这个例子中，传播树上标出了三个突变（小方块所示）。因为有同样突变的序列在遗传上的亲缘关系更近，我们可以根据这些突变对属于同一条传播链的、亲缘关系很近的病毒进行聚类。
+在这张图上我们可以看到传播树的全貌，但是在现实中，我们只能观察到部分病例（蓝色圆点），传播树是未知的，对病例的数量一般也只能进行粗略的估计。基因组序列则使我们能够推测出传播树的部分区域。在这个例子中，传播树上标出了三个突变（小方块所示）。因为有同样突变的序列在遗传上的亲缘关系更近，我们可以根据这些突变对属于同一条传播链的、亲缘关系很近的病毒进行聚类。
 </p>
 </div>
 ```
@@ -69,9 +69,9 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 <!-- This is left-side text -->
 # [如何解读系统发生树？](https://nextstrain.org/ncov/2020-03-11)
 
-系统发生树的横轴代表差异程度（时间上或者遗传上的差异——接下来就会讲到）。纵轴则是让数据展开，让我们能够看到各个点，它是没有测量单位的。
+树的横轴代表差异程度（时间上或者遗传上的差异——接下来就会讲到）。纵轴则是让数据展开，让我们能够看到各个点，它是没有测量单位的。
 <br><br>
-树的末端代表样本（也就是上一页的蓝色病例），内部的节点代表没有被取样到、但被我们认为是所有后续病例的共同来源的病例（也就是上一页的红色节点）。它们的关系是通过分析样本中突变的分布来推测出的。
+树的末端代表样本（也就是上一页中的蓝色病例），内部的节点代表没有被取样到、但被我们认为是所有后续病例的共同来源的病例（也就是上一页的红色节点）。它们之间的关系是通过分析样本中突变的分布来推测出的。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -102,17 +102,17 @@ A和B中也有不存在于其他序列中的独特突变（绿色圆点），但
 
 <!-- This is left-side text -->
 <!-- # [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open) -->
-# [“多样性”图与系统发生树之间的联系](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [“多样性”图表与系统发生树之间的联系](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-让我们来看看已经公开分享的第一批来自169</tag>株SARS-CoV-2病毒(COVID-19的致病病毒)毒株的数据。和上一页一样，我们比对了这些病毒的序列(您可以在[GitHub](https://github.com/nextstrain/ncov)看到这里提到的所有分析是如何完成的)。
+让我们来看看已经公开分享的第一批来自169</tag>株SARS-CoV-2病毒(COVID-19的致病病毒)的数据。和上一页一样，我们比对了这些病毒的序列(您可以在[GitHub](https://github.com/nextstrain/ncov)看到这里提到的所有分析是如何完成的)。
 <br><br>
 在这里，系统发生树的下方有一个条形图，上面显示病毒基因组中的变异（即突变）。
 如果没有这些突变，我们就无法构建这棵树，所以这两个图是紧密相关的。
 <br><br>
-在这个“多样性（Diversity）”条形图中，横轴是病毒基因组中的位点(总共三万个左右!)，竖轴表示每个位点的变异程度。
+在这个“多样性（Diversity）”条形图中，横轴是病毒基因组中的位点（总共三万个左右！），竖轴表示每个位点的变异程度。
 <br><br>
 我们已经根据一个突变给系统发生树涂上了两种颜色 -- 在这个例子中，所根据的突变是 "ORF1b"基因的314号密码子。
-没有已知的实验证据表明这个突变是功能性突变(有生物学意义的改变)。
+没有已知的实验证据表明这个突变是功能性突变（有生物学意义的改变）。
 我们正是用这样的突变来定义序列之间的关系，构建系统发生树。
 
 <!--
@@ -127,7 +127,7 @@ A和B中也有不存在于其他序列中的独特突变（绿色圆点），但
 
 <!-- This is left-side text -->
 <!-- # [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div) -->
-# [用遗传差异来衡量基因差异大小](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+# [测量遗传差异](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
 <!-- 
 This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
 <br><br>
@@ -139,20 +139,20 @@ At the moment, this may not look much like a ‘tree’. Many of the sequences a
 Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
 You can see how many mutations a branch has by hovering your mouse over it.
 -->
-这是第一批公开共享的169</tag>株SARS-CoV-2(COVID-19的致病病毒)毒株的系统发生树.
+这是第一批公开共享的169</tag>株SARS-CoV-2病毒（COVID-19的致病病毒）的系统发生树。
 <br><br>
-这里，横轴表示差异大小，也就是与根部（即疫情爆发的开端）的序列相比，这些病毒基因组中的改变(突变)的数量.
-一些序列有零个突变，意味着它们都与树的根部(中心)的序列完全相同.
-其他病毒有1到11个突变.
+这里，横轴表示差异大小，也就是与根部（即疫情爆发的开端）的序列相比，这些病毒基因组中的改变（突变）的数量。
+一些序列有零个突变，意味着它们都与树的根部（中心）的序列完全相同。
+其他病毒有1到11个突变。
 <br><br>
-目前，它可能看起来不太像一棵“树”。有很多序列是相同的，它们都位于一条垂直线上，就像之前图中的A和B（注意其中有些序列位于树的最左边）。
-其他序列中有独特的或共同的突变，它们位于水平线——树的分支——的末端，并分布在图的右侧。
-您可以通过将鼠标悬停在分支上来查看该分支有多少突变.
+目前，它可能看起来不太像一棵“树”。有很多序列是相同的，它们都位于一条垂直线上，就像之前示例图中的A和B（注意其中有些序列位于树的最左边）。
+其他序列中有独特的或共同的突变，它们位于水平线——树的分支——的末端，一直分布到图的右侧。
+您可以通过将鼠标悬停在分支上来查看该分支有多少突变。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- # [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open) -->
-# [衡量差异的时间变化](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [在时间上的差异](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 <!--
 We can also visualize how the virus has spread over time by using the sampling date as the x axis.
 Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
@@ -161,12 +161,12 @@ Notice how many sequences that previously sat in a line (indicating identical ge
 This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
 You can scroll up and down between the previous slide and this one, to see how the tree changes.
 -->
-我们还可以通过使用采样日期作为x轴来查看病毒是如何随时间传播的.
-在这里，x轴代表病毒的采样日期。每个树枝末端在x轴上的位置代表该样本的采集日期。内部节点--也就是“缺失病例”--的出现日期则是根据其后代的采样时间和病毒突变速率来推断的.
+我们还可以通过使用采样日期作为x轴来查看病毒是如何随时间传播的。
+在这里，x轴代表病毒的采样日期。每个树枝末端在x轴上的位置代表该样本的采集日期。内部节点--也就是“缺失病例”--的出现日期则是根据其后代的采样时间和病毒的突变速率来推断的。
 <br><br>
-注意有多少之前位于同一条垂直线上的序列(表示它们具有完全相同的基因组)现在在时间上被分开了.
-当病毒变异的速度比传播的速度稍慢时，就会发生这种情况.
-您可以在上一页和这张页之间切换来查看树的变化.
+注意有多少之前位于同一条垂直线上的序列（表示它们具有完全相同的基因组）现在在时间上被分开了。
+当病毒变异的速度比传播的速度稍慢时，就会发生这种情况。
+您可以在上一页和这张页之间切换来查看树的变化。
 <!-- There is NO right-side text -->
 
 
@@ -179,10 +179,10 @@ Because we can assign dates to each sample and node in the tree, we can use this
 <br><br>
 If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
 -->
-我们也可以使用基因组学来推断疫情开始的日期，即使这个时间是在疫情正式被人们发现之前.
-因为我们的分析方法可以为树中的每个样本和节点分配日期，所以我们也可以使用它来推断树的“根”的日期。树根代表我们到目前为止收集到的所有SARS-CoV-2序列的“最近共同祖先”，就好比你的祖父母是你和你所有的表亲的“最近共同祖先”一样。
+我们也可以使用基因组学来推断疫情开始的日期，即使这个时间是在疫情正式被人们发现之前。
+因为我们的分析方法可以为树中的每个样本和节点分配日期，所以我们也可以使用它来推断树的“根”的日期。树根代表目前所收集到的所有SARS-CoV-2序列的“最近共同祖先”，就好比一个人的祖父母是他和他所有一代表亲的“最近共同祖先”。
 <br><br>
-将鼠标悬停在最左侧的垂直线上，您可以看到，我们所推断出的此次疫情的开始日期在2019年11月中旬至12月中旬之间.
+将鼠标悬停在最左侧的垂直线上，您可以看到，我们所推断出的此次疫情的开始日期在2019年11月中旬至12月中旬之间。
 
 <!-- There is NO right-side text -->
 
@@ -190,15 +190,15 @@ If you mouse over the leftmost vertical line, you can see that the inferred star
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 <!-- # [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)-->
-# [系统发生树上的性状(颜色)是什么意思?](https://nextstrain.org/ncov/2020-03-11)
+# [系统发生树上的性状（颜色）是什么意思?](https://nextstrain.org/ncov/2020-03-11)
 <!-- 
 Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
 <br><br>
 Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
 -->
-系统发生树经常包含一些额外信息，比如样本的采集地点。由此，我们可以使用数学模型来推断内部节点(假想的、未被抽样到的中间病例)的地理位置。这可以帮助我们了解病毒是如何从一个地点移动到下一个地点的.
+系统发生树经常包含一些额外信息，比如样本的采集地点。由此，我们可以使用数学模型来推断内部节点（假想的、未被抽样到的中间病例）的地理位置。这可以帮助我们了解病毒是如何从一个地点转移到下一个地点的。
 <br><br>
-然而，我们在解读这些结论时应谨慎行事，因为采样和测序过程中的问题或不足会很大地影响结论的正确性.
+然而，我们在解读这些结论时应谨慎行事，因为采样和测序过程中的问题或不足会很大地影响结论的正确性。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -208,13 +208,13 @@ Interpreting these should, however, be done with caution, as the sampling and se
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-左边是一个采样完全的系统发生树，它的样本来自两个不同的地方，分别用橙色和蓝色表示。当我们沿着树往下看时，可以观察到从橙色到蓝色的颜色（地点）转换发生了三次。由此我们可以得出结论，发生了三次从橙色地点到蓝色地点的输入事件.
+左边是一个采样完全的系统发生树，它的样本来自两个不同的地方，分别用橙色和蓝色表示。当我们沿着树往下看时，可以观察到从橙色到蓝色的颜色（地点）转换发生了三次。由此我们可以得出结论，发生了三次从橙色地点到蓝色地点的输入事件。
 <br><br>
-但是，我们的推断依赖于采样范围：在中间的树中，我们移除了一个橙色样本。我们现在只能观察到一次从橙色到蓝色的转变，意味着只有一次早期发生的输入蓝色地区的事件.
+但是，我们的推断依赖于采样范围：在中间的树中，我们移除了一个橙色样本。我们现在只能观察到一次从橙色到蓝色的转变，表示只有一次早期发生的输入蓝色地区的事件。
 <br><br>
-在最后一个例子中，我们只有一条来自橙色地区的序列，这可能会让我们认为有一次从蓝色输入到橙色的事件.
+在最后一个例子中，我们只有一条来自橙色地区的序列，这可能会让我们认为有一次从蓝色输入到橙色的事件。
 <br><br>
-因此，虽然这些推论可能很有意义，但我们在解读时也必须谨慎.
+因此，虽然这些推论可能很有意义，但我们在解读时也必须谨慎。
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
@@ -226,17 +226,17 @@ Interpreting these should, however, be done with caution, as the sampling and se
 # [地图与系统发生树的关系](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
 在这里，我们可以看到根据样本的地理位置（以及推断出的内部节点的地理位置）着色的树。
-点击['浏览数据'](https://nextstrain.org/ncov), 您可以播放一段动画，观看所推断出的病毒在疫情爆发过程中的传播情况。
+点击['浏览数据'](https://nextstrain.org/ncov), 您可以播放一段动画，观看所推断出的疫情爆发过程中的病毒传播情况。
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 <!-- # [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11) -->
-# [高级阅读：系统发生树中的不确定性](https://nextstrain.org/ncov/2020-03-11)
+# [进阶阅读：系统发生树的不确定性](https://nextstrain.org/ncov/2020-03-11)
 前面，我们讨论了内部节点是如何代表_假设的_未采样病例的。事实上，每个系统发生树都代表着关于病原体随时间进化和传播的一种“_假说_”。我们在NextStrain网页上展示的树是“点估计” -- 意思是，在众多版本的演化史中，这棵树所展示的病毒演化史是最有可能让我们观测到现在所观测到的数据的。
 <br><br>
-不过，这样的估测总是存在不确定性。一般说来，树中采样密集的区域确定性较高，采样稀疏的区域就不太确定.
+不过，这样的估测总是存在不确定性。一般说来，树中采样密集的区域确定性较高，采样稀疏的区域就不太确定。
 
 ```auspiceMainDisplayMarkdown
 # 图示
