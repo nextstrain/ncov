@@ -36,7 +36,7 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [Inhoud](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
 * [Achtergrondinformatie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
 * [Een opmerking over bemonstering](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
@@ -52,7 +52,7 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Samenvatting
 
 Hier hebben we 723 publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virus genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld.
 
@@ -85,11 +85,11 @@ Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal pr
 ## Achtergrondinformatie
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="Microscopische afbeelding van Coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Achtergrond bij Coronavirussen </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="Microscopische afbeelding van Coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Achtergrond bij Coronavirussen (Engels) </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="Illustratie van een Coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recente COVID-19-uitbraak achtergrond </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="Illustratie van een Coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recente COVID-19-uitbraak achtergrond (Engels) </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="Cartoon van een fylogenentische boom" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Hoe kan ik Fylogenieën lezen</a>
+  <a href="https://nextstrain.org/narratives/trees-background/nl/"><img alt="Cartoon van een fylogenentische boom" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Hoe kan ik Fylogenieën lezen</a>
 </div>
 
 ## Verder lezen 
@@ -126,7 +126,7 @@ De kaart toont erg weinig sequenties in het mondiale zuiden. Bijvoorbeeld, we he
 # [Andere regio's zijn overgerepresenteerd in deze data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 In andere gebieden, zoals in Nederland, is er een grote hoeveelheid sequentiedata beschikbaar in verhouding tot het totale aantal van besmettingen. 
 <br><br>
-In conclusie, als u dit narratief leest, is het belangrijk om te onthouden dat de grootte van de iedere cirkel op de map aangeeft hoeveel data er op dit moment beschikbaar is vanuit die regio, in plaats van de ware grootte van de uitbraak. U kunt [hier](https://nextstrain.org/narratives/trees-background?n=8) hoe dit onze INTERFERENCES OF TRANSMISSION can beïnvloeden. 
+In conclusie, als u dit narratief leest, is het belangrijk om te onthouden dat de grootte van de iedere cirkel op de map aangeeft hoeveel data er op dit moment beschikbaar is vanuit die regio, in plaats van de ware grootte van de uitbraak. U kunt [hier](https://nextstrain.org/narratives/trees-background/nl?n=8) hoe dit onze reconstructie van de besmettingsroutes kan beïnvloeden. 
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -205,7 +205,7 @@ Deze nieuwe uitbraken kunnen op hun beurt verdere introducties op andere locatie
 # [Hoe uitbraken groeien: een voorbeeld](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 We kunnen een duidelijk voorbeeld hiervan zien in de gegevens van de staat Washington.
-Door over de stam van de hoofdclade te bewegen, blijkt dat het virus waarschijnlijk tussen eind januari en half februari 2020 in dit gebied is geïntroduceerd ([methoden] (https://nextstrain.org/narratives/trees-background?n=6 )).
+Door over de stam van de hoofdclade te bewegen, blijkt dat het virus waarschijnlijk tussen eind januari en half februari 2020 in dit gebied is geïntroduceerd ([methoden](https://nextstrain.org/narratives/trees-background/nl?n=6)).
 <br> <br>
 Nu, half maart (~ 6 weken later), zien we dat er in dit gebied een lokale uitbraak in volle gang is. Alleen al op basis van de sequentiegegevens schatten we een verdubbeling iedere 3-6 dagen, uitgaande van een exponentieel groeiende populatie.
 
@@ -218,7 +218,7 @@ Nu, half maart (~ 6 weken later), zien we dat er in dit gebied een lokale uitbra
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [Hoe uitbraken verspreiden: een voorbeeld](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
 We kunnen ook een voorbeeld zien van hoe aanvankelijk gelokaliseerde uitbraken, introducties op andere locaties starten.
 De monsters uit Utah in de buurt van de top van de boom (oranje) nestelen in de belangrijkste clade van de uitbraak in Washington.
@@ -273,7 +273,7 @@ Sociale afstand nemen - dat wil zeggen het verminderen van het aantal mensen dat
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-Wat u kunt doen
+# Wat u kunt doen
 ## ...als een individu
 * Verminder drastisch het aantal mensen waarmee u elke dag in contact komt, vooral als u tot een kwetsbare groep behoort (bijvoorbeeld senioren en mensen met reeds bestaande aandoeningen).
 * Onthoud dat zelfs als je niet super kwetsbaar bent, veel mensen om je heen dat wel zijn; volg deze praktijken om anderen te beschermen.
@@ -612,7 +612,7 @@ We zijn dankbaar voor de gegevens die door deze oorspronkelijke laboratoria zijn
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Gedetaileerd wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
 Deze gegevens werden gedeeld via [GISAID](https://gisaid.org).
 Wij zijn dankbaar voor hun bijdragen.
