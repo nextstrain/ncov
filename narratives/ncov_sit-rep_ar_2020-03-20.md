@@ -94,7 +94,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [ملاحظة عن جمع العيناتA note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+# [ملاحظة عن جمع العينات](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
 نمتلك حاليا تسلسلات جينومية للفيروس من عينات جمعت من 36 دولة في 6 قارات. وهذا انجاز غير قابل للتصديق-- فتحديد تسلسل جينوم فيروس ار ان اي كبير وغير معروف في وسط جائحة وبائية هو امر صعب، وما كان ليصبح ممكنا لولا العمل المضني والمشاركة الفورية للبيانات من قبل العلماء والاطباء حول العالم
 <br><br>
 في حين ان هذه البيانات تمكننا من استنتاج العديد من الخصائص المفيدة عن الوباء وتتبع انتشاره بالوقت الحقيقي الا انه من المهم التأكيد على ان استنتاجاتنا تبقى محدودة بسبب محدودية الوصول للبيانات.
@@ -108,7 +108,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [بعض الاماكن فير ممثلة بشكل كاف في هذه البيانات](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+# [بعض الاماكن غير ممثلة بشكل كاف في هذه البيانات](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
 تعرض الخارطة تسلسلات قليلة جدا من نصف المرة الارضية الجنوبي. على سبيل المثال، لدينا فقط 4 تسلسلات من اصل 25 دولة في أمريكا اللاتينية، حيث حالات كوفيد 19. [تقارير منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)  وهذا ليس لأن كوفيد 19 لا يدور في تلك الأماكن ولا لان حالات الاصابة هناك غير مهمة للفهم وانما بسبب عدم امتلاكنا بيانات كثيرة من تلك الاماكن.
 <br><br>
 <!-- There is NO right-side text -->
@@ -116,7 +116,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+# [مناطق اخرى ممثلة بشكل اكبر في هذه البيانات](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 في بعض الاماكن كهولندا هناك كمية كبيرة متاحة عن بيانات تسلسل جينومات الفيروس مقارنة بعدد الحالات الكلي للاصابات
 <br><br>
 لذلك عند قراءة هذا التقرير يجب تذكر ان حجم الدوائر على الشجرة يشير الى  كمية البيانات المتوفرة حاليا من تلك المنطقة وليس الحجم الحقيقي للوباء هناك. تستطيع [اقرأ هنا](https://nextstrain.org/narratives/trees-background?n=8) فهم كيف يمكن ان يؤثر ذلك على استنتاجاتنا عن الانتشار الوبائي
@@ -126,23 +126,23 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [بيانات تسلسل جينومات الفيروس يمكنها التقاطع مع تواريخ السفر](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+تحديد اين تمت اصابة حالة معينة مهم من اجل فهم اي المناطق تختبر حالات انتشار محلي للوباء مقارنة بحالات اولية مرتبطة بالسفر. بيانات التسلسل تساعدنا على التفريق بين هذه السيناريوهات.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the green Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+الشجرة هنا ملونة بحالة اصابة مرتبطة بالسفر (متى عرفت). بالنظر الى الى التسلسل الكندي بالاخضر في الوسط نرى انهم قاموا بتوثيق حالات سفر الى اوروبا. مجموعات الاصابه هذه مع التسلسلات الاوروبية الاخرى ترينا بشكل مؤكد تقريباً بأن هذه الحالة مرتبطة بالسفر.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [بيانات تسلسل جينومات الفيروس تتقاطع مع تواريخ السفر](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
+بتصغير الصورة، نستطيع ان نرى ان ذلك ليس دائما متوافقا
 <br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
+نستطيع هنا ان نرى بأن جميع الحالات تقريبا التي تم توثيقها بالسفر الى ايران تتجمع معا في وسط الشجر. 
 <br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
+نحو اعلى الشجرة نستطيع ان نرى حالة كندية بتاريخ سفر الى ايران ، ومع ذلك هذا التسلسل لا يتجع في اي مكان بالقرب من بقية الحالات المرتبطة بتاريخ سفر الى ايران
 <br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+هناك امكانية مؤكدة بأن هذا الشخص اصيب من خلال سلسلة انتشار اخرى جارية في ايران ولكن حتى نحصل على بيانات اكثر فلا يمكننا التأكد بان حالة الايابة هذه تم اكتسابها من خلال السفر. It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
 
 <!-- There is no right side text -->
 
