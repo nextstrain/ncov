@@ -142,7 +142,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <br><br>
 نحو اعلى الشجرة نستطيع ان نرى حالة كندية بتاريخ سفر الى ايران ، ومع ذلك هذا التسلسل لا يتجع في اي مكان بالقرب من بقية الحالات المرتبطة بتاريخ سفر الى ايران
 <br><br>
-هناك امكانية مؤكدة بأن هذا الشخص اصيب من خلال سلسلة انتشار اخرى جارية في ايران ولكن حتى نحصل على بيانات اكثر فلا يمكننا التأكد بان حالة الاصابة هذه تم اكتسابها من خلال السفر. It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+هناك امكانية مؤكدة بأن هذا الشخص اصيب من خلال سلسلة انتشار اخرى جارية في ايران ولكن حتى نحصل على بيانات اكثر فلا يمكننا التأكد بان حالة الاصابة هذه تم اكتسابها من خلال السفر.
 
 <!-- There is no right side text -->
 
@@ -183,9 +183,9 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 يوجد ادناه تجربة تبين كيف حدث ذلك في ووهان. على المحور الصادي لدينا المساحة وعلى المحور السيني لدينا الزمن. المنطقة المظللة تمثل عدد الاصابات.
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+ انطلق معامل حال كوفيد ١٩ في ووهان في نوفمبر 2019 الى عدة الاف من الحالات مع اواسط يناير 2020، ولذلك فالانتقال من زراعة بذرة اولية الى الانتشار الوبائي المحلي استغرق حوالي 10 اسابيع. نحن نعتقد بان احداث زراعة بذور الإصابة بدأت عالمياً في اواسط يناير 2020. ولذلك لدينا 10 اسابيع حساسة منذ ذلك الحين لاحتواء حالات الانتشار الوبائي الوليدة قبل ان تصبح بحجم كبير وملحوظ" [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
-These new outbreaks may, in turn, seed further introductions to other locations.
+هذه الانتشارات الوبائية يمكن بدورها ان تسبب او تزرع ادخالات جديدة الى اماكن اخرى
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -194,12 +194,13 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [كيف ينمو الوباء: مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+نستطيع ان نرى مثالا واضحا على ذلك من البيانات من واشنطن
+تمرير الفأرة فوق جذر الفرع الرئيسي للشجرة يظهر بانه قد تم ادخال الفيروس على الاغلب الى هذه المنطقة ما بين نهاية يناير واوسط فبراير 2020 ([الطرق](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+والان، هنا في اوسط مارس (بعد حوالي 6 اسابيع) نستطيع رؤية انتشار وبائي محلي بدوران كامل في هذه المنطقة 
+من خلال البيانات التسلسلية لوحدها يمكننا تقدير معدل التضاعف ب 3-6 ايام مفترضا نمو لوغاريتمايتي.  
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
