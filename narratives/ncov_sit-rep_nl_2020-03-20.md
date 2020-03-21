@@ -129,11 +129,12 @@ In conclusie, als u dit narratief leest, is het belangrijk om te onthouden dat d
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [Sequentiedata kan reisgeschiedenis valideren](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+Identificeren waar een bepaalde besmetting is opgelopen is belangrijk om te begrijpen welke gebieden locale transmissie ervaren, ten opzichte van besmettingen geassocieerd met reizen. Sequentiedata kan ons helpen tussen deze twee scenario's te differentiëren. 
+
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the green Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+Hier is de boom gekleurd op basis van reisgeschiedenis van een besmetting (wanneer bekend). Kijkende naar de groene Canadese sequentie in het midden, zien we dat deze sequentie een bekende reisgeschiedenis naar Europa heeft. Deze infectie groeppeert met andere Europese sequenties en toont aan dat deze besmetting bijna zeker gerelateerd is aan de reisgeschiedenis. 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
