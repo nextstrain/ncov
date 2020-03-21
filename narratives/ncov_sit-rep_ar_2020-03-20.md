@@ -142,7 +142,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <br><br>
 نحو اعلى الشجرة نستطيع ان نرى حالة كندية بتاريخ سفر الى ايران ، ومع ذلك هذا التسلسل لا يتجع في اي مكان بالقرب من بقية الحالات المرتبطة بتاريخ سفر الى ايران
 <br><br>
-هناك امكانية مؤكدة بأن هذا الشخص اصيب من خلال سلسلة انتشار اخرى جارية في ايران ولكن حتى نحصل على بيانات اكثر فلا يمكننا التأكد بان حالة الايابة هذه تم اكتسابها من خلال السفر. It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+هناك امكانية مؤكدة بأن هذا الشخص اصيب من خلال سلسلة انتشار اخرى جارية في ايران ولكن حتى نحصل على بيانات اكثر فلا يمكننا التأكد بان حالة الاصابة هذه تم اكتسابها من خلال السفر. It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
 
 <!-- There is no right side text -->
 
@@ -178,10 +178,10 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 ```auspiceMainDisplayMarkdown
 # ؟كيف يمكن للادخال ان يتحول الى وباء
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+هذه الادخالات لا تسبب احيانا حالات اصابة ثانوية او انتشارات وبائية محلية-- خصوصا اذا تم تحديد معامل الحالة وتم عزلها بسرعة.
+ا ومع ذلك، في العديد من الحالات ينتشر الفيروس بشكل لا يمكن كشفه خلال المجتمع المحلي حتى يصل الوباء الى حجم ملحوظ 
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
+يوجد ادناه تجربة تبين كيف حدث ذلك في ووهان. على المحور الصادي لدينا المساحة وعلى المحور السيني لدينا الزمن. المنطقة المظللة تمثل عدد الاصابات.
 
 "COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
