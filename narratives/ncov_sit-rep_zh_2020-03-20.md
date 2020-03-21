@@ -19,8 +19,12 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators: Derek 张卷卷
+translators: 	
+  - Derek 张卷卷
+  - 李雪莹
 translatorLinks:
+  - 
+  - https://twitter.com/3Xueying
 date: "2020 March 19"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19）基因组数据来追踪疫情的传播，此报告将每周更新。"
@@ -33,17 +37,17 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text 1 -->
 # [目录](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [关于抽样](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [测序数据和旅行史](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [COVID-19已经输入到几乎所有国家](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [疫情是如何加剧和传播的](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [华盛顿的疫情是如何发展起来的](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [华盛顿的疫情是如何蔓延的](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [减少社交接触可以对病例数量产生什么影响](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [背景资料](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=2).     
+* [关于抽样](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=3).
+* [测序数据和旅行史](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=6).
+* [COVID-19已经输入到几乎所有国家](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=8).
+* [疫情是如何加剧和传播的](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=9).
+* [华盛顿的疫情是如何发展起来的](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=10).
+* [华盛顿的疫情是如何蔓延的](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=11).
+* [减少社交接触可以对病例数量产生什么影响](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=12).
+* [你能做些什么](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=13).
 * [常见问题和误区](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [科学贡献人员](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -51,8 +55,8 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 在这里，我们分析了723个公开共享的COVID-19基因组。通过将这些病毒基因组相互比较，我们可以推断COVID-19是如何在世界各地传播的。
 
-我们在这份报告中强调，该病毒已被引入并在全球许多地区传播。
-为了知道COVID-19是否在当地传播以及传播到什么程度，以及疫情控制措施如何减缓这种传播，需要对当地的疫情状态有很好的了解。这需要进行广泛的检测才能实现。
+我们在这份报告中强调，该病毒已被引入全球许多地区，并在各地传播。
+为了了解COVID-19是否在当地传播以及传播到什么程度，以及疫情控制措施如何减缓这种传播，需要对当地的疫情状态有很好的了解。这需要进行广泛的检测才能实现。
 这强调了快速检测确诊病例的重要性，重点要放在降低本地疫情的传播速度上。
 
 在本周的更新中，我们发现:  
