@@ -48,8 +48,7 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 * [Hoe de uitbraak in Washington verspreidde](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=11).
 * [Hoe besmettingsgevallen veranderen door sociale distanciëring](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=12).
 * [Wat u kunt doen](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=13).
-* [FAQ & veelvoorkomende misvattingen](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=14).
-* [Wetenschappelijk dankwoord](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=15).
+* [Wetenschappelijk dankwoord](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
