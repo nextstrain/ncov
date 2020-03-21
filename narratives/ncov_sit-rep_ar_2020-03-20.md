@@ -23,7 +23,7 @@ translators:
 translatorLinks:
 date: "٢٠ آذار ٢٠٢٠"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "يستخدم هذا التقرير البيانات الجينومية والتي تم مشاركتها للعموم من اجل تتبع انتشار كوفيد ١٩. يتم تحديث هذهةالتقارير أسبوعياً."
+abstract: "يستخدم هذا التقرير البيانات الجينومية والتي تم مشاركتها للعموم من اجل تتبع انتشار كوفيد ١٩. يتم تحديث هذه التقارير أسبوعياً."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -35,9 +35,9 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 * [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
 *  
- [ملاحظة عن جمع العينات](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* Introduction of COVID-19 to almost all countries](https://nextstrain.org/naratives/ncov/sit-rep/2020-03-20?n=8).
+[ملاحظة عن جمع العينات](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [بيانات التسلسلات وتاريخ السفرSequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [ Introduction of COVID-19 to almost all countries](https://nextstrain.org/naratives/ncov/sit-rep/2020-03-20?n=8).
 * [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
 * [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
 * [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
