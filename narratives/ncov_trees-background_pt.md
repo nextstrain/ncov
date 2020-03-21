@@ -164,7 +164,7 @@ Assim sendo, embora essas inferências possam ser valiosas, elas também devem s
 <!-- This is left-side text -->
 # [Como o mapa se relaciona com a árvore?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Aqui, mostramos a árvore colorida de acordo com o local de cada amostra (e local inferido para cada ponto interno desconhecido). Se você clicar em ['Explorar os dados'](https://nextstrain.org/ncov), poderá reproduzir uma animação da propagação inferida do vírus ao longo de todo o surto.
+Aqui, mostramos a árvore colorida de acordo com o local de origem de cada amostra (e local inferido para cada ponto interno desconhecido). Se você clicar em [_'Explore the data yoursel'_](https://nextstrain.org/ncov), no topo (à direita), poderá reproduzir uma animação da dispersão viral inferida ao longo de todo o surto.
 
 
 <!-- ############ SLIDE BREAK ############# -->
