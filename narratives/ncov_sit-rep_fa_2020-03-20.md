@@ -42,7 +42,8 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
 * [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
 * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -106,19 +107,30 @@ Let's look at a few examples.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [برخی از مناطق در این داده‌ها حضور کم رنگ دارند](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+<p dir="rtl">
+این نقشه نمونه توالی‌های ژنتیکی بسیار کمی از مناطق جنوبی را نشان می‌دهد. به عنوان مثال، ما فقط از ۴ کشور از ۲۵ کشور آمریکای لاتین که
+<a href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2">سازمان جهانی بهداشت</a>
+موارد کووید-۱۹ در آنها را گزارش کرده نمونه توالی ژنتیکی داریم.
+<br>
+این امر به این دلیل نیست که کووید-۱۹ در این مناطق در حال شیوع نیست، یا این موارد ارزش فوق‌العاده‌ای برای بررسی ندارند. بلکه، ما فقط اطلاعات زیادی از این مناطق نداریم.
 <br><br>
+</p>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+# [مناطق دیگر در این داده‌ها بیش از حد نمایش داده شده‌اند](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+<p dir="rtl">
+در مناطق دیگر، مانند هلند، نسبت به تعداد کل پرونده‌ها، تعداد زیادی از داده‌های توالی ژنتیکی موجود است.
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+بنابراین، هنگام خواندن این گزارش، به خاطر داشته باشید که اندازه هر دایره روی نقشه نشان می‌دهد که چه مقدار داده در حال حاضر از آن منطقه در  دسترس است تا اینکه بیانگر اندازه واقعی شیوع در آن منطقه باشد.
+می‌توانید
+<a href="https://nextstrain.org/narratives/trees-background?n=8">در اینجا</a>
+درمورد اینکه چگونه این امر می‌تواند استنتاج انتقال بیماری را تحت تأثیر قرار‌دهد.
 <br><br>
+</p>
 
 <!-- There is NO right-side text -->
 
