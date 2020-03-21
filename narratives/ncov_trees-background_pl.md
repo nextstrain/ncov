@@ -216,7 +216,7 @@ You can scroll up and down between the previous slide and this one, to see how t
 # [Datowanie początku wybuchu epidemii](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
 Genomikę możemy również wykorzystać w celu oszacowania daty wybuchu epidemii, nawet jeśli to było zanim zdaliśmy sobie z niej sprawę. 
-Ponieważ możemy przypisać datę do każdej próbki i węzła na drzewie, możemy to wykorzystać do oszacowania daty pojawienia się 'korzenia' drzewa. Korzeń przedstawia "ostatniego wspólnego przodka" wszystkich sekwencji SARS-CoV-2, które dotychczas uzyskaliśmy. Np. twoi dziadkowie są "ostatnimi wspólnymi przodkami" dla ciebie i wszystkich twoich kuzynów pierwszego stopnia.
+Ponieważ możemy przypisać datę do każdej próbki i węzła na drzewie, możemy to wykorzystać do oszacowania daty pojawienia się "korzenia" drzewa. Korzeń przedstawia "ostatniego wspólnego przodka" wszystkich sekwencji SARS-CoV-2, które dotychczas uzyskaliśmy. Np. twoi dziadkowie są "ostatnimi wspólnymi przodkami" dla ciebie i wszystkich twoich kuzynów pierwszego stopnia.
 <br><br>
 Przesuń myszkę na najbardziej wysuniętą na lewo linię, a zobaczysz, że szacowana data tej epidemii jest pomiędzy połową listopada a połową grudnia 2019.
 
@@ -281,13 +281,18 @@ If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+# [Lektura zaawansowana: miary niepewności drzewa](https://nextstrain.org/ncov/2020-03-11)
+Wcześniej pisalismy jak wewnętrzne węzły przedstawiają _hipotetyczne_ nieprobkowane przypadki. W rzeczywistości, wszystkie drzewa są _hipotezami_ opisującymi jak patogen ewoluuje i przemieszcza się w czasie. Drzewa, które prezentujemy na Nextstrain są oszacowaniami punktowymi<!-- point estimates? --> -- tzn. wersjami historii, dla których prawdopodobieństwo obserwowania danych jakie mamy, jest największe. <!-- nie jestem pewna czy 'zmaksymalizowane' nie jest zbyt techniczne-->
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+Niemniej jednak, takie oszacowania zawsze obarczone są niepewnością. Mówiąc ogólnie, części drzewa, które są gęściej próbkowane, są też bardziej wiarygodne; obszary słabo próbkowane są mniej pewne.
+
+<!-- Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+<br><br>
+However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.-->
+
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+# Przykład
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
