@@ -128,7 +128,7 @@ Observe quantas seqüências que anteriormente estavam em uma linha (indicando g
 
 Também podemos usar a genômica para atribuir uma data para o início de um surto, mesmo que isso tenha acontecido antes de percebermos o que estava acontecendo. Como podemos atribuir datas a cada amostra e ponto na árvore, podemos usar isso para inferir a data da 'raiz' da árvore. Isso representa o "ancestral comum mais recente" de todas as seqüências SARS-CoV-2 que temos até agora. Por exemplo, seus avós são os "ancestrais comuns mais recentes" de você e todos os seus primos de primeiro grau.
 <br><br>
-Se você passar o mouse sobre a linha vertical mais à esquerda, poderá ver que a data de início inferida é entre meados de Novembro e meados de Nezembro de 2019 para esse surto em específico.
+Se você passar o ponteiro sobre a linha vertical mais à esquerda (em roxo), poderá ver que a data de início inferida é entre meados de Novembro e meados de Nezembro de 2019 para esse surto em específico.
 
 <!-- There is NO right-side text -->
 
@@ -138,7 +138,7 @@ Se você passar o mouse sobre a linha vertical mais à esquerda, poderá ver que
 # [Como devo interpretar traços (cores) na árvore?](https://nextstrain.org/ncov/2020-03-11)
 Árvores filogenéticas geralmente contêm informações adicionais, como o local de coleta de cada amostra. A partir disso, podemos inferir as localizações dos pontos internos (casos hipotéticos intermediários, ainda não amostrados) usando modelos matemáticos. Isso pode nos ajudar a entender como o vírus está se movendo de um local para o outro.
 <br><br>
-No entanto, devemos ter cautela ao interpretar estes, pois a amostragem e o seqüenciamento ou a falta deles podem influenciar significativamente a interpretação.
+No entanto, devemos ter cautela ao interpretar estas inferências, pois a amostragem, a quantidade de genomas sequenciados, ou a falta de genomas podem influenciar significativamente a interpretação.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
