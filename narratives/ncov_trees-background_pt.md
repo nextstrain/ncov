@@ -117,7 +117,7 @@ No momento, isso pode não parecer muito com uma "árvore". Muitas das seqüênc
 
 <!-- ############ SLIDE BREAK ############# -->
 # [Medindo diferenças ao longo do tempo](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-Também podemos visualizar como o vírus se espalhou ao longo do tempo usando a data de amostragem como o eixo x. Aqui, o eixo x representa a data de amostragem de cada vírus. As posições dos pontos refletem a data em que essas amostras foram coletadas. As datas dos pontos internos — os "casos desconhecidos" — são inferidas com base na amostragem de seus descendentes e na medida na qual o vírus sofre mutação.
+Também podemos visualizar como o vírus se espalhou ao longo do tempo usando a data de amostragem no eixo x. Aqui, o eixo x representa a data de amostragem de cada vírus. As posições dos pontos refletem a data em que essas amostras foram coletadas. As datas dos pontos internos — os "casos desconhecidos" — são inferidas com base na amostragem de seus descendentes e na velocidade com a qual o vírus sofre mutação.
 <br><br>
 Observe quantas seqüências que anteriormente estavam em uma linha (indicando genomas idênticos) agora estão separadas ao longo do tempo. Isso acontece quando a proporção na qual o vírus sofre mutação é um pouco mais lenta que a proporção na qual ele se espalha. Você pode rolar para cima e para baixo entre a página anterior e essa para ver como a árvore muda.
 <!-- There is NO right-side text -->
