@@ -164,16 +164,16 @@ Assim sendo, embora essas inferências possam ser valiosas, elas também devem s
 <!-- This is left-side text -->
 # [Como o mapa se relaciona com a árvore?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Aqui, mostramos a árvore colorida de acordo com o local de origem de cada amostra (e local inferido para cada ponto interno desconhecido). Se você clicar em [_'Explore the data yoursel'_](https://nextstrain.org/ncov), no topo (à direita), poderá reproduzir uma animação da dispersão viral inferida ao longo de todo o surto.
+Aqui, mostramos a árvore colorida de acordo com o local de origem de cada amostra (e local inferido para cada ponto interno desconhecido). Se você clicar em [_'Explore the data yourself'_](https://nextstrain.org/ncov), no topo (à direita), poderá reproduzir uma animação da dispersão viral inferida ao longo de todo o surto.
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [Leitura avançada: incerteza nas árvores](https://nextstrain.org/ncov/2020-03-11)
-Anteriormente, falamos sobre como os pontos internos das filogenias representam casos hipoteticamente não amostrados. Na verdade, todas as árvores representam hipóteses sobre como um patógeno evoluiu e se moveu ao longo do tempo. As árvores que apresentamos no Nextstrain são estimativas — ou seja, a versão desse histórico que maximiza a probabilidade de observação dos dados que fazemos.
+Anteriormente, falamos sobre como os pontos internos das filogenias representam casos hipoteticamente não amostrados. Na verdade, todas as árvores representam hipóteses sobre como um patógeno evoluiu e se moveu ao longo do tempo. As árvores que apresentamos no Nextstrain são estimativas — ou seja, a versão desse histórico que maximiza a probabilidade de observação dos dados.
 <br><br>
-No entanto, sempre há incerteza nessas estimativas. De um modo geral, partes da árvore que estão densamente amostradas são mais precisas, enquanto áreas com pouca amostragem são menos precisas.
+No entanto, sempre existem incertezas nessas estimativas. De um modo geral, partes da árvore que estão densamente amostradas são mais precisas, enquanto áreas com pouca amostragem são menos precisas.
 
 ```auspiceMainDisplayMarkdown
 # Ilustração
@@ -189,7 +189,7 @@ No entanto, sempre há incerteza nessas estimativas. De um modo geral, partes da
 <!-- This is left-side text -->
 # [Crédito científico](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Gostaríamos de reconhecer o trabalho incrível e oportuno realizado por todos os cientistas envolvidos nesse surto, sobretudo os que estão trabalhando na China. Somente com o compartilhamento rápido de dados genômicos e de metadados que tais análises foram possíveis.
+Gostaríamos de reconhecer o trabalho incrível e oportuno realizado por todos os cientistas envolvidos nesse surto, sobretudo os que estão trabalhando na China. Somente com o compartilhamento rápido de dados genômicos e de metadados é que tais análises foram possíveis.
 
 <br><br>
 
@@ -199,7 +199,7 @@ Também agradecemos a [GISAID](https://gisaid.org) por fornecer a plataforma pel
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Somos gratos pelos dados coletados pelos laborátorios abaixo:
 
 * Arizona Department of Health Services
 * Auckland Hospital
