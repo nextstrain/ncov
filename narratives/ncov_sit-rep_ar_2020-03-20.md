@@ -228,21 +228,21 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [تدابير التخفيف تأخذ وقتا لكنها تنقذ الارواح](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
+باتباع هذا المنطق فهناك على الاغلب العديد من سلاسل الانتشار المحلية والتي لم يتم التعرف عليها حتى الآن
 <br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
+وهذا يعني حتى الاماكن التي قامت فقط بتطبيق تدابير التباعد الاجتماعي فعلينا ان نستمر بتوقع ارتفاع اعداد الحالات على مدى الاسابيع القليلة القادمة.
+هذا لا يعني بأن هذه التدابير لا تعمل وانما فقط تحتاج لوقت حتى تظهر الاعراض على الافراد المصابين (وعلي افراد عائلاتهم ايضا)، وحتي يتم معالجتهم ومن ثم تعافيهم. كما نتوقع ايضا حدوث تضخم في اعداد الحالات المسجلة مع زيادة إمكانية إجراء الفحوصات على نطاق واسع.
 <br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
+من المهم الحفاظ على تدابير التباعد الاجتماعي خلال هذه الفترة. كما هو موضح على اليمين، اعداد الحالات مستمرة بالازدياد بعد ان تم تطبيق عمليات التدخل. ولكن مع الوقت فان الاعداد التراكمية للحالات انخفضت بقوة
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+##التباعد الاجتماعي لا يوقف كل الحالات الجديدة بين ليلة وضحاها ولكنه يقلل بقوة اعداد حالات الاصابة والوفيات على مدى الزمن.
+التباعد الاجتماعي -- اي تقليل عدد الاشخاص الذي تلتقيهم يوميا--- يمكن ان يشكل تحدياً ولكنه مفيد جداً لمصلحة الجميع.
+لو كل واحد من الجميع قام بتقليل نسبة اتصاله اليومي مع الاخرين بنسبة 25 بالمئة فيمكننا توقع ان نرى انخفاض بنسبة 50 بالمئة من الاعداد التراكمية للحالات خلال الشهر القادم. ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
