@@ -213,14 +213,19 @@ You can scroll up and down between the previous slide and this one, to see how t
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [Datowanie początku wybuchu epidemii](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
-Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
+Genomikę możemy również wykorzystać w celu oszacowania daty wybuchu epidemii, nawet jeśli to było zanim zdaliśmy sobie z niej sprawę. 
+Ponieważ możemy przypisać datę do każdej próbki i węzła na drzewie, możemy to wykorzystać do oszacowania daty pojawienia się 'korzenia' drzewa. Korzeń przedstawia "ostatniego wspólnego przodka" wszystkich sekwencji SARS-CoV-2, które dotychczas uzyskaliśmy. Np. twoi dziadkowie są "ostatnimi wspólnymi przodkami" dla ciebie i wszystkich twoich kuzynów pierwszego stopnia.
 <br><br>
-If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+Przesuń myszkę na najbardziej wysuniętą na lewo linię, a zobaczysz, że szacowana data tej epidemii jest pomiędzy połową listopada a połową grudnia 2019.
 
 <!-- There is NO right-side text -->
+
+<!-- We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
+Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
+<br><br>
+If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak. -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
