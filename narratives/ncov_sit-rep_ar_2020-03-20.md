@@ -48,15 +48,15 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# الملخص التنفيذي
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+قمنا هنا بتحليل جينومات 723 فيروس كوفيد 19 تم مشاركتها للعموم. نستطيع من خلال مقارنة تسلسلات الجينومات الفيروسية مع بعضها البعض تحديد كيفية تنقل فيروس كوفيد 19 في العالم
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+نؤكد في هذا التقرير على ان الفيروس تم ادخاله وما زال يدور في العديد من أجزاء العالم
+معرفة إن كان وإلى اي درجة يدور كوفيد 19 محلياً وكيف يمكن لإجراءات مكافحته ان تقلل من انتشاره تحتاج الى معرفة جيدة بديناميكة الوباء محلياً. وهذه بدوره يتطلب عمليات فحص واسعة 
+هذا يؤكد على اهمية الفحص السريع مع التركيز القوي على ابطاء الانتشار المحلي
 
-In this week's updates, we report:  
+في تقرير هذا الاسبوع، نوثق ما يلي:
 
 * Evidence for travel-related introductions to many parts of the world.  
 * Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
