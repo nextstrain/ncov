@@ -93,17 +93,16 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 <!-- This is left-side text -->
 # [Was verbindet die "diversity" Tabelle mit dem phylogenetischen Baum?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+Lassen Sie uns einen Blick auf die ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, das COVID-19 verursacht), die oeffentlich gemacht wurden, werfen. Genau wie auf der letzten Seite haben wir ein Alignment der Virus-Sequenzen konstruiert (Unter [on GitHub](https://github.com/nextstrain/ncov) koennen Sie sehen, wie saemtliche hier erwaehnte Analysen gemacht wurden).
 <br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
+Hier stellen wir den phylogenetischen Baum oberhalb eines Balkendiagrammes, das die Unterschiede (d.h. Mutationen) im Genom zeigt, dar. Ohne diese Mutationen koennen wir den Baum nicht konstruieren; die beiden sind also eng verbuden.
 <br><br>
-In this "divisity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
+In dieser 'diversity' Tabelle stellt die horizontale Achse jede einzelne Position im Virusgenom dar (alle 30000!).
+Die vertikale Achse stellt dar, wie hoch die Variabilitaet an jeder Position ist.
 <br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+Wir haven den Baum entsprechend einer dieser Mutationen -- in diesem Fall Codon 314 im Gen "ORF1b" -- gefaerbt.
+Es gibt keinen a priori-Grund anzunehmen, dass diese Mutation eine funktionale Mutation ist, d.h. dass sie einen biologischen Unterschied macht.
+Es sind ganz genau Mutationen wie diese, die wir nutzen, um die Verwandtschaftsbeziehungen zwischen den Sequenzen zu definieren und den Baum zu konstruieren.
 
 <!-- There is NO right-side text -->
 
