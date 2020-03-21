@@ -251,32 +251,32 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [العبر المأخوذةTakeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- تم ادخال الفيروس الى العديد من اجزاء العالم عدة مرات
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- نرى ادلة على عمليات انتسار محلي في العديد من الاماكن، ونتوقع ان الادخالات السابقة قد قامت بزرع العديد من حالات الوباء المحلية والتي ستصبح ظاهرة في الاسابيع القادمة
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+-  السيطرة على الوباءات المحلية من خلال التباعد الاجتماعي مهمة لكل من:
+  - # قم بتسطيح المنحنى من اجل منع انظمة الرعاية الصحية من ان تنهار بسبب اعداد الحالات المصابة الضخمة في نفس الوقت 
+  - تقليل الاعداد الكلية لحالات المصابين والوفيات  
+  - اعطاء الوقت الكافي من اجل تطوير العلاجيات والمطاعيم 
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# ماذا يمكنك ان تفعل
+## ...كفرد في المجتع
+* خفض بشكل كبير عدد الاشخاص الذين تحتك بهم يوميا، خصوصاً ان كنت من ضمن مجموعة الافراد الاكثر عرضة للاصابة (كبار السن ومن لديهم امراض مزمنة او لديهم عوامل الاصابة)
+* تءكر حتى لو انك لست مؤهلا للاصابة ، العديد ممن حولك فهم كذلك، اتبع تلتدابير التالية لحماية الاخرين:
+* اغسل بديك *مثل انك قمت الان بتقطيع الفلفل وعليك ان تغير عدساتك اللاصقة *
+* ابق في المنزل قدر ما تستطيع -- خصوصا اءا كنت مريضا، كنت متزودا باحتياجات اضافية في حال احتجت الى حجر ذاتي.
+* إذا كنت رب عمل، شجع موظفيك على العمل من البيت ان كان ذلك ممكنا
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## ...كمسؤول  
+* اجعل الفحوصات مجانية ومتوفرة بكثرة
+* ضع تدابير التباعد الاجتماعي وتابع تنفيذها بقوة على ارض الواقع
+* قم بتمويل وتطبيق جهود متابعة التواصل المكثفة..  
+* ادعم ماديا اولئك المتضررين مم التباعد الاجتماعي ( اي العمالةالذين ؤعلمون على الساعة، اولئك الذين يعتنون بالكبار والأطفال, المشاريع الصغيرة،...الخ)
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
