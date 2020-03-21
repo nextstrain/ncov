@@ -129,7 +129,7 @@ So, when reading this narrative, keep in mind that the size of each circle on th
 
 Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the green Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
