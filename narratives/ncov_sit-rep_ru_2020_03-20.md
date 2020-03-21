@@ -20,7 +20,9 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+	- Varvara Kozyreva
 translatorLinks:
+	- https://twitter.com/varvarakozyreva
 date: "19 Марта 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Этот отчет использует общедоступные геномные данные для отслеживания распространения COVID-19. Отчеты обновляются еженедельно."
@@ -260,19 +262,19 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# Что можешь сделать ты
+## ...лично
+* Значительно снизить количество людей с которыми ты контактируешь каждый день, особенно если ты относишься к уязвимой группе (например, пожилые люди и люди с существующими заболеваниями).
+* Помни, что даже если ты не особо подвержен опасности, то многие люди окружающие тебя могут быть уязвимы; следуй этим мерам предосторожности, чтобы защитить окружающих.
+* Мой руки так, как будто ты "только что порезал острый перец халапиньо и должен поменять контактные линзы"
+* Оставайся дома, насколько это возможно, - особенно, если ты болен; запасись дополнительными предметами первой необходимости на случай если тебе придется находиться под домашним карантином.   
+* Если ты работадатель, поощряй своих сотрудников работать на дому если возможно.
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## ...и как должностное лицо
+* Обеспечь свободное и широкодоступное тестирование
+* Учереди строгие меры социального дистанцирования.
+* Обеспечь финансирование и введи экстенсивные действия по отслеживанию контактов. 
+* Финансово поддерживай тех, кто наиболее пострадал всвязи с мерами социального дистанцирования (например работники с почасовой оплатой, людей с зависящими от них детьми и стариками, мелкие бизнесы, и т.д.).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
