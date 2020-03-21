@@ -36,7 +36,7 @@ abstract: "Dieses Narrativ erklärt wie man phylogenetische Bäume lesen und int
 Krankheitserreger verbreiten sich durch eine schnelle Vermehrung im Inneren eines Wirtes, gefolgt von der Transmission zum nächsten Wirt.
 Eine Epidemie kann sich nur verbreiten, wenn eine Infektion gefolgt wird von mehr als einer Übertragung.
 <br><br>
-Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom mehrere Male repliziert and zufällige Änderungen (oder Mutationen) akkumulieren in seinem Genom. Dies ist absolut normal und erlaubt es, dass die Verbreitung eines Krankheitserregers nachvollzogen werden kann und seine Ubertragungsrouten und Dynamiken verstanden werden können.
+Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom mehrere Male repliziert and zufällige Änderungen (oder Mutationen) akkumulieren in seinem Genom. Dies ist absolut normal und erlaubt es, dass die Verbreitung eines Krankheitserregers nachvollzogen werden kann und seine Uebertragungsrouten und Dynamiken verstanden werden können.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -183,9 +183,10 @@ Wenn Sie auf ['Explore the data'](https://nextstrain.org/ncov)klicken, koennen S
 
 <!-- This is left-side text -->
 # [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+In einem frueheren Abschnitt haben wir erklaert, wie die internen Verweigungspunkte _hypothetische_ unbeprobte Faelle repraesentieren. In der Tat repraesentieren alle Baueme _Hypothesen_, wie ein Pathogen sich entwickelt und ueber einen Zeitrahmen bewegt hat. Die Baueme auf nextstrain sind 'point estimates', d.h. die Versionen dieser Entwicklungsgeschichte, die die Wahrscheinlichkeit die Daten zu sehen, wie wir sie tataechlich sehen, maximieren.
+<!-- Not sure about the translation of the last sentence here: The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do. -->
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+Nichtsdestotrotz gibt es immer Unsicherheiten in diesen Abschaetzungen. Generell sind Teile des Baumes, die dicht beprobt sind, sicherer; Teile des Baumes, die duenn beprobt sind, sind weniger sicher.
 
 ```auspiceMainDisplayMarkdown
 # An illustration
