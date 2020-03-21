@@ -43,8 +43,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나-19
 * [워싱턴 주 유행의 전파](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
 * [사회적 거리두기가 확진자 수 변화에 가져온 변화](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
 * [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [질의응답 & 오해들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
