@@ -22,8 +22,10 @@ affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA
 translators: 
   - Roan van Scheppingen
   - Jisca Huisman
+  - Rutger Vos
 TranslatorLinks:
   - https://twitter.com/RScheppingen
+  - https://twitter.com/rvosa
 date: "19 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om zo de verspreiding van COVID-19 te volgen. Deze rapportages worden wekelijks bijgewerkt."
@@ -63,8 +65,8 @@ In de updates van deze week, rapporteren we:
 
 * Bewijs voor reisafhankelijke introductie in veel delen van de wereld. 
 * Veel plaatsen met recente introducties kunnen verwachten dat de gevallen verder groeien in 4 tot 8 weken. Ze moeten zich nu voorbereiden. 
-* Veel plaatsen hebben recent maatregelen genomen, zoals sociale distanciëring. Op de korte termijn zullen het aantal besmettingen toenemen, maar besmettingen zullen waarschijnlijk in een plateaufase  komen en afnemen op de langere termijn. 
-* Testen op zowel actieve infectie als op herstelde individuen zal van vitaal belang zijn om met deze epidimie om te gaan. 
+* Veel plaatsen hebben recent maatregelen genomen, zoals sociale distanciëring. Op de korte termijn zal het aantal besmettingen toenemen, maar besmettingen zullen waarschijnlijk in een plateaufase  komen en afnemen op de langere termijn. 
+* Testen op zowel actieve infectie als op herstelde individuen zal van vitaal belang zijn om met deze epidemie om te gaan. 
 ```
 
 
@@ -104,8 +106,8 @@ We hebben momenteel sequenties van monsters die genomen zijn in 36 landen op 6 c
 <br><br>
 Hoewel deze gegevens ons in staat stellen om veel nuttige kenmerken van de uitbraak af te leiden en de verspreiding ervan in real time te volgen, is het belangrijk om te benadrukken dat onze conclusies beperkt zijn door de beschikbare gegevens.
 Van het totale aantal besmettingen, wordt enkel een subset van de patienten getest. Van de geteste patiënten, wordt enkel een subset van de monsters gesequenced. 
-Welke subset van de besmettingen wordt getest en gesequenced, kan enorm varieren tussen geografische regio's en in de tijd.
-Daarnaast zijn fylogenetische reconstructies van uitbraken altijd geassocieerd met een mate van onzekerheid. 
+Welke subset van de besmettingen wordt getest en gesequenced kan enorm varieren tussen geografische regio's en in de tijd.
+Daarnaast hebben fylogenetische reconstructies van uitbraken altijd een mate van onzekerheid. 
 <br><br>
 Laten we naar een paar voorbeelden kijken.
 
@@ -114,7 +116,7 @@ Laten we naar een paar voorbeelden kijken.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
 # [Sommige regio's zijn ondergerepresenteerd in deze data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-De kaart toont erg weinig sequenties vanuit het zuiden. Bijvoorbeeld, we hebben enkel sequenties van 4 van de 25 landen in Latijns-Amerika, waar [de WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) besmettingen met COVID-19 rapporteert. Dit is niet omdat COVID-19 in deze gebieden nog niet circuleert, of dat deze besmettingen niet cruciaal zijn om te begrijpen. Echter, er is simpelweg nog weinig data beschikbaar vanuit deze regio's. 
+De kaart toont erg weinig sequenties in het mondiale zuiden. Bijvoorbeeld, we hebben enkel sequenties van 4 van de 25 landen in Latijns-Amerika, waar [de WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) besmettingen met COVID-19 rapporteert. Dit is niet omdat COVID-19 in deze gebieden nog niet circuleert, of dat deze besmettingen niet cruciaal zijn om te begrijpen. Echter, er is simpelweg nog weinig data beschikbaar vanuit deze regio's. 
 <br><br>
 <!-- There is NO right-side text -->
 
@@ -122,7 +124,7 @@ De kaart toont erg weinig sequenties vanuit het zuiden. Bijvoorbeeld, we hebben 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
 # [Andere regio's zijn overgerepresenteerd in deze data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In andere gebieden, zoals in Nederland, is er een enorme hoeveelheid sequentiedata beschikbaar, relatief tot het totale aantal van besmettingen. 
+In andere gebieden, zoals in Nederland, is er een grote hoeveelheid sequentiedata beschikbaar in verhouding tot het totale aantal van besmettingen. 
 <br><br>
 In conclusie, als u dit narratief leest, is het belangrijk om te onthouden dat de grootte van de iedere cirkel op de map aangeeft hoeveel data er op dit moment beschikbaar is vanuit die regio, in plaats van de ware grootte van de uitbraak. U kunt [hier](https://nextstrain.org/narratives/trees-background?n=8) hoe dit onze INTERFERENCES OF TRANSMISSION can beïnvloeden. 
 <br><br>
@@ -146,7 +148,7 @@ Uitzoomende, kunnen we zien wdat dit niet altijd consistent is.
 <br><br>
 Hier kunnen we zien dat bijna al deze besmettingen met reisgeschiedenis naar Iran samenclusteren in het midden van de boom. 
 <br><br>
-Richting de top van de boom, zien we ook een Canadeze besmetting met reisgeschiedenis naar Iran; echter, deze sequentie groepeert nergens in de buurt van de andere  besmettingen met Iraanse reisgeschiedenis. 
+Richting de top van de boom, zien we ook een Canadese besmetting met reisgeschiedenis naar Iran; echter, deze sequentie groepeert nergens in de buurt van de andere besmettingen met Iraanse reisgeschiedenis. 
 <br><br>
 Het is zeker mogelijk dat deze persoon geïnfecteerd is door een tweede, lopende besmettingsketen in Iran, maar tot we meer data hebben, kunnen we niet bevestigen of deze infectie opgelopen is tijdens het reizen. 
 
@@ -157,8 +159,8 @@ Het is zeker mogelijk dat deze persoon geïnfecteerd is door een tweede, lopende
 <!-- This is left-side text 8 -->
 # [Het virus is geïntroduceerd in bijna elk land ter wereld](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-Op de boom, zien we veel INTERMINGLING van besmettingen uit verschillende uit verschillende landen. 
-Dit geeft aan dat deze vorm van, onvoorkoombare menselijke beweging het virus al geïntroduceerd hebben in veel delen van de wereld.
+Op de boom, zien we veel besmettingen uit verschillende uit verschillende landen door elkaar heen staan. 
+Dit geeft aan dat deze vorm van niet te stoppen menselijke beweging het virus al geïntroduceerd heeft in veel delen van de wereld.
 <br><br>
 Sterker nog, [de WHO rapporteert](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) bevestigde besmettingen in 159 van de in totaal 195 landen ter wereld. 
 <br><br>
@@ -171,12 +173,12 @@ Echter, niet iedere introductie resulteert in een uitbraak.
 # [Epidemieën worden ~4-8 weken na introductie duidelijk zichtbaar](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
 Het lijkt misschien alsof COVID-19 plotseling is geëxplodeerd.
-Voor veel mensen is deze uitbraak mogelijk overgegaan van een abstracte zorg in andere delen van de wereld naar iets dat hun dagelijkse leven ernstig beïnvloed, schijnbaar van de ene op de andere dag.
+Voor veel mensen is deze uitbraak mogelijk overgegaan van een abstracte zorg in andere delen van de wereld naar iets dat hun dagelijkse leven ernstig beïnvloedt, schijnbaar van de ene op de andere dag.
 <br> <br>
 Maar houd er rekening mee dat dit al een tijdje aan de gang is. Het is niet noodzakelijk dat het virus vaker op nieuwe plaatsen wordt geïntroduceerd.
 Hoogstwaarschijnlijk beginnen veel plaatsen zich nu bewust te worden van gelokaliseerde uitbraken die enkele weken geleden door introducties zijn begonnen.
 <br> <br>
-Gebieden die zich nog niet bewust zijn van lokale uitbraken, moeten zich nu voorbereiden en met SURVEILLANCE TESTING beginnen.
+Gebieden die zich nog niet bewust zijn van lokale uitbraken, moeten zich nu voorbereiden en met testen beginnen.
 
 
 <!-- This is the right-side text -->
@@ -189,7 +191,7 @@ Vaak verspreidt het virus zich echter onopgemerkt door de lokale bevolking totda
 
 Het gedachte-experiment hieronder laat zien hoe dit zich afspeelde in Wuhan. Op de y-as hebben we de plaats; op de x-as hebben we tijd. Gearceerd gebied vertegenwoordigt het aantal gevallen.
 
-"COVID-19 in Wuhan ging van een indexgeval in ~nov 2019 naar enkele duizenden gevallen medio jan 2020, en ging daarmee van een eerste SEEDING EVENT naar een wijdverbreide lokale overdracht in een tijdsbestek van ~ 10 weken. We geloven dat internationale SEEDING EVENTS zijn begonnen zal midden januari plaatsvinden. We hebben dus een kritieke ~ 10 weken van dan tot eind maart om deze ontluikende uitbraken te bedwingen voordat ze omvangrijk worden. " [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"COVID-19 in Wuhan ging van een indexgeval in ~nov 2019 naar enkele duizenden gevallen medio jan 2020, en ging daarmee van een eerste besmetting naar een wijdverbreide lokale overdracht in een tijdsbestek van ~ 10 weken. We geloven dat internationale vanaf midden januari zijn begonnen. We hebben dus een kritieke ~ 10 weken van dan tot eind maart om deze ontluikende uitbraken te bedwingen voordat ze omvangrijk worden. " [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
 Deze nieuwe uitbraken kunnen op hun beurt verdere introducties op andere locaties starten.
 
@@ -227,7 +229,7 @@ Maar als het virus zich blijft verspreiden na deze introducties, zouden we verwa
 <br> <br>
 Dit is maar één voorbeeld.
 Mogelijk waren er andere introducties in Utah (of andere gebieden) die we niet in de boom kunnen zien omdat ze niet zijn gesequenced. 
-Het belangrijkste is dat gebieden die zich nog niet bewust zijn van lokale uitbraken, zich nu moeten voorbereiden en met SURVEILLANCE TESTING moeten starten.
+Het belangrijkste is dat gebieden die zich nog niet bewust zijn van lokale uitbraken, zich nu moeten voorbereiden en met testen moeten starten.
  
 
 <!-- There is no right side text -->
@@ -239,7 +241,7 @@ Het belangrijkste is dat gebieden die zich nog niet bewust zijn van lokale uitbr
 Volgens deze zelfde logica zijn er waarschijnlijk veel lokale transmissieketens die we nog niet kennen.
 <br> <br>
 Dit betekent dat we, zelfs voor gebieden die zojuist sociale afstandsmaatregelen hebben ingevoerd, mogen verwachten dat het aantal gevallen de komende weken zal toenemen.
-Deze groei geeft NIET aan dat deze maatregelen niet werken. Het kost alleen tijd voordat reeds geïnfecteerde personen (en mogelijk hun gezinsleden) symptomen te vertonen, worden behandeld en herstellen. We verwachten ook een stijging in het aantal gemelde gevallen te zien naarmate tests breder beschikbaar worden.
+Deze groei geeft NIET aan dat deze maatregelen niet werken. Het kost alleen tijd voordat reeds geïnfecteerde personen (en mogelijk hun gezinsleden) symptomen gaan vertonen, worden behandeld en herstellen. We verwachten ook een stijging in het aantal gemelde gevallen te zien naarmate tests breder beschikbaar worden.
 <br> <br>
 Het is van cruciaal belang dat gedurende deze tijd de sociale afstand wordt gehandhaafd. Zoals u hiernaast kunt zien, blijft het aantal gevallen toenemen nadat de interventie is ingesteld. Maar na verloop van tijd neemt het cumulatieve aantal gevallen sterk af.
 
@@ -262,7 +264,7 @@ Sociale afstand nemen - dat wil zeggen het verminderen van het aantal mensen dat
 <br>
 - We zien op veel gebieden aanwijzingen voor lokale transmissie; verder verwachten we dat eerdere introducties al vele lokale uitbraken hebben veroorzaakt die de komende weken duidelijk zullen worden.
 <br>
-- Beheersing van lokale uitbraken door middel van sociale afstand is cruciaal om:
+- Beheersing van lokale uitbraken door middel van sociale afstand is cruciaal:
    - #FlattenTheCurve om te voorkomen dat gezondheidszorgsystemen worden overspoeld door veel gelijktijdige gevallen
    - Verminder het totale aantal gevallen en dodelijke slachtoffers
    - Geef tijd voor de ontwikkeling van medicijnen en vaccins
@@ -306,7 +308,7 @@ Wij zijn ook GISAID [GISAID](https://gisaid.org) dankbaar voor het leveren van h
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+We zijn dankbaar voor de gegevens die door deze oorspronkelijke laboratoria zijn verzameld:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -612,12 +614,12 @@ We are grateful for the data gathered by these originating labs:
 <!-- This is left-side text 13-->
 # [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Deze gegevens werden gedeeld via [GISAID](https://gisaid.org).
+Wij zijn dankbaar voor hun bijdragen.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+Rechts geven we specifieke sequenties die door elk lab worden gedeeld.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
