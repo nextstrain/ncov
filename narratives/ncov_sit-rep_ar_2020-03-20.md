@@ -149,33 +149,34 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [تم دخول الفيروس الى كل دولة تقريبا حول العالم](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+نستطيع ان نساهد على الشجرة العديد من انواع التداخلات للعينات من دول مختلفة
+هذا يشير الى ان هذا النوع من الحركة البشرية التي لا يمكن تجنبها قامت بادخال الفيروس الى اجزاء متعددة من العالم..
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
+في الحقيقة, [تقارير منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) اكدت وجود حالات في 159 من 195 دولة من دول العالم
 <br><br>
-However, not all introductions result in outbreaks.
+ومع ذلك فليس جميع حالات الادخال تسبب في حالات انتشار وبائي
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [الوباء يظهر بوضوح بعد 4-8 اسابيع من اول ادخال](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
+ومع ذلك من الممكن ظهور كوفيد 19 على شكل انفجار مفاجيء
+ انطلق هذا الوباء هذا الوباء للعديد من الناس من اهتمام بسيط يحدث في اجزاء اخرى من العالم الى شيء يؤثر بخطورة على حياتهم اليومية بين ليلة وضحاها.
 <br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
+لكن يجب ان ناخذ بالحسبان بان ذلك كان يتخمر لفترة من الوقت. ليس ليس من الضروري بان الفيروس يتم ادخاله الى اماكن جديدة بشكل معتاد اكثر. 
+على الاغلب فان العديد من الاماكن بدأت تصبح على دراية بحالات انتشار وبائي محلية والتي بدأت سابقا من خلال ادخالات حدثت قبل عدة اسابيع
+
 <br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+الاماكن التي ما زالت ليست على دراية بحالات انتشار وبائي محلية بها عليها الاستعداد حالا والبدء بعمليات فحص مسحية
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
+# ؟كيف يمكن للادخال ان يتحول الى وباء
 
 Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
 Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
