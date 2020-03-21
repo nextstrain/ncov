@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title: Análisis genómico de la propagación del COVID-19. Informe de la situación hasta el 2020-03-20.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -23,51 +23,53 @@ translators:
 translatorLinks:
 date: "2020 March 19"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento de la propagación del COVID-19. Los reportes son actualizados semanalmente."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
+<!-- Acentos: 	áéíóú -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [Contenidos](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
+* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [Relación entre sequenciamiento del virus y el historial de viajes](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [Introdución del COVID-19 en la mayoría de países del mundo](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [Como los brotes de una epimedia crecen y se propagan](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [Crecimiento del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [Propagación del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [Impacto del distaciamiento social en el número de casos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [¡Qué puedes hacer tú!](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [Preguntas frequentes y conceptos erróneos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Resumen Ejecutivo
+Este informe analiza 723 genomas públicos del COVID-19. La comparación de estos genomas virales nos permite caracterizar como el COVID-19 evoluciona y va mutando en las diferentes regiones del mundo.
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+En este reporte, subrayamos que el virus ha sido introducido y circula en muchas partes del mundo. 
+Para saber el grado de circulación local del COVID-19 así como las medidas de mitigación que pueden reducir su velocidad de transmisión se necesita conocer la dinámicas locales del brote epidémico. Esto ultimo solo puede lograrse a través de la aplicación en masa de pruebas de diagnostico.
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+En resumen, es fundamental tener pruebas de diagnostico rápido enfocadas en disminuir la transmisión local.
 
-In this week's updates, we report:  
+En la actualización de esta semana, reportamos que:
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* Evidencia de introducciones del virus relacionadas con viajes en varias partes del mundo.
+* Lugares con introducciones recientes del virus verán un incremento importante en el numero de casos en las siguientes 4-8 semanas. Deben empezar a prepararse hoy.
+* Lugares que han implementado recientemente medidas de distanciamiento social seguirán viendo incrementos en el numero de casos acumulados en el corto plazo pero estos alcanzaran un máximo para luego empezar a disminuir en el mediano y largo plazo.
+* Pruebas de diagnostico tanto para casos activos y en remisión/recuperados serán vitales para lidiar con la epidemia.
+
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
+# [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-20)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
 
@@ -93,7 +95,7 @@ This information will make interpreting the data we present in this narrative ea
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+# [Nota acerca del muestreo de casos](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
@@ -148,7 +150,7 @@ It's certainly possible that this person was infected by a second ongoing transm
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [Introdución del COVID-19 en la mayoría de países del mundo](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
 On the tree, we see lots of this kind of intermingling of samples from different countries.
 This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
@@ -280,7 +282,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Creditos Científicos](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
