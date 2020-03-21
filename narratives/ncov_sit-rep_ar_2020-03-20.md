@@ -613,7 +613,7 @@ To the right we give specific sequences shared by each lab.
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+جينومات فيروسات سارس كو في ٢ تمت بمشاركة كريمة من فبل العلماء في المختبرات التالية:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
