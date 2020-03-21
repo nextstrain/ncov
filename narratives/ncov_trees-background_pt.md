@@ -199,7 +199,7 @@ Também agradecemos a [GISAID](https://gisaid.org) por fornecer a plataforma pel
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-Somos gratos pelos dados coletados pelos laborátorios abaixo:
+Somos muito gratos pelos dados coletados pelos laborátorios abaixo:
 
 * Arizona Department of Health Services
 * Auckland Hospital
