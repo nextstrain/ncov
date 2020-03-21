@@ -19,7 +19,9 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators: Roan van Scheppingen
+translators: 
+  - Roan van Scheppingen
+  - Jisca Huisman
 TranslatorLinks:
   - https://twitter.com/RScheppingen
 date: "19 maart 2020"
@@ -44,7 +46,7 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 * [Hoe besmettingsgevallen veranderen door sociale distanciëring](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
 * [Wat u kunt doen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
 * [FAQ & veelvoorkomende misvattingen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Wetenschappelijke verantwoording](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [Wetenschappelijk dankwoord](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -166,29 +168,30 @@ Echter, niet iedere introductie resulteert in een uitbraak.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [Epidemieën worden ~4-8 weken na introductie duidelijk zichtbaar](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
-<br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
-<br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+Het lijkt misschien alsof COVID-19 plotseling is geëxplodeerd.
+Voor veel mensen is deze uitbraak mogelijk overgegaan van een abstracte zorg in andere delen van de wereld naar iets dat hun dagelijkse leven ernstig beïnvloed, schijnbaar van de ene op de andere dag.
+<br> <br>
+Maar houd er rekening mee dat dit al een tijdje aan de gang is. Het is niet noodzakelijk dat het virus vaker op nieuwe plaatsen wordt geïntroduceerd.
+Hoogstwaarschijnlijk beginnen veel plaatsen zich nu bewust te worden van gelokaliseerde uitbraken die enkele weken geleden door introducties zijn begonnen.
+<br> <br>
+Gebieden die zich nog niet bewust zijn van lokale uitbraken, moeten zich nu voorbereiden en met SURVEILLANCE TESTING beginnen.
+
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
+# Hoe wordt een introductie een uitbraak?
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+Soms leiden deze introducties niet tot secundaire gevallen of lokale uitbraken, vooral niet als de eerste patient (indexgeval) snel wordt gedetecteerd en geïsoleerd.
+Vaak verspreidt het virus zich echter onopgemerkt door de lokale bevolking totdat de uitbraak een aanzienlijke omvang heeft bereikt.
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
+Het gedachte-experiment hieronder laat zien hoe dit zich afspeelde in Wuhan. Op de y-as hebben we de plaats; op de x-as hebben we tijd. Gearceerd gebied vertegenwoordigt het aantal gevallen.
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"COVID-19 in Wuhan ging van een indexgeval in ~nov 2019 naar enkele duizenden gevallen medio jan 2020, en ging daarmee van een eerste SEEDING EVENT naar een wijdverbreide lokale overdracht in een tijdsbestek van ~ 10 weken. We geloven dat internationale SEEDING EVENTS zijn begonnen zal midden januari plaatsvinden. We hebben dus een kritieke ~ 10 weken van dan tot eind maart om deze ontluikende uitbraken te bedwingen voordat ze omvangrijk worden. " [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
-These new outbreaks may, in turn, seed further introductions to other locations.
+Deze nieuwe uitbraken kunnen op hun beurt verdere introducties op andere locaties starten.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -197,12 +200,13 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Hoe uitbraken groeien: een voorbeeld](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
-<br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+We kunnen een duidelijk voorbeeld hiervan zien in de gegevens van de staat Washington.
+Door over de stam van de hoofdclade te bewegen, blijkt dat het virus waarschijnlijk tussen eind januari en half februari 2020 in dit gebied is geïntroduceerd ([methoden] (https://nextstrain.org/narratives/trees-background?n=6 )).
+<br> <br>
+Nu, half maart (~ 6 weken later), zien we dat er in dit gebied een lokale uitbraak in volle gang is. Alleen al op basis van de sequentiegegevens schatten we een verdubbeling iedere 3-6 dagen, uitgaande van een exponentieel groeiende populatie.
+
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -214,16 +218,17 @@ Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swin
 <!-- This is left-side text 11-->
 # [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
-<br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
-<br><br>
-This is just one example.
-There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
-Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+We kunnen ook een voorbeeld zien van hoe aanvankelijk gelokaliseerde uitbraken, introducties op andere locaties starten.
+De monsters uit Utah in de buurt van de top van de boom (oranje) nestelen in de belangrijkste clade van de uitbraak in Washington.
+Dit komt overeen met een introductie van Washington naar Utah, hoewel het ook mogelijk is dat er tussenliggende stap(pen) in de transmissie-keten waren.
+<br> <br>
+We weten niet zeker of deze introductie zal leiden tot een lokale uitbraak in Utah.
+Maar als het virus zich blijft verspreiden na deze introducties, zouden we verwachten dat dit zich de komende 4 weken zal ontvouwen.
+<br> <br>
+Dit is maar één voorbeeld.
+Mogelijk waren er andere introducties in Utah (of andere gebieden) die we niet in de boom kunnen zien omdat ze niet zijn gesequenced. 
+Het belangrijkste is dat gebieden die zich nog niet bewust zijn van lokale uitbraken, zich nu moeten voorbereiden en met SURVEILLANCE TESTING moeten starten.
+ 
 
 <!-- There is no right side text -->
 
@@ -231,19 +236,19 @@ Most importantly, areas that aren't yet aware of local outbreaks should prepare 
 <!-- This is left-side text 12 -->
 # [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
-<br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
-<br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
+Volgens deze zelfde logica zijn er waarschijnlijk veel lokale transmissieketens die we nog niet kennen.
+<br> <br>
+Dit betekent dat we, zelfs voor gebieden die zojuist sociale afstandsmaatregelen hebben ingevoerd, mogen verwachten dat het aantal gevallen de komende weken zal toenemen.
+Deze groei geeft NIET aan dat deze maatregelen niet werken. Het kost alleen tijd voordat reeds geïnfecteerde personen (en mogelijk hun gezinsleden) symptomen te vertonen, worden behandeld en herstellen. We verwachten ook een stijging in het aantal gemelde gevallen te zien naarmate tests breder beschikbaar worden.
+<br> <br>
+Het is van cruciaal belang dat gedurende deze tijd de sociale afstand wordt gehandhaafd. Zoals u hiernaast kunt zien, blijft het aantal gevallen toenemen nadat de interventie is ingesteld. Maar na verloop van tijd neemt het cumulatieve aantal gevallen sterk af.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## Sociale afstand houdt niet alle nieuwe gevallen van de ene op de andere dag tegen, maar het vermindert het aantal gevallen en het aantal dodelijke slachtoffers in de loop van de tijd aanzienlijk
+Sociale afstand nemen - dat wil zeggen het verminderen van het aantal mensen dat u elke dag tegenkomt - kan een uitdaging zijn, maar is enorm voordelig voor het algemeen belang.
+  Als iedereen zijn dagelijkse contacten met 25% zou verminderen, zouden we verwachten dat het cumulatieve aantal gevallen de komende maand met 50% zal afnemen ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -253,31 +258,33 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
 # [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+- Het virus is meerdere keren op vele delen van de wereld geïntroduceerd.
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- We zien op veel gebieden aanwijzingen voor lokale transmissie; verder verwachten we dat eerdere introducties al vele lokale uitbraken hebben veroorzaakt die de komende weken duidelijk zullen worden.
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- Beheersing van lokale uitbraken door middel van sociale afstand is cruciaal om:
+   - #FlattenTheCurve om te voorkomen dat gezondheidszorgsystemen worden overspoeld door veel gelijktijdige gevallen
+   - Verminder het totale aantal gevallen en dodelijke slachtoffers
+   - Geef tijd voor de ontwikkeling van medicijnen en vaccins
+    
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+Wat u kunt doen
+## ...als een individu
+* Verminder drastisch het aantal mensen waarmee u elke dag in contact komt, vooral als u tot een kwetsbare groep behoort (bijvoorbeeld senioren en mensen met reeds bestaande aandoeningen).
+* Onthoud dat zelfs als je niet super kwetsbaar bent, veel mensen om je heen dat wel zijn; volg deze praktijken om anderen te beschermen.
+* Was je handen "alsof je net een jalapeno hebt gesneden en een contactlens moet verwisselen."
+* Blijf zoveel mogelijk thuis - vooral als je ziek bent; wees voorbereid met extra benodigdheden voor het geval u thuis in quarantaine moet gaan.
+* Als u een werkgever bent, moedig uw werknemers aan om waar mogelijk thuis te werken
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## ... als ambtenaar
+* Maak testen gratis en algemeen beschikbaar.
+* Zorg voor sterke sociale afstandsmaatregelen.
+* Financier en implementeer uitgebreide inspanningen voor het traceren van contacten.
+* Financiële steun bieden aan degenen die worden getroffen door maatregelen voor sociale afstand (bv. uurloonwerkers, werknemers met ouder- of kinderopvang, kleine bedrijven, enz.).
+
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -285,14 +292,15 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Wij willen onze dank uitspreken voor het fantastische en tijdige werk dat is verricht door alle wetenschappers die bij deze uitbraak betrokken zijn, en met name door degenen die in China werkzaam zijn. Alleen door het snel delen van genomische gegevens en metadata zijn dit soort analyses mogelijk.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Wij zijn ook GISAID [GISAID](https://gisaid.org) dankbaar voor het leveren van het platform waarmee deze gegevens kunnen worden geüpload en gedeeld.
+
+
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
