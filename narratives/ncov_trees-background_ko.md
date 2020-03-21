@@ -1,10 +1,8 @@
 ---
-title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 13일 상황 보고서.
+title: 계통수를 읽는 법
 authors:
   - Emma Hodcroft
   - Nicola Müller
-  - Cassia Wagner
-  - Misja Ilcisin
   - James Hadfield
   - Sidney M. Bell
   - Richard Neher
@@ -12,21 +10,18 @@ authors:
 authorLinks:
   - https://neherlab.org/emma-hodcroft.html
   - https://bedford.io/team/nicola-mueller/
-  - https://bedford.io/team/cassia-wagner/
-  - https://bedford.io/team/misja-ilcisin/
   - https://bedford.io/team/james-hadfield/
   - https://twitter.com/sidneymbell
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
-affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 translators:
-  - Hanbin Lee
-  - Kyeong Seok Kim
   - Kyo Bin Kang
   - Minkyu Kim
-date: "2020년 3월 13"
-dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19의 전파를 추적합니다. 이 보고서는 매주 업데이트됩니다."
+  - Taehoon Ha
+date: "2020년 3월 13일"
+dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
+abstract: "이 문서는 유전체 역학적 정보를 제공하는 계통수를 어떻게 읽고 해석하는지에 대해 다룹니다. 이 웹사이트는 데스크톱 브라우저에 최적화되어 있습니다."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -34,286 +29,194 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [목차](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [목차](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=2).     
-* [데이터 수집 관련 사항](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=3).
-* [유럽의 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=4).   
-* [영국과 아일랜드의 지역사회전파](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=5).
-* [이란에서 시작한 SARS-CoV-2 전파](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=6).
-* [미국의 유입경로](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=7).
-* [워싱턴주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=8).
-* [캘리포니아주의 SARS-CoV-2 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=9).
-* [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=10).
-* [자주 묻는 질문과 잘못된 사실들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=11).
-* [과학적 기여자들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=12).
+* [전염병의 전파 경로는 계통수와 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background/ko?n=2)?  
+* [계통수는 어떻게 읽는가](https://nextstrain.org/narratives/trees-background/ko?n=3)?  
+* ["다양성" 패널은 계통수와 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background/ko?n=4)?   
+* [유전적 발산 사이의 차이 측정하기](https://nextstrain.org/narratives/trees-background/ko?n=5).  
+* [시간에 따른 차이 측정하기](https://nextstrain.org/narratives/trees-background/ko?n=6).  
+* [바이러스 발생 시점 추정하기](https://nextstrain.org/narratives/trees-background/ko?n=7).  
+* [계통수의 (색깔로 구분된) 특징들을 어떻게 해석해야 합니까](https://nextstrain.org/narratives/trees-background/ko?n=8)?  
+* [지도와 계통수는 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background/ko?n=9)?  
+* [추가 읽기자료: 계통수의 통계적 불확실성](https://nextstrain.org/narratives/trees-background/ko?n=10).  
+* [데이터셋에 대하여](https://nextstrain.org/narratives/trees-background/ko?n=11).  
+
+<!-- No right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [전염병의 전파 경로는 계통수와 어떤 관련이 있는가?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+병원체는 숙주의 체내에서 빠르게 증식하여 다른 숙주로 전염됩니다. 전염병은 한 번의 감염이 한 번 이상 뒤따르는 다른 감염으로 이어질 경우에만 유행하게 됩니다.
+<br><br>
+병원체가 증식하고 전파되는 과정에서 병원체의 유전체는 여러 번 복제되고, 이 복제 과정에서 자연적으로 발생하는 오류로 인한 무작위 돌연변이가 유전체에 누적됩니다. 이것은 정상적인 일입니다. 이런 무작위 돌연변이를 통해 병원체의 확산을 추적하고 전파 경로와 역학에 대해 알아낼 수 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-#
-
-저희는 410</tag>개 공개된 코로나19의 유전체 염기서열을 분석하였습니다.
-바이러스 유전체들을 비교분석하여 코로나19가 어떻게 진화하고 세계 곳곳으로 퍼지고 있는지 확인했습니다.
-
-현재 전세계 코로나바이러스의 현황을 알고 싶은 분들은 [Our World In Data](https://ourworldindata.org/coronavirus)를 참고하십시오.
-
-이 보고서는 바이러스가 전세계적으로 유행하고 있으며 여러 대륙에서 지역사회전파가 이뤄지고 있다는 증거를 제시합니다.
-현 시점에서 여행 제한은 효과가 떨어지며 지역사회 내부에서의 전파를 억제하는데 집중해야 함을 강조하고 싶습니다.
-
-금주 보고서에서 새로 업데이트된 것들:
-
-* 코로나19는 유럽 전역에서 국경을 넘나들며 유행하고 있습니다.
-
-* 영국에는 최소 4번의 외부 유입이 있었으며 그 중 일부는 지역사회전파로 이어졌습니다.
-
-* 이란과 타 국가 사이에 여행으로 인한 전파가 있었음을 암시하는 몇 가지 사례가 있었습니다.
-
-* 미국으로 여러 번의 외부유입이 있었으며 이는 많은 주에서 지역사회전파로 이어졌습니다.
-
-* 워싱턴주의 유행은 점점 커지고 있으며 그 중 일부는 그랜드 프린세스호 크루즈선과 밀접하게 관련되어 있습니다.
-
-* 캘리포니아주에서 코로나19의 지역사회전파가 진행중입니다.
-
-* 의료체계의 부담을 덜고 취약계층을 보호하기 위해서는 신속한 사회적 거리두기가 이뤄져야 합니다.
+# 예시
+<div width="50%" margin="auto">
+<p>
+<img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
+</p>
+<p>
+위의 그림은 간략화된 전파 계통수의 예시입니다. 각각의 원은 감염된 환자를 의미하며, 가로 직선은 환자들의 감염 기간을 의미합니다. 연결된 원들은 한 환자로부터 다른 환자로 전염이 이뤄진 경우를 가리킵니다.
+<br> <br>
+지금 이 그림에서 우리는 병원체 전파 경로의 전체를 보고 있습니다. 그러나 현실에서는 모든 전파 사건이 아니라 몇몇 환자(파란색으로 표시)의 경우에 대해서만 감염체 표본를 얻을 수 있습니다. 따라서 실제 전파 경로는 추적하기가 어려우며, 감염자 숫자에 대한 대략적인 추정만이 가능합니다. 하지만 유전체 염기서열을 분석하면 전파 경로를 짐작할 수 있습니다. 이 예시의 경우, 세 번의 돌연변이(작은 다이아몬드로 표시)가 전파 과정에서 일어났습니다. 같은 돌연변이를 가지고 있는 염기 서열은 상대적으로 서로에게 더 밀접한 관련이 있을 것이며, 따라서 이런 유전체 서열 상의 돌연변이를 기준으로 같은 전파 연쇄에 속하는 밀접하게 관련있는 바이러스들을 각각의 군집들로 묶을 수 있습니다.
+</p>
+</div>
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [코로나바이러스감염증-19 관련자료](https://nextstrain.org/ncov/2020-03-05)
-코로나바이러스감염증-19와 이를 유발하는 SARS-CoV-2 바이러스에 대한 몇 가지 자료를 준비했습니다.
-이 정보들은 저희가 이 보고서에서 제시한 내용을 이해하는데 도움을 줄 것입니다.
-계통유전학적 나무가 익숙하지 않은 분들은 ['계통도를 읽는 법'](https://nextstrain.org/narratives/trees-background/ko)을 읽고 오십시오.
+# [계통수는 어떻게 해석하는가?](https://nextstrain.org/ncov/2020-03-11)
+
+계통수의 x축은 변화의 정도(시간 혹은 유전적 분화 - 이후에 자세히 설명합니다)를 의미합니다. y축은 개체들을 퍼뜨려 전체적 양상을 볼 수 있게 해주는 역할을 하며, 어떠한 단위나 값을 가지지 않습니다.
+<br><br>
+계통수의 가지 끝 부분은 표본(이전 슬라이드에서 파란색 원과 같은 경우)을 의미합니다. 가지 안쪽의 분기점은 표본을 채집하지 못했지만 이후에 파생된 모든 감염의 원천으로 추정되는 감염사례(이전 슬라이드에서 빨간색 원과 같은 경우)를 의미합니다. 이런 관계는 채집된 병원체 표본의 돌연변이 패턴을 분석하여 유추할 수 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
+## 예시
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
+</p>
+<p>
+위의 그림 좌측에는 계통수가 그려져 있으며, 돌연변이가 색이 칠해진 동그라미로 표시되어 있습니다. 우측에는 각 표본에 해당하는 유전체 서열이 표시되어 있으며, 돌연변이가 마찬가지의 방법으로 표시되어 있습니다. 그림에서 공통의 돌연변이를 가지고 있는 표본들이 같은 그룹으로 묶여 있는 것을 볼 수 있습니다. 두 개의 서열이 A와 B의 경우처럼 세로 직선으로 연결되어 있다면, 이는 두 표본의 서열이 완전히 동일하다는 것을 의미합니다.
+<br><br>
+만약 어떤 서열이 C와 E의 경우처럼 한 직선에 하나만 연결되어 있다면, 이는 해당 표본에서 다른 표본에서는 발견되지 않는 고유의 돌연변이가 발견되었음을 의미합니다. 직선의 길이가 길수록, 더 많은 돌연변이가 존재합니다.
+A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹색 원)을 가지고 있지만, 이들 두 표본의 서열은 서로 동일합니다.
+<br><br>
+이 계통수를 바탕으로, 우리는 A와 B가, 그리고 D와 E가 각각 매우 가까운 관계임을 알 수 있습니다. 그리고 A와 B는 D와 E보다는 C에게 상대적으로 더 가깝습니다.
+</p>
 
-## 배경지식
+### Further reading  
+* [계통수를 읽는 법: Arctic Network의 설명서](https://artic.network/how-to-read-a-tree.html) (영어).  
+* [계통수를 읽는 법: Khan academy의 영상](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees) (영어).  
 
-<div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 코로나바이러스 관련 배경지식 </a>
-
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 최근 코로나바이러스감염증-19 유행 관련 배경지식</a>
-
-  <a href="https://nextstrain.org/narratives/trees-background/ko"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 계통도를 읽는 법 </a>
 </div>
-
-## 더 읽을거리
-
-* [영어 위키피디아](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak)의 코로나 바이러스 유행을 다룬 요약 _2020-01-30_
-* [한국어 위키백과](https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4%EA%B0%90%EC%97%BC%EC%A6%9D-19_%EB%B2%94%EC%9C%A0%ED%96%89)의 코로나 바이러스 유행을 다룬 요약 _2020-01-30_
-* [미국 질병통제예방센터](https://www.cdc.gov/coronavirus/index.html)에서 제공하는 자료 _2020-01-29_
-
-## Nextstrain 보고서
-
-다음 페이지부터는 [Nextstrain](https://nextstrain.org)을 이용한 분석결과를 포함하고 있습니다.
-좌측에 있는 사이드바를 스크롤하면 우측에는 유전체 정보를 이용한 분석의 시각화 자료가 나타나며 그 좌측에는 시각화 자료에 대한 설명이 등장합니다.
-
-새롭게 등장한 큰 RNA 바이러스의 전장 유전체(Whole genome)를 이렇게 짧은 시간 안에 모은 것은 놀라운 성취입니다.
-이 분석들은 세계 각국의 과학자들이 유전체 정보와 해석을 신속하고 공개적으로 공유해준 덕분에 가능했습니다 (각 유전체의 제공자들에 대한 정보는 마지막 슬라이드를 참조하십시오).
 
 ```
 
+
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [데이터 수집 관련 사항](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-현재 저희는 5개 대륙 30개국에서 얻은 바이러스의 RNA 염기서열 정보를
-해독했습니다. 이는 엄청난 성과입니다. 큰 RNA 유전체를 가진 미지의 바이러스의
-염기서열 정보를 유행 와중에 얻는 것은 굉장히 어렵습니다. 이는 전 세계의
-과학자와 의료인들의 신속한 정보공유와 헌신이 아니었다면 불가능했을 것입니다.
+# ["다양성" 패널은 계통수와 어떤 관련이 있는가?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+
+169개의 공개된 SARS-CoV-2 (COVID-19를 유발하는 바이러스) 계통을 살펴 보도록 하겠습니다. 이전 슬라이드에서 보신 것처럼, 우리는 바이러스의 염기서열을 정리해 보았습니다. (여기서 언급된 모든 분석이 어떻게 이루어졌는지는 [Github에서](https://github.com/nextstrain/ncov) 확인할 수 있습니다.
 <br><br>
-이 데이터를 바탕으로 유행의 여러 특성을 실시간으로 유추할 수 있지만, 저희의
-결론은 어디까지나 현재 얻어진 데이터에서 알 수 있는 사실에만 국한됨을 강조하고 싶습니다.
+오른쪽에 계통수(위)와 염기서열 상 변이(돌연변이)를 보여주는 막대 그래프(아래)를 함께 보여주고 있습니다. 만약 이런 돌연변이들이 없었다면, 계통수를 그릴 수 없었을 것입니다. 따라서 다양성 패널과 계통수는 서로 밀접한 연관성을 가지고 있습니다.
 <br><br>
-예를 들어, 아래의 지도는 남반구에서 채취된 바이러스가 매우 적음을 보여줍니다.
-이는 그 지역에 코로나19 유행이 없어서도, 다른 지역보다 덜 중요해서도
-아닙니다. 단지 그 지역에서 수집된 데이터가 부족하다는 것을 의미합니다. 지도
-상의 원의 크기는 그 지역에서 얻은 데이터의 양을 의미할 뿐 실제 유행의 규모와는
-무관합니다.
+이 다양성 패널(아래 그림)에서 가로축은(다 합쳐서 약 3만 개 정도 되는) 바이러스 염기서열 위치를 의미합니다. 반면 세로축은 얼마나 많은 유전적 변이가 있었는지를 보여 줍니다.
+<br><br>
+우리는 이러 돌연변이들 중 하나를 선택하여 이에 따라 나무의 색깔을 다르게 표시했습니다. 여기서 선택된 것은 "ORF1b" 안에 들어 있는 Codon 314입니다. 이 돌연변이가 기능적 변이(즉, 생물학적 변화를 주는 것)라고 여길 마땅한 근거는 아직 없습니다. 보통 이런 종류의 돌연변이는 서열과 서열 사이의 관계를 정의하고, 계통수를 구성하는 데 사용됩니다.
+
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [유전적 발산 사이의 차이 측정하기](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+이것은 169개의 공개된 SARS-CoV-2(COVID-19를 유발하는 바이러스) 계통을 표시한 계통수입니다.
+<br><br>
+가로 축은 유전적 분화를 나타내며, 이는 계통수의 시작점(즉, 바이러스의 최초 발생 시점)에 대한 유전적 변이(돌연변이)의 횟수를 의미합니다. 일부 서열은 돌연변이가 존재하지 않아 계통수의 뿌리(중앙의 시작점)의 서열과 완전히 동일합니다. 다른 바이러스들은 한 개에서 최대 열한 개의 돌연변이를 보입니다.
+<br><br>
+현재로서는 이 그림이 '나무'처럼 보이지 않을 수 있습니다. 많은 서열들이 동일하기 때문인데, 여기서 동일하다는 의미는 A와 B처럼 동일 수직선 상에 위치한 것을 의미합니다. (일부는 나무의 가장 왼쪽 지점에 위치해 있습니다.) 바이러스들이 몇 개의 서로 같은 돌연변이를 공유하면서도 각자의 고유한 돌연변이를 가지고 있을 경우, '가지'를 형성하며 나무를 오른쪽으로 뻗어 나가게 합니다. 마우스 커서를 가지 위에 올려서 각 가지들이 얼마나 많은 돌연변이들을 가지고 있는지 확인할 수 있습니다.
+
+
+<!-- There is NO right-side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+# [시간에 따른 차이 측정하기](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+시료가 측정된 날짜에 대한 정보를 x축에 표시하여 바이러스가 어떻게 퍼져 나갔는지를 시간에 따라 시각화할 수 있습니다. 이 경우 나무의 끝부분이 위치한 x축 상의 위치가 각 바이러스 표본들이 채집된 날짜를 나타냅니다. 나무의 가지 안쪽 분기점("결측 케이스")의 날짜는 그 하위의 바이러스 표본들이 채집된 시점과 바이러스가 변이되는 속도를 기준으로 추정합니다.
+<br><br>
+이전에는 동일 선상에 위치했던(동일한 염기서열을 가졌던) 서열들이 시간이 지남에 따라 얼마나 다양하게 갈라지며 분화되었는지를 확인해 보십시오.
+이런 현상은 바이러스가 변이되는 속도가 확산되는 속도보다 약간 느릴 때 발생합니다. 이전 슬라이드와 본 슬라이드를 위아래로 스크롤하며 나무가 어떻게 변하는지 확인해 보십시오.
+
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+# [바이러스 발생 시점 추정하기](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+유전체학적 지식을 이용하면 언제 바이러스가 발생했는지를, 심지어 우리가 바이러스에 대해 인지하기 이전 시점이라 하더라도, 특정할 수 있습니다. 계통수 상의 각 표본과 내부 분기점에 날짜를 특정할 수 있으므로, 이를 활용하여 나무의 '뿌리' 날짜를 추정할 수 있습니다. 나무의 '뿌리'란 우리가 현재 가지고 있는 모든 SARS-CoV-2 서열들의 "가장 가까운 공통의 조상"을 의미합니다. 이는 마치 당신의 조부모가 당신과 당신의 모든 사촌들의 "가장 가까운 공통 조상"인 것과 비슷한 의미를 갖습니다.
+<br><br>
+오른쪽 그림에서 가장 왼쪽에 위치한 수직선 위에 마우스 커서를 놓으면, 바이러스 발생 추정 시기가 2019년 11월 중순에서 12월 중순 사이로 추정됨을 알 수 있습니다.
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [유럽의 현황](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-이 페이지는 유럽 바이러스들의 군집이 크다는 것을 보여줍니다.
-주목할만한 점은 서로 다른 국가에서 수집된 바이러스들이 서로 군집을 이룬다는 것입니다.
-이는 이미 바이러스가 유럽 전역에서 국경을 넘나들며 유행하고 있음을 보여줍니다.
+# [계통수에 (색깔로 구분된) 특징들을 어떻게 해석해야 합니까?](https://nextstrain.org/ncov/2020-03-11)
+종종 계통수는 각각의 표본 수집 지역 같은 추가적인 정보를 담고 있습니다. 이러한 정보를 바탕으로, 우리는 수학적 모델을 활용하여 내부 분기점들(표본 채집이 되지 않았지만 존재헀을 것으로 추정되는 바이러스 감염 사례)의 위치를 추정할 수 있습니다. 우리는 이를 통해 바이러스가 한 지역에서 다른 지역으로 어떻게 이동하고 있는지 이해하는 데에 도움을 줍니다.
 <br><br>
-지도를 확대하면 이탈리아와 다른 지역 사이에 많은 연결고리가 보입니다.
-주의할 것은 이 연결고리의 방향성을 성급하게 단정지어서는 안 됩니다.
-이 연결고리는 서로 다른 여러 가설에 의해 설명될 수 있습니다 (예를 들어, 두 지역 바깥의
-발견되지 않은 제3의 감염원으로부터 이탈리아와 다른 지역의 환자가 감염됐을 수 있습니다)
-
-<!-- There is no right side text -->
-
-
-# [영국과 아일랜드의 지역사회전파](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-영국과 아일랜드의 바이러스들을 살펴보면 다른 나라의 바이러스와 군집을 이룬다는
-것을 알 수 있습니다.
-<br><br>
-이는 최소 4번 이상의 외부 유입이 있었음을 시사합니다.
-<br><br>
-또한, 각 외부 유입 이후, 어떤 경우에는 같은 지역에서 발견된 바이러스들이 서로
-군집을 이룬다는 것을 알 수 있습니다.
-이는 외부유입이 지역사회전파로 이어졌음을 시사합니다.
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [이란에서 시작된 SARS-CoV-2 전파](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-이란 여행력을 가진 환자에서 채취된 바이러스 몇 개의 RNA 염기서열 정보가
-해독됐습니다.
-이 바이러스들이 유전적으로 매우 가까운 것을 볼 때 이란의 유행은 한 번의
-외부유입에서 시작됐음을 알 수 있습니다.
-이후 이 바이러스의 후손들이 다른 지역으로 전파된 것입니다.
-<br><br>
-단, 아직 이란에서 보고된 완전한 RNA 염기서열 데이터가 없다는 것에 유의하십시오.
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [미국의 유입경로](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-미국에는 여러 번의 독립적인 바이러스 유입이 있었습니다.
-<br><br>
-대부분의 유입은 미국 안의 다른 바이러스와 전혀 관련이 없습니다.
-따라서 각각의 유입이 지역사회전파로 이어졌는지는 모릅니다.
-하지만, 대부분의 지역에서 충분한 검사를 하지 않았기 때문에 발생한 결과일 수도
-있습니다.
-<br><br>
-워싱턴주와 캘리포니아주의 경우에는 각각의 주 내의 바이러스들이 서로 밀접한 군집을 이루고 있습니다.
-이는 두 주에서 지역사회전파가 진행되고 있음을 알려줍니다.
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [워싱턴주의 SARS-CoV-2 현황](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-
-워싱턴 주에는 서로 밀접하게 연관된 바이러스들이 큰 군집들이 발견됩니다.
-이로부터 워싱턴주에는 상당한 수준의 지역사회전파가 이뤄지고 있음을 알 수
-있습니다.
-<br><br>
-흥미로운 것은 워싱턴 주의 바이러스들이 그랜드 프린세스호 크루즈선에서 나온
-바이러스들과 연관이 있다는 것입니다.
-그러나 크루즈선에서 워싱턴주로 전파가 된 것인지 혹은 그 반대의 경우인지는 아직
-알 수 없습니다.
-더 많은 데이터가 수집되면 분석 결과를 갱신할 예정입니다.
-<!-- There is NO right-side text -->
-
-<!-- This is left-side text -->
-# [캘리포니아 주의 SARS-CoV-2 현황](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-캘리포니아의 데이터를 보면 복수의 외부유입을 관찰할 수 있습니다.
-이 중에서도 서로 밀접하게 연관된 바이러스 군집이 짧은 시간동안에 발견됐다는
-것에 주목할 필요가 있습니다 (['Explore the Data'](https://nextstrain.org/ncov)를 클릭해서 CA9를 검색해보세요).
-<br><br>
-이로부터 캘리포니아주에는 상당한 수준의 지역사회전파가 이뤄지고 있음을 알 수
-있습니다.
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [배울 점들](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- 바이러스는 세계 각국에 반복적으로 퍼졌습니다. 그 중 모든 경우가
-  지역사회전파로 이어지지는 않았습니다.
-<br><br>
-- 지역사회전파는 유럽, 미국 일부 주, 중국, 동남아시아에서 관찰됩니다.
-<br><br>
-- 지역사회전파로부터 취약계층을 보호하기 위해서는 사회적 거리두기가
-  필수적입니다.
-
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-#  우리가 할 수 있는 것들
-
-사회적 거리두기(하루에 만나는 사람의 수를 줄이는 것)은 어려울 수 있지만
-공공을 위해서 매우 중요한 일입니다.
-모든 사람들이 다른 사람과의 접촉을 25% 줄이면 다음 달까지 총 감염자수가 50%
-감소합니다 ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
-사회적 거리두기가 무엇인지 잘 모르시겠다고요? [이 가이드를 참고하세요](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
-
-<div>
-  <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
-</div>
-
-## 개인이 할 수 있는 것들
-* 만나는 사람의 수를 줄이십시오. 특히, 당신이 취약계층일수록 중요합니다 (예를
-  들어, 고령이나 기저질환이 있는 경우).
-* 당신이 취약계층이 아니더라도 주변에 그런 사람이 많다는 것을 유념하십시오.
-  그래야 주변 사람들을 보호할 수 있습니다.
-* 손을 자주 씻으십시오.
-* 아프면 집에 머무르세요. 자가격리를 대비해 필요한 물자를 미리 비축하십시오.
-* 당신이 고용주라면 직원들이 아플 때 집에 있을 수 있도록 해주세요 (이를 위한
-  금전적 지원도 제공하세요).
-
-## 지도자와 관료들이 할 일
-* 검사가 무료로 광범위하게 이뤄질 수 있도록 하십시오.
-* 사회적 거리두기가 이뤄질 수 있도록 하십시오.
-* 사회적 거리두기로 인해 피해를 입은 사람들을 위한 경제적 지원이 필요합니다
-  (예를 들어, 시간제 노동자, 노약자나 어린이를 부양하는 사람들, 소상공인 등).
-```
-
-
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [자주 묻는 질문과 잘못된 사실들](https://nextstrain.org/ncov/2020-03-05)
-
-#### 우리는 많은 분들이 코로나19에 대해 궁금해 한다는 것을 잘 알고 있습니다.
-
-#### [우리는 이곳에 자주 제기되는 질문들 중 일부에 대한 답변을 제공하고 있습니다.](https://nextstrain.org/help/coronavirus/FAQ).
-
-#### 미국 과학자 연맹(Federation of American Scientists)도 [훌륭한 질의응답](https://covid19.fas.org/l/en) 란을 제공하고 있습니다.
+하지만 이런 사항을 해석할 때는 항상 주의를 기울여야 합니다. 표본 채집이나 유전체 데이터가 충분하지 않은 경우 결과가 왜곡될 수 있기 때문입니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# 더 읽어볼 것  
-
-* "코로나바이러스와 인간면역결핍바이러스(HIV)에 관한 음모론을 믿지마세요" (영어) [기사원문](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
-
-* "근거가 빈약한 음모론들이 신종 코로나바이러스가 생명공학의 결과물이라고 주장" (영어) [기사원문](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
-
-* "우한 코로나바이러스는 HIV의 일부을 유전공학적으로 삽입한 결과물이 아닙니다" (영어) [기사원문](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
-
-* "코로나바이러스 음모론 파해치기" (영어) [AFP 팩트체크](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
-
-
-# 잘못된 사실들
-
-신종 코로나바이러스의 기원에 관한 다수의 잘못된 소문들이 돌아다니고 있습니다. 지금과 같은 대규모 유행 사태에 이러한 잘못된 정보들은 사람들을 공포에 몰아넣고 과학자와 정부를 향한 사람들의 신뢰를 무너뜨림으로써 사람들이 전문가들의 권고를 무시하도록 만듭니다.
-
-아래 링크들은 과학자들이 이러한 오해를 바로잡으려는 차원에서 쓴 글들입니다.
-
-<div>
-
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2의 '뱀'기원설 (전문가용) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV 조작' 가설 (트위터 글타래)</a>
-
-
-</div>
-
-
+# 예시
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
+</p>
+<p>
+왼쪽 그림은 모든 표본이 완전히 채집된 가상의 계통수이며, 주황색과 파란색으로 각각 서로 다른 두 지역을 구분하였습니다. 나무를 따라 내려가면 색상(지역)이 주황색에서 파란색으로 바뀌는 세 지점을 관찰할 수 있습니다. 이를 통해 우리는 바이러스가 주황색 지역에서 파란색 지역으로 전해질 때 세 건의 전파 사례가 있었다고 결론내릴 수 있을 것입니다.
+<br><br>
+하지만, 표본 채집 여부에 따라 이런 분석 결과가 바뀔 수 있습니다. 중앙 그림의 나무를 보면 왼쪽 나무에서 주황색 표본 하나를 제거한 것을 확인 할 수 있습니다. 이제는 주황색 지역에서 파랑색 지역으로 전파되는 오직 하나의 경우만이 관찰됩니다. 그리고 이 전파 사례는 현재보다 더 이전 시점에 발생한 것으로 추정되고 있습니다.
+<br><br>
+오른쪽 그림은 주황색 지역에서 오직 하나의 표본만 가지고 있을 경우의 계통수입니다. 이 경우 우리는 파란색에서 주황색 지역으로 전파되는 한 번의 전파만이 있었다고 해석하게 됩니다.
+<br><br>
+따라서 이런 추론법은 매우 유용하지만, 반드시 주의를 기울여 해석해야 합니다.
+</p>
 ```
+<!-- ############ SLIDE BREAK ############# -->
 
+<!-- This is left-side text -->
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [지도와 계통수는 어떤 관련이 있는가?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+
+여기서 보여지는 계통수는 각 표본이 채집된 위치(및 내부 분기점의 추정 위치)에 따라 다른 색으로 표현 되었습니다. ['데이터 탐색'](https://nextstrain.org/ncov)을 클릭하면 바이러스가 확산되는 과정을 추정한 애니메이션을 재생할 수 있습니다.
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [추가 읽기자료: 계통수의 통계적 불확실성](https://nextstrain.org/ncov/2020-03-11)
+
+앞에서 우리는 계통수의 내부 분기점이 실제 존재하는 표본이 아닌 가상으로 추정한 케이스를 의미한다고 이야기했습니다. 사실 모든 계통수는 병원체가 어떻게 진화하고 이동했는지에 대한 문제에서 어디까지나 가설일 뿐입니다. Nextstrain에서 보여지는 모든 나무들은 점 추정(역주: point estimate. 모수를 하나의 값으로 추정하는 방식)을 사용합니다. 다시 말해, 여기서 보여주는 계통수는 존재할 수 있는 여러 버전의 계통수들 중 우리가 현재 가진 데이터를 관찰할 가능성이 최대인 버전이라고 할 수 있습니다.
+<br><br>
+그러나, 이러한 추정에는 언제나 불확실성이 존재합니다. 일반적으로 나무에서 데이터가 풍부한 부분은 상대적으로 예측이 더 명확하지만, 데이터가 적은 부분은 상대적으로 예측이 니다.
+
+
+<!-- There is NO right-side text -->
+```auspiceMainDisplayMarkdown
+# 계통수의 통계적 불확실성에 대한 개념도
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
+</p>
+</div>
+```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [과학적 기여자들](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-이번 유행에 관련된 모든 과학자들, 특히 중국의 과학자들의 대단하고 신속한 작업에 감사를 표합니다. 유전체 정보 및 메타정보의 빠른 공유가 아니었다면 이 분석들은 불가능했을 것입니다.
+이번 유행에 관여하고 있는 모든 과학자들, 특히 중국의 과학자들의, 작업들이 대단하고 신속했다는 점에 감사를 표하고자 합니다. 이 분석들은 유전체 정보 및 메타정보의 빠른 공유가 아니었다면 불가능했을 것입니다.
 
-<br>
+<br><br>
 
-이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 우리는 그들의 기여에 감사의 뜻을 전합니다.
+또한, 이 데이터들이 업로드되고 공유할 수 있는 플랫폼을 제공한 [GISAID](https://gisaid.org)에게 감사의 뜻을 전합니다.
 
-오른쪽에는 각 염기서열을 제공한 각각의 연구실들이 있습니다.
-
-<!-- Do not need to translate institutions names -->
+<!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
@@ -449,14 +352,16 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 
 이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
 
-<br>
 
-우측에 각 연구실이 기여한 구체적인 서열 정보가 있습니다.
+<br><br>
+
+오른쪽에는 각 염기서열을 제공한 각각의 연구실들이 나열되어 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 SARS-CoV-2 유전체는 아래 연구실의 과학자들에 의해 제공되었습니다:
+
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
@@ -1216,5 +1121,6 @@ SARS-CoV-2 유전체는 아래 연구실의 과학자들에 의해 제공되었�
 
 * Zhongxian Center for Disease Control and Prevention
 	* Chongqing/ZX01/2020
+
 
 ```
