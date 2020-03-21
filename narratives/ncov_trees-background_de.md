@@ -173,10 +173,10 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Was verbindet die Karte mit dem phylogenetischen Baum](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [Wie haengen die Karte und der phylogenetische Baum zusammen?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+Hier sehen sie einen Baum, in dem die Farben die Orte der jeweiligen Proben (und der abgeleiteten Orte fuer die internen Verzweigungspunkte) darstellen.
+Wenn Sie auf ['Explore the data'](https://nextstrain.org/ncov)klicken, koennen Sie eine Animation ablaufen lassen, die die abgeleitete Ausbreitung des Virus im Verlauf des Ausbruchs zeigt.
 
 
 <!-- ############ SLIDE BREAK ############# -->
