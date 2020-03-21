@@ -91,13 +91,13 @@ Baseado nessa árvore, concluímos que A e B estão intimamente relacionados ent
 <!-- This is left-side text -->
 # [Como o painel de "diversidade" se relaciona com a árvore?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Vamos dar uma olhada nos primeiras 169 cepas de SARS-CoV-2 (vírus que causa COVID-19) que foram compartilhados publicamente. Assim como na página anterior, construímos um alinhamento dessas sequências virais (veja como fizemos essas análises [consultando nosso repositório no GitHub](https://github.com/nextstrain/ncov)).
+Vamos dar uma olhada nas primeiras 169 cepas de SARS-CoV-2 (vírus que causa COVID-19) que foram compartilhados publicamente. Assim como na página anterior, construímos um alinhamento dessas sequências virais (veja como fizemos essas análises [consultando nosso repositório no GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
 Aqui exibimos a árvore filogenética acima de um gráfico de barras que mostra a variação (ou seja, mutações) no genoma. Sem essas mutações, não poderíamos construir a árvore, então os dois estão intimamente conectados.
 <br><br>
 Nesse painel de "diversidade", o eixo horizontal representa cada local do genoma viral (todos os trinta mil ou mais!). O eixo vertical indica quanta variabilidade existe em cada local.
 <br><br>
-Colorimos a árvore de acordo com uma dessas mutações — nesse caso, o códon 314 no gene "ORF1b". Não há uma razão a priori para pensar que esta mutação é uma mutação funcional (ou seja, conferindo qualquer alteração biológica). São precisamente mutações como essa que usamos para definir as relações entre sequências e construir a árvore.
+Colorimos a árvore de acordo com uma dessas mutações — nesse caso, o códon 314 no gene "ORF1b". Não há uma razão a priori para pensar que esta mutação é uma mutação funcional (ou seja, que confere qualquer vantagem biológica). São precisamente mutações como essa que usamos para definir as relações entre sequências e construir as árvores.
 
 <!-- There is NO right-side text -->
 
