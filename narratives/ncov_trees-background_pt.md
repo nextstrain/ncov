@@ -58,7 +58,7 @@ Aqui, vemos a imagem completa da árvore de transmissão. Na prática, no entant
 <!-- This is left-side text -->
 # [Como ler uma árvore filogenética?](https://nextstrain.org/ncov/2020-03-11)
 
-O eixo X de uma árvore representa o grau de diferença (por tempo ou divergência genética — veremos em seguida). Já o eixo y apenas ajuda a dividir para que possamos ver tudo com clareza; ele não possui nenhuma unidade de medida.
+O eixo X de uma árvore representa o grau de diferença (por tempo ou divergência genética — veremos em seguida). Já o eixo y apenas ajuda a dividir os elementso, para que possamos ver tudo com clareza: ele não possui nenhuma unidade de medida.
 <br><br>
 Os pontos na árvore representam amostras (isto é, os pontos azuis da página anterior). Os pontos internos representam casos que não foram amostrados, mas que entendemos ser a fonte dos casos que descendem deles (pontos vermelhos da página anterior). Essas relações são inferidas analisando os padrões das mutações observadas em casos amostrados.
 
