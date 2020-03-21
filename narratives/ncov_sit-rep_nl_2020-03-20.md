@@ -119,10 +119,10 @@ De kaart toont erg weinig sequenties vanuit het zuiden. Bijvoorbeeld, we hebben 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+# [Andere regio's zijn overgerepresenteerd in deze data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+In andere gebieden, zoals in Nederland, is er een enorme hoeveelheid sequentiedata beschikbaar, relatief tot het totale aantal van besmettingen. 
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+In conclusie, als u dit narratief leest, is het belangrijk om te onthouden dat de grootte van de iedere cirkel op de map aangeeft hoeveel data er op dit moment beschikbaar is vanuit die regio, in plaats van de ware grootte van de uitbraak. U kunt [hier](https://nextstrain.org/narratives/trees-background?n=8) hoe dit onze INTERFERENCES OF TRANSMISSION can beïnvloeden. 
 <br><br>
 
 <!-- There is NO right-side text -->
