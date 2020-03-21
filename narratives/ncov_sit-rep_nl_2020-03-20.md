@@ -69,41 +69,43 @@ In de updates van deze week, rapporteren we:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [COVID-19 Bronnen](https://nextstrain.org/ncov/2020-03-20)
+
+We hebben een aantal bronnen voorbereid die het waard zijn om te lezen om jezelf vertrouwd te maken met COVID-19 en het virus dat het veroorzaakt, SARS-CoV-2.
+
+Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal presenteren makkelijker; als u niet bekend bent met fylogenetische bomen, raden we u aan de ['Hoe kan ik Fylogenieën lezen?'](https://nextstrain.org/narratives/trees-background/) narratief te bekijken en terug te komen wanneer u klaar bent.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Achtergrondinformatie
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="Microscopische afbeelding van Coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Achtergrond bij Coronavirussen </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="Illustratie van een Coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recente COVID-19-uitbraak achtergrond </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="Cartoon van een fylogenentische boom" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Hoe kan ik Fylogenieën lezen</a>
 </div>
 
-## Further Reading
+## Verder lezen 
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* Samenvatting van de SARS-COV-2-uitbraak op [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* Alle besmettingsnummers aangehaald in dit rapport komen van de [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Een opmerking over bemonstering](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+We hebben momenteel sequenties van monsters die genomen zijn in 36 landen op 6 continenten. Dit is een ongelooflijke prestatie -- het sequencen van een onbekend, groot RNA-virus tijdens een pandemie is moeilijk, en is alleen mogelijk door het ongelooflijke werk en het tijdig delen van gegevens door wetenschappers en artsen over de hele wereld.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+Hoewel deze gegevens ons in staat stellen om veel nuttige kenmerken van de uitbraak af te leiden en de verspreiding ervan in real time te volgen, is het belangrijk om te benadrukken dat onze conclusies beperkt zijn door de beschikbare gegevens.
+Van het totale aantal besmettingen, wordt enkel een subset van de patienten getest. Van de geteste patiënten, wordt enkel een subset van de monsters gesequenced. 
+Welke subset van de besmettingen wordt getest en gesequenced, kan enorm varieren tussen geografische regio's en in de tijd.
+Daarnaast zijn fylogenetische reconstructies van uitbraken altijd geassocieerd met een mate van onzekerheid. 
 <br><br>
-Let's look at a few examples.
+Laten we naar een paar voorbeelden kijken.
 
 <!-- There is NO right-side text -->
 
