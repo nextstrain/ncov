@@ -147,7 +147,7 @@ Wenn Sie den Mauszeiger ueber die vertikale Linie ganz links bewegen, sehen Sie,
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Wie soll ich die Farben in einem Baum interpretieren?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetische Baueme enthalten of zusaetzliche Informationen, zum Beispiel die Orte der Probennahmen. Mittels dieser koennen wir die Orte fuer die internen Verzweigungspunkte (hypothetische, intermediaere, aber nicht beprobte Faelle) mittel mathematischer Modelle ableiten. Das kann uns helfen zu verstehen, wie das Virus sich von einem Ort zum naechsten bewegt.
+Phylogenetische Baueme enthalten oft zusaetzliche Informationen, zum Beispiel die Orte der Probennahmen. Mittels dieser koennen wir die Orte fuer die internen Verzweigungspunkte (hypothetische, intermediaere, aber nicht beprobte Faelle) mittel mathematischer Modelle ableiten. Das kann uns helfen zu verstehen, wie das Virus sich von einem Ort zum naechsten bewegt.
 <br><br>
 Die Interpretation dieser Daten sollte jedoch mit Vorsicht erfolgen, weil die Probenentnahme und Sequenzierung, oder das Fehlen derselben, einen entscheidenden Einfluss haben kann.
 
