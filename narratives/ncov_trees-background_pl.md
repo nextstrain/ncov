@@ -270,11 +270,13 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [Jak mapa odnosi się do drzewa?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak.
+Na tym slajdzie pokazujemy drzewo pokolorowane według lolaizacji pobranych próbek (i szacowanych lokalizacji w wewnętrznych węzłach).
+Jeśli kilkniesz na ['Explore the data'](https://nextstrain.org/ncov), możesz obejżeć animację pokazującą jak, według oszacowań, wirus rozprzestrzeniał się od momentu wybuchu epidemii.
 
+<!-- Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
+If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak. -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
