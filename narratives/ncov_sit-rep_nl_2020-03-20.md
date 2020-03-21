@@ -19,14 +19,15 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators: 
+translators:
   - Roan van Scheppingen
   - Jisca Huisman
   - Rutger Vos
-TranslatorLinks:
+translatorLinks:
   - https://twitter.com/RScheppingen
+  - https://twitter.com/HuismanJisca
   - https://twitter.com/rvosa
-date: "19 maart 2020"
+date: "20 maart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om zo de verspreiding van COVID-19 te volgen. Deze rapportages worden wekelijks bijgewerkt."
 ---
@@ -38,17 +39,17 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 <!-- This is left-side text 1 -->
 # [Inhoud](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Achtergrondinformatie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [Een opmerking over bemonstering](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequentiedata en reisgeschiedenis](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introductie van COVID-19 naar bijna alle landen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [Hoe uitbraken groeien en verspreiden](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [Hoe de uitbraak in Washington groeide](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [Hoe de uitbraak in Washington verspreidde](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [Hoe besmettingsgevallen veranderen door sociale distanciëring](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [Wat u kunt doen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [FAQ & veelvoorkomende misvattingen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Wetenschappelijk dankwoord](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [Achtergrondinformatie](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=2).     
+* [Een opmerking over bemonstering](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=3).
+* [Sequentiedata en reisgeschiedenis](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=6).
+* [Introductie van COVID-19 naar bijna alle landen](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=8).
+* [Hoe uitbraken groeien en verspreiden](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=9).
+* [Hoe de uitbraak in Washington groeide](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=10).
+* [Hoe de uitbraak in Washington verspreidde](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=11).
+* [Hoe besmettingsgevallen veranderen door sociale distanciëring](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=12).
+* [Wat u kunt doen](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=13).
+* [FAQ & veelvoorkomende misvattingen](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=14).
+* [Wetenschappelijk dankwoord](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -56,17 +57,17 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 
 Hier hebben we 723 publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virus genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld.
 
-In dit rapport, lichten we toe dat het virus wereldwijd geintroduceerd is en circuleert in vele delen van de wereld. 
-Weten of en in welke mate COVID-19 lokaal circuleert en hoe maatregelen deze verspreiding vertragen, vergt goede kennis van locale uitbraakdynamiek. Dit, op zijn beurt, vereist wijdverspreid testen. 
-Dit benadrukt het belang van snel testen, met een sterke focus op het verminderen van locale transmissies. 
+In dit rapport, lichten we toe dat het virus wereldwijd geintroduceerd is en circuleert in vele delen van de wereld.
+Weten of en in welke mate COVID-19 lokaal circuleert en hoe maatregelen deze verspreiding vertragen, vergt goede kennis van locale uitbraakdynamiek. Dit, op zijn beurt, vereist wijdverspreid testen.
+Dit benadrukt het belang van snel testen, met een sterke focus op het verminderen van locale transmissies.
 
 In de updates van deze week, rapporteren we:
 
 
-* Bewijs voor reisafhankelijke introductie in veel delen van de wereld. 
-* Veel plaatsen met recente introducties kunnen verwachten dat de gevallen verder groeien in 4 tot 8 weken. Ze moeten zich nu voorbereiden. 
-* Veel plaatsen hebben recent maatregelen genomen, zoals sociale distanciëring. Op de korte termijn zal het aantal besmettingen toenemen, maar besmettingen zullen waarschijnlijk in een plateaufase  komen en afnemen op de langere termijn. 
-* Testen op zowel actieve infectie als op herstelde individuen zal van vitaal belang zijn om met deze epidemie om te gaan. 
+* Bewijs voor reisafhankelijke introductie in veel delen van de wereld.
+* Veel plaatsen met recente introducties kunnen verwachten dat de gevallen verder groeien in 4 tot 8 weken. Ze moeten zich nu voorbereiden.
+* Veel plaatsen hebben recent maatregelen genomen, zoals sociale distanciëring. Op de korte termijn zal het aantal besmettingen toenemen, maar besmettingen zullen waarschijnlijk in een plateaufase  komen en afnemen op de langere termijn.
+* Testen op zowel actieve infectie als op herstelde individuen zal van vitaal belang zijn om met deze epidemie om te gaan.
 ```
 
 
@@ -77,7 +78,7 @@ In de updates van deze week, rapporteren we:
 
 We hebben een aantal bronnen voorbereid die het waard zijn om te lezen om jezelf vertrouwd te maken met COVID-19 en het virus dat het veroorzaakt, SARS-CoV-2.
 
-Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal presenteren makkelijker; als u niet bekend bent met fylogenetische bomen, raden we u aan de ['Hoe kan ik Fylogenieën lezen?'](https://nextstrain.org/narratives/trees-background/) narratief te bekijken en terug te komen wanneer u klaar bent.
+Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal presenteren makkelijker; als u niet bekend bent met fylogenetische bomen, raden we u aan de ['Hoe kan ik Fylogenieën lezen?'](https://nextstrain.org/narratives/trees-background/nl) narratief te bekijken en terug te komen wanneer u klaar bent.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -92,7 +93,7 @@ Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal pr
   <a href="https://nextstrain.org/narratives/trees-background/nl/"><img alt="Cartoon van een fylogenentische boom" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Hoe kan ik Fylogenieën lezen</a>
 </div>
 
-## Verder lezen 
+## Verder lezen
 
 * Samenvatting van de SARS-COV-2-uitbraak op [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
 * Alle besmettingsnummers aangehaald in dit rapport komen van de [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
@@ -105,9 +106,9 @@ Deze informatie maakt het interpreteren van de gegevens die we in dit verhaal pr
 We hebben momenteel sequenties van monsters die genomen zijn in 36 landen op 6 continenten. Dit is een ongelooflijke prestatie -- het sequencen van een onbekend, groot RNA-virus tijdens een pandemie is moeilijk, en is alleen mogelijk door het ongelooflijke werk en het tijdig delen van gegevens door wetenschappers en artsen over de hele wereld.
 <br><br>
 Hoewel deze gegevens ons in staat stellen om veel nuttige kenmerken van de uitbraak af te leiden en de verspreiding ervan in real time te volgen, is het belangrijk om te benadrukken dat onze conclusies beperkt zijn door de beschikbare gegevens.
-Van het totale aantal besmettingen, wordt enkel een subset van de patienten getest. Van de geteste patiënten, wordt enkel een subset van de monsters gesequenced. 
+Van het totale aantal besmettingen, wordt enkel een subset van de patienten getest. Van de geteste patiënten, wordt enkel een subset van de monsters gesequenced.
 Welke subset van de besmettingen wordt getest en gesequenced kan enorm varieren tussen geografische regio's en in de tijd.
-Daarnaast hebben fylogenetische reconstructies van uitbraken altijd een mate van onzekerheid. 
+Daarnaast hebben fylogenetische reconstructies van uitbraken altijd een mate van onzekerheid.
 <br><br>
 Laten we naar een paar voorbeelden kijken.
 
@@ -116,7 +117,7 @@ Laten we naar een paar voorbeelden kijken.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
 # [Sommige regio's zijn ondergerepresenteerd in deze data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-De kaart toont erg weinig sequenties in het mondiale zuiden. Bijvoorbeeld, we hebben enkel sequenties van 4 van de 25 landen in Latijns-Amerika, waar [de WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) besmettingen met COVID-19 rapporteert. Dit is niet omdat COVID-19 in deze gebieden nog niet circuleert, of dat deze besmettingen niet cruciaal zijn om te begrijpen. Echter, er is simpelweg nog weinig data beschikbaar vanuit deze regio's. 
+De kaart toont erg weinig sequenties in het mondiale zuiden. Bijvoorbeeld, we hebben enkel sequenties van 4 van de 25 landen in Latijns-Amerika, waar [de WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) besmettingen met COVID-19 rapporteert. Dit is niet omdat COVID-19 in deze gebieden nog niet circuleert, of dat deze besmettingen niet cruciaal zijn om te begrijpen. Echter, er is simpelweg nog weinig data beschikbaar vanuit deze regio's.
 <br><br>
 <!-- There is NO right-side text -->
 
@@ -124,9 +125,9 @@ De kaart toont erg weinig sequenties in het mondiale zuiden. Bijvoorbeeld, we he
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
 # [Andere regio's zijn overgerepresenteerd in deze data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In andere gebieden, zoals in Nederland, is er een grote hoeveelheid sequentiedata beschikbaar in verhouding tot het totale aantal van besmettingen. 
+In andere gebieden, zoals in Nederland, is er een grote hoeveelheid sequentiedata beschikbaar in verhouding tot het totale aantal van besmettingen.
 <br><br>
-In conclusie, als u dit narratief leest, is het belangrijk om te onthouden dat de grootte van de iedere cirkel op de map aangeeft hoeveel data er op dit moment beschikbaar is vanuit die regio, in plaats van de ware grootte van de uitbraak. U kunt [hier](https://nextstrain.org/narratives/trees-background/nl?n=8) hoe dit onze reconstructie van de besmettingsroutes kan beïnvloeden. 
+In conclusie, als u dit narratief leest, is het belangrijk om te onthouden dat de grootte van de iedere cirkel op de map aangeeft hoeveel data er op dit moment beschikbaar is vanuit die regio, in plaats van de ware grootte van de uitbraak. U kunt [hier](https://nextstrain.org/narratives/trees-background/nl?n=8) hoe dit onze reconstructie van de besmettingsroutes kan beïnvloeden.
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -135,22 +136,22 @@ In conclusie, als u dit narratief leest, is het belangrijk om te onthouden dat d
 <!-- This is left-side text 6 -->
 # [Sequentiedata kan reisgeschiedenis valideren](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identificeren waar een bepaalde besmetting is opgelopen is belangrijk om te begrijpen welke gebieden locale transmissie ervaren, ten opzichte van besmettingen geassocieerd met reizen. Sequentiedata kan ons helpen tussen deze twee scenario's te differentiëren. 
+Identificeren waar een bepaalde besmetting is opgelopen is belangrijk om te begrijpen welke gebieden locale transmissie ervaren, ten opzichte van besmettingen geassocieerd met reizen. Sequentiedata kan ons helpen tussen deze twee scenario's te differentiëren.
 
 <br><br>
-Hier is de boom gekleurd op basis van reisgeschiedenis van een besmetting (wanneer bekend). Kijkende naar de groene Canadese sequentie in het midden, zien we dat deze sequentie een bekende reisgeschiedenis naar Europa heeft. Deze infectie groeppeert met andere Europese sequenties en toont aan dat deze besmetting bijna zeker gerelateerd is aan de reisgeschiedenis. 
+Hier is de boom gekleurd op basis van reisgeschiedenis van een besmetting (wanneer bekend). Kijkende naar Canadese sequentie (Canada/BC_78548/2020) in het midden, zien we dat deze sequentie een bekende reisgeschiedenis naar Europa heeft. Deze infectie groeppeert met andere Europese sequenties en toont aan dat deze besmetting bijna zeker gerelateerd is aan de reisgeschiedenis.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
 # [Sequentiedata kan reisgeschiedenis valideren](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Uitzoomende, kunnen we zien wdat dit niet altijd consistent is. 
+Uitzoomende, kunnen we zien wdat dit niet altijd consistent is.
 <br><br>
-Hier kunnen we zien dat bijna al deze besmettingen met reisgeschiedenis naar Iran samenclusteren in het midden van de boom. 
+Hier kunnen we zien dat bijna al deze besmettingen met reisgeschiedenis naar Iran samenclusteren in het midden van de boom.
 <br><br>
-Richting de top van de boom, zien we ook een Canadese besmetting met reisgeschiedenis naar Iran; echter, deze sequentie groepeert nergens in de buurt van de andere besmettingen met Iraanse reisgeschiedenis. 
+Richting de top van de boom, zien we ook een Canadese besmetting met reisgeschiedenis naar Iran; echter, deze sequentie groepeert nergens in de buurt van de andere besmettingen met Iraanse reisgeschiedenis.
 <br><br>
-Het is zeker mogelijk dat deze persoon geïnfecteerd is door een tweede, lopende besmettingsketen in Iran, maar tot we meer data hebben, kunnen we niet bevestigen of deze infectie opgelopen is tijdens het reizen. 
+Het is zeker mogelijk dat deze persoon geïnfecteerd is door een tweede, lopende besmettingsketen in Iran, maar tot we meer data hebben, kunnen we niet bevestigen of deze infectie opgelopen is tijdens het reizen.
 
 <!-- There is no right side text -->
 
@@ -159,10 +160,10 @@ Het is zeker mogelijk dat deze persoon geïnfecteerd is door een tweede, lopende
 <!-- This is left-side text 8 -->
 # [Het virus is geïntroduceerd in bijna elk land ter wereld](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-Op de boom, zien we veel besmettingen uit verschillende uit verschillende landen door elkaar heen staan. 
+Op de boom, zien we veel besmettingen uit verschillende uit verschillende landen door elkaar heen staan.
 Dit geeft aan dat deze vorm van niet te stoppen menselijke beweging het virus al geïntroduceerd heeft in veel delen van de wereld.
 <br><br>
-Sterker nog, [de WHO rapporteert](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) bevestigde besmettingen in 159 van de in totaal 195 landen ter wereld. 
+Sterker nog, [de WHO rapporteert](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) bevestigde besmettingen in 159 van de in totaal 195 landen ter wereld.
 <br><br>
 Echter, niet iedere introductie resulteert in een uitbraak.
 
@@ -228,9 +229,9 @@ We weten niet zeker of deze introductie zal leiden tot een lokale uitbraak in Ut
 Maar als het virus zich blijft verspreiden na deze introducties, zouden we verwachten dat dit zich de komende 4 weken zal ontvouwen.
 <br> <br>
 Dit is maar één voorbeeld.
-Mogelijk waren er andere introducties in Utah (of andere gebieden) die we niet in de boom kunnen zien omdat ze niet zijn gesequenced. 
+Mogelijk waren er andere introducties in Utah (of andere gebieden) die we niet in de boom kunnen zien omdat ze niet zijn gesequenced.
 Het belangrijkste is dat gebieden die zich nog niet bewust zijn van lokale uitbraken, zich nu moeten voorbereiden en met testen moeten starten.
- 
+
 
 <!-- There is no right side text -->
 
@@ -268,7 +269,7 @@ Sociale afstand nemen - dat wil zeggen het verminderen van het aantal mensen dat
    - #FlattenTheCurve om te voorkomen dat gezondheidszorgsystemen worden overspoeld door veel gelijktijdige gevallen
    - Verminder het totale aantal gevallen en dodelijke slachtoffers
    - Geef tijd voor de ontwikkeling van medicijnen en vaccins
-    
+
 
 <!-- This is the right-side text -->
 
@@ -300,7 +301,7 @@ Wij willen onze dank uitspreken voor het fantastische en tijdige werk dat is ver
 
 <br>
 
-Wij zijn ook GISAID [GISAID](https://gisaid.org) dankbaar voor het leveren van het platform waarmee deze gegevens kunnen worden geüpload en gedeeld.
+Wij zijn ook [GISAID](https://gisaid.org) dankbaar voor het leveren van het platform waarmee deze gegevens kunnen worden geüpload en gedeeld.
 
 
 
