@@ -58,7 +58,7 @@ abstract: "Ce rapport utilise des données génomiques partagées publiquement p
 ```auspiceMainDisplayMarkdown
 # Résumé exécutif
 
-Ici, nous avons analysé 723 génomes du SARS-Cov-2 partagés publiquement. En comparant ces génomes viraux entre eux, nous pouvons caractériser comment Sars-Cov-2 évolue et se déplace dans le monde.
+Ici, nous avons analysé 723 génomes du SARS-Cov-2 partagés publiquement. En comparant ces génomes viraux entre eux, nous pouvons caractériser comment SARS-CoV-2 évolue et se déplace dans le monde.
 
 Dans ce rapport, nous soulignons que le virus a été introduit et circule dans de nombreuses régions du globe.
 Pour savoir si et dans quelle mesure SARS-Cov-2 circule localement et comment les mesures d’atténuation peuvent ralentir cette propagation, il faut une bonne connaissance de la dynamique locale des épidémies. Cela nécessite à son tour des tests à grande échelle.
@@ -119,7 +119,7 @@ Examinons quelques exemples.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
 # [Certaines régions sont sous-représentées dans ces données](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-La carte ne montre que très peu de séquences provenant du sud de la planète. Par exemple, nous n'avons que des séquences en provenance de seulement 4 des 25 pays d'Amérique latine où [l'OMS rapporte](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cas de SARS-Cov-2. Ce n'est pas parce que SARS-Cov-2 ne circule pas dans ces régions, ou que ces cas ne sont pas aussi importants à comprendre, mais plutôt parce que nous n'avons pas beaucoup de données disponibles dans ces régions.
+La carte ne montre que très peu de séquences provenant du sud de la planète. Par exemple, nous n'avons que des séquences en provenance de seulement 4 des 25 pays d'Amérique latine où [l'OMS rapporte](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) les cas de SARS-CoV-2. Ce n'est pas parce que SARS-CoV-2 ne circule pas dans ces régions, ou que ces cas ne sont pas aussi importants à comprendre, mais plutôt parce que nous n'avons pas beaucoup de données disponibles dans ces régions.
 <br><br>
 <!-- There is NO right-side text -->
 
@@ -174,7 +174,7 @@ Cependant, toutes les introductions ne donnent pas lieu à des épidémies.
 <!-- This is left-side text 9 -->
 # [Les épidémies deviennent évidentes ~4-8 semaines après l'introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-Il peut sembler que SARS-Cov-2 a soudainement explosé.
+Il peut sembler que SARS-CoV-2 a soudainement explosé.
 Pour de nombreuses personnes, cette épidémie est peut-être passée d'une préoccupation abstraite dans d'autres parties du monde à quelque chose qui affecte gravement leur vie quotidienne, du jour au lendemain.
 <br> <br>
 Mais gardez à l'esprit que cela se prépare depuis un certain temps. Ce n'est pas nécessairement que le virus est introduit plus souvent dans de nouveaux endroits.
