@@ -230,28 +230,41 @@ If you mouse over the leftmost vertical line, you can see that the inferred star
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+# [Jak należy interpretować cechy (kolory) na drzewie?](https://nextstrain.org/ncov/2020-03-11)
+Drzewa filogenetyczne często zawierają dodatkowe informacje, takie jak lokalizacja kolekcji prób. Na tej podstawie, możemy wnioskować o lokalizacji wewnetrznych węzłów drzewa (hipotetyczne pośrednie, niepróbkowane przypadki) używając modeli matematycznych. To nam może pomóc w zrozumieniu jak wirus się przemieszcza z jednego miejsca na inne.
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+Takie wnioski należy jednak interpretować z ostrożnością, ponieważ próbkowanie i sekwencjonowanie lub ich brak może istotnie wpłynąć na interpretację wyników.
+
+
+<!-- Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+<br><br>
+Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.-->
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Przykład
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+Po lewej stronie, pokazujemy hipotetyczne drzewo filogenetyczne z wszystkimi próbami, gdzie próby z dwóch lokalizacji zaznaczone są na pomarańczowo i niebiesko. Gdy podążamy w dół drzewa, widzimy trzy momenty kiedy kolor (lokalizacja) zmienia się z pomarańczowego na niebieski. Z tego możemy wnioskować, że nastąpiły trzy różne introdukcje z pomarańczowej lokalizacji do niebieskiej. 
+<br><br>
+Taka interpretacja silnie zależy od skali pobranych prób: w środkowym drzewie usunęliśmy jedną pomarańczową próbkę. Teraz widzimy tylko jedno przejście z pomarańczowego na niebieski, co sugeruje, że nastąpiła tylko jedna introdukcja do niebieskiej lokalizacji, i że nastąpiła ona wcześniej niż na pierwszym drzewie.
+<br><br>
+Na ostatnim przykładzie, mamy tylko jedną pomarańczową próbkę, co może świadczyć o jednej introdukcji z pomarańczowej do niebieskiej lokalizacji.
+<br><br>
+Podsumowując, takie wnioskowanie może być bardzo cenne, aczkolwiek musi być interpretowane z ostrożnością.
+</p>
+```
+<!-- On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
 <br><br>
 But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
 <br><br>
 In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
-</p>
-```
+Thus, while these inferences can be invaluable, they also must be interpreted with caution.-->
+
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
