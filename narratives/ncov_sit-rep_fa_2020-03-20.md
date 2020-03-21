@@ -93,16 +93,20 @@ This information will make interpreting the data we present in this narrative ea
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
-<br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
+# [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+<p dir="rtl">
+ما در حال حاضر از ۳۶ کشور در ۶ قاره نمونه‌های توالی ژنتیکی داریم. این یک شاهکار باورنکردنی است. نمونه‌گیری از توالی ژنتیکی یک ویروس بزرگ آر‌ان‌ای ناشناخته در وسط یک همه‌گیری جهانی دشوار است و فقط با تلاش باورنکردنی و به اشتراک‌گذاری به موقع داده‌ها توسط دانشمندان و پزشکان در سراسر جهان امکان‌پذیر است
+<br>
+در حالی که این داده‌ها به ما این امکان را می‌دهد که بسیاری از خصوصیات مهم این شیوع را استنباط کرده و موقعیت زمانی و مکانی آن را ردیابی کنیم، تأکید می‌شود که نتیجه‌گیری‌های ما محدود به داده‌های موجود است
+<br>
+به عنوان مثال، در نقشه‌ی روی این سایت نمونه‌های توالی ژنتیکی بسیار کمی از کشورهای با درآمد متوسط و کم وجود دارد. این دلیل آن نیست که  کووید-۱۹ در این مناطق پخش نمی‌شود، یا این موارد برای درک ما از شیوع ویروس چندان مهم نیستند، بلکه نشان می‌دهد ما اطلاعات زیادی از این مناطق نداریم. اندازه‌ی هر دایره روی نقشه نشان می‌دهد که چه مقدار داده در حال حاضر از آن منطقه در دسترس است و به معنای گستره‌ی همه‌گیری نیست
+</p>
+
 Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
 Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
 Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
 <br><br>
 Let's look at a few examples.
-
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
