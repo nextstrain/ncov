@@ -32,9 +32,9 @@ abstract: "Dieses Narrativ erklärt wie man phylogenetische Bäume lesen und int
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Was verbindet die transmissions Geschichte mit phylogenetischen Bäumen?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Krankheitserreger verbreiten sich durch eine schnelle Vermehrung im Inneren eines Wirtes, gefolgt von der Transmission zum nächsten Wirt.
-Eine Epidemie kann sich nur verbreiten, wenn eine Infektion gefolgt wird von mehr als einer Übertragung.
+# [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Krankheitserreger verbreiten sich durch eine schnelle Vermehrung im Inneren eines Wirtes, gefolgt von der Übertragung zum nächsten Wirt.
+Eine Epidemie kann sich nur verbreiten, wenn eine Infektion gefolgt wird von mehr als einer Infektion.
 <br><br>
 Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom mehrere Male repliziert and zufällige Änderungen (oder Mutationen) akkumulieren in seinem Genom. Dies ist absolut normal und erlaubt es, dass die Verbreitung eines Krankheitserregers nachvollzogen werden kann und seine Uebertragungsrouten und Dynamiken verstanden werden können.
 
