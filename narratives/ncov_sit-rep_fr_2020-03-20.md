@@ -97,7 +97,7 @@ Ces informations faciliteront l’interprétation des données que nous présent
 
 ## Lectures additionnelles:
 
-* Informations générales sur les coronavirus sur [Wikipedia](https://fr.wikipedia.org/wiki/Coronavirus)
+* Informations générales sur les coronavirus sur [Wikipedia](https://fr.wikipedia.org/wiki/Coronavirus).
 * Tous les cas cités dans le présent rapport sont tirés de l'[OMS](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) à compter du 2020-03-20.
 ```
 
