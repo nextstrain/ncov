@@ -91,7 +91,7 @@ Ces informations faciliteront l’interprétation des données que nous présent
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration d'un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Contexte de l'émergence de COVID-19 </a>
 
-  <a href="(https://nextstrain.org/narratives/trees-background/fr"><img alt="illustration d'un arbre phylogénétique" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Comment lire les phylogénies </a>
+  <a href="https://nextstrain.org/narratives/trees-background/fr"><img alt="illustration d'un arbre phylogénétique" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Comment lire les phylogénies </a>
 
 </div>
 
