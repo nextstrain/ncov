@@ -130,7 +130,7 @@ Por lo tanto, al leer este documento se debe tener en cuenta que el tamaño de l
 
 Identificar el momento de infección de un caso es importante para entender cuales son las areas que experimentan transmisión local en comparación con aquellas donde la introducción se dio por viajes (caso cero).
 <br><br>
-Aquí, el color del árbol representa la historia de viaje del caso (si es conocido). Por ejemplo, la secuencia canadiense verde en el medio representa un caso con historial de viaje en Europa. Esta infección esta agrupada con otras secuencias europeas pues es casi seguro, en términos estadísticos, que es una infección relacionada con un viaje.
+Aquí, el color del árbol representa la historia de viaje del caso (si es conocida). Por ejemplo, la secuencia canadiense (Canada/BC_78548/2020) en el medio del árbol representa un caso con historial de viaje en Europa. Esta infección esta agrupada con otras secuencias europeas pues es casi seguro, en términos estadísticos, que es una infección relacionada con un viaje.
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -150,11 +150,11 @@ Aunque es probable que esta persona se haya infectado a través de una segunda c
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [Introdución del COVID-19 en la mayoría de países del mundo](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
-En el arbol, podemos ejemplos donde los casos estan inter-relacionados los unos con los otros.
+# [Introducción del COVID-19 en la mayoría de países del mundo](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+En el árbol, podemos ejemplos donde los casos están inter-relacionados los unos con los otros.
 Esto indica que debido al inevitable movimiento migratorio humano el virus del COVID-19 ha sido introducido en muchas partes del mundo.
 <br><br>
-En efecto, [la OMS reporta](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) que 159 paises de un total del 195 en todo el mundo tienen casos confirmados.
+En efecto, [la OMS reporta](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) que 159 países de un total del 195 en todo el mundo tienen casos confirmados.
 <br><br>
 Sin embargo, no todas las introducciones resultan en epidemias.
 <!-- There is no right side text -->
@@ -163,13 +163,13 @@ Sin embargo, no todas las introducciones resultan en epidemias.
 <!-- This is left-side text 9 -->
 # [La epidemia se hace evidente luego de 4-8 semanas desde las primeras introducciones](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
+Pareciera que el brote de COVID-19 ha explotado súbitamente esta semana.
+Para mucha gente, de la noche a la mañana, la epidemia ha pasado de ser una noticia abstracta en algunos países del mundo a ser algo que impacta directamente su vida diaria.
 <br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
+Debemos recordar que el brote ha estado creciendo sin ser detectado por varias semanas. Y no se trata necesariamente que el virus haya sido introducido a lugares nuevos con mas frecuencia.
+Es mas mucho probable que los países se hayan hecho conscientes de brotes locales a consecuencia de introducciones en semanas anteriores.
 <br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+Áreas donde aun no se han detectado brotes locales deben prepararse ahora y empezar diagnósticos preliminares.
 
 <!-- This is the right-side text -->
 
