@@ -112,15 +112,15 @@ It is precisely mutations such as this which we use to define the relationships 
 
 <!-- This is left-side text -->
 # [Messung von Unterschieden in genetischer Divergenz](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+Dieses ist eine Phylogenie der ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, das COVID-19 verursacht), die oeffentlich gemacht wurden.
 <br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+Hier stellt die horizontale Achse die Divergenz dar, also die Anzahl der Veraenderungen (Mutationen) in dem Genom, relativ zur 'Wurzel' des Baumes, d.h. dem Beginn des Ausbruches.
+Manche Sequenzen haben keine Mutationen, was bedeutet, dass sie identisch mit der 'Wurzel' des Baumes sind.
+Andere Sequenzen haven zwischen einer und elf Mutationen.
 <br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+Im Moment sieht die Abbildung noch nicht wirklich wie ein 'Baum' aus. Viele Sequenzen sind identisch, liegen also zusammen auf vertikalen Linien wie A und B (einige liegen zusammen auf dem ganz linken Teil des Baumes).
+Andere Sequenzen haben spezifische oder gemeinsame Mutationen und liegen auf Linien oder 'Aesten', die nach rechts abgehen.
+Sie koennen sehen, wie viele Mutationen ein 'Ast' hat, indem Sie mit dem Mauszeiger darueberfahren.
 
 <!-- There is NO right-side text -->
 
