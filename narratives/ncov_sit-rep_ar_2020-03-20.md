@@ -58,10 +58,10 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 في تقرير هذا الاسبوع، نوثق ما يلي:
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* دليل على عمليات ادخال للفيروس مرتبطة بالسفر لعدد من اجزاء من العالم  
+*العديد من الاماكن بادخالات فيروسية حديثة يمكنها توقع ان ترى حالات انتشار تمتد على مدى 4-8 اسابيع. عليهم الاستعداد حالا 
+* العديد من الاماكن التي قامت حديثا بتطبيق اجراءات التباعد الإجتماعي بمكننها توقع الزيادة في تراكم الحالات على المدى القصير،. ولكن الحالات الجديدة سوف يثبت معدلها على الاغلب ومن ثم تبدأ بالانحدار على المدى المتوسط والطويل 
+*الفحص لكل من المصابون النشطون او الافراد المتعافون سيكون اله اثر حيوي في التعامل مع الوباء 
 ```
 
 
