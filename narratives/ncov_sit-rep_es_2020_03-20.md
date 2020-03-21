@@ -70,64 +70,65 @@ En la actualización de esta semana, reportamos que:
 
 <!-- This is left-side text 2 -->
 # [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+A continuación, hemos preparado algunos recursos de información que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
+
+Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion ['Cómo leer philogenias'](https://nextstrain.org/narratives/trees-background/es) antes de leer el presente reporte.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Recursos de información relacionados con el COVID-19
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Antecendentes sobre los coronavirus </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Antecendentes del brote de COVID-19 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer Filogenias </a>
 </div>
 
-## Further Reading
-
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+## Material adicional
+* Resumen del brote de SARS-CoV-2 en [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2019-2020).
+* Los casos del COVID-19 usados en este documento son los reportados por la [OMS](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) al 20-03-2020.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
 # [Nota acerca del muestreo de casos](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+El presente reporte documenta la información de muestras tomadas en 36 países de 6 continentes. Este es un logro muy importante, el secuenciamiento de un virus desconocido de ARN en el medio de una pandemia, que ha sido posible gracias al trabajo sacrificado y la cooperación para compartir datos de muchos científicos y médicos en todo el mundo.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+A pesar que estos datos nos permiten hacer importantes inferencias acerca del brote del virus y monitorear su propagación en tiempo real, debemos enfatizar que estas conclusiones son limitadas en su representatividad a nivel mundial.
+
+Del número total de casos de COVID-19, solo una parte son diagnosticados. De los casos diagnosticados, solo una parte tienen su genoma secuenciado. 
+Las muestras de casos que son diagnosticados y secuenciados varían mucho entre diferentes regiones geográficas y también en el tiempo. Adicionalmente, los arboles filogenéticos de brote epidémicos tienen incertidumbre estadística intrínseca.
 <br><br>
-Let's look at a few examples.
+Veamos algunos ejemplos.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [Algunas regiones estan sub-representadas en los datos actuales](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+El mapa muestra muy pocas secuencias del hemisferio Sur. Por ejemplo, solo se tienen secuencias de 4 de un total de 25 países de Latinoamérica donde [la OMS ha reportado](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) casos de COVID-19. Esto NO se debe a que el COVID-19 no se haya propagado en otros países, o que estos casos no proporcionen información crucial para caracterizar el virus, sino simplemente que las secuencias genómicas no están disponibles en estos lugares.
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+# [Otras regiones estan sobrerepresentadas en los datos actuales](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+En otras áreas, como los Países Bajos, hay una gran cantidad relativa de secuencias genómicas disponibles con respecto al numero total de casos. 
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+Por lo tanto, al leer este documento se debe tener en cuenta que el tamaño de los círculos en el mapa es solo proporcional a la cantidad de información disponible y no representa la magnitud del brote en cada región. Mas información sobre el efecto de esto en las inferencias estadísticas pueden encontrarse [aquí]
+(https://nextstrain.org/narratives/trees-background?n=8).
 <br><br>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [Los datos de secuenciamiento genético pueden ser usados para validar los historiales de viaje](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
 Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
 <br><br>
@@ -135,7 +136,7 @@ Here, the tree is colored by the travel history of a case (when known). Looking 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Los datos de secuenciamiento genético pueden ser usados para validar los historiales de viaje](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
 Zooming out, we can see that this isn't always so consistent.
 <br><br>
