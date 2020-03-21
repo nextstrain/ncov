@@ -5,7 +5,7 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "Essa narrativa explica como ler e interpretar árvores genéticas que informam sobre epidemiologia genômica. Esse site é otimizado para visualização em navegadores de computadores."
+abstract: "Essa narrativa explica como ler e interpretar árvores filogenéticas que informam sobre epidemiologia genômica. Esse site é otimizado para visualização em navegadores de computadores."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
