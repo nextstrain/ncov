@@ -597,19 +597,19 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [科学贡献详情](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+所有数据已被共享至[GISAID](https://gisaid.org)数据库。
+我们感谢各位科学家的慷慨分享。
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+在右边，我们列出了每个实验室共享的序列。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+感谢下列实验室里科学家们慷慨分享SARS-CoV-2的基因组:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
