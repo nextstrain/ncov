@@ -210,14 +210,14 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [كيف ينتشر الوباء: مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
+بمكننا ايصا مشاهدة مثال على كيف ان حالات انتشار وبائي اولية يمكن ان تسبب او تزرع ادخالات في اماكن اخرى.
+العينات من ولاية ايوتا قرب اعلى الشجرة ( البرتقالي) تتعشش (اي تبقى محتواة) داخل الفرع الرئيسي من حالة وباء واشنطن.
+وهذا على توافق مع حالة ادخال من واشنطن الى ايوتا، على الرغم انه من الممكن انه كان هناك مرحلة او مراحل وسطية في سلسلة الانتشار
 <br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
+لا نعلم على وجه التأكيد فيما اذا كان هذا الادخال سيسبب حالة انتشار وبائي في ايوتا
+لكن اذا استمر الفيروس في الانتشار بعد هذه الادخالات، فسوف نتوقع ان نرى تضاعفا على مدى الاسابيع الاربعة القادمةBut, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
 <br><br>
 This is just one example.
 There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
