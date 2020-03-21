@@ -146,10 +146,10 @@ Wenn Sie den Mauszeiger ueber die vertikale Linie ganz links bewegen, sehen Sie,
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Wie soll man Farben auf einem Baum interpretieren](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+# [Wie soll ich die Farben in einem Baum interpretieren?](https://nextstrain.org/ncov/2020-03-11)
+Phylogenetische Baueme enthalten of zusaetzliche Informationen, zum Beispiel die Orte der Probennahmen. Mittels dieser koennen wir die Orte fuer die internen Verzweigungspunkte (hypothetische, intermediaere, aber nicht beprobte Faelle) mittel mathematischer Modelle ableiten. Das kann uns helfen zu verstehen, wie das Virus sich von einem Ort zum naechsten bewegt.
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+Die Interpretation dieser Daten sollte jedoch mit Vorsicht erfolgen, weil die Probenentnahme und Sequenzierung, oder das Fehlen derselben, einen entscheidenden Einfluss haben kann.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
