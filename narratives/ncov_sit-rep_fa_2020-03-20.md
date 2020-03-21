@@ -42,7 +42,8 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
 * [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
 * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -128,7 +129,7 @@ So, when reading this narrative, keep in mind that the size of each circle on th
 
 Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+Here, the tree is colored by the travel history of a case (when known). Looking at the green Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
@@ -279,14 +280,21 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [اعتبار علمی](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
 
-<br>
+<p dir="rtl">
+ما می‌خواهیم از کار شگفت‌انگیز و به موقع انجام‌شده توسط همه‌ی دانشمندان در حال کار بر روی این همه‌گیری جهانی و به ویژه افرادی که در کشور چین کار می‌کنند قدردانی کنیم.
+که با به اشتراک‌گذاری سریع داده‌های ژنتیکی و داده‌های آماری خود اجازه‌ی تحلیل‌های این‌چنینی را برای ما ممکن می‌سازد.
+</p>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+
+<p dir="rtl">
+ با سپاس و قدردانی از
+<a href="https://gisaid.org">GISAID</a>
+ برای در اختیار گذاشتن پلتفرم که از طریق آن داده‌ها می‌تواند بارگذاری و به اشتراک گذاشته‌شود.
+</p>
+
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
@@ -596,14 +604,14 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [لیست کامل اعتبار علمی](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+این داده‌ها از طریق [GISAID](https://gisaid.org) به اشتراک گذاشته‌شد.
+ما از مشارکت آن‌ها بسیار قدردانی می‌کنیم.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+در سمت راست، توالی‌های خاصی را که توسط هر آزمایشگاه به اشتراک گذاشته شده را نام می‌بریم..
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
