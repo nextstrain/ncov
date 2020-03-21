@@ -39,12 +39,12 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 
 * [Πηγές](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=2).     
 * [Μια σημείωση σχετικά με τη δειγματοληψία](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=3).
-* [Sequence data & ιστορικό ταξιδίων](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=12).
+* [Δεδομένα αληλουχίας και ιστορικό ταξιδίων](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=6).
+* [Διασπορά COVID-19 σχεδόν σε όλες τις χώρες](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=8).
+* [Πώς μεγαλώνουν οι εστίες και διασπείρονται](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=9).
+* [Πώς μεγάλωσαν οι εστίες στην Ουάσινκτον](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=10).
+* [Πώς έγινε η διασπορά της εστίας στη Ουάσινγκτον](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=11).
+* [Πώς η κοινωνική απόσταση αλλάζει των αριθμό των περιπτώσεων](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=12).
 * [Τι μπορείς να κάνεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=13).
 * [Συχνές ερωτήσεις και κοινές παρανοήσεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=14).
 * [Επιστημονικές αναγνωρίσεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=15).
@@ -122,7 +122,6 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γ�
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
 # [Άλλες περιοχές παρουσιάζονται υπερβολικά σε αυτά τα δεδομένα](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
 Σε άλλες περιοχές, όπως η Ολλανδία υπάρχει διαθέσιμος ένας τεράστιος όγκος δεδομένων ακολουθίας, σε σχέση με τον συνολικό αριθμό περιπτώσεων.
 <br><br>
 Έτσι, κατά την ανάγνωση αυτής της αφήγησης, να έχετε κατά νου ότι το μέγεθος κάθε κύκλου στον χάρτη υποδεικνύει πόσα δεδομένα είναι διαθέσιμα από αυτήν την περιοχή, αντί για το πραγματικό μέγεθος της επιδημίας. Μπορείτε να [διαβάσετε εδώ ](https://nextstrain.org/narratives/trees-background?n=8) για το πώς αυτό μπορεί να επηρεάσει τα συμπεράσματά μας για μετάδοση.
@@ -146,7 +145,6 @@ In other areas, such as the Netherlands, there is a vast amount of sequence data
 <br><br>
 Εδώ, μπορούμε να δούμε ότι σχεδόν όλες οι περιπτώσεις που αναφέρουν τα πρόσφατα ταξίδια στο Ιράν συγκεντρώνονται στο μέσον του δέντρου.
 <br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
 Προς την κορυφή του δέντρου, βλέπουμε επίσης μια περίπτωση στ Καναδά με ιστορικό ταξιδιού στο Ιράν. Ωστόσο, αυτή η ακολουθία δεν ομαδοποιεί οπουδήποτε κοντά στις υπόλοιπες περιπτώσεις με το ιστορικό ταξιδιού στο Ιράν.
 <br><br>
 Είναι σίγουρα πιθανό αυτό το άτομο είχε μολυνθεί από μια δεύτερη συνεχή αλυσίδα μεταφοράς στο Ιράν, αλλά μέχρι να βρούμε περισσότερα δεδομένα, δεν μπορούμε να επιβεβαιώσουμε ότι αυτή η μόλυνση είχε αποκτηθεί από ταξιδιώτες.
@@ -215,10 +213,6 @@ Towards the top of the tree, we also see a Canadian case with travel history to 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
 # [Πώς μεγαλώνουν οι εστίες: ένα παράδειγμα](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
-
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
 
 Μπορούμε επίσης να δούμε ένα παράδειγμα του πώς αρχικά εντοπισμένες εστίες εισήχθησαν σε άλλες τοποθεσίες.
 Τα δείγματα από τη Γιούτα κοντά στην κορυφή του δέντρου (πορτοκαλί χρώμα) φωλιάζουν μέσα στην κύρια ρήξη από την εστία της Ουάσινγκτον.
