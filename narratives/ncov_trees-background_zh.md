@@ -28,15 +28,15 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 -->
 
 * [病原体的传播和系统发生树有什么关系](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=2)?  
-* [如何解读系统发生树](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [“多样性”图表与系统发生树之间的联系](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [测量遗传差异](https://nextstrain.org/narratives/trees-background?n=4).  
-* [在时间上的差异](https://nextstrain.org/narratives/trees-background?n=5).  
-* [推断疫情爆发的时间](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [系统发生树上的性状（颜色）是什么意思](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [地图与系统发生树的关系](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [进阶阅读：系统发生树的不确定性](https://nextstrain.org/narratives/trees-background?n=9).  
-* [关于数据集](https://nextstrain.org/narratives/trees-background?n=10).  
+* [如何解读系统发生树](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=3)?  
+* [“多样性”图表与系统发生树之间的联系](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=4)?   
+* [测量遗传差异](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=5).  
+* [在时间上的差异](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=6).  
+* [推断疫情爆发的时间](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=7)?  
+* [系统发生树上的性状（颜色）是什么意思](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=8)?  
+* [地图与系统发生树的关系](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=9)?  
+* [进阶阅读：系统发生树的不确定性](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=10).  
+* [关于数据集](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=11).  
 <!-- No right-side text -->
 
 
