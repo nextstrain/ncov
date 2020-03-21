@@ -35,7 +35,7 @@ abstract: "Essa narrativa explica como ler e interpretar árvores filogenéticas
 # [Como redes de transmissão estão relacionadas às árvores filogenéticas?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
 Patógenos se espalham através da replicação rápida em um hospedeiro, seguido da transmissão para outro hospedeiro. Considera-se uma epidemia só quando uma infecção resulta em mais de uma nova infecção subsequente.
 <br><br>
-À medida que o patógeno se replica e espalha, seu genoma precisa ser replicado várias vezes e, consequentemente, mutações aleatórias ("erros copiados") serão acumulados no genoma; isto é normal. Tais mutações aleatórias podem ajudar a rastrear o espalhamento do patógeno e aprender sobre suas rotas e dinâmicas de transmissão.
+À medida que o patógeno se replica e espalha, seu genoma precisa ser replicado várias vezes e, consequentemente, mutações aleatórias ("erros de cópia") serão acumuladas no genoma: isto é normal. Tais mutações aleatórias podem ajudar a rastrear a dispersão do patógeno e aprender sobre suas rotas e dinâmicas de transmissão.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -45,7 +45,7 @@ Patógenos se espalham através da replicação rápida em um hospedeiro, seguid
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-A ilustração acima mostra um esboço de uma árvore de transmissão. Cada círculo representa um caso (pessoa infectada), com linhas horizontais indicando a duração da infecção. Casos conectados representam transmissões de uma pessoa para a próxima.
+A ilustração acima mostra um esboço de uma árvore de transmissão. Cada círculo representa um caso (pessoa infectada), com linhas horizontais indicando a duração da infecção. Casos conectados representam transmissões de uma pessoa para outra.
 <br> <br>
 Aqui, vemos a imagem completa da árvore de transmissão. Na prática, no entanto, apenas um subconjunto de casos é amostrado (azul); a árvore de transmissão é desconhecida e normalmente apenas estimativas aproximadas de contagens de casos estão disponíveis. Seqüências genômicas nos permitem inferir partes da árvore de transmissão. Neste exemplo, três mutações (pequenos losangos) estão indicadas na árvore. Seqüências que têm as mesmas mutações estão mais intimamente relacionadas, portanto, essas mutações nos permitem agrupar amostras em grupos de vírus intimamente relacionados que pertencem às mesmas cadeias de transmissão.
 </p>
