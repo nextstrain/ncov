@@ -68,9 +68,9 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [مصادر كوفيد 19](https://nextstrain.org/ncov/2020-03-20)
+لقد قمنا بتحضير بعض المراجع التي تستحق القراءة من اجل التعرف على كوفيد 19 والفيروس الذي يسببه وهو سارس كو في 2.
+هذه المعلومات ستجعل تحليل البيانات التي نعرضها في هذا التقرير اسهل، اذا لم يكن لديك فكرة عن اشجار التصنيف الجيني فنحن نشجعك لفحص الموقع التالي ['كيف تقرأ تقارير التصنيف الجيني](https://nextstrain.org/narratives/trees-background/)  والعودة لهنا مرة اخرى عندما تكون جاهزا
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
