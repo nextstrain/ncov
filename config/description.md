@@ -1,6 +1,6 @@
 [请点击这里查看中文版本](/ncov/zh)
 
-[Latest Nextstrain COVID-19 situation report in English](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13) and [in other languages](https://nextstrain.org/narratives/ncov/sit-rep/). Follow [@nextstrain](https://twitter.com/nextstrain) for continual updates to data and analysis.
+[Latest Nextstrain COVID-19 situation report in English](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20) and [in other languages](https://nextstrain.org/narratives/ncov/sit-rep/). Follow [@nextstrain](https://twitter.com/nextstrain) for continual updates to data and analysis.
 
 This phylogeny shows evolutionary relationships of hCoV-19 (or SARS-CoV-2) viruses from the ongoing novel coronavirus COVID-19 pandemic. This phylogeny shows an initial emergence in Wuhan, China, in Nov-Dec 2019 followed by sustained human-to-human transmission leading to sampled infections. Although the genetic relationships among sampled viruses are quite clear, there is considerable uncertainty surrounding estimates of transmission dates and in reconstruction of geographic spread. Please be aware that specific inferred transmission patterns are only a hypothesis.
 
