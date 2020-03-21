@@ -208,7 +208,7 @@ Interpreting these should, however, be done with caution, as the sampling and se
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-左边是一个采样完全的系统发生树，它的样本来自两个不同的地方，分别用橙色和蓝色表示。当我们沿着树往下看时，我们可以观察到从橙色到蓝色的颜色（地点）转换发生了三次。由此我们可以得出结论，发生了三次从橙色地点到蓝色地点的输入事件.
+左边是一个采样完全的系统发生树，它的样本来自两个不同的地方，分别用橙色和蓝色表示。当我们沿着树往下看时，可以观察到从橙色到蓝色的颜色（地点）转换发生了三次。由此我们可以得出结论，发生了三次从橙色地点到蓝色地点的输入事件.
 <br><br>
 但是，我们的推断依赖于采样范围：在中间的树中，我们移除了一个橙色样本。我们现在只能观察到一次从橙色到蓝色的转变，意味着只有一次早期发生的输入蓝色地区的事件.
 <br><br>
@@ -223,10 +223,10 @@ Interpreting these should, however, be done with caution, as the sampling and se
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 <!-- # [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed) -->
-# [地图与系统发生树的联系](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [地图与系统发生树的关系](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-在这里，我们可以看到用样本的位置(以及为每个内部节点推断的位置)着色的树.
-点击['浏览数据'](https://nextstrain.org/ncov), 您可以播放一段动画，演示在爆发过程中推断出的病毒传播情况.
+在这里，我们可以看到根据样本的地理位置（以及推断出的内部节点的地理位置）着色的树。
+点击['浏览数据'](https://nextstrain.org/ncov), 您可以播放一段动画，观看所推断出的病毒在疫情爆发过程中的传播情况。
 
 
 <!-- ############ SLIDE BREAK ############# -->
