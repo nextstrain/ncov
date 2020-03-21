@@ -39,20 +39,20 @@ abstract: "Ce rapport utilise des données génomiques partagées publiquement p
 <!-- This is left-side text 1 -->
 # [Table des matières](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Ressources sur COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).
-* [Une note sur les questions d'échantillonnage](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Certaines régions sont sous-représentées dans ces données](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=4).
-* [D'autres régions sont surreprésentées dans ces données](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=5).
-* [Les données de séquence peuvent valider les historiques de voyage](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Les données de séquence peuvent valider les historiques de voyage](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=7).
-* [Le virus a été introduit dans presque tous les pays du monde](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [Les épidémies deviennent évidentes ~4-8 semaines après l'introduction](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [Comment les épidémies se propagent : un exemple](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [Comment les épidémies se propagent : un exemple](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [Les mesures d'atténuation prennent du temps, mais elles sauvent des vies](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [À retenir](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Crédit scientifique](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Crédit scientifique détaillé](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [Ressources sur COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=2).
+* [Une note sur les questions d'échantillonnage](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=3).
+* [Certaines régions sont sous-représentées dans ces données](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=4).
+* [D'autres régions sont surreprésentées dans ces données](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=5).
+* [Les données de séquence peuvent valider les historiques de voyage](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=6).
+* [Les données de séquence peuvent valider les historiques de voyage](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=7).
+* [Le virus a été introduit dans presque tous les pays du monde](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=8).
+* [Les épidémies deviennent évidentes ~4-8 semaines après l'introduction](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=9).
+* [Comment les épidémies se propagent : un exemple](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=10).
+* [Comment les épidémies se propagent : un exemple](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=11).
+* [Les mesures d'atténuation prennent du temps, mais elles sauvent des vies](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=12).
+* [À retenir](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=13).
+* [Crédit scientifique](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=14).
+* [Crédit scientifique détaillé](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -91,7 +91,7 @@ Ces informations faciliteront l’interprétation des données que nous présent
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration d'un coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Contexte de l'émergence de COVID-19 </a>
 
-  <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="illustration d'un arbre phylogénétique" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Comment lire les phylogénies </a>
+  <a href="(https://nextstrain.org/narratives/trees-background/fr"><img alt="illustration d'un arbre phylogénétique" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Comment lire les phylogénies </a>
 
 </div>
 
@@ -129,7 +129,7 @@ La carte ne montre que très peu de séquences provenant du sud de la planète. 
 # [D'autres régions sont surreprésentées dans ces données](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 Dans d'autres régions, telles que les Pays-Bas, il existe une grande quantité de données de séquence disponibles, par rapport au nombre total de cas.
 <br><br>
-Ainsi, en lisant ce récit, gardez à l'esprit que la taille de chaque cercle sur la carte indique la quantité de données actuellement disponibles pour cette zone, plutôt que la taille réelle de l'épidémie. Vous pouvez [lire ici](https://nextstrain.org/narratives/trees-background?n=8) une explication sur la façon dont cela peut affecter nos déductions sur la transmission.
+Ainsi, en lisant ce récit, gardez à l'esprit que la taille de chaque cercle sur la carte indique la quantité de données actuellement disponibles pour cette zone, plutôt que la taille réelle de l'épidémie. Vous pouvez [lire ici](https://nextstrain.org/narratives/trees-background/fr?n=8) une explication sur la façon dont cela peut affecter nos déductions sur la transmission.
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -194,7 +194,7 @@ Vous trouverez ci-dessous une réflexion montrant comment cela s'est déroulé �
 
 "Le COVID-19 à Wuhan est passé d'un cas index en ~ novembre 2019 à plusieurs milliers de cas à la mi-janvier 2020, passant ainsi de l'introduction initiale à une transmission locale généralisée en environ 10 semaines. Nous pensons que les événements d'introduction internationaux ont commencé à se produire à la mi-janvier. Nous avons donc un délai critique de ~ 10 semaines à partir de la fin de mars pour contenir ces épidémies naissantes avant qu'elles ne deviennent importantes." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
-Ces nouvelles épidémies peuvent, à leur tour, semer de nouvelles introductions dans d'autres endroits. 
+Ces nouvelles épidémies peuvent, à leur tour, semer de nouvelles introductions dans d'autres endroits.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -206,7 +206,7 @@ Ces nouvelles épidémies peuvent, à leur tour, semer de nouvelles introduction
 # [Comment les épidémies se propagent : un exemple](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 Nous pouvons voir un exemple clair de cela dans les données de l'État de Washington.
-Passer la souris à racine du clade principal montre que le virus a probablement été introduit dans cette zone entre fin janvier et mi-février 2020 ([méthodes](https://nextstrain.org/narratives/trees-background?n=6)).
+Passer la souris à racine du clade principal montre que le virus a probablement été introduit dans cette zone entre fin janvier et mi-février 2020 ([méthodes](https://nextstrain.org/narratives/trees-background/fr?n=6)).
 <br><br>
 À la mi-mars (~ 6 semaines plus tard), nous constatons qu'une épidémie locale bat son plein dans cette zone. À partir des seules données de séquence, nous estimons un taux de doublement de 3 à 6 jours, en supposant une population en croissance exponentielle.  
 <br>
@@ -250,7 +250,7 @@ Il est essentiel que la distanciation sociale soit maintenue pendant cette péri
 ## La distanciation sociale n'arrête pas tous les nouveaux cas du jour au lendemain, mais elle permet de réduire considérablement le nombre de cas et de décès au fil du temps
 
 La distanciation sociale - c'est-à-dire la diminution du nombre de personnes que vous rencontrez chaque jour - cela peut être difficile, mais cette mesure est extrêmement bénéfique pour le bien public.  
- Si chacun diminuait ses contacts quotidiens de 25 %, on pourrait s'attendre à une diminution de 50 % du nombre cumulé de cas au cours du mois suivant ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). 
+ Si chacun diminuait ses contacts quotidiens de 25 %, on pourrait s'attendre à une diminution de 50 % du nombre cumulé de cas au cours du mois suivant ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -261,7 +261,7 @@ La distanciation sociale - c'est-à-dire la diminution du nombre de personnes qu
 # [À retenir](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
 - Le virus a été introduit à plusieurs reprises dans de nombreuses régions du globe.
 <br>
-- 
+-
 Nous voyons des preuves de transmission locale dans de nombreuses régions; au-delà de ces constations, nous nous attendons à ce que les introductions précédentes aient déjà donné lieu à de nombreuses épidémies locales qui deviendront évidentes dans les semaines à venir.
 <br>
 - Il est essentiel de contrôler les épidémies locales par la distanciation sociale:
@@ -272,7 +272,7 @@ Nous voyons des preuves de transmission locale dans de nombreuses régions; au-d
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# Mesures que vous pouvez prendre 
+# Mesures que vous pouvez prendre
 ## En tant que particulier
 * Réduisez drastiquement le nombre de personnes avec lesquelles vous êtes en contact chaque jour, surtout si vous faites partie d'un groupe vulnérable (par exemple, les personnes âgées et les personnes souffrant de maladies préexistantes).
 * N'oubliez pas que même si vous ne faites pas partie de ces personnes vulnérables, de nombreuses personnes autour de vous le sont ; suivez ces pratiques pour protéger les autres.
