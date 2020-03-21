@@ -36,15 +36,15 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 * [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
 *  
 [ملاحظة عن جمع العينات](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [بيانات التسلسلات وتاريخ السفرSequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [ Introduction of COVID-19 to almost all countries](https://nextstrain.org/naratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [بيانات التسلسلات وتاريخ السفر](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [دخول كوفيد 19 الى معظم الدول تقريبا](https://nextstrain.org/naratives/ncov/sit-rep/2020-03-20?n=8).
+* [كيف ينمو وينتشر الوباء](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [كيف ينمو وباء واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [كيف ينتشر وباء واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [كيف بتغير عدد الحالات مع التباعد الاجتماعي](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [ماذا يمكنك أن تفعل](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [أسئلة شائعة ومفاهيم خاطئة](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
