@@ -138,7 +138,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text 7 -->
 # [序列数据可以交叉印证旅行史](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-将地图拉远后，我们可以看到数据也并不总是与旅行史一致。
+将图拉远后，我们可以看到数据也并不总是与旅行史一致。
 <br><br>
 这里我们可以看到，几乎所有报告最近有伊朗旅行史的病例都集中在树的中间。
 <br><br>
