@@ -234,12 +234,12 @@ Interpreting these should, however, be done with caution, as the sampling and se
 <!-- This is left-side text -->
 <!-- # [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11) -->
 # [高级阅读：系统发生树中的不确定性](https://nextstrain.org/ncov/2020-03-11)
-前面，我们讨论了内部节点是如何表示_假设的_未采样病例。事实上，所有的树都代表了关于病原体如何随时间进化和移动的“假设”。我们在NextStress上展示的树是对点的估计 -- 也就是我们为了能最大限度地增加可观察到的历史数据的概率而采用的版本.
+前面，我们讨论了内部节点是如何代表_假设的_未采样病例的。事实上，每个系统发生树都代表着关于病原体随时间进化和传播的一种“_假说_”。我们在NextStrain网页上展示的树是“点估计” -- 意思是，在众多版本的演化史中，这棵树所展示的病毒演化史是最有可能让我们观测到现在所观测到的数据的。
 <br><br>
-不过，这些预估总是存在不确定性。一般说来，采样密集的部分比较确定；采样稀疏的区域就不太确定.
+不过，这样的估测总是存在不确定性。一般说来，树中采样密集的区域确定性较高，采样稀疏的区域就不太确定.
 
 ```auspiceMainDisplayMarkdown
-# 插图
+# 图示
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
