@@ -47,20 +47,20 @@ abstract: "Этот отчет использует общедоступные �
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Резюме
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+Мы провели анализ 723</tag> общедоступных генома COVID-19. Сопоставив эти геномы вируса между собой, мы можем охарактеризовать как COVID-19 развивается и перемещается по всему миру.
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+В этом отчете мы подчеркиваем, что вирус был внедрен и циркулирует во многих частях земного шара.
+Чтобы узнать циркулирует ли COVID-19 локально и в какой степени и как меры по смягчению последствий могут замедлить его распространение, требуется хорошее понимание динамики локальной вспышки. Это, в свою очередь, требует широкого тестирования.
+Это подчеркивает важность быстрого тестирования с упором на замедление локальных передач вируса.
 
-In this week's updates, we report:  
+В обновлениях этой недели мы сообщаем:
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* Признаки внедрения вируса через поездки во многие части мира.
+* Во многих местах с недавним внедрением вируса можно ожидать увелечения числа случаев заражения за 4-8 недель. Они должны подготовиться сейчас.
+* Во многих местах, где недавно были приняты меры по социальному дистанцированию, можно ожидать дальнейшего возрастания случаев заражения в краткосрочной перспективе, но количество новых случаев, вероятно, достигнет плато и уменьшится в средне- и долгосрочной перспективе.
+* Тестирование на активные инфекции а также выздоровевших людей, будет иметь жизненно важное значение для борьбы с этой эпидемией.
 ```
 
 
