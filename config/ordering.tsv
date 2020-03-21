@@ -30,10 +30,12 @@ location	Chungcheongnam
 location	Seoul
 location	Kathmandu
 location	Thanh Hoa
+location	Hanoi
 location	Bangkok
 location	Singapore
 location	Gold Coast
 location	Sydney
+location	Melbourne
 location	Clayton
 location	Auckland
 location	Heinsberg District
@@ -62,6 +64,7 @@ location	Tilburg
 location	Helmond
 location	Oisterwijk
 location	Dalen
+location	Budapest
 location	Nantes
 location	Crépy en Valois
 location	Paris
@@ -144,6 +147,9 @@ division	Kerala
 division	Iran
 division	Tbilisi
 division	Thanh Hoa
+division	Vinhphuc
+division	Red River Delta
+division	Quangning
 division	Sihanoukville
 division	Nonthaburi
 division	Singapore
@@ -152,6 +158,7 @@ division	New South Wales
 division	Victoria
 division	Auckland
 division	Europe
+division	Central Hungary
 division	Copenhagen
 division	Ile de France
 division	Pays de la Loire
@@ -204,7 +211,6 @@ division	Scotland
 division	Småland
 division	Helsinki
 division	Finland
-division	Copenhagen
 division	Portugal
 division	Lagos
 division	Kinshasa
@@ -218,6 +224,7 @@ division	Distrito Federal
 division	Panama City
 division	Mexico City
 division	USA
+division	Connecticut
 division	Texas
 division	Utah
 division	Arizona
@@ -245,6 +252,7 @@ country	Singapore
 country	Australia
 country	New Zealand
 country	Georgia
+country	Hungary
 country	France
 country	Denmark
 country	Netherlands
@@ -258,7 +266,6 @@ country	Czech Republic
 country	United Kingdom
 country	Ireland
 country	Finland
-country	Denmark
 country	Sweden
 country	Portugal
 country	Nigeria
