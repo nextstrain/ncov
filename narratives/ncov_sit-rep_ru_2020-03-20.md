@@ -46,8 +46,7 @@ abstract: "Этот отчет использует общедоступные �
 * [Как распространилась вспышка в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=11).
 * [Как изменяется количество случаев заражения с социальным дистанцированием](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=12).
 * [Что вы можете предпринять](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=13).
-* [Часто задаваемые вопросы и Заблуждения](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=14).
-* [Благодарности](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=15).
+* [Благодарности](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown

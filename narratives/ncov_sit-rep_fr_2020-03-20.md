@@ -41,18 +41,14 @@ abstract: "Ce rapport utilise des données génomiques partagées publiquement p
 
 * [Ressources sur COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=2).
 * [Une note sur les questions d'échantillonnage](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=3).
-* [Certaines régions sont sous-représentées dans ces données](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=4).
-* [D'autres régions sont surreprésentées dans ces données](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=5).
 * [Les données de séquence peuvent valider les historiques de voyage](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=6).
-* [Les données de séquence peuvent valider les historiques de voyage](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=7).
 * [Le virus a été introduit dans presque tous les pays du monde](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=8).
 * [Les épidémies deviennent évidentes ~4-8 semaines après l'introduction](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=9).
-* [Comment les épidémies se propagent : un exemple](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=10).
-* [Comment les épidémies se propagent : un exemple](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=11).
+* [Comment l'épidémie de Washington a augmenté](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=10).
+* [Comment l'épidémie de Washington s'est propagée](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=11).
 * [Les mesures d'atténuation prennent du temps, mais elles sauvent des vies](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=12).
 * [À retenir](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=13).
 * [Crédit scientifique](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=14).
-* [Crédit scientifique détaillé](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
