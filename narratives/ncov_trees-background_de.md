@@ -91,7 +91,7 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Was verbindet die "diversity" Tabelle mit dem phylogenetischen Baum](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [Was verbindet die "diversity" Tabelle mit dem phylogenetischen Baum?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
 Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
@@ -125,7 +125,7 @@ You can see how many mutations a branch has by hovering your mouse over it.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Messung von Unterschieden mittels Zeit](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [Messung von Unterschieden in Zeiteinheiten](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 Wir koennen ebenfalls visualisieren, wie das Virus sich ueber einen Zeitrahmen verbreitet hat, indem wir das Datum der Probennahmen auf der x-Achse verwenden. Dabei repraesentiert die x-Achse das Datum der Probennahme fuer jedes Virus. Die Positionen der Spitzen des Baumes stellen das Datum dar, an dem die jeweilige Probe genommen wurde. Die Daten der internen Verzweigungspunkte -- der 'unbekannten Faelle' -- werden basierend auf den Daten der Nachkommen und der Geschwindigkeit, mit der das Virus mutiert, abgeleitet.
 <br><br>
 Beachten Sie, wie viele Sequenzen, die urspruenglich auf einer Linie waren (d.h. identische Genome) nun ueber einen Zeitrahmen ausgebreitet sind. Das passiert, wenn das Virus mit einer Geschwindigkeit mutiert, die etwas geringer ist als die Geschwindigkeit, mit der es sich ausbreitet.
