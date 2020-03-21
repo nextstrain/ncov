@@ -112,10 +112,9 @@ The tips of the tree represent samples (i.e., blue cases from the last slide). T
 <p>
 Powyżej po lewej stronie, widzimy ilustrację drzewa filogenetycznego, na którym mutacje są oznaczone czerwonymi kółkami. Po prawej znajdują się sekwencje odpowiadające poszczególnym gałęziom drzewa (próbkom), również z mutacjami zaznaczonymi czerwonymi kółkami. Widzimy, że sekwencje, które dzielą te same mutacje grupują się razem. Gdy pokrewne przypadki zdają się być połączone pionową linią na drzewie, jak np. A i B, to oznacza, że nie ma różnic między nimi - ich sekwencje są identyczne.
 <br><br>
-Kiedy sekwencja znajduje się na długiej gałęzi, np. jak C czy E, to oznacza, że posiada unikatowe mutacje nie występujące w żadnej innej sekwencji. Im dłuższa linia, tym więcej mutacji.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+Kiedy sekwencja znajduje się na długiej gałęzi, np. C czy E, to oznacza, że posiada unikatowe mutacje nie występujące w żadnej innej sekwencji. Im dłuższa linia, tym więcej mutacji. A i B również mają unikatowe mutacje (zielone kółko) nie współdzielone z żadną inną sekwencją, ale względem siebie są identyczne.
 <br><br>
-Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
+Na podstawie tego drzewa, możemy wyciągnąć wniosek, że A i B są blisko ze sobą spokrewnione, oraz D i E są blisko ze sobą spokrewnione. A i B są bliżej spokrewnione z C niż do D i E <!-- tu byl chyba blad, powinno byc Di E zamiast D i C? -->
 </p>
 
 <!-- Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
@@ -126,9 +125,9 @@ A and B also have unique mutations (the green circle) not shared by the other se
 Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C. -->
 
 
-### Further reading  
-* [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
-* [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
+### Materiały dodatkowe
+* [How to read a tree: instruktaż z Arctic Network](https://artic.network/how-to-read-a-tree.html).  
+* [How to read a tree: wideo z Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
 </div>
 
