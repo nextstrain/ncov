@@ -150,28 +150,27 @@ abstract: "Этот отчет использует общедоступные �
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [Вирус был занесен почти в каждую страну в мире](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+На дереве мы видим множество перемешанных образцов из разных стран. 
+Это означает, что такое непродотвратимое передвижение людей уже привнесло вирус во многие части земного шара.  
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
+В частности, [ВОЗ сообщает](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) о 159 подтвержденных случаев из 195 стран мира.
 <br><br>
-However, not all introductions result in outbreaks.
+Несмотря на это, не все явления заноса приводят к вспышкам.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [Эпидемии проявляются через ~4-8 недель после заноса](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
+Может показаться, как будто COVID-19 вдруг взорвался.
+Для многих людей эта вспышка прошла путь от абстрактного предмета беспокойства в других частях мира к чему-то, что сильнейшим образом влияет на их жизнь, и все, как кажется, в одночасье. 
 <br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
+Но не забывайте, это все находилось в состоянии брожения на протяжении некоторого времени. Это не означает, что явления заноса вируса в новые районы теперь происходит более часто. Скорее всего, многие районы начинают узнавать о местных вспышках, которые начались с заноса несколько недель наза. 
 <br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+Те районы, которые пока еще не знают о местных вспышках, должны подготовиться сейчас и начать тестирование с целью надзора. 
 
 <!-- This is the right-side text -->
 
@@ -194,12 +193,12 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Как вспышки растут: пример](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Мы ясно видим это на примере этих данных из штата Вашингтона.
+Наводя указатель мыши на главный кластер вы увидите, что вирус был скорее всего привнесен в этот регион месжду концом января и серединой февраля 2020 ([методы](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+Теперь, в середине марта (~6 недель позже), мы видим что местная вспышка идет поным ходом в этой местности. Только исходя из данных секвенирования, мы оцениваем время удвоения от 3 до 6 дней, при условии что популяция растет экспоненциально.   
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
