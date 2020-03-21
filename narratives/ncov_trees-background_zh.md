@@ -27,16 +27,16 @@ abstract: "这份报告将会介绍在流行病基因组学中，如何阅读和
 * [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
 -->
 
-* [病原体的传播和系统发生树有什么关系](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=2)?  
-* [如何解读系统发生树](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=3)?  
-* [“多样性”图表与系统发生树之间的联系](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=4)?   
-* [测量遗传差异](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=5).  
-* [差异随时间的变化](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=6).  
-* [推断疫情爆发的时间](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=7)?  
-* [系统发生树上的性状（颜色）是什么意思](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=8)?  
-* [地图与系统发生树的关系](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=9)?  
-* [进阶阅读：系统发生树的不确定性](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=10).  
-* [数据说明](https://nextstrain.org/community/narratives/nextstrain/ncov@background_zh/trees-background/zh/?n=11).  
+* [病原体的传播和系统发生树有什么关系](https://nextstrain.org/narratives/trees-background/zh?n=2)?  
+* [如何解读系统发生树](https://nextstrain.org/narratives/trees-background/zh?n=3)?  
+* [“多样性”图表与系统发生树之间的联系](https://nextstrain.org/narratives/trees-background/zh?n=4)?   
+* [测量遗传差异](https://nextstrain.org/narratives/trees-background/zh?n=5).  
+* [差异随时间的变化](https://nextstrain.org/narratives/trees-background/zh?n=6).  
+* [推断疫情爆发的时间](https://nextstrain.org/narratives/trees-background/zh?n=7)?  
+* [系统发生树上的性状（颜色）是什么意思](https://nextstrain.org/narratives/trees-background/zh?n=8)?  
+* [地图与系统发生树的关系](https://nextstrain.org/narratives/trees-background/zh?n=9)?  
+* [进阶阅读：系统发生树的不确定性](https://nextstrain.org/narratives/trees-background/zh?n=10).  
+* [数据说明](https://nextstrain.org/narratives/trees-background/zh?n=11).  
 <!-- No right-side text -->
 
 
@@ -89,7 +89,7 @@ A和B中也有不存在于其他序列中的独特突变（绿色圆点），但
 从这个树中，我们可以得出结论，A和B的亲缘关系很近，D和E的亲缘关系很近；与D和E比起来，AB与C的关系更近。
 </p>
 
-### 延伸阅读 
+### 延伸阅读
 * [如何解读系统发生树：ARTIC network团队的教程（英文）](https://artic.network/how-to-read-a-tree.html).  
 * [如何解读系统发生树：可汗学院的文章（英文）](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
@@ -128,7 +128,7 @@ A和B中也有不存在于其他序列中的独特突变（绿色圆点），但
 <!-- This is left-side text -->
 <!-- # [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div) -->
 # [测量遗传差异](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-<!-- 
+<!--
 This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
 <br><br>
 Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
@@ -191,7 +191,7 @@ If you mouse over the leftmost vertical line, you can see that the inferred star
 <!-- This is left-side text -->
 <!-- # [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)-->
 # [系统发生树上的性状（颜色）是什么意思?](https://nextstrain.org/ncov/2020-03-11)
-<!-- 
+<!--
 Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
 <br><br>
 Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
