@@ -94,15 +94,15 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [ملاحظة عن جمع العيناتA note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+نمتلك حاليا تسلسلات جينومية للفيروس من عينات جمعت من 36 دولة في 6 قارات. وهذا انجاز غير قابل للتصديق-- فتحديد تسلسل جينوم فيروس ار ان اي كبير وغير معروف في وسط جائحة وبائية هو امر صعب، وما كان ليصبح ممكنا لولا العمل المضني والمشاركة الفورية للبيانات من قبل العلماء والاطباء حول العالم
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+في حين ان هذه البيانات تمكننا من استنتاج العديد من الخصائص المفيدة عن الوباء وتتبع انتشاره بالوقت الحقيقي الا انه من المهم التأكيد على ان استنتاجاتنا تبقى محدودة بسبب محدودية الوصول للبيانات.
+من كل اعداد حالات الاصابة، ففط مجموعة من المرضى يتم فحصها. من هؤلاء الذين تم فحصهم، محموعة صغيرة من العينات تم تحديد تسلسل جينوم الفيروس منها.
+اي مجموعة حالات يتم فحصها وتحديد تسلسلاتها يمكن ان وختلف بشكل كبير على مدى الزمن والمناطق الحغرافية.
+بالاضافة الى ذلك ، عمليات اعادة بناء اشجار التصنيف الجيني للوباء مرتبطة دائما بدرجة من عدم اليقين
 <br><br>
-Let's look at a few examples.
+دعنا ننظر الى بعض الامثلة.
 
 <!-- There is NO right-side text -->
 
