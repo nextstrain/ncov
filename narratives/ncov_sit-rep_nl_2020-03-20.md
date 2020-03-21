@@ -111,8 +111,8 @@ Laten we naar een paar voorbeelden kijken.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [Sommige regio's zijn ondergerepresenteerd in deze data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+De kaart toont erg weinig sequenties vanuit het zuiden. Bijvoorbeeld, we hebben enkel sequenties van 4 van de 25 landen in Latijns-Amerika, waar [de WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) besmettingen met COVID-19 rapporteert. Dit is niet omdat COVID-19 in deze gebieden nog niet circuleert, of dat deze besmettingen niet cruciaal zijn om te begrijpen. Echter, er is simpelweg nog weinig data beschikbaar vanuit deze regio's. 
 <br><br>
 <!-- There is NO right-side text -->
 
