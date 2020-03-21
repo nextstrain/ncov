@@ -93,27 +93,38 @@ Here, we see the full picture of the transmission tree. In practice, however, on
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [Jak czytać drzewo?](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+Oś x drzewa przedstawia stopień zróżnicowania (w skali czasu lub dywergencji genetycznej -- dojdziemy do tego później). Oś y jedynie pomaga romieścić wszystkie gałęzie tak aby były widoczne; nie ma żadnych jednostek pomiaru.
 <br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+Na krańcach gałęzi znajdują się próby (tzn. niebieskie przypadki z poprzedniego slajdu). Węzły wewnątrz drzewa przedstawiają przypadki, dla których nie mamy prób, ale które uważamy, że były przodkami wszystkich przypadków, które od nich odchodzą (tzn. czerwone węzły z poprzedniego slajdu). Te relacje są wnioskowane na podstawie analizy wzorów mutacji obserwowanych wśród próbkowanych przypadków.
+
+<!-- The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases. -->
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## Przykład
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+Powyżej po lewej stronie, widzimy ilustrację drzewa filogenetycznego, na którym mutacje są oznaczone czerwonymi kółkami. Po prawej znajdują się sekwencje odpowiadające poszczególnym gałęziom drzewa (próbkom), również z mutacjami zaznaczonymi czerwonymi kółkami. Widzimy, że sekwencje, które dzielą te same mutacje grupują się razem. Gdy pokrewne przypadki zdają się być połączone pionową linią na drzewie, jak np. A i B, to oznacza, że nie ma różnic między nimi - ich sekwencje są identyczne.
 <br><br>
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
+Kiedy sekwencja znajduje się na długiej gałęzi, np. jak C czy E, to oznacza, że posiada unikatowe mutacje nie występujące w żadnej innej sekwencji. Im dłuższa linia, tym więcej mutacji.
 A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
 <br><br>
 Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
 </p>
+
+<!-- Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+<br><br>
+When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
+A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+<br><br>
+Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C. -->
+
 
 ### Further reading  
 * [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
