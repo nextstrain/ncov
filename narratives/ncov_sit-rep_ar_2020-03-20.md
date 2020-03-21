@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title: التحليل الجينومي لانتشار كوفيد ١٩. تقرير حالة. ٢٠ اذار ٢٠٢٠.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -21,9 +21,9 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
 translatorLinks:
-date: "2020 March 19"
+date: "٢٠ آذار ٢٠٢٠"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "يستخدم هذا التقرير البيانات الجينومية والتي تم مشاركتها للعموم من اجل تتبع انتشار كوفيد ١٩. يتم تحديث هذهةالتقارير أسبوعياً."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -31,12 +31,13 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [جدول المحتويات](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
+*  
+ [ملاحظة عن جمع العينات](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
 * [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* Introduction of COVID-19 to almost all countries](https://nextstrain.org/naratives/ncov/sit-rep/2020-03-20?n=8).
 * [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
 * [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
 * [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
