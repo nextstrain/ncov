@@ -336,7 +336,7 @@ We are grateful for the data gathered by these originating labs:
 
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+در پنل راست اسامی تمام داده‌های توالی ژنتیکی گرفته‌شده را می‌بینیم.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
