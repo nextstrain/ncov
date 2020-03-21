@@ -72,7 +72,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text 2 -->
 # [背景资料](https://nextstrain.org/ncov/2020-03-20)
 我们准备了一些值得一读的材料，让您了解COVID-19（2019冠状病毒病）及其致病病毒SARS-CoV-2（严重急性呼吸综合征冠状病毒2型）。
-这些资料将使您更容易理解我们在本报告中提供的数据；如果您不熟悉系统进化树，我们建议先阅读[如何解读系统进化树](https://nextstrain.org/narratives/trees-background/)，并在阅读后再回到此页。
+这些资料将使您更容易理解我们在本报告中提供的数据；如果您不熟悉系统进化树，我们建议先阅读[如何解读系统进化树](https://nextstrain.org/narratives/trees-background/zh)，并在阅读后再回到此页。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -84,7 +84,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 近期 COVID-19 疫情的背景 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 如何解读系统进化树 </a>
+  <a href="https://nextstrain.org/narratives/trees-background/zh"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 如何解读系统进化树 </a>
 </div>
 
 ## 更多资料
@@ -121,7 +121,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 # [一些地区的数据占比偏大](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 在有些地区，比如荷兰，相对于病例总数来说，他们获得的序列数据非常多。
 <br><br>
-因此，在阅读这篇文章时，请记住地图上每个圆圈的大小表示的是该区域当前有多少数据可用，而不是该地区疫情的真实严重程度。你可以[阅读此页](https://nextstrain.org/narratives/trees-background?n=8) 来了解这种数据量的差异会如何影响我们对于疫情传播的推断。
+因此，在阅读这篇文章时，请记住地图上每个圆圈的大小表示的是该区域当前有多少数据可用，而不是该地区疫情的真实严重程度。你可以[阅读此页](https://nextstrain.org/narratives/trees-background/zh?n=8) 来了解这种数据量的差异会如何影响我们对于疫情传播的推断。
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -132,7 +132,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 确定病例在哪里感染，对于了解某个地区的疫情主要是与旅行有关，还是正在发生本地传播非常重要。序列数据可以帮助我们区分这两种情况。
 <br><br>
-这里可以看到用病例的（已知的）旅行史进行着色的系统发生树。我们可以看到中间有一条蓝色的来自加拿大的序列，该病例报告有欧洲旅行史。这条序列与欧洲的其他序列聚在一起，因此几乎可以肯定该病例是属于与旅行相关的感染。
+这里可以看到用病例的（已知的）旅行史进行着色的系统发生树。我们可以看到中间有一条来自加拿大的序列（Canada/BC_78548/2020），该病例报告有欧洲旅行史。这条序列与欧洲的其他序列聚在一起，因此几乎可以肯定该病例是属于与旅行相关的感染。
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
