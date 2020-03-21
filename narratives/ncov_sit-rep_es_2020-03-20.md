@@ -42,9 +42,8 @@ abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento d
 * [Crecimiento del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
 * [Propagación del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
 * [Impacto del distaciamiento social en el número de casos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [¡Qué puedes hacer tú!](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Preguntas frequentes y conceptos erróneos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [¡Qué puedes hacer tú](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13)!
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
