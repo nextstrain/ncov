@@ -138,29 +138,29 @@ Hier is de boom gekleurd op basis van reisgeschiedenis van een besmetting (wanne
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Sequentiedata kan reisgeschiedenis valideren](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
+Uitzoomende, kunnen we zien wdat dit niet altijd consistent is. 
 <br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
+Hier kunnen we zien dat bijna al deze besmettingen met reisgeschiedenis naar Iran samenclusteren in het midden van de boom. 
 <br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
+Richting de top van de boom, zien we ook een Canadeze besmetting met reisgeschiedenis naar Iran; echter, deze sequentie groepeert nergens in de buurt van de andere  besmettingen met Iraanse reisgeschiedenis. 
 <br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+Het is zeker mogelijk dat deze persoon geïnfecteerd is door een tweede, lopende besmettingsketen in Iran, maar tot we meer data hebben, kunnen we niet bevestigen of deze infectie opgelopen is tijdens het reizen. 
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [Het virus is geïntroduceerd in bijna elk land ter wereld](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+Op de boom, zien we veel INTERMINGLING van besmettingen uit verschillende uit verschillende landen. 
+Dit geeft aan dat deze vorm van, onvoorkoombare menselijke beweging het virus al geïntroduceerd hebben in veel delen van de wereld.
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
+Sterker nog, [de WHO rapporteert](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) bevestigde besmettingen in 159 van de in totaal 195 landen ter wereld. 
 <br><br>
-However, not all introductions result in outbreaks.
+Echter, niet iedere introductie resulteert in een uitbraak.
 
 <!-- There is no right side text -->
 
