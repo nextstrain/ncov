@@ -148,11 +148,11 @@ No entanto, devemos ter cautela ao interpretar estas inferências, pois a amostr
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-À esquerda, mostramos uma árvore filogenética completamente amostrada, com amostras de dois locais diferentes, marcados na cor laranja e azul. Ao descermos a árvore, observamos três instâncias em que a cor (local) muda de laranja para azul. A partir disso, concluímos que houve três introduções diferentes, desde o local laranja até o azul.
+À esquerda, mostramos uma árvore filogenética completamente amostrada, com genomas de dois locais diferentes, marcados nas cores laranja e azul. Ao andarmos pela árvore, observamos três pontos em que a cor (local) muda de laranja para azul. A partir disso, concluímos que houve três introduções diferentes, desde o local laranja até o local azul.
 <br><br>
-Mas, essa interpretação se baseia em amostragem: na árvore do meio, removemos uma amostra de cor laranja. Agora observamos apenas uma mudança de laranja para azul, sugerindo que houve apenas uma introdução de cor azul que aconteceu muito antes.
+No entanto, essa interpretação se baseia em amostragem. Para exemplificar: na árvore do meio, removemos uma amostra de cor laranja. Agora observamos apenas uma mudança de laranja para azul, sugerindo que houve apenas uma introdução vinda do local de cor laranja para o azul, a qual aconteceu muito antes.
 <br><br>
-No último exemplo, temos apenas uma sequência de cor laranja, o que pode nos levar a pensar que houve uma introdução de cor laranja no azul.
+No último exemplo, temos apenas um genoma de cor laranja, o que poderia nos levar a pensar que houve uma introdução vinda do local laranja para o azul.
 <br><br>
 Assim sendo, embora essas inferências possam ser valiosas, elas também devem ser interpretadas com cuidado.
 </p>
