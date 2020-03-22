@@ -71,12 +71,12 @@ Die Spitzen des Baumes repraesentieren Proben (d.h. blaue Faelle in der vorherig
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Oben sehen wir eine Abbildung mit dem phylogenetischen Baum auf der linken Seite, wobei die Mutationen als farbige Kreise dargestellt sind. Auf der rechten Seite sind die korrespondieren Sequenzen, in denen die Mutationen ebenfalls als farbige Kreise dargestellt sind. Wir koennen sehen, dass die Sequenzen, die die gleichen Mutationen gemeinsam haben, zusammen gruppiert sind. Wenn Sequenzen durch eine vertikale Linie verbunden sind, zum Beispiel A und B, bedeutet dass, das es zwischen ihnen keine Unterschiede gibt - sie sind identisch.
+Oben sehen wir eine Abbildung mit dem phylogenetischen Baum auf der linken Seite, wobei die Mutationen als farbige Kreise dargestellt sind. Auf der rechten Seite sind die korrespondieren Sequenzen, in denen die Mutationen ebenfalls als farbige Kreise dargestellt sind. Wir koennen sehen, dass die Sequenzen, die die gleichen Mutationen gemeinsam haben, zusammen gruppiert sind. Wenn Sequenzen durch eine vertikale Linie verbunden sind, zum Beispiel A und B, bedeutet das, dass es zwischen ihnen keine Unterschiede gibt - sie sind identisch.
 <br><br>
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+Wenn eine Sequenz sich alleine auf einer langen Linie befindet, zum Beispiel C oder E, bedeutet das, dass sie spezifische Mutationen hat, die nicht in anderen Sequenzen vorhanden sind. Je laenger die Linie, desto mehr spezifische Mutationen sind vorhanden.
+A und B haven ebenfalls spezifische Mutationen (gruene Kreise), die nicht in anderen Sequenzen vorhanden sind, aber A und B sind identisch miteinander.
 <br><br>
-Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & C.
+Basierend auf diesem Baum koennen wir schlussfolgern, dass A und B eng miteinander verwandt sind, und dass D und E eng miteinander verwandt sind. A und B sind enger verwandt mit C als mit D und E.
 </p>
 
 ### Weiterfuehrende Literatur 
