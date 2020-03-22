@@ -1,4 +1,4 @@
-﻿---
+---
 title: Análise genômica da dispersão da COVID-19. Relatório da situação em 20/03/2020.
 authors:
   - Emma Hodcroft
