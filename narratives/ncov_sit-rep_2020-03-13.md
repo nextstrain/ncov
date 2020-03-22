@@ -69,6 +69,7 @@ In this week's updates, we report:
 * There is local circulation of COVID-19 in California.  
 
 * Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 ```
 
 
@@ -104,6 +105,11 @@ Scrolling through will reveal paragraphs of text with a corresponding visualizat
 
 To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
 These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+
+Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org). El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
+
+La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro muy notable. Estos análisis han sido posibles gracias al intercambio rápido y abierto de los datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes genomas).
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -136,6 +142,7 @@ Looking at the British Isles & Ireland as an example, we can see several instanc
 This is consistent with 4 or more introductions from other locations.
 <br><br>
 We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -144,6 +151,7 @@ We also see instances where after an introduction, there are several closely-rel
 A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
 <br><br>
 Note that there are no full genomes available from patients in Iran.
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -156,6 +164,7 @@ However, given that testing capacity is not yet ramped up in most areas, we expe
 <br><br>
 For Washington and California, though, we do see clusters of cases that are closely related.
 This suggests ongoing transmission and local spread within these two states.
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -174,6 +183,7 @@ Looking at samples from California, we see evidence for multiple introductions.
 More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
 <br><br>
 This strongly suggests that there is ongoing local transmission within California.
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -184,6 +194,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 - We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
 <br><br>
 - Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 
 <!-- This is the right-side text -->
 
@@ -192,6 +203,7 @@ This strongly suggests that there is ongoing local transmission within Californi
 
 Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
  If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -207,6 +219,7 @@ Social distancing -- that is, decreasing the number of people you encounter each
 * Make testing free and broadly available.  
 * Put social distancing measures in place.  
 * Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 ```
 
 
@@ -241,6 +254,7 @@ A number of misconceptions have been circulated about the origins of the novel c
 During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
 
 In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 
 <div>
 
@@ -265,12 +279,14 @@ Only through the rapid sharing of genomic data and metadata are analyses such as
 <br>
 
 We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 We are grateful for the data gathered by these originating labs:
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -406,11 +422,13 @@ We gratefully acknowledge their contributions.
 <br>
 
 To the right we give specific sequences shared by each lab.
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+>>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 

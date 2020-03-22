@@ -5,7 +5,7 @@ authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland and CMMID-LSHTM, London, UK"
 date: "2020 March 05"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV) compartidos públicamente en GISAID y en Genbank. Los datos se usan para estimar las tasas y los patrones de propagación de la epidemia viral. Planeamos emitir informes de la situación que se actualizaran en la medida que se produzcan y compartan nuevos datos. Este sitio web está optimizado para su visualización en navegadores web de escritorio."
+abstract: "Este informe utiliza los datos genómicos del nuevo coronavirus (nCoV) compartidos públicamente en GISAID y en Genbank. Los datos se usan para estimar las tasas y los patrones de propagación de la epidemia viral. Planeamos emitir informes de la situación que se actualizarán en la medida que se produzcan y compartan nuevos datos. Este sitio web está optimizado para su visualización en navegadores web de escritorio".
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -63,7 +63,7 @@ Las siguientes páginas contienen análisis realizados con [Nextstrain](https://
 El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
 
 
-La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro muy notable.
+La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro notable.
 Estos análisis han sido posibles gracias al intercambio rápido y abierto de los datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes genomas).
 
 
@@ -152,7 +152,7 @@ Podemos cambiar la opción de visualización para que el eje x ahora muestre 'di
 
 <br>
 
-Presta atención a cuántas secuencias que se veían diferentes antes, ahora aparecen verticalmente en una línea.
+Preste atención a cuántas secuencias que se veían diferentes anteriormente, ahora aparecen verticalmente en una línea.
 Puedes desplazarte entre la diapositiva anterior y esta, para que veas cómo cambia el árbol.
 
 <br>
@@ -186,7 +186,15 @@ Si bien todos los primeros casos estaban directamente relacionados con los casos
 
 <br>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ébola, MERS-CoV y la gripe aviar).
+=======
 En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ebola, MERS-CoV y la gripe aviar).
+>>>>>>> 9cf3f03fc819fe6152e7ede4ce31c467cd8401ed
+=======
+En general, se observa una diversidad genética significativa cuando ocurren múltiples introducciones desde un reservorio animal (como ha sido el caso de Lassa, Ebola, MERS-CoV y la gripe aviar).
+>>>>>>> 9cf3f03fc819fe6152e7ede4ce31c467cd8401ed
 El hecho de que ocurra una agrupación tan próxima de las infecciones humanas por el nCoV puede indicar que el brote se inició a partir de un único evento de zoonosis seguido de la propagación epidémica de persona a persona.
 
 <!-- There is NO right-side text -->
@@ -224,7 +232,7 @@ Sin embargo, la secuencia brasileña (SPBR-02) tiene un historial de viajes a Mi
 
 <br>
 
-La secuencia obtenida en Inglaterra (importada desde China) aparece entre las secuencias italianas que fueron colectadas más temprano (es decir, las cepas aisladas en Roma) y aquellas secuencias obtenidas de individuos con antecedentes de viaje confirmados (cepas aisladas en Brasil y Suiza) o posible (cepa aislada en los EE. UU.) a Italia. Esto significa que no debemos suponer que las secuencias italianas más antiguas y aquellas secuencias más nuevas con un vínculo a Italia están directamente relacionadas. Las secuencias más recientes podrían provenir de una segunda introducción a Italia.
+La secuencia obtenida en Inglaterra (importada desde China) aparece entre las secuencias italianas que fueron recolectadas más temprano (es decir, las cepas aisladas en Roma) y aquellas secuencias obtenidas de individuos con antecedentes de viaje confirmados (cepas aisladas en Brasil y Suiza) o posible (cepa aislada en los EE. UU.) a Italia. Esto significa que no debemos suponer que las secuencias italianas más antiguas y aquellas secuencias más nuevas con un vínculo a Italia están directamente relacionadas. Las secuencias más recientes podrían provenir de una segunda introducción a Italia.
 
 
 <!-- There is NO right-side text -->
@@ -244,7 +252,7 @@ La secuencia alemana "BavPat1" hace parte de una introducción mucho más tempra
 
 <br>
 
-También podría ser el resultado de dos introducciones distintas en Europa: una secuencia que no fue muestreada de otro lugar podría 'caer' entre 'BavPat1' y el resto del grupo. Por el momento, no podemos decir con certeza cuál escenario es el correcto.
+También podría ser el resultado de dos introducciones distintas en Europa: una secuencia que no fue muestreada de otro lugar podría estar entre 'BavPat1' y el resto del grupo. Por el momento, no podemos decir con certeza cuál escenario es el correcto.
 
 <!-- There is NO right-side text -->
 
@@ -317,7 +325,7 @@ Esto sería consistente con todos los casos secuenciados actualmente que descien
 <!-- This is left-side text -->
 # [Crédito científico](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Nos gustaría reconocer el trabajo increíble y oportuno realizado por todos los científicos involucrados en este brote, pero particularmente aquellos que trabajan en China.
+Nos gustaría reconocer el increíble y oportuno trabajo realizado por todos los científicos involucrados en este brote, pero particularmente aquellos que trabajan en China.
 Solo mediante el intercambio rápido de datos genómicos y metadatos se pueden realizar análisis como estos.
 
 <br>
