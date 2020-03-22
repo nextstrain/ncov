@@ -48,20 +48,18 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# شرح اجرایی
+<p dir="rtl">
+در این‌جا، ما ۷۲۳ داده ژنتیکی کووید-۱۹ را که به اشتراک عموم گذاشته‌شده بررسی می‌کنیم. با مقایسه این اطلاعات، می‌توانیم مشخص کنیم که کووید-۱۹ چگونه در جهان منتشر می‌شود. 
+در این گزارش، نشان می‌دهیم که این ویروس به طور گسترده‌ای در سراسر جهان در حال گردش است . دانستن اینکه این ویروس در مقیاس محلی در حال گردش است یا خیر و چه مقدار، همچنین اقدامات کاهشی چگونه این گسترش را کاهش می‌دهند، نیازمند این است که اطلاعات خوبی از رفتار همه‌گیری‌های محلی داشته باشیم. که این خود، انجام تست‌های گسترده را می‌طلبد. 
+این موضوع بر اهمیت تست گیری سریع  با تمرکز بر کاهش انتقال‌های محلی تاکید می‌کند.
+:در به روزرسانی این هفته، گزارش می‌کنیم
+</p>
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
-
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
-
-In this week's updates, we report:  
-
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* شواهدی برای ورود ویروس به بسیاری از مناطق جهان از طریق سفر 
+* بسیاری از مناطق که تازه ویروس به آنها ورود پیدا کرده است، می‌توانند انتظار داشته باشند که تعداد مبتلایان طی بازه زمانی ۴ تا ۸ هفته افزایش یابند.  آنها باید از هم اکنون آماده شوند.
+* بسیاری از مناطقی که به تازگی اقدامات کاهش فاصله اجتماعی را پیاده کرده‌اند، می توانند انتظار داشته باشند که تعداد مبتلایان در کوتاه مدت افزایش پیدا کند، اما تعداد مبتلایان جدید در میان مدت و بلندمدت ثابت مانده و بعد کاهش پیدا می‌کند.
+* انجام تست برای هم مبتلایان وهم بهبودیافتگان برای مقابله با این اپیدمی ضروری است.
 ```
 
 
