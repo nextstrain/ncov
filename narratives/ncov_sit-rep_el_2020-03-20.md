@@ -21,7 +21,7 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Sotiris Salloumis
-  - akifoss
+  - Sofia Paraskevopoulou
 translatorLinks:
   - https://github.com/codergr
   - https://github.com/akifoss
