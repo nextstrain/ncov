@@ -159,7 +159,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [염기서열 정보를 이용하면 여행력 정보를 교차검증할 수 있습니다](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
 축소시켜 보면, 그런데 항상 보고된 여행력과 시퀀스 정보가 일치하지는 않습니다.
 <br><br>
