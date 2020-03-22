@@ -147,65 +147,73 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [داده‌های نمونه توالی ژنتیکی می‌توانند به بررسی سابقه سفرها کمک متقابل کنند](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+<p dir="rtl">
+تشخیص اینکه یک کیس مشخص از کجا به بیماری دچار شده است، برای اینکه بفهمیم در چه مناطقی انتقال بیماری محلی است، و در چه مناطقی عمدتا کیس‌های مرتبط با سفر است، اهمیت دارد. داده‌های نمونه توالی ژنتیکی می‌توانند در تمایز بین این دو سناریو به ما کمک کنند.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the green Canadian sequence in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+در اینجا، نمودار درختی با توجه به سابقه سفر یک کیس (وقتی این اطلاعات موجود است) رنگ گذاری شده است. با نگاه کردن به نمونه توالی ژنتیکی سبزرنگ کانادایی وسط ، متوجه می‌شویم که آنها سابقه سفر به اروپا را گزارش کرده‌اند. این گروه مبتلایان در کنار بقیه نمونه‌های ژنتیکی اروپایی نشان می‌دهند که این کیس به احتمال بسیار زیاد، یک سرایت مربوط به سفر است.
+</p>
+
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [داده‌های نمونه توالی ژنتیکی می‌توانند به بررسی سفرها کمک متقابل کنند](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
-<br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
-<br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
-<br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+<p dir="rtl">
+با خارج شدن ازحالت زوم، می‌توان مشاهده کرد که همیشه لزوما بدین شکل نیست. 
+اینجا می‌توانیم مشاهده کنیم که تقریبا همه کیس‌هایی که گزارش کرده‌اند که اخیرا به ایران سفر داشته‌اند، در وسط نمودار درختی دسته شده‌اند. 
+<br>
+به سمت بالای نمودار، همچنین یک کیس کانادایی با سابقه سفر به ایران مشاهده می‌شود، اما این نمونه توالی ژنتیکی ،در نزدیکی باقی کیس‌های مرتبط با سفر به ایران جای نمی‌گیرد. 
+قطعا امکان دارد که این فرد از طریق زنجیره دوم فعلی انتقال در ایران مبتلا شده‌باشد، اما تا زمانی که داده بیشتری کسب کنیم، نمی‌توانیم تایید کنیم که این کیس در سفر مبتلا شده‌باشد.
+</p>
 
 <!-- There is no right side text -->
 
-<!-- ############ SLIDE BREAK ############# -->
-
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+  
+# [این ویروس تقریبا به همه کشورهای دنیا وارد شده‌است](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+<p dir="rtl">
+بر روی نمودار، تعداد زیادی از این نوع درهم آمیخته شدن نمونه‌ها از کشورهای مختلف را می‌بینیم. 
+این نشان دهنده این است که این نوع تغییر مکان دادن‌های اجتناب ناپذیر مردم، ویروس را تاکنون به خیلی از مناطق کره زمین برده است.
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
-<br><br>
-However, not all introductions result in outbreaks.
-
+در واقع 
+<a href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2"> گزارش سازمان بهداشت جهانی</a>
+، ابتلا در ۱۵۹ کشور از ۱۹۵ کشور کره زمین را تایید کرده است. 
+البته ورود  ویروس در همه‌جا منجر به همه‌گیری نشده است. 
+</p>
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [اپیدمی حدودا بین ۴ تا ۸ هفته بعد از ورود ویروس مشهود می‌شود](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
-<br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
-<br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+<p dir="rtl">
+این چنین به نظر می رسد که کووید ۱۹ ناگهانی گسترده شد.
+برای خیلی از مردم، این همه گیری از صرفا نگرانی مطلقی درباره بقیه قسمتهای جهان تبدیل به چیزی شد که زندگی روزمره خودشان را به شدت تحت تاثیر قرار داد، در حد یک شب تا صبح. 
+اما در نظر داشته باشید که این شرایط برای مدتی در جریان بوده است. لزوما اینطور نیست که ویروس به تازگی در ناحیه های جدید بیشتری وارد شده است. 
+به احتمال زیاد، خیلی از جاها به تازگی از همه گیری های محلیشان مطلع شده اند، ولی ورود ویروس برای چندین هفته قبل بوده است. 
+مناطقی که هنوز از همه گیری محلی اطلاعی ندارند، باید اکنون خود را آماده کنند و شروع به نظارت برای تست کنند. 
+</p>
+
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+# چگونه ورود ویروس منتهی به همه گیری می‌شود؟
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+گاهی ورود ویروس منجر به کیس‌های بعدی و همه گیری‌های منطقه‌ای نمی شود، مخصوصا اگر کیس مورد نظر سریعا شناسایی و ایزوله شود.
+اما خیلی وقت‌ها ویروس، شناسایی نشده در منطقه شیوع پیدا می‌کند تا زمانی که همه‌گیری به یک اندازه قابل ملاحظه‌ای می‌رسد. 
+در زیر یک آزمایش فکری آورده شده که نشان می‌دهد این اتفاق چطور در ووهان افتاد. محور عمودی مکان و محور افقی زمان را نشان می‌دهد.  ناحیه سایه زده‌شده، تعداد کیس‌ها را نشان می‌دهد.
 
-These new outbreaks may, in turn, seed further introductions to other locations.
+"کووید-۱۹ در ووهان از یک کیس شاخص تقریبا در نوامبر ۲۰۱۹ به چندین هزار کیس تا اواسط ژانویه ۲۰۲۰ رسید، یعنی از یک نقطه اولیه به انتقال گسترده محلی در حدودا ۱۰ هفته. ما معتقدیم که انتقال‌های اولیه بین المللی از اواسط ژانویه ۲۰۲۰ آغاز شد. در نتیجه ما تقریبا ۱۰ هفته حیاتی از آن تاریخ تا حدودا اواخر مارچ زمان داریم که از این همه‌گیری‌های نوظهور قبل از اینکه به اندازه قابل ملاحظه‌ای برسند جلوگیری کنیم." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+
+
+این همه گیری های جدید ممکن است خودشان باعث ورود ویروس به مکان های دیگری شوند.
+
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -214,15 +222,15 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [چگونه همه‌گیری‌ها رشد می‌کنند: یک مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+
+می توانیم یک مثال مشخص از این را در داده های ایالت واشنگتن مشاهده کنیم. 
+حرکت موس روی ریشه گروه (clade) اصلی، نشان می دهد که ویروس احتمالا بین اواخر ژانویه تا اواسط فوریه  ۲۰۲۰ به این منطقه وارد شده است. ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+اکنون در اواسط مارچ (تقریبا ۶ هفته بعد) میبینیم که همه گیری محلی در این منطقه در پیک in full swing) ) خود است. از داده های نمونه توالی ژنتیکی به تنهایی می توان دو برابر شدن در بازه ۳ تا ۶ روز با فرض رشد نمایی جمعیت را تخمین زد. 
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
-
 
 <!-- There is no right side text -->
 
