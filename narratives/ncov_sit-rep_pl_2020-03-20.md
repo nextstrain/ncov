@@ -31,44 +31,43 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [Spis treści](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
+* [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [Sekwencje i rozprzestrzenianie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [Introdukcja COVID-19 do niemal wszystkich krajów](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [Wzrost i szerzenie się ognisk epidemii](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [Jak rosło ognisko w Waszyngtonie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [Jak szerzyło się ognisko w Waszyngtonie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [Jak dystansowanie społeczne wpływa na liczbę chorych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [Często zadawane pytania oraz przesądy](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Streszczenie
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+Przeanalizowaliśmy 723</tag> dostępnych publicznie genomów COVID-19. Porównując je potrafimy ocenić, jak wirus ewoluuje i w jaki sposób rozprzestrzenia się po świecie.
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+W niniejszym raporcie pokazujemy, że wirus rozprzestrzenia się na dużym obszarze planety. 
+Aby wiedzieć jak i w jakim stopniu wirus rozprzestrzenia się lokalnie oraz aby ocenić skuteczność zastosowanych działań mitygacyjnych potrzebna jest dobra znajomość dynamiki danego ogniska. To z kolei wymaga przeprowadzania jak największej liczby szybkich testów diagnistycznych.
 
-In this week's updates, we report:  
+W niniejszym raporcie prezentujemy: 
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* Związane z podróżami liczne introdukcje do wielu krajów. 
+* W wielu miejscach, do których wirus dotarł niedawno, można spodziewać się wzrostu liczby chorych w ciągu 4-8 tygodni. Teraz jest czas na przygotowanie.  
+* W wielu miejscach, w których wprowadzono ostatnio różne sposoby dystansowania społecznego, można spodziewać się ciągłego wzrostu liczby chorych w krótkiej perspektywie czasowej, jednak w średniej i długiej perspektywie prawdopodobna jest stabilizacja liczby nowych zachorowań, a wreszcie jej spadek. 
+* Wykonywanie testów na obecność aktywnego wirusa oraz na ślady po przebytej chorobie są kluczowe dla opanowania epidemii.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-20)
+Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który tę chorobę wywołuje. Zawarte w nich informacje ułatwią interpretację danych, które prezentujemy w tym raporcie; jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -85,39 +84,41 @@ This information will make interpreting the data we present in this narrative ea
 
 ## Further Reading
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+## Źródła dodatkowe
+
+* Podsumowanie epidemii wywołanej przez SARS-CoV-2 na [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* Wszystkie informacje o liczbie chorych podajemy za  [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) na dzień 2020-03-20.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Opis próbkowania](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+Obecnie dysponujemy sekwencjami próbek pobranych w 36 krajach z 6 kontynenów. To niesamowity wyczyn -- sekwenjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+Choć zgromadzone dane umożliwiają wyciąganie pewnych wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone. 
+Spośród wszystkich chorych, tylko niektórym wykonuje się testy, a spośród tych, którym je zrobiono, jedynie niewielkiej grupie pobiera się materiał, który pozwoli wyizolować i zsekwencjonować materiał genetyczny wirusa. 
+Kryteria wyboru chorych poddanych testom i tych, od których pobiera się próbko do dalszej analizy, różnią się między krajami i okresami. 
+Ponadto analiza filogenetyczna, wspomagająca badanie ogniska epidemii, zawsze obarczona jest pewną niepewnością.
 <br><br>
-Let's look at a few examples.
+Przyjrzyjmy się kilku przykładom.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [Są obszary niedoreprezentowane ](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+Mapa pokazuje bardzo niewiele sekwencji z Globalnego Południa. Na przykład dysponujemy jedynie sekwencjami z 4 spośród 25 krajów Ameryki Łacińskiej, w których [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) przypadki COVID-19. Powodem nie jest brak zakażeń w pozostałych krajach tego rejonu, ani mała wartość poznawcza takich danych. Tych danych, po prostu, nie ma.
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+# [Są obszary nadreprezentowane](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+W innych miejscach, np. w Holandii, dysponujemy wysoką liczbą badań sekwencyjnych w stosunku do całkowitej liczby wykrytych przypadków.
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+Dlatego czytając niniejszy raport, pamiętaj, że powierzchnia każdego koła na mapie odpowiada ilości dostępnych danych z danego obszaru, a nie rzeczywistemu rozmiarowi danego ogniska. Możesz [przeczytać więcej](https://nextstrain.org/narratives/trees-background?n=8) o wpływie liczby danych z danego obszaru na ocenę rozprzestrzeniania się wirusa.
 <br><br>
 
 <!-- There is NO right-side text -->
