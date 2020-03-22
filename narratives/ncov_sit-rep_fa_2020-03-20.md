@@ -31,19 +31,20 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [فهرست مطالب](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [منابع پیش‌زمینه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2) 
+* [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3)
+* [داده‌های نمونه توالی ژنتیکی و سوابق سفرها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6)
+* [ورود کووید-۱۹ به تقریبا تمام کشورها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8)
+* [همه گیری‌ها چگونه رشد می‌کنند و گسترش می‌یابند](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9)
+* [چگونه همه‌گیری ایالت واشنگتن رشد کرد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10)
+* [چگونه همه‌گیری ایالت واشنگتن گسترش پیدا کرد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11)
+* [چگونه تعداد مبتلایان با اقدامات کاهش فاصله اجتماعی کاهش می‌یابد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12)
+* [کارهایی که شما می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13)
+* [سوالات متداول و تصورات غلط](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14)
+* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15)
+
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
