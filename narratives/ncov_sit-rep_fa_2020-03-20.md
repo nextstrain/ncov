@@ -237,38 +237,38 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [چگونه همه‌گیری‌ها  منتشر می‌شوند: یک مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
-<br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
-<br><br>
-This is just one example.
-There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
-Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+همچنین می‌توانیم مثالی از اینکه چگونه همه‌گیری‌های محلی منجر به ورود ویروس به مناطق دیگر می‌شوند را مشاهده کنیم. نمونه‌های ایالت یوتاه، نزدیک بالای نمودار درختی (نارنجی)، داخل گروه (clade) اصلی نمونه‌های همه‌گیری ایالت واشنگتن جای گرفته‌اند.  این می‌تواند نشان دهنده ورود ویروس از واشنگتن به یوتاه باشد، البته امکان دارد مرحله (مراحل) واسطه‌ای هم در این زنجیره انتقال وجود داشته باشد. 
+ما مطمئن نیستیم که ورود ویروس به یوتاه منجر به همه‌گیری محلی در این ایالت بشود یا خیر. 
+اما اگر ویروس بعد از ورود به انتشار ادامه دهد، انتظار خواهیم داشت که این (unfold) را در ۴ هفته آینده مشاهده کنیم.
+
+این فقط یک مثال است.
+امکان دارد ویروس از نقاط دیگری هم به یوتاه (یا بقیه مناطق)  وارد شده باشد، و اینکه نمی توانیم آن را روی نمودار درختی مشاهده کنیم به این خاطر باشد که آنها نمونه توالی ژنتیکی نشده‌اند.
+از همه مهم‌تر، مناطقی که هنوز اطلاعی از همه‌گیری در منطقه شان ندارند باید آماده شوند و شروع به تست کنند.
+ 
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [اقدامات کاهشی زمان می‌برد، اما جان انسان‌ها را حفظ می‌کند](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
-<br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
-<br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
+
+با همین منطق، احتمالا زنجیره‌های انتقالی محلی زیادی وجود دارند که ما هنوز ازآن‌ها اطلاعی نداریم. 
+
+این به این معنی است که حتی برای مناطقی که به تازگی اقدامات مربوط به رعایت فاصله اجتماعی را پیاده کرده‌اند، هنوزانتظار داریم که تعداد مبتلایان درچند هفته روبرو افزایش یابند.
+این افزایش نشان دهنده این نیست که این اقدامات اثربخش نبوده‌اند. صرفا زمان می برد که کسانی که تاکنون مبتلا شده اند (و احتمالا اعضای خانواده شان) علائم بیماری را نشان دهند، تحت درمان قرار بگیرند و بهبود پیدا کنند.  همچنین انتظار داریم جهشی در تعداد کیس‌های گزارش شده به خاطر گسترش دسترسی به آزمایش‌ها مشاهده کنیم. 
+
+بسیارحیاتی است که در این دوره اقدامات کاهش فاصله اجتماعی رعایت شود. همانطور که در سمت راست نشان داده شده است، تعداد مبتلایان بعد از انجام مداخلات کماکان افزایش می‌یابد. اما در طول زمان، تعداد کل مبتلایان به شدت کاهش می‌یابد.
+
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## کاهش فاصله اجتماعی کیس های جدید را یک شبه متوقف نمی کند، بلکه تعداد مبتلایان و کشته ها را به طور قابل ملاحظه ای در طول زمان کاهش می دهد. 
+کاهش فاصله اجتماعی یعنی کاهش تعداد افرادی که هر روز با آنها مواجه می شوید، چالش انگیز است، ولی بسیار زیاد برای همه جامعه سودمند است. 
+ اگر هر شخص روزانه ارتباطاتش با افراد را ۲۵٪ کاهش دهد، انتظار داریم که ۵۰٪ کاهش در تعداد کل مبتلایان در ماه آینده مشاهده کنیم. ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -277,32 +277,34 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [جمع بندی](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- این ویروس در بسیاری از نقاط جهان چندین نوبت مستقلاً پخش شده است. 
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- ما شواهدی از انتقال محلی ویروس را در مناطق زیادی مشاهده می‌کنیم، همچنین، انتظار داریم که ورود ویروس به خیلی از مناطق که قبلا اتفاق افتاده  و باعث همه گیری های محلی زیادی شده، در هفته‌های آینده آشکار شود. 
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- کنترل همه‌گیری محلی از طریق فاصله‌گیری اجتماعی برای موارد زیر حیاطی است
+ 
+  - هموار کردن نمودار، برای جلوگیری از شلوغی بیش از حد سیستم های درمانی به خاطر مراجعه همزمان مبتلایان 
+  - کاهش تعداد کل مبتلایان و تلفات
+  -  خریدن زمان برای پیشرفت روش‌های درمانی و ساخت واکسن
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# چکار می‌توان کرد
+## به عنوان یک فرد
+* کاهش تعداد افرادی که در روز با آنها در ارتباط هستید خصوصاً اگر جزو گروه‌های آسیب‌پذیر هستید مانند افراد مسن و بیماران
+* به یاد داشته‌باشید که حتی اگر شما در گروه آسیب پذیر نیستید بسیاری از افراد پیرامون شما ممکن است باشند، لذا از این توصیه‌ها برای مراقبت از دیگران استفاده کنید
+* دست‌هایتان را بشورید، درست مانند زماتی که تسمه کولرتان را عوض کرده‌اید
+* اگر مریض هستید در خانه بمانید، با مقداری آذوقه اضافی خود را برای قرنطینه شخصی آماده کنید  
+* اگر شما یک کارفرما هستید کارمندان خود را ترغیب کنید که در هنگام مریضی در خانه بمانند به عنوان مثال مرخصی با حقوق به آن‌ها بدهید
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## به عنوان یک مسئول رسمی 
+* تست را به صورت رایگان در اختیار همگانی قرار دهید
+* فاصله‌گیری اجتماعی را در دستور کار قرار دهید
+* ارتباطات افراد مشکوک را رهگیری کنید
+* حمایت مالی از اجرای گسترده ردیابی افراد در تماس با مبتلایان  
+* حمایت مالی از کسانی که به واسطه برقراری فاصله گیری اجتماعی تحت تاثیر قرار می‌گیرند مانند کارگران ساعتی، کسانی که از افراد مسن و کودکان مراقبت می‌کنند و کسب و کار های کوچک و غیره.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
