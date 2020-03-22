@@ -122,6 +122,7 @@ division	Beijing
 division	Anhui
 division	Jiangxi
 division	Chongqing
+division	Hangzhou
 division	Sichuan
 division	Yunnan
 division	Jiangsu
@@ -158,6 +159,7 @@ division	Queensland
 division	New South Wales
 division	Victoria
 division	Auckland
+division	Hawali
 division	Riyadh
 division	Europe
 division	Central Hungary
@@ -165,12 +167,16 @@ division	Copenhagen
 division	Ile de France
 division	Pays de la Loire
 division	Hauts de France
+division	Bretagne
 division	Bourgogne-France-Comté
 division	Normandie
 division	Grand Est
 division	Auvergne Rhone Alpes
 division	Flanders
 division	Leuven
+division	Couthuin
+division	Kessel-Lo
+division	Holsbeek
 division	Sint-Niklaas
 division	Kraainem
 division	Huldenberg
@@ -189,6 +195,7 @@ division	Flevoland
 division	South Holland
 division	North Holland
 division	Luxembourg
+division	Zielonogorskie
 division	Basel
 division	Bern
 division	Zurich

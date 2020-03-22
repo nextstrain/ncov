@@ -10,6 +10,7 @@ location	Brasilia	-15.814189	-47.875543
 location	Budapest	47.482728	19.084269
 location	California	36.357039	-119.690182
 location	Cardiff	51.476291	-3.178964
+location	Château-Thierry	49.0460	3.4026
 location	Chengdu	30.640989	104.067518
 location	Chicago	41.858966	-87.637242
 location	Chongqing	29.858721	107.375623
@@ -20,6 +21,7 @@ location	Compiègne	49.408175	2.842839
 location	Contamines	45.820585	6.727730
 location	Cork	51.899	-8.460
 location	Crépy en Valois	49.234399	2.888491
+location	Dane county	43.0186	-89.5498
 location	Dalen	52.6994	6.7568
 location	Delft	52.0116	4.3571
 location	Diemen	52.3390	4.9592
@@ -28,6 +30,7 @@ location	Eindhoven	51.4416	5.4697
 location	England	52.405994	-1.671707
 location	Feira de Santana	-12.2598	-38.9675
 location	Foshan	23.018766	113.121428
+location	Garches	48.8461	2.1887
 location	Gold Coast	-28.019726	153.398160
 location	Guangdong	23.615762	114.483257
 location	Guangzhou	23.123972	113.292889
@@ -55,8 +58,10 @@ location	Kirkland	47.679486	-122.206354
 location	Kunming	25.013024	102.866742
 location	Kyoto	35.007542	135.768455
 location	Leuven	50.880674	4.700109
+location	Levallois-Perret	48.8932	2.2879
 location	Loon	51.379197	5.443200
 location	Loon op zand	51.625527	5.070262
+location	Longjumeau	48.6931	2.2948
 location	Los Angeles	34.029267	-118.242865
 location	Melbourne	-37.839042	145.076343
 location	Milan	45.474	9.177
@@ -77,6 +82,7 @@ location	Pingxiang	27.632413	113.892981
 location	Pontoise	49.049228	2.098595
 location	Qingdao	36.171557	120.398496
 location	Reims	49.253754	4.035860
+location	Rennes	48.1173	1.6778
 location	Riyadh	24.705304	46.738279
 location	Rio de Janeiro	-22.89445	-43.2099
 location	Rome	41.881118	12.492817
@@ -255,6 +261,13 @@ division	Taoyuan	24.9936	121.3010
 division	Distrito Federal	-15.7998	-47.8645
 division	Copenhagen	55.6761	12.5683
 division	Melbourne	-37.8136	144.9631
+division	Couthuin	50.5315	5.1225
+division	Kessel-Lo	50.8851	4.7357
+division	Holsbeek	50.9211	4.7570
+division	Bretagne	48.2020	2.9326
+division	Zielonogorskie	52.2275	15.2559
+division	Hangzhou	30.2741	120.1551
+division	Hawali	29.3378	48.0235
 
 country	Georgia	41.989378	43.597463
 country	Luxembourg	49.755428	6.119486
