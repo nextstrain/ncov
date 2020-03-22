@@ -121,7 +121,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 # [一些地区的数据占比偏大](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 在有些地区，比如荷兰，相对于病例总数来说，他们获得的序列数据非常多。
 <br><br>
-因此，在阅读这篇文章时，请记住地图上每个圆圈的大小表示的是该区域当前有多少数据可用，而不是该地区疫情的真实严重程度。你可以[阅读此页](https://nextstrain.org/narratives/trees-background/zh?n=8) 来了解这种数据量的差异会如何影响我们对于疫情传播的推断。
+因此，在阅读这篇文章时，请记住地图上每个圆圈的大小表示的是该区域当前有多少数据可用，而不是该地区疫情爆发的真实数字。你可以[阅读此页](https://nextstrain.org/narratives/trees-background/zh?n=8) 来了解这种数据量的差异会如何影响我们对于疫情传播的推断。
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -154,7 +154,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 # [COVID-19已经输入到几乎所有国家](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
 在这棵树上，我们在很多个分支中都看到来自不同国家的序列混杂在一起。
-这表明人们的不可避免的迁移活动已经将病毒带到了全球许多地方。
+这表明人们不可避免的迁移活动已经将病毒带到了全球许多地方。
 <br><br>
 事实上，[WHO已经报告](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) 全世界195个国家中有159个国家有确诊病例。
 <br><br>
