@@ -20,8 +20,8 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
-    - Hanbin Lee, Minkyu Kim
-translatorLinks:
+  - Hanbin Lee
+  - Minkyu Kim
 date: "2020년 3월 20일"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19의 전파를 추적합니다. 이 보고서는 매주 업데이트 됩니다."
@@ -47,14 +47,14 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# 개요 
+# 개요
 
 저희는 723</tag>개의 공개된 코로나19 유전체 염기서열을 분석하였습니다.
 이 정보를 바탕으로 코로나19가 어떻게 진화하고 세계 곳곳으로 퍼지고 있는지 파악하였습니다.
 
-바이러스는 현재 세계 곳곳에 퍼져나가 유행하고 있습니다. 
-각 지역에 바이러스 현황을 파악하고 완화전략을 통해 전파를 둔화시키려면 지역사회전파의 양상을 잘 이해하고 있어야 합니다. 
-이를 위해서는 광범위한 검사가 필수적입니다. 
+바이러스는 현재 세계 곳곳에 퍼져나가 유행하고 있습니다.
+각 지역에 바이러스 현황을 파악하고 완화전략을 통해 전파를 둔화시키려면 지역사회전파의 양상을 잘 이해하고 있어야 합니다.
+이를 위해서는 광범위한 검사가 필수적입니다.
 이를 통해 질병 전파의 속도를 낮춤에 있어 신속한 검사가 중요하다는 것을 알 수 있습니다.
 
 이번 주 보고서에서 새로 추가된 것들:
@@ -64,7 +64,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
   예상되니 지금부터 준비해야합니다.
 * 사회적 거리두기를 최근에 실행한 곳에서도 당분간은 확진자가 계속 증가할 것입니다.
   그러나 중장기적으로는 증가세가 둔화될 것입니다.
-* 대유행과 싸우기 위해서는 과거와 현재의 감염 모두를 파악해야합니다. 
+* 대유행과 싸우기 위해서는 과거와 현재의 감염 모두를 파악해야합니다.
 ```
 
 
@@ -76,12 +76,12 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 자료를 준비했습니다.
 이 정보들은 저희가 이 보고서에서 제시한 내용을 이하는데 도움을 줄 것입니다.
 이 정보들은 저희가 이 보고서에서 제시한 내용을 이해하는데 도움을 줄 것입니다.
-계통수(계통유전학적 나무)가 익숙하지 않은 분들은 ['계통수를 읽는 법'](https://nextstrain.org/narratives/trees-background)를 읽고 오십시오.
+계통수(계통유전학적 나무)가 익숙하지 않은 분들은 ['계통수를 읽는 법'](https://nextstrain.org/narratives/trees-background/ko)를 읽고 오십시오.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## 배경지식 
+## 배경지식
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 코로나바이러스 관련 배경지식 </a>
@@ -225,7 +225,7 @@ y-축은 (유행이 퍼져나갈) 공간, x-축은 시간을 나타냅니다.
 지역적 유행까지 10주 가량 걸린 것입니다. 현재로써 우리는 1월 중순 경부터
 코로나19가 세계 각지로 퍼졌을 것으로 보고 있습니다. 따라서 각지의 소규모
 유입이 대규모로 확대되는 것을 막기 위해서는 지금으로부터 10주, 그러니까 3월
-말까지의 시기가 중요합니다" [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), 2020년 2월 
+말까지의 시기가 중요합니다" [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), 2020년 2월
 
 이렇게 시작한 각 유행은 다른 지역에서 유행을 새로 발생시킬 수도 있습니다.
 
@@ -240,7 +240,7 @@ y-축은 (유행이 퍼져나갈) 공간, x-축은 시간을 나타냅니다.
 
 워싱턴주의 데이터를 통해 유행이 점점 확대되는 양상을 알 수 있습니다.
 가장 큰 바이러스 군집의 뿌리를 클릭하면 1월 말에서 2월 중순 사이에 바이러스가
-이 지역으로 유입되었음을 알 수 있습니다 ([추정법](https://nextstrain.org/narratives/trees-background?n=6)).
+이 지역으로 유입되었음을 알 수 있습니다 ([추정법](https://nextstrain.org/narratives/trees-background/ko?n=6)).
 <br><br>
 3월 중순 (약 6주 후)인 현 시점에서는 지역적 유행이 본격화됐습니다.
 유전체 염기서열 정보를 이용한 추정에 따르면 이 유행은 3-6일에 두배씩 커지는
@@ -301,7 +301,7 @@ y-축은 (유행이 퍼져나갈) 공간, x-축은 시간을 나타냅니다.
 사회적 거리두기(하루에 만나는 사람의 수를 줄이는 일)은 어려운 일임에도
 공익에 크게 기여합니다.
 만약 모든 사람들이 하루에 만나는 사람을 25% 줄이면, 다음달에 발생할 감염자의
-수가 50% 줄어듭니다 ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). 
+수가 50% 줄어듭니다 ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
