@@ -15,14 +15,14 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- This is left-side text -->
 # [جدول المحتويات](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [كيف ترتبط شبكات الانتشار بأشجار التصنيف الجيني؟](https://nextstrain.org/narratives/trees-background?n=1) ?
-* [كيف تقرأ الشجرة؟](https://nextstrain.org/narratives/trees-background?n=2) ?
-* [كيف يرتبط اطار "التنوع" بالشجرة؟](https://nextstrain.org/narratives/trees-background?n=3) ?
+* [كيف ترتبط شبكات الانتشار بأشجار التصنيف الجيني؟](https://nextstrain.org/narratives/trees-background?n=1) 
+* [كيف تقرأ الشجرة؟](https://nextstrain.org/narratives/trees-background?n=2) 
+* [كيف يرتبط اطار "التنوع" بالشجرة؟](https://nextstrain.org/narratives/trees-background?n=3) 
 * [قياس الاختلافات مع الافتراق الجيني؟](https://nextstrain.org/narratives/trees-background?n=4).  
 * [قياس الاختلافات مع الزمن](https://nextstrain.org/narratives/trees-background?n=5).  
-* [كيف تحدد موعد بداية الانفجار الوبائي؟](https://nextstrain.org/narratives/trees-background?n=6) ?
-* [كيف احلل الصفات (الالوان) على الشجرة؟](https://nextstrain.org/narratives/trees-background?n=7) ?
-* [كيف ترتبط الخريطة بالشجرة؟](https://nextstrain.org/narratives/trees-background?n=8) ?
+* [كيف تحدد موعد بداية الانفجار الوبائي؟](https://nextstrain.org/narratives/trees-background?n=6) 
+* [كيف احلل الصفات (الالوان) على الشجرة؟](https://nextstrain.org/narratives/trees-background?n=7) 
+* [كيف ترتبط الخريطة بالشجرة؟](https://nextstrain.org/narratives/trees-background?n=8) 
 * [قراءات متقدمة: عدم اليقين بالاشجار](https://nextstrain.org/narratives/trees-background?n=9).  
 * [عن مجموعة البيانات](https://nextstrain.org/narratives/trees-background?n=10).  
 
