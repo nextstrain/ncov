@@ -210,7 +210,7 @@ Wir möchten uns auch bei GISAID bedanken, dass eine Plattform bereitstellt, um 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Wir sind dankbar fuer die Daten, die von den folgenden Laboren zusammengestellt wurden:
 
 * Arizona Department of Health Services
 * Auckland Hospital
