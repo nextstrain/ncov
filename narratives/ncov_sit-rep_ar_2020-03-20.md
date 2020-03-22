@@ -41,7 +41,7 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 *  
 [ملاحظة عن جمع العينات](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=3).
 * [بيانات التسلسلات وتاريخ السفر](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=6).
-* [دخول كوفيد 19 الى معظم الدول تقريبا](https://nextstrain.org/naratives/ncov/sit-rep/ar/2020-03-20?n=8).
+* [دخول كوفيد 19 الى معظم الدول تقريبا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=8).
 * [كيف ينمو وينتشر الوباء](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=9).
 * [كيف ينمو وباء واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=10).
 * [كيف ينتشر وباء واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=11).
