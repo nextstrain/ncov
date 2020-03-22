@@ -33,28 +33,28 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text 1 -->
 # [فهرست مطالب](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [منابع پیش‌زمینه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2) 
-* [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3)
-* [داده‌های نمونه توالی ژنتیکی و سوابق سفرها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6)
-* [ورود کووید-۱۹ به تقریبا تمام کشورها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8)
-* [همه گیری‌ها چگونه رشد می‌کنند و گسترش می‌یابند](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9)
-* [چگونه همه‌گیری ایالت واشنگتن رشد کرد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10)
-* [چگونه همه‌گیری ایالت واشنگتن گسترش پیدا کرد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11)
-* [چگونه تعداد مبتلایان با اقدامات کاهش فاصله اجتماعی کاهش می‌یابد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12)
-* [کارهایی که شما می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13)
-* [سوالات متداول و تصورات غلط](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14)
-* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15)
+* [منابع پیش‌زمینه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2). 
+* [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [داده‌های نمونه توالی ژنتیکی و سوابق سفرها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [ورود کووید-۱۹ به تقریبا تمام کشورها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [همه گیری‌ها چگونه رشد می‌کنند و گسترش می‌یابند](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [چگونه همه‌گیری ایالت واشنگتن رشد کرد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [چگونه همه‌گیری ایالت واشنگتن گسترش پیدا کرد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [چگونه تعداد مبتلایان با اقدامات کاهش فاصله اجتماعی کاهش می‌یابد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [کارهایی که شما می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [سوالات متداول و تصورات غلط](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # شرح اجرایی
-<p dir="rtl">
+
 در این‌جا، ما ۷۲۳ داده ژنتیکی کووید-۱۹ را که به اشتراک عموم گذاشته‌شده بررسی می‌کنیم. با مقایسه این اطلاعات، می‌توانیم مشخص کنیم که کووید-۱۹ چگونه در جهان منتشر می‌شود. 
 در این گزارش، نشان می‌دهیم که این ویروس به طور گسترده‌ای در سراسر جهان در حال گردش است . دانستن اینکه این ویروس در مقیاس محلی در حال گردش است یا خیر و چه مقدار، همچنین اقدامات کاهشی چگونه این گسترش را کاهش می‌دهند، نیازمند این است که اطلاعات خوبی از رفتار همه‌گیری‌های محلی داشته باشیم. که این خود، انجام تست‌های گسترده را می‌طلبد. 
 این موضوع بر اهمیت تست گیری سریع  با تمرکز بر کاهش انتقال‌های محلی تاکید می‌کند.
 :در به روزرسانی این هفته، گزارش می‌کنیم
-</p>
+
 
 * شواهدی برای ورود ویروس به بسیاری از مناطق جهان از طریق سفر 
 * بسیاری از مناطق که تازه ویروس به آنها ورود پیدا کرده است، می‌توانند انتظار داشته باشند که تعداد مبتلایان طی بازه زمانی ۴ تا ۸ هفته افزایش یابند.  آنها باید از هم اکنون آماده شوند.
