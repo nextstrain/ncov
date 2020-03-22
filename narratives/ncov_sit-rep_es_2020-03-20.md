@@ -253,7 +253,7 @@ Distanciación social – es decir, disminuir el número de personas con cual te
 - Podemos apreciar evidencia de transmisión local en muchos logares; más, esperamos que muchas introducciones previas del virus se desarrollen en brotes locales en las próximas semanas.  
 <br>
 - Controlando brotes locales a través de la distanciación social es vital para:
-  - Reducir el sobrecargo de los sistemas de saludo (la campaña #FlattenTheCurve en ingles)  
+  - Reducir el sobrecargo de los sistemas de saludo (la campaña #aplanarlacurva #FlattenTheCurve)  
   - Disminuir el número total de casos y las muertes
   - Abonar tiempo para el desarrollo de tratamientos terapéuticos y vacunas.  
 
@@ -598,19 +598,18 @@ Agradecemos los datos generados por estos laboratorios:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Créditos cientificos detallados](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
-
+Los datos utilizados en este reporte son datos publicos compartidos por cada laboratorio atraves de [GISAID](https://gisaid.org).
+Agradecemos cordialmente sus contribuciones.
 <br>
 
-To the right we give specific sequences shared by each lab.
+En el panel de la derecha especifícamos las secuencias compartidas por cada laboratorio.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+Los genomas del SARS-CoV-2 fueron generosamente compartidos por los científicos en estos laboratorios:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
