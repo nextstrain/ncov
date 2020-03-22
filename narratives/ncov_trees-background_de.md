@@ -15,14 +15,14 @@ abstract: "Dieses Narrativ erklärt, wie man phylogenetische Bäume lesen und in
 <!-- This is left-side text -->
 # [Inhaltsverzeichniss](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen?](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [Wie interpretiere ich einen Baum?](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Was verbindet die "diversity" Tabelle mit dem phylogenetischen Baum?](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background?n=1)?  
+* [Wie interpretiere ich einen Baum](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [Was verbindet die "diversity" Tabelle mit dem phylogenetischen Baum](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Messung von Unterschieden in genetischer Divergenz](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Messung von Unterschieden in Zeiteinheiten](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [Wie soll ich die Farben in einem Baum interpretieren?](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [Wie haengen die Karte und der phylogenetische Baum zusammen?](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [Wie soll ich die Farben in einem Baum interpretieren](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [Wie haengen die Karte und der phylogenetische Baum zusammen](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background?n=9).  
 * [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
 
@@ -32,7 +32,7 @@ abstract: "Dieses Narrativ erklärt, wie man phylogenetische Bäume lesen und in
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+# [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
 Krankheitserreger verbreiten sich durch eine schnelle Vermehrung im Inneren eines Wirtes, gefolgt von der Übertragung zum nächsten Wirt.
 Eine Epidemie kann sich nur verbreiten, wenn eine Infektion gefolgt wird von mehr als einer Infektion.
 <br><br>
