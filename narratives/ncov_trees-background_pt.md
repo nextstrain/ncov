@@ -1,8 +1,26 @@
 ---
 title: Como interpretar árvores filogenéticas
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford" (Glaucio Santos, Anderson Brito)
-authorLinks: "https://nextstrain.org"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+translators:
+  - Glaucio Santos
+  - Anderson Brito
+translatorLinks:
+  - https://twitter.com/glauciomarcos
+  - https://twitter.com/AndersonBrito_
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Essa narrativa explica como ler e interpretar árvores filogenéticas que informam sobre epidemiologia genômica. Esse site é otimizado para visualização em navegadores de computadores."
