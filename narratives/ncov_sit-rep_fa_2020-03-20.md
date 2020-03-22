@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title:  آنالیز ژنتیکی شیوع ویروس کووید-۱۹.  شرح گزارش ۲۰ مارس ۲۰۲۰
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -20,10 +20,16 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - Mahan Ghafari
+  - Marziye Jafariyazani
+  - Mohammad Hossein Rimaz
 translatorLinks:
-date: "2020 March 19"
+  - https://twitter.com/Mahan_Ghafari
+  - https://twitter.com
+  - https://twitter.com/mhrimaz
+date: "بیست مارس ۲۰۲۰"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "این گزارش از داده‌های کووید-۱۹ که در اختیار عموم گذاشته‌شده استفاده می‌کند. این گزارش‌ها هر هفته بروز رسانی می‌شود"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
