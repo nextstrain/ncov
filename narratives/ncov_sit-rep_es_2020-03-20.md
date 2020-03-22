@@ -22,12 +22,10 @@ affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA
 translators:
   - Roy Costilla
   - Miguel I. Paredes
-  - Julián Villabona-Arenas
 translatorLinks:
   - https://researchers.uq.edu.au/researcher/18392
   - https://twitter.com/miguelp1120
-  - https://www.lshtm.ac.uk/aboutus/people/villabona-arenas.julian
-date: "2020 March 19"
+date: "2020 March 20"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento de la propagación del COVID-19. Los reportes son actualizados semanalmente."
 ---
@@ -40,16 +38,16 @@ abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento d
 <!-- This is left-side text 1 -->
 # [Contenidos](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Relación entre sequenciamiento del virus y el historial de viajes](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introdución del COVID-19 en la mayoría de países del mundo](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [Como los brotes de una epimedia crecen y se propagan](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [Crecimiento del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [Propagación del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [Impacto del distaciamiento social en el número de casos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [¡Qué puedes hacer tú](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13)!
-* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=2).     
+* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=3).
+* [Relación entre sequenciamiento del virus y el historial de viajes](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=6).
+* [Introdución del COVID-19 en la mayoría de países del mundo](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=8).
+* [Como los brotes de una epimedia crecen y se propagan](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=9).
+* [Crecimiento del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=10).
+* [Propagación del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=11).
+* [Impacto del distaciamiento social en el número de casos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=12).
+* [¡Qué puedes hacer tú](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=13)!
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -89,7 +87,7 @@ Si no estas familiarizado con la filogenética, te recomendamos leer la siguient
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Antecendentes del brote de COVID-19 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer Filogenias </a>
+  <a href="https://nextstrain.org/narratives/trees-background/es/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer Filogenias </a>
 </div>
 
 ## Material adicional
@@ -125,7 +123,7 @@ El mapa muestra muy pocas secuencias del hemisferio Sur. Por ejemplo, solo se ti
 # [Otras regiones estan sobrerepresentadas en los datos actuales](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 En otras áreas, como los Países Bajos, hay una gran cantidad relativa de secuencias genómicas disponibles con respecto al numero total de casos.
 <br><br>
-Por lo tanto, al leer este documento se debe tener en cuenta que el tamaño de los círculos en el mapa es solo proporcional a la cantidad de información disponible y no representa la magnitud del brote en cada región. Mas información sobre el efecto de esto en las inferencias estadísticas pueden encontrarse [aquí](https://nextstrain.org/narratives/trees-background?n=8).
+Por lo tanto, al leer este documento se debe tener en cuenta que el tamaño de los círculos en el mapa es solo proporcional a la cantidad de información disponible y no representa la magnitud del brote en cada región. Mas información sobre el efecto de esto en las inferencias estadísticas pueden encontrarse [aquí](https://nextstrain.org/narratives/trees-background/es?n=8).
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -199,7 +197,7 @@ Los brotes nuevos, a su vez, pueden ser fuentes del virus para introducciones ad
 <!-- This is left-side text 10 -->
 # [Cómo crecen los brotes: un ejemplo](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-Se puede apreciar un ejemplo claro de la propagación del virus en los datos que provienen desde el estado de Washington. Enfocándonos en la raíz del grupo principal en el árbol filogénetico, podemos concluir que el virus probablemente fue introducido a esta área entre finales de enero y mediados de febrero del 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Se puede apreciar un ejemplo claro de la propagación del virus en los datos que provienen desde el estado de Washington. Enfocándonos en la raíz del grupo principal en el árbol filogénetico, podemos concluir que el virus probablemente fue introducido a esta área entre finales de enero y mediados de febrero del 2020 ([methods](https://nextstrain.org/narratives/trees-background/es?n=6)).
 <br><br>
 Ahora, a mediados de marzo (~6 semanas después), podemos apreciar que el brote local en el estado de Washington está creciendo rápidamente. Usando solamente los datos de la secuenciación genómica, podemos apreciar que la tasa de duplicación del virus (lo rápido que los casos del virus se duplican) se encuentra entre 3 a 6 días, asumiendo una población con crecimiento exponencial.  
 <br>
