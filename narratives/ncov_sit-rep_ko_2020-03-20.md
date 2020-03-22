@@ -88,7 +88,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 최근 코로나바이러스감염증-19 유행 관련 배경지식</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/ko"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 계통도를 읽는 법 </a>
+  <a href="https://nextstrain.org/narratives/trees-background/ko"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 계통수를 읽는 법 </a>
 </div>
 
 ## Further Reading
@@ -122,7 +122,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 <!-- This is left-side text 4 -->
 # [어떤 지역들은 데이터에서 차지하는 비중이 작습니다](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
 지도를 보면 남반구에서 보고된 염기서열 정보가 매우 적다는 것을 알 수 있습니다.
-예를 들어, [WHO 보고서](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)가 확진자를 보고한 25개의 라틴 아메리카 국가 중 염기서열 정보가 보고된 국가는 4개국에 불과합니다.
+예를 들어, [WHO 상황 보고서](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)가 확진자를 보고한 25개의 라틴 아메리카 국가 중 염기서열 정보가 보고된 국가는 4개국에 불과합니다.
 이는 보고되지 않은 국가들에 코로나19가 존재하지 않다거나 중요도가 떨어져서가 아닙니다.
 단지 해당 지역에서 데이터를 얻기가 어려웠기 때문입니다.
 <br><br>
@@ -137,7 +137,7 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 <br><br>
 따라서 이 보고서를 읽을 때는 지도에 표시된 원의 크기가 현재 보고된 데이터의
 양을 반영할 뿐 실제 유행의 규모와는 무관하다는 것을 명심해야합니다.
-[이 글](https://nextstrain.org/narratives/trees-background?n=8)을 보면 데이터의 불균등한 보고가 전파에 대한 분석에 어떤 영향을 미치는지 알 수
+[이 글](https://nextstrain.org/narratives/trees-background/ko?n=8)을 보면 데이터의 불균등한 보고가 전파에 대한 분석에 어떤 영향을 미치는지 알 수
 있습니다.
 <br><br>
 
