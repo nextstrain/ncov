@@ -97,7 +97,7 @@ Lassen Sie uns einen Blick auf die ersten 169</tag> Isolate von SARS-CoV-2 (dem 
 <br><br>
 Hier stellen wir den phylogenetischen Baum oberhalb eines Balkendiagrammes, das die Unterschiede (d.h. Mutationen) im Genom zeigt, dar. Ohne diese Mutationen koennen wir den Baum nicht konstruieren; die beiden sind also eng verbuden.
 <br><br>
-In dieser 'diversity' Tabelle stellt die horizontale Achse jede einzelne Position im Virusgenom dar (alle 30000!).
+In diesem 'diversity' Panel stellt die horizontale Achse jede einzelne Position im Virusgenom dar (alle 30.000!).
 Die vertikale Achse stellt dar, wie hoch die Variabilitaet an jeder Position ist.
 <br><br>
 Wir haven den Baum entsprechend einer dieser Mutationen -- in diesem Fall Codon 314 im Gen "ORF1b" -- gefaerbt.
