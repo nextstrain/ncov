@@ -195,7 +195,7 @@ Estes novos surtos podem por sua vez disseminar novas introduções em outros lo
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [Como os surtos crescem: um exemplo](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location).
+# [Como os surtos crescem: um exemplo](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 Podemos ver um exemplo claro desta situação nos dados provenientes do estado de Washington.
 Colocando o ponteiro na base do clado principal (em vermelho) você verá que o vírus foi provavelmente introduzido nesta área entre o final de janeiro e meados de fevereiro de 2020 ([métodos](https://nextstrain.org/narratives/trees-background/pt?n=6)).
@@ -210,7 +210,7 @@ Neste momento, em meados de março (aproximadamente 6 semanas mais tarde), podem
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [Como os surtos se propagam: um exemplo](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid).
+# [Como os surtos se propagam: um exemplo](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
 Podemos também ver um exemplo de como surtos inicialmente localizados disseminaram introduções em outros locais.
 As amostras recolhidas no estado de Utah, na parte de cima da árvore (cor laranja), agrupam-se com o clado principal do surto em Washington.
@@ -283,7 +283,7 @@ O distanciamento social - ou seja, diminuir o número de pessoas com quem se enc
 
 
 <!-- This is left-side text 14-->
-# [Reconhecimentos científicos](https://nextstrain.org/ncov/2020-03-20?d=map&c=author).
+# [Reconhecimentos científicos](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
 Gostaríamos de reconhecer o trabalho incrível e oportuno levado a cabo por todos os cientistas envolvidos neste surto, e em especial aqueles que trabalham na China.
 Estas análises apenas são possíveis através da partilha rápida de dados genômicos e metadados.
@@ -600,7 +600,7 @@ Agradecemos os dados gerados por estes laboratórios de origem:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Reconhecimentos científicos detalhados](https://nextstrain.org/ncov/2020-03-20?d=map&c=author).
+# [Reconhecimentos científicos detalhados](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
 Estes dados foram partilhados através do [GISAID](https://gisaid.org).
 Reconhecemos e agradecemos as contribuições deles.
