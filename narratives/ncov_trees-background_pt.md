@@ -33,16 +33,16 @@ abstract: "Essa narrativa explica como ler e interpretar árvores filogenéticas
 <!-- This is left-side text -->
 # [Índice](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Como redes de transmissão estão relacionadas às árvores filogenéticas](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [Como ler uma árvore filogenética](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Como o painel de "diversidade" se relaciona com a árvore](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Medindo diferenças com divergências genéticas](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Medindo diferenças ao longo do tempo](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Calculando a data de início de um surto](https://nextstrain.org/narratives/trees-background?n=6)?  
-* [Como devo interpretar traços (cores) na árvore](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [Como o mapa se relaciona com a árvore](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Leitura avançada: incerteza nas árvores](https://nextstrain.org/narratives/trees-background?n=9).  
-* [Sobre o conjunto de dados](https://nextstrain.org/narratives/trees-background?n=10).  
+* [Como redes de transmissão estão relacionadas às árvores filogenéticas](https://nextstrain.org/narratives/trees-background/pt?n=1)?  
+* [Como ler uma árvore filogenética](https://nextstrain.org/narratives/trees-background/pt?n=2)?  
+* [Como o painel de "diversidade" se relaciona com a árvore](https://nextstrain.org/narratives/trees-background/pt?n=3)?   
+* [Medindo diferenças com divergências genéticas](https://nextstrain.org/narratives/trees-background/pt?n=4).  
+* [Medindo diferenças ao longo do tempo](https://nextstrain.org/narratives/trees-background/pt?n=5).  
+* [Calculando a data de início de um surto](https://nextstrain.org/narratives/trees-background/pt?n=6)?  
+* [Como devo interpretar traços (cores) na árvore](https://nextstrain.org/narratives/trees-background/pt?n=7)?  
+* [Como o mapa se relaciona com a árvore](https://nextstrain.org/narratives/trees-background/pt?n=8)?  
+* [Leitura avançada: incerteza nas árvores](https://nextstrain.org/narratives/trees-background/pt?n=9).  
+* [Sobre o conjunto de dados](https://nextstrain.org/narratives/trees-background/pt?n=10).  
 
 <!-- No right-side text -->
 
