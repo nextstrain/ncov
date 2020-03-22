@@ -46,9 +46,9 @@ Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom meh
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+Diese Abbildung zeigt eine Skizze eines Uebertragungs-Baumes. Jeder Kreis repraesentiert einen Fall (infizierte Person), wobei die horizontalen Linien die Dauer der Infektion darstellen. Verbundene Faelle repraesentieren Uebertragungen von einer Person zur naechsten.
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+Hier sehen wir den kompletten Uebertragungs-Baumes. In der Praxis sind aber nur ein Teil der Faelle beprobt worden (blau); der Uebertragungs-Baum ist nicht bekannt und typischerweise ist nur eine ungefaehre Abschaetzung der Fallzahlen verfuegbar. Genom-Sequenzen ermoeglichen es uns, Teile des Uebertragungs-Baumes abzuleiten. In diesem Beispiel sind drei Mutationen in dem Baum gezeigt (Rauten). Sequenzen, die die gleichen Mutationen haben, sind eng verwandt, so dass diese Mutationen es uns ermoeglichen, die Proben in Gruppen ('cluster') von verwandten Viren zu gruppieren, die zu der gleichen Uebertragungskette gehoeren.
 </p>
 </div>
 ```
