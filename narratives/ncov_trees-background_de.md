@@ -40,7 +40,7 @@ Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom meh
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Ein Beispiel
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
