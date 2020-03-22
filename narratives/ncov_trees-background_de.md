@@ -152,19 +152,19 @@ Die Interpretation dieser Daten sollte jedoch mit Vorsicht erfolgen, weil die Pr
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Ein Beispiel
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+Auf der linken Seite zeigen wir einen komplett beprobten Baum, in dem Proben von zwei verschiedenen Orten in orange und blau dargestellt sind. Wenn wir uns innerhalb des Baumes von oben nach unten bewegen, sehen wir drei Stellen (Orte), an denen die Farbe von orange zu blau wechselt. Wir koennen schlussfolgern, dass es drei separate Einfuehrungen von dem orangenen Ort zu dem blauen Ort gab.
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+Diese Interpretation ist jedoch abhaenging von der Beprobung: in dem Baum in der Mitte haben wir eine orangene Probe entfernt. Nun sehen wir nur eine Stelle (Ort) im Baum, an dem die Farbe von orange zu blau wechselt, was suggeriert, dass es nur eine Einfuehrung von dem orangenen Ort zu dem blauen Ort gab.
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+Im letzten Beispiel haben wir nur eine Sequenz von dem orangenen Ort, was uns dazu verleiten koennte, zu denken, dass es nur eine Einfuehrung von dem orangenen Ort zu dem blauen Ort gab.
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+Daher muessen diese Ableitungen, so hilfreich sie auch sein koennen, mit Vorsicht interpretiert werden.
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
@@ -188,7 +188,7 @@ In einem frueheren Abschnitt haben wir erklaert, wie die internen Verweigungspun
 Nichtsdestotrotz gibt es immer Unsicherheiten in diesen Abschaetzungen. Generell sind Teile des Baumes, die dicht beprobt sind, sicherer; Teile des Baumes, die duenn beprobt sind, sind weniger sicher.
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+# Eine Illustration
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
