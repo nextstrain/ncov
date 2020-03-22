@@ -1,5 +1,5 @@
 ---
-title: Genomische analyse van COVID-19 verspreiding. Situatierapportage 2020-03-20.
+title: التحليل الجينومي لانتشار كوفيد ١٩. تقرير حالة. ٢٠ اذار ٢٠٢٠
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -20,16 +20,14 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
-  - Roan van Scheppingen
-  - Jisca Huisman
-  - Rutger Vos
+  - Ahmad Saleh
+  - Fadi Alnaji
 translatorLinks:
-  - https://twitter.com/RScheppingen
-  - https://twitter.com/HuismanJisca
-  - https://twitter.com/rvosa
-date: "20 maart 2020"
+  - https://twitter.com/Ahmadsa96201545
+  - https://twitter.com/biofadialnaji
+date: "٢٠ آذار ٢٠٢٠"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om zo de verspreiding van COVID-19 te volgen. Deze rapportages worden wekelijks bijgewerkt."
+abstract: "يستخدم هذا التقرير البيانات الجينومية والتي تم مشاركتها للعموم من اجل تتبع انتشار كوفيد ١٩. يتم تحديث هذه التقارير أسبوعياً."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -37,163 +35,162 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Inhoud](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [جدول المحتويات](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Achtergrondinformatie](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=2).     
-* [Een opmerking over bemonstering](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=3).
-* [Sequentiedata en reisgeschiedenis](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=6).
-* [Introductie van COVID-19 naar bijna alle landen](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=8).
-* [Hoe uitbraken groeien en verspreiden](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=9).
-* [Hoe de uitbraak in Washington groeide](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=10).
-* [Hoe de uitbraak in Washington verspreidde](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=11).
-* [Hoe besmettingsgevallen veranderen door sociale distanciëring](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=12).
-* [Wat u kunt doen](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=13).
-* [Wetenschappelijk dankwoord](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-20?n=14).
+* [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=2).     
+*  
+[ملاحظة عن جمع العينات](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=3).
+* [بيانات التسلسلات وتاريخ السفر](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=6).
+* [دخول كوفيد 19 الى معظم الدول تقريبا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=8).
+* [كيف ينمو وينتشر الوباء](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=9).
+* [كيف ينمو وباء واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=10).
+* [كيف ينتشر وباء واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=11).
+* [كيف بتغير عدد الحالات مع التباعد الاجتماعي](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=12).
+* [ماذا يمكنك أن تفعل](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=13).
+* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Samenvatting
+# الملخص التنفيذي
 
-Hier hebben we 723 publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virus genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld.
+قمنا هنا بتحليل جينومات 723 فيروس كوفيد 19 تم مشاركتها للعموم. نستطيع من خلال مقارنة تسلسلات الجينومات الفيروسية مع بعضها البعض تحديد كيفية تنقل فيروس كوفيد 19 في العالم
 
-In dit rapport, lichten we toe dat het virus wereldwijd geïntroduceerd is en circuleert in vele delen van de wereld.
-Weten of en in welke mate COVID-19 lokaal circuleert en hoe maatregelen deze verspreiding vertragen, vergt goede kennis van locale uitbraakdynamiek. Dit, op zijn beurt, vereist wijdverspreid testen.
-Dit benadrukt het belang van snel testen, met een sterke focus op het verminderen van locale transmissies.
+نؤكد في هذا التقرير على ان الفيروس تم ادخاله وما زال يدور في العديد من أجزاء العالم. المعرفة الجيدة بديناميكية كوفيد ١٩ ستساعد على فهم كيف يمكن لإجراءات مكافحته ان تقلل من انتشاره، وتحديد درجة انتشاره حاليا. هذا يتطلب عمليات فحص واسعة
+و يؤكد على اهمية الفحص السريع مع التركيز المشدد على ابطاء الانتشار المحلي.
 
-In de updates van deze week, rapporteren we:
+في تقرير هذا الاسبوع، نوثق ما يلي:
+* إثبات يشير إلى أن إدخال الفيروس لمعظم دول العالم له ارتباط في السفر
+* المناطق التي ظهر فيها الفيروس مؤخرا، تتوقع أن ترى توسعا في انتشار الفيروس في غضون ٤ ل ٨ أسابيع. وجب عليها الاستعداد.
+* العديد من الاماكن التي قامت حديثا بتطبيق اجراءات التباعد الإجتماعي، عليها أن تتوقع زيادة في تراكم الحالات على المدى القصير. أما الحالات الجديدة، فغالبا، سوف يثبت معدل ازديادها ومن ثم تبدأ بالانحدار على المدى المتوسط والطويل.
+* الفحص لكل من المصابين او الافراد المتعافين سيكون له اثر ايجابي في التعامل والسيطرة على هذا الوباء
 
 
-* Bewijs voor reisafhankelijke introductie in veel delen van de wereld.
-* Veel plaatsen met recente introducties kunnen verwachten dat de gevallen verder groeien in 4 tot 8 weken. Ze moeten zich nu voorbereiden.
-* Veel plaatsen hebben recent maatregelen genomen, zoals sociale distanciëring. Op de korte termijn zal het aantal besmettingen toenemen, maar besmettingen zullen waarschijnlijk in een plateaufase  komen en afnemen op de langere termijn.
-* Testen op zowel actieve infectie als op herstelde individuen zal van vitaal belang zijn om met deze epidemie om te gaan.
 ```
-
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Bronnen](https://nextstrain.org/ncov/2020-03-20)
-
-We hebben een aantal bronnen voorbereid die het waard zijn om te lezen om jezelf vertrouwd te maken met COVID-19 en het virus dat het veroorzaakt, SARS-CoV-2.
-
-Deze informatie maakt het interpreteren van de gegevens die we in dit narratief presenteren makkelijker; als u niet bekend bent met fylogenetische bomen, raden we u aan de ['Hoe kan ik Fylogenieën lezen?'](https://nextstrain.org/narratives/trees-background/nl) narratief te bekijken en terug te komen wanneer u klaar bent.
+# [مصادر كوفيد 19](https://nextstrain.org/ncov/2020-03-20)
+لقد قمنا بتحضير بعض المراجع التي تستحق القراءة من اجل التعرف على كوفيد 19 والفيروس الذي يسببه وهو سارس كو في 2.
+هذه المعلومات ستجعل تحليل البيانات التي نعرضها في هذا التقرير اسهل، اذا لم يكن لديك فكرة عن اشجار التصنيف الجيني فنحن نشجعك لزيارة الموقع التالي ['كيف تقرأ تقارير التصنيف الجيني](https://nextstrain.org/narratives/trees-background/)  والعودة الى هنا مرة اخرى عندما تكون جاهزا
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Achtergrondinformatie
+## الخلفية العلمية
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="Microscopische afbeelding van Coronavirus" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Achtergrond bij Coronavirussen (Engels) </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="Illustratie van een Coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recente COVID-19-uitbraak achtergrond (Engels) </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/nl/"><img alt="Cartoon van een fylogenentische boom" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Hoe kan ik Fylogenieën lezen</a>
+  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
-## Verder lezen
+## قراءات اضافيه
 
-* Samenvatting van de SARS-COV-2-uitbraak op [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Alle besmettingsnummers aangehaald in dit rapport komen van de [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) zoals gerapporteerd op 2020-03-20.
+* ملخص عن سارس كو في 2 على ويكيبيديا [ويكيبيديا](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* كل اعداد الحالات الموثقة في هذا التقرير تم الحصول عليها من  [منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) كما هو بتاريخ ٢٠ آذار ٢٠٢٠
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [Een opmerking over bemonstering](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We hebben momenteel sequenties van monsters die genomen zijn in 36 landen op 6 continenten. Dit is een ongelooflijke prestatie -- het sequencen van een onbekend, groot RNA-virus tijdens een pandemie is moeilijk, en is alleen mogelijk door het ongelooflijke werk en het tijdig delen van gegevens door wetenschappers en artsen over de hele wereld.
+# [ملاحظة عن جمع العينات](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+نمتلك حاليا تسلسلات جينومية للفيروس من عينات جمعت من 36 دولة في 6 قارات. وهذا انجاز مهم-- فتحديد تسلسل جينوم فيروس ار ان اي كبير وغير معروف مسبقا في وسط جائحة وبائية هو امر صعب، وما كان ليصبح ممكنا لولا العمل المضني والمشاركة الفورية للبيانات من قبل العلماء والاطباء حول العالم
 <br><br>
-Hoewel deze gegevens ons in staat stellen om veel nuttige kenmerken van de uitbraak af te leiden en de verspreiding ervan in real-time te volgen, is het belangrijk om te benadrukken dat onze conclusies beperkt zijn door de beschikbare gegevens.
-Van het totale aantal besmettingen, wordt enkel een subset van de patiënten getest. Van de geteste patiënten, wordt enkel een subset van de monsters gesequenced.
-Welke subset van de besmettingen wordt getest en gesequenced kan enorm varieren tussen geografische regio's en in de tijd.
-Daarnaast hebben fylogenetische reconstructies van uitbraken altijd een mate van onzekerheid.
+في حين ان هذه البيانات تمكننا من استنتاج العديد من الخصائص المفيدة عن الوباء وتتبع انتشاره بالوقت الحقيقي، الا انه من المهم التأكيد على ان استنتاجاتنا تبقى محدودة بسبب محدودية الوصول للبيانات.
+من كل اعداد حالات الاصابة، ففط مجموعة من المرضى يتم فحصها. من هؤلاء الذين تم فحصهم، مجموعة صغيرة من العينات يتم استخدامها  لتحديد تسلسل جينوم الفيروس .
+اي مجموعة حالات يتم فحصها وتحديد تسلسلاتها يمكن ان تختلف بشكل كبير على مدى الزمن والمناطق الحغرافية.
+بالاضافة الى ذلك ، فإن عمليات اعادة بناء اشجار التصنيف الجيني للوباء مرتبطة دائما بدرجة من عدم اليقين
 <br><br>
-Laten we naar een paar voorbeelden kijken.
+لنرى بعض الأمثلة
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Sommige regio's zijn ondergerepresenteerd in deze data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-De kaart toont erg weinig sequenties in het mondiale zuiden. Bijvoorbeeld, we hebben enkel sequenties van 4 van de 25 landen in Latijns-Amerika, waar [de WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) besmettingen met COVID-19 rapporteert. Dit is niet omdat COVID-19 in deze gebieden nog niet circuleert, of dat deze besmettingen niet cruciaal zijn om te begrijpen. Echter, er is simpelweg nog weinig data beschikbaar vanuit deze regio's.
+# [بعض الاماكن غير ممثلة بشكل كاف في هذه البيانات](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+تعرض الخارطة تسلسلات قليلة جدا من نصف الكرة الارضية الجنوبي. على سبيل المثال، لدينا فقط 4 تسلسلات من اصل 25 دولة في أمريكا اللاتينية، حيث تم تسجيل حالات كوفيد 19 بحسب [تقارير منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)  .هذا ليس لأن كوفيد 19 لا يدور في تلك الأماكن ولا لان حالات الاصابة هناك غير مهمة لفهم الفيروس وانما بسبب عدم توفر بيانات عن تسلسل جينوم الفيروس في تلك الأماكن.
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Andere regio's zijn overgerepresenteerd in deze data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In andere gebieden, zoals in Nederland, is er een grote hoeveelheid sequentiedata beschikbaar in verhouding tot het totale aantal van besmettingen.
+# [مناطق اخرى ممثلة بشكل اكبر في هذه البيانات](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+في بعض الاماكن كهولندا هناك كمية كبيرة متاحة عن بيانات تسلسل جينومات الفيروس مقارنة بعدد الحالات الكلي للاصابات
 <br><br>
-In conclusie, als u dit narratief leest, is het belangrijk om te onthouden dat de grootte van de iedere cirkel op de map aangeeft hoeveel data er op dit moment beschikbaar is vanuit die regio, in plaats van de ware grootte van de uitbraak. U kunt [hier](https://nextstrain.org/narratives/trees-background/nl?n=8) zien hoe dit onze reconstructie van de besmettingsroutes kan beïnvloeden.
+لذلك عند قراءة هذا التقرير يجب تذكر ان حجم الدوائر على الشجرة يشير الى  كمية البيانات المتوفرة حاليا من تلك المنطقة وليس الحجم الحقيقي للوباء هناك.
+[اقرأ هنا](https://nextstrain.org/narratives/trees-background?n=8) لفهم كيف يمكن ان يؤثر ذلك على استنتاجاتنا عن الانتشار الوبائي
 <br><br>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequentiedata kan reisgeschiedenis valideren](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [بيانات تسلسل جينومات الفيروس يمكنها التقاطع مع تواريخ السفر](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identificeren waar een bepaalde besmetting is opgelopen is belangrijk om te begrijpen welke gebieden locale transmissie ervaren, ten opzichte van besmettingen geassocieerd met reizen. Sequentiedata kan ons helpen tussen deze twee scenario's te differentiëren.
-
+تحديد اين تمت اصابة حالة معينة مهم من اجل فهم اي المناطق عانت حالات انتشار محلي للوباء مقارنة بحالات اولية مرتبطة بالسفر. بيانات التسلسل تساعدنا على التفريق بين هذه السيناريوهات.
 <br><br>
-Hier is de boom gekleurd op basis van reisgeschiedenis van een besmetting (wanneer bekend). Kijkende naar Canadese sequentie (Canada/BC_78548/2020) in het midden, zien we dat deze sequentie een bekende reisgeschiedenis naar Europa heeft. Deze infectie groepeert met andere Europese sequenties en toont aan dat deze besmetting bijna zeker gerelateerd is aan de reisgeschiedenis.
+الشجرة هنا ملونة بحالة اصابة مرتبطة بالسفر (متى عرفت)ى.
+بالنظر الى التسلسل الكندي
+
+(Canada/BC_78548/2020)
+
+في الوسط نرى انه تم توثيق زيارتهم لأوروبا. مجموعات الاصابه هذه مع التسلسلات الاوروبية الاخرى ترينا بشكل مؤكد تقريباً بأن هذه الحالة مرتبطة بالسفر.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequentiedata kan reisgeschiedenis valideren](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [بيانات تسلسل جينومات الفيروس تتقاطع مع تواريخ السفر](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Uitzoomende, kunnen we zien wdat dit niet altijd consistent is.
+بتصغير الصورة، نستطيع ان نرى ان ذلك ليس دائما متوافقا
 <br><br>
-Hier kunnen we zien dat bijna al deze besmettingen met reisgeschiedenis naar Iran samenclusteren in het midden van de boom.
+نستطيع هنا ان نرى بأن جميع الحالات تقريبا التي تم توثيقها بالسفر الى ايران تتجمع معا في وسط الشجر.
 <br><br>
-Richting de top van de boom, zien we ook een Canadese besmetting met reisgeschiedenis naar Iran; echter, deze sequentie groepeert nergens in de buurt van de andere besmettingen met Iraanse reisgeschiedenis.
+نحو اعلى الشجرة نستطيع ان نرى حالة كندية بتاريخ سفر الى ايران ، ومع ذلك هذا التسلسل لا يتجمع في اي مكان بالقرب من بقية الحالات المرتبطة بتاريخ سفر الى ايران
 <br><br>
-Het is zeker mogelijk dat deze persoon geïnfecteerd is door een tweede, lopende besmettingsketen in Iran, maar tot we meer data hebben, kunnen we niet bevestigen of deze infectie opgelopen is tijdens het reizen.
+هناك امكانية مؤكدة بأن هذا الشخص اصيب من خلال سلسلة انتشار اخرى جارية في ايران ولكن لا يمكننا التأكد بان حالة الاصابة هذه تم اكتسابها من خلال السفر قبل الحصول على المزيد من البيانات.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [Het virus is geïntroduceerd in bijna elk land ter wereld](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [تم دخول الفيروس الى كل دولة تقريبا حول العالم](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-Op de boom, zien we veel besmettingen uit verschillende uit verschillende landen door elkaar heen staan.
-Dit geeft aan dat deze vorm van niet te stoppen menselijke beweging het virus al geïntroduceerd heeft in veel delen van de wereld.
+نستطيع ان نشاهد على الشجرة العديد من انواع التداخلات للعينات من دول مختلفة
+هذا يشير الى ان هذا النمط من الحركة البشرية ،الذي لا يمكن تجنبه، قد ساهم بادخال الفيروس الى اجزاء متعددة من العالم..
 <br><br>
-Sterker nog, [de WHO rapporteert](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) bevestigde besmettingen in 159 van de in totaal 195 landen ter wereld.
+في الحقيقة, [تقارير منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) اكدت وجود حالات في 159 من 195 دولة من دول العالم
 <br><br>
-Echter, niet iedere introductie resulteert in een uitbraak.
+ومع ذلك فليس جميع حالات الادخال تسبب في حالات انتشار وبائي
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemieën worden ~4-8 weken na introductie duidelijk zichtbaar](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [انتشار الوباء يظهر بوضوح بعد 4-8 اسابيع من اول دخول](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-Het lijkt misschien alsof COVID-19 plotseling is geëxplodeerd.
-Voor veel mensen is deze uitbraak mogelijk overgegaan van een abstracte zorg in andere delen van de wereld naar iets dat hun dagelijkse leven ernstig beïnvloedt, schijnbaar van de ene op de andere dag.
-<br> <br>
-Maar houd er rekening mee dat dit al een tijdje aan de gang is. Het is niet noodzakelijk dat het virus vaker op nieuwe plaatsen wordt geïntroduceerd.
-Hoogstwaarschijnlijk beginnen veel plaatsen zich nu bewust te worden van gelokaliseerde uitbraken die enkele weken geleden door introducties zijn begonnen.
-<br> <br>
-Gebieden die zich nog niet bewust zijn van lokale uitbraken, moeten zich nu voorbereiden en met testen beginnen.
-
-
+ومع ذلك، يظهر كوفيد ١٩ وكأنه تفشى فجأة. لبعض الناس بدا وكأن الوباء قد تحول بين ليلة وضحاها، في أماكن مختلفة حول العالم، من حالة هامشية من حيث تأثيرها الصحي لحالة خطرة تثير الهلع.
+<br><br>
+ولكن يجب الأخذ بعين الاعتبار، بأن الوباء،  بعد الدخول الأولي،  عبر خلال فترة حضانة مكنته من التكاثر والانتشار. بناء عليه فإن أغلب الظن، بأن معظم الدول أعلنت عن تفشي الوباء بعد أسابيع من الدخول  الأولي.
+<br><br>
+المناطق التي لم تعلن بعد عن تفشي الوباء، عليها الاستعداد،  والابتداء بتحضير فحوصات مراقبة
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# Hoe wordt een introductie een uitbraak?
+# كيف يمكن لدخول الفيروس ان يتحول الى وباء؟
 
-Soms leiden deze introducties niet tot secundaire gevallen of lokale uitbraken, vooral niet als de eerste patient (indexgeval) snel wordt gedetecteerd en geïsoleerd.
-Vaak verspreidt het virus zich echter onopgemerkt door de lokale bevolking totdat de uitbraak een aanzienlijke omvang heeft bereikt.
+هذه الادخالات لا تسبب احيانا حالات اصابة ثانوية او تفشي محلي للوباء -- خصوصا اذا تم اكتشاف الحالة الحاملة للفيروس وتم عزلها. ومع ذلك، في العديد من الحالات ينتشر الفيروس بشكل لا يمكن كشفه خلال المجتمع المحلي حتى يصل الوباء الى حجم ملحوظ.
 
-Het gedachte-experiment hieronder laat zien hoe dit zich afspeelde in Wuhan. Op de y-as hebben we de plaats; op de x-as hebben we tijd. Gearceerd gebied vertegenwoordigt het aantal gevallen.
+يوجد ادناه تجربة تبين كيف حدث ذلك في ووهان. على المحور الصادي لدينا المساحة وعلى المحور السيني لدينا الزمن. المنطقة المظللة تمثل عدد الاصابات.
 
-"COVID-19 in Wuhan ging van een indexgeval in ~nov 2019 naar enkele duizenden gevallen medio jan 2020, en ging daarmee van een eerste besmetting naar een wijdverbreide lokale overdracht in een tijdsbestek van ~ 10 weken. We geloven dat internationale vanaf midden januari zijn begonnen. We hebben dus een kritieke ~ 10 weken van dan tot eind maart om deze ontluikende uitbraken te bedwingen voordat ze omvangrijk worden. " [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"تحول  كوفيد ١٩ في ووهان  من حالة مصابة في نوفمبر 2019 الى عدة الاف من الحالات مع اواسط يناير 2020، ولذلك فالانتقال من حالة اولية الى تفشي الوباء المحلي استغرق حوالي 10 اسابيع. نحن نعتقد بان حالات الإصابة الأولية بدأت عالمياً في اواسط يناير 2020. ولذلك لدينا 10 اسابيع حاسمة منذ ذلك الحين لاحتواء حالات الانتشار الوبائي الوليدة قبل ان تصبح بحجم كبير وملحوظ"
 
-Deze nieuwe uitbraken kunnen op hun beurt verdere introducties op andere locaties starten.
+ [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+
+هذه الانتشارات الوبائية يمكن بدورها ان تزرع ادخالات جديدة الى اماكن اخرى
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -202,12 +199,13 @@ Deze nieuwe uitbraken kunnen op hun beurt verdere introducties op andere locatie
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [Hoe uitbraken groeien: een voorbeeld](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [كيف ينمو الوباء: مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We kunnen een duidelijk voorbeeld hiervan zien in de gegevens van de staat Washington.
-Door over de stam van de hoofdclade te bewegen, blijkt dat het virus waarschijnlijk tussen eind januari en half februari 2020 in dit gebied is geïntroduceerd ([methoden](https://nextstrain.org/narratives/trees-background/nl?n=6)).
-<br> <br>
-Nu, half maart (~ 6 weken later), zien we dat er in dit gebied een lokale uitbraak in volle gang is. Alleen al op basis van de sequentiegegevens schatten we een verdubbeling iedere 3-6 dagen, uitgaande van een exponentieel groeiende populatie.
+نستطيع ان نرى مثالا واضحا على ذلك عبر البيانات المسجلة من ولاية واشنطن. تمرير الفأرة فوق جذر الفرع الرئيسي للشجرة يظهر بانه قد تم ادخال الفيروس على الاغلب الى هذه المنطقة ما بين نهاية يناير واوسط فبراير ٢٠٢٠
+
+ ([الطرق](https://nextstrain.org/narratives/trees-background?n=6)).
+<br><br>
+الان، منتصف مارس (بعد حوالي 6 اسابيع) نرى انتشارا كامل الفعالية للوباء في هذه المنطقة. من خلال البيانات التسلسلية فقط، يمكننا تقدير بأن معدل التضاعف سيحدث في غضون 3-6 ؛ بافتراض معدل نمو لوغاريتمايتي في المجتمع.
 
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
@@ -218,39 +216,36 @@ Nu, half maart (~ 6 weken later), zien we dat er in dit gebied een lokale uitbra
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [Hoe uitbraken verspreiden: een voorbeeld](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [كيف ينتشر الوباء: مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We kunnen ook een voorbeeld zien van hoe aanvankelijk gelokaliseerde uitbraken, introducties op andere locaties starten.
-De monsters uit Utah in de buurt van de top van de boom (oranje) nestelen in de belangrijkste clade van de uitbraak in Washington.
-Dit komt overeen met een introductie van Washington naar Utah, hoewel het ook mogelijk is dat er tussenliggende stap(pen) in de transmissie-keten waren.
-<br> <br>
-We weten niet zeker of deze introductie zal leiden tot een lokale uitbraak in Utah.
-Maar als het virus zich blijft verspreiden na deze introducties, zouden we verwachten dat dit zich de komende 4 weken zal ontvouwen.
-<br> <br>
-Dit is maar één voorbeeld.
-Mogelijk waren er andere introducties in Utah (of andere gebieden) die we niet in de boom kunnen zien omdat ze niet zijn gesequenced.
-Het belangrijkste is dat gebieden die zich nog niet bewust zijn van lokale uitbraken, zich nu moeten voorbereiden en met testen moeten starten.
+بمكننا أيضا مشاهدة مثال على كيف ان حالات انتشار وبائي اولية يمكن ان تولد دخول للفيروس في اماكن اخرى. العينات من ولاية يوتا قرب اعلى الشجرة ( البرتقالي) تتمركز داخل الفرع الرئيسي من حالة وباء واشنطن. وهذا يشير إلى إدخال الفيروس ليوتا عن طريق ولاية واشنطن، على الرغم  من احتمالية وجود مرحلة وسطية في سلسلة الانتشار
+<br><br>
+لا نعلم على وجه التأكيد فيما اذا كان هذا الادخال - من واشنطن ليوتا - قد سبب حالة انتشار وبائي في يوتا لكن اذا استمر الفيروس في الانتشار بعد دخول الفيروس، فسوف نتوقع ان نتأكد من العلاقة بين ادخال الفيروس وانتشاره في يوتا على مدى الاسابيع الاربعة القادمة.
 
+<br><br>
+هذا مجرد مثال واحد، من الممكن ان يكون  هناك دخول آخر للفيروس في يوتا (او اماكن اخرى) والتي لا نستطيع مشاهدتها على الشجرة لانه لم يتم تحديد تسلسلاتها. والاكثر اهمية هو ان الاماكن التي ما زالت لم تكتشف حالات الانتشار الوبائي يجب عليها الاستعداد فورا وان تبدأ بعمليات فحص مسحية.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [تدابير التخفيف تأخذ وقتا لكنها تنقذ الارواح](https://nextstrain.org/ncov/2020-03-20)
 
-Volgens deze zelfde logica zijn er waarschijnlijk veel lokale transmissieketens die we nog niet kennen.
-<br> <br>
-Dit betekent dat we, zelfs voor gebieden die zojuist sociale afstandsmaatregelen hebben ingevoerd, mogen verwachten dat het aantal gevallen de komende weken zal toenemen.
-Deze groei geeft NIET aan dat deze maatregelen niet werken. Het kost alleen tijd voordat reeds geïnfecteerde personen (en mogelijk hun gezinsleden) symptomen gaan vertonen, worden behandeld en herstellen. We verwachten ook een stijging in het aantal gemelde gevallen te zien naarmate tests breder beschikbaar worden.
-<br> <br>
-Het is van cruciaal belang dat gedurende deze tijd de sociale afstand wordt gehandhaafd. Zoals u hiernaast kunt zien, blijft het aantal gevallen toenemen nadat de interventie is ingesteld. Maar na verloop van tijd neemt het cumulatieve aantal gevallen sterk af.
+باتباع هذا المنطق فهناك على الاغلب العديد من سلاسل الانتشار المحلية والتي لم يتم التعرف عليها حتى الآن
+<br><br>
+وهذا يعني حتى الاماكن التي قامت فقط بتطبيق تدابير التباعد الاجتماعي فعلينا ان نستمر بتوقع ارتفاع اعداد الحالات فيها على مدى الاسابيع القليلة القادمة.
+هذا لا يعني بأن هذه التدابير لا تعمل، وانما فقط تحتاج لوقت حتى تظهر الاعراض على الافراد المصابين (وعلى افراد اسرهم ايضا)، ويتم معالجتهم ومن ثم تعافيهم. كما نتوقع ايضا حدوث تضخم في اعداد الحالات المسجلة مع زيادة إمكانية إجراء الفحوصات على نطاق واسع.
+<br><br>
+من المهم الحفاظ على تدابير التباعد الاجتماعي خلال هذه الفترة. كما هو موضح على اليمين، اعداد الحالات مستمرة بالازدياد بعد ان تم تطبيق عمليات التدخل. ولكن مع الوقت فان الاعداد التراكمية للحالات انخفضت بقوة
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Sociale afstand houdt niet alle nieuwe gevallen van de ene op de andere dag tegen, maar het vermindert het aantal gevallen en het aantal dodelijke slachtoffers in de loop van de tijd aanzienlijk
-Sociale afstand nemen - dat wil zeggen het verminderen van het aantal mensen dat u elke dag tegenkomt - kan een uitdaging zijn, maar is enorm voordelig voor het algemeen belang.
-  Als iedereen zijn dagelijkse contacten met 25% zou verminderen, zouden we verwachten dat het cumulatieve aantal gevallen de komende maand met 50% zal afnemen ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## التباعد الاجتماعي لا يوقف كل الحالات الجديدة بين ليلة وضحاها ولكنه يقلل اعداد حالات الاصابة والوفيات على مدى الزمن.
+
+التباعد الاجتماعي - اي تقليل عدد الاشخاص الذي تلتقيهم يوميا - يمكن ان يشكل تحدياً ولكنه مفيد جداً لمصلحة الجميع. لو كل واحد من الجميع قام بتقليل نسبة اتصاله اليومي مع الاخرين بنسبة 25 بالمئة فيمكننا توقع انخفاض بنسبة 50 بالمئة من الاعداد التراكمية للاصابات خلال الشهر القادم.
+
+([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -259,33 +254,33 @@ Sociale afstand nemen - dat wil zeggen het verminderen van het aantal mensen dat
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Conclusies](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- Het virus is meerdere keren op vele delen van de wereld geïntroduceerd.
+# [الخلاصة](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- تم ادخال الفيروس الى العديد من اجزاء العالم عدة مرات
 <br>
-- We zien op veel gebieden aanwijzingen voor lokale transmissie; verder verwachten we dat eerdere introducties al vele lokale uitbraken hebben veroorzaakt die de komende weken duidelijk zullen worden.
+- نرى ادلة على عمليات انتشار محلية للفيروس في العديد من الاماكن. نتوقع ان دخول مسبق للقيروس قد ساهم في اندلاع العديد من حالات التفشي المحلية للوباء، والتي ستتوضح في الاسابيع القادمة
 <br>
-- Beheersing van lokale uitbraken door middel van sociale afstand is cruciaal:
-   - #FlattenTheCurve om te voorkomen dat gezondheidszorgsystemen worden overspoeld door veel gelijktijdige gevallen
-   - Verminder het totale aantal gevallen en dodelijke slachtoffers
-   - Geef tijd voor de ontwikkeling van medicijnen en vaccins
+-  السيطرة على تفشي الوباء من خلال التباعد الاجتماعي مهم للأسباب التالية:
+  - تسطيح المنحنى لحماية انظمة الرعاية الصحية من الانهيار بسبب أعداد الاصابات الضخمة. تسطيح المنحنى هو مصطلح يعني تقليص حجم منحنى الاصابات من خلال التباعد الاجتماعي  ([اقرأ هنا للمزيد](https://www.livescience.com/coronavirus-flatten-the-curve.html)).
+  - تقليل الاعداد الكلية لحالات المصابين والوفيات  
+  - اعطاء الوقت الكافي من اجل تطوير الأدوية واللقاحات
 
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# Wat u kunt doen
-## ...als een individu
-* Verminder drastisch het aantal mensen waarmee u elke dag in contact komt, vooral als u tot een kwetsbare groep behoort (bijvoorbeeld senioren en mensen met reeds bestaande aandoeningen).
-* Onthoud dat zelfs als je niet super kwetsbaar bent, veel mensen om je heen dat wel zijn; volg deze praktijken om anderen te beschermen.
-* Was je handen "alsof je net een jalapeno hebt gesneden en een contactlens moet verwisselen."
-* Blijf zoveel mogelijk thuis - vooral als je ziek bent; wees voorbereid met extra benodigdheden voor het geval u thuis in quarantaine moet gaan.
-* Als u een werkgever bent, moedig uw werknemers aan om waar mogelijk thuis te werken
+# ماذا يمكنك ان تفعل
+## ...كفرد في المجتع
+* التقليص بشكل كبير لعدد الاشخاص الذين تحتك بهم يوميا، خصوصاً ان كنت من ضمن مجموعة الافراد الاكثر عرضة للاصابة (كبار السن ومن لديهم امراض مزمنة او لديهم عوامل الاصابة)
+* تذكر حتى لو انك لست عرضة للاصابة ، العديد ممن حولك قد يكونون كذلك، اتبع التدابير التالية لحماية الاخرين:
+* اغسل بديك "كانك تريد تغيير عدساتك اللاصقة بعد ان قمت بتقطيع الفلفل"
+* ابق في المنزل قدر ما تستطيع -- خصوصا إذا كنت مريضا، كن مستعدا وتزود باحتياجات اضافية في حال اضطررت للحجر الذاتي.
+* إذا كنت رب عمل، شجع موظفيك على العمل من البيت ان كان ذلك ممكنا
 
-## ... als ambtenaar
-* Maak testen gratis en algemeen beschikbaar.
-* Zorg voor sterke sociale afstandsmaatregelen.
-* Financieer en implementeer uitgebreide inspanningen voor het traceren van contacten.
-* Financiële steun bieden aan degenen die worden getroffen door maatregelen voor sociale afstand (bv. uurloonwerkers, werknemers met ouder- of kinderopvang, kleine bedrijven, enz.).
+## ...كمسؤول  
+* اجعل الفحوصات مجانية ومتوفرة بكثرة
+* ضع تدابير التباعد الاجتماعي وتابع تنفيذها بفعالية على ارض الواقع
+* قم بتمويل وتطبيق جهود متابعة التواصل المكثفة.  
+* ادعم ماديا أولئك المتضررين مم التباعد الاجتماعي ( العمالة الذين يعملون بنظام الوقت الساعي،  اولئك الذين يعتنون بالكبار والأطفال, والمشاريع الصغيرة،...الخ).
 
 ```
 
@@ -294,21 +289,20 @@ Sociale afstand nemen - dat wil zeggen het verminderen van het aantal mensen dat
 
 
 <!-- This is left-side text 14-->
-# [Wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [الحقوق العلمية](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-Wij willen onze dank uitspreken voor het fantastische en tijdige werk dat is verricht door alle wetenschappers die bij deze uitbraak betrokken zijn, en met name door degenen die in China werkzaam zijn. Alleen door het snel delen van genomische gegevens en metadata zijn dit soort analyses mogelijk.
+نود هنا ان نشكر ونقدر الاعمال الرائعة المنجزة بوقتها من قبل جميع العلماء الذي عملوا على هذا الوباء وخصوصاً أولئك العاملين في الصين.
+فقط من خلال المشاركة السريعة للبيانات الجينية كان بالامكان عمل عذه التحليلات
 
 <br>
 
-Wij zijn ook [GISAID](https://gisaid.org) dankbaar voor het leveren van het platform waarmee deze gegevens kunnen worden geüpload en gedeeld.
-
-
+كما نثمن بقوة ونشكر [GISAID](https://gisaid.org) على تزويدهم لنا بمنصتهم والتي تم من خلالها تحميل وتحليل البيانات.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We zijn dankbaar voor de gegevens die door deze oorspronkelijke laboratoria zijn verzameld:
+نحن ممتنون للبيانات التي تم جمعها بواسطة المختبرات التالية:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -612,19 +606,19 @@ We zijn dankbaar voor de gegevens die door deze oorspronkelijke laboratoria zijn
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Gedetaileerd wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-Deze gegevens werden gedeeld via [GISAID](https://gisaid.org).
-Wij zijn dankbaar voor hun bijdragen.
+These data were shared via [GISAID](https://gisaid.org).
+We gratefully acknowledge their contributions.
 
 <br>
 
-Rechts geven we specifieke sequenties die door elk lab worden gedeeld.
+To the right we give specific sequences shared by each lab.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+جينومات فيروسات سارس كو في ٢ تمت بمشاركة كريمة من فبل العلماء في المختبرات التالية:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
