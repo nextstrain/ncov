@@ -17,10 +17,10 @@ abstract: "Dieses Narrativ erklärt, wie man phylogenetische Bäume lesen und in
 
 * [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background?n=1)?  
 * [Wie interpretiere ich einen Baum](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Was verbindet die "diversity" Tabelle mit dem phylogenetischen Baum](https://nextstrain.org/narratives/trees-background?n=3)?   
+* [Was verbindet das "diversity" Panel mit dem phylogenetischen Baum](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Messung von Unterschieden in genetischer Divergenz](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Messung von Unterschieden in Zeiteinheiten](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/narratives/trees-background?n=6).  
 * [Wie soll ich die Farben in einem Baum interpretieren](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [Wie haengen die Karte und der phylogenetische Baum zusammen](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background?n=9).  
@@ -91,9 +91,9 @@ Basierend auf diesem Baum koennen wir schlussfolgern, dass A und B eng miteinand
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Was verbindet die "diversity" Tabelle mit dem phylogenetischen Baum?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# [Was verbindet das "diversity" Panel mit dem phylogenetischen Baum?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Lassen Sie uns einen Blick auf die ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, das COVID-19 verursacht), die oeffentlich gemacht wurden, werfen. Genau wie auf der letzten Seite haben wir ein Alignment der Virus-Sequenzen konstruiert (Unter [GitHub](https://github.com/nextstrain/ncov) koennen Sie sehen, wie saemtliche hier erwaehnte Analysen gemacht wurden).
+Lassen Sie uns einen Blick auf die ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, das COVID-19 verursacht), die oeffentlich gemacht wurden, werfen. Genau wie auf der letzten Seite haben wir ein Alignment der Virus-Sequenzen konstruiert (In diesem [GitHub](https://github.com/nextstrain/ncov) repo koennen Sie sehen, wie saemtliche hier erwaehnte Analysen gemacht wurden).
 <br><br>
 Hier stellen wir den phylogenetischen Baum oberhalb eines Balkendiagrammes, das die Unterschiede (d.h. Mutationen) im Genom zeigt, dar. Ohne diese Mutationen koennen wir den Baum nicht konstruieren; die beiden sind also eng verbuden.
 <br><br>
@@ -136,7 +136,7 @@ Sie koennen nach oben und unten zwischen dieser und der vorherigen Ansicht scrol
 # [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
 Wir koennen genomische Analysen ebenfalls verwenden, um das Datum festzustellen, an dem der Ausbruch begonnen hat. Das ist sogar moeglich, wenn das war, bevor wir bemerkt haben, dass der Ausbruch passierte.
-Weil wir Daten die Daten der Proben und der internen Verzweigungspunkte des Baumes bestimmen koennen, koennen wird diese nutzen, um das Datum der 'Wurzel' des Baumes abzuleiten. Diese repraesentiert den 'letzten gemeinsamen Vorfahren' von allen SARS-CoV-2 Sequenzen, die wir bisher haben. Zum Beispiel sind Ihre Grosseltern die 'letzten gemeinsamen Vorfahren' von Ihnen selbst und aller Ihrer Cousinen und Cousins.
+Weil wir die Daten der Proben und der internen Verzweigungspunkte des Baumes bestimmen koennen, koennen wird diese nutzen, um das Datum der 'Wurzel' des Baumes abzuleiten. Diese repraesentiert den 'letzten gemeinsamen Vorfahren' von allen SARS-CoV-2 Sequenzen, die wir bisher haben. Zum Beispiel sind Ihre Grosseltern die 'letzten gemeinsamen Vorfahren' von Ihnen selbst und aller Ihrer Cousinen und Cousins.
 <br><br>
 Wenn Sie den Mauszeiger ueber die vertikale Linie ganz links bewegen, sehen Sie, dass das abgeleitete Datum des Beginns dieses vorliegenden Ausbruches zwischen Mitte November und Mitte Dezember 2019 liegt.
 
@@ -183,7 +183,7 @@ Wenn Sie auf ['Explore the data'](https://nextstrain.org/ncov) klicken, koennen 
 <!-- This is left-side text -->
 # [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/ncov/2020-03-11)
 In einem frueheren Abschnitt haben wir erklaert, wie die internen Verweigungspunkte _hypothetische_ unbeprobte Faelle repraesentieren. In der Tat repraesentieren alle Baueme _Hypothesen_, wie ein Pathogen sich entwickelt und ueber einen Zeitrahmen bewegt hat. Die Baueme auf nextstrain sind 'point estimates', d.h. die Versionen dieser Entwicklungsgeschichte, die die Wahrscheinlichkeit die Daten zu sehen, wie wir sie tataechlich sehen, maximieren.
-<!-- Not sure about the translation of the last sentence here: The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do. -->
+<!-- Not sure about the translation of the last sentence here -->
 <br><br>
 Nichtsdestotrotz gibt es immer Unsicherheiten in diesen Abschaetzungen. Generell sind Teile des Baumes, die dicht beprobt sind, sicherer; Teile des Baumes, die duenn beprobt sind, sind weniger sicher.
 
@@ -203,9 +203,7 @@ Nichtsdestotrotz gibt es immer Unsicherheiten in diesen Abschaetzungen. Generell
 
 
 Wir möchten uns für die beeindruckende, schnelle und transparente Arbeit aller an diesem Ausbruch beteiligten Wissenschaftler, insbesondere aber jener in China tätigen, bedanken. Nur durch den raschen Austausch von genomischen Daten und Metadaten sind solche Analysen möglich.
-
 <br><br>
-
 Wir möchten uns auch bei GISAID bedanken, dass eine Plattform bereitstellt, um diese Daten heraufzuladen und zu teilen.
 
 <!-- Do not need to translate insitutions names -->
