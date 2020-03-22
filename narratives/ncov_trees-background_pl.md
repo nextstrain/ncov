@@ -282,7 +282,7 @@ If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an 
 
 <!-- This is left-side text -->
 # [Lektura zaawansowana: miary niepewności drzewa](https://nextstrain.org/ncov/2020-03-11)
-Wcześniej pisalismy jak wewnętrzne węzły przedstawiają _hipotetyczne_ nieprobkowane przypadki. W rzeczywistości, wszystkie drzewa są _hipotezami_ opisującymi jak patogen ewoluuje i przemieszcza się w czasie. Drzewa, które prezentujemy na Nextstrain są oszacowaniami punktowymi<!-- point estimates? --> -- tzn. wersjami historii, dla których prawdopodobieństwo obserwowania danych jakie mamy, jest największe. <!-- nie jestem pewna czy 'zmaksymalizowane' nie jest zbyt techniczne-->
+Wcześniej pisalismy jak wewnętrzne węzły przedstawiają _hipotetyczne_ niepróbkowane przypadki. W rzeczywistości, wszystkie drzewa są _hipotezami_ opisującymi jak patogen ewoluuje i przemieszcza się w czasie. Drzewa, które prezentujemy na Nextstrain są oszacowaniami punktowymi<!-- point estimates? --> -- tzn. wersjami historii, dla których prawdopodobieństwo obserwowania danych jakie mamy, jest największe. <!-- nie jestem pewna czy 'zmaksymalizowane' nie jest zbyt techniczne-->
 <br><br>
 Niemniej jednak, takie oszacowania zawsze obarczone są niepewnością. Mówiąc ogólnie, części drzewa, które są gęściej próbkowane, są też bardziej wiarygodne; obszary słabo próbkowane są mniej pewne.
 
