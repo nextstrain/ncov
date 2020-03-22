@@ -107,13 +107,13 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 در حالی که این داده‌ها به ما این امکان را می‌دهد که بسیاری از خصوصیات مهم این شیوع را استنباط کرده و موقعیت زمانی و مکانی آن را ردیابی کنیم، تأکید می‌شود که نتیجه‌گیری‌های ما محدود به داده‌های موجود است
 <br>
 به عنوان مثال، در نقشه‌ی روی این سایت نمونه‌های توالی ژنتیکی بسیار کمی از کشورهای با درآمد متوسط و کم وجود دارد. این دلیل آن نیست که  کووید-۱۹ در این مناطق پخش نمی‌شود، یا این موارد برای درک ما از شیوع ویروس چندان مهم نیستند، بلکه نشان می‌دهد ما اطلاعات زیادی از این مناطق نداریم. اندازه‌ی هر دایره روی نقشه نشان می‌دهد که چه مقدار داده در حال حاضر از آن منطقه در دسترس است و به معنای گستره‌ی همه‌گیری نیست
+<br>
+از میان همه موارد، فقط زیرمجموعه‌ای از بیماران  تست شده‌اند. و از میان این تست‌ها، فقط برای زیر مجموعه محدودی نمونه توالی ژنتیکی استخراج شده‌است، که این زیرمجموعه‌ها در زمان‌ها و مناطق جغرافیایی مختلف، بسیار با هم متفاوت هستند. 
+همچنین بازسازی فیلوژنتیک همه گیری‌ها همیشه با درجه‌ای عدم قطعیت همراه است. 
+<br>
+حالا به چند مثال نگاه می‌کنیم.
 </p>
 
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
-<br><br>
-Let's look at a few examples.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
