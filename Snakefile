@@ -86,7 +86,7 @@ rule align:
           - gaps relative to reference are considered real
         """
     input:
-        sequences = rules.filter.output.sequences,
+        sequences = "results/filtered.fasta",
         reference = files.reference
     output:
         alignment = "results/aligned.fasta"
@@ -188,7 +188,7 @@ rule ancestral:
           - not inferring ambiguous mutations
         """
     input:
-        tree = rules.refine.output.tree,
+        tree = "results/tree.nwk",
         alignment = rules.mask.output
     output:
         node_data = "results/nt_muts.json"
@@ -207,7 +207,7 @@ rule ancestral:
 rule translate:
     message: "Translating amino acid sequences"
     input:
-        tree = rules.refine.output.tree,
+        tree = "results/tree.nwk",
         node_data = rules.ancestral.output.node_data,
         reference = files.reference
     output:
@@ -228,7 +228,7 @@ rule traits:
           - increase uncertainty of reconstruction by {params.sampling_bias_correction} to partially account for sampling bias
         """
     input:
-        tree = rules.refine.output.tree,
+        tree = "results/tree.nwk",
         metadata = rules.download.output.metadata,
         weights = files.weights
     output:
@@ -251,7 +251,7 @@ rule traits:
 rule clades:
     message: "Adding internal clade labels"
     input:
-        tree = rules.refine.output.tree,
+        tree = "results/tree.nwk",
         aa_muts = rules.translate.output.node_data,
         nuc_muts = rules.ancestral.output.node_data,
         clades = files.clades
