@@ -23,7 +23,7 @@ translators:
   - Derek 张卷卷
   - 李雪莹
 translatorLinks:
-  - 
+  -
   - https://twitter.com/3Xueying
 date: "2020 March 19"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
@@ -37,16 +37,16 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text 1 -->
 # [目录](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [背景资料](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=2).     
-* [关于抽样](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=3).
-* [测序数据和旅行史](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=6).
-* [COVID-19已经输入到几乎所有国家](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=8).
-* [疫情是如何加剧和传播的](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=9).
-* [华盛顿的疫情是如何发展起来的](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=10).
-* [华盛顿的疫情是如何蔓延的](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=11).
-* [减少社交接触可以对病例数量产生什么影响](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=12).
-* [你能做些什么](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=13).
-* [科学贡献人员](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-20?n=14).
+* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=2).     
+* [关于抽样](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=3).
+* [测序数据和旅行史](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=6).
+* [COVID-19已经输入到几乎所有国家](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=8).
+* [疫情是如何加剧和传播的](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=9).
+* [华盛顿的疫情是如何发展起来的](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=10).
+* [华盛顿的疫情是如何蔓延的](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=11).
+* [减少社交接触可以对病例数量产生什么影响](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=12).
+* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=13).
+* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -171,7 +171,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <br><br>
 但是，请记住疫情已经酝酿了一段时间。病毒并不一定是被更频繁地输入至新的地方，更可能的情况是，许多地方现在发现的本地疫情其实是好几周前输入的。
 <br><br>
-还没有发现本地疫情的地区应该现在就做好准备，开始检测，监控疫情。 
+还没有发现本地疫情的地区应该现在就做好准备，开始检测，监控疫情。
 
 <!-- This is the right-side text -->
 
@@ -256,7 +256,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <br>
 - 通过减少社交接触来控制本地疫情对以下方面至关重要:  
   - #平缓疫情曲线（#FlattenTheCurve）：防止医疗系统被许多同时发生的病例压垮  
-  - 减少病例总数和死亡数 
+  - 减少病例总数和死亡数
   - 为治疗手段和疫苗的研发争取时间  
 
 <!-- This is the right-side text -->
@@ -268,7 +268,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 * 请记住，即使你不属于高风险人群，你周围的许多人也可能属于高危人群；遵循以上做法可以保护他人。
 * 仔细洗手，要像“刚切完辣椒但是要换隐形眼镜”时一样洗手。
 * 尽可能地待在家里，尤其是生病时；准备一些额外的补给，以备自我隔离。
-* 如果你是雇主，请尽可能地鼓励员工在家办公。 
+* 如果你是雇主，请尽可能地鼓励员工在家办公。
 
 ## ...政府可以采取的行动  
 * 推广覆盖大部分人群的免费检测。  
