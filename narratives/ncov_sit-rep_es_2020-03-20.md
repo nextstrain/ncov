@@ -20,7 +20,13 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - Roy Costilla
+  - Miguel I. Paredes
+  - Julián Villabona-Arenas
 translatorLinks:
+  - https://researchers.uq.edu.au/researcher/18392
+  - https://twitter.com/miguelp1120
+  - https://www.lshtm.ac.uk/aboutus/people/villabona-arenas.julian
 date: "2020 March 19"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento de la propagación del COVID-19. Los reportes son actualizados semanalmente."
@@ -50,7 +56,7 @@ abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento d
 # Resumen Ejecutivo
 Este informe analiza 723 genomas públicos del COVID-19. La comparación de estos genomas virales nos permite caracterizar como el COVID-19 evoluciona y va mutando en las diferentes regiones del mundo.
 
-En este reporte, subrayamos que el virus ha sido introducido y circula en muchas partes del mundo. 
+En este reporte, subrayamos que el virus ha sido introducido y circula en muchas partes del mundo.
 Para saber el grado de circulación local del COVID-19 así como las medidas de mitigación que pueden reducir su velocidad de transmisión se necesita conocer la dinámicas locales del brote epidémico. Esto ultimo solo puede lograrse a través de la aplicación en masa de pruebas de diagnostico.
 
 En resumen, es fundamental tener pruebas de diagnostico rápido enfocadas en disminuir la transmisión local.
@@ -99,7 +105,7 @@ El presente reporte documenta la información de muestras tomadas en 36 países 
 <br><br>
 A pesar que estos datos nos permiten hacer importantes inferencias acerca del brote del virus y monitorear su propagación en tiempo real, debemos enfatizar que estas conclusiones son limitadas en su representatividad a nivel mundial.
 
-Del número total de casos de COVID-19, solo una parte son diagnosticados. De los casos diagnosticados, solo una parte tienen su genoma secuenciado. 
+Del número total de casos de COVID-19, solo una parte son diagnosticados. De los casos diagnosticados, solo una parte tienen su genoma secuenciado.
 Las muestras de casos que son diagnosticados y secuenciados varían mucho entre diferentes regiones geográficas y también en el tiempo. Adicionalmente, los arboles filogenéticos de brote epidémicos tienen incertidumbre estadística intrínseca.
 <br><br>
 Veamos algunos ejemplos.
@@ -117,7 +123,7 @@ El mapa muestra muy pocas secuencias del hemisferio Sur. Por ejemplo, solo se ti
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
 # [Otras regiones estan sobrerepresentadas en los datos actuales](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-En otras áreas, como los Países Bajos, hay una gran cantidad relativa de secuencias genómicas disponibles con respecto al numero total de casos. 
+En otras áreas, como los Países Bajos, hay una gran cantidad relativa de secuencias genómicas disponibles con respecto al numero total de casos.
 <br><br>
 Por lo tanto, al leer este documento se debe tener en cuenta que el tamaño de los círculos en el mapa es solo proporcional a la cantidad de información disponible y no representa la magnitud del brote en cada región. Mas información sobre el efecto de esto en las inferencias estadísticas pueden encontrarse [aquí](https://nextstrain.org/narratives/trees-background?n=8).
 <br><br>
@@ -174,16 +180,15 @@ Es mas mucho probable que los países se hayan hecho conscientes de brotes local
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
+# ¿Cómo las introducciones se convierten en brotes?
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+A veces, las introducciones del virus no resultan en casos secundarios o en brotes locales, especialmente si el caso índice (el primer caso) es rápidamente detectado y aislado. Sin embargo, el virus muchas veces se puede propagar en la comunidad local sin detección hasta que el brote llegua a un tamaño notable.
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
+Abajo pueden ver una situación teórica que explica cómo sucedió el brote en Wuhan. El eje “y” representa el espacio geográfico; el eje “x” representa el tiempo transcurrido. El área sombreada representa el número de casos.
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+“COVID-19 en Wuhan se propagó desde un caso índice en noviembre del 2019 a miles de casos en mediados de enero, propagándose desde una introducción principal a un brote con transmisión local masiva en solo 10 semanas. Dado que creemos que las introducciones internacionales del virus empezaron en mediados de enero, tenemos aproximadamente 10 semanas desde entonces hasta finales de marzo para controlar los brotes individuales antes que se vuelvan masivos.” [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
-These new outbreaks may, in turn, seed further introductions to other locations.
+Los brotes nuevos, a su vez, pueden ser fuentes del virus para introducciones adicionales en otros lugares del mundo.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -192,12 +197,11 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Cómo crecen los brotes: un ejemplo](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Se puede apreciar un ejemplo claro de la propagación del virus en los datos que provienen desde el estado de Washington. Enfocándonos en la raíz del grupo principal en el árbol filogénetico, podemos concluir que el virus probablemente fue introducido a esta área entre finales de enero y mediados de febrero del 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+Ahora, a mediados de marzo (~6 semanas después), podemos apreciar que el brote local en el estado de Washington está creciendo rápidamente. Usando solamente los datos de la secuenciación genómica, podemos apreciar que la tasa de duplicación del virus (lo rápido que los casos del virus se duplican) se encuentra entre 3 a 6 días, asumiendo una población con crecimiento exponencial.  
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -207,38 +211,34 @@ Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swin
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [Cómo crecen los brotes: un ejemplo](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
+También podemos apreciar un ejemplo adicional de cómo brotes que originalmente eran locales pueden servir como fuentes del virus para introducirlo en otros lugares. Las muestras aisladas de casos en el estado de Utah se encuentran en la parte superior del árbol filogénetico (en color naranja) encajadas en el grupo principal del brote de Washington. Con estos datos podemos inferir que hubo una introducción del virus desde Washington hacia Utah, tomando en cuenta que pasos intermediarios en la cadena de transmisión también son posibles.
 <br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
+No sabemos si esta introducción resultará en un brote local en Utah, pero si el virus se continúa propagando después de estas introducciones, esperamos apreciar el desarrollo del brote a través de las próximas 4 semanas.
 <br><br>
-This is just one example.
-There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
-Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+Lo que presentamos es solamente un ejemplo. Es posible que hayan ocurrido otras introducciones del virus a Utah (o a otros lugares) que no aparecen en el árbol filogénetico si el virus de esos casos principales no fue secuenciado. Es altamente importante que las áreas donde los brotes locales no son todavía aparentes empiecen preparaciones y pruebas diagnósticas de vigilancia de salud pública.   
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [Medidas de mitigación toman tiempo, pero salvan vidas](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
+Siguiendo la misma lógica anteriormente discutida, deducimos que probablemente existen muchas más cadenas de transmisión local del virus que aún no conocemos.
 <br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
+Esta conclusión significa que hasta en áreas que recientemente empezaron medidas de distanciación social, todavía esperamos que el número de casos aumente a través de las próximas semanas.
+
+El aumento en el número de casos NO indica que estas medidas no están funcionando. Toma tiempo para que las personas que ya están infectadas (y posiblemente también los miembros de su hogar) muestren síntomas, reciban tratamiento, y se recuperen. También esperamos ver un aumento en el número de casos a medida que más pruebas diagnósticas se vuelvan más disponibles
 <br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
+Es vital mantener la distancia social durante ese tiempo. Como pueden apreciar a la derecha, el número de casos sigue aumentando justamente después de la implementación de la intervención, pero, a través del tiempo, el número total de casos disminuye considerablemente.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## La distanciación social no previene todos los casos nuevos inmediatamente, pero a través del tiempo disminuye altamente el número total de casos y las muertes.
+Distanciación social – es decir, disminuir el número de personas con cual te encuentras cada día – puede ser difícil, pero es increíblemente beneficioso para el público.  
+ Si cada persona disminuye su número de contactos diarios por un 25%, esperamos apreciar una reducción del 50% en el número de casos acumulados en el próximo mes ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -247,32 +247,33 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [Hallazgos Principales](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- El virus ha sido introducido a varias partes del mundo múltiples veces.  
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- Podemos apreciar evidencia de transmisión local en muchos logares; más, esperamos que muchas introducciones previas del virus se desarrollen en brotes locales en las próximas semanas.  
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- Controlando brotes locales a través de la distanciación social es vital para:
+  - Reducir el sobrecargo de los sistemas de saludo (la campaña #FlattenTheCurve en ingles)  
+  - Disminuir el número total de casos y las muertes
+  - Abonar tiempo para el desarrollo de tratamientos terapéuticos y vacunas.  
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# Pasos que pueden tomar los
+## ...individuos
+* Reducir el número de personas con cual tienes contacto diariamente, especialmente si eres parte de un grupo de gente vulnerable al virus (por ejemplo: gente mayor y gente con condiciones médicas pre-existentes).
+* Recuerde que, aunque usted no sea particularmente vulnerable al virus, hay muchas personas que sí lo son; debe seguir estas prácticas para proteger a otros.
+* Lávese las manos “como si acabas de picar un jalapeño y tienes que cambiar tus lentes de contacto”.  
+* Quédese en casa lo más posible, especialmente si está enfermo; prepárese con provisiones adicionales por si tiene que estar en auto-cuarentena.  
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+
+## ...oficiales gubernamentales    
+* Ofrecer pruebas diagnósticas gratuitas y fácilmente disponibles.  
+* Establecer políticas de distanciación social.  
+* Financiar e implementar seguimiento de contactos
+* Apoyar financieramente a las personas y los establecimientos impactados por las políticas de distanciación social (entre ellos: trabajadores que les pagan por hora, personas responsables por gente mayor o niños pequeños, empresas pequeñas, etc.).
+
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -282,18 +283,18 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- This is left-side text 14-->
 # [Creditos Científicos](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Nos gustaría reconocer el increíble y oportuno trabajo realizado por todos los científicos involucrados en este brote, pero particularmente aquellos que trabajan en China.
+Solo mediante el intercambio rápido de datos genómicos y metadatos se pueden realizar análisis como estos.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+También agradecemos a [GISAID](https://gisaid.org) por proporcionar la plataforma a través de la cual estos datos se pueden depositar y compartir.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Agradecemos los datos generados por estos laboratorios:
 
 * Arizona Department of Health Services
 * Auckland Hospital
