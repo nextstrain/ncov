@@ -598,9 +598,10 @@ Agradecemos los datos generados por estos laboratorios:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Créditos cientificos detallados](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Créditos científicos detallados](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-Los datos utilizados en este reporte son datos publicos compartidos por cada laboratorio atraves de [GISAID](https://gisaid.org).
+Los datos utilizados en este reporte son datos públicos compartidos por cada laboratorio a través de [GISAID](https://gisaid.org).
+
 Agradecemos cordialmente sus contribuciones.
 <br>
 
