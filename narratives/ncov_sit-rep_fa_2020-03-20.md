@@ -39,17 +39,16 @@ abstract: "این گزارش از داده‌های کووید-۱۹ که در ا
 <!-- This is left-side text 1 -->
 # [فهرست مطالب](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [منابع پیش‌زمینه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2). 
-* [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [داده‌های نمونه توالی ژنتیکی و سوابق سفرها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [ورود کووید-۱۹ به تقریبا تمام کشورها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [همه‌گیری‌ها چگونه رشد می‌کنند و گسترش می‌یابند](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [چگونه همه‌گیری ایالت واشنگتن رشد کرد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [چگونه همه‌گیری ایالت واشنگتن گسترش پیدا کرد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [چگونه تعداد مبتلایان با اقدامات فاصله‌گیری اجتماعی کاهش می‌یابد](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [کارهایی که شما می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [سوالات متداول و تصورات غلط](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [منابع پیش‌زمینه](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=2). 
+* [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=3).
+* [داده‌های نمونه توالی ژنتیکی و سوابق سفرها](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=6).
+* [ورود کووید-۱۹ به تقریبا تمام کشورها](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=8).
+* [همه‌گیری‌ها چگونه رشد می‌کنند و گسترش می‌یابند](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=9).
+* [چگونه همه‌گیری ایالت واشنگتن رشد کرد](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=10).
+* [چگونه همه‌گیری ایالت واشنگتن گسترش پیدا کرد](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=11).
+* [چگونه تعداد مبتلایان با اقدامات فاصله‌گیری اجتماعی کاهش می‌یابد](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=12).
+* [کارهایی که شما می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=13).
+* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=14).
 
 
 <!-- This is right-side text -->
@@ -93,7 +92,7 @@ abstract: "این گزارش از داده‌های کووید-۱۹ که در ا
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> همه‌گیری اخیر کووید-۱۹ </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> چگونه تبارزایش (فیلوژنتیک) را بخوانید</a>
+  <a href="https://nextstrain.org/narratives/trees-background/fa"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> چگونه تبارزایش (فیلوژنتیک) را بخوانید</a>
 </div>
 
 ## مطالعات بیشتر
@@ -144,7 +143,7 @@ abstract: "این گزارش از داده‌های کووید-۱۹ که در ا
 <br><br>
 بنابراین، هنگام خواندن این گزارش، به خاطر داشته باشید که اندازه هر دایره روی نقشه نشان می‌دهد که چه مقدار داده در حال حاضر از آن منطقه در  دسترس است تا اینکه بیانگر اندازه واقعی شیوع در آن منطقه باشد.
 می‌توانید
-<a href="https://nextstrain.org/narratives/trees-background?n=8">در اینجا</a>
+<a href="https://nextstrain.org/narratives/trees-background/fa?n=8">در اینجا</a>
 درمورد اینکه چگونه این امر می‌تواند استنتاج انتقال بیماری را تحت تأثیر قرار‌دهد.
 <br><br>
 </p>
