@@ -159,7 +159,7 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [؟كيف ترتبط الخارطة بالشجرة](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [كيف ترتبط الخارطة بالشجرة؟](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 نعرض هنا الشجرة ملونة بموقع كل عينة (والموقع المستنتج لكل عقدة داخلية)
 اذا ضغطت هنا ['استعرض البيانات'](https://nextstrain.org/ncov), يمكنك التلاعب في البيانات المرئية  لكيفية الانتشار المستنتج للفيروس خلال فترة الوباء.
 
