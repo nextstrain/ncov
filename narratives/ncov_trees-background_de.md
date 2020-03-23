@@ -31,16 +31,16 @@ abstract: "Dieses Narrativ erklärt, wie man phylogenetische Bäume lesen und in
 <!-- This is left-side text -->
 # [Inhaltsverzeichniss](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background/de?n=1)?  
-* [Wie interpretiere ich einen Baum](https://nextstrain.org/narratives/trees-background/de?n=2)?  
-* [Was verbindet das "diversity" Panel mit dem phylogenetischen Baum](https://nextstrain.org/narratives/trees-background/de?n=3)?   
-* [Messung von Unterschieden in genetischer Divergenz](https://nextstrain.org/narratives/trees-background/de?n=4).  
-* [Messung von Unterschieden in Zeiteinheiten](https://nextstrain.org/narratives/trees-background/de?n=5).  
-* [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/narratives/trees-background/de?n=6).  
-* [Wie soll ich die Farben in einem Baum interpretieren](https://nextstrain.org/narratives/trees-background/de?n=7)?  
-* [Wie haengen die Karte und der phylogenetische Baum zusammen](https://nextstrain.org/narratives/trees-background/de?n=8)?  
-* [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background/de?n=9).  
-* [Über den Datensatz](https://nextstrain.org/narratives/trees-background/de?n=10).  
+* [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background/de?n=2)?  
+* [Wie interpretiere ich einen Baum](https://nextstrain.org/narratives/trees-background/de?n=3)?  
+* [Was verbindet das "diversity" Panel mit dem phylogenetischen Baum](https://nextstrain.org/narratives/trees-background/de?n=4)?   
+* [Messung von Unterschieden in genetischer Divergenz](https://nextstrain.org/narratives/trees-background/de?n=5).  
+* [Messung von Unterschieden in Zeiteinheiten](https://nextstrain.org/narratives/trees-background/de?n=6).  
+* [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/narratives/trees-background/de?n=7).  
+* [Wie soll ich die Farben in einem Baum interpretieren](https://nextstrain.org/narratives/trees-background/de?n=8)?  
+* [Wie haengen die Karte und der phylogenetische Baum zusammen](https://nextstrain.org/narratives/trees-background/de?n=9)?  
+* [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background/de?n=10).  
+* [Über den Datensatz](https://nextstrain.org/narratives/trees-background/de?n=11).  
 
 <!-- No right-side text -->
 
