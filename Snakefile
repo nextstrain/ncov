@@ -240,6 +240,22 @@ rule ancestral:
             --infer-ambiguous
         """
 
+rule haplotype_status:
+    message: "Annotating haplotype status relative to {params.reference_node_name}"
+    input:
+        nt_muts = rules.ancestral.output.node_data
+    output:
+        node_data = "results/haplotype_status.json"
+    params:
+        reference_node_name = "USA/WA1/2020"
+    shell:
+        """
+        python3 scripts/annotate-haplotype-status.py \
+            --ancestral-sequences {input.nt_muts} \
+            --reference-node-name {params.reference_node_name:q} \
+            --output {output.node_data}
+        """
+
 rule translate:
     message: "Translating amino acid sequences"
     input:
@@ -336,6 +352,7 @@ rule export:
         metadata = rules.download.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
+        haplotype_status = rules.haplotype_status.output.node_data,
         aa_muts = rules.translate.output.node_data,
         traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config,
@@ -351,7 +368,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.haplotype_status} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \

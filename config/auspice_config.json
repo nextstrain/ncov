@@ -70,6 +70,11 @@
       "key": "division_exposure",
       "title": "Exposure History",
       "type": "categorical"
+    },
+    {
+      "key": "haplotype_status",
+      "title": "Haplotype Status",
+      "type": "categorical"
     }
   ],
   "geo_resolutions": [
