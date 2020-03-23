@@ -148,28 +148,28 @@ Z pewnością jest prawdopodobne, że ta osoba została zainfekowana przez inny,
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [Wirus został introdukowany do niemal każdego kraju na świecie](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+Tutaj możemy zobaczyć wiele przypadków przenikania się próbek pochodzących z różnych krajów.
+Ozbacza to, że nieuniknione przemieszczanie się ludzi wprowadziło wirusa w wiele części świata.
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
+Rzeczywiście, [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) istnienie potwierdzonych przypadków w 159 ze 195 krajów świata.
 <br><br>
-However, not all introductions result in outbreaks.
+Ale nie wszystkie introdukcje wirusa zaowocowały wybuchem epidemii.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [Epidemie stają się widoczne po około 4-8 tygodniach po introdukcji](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
+Może się wydawać, że COVID-19 eksplodował znienacka.
+Dla wielu ludzi wybuch epidemii pozornie z dnia na dzień uległ zmianie z abstrakcyjnej troski o innych ludzi, znajdujących się w innych częściach świata, w coś, co poważnie wpływa na ich dzienne życie. 
 <br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
+Należy jednak pamiętać, że ta sytuacja rozwija się już przez jakiś czas. To niekoniecznie oznacza, że wirus jest coraz częściej introdukowany w nowe miejsca. 
+Bardziej prawdopodobne jest, że wiele miejsce zaczyna być świadomych zlokalizowanych ognisk, które zostały zapoczątkowane kilka tygodni temu.
 <br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+Obszary, które nie są jeszcze świadome występowania w regionie lokalnych ognisk, powinny się przygotować i rozpocząć obserwację.
 
 <!-- This is the right-side text -->
 
