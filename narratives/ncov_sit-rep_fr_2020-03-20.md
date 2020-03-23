@@ -188,7 +188,7 @@ Souvent, cependant, le virus se propage sans être détecté dans la population 
 
 Vous trouverez ci-dessous une réflexion montrant comment cela s'est déroulé à Wuhan. Sur l'axe y, nous avons l'espace; sur l'axe des x, nous avons le temps. La zone ombrée représente le nombre de cas.
 
-"Le COVID-19 à Wuhan est passé d'un cas index en ~ novembre 2019 à plusieurs milliers de cas à la mi-janvier 2020, passant ainsi de l'introduction initiale à une transmission locale généralisée en environ 10 semaines. Nous pensons que les événements d'introduction internationaux ont commencé à se produire à la mi-janvier. Nous avons donc un délai critique de ~ 10 semaines à partir de la fin de mars pour contenir ces épidémies naissantes avant qu'elles ne deviennent importantes." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"Le COVID-19 à Wuhan est passé d'un cas index en ~ novembre 2019 à plusieurs milliers de cas à la mi-janvier 2020, passant ainsi de l'introduction initiale à une transmission locale généralisée en environ 10 semaines. Nous pensons que les événements d'introduction internationaux ont commencé à se produire à la mi-janvier. Nous avons donc un délai critique de ~ 10 semaines de ce moment là jusqu'à la fin mars pour contenir ces épidémies naissantes avant qu'elles ne deviennent importantes." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
 Ces nouvelles épidémies peuvent, à leur tour, semer de nouvelles introductions dans d'autres endroits.
 
