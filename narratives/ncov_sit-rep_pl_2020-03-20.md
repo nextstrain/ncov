@@ -19,8 +19,11 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators:
+translators: 
+  - Piotr Balwierz
+  - Marta Niedzicka
 translatorLinks:
+  - https://www.researchgate.net/profile/Marta_Niedzicka
 date: "2020 March 19"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
@@ -36,11 +39,11 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
 * [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
 * [Sekwencje i rozprzestrzenianie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introdukcja COVID-19 do niemal wszystkich krajów](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [Introdukcja COVID-19 do niemal wszystkich krajów świata](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
 * [Wzrost i szerzenie się ognisk epidemii](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
 * [Jak rosło ognisko w Waszyngtonie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
 * [Jak szerzyło się ognisko w Waszyngtonie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [Jak dystansowanie społeczne wpływa na liczbę chorych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [Jak izolacja społeczna wpływa na liczbę chorych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
 * [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
 * [Często zadawane pytania oraz przesądy](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
 * [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
@@ -148,7 +151,7 @@ Z pewnością jest prawdopodobne, że ta osoba została zainfekowana przez inny,
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [Wirus został introdukowany do niemal każdego kraju na świecie](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [Introdukcja COVID-19 do niemal wszystkich krajów świata](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
 Tutaj możemy zobaczyć wiele przypadków przemieszania się próbek pochodzących z różnych krajów.
 Ozbacza to, że nieuniknione przemieszczanie się ludzi wprowadziło wirusa w wiele części świata.
@@ -224,21 +227,20 @@ Obszary, w których nie jesteśmy jeszcze świadomi występowania w regionie lok
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [Środki łagodzące wymagają czasu, ale ratują życie](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
+Zgodnie z tą samą logiką, jest prawdopodobnie wiele lokalnych łańcuchów rozprzestrzeniania się, o których jeszcze nie wiemy.
 <br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
+To oznacza, że nawet dla obszarów które wprowadziły środki izolacji społecznej, spodziewamy się, że liczba przypadków będzie wzrastała przez następne kilka tygodni.
+Ten wzrost nie wskazuje na to, że środki zapobiegawcze nie działają. Pojawienie się objawów u osób już zainfekowanych (oraz prawdopodobnie członków ich gospodarstwa domowego), ich leczenie i wyzdrowienie, zabiera czas. Spodziewamy się także zobaczyć wzrost liczby zgłoszonych przypadków, gdy testy staną się szerzej dostępne.
 <br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
-
+Kluczowe jest, aby izolacja społeczna została utrzymana w tym czasie. Jak pokazane po prawej, liczba przypadków wciąż rośnie po zainterweniowaniu, ale z biegiem czasu skumulowana liczba przypadków znacząco się zmniejsza.
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## Izolacja społeczna nie zatrzyma wszystkich nowych przypadków zachorowań w ciągu nocy, ale zdecydowanie zmniejsza liczbę przypadków i ofiar śmiertelnych z biegiem czasu. 
+Izolacja społeczna -- czyli zmniejszenie liczby kontaktów z ludźmi, z którymi zwykle spotykamy się każdego dnia -- może być wymagające, ale jest wyjątkowo korzystna dla dobra publicznego.
+Jeśli każdy zmniejszy swoje codzienne kontakty o 25%, możemy spodziewać się 50% spadku skumulowanej liczby przypadków w ciągu następnego miesiąca ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -247,32 +249,32 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [Wnioski](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- Wirus został sprowadzony wielokrotnie w wiele rejonów na Ziemi.   
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- Widzimy dowody na lokalne przekazywanie patogenu w wielu regionach; poza tym spodziewamy się, że wcześniejsze introdukcje już zapoczątkowały lokalne ogniska choroby, które zaczną być widoczne w nadchodzących tygodniach.  
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- Kontrolowanie lokalnych ognisk przez społeczną izolację jest kluczowe aby:  
+  - "#FlattenTheCurve" (spłaszczyć krzywą), aby zapobiec przeciążeniu systemu zdrowotnego przez jednoczesne nagromadzenie przypadków 
+  - Zmniejszyć  całkowitą liczbę zachorowań i ofiar śmiertelnych 
+  - Pozwolić na rozwój leków i szczepionek 
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# Co ty możesz zrobić
+## ...jako jednostka
+* Ogranicz liczbę osób, z którymi się spotykasz każdego dnia, zwłaszcza jeśli jesteś w grupie podwyższonego ryzyka (np. seniorzy i osoby z osłabioną odpornością).
+* Pamiętaj, że nawet jeśli nie jesteś szczególnie narażona/y, wiele osób wokół ciebie jest; postępuj zgodnie z tymi praktykami, aby chronić innych.
+* Myj ręcę "jakbyś właśnie pokroił papryczkę jalapeno i musiał zmienić soczewkę kontaktową".  
+* Pozostań w domu jeśli jesteś chora/y; przygotuj trochę zapasów w razie potrzeby przebycia kwarantanny. 
+* Jeśli jesteś pracodawcą, zachęć swoich pracowników, aby zostali w domu jeśli źle się czują (i wspomóż ich finansowo w tym czasie).
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
+## ...jako urzędnik
+* Spraw, aby testy na obecność wirusa były darmowe i szeroko dostępne.  
+* Wprowadź regulacje ograniczające bezpośrednie kontakty.  
 * Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+* Wspomóź finansowo tych, którzy najbardziej ucierpią w wyniku dystansowania społecznego (np. pracowników godzinowych, odpowiedzialnych za dzieci i osoby starsze, małe przedsiębiorstwa itd.).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -280,20 +282,19 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Podziękowania](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Wyrażamy podziękowania dla wszystkich naukowców zaangażowanych w ten wybuch pandemii za wspaniałą i śpieszną pracę. W szczególności dziękujemy tym, którzy pracują w Chinach. Analizy takie jak ta nie byłyby możliwe gdyby nie natychmiastowe publikowanie zsekwencjonowanych genomów oraz metadanych z nimi związanych.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Ponadto szczególnie dziękujemy [GISAID](https://gisaid.org) za udostępnienie platformy do wymiany tego typu danych.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Jesteśmy wdzięczni za dane zebrane w tych ośrodkach badawczych:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -597,19 +598,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Szczegółowe podziękowania](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Te dane były udostępniane poprzez platformę [GISAID](https://gisaid.org).
+Szczególnie dziękujemy za wkład ich drużyny.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+Po prawej stronje znajduje się szczegółowy spis sekwencji opublikowanych przez poszczególne instytucje badawcze.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+Genomy wirusa SARS-CoV-2 zostały udostępnione przez naukowców pracujących w niżej wymienionych instytucjach badawczych:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
