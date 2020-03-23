@@ -72,6 +72,7 @@ USA/WA11-UW7/2020
 Wuhan/IVDC-HB-envF13/2020
 USA/WA-UW48/2020
 USA/WA-UW45/2020
+France/HF1805/2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
