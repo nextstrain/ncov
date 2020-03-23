@@ -129,7 +129,7 @@ Dlatego czytając niniejszy raport, pamiętaj, że powierzchnia każdego koła n
 
 Identyfikacja miejsca, gdzie dana osoba została zainfekowana jest ważna do zrozumienia w jakich obszarach mamy do czynienia z lokalnym przenoszeniem wirusa, a w jakich z przypadkami związanymi głównie z podróżami. Próbki sekwencji mogą nam pomóc w rozróżnieniu tych scenariuszy.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+To drzewo zostało oznaczone kolorystycznie w zależności od histori podróży danego przypadku (o ile jest znana). Jeśli spojrzymy na sekwnecję z Kanady (oznaczoną Canada/BC_78548/2020), znajdującą się pośrodku drzewa, możemy zobaczyć, że zgłoszono historię podróży do Europy. Ta infekcja grupuje się z innymi europejskimi sekwencjami, wskazując, że ten konkretny przypadek jest najprawdopodobniej infekcją związaną z podróżą.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
