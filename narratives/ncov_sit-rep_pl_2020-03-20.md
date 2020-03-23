@@ -127,7 +127,7 @@ Dlatego czytając niniejszy raport, pamiętaj, że powierzchnia każdego koła n
 <!-- This is left-side text 6 -->
 # [Dane z sekwencjowania mogą być porównane z historiami podróży](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identyfikacja miejsca, gdzie dana osoba została zainfekowana jest ważna do zrozumienia w jakich obszarach mamy do czynienia z lokalnym przenoszeniem wirusa, a w jakich z przypadkami związanymi głównie z podróżami. Próbki sekwencji mogą nam pomóc w rozróżnieniu tych scenariuszy.
+Identyfikacja miejsca, gdzie dana osoba została zainfekowana jest ważna do zrozumienia w jakich obszarach mamy do czynienia z lokalnym ogniskiem -- lokalnym przenoszeniem wirusa, a w jakich z przypadkami związanymi głównie z podróżami. Próbki sekwencji mogą nam pomóc w rozróżnieniu tych scenariuszy.
 <br><br>
 To drzewo zostało oznaczone kolorystycznie w zależności od histori podróży danego przypadku (o ile jest znana). Jeśli spojrzymy na sekwnecję z Kanady (oznaczoną Canada/BC_78548/2020), znajdującą się pośrodku drzewa, możemy zobaczyć, że zgłoszono historię podróży do Europy. Ta infekcja grupuje się z innymi europejskimi sekwencjami, wskazując, że ten konkretny przypadek jest najprawdopodobniej infekcją związaną z podróżą.
 
@@ -141,7 +141,7 @@ Możemy zobaczyć, że niemal wszystkie przypadki u których zgłoszono niedawn�
 <br><br>
 W szczycie drzewa widzimy też przypadek kanadyjski, również z historią podróży do Iranu. Ta sekwencja nie grupuje sie jednak z pozostałymi przypadkami powiązanymi z podróżami do Iranu.
 <br><br>
-Z pewnością jest prawdopodobne, że ta osoba została zainfekowana przez inny, drugi łańcuch transmisji, mający miejsce w Iranie. Póki nie mamy więcej danych, nie możemy potwierdzić, że ta infekcja została nabyta w trakcie podróży.
+Z pewnością jest prawdopodobne, że ta osoba została zainfekowana przez inny, drugi łańcuch transmisji, mający miejsce w Iranie. Ale póki nie mamy więcej danych, nie możemy potwierdzić, że ta infekcja została nabyta w trakcie podróży.
 
 <!-- There is no right side text -->
 
@@ -150,7 +150,7 @@ Z pewnością jest prawdopodobne, że ta osoba została zainfekowana przez inny,
 <!-- This is left-side text 8 -->
 # [Wirus został introdukowany do niemal każdego kraju na świecie](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-Tutaj możemy zobaczyć wiele przypadków przenikania się próbek pochodzących z różnych krajów.
+Tutaj możemy zobaczyć wiele przypadków przemieszania się próbek pochodzących z różnych krajów.
 Ozbacza to, że nieuniknione przemieszczanie się ludzi wprowadziło wirusa w wiele części świata.
 <br><br>
 Rzeczywiście, [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) istnienie potwierdzonych przypadków w 159 ze 195 krajów świata.
@@ -169,21 +169,21 @@ Dla wielu ludzi wybuch epidemii pozornie z dnia na dzień uległ zmianie z abstr
 Należy jednak pamiętać, że ta sytuacja rozwija się już przez jakiś czas. To niekoniecznie oznacza, że wirus jest coraz częściej introdukowany w nowe miejsca. 
 Bardziej prawdopodobne jest, że wiele miejsce zaczyna być świadomych zlokalizowanych ognisk, które zostały zapoczątkowane kilka tygodni temu.
 <br><br>
-Obszary, które nie są jeszcze świadome występowania w regionie lokalnych ognisk, powinny się przygotować i rozpocząć obserwację.
+Obszary, w których nie jesteśmy jeszcze świadome występowania w regionie lokalnych ognisk, powinny się przygotować i rozpocząć obserwację.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
+# Jak introdukcje wirusa zmieniają się w epidemię?
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+Czasami introdukcje nie powodują kolejnych infekcji czy zlokalizowanych ognisk chorobowych -- szczególnie, jeśli pierwszy przypadek jest wykryty i szybko odizolowany.
+Ale wielokrotnie wirus rozprzestrzenia się, niewykryty, przez lokalną populację, aż ognisko choroby osiągnie znaczny rozmiar. 
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
+Poniżej jest przedstawiony eksperyment myślowy obrazujący, jak sytuacja rozegrała się w Wuhan. Oś Y przedstawia dystans, oś X -- czas. Zakreskowany obszar reprezentuje liczbę przypadków.
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"COVID-19 w Wuhan przeszedł od pierwszego przypadku w listopadzie 2019 do kilku tysięcy przypadków w połowie stycznia 2020, a zatem od początkowego zdarzenia rozsiewającego wirusa do lokalnego, ale rozpowszechnionego ogniska w ciągu około 10 tygodni. Uważamy, że międzynarodowe początkowe wydarzenia rozsiewające wirusa rozpoczęły się w połowie stycznia. A zatem mamy przed sobą krytyczne 10 tygodni od tego momentu do późnego marca, aby powstrzymać te pojawiające się ogniska, zanim staną się znaczne." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
-These new outbreaks may, in turn, seed further introductions to other locations.
+The nowe ogniska epidemii mogą z kolei stać się przyczyną wprowadzania wirusa w nowe obszary.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
