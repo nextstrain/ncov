@@ -44,9 +44,8 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 # مثال
 <div width="50%" margin="auto">
 <p>
-<img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://raw.githubusercontent.com/nextstrain/nextstrain.org/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
+<img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
-<p>
 يظهر الشكل الموضح أعلاه عرض لشجرة انتشار العدوى. حيث أن كل دائرة تمثل حالة (شخص مصاب), والخطوط الافقية تشير الى طول فترة اصاباتهم. الحالات المترابطة تشير الى انتشار العدوى من شخص واحد الى الآخر.
 <br> <br>
 يظهر هنا صورة كاملة لشجرة انتشار العدوى. عمليا، مع ذلك، مجموعة واحدة من الحالات فقط تم جمعها (بالازرق)؛ ولذلك شجرة الانتشار غير معلومة وما هو متوفر فقط تقدير تقريبي عن عدد الحالات.
