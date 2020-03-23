@@ -12,7 +12,9 @@ configfile: "config/Snakefile.yaml"
 rule all:
     input:
         auspice_json = "auspice/ncov.json",
+        tip_frequencies_json = "auspice/ncov_tip-frequencies.json",
         dated_auspice_json = expand("auspice/ncov_{date}.json", date=get_todays_date()),
+        dated_tip_frequencies_json = expand("auspice/ncov_{date}_tip-frequencies.json", date=get_todays_date()),
         auspice_json_gisaid = "auspice/ncov_gisaid.json",
         auspice_json_zh = "auspice/ncov_zh.json"
 
@@ -345,6 +347,24 @@ rule recency:
             --output {output}
         """
 
+rule tip_frequencies:
+    message: "Estimating censored KDE frequencies for tips"
+    input:
+        tree = rules.refine.output.tree,
+        metadata = rules.download.output.metadata
+    output:
+        tip_frequencies_json = "auspice/ncov_tip-frequencies.json"
+    shell:
+        """
+        augur frequencies \
+            --method kde \
+            --metadata {input.metadata} \
+            --tree {input.tree} \
+            --pivot-interval 1 \
+            --censored \
+            --output {output.tip_frequencies_json}
+        """
+
 rule export:
     message: "Exporting data files for for auspice"
     input:
@@ -520,12 +540,15 @@ rule fix_colorings_zh:
 rule dated_json:
     message: "Copying dated Auspice JSON"
     input:
-        auspice_json = rules.fix_colorings.output.auspice_json
+        auspice_json = rules.fix_colorings.output.auspice_json,
+        tip_frequencies_json = rules.tip_frequencies.output.tip_frequencies_json
     output:
-        dated_auspice_json = rules.all.input.dated_auspice_json
+        dated_auspice_json = rules.all.input.dated_auspice_json,
+        dated_tip_frequencies_json = rules.all.input.dated_tip_frequencies_json
     shell:
         """
         cp {input.auspice_json} {output.dated_auspice_json}
+        cp {input.tip_frequencies_json} {output.dated_tip_frequencies_json}
         """
 
 rule poisson_tmrca:
