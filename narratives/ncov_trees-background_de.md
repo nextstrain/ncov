@@ -1,8 +1,24 @@
 ---
 title: Wie phylogenetische Bäume zu interpretieren sind
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford, (Astrid Gall)"
-authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Astrid Gall
+translatorLinks:
+  - https://twitter.com/AstridGAGall
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Dieses Narrativ erklärt, wie man phylogenetische Bäume lesen und interpretieren kann, welche die genetische Epidemiologie informieren. Diese Webseite ist für Desktop Browser optimiert."
@@ -15,16 +31,16 @@ abstract: "Dieses Narrativ erklärt, wie man phylogenetische Bäume lesen und in
 <!-- This is left-side text -->
 # [Inhaltsverzeichniss](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [Wie interpretiere ich einen Baum](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Was verbindet das "diversity" Panel mit dem phylogenetischen Baum](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Messung von Unterschieden in genetischer Divergenz](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Messung von Unterschieden in Zeiteinheiten](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/narratives/trees-background?n=6).  
-* [Wie soll ich die Farben in einem Baum interpretieren](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [Wie haengen die Karte und der phylogenetische Baum zusammen](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=10).  
+* [Was verbindet die Übertragungs-Geschichte mit phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background/de?n=1)?  
+* [Wie interpretiere ich einen Baum](https://nextstrain.org/narratives/trees-background/de?n=2)?  
+* [Was verbindet das "diversity" Panel mit dem phylogenetischen Baum](https://nextstrain.org/narratives/trees-background/de?n=3)?   
+* [Messung von Unterschieden in genetischer Divergenz](https://nextstrain.org/narratives/trees-background/de?n=4).  
+* [Messung von Unterschieden in Zeiteinheiten](https://nextstrain.org/narratives/trees-background/de?n=5).  
+* [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/narratives/trees-background/de?n=6).  
+* [Wie soll ich die Farben in einem Baum interpretieren](https://nextstrain.org/narratives/trees-background/de?n=7)?  
+* [Wie haengen die Karte und der phylogenetische Baum zusammen](https://nextstrain.org/narratives/trees-background/de?n=8)?  
+* [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background/de?n=9).  
+* [About the dataset](https://nextstrain.org/narratives/trees-background/de?n=10).  
 
 <!-- No right-side text -->
 
@@ -79,7 +95,7 @@ A und B haben ebenfalls spezifische Mutationen (grüne Kreise), welche nicht in 
 Basierend auf diesem Baum können wir schlussfolgern, dass A und B eng miteinander verwandt sind, dass D und E eng miteinander verwandt sind und A und B sind enger verwandt mit C als mit D und E.
 </p>
 
-### Weiterführende Literatur 
+### Weiterführende Literatur
 * [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
 * [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
@@ -135,7 +151,7 @@ Sie können nach oben und unten zwischen dieser und der vorherigen Ansicht scrol
 <!-- ############ SLIDE BREAK ############# -->
 # [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-Wir können genomische Analysen ebenfalls verwenden, um das Datum zu schätzen, an welchem ein Ausbruch begonnen hat. 
+Wir können genomische Analysen ebenfalls verwenden, um das Datum zu schätzen, an welchem ein Ausbruch begonnen hat.
 Das ist sogar möglich, wenn dieser Zeitpunkt war, bevor erste Fälle bekannt wurden.
 Weil wir die Daten der Proben und der internen Verzweigungspunkte des Baumes bestimmen können, konnen wird diese nutzen, um das Datum der 'Wurzel' des Baumes abzuleiten. Diese repraesentiert den 'letzten gemeinsamen Vorfahren' von allen SARS-CoV-2 Sequenzen, die wir bisher haben. Zum Beispiel sind Ihre Grosseltern die 'letzten gemeinsamen Vorfahren' von Ihnen selbst und aller Ihrer Cousinen und Cousins.
 <br><br>
