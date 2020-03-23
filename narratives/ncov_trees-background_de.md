@@ -40,7 +40,7 @@ abstract: "Dieses Narrativ erklärt, wie man phylogenetische Bäume lesen und in
 * [Wie soll ich die Farben in einem Baum interpretieren](https://nextstrain.org/narratives/trees-background/de?n=7)?  
 * [Wie haengen die Karte und der phylogenetische Baum zusammen](https://nextstrain.org/narratives/trees-background/de?n=8)?  
 * [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/narratives/trees-background/de?n=9).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background/de?n=10).  
+* [Über den Datensatz](https://nextstrain.org/narratives/trees-background/de?n=10).  
 
 <!-- No right-side text -->
 
