@@ -24,7 +24,7 @@ translators:
   - Mahan Ghafari
   - Mohammad Hossein Rimaz
 translatorLinks:
-  - https://twitter.com/
+  - 
   - https://twitter.com/Mahan_Ghafari
   - https://twitter.com/mhrimaz
 date: "بیست مارس ۲۰۲۰"
