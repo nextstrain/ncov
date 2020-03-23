@@ -97,11 +97,11 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 
 <!-- This is left-side text 3 -->
 # [Opis próbkowania](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-Obecnie dysponujemy sekwencjami próbek pobranych w 36 krajach z 6 kontynenów. To niesamowity wyczyn -- sekwenjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
+Obecnie dysponujemy sekwencjami próbek pobranych w 36 krajach z 6 kontynenów. To niesamowity wyczyn -- sekwencjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
 <br><br>
 Choć zgromadzone dane umożliwiają wyciąganie pewnych wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone. 
-Spośród wszystkich chorych, tylko niektórym wykonuje się testy, a spośród tych, którym je zrobiono, jedynie niewielkiej grupie pobiera się materiał, który pozwoli wyizolować i zsekwencjonować materiał genetyczny wirusa. 
-Kryteria wyboru chorych poddanych testom i tych, od których pobiera się próbko do dalszej analizy, różnią się między krajami i okresami. 
+Spośród wszystkich chorych, tylko niektórzy mieli wykonane testy. Spośród tych, którym je zrobiono, jedynie niewielkiej grupie pobiera się materiał, który pozwoli wyizolować i zsekwencjonować materiał genetyczny wirusa. 
+Kryteria wyboru chorych poddanych testom i tych, od których pobiera się próbki do dalszej analizy, różnią się między krajami i okresami. 
 Ponadto analiza filogenetyczna, wspomagająca badanie ogniska epidemii, zawsze obarczona jest pewną niepewnością.
 <br><br>
 Przyjrzyjmy się kilku przykładom.
@@ -119,7 +119,7 @@ Mapa pokazuje bardzo niewiele sekwencji z Globalnego Południa. Na przykład dys
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
 # [Są obszary nadreprezentowane](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-W innych miejscach, np. w Holandii, dysponujemy wysoką liczbą badań sekwencyjnych w stosunku do całkowitej liczby wykrytych przypadków.
+W innych miejscach, np. w Holandii, dysponujemy znaczną liczbą danych z sekwencjonowania w stosunku do całkowitej liczby wykrytych przypadków.
 <br><br>
 Dlatego czytając niniejszy raport, pamiętaj, że powierzchnia każdego koła na mapie odpowiada ilości dostępnych danych z danego obszaru, a nie rzeczywistemu rozmiarowi danego ogniska. Możesz [przeczytać więcej](https://nextstrain.org/narratives/trees-background?n=8) o wpływie liczby danych z danego obszaru na ocenę rozprzestrzeniania się wirusa.
 <br><br>
