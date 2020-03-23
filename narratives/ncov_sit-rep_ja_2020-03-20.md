@@ -21,6 +21,7 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Tomoyuki Nezu
+  - Takeshi Sato
   - Fengjun Zhang
 translatorLinks:
   - https://twitter.com/tommy_nezy
