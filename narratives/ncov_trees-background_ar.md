@@ -16,7 +16,7 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 # [جدول المحتويات](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
 * [كيف ترتبط شبكات الانتشار بأشجار التصنيف الجيني؟](https://nextstrain.org/narratives/trees-background/ar/?n=1) 
-* [كيف تقرأ الشجرة؟](https://nextstrain.org/narratives/trees-background/ar/?n=2) 
+* [كيف تقرأ الشجرة؟](https://nextstrain.org/narratives/nextstrain/ncov@background_ar/trees-background/ar/?n=2) 
 * [كيف يرتبط اطار "التنوع" بالشجرة؟](https://nextstrain.org/narratives/trees-background?n=3) 
 * [قياس الاختلافات مع الافتراق الجيني؟](https://nextstrain.org/narratives/trees-background?n=4).  
 * [قياس الاختلافات مع الزمن](https://nextstrain.org/narratives/trees-background?n=5).  
