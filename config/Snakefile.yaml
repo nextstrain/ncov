@@ -1,0 +1,8 @@
+# This file contains defaults for the "config" object used in the Snakefile.
+# To temporarily override or provide a value, you can use snakemake's --config
+# or --configfile options.
+---
+s3_staging_url: s3://nextstrain-staging
+slack_webhook: ~
+sequences: "data/sequences.fasta"
+metadata: "data/metadata.tsv"

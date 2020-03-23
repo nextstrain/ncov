@@ -1,11 +1,13 @@
 ---
-title: 新型冠状病毒（COVID-19）传播基因组分析. 状况报告2020-03-05.
-authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Fengjun Zhang"
+title: 新型冠状病毒（COVID-19）流行病学基因组分析（状况报告2020-03-05）
+authors: "Trevor Bedford, Richard Neher, James Hadfield, Emma Hodcroft, Misja Ilcisin, Nicola Müller, Derek Zhang, Fengjun Zhang"
 authorLinks: "https://nextstrain.org"
 affiliations: "Fred Hutch, Seattle, USA and Biozentrum, Basel, Switzerland"
 date: "2020年3月5日"
 dataset: "https://nextstrain.org/ncov/2020-03-05"
-abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型冠状病毒（COVID-19）基因组数据来估计疫情的流传速度和方式. 一旦收集到新的病毒数据，我们将陆续更新该状况报告. 请用桌面浏览器游览该网站."
+
+abstract: "这份报告使用了在GISAID和Genbank数据库公开共享的2019新型冠状病毒（COVID-19）基因组数据来推算疫情的传播速度和方式。一旦收集到新的病毒数据，我们将陆续更新该状况报告。我们建议您使用桌面浏览器游览该网站。"
+
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,21 +15,21 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [执行摘要](https://nextstrain.org/ncov/2020-03-05)
+# [报告摘要](https://nextstrain.org/ncov/2020-03-05)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## 执行摘要
+## 报告摘要
 
-通过使用169</tag>个公开共享的COVID-19新型冠状病毒基因组, 我们检查了遗传多样性以推断病毒共同祖先的日期和传播速度.
+通过使用 169</tag> 个公开共享的病毒基因组, 我们分析了COVID-19新型冠状病毒的遗传多样性，用以描述疫情在各个地区的传播情况，并且推断病毒共同祖先的日期。
 
 
 
-我们发现:
-* COVID-19至少两次被引入意大利，随后在社区传播. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=7))
-* 这包括来自6个不同国家的一组序列，这些国家的病例应该是输出自意大利的病例. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=9))
-* 基因序列数据支持自1月中旬以来COVID-19在大西雅图地区未被检测到从而进一步传播的假设. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=10))
-* 这项分析中包括的所有测序病例可能有一个在2019年11月中旬至12月中旬之间的某个时间出现的共同祖先. ([链接](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=11))
+我们发现：
+* 新冠病毒COVID-19至少被传入意大利两次，并且都在意大利引起了社区传播。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=7))
+* 在意大利发生的人际传播也输出到了其他国家———有来自六个不同国家的序列按照核酸多样性被分在一个基因簇中，数据显示这些病例是意大利输出的病例。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=9))
+* 根据现有的核酸序列数据可推得，COVID-19 在大西雅图地区从一月中旬起就已经在未被检测到的情况下发生了持续传播。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=10))
+* 这项分析中包括的所有病毒个体可能有一个共同祖先，其出现时间范围在在2019年11月中旬至12月中旬之间。([详细分析](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-05?n=11))
 
 ```
 
@@ -35,37 +37,38 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [冠状病毒](https://nextstrain.org/ncov/2020-03-05)
+# [什么是冠状病毒？](https://nextstrain.org/ncov/2020-03-05)
 
 ### 更多资料:
 
-* 维基百科上NCoV爆发的总结 [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) _2020-01-30_
-* 由美国疾控中心提供的材料 [CDC](https://www.cdc.gov/coronavirus/index.html) _2020-01-29_
+* 维基百科上 COVID-19 疫情的总结 [中文维基](https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E6%83%85) _2020-01-30_
+* 美国疾病预防控制中心提供的材料 [CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-Chinese.html) _2020-01-29_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## COVID-19 资源
+## COVID-19 的一些其他信息
 
-下面，我们准备了一些值得一读的资源(英文)，让您熟悉COVID-19和导致它的病毒-SARS-CoV-2.
-了解这些信息后，能使您更容易理解我们在这篇叙述中呈现的数据.
+
+我们准备了一些值得一读的材料，让您了解COVID-19（2019冠状病毒病）及其致病病毒SARS-CoV-2（严重急性呼吸综合征冠状病毒2型）。以下材料来源于 [Nextstrain](https://nextstrain.org) 网站的英文文档，我们建议您用谷歌翻译或者类似的机器翻译服务辅助浏览。
+这些信息能使您更容易理解我们在这篇报告中的分析和结论。
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景 </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景知识 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 最近COVID-19爆发的背景 </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 近期 COVID-19 疫情总结 </a>
 
   <a href="https://nextstrain.org/help/general/how-to-read-a-tree"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 如何解读进化树 </a>
 
 </div>
 
-## Nextstrain 叙述
+## Nextstrain 状况描述报告
 
-以下页面包含使用[Nextstrain](https://nextstrain.org)执行的分析.
-滚动左侧侧栏将显示文本段落，并在右侧显示相应的基因组数据可视化图.
+以下页面包含使用 [Nextstrain](https://nextstrain.org) 执行的分析。
+滚动左侧侧栏将显示文本段落的同时，在右侧会显示相应的基因组数据可视化图。
 
-这么快就获得一种新的大型RNA病毒的全基因组是一项了不起的成就.
-而这些分析是由世界各地的科学家快速和开放地共享基因组数据和解释而实现的(参见最后一张幻灯片，查看测序作者的可视化图).
+对于一种新型的、基因组较大的RNA病毒，在疫情正在爆发的当下，这么迅速就能获得多条全基因组序列是一项了不起的成就。
+而这些成果是由世界各地的科学家快速公开共享基因组数据和分析而实现的（您可阅读本报告最后一页，我们列出了详细的序列提供单位）。
 
 
 ```
@@ -76,44 +79,48 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 <!-- This is left-side text -->
 # [常见问题和误区](https://nextstrain.org/ncov/2020-03-05)
 
-### 更多资料 (英文):
+### 更多详细资料：
 
-* "不要相信你听到的关于冠状病毒和艾滋病的阴谋论" [文章](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+_以下材料均来自英文网站，我们建议您使用机器翻译服务辅助阅读。_
 
-* "毫无根据的阴谋论声称新的冠状病毒是生物工程制造的" [文章](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "不要相信关于冠状病毒和艾滋病的阴谋论" [文章链接](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "不，武汉冠状病毒不是经过基因改造植入艾滋病病毒片段的。" [文章](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "毫无根据的阴谋论声称新的冠状病毒是生物工程制造的" [文章链接](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "冠状病毒解密" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "不，武汉冠状病毒并没有被人为插入艾滋病病毒片段。" [文章链接](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+
+* "关于冠状病毒的辟谣" [文章链接](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 ## 常见问题和误区
 
+_以下材料均来自英文网站，我们建议您使用机器翻译服务辅助阅读。_
+
 ### 常见问题
 
-我们知道很多人对COVID-19有疑问.
-我们建立了一个指南来回答一些最常被问到的问题. [链接](https://nextstrain.org/help/coronavirus/FAQ):
+我们知道很多人对 COVID-19 有疑问，
+我们特地设立了一个指南来回答一些最常被问到的问题。[FAQ](https://nextstrain.org/help/coronavirus/FAQ):
 
 <div>
 
-  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 常见问题 (英文) </a>
+  <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 常见问题</a>
 
 </div>
 
 
-### 误区
+### 常见误区
 
-当下流行着许多关于新型冠状病毒起源的谣言.
-在像这样的疫情爆发期间，不正确信息的传播可能会导致更多的恐慌，并导致人们不信任科学家和政府，这意味着他们不太可能遵循建议并采取适当的预防措施.
+目前社会上流行着许多关于新型冠状病毒起源的谣言。
+但在像这样的疫情爆发期间，不正确信息的传播可能会引发更多的恐慌，使人们丧失对科学家和政府的信任，从而可能不遵循建议或不采取适当的预防措施。
 
-科学家们在下面的文章中了解释了为什么这些观点是不正确的(英文):
+科学家们在下面的文章中了解释了为什么一些观点是不正确的：
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2起源于"蛇" (技术文档) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV基因工程'说法 (推特帖)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2 并不起源于"蛇"（专业论坛帖）</a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV基因工程'之说错在哪里（推特系列帖）</a>
 
 
 </div>
@@ -125,19 +132,22 @@ abstract: "这份报告使用了来自GISAID和Genbank公开共享的2019新型�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [进化树分析](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [系统进化树分析](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-我们在这里阐述169</tag>株SARS-CoV-2 (引发COVID-19的病毒)的进化树, 这些毒株序列已经公开分享.
-分析的过程可在 [此GitHub Repo找到](https://github.com/nextstrain/ncov).
-
-<br>
-
-颜色表示各个国家内地区或美国各州的状态，x轴则表示样本日期.
-y轴显示的是序列之间有怎样的关系，但请注意它没有测量单位.
+我们在这里给出了由 169</tag> 株 SARS-CoV-2（即 COVID-19 致病病毒）病毒个体的公开序列构成的系统进化树。
+分析的方法可在 [此GitHub仓库中找到](https://github.com/nextstrain/ncov)。
 
 <br>
 
-样本日期信息很有用，但它们并不总是准确地显示两个序列在基因上是如何相关的-两个完全相同的序列可能具有不同的样本日期，因此在此图中会看起来相距很远.
+数据点的颜色表示分离出该病毒的各国地区或美国各州，x 轴则表示取样日期。
+
+y 轴显示的是序列之间的关系，请注意它没有测量单位。
+
+<br>
+
+取样日期信息虽然很有用，但它并不能总是准确地显示两个序列在遗传上的相关性。
+
+两个完全相同的序列可能具有不同的取样日期，因而在此图中，它们会看起来相距甚远。
 
 <!-- There is NO right-side text -->
 
@@ -145,30 +155,30 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [进化树上的“差异程度”](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
+# [系统进化树上的“差异程度”](https://nextstrain.org/ncov/2020-03-05?d=tree&m=div)
 
-您可以从“时间”（Time）视图模式转换成“差异程度”（Divergence）视图模式，使x轴按“差异程度”显示.
-
-<br>
-
-请注意有多少以前看起来不同的序列现在排在一条竖直线上.
-您可以通过上下滚动在上一张幻灯片和这张幻灯片之间切换，以查看进化树是如何变化的.
+我们现在可以从“时间”（Time）视图模式转换成“差异程度”（Divergence）视图模式，使 x 轴按“差异程度”排列。
 
 <br>
 
-遗传差异程度是用基因组中变化(突变)的数量来衡量的.
-有些序列可能有零突变--这意味着它们都与树的根(中心)完全相同.
-其他病毒有1到11个突变.
+请注意之前看起来关联性不大的序列，现在可能会排在一条竖直线上。
+您可以通过上下滚动在上一张幻灯片和这张幻灯片之间切换，以查看系统进化树是如何变化的。
 
 <br>
 
-在不断变化的流行病爆发情况下，对一种新的大型RNA病毒的基因组进行测序是具有挑战性的.
-在这些序列中观察到的一些差异可能是测序错误，而不是实际的突变.
-基因组末端的插入、缺失和差异更有可能是错误的，所以为了分析的目的，我们屏蔽了这些.
+遗传差异程度是用基因组中的核酸变化（自然突变）的数量来衡量的。
+有些序列中的突变数量为零，也就是说它们与系统进化树的“根部”序列一致。
+而其他病毒个体中的突变数量则有1到11个不等。
 
 <br>
 
-有时我们会在“时间”视图中显示树，有时在“差异程度”视图中显示树，这取决于我们要突出显示的内容.
+在不断变化的流行病爆发情况下，对新发现的大型RNA病毒的基因组进行测序是一项具有挑战性的任务。
+因为在这些序列中观察到的核酸差异可能是由于测序误差，而不是实际的核酸突变。
+特别是基因组末端的插入、缺失等差异有更高的概率是测序误差导致的，所以在本次分析中，我们没有包括这些区域的差异。
+
+<br>
+
+在后面的页面中，我们会根据所讨论的问题，有时显示“时间”视图中的系统进化树，有时会展示“差异程度”视图中的系统进化树。
 
 <!-- There is NO right-side text -->
 
@@ -176,15 +186,16 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [进化树解释](https://nextstrain.org/ncov/2020-03-05?d=tree)
+# [系统进化树的解释](https://nextstrain.org/ncov/2020-03-05?d=tree)
 
-我们目前有来自五个不同大陆的样本的序列.
-虽然早期的病例都与武汉的病例直接相关，与华南野生市场有着密切联系，但以我们现在观察到各种不同的病例，这些病例表明已有本地社区传播的征兆，或者是从中国以外的国家通过旅行者输入的.
+我们目前有来自五个不同大陆的样本的序列。
+虽然早期的病例都或多或少与武汉华南海鲜市场有着密切联系，但我们现在观察到了各种不同情况的病例，有的来自于社区传播，另一些则是从中国以外的国家输入的。
 
 <br>
 
-通常，从动物身上集中地反复感染人类的情况下，病毒基因组将显示出显著的核酸碱基多样性(拉萨病毒、埃博拉病毒、MERS冠状病毒和禽流感都是如此).
-观察到如此显著的人类来源样本的基因簇，可以用一次爆发模型来解释，即该爆发源于单一的人畜共患病传入人口事件，随后才是人与人之间的流行病传播.
+通常，如果病毒来自于从动物宿主到人的反复多次感染，病毒的种群基因组将显示出显著的核酸碱基多样性（拉萨病毒、埃博拉病毒、MERS冠状病毒和禽流感都是如此）。
+
+然而，此次我们观察到来源于人类病例的样本能显著地归成系统进化树上的基因簇，那么基本可以用一次爆发模型来解释疫情的起源，即只发生了一次从动物传到人的事件，随后发展成人与人之间的种群内传播。
 
 <!-- There is NO right-side text -->
 
@@ -192,39 +203,43 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [至少两次的输入感染导致在意大利的爆发，这两次都可能存在社区传播](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
+# [病毒至少被引入意大利两次，两次都可能存在社区传播](https://nextstrain.org/ncov/2020-03-05?d=tree&f_country=Italy)
 
-我们目前有3个来自意大利的序列，其中两个来自罗马地区，一个来自意大利北部的伦巴第.
-
-<br>
-
-这3个序列在疫情早期共享一个共同的祖先(在树基附近，左边)，这强烈地表明至少有两个病例输入到意大利，并通过社区传播遍了该地区.
+我们目前有三条来自意大利的序列，其中两条来自罗马地区，一条来自意大利北部的伦巴第。
 
 <br>
 
-努诺·法里亚博士团队很好地细分了巴西和其他全球序列如何表明“意大利北部的疫情很可能是多个人传入该地区的结果，而不是来自一个单一的来源 [链接 (英文)](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409).
+这三条序列的共同祖先出现在疫情的早期（这个祖先株在图里的位置在系统进化树根部附近，非常接近纵轴），这个证据强有力地表明病毒至少有两次被输入到意大利，并引发了社区传播。
+
+<br>
+
+努诺·法里亚博士团队非常详细地分析了巴西和其他全球序列，并得出“意大利北部的疫情很可能是病毒多次传入该地区的结果，而不是来自一个单一的来源”的结论。 [点击此处可以查看原文文章](http://virological.org/t/first-cases-of-coronavirus-disease-covid-19-in-brazil-south-america-2-genomes-3rd-march-2020/409)。
 
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [意大利可能存在的隐藏传播途径](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
+# [意大利可能存在的隐藏传播路线](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A1a&m=div)
 
-来自罗马(2020年1月29日)的两个序列联系密切，都有去过中国的旅行历史.
-
-<br>
-
-我们切换到“差异程度”视图，您可以发现这两个意大利序列是相同的，而其他邻近的序列(来自英国、巴西、瑞士、美国和中国)实际上与意大利序列相差2-4个突变.
+其中来自罗马（2020年1月29日）的两个序列联系密切，都有中国的旅行史。
 
 <br>
 
-然而，巴西的序列(SPBR-02)有前往伦巴第米兰的旅行历史，因此我们认为，该基因簇中的瑞士序列最近也曾前往意大利。我们对美国序列的旅行史一无所知。英格兰/09c分离株是从中国直接输入的.
+我们切换到“差异程度”视图，您可以发现这两个意大利序列是相同的，而其他邻近的序列（分别来自英国、巴西、瑞士、美国和中国）实际上与意大利序列相差2-4个突变。
 
 <br>
 
-英国序列(来自中国)处于早期意大利罗马的病例和有已知或可能意大利旅行史的病例之间（已知意大利旅行史的序列来自瑞士和巴西，可能有意大利旅行史的序列来自美国）.
-这意味着我们不应该假设较早的意大利序列和较新的意大利相关序列是直接相关的. 意大利最近的样本可能来自另一次独立的输入.
+
+该基因簇中巴西的序列（SPBR-02），已知有前往伦巴第地区米兰市的旅行历史，而有报道称该簇中的瑞士病例最近也曾前往意大利。
+
+我们对同簇中的美国病例的旅行史一无所知，但英国的病例（England/09c）已知是从中国直接输入的。
+
+<br>
+
+源于中国的这例英国序列，处于早期意大利罗马的病例和已知（瑞士、巴西）或可能（美国）有意大利旅行史的病例之间。
+
+这意味着我们不应该假设较早的意大利序列和这些较新的与意大利有关的序列有直接的关系，这些最近的意大利序列也有可能来源于另一次独立输入感染的事件。
 
 <!-- There is NO right-side text -->
 
@@ -233,20 +248,19 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [从意大利伦巴第传播至全球](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
+# [从意大利伦巴第传播至全球其他地域的序列](https://nextstrain.org/ncov/2020-03-05?d=tree&label=clade:A2)
 
-来自伦巴第(意大利/CDG1/2020)的序列与已知有意大利旅行史的序列聚在一起：这些序列来自墨西哥、德国、巴西和芬兰.
-这表明此些很有可能是在意大利感染的.
-
-<br>
-
-图中最下方的德国的“BavPat1”序列是在疫情更早的时候从中国传入的一部分.
-它与该簇中的另一个序列的相似性(只有一个突变之分)，可能表明欧洲未被检测到的(“不明途径的”)传播，起源于这个早期的德国病例.
+来自伦巴第（Italy/CDG1/2020）的序列与其他国家的已知有意大利旅行史的序列被分在了一起（已知有可能在意大利被感染的病例分别来自墨西哥、德国、巴西和芬兰）。
 
 <br>
 
-当然，这也可能是两次单独输入欧洲的结果，因为来自其他地方的未被采集到的序列可能会分布在“BavPat1”和这个大基因簇之间.
-但以目前的样本量，我们不能确认是哪种情况.
+图中最下方的德国的“BavPat1”序列是在疫情更早的时候从中国传入的一例病例。
+它与该簇中的另一个序列的相似性很高（只有一个突变之分），暗示欧洲可能存在起源于这个早期德国病例的、未被检测到的（“不明途径的”）疫情传播路线。
+
+<br>
+
+这个现象也可能是病毒两次单独输入欧洲的结果，因为可能会有来自其他地方的、未被采集到的序列分布在“BavPat1”和这个大基因簇之间。
+但以目前的样本量，我们不能确认是哪种情况。
 
 <!-- There is NO right-side text -->
 
@@ -254,25 +268,25 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [SARS-CoV-2可能在西雅图地区蔓延](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
+# [SARS-CoV-2 可能已在西雅图地区蔓延](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-现在在大西雅图地区和整个美国报告了许多例COVID-19病例.
-新分离和测序的病例在基因上与1月中旬在同一地区分离的一例密切相关.
-
-<br>
-
-对此，我们有两种可能的解释.
-一种解释是，该病毒可能至少两次从中国的共同源头传入大西雅图地区.
-而另一种解释是，病毒在该地区传播了一段时间，只是没有被发现.
+现在大西雅图地区和整个美国范围内都报告了多起COVID-19病例。
+这些新分离和测序得到的序列在遗传上与一月中旬同一地区分离到的一例病例密切相关。
 
 <br>
 
-特雷弗·贝德福德(Nextstrain的联合创始人)就这些可能性写了一篇很棒的博客文章，你可以在这里读到 [链接 (英文)](https://bedford.io/blog/ncov-cryptic-transmission/).
+对此，我们有两种可能的解释。
+一种解释是，该病毒可能至少两次从中国的共同源头传入大西雅图地区。
+而另一种解释是，病毒已经在该地区传播了一段时间，只是没有被发现。
 
 <br>
 
-华盛顿最近的其他序列告诉我们另一件事：这些序列和来自大西雅图地区的序列，在分析中被聚集在了一起.
-这强烈表明已存在社区传播，且SARS-CoV-2病毒已经在该地区传播了一段时间.
+特雷弗·贝德福德（Nextstrain的联合创始人）就这些可能性写了一篇很棒的博客文章，你可以在这里读到 [他的相关技术博客文章](https://bedford.io/blog/ncov-cryptic-transmission/)。
+
+<br>
+
+华盛顿州的其他新序列还告诉我们另一件事：来自大西雅图地区的序列在核酸分析中被排列在了一起。
+这强烈表明该地区已存在社区传播，且 SARS-CoV-2 病毒已经传播了一段时间。
 
 <!-- There is NO right-side text -->
 
@@ -283,8 +297,8 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- This is left-side text -->
 # [测定最近共同祖先的时间](https://nextstrain.org/ncov/2020-03-05?label=clade:B1%20&d=tree)
 
-一组测序案例的最近共同祖先(或tMRCA)的时间表示这些测序案例最后共享共同祖先的时间.
-这一时间可以早于病毒首次进入人类群体的时间，但也可以大大晚于此时间，如下图所示.
+一群个体序列的最近共同祖先时间（即tMRCA）能够提示这些个体共同的祖先株最近在何时出现。
+如下图所示，这一时间可能是病毒首次进入人类群体的时间，但也可能大大晚于此时间。
 
 <div>
   <img alt="Example phylogeny where the time of the initial zoonosis is different from the most recent common ancestor of several sequenced cases" width="500" src="https://raw.githubusercontent.com/nicfel/nCov-Nicola/master/figures/zoonosis.png"/>
@@ -294,12 +308,12 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## 爆发病毒共同祖先的日期
+## 病毒的最近共同祖先时间
 
-数个研究小组估算了最近共同祖先的时间 - 查看 [A Rambaut的文章 (英文)](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的文章 (英文)](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes).
+数个研究小组已经估算了最近共同祖先时间，您可以查看 [A Rambaut的报告（英文）](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420) 或 [T Stadler的报告（英文）](http://virological.org/t/evolutionary-epidemiological-analysis-of-93-genomes)。
 
-所有序列的共同祖先最有可能出现在11月中旬至12月中旬之间.
-这与目前所有测序是从[武汉华南海鲜市场获得的最初病例群](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)衍生下来的说法一致.
+所有序列的共同祖先最有可能出现在11月中旬至12月中旬之间。
+这也支持目前所有已测序病毒都来源于武汉华南海鲜市场的聚集性病例的说法 （[点击此处查看专业论坛的讨论帖](http://virological.org/t/phylodynamic-analysis-of-sars-cov-2-update-2020-03-06/420)）。
 
 
 <div>
@@ -317,12 +331,12 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- This is left-side text -->
 # [科学贡献人员](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家.
-只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析.
+我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家。
+只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析。
 
 <br>
 
-我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台.
+我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台。
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
@@ -417,12 +431,11 @@ y轴显示的是序列之间有怎样的关系，但请注意它没有测量单�
 <!-- This is left-side text -->
 # [科学贡献详情](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-数据共享于 [GISAID](https://gisaid.org).
-感谢他们的贡献.
+所有基因组数据已被共享至 [GISAID](https://gisaid.org)数据库。感谢各位科学家的慷慨分享。
 
 <br>
 
-在右边，我们给出了每个实验室共享的特定序列.
+在右边，我们列出了每个实验室共享的序列。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown

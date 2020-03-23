@@ -21,10 +21,10 @@ France/IDF0386-islP3/2020
 # Appears to be a duplicate of France/IDF0515/2020 47F taken 3 days later on Feb 2
 France/IDF0571/2020
 
-# Lack of precise date is leading to an incorrect time placement (end of Jan)
+# Presumed early submission of the now-included Shenzhen/HKU-SZ-005/2020. Formerly a lack of precise date lead to an incorrect time placement (end of Jan)
 HKU-SZ-005b_2020
 
-# Unknown precise date and unknown admin division
+# Unknown precise date (2020-01-XX). Travel history shows Hubei, so may be good to rerun and see how this fits.
 SouthKorea/SNU01/2020
 
 # Doesn't have the enough divergence relative to supposed sampling date
@@ -36,27 +36,48 @@ Jingzhou/HBCDC-HB-01/2020
 # Far to divergent- 30 mutations
 Wuhan/HBCDC-HB-04/2019
 
+# Missing mutations
+Netherlands/Oisterwijk_1364072/2020
+Netherlands/Utrecht_1364066/2020
+Ireland/COR-20134/2020
+
 # Confusing phylogeography
-USA/CA7/2020
-USA/IL2/2020
-Singapore/4/2020
-Singapore/7/2020
-Singapore/8/2020
-Sydney/3/2020
+Netherlands/Rotterdam_1363790/2020
+
+# Missing precise date
+Netherlands/NoordBrabant_34/2020
 
 # These have more tip-specific divergence than expected
 Beijing/IVDC-BJ-005/2020
+China/WF0023/2020
 Henan/IVDC-HeN-002/2020
+Guangdong/GDSZ202013-P0014/2020
 Shanghai/IVDC-SH-001/2020
 Shenzhen/SZTH-001/2020
 Shenzhen/SZTH-004/2020
 Wuhan/IPBCAMS-WH-05/2020
 Wuhan/IVDC-HB-envF54/2020
 Wuhan/WH02/2019
+Guangzhou/GZMU0016/2020
+Guangzhou/GZMU0047/2020
+
+# Excluding because seem to be too divergent - worth double checking
+Shandong/LY002/2020
+Shandong/LY001/2020
+USA/MN1-MDH1/2020
+USA/WA-UW40/2020
+USA/WA-UW53/2020
+USA/WA-UW65/2020
+USA/WA11-UW7/2020
+Wuhan/IVDC-HB-envF13/2020
+USA/WA-UW48/2020
+USA/WA-UW45/2020
+France/HF1805/2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
 pangolin/Guandong/1/2020
+pangolin/Guangdong/1/2019
 pangolin/Guangdong/P2S/2019
 pangolin/Guangxi/P1E/2017
 pangolin/Guangxi/P2V/2017
@@ -70,10 +91,15 @@ bat/Yunnan/RmYN02/2019
 bat/Yunnan/RmYN01/2019
 
 # Temporarily excluded
-USA/CA-CDPH-UC1/2020
-
-#Temporarily excluded
 USA/CruiseA-1/2020
+USA/CruiseA-2/2020
+USA/CruiseA-3/2020
+USA/CruiseA-4/2020
+USA/CruiseA-5/2020
+USA/CruiseA-6/2020
+USA/CruiseA-7/2020
+USA/CruiseA-8/2020
+USA/CruiseA-9/2020
 USA/CruiseA-10/2020
 USA/CruiseA-11/2020
 USA/CruiseA-12/2020
@@ -83,11 +109,18 @@ USA/CruiseA-15/2020
 USA/CruiseA-16/2020
 USA/CruiseA-17/2020
 USA/CruiseA-18/2020
-USA/CruiseA-2/2020
-USA/CruiseA-3/2020
-USA/CruiseA-4/2020
-USA/CruiseA-5/2020
-USA/CruiseA-6/2020
-USA/CruiseA-7/2020
-USA/CruiseA-8/2020
-USA/CruiseA-9/2020
+USA/CruiseA-19/2020
+USA/CruiseA-20/2020
+USA/CruiseA-21/2020
+USA/CruiseA-22/2020
+USA/CruiseA-23/2020
+USA/CruiseA-24/2020
+USA/CruiseA-25/2020
+USA/CruiseA-26/2020
+
+# way too divergent 
+Russia/StPetersburg-3524/2020
+
+# temporarily excluded because is currently reverse complement 
+Peru/010/2020
+

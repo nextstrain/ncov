@@ -30,13 +30,21 @@ location	Chungcheongnam
 location	Seoul
 location	Kathmandu
 location	Thanh Hoa
+location	Hanoi
 location	Bangkok
 location	Singapore
 location	Gold Coast
 location	Sydney
+location	Melbourne
 location	Clayton
 location	Auckland
+location	Riyadh
+location	Hawali
+location	Dasman
 location	Heinsberg District
+location	Heinsberg
+location	Munich
+location	Duesseldorf
 location	Delft
 location	Utrecht
 location	Zeewolde
@@ -59,37 +67,70 @@ location	Tilburg
 location	Helmond
 location	Oisterwijk
 location	Dalen
+location	Budapest
+location	Nantes
+location	Crépy en Valois
 location	Paris
+location	Reims
+location	garches
+location	rennes
+location	château-thierry
+location	longjumeau
+location	Levallois-perret
+location	Pontoise
+location	Compiègne
 location	Contamines
+location	Thise
+location	Montreux-Chateau
+location	Rouen
 location	Leuven
 location	Starnberg
+location	Strasbourg
 location	Rome
 location	Milan
+location	valencia
 location	England
+location	Yorkshire
+location	Cardiff
 location	Rovaniemi
 location	Jönköping
 location	Helsinki
 location	Sao Paulo
+location	Brasilia
+location	Rio de Janeiro
+location	feira de santana
+location	vila velha
 location	Mexico City
-location	Seattle
+location	King County
+location	Snohomish County
+location	Pierce County
 location	Solano County
 location	Sonoma County
 location	Orange County
+location	Kirkland
+location	Seattle
 location	Los Angeles
 location	California
+location	San Francisco
+location	San Diego County
 location	Snohomish County
 location	King County
 location	Phoenix
 location	Chicago
 location	Illinois
 location	Wisconsin
+location	Dane County
 location	Boston
+location	Nassau County
 
+
+division	China
 division	Hubei
 division	Beijing
 division	Anhui
 division	Jiangxi
 division	Chongqing
+division	Hangzhou
 division	Sichuan
 division	Yunnan
 division	Jiangsu
@@ -97,10 +138,13 @@ division	Shandong
 division	Zhejiang
 division	Fujian
 division	Guangdong
+division	Shanghai
 division	Hong Kong
 division	Taiwan
+division	Taoyuan
 division	Aichi
 division	Tokyo
+division	Saitama
 division	Nara
 division	Osaka
 division	Kyoto
@@ -111,49 +155,105 @@ division	Seoul
 division	South Korea
 division	Kathmandu
 division	Kerala
+division	Iran
+division	Kuwait
+division	Tbilisi
 division	Thanh Hoa
+division	Vinhphuc
+division	Red River Delta
+division	Quangning
 division	Sihanoukville
 division	Nonthaburi
 division	Singapore
-division	Gyeonggi
 division	Queensland
 division	New South Wales
 division	Victoria
+division	Wellington
 division	Auckland
-division	Ile De France
+division	Riyadh
+division	Europe
+division	Central Hungary
+division	Copenhagen
+division	Bretagne
+division	Ile de France
+division	Pays de la Loire
+division	Hauts de France
+division	Bretagne
+division	Bourgogne-France-Comté
+division	Normandie
+division	Grand Est
 division	Auvergne Rhone Alpes
 division	Flanders
+division	Leuven
+division	Couthuin
+division	Kessel-Lo
+division	Holsbeek
+division	Sint-Niklaas
+division	Kraainem
+division	Huldenberg
+division	Brussels
 division	Bavaria
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
-division	Andel
+division	Netherlands
 division	Utrecht
+division	Overijssel
+division	Gelderland
+division	Limburg
 division	Drenthe
-division	North brabant
+division	North Brabant
 division	Flevoland
 division	South Holland
 division	North Holland
-division	Luxemburg
+division	Luxembourg
+division	Zielonogorskie
+division	Basel
+division	Bern
 division	Zurich
+division	Aargau
+division	Geneva
+division	Vaud
+division	Ticino
+division	Graubünden
+division	Schwyz
+division	Comunitat Valenciana
+division	Italy
 division	Lazio
-division	Milan
-division	Rome
 division	Lombardy
+division	Usti nad Labem
+division	UK
+division	Northern Ireland
 division	England
 division	Wales
+division	Dublin
+division	Limerick
 division	Scotland
-division	Lapland
 division	Småland
 division	Helsinki
+division	Finland
+division	Portugal
 division	Lagos
+division	Kinshasa
+division	Santiago
+division	Talca
 division	Sao Paulo
+division	Espirito Santo
+division	Bahia
+division	Rio de Janeiro
+division	Distrito Federal
+division	Panama City
 division	Mexico City
+division	USA
+division	Connecticut
 division	Texas
+division	Utah
 division	Arizona
 division	California
 division	Illinois
 division	Wisconsin
+division	Minnesota
 division	Massachusetts
+division	New York
 division	Washington
 division	British Columbia
 division	Ontario
@@ -171,18 +271,46 @@ country	Thailand
 country	Singapore
 country	Australia
 country	New Zealand
+country	Saudi Arabia
+country	Kuwait
+country	Georgia
+country	Poland
+country	Hungary
 country	France
+country	Denmark
 country	Netherlands
 country	Belgium
-country	Luxemburg
+country	Luxembourg
 country	Germany
 country	Switzerland
 country	Italy
+country	Spain
+country	Czech Republic
 country	United Kingdom
+country	Ireland
 country	Finland
 country	Sweden
+country	Portugal
 country	Nigeria
+country	Congo
+country	Chile
 country	Brazil
+country	Panama
 country	Mexico
 country	USA
 country	Canada
+
+recency	Older
+recency	One month ago
+recency	One week ago
+recency	3-7 days ago
+recency	1-2 days ago
+recency	New
+
+region	Oceania
+region	Asia
+region	Africa
+region	Europe
+region	North America
+region	Central America
+region	South America
