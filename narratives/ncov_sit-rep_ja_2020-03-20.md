@@ -25,6 +25,7 @@ translators:
   - Fengjun Zhang
 translatorLinks:
   - https://twitter.com/tommy_nezy
+  - 
   - https://twitter.com/fengjun_zhang
 date: 2020年3月20日
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
