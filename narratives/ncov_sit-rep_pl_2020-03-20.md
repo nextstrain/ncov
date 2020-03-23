@@ -108,7 +108,7 @@ Przyjrzyjmy się kilku przykładom.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
 # [Są obszary niedoreprezentowane ](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-Mapa pokazuje bardzo niewiele sekwencji z Globalnego Południa. Na przykład dysponujemy jedynie sekwencjami z 4 spośród 25 krajów Ameryki Łacińskiej, w których [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) przypadki COVID-19. Powodem nie jest brak zakażeń w pozostałych krajach tego rejonu, ani mała wartość poznawcza takich danych. Tych danych, po prostu, nie ma.
+Mapa pokazuje bardzo niewiele sekwencji z Globalnego Południa. Na przykład dysponujemy jedynie sekwencjami z 4 spośród 25 krajów Ameryki Łacińskiej, w których [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) przypadki COVID-19. Powodem nie jest brak zakażeń w pozostałych krajach tego rejonu, ani mała wartość poznawcza takich danych. Tych danych po prostu nie ma.
 <br><br>
 <!-- There is NO right-side text -->
 
@@ -125,9 +125,9 @@ Dlatego czytając niniejszy raport, pamiętaj, że powierzchnia każdego koła n
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [Dane z sekwencjowania mogą być porównane z historiami podróży](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+Identyfikacja miejsca, gdzie dana osoba została zainfekowana jest ważna do zrozumienia w jakich obszarach mamy do czynienia z lokalnym przenoszeniem wirusa, a w jakich z przypadkami związanymi głównie z podróżami. Próbki sekwencji mogą nam pomóc w rozróżnieniu tych scenariuszy.
 <br><br>
 Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
 
