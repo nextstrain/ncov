@@ -1,6 +1,6 @@
 ---
 name: Translation
-about: Describe this issue template's purpose here.
+about: Translating a situation report to another language
 title: "[Translate] DATE situation report into LANGUAGE"
 labels: ''
 assignees: cassiawag
