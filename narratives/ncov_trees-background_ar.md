@@ -1,8 +1,26 @@
 ---
 title: كيف تقرأ وتحلل شجرة التصنيف الجيني
-authors: "Nicola Müller, Emma Hodcroft, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford"
-authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Ahmad Saleh
+  - Fadi Alnaji
+translatorLinks:
+  - https://twitter.com/Ahmadsa96201545
+  - https://twitter.com/biofadialnaji
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: " يفسر هذا التقرير كيفية قراءة وتحليل اشجار التصنيف الجيني والتي تغذي علم الوبائيات الجينومي بالمعلومات. هذا الموقع الالكتروني مهيأ للعرض على متصفحات اجهزة الحاسوب المكتبية"
@@ -15,16 +33,16 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- This is left-side text -->
 # [جدول المحتويات](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [كيف ترتبط شبكات الانتشار بأشجار التصنيف الجيني؟](https://nextstrain.org/narratives/trees-background?n=1) 
-* [كيف تقرأ الشجرة؟](https://nextstrain.org/narratives/trees-background?n=2) 
-* [كيف يرتبط اطار "التنوع" بالشجرة؟](https://nextstrain.org/narratives/trees-background?n=3) 
-* [قياس الاختلافات مع الافتراق الجيني؟](https://nextstrain.org/narratives/trees-background?n=4).  
-* [قياس الاختلافات مع الزمن](https://nextstrain.org/narratives/trees-background?n=5).  
-* [كيف تحدد موعد بداية الانفجار الوبائي؟](https://nextstrain.org/narratives/trees-background?n=6) 
-* [كيف احلل الصفات (الالوان) على الشجرة؟](https://nextstrain.org/narratives/trees-background?n=7) 
-* [كيف ترتبط الخريطة بالشجرة؟](https://nextstrain.org/narratives/trees-background?n=8) 
-* [قراءات متقدمة: عدم اليقين بالاشجار](https://nextstrain.org/narratives/trees-background?n=9).  
-* [عن مجموعة البيانات](https://nextstrain.org/narratives/trees-background?n=10).  
+* [كيف ترتبط شبكات الانتشار بأشجار التصنيف الجيني؟](https://nextstrain.org/narratives/trees-background/ar?n=2)
+* [كيف تقرأ الشجرة؟](https://nextstrain.org/narratives/trees-background/ar?n=3)
+* [كيف يرتبط اطار "التنوع" بالشجرة؟](https://nextstrain.org/narratives/trees-background/ar?n=4)
+* [قياس الاختلافات مع الافتراق الجيني؟](https://nextstrain.org/narratives/trees-background/ar?n=5).  
+* [قياس الاختلافات مع الزمن](https://nextstrain.org/narratives/trees-background/ar?n=6).  
+* [كيف تحدد موعد بداية الانفجار الوبائي؟](https://nextstrain.org/narratives/trees-background/ar?n=7)
+* [كيف احلل الصفات (الالوان) على الشجرة؟](https://nextstrain.org/narratives/trees-background/ar?n=8)
+* [كيف ترتبط الخريطة بالشجرة؟](https://nextstrain.org/narratives/trees-background/ar?n=9)
+* [قراءات متقدمة: عدم اليقين بالاشجار](https://nextstrain.org/narratives/trees-background/ar?n=10).  
+* [عن مجموعة البيانات](https://nextstrain.org/narratives/trees-background/ar?n=11).  
 
 <!-- No right-side text -->
 
@@ -171,7 +189,7 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 # [قراءة متقدمة: عدم اليقين بالاشجار](https://nextstrain.org/ncov/2020-03-11)
 تحدثنا سابقاً عن كيف ان العقد الداخلية تمثل عينات حالات-افتراضية لم تجمع. في الحقيقة، كل الاشجار تقدم - فرضيات - عن كيفية تطور وانتقال مسبب المرض. الاشجار التي نعرضها على موقع نيكست سترين هي تقديرات دقيقة-- وهذا يعني وجود احتمالية عالية لحدوث هذه التقديرات
 <br><br>
-ومع ذلك فهناك دائما عدم يقين في هذه التقديرات. وبشكل عام فإن نسبة اليقين تكون اعلى في  اجزاء الشجرة التي تمثل المناطق التي تم جمع العينات منها بكثافة.  في حين ان نسبة اليقين تقل في المناطق التي كان جمع العينات فيها قليلا. 
+ومع ذلك فهناك دائما عدم يقين في هذه التقديرات. وبشكل عام فإن نسبة اليقين تكون اعلى في  اجزاء الشجرة التي تمثل المناطق التي تم جمع العينات منها بكثافة.  في حين ان نسبة اليقين تقل في المناطق التي كان جمع العينات فيها قليلا.
 
 ```auspiceMainDisplayMarkdown
 # شرح توضيحي
@@ -187,7 +205,7 @@ abstract: " يفسر هذا التقرير كيفية قراءة وتحليل ا
 <!-- This is left-side text -->
 # [الحقوق العلمية](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-نود هنا ان نقدر العمل السريع والرائع من قبل جميع العلماء الذين  عملوا على هذا الوباء، ولكن نخص اولئك العاملين في الصين. 
+نود هنا ان نقدر العمل السريع والرائع من قبل جميع العلماء الذين  عملوا على هذا الوباء، ولكن نخص اولئك العاملين في الصين.
 ما كان لمثل هذه التحليلات ان تكون لولا المشاركة السريعة لبيانات الجينومات.
 
 <br><br>
