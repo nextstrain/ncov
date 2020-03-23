@@ -1,5 +1,5 @@
 ---
-title: التحليل الجينومي لانتشار كوفيد ١٩. تقرير حالة. ٢٠ اذار ٢٠٢٠
+title: Análisis genómico de la propagación del COVID-19. Informe de la situación hasta el 2020-03-20.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -20,177 +20,173 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
-  - Ahmad Saleh
-  - Fadi Alnaji
+  - Roy Costilla
+  - Miguel I. Paredes
 translatorLinks:
-  - https://twitter.com/Ahmadsa96201545
-  - https://twitter.com/biofadialnaji
-date: "٢٠ آذار ٢٠٢٠"
+  - https://researchers.uq.edu.au/researcher/18392
+  - https://twitter.com/miguelp1120
+date: "2020 March 20"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "يستخدم هذا التقرير البيانات الجينومية والتي تم مشاركتها للعموم من اجل تتبع انتشار كوفيد ١٩. يتم تحديث هذه التقارير أسبوعياً."
+abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento de la propagación del COVID-19. Los reportes son actualizados semanalmente."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
+<!-- Acentos: 	áéíóú -->
 
 <!-- This is left-side text 1 -->
-# [جدول المحتويات](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [Contenidos](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=2).     
-*  
-[ملاحظة عن جمع العينات](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=3).
-* [بيانات التسلسلات وتاريخ السفر](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=6).
-* [دخول كوفيد 19 الى معظم الدول تقريبا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=8).
-* [كيف ينمو وينتشر الوباء](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=9).
-* [كيف ينمو وباء واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=10).
-* [كيف ينتشر وباء واشنطن](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=11).
-* [كيف بتغير عدد الحالات مع التباعد الاجتماعي](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=12).
-* [ماذا يمكنك أن تفعل](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=13).
-* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-20?n=14).
+* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=2).     
+* [Nota acerca del muestreo de casos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=3).
+* [Relación entre sequenciamiento del virus y el historial de viajes](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=6).
+* [Introdución del COVID-19 en la mayoría de países del mundo](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=8).
+* [Como los brotes de una epimedia crecen y se propagan](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=9).
+* [Crecimiento del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=10).
+* [Propagación del brote en el estado de Washington en EEUU](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=11).
+* [Impacto del distaciamiento social en el número de casos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=12).
+* [¡Qué puedes hacer tú](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=13)!
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# الملخص التنفيذي
+# Resumen Ejecutivo
+Este informe analiza 723 genomas públicos del COVID-19. La comparación de estos genomas virales nos permite caracterizar como el COVID-19 evoluciona y va mutando en las diferentes regiones del mundo.
 
-قمنا هنا بتحليل جينومات 723 فيروس كوفيد 19 تم مشاركتها للعموم. نستطيع من خلال مقارنة تسلسلات الجينومات الفيروسية مع بعضها البعض تحديد كيفية تنقل فيروس كوفيد 19 في العالم
+En este reporte, subrayamos que el virus ha sido introducido y circula en muchas partes del mundo.
+Para saber el grado de circulación local del COVID-19 así como las medidas de mitigación que pueden reducir su velocidad de transmisión se necesita conocer la dinámicas locales del brote epidémico. Esto ultimo solo puede lograrse a través de la aplicación en masa de pruebas de diagnostico.
 
-نؤكد في هذا التقرير على ان الفيروس تم ادخاله وما زال يدور في العديد من أجزاء العالم. المعرفة الجيدة بديناميكية كوفيد ١٩ ستساعد على فهم كيف يمكن لإجراءات مكافحته ان تقلل من انتشاره، وتحديد درجة انتشاره حاليا. هذا يتطلب عمليات فحص واسعة
-و يؤكد على اهمية الفحص السريع مع التركيز المشدد على ابطاء الانتشار المحلي.
+En resumen, es fundamental tener pruebas de diagnostico rápido enfocadas en disminuir la transmisión local.
 
-في تقرير هذا الاسبوع، نوثق ما يلي:
-* إثبات يشير إلى أن إدخال الفيروس لمعظم دول العالم له ارتباط في السفر
-* المناطق التي ظهر فيها الفيروس مؤخرا، تتوقع أن ترى توسعا في انتشار الفيروس في غضون ٤ ل ٨ أسابيع. وجب عليها الاستعداد.
-* العديد من الاماكن التي قامت حديثا بتطبيق اجراءات التباعد الإجتماعي، عليها أن تتوقع زيادة في تراكم الحالات على المدى القصير. أما الحالات الجديدة، فغالبا، سوف يثبت معدل ازديادها ومن ثم تبدأ بالانحدار على المدى المتوسط والطويل.
-* الفحص لكل من المصابين او الافراد المتعافين سيكون له اثر ايجابي في التعامل والسيطرة على هذا الوباء
+En la actualización de esta semana, reportamos que:
 
+* Evidencia de introducciones del virus relacionadas con viajes en varias partes del mundo.
+* Lugares con introducciones recientes del virus verán un incremento importante en el numero de casos en las siguientes 4-8 semanas. Deben empezar a prepararse hoy.
+* Lugares que han implementado recientemente medidas de distanciamiento social seguirán viendo incrementos en el numero de casos acumulados en el corto plazo pero estos alcanzaran un máximo para luego empezar a disminuir en el mediano y largo plazo.
+* Pruebas de diagnostico tanto para casos activos y en remisión/recuperados serán vitales para lidiar con la epidemia.
 
 ```
+
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [مصادر كوفيد 19](https://nextstrain.org/ncov/2020-03-20)
-لقد قمنا بتحضير بعض المراجع التي تستحق القراءة من اجل التعرف على كوفيد 19 والفيروس الذي يسببه وهو سارس كو في 2.
-هذه المعلومات ستجعل تحليل البيانات التي نعرضها في هذا التقرير اسهل، اذا لم يكن لديك فكرة عن اشجار التصنيف الجيني فنحن نشجعك لزيارة الموقع التالي ['كيف تقرأ تقارير التصنيف الجيني](https://nextstrain.org/narratives/trees-background/ar)  والعودة الى هنا مرة اخرى عندما تكون جاهزا
+# [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-20)
+A continuación, hemos preparado algunos recursos de información que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
+
+Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion ['Cómo leer philogenias'](https://nextstrain.org/narratives/trees-background/es) antes de leer el presente reporte.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## الخلفية العلمية
+## Recursos de información relacionados con el COVID-19
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Antecendentes sobre los coronavirus </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Antecendentes del brote de COVID-19 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/ar"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/es/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Cómo leer Filogenias </a>
 </div>
 
-## قراءات اضافيه
-
-* ملخص عن سارس كو في 2 على ويكيبيديا [ويكيبيديا](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* كل اعداد الحالات الموثقة في هذا التقرير تم الحصول عليها من  [منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) كما هو بتاريخ ٢٠ آذار ٢٠٢٠
+## Material adicional
+* Resumen del brote de SARS-CoV-2 en [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2019-2020).
+* Los casos del COVID-19 usados en este documento son los reportados por la [OMS](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) al 20-03-2020.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [ملاحظة عن جمع العينات](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-نمتلك حاليا تسلسلات جينومية للفيروس من عينات جمعت من 36 دولة في 6 قارات. وهذا انجاز مهم-- فتحديد تسلسل جينوم فيروس ار ان اي كبير وغير معروف مسبقا في وسط جائحة وبائية هو امر صعب، وما كان ليصبح ممكنا لولا العمل المضني والمشاركة الفورية للبيانات من قبل العلماء والاطباء حول العالم
+# [Nota acerca del muestreo de casos](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+El presente reporte documenta la información de muestras tomadas en 36 países de 6 continentes. Este es un logro muy importante, el secuenciamiento de un virus desconocido de ARN en el medio de una pandemia, que ha sido posible gracias al trabajo sacrificado y la cooperación para compartir datos de muchos científicos y médicos en todo el mundo.
 <br><br>
-في حين ان هذه البيانات تمكننا من استنتاج العديد من الخصائص المفيدة عن الوباء وتتبع انتشاره بالوقت الحقيقي، الا انه من المهم التأكيد على ان استنتاجاتنا تبقى محدودة بسبب محدودية الوصول للبيانات.
-من كل اعداد حالات الاصابة، ففط مجموعة من المرضى يتم فحصها. من هؤلاء الذين تم فحصهم، مجموعة صغيرة من العينات يتم استخدامها  لتحديد تسلسل جينوم الفيروس .
-اي مجموعة حالات يتم فحصها وتحديد تسلسلاتها يمكن ان تختلف بشكل كبير على مدى الزمن والمناطق الحغرافية.
-بالاضافة الى ذلك ، فإن عمليات اعادة بناء اشجار التصنيف الجيني للوباء مرتبطة دائما بدرجة من عدم اليقين
+A pesar que estos datos nos permiten hacer importantes inferencias acerca del brote del virus y monitorear su propagación en tiempo real, debemos enfatizar que estas conclusiones son limitadas en su representatividad a nivel mundial.
+
+Del número total de casos de COVID-19, solo una parte son diagnosticados. De los casos diagnosticados, solo una parte tienen su genoma secuenciado.
+Las muestras de casos que son diagnosticados y secuenciados varían mucho entre diferentes regiones geográficas y también en el tiempo. Adicionalmente, los arboles filogenéticos de brote epidémicos tienen incertidumbre estadística intrínseca.
 <br><br>
-لنرى بعض الأمثلة
+Veamos algunos ejemplos.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [بعض الاماكن غير ممثلة بشكل كاف في هذه البيانات](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-تعرض الخارطة تسلسلات قليلة جدا من نصف الكرة الارضية الجنوبي. على سبيل المثال، لدينا فقط 4 تسلسلات من اصل 25 دولة في أمريكا اللاتينية، حيث تم تسجيل حالات كوفيد 19 بحسب [تقارير منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)  .هذا ليس لأن كوفيد 19 لا يدور في تلك الأماكن ولا لان حالات الاصابة هناك غير مهمة لفهم الفيروس وانما بسبب عدم توفر بيانات عن تسلسل جينوم الفيروس في تلك الأماكن.
+# [Algunas regiones estan sub-representadas en los datos actuales](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+El mapa muestra muy pocas secuencias del hemisferio Sur. Por ejemplo, solo se tienen secuencias de 4 de un total de 25 países de Latinoamérica donde [la OMS ha reportado](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) casos de COVID-19. Esto NO se debe a que el COVID-19 no se haya propagado en otros países, o que estos casos no proporcionen información crucial para caracterizar el virus, sino simplemente que las secuencias genómicas no están disponibles en estos lugares.
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [مناطق اخرى ممثلة بشكل اكبر في هذه البيانات](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-في بعض الاماكن كهولندا هناك كمية كبيرة متاحة عن بيانات تسلسل جينومات الفيروس مقارنة بعدد الحالات الكلي للاصابات
+# [Otras regiones estan sobrerepresentadas en los datos actuales](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+En otras áreas, como los Países Bajos, hay una gran cantidad relativa de secuencias genómicas disponibles con respecto al numero total de casos.
 <br><br>
-لذلك عند قراءة هذا التقرير يجب تذكر ان حجم الدوائر على الشجرة يشير الى  كمية البيانات المتوفرة حاليا من تلك المنطقة وليس الحجم الحقيقي للوباء هناك.
-[اقرأ هنا](https://nextstrain.org/narratives/trees-background/ar?n=8) لفهم كيف يمكن ان يؤثر ذلك على استنتاجاتنا عن الانتشار الوبائي
+Por lo tanto, al leer este documento se debe tener en cuenta que el tamaño de los círculos en el mapa es solo proporcional a la cantidad de información disponible y no representa la magnitud del brote en cada región. Mas información sobre el efecto de esto en las inferencias estadísticas pueden encontrarse [aquí](https://nextstrain.org/narratives/trees-background/es?n=8).
 <br><br>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [بيانات تسلسل جينومات الفيروس يمكنها التقاطع مع تواريخ السفر](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [Los datos de secuenciamiento genético pueden ser usados para validar los historiales de viaje](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-تحديد اين تمت اصابة حالة معينة مهم من اجل فهم اي المناطق عانت حالات انتشار محلي للوباء مقارنة بحالات اولية مرتبطة بالسفر. بيانات التسلسل تساعدنا على التفريق بين هذه السيناريوهات.
+Identificar el momento de infección de un caso es importante para entender cuales son las areas que experimentan transmisión local en comparación con aquellas donde la introducción se dio por viajes (caso cero).
 <br><br>
-الشجرة هنا ملونة بحالة اصابة مرتبطة بالسفر (متى عرفت)ى.
-بالنظر الى التسلسل الكندي
+Aquí, el color del árbol representa la historia de viaje del caso (si es conocida). Por ejemplo, la secuencia canadiense (Canada/BC_78548/2020) en el medio del árbol representa un caso con historial de viaje en Europa. Esta infección esta agrupada con otras secuencias europeas pues es casi seguro, en términos estadísticos, que es una infección relacionada con un viaje.
 
-(Canada/BC_78548/2020)
-
-في الوسط نرى انه تم توثيق زيارتهم لأوروبا. مجموعات الاصابه هذه مع التسلسلات الاوروبية الاخرى ترينا بشكل مؤكد تقريباً بأن هذه الحالة مرتبطة بالسفر.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [بيانات تسلسل جينومات الفيروس تتقاطع مع تواريخ السفر](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Los datos de secuenciamiento genético pueden ser usados para validar los historiales de viaje](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-بتصغير الصورة، نستطيع ان نرى ان ذلك ليس دائما متوافقا
+Si nos alejamos un poco, podemos ver que esto no siempre es tan consistente.
 <br><br>
-نستطيع هنا ان نرى بأن جميع الحالات تقريبا التي تم توثيقها بالسفر الى ايران تتجمع معا في وسط الشجر.
+Aquí, podemos ver que casi todos los casos que han reportado algún viaje reciente a Irán forman un conglomerado en el medio del árbol.
 <br><br>
-نحو اعلى الشجرة نستطيع ان نرى حالة كندية بتاريخ سفر الى ايران ، ومع ذلك هذا التسلسل لا يتجمع في اي مكان بالقرب من بقية الحالات المرتبطة بتاريخ سفر الى ايران
+Hacia la cabecera del árbol, también podemos ver que existe un caso canadiense con historial de viaje a Irán. Sin embargo, en este caso esta secuencia no se agrupa cerca del resto de casos con historial de viaje a Irán.
 <br><br>
-هناك امكانية مؤكدة بأن هذا الشخص اصيب من خلال سلسلة انتشار اخرى جارية في ايران ولكن لا يمكننا التأكد بان حالة الاصابة هذه تم اكتسابها من خلال السفر قبل الحصول على المزيد من البيانات.
+Aunque es probable que esta persona se haya infectado a través de una segunda cadena de transmisión en Irán, no podemos confirmar que esta infección se haya dado a través de un viaje hasta que no haya mas datos precisos.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [تم دخول الفيروس الى كل دولة تقريبا حول العالم](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
-
-نستطيع ان نشاهد على الشجرة العديد من انواع التداخلات للعينات من دول مختلفة
-هذا يشير الى ان هذا النمط من الحركة البشرية ،الذي لا يمكن تجنبه، قد ساهم بادخال الفيروس الى اجزاء متعددة من العالم..
+# [Introducción del COVID-19 en la mayoría de países del mundo](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+En el árbol, podemos ejemplos donde los casos están inter-relacionados los unos con los otros.
+Esto indica que debido al inevitable movimiento migratorio humano el virus del COVID-19 ha sido introducido en muchas partes del mundo.
 <br><br>
-في الحقيقة, [تقارير منظمة الصحة العالمية](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) اكدت وجود حالات في 159 من 195 دولة من دول العالم
+En efecto, [la OMS reporta](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) que 159 países de un total del 195 en todo el mundo tienen casos confirmados.
 <br><br>
-ومع ذلك فليس جميع حالات الادخال تسبب في حالات انتشار وبائي
-
+Sin embargo, no todas las introducciones resultan en epidemias.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [انتشار الوباء يظهر بوضوح بعد 4-8 اسابيع من اول دخول](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [La epidemia se hace evidente luego de 4-8 semanas desde las primeras introducciones](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-ومع ذلك، يظهر كوفيد ١٩ وكأنه تفشى فجأة. لبعض الناس بدا وكأن الوباء قد تحول بين ليلة وضحاها، في أماكن مختلفة حول العالم، من حالة هامشية من حيث تأثيرها الصحي لحالة خطرة تثير الهلع.
+Pareciera que el brote de COVID-19 ha explotado súbitamente esta semana.
+Para mucha gente, de la noche a la mañana, la epidemia ha pasado de ser una noticia abstracta en algunos países del mundo a ser algo que impacta directamente su vida diaria.
 <br><br>
-ولكن يجب الأخذ بعين الاعتبار، بأن الوباء،  بعد الدخول الأولي،  عبر خلال فترة حضانة مكنته من التكاثر والانتشار. بناء عليه فإن أغلب الظن، بأن معظم الدول أعلنت عن تفشي الوباء بعد أسابيع من الدخول  الأولي.
+Debemos recordar que el brote ha estado creciendo sin ser detectado por varias semanas. Y no se trata necesariamente que el virus haya sido introducido a lugares nuevos con mas frecuencia.
+Es mas mucho probable que los países se hayan hecho conscientes de brotes locales a consecuencia de introducciones en semanas anteriores.
 <br><br>
-المناطق التي لم تعلن بعد عن تفشي الوباء، عليها الاستعداد،  والابتداء بتحضير فحوصات مراقبة
+Áreas donde aun no se han detectado brotes locales deben prepararse ahora y empezar diagnósticos preliminares.
+
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# كيف يمكن لدخول الفيروس ان يتحول الى وباء؟
+# ¿Cómo las introducciones se convierten en brotes?
 
-هذه الادخالات لا تسبب احيانا حالات اصابة ثانوية او تفشي محلي للوباء -- خصوصا اذا تم اكتشاف الحالة الحاملة للفيروس وتم عزلها. ومع ذلك، في العديد من الحالات ينتشر الفيروس بشكل لا يمكن كشفه خلال المجتمع المحلي حتى يصل الوباء الى حجم ملحوظ.
+A veces, las introducciones del virus no resultan en casos secundarios o en brotes locales, especialmente si el caso índice (el primer caso) es rápidamente detectado y aislado. Sin embargo, el virus muchas veces se puede propagar en la comunidad local sin detección hasta que el brote llegua a un tamaño notable.
 
-يوجد ادناه تجربة تبين كيف حدث ذلك في ووهان. على المحور الصادي لدينا المساحة وعلى المحور السيني لدينا الزمن. المنطقة المظللة تمثل عدد الاصابات.
+Abajo pueden ver una situación teórica que explica cómo sucedió el brote en Wuhan. El eje “y” representa el espacio geográfico; el eje “x” representa el tiempo transcurrido. El área sombreada representa el número de casos.
 
-"تحول  كوفيد ١٩ في ووهان  من حالة مصابة في نوفمبر 2019 الى عدة الاف من الحالات مع اواسط يناير 2020، ولذلك فالانتقال من حالة اولية الى تفشي الوباء المحلي استغرق حوالي 10 اسابيع. نحن نعتقد بان حالات الإصابة الأولية بدأت عالمياً في اواسط يناير 2020. ولذلك لدينا 10 اسابيع حاسمة منذ ذلك الحين لاحتواء حالات الانتشار الوبائي الوليدة قبل ان تصبح بحجم كبير وملحوظ"
+“COVID-19 en Wuhan se propagó desde un caso índice en noviembre del 2019 a miles de casos en mediados de enero, propagándose desde una introducción principal a un brote con transmisión local masiva en solo 10 semanas. Dado que creemos que las introducciones internacionales del virus empezaron en mediados de enero, tenemos aproximadamente 10 semanas desde entonces hasta finales de marzo para controlar los brotes individuales antes que se vuelvan masivos.” [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
- [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
-
-هذه الانتشارات الوبائية يمكن بدورها ان تزرع ادخالات جديدة الى اماكن اخرى
+Los brotes nuevos, a su vez, pueden ser fuentes del virus para introducciones adicionales en otros lugares del mundo.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -199,14 +195,11 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [كيف ينمو الوباء: مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Cómo crecen los brotes: un ejemplo](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-نستطيع ان نرى مثالا واضحا على ذلك عبر البيانات المسجلة من ولاية واشنطن. تمرير الفأرة فوق جذر الفرع الرئيسي للشجرة يظهر بانه قد تم ادخال الفيروس على الاغلب الى هذه المنطقة ما بين نهاية يناير واوسط فبراير ٢٠٢٠
-
- ([الطرق](https://nextstrain.org/narratives/trees-background/ar?n=6)).
+Se puede apreciar un ejemplo claro de la propagación del virus en los datos que provienen desde el estado de Washington. Enfocándonos en la raíz del grupo principal en el árbol filogénetico, podemos concluir que el virus probablemente fue introducido a esta área entre finales de enero y mediados de febrero del 2020 ([methods](https://nextstrain.org/narratives/trees-background/es?n=6)).
 <br><br>
-الان، منتصف مارس (بعد حوالي 6 اسابيع) نرى انتشارا كامل الفعالية للوباء في هذه المنطقة. من خلال البيانات التسلسلية فقط، يمكننا تقدير بأن معدل التضاعف سيحدث في غضون 3-6 ؛ بافتراض معدل نمو لوغاريتمايتي في المجتمع.
-
+Ahora, a mediados de marzo (~6 semanas después), podemos apreciar que el brote local en el estado de Washington está creciendo rápidamente. Usando solamente los datos de la secuenciación genómica, podemos apreciar que la tasa de duplicación del virus (lo rápido que los casos del virus se duplican) se encuentra entre 3 a 6 días, asumiendo una población con crecimiento exponencial.  
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -216,36 +209,34 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [كيف ينتشر الوباء: مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [Cómo crecen los brotes: un ejemplo](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-بمكننا أيضا مشاهدة مثال على كيف ان حالات انتشار وبائي اولية يمكن ان تولد دخول للفيروس في اماكن اخرى. العينات من ولاية يوتا قرب اعلى الشجرة ( البرتقالي) تتمركز داخل الفرع الرئيسي من حالة وباء واشنطن. وهذا يشير إلى إدخال الفيروس ليوتا عن طريق ولاية واشنطن، على الرغم  من احتمالية وجود مرحلة وسطية في سلسلة الانتشار
+También podemos apreciar un ejemplo adicional de cómo brotes que originalmente eran locales pueden servir como fuentes del virus para introducirlo en otros lugares. Las muestras aisladas de casos en el estado de Utah se encuentran en la parte superior del árbol filogénetico (en color naranja) encajadas en el grupo principal del brote de Washington. Con estos datos podemos inferir que hubo una introducción del virus desde Washington hacia Utah, tomando en cuenta que pasos intermediarios en la cadena de transmisión también son posibles.
 <br><br>
-لا نعلم على وجه التأكيد فيما اذا كان هذا الادخال - من واشنطن ليوتا - قد سبب حالة انتشار وبائي في يوتا لكن اذا استمر الفيروس في الانتشار بعد دخول الفيروس، فسوف نتوقع ان نتأكد من العلاقة بين ادخال الفيروس وانتشاره في يوتا على مدى الاسابيع الاربعة القادمة.
-
+No sabemos si esta introducción resultará en un brote local en Utah, pero si el virus se continúa propagando después de estas introducciones, esperamos apreciar el desarrollo del brote a través de las próximas 4 semanas.
 <br><br>
-هذا مجرد مثال واحد، من الممكن ان يكون  هناك دخول آخر للفيروس في يوتا (او اماكن اخرى) والتي لا نستطيع مشاهدتها على الشجرة لانه لم يتم تحديد تسلسلاتها. والاكثر اهمية هو ان الاماكن التي ما زالت لم تكتشف حالات الانتشار الوبائي يجب عليها الاستعداد فورا وان تبدأ بعمليات فحص مسحية.
+Lo que presentamos es solamente un ejemplo. Es posible que hayan ocurrido otras introducciones del virus a Utah (o a otros lugares) que no aparecen en el árbol filogénetico si el virus de esos casos principales no fue secuenciado. Es altamente importante que las áreas donde los brotes locales no son todavía aparentes empiecen preparaciones y pruebas diagnósticas de vigilancia de salud pública.   
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [تدابير التخفيف تأخذ وقتا لكنها تنقذ الارواح](https://nextstrain.org/ncov/2020-03-20)
+# [Medidas de mitigación toman tiempo, pero salvan vidas](https://nextstrain.org/ncov/2020-03-20)
 
-باتباع هذا المنطق فهناك على الاغلب العديد من سلاسل الانتشار المحلية والتي لم يتم التعرف عليها حتى الآن
+Siguiendo la misma lógica anteriormente discutida, deducimos que probablemente existen muchas más cadenas de transmisión local del virus que aún no conocemos.
 <br><br>
-وهذا يعني حتى الاماكن التي قامت فقط بتطبيق تدابير التباعد الاجتماعي فعلينا ان نستمر بتوقع ارتفاع اعداد الحالات فيها على مدى الاسابيع القليلة القادمة.
-هذا لا يعني بأن هذه التدابير لا تعمل، وانما فقط تحتاج لوقت حتى تظهر الاعراض على الافراد المصابين (وعلى افراد اسرهم ايضا)، ويتم معالجتهم ومن ثم تعافيهم. كما نتوقع ايضا حدوث تضخم في اعداد الحالات المسجلة مع زيادة إمكانية إجراء الفحوصات على نطاق واسع.
+Esta conclusión significa que hasta en áreas que recientemente empezaron medidas de distanciación social, todavía esperamos que el número de casos aumente a través de las próximas semanas.
+
+El aumento en el número de casos NO indica que estas medidas no están funcionando. Toma tiempo para que las personas que ya están infectadas (y posiblemente también los miembros de su hogar) muestren síntomas, reciban tratamiento, y se recuperen. También esperamos ver un aumento en el número de casos a medida que más pruebas diagnósticas se vuelvan más disponibles
 <br><br>
-من المهم الحفاظ على تدابير التباعد الاجتماعي خلال هذه الفترة. كما هو موضح على اليمين، اعداد الحالات مستمرة بالازدياد بعد ان تم تطبيق عمليات التدخل. ولكن مع الوقت فان الاعداد التراكمية للحالات انخفضت بقوة
+Es vital mantener la distancia social durante ese tiempo. Como pueden apreciar a la derecha, el número de casos sigue aumentando justamente después de la implementación de la intervención, pero, a través del tiempo, el número total de casos disminuye considerablemente.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## التباعد الاجتماعي لا يوقف كل الحالات الجديدة بين ليلة وضحاها ولكنه يقلل اعداد حالات الاصابة والوفيات على مدى الزمن.
-
-التباعد الاجتماعي - اي تقليل عدد الاشخاص الذي تلتقيهم يوميا - يمكن ان يشكل تحدياً ولكنه مفيد جداً لمصلحة الجميع. لو كل واحد من الجميع قام بتقليل نسبة اتصاله اليومي مع الاخرين بنسبة 25 بالمئة فيمكننا توقع انخفاض بنسبة 50 بالمئة من الاعداد التراكمية للاصابات خلال الشهر القادم.
-
-([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## La distanciación social no previene todos los casos nuevos inmediatamente, pero a través del tiempo disminuye altamente el número total de casos y las muertes.
+Distanciación social – es decir, disminuir el número de personas con cual te encuentras cada día – puede ser difícil, pero es increíblemente beneficioso para el público.  
+ Si cada persona disminuye su número de contactos diarios por un 25%, esperamos apreciar una reducción del 50% en el número de casos acumulados en el próximo mes ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -254,33 +245,32 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [الخلاصة](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- تم ادخال الفيروس الى العديد من اجزاء العالم عدة مرات
+# [Hallazgos Principales](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- El virus ha sido introducido a varias partes del mundo múltiples veces.  
 <br>
-- نرى ادلة على عمليات انتشار محلية للفيروس في العديد من الاماكن. نتوقع ان دخول مسبق للقيروس قد ساهم في اندلاع العديد من حالات التفشي المحلية للوباء، والتي ستتوضح في الاسابيع القادمة
+- Podemos apreciar evidencia de transmisión local en muchos logares; más, esperamos que muchas introducciones previas del virus se desarrollen en brotes locales en las próximas semanas.  
 <br>
--  السيطرة على تفشي الوباء من خلال التباعد الاجتماعي مهم للأسباب التالية:
-  - تسطيح المنحنى لحماية انظمة الرعاية الصحية من الانهيار بسبب أعداد الاصابات الضخمة. تسطيح المنحنى هو مصطلح يعني تقليص حجم منحنى الاصابات من خلال التباعد الاجتماعي  ([اقرأ هنا للمزيد](https://www.livescience.com/coronavirus-flatten-the-curve.html)).
-  - تقليل الاعداد الكلية لحالات المصابين والوفيات  
-  - اعطاء الوقت الكافي من اجل تطوير الأدوية واللقاحات
-
+- Controlando brotes locales a través de la distanciación social es vital para:
+  - Reducir el sobrecargo de los sistemas de saludo (la campaña #aplanarlacurva #FlattenTheCurve)  
+  - Disminuir el número total de casos y las muertes
+  - Abonar tiempo para el desarrollo de tratamientos terapéuticos y vacunas.  
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# ماذا يمكنك ان تفعل
-## ...كفرد في المجتع
-* التقليص بشكل كبير لعدد الاشخاص الذين تحتك بهم يوميا، خصوصاً ان كنت من ضمن مجموعة الافراد الاكثر عرضة للاصابة (كبار السن ومن لديهم امراض مزمنة او لديهم عوامل الاصابة)
-* تذكر حتى لو انك لست عرضة للاصابة ، العديد ممن حولك قد يكونون كذلك، اتبع التدابير التالية لحماية الاخرين:
-* اغسل بديك "كانك تريد تغيير عدساتك اللاصقة بعد ان قمت بتقطيع الفلفل"
-* ابق في المنزل قدر ما تستطيع -- خصوصا إذا كنت مريضا، كن مستعدا وتزود باحتياجات اضافية في حال اضطررت للحجر الذاتي.
-* إذا كنت رب عمل، شجع موظفيك على العمل من البيت ان كان ذلك ممكنا
+# Pasos que pueden tomar los
+## ...individuos
+* Reducir el número de personas con cual tienes contacto diariamente, especialmente si eres parte de un grupo de gente vulnerable al virus (por ejemplo: gente mayor y gente con condiciones médicas pre-existentes).
+* Recuerde que, aunque usted no sea particularmente vulnerable al virus, hay muchas personas que sí lo son; debe seguir estas prácticas para proteger a otros.
+* Lávese las manos “como si acabas de picar un jalapeño y tienes que cambiar tus lentes de contacto”.  
+* Quédese en casa lo más posible, especialmente si está enfermo; prepárese con provisiones adicionales por si tiene que estar en auto-cuarentena.  
 
-## ...كمسؤول  
-* اجعل الفحوصات مجانية ومتوفرة بكثرة
-* ضع تدابير التباعد الاجتماعي وتابع تنفيذها بفعالية على ارض الواقع
-* قم بتمويل وتطبيق جهود متابعة التواصل المكثفة.  
-* ادعم ماديا أولئك المتضررين مم التباعد الاجتماعي ( العمالة الذين يعملون بنظام الوقت الساعي،  اولئك الذين يعتنون بالكبار والأطفال, والمشاريع الصغيرة،...الخ).
+
+## ...oficiales gubernamentales    
+* Ofrecer pruebas diagnósticas gratuitas y fácilmente disponibles.  
+* Establecer políticas de distanciación social.  
+* Financiar e implementar seguimiento de contactos
+* Apoyar financieramente a las personas y los establecimientos impactados por las políticas de distanciación social (entre ellos: trabajadores que les pagan por hora, personas responsables por gente mayor o niños pequeños, empresas pequeñas, etc.).
 
 ```
 
@@ -289,20 +279,20 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 
 
 <!-- This is left-side text 14-->
-# [الحقوق العلمية](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Creditos Científicos](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-نود هنا ان نشكر ونقدر الاعمال الرائعة المنجزة بوقتها من قبل جميع العلماء الذي عملوا على هذا الوباء وخصوصاً أولئك العاملين في الصين.
-فقط من خلال المشاركة السريعة للبيانات الجينية كان بالامكان عمل عذه التحليلات
+Nos gustaría reconocer el increíble y oportuno trabajo realizado por todos los científicos involucrados en este brote, pero particularmente aquellos que trabajan en China.
+Solo mediante el intercambio rápido de datos genómicos y metadatos se pueden realizar análisis como estos.
 
 <br>
 
-كما نثمن بقوة ونشكر [GISAID](https://gisaid.org) على تزويدهم لنا بمنصتهم والتي تم من خلالها تحميل وتحليل البيانات.
+También agradecemos a [GISAID](https://gisaid.org) por proporcionar la plataforma a través de la cual estos datos se pueden depositar y compartir.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-نحن ممتنون للبيانات التي تم جمعها بواسطة المختبرات التالية:
+Agradecemos los datos generados por estos laboratorios:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -606,19 +596,19 @@ abstract: "يستخدم هذا التقرير البيانات الجينومي�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Créditos científicos detallados](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Los datos utilizados en este reporte son datos públicos compartidos por cada laboratorio a través de [GISAID](https://gisaid.org).
 
+Agradecemos cordialmente sus contribuciones.
 <br>
 
-To the right we give specific sequences shared by each lab.
+En el panel de la derecha especifícamos las secuencias compartidas por cada laboratorio.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-جينومات فيروسات سارس كو في ٢ تمت بمشاركة كريمة من فبل العلماء في المختبرات التالية:
+Los genomas del SARS-CoV-2 fueron generosamente compartidos por los científicos en estos laboratorios:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020

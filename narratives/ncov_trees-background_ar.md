@@ -1,10 +1,8 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
+title: كيف تقرأ وتحلل شجرة التصنيف الجيني
 authors:
   - Emma Hodcroft
   - Nicola Müller
-  - Cassia Wagner
-  - Misja Ilcisin
   - James Hadfield
   - Sidney M. Bell
   - Richard Neher
@@ -12,16 +10,20 @@ authors:
 authorLinks:
   - https://neherlab.org/emma-hodcroft.html
   - https://bedford.io/team/nicola-mueller/
-  - https://bedford.io/team/cassia-wagner/
-  - https://bedford.io/team/misja-ilcisin/
   - https://bedford.io/team/james-hadfield/
   - https://twitter.com/sidneymbell
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+  - Ahmad Saleh
+  - Fadi Alnaji
+translatorLinks:
+  - https://twitter.com/Ahmadsa96201545
+  - https://twitter.com/biofadialnaji
 date: "2020 March 13"
-dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
+abstract: " يفسر هذا التقرير كيفية قراءة وتحليل اشجار التصنيف الجيني والتي تغذي علم الوبائيات الجينومي بالمعلومات. هذا الموقع الالكتروني مهيأ للعرض على متصفحات اجهزة الحاسوب المكتبية"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -29,264 +31,192 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [جدول المحتويات](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [كيف ترتبط شبكات الانتشار بأشجار التصنيف الجيني؟](https://nextstrain.org/narratives/trees-background/ar?n=2).
+* [كيف تقرأ الشجرة؟](https://nextstrain.org/narratives/trees-background/ar?n=3).
+* [كيف يرتبط اطار "التنوع" بالشجرة؟](https://nextstrain.org/narratives/trees-background/ar?n=4).
+* [قياس الاختلافات مع الافتراق الجيني؟](https://nextstrain.org/narratives/trees-background/ar?n=5).  
+* [قياس الاختلافات مع الزمن](https://nextstrain.org/narratives/trees-background/ar?n=6).  
+* [كيف تحدد موعد بداية الانفجار الوبائي؟](https://nextstrain.org/narratives/trees-background/ar?n=7).
+* [كيف احلل الصفات (الالوان) على الشجرة؟](https://nextstrain.org/narratives/trees-background/ar?n=8).
+* [كيف ترتبط الخريطة بالشجرة؟](https://nextstrain.org/narratives/trees-background/ar?n=9).
+* [قراءات متقدمة: عدم اليقين بالاشجار](https://nextstrain.org/narratives/trees-background/ar?n=10).  
+* [عن مجموعة البيانات](https://nextstrain.org/narratives/trees-background/ar?n=11).  
 
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
-# Executive summary
-
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
-
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
-
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
-
-In this week's updates, we report:  
-
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
-
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
-
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
-
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
-
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
-
-* There is local circulation of COVID-19 in California.  
-
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
-```
+<!-- No right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [كيف ترتبط شبكات الانتشار باشجار التصنيف الجيني؟](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+تنتشر مسببات الأمراض من خلال تكاثرها السريع في عائل اول ثم تنتقل منه لعائل آخر. يتصاعد الإنتشار الوبائي فقط عندما تؤدي حالة اصابة واحدة الى اكثر من حالة عدوى بشكل متتالي.
+<br><br>
+كلما تكاثر مسبب المرض وانتشر فإن جينومه سيتناسخ عدة مرات مما يؤدي الى تراكم العديد من الطفرات (أخطاء أثناء عملية نسخ الجينوم) وهذا أمر طبيعي. مثل هذه الطفرات العشوائية يمكن ان تساعد في تتبع انتشار مسبب المرض وتعلمنا عن طرق وحركية الانتشار.
 
-<!-- This is right-side text -->
+
+<!-- This is right-side text --
 ```auspiceMainDisplayMarkdown
-
-## Background
-
-<div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
-
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
-
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+# مثال
+<div width="50%" margin="auto">
+<p>
+<img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
+</p>
+يظهر الشكل الموضح أعلاه عرض لشجرة انتشار العدوى. حيث أن كل دائرة تمثل حالة (شخص مصاب), والخطوط الافقية تشير الى طول فترة اصاباتهم. الحالات المترابطة تشير الى انتشار العدوى من شخص الى الآخر. يظهر هنا صورة كاملة لشجرة انتشار العدوى. عمليا، مع ذلك، فقط بعض الحالات تم جمعها (بالازرق) والاخرى تقديريه؛ ولذلك شجرة الانتشار ليست أكيدة بالمطلق، وما هو متوفر فقط تقدير تقريبي عن عدد الحالات.  تسلسل الجينومات يجعلنا قادرين على تحليل اجزاء من شجرة الانتشار. في هذا المثال، هناك ثلاث طفرات ( على شكل معينات صغيرة) مشار لها على الشجرة. التسلسلات التي تمتلك نفس الطفرات تعتبر متشابهة وبالتالي فإن هذه الطفرات تتيح لنا وضع العينات في  مجموعات مختلفه، كل مجموعة تحتوي سلاسل الفيروسات الأكثر تقاربا للحد الذي يمكن اعتبارها بأنها تنتمي لنفس بؤرة الانتشار.
+</p>
 </div>
 
-## Further Reading
-
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
-
-## Nextstrain narratives
-
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
-
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
-
-Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org). El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
-
-La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro muy notable. Estos análisis han sido posibles gracias al intercambio rápido y abierto de los datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes genomas).
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 ```
-
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [كيف تقرأ الشجرة؟](https://nextstrain.org/ncov/2020-03-11)
+
+المحور السيني للشجرة يمثل درجة الاختلاف (في الزمن او التباعد الجيني-- سنشرح  ذلك لاحقاً). اما المحور الصادي فهو فقط من اجل المساعدة على فصل الاشياء بعيداً عن بعضها لنرى كل شيء بوضوح، ولذلك ليس له أي وحدات قياس.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
-<br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+نهايات فروع الشجرة تمثل العينات (وهذا يعني الحالات الزرقاء في الشريحة السابقة). العقد الداخلية للشجرة تمثل الحالات التي لم يتم جمعها، ولكن نعتقد انها مصدر جميع الحالات التي انحدرت منها ( وهذا يعني العقد الحمراء في الشريحة السابقة). هذا العلاقات تم ربطها من خلال تحليل انماط الطفرات التي تم ملاحظتها في العينات التي تم جمعها من الحالات المصابة.
 
-<!-- There is NO right-side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
-<br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
-
-<!-- There is no right side text -->
-
-
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
-<br><br>
-This is consistent with 4 or more introductions from other locations.
-<br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
-<br><br>
-Note that there are no full genomes available from patients in Iran.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
-<br><br>
-Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
-However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases.
-<br><br>
-For Washington and California, though, we do see clusters of cases that are closely related.
-This suggests ongoing transmission and local spread within these two states.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Here, we see a large cluster of cases from Washington that are all closely related.
-From this, we conclude that there is extensive local spread within Washington state.
-<br><br>
-Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship.
-We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis.
-<!-- There is NO right-side text -->
-
-<!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
-<br><br>
-This strongly suggests that there is ongoing local transmission within California.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
-<br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
-<br><br>
-- Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
-
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-# What you can do  
-
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
-<div>
-  <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
-</div>
-
-## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
-
-## Steps officials can take  
-* Make testing free and broadly available.  
-* Put social distancing measures in place.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
-```
-
-
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
-
-#### We know that a lot of people have questions about COVID-19.
-
-#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
-
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Further reading  
+## مثال
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
+</p>
+<p>
+نرى في الشكل الموضح اعلاه شجرة تصنيف جيني على اليسار، حيث ان الطفرات مشار لها بدوائر ملونة. علي اليمين يوجد السلاسل الجينية المقابلة لتلك الطفرات على اليسار. هنا أيضا يشار للطفرات بدوائر ملونة ايضا. نستطيع مشاهدة ان التسلسلات التي تشترك بنفس الطفرات تتجمع معا (A و B). عندما تظهر التسلسلات مرتبطة معا بخط عمودي فهذا يعني انه لا يوجد هناك فروقات فيما بينهم-- اي سلاسلهم الجينية متطابقة.
+<br><br>
+عند وجود سلسلة على خط طويل بمفردها (C أو E) فهذا يعني أنه يمتلك طفرة فريدة غير موجودة في السلال الأخرى.
+<br><br>
+كلما كان طول الخط اكبر كلما كانت الطفرات أكثر.السلاسل A و B أيضاً تمتلك طفرات (الدوائر الخضراء) غير مشتركة مع تسلسلات أخرى، لكنها متطابقة مع بعضها.
+<br><br>
+اعتمادا على هذه الشجرة نستطيع الإستنتاج بأن  A و B مرتبطتان جدا ببعضهما وان D و E مرتبطتان جدا ببعضهما في حين ان  A و B  اكثر ارتباطا ب C من ارتباطهما ب D و E.
 
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+</p>
 
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
-
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
-
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
-
-
-# Misconceptions
-
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
-
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
-
-<div>
-
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
-
+### قراءات اضافية
+* [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
+* [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
 </div>
 
-
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [كيف يرتبط اطار "التنوع" بالشجرة؟](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+لنلق نظرة على أول ١٦٩ سلالة لفيروس سارس كو في ٢ (الفيروس المسبب ل كوفيد ١٩) والتي تم مشاركتها للعموم. كما المثال في الصفحة السابقة، قمنا بمحاذاة هذه التسلسلات الفيروسية لمقارنتها (يمكنك مشاهدة كيف تم عمل كل هذه التحليلات المذكورة هنا على موقع [on GitHub](https://github.com/nextstrain/ncov)).
+<br><br>
+نقوم هنا بعرض شجرة التصنيف الجيني فوق مخطط يبين التغيرات (اي الطفرات) في الجينوم (أسفل الصفحة). بدون هذه الطفرات لا يمكننا بناء الشجرة، لذلك فإن كلاهما مرتبط بالاخر.
+<br><br>
+في اطار "التنوع" هذا، المحور الافقي يمثل كل نيوكليوتيد على جينوم الفيروس. المحور العمودي يشير الى كمية الاختلاف (الطفرات) على كل نيوكليوتيد.
+<br><br>
+قمنا بتلوين الشجرة بناءاً على على واحدة من هذه الطفرات -- في هذه الحالة استخدمنا كودون رقم ٣١٤ في "اطار القراءة ١ ب". لا يوجد سبب للظن بأن هناك افضلية لان تكون هذه الطفرة طفرة وظيفية (اي تسبب اي تغير وظيفي). انها بالضبط طفرات كهذه هي التي نستخدمها لتحديد العلاقات بيت التسلسلات ونبني منها الشجرة.
 
-<br>
+<!-- There is NO right-side text -->
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
 
-<!-- Do not need to translate institutions names -->
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [قياس الاختلافات مع الافتراق الجيني](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+هذه شجرة تصنيف جيني لاول ١٦٩ سلالة لفيروسات سارس كو في ٢ (االفيروسات المسببة ل كوفيد ١٩) والتي تم مشاركتها للعموم.
+<br><br>
+هنا يشير المحور الافقي للاختلاف، والذي هو عدد التغيرات (الطفرات) في الجينوم مقارنة بجذر الشجرة ( اي بداية تفشي الوباء) بعض التسلسلات يمكن ان لا تمتلك اي طفرات-- وهذا يعني انها متطابقة مع جذر (مركز) الشجرة. فيروسات اخرى تمتلك ما بين طفرة الى احد عشرة طفرة.
+<br><br>
+في هذه اللحظة قد لا تبدو بانها تشبه "شجرة". العديد من التسلسلات متطابقة-ولذلك جاءت فوق بعضها بخطوط عمودية مثل A و B ( بعضها على  أقصى يسار الشجرة). بعضها الاخر يمتلك طفرات فريدة او مشتركة ولذلك تتواجد على خطوط او 'فروع' تتجه نحو اليمين. يمكنك مشاهدة كم عدد الطفرات على الفرع من خلال تمرير الفأرة فوقها.
+
+<!-- There is NO right-side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+# [قياس الاختلافات مع الزمن](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+نستطيع ايضا رؤية كيف انتشرت الفيروسات مع الزمن من خلال استخدام تاريخ جمع العينات كمحور سيني. هنا يمثل المحور السيني تاريخ جمع العينة لكل فيروس. مواقع الأطراف تبين تاريخ اخذ تلك العينات. تواريخ العقد الداخلية- - "الحالات المفقودة"-- يتم استنتاجها بناءا على متى تم جمع العينات المنحدرة منها ومعدل حدوث الطفرات للفيروس.
+<br><br>
+لاحظ كم عدد التسلسلات التي جاءت مسبقا فوق بعضها (مشيرة للجينومات المتطابقة) والتي أصبحت متباعدة مع الزمن.
+هذا يحدث عندما يكون معدل حدوث الطفرات في الفيروس اقل بقليل من من معدل انتشاره. يمكنك التنقل بين الشريحة  السابقة والشريحة الحالية لرؤية كيف تتغير الشجرة.
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+# [تحديد موعد بدء تفشي الوباء](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+
+نستطيع أيضاً استخدام علم الجينومات من اجل تحديد متى بدأ تفشي الوباء حتى لو حدث ذلك قبل ان ندرك حدوثه. لاننا نستطيع تحديد تواريخ كل عينة وكل عقدة في الشجرة فإننا نستطيع استخدام ذاك لاستنتاج تاريخ جذر الشجرة. وهذا يمثل " السلف الاحدث والاكثر تشابها" لكل تسلسلات فيروسات سارس كو في ٢ التي نملكها حتى الان. تماما مثل جدك أو جدتك " السلف الاحدث" لك ولكل ابناء عمومتك.
+<br><br>
+اذا قمت بتحريك الفأرة فوق الخط العمودي في اقصى اليسار يمكنك مشاهدة تاريخ البداية الذي تم استنتاجه لوقوع تفشي الوباء ؛ وهو ما بين وسط نوفمبر ووسط ديسمبر ٢٠١٩.
+
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [كيف احلل الصفات (الالوان) على الشجرة؟](https://nextstrain.org/ncov/2020-03-11)
+تحتوي شجرة التصنيف الجيني عادة على معلومات إضافية مثل موقع جمع كل عينة. من هنا نستطيع استنتاج مواقع العقد الداخلية (وسيط مفترض، حالات لم تجمع) باستخدام نماذج رياضية. يمكن ان بساعدنا هذا على فهم كيف يتنقل الفيروس من موقع الى الاخر.
+<br><br>
+عمليات الاستنتاج هذه يجب ان يتم عملها بحذر حيث ان ندرة عمليات الجمع او تحديد التسلسلات يمكن ان تؤثر بشكل ملحوظ على هذه الاستنتاجات.
+
+
+<!-- This is right-side text -->
+```auspiceMainDisplayMarkdown
+# مثال
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
+</p>
+<p>
+نعرض على اليسار شجرة تصنيف جيني لمجموعة كاملة من العينات، مع عينات من موقعين مختلفين موضحة باللونين البرتقالي والازرق. كلما انتقلنا في الشجرة من اعلى لاسفل نلاحظ تغير اللون من البرتفالي للازرق في ثلاث مواقع منفصلة. نستنتج من ذلك بانه كان هناك ثلاثة حالات ادخال مختلفة للفيروس من المنطقة البرتقالية الى المنطقة الزرقاء. لكن هذا الاستنتاج يعتمد على جمع العينات: في الشجرة الوسطى قمنا بازالة عينة برتقالية واحدة. نلاحظ الان تبدل واحد فقط من البرتقالي للازرق، مقترحا بانه كان هناك حالة ادخال واحدة الى المنطقة الزرقاء وحدثت قبل الوقت المقترح في الشجرة الأولى (اقصى اليسار). في المثال الاخير، لدينا تسلسل واحد فقط من المنطقة البرتقالية ليبدو وكأن هناك ادخال واحد من المنطقة البرتقالية للمنطقة الزرقاء. لذلك، وعلى الرغم من أهمية هذه الاستنتاجات الا انه يجب توخي الحذر في تحليلها .
+</p>
+
+```
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [كيف ترتبط الخارطة بالشجرة؟](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+نعرض هنا الشجرة ملونة بموقع كل عينة (والموقع المستنتج لكل عقدة داخلية)
+اذا ضغطت هنا ['استعرض البيانات'](https://nextstrain.org/ncov), يمكنك التلاعب في البيانات المرئية  لكيفية الانتشار المستنتج للفيروس خلال فترة الوباء.
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [قراءة متقدمة: عدم اليقين بالاشجار](https://nextstrain.org/ncov/2020-03-11)
+تحدثنا سابقاً عن كيف ان العقد الداخلية تمثل عينات حالات-افتراضية لم تجمع. في الحقيقة، كل الاشجار تقدم - فرضيات - عن كيفية تطور وانتقال مسبب المرض. الاشجار التي نعرضها على موقع نيكست سترين هي تقديرات دقيقة-- وهذا يعني وجود احتمالية عالية لحدوث هذه التقديرات
+<br><br>
+ومع ذلك فهناك دائما عدم يقين في هذه التقديرات. وبشكل عام فإن نسبة اليقين تكون اعلى في  اجزاء الشجرة التي تمثل المناطق التي تم جمع العينات منها بكثافة.  في حين ان نسبة اليقين تقل في المناطق التي كان جمع العينات فيها قليلا.
+
+```auspiceMainDisplayMarkdown
+# شرح توضيحي
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
+</p>
+</div>
+```
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [الحقوق العلمية](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+
+نود هنا ان نقدر العمل السريع والرائع من قبل جميع العلماء الذين  عملوا على هذا الوباء، ولكن نخص اولئك العاملين في الصين.
+ما كان لمثل هذه التحليلات ان تكون لولا المشاركة السريعة لبيانات الجينومات.
+
+<br><br>
+
+عظيم شكرنا موجه الى [GISAID](https://gisaid.org) على تزويدنا بمنصتهم والتي تم من خلالها رفع وتحليل البيانات التي تم مشاركتها.
+
+<!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+نحن ممتنون للبيانات الاصلية التي تم جمعها من قبل المختبرات التالية:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -414,21 +344,20 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [الحقوق العلمية التفصيلية](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+تم مشاركة هذه البيانات من خلال[GISAID](https://gisaid.org).
+نقدر ونثمن عاليا مساهماتهم
 
-<br>
+<br><br>
 
-To the right we give specific sequences shared by each lab.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+على اليمين نقدم التسلسلات المحددة والتي تم مشاركتها من كل مختبر
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+تسلسلات جينومات سارس كو في ٢ تم مشاركتها بجهود كريمة مم علماء في المختبرات التالية:
+
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
@@ -1188,5 +1117,6 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 
 * Zhongxian Center for Disease Control and Prevention
 	* Chongqing/ZX01/2020
+
 
 ```

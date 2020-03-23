@@ -70,6 +70,11 @@ location	Nantes
 location	Crépy en Valois
 location	Paris
 location	Reims
+location	garches
+location	rennes
+location	château-thierry
+location	longjumeau
+location	Levallois-perret
 location	Pontoise
 location	Compiègne
 location	Contamines
@@ -112,6 +117,7 @@ location	Phoenix
 location	Chicago
 location	Illinois
 location	Wisconsin
+location	Dane County
 location	Boston
 location	Nassau County
 
@@ -122,6 +128,7 @@ division	Beijing
 division	Anhui
 division	Jiangxi
 division	Chongqing
+division	Hangzhou
 division	Sichuan
 division	Yunnan
 division	Jiangsu
@@ -135,6 +142,7 @@ division	Taiwan
 division	Taoyuan
 division	Aichi
 division	Tokyo
+division	Saitama
 division	Nara
 division	Osaka
 division	Kyoto
@@ -146,6 +154,8 @@ division	South Korea
 division	Kathmandu
 division	Kerala
 division	Iran
+division	Kuwait
+division	Dasman
 division	Tbilisi
 division	Thanh Hoa
 division	Vinhphuc
@@ -157,20 +167,26 @@ division	Singapore
 division	Queensland
 division	New South Wales
 division	Victoria
+division	Wellington
 division	Auckland
 division	Riyadh
 division	Europe
 division	Central Hungary
 division	Copenhagen
+division	Bretagne
 division	Ile de France
 division	Pays de la Loire
 division	Hauts de France
+division	Bretagne
 division	Bourgogne-France-Comté
 division	Normandie
 division	Grand Est
 division	Auvergne Rhone Alpes
 division	Flanders
 division	Leuven
+division	Couthuin
+division	Kessel-Lo
+division	Holsbeek
 division	Sint-Niklaas
 division	Kraainem
 division	Huldenberg
@@ -189,6 +205,7 @@ division	Flevoland
 division	South Holland
 division	North Holland
 division	Luxembourg
+division	Zielonogorskie
 division	Basel
 division	Bern
 division	Zurich
@@ -254,7 +271,9 @@ country	Singapore
 country	Australia
 country	New Zealand
 country	Saudi Arabia
+country	Kuwait
 country	Georgia
+country	Poland
 country	Hungary
 country	France
 country	Denmark

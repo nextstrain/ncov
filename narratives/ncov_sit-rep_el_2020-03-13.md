@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-13.
+title: Γονιδιακή ανάλυση της COVID-19 διασποράς. Κατάσταση 2020-03-13.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -19,9 +19,13 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-date: "2020 March 13"
+translators:
+  - Sotiris Salloumis
+translatorLinks:
+  - https://github.com/codergr
+date: "2020 Μαρτίου 13"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Aυτή η αναφορά χρησιμοποιεί δημόσια γονιδιωματικά δεδομένα για την παρακολούθηση της εξάπλωσης τής ασθένειας COVID-19. Οι αναφορές ενημερώνονται κάθε εβδομάδα."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -29,197 +33,184 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [Πίνακας περιεχομένων](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=2).     
-* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=3).
-* [Circulation in Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=4).   
-* [Local transmission in the U.K.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=5).
-* [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=6).
-* [Introductions to the U.S.](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=7).
-* [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=8).
-* [Spread of SARS-CoV-2 in California](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=9).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=10).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=12).
+* [Πηγές](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=2).     
+* [Μια σημείωση σχετικά με τη δειγματοληψία](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=3).
+* [Κυκλοφορία στην Ευρώπη](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=4).   
+* [Τοπική μετάδοση στο Ηνωμένο Βασίλειο](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=5).
+* [Διάδοση του SARS-CoV-2 από το Ιράν](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=6).
+* [Εισαγωγή στις ΗΠΑ](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=7).
+* [Διάδοση του SARS-CoV-2 στη πολιτεία της Ουάσινγκτον](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=8).
+* [Διάδοση του SARS-CoV-2 στην Καλιφόρνια](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=9).
+* [Τι μπορείς να κάνεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=10).
+* [Συχνές ερωτήσεις και κοινές παρανοήσεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=11).
+* [Επιστημονικές αναγνωρίσεις](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Περίληψη
 
-Here, we analyzed 410</tag> publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+Εδώ, έχουμε αναλύσει 410</tag> δημόσια διαθέσιμα COVID-19 γονιδιώματα. Συγκρίνοντας τα ιικά γονιδιώματα μεταξύ τους, μπορούμε να χαρακτηρίσουμε το πώς εξελίσσεται και κινείται η νόσος COVID-19 σε όλο τον κόσμο.
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+Για ένα τρέχον στιγμιότυπο του αριθμού των περιπτώσεων κορωναϊού σε ολόκληρο τον κόσμο, βλ. [Ο κόσμος μας στα δεδομένα](https://ourworldindata.org/coronavirus).
 
-In this report, we show that the virus is widely circulating across the globe, with evidence of local transmission on multiple continents.
-At this time, we urge focus on efforts to slow the spread within communities; travel bans are less likely to be effective.
+Σε αυτήν την έκθεση, δείχνουμε ότι ο ιός κυκλοφορεί ευρέως σε ολόκληρο τον κόσμο, με στοιχεία τοπικής μετάδοσης σε πολλές ηπείρους.
+Αυτή τη στιγμή, παροτρύνουμε την εστίαση στις προσπάθειες για την επιβράδυνση της εξάπλωσης στις κοινότητες. Οι ταξιδιωτικές απαγορεύσεις είναι λιγότερο πιθανό να είναι αποτελεσματικές.
 
-In this week's updates, we report:  
+Στις ενημερώσεις αυτής της εβδομάδας αναφέρουμε:
 
-* COVID-19 is circulating widely across Europe, with significant movement between countries.  
+* Το COVID-19 κυκλοφορεί ευρέως σε ολόκληρη την Ευρώπη, με σημαντική κίνηση μεταξύ των χωρών.
 
-* We identify at least 4 introductions to the UK, some with onward community transmission.  
+* Αναγνωρίζουμε τουλάχιστον 4 εισαγωγές στο Ηνωμένο Βασίλειο, κάποιες με μεταγενέστερη κοινοτική μετάδοση.
 
-* There have been a number of travel-related cases linking Iran with other parts of the world.  
+* Έχουν υπάρξει πολλές ταξιδιωτικές υποθέσεις που συνδέουν το Ιράν με άλλα μέρη του κόσμου.
 
-* There have been many introductions into the U.S. to date, resulting in local transmission chains in multiple states.  
+* Υπήρξαν πολλές εισαγωγές στις ΗΠΑ μέχρι σήμερα, με αποτέλεσμα τοπικές αλυσίδες μεταφοράς σε πολλαπλές καταστάσεις.
 
-* The outbreak continues to grow in Washington state; some cases are closely related to those from the Grand Princess cruise ship.  
+* Το ξέσπασμα συνεχίζει να αυξάνεται στην πολιτεία της Ουάσινγκτον. ορισμένες περιπτώσεις σχετίζονται στενά με εκείνες του κρουαζιερόπλοιου Grand Princess.
 
-* There is local circulation of COVID-19 in California.  
+* Υπάρχει τοπική μετάδοση του COVID-19 στην Καλιφόρνια.
 
-* Social distancing measures should be enacted swiftly to ease the burden on healthcare systems and protect the vulnerable.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+* Τα μέτρα κοινωνικής απομάκρυνσης πρέπει να τεθούν γρήγορα σε εφαρμογή για να μειωθεί η επιβάρυνση των συστημάτων υγειονομικής περίθαλψης και να προστατευθούν οι ευάλωτοι.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [COVID-19 σύνδεσμοι](https://nextstrain.org/ncov/2020-03-05)
+Εδώ έχουμε συγκεντρώσει αρκετούς πόρους που αξίζει να διαβάσετε για να εξοικειωθείτε με το COVID-19 (τη νόσο) και τον ιό που το προκαλεί, το SARS-CoV-2. Αυτές οι πληροφορίες θα διευκολύνουν την κατανόηση των παρακάτω δεδομένων.
+Οι πληροφορίες αυτές θα διευκολύνουν την ερμηνεία των δεδομένων που παρουσιάζουμε σε αυτή την αφήγηση. αν δεν είστε εξοικειωμένοι με φυλογενετικά δέντρα, σας συνιστούμε να ελέγξετε την αφήγηση ['Πώς να διαβάσετε τα Φυλογόνα'](https://nextstrain.org/narratives/trees-background/) και να επιστρέψετε όταν είστε έτοιμοι .
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Ιστορικό
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Ιστορικό των κορονοϊών </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Πρόσφατο ιστορικό της νόσου COVID-19</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Πώς να διαβάσετε Φυλογενέσεις</a>
 </div>
 
-## Further Reading
+## Περαιτέρω ανάγνωση
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+* Περίληψη της επιδημίας του ιού SARS-CoV-2 [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* Το υλικό που παρέχεται από το [US CDC](https://www.cdc.gov/coronavirus/index.html).
 
-## Nextstrain narratives
+## Αφηγήσεις του Nextstrain
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+Οι ακόλουθες σελίδες περιέχουν ανάλυση που εκτελείται χρησιμοποιώντας το [Nextstrain](https://nextstrain.org).
+Η κύλιση θα αποκαλύψει παραγράφους του κειμένου με αντίστοιχη απεικόνιση των γονιδιωματικών δεδομένων.
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
-
-Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org). El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
-
-La obtención (secuenciación) rápida de genomas completos de un nuevo virus de ARN es un logro muy notable. Estos análisis han sido posibles gracias al intercambio rápido y abierto de los datos genómicos y a las interpretaciones por parte de científicos de todo el mundo (la diapositiva final incluye los autores de cada uno de los diferentes genomas).
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+Για να έχουν πλήρη γονιδιώματα ενός νέου και μεγάλου ιού RNA αυτό είναι γρήγορα ένα αξιόλογο επίτευγμα.
+Αυτές οι αναλύσεις έγιναν δυνατές με την ταχεία και ανοιχτή ανταλλαγή γονιδιωματικών δεδομένων και ερμηνειών από επιστήμονες σε όλο τον κόσμο (βλ. Την τελική διαφάνεια για την απεικόνιση της αλληλουχίας του συντάκτη).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note about sampling](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 30 countries across 5 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
-<br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
-<br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+# [Μια σημείωση σχετικά με τη δειγματοληψία](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+Αυτή τη στιγμή έχουμε ακολουθίες από δείγματα που έχουν ληφθεί σε 30 χώρες σε 5 ηπείρους. Αυτό είναι ένα απίστευτο κακό - η αλληλουχία ενός άγνωστου, μεγάλου ιού RNA στη μέση μιας πανδημίας είναι δύσκολη και είναι δυνατή μόνο μέσω της απίστευτης εργασίας και της έγκαιρης ανταλλαγής δεδομένων από επιστήμονες και γιατρούς σε όλο τον κόσμο.
+<br> <br>
+Αν και αυτά τα δεδομένα μας επιτρέπουν να συναγάγουμε πολλά χρήσιμα χαρακτηριστικά της εστίας και να παρακολουθήσουμε την εξάπλωσή της σε πραγματικό χρόνο, είναι σημαντικό να υπογραμμίσουμε ότι τα συμπεράσματά μας περιορίζονται από τα διαθέσιμα δεδομένα.
+<br> <br>
+Για παράδειγμα, ο χάρτης δείχνει πολύ λίγες ακολουθίες από τον παγκόσμιο νότο. Αυτό δεν είναι επειδή το COVID-19 δεν κυκλοφορεί σε αυτές τις περιοχές, ή ότι αυτές οι περιπτώσεις δεν είναι τόσο κρίσιμες για την κατανόηση. αντίθετα, απλά δεν διαθέτουμε πολλά στοιχεία από αυτές τις περιοχές. Το μέγεθος κάθε κύκλου στο χάρτη υποδεικνύει πόσα δεδομένα είναι διαθέσιμα από αυτήν την περιοχή, αντί για το πραγματικό μέγεθος της εστίας.
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Circulation across Europe](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Here, we see a large clade of sequences from Europe.
-Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe.
-<br><br>
-Zooming in on the map, we see that there are many links between Italy and other areas; however, it is important to keep in mind that the directionality of these links can't always be confidently inferred. Other hypotheses can also explain these data (e.g., if an unsampled case infected both a secondary case sequenced in Italy and a secondary case sequenced elsewhere).
+# [Κυκλοφορία σε όλη την Ευρώπη](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+Εδώ, βλέπουμε μια μεγάλη συλλογή ακολουθιών από την Ευρώπη.
+Συγκεκριμένα, αλληλουχίες από πολλές διαφορετικές χώρες παρεμβάλλονται, υποδηλώνοντας ότι το COVID-19 κυκλοφορεί ήδη ευρέως σε ολόκληρη την Ευρώπη.
+<br> <br>
+Με τη μεγέθυνση του χάρτη, βλέπουμε ότι υπάρχουν πολλές συνδέσεις μεταξύ της Ιταλίας και άλλων περιοχών. Ωστόσο, είναι σημαντικό να έχουμε κατά νου ότι η κατευθυντικότητα αυτών των συνδέσμων δεν μπορεί πάντα να συναχθεί με βεβαιότητα. Άλλες υποθέσεις μπορούν επίσης να εξηγήσουν αυτά τα δεδομένα (π.χ., εάν μια περίπτωση μη δειγματοληψίας μολύνει τόσο δευτερογενή περίπτωση που έχει ταξινομηθεί στην Ιταλία όσο και δευτερεύουσα περίπτωση που έχει αλληλουχίες αλλού).
 
 <!-- There is no right side text -->
 
 
-# [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.
-<br><br>
-This is consistent with 4 or more introductions from other locations.
-<br><br>
-We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+# [Τοπική μετάδοση στα βρετανικά νησιά και την Ιρλανδία](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+Εξετάζοντας τα βρετανικά νησιά και την Ιρλανδία ως παράδειγμα, μπορούμε να δούμε αρκετές περιπτώσεις όπου ιούς που σχετίζονται στενά με δείγματα από άλλες χώρες εμφανίζονται στις Βρετανικές Νήσους και την Ιρλανδία.
+<br> <br>
+Αυτό συμβαδίζει με 4 ή περισσότερες εισαγωγές από άλλες τοποθεσίες.
+<br> <br>
+Βλέπουμε επίσης περιπτώσεις όπου, μετά από μια εισαγωγή, υπάρχουν πολλές στενά συνδεδεμένες περιπτώσεις από την ίδια τοποθεσία. Αυτό συμβαδίζει με τη μετάδοση της τοπικής κοινότητας από περισσότερες από μία από αυτές τις εισαγωγές.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 from Iran](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-A number of genomes have been sequenced from patients reporting travel history to Iran. These genomes are all extremely similar, and indicate that the outbreak in Iran may be the result of a single transmission which has subsequently been transmitted to many other places.
-<br><br>
-Note that there are no full genomes available from patients in Iran.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+# [Διάδοση του SARS-CoV-2 από το Ιράν](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+Ορισμένα γονιδιώματα έχουν αναλυθεί από ασθενείς που αναφέρουν ιστορία ταξιδιών στο Ιράν. Αυτά τα γονιδιώματα είναι πάρα πολύ παρόμοια και δείχνουν ότι το ξέσπασμα στο Ιράν μπορεί να είναι το αποτέλεσμα μιας μόνο μετάδοσης η οποία στη συνέχεια μεταδόθηκε σε πολλά άλλα μέρη.
+<br> <br>
+Σημειώστε ότι δεν υπάρχουν πλήρη γονιδιώματα διαθέσιμα από ασθενείς στο Ιράν.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Introductions to the U.S.](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Here, we can see that the virus has been introduced to the U.S. on multiple independent occasions.
-<br><br>
-Most of these introductions aren't associated with any other sampled cases from the U.S., so we're not sure if these introductions led to local outbreaks.
-However, given that testing capacity is not yet ramped up in most areas, we expect there are many unreported cases.
-<br><br>
-For Washington and California, though, we do see clusters of cases that are closely related.
-This suggests ongoing transmission and local spread within these two states.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+# [Εισαγωγές στις ΗΠΑ](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+Εδώ, μπορούμε να δούμε ότι ο ιός έχει εισαχθεί στις ΗΠΑ σε πολλές ανεξάρτητες περιπτώσεις.
+<br> <br>
+Οι περισσότερες από αυτές τις εισαγωγές δεν συσχετίζονται με άλλα δείγματα από τις ΗΠΑ, επομένως δεν είμαστε σίγουροι εάν αυτές οι εισαγωγές οδήγησαν σε τοπικές εστίες.
+Ωστόσο, δεδομένου ότι η ικανότητα δοκιμών δεν έχει ακόμη επιταχυνθεί στις περισσότερες περιοχές, αναμένουμε ότι υπάρχουν πολλές περιπτώσεις που δεν έχουν αναφερθεί.
+<br> <br>
+Ωστόσο, για την Ουάσιγκτον και την Καλιφόρνια, βλέπουμε συστάδες περιπτώσεων που σχετίζονται στενά.
+Αυτό υποδηλώνει συνεχή μετάδοση και τοπική εξάπλωση σε αυτά τα δύο κράτη.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in Washington state](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Here, we see a large cluster of cases from Washington that are all closely related.
-From this, we conclude that there is extensive local spread within Washington state.
-<br><br>
-Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship.
-We aren't sure yet whether the virus spread from the cruise ship to Washington or the other way around; as we get more data, we'll update our analysis.
+# [Διάδοση του SARS-CoV-2 στη πολιτεία της Ουάσινγκτον](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+Εδώ, βλέπουμε μια μεγάλη δέσμη περιπτώσεων από την Ουάσινγκτον που συνδέονται στενά.
+Από αυτό, συμπεραίνουμε ότι υπάρχει εκτεταμένη τοπική εξάπλωση στο κράτος της Ουάσινγκτον.
+<br> <br>
+Είναι ενδιαφέρον ότι τα δείγματα της Ουάσιγκτον παρεμβάλλονται με δείγματα από το κρουαζιερόπλοιο Grand Princess.
+Δεν είμαστε ακόμα σίγουροι αν ο ιός εξαπλώθηκε από το κρουαζιερόπλοιο στην Ουάσινγκτον ή το αντίθετο. καθώς θα έχουμε περισσότερα δεδομένα, θα ενημερώσουμε την ανάλυσή μας.
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Spread of SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Looking at samples from California, we see evidence for multiple introductions.
-More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example).
-<br><br>
-This strongly suggests that there is ongoing local transmission within California.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+# [Διάδοση του SARS-CoV-2 στην Καλιφόρνια](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+Κοιτώντας δείγματα από την Καλιφόρνια, βλέπουμε στοιχεία για πολλαπλές εισαγωγές.
+Το πιο σημαντικό είναι ότι βλέπουμε τουλάχιστον μία δέσμη στενά συσχετιζόμενων περιπτώσεων, οι οποίες έχουν εμφανιστεί στην Καλιφόρνια σε σύντομο χρονικό διάστημα (κάντε κλικ στο [Εξερευνήστε τα δεδομένα](https://nextstrain.org/ncov) και αναζητήστε 'CA9' για παράδειγμα).
+<br> <br>
+Αυτό δείχνει έντονα ότι υπάρχει συνεχής τοπική μετάδοση στην Καλιφόρνια.
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times. Not all introductions result in local transmission.  
-<br><br>
-- We see evidence of local transmission across Europe, parts of the United States, China, and Southeast Asia.  
-<br><br>
-- Controlling local outbreaks through social distancing is crucial to protect the vulnerable.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+# [Συμπεράσματα](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+- Ο ιός έχει εισαχθεί σε πολλά μέρη του πλανήτη πολλές φορές. Όλες οι εισαγωγές δεν έχουν ως αποτέλεσμα την τοπική μετάδοση.
+<br> <br>
+- Βλέπουμε στοιχεία τοπικής μετάδοσης σε όλη την Ευρώπη, τμήματα των Ηνωμένων Πολιτειών, της Κίνας και της Νοτιοανατολικής Ασίας.
+<br> <br>
+- Ο έλεγχος των τοπικών εστιών μέσω της κοινωνικής απομάκρυνσης είναι ζωτικής σημασίας για την προστασία των ευάλωτων.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do  
+# Τι μπορείς να κάνεις
 
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Not sure what social distancing means? [Check out this helpful guide](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+Η κοινωνική απομάκρυνση - δηλαδή, μείωση του αριθμού των ατόμων που συναντάτε κάθε μέρα - μπορεί να είναι δύσκολη υπόθεση, αλλά είναι εξαιρετικά επωφελής για το δημόσιο καλό.
+  Αν ο καθένας μείωσε τις καθημερινές επαφές κατά 25%, αναμένεται μείωση κατά 50% του σωρευτικού αριθμού των περιπτώσεων τον επόμενο μήνα ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Δεν είστε σίγουροι τι σημαίνει κοινωνική απομάκρυνση;([Ανατρέξτε σε αυτόν τον χρήσιμο οδηγό](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
-## Steps individuals can take
-* Reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens".  
-* Stay home if you are sick; be prepared with a few extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to stay home when sick (and financially support them to do so).  
+## Τα βήματα που μπορούν να κάνουν τα άτομα
+* Μειώστε τον αριθμό των ατόμων που έρχεστε σε επαφή με κάθε μέρα, ειδικά εάν βρίσκεστε σε μια ευάλωτη ομάδα (π.χ. ηλικιωμένοι και όσοι έχουν προϋπάρχουσες συνθήκες).
+* Να θυμάστε ότι ακόμη και αν δεν είστε εξαιρετικά ευάλωτοι, πολλοί άνθρωποι γύρω σας είναι? ακολουθήστε αυτές τις πρακτικές για να προστατέψετε τους άλλους.
+* Πλένετε τα χέρια σας "όπως ακριβώς κόβετε ένα jalapeno και πρέπει να αλλάξετε ένα φακό επαφής".
+* Μείνετε στο σπίτι εάν είστε άρρωστοι. να προετοιμαστείτε με λίγες επιπλέον προμήθειες σε περίπτωση που χρειαστεί να κάνετε αυτο-απομόνωση.
+* Εάν είστε εργοδότης, ενθαρρύνετε τους υπαλλήλους σας να παραμείνουν στο σπίτι όταν είναι άρρωστοι (και τους στηρίξτε οικονομικά για να το πράξουν).
 
-## Steps officials can take  
-* Make testing free and broadly available.  
-* Put social distancing measures in place.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+## Τα στελέχη μπορούν να πάρουν τα βήματα
+* Κάντε τη δοκιμή ελεύθερη και ευρέως διαθέσιμη.
+* Θέση σε εφαρμογή μέτρων κοινωνικής απομάκρυνσης.
+* Υποστήριξη οικονομικά όσων επηρεάζονται από μέτρα κοινωνικής απομάκρυνσης (π.χ. ωρομίσθιοι εργαζόμενοι, άτομα με ευθύνες ηλικιωμένων ή παιδιών, μικρές επιχειρήσεις κ.λπ.).
 ```
 
 
@@ -227,39 +218,38 @@ Social distancing -- that is, decreasing the number of people you encounter each
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [FAQs & Misconceptions](https://nextstrain.org/ncov/2020-03-05)
+# [Συχνές ερωτήσεις και παρερμηνείες](https://nextstrain.org/ncov/2020-03-05)
 
-#### We know that a lot of people have questions about COVID-19.
+#### Γνωρίζουμε ότι πολλοί άνθρωποι έχουν ερωτήσεις σχετικά με το COVID-19.
 
-#### [We've set up a guide to try and answer the most frequently asked questions](https://nextstrain.org/help/coronavirus/FAQ).
+#### [Έχουμε δημιουργήσει έναν οδηγό για να προσπαθήσουμε να απαντήσουμε στις πιο συχνές ερωτήσεις](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### The Federation of American Scientists also maintains [a great resource for FAQs](https://covid19.fas.org/l/en).
+#### [Έχουμε δημιουργήσει έναν οδηγό για να προσπαθήσουμε να απαντήσουμε στις πιο συχνές ερωτήσεις](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Further reading  
+# Περαιτέρω ανάγνωση
 
-* "Don't believe the conspiracy theories you hear about coronavirus & HIV" [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "Μην πιστεύετε στις θεωρίες συνωμοσίας που ακούτε για τον κορονοϊό και τον ιό HIV" [άρθρο](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered" [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "Αβάσιμες Θεωρίες Συνωμοσίας Απαίτηση Νέου Κοροναϊού Βιοενεργοποιήθηκε" [άρθρο](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It" [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "Όχι, ο κορονοϊός Wuhan δεν ήταν γενετικά σχεδιασμένος για να βάλει κομμάτια του HIV σε αυτό" [άρθρο](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
-* "Busting coronavirus myths" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "Μύθοι κορονοϊών που καταρίπτονται" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 
-# Misconceptions
+# Παρανοήσεις
 
-A number of misconceptions have been circulated about the origins of the novel coronavirus.
-During outbreaks like this one, the spread of information that's known to be incorrect can lead to more panic, and cause people not to trust scientists and governments, meaning they are less likely to follow advisories and take appropriate precautions.
+Έχουν κυκλοφορήσει πολλές παρανοήσεις σχετικά με την προέλευση του νέου κορονοϊού.
+Κατά τη διάρκεια εκδηλώσεων όπως αυτή, η διάδοση των πληροφοριών που είναι γνωστό ότι είναι λανθασμένες μπορεί να οδηγήσει σε περισσότερους πανικούς και να αναγκάσει τους ανθρώπους να μην εμπιστεύονται τους επιστήμονες και τις κυβερνήσεις, πράγμα που σημαίνει ότι είναι λιγότερο πιθανό να ακολουθήσουν τις συμβουλές και να λάβουν τις κατάλληλες προφυλάξεις.
 
-In an effort to try and explain why these views are incorrect, scientists have addressed these theories at the pages below:
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+Σε μια προσπάθεια να εξηγήσουν γιατί αυτές οι απόψεις είναι λανθασμένες, οι επιστήμονες έχουν αντιμετωπίσει αυτές τις θεωρίες στις παρακάτω σελίδες:
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Snake' Origins of SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV Engineering' Idea (Twitter thread)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Φίδι' Προέλευση του SARS-CoV-2 (Τεχνική) </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> Η ιδέα της «μηχανικής του ιού HIV» (νήμα Twitter)</a>
 
 
 </div>
@@ -271,22 +261,20 @@ In an effort to try and explain why these views are incorrect, scientists have a
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Επιστημονική αναγνώριση](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Θα θέλαμε να αναγνωρίσουμε την εκπληκτική και έγκαιρη δουλειά όλων των επιστημόνων που εμπλέκονται σε αυτό το ξέσπασμα και ιδιαίτερα εκείνων που εργάζονται στην Κίνα.
+Μόνο μέσω της ταχείας ανταλλαγής γονιδιωματικών δεδομένων και μεταδεδομένων είναι δυνατές αναλύσεις όπως αυτές.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+Ευχαριστούμε επίσης το [GISAID](https://gisaid.org) για την παροχή της πλατφόρμας μέσω της οποίας μπορούν να μεταφορτωθούν και να μοιραστούν αυτά τα δεδομένα.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+Είμαστε ευγνώμονες για τα δεδομένα που συλλέχθηκαν από αυτά τα αρχικά εργαστήρια:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -414,21 +402,20 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+# [Λεπτομερής επιστημονική αναγνώριση](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+
+Αυτά τα δεδομένα κοινοποιήθηκαν μέσω του [GISAID](https://gisaid.org).
+Ευχαριστούμε πολύ για τη συμβολή τους.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+Στα δεξιά δίνουμε συγκεκριμένες ακολουθίες που μοιράζονται σε κάθε εργαστήριο.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
->>>>>>> 864593a2fedc6045b891f6d7d6a83ee7138b4806
+Τα γονιδιώματα SARS-CoV-2 μοιράστηκαν γενναιόδωρα από επιστήμονες σε αυτά τα εργαστήρια υποβολής:
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
