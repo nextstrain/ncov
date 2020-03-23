@@ -36,7 +36,7 @@ abstract: "Dieses Narrativ erklärt, wie man phylogenetische Bäume lesen und in
 Krankheitserreger verbreiten sich durch eine schnelle Vermehrung im Inneren eines Wirtes, gefolgt von der Übertragung zum nächsten Wirt.
 Eine Epidemie kann sich nur verbreiten, wenn eine Infektion gefolgt wird von mehr als einer Infektion.
 <br><br>
-Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom mehrere Male repliziert and zufällige Änderungen (oder Mutationen) akkumulieren in seinem Genom. Dies ist absolut normal und erlaubt es, dass die Verbreitung eines Krankheitserregers nachvollzogen werden kann und seine Uebertragungsrouten und Dynamiken verstanden werden können.
+Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom mehrere Male repliziert and zufällige Änderungen (oder Mutationen) akkumulieren sich in seinem Genom. Dies ist absolut normal und erlaubt es, dass die Verbreitung eines Krankheitserregers nachvollzogen werden kann und seine Übertragungsrouten und Dynamiken verstanden werden können.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -46,9 +46,9 @@ Während ein Krankheitserreger vermehrt und verbreitet wird, wird sein Genom meh
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-Diese Abbildung zeigt eine Skizze eines Uebertragungs-Baumes. Jeder Kreis repraesentiert einen Fall (infizierte Person), wobei die horizontalen Linien die Dauer der Infektion darstellen. Verbundene Faelle repraesentieren Uebertragungen von einer Person zur naechsten.
+Diese Abbildung zeigt eine Skizze eines Übertragungs-Baumes. Jeder Kreis repraesentiert einen Fall (infizierte Person), wobei die horizontalen Linien die Dauer der Infektion darstellen. Verbundene Fälle repräsentieren Übertragungen von einer Person zur nächsten.
 <br> <br>
-Hier sehen wir den kompletten Uebertragungs-Baumes. In der Praxis sind aber nur ein Teil der Faelle beprobt worden (blau); der Uebertragungs-Baum ist nicht bekannt und typischerweise ist nur eine ungefaehre Abschaetzung der Fallzahlen verfuegbar. Genom-Sequenzen ermoeglichen es uns, Teile des Uebertragungs-Baumes abzuleiten. In diesem Beispiel sind drei Mutationen in dem Baum gezeigt (Rauten). Sequenzen, die die gleichen Mutationen haben, sind eng verwandt, so dass diese Mutationen es uns ermoeglichen, die Proben in Gruppen ('cluster') von verwandten Viren zu gruppieren, die zu der gleichen Uebertragungskette gehoeren.
+Hier sehen wir den kompletten Übertragungs-Baumes. In der Praxis sind aber nur ein Teil der Fälle getestet worden (blau); der komplette Übertragungs-Baum ist deshalb meist nicht bekannt und typischerweise ist nur eine ungefähre Abschätzung der Fallzahlen verfügbar. Genom-Sequenzen ermöglichen es uns, Teile des Übertragungs-Baumes abzuleiten. In diesem Beispiel sind drei Mutationen in dem Baum gezeigt (Rauten). Sequenzen, welche die gleichen Mutationen haben, sind eng miteinander verwandt, so dass diese Mutationen es uns ermöglichen, die Proben in Gruppen ('cluster') von verwandten Viren zu gruppieren, die zu der gleichen Übertragungskette gehören.
 </p>
 </div>
 ```
@@ -59,9 +59,9 @@ Hier sehen wir den kompletten Uebertragungs-Baumes. In der Praxis sind aber nur 
 <!-- This is left-side text -->
 # [Wie interpretiere ich einen Baum?](https://nextstrain.org/ncov/2020-03-11)
 
-Die x-Achse respraesentiert das Ausmass der Unterschiede (in Zeiteinheiten oder genetischer Divergenz -- wir kommen darauf im naechsten Abschnitt zurueck). Die y-Achse hilft, die Teile des Baumes weiter auszubreiten, so dass wir alles sehen koennen; sie hat keine Einheit.
+Die x-Achse respräsentiert das Ausmass der Unterschiede (in Zeiteinheiten oder genetischer Divergenz -- wir kommen darauf im naechsten Abschnitt zurück). Die y-Achse ist zu Darstellungszwecken hier und hat keine direkte Bedeutung und auch keine Einheit.
 <br><br>
-Die Spitzen des Baumes repraesentieren Proben (d.h. blaue Faelle in der vorherigen Abbildung). Die internen Verzweigungspunkte repraesentieren Faelle, die nicht beprobt wurden (d.h. rote Punkte in der vorherigen Abbildung). Wir nehmen an, dass diese der Ursprung aller Faelle, die von ihnen ausgehen, waren. Diese Verwandtschaftsbeziehungen werden aus dem Muster der Mutationen in den Faellen abgeleitet.
+Die Spitzen des Baumes repräsentieren Proben (d.h. blaue Fälle in der vorherigen Abbildung). Die internen Verzweigungspunkte repraesentieren Fälle, die nicht getestet wurden (d.h. rote Punkte in der vorherigen Abbildung). Wir nehmen an, dass diese der Ursprung aller Fälle, die von ihnen ausgehen, waren. Diese Verwandtschaftsbeziehungen werden aus dem Muster der Mutationen in den Fällen abgeleitet.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -71,15 +71,15 @@ Die Spitzen des Baumes repraesentieren Proben (d.h. blaue Faelle in der vorherig
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Oben sehen wir eine Abbildung mit dem phylogenetischen Baum auf der linken Seite, wobei die Mutationen als farbige Kreise dargestellt sind. Auf der rechten Seite sind die korrespondieren Sequenzen, in denen die Mutationen ebenfalls als farbige Kreise dargestellt sind. Wir koennen sehen, dass die Sequenzen, die die gleichen Mutationen gemeinsam haben, zusammen gruppiert sind. Wenn Sequenzen durch eine vertikale Linie verbunden sind, zum Beispiel A und B, bedeutet das, dass es zwischen ihnen keine Unterschiede gibt - sie sind identisch.
+Oben sehen wir eine Abbildung mit dem phylogenetischen Baum auf der linken Seite, wobei die Mutationen als farbige Kreise dargestellt sind. Auf der rechten Seite sind die dazugehörigen Sequenzen zu sehen, in denen die Mutationen ebenfalls als farbige Kreise dargestellt sind. Wir können sehen, dass die Sequenzen, die die gleichen Mutationen gemeinsam haben, zusammen gruppiert sind. Wenn Sequenzen durch eine vertikale Linie verbunden sind, zum Beispiel A und B, bedeutet das, dass es zwischen ihnen keine Unterschiede gibt, heisst, sie sind identisch.
 <br><br>
 Wenn eine Sequenz sich alleine auf einer langen Linie befindet, zum Beispiel C oder E, bedeutet das, dass sie spezifische Mutationen hat, die nicht in anderen Sequenzen vorhanden sind. Je laenger die Linie, desto mehr spezifische Mutationen sind vorhanden.
-A und B haven ebenfalls spezifische Mutationen (gruene Kreise), die nicht in anderen Sequenzen vorhanden sind, aber A und B sind identisch miteinander.
+A und B haben ebenfalls spezifische Mutationen (grüne Kreise), welche nicht in anderen Sequenzen vorhanden sind, jedoch sind A und B miteinander identisch.
 <br><br>
-Basierend auf diesem Baum koennen wir schlussfolgern, dass A und B eng miteinander verwandt sind, und dass D und E eng miteinander verwandt sind. A und B sind enger verwandt mit C als mit D und E.
+Basierend auf diesem Baum können wir schlussfolgern, dass A und B eng miteinander verwandt sind, dass D und E eng miteinander verwandt sind und A und B sind enger verwandt mit C als mit D und E.
 </p>
 
-### Weiterfuehrende Literatur 
+### Weiterführende Literatur 
 * [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
 * [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
@@ -93,16 +93,16 @@ Basierend auf diesem Baum koennen wir schlussfolgern, dass A und B eng miteinand
 <!-- This is left-side text -->
 # [Was verbindet das "diversity" Panel mit dem phylogenetischen Baum?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Lassen Sie uns einen Blick auf die ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, das COVID-19 verursacht), die oeffentlich gemacht wurden, werfen. Genau wie auf der letzten Seite haben wir ein Alignment der Virus-Sequenzen konstruiert (In diesem [GitHub](https://github.com/nextstrain/ncov) repo koennen Sie sehen, wie saemtliche hier erwaehnte Analysen gemacht wurden).
+Lassen Sie uns einen Blick auf die ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, welches COVID-19 verursacht), die öffentlich gemacht wurden, werfen. Genau wie auf der letzten Seite haben wir ein Alignment der Virus-Sequenzen konstruiert (In diesem [GitHub](https://github.com/nextstrain/ncov) repo können Sie sehen, wie sämtliche hier erwähnte Analysen gemacht wurden).
 <br><br>
-Hier stellen wir den phylogenetischen Baum oberhalb eines Balkendiagrammes, das die Unterschiede (d.h. Mutationen) im Genom zeigt, dar. Ohne diese Mutationen koennen wir den Baum nicht konstruieren; die beiden sind also eng verbuden.
+Hier stellen wir den phylogenetischen Baum oberhalb eines Balkendiagrammes, welches die Unterschiede (d.h. Mutationen) im Genom zeigt, dar. Ohne diese Mutationen können wir den Baum nicht konstruieren; die beiden sind also eng verbuden.
 <br><br>
 In diesem 'diversity' Panel stellt die horizontale Achse jede einzelne Position im Virusgenom dar (alle 30.000!).
-Die vertikale Achse stellt dar, wie hoch die Variabilitaet an jeder Position ist.
+Die vertikale Achse stellt dar, wie hoch die Variabilität an einer gewissen Position ist.
 <br><br>
-Wir haven den Baum entsprechend einer dieser Mutationen -- in diesem Fall Codon 314 im Gen "ORF1b" -- gefaerbt.
-Es gibt keinen a priori-Grund anzunehmen, dass diese Mutation eine funktionale Mutation ist, d.h. dass sie einen biologischen Unterschied macht.
-Es sind ganz genau Mutationen wie diese, die wir nutzen, um die Verwandtschaftsbeziehungen zwischen den Sequenzen zu definieren und den Baum zu konstruieren.
+Wir haven den Baum entsprechend einer dieser Mutationen -- in diesem Fall Codon 314 im Gen "ORF1b" -- gefärbt.
+Es gibt keinen a priori Grund anzunehmen, dass diese Mutation eine funktionale Mutation ist, d.h. dass sie einen biologischen Effekt hat.
+Es sind diese Mutationen, welche wir nutzen, um die Verwandtschaftsbeziehungen zwischen den Sequenzen zu definieren und einen Baum zu rekonstruieren.
 
 <!-- There is NO right-side text -->
 
@@ -111,7 +111,7 @@ Es sind ganz genau Mutationen wie diese, die wir nutzen, um die Verwandtschaftsb
 
 <!-- This is left-side text -->
 # [Messung von Unterschieden in genetischer Divergenz](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-Dieses ist eine Phylogenie der ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, das COVID-19 verursacht), die oeffentlich gemacht wurden.
+Dies ist eine Phylogenie der ersten 169</tag> Isolate von SARS-CoV-2 (dem Virus, das COVID-19 verursacht), die öffentlich gemacht wurden.
 <br><br>
 Hier stellt die horizontale Achse die Divergenz dar, also die Anzahl der Veraenderungen (Mutationen) in dem Genom, relativ zur 'Wurzel' des Baumes, d.h. dem Beginn des Ausbruches.
 Manche Sequenzen haben keine Mutationen, was bedeutet, dass sie identisch mit der 'Wurzel' des Baumes sind.
@@ -119,26 +119,27 @@ Andere Sequenzen haven zwischen einer und elf Mutationen.
 <br><br>
 Im Moment sieht die Abbildung noch nicht wirklich wie ein 'Baum' aus. Viele Sequenzen sind identisch, liegen also zusammen auf vertikalen Linien wie A und B (einige liegen zusammen auf dem ganz linken Teil des Baumes).
 Andere Sequenzen haben spezifische oder gemeinsame Mutationen und liegen auf Linien oder 'Aesten', die nach rechts abgehen.
-Sie koennen sehen, wie viele Mutationen ein 'Ast' hat, indem Sie mit dem Mauszeiger darueberfahren.
+Sie koennen sehen, wie viele Mutationen ein 'Ast' hat, indem Sie mit dem Mauszeiger darüberfahren.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 # [Messung von Unterschieden in Zeiteinheiten](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-Wir koennen ebenfalls visualisieren, wie das Virus sich ueber einen Zeitrahmen verbreitet hat, indem wir das Datum der Probennahmen auf der x-Achse verwenden. Dabei repraesentiert die x-Achse das Datum der Probennahme fuer jedes Virus. Die Positionen der Spitzen des Baumes stellen das Datum dar, an dem die jeweilige Probe genommen wurde. Die Daten der internen Verzweigungspunkte -- der 'unbekannten Faelle' -- werden basierend auf den Daten der Nachkommen und der Geschwindigkeit, mit der das Virus mutiert, abgeleitet.
+Wir können ebenfalls visualisieren, wie sich das Virus sich über einen Zeitrahmen verbreitet hat, indem wir das Datum der Probennahmen auf der x-Achse verwenden. Dabei repräsentiert die x-Achse das Datum der Probennahme für jedes Virus. Die Positionen der Spitzen des Baumes stellen das Datum dar, an welchem die jeweilige Probe entnommen wurde. Die Daten der internen Verzweigungspunkte -- der 'unbekannten Fälle' -- werden basierend auf den Daten der Nachkommen und der Geschwindigkeit, mit der das Virus mutiert, abgeleitet.
 <br><br>
-Beachten Sie, wie viele Sequenzen, die urspruenglich auf einer Linie waren (d.h. identische Genome) nun ueber einen Zeitrahmen ausgebreitet sind. Das passiert, wenn das Virus mit einer Geschwindigkeit mutiert, die etwas geringer ist als die Geschwindigkeit, mit der es sich ausbreitet.
-Sie koennen nach oben und unten zwischen dieser und der vorherigen Ansicht scrollen, um zu sehen, wie der Baum sich aendert.
+Beachten Sie, wie viele Sequenzen, die ursprünglich auf einer Linie waren (d.h. identische Genome) nun über einen Zeitrahmen ausgebreitet sind. Dies passiert, wenn das Virus mit einer Geschwindigkeit mutiert, die geringer ist als die Geschwindigkeit, mit der es sich ausbreitet.
+Sie können nach oben und unten zwischen dieser und der vorherigen Ansicht scrollen, um zu sehen, wie der Baum sich aendert.
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 # [Die Datierung des Beginns eines Ausbruches](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-Wir koennen genomische Analysen ebenfalls verwenden, um das Datum festzustellen, an dem der Ausbruch begonnen hat. Das ist sogar moeglich, wenn das war, bevor wir bemerkt haben, dass der Ausbruch passierte.
-Weil wir die Daten der Proben und der internen Verzweigungspunkte des Baumes bestimmen koennen, koennen wird diese nutzen, um das Datum der 'Wurzel' des Baumes abzuleiten. Diese repraesentiert den 'letzten gemeinsamen Vorfahren' von allen SARS-CoV-2 Sequenzen, die wir bisher haben. Zum Beispiel sind Ihre Grosseltern die 'letzten gemeinsamen Vorfahren' von Ihnen selbst und aller Ihrer Cousinen und Cousins.
+Wir können genomische Analysen ebenfalls verwenden, um das Datum zu schätzen, an welchem ein Ausbruch begonnen hat. 
+Das ist sogar möglich, wenn dieser Zeitpunkt war, bevor erste Fälle bekannt wurden.
+Weil wir die Daten der Proben und der internen Verzweigungspunkte des Baumes bestimmen können, konnen wird diese nutzen, um das Datum der 'Wurzel' des Baumes abzuleiten. Diese repraesentiert den 'letzten gemeinsamen Vorfahren' von allen SARS-CoV-2 Sequenzen, die wir bisher haben. Zum Beispiel sind Ihre Grosseltern die 'letzten gemeinsamen Vorfahren' von Ihnen selbst und aller Ihrer Cousinen und Cousins.
 <br><br>
-Wenn Sie den Mauszeiger ueber die vertikale Linie ganz links bewegen, sehen Sie, dass das abgeleitete Datum des Beginns dieses vorliegenden Ausbruches zwischen Mitte November und Mitte Dezember 2019 liegt.
+Wenn Sie den Mauszeiger über die vertikale Linie ganz links bewegen, sehen Sie, dass das abgeleitete Datum des Beginns dieses vorliegenden Ausbruches zwischen Mitte November und Mitte Dezember 2019 liegt.
 
 <!-- There is NO right-side text -->
 
@@ -146,9 +147,9 @@ Wenn Sie den Mauszeiger ueber die vertikale Linie ganz links bewegen, sehen Sie,
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Wie soll ich die Farben in einem Baum interpretieren?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetische Baueme enthalten oft zusaetzliche Informationen, zum Beispiel die Orte der Probennahmen. Mittels dieser koennen wir die Orte fuer die internen Verzweigungspunkte (hypothetische, intermediaere, aber nicht beprobte Faelle) mittel mathematischer Modelle ableiten. Das kann uns helfen zu verstehen, wie das Virus sich von einem Ort zum naechsten bewegt.
+Phylogenetische Baueme enthalten oft zusätzliche Informationen, zum Beispiel die Orte der Probennahmen. Mittels dieser können wir die Orte für die internen Verzweigungspunkte (hypothetische, intermediaere, aber nicht beprobte Faelle) mittel mathematischer Modelle schätzen. Das kann uns helfen zu verstehen, wie das Virus sich von einem Ort zum nächsten bewegt hat.
 <br><br>
-Die Interpretation dieser Daten sollte jedoch mit Vorsicht erfolgen, weil die Probenentnahme und Sequenzierung, oder das Fehlen derselben, einen entscheidenden Einfluss haben kann.
+Die Interpretation dieser Daten sollte jedoch mit Vorsicht erfolgen, da die Probenentnahme und Sequenzierung, oder das Fehlen derselben, einen entscheidenden Einfluss haben kann.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -160,11 +161,11 @@ Die Interpretation dieser Daten sollte jedoch mit Vorsicht erfolgen, weil die Pr
 <p>
 Auf der linken Seite zeigen wir einen komplett beprobten Baum, in dem Proben von zwei verschiedenen Orten in orange und blau dargestellt sind. Wenn wir uns innerhalb des Baumes von oben nach unten bewegen, sehen wir drei Stellen (Orte), an denen die Farbe von orange zu blau wechselt. Wir koennen schlussfolgern, dass es drei separate Einfuehrungen von dem orangenen Ort zu dem blauen Ort gab.
 <br><br>
-Diese Interpretation ist jedoch abhaenging von der Beprobung: in dem Baum in der Mitte haben wir eine orangene Probe entfernt. Nun sehen wir nur eine Stelle (Ort) im Baum, an dem die Farbe von orange zu blau wechselt, was suggeriert, dass es nur eine Einfuehrung von dem orangenen Ort zu dem blauen Ort gab.
+Diese Interpretation ist jedoch abhänging von der Probenentnahme: in dem Baum in der Mitte haben wir eine orangene Probe entfernt. Nun sehen wir nur eine Stelle (Ort) im Baum, an dem die Farbe von orange zu blau wechselt, was suggeriert, dass es nur eine Einführung von dem orangenen Ort zu dem blauen Ort gab.
 <br><br>
-Im letzten Beispiel haben wir nur eine Sequenz von dem orangenen Ort, was uns dazu verleiten koennte, zu denken, dass es nur eine Einfuehrung von dem orangenen Ort zu dem blauen Ort gab.
+Im letzten Beispiel haben wir nur eine Sequenz von dem orangenen Ort, was uns dazu verleiten könnte, zu denken, dass es nur eine Einführung von dem orangenen Ort zu dem blauen Ort gab.
 <br><br>
-Daher muessen diese Ableitungen, so hilfreich sie auch sein koennen, mit Vorsicht interpretiert werden.
+Daher müssen diese Ableitungen, so hilfreich sie auch sein können, mit Vorsicht interpretiert werden.
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
@@ -172,20 +173,20 @@ Daher muessen diese Ableitungen, so hilfreich sie auch sein koennen, mit Vorsich
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Wie haengen die Karte und der phylogenetische Baum zusammen?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [Wie hängen die Karte und der phylogenetische Baum zusammen?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Hier sehen sie einen Baum, in dem die Farben die Orte der jeweiligen Proben (und der abgeleiteten Orte fuer die internen Verzweigungspunkte) darstellen.
-Wenn Sie auf ['Explore the data'](https://nextstrain.org/ncov) klicken, koennen Sie eine Animation ablaufen lassen, die die abgeleitete Ausbreitung des Virus im Verlauf des Ausbruchs zeigt.
+Hier sehen sie einen Baum, in dem die Farben die Orte der jeweiligen Proben (und der abgeleiteten Orte für die internen Verzweigungspunkte) darstellen.
+Wenn Sie auf ['Explore the data'](https://nextstrain.org/ncov) klicken, können Sie eine Animation ablaufen lassen, die die abgeleitete Ausbreitung des Virus im Verlauf des Ausbruchs zeigt.
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
 # [Fortgeschritten: Unsicherheit in der Rekonstruktion von phylogenetischen Bäumen](https://nextstrain.org/ncov/2020-03-11)
-In einem frueheren Abschnitt haben wir erklaert, wie die internen Verweigungspunkte _hypothetische_ unbeprobte Faelle repraesentieren. In der Tat repraesentieren alle Baueme _Hypothesen_, wie ein Pathogen sich entwickelt und ueber einen Zeitrahmen bewegt hat. Die Baueme auf nextstrain sind 'point estimates', d.h. die Versionen dieser Entwicklungsgeschichte, die die Wahrscheinlichkeit die Daten zu sehen, wie wir sie tataechlich sehen, maximieren.
+In einem frueheren Abschnitt haben wir erklaert, wie die internen Verweigungspunkte _hypothetische_ unbeprobte Fälle repräsentieren. In der Tat repräsentieren alle Bäume _Hypothesen_, wie ein Pathogen sich entwickelt und über einen Zeitrahmen bewegt hat. Die Bäume auf nextstrain sind 'Punkt Schätzungen', d.h. die Versionen dieser Entwicklungsgeschichte, die die Wahrscheinlichkeit die Daten zu sehen, wie wir sie tatsächlich sehen, maximieren.
 <!-- Not sure about the translation of the last sentence here -->
 <br><br>
-Nichtsdestotrotz gibt es immer Unsicherheiten in diesen Abschaetzungen. Generell sind Teile des Baumes, die dicht beprobt sind, sicherer; Teile des Baumes, die duenn beprobt sind, sind weniger sicher.
+Nichtsdestotrotz gibt es immer Unsicherheiten in diesen Abschätzungen. Meist gilt, je kürzer der Zeitraum einer Rekontruktion, desto unsicherer die Rekonstruktion eines Baumes.
 
 ```auspiceMainDisplayMarkdown
 # Eine Illustration
