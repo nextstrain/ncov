@@ -1,11 +1,27 @@
 ---
-title: Геномный анализ распространения COVID-19. Ситуационный отчет 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford. (Translation: Vadim Puller, Irina Kalita, Daniel Taliun)"
-authorLinks: "https://nextstrain.org"
-affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-date: "13 Марта 2020"
-dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "Этот отчет использует общедоступные геномные данные для отслеживания распространения COVID-19. Отчеты обновляются еженедельно."
+title: 계통수를 읽는 법
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
+affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+translators:
+  - Kyo Bin Kang
+  - Minkyu Kim
+  - Taehoon Ha
+date: "2020년 3월 13일"
+dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
+abstract: "이 문서는 유전체 역학적 정보를 제공하는 계통수를 어떻게 읽고 해석하는지에 대해 다룹니다. 이 웹사이트는 데스크톱 브라우저에 최적화되어 있습니다."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,244 +29,198 @@ abstract: "Этот отчет использует общедоступные �
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Содержание](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [목차](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Справочные ресурсы](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=2).
-* [Примечание о сборе образцов](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=3).
-* [Распространение в Европе](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=4).
-* [Локальная передача в Великобритании](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=5).
-* [Распространение SARS-CoV-2 из Ирана](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=6).
-* [Ввоз в США](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=7).
-* [Распространение SARS-CoV-2 в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=8).
-* [Распространение SARS-CoV-2 в Калифорнии](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=9).
-* [Что вы можете предпринять](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=10).
-* [FAQ & Заблуждения](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=11).
-* [Благодарности](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=12).
+* [전염병의 전파 경로는 계통수와 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background/ko?n=2)?  
+* [계통수는 어떻게 읽는가](https://nextstrain.org/narratives/trees-background/ko?n=3)?  
+* ["다양성" 패널은 계통수와 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background/ko?n=4)?   
+* [유전적 발산 사이의 차이 측정하기](https://nextstrain.org/narratives/trees-background/ko?n=5).  
+* [시간에 따른 차이 측정하기](https://nextstrain.org/narratives/trees-background/ko?n=6).  
+* [바이러스 발생 시점 추정하기](https://nextstrain.org/narratives/trees-background/ko?n=7).  
+* [계통수의 (색깔로 구분된) 특징들을 어떻게 해석해야 합니까](https://nextstrain.org/narratives/trees-background/ko?n=8)?  
+* [지도와 계통수는 어떤 관련이 있는가](https://nextstrain.org/narratives/trees-background/ko?n=9)?  
+* [추가 읽기자료: 계통수의 통계적 불확실성](https://nextstrain.org/narratives/trees-background/ko?n=10).  
+* [데이터셋에 대하여](https://nextstrain.org/narratives/trees-background/ko?n=11).  
 
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
-# Резюме
-
-
-Мы провели анализ 410</tag> общедоступных генома COVID-19. Сопоставив эти геномы вируса между собой, мы можем охарактеризовать как COVID-19 развивается и перемещается по всему миру.
-
-Чтобы узнать текущее количество случаев коронавируса по всему миру, смотрите [Our World In Data](https://ourworldindata.org/coronavirus).
-
-В этом отчете мы показываем, что вирус широко циркулирует по всему миру, с признаками локальной передачи на нескольких континентах.
-В настоящее время, мы призываем сосредоточиться на усилиях по замедлению распространения в общинах; запреты на поездки, вероятно, в меньшей степени эффективны.
-
-В обновлениях этой недели мы сообщаем:
-
-* COVID-19 широко циркулирует по всей Европе, со значительным перемещением между странами.
-
-* Мы установили по крайней мере 4 случая ввоза в Великобританию, в некоторых случаях с последующей передачей в общинах.
-
-* Был ряд случаев, связанных с поездками, соединяющих Иран с другими частями мира.
-
-* На сегодняшний день было много случаев ввоза в США, что привело к цепочкам локальных передач в нескольких штатах.
-
-* Вспышка продолжает расти в штате Вашингтон; некоторые случаи тесно связаны со случаями на круизном лайнере Гранд Принцес (Grand Princess).
-
-* Наблюдается локальная циркуляция COVID-19 в Калифорнии.
-
-* Меры социального дистанцирования должны быть быстро задействованы для того, чтобы облегчить нагрузку на системы здравоохранения и защитить уязвимых.
-```
+<!-- No right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Ресурсы COVID-19](https://nextstrain.org/ncov/2020-03-05)
-Ниже мы подготовили некоторые ресурсы (в настоящее время только на английском языке), которые стоит прочитать для ознакомления с болезнью COVID-19 и вызывающим ее вирусом SARS-CoV-2.
-Эта информация поможет интерпретировать данные, представленные в этом отчете; если вы прежде не сталкивались с филогенетическими деревьями, мы предлагаем вам ознакомиться с [брошюрой 'How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background/ru) и вернуться, когда вы чувствуете себя подготовленными.
+# [전염병의 전파 경로는 계통수와 어떤 관련이 있는가?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+병원체는 숙주의 체내에서 빠르게 증식하여 다른 숙주로 전염됩니다. 전염병은 한 번의 감염이 한 번 이상 뒤따르는 다른 감염으로 이어질 경우에만 유행하게 됩니다.
+<br><br>
+병원체가 증식하고 전파되는 과정에서 병원체의 유전체는 여러 번 복제되고, 이 복제 과정에서 자연적으로 발생하는 오류로 인한 무작위 돌연변이가 유전체에 누적됩니다. 이것은 정상적인 일입니다. 이런 무작위 돌연변이를 통해 병원체의 확산을 추적하고 전파 경로와 역학에 대해 알아낼 수 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-
-## Дополнительная информация
-
-<div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Главная информация о Коронавирусах </a>
-
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Главная информация о недавней вспышке COVID-19 </a>
-
-  <a href="https://nextstrain.org/narratives/trees-background/ru"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Как читать филогенетические деревья</a>
+# 예시
+<div width="50%" margin="auto">
+<p>
+<img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
+</p>
+<p>
+위의 그림은 간략화된 전파 계통수의 예시입니다. 각각의 원은 감염된 환자를 의미하며, 가로 직선은 환자들의 감염 기간을 의미합니다. 연결된 원들은 한 환자로부터 다른 환자로 전염이 이뤄진 경우를 가리킵니다.
+<br> <br>
+지금 이 그림에서 우리는 병원체 전파 경로의 전체를 보고 있습니다. 그러나 현실에서는 모든 전파 사건이 아니라 몇몇 환자(파란색으로 표시)의 경우에 대해서만 감염체 표본를 얻을 수 있습니다. 따라서 실제 전파 경로는 추적하기가 어려우며, 감염자 숫자에 대한 대략적인 추정만이 가능합니다. 하지만 유전체 염기서열을 분석하면 전파 경로를 짐작할 수 있습니다. 이 예시의 경우, 세 번의 돌연변이(작은 다이아몬드로 표시)가 전파 과정에서 일어났습니다. 같은 돌연변이를 가지고 있는 염기 서열은 상대적으로 서로에게 더 밀접한 관련이 있을 것이며, 따라서 이런 유전체 서열 상의 돌연변이를 기준으로 같은 전파 연쇄에 속하는 밀접하게 관련있는 바이러스들을 각각의 군집들로 묶을 수 있습니다.
+</p>
 </div>
-
-## Дальнейшее чтение
-
-* Краткое описание эпидемии SARS-CoV-2 на [Википедия](https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BD%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F_COVID-19).
-* Информация из центра по контролю и профилактике заболеваний США [US CDC](https://www.cdc.gov/coronavirus/index.html).
-
-
-## Nextstrain изложенные факты
-
-Последующие страницы содержат анализ, выполненный с использованием [Nextstrain](https://nextstrain.org).
-Прокрутка левой боковой панели показывает абзацы текста с соответствующей визуализацией геномных данных с правой стороны.
-
-
-Получить образцы полного генома нового и большого РНК-вируса так быстро - замечательное достижение.
-Эти исследования стали возможными благодаря быстрому и открытому обмену геномными данными и их интерпретацией учеными со всего мира (см. последний слайд с информацией об авторах, принимавших участие в секвенировании).
-```
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [Примечание о сборе образцов](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-В настоящее время, мы имеем в распоряжении последовательности из образцов, взятых в 30 странах на 5 континентах. Это необыкновенное достижение -- секвенирование до недавних пор неизвестного, большого вируса в разгаре эпидемии очень затруднительно и возможно только благодаря целеустремленной работе и своевременному обмену данными учеными и медиками со всего мира.
-<br><br>
-Хотя эти данные позволяют нам определить многие важные характеристики эпидемии и проследить ее распространение в реальном времени, важно подчеркнуть, что наши заключения ограничены доступными нам данными.
-<br><br>
-Например, карта показывает ограниченное число последовательностей из южных стран. Это не потому, что COVID-19 не циркулирует в этих регионах, или потому, что эти случаи менее важны; на самом деле, у нас просто очень мало данных из этих регионов. Размер каждого кружка на карте показывает, какое количество данных доступно нам в настоящее время из этого региона, а не настоящий размах эпидемии.
-
-<!-- There is NO right-side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Циркуляция вируса в Европе](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Здесь мы видим большую ветвь последовательностей из Европы.
-Важно отметить, что последовательности из многочисленных стран перекрываются между собой, свидетельствуя о том, что COVID-19 уже широко циркулирует по Европе.
-<br><br>
-При увеличении можно заметить, что на карте присутствует много связей между Италией и другими регионами; однако важно иметь в виду, что направление этих связей не всегда может быть достоверно установлено. Возможны другие гипотезы, объясняющие эти данные (например, если неизвестный случаи инфицировал два других: вторичный случай, секвенированный в Италии, и вторичный случай где-то еще).
-
-<!-- There is no right side text -->
-
-
-# [Локальное распространение на Британских островах и в Ирландии](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Глядя на Британские острова и Ирландию, мы видим несколько случаев появления вируса, родственных образцам из других стран.
-<br><br>
-Это согласуется с 4 или более случаями проникновения вируса из других мест.
-<br><br>
-Мы также видим ситуации, где после проникновения вируса наблюдаются несколько родственных случаев в том же самом месте. Это согласуется с местным распространением вируса для более чем одного из таких проникновений.
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Распространение SARS-CoV-2 из Ирана](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Несколько геномов были секвенированы от пациентов, сообщающих о недавних поездках в Иран. Эти геномы очень схожи, и показывают, что эпидемия в Иране может быть результатом единичной передачи вируса, который далее распространился по стране.
-<br><br>
-Обратите внимание, что в нашем распоряжении нет полных геномов от пациентов в самом Иране.
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Передача в США](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Здесь мы видим, что вирус был ввезен в Соединенные Штаты в многочисленных независимых случаях.
-<br><br>
-Большинство из них не связаны ни с одним из других случаев в США, поэтому мы не уверены, что эти случаи привели к местным эпидемиям. Однако, учитывая, что тестирование на вирус в большинстве регионов еще не запущено на полную мощность, мы предполагаем большое количество незарегистрированных случаев.
-<br><br>
-В Вашингтоне и Калифорнии, однако, мы видим группы случаев, близко связанных между собой. Это предполагает происходящую передачу и местное распространение в этих двух штатах.
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Распространение SARS-CoV-2 в штате Вашингтон](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Здесь мы видим группу близко взаимосвязанных случаев. Мы делаем из этого заключение, что в штате Вашингтон происходит активное локальное распространение вируса.
-<br><br>
-Интересно отметить, что образцы из Вашингтона перекрываются с образцами с круизного лайнера Гранд Принцес (Grand Princess). У нас пока нет уверенности, что вирус распространился с круизного лайнера в Вашингтон или наоборот; с получением новых данных мы обновим наш анализ.
-<!-- There is NO right-side text -->
-
-<!-- This is left-side text -->
-# [Распространение SARS-CoV-2 в Калифорнии](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Глядя на образцы из Калифорнии, мы видим свидетельство многочисленных привнесений вируса. Что более важно, мы видим, как минимум, один кластер близко связанных случаев: все обнаруженны в Калифорнии в течение короткого отрезка времени (перейдите по ссылке ['Explore the Data'](https://nextstrain.org/ncov) и найдите 'CA9' чтобы увидеть один такой пример).
-<br><br>
-Все это убедительно свидетельствует о местном распространении вируса в Калифорнии.
-<!-- There is NO right-side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Резюме](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- Вирус был многократно привнесен во многие части света. Не все привнесения привели к местной передаче вируса.
-<br><br>
-- Мы видим доказательства местной передачи вируса в Европе, частях Соединенных Штатов, Китае и Западно-Восточной Азии.  
-<br><br>
-- Контроль локальных эпидемий через ограничение социальных контактов абсолютно необходим, чтобы защитить наиболее уязвимых.
-
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-# Как себя вести в этой ситуации  
-
-Ограничение социальных контактов  -- то есть уменьшение числа людей, с которыми вы взаимодействуете каждый день -- может быть труднодостижимым, но очень полезным для блага общества. Если бы каждый из нас уменьшил число каждодневных контактов на 25%, мы ожидали бы уменьшения суммарного числа случаев заболевания в следующем месяце на 50%.
-([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Если вы не уверены в том, что такое ограничение социальных контактов, [посмотрите эти полезные рекомендации (на английском)](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
-<div>
-  <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
-</div>
-
-## Шаги, которые каждый может предпринять
-* Уменьшить число людей, с которыми вы взаимодействуете каждый день, особенно, если вы попадаете в группу риска (то есть, пожилые люди и люди с хроническими проблемами здоровья).
-* Помните, что, даже если вы не относитесь к группе риска, многие вокруг вас принадлежат к ней; следуйте этим рекомендациям, чтобы защитить других.
-* Мойте руки "как если бы вы только что почистили лук и собираетесь сменить свои контактные линзы".  
-* Оставайтесь дома, если вы больны; запаситесь продуктами и всем необходимым на случай, если вы должны добровольно посадить себя под карантин.  
-* Если вы работодатель, поощряйте своих подчиненных оставаться дома, когда они больны (и поддержите их в этом финансово).  
-
-## Возможные шаги со стороны официальных лиц   
-* Сделайте тестирование на вирус бесплатным и легкодоступным.  
-* Организуйте меры по ограничению социальных контактов.  
-* Поддержите финансово тех, кто страдает от ограничения социальных контактов (например, почасовые работники, те, кто работает с престарелыми и детьми, малый бизнес, и т.п.)
 ```
 
 
-
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Часто задаваемые вопросы и заблуждения](https://nextstrain.org/ncov/2020-03-05)
+# [계통수는 어떻게 해석하는가?](https://nextstrain.org/ncov/2020-03-11)
 
-#### Нам известно, что у многих есть вопросы по поводу COVID-19.
-
-#### [Мы создали брошюру, отвечающую на наиболее часто задаваемые вопросы (на английском)](https://nextstrain.org/help/coronavirus/FAQ).
-
-#### Федерация американских ученых также поддерживает [страничку с часто задаваемыми вопросами (на английском)](https://covid19.fas.org/l/en).
+계통수의 x축은 변화의 정도(시간 혹은 유전적 분화 - 이후에 자세히 설명합니다)를 의미합니다. y축은 개체들을 퍼뜨려 전체적 양상을 볼 수 있게 해주는 역할을 하며, 어떠한 단위나 값을 가지지 않습니다.
+<br><br>
+계통수의 가지 끝 부분은 표본(이전 슬라이드에서 파란색 원과 같은 경우)을 의미합니다. 가지 안쪽의 분기점은 표본을 채집하지 못했지만 이후에 파생된 모든 감염의 원천으로 추정되는 감염사례(이전 슬라이드에서 빨간색 원과 같은 경우)를 의미합니다. 이런 관계는 채집된 병원체 표본의 돌연변이 패턴을 분석하여 유추할 수 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Для дополнительной информации   
+## 예시
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
+</p>
+<p>
+위의 그림 좌측에는 계통수가 그려져 있으며, 돌연변이가 색이 칠해진 동그라미로 표시되어 있습니다. 우측에는 각 표본에 해당하는 유전체 서열이 표시되어 있으며, 돌연변이가 마찬가지의 방법으로 표시되어 있습니다. 그림에서 공통의 돌연변이를 가지고 있는 표본들이 같은 그룹으로 묶여 있는 것을 볼 수 있습니다. 두 개의 서열이 A와 B의 경우처럼 세로 직선으로 연결되어 있다면, 이는 두 표본의 서열이 완전히 동일하다는 것을 의미합니다.
+<br><br>
+만약 어떤 서열이 C와 E의 경우처럼 한 직선에 하나만 연결되어 있다면, 이는 해당 표본에서 다른 표본에서는 발견되지 않는 고유의 돌연변이가 발견되었음을 의미합니다. 직선의 길이가 길수록, 더 많은 돌연변이가 존재합니다.
+A와 B 또한 다른 서열에서 발견되지 않는 고유의 돌연변이(녹색 원)을 가지고 있지만, 이들 두 표본의 서열은 서로 동일합니다.
+<br><br>
+이 계통수를 바탕으로, 우리는 A와 B가, 그리고 D와 E가 각각 매우 가까운 관계임을 알 수 있습니다. 그리고 A와 B는 D와 E보다는 C에게 상대적으로 더 가깝습니다.
+</p>
 
-* "Не верьте теориям заговора о коронавирусе и ВИЧ" (на английском, "Don't believe the conspiracy theories you hear about coronavirus & HIV") [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
-
-* "Необоснованные теории заговора утверждают, что новый коронавирус был создан искусственно" (на английском, "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered") [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
-
-* "Нет, вирус из Ухани не был генетически модифицирован, чтобы добавить в него элементы ВИЧ" (на английском, "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It") [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
-
-* "Разрушение мифов о коронавирусе" (на английском,  "Busting coronavirus myths)" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
-
-
-# Заблуждения
-
-Распространяется большое количество заблуждений о происхождении нового коронавируса. Во время эпидемии как нынешняя, распространение неправильной информации может привести к панике, и спровоцировать недоверие к ученым и правительству, следствием чего может быть отказ следовать их указаниям и  предпринимать необходимые меры.
-
-Для того, чтобы развеять эти заблуждения, ученые обсуждают их на следующих страницах (на английском):
-
-<div>
-
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Змеиное' происхождение SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> Идея 'HIV инженерии' (Twitter thread)</a>
-
+### Further reading  
+* [계통수를 읽는 법: Arctic Network의 설명서](https://artic.network/how-to-read-a-tree.html) (영어).  
+* [계통수를 읽는 법: Khan academy의 영상](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees) (영어).  
 
 </div>
 
-
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Благодарности](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# ["다양성" 패널은 계통수와 어떤 관련이 있는가?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Мы хотели бы отметить удивительную и своевременную работу всех ученых, вовлеченных в исследование этой эпидемии, особенно тех, кто работает в Китае. Только благодаря интенсивному и быстрому обмену генетическими данными и метаданными стали возможны анализы, подобные этому.
+169개의 공개된 SARS-CoV-2 (COVID-19를 유발하는 바이러스) 계통을 살펴 보도록 하겠습니다. 이전 슬라이드에서 보신 것처럼, 우리는 바이러스의 염기서열을 정리해 보았습니다. (여기서 언급된 모든 분석이 어떻게 이루어졌는지는 [Github에서](https://github.com/nextstrain/ncov) 확인할 수 있습니다.
+<br><br>
+오른쪽에 계통수(위)와 염기서열 상 변이(돌연변이)를 보여주는 막대 그래프(아래)를 함께 보여주고 있습니다. 만약 이런 돌연변이들이 없었다면, 계통수를 그릴 수 없었을 것입니다. 따라서 다양성 패널과 계통수는 서로 밀접한 연관성을 가지고 있습니다.
+<br><br>
+이 다양성 패널(아래 그림)에서 가로축은(다 합쳐서 약 3만 개 정도 되는) 바이러스 염기서열 위치를 의미합니다. 반면 세로축은 얼마나 많은 유전적 변이가 있었는지를 보여 줍니다.
+<br><br>
+우리는 이러 돌연변이들 중 하나를 선택하여 이에 따라 나무의 색깔을 다르게 표시했습니다. 여기서 선택된 것은 "ORF1b" 안에 들어 있는 Codon 314입니다. 이 돌연변이가 기능적 변이(즉, 생물학적 변화를 주는 것)라고 여길 마땅한 근거는 아직 없습니다. 보통 이런 종류의 돌연변이는 서열과 서열 사이의 관계를 정의하고, 계통수를 구성하는 데 사용됩니다.
 
-<br>
+<!-- There is NO right-side text -->
 
-Мы хотели бы поблагодарить [GISAID](https://gisaid.org) за обеспечение платформы, через которую эти данные могут храниться и передаваться.
 
-<!-- Do not need to translate institutions names -->
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [유전적 발산 사이의 차이 측정하기](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+이것은 169개의 공개된 SARS-CoV-2(COVID-19를 유발하는 바이러스) 계통을 표시한 계통수입니다.
+<br><br>
+가로 축은 유전적 분화를 나타내며, 이는 계통수의 시작점(즉, 바이러스의 최초 발생 시점)에 대한 유전적 변이(돌연변이)의 횟수를 의미합니다. 일부 서열은 돌연변이가 존재하지 않아 계통수의 뿌리(중앙의 시작점)의 서열과 완전히 동일합니다. 다른 바이러스들은 한 개에서 최대 열한 개의 돌연변이를 보입니다.
+<br><br>
+현재로서는 이 그림이 '나무'처럼 보이지 않을 수 있습니다. 많은 서열들이 동일하기 때문인데, 여기서 동일하다는 의미는 A와 B처럼 동일 수직선 상에 위치한 것을 의미합니다. (일부는 나무의 가장 왼쪽 지점에 위치해 있습니다.) 바이러스들이 몇 개의 서로 같은 돌연변이를 공유하면서도 각자의 고유한 돌연변이를 가지고 있을 경우, '가지'를 형성하며 나무를 오른쪽으로 뻗어 나가게 합니다. 마우스 커서를 가지 위에 올려서 각 가지들이 얼마나 많은 돌연변이들을 가지고 있는지 확인할 수 있습니다.
+
+
+<!-- There is NO right-side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+# [시간에 따른 차이 측정하기](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+시료가 측정된 날짜에 대한 정보를 x축에 표시하여 바이러스가 어떻게 퍼져 나갔는지를 시간에 따라 시각화할 수 있습니다. 이 경우 나무의 끝부분이 위치한 x축 상의 위치가 각 바이러스 표본들이 채집된 날짜를 나타냅니다. 나무의 가지 안쪽 분기점("결측 케이스")의 날짜는 그 하위의 바이러스 표본들이 채집된 시점과 바이러스가 변이되는 속도를 기준으로 추정합니다.
+<br><br>
+이전에는 동일 선상에 위치했던(동일한 염기서열을 가졌던) 서열들이 시간이 지남에 따라 얼마나 다양하게 갈라지며 분화되었는지를 확인해 보십시오.
+이런 현상은 바이러스가 변이되는 속도가 확산되는 속도보다 약간 느릴 때 발생합니다. 이전 슬라이드와 본 슬라이드를 위아래로 스크롤하며 나무가 어떻게 변하는지 확인해 보십시오.
+
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+# [바이러스 발생 시점 추정하기](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+유전체학적 지식을 이용하면 언제 바이러스가 발생했는지를, 심지어 우리가 바이러스에 대해 인지하기 이전 시점이라 하더라도, 특정할 수 있습니다. 계통수 상의 각 표본과 내부 분기점에 날짜를 특정할 수 있으므로, 이를 활용하여 나무의 '뿌리' 날짜를 추정할 수 있습니다. 나무의 '뿌리'란 우리가 현재 가지고 있는 모든 SARS-CoV-2 서열들의 "가장 가까운 공통의 조상"을 의미합니다. 이는 마치 당신의 조부모가 당신과 당신의 모든 사촌들의 "가장 가까운 공통 조상"인 것과 비슷한 의미를 갖습니다.
+<br><br>
+오른쪽 그림에서 가장 왼쪽에 위치한 수직선 위에 마우스 커서를 놓으면, 바이러스 발생 추정 시기가 2019년 11월 중순에서 12월 중순 사이로 추정됨을 알 수 있습니다.
+
+<!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [계통수에 (색깔로 구분된) 특징들을 어떻게 해석해야 합니까?](https://nextstrain.org/ncov/2020-03-11)
+종종 계통수는 각각의 표본 수집 지역 같은 추가적인 정보를 담고 있습니다. 이러한 정보를 바탕으로, 우리는 수학적 모델을 활용하여 내부 분기점들(표본 채집이 되지 않았지만 존재헀을 것으로 추정되는 바이러스 감염 사례)의 위치를 추정할 수 있습니다. 우리는 이를 통해 바이러스가 한 지역에서 다른 지역으로 어떻게 이동하고 있는지 이해하는 데에 도움을 줍니다.
+<br><br>
+하지만 이런 사항을 해석할 때는 항상 주의를 기울여야 합니다. 표본 채집이나 유전체 데이터가 충분하지 않은 경우 결과가 왜곡될 수 있기 때문입니다.
+
+<!-- This is right-side text -->
+```auspiceMainDisplayMarkdown
+# 예시
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
+</p>
+<p>
+왼쪽 그림은 모든 표본이 완전히 채집된 가상의 계통수이며, 주황색과 파란색으로 각각 서로 다른 두 지역을 구분하였습니다. 나무를 따라 내려가면 색상(지역)이 주황색에서 파란색으로 바뀌는 세 지점을 관찰할 수 있습니다. 이를 통해 우리는 바이러스가 주황색 지역에서 파란색 지역으로 전해질 때 세 건의 전파 사례가 있었다고 결론내릴 수 있을 것입니다.
+<br><br>
+하지만, 표본 채집 여부에 따라 이런 분석 결과가 바뀔 수 있습니다. 중앙 그림의 나무를 보면 왼쪽 나무에서 주황색 표본 하나를 제거한 것을 확인 할 수 있습니다. 이제는 주황색 지역에서 파랑색 지역으로 전파되는 오직 하나의 경우만이 관찰됩니다. 그리고 이 전파 사례는 현재보다 더 이전 시점에 발생한 것으로 추정되고 있습니다.
+<br><br>
+오른쪽 그림은 주황색 지역에서 오직 하나의 표본만 가지고 있을 경우의 계통수입니다. 이 경우 우리는 파란색에서 주황색 지역으로 전파되는 한 번의 전파만이 있었다고 해석하게 됩니다.
+<br><br>
+따라서 이런 추론법은 매우 유용하지만, 반드시 주의를 기울여 해석해야 합니다.
+</p>
+```
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [지도와 계통수는 어떤 관련이 있는가?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+
+여기서 보여지는 계통수는 각 표본이 채집된 위치(및 내부 분기점의 추정 위치)에 따라 다른 색으로 표현 되었습니다. ['데이터 탐색'](https://nextstrain.org/ncov)을 클릭하면 바이러스가 확산되는 과정을 추정한 애니메이션을 재생할 수 있습니다.
+
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [추가 읽기자료: 계통수의 통계적 불확실성](https://nextstrain.org/ncov/2020-03-11)
+
+앞에서 우리는 계통수의 내부 분기점이 실제 존재하는 표본이 아닌 가상으로 추정한 케이스를 의미한다고 이야기했습니다. 사실 모든 계통수는 병원체가 어떻게 진화하고 이동했는지에 대한 문제에서 어디까지나 가설일 뿐입니다. Nextstrain에서 보여지는 모든 나무들은 점 추정(역주: point estimate. 모수를 하나의 값으로 추정하는 방식)을 사용합니다. 다시 말해, 여기서 보여주는 계통수는 존재할 수 있는 여러 버전의 계통수들 중 우리가 현재 가진 데이터를 관찰할 가능성이 최대인 버전이라고 할 수 있습니다.
+<br><br>
+그러나, 이러한 추정에는 언제나 불확실성이 존재합니다. 일반적으로 나무에서 데이터가 풍부한 부분은 상대적으로 예측이 더 명확하지만, 데이터가 적은 부분은 상대적으로 예측이 니다.
+
+
+<!-- There is NO right-side text -->
+```auspiceMainDisplayMarkdown
+# 계통수의 통계적 불확실성에 대한 개념도
+<div width="50%" margin="auto">
+<p>
+<img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
+</p>
+</div>
+```
+
+<!-- ############ SLIDE BREAK ############# -->
+
+<!-- This is left-side text -->
+# [과학적 기여자들](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+
+이번 유행에 관여하고 있는 모든 과학자들, 특히 중국의 과학자들의, 작업들이 대단하고 신속했다는 점에 감사를 표하고자 합니다. 이 분석들은 유전체 정보 및 메타정보의 빠른 공유가 아니었다면 불가능했을 것입니다.
+
+<br><br>
+
+또한, 이 데이터들이 업로드되고 공유할 수 있는 플랫폼을 제공한 [GISAID](https://gisaid.org)에게 감사의 뜻을 전합니다.
+
+<!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-Мы благодарны за данные, собранные следующими лабораториями:
+우리는 다음 실험실들이 제공한 데이터들에 대하여 감사의 말씀을 전합니다:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -378,19 +348,20 @@ abstract: "Этот отчет использует общедоступные �
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Подробные научные благодарности](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [과학적 기여: 상세 내역](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Эти данные были переданы через [GISAID](https://gisaid.org).
-Мы с удовольствием признаем их вклад.
+이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
 
-<br>
 
-Справа мы указываем конкретные генетические последовательности, переданные каждой лабораторией.
+<br><br>
+
+오른쪽에는 각 염기서열을 제공한 각각의 연구실들이 나열되어 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-Геномы  SARS-CoV-2 были переданы учеными из следующих лабораторий:
+SARS-CoV-2 유전체는 아래 연구실의 과학자들에 의해 제공되었습니다:
+
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 
@@ -1150,5 +1121,6 @@ abstract: "Этот отчет использует общедоступные �
 
 * Zhongxian Center for Disease Control and Prevention
 	* Chongqing/ZX01/2020
+
 
 ```

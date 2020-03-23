@@ -1,11 +1,31 @@
 ---
-title: Геномный анализ распространения COVID-19. Ситуационный отчет 2020-03-13.
-authors: "Emma Hodcroft, Nicola Müller, Cassia Wagner, Misja Ilcisin, James Hadfield, Sidney M. Bell, Richard Neher, Trevor Bedford. (Translation: Vadim Puller, Irina Kalita, Daniel Taliun)"
-authorLinks: "https://nextstrain.org"
+title: 新型冠状病毒（COVID-19）流行病学基因组分析状况报告2020-03-13
+authors:
+  - Emma Hodcroft
+  - Nicola Müller
+  - Cassia Wagner
+  - Misja Ilcisin
+  - James Hadfield
+  - Sidney M. Bell
+  - Richard Neher
+  - Trevor Bedford
+authorLinks:
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/james-hadfield/
+  - https://twitter.com/sidneymbell
+  - https://neherlab.org/richard-neher.html
+  - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-date: "13 Марта 2020"
+translators:
+  - Derek Zhang
+  - Fengjun Zhang
+  - 李雪莹
+date: "2020年3月13日"
 dataset: "https://nextstrain.org/ncov/2020-03-13?d=map&legend=closed"
-abstract: "Этот отчет использует общедоступные геномные данные для отслеживания распространения COVID-19. Отчеты обновляются еженедельно."
+abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19）基因组数据来追踪疫情的传播，此报告将每周更新。"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -13,182 +33,184 @@ abstract: "Этот отчет использует общедоступные �
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Содержание](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
+# [目录](https://nextstrain.org/ncov/2020-03-13?d=tree,map&p=grid)
 
-* [Справочные ресурсы](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=2).
-* [Примечание о сборе образцов](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=3).
-* [Распространение в Европе](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=4).
-* [Локальная передача в Великобритании](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=5).
-* [Распространение SARS-CoV-2 из Ирана](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=6).
-* [Ввоз в США](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=7).
-* [Распространение SARS-CoV-2 в штате Вашингтон](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=8).
-* [Распространение SARS-CoV-2 в Калифорнии](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=9).
-* [Что вы можете предпринять](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=10).
-* [FAQ & Заблуждения](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=11).
-* [Благодарности](https://nextstrain.org/narratives/ncov/sit-rep/ru/2020-03-13?n=12).
+* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=2).     
+* [关于抽样](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=3).
+* [在欧洲的传播](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=4).   
+* [在英国国内的传播](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=5).
+* [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=6).
+* [病毒进入美国](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=7).
+* [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=8).
+* [SARS-CoV-2在加利福尼亚州的传播](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=9).
+* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=10).
+* [常见问题和误区](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=11).
+* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=12).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Резюме
+# 报告摘要
 
+在这里，我们分析了410</tag>个公开共享的COVID-19基因组。通过相互比较这些病毒基因组，我们可以描述COVID-19是如何演变和在世界各地传播的。
 
-Мы провели анализ 410</tag> общедоступных генома COVID-19. Сопоставив эти геномы вируса между собой, мы можем охарактеризовать как COVID-19 развивается и перемещается по всему миру.
+有关全球冠状病毒病例数量的最新信息，请参阅以下网站：[Our World In Data](https://ourworldindata.org/coronavirus)。
 
-Чтобы узнать текущее количество случаев коронавируса по всему миру, смотрите [Our World In Data](https://ourworldindata.org/coronavirus).
+在这份报告中，我们能够看到该病毒正在全球广泛传播，并有证据表明该病毒在多个大洲内存在本地传播。
+在这样的形式之下，我们鼓励将防疫重点放在减缓社区传播的努力上。此外，旅行禁令可能不会有明显的防疫效果。
 
-В этом отчете мы показываем, что вирус широко циркулирует по всему миру, с признаками локальной передачи на нескольких континентах.
-В настоящее время, мы призываем сосредоточиться на усилиях по замедлению распространения в общинах; запреты на поездки, вероятно, в меньшей степени эффективны.
+在本周的更新中，我们发现：
 
-В обновлениях этой недели мы сообщаем:
+* COVID-19在整个欧洲广泛传播，在国家之间有很大的流动。
 
-* COVID-19 широко циркулирует по всей Европе, со значительным перемещением между странами.
+* 我们确定了至少4个至英国的单独输入事件，其中一些已存在地域内的社区传播。  
 
-* Мы установили по крайней мере 4 случая ввоза в Великобританию, в некоторых случаях с последующей передачей в общинах.
+* 已经有一些有伊朗旅行史的案例，表明有病毒从伊朗传入世界其他地区。
 
-* Был ряд случаев, связанных с поездками, соединяющих Иран с другими частями мира.
+* 到目前为止，美国已经有了许多输入案例，疫情已在多个州建立了本地传播链。
 
-* На сегодняшний день было много случаев ввоза в США, что привело к цепочкам локальных передач в нескольких штатах.
+* 华盛顿州的疫情继续增长，一些病例与至尊公主号游轮上的病例密切相关。
 
-* Вспышка продолжает расти в штате Вашингтон; некоторые случаи тесно связаны со случаями на круизном лайнере Гранд Принцес (Grand Princess).
+* 加州已有本地传播的案例。
 
-* Наблюдается локальная циркуляция COVID-19 в Калифорнии.
-
-* Меры социального дистанцирования должны быть быстро задействованы для того, чтобы облегчить нагрузку на системы здравоохранения и защитить уязвимых.
+* 应迅速制定减少社交接触的措施，以减轻医疗系统的负担，保护高风险人群。
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Ресурсы COVID-19](https://nextstrain.org/ncov/2020-03-05)
-Ниже мы подготовили некоторые ресурсы (в настоящее время только на английском языке), которые стоит прочитать для ознакомления с болезнью COVID-19 и вызывающим ее вирусом SARS-CoV-2.
-Эта информация поможет интерпретировать данные, представленные в этом отчете; если вы прежде не сталкивались с филогенетическими деревьями, мы предлагаем вам ознакомиться с [брошюрой 'How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background/ru) и вернуться, когда вы чувствуете себя подготовленными.
+# [背景资料](https://nextstrain.org/ncov/2020-03-05)
+我们准备了一些值得一读的材料，让您了解COVID-19（2019冠状病毒病）及其致病病毒SARS-CoV-2（严重急性呼吸综合征冠状病毒2型）。
+这些资料将让我们在本报告中提供的数据更容易理解；如果你不熟悉系统进化树，我们建议你先阅读[如何解读系统进化树](https://nextstrain.org/narratives/trees-background)并在阅读后再回到此页。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Дополнительная информация
+## 背景
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Главная информация о Коронавирусах </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 冠状病毒的背景知识 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Главная информация о недавней вспышке COVID-19 </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 近期 COVID-19 疫情的背景 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/ru"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Как читать филогенетические деревья</a>
+  <a href="https://nextstrain.org/narratives/trees-background"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 如何解读进化树 </a>
 </div>
 
-## Дальнейшее чтение
+## 更多资料
 
-* Краткое описание эпидемии SARS-CoV-2 на [Википедия](https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BD%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F_COVID-19).
-* Информация из центра по контролю и профилактике заболеваний США [US CDC](https://www.cdc.gov/coronavirus/index.html).
+* 维基百科上 COVID-19 疫情的概览[中文维基](https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E7%97%85%E7%96%AB%E6%83%85)。
+* 美国疾病预防控制中心提供的材料 [US CDC](https://www.cdc.gov/coronavirus/2019-ncov/index-Chinese.html)。
 
+## Nextstrain 状况描述报告
 
-## Nextstrain изложенные факты
+以下页面包含使用[Nextstrain](https://nextstrain.org)执行的分析。
+滚动左侧侧栏将显示文本段落的同时，在右侧会显示相应的基因组数据可视化图。
 
-Последующие страницы содержат анализ, выполненный с использованием [Nextstrain](https://nextstrain.org).
-Прокрутка левой боковой панели показывает абзацы текста с соответствующей визуализацией геномных данных с правой стороны.
-
-
-Получить образцы полного генома нового и большого РНК-вируса так быстро - замечательное достижение.
-Эти исследования стали возможными благодаря быстрому и открытому обмену геномными данными и их интерпретацией учеными со всего мира (см. последний слайд с информацией об авторах, принимавших участие в секвенировании).
+对于一种新型的、基因组较大的RNA病毒，在疫情正在爆发的当下，这么迅速就能获得多条全基因组序列是一项了不起的成就。
+而这些成果是由世界各地的科学家快速公开共享基因组数据和分析而实现的（您可阅读本报告最后一页，我们列出了详细的序列提供单位）。
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Примечание о сборе образцов](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
-В настоящее время, мы имеем в распоряжении последовательности из образцов, взятых в 30 странах на 5 континентах. Это необыкновенное достижение -- секвенирование до недавних пор неизвестного, большого вируса в разгаре эпидемии очень затруднительно и возможно только благодаря целеустремленной работе и своевременному обмену данными учеными и медиками со всего мира.
+# [关于抽样](https://nextstrain.org/ncov/2020-03-13?c=country&r=country&d=map&p=grid&legend=closed)
+我们目前有来自5大洲30个国家的样本序列。这是一项令人难以置信的壮举--在病毒大流行期间对一种未知的大型RNA病毒进行测序是很困难的，只有通过世界各地的科学家和医生令人难以置信的工作和及时共享数据才有可能。
 <br><br>
-Хотя эти данные позволяют нам определить многие важные характеристики эпидемии и проследить ее распространение в реальном времени, важно подчеркнуть, что наши заключения ограничены доступными нам данными.
+虽然这些数据使我们能够推断出这场疫情的许多有用的特征并实时跟踪其传播，但需要强调的是，我们的结论受到现有数据的限制。
 <br><br>
-Например, карта показывает ограниченное число последовательностей из южных стран. Это не потому, что COVID-19 не циркулирует в этих регионах, или потому, что эти случаи менее важны; на самом деле, у нас просто очень мало данных из этих регионов. Размер каждого кружка на карте показывает, какое количество данных доступно нам в настоящее время из этого региона, а не настоящий размах эпидемии.
+例如，地图上显示来自南半球的序列很少。这既不是因为COVID-19没有在这些地区传播，也不是因为理解这些病例不重要，而仅仅是因为我们没有从这些地区获得多少数据。地图上每个圆圈的大小表示的是该区域当前有多少数据可用，而不是疫情的真实严重程度。
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Циркуляция вируса в Европе](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
-Здесь мы видим большую ветвь последовательностей из Европы.
-Важно отметить, что последовательности из многочисленных стран перекрываются между собой, свидетельствуя о том, что COVID-19 уже широко циркулирует по Европе.
+# [在欧洲的传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
+在这里，我们可以看到来自欧洲的序列组成了演化树的一个很大的分支。
+值得注意的是，很多不同国家的序列在这个分支中交错排列，表明COVID-19已经在欧洲相当广泛地传播。
 <br><br>
-При увеличении можно заметить, что на карте присутствует много связей между Италией и другими регионами; однако важно иметь в виду, что направление этих связей не всегда может быть достоверно установлено. Возможны другие гипотезы, объясняющие эти данные (например, если неизвестный случаи инфицировал два других: вторичный случай, секвенированный в Италии, и вторичный случай где-то еще).
+放大地图后，我们可以看到意大利和其他地区之间有许多联系；但一定要注意，我们并不总能确定这些联系的方向性，其他假设也可以解释这些现象(例如，一个未抽样的病例感染了在意大利测序的继发病例和在其他地方测序的继发病例)。
 
 <!-- There is no right side text -->
 
 
-# [Локальное распространение на Британских островах и в Ирландии](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
-Глядя на Британские острова и Ирландию, мы видим несколько случаев появления вируса, родственных образцам из других стран.
+# [在英国和爱尔兰的本地传播](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=dull)
+以不列颠群岛和爱尔兰为例，我们可以看到与其他国家的样本亲缘关系很近的病毒出现在这两个地区，并且有多个分支都是如此。
 <br><br>
-Это согласуется с 4 или более случаями проникновения вируса из других мест.
+这表明病毒从其他地方输入进英国和爱尔兰地区至少四次。
 <br><br>
-Мы также видим ситуации, где после проникновения вируса наблюдаются несколько родственных случаев в том же самом месте. Это согласуется с местным распространением вируса для более чем одного из таких проникновений.
+我们还看到，在输入感染发生之后，有几个分支内有多个亲缘关系很近的序列是来自同一地点。这表明有不止一次输入事件引发了当地的社区传播。
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Распространение SARS-CoV-2 из Ирана](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
-Несколько геномов были секвенированы от пациентов, сообщающих о недавних поездках в Иран. Эти геномы очень схожи, и показывают, что эпидемия в Иране может быть результатом единичной передачи вируса, который далее распространился по стране.
+# [从伊朗输出的SARS-CoV-2病毒](https://nextstrain.org/ncov/2020-03-13?d=tree,map&label=clade:A3&p=grid&legend=closed&m=div)
+有多条序列来自于有前往伊朗旅行史的患者。这些基因组都极其相似，表明伊朗的疫情可能是单次输入的结果，随后传播到了许多其他地方。
 <br><br>
-Обратите внимание, что в нашем распоряжении нет полных геномов от пациентов в самом Иране.
+请注意，我们目前还没有伊朗本土病例的完整基因组数据。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Передача в США](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
-Здесь мы видим, что вирус был ввезен в Соединенные Штаты в многочисленных независимых случаях.
+# [病毒进入美国](https://nextstrain.org/ncov/2020-03-13?d=tree,map&f_country=USA&m=div&p=full&legend=closed)
+在这里我们可以看到，该病毒已经被多次、独立地输入至美国。
 <br><br>
-Большинство из них не связаны ни с одним из других случаев в США, поэтому мы не уверены, что эти случаи привели к местным эпидемиям. Однако, учитывая, что тестирование на вирус в большинстве регионов еще не запущено на полную мощность, мы предполагаем большое количество незарегистрированных случаев.
+这些输入病例中的大多数与同处美国的其他样本没有关联，所以我们不确定这些输入案例是否导致了社区传播。
+然而，考虑到美国大多数地区的检测能力还没有提高，我们预期有很多未报告的病例。
 <br><br>
-В Вашингтоне и Калифорнии, однако, мы видим группы случаев, близко связанных между собой. Это предполагает происходящую передачу и местное распространение в этих двух штатах.
+然而，对于华盛顿州和加利福尼亚州，我们确实看到了亲缘关系很近的多条序列聚集成簇的现象。
+这表明这两个州中正发生持续的社区传播。
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Распространение SARS-CoV-2 в штате Вашингтон](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
-Здесь мы видим группу близко взаимосвязанных случаев. Мы делаем из этого заключение, что в штате Вашингтон происходит активное локальное распространение вируса.
+# [SARS-CoV-2在华盛顿州的传播](https://nextstrain.org/ncov/2020-03-13?c=division&r=division&d=tree,map&f_country=USA&label=clade:B1&m=div&p=grid&legend=closed)
+在这里我们可以看到，来自华盛顿州的病毒序列的亲缘关系很近，在演化树中被聚成一大簇。
+由此我们得出结论，华盛顿州内存在广泛的社区传播。
 <br><br>
-Интересно отметить, что образцы из Вашингтона перекрываются с образцами с круизного лайнера Гранд Принцес (Grand Princess). У нас пока нет уверенности, что вирус распространился с круизного лайнера в Вашингтон или наоборот; с получением новых данных мы обновим наш анализ.
+值得注意的是，在这个分支中，华盛顿州的样本与至尊公主号游轮上的样本交织在一起。
+我们还不确定病毒是从游轮传播到华盛顿州还是从华盛顿州传播到游轮；随着我们获得更多的数据，我们将更新我们的分析。
 <!-- There is NO right-side text -->
 
 <!-- This is left-side text -->
-# [Распространение SARS-CoV-2 в Калифорнии](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
-Глядя на образцы из Калифорнии, мы видим свидетельство многочисленных привнесений вируса. Что более важно, мы видим, как минимум, один кластер близко связанных случаев: все обнаруженны в Калифорнии в течение короткого отрезка времени (перейдите по ссылке ['Explore the Data'](https://nextstrain.org/ncov) и найдите 'CA9' чтобы увидеть один такой пример).
+# [SARS-CoV-2在加利福尼亚州的传播](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
+从加利福尼亚州的样本中，我们发现了多次输入的证据。
+更重要的是，我们看到至少一组密切相关的案例都是在加州短时间内采样得到的（点击 ['查看数据/Explore the Data'](https://nextstrain.org/ncov) 并搜索 'CA9' 来查看示例）。
 <br><br>
-Все это убедительно свидетельствует о местном распространении вируса в Калифорнии.
+这强烈地表明加州已存在持续的社区传播。
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Резюме](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
-- Вирус был многократно привнесен во многие части света. Не все привнесения привели к местной передаче вируса.
+# [结论](https://nextstrain.org/ncov/2020-03-13?c=country&d=map&p=full)
+- 该病毒已多次传入全球许多地区，但并不是所有的传入都导致了社区传播。  
 <br><br>
-- Мы видим доказательства местной передачи вируса в Европе, частях Соединенных Штатов, Китае и Западно-Восточной Азии.  
+- 我们在欧洲、美国部分地区、中国和东南亚看到了本地传播的证据。
 <br><br>
-- Контроль локальных эпидемий через ограничение социальных контактов абсолютно необходим, чтобы защитить наиболее уязвимых.
+- 通过减少接触来控制局部疫情，对于保护风险人群来说，至关重要。
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# Как себя вести в этой ситуации  
+# 你能做些什么
 
-Ограничение социальных контактов  -- то есть уменьшение числа людей, с которыми вы взаимодействуете каждый день -- может быть труднодостижимым, но очень полезным для блага общества. Если бы каждый из нас уменьшил число каждодневных контактов на 25%, мы ожидали бы уменьшения суммарного числа случаев заболевания в следующем месяце на 50%.
-([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)). Если вы не уверены в том, что такое ограничение социальных контактов, [посмотрите эти полезные рекомендации (на английском)](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/).
+社交控制——也就是说，减少自己每天遇到的人的数量。这可能很有挑战性，但却能为整个社会的公共利益作出极大的贡献。
+如果每个人的日常接触减少25%，我们预计下个月的累计病例数量将减少50% ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf))。“社交控制/Social distancing”是什么意思？ [请查看这篇有用的指南（英文）](https://www.theatlantic.com/family/archive/2020/03/coronavirus-what-does-social-distancing-mean/607927/)。
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
 
-## Шаги, которые каждый может предпринять
-* Уменьшить число людей, с которыми вы взаимодействуете каждый день, особенно, если вы попадаете в группу риска (то есть, пожилые люди и люди с хроническими проблемами здоровья).
-* Помните, что, даже если вы не относитесь к группе риска, многие вокруг вас принадлежат к ней; следуйте этим рекомендациям, чтобы защитить других.
-* Мойте руки "как если бы вы только что почистили лук и собираетесь сменить свои контактные линзы".  
-* Оставайтесь дома, если вы больны; запаситесь продуктами и всем необходимым на случай, если вы должны добровольно посадить себя под карантин.  
-* Если вы работодатель, поощряйте своих подчиненных оставаться дома, когда они больны (и поддержите их в этом финансово).  
+## 个人可以采取的行动
+* 减少每天接触的人数，风险人群尤其要这样做（例如老年人和有既往疾病的人）。
+* 请记住，即使你不属于高风险人群，你周围的许多人也可能属于高危人群；遵循以上做法可以保护他人。
+* 仔细洗手，要像你沾上过恶心的东西一样经常洗手。
+* 生病时留在家里；准备一些额外的补给，以备自我隔离。
+* 如果你是雇主，请鼓励员工在生病时留在家里（并提供相应的经济支持）。  
 
-## Возможные шаги со стороны официальных лиц   
-* Сделайте тестирование на вирус бесплатным и легкодоступным.  
-* Организуйте меры по ограничению социальных контактов.  
-* Поддержите финансово тех, кто страдает от ограничения социальных контактов (например, почасовые работники, те, кто работает с престарелыми и детьми, малый бизнес, и т.п.)
+## 政府可以采取的行动
+* 推广免费检测。  
+* 推行减少社交接触的措施。  
+* 在经济上支持受到上述措施影响的人（例如，小时工、老人或儿童的看护人员、小型企业等）。
 ```
 
 
@@ -196,37 +218,38 @@ abstract: "Этот отчет использует общедоступные �
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Часто задаваемые вопросы и заблуждения](https://nextstrain.org/ncov/2020-03-05)
+# [常见问题和误区](https://nextstrain.org/ncov/2020-03-05)
 
-#### Нам известно, что у многих есть вопросы по поводу COVID-19.
+#### 我们知道很多人对 COVID-19 有疑问.
 
-#### [Мы создали брошюру, отвечающую на наиболее часто задаваемые вопросы (на английском)](https://nextstrain.org/help/coronavirus/FAQ).
+#### [我们特地设立了一个指南来回答一些最常被问到的问题](https://nextstrain.org/help/coronavirus/FAQ).
 
-#### Федерация американских ученых также поддерживает [страничку с часто задаваемыми вопросами (на английском)](https://covid19.fas.org/l/en).
+#### 美国科学家联合会也有[一个很棒的常见问题解答页面](https://covid19.fas.org/l/en).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Для дополнительной информации   
+# 延伸阅读
 
-* "Не верьте теориям заговора о коронавирусе и ВИЧ" (на английском, "Don't believe the conspiracy theories you hear about coronavirus & HIV") [article](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
+* "不要相信你听到的关于冠状病毒和艾滋病的阴谋论" [文章链接](https://massivesci.com/notes/wuhan-coronavirus-ncov-sars-mers-hiv-human-immunodeficiency-virus/) _2020-01-31_
 
-* "Необоснованные теории заговора утверждают, что новый коронавирус был создан искусственно" (на английском, "Baseless Conspiracy Theories Claim New Coronavirus Was Bioengineered") [article](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
+* "毫无根据的阴谋论声称新的冠状病毒是生物工程制造的" [文章链接](https://www.factcheck.org/2020/02/baseless-conspiracy-theories-claim-new-coronavirus-was-bioengineered/) _2020-02-07_
 
-* "Нет, вирус из Ухани не был генетически модифицирован, чтобы добавить в него элементы ВИЧ" (на английском, "No, The Wuhan Coronavirus Was Not Genetically Engineered To Put Pieces Of HIV In It") [article](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
+* "不，武汉冠状病毒并没有被人为插入艾滋病病毒片段" [文章链接](https://www.forbes.com/sites/victoriaforster/2020/02/02/no-coronavirus-was-not-bioengineered-to-put-pieces-of-hiv-in-it/#5d339e8e56cb) _2020-02-02_
 
-* "Разрушение мифов о коронавирусе" (на английском,  "Busting coronavirus myths)" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
+* "关于冠状病毒的辟谣" [AFP Fact Check](https://factcheck.afp.com/busting-coronavirus-myths) _2020-02-19_
 
 
-# Заблуждения
+# 常见误区
 
-Распространяется большое количество заблуждений о происхождении нового коронавируса. Во время эпидемии как нынешняя, распространение неправильной информации может привести к панике, и спровоцировать недоверие к ученым и правительству, следствием чего может быть отказ следовать их указаниям и  предпринимать необходимые меры.
+目前社会上流行着许多关于新型冠状病毒起源的谣言。
+但在像这样的疫情爆发期间，不正确信息的传播可能会引发更多的恐慌，使人们丧失对科学家和政府的信任，从而可能不遵循建议或不采取适当的预防措施。
 
-Для того, чтобы развеять эти заблуждения, ученые обсуждают их на следующих страницах (на английском):
+科学家们在下面的文章中了解释了为什么一些观点是不正确的：
 
 <div>
 
-  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> 'Змеиное' происхождение SARS-CoV-2 (Technical) </a>
-  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> Идея 'HIV инженерии' (Twitter thread)</a>
+  <a href="http://virological.org/t/ncovs-relationship-to-bat-coronaviruses-recombination-signals-no-snakes-no-evidence-the-2019-ncov-lineage-is-recombinant/331"><img alt="picture of a snake" width="100" src="http://data.nextstrain.org/img_snake-freeToUse.jpg"/> SARS-CoV-2 并不起源于"蛇"（专业论坛帖） </a>
+  <a href="https://twitter.com/trvrb/status/1223666856923291648"><img alt="illustration of HIV" width="100" src="http://data.nextstrain.org/img_HIV-wiki.jpg"/> 'HIV基因工程'之说错在哪里（推特系列帖）</a>
 
 
 </div>
@@ -238,19 +261,20 @@ abstract: "Этот отчет использует общедоступные �
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Благодарности](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [科学贡献人员](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Мы хотели бы отметить удивительную и своевременную работу всех ученых, вовлеченных в исследование этой эпидемии, особенно тех, кто работает в Китае. Только благодаря интенсивному и быстрому обмену генетическими данными и метаданными стали возможны анализы, подобные этому.
+我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家。
+只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析。
 
 <br>
 
-Мы хотели бы поблагодарить [GISAID](https://gisaid.org) за обеспечение платформы, через которую эти данные могут храниться и передаваться.
+我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台。
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-Мы благодарны за данные, собранные следующими лабораториями:
+非常感谢以下单位机构和实验室慷慨分享:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -378,19 +402,20 @@ abstract: "Этот отчет использует общедоступные �
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Подробные научные благодарности](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [科学贡献详情](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-Эти данные были переданы через [GISAID](https://gisaid.org).
-Мы с удовольствием признаем их вклад.
+所有数据已被共享至[GISAID](https://gisaid.org)数据库。
+我们感谢各位科学家的慷慨分享。
 
 <br>
 
-Справа мы указываем конкретные генетические последовательности, переданные каждой лабораторией.
+在右边，我们列出了每个实验室共享的序列。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-Геномы  SARS-CoV-2 были переданы учеными из следующих лабораторий:
+感谢下列实验室里科学家们慷慨分享SARS-CoV-2的基因组:
+The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
 * Arizona Department of Health Services
 	* USA/AZ1/2020
 

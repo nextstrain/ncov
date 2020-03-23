@@ -49,13 +49,27 @@ Netherlands/NoordBrabant_34/2020
 
 # These have more tip-specific divergence than expected
 Beijing/IVDC-BJ-005/2020
+China/WF0023/2020
 Henan/IVDC-HeN-002/2020
+Guangdong/GDSZ202013-P0014/2020
 Shanghai/IVDC-SH-001/2020
 Shenzhen/SZTH-001/2020
 Shenzhen/SZTH-004/2020
 Wuhan/IPBCAMS-WH-05/2020
 Wuhan/IVDC-HB-envF54/2020
 Wuhan/WH02/2019
+Guangzhou/GZMU0016/2020
+Guangzhou/GZMU0047/2020
+
+# Excluding because seem to be too divergent - worth double checking
+Shandong/LY002/2020
+Shandong/LY001/2020
+USA/MN1-MDH1/2020
+USA/WA-UW40/2020
+USA/WA-UW53/2020
+USA/WA-UW65/2020
+USA/WA11-UW7/2020
+Wuhan/IVDC-HB-envF13/2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
@@ -101,10 +115,8 @@ USA/CruiseA-24/2020
 USA/CruiseA-25/2020
 USA/CruiseA-26/2020
 
-# Temporarily excluded
-Brazil/SPBR-03/2020
-Brazil/SPBR-04/2020
-Brazil/SPBR-05/2020
-Brazil/SPBR-06/2020
+# way too divergent 
+Russia/StPetersburg-3524/2020
 
-
+# temporarily excluded because is currently reverse complement 
+Peru/010/2020

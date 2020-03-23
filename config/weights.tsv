@@ -13,15 +13,19 @@ division_exposure	Chongqing	10.0
 division_exposure	Chungcheongnam	1.0
 division_exposure	Comunitat Valenciana	1.0
 division_exposure	Drenthe	1.0
+division_exposure	Dublin	1.0
 division_exposure	England	1.0
+division_exposure	Finland	1.0
 division_exposure	Flanders	1.0
 division_exposure	Flevoland	1.0
 division_exposure	Fujian	10.0
 division_exposure	Gelderland	1.0
 division_exposure	Geneva	1.0
-division_exposure	Grand Princess	0.01
+division_exposure	Grand Est	1.0
+division_exposure	Grand Princess	1.0
 division_exposure	Guangdong	10.0
 division_exposure	Gyeonggi	1.0
+division_exposure	Hauts de France	1.0
 division_exposure	Helsinki	1.0
 division_exposure	Hong Kong	1.0
 division_exposure	Hubei	100.0
@@ -35,10 +39,12 @@ division_exposure	Jiangxi	10.0
 division_exposure	Kanagawa	1.0
 division_exposure	Kathmandu	1.0
 division_exposure	Kerala	1.0
+division_exposure	Kinshasa	1.0
 division_exposure	Kyoto	1.0
 division_exposure	Lapland	1.0
 division_exposure	Lazio	1.0
 division_exposure	Limburg	1.0
+division_exposure	Limerick	1.0
 division_exposure	Lombardy	20.0
 division_exposure	Luxembourg	1.0
 division_exposure	Massachusetts	1.0
@@ -46,7 +52,9 @@ division_exposure	Mexico City	1.0
 division_exposure	Minnesota	1.0
 division_exposure	Nara	1.0
 division_exposure	New South Wales	1.0
+division_exposure	New York	1.0
 division_exposure	Nonthaburi	1.0
+division_exposure	Normandie	1.0
 division_exposure	North Brabant	1.0
 division_exposure	North Holland	1.0
 division_exposure	North Rhine Westphalia	1.0
@@ -55,6 +63,7 @@ division_exposure	Osaka	1.0
 division_exposure	Overijssel	1.0
 division_exposure	Portugal	1.0
 division_exposure	Queensland	1.0
+division_exposure	Rio de Janeiro	1.0
 division_exposure	Santiago	1.0
 division_exposure	Sao Paulo	1.0
 division_exposure	Scotland	1.0
