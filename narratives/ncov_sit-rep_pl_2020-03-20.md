@@ -133,15 +133,15 @@ To drzewo zostało oznaczone kolorystycznie w zależności od histori podróży 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Dane z sekwencjowania mogą być porównane z historiami podróży](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
+Patrząc szerzej, możemy zobaczyć, że dane nie zawsze są tak zgodne.
 <br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
+Możemy zobaczyć, że niemal wszystkie przypadki u których zgłoszono niedawną podróż do Iranu grupują się razem pośrodku drzewa.
 <br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
+W szczycie drzewa widzimy też przypadek kanadyjski, również z historią podróży do Iranu. Ta sekwencja nie grupuje sie jednak z pozostałymi przypadkami powiązanymi z podróżami do Iranu.
 <br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+Z pewnością jest prawdopodobne, że ta osoba została zainfekowana przez inny, drugi łańcuch transmisji, mający miejsce w Iranie. Póki nie mamy więcej danych, nie możemy potwierdzić, że ta infekcja została nabyta w trakcie podróży.
 
 <!-- There is no right side text -->
 
