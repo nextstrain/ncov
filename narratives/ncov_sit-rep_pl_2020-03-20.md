@@ -169,7 +169,7 @@ Dla wielu ludzi wybuch epidemii pozornie z dnia na dzień uległ zmianie z abstr
 Należy jednak pamiętać, że ta sytuacja rozwija się już przez jakiś czas. To niekoniecznie oznacza, że wirus jest coraz częściej introdukowany w nowe miejsca. 
 Bardziej prawdopodobne jest, że wiele miejsce zaczyna być świadomych zlokalizowanych ognisk, które zostały zapoczątkowane kilka tygodni temu.
 <br><br>
-Obszary, w których nie jesteśmy jeszcze świadome występowania w regionie lokalnych ognisk, powinny się przygotować i rozpocząć obserwację.
+Obszary, w których nie jesteśmy jeszcze świadomi występowania w regionie lokalnych ognisk, powinny się przygotować i rozpocząć obserwację.
 
 <!-- This is the right-side text -->
 
@@ -192,12 +192,12 @@ The nowe ogniska epidemii mogą z kolei stać się przyczyną wprowadzania wirus
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Jak epidemie się rozprzestrzeniają: przykład](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Możemy zobaczyć prosty przykład rozprzestrzeniania się na przykładzie danych ze stanu Waszyngton.
+Przesuwając myszką nad korzeniem głównego kladu możemy zobaczyć, że wirus był prawodpodobnie sprowadzony na ten obszar pomiędzy końcem stycznia a połową lutego 2020 ([metodyka](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+Obecnie, w połowie marca (czyli mniej więcej 6 tygodni później), widzimy, że lokalna epidemia jest w pełnym rozkwicie. Z danych z sekwencjonowania oszacowaliśmy tempo podwajania się na 3-6 dni, zakładając wykładniczy wzrost populacji.
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -207,18 +207,18 @@ Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swin
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [Jak epidemie się rozprzestrzeniają: przykład](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
+Możemy też zobaczyć na przykładzie, jak początkowo zlokowalizowane ogniska zapoczątkowują pojawienie się choroby w innych obszarach. 
+Próbki z Utah znajdujące się blisko górnych gałęzi drzewa (pomarańczowe) gnieżdżą się wewnątrz głównego kladu z ogniska w Waszyngtonie. 
+Zgadza się to ze sprowadzeniem infekcji z Waszyngtonu do Utah, aczkolwiek nie jest wykluczone, że były inne, pośrednie kroki w tym łańcuchu przenoszenia. 
 <br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
+Nie wiemy na pewno czy to zapoczątkowanie wywoła lokalną epidemię w Utah. 
+Ale jeżeli wirus będzie dalej się rozprzestrzeniał po tym wprowadzeniu do regionu, możemy spodziewać się, że stanie się to w ciągu najbliższych 4 tygodni.
 <br><br>
-This is just one example.
-There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
-Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+To tylko jeden przykład. 
+Mogły być inne inicjacje infekcji w Utah (lub innych regionach), których nie widzimy na przedstawionym drzewie, ponieważ nie zostały zsekwencjonowane. 
+Obszary, w których nie jesteśmy jeszcze świadomi występowania w regionie lokalnych ognisk, powinno rozpocząć się przygotowania i obserwację.  
 
 <!-- There is no right side text -->
 
