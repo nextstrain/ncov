@@ -50,7 +50,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 Wir haben 723 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den Vergleich der Virusgenome untereinander, koennen wir naehere Aussagen ueber die weltweite Verbreitung von COVID-19 machen.
 
-In diesem Bericht wollen wir verdeutlichen, dass das Virus hier angekommen ist und derzeit weltweit im Imlauf ist.
+In diesem Bericht wollen wir verdeutlichen, dass das Virus hier angekommen ist und derzeit weltweit im Umlauf ist.
 Um feststellen zu koennen ob und inwiefern sich COVID-19 lokal ausbreitet und welche Milderungsoptionen zu einer Verlangsamung der Virusverbreitung fuehren koennen, benoetigt man ein fundiertes Wissen ueber die oertlichen Epidemiedynamiken. Das widerum fordert breit gefaecherte Tests. 
 Dies betont die Wichtigkeit von schnellen Tests mit dem Hintergrund die oertliche Verbreitung des Virus drastisch zu unterbinden.
 
@@ -94,7 +94,7 @@ Fuer naehere Infromationen zu COVID-19 und dem Ursprungsvirus SARS-CoV-2, haben 
 # [Anmerkung zur Probennahme](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
 Bis jetzt haben wir Zugang zu Sequenzierdaten von Proben aus 36 Laendern auf 6 Kontinenten verteilt. Das ist eine Meisterleistung, wenn man bedenkt, dass man einen unbekannten, grossen RNA-Virus inmitten einer Pandemie sequenzieren muss. Dies ist nur dank dem wunderbaren Einsatz und dem zeitnahen Teilen von Daten durch Forschern und Aerzten weltweit moeglich.
 <br><br>
-Waehrend diese Daten es uns ermoeglichen die Epidemie viel naeher zu charakterisieren und die Ausbreitung live zu verfolgen, ist es wichtig zu betonen, dass die Schlussfolgerungen aufgrund der Datenverfuegbarkeit begrenzt sind. Nur eine Untergruppe an Patienten innerhalb aller Fallzahlen werden getestet. Und davon wird nur eine Teilmenge der Proben sequenziert. Zusaetzlich variiert diese getestete und sequenzierte Untergruppe je nach geographischer Region und Zeit. Ausserdem werden phylogenetische Rekonstruktionen von Epidemien mit einem gewissen Grad an Unsicherheit in Verindung gebracht.
+Waehrend diese Daten es uns ermoeglichen die Epidemie viel naeher zu charakterisieren und die Ausbreitung live zu verfolgen, ist es wichtig zu betonen, dass die Schlussfolgerungen aufgrund der Datenverfuegbarkeit begrenzt sind. Nur eine Untergruppe an Patienten innerhalb aller Fallzahlen wird getestet. Und davon wird nur eine Teilmenge der Proben sequenziert. Zusaetzlich variiert diese getestete und sequenzierte Untergruppe je nach geographischer Region und Zeit. Ausserdem werden phylogenetische Rekonstruktionen von Epidemien mit einem gewissen Grad an Unsicherheit in Verbindung gebracht.
 <br><br>
 Beispielsweise:
 
@@ -111,7 +111,7 @@ Die Karte zeigt sehr geringe Sequenzierdaten aus dem globalen Sueden. Beispielsw
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
 # [Andere Regionen sind ueberrepraesentiert](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In manchen Laendern, wie zum Beispiel in den Niederlanden, sind umfangreiche Sequenzierdaten in Relation zu den gesamten Fallzahlen verfuegbar.
+In manchen Laendern, wie zum Beispiel den Niederlanden, sind umfangreiche Sequenzierdaten in Relation zu den gesamten Fallzahlen verfuegbar.
 <br><br>
 Daher sollte beim Lesen des Artikels beachtet werden, dass die Groesse eines Kreises aussagt, wie viel Daten derzeit verfuegbar sind und nicht die wirklichen Ausmasse der Virenepidemie widerspiegelt. Unter diesem [Link](https://nextstrain.org/narratives/trees-background?n=8) kann nachgelesen werden, wie das unsere Stoerfestigkeit der Uebertragung beeinflussen kann. 
 <br><br>
@@ -124,7 +124,7 @@ Daher sollte beim Lesen des Artikels beachtet werden, dass die Groesse eines Kre
 
 Den Ort der Infektion einer Person zu identifizieren ist wichtig fuer die Unterscheidung zwischen Gebieten, die eine oertliche Verbreitung durchmachen und Gebieten, die vornehmlich reisebedingte Faelle aufweisen. Sequenzierdaten helfen dabei diese Szenarien unterscheiden zu koennen.
 <br><br>
-Im Folgenden repraesentiert die Farbe eines Baums das Reiseverhalten einer Person (falls bekannt). Wenn man nun die kanadischen Sequenzierdaten im Zentrum betrachtet (Canada/BC_78548/2020), kann man erkennen, dass viele berichtet haben in Europa gewesen zu sein. Daher dass diese Infektionsgruppierung mit anderen europaeischen Sequenzierdaten uebereinstimmt, kann hoechstwahrscheinlich davon ausgegangen werden, dass diese Infektion reisebedingt zustande gekommen ist.
+Im Folgenden repraesentiert die Farbe eines Baums das Reiseverhalten einer Person (falls bekannt). Wenn man nun die kanadischen Sequenzierdaten im Zentrum betrachtet (Canada/BC_78548/2020), kann man erkennen, dass viele berichtet haben in Europa gewesen zu sein. Daher, dass diese Infektionsgruppierung mit anderen europaeischen Sequenzierdaten uebereinstimmt, kann hoechstwahrscheinlich davon ausgegangen werden, dass diese Infektion reisebedingt zustande gekommen ist.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
@@ -136,7 +136,7 @@ Im Nachfolgenden sieht man in der Mitte des Baums alle Faelle, die angegeben hab
 <br><br>
 Im oberen Ende des Baums sieht man einen kanadischen Fall, der eine Iranreise gemeldet hat. Allerdings passt diese Person nicht in die naehere Umgebung der Gruppe, die eine Reise in den Iran angegeben hat.
 <br><br>
-Es ist definitiv moeglich, dass diese Person durch eine weitere fortlaufende verbreitungskette im Iran angesteckt worden ist. Allerdings benoetigen wir zur Verifizierung mehr Daten, um eine reisebedingte Infektion vollkommen ausschliessen zu koennen.
+Es ist definitiv moeglich, dass diese Person durch eine weitere fortlaufende Verbreitungskette im Iran angesteckt worden ist. Allerdings benoetigen wir zur Verifizierung dieser Aussage mehr Daten, um eine reisebedingte Infektion vollkommen ausschliessen zu koennen.
 
 <!-- There is no right side text -->
 
@@ -161,7 +161,7 @@ Doch nicht jede Einschleppung fuehrt zu einer Epidemie.
 Es scheint, als ob die Fallzahlen von COVID-19 ploetzlich explodiert sind.
 Fuer viele Leute bedeutet diese Epidemie, welche zuvor noch ein fremdes, weit entferntes, abstraktes Anliegen war, eine starke Einschraenkung ihres taeglichen Lebens, die sich scheinbar ueber Nacht vollzogen hat. 
 <br><br>
-Aber es sei zu bedenken, dass das Virus schon seit laengerem im Anmarsch ist. Es ist nicht zwangsweise der Fall, dass der Virus oefter in neue Orte eingeschleppt worden ist. Viel wahrscheinlicher ist, dass lokale Epidemien vielerorts, obwohl der Virus schon vor einigen Wochen eingeschleppt worden ist, jetzt in das Bewusstsein der Leute treten.
+Aber es sei zu bedenken, dass das Virus schon seit laengerem im Anmarsch ist. Es ist nicht zwangsweise der Fall, dass das Virus oefter in neue Orte eingeschleppt worden ist. Viel wahrscheinlicher ist, dass lokale Epidemien vielerorts jetzt in das Bewusstsein der Leute treten, obwohl das Virus schon vor einigen Wochen eingeschleppt worden ist.
 <br><br>
 Gegenden, die noch keinen lokalen Ausbruch der Krankheit zu verzeichnen haben, sollten daher jetzt aktiv werden und Kontrolltests durchfuehren.  
 
@@ -189,7 +189,7 @@ Diese neuen Epidemien koennen widerum das Virus in andere Gebiete bringen.
 # [Epidemienwachstum anhand eines Beispiels](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 Ein deutliches Beispiel ist in den Daten des Bundesstaates Washington sichtbar. 
-Betrachtet man die Wurzel der Hauptklade kann davon ausgegangen werden, dass das Virus in diese Gegenden Ende Januar und Mitte Februar 2020 eingeschleppt worden ist ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Betrachtet man die Wurzel der Hauptklade kann davon ausgegangen werden, dass das Virus in diese Gegend Ende Januar und Mitte Februar 2020 eingeschleppt worden ist ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
 Mitte Maerz (ungefaehr 6 Wochen spaeter) ist die Epidemie in vollem Gange. Ausgehende von den Sequenzierdaten, erwarten wir eine Verdopplungsrate von 3-6 Tage, wenn von einer exponentiellen Wachstumsrate ausgegangen wird.
 <br>
@@ -204,9 +204,9 @@ Mitte Maerz (ungefaehr 6 Wochen spaeter) ist die Epidemie in vollem Gange. Ausge
 # [Verbreitung einer Epidemie anhand eines Beispiels](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
 Zusaetzlich sieht man beispielhaft wie ein anfaenglich oertlicher Ausbruch zur Einfuehrung des Virus andererorts gefuehrt hat.
-Die Proben aus Utah nahe der Baumspitze (orange) verschachtelt sich in der Hauptklade der Epidemie in Washington. Das ist im Einklang zu einer Einschleppung von Washington nach Utah, wobei es zusaetzlich noch moeglich sein kann, dass es Zwischenschritte innerhalb der Uebertragungskette gegeben haben konnte.
+Die Proben aus Utah nahe der Baumspitze (orange) verschachteln sich in der Hauptklade der Epidemie in Washington. Das ist im Einklang zu einer Einschleppung von Washington nach Utah, wobei es zusaetzlich noch moeglich sein kann, dass es Zwischenschritte innerhalb der Uebertragungskette gegeben haben konnte.
 <br><br>
-Wir koennen nicht definitiv eine Epidemie in Utah aufgrund von dieser Einschelppung ausschliessen. Allerdings, wenn der Virus sich weiter ausbreiten kann und wird, erwarten wir die Entfaltung der Epidemie innerhalb der naechsten 4 Wochen.
+Wir koennen nicht definitiv eine Epidemie in Utah aufgrund dieser Einschelppung ausschliessen. Allerdings, wenn der Virus sich weiter ausbreiten kann und wird, erwarten wir die Entfaltung der Epidemie innerhalb der naechsten 4 Wochen.
 <br><br>
 Das ist nur ein Beispiel. Es sind auch weitere Einschleppungen nach Utah (oder anderswo) denkbar, die in dem Baum nicht sichtbar sind aufgrund fehlender Sequenzierdaten. Am wichtigsten sollten nun Gegenden, in denen die Krankheit noch nicht ausgebrochen ist, sich vorbereiten und Kontrolltests durchfuehren.  
 
@@ -218,15 +218,15 @@ Das ist nur ein Beispiel. Es sind auch weitere Einschleppungen nach Utah (oder a
 
 Folgerichtig gibt es viele Verbreitungsketten, die uns zum jetzigen Stand der Dinge noch unbekannt sind. 
 <br><br>
-Das bedeutet, dass wir selbst fuer Gebiete, die jetzt social distancing Massnahmen ergriffen haben, steigende Fallzahlen fuer die naechsten paar Wochen erwarten. 
-Diese Anstiege bedeuten NICHT, dass solche Massnahmen nicht funktionieren. Es braucht einfach nur Zeit fuer schon infizierte Individuen (und hoechstwahrscheinlich auch deren Haushaltsmitglieder) symptotisch zu werden, behandelt zu werden und zu genessen. Zusaetzlich erwarten wir einen Hoecker in der Kurve von berichteten Faellen, da Tests weitverbreitet verfuegbar werden.
+Was bedeutet, dass wir selbst fuer Gebiete, die jetzt social distancing Massnahmen ergriffen haben, steigende Fallzahlen fuer die naechsten paar Wochen erwarten. 
+Diese Anstiege bedeuten NICHT, dass solche Massnahmen nicht funktionieren. Es braucht nur Zeit fuer schon infizierte Individuen (und hoechstwahrscheinlich auch deren Haushaltsmitglieder) symptotisch zu werden, behandelt zu werden und zu genessen. Zusaetzlich erwarten wir einen Hoecker in der Kurve von berichteten Faellen, da Tests weitverbreitet verfuegbar gemacht werden.
 <br><br>
-Es ist wichtig, dass social distancing in dieser Zeit eingehalten wird. Wie man zur rechten sehen kann steigen Fallzahlen weiterhin an, nachdem Interventionen in Kraft treten. Aber ueber die Zeit sinkt die kumulative Anzahl an Faelle drastisch.
+Es ist wichtig, dass social distancing in dieser Zeit eingehalten wird. Wie man zur rechten sehen kann, steigen Fallzahlen weiterhin an, nachdem Interventionen in Kraft treten. Aber ueber die Zeit sinkt die kumulative Anzahl an Faelle drastisch.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing unterbindet Neuinfektionen uebernacht, aber es reduziert die Fallzahlen und Tote langfristig drastisch.
+## Social distancing unterbindet Neuinfektionen nicht uebernacht, aber es reduziert die Fallzahlen und Tote langfristig drastisch.
 Social distancing beschreibt die Reduktion der Anzahl an Leute, denen man taeglich begegnet. Es kann herausfordernd sein, aber das Gemeinwohl profitiert stark davon.  
 Wenn jeder seine taeglichen Kontakte um 25% reduziert, kann mit einer Reduktion von 50% in der kumulativen Anzahl der Faelle im naechsten Monat gerechnet werden. ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
@@ -240,7 +240,7 @@ Wenn jeder seine taeglichen Kontakte um 25% reduziert, kann mit einer Reduktion 
 # [Schlussfolgerung](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
 - Das Virus wurde sehr oft ueberallhin auf der Welt eingeschleppt
 <br>
-- Wir sehen beweise dafuer, dass das Virus sich in vielen Gegenden ausbreitet; darueber hinaus erwarten wir, dass vorherige Einfuehrungen des Virus zu lokalen Epidemien fuehren wird, was in den naechsten Wochen sichtbar wird.
+- Wir sehen beweise dafuer, dass das Virus sich in vielen Gegenden ausbreitet; darueber hinaus erwarten wir, dass vorherige Einfuehrungen des Virus zu lokalen Epidemien fuehren wird, was in den naechsten Wochen sichtbar werden wird.
 <br>
 - Einschraenkungen lokaler Ausbrueche des Virus durch social distancing ist wichtig, um:  
   - #FlattenTheCurve Gesundheitssysteme vor dem Kollaps zu bewahren aufgrund von zu vielen Patienten auf einemal.
@@ -252,17 +252,17 @@ Wenn jeder seine taeglichen Kontakte um 25% reduziert, kann mit einer Reduktion 
 ```auspiceMainDisplayMarkdown
 # Was kann jeder Einzelne dazu beitragen
 ## ...als Individuum
-* Reduziere drastisch die Anzahl an Leuten, mit denen man taeglich Kontakt hat, besonders wenn man zur Risikogruppe gehoert (z.B. Senioren und Leute mit Vorerkrankungen).
-* Bedenke, dass wenn man selbst nicht zur Risikogruppe gehoert, Leute in der Umgebung eventuell zu der Risikogruppe gehoeren. Halten Sie sich an diese Anweisungen, um andere zu schuetzen.
+* Reduzieren Sie drastisch die Anzahl an Leuten, mit denen Sie taeglich Kontakt haben, besonders wenn Sie zur Risikogruppe gehoeren (z.B. Senioren und Leute mit Vorerkrankungen).
+* Bedenken Sie, dass selbst wenn Sie nicht zur Risikogruppe gehoeren, Leute in der Umgebung eventuell zu der Risikogruppe gehoeren koennen. Halten Sie sich an die Anweisungen, um andere zu schuetzen.
 * Haendewaschen "like you just chopped a jalapeno and have to change a contact lens."  
-* Bleiben Sie zuhause so oft wie es geht - besonders wenn man krank ist; bereiten Sie sich mit Vorraeten auf eine eventuelle Quarantaene vor.   
-* Raten Sie Ihren Angestellten als Arbeitgeber von zuhause zu arbeiten, wenn moeglich.
+* Bleiben Sie zuhause so oft wie es geht - besonders wenn Sie krank sind; bereiten Sie sich mit Vorraeten auf eine eventuelle Quarantaene vor.   
+* Raten Sie Ihren Angestellten als Arbeitgeber von zuhause aus zu arbeiten, wenn moeglich.
 
 ## ...als Amtsperson  
 * Machen Sie Tests kostenlos und weitlaeufig verfuegbar.  
 * Fordern Sie strikte social distancing Massnahmen.  
 * Unterstuetzen und implementieren Sie umfangreiche Kontaktverfolgungen  
-* Unterstuetzen Sie finanzielle all diejenigen, die aufgrund von social distancing Massnahmen negativ betroffen sind (z.B.gewerbliche Mitarbeiter, Leute mit Seniorenversorgung oder Kinderbetreuung, Kleinunternehmen, etc.).
+* Unterstuetzen Sie all diejenigen finanziell, die aufgrund von social distancing Massnahmen negativ betroffen sind (z.B.gewerbliche Mitarbeiter, Leute mit Seniorenversorgung oder Kinderbetreuung, Kleinunternehmen, etc.).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -273,7 +273,6 @@ Wenn jeder seine taeglichen Kontakte um 25% reduziert, kann mit einer Reduktion 
 # [Wissenschaftliche Danksagung](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
 Wir moechten uns recht herzlich bei allen Forschern fuer deren Zeit und wunderbares Engagement bedanken, die in dieser Epidemie ihren unentbehrlichen Beitrag leisten. Besonders moechten wir uns bei denen bedanken, die in China die Epidemie versuchen in den Griff zu bekommen. Nur durch das schnelle Teilen von Genom- und Metadaten sind Analysen wie diese moeglich.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
 
 <br>
 
