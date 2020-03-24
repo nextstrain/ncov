@@ -34,16 +34,16 @@ abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenet
 <!--abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."-->
 # [Spis treści](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Jak sieci transmisji są powiązane z drzewami filogenetycznymi](https://nextstrain.org/narratives/trees-background?n=1)?  
-* [Jak czytać drzewo](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Jak panel "zmienności" odnosi się do drzewa](https://nextstrain.org/narratives/trees-background?n=3)?   
-* [Mierzenie różnic przy pomocy dywergencji genetycznej](https://nextstrain.org/narratives/trees-background?n=4).  
-* [Mierzenie różnic w czasie](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Datowanie początku wybuchu epidemii](https://nextstrain.org/narratives/trees-background?n=6).  
-* [Jak należy interpretować cechy (kolory) na drzewie](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [Jak mapa odnosi się do drzewa](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Lektura zaawansowana: miary niepewności drzewa](https://nextstrain.org/narratives/trees-background?n=9).  
-* [O zestawie danych](https://nextstrain.org/narratives/trees-background?n=10).  
+* [Jak sieci transmisji są powiązane z drzewami filogenetycznymi](https://nextstrain.org/narratives/trees-background/pl?n=2)?  
+* [Jak czytać drzewo](https://nextstrain.org/narratives/trees-background/pl?n=3)?  
+* [Jak panel "zmienności" odnosi się do drzewa](https://nextstrain.org/narratives/trees-background/pl?n=4)?   
+* [Mierzenie różnic przy pomocy dywergencji genetycznej](https://nextstrain.org/narratives/trees-background/pl?n=5).  
+* [Mierzenie różnic w czasie](https://nextstrain.org/narratives/trees-background/pl?n=6).  
+* [Datowanie początku wybuchu epidemii](https://nextstrain.org/narratives/trees-background/pl?n=7).  
+* [Jak należy interpretować cechy (kolory) na drzewie](https://nextstrain.org/narratives/trees-background/pl?n=8)?  
+* [Jak mapa odnosi się do drzewa](https://nextstrain.org/narratives/trees-background/pl?n=9)?  
+* [Lektura zaawansowana: miary niepewności drzewa](https://nextstrain.org/narratives/trees-background/pl?n=10).  
+* [O zestawie danych](https://nextstrain.org/narratives/trees-background/pl?n=11).  
 
 <!-- No right-side text -->
 
