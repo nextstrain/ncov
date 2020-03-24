@@ -73,7 +73,7 @@ W niniejszym raporcie prezentujemy:
 
 <!-- This is left-side text 2 -->
 # [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-20)
-Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który tę chorobę wywołuje. Zawarte w nich informacje ułatwią interpretację danych, które prezentujemy w tym raporcie; jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['How to Read Phylogenies'](https://nextstrain.org/narratives/trees-background).
+Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który tę chorobę wywołuje. Zawarte w nich informacje ułatwią interpretację danych, które prezentujemy w tym raporcie; jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['Jak interpretować drzewa filogenetyczne'](https://nextstrain.org/narratives/trees-background/pl).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -85,7 +85,7 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/pl"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Jak interpretować drzewa filogenetyczne </a>
 </div>
 
 ## Źródła dodatkowe
@@ -122,7 +122,7 @@ Mapa pokazuje bardzo niewiele sekwencji z Globalnego Południa. Na przykład dys
 # [Są obszary nadreprezentowane](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 W innych miejscach, np. w Holandii, dysponujemy znaczną liczbą danych z sekwencjonowania w stosunku do całkowitej liczby wykrytych przypadków.
 <br><br>
-Dlatego czytając niniejszy raport, pamiętaj, że powierzchnia każdego koła na mapie odpowiada ilości dostępnych danych z danego obszaru, a nie rzeczywistemu rozmiarowi danego ogniska. Możesz [przeczytać więcej](https://nextstrain.org/narratives/trees-background?n=8) o wpływie liczby danych z danego obszaru na ocenę rozprzestrzeniania się wirusa.
+Dlatego czytając niniejszy raport, pamiętaj, że powierzchnia każdego koła na mapie odpowiada ilości dostępnych danych z danego obszaru, a nie rzeczywistemu rozmiarowi danego ogniska. Możesz [przeczytać więcej](https://nextstrain.org/narratives/trees-background/pl?n=8) o wpływie liczby danych z danego obszaru na ocenę rozprzestrzeniania się wirusa.
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -199,7 +199,7 @@ Te nowe ogniska epidemii mogą z kolei stać się przyczyną wprowadzania wirusa
 # [Jak epidemie się rozrastają: przykład](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 Możemy zobaczyć prosty przykład wzrostu epidemii na podstawie danych ze stanu Waszyngton.
-Przesuwając myszką nad korzeniem głównego kladu możemy zobaczyć, że wirus był prawodpodobnie sprowadzony na ten obszar pomiędzy końcem stycznia a połową lutego 2020 ([metodyka](https://nextstrain.org/narratives/trees-background?n=6)).
+Przesuwając myszką nad korzeniem głównego kladu możemy zobaczyć, że wirus był prawodpodobnie sprowadzony na ten obszar pomiędzy końcem stycznia a połową lutego 2020 ([metodyka](https://nextstrain.org/narratives/trees-background/pl?n=6)).
 <br><br>
 Obecnie, w połowie marca (czyli mniej więcej 6 tygodni później), widzimy, że lokalna epidemia jest w pełnym rozkwicie. Z danych z sekwencjonowania oszacowaliśmy tempo podwajania się liczby przypadków na 3-6 dni, zakładając wykładniczy wzrost populacji.
 <br>
