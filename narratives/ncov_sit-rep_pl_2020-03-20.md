@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title: Analiza genomiczna rozprzestrzeniania się COVID-19. Raport sytuacyjny 2020-03-20.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -22,11 +22,14 @@ affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA
 translators: 
   - Piotr Balwierz
   - Marta Niedzicka
+  - Anna Fijarczyk
 translatorLinks:
+  -
   - https://www.researchgate.net/profile/Marta_Niedzicka
+  -
 date: "2020 March 19"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Ten raport wykorzystuje publicznie dostępne dane genomowe w celu śledzenia rozprzestrzeniania się COVID-19. Raporty są uaktualniane co tydzień."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -75,7 +78,7 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Wprowadzenie
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -84,8 +87,6 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 
   <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
-
-## Further Reading
 
 ## Źródła dodatkowe
 
@@ -97,7 +98,7 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 
 <!-- This is left-side text 3 -->
 # [Opis próbkowania](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-Obecnie dysponujemy sekwencjami próbek pobranych w 36 krajach z 6 kontynenów. To niesamowity wyczyn -- sekwencjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
+Obecnie dysponujemy sekwencjami próbek pobranych w 36</tag> krajach z 6 kontynenów. To niesamowity wyczyn -- sekwencjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
 <br><br>
 Choć zgromadzone dane umożliwiają wyciąganie pewnych wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone. 
 Spośród wszystkich chorych, tylko niektórzy mieli wykonane testy. Spośród tych, którym je zrobiono, jedynie niewielkiej grupie pobiera się materiał, który pozwoli wyizolować i zsekwencjonować materiał genetyczny wirusa. 
@@ -111,7 +112,7 @@ Przyjrzyjmy się kilku przykładom.
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
 # [Są obszary niedoreprezentowane ](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-Mapa pokazuje bardzo niewiele sekwencji z Globalnego Południa. Na przykład dysponujemy jedynie sekwencjami z 4 spośród 25 krajów Ameryki Łacińskiej, w których [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) przypadki COVID-19. Powodem nie jest brak zakażeń w pozostałych krajach tego rejonu, ani mała wartość poznawcza takich danych. Tych danych po prostu nie ma.
+Mapa pokazuje bardzo niewiele sekwencji z Globalnego Południa. Na przykład dysponujemy jedynie sekwencjami z 4</tag> spośród 25</tag> krajów Ameryki Łacińskiej, w których [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) przypadki COVID-19. Powodem nie jest brak zakażeń w pozostałych krajach tego rejonu, ani mała wartość poznawcza takich danych. Tych danych po prostu nie ma.
 <br><br>
 <!-- There is NO right-side text -->
 
@@ -132,7 +133,7 @@ Dlatego czytając niniejszy raport, pamiętaj, że powierzchnia każdego koła n
 
 Identyfikacja miejsca, gdzie dana osoba została zainfekowana jest ważna do zrozumienia w jakich obszarach mamy do czynienia z lokalnym ogniskiem -- lokalnym przenoszeniem wirusa, a w jakich z przypadkami związanymi głównie z podróżami. Próbki sekwencji mogą nam pomóc w rozróżnieniu tych scenariuszy.
 <br><br>
-To drzewo zostało oznaczone kolorystycznie w zależności od histori podróży danego przypadku (o ile jest znana). Jeśli spojrzymy na sekwnecję z Kanady (oznaczoną Canada/BC_78548/2020), znajdującą się pośrodku drzewa, możemy zobaczyć, że zgłoszono historię podróży do Europy. Ta infekcja grupuje się z innymi europejskimi sekwencjami, wskazując, że ten konkretny przypadek jest najprawdopodobniej infekcją związaną z podróżą.
+To drzewo zostało oznaczone kolorystycznie w zależności od historii podróży danego przypadku (o ile jest znana). Jeśli spojrzymy na sekwnecję z Kanady (oznaczoną Canada/BC_78548/2020), znajdującą się pośrodku drzewa, możemy zobaczyć, że zgłoszono historię podróży do Europy. Ta infekcja grupuje się z innymi europejskimi sekwencjami, wskazując, że ten konkretny przypadek jest najprawdopodobniej infekcją związaną z podróżą.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
@@ -142,7 +143,7 @@ Patrząc szerzej, możemy zobaczyć, że dane nie zawsze są tak zgodne.
 <br><br>
 Możemy zobaczyć, że niemal wszystkie przypadki u których zgłoszono niedawną podróż do Iranu grupują się razem pośrodku drzewa.
 <br><br>
-W szczycie drzewa widzimy też przypadek kanadyjski, również z historią podróży do Iranu. Ta sekwencja nie grupuje sie jednak z pozostałymi przypadkami powiązanymi z podróżami do Iranu.
+W szczycie drzewa widzimy też przypadek kanadyjski, również z historią podróży do Iranu. Ta sekwencja nie grupuje się jednak z pozostałymi przypadkami powiązanymi z podróżami do Iranu.
 <br><br>
 Z pewnością jest prawdopodobne, że ta osoba została zainfekowana przez inny, drugi łańcuch transmisji, mający miejsce w Iranie. Ale póki nie mamy więcej danych, nie możemy potwierdzić, że ta infekcja została nabyta w trakcie podróży.
 
@@ -154,9 +155,9 @@ Z pewnością jest prawdopodobne, że ta osoba została zainfekowana przez inny,
 # [Introdukcja COVID-19 do niemal wszystkich krajów świata](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
 Tutaj możemy zobaczyć wiele przypadków przemieszania się próbek pochodzących z różnych krajów.
-Ozbacza to, że nieuniknione przemieszczanie się ludzi wprowadziło wirusa w wiele części świata.
+Oznacza to, że nieuniknione przemieszczanie się ludzi wprowadziło wirusa w wiele części świata.
 <br><br>
-Rzeczywiście, [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) istnienie potwierdzonych przypadków w 159 ze 195 krajów świata.
+Rzeczywiście, [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) istnienie potwierdzonych przypadków w 159</tag> ze 195</tag> krajów świata.
 <br><br>
 Ale nie wszystkie introdukcje wirusa zaowocowały wybuchem epidemii.
 
@@ -167,12 +168,12 @@ Ale nie wszystkie introdukcje wirusa zaowocowały wybuchem epidemii.
 # [Epidemie stają się widoczne po około 4-8 tygodniach po introdukcji](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
 Może się wydawać, że COVID-19 eksplodował znienacka.
-Dla wielu ludzi wybuch epidemii pozornie z dnia na dzień uległ zmianie z abstrakcyjnej troski o innych ludzi, znajdujących się w innych częściach świata, w coś, co poważnie wpływa na ich dzienne życie. 
+Dla wielu ludzi obraz epidemii z dnia na dzień uległ zmianie z abstrakcyjnej troski o innych ludzi, znajdujących się w innych częściach świata, w coś, co poważnie wpływa na ich codzienne życie. <!-- zmienilam z: Dla wielu ludzi wybuch epidemii z dnia na dzień uległ zmianie z abstrakcyjnej troski o innych ludzi, znajdujących się w innych częściach świata, w coś, co poważnie wpływa na ich codzienne życie -->
 <br><br>
 Należy jednak pamiętać, że ta sytuacja rozwija się już przez jakiś czas. To niekoniecznie oznacza, że wirus jest coraz częściej introdukowany w nowe miejsca. 
-Bardziej prawdopodobne jest, że wiele miejsce zaczyna być świadomych zlokalizowanych ognisk, które zostały zapoczątkowane kilka tygodni temu.
+Bardziej prawdopodobne jest, że wiele miejsc zaczyna być świadomych zlokalizowanych ognisk, które zostały zapoczątkowane kilka tygodni temu.
 <br><br>
-Obszary, w których nie jesteśmy jeszcze świadomi występowania w regionie lokalnych ognisk, powinny się przygotować i rozpocząć obserwację.
+Obszary, w których nie jesteśmy jeszcze świadomi występowania lokalnych ognisk, powinny się przygotować i rozpocząć obserwację.
 
 <!-- This is the right-side text -->
 
@@ -180,13 +181,13 @@ Obszary, w których nie jesteśmy jeszcze świadomi występowania w regionie lok
 # Jak introdukcje wirusa zmieniają się w epidemię?
 
 Czasami introdukcje nie powodują kolejnych infekcji czy zlokalizowanych ognisk chorobowych -- szczególnie, jeśli pierwszy przypadek jest wykryty i szybko odizolowany.
-Ale wielokrotnie wirus rozprzestrzenia się, niewykryty, przez lokalną populację, aż ognisko choroby osiągnie znaczny rozmiar. 
+Ale wielokrotnie wirus rozprzestrzenia się, niewykryty, w lokalnej populacji, aż ognisko choroby osiągnie znaczny rozmiar. 
 
-Poniżej jest przedstawiony eksperyment myślowy obrazujący, jak sytuacja rozegrała się w Wuhan. Oś Y przedstawia dystans, oś X -- czas. Zakreskowany obszar reprezentuje liczbę przypadków.
+Poniżej jest przedstawiony eksperyment myślowy obrazujący, jak sytuacja rozegrała się w Wuhan. Oś Y przedstawia dystans, oś X -- czas. Zakreskowany obszar przedstawia liczbę przypadków.
 
-"COVID-19 w Wuhan przeszedł od pierwszego przypadku w listopadzie 2019 do kilku tysięcy przypadków w połowie stycznia 2020, a zatem od początkowego zdarzenia rozsiewającego wirusa do lokalnego, ale rozpowszechnionego ogniska w ciągu około 10 tygodni. Uważamy, że międzynarodowe początkowe wydarzenia rozsiewające wirusa rozpoczęły się w połowie stycznia. A zatem mamy przed sobą krytyczne 10 tygodni od tego momentu do późnego marca, aby powstrzymać te pojawiające się ogniska, zanim staną się znaczne." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"COVID-19 w Wuhan przeszedł od pierwszego przypadku w listopadzie 2019 do kilku tysięcy przypadków w połowie stycznia 2020, a zatem od początkowego zdarzenia rozsiewającego wirusa do lokalnego, ale rozpowszechnionego ogniska w ciągu około 10 tygodni. Uważamy, że międzynarodowe początkowe wydarzenia rozsiewające wirusa rozpoczęły się w połowie stycznia. Mamy zatem przed sobą krytyczne 10 tygodni od tego momentu do późnego marca, aby powstrzymać pojawiające się ogniska, zanim przybiorą na sile." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
-The nowe ogniska epidemii mogą z kolei stać się przyczyną wprowadzania wirusa w nowe obszary.
+Te nowe ogniska epidemii mogą z kolei stać się przyczyną wprowadzania wirusa w nowe obszary.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -197,10 +198,10 @@ The nowe ogniska epidemii mogą z kolei stać się przyczyną wprowadzania wirus
 <!-- This is left-side text 10 -->
 # [Jak epidemie się rozprzestrzeniają: przykład](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-Możemy zobaczyć prosty przykład rozprzestrzeniania się na przykładzie danych ze stanu Waszyngton.
+Możemy zobaczyć prosty przykład rozprzestrzeniania się na podstawie danych ze stanu Waszyngton.
 Przesuwając myszką nad korzeniem głównego kladu możemy zobaczyć, że wirus był prawodpodobnie sprowadzony na ten obszar pomiędzy końcem stycznia a połową lutego 2020 ([metodyka](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Obecnie, w połowie marca (czyli mniej więcej 6 tygodni później), widzimy, że lokalna epidemia jest w pełnym rozkwicie. Z danych z sekwencjonowania oszacowaliśmy tempo podwajania się na 3-6 dni, zakładając wykładniczy wzrost populacji.
+Obecnie, w połowie marca (czyli mniej więcej 6 tygodni później), widzimy, że lokalna epidemia jest w pełnym rozkwicie. Z danych z sekwencjonowania oszacowaliśmy tempo podwajania się liczby przypadków na 3-6 dni, zakładając wykładniczy wzrost populacji.
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -212,16 +213,16 @@ Obecnie, w połowie marca (czyli mniej więcej 6 tygodni później), widzimy, ż
 <!-- This is left-side text 11-->
 # [Jak epidemie się rozprzestrzeniają: przykład](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-Możemy też zobaczyć na przykładzie, jak początkowo zlokowalizowane ogniska zapoczątkowują pojawienie się choroby w innych obszarach. 
-Próbki z Utah znajdujące się blisko górnych gałęzi drzewa (pomarańczowe) gnieżdżą się wewnątrz głównego kladu z ogniska w Waszyngtonie. 
+Możemy też zobaczyć na przykładzie, jak początkowo zlokowalizowane ogniska prowadzą do pojawienia się choroby w innych obszarach. 
+Próbki z Utah znajdujące się blisko górnych gałęzi drzewa (pomarańczowe) gnieżdżą się wewnątrz głównego kladu z ogniskiem w Waszyngtonie. 
 Zgadza się to ze sprowadzeniem infekcji z Waszyngtonu do Utah, aczkolwiek nie jest wykluczone, że były inne, pośrednie kroki w tym łańcuchu przenoszenia. 
 <br><br>
 Nie wiemy na pewno czy to zapoczątkowanie wywoła lokalną epidemię w Utah. 
-Ale jeżeli wirus będzie dalej się rozprzestrzeniał po tym wprowadzeniu do regionu, możemy spodziewać się, że stanie się to w ciągu najbliższych 4 tygodni.
+Ale jeżeli wirus dalej będzie się rozprzestrzeniał po tej introdukcji, możemy spodziewać się, że stanie się to w ciągu najbliższych 4 tygodni.
 <br><br>
 To tylko jeden przykład. 
 Mogły być inne inicjacje infekcji w Utah (lub innych regionach), których nie widzimy na przedstawionym drzewie, ponieważ nie zostały zsekwencjonowane. 
-Obszary, w których nie jesteśmy jeszcze świadomi występowania w regionie lokalnych ognisk, powinno rozpocząć się przygotowania i obserwację.  
+Obszary, w których nie jesteśmy jeszcze świadomi występowania w regionie lokalnych ognisk, powinny rozpocząć przygotowania i obserwację.  
 
 <!-- There is no right side text -->
 
@@ -234,12 +235,12 @@ Zgodnie z tą samą logiką, jest prawdopodobnie wiele lokalnych łańcuchów ro
 To oznacza, że nawet dla obszarów które wprowadziły środki izolacji społecznej, spodziewamy się, że liczba przypadków będzie wzrastała przez następne kilka tygodni.
 Ten wzrost nie wskazuje na to, że środki zapobiegawcze nie działają. Pojawienie się objawów u osób już zainfekowanych (oraz prawdopodobnie członków ich gospodarstwa domowego), ich leczenie i wyzdrowienie, zabiera czas. Spodziewamy się także zobaczyć wzrost liczby zgłoszonych przypadków, gdy testy staną się szerzej dostępne.
 <br><br>
-Kluczowe jest, aby izolacja społeczna została utrzymana w tym czasie. Jak pokazane po prawej, liczba przypadków wciąż rośnie po zainterweniowaniu, ale z biegiem czasu skumulowana liczba przypadków znacząco się zmniejsza.
+Kluczowe jest, aby izolacja społeczna została utrzymana w tym czasie. Jak pokazane jest po prawej, liczba przypadków wciąż rośnie po zainterweniowaniu, ale z biegiem czasu skumulowana liczba przypadków znacząco się zmniejsza.
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Izolacja społeczna nie zatrzyma wszystkich nowych przypadków zachorowań w ciągu nocy, ale zdecydowanie zmniejsza liczbę przypadków i ofiar śmiertelnych z biegiem czasu. 
-Izolacja społeczna -- czyli zmniejszenie liczby kontaktów z ludźmi, z którymi zwykle spotykamy się każdego dnia -- może być wymagające, ale jest wyjątkowo korzystna dla dobra publicznego.
+## Izolacja społeczna nie zatrzyma wszystkich nowych przypadków zachorowań w ciągu nocy, ale zdecydowanie zmniejszy liczbę przypadków i ofiar śmiertelnych z biegiem czasu. 
+Izolacja społeczna -- czyli zmniejszenie liczby kontaktów z ludźmi, z którymi zwykle spotykamy się każdego dnia -- może być wymagająca, ale jest wyjątkowo korzystna dla dobra publicznego.
 Jeśli każdy zmniejszy swoje codzienne kontakty o 25%, możemy spodziewać się 50% spadku skumulowanej liczby przypadków w ciągu następnego miesiąca ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
@@ -272,8 +273,8 @@ Jeśli każdy zmniejszy swoje codzienne kontakty o 25%, możemy spodziewać się
 
 ## ...jako urzędnik
 * Spraw, aby testy na obecność wirusa były darmowe i szeroko dostępne.  
-* Wprowadź regulacje ograniczające bezpośrednie kontakty.  
-* Fund and implement extensive contact tracing efforts.  
+* Wprowadź regulacje ograniczające bezpośrednie kontakty.
+* Sfinansuj i wprowadź badania kontaktów na dużą skalę. 
 * Wspomóź finansowo tych, którzy najbardziej ucierpią w wyniku dystansowania społecznego (np. pracowników godzinowych, odpowiedzialnych za dzieci i osoby starsze, małe przedsiębiorstwa itd.).
 ```
 
