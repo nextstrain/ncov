@@ -58,7 +58,7 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomowe w celu śl
 Przeanalizowaliśmy 723</tag> dostępnych publicznie genomów COVID-19. Porównując je potrafimy ocenić, jak wirus ewoluuje i w jaki sposób rozprzestrzenia się po świecie.
 
 W niniejszym raporcie pokazujemy, że wirus rozprzestrzenia się na dużym obszarze planety. 
-Aby wiedzieć jak i w jakim stopniu wirus rozprzestrzenia się lokalnie oraz aby ocenić skuteczność zastosowanych działań mitygacyjnych potrzebna jest dobra znajomość dynamiki danego ogniska. To z kolei wymaga przeprowadzania jak największej liczby szybkich testów diagnistycznych.
+Aby wiedzieć jak i w jakim stopniu wirus rozprzestrzenia się lokalnie oraz aby ocenić skuteczność zastosowanych działań mitygacyjnych potrzebna jest dobra znajomość dynamiki danego ogniska. To z kolei wymaga przeprowadzenia jak największej liczby szybkich testów diagnostycznych.
 
 W niniejszym raporcie prezentujemy: 
 
@@ -100,7 +100,7 @@ Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania s
 # [Opis próbkowania](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
 Obecnie dysponujemy sekwencjami próbek pobranych w 36</tag> krajach z 6 kontynenów. To niesamowity wyczyn -- sekwencjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
 <br><br>
-Choć zgromadzone dane umożliwiają wyciąganie pewnych wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone. 
+Choć zgromadzone dane umożliwiają wyciąganie wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone. 
 Spośród wszystkich chorych, tylko niektórzy mieli wykonane testy. Spośród tych, którym je zrobiono, jedynie niewielkiej grupie pobiera się materiał, który pozwoli wyizolować i zsekwencjonować materiał genetyczny wirusa. 
 Kryteria wyboru chorych poddanych testom i tych, od których pobiera się próbki do dalszej analizy, różnią się między krajami i okresami. 
 Ponadto analiza filogenetyczna, wspomagająca badanie ogniska epidemii, zawsze obarczona jest pewną niepewnością.
@@ -133,7 +133,7 @@ Dlatego czytając niniejszy raport, pamiętaj, że powierzchnia każdego koła n
 
 Identyfikacja miejsca, gdzie dana osoba została zainfekowana jest ważna do zrozumienia w jakich obszarach mamy do czynienia z lokalnym ogniskiem -- lokalnym przenoszeniem wirusa, a w jakich z przypadkami związanymi głównie z podróżami. Próbki sekwencji mogą nam pomóc w rozróżnieniu tych scenariuszy.
 <br><br>
-To drzewo zostało oznaczone kolorystycznie w zależności od historii podróży danego przypadku (o ile jest znana). Jeśli spojrzymy na sekwnecję z Kanady (oznaczoną Canada/BC_78548/2020), znajdującą się pośrodku drzewa, możemy zobaczyć, że zgłoszono historię podróży do Europy. Ta infekcja grupuje się z innymi europejskimi sekwencjami, wskazując, że ten konkretny przypadek jest najprawdopodobniej infekcją związaną z podróżą.
+To drzewo zostało oznaczone kolorystycznie w zależności od historii podróży danego przypadku (o ile jest znana). Jeśli spojrzymy na sekwnecję z Kanady (oznaczoną Canada/BC_78548/2020), znajdującą się pośrodku drzewa, możemy zobaczyć, że dla tej próbki zgłoszono historię podróży do Europy. Ta infekcja grupuje się z innymi europejskimi sekwencjami, wskazując, że ten konkretny przypadek jest najprawdopodobniej infekcją związaną z podróżą.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
@@ -141,7 +141,7 @@ To drzewo zostało oznaczone kolorystycznie w zależności od historii podróży
 
 Patrząc szerzej, możemy zobaczyć, że dane nie zawsze są tak zgodne.
 <br><br>
-Możemy zobaczyć, że niemal wszystkie przypadki u których zgłoszono niedawną podróż do Iranu grupują się razem pośrodku drzewa.
+Możemy zobaczyć, że niemal wszystkie przypadki, dla których zgłoszono niedawną podróż do Iranu grupują się razem pośrodku drzewa.
 <br><br>
 W szczycie drzewa widzimy też przypadek kanadyjski, również z historią podróży do Iranu. Ta sekwencja nie grupuje się jednak z pozostałymi przypadkami powiązanymi z podróżami do Iranu.
 <br><br>
@@ -157,7 +157,7 @@ Z pewnością jest prawdopodobne, że ta osoba została zainfekowana przez inny,
 Tutaj możemy zobaczyć wiele przypadków przemieszania się próbek pochodzących z różnych krajów.
 Oznacza to, że nieuniknione przemieszczanie się ludzi wprowadziło wirusa w wiele części świata.
 <br><br>
-Rzeczywiście, [WHO stwierdziło](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) istnienie potwierdzonych przypadków w 159</tag> ze 195</tag> krajów świata.
+Według [raportów WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) stwierdzono przypadki w 159</tag> ze 195</tag> krajów świata.
 <br><br>
 Ale nie wszystkie introdukcje wirusa zaowocowały wybuchem epidemii.
 
@@ -196,9 +196,9 @@ Te nowe ogniska epidemii mogą z kolei stać się przyczyną wprowadzania wirusa
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [Jak epidemie się rozprzestrzeniają: przykład](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Jak epidemie się rozrastają: przykład](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-Możemy zobaczyć prosty przykład rozprzestrzeniania się na podstawie danych ze stanu Waszyngton.
+Możemy zobaczyć prosty przykład wzrostu epidemii na podstawie danych ze stanu Waszyngton.
 Przesuwając myszką nad korzeniem głównego kladu możemy zobaczyć, że wirus był prawodpodobnie sprowadzony na ten obszar pomiędzy końcem stycznia a połową lutego 2020 ([metodyka](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
 Obecnie, w połowie marca (czyli mniej więcej 6 tygodni później), widzimy, że lokalna epidemia jest w pełnym rozkwicie. Z danych z sekwencjonowania oszacowaliśmy tempo podwajania się liczby przypadków na 3-6 dni, zakładając wykładniczy wzrost populacji.
@@ -213,11 +213,11 @@ Obecnie, w połowie marca (czyli mniej więcej 6 tygodni później), widzimy, ż
 <!-- This is left-side text 11-->
 # [Jak epidemie się rozprzestrzeniają: przykład](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-Możemy też zobaczyć na przykładzie, jak początkowo zlokowalizowane ogniska prowadzą do pojawienia się choroby w innych obszarach. 
+Możemy też zobaczyć na przykładzie, jak początkowo lokalne ogniska prowadzą do pojawienia się choroby w innych obszarach. 
 Próbki z Utah znajdujące się blisko górnych gałęzi drzewa (pomarańczowe) gnieżdżą się wewnątrz głównego kladu z ogniskiem w Waszyngtonie. 
 Zgadza się to ze sprowadzeniem infekcji z Waszyngtonu do Utah, aczkolwiek nie jest wykluczone, że były inne, pośrednie kroki w tym łańcuchu przenoszenia. 
 <br><br>
-Nie wiemy na pewno czy to zapoczątkowanie wywoła lokalną epidemię w Utah. 
+Nie wiemy na pewno czy te początkowe infekcje wywołają lokalną epidemię w Utah. 
 Ale jeżeli wirus dalej będzie się rozprzestrzeniał po tej introdukcji, możemy spodziewać się, że stanie się to w ciągu najbliższych 4 tygodni.
 <br><br>
 To tylko jeden przykład. 
@@ -230,7 +230,7 @@ Obszary, w których nie jesteśmy jeszcze świadomi występowania w regionie lok
 <!-- This is left-side text 12 -->
 # [Środki łagodzące wymagają czasu, ale ratują życie](https://nextstrain.org/ncov/2020-03-20)
 
-Zgodnie z tą samą logiką, jest prawdopodobnie wiele lokalnych łańcuchów rozprzestrzeniania się, o których jeszcze nie wiemy.
+Zgodnie z tą samą logiką, istnieje prawdopodobnie wiele lokalnych łańcuchów rozprzestrzeniania się, o których jeszcze nie wiemy.
 <br><br>
 To oznacza, że nawet dla obszarów które wprowadziły środki izolacji społecznej, spodziewamy się, że liczba przypadków będzie wzrastała przez następne kilka tygodni.
 Ten wzrost nie wskazuje na to, że środki zapobiegawcze nie działają. Pojawienie się objawów u osób już zainfekowanych (oraz prawdopodobnie członków ich gospodarstwa domowego), ich leczenie i wyzdrowienie, zabiera czas. Spodziewamy się także zobaczyć wzrost liczby zgłoszonych przypadków, gdy testy staną się szerzej dostępne.
