@@ -24,9 +24,9 @@ translators:
   - Marta Niedzicka
   - Anna Fijarczyk
 translatorLinks:
-  -
+  - http://group.genereg.net/people/piotr-balwierz/
   - https://www.researchgate.net/profile/Marta_Niedzicka
-  -
+  - https://twitter.com/afijarczyk
 date: "2020 March 19"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Ten raport wykorzystuje publicznie dostępne dane genomowe w celu śledzenia rozprzestrzeniania się COVID-19. Raporty są uaktualniane co tydzień."
