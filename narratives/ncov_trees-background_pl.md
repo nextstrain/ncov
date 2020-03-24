@@ -149,7 +149,7 @@ W tym panelu "zmienności", oś pozioma przedstawia kolejne pozycje w genomie wi
 Oś pionowa pokazuje jak wiele zmienności jest w każdej pozycji.
 <br><br>
 Drzewo pokolorowaliśmy na podstawie jednej z tych mutacji -- w tym przypadku mutacji w kodonie 314 w genie "ORF1b".
-Nie ma powodu myśleć za wczasu, że ta mutacja jest funkcjonalna (tzn. wywołuje jakąś biologiczną zmianę).
+Nie ma powodu myśleć zawczasu, że ta mutacja jest funkcjonalna (tzn. wywołuje jakąś biologiczną zmianę).
 Dokładnie takie mutacje wykorzystujemy do definiowania związków pomiędzy sekwencjami i konstruowania drzewa. 
 
 <!-- There is NO right-side text -->
@@ -177,7 +177,7 @@ Oś pozioma odpowiada dywergencji, czyli liczbie zmian (mutacji) w genomie, wzgl
 Niektóre sekwencje mają 0 mutacji -- co oznacza że są identyczne z korzeniem (środkiem) drzewa.
 Inne wirusy mają między 1 a 11 mutacji.
 <br><br>
-Obecnie, nasze drzewo mało przypomina prawdziwe 'drzewo'. Wiele sekwencji jest indentycznych - znajdują się obok siebie na pionowych liniach, jak A i B (niektóre z nich położone są po lewej stronie drzewa).
+Obecnie nasze drzewo mało przypomina prawdziwe 'drzewo'. Wiele sekwencji jest identycznych - znajdują się obok siebie na pionowych liniach, jak A i B (niektóre z nich położone są po lewej stronie drzewa).
 Inne mają unikatowe lub współdzielone mutacje i są położone na poziomym liniach, lub 'gałęziach', skierowanych na prawo.
 Możesz sprawdzić ile mutacji znajduje się na gałęzi przesuwając nad nią myszkę. 
 
@@ -197,11 +197,11 @@ You can see how many mutations a branch has by hovering your mouse over it. -->
 <!-- ############ SLIDE BREAK ############# -->
 # [Mierzenie różnic w czasie](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 Możemy również pokazać jak wirus rozprzestrzenia się w czasie używając daty pobrania próby jako osi x.
-W tym przypadku, oś x przedstawia czas uzyskania próby. Krańce gałęzi odpowiadają dacie, w którym pobrano daną próbę. Daty dla węzłów wewnątrz drzewa -- "brakująch przypadków" -- są wnioskowane na podstawie tego, kiedy ich potomkowie zostali próbkowani oraz tempa z jakim wirus mutuje. 
+W tym przypadku, oś x przedstawia czas uzyskania próby. Krańce gałęzi odpowiadają dacie pobrania danej próby. Daty dla węzłów wewnątrz drzewa -- "brakująch przypadków" -- są wnioskowane na podstawie tego, kiedy ich potomkowie zostali próbkowani oraz tempa z jakim wirus mutuje. 
 <br><br>
-Zwróć uwagę, jak wiele sekwencji, które wcześniej były położone w jedne pionowej linii (wskazującej na identyczne genomy) są teraz rozłożone w czasie. 
-Tak dzieje się, kiedy tempo z jakim wirus mutuje, jest niewiele wolniejsze od tempa z jakim się rozprzestrzenia. 
-Przewiń do poprzedniego slajdu i porównaj z obecnym aby zobaczyć jak drzewo się zmienia.
+Zwróć uwagę, jak wiele sekwencji, które wcześniej były położone w jednej pionowej linii (wskazującej na identyczne genomy) są teraz rozłożone w czasie. 
+Tak dzieje się, kiedy tempo, z jakim wirus mutuje, jest niewiele wolniejsze od tempa, z jakim się rozprzestrzenia. 
+Przewiń do poprzedniego slajdu i porównaj z obecnym, aby zobaczyć jak drzewo się zmienia.
 
 <!-- There is NO right-side text -->
 
@@ -232,7 +232,7 @@ If you mouse over the leftmost vertical line, you can see that the inferred star
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Jak należy interpretować cechy (kolory) na drzewie?](https://nextstrain.org/ncov/2020-03-11)
-Drzewa filogenetyczne często zawierają dodatkowe informacje, takie jak lokalizacja kolekcji prób. Na tej podstawie, możemy wnioskować o lokalizacji wewnetrznych węzłów drzewa (hipotetyczne pośrednie, niepróbkowane przypadki) używając modeli matematycznych. To nam może pomóc w zrozumieniu jak wirus się przemieszcza z jednego miejsca na inne.
+Drzewa filogenetyczne często zawierają dodatkowe informacje, takie jak lokalizacja kolekcji prób. Na tej podstawie możemy wnioskować o lokalizacji wewnetrznych węzłów drzewa (hipotetyczne pośrednie, niepróbkowane przypadki) używając modeli matematycznych. To nam może pomóc w zrozumieniu jak wirus się przemieszcza z jednego miejsca na inne.
 <br><br>
 Takie wnioski należy jednak interpretować z ostrożnością, ponieważ próbkowanie i sekwencjonowanie lub ich brak może istotnie wpłynąć na interpretację wyników.
 
@@ -274,7 +274,7 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 # [Jak mapa odnosi się do drzewa?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
 Na tym slajdzie pokazujemy drzewo pokolorowane według lolaizacji pobranych próbek (i szacowanych lokalizacji w wewnętrznych węzłach).
-Jeśli kilkniesz na ['Explore the data'](https://nextstrain.org/ncov), możesz obejżeć animację pokazującą jak, według oszacowań, wirus rozprzestrzeniał się od momentu wybuchu epidemii.
+Jeśli kilkniesz na ['Explore the data'](https://nextstrain.org/ncov), możesz obejrzeć animację pokazującą jak, według oszacowań, wirus rozprzestrzeniał się od momentu wybuchu epidemii.
 
 <!-- Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
 If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of how the inferred spread of the virus over the course of the outbreak. -->
@@ -283,7 +283,7 @@ If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an 
 
 <!-- This is left-side text -->
 # [Lektura zaawansowana: miary niepewności drzewa](https://nextstrain.org/ncov/2020-03-11)
-Wcześniej pisalismy jak wewnętrzne węzły przedstawiają _hipotetyczne_ niepróbkowane przypadki. W rzeczywistości, wszystkie drzewa są _hipotezami_ opisującymi jak patogen ewoluuje i przemieszcza się w czasie. Drzewa, które prezentujemy na Nextstrain są oszacowaniami punktowymi<!-- point estimates? --> -- tzn. wersjami historii, dla których prawdopodobieństwo obserwowania danych jakie mamy, jest największe. <!-- nie jestem pewna czy 'zmaksymalizowane' nie jest zbyt techniczne-->
+Wcześniej pisaliśmy, jak wewnętrzne węzły przedstawiają _hipotetyczne_ niepróbkowane przypadki. W rzeczywistości, wszystkie drzewa są _hipotezami_ opisującymi jak patogen ewoluuje i przemieszcza się w czasie. Drzewa, które prezentujemy na Nextstrain są oszacowaniami punktowymi<!-- point estimates? --> -- tzn. wersjami historii, dla których prawdopodobieństwo obserwowania danych, jakimi dysponujemy, jest największe. <!-- nie jestem pewna czy 'zmaksymalizowane' nie jest zbyt techniczne-->
 <br><br>
 Niemniej jednak, takie oszacowania zawsze obarczone są niepewnością. Mówiąc ogólnie, części drzewa, które są gęściej próbkowane, są też bardziej wiarygodne; obszary słabo próbkowane są mniej pewne.
 
