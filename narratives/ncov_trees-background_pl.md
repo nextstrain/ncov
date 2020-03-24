@@ -17,7 +17,10 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Anna Fijarczyk
+  - Marta Niedzicka
 translatorLinks:
+  - https://twitter.com/afijarczyk
+  - https://www.researchgate.net/profile/Marta_Niedzicka
 date: "13 marca 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenetyczne w epidemiologii genomowej. Prezentacja jest dostosowana do wyświetlania w przeglądarkach komputerowych."
