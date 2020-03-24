@@ -153,6 +153,7 @@ division	Gyeonggi
 division	Chungcheongnam
 division	Seoul
 division	South Korea
+division	Selangor
 division	Kathmandu
 division	Kerala
 division	Iran
@@ -173,9 +174,11 @@ division	Auckland
 division	Riyadh
 division	Europe
 division	Central Hungary
+division	Baranya
 division	Copenhagen
 division	Bretagne
 division	Ile de France
+division	Auvergne-Rhône-Alpes
 division	Pays de la Loire
 division	Hauts de France
 division	Bretagne
@@ -183,6 +186,9 @@ division	Bourgogne-France-Comté
 division	Normandie
 division	Grand Est
 division	Auvergne Rhone Alpes
+division	Castilla Y León
+division	Galicia
+division	Madrid
 division	Flanders
 division	Leuven
 division	Couthuin
@@ -192,6 +198,7 @@ division	Sint-Niklaas
 division	Kraainem
 division	Huldenberg
 division	Brussels
+division	Liège
 division	Bavaria
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
@@ -222,6 +229,10 @@ division	Lazio
 division	Lombardy
 division	Usti nad Labem
 division	UK
+division	London
+division	Northamtonshire
+division	Nottinghamshire
+division	South Yorkshire
 division	Northern Ireland
 division	England
 division	Wales
@@ -244,6 +255,7 @@ division	Distrito Federal
 division	Panama City
 division	Mexico City
 division	USA
+division	New York City
 division	Connecticut
 division	Texas
 division	Utah
