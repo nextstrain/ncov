@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title: Γενομική ανάλυση της εξάπλωσης του COVID-19. Κατάσταση 2020-03-20.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -20,10 +20,14 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - Sotiris Salloumis
+  - Sofia Paraskevopoulou
 translatorLinks:
-date: "2020 March 20"
+  - https://github.com/codergr
+  - https://github.com/akifoss
+date: "20 Μαρτίου 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Aυτή η αναφορά χρησιμοποιεί δεδομένα που είναι δημοσίως διαθέσιμα για την ιχνηλάτηση της εξάπλωσης του COVID-19. Οι αναφορές ενημερώνονται κάθε εβδομάδα."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -31,158 +35,153 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [Περιεχομένα](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Scientific Credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Πηγές](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=2).     
+* [Μια σημείωση σχετικά με τη δειγματοληψία](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=3).
+* [Αλληλουχίες και ιστορικό ταξιδίων](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=6).
+* [Διασπορά COVID-19 σχεδόν σε όλες τις χώρες](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=8).
+* [Πώς μεγαλώνουν οι εστίες και διασπείρονται](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=9).
+* [Πώς μεγάλωσε η εστία της Washington](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=10).
+* [Πώς έγινε η διασπορά της εστίας της Washington](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=11).
+* [Πώς μεταβάλλονται οι αριθμοί κρουσμάτων όταν εφαρμόζονται μέτρα κοινωνικής απόστασης](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=12).
+* [Τι μπορείτε να κάνετε](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=13).
+* [Επιστημονικές ευχαριστίες](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Περιληψη
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+Έχουμε αναλύσει 723 δημοσίως διαθέσιμα COVID-19 γονιδιώματα. Συγκρίνοντας τα ιικά γονιδιώματα μεταξύ τους, μπορούμε να χαρακτηρίσουμε να αντιληφθούμε πώς ο COVID-19 μετακινείται σε όλο τον κόσμο.
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+Σε αυτή την αναφορά, υπογραμμίζουμε ότι ο ιός έχει εισαχθεί και κυκλοφορεί σε πολλά μέρη του πλανήτη.
 
-In this week's updates, we report:  
+Γνωρίζοντας εάν και σε ποιο βαθμό ο COVID-19 κυκλοφορεί τοπικά και πώς τα ενδεχόμενα μέτρα για τον περιορισμό του μπορούν να επιβραδύνουν αυτή την εξάπλωση, προϋποθέτει μια καλή γνώση της δυναμικής της επιδημίας του ιού τοπικά. Αυτό με τη σειρά του προϋποθέτει εκτενείς ελέγχους.
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+Το γεγονός αυτό καταδεικνύει τη σημασία των εντατικών ελέγχων ώστε να καθυστερήσουν τα γεγονότα μετάδοσης του ιού.
+
+Στις ενημερώσεις αυτής της εβδομάδας περιλαμβάνονται:  
+
+* Αποδεικτικά στοιχεία για εισαγωγές που σχετίζονται με ταξίδια σε πολλά μέρη του κόσμου.
+* Πολλά μέρη με πρόσφατες εισαγωγές του ιού μπορούν να αναμένουν ότι τα κρούσματα θα επεκταθούν σε ένα χρονικό διάστημα 4-8 εβδομάδων. Αυτά τα μέρη πρέπει τώρα να προετοιμαστούν.
+* Πολλά μέρη τα οποία πρόσφατα υιοθέτησαν μέτρα κοινωνικής απόστασης μπορούν να αναμένουν αύξηση της συσσώρευσης κρουσμάτων βραχυπρόθεσμα, αλλά τα νέα κρούσματα θα πιάσουν πλατώ και θα μειωθούν σε βάθος χρόνου.
+* Οι έλεγχοι σε ασθενείς αλλά και σε αυτούς που ξεπέρασαν την ασθένεια θα είναι ζωτικής σημασίας στην αντιμετώπιση της επιδημίας.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [COVID-19 Πηγές](https://nextstrain.org/ncov/2020-03-20)
+Έχουμε ετοιμάσει ορισμένες πηγές πληροφόρησης που αξίζει να διαβάσετε για να εξοικειωθείτε με την ασθένεια COVID-19 και τον ιό που την προκαλεί, τον SARS-CoV-2.
+Οι πληροφορίες αυτές θα διευκολύνουν την ερμηνεία των δεδομένων που παρουσιάζουμε σε αυτή την αναφορά. Αν δεν είστε εξοικειωμένοι με φυλογενετικά δέντρα σας συνιστούμε να ελέγξετε το άρθρο  ['Πώς να διαβάσετε μια φυλογένεση'](https://nextstrain.org/narratives/trees-background/) και να επιστρέψετε όταν είστε έτοιμοι.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Ιστορικό
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Ιστορικό των κορονοϊών </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Πρόσφατο ιστορικό της νόσου COVID-19 </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> Πώς να διαβάσετε Φυλογενέσεις</a>
 </div>
 
-## Further Reading
+## Περαιτέρω ανάγνωση
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* Περίληψη της επιδημίας του ιού SARS-CoV-2 [Wikipedia](https://el.wikipedia.org/wiki/Πανδημία_κορονοϊού_2019–20).
+* Όλοι οι αριθμοί των κρουσμάτων που αναφέρονται στην παρούσα αναφορά προέρχονται από τον Παγκόσμιο Οργανισμό Υγείας  [ΠΟΥ](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) από τις 20.03.2020.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Μια σημείωση σχετικά με τη δειγματοληψία](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+Αυτή τη στιγμή έχουμε αλληλουχίες από δείγματα που έχουν ληφθεί σε 36 χώρες σε 6 ηπείρους. Αυτό είναι ένα αξιόλογο κατόρθωμα - η αλληλούχηση ενός ιού με μεγάλο RNA γονιδίωμα εν μέσω πανδημίας είναι δύσκολη και είναι η εξαιρετική δουλειά και ο συνεχής διαμοιρασμός δεδομένων από επιστήμονες και γιατρούς σε όλο τον κόσμο που την καθιστούν δυνατή.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+Τα δεδομένα αυτά μας επιτρέπουν να κατανοήσουμε πολλά και χρήσιμα χαρακτηριστικά της πανδημίας και να ιχνηλατίσουμε την εξάπλωσή της σε πραγματικό χρόνο. Ταυτόχρονα όμως είναι σημαντικό να τονίσουμε ότι τα συμπεράσματά μας είναι περιορισμένα λόγω της περιορισμένης διαθεσιμότητας δεδομένων. Από τον πραγματικό αριθμό κρουσμάτων, μόνο ένα μέρος υποβάλλεται σε έλεγχο. Από αυτά που ελέγχονται, μόνο ένα υποσύνολο δειγμάτων υποβάλλεται σε αλληλούχηση. Το υποσύνολο των κρουσμάτων που υπόκειται σε έλεγχο διαφέρει αρκετά στις διάφορες γεωγραφικές τοποθεσίες αλλά και μέσα στο χρόνο. Επίσης, οι φυλογενετικές αναλύσεις της πανδημίας συνδέονται πάντα με ένα βαθμό αβεβαιότητας. 
 <br><br>
-Let's look at a few examples.
+Ας δούμε μερικά παραδείγματα
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [Ορισμένες περιοχές δεν αντιπροσωπεύονται στα δεδομένα αυτά](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+Ο χάρτης δείχνει πολύ λίγες αλληλουχίες από τον παγκόσμιο νότο. Για παράδειγμα, έχουμε αλληλουχίες για μόλις 4 από τις 25 χώρες της Λατινικής Αμερικής όπου [ο ΠΟΥ αναφέρει](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) υπάρχουν κρούσματα του COVID-19. Αυτό δεν οφείλεται στο γεγονός ότι ο COVID-19 δεν κυκλοφορεί στις περιοχές αυτές ή ότι αυτά τα κρούσματα δεν είναι τόσο χρήσιμα στην κατανόηση της πανδημίας, αλλά επειδή δεν υπάρχουν πολλά δεδομένα διαθέσιμα από τις περιοχές αυτές. 
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+# [Άλλες περιοχές υπερ-αντιπροσωπεύονται στα δεδομένα αυτά](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+Σε άλλες περιοχές, όπως η Ολλανδία, υπάρχει διαθέσιμος ένας τεράστιος αριθμός αλληλουχιών σε σχέση με το συνολικό αριθμό κρουσμάτων.
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+Επομένως, όταν διαβάζετε αυτή την αναφορά, έχετε στο νου σας ότι το μέγεθος κάθε κύκλου στο χάρτη αντιπροσωπεύει το μέγεθος των δεδομένων που είναι αυτή τη στιγμή διαθέσιμα από την εκάστοτε περιοχή και όχι το πραγματικό μέγεθος της επιδημίας. Μπορείτε [να διαβάσετε εδώ](https://nextstrain.org/narratives/trees-background?n=8) για το πώς το γεγονός αυτό επιδρά στα συμπεράσματα που εξάγονται σχετικά με την εξάπλωση του ιού. 
 <br><br>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [Τα δεδομένα από τις αλληλουχίες μπορούν να διασταυρώσουν ιστορικά ταξιδίων](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+Ο εντοπισμός της περιοχής όπου ένα κρούσμα μολύνθηκε με τον ιό είναι σημαντικός στον εντοπισμό των περιοχών που βιώνουν τοπική εξάπλωση, σε αντίθεση με κρούσματα που συνδέονται αποκλειστικά με ιστορικά ταξιδίων. Οι αλληλουχίες μας βοηθούν να διακρίνουμε αυτά τα δύο σενάρια μεταξύ τους. 
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+Εδώ το δέντρο είναι χρωματισμένο με βάση το ιστορικό ταξιδίου ενός κρούσματος, όταν αυτό ήταν γνωστό. Βλέποντας την αλληλουχία από τον Καναδά (Canada/BC_78548/2020) στη μέση, παρατηρούμε ότι έχει ένα ιστορικό ταξιδιού στην Ευρώπη. Αυτό το κρούσμα ομαδοποιείται με άλλες ευρωπαϊκές αλληλουχίες, δείχνοτας έτσι ότι σχετίζεται σχεδόν με σιγουριά με ένα γεγονός ταξιδίου.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Τα δεδομένα από τις αλληλουχίες μπορούν να διασταυρώσουν ιστορικά ταξιδίων](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
+Με σμίκρυνση, βλέπουμε ότι αυτό δεν είναι πάντα συνεπές.
 <br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
+Εδώ μπορούμε να δούμε ότι σχεδόν όλα τα κρούσματα που έχουν πρόσφατα ιστορικά ταξιδίων στο Ιράν, ομαδοποιούνται στη μέση του δέντρου. 
 <br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
+Προς την κορυφή του δέντρου βλέπουμε επίσης ένα καναδικό κρούσμα με ιστορικό ταξιδιού στο Ιράν. Ωστόσο, αυτή η αλληλουχία δεν ομαδοποιείται με κανένα άλλο κρούσμα που έχει ιστορικό ταξιδίου στο Ιράν. 
 <br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
-
+Είναι σχεδόν σίγουρο αυτό το άτομο είχε μολυνθεί από μια δευτερογενή αλυσίδα μετάδοσης του ιού στο Ιράν, αλλά μέχρι να έχουμε περισσότερα δεδομένα δεν μπορούμε να βεβαιώσουμε ότι αυτή η μόλυνση έλαβε χώρα στο ταξίδι.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [Ο ιός έχει εισαχθεί σχεδόν σε όλες τις χώρες του κόσμου](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+Στο δέντρο βλέπουμε πολλά ανάμικτα δείγματα από διαφορετικές χώρες.
+Αυτό σημαίνει ότι αυτού του είδους η αναπόφευκτη μετακίνηση των ανθρώπων έχει ήδη εισάγει τον ιό σε πολλά μέρη της υφηλίου. 
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
+Όντως [ο ΠΟΥ αναφέρει](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) ότι υπάρχουν επιβεβαιωμένα κρούσματα σε 159 από τις 195 χώρες του κόσμου. 
 <br><br>
-However, not all introductions result in outbreaks.
+Ωστόσο, δεν έχουν εισαγωγές αποτέλεσμα τη δημιουργία τοπικών επιδημιών.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [Οι επιδημίες φανερώνονται περίπου 4-8 εβδομάδες μετά την εισαγωγή τους](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
+Ίσως φαίνεται ότι ο COVID-19 εξερράγη ξαφνικά.
+Για πολλούς ανθρώπους, η πανδημία αυτή φαινομενικά ίσως μέσα σε μια βραδιά να έγινε από μια αφηρημένη ανησυχία που αγγίζει μακρινά μέρη στον κόσμο σε κάτι που έχει σοβαρές επιπτώσεις στην καθημερινή τους ζωή. 
 <br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
+Όμως ας έχουμε κατά νου ότι αυτό είναι κάτι που κυκλοφορεί ήδη κάποιον καιρό. Δε σημαίνει απαραίτητα ότι ο ιός εισάγεται σε μερικά μέρη πιο συχνά από ότι σε άλλα. Το πιο πιθανό είναι ότι σε πολλά μέρη τώρα γίνεται αντιληπτή η επιδημία η οποία ωστόσο είχε ήδη ξεκινήσει αρκετές εβδομάδες πριν. 
 <br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
-
+Περιοχές που δεν γνωρίζουν ακόμη τοπικά κρούσματα θα πρέπει να προετοιμαστούν τώρα και να ξεκινήσουν τους ελέγχους επιτήρησης.
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
+# Πώς οι εισαγωγές καταλήγουν σε επιδημίες;
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+Μερικές φορές οι εισαγωγές δεν καταλήγουν σε δευτερογενή κρούσματα ή σε τοπικά ξεσπάσματα - ειδικά εάν το αρχικό κρούσμα εντοπιστεί και απομονωθεί εγκαίρως.
+Πολλές φορές ωστόσο, ο ιός εξαπλώνεται χωρίς να εντοπίζεται στον τοπικό πληθυσμό μέχρι το ξέσπασμα να αγγίξει ένα σημαντικό μέρος του πληθυσμού.
+Παρακάτω είναι ένα πείραμα σκέψηςτο οποίο δείχνει πώς το παραπάνω έπαιξε ρόλο στο Wuhan. Ο άξονας ψ αντιπροσωπεύει το χώρο, ο άξονας χ το χρόνο. H σκιασμένη περιοχή αντιπροσωπεύει τον αριθμό κρουσμάτων.
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
+"Ο COVID-19 στο Wuhan εξελίχθηκε από ένα μοναδικό κρούσμα την περίοδο του Νοέμβρη 2019, σε πολλές χιλιάδες κρούσματα στα μέσα Γενάρη 2020, ξεκινώντας από ένα αρχικό κρούσμα και καταλήγοντας σε μια εκτεταμένη τοπική εξάπλωση σε ένα χρονικό διάστημα περίπου 10 εβδομάδων. Θεωρούμε ότι τα διεθνή γεγονότα διασποράς του ιού ξεκίνησαν γύρω στα μέσα του Γενάρη 2020. Επομένως έχουμε τις περίπου 10 κρίσιμες εβδομάδες από τότε έως και τα τέλη Μάρτη ώστε να περιορίσουμε τα γεγονότα αυτά της πανδημίας πριν να πάρουν μεγάλες διαστάσεις" [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Φεβρουάριος 2020
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
-
-These new outbreaks may, in turn, seed further introductions to other locations.
+Αυτά τα νέα κρούσματα μπορούν με τη σειρά τους να προκαλέσουν περαιτέρω εισαγωγές του ιού σε άλλες τοποθεσίες.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -191,12 +190,12 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Πώς μεγαλώνουν οι εστίες: ένα παράδειγμα](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Βλέπουμε ένα ξεκάθαρο παράδειγμα ανάπτυξης μιας μολυσματικής εστίας στα δεδομένα από την πολιτεία της Washington.
+Η κύλιση του κέρσορα πάνω στη ρίζα του κεντρικού κλαδιού δείχνει ότι ο ιός πιθανών εισήχθη σε αυτήν την περιοχή μεταξύ του τέλους Ιανουαρίου και μέσα Φεβρουαρίου 2020. ([μέθοδοι](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+Τώρα, στα μέσα Μαρτίου (~ 6 εβδομάδες αργότερα), βλέπουμε ότι μια τοπική εστία φαίνεται ξεκάθαρα στην περιοχή. Από τα δεδομένα των αλληλουχιών μόνο, υπολογίζουμε ένα ρυθμό διπλασιασμού κάθε 3-6 μέρες υποθέτοντας ότι ο πληθυσμός αυξάνεται εκθετικά. 
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -206,38 +205,37 @@ Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swin
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [Πώς μεγαλώνουν οι εστίες: ένα παράδειγμα](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
+Μπορούμε επίσης να δούμε ένα παράδειγμα του πώς εστίες που αρχικά εντοπίζονται τοπικά, σπείρουν τον ιό σε άλλες τοποθεσίες.
+Τα δείγματα από τη Utah κοντά στην κορυφή του δέντρου (πορτοκαλί χρώμα) φωλιάζουν μέσα στο κύριο κλαδί της επιδημίας στην Washington.
+Το γεγονός αυτό σημαίνει ότι υπήρξε μια εισαγωγή από την Washington στη Utah, αφήνοντας ωστόσο την πιθανότητα να υπήρχαν ενδιάμεσα βήματα στην αλυσίδα μετάδοσης. 
 <br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
+Δεν γνωρίζουμε με σιγουριά εάν αυτή η εισαγωγή θα οδηγήσει σε τοπικό ξέσπασμα στη Utah.
+Ωστόσο αν ο ιός συνεχίσει να εξαπλώνεται μετά από αυτές τις εισαγωγές, αναμένουμε να δούμε την εξάπλωση να ξεδιπλώνεται μέσα στις επόμενες 4 εβδομάδες. 
 <br><br>
-This is just one example.
-There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
-Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
-
+Αυτό είναι μόνο ένα παράδειγμα.
+Ίσως υπάρχουν κι άλλες εισαγωγές στη Utah ή και σε άλλες περιοχές που δεν μπορούμε να δούμε στο δέντρο διότι δεν έχουν αλληλουχηθεί.
+Το πιο σημαντικό ωστόσο είναι να προετοιμαστούν τώρα οι περιοχές που δεν έχουν καταγράψει κρούσματα και να ξεκινήσουν ελέγχους επιτήρησης.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [Τα μέτρα απομόνωσης χρειάζονται χρόνο, αλλά σώζουν ζωές](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
+Ακολουθώντας την ίδια λογική, ενδεχομένως να υπάρχουν πολλές αλυσίδες τοπικής εξάπλωσης τις οποίες δε γνωρίζουμε. 
 <br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
+Αυτό σημαίνει ότι ακόμη και σε περιοχές που έχουν επιβληθεί μέτρα κοινωνικού περιορισμού, θα πρέπει να περιμένουμε ότι τα κρούσματα θα αυξηθούν τις επόμενες εβδομάδες.
+Αυτές οι αυξήσεις ΔΕΝ αποτελούν απόδειξη ότι τα μέτρα απομόνωσης δε λειτουργούν. Χρειάζετει να περάσει χρόνος ώστε αυτοί που φέρουν τον ιό (και πιθανώς και τα μέλη των οικογενειών τους) να αναπτύξουν συμπτώματα, να νοσηλευθούν και να ανακάμψουν. Αναμένουμε επίσης να δούμε μια μεγάλη αύξηση στον αριθμό των επιβεβαιωμένων κρουσμάτων, όσο οι έλεγχοι πραγματοποιούνται σε μεγαλύτερο φάσμα και καθίστανται ευρέως διαθέσιμοι.
 <br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
-
+Είναι κρίσιμης σημασίας να διατηρούνται τα μέτρα κοινωνικής απόστασης κατά τη διάρκεια αυτής της περιόδου. Όπως φαίνεται στα δεξιά, ο αριθμός των κρουσμάτων συνεχίζει να αυξάνεται μετά την εφαρμογή των μέτρων. Όμως σε βάθος χρόνου, ο συνολικός αριθμός κρουσμάτων μειώνεται σημαντικά.
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## Τα μέτρα κοινωνικής απομάκρυνσης δεν σταματούν την εξάπλωση μέσα σε μια νύχτα, αλλά μειώνουν σημαντικά τα κρούσματα και τους θανάτους σε βάθος χρόνου.
+Τα μέτρα κοινωνικής απομάκρυνσης - δηλαδή μείωση του αριθμού των ατόμων που συναντάτε κάθε μέρα - μπορεί να είναι δύσκολα στην εφαρμογή τους, είναι ωστόσο κρίσιμης σημασίας για το κοινό καλό.
+
+Αν ο καθένας μείωνε τις καθημερινές επαφές κατά 25%, αναμένουμε μια μείωση της τάξης του 50% στο συνολικό αριθμό κρουσμάτων μέσα στον επόμενο μήνα ([Klein κλπ., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -246,32 +244,32 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [Συνοψίζοντας](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- Ο ιός έχει εισαχθεί σε πολλά μέρη του πλανήτη πολλαπλές φορές.
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- Υπάρχουν ενδείξεις για τοπική διασπορά σε πολλές περιοχές. Πέραν τούτου, αναμένουμε ότι οι προγενέστερες εισαγωγές έχουν ήδη εμφυτεύσει πολλές τοπικές επιδημίες οι οποίες θα φανερωθούν τις ερχόμενες εβδομάδες. 
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
-
+- Ο έλεγχος των τοπικών εστιών μέσω της εφαρμογής μέτρων κοινωνικής απομάκρυνσης είναι ζωτικής σημασίας για να:
+  - Ισοπεδωθεί η καμπύλη (#FlattenTheCurve) ώστε να αποφευχθεί η υπερφόρτωση των συστημάτων υγείας από συρρέοντα περιστατικά
+  - Μειωθεί ο συνολικός αριθμός κρουσμάτων και θανάτων
+  - Δοθεί χρόνος ώστε να αναπτυχθούν θεραπείες και εμβόλια 
+   
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# Τί μπορείτε να κάνετε
+## ...ο καθένας ξεχωριστά
+* Μειώστε δραματικά τον αριθμό των ανθρώπων που έρχεστε σε επαφή καθημερινά, ειδικά εάν ανήκετε σε ομάδα κινδύνου (π.χ. ηλικιωμένοι και άνθρωποι με βεβαρυμένο ιστορικό υγείας).
+* Να θυμάστε ότι ακόμα και αν δεν ανήκετε σε ομάδα κινδύνου, πολλοί άνθρωποι γύρω σας ανήκουν σε αυτές. Ακολουθήστε αυτές τις πρακτικές ώστε να προστατεύσετε τους γύρω σας.
+* Πλένετε τα χέρια σας "σα να έχετε κόψει μια καυτερή πιπεριά και πρέπει να αλλάξετε φακούς επαφής".
+* Μείνετε στο σπίτι όσο γίνεται περισσότερο -- ειδικά εάν είστε άρρωστοι. Προμηθευτείτε τις απαραίτητες ποσότητες τροφίμων σε περίπτωση που πρέπει να μπείτε σε καραντίνα.
+* Εάν είστε εργοδότης, ενθαρρύνετε τους εργαζομένους σας να δουλεύουν από το σπίτι όσο αυτό είναι δυνατό.
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## ...η πολιτεία  
+* Κάνετε εκτεταμένους και δωρεάν ελέγχους για τον εντοπισμό του ιού.
+* Εφαρμόστε ισχυρά μέτρα απομόνωσης.
+* Χρηματοδοτείστε και υλοποιήστε προσπάθειες ιχνηλάτησης.
+* Υποστηρίξτε οικονομικά αυτούς που πλήγονται από τα μέτρα αποκλεισμού (π.χ. ωρομίσθιους, ανθρώπους που εργάζονται στον τομέα φροντίδας παιδιών και ηλικιωμένων, μικρές επιχειρήσεις, κλπ).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -279,20 +277,18 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Επιστημονικές ευχαριστίες](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Θα θέλαμε να ευχαριστήσουμε αυτήν την υπέροχη και συνεχή προσπάθεια όλων των επιστημόνων που έχουν εργαστεί σε αυτήν την πανδημία, και ιδιαιτέρως αυτούς που δουλεύουν στην Κίνα. Μόνο μέσα από τον άμεσο διαμοιρασμό γενομικών δεδομένων και μεταδεδομένων, αναλύσεις σαν και αυτή είναι δυνατό να πραγματοποιηθούν.
 
 <br>
-
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Επίσης ευχαριστούμε θερμά την πλατφόρμα [GISAID](https://www.gisaid.org/) στη οποία ανεβαίνουν και μοιράζονται τα δεδομένα.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Είμαστε ευγνώμονες για τα δεδομένα που συλλέχθηκαν από αυτά τα αρχικά εργαστήρια:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -596,19 +592,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Λεπτομερής επιστημονική αναγνώριση](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Αυτά τα δεδομένα κοινοποιήθηκαν μέσω του [GISAID](https://gisaid.org).
+Ευχαριστούμε πολύ για τη συμβολή τους.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+Στα δεξιά δίνουμε συγκεκριμένες ακολουθίες που μοιράζονται σε κάθε εργαστήριο.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+Τα γονιδιώματα SARS-CoV-2 μοιράστηκαν γενναιόδωρα από επιστήμονες σε αυτά τα εργαστήρια υποβολής:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020

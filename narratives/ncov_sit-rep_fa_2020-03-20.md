@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title:  آنالیز ژنتیکی شیوع ویروس کووید-۱۹.  شرح گزارش ۲۰ مارس ۲۰۲۰
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -20,10 +20,16 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - Marziye Jafariyazani
+  - Mahan Ghafari
+  - Mohammad Hossein Rimaz
 translatorLinks:
-date: "2020 March 20"
+  - 
+  - https://twitter.com/Mahan_Ghafari
+  - https://twitter.com/mhrimaz
+date: "بیست مارس ۲۰۲۰"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "این گزارش از داده‌های کووید-۱۹ که در اختیار عموم گذاشته‌شده استفاده می‌کند. این گزارش‌ها هر هفته بروز رسانی می‌شود"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -31,158 +37,188 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [فهرست مطالب](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Scientific Credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [منابع پیش‌زمینه](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=2). 
+* [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=3).
+* [داده‌های نمونه توالی ژنتیکی و سوابق سفرها](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=6).
+* [ورود کووید-۱۹ به تقریبا تمام کشورها](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=8).
+* [همه‌گیری‌ها چگونه رشد می‌کنند و گسترش می‌یابند](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=9).
+* [چگونه همه‌گیری ایالت واشنگتن رشد کرد](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=10).
+* [چگونه همه‌گیری ایالت واشنگتن گسترش پیدا کرد](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=11).
+* [چگونه تعداد مبتلایان با اقدامات فاصله‌گیری اجتماعی کاهش می‌یابد](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=12).
+* [کارهایی که شما می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=13).
+* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-20?n=14).
+
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# شرح اجرایی
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+در این‌جا، ما ۷۲۳ داده ژنتیکی کووید-۱۹ را که به اشتراک عموم گذاشته‌شده بررسی می‌کنیم. با مقایسه این اطلاعات، می‌توانیم مشخص کنیم که کووید-۱۹ چگونه در جهان منتشر می‌شود. 
+در این گزارش، نشان می‌دهیم که این ویروس به طور گسترده‌ای در سراسر جهان در حال گردش است. دانستن این‌که این ویروس در مقیاس محلی در حال گردش است یا خیر و چه مقدار، همچنین اقدامات کاهشی چگونه این گسترش را کاهش می‌دهند، نیازمند این است که اطلاعات خوبی از رفتار همه‌گیری‌های محلی داشته باشیم. که این خود، انجام تست‌های گسترده را می‌طلبد. 
+این موضوع بر اهمیت تست‌گیری سریع  با تمرکز بر کاهش انتقال‌های محلی تاکید می‌کند.
+:در به روزرسانی این هفته، گزارش می‌کنیم
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
 
-In this week's updates, we report:  
-
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* شواهدی برای ورود ویروس به بسیاری از مناطق جهان از طریق سفر 
+* بسیاری از مناطق که تازه ویروس به آنها ورود پیدا کرده‌است، می‌توانند انتظار داشته باشند که تعداد مبتلایان طی بازه زمانی ۴ تا ۸ هفته افزایش یابند.  آن‌ها باید از هم اکنون آماده شوند.
+* بسیاری از مناطقی که به تازگی اقدامات فاصله‌گیری اجتماعی را پیاده کرده‌اند، می‌توانند انتظار داشته‌باشند که تعداد مبتلایان در کوتاه مدت افزایش پیدا کند، اما تعداد مبتلایان جدید در میان مدت و بلندمدت نرخ ثابتی دارد و بعد کاهش پیدا می‌کند.
+* انجام تست برای هم مبتلایان وهم بهبودیافتگان برای مقابله با این اپیدمی ضروری است.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [منابع کووید-۱۹](https://nextstrain.org/ncov/2020-03-20)
+<p dir="rtl">
+ما منابع گوناگون دیگری که ارزش خواندن برای آشنایی با کووید-۱۹ و ویروس ایجاد‌کننده‌ی آن یعنی  سارس-کووید-۲ دارند آماده کرده‌ایم تا با آن‌ها آشنا شوید
+این اطلاعات تفسیر داده‌های ارائه شده در این گزارش را آسان‌تر می‌کند. اگر با درختهای  
+ژنتیکی آشنا نیستید، ما شما را تشویق می‌کنیم تا به این‌جا مراجعه کنید
+(
+<a href="https://nextstrain.org/narratives/trees-background/fa"> چگونه درخت‌های ژنتیکی را بخوانیم' روایت </a>
+)
+و پس از مطالعه به این‌جا بازگردید
+</p>
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## پیش‌زمینه
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> پیش‌درآمدی بر ویروس کرونا </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> همه‌گیری اخیر کووید-۱۹ </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/fa"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> چگونه تبارزایش (فیلوژنتیک) را بخوانید</a>
 </div>
 
-## Further Reading
+## مطالعات بیشتر
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* خلاصه‌ای از همه‌گیری سارس-کووید-۲ در
+[ویکی‌پدیا](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* [تمامی موارد بیماری ذکر شده در این گزارش از گزارش سازمان جهانی بهداشت برگرفته شده](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
-<br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
-<br><br>
-Let's look at a few examples.
+# [یادداشتی در مورد نمونه‌گیری](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+<p dir="rtl">
+ما در حال حاضر از ۳۶ کشور در ۶ قاره نمونه‌های توالی ژنتیکی داریم. این یک شاهکار باورنکردنی است. نمونه‌گیری از توالی ژنتیکی یک ویروس بزرگ آر‌ان‌ای ناشناخته در وسط یک همه‌گیری جهانی دشوار است و فقط با تلاش باورنکردنی و به اشتراک‌گذاری به موقع داده‌ها توسط دانشمندان و پزشکان در سراسر جهان امکان‌پذیر است
+<br>
+در حالی که این داده‌ها به ما این امکان را می‌دهد که بسیاری از خصوصیات مهم این شیوع را استنباط کرده و موقعیت زمانی و مکانی آن را ردیابی کنیم، تأکید می‌شود که نتیجه‌گیری‌های ما محدود به داده‌های موجود است
+<br>
+به عنوان مثال، در نقشه‌ی روی این سایت نمونه‌های توالی ژنتیکی بسیار کمی از کشورهای با درآمد متوسط و کم وجود دارد. این دلیل آن نیست که  کووید-۱۹ در این مناطق پخش نمی‌شود، یا این موارد برای درک ما از شیوع ویروس چندان مهم نیستند، بلکه نشان می‌دهد ما اطلاعات زیادی از این مناطق نداریم. اندازه‌ی هر دایره روی نقشه نشان می‌دهد که چه مقدار داده در حال حاضر از آن منطقه در دسترس است و به معنای گستره‌ی همه‌گیری نیست
+<br>
+از میان همه موارد، فقط زیرمجموعه‌ای از بیماران  تست شده‌اند. و از میان این تست‌ها، فقط برای زیر مجموعه محدودی نمونه توالی ژنتیکی استخراج شده‌است، که این زیرمجموعه‌ها در زمان‌ها و مناطق جغرافیایی مختلف، بسیار با هم متفاوت هستند. 
+همچنین بازسازی فیلوژنتیک همه گیری‌ها همیشه با درجه‌ای عدم قطعیت همراه است. 
+<br>
+حالا به چند مثال نگاه می‌کنیم.
+</p>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [برخی از مناطق در این داده‌ها حضور کم رنگ دارند](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+<p dir="rtl">
+این نقشه نمونه توالی‌های ژنتیکی بسیار کمی از مناطق جنوبی را نشان می‌دهد. به عنوان مثال، ما فقط از ۴ کشور از ۲۵ کشور آمریکای لاتین که
+<a href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2">سازمان جهانی بهداشت</a>
+موارد کووید-۱۹ در آنها را گزارش کرده نمونه توالی ژنتیکی داریم.
+<br>
+این امر به این دلیل نیست که کووید-۱۹ در این مناطق در حال شیوع نیست، یا این موارد ارزش فوق‌العاده‌ای برای بررسی ندارند. بلکه، ما فقط اطلاعات زیادی از این مناطق نداریم.
 <br><br>
+</p>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+# [مناطق دیگر در این داده‌ها بیش از حد نمایش داده شده‌اند](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+<p dir="rtl">
+در مناطق دیگر، مانند هلند، نسبت به تعداد کل بیماران، تعداد زیادی از داده‌های توالی ژنتیکی موجود است.
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+بنابراین، هنگام خواندن این گزارش، به خاطر داشته باشید که اندازه هر دایره روی نقشه نشان می‌دهد که چه مقدار داده در حال حاضر از آن منطقه در  دسترس است تا اینکه بیانگر اندازه واقعی شیوع در آن منطقه باشد.
+می‌توانید
+<a href="https://nextstrain.org/narratives/trees-background/fa?n=8">در اینجا</a>
+درمورد اینکه چگونه این امر می‌تواند استنتاج انتقال بیماری را تحت تأثیر قرار‌دهد.
 <br><br>
+</p>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [داده‌های نمونه توالی ژنتیکی می‌توانند به بررسی سابقه سفرها کمک متقابل کنند](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+<p dir="rtl">
+تشخیص اینکه یک کیس مشخص از کجا به بیماری دچار شده است، برای اینکه بفهمیم در چه مناطقی انتقال بیماری محلی است، و در چه مناطقی عمدتا کیس‌های مرتبط با سفر است، اهمیت دارد. داده‌های نمونه توالی ژنتیکی می‌توانند در تمایز بین این دو سناریو به ما کمک کنند.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+در این‌جا، نمودار درختی با توجه به سابقه سفر یک شخص بیمار (وقتی این اطلاعات موجود است) رنگ‌گذاری شده‌است. با نگاه‌کردن به نمونه توالی ژنتیکی سبزرنگ کانادایی وسط، متوجه می‌شویم که آن‌ها سابقه سفر به اروپا را گزارش کرده‌اند. این گروه مبتلایان در کنار بقیه نمونه‌های ژنتیکی اروپایی نشان می‌دهند که این شخص به احتمال بسیار زیاد، بیماری را در طول سفر گرفته‌است.
+</p>
+
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [داده‌های نمونه توالی ژنتیکی می‌توانند به بررسی سفرها کمک متقابل کنند](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
-<br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
-<br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
-<br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+<p dir="rtl">
+با خارج شدن ازحالت بزرگ‌نمایی می‌توان مشاهده کرد که لزوما این رویه در همه‌جا به یک شکل نیست. 
+اینجا می‌توانیم مشاهده کنیم که تقریبا همه بیمارانی که گزارش کرده‌اند که اخیرا به ایران سفر داشته‌اند، در وسط نمودار درختی دسته شده‌اند. 
+<br>
+در سمت بالای نمودار، یک بیمار کانادایی با سابقه سفر به ایران مشاهده می‌شود، اما این نمونه توالی ژنتیکی در نزدیکی باقی بیماران مرتبط با سفر به ایران جای نمی‌گیرد. 
+قطعا امکان دارد که این فرد از طریق زنجیره دوم فعلی انتقال در ایران مبتلا شده‌باشد، اما تا زمانی که داده بیشتری کسب کنیم، نمی‌توانیم تایید کنیم که این شخص مبتلا در سفر بیمار شده‌باشد.
+</p>
 
 <!-- There is no right side text -->
 
-<!-- ############ SLIDE BREAK ############# -->
-
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+  
+# [این ویروس تقریبا به همه کشورهای دنیا وارد شده‌است](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+<p dir="rtl">
+بر روی نمودار، تعداد زیادی از این نوع درهم آمیختگی نمونه‌های ژنتیکی از کشورهای مختلف را مشاهده می‌کنیم. 
+این نشان‌دهنده‌ی این است که این نوع تغییر مکان دادن‌های اجتناب ناپذیر مردم ویروس را تاکنون به بسیاری از مناطق کره زمین برده است.
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
-<br><br>
-However, not all introductions result in outbreaks.
-
+در واقع 
+<a href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2"> گزارش سازمان بهداشت جهانی</a>
+، ابتلا در ۱۵۹ کشور از ۱۹۵ کشور کره زمین را تایید کرده است. 
+البته ورود  ویروس  تا کنون در همه‌جا منجر به همه‌گیری نشده‌است. 
+</p>
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [اپیدمی حدودا بین ۴ تا ۸ هفته بعد از ورود ویروس مشهود می‌شود](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
-<br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
-<br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+<p dir="rtl">
+شاید چنین به نظر برسد که کووید ۱۹ بطور ناگهانی گسترده شد.
+برای خیلی از مردم، این همه‌گیری، یک‌شبه، از یک نگرانی انتزاعی درباره شیوع ویروس در سایر نقاط جهان تبدیل به چیزی تبدیل شد که زندگی روزمره خودشان را به شدت تحت تاثیر قرار داد. 
+اما در نظر داشته باشید که این شرایط برای مدتی در جریان بوده‌است. لزوما این‌طور نیست که ویروس به تازگی در ناحیه‌های جدید بیشتری وارد شده‌است. 
+به احتمال زیاد، خیلی از مکان‌هایی که به تازگی از همه‌گیری‌های محلی‌شان مطلع شده‌اند ویروس از چند هفته قبل به آن‌جا وارد شده‌است. 
+مناطقی که هنوز از همه‌گیری محلی اطلاعی ندارند، باید اکنون خود را آماده کنند و شروع به نظارت برای تست‌گیری کنند. 
+</p>
+
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+# چگونه ورود ویروس منتهی به همه‌گیری می‌شود؟
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+گاهی ورود ویروس منجر به ایجاد بیماران بعدی و همه‌گیری‌های منطقه‌ای نمی‌شود، مخصوصا اگر بیمار مورد نظر سریعا شناسایی و ایزوله شود.
+اما خیلی وقت‌ها ویروس شناسایی نشده در منطقه شیوع پیدا می‌کند تا زمانی که همه‌گیری به یک اندازه قابل ملاحظه‌ای می‌رسد. 
+در زیر یک آزمایش فکری آورده‌شده که نشان می‌دهد این اتفاق چطور در ووهان افتاد. محور عمودی مکان و محور افقی زمان را نشان می‌دهد.  ناحیه سایه زده‌شده، تعداد افراد بیمار را نشان می‌دهد.
 
-These new outbreaks may, in turn, seed further introductions to other locations.
+"کووید-۱۹ در ووهان از یک بیمار شاخص تقریبا در نوامبر ۲۰۱۹ به چندین هزار بیمار تا اواسط ژانویه ۲۰۲۰ رسید، یعنی از یک نقطه اولیه به انتقال گسترده محلی در حدودا ۱۰ هفته. ما معتقدیم که انتقال‌های اولیه بین‌المللی از اواسط ژانویه ۲۰۲۰ آغاز شد. در نتیجه ما تقریبا ۱۰ هفته حیاتی از آن تاریخ تا حدودا اواخر مارچ زمان داریم که از این همه‌گیری‌های نوظهور قبل از این‌که به اندازه قابل ملاحظه‌ای برسند جلوگیری کنیم." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+
+
+این همه‌گیری‌های جدید ممکن است خودشان باعث ورود ویروس به مکان‌های دیگری شوند.
+
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -191,53 +227,53 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [چگونه همه‌گیری‌ها رشد می‌کنند: یک مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+
+می‌توانیم یک مثال مشخص از این را در داده‌های ایالت واشنگتن مشاهده کنیم. 
+حرکت موس روی ریشه گروه اصلی، نشان می‌دهد که ویروس احتمالا بین اواخر ژانویه تا اواسط فوریه ۲۰۲۰ به این منطقه وارد شده است. ([روش‌ها](https://nextstrain.org/narratives/trees-background/fa?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+اکنون در اواسط مارچ (تقریبا ۶ هفته بعد) می‌بینیم که همه‌گیری محلی در این منطقه کاملا شکل گرفته و یکه‌تازی می‌کند. از داده‌های نمونه توالی ژنتیکی به تنهایی می‌توان دو برابر شدن در بازه ۳ تا ۶ روز با فرض رشد نمایی جمعیت را تخمین زد. 
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
-
 
 <!-- There is no right side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [چگونه همه‌گیری‌ها  منتشر می‌شوند: یک مثال](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
-<br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
-<br><br>
-This is just one example.
-There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
-Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+همچنین می‌توانیم مثالی  را مشاهده کنیم از این‌که چگونه همه‌گیری‌های محلی منجر به ورود ویروس به مناطق دیگر می‌شوند. نمونه‌های ایالت یوتا، نزدیک بالای نمودار درختی (نارنجی)، داخل خوشه‌ی ژنتیکی اصلی نمونه‌های همه‌گیری ایالت واشنگتن جای گرفته‌اند.  این می‌تواند نشان‌دهنده ورود ویروس از واشنگتن به یوتا باشد، البته امکان دارد مرحله (مراحل) واسطه‌ای هم در این زنجیره انتقال وجود داشته‌باشد. 
+ما مطمئن نیستیم که ورود ویروس به یوتا منجر به همه‌گیری محلی در این ایالت بشود یا خیر. 
+اما اگر ویروس بعد از ورود به انتشار ادامه دهد، انتظار خواهیم داشت که جواب این سوال را تا ۴ هفته آینده مشاهده کنیم.
+
+این فقط یک مثال است.
+امکان دارد ویروس از نقاط دیگری هم به یوتا (یا بقیه مناطق)  وارد شده‌باشد، و این‌که نمی‌توانیم آن را روی نمودار درختی مشاهده کنیم به این خاطر باشد که آن‌ها نمونه توالی ژنتیکی نشده‌اند.
+از همه مهم‌تر، مناطقی که هنوز اطلاعی از همه‌گیری در منطقه‌شان ندارند باید آماده شوند و شروع به تست کنند.
+ 
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [اقدامات کاهشی زمان می‌برد، اما جان انسان‌ها را حفظ می‌کند](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
-<br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
-<br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
+
+با همین منطق، احتمالا زنجیره‌های انتقالی محلی زیادی وجود دارند که ما هنوز ازآن‌ها اطلاعی نداریم. 
+
+این به این معنی است که حتی برای مناطقی که به تازگی اقدامات مربوط به رعایت فاصله اجتماعی را پیاده کرده‌اند، هنوزانتظار داریم که تعداد مبتلایان درچند هفته روبرو افزایش یابند.
+این افزایش نشان دهنده این نیست که این اقدامات اثربخش نبوده‌اند. صرفا زمان می برد که کسانی که تاکنون مبتلا شده اند (و احتمالا اعضای خانواده شان) علائم بیماری را نشان دهند، تحت درمان قرار بگیرند و بهبود پیدا کنند.  همچنین انتظار داریم جهشی در تعداد کیس‌های گزارش شده به خاطر گسترش دسترسی به آزمایش‌ها مشاهده کنیم. 
+
+بسیارحیاتی است که در این دوره اقدامات کاهش فاصله اجتماعی رعایت شود. همانطور که در سمت راست نشان داده شده است، تعداد مبتلایان بعد از انجام مداخلات کماکان افزایش می‌یابد. اما در طول زمان، تعداد کل مبتلایان به شدت کاهش می‌یابد.
+
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## کاهش فاصله اجتماعی کیس های جدید را یک شبه متوقف نمی کند، بلکه تعداد مبتلایان و کشته ها را به طور قابل ملاحظه ای در طول زمان کاهش می دهد. 
+کاهش فاصله اجتماعی یعنی کاهش تعداد افرادی که هر روز با آنها مواجه می شوید، چالش انگیز است، ولی بسیار زیاد برای همه جامعه سودمند است. 
+ اگر هر شخص روزانه ارتباطاتش با افراد را ۲۵٪ کاهش دهد، انتظار داریم که ۵۰٪ کاهش در تعداد کل مبتلایان در ماه آینده مشاهده کنیم. ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -246,32 +282,34 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [جمع بندی](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- این ویروس در بسیاری از نقاط جهان چندین نوبت مستقلاً پخش شده است. 
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- ما شواهدی از انتقال محلی ویروس را در مناطق زیادی مشاهده می‌کنیم، همچنین، انتظار داریم که ورود ویروس به خیلی از مناطق که قبلا اتفاق افتاده  و باعث همه گیری های محلی زیادی شده، در هفته‌های آینده آشکار شود. 
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- کنترل همه‌گیری محلی از طریق فاصله‌گیری اجتماعی برای موارد زیر حیاطی است
+ 
+  - هموار کردن نمودار، برای جلوگیری از شلوغی بیش از حد سیستم های درمانی به خاطر مراجعه همزمان مبتلایان 
+  - کاهش تعداد کل مبتلایان و تلفات
+  -  خریدن زمان برای پیشرفت روش‌های درمانی و ساخت واکسن
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# چکار می‌توان کرد
+## به عنوان یک فرد
+* کاهش تعداد افرادی که در روز با آنها در ارتباط هستید خصوصاً اگر جزو گروه‌های آسیب‌پذیر هستید مانند افراد مسن و بیماران
+* به یاد داشته‌باشید که حتی اگر شما در گروه آسیب پذیر نیستید بسیاری از افراد پیرامون شما ممکن است باشند، لذا از این توصیه‌ها برای مراقبت از دیگران استفاده کنید
+* دست‌هایتان را بشورید، درست مانند زماتی که تسمه کولرتان را عوض کرده‌اید
+* اگر مریض هستید در خانه بمانید، با مقداری آذوقه اضافی خود را برای قرنطینه شخصی آماده کنید  
+* اگر شما یک کارفرما هستید کارمندان خود را ترغیب کنید که در هنگام مریضی در خانه بمانند به عنوان مثال مرخصی با حقوق به آن‌ها بدهید
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## به عنوان یک مسئول رسمی 
+* تست را به صورت رایگان در اختیار همگانی قرار دهید
+* فاصله‌گیری اجتماعی را در دستور کار قرار دهید
+* ارتباطات افراد مشکوک را رهگیری کنید
+* حمایت مالی از اجرای گسترده ردیابی افراد در تماس با مبتلایان  
+* حمایت مالی از کسانی که به واسطه برقراری فاصله گیری اجتماعی تحت تاثیر قرار می‌گیرند مانند کارگران ساعتی، کسانی که از افراد مسن و کودکان مراقبت می‌کنند و کسب و کار های کوچک و غیره.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -279,14 +317,21 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [اعتبار علمی](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
 
-<br>
+<p dir="rtl">
+ما می‌خواهیم از کار شگفت‌انگیز و به موقع انجام‌شده توسط همه‌ی دانشمندان در حال کار بر روی این همه‌گیری جهانی و به ویژه افرادی که در کشور چین کار می‌کنند قدردانی کنیم.
+که با به اشتراک‌گذاری سریع داده‌های ژنتیکی و داده‌های آماری خود اجازه‌ی تحلیل‌های این‌چنینی را برای ما ممکن می‌سازد.
+</p>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+
+<p dir="rtl">
+ با سپاس و قدردانی از
+<a href="https://gisaid.org">GISAID</a>
+ برای در اختیار گذاشتن پلتفرم که از طریق آن داده‌ها می‌تواند بارگذاری و به اشتراک گذاشته‌شود.
+</p>
+
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
@@ -596,14 +641,14 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [لیست کامل اعتبار علمی](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+این داده‌ها از طریق [GISAID](https://gisaid.org) به اشتراک گذاشته‌شد.
+ما از مشارکت آن‌ها بسیار قدردانی می‌کنیم.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+در سمت راست، توالی‌های خاصی را که توسط هر آزمایشگاه به اشتراک گذاشته شده را نام می‌بریم..
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown

@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 13일 상황 보고서
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -20,10 +20,11 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
-translatorLinks:
-date: "2020 March 20"
+  - Hanbin Lee
+  - Minkyu Kim
+date: "2020년 3월 20일"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19의 전파를 추적합니다. 이 보고서는 매주 업데이트 됩니다."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -31,158 +32,202 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [목차](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Scientific Credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=2).     
+* [데이터 수집 관련 사항](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=3).
+* [염기서열 정보 & 여행력](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=6).
+* [거의 모든 나라에 전파된 코로나19](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=8).
+* [유행의 성장과 전파](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=9).
+* [워싱턴주 유행의 성장](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=10).
+* [워싱턴주 유행의 전파](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=11).
+* [사회적 거리두기가 확진자 수 변화에 가져온 변화](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=12).
+* [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=13).
+* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# 개요
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+저희는 723</tag>개의 공개된 코로나19 유전체 염기서열을 분석하였습니다.
+이 정보를 바탕으로 코로나19가 어떻게 진화하고 세계 곳곳으로 퍼지고 있는지 파악하였습니다.
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+바이러스는 현재 세계 곳곳에 퍼져나가 유행하고 있습니다.
+각 지역에 바이러스 현황을 파악하고 완화전략을 통해 전파를 둔화시키려면 지역사회전파의 양상을 잘 이해하고 있어야 합니다.
+이를 위해서는 광범위한 검사가 필수적입니다.
+이를 통해 질병 전파의 속도를 낮춤에 있어 신속한 검사가 중요하다는 것을 알 수 있습니다.
 
-In this week's updates, we report:  
+이번 주 보고서에서 새로 추가된 것들:
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* 전세계에서 여행과 관련된 유입의 증거들이 관찰됩니다.
+* 최근에 바이러스가 유입된 지역들에서는 4-8주 사이에 환자가 급증할 것으로
+  예상되니 지금부터 준비해야합니다.
+* 사회적 거리두기를 최근에 실행한 곳에서도 당분간은 확진자가 계속 증가할 것입니다.
+  그러나 중장기적으로는 증가세가 둔화될 것입니다.
+* 대유행과 싸우기 위해서는 과거와 현재의 감염 모두를 파악해야합니다.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [코로나바이러스감염증-19 관련자료](https://nextstrain.org/ncov/2020-03-20)
+코로나바이러스감염증-19와 이를 유발하는 SARS-CoV-2 바이러스에 대한 몇 가지
+자료를 준비했습니다.
+이 정보들은 저희가 이 보고서에서 제시한 내용을 이하는데 도움을 줄 것입니다.
+이 정보들은 저희가 이 보고서에서 제시한 내용을 이해하는데 도움을 줄 것입니다.
+계통수(계통유전학적 나무)가 익숙하지 않은 분들은 ['계통수를 읽는 법'](https://nextstrain.org/narratives/trees-background/ko)를 읽고 오십시오.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## 배경지식
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 코로나바이러스 관련 배경지식 </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 최근 코로나바이러스감염증-19 유행 관련 배경지식</a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+  <a href="https://nextstrain.org/narratives/trees-background/ko"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 계통수를 읽는 법 </a>
 </div>
 
 ## Further Reading
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* [영어 위키피디아](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak)의 코로나 바이러스 유행을 다룬 요약 _2020-01-30_
+* [한국어 위키백과](https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4%EA%B0%90%EC%97%BC%EC%A6%9D-19_%EB%B2%94%EC%9C%A0%ED%96%89)의 코로나 바이러스 유행을 다룬 요약 _2020-01-30_
+* [미국 질병통제예방센터](https://www.cdc.gov/coronavirus/index.html)에서 제공하는 자료 _2020-01-29_
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [데이터 수집 관련 사항](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+현재 저희는 6개 대륙 36개국에서 얻은 바이러스의 RNA 염기서열 정보를
+해독했습니다. 이는 엄청난 성과입니다. 큰 RNA 유전체를 가진 미지의 바이러스의
+염기서열 정보를 유행 와중에 얻는 것은 굉장히 어렵습니다. 이는 전 세계의
+과학자와 의료인들의 신속한 정보공유와 헌신이 아니었다면 불가능했을 것입니다.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+이 데이터를 바탕으로 유행의 여러 특성을 실시간으로 유추할 수 있지만, 저희의
+결론은 어디까지나 현재 얻어진 데이터에서 알 수 있는 사실에만 국한됨을 강조하고 싶습니다.
+감염자 중에서도 일부만 검사를 받습니다.
+검사를 받은 이들 중에서도 일부에서만 RNA 유전체 염기서열 정보를 해독합니다.
+검사와 염기서열 해독의 대상이 되는 감염자는 지역과 시간에 따라 편차가 큽니다.
+더불어, 질병 유행의 계통유전학적 분석은 항상 어느 정도의 불확실성을 동반합니다.
 <br><br>
-Let's look at a few examples.
+몇 가지 예시를 들겠습니다.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [어떤 지역들은 데이터에서 차지하는 비중이 작습니다](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+지도를 보면 남반구에서 보고된 염기서열 정보가 매우 적다는 것을 알 수 있습니다.
+예를 들어, [WHO 상황 보고서](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)가 확진자를 보고한 25개의 라틴 아메리카 국가 중 염기서열 정보가 보고된 국가는 4개국에 불과합니다.
+이는 보고되지 않은 국가들에 코로나19가 존재하지 않다거나 중요도가 떨어져서가 아닙니다.
+단지 해당 지역에서 데이터를 얻기가 어려웠기 때문입니다.
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+# [다른 지역들은 데이터에서 차지하는 비중이 큽니다](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+네덜란드와 같은 다른 지역에서는 전체 확진자 중 염기서열 정보가 보고된 사람들의
+비율이 굉장히 높습니다.
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+따라서 이 보고서를 읽을 때는 지도에 표시된 원의 크기가 현재 보고된 데이터의
+양을 반영할 뿐 실제 유행의 규모와는 무관하다는 것을 명심해야합니다.
+[이 글](https://nextstrain.org/narratives/trees-background/ko?n=8)을 보면 데이터의 불균등한 보고가 전파에 대한 분석에 어떤 영향을 미치는지 알 수
+있습니다.
 <br><br>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [염기서열 정보를 이용하면 여행력 정보를 교차검증할 수 있습니다](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+어떤 지역의 유행이 지역사회전파에 의한 것인지 여행을 통해 외부에서 유입된
+것인지 알기 위해서는 바이러스가 어디서 왔는지 아는 것이 중요합니다.
+유전체 염기서열 정보는 두 시나리오의 가능성을 평가하는데 도움을 줍니다.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+이 그림에서는 여행력이 알려진 바이러스들이 채색되었습니다.
+나무 중간에 있는 캐나다의 염기서열(Canada/BC_78548/2020)을 보면, 유럽 여행력이 있다고
+적혀있습니다.
+이 바이러스는 유럽의 다른 바이러스들과 군집을 이루기 때문에 여행에 의한
+감염일 가능성이 매우 크다는 것을 알 수 있습니다.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [염기서열 정보를 이용하면 여행력 정보를 교차검증할 수 있습니다](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
+축소시켜 보면, 그런데 항상 보고된 여행력과 시퀀스 정보가 일치하지는 않습니다.
 <br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
+지금 그림을 보면 이란 여행력을 보고한 거의 모든 바이러스들이 그림 중간에서 서로 군집을 이루는
+것을 볼 수 있습니다.
 <br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
+나무 위쪽을 보면 이란 여행력을 보고한 캐나다 염기서열이 하나 있는 것을 볼 수 있습니다.
+그러나 이 바이러스는 이란 여행력을 가진 다른 바이러스와는 군집을 이루지 않습니다.
 <br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+물론 이 사람도 이란에서 감염된 것일 수 있습니다.
+이란 여행력을 가진 다른 바이러스들과는 다른 그룹의 바이러스 그룹이 존재할 수
+있기 때문입니다.
+그러나 데이터가 더 모이기 전까지는 이 사람이 정말로 이란으로의 여행에서
+감염되었는지 판단하기는 이릅니다.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [거의 모든 나라에 전파된 코로나19](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+나무를 보면 다른 나라에서 발견된 바이러스들이 서로 뒤섞여 있습니다.
+이를 통해 바이러스가 사람들의 자연적인 이동에 의해 이미 세계 곳곳에 퍼졌음을 알 수
+있습니다.
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
+[WHO 상황 보고서](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)에 따르면 전세계 195개국 중 159개국에서 이미 바이러스가
+확인되었습니다.
 <br><br>
-However, not all introductions result in outbreaks.
+그러나 곳곳에 퍼진 바이러스가 모두 유행으로 이어지지는 않았습니다.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [유행은 최초 유입 후 4에서 8주후에 가시화됩니다](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
+코로나19가 갑자기 증가한 것처럼 보일 수 있습니다.
+어떤 분들은 이 유행이 하루아침에 먼나라 얘기에서 일상을 향한 위협으로
+변했다고 느낄 수도 있습니다.
 <br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
+
+그러나 이것은 바이러스가 새로운 곳으로 더 잘 퍼지기 때문이 아닙니다.
+오히려 몇 주 전 유입된 바이러스가 인지하지 못하는 사이에 조금씩 증식 중이었을 가능성이 높습니다.
 <br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+아직 유행이 시작하지 않은 곳도 곧 시작될 유행에 대비해 방역망을 강화하고 검사를
+시작해야합니다.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
+# 외부 유입이 어떻게 유행이 되나요?
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+어떤 외부 유입은 이차감염이나 지역사회전파로 이어지지 않습니다.
+특히, 0번 환자가 빠르게 감지되어 격리됐다면 말입니다.
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
+우한시를 배경으로 이에 대한 사고실험을 해보았습니다.
+y-축은 (유행이 퍼져나갈) 공간, x-축은 시간을 나타냅니다.
+빗금이 칠해진 영역의 넓이는 감염자의 숫자를 나타냅니다.
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"코로나19는 2019년 11월 경에 발생한 0번 환자에서 출발하여 2020년 1월 중순
+즈음에 수천명의 감염자로 늘어났습니다. 따라서 최초 감염자에서 광범위한
+지역적 유행까지 10주 가량 걸린 것입니다. 현재로써 우리는 1월 중순 경부터
+코로나19가 세계 각지로 퍼졌을 것으로 보고 있습니다. 따라서 각지의 소규모
+유입이 대규모로 확대되는 것을 막기 위해서는 지금으로부터 10주, 그러니까 3월
+말까지의 시기가 중요합니다" [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), 2020년 2월
 
-These new outbreaks may, in turn, seed further introductions to other locations.
+이렇게 시작한 각 유행은 다른 지역에서 유행을 새로 발생시킬 수도 있습니다.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -191,12 +236,15 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [예시로 보는 유행의 확대](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+워싱턴주의 데이터를 통해 유행이 점점 확대되는 양상을 알 수 있습니다.
+가장 큰 바이러스 군집의 뿌리를 클릭하면 1월 말에서 2월 중순 사이에 바이러스가
+이 지역으로 유입되었음을 알 수 있습니다 ([추정법](https://nextstrain.org/narratives/trees-background/ko?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+3월 중순 (약 6주 후)인 현 시점에서는 지역적 유행이 본격화됐습니다.
+유전체 염기서열 정보를 이용한 추정에 따르면 이 유행은 3-6일에 두배씩 커지는
+지수함수적 성장을 하고 있습니다.
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -206,38 +254,54 @@ Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swin
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [예시로 보는 유행의 전파](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
+워싱턴주의 데이터를 통해 지역적 유행이 다른 지역에 퍼지는 양상을 알 수
+있습니다.
+나무 꼭대기 근처에 있는 유타 주(주황색)에서 채취된 바이러스는 워싱턴 주의
+바이러스들과 한 군집을 이룹니다.
+이는 유타주의 바이러스가 워싱턴주에서 기원했음을 알려줍니다.
+물론, 중간과정을 거쳤을 수도 있습니다.
 <br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
+이 바이러스가 유타 주에 지역적 유행을 유발할 것인가는 아직 알 수 없습니다.
+그러나 바이러스가 퍼지기 시작한다면 4주 후 쯤 가시화될 것입니다.
 <br><br>
-This is just one example.
-There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
-Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+이는 하나의 예시에 불과합니다.
+유타주 (혹은 다른 지역)에는 이미 다른 곳에서 온 바이러스가 유행하고 있을지도
+모릅니다.
+단지 유전체 염기서열 정보가 해독되지 않아 나무 상에 나타나지 않았을 뿐입니다.
+가장 중요한 것은, 아직 유행을 인지하지 않은 지역들이 이를 대비해 방역망을
+확충하고 검사를 시작해야한다는 것입니다.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [완화전략은 시간이 걸리지만 많은 목숨을 살릴 수 있습니다](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
+앞선 논리에 따르면, 이미 많은 지역적 전파가 확인되지 않은 채로 진행하고 있을
+가능성이 높습니다.
 <br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
+이 말인즉슨 사회적 거리두기를 시행한 지역들도 당분간 확진자 수가 계속 증가할
+것입니다.
+이로부터 사회적 거리두기가 비효과적이라고 결론내려서는 안 됩니다. 이미 감염된
+사람들이 (혹은 그들의 가족) 증상을 나타내고, 치료받고, 회복하기까지 시간이
+걸리기 때문입니다. 또, 검사량이 증가하면서 확진자 수가 갑자기 증가하는 것처럼
+보일 수도 있습니다.
 <br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
+이 기간동안 사회적 거리두기를 시행하는 것이 매우 중요합니다. 오른쪽 그림에서 볼
+수 있듯이 완화 전략을 시작한 뒤에도 확진자 수는 여전히 증가할 것입니다. 그러나
+시간이 지나고 보면 총 감염자 수가 크게 감소하는 효과를 가져올 것입니다.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## 사회적 거리두기는 하루밤만에 새 확진자 수를 줄이지 않습니다. 하지만 긴
+시간을 두고 봤을 때 감염자와 사망자의 수를 크게 줄입니다.
+사회적 거리두기(하루에 만나는 사람의 수를 줄이는 일)은 어려운 일임에도
+공익에 크게 기여합니다.
+만약 모든 사람들이 하루에 만나는 사람을 25% 줄이면, 다음달에 발생할 감염자의
+수가 50% 줄어듭니다 ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -246,32 +310,38 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [배울 점들](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- 바이러스는 세계 각지에 반복적으로 여러번 유입됐습니다.
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- 지역사회전파가 여러 지역에서 일어나고 있다는 증거들이 많습니다. 나아가
+  각지에 아직 발견되지 않은 바이러스 유입이 있을 것이며 수 주 내로 모습을
+  드러낼 것으로 보입니다.
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- 지역사회전파를 통제하기 위한 수단으로 사회적 거리두기는:
+  - 의료 시스템에 동시다발적으로 발생한 감염자들에 의해 과부하가 걸리는 것을
+    막기 위해서 #FlattenTheCurve (#곡선을_완만하게) 해줍니다.
+  - 총 감염자 및 사망자 수를 줄일 수 있습니다.
+  - 치료제와 백신이 개발될 시간을 벌어줍니다.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# 우리가 할 수 있는 것들
+## 개인이 할 수 있는 것들
+* 만나는 사람의 수를 줄이십시오. 특히, 당신이 취약계층일수록 중요합니다 (예를
+  들어, 고령이나 기저질환이 있는 경우).
+* 당신이 취약계층이 아니더라도 주변에 그런 사람이 많다는 것을 유념하십시오.
+  그래야 주변 사람들을 보호할 수 있습니다.
+* 손을 자주 씻으십시오.
+* 아프면 집에 머무르세요. 자가격리를 대비해 필요한 물자를 미리 비축하십시오.
+* 당신이 고용주라면 직원들이 아플 때 집에 있을 수 있도록 해주세요 (이를 위한
+  금전적 지원도 제공하세요).
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## 지도자와 관료들이 할 일
+* 검사가 무료로 광범위하게 이뤄질 수 있도록 하십시오.
+* 사회적 거리두기가 이뤄질 수 있도록 하십시오.
+* 사회적 거리두기로 인해 피해를 입은 사람들을 위한 경제적 지원이 필요합니다
+  (예를 들어, 시간제 노동자, 노약자나 어린이를 부양하는 사람들, 소상공인 등).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -279,14 +349,12 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
-
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
-
+# [과학적 기여](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+이번 유행에 관련된 모든 과학자들, 특히 중국의 과학자들의 대단하고 신속한 작업에 감사를 표합니다. 유전체 정보 및 메타정보의 빠른 공유가 아니었다면 이 분석들은 불가능했을 것입니다.
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+
+이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
@@ -596,14 +664,13 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [과학적 기여: 상세 내역](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+우측에 각 연구실이 기여한 구체적인 서열 정보가 있습니다.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
