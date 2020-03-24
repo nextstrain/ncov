@@ -53,7 +53,7 @@ abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von 
 Wir haben 723 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den Vergleich der Virusgenome untereinander, koennen wir naehere Aussagen ueber die weltweite Verbreitung von COVID-19 machen.
 
 In diesem Bericht wollen wir verdeutlichen, dass das Virus hier angekommen ist und derzeit weltweit im Umlauf ist.
-Um feststellen zu koennen, ob und inwiefern sich COVID-19 lokal ausbreitet, und welche Milderungsoptionen zu einer Verlangsamung der Virusverbreitung fuehren koennen, benoetigt man ein fundiertes Wissen ueber die oertlichen Epidemiedynamiken. Das widerum fordert breit gefaecherte Tests. 
+Um feststellen zu koennen, ob und inwiefern sich COVID-19 lokal ausbreitet, und welche Milderungsoptionen zu einer Verlangsamung der Virusverbreitung fuehren koennen, benoetigt man ein fundiertes Wissen ueber die oertlichen Epidemiedynamiken. Dies widerum benoetigt breit gefaecherte Tests. 
 Dies betont die Wichtigkeit von schnellen Tests mit dem Hintergrund, die oertliche Verbreitung des Virus drastisch zu unterbinden.
 
 In diesem woechentlichen Update wollen wir Folgendes berichten:  
@@ -94,9 +94,9 @@ Fuer naehere Informationen zu COVID-19 und dem Ursprungsvirus SARS-CoV-2, haben 
 
 <!-- This is left-side text 3 -->
 # [Anmerkung zur Probennahme](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-Bis jetzt haben wir Zugang zu Sequenzierdaten von Proben aus 36 Laendern auf sechs Kontinenten. Das ist eine Meisterleistung, wenn man bedenkt, dass man ein unbekanntes, grosses RNA-Virus inmitten einer Pandemie sequenzieren muss. Dies ist nur dank dem wunderbaren Einsatz und dem zeitnahen Teilen von Daten durch Forscher und Aerzte weltweit moeglich.
+Bis jetzt haben wir Zugang zu Sequenzierdaten von Proben aus 36 Laendern von sechs Kontinenten. Das ist eine Meisterleistung, wenn man bedenkt, dass man ein unbekanntes, grosses RNA-Virus inmitten einer Pandemie sequenzieren muss. Dies ist nur dank dem wunderbaren Einsatz und dem zeitnahen Teilen von Daten durch Forscher und Aerzte weltweit moeglich.
 <br><br>
-Waehrend diese Daten es uns ermoeglichen, die Epidemie viel naeher zu charakterisieren und die Ausbreitung live zu verfolgen, ist es wichtig zu betonen, dass die Schlussfolgerungen aufgrund der Datenverfuegbarkeit begrenzt sind. Nur eine Untergruppe an Patienten innerhalb aller Fallzahlen wird getestet. Und davon wird nur eine Teilmenge der Proben sequenziert. Zusaetzlich variiert diese getestete und sequenzierte Untergruppe je nach geographischer Region und Zeit. Ausserdem werden phylogenetische Rekonstruktionen von Epidemien mit einem gewissen Grad an Unsicherheit in Verbindung gebracht.
+Waehrend diese Daten es uns ermoeglichen, die Epidemie viel naeher zu charakterisieren und die Ausbreitung zeitnah zu verfolgen, ist es wichtig zu betonen, dass die Schlussfolgerungen aufgrund der Datenverfuegbarkeit begrenzt sind. Nur eine Untergruppe an Patienten innerhalb aller Fallzahlen wird getestet. Und davon wird nur ein Teil der Proben sequenziert. Zusaetzlich variiert diese getestete und sequenzierte Untergruppe je nach geographischer Region und Zeit. Ausserdem werden phylogenetische Rekonstruktionen von Epidemien mit einem gewissen Grad an Unsicherheit in Verbindung gebracht.
 <br><br>
 Beispielsweise:
 
@@ -113,9 +113,9 @@ Die Karte zeigt sehr geringe Sequenzierdaten aus dem globalen Sueden. Beispielsw
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
 # [Andere Regionen sind ueberrepraesentiert](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In manchen Laendern, wie zum Beispiel den Niederlanden, sind umfangreiche Sequenzierdaten in Relation zu den gesamten Fallzahlen verfuegbar.
+In manchen Laendern, wie zum Beispiel den Niederlanden, sind umfangreiche Sequenzdaten in Relation zu den gesamten Fallzahlen verfuegbar.
 <br><br>
-Daher sollte beim Lesen des Artikels beachtet werden, dass die Groesse eines Kreises aussagt, wie viel Daten derzeit verfuegbar sind, und nicht das wirklichen Ausmass der Virenepidemie widerspiegelt. Unter diesem [Link](https://nextstrain.org/narratives/trees-background?n=8) kann nachgelesen werden, wie das unsere Stoerfestigkeit der Uebertragung beeinflussen kann. 
+Daher sollte beim Lesen des Artikels beachtet werden, dass die Groesse eines Kreises lediglich aussagt, wie viel Daten derzeit verfuegbar sind, und nicht das wirklichen Ausmass der Epidemie widerspiegelt. Unter diesem [Link](https://nextstrain.org/narratives/trees-background?n=8) kann nachgelesen werden, wie das unsere Interpretation von Uebertragungen beeinflussen kann. 
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -126,7 +126,7 @@ Daher sollte beim Lesen des Artikels beachtet werden, dass die Groesse eines Kre
 
 Den Ort der Infektion einer Person zu identifizieren ist wichtig fuer die Unterscheidung zwischen Gebieten, die eine oertliche Verbreitung durchmachen und Gebieten, die vornehmlich reisebedingte Faelle aufweisen. Sequenzierdaten helfen dabei, diese beiden Szenarien unterscheiden zu koennen.
 <br><br>
-Im Folgenden repraesentiert die Farbe eines Baums das Reiseverhalten einer Person (falls bekannt). Wenn man nun die kanadischen Sequenzierdaten im Zentrum betrachtet (Canada/BC_78548/2020), kann man erkennen, dass viele Personen berichtet haben, in Europa gewesen zu sein. Daher, dass diese Infektionsgruppierung mit anderen europaeischen Sequenzierdaten uebereinstimmt, kann hoechstwahrscheinlich davon ausgegangen werden, dass diese Infektionen reisebedingt zustande gekommen ist.
+Im Folgenden repraesentiert die Farbe eines Baums das Reiseverhalten einer Person (falls bekannt). Wenn man nun die kanadischen Sequenzdaten im Zentrum betrachtet (Canada/BC_78548/2020), kann man erkennen, dass viele Personen berichtet haben, in Europa gewesen zu sein. Daher, dass diese Infektionsgruppierung mit anderen europaeischen Sequenzierdaten uebereinstimmt, kann hoechstwahrscheinlich davon ausgegangen werden, dass diese Infektionen reisebedingt zustande gekommen ist.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
@@ -134,7 +134,7 @@ Im Folgenden repraesentiert die Farbe eines Baums das Reiseverhalten einer Perso
 
 Aber das ist nicht immer der Fall:
 <br><br>
-Im Nachfolgenden sieht man in der Mitte des Baums alle Faelle, die angegeben haben, kuerzlich den Iran besucht zu haben.
+Im Nachfolgenden sieht man in der Mitte des Baums alle Faelle, von denen wir wissen, dass sie kuerzlich den Iran besucht haben.
 <br><br>
 Im oberen Teil des Baums sieht man einen kanadischen Fall, der eine Iranreise gemeldet hat. Allerdings passt diese Person nicht in die naehere Umgebung der Gruppe, die eine Reise in den Iran angegeben hat.
 <br><br>
@@ -148,11 +148,11 @@ Es ist definitiv moeglich, dass diese Person durch eine weitere fortlaufende Ver
 # [Das Virus wurde in fast alle Laender der Welt eingeschleppt](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
 Im Baum sehen wir eine sehr starke Probendurchmischung zwischen verschiedenen Laendern.
-Das deutet darauf hin, dass Menschen unweigerlich das Virus durch beispielsweise unvermeindliche Reisen weltweit verbreitet haben.
+Das deutet darauf hin, dass Menschen das Virus durch beispielsweise unvermeidliche Reisen weltweit verbreitet haben.
 <br><br>
 Tatsaechlich [bestaetigt die Weltgesundheitsorganisation WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) positive Fallzahlen in 159 von insgesamt 195 Laendern weltweit.
 <br><br>
-Doch nicht jede Einschleppung fuehrt zu einer Epidemie.
+Doch nicht jede Einschleppung fuehrt zwangsläufig zu einer lokalen Verbreitung.
 
 <!-- There is no right side text -->
 
@@ -163,7 +163,7 @@ Doch nicht jede Einschleppung fuehrt zu einer Epidemie.
 Es scheint, als ob die Fallzahlen von COVID-19 ploetzlich explodiert sind.
 Fuer viele Leute bedeutet diese Epidemie, welche zuvor noch ein fremdes, weit entferntes, abstraktes Anliegen war, eine starke Einschraenkung ihres taeglichen Lebens, die sich scheinbar ueber Nacht vollzogen hat. 
 <br><br>
-Aber es sei zu bedenken, dass das Virus schon seit laengerem im Anmarsch ist. Es ist nicht zwangsweise der Fall, dass das Virus oefter in neue Orte eingeschleppt worden ist. Viel wahrscheinlicher ist, dass lokale Epidemien vielerorts jetzt in das Bewusstsein der Leute treten, obwohl das Virus schon vor einigen Wochen eingeschleppt worden ist.
+Aber es ist zu bedenken, dass das Virus schon seit laengerem im Anmarsch ist. Es ist nicht zwangsweise der Fall, dass das Virus oefter in neue Orte eingeschleppt worden ist. Viel wahrscheinlicher ist, dass lokale Epidemien vielerorts jetzt in das Bewusstsein der Leute treten, obwohl das Virus schon vor einigen Wochen eingeschleppt worden ist.
 <br><br>
 Gegenden, die noch keinen lokalen Ausbruch der Krankheit zu verzeichnen haben, sollten daher jetzt aktiv werden und Kontrolltests durchfuehren.  
 
@@ -173,9 +173,9 @@ Gegenden, die noch keinen lokalen Ausbruch der Krankheit zu verzeichnen haben, s
 # Von der Einschleppung zur Epidemie
 
 Es kann vorkommen, dass eine Einfuehrung nicht zwangslaeufig zu Zweiterkrankungen oder oertlichen Epidemien fuehrt - vor allen Dingen, wenn der Indexfall entdeckt und schnell isoliert werden kann.
-Meistens allerdings breitet das Virus sich unbeachtet in der oertlichen Bevoelkerung aus, bis es zu einer deutlichen Epidemie der Kranknheit kommt. 
+Meistens allerdings breitet das Virus sich unbeachtet lokal aus, bis es zu einer deutlichen Epidemie der Kranknheit kommt. 
 
-Folgendes stellt ein Gedankenexperiment dar, wie sich die Situation in Wuhan hat abspielen koennen. Die y-Achse repraesentiert den Ort und die x-Achse die Zeit. Die schraffierte Flaeche zeigt die Fallzahlen.
+Folgendes stellt ein Gedankenexperiment dar, wie sich die Situation in Wuhan abgespielt haben koennte. Die y-Achse repraesentiert den Ort und die x-Achse die Zeit. Die schraffierte Flaeche zeigt die Fallzahlen.
 
 "In Wuhan hat sich COVID-19 von einem Indexfall im November 2019 zu mehreren tausend Faellen bis Mitte Januar 2020 entwickeln koennen, was bedeutet, dass sich das Virus innerhalb von ca. zehn Woche weitlaeufig ausbreiten konnte. Wir glauben, dass die Ausbreitung auf internationaler Ebene auf Mitte Januar datiert werden kann. Ab da haben wir nun ein kritisches Zeitfenster von ungefaehr zehn Wochen bis Ende Maerz, in dem wir diese aufkommende Epidemie eindaemmen koennen, bevor sie betraechtlich wird." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
@@ -206,7 +206,7 @@ Mitte Maerz (ungefaehr sechs Wochen spaeter) ist die Epidemie in vollem Gange. A
 # [Verbreitung einer Epidemie anhand eines Beispiels](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
 Zusaetzlich sieht man beispielhaft wie ein anfaenglich oertlicher Ausbruch zur Einfuehrung des Virus anderenorts gefuehrt hat.
-Die Proben aus Utah nahe der Baumspitze (orange) verschachteln sich in der Hauptklade der Epidemie in Washington. Das ist im Einklang zu einer Einschleppung von Washington nach Utah, wobei es auch moeglich sein kann, dass es Zwischenschritte innerhalb der Uebertragungskette gegeben hat.
+Die Proben aus Utah nahe der Baumspitze (orange) verschachteln sich im groessten Cluster von Sequenzen aus Washington State. Das ist im Einklang zu einer Einschleppung von Washington nach Utah, wobei es auch moeglich sein kann, dass es Zwischenschritte innerhalb der Uebertragungskette gegeben hat.
 <br><br>
 Wir koennen nicht definitiv eine Epidemie in Utah aufgrund dieser Einschelppung ausschliessen. Allerdings, wenn das Virus sich weiter ausbreiten kann und wird, erwarten wir die Entfaltung der Epidemie innerhalb der naechsten vier Wochen.
 <br><br>
@@ -221,9 +221,9 @@ Das ist nur ein Beispiel. Es sind auch weitere Einschleppungen nach Utah (oder a
 Folgerichtig gibt es viele Verbreitungsketten, die uns zum jetzigen Stand der Dinge noch unbekannt sind. 
 <br><br>
 Was bedeutet, dass wir selbst fuer Gebiete, die jetzt social distancing Massnahmen ergriffen haben, steigende Fallzahlen fuer die naechsten paar Wochen erwarten. 
-Diese Anstiege bedeuten NICHT, dass solche Massnahmen nicht funktionieren. Es braucht nur Zeit fuer schon infizierte Individuen (und hoechstwahrscheinlich auch deren Haushaltsmitglieder) symptomatisch zu werden, behandelt zu werden und zu genesen. Zusaetzlich erwarten wir einen Hoecker in der Kurve von berichteten Faellen, da Tests weitverbreitet verfuegbar gemacht werden.
+Diese Anstiege bedeuten nicht, dass solche Massnahmen nicht funktionieren. Es braucht nur Zeit fuer schon infizierte Individuen (und hoechstwahrscheinlich auch deren Haushaltsmitglieder) symptomatisch zu werden, behandelt zu werden und zu genesen. Zusaetzlich erwarten wir einen Hoecker in der Kurve von berichteten Faellen, da Tests weitverbreitet verfuegbar gemacht werden.
 <br><br>
-Es ist wichtig, dass social distancing in dieser Zeit eingehalten wird. Wie man zur rechten sehen kann, steigen Fallzahlen weiterhin an, nachdem Interventionen in Kraft treten. Aber ueber die Zeit sinkt die kumulative Anzahl an Faelle drastisch.
+Es ist wichtig, dass social distancing in dieser Zeit eingehalten wird. Wie man zur rechten sehen kann, steigen Fallzahlen weiterhin an, nachdem Interventionen in Kraft treten. Aber ueber die Zeit sinkt die Anzahl an neuen Faelle drastisch.
 
 <!-- This is the right-side text -->
 
