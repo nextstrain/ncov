@@ -216,19 +216,19 @@ Das ist nur ein Beispiel. Es sind auch weitere Einschleppungen nach Utah (oder a
 <!-- This is left-side text 12 -->
 # [Massnahmen zu Milderung der Epidemie sind zeitaufwaendig, aber retten Leben](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
+Folgerichtig gibt es viele Verbreitungsketten, die uns zum jetzigen Stand der Dinge noch unbekannt sind. 
 <br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
+Das bedeutet, dass wir selbst fuer Gebiete, die jetzt social distancing Massnahmen ergriffen haben, steigende Fallzahlen fuer die naechsten paar Wochen erwarten. 
+Diese Anstiege bedeuten NICHT, dass solche Massnahmen nicht funktionieren. Es braucht einfach nur Zeit fuer schon infizierte Individuen (und hoechstwahrscheinlich auch deren Haushaltsmitglieder) symptotisch zu werden, behandelt zu werden und zu genessen. Zusaetzlich erwarten wir einen Hoecker in der Kurve von berichteten Faellen, da Tests weitverbreitet verfuegbar werden.
 <br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
+Es ist wichtig, dass social distancing in dieser Zeit eingehalten wird. Wie man zur rechten sehen kann steigen Fallzahlen weiterhin an, nachdem Interventionen in Kraft treten. Aber ueber die Zeit sinkt die kumulative Anzahl an Faelle drastisch.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## Social distancing unterbindet Neuinfektionen uebernacht, aber es reduziert die Fallzahlen und Tote langfristig drastisch.
+Social distancing beschreibt die Reduktion der Anzahl an Leute, denen man taeglich begegnet. Es kann herausfordernd sein, aber das Gemeinwohl profitiert stark davon.  
+Wenn jeder seine taeglichen Kontakte um 25% reduziert, kann mit einer Reduktion von 50% in der kumulativen Anzahl der Faelle im naechsten Monat gerechnet werden. ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -237,32 +237,32 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [Schlussfolgerung](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- Das Virus wurde sehr oft ueberallhin auf der Welt eingeschleppt
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- Wir sehen beweise dafuer, dass das Virus sich in vielen Gegenden ausbreitet; darueber hinaus erwarten wir, dass vorherige Einfuehrungen des Virus zu lokalen Epidemien fuehren wird, was in den naechsten Wochen sichtbar wird.
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- Einschraenkungen lokaler Ausbrueche des Virus durch social distancing ist wichtig, um:  
+  - #FlattenTheCurve Gesundheitssysteme vor dem Kollaps zu bewahren aufgrund von zu vielen Patienten auf einemal.
+  - die Fahlzahlen und Totenzahl zu reduzieren. 
+  - Impfstoffe und Therapiemoeglichkeiten entwickeln zu koennen.  
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# Was kann jeder Einzelne dazu beitragen
+## ...als Individuum
+* Reduziere drastisch die Anzahl an Leuten, mit denen man taeglich Kontakt hat, besonders wenn man zur Risikogruppe gehoert (z.B. Senioren und Leute mit Vorerkrankungen).
+* Bedenke, dass wenn man selbst nicht zur Risikogruppe gehoert, Leute in der Umgebung eventuell zu der Risikogruppe gehoeren. Halten Sie sich an diese Anweisungen, um andere zu schuetzen.
+* Haendewaschen "like you just chopped a jalapeno and have to change a contact lens."  
+* Bleiben Sie zuhause so oft wie es geht - besonders wenn man krank ist; bereiten Sie sich mit Vorraeten auf eine eventuelle Quarantaene vor.   
+* Raten Sie Ihren Angestellten als Arbeitgeber von zuhause zu arbeiten, wenn moeglich.
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## ...als Amtsperson  
+* Machen Sie Tests kostenlos und weitlaeufig verfuegbar.  
+* Fordern Sie strikte social distancing Massnahmen.  
+* Unterstuetzen und implementieren Sie umfangreiche Kontaktverfolgungen  
+* Unterstuetzen Sie finanzielle all diejenigen, die aufgrund von social distancing Massnahmen negativ betroffen sind (z.B.gewerbliche Mitarbeiter, Leute mit Seniorenversorgung oder Kinderbetreuung, Kleinunternehmen, etc.).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -270,20 +270,20 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Wissenschaftliche Danksagung](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
+Wir moechten uns recht herzlich bei allen Forschern fuer deren Zeit und wunderbares Engagement bedanken, die in dieser Epidemie ihren unentbehrlichen Beitrag leisten. Besonders moechten wir uns bei denen bedanken, die in China die Epidemie versuchen in den Griff zu bekommen. Nur durch das schnelle Teilen von Genom- und Metadaten sind Analysen wie diese moeglich.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Zudem moechten wir uns recht herzlich bei [GISAID](https://gisaid.org) fuer die Bereitstellung der Platform bedanken, durch die diese Daten geteilt und hochgeladen werden koennen.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Vielen herzlichen Dank an nachfolgende Labore fuer das Zusammentragen der Daten:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -587,19 +587,18 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Details zur Danksagung](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
-
+Die Daten wurden via [GISAID](https://gisaid.org) geteilt.
+Wir moechten uns recht herzliche fuer deren Beteiligung bedanken.
 <br>
 
-To the right we give specific sequences shared by each lab.
+Auf der rechten Seite befinden sich bestimmte Sequenzen, die vom jeweiligen Labor geteilt worden sind.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+SARS-CoV-2 Genome wurden grosszuegig von Wissenschaftler der nachfolgenden Labore eingereicht:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
