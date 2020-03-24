@@ -31,35 +31,35 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [Inhaltsverzeichnis](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Hintergrundwissen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
+* [Informationen zur Probenahme](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [Sequence data & Reiseverhalten](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [Einschleppung von COVID-19 in fast alle Laender](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [Informationen zum Ausbruch der Krankheit und Verbreitung](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [Detailierte Informationen zum Ausbruch in Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [Die Verbreitung in Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [Einfluss von social distancing auf die Fallzahlen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [Was kann jeder einzelne tun](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [Wissenschaftliche Danksagung](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Zusammenfassung
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+Wir haben 723 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den Vergleich der Virusgenome untereinander, koennen wir naehere Aussagen ueber die weltweite Verbreitung von COVID-19 machen.
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+In diesem Bericht wollen wir verdeutlichen, dass das Virus hier angekommen ist und derzeit weltweit im Imlauf ist.
+Um feststellen zu koennen ob und inwiefern sich COVID-19 lokal ausbreitet und welche Milderungsoptionen zu einer Verlangsamung der Virusverbreitung fuehren koennen, benoetigt man ein fundiertes Wissen ueber die oertlichen Ausbruchdynamiken. Das widerum fordert breit gefaecherte Tests. 
+Dies betont die Wichtigkeit von schnellen Tests mit dem Hintergrund die oertliche Verbreitung des Virus drastisch zu unterbinden.
 
-In this week's updates, we report:  
+In diesem woechentlichen Update wollen wir folgendes berichten:  
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+* Nachweis fuer reisebedingte Einfuehrung des Virus in sehr viele Teile der Welt.  
+* Laender, die am Anfang der Viruseinfuehrung stehen, koennen mit neuen Fallzahlen innerhalb der naechsten 4-8 Wochen rechnen. Diese Laender sollten sich jetzt darauf einstellen.    
+* Vielerorts, wo social distancing-Massnahmen ergriffen worden sind, kann mit kurzzeitiger Erhoehung der Fallzahlen gerechnet werden. Neuinfektionen werden hoechstwahrscheinlich ein Plateau erreichen und auf lange Sicht hin abnehmen.
+* Tests von aktiv Infizierten und schon genessenen Individuen sind wichtig fuer das Meistern der Epidemie.
 ```
 
 
