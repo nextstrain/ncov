@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title: Genomische Analyse der Verbreitung von COVID-19. Lagebericht 2020-03-20.
 authors:
   - Emma Hodcroft
   - Nicola Müller
