@@ -39,17 +39,17 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomowe w celu śl
 <!-- This is left-side text 1 -->
 # [Spis treści](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sekwencje i rozprzestrzenianie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introdukcja COVID-19 do niemal wszystkich krajów świata](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [Wzrost i szerzenie się ognisk epidemii](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [Jak rosło ognisko w Waszyngtonie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [Jak szerzyło się ognisko w Waszyngtonie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [Jak izolacja społeczna wpływa na liczbę chorych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Często zadawane pytania oraz przesądy](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
-* [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=15).
+* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=2).     
+* [Opis próbkowania](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=3).
+* [Sekwencje i rozprzestrzenianie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=6).
+* [Introdukcja COVID-19 do niemal wszystkich krajów świata](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=8).
+* [Wzrost i szerzenie się ognisk epidemii](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=9).
+* [Jak rosło ognisko w Waszyngtonie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=10).
+* [Jak szerzyło się ognisko w Waszyngtonie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=11).
+* [Jak izolacja społeczna wpływa na liczbę chorych](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=12).
+* [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=13).
+* [Często zadawane pytania oraz przesądy](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=14).
+* [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-20?n=15).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
