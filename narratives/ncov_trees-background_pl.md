@@ -39,7 +39,7 @@ abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenet
 * [Jak panel "zmienności" odnosi się do drzewa](https://nextstrain.org/narratives/trees-background?n=3)?   
 * [Mierzenie różnic przy pomocy dywergencji genetycznej](https://nextstrain.org/narratives/trees-background?n=4).  
 * [Mierzenie różnic w czasie](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Datowanie początku wybuchu epidemii](https://nextstrain.org/narratives/trees-background?n=6)?  
+* [Datowanie początku wybuchu epidemii](https://nextstrain.org/narratives/trees-background?n=6).  
 * [Jak należy interpretować cechy (kolory) na drzewie](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [Jak mapa odnosi się do drzewa](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Lektura zaawansowana: miary niepewności drzewa](https://nextstrain.org/narratives/trees-background?n=9).  
@@ -68,7 +68,7 @@ abstract: "Ta prezentacja pokazuje jak czytać i interpretować drzewa filogenet
 # [Jak sieci transmisji są powiązane z drzewami filogenetycznymi?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
 Patogeny rozprzestrzeniają się poprzez szybką replikację w jednym gospodarzu, a nastepnie transmisję do kolejnego gospodarza. Epidemia może wybuchnąć jednynie wtedy gdy pojedyncza infekcja prowadzi do więcej niż jednej kolejnej infekcji. 
 <br><br>
-Podczas gdy patogen podlega namnaża i rozprzestrzenia się, jego genom podlega wielokrotnej replikacji co prowadzi do akumulacji losowych mutacji (błędów kopiowania) w genomie; jest to naturalny proces. Takie losowe mutacje pomagają w śledzeniu rozprzestrzeniania się patogenu i dowiadywaniu się o drogach i historii transmisji.
+Podczas gdy patogen namnaża i rozprzestrzenia się, jego genom podlega wielokrotnej replikacji co prowadzi do akumulacji losowych mutacji (błędów kopiowania) w genomie; jest to naturalny proces. Takie losowe mutacje pomagają w śledzeniu rozprzestrzeniania się patogenu i dowiadywaniu się o drogach i historii transmisji.
 
 <!-- How are transmission networks related to phylogenetic trees?
 Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
@@ -114,7 +114,7 @@ The tips of the tree represent samples (i.e., blue cases from the last slide). T
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Powyżej po lewej stronie, widzimy ilustrację drzewa filogenetycznego, na którym mutacje są oznaczone czerwonymi kółkami. Po prawej znajdują się sekwencje odpowiadające poszczególnym gałęziom drzewa (próbkom), również z mutacjami zaznaczonymi czerwonymi kółkami. Widzimy, że sekwencje, które dzielą te same mutacje grupują się razem. Gdy pokrewne przypadki zdają się być połączone pionową linią na drzewie, jak np. A i B, to oznacza, że nie ma różnic między nimi - ich sekwencje są identyczne.
+Powyżej po lewej stronie, widzimy ilustrację drzewa filogenetycznego, na którym mutacje są oznaczone kółkami. Po prawej znajdują się sekwencje odpowiadające poszczególnym gałęziom drzewa (próbkom), również z mutacjami zaznaczonymi kółkami. Widzimy, że sekwencje, które dzielą te same mutacje grupują się razem. Gdy pokrewne przypadki zdają się być połączone pionową linią na drzewie, jak np. A i B, to oznacza, że nie ma różnic między nimi - ich sekwencje są identyczne.
 <br><br>
 Kiedy sekwencja znajduje się na długiej gałęzi, np. C czy E, to oznacza, że posiada unikatowe mutacje nie występujące w żadnej innej sekwencji. Im dłuższa linia, tym więcej mutacji. A i B również mają unikatowe mutacje (zielone kółko) nie współdzielone z żadną inną sekwencją, ale względem siebie są identyczne.
 <br><br>
@@ -145,7 +145,7 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 
 Spójrzmy na pierwsze 169</tag> sekwencji wirusa SARS-CoV-2 (wirus, który wywołuje COVID-19), które zostały publicznie udostępnione. Tak jak na poprzedniej stronie, przyrównaliśmy te sekwencje wirusa do siebie (możesz sprawdzić jak wszystkie analizy zostały wykonane [na GitHub](https://github.com/nextstrain/ncov)).
 <br><br>
-Pokazujemy tutaj drzewo filogenetyczne powyżej wykresu słupkowego przedstawiającego zmienność (tzn. mutacje) w genomie.
+U góry znajduje się drzewo filogenetyczne, a poniżej wykres słupkowy przedstawiający zmienność (tzn. mutacje) w genomie.
 Bez tych mutacji, nie bylibyśmy w stanie zbudować drzewa, wobec tego te dwa elementy są ze sobą ściśle powiązane.
 <br><br>
 W tym panelu "zmienności", oś pozioma przedstawia kolejne pozycje w genomie wirusa (w sumie około trzydzieści tysięcy!). 
@@ -235,7 +235,7 @@ If you mouse over the leftmost vertical line, you can see that the inferred star
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Jak należy interpretować cechy (kolory) na drzewie?](https://nextstrain.org/ncov/2020-03-11)
-Drzewa filogenetyczne często zawierają dodatkowe informacje, takie jak lokalizacja kolekcji prób. Na tej podstawie możemy wnioskować o lokalizacji wewnetrznych węzłów drzewa (hipotetyczne pośrednie, niepróbkowane przypadki) używając modeli matematycznych. To nam może pomóc w zrozumieniu jak wirus się przemieszcza z jednego miejsca na inne.
+Drzewa filogenetyczne często zawierają dodatkowe informacje, takie jak lokalizacja kolekcji prób. Na tej podstawie możemy wnioskować o lokalizacji wewnętrznych węzłów drzewa (hipotetyczne pośrednie, niepróbkowane przypadki) używając modeli matematycznych. To nam może pomóc w zrozumieniu jak wirus się przemieszcza z jednego miejsca na inne.
 <br><br>
 Takie wnioski należy jednak interpretować z ostrożnością, ponieważ próbkowanie i sekwencjonowanie lub ich brak może istotnie wpłynąć na interpretację wyników.
 
@@ -276,7 +276,7 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 # [Jak mapa odnosi się do drzewa?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Na tym slajdzie pokazujemy drzewo pokolorowane według lolaizacji pobranych próbek (i szacowanych lokalizacji w wewnętrznych węzłach).
+Na tym slajdzie pokazujemy drzewo pokolorowane według lokalizacji pobranych próbek (i szacowanych lokalizacji w wewnętrznych węzłach).
 Jeśli kilkniesz na ['Explore the data'](https://nextstrain.org/ncov), możesz obejrzeć animację pokazującą jak, według oszacowań, wirus rozprzestrzeniał się od momentu wybuchu epidemii.
 
 <!-- Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
