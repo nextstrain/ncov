@@ -1,7 +1,7 @@
 ---
 name: Translation (community request)
 about: Request translation of the situation report to another language
-title: ''
+title: "[Language translation request]"
 labels: ''
 assignees: cassiawag
 
