@@ -1,4 +1,4 @@
-This is a [Nextstrain](https://nextstrain.org) build for novel coronavirus, alternately known as hCoV-19 or SARS-CoV-2, visible at [nextstrain.org/ncov](https://nextstrain.org/ncov).
+This is a [Nextstrain](https://nextstrain.org) build for novel coronavirus, alternately known as hCoV-19, SARS-CoV-2 or COVID-19, visible at [nextstrain.org/ncov](https://nextstrain.org/ncov).
 
 ## Data
 
