@@ -36,6 +36,8 @@ location	Singapore
 location	Gold Coast
 location	Sydney
 location	Melbourne
+location	Brisbane
+location	Rockhampton
 location	Clayton
 location	Auckland
 location	Riyadh
@@ -98,8 +100,9 @@ location	Helsinki
 location	Sao Paulo
 location	Brasilia
 location	Rio de Janeiro
-location	feira de santana
-location	vila velha
+location	Manaus
+location	Feira de Santana
+location	Vila Velha
 location	Mexico City
 location	King County
 location	Snohomish County
@@ -113,8 +116,11 @@ location	Los Angeles
 location	California
 location	San Francisco
 location	San Diego County
+location	Grant County
 location	Snohomish County
 location	King County
+location	Clark County
+location	Umatilla County
 location	Phoenix
 location	Chicago
 location	Illinois
@@ -252,6 +258,7 @@ division	Espirito Santo
 division	Bahia
 division	Rio de Janeiro
 division	Distrito Federal
+division	Amazonas State
 division	Panama City
 division	Mexico City
 division	USA
@@ -280,6 +287,7 @@ country	India
 country	Vietnam
 country	Cambodia
 country	Thailand
+country	Malaysia
 country	Singapore
 country	Australia
 country	New Zealand

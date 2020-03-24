@@ -7,6 +7,7 @@ location	Berlicum	51.6789	5.4012
 location	Blaricum	52.2727	5.2481
 location	Boston	42.354750	-71.061299
 location	Brasilia	-15.814189	-47.875543
+location	Brisbane	-27.484246	153.026118
 location	Budapest	47.482728	19.084269
 location	California	36.357039	-119.690182
 location	Cardiff	51.476291	-3.178964
@@ -16,6 +17,7 @@ location	Chicago	41.858966	-87.637242
 location	Chongqing	29.858721	107.375623
 location	Chungcheongnam	36.685948	126.799198
 location	Clayton	-37.915200	145.127165
+location	Clark County	45.778260	-122.491540
 location	Coevorden	52.6614	6.7411
 location	Compiègne	49.408175	2.842839
 location	Contamines	45.820585	6.727730
@@ -32,6 +34,7 @@ location	Feira de Santana	-12.2598	-38.9675
 location	Foshan	23.018766	113.121428
 location	Garches	48.8461	2.1887
 location	Gold Coast	-28.019726	153.398160
+location	Grant County	47.163630	-119.524786
 location	Guangdong	23.615762	114.483257
 location	Guangzhou	23.123972	113.292889
 location	Gyeonggi	37.397957	127.380864
@@ -65,6 +68,7 @@ location	Loon	51.379197	5.443200
 location	Loon op zand	51.625527	5.070262
 location	Longjumeau	48.6931	2.2948
 location	Los Angeles	34.029267	-118.242865
+location	Manaus	-3.126424	-60.019807
 location	Melbourne	-37.839042	145.076343
 location	Milan	45.474	9.177
 location	Munich	48.155742	11.549380
@@ -87,6 +91,7 @@ location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
 location	Riyadh	24.705304	46.738279
 location	Rio de Janeiro	-22.89445	-43.2099
+location	Rockhampton	-23.378823	150.509921
 location	Rome	41.881118	12.492817
 location	Rotterdam	51.9244	4.4777
 location	Rouen	49.4432	1.1000
@@ -112,6 +117,7 @@ location	Thanh Hoa	19.805359	105.784515
 location	Tianmen	30.6510	113.1556
 location	Tilburg	51.571419	5.052759
 location	Tokyo	35.683441	139.766131
+location	Umatilla County	45.648981	-118.720688
 location	Utrecht	52.0907	5.1214
 location	Valencia	39.337	-0.354
 location	Vila Velha	-20.3472	-40.2823
@@ -127,6 +133,7 @@ location	Zhuhai	22.271346	113.562879
 
 division	Aargau	47.420629	8.172097
 division	Aichi	35.067543	137.334061
+division	Amazonas State	-5.423668	-64.567836
 division	Andel	51.7851	5.0549
 division	Anhui	31.754331	117.211441
 division	Arizona	34.220707	-111.657462
