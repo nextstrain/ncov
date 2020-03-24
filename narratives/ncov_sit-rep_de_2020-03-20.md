@@ -53,7 +53,7 @@ abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von 
 Wir haben 723 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den Vergleich der Virusgenome untereinander, koennen wir naehere Aussagen ueber die weltweite Verbreitung von COVID-19 machen.
 
 In diesem Bericht wollen wir verdeutlichen, dass das Virus hier angekommen ist und derzeit weltweit im Umlauf ist.
-Um feststellen zu koennen ob und inwiefern sich COVID-19 lokal ausbreitet und welche Milderungsoptionen zu einer Verlangsamung der Virusverbreitung fuehren koennen, benoetigt man ein fundiertes Wissen ueber die oertlichen Epidemiedynamiken. Das widerum fordert breit gefaecherte Tests. 
+Um feststellen zu koennen, ob und inwiefern sich COVID-19 lokal ausbreitet, und welche Milderungsoptionen zu einer Verlangsamung der Virusverbreitung fuehren koennen, benoetigt man ein fundiertes Wissen ueber die oertlichen Epidemiedynamiken. Das widerum fordert breit gefaecherte Tests. 
 Dies betont die Wichtigkeit von schnellen Tests mit dem Hintergrund die oertliche Verbreitung des Virus drastisch zu unterbinden.
 
 In diesem woechentlichen Update wollen wir folgendes berichten:  
@@ -61,7 +61,7 @@ In diesem woechentlichen Update wollen wir folgendes berichten:
 * Nachweis fuer reisebedingte Einfuehrung des Virus in sehr viele Teile der Welt.  
 * Laender, die am Anfang der Viruseinfuehrung stehen, koennen mit neuen Fallzahlen innerhalb der naechsten 4-8 Wochen rechnen. Diese Laender sollten sich jetzt darauf einstellen.    
 * Vielerorts, wo social distancing-Massnahmen ergriffen worden sind, kann mit kurzzeitiger Erhoehung der Fallzahlen gerechnet werden. Neuinfektionen werden hoechstwahrscheinlich ein Plateau erreichen und auf lange Sicht hin abnehmen.
-* Tests von aktiv Infizierten und schon genessenen Individuen sind wichtig fuer das Meistern der Epidemie.
+* Tests von aktiv Infizierten und schon genesenen Individuen sind wichtig fuer das Meistern der Epidemie.
 ```
 
 
@@ -69,7 +69,7 @@ In diesem woechentlichen Update wollen wir folgendes berichten:
 
 <!-- This is left-side text 2 -->
 # [COVID-19 Quellen](https://nextstrain.org/ncov/2020-03-20)
-Fuer naehere Infromationen zu COVID-19 und dem Ursprungsvirus SARS-CoV-2, haben wir einige Quellen vorbereitet, die dem Leser helfen sollen die nachfolgenden Daten besser und leichter zu verstehen. Falls Ihnen phylogenetische Baeume unbekannt sein sollten, raten wir Ihnen naehere Infromationen unter diesem Link nachzuschlagen: ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/)
+Fuer naehere Infromationen zu COVID-19 und dem Ursprungsvirus SARS-CoV-2, haben wir einige Quellen vorbereitet, die dem Leser helfen sollen, die nachfolgenden Daten besser und leichter zu verstehen. Falls Sie nicht mit phylogenetische Baeume vertraut sein sollten, raten wir Ihnen naehere Informationen unter diesem Link nachzuschlagen: ['Wie phylogenetische Bäume zu interpretieren sind' narrative](https://nextstrain.org/narratives/trees-background/de)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
