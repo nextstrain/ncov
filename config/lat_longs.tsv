@@ -69,6 +69,7 @@ location	Loon	51.379197	5.443200
 location	Loon op zand	51.625527	5.070262
 location	Los Angeles	34.029267	-118.242865
 location	Manaus	-3.126424	-60.019807
+location	Marin County	38.077277	-122.719060
 location	Melbourne	-37.839042	145.076343
 location	Milan	45.474	9.177
 location	Montreux-Chateau	47.607677	6.994181
@@ -79,6 +80,7 @@ location	Nantes	47.203649	-1.552453
 location	Nassau County	40.7333	-73.58010
 location	Nieuwendijk	51.7774	4.8743
 location	Nootdorp	52.0440	4.3909
+location	Nottinghamshire	53.139677	-1.027527
 location	Oisterwijk	51.568179	5.211873
 location	Orange County	33.689584	-117.788718
 location	Oss	51.762396	5.530563
@@ -97,7 +99,11 @@ location	Rome	41.881118	12.492817
 location	Rotterdam	51.9244	4.4777
 location	Rouen	49.4432	1.1000
 location	Rovaniemi	66.501553	25.728919
-location	San Diego County	33.001859	-116.824178
+location	Sacramento County	38.494406	-121.301826
+location	San Diego County	32.981125	-116.681405
+location	San Francisco County	37.755124	-122.436734
+location	San Joaquin County	37.917472	-121.258503
+location	Santa Clara County	37.236094	-121.683399
 location	San Francisco	37.757679	-122.440006
 location	Sao Paulo	-23.551096	-46.634874
 location	Seattle	47.748301	-121.850150
