@@ -234,11 +234,6 @@ division	Italy
 division	Lazio
 division	Lombardy
 division	Usti nad Labem
-division	UK
-division	London
-division	Northamtonshire
-division	Nottinghamshire
-division	South Yorkshire
 division	Northern Ireland
 division	England
 division	Wales
@@ -251,6 +246,7 @@ division	Finland
 division	Portugal
 division	Lagos
 division	Kinshasa
+division	KwaZulu-Natal
 division	Santiago
 division	Talca
 division	Sao Paulo
@@ -262,7 +258,6 @@ division	Amazonas State
 division	Panama City
 division	Mexico City
 division	USA
-division	New York City
 division	Connecticut
 division	Texas
 division	Utah
@@ -313,6 +308,7 @@ country	Sweden
 country	Portugal
 country	Nigeria
 country	Congo
+country	South Africa
 country	Chile
 country	Brazil
 country	Panama
