@@ -79,6 +79,21 @@ rule filter:
             --output {output.sequences}
         """
 
+checkpoint partition_sequences:
+    input:
+        sequences = rules.filter.output.sequences
+    output:
+        split_sequences = directory("results/split_sequences")
+    params:
+        sequences_per_group = 150
+    shell:
+        """
+        python3 scripts/partition-sequences.py \
+            --sequences {input.sequences} \
+            --sequences-per-group {params.sequences_per_group} \
+            --output-dir {output.split_sequences}
+        """
+
 rule align:
     message:
         """
@@ -86,19 +101,36 @@ rule align:
           - gaps relative to reference are considered real
         """
     input:
-        sequences = "results/filtered.fasta",
+        sequences = "results/split_sequences/{i}.fasta",
         reference = files.reference
     output:
-        alignment = "results/aligned.fasta"
+        alignment = "results/split_alignments/{i}.fasta"
+    threads: 2
     shell:
         """
         augur align \
             --sequences {input.sequences} \
             --reference-sequence {input.reference} \
             --output {output.alignment} \
-            --nthreads auto \
+            --nthreads {threads} \
             --remove-reference \
             --fill-gaps
+        """
+
+def _get_alignments(wildcards):
+    checkpoint_output = checkpoints.partition_sequences.get(**wildcards).output[0]
+    return expand("results/split_alignments/{i}.fasta",
+                  i=glob_wildcards(os.path.join(checkpoint_output, "{i}.fasta")).i)
+
+rule aggregate_alignments:
+    message: "Collecting alignments"
+    input:
+        alignments = _get_alignments
+    output:
+        alignment = "results/aligned.fasta"
+    shell:
+        """
+        cat {input.alignments} > {output.alignment}
         """
 
 rule mask:
@@ -110,7 +142,7 @@ rule mask:
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = rules.align.output.alignment
+        alignment = rules.aggregate_alignments.output.alignment
     output:
         alignment = "results/masked.fasta"
     params:
@@ -161,7 +193,8 @@ rule refine:
         clock_std_dev = 0.0004,
         coalescent = "skyline",
         date_inference = "marginal",
-        divergence_unit = "mutations"
+        divergence_unit = "mutations",
+        clock_filter_iqd = 4
     shell:
         """
         augur refine \
@@ -178,7 +211,8 @@ rule refine:
             --date-inference {params.date_inference} \
             --divergence-unit {params.divergence_unit} \
             --date-confidence \
-            --no-covariance
+            --no-covariance \
+            --clock-filter-iqd {params.clock_filter_iqd}
         """
 
 rule ancestral:

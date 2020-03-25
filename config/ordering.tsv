@@ -36,6 +36,8 @@ location	Singapore
 location	Gold Coast
 location	Sydney
 location	Melbourne
+location	Brisbane
+location	Rockhampton
 location	Clayton
 location	Auckland
 location	Riyadh
@@ -98,8 +100,9 @@ location	Helsinki
 location	Sao Paulo
 location	Brasilia
 location	Rio de Janeiro
-location	feira de santana
-location	vila velha
+location	Manaus
+location	Feira de Santana
+location	Vila Velha
 location	Mexico City
 location	King County
 location	Snohomish County
@@ -113,8 +116,11 @@ location	Los Angeles
 location	California
 location	San Francisco
 location	San Diego County
+location	Grant County
 location	Snohomish County
 location	King County
+location	Clark County
+location	Umatilla County
 location	Phoenix
 location	Chicago
 location	Illinois
@@ -153,6 +159,7 @@ division	Gyeonggi
 division	Chungcheongnam
 division	Seoul
 division	South Korea
+division	Selangor
 division	Kathmandu
 division	Kerala
 division	Iran
@@ -173,9 +180,11 @@ division	Auckland
 division	Riyadh
 division	Europe
 division	Central Hungary
+division	Baranya
 division	Copenhagen
 division	Bretagne
 division	Ile de France
+division	Auvergne-Rhône-Alpes
 division	Pays de la Loire
 division	Hauts de France
 division	Bretagne
@@ -183,6 +192,9 @@ division	Bourgogne-France-Comté
 division	Normandie
 division	Grand Est
 division	Auvergne Rhone Alpes
+division	Castilla Y León
+division	Galicia
+division	Madrid
 division	Flanders
 division	Leuven
 division	Couthuin
@@ -192,6 +204,7 @@ division	Sint-Niklaas
 division	Kraainem
 division	Huldenberg
 division	Brussels
+division	Liège
 division	Bavaria
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
@@ -221,7 +234,6 @@ division	Italy
 division	Lazio
 division	Lombardy
 division	Usti nad Labem
-division	UK
 division	Northern Ireland
 division	England
 division	Wales
@@ -234,6 +246,7 @@ division	Finland
 division	Portugal
 division	Lagos
 division	Kinshasa
+division	KwaZulu-Natal
 division	Santiago
 division	Talca
 division	Sao Paulo
@@ -241,6 +254,7 @@ division	Espirito Santo
 division	Bahia
 division	Rio de Janeiro
 division	Distrito Federal
+division	Amazonas State
 division	Panama City
 division	Mexico City
 division	USA
@@ -268,6 +282,7 @@ country	India
 country	Vietnam
 country	Cambodia
 country	Thailand
+country	Malaysia
 country	Singapore
 country	Australia
 country	New Zealand
@@ -293,6 +308,7 @@ country	Sweden
 country	Portugal
 country	Nigeria
 country	Congo
+country	South Africa
 country	Chile
 country	Brazil
 country	Panama
