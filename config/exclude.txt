@@ -39,6 +39,11 @@ Wuhan/HBCDC-HB-04/2019
 # Missing mutations
 Netherlands/Oisterwijk_1364072/2020
 Netherlands/Utrecht_1364066/2020
+USA/CT-Yale-001/2020
+Ireland/COR-20134/2020
+Guangzhou/GZMU0031/2020
+Canada/BC_40860/2020
+England/20102000906/2020
 
 # Confusing phylogeography
 Netherlands/Rotterdam_1363790/2020
@@ -62,6 +67,9 @@ Guangzhou/GZMU0016/2020
 Guangzhou/GZMU0047/2020
 HongKong/CUHK2/2020
 Wales/PHW06/2020
+HongKong/Case1_21012020/2020
+Shandong/LY007/2020
+USA/WA-UW119/2020
 
 # Excluding because seem to be too divergent - worth double checking
 Shandong/LY002/2020

@@ -193,7 +193,8 @@ rule refine:
         clock_std_dev = 0.0004,
         coalescent = "skyline",
         date_inference = "marginal",
-        divergence_unit = "mutations"
+        divergence_unit = "mutations",
+        clock_filter_iqd = 4
     shell:
         """
         augur refine \
@@ -210,7 +211,8 @@ rule refine:
             --date-inference {params.date_inference} \
             --divergence-unit {params.divergence_unit} \
             --date-confidence \
-            --no-covariance
+            --no-covariance \
+            --clock-filter-iqd {params.clock_filter_iqd}
         """
 
 rule ancestral:
