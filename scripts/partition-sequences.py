@@ -33,4 +33,4 @@ if __name__ == "__main__":
         # Save partitioned sequences to a new FASTA file named after the partition number.
         print("Write out %i sequences for partition %i" % (indices[i + 1] - indices[i], i))
         output_path = output_dir / Path("%i.fasta" % i)
-        SeqIO.write(sequences[indices[i]:indices[i + 1]], output_path, 'fasta')
+        SeqIO.write(sequences[indices[i]:indices[i + 1]], str(output_path), 'fasta')
