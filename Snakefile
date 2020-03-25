@@ -306,7 +306,7 @@ rule export:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description,
-        clades = rules.clades.output.clade_data,
+        clades = "results/clades.json",
         recency = rules.recency.output
     output:
         auspice_json = "results/ncov_with_accessions.json"
