@@ -21,7 +21,7 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Astrid Gall
-  - Elisabeth Hirthe
+  - Elisabeth Hirth
 translatorLinks:
   - https://www.ebi.ac.uk/about/people/astrid-gall
   -
