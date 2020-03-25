@@ -21,8 +21,10 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Astrid Gall
+  - Elisabeth Hirthe
 translatorLinks:
   - https://www.ebi.ac.uk/about/people/astrid-gall
+  -
 date: "2020 March 20"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von COVID-19 zu beschreiben, und wird wöchentlich aktualisiert."
@@ -35,16 +37,16 @@ abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von 
 <!-- This is left-side text 1 -->
 # [Inhaltsverzeichnis](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Hintergrundwissen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [Informationen zur Probenahme](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequenzierdaten & Reiseverhalten](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Einschleppung von COVID-19 in fast alle Laender](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [Informationen zum Ausbruch der Krankheit und Verbreitung](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [Detailierte Informationen zur Epidemie in Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [Die Verbreitung in Washington](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [Einfluss von social distancing auf die Fallzahlen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [Was kann jeder Einzelne tun](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Wissenschaftliche Danksagung](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Hintergrundwissen](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=2).     
+* [Informationen zur Probenahme](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=3).
+* [Sequenzierdaten & Reiseverhalten](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=6).
+* [Einschleppung von COVID-19 in fast alle Laender](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=8).
+* [Informationen zum Ausbruch der Krankheit und Verbreitung](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=9).
+* [Detailierte Informationen zur Epidemie in Washington](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=10).
+* [Die Verbreitung in Washington](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=11).
+* [Einfluss von social distancing auf die Fallzahlen](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=12).
+* [Was kann jeder Einzelne tun](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=13).
+* [Wissenschaftliche Danksagung](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -53,7 +55,7 @@ abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von 
 Wir haben 723 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den Vergleich der Virusgenome untereinander, koennen wir naehere Aussagen ueber die weltweite Verbreitung von COVID-19 machen.
 
 In diesem Bericht wollen wir verdeutlichen, dass das Virus hier angekommen ist und derzeit weltweit im Umlauf ist.
-Um feststellen zu koennen, ob und inwiefern sich COVID-19 lokal ausbreitet, und welche Milderungsoptionen zu einer Verlangsamung der Virusverbreitung fuehren koennen, benoetigt man ein fundiertes Wissen ueber die oertlichen Epidemiedynamiken. Dies widerum benoetigt breit gefaecherte Tests. 
+Um feststellen zu koennen, ob und inwiefern sich COVID-19 lokal ausbreitet, und welche Milderungsoptionen zu einer Verlangsamung der Virusverbreitung fuehren koennen, benoetigt man ein fundiertes Wissen ueber die oertlichen Epidemiedynamiken. Dies widerum benoetigt breit gefaecherte Tests.
 Dies betont die Wichtigkeit von schnellen Tests mit dem Hintergrund, die oertliche Verbreitung des Virus drastisch zu unterbinden.
 
 In diesem woechentlichen Update wollen wir Folgendes berichten:  
@@ -69,7 +71,7 @@ In diesem woechentlichen Update wollen wir Folgendes berichten:
 
 <!-- This is left-side text 2 -->
 # [COVID-19 Quellen](https://nextstrain.org/ncov/2020-03-20)
-Fuer naehere Informationen zu COVID-19 und dem Ursprungsvirus SARS-CoV-2, haben wir einige Quellen vorbereitet, die dem Leser helfen sollen, die nachfolgenden Daten besser und leichter zu verstehen. Falls Sie nicht mit phylogenetische Baeume vertraut sein sollten, raten wir Ihnen naehere Informationen unter diesem Link nachzuschlagen: ['Wie phylogenetische Bäume zu interpretieren sind' Narrative](https://nextstrain.org/narratives/trees-background/de)
+Fuer naehere Informationen zu COVID-19 und dem Ursprungsvirus SARS-CoV-2, haben wir einige Quellen vorbereitet, die dem Leser helfen sollen, die nachfolgenden Daten besser und leichter zu verstehen. Falls Sie nicht mit phylogenetische Baeume vertraut sein sollten, raten wir Ihnen naehere Informationen unter diesem Link nachzuschlagen: ['Wie phylogenetische Bäume zu interpretieren sind' Narrative](https://nextstrain.org/narratives/trees-background/de).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -115,7 +117,7 @@ Die Karte zeigt sehr geringe Sequenzierdaten aus dem globalen Sueden. Beispielsw
 # [Andere Regionen sind ueberrepraesentiert](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 In manchen Laendern, wie zum Beispiel den Niederlanden, sind umfangreiche Sequenzdaten in Relation zu den gesamten Fallzahlen verfuegbar.
 <br><br>
-Daher sollte beim Lesen des Artikels beachtet werden, dass die Groesse eines Kreises lediglich aussagt, wie viel Daten derzeit verfuegbar sind, und nicht das wirklichen Ausmass der Epidemie widerspiegelt. Unter diesem [Link](https://nextstrain.org/narratives/trees-background?n=8) kann nachgelesen werden, wie das unsere Interpretation von Uebertragungen beeinflussen kann. 
+Daher sollte beim Lesen des Artikels beachtet werden, dass die Groesse eines Kreises lediglich aussagt, wie viel Daten derzeit verfuegbar sind, und nicht das wirklichen Ausmass der Epidemie widerspiegelt. Unter diesem [Link](https://nextstrain.org/narratives/trees-background/de?n=8) kann nachgelesen werden, wie das unsere Interpretation von Uebertragungen beeinflussen kann.
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -161,7 +163,7 @@ Doch nicht jede Einschleppung fuehrt zwangsläufig zu einer lokalen Verbreitung.
 # [Epidemien werden 4-8 Wochen nach Einfuehrung des Virus sichtbar](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
 Es scheint, als ob die Fallzahlen von COVID-19 ploetzlich explodiert sind.
-Fuer viele Leute bedeutet diese Epidemie, welche zuvor noch ein fremdes, weit entferntes, abstraktes Anliegen war, eine starke Einschraenkung ihres taeglichen Lebens, die sich scheinbar ueber Nacht vollzogen hat. 
+Fuer viele Leute bedeutet diese Epidemie, welche zuvor noch ein fremdes, weit entferntes, abstraktes Anliegen war, eine starke Einschraenkung ihres taeglichen Lebens, die sich scheinbar ueber Nacht vollzogen hat.
 <br><br>
 Aber es ist zu bedenken, dass das Virus schon seit laengerem im Anmarsch ist. Es ist nicht zwangsweise der Fall, dass das Virus oefter in neue Orte eingeschleppt worden ist. Viel wahrscheinlicher ist, dass lokale Epidemien vielerorts jetzt in das Bewusstsein der Leute treten, obwohl das Virus schon vor einigen Wochen eingeschleppt worden ist.
 <br><br>
@@ -173,7 +175,7 @@ Gegenden, die noch keinen lokalen Ausbruch der Krankheit zu verzeichnen haben, s
 # Von der Einschleppung zur Epidemie
 
 Es kann vorkommen, dass eine Einfuehrung nicht zwangslaeufig zu Zweiterkrankungen oder oertlichen Epidemien fuehrt - vor allen Dingen, wenn der Indexfall entdeckt und schnell isoliert werden kann.
-Meistens allerdings breitet das Virus sich unbeachtet lokal aus, bis es zu einer deutlichen Epidemie der Kranknheit kommt. 
+Meistens allerdings breitet das Virus sich unbeachtet lokal aus, bis es zu einer deutlichen Epidemie der Kranknheit kommt.
 
 Folgendes stellt ein Gedankenexperiment dar, wie sich die Situation in Wuhan abgespielt haben koennte. Die y-Achse repraesentiert den Ort und die x-Achse die Zeit. Die schraffierte Flaeche zeigt die Fallzahlen.
 
@@ -190,8 +192,8 @@ Diese neuen Epidemien koennen widerum das Virus in andere Gebiete bringen.
 <!-- This is left-side text 10 -->
 # [Epidemienwachstum anhand eines Beispiels](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-Ein deutliches Beispiel ist in den Daten des Bundesstaates Washington sichtbar. 
-Betrachtet man die Wurzel der Hauptklade kann davon ausgegangen werden, dass das Virus in diese Gegend Ende Januar und Mitte Februar 2020 eingeschleppt worden ist ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Ein deutliches Beispiel ist in den Daten des Bundesstaates Washington sichtbar.
+Betrachtet man die Wurzel der Hauptklade kann davon ausgegangen werden, dass das Virus in diese Gegend Ende Januar und Mitte Februar 2020 eingeschleppt worden ist ([Methoden](https://nextstrain.org/narratives/trees-background/de?n=6)).
 <br><br>
 Mitte Maerz (ungefaehr sechs Wochen spaeter) ist die Epidemie in vollem Gange. Ausgehend von den Sequenzierdaten, erwarten wir eine Verdopplungsrate von drei bis sechs Tagen, wenn von einer exponentiellen Wachstumsrate ausgegangen wird.
 <br>
@@ -218,9 +220,9 @@ Das ist nur ein Beispiel. Es sind auch weitere Einschleppungen nach Utah (oder a
 <!-- This is left-side text 12 -->
 # [Massnahmen zu Milderung der Epidemie sind zeitaufwaendig, aber retten Leben](https://nextstrain.org/ncov/2020-03-20)
 
-Folgerichtig gibt es viele Verbreitungsketten, die uns zum jetzigen Stand der Dinge noch unbekannt sind. 
+Folgerichtig gibt es viele Verbreitungsketten, die uns zum jetzigen Stand der Dinge noch unbekannt sind.
 <br><br>
-Was bedeutet, dass wir selbst fuer Gebiete, die jetzt social distancing Massnahmen ergriffen haben, steigende Fallzahlen fuer die naechsten paar Wochen erwarten. 
+Was bedeutet, dass wir selbst fuer Gebiete, die jetzt social distancing Massnahmen ergriffen haben, steigende Fallzahlen fuer die naechsten paar Wochen erwarten.
 Diese Anstiege bedeuten nicht, dass solche Massnahmen nicht funktionieren. Es braucht nur Zeit fuer schon infizierte Individuen (und hoechstwahrscheinlich auch deren Haushaltsmitglieder) symptomatisch zu werden, behandelt zu werden und zu genesen. Zusaetzlich erwarten wir einen Hoecker in der Kurve von berichteten Faellen, da Tests weitverbreitet verfuegbar gemacht werden.
 <br><br>
 Es ist wichtig, dass social distancing in dieser Zeit eingehalten wird. Wie man zur rechten sehen kann, steigen Fallzahlen weiterhin an, nachdem Interventionen in Kraft treten. Aber ueber die Zeit sinkt die Anzahl an neuen Faelle drastisch.
@@ -246,7 +248,7 @@ Wenn jeder seine taeglichen Kontakte um 25% reduziert, kann mit einer Reduktion 
 <br>
 - Einschraenkungen lokaler Ausbrueche des Virus durch social distancing sind wichtig, um:  
   - #FlattenTheCurve Gesundheitssysteme vor dem Kollaps zu bewahren aufgrund von zu vielen Patienten zum gleichen Zeitpunkt.
-  - Die Fahlzahlen und Zahl der Todesopfer zu reduzieren. 
+  - Die Fahlzahlen und Zahl der Todesopfer zu reduzieren.
   - Impfstoffe und Therapiemoeglichkeiten entwickeln zu koennen.  
 
 <!-- This is the right-side text -->
