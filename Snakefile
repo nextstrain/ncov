@@ -12,7 +12,9 @@ configfile: "config/Snakefile.yaml"
 rule all:
     input:
         auspice_json = "auspice/ncov.json",
+        tip_frequencies_json = "auspice/ncov_tip-frequencies.json",
         dated_auspice_json = expand("auspice/ncov_{date}.json", date=get_todays_date()),
+        dated_tip_frequencies_json = expand("auspice/ncov_{date}_tip-frequencies.json", date=get_todays_date()),
         auspice_json_gisaid = "auspice/ncov_gisaid.json",
         auspice_json_zh = "auspice/ncov_zh.json"
 
@@ -240,6 +242,22 @@ rule ancestral:
             --infer-ambiguous
         """
 
+rule haplotype_status:
+    message: "Annotating haplotype status relative to {params.reference_node_name}"
+    input:
+        nt_muts = rules.ancestral.output.node_data
+    output:
+        node_data = "results/haplotype_status.json"
+    params:
+        reference_node_name = "USA/WA1/2020"
+    shell:
+        """
+        python3 scripts/annotate-haplotype-status.py \
+            --ancestral-sequences {input.nt_muts} \
+            --reference-node-name {params.reference_node_name:q} \
+            --output {output.node_data}
+        """
+
 rule translate:
     message: "Translating amino acid sequences"
     input:
@@ -327,6 +345,31 @@ rule recency:
         python3 scripts/construct-recency-from-submission-date.py \
             --metadata {input.metadata} \
             --output {output}
+        """
+
+rule tip_frequencies:
+    message: "Estimating censored KDE frequencies for tips"
+    input:
+        tree = rules.refine.output.tree,
+        metadata = rules.download.output.metadata
+    output:
+        tip_frequencies_json = "auspice/ncov_tip-frequencies.json"
+    params:
+        min_date = 2020.0,
+        pivot_interval = 1,
+        narrow_bandwidth = 0.05,
+        proportion_wide = 0.0
+    shell:
+        """
+        augur frequencies \
+            --method kde \
+            --metadata {input.metadata} \
+            --tree {input.tree} \
+            --min-date {params.min_date} \
+            --pivot-interval {params.pivot_interval} \
+            --narrow-bandwidth {params.narrow_bandwidth} \
+            --proportion-wide {params.proportion_wide} \
+            --output {output.tip_frequencies_json}
         """
 
 rule export:
@@ -503,12 +546,15 @@ rule fix_colorings_zh:
 rule dated_json:
     message: "Copying dated Auspice JSON"
     input:
-        auspice_json = rules.fix_colorings.output.auspice_json
+        auspice_json = rules.fix_colorings.output.auspice_json,
+        tip_frequencies_json = rules.tip_frequencies.output.tip_frequencies_json
     output:
-        dated_auspice_json = rules.all.input.dated_auspice_json
+        dated_auspice_json = rules.all.input.dated_auspice_json,
+        dated_tip_frequencies_json = rules.all.input.dated_tip_frequencies_json
     shell:
         """
         cp {input.auspice_json} {output.dated_auspice_json}
+        cp {input.tip_frequencies_json} {output.dated_tip_frequencies_json}
         """
 
 rule poisson_tmrca:
