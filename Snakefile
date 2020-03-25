@@ -354,14 +354,21 @@ rule tip_frequencies:
         metadata = rules.download.output.metadata
     output:
         tip_frequencies_json = "auspice/ncov_tip-frequencies.json"
+    params:
+        min_date = 2020.0,
+        pivot_interval = 1,
+        narrow_bandwidth = 0.05,
+        proportion_wide = 0.0
     shell:
         """
         augur frequencies \
             --method kde \
             --metadata {input.metadata} \
             --tree {input.tree} \
-            --pivot-interval 1 \
-            --censored \
+            --min-date {params.min_date} \
+            --pivot-interval {params.pivot_interval} \
+            --narrow-bandwidth {params.narrow_bandwidth} \
+            --proportion-wide {params.proportion_wide} \
             --output {output.tip_frequencies_json}
         """
 
@@ -372,7 +379,6 @@ rule export:
         metadata = rules.download.output.metadata,
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
-        haplotype_status = rules.haplotype_status.output.node_data,
         aa_muts = rules.translate.output.node_data,
         traits = rules.traits.output.node_data,
         auspice_config = files.auspice_config,
@@ -388,7 +394,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.haplotype_status} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
