@@ -24,7 +24,7 @@ translators:
   - Elisabeth Hirth
 translatorLinks:
   - https://www.ebi.ac.uk/about/people/astrid-gall
-  -
+  - https://bsse.ethz.ch/department/people/detail-person.html?persid=238870
 date: "2020 March 20"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von COVID-19 zu beschreiben, und wird wöchentlich aktualisiert."
