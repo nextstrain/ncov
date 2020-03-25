@@ -165,11 +165,13 @@ rule tree:
         alignment = rules.mask.output.alignment
     output:
         tree = "results/tree_raw.nwk"
+    threads: 4
     shell:
         """
         augur tree \
             --alignment {input.alignment} \
-            --output {output.tree}
+            --output {output.tree} \
+            --nthreads {threads}
         """
 
 rule refine:
