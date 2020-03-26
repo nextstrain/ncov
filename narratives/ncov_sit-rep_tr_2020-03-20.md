@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-20.
+title: KOVID-19 salgınının genomik analizi. 20 Mart 2020 tarihi için durum raporu.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -21,9 +21,9 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
 translatorLinks:
-date: "2020 March 20"
+date: "20 Mart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Bu rapor COVID-19'un yayılımını takip etmek için herkese açık olarak paylaşılan genomik verileri kullanır. Ve bu raporlar haftalık olarak güncellenir."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -31,49 +31,51 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [İçindekiler](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [A note about sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Sequence data & travel histories](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Introduction of COVID-19 to almost all countries](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
-* [How outbreaks grow and spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
-* [How the Washington outbreak has grown](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
-* [How the Washington outbreak has spread](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
-* [How case counts change with social distancing](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
+* [Arka Plan Kaynakları](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
+* [Örnekleme Hakkında Not](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [Dizilim datası & seyahat geçmişleri](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [Neredeyse tüm ülkeler için COVID-19'a giriş](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [Salgınlar nasıl büyür ve yayılır](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
+* [Washington salgını nasıl büyüdü](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
+* [Washington salgını nasıl yayıldı](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
+* [Sosyal mesafe ile vaka sayıları nasıl değişir](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
+* [Ne yapabilirsiniz](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
 * [Scientific Credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Özet
 
-Here, we analyzed 723 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world.
+Burada, halka açık olarak paylaşılan 723 COVID-19 genomunu analiz ettik. Bu viral genomları birbirleriyle karşılaştırarak, COVID-19'un dünyada nasıl hareket ettiğini karakterize edebiliriz.
 
-In this report, we highlight that the virus has been introduced and is circulating in many parts of the globe.
-Knowing if and to what degree COVID-19 circulates locally and how mitigation measures can slow this spread requires a good knowledge of the local outbreak dynamics. This, in turn, requires widespread testing.
-This emphasizes the importance of rapid testing with a strong focus on slowing local transmissions.
+Bu raporda, virüsün dünyanın birçok bölgesinde nasıl başladığını ve dolaştığını anlatıyoruz.
 
-In this week's updates, we report:  
+COVID-19'un yerel olarak dolaşıp dolaşmadığını ve eğer dolaşıyorsa ne dereceye kadar dolaştığını ve azaltma önlemlerinin bu yayılımı nasıl yavaşlatabileceğini bilmek için, yerel salgın dinamikleri hakkında iyi bir bilgi birikimine sahip olmak gerekir. Bu da, dolayısıyla, testlerin geniş bir çapta yapılmasını gerektiriyor.
 
-* Evidence for travel-related introductions to many parts of the world.  
-* Many places with recent introductions can expect to see cases expand in 4-8 week timeframe. They should prepare now.   
-* Many places that have recently implemented social distancing measures can expect to see cases continue to accumulate in the short-term, but new cases will likely plateau and decline in the medium- to long-term.
-* Testing for both active infections and recovered individuals will be vital for coping with this epidemic.
+Bu, testlere hızlı erişimin önemini vurgulamakta ve aynı bölge içerisindeki bulaşıcılığı yavaşlatmaya odaklanmaktadır.
+
+Bu haftanın rapor güncellemesinde:  
+
+* Seyahate bağlı olarak virüsün dünyanın farklı bölgelerinde nasıl ortaya çıktığının kanıtlarını sunuyoruz.  
+* Virüsün yeni ortaya çıktığı birçok yerde vakaların 4 ile 8 hafta içerisinde artış gözlemlemesi mümkün. Bu bölgelerin şimdiden hazırlanması gerekiyor.   
+* Sosyal mesafe sınırlandırmalarını yeni getirmeye başlayan yerlerde kısa dönem içerisinde vakalarda bir artış gözlemlemeleri öümkündür, fakat orta vadede vakalardaki artış büyük ihtimalle durağanlaşıp azalmaya başlayacaktır.
+* Hem aktif enfeksiyonlu vakalar hem de iyileşmiş bireyler için testlerin yapılması bu salgınla başa çıkmak için hayati öneme sahip olacaktır.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-20)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
-This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+# [COVID-19 Kaynakları](https://nextstrain.org/ncov/2020-03-20)
+COVID-19 ve buna neden olan virüs olan SARS-CoV-2'yi tanımak için okumaya değer bazı kaynaklar hazırladık.
+Bu bilgi, bu metinde sunduğumuz verilerin yorumlanmasını kolaylaştıracaktır; filogenetik ağaçlara aşina değilseniz, ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) okuyabilir ve daha sonra buraya geri dönebilirsiniz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+## Arkaplan
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -83,19 +85,19 @@ This information will make interpreting the data we present in this narrative ea
   <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
-## Further Reading
+## İlave Okuma
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* All case counts cited within this report are drawn from the [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* SARS-CoV-2 salgınının özeti [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* Bu raporda alıntılanan tün vaka sayıları Dünya Sağlık Örgütü'nden [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 36 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Örnekleme Hakkında Not](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+Şu anda 6 kıtada 36 ülkeden alınan örneklerden dizilerimiz var. Bu kesinlikle inanılmaz bir başarı, çünkü bilinmeyen, büyük bir RNA virüsünü bir pandeminin ortasında dizilemek zordur ve ancak dünyanın dört bir yanındaki bilim adamları ve doktorlarun inanılmaz çalışması ve verileri zamanında paylaşabilmesiyle mümkündür.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the availability of data.
+Bu verilerin, salgının birçok özelliğinden anlam çıkarmamıza ve yayılmasını gerçek zamanlı olarak izlememize olanak sağlamasına rağmen, sonuçlarımızın verilerin kullanılabilirliği ile sınırlı olduğunu vurgulamak istiyoruz.
 Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
 Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
 Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
