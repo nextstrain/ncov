@@ -16,6 +16,7 @@ location	Zhuhai
 location	Huaian
 location	Qingdao
 location	Guangzhou
+location	NanChang
 location	Foshan
 location	Hong Kong
 location	Taipei
@@ -139,6 +140,7 @@ location	Nassau County
 division	China
 division	Hubei
 division	Beijing
+division	NanChang
 division	Anhui
 division	Jiangxi
 division	Chongqing
@@ -204,6 +206,11 @@ division	Galicia
 division	Madrid
 division	Flanders
 division	Leuven
+division	Schoten
+division	Rixensart
+division	Vorst
+division	Sint-Pieters-Woluwe
+division	Kasterlee
 division	Couthuin
 division	Kessel-Lo
 division	Holsbeek
@@ -240,9 +247,11 @@ division	Comunitat Valenciana
 division	Italy
 division	Lazio
 division	Lombardy
+division	Friuli Venezia Giulia
 division	Usti nad Labem
 division	Northern Ireland
 division	England
+division	United Kingdom
 division	Wales
 division	Dublin
 division	Limerick
