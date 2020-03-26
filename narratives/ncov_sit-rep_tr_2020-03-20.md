@@ -98,37 +98,39 @@ Bu bilgi, bu metinde sunduğumuz verilerin yorumlanmasını kolaylaştıracaktı
 Şu anda 6 kıtada 36 ülkeden alınan örneklerden dizilerimiz var. Bu kesinlikle inanılmaz bir başarı, çünkü bilinmeyen, büyük bir RNA virüsünü bir pandeminin ortasında dizilemek zordur ve ancak dünyanın dört bir yanındaki bilim adamları ve doktorlarun inanılmaz çalışması ve verileri zamanında paylaşabilmesiyle mümkündür.
 <br><br>
 Bu verilerin, salgının birçok özelliğinden anlam çıkarmamıza ve yayılmasını gerçek zamanlı olarak izlememize olanak sağlamasına rağmen, sonuçlarımızın verilerin kullanılabilirliği ile sınırlı olduğunu vurgulamak istiyoruz.
-Of the total number of cases, only a subset of patients are tested. Of those tested, only a subset of samples are also sequenced.
-Which subset of cases is tested and sequenced can greatly vary across geographic regions and time.
-Additionally, phylogenetic reconstructions of outbreaks are always associated with a degree of uncertainty.
+Toplam vaka sayısından sadece bir grup hasta teste tabi tutulur. Test edilenlerden sadece bir örnek alt kümenin dizilimi yapılır.
+Hangi grup vakanın test edildiği ve dizilendiği, coğrafi bölgelere ve zamana göre büyük ölçüde değişebilir.
+
+Ayrıca, salgınların filogenetik rekonstrüksiyonları da her zaman belli bir miktar belirsizlikle ilişkilendirilmektedir.
 <br><br>
-Let's look at a few examples.
+Şimdi birlikte birkaç örneğe bakalım.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Some regions are underrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-The map shows very few sequences from the global south. For example, we only have sequences from 4 of the 25 countries in Latin America where [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) cases of COVID-19. This is not because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas.
+# [Bazı bölgeler bu verilerde yeterince temsil edilmemiştir](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+Bu harita güneyden çok az dizilim gösteriyor. Örneğin, Latin Amerika'daki 25 ülkeden sadece 4 tanesine ait COVID-19 vaka dizilimimiz var.[Dünya Sağlık Örgütü Raproları](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) Bunun nedeni, COVID-19'un bu alanlarda yayılmamış olması veya buralardaki önemli olmaması değildir. Sadece, bu bölgeler hakkında çok fazla veri mevcut değildir.
+
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Other regions are overrepresented in these data](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-In other areas, such as the Netherlands, there is a vast amount of sequence data available, relative to the total number of cases.
+# [Bu verilerle fazlasıyla temsil edilen diğer bölgeler](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+Bazı bölgelerde ise, Hollanda gibi, toplam vaka sayısına göre çok sayıda dizi verisi mevcuttur.
 <br><br>
-So, when reading this narrative, keep in mind that the size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. You can [read here](https://nextstrain.org/narratives/trees-background?n=8) about how this can effect our inferences of transmission.
+Bu nedenle, bu anlatıyı okurken, haritadaki her bir dairenin boyutunun, salgının gerçek boyutu yerine şu anda o alandan ne kadar veri bulunduğunu gösterdiğini unutmayın. Buradan [read here](https://nextstrain.org/narratives/trees-background?n=8) bu bilginin virüs yayılımı hakkında çıkardığımız sonuçları nasıl etkileyebileceğini okuyabilirsiniz.
 <br><br>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [Seyahat geçmişini çapraz kontrol edebilen dizilim datası](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Identifying where a given case was infected is important for understanding which areas are experiencing local transmission versus primarily travel-associated cases. Sequence data can help us differentiate between these scenarios.
+Belirli bir vakanın nerede enfekte olduğunu belirlemek, hangi bölgelerin öncelikle seyahatle ilişkili vakalara göre yerel yayılım yaşadığını anlamak için önemlidir. Dizilim verileri, bu senaryolar arasında ayrım yapmamıza yardımcı olabilir.
 <br><br>
 Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
 
