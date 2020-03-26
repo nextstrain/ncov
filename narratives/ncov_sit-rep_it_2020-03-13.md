@@ -189,10 +189,10 @@ Ingrandendo la cartina, si può osservare che ci sono molte connessioni tra l'It
 
 
 <!-- # [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full) -->
-# [Trasmissione locale nelle Isole britanniche e in Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+# [Trasmissione locale nelle Isole Britanniche e in Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 
 <!-- Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.-->
-Prendendo le Isole Britanniche e l'Irlanda come esempio, osserviamo diversi casi in cui in questi luoghi compaiono virus molto simili a quelli presenti in altri paesi.
+Prendendo le Isole Britanniche e l'Irlanda come esempio, osserviamo diversi casi in cui in questi luoghi compaiono virus molto simili a quelli presenti in altri Paesi.
 <br><br>
 
 <!-- This is consistent with 4 or more introductions from other locations. -->
