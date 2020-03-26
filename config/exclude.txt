@@ -76,6 +76,7 @@ Wales/PHW06/2020
 HongKong/Case1_21012020/2020
 Shandong/LY007/2020
 USA/WA-UW119/2020
+USA/WA-UW230/2020
 
 # Excluding because seem to be too divergent - worth double checking
 Shandong/LY002/2020

@@ -41,6 +41,7 @@ location	Brisbane
 location	Rockhampton
 location	Clayton
 location	Auckland
+location	Gilgit
 location	Riyadh
 location	Hawali
 location	Dasman
@@ -140,7 +141,6 @@ location	Nassau County
 division	China
 division	Hubei
 division	Beijing
-division	NanChang
 division	Anhui
 division	Jiangxi
 division	Chongqing
@@ -172,6 +172,7 @@ division	Kathmandu
 division	Kerala
 division	Iran
 division	Kuwait
+division	Gilgit Baltistan
 division	Tbilisi
 division	Thanh Hoa
 division	Vinhphuc
@@ -255,6 +256,7 @@ division	England
 division	United Kingdom
 division	Wales
 division	Dublin
+division	Cork
 division	Limerick
 division	Scotland
 division	Småland
@@ -305,6 +307,7 @@ country	Australia
 country	New Zealand
 country	Saudi Arabia
 country	Kuwait
+country	Pakistan
 country	Georgia
 country	Poland
 country	Hungary
