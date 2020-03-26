@@ -67,28 +67,34 @@ This information will make interpreting the data we present in this narrative ea
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+# Background and Resources  
 
-<div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+## Nextstrain Resources  
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/)  
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
-</div>
+[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV)
 
-## Further Reading
+[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2)
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+[Sampling: why aren't you covering the situation in country X?](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3)
 
-## Nextstrain narratives
+[FAQs](https://nextstrain.org/help/coronavirus/FAQ)
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11)
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+
+## External Resources  
+[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
+
+[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
+
+[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus)
+
+[Our World in Data](https://ourworldindata.org/coronavirus)
+
+[Ask a Scientist & FAQs](https://covid19.fas.org/l/en)
+
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
