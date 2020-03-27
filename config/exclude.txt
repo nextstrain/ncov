@@ -217,6 +217,7 @@ Japan/DP0890/2020
 # The GISAID data was subsequently updated => TODO check if this sequence has been fixed
 Norway/1539/2020
 
+
 # Exclude WI sequences temporarily until dates are fixed
 # The dates given are *sequencing* dates not *sample* dates
 USA/WI-11/2020
