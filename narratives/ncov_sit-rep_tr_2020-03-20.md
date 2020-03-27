@@ -215,7 +215,6 @@ Mousla ana organizmanın köküne doğru gittiğimizde görüyoruz ki virüs bu 
 Ayrıca, başlangıçta yerel olarak başlamış salgınların diğer yerlere nasıl giriş yaptığına dair bir örnek de görebiliriz.
 Utah'tan ağacın (turuncu) üst tarafına yakın olan örnekleri, Washington salgınının olduğu organizmalar grubunda toplanır.
 Bu, yayılım zincirinde ara adım (lar) olması da mümkün olmakla birlikte, Washington'dan Utah'a giriş ile tutarlıdır.
-
 <br><br>
 Tabii ki, bu virüsün Utah'a girmesinin yerel bir salgınal sonuçlanıp sonuçlanmaycağını bilmiyoruz.
 Ancak, eğer virüs bu bölgeye girişle birlikte yayılmaya devam ederse önümüzdeki 4 hafta içinde bu sayının katlanmasını bekleriz.
@@ -235,14 +234,14 @@ Aynı mantık üzerinden giderek, daha haberdar olmadığımız salgın ve yayı
 Bu, sosyal uzaklaştırma önlemlerini henüz uygulayan alanlar için bile, vaka sayısının önümüzdeki birkaç hafta içinde artmasını beklememiz gerektiği anlamına geliyor.
 Bu artışlar bu önlemlerin işe yaramadığını GÖSTERMEZ. Zaten enfekte olmuş bireylerin (ve muhtemelen hanehalkı üyelerinin) semptom göstermesi, tedavi edilmesi ve iyileşmesi zaman alır. Ayrıca, testler yaygınlaştıkça rapor edilen vakaların sayısında bir artış görmek de mümkündür.
 <br><br>
-It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
+Bu süre zarfında sosyal mesafenin korunması önemlidir. Sağda gösterildiği gibi, müdahale gerçekleştirildikten sonra vaka sayıları artmaya devam etmektedir. Ancak, zamanla, kümülatif vaka sayısı büyük ölçüde azalır.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Social distancing doesn't stop all new cases overnight, but it greatly decreases case counts and fatalities over time
-Social distancing -- that is, decreasing the number of people you encounter each day -- can be challenging, but is hugely beneficial to the public good.  
- If everyone decreased their daily contacts by 25%, we would expect to see a 50% decrease in the cumulative number of cases over the next month ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## Sosyal mesafe ve izolasyon vaka sayısını bir gecede durdurmaz, fakat zaman içince hem vaka hem de ölüm sayılarında bir azalma gözlemlenir.
+Sosyal mesafe -- yani, her gün gördüğünüz ve temas ettiğiniz insan sayısını azaltmak -- zor olabilir, fakat toplumun iyiliği için kesinlikle çok yararlıdır.  
+Eğer herkes günlük iletişimini %25 oranında azaltırsa, gelecek ay vaka sayılarında %50 oranında bir azalma gözlemleyebiliriz.([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -251,32 +250,32 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- The virus has been introduced to many parts of the globe multiple times.  
+# [Çıkarımlar](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- Virüs dünyanın birçok bölgesinde birden fazla kere giriş yaptı ve yayıldı.  
 <br>
-- We see evidence of local transmission in many areas; beyond this, we expect that previous introductions have already seeded many local outbreaks that will become evident in the coming weeks.  
+- Birçok alanda yerel bulaşımın ve yayılımın olduğunu görüyoruz; bunun ötesinde, önceki virüs girişlerinin önümüzdeki haftalarda ortaya çıkacak birçok yerel salgını daha şimdiden ortaya çıkarmasını bekliyoruz.
 <br>
-- Controlling local outbreaks through social distancing is crucial to:  
-  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
-  - Reduce the total number of cases and fatalities  
-  - Allow time for the development of therapeutics and vaccines  
+- Yerel salgınların yayılımını sosyal mesafe ile azaltmak önemli çünkü:  
+  - #EğriyiDüzleştir sağlık sistemlerinin birden fazla yoğunlaşmasını engellemiş oluruz
+  - Toplam vaka ve ölüm sayısını azaltmış oluruz
+  - İlaçların ve aşıların geliştirilmesi için sağlık çalışanlarına zaman tanımış oluruz
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# What you can do
-## ...as an individual
-* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible
+# Bireysel olarak
+## siz ne yapabilirsiniz?
+* Özellikle direnci az olan bir gruptaysanız (ör. Yaşlılar ve önceden farklı sağlık sorunları olanlar), her gün temas kurduğunuz kişi sayısını önemli ölçüde azaltın.
+* Olağanüstü derecede az bir dirence sahip olmasanız bile etrafınızda böyle olan insanları unutmadan başkalarını korumak için bu uygulamaları takip edin ve uygulayın.
+* Ellerinizi sanki çok kirli bir şeye değmiş gibi yıkayın.  
+* Mümkün olabildiğince evde kalın -- özellikle de hastaysanız; ekstra malzemelerle self-karantinaya ihtiyac duymanız halinde hazırlıklı olun.  
+* Eğer bir işverenseniz, çalışanlarınız evden çalışmalarına izin verin ve teşvik edin.
 
-## ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+## Eğer yetkiliyseniz...
+* Testleri herkese açık yapın.  
+* Sosyal mesafe uygulamlarını yürürlülüğe koyun.  
+* Kapsamlı temas izleme çalışmlarına maddi olarak destek verin ve uygulayın.  
+* Sosyal uzaklaşma önlemlerinden etkilenenleri finansal olarak destekleyin (örneğin, saatlik çalışanlar, yaşlı veya çocuk bakımı sorumlulukları olanlar, küçük işletmeler vb.).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -284,20 +283,19 @@ Social distancing -- that is, decreasing the number of people you encounter each
 
 
 <!-- This is left-side text 14-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Bilimsel credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
-
+Bu salgında harika ve zamanında çalışan tüm bilim insanlarına, özellikle de Çin'de çalışanlara, teşekkür etmek istiyoruz. 
+Sadece genomik ve meta verilerin hızlı paylaşımı sayesinde bunun gibi detaylı analizler yapılabilir.
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Ayrıca, bu verilerin yüklenebileceği ve paylaşılabileceği platformu sağladığı için [GISAID'e] (https://gisaid.org) minnettarlıkla teşekkür ederiz.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Bu kaynak laboratuvarlar tarafından toplanan veriler için minnettarız:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -601,19 +599,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Detaylı Bilimsel Kredi](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Bu veriler [GISAID] sayesinde paylaşılabiliyor(https://gisaid.org).
+Onlara katkıları için çok teşekkür ediyoruz.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+Sağda her laboratuvar tarafından paylaşılan belirli dizilimleri bulabilirsiniz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+SARS-CoV-2 genomları bu laboratuvarlardaki cömert bilim insanları tarafından paylaşıldı:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
