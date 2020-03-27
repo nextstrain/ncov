@@ -19,8 +19,10 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators:
+translators: "Zeynep Harcanoğlu"
 translatorLinks:
+- https://twitter.com/zharcanoglu
+- https://www.linkedin.com/in/zeynepharcanoglu/
 date: "20 Mart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
 abstract: "Bu rapor COVID-19'un yayılımını takip etmek için herkese açık olarak paylaşılan genomik verileri kullanır. Ve bu raporlar haftalık olarak güncellenir."
