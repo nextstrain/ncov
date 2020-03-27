@@ -1,5 +1,5 @@
 ---
-title: KOVID-19 salgınının genomik analizi. 20 Mart 2020 tarihi için durum raporu.
+title: COVID-19 salgınının genomik analizi. 20 Mart 2020 tarihi için durum raporu.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -42,7 +42,7 @@ abstract: "Bu rapor COVID-19'un yayılımını takip etmek için herkese açık 
 * [Washington salgını nasıl yayıldı](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
 * [Sosyal mesafe ile vaka sayıları nasıl değişir](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
 * [Ne yapabilirsiniz](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Scientific Credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Bilimsel Kredi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -70,7 +70,7 @@ Bu haftanın rapor güncellemesinde:
 <!-- This is left-side text 2 -->
 # [COVID-19 Kaynakları](https://nextstrain.org/ncov/2020-03-20)
 COVID-19 ve buna neden olan virüs olan SARS-CoV-2'yi tanımak için okumaya değer bazı kaynaklar hazırladık.
-Bu bilgi, bu metinde sunduğumuz verilerin yorumlanmasını kolaylaştıracaktır; filogenetik ağaçlara aşina değilseniz, ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) okuyabilir ve daha sonra buraya geri dönebilirsiniz.
+Bu bilgi, bu metinde sunduğumuz verilerin yorumlanmasını kolaylaştıracaktır; filogenetik ağaçlara aşina değilseniz, ['How to Read Phylogenies' makalesini](https://nextstrain.org/narratives/trees-background/) okuyabilir ve daha sonra buraya geri dönebilirsiniz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -88,14 +88,14 @@ Bu bilgi, bu metinde sunduğumuz verilerin yorumlanmasını kolaylaştıracaktı
 ## İlave Okuma
 
 * SARS-CoV-2 salgınının özeti [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Bu raporda alıntılanan tün vaka sayıları Dünya Sağlık Örgütü'nden [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* Bu raporda alıntılanan tün vaka sayıları Dünya Sağlık Örgütü'nden [WHO] alınmışır.(https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
 # [Örnekleme Hakkında Not](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-Şu anda 6 kıtada 36 ülkeden alınan örneklerden dizilerimiz var. Bu kesinlikle inanılmaz bir başarı, çünkü bilinmeyen, büyük bir RNA virüsünü bir pandeminin ortasında dizilemek zordur ve ancak dünyanın dört bir yanındaki bilim adamları ve doktorlarun inanılmaz çalışması ve verileri zamanında paylaşabilmesiyle mümkündür.
+Şu anda 6 kıtadaki 36 ülkeden alınan örneklerden dizilerimiz var. Bu kesinlikle inanılmaz bir başarı, çünkü bilinmeyen, büyük bir RNA virüsünü bir pandeminin ortasında dizilemek zordur ve ancak dünyanın dört bir yanındaki bilim insanları ve doktorların olağanüstü  çabaları ve verileri zamanında paylaşabilmeleriyle mümkündür.
 <br><br>
 Bu verilerin, salgının birçok özelliğinden anlam çıkarmamıza ve yayılmasını gerçek zamanlı olarak izlememize olanak sağlamasına rağmen, sonuçlarımızın verilerin kullanılabilirliği ile sınırlı olduğunu vurgulamak istiyoruz.
 Toplam vaka sayısından sadece bir grup hasta teste tabi tutulur. Test edilenlerden sadece bir örnek alt kümenin dizilimi yapılır.
