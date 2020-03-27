@@ -110,7 +110,7 @@ Ayrıca, salgınların filogenetik rekonstrüksiyonları da her zaman belli bir 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
 # [Bazı bölgeler bu verilerde yeterince temsil edilmemiştir](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-Bu harita güneyden çok az dizilim gösteriyor. Örneğin, Latin Amerika'daki 25 ülkeden sadece 4 tanesine ait COVID-19 vaka dizilimimiz var.[Dünya Sağlık Örgütü Raproları](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) Bunun nedeni, COVID-19'un bu alanlarda yayılmamış olması veya buralardaki önemli olmaması değildir. Sadece, bu bölgeler hakkında çok fazla veri mevcut değildir.
+Bu harita güneyden çok az dizilim gösteriyor. Örneğin, Latin Amerika'daki 25 ülkeden sadece 4 tanesine ait COVID-19 vaka dizilimimiz var.[Dünya Sağlık Örgütü Raporları](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) Bunun nedeni, COVID-19'un bu alanlarda yayılmamış olması veya buralardaki önemli olmaması değildir. Sadece, bu bölgeler hakkında çok fazla veri mevcut değildir.
 
 <br><br>
 <!-- There is NO right-side text -->
@@ -121,7 +121,7 @@ Bu harita güneyden çok az dizilim gösteriyor. Örneğin, Latin Amerika'daki 2
 # [Bu verilerle fazlasıyla temsil edilen diğer bölgeler](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
 Bazı bölgelerde ise, Hollanda gibi, toplam vaka sayısına göre çok sayıda dizi verisi mevcuttur.
 <br><br>
-Bu nedenle, bu anlatıyı okurken, haritadaki her bir dairenin boyutunun, salgının gerçek boyutu yerine şu anda o alandan ne kadar veri bulunduğunu gösterdiğini unutmayın. Buradan [read here](https://nextstrain.org/narratives/trees-background?n=8) bu bilginin virüs yayılımı hakkında çıkardığımız sonuçları nasıl etkileyebileceğini okuyabilirsiniz.
+Bu nedenle, bu anlatıyı okurken, haritadaki her bir dairenin boyutunun, salgının gerçek boyutu yerine şu anda o alandan ne kadar veri bulunduğunu gösterdiğini unutmayın. [Buradan](https://nextstrain.org/narratives/trees-background?n=8) bu bilginin virüs yayılımı hakkında çıkardığımız sonuçları nasıl etkileyebileceğini okuyabilirsiniz.
 <br><br>
 
 <!-- There is NO right-side text -->
@@ -132,61 +132,61 @@ Bu nedenle, bu anlatıyı okurken, haritadaki her bir dairenin boyutunun, salgı
 
 Belirli bir vakanın nerede enfekte olduğunu belirlemek, hangi bölgelerin öncelikle seyahatle ilişkili vakalara göre yerel yayılım yaşadığını anlamak için önemlidir. Dizilim verileri, bu senaryolar arasında ayrım yapmamıza yardımcı olabilir.
 <br><br>
-Here, the tree is colored by the travel history of a case (when known). Looking at the Canadian sequence (Canada/BC_78548/2020) in the middle, we see that they have a reported travel history to Europe. This infection groups with other European sequences, showing that this case almost certainly is a travel-related infection.
+Burada ağaç, bir vakanın seyahat geçmişi (biliniyorsa)renklendirilir. Ortadaki Kanada dizilimine baktığımızda (Canada/BC_78548/2020) Avrupaya yapılan seyahat geçmişlerini raporladıklarını görüyoruz. Diğer Avrupa dizilimleriyle birlikte bu enfeksiyon grupları bu vakaların neredeyse tamamen seyahatlarla ilişkili olduğunu göstermektedir.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Sequence data can cross-check travel histories](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Seyahat geçmişini çapraz kontrol edebilen dizilim datası](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Zooming out, we can see that this isn't always so consistent.
+Yaklaşınca, bunun her zaman istikrarlı bir biçimde gitmediğini görüyoruz.
 <br><br>
-Here, we can see that nearly all of the cases reporting recent travel to Iran cluster together in the middle of the tree.
+Burada görüyoruz ki, İran'a son yolculuklarını bildiren vakaların neredeyse hepsi ağacın orta bölgesinde yığılmış bir halde.
 <br><br>
-Towards the top of the tree, we also see a Canadian case with travel history to Iran; however, this sequence doesn't group anywhere near the rest of the cases with Iranian travel history.
+Ağacın üst kısımlarına doğru, Kanada'daki vakaların İran'a yaptığı yolculuk geçmişini görebiliyoruz. Ancak, bu dizilim İran'ın seyahat geçmişi yakınlarındaki bölgelerin hiçbirinde gruplanmıyor.
 <br><br>
-It's certainly possible that this person was infected by a second ongoing transmission chain in Iran, but until we get more data, we can't confirm that this infection was travel-acquired.
+Bu kişinin İran'da devam eden ikinci bir salgın yayılım zinciri tarafından enfekte olması kesinlikle mümkündür, ancak daha fazla veri elde edene kadar, bu enfeksiyonun seyahatle kazanıldığını doğrulayamayız.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [The virus has been introduced to nearly every country around the world](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [Virüs neredeyse dünyadaki tüm ülkelere yayıldı](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-On the tree, we see lots of this kind of intermingling of samples from different countries.
-This indicates that this kind of inevitable human movement has already introduced the virus to many parts of the globe.
+Ağaçta, farklı ülkelerden bu tür örneklerin bir araya geldiğini görüyoruz. Bu, bu tür kaçınılmaz insan harekelerinin virüsü dünyanın birçok yerine zaten getirdiğini gösterir.
+
 <br><br>
-In fact, [the WHO reports](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) confirmed cases in 159 out of 195 total countries in the world.
+Aslında, [Dünya Sağlık Örgütü Raporları](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) 195 ülkeden 159'unca COVID-19 vakasının olduğunu doğruladı.
 <br><br>
-However, not all introductions result in outbreaks.
+Ancak, virüsün yayıldığı her ülkede bunun bir salgın haline geldiğini söyleyemeyiz.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Epidemics become evident ~4-8 weeks after introduction](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [Salgınlar virüs ortaya çıktıktan yaklaşık 4 ile 8 hafta sonra belirginleşir](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-It may seem as though COVID-19 has suddenly exploded.
-For many people, this outbreak may have gone from an abstract concern in other parts of the world to something that severely impacts their daily lives, seemingly overnight.
+COVID-19 aniden patlamış gibi görünebilir.
+Birçok insan için bu salgın, dünyanın diğer bölgelerindeki soyut bir endişeden bir gecede günlük yaşamlarını ciddi şekilde etkileyen bir şeye dönüşmüş olabilir.
 <br><br>
-But, keep in mind that this has been brewing for awhile. It's not necessarily that the virus is being introduced to new places more often.
-Most likely, many places are starting to become aware of localized outbreaks that were started by introductions several weeks ago.
+Ancak bunun uzun süreden beri yavaş yavaş ilerlediğini unutmayın. Bu virüs sadece yeni yerlere hızlıca taşınan bir salgndan ibaret değil.
+Büyük olasılıkla dünyadaki birçok yer salgının kendi çevrelerine birkaç hafta önce ulaşmasından sonra durumun ciddiyetini yeni yeni fark ediyor.
 <br><br>
-Areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+Salgının kendi çevrelerine ulaşabileceğini fark etmeyen bölgelerin şimdiden hazırlanması ve gözetim altında yapılan testlere başlaması gerekiyor.  
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# How do introductions become outbreaks?
+# Virüsün ülkeye giriş yapması nasıl bir salgına yol açtı?
 
-Sometimes these introductions don't result in secondary cases or localized outbreaks -- especially if the index case is detected and isolated quickly.
-Many times, however, the virus spreads undetected through the local population until the outbreak reaches a significant size.
+Bazen virüsün bir ülkeye girmesi yerel bir salgınla veya hızlıca artan ikincil vakalara -- özellikle de hemen izolasyon ve test yapılma önlemleri alan yerlerde -- yol açmıyor.
+Fakat çoğu zaman, bu bir salgına dönüşene kadar virüs fark edilmeden yerel halk arasında yayılmış oluyor.
 
-Below is a thought experiment showing how this played out in Wuhan. On the y axis we have space; on the x axis, we have time. Shaded area represents the number of cases.
+Aşağıda bunun Wuhan'da nasıl başladığını ve yayıldığını gösteren bir düşünce deneyi var. Y ekseninde boşluk var; x ekseninde zamanımız var. Gölgeli alan, vaka sayısını temsil eder.
 
-"COVID-19 in Wuhan went from an index case in ~Nov 2019 to several thousand cases by mid-Jan 2020, thus going from initial seeding event to widespread local transmission in the span of ~10 weeks. We believe that international seeding events started to occur in mid-Jan. Thus we have a critical ~10 weeks from then to late-March to contain these nascent outbreaks before they become sizable." [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"Wuhan'daki COVID-19, Ocak 2019'da bir olgu endeksinden Ocak 2020 ortasına kadar birkaç bin vakaya gitti, böylece başlamasından yaklaşık 10 hafta içinde yaygın yerel yayılıma geçti. Uluslarası yayılma olaylarının Ocak ortasında baş gösterdiğini tahmin ediyoruz. Bu nedenle, bu yeni salgınları büyükleşmeden önce kontrol altına almak için Mart ayının sonundan ~ 10 haftaya kadar kritik bir süremiz var. " [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
-These new outbreaks may, in turn, seed further introductions to other locations.
+Dolayısıyla bu salgınlar yavaş yavaş diğer bölgelere de virüş girişine yol açabilir.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -195,12 +195,12 @@ These new outbreaks may, in turn, seed further introductions to other locations.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [How outbreaks grow: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Salgınlar nasıl büyür: bir örnek](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-We can see a clear example of this in the data from Washington state.
-Mousing over root of the main clade shows that the virus was likely introduced to this area between the end of January and the middle of February 2020 ([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Washington eyaleti verilerinde bunun açık bir örneğini görebiliriz.
+Mousla ana organizmanın köküne doğru gittiğimizde görüyoruz ki virüs bu bölgeye 2020 Ocak sonu ile Şubat ortası arasında bir zamanda giriş yapmış.([methods](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swing in this area. From the sequence data alone, we estimate a doubling rate of 3-6 days, assuming an exponentially growing population.  
+Şu anda, Mart ortasında (yaklaşık 6 hafta sonra), görüyoruz ki yerel salgın tüm bu bölgede yayılım halinde.Sadece dizilim verilerinden, katlanarak büyüyen bir popülasyon varsayarak, 3-6 günlük bir iki katına çıkma oranı tahmin ediyoruz.
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -210,29 +210,30 @@ Now, in mid-March (~6 weeks later), we see that a local outbreak is in full swin
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [How outbreaks spread: an example](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [Salgınlar nasıl yayılır: bir örnek](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-We can also see an example of how initially localized outbreaks seed introductions to other locations.
-The samples from Utah near the top of the tree (orange) nest within the main clade from the Washington outbreak.
-This is consistent with an introduction from Washington to Utah, although it's also possible that there were intermediary step(s) in the transmission chain.
+Ayrıca, başlangıçta yerel olarak başlamış salgınların diğer yerlere nasıl giriş yaptığına dair bir örnek de görebiliriz.
+Utah'tan ağacın (turuncu) üst tarafına yakın olan örnekleri, Washington salgınının olduğu organizmalar grubunda toplanır.
+Bu, yayılım zincirinde ara adım (lar) olması da mümkün olmakla birlikte, Washington'dan Utah'a giriş ile tutarlıdır.
+
 <br><br>
-We don't know for sure whether this introduction will result in a local outbreak in Utah.
-But, if the virus does continue to spread following these introductions, we would expect to see this unfold over the next 4 weeks.
+Tabii ki, bu virüsün Utah'a girmesinin yerel bir salgınal sonuçlanıp sonuçlanmaycağını bilmiyoruz.
+Ancak, eğer virüs bu bölgeye girişle birlikte yayılmaya devam ederse önümüzdeki 4 hafta içinde bu sayının katlanmasını bekleriz.
 <br><br>
-This is just one example.
-There may have been other introductions into Utah (or other areas) that we cannot see on the tree because they were not sequenced.
-Most importantly, areas that aren't yet aware of local outbreaks should prepare now and start surveillance testing.  
+Bu sadece bir örnek.
+Utah'ta veya başka yerlerde dizilimi yapılmadığı için bu ağaçta göremeyeceğimiz diğer virüs girişleri de olabilir.
+En önemlisi de, daha yerel salgınlardan haberi olmayan bölgelerin hemen hazırlanmaya başlaması ve hızlı bir şekilde test yapmaya başlaması gerekmektedir.  
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Mitigation measures take time, but they save lives](https://nextstrain.org/ncov/2020-03-20)
+# [Etkiyi azaltma yöntemleri zaman alır, ancak hayat kurtarırlar](https://nextstrain.org/ncov/2020-03-20)
 
-Following this same logic, there are likely many local transmission chains that we don't yet know about.
+Aynı mantık üzerinden giderek, daha haberdar olmadığımız salgın ve yayılım zincirlerinin de olması çok mümkündür.
 <br><br>
-This means that even for areas that just implemented social distancing measures, we should still expect case counts to grow over the next few weeks.
-These increases do NOT indicate that these measures aren't working. It just takes time for already-infected individuals (and possibly their household members) to manifest symptoms, be treated, and recover. We also expect to see a bump in the number of reported cases as testing becomes more widely available.
+Bu, sosyal uzaklaştırma önlemlerini henüz uygulayan alanlar için bile, vaka sayısının önümüzdeki birkaç hafta içinde artmasını beklememiz gerektiği anlamına geliyor.
+Bu artışlar bu önlemlerin işe yaramadığını GÖSTERMEZ. Zaten enfekte olmuş bireylerin (ve muhtemelen hanehalkı üyelerinin) semptom göstermesi, tedavi edilmesi ve iyileşmesi zaman alır. Ayrıca, testler yaygınlaştıkça rapor edilen vakaların sayısında bir artış görmek de mümkündür.
 <br><br>
 It is critical that social distance is maintained during this time. As shown on the right, case counts continue to increase after the intervention is put in place. But, over time, the cumulative number of cases is greatly decreased.
 
