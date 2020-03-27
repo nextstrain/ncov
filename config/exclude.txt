@@ -213,3 +213,6 @@ Japan/DP0827/2020
 Japan/DP0880/2020
 Japan/DP0890/2020
 
+# causes IQTREE error: ERROR: b'ERROR: Sequence Norway_X_X_1539_X_X_2020 has invalid character I at site 20199
+# The GISAID data was subsequently updated => TODO check if this sequence has been fixed
+Norway/1539/2020

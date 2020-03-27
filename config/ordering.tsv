@@ -189,6 +189,8 @@ division	Otago
 division	Auckland
 division	Riyadh
 division	Europe
+division	Reykjavik
+division	Oslo
 division	Central Hungary
 division	Baranya
 division	Copenhagen
@@ -249,6 +251,7 @@ division	Schwyz
 division	Comunitat Valenciana
 division	Italy
 division	Lazio
+division	Marche
 division	Lombardy
 division	Friuli Venezia Giulia
 division	Usti nad Labem
@@ -275,6 +278,7 @@ division	Bahia
 division	Rio de Janeiro
 division	Distrito Federal
 division	Amazonas State
+division	Quito
 division	Panama City
 division	Mexico City
 division	USA
@@ -313,6 +317,8 @@ country	Georgia
 country	Poland
 country	Hungary
 country	France
+country	Iceland
+country	Norway
 country	Denmark
 country	Netherlands
 country	Belgium
@@ -331,6 +337,7 @@ country	Nigeria
 country	Congo
 country	South Africa
 country	Chile
+country	Ecuador
 country	Brazil
 country	Panama
 country	Mexico

@@ -235,6 +235,7 @@ division	Limerick	52.662235	-8.627565
 division	Lombardy	45.4791	9.8452
 division	Luxembourg	49.755428	6.119486
 division	Madrid	40.4168	-3.7038
+division	Marche	43.374025	13.161012
 division	Massachusetts	42.340741	-71.998513
 division	Melbourne	-37.8136	144.9631
 division	Mexico City	19.404497	-99.143041
@@ -252,6 +253,7 @@ division	North Rhine Westphalia	51.44	7.705
 division	Northern Ireland	54.602190	-6.687146
 division	Ontario	44.429	-79.377
 division	Osaka	34.648720	135.525013
+division	Oslo	59.903687	10.7497
 division	Otago	-45.412319	169.855268
 division	Overijssel	52.436273	6.463628
 division	Panama City	8.98333	-79.5166
@@ -259,7 +261,9 @@ division	Pays de la Loire	47.640237	-0.647258
 division	Portugal	39.540460	-8.174701
 division	Quangning	21.214760	107.251514
 division	Queensland	-23.094025	144.192275
+division	Quito	-0.18126	-78.4599
 division	Red River Delta	21.010949	105.786621
+division	Reykjavik	64.1445	-21.9418
 division	Rio de Janeiro	-22.89445	-43.2099
 division	Rixensart	50.7156	4.5310
 division	Riyadh	23.197563	45.243845
@@ -310,8 +314,11 @@ division	Zhejiang	29.225710	120.299125
 division	Zielonogorskie	52.2275	15.2559
 division	Zurich	47.441242	8.641154
 
-country	Georgia	41.989378	43.597463
-country	Luxembourg	49.755428	6.119486
-country	Panama	8.98333	-79.5166
 country	Denmark	56.2639	9.5018
+country	Ecuador	-1.0541	-78.1489
 country	England	52.3555	-1.1743
+country	Georgia	41.989378	43.597463
+country	Iceland	64.90614	-18.4826
+country	Luxembourg	49.755428	6.119486
+country	Norway	61.3109	8.73701
+country	Panama	8.98333	-79.5166
