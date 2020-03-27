@@ -110,7 +110,7 @@ Ayrıca, salgınların filogenetik rekonstrüksiyonları da her zaman belli bir 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
 # [Bazı bölgeler bu verilerde yeterince temsil edilmemiştir](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-Bu harita güneyden çok az dizilim gösteriyor. Örneğin, Latin Amerika'daki 25 ülkeden sadece 4 tanesine ait COVID-19 vaka dizilimimiz var([Dünya Sağlık Örgütü Raporları]).(https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) Bunun nedeni, COVID-19'un bu alanlarda yayılmamış olması veya bu bölgelerin önemli olmaması değildir. Sadece, bu bölgeler hakkında çok fazla veri mevcut değildir.
+Bu harita güneyden çok az dizilim gösteriyor. Örneğin, Latin Amerika'daki 25 ülkeden sadece 4 tanesine ait COVID-19 vaka dizilimimiz var [Dünya Sağlık Örgütü Raporları].(https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) Bunun nedeni, COVID-19'un bu alanlarda yayılmamış olması veya bu bölgelerin önemli olmaması değildir. Sadece, bu bölgeler hakkında çok fazla veri mevcut değildir.
 
 <br><br>
 <!-- There is NO right-side text -->
