@@ -1,21 +1,21 @@
 ---
 title: Genomic analysis of COVID-19 spread. Situation report 2020-03-27.
 authors:
-  - Emma Hodcroft
+  - Sidney M. Bell
   - Nicola Müller
+  - Emma Hodcroft
   - Cassia Wagner
   - Misja Ilcisin
   - James Hadfield
-  - Sidney M. Bell
   - Richard Neher
   - Trevor Bedford
 authorLinks:
-  - https://neherlab.org/emma-hodcroft.html
+  - https://twitter.com/sidneymbell
   - https://bedford.io/team/nicola-mueller/
+  - https://neherlab.org/emma-hodcroft.html
   - https://bedford.io/team/cassia-wagner/
   - https://bedford.io/team/misja-ilcisin/
   - https://bedford.io/team/james-hadfield/
-  - https://twitter.com/sidneymbell
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
@@ -146,7 +146,7 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=open)
+# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
 Here, we show samples collected across Europe in the last 3 weeks, colored by country.
 Notably, while there are some small clusters that are country-specific, there is also a great deal of intermingling by country.
