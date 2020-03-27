@@ -19,6 +19,8 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
+translators:
+translatorLinks:
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
@@ -46,36 +48,36 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world. In this week's updates, we report:
+We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spread locally. In this week's updates, we report:
 
 **Europe**  
-* We continue to see co-mingling of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may hope to see more clustering of cases by country.
-* The North American and European outbreaks are deeply intertwined, with likely transmission in both directions.  
+* We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
+* The North American and European outbreaks are deeply intertwined, but show stronger geographic clustering than, for example, within european samples.  
 
 **North America**   
-* Within the U.S., transmission patterns are complex, with samples collected from opposite sides of the country still showing close relationships.
+* Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
 * Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
-* Evidence for likely local transmission within several states, most clearly within California.
+* There is evidence for likely local transmission within several states, most clearly within California.
 
 **Central and South America**
-* We received new sequences from South America this week, but sampling remains sparse; there may be more COVID activity in this region than is captured in the available data, but we can't say for sure.
+* We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
 
 **Asia**  
 * Preliminary evidence for a possible second transmission chain circulating within Iran.
 
 **Africa**  
 * Evidence for likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
-* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
+* We received new sequences from Africa this week, but sampling remains sparse. There may be much more COVID activity in this region than is captured in the available data.
 
 **Oceania**
-* Evidence for likely local transmission in New South Wales, Australia.
+* There is evidence in the genetic data for local transmission in New South Wales, Australia.
 ```
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
 # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
+We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
 This information will make interpreting the data we present in this narrative easier.
 <br><br>
 If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
@@ -115,7 +117,7 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
 # [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in 48 countries across 6 continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
 <br><br>
@@ -148,21 +150,20 @@ For example, the map shows very few sequences from the global south. This is NOT
 <!-- This is left-side text 5-->
 # [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Here, we show samples collected across Europe in the last 3 weeks, colored by country.
-Notably, while there are some small clusters that are country-specific, there is also a great deal of intermingling by country.
+Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
+Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
 <br><br>
 This suggests that there has been continued spread across borders within the last 3-5 weeks.
 <br><br>
-As the recent mitigation efforts have time to take effect, we will surveil to see if cases start to cluster more discretely by country.
+This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 6-->
 # [European and U.S. outbreaks are intertwined](https://nextstrain.org/ncov/2020-03-27?c=region&d=tree,map&f_region=Europe,North%20America&label=clade:A2a&m=div&p=full&legend=open)
-Across the tree, we also see lots of comingling of European and American samples, indicating that the origins of the U.S. and European outbreaks are deeply intertwined.
+Across the tree, we also see lots of mixing of European and American samples, indicating several  separate introductions of COVID-19.
 <br><br>
-Artificially, this may appear to flow primarily from Europe to the U.S., rather than bidirectionally; however, we expect that this is mostly an effect of sampling bias as we currently have more data from Europe.
 
 <!-- There is no right side text -->
 
@@ -194,7 +195,7 @@ Artificially, this may appear to flow primarily from Europe to the U.S., rather 
 
 Even within the U.S., transmission patterns are highly complex.
 <br><br>
-For example, recent samples from the Grubaugh lab in Connecticut are both ancestral to and intermingled with samples from Washington state.
+For example, recent samples from Connecticut are both ancestral to and intermingled with samples from Washington state.
 While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
 <br><br>
 This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
