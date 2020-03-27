@@ -198,7 +198,7 @@ For example, recent samples from the Grubaugh lab in Connecticut are both ancest
 While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
 <br><br>
 This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out amidst highly heterogeneous responses across states.
+Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
 <!-- There is no right side text -->
 
 
@@ -206,11 +206,10 @@ Additional data will help us understand what is likely a deeply interconnected n
 <!-- This is left-side text 9-->
 # [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Looking at all the cases in Washington state, we see that they form two clear clusters on the tree.
+Looking at the cases in Washington state, we see that there are are at least to separate local outbreak clusters.
 <br><br>
-However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe.
+However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
 <br><br>
-This shows that there have been at least two separate introductions leading to independent local transmission chains.
 <!-- There is no right side text -->
 
 
@@ -220,13 +219,13 @@ This shows that there have been at least two separate introductions leading to i
 
 We see similar patterns elsewhere in the U.S.
 <br><br>
-Here, we see several samples from Solano County, California, that are sampled on two different dates but very closely related to one another.
+Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.
 <br><br>
-While the available data from California is too limited to make firm conclusions, this preliminary evidence is consistent with local transmission within Solano County.
+While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
 <br><br>
-Elsewhere in the tree, we see a similar pattern for samples in Santa Clara county.
+Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara county.
 <br><br>
-Each county's cluster of cases is likely to due to a separate introduction, based on their relative positions in the tree.
+These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
 <!-- There is no right side text -->
 
 
@@ -252,9 +251,10 @@ Each county's cluster of cases is likely to due to a separate introduction, base
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 12-->
 # [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full)
-We don't have much data from South America yet; of those data, most are returned travelers.
+We don't have much genetic sequence data from South America yet.
+Of the available data, most are from travelers that returned from Europe.
 <br><br>
-While there are some potentially interesting patterns starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
+While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
 Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.
 <!-- There is no right side text -->
 
@@ -290,7 +290,7 @@ However, we do have sequences from many cases with reported travel to Iran.
 <br><br>
 Most of the Iranian-linked cases nest within the clade shown here.
 <br><br>
-At the very bottom, we see a new sequence from a woman in Pakistan with reported travel to Iran.
+Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were (at least) initially derived from a single introduction into Iran.
 Interestingly, this case is an outgroup to all of the other cases that we know about from Iran.
 <br><br>
 This is consistent with a possible second transmission chain within Iran, although more samples are needed to confirm.
@@ -308,7 +308,9 @@ This is consistent with a possible second transmission chain within Iran, althou
 <!-- This is left-side text 16-->
 # [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-New sequences from Kinshasa in the Democratic Republic of the Congo, generated by Placide Mbala-Kingebeni et al., form a group of very closely related, local cases that were sampled over several days.
+New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
+<br><br>
+Some of these sequences form a group of very closely related, local cases that were sampled over several days.
 <br><br>
 This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier.
 <br><br>
@@ -341,8 +343,8 @@ Importantly, this does not necessarily indicate that the outbreak is more advanc
 <!-- This is left-side text 18-->
 # [Local transmission in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-New sequences from Australia provide evidence of local transmission across New South Wales.
-The virus has likely been circulating in this area since at least February 29, 2020 (the sampling date of Australia/NSW07/2020).
+New sequences from Australia show evidence of local transmission across New South Wales.
+The virus has likely been circulating in this area since at least the end of February.
 
 <!-- There is no right side text -->
 
