@@ -283,7 +283,7 @@ Eğer herkes günlük iletişimini %25 oranında azaltırsa, gelecek ay vaka say
 
 
 <!-- This is left-side text 14-->
-# [Bilimsel credit](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Bilimsel Kredi](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
 Bu salgında harika ve zamanında çalışan tüm bilim insanlarına, özellikle de Çin'de çalışanlara, teşekkür etmek istiyoruz. 
 Sadece genomik ve meta verilerin hızlı paylaşımı sayesinde bunun gibi detaylı analizler yapılabilir.
