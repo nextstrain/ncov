@@ -90,7 +90,7 @@ checkpoint partition_sequences:
         sequences_per_group = 150
     shell:
         """
-        python3 scripts/partition-sequences.py \
+        python scripts/partition-sequences.py \
             --sequences {input.sequences} \
             --sequences-per-group {params.sequences_per_group} \
             --output-dir {output.split_sequences}
@@ -153,7 +153,7 @@ rule mask:
         mask_sites = "18529 29849 29851 29853"
     shell:
         """
-        python3 scripts/mask-alignment.py \
+        python scripts/mask-alignment.py \
             --alignment {input.alignment} \
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
@@ -252,7 +252,7 @@ rule haplotype_status:
         reference_node_name = "USA/WA1/2020"
     shell:
         """
-        python3 scripts/annotate-haplotype-status.py \
+        python scripts/annotate-haplotype-status.py \
             --ancestral-sequences {input.nt_muts} \
             --reference-node-name {params.reference_node_name:q} \
             --output {output.node_data}
@@ -328,7 +328,7 @@ rule colors:
         colors = "config/colors.tsv"
     shell:
         """
-        python3 scripts/assign-colors.py \
+        python scripts/assign-colors.py \
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
             --output {output.colors}
@@ -342,7 +342,7 @@ rule recency:
         "results/recency.json"
     shell:
         """
-        python3 scripts/construct-recency-from-submission-date.py \
+        python scripts/construct-recency-from-submission-date.py \
             --metadata {input.metadata} \
             --output {output}
         """
@@ -472,7 +472,7 @@ rule incorporate_travel_history:
         auspice_json = "results/ncov_with_accessions_and_travel_branches.json"
     shell:
         """
-        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+        python ./scripts/modify_tree_according_to_division_exposure.py \
             {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
         """
 
@@ -486,7 +486,7 @@ rule incorporate_travel_history_gisaid:
         auspice_json = "results/ncov_gisaid_with_accessions_and_travel_branches.json"
     shell:
         """
-        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+        python ./scripts/modify_tree_according_to_division_exposure.py \
             {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
         """
 
@@ -500,7 +500,7 @@ rule incorporate_travel_history_zh:
         auspice_json = "results/ncov_zh_with_accessions_and_travel_branches.json"
     shell:
         """
-        python3 ./scripts/modify_tree_according_to_division_exposure.py \
+        python ./scripts/modify_tree_according_to_division_exposure.py \
             {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
         """
 
