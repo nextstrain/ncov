@@ -149,6 +149,7 @@ division	Andel	51.7851	5.0549
 division	Anhui	31.754331	117.211441
 division	Arizona	34.220707	-111.657462
 division	Auckland	-36.8314	174.7606
+division	Austria	47.5162	14.5501
 division	Auvergne Rhone Alpes	45.126511	5.480724
 division	Auvergne-Rhône-Alpes	45.4471	4.3853
 division	Baden-Wuerttemberg	48.712618	9.134030
@@ -159,6 +160,7 @@ division	Bavaria	48.1382614	11.5845093
 division	Beijing	40.071320	116.406908
 division	Bern	46.855135	7.570549
 division	Bourgogne-France-Comté	47.2805	4.9994
+division	Bratislava	48.1486	17.1077
 division	Bretagne	48.2020	2.9326
 division	British Columbia	54.010982	-124.745183
 division	Brussels	50.8503	4.3517
@@ -173,9 +175,11 @@ division	Connecticut	41.678117	-72.669773
 division	Copenhagen	55.6761	12.5683
 division	Cork	51.895349	-8.474381
 division	Couthuin	50.5315	5.1225
+division	Croatia	45.1000	15.2000
 division	Diamond Princess	35.046935	139.419325
 division	Dilbeek	50.8465	4.2621
 division	Distrito Federal	-15.7998	-47.8645
+division	Denmark	56.2639	9.5018
 division	Drenthe	52.846963	6.608915
 division	Dublin	53.343100	-6.262191
 division	Duesseldorf	51.236437	6.809537
@@ -185,14 +189,17 @@ division	Europe	48.684312	13.651501
 division	Finland	61.751734	26.186437
 division	Flanders	51.056536	4.254283
 division	Flevoland	52.488510	5.615829
+division	France	46.2276	2.2137
 division	Friuli Venezia Giulia	46.2259	13.1034
 division	Fujian	26.284852	118.122938
 division	Galicia	42.5751	-8.1339
 division	Gelderland	52.042091	6.014860
 division	Geneva	46.216038	6.136984
+division	Germany	51.1657	10.4515
 division	Gilgit Baltistan	35.589113	75.614837
 division	Grand Est	48.6998	6.1878
 division	Grand Est	48.691467	5.566495
+division	Grand Canary Islands	27.9202	-15.5474
 division	Grand Princess	37.579905	-123.673130
 division	Graubünden	46.709551	9.606903
 division	Guangdong	23.615762	114.483257
@@ -222,7 +229,10 @@ division	Kathmandu	27.712907	85.323557
 division	Kerala	10.359825	76.399550
 division	Kessel-Lo	50.8851	4.7357
 division	Kinshasa	-4.2978	15.2962
+division	Kosice	48.7164	21.2611
+division	Kostoliste	48.4467	16.9868
 division	Kraainem	50.8611	4.4593
+division	Kuala Lumpur	3.1390	101.6869
 division	Kuwait	29.452987	47.447194
 division	KwaZulu-Natal	-28.704798	30.693005
 division	Kyoto	35.007542	135.768455
@@ -237,7 +247,9 @@ division	Lombardy	45.4791	9.8452
 division	Luxembourg	49.755428	6.119486
 division	Madrid	40.4168	-3.7038
 division	Marche	43.374025	13.161012
+division	Martin	49.0617	18.9190
 division	Massachusetts	42.340741	-71.998513
+division	Medellin	6.2486	-75.5742
 division	Melbourne	-37.8136	144.9631
 division	Mexico City	19.404497	-99.143041
 division	Minnesota	46.126042	-94.619581
@@ -268,6 +280,7 @@ division	Reykjavik	64.1445	-21.9418
 division	Rio de Janeiro	-22.89445	-43.2099
 division	Rixensart	50.7156	4.5310
 division	Riyadh	23.197563	45.243845
+division	Rome	41.9028	12.4964
 division	Saint Petersburg	59.882080	30.330800
 division	Saitama	35.909903	139.659758
 division	Santiago	-33.383304	-70.530623
@@ -288,6 +301,8 @@ division	Småland	57.528294	14.463824
 division	South Holland	52.006053	4.485728
 division	South Korea	36.609249	127.917932
 division	South Yorkshire	53.4697	-1.3260
+division	Spain	40.4637	-3.7492
+division	Switzerland	46.8182	8.2275
 division	Taiwan	23.816900	121.031365
 division	Talca	-35.462909	-71.370960
 division	Taoyuan	24.9936	121.3010

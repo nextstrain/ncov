@@ -216,3 +216,19 @@ Japan/DP0890/2020
 # causes IQTREE error: ERROR: b'ERROR: Sequence Norway_X_X_1539_X_X_2020 has invalid character I at site 20199
 # The GISAID data was subsequently updated => TODO check if this sequence has been fixed
 Norway/1539/2020
+
+# Exclude WI sequences temporarily until dates are fixed
+# The dates given are *sequencing* dates not *sample* dates
+USA/WI-11/2020
+USA/WI-12/2020
+USA/WI-13/2020
+USA/WI-14/2020
+USA/WI-15/2020
+USA/WI-16/2020
+USA/WI-17/2020
+USA/WI-18/2020
+USA/WI-19/2020
+USA/WI-21/2020
+USA/WI-22/2020
+USA/WI-23/2020
+USA/WI-24/2020
