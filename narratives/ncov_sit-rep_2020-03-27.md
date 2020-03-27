@@ -22,7 +22,7 @@ affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA
 translators:
 translatorLinks:
 date: "2020 March 27"
-dataset: "https://nextstrain.org/ncov/2020-03-27"
+dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
@@ -37,13 +37,13 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=7).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=11).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=13).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=15).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=17).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=20).  
+* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Executive summary
@@ -52,7 +52,6 @@ We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral gen
 
 **Europe**  
 * We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
-* The North American and European outbreaks are deeply intertwined, but show stronger geographic clustering than, for example, within european samples.  
 
 **North America**   
 * Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
@@ -63,11 +62,11 @@ We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral gen
 * We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
 
 **Asia**  
-* Preliminary evidence for a possible second transmission chain circulating within Iran.
+* We find preliminary evidence for a possible second transmission chain circulating within Iran.
 
 **Africa**  
-* Evidence for likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
-* We received new sequences from Africa this week, but sampling remains sparse. There may be much more COVID activity in this region than is captured in the available data.
+* The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
+* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
 
 **Oceania**
 * There is evidence in the genetic data for local transmission in New South Wales, Australia.
@@ -131,17 +130,18 @@ For example, the map shows very few sequences from the global south. This is NOT
 <!-- This is left-side text 4-->
 # [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
+### Navigation
 * [Executive summary](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=1).
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=7).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=11).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=13).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=15).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=17).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=20).  
+* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 
 <!-- There is no right side text -->
 
@@ -159,39 +159,30 @@ This geographic clustering might become stronger with recent mitigation efforts 
 <!-- There is no right side text -->
 
 
-<!-- ##### slide break ##### -->
-<!-- This is left-side text 6-->
-# [European and U.S. outbreaks are intertwined](https://nextstrain.org/ncov/2020-03-27?c=region&d=tree,map&f_region=Europe,North%20America&label=clade:A2a&m=div&p=full&legend=open)
-Across the tree, we also see lots of mixing of European and American samples, indicating several  separate introductions of COVID-19.
-<br><br>
-
-<!-- There is no right side text -->
-
-
-
 
 <!-- ############ NORTH AMERICA ############# -->
-<!-- This is left-side text 7-->
+<!-- This is left-side text 6-->
 # [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
+### Navigation
 * [Executive summary](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=1).
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=7).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=11).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=13).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=15).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=17).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=20).  
+* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
-<!-- This is left-side text 8-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut,Washington&label=clade:B1&m=div&p=full)
+<!-- This is left-side text 7-->
+# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
 Even within the U.S., transmission patterns are highly complex.
 <br><br>
@@ -204,7 +195,7 @@ Additional data will help us understand what is likely a deeply interconnected n
 
 
 <!-- ##### slide break ##### -->
-<!-- This is left-side text 9-->
+<!-- This is left-side text 8-->
 # [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
 Looking at the cases in Washington state, we see that there are are at least to separate local outbreak clusters.
@@ -216,7 +207,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 10-->
-# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?branchLabel=clade&c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div)
+# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div)
 
 We see similar patterns elsewhere in the U.S.
 <br><br>
@@ -234,17 +225,18 @@ These counties' clusters of cases are likely to due to separate introductions, b
 <!-- This is left-side text 11-->
 # [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
+### Navigation
 * [Executive summary](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=1).
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=7).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=11).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=13).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=15).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=17).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=20).  
+* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 
 <!-- There is no right side text -->
 
@@ -266,17 +258,18 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 <!-- This is left-side text 13-->
 # [Updates for Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
 
+### Navigation
 * [Executive summary](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=1).
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=7).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=11).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=13).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=15).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=17).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=20).  
+* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 
 <!-- There is no right side text -->
 
@@ -289,10 +282,10 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 We do not yet have viral genomes from Iran.
 However, we do have sequences from many cases with reported travel to Iran.
 <br><br>
-Most of the Iranian-linked cases nest within the clade shown here.
+Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were--at least initially--derived from a single introduction into Iran.
 <br><br>
-Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were (at least) initially derived from a single introduction into Iran.
-Interestingly, this case is an outgroup to all of the other cases that we know about from Iran.
+At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.
+Interestingly, this case is an outgroup to the the other cases that we know about from Iran, but was sampled around the same time.
 <br><br>
 This is consistent with a possible second transmission chain within Iran, although more samples are needed to confirm.
 <!-- There is no right side text -->
@@ -307,7 +300,7 @@ This is consistent with a possible second transmission chain within Iran, althou
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 16-->
-# [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country&label=clade:A2a)
 
 New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
 <br><br>
@@ -325,17 +318,18 @@ Importantly, this does not necessarily indicate that the outbreak is more advanc
 <!-- This is left-side text 17-->
 # [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
 
+### Navigation
 * [Executive summary](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=1).
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=7).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=11).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=13).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=15).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=17).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=20).  
+* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 
 <!-- There is no right side text -->
 
@@ -375,7 +369,7 @@ The virus has likely been circulating in this area since at least the end of Feb
 ## Takeaways
 ####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.
 <br><br>
-#### We will be monitoring the situation in South America as more sequences become available.
+#### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.
 <br><br>
 ####  The U.S. epidemic likely has very complex transmission patterns of both import and spread across even disparate parts of the country. We find evidence of multiple local transmission chains in Washington and California.
 <br><br>
