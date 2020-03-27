@@ -50,17 +50,17 @@ abstract: "Bu rapor COVID-19'un yayılımını takip etmek için herkese açık 
 
 Burada, halka açık olarak paylaşılan 723 COVID-19 genomunu analiz ettik. Bu viral genomları birbirleriyle karşılaştırarak, COVID-19'un dünyada nasıl hareket ettiğini karakterize edebiliriz.
 
-Bu raporda, virüsün dünyanın birçok bölgesinde nasıl başladığını ve dolaştığını anlatıyoruz.
+Bu raporda, virüsün dünyanın birçok bölgesinde nasıl başladığını ve ilerlediğini anlatıyoruz.
 
-COVID-19'un yerel olarak dolaşıp dolaşmadığını ve eğer dolaşıyorsa ne dereceye kadar dolaştığını ve azaltma önlemlerinin bu yayılımı nasıl yavaşlatabileceğini bilmek için, yerel salgın dinamikleri hakkında iyi bir bilgi birikimine sahip olmak gerekir. Bu da, dolayısıyla, testlerin geniş bir çapta yapılmasını gerektiriyor.
+COVID-19'un bölgesel olarak yayıldığını ve (eğer yayılmışsa ne dereceye kadar yayıldığını) ve bunu azaltma önlemlerinin bu yayılımı nasıl yavaşlatabileceğini bilmek için, yerel salgın dinamikleri hakkında iyi bir bilgi birikimine sahip olmak gerekir. Bu da, dolayısıyla, testlerin geniş bir çapta yapılmasını gerektiriyor.
 
-Bu, testlere hızlı erişimin önemini vurgulamakta ve aynı bölge içerisindeki bulaşıcılığı yavaşlatmaya odaklanmaktadır.
+Bu, testlere hızlı erişimin önemini vurgulamakta ve aynı bölge içerisindeki bulaşıcılığı yavaşlatma üzerine odaklanmaktadır.
 
 Bu haftanın rapor güncellemesinde:  
 
 * Seyahate bağlı olarak virüsün dünyanın farklı bölgelerinde nasıl ortaya çıktığının kanıtlarını sunuyoruz.  
 * Virüsün yeni ortaya çıktığı birçok yerde vakaların 4 ile 8 hafta içerisinde artış gözlemlemesi mümkün. Bu bölgelerin şimdiden hazırlanması gerekiyor.   
-* Sosyal mesafe sınırlandırmalarını yeni getirmeye başlayan yerlerde kısa dönem içerisinde vakalarda bir artış gözlemlemeleri öümkündür, fakat orta vadede vakalardaki artış büyük ihtimalle durağanlaşıp azalmaya başlayacaktır.
+* Sosyal mesafe kurallarını yeni getirmeye başlayan yerlerde kısa dönem içerisinde vakalarda bir artış gözlemlemeleri öümkündür, fakat orta vadede vakalardaki artış büyük ihtimalle durağanlaşıp azalmaya başlayacaktır.
 * Hem aktif enfeksiyonlu vakalar hem de iyileşmiş bireyler için testlerin yapılması bu salgınla başa çıkmak için hayati öneme sahip olacaktır.
 ```
 
@@ -132,7 +132,7 @@ Bu nedenle, bu anlatıyı okurken, haritadaki her bir dairenin boyutunun, salgı
 
 Belirli bir vakanın nerede enfekte olduğunu belirlemek, hangi bölgelerin öncelikle seyahatle ilişkili vakalara göre yerel yayılım yaşadığını anlamak için önemlidir. Dizilim verileri, bu senaryolar arasında ayrım yapmamıza yardımcı olabilir.
 <br><br>
-Burada ağaç, bir vakanın seyahat geçmişi (biliniyorsa)renklendirilir. Ortadaki Kanada dizilimine baktığımızda (Canada/BC_78548/2020) Avrupaya yapılan seyahat geçmişlerini raporladıklarını görüyoruz. Diğer Avrupa dizilimleriyle birlikte bu enfeksiyon grupları bu vakaların neredeyse tamamen seyahatlarla ilişkili olduğunu göstermektedir.
+Burada ağaç, bir vakanın seyahat geçmişi (biliniyorsa) renklendirilir. Ortadaki Kanada dizilimine baktığımızda (Canada/BC_78548/2020) Avrupaya yapılan seyahat geçmişlerini raporladıklarını görüyoruz. Diğer Avrupa dizilimleriyle birlikte bu enfeksiyon grupları bu vakaların neredeyse tamamen seyahatlarla ilişkili olduğunu göstermektedir.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
@@ -169,7 +169,7 @@ Ancak, virüsün yayıldığı her ülkede bunun bir salgın haline geldiğini s
 COVID-19 aniden patlamış gibi görünebilir.
 Birçok insan için bu salgın, dünyanın diğer bölgelerindeki soyut bir endişeden bir gecede günlük yaşamlarını ciddi şekilde etkileyen bir şeye dönüşmüş olabilir.
 <br><br>
-Ancak bunun uzun süreden beri yavaş yavaş ilerlediğini unutmayın. Bu virüs sadece yeni yerlere hızlıca taşınan bir salgndan ibaret değil.
+Ancak bunun uzun süreden beri yavaş yavaş ilerlediğini unutmayın. Bu virüs sadece yeni yerlere hızlıca taşınan bir salgından ibaret değil.
 Büyük olasılıkla dünyadaki birçok yer salgının kendi çevrelerine birkaç hafta önce ulaşmasından sonra durumun ciddiyetini yeni yeni fark ediyor.
 <br><br>
 Salgının kendi çevrelerine ulaşabileceğini fark etmeyen bölgelerin şimdiden hazırlanması ve gözetim altında yapılan testlere başlaması gerekiyor.  
@@ -198,7 +198,7 @@ Dolayısıyla bu salgınlar yavaş yavaş diğer bölgelere de virüş girişine
 # [Salgınlar nasıl büyür: bir örnek](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
 Washington eyaleti verilerinde bunun açık bir örneğini görebiliriz.
-Mousla ana organizmanın köküne doğru gittiğimizde görüyoruz ki virüs bu bölgeye 2020 Ocak sonu ile Şubat ortası arasında bir zamanda giriş yapmış.([methods](https://nextstrain.org/narratives/trees-background?n=6)).
+Mousla ana organizmanın köküne doğru gittiğimizde görüyoruz ki virüs bu bölgeye 2020 Ocak sonu ile Şubat ortası arasında bir zamanda giriş yapmış. ([methodlar](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
 Şu anda, Mart ortasında (yaklaşık 6 hafta sonra), görüyoruz ki yerel salgın tüm bu bölgede yayılım halinde.Sadece dizilim verilerinden, katlanarak büyüyen bir popülasyon varsayarak, 3-6 günlük bir iki katına çıkma oranı tahmin ediyoruz.
 <br>
@@ -212,11 +212,11 @@ Mousla ana organizmanın köküne doğru gittiğimizde görüyoruz ki virüs bu 
 <!-- This is left-side text 11-->
 # [Salgınlar nasıl yayılır: bir örnek](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-Ayrıca, başlangıçta yerel olarak başlamış salgınların diğer yerlere nasıl giriş yaptığına dair bir örnek de görebiliriz.
+Başlangıçta yerel olarak başlamış salgınların diğer yerlere nasıl giriş yaptığına dair bir örnek de görebiliriz.
 Utah'tan ağacın (turuncu) üst tarafına yakın olan örnekleri, Washington salgınının olduğu organizmalar grubunda toplanır.
 Bu, yayılım zincirinde ara adım (lar) olması da mümkün olmakla birlikte, Washington'dan Utah'a giriş ile tutarlıdır.
 <br><br>
-Tabii ki, bu virüsün Utah'a girmesinin yerel bir salgınal sonuçlanıp sonuçlanmaycağını bilmiyoruz.
+Tabii ki, bu virüsün Utah'a girmesinin yerel bir salgınla sonuçlanıp sonuçlanmaycağını bilmiyoruz.
 Ancak, eğer virüs bu bölgeye girişle birlikte yayılmaya devam ederse önümüzdeki 4 hafta içinde bu sayının katlanmasını bekleriz.
 <br><br>
 Bu sadece bir örnek.
@@ -273,9 +273,9 @@ Eğer herkes günlük iletişimini %25 oranında azaltırsa, gelecek ay vaka say
 
 ## Eğer yetkiliyseniz...
 * Testleri herkese açık yapın.  
-* Sosyal mesafe uygulamlarını yürürlülüğe koyun.  
+* Sosyal mesafe uygulamalarını yürürlüğe koyun.  
 * Kapsamlı temas izleme çalışmlarına maddi olarak destek verin ve uygulayın.  
-* Sosyal uzaklaşma önlemlerinden etkilenenleri finansal olarak destekleyin (örneğin, saatlik çalışanlar, yaşlı veya çocuk bakımı sorumlulukları olanlar, küçük işletmeler vb.).
+* Sosyal uzaklaşma önlemlerinden etkilenenleri finansal olarak destekleyin (örneğin, saatlik çalışanlar, yaşlı veya çocuk bakımı sorumluluğu olanlar, küçük işletmeler vb.).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
