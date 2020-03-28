@@ -100,11 +100,13 @@ Analizamos 1.495 genomas de COVID-19 compartidos públicamente. Comparando estos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
+```auspiceMainDisplayMarkdown
 # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
 This information will make interpreting the data we present in this narrative easier.
 <br><br>
 If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+```
 
 # [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-27)
 Hemos compilado información que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2, también llamado hCov-19. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
