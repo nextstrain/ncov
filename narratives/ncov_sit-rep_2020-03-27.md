@@ -34,16 +34,16 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text 1-->
 # [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
+* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=7).  
+* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=11).  
+* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=13).  
+* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=15).  
+* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=17).  
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Executive summary
