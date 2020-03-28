@@ -126,7 +126,7 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 
 <!-- ############ EUROPE ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
+# [تحديثات من اوروبا](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
 
 <!-- There is no right side text -->
@@ -134,19 +134,20 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+# [انتشار مستمر عبر الحدود خلال الاسابيع 3-5 الماضية](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
-Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
+نظهر هنا عينات جمعت من اوروبا في الاسابيع الثلاثة الماضية، ملونة حسب الدولة المعزولة منها.
+
+من الواضح انه بينما هناك بعض التجمعات الصغيرة الخاصة بكل دولة، فإن هناك أيضاً كمية كبيرة من الخلط بين العزلات من الدول المختلفة.
 <br><br>
-This suggests that there has been continued spread across borders within the last 3-5 weeks.
+وهذا يقترح بأنه كان هناك انتشار مستمر عبر الحدود خلال الاسابيع 3-5 الماضية. 
 <br><br>
-This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
+هذا التجمع الجغرافي ممكن ان يصبح اكثر قوة من خلال تدابير تخفيف الانتشار الحديثة والتي تحد من السفر بين المناطق.
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+# [New sequences from Icela(https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 We received many new sequences from Iceland.
 Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
