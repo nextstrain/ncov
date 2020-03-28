@@ -217,6 +217,26 @@ Japan/DP0890/2020
 # The GISAID data was subsequently updated => TODO check if this sequence has been fixed
 Norway/1539/2020
 
+# Portugal/PT0006a/2020 and Portugal/PT0006b/2020 seem to be same patient sampled 2 days apart?
+# Exclude one (neither making it to build right now, but in case in future)
+Portugal/PT0006b/2020
+
+# Utah dates are 24 Mar when uploaded on 27th - very fast!
+# Exclude until we can verify these dates are *collection dates*
+USA/UT-00010/2020
+USA/UT-00011/2020
+USA/UT-00012/2020
+USA/UT-00013/2020
+USA/UT-00014/2020
+USA/UT-00015/2020
+USA/UT-00016/2020
+USA/UT-00017/2020
+USA/UT-00027/2020
+USA/UT-00028/2020
+USA/UT-00031/2020
+USA/UT-00032/2020
+USA/UT-00033/2020
+USA/UT-00034/2020
 
 # Exclude WI sequences temporarily until dates are fixed
 # The dates given are *sequencing* dates not *sample* dates

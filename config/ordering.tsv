@@ -292,6 +292,10 @@ division	Talca
 division	Sao Paulo
 division	Espirito Santo
 division	Bahia
+division	Goiais
+division	Minas Gerais
+division	São Paulo
+division	Rio Grande do Sul
 division	Rio de Janeiro
 division	Distrito Federal
 division	Medellin
@@ -332,6 +336,8 @@ country	Saudi Arabia
 country	Kuwait
 country	Pakistan
 country	Georgia
+country	Russia
+country	Slovakia
 country	Poland
 country	Hungary
 country	France
@@ -357,6 +363,7 @@ country	South Africa
 country	Chile
 country	Ecuador
 country	Brazil
+country	Colombia
 country	Panama
 country	Mexico
 country	USA
