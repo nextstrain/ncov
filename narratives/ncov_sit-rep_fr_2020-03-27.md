@@ -40,16 +40,16 @@ abstract: "Ce rapport utilise des données génomiques partagées publiquement p
 <!-- This is left-side text 1-->
 # [Table des matières](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Ressources sur COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).  
-* [Une remarque sur l'échantillonnage](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Les mises à jour pour l'Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Les mises à jour pour l'Amérique du Nord](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Mises à jour pour l'Amérique centrale et du Sud](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Mises à jour pour l'Asie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Mises à jour pour l'Afrique](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Mises à jour pour l'Océanie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [Mesures que vous pouvez prendre](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Crédit scientifique](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Ressources sur COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=2).  
+* [Une remarque sur l'échantillonnage](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=3).  
+* [Les mises à jour pour l'Europe](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=4).  
+* [Les mises à jour pour l'Amérique du Nord](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=7).  
+* [Mises à jour pour l'Amérique centrale et du Sud](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=11).  
+* [Mises à jour pour l'Asie](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=13).  
+* [Mises à jour pour l'Afrique](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=15).  
+* [Mises à jour pour l'Océanie](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=17).  
+* [Mesures que vous pouvez prendre](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=19).  
+* [Crédit scientifique](https://nextstrain.org/narratives/ncov/sit-rep/fr/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Résumé exécutif
