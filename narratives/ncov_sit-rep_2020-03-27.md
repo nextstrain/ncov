@@ -148,7 +148,7 @@ This geographic clustering might become stronger with recent mitigation efforts 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&f_country=Iceland&legend=open)
+# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 We received many new sequences from Iceland.
 Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
@@ -272,7 +272,7 @@ Some of these sequences form a group of very closely related, local cases that w
 <br><br>
 This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier.
 <br><br>
-The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in a many other places.
+The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places.
 <!-- There is no right side text -->
 
 
