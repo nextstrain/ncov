@@ -43,16 +43,25 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-Here, we analyzed XX publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world.
+Here, we analyzed XX publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is evolving and moving around the world. In this week's updates, we report:
 
-For a current snapshot of the number of coronavirus cases around the world, see [Our World In Data](https://ourworldindata.org/coronavirus).
+**North America**   
+*
 
-In this report, we show XX
-At this time, we urge XX
+**Central and South America**
+*
 
-In this week's updates, we report:  
+**Europe**  
+*
 
-* XX
+**Asia**  
+*
+
+**Africa**  
+*
+
+**Oceania**
+*
 
 ```
 
@@ -60,41 +69,47 @@ In this week's updates, we report:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-05)
+# [COVID-19 Resources](https://nextstrain.org/ncov/2020-XX-XX)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2.
 This information will make interpreting the data we present in this narrative easier; if you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Background
+# Background and Resources  
 
-<div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+## Nextstrain Resources  
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/)  
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
-</div>
+[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV)
 
-## Further Reading
+[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2)
 
-* Summary of the SARS-CoV-2 outbreak on [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Material provided by the [US CDC](https://www.cdc.gov/coronavirus/index.html).
+[Sampling: why aren't you covering the situation in country X?](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3)
 
-## Nextstrain narratives
+[FAQs](https://nextstrain.org/help/coronavirus/FAQ)
 
-The following pages contain analysis performed using [Nextstrain](https://nextstrain.org).
-Scrolling through will reveal paragraphs of text with a corresponding visualization of the genomic data.
+[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11)
 
-To have full genomes of a novel and large RNA virus this quickly is a remarkable achievement.
-These analyses have been made possible by the rapid and open sharing of genomic data and interpretations by scientists all around the world (see the final slide for a visualization of sequencing authorship).
+
+## External Resources  
+[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
+
+[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
+
+[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus)
+
+[Our World in Data](https://ourworldindata.org/coronavirus)
+
+[Ask a Scientist & FAQs](https://covid19.fas.org/l/en)
+
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [About this data](https://nextstrain.org/ncov/2020-XX-XX?c=country&r=country&d=map&p=grid&legend=closed)
+# [A note on sampling](https://nextstrain.org/ncov/2020-XX-XX?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in XX countries across X continents. This is an incredible feat -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
@@ -102,6 +117,14 @@ While this data enables us to infer many useful characteristics of the outbreak 
 For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
 
 <!-- There is NO right-side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Updates for North America](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&f_region=North%20America&p=grid)
+
+*  
+<!-- There is no right side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -123,6 +146,188 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 
 
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Updates for Central & South America](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&f_region=Central%20America,South%20America&p=grid)
+
+*  
+<!-- There is no right side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+
+<!-- There is no right side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+<!-- This is the right-side text -->
+
+```auspiceMainDisplayMarkdown
+
+
+```
+<!-- ############ SLIDE BREAK ############# -->
+
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Updates for Europe](https://nextstrain.org/ncov/2020-03-25?d=tree,map&f_region=Europe&p=grid)
+
+*  
+<!-- There is no right side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+
+<!-- There is no right side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+<!-- This is the right-side text -->
+
+```auspiceMainDisplayMarkdown
+
+
+```
+<!-- ############ SLIDE BREAK ############# -->
+
+
+
+
+
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Updates for Asia](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&f_region=Asia&p=grid)
+
+*  
+<!-- There is no right side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+
+<!-- There is no right side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+<!-- This is the right-side text -->
+
+```auspiceMainDisplayMarkdown
+
+
+```
+<!-- ############ SLIDE BREAK ############# -->
+
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Updates for Africa](https://nextstrain.org/ncov/2020-03-25?d=tree,map&f_region=Africa&p=grid)
+
+*  
+<!-- There is no right side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+
+<!-- There is no right side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+<!-- This is the right-side text -->
+
+```auspiceMainDisplayMarkdown
+
+
+```
+<!-- ############ SLIDE BREAK ############# -->
+
+
+
+
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Updates for Oceania](https://nextstrain.org/ncov/2020-03-25?d=tree,map&f_region=Oceania&p=grid)
+
+*  
+<!-- There is no right side text -->
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+
+<!-- There is no right side text -->
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# []()
+<!-- This is the right-side text -->
+
+```auspiceMainDisplayMarkdown
+
+
+```
+<!-- ############ SLIDE BREAK ############# -->
+
+
+
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text 13-->
+# [Takeaways](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+-   
+<br>
+-   
+<br>
+- Controlling local outbreaks through social distancing is crucial to:  
+  - #FlattenTheCurve to prevent healthcare systems from being overwhelmed by many simultaneous cases  
+  - Reduce the total number of cases and fatalities  
+  - Allow time for the development of therapeutics and vaccines  
+
+<!-- This is the right-side text -->
+
+```auspiceMainDisplayMarkdown
+# What you can do
+## ...as an individual
+* Dramatically reduce the number of people you are in contact with each day, especially if you are in a vulnerable group (e.g., seniors and those with pre-existing conditions).
+* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
+* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
+* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
+* If you are an employer, encourage your employees to work from home wherever possible
+
+## ...as an official  
+* Make testing free and broadly available.  
+* Put strong social distancing measures in place.  
+* Fund and implement extensive contact tracing efforts.  
+* Financially support those impacted by social distancing measures (e.g., hourly workers, those with elder or childcare responsibilities, small businesses, etc.).
+```
+
+<!-- ############ SLIDE BREAK ############# -->
 
 
 

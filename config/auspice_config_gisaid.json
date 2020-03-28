@@ -85,8 +85,8 @@
     "division",
     "division_exposure",
     "country",
-    "host",
     "region",
+    "host",
     "author",
     "originating_lab",
     "submitting_lab"

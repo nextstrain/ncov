@@ -3,7 +3,7 @@
   "build_url": "https://github.com/nextstrain/ncov",
   "maintainers": [
     {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
-  ],  
+  ],
   "colorings": [
     {
       "key": "location",
@@ -90,8 +90,8 @@
     "division",
     "division_exposure",
     "country",
-    "host",
     "region",
+    "host",
     "author",
     "originating_lab",
     "submitting_lab"

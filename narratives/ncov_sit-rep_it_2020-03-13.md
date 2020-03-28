@@ -168,7 +168,7 @@ Al momento abbiamo sequenze da campioni raccolti in 30 Paesi e 5 continenti. Que
 Anche se questi dati ci permettono di dedurre molte utili caratteristiche dell'epidemia e di tracciare la sua evoluzione in tempo reale, è però importante enfatizzare che le nostre conclusioni sono limitate dalla disponibilità di dati.
 <br><br>
 <!-- For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. -->
-Per esempio, la cartina mostra molte poche sequenze dal sud del mondo. Questo NON e' dovuto al fatto che il COVID-19 non stia circolando in queste aree, o che questi casi non siano cruciali per la comprensione; in realtà, ciò è dovuto al fatto che non abbiamo abbastanza dati disponibili da queste aree. La dimensione di ogni cerchio sulla cartina indica quanti dati sono disponibili da una certa area, e non la reale dimensione del focolaio.
+Per esempio, la cartina mostra molte poche sequenze dal sud del mondo. Questo NON è dovuto al fatto che il COVID-19 non stia circolando in queste aree, o che questi casi non siano cruciali per la comprensione; in realtà, ciò è dovuto al fatto che non abbiamo abbastanza dati disponibili da queste aree. La dimensione di ogni cerchio sulla cartina indica quanti dati sono disponibili da una certa area, e non la reale dimensione del focolaio.
 <!-- There is NO right-side text -->
 
 
@@ -178,7 +178,7 @@ Per esempio, la cartina mostra molte poche sequenze dal sud del mondo. Questo NO
 # [Circolazione del virus in Europa](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&f_country=Belgium,France,Germany,Ireland,Italy,Netherlands,Portugal,Spain,Sweden,Switzerland,United%20Kingdom,Ireland&label=clade:A2&m=div&d=map,tree&p=grid)
 
 <!-- Here, we see a large clade of sequences from Europe. -->
-Qui osserviamo un grane ramo che contiene sequenze provenienti dall'Europa.
+Qui osserviamo un grande ramo che contiene sequenze provenienti dall'Europa.
 <!-- Notably, sequences from many different countries intercalate, indicating that COVID-19 is already circulating quite widely across Europe. -->
 È interessante notare che le sequenze di molti Paesi diversi risultano mescolate, e ciò indica che il COVID-19 sta già circolando piuttosto ampiamente in tutta Europa.
 <br><br>
@@ -189,10 +189,10 @@ Ingrandendo la cartina, si può osservare che ci sono molte connessioni tra l'It
 
 
 <!-- # [Local transmission in the British Isles & Ireland](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full) -->
-# [Trasmissione locale nelle Isole britanniche e in Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
+# [Trasmissione locale nelle Isole Britanniche e in Irlanda](https://nextstrain.org/ncov/2020-03-13?c=country&legend=closed&d=tree&f_country=United%20Kingdom,Ireland&p=full)
 
 <!-- Looking at the British Isles & Ireland as an example, we can see several instances where viruses that are closely related to samples from other countries appear in the British Isles & Ireland.-->
-Prendendo le Isole britanniche e l'Irlanda come esempio, osserviamo diversi casi in cui compaiono nelle Isole Britanniche e in Irlanda virus molto simili a quelli presenti in altri paesi.
+Prendendo le Isole Britanniche e l'Irlanda come esempio, osserviamo diversi casi in cui in questi luoghi compaiono virus molto simili a quelli presenti in altri Paesi.
 <br><br>
 
 <!-- This is consistent with 4 or more introductions from other locations. -->
@@ -200,7 +200,7 @@ Questo è coerente con l'ipotesi che ci siano state 4 o più introduzioni del vi
 <br><br>
 
 <!-- We also see instances where after an introduction, there are several closely-related cases from the same location. This is consistent with local community transmission from more than one of these introductions. -->
-Abbiamo osservato anche casi in cui, dopo un ingresso del virus, ci siano diversi casi strettamente connessi tra loro nella stessa località. Questo è coerente con l'ipotesi di una trasmissione del virus a livello locale derivata da uno o più di questi ingressi.
+Abbiamo osservato anche casi in cui, dopo un ingresso del virus, ci sono diversi casi strettamente connessi tra loro nella stessa località. Questo è coerente con l'ipotesi di una trasmissione del virus a livello locale derivata da uno o più di questi ingressi.
 
 <!-- There is no right side text -->
 
@@ -247,7 +247,7 @@ Ciò suggerisce che ci siano dei focolai attivi e stia avvenendo diffusione loca
 <!-- Here, we see a large cluster of cases from Washington that are all closely related. -->
 Qui, osserviamo un grande gruppo di casi da Washington che sono tutti molto simili geneticamente.
 <!-- From this, we conclude that there is extensive local spread within Washington state. -->
-Da ciò, concludiamo che esista un grosso focolaio locale del virus nello Stato di Washington.
+Da ciò, concludiamo che esiste un grosso focolaio locale del virus nello Stato di Washington.
 <br><br>
 
 <!-- Interestingly, the Washington samples intercalate with samples from the Grand Princess cruise ship. -->
@@ -262,9 +262,9 @@ Non è ancora chiaro se il virus si sia diffuso dalla nave da crociera a Washing
 # [Diffusione del virus SARS-CoV-2 in California](https://nextstrain.org/ncov/2020-03-13?c=country&r=division&d=tree,map&f_division=California&m=div&p=grid&legend=closed)
 
 <!-- Looking at samples from California, we see evidence for multiple introductions. -->
-Osservando i campioni provenienti dalla California, osserviamo evidenze di introduzioni multiple.
+Osservando i campioni provenienti dalla California, troviamo prove di introduzioni multiple.
 <!-- More importantly, we see at least one cluster of closely related cases, all sampled in California over a short time period (click on ['Explore the Data'](https://nextstrain.org/ncov) and search for 'CA9' to see on example). -->
-Ancora più importante, vediamo che almeno un gruppo di casi molto simili geneticamente in campioni rilevati in California durante un breve periodo di tempo (clicca su ['Esplora i dati'](https://nextstrain.org/ncov) e cerca 'CA9' per vedere un esempio).
+Ancora più importante, vediamo almeno un gruppo di casi molto simili geneticamente in campioni rilevati in California durante un breve periodo di tempo (clicca su ['Esplora i dati'](https://nextstrain.org/ncov) e cerca 'CA9' per vedere un esempio).
 <br><br>
 
 <!-- This strongly suggests that there is ongoing local transmission within California. -->

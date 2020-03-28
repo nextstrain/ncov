@@ -36,13 +36,24 @@ Jingzhou/HBCDC-HB-01/2020
 # Far to divergent- 30 mutations
 Wuhan/HBCDC-HB-04/2019
 
+# UPHL-05 and -06 are same patient - exclude -06
+USA/UPHL-06/2020
+
+# UPHL-03 and -04 are same patient - exclude -04
+USA/UPHL-04/2020
+
 # Missing mutations
 Netherlands/Oisterwijk_1364072/2020
 Netherlands/Utrecht_1364066/2020
+USA/CT-Yale-001/2020
 Ireland/COR-20134/2020
+Guangzhou/GZMU0031/2020
+Canada/BC_40860/2020
+England/20102000906/2020
 
 # Confusing phylogeography
 Netherlands/Rotterdam_1363790/2020
+Netherlands/NoordBrabant_5/2020
 
 # Missing precise date
 Netherlands/NoordBrabant_34/2020
@@ -60,6 +71,12 @@ Wuhan/IVDC-HB-envF54/2020
 Wuhan/WH02/2019
 Guangzhou/GZMU0016/2020
 Guangzhou/GZMU0047/2020
+HongKong/CUHK2/2020
+Wales/PHW06/2020
+HongKong/Case1_21012020/2020
+Shandong/LY007/2020
+USA/WA-UW119/2020
+USA/WA-UW230/2020
 
 # Excluding because seem to be too divergent - worth double checking
 Shandong/LY002/2020
@@ -119,8 +136,120 @@ USA/CruiseA-25/2020
 USA/CruiseA-26/2020
 
 # way too divergent 
-Russia/StPetersburg-3524/2020
+# Russia/StPetersburg-3524/2020
 
 # temporarily excluded because is currently reverse complement 
 Peru/010/2020
 
+# Japan Diamond Princess sequences 
+Japan/DP0005/2020
+Japan/DP0027/2020
+Japan/DP0037/2020
+Japan/DP0058/2020
+Japan/DP0059/2020
+Japan/DP0065/2020
+Japan/DP0077/2020
+Japan/DP0078/2020
+Japan/DP0104/2020
+Japan/DP0107/2020
+Japan/DP0121/2020
+Japan/DP0133/2020
+Japan/DP0134/2020
+Japan/DP0152/2020
+Japan/DP0158/2020
+Japan/DP0184/2020
+Japan/DP0190/2020
+Japan/DP0191/2020
+Japan/DP0196/2020
+Japan/DP0200/2020
+Japan/DP0236/2020
+Japan/DP0274/2020
+Japan/DP0278/2020
+Japan/DP0286/2020
+Japan/DP0287/2020
+Japan/DP0289/2020
+Japan/DP0290/2020
+Japan/DP0294/2020
+Japan/DP0311/2020
+Japan/DP0319/2020
+Japan/DP0328/2020
+Japan/DP0344/2020
+Japan/DP0346/2020
+Japan/DP0357/2020
+Japan/DP0361/2020
+Japan/DP0438/2020
+Japan/DP0457/2020
+Japan/DP0462/2020
+Japan/DP0464/2020
+Japan/DP0476/2020
+Japan/DP0481/2020
+Japan/DP0482/2020
+Japan/DP0543/2020
+Japan/DP0544/2020
+Japan/DP0568/2020
+Japan/DP0588/2020
+Japan/DP0644/2020
+Japan/DP0645/2020
+Japan/DP0654/2020
+Japan/DP0687/2020
+Japan/DP0690/2020
+Japan/DP0697/2020
+Japan/DP0699/2020
+Japan/DP0700/2020
+Japan/DP0703/2020
+Japan/DP0724/2020
+Japan/DP0743/2020
+Japan/DP0752/2020
+Japan/DP0763/2020
+Japan/DP0764/2020
+Japan/DP0765/2020
+Japan/DP0779/2020
+Japan/DP0785/2020
+Japan/DP0786/2020
+Japan/DP0802/2020
+Japan/DP0803/2020
+Japan/DP0804/2020
+Japan/DP0827/2020
+Japan/DP0880/2020
+Japan/DP0890/2020
+
+# causes IQTREE error: ERROR: b'ERROR: Sequence Norway_X_X_1539_X_X_2020 has invalid character I at site 20199
+# The GISAID data was subsequently updated => TODO check if this sequence has been fixed
+Norway/1539/2020
+
+# Portugal/PT0006a/2020 and Portugal/PT0006b/2020 seem to be same patient sampled 2 days apart?
+# Exclude one (neither making it to build right now, but in case in future)
+Portugal/PT0006b/2020
+
+# Utah dates are 24 Mar when uploaded on 27th - very fast!
+# Exclude until we can verify these dates are *collection dates*
+USA/UT-00010/2020
+USA/UT-00011/2020
+USA/UT-00012/2020
+USA/UT-00013/2020
+USA/UT-00014/2020
+USA/UT-00015/2020
+USA/UT-00016/2020
+USA/UT-00017/2020
+USA/UT-00027/2020
+USA/UT-00028/2020
+USA/UT-00031/2020
+USA/UT-00032/2020
+USA/UT-00033/2020
+USA/UT-00034/2020
+
+# Exclude WI sequences temporarily until dates are fixed
+# The dates given are *sequencing* dates not *sample* dates
+USA/WI-11/2020
+USA/WI-12/2020
+USA/WI-13/2020
+USA/WI-14/2020
+USA/WI-15/2020
+USA/WI-16/2020
+USA/WI-17/2020
+USA/WI-18/2020
+USA/WI-19/2020
+USA/WI-21/2020
+USA/WI-22/2020
+USA/WI-23/2020
+USA/WI-24/2020
