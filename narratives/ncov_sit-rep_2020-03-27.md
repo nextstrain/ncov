@@ -48,7 +48,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spread locally. In this week's updates, we report:
+We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
 
 **Europe**  
 * We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
@@ -91,10 +91,11 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
   <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
   <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
-  
+
     <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ </a>
+
+        <a href="https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11"><img width="100" alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> Common misconceptions </a>
 </div>
-#### [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 <br><br>
 
 ## External Resources  
@@ -198,7 +199,7 @@ Here, we see several samples from Solano County in northern California, that are
 <br><br>
 While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
 <br><br>
-Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara county.
+Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
 <br><br>
 These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
 <!-- There is no right side text -->
