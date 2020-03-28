@@ -1,5 +1,5 @@
 ---
-title: التحليل الجينومي لانتشار كوفيد 19 . تقرير حالة. 27 اذار 2020.
+title:التحليل الجينومي لانتشار كوفيد 19 . تقرير حالة. 27 اذار 2020.
 authors:
   - Sidney M. Bell
   - Nicola Müller
@@ -34,16 +34,16 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 <!-- This is left-side text 1-->
 # [جدول المحتويات](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=2).     
-* [عن هذه البيانات](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=3).  
-* [تحديثات عن اوروبا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=4).  
-* [تحديثات عن امريكا الشمالية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=7).  
-* [تحديثات عن وسط وجنوب امريكا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=11).  
-* [تحديثات عن آسيا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=13).  
-* [تحديثات عن أفريقيا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=15).  
-* [تحديثات عن أوقيانوسيا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=17).  
-* [ماذا يمكنك فعله](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=19).  
-* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=20).  
+* [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
+* [عن هذه البيانات](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+* [تحديثات عن اوروبا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+* [تحديثات عن امريكا الشمالية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [تحديثات عن وسط وجنوب امريكا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [تحديثات عن آسيا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [تحديثات عن أفريقيا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [تحديثات عن أوقيانوسيا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [ماذا يمكنك فعله](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # الملخص التنفيذي
@@ -75,28 +75,28 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
+# [مصادر كوفيد 19 العلمية](https://nextstrain.org/ncov/2020-03-27)
+قمنا هنا بتحضير بعض المصادر الني تستحق القراءة للاطلاع الذاتي عن كوفيد 19 والفيروس الذي يسببه، سارس كو في 2. والمعروف ايضا كوفي 19 البشري.
+سوف تجعل هذه المعلومات تحليل البيانات التب نعرضها في هذا التقرير اسهل. 
 <br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+اذا لم تكن على دراية باشجار التصنيف الجيني، فنحن نشجعك على فحص  ['كيف تقرأ التصنيف الجيني' تقرير](https://nextstrain.org/narratives/trees-background/)  لتعود بعد ان تكون جاهزا
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Nextstrain Resources  
+## مصار نيكست سترين (السلالة التالية) 
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+[كيف تقرأ التصنيف الجيني](https://nextstrain.org/narratives/trees-background/).  
 
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+[خلفية علمية عن فيروسات كورونا](https://nextstrain.org/help/coronavirus/human-CoV).
 
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
+[خلفية علمية عن وباء كوفي 19 البشري الحالي](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
+[الاسئلة الشائعة](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[مفاهيم خاطئة شائعة](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
-## External Resources  
+## المصادر الخارجية  
 [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
 [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
