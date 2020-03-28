@@ -113,12 +113,12 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [ملاحظات على جمع العيناتA note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+نمتلك حالياً تيلسلات لعزلات فيروسية مأخوذة من 48 دولة في 6 قارات. وهذا انجاز خارق-- حيث ان تحديد تسلسل جينوم فيروس ار ان اي كبير وغير معروف في وسط جائحة هو امر صعب، وما كان من الممكن ان يكون لولا الجهد الرائع والمشاركة السريعة للبيانات من قبل العلماء والاطباء حول العالم
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+بينما تمكننا هذه البيانات من استنتاج العديد من الخصائص المفيدة عن الوباء وتتبع انتشاره في الزمن الحقيقي، الا انه من المهم جداً التأكيد على ان استنتاجاتنا محدودة بوفرة البيانات
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+فعلى سبيل المثال، ترينا الخارطة تسلسلات قليلة جدا من النصف الجنوبي للكرة الارضية. هذا ليس لان كوفيد 19 لا يدور في تلك المناطق ولا لان تلك الحالات غير مهمة لفهم الوباء وانما لاننا فقط لا نمتلك بيانات كافية من تلك المناطق. حجم كل دائرة على الخريطة يشير الى كمية البيانات المتوفرة حالياً من تلك المنطقة, وليس إلى الحجم الحقيقي للوباء بها.
 <!-- There is NO right-side text -->
 
 
