@@ -32,18 +32,19 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 
 <!-- This is left-side text 1-->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
+# [Contenidos](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
+* [Nota sobre los datos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+* [Actualizaciones de Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+* [Actualizaciones de América del Norte](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Actualizaciones de América Central y América del Sur](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Actualizaciones de Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Actualizaciones de Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Actualizaciones de Oceanía](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [¡Qué puedes hacer tú!](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Executive summary
@@ -96,8 +97,6 @@ Analizamos 1.495 genomas de COVID-19 compartidos públicamente. Comparando estos
 
 **Oceanía**
 * Hay evidencia de transmisión local en Nueva Gales del Sur, Australia.
-```
-
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
@@ -106,6 +105,12 @@ We've prepared some resources that are worth reading to familiarize yourself wit
 This information will make interpreting the data we present in this narrative easier.
 <br><br>
 If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+
+# [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-27)
+Hemos compilado información que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2, también llamado hCov-19. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
+<br><br>
+Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion ['Cómo leer filogenias'](https://nextstrain.org/narratives/trees-background/es) antes de leer este reporte.
+
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
@@ -147,13 +152,12 @@ While this data enables us to infer many useful characteristics of the outbreak 
 For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
 <!-- There is NO right-side text -->
 
-# [Acerca del muestreo](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+# [Acerca del muestreo de datos](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
 Actualmente tenemos secuencias virales tomadas en 48 países de 6 continentes. Este es un logro increíble: secuenciar un virus de ARN desconocido y de gran tamaño durante una pandemia es difícil, y sólo es posible gracias al increíble trabajo y al  intercambio de datos por parte de científicos y médicos de todo el mundo.
 <br><br>
 Si bien estos datos nos permiten inferir muchas características útiles del brote y seguir su propagación en tiempo real, es importante destacar que nuestras conclusiones se ven limitadas por los datos disponibles.
 <br><br>
 Por ejemplo, el mapa muestra muy pocas secuencias del sur global. Esto NO se debe a que el COVID-19 no esté circulando en estas zonas, o a que le comprensión de estos casos no sea tan importante; simplemente no tenemos muchos datos de estas zonas. Nótese que el tamaño de cada círculo en el mapa indica la cantidad de datos disponibles actualmente de esa área, y no el tamaño real del brote.
-
 
 
 
