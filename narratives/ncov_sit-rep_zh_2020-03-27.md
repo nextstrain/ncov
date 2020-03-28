@@ -116,11 +116,12 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
 # [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+我们目前有来自6大洲48个国家的病毒样本序列。这是一项令人难以置信的壮举--在病毒大流行期间对一种未知的大型RNA病毒进行测序是很困难的，只有通过世界各地的科学家和医生令人难以置信的工作和及时共享数据才有可能。
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+虽然这些数据使我们能够推断出这场疫情的许多有用的特征并实时跟踪其传播，但需要强调的是，我们的结论受到现有数据的限制。 
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+比如，地图上显示来自南半球的序列很少。这既不是因为COVID-19没有在这些地区传播，也不是因为理解这些病例不重要，而仅仅是因为我们没有从这些地区获得足够的数据。地图上每个圆圈的大小表示的是该区域当前有多少数据可用，而不是疫情的真实严重程度。
+
 <!-- There is NO right-side text -->
 
 
@@ -128,7 +129,7 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ############ EUROPE ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
+# [欧洲的最新情况](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
 
 <!-- There is no right side text -->
@@ -136,29 +137,30 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+# [在过去的3-5周中，病毒仍在跨境传播](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
+这里，我们显示过去三周内在欧洲采集到的样本，颜色表示样本所采集自的国家。
+可以注意到，虽然有一些小型簇是专属于一个国家，来自不同国家的样本大量地混杂在一起。
 Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
 <br><br>
-This suggests that there has been continued spread across borders within the last 3-5 weeks.
+这意味着在过去的3-5周内病毒持续跨境传播。
 <br><br>
-This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
+随着最近的限制跨境旅行的防疫措施的推行，在地理上的分离可能会更明显。This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+# [来自冰岛的新序列](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
-We received many new sequences from Iceland.
-Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
-We're working hard to analyze all of this new data, and will report our findings next week.
+我们得到了大量来自冰岛的新序列。
+将样本按照（已知的）旅行史着色，我们看到很多病例是近期旅行所致。我们正在努力分析这些新数据，将在下周报告我们的发现。
+
 <!-- There is no right side text -->
 
 
-<!-- ############ NORTH AMERICA ############# -->
+<!-- ############ 北美洲 ############# -->
 <!-- This is left-side text 6-->
-# [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+# [北美洲的最新情况](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
 <!-- There is no right side text -->
