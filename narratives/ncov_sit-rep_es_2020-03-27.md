@@ -72,6 +72,32 @@ We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral gen
 * There is evidence in the genetic data for local transmission in New South Wales, Australia.
 ```
 
+# Resúmen ejecutivo
+
+Analizamos 1.495 genomas de COVID-19 compartidos públicamente. Comparando estos genomas entre sí, podemos caracterizar cómo COVID-19 se está moviendo alrededor del mundo y propagando localmente. Actualizaciones de esta semana:
+
+**Europa**  
+* Seguimos viendo una fuerte mezcla de muestras en Europa. Esto sugiere que el virus ha seguido moviéndose a través de las fronteras en las últimas 3-5 semanas. A medida que las medidas de mitigación surtan efecto, podremos ver más agrupación de casos por país.
+
+**América del Norte**   
+* Dentro de los EE.UU., los patrones de transmisión son complejos: las muestras recogidas en extremos opuestos del país muestran relaciones cercanas.
+* El estado de Washington ha tenido al menos dos brotes independientes (la primera probablemente de China, la segunda probablemente de Europa), que han dado lugar a dos cadenas de transmisión separadas.
+* Hay evidencia de transmisión local en varios estados, principalmente en California.
+
+**América Central y del Sur**
+* Esta semana recibimos nuevas secuencias de Sudamérica, pero el muestreo sigue siendo escaso. Es posible que haya más actividad de COVID en esta región que la que reflejan los datos disponibless, pero no podemos afirmarlo con seguridad.
+
+**Asia**  
+* Encontramos evidencia de exportación reciente de COVID-19 desde Irán.
+
+**Africa**  
+* La filogenia sugiere una probable transmisión local dentro de Kinshasa, en la República Democrática del Congo, durante los últimos 11+ días.
+* Esta semana recibimos nuevas secuencias de África, pero el muestreo sigue siendo escaso; es posible que haya mucha más actividad de COVID que la que reflejan los datos disponibles.
+
+**Oceanía**
+* Hay evidencia de transmisión local en Nueva Gales del Sur, Australia.
+```
+
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
