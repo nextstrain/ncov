@@ -90,17 +90,17 @@ Przeanalizowaliśmy 1,495</tag> dostępnych publicznie genomów COVID-19. Porów
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
+# [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-27)
+Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który tę chorobę wywołuje, również znanym jako hCov-19.
+Zawarte w nich informacje ułatwią interpretację danych, które prezentujemy w tym raporcie.
 <br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+Jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['Jak interpretować drzewa filogenetyczne'](https://nextstrain.org/narratives/trees-background/pl).
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Nextstrain Resources  
+## Materiały Nextstrain
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+[Jak interpretować drzewa filogenetyczne](https://nextstrain.org/narratives/trees-background/pl).  
 
 [Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
 
@@ -111,7 +111,7 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
-## External Resources  
+## Inne źródła  
 [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
 [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
@@ -128,12 +128,12 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Opis próbkowania](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+Obecnie dysponujemy sekwencjami próbek pobranych w 48</tag> krajach z 6 kontynenów. To niesamowity wyczyn -- sekwencjonowanie nieznanego wirusa o sporym genomie RNA w środku pandemii jest trudne i możliwe jedynie dzięki ogromnej pracy i sprawnemu udostępnianiu danych przez naukowców i lekarzy z całego świata.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+Choć zgromadzone dane umożliwiają wyciąganie wniosków na temat wielu przydatnych aspektów epidemii oraz pozwalają śledzić jej rozprzestrzenianie w czasie rzeczywistym, należy podkreślić, że są one ograniczone.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części świata. Powodem NIE jest to, że COVID-19 nie znajduje się w tych regionach, bądź przypadki z tych regionów są mniej istotne dla zrozumienia sytuacji; powodem jest po prostu niewielka ilość danych docierająca z tych obszarów. Wielkość każdego kółka na mapie wskazuje, jak wiele danych z tego regionu jest dostępnych w danym momencie, a nie jaka jest rzeczywista skala ogniska epidemii.
 <!-- There is NO right-side text -->
 
 
