@@ -50,29 +50,28 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 ```auspiceMainDisplayMarkdown
 # 报告摘要
 
-我们分析了1495个公开共享的COVID-19基因组。通过将这些病毒基因组相互比较，我们可以描述COVID-19是如何在世界各地蔓延和在社区中传播的。在本周的更新中，我们发现：
+我们分析了1495个公开共享的COVID-19基因组。通过将这些病毒基因组相互比较，我们可以描述COVID-19是如何在世界各地迁移和在社区中传播的。在本周的更新中，我们发现：
 
 **欧洲**  
-* We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
-* 我们继续看到在欧洲各地的样本充分地掺杂在一起，意味着病毒在过去的3-5周中仍在继续跨越各国边境。由于疫情控制措施生效需要时间，我们可能会看到更多的病例根据国家聚类在一起的情况。
+* 我们继续看到欧洲各地的样本在系统发生树上大量混杂在一起，意味着病毒在过去的3-5周中仍在跨境传播。随着疫情控制措施慢慢生效，我们可能会看到病例越来越多地根据所在国家聚类在一起。
 
 **北美洲**   
-* 在美国境内，传播情况很复杂：美国东西两岸采集到的样本亲缘关系很近。Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
-* 华盛顿州至少经历了两次独立的输入事件（第一起可能来自中国，第二起可能来自欧洲），这两起事件引发了两个不同的传播链。Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
-* 有证据表明，社区传播很可能已存在于多个州，其中加利福尼亚州的社区传播证据最为明显。There is evidence for likely local transmission within several states, most clearly within California.
+* 美国境内的传播情况很复杂：在美国的两头采集到的样本亲缘关系很近。Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
+* 华盛顿州至少经历了两起独立的输入事件（第一起可能来自中国，第二起可能来自欧洲），这两起事件引发了两个不同的传播链。
+* 证据表明，美国多个州内很可能已存在社区传播，其中加利福尼亚州的证据最为明显。
 
 **中美洲和南美洲**
-* 我们这周得到了南美洲的新序列，但是该地区的样本仍然稀缺。除了已有数据的地区之外，中美洲和南美洲可能有更多病毒传播存在，但我们不能确定。We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
+* 我们这周得到了来自南美洲的新序列，但是该地区的样本仍然稀缺。除了已有数据所表征的疫情之外，这个地区可能有更广泛的疫情存在，但我们不能确定。 
 
 **亚洲**  
-* 我们发现了最近从伊朗输出病例的证据。We find evidence for recent export of COVID-19 from Iran.
+* 我们发现了近期有从伊朗输出的病例的证据。
 
 **非洲**  
-* 系统发生树表明在过去的11天或更长时间里，刚果民主共和国的金沙萨市内很有可能发生了社区传播。
-* 我们这周得到了非洲的新序列，但是该地区的样本仍然稀缺。除了已有数据所表明的疫情之外，可能有广泛得多的疫情存在。We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
+* 系统发生树表明，在过去的11天或更长时间里，刚果民主共和国的金沙萨市内很有可能发生了社区传播。
+* 我们这周得到了来自非洲的新序列，但是该地区的样本仍然稀缺。除了已有数据所表征的疫情之外，可能有广泛得多的疫情存在。
 
 **大洋洲**
-* 遗传数据表明，澳大利亚的新南威尔士州内存在社区传播。There is evidence in the genetic data for local transmission in New South Wales, Australia.
+* 遗传数据表明，澳大利亚的新南威尔士州内存在社区传播。
 ```
 
 
@@ -115,7 +114,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+# [关于抽样](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
 我们目前有来自6大洲48个国家的病毒样本序列。这是一项令人难以置信的壮举--在病毒大流行期间对一种未知的大型RNA病毒进行测序是很困难的，只有通过世界各地的科学家和医生令人难以置信的工作和及时共享数据才有可能。
 <br><br>
 虽然这些数据使我们能够推断出这场疫情的许多有用的特征并实时跟踪其传播，但需要强调的是，我们的结论受到现有数据的限制。 
@@ -139,13 +138,12 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text 5-->
 # [在过去的3-5周中，病毒仍在跨境传播](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-这里，我们显示过去三周内在欧洲采集到的样本，颜色表示样本所采集自的国家。
-可以注意到，虽然有一些小型簇是专属于一个国家，来自不同国家的样本大量地混杂在一起。
-Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
+这里，我们显示过去三周内在欧洲采集到的样本，用颜色表示样本所采集自的国家。
+可以注意到，虽然有一些来自于同一国家的序列聚成小簇，但是也有来自不同国家的样本大量地混杂在一起。
 <br><br>
-这意味着在过去的3-5周内病毒持续跨境传播。
+这意味着在过去的3-5周内，病毒仍持续跨境传播。
 <br><br>
-随着最近的限制跨境旅行的防疫措施的推行，在地理上的分离可能会更明显。This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
+随着最近限制跨境旅行的防疫措施的推行，病毒序列按照地理位置聚类的情况可能会变得更明显。
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
@@ -168,18 +166,15 @@ Notably, while there are some small clusters that are country-specific, there is
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+# [美国的传播情况很复杂，我们对其理解不足](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-即使只看美国境内，传播情况也是高度复杂的。
+即使只看美国境内，病毒的传播情况也是高度复杂的。
 <br><br>
-举例来说，最近的康涅狄格州的样本（已选样本）中，既有华盛顿州的样本（淡化的样本）的祖先，也有与华盛顿州样本相互交错排列的。For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
-虽然需要更多的数据来得出确凿的结论，这意味着在美国国内相距甚远的地区也存在近期的传播。
-While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
+举例来说，康涅狄格州的最近的样本（图中的已选样本）中，既有华盛顿州的样本（图中的虚化样本）的祖先型，也有与华盛顿州样本混杂排列的。
+虽然我们需要更多的数据来得出确凿的结论，但这暗示着即使是美国国内相距甚远的两个地方，近期也发生了病毒的传播。
 <br><br>
-这凸显了美国国内的传播情况比现有数据所能代表的要复杂得多。
-This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
-更多的数据可以帮助我们理解，在各州高度差异化的反应的背景下，这场很有可能深度连接的国家疫情将会如何发展。
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
+这凸显出美国国内的传播情况比现有数据所能代表的要复杂得多。
+更多的数据可以帮助我们理解，在美国各州高度差异化的应对策略之下，这场深度连接着美国各地区的疫情将会如何发展。
 <!-- There is no right side text -->
 
 
@@ -189,25 +184,24 @@ Additional data will help us understand what is likely a deeply interconnected n
 
 在华盛顿州的病例中，我们看到至少两起本地的疫情传播（序列聚成至少两簇）。
 <br><br>
-然而，这两簇序列有着不同的起源：第一簇与中国的样本亲缘关系最近，第二簇与欧洲的样本最近。当然，这些输入事件也有可能是间接的，经由一个其他地区的未被抽样到的病例。
-However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
+然而，这两簇序列有着不同的起源：第一簇与中国的样本亲缘关系最近，第二簇与欧洲的样本最近。这些输入事件也有可能是间接的，经由位于其他地区的未被抽样到的病例传播。
 <br><br>
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [加利福尼亚州可能存在两个本地传播链](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [加利福尼亚州可能有两个本地传播链](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
 我们在美国的其他地区也看到类似的情况。
 <br><br>
-这里，我们看到在加州北部的索兰诺郡的几个样本，它们采集于不同的日期，但序列的亲缘关系很近。
+这里，我们看到加州北部的索兰诺郡的几个样本，它们采集于不同的日期，但序列的亲缘关系很近。
 <br><br>
 虽然加州的现有数据还太有限，不足以让我们得出有力的结论，但是这些证据初步表明索兰诺郡内存在本地传播。
 <br><br>
 在树的其他地方可以看到，来自圣克拉拉郡的样本之间也存在类似的关系。
 <br><br>
-根据样本在树上的相对位置，可以看出这些郡县的聚集病例可能来自于不同的输入事件。
+根据样本在树上的相对位置，可以看出这两个郡的聚集病例可能来自于不同的输入事件。
 <!-- There is no right side text -->
 
 
@@ -221,14 +215,12 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [南美洲的样本主要是与旅行相关的病例](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-我们目前还没有很多来自南美洲的基因组序列数据。在现有的数据中，大部分是来自旅行者。这里，我们用颜色代表病例的已知旅行史。
+# [南美洲的样本主要与旅行相关](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+我们目前还没有很多来自南美洲的基因组序列数据。在现有的数据中，大部分是来自旅行者。这里，样本的颜色代表了病例的已知旅行史。
 <br><br>
-虽然，在与旅行无关的病例中也开始出现一些有可能有意思的格局，我们目前还没有足够的证据来得出任何结论。
-测序的行动正在提高中，形势明朗后，我们会再来报告。
-While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
-While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
-Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.
+虽然在与旅行无关的病例中也开始出现一些有可能有意义的现象，但我们目前还没有足够的证据来得出任何结论。
+现在测序量正在提高中，我们会在形势明朗后再来报告。
+
 <!-- There is no right side text -->
 
 
