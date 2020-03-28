@@ -189,7 +189,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [من  المرجح أن  يكون هناك  سلسلتان  مختلفتان  من تفشي الوباء في كالفورنيا](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
 We see similar patterns elsewhere in the U.S.
 <br><br>
