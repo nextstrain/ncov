@@ -22,9 +22,11 @@ affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA
 translators:
     - Meriem El Karoui
     - Maxime Morin
+    - Etienne Simon-Loriere
 translatorLinks:
     - https://twitter.com/MEKLab
     - https://twitter.com/Maijin212
+    - https://twitter.com/simonlorierelab
 date: "27 Mars 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "Ce rapport utilise des données génomiques partagées publiquement pour suivre la propagation de COVID-19. Ces rapports sont mis à jour chaque semaine."
