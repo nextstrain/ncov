@@ -41,21 +41,21 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 * [تحديثات عن وسط وجنوب امريكا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
 * [تحديثات عن آسيا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
 * [تحديثات عن أفريقيا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [تحديثات عن أوقيانوسيا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
 * [ماذا يمكنك فعله](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [الحقوق العلميةScientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# الملخص التنفيذي
 
-We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
+لقد قمنا بتحليل 1495 جينوم كوفيد 19 تم مشاركتها للعموم. من خلال مقارنة هذه الجينومات الفيروسية مع بعضها البعض نستطيع ان نحدد كيف يتنقل كوفيد 19 حول العالم وكيف ينتشر محلياً. في هذا التقرير الاسبوعي نوثق ما يلي:We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
 
-**Europe**  
-* We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
+**اوروبا Europe**  
+* نستمر في مشاهدة خلط قوي للعينات في كل انحاء اوروبا، وهذا يقترح بأن الفيروس ما زال مستمراً بالحركة عبر الحدود منذ الاسابيع ٣-٥ الماضية. ومع حاجة تدابير تخفيف الإنتشار لوقت ليظهر اثرها فمن الممكن مشاهدة تجمع اكثر للحالات حسب الدولة. We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
 
-**North America**   
-* Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
-* Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
+**امريكا الشماليهNorth America**   
+* انماط انتشار الوباء في الولايات المتحدة معقدة: فالعينات التي تم جمعها من جوانب متضادة من هذه الدولة ما زالت تظهر علاقات قريبة: Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
+* حصل حالتي ادخال مستقلتين على الأقل في ولاية واشنطن( الاولى حصلت على الاغلب من الصين، بينما حصلت الثانية من أوروبا)، واللتان ادتا الى سلسلستي انتشار منفصلتين. Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
 * There is evidence for likely local transmission within several states, most clearly within California.
 
 **Central and South America**
