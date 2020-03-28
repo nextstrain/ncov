@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-27.
+title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 27일 상황 보고서
 authors:
   - Sidney M. Bell
   - Nicola Müller
