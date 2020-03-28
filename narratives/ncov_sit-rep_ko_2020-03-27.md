@@ -32,44 +32,46 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 
 <!-- This is left-side text 1-->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
+# [목차](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
+* [데이터 수집 관련 사항](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+* [유럽의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+* [북미의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [중미와 남미의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [아시아의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [아프리카의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [오세아니아의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# 개요
 
-We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
+저희는 1,495개의 공개된 코로나-19의 유전체 염기서열을 분석하였습니다. 바이러스들을 비교 분석하여 코로나-19가 어떻게 진화하고 세계 곳곳으로 퍼지고 있는지 분석했습니다. 
 
-**Europe**  
-* We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
+금주 보고서에서 새로 업데이트 된 것들:
 
-**North America**   
-* Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
-* Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
-* There is evidence for likely local transmission within several states, most clearly within California.
+**유럽**  
+* 유럽 전역에서 매우 활발하게 샘플들이 뒤섞이고 있습니다. 이는 바이러스가 지난 3-5주 동안 꾸준하게 국경을 넘어 전파되었음을 의미합니다. 완화 조치에 대한 효과가 나타나기까지는 시간이 걸리므로, 곧 표본들이 나라 별로 군집화되는 것을 볼 수 있을 것으로 기대합니다.
 
-**Central and South America**
-* We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
+**북미**   
+* 미국 내 전파되는 양상이 매우 복잡합니다. 미국 반대 편에서 수집된 표본들은 매우 밀접한 연관성을 보여주고 있습니다.
+* 워싱턴 주는 적어도 두 개의 개별적인 유입(첫 번째는 중국에서, 두 번째는 유럽에서) 되었으며, 이로 인해 서로 다른 두 개의 전파 경로가 만들어졌습니다. 
+* 여러 주에서 지역 전파 가능성을 보여주는 증거가 있습니다. 특히, 캘리포니아 주 안에서의 전파 가능성이 제일 뚜렷해 보입니다.
 
-**Asia**  
-* We find evidence for recent export of COVID-19 from Iran.
+**중미와 남미**
+* 금주에 남미에서 새로운 염기서열 데이터를 받았지만, 표본 채취는 여전히 부족합니다. 이 지역에서 수집된 데이터보다 더 많은 코로나-19 활동이 있을 수 있지만 확신할 수는 없습니다.
 
-**Africa**  
-* The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
-* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
+**아시아**  
+* 최근 이란으로부터 코로나-19 바이러스가 다른 나라들로 퍼진 사례를 발견했습니다.
 
-**Oceania**
-* There is evidence in the genetic data for local transmission in New South Wales, Australia.
+**아프리카**  
+* 계통수를 통해 우리는 지난 11일(혹은 그 이상) 동안 콩고 민주 공화국의 킨샤사에서 지역 전파가 이루어졌을 가능성을 보여주고 있습니다. 
+* 금주에 아프리카에서 새로운 염기서열 데이터를 받았으나, 표본 채취는 여전히 부족합니다. 이 지역에서 수집된 데이터보다 더 많은 코로나-19 활동이 있을 수 있습니다.
+
+**오세아니아**
+* 호주의 뉴 사우스 웨일즈 내에서 지역 전파가 있었다는 것을 보여주는 사례가 있습니다.
 ```
 
 
