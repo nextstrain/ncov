@@ -1,5 +1,5 @@
 ---
-title:التحليل الجينومي لانتشار كوفيد 19 . تقرير حالة. 27 اذار 2020.
+title: التحليل الجينومي لانتشار كوفيد 19 . تقرير حالة. 27 اذار 2020.
 authors:
   - Sidney M. Bell
   - Nicola Müller
@@ -34,16 +34,16 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 <!-- This is left-side text 1-->
 # [جدول المحتويات](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [عن هذه البيانات](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [تحديثات عن اوروبا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [تحديثات عن امريكا الشمالية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [تحديثات عن وسط وجنوب امريكا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [تحديثات عن آسيا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [تحديثات عن أفريقيا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [تحديثات عن أوقيانوسيا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [ماذا يمكنك فعله](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [مصادر الخلفية العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=2).     
+* [عن هذه البيانات](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=3).  
+* [تحديثات عن اوروبا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=4).  
+* [تحديثات عن امريكا الشمالية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=7).  
+* [تحديثات عن وسط وجنوب امريكا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=11).  
+* [تحديثات عن آسيا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=13).  
+* [تحديثات عن أفريقيا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=15).  
+* [تحديثات عن أوقيانوسيا](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=17).  
+* [ماذا يمكنك فعله](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=19).  
+* [الحقوق العلمية](https://nextstrain.org/narratives/ncov/sit-rep/ar/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # الملخص التنفيذي
