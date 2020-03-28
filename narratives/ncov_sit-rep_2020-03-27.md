@@ -85,30 +85,30 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 ## Nextstrain Resources  
 
-<div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
+[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/)  
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
+[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV)
 
-  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
+[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2)
 
-    <a href="https://nextstrain.org/help/coronavirus/FAQ"><img alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> COVID-19 FAQ </a>
+[Sampling: why aren't you covering the situation in country X?](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3)
 
-        <a href="https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11"><img width="100" alt="picture of a question mark" width="100" src="http://data.nextstrain.org/img_question-mark.jpg"/> Common misconceptions </a>
-</div>
-<br><br>
+[FAQs](https://nextstrain.org/help/coronavirus/FAQ)
+
+[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11)
+
 
 ## External Resources  
+[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
 
-#### [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
 
-#### [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus)
 
-#### [The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+[Our World in Data](https://ourworldindata.org/coronavirus)
 
-#### [Our World in Data](https://ourworldindata.org/coronavirus).
+[Ask a Scientist & FAQs](https://covid19.fas.org/l/en)
 
-#### [Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
 
 ```
 
