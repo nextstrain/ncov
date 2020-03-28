@@ -172,7 +172,7 @@ Nous travaillons encore pour analyser toutes ces nouvelles données, et nous fer
 
 Même à l'intérieur des États-Unis, les modes de transmission sont très complexes.
 <br><br>
-Par exemple, des échantillons récents du Connecticut (pointes sélectionnées) sont à la fois ancestraux et mélangés avec des échantillons de l'État de Washington (pointes plus claires).
+Par exemple, des échantillons récents du Connecticut (extrémités sélectionnées) sont à la fois ancestraux et mélangés avec des échantillons de l'État de Washington (extrémités plus claires).
 Bien que davantage de données soient nécessaires pour tirer des conclusions définitives, cela suggère qu'il y a eu une transmission récente entre différentes régions du pays, même très éloignées.
 <br><br>
 Cela montre que les modèles de transmission à travers les États-Unis sont beaucoup plus complexes que ce qui est représenté dans les données actuellement disponibles.
@@ -268,7 +268,7 @@ Cela correspond à plusieurs hypothèses possibles ; à mesure que d'autres donn
 <!-- This is left-side text 15-->
 # [Des preuves de transmission locale à Kinshasa, au Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-De nouvelles séquences de Kinshasa en République démocratique du Congo montrent des preuves de plusieurs événements d'introduction distincts.
+De nouvelles séquences de Kinshasa en République Démocratique du Congo montrent des preuves de plusieurs événements d'introduction distincts.
 <br><br>
 Certaines de ces séquences forment un groupe de cas locaux très proches les uns des autres, qui ont été échantillonnés à plusieurs jours de distance.
 <br><br>
@@ -324,7 +324,7 @@ Le virus circule probablement dans cette région depuis au moins la fin du mois 
 <br><br>
 #### Nous surveillerons la situation en Amérique du Sud pour détecter des signes de transmission locale à mesure que de nouvelles séquences seront disponibles.
 <br><br>
-####  TL'épidémie américaine présente probablement des schémas de transmission très complexes, tant au niveau de l'importation que de la propagation, et à travers des régions du pays très disparates. On trouve des preuves de l'existence de multiples chaînes de transmission locales dans l'État de Washington et en Californie.
+####  L'épidémie américaine présente probablement des schémas de transmission très complexes, tant au niveau de l'importation que de la propagation, et à travers des régions du pays très disparates. On trouve des preuves de l'existence de multiples chaînes de transmission locales dans l'État de Washington et en Californie.
 <br><br>
 #### Nous avons trouvé des preuves de transmission locale en Nouvelle-Galles du Sud, en Australie.
 <br><br>
