@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-27.
+title: Analiza genomiczna rozprzestrzeniania się COVID-19. Raport sytuacyjny 2020-03-27.
 authors:
   - Sidney M. Bell
   - Nicola Müller
@@ -20,10 +20,12 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - Anna Fijarczyk
 translatorLinks:
+  - https://twitter.com/afijarczyk
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Ten raport wykorzystuje publicznie dostępne dane genomowe w celu śledzenia rozprzestrzeniania się COVID-19. Raporty są uaktualniane co tydzień."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated. Please add your name under translators and a link to your professional webpage (can be twitter) under translatorLinks. -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -34,42 +36,55 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text 1-->
 # [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
+* [O danych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+* [Aktualizacja sytuacji w Europie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+* [Aktualizacja sytuacji w Ameryce Północnej](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Aktualizacja sytuacji w Środkowej i Południowej Ameryce](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Aktualizacja sytuacji w Azji](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Aktualizacja sytuacji w Afryce](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Aktualizacja sytuacji w Oceanii](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Streszczenie
 
-We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
+Przeanalizowaliśmy 1,495</tag> dostępnych publicznie genomów COVID-19. Porównując je potrafimy ocenić, jak wirus ewoluuje i w jaki sposób rozprzestrzenia się po świecie. W niniejszym raporcie prezentujemy:
 
-**Europe**  
-* We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
+**Europa**  
+* Nadal obserwujemy silne mieszanie się próbek z Europy, co sugeruje, że wirus kontynuował przemieszczanie się przez granice w ciągu ostatnich 3-5 tygodni. Od kiedy środki zapobiegawcze zaczęły obowiązywać, możemy obserwować silniejsze grupowanie się przypadków w obrębie krajów.
+<!-- * We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.-->
 
-**North America**   
-* Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
+**Ameryka Północna**  
+* W USA, obraz transmisji jest złożony: próbki pobrane z przeciwnych części kraju nadal wykazują bliskie pokrewieństwo. 
+* W stanie Waszyngton występują co najmniej dwie introdukcje wirusa (pierwsza najprawdopodobniej z Chin, druga najprawdopodobniej z Europy), które doporowadziły do dwóch niezależnych łańcuchów transmisji.
+* Są dowody na prawdopodobną lokalną transmisję w kilku stanach, najbardziej widoczną w Kaliforni.
+ 
+<!-- * Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
 * Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
-* There is evidence for likely local transmission within several states, most clearly within California.
+* There is evidence for likely local transmission within several states, most clearly within California.-->
 
-**Central and South America**
-* We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
+**Środkowa i Południowa Ameryka**
+* W tym tygodniu otrzymaliśmy nowe sekwencje z Ameryki Południowej, ale skala próbkowania pozostaje niewielka. Aktywność COVID może być większa w tych regionach niż wskazuje na to ilość dostępnych danych, jednak nie możemy tego potwierdzić.
 
-**Asia**  
-* We find evidence for recent export of COVID-19 from Iran.
+<!-- * We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure. -->
 
-**Africa**  
-* The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
-* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
+**Azja**  
+* Mamy dowody na niedawny eksport COVID-19 z Iranu
+<!-- * We find evidence for recent export of COVID-19 from Iran.-->
+
+**Afryka**  
+* Filogeneza wskazuje na prawdopodobną lokalną transmisję w Kinszasie, w Demokratycznej Republice Kongo, przez ostatnie 11+ dni.
+* W tym tygodniu otrzymaliśmy nowe sekwencje z Afryki, ale skala próbkowania pozostaje niewielkia; aktywność COVID może być znacznie większa w tym regionie niż sugeruje ilość dostępnych danych.
+
+<!-- * The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
+* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.-->
 
 **Oceania**
-* There is evidence in the genetic data for local transmission in New South Wales, Australia.
+* Dane genomowe wskazują na lokalną transmisję w Nowej Południowej Walii w Australii.
+
+<!-- * There is evidence in the genetic data for local transmission in New South Wales, Australia.-->
 ```
 
 
