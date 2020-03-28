@@ -153,7 +153,7 @@ Notably, while there are some small clusters that are country-specific, there is
 # [来自冰岛的新序列](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 我们得到了大量来自冰岛的新序列。
-将样本按照（已知的）旅行史着色，我们看到很多病例是近期旅行所致。我们正在努力分析这些新数据，将在下周报告我们的发现。
+通过将样本按照（已知的）旅行史着色，我们可以看到很多病例是近期旅行所致。我们正在努力分析这些新数据，将在下周报告我们的发现。
 
 <!-- There is no right side text -->
 
@@ -170,22 +170,26 @@ Notably, while there are some small clusters that are country-specific, there is
 <!-- This is left-side text 7-->
 # [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Even within the U.S., transmission patterns are highly complex.
+即使只看美国境内，传播情况也是高度复杂的。
 <br><br>
-For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
+举例来说，最近的康涅狄格州的样本（已选样本）中，既有华盛顿州的样本（淡化的样本）的祖先，也有与华盛顿州样本相互交错排列的。For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
+虽然需要更多的数据来得出确凿的结论，这意味着在美国国内相距甚远的地区也存在近期的传播。
 While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
 <br><br>
+这凸显了美国国内的传播情况比现有数据所能代表的要复杂得多。
 This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
+更多的数据可以帮助我们理解，在各州高度差异化的反应的背景下，这场很有可能深度连接的国家疫情将会如何发展。
 Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+# [华盛顿州内存在多个传播链](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
+在华盛顿州的病例中，我们看到至少两起本地的疫情传播（序列聚成至少两簇）。
 <br><br>
+然而，这两簇序列有着不同的起源：第一簇与中国的样本亲缘关系最近，第二簇与欧洲的样本最近。当然，这些输入事件也有可能是间接的，经由一个其他地区的未被抽样到的病例。
 However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
 <br><br>
 <!-- There is no right side text -->
@@ -193,23 +197,23 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [加利福尼亚州可能存在两个本地传播链](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
-We see similar patterns elsewhere in the U.S.
+我们在美国的其他地区也看到类似的情况。
 <br><br>
-Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.
+这里，我们看到在加州北部的索兰诺郡的几个样本，它们采集于不同的日期，但序列的亲缘关系很近。
 <br><br>
-While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
+虽然加州的现有数据还太有限，不足以让我们得出有力的结论，但是这些证据初步表明索兰诺郡内存在本地传播。
 <br><br>
-Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
+在树的其他地方可以看到，来自圣克拉拉郡的样本之间也存在类似的关系。
 <br><br>
-These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
+根据样本在树上的相对位置，可以看出这些郡县的聚集病例可能来自于不同的输入事件。
 <!-- There is no right side text -->
 
 
-<!-- ############ SOUTH AMERICA ############# -->
+<!-- ############ 南美洲 ############# -->
 <!-- This is left-side text 10-->
-# [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
+# [中美洲和南美洲的最新情况](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -217,11 +221,12 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-We don't have much genetic sequence data from South America yet.
-Of the available data, most are from travelers.
-Here, each case is colored by the known exposure history.
+# [南美洲的样本主要是与旅行相关的病例](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+我们目前还没有很多来自南美洲的基因组序列数据。在现有的数据中，大部分是来自旅行者。这里，我们用颜色代表病例的已知旅行史。
 <br><br>
+虽然，在与旅行无关的病例中也开始出现一些有可能有意思的格局，我们目前还没有足够的证据来得出任何结论。
+测序的行动正在提高中，形势明朗后，我们会再来报告。
+While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
 While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
 Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.
 <!-- There is no right side text -->
