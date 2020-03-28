@@ -167,7 +167,7 @@ Por ejemplo, el mapa muestra muy pocas secuencias del sur global. Esto NO se deb
 
 <!-- ############ EUROPE ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
+# [Actualizaciones de Europa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
 
 <!-- There is no right side text -->
@@ -175,6 +175,7 @@ Por ejemplo, el mapa muestra muy pocas secuencias del sur global. Esto NO se deb
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
+```auspiceMainDisplayMarkdown
 # [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
 Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
@@ -183,15 +184,31 @@ Notably, while there are some small clusters that are country-specific, there is
 This suggests that there has been continued spread across borders within the last 3-5 weeks.
 <br><br>
 This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
+```
+# [Continúa la propagación a través de las fronteras en las últimas 3-5 semanas](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+Aquí mostramos muestras recogidas en toda Europa en las últimas 3 semanas, coloreadas de acuerdo al país en el que fueron aisladas.
+Cabe destacar que si bien hay algunos grupos pequeños que son específicos para cada país, también hay una gran cantidad de mezcla entre las muestras de diferentes países.
+<br><br>
+Esto sugiere que en las últimas 3-5 semanas ha habido una propagación continua a través de las fronteras.
+<br><br>
+Esta aglomeración geográfica podría aumentar a raíz de recientes estrategias de mitigación que tienden a reducir los viajes entre regiones.
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
+```auspiceMainDisplayMarkdown
 # [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 We received many new sequences from Iceland.
 Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
 We're working hard to analyze all of this new data, and will report our findings next week.
+```
+# [Nuevas secuencias de Islandia](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+
+Hemos recibido muchas secuencias nuevas desde Islandia.
+Coloreando de acuerdo al historial de exposición de cada caso (cuando este se  conoce), vemos que muchos de estos casos son de viajeros recientes.
+Estamos trabajando intensamente para analizar todos estos nuevos datos, y reportaremos nuestros hallazgos la próxima semana.
+
 <!-- There is no right side text -->
 
 
