@@ -85,29 +85,27 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 ## Nextstrain Resources  
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/)  
+[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
 
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV)
+[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
 
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2)
+[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
-[Sampling: why aren't you covering the situation in country X?](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3)
+[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
 
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ)
-
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11)
+[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
 ## External Resources  
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
+[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
+[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus)
+[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
 
-[Our World in Data](https://ourworldindata.org/coronavirus)
+[Our World in Data](https://ourworldindata.org/coronavirus).
 
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en)
+[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
 
 
 ```
