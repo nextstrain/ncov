@@ -97,15 +97,15 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 
 
 ## المصادر الخارجية  
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+[تقارير حالة منظمة الصحة العالمية](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+[مصادر مركز مكافحة الامراض الامريكي](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+[تغطية كوفيد 19 في مجلة نيويورك تايمز](https://www.nytimes.com/news-event/coronavirus).
 
-[Our World in Data](https://ourworldindata.org/coronavirus).
+[عالمنا بالبيانات](https://ourworldindata.org/coronavirus).
 
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
+[اسأل عالما والأسئلة الشائعة](https://covid19.fas.org/l/en).
 
 
 ```
