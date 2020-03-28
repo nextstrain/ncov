@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-27.
+title: Análisis genómico de la propagación del COVID-19. Reporte 2020-03-27.
 authors:
   - Sidney M. Bell
   - Nicola Müller
@@ -20,7 +20,9 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - Diego Oyarzún
 translatorLinks:
+  - https://twitter.com/doyarzunrod
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
@@ -35,7 +37,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 # [Contenidos](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
 * [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [Nota sobre los datos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+* [Acerca del muestreo de datos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Actualizaciones de Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
 * [Actualizaciones de América del Norte](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
 * [Actualizaciones de América Central y América del Sur](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
@@ -186,8 +188,8 @@ This suggests that there has been continued spread across borders within the las
 This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
 ```
 # [Continúa la propagación a través de las fronteras en las últimas 3-5 semanas](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
-Aquí mostramos muestras recogidas en toda Europa en las últimas 3 semanas, coloreadas de acuerdo al país en el que fueron aisladas.
-Cabe destacar que si bien hay algunos grupos pequeños que son específicos para cada país, también hay una gran cantidad de mezcla entre las muestras de diferentes países.
+Aquí indicamos muestras recogidas en toda Europa en las últimas 3 semanas, coloreadas de acuerdo al país en que fueron aisladas.
+Cabe destacar que si bien hay algunos grupos pequeños específicos para cada país, también hay una gran cantidad de mezcla entre las muestras de diferentes países.
 <br><br>
 Esto sugiere que en las últimas 3-5 semanas ha habido una propagación continua a través de las fronteras.
 <br><br>
@@ -214,6 +216,7 @@ Estamos trabajando intensamente para analizar todos estos nuevos datos, y report
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
+```auspiceMainDisplayMarkdown
 # [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
@@ -258,8 +261,51 @@ While the available data from California is too limited to make strong conclusio
 Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
 <br><br>
 These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
+```
 <!-- There is no right side text -->
 
+# [Actualizaciones de América del Norte](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+
+<!-- There is no right side text -->
+
+<!-- ##### slide break ##### -->
+<!-- This is left-side text 7-->
+# [Transmisión en EE.UU. es compleja y aún poco comprendida](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+
+Los patrones de transmisión son muy complejos incluso dentro de los EE.UU.
+<br><br>
+Por ejemplo, muestras recientes de Connecticut (marcadores seleccionadas) son ancestrales a y mezcladas con muestras del estado de Washington (marcadores descoloridos).
+Aunque se necesitan más datos para sacar conclusiones firmes, esto sugiere que ha habido una transmisión reciente entre partes muy distantes del país.
+<br><br>
+Esto resalta que los patrones de transmisión en los EE.UU. son mucho más complejos que lo que reflejan los datos disponibles actualmente.
+Datos adicionales nos permitirán comprender lo que probablemente es una epidemia nacional muy interconectada, desarrollandose por encima de respuestas muy heterogéneas de cada estado.
+<!-- There is no right side text -->
+
+
+<!-- ##### slide break ##### -->
+<!-- This is left-side text 8-->
+# [Multiples cadenas de transmisión en el estado de Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+
+Si observamos los casos en el estado de Washington, vemos que hay al menos dos grupos de brotes locales separados.
+<br><br>
+Sin embargo, los dos grupos tienen orígenes diferentes: el primer grupo está más estrechamente relacionado con las muestras de China, mientras que el segundo está más relacionado con las muestras de Europa. También es posible que estas introducciones hayan sido indirectas, via casos intermedios procedentes de otra región que no fueron muestreados .
+<br><br>
+<!-- There is no right side text -->
+
+
+<!-- ##### slide break ##### -->
+<!-- This is left-side text 9-->
+# [Posiblemente hay dos cadenas de transmisión en California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+
+Vemos patrones similares en otras partes de los EE.UU.
+<br><br>
+Aquí vemos varias muestras del condado de Solano, en el norte de California, que si bien fueron muestreadas en fechas distintas, estan muy relacionadas entre sí.
+<br><br>
+Si bien los datos de California son demasiado limitados para llegar a conclusiones sólidas, esta evidencia preliminar es consistente con la transmisión local dentro del condado de Solano.
+<br><br>
+En otra parte del árbol, vemos un patrón similar para las muestras del condado de Santa Clara.
+<br><br>
+A partir de posiciones relativas en el árbol, es probable en estos condados los grupos de casos se deban a introducciones separadas.
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
