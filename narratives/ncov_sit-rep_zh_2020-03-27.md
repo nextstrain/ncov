@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-27.
+title: 新型冠状病毒（COVID-19）传播情况的基因组学分析. 状况报告 2020-03-27.
 authors:
   - Sidney M. Bell
   - Nicola Müller
@@ -20,10 +20,12 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - 李雪莹
 translatorLinks:
+  - https://xueyingcli.weebly.com/
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19）基因组数据来追踪疫情的传播，此报告将每周更新。"
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated. Please add your name under translators and a link to your professional webpage (can be twitter) under translatorLinks. -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -32,44 +34,45 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 
 <!-- This is left-side text 1-->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
+# [目录](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
+* [关于报告中的数据](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+* [欧洲最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+* [北美洲最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [中美洲和南美洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [亚洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [非洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [大洋洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# 报告摘要
 
-We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
+我们分析了1495个公开共享的COVID-19基因组。通过将这些病毒基因组相互比较，我们可以描述COVID-19是如何在世界各地蔓延和在社区中传播的。在本周的更新中，我们发现：
 
-**Europe**  
+**欧洲**  
 * We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
+* 我们继续看到在欧洲各地的样本充分地掺杂在一起，意味着病毒在过去的3-5周中仍在继续跨越各国边境。由于疫情控制措施生效需要时间，我们可能会看到更多的病例根据国家聚类在一起的情况。
 
-**North America**   
-* Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
-* Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
-* There is evidence for likely local transmission within several states, most clearly within California.
+**北美洲**   
+* 在美国境内，传播情况很复杂：美国东西两岸采集到的样本亲缘关系很近。Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
+* 华盛顿州至少经历了两次独立的输入事件（第一起可能来自中国，第二起可能来自欧洲），这两起事件引发了两个不同的传播链。Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
+* 有证据表明，社区传播很可能已存在于多个州，其中加利福尼亚州的社区传播证据最为明显。There is evidence for likely local transmission within several states, most clearly within California.
 
-**Central and South America**
-* We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
+**中美洲和南美洲**
+* 我们这周得到了南美洲的新序列，但是该地区的样本仍然稀缺。除了已有数据的地区之外，中美洲和南美洲可能有更多病毒传播存在，但我们不能确定。We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
 
-**Asia**  
-* We find evidence for recent export of COVID-19 from Iran.
+**亚洲**  
+* 我们发现了最近从伊朗输出病例的证据。We find evidence for recent export of COVID-19 from Iran.
 
-**Africa**  
-* The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
-* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
+**非洲**  
+* 系统发生树表明在过去的11天或更长时间里，刚果民主共和国的金沙萨市内很有可能发生了社区传播。
+* 我们这周得到了非洲的新序列，但是该地区的样本仍然稀缺。除了已有数据所表明的疫情之外，可能有广泛得多的疫情存在。We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
 
-**Oceania**
-* There is evidence in the genetic data for local transmission in New South Wales, Australia.
+**大洋洲**
+* 遗传数据表明，澳大利亚的新南威尔士州内存在社区传播。There is evidence in the genetic data for local transmission in New South Wales, Australia.
 ```
 
 
