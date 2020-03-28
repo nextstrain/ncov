@@ -36,16 +36,16 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text 1-->
 # [目录](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [关于报告中的数据](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [欧洲最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [北美洲最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [中美洲和南美洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [亚洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [非洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [大洋洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [背景资料](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=2).     
+* [关于报告中的数据](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=3).  
+* [欧洲最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=4).  
+* [北美洲最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=7).  
+* [中美洲和南美洲的最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=11). 
+* [亚洲的最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=13).  
+* [非洲的最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=15).  
+* [大洋洲的最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=17).  
+* [你能做些什么](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=19).  
+* [科学贡献人员](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # 报告摘要
@@ -78,37 +78,36 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
+# [COVID-19背景资料](https://nextstrain.org/ncov/2020-03-27)
+我们准备了一些值得一读的材料，让您了解COVID-19（2019冠状病毒病）及其致病病毒SARS-CoV-2（严重急性呼吸综合征冠状病毒2型）。这些资料将使您更容易理解我们在本报告中提供的数据。
 <br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+如果您不熟悉系统发生树，我们建议先阅读[如何解读系统发生树](https://nextstrain.org/narratives/trees-background/zh)，并在阅读后再回到此页。
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Nextstrain Resources  
+## Nextstrain的资料 
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+[如何解读系统发生树](https://nextstrain.org/narratives/trees-background/zh).  
 
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+[冠状病毒的背景知识（英文）](https://nextstrain.org/help/coronavirus/human-CoV).
 
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
+[近期COVID-19疫情的背景（英文）](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
+[常见问题（英文）](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[常见误区](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-13?n=11).
 
 
-## External Resources  
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+## 外部资料
+[WHO的状况报告（英文）](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+[美国CDC的资料（英文）](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+[纽约时报对COVID-19的报道（英文）](https://www.nytimes.com/news-event/coronavirus).
 
-[Our World in Data](https://ourworldindata.org/coronavirus).
+[数据中的世界（Our World in Data）（英文）](https://ourworldindata.org/coronavirus).
 
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
+[向科学家提问&常见问题解答（英文）](https://covid19.fas.org/l/en).
 
 
 ```
