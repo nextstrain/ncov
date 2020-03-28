@@ -58,18 +58,18 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 * حصل حالتي ادخال مستقلتين على الأقل في ولاية واشنطن( الاولى حصلت على الاغلب من الصين، بينما حصلت الثانية من أوروبا)، واللتان ادتا الى سلسلستي انتشار منفصلتين.
 * هناك دليل على انتشارات محلية في العديد من الولايات وأكثرها وضوحا في كاليفورنيا
 
-**Central and South America**
-* We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
+**وسط وجنوب امريكا**
+* حصلنا على تسلسل جديد من جنوب افريقيا هذا الاسبوع، ولكن ما تزال عملية جمع العينات شحيحة. من الممكن ان نشاط كوفيد في هذه المنطقة أكبر مما تم الحصول عليه من البيانات المتوفرة الا انه لا يمكننا ان نقول ذلك على وجه اليقين.
 
-**Asia**  
-* We find evidence for recent export of COVID-19 from Iran.
+**آسيا**  
+* وجدنا دليل على تصدير حديث ل كوفيد 19 من ايران.
 
-**Africa**  
-* The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
-* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
+**افريقيا**  
+* التصنيف الجيني يقترح بانه على الاغلب هناك انتشار محلي في كينشاسا، جمهورية الكونغو الشعبية، للايام الاحدى عشرة السابقة او اكثر بقليل.
+*حصلنا على تسلسلات جديدة من افريقيا هذا الاسبوع، ولكن جمع العينات هناك ما زال شحيحا، ولذلك فمن الممكن ام نشاط كوفيد في تلك المنطقة اكثر بكثير مما تم الحصول عليه من خلاا البيانات المتوفرة.
 
-**Oceania**
-* There is evidence in the genetic data for local transmission in New South Wales, Australia.
+**أوقيانوسيا**
+* هناك دليل في البيانات الجينية على انتشار محلي في جنوب ويلز الجديدة، أستراليا.
 ```
 
 
