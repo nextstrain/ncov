@@ -91,8 +91,6 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 #### [Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
-#### [Sampling: why aren't you covering the situation in country X?](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-
 #### [FAQs](https://nextstrain.org/help/coronavirus/FAQ).
 
 #### [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
@@ -296,6 +294,21 @@ This is consistent with a possible second transmission chain within Iran, althou
 <!-- ############ AFRICA ############# -->
 <!-- This is left-side text 15-->
 # [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
+
+### Navigation
+* [Executive summary](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=1).
+* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
+* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+* [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+
+
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
