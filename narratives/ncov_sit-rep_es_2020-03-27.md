@@ -147,6 +147,13 @@ While this data enables us to infer many useful characteristics of the outbreak 
 For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
 <!-- There is NO right-side text -->
 
+# [Acerca del muestreo](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+Actualmente tenemos secuencias virales tomadas en 48 países de 6 continentes. Este es un logro increíble: secuenciar un virus de ARN desconocido y de gran tamaño durante una pandemia es difícil, y sólo es posible gracias al increíble trabajo y al  intercambio de datos por parte de científicos y médicos de todo el mundo.
+<br><br>
+Si bien estos datos nos permiten inferir muchas características útiles del brote y seguir su propagación en tiempo real, es importante destacar que nuestras conclusiones se ven limitadas por los datos disponibles.
+<br><br>
+Por ejemplo, el mapa muestra muy pocas secuencias del sur global. Esto NO se debe a que el COVID-19 no esté circulando en estas zonas, o a que le comprensión de estos casos no sea tan importante; simplemente no tenemos muchos datos de estas zonas. Nótese que el tamaño de cada círculo en el mapa indica la cantidad de datos disponibles actualmente de esa área, y no el tamaño real del brote.
+
 
 
 
