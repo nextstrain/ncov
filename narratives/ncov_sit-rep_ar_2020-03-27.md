@@ -48,15 +48,15 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 ```auspiceMainDisplayMarkdown
 # الملخص التنفيذي
 
-لقد قمنا بتحليل 1495 جينوم كوفيد 19 تم مشاركتها للعموم. من خلال مقارنة هذه الجينومات الفيروسية مع بعضها البعض نستطيع ان نحدد كيف يتنقل كوفيد 19 حول العالم وكيف ينتشر محلياً. في هذا التقرير الاسبوعي نوثق ما يلي:We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
+لقد قمنا بتحليل 1495 جينوم كوفيد 19 تم مشاركتها للعموم. من خلال مقارنة هذه الجينومات الفيروسية مع بعضها البعض نستطيع ان نحدد كيف يتنقل كوفيد 19 حول العالم وكيف ينتشر محلياً. في هذا التقرير الاسبوعي نوثق ما يلي
 
 **اوروبا Europe**  
-* نستمر في مشاهدة خلط قوي للعينات في كل انحاء اوروبا، وهذا يقترح بأن الفيروس ما زال مستمراً بالحركة عبر الحدود منذ الاسابيع ٣-٥ الماضية. ومع حاجة تدابير تخفيف الإنتشار لوقت ليظهر اثرها فمن الممكن مشاهدة تجمع اكثر للحالات حسب الدولة. We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
+* نستمر في مشاهدة خلط قوي للعينات في كل انحاء اوروبا، وهذا يقترح بأن الفيروس ما زال مستمراً بالحركة عبر الحدود منذ الاسابيع ٣-٥ الماضية. ومع حاجة تدابير تخفيف الإنتشار لوقت ليظهر اثرها فمن الممكن مشاهدة تجمع اكثر للحالات حسب الدولة.
 
 **امريكا الشماليهNorth America**   
-* انماط انتشار الوباء في الولايات المتحدة معقدة: فالعينات التي تم جمعها من جوانب متضادة من هذه الدولة ما زالت تظهر علاقات قريبة: Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
-* حصل حالتي ادخال مستقلتين على الأقل في ولاية واشنطن( الاولى حصلت على الاغلب من الصين، بينما حصلت الثانية من أوروبا)، واللتان ادتا الى سلسلستي انتشار منفصلتين. Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
-* There is evidence for likely local transmission within several states, most clearly within California.
+* انماط انتشار الوباء في الولايات المتحدة معقدة: فالعينات التي تم جمعها من جوانب متضادة من هذه الدولة ما زالت تظهر علاقات قريبة
+* حصل حالتي ادخال مستقلتين على الأقل في ولاية واشنطن( الاولى حصلت على الاغلب من الصين، بينما حصلت الثانية من أوروبا)، واللتان ادتا الى سلسلستي انتشار منفصلتين.
+* هناك دليل على انتشارات محلية في العديد من الولايات وأكثرها وضوحا في كاليفورنيا
 
 **Central and South America**
 * We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
