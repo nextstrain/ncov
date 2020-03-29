@@ -106,9 +106,9 @@ Si no estas familiarizado con la filogenética, te recomendamos leer la siguient
 
 
 ## Recursos Externos  
-[Reportes de la Organizacion Mundial de la Salud (OMS)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+[Reportes de la Organización Mundial de la Salud (OMS)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
-[Recursos del CDC, EEUU](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+[Recursos del CDC (EEUU)](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
 [Cobertura del COVID-19 por parte del NYTimes](https://www.nytimes.com/news-event/coronavirus).
 
