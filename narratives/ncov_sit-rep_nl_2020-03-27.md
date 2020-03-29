@@ -126,7 +126,7 @@ De kaart laat bijvoorbeeld weinig sequenties vanuit het zuiden zien. Dit is NIET
 
 <!-- ############ Europa ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
+# [Updates over Europa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
 
 <!-- There is no right side text -->
@@ -134,14 +134,14 @@ De kaart laat bijvoorbeeld weinig sequenties vanuit het zuiden zien. Dit is NIET
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+# [Aanhoudende verspreiding over landsgrenzen heen in de laatste 3-5 weken](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
-Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
+Hier laten we de monsters zien die de afgelopen 3 weken in Europa verzameld zijn, gekleurd naar het land waar ze in geïsoleerd zijn. 
+Opmerkelijk is dat, terwijl sommige kleine clusters landsspecifiek zijn, er ook veel vermenging tussen isolaten vanuit verschillende landen te zien is.
 <br><br>
-This suggests that there has been continued spread across borders within the last 3-5 weeks.
+Dit suggereert dat er aanhoudende verspreiding over landsgrenzen heen is in de laatste 3-5 weken. 
 <br><br>
-This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
+Deze geografische groepering wordt mogelijk sterker door de recente maatregelen die reizen tussen regio's inperken. 
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
