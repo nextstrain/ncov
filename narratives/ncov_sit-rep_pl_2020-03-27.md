@@ -60,7 +60,7 @@ Przeanalizowaliśmy 1,495</tag> dostępnych publicznie genomów COVID-19. Porów
 
 **Ameryka Północna**  
 * W USA, obraz transmisji jest złożony: próbki pobrane z przeciwnych części kraju nadal wykazują bliskie pokrewieństwo. 
-* W stanie Waszyngton nastąpiły co najmniej dwie introdukcje wirusa (pierwsza najprawdopodobniej z Chin, druga najprawdopodobniej z Europy), które doporowadziły do dwóch niezależnych łańcuchów transmisji.
+* W stanie Waszyngton nastąpiły co najmniej dwie introdukcje wirusa (pierwsza najprawdopodobniej z Chin, druga najprawdopodobniej z Europy), które doporowadziły do dwóch niezależnych lokalnych ognisk zachorowań.
 * Są dowody na prawdopodobną lokalną transmisję w kilku stanach, najlepiej widoczną w Kalifornii.
  
 <!-- * Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
@@ -151,7 +151,7 @@ Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części ś
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Kontynuacja rozprzestrzeniania się wirusa przez granice w ciągu ostatnich 3-5 tygodni](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+# [Kontynuacja przemieszczania się wirusa przez granice w ciągu ostatnich 3-5 tygodni](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
 Na tym slajdzie prezentujemy próbki zebrane z różnych miejsc w Europie w ciągu ostatnich 3 tygodni, pokolorowanych według kraju, w którym zostały wyizolowane. Chociaż widzimy grupowanie się w niewielkim stopniu próbek wyizolowanych w tym samym kraju, znaczna część próbek z różnych krajów jest wymieszana. 
 <br><br>
@@ -227,7 +227,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [Prawdopodobnie dwa lokalne łańcuchy transmisji w Kalifornii](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [Prawdopodobnie dwa lokalne ogniska epidemii w Kalifornii](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
 Podobny wzór widzimy w innych regionach Stanów Zjednoczonych.
 <br><br>
@@ -395,7 +395,7 @@ The virus has likely been circulating in this area since at least the end of Feb
 <br><br>
 #### Będziemy monitorować sytuację w Ameryce Południowej i oznak lokalnej transmisji, gdy tylko więcej sekwencji będzie dostępnych.
 <br><br>
-####  Epidemia w Stanach Zjednoczonych ma prawdopodobnie bardzo złożone wzory transmisji, zarówno importu do kraju, jak i rozprzestrzeniania się pomiędzy różnymi częściami kraju. Widzimy dowody na liczne lokalne łańcuchy transmisji w Waszyngtonie i Kalifornii.
+####  Epidemia w Stanach Zjednoczonych ma prawdopodobnie bardzo złożone wzory transmisji, zarówno importu do kraju, jak i rozprzestrzeniania się pomiędzy różnymi częściami kraju. Widzimy dowody na liczne lokalne łańcuchy transmisji w stanach Waszyngton i Kalifornia.
 <br><br>
 #### Znajdujemy dowody na lokalną transmisję w Nowej Południowej Walii w Australii. 
 <br><br>
