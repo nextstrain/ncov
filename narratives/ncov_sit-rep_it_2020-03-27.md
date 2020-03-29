@@ -58,8 +58,10 @@ We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral gen
 * Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
 * There is evidence for likely local transmission within several states, most clearly within California.
 
-**Central and South America**
-* We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
+<!-- **Central and South America** -->
+**Centro e Sud America** 
+<!--  * We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure. -->
+* Questa settimana abbiamo ricevuto nuove sequenza dal Sud America, ma la raccolta dei dati rimane ridotta. Potrebbe esserci più attività COVID in questa regione di quella acquisita nei dati disponibili, ma non possiamo dirlo con certezza. 
 
 **Asia**  
 * We find evidence for recent export of COVID-19 from Iran.
@@ -68,8 +70,10 @@ We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral gen
 * The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
 * We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
 
-**Oceania**
-* There is evidence in the genetic data for local transmission in New South Wales, Australia.
+<!-- **Oceania** -->
+**Oceania** 
+<!-- * There is evidence in the genetic data for local transmission in New South Wales, Australia.-->
+* Ci sono prove nei dati genetici di trasmissione locale del virus nel Nuovo Galles del Sud in Australia.
 ```
 
 
@@ -277,7 +281,8 @@ The INRB's excellent work to sequence the virus from early samples allows us to 
 
 <!-- ############ OCEANIA ############# -->
 <!-- This is left-side text 17-->
-# [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
+<!-- # [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)-->
+# [Aggiornamenti sull'Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -285,10 +290,13 @@ The INRB's excellent work to sequence the virus from early samples allows us to 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [Local transmission in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+<!-- # [Local transmission in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)-->
+# [Trasmissione locale nel Nuovo Galles del Sud](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-New sequences from Australia show evidence of local transmission across New South Wales.
-The virus has likely been circulating in this area since at least the end of February.
+<!-- New sequences from Australia show evidence of local transmission across New South Wales.
+The virus has likely been circulating in this area since at least the end of February.-->
+Nuove sequenze dall' Australia mostrano prove di trasmissione locale del virus all'interno del Nuovo Galles del Sud.
+E' probabile che il virus stia circolando in questa area da, almeno, la fine di Febbraio.
 
 <!-- There is no right side text -->
 
