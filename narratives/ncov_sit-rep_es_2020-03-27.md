@@ -207,7 +207,6 @@ Si bien los datos de California son demasiado limitados para llegar a conclusion
 En otra parte del árbol, vemos un patrón similar para las muestras del condado de Santa Clara.
 <br><br>
 A partir de posiciones relativas en el árbol, es probable en estos condados los grupos de casos se deban a introducciones separadas.
-```
 <!-- There is no right side text -->
 
 <!-- ############ SOUTH AMERICA ############# -->
