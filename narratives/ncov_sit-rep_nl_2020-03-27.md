@@ -19,8 +19,12 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators: -Roan van Scheppingen
-translatorLinks: https://twitter.com/RScheppingen
+translators: 
+  -Roan van Scheppingen
+  -Jisca Huisman
+translatorLinks: 
+  - https://twitter.com/RScheppingen
+  - https://twitter.com/HuismanJisca
 date: "2020 Maart 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om zo de verspreiding van COVID-19 te volgen. Deze rapportages worden wekelijks bijgewerkt."
@@ -51,12 +55,12 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 Hier hebben we 1.495 publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virus genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld. In de updates van deze week, rapporteren we: 
 
 **Europa**  
-* We blijven sterke vermenging van de monsters zien binnen Europa, wat suggereert dat het virus zich de laatste 3 tot 5 weken over landsgrenzen heen blijft bewegen. Als maatregelen de tijd hebben om tot effecten te leiden, zullen we mogelijk meer clustering per land gaan zien. 
+* We blijven sterke vermenging van de monsters zien binnen Europa, wat suggereert dat het virus zich de laatste 3 tot 5 weken over landsgrenzen heen blijft bewegen. Omdat maatregelen tijd kosten om tot effecten te leiden, zullen we mogelijk meer clustering per land gaan zien. 
 
 **Noord-Amerika**   
 * Binnen de Verenigde Staten, zijn transmissiepatronen complex: monsters verzameld van de twee uiteinden van het land, laten nog steeds een nauwe verwantschap zien. 
-* De staat Washington had minimaal twee onafhanekelijke introducties (de eerste waarschijnlijk vanuit China, de tweede waarschijnlijk vanuit Europa), wat geleid heeft tot twee aparte transmissieketens. 
-* Er is bewijs voor locale overdracht binnen meerdere staten, het duidelijkst in Californië.
+* De staat Washington had minimaal twee onafhankelijke introducties (de eerste waarschijnlijk vanuit China, de tweede waarschijnlijk vanuit Europa), wat geleid heeft tot twee aparte transmissieketens. 
+* Er is bewijs voor lokale overdracht binnen meerdere staten, het duidelijkst in Californië.
 
 **Midden- en Zuid-Amerika**
 * We hebben deze week nieuwe sequenties vanuit Zuid-Amerika ontvangen, maar bemonstering blijft schaars. Er is mogelijk meer COVID-activiteit in deze regio dan wordt beschreven in de beschikbare data, maar dit kunnen we niet met zekerheid zeggen. 
@@ -65,8 +69,8 @@ Hier hebben we 1.495 publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door d
 * We vinden bewijs voor recente export van COVID-19 vanuit Iran. 
 
 **Afrika**  
-* De fylogenie suggereert waarschijnlijke lokale transmissie binnen Kinshasa, het Democratische Republiek Congo, gedurende de laatste 11+ dagen.  
-* We hebben deze week nieuwe sequenties vanuit Afrika ontvangen, maar bemonstering blijft schaars. Er is mogelijk meer COVID-activiteit in deze regio dan wordt beschreven in de beschikbare datagelopen week.
+* De fylogenie suggereert waarschijnlijke lokale transmissie binnen Kinshasa, Democratische Republiek Congo, gedurende de laatste 11+ dagen.  
+* We hebben deze week nieuwe sequenties vanuit Afrika ontvangen, maar bemonstering blijft schaars. Er is mogelijk meer COVID-activiteit in deze regio dan wordt beschreven in de beschikbare data.
 
 **Oceanië**
 * Er is bewijs in de genetische data voor locale overdracht in New South Wales, Australië. 
@@ -77,9 +81,9 @@ Hier hebben we 1.495 publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door d
 <!-- This is left-side text 2-->
 # [COVID-19 Bronnen](https://nextstrain.org/ncov/2020-03-27)
 We hebben een aantal bronnen voorbereid die het waard zijn om te lezen om jezelf vertrouwd te maken met COVID-19 en het virus dat het veroorzaakt, SARS-CoV-2, ook bekend als hCov-19. 
-Deze informatie maakt het interpreteren van de gegevens die we in dit narratief presenteren makkelijker.
+Deze informatie maakt het interpreteren van de gegevens die we in dit rapport presenteren makkelijker.
 <br><br>
-Als u niet bekend bent met fylogenetische bomen, raden we u aan het ['Hoe kan ik Fylogenieën lezen'](https://nextstrain.org/narratives/trees-background/) narratief te bekijken en terug te komen wanneer u klaar bent. 
+Als u niet bekend bent met fylogenetische bomen, raden we u aan het ['Hoe kan ik Fylogenieën lezen'](https://nextstrain.org/narratives/trees-background/) verhaal te bekijken en terug te komen wanneer u klaar bent. 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
@@ -91,7 +95,7 @@ Als u niet bekend bent met fylogenetische bomen, raden we u aan het ['Hoe kan ik
 
 [Achtergrond bij de huidige hCoV-19 uitbraak (Engels)](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
+[FAQs (Engels)](https://nextstrain.org/help/coronavirus/FAQ).
 
 [Veelvoorkomende misvattingen (Engels)](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
@@ -118,7 +122,7 @@ We hebben momenteel sequenties van monsters die genomen zijn in 48 landen op 6 c
 <br><br>
 Hoewel deze gegevens ons in staat stellen om veel nuttige kenmerken van de uitbraak af te leiden en de verspreiding ervan in real-time te volgen, is het belangrijk om te benadrukken dat onze conclusies beperkt zijn door de beschikbare gegevens.
 <br><br>
-De kaart laat bijvoorbeeld weinig sequenties vanuit het zuiden zien. Dit is NIET omdat COVID-19 niet in deze gebieden circuleert, of dat deze besmettingen niet cruciaal zijn om te begrijpen. In tegenstelling, we hebben enkel niet zoveel beschikbare data vanuit deze gebieden. De grootte van de iedere cirkel op de kaart geeft dan ook aan hoeveel data er beschikbaar is vanuit die regio, in plaats van de grootte van de uitbraak. 
+De kaart laat bijvoorbeeld weinig sequenties vanuit het zuiden zien. Dit is NIET omdat COVID-19 niet in deze gebieden circuleert, of dat deze besmettingen niet net zo cruciaal zijn om te begrijpen. In tegenstelling, we hebben echter niet zoveel data beschikbaar vanuit deze gebieden. De grootte van de iedere cirkel op de kaart geeft dan ook aan hoeveel data er beschikbaar is vanuit die regio, in plaats van de grootte van de uitbraak. 
 <!-- There is NO right-side text -->
 
 
@@ -149,8 +153,8 @@ Deze geografische groepering wordt mogelijk sterker door de recente maatregelen 
 # [Nieuwe sequenties vanuit IJsland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 We hebben vele nieuwe sequenties vanuit IJsland ontvangen.
-Gekleurd voor de EXPOSURE HISTORY van iedere besmetting, zien we dat veel van de besmettingen van recente reizigers zijn. 
-We werken hard om all deze nieuwe data te analyseren en zullen onze bevindingen volgende week rapporteren. 
+Gekleurd voor de blootstellingsgeschiedenis van iedere besmetting, zien we dat veel van de besmettingen van recente reizigers zijn. 
+We werken hard om al deze nieuwe data te analyseren en zullen onze bevindingen volgende week rapporteren. 
 <!-- There is no right side text -->
 
 
@@ -164,48 +168,49 @@ We werken hard om all deze nieuwe data te analyseren en zullen onze bevindingen 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Transmissie binnen de Verenigde Staten is complex en onduidelijk (WELL UNDERSTOOD)](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+# [Transmissie binnen de Verenigde Staten is complex en slecht begrepen](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
 Zelfs binnen de Verenigde Staten zijn transmissiepatronen zeer complex.
 <br><br>
-Bijvoorbeeld, recente monsters vanuit Conneticut (geselecteerde toppen) zijn zowel voorouderlijk tot, als vermengd met monsters vanuit de Staat Washington (vervaagde toppen).
+Bijvoorbeeld, recente monsters vanuit Conneticut (geselecteerde toppen) zijn zowel voorouderlijk tot, als vermengd met monsters vanuit de staat Washington (vervaagde toppen).
 Alhoewel er meer data nodig is om duidelijke conclusies te trekken, suggereert dit dat er recente transmissie was tussen veruiteengelegen delen van het land. 
 <br><br>
 Dit benadrukt dat de transmissiepatronen binnen de Verenigde Staten veel complexer zijn dan de huidige data representeert. 
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
+Aanvullende gegevens zullen ons helpen te begrijpen wat waarschijnlijk een diep met elkaar verbonden nationale epidemie is die zich afspeelt tegen de achtergrond van zeer heterogene reacties van staten.
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+# [Verschillende transmissieketens circuleren in de staat Washington](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
-<br><br>
-However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
+Als we naar de gevallen in de staat Washington kijken, zien we dat er ten minste twee afzonderlijke lokale uitbraakclusters zijn.
+<br> <br>
+De twee clusters hebben echter een verschillende oorsprong: de eerste cluster is het meest verwant aan monsters uit China, terwijl de tweede het meest verwant is aan monsters uit Europa. Het is ook mogelijk dat deze introducties indirect waren, met tussenliggende gevallen uit een andere regio.
 <br><br>
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [Waarschijnlijk twee transmissieketens in Californië](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
-We see similar patterns elsewhere in the U.S.
-<br><br>
-Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.
-<br><br>
-While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
-<br><br>
-Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
-<br><br>
-These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
+We zien vergelijkbare patronen elders in de Verenigde Staten
+<br> <br>
+Hier zien we verschillende monsters uit Solano County in Noord-Californië, die op verschillende data zijn bemonsterd maar zeer nauw met elkaar verwant zijn.
+<br> <br>
+Hoewel de beschikbare gegevens uit Californië te beperkt zijn om sterke conclusies te trekken, komt dit voorlopige bewijs overeen met de lokale besmetting binnen Solano County.
+<br> <br>
+Elders in de boom zien we een soortgelijk patroon voor monsters die zijn geïsoleerd in Santa Clara County.
+<br> <br>
+De clusters van gevallen van deze counties (provincies) zijn waarschijnlijk te wijten aan afzonderlijke introducties, op basis van hun relatieve posities in de boom.
+ 
 <!-- There is no right side text -->
 
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
-# [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
+# [Updates over Centraal & Zuid Amerika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -213,13 +218,14 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-We don't have much genetic sequence data from South America yet.
-Of the available data, most are from travelers.
-Here, each case is colored by the known exposure history.
-<br><br>
-While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
-Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.
+# [Voornamelijk reis-gerelateerde gevallen bemonsterd in Zuid-Amerika](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+We hebben nog niet veel genetische sequentiegegevens uit Zuid-Amerika.
+Van de beschikbare gegevens zijn de meeste afkomstig van reizigers.
+Hier wordt elk geval gekleurd door de bekende blootstellingsgeschiedenis.
+<br> <br>
+Hoewel potentieel interessante patronen beginnen te verschijnen in de niet-reisgerelateerde gevallen, hebben we nog niet genoeg bewijs om conclusies te trekken.
+De sequencing inspanningen nemen toe en we zullen verslag uitbrengen naarmate de situatie duidelijker wordt.
+
 <!-- There is no right side text -->
 
 
@@ -227,7 +233,7 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 
 <!-- ############ ASIA ############# -->
 <!-- This is left-side text 12-->
-# [Updates for Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
+# [Updates over Azië](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -235,18 +241,18 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 13-->
-# [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
+# [Export van COVID-19 uit Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
-We do not yet have viral genomes from Iran.
-However, we do have sequences from many cases with reported travel to Iran.
-<br><br>
-Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were derived from a single introduction into Iran.
-<br><br>
-At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.
-Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.
-<br><br>
-This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.
+We hebben nog geen virale genomen uit Iran.
+We hebben echter wel veel sequenties van gevallen met gerapporteerde reizen naar Iran.
+<br> <br>
+De meeste sequenties met reisgeschiedenis naar Iran groepen samen, wat suggereert dat veel van de Iraanse gevallen afkomstig waren van een enkele introductie in Iran.
+<br> <br>
+Helemaal onderaan de boom zien we een nieuwe sequentie van een vrouw in Pakistan met gerapporteerde reis naar Iran.
+Interessant is dat dit geval een outgroep is van de andere gevallen die we kennen uit Iran, maar rond dezelfde tijd werd bemonsterd.
+<br> <br>
+Dit patroon is consistent met verschillende mogelijke hypothesen; naarmate er meer gegevens naar voren komen, zullen we onze analyse bijwerken.
 <!-- There is no right side text -->
 
 
