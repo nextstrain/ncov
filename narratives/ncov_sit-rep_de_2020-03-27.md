@@ -316,15 +316,15 @@ Das Virus zirkuliert in dieser Region vermutlich schon seit Ende Februar.
 
 ```auspiceMainDisplayMarkdown
 ## Schlussfolgerung
-####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.
+####  In den naechsten Wochen werden wir den europaeischen Ausbruch auf Anzeichen dafuer, dass die Massnahmen zur Milderung einen Einflusss auf die grenzueberschreitende Verbreitung haben, analysieren.
 <br><br>
-#### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.
+#### Wir werden die Situation in Sued-Amerika beobachten und auf Anzeichen fuer lokale Uebertragungen untersuchen, wenn mehr Sequenzen verfuegbar werden.
 <br><br>
-####  The U.S. epidemic likely has very complex transmission patterns of both import and spread across even disparate parts of the country. We find evidence of multiple local transmission chains in Washington and California.
+####  Die Epidemie in den USA hat vermutlich sehr komplizierte Uebertragungsmuster, von sowohl Import als auch Verbreitung zwischen entfernten Teilen des Landes. Es gibt Anzeichen fuer lokale Uebertragungsketten innerhalb der Bundesstaaten Washington und Kalifornien.
 <br><br>
-#### We find evidence of local transmission in New South Wales, Australia.
+#### Es gibt Anzeichen fuer ein lokale Uebertragungskette in New South Wales, Australien.
 <br><br>
-#### We find evidence of local transmission in Kinshasa in the DRC. We do not yet have enough data to assess whether the virus is circulating locally in other parts of Africa.
+#### Es gibt Anzeichen fuer lokale Uebertragung in Kinshasa, Demokratische Republik Kongo. Wir haben noch nicht genuegend Daten, um beurteilen zu koennen, ob das Virus in anderen Teilen Afrikas lokal zirkuliert.
 ```
 
 <!-- ##### slide break ##### -->
@@ -337,20 +337,19 @@ Das Virus zirkuliert in dieser Region vermutlich schon seit Ende Februar.
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text 20-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [Wissenschaftliche Danksagung](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Wir moechten uns recht herzlich bei allen Forschern fuer deren Zeit und wunderbares Engagement bedanken, die in dieser Epidemie ihren unentbehrlichen Beitrag leisten. Besonders moechten wir uns bei denen bedanken, die in China die Epidemie versuchen in den Griff zu bekommen. Nur durch das schnelle Teilen von Genom- und Metadaten sind Analysen wie diese moeglich.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Zudem moechten wir uns recht herzlich bei [GISAID](https://gisaid.org) fuer die Bereitstellung der Plattform bedanken, durch die diese Daten geteilt und hochgeladen werden koennen.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Vielen herzlichen Dank an nachfolgende Labore fuer das Zusammentragen der Daten:
 
 * Andersen Lab, The Scripps Research Institute
 * Arizona Department of Health Services
@@ -580,14 +579,14 @@ We are grateful for the data gathered by these originating labs:
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [Details zur Danksagung](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Die Daten wurden via [GISAID](https://gisaid.org).
+geteilt. Wir moechten uns recht herzliche fuer deren Beteiligung bedanken.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+Auf der rechten Seite befinden sich bestimmte Sequenzen, die vom jeweiligen Labor geteilt worden sind.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
