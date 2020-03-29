@@ -263,8 +263,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [دلائل  على حدوث انتشارات محلية للفيروس في كيناشاسا ، الكونجو
-](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [دلائل  على حدوث انتشارات محلية للفيروس في كيناشاسا ، الكونجو](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
 سلاسل حديثة لجينات الفيروس من جمهورية الكونجو الديمقراطية تظهر دلائل لحدوث أكثر من إدخال للفيروس. 
 <br><br>
