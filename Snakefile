@@ -85,7 +85,7 @@ checkpoint partition_sequences:
     input:
         sequences = rules.filter.output.sequences
     output:
-        split_sequences = directory("results/split_sequences")
+        split_sequences = directory("results/split_sequences/pre/")
     params:
         sequences_per_group = 150
     shell:
@@ -96,17 +96,31 @@ checkpoint partition_sequences:
             --output-dir {output.split_sequences}
         """
 
+rule partitions_intermediate:
+    message:
+        """
+        partitions_intermediate: Copying sequence fastas
+        {wildcards.cluster}
+        """
+    input:
+        "results/split_sequences/pre/{cluster}.fasta"
+    output:
+        "results/split_sequences/post/{cluster}.fasta"
+    shell:
+        "cp {input} {output}"
+
 rule align:
     message:
         """
         Aligning sequences to {input.reference}
           - gaps relative to reference are considered real
+        {wildcards.cluster}
         """
     input:
-        sequences = "results/split_sequences/{i}.fasta",
+        sequences = rules.partitions_intermediate.output,
         reference = files.reference
     output:
-        alignment = "results/split_alignments/{i}.fasta"
+        alignment = "results/split_alignments/{cluster}.fasta"
     threads: 2
     shell:
         """
