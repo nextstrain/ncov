@@ -49,32 +49,6 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
-
-We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
-
-**Europe**  
-* We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
-
-**North America**   
-* Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
-* Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
-* There is evidence for likely local transmission within several states, most clearly within California.
-
-**Central and South America**
-* We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
-
-**Asia**  
-* We find evidence for recent export of COVID-19 from Iran.
-
-**Africa**  
-* The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
-* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
-
-**Oceania**
-* There is evidence in the genetic data for local transmission in New South Wales, Australia.
-```
-
 # Resúmen ejecutivo
 
 Analizamos 1.495 genomas de COVID-19 compartidos públicamente. Comparando estos genomas entre sí, podemos caracterizar cómo COVID-19 se está moviendo alrededor del mundo y propagando localmente. Actualizaciones de esta semana:
@@ -88,59 +62,52 @@ Analizamos 1.495 genomas de COVID-19 compartidos públicamente. Comparando estos
 * Hay evidencia de transmisión local en varios estados, principalmente en California.
 
 **América Central y del Sur**
-* Esta semana recibimos nuevas secuencias de Sudamérica, pero el muestreo sigue siendo escaso. Es posible que haya más actividad de COVID en esta región que la que reflejan los datos disponibless, pero no podemos afirmarlo con seguridad.
+* Esta semana recibimos nuevas secuencias de Sudamérica, pero el muestreo sigue siendo escaso. Es posible que haya más actividad de COVID en esta región que la que reflejan los datos disponibles, pero no podemos afirmarlo con seguridad.
 
 **Asia**  
 * Encontramos evidencia de exportación reciente de COVID-19 desde Irán.
 
-**Africa**  
+**África**  
 * La filogenia sugiere una probable transmisión local dentro de Kinshasa, en la República Democrática del Congo, durante los últimos 11+ días.
 * Esta semana recibimos nuevas secuencias de África, pero el muestreo sigue siendo escaso; es posible que haya mucha más actividad de COVID que la que reflejan los datos disponibles.
 
 **Oceanía**
-* Hay evidencia de transmisión local en Nueva Gales del Sur, Australia.
+* Hay evidencia de transmisión local en el estado de Nueva Gales del Sur (NSW), Australia.
+```
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
 ```auspiceMainDisplayMarkdown
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
-<br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
-```
 
 # [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-27)
 Hemos compilado información que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2, también llamado hCov-19. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
 <br><br>
-Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introduccion ['Cómo leer filogenias'](https://nextstrain.org/narratives/trees-background/es) antes de leer este reporte.
-
+Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introducción ['Cómo leer filogenias'](https://nextstrain.org/narratives/trees-background/es) antes de leer este reporte.
+```
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Nextstrain Resources  
+## Recursos de Nextstrain  
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+[Antecendentes de los virus corona](https://nextstrain.org/help/coronavirus/human-CoV).
 
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+[Antecendentes del brote actual de COVID-19](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
+[Preguntas frecuentes](https://nextstrain.org/help/coronavirus/FAQ).
 
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
-
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[Conceptos erróneos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
-## External Resources  
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+## Recursos Externos  
+[Reportes de la OMS](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+[Recursos del CDC, EEUU](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+[Cobertura del COVID-19 por parte del NYTimes](https://www.nytimes.com/news-event/coronavirus).
 
-[Our World in Data](https://ourworldindata.org/coronavirus).
+[Nuestro mundo en datos](https://ourworldindata.org/coronavirus).
 
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
+[Preguntale a un científico](https://covid19.fas.org/l/es).
 
 
 ```
@@ -149,21 +116,15 @@ Si no estas familiarizado con la filogenética, te recomendamos leer la siguient
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
 ```auspiceMainDisplayMarkdown
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
-<br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
-<br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
-```
-<!-- There is NO right-side text -->
 
 # [Acerca del muestreo de datos](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-Actualmente tenemos secuencias virales tomadas en 48 países de 6 continentes. Este es un logro increíble: secuenciar un virus de ARN desconocido y de gran tamaño durante una pandemia es difícil, y sólo es posible gracias al increíble trabajo y al  intercambio de datos por parte de científicos y médicos de todo el mundo.
+Actualmente tenemos secuencias virales tomadas en 48 países de 6 continentes. Este es un logro increíble: secuenciar un virus de ARN desconocido y de gran tamaño durante una pandemia es difícil, y sólo es posible gracias al increíble trabajo y al intercambio de datos por parte de científicos y médicos de todo el mundo.
 <br><br>
 Si bien estos datos nos permiten inferir muchas características útiles del brote y seguir su propagación en tiempo real, es importante destacar que nuestras conclusiones se ven limitadas por los datos disponibles.
 <br><br>
 Por ejemplo, el mapa muestra muy pocas secuencias del sur global. Esto NO se debe a que el COVID-19 no esté circulando en estas zonas, o a que le comprensión de estos casos no sea tan importante; simplemente no tenemos muchos datos de estas zonas. Nótese que el tamaño de cada círculo en el mapa indica la cantidad de datos disponibles actualmente de esa área, y no el tamaño real del brote.
+```
+<!-- There is NO right-side text -->
 
 
 
@@ -178,15 +139,7 @@ Por ejemplo, el mapa muestra muy pocas secuencias del sur global. Esto NO se deb
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
 ```auspiceMainDisplayMarkdown
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
-
-Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
-Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
-<br><br>
-This suggests that there has been continued spread across borders within the last 3-5 weeks.
-<br><br>
-This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
-```
+	
 # [Continúa la propagación a través de las fronteras en las últimas 3-5 semanas](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 Aquí indicamos muestras recogidas en toda Europa en las últimas 3 semanas, coloreadas de acuerdo al país en que fueron aisladas.
 Cabe destacar que si bien hay algunos grupos pequeños específicos para cada país, también hay una gran cantidad de mezcla entre las muestras de diferentes países.
@@ -194,76 +147,24 @@ Cabe destacar que si bien hay algunos grupos pequeños específicos para cada pa
 Esto sugiere que en las últimas 3-5 semanas ha habido una propagación continua a través de las fronteras.
 <br><br>
 Esta aglomeración geográfica podría aumentar a raíz de recientes estrategias de mitigación que tienden a reducir los viajes entre regiones.
+```
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
 ```auspiceMainDisplayMarkdown
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
-
-We received many new sequences from Iceland.
-Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
-We're working hard to analyze all of this new data, and will report our findings next week.
-```
 # [Nuevas secuencias de Islandia](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 Hemos recibido muchas secuencias nuevas desde Islandia.
 Coloreando de acuerdo al historial de exposición de cada caso (cuando este se  conoce), vemos que muchos de estos casos son de viajeros recientes.
 Estamos trabajando intensamente para analizar todos estos nuevos datos, y reportaremos nuestros hallazgos la próxima semana.
-
+```
 <!-- There is no right side text -->
 
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
 ```auspiceMainDisplayMarkdown
-# [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
-
-
-<!-- There is no right side text -->
-
-
-<!-- ##### slide break ##### -->
-<!-- This is left-side text 7-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
-
-Even within the U.S., transmission patterns are highly complex.
-<br><br>
-For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
-While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
-<br><br>
-This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
-<!-- There is no right side text -->
-
-
-<!-- ##### slide break ##### -->
-<!-- This is left-side text 8-->
-# [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
-
-Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
-<br><br>
-However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
-<br><br>
-<!-- There is no right side text -->
-
-
-<!-- ##### slide break ##### -->
-<!-- This is left-side text 9-->
-# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
-
-We see similar patterns elsewhere in the U.S.
-<br><br>
-Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.
-<br><br>
-While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
-<br><br>
-Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
-<br><br>
-These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
-```
-<!-- There is no right side text -->
-
 # [Actualizaciones de América del Norte](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 <!-- There is no right side text -->
@@ -288,7 +189,7 @@ Datos adicionales nos permitirán comprender lo que probablemente es una epidemi
 
 Si observamos los casos en el estado de Washington, vemos que hay al menos dos grupos de brotes locales separados.
 <br><br>
-Sin embargo, los dos grupos tienen orígenes diferentes: el primer grupo está más estrechamente relacionado con las muestras de China, mientras que el segundo está más relacionado con las muestras de Europa. También es posible que estas introducciones hayan sido indirectas, via casos intermedios procedentes de otra región que no fueron muestreados .
+Sin embargo, los dos grupos tienen orígenes diferentes: el primer grupo está más estrechamente relacionado con las muestras de China, mientras que el segundo está más relacionado con las muestras de Europa. También es posible que estas introducciones hayan sido indirectas, vía casos intermedios procedentes de otra región que no fueron muestreados .
 <br><br>
 <!-- There is no right side text -->
 
@@ -299,13 +200,15 @@ Sin embargo, los dos grupos tienen orígenes diferentes: el primer grupo está m
 
 Vemos patrones similares en otras partes de los EE.UU.
 <br><br>
-Aquí vemos varias muestras del condado de Solano, en el norte de California, que si bien fueron muestreadas en fechas distintas, estan muy relacionadas entre sí.
+Aquí vemos varias muestras del condado de Solano, en el norte de California, que si bien fueron muestreadas en fechas distintas, están muy relacionadas entre sí.
 <br><br>
 Si bien los datos de California son demasiado limitados para llegar a conclusiones sólidas, esta evidencia preliminar es consistente con la transmisión local dentro del condado de Solano.
 <br><br>
 En otra parte del árbol, vemos un patrón similar para las muestras del condado de Santa Clara.
 <br><br>
 A partir de posiciones relativas en el árbol, es probable en estos condados los grupos de casos se deban a introducciones separadas.
+```
+<!-- There is no right side text -->
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
