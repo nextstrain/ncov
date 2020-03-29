@@ -34,18 +34,19 @@ abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von 
 
 
 <!-- This is left-side text 1-->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
+# [Inhaltsverzeichnis](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [COVID-19 Quellen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
+* [Anmerkung zur Probennahme](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+* [Updates fuer Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+* [Updates fuer Nord-Amerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Updates fuer Sued- und Zentral-Amerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Updates fuer Asien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Updates fuer Afrika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
 * [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Updates fuer Ozeanien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [Was Sie tun koennen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Wissenschaftliche Danksagung](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Zusammenfassung
