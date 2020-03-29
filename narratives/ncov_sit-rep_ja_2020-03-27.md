@@ -40,16 +40,16 @@ abstract: このレポートでは、公開されているゲノム情報を使�
 <!-- This is left-side text 1-->
 # [目次](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [資料](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [このデータについて](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [ヨーロッパに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [北アメリカに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [中南米アメリカに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [アジアに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [アフリカに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [オセアニアに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [私たちにできること](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [分析データのクレジット](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [資料](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=2).     
+* [このデータについて](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=3).  
+* [ヨーロッパに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=4).  
+* [北アメリカに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=7).  
+* [中南米アメリカに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=11).  
+* [アジアに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=13).  
+* [アフリカに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=15).  
+* [オセアニアに関するアップデート](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=17).  
+* [私たちにできること](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=19).  
+* [分析データのクレジット](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # 概要
@@ -91,7 +91,7 @@ COVID-19 とそれを引き起こすウイルスである SARS-CoV-2 を理解�
 
 ## Nextstrain上の資料
 
-[系統樹の読み方](https://nextstrain.org/narratives/trees-background/).  
+[系統樹の読み方](https://nextstrain.org/narratives/trees-background/ja).  
 
 [コロナウイルスの背景](https://nextstrain.org/help/coronavirus/human-CoV).
 
@@ -99,7 +99,7 @@ COVID-19 とそれを引き起こすウイルスである SARS-CoV-2 を理解�
 
 [よくある質問と答え](https://nextstrain.org/help/coronavirus/FAQ).
 
-[よくある誤解](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[よくある誤解](https://nextstrain.org/narratives/ncov/sit-rep/ja/2020-03-13?n=11).
 
 
 ## 外部の資料
