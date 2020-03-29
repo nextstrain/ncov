@@ -340,20 +340,20 @@ INRB（刚果的国立医学研究机构）测得早期样本的出色工作，�
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text 20-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [科学贡献人员](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+我们要感谢参与此次疫情的所有科学家所做的令人惊叹和及时的工作，特别是那些在中国工作的科学家。
+只有通过基因组数据和元数据的快速共享，才有可能进行这样的分析。
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+我们也感谢[GISAID](https://gisaid.org)提供了上传和共享这些数据的平台。
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+非常感谢以下单位机构和实验室慷慨分享:
 
 * Andersen Lab, The Scripps Research Institute
 * Arizona Department of Health Services
@@ -583,19 +583,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [科学贡献详情](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+所有数据已被共享至[GISAID](https://gisaid.org)数据库。
+我们感谢各位科学家的慷慨分享。
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+在右边，我们列出了每个实验室共享的序列。
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+感谢下列实验室里科学家们慷慨分享SARS-CoV-2的基因组:
 
 * Andersen Lab, The Scripps Research Institute
 	* USA/CA-MG0987/2020
