@@ -147,7 +147,7 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [تسلسلات جديدة من ايسلندا] (https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+# [تسلسلات جديدة من ايسلندا](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 حصلنا على تسلسلات جديدة كثيرة من ايسلندا. بتلوين تاريخ التعرض لكل حالة (إن علم)، نستطيع مشاهدة بان العديد من هذه الحالات هي من مسافرين حديثين. نحن نعمل جاهدين على تحليل جميع هذه البيانات الجديدة وسوف نوثق نتائجنا في تقرير الاسبوع القادم.
 
