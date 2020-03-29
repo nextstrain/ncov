@@ -21,8 +21,10 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Takeshi Sato
+  - Tomoyuki Nezu
 translatorLinks:
   - 
+  - https://twitter.com/tommy_nezy
 date: 2020年3月27日
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: このレポートでは、公開されているゲノム情報を使用して、COVID-19の広がりを追跡しています。これらのレポートは毎週更新されます。
