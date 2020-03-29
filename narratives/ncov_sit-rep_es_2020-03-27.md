@@ -1,5 +1,5 @@
 ---
-title: Análisis genómico de la propagación del COVID-19. Reporte 2020-03-27.
+title: Análisis genómico de la propagación del COVID-19. Reporte al 27-03-2020.
 authors:
   - Sidney M. Bell
   - Nicola Müller
@@ -29,15 +29,14 @@ translatorLinks:
   - https://twitter.com/miguelp1120
   - https://researchers.uq.edu.au/researcher/18392
 
-date: "2020 March 27"
+date: "27 de Marzo del 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento de la propagación del COVID-19. Los reportes son actualizados semanalmente."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated. Please add your name under translators and a link to your professional webpage (can be twitter) under translatorLinks. -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
-
 
 <!-- This is left-side text 1-->
 # [Contenidos](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid).
