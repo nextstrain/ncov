@@ -36,12 +36,12 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 * [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [데이터 수집 관련 사항](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [유럽의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [북미의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [중미와 남미의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [아시아의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [아프리카의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [오세아니아의 동향](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [유럽의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+* [북미의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [중미와 남미의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [아시아의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [아프리카의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [오세아니아의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
 * [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
 * [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
@@ -85,29 +85,29 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Nextstrain Resources  
+## Nextstrain 관련자료
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+[계통수를 읽는 법](https://nextstrain.org/narratives/trees-background).  
 
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+[코로나바이러스 관련 배경지식](https://nextstrain.org/help/coronavirus/human-CoV).
 
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
+[최근 코로나바이러스감염증-19 유행 관련 배경지식](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
+[자주 묻는 질문](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[흔한 오해들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
-## External Resources  
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+## 외부 자료
+[WHO 상황 보고서](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+[미국 질병통제예방센터에서 제공하는 자료](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+[뉴욕타임즈 코로나-19 커버리지](https://www.nytimes.com/news-event/coronavirus).
 
-[Our World in Data](https://ourworldindata.org/coronavirus).
+[데이터로 본 세계](https://ourworldindata.org/coronavirus).
 
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
+[과학자에게 물어보세요 & 흔한 질문들](https://covid19.fas.org/l/en).
 
 
 ```
@@ -115,12 +115,12 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [데이터 수집 관련 사항](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+현재 저희는 6개 대륙, 48개국에서 얻은 분리된 바이러스의 RNA 염기서열 정보를 해독했습니다. 이는 엄청난 성과입니다 -- 큰 RNA 유전체를 가진 미지의 바이러스의 염기서열 정보를 유행 와중에 얻는 것은 굉장히 어렵습니다. 이는 전 세계의 과학자와 의료인들의 신속한 정보공유와 헌신이 아니었다면 불가능했을 것입니다.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+이 데이터를 활용하면 유행의 여러 특성을 실시간으로 유추할 수 있지만 저희의 결론은 현재 활용가능한 데이터에만 국한됩니다.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+예를 들어, 아래의 지도는 남반구에서 채취된 바이러스가 매우 적음을 보여줍니다. 이는 그 지역에 코로나19 유행이 없어서도, 다른 지역보다 덜 중요해서도 아닙니다. 단지 그 지역에서 수집된 데이터가 부족하다는 것을 의미합니다. 지도 상의 원의 크기는 그 지역에서 얻은 데이터의 양을 의미할 뿐 실제 유행의 규모와는 무관합니다.
 <!-- There is NO right-side text -->
 
 
