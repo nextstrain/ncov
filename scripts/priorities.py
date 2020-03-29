@@ -24,23 +24,28 @@ if __name__ == '__main__':
     # load entire alignment and the alignment of focal sequences (upper case -- probably not necessary)
     all_seqs_dict = {x.id: x.upper() for x in AlignIO.read(args.alignment, format = 'fasta')}
     focal_seqs_dict = {x.id:x.upper() for x in AlignIO.read(args.focal_alignment, format='fasta')}
+    print("Done reading the alignments.")
 
     # convert focal sequences to a numpy masked array
-    focal_seqs_array = np.ma.array([x for x in focal_seqs_dict.values()])
+    focal_sequences = list(focal_seqs_dict.keys())
+    focal_seqs_array = np.ma.array([focal_seqs_dict[x] for x in focal_sequences])
     focal_seqs_array.mask = np.bitwise_or(focal_seqs_array.data=='N', focal_seqs_array.data=='-')
+    fraction_masked_in_focal = focal_seqs_array.mask.mean(axis=1)
 
     # remove focal sequences from all sequence to provide context data set
     context_seqs = [v for k,v in all_seqs_dict.items() if k not in focal_seqs_dict]
     # convert context set to masked arry
     context_seq_array = np.ma.array(context_seqs)
     context_seq_array.mask = np.bitwise_or(context_seq_array.data=='N', context_seq_array.data=='-')
-
+    print("Done converting the alignments.")
     # for each context sequence, calculate minimal distance to focal set
     minimal_distance_to_focal_set = {}
     for i, seq in enumerate(context_seqs):
-        closest_match = np.ma.sum(focal_seqs_array!=context_seq_array[i], axis=1).argmin() 
+        closest_match = (np.ma.sum(focal_seqs_array!=context_seq_array[i], axis=1) 
+                         + fraction_masked_in_focal).argmin()
         min_dist = np.ma.sum(focal_seqs_array[closest_match]!=context_seq_array[i])
-        print(seq.id, min_dist)
+        if i%100==0:
+            print(f"compared {i} out of {len(context_seqs)} sequences")
         # for each context sequence, store distance and index of closest focal match
         minimal_distance_to_focal_set[seq.id] = (min_dist, closest_match)
 
@@ -51,6 +56,7 @@ if __name__ == '__main__':
 
     for f in close_matches:
         shuffle(close_matches[f])
+        close_matches[f].sort(key=lambda x:minimal_distance_to_focal_set[x][0])
 
     # export priorities
     with open(args.output, 'w') as fh:
