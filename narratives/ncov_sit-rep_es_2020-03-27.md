@@ -51,13 +51,13 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [Actualizaciones de Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
 * [Actualizaciones de Oceanía](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
 * [¡Qué puedes hacer tú](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18)!
-* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Resúmen ejecutivo
+# Resumen ejecutivo
 
-Analizamos 1.495 genomas de COVID-19 compartidos públicamente. Comparando estos genomas entre sí, podemos caracterizar cómo COVID-19 se está moviendo alrededor del mundo y propagando localmente. Actualizaciones de esta semana:
+Analizamos 1,495 genomas de COVID-19 compartidos públicamente. Comparando estos genomas entre sí, podemos caracterizar cómo COVID-19 se está moviendo alrededor del mundo y propagando localmente. Actualizaciones de esta semana:
 
 **Europa**  
 * Seguimos viendo una fuerte mezcla de muestras en Europa. Esto sugiere que el virus ha seguido moviéndose a través de las fronteras en las últimas 3-5 semanas. A medida que las medidas de mitigación surtan efecto, podremos ver más agrupación de casos por país.
@@ -107,7 +107,7 @@ Si no estas familiarizado con la filogenética, te recomendamos leer la siguient
 
 
 ## Recursos Externos  
-[Reportes de la OMS](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+[Reportes de la Organizacion Mundial de la Salud (OMS)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
 [Recursos del CDC, EEUU](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
@@ -117,13 +117,11 @@ Si no estas familiarizado con la filogenética, te recomendamos leer la siguient
 
 [Preguntale a un científico](https://covid19.fas.org/l/es).
 
-
 ```
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
-```auspiceMainDisplayMarkdown
 
 # [Acerca del muestreo de datos](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
 Actualmente tenemos secuencias virales tomadas en 48 países de 6 continentes. Este es un logro increíble: secuenciar un virus de ARN desconocido y de gran tamaño durante una pandemia es difícil, y sólo es posible gracias al increíble trabajo y al intercambio de datos por parte de científicos y médicos de todo el mundo.
@@ -131,7 +129,7 @@ Actualmente tenemos secuencias virales tomadas en 48 países de 6 continentes. E
 Si bien estos datos nos permiten inferir muchas características útiles del brote y seguir su propagación en tiempo real, es importante destacar que nuestras conclusiones se ven limitadas por los datos disponibles.
 <br><br>
 Por ejemplo, el mapa muestra muy pocas secuencias del sur global. Esto NO se debe a que el COVID-19 no esté circulando en estas zonas, o a que le comprensión de estos casos no sea tan importante; simplemente no tenemos muchos datos de estas zonas. Nótese que el tamaño de cada círculo en el mapa indica la cantidad de datos disponibles actualmente de esa área, y no el tamaño real del brote.
-```
+
 <!-- There is NO right-side text -->
 
 
@@ -146,8 +144,6 @@ Por ejemplo, el mapa muestra muy pocas secuencias del sur global. Esto NO se deb
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-```auspiceMainDisplayMarkdown
-
 # [Continúa la propagación a través de las fronteras en las últimas 3-5 semanas](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 Aquí indicamos muestras recogidas en toda Europa en las últimas 3 semanas, coloreadas de acuerdo al país en que fueron aisladas.
 Cabe destacar que si bien hay algunos grupos pequeños específicos para cada país, también hay una gran cantidad de mezcla entre las muestras de diferentes países.
@@ -155,24 +151,21 @@ Cabe destacar que si bien hay algunos grupos pequeños específicos para cada pa
 Esto sugiere que en las últimas 3-5 semanas ha habido una propagación continua a través de las fronteras.
 <br><br>
 Esta aglomeración geográfica podría aumentar a raíz de recientes estrategias de mitigación que tienden a reducir los viajes entre regiones.
-```
+
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-```auspiceMainDisplayMarkdown
 # [Nuevas secuencias de Islandia](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 Hemos recibido muchas secuencias nuevas desde Islandia.
 Coloreando de acuerdo al historial de exposición de cada caso (cuando este se  conoce), vemos que muchos de estos casos son de viajeros recientes.
 Estamos trabajando intensamente para analizar todos estos nuevos datos, y reportaremos nuestros hallazgos la próxima semana.
-```
 <!-- There is no right side text -->
 
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
-```auspiceMainDisplayMarkdown
 # [Actualizaciones de América del Norte](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 <!-- There is no right side text -->
