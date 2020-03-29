@@ -84,17 +84,18 @@ Analizamos 1.495 genomas de COVID-19 compartidos públicamente. Comparando estos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
-```auspiceMainDisplayMarkdown
 
 # [Información básica del COVID-19](https://nextstrain.org/ncov/2020-03-27)
 Hemos compilado información que vale la pena leer para familiarizarse con el COVID-19 y el virus que lo causa, SARS-CoV-2, también llamado hCov-19. Esta información facilitará la interpretación de los datos que presentamos en este reporte.
 <br><br>
 Si no estas familiarizado con la filogenética, te recomendamos leer la siguiente introducción ['Cómo leer filogenias'](https://nextstrain.org/narratives/trees-background/es) antes de leer este reporte.
-```
+
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 ## Recursos de Nextstrain  
+
+[Cómo leer filogenias](https://nextstrain.org/narratives/trees-background/es).
 
 [Antecendentes de los virus corona](https://nextstrain.org/help/coronavirus/human-CoV).
 
