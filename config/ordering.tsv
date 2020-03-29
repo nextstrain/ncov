@@ -74,6 +74,11 @@ location	Oisterwijk
 location	Dalen
 location	Budapest
 location	Nantes
+location	Tours
+location	Brest
+location	Vanves
+location	Crouy en Thelle
+location	Meudon la Forêt
 location	Crépy en Valois
 location	Paris
 location	Reims
@@ -136,6 +141,7 @@ location	Illinois
 location	Wisconsin
 location	Dane County
 location	Boston
+location	Manhattan
 location	Nassau County
 
 
@@ -203,6 +209,7 @@ division	Martin
 division	Copenhagen
 division	Bretagne
 division	Ile de France
+division	Centre-Val de Loire
 division	France
 division	Auvergne-Rhône-Alpes
 division	Pays de la Loire
@@ -272,8 +279,8 @@ division	Grand Canary Islands
 division	Croatia
 division	Northern Ireland
 division	England
+division	Nottinghamshire
 division	United Kingdom
-division	UK
 division	Wales
 division	Dublin
 division	Cork
@@ -287,6 +294,11 @@ division	Portugal
 division	Lagos
 division	Kinshasa
 division	KwaZulu-Natal
+division	Mbour
+division	Touba
+division	Dakar
+division	Blida
+division	Boufarik
 division	Santiago
 division	Talca
 division	Sao Paulo
@@ -297,8 +309,8 @@ division	Minas Gerais
 division	Rio Grande do Sul
 division	Rio de Janeiro
 division	Distrito Federal
-division	Medellin
 division	Amazonas State
+division	Antioquia
 division	Quito
 division	Panama City
 division	Mexico City
@@ -317,6 +329,7 @@ division	Washington
 division	British Columbia
 division	Ontario
 
+
 country	China
 country	Hong Kong
 country	Taiwan
@@ -334,14 +347,13 @@ country	New Zealand
 country	Saudi Arabia
 country	Kuwait
 country	Pakistan
-country	Iran
 country	Georgia
 country	Russia
-country	Iceland
 country	Slovakia
 country	Poland
 country	Hungary
 country	France
+country	Iceland
 country	Norway
 country	Denmark
 country	Netherlands
@@ -358,6 +370,8 @@ country	Finland
 country	Sweden
 country	Portugal
 country	Nigeria
+country	Senegal
+country	Algeria
 country	Congo
 country	South Africa
 country	Chile

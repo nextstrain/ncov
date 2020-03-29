@@ -67,7 +67,7 @@
       "key": "genbank_accession"
     },
     {
-      "key": "division_exposure",
+      "key": "country_exposure",
       "title": "Exposure History",
       "type": "categorical"
     }
@@ -90,8 +90,6 @@
     "division",
     "country",
     "region",
-    "division_exposure",
-    "country_exposure",
     "host",
     "author",
     "originating_lab",
