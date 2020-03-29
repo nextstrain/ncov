@@ -280,7 +280,7 @@ INRB（刚果的国立医学研究机构）测得早期样本的出色工作，�
 
 <!-- ############ OCEANIA ############# -->
 <!-- This is left-side text 17-->
-# [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
+# [大洋洲的最新情况](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -288,10 +288,10 @@ INRB（刚果的国立医学研究机构）测得早期样本的出色工作，�
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [Local transmission in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [新南威尔士州的本地传播](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-New sequences from Australia show evidence of local transmission across New South Wales.
-The virus has likely been circulating in this area since at least the end of February.
+澳大利亚的新序列显示了新南威尔士州本地传播的证据。
+这些证据表明，病毒极有可能从二月底开始就在当地形成传播。
 
 <!-- There is no right side text -->
 
