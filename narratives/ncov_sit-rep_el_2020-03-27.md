@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-27.
+title: Γενομική ανάλυση της εξάπλωσης του COVID-19. Κατάσταση 2020-03-27.
 authors:
   - Sidney M. Bell
   - Nicola Müller
@@ -19,11 +19,11 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators:
-translatorLinks:
-date: "2020 March 27"
+translators: Sotiris Salloumis
+translatorLinks: https://github.com/codergr
+date: "27 Μαρτίου 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Aυτή η αναφορά χρησιμοποιεί δεδομένα που είναι δημοσίως διαθέσιμα για την ιχνηλάτηση της εξάπλωσης του COVID-19. Οι αναφορές ενημερώνονται κάθε εβδομάδα."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated. Please add your name under translators and a link to your professional webpage (can be twitter) under translatorLinks. -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -32,21 +32,21 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 
 <!-- This is left-side text 1-->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
+# [Περιεχομένα](https://nextstrain.org/ncov/sit-rep/el/2020-03-27?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Πηγές](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-26?n=2).     
+* [Μια σημείωση σχετικά με τη δειγματοληψία.](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=3).  
+* [Ενημερώσεις απο Ευρώπη](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=4).  
+* [Ενημερώσεις απο Βόρεια Αμερική](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=6).  
+* [Ενημερώσεις απο Κεντρική και Νότια Αμερική](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=10).  
+* [Ενημερώσεις απο Ασία](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=12).  
+* [Ενημερώσεις απο Αφρική](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=14).  
+* [Ενημερώσεις απο Ωκεανία](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=16).  
+* [Τι μπορείτε να κάνετε.](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=18).  
+* [Επιστημονικές ευχαριστίες.](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Περίληψη
 
 We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
 
@@ -75,17 +75,16 @@ We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral gen
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
+# [COVID-19 Πηγές](https://nextstrain.org/ncov/2020-03-27)
+Έχουμε ετοιμάσει ορισμένες πηγές πληροφόρησης που αξίζει να διαβάσετε για να εξοικειωθείτε με την ασθένεια COVID-19 και τον ιό που την προκαλεί, τον SARS-CoV-2, επίσης γνωστός ώς hCov-19. Οι πληροφορίες αυτές θα διευκολύνουν την ερμηνεία των δεδομένων που παρουσιάζουμε σε αυτή την αναφορά.
 <br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+Αν δεν είστε εξοικειωμένοι με φυλογενετικά δέντρα σας συνιστούμε να ελέγξετε το άρθρο ['Πώς να διαβάσετε μια φυλογένεση](https://nextstrain.org/narratives/trees-background/) και να επιστρέψετε όταν είστε έτοιμοι.
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Nextstrain Resources  
+## Nextstrain Πηγές  
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+[Πώς να διαβάσετε Φυλογενέσεις](https://nextstrain.org/narratives/trees-background/).  
 
 [Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
 
@@ -96,7 +95,8 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
-## External Resources  
+## Εξωτερικές Πηγές
+
 [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
 [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
@@ -113,12 +113,13 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Μια σημείωση σχετικά με τη δειγματοληψία](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+Αυτή τη στιγμή έχουμε αλληλουχίες από δείγματα που έχουν ληφθεί σε 48 χώρες σε 6 ηπείρους. Αυτό είναι ένα αξιόλογο κατόρθωμα - η αλληλούχηση ενός ιού με μεγάλο RNA γονιδίωμα εν μέσω πανδημίας είναι δύσκολη και είναι η εξαιρετική δουλειά και ο συνεχής διαμοιρασμός δεδομένων από επιστήμονες και γιατρούς σε όλο τον κόσμο που την καθιστούν δυνατή. 
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+Αν και τα δεδομένα μας επιτρέπουν να εξαγάγουμε αρκετά χρήσιμα χαρακτηριστικά για την επιδήμια και να παρακολουθήσουμε την εξάπλωση σε πραγματικό χρόνο, είναι σημαντικό να επισημάνουμε ότι τα συμπερασματά μας περιορίζονται απο τα διαθέσιμα δεδομένα.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+Για παράδειγμα, ο χάρτης παρουσιάζει πολύ λίγες αλληλουχίες απο το νότιο ημισφαίριο. Αυτό ΔΕΝ ειναι επειδή δεν υπάρχει διάδοση COVID-19 σε αυτές τις περιοχές, ή ότι αυτές οι περιπτώσεις είναι λίγοτερο σημαντικές για να κατανοήσουμε, το αντίθετο, απλά δεν έχουμε αρκετά δεδομένα διαθέσιμα απο αυτές τις περιοχές.
+Η ακτίνα κάθε κύκλου στο χάρτη υποδηλώνει πόσα δεδομένα είναι διαθέσιμα απο τη συγκεκριμένη περιοχή τώρα, και όχι το πραγματικό μέγεθος της επιδημίας στη περιοχή.
 <!-- There is NO right-side text -->
 
 
@@ -126,7 +127,7 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ############ EUROPE ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
+# [Ενημερώσεις απο Ευρώπη](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
 
 <!-- There is no right side text -->
@@ -134,29 +135,30 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+# [Συνεχιζόμενη διάσυνοριακή διάδοση τις τελευταίες 3-5 εβδομάδες.](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
-Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
+Εδώ, δείχνουμε δείγματα που έχουν συλλεχθεί στην Ευρώπη τις τελευταίες 3 εβδομάδες, χρωματιζόμενες ώς προς τη χώρα που είχαν απομονωθεί.
+Αξίζει να σημειωθεί, όσο υπάρχουν μικρές συστοιχίες οι οποίες ειναι σε συγκεκριμένη χώρα, υπάρχει ένας μεγάλος αριθμός απο αναμείξεις μεταξύ απονομένων συστοιχιών απο διαφορετικές χώρες. 
 <br><br>
-This suggests that there has been continued spread across borders within the last 3-5 weeks.
+Αυτό σημαίνει ότι πιθανόν υπήρχε συνεχιζόμενη διάδοση μεταξύ των συνόρων τις τελευταίες 3-5 εβδομάδες.
 <br><br>
-This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
+Η γεωγραφική συστοιχία ενδεχομένως να γίνει ισχυρότερη με τα πρόσφατα μέτρα και τις προσπάθειες που περιορίζουν τα ταξίδια μεταξύ των περιφερειών.
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+# [Νέες συστοιχίες απο την Ιρλανδία](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
-We received many new sequences from Iceland.
-Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
-We're working hard to analyze all of this new data, and will report our findings next week.
+Λάβαμε αρκετές συστοιχίες απο την Ισλανδία.
+Χρωματίζοντας με βάση το ιστορικό ανίχνευσης του ιού ( όταν έγινε γνωστό ), βλέπουμε ότι πολλές από αυτές τις περιπτώσεις προέρχονται από πρόσφατους ταξιδιώτες.
+Δουλεύουμε σκληρά για να αναλύσουμε όλα αυτά τα νέα δεδομένα και θα υποβάλουμε τα ευρήματά μας την επόμενη εβδομάδα.
+
 <!-- There is no right side text -->
 
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
-# [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+# [Ενημερώσεις απο Βόρεια Αμερική](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -164,9 +166,9 @@ We're working hard to analyze all of this new data, and will report our findings
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+# [Διάδοση στης Ηνωμένες Πολιτείες είναι πολύπλοκη και δεν ειναι καλά κατανοητή](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Even within the U.S., transmission patterns are highly complex.
+Ακόμη και στις ΗνωμένεςEven within the U.S., transmission patterns are highly complex.
 <br><br>
 For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
 While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
@@ -2678,3 +2680,4 @@ The SARS-CoV-2 genomes were generously shared by scientists at these submitting 
 * Zhongxian Center for Disease Control and Prevention
 	* Chongqing/ZX01/2020
 ```
+
