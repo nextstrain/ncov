@@ -207,7 +207,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
-# [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
+# [تحديثات من وسط وجنوب أمريكا](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -215,13 +215,12 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-We don't have much genetic sequence data from South America yet.
-Of the available data, most are from travelers.
-Here, each case is colored by the known exposure history.
+# [عينات أولية مرتبطه بالسفر جمعت في جنوب أمريكا](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
 <br><br>
-While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
-Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.
+ليس لدينا الكثير من سلاسل جينات الفيروس من جنوب أمريكا حتى الآن. العينات المتوفرة معظمها من  المسافرين. هنا كل عينة ملونة بناء على تاريخ معروف للتعرض للفيروس. 
+<br><br>
+على الرغم من ظهور ملامح أولية لنسق قد يكون حاسما، الا انه من المبكر التحدث عن ذلك. علمية سلسلة الجينات آخذة بالازدياد، وسننتظر حال توفر هذه السلاسل لتضح الصورة.
+
 <!-- There is no right side text -->
 
 
@@ -229,7 +228,7 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 
 <!-- ############ ASIA ############# -->
 <!-- This is left-side text 12-->
-# [Updates for Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
+# [تحديثات من آسيا](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -238,17 +237,17 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 13-->
 # [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
+
+ليس لدينا أي تسلسل جيني للفيروس  من إيران. ولكن لدينا عينات من مرضى لهم سجل سفر مرتبط بإيران
+<br><br>
+معظم  العينات المرتبطة بسجلات  سفر من و إلى إيران  تشير لأن  العديد من الحالات الإيرانية مشتقة من إدخال وحيد للفيروس في إيران 
+<br><br>
+في  أسفل  الشجرة، نرى عينة لإمرأة من باكستان لها سجل سفر لإيران. هذه الحالة تتخذ موقعا منعزلا في الشجرة بشكل يثر الاهتمام حيث  أنها بعيدة عن باقي الحالات التي نعرف بأن لها سجل سفر مرتبط بإيران 
+<br><br>
+هذا  قد يؤدي لنظريات مختلفة؛ سندع طرحها والتعليق عليها لحين توفر المزيد من  البيانات
+
 <!-- There is no right side text -->
 
-We do not yet have viral genomes from Iran.
-However, we do have sequences from many cases with reported travel to Iran.
-<br><br>
-Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were derived from a single introduction into Iran.
-<br><br>
-At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.
-Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.
-<br><br>
-This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.
 <!-- There is no right side text -->
 
 
