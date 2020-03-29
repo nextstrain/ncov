@@ -146,17 +146,17 @@ Deze geografische groepering wordt mogelijk sterker door de recente maatregelen 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+# [Nieuwe sequenties vanuit IJsland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
-We received many new sequences from Iceland.
-Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
-We're working hard to analyze all of this new data, and will report our findings next week.
+We hebben vele nieuwe sequenties vanuit IJsland ontvangen.
+Gekleurd voor de EXPOSURE HISTORY van iedere besmetting, zien we dat veel van de besmettingen van recente reizigers zijn. 
+We werken hard om all deze nieuwe data te analyseren en zullen onze bevindingen volgende week rapporteren. 
 <!-- There is no right side text -->
 
 
-<!-- ############ NORTH AMERICA ############# -->
+<!-- ############ Noord-Amerika ############# -->
 <!-- This is left-side text 6-->
-# [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+# [Updates over Noord-Amerika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -164,14 +164,14 @@ We're working hard to analyze all of this new data, and will report our findings
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+# [Transmissie binnen de Verenigde Staten is complex en onduidelijk (WELL UNDERSTOOD)](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Even within the U.S., transmission patterns are highly complex.
+Zelfs binnen de Verenigde Staten zijn transmissiepatronen zeer complex.
 <br><br>
-For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
-While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
+Bijvoorbeeld, recente monsters vanuit Conneticut (geselecteerde toppen) zijn zowel voorouderlijk tot, als vermengd met monsters vanuit de Staat Washington (vervaagde toppen).
+Alhoewel er meer data nodig is om duidelijke conclusies te trekken, suggereert dit dat er recente transmissie was tussen veruiteengelegen delen van het land. 
 <br><br>
-This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
+Dit benadrukt dat de transmissiepatronen binnen de Verenigde Staten veel complexer zijn dan de huidige data representeert. 
 Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
 <!-- There is no right side text -->
 
