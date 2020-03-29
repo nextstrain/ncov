@@ -46,7 +46,7 @@ abstract: "Deze rapportage maakt gebruik van publiek gedeelde genomische data om
 * [Wetenschappelijk dankwoord](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Samenvatting
 
 Hier hebben we 1.495 publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door deze virus genomen met elkaar te vergelijken, kunnen we karakteriseren hoe COVID-19 zich ontwikkelt en beweegt over de hele wereld. In de updates van deze week, rapporteren we: 
 
@@ -75,37 +75,37 @@ Hier hebben we 1.495 publiekelijk gedeelde COVID-19 genomen geanalyseerd. Door d
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
+# [COVID-19 Bronnen](https://nextstrain.org/ncov/2020-03-27)
+We hebben een aantal bronnen voorbereid die het waard zijn om te lezen om jezelf vertrouwd te maken met COVID-19 en het virus dat het veroorzaakt, SARS-CoV-2, ook bekend als hCov-19. 
+Deze informatie maakt het interpreteren van de gegevens die we in dit narratief presenteren makkelijker.
 <br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+Als u niet bekend bent met fylogenetische bomen, raden we u aan het ['Hoe kan ik Fylogenieën lezen'](https://nextstrain.org/narratives/trees-background/) narratief te bekijken en terug te komen wanneer u klaar bent. 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Nextstrain Resources  
+## Nextstrain Bronnen 
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+[Hoe kan ik fylogenieën lezen](https://nextstrain.org/narratives/trees-background/nl/).  
 
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+[Achtergrond bij Coronavirussen (Engels)](https://nextstrain.org/help/coronavirus/human-CoV).
 
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
+[Achtergrond bij de huidige hCoV-19 uitbraak (Engels)](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
 [FAQs](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[Veelvoorkomende misvattingen (Engels)](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
-## External Resources  
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+## Externe bronnen  
+[WHO Situatierapportages (Engels)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+[CDC Bronnen (Engels)](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+[De NYTimes COVID-19 artikelen (Engels)](https://www.nytimes.com/news-event/coronavirus).
 
-[Our World in Data](https://ourworldindata.org/coronavirus).
+[Onze wereld in data (Engels)](https://ourworldindata.org/coronavirus).
 
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
+[Vraag het een Wetenschapper & FAQs (Engels)](https://covid19.fas.org/l/en).
 
 
 ```
