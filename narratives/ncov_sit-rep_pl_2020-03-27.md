@@ -61,7 +61,7 @@ Przeanalizowaliśmy 1,495</tag> dostępnych publicznie genomów COVID-19. Porów
 **Ameryka Północna**  
 * W USA, obraz transmisji jest złożony: próbki pobrane z przeciwnych części kraju nadal wykazują bliskie pokrewieństwo. 
 * W stanie Waszyngton występują co najmniej dwie introdukcje wirusa (pierwsza najprawdopodobniej z Chin, druga najprawdopodobniej z Europy), które doporowadziły do dwóch niezależnych łańcuchów transmisji.
-* Są dowody na prawdopodobną lokalną transmisję w kilku stanach, najbardziej widoczną w Kaliforni.
+* Są dowody na prawdopodobną lokalną transmisję w kilku stanach, najbardziej widoczną w Kalifornii.
  
 <!-- * Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
 * Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
@@ -93,7 +93,7 @@ Przeanalizowaliśmy 1,495</tag> dostępnych publicznie genomów COVID-19. Porów
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
 # [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-27)
-Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który tę chorobę wywołuje, również znanym jako hCov-19.
+Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który tę chorobę wywołuje, również znanym jako nCov-19.
 Zawarte w nich informacje ułatwią interpretację danych, które prezentujemy w tym raporcie.
 <br><br>
 Jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['Jak interpretować drzewa filogenetyczne'](https://nextstrain.org/narratives/trees-background/pl).
@@ -172,7 +172,7 @@ This geographic clustering might become stronger with recent mitigation efforts 
 <!-- This is left-side text 5-->
 # [Nowe sekwencje z Islandii](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 Otrzymaliśmy wiele nowych sekwencji z Islandii.
-Po pololorowaniu próbek według historii podróży (jeśli taka jest znana), widzimy, że wiele przypadków pochodzi od osób niedawno podróżujących. 
+Po pokolorowaniu próbek według historii podróży (jeśli taka jest znana), widzimy, że wiele przypadków pochodzi od osób niedawno podróżujących. 
 Obecnie pracujemy nad analizą tych nowych danych i mamy zamiar przedstawić wyniki w raporcie w przyszłym tygodniu.
 <!--We received many new sequences from Iceland.
 Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
@@ -194,10 +194,10 @@ We're working hard to analyze all of this new data, and will report our findings
 
 Wzory rozprzestrzeniania się są bardzo złożone, nawet w obrębie Stanów Zjednoczonych.
 <br><br>
-Na przykład, niedawne próbki z Connecticut (zaznaczone) są jednocześnie ancestralne do próbek ze stanu Waszyngton, jak i przemieszane z nimi (wyblakłe gałęzie).
+Na przykład, niedawne próbki z Connecticut (zaznaczone) są jednocześnie ancestralne w stosunku do próbek ze stanu Waszyngton, jak i przemieszane z nimi (wyblakłe gałęzie).
 Choć potrzeba jest więcej danych, aby wyciągnąć zdecydowane wnioski, obserwowany wzór sugeruje, że mamy do czyeniania z niedawną transmisją nawet pomiędzy odległymi rejonami kraju.
 <br><br>
-To podkreśla, że wzory rozpstrzestrzeniania się wirusa w Stanach Zjednoczonych są bardziej złożone niż jest prezentowane przez obecnie dostępne dane.
+To podkreśla, że obraz rozprzestrzeniania się wirusa w Stanach Zjednoczonych jest bardziej złożone niż jest prezentowane przez obecnie dostępne dane.
 Dodatkowe dane pomogą nam zrozumieć prawdopodobne wzajemne relacje krajowej epidemii, rozgrywającą się na tle wysoce niejednorodnych reakcji ze strony poszczególnych stanów.
 
 <!-- Even within the U.S., transmission patterns are highly complex.
@@ -214,7 +214,7 @@ Additional data will help us understand what is likely a deeply interconnected n
 <!-- This is left-side text 8-->
 # [Wielokrotne sieci transmisyjne obiegające stan Waszyngton](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Patrząc na przypadki w stanie Waszyngton, możemy zaobserwować, żes ą tam przynajmniej dwa osobne, lokalne ogniska.
+Patrząc na przypadki w stanie Waszyngton, możemy zaobserwować, że są tam przynajmniej dwa osobne, lokalne ogniska.
 <br><br>
 Te dwa klastry mają jednak różne pochodzenie: pierwszy klaster jest najbliżej spokrewniony z próbkami z Chin, podczas gdy drugi jest najbliżej spokrewniony z próbkami z Europy. Jest też możliwe, że te introdukcje były niebezpośrednie, i wprowadzone zostały przez niepróbkowane przypadki z regionów pośrednich.
 
@@ -227,13 +227,13 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [Prawdopodobnie dwie lokalne sieci transmisyjne w Kalifornii](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [Prawdopodobnie dwa lokalne łańcuchy transmisji w Kalifornii](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
 Podobny wzór widzimy w innych regionach Stanów Zjednoczonych.
 <br><br>
 Tutaj widzimy kilka próbek z hrabstwa Solano w północnej Kalifornii, które były pobrane w różnych dniach, ale blisko spokrewnione z sobą nawzajem.
 <br><br>
-Choć dostępne dane z Kalifornii są zbyt ograniczone, aby wyciągnąć silne wnioski, te wstępne dane są spójne z lokalną siecią transmisyjną w obrębie hrabstwa Solano.
+Choć dostępne dane z Kalifornii są zbyt ograniczone, aby wyciągnąć silne wnioski, te wstępne dane są spójne z lokalnym łańcuchem transmisyjnym w obrębie hrabstwa Solano.
 <br><br>
 W innym rejonie drzewa widzimy podobny wzór dla próbek pobranych w hrabstwie Santa Clara.
 <br><br>
@@ -265,9 +265,9 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 Jeszcze nie mamy wiele danych o sekwencjach genetycznych z Ameryki Południowej.
 Większość dostępnych danych dotyczy podróżników.
-Tutaj, każda próbka jest pokolorowana odpowiednio do znanej historii narażenia.
+Tutaj każda próbka jest pokolorowana odpowiednio do znanej historii narażenia.
 <br><br>
-Choć potencjalnie interesujące wzory zaczynają się pojawiać w próbkach nie związanych z podróżami, nie mamy wystarczająco dowodów do wnioskowania.
+Choć potencjalnie interesujące obrazy zaczynają się pojawiać w próbkach nie związanych z podróżami, nie mamy wystarczająco dowodów do wnioskowania.
 Wysiłki w celu zsekwencjonowania próbek wzrastają, i  będziemy relacjonować sytuację, gdy tylko stanie się ona czytelniejsza.
 
 <!-- We don't have much genetic sequence data from South America yet.
@@ -333,9 +333,9 @@ Nowe sekwencje z Kinszasy z Demokratycznej Republiki Konga, przedstawiają dowod
 <br><br>
 Niektóre z tych sekwencji tworzą grupę blisko spokrewnionych, lokalnych przypadków, które były próbkowane w ciągu paru dni.
 <br><br>
-Zgadza się to z lokalną transmisją, trwającą od co najmniej 15 marca (data próbkowania najwcześniejszego przypadku, który wydaje się być częscią tej lokalnej sieci transmisyjnej), a prawdopodobnie wcześniej.
+Zgadza się to z lokalnym rozprzestrzenianiem, trwającym od co najmniej 15 marca (data próbkowania najwcześniejszego przypadku, który wydaje się być częscią tego lokalnego łańcucha transmisji), a prawdopodobnie wcześniej.
 <br><br>
-Wspaniała praca INRB w sekwencjonowaniu wirusa u wczesnych przypadków pozwala nam zobaczyć tranmisję wewnątrz społeczności, która jest niewidoczna w wielu innych miejscach.
+Wspaniała praca INRB w sekwencjonowaniu wirusa u wczesnych przypadków pozwala nam zobaczyć tranmisję wewnątrz społeczności, co jest niewidoczne w wielu innych miejscach.
 
 <!-- New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
 <br><br>
