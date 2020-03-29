@@ -50,6 +50,10 @@ Ireland/COR-20134/2020
 Guangzhou/GZMU0031/2020
 Canada/BC_40860/2020
 England/20102000906/2020
+Iceland/288/2020
+Iceland/274/2020
+England/20109050106/2020
+England/20108125106/2020
 
 # Confusing phylogeography
 Netherlands/Rotterdam_1363790/2020

@@ -218,7 +218,7 @@ division	Ile De France	48.724751	2.491522
 division	Illinois	40.088552	-89.301876
 division	Iran	34.5732	51.876
 division	Ireland	52.865	-7.979
-division	Italy	43.382775	12.183629 
+division	Italy	43.382775	12.183629
 division	Japan	35.68536	139.75309
 division	Jiangsu	33.077761	119.825116
 division	Jiangxi	27.458973	115.535326
@@ -288,7 +288,6 @@ division	Saint Petersburg	59.882080	30.330800
 division	Saitama	35.909903	139.659758
 division	Santiago	-33.383304	-70.530623
 division	Sao Paulo	-23.598060	-46.660537
-division	São Paulo	-23.566053	-46.668492
 division	Schwyz	47.055398	8.736450
 division	Scotland	56.415858	-4.090641
 division	Selangor	3.0738	101.5183
@@ -340,6 +339,7 @@ country	Ecuador	-1.0541	-78.1489
 country	England	52.3555	-1.1743
 country	Georgia	41.989378	43.597463
 country	Iceland	64.90614	-18.4826
+country	Iran	34.5732	51.876
 country	Luxembourg	49.755428	6.119486
 country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166

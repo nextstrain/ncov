@@ -64,9 +64,9 @@ rule filter:
         sequences = "results/filtered.fasta"
     params:
         min_length = 25000,
-        group_by = "country",
-        sequences_per_group = 500,
-        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-01' date='2020-02' date='2020-03'"
+        group_by = "division year month",
+        sequences_per_group = 300,
+        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'"
     shell:
         """
         augur filter \
@@ -85,7 +85,7 @@ checkpoint partition_sequences:
     input:
         sequences = rules.filter.output.sequences
     output:
-        split_sequences = directory("results/split_sequences")
+        split_sequences = directory("results/split_sequences/pre/")
     params:
         sequences_per_group = 150
     shell:
@@ -96,17 +96,31 @@ checkpoint partition_sequences:
             --output-dir {output.split_sequences}
         """
 
+rule partitions_intermediate:
+    message:
+        """
+        partitions_intermediate: Copying sequence fastas
+        {wildcards.cluster}
+        """
+    input:
+        "results/split_sequences/pre/{cluster}.fasta"
+    output:
+        "results/split_sequences/post/{cluster}.fasta"
+    shell:
+        "cp {input} {output}"
+
 rule align:
     message:
         """
         Aligning sequences to {input.reference}
           - gaps relative to reference are considered real
+        {wildcards.cluster}
         """
     input:
-        sequences = "results/split_sequences/{i}.fasta",
+        sequences = rules.partitions_intermediate.output,
         reference = files.reference
     output:
-        alignment = "results/split_alignments/{i}.fasta"
+        alignment = "results/split_alignments/{cluster}.fasta"
     threads: 2
     shell:
         """
@@ -288,7 +302,7 @@ rule traits:
     output:
         node_data = "results/traits.json",
     params:
-        columns = "division_exposure",
+        columns = "country_exposure",
         sampling_bias_correction = 2.5
     shell:
         """
@@ -465,43 +479,67 @@ rule export_zh:
 rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
-        lat_longs = files.lat_longs,
+        auspice_json = rules.export.output.auspice_json,
         colors = rules.colors.output.colors,
-        auspice_json = rules.export.output.auspice_json
+        lat_longs = files.lat_longs
+    params:
+        sampling = "country",
+        exposure = "country_exposure"
     output:
         auspice_json = "results/ncov_with_accessions_and_travel_branches.json"
     shell:
         """
-        python3 ./scripts/modify_tree_according_to_division_exposure.py \
-            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
+        python3 ./scripts/modify-tree-according-to-exposure.py \
+            --input {input.auspice_json} \
+            --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
+            --sampling {params.sampling} \
+            --exposure {params.exposure} \
+            --output {output.auspice_json}
         """
 
 rule incorporate_travel_history_gisaid:
     message: "Adjusting GISAID auspice JSON to take into account travel history"
     input:
-        lat_longs = files.lat_longs,
+        auspice_json = rules.export_gisaid.output.auspice_json,
         colors = rules.colors.output.colors,
-        auspice_json = rules.export_gisaid.output.auspice_json
+        lat_longs = files.lat_longs
+    params:
+        sampling = "country",
+        exposure = "country_exposure"
     output:
         auspice_json = "results/ncov_gisaid_with_accessions_and_travel_branches.json"
     shell:
         """
-        python3 ./scripts/modify_tree_according_to_division_exposure.py \
-            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
+        python3 ./scripts/modify-tree-according-to-exposure.py \
+            --input {input.auspice_json} \
+            --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
+            --sampling {params.sampling} \
+            --exposure {params.exposure} \
+            --output {output.auspice_json}
         """
 
 rule incorporate_travel_history_zh:
     message: "Adjusting ZH auspice JSON to take into account travel history"
     input:
-        lat_longs = files.lat_longs,
+        auspice_json = rules.export_zh.output.auspice_json,
         colors = rules.colors.output.colors,
-        auspice_json = rules.export_zh.output.auspice_json
+        lat_longs = files.lat_longs
+    params:
+        sampling = "country",
+        exposure = "country_exposure"
     output:
         auspice_json = "results/ncov_zh_with_accessions_and_travel_branches.json"
     shell:
         """
-        python3 ./scripts/modify_tree_according_to_division_exposure.py \
-            {input.auspice_json} {input.colors} {input.lat_longs} {output.auspice_json}
+        python3 ./scripts/modify-tree-according-to-exposure.py \
+            --input {input.auspice_json} \
+            --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
+            --sampling {params.sampling} \
+            --exposure {params.exposure} \
+            --output {output.auspice_json}
         """
 
 rule fix_colorings:
@@ -555,39 +593,6 @@ rule dated_json:
         """
         cp {input.auspice_json} {output.dated_auspice_json}
         cp {input.tip_frequencies_json} {output.dated_tip_frequencies_json}
-        """
-
-rule poisson_tmrca:
-    input:
-        tree = rules.refine.output.tree,
-        metadata = rules.download.output.metadata,
-        nt_muts = rules.ancestral.output.node_data
-    output:
-        "figures/ncov_poisson-tmrca.png"
-    shell:
-        """
-        python scripts/tmrca_estimate.py --tree {input.tree} --metadata {input.metadata} --node-data {input.nt_muts} --output {output}
-        """
-
-rule branching_process_R0:
-    params:
-        infectious_period = 10, # days
-        population = [6000, 30000, 150000],
-        start_recent = "2019-12-01",
-        start_early = "2019-11-01"
-    output:
-        "figures/ncov_branching-R0-recent.png",
-        "figures/ncov_branching-R0-early.png"
-    shell:
-        """
-        python scripts/branching_process.py --infectious-period {params.infectious_period}\
-                    --start {params.start_recent} \
-                    --population {params.population} \
-                    --output {output[0]} &&\
-        python scripts/branching_process.py --infectious-period {params.infectious_period}\
-                    --start {params.start_early} \
-                    --population {params.population} \
-                    --output {output[1]}
         """
 
 try:
