@@ -352,7 +352,7 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+نحن ممتنون جدا للبيانات التي جمعها من قبل المختبرات التالية
 
 * Andersen Lab, The Scripps Research Institute
 * Arizona Department of Health Services
@@ -582,14 +582,14 @@ We are grateful for the data gathered by these originating labs:
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [الحقوق العلمية التفصيلية](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+تم مشاركة هذه البيانات من خلال [GISAID](https://gisaid.org).
+نحن نقدر عاليا مساهماتهم
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+على اليمين نقدم التسلسلات الخاصة التي تم مشاركتها من قبل كل مختبر
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
