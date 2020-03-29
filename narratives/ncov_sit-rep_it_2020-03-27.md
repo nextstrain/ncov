@@ -132,7 +132,8 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ############ EUROPE ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
+<!-- # [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)-->
+# [Aggiornamenti dall'Europa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
 
 <!-- There is no right side text -->
@@ -140,23 +141,33 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+<!-- # [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)-->
+# [Diffusione continuata tra i confini nelle ultime 3-5 settimane](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
-Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
+<!-- Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.-->
+Qui mostriamo sequenze raccolte in Europa nelle ultime 3 settimane, colorate in base allo Stato in cui sono state isolate.
+<!-- Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.-->
+Si può notare che mentre ci sono alcuni piccoli raggruppamenti che sono tipici di uno Stato, c'è anche una gran mescolanza tra sequenze isolate in Paesi diversi.
 <br><br>
-This suggests that there has been continued spread across borders within the last 3-5 weeks.
+<!-- This suggests that there has been continued spread across borders within the last 3-5 weeks.-->
+Ciò suggerisce che c'è stata una diffusione continuata attraverso i confini nelle ultime 3-5 settimane.
 <br><br>
-This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
+<!-- This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.-->
+Questo raggruppamento geografico potrebbe diventare più forte in seguito ai recenti sforzi di attenuazione che riducono i viaggi tra le regioni.
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+<!--# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)-->
+# [Nuove sequenze dall'Islanda](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
-We received many new sequences from Iceland.
-Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
-We're working hard to analyze all of this new data, and will report our findings next week.
+<!-- We received many new sequences from Iceland.-->
+Abbiamo ricevuto molte sequenze nuove dall'Islanda.
+<!-- Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers. -->
+Se coloriamo in base alla storia di esposizione al virus di ogni caso (quando noto), vediamo che molti di questi casi coinvolgono persone che hanno viaggiato di recente.
+
+<!-- We're working hard to analyze all of this new data, and will report our findings next week.-->
+Stiamo lavorando duramente per analizzare tutti questi nuovi dati, e troverete i nostri risultati nel rapporto della prossima settimana.
 <!-- There is no right side text -->
 
 
