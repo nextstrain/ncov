@@ -84,7 +84,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δεδομένα �
 
 ## Nextstrain Πηγές  
 
-[Πώς να ερμηνεύσετε φυλογενετικά δέντρα](https://nextstrain.org/narratives/trees-background/).  
+[Πώς να ερμηνεύσετε φυλογενετικά δέντρα](https://nextstrain.org/narratives/trees-background/el).  
 
 [Πληροφορίες σχετικά με τους κορωνοϊούς](https://nextstrain.org/help/coronavirus/human-CoV).
 
@@ -236,7 +236,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δεδομένα �
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 13-->
-# [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
+# [Εξαγωγή του COVID-19 από το Ιράν](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
 Δεν έχουμε ακόμα ιικά γονιδιώματα από το Ιράν.
@@ -351,7 +351,7 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δεδομένα �
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Είμαστε ευγνώμονες για τα δεδομένα που συλλέχθηκαν από αυτά τα αρχικά εργαστήρια:
 
 * Andersen Lab, The Scripps Research Institute
 * Arizona Department of Health Services
