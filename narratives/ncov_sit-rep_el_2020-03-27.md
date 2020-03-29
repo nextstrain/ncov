@@ -42,8 +42,8 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δεδομένα �
 * [Ενημερώσεις απο την Ασία](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=12).  
 * [Ενημερώσεις απο την Αφρική](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=14).  
 * [Ενημερώσεις απο την Ωκεανία](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=16).  
-* [Τι μπορείτε να κάνετε.](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=18).  
-* [Επιστημονικές ευχαριστίες.](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=19).  
+* [Τι μπορείτε να κάνετε](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=18).  
+* [Επιστημονικές ευχαριστίες](https://nextstrain.org/narratives/ncov/sit-rep/el/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Γενική περίληψη
