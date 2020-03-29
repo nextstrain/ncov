@@ -57,9 +57,9 @@ Wir haben 1,495 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den V
 
 **Nord-Amerika**   
 * Innerhalb der USA sind die Uebertragungsmuster komplex: Proben, die in entgegengesetzten Teilen des Landes genommen wurden, sind trotzdem eng miteinander verwandt.
-* Im Bundesstaat Washington gab es mindestens zwei unabhaengige Eintragungen (die erste aus China, die zweite vermutlich aus Europa), die zu separaten Uebertragungsketten gefuehrt haven.
+* Im Bundesstaat Washington gab es mindestens zwei unabhaengige Eintraege (die erste aus China, die zweite vermutlich aus Europa), die zu separaten Uebertragungsketten gefuehrt haven.
 
-* Es gibt Anzeichen fuer eine lokale Uebertragung innerhalb mehrerer Staaten, am deutlichsten in Kalifornien.
+* Es gibt Anzeichen fuer eine lokale Uebertragung innerhalb mehrerer Bundestaaten, am deutlichsten in Kalifornien.
 
 **Zentral- und Sued-Amerika**
 * Diese Woche haben wir einige Sequenzen aus Sued-Amerika erhalten, dennoch bleibt die Beprobung duenn. Es ist moeglich, dass es mehr COVID-19 Aktiviaet in diesen Regionen gibt als in den erhaeltlichen Daten erfasst wird, aber das koennen wir nicht mit Sicherheit sagen.
@@ -164,42 +164,43 @@ Wenn wir diese entsprechend der Exposition (falls bekannt) einfaerben, erkennen 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+# [Die Verbreitung innerhalb der USA is komplex und nicht wohlverstanden](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Even within the U.S., transmission patterns are highly complex.
+Innerhalb der USA sind die Uebertragungsmuster komplex.
 <br><br>
-For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
-While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
+Zum Beispiel sind neue Proben aus Conneticut (hervorgehobene Spitzen) sowohl Ursprung von Proben aus dem Bundesstaat Washington (blasse Spitzen) als auch mit diesen durchmischt.
+
+Es sind mehr Daten noetig, um zu sicheren Schlussfolgerungen zu kommen, aber die Daten deuten darauf hin, dass es neue Uebertragungen zwischen weit entfernten Teilen des Landes gab.
 <br><br>
-This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
+Das verdeutlichet, dass die Uebertragungsmuster innerhalb der USA viel komplizierter sind, als sich in den derzeitig verfuegbaren Daten widerspiegelt.
+Zusaetzliche Daten werden uns helfen zu verstehen, wie eine vermutlich stark verknuepfte nationale Epidemie sich vor dem Hintergrund der sehr heterogenen Massnahmen einzelner Bundesstaaten entwickelt.
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+# [Mehrere Uebertragungsketten im Bundesstaat Washington](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
+Innerhalb der Faelle im Bundesstaat Washington finden wir mindestens zwei separate lokale Gruppierungen des Ausbruchs.
 <br><br>
-However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
+Diese haben jedoch zwei verschiedene Urspruenge: Die erste Gruppierung ist am engsten verwandt mit Proben aus China und die zweite Gruppierung ist am engsten verwandt mit Proben aus Europa. Es ist auch moeglich, dass die Eintraege indirekt waren, das heisst mit einer anderen Region dazwischen.
 <br><br>
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [Vermutlich zwei lokale Uebertragungsketten in Kalifornien](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
-We see similar patterns elsewhere in the U.S.
+Wir finden aehnlich Muster in anderen Teilen der USA.
 <br><br>
-Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.
+Hier stellen wir Proben aus dem Solano County in Nord-Kalifornien dar, die zu verschiedenen Zeitpunkten genommen wurden, abe eng miteinander verwandt sind.
 <br><br>
-While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
+Es sind mehr Daten aus Kalifornien noetig, um zu sicheren Schlussfolgerungen zu kommen, aber diese vorlauefigen Anzeichen stimmen mit lokaler Uebertragung innerhalb des Solano County ueberein.
 <br><br>
-Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
+In einem ander Teil des Baumes sehen wir ein aehnliches Muster fuer Proben aus dem Santa Clara County.
 <br><br>
-These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
+Die Gruppierungen der Proben aus diesen counties sind vermutlich das Ergebnis von unabhaengigen Eintraegen, basierend auf ihren relativen Positionen innerhalb des Baumes.
 <!-- There is no right side text -->
 
 
