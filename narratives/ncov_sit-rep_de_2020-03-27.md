@@ -236,16 +236,15 @@ Sequenzierarbeiten werden zur Zeit intensiviert. Wir werden wieder berichten, we
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 13-->
-# [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
+# [Export von COVID-19 aus dem Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
-We do not yet have viral genomes from Iran.
-However, we do have sequences from many cases with reported travel to Iran.
+Wir haben noch nicht viele Sequenzen aus dem Iran.
+Wir haben jedoch Sequenzen von Personen die berichtet haben, im Iran gewesen zu sein.
 <br><br>
-Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were derived from a single introduction into Iran.
+Die meisten Faelle, die mit Reisen in den Iran assoziiert sind, sind in einer Gruppierung, was darauf hindeutet, dass viele iranische Faelle von einem einzigen Eintrag in den Iran ausgehen.
 <br><br>
-At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.
-Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.
+Ganz unten im Baum sehen wr eine Sequenz einer Frau in Pakistan, die von einer Reise in den Iran berichtet hat. Diese Sequenz ist interessanterweise eine 'outgroup' zu den anderen bekannten Faellen aus dem Iran, die aber etwa zur gleichen Zeit beprobt worden ist.
 <br><br>
 This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.
 <!-- There is no right side text -->
@@ -255,7 +254,7 @@ This is consistent with several possible hypotheses; as more data emerges, we'll
 
 <!-- ############ AFRICA ############# -->
 <!-- This is left-side text 14-->
-# [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
+# [Updates fuer Afrika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
 
 
 
@@ -263,15 +262,15 @@ This is consistent with several possible hypotheses; as more data emerges, we'll
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [Anzeichen fuer lokale Uebertragung in Kinshasa, Kongo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
+Neue Sequenzen aus Kinshasa, Demokratische Republik Kongo, deuten auf mehrfache separate Eintraege hin.
 <br><br>
-Some of these sequences form a group of very closely related, local cases that were sampled over several days.
+Einige dieser Sequenzen formen eine Gruppierung von eng verwandten, lokalen Faellen, die ueber mehrere Tage beprobt worden sind.
 <br><br>
-This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier.
+Dieses stimmt mit einer lokalen Uebertragung ueberein, die zumindest seit dem 15. Maerz (dem Datum des fruehesten Falles, der ein Teil dieser Uebertragungskette zu sein scheint) und vermutlich frueher, stattfindet.
 <br><br>
-The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places.
+Die hervorragende Arbeit des INRB, das Virus von diesen fruehen Proben zu sequenzieren, macht es moeglich, diese lokale Uebertragung, die in vielen anderen Orten nicht sichtbar ist, zu sehen.
 <!-- There is no right side text -->
 
 
