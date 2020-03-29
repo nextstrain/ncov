@@ -78,9 +78,9 @@
     "country"
   ],
   "display_defaults": {
-    "color_by": "division",
+    "color_by": "country",
     "distance_measure": "num_date",
-    "geo_resolution": "division",
+    "geo_resolution": "country",
     "map_triplicate": true,
     "branch_label": "none"
   },
@@ -88,9 +88,10 @@
     "recency",
     "location",
     "division",
-    "division_exposure",
     "country",
     "region",
+    "division_exposure",
+    "country_exposure",
     "host",
     "author",
     "originating_lab",
