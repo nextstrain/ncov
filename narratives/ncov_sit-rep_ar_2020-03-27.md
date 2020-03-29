@@ -157,7 +157,7 @@ We're working hard to analyze all of this new data, and will report our findings
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
-# [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+# [تحديثات من امريكا الشمالية](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -165,15 +165,15 @@ We're working hard to analyze all of this new data, and will report our findings
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+# [الإنتشار عبر الولايات المتحدة معقد وليس مفهوم بشكل جيد](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Even within the U.S., transmission patterns are highly complex.
+حتى داخل الولايات المتحدة فان انماط الإنتشار معقدة جدا.
 <br><br>
-For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
-While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
+فعلى سبيل المثال، عينات حديثة مم كونيكتيت (النهايات المختارة) فهي اسلاف ومتداخلة مع العينات من ولاية واشنطن (النهايات المظللة)For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
+بينما هناك حاجة الى بيانات اكثر لرسم استنتاجات قوية، فهذا يقترح بأنه كان هناك انتشار حديث بين اجزاء متباعدة في الدولة. 
 <br><br>
-This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
+هذا يؤكد بأن انماط الإنتشار في الولايات المتحدة معقدة اكثر مما يمكن تمثيله في البيانات المتوفرة حاليا.
+بيانات اضافية ستساعدنا على فهم كيف ان وباءا محليا متداخل بعمق يمكن ان يلعب  على خلفية الاستجابات غير المتجانسة بين الولايات.Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
 <!-- There is no right side text -->
 
 
