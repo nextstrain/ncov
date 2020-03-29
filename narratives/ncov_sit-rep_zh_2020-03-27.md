@@ -21,8 +21,10 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - 李雪莹
+  - Fengjun Zhang
 translatorLinks:
   - https://xueyingcli.weebly.com/
+  - https://twitter.com/fengjun_zhang
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19）基因组数据来追踪疫情的传播，此报告将每周更新。"
@@ -228,7 +230,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 <!-- ############ ASIA ############# -->
 <!-- This is left-side text 12-->
-# [Updates for Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
+# [亚洲的最新情况](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -236,18 +238,18 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 13-->
-# [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
+# [由伊朗输出的COVID-19病例](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
-We do not yet have viral genomes from Iran.
-However, we do have sequences from many cases with reported travel to Iran.
+我们目前没有伊朗本土的病毒基因组序列，
+但我们有许多带有伊朗旅行史的样本序列。
 <br><br>
-Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were derived from a single introduction into Iran.
+大多数带有伊朗旅行史的样本序列可以聚集到一起，这暗示了很多伊朗病例实际上来自于单次的输入所导致的爆发。
 <br><br>
-At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.
-Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.
+在树的根部，我们发现一条新的来自巴基斯坦的序列，该序列来自一位带有伊朗旅行史的女性。
+值得注意的是，这条样本序列和我们已知的来自伊朗的输入样本序列并不聚集在一起，但是从时间上来看，这一条与其他的样本是差不多时候被取样的。
 <br><br>
-This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.
+这样的现象支持很多种不同的假说，如果获取得更多数据，我们将进一步更新我们的分析。
 <!-- There is no right side text -->
 
 
