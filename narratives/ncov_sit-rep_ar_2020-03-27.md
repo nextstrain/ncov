@@ -346,9 +346,7 @@ However, the two clusters have different origins: the first cluster is most clos
 <br><br>
 كما نثمن بقوة ونشكر GISAID على تزويدهم لنا بمنصتهم والتي تم من خلالها تحميل وتحليل البيانات.
 
-<br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
