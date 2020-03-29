@@ -190,7 +190,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [من  المرجح أن  يكون هناك  سلسلتان  مختلفتان  من تفشي الوباء في كالفورنيا](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [من  المرجح أن  يكون هناك  سلسلتين  مختلفتين  من تفشي الوباء في كالفورنيا](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
 نرى نفس النسق في مناطق مختلفة في أمريكا 
 <br><br>
@@ -287,7 +287,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [تفشيات محلية في مقاطعة ويلز الجنوبية الجديدة ](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [انتشارات محلية في مقاطعة ويلز الجنوبية الجديدة ](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
 سلاسل جينات الفيروس في استراليا تشير لوجود دلائل لانتشارات محلية في مقاطعة ويلز الجنوبية الجديدة. على أرجح  تقدير بأن الفيروس ينتشر في هذه المنطقة منذ أواخر شهر فبراير.
 
@@ -324,7 +324,7 @@ However, the two clusters have different origins: the first cluster is most clos
 <br><br>
 #### سنتابع أيضا الحالة في جنوب أمريكا للعثور على دلائل تشير على تفشي الوباء بشكل محلي، وتحديدا حين يكون بحوزتنا المزيد من البيانات.
 <br><br>
-#### على الأرجح بأن  تفشي الوباء أمريكا يحمل الكثير من التعقيد على صعيد الإدخال والانتشار حتى في مناطق متباينة جغرافيا من الدولة. لقد عثرنا على دلائل تشير إلى سلاسل متعددة  من تفشي الوباء في ولاية  واشنطن وكاليفورنيا.  
+#### على الأرجح بأن  تفشي الوباء في أمريكا يحمل الكثير من التعقيد على صعيد الإدخال والانتشار حتى في مناطق متباينة جغرافيا من الدولة. لقد عثرنا على دلائل تشير إلى سلاسل متعددة  من تفشي الوباء في ولاية  واشنطن وكاليفورنيا.  
 <br><br>
 #### عثرنا على دلائل حول حول  انتشار الوباء بشكل محلي في مقاطعة ويلز الجنوبية الجديدة في استراليا 
 <br><br>
