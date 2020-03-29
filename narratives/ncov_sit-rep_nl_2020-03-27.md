@@ -113,18 +113,18 @@ Als u niet bekend bent met fylogenetische bomen, raden we u aan het ['Hoe kan ik
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Een opmerking over bemonstering](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+We hebben momenteel sequenties van monsters die genomen zijn in 48 landen op 6 continenten. Dit is een ongelooflijke prestatie -- het sequencen van een onbekend, groot RNA-virus tijdens een pandemie is moeilijk, en is alleen mogelijk door het ongelooflijke werk en het tijdig delen van gegevens door wetenschappers en artsen over de hele wereld. 
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+Hoewel deze gegevens ons in staat stellen om veel nuttige kenmerken van de uitbraak af te leiden en de verspreiding ervan in real-time te volgen, is het belangrijk om te benadrukken dat onze conclusies beperkt zijn door de beschikbare gegevens.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+De kaart laat bijvoorbeeld weinig sequenties vanuit het zuiden zien. Dit is NIET omdat COVID-19 niet in deze gebieden circuleert, of dat deze besmettingen niet cruciaal zijn om te begrijpen. In tegenstelling, we hebben enkel niet zoveel beschikbare data vanuit deze gebieden. De grootte van de iedere cirkel op de kaart geeft dan ook aan hoeveel data er beschikbaar is vanuit die regio, in plaats van de grootte van de uitbraak. 
 <!-- There is NO right-side text -->
 
 
 
 
-<!-- ############ EUROPE ############# -->
+<!-- ############ Europa ############# -->
 <!-- This is left-side text 4-->
 # [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
