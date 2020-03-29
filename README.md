@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nextstrain/ncov.svg?branch=master)](https://travis-ci.org/nextstrain/ncov)
+[![Build Status](https://travis-ci.com/nextstrain/ncov.svg?branch=master)](https://travis-ci.com/nextstrain/ncov)
 
 ## About  
 
