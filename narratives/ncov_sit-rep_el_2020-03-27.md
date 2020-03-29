@@ -582,19 +582,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [Λεπτομερής επιστημονική αναγνώριση](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Αυτά τα δεδομένα κοινοποιήθηκαν μέσω του [GISAID](https://gisaid.org).
+GISAID. Ευχαριστούμε πολύ για τη συμβολή τους.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
-
+Στα δεξιά δίνουμε συγκεκριμένες ακολουθίες που μοιράζονται σε κάθε εργαστήριοWe gratefully acknowledge their contributions.
+§
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+Τα γονιδιώματα SARS-CoV-2 μοιράστηκαν γενναιόδωρα από επιστήμονες σε αυτά τα εργαστήρια υποβολής:
 
 * Andersen Lab, The Scripps Research Institute
 	* USA/CA-MG0987/2020
