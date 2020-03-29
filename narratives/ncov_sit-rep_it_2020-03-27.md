@@ -19,8 +19,8 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators:
-translatorLinks:
+translators: Alessia Lepore
+translatorLinks: @MEKlab (https://twitter.com/meklab)
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
@@ -38,10 +38,12 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
 * [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+<!--* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  -->   
+* [Aggiornamenti America Centrale e del Sud](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
 * [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
 * [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+<!-- * [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16). -->  
+* [Aggiornamenti sull' Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
 * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
 * [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
@@ -209,21 +211,27 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
-# [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
-
+<!-- # [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)-->
+# [Aggiornamento America Centrale e del Sud](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-We don't have much genetic sequence data from South America yet.
+<!--# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)-->
+# [Casi osservati in Sud America sono per la maggiorparte collegati a viaggi](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+<!--We don't have much genetic sequence data from South America yet.
 Of the available data, most are from travelers.
-Here, each case is colored by the known exposure history.
+Here, each case is colored by the known exposure history.-->
+Non ci sono ancora molti dati di sequenze genetiche dal Sud America.
+Nei dati disponibili, la maggiorparte sono da persone che hanno viaggiato.
+Qui, ogni caso è colorato in ordine cronologico per le esposizioni conosciute al virus.
 <br><br>
-While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
-Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.
+<!-- While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions
+Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.-->
+Mentre nei casi non associati ai viaggi stanno iniziando a emergere schemi potenzialmente interessanti, non abbiamo ancora prove sufficienti per trarre conclusioni.
+L'impegno per ottenere più sequenze genetiche sta aumentato rapidamente e commenteremo i dati quando la situazione diventerà più chiara.
 <!-- There is no right side text -->
 
 
