@@ -192,15 +192,16 @@ However, the two clusters have different origins: the first cluster is most clos
 <!-- This is left-side text 9-->
 # [من  المرجح أن  يكون هناك  سلسلتان  مختلفتان  من تفشي الوباء في كالفورنيا](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
-We see similar patterns elsewhere in the U.S.
+نرى نفس النسق في مناطق مختلفة في أمريكا 
 <br><br>
-Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.
+هنا نرى بعض العينات من مقاطعة سولانو في شمال كاليفورنيا تم جمعها في تواريخ مختلفة ولكن تسلسلاتها متشابهة
 <br><br>
-While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
+على الرغم من محدودية العينات في كاليفورنيا لتقديم استنتاجات موثوقة، هذه الدلائل الأولية متفقة مع التفشي المحلي في مقاطعة سولانو. 
 <br><br>
-Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
+في موقع آخر في الشجرة، نرى نسق متشابه لعينات تم جمعها من مقاطعة سانتا كلارا في كاليفورنيا
 <br><br>
-These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
+هذه العناقيد المتجمعة للولايات قد تكون أحدثت  بسبب ادخالات متفرقة للفيروس بالاعتماد أيضا على موقعهم التقريبي في الشجرة
+
 <!-- There is no right side text -->
 
 
