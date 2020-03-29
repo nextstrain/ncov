@@ -192,7 +192,7 @@ Datos adicionales nos permitirán comprender lo que probablemente es una epidemi
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [Multiples cadenas de transmisión en el estado de Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+# [Multiples cadenas de transmisión en el estado de Washington](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
 Si observamos los casos en el estado de Washington, vemos que hay al menos dos grupos de brotes locales separados.
 <br><br>
@@ -228,7 +228,7 @@ A partir de posiciones relativas en el árbol, es probable en estos condados los
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
 # [Los casos muestreados en Suramérica están principalmente relacionados con viajeros](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-Todavía no tenemos muchos datos de secuencias genómicas proviniendo de Suramérica. Utilizando los datos disponibles, podemos apreciar que la mayoría de los casos son de viajeros. Aquí presentamos cada caso coloreado por su historial de exposición al virus.
+Todavía no tenemos muchos datos de secuencias genómicas provenientes de Suramérica. Utilizando los datos disponibles, podemos apreciar que la mayoría de los casos son de viajeros. Aquí presentamos cada caso coloreado por su historial de exposición al virus.
 <br><br>
 Aunque patrones interesantes entre los casos no asociados con viajes pueden ser apreciados, todavía no tenemos suficiente evidencia para trazar conclusiones. Actualmente, se están aumentando los esfuerzos para secuenciar los casos y reportaremos de nuevo cuando la situación esté más clara.
 <!-- There is no right side text -->
@@ -249,7 +249,7 @@ Aunque patrones interesantes entre los casos no asociados con viajes pueden ser 
 # [Exportación de COVID-19 desde Irán](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
-Todavía no tenemos genomas virales proviniendo de Irán. Sin embargo, sí tenemos secuencias de muchos casos de viajes reportados a Irán.
+Todavía no tenemos genomas virales provenientes de Irán. Sin embargo, sí tenemos secuencias de muchos casos de viajes reportados a Irán.
 <br><br>
 La mayoría de las secuencias con un historial de viaje a Irán se agrupan, sugiriendo que gran parte de los casos iraníes fueron derivados de una única introducción a Irán.
 <br><br>
@@ -273,7 +273,7 @@ Esto es consistente con varias hipótesis posibles; cuando tengamos más datos, 
 <!-- This is left-side text 15-->
 # [Evidencia de transmisión local en Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-Las nuevas secuencias proviniendo de Kinshasa en la República Democrática del Congo, muestran evidencia de varias instancias independientes de introducción del virus.
+Las nuevas secuencias provenientes de Kinshasa en la República Democrática del Congo, muestran evidencia de varias instancias independientes de introducción del virus.
 <br><br>
 Algunas de estas secuencias forman un grupo de casos locales estrechamente relacionados que fueron muestreados a través de varios días.
 <br><br>
@@ -296,7 +296,7 @@ El excelente trabajo del INRB (Instituto Nacional de Investigación Biomédica e
 <!-- This is left-side text 18-->
 # [Transmisión local en Nueva Gales del Sur](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-Las nuevas secuencias proviniendo de Australia muestran evidencia de transmisión local del virus en Nueva Gales del Sur. El virus probablemente ha estado circulando en esta área desde al menos finales de febrero.
+Las nuevas secuencias provenientes de Australia muestran evidencia de transmisión local del virus en Nueva Gales del Sur (NSW). El virus probablemente ha estado circulando en esta área desde al menos finales de febrero.
 
 <!-- There is no right side text -->
 
@@ -309,7 +309,7 @@ Las nuevas secuencias proviniendo de Australia muestran evidencia de transmisió
 #### ...individuos
 * Reducir el número de personas con cual tienes contacto diariamente, especialmente si eres parte de un grupo de gente vulnerable al virus (por ejemplo: ancianos y personas con condiciones médicas pre-existentes).
 * Recuerde que, aunque usted no sea particularmente vulnerable al virus, hay muchas personas que sí lo son; debe seguir estas prácticas para proteger a otros.
-* Lávese las manos “como si acabas de picar un jalapeño y tienes que cambiar tus lentes de contacto”.  
+* Lávese las manos “como si hubieses terminado de picar un jalapeño y tuvieras que cambiar tus lentes de contacto”.  
 * Quédese en casa lo más posible, especialmente si está enfermo; prepárese con provisiones adicionales por si tiene que estar en auto-cuarentena.  
 * Si usted es un empleador, incentive a sus empleados a trabajar desde casa cuando sea posible.
 
@@ -330,7 +330,7 @@ Las nuevas secuencias proviniendo de Australia muestran evidencia de transmisió
 <br><br>
 ####  Es probable que la epidemia de los EEUU tenga patrones de transmisión muy complejos tanto de importación del virus como de propagación entre lugares distintos del país. Encontramos evidencia de múltiples cadenas de transmisión locales en Washington y California.
 <br><br>
-#### Encontramos evidencia de transmisión local en Nueva Gales del Sur, Australia.
+#### Encontramos evidencia de transmisión local en Nueva Gales del Sur (NSW), Australia.
 <br><br>
 #### Encontramos evidencia de transmisión local en Kinshasa en la RDC. Todavía no tenemos suficientes datos para evaluar si el virus está circulando localmente en otras partes de África.
 ```
