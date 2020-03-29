@@ -64,9 +64,9 @@ rule filter:
         sequences = "results/filtered.fasta"
     params:
         min_length = 25000,
-        group_by = "country",
-        sequences_per_group = 500,
-        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-01' date='2020-02' date='2020-03'"
+        group_by = "division year month",
+        sequences_per_group = 300,
+        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'"
     shell:
         """
         augur filter \
