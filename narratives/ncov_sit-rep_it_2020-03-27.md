@@ -273,29 +273,27 @@ This is consistent with several possible hypotheses; as more data emerges, we'll
 <!-- There is no right side text -->
 
 
-
-
 <!-- ############ AFRICA ############# -->
 <!-- This is left-side text 14-->
-# [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
+<!-- # [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)-->
+# [Aggiornamenti sull' Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
 
-
-
-<!-- There is no right side text -->
-
-<!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+<!-- # [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)-->
+# [Prove di trasmissione locale a Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
+<!--  New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.-->
+Nuove sequenze provenienti da Kinshasa nella Republica Democratica del Congo mostrano prove di diversi eventi di ingressi del virus.
 <br><br>
-Some of these sequences form a group of very closely related, local cases that were sampled over several days.
+<!--Some of these sequences form a group of very closely related, local cases that were sampled over several days.-->
+Alcune di queste sequenze provengono da un gruppo di persone strettamente collegate, casi locali che sono stati osservati per diversi giorni.  
 <br><br>
-This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier.
+<!-- This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier..-->
+Questo è coerente con la trasmissione locale, in corso almeno dal 15 marzo (la data di osservazione del primo caso che sembra far parte di questa catena di trasmissione locale) e possibilmente prima.
 <br><br>
-The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places.
+<!-- The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places. -->
+L'eccelente lavoro dell' Istituto Nazionale per la Ricerca Biomedica(INRB) nel sequenziamento del virus fin dai primi campioni disponibili permette di osservare come la trasmissione nella comunità sia nascosta in molti altri luoghi.
 <!-- There is no right side text -->
-
 
 
 <!-- ############ OCEANIA ############# -->
