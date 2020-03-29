@@ -20,9 +20,10 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
-  - Astrid Gall
+  - Astrid Gall, Elisabeth Hirth
 translatorLinks:
   - https://www.ebi.ac.uk/about/people/astrid-gall
+  - https://dittrich.ethz.ch/people/person-detail.MjM4ODcw.TGlzdC8xMjg5LC02NDM3NDE3MjY=.html
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von COVID-19 zu beschreiben, und wird wöchentlich aktualisiert."
