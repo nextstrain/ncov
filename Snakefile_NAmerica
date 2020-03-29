@@ -5,7 +5,7 @@ ruleorder: subsample_namerica > subsample
 rule subsample_focus:
     message:
         """
-        Filtering to
+        subsample all sequences into a focal set
         """
     input:
         sequences = rules.mask.output.alignment,
@@ -28,6 +28,11 @@ rule subsample_focus:
         """
 
 rule make_priorities:
+    message:
+        """
+        determine priority for inclusion in as phylogenetic context by 
+        genetic similiarity to sequences in focal set.
+        """
     input:
         alignment = rules.mask.output.alignment,
         metadata = rules.download.output.metadata,
@@ -45,7 +50,7 @@ rule make_priorities:
 rule subsample_context:
     message:
         """
-        Filtering to
+        Subsample the non-focal sequences to provide phylogenetic context
         """
     input:
         sequences = rules.mask.output.alignment,
