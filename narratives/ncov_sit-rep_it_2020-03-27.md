@@ -133,12 +133,16 @@ Se non hai familiarità con gli alberi filogenetici, ti consigliamo di leggere i
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+<!-- # [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed) -->
+# [Una nota sulla raccolta dei campioni](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+<!-- We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world. -->
+Al momento abbiamo sequenze raccolte in 48 Paesi in 6 continenti. Questa è un'impresa incredibile -- sequenziare un virus a RNA così grande e sconosciuto nel bel mezzo di una pandemia è difficile ed è stato possibile solamente grazie all'incredibile sforzo e la tempestiva condivisione dei dati da parte di scienziati e medici in tutto il mondo. 
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+<!-- While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data. -->
+Anche se questi dati ci permettono di inferire statisticamente molte utili caratteristiche dell'epidemia e di tracciare la sua evoluzione in tempo reale, è però importante enfatizzare che le nostre conclusioni sono limitate dalla disponibilità di dati.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+<!-- For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. -->
+Ad esempio, la mappa mostra pochissime sequenze dal Sud del mondo. Questo non perché il COVID-19 non stia circolando in queste aree, o perché questi casi non siano cruciali per la comprensione; piuttosto, semplicemente non abbiamo molti dati disponibili per queste aree. La dimensione di ogni cerchio sulla mappa indica quanti dati sono attualmente disponibili per quell'area, piuttosto che la vera dimensione dell'epidemia.
 <!-- There is NO right-side text -->
 
 
