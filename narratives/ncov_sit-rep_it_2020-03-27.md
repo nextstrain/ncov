@@ -146,7 +146,7 @@ Al momento abbiamo sequenze raccolte in 48 Paesi in 6 continenti. Questa è un'i
 Anche se questi dati ci permettono di inferire statisticamente molte utili caratteristiche dell'epidemia e di tracciare la sua evoluzione in tempo reale, è però importante enfatizzare che le nostre conclusioni sono limitate dalla disponibilità di dati.
 <br><br>
 <!-- For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak. -->
-Ad esempio, la mappa mostra pochissime sequenze dal Sud del mondo. Questo non perché il COVID-19 non stia circolando in queste aree, o perché questi casi non siano cruciali per la comprensione; piuttosto, semplicemente non abbiamo molti dati disponibili per queste aree. La dimensione di ogni cerchio sulla mappa indica quanti dati sono attualmente disponibili per quell'area, piuttosto che la vera dimensione dell'epidemia.
+Ad esempio, la cartina mostra pochissime sequenze dal Sud del mondo. Questo non perché il COVID-19 non stia circolando in queste aree, o perché questi casi non siano cruciali per la comprensione; piuttosto, semplicemente non abbiamo molti dati disponibili per queste aree. La dimensione di ogni cerchio sulla mappa indica quanti dati sono attualmente disponibili per quell'area, piuttosto che la vera dimensione dell'epidemia.
 <!-- There is NO right-side text -->
 
 
@@ -169,13 +169,14 @@ Ad esempio, la mappa mostra pochissime sequenze dal Sud del mondo. Questo non pe
 <!-- Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.-->
 Qui mostriamo sequenze raccolte in Europa nelle ultime 3 settimane, colorate in base allo Stato in cui sono state isolate.
 <!-- Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.-->
-Si può notare che mentre ci sono alcuni piccoli raggruppamenti che sono tipici di uno Stato, c'è anche una gran mescolanza tra sequenze isolate in Paesi diversi.
+<!--Si può notare che mentre ci sono alcuni piccoli raggruppamenti che sono tipici di uno Stato, c'è anche una gran mescolanza tra sequenze isolate in Paesi diversi.-->
+Si puo notare che alcuni piccoli gruppi sono caratterizzati dalla provenienza dallo stesso Stato, ma molte sequenze provenienti da stati diversi sono in realta' molto mescolate sull'albero.
 <br><br>
 <!-- This suggests that there has been continued spread across borders within the last 3-5 weeks.-->
-Ciò suggerisce che c'è stata una diffusione continuata attraverso i confini nelle ultime 3-5 settimane.
+Ciò suggerisce che c'è stata una diffusione continua attraverso i confini nazionali nelle ultime 3-5 settimane.
 <br><br>
 <!-- This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.-->
-Questo raggruppamento geografico potrebbe diventare più forte in seguito ai recenti sforzi di attenuazione che riducono i viaggi tra le regioni.
+Questo raggruppamento geografico potrebbe diventare più forte in seguito alle recenti misure di attenuazione che riducono i viaggi tra regioni diverse.
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
@@ -205,13 +206,18 @@ Stiamo lavorando duramente per analizzare tutti questi nuovi dati, e troverete i
 <!-- This is left-side text 7-->
 # [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Even within the U.S., transmission patterns are highly complex.
+<!--Even within the U.S., transmission patterns are highly complex.-->
+Anche negli Stati Uniti stiamo vedendo una dinamica di trasmissione piuttosto complessa
 <br><br>
-For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
-While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
+<!--For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).-->
+Per esempio, tra i campioni recenti provenienti dal Connecticut (foglie evidenziate) troviamo alcuni che si mescolano sull'albero con i campioni dello stato di Washington (foglie non evidenziate), ma altri che sono loro antenati. 
+<!--While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.-->
+FErmo restando che c'e' bisogno di piu' dati per avere delle certezze, questo suggerisce che ci siano stati eventi di trasmissione recenti anche tra parti molto distanti del Paese.
 <br><br>
-This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
+<!--This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.-->
+Questo sottolinea il fatto che i percorsi di trasmissione negli stessi Stati Uniti siano molo piu' complessi di quato si puo' evincere dai dati disponibili al momento.
+<!--Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.-->
+Ulteriori dati ci aiuteranno a capire meglio quella che al momento sembra un'epidemia nazonale profondamente interconnessa che si innesta su uno sfondo di reazioni altamente eterogenee da parte dei diversi Stati.
 <!-- There is no right side text -->
 
 
@@ -219,9 +225,11 @@ Additional data will help us understand what is likely a deeply interconnected n
 <!-- This is left-side text 8-->
 # [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
+<!--Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.-->
+Guardando i casi nello stato di Washington si vede che ci sono almeno due gruppi di sequenze provenienti da focolai locali separati
 <br><br>
-However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
+<!--However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.-->
+Questi due focolai hanno origini diverse: il primo e' molto piu' collegato a sequenze provenienti dalla Cina, mentre il secondo e' piu' collegato a sequenze provenienti dall'Europa. E' comunque possibile che queste introduzioni siano state indirette, cioe' tramite casi non identificati provenienti da regioni diverse.
 <br><br>
 <!-- There is no right side text -->
 
@@ -230,15 +238,20 @@ However, the two clusters have different origins: the first cluster is most clos
 <!-- This is left-side text 9-->
 # [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
-We see similar patterns elsewhere in the U.S.
+<!--We see similar patterns elsewhere in the U.S.-->
+Vediamo scenari simili in altre parti degli Stati Uniti.
 <br><br>
-Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.
+<!--Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.-->
+Qui vediamo diversi campioni provenienti da Solano County, nel nord della California, che pur essendo stati isolati in date diverse sono tutti geneticamente molto simili.
 <br><br>
-While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
+<!--While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.-->
+Per quanto i dati provenienti dal resto della California siano troppo limitati per poter tirare delle conclusioni definitive, questi dati preliminari sono consistenti con l'esistenza un solo focolaio locale a Solano County.
 <br><br>
-Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
+<!--Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.-->
+Vediamo uno scenario simile con i campioni isolati a Santa Clara County (in un'altra regione dell'albero).
 <br><br>
-These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
+<!--These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.-->
+Basandoci sulla posizione di questi gruppi di casi sull'albero, possiamo concludere che e' probabile che siano il risultato di due separate introduzioni.
 <!-- There is no right side text -->
 
 
@@ -257,13 +270,13 @@ These counties' clusters of cases are likely to due to separate introductions, b
 <!--We don't have much genetic sequence data from South America yet.
 Of the available data, most are from travelers.
 Here, each case is colored by the known exposure history.-->
-Non ci sono ancora molti dati di sequenze genetiche dal Sud America.
+Non ci sono ancora molte sequenze genetiche dal Sud America.
 Nei dati disponibili, la maggiorparte provengono da persone che hanno viaggiato.
 Qui, ogni caso è colorato in ordine cronologico per le esposizioni conosciute al virus.
 <br><br>
 <!-- While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions
 Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.-->
-Mentre nei casi non associati ai viaggi stanno iniziando a emergere schemi potenzialmente interessanti, non abbiamo ancora prove sufficienti per trarre conclusioni.
+Mentre nei casi non associati ai viaggi stanno iniziando a emergere scenari potenzialmente interessanti, non abbiamo ancora dati sufficienti per trarre conclusioni attendibili.
 L'impegno per ottenere più sequenze genetiche sta aumentato rapidamente e commenteremo i dati quando la situazione diventerà più chiara.
 <!-- There is no right side text -->
 
@@ -294,7 +307,7 @@ Ad ogni modo, abbiamo sequenze di molti casi che hanno riportato viaggi in Iran.
 La maggior parte delle sequenze legate a storie di viaggi in Iran sono raggruppate, e ciò suggerisce che molti dei casi iraniani sono derivati da una singola introduzione in Iran.
 <br><br>
 <!-- At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.-->
-Nella parte più bassa dell'albero, vediamo una nuova sequenza da una donna in Pakistan con una che ha riferito una storia di viaggi in Iran.
+Nella parte più bassa dell'albero, vediamo una nuova sequenza da una donna in Pakistan con una che ha riferito di aver viaggiato in Iran.
 <!-- Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.-->
 È interessante notare che questo caso non si raggruppa con gli altri casi provenienti dall'Iran, ma è stato raccolto più o meno nello stesso periodo.
 
@@ -317,13 +330,13 @@ Ciò è coerente con diverse ipotesi; mano a mano che avremo altri dati, aggiorn
 Nuove sequenze provenienti da Kinshasa nella Republica Democratica del Congo mostrano prove di diversi eventi di ingressi del virus.
 <br><br>
 <!--Some of these sequences form a group of very closely related, local cases that were sampled over several days.-->
-Alcune di queste sequenze provengono da un gruppo di persone strettamente collegate, casi locali che sono stati osservati per diversi giorni.  
+Alcune di queste sequenze provengono da un gruppo di persone strettamente collegate, focolai locali da cui sono stati raccolti campioni per diversi giorni.  
 <br><br>
 <!-- This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier..-->
-Questo è coerente con la trasmissione locale, in corso almeno dal 15 marzo (la data di osservazione del primo caso che sembra far parte di questa catena di trasmissione locale) e possibilmente prima.
+Questo è coerente con un focolaio locale, in corso almeno dal 15 marzo (la data del primo caso che sembra far parte di questo focolaio) e possibilmente prima.
 <br><br>
 <!-- The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places. -->
-L'eccelente lavoro dell' Istituto Nazionale per la Ricerca Biomedica(INRB) nel sequenziamento del virus fin dai primi campioni disponibili permette di osservare come la trasmissione nella comunità sia nascosta in molti altri luoghi.
+L'eccelente lavoro dell' Istituto Nazionale per la Ricerca Biomedica(INRB) nel sequenziamento del virus fin dai primi campioni disponibili ci permette di osservare come la trasmissione nella comunità sia nascosta in molti altri luoghi.
 <!-- There is no right side text -->
 
 
