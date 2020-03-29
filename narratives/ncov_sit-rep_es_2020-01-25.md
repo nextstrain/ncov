@@ -93,7 +93,7 @@ El origen del virus aún no está claro, sin embargo [análisis genómicos](http
 Es posible que la transmisión del virus haya ocurrido a través de otros animales (intermediarios) antes de ser transmitido a los humanos.
 No hay evidencia de serpientes como animal intermediario durante la transmisión del virus.
 
-#### Narrativas Nextstrain 
+#### Narrativas Nextstrain
 
 Las siguientes páginas contienen análisis realizados con [Nextstrain](https://nextstrain.org).
 El texto aparecerá al desplazarse con la barra lateral izquierda y la visualización de los datos genómicos correspondiente aparecerá en el lado derecho.
@@ -153,7 +153,7 @@ La información sobre cómo se realizó el análisis está disponible [en este r
 
 <br>
 
-Los colores representan la ciudad o el estado (Estados Unidos) donde fue colectada la muestra y el eje 'x' representa la divergencia genética (de nucleótidos).
+Los colores representan la ciudad o el estado (Estados Unidos) donde fue recolectada la muestra y el eje 'x' representa la divergencia genética (de nucleótidos).
 
 <br>
 
@@ -220,7 +220,7 @@ La explicación más parsimoniosa para este patrón de mutaciones compartidas ob
 
 
 # [Calculando la fecha de origen del ancestro común más reciente](https://nextstrain.org/ncov/2020-01-25?d=tree)
-La elevada similaridad de los genomas del nCoV sugiere que los virus colectados comparten un ancestro común bastante reciente (es decir, que han descendido del mismo virus recientemente). De lo contrario, esperaríamos un mayor número de diferencias (mutaciones) en los virus secuenciados.
+La elevada similaridad de los genomas del nCoV sugiere que los virus recolectados comparten un ancestro común bastante reciente (es decir, que han descendido del mismo virus recientemente). De lo contrario, esperaríamos un mayor número de diferencias (mutaciones) en los virus secuenciados.
 
 <br>
 
@@ -258,7 +258,7 @@ A la derecha, presentamos estimaciones simples del R0.
 
 ```auspiceMainDisplayMarkdown
 ## Estimaciones de la tasa de crecimiento epidémico.
-Los científicos del Imperial College de Londres han utilizado el número de casos observados fuera de China para estimar el [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) Y sugieren que han habido al menos varios miles de casos.
+Los científicos del Imperial College de Londres han utilizado el número de casos observados fuera de China para estimar el [número total de casos](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/) y sugieren que han habido al menos varios miles de casos.
 Junto con nuestras estimaciones anteriores de la 'edad' del brote y la información disponible sobre la duración del período de infección, podemos estimar posibles rangos de R0 utilizando un modelo matemático del tipo de procesos de ramificación.
 
 **Nuestras estimaciones apuntan a un R0 plausible entre 1.5 y 3.5.**

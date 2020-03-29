@@ -41,9 +41,11 @@ location	Brisbane
 location	Rockhampton
 location	Clayton
 location	Auckland
+location	Gilgit
 location	Riyadh
 location	Hawali
 location	Dasman
+location	Saint Petersburg
 location	Heinsberg District
 location	Heinsberg
 location	Munich
@@ -140,7 +142,6 @@ location	Nassau County
 division	China
 division	Hubei
 division	Beijing
-division	NanChang
 division	Anhui
 division	Jiangxi
 division	Chongqing
@@ -168,10 +169,12 @@ division	Chungcheongnam
 division	Seoul
 division	South Korea
 division	Selangor
+division	Kuala Lumpur
 division	Kathmandu
 division	Kerala
 division	Iran
 division	Kuwait
+division	Gilgit Baltistan
 division	Tbilisi
 division	Thanh Hoa
 division	Vinhphuc
@@ -187,12 +190,20 @@ division	Wellington
 division	Otago
 division	Auckland
 division	Riyadh
+division	Saint Petersburg
 division	Europe
+division	Reykjavik
+division	Oslo
 division	Central Hungary
 division	Baranya
+division	Kostoliste
+division	Kosice
+division	Bratislava
+division	Martin
 division	Copenhagen
 division	Bretagne
 division	Ile de France
+division	France
 division	Auvergne-Rhône-Alpes
 division	Pays de la Loire
 division	Hauts de France
@@ -201,6 +212,7 @@ division	Bourgogne-France-Comté
 division	Normandie
 division	Grand Est
 division	Auvergne Rhone Alpes
+division	Spain
 division	Castilla Y León
 division	Galicia
 division	Madrid
@@ -220,7 +232,9 @@ division	Kraainem
 division	Huldenberg
 division	Brussels
 division	Liège
+division	Switzerland
 division	Bavaria
+division	Duesseldorf
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
 division	Netherlands
@@ -234,6 +248,8 @@ division	Flevoland
 division	South Holland
 division	North Holland
 division	Luxembourg
+division	Austria
+division	Germany
 division	Zielonogorskie
 division	Basel
 division	Bern
@@ -247,19 +263,26 @@ division	Schwyz
 division	Comunitat Valenciana
 division	Italy
 division	Lazio
+division	Marche
 division	Lombardy
+division	Rome
 division	Friuli Venezia Giulia
 division	Usti nad Labem
+division	Grand Canary Islands
+division	Croatia
 division	Northern Ireland
 division	England
 division	United Kingdom
+division	UK
 division	Wales
 division	Dublin
+division	Cork
 division	Limerick
 division	Scotland
 division	Småland
 division	Helsinki
 division	Finland
+division	Denmark
 division	Portugal
 division	Lagos
 division	Kinshasa
@@ -269,9 +292,14 @@ division	Talca
 division	Sao Paulo
 division	Espirito Santo
 division	Bahia
+division	Goiais
+division	Minas Gerais
+division	Rio Grande do Sul
 division	Rio de Janeiro
 division	Distrito Federal
+division	Medellin
 division	Amazonas State
+division	Quito
 division	Panama City
 division	Mexico City
 division	USA
@@ -305,10 +333,15 @@ country	Australia
 country	New Zealand
 country	Saudi Arabia
 country	Kuwait
+country	Pakistan
 country	Georgia
+country	Russia
+country	Slovakia
 country	Poland
 country	Hungary
 country	France
+country	Iceland
+country	Norway
 country	Denmark
 country	Netherlands
 country	Belgium
@@ -327,7 +360,9 @@ country	Nigeria
 country	Congo
 country	South Africa
 country	Chile
+country	Ecuador
 country	Brazil
+country	Colombia
 country	Panama
 country	Mexico
 country	USA
