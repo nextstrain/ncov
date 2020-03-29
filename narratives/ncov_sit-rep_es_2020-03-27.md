@@ -39,16 +39,16 @@ abstract: "Este reporte utiliza datos genómicos públicos para el seguimiento d
 <!-- This is left-side text 1-->
 # [Contenidos](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=2).     
-* [Acerca del muestreo de datos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Actualizaciones de Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Actualizaciones de América del Norte](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=7).  
-* [Actualizaciones de América Central y América del Sur](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=11).  
-* [Actualizaciones de Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=13).  
-* [Actualizaciones de Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=15).  
-* [Actualizaciones de Oceanía](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=17).  
-* [¡Qué puedes hacer tú](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19)!
-* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=20).
+* [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=2).     
+* [Acerca del muestreo de datos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=3).  
+* [Actualizaciones de Europa](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=4).  
+* [Actualizaciones de América del Norte](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=7).  
+* [Actualizaciones de América Central y América del Sur](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=11).  
+* [Actualizaciones de Asia](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=13).  
+* [Actualizaciones de Africa](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=15).  
+* [Actualizaciones de Oceanía](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=17).  
+* [¡Qué puedes hacer tú](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=19)!
+* [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/es/2020-03-27?n=20).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
