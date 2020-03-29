@@ -246,7 +246,7 @@ Wir haben jedoch Sequenzen von Personen die berichtet haben, im Iran gewesen zu 
 <br><br>
 Die meisten Faelle, die mit Reisen in den Iran assoziiert sind, sind in einer Gruppierung, was darauf hindeutet, dass viele iranische Faelle von einem einzigen Eintrag in den Iran ausgehen.
 <br><br>
-Ganz unten im Baum sehen wr eine Sequenz einer Frau in Pakistan, die von einer Reise in den Iran berichtet hat. Diese Sequenz ist interessanterweise ein Ausreiser zu den anderen bekannten Faellen aus dem Iran, die aber etwa zur gleichen Zeit beprobt worden ist.
+Ganz unten im Baum sehen wir eine Sequenz einer Frau in Pakistan, die von einer Reise in den Iran berichtet hat. Diese Sequenz ist interessanterweise ein Ausreiser zu den anderen bekannten Faellen aus dem Iran, die aber etwa zur gleichen Zeit beprobt worden ist.
 <br><br>
 Das stimmt mit mehrern moeglichen Hypothesen ueberein; durch die Verfuegbarkeit neuer Daten werden wir dementsprechend unsere Analyse verbessern koennen.
 <!-- There is no right side text -->
