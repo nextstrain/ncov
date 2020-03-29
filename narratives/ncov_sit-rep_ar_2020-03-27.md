@@ -149,9 +149,9 @@ abstract: "  يستخدم هذا التقرير بيانات الجينومات 
 <!-- This is left-side text 5-->
 # [تسلسلات جديدة من ايسلندا] (https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
-We received many new sequences from Iceland.
-Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
-We're working hard to analyze all of this new data, and will report our findings next week.
+حصلنا على تسلسلات جديدة كثيرة من ايسلندا. بتلوين تاريخ التعرض لكل حالة (إن علم)، نستطيع مشاهدة بان العديد من هذه الحالات هي من مسافرين حديثين. نحن نعمل جاهدين على تحليل جميع هذه البيانات الجديدة وسوف نوثق نتائجنا في تقرير الاسبوع القادم.
+
+
 <!-- There is no right side text -->
 
 
@@ -169,21 +169,21 @@ We're working hard to analyze all of this new data, and will report our findings
 
 حتى داخل الولايات المتحدة فان انماط الإنتشار معقدة جدا.
 <br><br>
-فعلى سبيل المثال، عينات حديثة مم كونيكتيت (النهايات المختارة) فهي اسلاف ومتداخلة مع العينات من ولاية واشنطن (النهايات المظللة)For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
+فعلى سبيل المثال، عينات حديثة من كونيكتيكت (النهايات المختارة) فهي في نفس الوقت اسلاف وايضا متداخلة مع العينات من ولاية واشنطن (النهايات المظللة)
 بينما هناك حاجة الى بيانات اكثر لرسم استنتاجات قوية، فهذا يقترح بأنه كان هناك انتشار حديث بين اجزاء متباعدة في الدولة. 
 <br><br>
 هذا يؤكد بأن انماط الإنتشار في الولايات المتحدة معقدة اكثر مما يمكن تمثيله في البيانات المتوفرة حاليا.
-بيانات اضافية ستساعدنا على فهم كيف ان وباءا محليا متداخل بعمق يمكن ان يلعب  على خلفية الاستجابات غير المتجانسة بين الولايات.Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
+بيانات اضافية ستساعدنا على فهم كيف ان وباءا محليا متداخلا بعمق يمكن ان يبدو على خلفية الاستجابات غير المتجانسة بين الولايات.
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+# [سلاسل انتشار متعددة تدور في ولاية واشنطن](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
+بالنظر الى الحالات من واشنطن نرى بان هناك على الاقل تجمعين وبائيين محليين منفصلين
 <br><br>
-However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
+ومع ذلك، يمتلك هذان التجمعان اصول مختلفة: فالتجمع الاول اقرب ما يكون ارتباطا بعينات من الصين، في حين ان التجمع الثاني اقرب ارتباطا بعينات من اوروبا. من الممكن ايضا بان هذه الادخالات كانت غير مباشرة، مع حالات لم يتم اخذ عيناتها من منطقة بينهما.
 <br><br>
 <!-- There is no right side text -->
 
