@@ -250,7 +250,7 @@ We hebben echter wel veel sequenties van gevallen met gerapporteerde reizen naar
 De meeste sequenties met reisgeschiedenis naar Iran groepen samen, wat suggereert dat veel van de Iraanse gevallen afkomstig waren van een enkele introductie in Iran.
 <br> <br>
 Helemaal onderaan de boom zien we een nieuwe sequentie van een vrouw in Pakistan met gerapporteerde reis naar Iran.
-Interessant is dat dit geval een outgroep is van de andere gevallen die we kennen uit Iran, maar rond dezelfde tijd werd bemonsterd.
+Interessant is dat dit geval een uitgroep is van de andere gevallen die we kennen uit Iran, maar rond dezelfde tijd werd bemonsterd.
 <br> <br>
 Dit patroon is consistent met verschillende mogelijke hypothesen; naarmate er meer gegevens naar voren komen, zullen we onze analyse bijwerken.
 <!-- There is no right side text -->
@@ -258,9 +258,9 @@ Dit patroon is consistent met verschillende mogelijke hypothesen; naarmate er me
 
 
 
-<!-- ############ AFRICA ############# -->
+<!-- ############ AFRIKA ############# -->
 <!-- This is left-side text 14-->
-# [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
+# [Updates over Afrika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
 
 
 
@@ -268,22 +268,22 @@ Dit patroon is consistent met verschillende mogelijke hypothesen; naarmate er me
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [Bewijs voor locale transmissie in Kinshaha, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
+Nieuwe sequenties vanuit Kinshaha in het Democratische Republiek Congo tonen bewijs voor meerdere, aparte introducties. 
 <br><br>
-Some of these sequences form a group of very closely related, local cases that were sampled over several days.
+Sommige van deze sequenties vormen een groep van nauwverwante, locale besmettingen die bemonsterd werden over enkele dagen.
 <br><br>
-This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier.
+Dit is consistent met lokale transmissie, gaande sinds ten minste 15 maart (de bemonsteringsdatum van de eerste besmetting die onderdeel lijkt te zijn van de locale besmettingsketen) en mogelijk eerder.
 <br><br>
-The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places.
+INRB haar excellente werk om het virus te sequencen uit vroege monsters geven ons de mogelijkheid om de gemeenschapstransmissie te zien, die verborgen is op vele andere plekken. 
 <!-- There is no right side text -->
 
 
 
-<!-- ############ OCEANIA ############# -->
+<!-- ############ OCEANIË ############# -->
 <!-- This is left-side text 17-->
-# [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
+# [Updates over Oceanië](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -291,10 +291,10 @@ The INRB's excellent work to sequence the virus from early samples allows us to 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [Local transmission in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [Locale transmissie in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-New sequences from Australia show evidence of local transmission across New South Wales.
-The virus has likely been circulating in this area since at least the end of February.
+Nieuwe sequenties vanuit Australië tonen bewijs voor locale tranmissie binnen New South Wales. 
+Het virus circuleert waarschijnlijk in dit gebied sinds het in ieder geval het einde van februari. 
 
 <!-- There is no right side text -->
 
@@ -303,20 +303,18 @@ The virus has likely been circulating in this area since at least the end of Feb
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 19-->
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-#### ...as an individual
-* Practice strict social distancing, especially if you are in a vulnerable group.
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible.
-
-#### ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures.
-
+# [Wat u kunt doen](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+#### ...als een individu
+* Verminder drastisch het aantal mensen waarmee u elke dag in contact komt, vooral als u tot een kwetsbare groep behoort (bijvoorbeeld senioren en mensen met reeds bestaande aandoeningen).
+* Onthoud dat zelfs als je niet super kwetsbaar bent, veel mensen om je heen dat wel zijn; volg deze praktijken om anderen te beschermen.
+* Was je handen "alsof je net een jalapeno hebt gesneden en een contactlens moet verwisselen."
+* Blijf zoveel mogelijk thuis - vooral als je ziek bent; wees voorbereid met extra benodigdheden voor het geval u thuis in quarantaine moet gaan.
+* Als u een werkgever bent, moedig uw werknemers aan om waar mogelijk thuis te werken
+#### ...als ambtenaar
+* Maak testen gratis en algemeen beschikbaar.
+* Zorg voor sterke sociale afstandsmaatregelen.
+* Financieer en implementeer uitgebreide inspanningen voor het traceren van contacten.
+* Financiële steun bieden aan degenen die worden getroffen door maatregelen voor sociale afstand (bv. uurloonwerkers, werknemers met ouder- of kinderopvang, kleine bedrijven, enz.).
 
 <!-- This is the right-side text -->
 
