@@ -71,23 +71,24 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * 금주에 아프리카에서 새로운 염기서열 데이터를 받았으나, 표본 채취는 여전히 부족합니다. 이 지역에서 수집된 데이터보다 더 많은 코로나-19 활동이 있을 수 있습니다.
 
 **오세아니아**
-* 호주의 뉴 사우스 웨일즈 내에서 지역 전파가 있었다는 것을 보여주는 사례가 있습니다.
+* 오스트레일리아의 뉴 사우스 웨일즈 내에서 지역 전파가 있었다는 것을 보여주는 사례가 있습니다.
 ```
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
+# [코로나바이러스감염증-19 관련자료](https://nextstrain.org/ncov/2020-03-27)
+
+코로나바이러스감염증-19와 이를 유발하는 SARS-CoV-2 바이러스(또는 hCov-19로 알려진)에 대한 몇 가지 자료를 준비했습니다. 이 정보들은 저희가 이 보고서에서 제시한 내용을 이해하는데 도움을 줄 것입니다.
+
 <br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+계통수(계통유전학적 나무)가 익숙하지 않은 분들은 ['계통수를 읽는 법'](https://nextstrain.org/narratives/trees-background/ko)을 읽고 오십시오.
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 ## Nextstrain 관련자료
 
-[계통수를 읽는 법](https://nextstrain.org/narratives/trees-background).  
+[계통수를 읽는 법](https://nextstrain.org/narratives/trees-background/ko).  
 
 [코로나바이러스 관련 배경지식](https://nextstrain.org/help/coronavirus/human-CoV).
 
@@ -253,7 +254,7 @@ This is consistent with several possible hypotheses; as more data emerges, we'll
 
 <!-- ############ AFRICA ############# -->
 <!-- This is left-side text 14-->
-# [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
+# [아프리카의 현황](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
 
 
 
@@ -261,22 +262,22 @@ This is consistent with several possible hypotheses; as more data emerges, we'll
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [콩고 민주 공화국 내 킨샤사의 지역 전파 증거](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
+콩고 민주 공화국 내 위치한 킨샤사 지역에서 새로 받은 염기서열 데이터에 의하면 여러 차례에 걸쳐 바이러스의 유입이 있었음을 보여주고 있습니다.
 <br><br>
-Some of these sequences form a group of very closely related, local cases that were sampled over several days.
+이 데이터들 중 일부는 그룹을 형성하는데, 이 그룹은 매우 높은 연관성을 보이는 지역 전파 사례들을 포함하고 있으며, 수일에 걸쳐서 수집된 것으로 보입니다.
 <br><br>
-This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier.
+이는 적어도 3월 15일 (이 지역 전파 그룹의 일부인 것으로 보이는 가장 빠른 사례의 표본 추출일) 이후로 계속되는 지역 전파와 일치합니다. 3월 15일보다 더 일찍 발생했을 수도 있습니다.
 <br><br>
-The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places.
+콩고 국립 생의학 연구소(INRB)의 뛰어난 연구 덕분에 우리는 다른 많은 곳에 숨겨져 있었던 지역 사회 전파를 볼 수 있었습니다.
 <!-- There is no right side text -->
 
 
 
 <!-- ############ OCEANIA ############# -->
 <!-- This is left-side text 17-->
-# [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
+# [오세아니아의 현황](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -284,10 +285,9 @@ The INRB's excellent work to sequence the virus from early samples allows us to 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [Local transmission in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [뉴 사우스 웨일즈의 지역 전파](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-New sequences from Australia show evidence of local transmission across New South Wales.
-The virus has likely been circulating in this area since at least the end of February.
+새롭게 공유된 오스트레일리아의 염기서열 데이터로부터 우리는 뉴 사우스 웨일즈 전역에서 지역 전파가 있었음을 확인할 수 있었습니다. 적어도 2월 말부터 이 지역에서 바이러스가 퍼지고 있었을 것으로 보입니다.
 
 <!-- There is no right side text -->
 
@@ -296,34 +296,33 @@ The virus has likely been circulating in this area since at least the end of Feb
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 19-->
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-#### ...as an individual
-* Practice strict social distancing, especially if you are in a vulnerable group.
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible.
+# [우리가 할 수 있는 것들](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+#### 개인이 할 수 있는 것들
+* 엄격한 사회적 거리두기를 하십시오. 특히, 당신이 취약 계층일수록 중요합니다.
+* 당신이 취약계층이 아니더라도 주변에 그런 사람이 많다는 것을 유념하십시오. 그래야 주변 사람들을 보호할 수 있습니다.
+* "당신이 방금 할라피뇨 고추를 썰어 콘택트 렌즈를 교체해야만 하는 것처럼" 손을 자주 씻으십시오.
+* 아프면 집에 머무르세요. 자가격리를 대비해 필요한 물자를 미리 비축하십시오.
+* 당신이 고용주라면 직원들이 아플 때 집에 있을 수 있도록 해주세요
 
-#### ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures.
-
+#### 관료들이 할 일
+* 검사가 무료로 광범위하게 이뤄질 수 있도록 하십시오.
+* 사회적 거리두기가 이뤄질 수 있도록 하십시오.
+* 광범위한 접촉 경로 추적에 재정을 지원하고 실행하십시오.
+* 사회적 거리두기로 인해 피해를 입은 사람들을 위한 경제적 지원이 필요합니다.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Takeaways
-####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.
+## 배울 점들
+#### 다가오는 몇 주 동안, 새로운 완화 조치가 국가 간 전파를 막았다는 증거가 유럽에서 나타나는지를 지켜볼 것입니다.
 <br><br>
-#### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.
+#### 더 많은 염기서열 데이터를 확보했기 때문에, 남미에서의 지역 전파 관련 징후들을 지속적으로 관찰할 것입니다.
 <br><br>
-####  The U.S. epidemic likely has very complex transmission patterns of both import and spread across even disparate parts of the country. We find evidence of multiple local transmission chains in Washington and California.
+#### 미국의 전염은 비록 외곽 지역이여도 그 유입과 전파가 매우 복잡한 패턴을 가지고 있을 가능성이 높습니다. 워싱턴 주와 캘리포니아 주에서 여러 개의 지역 전파 그룹들에 대한 증거를 발견했습니다.
 <br><br>
-#### We find evidence of local transmission in New South Wales, Australia.
+#### 오스트레일리아 뉴 사우스 웨일즈에서 지역 전파의 증거를 찾았습니다.
 <br><br>
-#### We find evidence of local transmission in Kinshasa in the DRC. We do not yet have enough data to assess whether the virus is circulating locally in other parts of Africa.
+#### 콩고 민주 공화국 내 킨샤사에서 지역 전파의 증거를 찾았습니다. 아직 바이러스가 아프리카의 다른 지역에서도 퍼지고 있는지 여부를 판단할 충분한 데이터가 없습니다.
 ```
 
 <!-- ##### slide break ##### -->
@@ -336,14 +335,13 @@ The virus has likely been circulating in this area since at least the end of Feb
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text 20-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [과학적 기여](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+이번 유행에 관련된 모든 과학자들, 특히 중국의 과학자들의 대단하고 신속한 작업에 감사를 표합니다. 
+유전체 정보 및 메타정보의 빠른 공유가 아니었다면 이 분석들은 불가능했을 것입니다.
 
 <br>
-
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
