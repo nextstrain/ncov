@@ -299,7 +299,7 @@ However, the two clusters have different origins: the first cluster is most clos
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 19-->
 # [ما الذي عليك فعله ](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-## ...كفرد في المجتع 
+#### ...as an individual 
 * قم بالتقيد بالحجر الصحي، تحديدا إذا كنت في مجموعة هي عرضة للوباء
 * تذكر ،  حتى لو لم تكن عرضة  للوباء،  فهناك  العديد من الأشخاص حولنا قد يكونون.  فتقيد بالحجر لحمايتهم 
 * اغسل بديك "كانك تريد تغيير عدساتك اللاصقة بعد ان قمت بتقطيع الفلفل"
