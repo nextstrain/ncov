@@ -300,19 +300,19 @@ INRB（刚果的国立医学研究机构）测得早期样本的出色工作，�
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 19-->
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-#### ...as an individual
-* Practice strict social distancing, especially if you are in a vulnerable group.
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible.
+# [你能做些什么](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+#### 个人可以采取的行动
+* 保持严格的社交距离，风险人群尤其要这样做。
+* 请记住，即使你不属于高风险人群，你周围的许多人也可能属于高危人群；遵循以上做法可以保护他人。
+* 仔细洗手，要像你沾上过恶心的东西一样经常洗手。 
+* 生病时留在家里，特别当你身体状况不佳时；准备一些额外的补给，以备自我隔离。
+* 如果你是雇主，请鼓励员工在生病时留在家里。
 
-#### ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures.
+#### 政府可以采取的行动  
+* 推广免费检测。  
+* 推行减少社交接触的措施。  
+* 资助和建立有效广泛的病例追踪体系。
+* 在经济上支持受到上述措施影响的人。
 
 
 <!-- This is the right-side text -->
