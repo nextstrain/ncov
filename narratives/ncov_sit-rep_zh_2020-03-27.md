@@ -249,7 +249,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 在树的根部，我们发现一条新的来自巴基斯坦的序列，该序列来自一位带有伊朗旅行史的女性。
 值得注意的是，这条样本序列和我们已知的来自伊朗的输入样本序列并不聚集在一起，但是从时间上来看，这一条与其他的样本是差不多时候被取样的。
 <br><br>
-这样的现象支持很多种不同的假说，如果获取得更多数据，我们将进一步更新我们的分析。
+实际上很多种不同的假说，都可以解释这样的现象。如果后期获取得更多数据，我们将进一步更新我们的分析。
 <!-- There is no right side text -->
 
 
@@ -257,7 +257,7 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 <!-- ############ AFRICA ############# -->
 <!-- This is left-side text 14-->
-# [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
+# [非洲的最新情况](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
 
 
 
@@ -265,15 +265,15 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [刚果的金沙萨市存在本地传播的证据](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
+来自刚果民主共和国的金沙萨市的新序列表明了该地有多起独立的输入传染事件。
 <br><br>
-Some of these sequences form a group of very closely related, local cases that were sampled over several days.
+几天内被集中取样的样本序列汇聚成一个非常紧密相关的基因簇。
 <br><br>
-This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier.
+这反映了3月15日或者可能更早在当地的本地传播已经开始。3月15日这个日期是这一系列样本中最早被取样的日期。
 <br><br>
-The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places.
+INRB（刚果的国立医学研究机构）测得早期样本的出色工作，使得我们能够推断出许多其他地方存在未被察觉的社区传播。
 <!-- There is no right side text -->
 
 
