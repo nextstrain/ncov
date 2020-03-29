@@ -139,6 +139,7 @@ location	Phoenix
 location	Chicago
 location	Illinois
 location	Wisconsin
+location	La Crosse County
 location	Dane County
 location	Boston
 location	Manhattan
@@ -221,6 +222,9 @@ division	Grand Est
 division	Auvergne Rhone Alpes
 division	Spain
 division	Castilla Y León
+division	Castilla Y Leon
+division	Basque Country
+division	Andalusia
 division	Galicia
 division	Madrid
 division	Flanders
@@ -269,6 +273,7 @@ division	Graubünden
 division	Schwyz
 division	Comunitat Valenciana
 division	Italy
+division	Abruzzo
 division	Lazio
 division	Marche
 division	Lombardy
@@ -347,6 +352,7 @@ country	New Zealand
 country	Saudi Arabia
 country	Kuwait
 country	Pakistan
+country	Iran
 country	Georgia
 country	Russia
 country	Slovakia
@@ -361,6 +367,8 @@ country	Belgium
 country	Luxembourg
 country	Germany
 country	Switzerland
+country	Croatia
+country	Austria
 country	Italy
 country	Spain
 country	Czech Republic
