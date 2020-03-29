@@ -1,0 +1,27 @@
+sudo: false
+dist: bionic
+language: python
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+
+cache: pip
+
+addons:
+  apt:
+    update: true
+    packages:
+      - mafft
+      - iqtree
+      - raxml
+      - fasttree
+      - vcftools
+      - snakemake
+
+install:
+  - pip3 install nextstrain-augur
+
+script:
+  - cp example_data/sequences.fasta data
+  - snakemake -p

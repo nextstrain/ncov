@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nextstrain/ncov.svg?branch=master)](https://travis-ci.org/nextstrain/ncov)
+
 ## About  
 
 This is a [Nextstrain](https://nextstrain.org) build for novel coronavirus, alternately known as hCoV-19 or SARS-CoV-2 that is responsible for the COVID-19 pandemic. This build is visible at [nextstrain.org/ncov](https://nextstrain.org/ncov).
