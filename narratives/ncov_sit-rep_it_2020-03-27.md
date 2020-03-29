@@ -400,20 +400,26 @@ E' probabile che il virus stia circolando in questa area da, almeno, la fine di 
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text 20-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+<!-- # [Scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author) -->
+# [Riconoscimenti scientifici](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+<!-- We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China. -->
+Ringraziamo tutti gli scienziati al lavoro su questa epidemia, e in particolare quelli che lavorano in Cina, per lo straordinario e tempestivo lavoro fatto.
+<!-- Only through the rapid sharing of genomic data and metadata are analyses such as these possible. -->
+È solo attraverso la rapida condivisione di dati e metadati genomici che analisi come questa sono possibili.
+
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+<!-- We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared. -->
+Siamo anche grati a [GISAID](https://gisaid.org) per aver fornito la piattaforma su cui questi dati sono stati caricati e condivisi.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+<!-- We are grateful for the data gathered by these originating labs: -->
+Ringraziamo i seguenti laboratori per i dati raccolti:
 
 * Andersen Lab, The Scripps Research Institute
 * Arizona Department of Health Services
@@ -643,19 +649,23 @@ We are grateful for the data gathered by these originating labs:
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+<!-- # [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author) -->
+# [Riconoscimenti scientifici dettagliati](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+<!-- These data were shared via [GISAID](https://gisaid.org). -->
+<!-- We gratefully acknowledge their contributions. -->
+Questi dati sono stati condivisi via [GISAID](https://gisaid.org), a cui va la nostra gratitudine per i contributi.
 
 <br>
 
-To the right we give specific sequences shared by each lab.
+<!-- To the right we give specific sequences shared by each lab. -->
+Sulla destra si possono vedere le sequenze specifiche condivise da ogni laboratorio.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+<!-- The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs: -->
+I genomi del virus SARS-CoV-2 sono stati generosamente condivisi da scienziati che lavorano in questi laboratori:
 
 * Andersen Lab, The Scripps Research Institute
 	* USA/CA-MG0987/2020
