@@ -220,12 +220,12 @@ These counties' clusters of cases are likely to due to separate introductions, b
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
 <!--# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)-->
-# [Casi osservati in Sud America sono per la maggiorparte collegati a viaggi](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+# [I casi osservati in Sud America sono per la maggiorparte collegati a viaggi](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
 <!--We don't have much genetic sequence data from South America yet.
 Of the available data, most are from travelers.
 Here, each case is colored by the known exposure history.-->
 Non ci sono ancora molti dati di sequenze genetiche dal Sud America.
-Nei dati disponibili, la maggiorparte sono da persone che hanno viaggiato.
+Nei dati disponibili, la maggiorparte provengono da persone che hanno viaggiato.
 Qui, ogni caso è colorato in ordine cronologico per le esposizioni conosciute al virus.
 <br><br>
 <!-- While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions
@@ -303,7 +303,7 @@ The INRB's excellent work to sequence the virus from early samples allows us to 
 
 <!-- New sequences from Australia show evidence of local transmission across New South Wales.
 The virus has likely been circulating in this area since at least the end of February.-->
-Nuove sequenze dall' Australia mostrano prove di trasmissione locale del virus all'interno del Nuovo Galles del Sud.
+le nuove sequenze provenienti dall' Australia mostrano prove di trasmissione locale del virus all'interno del Nuovo Galles del Sud.
 E' probabile che il virus stia circolando in questa area da, almeno, la fine di Febbraio.
 
 <!-- There is no right side text -->
