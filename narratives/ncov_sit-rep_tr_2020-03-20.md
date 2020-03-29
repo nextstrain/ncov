@@ -19,13 +19,14 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators: "Zeynep Harcanoğlu"
+translators: "Zeynep Harcanoğlu", "Eren Ada"
 translatorLinks:
 - https://twitter.com/zharcanoglu
 - https://www.linkedin.com/in/zeynepharcanoglu/
+- https://twitter.com/erenada
 date: "20 Mart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "Bu rapor COVID-19'un yayılımını takip etmek için herkese açık olarak paylaşılan genomik verileri kullanır. Ve bu raporlar haftalık olarak güncellenir."
+abstract: "Bu rapor COVID-19'un yayılımını takip etmek için herkese açık olarak paylaşılan genomik verileri kullanır. Raporlar haftalık olarak güncellenir."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -35,35 +36,33 @@ abstract: "Bu rapor COVID-19'un yayılımını takip etmek için herkese açık 
 <!-- This is left-side text 1 -->
 # [İçindekiler](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [Arka Plan Kaynakları](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
-* [Örnekleme Hakkında Not](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
-* [Dizilim datası & seyahat geçmişleri](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
-* [Neredeyse tüm ülkeler için COVID-19'a giriş](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
+* [Arka plan kaynakları](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=2).     
+* [Örnekleme hakkında bir not](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=3).
+* [Dizi verileri & seyahat geçmişleri](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=6).
+* [COVID-19'un neredeyse tüm ülkelere girişi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=8).
 * [Salgınlar nasıl büyür ve yayılır](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=9).
 * [Washington salgını nasıl büyüdü](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=10).
 * [Washington salgını nasıl yayıldı](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=11).
 * [Sosyal mesafe ile vaka sayıları nasıl değişir](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=12).
 * [Ne yapabilirsiniz](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=13).
-* [Bilimsel Kredi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
+* [Bilimsel kredi](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Özet
 
-Burada, halka açık olarak paylaşılan 723 COVID-19 genomunu analiz ettik. Bu viral genomları birbirleriyle karşılaştırarak, COVID-19'un dünyada nasıl hareket ettiğini karakterize edebiliriz.
+Burada, halka açık olarak paylaşılan 723 COVID-19 genomunu analiz ettik. Bu viral genomları karşılaştırarak COVID-19'un dünya üzerinde nasıl hareket ettiğini karakterize edebiliriz.
 
-Bu raporda, virüsün dünyanın birçok bölgesinde nasıl başladığını ve ilerlediğini anlatıyoruz.
 
-COVID-19'un bölgesel olarak yayıldığını ve (eğer yayılmışsa ne dereceye kadar yayıldığını) ve bunu azaltma önlemlerinin bu yayılımı nasıl yavaşlatabileceğini bilmek için, yerel salgın dinamikleri hakkında iyi bir bilgi birikimine sahip olmak gerekir. Bu da, dolayısıyla, testlerin geniş bir çapta yapılmasını gerektiriyor.
-
-Bu, testlere hızlı erişimin önemini vurgulamakta ve aynı bölge içerisindeki bulaşıcılığı yavaşlatma üzerine odaklanmaktadır.
+Bu raporda, virüsün dünyanın pek çok bölgesinde görüldüğünü ve dolaşıma devam ettiğine dikkat çekiyoruz. COVID-19'un bölgesel yayılımını (varsa bu yayılımın hangi seviyede olduğunu) bilmek ve alınacak önlemlerin bu salgını nasıl yavaşlatacağını anlamak için yerel salgın dinamiklerini çok iyi anlamak gerekir. Bu da, haliyle, yaygın bir şekilde test yapılmasını gerektirir. Bu durum, hızlı bir şekilde yerel bulaşıyı yavaşlatmaya yönelik test yapmanın önemini vurgulamaktadır.
 
 Bu haftanın rapor güncellemesinde:  
 
-* Seyahate bağlı olarak virüsün dünyanın farklı bölgelerinde nasıl ortaya çıktığının kanıtlarını sunuyoruz.  
-* Virüsün yeni ortaya çıktığı birçok yerde vakaların 4 ile 8 hafta içerisinde artış gözlemlemesi mümkün. Bu bölgelerin şimdiden hazırlanması gerekiyor.   
-* Sosyal mesafe kurallarını yeni getirmeye başlayan yerlerde kısa dönem içerisinde vakalarda bir artış gözlemlemeleri öümkündür, fakat orta vadede vakalardaki artış büyük ihtimalle durağanlaşıp azalmaya başlayacaktır.
-* Hem aktif enfeksiyonlu vakalar hem de iyileşmiş bireyler için testlerin yapılması bu salgınla başa çıkmak için hayati öneme sahip olacaktır.
+
+* Virüsün dünyanın pek çok bölgesinde seyahate bağlı olarak ortaya çıktığına dair kanıtları sunuyoruz.
+* Virüsün yakın zamanda görülmeye başladığı bölgeler, 4-8 haftalık bir zaman dilimi içerisinde vaka saysında artış gözlemleyebilir. Söz konusu bölgelerin şimdiden hazırlanması gerekir.
+* Sosyal mesafe önlemlerini hayata geçirmiş bölgelerde kısa dönemde vaka sayısının artması, ancak orta vadede durağanlaşması ve düşüşe geçmesi mümkün.
+* Hem aktif enfeksiyonlu bireylere hem de iyileşmiş bireylere test yapılması bu salgın ile başa çıkmakta hayati öneme sahip olacaktır.
 ```
 
 
@@ -72,12 +71,12 @@ Bu haftanın rapor güncellemesinde:
 <!-- This is left-side text 2 -->
 # [COVID-19 Kaynakları](https://nextstrain.org/ncov/2020-03-20)
 COVID-19 ve buna neden olan virüs olan SARS-CoV-2'yi tanımak için okumaya değer bazı kaynaklar hazırladık.
-Bu bilgi, bu metinde sunduğumuz verilerin yorumlanmasını kolaylaştıracaktır; filogenetik ağaçlara aşina değilseniz, ['How to Read Phylogenies' makalesini](https://nextstrain.org/narratives/trees-background/) okuyabilir ve daha sonra buraya geri dönebilirsiniz.
+Bu bilgi, bu açıklamada sunduğumuz verilerin yorumlanmasını kolaylaştıracaktır. Filogenetik ağaçlara aşina değilseniz, ['How to Read Phylogenies' metnini](https://nextstrain.org/narratives/trees-background/) okuyabilir ve hazır olduğunuzda buraya geri dönebilirsiniz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Arkaplan
+## Arka Plan
 
 <div>
   <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
@@ -90,29 +89,26 @@ Bu bilgi, bu metinde sunduğumuz verilerin yorumlanmasını kolaylaştıracaktı
 ## İlave Okuma
 
 * SARS-CoV-2 salgınının özeti [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
-* Bu raporda alıntılanan tün vaka sayıları Dünya Sağlık Örgütü'nden [WHO] alınmışır.(https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) as of 2020-03-20.
+* Bu raporda alıntılanan tüm vaka sayıları Dünya Sağlık Örgütü'nden [WHO] alınmışır. Tarih: 03 Mart 2020.  (https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2)
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [Örnekleme Hakkında Not](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-Şu anda 6 kıtadaki 36 ülkeden alınan örneklerden dizilerimiz var. Bu kesinlikle inanılmaz bir başarı, çünkü bilinmeyen, büyük bir RNA virüsünü bir pandeminin ortasında dizilemek zordur ve ancak dünyanın dört bir yanındaki bilim insanları ve doktorların olağanüstü  çabaları ve verileri zamanında paylaşabilmeleriyle mümkündür.
+# [Örnekleme Hakkında Bir Not](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+Şu anda elimizde 6 kıta, 36 ülkeden alınan örneklerden elde ettiğimiz diziler (sekanslar) var. Bu kesinlikle inanılmaz bir başarı, çünkü bilinmeyen ve büyük bir RNA virüsünü bir pandeminin ortasında dizilemek oldukça zor ve bu ancak dünyanın dört bir yanındaki bilim insanları ve doktorların olağanüstü çabaları ve verileri hızlıca paylaşabilmeleriyle mümkün.
 <br><br>
-Bu verilerin, salgının birçok özelliğinden anlam çıkarmamıza ve yayılmasını gerçek zamanlı olarak izlememize olanak sağlamasına rağmen, sonuçlarımızın verilerin kullanılabilirliği ile sınırlı olduğunu vurgulamak istiyoruz.
-Toplam vaka sayısından sadece bir grup hasta teste tabi tutulur. Test edilenlerden sadece bir örnek alt kümenin dizilimi yapılır.
-Hangi grup vakanın test edildiği ve dizilendiği, coğrafi bölgelere ve zamana göre büyük ölçüde değişebilir.
 
-Ayrıca, salgınların filogenetik rekonstrüksiyonları da her zaman belli bir miktar belirsizlikle ilişkilendirilmektedir.
+Bu veriler salgının pek çok özelliğine dair sonuçlar çıkarmamıza ve yayılışını gerçek zamanlı olarak takip etmemize olanak sağlasa da, bu çıkan sonuçların yalnızca eldeki veriler ile sınırlı olduğuna dikkat çekmekte fayda var. Toplam vakalardan yalnızca bir kısım hasta teste tabi tutulur. Bu test edilenlerin ise yalnızca bir kısmından alınan örnekler dizilenmiştir. Hangi grup vakanın test edildiği ve dizilendiği, coğrafi bölgelere ve zamana göre büyük ölçüde değişebilir. Ek olarak, salgınların filogenetik rekonstrüksiyonları her zaman bir miktar belirsizlik içerir.
 <br><br>
-Şimdi birlikte birkaç örneğe bakalım.
+Şimdi birkaç örneğe bakalım.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [Bazı bölgeler bu verilerde yeterince temsil edilmemiştir](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-Bu harita güneyden çok az dizilim gösteriyor. Örneğin, Latin Amerika'daki 25 ülkeden sadece 4 tanesine ait COVID-19 vaka dizilimimiz var [Dünya Sağlık Örgütü Raporları].(https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) Bunun nedeni, COVID-19'un bu alanlarda yayılmamış olması veya bu bölgelerin önemli olmaması değildir. Sadece, bu bölgeler hakkında çok fazla veri mevcut değildir.
+# [Bazı bölgeler bu verilerde yeterince temsil edilmemektedir](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+Bu harita güney bölgelerden az sayıda sekans geldiğini gösteriyor. Örneğin, elimizde [Dünya Sağlık Örgütü]'nün Latin Amerika'da COVID-19 vakası raporladığı 25 ülkeden sadece 4 tanesinden dizi var.(https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) Bunun nedeni, COVID-19'un bu alanlarda yayılmamış olması veya bu bölgelerin önemli olmaması değil, elimizde bu bölgelerden pek veri olmamasıdır.
 
 <br><br>
 <!-- There is NO right-side text -->
@@ -120,33 +116,33 @@ Bu harita güneyden çok az dizilim gösteriyor. Örneğin, Latin Amerika'daki 2
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [Bu verilerle fazlasıyla temsil edilen diğer bölgeler](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-Bazı bölgelerde ise, Hollanda gibi, toplam vaka sayısına göre çok sayıda dizi verisi mevcuttur.
+# [Bazı bölgeler bu verilerde fazlasıyla temsil edilmektedir](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+Hollanda gibi bazı bölgelerden ise toplam vaka sayısına göre çok sayıda dizi verisi mevcuttur.
 <br><br>
-Bu nedenle, bu anlatıyı okurken, haritadaki her bir dairenin boyutunun, salgının gerçek boyutu yerine şu anda o alandan ne kadar veri bulunduğunu gösterdiğini unutmayın. [Buradan](https://nextstrain.org/narratives/trees-background?n=8) bu bilginin virüs yayılımı hakkında çıkardığımız sonuçları nasıl etkileyebileceğini okuyabilirsiniz.
+O nedenle, bu açıklamaları okurken haritadaki her bir dairenin boyutunun salgının gerçek boyutunu değil, şu ana kadar elimizde o alandan ne kadar veri bulunduğunu gösterdiğini unutmayın. Bu durumun, virüsün yayılımı üzerine yaptığımız çıkarımları nasıl etkileyebileceğini [buradan](https://nextstrain.org/narratives/trees-background?n=8) okuyabilirsiniz.
 <br><br>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [Seyahat geçmişini çapraz kontrol edebilen dizilim datası](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [Dizi (sekans) verileri seyahat geçmişlerini doğruyabilir](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-Belirli bir vakanın nerede enfekte olduğunu belirlemek, hangi bölgelerin öncelikle seyahatle ilişkili vakalara göre yerel yayılım yaşadığını anlamak için önemlidir. Dizilim verileri, bu senaryolar arasında ayrım yapmamıza yardımcı olabilir.
+Bilinen bir vakanın nerede enfekte olduğunu belirlemek, hangi bölgelerde yerel yayılım veya seyahat ilişkili yayılım olduğunun anlaşılması için önemlidir. Dizi verisi, bu senaryolar arasında ayrım yapmamıza yardımcı olabilir.
 <br><br>
-Burada ağaç, bir vakanın seyahat geçmişi (biliniyorsa) renklendirilir. Ortadaki Kanada dizilimine baktığımızda (Canada/BC_78548/2020) Avrupaya yapılan seyahat geçmişlerini raporladıklarını görüyoruz. Diğer Avrupa dizilimleriyle birlikte bu enfeksiyon grupları bu vakaların neredeyse tamamen seyahatlarla ilişkili olduğunu göstermektedir.
+Buradaki filogenetik ağaç, bir vakanın (bilindiği durumlarda) seyahat geçmişine göre renklendirilmiştir. Ortadaki Kanada dizisine baktığımızda (Canada/BC_78548/2020), bu vakanın Avrupa'ya bir seyahat geçmişi bildirdiğini görüyoruz. Bu bulaşma, ağaç üzerinde de Avrupa'dan gelen diğer diziler ile birlikte gruplanıyor. Bu da bu vakanın çok yüksek ihtimal ile seyahat ilişkili olduğunu gösteriyor.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [Seyahat geçmişini çapraz kontrol edebilen dizilim datası](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Dizi (sekans) verileri seyahat geçmişlerini doğrulayabilir](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-Yaklaşınca, bunun her zaman istikrarlı bir biçimde gitmediğini görüyoruz.
+Ağaca daha uzaktan bakınca bu durumun her zaman bu kadar tutarlı olmadığını görebiliriz.
 <br><br>
-Burada görüyoruz ki, İran'a son yolculuklarını bildiren vakaların neredeyse hepsi ağacın orta bölgesinde yığılmış bir halde.
+Burada, yakın zamanda İran'a seyahat etmiş vakaların neredeyse hepsinin orta bölgede kümelenmiş olduğunu görebiliriz.
 <br><br>
-Ağacın üst kısımlarına doğru, Kanada'daki vakaların İran'a yaptığı yolculuk geçmişini görebiliyoruz. Ancak, bu dizilim İran'ın seyahat geçmişi yakınlarındaki bölgelerin hiçbirinde gruplanmıyor.
+Diğer bir yandan, ağacın üst kısımlarında Kanada'dan İran'a seyahat geçmişi olan bir vaka görüyoruz. Ancak bu dizi İran'a seyahat etmiş diğer vakalardan çok daha uzak bir yerde gruplanıyor.
 <br><br>
-Bu kişinin İran'da devam eden ikinci bir salgın yayılım zinciri tarafından enfekte olması kesinlikle mümkündür, ancak daha fazla veri elde edene kadar, bu enfeksiyonun seyahatle kazanıldığını doğrulayamayız.
+Bu kişi yüksek ihtimal ile İran'da süregelen ikinci bir bulaşı zincirinden enfekte oldu, ancak elimizde daha fazla veri olmadan bu vakanın seyahat ilişkili olduğunu doğrulayamayız.
 
 <!-- There is no right side text -->
 
@@ -155,40 +151,37 @@ Bu kişinin İran'da devam eden ikinci bir salgın yayılım zinciri tarafından
 <!-- This is left-side text 8 -->
 # [Virüs neredeyse dünyadaki tüm ülkelere yayıldı](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-Ağaçta, farklı ülkelerden bu tür örneklerin bir araya geldiğini görüyoruz. Bu, bu tür kaçınılmaz insan harekelerinin virüsü dünyanın birçok yerine zaten getirdiğini gösterir.
-
+Buradaki filogenetik aüaçta farklı ülkelerden örneklerin bu şekilde birbirine karıştığını görüyoruz. Bu, önüne geçilemez insan hareketliliğinin virüsü şimdiden dünyanın pek çok bölgesine yaydığını gösterir.
 <br><br>
-Aslında, [Dünya Sağlık Örgütü Raporları](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) 195 ülkeden 159'unca COVID-19 vakasının olduğunu doğruladı.
+Sahiden de, [Dünya Sağlık Örgütü Raporları](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) 195 ülkeden 159'unda COVID-19 vakası olduğunu doğruladı.
 <br><br>
-Ancak, virüsün yayıldığı her ülkede bunun bir salgın haline geldiğini söyleyemeyiz.
+Ancak, virüsün görüldüğü her yerde bunun bir salgın haline geleceğini de söyleyemeyiz.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [Salgınlar virüs ortaya çıktıktan yaklaşık 4 ile 8 hafta sonra belirginleşir](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [Salgınlar virüs ortaya çıktıktan yaklaşık 4-8 hafta sonra belirginleşir](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-COVID-19 aniden patlamış gibi görünebilir.
-Birçok insan için bu salgın, dünyanın diğer bölgelerindeki soyut bir endişeden bir gecede günlük yaşamlarını ciddi şekilde etkileyen bir şeye dönüşmüş olabilir.
+COVID-19 aniden patlamış gibi görünebilir. Bu salgın, pek çok insan için dünyanın diğer ucunda anlaşılması güç bir şey iken, görünen o ki bir gecede kendilerinin de günlük yaşamlarını etkileyen bir hadise haline geldi.
+
 <br><br>
-Ancak bunun uzun süreden beri yavaş yavaş ilerlediğini unutmayın. Bu virüs sadece yeni yerlere hızlıca taşınan bir salgından ibaret değil.
-Büyük olasılıkla dünyadaki birçok yer salgının kendi çevrelerine birkaç hafta önce ulaşmasından sonra durumun ciddiyetini yeni yeni fark ediyor.
+Ancak unutmayın ki, bu bir süreden beri ilerliyor. Bu demek değil ki virüs sıklıkla yeni yerlere taşınıyor. Büyük ihtimal ile, pek çok ülke bir kaç hafta önce bölgeye giriş yapan virüsün başlattığı yerel salgınları yeni keşfetmeye başlıyor.
 <br><br>
-Salgının kendi çevrelerine ulaşabileceğini fark etmeyen bölgelerin şimdiden hazırlanması ve gözetim altında yapılan testlere başlaması gerekiyor.  
+Henüz yerel salgınları farkedememiş bölgeler (ya da ülkeler) şimdiden hazırlanmalı ve sistematik bir şekilde test yapmaya başlamalıdır.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# Virüsün ülkeye giriş yapması nasıl bir salgına yol açtı?
+# Virüsün ortaya çıkması nasıl salgına dönüşür?
 
-Bazen virüsün bir ülkeye girmesi yerel bir salgınla veya hızlıca artan ikincil vakalara -- özellikle de hemen izolasyon ve test yapılma önlemleri alan yerlerde -- yol açmıyor.
-Fakat çoğu zaman, bu bir salgına dönüşene kadar virüs fark edilmeden yerel halk arasında yayılmış oluyor.
+Bazen virüsün yeni bir bölgeye girmesi ikincil vakalarla veya yerel salgınlarla sonuçlanmaz -- özellikle de ilk vaka hızlıca tespit edilir ve izole edilirse. Fakat virüs çoğu zaman salgın büyüyene kadar yerel halk arasında farkedilmeden yayılır.
 
-Aşağıda bunun Wuhan'da nasıl başladığını ve yayıldığını gösteren bir düşünce deneyi var. Y ekseninde boşluk var; x ekseninde zamanımız var. Gölgeli alan, vaka sayısını temsil eder.
+Aşağıda bu durumun Wuhan'da nasıl gerçekleştiğini gösteren bir düşünce deneyi var. Grafiğin y ekseninde uzam; x ekseninde zaman var. Taralı alan ise vaka sayısını temsil ediyor.
 
-"Wuhan'daki COVID-19, Ocak 2019'da bir olgu endeksinden Ocak 2020 ortasına kadar birkaç bin vakaya gitti, böylece başlamasından yaklaşık 10 hafta içinde yaygın yerel yayılıma geçti. Uluslarası yayılma olaylarının Ocak ortasında baş gösterdiğini tahmin ediyoruz. Bu nedenle, bu yeni salgınları büyükleşmeden önce kontrol altına almak için Mart ayının sonundan ~ 10 haftaya kadar kritik bir süremiz var. " [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
+"Wuhan'daki COVID-19, ~2019 Kasım ayındaki ilk vakadan, 2020 Ocak ayı ortasına kadar birkaç bin vakaya ulaşarak, yaklaşık 10 haftada gibi bir sürede ilk yayılma vakasından geniş çapta bir yayılıma dönüşmüş oldu. Uluslararası yayılma olaylarının Ocak ortası gibi başladığı düşünüyoruz. Bu nedenle, bu yeni oluşmaya başlamış salgınları daha da büyümeden kontrol altına almak için Mart sonuna kadar yaklaşık 10 haftalık kritik bir zamanımız var" [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
-Dolayısıyla bu salgınlar yavaş yavaş diğer bölgelere de virüş girişine yol açabilir.
+Dolayısıyla bu salgınlar virüsün diğer bölgelere taşınmasına da yol açabilir.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -199,10 +192,9 @@ Dolayısıyla bu salgınlar yavaş yavaş diğer bölgelere de virüş girişine
 <!-- This is left-side text 10 -->
 # [Salgınlar nasıl büyür: bir örnek](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-Washington eyaleti verilerinde bunun açık bir örneğini görebiliriz.
-Mousla ana organizmanın köküne doğru gittiğimizde görüyoruz ki virüs bu bölgeye 2020 Ocak sonu ile Şubat ortası arasında bir zamanda giriş yapmış. ([methodlar](https://nextstrain.org/narratives/trees-background?n=6)).
+Bunun açık bir örneğini Washington eyaletin gelen verilerde görebiliriz. İmleç ile filogenetik ağaçtaki ana soy hattına gidildiğinde virüsün bu bölgeye büyük olasılıkla Ocak sonu ve Şubat 2020 ortası bir zamanda girdiği görülebilir. ([metodlar](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-Şu anda, Mart ortasında (yaklaşık 6 hafta sonra), görüyoruz ki yerel salgın tüm bu bölgede yayılım halinde.Sadece dizilim verilerinden, katlanarak büyüyen bir popülasyon varsayarak, 3-6 günlük bir iki katına çıkma oranı tahmin ediyoruz.
+Şu anda, Mart ortasında (yani yaklaşık 6 hafta sonra), görüyoruz ki yerel salgın tam anlamıyla bu bölgeyi etkilemiş durumda. Sadece dizi verilerine dayanarak ve popülasyonun üssel büyüdüğünü varsayarak, ikiye katlanma oranının (doubling rate) 3-6 gün olduğu sonucunu çıkarabiliriz.
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -214,36 +206,30 @@ Mousla ana organizmanın köküne doğru gittiğimizde görüyoruz ki virüs bu 
 <!-- This is left-side text 11-->
 # [Salgınlar nasıl yayılır: bir örnek](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-Başlangıçta yerel olarak başlamış salgınların diğer yerlere nasıl giriş yaptığına dair bir örnek de görebiliriz.
-Utah'tan ağacın (turuncu) üst tarafına yakın olan örnekleri, Washington salgınının olduğu organizmalar grubunda toplanır.
-Bu, yayılım zincirinde ara adım (lar) olması da mümkün olmakla birlikte, Washington'dan Utah'a giriş ile tutarlıdır.
+Başlangıçta yerel olarak başlamış salgınların virüsü diğer bölgelere nasıl bulaştırdığına dair bir örneğe de bakabiliriz. Filogenetik ağacın üst kısımlarındaki (turuncu) Utah örnekleri, Washington'dan gelen örneklerin bulunduğu ana soy hattının içinde yer alıyor. Bu, virüsün Washington'dan Utah'a taşındığı senaryosuna uygun. Ancak bu bulaşı zincirinde ara adım(lar) olma ihtimali de var.
 <br><br>
-Tabii ki, bu virüsün Utah'a girmesinin yerel bir salgınla sonuçlanıp sonuçlanmaycağını bilmiyoruz.
-Ancak, eğer virüs bu bölgeye girişle birlikte yayılmaya devam ederse önümüzdeki 4 hafta içinde bu sayının katlanmasını bekleriz.
+Bu taşınma olayının Utah'ta yerel bir salgınla sonuçlanıp sonuçlanmayacağını tam olarak bilmiyoruz. Ancak, virüs bu bulaşma olaylarından sonra yayılmaya devam ederse bunun önümüzdeki 4 hafta içerisinde ortaya çıkmasını bekleyebiliriz.
 <br><br>
-Bu sadece bir örnek.
-Utah'ta veya başka yerlerde dizilimi yapılmadığı için bu ağaçta göremeyeceğimiz diğer virüs girişleri de olabilir.
-En önemlisi de, daha yerel salgınlardan haberi olmayan bölgelerin hemen hazırlanmaya başlaması ve hızlı bir şekilde test yapmaya başlaması gerekmektedir.  
+Bu sadece bir örnek. Utah'ta veya başka bölgelerde, henüz dizi verisi olmadığı için bu ağaçta göremeyeceğimiz başka bulaşma hadiseleri gerçekleşmiş de olabilir. En önemlisi, henüz yerel salgınları farkedememiş bölgeler şimdiden hazırlanmalı ve sistematik bir şekilde test yapmaya başlamalı.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [Etkiyi azaltma yöntemleri zaman alır, ancak hayat kurtarırlar](https://nextstrain.org/ncov/2020-03-20)
+# [Önlemler zaman alır, ancak hayat kurtarırlar](https://nextstrain.org/ncov/2020-03-20)
 
-Aynı mantık üzerinden giderek, daha haberdar olmadığımız salgın ve yayılım zincirlerinin de olması çok mümkündür.
+Aynı şekilde düşünülürse, henüz bilmediğimiz pek çok yerel bulaşı zinciri olması muhtemel.
 <br><br>
-Bu, sosyal uzaklaştırma önlemlerini henüz uygulayan alanlar için bile, vaka sayısının önümüzdeki birkaç hafta içinde artmasını beklememiz gerektiği anlamına geliyor.
-Bu artışlar bu önlemlerin işe yaramadığını GÖSTERMEZ. Zaten enfekte olmuş bireylerin (ve muhtemelen hanehalkı üyelerinin) semptom göstermesi, tedavi edilmesi ve iyileşmesi zaman alır. Ayrıca, testler yaygınlaştıkça rapor edilen vakaların sayısında bir artış görmek de mümkündür.
+
+Bu, sosyal mesafe önlemlerinin hayata geçirildiği bölgelerde bile önümüzdeki bir kaç hafta süresince vaka sayısının büyümesini beklediğimiz anlamına geliyor. Bu artışlar, bu önlemlerin işe yaramadığını GÖSTERMEZ. Hali hazırda enfekte olmuş bireylerin (ve muhtemelen hane halkının) semptom göstermesi, tedavi edilmesi ve iyileşmesi zaman alır. Testlerin daha yaygın hale gelmesiyle rapor edilen vakaların sayısında bir artış görmek de mümkündür.
+
 <br><br>
-Bu süre zarfında sosyal mesafenin korunması önemlidir. Sağda gösterildiği gibi, müdahale gerçekleştirildikten sonra vaka sayıları artmaya devam etmektedir. Ancak, zamanla, kümülatif vaka sayısı büyük ölçüde azalır.
+Bu süre zarfında sosyal mesafenin korunması oldukça önemlidir. Sağ tarafta gösterildiği gibi, müdahale gerçekleştirildikten sonra vaka sayıları artmaya devam eder. Ancak, zamanla, kümülatif vaka sayısı büyük ölçüde azalır.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Sosyal mesafe ve izolasyon vaka sayısını bir gecede durdurmaz, fakat zaman içince hem vaka hem de ölüm sayılarında bir azalma gözlemlenir.
-Sosyal mesafe -- yani, her gün gördüğünüz ve temas ettiğiniz insan sayısını azaltmak -- zor olabilir, fakat toplumun iyiliği için kesinlikle çok yararlıdır.  
-Eğer herkes günlük iletişimini %25 oranında azaltırsa, gelecek ay vaka sayılarında %50 oranında bir azalma gözlemleyebiliriz.([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## Sosyal mesafelenme --yani her gün karşılaştığınız insan sayısını azaltmak-- zor olabilir, ancak toplum sağlığı için çok önemlidir. Eğer herkes günlük iletişimini %25 oranında azaltırsa, gelecek ay kümülatif vaka sayılarında %50 oranında bir azalma gözlemleyebiliriz. ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -253,31 +239,32 @@ Eğer herkes günlük iletişimini %25 oranında azaltırsa, gelecek ay vaka say
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
 # [Çıkarımlar](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- Virüs dünyanın birçok bölgesinde birden fazla kere giriş yaptı ve yayıldı.  
+- Virüs dünyanın birçok bölgesine birden fazla kere giriş yaptı.  
 <br>
-- Birçok alanda yerel bulaşımın ve yayılımın olduğunu görüyoruz; bunun ötesinde, önceki virüs girişlerinin önümüzdeki haftalarda ortaya çıkacak birçok yerel salgını daha şimdiden ortaya çıkarmasını bekliyoruz.
+- Birçok bölgede yerel bulaşının kanıtlarını görüyoruz. Bunun ötesinde, önceki virüs girişlerinin bir kaç hafta içinde görünür hale gelecek olan pek çok yerel bulaşıyı hali hazırda başlatmış olduğunu düşünüyoruz.  
+
 <br>
-- Yerel salgınların yayılımını sosyal mesafe ile azaltmak önemli çünkü:  
-  - #EğriyiDüzleştir sağlık sistemlerinin birden fazla yoğunlaşmasını engellemiş oluruz
-  - Toplam vaka ve ölüm sayısını azaltmış oluruz
-  - İlaçların ve aşıların geliştirilmesi için sağlık çalışanlarına zaman tanımış oluruz
+- Yerel salgınları sosyal mesafe önlemeri ile kontrol almak çok önemlidir. Çünkü:  
+  - Sağlık sistemlerinin bir anda çok sayıda vaka ile boğmamak için #EğriyiDüzleştir'meyi sağlar
+  - Toplam vaka ve ölüm sayısını azaltır
+  - Tedavi yöntemleri ve aşıların geliştirilmesi için zaman kazandırır
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# Bireysel olarak
-## siz ne yapabilirsiniz?
-* Özellikle direnci az olan bir gruptaysanız (ör. Yaşlılar ve önceden farklı sağlık sorunları olanlar), her gün temas kurduğunuz kişi sayısını önemli ölçüde azaltın.
-* Olağanüstü derecede az bir dirence sahip olmasanız bile etrafınızda böyle olan insanları unutmadan başkalarını korumak için bu uygulamaları takip edin ve uygulayın.
-* Ellerinizi sanki çok kirli bir şeye değmiş gibi yıkayın.  
-* Mümkün olabildiğince evde kalın -- özellikle de hastaysanız; ekstra malzemelerle self-karantinaya ihtiyac duymanız halinde hazırlıklı olun.  
-* Eğer bir işverenseniz, çalışanlarınız evden çalışmalarına izin verin ve teşvik edin.
+# Neler yapabilirsiniz?
+## bireysel olarak...
+* Her gün temas kurduğunuz kişi sayısını önemli ölçüde düşürün; özellikle de daha kolay etkilenen gruptaysanız (örneğin yaşlı ve önceden süregelen sağlık sorunları olanlar gibi).
+* Hassas grupta olmasanız da etrafınızdaki pek çok kişinin bu kategoriye girdiğini unutmayın. Diğerlerini korumak için bu kurallara uyun.
+* Ellerinizi "acı biber doğradıktan sonra lenslerinizi değiştirmek zorundaymışçasına" yıkayın.
+* Mümkün olabildiğince evde kalın -- özellikle de hastaysanız kendinizi karantinaya alma durumunda yeterli olacak malzamelerinizi hazır edin.  
+* Eğer bir işverenseniz, mümkün olduğunca çalışanlarınızın evden çalışmalarına izin verin veya teşvik edin.
 
-## Eğer yetkiliyseniz...
-* Testleri herkese açık yapın.  
-* Sosyal mesafe uygulamalarını yürürlüğe koyun.  
-* Kapsamlı temas izleme çalışmlarına maddi olarak destek verin ve uygulayın.  
-* Sosyal uzaklaşma önlemlerinden etkilenenleri finansal olarak destekleyin (örneğin, saatlik çalışanlar, yaşlı veya çocuk bakımı sorumluluğu olanlar, küçük işletmeler vb.).
+## yetkililer olarak...
+* Testleri ücretsiz ve geniş ölçüde yapılabilir hale getirin.  
+* Sert sosyal mesafe uygulamalarını yürürlüğe koyun.  
+* Kapsamlı temas izleme çalışmlarına maddi destek verin ve uygulamaya geçirin.  
+* Sosyal mesafe önlemlerinden etkilenenleri maddi olarak destekleyin (örneğin saatlik çalışanlar, yaşlı veya çocuk bakımı sorumluluğu olanlar, küçük işletmeler vb.).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -287,8 +274,8 @@ Eğer herkes günlük iletişimini %25 oranında azaltırsa, gelecek ay vaka say
 <!-- This is left-side text 14-->
 # [Bilimsel Kredi](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-Bu salgında harika ve zamanında çalışan tüm bilim insanlarına, özellikle de Çin'de çalışanlara, teşekkür etmek istiyoruz. 
-Sadece genomik ve meta verilerin hızlı paylaşımı sayesinde bunun gibi detaylı analizler yapılabilir.
+Bu salgında harika ve hızlı bir şekilde çalışan tüm bilim insanlarına, özellikle de Çin'de çalışanlara, teşekkür etmek istiyoruz.
+Bu gibi çalışmalar yalnızca genomik verilerin ve meta verilerin hızlı paylaşımı sayesinde mümkün olabilir.
 <br>
 
 Ayrıca, bu verilerin yüklenebileceği ve paylaşılabileceği platformu sağladığı için [GISAID'e] (https://gisaid.org) minnettarlıkla teşekkür ederiz.
@@ -603,12 +590,12 @@ Bu kaynak laboratuvarlar tarafından toplanan veriler için minnettarız:
 <!-- This is left-side text 13-->
 # [Detaylı Bilimsel Kredi](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-Bu veriler [GISAID] sayesinde paylaşılabiliyor(https://gisaid.org).
+Bu veriler [GISAID] üzerinden paylaşılabiliyor (https://gisaid.org).
 Onlara katkıları için çok teşekkür ediyoruz.
 
 <br>
 
-Sağda her laboratuvar tarafından paylaşılan belirli dizilimleri bulabilirsiniz.
+Sağda her laboratuvar tarafından paylaşılan dizilerin bilgilerini bulabilirsiniz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
