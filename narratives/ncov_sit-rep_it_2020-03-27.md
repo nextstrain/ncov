@@ -250,7 +250,8 @@ L'impegno per ottenere più sequenze genetiche sta aumentato rapidamente e comme
 
 <!-- ############ ASIA ############# -->
 <!-- This is left-side text 12-->
-# [Updates for Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
+<!-- # [Updates for Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)-->
+# [Aggiornamenti dall'Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -258,18 +259,26 @@ L'impegno per ottenere più sequenze genetiche sta aumentato rapidamente e comme
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 13-->
-# [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
+<!-- # [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)-->
+# [Esportazioni del COVID-19 dall'Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
-We do not yet have viral genomes from Iran.
-However, we do have sequences from many cases with reported travel to Iran.
+<!-- We do not yet have viral genomes from Iran.-->
+Non abbiamo ancora genomi virali dall'Iran.
+<!-- However, we do have sequences from many cases with reported travel to Iran.-->
+Ad ogni modo, abbiamo sequenze di molti casi che hanno riportato viaggi in Iran.
 <br><br>
-Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were derived from a single introduction into Iran.
+<!-- Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were derived from a single introduction into Iran.-->
+La maggior parte delle sequenze legate a storie di viaggi in Iran sono raggruppate, e ciò suggerisce che molti dei casi iraniani sono derivati da una singola introduzione in Iran.
 <br><br>
-At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.
-Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.
+<!-- At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.-->
+Nella parte più bassa dell'albero, vediamo una nuova sequenza da una donna in Pakistan con una che ha riferito una storia di viaggi in Iran.
+<!-- Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.-->
+È interessante notare che questo caso non si raggruppa con gli altri casi provenienti dall'Iran, ma è stato raccolto più o meno nello stesso periodo.
+
 <br><br>
-This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.
+<!-- This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.-->
+Ciò è coerente con diverse ipotesi; mano a mano che avremo altri dati, aggiorneremo la nostra analisi. 
 <!-- There is no right side text -->
 
 
