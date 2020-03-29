@@ -53,7 +53,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 금주 보고서에서 새로 업데이트 된 것들:
 
 **유럽**  
-* 유럽 전역에서 매우 활발하게 샘플들이 뒤섞이고 있습니다. 이는 바이러스가 지난 3-5주 동안 꾸준하게 국경을 넘어 전파되었음을 의미합니다. 완화 조치에 대한 효과가 나타나기까지는 시간이 걸리므로, 곧 표본들이 나라 별로 군집화되는 것을 볼 수 있을 것으로 기대합니다.
+* 유럽 전역에서 매우 활발하게 표본들이 뒤섞이고 있습니다. 이는 바이러스가 지난 3-5주 동안 꾸준하게 국경을 넘어 전파되었음을 의미합니다. 완화 조치에 대한 효과가 나타나기까지는 시간이 걸리므로, 곧 표본들이 나라 별로 군집화되는 것을 볼 수 있을 것입니다.
 
 **북미**   
 * 미국 내 전파되는 양상이 매우 복잡합니다. 미국 반대 편에서 수집된 표본들은 매우 밀접한 연관성을 보여주고 있습니다.
@@ -128,7 +128,7 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 <!-- ############ EUROPE ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
+# [유럽의 현황](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
 
 <!-- There is no right side text -->
@@ -136,29 +136,26 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
-
-Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
-Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
+# [지난 3-5주 동안 국경을 넘어 계속 확산됨](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+이 슬라이드에서는 지난 3주 동안 유럽 전역에서 수집한 표본을 격리된 국가별로 채색 했습니다. 특히 국가별로 작은 군집들이 있지만, 동시에 다른 나라들의 군집들 과의 뒤섞임도 많이 있었습니다.
 <br><br>
-This suggests that there has been continued spread across borders within the last 3-5 weeks.
+이는 지난 3-5주 동안 국경을 넘어 계속 확산되었음을 시사합니다.
 <br><br>
-This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
+이러한 지리적 군집화 현상은 최근 지역 간 여행을 줄이고자 하는 노력을 통해 더욱 뚜렷해 질 수 있습니다.
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+# [아이슬란드로부터 온 새로운 염기서열 데이터](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
-We received many new sequences from Iceland.
-Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
-We're working hard to analyze all of this new data, and will report our findings next week.
+아이슬란드로부터 새로운 염기서열 데이터를 받았습니다.
+각 사례의 바이러스 노출 경로(알려진 경우)를 색으로 구분해 보면, 이러한 사례들 중 다수가 최근 여행한 사람들의 사례임을 알 수 있습니다. 우리는 이 새로운 데이터를 분석하기 위해 열심히 노력하고 있으며, 다음 주에 연구 결과를 보고 할 것입니다.
 <!-- There is no right side text -->
 
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
-# [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+# [미국 현황](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -166,11 +163,11 @@ We're working hard to analyze all of this new data, and will report our findings
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+# [미국 내에서 일어나는 확산은 복잡하고 파악이 어렵습니다.](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Even within the U.S., transmission patterns are highly complex.
+미국 내에서조차 그 확산 패턴은 매우 복잡합니다.
 <br><br>
-For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
+For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips). 
 While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
 <br><br>
 This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
