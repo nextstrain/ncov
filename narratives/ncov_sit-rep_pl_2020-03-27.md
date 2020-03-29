@@ -141,7 +141,7 @@ Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części ś
 
 <!-- ############ EUROPE ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
+# [Aktualizacja sytuacji w Europie](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
 
 <!-- There is no right side text -->
@@ -149,23 +149,32 @@ Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części ś
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+# [Kontynuacja rozprzestrzeniania się przez granice w ciągu ostatnich 3-5 tygodni](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
+Na tym slajdzie prezentujemy próbki zebrane z różnych miejsc w Europie w ciągu ostatnich 3 tygodni, pokolorowanych według kraju, w którym zostały wyizolowane. Chociaż widzimy małe grupy próbek zebranych wedłu kraju izolacji, znaczna część próbek z różnych krajów jest wymieszana. 
+<br><br>
+To sugeruje, że w ciągu ostatnich 3-5 tygodni wystepowało ciągłe rozprzestrzenianie się wirusa przez granice Europy. 
+<br><br>
+To grupowanie geograficzne może być silniejsze w miarę niedawnego wprowadzenia środków łagodzących epidemię poprzez ograniczanie przemieszczanie się wirusa pomiędzy regionami.
+
+<!-- Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
 Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
 <br><br>
 This suggests that there has been continued spread across borders within the last 3-5 weeks.
 <br><br>
-This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
+This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.-->
+
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
-
-We received many new sequences from Iceland.
+# [Nowe sekwencje z Islandii](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+Otrzymaliśmy wiele nowych sekwencji z Islandii.
+Po pololorowaniu próbek według historii podróży (jeśli taka jest znana), widzimy, że wiele przypadków pochodzi od osób niedawno podróżujących. 
+Obecnie pracujemy nad analizą tych nowych danych i mamy zamiar przedstawić wyniki w raporcie w przyszłym tygodniu.
+<!--We received many new sequences from Iceland.
 Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
-We're working hard to analyze all of this new data, and will report our findings next week.
+We're working hard to analyze all of this new data, and will report our findings next week.-->
 <!-- There is no right side text -->
 
 
