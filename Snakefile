@@ -64,8 +64,6 @@ rule filter:
         sequences = "results/filtered.fasta"
     params:
         min_length = 25000,
-        group_by = "division year month",
-        sequences_per_group = 300,
         exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'"
     shell:
         """
@@ -76,8 +74,6 @@ rule filter:
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
-            --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences}
         """
 
@@ -175,10 +171,20 @@ rule mask:
             --output {output.alignment}
         """
 
+rule subsample:
+    input:
+        rules.mask.output.alignment
+    output:
+        "results/subsampled_alignment.fasta"
+    shell:
+        """
+        cp {input} {output}
+        """
+
 rule tree:
     message: "Building tree"
     input:
-        alignment = rules.mask.output.alignment
+        alignment = "results/subsampled_alignment.fasta"
     output:
         tree = "results/tree_raw.nwk"
     threads: 4

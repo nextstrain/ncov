@@ -1,0 +1,64 @@
+include: "Snakefile"
+
+ruleorder: subsample_namerica > subsample 
+
+rule subsample_focus:
+    message:
+        """
+        Filtering to
+        """
+    input:
+        sequences = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata
+    output:
+        sequences = "results/subsample_focus.fasta"
+    params:
+        group_by = "division year month",
+        sequences_per_group = 300,
+        exclude_where = "region!='North America'"
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --exclude-where {params.exclude_where}\
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --output {output.sequences}
+        """
+
+rule subsample_context:
+    message:
+        """
+        Filtering to
+        """
+    input:
+        sequences = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata
+    output:
+        sequences = "results/subsample_context.fasta"
+    params:
+        group_by = "country year month",
+        sequences_per_group = 20,
+        exclude_where = "region='North America'"
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --exclude-where {params.exclude_where}\
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --output {output.sequences}
+        """
+
+rule subsample_namerica:
+    input:
+        rules.subsample_focus.output.sequences,
+        rules.subsample_context.output.sequences
+    output:
+        "results/subsampled_alignment.fasta"
+    shell:
+        """
+        cat {input} > {output}
+        """
