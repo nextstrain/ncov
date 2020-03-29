@@ -79,15 +79,14 @@ Wir haben 1,495 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den V
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
+# [COVID-19 Quellen](https://nextstrain.org/ncov/2020-03-27)
+Fuer naehere Informationen zu COVID-19 und dem Ursprungsvirus SARS-CoV-2, haben wir einige Quellen vorbereitet, die dem Leser helfen sollen, die nachfolgenden Daten besser und leichter zu verstehen. 
 <br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+Falls Sie nicht mit phylogenetische Baeume vertraut sein sollten, raten wir Ihnen naehere Informationen unter diesem Link nachzuschlagen: [' Wie phylogenetische Bäume zu interpretieren sind](https://nextstrain.org/narratives/trees-background/de).
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Nextstrain Resources  
+## Nextstrain Quellen  
 
 [How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
 
@@ -100,7 +99,7 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
-## External Resources  
+## Externe Quellen  
 [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
 [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
@@ -117,12 +116,12 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [Anmerkung zur Probennahme](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
+Bis jetzt haben wir Sequenzierdaten von Virusisolaten aus 48 Laendern von sechs Kontinenten. Das ist eine Meisterleistung, wenn man bedenkt, dass man ein unbekanntes, grosses RNA-Virus inmitten einer Pandemie sequenzieren muss. Dies ist nur dank dem wunderbaren Einsatz und dem zeitnahen Teilen von Daten durch Forscher und Aerzte weltweit moeglich.
 <br><br>
-While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
+Waehrend diese Daten es uns ermoeglichen, die Epidemie naeher zu charakterisieren und die Ausbreitung zeitnah zu verfolgen, ist es wichtig zu betonen, dass die Schlussfolgerungen aufgrund der Datenverfuegbarkeit begrenzt sind.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+Zum Beispiel zeigt die Karte nur sehr geringe Sequenzierdaten aus dem globalen Sueden. Das bedeutet NICHT, dass COVID-19 sich dort nicht ausbreitet, oder die Fallzahlen nicht wichtig sind fuer die Analyse. Sondern es bedeutet, dass es kaum verfuegbare Daten aus diesen Gebieten gibt. Die Groesse eines Kreises sagt lediglich aus, wie viel Daten aus einem Gebiet derzeit verfuegbar sind, und stellt nicht das wirkliche Ausmass des Ausbruchs in diesem Gebiet dar. 
 <!-- There is NO right-side text -->
 
 
