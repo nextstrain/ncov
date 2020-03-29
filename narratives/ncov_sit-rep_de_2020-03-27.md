@@ -206,7 +206,7 @@ Die Gruppierungen der Proben aus diesen counties sind vermutlich das Ergebnis vo
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
-# [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
+# [Updates fuer Sued- und Zentral-Amerika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -214,13 +214,13 @@ Die Gruppierungen der Proben aus diesen counties sind vermutlich das Ergebnis vo
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-We don't have much genetic sequence data from South America yet.
-Of the available data, most are from travelers.
-Here, each case is colored by the known exposure history.
+# [Primaer reise-assoziierte Faelle in Sued-Amerika](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+Wir haben noch nicht vielen genetische Sequenzierdaten aus Sued-Amerika.
+Die verfuegbaren Daten stammen zumeist von Reisenden.
+Hier stellen wir Faelle dar, die entsprechend ihrem bekannten Reiseverlauf angefaerbt wurden.
 <br><br>
-While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
-Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.
+Es gibt noch nicht genuegend Beweise um Schlussfolgerungen zu treffen, aber potentiell interessante Muster werden zur Zeit in den reise-assoziierten Faellen sichtbar.
+Sequenzierarbeiten werden zur Zeit intensiviert. Wir werden wieder berichten, wenn es mehr Klarheit ueber die Situation gibt.
 <!-- There is no right side text -->
 
 
@@ -228,7 +228,7 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 
 <!-- ############ ASIA ############# -->
 <!-- This is left-side text 12-->
-# [Updates for Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
+# [Updates fuer Asien](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
