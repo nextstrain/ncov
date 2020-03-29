@@ -21,8 +21,14 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Diego Oyarzún
+  - Miguel I. Paredes
+  - Roy Costilla
+
 translatorLinks:
   - https://twitter.com/doyarzunrod
+  - https://twitter.com/miguelp1120
+  - https://researchers.uq.edu.au/researcher/18392
+
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
@@ -34,7 +40,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 
 <!-- This is left-side text 1-->
-# [Contenidos](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
+# [Contenidos](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid).
 
 * [Información básica del COVID-19](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [Acerca del muestreo de datos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
@@ -44,7 +50,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [Actualizaciones de Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
 * [Actualizaciones de Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
 * [Actualizaciones de Oceanía](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [¡Qué puedes hacer tú!](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [¡Qué puedes hacer tú](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18)! 
 * [Creditos Científicos](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 
 <!-- This is right-side text -->
@@ -73,6 +79,7 @@ Analizamos 1.495 genomas de COVID-19 compartidos públicamente. Comparando estos
 
 **Oceanía**
 * Hay evidencia de transmisión local en el estado de Nueva Gales del Sur (NSW), Australia.
+
 ```
 
 <!-- ##### slide break ##### -->
