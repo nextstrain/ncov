@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-27.
+title: Genomische Analyse der Verbreitung von COVID-19. Lagebericht 2020-03-27.
 authors:
   - Sidney M. Bell
   - Nicola Müller
@@ -20,10 +20,12 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - Astrid Gall
 translatorLinks:
+  - https://www.ebi.ac.uk/about/people/astrid-gall
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von COVID-19 zu beschreiben, und wird wöchentlich aktualisiert."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated. Please add your name under translators and a link to your professional webpage (can be twitter) under translatorLinks. -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -46,30 +48,32 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
+# Zusammenfassung
 
-We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
+Wir haben 1,495 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den Vergleich der Virusgenome untereinander koennen wir charakterisieren, wie sich COVID-19 global und lokal weiterverbreitet. In diesem woechentlichen Update berichten wir:
 
-**Europe**  
-* We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
+**Europa**  
+* Wir stellen weiterhin eine starke Durchmischung der Proben aus Europa fest, was darauf hindeutet, dass das Virus sich fortlaufen ueber Grenzen hinweg innerhalb der letzten drei bis fuenf Wochen bewegt hat. Wenn die Massnahmen zur Milderung genuegend Zeit hatten, um einen Effekt zu zeigen, werden wir eventuell mehr Gruppierungen fuer spezifische Laender sehen.
 
-**North America**   
-* Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
-* Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
-* There is evidence for likely local transmission within several states, most clearly within California.
+**Nord-Amerika**   
+* Innerhalb der USA sind die Uebertragungsmuster komplex: Proben, die in entgegengesetzten Teilen des Landes genommen wurden, sind trotzdem eng miteinander verwandt.
+* Im Bundesstaat Washington gab es mindestens zwei unabhaengige Eintragungen (die erste aus China, die zweite vermutlich aus Europa), die zu separaten Uebertragungsketten gefuehrt haven.
 
-**Central and South America**
-* We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
+* Es gibt Anzeichen fuer eine lokale Uebertragung innerhalb mehrerer Staaten, am deutlichsten in Kalifornien.
 
-**Asia**  
-* We find evidence for recent export of COVID-19 from Iran.
+**Zentral- und Sued-Amerika**
+* Diese Woche haben wir einige Sequenzen aus Sued-Amerika erhalten, dennoch bleibt die Beprobung duenn. Es ist moeglich, dass es mehr COVID-19 Aktiviaet in diesen Regionen gibt als in den erhaeltlichen Daten erfasst wird, aber das koennen wir nicht mit Sicherheit sagen.
 
-**Africa**  
-* The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
-* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
+**Asien**  
+* Wir finden Anzeichen fuer einen kuerzlichen Export von COVD-19 aus dem Iran. 
 
-**Oceania**
-* There is evidence in the genetic data for local transmission in New South Wales, Australia.
+**Afrika**  
+* Der phylogenetische Baum deutet darauf hin, dass lokale Uebertragung in Kinshasa, Demokratische Republik Kongo, in den letzten elf oder mehr Tagen stattgefunden hat.
+
+* Diese Woche haben wir einige Sequenzen aus Afirka erhalten, dennoch bleibt die Beprobung duenn. Es ist moeglich, dass es mehr COVID-19 Aktiviaet in diesen Regionen gibt als in den erhaeltlichen Daten erfasst wird.
+
+**Ozeanien**
+*  Es gibt Anzeichen fuer eine lokale Uebertragung innerhalb von New South Wales, Australien.
 ```
 
 
