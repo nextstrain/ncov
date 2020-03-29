@@ -53,7 +53,7 @@ abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von 
 Wir haben 1,495 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den Vergleich der Virusgenome untereinander koennen wir charakterisieren, wie sich COVID-19 global und lokal weiterverbreitet. In diesem woechentlichen Update berichten wir:
 
 **Europa**  
-* Wir stellen weiterhin eine starke Durchmischung der Proben aus Europa fest, was darauf hindeutet, dass das Virus sich fortlaufen ueber Grenzen hinweg innerhalb der letzten drei bis fuenf Wochen bewegt hat. Wenn die Massnahmen zur Milderung genuegend Zeit hatten, um einen Effekt zu zeigen, werden wir eventuell mehr Gruppierungen fuer spezifische Laender sehen.
+* Wir stellen weiterhin eine starke Durchmischung der Proben aus Europa fest, was darauf hindeutet, dass das Virus sich fortlaufend ueber Grenzen hinweg innerhalb der letzten drei bis fuenf Wochen bewegt hat. Wenn die Massnahmen zur Milderung genuegend Zeit hatten, um einen Effekt zu zeigen, werden wir eventuell mehr Gruppierungen fuer spezifische Laender sehen.
 
 **Nord-Amerika**   
 * Innerhalb der USA sind die Uebertragungsmuster komplex: Proben, die in entgegengesetzten Teilen des Landes genommen wurden, sind trotzdem eng miteinander verwandt.
@@ -129,7 +129,7 @@ Zum Beispiel zeigt die Karte nur sehr geringe Sequenzierdaten aus dem globalen S
 
 <!-- ############ EUROPE ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
+# [Updates fuer Europa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Europe&p=grid&r=country&c=country)
 
 
 <!-- There is no right side text -->
@@ -137,29 +137,26 @@ Zum Beispiel zeigt die Karte nur sehr geringe Sequenzierdaten aus dem globalen S
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Continued spread across borders in the last 3-5 weeks](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+# [Fortlaufende Verbreitung ueber Grenzen in den letzten 3-5 Wochen](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
-Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
+Hier zeigen wir Proben aus Europa aus den letzten drei Wochen, die entsprechend dem Land, wo sie isoliert worden sind, eingefaerbt sind. Es faellt auf, dass es zwar einige kleine laender-spezifische Gruppierungen gibt, dass es aber auch starke Durchmischung der Proben aus verschiedenen Laendern gibt.
 <br><br>
-This suggests that there has been continued spread across borders within the last 3-5 weeks.
+Das deutet darauf hin, dass das Virus sich fortlaufend ueber Grenzen hinweg innerhalb der letzten drei bis fuenf Wochen bewegt hat.
 <br><br>
-This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.
-<!-- There is no right side text -->
+Die geographischen Gruppierungen werden eventuell deutlicher werden mit den Massnahmen zur Milderung, die Reisen zwischen den Regionen einschraenken.<!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [New sequences from Iceland](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+# [Neue Sequenzen aus Island](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
-We received many new sequences from Iceland.
-Coloring by the exposure history of each case (when known), we see that many of these cases are from recent travelers.
-We're working hard to analyze all of this new data, and will report our findings next week.
+Wir haben viele Sequenzen aus Island erhalten.
+Wenn wir diese entsprechend der Exposition (falls bekannt) einfaerben, erkennen wir, dass es viele Faelle von Personen gibt, die kuerzlich gereist sind. Wir arbeiten mit Hochdruck an der Analyse dieser neuen Daten und werden unsere Erkenntnisse in der naechsten Woche berichten.
 <!-- There is no right side text -->
 
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
-# [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+# [Updates fuer Nord-Amerika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
 <!-- There is no right side text -->
