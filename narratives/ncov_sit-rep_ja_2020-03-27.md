@@ -346,7 +346,7 @@ COVID-19 とそれを引き起こすウイルスである SARS-CoV-2 を理解�
 # [分析データのクレジット](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
 私たちはこの感染症流行の中において、関係したすべての科学者、中国で働いている科学者による驚くべきタイムリーな研究に謝意を表します。
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+この分析は世界中の科学者や医師によるゲノム配列や病例に関するメタデータの共有があって可能になりました。
 
 <br>
 
