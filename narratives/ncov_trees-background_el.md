@@ -38,7 +38,7 @@ abstract: "Αυτή η παρουσίαση εξηγεί πώς διαβάζον
 * [Πώς σχετίζεται το πάνελ της "ποικιλομορφίας" με το δέντρο](https://nextstrain.org/narratives/trees-background/el?n=4);
 * [Μετρώντας τις διαφορές με γενετική απόκλιση](https://nextstrain.org/narratives/trees-background/el?n=5).
 * [Μετρώντας τις διαφορές στη διάσταση του χρόνου](https://nextstrain.org/narratives/trees-background/el?n=6).
-* [Χρονολογηση της έναρξης μιας επιδημίας](https://nextstrain.org/narratives/trees-background/el?n=7)
+* [Χρονολογηση της έναρξης μιας επιδημίας](https://nextstrain.org/narratives/trees-background/el?n=7).
 * [Πώς ερμηνεύονται τα χαρακτηριστικά (χρώματα) στο δέντρο](https://nextstrain.org/narratives/trees-background/el?n=8);
 * [Πώς σχετίζεται ο χάρτης με το δέντρο](https://nextstrain.org/narratives/trees-background/el?n=9);
 * [Περεταίρω ανάγνωση: Aβεβαιότητα στα δέντρα](https://nextstrain.org/narratives/trees-background/el?n=10).
