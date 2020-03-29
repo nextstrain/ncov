@@ -89,7 +89,7 @@ Falls Sie nicht mit phylogenetische Baeume vertraut sein sollten, raten wir Ihne
 
 ## Nextstrain Quellen  
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+[Wie phylogenetische Bäume zu interpretieren sind](https://nextstrain.org/narratives/trees-background/de).  
 
 [Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
 
@@ -138,7 +138,7 @@ Zum Beispiel zeigt die Karte nur sehr geringe Sequenzierdaten aus dem globalen S
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Fortlaufende Verbreitung ueber Grenzen in den letzten 3-5 Wochen](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+# [Fortlaufende grenzueberschreitende Verbreitung in den letzten 3-5 Wochen](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
 Hier zeigen wir Proben aus Europa aus den letzten drei Wochen, die entsprechend dem Land, wo sie isoliert worden sind, eingefaerbt sind. Es faellt auf, dass es zwar einige kleine laender-spezifische Gruppierungen gibt, dass es aber auch starke Durchmischung der Proben aus verschiedenen Laendern gibt.
 <br><br>
@@ -165,7 +165,7 @@ Wenn wir diese entsprechend der Exposition (falls bekannt) einfaerben, erkennen 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Die Verbreitung innerhalb der USA is komplex und nicht wohlverstanden](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+# [Die Verbreitung innerhalb der USA ist komplex und nicht gut verstanden](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
 Innerhalb der USA sind die Uebertragungsmuster komplex.
 <br><br>
@@ -286,7 +286,7 @@ Die hervorragende Arbeit des INRB, das Virus von diesen fruehen Proben zu sequen
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [Lokale Uebertragung in in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [Lokale Uebertragung in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
 Neue Sequenzen aus Australien zeigen Anzeichen fuer eine lokale Uebertragung innerhalb von New South Wales.
 Das Virus zirkuliert in dieser Region vermutlich schon seit Ende Februar.
@@ -299,7 +299,7 @@ Das Virus zirkuliert in dieser Region vermutlich schon seit Ende Februar.
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 19-->
 # [Was Sie tun koennen](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-#### ...als Individuum
+#### ...als Einzelperson
 * Reduzieren Sie drastisch die Anzahl an Personen, mit denen Sie taeglich Kontakt haben, besonders wenn Sie zur Risikogruppe gehoeren (z.B. Senioren und Leute mit Vorerkrankungen).
 * Bedenken Sie, dass selbst wenn Sie nicht zur Risikogruppe gehoeren, Leute in der Umgebung eventuell zu der Risikogruppe gehoeren koennen. Halten Sie sich an die Anweisungen, um Andere zu schuetzen.
 * Haendewaschen "like you just chopped a jalapeno and have to change a contact lens."
