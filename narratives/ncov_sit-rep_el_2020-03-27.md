@@ -19,8 +19,8 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators: Sotiris Salloumis
-translatorLinks: https://github.com/codergr
+translators: Sotiris Salloumis, Sofia Paraskevopoulouy
+translatorLinks: https://github.com/codergr, https://github.com/akifoss
 date: "27 Μαρτίου 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "Aυτή η αναφορά χρησιμοποιεί δεδομένα που είναι δημοσίως διαθέσιμα για την ιχνηλάτηση της εξάπλωσης του COVID-19. Οι αναφορές ενημερώνονται κάθε εβδομάδα."
@@ -48,27 +48,27 @@ abstract: "Aυτή η αναφορά χρησιμοποιεί δεδομένα �
 ```auspiceMainDisplayMarkdown
 # Περίληψη
 
-We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
+Έχουμε αναλύσει 1495 δημοσίως διαθέσιμα COVID-19 γονιδιώματα. Συγκρίνοντας τα ιικά γονιδιώματα μεταξύ τους, μπορούμε να χαρακτηρίσουμε να αντιληφθούμε πώς ο COVID-19 μετακινείται σε όλο τον κόσμο και διαδίδεται τοπικά. Στις ενημερώσεις αυτής της εβδομάδας περιλαμβάνονται:
 
-**Europe**  
-* We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.
+**Ευρώπη**  
+* Συνεχίζουμε να παρατηρούμε ισχυρή ανάμειξη δειγμάτων σε ολόκληρη την Ευρώπη, γεγονός που υποδηλώνει ότι ο ιός εξακολούθησε να διασχίζει τα σύνορα τις τελευταίες 3-5 εβδομάδες. Δεδομένου ότι τα μέτρα μετριασμού έχουν χρόνο για να τεθούν σε ισχύ, ενδέχεται να παρατηρήσουμε μεγαλύτερη συσσώρευση περιπτώσεων ανά χώρα.
 
-**North America**   
-* Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
-* Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
-* There is evidence for likely local transmission within several states, most clearly within California.
+**Βόρεια Αμερική**   
+* Εντός των ΗΠΑ, τα μοτίβα μετάδοσης είναι πολύπλοκα: τα δείγματα που συλλέγονται από τις αντίθετες πλευρές της χώρας εξακολουθούν να παρουσιάζουν στενές σχέσεις.
+* Το κράτος της Ουάσινγκτον είχε τουλάχιστον δύο ανεξάρτητες εισαγωγές (το πρώτο πιθανό από την Κίνα, το δεύτερο πιθανό από την Ευρώπη), οι οποίες οδήγησαν σε δύο ξεχωριστές αλυσίδες μετάδοσης.
+* Υπάρχουν στοιχεία για πιθανή τοπική μετάδοση σε αρκετές πολιτείες, με μεγαλύτερη σαφήνεια στην Καλιφόρνια.
 
-**Central and South America**
-* We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure.
+**Κεντρική και Νότια Αμερική**
+* Λάβαμε νέες αλληλουχίες από τη Νότια Αμερική αυτή την εβδομάδα, αλλά η δειγματοληψία παραμένει αραιή. Μπορεί να υπάρχει περισσότερη δραστηριότητα COVID σε αυτήν την περιοχή από ό, τι συλλαμβάνεται στα διαθέσιμα δεδομένα, αλλά δεν μπορούμε να πούμε με βεβαιότητα.
 
-**Asia**  
-* We find evidence for recent export of COVID-19 from Iran.
+**Ασία**  
+* Βρίσκουμε στοιχεία για την πρόσφατη μετάδοση του COVID-19 απο το Ιράν σε αλλες χώρες.
 
-**Africa**  
-* The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days.
-* We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data.
+**Αφρική**  
+* Η φυλογενία υποδηλώνει πιθανή τοπική μετάδοση στο Κινσάσα της Λαϊκής Δημοκρατίας του Κονγκό για τις τελευταίες 11+ ημέρες.
+* Λάβαμε νέες αλληλουχίες από την Αφρική αυτήν την εβδομάδα, αλλά η δειγματοληψία παραμένει αραιή. μπορεί να υπάρχει πολύ περισσότερη δραστηριότητα COVID σε αυτήν την περιοχή από ό, τι φαίνεται στα διαθέσιμα δεδομένα.
 
-**Oceania**
+**Ωκεανία**
 * There is evidence in the genetic data for local transmission in New South Wales, Australia.
 ```
 
@@ -86,26 +86,26 @@ We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral gen
 
 [Πώς να διαβάσετε Φυλογενέσεις](https://nextstrain.org/narratives/trees-background/).  
 
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+[Ιστορικό των κορονοϊών](https://nextstrain.org/help/coronavirus/human-CoV).
 
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
+[Πρόσφατο ιστορικό της επιδημόας hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
+[Συχνές ερωτήσεις](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[Συνηθισμένες παρανοήσεις](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
 ## Εξωτερικές Πηγές
 
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+[Αναλύσεις κατάστασης του ΠΟΥ ](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+[CDC πηγές](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+[Κάλυψη NYTimes COVID-19](https://www.nytimes.com/news-event/coronavirus).
 
-[Our World in Data](https://ourworldindata.org/coronavirus).
+[Ο κόσμος σε δεδομένα](https://ourworldindata.org/coronavirus).
 
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
+[Ρωτήστε ενα επιστήμονα & Συχνές ερωτήσεις](https://covid19.fas.org/l/en).
 
 
 ```
@@ -168,46 +168,46 @@ We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral gen
 <!-- This is left-side text 7-->
 # [Διάδοση στης Ηνωμένες Πολιτείες είναι πολύπλοκη και δεν ειναι καλά κατανοητή](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Ακόμη και στις ΗνωμένεςEven within the U.S., transmission patterns are highly complex.
+Ακόμη και στις Ηνωμένες Πολιτείες, τα μοντέλα μετάδοσης είναι πολύ περίπλοκα.
 <br><br>
-For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
-While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
+Για παράδειγμα, πρόσφατα δείγματα από το Κονέκτικατ (επιλεγμένα) είναι προγονικά και αναμειγνύονται με δείγματα από την πολιτεία της Ουάσινγκτον (ξεθωριασμένα).
+Ενώ χρειάζονται περισσότερα δεδομένα για την εξαγωγή σταθερών συμπερασμάτων, αυτό υποδηλώνει ότι υπήρξε πρόσφατη μετάδοση μεταξύ ακόμη και πολύ απομακρυσμένων περιοχών της χώρας.
 <br><br>
-This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
+Αυτό υπογραμμίζει ότι τα μοτίβα μετάδοσης σε όλες τις ΗΠΑ είναι πολύ πιο πολύπλοκα από αυτά που αντιπροσωπεύονται στα διαθέσιμα δεδομένα.
+Πρόσθετα στοιχεία θα μας βοηθήσουν να καταλάβουμε τι είναι πιθανόν μια εθνική επιδημία που συνδέεται βαθιά διασυνδεδεμένη με το πλαίσιο των εξαιρετικά ετερογενών απαντήσεων από τα κράτη.
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+# [Πολλαπλές αλυσίδες μετάδοσης στην πολιτεία της Ουάσινγκτον](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
+Εξετάζοντας τις περιπτώσεις στην πολιτεία της Ουάσινγκτον, βλέπουμε ότι υπάρχουν τουλάχιστον δύο χωριστές συστιχίες επιδημίας.
 <br><br>
-However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
+Ωστόσο, τα δύο συγκροτήματα έχουν διαφορετική προέλευση: η πρώτη ομάδα συσχετίζεται στενότερα με δείγματα από την Κίνα, ενώ η δεύτερη σχετίζεται στενότερα με δείγματα από την Ευρώπη. Είναι επίσης πιθανό ότι αυτές οι εισαγωγές ήταν έμμεσες, με περιπτώσεις που δεν έχουν δειχθεί από διαφορετική περιοχή μεταξύ τους.
 <br><br>
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [Πιθανόν δύο τοπικές αλυσίδες μεταφοράς στην Καλιφόρνια](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
-We see similar patterns elsewhere in the U.S.
+Βλέπουμε παρόμοια μοτίβα αλλού στις ΗΠΑ
 <br><br>
-Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.
+Εδώ, βλέπουμε πολλά δείγματα από την κομητεία Solano στη βόρεια Καλιφόρνια, τα οποία έχουν δειχθεί σε διαφορετικές ημερομηνίες αλλά είναι πολύ στενά συνδεδεμένα μεταξύ τους.
 <br><br>
-While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
+Ενώ τα διαθέσιμα δεδομένα από την Καλιφόρνια είναι πολύ περιορισμένα για να καταλήξουν σε ισχυρά συμπεράσματα, αυτά τα προκαταρκτικά στοιχεία είναι συμβατά με την τοπική μετάδοση στο County Solano.
 <br><br>
-Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
+Αλλού στο δέντρο, βλέπουμε ένα παρόμοιο μοτίβο για δείγματα που απομονώνονται στην κομητεία της Σάντα Κλάρα.
 <br><br>
-These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
+Αυτές οι ομάδες κρουσμάτων αυτών των κομητειών είναι πιθανό να οφείλονται σε ξεχωριστές εισαγωγές, με βάση τις σχετικές θέσεις τους στο δέντρο.
 <!-- There is no right side text -->
 
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
-# [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
+# [Ενημερώσεις για την Κεντρική και Νότια Αμερική](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -215,13 +215,13 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-We don't have much genetic sequence data from South America yet.
-Of the available data, most are from travelers.
-Here, each case is colored by the known exposure history.
+# [Πρωταρχικά περιστατικά που σχετίζονται με ιστορικό ταξιδιών στη Νότια Αμερική](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+Δεν έχουμε ακόμα πολλά δεδομένα γενετικής αλληλουχίας από τη Νότια Αμερική.
+Από τα διαθέσιμα στοιχεία, τα περισσότερα είναι από ταξιδιώτες.
+Εδώ, κάθε περίπτωση χρωματίζεται με βάση το γνωστό ιστορικό έκθεσης.
 <br><br>
-While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
-Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.
+Μολονότι αρχίζουν να εμφανίζονται εν δυνάμει ενδιαφέροντα μοτίβα στις περιπτώσεις που δεν σχετίζονται με ταξίδια, δεν έχουμε ακόμη αρκετά στοιχεία για να συναγάγουμε συμπεράσματα.
+Οι προσπάθειες αλληλουχίας αυξάνονται και θα αναφερθούμε εκ νέου καθώς η κατάσταση γίνεται σαφέστερη.
 <!-- There is no right side text -->
 
 
@@ -229,7 +229,7 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 
 <!-- ############ ASIA ############# -->
 <!-- This is left-side text 12-->
-# [Updates for Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
+# [Ενημερώσεις για την Ασία](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -237,18 +237,17 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 13-->
-# [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
+# [Εξαγωγή του COVID-19 από το Ιράν](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
-We do not yet have viral genomes from Iran.
-However, we do have sequences from many cases with reported travel to Iran.
+Δεν έχουμε ακόμη ιικά γονιδιώματα από το Ιράν.
+Ωστόσο, έχουμε ακολουθίες από πολλές περιπτώσεις που αναφέρθηκαν ταξίδια στο Ιράν.
 <br><br>
-Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were derived from a single introduction into Iran.
+Οι περισσότερες ακολουθίες με ιστορικό ταξιδιού στο Ιράν συγκεντρώνονται, γεγονός που υποδηλώνει ότι πολλές ιρανικές περιπτώσεις προέκυψαν από μια ενιαία εισαγωγή στο Ιράν.
 <br><br>
-At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.
-Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.
+Στο κάτω άκρο του δένδρου, βλέπουμε μια νέα αλληλουχία απο μια γυναίκα στο Πακιστάν με ιστορικό ταξιδιού στο Ιράν. Ειναι ενδιαφέρον, οτι αυτη η περίπτωση ειναι διαφορετική απο τις άλλες περιπτώσεις για τις οποίες γνωρίζουμε απο το Ιράν, αλλά έγινε δειγματοληψία περίπου το ίδιο χρονικό διάστημα.
 <br><br>
-This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.
+Αυτό συμβαδίζει με διάφορες πιθανές υποθέσεις. καθώς προκύπτουν περισσότερα δεδομένα, θα τα παρουσίασουμε στην ανάλυσή μας.
 <!-- There is no right side text -->
 
 
@@ -256,7 +255,7 @@ This is consistent with several possible hypotheses; as more data emerges, we'll
 
 <!-- ############ AFRICA ############# -->
 <!-- This is left-side text 14-->
-# [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
+# [Ενημερώσεις για την Αφρική](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
 
 
 
@@ -264,22 +263,22 @@ This is consistent with several possible hypotheses; as more data emerges, we'll
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [Στοιχεία για τοπική μετάδοση στην Κινσάσα, Κονγκό](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
+Νέες αλληλουχίες από την Κινσάσα στη Λαϊκή Δημοκρατία του Κονγκό δείχνουν στοιχεία για διάφορες ξεχωριστές εκδηλώσεις εισαγωγής.
 <br><br>
-Some of these sequences form a group of very closely related, local cases that were sampled over several days.
+Ορισμένες από αυτές τις αλληλουχίες αποτελούν μια ομάδα από πολύ στενά συνδεδεμένες, τοπικές περιπτώσεις, στις οποίες ελήφθησαν δείγματα για αρκετές ημέρες.
 <br><br>
-This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier.
+Αυτό συμβαδίζει με την τοπική μετάδοση, τουλάχιστον από τις 15 Μαρτίου (η ημερομηνία δειγματοληψίας της πρώτης περίπτωσης που φαίνεται να αποτελεί μέρος αυτής της τοπικής αλυσίδας μεταφοράς) και ενδεχομένως νωρίτερα.
 <br><br>
-The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places.
+Το εξαιρετικό έργο της INRB για την αλληλουχία του ιού από τα πρώιμα δείγματα μας επιτρέπει να δούμε την κοινοτική μετάδοση που είναι κρυμμένη σε πολλά άλλα μέρη.
 <!-- There is no right side text -->
 
 
 
 <!-- ############ OCEANIA ############# -->
 <!-- This is left-side text 17-->
-# [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
+# [Ενημερώσεις για την Ωκεανία](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -287,10 +286,10 @@ The INRB's excellent work to sequence the virus from early samples allows us to 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [Local transmission in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [Τοπική μετάδοση στη Νέα Νότια Ουαλία](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-New sequences from Australia show evidence of local transmission across New South Wales.
-The virus has likely been circulating in this area since at least the end of February.
+Νέες αλληλουχίες από την Αυστραλία δείχνουν στοιχεία τοπικής μετάδοσης σε όλη τη Νέα Νότια Ουαλία.
+Ο ιός πιθανότατα κυκλοφορούσε στον τομέα αυτόν τουλάχιστον από τα τέλη Φεβρουαρίου.
 
 <!-- There is no right side text -->
 
@@ -299,34 +298,34 @@ The virus has likely been circulating in this area since at least the end of Feb
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 19-->
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-#### ...as an individual
-* Practice strict social distancing, especially if you are in a vulnerable group.
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible.
+# [Τί μπορείτε να κάνετε](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+#### ...ο καθένας ξεχωριστά
+* Μειώστε δραματικά τον αριθμό των ανθρώπων που έρχεστε σε επαφή καθημερινά, ειδικά εάν ανήκετε σε ομάδα κινδύνου.
+* Να θυμάστε ότι ακόμα και αν δεν ανήκετε σε ομάδα κινδύνου, πολλοί άνθρωποι γύρω σας ανήκουν σε αυτές. Ακολουθήστε αυτές τις πρακτικές ώστε να προστατεύσετε τους γύρω σας.
+* Πλένετε τα χέρια σας "σα να έχετε κόψει μια καυτερή πιπεριά και πρέπει να αλλάξετε φακούς επαφής".  
+* Μείνετε στο σπίτι όσο γίνεται περισσότερο -- ειδικά εάν είστε άρρωστοι. Προμηθευτείτε τις απαραίτητες ποσότητες τροφίμων σε περίπτωση που πρέπει να μπείτε σε καραντίνα.
+* Εάν είστε εργοδότης, ενθαρρύνετε τους εργαζομένους σας να δουλεύουν από το σπίτι όσο αυτό είναι δυνατό.
 
-#### ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures.
+#### ...η πολιτεία
+* Κάνετε εκτεταμένους και δωρεάν ελέγχους για τον εντοπισμό του ιού.
+* Εφαρμόστε ισχυρά μέτρα απομόνωσης.
+* Χρηματοδοτείστε και υλοποιήστε προσπάθειες ιχνηλάτησης.
+* Υποστηρίξτε οικονομικά αυτούς που πλήγονται από τα μέτρα αποκλεισμού.
 
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Takeaways
-####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.
+## Συνοψίζοντας
+#### Τις επόμενες εβδομάδες θα παρακολουθούμε την ευρωπαϊκή επιδημία για σημάδια ότι τα νέα μέτρα μετριασμού έχουν αναχαιτίση τη διασυνοριακή μετάδοση.
 <br><br>
-#### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.
+#### Θα παρακολουθούμε την κατάσταση στη Νότια Αμερική για σημάδια τοπικής μετάδοσης καθώς θα είναι διαθέσιμες περισσότερες ακολουθίες.
 <br><br>
-####  The U.S. epidemic likely has very complex transmission patterns of both import and spread across even disparate parts of the country. We find evidence of multiple local transmission chains in Washington and California.
+####  Η επιδημία των Η.Π.Α. πιθανότατα έχει πολύ περίπλοκα μοτίβα μετάδοσης τόσο της εισαγωγή και διάδοσης του ιού σε ακόμη και διαφορετικά μέρη της χώρας. Βρίσκουμε στοιχεία πολλών τοπικών συνδέσμων μεταφοράς στην Ουάσιγκτον και την Καλιφόρνια.
 <br><br>
-#### We find evidence of local transmission in New South Wales, Australia.
+#### Βρήκαμε στοιχεία τοπικής μετάδοσης στη Νέα Νότια Ουαλία της Αυστραλίας.
 <br><br>
-#### We find evidence of local transmission in Kinshasa in the DRC. We do not yet have enough data to assess whether the virus is circulating locally in other parts of Africa.
+#### Βρίσκουμε στοιχεία τοπικής μετάδοσης στην Κινσάσα στη Λαϊκή Δημοκρατία του Κονγκό (ΛΔΚ). Δεν έχουμε ακόμη αρκετά δεδομένα για να αξιολογήσουμε αν ο ιός κυκλοφορεί σε τοπικό επίπεδο σε άλλα μέρη της Αφρικής.
 ```
 
 <!-- ##### slide break ##### -->
@@ -339,20 +338,19 @@ The virus has likely been circulating in this area since at least the end of Feb
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text 20-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [Επιστημονικές ευχαριστίες](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Θα θέλαμε να αναγνωρίσουμε αυτήν την υπέροχη και συνεχή προσπάθεια όλων των επιστημόνων που έχουν εργαστεί σε αυτήν την πανδημία, και ιδιαιτέρως αυτούς που δουλεύουν στην Κίνα. 
+Μόνο μέσα από τον άμεσο διαμοιρασμό γενομικών δεδομένων και μεταδεδομένων, αναλύσεις σαν και αυτή είναι δυνατό να πραγματοποιηθούν.
 
 <br>
-
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Επίσης αναγνωρίζουμε θερμά την πλατφόρμα [GISAID](https://www.gisaid.org/) στη οποία ανεβαίνουν και μοιράζονται τα δεδομένα.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Είμαστε ευγνώμονες για τα δεδομένα που συλλέχθηκαν από αυτά τα αρχικά εργαστήρια:
 
 * Andersen Lab, The Scripps Research Institute
 * Arizona Department of Health Services
