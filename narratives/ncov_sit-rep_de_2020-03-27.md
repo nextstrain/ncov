@@ -39,11 +39,11 @@ abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von 
 * [COVID-19 Quellen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [Anmerkung zur Probennahme](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates fuer Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates fuer Nord-Amerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates fuer Sued- und Zentral-Amerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Updates fuer Nordamerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Updates fuer Sued- und Zentralamerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
 * [Updates fuer Asien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
 * [Updates fuer Afrika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Updates for Afrika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
 * [Updates fuer Ozeanien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
 * [Was Sie tun koennen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
 * [Wissenschaftliche Danksagung](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
@@ -51,19 +51,19 @@ abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von 
 ```auspiceMainDisplayMarkdown
 # Zusammenfassung
 
-Wir haben 1,495 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den Vergleich der Virusgenome untereinander koennen wir charakterisieren, wie sich COVID-19 global und lokal weiterverbreitet. In diesem woechentlichen Update berichten wir:
+Wir haben 1.495 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den Vergleich der Virusgenome untereinander koennen wir charakterisieren, wie sich COVID-19 global und lokal weiterverbreitet. In diesem woechentlichen Update berichten wir:
 
 **Europa**  
 * Wir stellen weiterhin eine starke Durchmischung der Proben aus Europa fest, was darauf hindeutet, dass das Virus sich fortlaufend ueber Grenzen hinweg innerhalb der letzten drei bis fuenf Wochen bewegt hat. Wenn die Massnahmen zur Milderung genuegend Zeit hatten, um einen Effekt zu zeigen, werden wir eventuell mehr Gruppierungen fuer spezifische Laender sehen.
 
-**Nord-Amerika**   
+**Nordamerika**   
 * Innerhalb der USA sind die Uebertragungsmuster komplex: Proben, die in entgegengesetzten Teilen des Landes genommen wurden, sind trotzdem eng miteinander verwandt.
-* Im Bundesstaat Washington gab es mindestens zwei unabhaengige Eintraege (die erste aus China, die zweite vermutlich aus Europa), die zu separaten Uebertragungsketten gefuehrt haven.
+* Im Bundesstaat Washington gab es mindestens zwei unabhaengige Eintraege (die erste aus China, die zweite vermutlich aus Europa), die zu separaten Uebertragungsketten gefuehrt haben.
 
 * Es gibt Anzeichen fuer eine lokale Uebertragung innerhalb mehrerer Bundestaaten, am deutlichsten in Kalifornien.
 
-**Zentral- und Sued-Amerika**
-* Diese Woche haben wir einige Sequenzen aus Sued-Amerika erhalten, dennoch bleibt die Beprobung duenn. Es ist moeglich, dass es mehr COVID-19 Aktiviaet in diesen Regionen gibt als in den erhaeltlichen Daten erfasst wird, aber das koennen wir nicht mit Sicherheit sagen.
+**Zentral- und Suedamerika**
+* Diese Woche haben wir einige Sequenzen aus Suedamerika erhalten, dennoch bleibt die Beprobung duenn. Es ist moeglich, dass es mehr COVID-19 Aktiviaet in diesen Regionen gibt als in den erhaeltlichen Daten erfasst wird, aber das koennen wir nicht mit Sicherheit sagen.
 
 **Asien**  
 * Wir finden Anzeichen fuer einen kuerzlichen Export von COVD-19 aus dem Iran. 
@@ -91,13 +91,13 @@ Falls Sie nicht mit phylogenetische Baeume vertraut sein sollten, raten wir Ihne
 
 [Wie phylogenetische Bäume zu interpretieren sind](https://nextstrain.org/narratives/trees-background/de).  
 
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+[Hintergrundwissen zu Coronaviren](https://nextstrain.org/help/coronavirus/human-CoV).
 
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
+[Hintergrundwissen zur derzeitigen hCoV-19 Epidemie](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
 [FAQs](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[Haeufige Fehlannahmen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 
 ## Externe Quellen  
@@ -140,7 +140,7 @@ Zum Beispiel zeigt die Karte nur sehr geringe Sequenzierdaten aus dem globalen S
 <!-- This is left-side text 5-->
 # [Fortlaufende grenzueberschreitende Verbreitung in den letzten 3-5 Wochen](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Hier zeigen wir Proben aus Europa aus den letzten drei Wochen, die entsprechend dem Land, wo sie isoliert worden sind, eingefaerbt sind. Es faellt auf, dass es zwar einige kleine laender-spezifische Gruppierungen gibt, dass es aber auch starke Durchmischung der Proben aus verschiedenen Laendern gibt.
+Hier zeigen wir Proben aus Europa aus den letzten drei Wochen, die entsprechend dem Land, wo sie isoliert worden sind, eingefaerbt sind. Es faellt auf, dass es zwar einige kleine laenderspezifische Gruppierungen gibt, dass es aber auch starke Durchmischung der Proben aus verschiedenen Laendern gibt.
 <br><br>
 Das deutet darauf hin, dass das Virus sich fortlaufend ueber Grenzen hinweg innerhalb der letzten drei bis fuenf Wochen bewegt hat.
 <br><br>
@@ -151,13 +151,13 @@ Die geographischen Gruppierungen werden eventuell deutlicher werden mit den Mass
 # [Neue Sequenzen aus Island](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 Wir haben viele Sequenzen aus Island erhalten.
-Wenn wir diese entsprechend der Exposition (falls bekannt) einfaerben, erkennen wir, dass es viele Faelle von Personen gibt, die kuerzlich gereist sind. Wir arbeiten mit Hochdruck an der Analyse dieser neuen Daten und werden unsere Erkenntnisse in der naechsten Woche berichten.
+Wenn wir diese entsprechend der Exposition (falls bekannt) einfaerben, erkennen wir, dass es viele Faelle gibt, die kuerzlich gereist sind. Wir arbeiten mit Hochdruck an der Analyse dieser neuen Daten und werden ueber unsere Erkenntnisse in der naechsten Woche berichten.
 <!-- There is no right side text -->
 
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
-# [Updates fuer Nord-Amerika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+# [Updates fuer Nordamerika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -169,7 +169,7 @@ Wenn wir diese entsprechend der Exposition (falls bekannt) einfaerben, erkennen 
 
 Innerhalb der USA sind die Uebertragungsmuster komplex.
 <br><br>
-Zum Beispiel sind neue Proben aus Conneticut (hervorgehobene Spitzen) sowohl Ursprung von Proben aus dem Bundesstaat Washington (blasse Spitzen) als auch mit diesen durchmischt.
+Zum Beispiel sind neue Proben aus Conneticut (hervorgehobene Spitzen) sowohl Ursprungsprben als auch Mischproben zu den Proben aus dem Bundesstaat Washington (blasse Spitzen).
 
 Es sind mehr Daten noetig, um zu sicheren Schlussfolgerungen zu kommen, aber die Daten deuten darauf hin, dass es neue Uebertragungen zwischen weit entfernten Teilen des Landes gab.
 <br><br>
@@ -195,19 +195,19 @@ Diese haben jedoch zwei verschiedene Urspruenge: Die erste Gruppierung ist am en
 
 Wir finden aehnlich Muster in anderen Teilen der USA.
 <br><br>
-Hier stellen wir Proben aus dem Solano County in Nord-Kalifornien dar, die zu verschiedenen Zeitpunkten genommen wurden, abe eng miteinander verwandt sind.
+Hier stellen wir Proben aus dem Solano County in Nordkalifornien dar, die zu verschiedenen Zeitpunkten genommen wurden, abe eng miteinander verwandt sind.
 <br><br>
 Es sind mehr Daten aus Kalifornien noetig, um zu sicheren Schlussfolgerungen zu kommen, aber diese vorlauefigen Anzeichen stimmen mit lokaler Uebertragung innerhalb des Solano County ueberein.
 <br><br>
 In einem ander Teil des Baumes sehen wir ein aehnliches Muster fuer Proben aus dem Santa Clara County.
 <br><br>
-Die Gruppierungen der Proben aus diesen counties sind vermutlich das Ergebnis von unabhaengigen Eintraegen, basierend auf ihren relativen Positionen innerhalb des Baumes.
+Die Gruppierungen der Proben aus diesen Counties sind vermutlich das Ergebnis von unabhaengigen Eintraegen, basierend auf ihren relativen Positionen innerhalb des Baumes.
 <!-- There is no right side text -->
 
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
-# [Updates fuer Sued- und Zentral-Amerika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
+# [Updates fuer Sued- und Zentralamerika](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -215,12 +215,12 @@ Die Gruppierungen der Proben aus diesen counties sind vermutlich das Ergebnis vo
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [Primaer reise-assoziierte Faelle in Sued-Amerika](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-Wir haben noch nicht vielen genetische Sequenzierdaten aus Sued-Amerika.
+# [Primaer reisebedingte Faelle in Suedamerika](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+Wir haben noch nicht viele genetische Sequenzierdaten aus Suedamerika.
 Die verfuegbaren Daten stammen zumeist von Reisenden.
 Hier stellen wir Faelle dar, die entsprechend ihrem bekannten Reiseverlauf angefaerbt wurden.
 <br><br>
-Es gibt noch nicht genuegend Beweise um Schlussfolgerungen zu treffen, aber potentiell interessante Muster werden zur Zeit in den reise-assoziierten Faellen sichtbar.
+Es gibt noch nicht genuegend Beweise um Schlussfolgerungen zu treffen, aber potentiell interessante Muster werden zur Zeit in den reiseassoziierten Faellen sichtbar.
 Sequenzierarbeiten werden zur Zeit intensiviert. Wir werden wieder berichten, wenn es mehr Klarheit ueber die Situation gibt.
 <!-- There is no right side text -->
 
@@ -245,9 +245,9 @@ Wir haben jedoch Sequenzen von Personen die berichtet haben, im Iran gewesen zu 
 <br><br>
 Die meisten Faelle, die mit Reisen in den Iran assoziiert sind, sind in einer Gruppierung, was darauf hindeutet, dass viele iranische Faelle von einem einzigen Eintrag in den Iran ausgehen.
 <br><br>
-Ganz unten im Baum sehen wr eine Sequenz einer Frau in Pakistan, die von einer Reise in den Iran berichtet hat. Diese Sequenz ist interessanterweise eine 'outgroup' zu den anderen bekannten Faellen aus dem Iran, die aber etwa zur gleichen Zeit beprobt worden ist.
+Ganz unten im Baum sehen wr eine Sequenz einer Frau in Pakistan, die von einer Reise in den Iran berichtet hat. Diese Sequenz ist interessanterweise ein Ausreiser zu den anderen bekannten Faellen aus dem Iran, die aber etwa zur gleichen Zeit beprobt worden ist.
 <br><br>
-This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.
+Das stimmt mit mehrern moeglichen Hypothesen ueberein; durch die Verfuegbarkeit neuer Daten werden wir dementsprechend unsere Analyse verbessern koennen.
 <!-- There is no right side text -->
 
 
@@ -317,15 +317,15 @@ Das Virus zirkuliert in dieser Region vermutlich schon seit Ende Februar.
 
 ```auspiceMainDisplayMarkdown
 ## Schlussfolgerung
-####  In den naechsten Wochen werden wir den europaeischen Ausbruch auf Anzeichen dafuer, dass die Massnahmen zur Milderung einen Einflusss auf die grenzueberschreitende Verbreitung haben, analysieren.
+####  In den naechsten Wochen werden wir den europaeischen Ausbruch auf Anzeichen dafuer, dass die Massnahmen zur Milderung der grenzueberschreitenden Verbreitung haben, analysieren.
 <br><br>
-#### Wir werden die Situation in Sued-Amerika beobachten und auf Anzeichen fuer lokale Uebertragungen untersuchen, wenn mehr Sequenzen verfuegbar werden.
+#### Wir werden die Situation in Suedamerika beobachten und auf Anzeichen fuer lokale Uebertragungen untersuchen, wenn mehr Sequenzen verfuegbar werden.
 <br><br>
 ####  Die Epidemie in den USA hat vermutlich sehr komplizierte Uebertragungsmuster, von sowohl Import als auch Verbreitung zwischen entfernten Teilen des Landes. Es gibt Anzeichen fuer lokale Uebertragungsketten innerhalb der Bundesstaaten Washington und Kalifornien.
 <br><br>
-#### Es gibt Anzeichen fuer ein lokale Uebertragungskette in New South Wales, Australien.
+#### Es gibt Anzeichen fuer eine lokale Uebertragungskette in New South Wales, Australien.
 <br><br>
-#### Es gibt Anzeichen fuer lokale Uebertragung in Kinshasa, Demokratische Republik Kongo. Wir haben noch nicht genuegend Daten, um beurteilen zu koennen, ob das Virus in anderen Teilen Afrikas lokal zirkuliert.
+#### Es gibt Anzeichen fuer eine lokale Uebertragung in Kinshasa, Demokratische Republik Kongo. Wir haben noch nicht genuegend Daten, um beurteilen zu koennen, ob das Virus in anderen Teilen Afrikas lokal zirkuliert.
 ```
 
 <!-- ##### slide break ##### -->
