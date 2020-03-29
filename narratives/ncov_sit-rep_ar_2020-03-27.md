@@ -236,7 +236,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 13-->
-# [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
+# [قدوم الفيروس من إيران](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 
 ليس لدينا أي تسلسل جيني للفيروس  من إيران. ولكن لدينا عينات من مرضى لهم سجل سفر مرتبط بإيران
 <br><br>
@@ -255,7 +255,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ############ AFRICA ############# -->
 <!-- This is left-side text 14-->
-# [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
+# [تحديثات من أفريقيا](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
 
 
 
@@ -263,22 +263,24 @@ However, the two clusters have different origins: the first cluster is most clos
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [دلائل  على حدوث انتشارات محلية للفيروس في كيناشاسا ، الكونجو
+](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
+سلاسل حديثة لجينات الفيروس من جمهورية الكونجو الديمقراطية تظهر دلائل لحدوث أكثر من إدخال للفيروس. 
 <br><br>
-Some of these sequences form a group of very closely related, local cases that were sampled over several days.
+بعض من هذه السلاسل تتجمع في مجموعات متشابهة جدا وهي تنتمي للمرضى محليين تم أخذ عيناتهم في غضون أيام
 <br><br>
-This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier.
+هذا متوافق من نظرية التفشي المحلي  للوباء والذي ابتدأ ، على  أرجح  تقدير، في ١٥ مارس (هذا  أول تاريخ لجمع العينات التي تبدو بأنها جزء من هذا الانتشار المحلي )
 <br><br>
-The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places.
+العمل الجاد والمميز للمعهد الوطني  للبحوث الطبية في الكونجو () في التجميع والتحليل المبكر للعينات ساعدنا على رؤية انتشار محلي  للوباء في المجتمع، لا يبدو واضحا في مناطق  أخرى حول العالم
+<br><br>
 <!-- There is no right side text -->
 
 
 
 <!-- ############ OCEANIA ############# -->
 <!-- This is left-side text 17-->
-# [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
+# [تحديثات من أوقيانوسيا](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -286,10 +288,9 @@ The INRB's excellent work to sequence the virus from early samples allows us to 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [Local transmission in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [تفشيات محلية في مقاطعة ويلز الجنوبية الجديدة ](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-New sequences from Australia show evidence of local transmission across New South Wales.
-The virus has likely been circulating in this area since at least the end of February.
+سلاسل جينات الفيروس في استراليا تشير لوجود دلائل لانتشارات محلية في مقاطعة ويلز الجنوبية الجديدة. على أرجح  تقدير بأن الفيروس ينتشر في هذه المنطقة منذ أواخر شهر فبراير.
 
 <!-- There is no right side text -->
 
@@ -298,19 +299,21 @@ The virus has likely been circulating in this area since at least the end of Feb
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 19-->
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-#### ...as an individual
-* Practice strict social distancing, especially if you are in a vulnerable group.
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible.
+# [ما الذي عليك فعله ](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+#### ...كفرد في المجتمع
+* قم بالتقيد بالحجر الصحي، تحديدا إذا كنت في مجموعة هي عرضة للوباء
+* تذكر ،  حتى لو لم تكن عرضة  للوباء،  فهناك  العديد من الأشخاص حولنا قد يكونون.  فتقيد بالحجر لحمايتهم 
+* اغسل بديك "كانك تريد تغيير عدساتك اللاصقة بعد ان قمت بتقطيع الفلفل"
+* ابق في المنزل قدر ما تستطيع -- بشكل مخصوص إذا كنت مريضا، كن مستعدا وتزود باحتياجات اضافية في حال اضطررت للحجر الذاتي.
+* إذا كنت رب عمل، شجع موظفيك على العمل من البيت ان كان ذلك ممكنا
 
-#### ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures.
+
+#### ...كشخص في موقع مسؤولية  
+* اجعل الفحوصات مجانية ومتوفرة بكثرة
+* ضع تدابير التباعد الاجتماعي وتابع تنفيذها بفعالية على ارض الواقع
+* قم بتمويل وتطبيق جهود متابعة التواصل المكثفة. 
+* ادعم ماديا أولئك المتضررين مم التباعد الاجتماعي ( العمالة الذين يعملون بنظام الوقت الساعي، اولئك الذين يعتنون بالكبار والأطفال, والمشاريع الصغيرة،...الخ).
+
 
 
 <!-- This is the right-side text -->
@@ -340,8 +343,9 @@ The virus has likely been circulating in this area since at least the end of Feb
 <!-- This is left-side text 20-->
 # [Scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+نود هنا ان نشكر ونقدر الاعمال الرائعة المنجزة بوقتها من قبل جميع العلماء الذي عملوا على هذا الوباء وخصوصاً أولئك العاملين في الصين. فقط من خلال المشاركة السريعة للبيانات الجينية كان بالامكان عمل هذه التحليلات
+<br><br>
+كما نثمن بقوة ونشكر GISAID على تزويدهم لنا بمنصتهم والتي تم من خلالها تحميل وتحليل البيانات.
 
 <br>
 
