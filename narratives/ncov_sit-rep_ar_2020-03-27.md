@@ -318,16 +318,18 @@ However, the two clusters have different origins: the first cluster is most clos
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Takeaways
-####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.
+## الاستنتاجات والحقائق الحالية 
 <br><br>
-#### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.
+#### في الأسابع القليلة القادمة، سنتابع تفشي الوباء في أوروبا، للعثور على دلائل تشير بأن الاجراءات المتخذة للحد  من الوباء أوقفت - أو قلصت - انتشار الوباء عبر الحدود
 <br><br>
-####  The U.S. epidemic likely has very complex transmission patterns of both import and spread across even disparate parts of the country. We find evidence of multiple local transmission chains in Washington and California.
+#### سنتابع أيضا الحالة في جنوب أمريكا للعثور على دلائل تشير على تفشي الوباء بشكل محلي، وتحديدا حين يكون بحوزتنا المزيد من البيانات.
 <br><br>
-#### We find evidence of local transmission in New South Wales, Australia.
+#### على الأرجح بأن  تفشي الوباء أمريكا يحمل الكثير من التعقيد على صعيد الإدخال والانتشار حتى في مناطق متباينة جغرافيا من الدولة. لقد عثرنا على دلائل تشير إلى سلاسل متعددة  من تفشي الوباء في ولاية  واشنطن وكاليفورنيا.  
 <br><br>
-#### We find evidence of local transmission in Kinshasa in the DRC. We do not yet have enough data to assess whether the virus is circulating locally in other parts of Africa.
+#### عثرنا على دلائل حول حول  انتشار الوباء بشكل محلي في مقاطعة ويلز الجنوبية الجديدة في استراليا 
+<br><br>
+#### وأيضا تمكنا من الحصول  على بيانات تفيد بحدوث انتشار محلي في  كينشاسا في جمهورية الكونغو الديمقراطية. حتى اللحظة ليس لديانا أي  دلائل  تشير إلى وجود الفيروس وتنقله بشكل  محلي في  مناطق  مختلفة من أفريقيا. 
+
 ```
 
 <!-- ##### slide break ##### -->
