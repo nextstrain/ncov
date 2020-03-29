@@ -349,20 +349,31 @@ E' probabile che il virus stia circolando in questa area da, almeno, la fine di 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 19-->
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-#### ...as an individual
-* Practice strict social distancing, especially if you are in a vulnerable group.
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible.
+<!-- # [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full) -->
+# [Cosa puoi fare](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+<!-- #### ...as an individual -->
+#### ... come individuo
+<!-- * Practice strict social distancing, especially if you are in a vulnerable group. -->
+* Praticare il distanziamento sociale, specialmente se fai parte di un gruppo vulnerabile.
+<!-- * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others. -->
+* Ricordare che anche se non sei il più vulnerabile, molte persone che sono attorno a te lo sono; bisogna seguire queste raccomandazioni per proteggere gli altri.
+<!-- * Wash your hands "like you just chopped a jalapeno and have to change a contact lens."   -->
+* Lavare le mani "come se avessi appena tagliato un peperoncino e dovessi cambiarti le lenti a contatto."  
+<!-- * Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.   -->
+* Stare a casa il più possibile - specialmente se si sta male; preparare delle scorte extra nel caso in cui ci si dovesse mettere in auto-quarantena.
+<!-- * If you are an employer, encourage your employees to work from home wherever possible. -->
+* Per i datori di lavoro, incoraggiare gli impiegati a lavorare da casa ovunque ciò sia possibile.
 
-#### ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures.
-
+<!-- #### ...as an official   -->
+#### ... come istituzione
+<!-- * Make testing free and broadly available. -->
+* Far sì che i test siano gratuiti e ampiamente disponibili.
+<!-- * Put strong social distancing measures in place. -->
+* Implementare forti misure di distanziamento sociale.
+<!-- * Fund and implement extensive contact tracing efforts. -->
+* Finanziare e implementare estese misure di tracciamento dei contatti.
+<!-- * Financially support those impacted by social distancing measures. -->
+* Garantire supporto finanziario a chi è affetto dalla misure di distanziamento sociale.
 
 <!-- This is the right-side text -->
 
