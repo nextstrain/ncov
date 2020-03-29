@@ -2,6 +2,8 @@
 Mask initial bases from alignment FASTA
 """
 import argparse
+from random import shuffle
+from collections import defaultdict
 import Bio
 import numpy as np
 import Bio.SeqIO
@@ -36,13 +38,27 @@ if __name__ == '__main__':
     # for each context sequence, calculate minimal distance to focal set
     minimal_distance_to_focal_set = {}
     for i, seq in enumerate(context_seqs):
-        min_dist = np.ma.sum(focal_seqs_array!=context_seq_array[i], axis=1).min()
+        closest_match = np.ma.sum(focal_seqs_array!=context_seq_array[i], axis=1).argmin() 
+        min_dist = np.ma.sum(focal_seqs_array[closest_match]!=context_seq_array[i])
         print(seq.id, min_dist)
-        minimal_distance_to_focal_set[seq.id] = min_dist
+        # for each context sequence, store distance and index of closest focal match
+        minimal_distance_to_focal_set[seq.id] = (min_dist, closest_match)
+
+    # for each focal sequence with close matches (using the index), we list all close contexts
+    close_matches = defaultdict(list)
+    for seq in minimal_distance_to_focal_set:
+        close_matches[minimal_distance_to_focal_set[seq][1]].append(seq)
+
+    for f in close_matches:
+        shuffle(close_matches[f])
 
     # export priorities
     with open(args.output, 'w') as fh:
         for i, seq in enumerate(context_seqs):
-            # use distance as negative priority, penalize masked (N or -) -- 333 masked sites==one mutations
-            priority = -minimal_distance_to_focal_set[seq.id] - 0.003*np.sum(context_seq_array[i].mask) 
+            # use distance as negative priority
+            # penalize masked (N or -) -- 333 masked sites==one mutations
+            # penalize if many sequences are close to the same focal one by using the index of the shuffled list of neighbours
+            # currently each position in this lists reduced priority by 0.2, i.e. 5 other sequences == one mutation
+            position = close_matches[minimal_distance_to_focal_set[seq.id][1]].index(seq.id)
+            priority = -minimal_distance_to_focal_set[seq.id][0] - 0.003*np.sum(context_seq_array[i].mask) - 0.2*position
             fh.write(f"{seq.id}\t{priority:1.2f}\n")
