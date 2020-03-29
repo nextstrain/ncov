@@ -24,7 +24,7 @@ translators:
   - Marta Niedzicka
 translatorLinks:
   - https://twitter.com/afijarczyk
-  - researchgate.net/profile/Marta_Niedzicka/
+  - https://www.researchgate.net/profile/Marta_Niedzicka
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "Ten raport wykorzystuje publicznie dostępne dane genomowe w celu śledzenia rozprzestrzeniania się COVID-19. Raporty są uaktualniane co tydzień."
@@ -36,13 +36,13 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomowe w celu śl
 
 
 <!-- This is left-side text 1-->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
+# [Spis treści](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
 * [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [O danych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Aktualizacja sytuacji w Europie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
 * [Aktualizacja sytuacji w Ameryce Północnej](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Aktualizacja sytuacji w Środkowej i Południowej Ameryce](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Aktualizacja sytuacji w Ameryce Środkowej i Południowej](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
 * [Aktualizacja sytuacji w Azji](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
 * [Aktualizacja sytuacji w Afryce](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
 * [Aktualizacja sytuacji w Oceanii](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
@@ -60,14 +60,14 @@ Przeanalizowaliśmy 1,495</tag> dostępnych publicznie genomów COVID-19. Porów
 
 **Ameryka Północna**  
 * W USA, obraz transmisji jest złożony: próbki pobrane z przeciwnych części kraju nadal wykazują bliskie pokrewieństwo. 
-* W stanie Waszyngton występują co najmniej dwie introdukcje wirusa (pierwsza najprawdopodobniej z Chin, druga najprawdopodobniej z Europy), które doporowadziły do dwóch niezależnych łańcuchów transmisji.
-* Są dowody na prawdopodobną lokalną transmisję w kilku stanach, najbardziej widoczną w Kalifornii.
+* W stanie Waszyngton nastąpiły co najmniej dwie introdukcje wirusa (pierwsza najprawdopodobniej z Chin, druga najprawdopodobniej z Europy), które doporowadziły do dwóch niezależnych łańcuchów transmisji.
+* Są dowody na prawdopodobną lokalną transmisję w kilku stanach, najlepiej widoczną w Kalifornii.
  
 <!-- * Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.
 * Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.
 * There is evidence for likely local transmission within several states, most clearly within California.-->
 
-**Środkowa i Południowa Ameryka**
+**Ameryka Środkowa i Południowa**
 * W tym tygodniu otrzymaliśmy nowe sekwencje z Ameryki Południowej, ale skala próbkowania pozostaje niewielka. Aktywność COVID może być większa w tych regionach niż wskazuje na to ilość dostępnych danych, jednak nie możemy tego potwierdzić.
 
 <!-- * We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure. -->
@@ -151,13 +151,13 @@ Na przykład, mapa pokazuje bardzo niewiele sekwencji z południowej części ś
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [Kontynuacja rozprzestrzeniania się przez granice w ciągu ostatnich 3-5 tygodni](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
+# [Kontynuacja rozprzestrzeniania się wirusa przez granice w ciągu ostatnich 3-5 tygodni](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
 
-Na tym slajdzie prezentujemy próbki zebrane z różnych miejsc w Europie w ciągu ostatnich 3 tygodni, pokolorowanych według kraju, w którym zostały wyizolowane. Chociaż widzimy małe grupy próbek zebranych wedłu kraju izolacji, znaczna część próbek z różnych krajów jest wymieszana. 
+Na tym slajdzie prezentujemy próbki zebrane z różnych miejsc w Europie w ciągu ostatnich 3 tygodni, pokolorowanych według kraju, w którym zostały wyizolowane. Chociaż widzimy niewielkie grupowanie się próbek według kraju izolacji, znaczna część próbek z różnych krajów jest wymieszana. 
 <br><br>
-To sugeruje, że w ciągu ostatnich 3-5 tygodni wystepowało ciągłe rozprzestrzenianie się wirusa przez granice Europy. 
+To sugeruje, że w ciągu ostatnich 3-5 tygodni występowało ciągłe rozprzestrzenianie się wirusa przez granice Europy. 
 <br><br>
-To grupowanie geograficzne może być silniejsze w miarę niedawnego wprowadzenia środków łagodzących epidemię poprzez ograniczanie przemieszczanie się wirusa pomiędzy regionami.
+To grupowanie geograficzne może się nasilać w związku z niedawnym wprowadzeniem środków łagodzących epidemię prowadzących do ograniczenia przemieszczania się wirusa pomiędzy regionami.
 
 <!-- Here, we show samples collected across Europe in the last 3 weeks, colored by the country they were isolated in.
 Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.
@@ -195,10 +195,10 @@ We're working hard to analyze all of this new data, and will report our findings
 Wzory rozprzestrzeniania się są bardzo złożone, nawet w obrębie Stanów Zjednoczonych.
 <br><br>
 Na przykład, niedawne próbki z Connecticut (zaznaczone) są jednocześnie ancestralne w stosunku do próbek ze stanu Waszyngton, jak i przemieszane z nimi (wyblakłe gałęzie).
-Choć potrzeba jest więcej danych, aby wyciągnąć zdecydowane wnioski, obserwowany wzór sugeruje, że mamy do czyeniania z niedawną transmisją nawet pomiędzy odległymi rejonami kraju.
+Choć potrzeba więcej danych, aby wyciągnąć zdecydowane wnioski, obserwowany wzór sugeruje, że mamy do czynienia z niedawną transmisją nawet pomiędzy odległymi rejonami kraju.
 <br><br>
-To podkreśla, że obraz rozprzestrzeniania się wirusa w Stanach Zjednoczonych jest bardziej złożone niż jest prezentowane przez obecnie dostępne dane.
-Dodatkowe dane pomogą nam zrozumieć prawdopodobne wzajemne relacje krajowej epidemii, rozgrywającą się na tle wysoce niejednorodnych reakcji ze strony poszczególnych stanów.
+To podkreśla, że obraz rozprzestrzeniania się wirusa w Stanach Zjednoczonych jest bardziej złożony niż jest to prezentowane przez obecnie dostępne dane.
+Dodatkowe dane pomogą nam zrozumieć prawdopodobne wzajemne relacje krajowej epidemii, rozgrywającej się na tle wysoce niejednorodnych reakcji ze strony poszczególnych stanów.
 
 <!-- Even within the U.S., transmission patterns are highly complex.
 <br><br>
@@ -216,7 +216,7 @@ Additional data will help us understand what is likely a deeply interconnected n
 
 Patrząc na przypadki w stanie Waszyngton, możemy zaobserwować, że są tam przynajmniej dwa osobne, lokalne ogniska.
 <br><br>
-Te dwa klastry mają jednak różne pochodzenie: pierwszy klaster jest najbliżej spokrewniony z próbkami z Chin, podczas gdy drugi jest najbliżej spokrewniony z próbkami z Europy. Jest też możliwe, że te introdukcje były niebezpośrednie, i wprowadzone zostały przez niepróbkowane przypadki z regionów pośrednich.
+Te dwa klastry mają jednak różne pochodzenie: pierwszy klaster jest najbliżej spokrewniony z próbkami z Chin, podczas gdy drugi jest najbliżej spokrewniony z próbkami z Europy. Jest też możliwe, że te introdukcje były niebezpośrednie i wprowadzone zostały przez niepróbkowane przypadki z regionów pośrednich.
 
 <!-- Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
 <br><br>
@@ -231,7 +231,7 @@ However, the two clusters have different origins: the first cluster is most clos
 
 Podobny wzór widzimy w innych regionach Stanów Zjednoczonych.
 <br><br>
-Tutaj widzimy kilka próbek z hrabstwa Solano w północnej Kalifornii, które były pobrane w różnych dniach, ale blisko spokrewnione z sobą nawzajem.
+Tutaj widzimy kilka próbek z hrabstwa Solano w północnej Kalifornii, które były pobrane w różnych dniach, ale są blisko spokrewnione ze sobą nawzajem.
 <br><br>
 Choć dostępne dane z Kalifornii są zbyt ograniczone, aby wyciągnąć silne wnioski, te wstępne dane są spójne z lokalnym łańcuchem transmisyjnym w obrębie hrabstwa Solano.
 <br><br>
@@ -253,7 +253,7 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
-# [Aktualizacja sytuacji w Środkowej i Południowej Ameryce](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
+# [Aktualizacja sytuacji w Ameryce Środkowej i Południowej](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -261,14 +261,14 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [Pobrane próbki z Ameryki Połudnoiwej głównie powiązane z podróżami](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+# [Pobrane próbki z Ameryki Południowej są głównie powiązane z podróżami](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
 
-Jeszcze nie mamy wiele danych o sekwencjach genetycznych z Ameryki Południowej.
+W tym momencie mamy niewiele sekwencji genetycznych z Ameryki Południowej.
 Większość dostępnych danych dotyczy podróżników.
-Tutaj każda próbka jest pokolorowana odpowiednio do znanej historii narażenia.
+Tutaj każda próbka jest pokolorowana według znanej historii narażenia.
 <br><br>
-Choć potencjalnie interesujące obrazy zaczynają się pojawiać w próbkach nie związanych z podróżami, nie mamy wystarczająco dowodów do wnioskowania.
-Wysiłki w celu zsekwencjonowania próbek wzrastają, i  będziemy relacjonować sytuację, gdy tylko stanie się ona czytelniejsza.
+Choć potencjalnie interesujący obraz zaczyna pojawiać się w próbkach nie związanych z podróżami, nie mamy jeszcze wystarczających dowodów do wnioskowania.
+Wysiłki skierowane na sekwencjonowanie próbek rosną i  będziemy relacjonować sytuację, gdy tylko stanie się ona czytelniejsza.
 
 <!-- We don't have much genetic sequence data from South America yet.
 Of the available data, most are from travelers.
@@ -299,7 +299,7 @@ Ale mamy sekwencje z wielu próbek ze zgłoszonymi podróżami do Iranu.
 <br><br>
 Większość sekwencji z historią podróży do Iranu grupuje się razem, sugerując, że wiele irańskich przypadków pochodzi z pojedynczej introdukcji do Iranu.
 <br><br>
-Na dole drzewa widzimy nową sekwencję, od kobiety z Pakistanu, która zgłosiła podróż do Iranu. Co ciekawe, ten przypadek znajduje się poza pozostałymi przypadkami z Iranu, o których wiemy, choć próbka była pobrana w podobnym czasie.
+Na dole drzewa widzimy nową sekwencję, od kobiety z Pakistanu, która zgłosiła podróż do Iranu. Co ciekawe, ten przypadek grupuje się poza pozostałymi przypadkami z Iranu, o których wiemy, choć próbka była pobrana w podobnym czasie.
 <br><br>
 Jest to zgodne z kilkoma możliwymi hipotezami; kiedy pojawi się więcej danych, zaktualizujemy naszą analizę.
 
@@ -331,11 +331,11 @@ This is consistent with several possible hypotheses; as more data emerges, we'll
 
 Nowe sekwencje z Kinszasy z Demokratycznej Republiki Konga, przedstawiają dowody na kilka niezależnych introdukcji.
 <br><br>
-Niektóre z tych sekwencji tworzą grupę blisko spokrewnionych, lokalnych przypadków, które były próbkowane w ciągu paru dni.
+Niektóre z tych sekwencji tworzą grupę blisko spokrewnionych, lokalnych przypadków, które były próbkowane w przeciągu paru dni.
 <br><br>
-Zgadza się to z lokalnym rozprzestrzenianiem, trwającym od co najmniej 15 marca (data próbkowania najwcześniejszego przypadku, który wydaje się być częscią tego lokalnego łańcucha transmisji), a prawdopodobnie wcześniej.
+Zgadza się to z lokalnym rozprzestrzenianiem wirusa, trwającym od co najmniej 15 marca (data próbkowania najwcześniejszego przypadku, który wydaje się być częscią tego lokalnego łańcucha transmisji), a prawdopodobnie wcześniej.
 <br><br>
-Wspaniała praca INRB w sekwencjonowaniu wirusa u wczesnych przypadków pozwala nam zobaczyć tranmisję wewnątrz społeczności, co jest niewidoczne w wielu innych miejscach.
+Dzięki wspaniałaym wysiłkom INRB w sekwencjonowaniu wirusa u wczesnych przypadków możemy zobaczyć tranmisję wewnątrz społeczności, co jest niewidoczne w wielu innych miejscach.
 
 <!-- New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
 <br><br>
@@ -391,15 +391,15 @@ The virus has likely been circulating in this area since at least the end of Feb
 
 ```auspiceMainDisplayMarkdown
 ## Wnioski
-####  W ciągu kilku następnych tygodni będziemy obserwować epidemię w Europie, szukając oznak, że nowe środki zapobiegawcze wstrzymały tranmisję pomiędzy granicami.
+####  W ciągu kilku następnych tygodni będziemy obserwować epidemię w Europie, wypatrując oznak, świadczących o tym, że nowe środki zapobiegawcze wstrzymują tranmisję pomiędzy granicami.
 <br><br>
 #### Będziemy monitorować sytuację w Ameryce Południowej i oznak lokalnej transmisji, gdy tylko więcej sekwencji będzie dostępnych.
 <br><br>
-####  Epidemia w Stanach Zjednoczonych ma prawdopodobnie bardzo złożone wzory transmisji, zarówno importu do kraju, jak i rozprzestrzeniania się nawet pomiędzy różnymi częściami kraju. Widzimy dowody na wielokrotne lokalne sieci transmisji w Waszyngtonie i Kalifornii.
+####  Epidemia w Stanach Zjednoczonych ma prawdopodobnie bardzo złożone wzory transmisji, zarówno importu do kraju, jak i rozprzestrzeniania się pomiędzy różnymi częściami kraju. Widzimy dowody na wielokrotne lokalne sieci transmisji w Waszyngtonie i Kalifornii.
 <br><br>
 #### Znajdujemy dowody na lokalną transmisję w Nowej Południowej Walii w Australii. 
 <br><br>
-#### Znajdujemy dowody na lokalną transmisję w Kinszasie w Demokratycznej Republice Konga. Nie mamy dość danych aby oceniać czy wirus krąży lokalnie w innych częściach Afryki.
+#### Znajdujemy dowody na lokalną transmisję w Kinszasie w Demokratycznej Republice Konga. Nie mamy jeszcze dość danych aby ocenić czy wirus krąży lokalnie w innych częściach Afryki.
 ```
 
 <!-- ##### slide break ##### -->
@@ -655,14 +655,14 @@ Jesteśmy wdzięczni za dane zebrane w tych ośrodkach badawczych:
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text -->
-# [Szczególne podziękowaniat](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [Szczególne podziękowania](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
 Te dane były udostępniane poprzez platformę [GISAID](https://gisaid.org).
-Szczególnie dziękujemy za wkład ich drużyny..
+Szczególnie dziękujemy za wkład ich drużyny.
 
 <br>
 
-Po prawej stronje znajduje się szczegółowy spis sekwencji opublikowanych przez poszczególne instytucje badawcze.
+Po prawej stronie znajduje się szczegółowy spis sekwencji opublikowanych przez poszczególne instytucje badawcze.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
