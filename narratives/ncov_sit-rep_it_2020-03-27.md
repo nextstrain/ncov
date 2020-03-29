@@ -82,37 +82,50 @@ We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral gen
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
 # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
+<!-- We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19. -->
+Abbiamo preparato alcune letture che possono essere utili per familiarizzare con il COVID-19 e il virus che ne è la causa, il SARS-CoV-2, conosciuto anche come hCov-19.
+<!-- This information will make interpreting the data we present in this narrative easier. -->
+Queste informazioni faciliteranno l'interpretazione dei dati che presentiamo in questo rapporto.
 <br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
+<!-- If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready. -->
+Se non hai familiarità con gli alberi filogenetici, ti consigliamo di leggere il testo ['Come leggere gli alberi filogenetici'](https://nextstrain.org/narratives/trees-background/it/) e riprendere da qui in seguito.
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## Nextstrain Resources  
+<!-- ## Nextstrain Resources -->
+Informazioni di base
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+<!-- [How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  -->
+[Come leggere gli alberi filogenetici](https://nextstrain.org/narratives/trees-background/it).
 
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+<!-- [Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV). -->
+[Informazioni di base sui virus della famiglia Coronavirus](https://nextstrain.org/help/coronavirus/human-CoV).
 
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
+<!-- [Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2). -->
+[Informazioni di base sulla recente epidemia di hCov-19](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
+<!-- [FAQs](https://nextstrain.org/help/coronavirus/FAQ). -->
+[Domande frequenti](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+<!-- [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11). -->
+[Convinzioni errate](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-13?n=11).
 
+<!-- ## External Resources  -->
+## Ulteriori letture
+<!-- [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). -->
+[Rapporto sulla situazione dell'OMS](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
-## External Resources  
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+<!-- [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html). -->
+[Informazioni a cura del CDC](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+<!-- [The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus). -->
+[Notizie sull'epidemia di COVID-19 sul New York Times](https://www.nytimes.com/news-event/coronavirus).
 
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+<!-- [Our World in Data](https://ourworldindata.org/coronavirus). -->
+[Our World in Data](https://ourworldindata.org/coronavirus). 
 
-[Our World in Data](https://ourworldindata.org/coronavirus).
-
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
-
+<!-- [Ask a Scientist & FAQs](https://covid19.fas.org/l/en). -->
+[Chiedi a uno scienziato e FAQs](https://covid19.fas.org/l/en).
 
 ```
 
