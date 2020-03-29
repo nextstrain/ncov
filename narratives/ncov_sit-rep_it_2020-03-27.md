@@ -19,9 +19,13 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators: Alessia Lepore
-translatorLinks: https://twitter.com/meklab
-date: "2020 March 27"
+translators:
+  - Andrea Claudi
+  - Alessia Lepore
+translatorLinks:
+  - https://twitter.com/s_a_demidov
+  - https://twitter.com/meklab
+date: "27 marzo 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
 ---
