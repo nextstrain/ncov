@@ -21,8 +21,10 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Anna Fijarczyk
+  - Marta Niedzicka
 translatorLinks:
   - https://twitter.com/afijarczyk
+  - researchgate.net/profile/Marta_Niedzicka/
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "Ten raport wykorzystuje publicznie dostępne dane genomowe w celu śledzenia rozprzestrzeniania się COVID-19. Raporty są uaktualniane co tydzień."
@@ -180,7 +182,7 @@ We're working hard to analyze all of this new data, and will report our findings
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
-# [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+# [Aktualizacja sytuacji w Ameryce Północnej](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -188,26 +190,38 @@ We're working hard to analyze all of this new data, and will report our findings
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+# [Tranmisja w Stanach Zjednoczonych jest złożona i nie całkiem zrozumiana](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Even within the U.S., transmission patterns are highly complex.
+Wzory rozprzestrzeniania się są bardzo złożone, nawet w obrębie Stanów Zjednoczonych.
+<br><br>
+Na przykład, niedawne próbki z Connecticut (zaznaczone) są jednocześnie ancestralne do próbek ze stanu Waszyngton, jak i przemieszane z nimi (wyblakłe gałęzie).
+Choć potrzeba jest więcej danych, aby wyciągnąć zdecydowane wnioski, obserwowany wzór sugeruje, że mamy do czyeniania z niedawną transmisją nawet pomiędzy odległymi rejonami kraju.
+<br><br>
+To podkreśla, że wzory rozpstrzestrzeniania się wirusa w Stanach Zjednoczonych są bardziej złożone niż jest prezentowane przez obecnie dostępne dane.
+Dodatkowe dane pomogą nam zrozumieć prawdopodobne wzajemne relacje krajowej epidemii, rozgrywającą się na tle wysoce niejednorodnych reakcji ze strony poszczególnych stanów.
+
+<!-- Even within the U.S., transmission patterns are highly complex.
 <br><br>
 For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).
 While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
 <br><br>
 This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
+Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states. -->
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+# [Wielokrotne sieci transmisyjne obiegające stan Waszyngton](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
+Patrząc na przypadki w stanie Waszyngton, możemy zaobserwować, żes ą tam przynajmniej dwa osobne, lokalne ogniska.
+<br><br>
+Te dwa klastry mają jednak różne pochodzenie: pierwszy klaster jest najbliżej spokrewniony z próbkami z Chin, podczas gdy drugi jest najbliżej spokrewniony z próbkami z Europy. Jest też możliwe, że te introdukcje były niebezpośrednie, i wprowadzone zostały przez niepróbkowane przypadki z regionów pośrednich.
+
+<!-- Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
 <br><br>
 However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
-<br><br>
+<br><br> -->
 <!-- There is no right side text -->
 
 
