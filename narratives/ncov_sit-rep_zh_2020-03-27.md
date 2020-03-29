@@ -38,16 +38,16 @@ abstract: "这份报告使用了公开共享的2019新型冠状病毒（COVID-19
 <!-- This is left-side text 1-->
 # [目录](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [背景资料](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=2).     
-* [关于报告中的数据](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=3).  
-* [欧洲最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=4).  
-* [北美洲最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=7).  
-* [中美洲和南美洲的最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=11). 
-* [亚洲的最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=13).  
-* [非洲的最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=15).  
-* [大洋洲的最新情况](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=17).  
-* [你能做些什么](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=19).  
-* [科学贡献人员](https://nextstrain.org/community/narratives/nextstrain/ncov@sit-rep_zh/sit-rep/zh/2020-03-27?n=20).  
+* [背景资料](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=2).     
+* [关于报告中的数据](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=3).  
+* [欧洲最新情况](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=4).  
+* [北美洲最新情况](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=7).  
+* [中美洲和南美洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=11). 
+* [亚洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=13).  
+* [非洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=15).  
+* [大洋洲的最新情况](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=17).  
+* [你能做些什么](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=19).  
+* [科学贡献人员](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # 报告摘要
