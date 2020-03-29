@@ -277,7 +277,7 @@ Die hervorragende Arbeit des INRB, das Virus von diesen fruehen Proben zu sequen
 
 <!-- ############ OCEANIA ############# -->
 <!-- This is left-side text 17-->
-# [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
+# [Updates fuer Ozeanien](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -285,10 +285,10 @@ Die hervorragende Arbeit des INRB, das Virus von diesen fruehen Proben zu sequen
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [Local transmission in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [Lokale Uebertragung in in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-New sequences from Australia show evidence of local transmission across New South Wales.
-The virus has likely been circulating in this area since at least the end of February.
+Neue Sequenzen aus Australien zeigen Anzeichen fuer eine lokale Uebertragung innerhalb von New South Wales.
+Das Virus zirkuliert in dieser Region vermutlich schon seit Ende Februar.
 
 <!-- There is no right side text -->
 
@@ -297,25 +297,25 @@ The virus has likely been circulating in this area since at least the end of Feb
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 19-->
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-#### ...as an individual
-* Practice strict social distancing, especially if you are in a vulnerable group.
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
-* Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
-* Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
-* If you are an employer, encourage your employees to work from home wherever possible.
+# [Was Sie tun koennen](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+#### ...als Individuum
+* Reduzieren Sie drastisch die Anzahl an Personen, mit denen Sie taeglich Kontakt haben, besonders wenn Sie zur Risikogruppe gehoeren (z.B. Senioren und Leute mit Vorerkrankungen).
+* Bedenken Sie, dass selbst wenn Sie nicht zur Risikogruppe gehoeren, Leute in der Umgebung eventuell zu der Risikogruppe gehoeren koennen. Halten Sie sich an die Anweisungen, um Andere zu schuetzen.
+* Haendewaschen "like you just chopped a jalapeno and have to change a contact lens."
+* Bleiben Sie zuhause, so oft wie es geht - besonders wenn Sie krank sind; bereiten Sie sich mit Vorraeten auf eine eventuelle Quarantaene vor.
+* Als Arbeitgeber raten Sie Ihren Angestellten von zuhause aus zu arbeiten, wenn moeglich.
 
-#### ...as an official  
-* Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
-* Financially support those impacted by social distancing measures.
+#### ...als Amtsperson 
+* Machen Sie Tests kostenlos und weitlaeufig verfuegbar.
+* Fordern Sie strikte social distancing Massnahmen.
+* Unterstuetzen und implementieren Sie umfangreiche Kontaktverfolgungen.
+* Unterstuetzen Sie all diejenigen finanziell, die aufgrund von social distancing Massnahmen negativ betroffen sind.
 
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Takeaways
+## Schlussfolgerung
 ####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.
 <br><br>
 #### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.
