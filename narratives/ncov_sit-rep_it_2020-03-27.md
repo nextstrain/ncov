@@ -382,16 +382,22 @@ E' probabile che il virus stia circolando in questa area da, almeno, la fine di 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Takeaways
-####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.
+<!-- ## Takeaways-->
+Cose da ricordare
+<!-- ####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.-->
 <br><br>
-#### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.
+####  Nelle prossime settimane, osserveremo l'epidemia europea per capire se le nuove misure di rallentamento dell'epidemia abbiano fermato o meno la trasmissione attraverso i confini.
+<!-- #### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.-->
+#### Monitoreremo la situazione in Sud America alla ricerca di segnali di una trasmissione locale mano a mano che nuove sequenze diventano disponibili.
 <br><br>
-####  The U.S. epidemic likely has very complex transmission patterns of both import and spread across even disparate parts of the country. We find evidence of multiple local transmission chains in Washington and California.
+<!-- ####  The U.S. epidemic likely has very complex transmission patterns of both import and spread across even disparate parts of the country. We find evidence of multiple local transmission chains in Washington and California.-->
+####  L'epidemia statunitense ha probabilmente degli schemi di trasmissione molto complessi, che includono importazione e diffusione attraverso parti disparate del Paese. Abbiamo trovato elementi che suggeriscono catene di trasmissione multiple nello Stato di Washington e in California.
 <br><br>
-#### We find evidence of local transmission in New South Wales, Australia.
+<!-- #### We find evidence of local transmission in New South Wales, Australia.-->
+#### Abbiamo delle prove che suggeriscono l'esistenza di una trasmissione locale nel Nuovo Galles del Sud, in Australia.
 <br><br>
-#### We find evidence of local transmission in Kinshasa in the DRC. We do not yet have enough data to assess whether the virus is circulating locally in other parts of Africa.
+<!-- #### We find evidence of local transmission in Kinshasa in the DRC. We do not yet have enough data to assess whether the virus is circulating locally in other parts of Africa.-->
+#### Abbiamo delle prove che suggeriscono l'esistenza di una trasmissione locale a Kinshasa, nella Repubblica Democratica del Congo. Non abbiamo ancora dati sufficienti per valutare se il virus stia circolando localmente in altre parti dell'Africa.
 ```
 
 <!-- ##### slide break ##### -->
