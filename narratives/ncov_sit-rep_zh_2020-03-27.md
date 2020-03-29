@@ -318,16 +318,16 @@ INRB（刚果的国立医学研究机构）测得早期样本的出色工作，�
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## Takeaways
-####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.
+## 总结
+#### 接下来的几周内，我们将会观察到欧洲疫情是否因新的防疫决策而减少跨境传播。
 <br><br>
-#### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.
+#### 我们也会监控南美的疫情，如果获得更多序列，我们就能找出是否已存在更多本地传播的迹象。
 <br><br>
-####  The U.S. epidemic likely has very complex transmission patterns of both import and spread across even disparate parts of the country. We find evidence of multiple local transmission chains in Washington and California.
+#### 美国的疫情应该是一个非常复杂的传播体系，同时存在国际输入案例，也存在极远的地区之间的传播。我们也在华盛顿州和加利福尼亚州发现多重本地传播链的证据。
 <br><br>
-#### We find evidence of local transmission in New South Wales, Australia.
+#### 我们发现澳大利亚新南威尔士州存在本地传播。
 <br><br>
-#### We find evidence of local transmission in Kinshasa in the DRC. We do not yet have enough data to assess whether the virus is circulating locally in other parts of Africa.
+#### 刚果民主共和国的新莎萨市也存在本地传播。但目前我们还没有足够数据判断非洲其他地区，病毒是否已经在当地传播开来。
 ```
 
 <!-- ##### slide break ##### -->
