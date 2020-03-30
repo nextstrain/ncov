@@ -58,8 +58,8 @@ Wir haben 1.495 oeffentlich zugaengliche COVID-19 Genome analysiert. Durch den V
 * Wir stellen weiterhin eine starke Durchmischung der Proben aus Europa fest, was darauf hindeutet, dass das Virus sich fortlaufend ueber Grenzen hinweg innerhalb der letzten drei bis fuenf Wochen bewegt hat. Wenn die Massnahmen zur Milderung genuegend Zeit hatten, um einen Effekt zu zeigen, werden wir eventuell mehr Gruppierungen fuer spezifische Laender sehen.
 
 **Nordamerika**   
-* Innerhalb der USA sind die Uebertragungsmuster komplex: Proben, die in entgegengesetzten Teilen des Landes genommen wurden, sind trotzdem eng miteinander verwandt.
-* Im Bundesstaat Washington gab es mindestens zwei unabhaengige Eintraege (die erste aus China, die zweite vermutlich aus Europa), die zu separaten Uebertragungsketten gefuehrt haben.
+* Innerhalb der USA sind die Uebertragungsmuster komplex: Proben, die in unterschiedlich Teilen des Landes genommen wurden, sind eng miteinander verwandt.
+* Im Bundesstaat Washington gab es mindestens zwei unabhaengige Eintraege (die erste aus China, die zweite vermutlich aus Europa), die zu separaten lokalen Uebertragungsketten gefuehrt haben.
 
 * Es gibt Anzeichen fuer eine lokale Uebertragung innerhalb mehrerer Bundestaaten, am deutlichsten in Kalifornien.
 
@@ -119,11 +119,11 @@ Falls Sie nicht mit phylogenetische Baeume vertraut sein sollten, raten wir Ihne
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
 # [Anmerkung zur Probennahme](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-Bis jetzt haben wir Sequenzierdaten von Virusisolaten aus 48 Laendern von sechs Kontinenten. Das ist eine Meisterleistung, wenn man bedenkt, dass man ein unbekanntes, grosses RNA-Virus inmitten einer Pandemie sequenzieren muss. Dies ist nur dank dem wunderbaren Einsatz und dem zeitnahen Teilen von Daten durch Forscher und Aerzte weltweit moeglich.
+Bis jetzt sind Sequenz Daten von Virusisolaten aus 48 Laendern von sechs Kontinenten oeffentlich zugaenglich. Das ist eine Meisterleistung, wenn man bedenkt, dass man ein unbekanntes, grosses RNA-Virus inmitten einer Pandemie sequenzieren muss. Dies ist nur dank dem wunderbaren Einsatz und dem zeitnahen Teilen von Daten durch Forscher und Aerzte weltweit moeglich.
 <br><br>
 Waehrend diese Daten es uns ermoeglichen, die Epidemie naeher zu charakterisieren und die Ausbreitung zeitnah zu verfolgen, ist es wichtig zu betonen, dass die Schlussfolgerungen aufgrund der Datenverfuegbarkeit begrenzt sind.
 <br><br>
-Zum Beispiel zeigt die Karte nur sehr geringe Sequenzierdaten aus dem globalen Sueden. Das bedeutet NICHT, dass COVID-19 sich dort nicht ausbreitet, oder die Fallzahlen nicht wichtig sind fuer die Analyse. Sondern es bedeutet, dass es kaum verfuegbare Daten aus diesen Gebieten gibt. Die Groesse eines Kreises sagt lediglich aus, wie viel Daten aus einem Gebiet derzeit verfuegbar sind, und stellt nicht das wirkliche Ausmass des Ausbruchs in diesem Gebiet dar. 
+Zum Beispiel zeigt die Karte nur sehr geringe Sequenzierdaten aus dem globalen Sueden. Das bedeutet NICHT, dass COVID-19 sich dort nicht ausbreitet, oder die Fallzahlen nicht wichtig sind fuer die Analyse. Sondern es bedeutet oft nur, dass es kaum verfuegbare Daten aus diesen Gebieten gibt. Die Groesse eines Kreises sagt lediglich aus, wie viel Daten aus einem Gebiet derzeit verfuegbar sind, und stellt nicht das wirkliche Ausmass des Ausbruchs in diesem Gebiet dar. 
 <!-- There is NO right-side text -->
 
 
@@ -145,7 +145,7 @@ Hier zeigen wir Proben aus Europa aus den letzten drei Wochen, die entsprechend 
 <br><br>
 Das deutet darauf hin, dass das Virus sich fortlaufend ueber Grenzen hinweg innerhalb der letzten drei bis fuenf Wochen bewegt hat.
 <br><br>
-Die geographischen Gruppierungen werden eventuell deutlicher werden mit den Massnahmen zur Milderung, die Reisen zwischen den Regionen einschraenken.<!-- There is no right side text -->
+Die geographischen Gruppierungen werden eventuell aufgrund von Massnahmen zur Reduzierung von Reisen zwischen den Regionen  deutlicher werden.<!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
@@ -170,9 +170,9 @@ Wenn wir diese entsprechend der Exposition (falls bekannt) einfaerben, erkennen 
 
 Innerhalb der USA sind die Uebertragungsmuster komplex.
 <br><br>
-Zum Beispiel sind neue Proben aus Conneticut (hervorgehobene Spitzen) sowohl Ursprungsprben als auch Mischproben zu den Proben aus dem Bundesstaat Washington (blasse Spitzen).
+Zum Beispiel sind neue Proben aus Conneticut (hervorgehobene Punkte) sowohl Ursprungsprben als auch Mischproben zu den Proben aus dem Bundesstaat Washington (blasse Punkte).
 
-Es sind mehr Daten noetig, um zu sicheren Schlussfolgerungen zu kommen, aber die Daten deuten darauf hin, dass es neue Uebertragungen zwischen weit entfernten Teilen des Landes gab.
+Es sind mehr Daten noetig, um zu sicheren Schlussfolgerungen zu kommen, aber die Daten deuten darauf hin, dass es Uebertragungen zwischen weit entfernten Teilen des Landes gab.
 <br><br>
 Das verdeutlichet, dass die Uebertragungsmuster innerhalb der USA viel komplizierter sind, als sich in den derzeitig verfuegbaren Daten widerspiegelt.
 Zusaetzliche Daten werden uns helfen zu verstehen, wie eine vermutlich stark verknuepfte nationale Epidemie sich vor dem Hintergrund der sehr heterogenen Massnahmen einzelner Bundesstaaten entwickelt.
@@ -196,7 +196,7 @@ Diese haben jedoch zwei verschiedene Urspruenge: Die erste Gruppierung ist am en
 
 Wir finden aehnlich Muster in anderen Teilen der USA.
 <br><br>
-Hier stellen wir Proben aus dem Solano County in Nordkalifornien dar, die zu verschiedenen Zeitpunkten genommen wurden, abe eng miteinander verwandt sind.
+Hier zeigen wir Isolate aus dem Solano County in Nordkalifornien, die zu verschiedenen Zeitpunkten genommen wurden, abe eng miteinander verwandt sind.
 <br><br>
 Es sind mehr Daten aus Kalifornien noetig, um zu sicheren Schlussfolgerungen zu kommen, aber diese vorlauefigen Anzeichen stimmen mit lokaler Uebertragung innerhalb des Solano County ueberein.
 <br><br>
@@ -217,12 +217,12 @@ Die Gruppierungen der Proben aus diesen Counties sind vermutlich das Ergebnis vo
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
 # [Primaer reisebedingte Faelle in Suedamerika](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-Wir haben noch nicht viele genetische Sequenzierdaten aus Suedamerika.
+Wir haben noch nicht viele genetische Sequenz Daten aus Suedamerika.
 Die verfuegbaren Daten stammen zumeist von Reisenden.
 Hier stellen wir Faelle dar, die entsprechend ihrem bekannten Reiseverlauf angefaerbt wurden.
 <br><br>
 Es gibt noch nicht genuegend Beweise um Schlussfolgerungen zu treffen, aber potentiell interessante Muster werden zur Zeit in den reiseassoziierten Faellen sichtbar.
-Sequenzierarbeiten werden zur Zeit intensiviert. Wir werden wieder berichten, wenn es mehr Klarheit ueber die Situation gibt.
+Die Sequenzierung von Isolaten wird zur Zeit intensiviert und wenn es mehr Informationen ueber die Situation gibt, werden wir wieder darueber berichten.
 <!-- There is no right side text -->
 
 
@@ -241,7 +241,7 @@ Sequenzierarbeiten werden zur Zeit intensiviert. Wir werden wieder berichten, we
 # [Export von COVID-19 aus dem Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
-Wir haben noch nicht viele Sequenzen aus dem Iran.
+Zurzeit sind noch nicht viele Sequenzen aus dem Iran verfügbar.
 Wir haben jedoch Sequenzen von Personen die berichtet haben, im Iran gewesen zu sein.
 <br><br>
 Die meisten Faelle, die mit Reisen in den Iran assoziiert sind, sind in einer Gruppierung, was darauf hindeutet, dass viele iranische Faelle von einem einzigen Eintrag in den Iran ausgehen.
@@ -266,11 +266,11 @@ Das stimmt mit mehrern moeglichen Hypothesen ueberein; durch die Verfuegbarkeit 
 <!-- This is left-side text 15-->
 # [Anzeichen fuer lokale Uebertragung in Kinshasa, Kongo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-Neue Sequenzen aus Kinshasa, Demokratische Republik Kongo, deuten auf mehrfache separate Eintraege hin.
+Neue Sequenzen aus Kinshasa in der Demokratischen Republik Kongo, deuten auf mehrere separate Eintraege hin.
 <br><br>
-Einige dieser Sequenzen formen eine Gruppierung von eng verwandten, lokalen Faellen, die ueber mehrere Tage beprobt worden sind.
+Einige dieser Sequenzen formen eine Gruppierung von eng verwandten, lokalen Faellen, die ueber mehrere Tage isoliert worden sind.
 <br><br>
-Dieses stimmt mit einer lokalen Uebertragung ueberein, die zumindest seit dem 15. Maerz (dem Datum des fruehesten Falles, der ein Teil dieser Uebertragungskette zu sein scheint) und vermutlich frueher, stattfindet.
+Dies suggeriert lokale Uebertragung, die zumindest seit dem 15. Maerz (dem Datum des fruehesten Falles, der ein Teil dieser Uebertragungskette zu sein scheint) und vermutlich frueher, stattfindet.
 <br><br>
 Die hervorragende Arbeit des INRB, das Virus von diesen fruehen Proben zu sequenzieren, macht es moeglich, diese lokale Uebertragung, die in vielen anderen Orten nicht sichtbar ist, zu sehen.
 <!-- There is no right side text -->
@@ -301,8 +301,8 @@ Das Virus zirkuliert in dieser Region vermutlich schon seit Ende Februar.
 <!-- This is left-side text 19-->
 # [Was Sie tun koennen](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
 #### ...als Einzelperson
-* Reduzieren Sie drastisch die Anzahl an Personen, mit denen Sie taeglich Kontakt haben, besonders wenn Sie zur Risikogruppe gehoeren (z.B. Senioren und Leute mit Vorerkrankungen).
-* Bedenken Sie, dass selbst wenn Sie nicht zur Risikogruppe gehoeren, Leute in der Umgebung eventuell zu der Risikogruppe gehoeren koennen. Halten Sie sich an die Anweisungen, um Andere zu schuetzen.
+* Reduzieren Sie die Anzahl an Personen, mit denen Sie taeglich Kontakt haben, drastisc, besonders wenn Sie zu einer Risikogruppe gehoeren (z.B. Senioren und Leute mit Vorerkrankungen).
+* Bedenken Sie, dass selbst wenn Sie nicht zu einer Risikogruppe gehoeren, Leute in Ihrer Umgebung dies eventuell tun. Halten Sie sich an die Anweisungen, um Andere zu schuetzen.
 * Haendewaschen "like you just chopped a jalapeno and have to change a contact lens."
 * Bleiben Sie zuhause, so oft wie es geht - besonders wenn Sie krank sind; bereiten Sie sich mit Vorraeten auf eine eventuelle Quarantaene vor.
 * Als Arbeitgeber raten Sie Ihren Angestellten von zuhause aus zu arbeiten, wenn moeglich.
