@@ -70,7 +70,7 @@ abstract: "Questo rapporto usa dati genomici pubblicamente condivisi per traccia
 # Sommario
 
 <!-- We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:-->
-Abbiamo analizzato 1495 genomi di COVID-19 condivisi publicamente. Confrontando questi genomi virali tra loro, possiamo ricostruire come il COVID-19 si sta spostando nel mondo. Nell'aggiornamento di questa settimana, riportiamo: 
+Abbiamo analizzato 1495 genomi del virus SARS-Cov-2 condivisi publicamente. Confrontando questi genomi virali tra loro, possiamo ricostruire come il COVID-19 si sta spostando nel mondo. Nell'aggiornamento di questa settimana, riportiamo: 
 
 <!-- **Europe** -->
 **Europa** 
