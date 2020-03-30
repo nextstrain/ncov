@@ -152,7 +152,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 # [아이슬란드로부터 온 새로운 염기서열 데이터](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 아이슬란드로부터 새로운 염기서열 데이터를 받았습니다.
-각 사례의 바이러스 노출 경로(알려진 경우)를 색으로 구분해 보면, 이러한 사례들 중 다수가 최근 여행한 사람들의 사례임을 알 수 있습니다. 우리는 이 새로운 데이터를 분석하기 위해 열심히 노력하고 있으며, 다음 주에 연구 결과를 보고 할 것입니다.
+각 사례의 바이러스 접촉 경로(알려진 경우)를 색으로 구분해 보면, 이러한 사례들 중 다수가 최근 여행한 사람들의 사례임을 알 수 있습니다. 우리는 이 새로운 데이터를 분석하기 위해 열심히 노력하고 있으며, 다음 주에 연구 결과를 보고 할 것입니다.
 <!-- There is no right side text -->
 
 
@@ -207,7 +207,7 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
-# [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
+# [중미와 남미의 현황](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -215,13 +215,13 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
-We don't have much genetic sequence data from South America yet.
-Of the available data, most are from travelers.
-Here, each case is colored by the known exposure history.
+# [남미에서 수집된 사례들을 주로 여행과 관련됨](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+아직 남미로부터 보고된 유전체 염기서열 데이터는 많지 않습니다.
+이용 가능한 데이터들 중 대부분은 여행자들입니다.
+여기서는 알려진 접촉 이력 별로 다른 색을 사용하여 각각의 사례들을 구분하였습니다.
 <br><br>
-While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions.
-Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.
+여행과 관련이 없는 사례들이 잠재적으로 흥미로운 패턴을 보이기 시작했지만, 아직 결론을 내릴만한 충분한 근거는 없습니다.
+염기서열 분석 시도가 증가하고 있으며, 상황이 더 명확해지면 다시 보고하도록 하겠습니다.
 <!-- There is no right side text -->
 
 
