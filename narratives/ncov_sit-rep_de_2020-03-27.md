@@ -20,7 +20,8 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
-  - Astrid Gall, Elisabeth Hirth
+  - Astrid Gall
+  - Elisabeth Hirth
 translatorLinks:
   - https://www.ebi.ac.uk/about/people/astrid-gall
   - https://dittrich.ethz.ch/people/person-detail.MjM4ODcw.TGlzdC8xMjg5LC02NDM3NDE3MjY=.html
@@ -37,17 +38,16 @@ abstract: "Dieser Bericht basiert auf genetischen Daten, um die Verbreitung von 
 <!-- This is left-side text 1-->
 # [Inhaltsverzeichnis](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [COVID-19 Quellen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
+* [COVID-19 Quellen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=2).     
 * [Anmerkung zur Probennahme](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
 * [Updates fuer Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates fuer Nordamerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates fuer Sued- und Zentralamerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates fuer Asien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates fuer Afrika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates for Afrika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates fuer Ozeanien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [Was Sie tun koennen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Wissenschaftliche Danksagung](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Updates fuer Nordamerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=7).  
+* [Updates fuer Sued- und Zentralamerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=11).  
+* [Updates fuer Asien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=13).  
+* [Updates fuer Afrika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=15).  
+* [Updates fuer Ozeanien](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=17).  
+* [Was Sie tun koennen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Wissenschaftliche Danksagung](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Zusammenfassung
@@ -98,7 +98,7 @@ Falls Sie nicht mit phylogenetische Baeume vertraut sein sollten, raten wir Ihne
 
 [FAQs](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Haeufige Fehlannahmen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[Haeufige Fehlannahmen](https://nextstrain.org/narratives/ncov/sit-rep/de/2020-03-13?n=11).
 
 
 ## Externe Quellen  
