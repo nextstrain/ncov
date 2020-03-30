@@ -20,10 +20,12 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators: Alireza Zamani Dahaj, Mahan Ghafari
-translatorLinks:
-date: "2020 March 27"
+translatorLinks: 
+  - https://twitter.com/dahaj1897
+  - https://twitter.com/Mahan_Ghafari
+date: "بیست‌و‌هفت مارس ۲۰۲۰"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+abstract: "این گزارش از داده‌های ژنتیکی برای ردیابی شیوع کووید-۱۹ که در اختیار عموم قرار داده شده استفاده می‌کند. این گزارش‌ها هر هفته بروز رسانی می‌شوند."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated. Please add your name under translators and a link to your professional webpage (can be twitter) under translatorLinks. -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -32,7 +34,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 
 <!-- This is left-side text 1-->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
+# [فهرست منابع](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
 * [منابع پیش زمینه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
 * [درباره‌ی این داده‌ها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
@@ -43,7 +45,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [به روزرسانی آفریقا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
 * [به روزرسانی اقیانوسیه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
 * [شما چه‌کار می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # خلاصه‌ی اجرائی
@@ -77,7 +79,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 ما تعدادی منابع گردآوری کرده‌ایم در رابطه که می‌توانید جهت آشنایی بیشتر با کوید-۱۹ و ویروسی که باعث آن می‌شود، سارس-کو-۲ (SARS-CoV-2) که همچنین با نام اچ‌کو-۱۹ (hCov-19) شناخته می‌شود مطالعه کنید. 
 این اطلاعات تفسیر داده‌های این گزارش را آسانتر می‌کنند. 
 <br><br>
-اگر با درخت تبارشناسی آشنایی ندارید به شما توصیه می‌کنیم که  ['چگونه درخت فایلوژنی را بخوانیم؟](https://nextstrain.org/narratives/trees-background/) ببینید و وقتی آماده بودید بازگردید. 
+اگر با درخت تبارشناسی آشنایی ندارید به شما توصیه می‌کنیم که  ['چگونه درخت تبارشناسی را بخوانیم؟](https://nextstrain.org/narratives/trees-background/) ببینید و وقتی آماده بودید بازگردید. 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
@@ -101,7 +103,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 [پوشش نیویورک تایمز از کووید-۱۹](https://www.nytimes.com/news-event/coronavirus).
 
-[Our World in Data](https://ourworldindata.org/coronavirus).
+[دنیای ما در داده](https://ourworldindata.org/coronavirus).
 
 [از دانشمند بپرسید و سوالات رایج](https://covid19.fas.org/l/en).
 
