@@ -217,7 +217,7 @@ These counties' clusters of cases are likely to due to separate introductions, b
 <!-- This is left-side text 11-->
 # [남미에서 수집된 사례들을 주로 여행과 관련됨](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
 아직 남미로부터 보고된 유전체 염기서열 데이터는 많지 않습니다.
-이용 가능한 데이터들 중 대부분은 여행자들입니다.
+이용 가능한 데이터들 중 대부분은 여행자로부터 비롯되었습니다.
 여기서는 알려진 접촉 이력 별로 다른 색을 사용하여 각각의 사례들을 구분하였습니다.
 <br><br>
 여행과 관련이 없는 사례들이 잠재적으로 흥미로운 패턴을 보이기 시작했지만, 아직 결론을 내릴만한 충분한 근거는 없습니다.
