@@ -25,10 +25,10 @@ translators:
   - Alessia Lepore
   - Sara Pilia
 translatorLinks:
-	- https://twitter.com/s_a_demidov
-	- https://twitter.com/alice_ledda_
-	- https://twitter.com/meklab
-	- https://twitter.com/SaraMeiqi
+  - https://twitter.com/s_a_demidov
+  - https://twitter.com/alice_ledda_
+  - https://twitter.com/meklab
+  - https://twitter.com/SaraMeiqi
 date: "27 marzo 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "Questo rapporto usa dati genomici pubblicamente condivisi per tracciare la diffusione del COVID-19. Questi rapporti sono aggiornati settimanalmente."
@@ -55,7 +55,7 @@ abstract: "Questo rapporto usa dati genomici pubblicamente condivisi per traccia
 * [Aggiornamenti dall' America Centrale e del Sud](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=11).  
 <!-- * [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12). -->   
 * [Aggiornamenti dall'Asia](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=13).  
-<!-- * [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14). --> 
+<!-- * [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14). -->
 * [Aggiornamenti dall'Africa](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=15).  
 <!-- * [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16). -->  
 * [Aggiornamenti dall' Oceania](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=17).  
@@ -70,10 +70,10 @@ abstract: "Questo rapporto usa dati genomici pubblicamente condivisi per traccia
 # Sommario
 
 <!-- We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:-->
-Abbiamo analizzato 1495 genomi del virus SARS-Cov-2 condivisi publicamente. Confrontando questi genomi virali tra loro, possiamo ricostruire come il COVID-19 si sta spostando nel mondo. Nell'aggiornamento di questa settimana, riportiamo: 
+Abbiamo analizzato 1495 genomi del virus SARS-Cov-2 condivisi publicamente. Confrontando questi genomi virali tra loro, possiamo ricostruire come il COVID-19 si sta spostando nel mondo. Nell'aggiornamento di questa settimana, riportiamo:
 
 <!-- **Europe** -->
-**Europa** 
+**Europa**
  <!-- * We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country. -->
  * Continuiamo ad osservare un forte mescolamento di sequenze in Europa che suggerisce che il virus si sia continuato a muovere attraverso i confini nelle ultime 3-5 settimane. Dato che le misure per il rallentamento della diffusione hanno bisogno di tempo per entrare in vigore, potremmo vedere un maggiore raggruppamento di casi per Paese.  
 
@@ -87,16 +87,16 @@ Abbiamo analizzato 1495 genomi del virus SARS-Cov-2 condivisi publicamente. Conf
 * Ci sono prove di probabile trasmissione locale all'interno di diversi Stati, la più evidente in California.
 
 <!-- **Central and South America** -->
-**Centro e Sud America** 
+**Centro e Sud America**
 <!--  * We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure. -->
-* Questa settimana abbiamo ricevuto nuove sequenze dal Sud America, ma la raccolta dei dati rimane ridotta. In questa regione potrebbe esserci più attività COVID di quella mostrata dai dati disponibili, ma non possiamo dirlo con certezza. 
+* Questa settimana abbiamo ricevuto nuove sequenze dal Sud America, ma la raccolta dei dati rimane ridotta. In questa regione potrebbe esserci più attività COVID di quella mostrata dai dati disponibili, ma non possiamo dirlo con certezza.
 
 <!-- **Asia**   -->
-**Asia** 
+**Asia**
 <!-- * We find evidence for recent export of COVID-19 from Iran. -->
  * Abbiamo trovato prove di una recente esportazione di COVID-19 dall'Iran.
 
-<!-- **Africa**  --> 
+<!-- **Africa**  -->
 **Africa**
 <!-- * The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days. -->
 * L'albero filogenetico suggerisce una probabile trasmissione a Kinshasa nella Repubblica Democratica del Congo, negli ultimi 11 o più giorni.
@@ -104,7 +104,7 @@ Abbiamo analizzato 1495 genomi del virus SARS-Cov-2 condivisi publicamente. Conf
 * Abbiamo ricevuto nuove sequenze dall'Africa questa settimana, ma la raccolta dei campioni rimane scarsa;  nella regione potrebbe esserci più attività COVID di quella mostrata dai dati disponibili.  
 
 <!-- **Oceania** -->
-**Oceania** 
+**Oceania**
 <!-- * There is evidence in the genetic data for local transmission in New South Wales, Australia.-->
 * I dati genetici mostrano prove di trasmissione locale del virus nel Nuovo Galles del Sud, in Australia.
 ```
@@ -154,7 +154,7 @@ Se non hai familiarità con gli alberi filogenetici, ti consigliamo di leggere i
 [Notizie sull'epidemia di COVID-19 sul New York Times](https://www.nytimes.com/news-event/coronavirus).
 
 <!-- [Our World in Data](https://ourworldindata.org/coronavirus). -->
-[Our World in Data](https://ourworldindata.org/coronavirus). 
+[Our World in Data](https://ourworldindata.org/coronavirus).
 
 <!-- [Ask a Scientist & FAQs](https://covid19.fas.org/l/en). -->
 [Chiedi a uno scienziato e FAQs](https://covid19.fas.org/l/en).
@@ -167,7 +167,7 @@ Se non hai familiarità con gli alberi filogenetici, ti consigliamo di leggere i
 <!-- # [A note on sampling](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed) -->
 # [Una nota sulla raccolta dei campioni](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
 <!-- We currently have sequences from viral isolates taken in 48 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world. -->
-Al momento abbiamo sequenze raccolte in 48 Paesi in 6 continenti. Questa è un'impresa incredibile -- sequenziare un virus a RNA così grande e sconosciuto nel bel mezzo di una pandemia è difficile ed è stato possibile solamente grazie all'incredibile sforzo e la tempestiva condivisione dei dati da parte di scienziati e medici in tutto il mondo. 
+Al momento abbiamo sequenze raccolte in 48 Paesi in 6 continenti. Questa è un'impresa incredibile -- sequenziare un virus a RNA così grande e sconosciuto nel bel mezzo di una pandemia è difficile ed è stato possibile solamente grazie all'incredibile sforzo e la tempestiva condivisione dei dati da parte di scienziati e medici in tutto il mondo.
 <br><br>
 <!-- While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data. -->
 Anche se questi dati ci permettono di inferire statisticamente molte utili caratteristiche dell'epidemia e di tracciare la sua evoluzione in tempo reale, è però importante enfatizzare che le nostre conclusioni sono limitate dalla disponibilità di dati.
@@ -238,7 +238,7 @@ Stiamo lavorando duramente per analizzare tutti questi nuovi dati, e troverete i
 Anche negli Stati Uniti stiamo vedendo una dinamica di trasmissione piuttosto complessa.
 <br><br>
 <!--For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).-->
-Per esempio, tra i campioni recenti provenienti dal Connecticut (foglie evidenziate) troviamo alcuni che si mescolano sull'albero con i campioni dello Stato di Washington (foglie non evidenziate), ma altri che sono loro antenati. 
+Per esempio, tra i campioni recenti provenienti dal Connecticut (foglie evidenziate) troviamo alcuni che si mescolano sull'albero con i campioni dello Stato di Washington (foglie non evidenziate), ma altri che sono loro antenati.
 <!--While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.-->
 Fermo restando che c'è bisogno di più dati per avere delle certezze, questo suggerisce che ci siano stati eventi di trasmissione recenti anche tra parti molto distanti del Paese.
 <br><br>
@@ -343,7 +343,7 @@ Vicino alla radice dell'albero, vediamo una nuova sequenza da una donna in Pakis
 
 <br><br>
 <!-- This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.-->
-Ciò è coerente con diverse ipotesi; mano a mano che avremo altri dati, aggiorneremo la nostra analisi. 
+Ciò è coerente con diverse ipotesi; mano a mano che avremo altri dati, aggiorneremo la nostra analisi.
 <!-- There is no right side text -->
 
 
