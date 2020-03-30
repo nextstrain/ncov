@@ -38,16 +38,16 @@ abstract: "Ten raport wykorzystuje publicznie dostępne dane genomowe w celu śl
 <!-- This is left-side text 1-->
 # [Spis treści](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [O danych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Aktualizacja sytuacji w Europie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Aktualizacja sytuacji w Ameryce Północnej](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Aktualizacja sytuacji w Ameryce Środkowej i Południowej](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Aktualizacja sytuacji w Azji](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Aktualizacja sytuacji w Afryce](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Aktualizacja sytuacji w Oceanii](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Materiały wprowadzające w tematykę](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=2).     
+* [O danych](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=3).  
+* [Aktualizacja sytuacji w Europie](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=4).  
+* [Aktualizacja sytuacji w Ameryce Północnej](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=7).  
+* [Aktualizacja sytuacji w Ameryce Środkowej i Południowej](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=11).  
+* [Aktualizacja sytuacji w Azji](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=13).  
+* [Aktualizacja sytuacji w Afryce](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=15).  
+* [Aktualizacja sytuacji w Oceanii](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=17).  
+* [Co ty możesz zrobić](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=19).  
+* [Źródła danych naukowych](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Streszczenie
@@ -110,7 +110,7 @@ Jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcam
 
 [FAQs](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[Przesądy](https://nextstrain.org/narratives/ncov/sit-rep/pl/2020-03-13?n=11).
 
 
 ## Inne źródła  
