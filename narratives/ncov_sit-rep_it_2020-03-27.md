@@ -426,7 +426,7 @@ Le nuove sequenze provenienti dall'Australia mostrano prove di trasmissione loca
 
 ```auspiceMainDisplayMarkdown
 <!-- ## Takeaways-->
-Cose da ricordare
+## Cose da ricordare
 <!-- ####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.-->
 <br><br>
 ####  Nelle prossime settimane, osserveremo l'epidemia europea per capire se le nuove misure di rallentamento dei contagi abbiano fermato o meno la trasmissione attraverso i confini.
