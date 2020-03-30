@@ -243,9 +243,9 @@ Per esempio, tra i campioni recenti provenienti dal Connecticut (foglie evidenzi
 Fermo restando che c'è bisogno di più dati per avere delle certezze, questo suggerisce che ci siano stati eventi di trasmissione recenti anche tra parti molto distanti del Paese.
 <br><br>
 <!--This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.-->
-Questo sottolinea il fatto che i percorsi di trasmissione negli stessi Stati Uniti siano molo più complessi di quanto si può evincere dai dati disponibili al momento.
+Questo sottolinea il fatto che i percorsi di trasmissione negli stessi Stati Uniti siano molto più complessi di quanto si può evincere dai dati disponibili al momento.
 <!--Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.-->
-Ulteriori dati ci aiuteranno a capire meglio quella che al momento sembra un'epidemia nazonale profondamente interconnessa che si innesta su uno sfondo di reazioni altamente eterogenee da parte dei diversi Stati.
+Ulteriori dati ci aiuteranno a capire meglio quella che al momento sembra un'epidemia nazionale profondamente interconnessa che si innesta su uno sfondo di reazioni altamente eterogenee da parte dei diversi Stati.
 <!-- There is no right side text -->
 
 
@@ -255,7 +255,7 @@ Ulteriori dati ci aiuteranno a capire meglio quella che al momento sembra un'epi
 # [Catene di trasmissione multipla circolanti nello Stato di Washington](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
 <!--Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.-->
-Guardando i casi nello stato di Washington si vede che ci sono almeno due gruppi di sequenze provenienti da focolai locali separati
+Guardando i casi nello Stato di Washington si vede che ci sono almeno due gruppi di sequenze provenienti da focolai locali separati
 <br><br>
 <!--However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.-->
 Questi due focolai hanno origini diverse: il primo è molto più collegato a sequenze provenienti dalla Cina, mentre il secondo è più collegato a sequenze provenienti dall'Europa. È comunque possibile che queste introduzioni siano state indirette, cioè tramite casi non identificati provenienti da regioni diverse.
@@ -281,14 +281,14 @@ Per quanto i dati provenienti dal resto della California siano troppo limitati p
 Vediamo uno scenario simile con i campioni isolati a Santa Clara County (in un'altra regione dell'albero).
 <br><br>
 <!--These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.-->
-Basandoci sulla posizione di questi gruppi di casi sull'albero, possiamo concludere che è probabile che siano il risultato di due separate introduzioni.
+Basandoci sulla posizione di questi gruppi di casi sull'albero, possiamo concludere che è probabile che siano il risultato di due introduzioni separate.
 <!-- There is no right side text -->
 
 
 <!-- ############ SOUTH AMERICA ############# -->
 <!-- This is left-side text 10-->
 <!-- # [Updates for Central & South America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)-->
-# [Aggiornamento America Centrale e del Sud](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
+# [Aggiornamenti dall'America Centrale e del Sud](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Central%20America,South%20America&p=grid&r=country&c=country&legend=closed)
 
 <!-- There is no right side text -->
 
@@ -296,17 +296,17 @@ Basandoci sulla posizione di questi gruppi di casi sull'albero, possiamo conclud
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
 <!--# [Primarily travel-related cases sampled in South America](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)-->
-# [I casi osservati in Sud America sono per la maggiorparte collegati a viaggi](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+# [I casi osservati in Sud America sono per la maggior parte collegati a viaggi](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
 <!--We don't have much genetic sequence data from South America yet.
 Of the available data, most are from travelers.
 Here, each case is colored by the known exposure history.-->
 Non ci sono ancora molte sequenze genetiche dal Sud America.
-Nei dati disponibili, la maggiorparte provengono da persone che hanno viaggiato.
-Qui, ogni caso è colorato in ordine cronologico per le esposizioni conosciute al virus.
+La maggior parte dei dati disponibili provengono da persone che hanno viaggiato.
+Qui, ogni caso è colorato nell'ordine cronologico delle esposizioni al virus conosciute.
 <br><br>
 <!-- While potentially interesting patterns are starting to emerge in the non-travel-associated cases, we don't yet have enough evidence to draw conclusions
 Sequencing efforts are ramping up, and we will report back as the situation becomes clearer.-->
-Mentre nei casi non associati ai viaggi stanno iniziando a emergere scenari potenzialmente interessanti, non abbiamo ancora dati sufficienti per trarre conclusioni attendibili.
+Anche se nei casi non associati ai viaggi stanno iniziando a emergere scenari potenzialmente interessanti, non abbiamo ancora dati sufficienti per trarre conclusioni attendibili.
 L'impegno per ottenere più sequenze genetiche sta aumentato rapidamente e commenteremo i dati quando la situazione diventerà più chiara.
 <!-- There is no right side text -->
 
@@ -331,13 +331,13 @@ L'impegno per ottenere più sequenze genetiche sta aumentato rapidamente e comme
 <!-- We do not yet have viral genomes from Iran.-->
 Non abbiamo ancora genomi virali dall'Iran.
 <!-- However, we do have sequences from many cases with reported travel to Iran.-->
-Ad ogni modo, abbiamo sequenze di molti casi che hanno riportato viaggi in Iran.
+Ad ogni modo, abbiamo sequenze da molti casi che hanno riportato viaggi in Iran.
 <br><br>
 <!-- Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were derived from a single introduction into Iran.-->
 La maggior parte delle sequenze legate a storie di viaggi in Iran sono raggruppate, e ciò suggerisce che molti dei casi iraniani sono derivati da una singola introduzione in Iran.
 <br><br>
 <!-- At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.-->
-Nella parte più bassa dell'albero, vediamo una nuova sequenza da una donna in Pakistan con una che ha riferito di aver viaggiato in Iran.
+Vicino alla radice dell'albero, vediamo una nuova sequenza da una donna in Pakistan che ha riferito di aver viaggiato in Iran.
 <!-- Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.-->
 È interessante notare che questo caso non si raggruppa con gli altri casi provenienti dall'Iran, ma è stato raccolto più o meno nello stesso periodo.
 
@@ -350,23 +350,23 @@ Ciò è coerente con diverse ipotesi; mano a mano che avremo altri dati, aggiorn
 <!-- ############ AFRICA ############# -->
 <!-- This is left-side text 14-->
 <!-- # [Updates for Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)-->
-# [Aggiornamenti sull' Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
+# [Aggiornamenti sull'Africa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Africa&p=grid&r=country)
 
 <!-- This is left-side text 15-->
 <!-- # [Evidence for local transmission in Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)-->
 # [Prove di trasmissione locale a Kinshasa, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
 <!--  New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.-->
-Nuove sequenze provenienti da Kinshasa nella Republica Democratica del Congo mostrano prove di diversi eventi di ingressi del virus.
+Nuove sequenze provenienti da Kinshasa nella Republica Democratica del Congo mostrano prove di diverse introduzioni del virus.
 <br><br>
 <!--Some of these sequences form a group of very closely related, local cases that were sampled over several days.-->
 Alcune di queste sequenze provengono da un gruppo di persone strettamente collegate, focolai locali da cui sono stati raccolti campioni per diversi giorni.  
 <br><br>
 <!-- This is consistent with local transmission, ongoing since at least March 15 (the sampling date of the earliest case that appears to be part of this local transmission chain) and possibly earlier..-->
-Questo è coerente con un focolaio locale, in corso almeno dal 15 marzo (la data del primo caso che sembra far parte di questo focolaio) e possibilmente prima.
+Questo è coerente con l'ipotesi dell'esistenza di un focolaio locale, in corso almeno dal 15 marzo (la data del primo caso che sembra far parte di questo focolaio) e forse prima.
 <br><br>
 <!-- The INRB's excellent work to sequence the virus from early samples allows us to see community transmission that is hidden in many other places. -->
-L'eccelente lavoro dell' Istituto Nazionale per la Ricerca Biomedica(INRB) nel sequenziamento del virus fin dai primi campioni disponibili ci permette di osservare come la trasmissione nella comunità sia nascosta in molti altri luoghi.
+L'eccellente lavoro dell'Istituto Nazionale per la Ricerca Biomedica (INRB) nel sequenziamento del virus fin dai primi campioni disponibili ci permette di osservare una trasmissione nella comunità che è nascosta in molti altri luoghi.
 <!-- There is no right side text -->
 
 
@@ -386,8 +386,8 @@ L'eccelente lavoro dell' Istituto Nazionale per la Ricerca Biomedica(INRB) nel s
 
 <!-- New sequences from Australia show evidence of local transmission across New South Wales.
 The virus has likely been circulating in this area since at least the end of February.-->
-le nuove sequenze provenienti dall' Australia mostrano prove di trasmissione locale del virus all'interno del Nuovo Galles del Sud.
-E' probabile che il virus stia circolando in questa area da, almeno, la fine di Febbraio.
+Le nuove sequenze provenienti dall'Australia mostrano prove di trasmissione locale del virus all'interno del Nuovo Galles del Sud.
+È probabile che il virus stia circolando in questa area da almeno la fine di febbraio.
 
 <!-- There is no right side text -->
 
@@ -429,7 +429,7 @@ E' probabile che il virus stia circolando in questa area da, almeno, la fine di 
 Cose da ricordare
 <!-- ####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.-->
 <br><br>
-####  Nelle prossime settimane, osserveremo l'epidemia europea per capire se le nuove misure di rallentamento dell'epidemia abbiano fermato o meno la trasmissione attraverso i confini.
+####  Nelle prossime settimane, osserveremo l'epidemia europea per capire se le nuove misure di rallentamento dei contagi abbiano fermato o meno la trasmissione attraverso i confini.
 <!-- #### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.-->
 #### Monitoreremo la situazione in Sud America alla ricerca di segnali di una trasmissione locale mano a mano che nuove sequenze diventano disponibili.
 <br><br>
