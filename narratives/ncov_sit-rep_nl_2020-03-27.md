@@ -40,16 +40,16 @@ abstract: "Deze rapportage maakt gebruik van openbaar gedeelde genomische data o
 <!-- This is left-side text 1-->
 # [Inhoudsopgave](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Achtergrondinformatie](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [Over deze data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Updates voor Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates voor Noord-Amerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [Updates voor Midden- en Zuid-Amerika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates voor Azië](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates voor Afrika](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [Updates voor Oceanië](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [Wat u kunt doen](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Wetenschappelijk dankwoord](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Achtergrondinformatie](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=2).     
+* [Over deze data](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=3).  
+* [Updates voor Europa](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=4).  
+* [Updates voor Noord-Amerika](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=7).  
+* [Updates voor Midden- en Zuid-Amerika](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=11).  
+* [Updates voor Azië](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=13).  
+* [Updates voor Afrika](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=15).  
+* [Updates voor Oceanië](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=17).  
+* [Wat u kunt doen](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=19).  
+* [Wetenschappelijk dankwoord](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Samenvatting
@@ -85,7 +85,7 @@ In deze rapportage hebben we 1.495 publiekelijk gedeelde COVID-19 genomen geanal
 We hebben een aantal bronnen voorbereid die de moeite waard zijn om te lezen om jezelf vertrouwd te maken met de ziekte COVID-19 en het virus dat deze ziekte veroorzaakt, SARS-CoV-2, ook bekend als hCov-19. 
 Deze informatie maakt het interpreteren van de gegevens die we in dit rapport presenteren makkelijker.
 <br><br>
-Als u niet bekend bent met fylogenetische bomen, raden we u aan het ['Hoe kan ik Fylogenieën lezen'](https://nextstrain.org/narratives/trees-background/) verhaal te bekijken en terug te komen wanneer u klaar bent. 
+Als u niet bekend bent met fylogenetische bomen, raden we u aan het ['Hoe kan ik Fylogenieën lezen'](https://nextstrain.org/narratives/trees-background/nl) verhaal te bekijken en terug te komen wanneer u klaar bent. 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
@@ -99,7 +99,7 @@ Als u niet bekend bent met fylogenetische bomen, raden we u aan het ['Hoe kan ik
 
 [FAQs (Engels)](https://nextstrain.org/help/coronavirus/FAQ).
 
-[Veelvoorkomende misvattingen (Engels)](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[Veelvoorkomende misvattingen](https://nextstrain.org/narratives/ncov/sit-rep/nl/2020-03-13?n=11).
 
 
 ## Externe bronnen  
