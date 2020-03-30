@@ -59,7 +59,7 @@ Przeanalizowaliśmy 1,495</tag> dostępnych publicznie genomów COVID-19. Porów
 <!-- * We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country.-->
 
 **Ameryka Północna**  
-* W USA, obraz transmisji jest złożony: próbki pobrane z przeciwnych części kraju nadal wykazują bliskie pokrewieństwo. 
+* W USA obraz transmisji jest złożony: próbki pobrane z przeciwnych części kraju nadal wykazują bliskie pokrewieństwo. 
 * W stanie Waszyngton nastąpiły co najmniej dwie introdukcje wirusa (pierwsza najprawdopodobniej z Chin, druga najprawdopodobniej z Europy), które doporowadziły do dwóch niezależnych lokalnych ognisk zachorowań.
 * Są dowody na prawdopodobną lokalną transmisję w kilku stanach, najlepiej widoczną w Kalifornii.
  
@@ -93,7 +93,7 @@ Przeanalizowaliśmy 1,495</tag> dostępnych publicznie genomów COVID-19. Porów
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 2-->
 # [Materiały wprowadzające w tematykę](https://nextstrain.org/ncov/2020-03-27)
-Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który tę chorobę wywołuje, również znanym jako nCov-19.
+Przygotowaliśmy materiały online, które warto przeczytać w celu zapoznania się z COVID-19 i wirusem SARS-CoV-2, który tę chorobę wywołuje, również znanym jako hCov-19.
 Zawarte w nich informacje ułatwią interpretację danych, które prezentujemy w tym raporcie.
 <br><br>
 Jeżeli nie jesteś zaznajomiona/y z tematyką drzew filogenetycznych, zachęcamy do przeczytania w pierwszej kolejności ['Jak interpretować drzewa filogenetyczne'](https://nextstrain.org/narratives/trees-background/pl).
@@ -192,7 +192,7 @@ We're working hard to analyze all of this new data, and will report our findings
 <!-- This is left-side text 7-->
 # [Tranmisja w Stanach Zjednoczonych jest złożona i nie całkiem zrozumiana](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
-Wzory rozprzestrzeniania się są bardzo złożone, nawet w obrębie Stanów Zjednoczonych.
+Wzory rozprzestrzeniania się są bardzo złożone, nawet w obrębie tylko Stanów Zjednoczonych.
 <br><br>
 Na przykład, niedawne próbki z Connecticut (zaznaczone) są jednocześnie ancestralne w stosunku do próbek ze stanu Waszyngton, jak i przemieszane z nimi (wyblakłe gałęzie).
 Choć potrzeba więcej danych, aby wyciągnąć zdecydowane wnioski, obserwowany wzór sugeruje, że mamy do czynienia z niedawną transmisją nawet pomiędzy odległymi rejonami kraju.
@@ -335,7 +335,7 @@ Niektóre z tych sekwencji tworzą grupę blisko spokrewnionych, lokalnych przyp
 <br><br>
 Zgadza się to z lokalnym rozprzestrzenianiem wirusa, trwającym od co najmniej 15 marca (data próbkowania najwcześniejszego przypadku, który wydaje się być częścią tego lokalnego ogniska epidemii), a prawdopodobnie wcześniej.
 <br><br>
-Dzięki wspaniałaym wysiłkom INRB w sekwencjonowaniu wirusa u wczesnych przypadków możemy zobaczyć tranmisję wewnątrz społeczności, co jest niewidoczne w wielu innych miejscach.
+Dzięki wspaniałym wysiłkom INRB w sekwencjonowaniu wirusa u wczesnych przypadków możemy zobaczyć tranmisję wewnątrz społeczności, co jest niewidoczne w wielu innych regionach.
 
 <!-- New sequences from Kinshasa in the Democratic Republic of the Congo show evidence for several separate introduction events.
 <br><br>
