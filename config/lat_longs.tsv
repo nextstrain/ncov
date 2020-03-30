@@ -63,6 +63,7 @@ location	King County	47.449221	-121.864246
 location	Kirkland	47.679486	-122.206354
 location	Kunming	25.013024	102.866742
 location	Kyoto	35.007542	135.768455
+location	La Crosse County	43.8617	-91.1353
 location	Leuven	50.880674	4.700109
 location	Levallois-Perret	48.8932	2.2879
 location	Longjumeau	48.6931	2.2948
@@ -143,8 +144,10 @@ location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
 
 division	Aargau	47.420629	8.172097
+division	Abruzzo	42.1920	13.7289
 division	Aichi	35.067543	137.334061
 division	Amazonas State	-5.423668	-64.567836
+division	Andalusia	37.5443	-4.7278
 division	Andel	51.7851	5.0549
 division	Anhui	31.754331	117.211441
 division	Arizona	34.220707	-111.657462
@@ -156,6 +159,7 @@ division	Baden-Wuerttemberg	48.712618	9.134030
 division	Bahia	-12.5797	-41.7007
 division	Baranya	46.0485	18.2719
 division	Basel	47.559198	7.590640
+division	Basque Country	42.9896	-2.6189
 division	Bavaria	48.1382614	11.5845093
 division	Beijing	40.071320	116.406908
 division	Bern	46.855135	7.570549
@@ -165,7 +169,9 @@ division	Bretagne	48.2020	2.9326
 division	British Columbia	54.010982	-124.745183
 division	Brussels	50.8503	4.3517
 division	California	36.357039	-119.690182
+division	Castilla La Mancha	39.2796	-3.0977
 division	Castilla Y León	41.8357	-4.3976
+division	Castilla y Leon	41.8357	-4.3976
 division	Central Hungary	47.360008	19.252798
 division	China	33.394333	104.689839
 division	Chongqing	29.858721	107.375623
@@ -358,3 +364,5 @@ country	Iran	34.5732	51.876
 country	Luxembourg	49.755428	6.119486
 country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166
+country	Austria	47.5162	14.5501
+country	Croatia	45.1000	15.2000
