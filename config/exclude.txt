@@ -99,6 +99,8 @@ Wuhan/IVDC-HB-envF13/2020
 USA/WA-UW48/2020
 USA/WA-UW45/2020
 France/HF1805/2020
+Canada/ON_PHL4069/2020
+Canada/ON_PHL3501/2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
@@ -265,8 +267,8 @@ USA/WI-24/2020
 
 
 # temporarily exclude to include all swiss together
-Switzerland/42169171/2020
-Switzerland/42169310/2020
-Switzerland/42169471/2020
-Switzerland/42170345/2020
-Switzerland/42174724/2020
+#Switzerland/42169171/2020
+#Switzerland/42169310/2020
+#Switzerland/42169471/2020
+#Switzerland/42170345/2020
+#Switzerland/42174724/2020
