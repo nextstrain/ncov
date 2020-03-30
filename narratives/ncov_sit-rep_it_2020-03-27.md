@@ -65,8 +65,8 @@ abstract: "Questo rapporto usa dati genomici pubblicamente condivisi per traccia
 * [Riconoscimenti scientifici](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=20).  
 
 <!-- This is right-side text -->
-```auspiceMainDisplayMarkdown -->
-<!--  # Executive summary
+```auspiceMainDisplayMarkdown
+<!--  # Executive summary -->
 # Sommario
 
 <!-- We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:-->
