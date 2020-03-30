@@ -36,20 +36,30 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 
 <!-- This is left-side text 1-->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
+<!--# [Table of Contents](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)-->
+# [Indice dei contenuti](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+<!-- * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).-->
+* [Risorse di base](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).
+<!-- * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).-->
+* [Una nota sulla raccolta dei campioni](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+<!-- * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4). -->
+* [Aggiornamenti dall'Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+<!--* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).-->
+* [Aggiornamenti dal Nord America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
 <!--* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  -->   
-* [Aggiornamenti America Centrale e del Sud](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Aggiornamenti dall' America Centrale e del Sud](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+<!-- * [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12). -->   
+* [Aggiornamenti dall'Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+<!-- * [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14). --> 
+* [Aggiornamenti dall'Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
 <!-- * [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16). -->  
 * [Aggiornamenti sull' Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+<!-- * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).   -->  
+* [Cosa puoi fare](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+<!--  * [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).    -->  
+* [Riconoscimenti Scientifici](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Executive summary
@@ -343,7 +353,7 @@ L'eccelente lavoro dell' Istituto Nazionale per la Ricerca Biomedica(INRB) nel s
 <!-- ############ OCEANIA ############# -->
 <!-- This is left-side text 17-->
 <!-- # [Updates for Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)-->
-# [Aggiornamenti sull'Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
+# [Aggiornamenti dall'Oceania](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Oceania&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
