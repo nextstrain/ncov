@@ -38,16 +38,16 @@ abstract: "این گزارش از داده‌های ژنتیکی برای ردی
 <!-- This is left-side text 1-->
 # [فهرست منابع](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [منابع پیش زمینه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [درباره‌ی این داده‌ها](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [به روزرسانی اروپا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [به روزرسانی آمریکای شمالی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [به روزرسانی آمریکای مرکزی و جنوبی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [به روزرسانی آسیا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [به روزرسانی آفریقا](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [به روزرسانی اقیانوسیه](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [شما چه‌کار می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [منابع پیش زمینه](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=2).     
+* [درباره‌ی این داده‌ها](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=3).  
+* [به روزرسانی اروپا](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=4).  
+* [به روزرسانی آمریکای شمالی](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=7).  
+* [به روزرسانی آمریکای مرکزی و جنوبی](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=11).  
+* [به روزرسانی آسیا](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=13).  
+* [به روزرسانی آفریقا](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=15).  
+* [به روزرسانی اقیانوسیه](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=17).  
+* [شما چه‌کار می‌توانید انجام دهید](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=19).  
+* [اعتبار علمی](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # خلاصه‌ی اجرائی
@@ -95,7 +95,7 @@ abstract: "این گزارش از داده‌های ژنتیکی برای ردی
 
 [سوالات متداول](https://nextstrain.org/help/coronavirus/FAQ).
 
-[اشتباهات رایج](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[اشتباهات رایج](https://nextstrain.org/narratives/ncov/sit-rep/fa/2020-03-13?n=11).
 
 
 ## منابع خارجی  
@@ -307,7 +307,7 @@ abstract: "این گزارش از داده‌های ژنتیکی برای ردی
 ## نکات کلیدی
 ####  در چند هفته‌ی آینده، ما شاهد کاهش انتقال فرا مرزی در همه‌گیری اروپا در پی اقدامات کاهشی خواهیم بود.
 <br><br>
-####با در دسترس قرار گرفتن بیشتر رشته‌های توالی ژنتیک ما اوضاع را در آمریکای جنوبی برا شواهد انتقال محلی زیر نظر می‌گیریم. 
+#### با در دسترس قرار گرفتن بیشتر رشته‌های توالی ژنتیک ما اوضاع را در آمریکای جنوبی برا شواهد انتقال محلی زیر نظر می‌گیریم. 
 <br><br>
 ####  همه گیری در آمریکا احتمالاً دارای یک الگوی انتقال بسیار پیچیده از ورود موارد جدید و انتقال محلی در مناطق مختلف کشور هست. ما شواهدی مبنی بر چندین زنجیره‌ی انتقال محلی در ایلات واشنگتن و کالیفرنیا پیدا کرده‌ایم. 
 <br><br>
