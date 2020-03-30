@@ -20,7 +20,9 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
+  - Taehoon Ha
 translatorLinks:
+  - https://taehoonh.github.io
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
@@ -227,7 +229,7 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 
 <!-- ############ ASIA ############# -->
 <!-- This is left-side text 12-->
-# [Updates for Asia](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
+# [아시아의 현황](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=Asia&p=grid&r=country&c=country&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -235,18 +237,18 @@ Sequencing efforts are ramping up, and we will report back as the situation beco
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 13-->
-# [Export of COVID-19 from Iran](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
+# [이란에서 시작된 코로나-19 전파](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
-We do not yet have viral genomes from Iran.
-However, we do have sequences from many cases with reported travel to Iran.
+아직 이란으로부터 보고된 바이러스 유전체 데이터는 없습니다.
+그러나 우리는 상당 수의 이란을 다녀 온 표본들의 염기서열 데이터를 가지고 있습니다.
 <br><br>
-Most sequences with travel history to Iran group together, suggesting that a lot of the Iranian cases were derived from a single introduction into Iran.
+이란을 방문했던 기록이 있는 대부분의 염기서열 데이터는 한데 묶이며, 이는 이란에서의 많은 사례들이 단 한 번의 유입으로부터 비롯되었다는 것을 의미합니다. 
 <br><br>
-At the very bottom of the tree, we see a new sequence from a woman in Pakistan with reported travel to Iran.
-Interestingly, this case is an outgroup to the other cases that we know about from Iran, but was sampled around the same time.
+계통수의 맨 아래에는 파키스탄 여성이 이란을 방문한 것으로 보이는 새로운 염기서열 데이터가 있습니다.
+흥미롭게도, 이 사건은 우리가 이란에 대해 알고 있는 다른 사례들과는 별개이지만, 거의 비슷한 시기에 수집되었습니다.
 <br><br>
-This is consistent with several possible hypotheses; as more data emerges, we'll update our analysis.
+이는 우리가 가진 몇 가지의 가설과 일치합니다. 더 많은 데이터가 확보되는대로 분석을 업데이트 하겠습니다.
 <!-- There is no right side text -->
 
 
