@@ -21,7 +21,9 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
   - Andrea Claudi
+  - Alice Ledda
   - Alessia Lepore
+  - Sara Pilia
 translatorLinks:
   - https://twitter.com/s_a_demidov
   - https://twitter.com/meklab
@@ -219,26 +221,27 @@ Stiamo lavorando duramente per analizzare tutti questi nuovi dati, e troverete i
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
-# [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
-
+<!-- # [Updates for North America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)-->
+# [Aggiornamenti dal Nord America](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 7-->
-# [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
+<!-- # [Transmission across the U.S. is complex and not well-understood](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)-->
+# [La trasmissione negli Stati Uniti è complessa e non ben compresa](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_division=Connecticut&label=clade:B1&m=div&p=full)
 
 <!--Even within the U.S., transmission patterns are highly complex.-->
-Anche negli Stati Uniti stiamo vedendo una dinamica di trasmissione piuttosto complessa
+Anche negli Stati Uniti stiamo vedendo una dinamica di trasmissione piuttosto complessa.
 <br><br>
 <!--For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).-->
 Per esempio, tra i campioni recenti provenienti dal Connecticut (foglie evidenziate) troviamo alcuni che si mescolano sull'albero con i campioni dello stato di Washington (foglie non evidenziate), ma altri che sono loro antenati. 
 <!--While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.-->
-FErmo restando che c'e' bisogno di piu' dati per avere delle certezze, questo suggerisce che ci siano stati eventi di trasmissione recenti anche tra parti molto distanti del Paese.
+Fermo restando che c'è bisogno di più dati per avere delle certezze, questo suggerisce che ci siano stati eventi di trasmissione recenti anche tra parti molto distanti del Paese.
 <br><br>
 <!--This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.-->
-Questo sottolinea il fatto che i percorsi di trasmissione negli stessi Stati Uniti siano molo piu' complessi di quato si puo' evincere dai dati disponibili al momento.
+Questo sottolinea il fatto che i percorsi di trasmissione negli stessi Stati Uniti siano molo più complessi di quato si può evincere dai dati disponibili al momento.
 <!--Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.-->
 Ulteriori dati ci aiuteranno a capire meglio quella che al momento sembra un'epidemia nazonale profondamente interconnessa che si innesta su uno sfondo di reazioni altamente eterogenee da parte dei diversi Stati.
 <!-- There is no right side text -->
@@ -246,20 +249,22 @@ Ulteriori dati ci aiuteranno a capire meglio quella che al momento sembra un'epi
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+<!-- # [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)-->
+# [Catene di trasmissione multipla circolanti nello Stato di Washington](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
 <!--Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.-->
 Guardando i casi nello stato di Washington si vede che ci sono almeno due gruppi di sequenze provenienti da focolai locali separati
 <br><br>
 <!--However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.-->
-Questi due focolai hanno origini diverse: il primo e' molto piu' collegato a sequenze provenienti dalla Cina, mentre il secondo e' piu' collegato a sequenze provenienti dall'Europa. E' comunque possibile che queste introduzioni siano state indirette, cioe' tramite casi non identificati provenienti da regioni diverse.
+Questi due focolai hanno origini diverse: il primo è molto più collegato a sequenze provenienti dalla Cina, mentre il secondo è più collegato a sequenze provenienti dall'Europa. È comunque possibile che queste introduzioni siano state indirette, cioè tramite casi non identificati provenienti da regioni diverse.
 <br><br>
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+<!-- # [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)-->
+# [Probabilmente ci sono due catene di trasmissione locale in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
 <!--We see similar patterns elsewhere in the U.S.-->
 Vediamo scenari simili in altre parti degli Stati Uniti.
@@ -274,7 +279,7 @@ Per quanto i dati provenienti dal resto della California siano troppo limitati p
 Vediamo uno scenario simile con i campioni isolati a Santa Clara County (in un'altra regione dell'albero).
 <br><br>
 <!--These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.-->
-Basandoci sulla posizione di questi gruppi di casi sull'albero, possiamo concludere che e' probabile che siano il risultato di due separate introduzioni.
+Basandoci sulla posizione di questi gruppi di casi sull'albero, possiamo concludere che è probabile che siano il risultato di due separate introduzioni.
 <!-- There is no right side text -->
 
 
