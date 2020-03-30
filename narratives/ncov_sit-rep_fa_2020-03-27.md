@@ -19,7 +19,9 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
-translators: Alireza Zamani Dahaj, Mahan Ghafari
+translators: 
+  - Alireza Zamani Dahaj
+  - Mahan Ghafari
 translatorLinks: 
   - https://twitter.com/dahaj1897
   - https://twitter.com/Mahan_Ghafari
