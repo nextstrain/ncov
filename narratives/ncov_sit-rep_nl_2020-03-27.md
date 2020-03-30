@@ -270,13 +270,13 @@ Dit patroon is consistent met verschillende mogelijke hypothesen; naarmate er me
 <!-- This is left-side text 15-->
 # [Bewijs voor locale transmissie in Kinshaha, Congo](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-Nieuwe sequenties vanuit Kinshaha in het Democratische Republiek Congo tonen bewijs voor meerdere, aparte introducties. 
+Nieuwe sequenties vanuit Kinshaha in de Democratische Republiek Congo tonen bewijs voor meerdere, aparte introducties. 
 <br><br>
-Sommige van deze sequenties vormen een groep van nauwverwante, locale besmettingen die bemonsterd werden over enkele dagen.
+Sommige van deze sequenties vormen een groep van nauwverwante, lokale besmettingen die bemonsterd werden over enkele dagen.
 <br><br>
 Dit is consistent met lokale transmissie, gaande sinds ten minste 15 maart (de bemonsteringsdatum van de eerste besmetting die onderdeel lijkt te zijn van de locale besmettingsketen) en mogelijk eerder.
 <br><br>
-INRB haar excellente werk om het virus te sequencen uit vroege monsters geven ons de mogelijkheid om de gemeenschapstransmissie te zien, die verborgen is op vele andere plekken. 
+Het excellente werk van INRB om het virus te sequencen uit vroege monsters geven ons de mogelijkheid om de gemeenschapstransmissie te zien, die verborgen is op vele andere plekken. 
 <!-- There is no right side text -->
 
 
@@ -294,7 +294,7 @@ INRB haar excellente werk om het virus te sequencen uit vroege monsters geven on
 # [Locale transmissie in New South Wales](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
 Nieuwe sequenties vanuit Australië tonen bewijs voor locale tranmissie binnen New South Wales. 
-Het virus circuleert waarschijnlijk in dit gebied sinds het in ieder geval het einde van februari. 
+Het virus circuleert waarschijnlijk in dit gebied sinds in ieder geval het einde van februari. 
 
 <!-- There is no right side text -->
 
@@ -308,8 +308,9 @@ Het virus circuleert waarschijnlijk in dit gebied sinds het in ieder geval het e
 * Verminder drastisch het aantal mensen waarmee u elke dag in contact komt, vooral als u tot een kwetsbare groep behoort (bijvoorbeeld senioren en mensen met reeds bestaande aandoeningen).
 * Onthoud dat zelfs als je niet super kwetsbaar bent, veel mensen om je heen dat wel zijn; volg deze praktijken om anderen te beschermen.
 * Was je handen "alsof je net een jalapeno hebt gesneden en een contactlens moet verwisselen."
-* Blijf zoveel mogelijk thuis - vooral als je ziek bent; wees voorbereid met extra benodigdheden voor het geval u thuis in quarantaine moet gaan.
+* Blijf zoveel mogelijk thuis -- vooral als je ziek bent; wees voorbereid met extra benodigdheden voor het geval u thuis in quarantaine moet gaan.
 * Als u een werkgever bent, moedig uw werknemers aan om waar mogelijk thuis te werken
+
 #### ...als ambtenaar
 * Maak testen gratis en algemeen beschikbaar.
 * Zorg voor sterke sociale afstandsmaatregelen.
@@ -320,15 +321,15 @@ Het virus circuleert waarschijnlijk in dit gebied sinds het in ieder geval het e
 
 ```auspiceMainDisplayMarkdown
 ## Takeaways
-####  In the next few weeks, we will be watching the European outbreak for signs that the new mitigation measures have stemmed cross-border transmission.
-<br><br>
-#### We will be monitoring the situation in South America for signs of local transmission as more sequences become available.
-<br><br>
-####  The U.S. epidemic likely has very complex transmission patterns of both import and spread across even disparate parts of the country. We find evidence of multiple local transmission chains in Washington and California.
-<br><br>
-#### We find evidence of local transmission in New South Wales, Australia.
-<br><br>
-#### We find evidence of local transmission in Kinshasa in the DRC. We do not yet have enough data to assess whether the virus is circulating locally in other parts of Africa.
+#### De komende weken zullen we de Europese uitbraak in de gaten houden voor tekenen dat de nieuwe mitigerende maatregelen grensoverschrijdende transmissie hebben belemmerd.
+<br> <br>
+#### We zullen de situatie in Zuid-Amerika volgen op tekenen van lokale transmissie naarmate er meer sequenties beschikbaar komen.
+<br> <br>
+#### De epidemie in de Verenigde Staten heeft waarschijnlijk zeer complexe transmissiepatronen van zowel import als verspreiding over ver uiteenliggende delen van het land. We vinden bewijs van meerdere lokale transmissieketens in Washington en Californië.
+<br> <br>
+#### We vinden bewijs van lokale transmissie in New South Wales, Australië.
+<br> <br>
+#### We vinden bewijs van lokale transmissie in Kinshasa in de DRC. We hebben nog niet genoeg gegevens om te beoordelen of het virus lokaal circuleert in andere delen van Afrika.
 ```
 
 <!-- ##### slide break ##### -->
@@ -337,24 +338,22 @@ Het virus circuleert waarschijnlijk in dit gebied sinds het in ieder geval het e
 
 
 
-
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text 20-->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [Wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+Wij willen onze dank uitspreken voor het fantastische en tijdige werk dat is verricht door alle wetenschappers die bij deze uitbraak betrokken zijn, en met name door degenen die in China werkzaam zijn. Alleen door het snel delen van genomische gegevens en metadata zijn dit soort analyses mogelijk.
 
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Wij zijn ook [GISAID](https://gisaid.org) dankbaar voor het leveren van het platform waarmee deze gegevens kunnen worden geüpload en gedeeld.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+We zijn dankbaar voor de gegevens die door deze laboratoria oorspronkelijk zijn verzameld:
 
 * Andersen Lab, The Scripps Research Institute
 * Arizona Department of Health Services
@@ -584,19 +583,20 @@ We are grateful for the data gathered by these originating labs:
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [Gedetaileerd wetenschappelijk dankwoord](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Deze gegevens werden gedeeld via [GISAID](https://gisaid.org).
+Wij zijn dankbaar voor hun bijdragen.
 
-<br>
+<br> 
 
-To the right we give specific sequences shared by each lab.
+Rechts geven we specifieke sequenties die door elk lab worden gedeeld.
+
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+The SARS-CoV-2 genomen werden ruimhartig gedeeld door wetenschappers in deze toezendende laboratoria:
 
 * Andersen Lab, The Scripps Research Institute
 	* USA/CA-MG0987/2020
