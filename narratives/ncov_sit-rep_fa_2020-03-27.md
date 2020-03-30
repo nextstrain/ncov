@@ -339,7 +339,7 @@ abstract: "این گزارش از داده‌های ژنتیکی برای ردی
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+ما از داده‌های گردآوری شده توسط گروه‌های زیر قدردانیم.
 
 * Andersen Lab, The Scripps Research Institute
 * Arizona Department of Health Services
@@ -581,7 +581,7 @@ We are grateful for the data gathered by these originating labs:
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+داده‌های سارس-کو-۲ توسط همکاری گروه‌های متخصص آزمایشگاهی زیر به اشتراک گذاشته شد
 
 * Andersen Lab, The Scripps Research Institute
 	* USA/CA-MG0987/2020
