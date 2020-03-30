@@ -27,9 +27,11 @@ translators:
 translatorLinks:
   - https://twitter.com/s_a_demidov
   - https://twitter.com/meklab
+  - https://twitter.com/SaraMeiqi
 date: "27 marzo 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+<!-- abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."-->
+abstract: "Questo rapporto usa dati genomici pubblicamente condivisi per tracciare la diffusione del COVID-19. Questi rapporti sono aggiornati settimanalmente."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated. Please add your name under translators and a link to your professional webpage (can be twitter) under translatorLinks. -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -56,11 +58,11 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- * [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14). --> 
 * [Aggiornamenti dall'Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
 <!-- * [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16). -->  
-* [Aggiornamenti sull' Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [Aggiornamenti dall' Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
 <!-- * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).   -->  
 * [Cosa puoi fare](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
 <!--  * [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).    -->  
-* [Riconoscimenti Scientifici](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Riconoscimenti scientifici](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown -->
@@ -68,43 +70,43 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 # Sommario
 
 <!-- We analyzed 1,495 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:-->
-Abbiamo analizzato 1495 genomi di COVID-19 condivisi publicamente. Confrontando questi genomi virali tra loro, possiamo ricostruire come il COVID-19 si sta spostando nel mondo. Nell'aggiornamento di questa settimana,riportiamo: 
+Abbiamo analizzato 1495 genomi di COVID-19 condivisi publicamente. Confrontando questi genomi virali tra loro, possiamo ricostruire come il COVID-19 si sta spostando nel mondo. Nell'aggiornamento di questa settimana, riportiamo: 
 
 <!-- **Europe** -->
 **Europa** 
  <!-- * We continue to see strong mixing of samples across Europe, suggesting that the virus has continued to move across borders in the last 3-5 weeks. As mitigation measures have time to take effect, we may see more clustering of cases by country. -->
- * Continuiamo ad osservare un forte mescolamento di sequenze in Europa che suggerisce che il virus si sia continuato a movere attraverso i confini nelle ultime 3-5 settimane. Dato che le misure di mitigazione hanno il tempo di entrare in vigore, potremmo vedere un maggiore raggruppamento di casi per paese.  
+ * Continuiamo ad osservare un forte mescolamento di sequenze in Europa che suggerisce che il virus si sia continuato a muovere attraverso i confini nelle ultime 3-5 settimane. Dato che le misure per il rallentamento della diffusione hanno bisogno di tempo per entrare in vigore, potremmo vedere un maggiore raggruppamento di casi per Paese.  
 
 <!--  **North America**  -->
 **America del Nord**
 <!--  * Within the U.S., transmission patterns are complex: samples collected from opposite sides of the country still show close relationships.  -->
-* Negli Stati Uniti,i modi di trasmissione sono complessi: i campioni raccolti dai lati opposti del paese mostrano ancora relazioni strette.
+* Negli Stati Uniti, i modi di trasmissione sono complessi: i campioni raccolti ai lati opposti del Paese mostrano ancora relazioni strette.
 <!-- * Washington state has had at least two independent introductions (the first likely from China, the second likely from Europe), which have led to two separate transmission chains.  -->
-* Lo Stato di  Washington ha, almeno, due introduzioni indipendenti del virus (la prima probabilmente dalla Cina, la seconda probabilmente dall'Europa) che hanno originato due separate catene di trasmissione.  
+* Nello Stato di  Washington ci sono state almeno due introduzioni indipendenti del virus (la prima probabilmente dalla Cina, la seconda probabilmente dall'Europa) che hanno dato origine a due separate catene di trasmissione.  
 <!-- * There is evidence for likely local transmission within several states, most clearly within California. -->
-* Ci sono prove di probabile trasmissione locale all'interno di diversi stati, la più evidente in California.
+* Ci sono prove di probabile trasmissione locale all'interno di diversi Stati, la più evidente in California.
 
 <!-- **Central and South America** -->
 **Centro e Sud America** 
 <!--  * We received new sequences from South America this week, but sampling remains sparse. There may be more COVID activity in this region than is captured in the available data, but we cannot say for sure. -->
-* Questa settimana abbiamo ricevuto nuove sequenze dal Sud America, ma la raccolta dei dati rimane ridotta. Potrebbe esserci più attività COVID in questa regione di quella acquisita nei dati disponibili, ma non possiamo dirlo con certezza. 
+* Questa settimana abbiamo ricevuto nuove sequenze dal Sud America, ma la raccolta dei dati rimane ridotta. In questa regione potrebbe esserci più attività COVID di quella mostrata dai dati disponibili, ma non possiamo dirlo con certezza. 
 
 <!-- **Asia**   -->
 **Asia** 
 <!-- * We find evidence for recent export of COVID-19 from Iran. -->
- * Abbiamo trovato prove di recente esportazione di COVID-19 dall'Iran.
+ * Abbiamo trovato prove di una recente esportazione di COVID-19 dall'Iran.
 
 <!-- **Africa**  --> 
 **Africa**
 <!-- * The phylogeny suggests likely local transmission within Kinshasa, Democratic Republic of the Congo, for the last 11+ days. -->
-* L'albero filogenitico suggerisce una probabile trasmossione a Kinshasa nella Repubblica Democratica del Congo, negli ultimi 11 o più giorni.
+* L'albero filogenetico suggerisce una probabile trasmissione a Kinshasa nella Repubblica Democratica del Congo, negli ultimi 11 o più giorni.
 <!--  * We received new sequences from Africa this week, but sampling remains sparse; there may be much more COVID activity in this region than is captured in the available data. -->
-* Abbiamo ricevuto nuove sequenze dall' Africa questa settimana, ma la raccolta dei campioni rimane scarsa; potrebbe esserci più attività CODIV nella regione di quella che i dati disponibili mostrano.  
+* Abbiamo ricevuto nuove sequenze dall'Africa questa settimana, ma la raccolta dei campioni rimane scarsa;  nella regione potrebbe esserci più attività COVID di quella mostrata dai dati disponibili.  
 
 <!-- **Oceania** -->
 **Oceania** 
 <!-- * There is evidence in the genetic data for local transmission in New South Wales, Australia.-->
-* Ci sono prove nei dati genetici di trasmissione locale del virus nel Nuovo Galles del Sud in Australia.
+* I dati genetici mostrano prove di trasmissione locale del virus nel Nuovo Galles del Sud, in Australia.
 ```
 
 
@@ -143,10 +145,10 @@ Se non hai familiarità con gli alberi filogenetici, ti consigliamo di leggere i
 <!-- ## External Resources  -->
 ## Ulteriori letture
 <!-- [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). -->
-[Rapporto sulla situazione dell'OMS](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+[Rapporto dell'OMS sulla situazione](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 
 <!-- [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html). -->
-[Informazioni a cura del CDC](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+[Informazioni a cura del CDC (Centers for Disease Control and Prevention)](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 
 <!-- [The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus). -->
 [Notizie sull'epidemia di COVID-19 sul New York Times](https://www.nytimes.com/news-event/coronavirus).
@@ -195,13 +197,13 @@ Ad esempio, la cartina mostra pochissime sequenze dal Sud del mondo. Questo non 
 Qui mostriamo sequenze raccolte in Europa nelle ultime 3 settimane, colorate in base allo Stato in cui sono state isolate.
 <!-- Notably, while there are some small clusters that are country-specific, there is also a great deal of mixing between isolates from different countries.-->
 <!--Si può notare che mentre ci sono alcuni piccoli raggruppamenti che sono tipici di uno Stato, c'è anche una gran mescolanza tra sequenze isolate in Paesi diversi.-->
-Si puo notare che alcuni piccoli gruppi sono caratterizzati dalla provenienza dallo stesso Stato, ma molte sequenze provenienti da stati diversi sono in realta' molto mescolate sull'albero.
+Si puo notare che alcuni piccoli gruppi sono caratterizzati dalla provenienza dallo stesso Stato, ma molte sequenze provenienti da Stati diversi sono in realtà molto mescolate sull'albero.
 <br><br>
 <!-- This suggests that there has been continued spread across borders within the last 3-5 weeks.-->
 Ciò suggerisce che c'è stata una diffusione continua attraverso i confini nazionali nelle ultime 3-5 settimane.
 <br><br>
 <!-- This geographic clustering might become stronger with recent mitigation efforts that curtail travel between regions.-->
-Questo raggruppamento geografico potrebbe diventare più forte in seguito alle recenti misure di attenuazione che riducono i viaggi tra regioni diverse.
+Questo raggruppamento geografico potrebbe diventare più forte in seguito alle recenti misure di rallentamento della diffusione del virus, che riducono i viaggi tra regioni diverse.
 <!-- There is no right side text -->
 
 <!-- ##### slide break ##### -->
@@ -236,12 +238,12 @@ Stiamo lavorando duramente per analizzare tutti questi nuovi dati, e troverete i
 Anche negli Stati Uniti stiamo vedendo una dinamica di trasmissione piuttosto complessa.
 <br><br>
 <!--For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips).-->
-Per esempio, tra i campioni recenti provenienti dal Connecticut (foglie evidenziate) troviamo alcuni che si mescolano sull'albero con i campioni dello stato di Washington (foglie non evidenziate), ma altri che sono loro antenati. 
+Per esempio, tra i campioni recenti provenienti dal Connecticut (foglie evidenziate) troviamo alcuni che si mescolano sull'albero con i campioni dello Stato di Washington (foglie non evidenziate), ma altri che sono loro antenati. 
 <!--While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.-->
 Fermo restando che c'è bisogno di più dati per avere delle certezze, questo suggerisce che ci siano stati eventi di trasmissione recenti anche tra parti molto distanti del Paese.
 <br><br>
 <!--This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.-->
-Questo sottolinea il fatto che i percorsi di trasmissione negli stessi Stati Uniti siano molo più complessi di quato si può evincere dai dati disponibili al momento.
+Questo sottolinea il fatto che i percorsi di trasmissione negli stessi Stati Uniti siano molo più complessi di quanto si può evincere dai dati disponibili al momento.
 <!--Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.-->
 Ulteriori dati ci aiuteranno a capire meglio quella che al momento sembra un'epidemia nazonale profondamente interconnessa che si innesta su uno sfondo di reazioni altamente eterogenee da parte dei diversi Stati.
 <!-- There is no right side text -->
