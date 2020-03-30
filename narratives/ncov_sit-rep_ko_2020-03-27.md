@@ -55,12 +55,12 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 금주 보고서에서 새로 업데이트 된 것들:
 
 **유럽**  
-* 유럽 전역에서 매우 활발하게 표본들이 뒤섞이고 있습니다. 이는 바이러스가 지난 3-5주 동안 꾸준하게 국경을 넘어 전파되었음을 의미합니다. 완화 조치에 대한 효과가 나타나기까지는 시간이 걸리므로, 곧 표본들이 나라 별로 군집화되는 것을 볼 수 있을 것입니다.
+* 유럽 전역에서 매우 활발하게 표본들이 뒤섞이고 있습니다. 이는 바이러스가 지난 3-5주 동안 꾸준하게 국경을 넘어 전파되었음을 의미합니다. 완화 조치에 대한 효과가 나타나기까지는 시간이 걸리므로, 곧 표본들이 나라 별로 묶이는 것을 볼 수 있을 것입니다.
 
 **북미**   
 * 미국 내 전파되는 양상이 매우 복잡합니다. 미국 반대 편에서 수집된 표본들은 매우 밀접한 연관성을 보여주고 있습니다.
 * 워싱턴 주는 적어도 두 개의 개별적인 유입(첫 번째는 중국에서, 두 번째는 유럽에서) 되었으며, 이로 인해 서로 다른 두 개의 전파 경로가 만들어졌습니다. 
-* 여러 주에서 지역 전파 가능성을 보여주는 증거가 있습니다. 특히, 캘리포니아 주 안에서의 전파 가능성이 제일 뚜렷해 보입니다.
+* 여러 주에서 지역사회 전파 가능성을 보여주는 증거가 있습니다. 특히, 캘리포니아 주 안에서의 전파 가능성이 제일 뚜렷해 보입니다.
 
 **중미와 남미**
 * 금주에 남미에서 새로운 염기서열 데이터를 받았지만, 표본 채취는 여전히 부족합니다. 이 지역에서 수집된 데이터보다 더 많은 코로나-19 활동이 있을 수 있지만 확신할 수는 없습니다.
@@ -69,11 +69,11 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * 최근 이란으로부터 코로나-19 바이러스가 다른 나라들로 퍼진 사례를 발견했습니다.
 
 **아프리카**  
-* 계통수를 통해 우리는 지난 11일(혹은 그 이상) 동안 콩고 민주 공화국의 킨샤사에서 지역 전파가 이루어졌을 가능성을 보여주고 있습니다. 
+* 계통수를 통해 우리는 지난 11일(혹은 그 이상) 동안 콩고 민주 공화국의 킨샤사에서 지역사회 전파가 이루어졌을 가능성을 보여주고 있습니다. 
 * 금주에 아프리카에서 새로운 염기서열 데이터를 받았으나, 표본 채취는 여전히 부족합니다. 이 지역에서 수집된 데이터보다 더 많은 코로나-19 활동이 있을 수 있습니다.
 
 **오세아니아**
-* 오스트레일리아의 뉴 사우스 웨일즈 내에서 지역 전파가 있었다는 것을 보여주는 사례가 있습니다.
+* 오스트레일리아의 뉴 사우스 웨일즈 내에서 지역사회 전파가 있었다는 것을 보여주는 사례가 있습니다.
 ```
 
 
@@ -140,7 +140,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
 # [지난 3-5주 동안 국경을 넘어 계속 확산됨](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
-이 슬라이드에서는 지난 3주 동안 유럽 전역에서 수집한 표본을 격리된 국가별로 채색 했습니다. 특히 국가별로 작은 군집들이 있지만, 동시에 다른 나라들의 군집들 과의 뒤섞임도 많이 있었습니다.
+이 슬라이드에서는 지난 3주 동안 유럽 전역에서 수집한 표본을 격리된 국가별로 채색 했습니다. 특히 국가별로 작은 사례군들이 있지만, 동시에 다른 나라들의 사례군들과의 뒤섞임도 많이 있었습니다.
 <br><br>
 이는 지난 3-5주 동안 국경을 넘어 계속 확산되었음을 시사합니다.
 <br><br>
@@ -149,7 +149,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
-# [아이슬란드로부터 온 새로운 염기서열 데이터](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
+# [아이슬란드로부터 온 새로운 데이터](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
 아이슬란드로부터 새로운 염기서열 데이터를 받았습니다.
 각 사례의 바이러스 접촉 경로(알려진 경우)를 색으로 구분해 보면, 이러한 사례들 중 다수가 최근 여행한 사람들의 사례임을 알 수 있습니다. 우리는 이 새로운 데이터를 분석하기 위해 열심히 노력하고 있으며, 다음 주에 연구 결과를 보고 할 것입니다.
@@ -170,38 +170,38 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 미국 내에서조차 그 확산 패턴은 매우 복잡합니다.
 <br><br>
-For example, recent samples from Connecticut (selected tips) are both ancestral to and intermingled with samples from Washington state (faded tips). 
-While more data is needed to draw firm conclusions, this suggests that there has been recent transmission between even very distant parts of the country.
+예를 들어, 코네티컷 주의 최근 샘플들(두껍게 표시한 부분)은 워싱턴 주 샘플들(희미하게 표시한 나머지)의 조상이기도 하고, 워싱턴 주 샘플들과 뒤섞이기도 한 것입니다.
+확실한 결론을 내리기 위해선 추가적인 데이터가 필요하지만, 이 사례들을 통해 최근 매우 먼 지역들 사이에서도 전파가 있어왔다는 것을 알 수 있습니다.
 <br><br>
-This highlights that the transmission patterns across the U.S. are far more complex than is represented in the currently available data.
-Additional data will help us understand what is likely a deeply interconnected national epidemic playing out against the backdrop of highly heterogeneous responses from states.
+이는 미국 전역에서 발생 중인 확산 패턴이 현재 주어진 데이터로 표시한 것보다 훨씬 더 복잡하다는 것을 알려주고 있습니다.
+추가적인 데이터를 통해 상호 밀접하게 연관된 국가 전염병에 대해 각 주들이 다른 반응을 보인 배경을 이해하는데 도움이 될 것입니다.
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [Multiple transmission chains circulating in Washington state](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+# [여러 개의 지역사회 전파 그룹들이 뒤섞이고 있는 워싱턴 주](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-Looking at the cases in Washington state, we see that there are at least two separate local outbreak clusters.
+워싱턴 주의 사례를 살펴보면 적어도 두 개의 별도의 지역 확산 사례군들이 있음을 알 수 있습니다.
 <br><br>
-However, the two clusters have different origins: the first cluster is most closely related to samples from China, while the second is most closely related to samples from Europe. It is also possible that these introductions were indirect, with unsampled cases from a different region in between.
+그러나 두 사례군들의 기원은 서로 다릅니다. 첫 번째 사례군은 중국의 표본과 가장 밀접한 관련이 있고, 두 번째 사례군은 유럽의 표본과 가장 밀접한 관련이 있습니다. 또한 이러한 유입들은 간접적으로 이루어졌을 가능성이 있으며, 그 사이에 다른 지역에서 온 수집되지 않은 사례가 있을 수도 있습니다.
 <br><br>
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [Likely two local transmission chains in California](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [캘리포니아 주에 2개의 지역사회 전파 그룹이 있는 것으로 보임](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
-We see similar patterns elsewhere in the U.S.
-<br><br>
-Here, we see several samples from Solano County in northern California, that are sampled on different dates but very closely related to one another.
-<br><br>
-While the available data from California is too limited to make strong conclusions, this preliminary evidence is consistent with local transmission within Solano County.
-<br><br>
-Elsewhere in the tree, we see a similar pattern for samples isolated in Santa Clara County.
-<br><br>
-These counties' clusters of cases are likely to due to separate introductions, based on their relative positions in the tree.
+미국의 다른 지역에서도 비슷한 패턴이 보입니다.
+<br> <br>
+이 슬라이드에서는 캘리포니아 주 북부에 위치한 솔라노 카운티에서 수집된 사례들을 보여줍니다. 이 사례들은 여러 날에 걸쳐서 수집되었음에도 불구하고, 대부분이 서로 밀접한 연관성을 보여주고 있습니다.
+<br> <br>
+캘리포니아 주 데이터는 아직 확실한 결론을 내리기엔 부족하지만, 이 사례들은 솔라노 카운티 내의 지역사회 전파 상황과 매우 밀접한 연관성을 보여주고 있습니다.
+<br> <br>
+계통수의 다른 영역을 살펴보면, 산타 클라라 카운티에서 전파 되지 않은 사례가 유사한 패턴을 보이는 것을 확인할 수 있습니다.
+<br> <br>
+이런 카운티들의 사례군은 계통수에서의 상대적인 위치를 기반으로 한 개별적인 유입으로 인해 발생했을 가능성이 있습니다.
 <!-- There is no right side text -->
 
 
@@ -264,13 +264,13 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [콩고 민주 공화국 내 킨샤사의 지역 전파 증거](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [콩고 민주 공화국 내 킨샤사의 지역사회 전파 증거](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
 콩고 민주 공화국 내 위치한 킨샤사 지역에서 새로 받은 염기서열 데이터에 의하면 여러 차례에 걸쳐 바이러스의 유입이 있었음을 보여주고 있습니다.
 <br><br>
-이 데이터들 중 일부는 그룹을 형성하는데, 이 그룹은 매우 높은 연관성을 보이는 지역 전파 사례들을 포함하고 있으며, 수일에 걸쳐서 수집된 것으로 보입니다.
+이 데이터들 중 일부는 그룹을 형성하는데, 이 그룹은 매우 높은 연관성을 보이는 지역사회 전파 사례들을 포함하고 있으며, 수일에 걸쳐서 수집된 것으로 보입니다.
 <br><br>
-이는 적어도 3월 15일 (이 지역 전파 그룹의 일부인 것으로 보이는 가장 빠른 사례의 표본 추출일) 이후로 계속되는 지역 전파와 일치합니다. 3월 15일보다 더 일찍 발생했을 수도 있습니다.
+이는 적어도 3월 15일 (이 지역사회 전파 그룹의 일부인 것으로 보이는 가장 빠른 사례의 표본 추출일) 이후로 계속되는 지역사회 전파와 일치합니다. 3월 15일보다 더 일찍 발생했을 수도 있습니다.
 <br><br>
 콩고 국립 생의학 연구소(INRB)의 뛰어난 연구 덕분에 우리는 다른 많은 곳에 숨겨져 있었던 지역 사회 전파를 볼 수 있었습니다.
 <!-- There is no right side text -->
@@ -287,9 +287,9 @@ These counties' clusters of cases are likely to due to separate introductions, b
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [뉴 사우스 웨일즈의 지역 전파](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [뉴 사우스 웨일즈의 지역사회 전파](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-새롭게 공유된 오스트레일리아의 염기서열 데이터로부터 우리는 뉴 사우스 웨일즈 전역에서 지역 전파가 있었음을 확인할 수 있었습니다. 적어도 2월 말부터 이 지역에서 바이러스가 퍼지고 있었을 것으로 보입니다.
+새롭게 공유된 오스트레일리아의 염기서열 데이터로부터 우리는 뉴 사우스 웨일즈 전역에서 지역사회 전파가 있었음을 확인할 수 있었습니다. 적어도 2월 말부터 이 지역에서 바이러스가 퍼지고 있었을 것으로 보입니다.
 
 <!-- There is no right side text -->
 
@@ -318,13 +318,13 @@ These counties' clusters of cases are likely to due to separate introductions, b
 ## 배울 점들
 #### 다가오는 몇 주 동안, 새로운 완화 조치가 국가 간 전파를 막았다는 증거가 유럽에서 나타나는지를 지켜볼 것입니다.
 <br><br>
-#### 더 많은 염기서열 데이터를 확보했기 때문에, 남미에서의 지역 전파 관련 징후들을 지속적으로 관찰할 것입니다.
+#### 더 많은 염기서열 데이터를 확보했기 때문에, 남미에서의 지역사회 전파 관련 징후들을 지속적으로 관찰할 것입니다.
 <br><br>
-#### 미국의 전염은 비록 외곽 지역이여도 그 유입과 전파가 매우 복잡한 패턴을 가지고 있을 가능성이 높습니다. 워싱턴 주와 캘리포니아 주에서 여러 개의 지역 전파 그룹들에 대한 증거를 발견했습니다.
+#### 미국의 전염은 비록 외곽 지역이여도 그 유입과 전파가 매우 복잡한 패턴을 가지고 있을 가능성이 높습니다. 워싱턴 주와 캘리포니아 주에서 여러 개의 지역사회 전파 그룹들에 대한 증거를 발견했습니다.
 <br><br>
-#### 오스트레일리아 뉴 사우스 웨일즈에서 지역 전파의 증거를 찾았습니다.
+#### 오스트레일리아 뉴 사우스 웨일즈에서 지역사회 전파의 증거를 찾았습니다.
 <br><br>
-#### 콩고 민주 공화국 내 킨샤사에서 지역 전파의 증거를 찾았습니다. 아직 바이러스가 아프리카의 다른 지역에서도 퍼지고 있는지 여부를 판단할 충분한 데이터가 없습니다.
+#### 콩고 민주 공화국 내 킨샤사에서 지역사회 전파의 증거를 찾았습니다. 아직 바이러스가 아프리카의 다른 지역에서도 퍼지고 있는지 여부를 판단할 충분한 데이터가 없습니다.
 ```
 
 <!-- ##### slide break ##### -->
