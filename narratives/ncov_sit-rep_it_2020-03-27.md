@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-27.
+title: Analisi genomica della diffusione del COVID-19. Rapporto sulla situazione aggiornato al 27 marzo 2020.
 authors:
   - Sidney M. Bell
   - Nicola Müller
@@ -25,12 +25,12 @@ translators:
   - Alessia Lepore
   - Sara Pilia
 translatorLinks:
-  - https://twitter.com/s_a_demidov
-  - https://twitter.com/meklab
-  - https://twitter.com/SaraMeiqi
+	- https://twitter.com/s_a_demidov
+	- https://twitter.com/alice_ledda_
+	- https://twitter.com/meklab
+	- https://twitter.com/SaraMeiqi
 date: "27 marzo 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
-<!-- abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."-->
 abstract: "Questo rapporto usa dati genomici pubblicamente condivisi per tracciare la diffusione del COVID-19. Questi rapporti sono aggiornati settimanalmente."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated. Please add your name under translators and a link to your professional webpage (can be twitter) under translatorLinks. -->
@@ -44,25 +44,25 @@ abstract: "Questo rapporto usa dati genomici pubblicamente condivisi per traccia
 # [Indice dei contenuti](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
 <!-- * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).-->
-* [Risorse di base](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).
+* [Risorse di base](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=2).
 <!-- * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).-->
-* [Una nota sulla raccolta dei campioni](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
+* [Una nota sulla raccolta dei campioni](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=3).  
 <!-- * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4). -->
-* [Aggiornamenti dall'Europa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
+* [Aggiornamenti dall'Europa](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=4).  
 <!--* [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).-->
-* [Aggiornamenti dal Nord America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
+* [Aggiornamenti dal Nord America](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=7).  
 <!--* [Updates for Central & South America](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  -->   
-* [Aggiornamenti dall' America Centrale e del Sud](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
+* [Aggiornamenti dall' America Centrale e del Sud](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=11).  
 <!-- * [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12). -->   
-* [Aggiornamenti dall'Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
+* [Aggiornamenti dall'Asia](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=13).  
 <!-- * [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14). --> 
-* [Aggiornamenti dall'Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
+* [Aggiornamenti dall'Africa](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=15).  
 <!-- * [Updates for Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16). -->  
-* [Aggiornamenti dall' Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
+* [Aggiornamenti dall' Oceania](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=17).  
 <!-- * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).   -->  
-* [Cosa puoi fare](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
+* [Cosa puoi fare](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=19).  
 <!--  * [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).    -->  
-* [Riconoscimenti scientifici](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [Riconoscimenti scientifici](https://nextstrain.org/narratives/ncov/sit-rep/it/2020-03-27?n=20).  
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown -->
