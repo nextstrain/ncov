@@ -113,6 +113,7 @@ location	Manaus
 location	Feira de Santana
 location	Vila Velha
 location	Mexico City
+location	La Crosse County
 location	King County
 location	Snohomish County
 location	Pierce County
@@ -183,6 +184,7 @@ division	Kuwait
 division	Gilgit Baltistan
 division	Tbilisi
 division	Thanh Hoa
+division	Ho Chi Minh City
 division	Vinhphuc
 division	Red River Delta
 division	Quangning
@@ -221,6 +223,11 @@ division	Grand Est
 division	Auvergne Rhone Alpes
 division	Spain
 division	Castilla Y León
+division	Basque Country
+division	Castilla La Mancha
+division	Andalusia
+division	Catalunya
+division	Castilla y Leon
 division	Galicia
 division	Madrid
 division	Flanders
@@ -246,6 +253,7 @@ division	Baden-Wuerttemberg
 division	North Rhine Westphalia
 division	Netherlands
 division	Utrecht
+division	Antwerp
 division	Overijssel
 division	Gelderland
 division	Limburg
@@ -268,10 +276,12 @@ division	Ticino
 division	Graubünden
 division	Schwyz
 division	Comunitat Valenciana
+division	Athens
 division	Italy
 division	Lazio
 division	Marche
 division	Lombardy
+division	Abruzzo
 division	Rome
 division	Friuli Venezia Giulia
 division	Usti nad Labem
@@ -311,6 +321,7 @@ division	Rio de Janeiro
 division	Distrito Federal
 division	Amazonas State
 division	Antioquia
+division	Bogota
 division	Quito
 division	Panama City
 division	Mexico City
@@ -328,7 +339,6 @@ division	New York
 division	Washington
 division	British Columbia
 division	Ontario
-
 
 country	China
 country	Hong Kong
@@ -350,6 +360,7 @@ country	Iran
 country	Pakistan
 country	Georgia
 country	Russia
+country	Europe
 country	Slovakia
 country	Poland
 country	Hungary
@@ -362,7 +373,7 @@ country	Netherlands
 country	Belgium
 country	Luxembourg
 country	Germany
-country	Austrial
+country	Austria
 country	Switzerland
 country	Italy
 country	Spain
@@ -372,6 +383,7 @@ country	Ireland
 country	Finland
 country	Sweden
 country	Portugal
+country	Greece
 country	Nigeria
 country	Senegal
 country	Algeria
