@@ -216,10 +216,10 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 11-->
-# [남아메리카에서 수집된 사례들을 주로 여행과 관련됨](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
+# [남아메리카에서 수집된 사례들은 주로 여행과 관련됨](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_region=Central%20America,South%20America&m=div&p=full&legend=open)
 아직 남아메리카로부터 보고된 유전체 염기서열 데이터는 많지 않습니다.
-이용 가능한 데이터들 중 대부분은 여행자로부터 비롯되었습니다.
-여기서는 알려진 접촉 이력 별로 다른 색을 사용하여 각각의 사례들을 구분하였습니다.
+이용 가능한 데이터들 중 대부분은 여행객으로부터 비롯되었습니다.
+여기서는 알려진 노출 이력 별로 다른 색을 사용하여 각각의 사례들을 구분하였습니다.
 <br><br>
 여행과 관련이 없는 사례들이 잠재적으로 흥미로운 패턴을 보이기 시작했지만, 아직 결론을 내릴만한 충분한 근거는 없습니다.
 염기서열 분석 시도가 증가하고 있으며, 상황이 더 명확해지면 다시 보고하도록 하겠습니다.
@@ -241,15 +241,15 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 # [이란에서 시작된 코로나19 전파](https://nextstrain.org/ncov?c=division_exposure&label=clade:A3&m=div&d=tree,map&f_division_exposure=Iran)
 <!-- There is no right side text -->
 
-아직 이란으로부터 보고된 바이러스 유전체 데이터는 없습니다.
-그러나 우리는 상당 수의 이란을 다녀 온 표본들의 염기서열 데이터를 가지고 있습니다.
+아직 이란으로부터 보고된 바이러스 유전체 자료는 없습니다.
+그러나 우리는 상당 수의 이란을 다녀 온 표본들의 염기서열 자료를 가지고 있습니다.
 <br><br>
-이란을 방문했던 기록이 있는 대부분의 염기서열 데이터는 한데 묶이며, 이는 이란에서의 많은 사례들이 단 한 번의 유입으로부터 비롯되었다는 것을 의미합니다. 
+이란을 방문했던 기록이 있는 대부분의 염기서열 자료는 한데 묶이며, 이는 이란에서의 많은 사례들이 단 한 번의 유입으로부터 비롯되었다는 것을 의미합니다. 
 <br><br>
-계통수의 맨 아래에는 파키스탄 여성이 이란을 방문한 것으로 보이는 새로운 염기서열 데이터가 있습니다.
+계통수의 맨 아래에는 파키스탄 여성이 이란을 방문한 것으로 보이는 새로운 염기서열 자료가 있습니다.
 흥미롭게도, 이 사건은 우리가 이란에 대해 알고 있는 다른 사례들과는 별개이지만, 거의 비슷한 시기에 수집되었습니다.
 <br><br>
-이는 우리가 가진 몇 가지의 가설과 일치합니다. 더 많은 데이터가 확보되는대로 분석을 업데이트 하겠습니다.
+이는 우리가 가진 몇 가지의 가설과 일관성을 보입니다. 더 많은 자료가 확보되는대로 분석을 업데이트하겠습니다.
 <!-- There is no right side text -->
 
 
@@ -265,15 +265,15 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 15-->
-# [콩고 민주 공화국 내 킨샤사의 지역사회 전파 증거](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
+# [콩고민주공화국 킨샤사의 지역사회 전파 증거](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=Congo&f_region=Africa&label=clade:A2a&p=grid&r=country)
 
-콩고 민주 공화국 내 위치한 킨샤사 지역에서 새로 받은 염기서열 데이터에 의하면 여러 차례에 걸쳐 바이러스의 유입이 있었음을 보여주고 있습니다.
+콩고민주공화국에 위치한 킨샤사 지역에서 새로 받은 염기서열 데이터에 의하면 여러 차례에 걸쳐 바이러스의 유입이 있었음을 보여주고 있습니다.
 <br><br>
 이 데이터들 중 일부는 그룹을 형성하는데, 이 그룹은 매우 높은 연관성을 보이는 지역사회 전파 사례들을 포함하고 있으며, 수일에 걸쳐서 수집된 것으로 보입니다.
 <br><br>
-이는 적어도 3월 15일 (이 지역사회 전파 그룹의 일부인 것으로 보이는 가장 빠른 사례의 표본 추출일) 이후로 계속되는 지역사회 전파와 일치합니다. 3월 15일보다 더 일찍 발생했을 수도 있습니다.
+이는 적어도 3월 15일 (이 지역사회 전파 연쇄의 일부인 것으로 보이는 가장 빠른 사례의 표본 추출일) 이후로 계속되는 지역사회 전파와 일치합니다. 3월 15일보다 더 일찍 발생했을 수도 있습니다.
 <br><br>
-콩고 국립 생의학 연구소(INRB)의 뛰어난 연구 덕분에 우리는 다른 많은 곳에 숨겨져 있었던 지역 사회 전파를 볼 수 있었습니다.
+콩고 국립생의학연구소(INRB)의 뛰어난 연구 덕분에 우리는 다른 많은 곳에 숨겨져 있었던 지역 사회 전파를 볼 수 있었습니다.
 <!-- There is no right side text -->
 
 
@@ -288,9 +288,9 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 18-->
-# [뉴 사우스 웨일즈의 지역사회 전파](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
+# [뉴사우스웨일즈주의 지역사회 전파](https://nextstrain.org/ncov/2020-03-27?Label=clade:A3&d=tree&f_division=New%20South%20Wales&label=clade:A3&p=full&r=location)
 
-새롭게 공유된 오스트레일리아의 염기서열 데이터로부터 우리는 뉴 사우스 웨일즈 전역에서 지역사회 전파가 있었음을 확인할 수 있었습니다. 적어도 2월 말부터 이 지역에서 바이러스가 퍼지고 있었을 것으로 보입니다.
+새롭게 공유된 오스트레일리아의 염기서열 데이터로부터 우리는 뉴사우스웨일즈주 전역에서 지역사회 전파가 있었음을 확인할 수 있었습니다. 적어도 2월 말부터 이 지역에서 바이러스가 퍼지고 있었을 것으로 보입니다.
 
 <!-- There is no right side text -->
 
@@ -303,7 +303,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 #### 개인이 할 수 있는 것들
 * 엄격한 사회적 거리두기를 하십시오. 특히, 당신이 취약 계층일수록 중요합니다.
 * 당신이 취약계층이 아니더라도 주변에 그런 사람이 많다는 것을 유념하십시오. 그래야 주변 사람들을 보호할 수 있습니다.
-* "당신이 방금 할라피뇨 고추를 썰어 콘택트 렌즈를 교체해야만 하는 것처럼" 손을 자주 씻으십시오.
+* "당신이 방금 할라피뇨 고추를 썰고난 뒤 콘택트 렌즈를 교체해야만 하는 것처럼" 손을 자주 씻으십시오.
 * 아프면 집에 머무르세요. 자가격리를 대비해 필요한 물자를 미리 비축하십시오.
 * 당신이 고용주라면 직원들이 아플 때 집에 있을 수 있도록 해주세요
 
@@ -316,16 +316,16 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## 배울 점들
+## 기억할 점들
 #### 다가오는 몇 주 동안, 새로운 완화 조치가 국가 간 전파를 막았다는 증거가 유럽에서 나타나는지를 지켜볼 것입니다.
 <br><br>
-#### 더 많은 염기서열 데이터를 확보했기 때문에, 남아메리카에서의 지역사회 전파 관련 징후들을 지속적으로 관찰할 것입니다.
+#### 더 많은 염기서열 자료를 확보했기 때문에, 남아메리카에서의 지역사회 전파 관련 징후들을 지속적으로 관찰할 것입니다.
 <br><br>
-#### 미국의 전염은 비록 외곽 지역이여도 그 유입과 전파가 매우 복잡한 패턴을 가지고 있을 가능성이 높습니다. 워싱턴 주와 캘리포니아 주에서 여러 개의 지역사회 전파 그룹들에 대한 증거를 발견했습니다.
+#### 미국의 전염은 비록 외곽 지역이여도 그 유입과 전파가 매우 복잡한 패턴을 가지고 있을 가능성이 높습니다. 워싱턴주와 캘리포니아주에서 여러 개의 지역사회 전파 연쇄들에 대한 증거를 발견했습니다.
 <br><br>
-#### 오스트레일리아 뉴 사우스 웨일즈에서 지역사회 전파의 증거를 찾았습니다.
+#### 오스트레일리아 뉴사우스웨일즈주에서 지역사회 전파의 증거를 찾았습니다.
 <br><br>
-#### 콩고 민주 공화국 내 킨샤사에서 지역사회 전파의 증거를 찾았습니다. 아직 바이러스가 아프리카의 다른 지역에서도 퍼지고 있는지 여부를 판단할 충분한 데이터가 없습니다.
+#### 콩고민주공화국 내 킨샤사에서 지역사회 전파의 증거를 찾았습니다. 아직 바이러스가 아프리카의 다른 지역에서도 퍼지고 있는지 여부를 판단할 충분한 데이터가 없습니다.
 ```
 
 <!-- ##### slide break ##### -->
