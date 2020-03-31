@@ -130,12 +130,12 @@ if __name__ == '__main__':
     context_seqs_dict['names'] = [name for i, name in keep]
 
     # for each context sequence, calculate minimal distance to focal set
-    d = calculate_distance_matrix(focal_seqs_dict['snps'], context_seqs_dict['snps'], consensus = context_seqs_dict['consensus'])
+    d = calculate_distance_matrix(context_seqs_dict['snps'], focal_seqs_dict['snps'], consensus = context_seqs_dict['consensus'])
     closest_match = np.argmin(d, axis=1)[:,0]
 
     minimal_distance_to_focal_set = {}
-    for focal_index, context_index in enumerate(np.nditer(closest_match)):
-        minimal_distance_to_focal_set[context_seqs_dict['names'][context_index]] = (d[focal_index, context_index], focal_index)
+    for context_index, focal_index in enumerate(np.nditer(closest_match)):
+        minimal_distance_to_focal_set[context_seqs_dict['names'][context_index]] = (d[context_index, focal_index], int(focal_index))
 
     # for each focal sequence with close matches (using the index), we list all close contexts
     close_matches = defaultdict(list)
@@ -154,5 +154,5 @@ if __name__ == '__main__':
             # penalize if many sequences are close to the same focal one by using the index of the shuffled list of neighbours
             # currently each position in this lists reduced priority by 0.2, i.e. 5 other sequences == one mutation
             position = close_matches[minimal_distance_to_focal_set[seqid][1]].index(seqid)
-            priority = -minimal_distance_to_focal_set[seqid][0] - 0.003*np.sum(context_seq_array[i].mask) - 0.2*position
+            priority = -minimal_distance_to_focal_set[seqid][0] - 0.003* int((1*(context_seqs_dict['snps'][i,:]==110)).sum(1)[0]) - 0.2*position
             fh.write(f"{seqid}\t{priority:1.2f}\n")
