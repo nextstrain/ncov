@@ -1,5 +1,5 @@
 ---
-title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 13일 상황 보고서
+title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 20일 상황 보고서
 authors:
   - Emma Hodcroft
   - Nicola Müller
