@@ -40,16 +40,16 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text 1-->
 # [목차](https://nextstrain.org/ncov/2020-03-27?d=tree,map&p=grid)
 
-* [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-26?n=2).     
-* [데이터 수집 관련 사항](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=3).  
-* [유럽의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=4).  
-* [북아메리카의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=6).  
-* [중앙아메리카와 남아메리카의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=10).  
-* [아시아의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=12).  
-* [아프리카의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=14).  
-* [오세아니아의 현황](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).  
-* [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=18).  
-* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=19).  
+* [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=2).     
+* [데이터 수집 관련 사항](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=3).  
+* [유럽의 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=4).  
+* [북아메리카의 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=7).  
+* [중앙아메리카와 남아메리카의 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=11).  
+* [아시아의 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=13).  
+* [아프리카의 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=15).  
+* [오세아니아의 현황](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=17).  
+* [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=19).  
+* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-27?n=20).  
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # 개요
@@ -102,7 +102,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 [자주 묻는 질문](https://nextstrain.org/help/coronavirus/FAQ).
 
-[흔한 오해들](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+[흔한 오해들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-13?n=11).
 
 
 ## 외부 자료
@@ -347,7 +347,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 유전체 정보 및 메타정보의 빠른 공유가 아니었다면 이 분석들은 불가능했을 것입니다.
 
 <br>
-이 데이터는 [GISAID](https://gisaid.org) 를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
+이 데이터는 [GISAID](https://www.gisaid.org/) 를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
@@ -583,11 +583,10 @@ We are grateful for the data gathered by these originating labs:
 <!-- ##### slide break ##### -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
+# [과학적 기여: 상세 내역](https://nextstrain.org/ncov/2020-03-27?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
-
+이 데이터는 [GISAID](https://www.gisaid.org/) 를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
+우측에 각 연구실이 기여한 구체적인 서열 정보가 있습니다.
 <br>
 
 To the right we give specific sequences shared by each lab.
