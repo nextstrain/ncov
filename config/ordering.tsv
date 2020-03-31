@@ -247,6 +247,13 @@ division	Galicia
 division	Madrid
 division	Flanders
 division	Leuven
+division	Chaineux
+division	Kalmthout
+division	Ganshoren
+division	Nevele
+division	Houthalen-Helchteren
+division	Zonhoven
+division	Gierle
 division	Dilbeek
 division	Schoten
 division	Rixensart
@@ -262,6 +269,7 @@ division	Huldenberg
 division	Brussels
 division	Liège
 division	Switzerland
+division	Lucerne
 division	Bavaria
 division	Duesseldorf
 division	Baden-Wuerttemberg
@@ -308,6 +316,9 @@ division	Nottinghamshire
 division	United Kingdom
 division	Wales
 division	Dublin
+division	Tipperary
+division	Louth
+division	Wicklow
 division	Cork
 division	Limerick
 division	Scotland

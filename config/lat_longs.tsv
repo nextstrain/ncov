@@ -190,6 +190,7 @@ division	Castilla La Mancha	39.2796	-3.0977
 division	Castilla Y León	41.8357	-4.3976
 division	Castilla y Leon	41.8357	-4.3976
 division	Central Hungary	47.360008	19.252798
+division	Chaineux	50.6317	5.8344
 division	China	33.394333	104.689839
 division	Chongqing	29.858721	107.375623
 division	Chungcheongnam	36.685948	126.799198
@@ -216,9 +217,11 @@ division	France	46.2276	2.2137
 division	Friuli Venezia Giulia	46.2259	13.1034
 division	Fujian	26.284852	118.122938
 division	Galicia	42.5751	-8.1339
+division	Ganshoren	50.8730	4.3093
 division	Gelderland	52.042091	6.014860
 division	Geneva	46.216038	6.136984
 division	Germany	51.1657	10.4515
+division	Gierle	51.2672	4.8677
 division	Gilgit Baltistan	35.589113	75.614837
 division	Goiais	-15.932272	-49.593573
 division	Grand Est	48.6998	6.1878
@@ -236,6 +239,7 @@ division	Henan	33.817629	113.690243
 division	Holsbeek	50.9211	4.7570
 division	Ho Chi Minh City	10.790417	106.653985
 division	Hong Kong	22.3964	114.1095
+division	Houthalen-Helchteren	51.0312	5.3765
 division	Hubei	31.095477	112.676644
 division	Huldenberg	50.7886	4.5881
 division	Ile De France	48.724751	2.491522
@@ -246,6 +250,7 @@ division	Italy	43.382775	12.183629
 division	Japan	35.68536	139.75309
 division	Jiangsu	33.077761	119.825116
 division	Jiangxi	27.458973	115.535326
+division	Kalmthout	51.3830	4.4752
 division	Kanagawa	35.403801	139.294288
 division	Kansai	34.778675	135.880055
 division	Kanto	36.167777	139.170466
@@ -269,6 +274,8 @@ division	Liège	50.6326	5.5797
 division	Limburg	51.230477	5.956744
 division	Limerick	52.662235	-8.627565
 division	Lombardy	45.4791	9.8452
+division	Louth	53.9508	-6.5406
+division	Lucerne	47.0502	8.3093
 division	Luxembourg	49.755428	6.119486
 division	Madrid	40.4168	-3.7038
 division	Marche	43.374025	13.161012
@@ -282,6 +289,7 @@ division	Minnesota	46.126042	-94.619581
 division	NanChang	28.6829	115.8582
 division	Nara	34.371026	135.887389
 division	Netherlands	52.1326	5.2913
+division	Nevele	51.0343	3.5474
 division	New South Wales	-32.688430	146.228414
 division	Nonthaburi	13.852511	100.522791
 division	Normandie	48.8799	0.1713
@@ -338,6 +346,7 @@ division	Texas	31.146868	-99.188758
 division	Thanh Hoa	20.026365	105.439044
 division	Ticino	46.345334	8.774813
 division	Tilburg	51.567213	5.047957
+division	Tipperary	52.4738	-8.1619
 division	Tokyo	35.683441	139.766131
 division	UK	54.234125	-2.078794
 division	United Kingdom	54.242833	-2.088739
@@ -352,10 +361,12 @@ division	Vorst	50.8134	4.3248
 division	Wales	52.306085	-3.621944
 division	Washington	47.183945	-119.950361
 division	Wellington	-41.273449	174.857634
+division	Wicklow	52.9808	-6.0446
 division	Wisconsin	44.535145	-89.527762
 division	Yunnan	24.556297	101.366210
 division	Zhejiang	29.225710	120.299125
 division	Zielonogorskie	52.2275	15.2559
+division	Zonhoven	50.9871	5.3672
 division	Zurich	47.441242	8.641154
 
 division	Antioquia	6.709191	-75.484721
