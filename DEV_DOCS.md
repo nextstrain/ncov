@@ -9,6 +9,18 @@ Please see [the main Nextstrain docs](https://nextstrain.org/docs/getting-starte
 In order to run the Nextstrain build you must provision `./data/sequences.fasta` and `./data/metadata.tsv`.
 We've included a test set of sequences that are publicly available via Genbank as `./example_data/sequences.fasta`.
 
+The public version of this NextStrain build uses data from GISAID. GISAID data is publically available but under restrictive licensing terms that prevent it from being hosted here. However, you can download the fasta yourself, and use it with a little normalization. The `./data/metadata.tsv` distributed in this repository has already been provisioned to match the GISAID data. 
+
+To get the fasta, follow these steps:
+
+#1 [Register for a GISAID account](https://www.gisaid.org/registration/register/) if you do not have one.
+#2 Log into GISAID and click the EpiCov(tm) tab.
+#3 Look for a button near the bottom right labelled "download". This will give you the most recent set of sequences, in a file named `gisaid_cov2020_sequences.fasta`
+#4 Use `./scripts/normalize_gisaid_fasta.sh` from this repository to convert `gisaid_cov2020_sequences.fasta` into a format usable by NextStrain, and place it in `./data/sequences.fasta`:
+
+`./scripts/normalize_gisaid_fasta.sh ./data/gisaid_cov2020_sequences.fasta ./data/sequences.fasta`
+
+
 ## API Access  
 
 API access to the evolutionary analysis that powers the visualization at [nextstrain.org/ncov](https://nextstrain.org/ncov) is available at [http://data.nextstrain.org/ncov.json](http://data.nextstrain.org/ncov.json). Schema information [here](https://github.com/nextstrain/augur/blob/master/augur/data/schema-export-v2.json).
