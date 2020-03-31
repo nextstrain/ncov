@@ -76,7 +76,7 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False):
 
     return {'snps': sparse_snps, 'consensus': consensus, 'names': seq_names}
 
-
+# Function adapted from https://github.com/gtonkinhill/pairsnp-python
 def calculate_distance_matrix(sparse_matrix_A, sparse_matrix_B, consensus):
 
     n_seqs_A = sparse_matrix_A.shape[0]
