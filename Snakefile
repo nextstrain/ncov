@@ -44,8 +44,8 @@ rule download:
         metadata = config["metadata"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta {output.sequences:q}
         aws s3 cp s3://nextstrain-ncov-private/metadata.tsv {output.metadata:q}
+        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta {output.sequences:q}
         """
 
 rule filter:

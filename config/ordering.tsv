@@ -36,6 +36,7 @@ location	Bangkok
 location	Singapore
 location	Gold Coast
 location	Sydney
+location	Sunshine Coast
 location	Melbourne
 location	Brisbane
 location	Rockhampton
@@ -46,6 +47,7 @@ location	Riyadh
 location	Hawali
 location	Dasman
 location	Saint Petersburg
+location	Vienne
 location	Heinsberg District
 location	Heinsberg
 location	Munich
@@ -80,6 +82,13 @@ location	Vanves
 location	Crouy en Thelle
 location	Meudon la Forêt
 location	Crépy en Valois
+location	Bourg-en-Bresse
+location	Saint-Priest
+location	Venissieux
+location	Macon
+location	Privas
+location	Valence
+location	Lyon
 location	Paris
 location	Reims
 location	garches
@@ -100,6 +109,8 @@ location	Rome
 location	Milan
 location	valencia
 location	England
+location	South Yorkshire
+location	Derbyshire
 location	Yorkshire
 location	Nottinghamshire
 location	Cardiff
@@ -145,20 +156,7 @@ location	Boston
 location	Manhattan
 location	Nassau County
 
-location	South Yorkshire
-location	Derbyshire
-
-location	Bourg-en-Bresse
-location	Saint-Priest
-location	Venissieux
-location	Macon
-location	Privas
-location	Valence
-location	Lyon
-
-location	Vienne
-
-division	Basel-Stadt
+location	Grand Princess Cruise Ship
 
 
 division	China
@@ -243,9 +241,11 @@ division	Castilla La Mancha
 division	Andalusia
 division	Catalunya
 division	Castilla y Leon
+division	Barcelona
 division	Galicia
 division	Madrid
 division	Flanders
+division	Beersel
 division	Leuven
 division	Chaineux
 division	Kalmthout
@@ -276,6 +276,7 @@ division	Baden-Wuerttemberg
 division	North Rhine Westphalia
 division	Netherlands
 division	Utrecht
+division	Deinze
 division	Antwerp
 division	Overijssel
 division	Gelderland
@@ -290,6 +291,7 @@ division	Austria
 division	Germany
 division	Zielonogorskie
 division	Basel
+division	Basel-Stadt
 division	Bern
 division	Zurich
 division	Aargau
@@ -364,6 +366,10 @@ division	Massachusetts
 division	New York
 division	Washington
 division	British Columbia
+division	Saskatchewan
+division	Nova Scotia
+division	New Brunswick
+division	Manitoba
 division	Ontario
 
 country	China
