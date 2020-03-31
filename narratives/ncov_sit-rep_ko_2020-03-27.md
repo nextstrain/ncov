@@ -58,7 +58,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 **유럽**  
 * 유럽 전역에서 매우 활발하게 표본들이 뒤섞이는 것을 관찰할 수 있습니다. 이는 바이러스가 지난 3-5주 동안 꾸준하게 국경을 넘어 전세계로, 그리고, 국지적으로 전파되었음을 의미합니다. 완화 조치에 대한 효과가 나타나기까지는 시간이 걸리므로, 곧 표본들이 나라 별로 묶이는 것을 볼 수 있을 것입니다.
 
-**북미**   
+**북아메리카**   
 * 미국 내 전파되는 양상이 매우 복잡합니다. 나라의 반대 편에서 수집된 표본들끼리도 매우 밀접한 연관성을 보여주고 있습니다.
 * 워싱턴주에는 적어도 두 번의 개별적인 유입이 있었으며(첫 번째는 중국에서, 두 번째는 유럽에서 온 것으로 추정), 이로 인해 서로 다른 두 개의 전파 경로가 만들어졌습니다. 
 * 여러 주에서 지역사회 전파 가능성을 보여주는 증거가 있습니다. 특히, 캘리포니아주 안에서의 전파 가능성이 제일 뚜렷해 보입니다.
@@ -120,7 +120,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 3-->
 # [데이터 수집 관련 사항](https://nextstrain.org/ncov/2020-03-27?c=country&r=country&d=map&p=grid&legend=closed)
-현재 저희는 6개 대륙, 48개국에서 얻은 분리된 바이러스의 RNA 염기서열 정보를 해독했습니다. 이는 엄청난 성과입니다 -- 큰 RNA 유전체를 가진 미지의 바이러스의 염기서열 정보를 유행 와중에 얻는 것은 굉장히 어렵습니다. 이는 전 세계의 과학자와 의료인들의 신속한 정보공유와 헌신이 아니었다면 불가능했을 것입니다.
+현재 저희는 6개 대륙, 48개국에서 얻은 분리된 바이러스의 RNA 염기서열 정보를 해독했습니다. 이는 엄청난 성과입니다. 큰 RNA 유전체를 가진 미지의 바이러스의 염기서열 정보를 유행 와중에 얻는 것은 굉장히 어렵습니다. 이는 전 세계의 과학자와 의료인들의 신속한 정보공유와 헌신이 아니었다면 불가능했을 것입니다.
 <br><br>
 이 데이터를 활용하면 유행의 여러 특성을 실시간으로 유추할 수 있지만 저희의 결론은 현재 활용가능한 데이터에만 국한됩니다.
 <br><br>
@@ -141,7 +141,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 5-->
 # [지난 3-5주 동안 국경을 넘어 계속 확산됨](https://nextstrain.org/ncov/2020-03-27?c=country&d=tree,map&dmin=2020-03-06&f_region=Europe&p=full&r=country&legend=closed)
-이 슬라이드에서는 지난 3주 동안 유럽 전역에서 수집한 표본을 격리된 국가별로 채색 했습니다. 특히 국가별로 작은 사례군들이 있지만, 동시에 다른 나라들의 사례군들과의 뒤섞임도 많이 있었습니다.
+이 슬라이드에서는 지난 3주 동안 유럽 전역에서 수집한 표본을 표본이 채취된 국가별로 채색했습니다. 특히 국가별로 작은 군집들이 나타나지만, 동시에 다른 나라들의 군집들과의 뒤섞임도 많이 있었습니다.
 <br><br>
 이는 지난 3-5주 동안 국경을 넘어 계속 확산되었음을 시사합니다.
 <br><br>
@@ -152,14 +152,14 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- This is left-side text 5-->
 # [아이슬란드로부터 온 새로운 데이터](https://nextstrain.org/ncov/2020-03-27?c=division_exposure&d=tree,map&f_country=Iceland&legend=open)
 
-아이슬란드로부터 새로운 염기서열 데이터를 받았습니다.
-각 사례의 바이러스 접촉 경로(알려진 경우)를 색으로 구분해 보면, 이러한 사례들 중 다수가 최근 여행한 사람들의 사례임을 알 수 있습니다. 우리는 이 새로운 데이터를 분석하기 위해 열심히 노력하고 있으며, 다음 주에 연구 결과를 보고 할 것입니다.
+아이슬란드로부터 여러 새로운 염기서열 자료를 받았습니다.
+(알려진 경우) 각 사례의 바이러스 노출 경로를 색으로 구분해 보면, 이러한 사례들 중 다수가 최근 여행한 사람들의 사례임을 알 수 있습니다. 우리는 이 새로운 데이터를 분석하기 위해 열심히 노력하고 있으며, 다음 주에 연구 결과를 보고 할 것입니다.
 <!-- There is no right side text -->
 
 
 <!-- ############ NORTH AMERICA ############# -->
 <!-- This is left-side text 6-->
-# [미국의 현황](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
+# [북아메리카의 현황](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_region=North%20America&p=grid&r=location&legend=closed)
 
 
 <!-- There is no right side text -->
@@ -171,19 +171,19 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 미국 내에서조차 그 확산 패턴은 매우 복잡합니다.
 <br><br>
-예를 들어, 코네티컷 주의 최근 샘플들(두껍게 표시한 부분)은 워싱턴 주 샘플들(희미하게 표시한 나머지)의 조상이기도 하고, 워싱턴 주 샘플들과 뒤섞이기도 한 것입니다.
-확실한 결론을 내리기 위해선 추가적인 데이터가 필요하지만, 이 사례들을 통해 최근 매우 먼 지역들 사이에서도 전파가 있어왔다는 것을 알 수 있습니다.
+예를 들어, 코네티컷주의 최근 표본들(두껍게 표시한 부분)은 워싱턴주 표본들(희미하게 표시한 나머지)의 조상이기도 하고, 워싱턴주 표본들과 뒤섞여 있기도 합니다.
+확실한 결론을 내리기 위해선 추가적인 자료가 필요하지만, 이 사례들을 통해 최근 매우 먼 지역들 사이에서도 전파가 있어왔다는 것을 알 수 있습니다.
 <br><br>
 이는 미국 전역에서 발생 중인 확산 패턴이 현재 주어진 데이터로 표시한 것보다 훨씬 더 복잡하다는 것을 알려주고 있습니다.
-추가적인 데이터를 통해 상호 밀접하게 연관된 국가 전염병에 대해 각 주들이 다른 반응을 보인 배경을 이해하는데 도움이 될 것입니다.
+추가적인 자료들을 통해 상호 밀접하게 연관된 국가 단위 유행 상황에 대해 각 주들이 다른 반응을 보인 배경을 이해하는데 도움이 될 것입니다.
 <!-- There is no right side text -->
 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 8-->
-# [여러 개의 지역사회 전파 그룹들이 뒤섞이고 있는 워싱턴 주](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
+# [다수의 전파 연쇄가 순환 중인 워싱턴주](https://nextstrain.org/ncov/2020-03-27?d=tree,map&f_country=USA&f_division=Washington&p=full&r=location)
 
-워싱턴 주의 사례를 살펴보면 적어도 두 개의 별도의 지역 확산 사례군들이 있음을 알 수 있습니다.
+워싱턴주의 사례를 살펴보면 적어도 두 개의 별도의 지역 확산 사례군들이 있음을 알 수 있습니다.
 <br><br>
 그러나 두 사례군들의 기원은 서로 다릅니다. 첫 번째 사례군은 중국의 표본과 가장 밀접한 관련이 있고, 두 번째 사례군은 유럽의 표본과 가장 밀접한 관련이 있습니다. 또한 이러한 유입들은 간접적으로 이루어졌을 가능성이 있으며, 그 사이에 다른 지역에서 온 수집되지 않은 사례가 있을 수도 있습니다.
 <br><br>
@@ -192,15 +192,15 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 <!-- ##### slide break ##### -->
 <!-- This is left-side text 9-->
-# [캘리포니아 주에 2개의 지역사회 전파 그룹이 있는 것으로 보임](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
+# [두 개의 전파 연쇄가 있는 것으로 보이는 캘리포니아주](https://nextstrain.org/ncov/2020-03-27?c=location&f_country=USA&f_division=California&label=clade:A7&p=full&r=location&m=div&d=tree,map)
 
 미국의 다른 지역에서도 비슷한 패턴이 보입니다.
 <br> <br>
-이 슬라이드에서는 캘리포니아 주 북부에 위치한 솔라노 카운티에서 수집된 사례들을 보여줍니다. 이 사례들은 여러 날에 걸쳐서 수집되었음에도 불구하고, 대부분이 서로 밀접한 연관성을 보여주고 있습니다.
+이 슬라이드에서는 캘리포니아주 북부에 위치한 솔라노 카운티에서 수집된 사례들을 보여줍니다. 이 사례들은 여러 날에 걸쳐서 수집되었음에도 불구하고, 대부분이 서로 밀접한 연관성을 보여주고 있습니다.
 <br> <br>
 캘리포니아 주 데이터는 아직 확실한 결론을 내리기엔 부족하지만, 이 사례들은 솔라노 카운티 내의 지역사회 전파 상황과 매우 밀접한 연관성을 보여주고 있습니다.
 <br> <br>
-계통수의 다른 영역을 살펴보면, 산타 클라라 카운티에서 전파 되지 않은 사례가 유사한 패턴을 보이는 것을 확인할 수 있습니다.
+계통수의 다른 영역을 살펴보면, 샌타클래라 카운티에서 전파 되지 않은 사례가 유사한 패턴을 보이는 것을 확인할 수 있습니다.
 <br> <br>
 이런 카운티들의 사례군은 계통수에서의 상대적인 위치를 기반으로 한 개별적인 유입으로 인해 발생했을 가능성이 있습니다.
 <!-- There is no right side text -->
