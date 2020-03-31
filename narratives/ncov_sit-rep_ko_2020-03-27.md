@@ -25,8 +25,8 @@ translators:
   - Kyo Bin Kang
 translatorLinks:
   - https://taehoonh.github.io
-  - 
-  - 
+  - https://twitter.com/minkyuxyz
+  - https://twitter.com/kyobinkang
 date: "2020 March 27"
 dataset: "https://nextstrain.org/ncov/2020-03-27?d=tree,map"
 abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
