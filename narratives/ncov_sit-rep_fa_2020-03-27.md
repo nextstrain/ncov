@@ -1,5 +1,5 @@
 ---
-title: Genomic analysis of COVID-19 spread. Situation report 2020-03-27.
+title: .آنالیز ژنتیکی شیوع کووید-۱۹. گزارش اجرایی ۲۷ مارس ۲۰۲۰
 authors:
   - Sidney M. Bell
   - Nicola Müller
