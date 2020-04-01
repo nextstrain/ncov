@@ -41,7 +41,7 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 * [Filogenetik ağaçları nasıl okurum](https://nextstrain.org/narratives/trees-background?n=3)?  
 * ["Çeşitlilik" (Diversity) panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
 * [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Zamanla boyunca farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
+* [Zaman içindeki farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
 * [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [Ağaçtaki karakterleri (renkleri) nasıl yorumlamalıyım](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Harita ile filogenetik ağacın ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=9)?  
@@ -138,7 +138,8 @@ Bu şu anda, bir filogenetik ağaca çok fazla benzemiyor olabilir. Genom dizile
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [* [Zaman içindeki farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
+](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 Ayrıca, x eksenine örneklem tarihini yerleştirerek virüsün zaman içinde nasıl yayıldığını da görüntüleyebiliriz. Burada, x ekseni her virüsün örneklem tarihini temsil ediyor. Uç kısımların konumları bu örneklerin alındığı tarihi yansıtıyor. İç taraflardaki düğümlerin tarihleri -- "kayıp vakalar" -- ise soyların ne zaman örneklendiğine ve virüsün mutasyon geçirme hıza göre bulunur.
 <br><br>
 Daha önce aynı hat üzerinde duran (yani özdeş olan) genom dizilerinin şimdi nasıl zaman boyunca yayıldığına dikkat edin. Bu, virüsün mutasyon hızı yayılma hızından biraz daha yavaş olduğunda olur. Ağacın nasıl değiştiğini görmek için bu sayfa ve önceki sayfa arasında geçiş yapabilirsiniz.
