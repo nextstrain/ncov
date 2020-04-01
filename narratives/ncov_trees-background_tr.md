@@ -39,7 +39,7 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 
 * [Bulaşma ağları ile filogenetik ağaçların ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [Filogenetik ağaçları nasıl okurum](https://nextstrain.org/narratives/trees-background?n=3)?  
-* ["Çeşitlilik" (Diversity) panelinin filogenetik ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
+* ["Çeşitlilik" panelinin filogenetik ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
 * [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Zaman boyunca farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
 * [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)?  
@@ -137,7 +137,7 @@ Bu şu anda, bir filogenetik ağaca çok fazla benzemiyor olabilir. Genom dizile
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Zaman içindeki farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6)(https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [Zaman içindeki farklılıkları belirlemek](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 Ayrıca, x eksenine örneklerin alındığı tarihi yerleştirerek virüsün zaman içinde nasıl yayıldığını da görüntüleyebiliriz. Burada, x ekseni her virüsün örneklendiği tarihi temsil ediyor. Uç kısımların konumları bu örneklerin alındığı tarihi yansıtıyor. İç taraflardaki düğümlerin tarihleri ("kayıp vakalar") ise ataların ne zaman örneklendiğine ve virüsün mutasyon geçirme hıza göre bulunur.
 <br><br>
 Daha önce aynı hat üzerinde duran (yani özdeş olan) genom dizilerinin şimdi nasıl zaman boyunca yayıldığına dikkat edin. Bu, virüsün mutasyon hızı yayılma hızından biraz daha yavaş olduğunda olur. Ağacın nasıl değiştiğini görmek için bu sayfa ve önceki sayfa arasında geçiş yapabilirsiniz.
