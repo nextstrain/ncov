@@ -36,7 +36,7 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False):
             if consensus is None:
                 align_length = len(s)
                 # Take consensus as first sequence
-                consensus = np.fromstring(s.lower(), dtype=np.int8)
+                consensus = np.frombuffer(s.lower().encode('utf-8'), dtype=np.int8).copy()
                 consensus[(consensus!=97) & (consensus!=99) & (consensus!=103) & (consensus!=116)] = 97
             else:
                 align_length = len(consensus)
@@ -47,7 +47,7 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False):
             if(len(s)!=align_length):
                 raise ValueError('Fasta file appears to have sequences of different lengths!')
 
-            s = np.fromstring(s.lower(), dtype=np.int8)
+            s = np.frombuffer(s.lower().encode('utf-8'), dtype=np.int8).copy()
             s[(s!=97) & (s!=99) & (s!=103) & (s!=116)] = 110
             snps = consensus!=s
             right = n_snps + np.sum(snps)
@@ -114,7 +114,7 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--alignment", type=str, required=True, help="FASTA file of alignment")
-    # parser.add_argument("--metadata", type = str, required=True, help="metadata")
+    parser.add_argument("--metadata", type = str, required=True, help="metadata")
     parser.add_argument("--focal-alignment", type = str, required=True, help="focal smaple of sequences")
     parser.add_argument("--output", type=str, required=True, help="FASTA file of output alignment")
     args = parser.parse_args()
@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
     minimal_distance_to_focal_set = {}
     for context_index, focal_index in enumerate(np.nditer(closest_match)):
-        minimal_distance_to_focal_set[context_seqs_dict['names'][context_index]] = (d[context_index, focal_index], int(focal_index))
+        minimal_distance_to_focal_set[context_seqs_dict['names'][context_index]] = (int(d[context_index, focal_index]), int(focal_index))
 
     # for each focal sequence with close matches (using the index), we list all close contexts
     close_matches = defaultdict(list)
@@ -145,6 +145,8 @@ if __name__ == '__main__':
     for f in close_matches:
         shuffle(close_matches[f])
         close_matches[f].sort(key=lambda x:minimal_distance_to_focal_set[x][0])
+
+    
 
     # export priorities
     with open(args.output, 'w') as fh:
