@@ -139,22 +139,19 @@ Bu şu anda, bir filogenetik ağaca çok fazla benzemiyor olabilir. Genom dizile
 
 <!-- ############ SLIDE BREAK ############# -->
 # [Measuring differences over time](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-We can also visualize how the virus has spread over time by using the sampling date as the x axis.
-Here, the x axis represents the sampling date of each virus. The tips' positions reflect the date those samples were taken. The dates of internal nodes -- the "missing cases" -- are inferred based on when their descendants were sampled and the rate at which the virus mutates.
+Ayrıca, x eksenine örneklem tarihini yerleştirerek virüsün zaman içinde nasıl yayıldığını da görüntüleyebiliriz. Burada, x ekseni her virüsün örneklem tarihini temsil ediyor. Uç kısımların konumları bu örneklerin alındığı tarihi yansıtıyor. İç taraflardaki düğümlerin tarihleri -- "kayıp vakalar" -- ise soyların ne zaman örneklendiğine ve virüsün mutasyon geçirme hıza göre bulunur.
 <br><br>
-Notice how many sequences that previously sat in a line (indicating identical genomes) are now spread apart in time.
-This happens when the rate at which the virus mutates is slightly slower than the rate at which is spreads.
-You can scroll up and down between the previous slide and this one, to see how the tree changes.
+Daha önce aynı hat üzerinde duran (yani özdeş olan) genom dizilerinin şimdi nasıl zaman boyunca yayıldığına dikkat edin. Bu, virüsün mutasyon hızı yayılma hızından biraz daha yavaş olduğunda olur. Ağacın nasıl değiştiğini görmek için bu sayfa ve önceki sayfa arasında geçiş yapabilirsiniz.
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 # [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-We can also use genomics to assign a date to when an outbreak started, even if this was before we realized it was happening.
-Because we can assign dates to each sample and node in the tree, we can use this to infer the date of the 'root' of the tree. This represents the "most recent common ancestor" of all the SARS-CoV-2 sequences we have so far. E.g., your grandparents are the "most recent common ancestors" of you and all of your first cousins.
+
+Bunlara ek olarak, genomiği bir salgının başlangıç tarihini -başladığını farketmesek bile- belirlemek için de kullabiliriz. Ağaçtaki her bir örneğe ve düğüm noktasına bir tarih verebildiğimiz için bu bilgileri ağacın 'kök'üne bir tarih atamak için kullanabiliriz. Bu elimizde olan bütün SARS-CoV-2'nin "en yakın ortak ortası"nı temsil eder. Örneğin büyükanneniz ve büyükbabanızın sizin ve birinci dereceden bütün kuzenlerinizin ortak atası olduğu gibi. 
 <br><br>
-If you mouse over the leftmost vertical line, you can see that the inferred start date is between mid-November and mid-December of 2019 for this particular outbreak.
+Eğer imleci en soldaki dikey hattın üzerine getirirseniz bu salgının tahmin edilen başlangıç tarihinin 2019 yılının Kasım ortası - Aralık ortası olduğunu görebilirsiniz.
 
 <!-- There is NO right-side text -->
 
