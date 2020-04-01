@@ -1,0 +1,174 @@
+include: "Snakefile"
+
+ruleorder: subsample_regions > subsample 
+ruleorder: adjust_metadata_regions > adjust_metadata
+#ruleorder: all_namerica > all
+
+#rule all_namerica:
+#    input:
+#        auspice_json = "auspice/ncov{region}.json",
+#        tip_frequencies_json = "auspice/ncov{region}_tip-frequencies.json",
+#        dated_auspice_json = expand("auspice/ncov{{region}}_{date}.json", date=get_todays_date()),
+#        dated_tip_frequencies_json = expand("auspice/ncov{{region}}_{date}_tip-frequencies.json", date=get_todays_date()),
+#        auspice_json_gisaid = "auspice/ncov{region}_gisaid.json",
+#        auspice_json_zh = "auspice/ncov{region}_zh.json"
+
+
+rule subsample_focus:
+    message:
+        """
+        Subsample all sequences into a focal set
+        """
+    input:
+        sequences = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata
+    output:
+        sequences = "results/subsample_focus{region}.fasta"
+    params:
+        group_by = "division year month",
+        #sequences_per_group = 300,
+        #exclude_where = "region!='North America'"
+    shell:
+        """
+        #Figure out what region being wanted
+        rgn="{wildcards.region}"
+
+        if [ -z "$rgn" ]; then
+            seq_per_group="200"
+            regionarg="--exclude-where region="
+            region="frog"   #I don't know! It wouldn't work without something!
+            echo "Filtering for a global run - $seq_per_group per division"
+        else
+            seq_per_group="300"
+            region="${{rgn//[_y]/}}"
+            region="${{region//[-y]/ }}"
+            echo "Filtering for a focal run on $region - $seq_per_group per division"
+            regionarg="--exclude-where region!="
+            echo "   This is passed to augur as $regionarg'$region'"
+        fi
+
+        augur filter \
+            $regionarg"$region" \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --group-by {params.group_by} \
+            --sequences-per-group $seq_per_group \
+            --output {output.sequences} \
+
+        """
+        #    --exclude-where {params.exclude_where}\
+        #    --sequences-per-group {params.sequences_per_group} \
+        #regionarg="--exclude-where region!=$region"
+
+rule make_priorities:
+    message:
+        """
+        determine priority for inclusion in as phylogenetic context by 
+        genetic similiarity to sequences in focal set.
+        """
+    input:
+        alignment = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata,
+        focal_alignment = rules.subsample_focus.output.sequences
+    output:
+        priorities = "results/subsampling_priorities{region}.tsv"
+    shell:
+        """
+        #Figure out what region being wanted
+        rgn="{wildcards.region}"
+
+        if [ -z "$rgn" ]; then
+            echo "Global run - no priorities needed"
+            echo -n >{output.priorities}
+        else
+            region="${{rgn//[_y]/}}"
+            region="${{region//[-y]/ }}"
+            echo "Creating priorities for focal build on $region"
+            python3 scripts/priorities.py --alignment {input.alignment} \
+                            --metadata {input.metadata} \
+                            --focal-alignment {input.focal_alignment} \
+                            --output {output.priorities} 
+        fi
+        """
+
+rule subsample_context:
+    message:
+        """
+        Subsample the non-focal sequences to provide phylogenetic context
+        """
+    input:
+        sequences = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata,
+        priorities = rules.make_priorities.output.priorities
+    output:
+        sequences = "results/subsample_context{region}.fasta"
+    params:
+        group_by = "country year month",
+        sequences_per_group = 20,
+        #exclude_where = "region='North America'"
+    shell:
+        """
+        #Figure out what region being wanted
+        rgn="{wildcards.region}"
+
+        if [ -z "$rgn" ]; then
+            echo "Global run - no context needed"
+            echo -n >{output.sequences}
+        else
+            region="${{rgn//[_y]/}}"
+            region="${{region//[-y]/ }}"
+            echo "Filtering for a focal run on $region - context is {params.sequences_per_group} per division"
+            regionarg="--exclude-where region="
+            echo "   This is passed to augur as $regionarg'$region'"
+
+            augur filter \
+                $regionarg"$region" \
+                --sequences {input.sequences} \
+                --metadata {input.metadata} \
+                --priority {input.priorities} \
+                --group-by {params.group_by} \
+                --sequences-per-group {params.sequences_per_group} \
+                --output {output.sequences}
+        fi
+        """
+#                --exclude-where {params.exclude_where}\
+
+rule subsample_regions:
+    input:
+        rules.subsample_focus.output.sequences,
+        rules.subsample_context.output.sequences
+    output:
+        "results/subsampled_alignment{region}.fasta"
+    shell:
+        """
+        cat {input} > {output}
+        """
+
+        
+rule adjust_metadata_regions:
+    input:
+        metadata = rules.download.output.metadata
+    params:
+        #region = "'North America'"
+    output:
+        metadata = "results/metadata_adjusted{region}.tsv"
+    shell:
+        """
+        #Figure out what region being wanted
+        rgn="{wildcards.region}"
+
+        if [ -z "$rgn" ]; then
+            echo "Global run - no metadata adjustment needed"
+            cp {input.metadata} {output.metadata}
+        else
+            region="${{rgn//[_y]/}}"
+            region="${{region//[-y]/ }}"
+             echo "Focal run for $region - adjusting metadata"
+
+            python3 scripts/adjust_regional_meta.py \
+                                    --region "$region" \
+                                    --metadata {input.metadata} \
+                                    --output {output.metadata} 
+        fi
+        """
+#                                    --region {params.region} \
