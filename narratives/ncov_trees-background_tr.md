@@ -27,7 +27,7 @@ translatorLinks:
   - https://twitter.com/the_MRCA
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenetik ağaçları nasıl okumak ve anlamlandırmak gerektiğini açıklar. Bu web sayfasındaki görseller masaüstü internet tarayıcaları için optimize edilmiştir."
+abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenetik ağaçları nasıl okumak ve anlamlandırmak gerektiğini açıklar. Bu web sayfasındaki görseller masaüstü internet tarayıcıları için optimize edilmiştir."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
