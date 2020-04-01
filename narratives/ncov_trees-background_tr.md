@@ -138,7 +138,7 @@ Bu şu anda, bir filogenetik ağaca çok fazla benzemiyor olabilir. Genom dizile
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-# [* [Zaman içindeki farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
+# [Zaman içindeki farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
 ](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 Ayrıca, x eksenine örneklem tarihini yerleştirerek virüsün zaman içinde nasıl yayıldığını da görüntüleyebiliriz. Burada, x ekseni her virüsün örneklem tarihini temsil ediyor. Uç kısımların konumları bu örneklerin alındığı tarihi yansıtıyor. İç taraflardaki düğümlerin tarihleri -- "kayıp vakalar" -- ise soyların ne zaman örneklendiğine ve virüsün mutasyon geçirme hıza göre bulunur.
 <br><br>
