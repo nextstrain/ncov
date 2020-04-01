@@ -29,7 +29,7 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 
 * [Bulaş zincirleri ile filogenetik ağaçların ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [Filogenetik ağaçları nasıl okurum](https://nextstrain.org/narratives/trees-background?n=3)?  
-* ["Çeşitlilik" panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
+* ["Çeşitlilik" (Diversity) panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
 * [Genetik çeşitlenmedeki farklılığı ölçmek](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Zamanla boyunca farklılıkları ölçmek](https://nextstrain.org/narratives/trees-background?n=6).  
 * [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)?  
@@ -105,7 +105,7 @@ Bu ağaca göre A ile B'nin birbirine yakın akraba olduğunu, diğer yandan ise
 
 Haydi COVID-19'a sebeb olan SARS-CoV-2'nin halka açık olarak yayınlanmış ilk 169 tipine (suş) bakalım. Tıpkı bir önceki sayfada olduğu gibi, bu viral genom dizilerini birbirine hizaladık (burada bahsedilen bütün bu analizlerin nasıl yapıldığını [Github](https://github.com/nextstrain/ncov) üzerinden görebilirsiniz).
 <br><br>
-Burada, üstte bir filogenetik ağaç görüyorsunuz. Onun altında ise varyasyonu (yani mutasyonları) gösteren çubuklu bir grafik görebilirsiniz. Bu mutasyonlar olmasaydı bu ağacı oluşturmak imkansız olacaktı; o yüzden bu iki şey birbiri ile çok sıkı bir şekilde ilişkili.
+Burada, üstte bir filogenetik ağaç görüyorsunuz. Onun altında ise varyasyonu (yani mutasyonları) gösteren çubuklu bir grafik görebilirsiniz (Diversity, yani -genetik- çeşitlilik). Bu mutasyonlar olmasaydı bu ağacı oluşturmak imkansız olacaktı; o yüzden bu iki şey birbiri ile çok sıkı bir şekilde ilişkili.
 <br><br>
 Buradaki "Çeşitlilik" panelinde yatay eksen virüs genomundaki her bir bölgeyi gösteriyor (hem de yaklaşık otuz bin -30,000- bölgenin her birini!). Dikey eksen ise her bir bölgede ne kadar farklılık olduğunu gösteriyor.
 <br><br>
