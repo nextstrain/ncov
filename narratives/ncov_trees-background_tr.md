@@ -30,12 +30,12 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 * [Bulaş zincirleri ile filogenetik ağaçların ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [Filogenetik ağaçları nasıl okurum](https://nextstrain.org/narratives/trees-background?n=3)?  
 * ["Çeşitlilik" (Diversity) panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
-* [Genetik çeşitlenmedeki farklılığı ölçmek](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Zamanla boyunca farklılıkları ölçmek](https://nextstrain.org/narratives/trees-background?n=6).  
+* [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=5).  
+* [Zamanla boyunca farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
 * [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [Ağaçtaki karakterleri (renkleri) nasıl yorumlamalıyım](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Harita ve filogenetik ağacın ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=9)?  
-* [Aİleri okuma: filogenetik ağaçlarda belirsizlik](https://nextstrain.org/narratives/trees-background?n=10).  
+* [Harita ile filogenetik ağacın ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=9)?  
+* [İleri okuma: filogenetik ağaçlardaki belirsizlikler](https://nextstrain.org/narratives/trees-background?n=10).  
 * [Veri seti hakkında](https://nextstrain.org/narratives/trees-background?n=11).  
 
 <!-- No right-side text -->
@@ -117,7 +117,7 @@ Buradaki filogenetik ağacı bu mutasyonlardan birine göre renklendirdik. Bu ö
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Measuring differences with genetic divergence](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
+# [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
 This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
 <br><br>
 Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
@@ -181,22 +181,22 @@ Thus, while these inferences can be invaluable, they also must be interpreted wi
 <!-- This is left-side text -->
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How does the map relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
+# [Harita ile filogenetik ağacın ilişkisi nedir?](https://nextstrain.org/ncov/2020-03-11?d=tree,map&legend=closed)
 
-Here, we show the tree colored by the location of each sample (and inferred location for each internal node).
-If you click ['Explore the data'](https://nextstrain.org/ncov), you can play an animation of the inferred spread of the virus over the course of the outbreak.
+Burada ağacın her bir örneğin konumuna (ve her bir düğüm noktasının tahmini konumuna) göre renklendirilmiş versiyonunu gösteriyoruz.
+['Explore the data'](https://nextstrain.org/ncov), üzerine tıklarsanız ve sayfanın alt kısmında yer alan haritadaki "Play" butonuna basarsanız virüsün salgın süresince tahmin edilen yayılımını gösteren bir animasyonu izleyebilirsiniz.
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Advanced reading: uncertainty in trees](https://nextstrain.org/ncov/2020-03-11)
-Earlier, we talked about how internal nodes represent _hypothesized_ unsampled cases. In fact, all trees represent _hypotheses_ about how a pathogen has evolved and moved over time. The trees we present on Nextstrain are point estimates -- that is, the version of this history that maximizes the probability of observing the data that we do.
+# [İleri okuma: filogenetik ağaçlardaki belirsizlikler](https://nextstrain.org/ncov/2020-03-11)
+Biraz önce düğüm noktalarının (dalların kesiştiği noktaların) örneklenmemiş, _varsayımsal_ vakaları temsil ettiğinden bahsetmiştik. Aslında tüm ağaçlar bir patojenin zaman içerisindeki evrimini ve değişimini açıklamak üzere sunulmuş _hipotezlerdir._ Nextstrain projesinde sunduğumuz ağaçlar nokta tahminleridir, yani geçmişe dair üretilen olası ilişkiler arasında elimizdeki mevcut veriyi gözlemleme olasılığımızı en yüksek hale getiren senaryolardır.
 <br><br>
-However, there is always uncertainty in these estimates. Generally speaking, parts of the tree that are densely sampled are more certain; areas that are sparsely sampled are less certain.
+Ancak bu tahminler her zaman bir miktar belirsizlik de içerir. Genel olarak ağaç üzerinde fazla sayıda örneğin olduğu bölgeler daha güvenilirken az sayıda örneğin olduğu bölgelerde belirsizlik daha fazladır.
 
 ```auspiceMainDisplayMarkdown
-# An illustration
+# Bir gösterim
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
@@ -207,7 +207,7 @@ However, there is always uncertainty in these estimates. Generally speaking, par
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Bilimsel katkılar](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
