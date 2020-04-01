@@ -154,26 +154,26 @@ If you mouse over the leftmost vertical line, you can see that the inferred star
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [How should I interpret traits (colors) on the tree?](https://nextstrain.org/ncov/2020-03-11)
-Phylogenetic trees often contain additional information, such as the location of each sample collection. From this, we can infer the locations of internal nodes (hypothesized intermediate, unsampled cases) using mathematical models. This can help us understand how the virus is moving from one location to the next.
+# [Ağaçtaki karakterleri (renkleri) nasıl yorumlamalıyım?](https://nextstrain.org/ncov/2020-03-11)
+Filogenetik ağaçlar çoğu zaman örneklerin nereden alındığı gibi bazı ek bilgiler içerir. Buradan yola çıkarak ve bazı matematiksel modeller kullanarak, ara düğüm noktalarının (varsayımsal örneklenmemiş ara vakaların) nerede olduğuna dair tahminler yürütebiliriz. Bu, virüsün bir bölgeden diğerine nasıl hareket ettiğini anlamamıza yardım eder.
 <br><br>
-Interpreting these should, however, be done with caution, as the sampling and sequencing or lack thereof can significantly influence the interpretation.
+Ancak, bu çıkarımları yaparken dikkatli olmak gerekir çünkü eksik örneklem ve eksik genom dizileme bu tür çıkarımları bir hayli etkileyebilir.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Bir örnek
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-On the left, we show a fully sampled phylogenetic tree, with samples from two different locations denoted by orange and blue. As we walk down the tree, we observe three instances where the color (location) switches from orange to blue. From this, we would conclude that there were three different introductions from the orange location to the blue location.
+OSol tarafta, turuncu ve mavi ile gösterilmiş iki farklı bölgeden alınan örneklerle tam bir şekilde örneklemi tam bir filogetik ağaç görüyoruz. Ağaçta aşağı doğru ilerledikçe üç örneğin renginin (bölgesinin) turuncudan maviye değiştiğini görüyoruz. Buradan turuncu bölgeden mavi bölgeye üç farklı virüs girişi olduğu sonucunu çıkartabiliriz.
 <br><br>
-But, this interpretation relies on sampling: in the middle tree, we've removed one orange sample. We now observe only one switch from orange to blue, suggesting that there was only one introduction into blue that happened much earlier.
+Ancak bu çıkarım örnekleme bağlıdır. Ortadaki ağaçtaki bir turuncu örneği sildik. Bu durumda turuncudan maviye yalnızca bir geçiş görüyoruz. Bu da mavi bölgeye çok daha önceden yalnızca bir virüs geçişi olduğuna işaret ediyor.
 <br><br>
-In the last example, we have only one sequence from orange, which could lead us to think that there was one introduction from orange into blue.
+En sondaki örnekte ise turuncudan yalnızca bir genom dizimiz var ki bu durum bize turuncudan maviye yalnızca bir geçiş olduğunu düşündürüyor.
 <br><br>
-Thus, while these inferences can be invaluable, they also must be interpreted with caution.
+İşte bu yüzden, bu çıkarımlar çok değerli olsa bile bu çıkarımları oldukça dikkatli bir şekilde yorumlamak gerekiyor.
 </p>
 ```
 <!-- ############ SLIDE BREAK ############# -->
