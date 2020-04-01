@@ -1,5 +1,5 @@
 ---
-title: Filogenetik ağaçları nasıl yorumlamalı
+title: Filogenetik ağaçları nasıl yorumlamalı?
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -23,9 +23,9 @@ translators:
 translatorLinks:
   - https://twitter.com/zharcanoglu
   - https://twitter.com/erenada
-  - https://www.researchgate.net/profile/Benura_Azeroglu
+  - https://twitter.com/benuraaa
   - https://twitter.com/the_MRCA
-date: "2020 March 13"
+date: "13 Mart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenetik ağaçları nasıl okumak ve anlamlandırmak gerektiğini açıklar. Bu web sayfasındaki görseller masaüstü internet tarayıcıları için optimize edilmiştir."
 ---
@@ -37,11 +37,11 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 <!-- This is left-side text -->
 # [İçindekiler](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [Bulaş zincirleri ile filogenetik ağaçların ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [Bulaşma ağları ile filogenetik ağaçların ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [Filogenetik ağaçları nasıl okurum](https://nextstrain.org/narratives/trees-background?n=3)?  
-* ["Çeşitlilik" (Diversity) panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
+* ["Çeşitlilik" (Diversity) panelinin filogenetik ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
 * [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Zaman içindeki farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
+* [Zaman boyunca farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
 * [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [Ağaçtaki karakterleri (renkleri) nasıl yorumlamalıyım](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Harita ile filogenetik ağacın ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=9)?  
@@ -54,10 +54,10 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Bulaş zincirleri ile filogenetik ağaçların ilişkisi nedir?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Patojenler bir konak içerisinde hızla çoğaldıktan sonra bir başka konağa bulaşarak yayılırlar. Bir epideminin başlayabilmesi ancak bir enfeksiyon, takip eden süreçte birden fazla enfeksiyona sebep oluyorsa mümkündür.
+# [Bulaşma ağları ile filogenetik ağaçların ilişkisi nedir?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Patojenler bir konak içerisinde hızla çoğaldıktan sonra bir başka konağa bulaşarak yayılırlar. Bir epideminin başlayabilmesi ancak takip eden süreçte, bir enfeksiyon birden fazla enfeksiyona sebep oluyorsa mümkündür.
 <br><br>
-Bir patojen çoğalıp yayılırken, patojenin genomunun da birçok kez çoğaltılması gereklidir ve bu sürecin normal bir sonucu olarak genomda birçok rastgele mutasyon (kopyalama hataları) birikir. Bu rastgele mutasyonlar patojenin yayılımını takip edebilmemiz ve bulaşma yolları ile hastalık dinamikleri hakkında fikir edinebilmemiz açısından oldukça faydalı olabilir.
+Bir patojen çoğalıp yayılırken, patojenin genomunun da birçok kez çoğaltılması (replikasyon) gereklidir ve bu sürecin normal bir sonucu olarak genomda birçok rastgele mutasyon (kopyalama hataları) birikir. Bu rastgele mutasyonlar patojenin yayılımını takip edebilmemiz ve bulaşma yolları ile dinamikleri hakkında fikir edinebilmemiz açısından oldukça faydalı olabilir.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -67,9 +67,9 @@ Bir patojen çoğalıp yayılırken, patojenin genomunun da birçok kez çoğalt
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-Yukarıdaki görsel bir bulaş ağacının taslağını gösteriyor. Her bir yuvarlak bir vakayı (enfekte olmuş bir bireyi), yatay çizgiler ise bireylerin enfekte olduğu süreyi temsil ediyor. Aralarında bağlantı olan vakalar bir bireyden bir diğerine bulaşları temsil ediyor.
+Yukarıdaki görsel bir bulaşma ağacının taslağını gösteriyor. Her bir daire bir vakayı (enfekte olmuş bir bireyi), yatay çizgiler ise bireylerin enfekte olduğu süreyi temsil ediyor. Aralarında bağlantı olan vakalar bir bireyden bir diğerine enfeksiyonun bulaşmasını temsil ediyor.
 <br> <br>
-Burada bir bulaş ağacının tamamını görmekteyiz. Oysaki gerçekte vakaların sadece bir kısmı belirlenebilir (mavi vakalar); bulaş ağacı tamamı ile bilinemez ve toplam vaka sayısına dair sadece tahminler yapılabilir. Genom dizileri (sekansları), bulaş ağacının bazı bölgeleri ile ilgili çıkarımlar yapabilmemizi sağlar. Bu örnekte ağaç üzerinde üç mutasyon (küçük karolar) belirtilmiştir. Aynı mutasyona sahip diziler birbirlerine daha benzerdir, bu sebeple de bu mutasyonları kullanarak aynı bulaş zinciri içerisindeki benzer virüslerin oluşturduğu kümeleri belirleyebilir ve örneklenen vakaları bu kümelerin içerisine yerleştirebiliriz.
+Burada bir bulaş ağacının tamamını görmekteyiz. Oysaki gerçekte vakaların sadece bir kısmı belirlenebilir (mavi vakalar); bulaşma ağacı tamamı ile bilinemez ve toplam vaka sayısına dair sadece tahminler yapılabilir. Genom dizileri, bulaşma ağacının bazı bölgeleri ile ilgili çıkarımlar yapabilmemizi sağlar. Bu örnekte ağaç üzerinde üç mutasyon (küçük karolar) belirtilmiştir. AAynı mutasyona sahip diziler birbirlerine daha benzerdir. Bu sebeple bu mutasyonlardan faydalanarak aynı bulaş zinciri içerisindeki benzer virüsleri birbirleri ile gruplandırabiliriz.
 </p>
 </div>
 ```
@@ -80,9 +80,9 @@ Burada bir bulaş ağacının tamamını görmekteyiz. Oysaki gerçekte vakalar�
 <!-- This is left-side text -->
 # [Filogenetik ağaçları nasıl okurum?](https://nextstrain.org/ncov/2020-03-11)
 
-Bir filogenetik ağacın x (yatay) ekseni zamanda ya da genetik çeşitlenmedeki farklılığın derecesini gösterir -- bu konuya birazdan değineceğiz. Ağacın y (dikey) ekseni ise ağaç üzerinde yer alan her şeyi görmemize yardım eder; herhangi bir değeri göstermez.
+Bir filogenetik ağacın x (yatay) ekseni zamanda ya da genetik çeşitlenmedeki farklılığın derecesini gösterir - bu konuya birazdan değineceğiz. Ağacın y (dikey) ekseni ise ağaç üzerinde yer alan her şeyi görmemize yardım eder; herhangi bir ölçüm birimine sahip değildir.
 <br><br>
-Ağacın uç noktaları örnekleri temsil eder (örneğin bir önceki sayfadaki mavi vakalar). Ağacın ara düğümleri (nodes) örneklenmemiş vakaları temsil eder ancak bu düğüm noktalarının, örneklenmiş bütün vakaların atası olduğunu varsayıyoruz (örneğin bir önceki sayfadaki kırmızı düğümler). Bu ilişkileri örneklenmiş vakalardaki mutasyon örüntülerinin analiz edilmesiyle anlıyoruz.
+Ağacın uç noktaları örnekleri temsil eder (örneğin bir önceki sayfadaki mavi vakalar). Ağacın ara düğümleri (nodes) örneklenmemiş vakaları temsil eder ancak bu düğüm noktalarının, örneklenmiş ilişkili bütün vakaların atası olduğunu varsayıyoruz (örneğin bir önceki sayfadaki kırmızı düğümler). Bu ilişkileri örneklenmiş vakalardaki mutasyon örüntülerinin analiz edilmesiyle anlıyoruz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -92,11 +92,11 @@ Ağacın uç noktaları örnekleri temsil eder (örneğin bir önceki sayfadaki 
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Sol üst tarafta mutasyonların renkli daireler tarafından gösterildiği bir filogenetik ağacı görüyoruz. Sağda ise, bunlara karşılık gelen ve yine mutasyonların renkli daireler ile gösterildiği dizileri (sekansları) görüyoruz. Burada aynı mutasyonlara sahip dizilerin beraber gruplandığını görebiliriz. Eğer diziler bir dikey düz çizgi ile birbirine bağlı gözüküyorsa -A ve B örneğindeki gibi- bu, bu diziler arasında bir fark olmadığı anlamına geliyor - yani bu diziler tamamen aynı.
+Sol üst tarafta mutasyonların renkli daireler tarafından gösterildiği bir filogenetik ağacı görüyoruz. Sağda ise, bunlara karşılık gelen ve yine mutasyonların renkli daireler ile gösterildiği genomik dizileri görüyoruz. Burada aynı mutasyonlara sahip dizilerin beraber gruplandığını görebiliriz. Eğer diziler bir dikey düz çizgi ile birbirine bağlı gözüküyorsa -A ve B örneğindeki gibi- bu, bu diziler arasında bir fark olmadığı anlamına geliyor - yani bu genomik diziler tamamen aynı.
 <br><br>
-Eğer bir dizi tek başına uzun bir çizginin üzerindeyse - C ve E örneğindeki gibi- bu demek oluyor ki o dizi, diğer hiç bir dizide görülmeyen kendine has bir mutasyona sahip. Bu çizgilerin uzunluğu mutasyon sayısıyla orantılı - ne kadar mutasyon o kadar uzun çizgi. A ve B diğer hiç bir örnekte görülmeyen bir mutasyona sahip (yeşil daire) ancak ikisi de birbirinin aynısı.
+Eğer bir dizi tek başına uzun bir çizginin üzerindeyse - C ve E örneğindeki gibi- bu demek oluyor ki o dizi, diğer hiç bir dizide görülmeyen kendine has bir mutasyona sahip. Bu çizgilerin uzunluğu mutasyon sayısıyla orantılı - ne kadar mutasyon o kadar uzun çizgi. A ve B diğer hiç bir örnekte görülmeyen ortak bir mutasyona sahip (yeşil daire) ancak ikisi de birbirinin aynısı.
 <br><br>
-Bu ağaca göre A ile B'nin birbirine yakın akraba olduğunu, diğer yandan ise D ile E'nin de birbirine yakın akraba olduğunu söyleyebiliriz. A ile B, C örneğine D ile E'ye olduğundan daha yakın.
+Bu ağaca göre A ile B'nin birbirine yakından ilişkili olduğunu, diğer yandan ise D ile E'nin de birbirine yakın olduğunu söyleyebiliriz. A ile B, C örneğine D ile E'ye olduğundan daha yakın.
 </p>
 
 ### İleri okuma  
@@ -111,15 +111,15 @@ Bu ağaca göre A ile B'nin birbirine yakın akraba olduğunu, diğer yandan ise
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# ["Çeşitlilik" (Diversity) panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# ["Çeşitlilik" panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Haydi COVID-19'a sebeb olan SARS-CoV-2'nin halka açık olarak yayınlanmış ilk 169 tipine (suş) bakalım. Tıpkı bir önceki sayfada olduğu gibi, bu viral genom dizilerini birbirine hizaladık (burada bahsedilen bütün bu analizlerin nasıl yapıldığını [Github](https://github.com/nextstrain/ncov) üzerinden görebilirsiniz).
+Haydi COVID-19'a neden olan SARS-CoV-2'nin halka açık olarak yayınlanmış ilk 169 tipine (suş) bakalım. Tıpkı bir önceki sayfada olduğu gibi, bu viral genom dizilerini birbirleri ile karsılaştırdık (burada bahsedilen bütün bu analizlerin nasıl yapıldığını [Github](https://github.com/nextstrain/ncov) üzerinden görebilirsiniz).
 <br><br>
-Burada, üstte bir filogenetik ağaç görüyorsunuz. Onun altında ise varyasyonu (yani mutasyonları) gösteren çubuklu bir grafik görebilirsiniz (Diversity, yani -genetik- çeşitlilik). Bu mutasyonlar olmasaydı bu ağacı oluşturmak imkansız olacaktı; o yüzden bu iki şey birbiri ile çok sıkı bir şekilde ilişkili.
+Burada, üstte bir filogenetik ağaç görüyorsunuz. Onun altında ise genomdaki varyasyonu (yani mutasyonları) gösteren çubuklu bir grafik görebilirsiniz (Diversity, yani genetik çeşitlilik). Bu mutasyonlar olmasaydı bu ağacı oluşturmak imkansız olacaktı. Bu yüzden bu iki şey birbiri ile çok sıkı bir şekilde ilişkili.
 <br><br>
 Buradaki "Çeşitlilik" (Diversity) panelinde yatay eksen virüs genomundaki her bir bölgeyi gösteriyor (hem de yaklaşık otuz bin -30,000- bölgenin her birini!). Dikey eksen ise her bir bölgede ne kadar farklılık olduğunu gösteriyor.
 <br><br>
-Buradaki filogenetik ağacı bu mutasyonlardan birine göre renklendirdik. Bu örnekteki mutasyon "ORF1b" geninin 314. kodonunda yer alan mutasyon. Elimizde bu mutasyonun fonksiyonel (yani biyolojik bir değişiklik ile ilişkili) olduğunu söylemek için hiç bir sebep yok. Zaten tam olarak da böyle mutayonları kullarak genom dizileri arasındaki ilişkiyi belirliyor ve bu ağaçları oluşturabiliyoruz.
+Buradaki filogenetik ağacı bu mutasyonlardan birine göre renklendirdik. Bu örnekteki mutasyon "ORF1b" geninin 314. kodonunda yer alan mutasyon. Elimizde bu mutasyonun fonksiyonel (yani biyolojik bir değişiklik ile ilişkili) olduğunu söylemek için hiç bir sebep yok. İşte tam olarak da böyle mutasyonları kullanarak genomik diziler arasındaki ilişkiyi belirliyor ve filogenetik ağaçları oluşturabiliyoruz.
 
 <!-- There is NO right-side text -->
 
@@ -128,18 +128,17 @@ Buradaki filogenetik ağacı bu mutasyonlardan birine göre renklendirdik. Bu ö
 
 <!-- This is left-side text -->
 # [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-Bu, COVID-19'a neden olan virüs SARS-CoV-2'nin halka açık olarak paylaşılan ilk 169 </tag> tipinin (suş) bir filogenisidir.
+Bu, COVID-19'a neden olan virüs SARS-CoV-2'nin halka açık olarak paylaşılan ilk 169 </tag> tipinin (suşunun) bir filogenisidir.
 <br><br>
-Burada, yatay eksen ağacın köküne (salgının başlangıcına) kıyasla gerçekleşen farklılaşmayı yani genomdaki değişikliklerin sayısını (mutasyonları) gösteriyor. Bazı genom dizileri(sekansları) sıfır mutasyona sahip olabiliyor -- yani hepsi ağacın kökü(merkezi) ile özdeş.Diğer virüsler ise bir ile on bir arasında mutasyona sahip olabiliyorlar.
+Burada, yatay eksen ağacın köküne (salgının başlangıcına) kıyasla gerçekleşen farklılaşmayı yani genomdaki değişikliklerin sayısını (mutasyonları) gösteriyor. Bazı genom dizileri hiçbir mutasyona sahip olmayabilir yani ağacın kökü (merkezi) ile özdeş olabilirler. Diğer virüsler ise bir ile on bir arasında mutasyona sahipler.
 <br><br>
-Bu şu anda, bir filogenetik ağaca çok fazla benzemiyor olabilir. Genom dizilerinin (sekanslar) çoğu birbirleriyle aynı -- A ve B gibi dikey hatların üzerinde duruyorlar (bazıları da ağacın en sol tarafında yer alıyor). Diğer dizilerin kendine özgü ya da ortak mutasyonları var ve sağa doğru giden hatlarda ya da "dallarda" konumlanıyorlar.
-İmleci dalların üzerinde gezdirerek bir dalın kaç tane mutasyona sahip olduğunu görebilirsiniz.
+Bu şu anda, bir filogenetik ağaca çok fazla benzemiyor olabilir. Genom dizilerinin çoğu birbirleriyle aynı -- A ve B gibi dikey hatların üzerinde duruyorlar (bazıları da ağacın en sol tarafında yer alıyor). Diğer dizilerin kendine özgü ya da ortak mutasyonları var ve sağa doğru giden hatlarda ya da "dallarda" konumlanıyorlar. İmleci dalların üzerinde gezdirerek bir dalın kaç tane mutasyona sahip olduğunu görebilirsiniz.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 # [Zaman içindeki farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6)(https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
-Ayrıca, x eksenine örneklem tarihini yerleştirerek virüsün zaman içinde nasıl yayıldığını da görüntüleyebiliriz. Burada, x ekseni her virüsün örneklem tarihini temsil ediyor. Uç kısımların konumları bu örneklerin alındığı tarihi yansıtıyor. İç taraflardaki düğümlerin tarihleri -- "kayıp vakalar" -- ise soyların ne zaman örneklendiğine ve virüsün mutasyon geçirme hıza göre bulunur.
+Ayrıca, x eksenine örneklerin alındığı tarihi yerleştirerek virüsün zaman içinde nasıl yayıldığını da görüntüleyebiliriz. Burada, x ekseni her virüsün örneklendiği tarihi temsil ediyor. Uç kısımların konumları bu örneklerin alındığı tarihi yansıtıyor. İç taraflardaki düğümlerin tarihleri ("kayıp vakalar") ise ataların ne zaman örneklendiğine ve virüsün mutasyon geçirme hıza göre bulunur.
 <br><br>
 Daha önce aynı hat üzerinde duran (yani özdeş olan) genom dizilerinin şimdi nasıl zaman boyunca yayıldığına dikkat edin. Bu, virüsün mutasyon hızı yayılma hızından biraz daha yavaş olduğunda olur. Ağacın nasıl değiştiğini görmek için bu sayfa ve önceki sayfa arasında geçiş yapabilirsiniz.
 <!-- There is NO right-side text -->
@@ -148,8 +147,7 @@ Daha önce aynı hat üzerinde duran (yani özdeş olan) genom dizilerinin şimd
 <!-- ############ SLIDE BREAK ############# -->
 # [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
-
-Bunlara ek olarak, genomiği bir salgının başlangıç tarihini -başladığını farketmesek bile- belirlemek için de kullabiliriz. Ağaçtaki her bir örneğe ve düğüm noktasına bir tarih verebildiğimiz için bu bilgileri ağacın 'kök'üne bir tarih atamak için kullanabiliriz. Bu elimizde olan bütün SARS-CoV-2'nin "en yakın ortak ortası"nı temsil eder. Örneğin büyükanneniz ve büyükbabanızın sizin ve birinci dereceden bütün kuzenlerinizin ortak atası olduğu gibi.
+Bunlara ek olarak, genomiği bir salgının başlangıç tarihini -bu tarih, salgını fark etmemizden öncesine denk gelse bile- belirlemek için kullabiliriz. Ağaçtaki her bir örneğe ve düğüm noktasına bir tarih verebildiğimiz için bu bilgileri ağacın 'kök'üne (salgının başlangıcına) bir tarih atamak için kullanabiliriz. Bu, şimdiye kadar elde ettiğimiz tüm SARS-CoV-2 dizilerinin "en yakın ortak ortası"nı temsil eder. Örneğin büyükanneniz ve büyükbabanızın sizin ve birinci dereceden tüm kuzenlerinizin ortak atası olduğu gibi.
 <br><br>
 Eğer imleci en soldaki dikey hattın üzerine getirirseniz bu salgının tahmin edilen başlangıç tarihinin 2019 yılının Kasım ortası - Aralık ortası olduğunu görebilirsiniz.
 
@@ -173,7 +171,7 @@ Ancak, bu çıkarımları yaparken dikkatli olmak gerekir çünkü eksik örnekl
 <p>
 Sol tarafta, turuncu ve mavi ile gösterilmiş iki farklı bölgeden alınan örneklerle eksiksiz bir şekilde örneklenmiş bir filogetik ağaç görüyoruz. Ağaçta aşağı doğru ilerledikçe üç örneğin renginin (bölgesinin) turuncudan maviye değiştiğini görüyoruz. Buradan turuncu bölgeden mavi bölgeye üç farklı virüs girişi olduğu sonucunu çıkartabiliriz.
 <br><br>
-Ancak bu çıkarım örneklem ile birebir ilişkilidir. Ortadaki ağaçta bir turuncu örneği sildik. Bu durumda turuncudan maviye yalnızca bir geçiş görüyoruz. Bu da mavi bölgeye çok daha önceden yalnızca bir virüs geçişi olduğuna işaret ediyor.
+Ancak bu çıkarım örneklem ile birebir ilişkilidir. Ortadaki ağaçta bir turuncu örneği sildik. Bu durumda turuncudan maviye yalnızca bir giriş görüyoruz. Bu da, mavi bölgeye daha erken bir dönemde yalnızca bir virüs girişi olduğuna işaret ediyor.
 <br><br>
 En sondaki örnekte ise turuncudan yalnızca bir genom dizimiz var ki bu durum bize turuncudan maviye yalnızca bir geçiş olduğunu düşündürüyor.
 <br><br>
@@ -195,7 +193,7 @@ Burada ağacın her bir örneğin konumuna (ve her bir düğüm noktasının tah
 
 <!-- This is left-side text -->
 # [İleri okuma: filogenetik ağaçlardaki belirsizlikler](https://nextstrain.org/ncov/2020-03-11)
-Biraz önce düğüm noktalarının (dalların kesiştiği noktaların) örneklenmemiş, _varsayımsal_ vakaları temsil ettiğinden bahsetmiştik. Aslında tüm ağaçlar bir patojenin zaman içerisindeki evrimini ve değişimini açıklamak üzere sunulmuş _hipotezlerdir._ Nextstrain projesinde sunduğumuz ağaçlar nokta tahminleridir, yani geçmişe dair üretilen olası ilişkiler arasında elimizdeki mevcut veriyi gözlemleme olasılığımızı en yüksek hale getiren senaryolardır.
+Biraz önce düğüm noktalarının (dalların kesiştiği noktaların) _varsayımsal_ örneklenmemiş vakaları temsil ettiğinden bahsetmiştik. Aslında tüm ağaçlar bir patojenin zaman içerisindeki evrimini ve yayılımını açıklamak üzere sunulmuş _hipotezlerdir._ Nextstrain projesinde sunduğumuz ağaçlar nokta tahminleridir, yani geçmişe dair üretilen olası ilişkiler arasında elimizdeki mevcut veriyi gözlemleme olasılığımızı en yüksek hale getiren senaryolardır.
 <br><br>
 Ancak bu tahminler her zaman bir miktar belirsizlik de içerir. Genel olarak ağaç üzerinde fazla sayıda örneğin olduğu bölgeler daha güvenilirken az sayıda örneğin olduğu bölgelerde belirsizlik daha fazladır.
 
