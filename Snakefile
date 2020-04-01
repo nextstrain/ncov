@@ -7,16 +7,19 @@ def get_todays_date():
     date = datetime.today().strftime('%Y-%m-%d')
     return date
 
+wildcard_constraints:
+    region="|North-America|Europe"
+
 configfile: "config/Snakefile.yaml"
 
 rule all:
     input:
-        auspice_json = "auspice/ncov.json",
-        tip_frequencies_json = "auspice/ncov_tip-frequencies.json",
-        dated_auspice_json = expand("auspice/ncov_{date}.json", date=get_todays_date()),
-        dated_tip_frequencies_json = expand("auspice/ncov_{date}_tip-frequencies.json", date=get_todays_date()),
-        auspice_json_gisaid = "auspice/ncov_gisaid.json",
-        auspice_json_zh = "auspice/ncov_zh.json"
+        auspice_json = "auspice/ncov_{region}.json",
+        tip_frequencies_json = "auspice/ncov_{region}_tip-frequencies.json",
+        dated_auspice_json = expand("auspice/ncov_{region}_{date}.json", date=get_todays_date()),
+        dated_tip_frequencies_json = expand("auspice/ncov_{region}_{date}_tip-frequencies.json", date=get_todays_date()),
+        auspice_json_gisaid = "auspice/ncov_{region}_gisaid.json",
+        auspice_json_zh = "auspice/ncov_{region}_zh.json"
 
 rule files:
     params:
