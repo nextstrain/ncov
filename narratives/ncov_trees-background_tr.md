@@ -128,15 +128,12 @@ Buradaki filogenetik ağacı bu mutasyonlardan birine göre renklendirdik. Bu ö
 
 <!-- This is left-side text -->
 # [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&m=div)
-This is a phylogeny of the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared.
+Bu, COVID-19'a neden olan virüs SARS-CoV-2'nin halka açık olarak paylaşılan ilk 169 </tag> tipinin (suş) bir filogenisidir.
 <br><br>
-Here, the horizontal axis indicates divergence, which is the number of changes (mutations) in the genome, relative to the root of the tree (i.e., the start of the outbreak).
-Some sequences may have zero mutations -- meaning they are all identical to the root (center) of the tree.
-Other viruses have between one and eleven mutations.
+Burada, yatay eksen ağacın köküne (salgının başlangıcına) kıyasla gerçekleşen farklılaşmayı yani genomdaki değişikliklerin sayısını (mutasyonları) gösteriyor. Bazı genom dizileri(sekansları) sıfır mutasyona sahip olabiliyor -- yani hepsi ağacın kökü(merkezi) ile özdeş.Diğer virüsler ise bir ile on bir arasında mutasyona sahip olabiliyorlar.
 <br><br>
-At the moment, this may not look much like a ‘tree’. Many of the sequences are identical – they sit together on vertical lines like A and B (some are on the left-most part of the tree).
-Others have unique or shared mutations and so sit on lines, or ‘branches’, going to the right.
-You can see how many mutations a branch has by hovering your mouse over it.
+Bu şu anda, bir filogenetik ağaca çok fazla benzemiyor olabilir. Genom dizilerinin (sekanslar) çoğu birbirleriyle aynı -- A ve B gibi dikey hatların üzerinde duruyorlar (bazıları da ağacın en sol tarafında yer alıyor). Diğer dizilerin kendine özgü ya da ortak mutasyonları var ve sağa doğru giden hatlarda ya da "dallarda" konumlanıyorlar.
+İmleci dalların üzerinde gezdirerek bir dalın kaç tane mutasyona sahip olduğunu görebilirsiniz.
 
 <!-- There is NO right-side text -->
 
