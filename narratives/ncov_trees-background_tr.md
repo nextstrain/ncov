@@ -1,5 +1,5 @@
 ---
-title: How to interpret phylogenetic trees
+title: Filogenetik ağaçları nasıl yorumlamalı
 authors:
   - Emma Hodcroft
   - Nicola Müller
