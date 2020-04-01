@@ -101,13 +101,13 @@ Bu ağaca göre A ile B'nin birbirine yakın akraba olduğunu, diğer yandan ise
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# ["Çeşitlilik" paneli ağaçlarla ilişkisi nedir?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
+# ["Çeşitlilik" (Diversity) panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
 Haydi COVID-19'a sebeb olan SARS-CoV-2'nin halka açık olarak yayınlanmış ilk 169 tipine (suş) bakalım. Tıpkı bir önceki sayfada olduğu gibi, bu viral genom dizilerini birbirine hizaladık (burada bahsedilen bütün bu analizlerin nasıl yapıldığını [Github](https://github.com/nextstrain/ncov) üzerinden görebilirsiniz).
 <br><br>
 Burada, üstte bir filogenetik ağaç görüyorsunuz. Onun altında ise varyasyonu (yani mutasyonları) gösteren çubuklu bir grafik görebilirsiniz (Diversity, yani -genetik- çeşitlilik). Bu mutasyonlar olmasaydı bu ağacı oluşturmak imkansız olacaktı; o yüzden bu iki şey birbiri ile çok sıkı bir şekilde ilişkili.
 <br><br>
-Buradaki "Çeşitlilik" panelinde yatay eksen virüs genomundaki her bir bölgeyi gösteriyor (hem de yaklaşık otuz bin -30,000- bölgenin her birini!). Dikey eksen ise her bir bölgede ne kadar farklılık olduğunu gösteriyor.
+Buradaki "Çeşitlilik" (Diversity) panelinde yatay eksen virüs genomundaki her bir bölgeyi gösteriyor (hem de yaklaşık otuz bin -30,000- bölgenin her birini!). Dikey eksen ise her bir bölgede ne kadar farklılık olduğunu gösteriyor.
 <br><br>
 Buradaki filogenetik ağacı bu mutasyonlardan birine göre renklendirdik. Bu örnekteki mutasyon "ORF1b" geninin 314. kodonunda yer alan mutasyon. Elimizde bu mutasyonun fonksiyonel (yani biyolojik bir değişiklik ile ilişkili) olduğunu söylemek için hiç bir sebep yok. Zaten tam olarak da böyle mutayonları kullarak genom dizileri arasındaki ilişkiyi belirliyor ve bu ağaçları oluşturabiliyoruz.
 
