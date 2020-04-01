@@ -42,7 +42,7 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 * ["Çeşitlilik" (Diversity) panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
 * [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Zamanla boyunca farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
-* [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)
+* [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)?  
 * [Ağaçtaki karakterleri (renkleri) nasıl yorumlamalıyım](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Harita ile filogenetik ağacın ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=9)?  
 * [İleri okuma: filogenetik ağaçlardaki belirsizlikler](https://nextstrain.org/narratives/trees-background?n=10).  
