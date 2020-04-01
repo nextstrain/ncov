@@ -57,7 +57,7 @@ Bir patojen çoğalıp yayılırken, patojenin genomunun da birçok kez çoğalt
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-Yukarıdaki görsel bir bulaş ağacının taslağını gösteriyor. Her bir yuvarlak bir vakayı (enfekte olmuş bir bireyi), yatay çizgiler bireylerin enfekte olduğu süreyi temsil ediyor. Aralarında bağlantı olan vakalar bir bireyden bir diğerine bulaşları temsil ediyor.
+Yukarıdaki görsel bir bulaş ağacının taslağını gösteriyor. Her bir yuvarlak bir vakayı (enfekte olmuş bir bireyi), yatay çizgiler ise bireylerin enfekte olduğu süreyi temsil ediyor. Aralarında bağlantı olan vakalar bir bireyden bir diğerine bulaşları temsil ediyor.
 <br> <br>
 Burada bir bulaş ağacının tamamını görmekteyiz. Oysaki gerçekte vakaların sadece bir kısmı belirlenebilir (mavi vakalar); bulaş ağacı tamamı ile bilinemez ve toplam vaka sayısına dair sadece tahminler yapılabilir. Genom dizileri (sekansları), bulaş ağacının bazı bölgeleri ile ilgili çıkarımlar yapabilmemizi sağlar. Bu örnekte ağaç üzerinde üç mutasyon (küçük karolar) belirtilmiştir. Aynı mutasyona sahip diziler birbirlerine daha benzerdir, bu sebeple de bu mutasyonları kullanarak aynı bulaş zinciri içerisindeki benzer virüslerin oluşturduğu kümeleri belirleyebilir ve örneklenen vakaları bu kümelerin içerisine yerleştirebiliriz.
 </p>
@@ -68,29 +68,28 @@ Burada bir bulaş ağacının tamamını görmekteyiz. Oysaki gerçekte vakalar�
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How do I read a tree?](https://nextstrain.org/ncov/2020-03-11)
+# [Filogenetik ağaçları nasıl okurum?](https://nextstrain.org/ncov/2020-03-11)
 
-The x axis of a tree represents the degree of difference (in time or genetic divergence -- we'll get to that next). The y axis just helps spread things out so we can see everything; it doesn't have any units of measurement.
+Bir filogenetik ağacın x (yatay) ekseni zamanda ya da genetik çeşitlenmedeki farklılığın derecesini gösterir -- bu konuya birazdan değineceğiz. Ağacın y (dikey) ekseni ise ağaç üzerinde yer alan her şeyi görmemize yardım eder; herhangi bir değeri göstermez.
 <br><br>
-The tips of the tree represent samples (i.e., blue cases from the last slide). The internal nodes represent cases that weren't sampled, but that we think were the source of all the cases descendant from them (i.e., the red nodes from the last slide). These relationships are inferred by analyzing the pattern of mutations observed in the sampled cases.
+Ağacın uç noktaları örnekleri temsil eder (örneğin bir önceki sayfadaki mavi vakalar). Ağacın ara düğümleri (nodes) örneklenmemiş vakaları temsil eder ancak bu düğüm noktalarının, örneklenmiş bütün vakaların atası olduğunu düşünüyoruz (örneğin bir önceki sayfadaki kırmızı düğümler). Bu ilişkileri örneklenmiş vakalardaki mutasyon örüntülerinin analiz edilmesiyle anlıyoruz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-## An example
+## Bir örnek
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Example phylogeny where all or only a subset of cases are included in the final phylogeny" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/toy_alignment_tree.png"/>
 </p>
 <p>
-Above, we see an illustration with a phylogenetic tree on the left, where mutations are shown as colored circles. On the right are the corresponding sequences, also with mutations shown as colored circles. We can see that sequences that share the same mutations group together. When sequences appear linked by a flat vertical line, like A and B, this means there are no differences between them – their sequences are identical.
+Sol üst tarafta mutasyonların renkli daireler tarafından gösterildiği bir filogenetik ağacı görüyoruz. Sağda ise, bunlara karşılık gelen ve yine mutasyonların renkli daireler ile gösterildiği dizileri (sekansları) görüyoruz. Burada aynı mutasyonlara sahip dizilerin beraber gruplandığını görebiliriz. Eğer diziler bir dikey düz çizgi ile birbirine bağlı gözüküyorsa -A ve B örneğindeki gibi- bu, bu diziler arasında bir fark olmadığı anlamına geliyor - yani bu diziler tamamen aynı.
 <br><br>
-When a sequence sits on a long line on its own, like C or E, this means it has unique mutations not found in other sequences. The longer the line, the more mutations.
-A and B also have unique mutations (the green circle) not shared by the other sequences, but they are identical to each other.
+Eğer bir dizi tek başına uzun bir çizginin üzerindeyse - C ve E örneğindeki gibi- bu demek oluyor ki o dizi, diğer hiç bir dizide görülmeyen kendine has bir mutasyona sahip. Bu çizgilerin uzunluğu mutasyon sayısıyla orantılı - ne kadar mutasyon o kadar uzun çizgi. A ve B diğer hiç bir örnekte görülmeyen bir mutasyona sahip (yeşil daire) ancak ikisi de birbirinin aynısı.
 <br><br>
-Based on this tree, we would conclude that A & B closely related to each other, and D & E are closely related to each other. A & B are more closely related to C than they are to D & E.
+Bu ağaca göre A ile B'nin birbirine yakın akraba olduğunu, diğer yandan ise D ile E'nin de birbirine yakın akraba olduğunu söyleyebiliriz. A ile B, C örneğine D ile E'ye olduğundan daha yakın.
 </p>
 
-### Further reading  
+### İleri okuma  
 * [How to read a tree: tutorial from Arctic Network](https://artic.network/how-to-read-a-tree.html).  
 * [How to read a tree: video from Khan academy](https://www.khanacademy.org/science/high-school-biology/hs-evolution/hs-phylogeny/a/phylogenetic-trees).  
 
@@ -104,17 +103,13 @@ Based on this tree, we would conclude that A & B closely related to each other, 
 <!-- This is left-side text -->
 # [How does the "diversity" panel relate to the tree?](https://nextstrain.org/ncov/2020-03-11?d=tree,entropy&c=gt-ORF1b_314&legend=open)
 
-Let's take a look at the first 169</tag> strains of SARS-CoV-2 (the virus that causes COVID-19) that have been publicly shared. Just as on the last page, we built an alignment of these viral sequences (you can see how all of the analyses mentioned here were done [on GitHub](https://github.com/nextstrain/ncov)).
+Haydi COVID-19'a sebeb olan SARS-CoV-2'nin halka açık olarak yayınlanmış ilk 169 tipine (suş) bakalım. Tıpkı bir önceki sayfada olduğu gibi, bu viral genom dizilerini birbirine hizaladık (burada bahsedilen bütün bu analizlerin nasıl yapıldığını [Github](https://github.com/nextstrain/ncov) üzerinden görebilirsiniz).
 <br><br>
-Here we're displaying the phylogenetic tree above a bar-chart showing the variation (i.e. mutations) in the genome.
-Without these mutations we couldn't build the tree, so the two are intimitely connected.
+Burada, üstte bir filogenetik ağaç görüyorsunuz. Onun altında ise varyasyonu (yani mutasyonları) gösteren çubuklu bir grafik görebilirsiniz. Bu mutasyonlar olmasaydı bu ağacı oluşturmak imkansız olacaktı; o yüzden bu iki şey birbiri ile çok sıkı bir şekilde ilişkili. 
 <br><br>
-In this "diversity" panel, the horizontal axis is each site in the viral genome (all thirty thousand or so of them!).
-The vertical axis indicates how much variability there is at each site.
+Buradaki "Çeşitlilik" panelinde yatay eksen virüs genomundaki her bir bölgeyi gösteriyor (hem de yaklaşık otuz bin -30,000- bölgenin her birini!). Dikey eksen ise her bir bölgede ne kadar farklılık olduğunu gösteriyor.
 <br><br>
-We've coloured the tree according to one of these mutations -- in this case codon 314 in the gene "ORF1b".
-There's no a priori reason to think this mutation is a functional mutation (i.e. conferring any biological change).
-It is precisely mutations such as this which we use to define the relationships between sequences and construct the tree.
+Buradaki filogenetik ağacı bu mutasyonlardan birine göre renklendirdik. Bu örnekteki mutasyon "ORF1b" geninin 314. kodonunda yer alan mutasyon. Elimizde bu mutasyonun fonksiyonel (yani biyolojik bir değişiklik ile ilişkili) olduğunu söylemek için hiç bir sebep yok. Zaten tam olarak da böyle mutayonları kullarak genom dizileri arasındaki ilişkiyi belirliyor ve bu ağaçları oluşturabiliyoruz.
 
 <!-- There is NO right-side text -->
 
