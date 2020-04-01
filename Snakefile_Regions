@@ -2,17 +2,6 @@ include: "Snakefile"
 
 ruleorder: subsample_regions > subsample 
 ruleorder: adjust_metadata_regions > adjust_metadata
-#ruleorder: all_namerica > all
-
-#rule all_namerica:
-#    input:
-#        auspice_json = "auspice/ncov{region}.json",
-#        tip_frequencies_json = "auspice/ncov{region}_tip-frequencies.json",
-#        dated_auspice_json = expand("auspice/ncov{{region}}_{date}.json", date=get_todays_date()),
-#        dated_tip_frequencies_json = expand("auspice/ncov{{region}}_{date}_tip-frequencies.json", date=get_todays_date()),
-#        auspice_json_gisaid = "auspice/ncov{region}_gisaid.json",
-#        auspice_json_zh = "auspice/ncov{region}_zh.json"
-
 
 rule subsample_focus:
     message:
