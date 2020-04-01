@@ -42,7 +42,7 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 * ["Çeşitlilik" (Diversity) panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
 * [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=5).  
 * [Zamanla boyunca farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
-* [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)
 * [Ağaçtaki karakterleri (renkleri) nasıl yorumlamalıyım](https://nextstrain.org/narratives/trees-background?n=8)?  
 * [Harita ile filogenetik ağacın ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=9)?  
 * [İleri okuma: filogenetik ağaçlardaki belirsizlikler](https://nextstrain.org/narratives/trees-background?n=10).  
@@ -146,10 +146,10 @@ Daha önce aynı hat üzerinde duran (yani özdeş olan) genom dizilerinin şimd
 
 
 <!-- ############ SLIDE BREAK ############# -->
-# [Dating the start of an outbreak](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
+# [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/ncov/2020-03-11?c=num_date&d=tree&legend=open)
 
 
-Bunlara ek olarak, genomiği bir salgının başlangıç tarihini -başladığını farketmesek bile- belirlemek için de kullabiliriz. Ağaçtaki her bir örneğe ve düğüm noktasına bir tarih verebildiğimiz için bu bilgileri ağacın 'kök'üne bir tarih atamak için kullanabiliriz. Bu elimizde olan bütün SARS-CoV-2'nin "en yakın ortak ortası"nı temsil eder. Örneğin büyükanneniz ve büyükbabanızın sizin ve birinci dereceden bütün kuzenlerinizin ortak atası olduğu gibi. 
+Bunlara ek olarak, genomiği bir salgının başlangıç tarihini -başladığını farketmesek bile- belirlemek için de kullabiliriz. Ağaçtaki her bir örneğe ve düğüm noktasına bir tarih verebildiğimiz için bu bilgileri ağacın 'kök'üne bir tarih atamak için kullanabiliriz. Bu elimizde olan bütün SARS-CoV-2'nin "en yakın ortak ortası"nı temsil eder. Örneğin büyükanneniz ve büyükbabanızın sizin ve birinci dereceden bütün kuzenlerinizin ortak atası olduğu gibi.
 <br><br>
 Eğer imleci en soldaki dikey hattın üzerine getirirseniz bu salgının tahmin edilen başlangıç tarihinin 2019 yılının Kasım ortası - Aralık ortası olduğunu görebilirsiniz.
 
