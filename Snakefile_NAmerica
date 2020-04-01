@@ -2,6 +2,16 @@ include: "Snakefile"
 
 ruleorder: subsample_namerica > subsample 
 ruleorder: adjust_metadata_namerica > adjust_metadata
+ruleorder: all_namerica > all
+
+rule all_namerica:
+    input:
+        auspice_json = "auspice/ncov_North-America.json",
+        tip_frequencies_json = "auspice/ncov_North-America_tip-frequencies.json",
+        dated_auspice_json = expand("auspice/ncov_North-America_{date}.json", date=get_todays_date()),
+        dated_tip_frequencies_json = expand("auspice/ncov_North-America_{date}_tip-frequencies.json", date=get_todays_date()),
+        auspice_json_gisaid = "auspice/ncov_North-America_gisaid.json",
+        auspice_json_zh = "auspice/ncov_North-America_zh.json"
 
 rule subsample_focus:
     message:
@@ -12,7 +22,7 @@ rule subsample_focus:
         sequences = rules.mask.output.alignment,
         metadata = rules.download.output.metadata
     output:
-        sequences = "results/subsample_focus.fasta"
+        sequences = "results/subsample_focus_North-America.fasta"
     params:
         group_by = "division year month",
         sequences_per_group = 300,
@@ -39,7 +49,7 @@ rule make_priorities:
         metadata = rules.download.output.metadata,
         focal_alignment = rules.subsample_focus.output.sequences
     output:
-        priorities = "results/subsampling_priorities.tsv"
+        priorities = "results/subsampling_priorities_North-America.tsv"
     shell:
         """
         python3 scripts/priorities.py --alignment {input.alignment} \
@@ -58,7 +68,7 @@ rule subsample_context:
         metadata = rules.download.output.metadata,
         priorities = rules.make_priorities.output.priorities
     output:
-        sequences = "results/subsample_context.fasta"
+        sequences = "results/subsample_context_North-America.fasta"
     params:
         group_by = "country year month",
         sequences_per_group = 20,
@@ -80,7 +90,7 @@ rule subsample_namerica:
         rules.subsample_focus.output.sequences,
         rules.subsample_context.output.sequences
     output:
-        "results/subsampled_alignment.fasta"
+        "results/subsampled_alignment_North-America.fasta"
     shell:
         """
         cat {input} > {output}
@@ -93,7 +103,7 @@ rule adjust_metadata_namerica:
     params:
         region = "'North America'"
     output:
-        metadata = "results/metadata_adjusted.tsv"
+        metadata = "results/metadata_adjusted_North-America.tsv"
     shell:
         """
         python3 scripts/adjust_regional_meta.py \
