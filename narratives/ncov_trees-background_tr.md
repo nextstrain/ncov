@@ -17,7 +17,7 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
-abstract: "This narrative explains how to read and interpret the phylogenetic trees that inform genomic epidemiology. This website is optimized for display on desktop browsers."
+abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenetik ağaçları nasıl okumak ve anlamlandırmak gerektiğini açıklar. Bu web sayfasındaki görseller masaüstü internet tarayıcaları için optimize edilmiştir."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -25,18 +25,18 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
+# [İçindekiler](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
 
-* [How are transmission networks related to phylogenetic trees](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [How do I read a tree](https://nextstrain.org/narratives/trees-background?n=3)?  
-* [How does the "diversity" panel relate to the tree](https://nextstrain.org/narratives/trees-background?n=4)?   
-* [Measuring differences with genetic divergence](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Measuring differences over time](https://nextstrain.org/narratives/trees-background?n=6).  
-* [Dating the start of an outbreak](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [How should I interpret traits (colors) on the tree](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [How does the map relate to the tree](https://nextstrain.org/narratives/trees-background?n=9)?  
-* [Advanced reading: uncertainty in trees](https://nextstrain.org/narratives/trees-background?n=10).  
-* [About the dataset](https://nextstrain.org/narratives/trees-background?n=11).  
+* [Bulaş zincirleri ile filogenetik ağaçların ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=2)?  
+* [Filogenetik ağaçları nasıl okurum](https://nextstrain.org/narratives/trees-background?n=3)?  
+* ["Çeşitlilik" panelinin ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
+* [Genetik çeşitlenmedeki farklılığı ölçmek](https://nextstrain.org/narratives/trees-background?n=5).  
+* [Zamanla boyunca farklılıkları ölçmek](https://nextstrain.org/narratives/trees-background?n=6).  
+* [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)?  
+* [Ağaçtaki karakterleri (renkleri) nasıl yorumlamalıyım](https://nextstrain.org/narratives/trees-background?n=8)?  
+* [Harita ve filogenetik ağacın ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=9)?  
+* [Aİleri okuma: filogenetik ağaçlarda belirsizlik](https://nextstrain.org/narratives/trees-background?n=10).  
+* [Veri seti hakkında](https://nextstrain.org/narratives/trees-background?n=11).  
 
 <!-- No right-side text -->
 
@@ -44,22 +44,22 @@ abstract: "This narrative explains how to read and interpret the phylogenetic tr
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [How are transmission networks related to phylogenetic trees?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
-Pathogens spread through rapid replication in one host followed by transmission to another host. An epidemic can only take off when one infection results in more than one subsequent infections.
+# [Bulaş zincirleri ile filogenetik ağaçların ilişkisi nedir?](https://nextstrain.org/ncov/2020-03-11?d=tree&p=full)
+Patojenler bir konak içerisinde hızla çoğaldıktan sonra bir başka konağa bulaşarak yayılırlar. Bir epideminin başlayabilmesi ancak bir enfeksiyon, takip eden süreçte birden fazla enfeksiyona sebep oluyorsa mümkündür.
 <br><br>
-As the pathogen replicates and spreads, its genome needs to be replicated many times and random mutations (copying mistakes) will accumulate in the genome; this is normal. Such random mutations can help to track the spread of the pathogen and learn about its transmission routes and dynamics.
+Bir patojen çoğalıp yayılırken, patojenin genomunun da birçok kez çoğaltılması gereklidir ve bu sürecin normal bir sonucu olarak genomda birçok rastgele mutasyon (kopyalama hataları) birikir. Bu rastgele mutasyonlar patojenin yayılımını takip edebilmemiz ve bulaşma yolları ile hastalık dinamikleri hakkında fikir edinebilmemiz açısından oldukça faydalı olabilir.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# An example
+# Bir örnek
 <div width="50%" margin="auto">
 <p>
 <img width="500px" alt="cartoon showing how transmission tree and phylogenetic tree relate" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/infection_tree_combined.png"/>
 </p>
 <p>
-The illustration above shows a sketch of a transmission tree. Each circle represents a case (infected person), with horizontal lines indicating the duration of their infection. Connected cases represent transmissions from one person to the next.
+Yukarıdaki görsel bir bulaş ağacının taslağını gösteriyor. Her bir yuvarlak bir vakayı (enfekte olmuş bir bireyi), yatay çizgiler bireylerin enfekte olduğu süreyi temsil ediyor. Aralarında bağlantı olan vakalar bir bireyden bir diğerine bulaşları temsil ediyor.
 <br> <br>
-Here, we see the full picture of the transmission tree. In practice, however, only a subset of cases are sampled (blue); the transmission tree is unknown and typically only rough estimates of case counts are available. Genome sequences allow us to infer parts of the transmission tree. In this example, three mutations (little diamonds) are indicated on the tree. Sequences that have the same mutations are more closely related, so these mutations allow us to group samples into clusters of closely related viruses that belong to the same transmission chains.
+Burada bir bulaş ağacının tamamını görmekteyiz. Oysaki gerçekte vakaların sadece bir kısmı belirlenebilir (mavi vakalar); bulaş ağacı tamamı ile bilinemez ve toplam vaka sayısına dair sadece tahminler yapılabilir. Genom dizileri (sekansları), bulaş ağacının bazı bölgeleri ile ilgili çıkarımlar yapabilmemizi sağlar. Bu örnekte ağaç üzerinde üç mutasyon (küçük karolar) belirtilmiştir. Aynı mutasyona sahip diziler birbirlerine daha benzerdir, bu sebeple de bu mutasyonları kullanarak aynı bulaş zinciri içerisindeki benzer virüslerin oluşturduğu kümeleri belirleyebilir ve örneklenen vakaları bu kümelerin içerisine yerleştirebiliriz.
 </p>
 </div>
 ```
