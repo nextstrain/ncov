@@ -15,6 +15,16 @@ authorLinks:
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; Chan Zuckerberg Initiative, CA, USA"
+translators:
+  - Zeynep Harcanoğlu
+  - Eren Ada
+  - Benura Azeroglu
+  - Onur Özer
+translatorLinks:
+  - https://twitter.com/zharcanoglu
+  - https://twitter.com/erenada
+  - https://www.researchgate.net/profile/Benura_Azeroglu
+  - https://twitter.com/the_MRCA
 date: "2020 March 13"
 dataset: "https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country"
 abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenetik ağaçları nasıl okumak ve anlamlandırmak gerektiğini açıklar. Bu web sayfasındaki görseller masaüstü internet tarayıcaları için optimize edilmiştir."
@@ -72,7 +82,7 @@ Burada bir bulaş ağacının tamamını görmekteyiz. Oysaki gerçekte vakalar�
 
 Bir filogenetik ağacın x (yatay) ekseni zamanda ya da genetik çeşitlenmedeki farklılığın derecesini gösterir -- bu konuya birazdan değineceğiz. Ağacın y (dikey) ekseni ise ağaç üzerinde yer alan her şeyi görmemize yardım eder; herhangi bir değeri göstermez.
 <br><br>
-Ağacın uç noktaları örnekleri temsil eder (örneğin bir önceki sayfadaki mavi vakalar). Ağacın ara düğümleri (nodes) örneklenmemiş vakaları temsil eder ancak bu düğüm noktalarının, örneklenmiş bütün vakaların atası olduğunu düşünüyoruz (örneğin bir önceki sayfadaki kırmızı düğümler). Bu ilişkileri örneklenmiş vakalardaki mutasyon örüntülerinin analiz edilmesiyle anlıyoruz.
+Ağacın uç noktaları örnekleri temsil eder (örneğin bir önceki sayfadaki mavi vakalar). Ağacın ara düğümleri (nodes) örneklenmemiş vakaları temsil eder ancak bu düğüm noktalarının, örneklenmiş bütün vakaların atası olduğunu varsayıyoruz (örneğin bir önceki sayfadaki kırmızı düğümler). Bu ilişkileri örneklenmiş vakalardaki mutasyon örüntülerinin analiz edilmesiyle anlıyoruz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -167,9 +177,9 @@ Ancak, bu çıkarımları yaparken dikkatli olmak gerekir çünkü eksik örnekl
 <img width="700px" alt="Illustration showing how sampling effects interpretation of viral spread" src="https://github.com/nextstrain/nextstrain.org/raw/master/static-site/content/help/01-general/figures/introductions.png"/>
 </p>
 <p>
-OSol tarafta, turuncu ve mavi ile gösterilmiş iki farklı bölgeden alınan örneklerle tam bir şekilde örneklemi tam bir filogetik ağaç görüyoruz. Ağaçta aşağı doğru ilerledikçe üç örneğin renginin (bölgesinin) turuncudan maviye değiştiğini görüyoruz. Buradan turuncu bölgeden mavi bölgeye üç farklı virüs girişi olduğu sonucunu çıkartabiliriz.
+Sol tarafta, turuncu ve mavi ile gösterilmiş iki farklı bölgeden alınan örneklerle eksiksiz bir şekilde örneklenmiş bir filogetik ağaç görüyoruz. Ağaçta aşağı doğru ilerledikçe üç örneğin renginin (bölgesinin) turuncudan maviye değiştiğini görüyoruz. Buradan turuncu bölgeden mavi bölgeye üç farklı virüs girişi olduğu sonucunu çıkartabiliriz.
 <br><br>
-Ancak bu çıkarım örnekleme bağlıdır. Ortadaki ağaçtaki bir turuncu örneği sildik. Bu durumda turuncudan maviye yalnızca bir geçiş görüyoruz. Bu da mavi bölgeye çok daha önceden yalnızca bir virüs geçişi olduğuna işaret ediyor.
+Ancak bu çıkarım örneklem ile birebir ilişkilidir. Ortadaki ağaçta bir turuncu örneği sildik. Bu durumda turuncudan maviye yalnızca bir geçiş görüyoruz. Bu da mavi bölgeye çok daha önceden yalnızca bir virüs geçişi olduğuna işaret ediyor.
 <br><br>
 En sondaki örnekte ise turuncudan yalnızca bir genom dizimiz var ki bu durum bize turuncudan maviye yalnızca bir geçiş olduğunu düşündürüyor.
 <br><br>
@@ -209,18 +219,16 @@ Ancak bu tahminler her zaman bir miktar belirsizlik de içerir. Genel olarak ağ
 <!-- This is left-side text -->
 # [Bilimsel katkılar](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, but particularly those working in China.
-Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
-
+Bu salgında harika ve hızlı bir şekilde çalışan tüm bilim insanlarına, özellikle de Çin'de çalışanlara, teşekkür etmek istiyoruz. Bu gibi çalışmalar yalnızca genomik verilerin ve meta verilerin hızlı paylaşımı sayesinde mümkün olabilir.
 <br><br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+Ayrıca, bu verilerin yüklenebileceği ve paylaşılabileceği platformu sağladığı için [GISAID](https://gisaid.org)'e minnettarlıkla teşekkür ederiz.
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Bu laboratuvarlar tarafından toplanan veriler için minnettarız:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -348,19 +356,18 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
+# [Bilimsel katkı detayları](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
 
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
+Bu veriler [GISAID](https://gisaid.org) üzerinden paylaşılabiliyor. Katkıları için çok teşekkür ediyoruz.
 
 <br><br>
 
-To the right we give specific sequences shared by each lab.
+Sağda her laboratuvar tarafından paylaşılan dizilerin bilgilerini bulabilirsiniz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+SARS-CoV-2 genomları bu laboratuvarlardaki cömert bilim insanları tarafından paylaşıldı:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
