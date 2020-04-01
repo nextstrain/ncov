@@ -180,6 +180,16 @@ rule subsample:
         """
         cp {input} {output}
         """
+        
+rule adjust_metadata:
+    input:
+        rules.download.output.metadata
+    output:
+        "results/metadata_adjusted.tsv"
+    shell:
+        """
+        cp {input} {output}
+        """
 
 rule tree:
     message: "Building tree"
@@ -207,7 +217,7 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment = rules.mask.output,
-        metadata = rules.download.output.metadata
+        metadata = "results/metadata_adjusted.tsv"
     output:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
@@ -303,7 +313,7 @@ rule traits:
         """
     input:
         tree = "results/tree.nwk",
-        metadata = rules.download.output.metadata,
+        metadata = "results/metadata_adjusted.tsv",
         weights = files.weights
     output:
         node_data = "results/traits.json",
@@ -357,7 +367,7 @@ rule colors:
 rule recency:
     message: "Use metadata on submission date to construct submission recency field"
     input:
-        metadata = rules.download.output.metadata
+        metadata = "results/metadata_adjusted.tsv"
     output:
         "results/recency.json"
     shell:
@@ -371,7 +381,7 @@ rule tip_frequencies:
     message: "Estimating censored KDE frequencies for tips"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.download.output.metadata
+        metadata = "results/metadata_adjusted.tsv"
     output:
         tip_frequencies_json = "auspice/ncov_tip-frequencies.json"
     params:
@@ -396,7 +406,7 @@ rule export:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.download.output.metadata,
+        metadata = "results/metadata_adjusted.tsv",
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -426,7 +436,7 @@ rule export_gisaid:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.download.output.metadata,
+        metadata = "results/metadata_adjusted.tsv",
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
@@ -456,7 +466,7 @@ rule export_zh:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = rules.download.output.metadata,
+        metadata = "results/metadata_adjusted.tsv",
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,

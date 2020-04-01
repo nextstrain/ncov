@@ -1,6 +1,7 @@
 include: "Snakefile"
 
 ruleorder: subsample_namerica > subsample 
+ruleorder: adjust_metadata_namerica > adjust_metadata
 
 rule subsample_focus:
     message:
@@ -83,4 +84,20 @@ rule subsample_namerica:
     shell:
         """
         cat {input} > {output}
+        """
+
+        
+rule adjust_metadata_namerica:
+    input:
+        metadata = rules.download.output.metadata
+    params:
+        region = "'North America'"
+    output:
+        metadata = "results/metadata_adjusted.tsv"
+    shell:
+        """
+        python3 scripts/adjust_regional_meta.py \
+                                   --region {params.region} \
+                                   --metadata {input.metadata} \
+                                   --output {output.metadata} 
         """
