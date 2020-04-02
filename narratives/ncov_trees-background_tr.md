@@ -36,16 +36,16 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 
 <!-- This is left-side text -->
 # [İçindekiler](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
-* [Bulaşma ağları ile filogenetik ağaçların ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=2)?  
-* [Filogenetik ağaçları nasıl okurum](https://nextstrain.org/narratives/trees-background?n=3)?  
-* ["Çeşitlilik" panelinin filogenetik ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
-* [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=5).  
-* [Zaman boyunca farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background?n=6).  
-* [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background?n=7)?  
-* [Ağaçtaki karakterleri (renkleri) nasıl yorumlamalıyım](https://nextstrain.org/narratives/trees-background?n=8)?  
-* [Harita ile filogenetik ağacın ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=9)?  
-* [İleri okuma: filogenetik ağaçlardaki belirsizlikler](https://nextstrain.org/narratives/trees-background?n=10).  
-* [Veri seti hakkında](https://nextstrain.org/narratives/trees-background?n=11).  
+* [Bulaşma ağları ile filogenetik ağaçların ilişkisi nedir](https://nextstrain.org/narratives/trees-background/tr?n=2)?  
+* [Filogenetik ağaçları nasıl okurum](https://nextstrain.org/narratives/trees-background/tr?n=3)?  
+* ["Çeşitlilik" panelinin filogenetik ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background/tr?n=4)?   
+* [Genetik çeşitlilik ile farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background/tr?n=5).  
+* [Zaman boyunca farklılıkları belirlemek](https://nextstrain.org/narratives/trees-background/tr?n=6).  
+* [Bir salgının başlangıç tarihini belirlemek](https://nextstrain.org/narratives/trees-background/tr?n=7)?  
+* [Ağaçtaki karakterleri (renkleri) nasıl yorumlamalıyım](https://nextstrain.org/narratives/trees-background/tr?n=8)?  
+* [Harita ile filogenetik ağacın ilişkisi nedir](https://nextstrain.org/narratives/trees-background/tr?n=9)?  
+* [İleri okuma: filogenetik ağaçlardaki belirsizlikler](https://nextstrain.org/narratives/trees-background/tr?n=10).  
+* [Veri seti hakkında](https://nextstrain.org/narratives/trees-background/tr?n=11).  
 
 <!-- No right-side text -->
 
