@@ -323,6 +323,7 @@ division	Usti nad Labem
 division	Grand Canary Islands
 division	Canary Islands
 division	La Rioja
+division	Lisbon
 division	Croatia
 division	Northern Ireland
 division	England
@@ -341,7 +342,6 @@ division	Helsinki
 division	Finland
 division	Denmark
 division	Portugal
-division	Lisbon
 division	Lagos
 division	Kinshasa
 division	KwaZulu-Natal
@@ -368,11 +368,15 @@ division	Panama City
 division	Mexico City
 division	USA
 division	Connecticut
+division	Rhode Island
 division	Virginia
+division	Florida
+division	Georgia
 division	Texas
 division	Utah
 division	Arizona
 division	California
+division	Oregon
 division	Illinois
 division	Wisconsin
 division	Minnesota
