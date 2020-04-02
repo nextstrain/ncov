@@ -172,7 +172,7 @@ Sol tarafta, turuncu ve mavi ile gösterilmiş iki farklı bölgeden alınan ör
 <br><br>
 Ancak bu çıkarım örneklem ile birebir ilişkilidir. Ortadaki ağaçta bir turuncu örneği sildik. Bu durumda turuncudan maviye yalnızca bir giriş görüyoruz. Bu da, mavi bölgeye daha erken bir dönemde yalnızca bir virüs girişi olduğuna işaret ediyor.
 <br><br>
-En sondaki örnekte ise turuncudan yalnızca bir genom dizimiz var ki bu durum bize maviden turuncuya doğru bir geçiş olduğunu düşündürüyor.
+En sondaki örnekte ise turuncudan yalnızca bir genom dizimiz var ki bu durum bize maviden turuncuya doğru bir virüs geçişi olduğunu düşündürüyor.
 <br><br>
 İşte bu yüzden, bu çıkarımlar çok değerli olsa bile bu çıkarımları oldukça dikkatli bir şekilde yorumlamak gerekiyor.
 </p>
