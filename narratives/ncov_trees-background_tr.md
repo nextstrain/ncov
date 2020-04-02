@@ -36,7 +36,6 @@ abstract: "Bu anlatı, genomik epidemiyoloji hakkında bilgi sağlayan filogenet
 
 <!-- This is left-side text -->
 # [İçindekiler](https://nextstrain.org/ncov/2020-03-11?d=tree&legend=open&c=country)
-
 * [Bulaşma ağları ile filogenetik ağaçların ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=2)?  
 * [Filogenetik ağaçları nasıl okurum](https://nextstrain.org/narratives/trees-background?n=3)?  
 * ["Çeşitlilik" panelinin filogenetik ağaçlarla ilişkisi nedir](https://nextstrain.org/narratives/trees-background?n=4)?   
@@ -69,7 +68,7 @@ Bir patojen çoğalıp yayılırken, patojenin genomunun da birçok kez çoğalt
 <p>
 Yukarıdaki görsel bir bulaşma ağacının taslağını gösteriyor. Her bir daire bir vakayı (enfekte olmuş bir bireyi), yatay çizgiler ise bireylerin enfekte olduğu süreyi temsil ediyor. Aralarında bağlantı olan vakalar bir bireyden bir diğerine enfeksiyonun bulaşmasını temsil ediyor.
 <br> <br>
-Burada bir bulaş ağacının tamamını görmekteyiz. Oysaki gerçekte vakaların sadece bir kısmı belirlenebilir (mavi vakalar); bulaşma ağacı tamamı ile bilinemez ve toplam vaka sayısına dair sadece tahminler yapılabilir. Genom dizileri, bulaşma ağacının bazı bölgeleri ile ilgili çıkarımlar yapabilmemizi sağlar. Bu örnekte ağaç üzerinde üç mutasyon (küçük karolar) belirtilmiştir. AAynı mutasyona sahip diziler birbirlerine daha benzerdir. Bu sebeple bu mutasyonlardan faydalanarak aynı bulaş zinciri içerisindeki benzer virüsleri birbirleri ile gruplandırabiliriz.
+Burada bir bulaşma ağacının tamamını görmekteyiz. Oysaki gerçekte vakaların sadece bir kısmı belirlenebilir (mavi vakalar); bulaşma ağacı tamamı ile bilinemez ve toplam vaka sayısına dair sadece tahminler yapılabilir. Genom dizileri, bulaşma ağacının bazı bölgeleri ile ilgili çıkarımlar yapabilmemizi sağlar. Bu örnekte ağaç üzerinde üç mutasyon (küçük karolar) belirtilmiştir. Aynı mutasyona sahip diziler birbirlerine daha benzerdir. Bu sebeple bu mutasyonlardan faydalanarak aynı bulaş zinciri içerisindeki benzer virüsleri birbirleri ile gruplandırabiliriz.
 </p>
 </div>
 ```
@@ -173,7 +172,7 @@ Sol tarafta, turuncu ve mavi ile gösterilmiş iki farklı bölgeden alınan ör
 <br><br>
 Ancak bu çıkarım örneklem ile birebir ilişkilidir. Ortadaki ağaçta bir turuncu örneği sildik. Bu durumda turuncudan maviye yalnızca bir giriş görüyoruz. Bu da, mavi bölgeye daha erken bir dönemde yalnızca bir virüs girişi olduğuna işaret ediyor.
 <br><br>
-En sondaki örnekte ise turuncudan yalnızca bir genom dizimiz var ki bu durum bize turuncudan maviye yalnızca bir geçiş olduğunu düşündürüyor.
+En sondaki örnekte ise turuncudan yalnızca bir genom dizimiz var ki bu durum bize maviden turuncuya doğru bir geçiş olduğunu düşündürüyor.
 <br><br>
 İşte bu yüzden, bu çıkarımlar çok değerli olsa bile bu çıkarımları oldukça dikkatli bir şekilde yorumlamak gerekiyor.
 </p>
@@ -198,7 +197,7 @@ Biraz önce düğüm noktalarının (dalların kesiştiği noktaların) _varsay�
 Ancak bu tahminler her zaman bir miktar belirsizlik de içerir. Genel olarak ağaç üzerinde fazla sayıda örneğin olduğu bölgeler daha güvenilirken az sayıda örneğin olduğu bölgelerde belirsizlik daha fazladır.
 
 ```auspiceMainDisplayMarkdown
-# Bir gösterim
+# Bir örnek
 <div width="50%" margin="auto">
 <p>
 <img width="700px" alt="Illustration of the uncertainty inherent in tree reconstruction" src="https://github.com/nextstrain/nextstrain.org/raw/c69bfd0750c284ff12f33682f8d82848e13d9e15/static-site/content/help/01-general/figures/hcov_densitree.png"/>
@@ -214,7 +213,8 @@ Ancak bu tahminler her zaman bir miktar belirsizlik de içerir. Genel olarak ağ
 Bu salgında harika ve hızlı bir şekilde çalışan tüm bilim insanlarına, özellikle de Çin'de çalışanlara, teşekkür etmek istiyoruz. Bu gibi çalışmalar yalnızca genomik verilerin ve meta verilerin hızlı paylaşımı sayesinde mümkün olabilir.
 <br><br>
 
-Ayrıca, bu verilerin yüklenebileceği ve paylaşılabileceği platformu sağladığı için [GISAID](https://gisaid.org)'e minnettarlıkla teşekkür ederiz.
+Bu verilerin yüklenebileceği ve paylaşılabileceği platformu sağladığı için [GISAID](https://gisaid.org)'e minnettarlıkla teşekkür ederiz.
+
 
 <!-- Do not need to translate insitutions names -->
 <!-- This is right-side text -->
@@ -359,7 +359,7 @@ Sağda her laboratuvar tarafından paylaşılan dizilerin bilgilerini bulabilirs
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-SARS-CoV-2 genomları bu laboratuvarlardaki cömert bilim insanları tarafından paylaşıldı:
+SARS-CoV-2 genomları aşağıda listelenmiş laboratuvarlardaki bilim insanları tarafından gönüllü olarak paylaşılmıştır:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020
