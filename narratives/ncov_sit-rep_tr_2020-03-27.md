@@ -87,13 +87,13 @@ Burada, halka açık olarak paylaşılan 1495 COVID-19 genom dizisini analiz ett
 COVID-19 ve buna neden olan SARS-CoV-2 virüsünü tanımak için okumaya değer bazı kaynaklar hazırladık.
 Bu bilgi, bu açıklamada sunduğumuz verilerin yorumlanmasını kolaylaştıracaktır.
 <br><br>
-Filogenetik ağaçlara aşina değilseniz, ['How to Read Phylogenies' metnini](https://nextstrain.org/narratives/trees-background/) okuyup ve hazır olduğunuzda buraya geri dönmenizi tavsiye ediyoruz.
+Filogenetik ağaçlara aşina değilseniz, ['Filogenetik ağaçları nasıl yorumlamalı?' metnini](https://nextstrain.org/narratives/trees-background/tr) okuyup ve hazır olduğunuzda buraya geri dönmenizi tavsiye ediyoruz.
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 ## Nextstrain Kaynakları
 
-[Bir filogeniden nasıl anlam çıkarırsınız](https://nextstrain.org/narratives/trees-background/).  
+[Bir filogeniden nasıl anlam çıkarırsınız](https://nextstrain.org/narratives/trees-background/tr).  
 
 [Koronavirüslerin arkaplanı](https://nextstrain.org/help/coronavirus/human-CoV).
 
