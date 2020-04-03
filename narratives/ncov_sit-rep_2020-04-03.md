@@ -36,7 +36,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-02?n=2).     
 * [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-02?n=3).
 * [Updates for Africa](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-02?n=4).
-* [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-02?n=7).
+<!-- * [Updates for Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-02?n=7). -->
 * [Updates for Europe](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-02?n=8).
 * [Updates for North America](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-02?n=11).
 * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-02?n=13).
@@ -52,9 +52,6 @@ We analyzed 2,544 publicly shared COVID-19 genomes. By comparing these viral gen
 * Evidence for at least two different transmission chains circulating locally in Senegal  
 * Continued local spread in the Democratic Republic of the Congo  
 
-/* **Asia**  
-* The origins of the Japanese outbreak may be associated with cruiseship travel */
-
 **Europe**  
 * Extensive sequencing by Iceland demonstrates the extent of travel-associated spread
 * Travel histories suggest local transmission in Austria
@@ -68,7 +65,8 @@ We also received new viral genomes from South America and Oceania. Most of these
 <br><br>
 We applaud the groups working to generate additional data for these regions. As more specific inferences become possible, we will immediately share those findings.
 ```
-
+<!--- **Asia**  
+* The origins of the Japanese outbreak may be associated with cruiseship travel --->
 
 <!-- ############ SLIDE BREAK ############# -->
 
@@ -159,7 +157,7 @@ This demonstrates that there is ongoing local transmission within the DRC, and s
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-<!-- # [Japanese outbreak may be cruiseship-associated]
+<!-- # [Japanese outbreak may be cruiseship-associated]()
 
 
 Japanese cluster seems to have been caused from exposure to US/European circulating variants while on holiday in Egypt, which were then introduced to Japan.
