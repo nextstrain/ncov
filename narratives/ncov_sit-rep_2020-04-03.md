@@ -6,7 +6,7 @@ authors:
   - Sidney M. Bell
   - Nicola Müller
   - James Hadfield
-  - Misja Ilcisin  
+  - Louise Moncla  
   - Richard Neher
   - Trevor Bedford
 authorLinks:
@@ -15,7 +15,7 @@ authorLinks:
   - https://twitter.com/sidneymbell
   - https://bedford.io/team/nicola-mueller/
   - https://bedford.io/team/james-hadfield/
-  - https://bedford.io/team/misja-ilcisin/
+  - https://bedford.io/team/louise-moncla/
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
