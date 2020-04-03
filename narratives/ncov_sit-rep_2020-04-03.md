@@ -28,7 +28,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
-<!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
+<!-- numbers can be tagged like this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1-->
 # [Table of Contents](https://nextstrain.org/ncov/2020-04-03?d=tree,map&p=grid)
@@ -46,7 +46,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-We analyzed 2,544 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading within communities. In this week's updates, we report:
+We analyzed 2,544 publicly shared hCoV-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading within communities. In this week's updates, we report:
 
 **Africa**  
 * Evidence for at least two different transmission chains circulating locally in Senegal  
@@ -133,10 +133,10 @@ For example, the map shows relatively few sequences from the global south. This 
 
 Here, we see two clusters of cases from Senegal. These clusters do not group together, which indicates that they were the result of at least two separate introductions. Each of these clusters consists of closely related cases sampled across a short period of time, consistent with local transmission.
 <br><br>
-The cluster shown towards the top of the tree consists cases sampled in Dakar between February 28 -- March 4.
+The cluster shown towards the top of the tree consists of cases sampled in Dakar between February 28 and March 4.
 This suggests that hCoV-19 has been likely circulating locally in Dakar for at least 1 month.
 <br><br>
-In the middle of the tree is a cluster of cases sampled in Touba between March 10 -- March 12.
+In the middle of the tree is a cluster of cases sampled in Touba between March 10 and March 12.
 This suggests that hCoV-19 may have been circulating in Touba for around 3 weeks.
 <!-- There is no right side text -->
 
@@ -152,7 +152,7 @@ This demonstrates that there is ongoing local transmission within the DRC, and s
 <!-- This is left-side text 7-->
 <!-- # [Updates for Asia](https://nextstrain.org/ncov/2020-04-03?d=tree,map&f_region=Asia&p=grid) -->
 
-<!-- There is no right side text --> -->
+<!-- There is no right side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -179,9 +179,9 @@ Observation: It seems the Nile cruise ship had 2 separate variatns circulating. 
 
 We recently received 301 sequences -- from 25\% of [confirmed cases]((https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200402-sitrep-73-covid-19.pdf)) -- from Iceland.
 <br><br>
-Coloring each sample by its recorded travel history, we see that approximately half of these infections were acquired outside of Iceland, while half are presumed locally acquired infections.
+Coloring each sample by its recorded travel history, we see that approximately half of these infections were acquired outside of Iceland, while half are presumed locally acquired infections (shown in gray).
 <br><br>
-As we reported last week, this highlights just how much mixing there is between the outbreaks in each European country.
+As we [reported last week](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=5), this highlights just how much mixing there is between the outbreaks in each European country.
 For any given sample, we can draw inferences about where its predecessors must have been, but we can't rule out the possibility of indirect transmission by way of an unsampled location.
 <!-- There is no right side text -->
 
@@ -193,7 +193,9 @@ For any given sample, we can draw inferences about where its predecessors must h
 This is also a powerful example of how comprehensive sequencing efforts and travel logging by one country can help us understand the local situation elsewhere, even for places that aren't yet generating sequencing data.
 <br><br>
 Looking at the cases sequenced in Iceland after reported travel to Austria, we see multiple clusters of closely related Austrian cases, sequenced over a short time period.
-This is most consistent with a scenario wherein there were multiple introductions into Austria, followed by community transmission.
+This is most consistent with a scenario wherein there were multiple introductions into Austria. We can't be sure if the linked sequences represent community transmission in Austria or travelling partners linking together after exposure to the same strain.
+<br>,<br>
+Though shown in grey, the number of connections between different European countries is notable. Most European countries seem to have multiple introductions, so there is no 'simple' story for how the virus has spread through Europe - it was likely spreading widely weeks ago.
 
 
 
@@ -245,7 +247,7 @@ From this, we infer that there has likely been community transmission in Ontario
 * If you are an employer, encourage your employees to work from home wherever possible.
 #### ...as an official  
 * Make testing free and broadly available.  
-* Put strong social distancing measures in place & financially support those impacted.  
+* Put strong social distancing measures in place. 
 * Fund and implement extensive contact tracing and isolation efforts.  
 * Financially support those impacted by social distancing measures.
 
