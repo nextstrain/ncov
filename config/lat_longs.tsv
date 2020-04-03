@@ -8,6 +8,7 @@ location	Blaricum	52.2727	5.2481
 location	Boston	42.354750	-71.061299
 location	Brasilia	-15.814189	-47.875543
 location	Brisbane	-27.484246	153.026118
+location	Brooklyn	40.6782	-73.9442
 location	Budapest	47.482728	19.084269
 location	California	36.357039	-119.690182
 location	Cardiff	51.476291	-3.178964
@@ -313,6 +314,7 @@ division	Normandie	49.055810	0.060987
 division	North Brabant	51.4827	5.2322
 division	North Holland	52.5206	4.7885
 division	North Rhine Westphalia	51.44	7.705
+division	Northern Territory	-19.4914	132.5510
 division	Northern Ireland	54.602190	-6.687146
 division	Oevel	51.1387	4.9043
 division	Ontario	44.429	-79.377
@@ -375,6 +377,7 @@ division	Utah	39.4225192	-111.7143583
 division	Utrecht	52.085320	5.184968
 division	Vaud	46.619469	6.472479
 division	Victoria	-37.121673	144.106178
+division	Vienna	48.2082	16.3738
 division	Vinhphuc	21.348702	105.548594
 division	Virginia	37.926868	-78.024902
 division	Vorst	50.8134	4.3248
@@ -421,8 +424,10 @@ division	Ishikawa	36.570185	136.732454
 division	Kochi	33.518628	133.505674
 division	Khyber Pakhtunkhwa	33.696621	72.636031
 
+country	Croatia	45.1000	15.2000
 country	Denmark	56.2639	9.5018
 country	Ecuador	-1.0541	-78.1489
+country	Egypt	26.8206	30.8025
 country	England	52.3555	-1.1743
 country	Georgia	41.989378	43.597463
 country	Iceland	64.90614	-18.4826
