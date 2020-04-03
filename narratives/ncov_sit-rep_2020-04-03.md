@@ -56,14 +56,14 @@ We analyzed 2,544 publicly shared COVID-19 genomes. By comparing these viral gen
 * The origins of the Japanese outbreak may be associated with cruiseship travel */
 
 **Europe**  
-* Extensive sequencing by Iceland highlights extent of travel-associated spread
-* Travel histories reveal local transmission in Austria
+* Extensive sequencing by Iceland demonstrates the extent of travel-associated spread
+* Travel histories suggest local transmission in Austria
 
 **North America**   
 * Extensive mixing across the U.S.  
-* Two local transmission chains circulating in Ontario  
+* Likely two local transmission chains circulating in Ontario  
 
-**Other areas of the world**
+**Other areas of the world**  
 We also received new viral genomes from South America and Oceania. Most of these new samples are scattered across the tree and group with samples collected in other regions of the world. Without more contextual data, however, we aren't yet able to draw inferences about these new sequences.
 <br><br>
 We applaud the groups working to generate additional data for these regions. As more specific inferences become possible, we will immediately share those findings.
@@ -124,7 +124,7 @@ For example, the map shows relatively few sequences from the global south. This 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4-->
-# [Updates for Africa](https://nextstrain.org/ncov/2020-04-02?d=tree,map&f_region=Africa&p=grid)
+# [Updates for Africa](https://nextstrain.org/ncov/2020-04-02?d=tree,map&f_region=Africa&p=grid&r=division)
 <!-- There is no right side text -->
 
 
@@ -132,10 +132,10 @@ For example, the map shows relatively few sequences from the global south. This 
 <!-- This is left-side text 5-->
 # [Two local transmission chains circulating in Senegal](https://nextstrain.org/ncov/2020-04-02?c=division&d=tree,map&f_country=Senegal&f_region=Africa&label=clade:A2a&p=grid&r=division)
 
-Here, we see two clusters of cases from Senegal. Each of these two clusters is more closely related to samples from other parts of the world than to each other, which indicates that they are the result of 2 independent introductions.
+Here, we see two clusters of cases from Senegal. These clusters do not group together, which indicates that they were the result of at least two separate introductions. Each of these clusters consists of closely related cases sampled across a short period of time, consistent with local transmission.
 <br><br>
-The cluster shown towards the top of the tree consists of closely related cases, all sampled in Dakar between February 28 -- March 4.
-This suggests that hCoV-19 has been circulating locally in Dakar for about 1 month.
+The cluster shown towards the top of the tree consists cases sampled in Dakar between February 28 -- March 4.
+This suggests that hCoV-19 has been likely circulating locally in Dakar for at least 1 month.
 <br><br>
 In the middle of the tree is a cluster of cases sampled in Touba between March 10 -- March 12.
 This suggests that hCoV-19 may have been circulating in Touba for around 3 weeks.
@@ -149,12 +149,12 @@ We received 8 new genomes this week from Kinsasha in the Democratic Republic of 
 All but 1 of the new samples cluster within the local outbreak clades which [we reported on last week](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).
 This demonstrates that there is ongoing local transmission within the DRC, and swift action must be taken to contain the outbreak.
 
-
+<!--
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7-->
-# [Updates for Asia](https://nextstrain.org/ncov/2020-04-02?d=tree,map&f_region=Asia&p=grid)
+<!-- # [Updates for Asia](https://nextstrain.org/ncov/2020-04-02?d=tree,map&f_region=Asia&p=grid) -->
 
-<!-- There is no right side text -->
+<!-- There is no right side text --> -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -177,11 +177,11 @@ Observation: It seems the Nile cruise ship had 2 separate variatns circulating. 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9-->
-# [Extensive sequencing by Iceland highlights extent of travel-associated spread](https://nextstrain.org/ncov/2020-04-02?c=country_exposure&f_country=Iceland&p=grid)
+# [Extensive sequencing by Iceland highlights extent of travel-associated spread](https://nextstrain.org/ncov/2020-04-02?c=country_exposure&f_country=Iceland&p=grid&d=tree,map)
 
-We recently received 301 sequences -- from 25\% of [confirmed cases]((https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200402-sitrep-73-covid-19.pdf)) -- from Iceland!
+We recently received 301 sequences -- from 25\% of [confirmed cases]((https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200402-sitrep-73-covid-19.pdf)) -- from Iceland.
 <br><br>
-Coloring each sample by its recorded travel history, we see that approximately half of these infections were acquired outside of Iceland, while half were (presumably) acquired locally.
+Coloring each sample by its recorded travel history, we see that approximately half of these infections were acquired outside of Iceland, while half are presumed locally acquired infections.
 <br><br>
 As we reported last week, this highlights just how much mixing there is between the outbreaks in each European country.
 For any given sample, we can draw inferences about where its predecessors must have been, but we can't rule out the possibility of indirect transmission by way of an unsampled location.
@@ -190,9 +190,9 @@ For any given sample, we can draw inferences about where its predecessors must h
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10-->
-# [Travel histories reveal local transmission in Austria](https://nextstrain.org/ncov/2020-04-02c=country_exposure&d=tree,map&f_country=Iceland&f_country_exposure=Austria&m=div&p=full)
+# [Travel histories reveal local transmission in Austria](https://nextstrain.org/ncov/2020-04-02&c=country_exposure&d=tree,map&f_country=Iceland&f_country_exposure=Austria&m=div&p=full)
 
-This is a powerful example of how comprehensive sequencing efforts and travel logging by one country can help us understand the local situation elsewhere, even for places that aren't yet generating sequencing data.
+This is also a powerful example of how comprehensive sequencing efforts and travel logging by one country can help us understand the local situation elsewhere, even for places that aren't yet generating sequencing data.
 <br><br>
 Looking at the cases sequenced in Iceland after reported travel to Austria, we see multiple clusters of closely related Austrian cases, sequenced over a short time period.
 This is most consistent with a scenario wherein there were multiple introductions into Austria, followed by community transmission.
@@ -210,26 +210,26 @@ This is most consistent with a scenario wherein there were multiple introduction
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12-->
-# [Extensive mixing across the U.S.](https://nextstrain.org/ncov/2020-04-02?c=division&f_region=North%20America&m=div&r=location)
+# [Extensive mixing across the U.S.](https://nextstrain.org/ncov/2020-04-02?c=division&f_region=North%20America&m=div&r=location&d=tree,map)
 
 As we gain a fuller picture of the outbreak in the U.S., it's clear that these localized outbreaks are the result of extensive mixing.
 <br><br>
-While many of the early cases were travel-associated, more recent cases from many different states are intermingled with each other.   
+While many of the early cases were travel-associated, the more recent cases from many different states are largely intermingled with each other across the tree.   
 <br><br>
-As we've reported in previous weeks, there are links between many pairs of states. A unified strategy will be crucial to stopping this outbreak.
+This emphasizes that a unified strategy will be crucial to stopping this outbreak.
 
 <!-- This is no right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Two local transmission chains circulating in Ontario](https://nextstrain.org/ncov/2020-04-02branchLabel=clade&f_division=Ontario&label=clade:B1)
+# [Two local transmission chains circulating in Ontario](https://nextstrain.org/ncov/2020-04-02?branchLabel=clade&f_division=Ontario&label=clade:B1)
 
-Here, we see two clusters of sequences from Ontario. Each of these clusters is more closely related to sequences from other countries than to each other, indicating that these were the result of two separate introductions.
+Here, we see two clusters of sequences from Ontario. These clusters do not group together, and each cluster nests alongside samples from other countries, indicating that these were the result of two separate introductions.
 <br><br>
 Within each cluster, however, each of these cases is most closely related to other cases from Ontario, indicating that this is most likely local, community transmission.
 <br><br>
-From this, we conclude that there has been community transmission in Ontario since at least the 3rd of March.
+From this, we infer that there has likely been community transmission in Ontario since at least the 3rd of March.
 
 <!-- There is no right side text -->
 
@@ -240,16 +240,15 @@ From this, we conclude that there has been community transmission in Ontario sin
 <!-- This is left-side text 13-->
 # [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
 #### ...as an individual
-* Practice strict social distancing, especially if you are in a vulnerable group.
+* Practice strict social distancing.
 * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
 * Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
 * Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
 * If you are an employer, encourage your employees to work from home wherever possible.
-
 #### ...as an official  
 * Make testing free and broadly available.  
-* Put strong social distancing measures in place.  
-* Fund and implement extensive contact tracing efforts.  
+* Put strong social distancing measures in place & financially support those impacted.  
+* Fund and implement extensive contact tracing and isolation efforts.  
 * Financially support those impacted by social distancing measures.
 
 
@@ -257,14 +256,14 @@ From this, we conclude that there has been community transmission in Ontario sin
 
 ```auspiceMainDisplayMarkdown
 # Takeaways
-
+<br><br>
 #### We find evidence for local transmission within Senegal and the DRC. Swift action must be taken to contain the outbreak in these vulnerable areas.  
 <br><br>
-#### The origins of the Japanese outbreak may be associated with cruiseship travel  
+#### The origins of the Japanese outbreak may be associated with cruiseship travel.  
 <br><br>
-#### Extensive sequencing by Iceland highlights extent of travel-associated spread and reveal likely local transmission in Austria  
+#### Extensive sequencing by Iceland highlights extent of travel-associated spread and reveal likely local transmission in Austria.  
 <br><br>
-#### Cases across the U.S. co-mingle on the tree, demonstrating extensive mixing across state lines  
+#### Cases across the U.S. co-mingle on the tree, demonstrating extensive mixing across state lines.  
 ```
 <!-- ############ SLIDE BREAK ############# -->
 
