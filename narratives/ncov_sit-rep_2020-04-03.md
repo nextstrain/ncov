@@ -60,7 +60,8 @@ We analyzed 2,544 publicly shared COVID-19 genomes. By comparing these viral gen
 * Extensive mixing across the U.S.  
 * Likely two local transmission chains circulating in Ontario  
 
-**Other areas of the world**  
+**Other areas of the world**
+<br>
 We also received new viral genomes from South America and Oceania. Most of these new samples are scattered across the tree and group with samples collected in other regions of the world. Without more contextual data, however, we aren't yet able to draw inferences about these new sequences.
 <br><br>
 We applaud the groups working to generate additional data for these regions. As more specific inferences become possible, we will immediately share those findings.
@@ -147,7 +148,6 @@ We received 8 new genomes this week from Kinsasha in the Democratic Republic of 
 All but 1 of the new samples cluster within the local outbreak clades which [we reported on last week](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).
 This demonstrates that there is ongoing local transmission within the DRC, and swift action must be taken to contain the outbreak.
 
-<!--
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7-->
 <!-- # [Updates for Asia](https://nextstrain.org/ncov/2020-04-02?d=tree,map&f_region=Asia&p=grid) -->
@@ -188,7 +188,7 @@ For any given sample, we can draw inferences about where its predecessors must h
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10-->
-# [Travel histories reveal local transmission in Austria](https://nextstrain.org/ncov/2020-04-02&c=country_exposure&d=tree,map&f_country=Iceland&f_country_exposure=Austria&m=div&p=full)
+# [Travel histories reveal local transmission in Austria](https://nextstrain.org/ncov/2020-04-02?c=country_exposure&d=tree,map&f_country=Iceland&f_country_exposure=Austria&m=div&p=full)
 
 This is also a powerful example of how comprehensive sequencing efforts and travel logging by one country can help us understand the local situation elsewhere, even for places that aren't yet generating sequencing data.
 <br><br>
@@ -221,7 +221,7 @@ This emphasizes that a unified strategy will be crucial to stopping this outbrea
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [Two local transmission chains circulating in Ontario](https://nextstrain.org/ncov/2020-04-02?branchLabel=clade&f_division=Ontario&label=clade:B1)
+# [Two local transmission chains circulating in Ontario](https://nextstrain.org/ncov/2020-04-02?branchLabel=clade&f_division=Ontario&label=clade:B1&d=tree,map)
 
 Here, we see two clusters of sequences from Ontario. These clusters do not group together, and each cluster nests alongside samples from other countries, indicating that these were the result of two separate introductions.
 <br><br>
@@ -239,7 +239,7 @@ From this, we infer that there has likely been community transmission in Ontario
 # [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
 #### ...as an individual
 * Practice strict social distancing.
-* Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
+* Even if you are not vulnerable, practice social distancing to protect others.
 * Wash your hands "like you just chopped a jalapeno and have to change a contact lens."  
 * Stay home as much as possible -- especially  if you are sick; be prepared with extra supplies in case you need to self-quarantine.  
 * If you are an employer, encourage your employees to work from home wherever possible.
@@ -257,12 +257,13 @@ From this, we infer that there has likely been community transmission in Ontario
 <br><br>
 #### We find evidence for local transmission within Senegal and the DRC. Swift action must be taken to contain the outbreak in these vulnerable areas.  
 <br><br>
-#### The origins of the Japanese outbreak may be associated with cruiseship travel.  
-<br><br>
 #### Extensive sequencing by Iceland highlights extent of travel-associated spread and reveal likely local transmission in Austria.  
 <br><br>
 #### Cases across the U.S. co-mingle on the tree, demonstrating extensive mixing across state lines.  
 ```
+<!-- <br><br>
+#### The origins of the Japanese outbreak may be associated with cruiseship travel.   -->
+
 <!-- ############ SLIDE BREAK ############# -->
 
 
