@@ -1,5 +1,5 @@
 ---
-title: COVID-19 확산에 대한 유전체 분석. 2020년 3월 20일 상황 보고서
+title: COVID-19 salgınının genomik analizi. 20 Mart 2020 tarihli durum raporu.
 authors:
   - Emma Hodcroft
   - Nicola Müller
@@ -20,11 +20,16 @@ authorLinks:
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
-  - Hanbin Lee
-  - Minkyu Kim
-date: "2020년 3월 20일"
+  - Zeynep Harcanoğlu
+  - Eren Ada
+  - Benura Azeroglu
+translatorLinks:
+  - https://twitter.com/zharcanoglu
+  - https://twitter.com/erenada
+  - https://www.researchgate.net/profile/Benura_Azeroglu
+date: "20 Mart 2020"
 dataset: "https://nextstrain.org/ncov/2020-03-20?legend=closed&d=map&legend=closed"
-abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19의 전파를 추적합니다. 이 보고서는 매주 업데이트 됩니다."
+abstract: "Bu rapor COVID-19'un yayılımını takip etmek için herkese açık olarak paylaşılan genomik dizi verileri kullanır. Raporlar haftalık olarak güncellenir."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -32,202 +37,155 @@ abstract: "이 보고서는 공개된 유전체 정보를 이용해 코로나19�
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1 -->
-# [목차](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
+# [İçindekiler](https://nextstrain.org/ncov/2020-03-20?d=tree,map&p=grid)
 
-* [배경지식](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=2).     
-* [데이터 수집 관련 사항](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=3).
-* [염기서열 정보 & 여행력](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=6).
-* [거의 모든 나라에 전파된 코로나19](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=8).
-* [유행의 성장과 전파](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=9).
-* [워싱턴주 유행의 성장](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=10).
-* [워싱턴주 유행의 전파](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=11).
-* [사회적 거리두기가 확진자 수 변화에 가져온 변화](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=12).
-* [우리가 할 수 있는 것들](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=13).
-* [과학적 기여](https://nextstrain.org/narratives/ncov/sit-rep/ko/2020-03-20?n=14).
+* [Arka plan kaynakları](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=2).     
+* [Örnekleme hakkında bir not](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=3).
+* [Dizi verileri & seyahat geçmişleri](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=6).
+* [COVID-19'un neredeyse tüm ülkelere girişi](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=8).
+* [Salgınlar nasıl büyür ve yayılır](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=9).
+* [Washington salgını nasıl büyüdü](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=10).
+* [Washington salgını nasıl yayıldı](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=11).
+* [Sosyal mesafe ile vaka sayıları nasıl değişir](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=12).
+* [Ne yapabilirsiniz](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=13).
+* [Bilimsel katkılar](https://nextstrain.org/narratives/ncov/sit-rep/tr/2020-03-20?n=14).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# 개요
+# Özet
 
-저희는 723</tag>개의 공개된 코로나19 유전체 염기서열을 분석하였습니다.
-이 정보를 바탕으로 코로나19가 어떻게 진화하고 세계 곳곳으로 퍼지고 있는지 파악하였습니다.
+Burada, halka açık olarak paylaşılan 723 COVID-19 genomunu analiz ettik. Bu viral genomları karşılaştırarak COVID-19'un dünya üzerinde nasıl hareket ettiğini karakterize edebiliriz.
 
-바이러스는 현재 세계 곳곳에 퍼져나가 유행하고 있습니다.
-각 지역에 바이러스 현황을 파악하고 완화전략을 통해 전파를 둔화시키려면 지역사회전파의 양상을 잘 이해하고 있어야 합니다.
-이를 위해서는 광범위한 검사가 필수적입니다.
-이를 통해 질병 전파의 속도를 낮춤에 있어 신속한 검사가 중요하다는 것을 알 수 있습니다.
 
-이번 주 보고서에서 새로 추가된 것들:
+Bu raporda, virüsün dünyanın pek çok bölgesinde görüldüğünü ve dolaşıma devam ettiğine dikkat çekiyoruz. COVID-19'un bölgesel yayılımını (varsa bu yayılımın hangi seviyede olduğunu) bilmek ve alınacak önlemlerin bu salgını nasıl yavaşlatacağını anlamak için yerel salgın dinamiklerini çok iyi anlamak gerekir. Bu da, haliyle, yaygın bir şekilde test yapılmasını gerektirir. Bu durum, yerel bulaşıyı yavaşlatmaya yönelik hızlı bir şekilde test yapmanın önemini vurgulamaktadır.
 
-* 전세계에서 여행과 관련된 유입의 증거들이 관찰됩니다.
-* 최근에 바이러스가 유입된 지역들에서는 4-8주 사이에 환자가 급증할 것으로
-  예상되니 지금부터 준비해야합니다.
-* 사회적 거리두기를 최근에 실행한 곳에서도 당분간은 확진자가 계속 증가할 것입니다.
-  그러나 중장기적으로는 증가세가 둔화될 것입니다.
-* 대유행과 싸우기 위해서는 과거와 현재의 감염 모두를 파악해야합니다.
+Bu haftanın rapor güncellemesinde:  
+
+
+* Virüsün dünyanın pek çok bölgesinde seyahate bağlı olarak ortaya çıktığına dair kanıtları sunuyoruz.
+* Virüsün yakın zamanda görülmeye başladığı bölgeler, 4-8 haftalık bir zaman dilimi içerisinde vaka saysında artış gözlemleyebilir. Söz konusu bölgelerin şimdiden hazırlanması gerekir.
+* Sosyal mesafe önlemlerini hayata geçirmiş bölgelerde kısa dönemde vaka sayısının artması, ancak orta vadede durağanlaşması ve düşüşe geçmesi mümkün.
+* Hem aktif enfeksiyonlu bireylere hem de iyileşmiş bireylere test yapılması bu salgın ile başa çıkmakta hayati öneme sahip olacaktır.
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2 -->
-# [코로나바이러스감염증-19 관련자료](https://nextstrain.org/ncov/2020-03-20)
-코로나바이러스감염증-19와 이를 유발하는 SARS-CoV-2 바이러스에 대한 몇 가지
-자료를 준비했습니다.
-이 정보들은 저희가 이 보고서에서 제시한 내용을 이해하는데 도움을 줄 것입니다.
-이 정보들은 저희가 이 보고서에서 제시한 내용을 이해하는데 도움을 줄 것입니다.
-계통수(계통유전학적 나무)가 익숙하지 않은 분들은 ['계통수를 읽는 법'](https://nextstrain.org/narratives/trees-background/ko)를 읽고 오십시오.
+# [COVID-19 Kaynakları](https://nextstrain.org/ncov/2020-03-20)
+COVID-19 ve buna neden olan SARS-CoV-2 virüsünü tanımak için okumaya değer bazı kaynaklar hazırladık.
+Bu bilgi, bu açıklamada sunduğumuz verilerin yorumlanmasını kolaylaştıracaktır. Filogenetik ağaçlara aşina değilseniz, ['How to Read Phylogenies' metnini](https://nextstrain.org/narratives/trees-background/) okuyabilir ve hazır olduğunuzda buraya geri dönebilirsiniz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-## 배경지식
+## Arka Plan
 
 <div>
-  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> 코로나바이러스 관련 배경지식 </a>
+  <a href="https://nextstrain.org/help/coronavirus/human-CoV"><img alt="microscopy image of coronaviruses" width="100" src="https://nextstrain.org/static/ncov_narrative-76cfd610d11ef708d213a3170de9519f.png"/> Background on Coronaviruses </a>
 
-  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> 최근 코로나바이러스감염증-19 유행 관련 배경지식</a>
+  <a href="https://nextstrain.org/help/coronavirus/SARS-CoV-2"><img alt="illustration of a coronavirus" width="100" src="http://data.nextstrain.org/img_nCoV-CDC.jpg"/> Recent COVID-19 Outbreak Background </a>
 
-  <a href="https://nextstrain.org/narratives/trees-background/ko"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> 계통수를 읽는 법 </a>
+  <a href="https://nextstrain.org/narratives/trees-background/"><img alt="cartoon of a phylogenetic tree" width="100" src="http://data.nextstrain.org/img_toy_alignment_mini.png"/> How to Read Phylogenies</a>
 </div>
 
-## Further Reading
+## İlave Okuma
 
-* [영어 위키피디아](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak)의 코로나 바이러스 유행을 다룬 요약 _2020-01-30_
-* [한국어 위키백과](https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4%EA%B0%90%EC%97%BC%EC%A6%9D-19_%EB%B2%94%EC%9C%A0%ED%96%89)의 코로나 바이러스 유행을 다룬 요약 _2020-01-30_
-* [미국 질병통제예방센터](https://www.cdc.gov/coronavirus/index.html)에서 제공하는 자료 _2020-01-29_
+* SARS-CoV-2 salgınının özeti [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak).
+* Bu raporda alıntılanan tüm vaka sayıları Dünya Sağlık Örgütü'nden [WHO](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200318-sitrep-58-covid-19.pdf?sfvrsn=20876712_2) alınmışır. Tarih: 03 Mart 2020.  
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3 -->
-# [데이터 수집 관련 사항](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
-현재 저희는 6개 대륙 36개국에서 얻은 바이러스의 RNA 염기서열 정보를
-해독했습니다. 이는 엄청난 성과입니다. 큰 RNA 유전체를 가진 미지의 바이러스의
-염기서열 정보를 유행 와중에 얻는 것은 굉장히 어렵습니다. 이는 전 세계의
-과학자와 의료인들의 신속한 정보공유와 헌신이 아니었다면 불가능했을 것입니다.
+# [Örnekleme Hakkında Bir Not](https://nextstrain.org/ncov/2020-03-20?c=country&r=country&d=map&p=grid&legend=closed)
+Şu anda elimizde 6 kıta, 36 ülkeden alınan örneklerden elde ettiğimiz genom dizileri (sekansları) var. Bu kesinlikle inanılmaz bir başarı, çünkü bilinmeyen ve büyük bir RNA virüsünü bir pandeminin ortasında dizilemek oldukça zor ve bu ancak dünyanın dört bir yanındaki bilim insanları ve doktorların olağanüstü çabaları ve verileri hızlıca paylaşabilmeleriyle mümkün.
 <br><br>
-이 데이터를 바탕으로 유행의 여러 특성을 실시간으로 유추할 수 있지만, 저희의
-결론은 어디까지나 현재 얻어진 데이터에서 알 수 있는 사실에만 국한됨을 강조하고 싶습니다.
-감염자 중에서도 일부만 검사를 받습니다.
-검사를 받은 이들 중에서도 일부에서만 RNA 유전체 염기서열 정보를 해독합니다.
-검사와 염기서열 해독의 대상이 되는 감염자는 지역과 시간에 따라 편차가 큽니다.
-더불어, 질병 유행의 계통유전학적 분석은 항상 어느 정도의 불확실성을 동반합니다.
+
+Bu veriler salgının pek çok özelliğine dair sonuçlar çıkarmamıza ve yayılışını gerçek zamanlı olarak takip etmemize olanak sağlasa da, bu çıkan sonuçların yalnızca eldeki veriler ile sınırlı olduğuna dikkat çekmekte fayda var. Toplam vakalardan yalnızca bir kısım hasta teste tabi tutulur. Test edilen hastalardan ise yalnızca bir kısmından alınan örnekler dizilenmiştir. Hangi grup vakanın test edildiği ve dizilendiği, coğrafi bölgelere ve zamana göre büyük ölçüde değişebilir. Ayrıca, salgına ilişkin filogenetik ağaç oluşturma işlemi daima belirsizlikler barındırır.
+
 <br><br>
-몇 가지 예시를 들겠습니다.
+Şimdi birkaç örneğe bakalım.
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4 -->
-# [어떤 지역들은 데이터에서 차지하는 비중이 작습니다](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
-지도를 보면 남반구에서 보고된 염기서열 정보가 매우 적다는 것을 알 수 있습니다.
-예를 들어, [WHO 상황 보고서](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)가 확진자를 보고한 25개의 라틴 아메리카 국가 중 염기서열 정보가 보고된 국가는 4개국에 불과합니다.
-이는 보고되지 않은 국가들에 코로나19가 존재하지 않다거나 중요도가 떨어져서가 아닙니다.
-단지 해당 지역에서 데이터를 얻기가 어려웠기 때문입니다.
+# [Bazı bölgeler bu verilerde yeterince temsil edilmemektedir](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Central%20America,Oceania,South%20America,Africa&legend=closed&p=full&r=country)
+Bu harita dünyanın güney bölgelerden az sayıda genomik dizisi verisi geldiğini gösteriyor. Örneğin, elimizde [Dünya Sağlık Örgütü](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)'nün Latin Amerika'da COVID-19 vakası raporladığı 25 ülkeden sadece 4 tanesinden genom dizisi var. Bunun nedeni, COVID-19'un bu alanlarda yayılmamış olması veya bu bölgelerin önemli olmaması değil, elimizde bu bölgelerden pek veri olmamasıdır.
+
 <br><br>
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5 -->
-# [다른 지역들은 데이터에서 차지하는 비중이 큽니다](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
-네덜란드와 같은 다른 지역에서는 전체 확진자 중 염기서열 정보가 보고된 사람들의
-비율이 굉장히 높습니다.
+# [Bazı bölgeler bu verilerde fazlasıyla temsil edilmektedir](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&f_region=Europe&legend=closed&p=full&r=country)
+Bazı bölgelerden (örneğin Hollanda) ise toplam vaka sayısına göre çok sayıda genom dizisi verisi mevcuttur.
 <br><br>
-따라서 이 보고서를 읽을 때는 지도에 표시된 원의 크기가 현재 보고된 데이터의
-양을 반영할 뿐 실제 유행의 규모와는 무관하다는 것을 명심해야합니다.
-[이 글](https://nextstrain.org/narratives/trees-background/ko?n=8)을 보면 데이터의 불균등한 보고가 전파에 대한 분석에 어떤 영향을 미치는지 알 수
-있습니다.
+O nedenle, bu açıklamaları okurken haritadaki her bir dairenin boyutunun salgının gerçek boyutunu değil, şu ana kadar elimizde o alandan ne kadar veri bulunduğunu gösterdiğini unutmayın. Bu durumun, virüsün yayılımı üzerine yaptığımız çıkarımları nasıl etkileyebileceğini [buradan](https://nextstrain.org/narratives/trees-background?n=8) okuyabilirsiniz.
 <br><br>
 
 <!-- There is NO right-side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6 -->
-# [염기서열 정보를 이용하면 여행력 정보를 교차검증할 수 있습니다](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
+# [Dizi (sekans) verileri seyahat geçmişlerini doğruyabilir](https://nextstrain.org/ncov/2020-03-20?legend=open&c=division_exposure&label=clade:A1a&d=tree)
 
-어떤 지역의 유행이 지역사회전파에 의한 것인지 여행을 통해 외부에서 유입된
-것인지 알기 위해서는 바이러스가 어디서 왔는지 아는 것이 중요합니다.
-유전체 염기서열 정보는 두 시나리오의 가능성을 평가하는데 도움을 줍니다.
+Bilinen bir vakanın nerede enfekte olduğunu belirlemek, herhangi bir bölgede yayılım sebebinin yerel yayılım veya seyahat ilişkili yayılım olduğunun anlaşılması için önemlidir. Genom dizi verisi, bu senaryolar arasında ayrım yapmamıza yardımcı olabilir.
 <br><br>
-이 그림에서는 여행력이 알려진 바이러스들이 채색되었습니다.
-나무 중간에 있는 캐나다의 염기서열(Canada/BC_78548/2020)을 보면, 유럽 여행력이 있다고
-적혀있습니다.
-이 바이러스는 유럽의 다른 바이러스들과 군집을 이루기 때문에 여행에 의한
-감염일 가능성이 매우 크다는 것을 알 수 있습니다.
+Buradaki filogenetik ağaç, bir vakanın (bilindiği durumlarda) seyahat geçmişine göre renklendirilmiştir. Ortadaki Kanada dizisine baktığımızda (Canada/BC_78548/2020), bu vakanın Avrupa'ya seyahat geçmişi bildirdiğini görüyoruz. Bu bulaşma, ağaç üzerinde de Avrupa'dan gelen diğer diziler ile birlikte gruplandığından, bu da bu vakanın çok yüksek ihtimal ile seyahat ilişkili olduğunu gösteriyor.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7 -->
-# [염기서열 정보를 이용하면 여행력 정보를 교차검증할 수 있습니다](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
+# [Genom dizi verileri seyahat geçmişlerini doğrulayabilir](https://nextstrain.org/ncov/2020-03-20?c=division_exposure&d=tree&f_division_exposure=Iran&legend=open&p=full)
 
-축소시켜 보면, 그런데 항상 보고된 여행력과 시퀀스 정보가 일치하지는 않습니다.
+Filogenetik ağaca daha uzaktan bakınca bu durumun her zaman bu kadar tutarlı olmadığını görebiliriz.
 <br><br>
-지금 그림을 보면 이란 여행력을 보고한 거의 모든 바이러스들이 그림 중간에서 서로 군집을 이루는
-것을 볼 수 있습니다.
+Burada, yakın zamanda İran'a seyahat etmiş vakaların neredeyse hepsinin ağacın orta bölgede kümelenmiş olduğunu görebiliriz.
 <br><br>
-나무 위쪽을 보면 이란 여행력을 보고한 캐나다 염기서열이 하나 있는 것을 볼 수 있습니다.
-그러나 이 바이러스는 이란 여행력을 가진 다른 바이러스와는 군집을 이루지 않습니다.
+Diğer bir yandan, ağacın üst kısımlarında Kanada'dan İran'a seyahat geçmişi olan bir vaka görüyoruz. Ancak bu dizi İran'a seyahat etmiş diğer vakalardan çok daha uzak bir yerde gruplanıyor.
 <br><br>
-물론 이 사람도 이란에서 감염된 것일 수 있습니다.
-이란 여행력을 가진 다른 바이러스들과는 다른 그룹의 바이러스 그룹이 존재할 수
-있기 때문입니다.
-그러나 데이터가 더 모이기 전까지는 이 사람이 정말로 이란으로의 여행에서
-감염되었는지 판단하기는 이릅니다.
+Bu kişinin yüksek ihtimal ile İran'da süregelen ikinci bir bulaşı zincirinden enfekte olmuş olduğu halde elimizde daha fazla veri olmadan bu vakanın seyahat ilişkili olduğunu doğrulayamayız.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 8 -->
-# [거의 모든 나라에 전파된 코로나19](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
+# [Virüs neredeyse dünyadaki tüm ülkelere yayıldı](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=country&d=tree,map&p=grid)
 
-나무를 보면 다른 나라에서 발견된 바이러스들이 서로 뒤섞여 있습니다.
-이를 통해 바이러스가 사람들의 자연적인 이동에 의해 이미 세계 곳곳에 퍼졌음을 알 수
-있습니다.
+Buradaki filogenetik ağaçta farklı ülkelerden örneklerin bu şekilde birbirine karıştığını görüyoruz. Bu, önüne geçilemez insan hareketliliğinin virüsü şimdiden dünyanın pek çok bölgesine yaydığını gösterir.
 <br><br>
-[WHO 상황 보고서](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)에 따르면 전세계 195개국 중 159개국에서 이미 바이러스가
-확인되었습니다.
+Sahiden de, [Dünya Sağlık Örgütü Raporları](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2) 195 ülkeden 159'unda COVID-19 vakası olduğunu doğruladı.
 <br><br>
-그러나 곳곳에 퍼진 바이러스가 모두 유행으로 이어지지는 않았습니다.
+Ancak, virüsün görüldüğü her yerde bunun bir salgın haline geleceğini de söyleyemeyiz.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9 -->
-# [유행은 최초 유입 후 4에서 8주후에 가시화됩니다](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
+# [Salgınlar virüs ortaya çıktıktan yaklaşık 4-8 hafta sonra belirginleşir](https://nextstrain.org/ncov/2020-03-20?legend=closed&c=num_date&d=tree&f_division=Washington&label=clade:B1&p=full)
 
-코로나19가 갑자기 증가한 것처럼 보일 수 있습니다.
-어떤 분들은 이 유행이 하루아침에 먼나라 얘기에서 일상을 향한 위협으로
-변했다고 느낄 수도 있습니다.
-<br><br>
+COVID-19 aniden patlamış gibi görünebilir. Bu salgın, pek çok insan için bir gecede dünyanın diğer ucunda anlaşılması güç bir şey iken bir gecede kendilerinin de günlük yaşamlarını etkileyen bir hadise haline geldi.
 
-그러나 이것은 바이러스가 새로운 곳으로 더 잘 퍼지기 때문이 아닙니다.
-오히려 몇 주 전 유입된 바이러스가 인지하지 못하는 사이에 조금씩 증식 중이었을 가능성이 높습니다.
 <br><br>
-아직 유행이 시작하지 않은 곳도 곧 시작될 유행에 대비해 방역망을 강화하고 검사를
-시작해야합니다.
+Ancak unutmayın ki, bu bir süreden beri ilerliyor. Bu virüsün sıklıkla yeni yerlere taşındığı anlamına gelmiyor. Büyük ihtimal ile, pek çok ülke bir kaç hafta önce bölgeye giriş yapan virüsün başlattığı yerel salgınları yeni keşfetmeye başlıyor.
+<br><br>
+Henüz yerel salgınları farkedememiş bölgeler (ya da ülkeler) şimdiden hazırlanmalı ve sistematik bir şekilde test yapmaya başlamalıdır.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# 외부 유입이 어떻게 유행이 되나요?
+# Virüsün ortaya çıkması nasıl salgına dönüşür?
 
-어떤 외부 유입은 이차감염이나 지역사회전파로 이어지지 않습니다.
-특히, 0번 환자가 빠르게 감지되어 격리됐다면 말입니다.
+Bazen virüsün yeni bir bölgeye girmesi ikincil vakalarla veya yerel salgınlarla sonuçlanmaz -- özellikle de ilk vaka hızlıca tespit edilir ve izole edilirse. Fakat virüs çoğu zaman salgın büyüyene kadar yerel halk arasında farkedilmeden yayılır.
 
-우한시를 배경으로 이에 대한 사고실험을 해보았습니다.
-y-축은 (유행이 퍼져나갈) 공간, x-축은 시간을 나타냅니다.
-빗금이 칠해진 영역의 넓이는 감염자의 숫자를 나타냅니다.
+Aşağıda bu durumun Wuhan'da nasıl gerçekleştiğini gösteren bir düşünce deneyi var. Grafiğin y ekseninde uzam; x ekseninde zaman var. Taralı alan ise vaka sayısını temsil ediyor.
 
-"코로나19는 2019년 11월 경에 발생한 0번 환자에서 출발하여 2020년 1월 중순
-즈음에 수천명의 감염자로 늘어났습니다. 따라서 최초 감염자에서 광범위한
-지역적 유행까지 10주 가량 걸린 것입니다. 현재로써 우리는 1월 중순 경부터
-코로나19가 세계 각지로 퍼졌을 것으로 보고 있습니다. 따라서 각지의 소규모
-유입이 대규모로 확대되는 것을 막기 위해서는 지금으로부터 10주, 그러니까 3월
-말까지의 시기가 중요합니다" [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), 2020년 2월
+"Wuhan'daki COVID-19, ~2019 Kasım ayındaki ilk vakadan, 2020 Ocak ayı ortasına kadar birkaç bin vakaya ulaşarak, yaklaşık 10 haftada gibi bir sürede ilk yayılma vakasından geniş çapta bir yayılıma dönüşmüş oldu. Uluslararası yayılma olaylarının Ocak ortası gibi başladığı düşünüyoruz. Bu nedenle, bu yeni oluşmaya başlamış salgınları daha da büyümeden kontrol altına almak için Mart sonuna kadar yaklaşık 10 haftalık kritik bir zamanımız var" [- Trevor Bedford](https://twitter.com/trvrb/status/1226241284207038464), Feb 2020
 
-이렇게 시작한 각 유행은 다른 지역에서 유행을 새로 발생시킬 수도 있습니다.
+Dolayısıyla bu salgınlar virüsün diğer bölgelere taşınmasına da yol açabilir.
 
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/local-spark-expansion.jpeg" width="70%">
 
@@ -236,15 +194,11 @@ y-축은 (유행이 퍼져나갈) 공간, x-축은 시간을 나타냅니다.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10 -->
-# [예시로 보는 유행의 확대](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
+# [Salgınlar nasıl büyür: bir örnek](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington&label=clade:B1&p=grid&r=location)
 
-워싱턴주의 데이터를 통해 유행이 점점 확대되는 양상을 알 수 있습니다.
-가장 큰 바이러스 군집의 뿌리를 클릭하면 1월 말에서 2월 중순 사이에 바이러스가
-이 지역으로 유입되었음을 알 수 있습니다 ([추정법](https://nextstrain.org/narratives/trees-background/ko?n=6)).
+Bunun açık bir örneğini Washington eyaletin gelen verilerde görebiliriz. İmleç ile filogenetik ağaçtaki ana soy hattına gidildiğinde virüsün bu bölgeye büyük olasılıkla Ocak sonu ve Şubat ortasında (2020) girdiği görülebilir. ([metodlar](https://nextstrain.org/narratives/trees-background?n=6)).
 <br><br>
-3월 중순 (약 6주 후)인 현 시점에서는 지역적 유행이 본격화됐습니다.
-유전체 염기서열 정보를 이용한 추정에 따르면 이 유행은 3-6일에 두배씩 커지는
-지수함수적 성장을 하고 있습니다.
+Şu anda, Mart ortasında (yani yaklaşık 6 hafta sonra), görüyoruz ki yerel salgın tam anlamıyla bu bölgeyi etkilemiş durumda. Sadece genom dizi verilerine dayanarak ve popülasyonun üssel büyüdüğünü varsayarak, ikiye katlanma oranının (doubling rate) 3-6 gün olduğu sonucunu çıkarabiliriz.
 <br>
 <img src="https://github.com/nextstrain/ncov/raw/master/figures/wa_doubling-rate_2020-03-19.png" width="70%">
 
@@ -254,54 +208,34 @@ y-축은 (유행이 퍼져나갈) 공간, x-축은 시간을 나타냅니다.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 11-->
-# [예시로 보는 유행의 전파](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
+# [Salgınlar nasıl yayılır: bir örnek](https://nextstrain.org/ncov/2020-03-20?legend=closed&d=tree,map&f_division=Washington,Utah&label=clade:B1&p=grid)
 
-워싱턴주의 데이터를 통해 지역적 유행이 다른 지역에 퍼지는 양상을 알 수
-있습니다.
-나무 꼭대기 근처에 있는 유타 주(주황색)에서 채취된 바이러스는 워싱턴 주의
-바이러스들과 한 군집을 이룹니다.
-이는 유타주의 바이러스가 워싱턴주에서 기원했음을 알려줍니다.
-물론, 중간과정을 거쳤을 수도 있습니다.
+Başlangıçta yerel olarak başlamış salgınların virüsü diğer bölgelere nasıl bulaştırdığına dair bir örneğe de bakabiliriz. Filogenetik ağacın üst kısımlarındaki (turuncu) Utah'tan gelen örnekler, Washington'dan gelen örneklerin bulunduğu ana soy hattının içinde yer alıyor. Bu, virüsün Washington'dan Utah'a taşındığı senaryosuna uygun. Ancak bu bulaşı zincirinde ara adım(lar) olma ihtimali de var.
 <br><br>
-이 바이러스가 유타 주에 지역적 유행을 유발할 것인가는 아직 알 수 없습니다.
-그러나 바이러스가 퍼지기 시작한다면 4주 후 쯤 가시화될 것입니다.
+Bu taşınma olayının Utah'ta yerel bir salgınla sonuçlanıp sonuçlanmayacağını tam olarak bilmiyoruz. Ancak, virüs bu bulaşma olaylarından sonra yayılmaya devam ederse bunun önümüzdeki 4 hafta içerisinde ortaya çıkmasını bekleyebiliriz.
 <br><br>
-이는 하나의 예시에 불과합니다.
-유타주 (혹은 다른 지역)에는 이미 다른 곳에서 온 바이러스가 유행하고 있을지도
-모릅니다.
-단지 유전체 염기서열 정보가 해독되지 않아 나무 상에 나타나지 않았을 뿐입니다.
-가장 중요한 것은, 아직 유행을 인지하지 않은 지역들이 이를 대비해 방역망을
-확충하고 검사를 시작해야한다는 것입니다.
+Bu sadece bir örnek. Utah'ta veya başka bölgelerde, henüz genom dizi verisi olmadığı için bu ağaçta göremeyeceğimiz başka bulaşma hadiseleri gerçekleşmiş de olabilir. En önemlisi, henüz yerel salgınları farkedememiş bölgeler şimdiden hazırlanmalı ve sistematik bir şekilde test yapmaya başlamalı.
 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12 -->
-# [완화전략은 시간이 걸리지만 많은 목숨을 살릴 수 있습니다](https://nextstrain.org/ncov/2020-03-20)
+# [Önlemler zaman alır, ancak hayat kurtarırlar](https://nextstrain.org/ncov/2020-03-20)
 
-앞선 논리에 따르면, 이미 많은 지역적 전파가 확인되지 않은 채로 진행하고 있을
-가능성이 높습니다.
+Aynı şekilde düşünülürse, henüz bilmediğimiz pek çok yerel bulaşı zinciri olması muhtemel.
 <br><br>
-이 말인즉슨 사회적 거리두기를 시행한 지역들도 당분간 확진자 수가 계속 증가할
-것입니다.
-이로부터 사회적 거리두기가 비효과적이라고 결론내려서는 안 됩니다. 이미 감염된
-사람들이 (혹은 그들의 가족) 증상을 나타내고, 치료받고, 회복하기까지 시간이
-걸리기 때문입니다. 또, 검사량이 증가하면서 확진자 수가 갑자기 증가하는 것처럼
-보일 수도 있습니다.
+
+Bu, sosyal mesafe önlemlerinin hayata geçirildiği bölgelerde bile önümüzdeki bir kaç hafta süresince vaka sayısının büyümesini beklediğimiz anlamına geliyor. Bu artışlar, bu önlemlerin işe yaramadığını GÖSTERMEZ. Halihazırda enfekte olmuş bireylerin (ve muhtemelen hane halkının) semptom göstermesi, tedavi edilmesi ve iyileşmesi zaman alır. Testlerin daha yaygın hale gelmesiyle rapor edilen vakaların sayısında bir artış görmek de mümkündür.
+
 <br><br>
-이 기간동안 사회적 거리두기를 시행하는 것이 매우 중요합니다. 오른쪽 그림에서 볼
-수 있듯이 완화 전략을 시작한 뒤에도 확진자 수는 여전히 증가할 것입니다. 그러나
-시간이 지나고 보면 총 감염자 수가 크게 감소하는 효과를 가져올 것입니다.
+Bu süre zarfında sosyal mesafenin korunması oldukça önemlidir. Sağ tarafta gösterildiği gibi, müdahale edildikten sonra vaka sayıları artmaya devam eder. Ancak, zamanla, toplam vaka sayısı büyük ölçüde azalır.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-## 사회적 거리두기는 하루밤만에 새 확진자 수를 줄이지 않습니다. 하지만 긴
-시간을 두고 봤을 때 감염자와 사망자의 수를 크게 줄입니다.
-사회적 거리두기(하루에 만나는 사람의 수를 줄이는 일)은 어려운 일임에도
-공익에 크게 기여합니다.
-만약 모든 사람들이 하루에 만나는 사람을 25% 줄이면, 다음달에 발생할 감염자의
-수가 50% 줄어듭니다 ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
+## Sosyal mesafelenme bir gece içinde yeni vakaların oluşmasını önleyemez, fakat zaman içinde hem ölümleri hem de vaka sayısını önemli ölçüde azaltır.
+
+Sosyal mesafelenme --yani her gün karşılaştığınız insan sayısını azaltmak-- zor olabilir, ancak toplum sağlığı için çok önemlidir. Eğer herkes günlük iletişimini %25 oranında azaltırsa, gelecek ay toplam vaka sayısında %50 oranında bir azalma gözlemleyebiliriz. ([Klein et al., 2020-03-13](https://institutefordiseasemodeling.github.io/COVID-public/reports/Working%20paper%20%E2%80%93%20model-based%20estimates%20of%20COVID-19%20burden%20in%20King%20and%20Snohomish%20counties%20through%20April%207.pdf)).
 <div>
   <img src="https://github.com/nextstrain/ncov/raw/master/figures/social-distancing-efficacy.png" width="70%">
 </div>
@@ -310,39 +244,32 @@ y-축은 (유행이 퍼져나갈) 공간, x-축은 시간을 나타냅니다.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [배울 점들](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
-- 바이러스는 세계 각지에 반복적으로 여러번 유입됐습니다.
+# [Çıkarımlar](https://nextstrain.org/ncov/2020-03-20?c=country&d=map&p=full)
+- Virüs dünyanın birçok bölgesine birden fazla kere giriş yaptı.  
 <br>
-- 지역사회전파가 여러 지역에서 일어나고 있다는 증거들이 많습니다. 나아가
-  각지에 아직 발견되지 않은 바이러스 유입이 있을 것이며 수 주 내로 모습을
-  드러낼 것으로 보입니다.
+- Birçok bölgede yerel bulaşmanın kanıtlarını görüyoruz. Bunun ötesinde, önceki virüs girişlerinin bir kaç hafta içinde görünür hale gelecek olan pek çok yerel bulaşıyı hali hazırda başlatmış olduğunu düşünüyoruz.  
 <br>
-- 지역사회전파를 통제하기 위한 수단으로 사회적 거리두기는:
-  - 의료 시스템에 동시다발적으로 발생한 감염자들에 의해 과부하가 걸리는 것을
-    막기 위해서 #FlattenTheCurve (#곡선을_완만하게) 해줍니다.
-  - 총 감염자 및 사망자 수를 줄일 수 있습니다.
-  - 치료제와 백신이 개발될 시간을 벌어줍니다.
+- Yerel salgınları sosyal mesafe önlemleri ile kontrol almak çok önemlidir. Çünkü:  
+  - Sağlık sistemlerinin bir anda çok sayıda vaka ile boğmamak için #EğriyiDüzleştir'meyi sağlar.
+  - Toplam vaka ve ölüm sayısını azaltır.
+  - Tedavi yöntemleri ve aşıların geliştirilmesi için zaman kazandırır.
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# 우리가 할 수 있는 것들
-## 개인이 할 수 있는 것들
-* 만나는 사람의 수를 줄이십시오. 특히, 당신이 취약계층일수록 중요합니다 (예를
-  들어, 고령이나 기저질환이 있는 경우).
-* 당신이 취약계층이 아니더라도 주변에 그런 사람이 많다는 것을 유념하십시오.
-  그래야 주변 사람들을 보호할 수 있습니다.
-* 손을 자주 씻으십시오.
-* 아프면 집에 머무르세요. 자가격리를 대비해 필요한 물자를 미리 비축하십시오.
-* 당신이 고용주라면 직원들이 아플 때 집에 있을 수 있도록 해주세요 (이를 위한
-  금전적 지원도 제공하세요).
+# Neler yapabilirsiniz?
+## bireysel olarak...
+* Her gün temas kurduğunuz kişi sayısını önemli ölçüde düşürün; özellikle de daha kolay etkilenen gruptaysanız (örneğin yaşlı ve önceden süregelen sağlık sorunları olanlar gibi).
+* Hassas grupta olmasanız da etrafınızdaki pek çok kişinin bu kategoriye girdiğini unutmayın. Diğerlerini korumak için bu kurallara uyun.
+* Ellerinizi "acı biber doğradıktan sonra lenslerinizi değiştirmek zorundaymışçasına" yıkayın.
+* Mümkün olabildiğince evde kalın -- özellikle de hastaysanız kendinizi karantinaya alma durumunda yeterli olacak malzemelerinizi hazırda bulundurun.  
+* Eğer bir işverenseniz, mümkün olduğunca çalışanlarınızın evden çalışmalarına izin verin veya teşvik edin.
 
-## 지도자와 관료들이 할 일
-* 검사가 무료로 광범위하게 이뤄질 수 있도록 하십시오.
-* 사회적 거리두기가 이뤄질 수 있도록 하십시오.
-* 광범위한 접촉 경로 추적에 재정을 지원하고 실행하십시오.
-* 사회적 거리두기로 인해 피해를 입은 사람들을 위한 경제적 지원이 필요합니다
-  (예를 들어, 시간제 노동자, 노약자나 어린이를 부양하는 사람들, 소상공인 등).
+## yetkililer olarak...
+* Testleri ücretsiz ve geniş ölçüde yapılabilir hale getirin.  
+* Sert sosyal mesafe uygulamalarını yürürlüğe koyun.  
+* Kapsamlı temas izleme çalışmalarına maddi destek verin ve uygulamaya geçirin.  
+* Sosyal mesafe önlemlerinden etkilenenleri maddi olarak destekleyin (örneğin saatlik çalışanlar, yaşlı veya çocuk bakımı sorumluluğu olanlar, küçük işletmeler vb.).
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -350,18 +277,19 @@ y-축은 (유행이 퍼져나갈) 공간, x-축은 시간을 나타냅니다.
 
 
 <!-- This is left-side text 14-->
-# [과학적 기여](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
-이번 유행에 관련된 모든 과학자들, 특히 중국의 과학자들의 대단하고 신속한 작업에 감사를 표합니다. 유전체 정보 및 메타정보의 빠른 공유가 아니었다면 이 분석들은 불가능했을 것입니다.
+# [Bilimsel Katkılar](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+
+Bu salgında harika ve hızlı bir şekilde çalışan tüm bilim insanlarına, özellikle de Çin'de çalışanlara, teşekkür etmek istiyoruz.
+Bu gibi çalışmalar yalnızca genomik dizi verilerin ve meta verilerin hızlı paylaşımı sayesinde mümkün olabilir.
 <br>
 
-
-이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
+Ayrıca, bu verilerin yüklenebileceği ve paylaşılabileceği platformu sağladığı için [GISAID'e](https://gisaid.org) minnettarlıkla teşekkür ederiz.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-We are grateful for the data gathered by these originating labs:
+Bu kaynak laboratuvarlar tarafından toplanan veriler için minnettarız:
 
 * Arizona Department of Health Services
 * Auckland Hospital
@@ -665,18 +593,19 @@ We are grateful for the data gathered by these originating labs:
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 13-->
-# [과학적 기여: 상세 내역](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
+# [Detaylı Bilimsel Katkılar](https://nextstrain.org/ncov/2020-03-20?d=map&c=author)
 
-이 데이터는 [GISAID](https://gisaid.org)를 통해 공유되었습니다. 그들에게 감사의 뜻을 전합니다.
+Bu veriler [GISAID](https://gisaid.org) üzerinden paylaşılabiliyor.
+Onlara katkıları için çok teşekkür ediyoruz.
 
 <br>
 
-우측에 각 연구실이 기여한 구체적인 서열 정보가 있습니다.
+Sağda her laboratuvar tarafından paylaşılan dizilerin bilgilerini bulabilirsiniz.
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
+SARS-CoV-2 genomları bu laboratuvarlardaki cömert bilim insanları tarafından paylaşıldı:
 
 * Arizona Department of Health Services
 	* USA/AZ1/2020

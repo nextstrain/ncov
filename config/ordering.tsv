@@ -36,6 +36,7 @@ location	Bangkok
 location	Singapore
 location	Gold Coast
 location	Sydney
+location	Sunshine Coast
 location	Melbourne
 location	Brisbane
 location	Rockhampton
@@ -46,6 +47,7 @@ location	Riyadh
 location	Hawali
 location	Dasman
 location	Saint Petersburg
+location	Vienne
 location	Heinsberg District
 location	Heinsberg
 location	Munich
@@ -74,16 +76,36 @@ location	Oisterwijk
 location	Dalen
 location	Budapest
 location	Nantes
+location	Tours
+location	Brest
+location	Vanves
+location	Crouy en Thelle
+location	Meudon la Forêt
 location	Crépy en Valois
+location	Bourg-en-Bresse
+location	Saint-Priest
+location	Venissieux
+location	Macon
+location	Privas
+location	Valence
+location	Lyon
 location	Paris
 location	Reims
 location	garches
 location	rennes
-location	château-thierry
 location	longjumeau
 location	Levallois-perret
 location	Pontoise
 location	Compiègne
+location	Woippy
+location	Spicheren
+location	Chateau-Thierry
+location	Asnières-sur-Seine
+location	Juvisy-sur-Orge
+location	Orsay
+location	Saint-Thibault-des-Vignes
+location	Gennevilliers
+location	Noisy le Roi
 location	Contamines
 location	Thise
 location	Montreux-Chateau
@@ -95,6 +117,8 @@ location	Rome
 location	Milan
 location	valencia
 location	England
+location	South Yorkshire
+location	Derbyshire
 location	Yorkshire
 location	Nottinghamshire
 location	Cardiff
@@ -108,6 +132,7 @@ location	Manaus
 location	Feira de Santana
 location	Vila Velha
 location	Mexico City
+location	La Crosse County
 location	King County
 location	Snohomish County
 location	Pierce County
@@ -136,7 +161,13 @@ location	Illinois
 location	Wisconsin
 location	Dane County
 location	Boston
+location	Manhattan
 location	Nassau County
+location	Brooklyn
+
+location	Grand Princess Cruise Ship
+
+
 
 
 division	China
@@ -177,6 +208,7 @@ division	Kuwait
 division	Gilgit Baltistan
 division	Tbilisi
 division	Thanh Hoa
+division	Ho Chi Minh City
 division	Vinhphuc
 division	Red River Delta
 division	Quangning
@@ -184,6 +216,7 @@ division	Sihanoukville
 division	Nonthaburi
 division	Singapore
 division	Queensland
+division	Northern Territory
 division	New South Wales
 division	Victoria
 division	Wellington
@@ -203,6 +236,7 @@ division	Martin
 division	Copenhagen
 division	Bretagne
 division	Ile de France
+division	Centre-Val de Loire
 division	France
 division	Auvergne-Rhône-Alpes
 division	Pays de la Loire
@@ -214,10 +248,24 @@ division	Grand Est
 division	Auvergne Rhone Alpes
 division	Spain
 division	Castilla Y León
+division	Basque Country
+division	Castilla La Mancha
+division	Andalusia
+division	Catalunya
+division	Castilla y Leon
+division	Barcelona
 division	Galicia
 division	Madrid
 division	Flanders
+division	Beersel
 division	Leuven
+division	Chaineux
+division	Kalmthout
+division	Ganshoren
+division	Nevele
+division	Houthalen-Helchteren
+division	Zonhoven
+division	Gierle
 division	Dilbeek
 division	Schoten
 division	Rixensart
@@ -233,12 +281,24 @@ division	Huldenberg
 division	Brussels
 division	Liège
 division	Switzerland
+division	Lucerne
 division	Bavaria
 division	Duesseldorf
 division	Baden-Wuerttemberg
 division	North Rhine Westphalia
 division	Netherlands
 division	Utrecht
+division	Deinze
+division	Antwerp
+division	Ellezelles
+division	Merelbeke
+division	Hoegaarden
+division	Asse
+division	Zolder
+division	Kaulile
+division	Eupen
+division	Oevel
+division	Ghent
 division	Overijssel
 division	Gelderland
 division	Limburg
@@ -249,9 +309,11 @@ division	South Holland
 division	North Holland
 division	Luxembourg
 division	Austria
+division	Vienna
 division	Germany
 division	Zielonogorskie
 division	Basel
+division	Basel-Stadt
 division	Bern
 division	Zurich
 division	Aargau
@@ -261,21 +323,30 @@ division	Ticino
 division	Graubünden
 division	Schwyz
 division	Comunitat Valenciana
+division	Athens
+division	Komen
 division	Italy
 division	Lazio
 division	Marche
 division	Lombardy
+division	Abruzzo
 division	Rome
 division	Friuli Venezia Giulia
 division	Usti nad Labem
 division	Grand Canary Islands
+division	Canary Islands
+division	La Rioja
+division	Lisbon
 division	Croatia
 division	Northern Ireland
 division	England
+division	Nottinghamshire
 division	United Kingdom
-division	UK
 division	Wales
 division	Dublin
+division	Tipperary
+division	Louth
+division	Wicklow
 division	Cork
 division	Limerick
 division	Scotland
@@ -287,6 +358,11 @@ division	Portugal
 division	Lagos
 division	Kinshasa
 division	KwaZulu-Natal
+division	Mbour
+division	Touba
+division	Dakar
+division	Blida
+division	Boufarik
 division	Santiago
 division	Talca
 division	Sao Paulo
@@ -297,17 +373,24 @@ division	Minas Gerais
 division	Rio Grande do Sul
 division	Rio de Janeiro
 division	Distrito Federal
-division	Medellin
 division	Amazonas State
+division	Antioquia
+division	Bogota
 division	Quito
 division	Panama City
 division	Mexico City
 division	USA
 division	Connecticut
+division	Rhode Island
+division	Virginia
+division	Florida
+division	Georgia
 division	Texas
 division	Utah
+division	Idaho
 division	Arizona
 division	California
+division	Oregon
 division	Illinois
 division	Wisconsin
 division	Minnesota
@@ -315,7 +398,19 @@ division	Massachusetts
 division	New York
 division	Washington
 division	British Columbia
+division	Saskatchewan
+division	Nova Scotia
+division	New Brunswick
+division	Manitoba
 division	Ontario
+
+division	Chiba
+division	Ishikawa
+division	Kochi
+division	Khyber Pakhtunkhwa
+
+
+
 
 country	China
 country	Hong Kong
@@ -333,21 +428,25 @@ country	Australia
 country	New Zealand
 country	Saudi Arabia
 country	Kuwait
-country	Pakistan
 country	Iran
+country	Pakistan
 country	Georgia
 country	Russia
-country	Iceland
+country	Europe
 country	Slovakia
 country	Poland
 country	Hungary
+country Croatia
 country	France
+country	Iceland
 country	Norway
 country	Denmark
 country	Netherlands
 country	Belgium
 country	Luxembourg
 country	Germany
+country	Austria
+country	Croatia
 country	Switzerland
 country	Italy
 country	Spain
@@ -357,7 +456,11 @@ country	Ireland
 country	Finland
 country	Sweden
 country	Portugal
+country	Greece
+country	Egypt
 country	Nigeria
+country	Senegal
+country	Algeria
 country	Congo
 country	South Africa
 country	Chile
