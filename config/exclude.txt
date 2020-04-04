@@ -81,6 +81,9 @@ HongKong/Case1_21012020/2020
 Shandong/LY007/2020
 USA/WA-UW119/2020
 USA/WA-UW230/2020
+Italy/UniMI02/2020
+USA/CT-UW230/2020
+USA/WI-GMF-00237/2020
 
 # These are removed by 'iqd' cutoff in Treetime repeatedly - exclude before this step
 # to help with alignment & tree building
