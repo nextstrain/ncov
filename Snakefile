@@ -10,7 +10,8 @@ def get_todays_date():
 REGIONS = ["_North-America", "_Europe", ""]
 
 wildcard_constraints:
-    region="|_North-America|_Europe"
+    region="|_North-America|_Europe",
+    date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 # How to run: if no region is specified, it'll run a subsampled global build (200 per division)
 # If a region is selected, it'll do 200/division for that region, and 20/division in the rest of the world
@@ -18,8 +19,8 @@ wildcard_constraints:
 #
 # You can use the specific rules below to call the whole build.
 # Be sure to specify the 'additional' snakefile when you call, like so:
-#   snakemake -s Snakefile_Regions --cores 2 all_europe (subsampled regional focal build)
-#   snakemake -s Snakefile_Regions --cores 2 all_north_america
+#   snakemake -s Snakefile_Regions --cores 2 all_regions (all builds)
+#   snakemake -s Snakefile_Regions --cores 2 all_north_america (subsampled regional build)
 #   snakemake -s Snakefile_Regions --cores 2 all_global (subsampled global build)
 
 # Or you can specify final or intermediate output files like so:
@@ -658,8 +659,8 @@ rule dated_json:
         auspice_json = rules.fix_colorings.output.auspice_json,
         tip_frequencies_json = rules.tip_frequencies.output.tip_frequencies_json
     output:
-        dated_auspice_json = rules.all_regions.input.dated_auspice_json,
-        dated_tip_frequencies_json = rules.all_regions.input.dated_tip_frequencies_json
+        dated_auspice_json = "auspice/ncov{region}_{date}.json",
+        dated_tip_frequencies_json = "auspice/ncov{region}_{date}_tip-frequencies.json"
     shell:
         """
         cp {input.auspice_json} {output.dated_auspice_json}
