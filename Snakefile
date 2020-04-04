@@ -7,6 +7,8 @@ def get_todays_date():
     date = datetime.today().strftime('%Y-%m-%d')
     return date
 
+REGIONS = ["_North-America", "_Europe", ""]
+
 wildcard_constraints:
     region="|_North-America|_Europe"
 
@@ -25,6 +27,15 @@ wildcard_constraints:
 #   snakemake -s Snakefile_Regions --cores 2 auspice/ncov.json (subsampled global)
 
 configfile: "config/Snakefile.yaml"
+
+rule all_regions:
+    input:
+        auspice_json = expand("auspice/ncov{region}.json", region=REGIONS),
+        tip_frequencies_json = expand("auspice/ncov{region}_tip-frequencies.json", region=REGIONS),
+        dated_auspice_json = expand("auspice/ncov{region}_{date}.json", date=get_todays_date(), region=REGIONS),
+        dated_tip_frequencies_json = expand("auspice/ncov{region}_{date}_tip-frequencies.json", date=get_todays_date(), region=REGIONS),
+        auspice_json_gisaid = expand("auspice/ncov{region}_gisaid.json", region=REGIONS),
+        auspice_json_zh = expand("auspice/ncov{region}_zh.json", region=REGIONS)
 
 rule all:
     input:
