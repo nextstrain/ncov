@@ -45,7 +45,7 @@ abstract: “Este relatório utiliza dados genômicos partilhados publicamente p
 * [Atualizações para a América Central e do Sul](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-27?n=11).  
 * [Atualizações para a Ásia](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-27?n=13).  
 * [Atualizações para a África](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-27?n=15).  
-* [Atualizações para a Oceânia](https://nextstrain.org/narratives/ncov/sit-rep/pt2020-03-27?n=17).  
+* [Atualizações para a Oceânia](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-27?n=17).  
 * [O que você pode fazer](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-27?n=19).  
 * [Reconhecimentos científicos](https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-27?n=20).  
 <!-- This is right-side text -->
