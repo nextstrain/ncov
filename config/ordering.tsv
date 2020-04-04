@@ -93,11 +93,19 @@ location	Paris
 location	Reims
 location	garches
 location	rennes
-location	château-thierry
 location	longjumeau
 location	Levallois-perret
 location	Pontoise
 location	Compiègne
+location	Woippy
+location	Spicheren
+location	Chateau-Thierry
+location	Asnières-sur-Seine
+location	Juvisy-sur-Orge
+location	Orsay
+location	Saint-Thibault-des-Vignes
+location	Gennevilliers
+location	Noisy le Roi
 location	Contamines
 location	Thise
 location	Montreux-Chateau
@@ -158,6 +166,8 @@ location	Nassau County
 location	Brooklyn
 
 location	Grand Princess Cruise Ship
+
+
 
 
 division	China
@@ -377,6 +387,7 @@ division	Florida
 division	Georgia
 division	Texas
 division	Utah
+division	Idaho
 division	Arizona
 division	California
 division	Oregon
@@ -397,6 +408,9 @@ division	Chiba
 division	Ishikawa
 division	Kochi
 division	Khyber Pakhtunkhwa
+
+
+
 
 country	China
 country	Hong Kong
