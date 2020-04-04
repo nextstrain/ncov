@@ -398,7 +398,8 @@ rule colors:
     message: "Constructing colors file"
     input:
         ordering = files.ordering,
-        color_schemes = files.color_schemes
+        color_schemes = files.color_schemes,
+        metadata = "results/metadata_adjusted{region}.tsv"
     output:
         colors = "config/colors{region}.tsv"
     shell:
@@ -406,7 +407,8 @@ rule colors:
         python3 scripts/assign-colors.py \
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
-            --output {output.colors}
+            --output {output.colors} \
+            --metadata {input.metadata}
         """
 
 rule recency:
