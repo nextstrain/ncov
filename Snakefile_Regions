@@ -10,7 +10,8 @@ rule subsample_focus:
         """
     input:
         sequences = rules.mask.output.alignment,
-        metadata = rules.download.output.metadata
+        metadata = rules.download.output.metadata,
+        include = files.include
     output:
         sequences = "results/subsample_focus{region}.fasta"
     params:
@@ -35,9 +36,10 @@ rule subsample_focus:
         fi
 
         augur filter \
-            $regionarg"$region" \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
+            --include {input.include} \
+            $regionarg"$region" \
             --group-by {params.group_by} \
             --sequences-per-group $seq_per_group \
             --output {output.sequences} \
@@ -116,6 +118,10 @@ rule subsample_context:
         """
 
 rule subsample_regions:
+    message:
+        """
+        Combine and deduplicate FASTAs
+        """
     input:
         rules.subsample_focus.output.sequences,
         rules.subsample_context.output.sequences
@@ -123,7 +129,9 @@ rule subsample_regions:
         "results/subsampled_alignment{region}.fasta"
     shell:
         """
-        cat {input} > {output}
+        python3 scripts/combine-and-dedup-fastas.py \
+            --input {input} \
+            --output {output}
         """
 
 rule adjust_metadata_regions:

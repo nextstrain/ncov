@@ -15,12 +15,10 @@ if __name__ == '__main__':
     parser.add_argument("--output", type=str, required=True, help="new metadata")
     args = parser.parse_args()
 
-    metadata=pd.read_csv(args.metadata, delimiter='\t')
+    metadata = pd.read_csv(args.metadata, delimiter='\t')
     metadata.insert(11, 'focal_country', metadata['country'])
-    metadata.loc[metadata.region != args.region, 'division'] = "" 
-    metadata.loc[metadata.region != args.region, 'location'] = "" 
-    metadata.loc[metadata.region != args.region, 'focal_country'] = "" 
+    metadata.loc[metadata.region != args.region, 'division'] = ""
+    metadata.loc[metadata.region != args.region, 'location'] = ""
+    metadata.loc[metadata.region != args.region, 'focal_country'] = ""
 
     metadata.to_csv(args.output, index=False, sep="\t")
-
-    

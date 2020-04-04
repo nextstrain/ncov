@@ -163,7 +163,7 @@ rule align:
         """
         Aligning sequences to {input.reference}
           - gaps relative to reference are considered real
-        {wildcards.cluster}
+        Cluster:  {wildcards.cluster}
         """
     input:
         sequences = rules.partitions_intermediate.output,
