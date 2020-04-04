@@ -28,6 +28,12 @@ wildcard_constraints:
 
 configfile: "config/Snakefile.yaml"
 
+# simple rule to call snakemake for outsider userss
+rule all:
+    input:
+        auspice_json = "auspice/ncov.json",
+        tip_frequencies_json = "auspice/ncov_tip-frequencies.json"
+
 rule all_regions:
     input:
         auspice_json = expand("auspice/ncov{region}.json", region=REGIONS),
@@ -36,15 +42,6 @@ rule all_regions:
         dated_tip_frequencies_json = expand("auspice/ncov{region}_{date}_tip-frequencies.json", date=get_todays_date(), region=REGIONS),
         auspice_json_gisaid = expand("auspice/ncov{region}_gisaid.json", region=REGIONS),
         auspice_json_zh = expand("auspice/ncov{region}_zh.json", region=REGIONS)
-
-rule all:
-    input:
-        auspice_json = "auspice/ncov{region}.json",
-        tip_frequencies_json = "auspice/ncov{region}_tip-frequencies.json",
-        dated_auspice_json = expand("auspice/ncov{{region}}_{date}.json", date=get_todays_date()),
-        dated_tip_frequencies_json = expand("auspice/ncov{{region}}_{date}_tip-frequencies.json", date=get_todays_date()),
-        auspice_json_gisaid = "auspice/ncov{region}_gisaid.json",
-        auspice_json_zh = "auspice/ncov{region}_zh.json"
 
 rule all_europe:
     input:
@@ -236,7 +233,7 @@ rule subsample:
         """
         cp {input} {output}
         """
-        
+
 rule adjust_metadata:
     input:
         rules.download.output.metadata
@@ -661,8 +658,8 @@ rule dated_json:
         auspice_json = rules.fix_colorings.output.auspice_json,
         tip_frequencies_json = rules.tip_frequencies.output.tip_frequencies_json
     output:
-        dated_auspice_json = rules.all.input.dated_auspice_json,
-        dated_tip_frequencies_json = rules.all.input.dated_tip_frequencies_json
+        dated_auspice_json = rules.all_regions.input.dated_auspice_json,
+        dated_tip_frequencies_json = rules.all_regions.input.dated_tip_frequencies_json
     shell:
         """
         cp {input.auspice_json} {output.dated_auspice_json}

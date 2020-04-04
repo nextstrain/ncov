@@ -1,6 +1,6 @@
 include: "Snakefile"
 
-ruleorder: subsample_regions > subsample 
+ruleorder: subsample_regions > subsample
 ruleorder: adjust_metadata_regions > adjust_metadata
 
 rule subsample_focus:
@@ -14,9 +14,7 @@ rule subsample_focus:
     output:
         sequences = "results/subsample_focus{region}.fasta"
     params:
-        group_by = "division year month",
-        #sequences_per_group = 300,
-        #exclude_where = "region!='North America'"
+        group_by = "division year month"
     shell:
         """
         #Figure out what region being wanted
@@ -45,14 +43,11 @@ rule subsample_focus:
             --output {output.sequences} \
 
         """
-        #    --exclude-where {params.exclude_where}\
-        #    --sequences-per-group {params.sequences_per_group} \
-        #regionarg="--exclude-where region!=$region"
 
 rule make_priorities:
     message:
         """
-        determine priority for inclusion in as phylogenetic context by 
+        determine priority for inclusion in as phylogenetic context by
         genetic similiarity to sequences in focal set.
         """
     input:
@@ -76,7 +71,7 @@ rule make_priorities:
             python3 scripts/priorities.py --alignment {input.alignment} \
                             --metadata {input.metadata} \
                             --focal-alignment {input.focal_alignment} \
-                            --output {output.priorities} 
+                            --output {output.priorities}
         fi
         """
 
@@ -93,8 +88,7 @@ rule subsample_context:
         sequences = "results/subsample_context{region}.fasta"
     params:
         group_by = "country year month",
-        sequences_per_group = 20,
-        #exclude_where = "region='North America'"
+        sequences_per_group = 20
     shell:
         """
         #Figure out what region being wanted
@@ -120,7 +114,6 @@ rule subsample_context:
                 --output {output.sequences}
         fi
         """
-#                --exclude-where {params.exclude_where}\
 
 rule subsample_regions:
     input:
@@ -133,12 +126,9 @@ rule subsample_regions:
         cat {input} > {output}
         """
 
-        
 rule adjust_metadata_regions:
     input:
         metadata = rules.download.output.metadata
-    params:
-        #region = "'North America'"
     output:
         metadata = "results/metadata_adjusted{region}.tsv"
     shell:
@@ -157,7 +147,6 @@ rule adjust_metadata_regions:
             python3 scripts/adjust_regional_meta.py \
                                     --region "$region" \
                                     --metadata {input.metadata} \
-                                    --output {output.metadata} 
+                                    --output {output.metadata}
         fi
         """
-#                                    --region {params.region} \
