@@ -28,7 +28,6 @@ rule files:
         exclude = "config/exclude.txt",
         reference = "config/reference.gb",
         outgroup = "config/outgroup.fasta",
-        weights = "config/weights.tsv",
         ordering = "config/ordering.tsv",
         color_schemes = "config/color_schemes.tsv",
         auspice_config = "config/auspice_config.json",
@@ -310,6 +309,14 @@ rule translate:
             --output-node-data {output.node_data} \
         """
 
+def _get_sampling_trait_for_wildcards(wildcards):
+    mapping = {"_north-america": "country", "_oceania": "country"} # TODO: switch to "division"
+    return mapping[wildcards.region] if wildcards.region in mapping else "country"
+
+def _get_exposure_trait_for_wildcards(wildcards):
+    mapping = {"_north-america": "country_exposure", "_oceania": "country_exposure"} # TODO: switch to "division_exposure"
+    return mapping[wildcards.region] if wildcards.region in mapping else "country_exposure"
+
 rule traits:
     message:
         """
@@ -318,19 +325,17 @@ rule traits:
         """
     input:
         tree = "results/tree{region}.nwk",
-        metadata = "results/metadata_adjusted{region}.tsv",
-        weights = files.weights
+        metadata = "results/metadata_adjusted{region}.tsv"
     output:
         node_data = "results/traits{region}.json",
     params:
-        columns = "country_exposure",
+        columns = _get_exposure_trait_for_wildcards,
         sampling_bias_correction = 2.5
     shell:
         """
         augur traits \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --weights {input.weights} \
             --output {output.node_data} \
             --columns {params.columns} \
             --confidence \
@@ -506,8 +511,8 @@ rule incorporate_travel_history:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs
     params:
-        sampling = "country",
-        exposure = "country_exposure"
+        sampling = _get_sampling_trait_for_wildcards,
+        exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = "results/ncov_with_accessions_and_travel_branches{region}.json"
     shell:
@@ -528,8 +533,8 @@ rule incorporate_travel_history_gisaid:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs
     params:
-        sampling = "country",
-        exposure = "country_exposure"
+        sampling = _get_sampling_trait_for_wildcards,
+        exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = "results/ncov_gisaid_with_accessions_and_travel_branches{region}.json"
     shell:
@@ -550,8 +555,8 @@ rule incorporate_travel_history_zh:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs
     params:
-        sampling = "country",
-        exposure = "country_exposure"
+        sampling = _get_sampling_trait_for_wildcards,
+        exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = "results/ncov_zh_with_accessions_and_travel_branches{region}.json"
     shell:
