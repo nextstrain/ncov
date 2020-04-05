@@ -37,19 +37,21 @@ rule subsample_focus:
     output:
         sequences = "results/subsample_focus{region}.fasta"
     params:
-        group_by = "division year month"
+        group_by = "division year month",
+        seq_per_group_global = 150, # i.e. if not regional build
+        seq_per_group_regional = 300
     shell:
         """
         #Figure out what region being wanted
         rgn="{wildcards.region}"
 
         if [ -z "$rgn" ]; then
-            seq_per_group="150"
+            seq_per_group={params.seq_per_group_global}
             regionarg="--exclude-where region="
             region="frog"   #I don't know! It wouldn't work without something!
             echo "Filtering for a global run - $seq_per_group per division"
         else
-            seq_per_group="300"
+            seq_per_group={params.seq_per_group_regional}
             region="${{rgn//[_y]/}}"
             region="${{region//[-y]/ }}"
             echo "Filtering for a focal run on $region - $seq_per_group per division"
