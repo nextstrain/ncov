@@ -126,9 +126,9 @@ rule subsample_context:
         else
             region="${{rgn//[_y]/}}"
             region="${{region//[-y]/ }}"
-            echo "Filtering for a focal run on $region - context is {params.sequences_per_group} per division"
+            echo "Creating a filtered context for a focal run on $region. Context is {params.sequences_per_group}seqs per '{params.group_by}'"
             regionarg="--exclude-where region="
-            echo "   This is passed to augur as $regionarg'$region'"
+            echo "   (This is passed to 'augur filter' as \"$regionarg'$region'\")"
 
             augur filter \
                 $regionarg"$region" \
