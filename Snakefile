@@ -8,7 +8,7 @@ def get_todays_date():
     return date
 
 # Add new regions here!
-REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south_america", ""]
+REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america", ""]
 
 wildcard_constraints:
     region = "|".join(REGIONS),    # "|_north-america|_europe"
