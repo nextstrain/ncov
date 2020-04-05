@@ -7,15 +7,21 @@ def get_todays_date():
     date = datetime.today().strftime('%Y-%m-%d')
     return date
 
+# Add new regions here!
 REGIONS = ["_North-America", "_Europe", ""]
 
 wildcard_constraints:
-    region="|_North-America|_Europe",
+    region = "|".join(REGIONS),    # "|_North-America|_Europe"
     date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 # How to run: if no region is specified, it'll run a subsampled global build (200 per division)
 # If a region is selected, it'll do 200/division for that region, and 20/division in the rest of the world
 #       -- preferentially sequences near the focal sequences
+#
+# To run a regional build, be sure to update it to the list on line 10!
+#
+# You can run all builds in parallel!
+#   snakemake -s Snakefile_Regions --cores 2 all_regions
 #
 # You can use the specific rules below to call the whole build.
 # Be sure to specify the 'additional' snakefile when you call, like so:
@@ -275,6 +281,7 @@ rule refine:
     output:
         tree = "results/tree{region}.nwk",
         node_data = "results/branch_lengths{region}.json"
+    threads: 1
     params:
         root = "Wuhan-Hu-1/2019 Wuhan/WH01/2019",
         clock_rate = 0.0008,
