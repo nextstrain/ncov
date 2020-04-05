@@ -15,6 +15,7 @@ wildcard_constraints:
     date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 configfile: "config/Snakefile.yaml"
+localrules: download
 
 # simple rule to call snakemake for outsider users
 rule all:
