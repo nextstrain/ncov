@@ -53,6 +53,9 @@ if __name__ == '__main__':
 
     with open(args.output, 'w') as f:
         for trait_name, trait_array in assignment.items():
+            if len(trait_array)==0:
+                print(f"No traits found for {trait_name}")
+                continue
             color_array = schemes[len(trait_array)]
             extra_trait_values = list(forced_colors.get(trait_name, {}).keys())
             extra_color_values = list(forced_colors.get(trait_name, {}).values())
