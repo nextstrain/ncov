@@ -1,5 +1,7 @@
 """
-Very simple script just to change 'division' & 'location' to 'country' for regions outwith focal region
+Add column to metadata to denote 'focal' samples based on supplied region
+Rewrite location, division and country for non-focal samples to be region
+Rewrite division_exposure and country_exposure for non-focal samples to be region_exposure
 """
 
 import argparse
@@ -7,18 +9,25 @@ import pandas as pd
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="generate priorities files based on genetic proximity to focal sample",
+        description="Add column to metadata to denote 'focal' samples based on supplied region",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--metadata", type = str, required=True, help="metadata")
-    parser.add_argument("--region", type=str, required=True, help="region for which to 'mask' at division level & below")
-    parser.add_argument("--output", type=str, required=True, help="new metadata")
+    parser.add_argument("--region", type=str, required=True, help="focal region")
+    parser.add_argument("--output", type=str, required=True, help="adjusted metadata")
     args = parser.parse_args()
 
+    print("Adjusting metadata for focal region", args.region)
+
     metadata = pd.read_csv(args.metadata, delimiter='\t')
-    metadata.insert(11, 'focal_country', metadata['country'])
-    metadata.loc[metadata.region != args.region, 'division'] = ""
+    metadata.insert(12, 'focal', True)
+    metadata.loc[metadata.region != args.region, 'focal'] = False
     metadata.loc[metadata.region != args.region, 'location'] = ""
-    metadata.loc[metadata.region != args.region, 'focal_country'] = ""
+    metadata.loc[metadata.region != args.region, 'division'] = metadata.region
+    metadata.loc[metadata.region != args.region, 'country'] = metadata.region
+    metadata.loc[metadata.region != args.region, 'division_exposure'] = metadata.region_exposure
+    metadata.loc[metadata.region != args.region, 'country_exposure'] = metadata.region_exposure
+    metadata.loc[(metadata.region == args.region) & (metadata.region_exposure != args.region), 'division_exposure'] = metadata.region_exposure
+    metadata.loc[(metadata.region == args.region) & (metadata.region_exposure != args.region), 'country_exposure'] = metadata.region_exposure
 
     metadata.to_csv(args.output, index=False, sep="\t")

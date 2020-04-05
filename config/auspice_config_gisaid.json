@@ -16,11 +16,6 @@
       "type": "categorical"
     },
     {
-      "key": "focal_country",
-      "title": "Focal Countries",
-      "type": "categorical"
-    },
-    {
       "key": "region",
       "title": "Region",
       "type": "categorical"
