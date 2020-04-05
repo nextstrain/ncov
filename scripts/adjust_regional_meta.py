@@ -17,17 +17,28 @@ if __name__ == '__main__':
     parser.add_argument("--output", type=str, required=True, help="adjusted metadata")
     args = parser.parse_args()
 
+    fix_casing = {
+        "asia": "Asia",
+        "europe": "Europe",
+        "north america": "North America",
+        "oceania": "Oceania",
+        "south america": "South America"
+    }
+    focal_region = fix_casing[args.region]
+
+
     print("Adjusting metadata for focal region", args.region)
 
     metadata = pd.read_csv(args.metadata, delimiter='\t')
     metadata.insert(12, 'focal', True)
-    metadata.loc[metadata.region != args.region, 'focal'] = False
-    metadata.loc[metadata.region != args.region, 'location'] = ""
-    metadata.loc[metadata.region != args.region, 'division'] = metadata.region
-    metadata.loc[metadata.region != args.region, 'country'] = metadata.region
-    metadata.loc[metadata.region != args.region, 'division_exposure'] = metadata.region_exposure
-    metadata.loc[metadata.region != args.region, 'country_exposure'] = metadata.region_exposure
-    metadata.loc[(metadata.region == args.region) & (metadata.region_exposure != args.region), 'division_exposure'] = metadata.region_exposure
-    metadata.loc[(metadata.region == args.region) & (metadata.region_exposure != args.region), 'country_exposure'] = metadata.region_exposure
+
+    metadata.loc[metadata.region != focal_region, 'focal'] = False
+    metadata.loc[metadata.region != focal_region, 'location'] = ""
+    metadata.loc[metadata.region != focal_region, 'division'] = metadata.region
+    metadata.loc[metadata.region != focal_region, 'country'] = metadata.region
+    metadata.loc[metadata.region != focal_region, 'division_exposure'] = metadata.region_exposure
+    metadata.loc[metadata.region != focal_region, 'country_exposure'] = metadata.region_exposure
+    metadata.loc[(metadata.region == focal_region) & (metadata.region_exposure != focal_region), 'division_exposure'] = metadata.region_exposure
+    metadata.loc[(metadata.region == focal_region) & (metadata.region_exposure != focal_region), 'country_exposure'] = metadata.region_exposure
 
     metadata.to_csv(args.output, index=False, sep="\t")

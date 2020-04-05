@@ -8,10 +8,10 @@ def get_todays_date():
     return date
 
 # Add new regions here!
-REGIONS = ["_North-America", "_Europe", ""]
+REGIONS = ["_north-america", "_europe", ""]
 
 wildcard_constraints:
-    region = "|".join(REGIONS),    # "|_North-America|_Europe"
+    region = "|".join(REGIONS),    # "|_north-america|_europe"
     date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 # How to run: if no region is specified, it'll run a subsampled global build (200 per division)
@@ -30,7 +30,7 @@ wildcard_constraints:
 #   snakemake -s Snakefile_Regions --cores 2 all_global (subsampled global build)
 
 # Or you can specify final or intermediate output files like so:
-#   snakemake -s Snakefile_Regions --cores 2 auspice/ncov_Europe.json (subsampled regional focal)
+#   snakemake -s Snakefile_Regions --cores 2 auspice/ncov_europe.json (subsampled regional focal)
 #   snakemake -s Snakefile_Regions --cores 2 auspice/ncov.json (subsampled global)
 
 configfile: "config/Snakefile.yaml"
@@ -52,21 +52,21 @@ rule all_regions:
 
 rule all_europe:
     input:
-        auspice_json = "auspice/ncov_Europe.json",
-        tip_frequencies_json = "auspice/ncov_Europe_tip-frequencies.json",
-        dated_auspice_json = expand("auspice/ncov_Europe_{date}.json", date=get_todays_date()),
-        dated_tip_frequencies_json = expand("auspice/ncov_Europe_{date}_tip-frequencies.json", date=get_todays_date()),
-        auspice_json_gisaid = "auspice/ncov_Europe_gisaid.json",
-        auspice_json_zh = "auspice/ncov_Europe_zh.json"
+        auspice_json = "auspice/ncov_europe.json",
+        tip_frequencies_json = "auspice/ncov_europe_tip-frequencies.json",
+        dated_auspice_json = expand("auspice/ncov_europe_{date}.json", date=get_todays_date()),
+        dated_tip_frequencies_json = expand("auspice/ncov_europe_{date}_tip-frequencies.json", date=get_todays_date()),
+        auspice_json_gisaid = "auspice/ncov_europe_gisaid.json",
+        auspice_json_zh = "auspice/ncov_europe_zh.json"
 
 rule all_north_america:
     input:
-        auspice_json = "auspice/ncov_North-America.json",
-        tip_frequencies_json = "auspice/ncov_North-America_tip-frequencies.json",
-        dated_auspice_json = expand("auspice/ncov_North-America_{date}.json", date=get_todays_date()),
-        dated_tip_frequencies_json = expand("auspice/ncov_North-America_{date}_tip-frequencies.json", date=get_todays_date()),
-        auspice_json_gisaid = "auspice/ncov_North-America_gisaid.json",
-        auspice_json_zh = "auspice/ncov_North-America_zh.json"
+        auspice_json = "auspice/ncov_north-america.json",
+        tip_frequencies_json = "auspice/ncov_north-america_tip-frequencies.json",
+        dated_auspice_json = expand("auspice/ncov_north-america_{date}.json", date=get_todays_date()),
+        dated_tip_frequencies_json = expand("auspice/ncov_north-america_{date}_tip-frequencies.json", date=get_todays_date()),
+        auspice_json_gisaid = "auspice/ncov_north-america_gisaid.json",
+        auspice_json_zh = "auspice/ncov_north-america_zh.json"
 
 rule all_global:
     input:
