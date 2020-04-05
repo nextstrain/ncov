@@ -3,6 +3,28 @@ include: "Snakefile"
 ruleorder: subsample_regions > subsample
 ruleorder: adjust_metadata_regions > adjust_metadata
 
+# How to run: if no region is specified, it'll run a subsampled global build (200 per division)
+# If a region is selected, it'll do 200/division for that region, and 20/division in the rest of the world
+#       -- preferentially sequences near the focal sequences
+#
+# To run a regional build, be sure to update it to the list in Snakefile
+#
+# You can run all builds in parallel!
+#   snakemake -s Snakefile_Regions --cores 2 all_regions
+#
+# Or you can specify final or intermediate output files like so:
+#   snakemake -s Snakefile_Regions --cores 2 auspice/ncov_europe.json (subsampled regional focal)
+#   snakemake -s Snakefile_Regions --cores 2 auspice/ncov.json (subsampled global)
+
+rule all_regions:
+    input:
+        auspice_json = expand("auspice/ncov{region}.json", region=REGIONS),
+        tip_frequencies_json = expand("auspice/ncov{region}_tip-frequencies.json", region=REGIONS),
+        dated_auspice_json = expand("auspice/ncov{region}_{date}.json", date=get_todays_date(), region=REGIONS),
+        dated_tip_frequencies_json = expand("auspice/ncov{region}_{date}_tip-frequencies.json", date=get_todays_date(), region=REGIONS),
+        auspice_json_gisaid = expand("auspice/ncov{region}_gisaid.json", region=REGIONS),
+        auspice_json_zh = expand("auspice/ncov{region}_zh.json", region=REGIONS)
+
 rule subsample_focus:
     message:
         """
@@ -22,7 +44,7 @@ rule subsample_focus:
         rgn="{wildcards.region}"
 
         if [ -z "$rgn" ]; then
-            seq_per_group="200"
+            seq_per_group="150"
             regionarg="--exclude-where region="
             region="frog"   #I don't know! It wouldn't work without something!
             echo "Filtering for a global run - $seq_per_group per division"
