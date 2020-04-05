@@ -19,6 +19,7 @@ if __name__ == '__main__':
 
     fix_casing = {
         "asia": "Asia",
+        "africa": "Africa",
         "europe": "Europe",
         "north america": "North America",
         "oceania": "Oceania",
