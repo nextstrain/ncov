@@ -551,13 +551,14 @@ division	Zolder	50.9905	5.2580
 division	Zonhoven	50.9871	5.3672
 division	Zoutleeuw	50.836614	5.107761
 division	Zurich	47.441242	8.641154
+division	Africa	4.070194	21.824559
+division	Asia	30.451098	86.654576
+division	Europe	49.646237	10.799454
+division	North America	28.2367447	-97.738017
+division	Oceania	-25.0562891	152.008576
+division	South America	-13.083583	-58.470721
 
-
-
-
-
-
-
+country	Austria	47.5162	14.5501
 country	Croatia	45.1000	15.2000
 country	Denmark	56.2639	9.5018
 country	Ecuador	-1.0541	-78.1489
@@ -569,5 +570,9 @@ country	Iran	34.5732	51.876
 country	Luxembourg	49.755428	6.119486
 country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166
-country	Austria	47.5162	14.5501
-country	Croatia	45.1000	15.2000
+country	Africa	4.070194	21.824559
+country	Asia	30.451098	86.654576
+country	Europe	49.646237	10.799454
+country	North America	28.2367447	-97.738017
+country	Oceania	-25.0562891	152.008576
+country	South America	-13.083583	-58.470721
