@@ -1,0 +1,184 @@
+include: "Snakefile"
+
+ruleorder: subsample_regions > subsample
+ruleorder: adjust_metadata_regions > adjust_metadata
+
+# How to run: if no region is specified, it'll run a subsampled global build (200 per division)
+# If a region is selected, it'll do 200/division for that region, and 20/division in the rest of the world
+#       -- preferentially sequences near the focal sequences
+#
+# To run a regional build, be sure to update it to the list in Snakefile
+#
+# You can run all builds in parallel!
+#   snakemake -s Snakefile_Regions --cores 2 all_regions
+#
+# Or you can specify final or intermediate output files like so:
+#   snakemake -s Snakefile_Regions --cores 2 auspice/ncov_europe.json (subsampled regional focal)
+#   snakemake -s Snakefile_Regions --cores 2 auspice/ncov.json (subsampled global)
+
+rule all_regions:
+    input:
+        auspice_json = expand("auspice/ncov{region}.json", region=REGIONS),
+        tip_frequencies_json = expand("auspice/ncov{region}_tip-frequencies.json", region=REGIONS),
+        dated_auspice_json = expand("auspice/ncov{region}_{date}.json", date=get_todays_date(), region=REGIONS),
+        dated_tip_frequencies_json = expand("auspice/ncov{region}_{date}_tip-frequencies.json", date=get_todays_date(), region=REGIONS),
+        auspice_json_gisaid = expand("auspice/ncov{region}_gisaid.json", region=REGIONS),
+        auspice_json_zh = expand("auspice/ncov{region}_zh.json", region=REGIONS)
+
+rule subsample_focus:
+    message:
+        """
+        Subsample all sequences into a focal set
+        """
+    input:
+        sequences = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata,
+        include = files.include
+    output:
+        sequences = "results/subsample_focus{region}.fasta"
+    params:
+        group_by = "division year month",
+        seq_per_group_global = 150, # i.e. if not regional build
+        seq_per_group_regional = 300
+    shell:
+        """
+        #Figure out what region being wanted
+        rgn="{wildcards.region}"
+
+        if [ -z "$rgn" ]; then
+            seq_per_group={params.seq_per_group_global}
+            regionarg="--exclude-where region="
+            region="frog"   #I don't know! It wouldn't work without something!
+            echo "Filtering for a global run - $seq_per_group per division"
+        else
+            seq_per_group={params.seq_per_group_regional}
+            region="${{rgn//[_y]/}}"
+            region="${{region//[-y]/ }}"
+            echo "Filtering for a focal run on $region - $seq_per_group per division"
+            regionarg="--exclude-where region!="
+            echo "   This is passed to augur as $regionarg'$region'"
+        fi
+
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --include {input.include} \
+            $regionarg"$region" \
+            --group-by {params.group_by} \
+            --sequences-per-group $seq_per_group \
+            --output {output.sequences} \
+
+        """
+
+rule make_priorities:
+    message:
+        """
+        determine priority for inclusion in as phylogenetic context by
+        genetic similiarity to sequences in focal set.
+        """
+    input:
+        alignment = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata,
+        focal_alignment = rules.subsample_focus.output.sequences
+    output:
+        priorities = "results/subsampling_priorities{region}.tsv"
+    shell:
+        """
+        #Figure out what region being wanted
+        rgn="{wildcards.region}"
+
+        if [ -z "$rgn" ]; then
+            echo "Global run - no priorities needed"
+            echo -n >{output.priorities}
+        else
+            region="${{rgn//[_y]/}}"
+            region="${{region//[-y]/ }}"
+            echo "Creating priorities for focal build on $region"
+            python3 scripts/priorities.py --alignment {input.alignment} \
+                            --metadata {input.metadata} \
+                            --focal-alignment {input.focal_alignment} \
+                            --output {output.priorities}
+        fi
+        """
+
+rule subsample_context:
+    message:
+        """
+        Subsample the non-focal sequences to provide phylogenetic context
+        """
+    input:
+        sequences = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata,
+        priorities = rules.make_priorities.output.priorities
+    output:
+        sequences = "results/subsample_context{region}.fasta"
+    params:
+        group_by = "country year month",
+        sequences_per_group = 20
+    shell:
+        """
+        #Figure out what region being wanted
+        rgn="{wildcards.region}"
+
+        if [ -z "$rgn" ]; then
+            echo "Global run - no context needed"
+            echo -n >{output.sequences}
+        else
+            region="${{rgn//[_y]/}}"
+            region="${{region//[-y]/ }}"
+            echo "Creating a filtered context for a focal run on $region. Context is {params.sequences_per_group}seqs per '{params.group_by}'"
+            regionarg="--exclude-where region="
+            echo "   (This is passed to 'augur filter' as \"$regionarg'$region'\")"
+
+            augur filter \
+                $regionarg"$region" \
+                --sequences {input.sequences} \
+                --metadata {input.metadata} \
+                --priority {input.priorities} \
+                --group-by {params.group_by} \
+                --sequences-per-group {params.sequences_per_group} \
+                --output {output.sequences}
+        fi
+        """
+
+rule subsample_regions:
+    message:
+        """
+        Combine and deduplicate FASTAs
+        """
+    input:
+        rules.subsample_focus.output.sequences,
+        rules.subsample_context.output.sequences
+    output:
+        "results/subsampled_alignment{region}.fasta"
+    shell:
+        """
+        python3 scripts/combine-and-dedup-fastas.py \
+            --input {input} \
+            --output {output}
+        """
+
+rule adjust_metadata_regions:
+    input:
+        metadata = rules.download.output.metadata
+    output:
+        metadata = "results/metadata_adjusted{region}.tsv"
+    shell:
+        """
+        #Figure out what region being wanted
+        rgn="{wildcards.region}"
+
+        if [ -z "$rgn" ]; then
+            echo "Global run - no metadata adjustment needed"
+            cp {input.metadata} {output.metadata}
+        else
+            region="${{rgn//[_y]/}}"
+            region="${{region//[-y]/ }}"
+             echo "Focal run for $region - adjusting metadata"
+
+            python3 scripts/adjust_regional_meta.py \
+                                    --region "$region" \
+                                    --metadata {input.metadata} \
+                                    --output {output.metadata}
+        fi
+        """

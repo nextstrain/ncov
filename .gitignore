@@ -9,6 +9,7 @@ data/sequences.fasta
 data/*ndjson
 data/gisaid_cov2020_sequences.fasta
 config/colors.tsv
+config/colors_*.tsv
 
 # Sensitive environment variables
 environment*
