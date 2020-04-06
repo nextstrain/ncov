@@ -111,11 +111,42 @@ location	Thise
 location	Montreux-Chateau
 location	Rouen
 location	Leuven
+location	Villerot
+location	Poppel
+location	Havre
+location	Couillet
+location	Trazegnies
+location	Jumet
+location	Koersel
+location	Wandre
+location	Cuesmes
+location	Saive
+location	Quevaucamps
+location	Montignies-Sur-Sambre
+location	Tertre
+location	Heverlee
+location	Kain
+location	Winksele
+location	Jemappes
+location	Bassilly
+location	Blandain
+location	Neerpelt
+location	Geluwe
+location	Haulchin
+location	Bierset
+location	Saisinne
+location	Braine-le-Chateau
+location	Arbre
+location	Temploux
+location	Ladeuze
+location	Forchies-la-marche
+location	Yernee-fraineux
 location	Starnberg
 location	Strasbourg
 location	Rome
 location	Milan
 location	valencia
+location	Luxembourg
 location	England
 location	South Yorkshire
 location	Derbyshire
@@ -164,6 +195,13 @@ location	Boston
 location	Manhattan
 location	Nassau County
 location	Brooklyn
+location	Queens
+location	Staten Island
+location	Bronx
+
+location	Grand Princess cruise ship
+
+
 
 division	China
 division	Hubei
@@ -254,6 +292,92 @@ division	Madrid
 division	Flanders
 division	Beersel
 division	Leuven
+division	Zinnik
+division	Namur
+division	Sint-Agatha-Berchem
+division	Wevelgem
+division	Waterloo
+division	Stekene
+division	Lanaken
+division	Vilvoorde
+division	Charleroi
+division	Mouscron
+division	Zoutleeuw
+division	Nieuwerkerken
+division	Courcelles
+division	Bree
+division	Knokke-Heist
+division	Herve
+division	Oudergem
+division	La Louviere
+division	Ukkel
+division	Quaregnon
+division	Genappe
+division	Ath
+division	Doornik
+division	Theux
+division	Berloz
+division	Anderlecht
+division	Gent
+division	Waasmunster
+division	Tielt-Winge
+division	Dalhem
+division	Quevy
+division	Lubbeek
+division	Hemiksem
+division	Sint-Gillis-Waas
+division	Walloon Brabant
+division	Herent
+division	Silly
+division	Wervik
+division	Belgium
+division	Pelt
+division	Blegny
+division	Estinnes
+division	Ravels
+division	Tournai
+division	Lasne
+division	Herstal
+division	Boutersem
+division	Dendermonde
+division	Saint-Ghislain
+division	Soignies
+division	Henri-chapelle
+division	Elsene
+division	Sint-Genesius-Rode
+division	Wanze
+division	Seraing
+division	Riemst
+division	Oostrozebeke
+division	Geraardsbergen
+division	Herselt
+division	Montigny-le-Tilleul
+division	Beringen
+division	Soumagne
+division	Havelange
+division	Fontaine-l Eveque
+division	Lummen
+division	Mons
+division	Boussu
+division	Tienen
+division	Grimbergen
+division	Colfontaine
+division	Bonheiden
+division	Bierbeek
+division	Ronse
+division	Etterbeek
+division	Sint-Truiden
+division	Andenne
+division	Linter
+division	Alken
+division	Tervuren
+division	Watermaal-Bosvoorde
+division	Couvin
+division	Braine-l alleud
+division	Tubize
+division	Frameries
+division	Honnelles
+division	Hasselt
 division	Chaineux
 division	Kalmthout
 division	Ganshoren
@@ -275,6 +399,8 @@ division	Kraainem
 division	Huldenberg
 division	Brussels
 division	Liège
+division	Saint-Saulve
+division	Helden
 division	Switzerland
 division	Lucerne
 division	Bavaria
