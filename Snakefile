@@ -624,37 +624,6 @@ rule dated_json:
         cp {input.tip_frequencies_json} {output.dated_tip_frequencies_json}
         """
 
-try:
-    deploy_origin = (
-        f"from AWS Batch job `{environ['AWS_BATCH_JOB_ID']}`"
-        if environ.get("AWS_BATCH_JOB_ID") else
-        f"by the hands of {getuser()}@{getfqdn()}"
-    )
-except:
-    # getuser() and getfqdn() may not always succeed, and this catch-all except
-    # means that the Snakefile won't crash.
-    deploy_origin = "by an unknown identity"
-
-rule deploy_to_staging:
-    input:
-        *rules.all.input
-    params:
-        slack_message = json.dumps({"text":f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}"}),
-        slack_webhook = config["slack_webhook"] or "",
-        s3_staging_url = config["s3_staging_url"]
-    shell:
-        """
-        nextstrain deploy {params.s3_staging_url:q} {input:q}
-
-        if [[ -n "{params.slack_webhook}" ]]; then
-            curl {params.slack_webhook:q} \
-                --header 'Content-type: application/json' \
-                --data-raw {params.slack_message:q} \
-                --fail --silent --show-error \
-                --include
-        fi
-        """
-
 rule clean:
     message: "Removing directories: {params}"
     params:
