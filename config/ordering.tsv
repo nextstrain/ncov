@@ -25,7 +25,6 @@ location	Kaohsiung
 location	Bangkok
 location	Aichi
 location	Tokyo
-location	Diamond Princess
 location	Kyoto
 location	Gyeonggi
 location	Chungcheongnam
@@ -37,6 +36,7 @@ location	Bangkok
 location	Singapore
 location	Gold Coast
 location	Sydney
+location	Perth
 location	Sunshine Coast
 location	Melbourne
 location	Brisbane
@@ -146,7 +146,7 @@ location	Starnberg
 location	Strasbourg
 location	Rome
 location	Milan
-location	Valencia
+location	valencia
 location	Luxembourg
 location	England
 location	South Yorkshire
@@ -176,7 +176,6 @@ location	Seattle
 location	Los Angeles
 location	California
 location	San Francisco
-location	Grand Princess
 location	San Diego County
 location	Marin County
 location	San Francisco County
@@ -201,6 +200,10 @@ location	Queens
 location	Staten Island
 location	Bronx
 
+location	Grand Princess cruise ship
+
+
+
 division	China
 division	Hubei
 division	Beijing
@@ -221,13 +224,10 @@ division	Taiwan
 division	Taoyuan
 division	Aichi
 division	Tokyo
-division	Diamond Princess
 division	Saitama
 division	Nara
 division	Osaka
 division	Kyoto
-division	Chiba
-division	Ishikawa
 division	Kanagawa
 division	Gyeonggi
 division	Chungcheongnam
@@ -252,6 +252,7 @@ division	Singapore
 division	Queensland
 division	Northern Territory
 division	New South Wales
+division	Western Australia
 division	Victoria
 division	Wellington
 division	Otago
@@ -504,30 +505,37 @@ division	Quito
 division	Panama City
 division	Mexico City
 division	USA
-division	Texas
-division	Florida
-division	Georgia
-division	Virginia
 division	Connecticut
 division	Rhode Island
-division	New York
-division	Massachusetts
+division	Virginia
+division	Florida
+division	Georgia
+division	Texas
+division	Utah
+division	Idaho
+division	Arizona
+division	California
+division	Oregon
 division	Illinois
 division	Wisconsin
 division	Minnesota
-division	Arizona
-division	Utah
-division	Idaho
-division	California
-division	Grand Princess
-division	Oregon
+division	Massachusetts
+division	New York
 division	Washington
+division	British Columbia
+division	Saskatchewan
 division	Nova Scotia
 division	New Brunswick
-division	Ontario
 division	Manitoba
-division	Saskatchewan
-division	British Columbia
+division	Ontario
+
+division	Chiba
+division	Ishikawa
+division	Kochi
+division	Khyber Pakhtunkhwa
+
+
+
 
 country	China
 country	Hong Kong

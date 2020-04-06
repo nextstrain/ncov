@@ -124,6 +124,7 @@ location	Orange County	33.689584	-117.788718
 location	Orsay	48.703347	2.187373
 location	Oss	51.762396	5.530563
 location	Paris	48.853884	2.341738
+location	Perth	-31.942741	115.841171
 location	Phoenix	33.433362	-112.068786
 location	Pierce County	47.006605	-122.107847
 location	Pingxiang	27.632413	113.892981
@@ -540,6 +541,7 @@ division	Watermaal-Bosvoorde	50.793185	4.423301
 division	Washington	47.183945	-119.950361
 division	Wellington	-41.273449	174.857634
 division	Wervik	50.807707	3.052349
+division	Western Australia	-27.055937	122.236663
 division	Wevelgem	50.832135	3.174228
 division	Wicklow	52.9808	-6.0446
 division	Wisconsin	44.535145	-89.527762
@@ -551,14 +553,13 @@ division	Zolder	50.9905	5.2580
 division	Zonhoven	50.9871	5.3672
 division	Zoutleeuw	50.836614	5.107761
 division	Zurich	47.441242	8.641154
-division	Africa	4.070194	21.824559
-division	Asia	30.451098	86.654576
-division	Europe	49.646237	10.799454
-division	North America	28.2367447	-97.738017
-division	Oceania	-25.0562891	152.008576
-division	South America	-13.083583	-58.470721
 
-country	Austria	47.5162	14.5501
+
+
+
+
+
+
 country	Croatia	45.1000	15.2000
 country	Denmark	56.2639	9.5018
 country	Ecuador	-1.0541	-78.1489
@@ -570,9 +571,5 @@ country	Iran	34.5732	51.876
 country	Luxembourg	49.755428	6.119486
 country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166
-country	Africa	4.070194	21.824559
-country	Asia	30.451098	86.654576
-country	Europe	49.646237	10.799454
-country	North America	28.2367447	-97.738017
-country	Oceania	-25.0562891	152.008576
-country	South America	-13.083583	-58.470721
+country	Austria	47.5162	14.5501
+country	Croatia	45.1000	15.2000
