@@ -25,6 +25,7 @@ location	Kaohsiung
 location	Bangkok
 location	Aichi
 location	Tokyo
+location	Diamond Princess
 location	Kyoto
 location	Gyeonggi
 location	Chungcheongnam
@@ -145,7 +146,7 @@ location	Starnberg
 location	Strasbourg
 location	Rome
 location	Milan
-location	valencia
+location	Valencia
 location	Luxembourg
 location	England
 location	South Yorkshire
@@ -175,6 +176,7 @@ location	Seattle
 location	Los Angeles
 location	California
 location	San Francisco
+location	Grand Princess
 location	San Diego County
 location	Marin County
 location	San Francisco County
@@ -199,10 +201,6 @@ location	Queens
 location	Staten Island
 location	Bronx
 
-location	Grand Princess cruise ship
-
-
-
 division	China
 division	Hubei
 division	Beijing
@@ -223,10 +221,13 @@ division	Taiwan
 division	Taoyuan
 division	Aichi
 division	Tokyo
+division	Diamond Princess
 division	Saitama
 division	Nara
 division	Osaka
 division	Kyoto
+division	Chiba
+division	Ishikawa
 division	Kanagawa
 division	Gyeonggi
 division	Chungcheongnam
@@ -503,37 +504,30 @@ division	Quito
 division	Panama City
 division	Mexico City
 division	USA
-division	Connecticut
-division	Rhode Island
-division	Virginia
+division	Texas
 division	Florida
 division	Georgia
-division	Texas
-division	Utah
-division	Idaho
-division	Arizona
-division	California
-division	Oregon
+division	Virginia
+division	Connecticut
+division	Rhode Island
+division	New York
+division	Massachusetts
 division	Illinois
 division	Wisconsin
 division	Minnesota
-division	Massachusetts
-division	New York
+division	Arizona
+division	Utah
+division	Idaho
+division	California
+division	Grand Princess
+division	Oregon
 division	Washington
-division	British Columbia
-division	Saskatchewan
 division	Nova Scotia
 division	New Brunswick
-division	Manitoba
 division	Ontario
-
-division	Chiba
-division	Ishikawa
-division	Kochi
-division	Khyber Pakhtunkhwa
-
-
-
+division	Manitoba
+division	Saskatchewan
+division	British Columbia
 
 country	China
 country	Hong Kong
