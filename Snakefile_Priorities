@@ -15,7 +15,8 @@ REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-
 rule priorities_for_all:
     input:
         expand("results/subsample_focus{region}.fasta", region=REGIONS),
-        expand("results/subsampling_priorities{region}.tsv", region=REGIONS)''
+        expand("results/subsampling_priorities{region}.tsv", region=REGIONS),
+        "results/metadata_priorities.tsv",
         "auspice/ncov-with-priorities.json"
 
 rule subsample_focus:
