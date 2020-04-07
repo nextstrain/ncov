@@ -200,10 +200,6 @@ location	Queens
 location	Staten Island
 location	Bronx
 
-location	Grand Princess cruise ship
-
-
-
 division	China
 division	Hubei
 division	Beijing
@@ -224,6 +220,8 @@ division	Taiwan
 division	Taoyuan
 division	Aichi
 division	Tokyo
+division	Chiba
+division	Ishikawa
 division	Saitama
 division	Nara
 division	Osaka
@@ -237,6 +235,8 @@ division	Selangor
 division	Kuala Lumpur
 division	Kathmandu
 division	Kerala
+division	Kochi
+division	Khyber Pakhtunkhwa
 division	Iran
 division	Kuwait
 division	Gilgit Baltistan
@@ -529,14 +529,6 @@ division	New Brunswick
 division	Manitoba
 division	Ontario
 
-division	Chiba
-division	Ishikawa
-division	Kochi
-division	Khyber Pakhtunkhwa
-
-
-
-
 country	China
 country	Hong Kong
 country	Taiwan
@@ -562,7 +554,7 @@ country	Slovakia
 country	Slovenia
 country	Poland
 country	Hungary
-country Croatia
+country	Croatia
 country	France
 country	Iceland
 country	Norway
