@@ -61,10 +61,12 @@
       "type": "categorical"
     },
     {
-      "key": "gisaid_epi_isl"
+      "key": "gisaid_epi_isl",
+      "type": "categorical"
     },
     {
-      "key": "genbank_accession"
+      "key": "genbank_accession",
+      "type": "categorical"
     },
     {
       "key": "country_exposure",

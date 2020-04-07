@@ -1,4 +1,5 @@
 location	Aichi	35.067543	137.334061
+location	Anchorage	61.203109	-149.888095
 location	Andel	51.7851	5.0549
 location	Arbre	50.611772	3.817121
 location	Asnières-sur-Seine	48.911508	2.284362
@@ -45,6 +46,7 @@ location	Diemen	52.3390	4.9592
 location	Duesseldorf	51.22166	6.75289
 location	Eindhoven	51.4416	5.4697
 location	England	52.405994	-1.671707
+location	Fairbanks	64.835015	-147.664888
 location	Feira de Santana	-12.2598	-38.9675
 location	Forchies-la-marche	50.435103	4.319844
 location	Foshan	23.018766	113.121428
@@ -84,11 +86,13 @@ location	Juvisy-sur-Orge	48.690609	2.377581
 location	Kain	50.637121	3.379162
 location	Kaohsiung	22.622632	120.312435
 location	Kathmandu	27.712907	85.323557
+location	Ketchikan	55.346882	-131.655301
 location	King County	47.449221	-121.864246
 location	Kirkland	47.679486	-122.206354
 location	Koersel	51.058003	5.272274
 location	Kunming	25.013024	102.866742
 location	Kyoto	35.007542	135.768455
+location	L'Aquila	42.360082	13.391087
 location	La Crosse County	43.8617	-91.1353
 location	Ladeuze	50.563047	3.768438
 location	Leuven	50.880674	4.700109
@@ -175,6 +179,7 @@ location	Taipei	25.043279	121.565717
 location	Taoyuan	24.951706	121.219785
 location	Temploux	50.484053	4.753481
 location	Tertre	50.466483	3.811510
+location	Teramo	42.661036	13.710926
 location	Thanh Hoa	19.805359	105.784515
 location	Thise	47.284553	6.079822
 location	Tianmen	30.6510	113.1556
@@ -421,7 +426,7 @@ division	Nara	34.371026	135.887389
 division	Netherlands	52.1326	5.2913
 division	Nevele	51.0343	3.5474
 division	New Brunswick	46.570770	-66.308191
-division	division	New Hampshire	43.1939	-71.5724
+division	New Hampshire	43.1939	-71.5724
 division	New South Wales	-32.688430	146.228414
 division	Nieuwerkerken	50.882291	5.204030
 division	Nonthaburi	13.852511	100.522791
@@ -497,6 +502,7 @@ division	South Yorkshire	53.4697	-1.3260
 division	Spain	40.4637	-3.7492
 division	St-Louis	16.0326	-16.4818
 division	Stekene	51.214088	4.030857
+division	SudKivu	-3.223156	28.386665
 division	Switzerland	46.8182	8.2275
 division	Taiwan	23.816900	121.031365
 division	Talca	-35.462909	-71.370960

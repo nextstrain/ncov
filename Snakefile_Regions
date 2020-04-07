@@ -3,8 +3,8 @@ include: "Snakefile"
 ruleorder: subsample_regions > subsample
 ruleorder: adjust_metadata_regions > adjust_metadata
 
-# How to run: if no region is specified, it'll run a subsampled global build (200 per division)
-# If a region is selected, it'll do 200/division for that region, and 20/division in the rest of the world
+# How to run: if no region is specified, it'll run a subsampled global build (120 per division)
+# If a region is selected, it'll do 280/division for that region, and 20/division in the rest of the world
 #       -- preferentially sequences near the focal sequences
 #
 # To run a regional build, be sure to update it to the list in Snakefile
@@ -15,6 +15,14 @@ ruleorder: adjust_metadata_regions > adjust_metadata
 # Or you can specify final or intermediate output files like so:
 #   snakemake -s Snakefile_Regions --cores 2 auspice/ncov_europe.json (subsampled regional focal)
 #   snakemake -s Snakefile_Regions --cores 2 auspice/ncov.json (subsampled global)
+#
+# If you have 'touched' a run and now need to 're-export' to fix lat-longs,
+# you can do this to just run export:
+#   snakemake -s Snakefile_Regions clean_export_regions 
+#   snakemake -s Snakefile_Regions export_all_regions
+# When done adjusting lat-longs & orders, remember to run
+#   snakemake -s Snakefile_Regions
+# to produce the final Auspice files!
 
 rule all_regions:
     input:
@@ -24,6 +32,29 @@ rule all_regions:
         dated_tip_frequencies_json = expand("auspice/ncov{region}_{date}_tip-frequencies.json", date=get_todays_date(), region=REGIONS),
         auspice_json_gisaid = expand("auspice/ncov{region}_gisaid.json", region=REGIONS),
         auspice_json_zh = expand("auspice/ncov{region}_zh.json", region=REGIONS)
+
+# This cleans out files to allow re-run of 'normal' run (not ZH or GISAID)
+# with `export` to check lat-longs & orderings
+# However, *removes* the ZH & GISAID files so that when doing final run after all
+# errors are cleared, these builds will also be rebuilt!
+rule clean_export_regions:
+    message: "Removing export files: {params}"
+    params:
+        "results/ncov_with_accessions*.json",
+        "results/ncov_gisaid_with_accessions*.json",
+        "results/ncov_zh_with_accessions*.json",
+        "auspice/ncov*_gisaid.json",
+        "auspice/ncov*_zh.json",
+        "config/colors*.tsv"
+    shell:
+        "rm {params}"
+
+# Allows 'normal' run of export to be forced to correct lat-long & ordering
+# Just runs this, not ZH & GISAID, to speed up & reduce errors. 
+rule export_all_regions:
+    input:
+        colors_file = expand("config/colors{region}.tsv", region=REGIONS),
+        auspice_json = expand("results/ncov_with_accessions{region}.json", region=REGIONS),
 
 rule subsample_focus:
     message:

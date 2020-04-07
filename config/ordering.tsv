@@ -5,6 +5,7 @@ location	Jingzhou
 location	Pingxiang
 location	Zhongxian
 location	Yongchuan
+location	Beijing
 location	Chongqing
 location	Suzhou
 location	Chengdu
@@ -91,10 +92,11 @@ location	Privas
 location	Valence
 location	Lyon
 location	Paris
+location	Levallois-Perret
 location	Reims
-location	garches
-location	rennes
-location	longjumeau
+location	Garches
+location	Rennes
+location	Longjumeau
 location	Levallois-perret
 location	Pontoise
 location	Compiègne
@@ -102,6 +104,7 @@ location	Woippy
 location	Spicheren
 location	Chateau-Thierry
 location	Asnières-sur-Seine
+location	Garches
 location	Juvisy-sur-Orge
 location	Orsay
 location	Saint-Thibault-des-Vignes
@@ -146,7 +149,9 @@ location	Starnberg
 location	Strasbourg
 location	Rome
 location	Milan
-location	valencia
+location	L'Aquila
+location	Teramo
+location	Valencia
 location	Luxembourg
 location	England
 location	South Yorkshire
@@ -175,6 +180,9 @@ location	Kirkland
 location	Seattle
 location	Los Angeles
 location	California
+location	Ketchikan
+location	Fairbanks
+location	Anchorage
 location	San Francisco
 location	San Diego County
 location	Marin County
@@ -463,10 +471,10 @@ division	Canary Islands
 division	La Rioja
 division	Lisbon
 division	Croatia
+division	United Kingdom
 division	Northern Ireland
 division	England
 division	Nottinghamshire
-division	United Kingdom
 division	Wales
 division	Dublin
 division	Tipperary
@@ -482,6 +490,7 @@ division	Denmark
 division	Portugal
 division	Lagos
 division	Kinshasa
+division	SudKivu
 division	KwaZulu-Natal
 division	Mbour
 division	Touba
@@ -507,6 +516,7 @@ division	Quito
 division	Panama City
 division	Mexico City
 division	USA
+division	Alaska
 division	Texas
 division	Florida
 division	Georgia

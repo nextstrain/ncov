@@ -7,11 +7,13 @@ def get_todays_date():
     date = datetime.today().strftime('%Y-%m-%d')
     return date
 
+# For information on how to run 'regions' runs, see Snakefile_Regions
+
 # Add new regions here!
 REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america", ""]
 
 wildcard_constraints:
-    region = "|".join(REGIONS),    # "|_north-america|_europe"
+    region = "|".join(REGIONS),
     date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 configfile: "config/Snakefile.yaml"
