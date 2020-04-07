@@ -200,10 +200,6 @@ location	Queens
 location	Staten Island
 location	Bronx
 
-location	Grand Princess cruise ship
-
-
-
 division	China
 division	Hubei
 division	Beijing
@@ -224,6 +220,8 @@ division	Taiwan
 division	Taoyuan
 division	Aichi
 division	Tokyo
+division	Chiba
+division	Ishikawa
 division	Saitama
 division	Nara
 division	Osaka
@@ -237,6 +235,8 @@ division	Selangor
 division	Kuala Lumpur
 division	Kathmandu
 division	Kerala
+division	Kochi
+division	Khyber Pakhtunkhwa
 division	Iran
 division	Kuwait
 division	Gilgit Baltistan
@@ -454,6 +454,8 @@ division	Marche
 division	Lombardy
 division	Abruzzo
 division	Rome
+division	Teramo
+division	Castel di Sangro
 division	Friuli Venezia Giulia
 division	Usti nad Labem
 division	Grand Canary Islands
@@ -505,37 +507,31 @@ division	Quito
 division	Panama City
 division	Mexico City
 division	USA
-division	Connecticut
-division	Rhode Island
-division	Virginia
+division	Texas
 division	Florida
 division	Georgia
-division	Texas
-division	Utah
-division	Idaho
-division	Arizona
-division	California
-division	Oregon
+division	Virginia
+division	Rhode Island
+division	Connecticut
+division	New York
+division	Massachusetts
+division	New Hampshire
 division	Illinois
 division	Wisconsin
 division	Minnesota
-division	Massachusetts
-division	New York
+division	Arizona
+division	Utah
+division	Idaho
+division	California
+division	Grand Princess
+division	Oregon
 division	Washington
-division	British Columbia
-division	Saskatchewan
 division	Nova Scotia
 division	New Brunswick
-division	Manitoba
 division	Ontario
-
-division	Chiba
-division	Ishikawa
-division	Kochi
-division	Khyber Pakhtunkhwa
-
-
-
+division	Manitoba
+division	Saskatchewan
+division	British Columbia
 
 country	China
 country	Hong Kong
@@ -562,7 +558,7 @@ country	Slovakia
 country	Slovenia
 country	Poland
 country	Hungary
-country Croatia
+country	Croatia
 country	France
 country	Iceland
 country	Norway
@@ -592,6 +588,7 @@ country	South Africa
 country	Chile
 country	Ecuador
 country	Brazil
+country	Argentina
 country	Colombia
 country	Panama
 country	Mexico
