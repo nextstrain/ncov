@@ -19,11 +19,12 @@ ruleorder: adjust_metadata_regions > adjust_metadata
 rule all_regions:
     input:
         auspice_json = expand("auspice/ncov{region}.json", region=REGIONS),
-        tip_frequencies_json = expand("auspice/ncov{region}_tip-frequencies.json", region=REGIONS),
-        dated_auspice_json = expand("auspice/ncov{region}_{date}.json", date=get_todays_date(), region=REGIONS),
-        dated_tip_frequencies_json = expand("auspice/ncov{region}_{date}_tip-frequencies.json", date=get_todays_date(), region=REGIONS),
-        auspice_json_gisaid = expand("auspice/ncov{region}_gisaid.json", region=REGIONS),
-        auspice_json_zh = expand("auspice/ncov{region}_zh.json", region=REGIONS)
+        # tip_frequencies_json = expand("auspice/ncov{region}_tip-frequencies.json", region=REGIONS),
+        # dated_auspice_json = expand("auspice/ncov{region}_{date}.json", date=get_todays_date(), region=REGIONS),
+        # dated_tip_frequencies_json = expand("auspice/ncov{region}_{date}_tip-frequencies.json", date=get_todays_date(), region=REGIONS),
+        # auspice_json_gisaid = expand("auspice/ncov{region}_gisaid.json", region=REGIONS),
+        # auspice_json_zh = expand("auspice/ncov{region}_zh.json", region=REGIONS)
+
 
 rule subsample_focus:
     message:
@@ -33,7 +34,6 @@ rule subsample_focus:
     input:
         sequences = rules.mask.output.alignment,
         metadata = rules.download.output.metadata,
-        include = files.include
     output:
         sequences = "results/subsample_focus{region}.fasta"
     params:
@@ -55,14 +55,13 @@ rule subsample_focus:
             region="${{rgn//[_y]/}}"
             region="${{region//[-y]/ }}"
             echo "Filtering for a focal run on $region - $seq_per_group per division"
-            regionarg="--exclude-where region!="
+            regionarg="--exclude-where country!="
             echo "   This is passed to augur as $regionarg'$region'"
         fi
 
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
-            --include {input.include} \
             $regionarg"$region" \
             --group-by {params.group_by} \
             --sequences-per-group $seq_per_group \
@@ -109,12 +108,13 @@ rule subsample_context:
     input:
         sequences = rules.mask.output.alignment,
         metadata = rules.download.output.metadata,
-        priorities = rules.make_priorities.output.priorities
+        priorities = rules.make_priorities.output.priorities,
+        include = files.include
     output:
         sequences = "results/subsample_context{region}.fasta"
     params:
-        group_by = "country year month",
-        sequences_per_group = 20
+        group_by = "virus",
+        sequences_per_group = 300
     shell:
         """
         #Figure out what region being wanted
@@ -127,7 +127,7 @@ rule subsample_context:
             region="${{rgn//[_y]/}}"
             region="${{region//[-y]/ }}"
             echo "Creating a filtered context for a focal run on $region. Context is {params.sequences_per_group}seqs per '{params.group_by}'"
-            regionarg="--exclude-where region="
+            regionarg="--exclude-where country="
             echo "   (This is passed to 'augur filter' as \"$regionarg'$region'\")"
 
             augur filter \
@@ -137,6 +137,7 @@ rule subsample_context:
                 --priority {input.priorities} \
                 --group-by {params.group_by} \
                 --sequences-per-group {params.sequences_per_group} \
+                --include {input.include} \
                 --output {output.sequences}
         fi
         """
@@ -177,7 +178,7 @@ rule adjust_metadata_regions:
              echo "Focal run for $region - adjusting metadata"
 
             python3 scripts/adjust_regional_meta.py \
-                                    --region "$region" \
+                                    --country "$region" \
                                     --metadata {input.metadata} \
                                     --output {output.metadata}
         fi

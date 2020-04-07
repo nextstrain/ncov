@@ -8,7 +8,7 @@ def get_todays_date():
     return date
 
 # Add new regions here!
-REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america", ""]
+REGIONS = ["_iceland", "_new-zealand", ""]
 
 wildcard_constraints:
     region = "|".join(REGIONS),    # "|_north-america|_europe"
@@ -233,7 +233,7 @@ rule refine:
         coalescent = "skyline",
         date_inference = "marginal",
         divergence_unit = "mutations",
-        clock_filter_iqd = 4
+        # clock_filter_iqd = 4
     shell:
         """
         augur refine \
@@ -250,8 +250,7 @@ rule refine:
             --date-inference {params.date_inference} \
             --divergence-unit {params.divergence_unit} \
             --date-confidence \
-            --no-covariance \
-            --clock-filter-iqd {params.clock_filter_iqd}
+            --no-covariance
         """
 
 rule ancestral:
