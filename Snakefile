@@ -10,7 +10,7 @@ def get_todays_date():
 # For information on how to run 'regions' runs, see Snakefile_Regions
 
 # Add new regions here!
-REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america", ""]
+REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america", "_global"]
 
 wildcard_constraints:
     region = "|".join(REGIONS),

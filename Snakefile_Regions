@@ -16,9 +16,9 @@ ruleorder: adjust_metadata_regions > adjust_metadata
 #   snakemake -s Snakefile_Regions --cores 2 auspice/ncov_europe.json (subsampled regional focal)
 #   snakemake -s Snakefile_Regions --cores 2 auspice/ncov.json (subsampled global)
 #
-# If you have 'touched' a run and now need to 're-export' to fix lat-longs,
-# you can do this to just run export:
-#   snakemake -s Snakefile_Regions clean_export_regions 
+# To update ordering/lat_longs after AWS download:
+#   snakemake --touch --forceall -s Snakefile_Regions
+#   snakemake -s Snakefile_Regions clean_export_regions
 #   snakemake -s Snakefile_Regions export_all_regions
 # When done adjusting lat-longs & orders, remember to run
 #   snakemake -s Snakefile_Regions
@@ -50,7 +50,7 @@ rule clean_export_regions:
         "rm {params}"
 
 # Allows 'normal' run of export to be forced to correct lat-long & ordering
-# Just runs this, not ZH & GISAID, to speed up & reduce errors. 
+# Just runs this, not ZH & GISAID, to speed up & reduce errors.
 rule export_all_regions:
     input:
         colors_file = expand("config/colors{region}.tsv", region=REGIONS),
@@ -76,7 +76,7 @@ rule subsample_focus:
         #Figure out what region being wanted
         rgn="{wildcards.region}"
 
-        if [ -z "$rgn" ]; then
+        if [ "$rgn" = "_global" ]; then
             seq_per_group={params.seq_per_group_global}
             regionarg="--exclude-where region="
             region="frog"   #I don't know! It wouldn't work without something!
@@ -118,7 +118,7 @@ rule make_priorities:
         #Figure out what region being wanted
         rgn="{wildcards.region}"
 
-        if [ -z "$rgn" ]; then
+        if [ "$rgn" = "_global" ]; then
             echo "Global run - no priorities needed"
             echo -n >{output.priorities}
         else
@@ -151,7 +151,7 @@ rule subsample_context:
         #Figure out what region being wanted
         rgn="{wildcards.region}"
 
-        if [ -z "$rgn" ]; then
+        if [ "$rgn" = "_global" ]; then
             echo "Global run - no context needed"
             echo -n >{output.sequences}
         else
@@ -199,7 +199,7 @@ rule adjust_metadata_regions:
         #Figure out what region being wanted
         rgn="{wildcards.region}"
 
-        if [ -z "$rgn" ]; then
+        if [ "$rgn" = "_global" ]; then
             echo "Global run - no metadata adjustment needed"
             cp {input.metadata} {output.metadata}
         else
