@@ -13,7 +13,7 @@ def get_todays_date():
 REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america", "_global"]
 
 wildcard_constraints:
-    region = "|".join(REGIONS),
+    region = "|".join(REGIONS) + "||",
     date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 configfile: "config/Snakefile.yaml"
@@ -70,7 +70,9 @@ rule filter:
         sequences = "results/filtered.fasta"
     params:
         min_length = 25000,
-        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'"
+        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'",
+        group_by = "division year month",
+        sequences_per_group = 500
     shell:
         """
         augur filter \
@@ -80,6 +82,8 @@ rule filter:
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences}
         """
 
@@ -467,7 +471,7 @@ rule export:
             --lat-longs {input.lat_longs} \
             --title "$title" \
             --description {input.description} \
-            --output {output.auspice_json} 
+            --output {output.auspice_json}
         """
 
 rule export_gisaid:
