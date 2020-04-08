@@ -138,6 +138,12 @@ s/\tGuangdong Provincial Institution of Public Health\t/\tGuangdong Provincial I
 ##
 /^Hangzhou/s/Insepction/Inspection/;
 /^Hangzhou/s/Hanghzou/Hangzhou/;
+##
+# Hangzhou Center for Disease Control and Prevention (1)
+# Hangzhou Center for Disease and Control Microbiology Lab (1)
+# Hangzhou Center for Diseases Control and Prevention (16)
+##
+/^Hangzhou/s/\tHangzhou Center for Diseases Control and Prevention/\tHangzhou Center for Disease Control and Prevention/g;
 
 
 # Hong Kong
