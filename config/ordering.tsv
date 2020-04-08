@@ -2,6 +2,11 @@ location	Wuhan
 location	Tianmen
 location	Hefei
 location	Jingzhou
+location	Jiujiang
+location	Jian
+location	Xinyu
+location	Shangrao
+location	Ganzhou
 location	Pingxiang
 location	Zhongxian
 location	Yongchuan
@@ -207,6 +212,7 @@ location	Brooklyn
 location	Queens
 location	Staten Island
 location	Bronx
+location	Westchester County
 
 
 division	China
@@ -486,6 +492,7 @@ division	Cork
 division	Limerick
 division	Scotland
 division	Småland
+division	Moscow
 division	Helsinki
 division	Finland
 division	Denmark
@@ -528,11 +535,13 @@ division	Connecticut
 division	New York
 division	Massachusetts
 division	New Hampshire
+division	Indiana
 division	Illinois
 division	Wisconsin
 division	Minnesota
 division	Arizona
 division	Utah
+division	Wyoming
 division	Idaho
 division	California
 division	Grand Princess
@@ -595,7 +604,7 @@ country	Egypt
 country	Nigeria
 country	Senegal
 country	Algeria
-country	Congo
+country	Democratic Republic of the Congo
 country	South Africa
 country	Chile
 country	Ecuador

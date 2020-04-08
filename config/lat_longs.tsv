@@ -51,6 +51,7 @@ location	Feira de Santana	-12.2598	-38.9675
 location	Forchies-la-marche	50.435103	4.319844
 location	Foshan	23.018766	113.121428
 location	Garches	48.8461	2.1887
+location	Ganzhou	25.8307	114.9335
 location	Geluwe	50.809763	3.076704
 location	Gennevilliers	48.927444	2.292449
 location	Gilgit	35.880589	74.448161
@@ -79,6 +80,8 @@ location	Houten	52.0278	5.1630
 location	Huaian	33.574586	119.132155
 location	Illinois	40.088552	-89.301876
 location	Jemappes	50.446399	3.898191
+location	Jian	27.0876	114.9647
+location	Jiujiang	29.7051	116.0019
 location	Jingzhou	30.350752	112.237294
 location	Jönköping	57.777979	14.160453
 location	Jumet	50.442063	4.436515
@@ -162,6 +165,7 @@ location	Sao Paulo	-23.551096	-46.634874
 location	Seattle	47.748301	-121.850150
 location	Seoul	37.548278	126.990916
 location	Shanghai	31.171447	121.429896
+location	Shangrao	28.4549	117.9434
 location	Shenzhen	22.639468	114.044046
 location	Singapore	1.344189	103.867546
 location	Snohomish County	48.006	-122.0731
@@ -197,11 +201,13 @@ location	Vienne	48.190041	16.382686
 location	Vila Velha	-20.3472	-40.2823
 location	Villerot	50.485709	3.791108
 location	Wandre	50.667253	5.661576
+location	Westchester County	41.1220	-73.7949
 location	Winksele	50.897244	4.644376
 location	Wisconsin	44.535145	-89.527762
 location	Woippy	49.154613	6.148404
 location	Wuhan	30.554807	114.271501
 location	Xishuangbanna	21.995	100.837
+location	Xinyu	27.8178	114.9173
 location	Yernee-fraineux	50.528091	5.383570
 location	Yongchuan	29.374774	105.925391
 location	Yorkshire	53.3833	-1.4599
@@ -358,6 +364,7 @@ division	Huldenberg	50.7886	4.5881
 division	Idaho	43.810421	-114.351215
 division	Ile De France	48.724751	2.491522
 division	Illinois	40.088552	-89.301876
+division	Indiana	40.2672	-86.1349
 division	Iran	34.5732	51.876
 division	Ireland	52.865	-7.979
 division	Ishikawa	36.570185	136.732454
@@ -419,6 +426,7 @@ division	Minas Gerais	-18.357890	-44.411895
 division	Minnesota	46.126042	-94.619581
 division	Mons	50.445439	3.962794
 division	Montigny-le-Tilleul	50.374917	4.371814
+division	Moscow	55.7558	37.6173
 division	Mouscron	50.738645	3.238610
 division	Munich	48.144747	11.561739
 division	Namur	50.457215	4.879493
@@ -551,6 +559,7 @@ division	Western Australia	-27.055937	122.236663
 division	Wevelgem	50.832135	3.174228
 division	Wicklow	52.9808	-6.0446
 division	Wisconsin	44.535145	-89.527762
+division	Wyoming	43.0760	-107.2903
 division	Yunnan	24.556297	101.366210
 division	Zhejiang	29.225710	120.299125
 division	Zielonogorskie	52.2275	15.2559
@@ -568,6 +577,7 @@ division	South America	-13.083583	-58.470721
 
 country	Croatia	45.1000	15.2000
 country	Denmark	56.2639	9.5018
+country	Democratic Republic of the Congo	-4.0383	21.7587
 country	Ecuador	-1.0541	-78.1489
 country	Egypt	26.8206	30.8025
 country	England	52.3555	-1.1743
