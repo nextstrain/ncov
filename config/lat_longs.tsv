@@ -1,3 +1,4 @@
+location	Abondant	48.790785	1.420178
 location	Aichi	35.067543	137.334061
 location	Anchorage	61.203109	-149.888095
 location	Andel	51.7851	5.0549
@@ -151,6 +152,7 @@ location	Rotterdam	51.9244	4.4777
 location	Rouen	49.4432	1.1000
 location	Rovaniemi	66.501553	25.728919
 location	Sacramento County	38.494406	-121.301826
+location	Saint Germain en Laye	48.938032	2.094734
 location	Saint Petersburg	59.882080	30.330800
 location	Saint-Priest	45.704159	4.949456
 location	Saint-Thibault-des-Vignes	48.862026	2.674513
@@ -163,6 +165,7 @@ location	Santa Clara County	37.236094	-121.683399
 location	San Francisco	37.757679	-122.440006
 location	Sao Paulo	-23.551096	-46.634874
 location	Seattle	47.748301	-121.850150
+location	Seine-Port	48.551795	2.551916
 location	Seoul	37.548278	126.990916
 location	Shanghai	31.171447	121.429896
 location	Shangrao	28.4549	117.9434
@@ -215,6 +218,7 @@ location	Zeewolde	52.3311	5.5405
 location	Zhengzhou	34.714074	113.621939
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
+
 
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
