@@ -13,7 +13,7 @@ def get_todays_date():
 REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america", "_global"]
 
 wildcard_constraints:
-    region = "|".join(REGIONS),
+    region = "|".join(REGIONS) + "||",
     date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 configfile: "config/Snakefile.yaml"
@@ -70,7 +70,9 @@ rule filter:
         sequences = "results/filtered.fasta"
     params:
         min_length = 25000,
-        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'"
+        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'",
+        group_by = "division year month",
+        sequences_per_group = 500
     shell:
         """
         augur filter \
@@ -80,6 +82,8 @@ rule filter:
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences}
         """
 
@@ -436,28 +440,6 @@ rule export:
         auspice_json = "results/ncov_with_accessions{region}.json"
     shell:
         """
-        #Figure out what region being wanted
-        rgn="{wildcards.region}"
-
-        # Catch in case a run with no wild card (just in case)
-        # Catch case for global build
-        # else, remove - and capitalize
-        if [ -z "$rgn" ]; then
-            regioncap=""
-            title="Genomic epidemiology of novel coronavirus"
-        elif [ "$rgn" = "_global" ]; then
-            regioncap="Global"
-            title="Genomic epidemiology of novel coronavirus - Global subsampling"
-        else
-            region="${{rgn//[_y]/}}"
-            region="${{region//[-y]/ }}"
-            regionlist=( $region )
-            regioncap="${{regionlist[@]^}}"
-            title="Genomic epidemiology of novel coronavirus - $regioncap-focused subsampling"
-        fi
-
-        echo "region is $regioncap"
-
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
@@ -465,9 +447,8 @@ rule export:
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
-            --title "$title" \
             --description {input.description} \
-            --output {output.auspice_json} 
+            --output {output.auspice_json}
         """
 
 rule export_gisaid:
