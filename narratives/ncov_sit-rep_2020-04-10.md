@@ -29,7 +29,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1-->
-# [Executive summary](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&p=full&legend=closed)
+# [Executive summary](https://nextstrain.org/ncov/global/2020-04-09?d=map&p=full&legend=closed)
 
 This week, we take a step back to trace how the outbreak has unfolded, month by month.
 We focus on transmission dynamics _between_ regions of the world. Here, we cover:  
@@ -60,38 +60,24 @@ We are in the process of moving to more specific, regionally-focused analyses. Y
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
+# [COVID-19 Resources](https://nextstrain.org/ncov/global/2020-04-09?d=tree&p=full&legend=closed)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
 This information will make interpreting the data we present in this narrative easier.
-<br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
 
 ## Nextstrain Resources  
-
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
-
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
-
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
-
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-
+* [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+* [Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+* [FAQs](https://nextstrain.org/help/coronavirus/FAQ).
+* [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 ## External Resources  
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+* [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+* [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+* [The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+* [Our World in Data](https://ourworldindata.org/coronavirus).
+* [Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
+<!-- There is no right-side text -->
 
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
-
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
-
-[Our World in Data](https://ourworldindata.org/coronavirus).
-
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
-
-
-```
 
 <!-- ############ SLIDE BREAK ############# -->
 
@@ -132,7 +118,7 @@ This is consistent with circulation largely within China and some exported cases
 During the 2nd month of the outbreak, from mid-January to mid-February 2020, we start to see individual cases crop up in North America, Europe and Oceania.
 These early cases still group with samples from Asia, and generally lack the hallmarks of local transmission.
 <br><br>
-This is consistent with initial sparks being thrown from the main outbreak in Asia to other parts of the world. Although most of these sparks did not result in localized outbreaks, at least three of these introductions took off. These led to the large European and North American outbreaks, as well as more restricted spread in Oceania. 
+This is consistent with initial sparks being thrown from the main outbreak in Asia to other parts of the world. Although most of these sparks did not result in localized outbreaks, at least three of these introductions took off. These led to the large European and North American outbreaks, as well as more restricted spread in Oceania.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
