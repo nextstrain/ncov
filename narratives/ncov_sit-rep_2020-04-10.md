@@ -28,32 +28,40 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
-<!-- This is left-side text -->
+<!-- This is left-side text 1-->
 # [Executive summary](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&p=full&legend=closed)
+
+This week, we take a step back to trace how the outbreak has unfolded, month by month.
+We focus on transmission dynamics _between_ regions of the world.
+<br><br>
+Here, we cover:  
+<br>
+[Background and resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=2)
+[A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=3)
+[Early spread within Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=4)
+[Initial introductions from Asia to North America, Europe and Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=5)  
+[Growth of North American & European outbreaks](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=8)  
+[Subsequent spread across international borders within regions](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=9)
+[Spread from Europe and North America to the global south](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=10)  
+[Coming full circle: reintroductions to Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=11)
+[What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=12)
+[Scientific credits](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=13)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
+# About
 
 We analyzed 3,160 publicly shared SARS-Cov-2 genomes. By comparing these viral genomes to each other, we can characterize how SARS-CoV-2 (which causes COVID-19) is moving around the world and spreading locally.
 
 
 We are in the process of moving to more specific, regionally-focused analyses. You can find more information about this change [here](https://twitter.com/nextstrain/status/1247851469392564224) and how to help us out [here](https://twitter.com/sidneymbell/status/1247933122064207872); thank you for your patience during this transition.
 
-
-This week's report focuses on transmission dynamics _between_ regions of the world. Here, we cover:  
-
-* Early spread within Asia    
-* Initial introductions from Asia to North America, Europe and Oceania  
-* Growth of North American & European outbreaks  
-* Subsequent spread across international borders within regions  
-* Spread from Europe and North America to the global south  
-* Coming full circle: reintroductions to Asia  
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text -->
+<!-- This is left-side text 2-->
 # [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
 We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
 This information will make interpreting the data we present in this narrative easier.
@@ -89,7 +97,7 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text -->
+<!-- This is left-side text 3-->
 # [A note on sampling](https://nextstrain.org/ncov/global/2020-04-10?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in 57 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
@@ -101,7 +109,7 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 4-->
 # [Early spread within Asia](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-01-15&p=full)
 
 Here, we highlight samples from mid-December 2019 through mid-January 2020, during the first month of the outbreak.
@@ -120,7 +128,7 @@ This is consistent with circulation largely within China and some exported cases
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 5-->
 # [Initial introductions to other regions](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-02-15&dmin=2020-01-15&p=full&d=map,tree)
 
 During the 2nd month of the outbreak, from mid-January to mid_February 2020, we start to see individual cases crop up in North America, Europe and Oceania.
@@ -130,26 +138,26 @@ This is consistent with initial sparks being thrown from the main outbreak in As
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 6-->
 # [Cryptic transmission in Europe from late January](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:A2&p=full)
 
 Zooming in to the top of the tree for the same time period, we see an ancestral European virus (internal node) that seeded the large European outbreak.
 <br><br>
 This indicates that while we hadn't yet sequenced any samples from this clade, the origins of the European outbreak were already circulating undetected by late January.
+<!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 7-->
 # [Cryptic transmission in North America from late January](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:B1&p=full)
 
 Similarly, zooming in to the bottom of the tree, we see an ancestral North American virus (internal node) that initiated what would later become a large outbreak in North America.
 <br><br>
 This indicates that although we only had 1 sequenced case from this cluster at the time, the virus was circulating undetected within North America by late January.
-
 <!-- There is no right side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 8-->
 # [Expansion of North American and European outbreaks](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-03-15&dmin=2020-02-15&p=full&d=tree,map)
 
 During the 3rd month of the outbreak, from mid-February to mid-March 2020, these two clusters expanded to cause large outbreaks within Europe and North America, respectively.
@@ -157,7 +165,7 @@ During the 3rd month of the outbreak, from mid-February to mid-March 2020, these
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 9-->
 # [Spread across international borders](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-03-15&dmin=2020-02-15&f_region=North%20America&p=full&r=division&d=tree,map&c=division)
 
 Within each of these regions, we see widespread mixing across state lines and international borders.
@@ -167,7 +175,7 @@ We've [previously reported](https://nextstrain.org/narratives/ncov/sit-rep/2020-
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 10-->
 # [Introductions from North America & Europe to other parts of the globe](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-03-15&dmin=2020-02-15&f_region=Africa,South%20America,Oceania&p=full&d=tree,map)
 
 These clusters are not restricted to their respective regions. During this time period, we also see cases from South America, Oceania, and Africa against a backdrop of primarily European and North American clades. This indicates that there were frequent intercontinental introductions during this time period.
@@ -176,7 +184,7 @@ Interestingly, samples from the global south span the full breadth of the tree, 
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 11-->
 # [Coming full circle: reintroductions to Asia](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmin=2020-03-14&f_region=Asia&p=full&r=division)
 
 In the last month, the pandemic has come full circle. Here, we see re-introductions from Europe and North America back to Asia.
@@ -185,13 +193,12 @@ This resoundingly demonstrates that this pandemic is a global fight; we all must
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 13-->
-# [Takeaways](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-<br>
+<!-- This is left-side text 12-->
+# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
 #### ...as an individual
 * Practice strict social distancing, especially if you are in a vulnerable group.
 * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
