@@ -61,17 +61,16 @@ We are in the process of moving to more specific, regionally-focused analyses. Y
 
 <!-- This is left-side text 2-->
 # [COVID-19 Resources](https://nextstrain.org/ncov/global/2020-04-09?d=tree&p=full&legend=closed)
-We've prepared some resources that will make interpretting the data we present in this narrative easier.
+We've prepared some resources that will make interpreting the data we present in this narrative easier.
 #### Nextstrain Resources  
 * [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
 * [Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
-* [FAQs](https://nextstrain.org/help/coronavirus/FAQ).
 * [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
+
 #### External Resources  
 * [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 * [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 * [The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
-* [Our World in Data](https://ourworldindata.org/coronavirus).
 * [Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
 <!-- There is no right-side text -->
 
