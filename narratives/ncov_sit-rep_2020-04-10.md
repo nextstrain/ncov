@@ -49,7 +49,7 @@ We analyzed 3,160 publicly shared SARS-Cov-2 genomes. By comparing these viral g
 We are in the process of moving to more specific, regionally-focused analyses. You can find more information about this change [here]() and how to help us out [here](); thank you for your patience during this transition.
 
 
-This week's report focuses on transmission dynamics _between_ regions of the world, and is a bit shorter than usual. Here, we cover:  
+This week's report focuses on transmission dynamics _between_ regions of the world. Here, we cover:  
 
 * Early spread within Asia    
 * Initial introductions from Asia to North America, Europe and Oceania  
@@ -76,8 +76,6 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 [How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
 
 [Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
-
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
 
 [FAQs](https://nextstrain.org/help/coronavirus/FAQ).
 
@@ -115,16 +113,17 @@ For example, the map shows very few sequences from the global south. This is NOT
 <!-- This is left-side text -->
 # [Early spread within Asia](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-01-15&p=full)
 
-Here, we see samples from the first month of the outbreak.
-Each tip of the tree represents a sample from an infected individual.
-Each internal node represents an unsampled case, which was the ancestor of all of the other cases within the descendant clade.
+Here, we highlight samples from mid-December 2019 through mid-January 2020, during the first month of the outbreak.
+Tips of the tree represent samples from infected individuals.
+Each internal node, or branch point, represents an unsampled case, which was the ancestor of all of the other cases within the descendant clade.
 <br><br>
-Tips are colored according to where they were sampled from; nodes are colored by the inferred (most likely) location of the ancestral case.
+Tips are colored according to where they were sampled from; nodes (branch points) are colored by the inferred (most likely) location of the ancestral case.
 <br><br>
-Comparing the trunk of the tree to the leaves helps us understand not only where infections are occurring, but also where they may have been acquired.  
+Comparing where a sequence was isolated from geographically to where its ancestors were circulating can help us understand not only where infections are occurring, but also where they may have been acquired.
 <br><br>
-During this early period, the majority of sampled and inferred ancestral cases were located in Asia.
-This is consistent with circulation largely within Asia for the first month of the outbreak.  
+The common ancestor of circulating viruses appears to have emerged in Wuhan, China, in late Nov or early Dec 2019.
+Accordingly, the majority of sampled and inferred ancestral cases were located in Asia during this early period.
+This is consistent with circulation largely within China and some exported cases to other countries in Asia for the first month of the outbreak.  
 
 <!-- There is no right side text -->
 
@@ -133,7 +132,7 @@ This is consistent with circulation largely within Asia for the first month of t
 <!-- This is left-side text -->
 # [Initial introductions to other regions](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-02-15&dmin=2020-01-15&p=full&d=map,tree)
 
-During the 2nd month of the outbreak, we start to see individual cases crop up in North America, Europe and Oceania.
+During the 2nd month of the outbreak, from mid-January to mid_February 2020, we start to see individual cases crop up in North America, Europe and Oceania.
 These early samples still group with samples from Asia, and generally lack the hallmarks of local transmission.
 <br><br>
 This is consistent with initial sparks being thrown from the main outbreak in Asia to other parts of the world. Although most of these sparks did not result in localized outbreaks, at least two of these introductions took off.
@@ -141,19 +140,19 @@ This is consistent with initial sparks being thrown from the main outbreak in As
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Cryptic transmission in Europe from mid-January](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:A2&p=full)
+# [Cryptic transmission in Europe from late January](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:A2&p=full)
 
 Zooming in to the top of the tree for the same time period, we see an ancestral European virus (internal node) that seeded the large European outbreak.
 <br><br>
-This indicates that while we hadn't yet sequenced any samples from this clade, the origins of the European outbreak were already cryptically circulating by mid-January.
+This indicates that while we hadn't yet sequenced any samples from this clade, the origins of the European outbreak were already circulating undetected by late January.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Cryptic transmission in North America from mid-January](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:B1&p=full)
+# [Cryptic transmission in North America from late January](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:B1&p=full)
 
 Similarly, zooming in to the bottom of the tree, we see an ancestral North American virus (internal node) that initiated what would later become a large outbreak in North America.
 <br><br>
-This indicates that although we only had 1 sequenced case from this cluster at the time, the virus was circulating cryptically within North America by mid-January.
+This indicates that although we only had 1 sequenced case from this cluster at the time, the virus was circulating undetected within North America by late January.
 
 <!-- There is no right side text -->
 
@@ -162,18 +161,18 @@ This indicates that although we only had 1 sequenced case from this cluster at t
 <!-- This is left-side text -->
 # [Expansion of North American and European outbreaks](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-03-15&dmin=2020-02-15&p=full&d=tree,map)
 
-During the 3rd month of the outbreak, these two clusters expanded to cause large outbreaks within Europe and North America, respectively.
+During the 3rd month of the outbreak, from mid-February to mid-March 2020, these two clusters expanded to cause large outbreaks within Europe and North America, respectively.
 <!-- There is no right side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Spread across international borders](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-03-15&dmin=2020-02-15&f_region=North%20America&p=full&r=division&d=tree,map)
+# [Spread across international borders](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-03-15&dmin=2020-02-15&f_region=North%20America&p=full&r=division&d=tree,map&c=division)
 
 Within each of these regions, we see widespread mixing across state lines and international borders.
 This is demonstrated here by the intermingling of samples from multiple U.S. states and Canadian provinces.
 <br><br>
-We've previously reported on a similar pattern of frequent mixing of viral lineages between European countries.
+We've [previously reported](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?f_region=Europe&n=5) on a similar pattern of frequent mixing of viral lineages between European countries.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -187,7 +186,7 @@ Interestingly, samples from the global south span the full breadth of the tree, 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Coming full circle: reintroductions to Asia](https://nextstrain.org/ncov/global/2020-04-09?branchLabel=clade&d=tree,map&dmin=2020-03-14&f_region=Asia&p=full&r=division)
+# [Coming full circle: reintroductions to Asia](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmin=2020-03-14&f_region=Asia&p=full&r=division)
 
 In the last month, the pandemic has come full circle. Here, we see re-introductions from Europe and North America back to Asia.
 <br><br>
