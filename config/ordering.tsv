@@ -189,6 +189,7 @@ location	Kirkland
 location	Seattle
 location	Los Angeles
 location	California
+location	Columbus
 location	Ketchikan
 location	Fairbanks
 location	Anchorage
@@ -219,6 +220,8 @@ location	Staten Island
 location	Bronx
 location	Hudson County
 location	Westchester County
+location	Accra
+
 
 division	China
 division	Hubei
@@ -237,6 +240,7 @@ division	Guangdong
 division	Shanghai
 division	Hong Kong
 division	Taiwan
+division	Taipei
 division	Taoyuan
 division	Aichi
 division	Tokyo
@@ -506,6 +510,7 @@ division	Lagos
 division	Kinshasa
 division	SudKivu
 division	KwaZulu-Natal
+division	Greater Accra
 division	Mbour
 division	Touba
 division	Dakar
@@ -547,6 +552,7 @@ division	Wisconsin
 division	Minnesota
 division	Arizona
 division	Utah
+division	Ohio
 division	Wyoming
 division	Idaho
 division	California
@@ -609,6 +615,7 @@ country	Portugal
 country	Greece
 country	Egypt
 country	Nigeria
+country	Ghana
 country	Senegal
 country	Algeria
 country	Democratic Republic of the Congo
