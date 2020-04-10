@@ -29,19 +29,10 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-*/ # [Table of Contents](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&p=grid)
-
-* [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=3).
-* [](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=X).
-
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=X).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=X).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=X). /*
+# [Executive summary](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&p=full&legend=closed)
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Executive summary
 
 We analyzed 3,160 publicly shared SARS-Cov-2 genomes. By comparing these viral genomes to each other, we can characterize how SARS-CoV-2 (which causes COVID-19) is moving around the world and spreading locally.
 
@@ -196,7 +187,7 @@ This resoundingly demonstrates that this pandemic is a global fight; we all must
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
 # [Takeaways](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
-
+<br>
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
@@ -213,7 +204,6 @@ This resoundingly demonstrates that this pandemic is a global fight; we all must
 * Put strong social distancing measures in place.  
 * Fund and implement extensive contact tracing efforts.  
 * Financially support those impacted by social distancing measures.
-
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
