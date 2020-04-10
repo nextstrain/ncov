@@ -29,7 +29,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-<!-- # [Table of Contents](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&p=grid)
+*/ # [Table of Contents](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&p=grid)
 
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=3).
@@ -37,8 +37,8 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 * [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=X).
 * [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=X).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=X).
- -->
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=X). /*
+
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 # Executive summary
@@ -102,7 +102,7 @@ If you aren't familiar with phylogenetic trees, we encourage you to check out th
 
 <!-- This is left-side text -->
 # [A note on sampling](https://nextstrain.org/ncov/2020-XX-XX?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in XX countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+We currently have sequences from samples taken in 57 countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
 <br><br>
@@ -116,8 +116,8 @@ For example, the map shows very few sequences from the global south. This is NOT
 # [Early spread within Asia](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-01-15&p=full)
 
 Here, we see samples from the first month of the outbreak.
-Each tip of the tree represents a sample from an infected case.
-Each internal node represents an unsampled case, which gave rise to all of the other cases within the descendant clade.
+Each tip of the tree represents a sample from an infected individual.
+Each internal node represents an unsampled case, which was the ancestor of all of the other cases within the descendant clade.
 <br><br>
 Tips are colored according to where they were sampled from; nodes are colored by the inferred (most likely) location of the ancestral case.
 <br><br>
@@ -143,7 +143,7 @@ This is consistent with initial sparks being thrown from the main outbreak in As
 <!-- This is left-side text -->
 # [Cryptic transmission in Europe from mid-January](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:A2&p=full)
 
-Zooming in to the top of the tree for the same time period, we see an ancestral European virus (internal node) that later gave rise to the large European outbreak.
+Zooming in to the top of the tree for the same time period, we see an ancestral European virus (internal node) that seeded the large European outbreak.
 <br><br>
 This indicates that while we hadn't yet sequenced any samples from this clade, the origins of the European outbreak were already cryptically circulating by mid-January.
 
@@ -196,7 +196,7 @@ This resoundingly demonstrates that this pandemic is a global fight; we all must
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-
+# [Takeaways](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
 
 <!-- This is the right-side text -->
 
