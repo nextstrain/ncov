@@ -36,16 +36,16 @@ We focus on transmission dynamics _between_ regions of the world.
 <br><br>
 Here, we cover:  
 <br>
-[Background and resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=2).
-[A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=3).
-[Early spread within Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=4).
-[Initial introductions from Asia to North America, Europe and Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=5).  
-[Growth of North American & European outbreaks](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=8).  
-[Subsequent spread across international borders within regions](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=9).
-[Spread from Europe and North America to the global south](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=10).  
-[Coming full circle: reintroductions to Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=11).
-[What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=12).
-[Scientific credits](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=13).
+* [Background and resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=2).
+* [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=3).
+* [Early spread within Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=4).
+* [Initial introductions from Asia to North America, Europe and Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=5).  
+* [Growth of North American & European outbreaks](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=8).  
+* [Subsequent spread across international borders within regions](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=9).
+* [Spread from Europe and North America to the global south](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=10).  
+* [Coming full circle: reintroductions to Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=11).
+* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=12).
+* [Scientific credits](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=13).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -131,10 +131,10 @@ This is consistent with circulation largely within China and some exported cases
 <!-- This is left-side text 5-->
 # [Initial introductions to other regions](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-02-15&dmin=2020-01-15&p=full&d=map,tree)
 
-During the 2nd month of the outbreak, from mid-January to mid_February 2020, we start to see individual cases crop up in North America, Europe and Oceania.
-These early samples still group with samples from Asia, and generally lack the hallmarks of local transmission.
+During the 2nd month of the outbreak, from mid-January to mid-February 2020, we start to see individual cases crop up in North America, Europe and Oceania.
+These early cases still group with samples from Asia, and generally lack the hallmarks of local transmission.
 <br><br>
-This is consistent with initial sparks being thrown from the main outbreak in Asia to other parts of the world. Although most of these sparks did not result in localized outbreaks, at least two of these introductions took off.
+This is consistent with initial sparks being thrown from the main outbreak in Asia to other parts of the world. Although most of these sparks did not result in localized outbreaks, at least two of these introductions took off, leading to the large European and North American outbreaks.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -178,7 +178,7 @@ We've [previously reported](https://nextstrain.org/narratives/ncov/sit-rep/2020-
 <!-- This is left-side text 10-->
 # [Introductions from North America & Europe to other parts of the globe](https://nextstrain.org/ncov/global/2020-04-09?dmax=2020-03-15&dmin=2020-02-15&f_region=Africa,South%20America,Oceania&p=full&d=tree,map)
 
-These clusters are not restricted to their respective regions. During this time period, we also see cases from South America, Oceania, and Africa against a backdrop of primarily European and North American clades. This indicates that there were frequent intercontinental introductions during this time period.
+The North American and European clusters are not restricted to their respective regions. During this time period, we also see cases from South America, Oceania, and Africa against a backdrop of primarily European and North American clades. This indicates that there were frequent intercontinental introductions during this time period.
 <br><br>
 Interestingly, samples from the global south span the full breadth of the tree, indicating that these regions' outbreaks are mixtures of many viral lineages.
 
@@ -194,11 +194,17 @@ This resoundingly demonstrates that this pandemic is a global fight; we all must
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 12-->
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+# [Takeaway](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+
+Regional and national outbreaks are and will be deeply intertwined. 
+This pandemic is a global fight; we all must help control this virus everywhere if we hope to defeat it anywhere.
+
 
 <!-- This is the right-side text -->
 
 ```auspiceMainDisplayMarkdown
+# What you can do
+
 #### ...as an individual
 * Practice strict social distancing, especially if you are in a vulnerable group.
 * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
