@@ -46,7 +46,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 We analyzed 3,160 publicly shared SARS-Cov-2 genomes. By comparing these viral genomes to each other, we can characterize how SARS-CoV-2 (which causes COVID-19) is moving around the world and spreading locally.
 
 
-We are in the process of moving to more specific, regionally-focused analyses. You can find more information about this change [here]() and how to help us out [here](); thank you for your patience during this transition.
+We are in the process of moving to more specific, regionally-focused analyses. You can find more information about this change [here](https://twitter.com/nextstrain/status/1247851469392564224) and how to help us out [here](https://twitter.com/sidneymbell/status/1247933122064207872); thank you for your patience during this transition.
 
 
 This week's report focuses on transmission dynamics _between_ regions of the world. Here, we cover:  
