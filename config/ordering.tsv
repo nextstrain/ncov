@@ -508,7 +508,7 @@ division	Denmark
 division	Portugal
 division	Lagos
 division	Kinshasa
-division	SudKivu
+division	Sud Kivu
 division	KwaZulu-Natal
 division	Greater Accra
 division	Mbour
@@ -566,9 +566,11 @@ division	Manitoba
 division	Saskatchewan
 division	British Columbia
 
+
 country	China
 country	Hong Kong
 country	Taiwan
+country	Philippines
 country	Japan
 country	South Korea
 country	Nepal
@@ -583,6 +585,7 @@ country	New Zealand
 country	Saudi Arabia
 country	Kuwait
 country	Iran
+country	Turkey
 country	Pakistan
 country	Georgia
 country	Russia

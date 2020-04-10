@@ -225,7 +225,6 @@ location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
 
 
-
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
 division	Abruzzo	42.1920	13.7289
@@ -524,7 +523,7 @@ division	South Yorkshire	53.4697	-1.3260
 division	Spain	40.4637	-3.7492
 division	St-Louis	16.0326	-16.4818
 division	Stekene	51.214088	4.030857
-division	SudKivu	-3.223156	28.386665
+division	Sud Kivu	-3.223156	28.386665
 division	Switzerland	46.8182	8.2275
 division	Taipei	25.002030	121.518688
 division	Taiwan	23.816900	121.031365
@@ -589,6 +588,7 @@ division	North America	28.2367447	-97.738017
 division	Oceania	-25.0562891	152.008576
 division	South America	-13.083583	-58.470721
 
+
 country	Croatia	45.1000	15.2000
 country	Denmark	56.2639	9.5018
 country	Democratic Republic of the Congo	-4.0383	21.7587
@@ -602,6 +602,7 @@ country	Iran	34.5732	51.876
 country	Luxembourg	49.755428	6.119486
 country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166
+country	Philippines	11.383086	123.521862
 country	Austria	47.5162	14.5501
 country	Croatia	45.1000	15.2000
 country	Africa	4.070194	21.824559
@@ -610,3 +611,4 @@ country	Europe	49.646237	10.799454
 country	North America	28.2367447	-97.738017
 country	Oceania	-25.0562891	152.008576
 country	South America	-13.083583	-58.470721
+country	Turkey	39.046746	36.767068
