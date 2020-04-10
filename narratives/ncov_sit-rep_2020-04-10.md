@@ -36,16 +36,16 @@ We focus on transmission dynamics _between_ regions of the world.
 <br><br>
 Here, we cover:  
 <br>
-[Background and resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=2)
-[A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=3)
-[Early spread within Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=4)
-[Initial introductions from Asia to North America, Europe and Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=5)  
-[Growth of North American & European outbreaks](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=8)  
-[Subsequent spread across international borders within regions](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=9)
-[Spread from Europe and North America to the global south](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=10)  
-[Coming full circle: reintroductions to Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=11)
-[What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=12)
-[Scientific credits](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=13)
+[Background and resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=2).
+[A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=3).
+[Early spread within Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=4).
+[Initial introductions from Asia to North America, Europe and Oceania](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=5).  
+[Growth of North American & European outbreaks](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=8).  
+[Subsequent spread across international borders within regions](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=9).
+[Spread from Europe and North America to the global south](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=10).  
+[Coming full circle: reintroductions to Asia](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=11).
+[What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=12).
+[Scientific credits](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=13).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
