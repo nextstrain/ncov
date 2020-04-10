@@ -32,9 +32,7 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 # [Executive summary](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&p=full&legend=closed)
 
 This week, we take a step back to trace how the outbreak has unfolded, month by month.
-We focus on transmission dynamics _between_ regions of the world.
-<br><br>
-Here, we cover:  
+We focus on transmission dynamics _between_ regions of the world. Here, we cover:  
 <br>
 * [Background and resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=2).
 * [A note on sampling](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-10?n=3).
@@ -134,25 +132,25 @@ This is consistent with circulation largely within China and some exported cases
 During the 2nd month of the outbreak, from mid-January to mid-February 2020, we start to see individual cases crop up in North America, Europe and Oceania.
 These early cases still group with samples from Asia, and generally lack the hallmarks of local transmission.
 <br><br>
-This is consistent with initial sparks being thrown from the main outbreak in Asia to other parts of the world. Although most of these sparks did not result in localized outbreaks, at least two of these introductions took off, leading to the large European and North American outbreaks.
+This is consistent with initial sparks being thrown from the main outbreak in Asia to other parts of the world. Although most of these sparks did not result in localized outbreaks, at least three of these introductions took off. These led to the large European and North American outbreaks, as well as more restricted spread in Oceania. 
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6-->
-# [Cryptic transmission in Europe from late January](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:A2&p=full)
+# [Initial cryptic transmission in Europe](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:A2&p=full)
 
 Zooming in to the top of the tree for the same time period, we see an ancestral European virus (internal node) that seeded the large European outbreak.
 <br><br>
-This indicates that while we hadn't yet sequenced any samples from this clade, the origins of the European outbreak were already circulating undetected by late January.
+This indicates that while we hadn't yet sequenced any samples from this clade, the origins of the European outbreak were already circulating undetected by late January or early February.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7-->
-# [Cryptic transmission in North America from late January](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:B1&p=full)
+# [Initial cryptic transmission in North America](https://nextstrain.org/ncov/global/2020-04-09?d=tree,map&dmax=2020-02-14&label=clade:B1&p=full)
 
 Similarly, zooming in to the bottom of the tree, we see an ancestral North American virus (internal node) that initiated what would later become a large outbreak in North America.
 <br><br>
-This indicates that although we only had 1 sequenced case from this cluster at the time, the virus was circulating undetected within North America by late January.
+This indicates that although we only had 1 sequenced case from this cluster at the time, the virus was circulating undetected within North America by late January or early February.
 <!-- There is no right side text -->
 
 
@@ -196,7 +194,8 @@ This resoundingly demonstrates that this pandemic is a global fight; we all must
 <!-- This is left-side text 12-->
 # [Takeaway](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
 
-Regional and national outbreaks are and will be deeply intertwined. 
+Regional and national outbreaks are and will be deeply intertwined.
+<br><br>
 This pandemic is a global fight; we all must help control this virus everywhere if we hope to defeat it anywhere.
 
 
