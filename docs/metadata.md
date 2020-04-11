@@ -75,7 +75,7 @@ As of April 10 there were 64! 🌎
 **Column 8: `division`**
 
 Division currently doesn't have a precise definition and we use it differently for different regions.
-For instance, for samples in the USA we are detailing the state in which the sample was collected here.
+For instance, for samples in the USA we are detailing the state in which the sample was collected here. For other countries, it might be a county, region, or other administrative sub-division.
 To see the divisions which are currently set for your country you can run the following command (replace "New Zealand" with your country):
 ```bash
 tail +2 data/metadata.tsv | cut -f 7,8 | grep "^New Zealand" | cut -f 2 | sort | uniq
@@ -102,7 +102,7 @@ In our example, given the patient's travel history, this is set to "Iran".
 
 **Column 12: `division_exposure`**
 
-Analogous to `region_exposure` but for `division`.
+Analogous to `region_exposure` but for `division`. If we don't know the exposure division, we may specify the value for `country_exposure` here as well.
 
 **Column 13: `segment`**
 
@@ -157,5 +157,4 @@ The URL, if available, of the publication announcing these genomes.
 
 Date the genome was submitted to a public database (most often GISAID).
 In `YYYY-MM-DD` format (see `date` for more information on this formatting).
-
 
