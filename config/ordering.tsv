@@ -292,6 +292,7 @@ division	Baranya
 division	Kostoliste
 division	Kosice
 division	Bratislava
+division	Prague
 division	Martin
 division	Copenhagen
 division	Bretagne
@@ -456,6 +457,7 @@ division	North Brabant
 division	Flevoland
 division	South Holland
 division	North Holland
+division	Friesland
 division	Luxembourg
 division	Austria
 division	Vienna
@@ -534,6 +536,8 @@ division	Amazonas State
 division	Antioquia
 division	Bogota
 division	Quito
+division	Guayas
+division	Pichincha
 division	Panama City
 division	Mexico City
 division	USA
