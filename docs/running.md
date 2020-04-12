@@ -32,7 +32,7 @@ We will write guidance for subsampling in a future page, but you can investigate
 
 #### Global data
 
-For the nextstrain.org analysese we use data obtained through [GISAID](https//gisaid.org).
+For the nextstrain.org analyses we use data obtained through [GISAID](https//gisaid.org).
 Please see there for how you may obtain those genomic data for your own analysis as the terms of data sharing prevent us making the sequence data publicly available.
 Included in this repository is [a curated list of metadata](../data/metadata.tsv) associated with those sequences.
 
