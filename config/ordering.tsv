@@ -28,7 +28,6 @@ location	Hong Kong
 location	Taipei
 location	Taoyuan
 location	Kaohsiung
-location	Bangkok
 location	Aichi
 location	Tokyo
 location	Kyoto
@@ -273,6 +272,7 @@ division	Red River Delta
 division	Quangning
 division	Sihanoukville
 division	Nonthaburi
+division	Bangkok
 division	Singapore
 division	Queensland
 division	Northern Territory
