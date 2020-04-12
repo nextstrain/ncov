@@ -12,6 +12,12 @@ Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.
 
 If you'd like to customize and run the analysis yourself, please see the [developer docs](./DEV_DOCS.md).
 
+## How to run using your own data
+
+Please see
+- [How to format the metadata](./docs/metadata.md)
+- [Running a SARS-CoV-2 analysis](./docs/running.md)
+
 
 ## Contributing
 
