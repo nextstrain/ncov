@@ -3,11 +3,8 @@
 results/
 build/
 auspice/
-data/ncov.fasta
-data/ncov.fasta-e
-data/sequences.fasta
-data/*ndjson
-data/gisaid_cov2020_sequences.fasta
+data/*
+!data/metadata.tsv
 config/colors.tsv
 config/colors_*.tsv
 
