@@ -242,9 +242,6 @@ USA/UF-1/2020
 USA/UF-2/2020
 USA/FL-2/2020
 
-#temporarily excluded to incorrect dates
-India/3239/2020
-
 # causes IQTREE error: ERROR: b'ERROR: Sequence Norway_X_X_1539_X_X_2020 has invalid character I at site 20199
 # The GISAID data was subsequently updated => TODO check if this sequence has been fixed
 Norway/1539/2020
