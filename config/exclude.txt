@@ -240,8 +240,7 @@ USA/UNKNOWN-UW-1834/2020
 USA/UNKNOWN-UW-Notfound/2020
 
 #temporarily excluded to incorrect dates
-England/201360037/2020
-England/201360249/2020
+India/nCoV-3239/2020
 
 # causes IQTREE error: ERROR: b'ERROR: Sequence Norway_X_X_1539_X_X_2020 has invalid character I at site 20199
 # The GISAID data was subsequently updated => TODO check if this sequence has been fixed
