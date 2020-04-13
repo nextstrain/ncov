@@ -126,10 +126,10 @@ rule export_priorities:
         colors = rules.colors.output.colors,
         lat_longs = files.lat_longs,
         description = files.description,
-        clades = "results/clades.json",
+        clades = "results/clades{region}.json",
         recency = rules.recency.output
     output:
-        auspice_json = "auspice/ncov-with-priorities.json"
+        auspice_json = "auspice/ncov{region}-with-priorities.json"
     shell:
         """
         augur export v2 \

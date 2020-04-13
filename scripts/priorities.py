@@ -122,6 +122,7 @@ if __name__ == '__main__':
     # load entire alignment and the alignment of focal sequences (upper case -- probably not necessary)
     context_seqs_dict = calculate_snp_matrix(args.alignment)
     focal_seqs_dict = calculate_snp_matrix(args.focal_alignment, consensus = context_seqs_dict['consensus'])
+    alignment_length = len(context_seqs_dict['consensus'])
     print("Done reading the alignments.")
 
     # read in focal alignment to figure out number N & gap
@@ -130,22 +131,26 @@ if __name__ == '__main__':
     
     #focal_seqs2 = {x.id:x.upper() for x in AlignIO.read(args.focal_alignment, format='fasta')}
     #focal_seqs_array2 = np.array([list(str(focal_seqs[x].seq)) for x in focal_seqs])
-    mask_count = np.sum(np.logical_or(focal_seqs_array=='N',focal_seqs_array=='-'), axis=1)
+    mask_count_focal = np.sum(np.logical_or(focal_seqs_array=='N',focal_seqs_array=='-'), axis=1)
 
     # remove focal sequences from all sequence to provide context data set
     keep = [(i, name) for i, name in enumerate(context_seqs_dict['names']) if name not in set(focal_seqs_dict['names'])]
     context_seqs_dict['snps'] = context_seqs_dict['snps'].tocsr()[[i for i, name in keep],:].tocsc()
     context_seqs_dict['names'] = [name for i, name in keep]
 
-    # for each context sequence, calculate minimal distance to focal set
-    d = calculate_distance_matrix(context_seqs_dict['snps'], focal_seqs_dict['snps'], consensus = context_seqs_dict['consensus'])
-    closest_match = np.argmin(d+mask_count, axis=1)[:,0]
+    tmp_context_seqs = {x.id: x.upper() for x in AlignIO.read(args.alignment, format='fasta')}
+    context_seqs_array = np.array([list(str(tmp_context_seqs[x[1]].seq)) for x in keep])
+    mask_count_context = {k[1]:m for k,m in zip(keep, np.sum(np.logical_or(context_seqs_array=='N',context_seqs_array=='-'), axis=1))}
+
+    # for each context sequence, calculate minimal distance to focal set, weigh with number of N/- to pick best sequence
+    d = np.array(calculate_distance_matrix(context_seqs_dict['snps'], focal_seqs_dict['snps'], consensus = context_seqs_dict['consensus']))
+    closest_match = np.argmin(d+mask_count_focal/alignment_length, axis=1)
     #closest_match = np.argmin(d, axis=1)[:,0]
     print("Done finding closest matches.")
     
     minimal_distance_to_focal_set = {}
-    for context_index, focal_index in enumerate(np.nditer(closest_match)):
-        minimal_distance_to_focal_set[context_seqs_dict['names'][context_index]] = (int(d[context_index, focal_index]), int(focal_index))
+    for context_index, focal_index in enumerate(closest_match):
+        minimal_distance_to_focal_set[context_seqs_dict['names'][context_index]] = (d[context_index, focal_index], focal_seqs_dict["names"][focal_index])
 
     # for each focal sequence with close matches (using the index), we list all close contexts
     close_matches = defaultdict(list)
@@ -154,7 +159,7 @@ if __name__ == '__main__':
 
     for f in close_matches:
         shuffle(close_matches[f])
-        close_matches[f].sort(key=lambda x:minimal_distance_to_focal_set[x][0])
+        close_matches[f].sort(key=lambda x: minimal_distance_to_focal_set[x][0] + mask_count_context[x]/alignment_length)
 
     
 
@@ -166,5 +171,5 @@ if __name__ == '__main__':
             # penalize if many sequences are close to the same focal one by using the index of the shuffled list of neighbours
             # currently each position in this lists reduced priority by 0.2, i.e. 5 other sequences == one mutation
             position = close_matches[minimal_distance_to_focal_set[seqid][1]].index(seqid)
-            priority = -minimal_distance_to_focal_set[seqid][0] - 0.003* int((1*(context_seqs_dict['snps'][i,:]==110)).sum(1)[0]) - 0.4*position
+            priority = -minimal_distance_to_focal_set[seqid][0] - 0.1*position
             fh.write(f"{seqid}\t{priority:1.2f}\n")
