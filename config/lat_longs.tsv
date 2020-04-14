@@ -152,6 +152,7 @@ location	Rennes	48.1173	1.6778
 location	Rio de Janeiro	-22.89445	-43.2099
 location	Riyadh	24.705304	46.738279
 location	Rockhampton	-23.378823	150.509921
+location	Rockland	41.150270	-74.038892
 location	Rome	41.881118	12.492817
 location	Rotterdam	51.9244	4.4777
 location	Rouen	49.4432	1.1000
@@ -184,6 +185,7 @@ location	Spicheren	49.192118	6.967399
 location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
 location	Strasbourg	48.5734	7.7521
+location	Suffolk	40.854602	-72.995102
 location	Sunshine Coast	-26.6500	153.0667
 location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
@@ -225,6 +227,8 @@ location	Zeewolde	52.3311	5.5405
 location	Zhengzhou	34.714074	113.621939
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
+
+
 
 
 division	Aargau	47.420629	8.172097
