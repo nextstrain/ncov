@@ -262,6 +262,7 @@ division	Kathmandu
 division	Kerala
 division	Kochi
 division	Khyber Pakhtunkhwa
+division	Ramat Gan
 division	Iran
 division	Kuwait
 division	Kayseri
@@ -542,16 +543,20 @@ division	Guayas
 division	Pichincha
 division	Panama City
 division	Mexico City
+division	Estado de Mexico
 division	Chihuahua
 division	Puebla
 division	Queretaro
 division	USA
 division	District of Columbia
-division	Alaska
+division	Maryland
 division	Texas
 division	Missouri
 division	Florida
 division	Georgia
+division	Louisiana
+division	North Carolina
+division	South Carolina
 division	Virginia
 division	Rhode Island
 division	Connecticut
@@ -559,19 +564,25 @@ division	New York
 division	New Jersey
 division	Massachusetts
 division	New Hampshire
+division	Pennsylvania
+division	Ohio
 division	Indiana
 division	Illinois
 division	Wisconsin
 division	Minnesota
+division	Iowa
+division	Nebraska
+division	Kansas
+division	Nevada
 division	Arizona
 division	Utah
-division	Ohio
 division	Wyoming
 division	Idaho
 division	California
 division	Grand Princess
 division	Oregon
 division	Washington
+division	Alaska
 division	Nova Scotia
 division	New Brunswick
 division	Ontario
