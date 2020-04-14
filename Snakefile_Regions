@@ -246,3 +246,17 @@ rule deploy_to_staging:
                 --include
         fi
         """
+
+onerror:
+    slack_webhook = config["slack_webhook"] or ""
+    slack_message = json.dumps({"text": f"Failed deployment {deploy_origin}."}),
+
+    shell(f"""
+        if [[ -n "{{slack_webhook}}" ]]; then
+            curl {{slack_webhook:q}} \
+                --header 'Content-type: application/json' \
+                --data-raw {{slack_message:q}} \
+                --fail --silent --show-error \
+                --include
+        fi
+    """)
