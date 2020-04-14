@@ -427,6 +427,7 @@ division	Lasne	50.679575	4.463992
 division	Lazio	41.994328	12.622686
 division	Leuven	50.8798	4.7005
 division	Liège	50.6326	5.5797
+division	Lima	-11.971424	-77.070229
 division	Limburg	51.230477	5.956744
 division	Limerick	52.662235	-8.627565
 division	Linter	50.818098	5.042221
@@ -580,6 +581,7 @@ division	USA	38.916963	-98.891372
 division	Usti nad Labem	50.656527	14.053702
 division	Utah	39.4225192	-111.7143583
 division	Utrecht	52.085320	5.184968
+division	Vasterbotten	64.863611	17.743500
 division	Vaud	46.619469	6.472479
 division	Veneto	45.4415	12.3153
 division	Victoria	-37.121673	144.106178
@@ -618,6 +620,10 @@ division	Oceania	-25.0562891	152.008576
 division	South America	-13.083583	-58.470721
 
 
+
+country	Argentina	-37.052315	-64.869142
+country	Asia	30.451098	86.654576
+country	Austria	47.5162	14.5501
 country	Croatia	45.1000	15.2000
 country	Denmark	56.2639	9.5018
 country	Democratic Republic of the Congo	-4.0383	21.7587
@@ -632,13 +638,13 @@ country	Israel	31.217736	34.903129
 country	Luxembourg	49.755428	6.119486
 country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166
+country	Peru	-9.650468	-75.328211
 country	Philippines	11.383086	123.521862
-country	Austria	47.5162	14.5501
-country	Croatia	45.1000	15.2000
+country	Turkey	39.046746	36.767068
+
 country	Africa	4.070194	21.824559
-country	Asia	30.451098	86.654576
 country	Europe	49.646237	10.799454
 country	North America	28.2367447	-97.738017
 country	Oceania	-25.0562891	152.008576
 country	South America	-13.083583	-58.470721
-country	Turkey	39.046746	36.767068
+
