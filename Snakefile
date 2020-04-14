@@ -1,6 +1,32 @@
 from os import environ
+from packaging import version
 from socket import getfqdn
 from getpass import getuser
+from snakemake.logging import logger
+import sys
+from shutil import which
+
+#
+# Verify that required versions of dependencies are installed.
+#
+MIN_AUGUR_VERSION = "7.0.2"
+
+try:
+    from augur.__version__ import __version__ as augur_version
+except ModuleNotFoundError:
+    logger.error("ERROR: Could not find augur. Follow installation instructions at https://nextstrain.org/docs/ and try again.")
+    sys.exit(1)
+
+if version.parse(augur_version) < version.parse(MIN_AUGUR_VERSION):
+    logger.error("ERROR: Found version '%s' of augur, but version '%s' or greater is required" % (augur_version, MIN_AUGUR_VERSION))
+    sys.exit(1)
+
+SHELL_COMMANDS_NEEDED = ["augur", "iqtree", "mafft"]
+for sh_cmd in SHELL_COMMANDS_NEEDED:
+    if not which(sh_cmd):
+        logger.error(f"ERROR: `{sh_cmd}` is not available as a shell command. Please follow installation instructions at https://nextstrain.org/docs/ and try again.")
+        sys.exit(1)
+
 
 def get_todays_date():
     from datetime import datetime
