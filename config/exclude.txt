@@ -153,7 +153,7 @@ USA/CruiseA-26/2020
 # Russia/StPetersburg-3524/2020
 
 # temporarily excluded because is currently reverse complement
-Peru/010/2020
+# Peru/010/2020
 
 # Japan Diamond Princess sequences
 Japan/DP0005/2020
