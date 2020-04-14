@@ -447,6 +447,17 @@ rule tip_frequencies:
             --output {output.tip_frequencies_json}
         """
 
+def export_title(wildcards):
+    region = wildcards.region
+
+    if not region:
+        return "Genomic epidemiology of novel coronavirus"
+    elif region == "_global":
+        return "Genomic epidemiology of novel coronavirus - Global subsampling"
+    else:
+        region_title = region.lstrip("_").replace("-", " ").title()
+        return f"Genomic epidemiology of novel coronavirus - {region_title}-focused subsampling"
+
 rule export:
     message: "Exporting data files for for auspice"
     input:
@@ -464,30 +475,10 @@ rule export:
         recency = rules.recency.output
     output:
         auspice_json = "results/ncov_with_accessions{region}.json"
+    params:
+        title = export_title
     shell:
         """
-        #Figure out what region being wanted
-        rgn="{wildcards.region}"
-
-        # Catch in case a run with no wild card (just in case)
-        # Catch case for global build
-        # else, remove - and capitalize
-        if [ -z "$rgn" ]; then
-            regioncap=""
-            title="Genomic epidemiology of novel coronavirus"
-        elif [ "$rgn" = "_global" ]; then
-            regioncap="Global"
-            title="Genomic epidemiology of novel coronavirus - Global subsampling"
-        else
-            region="${{rgn//[_y]/}}"
-            region="${{region//[-y]/ }}"
-            regionlist=( $region )
-            regioncap="${{regionlist[@]^}}"
-            title="Genomic epidemiology of novel coronavirus - $regioncap-focused subsampling"
-        fi
-
-        echo "region is $regioncap"
-
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
@@ -495,7 +486,7 @@ rule export:
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
-            --title "$title" \
+            --title {params.title:q} \
             --description {input.description} \
             --output {output.auspice_json}
         """
