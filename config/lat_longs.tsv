@@ -25,6 +25,7 @@ location	Budapest	47.482728	19.084269
 location	California	36.357039	-119.690182
 location	Cardiff	51.476291	-3.178964
 location	Chateau-Thierry	49.048053	3.390023
+location	Chenango County	42.4972	-75.6208
 location	Chengdu	30.640989	104.067518
 location	Chicago	41.858966	-87.637242
 location	Chongqing	29.858721	107.375623
@@ -53,6 +54,7 @@ location	Fairbanks	64.835015	-147.664888
 location	Feira de Santana	-12.2598	-38.9675
 location	Forchies-la-marche	50.435103	4.319844
 location	Foshan	23.018766	113.121428
+location	Franklin County	44.5926	-74.3388
 location	Fuyang	32.904205	115.812367
 location	Garches	48.8461	2.1887
 location	Ganzhou	25.8307	114.9335
@@ -119,6 +121,7 @@ location	Marin County	38.077277	-122.719060
 location	Melbourne	-37.839042	145.076343
 location	Meudon la Forêt	48.787126	2.227098
 location	Milan	45.474	9.177
+location	Montgomery County	42.9155	-74.4526
 location	Montignies-Sur-Sambre	50.401302	4.478466
 location	Montreux-Chateau	47.607677	6.994181
 location	Munich	48.155742	11.549380
@@ -133,6 +136,7 @@ location	Noisy le Roi	48.852116	2.055226
 location	Nootdorp	52.0440	4.3909
 location	Nottinghamshire	53.139677	-1.027527
 location	Oisterwijk	51.568179	5.211873
+location	Onondaga County	43.0268	-76.1784
 location	Orange County	33.689584	-117.788718
 location	Orsay	48.703347	2.187373
 location	Oss	51.762396	5.530563
@@ -149,10 +153,12 @@ location	Queens	40.717328	-73.795709
 location	Quevaucamps	50.720840	3.289101
 location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
+location	Richmond County	40.5795	-74.1502
 location	Rio de Janeiro	-22.89445	-43.2099
 location	Riyadh	24.705304	46.738279
 location	Rockhampton	-23.378823	150.509921
 location	Rockland	41.150270	-74.038892
+location	Rockland County	41.1489	-73.9830
 location	Rome	41.881118	12.492817
 location	Rotterdam	51.9244	4.4777
 location	Rouen	49.4432	1.1000
@@ -170,6 +176,7 @@ location	San Joaquin County	37.917472	-121.258503
 location	Santa Clara County	37.236094	-121.683399
 location	San Francisco	37.757679	-122.440006
 location	Sao Paulo	-23.551096	-46.634874
+location	Saratoga County	43.0324	-73.9360
 location	Seattle	47.748301	-121.850150
 location	Seine-Port	48.551795	2.551916
 location	Seoul	37.548278	126.990916
@@ -186,6 +193,7 @@ location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
 location	Strasbourg	48.5734	7.7521
 location	Suffolk	40.854602	-72.995102
+location	Suffolk County	40.9849	-72.6151
 location	Sunshine Coast	-26.6500	153.0667
 location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
@@ -202,6 +210,7 @@ location	Tokyo	35.683441	139.766131
 location	Tours	47.404471	0.693908
 location	Trazegnies	50.466074	4.334811
 location	Tweed Heads	-28.201312	153.543425
+location	Ulster County	41.8586	-74.3118
 location	Umatilla County	45.648981	-118.720688
 location	Utrecht	52.0907	5.1214
 location	Valence	44.926123	4.900583
@@ -646,4 +655,3 @@ country	Europe	49.646237	10.799454
 country	North America	28.2367447	-97.738017
 country	Oceania	-25.0562891	152.008576
 country	South America	-13.083583	-58.470721
-
