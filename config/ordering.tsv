@@ -221,8 +221,6 @@ location	Staten Island
 location	Bronx
 location	Hudson County
 location	Westchester County
-location	Rockland
-location	Suffolk
 location	Richmond County
 location	Franklin County
 location	Suffolk County
@@ -231,8 +229,18 @@ location	Rockland County
 location	Chenango County
 location	Saratoga County
 location	Montgomery County
-location	Ulster County 
+location	Ulster County
+location	Cayuga County
+location	Schenectady County
+location	Washington County
+location	Albany County
+location	Putnam County
+location	New York City
+location	Clinton County
+location	Broome County
 location	Accra
+
+
 
 
 division	China

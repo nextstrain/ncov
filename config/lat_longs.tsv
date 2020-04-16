@@ -1,6 +1,7 @@
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
 location	Aichi	35.067543	137.334061
+location	Albany County	42.601369	-73.973601
 location	Anchorage	61.203109	-149.888095
 location	Andel	51.7851	5.0549
 location	Arbre	50.611772	3.817121
@@ -21,9 +22,11 @@ location	Brest	48.398586	-4.493766
 location	Brisbane	-27.484246	153.026118
 location	Bronx	40.858846	-73.864979
 location	Brooklyn	40.6782	-73.9442
+location	Broome County	42.136164	-75.832955
 location	Budapest	47.482728	19.084269
 location	California	36.357039	-119.690182
 location	Cardiff	51.476291	-3.178964
+location	Cayuga County	42.900990	-76.575649
 location	Chateau-Thierry	49.048053	3.390023
 location	Chenango County	42.4972	-75.6208
 location	Chengdu	30.640989	104.067518
@@ -32,6 +35,7 @@ location	Chongqing	29.858721	107.375623
 location	Chungcheongnam	36.685948	126.799198
 location	Clark County	45.778260	-122.491540
 location	Clayton	-37.915200	145.127165
+location	Clinton County	44.703277	-73.705166
 location	Coevorden	52.6614	6.7411
 location	Columbus	39.973143	-82.993618
 location	Compiègne	49.408175	2.842839
@@ -131,6 +135,7 @@ location	NanChang	28.707143	115.874137
 location	Nantes	47.203649	-1.552453
 location	Nassau County	40.7333	-73.58010
 location	Neerpelt	51.228889	5.431667
+location	New York City	40.695065	-73.993461
 location	Nieuwendijk	51.7774	4.8743
 location	Noisy le Roi	48.852116	2.055226
 location	Nootdorp	52.0440	4.3909
@@ -148,6 +153,7 @@ location	Pingxiang	27.632413	113.892981
 location	Pontoise	49.049228	2.098595
 location	Poppel	51.445671	5.042493
 location	Privas	44.723301	4.594575
+location	Putnam County	41.424102	-73.753622
 location	Qingdao	36.171557	120.398496
 location	Queens	40.717328	-73.795709
 location	Quevaucamps	50.720840	3.289101
@@ -157,7 +163,6 @@ location	Richmond County	40.5795	-74.1502
 location	Rio de Janeiro	-22.89445	-43.2099
 location	Riyadh	24.705304	46.738279
 location	Rockhampton	-23.378823	150.509921
-location	Rockland	41.150270	-74.038892
 location	Rockland County	41.1489	-73.9830
 location	Rome	41.881118	12.492817
 location	Rotterdam	51.9244	4.4777
@@ -177,6 +182,7 @@ location	Santa Clara County	37.236094	-121.683399
 location	San Francisco	37.757679	-122.440006
 location	Sao Paulo	-23.551096	-46.634874
 location	Saratoga County	43.0324	-73.9360
+location	Schenectady County	42.822882	-74.053939
 location	Seattle	47.748301	-121.850150
 location	Seine-Port	48.551795	2.551916
 location	Seoul	37.548278	126.990916
@@ -192,7 +198,6 @@ location	Spicheren	49.192118	6.967399
 location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
 location	Strasbourg	48.5734	7.7521
-location	Suffolk	40.854602	-72.995102
 location	Suffolk County	40.9849	-72.6151
 location	Sunshine Coast	-26.6500	153.0667
 location	Suzhou	31.289911	120.538521
@@ -222,6 +227,7 @@ location	Vienne	48.190041	16.382686
 location	Vila Velha	-20.3472	-40.2823
 location	Villerot	50.485709	3.791108
 location	Wandre	50.667253	5.661576
+location	Washington County	43.303560	-73.428260
 location	Westchester County	41.1220	-73.7949
 location	Winksele	50.897244	4.644376
 location	Wisconsin	44.535145	-89.527762
@@ -236,6 +242,8 @@ location	Zeewolde	52.3311	5.5405
 location	Zhengzhou	34.714074	113.621939
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
+
+
 
 
 division	Aargau	47.420629	8.172097

@@ -55,6 +55,9 @@ Iceland/274/2020
 England/20109050106/2020
 England/20108125106/2020
 
+# Many A's from position 29767 to 29799
+England/20146015504/2020
+
 # Confusing phylogeography
 Netherlands/Rotterdam_1363790/2020
 Netherlands/NoordBrabant_5/2020
@@ -250,3 +253,7 @@ Norway/1539/2020
 # Portugal/PT0006a/2020 and Portugal/PT0006b/2020 seem to be same patient sampled 2 days apart?
 # Exclude one (neither making it to build right now, but in case in future)
 Portugal/PT0006b/2020
+
+# More diverse than expected - possible sequencing/assembly error
+Ecuador/HGSQ-USFQ-007/2020
+Ecuador/HGSQ-USFQ-010/2020
