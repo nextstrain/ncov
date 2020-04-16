@@ -124,6 +124,14 @@ s/\tGuangdong Provincial Institution of Public Health\t/\tGuangdong Provincial I
 /^France/s/Infectieux (IAI) Hospices/Infectieux (IAI), Hospices/;
 
 
+# Germany
+##
+# Institut fur Mikrobiologie der Bundeswehr, Munich
+# Bundeswehr Institute of Microbiology
+##
+/^Germany/s/Institut fur Mikrobiologie der Bundeswehr, Munich/Bundeswehr Institute of Microbiology/;
+
+
 # Hangzhou
 ##
 # State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, National Clinical Research Center for Infectious Diseases, First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China 310003 (8)
