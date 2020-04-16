@@ -88,10 +88,17 @@ Italy/UniMI02/2020
 USA/CT-UW230/2020
 USA/WI-GMF-00237/2020
 
-# These are removed by 'iqd' cutoff in Treetime repeatedly - exclude before this step
+# These are removed by 'iqd' cutoff in Treetime repeatedly or >50% time
+# exclude before this step
 # to help with alignment & tree building
 Malaysia/190300/2020
 Turkey/6224-Ankara1034/2020
+Malaysia/186197/2020
+Mexico/CDMX-INER_03/2020
+Senegal/610/2020
+USA/WI-GMF-00384/2020
+USA/WA-UW-1572/2020
+England/201360246/2020
 
 # Excluding because seem to be too divergent - worth double checking
 Shandong/LY002/2020
