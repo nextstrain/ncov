@@ -21,9 +21,11 @@ authorLinks:
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 translators:
 translatorLinks:
-date: "2020 XXXX XX"
+license: "CC-BY"  
+licenseLink: "https://creativecommons.org/licenses/by/4.0/"
 dataset: "https://nextstrain.org/ncov/2020-XX-XX?d=map&legend=closed"
-abstract: "This report uses publicly shared genomic data to track the spread of COVID-19. These reports are updated weekly."
+
+abstract: "This weekly report uses publicly shared genomic data to track the spread of COVID-19. This week, we focus on "
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -47,69 +49,34 @@ abstract: "This report uses publicly shared genomic data to track the spread of 
 
 We analyzed XX publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
 
-**North America**   
 *
 
-**Central and South America**
-*
-
-**Europe**  
-*
-
-**Asia**  
-*
-
-**Africa**  
-*
-
-**Oceania**
-*
 
 ```
 
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text -->
-# [COVID-19 Resources](https://nextstrain.org/ncov/2020-03-27)
-We've prepared some resources that are worth reading to familiarize yourself with COVID-19 and the virus that causes it, SARS-CoV-2, also known as hCov-19.
-This information will make interpreting the data we present in this narrative easier.
-<br><br>
-If you aren't familiar with phylogenetic trees, we encourage you to check out the ['How to Read Phylogenies' narrative](https://nextstrain.org/narratives/trees-background/) and come back when you're ready.
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
+<!-- This is left-side text 2-->
+# [COVID-19 Resources](https://nextstrain.org/ncov/XX/2020-XX-XX?d=tree&p=full&legend=closed)
+We've prepared some resources that will make interpreting the data we present in this narrative easier.
+#### Nextstrain Resources  
+* [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
+* [Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
+* [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
-## Nextstrain Resources  
+#### External Resources  
+* [Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
+* [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
+* [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
+* [The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
+<!-- There is no right-side text -->
 
-[How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
-
-[Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
-
-[Background on the current hCoV-19 outbreak](https://nextstrain.org/help/coronavirus/SARS-CoV-2).
-
-[FAQs](https://nextstrain.org/help/coronavirus/FAQ).
-
-[Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
-
-
-## External Resources  
-[WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
-
-[CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
-
-[The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
-
-[Our World in Data](https://ourworldindata.org/coronavirus).
-
-[Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
-
-
-```
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [A note on sampling](https://nextstrain.org/ncov/2020-XX-XX?c=country&r=country&d=map&p=grid&legend=closed)
+# [A note on sampling](https://nextstrain.org/ncov/XX/2020-XX-XX?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in XX countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
@@ -121,7 +88,7 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Updates for North America](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&f_region=North%20America&p=grid)
+# []()
 
 *  
 <!-- There is no right side text -->
@@ -143,158 +110,6 @@ For example, the map shows very few sequences from the global south. This is NOT
 
 ```
 <!-- ############ SLIDE BREAK ############# -->
-
-
-
-
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Updates for Central & South America](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&f_region=Central%20America,South%20America&p=grid)
-
-*  
-<!-- There is no right side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-
-
-```
-<!-- ############ SLIDE BREAK ############# -->
-
-
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Updates for Europe](https://nextstrain.org/ncov/2020-03-25?d=tree,map&f_region=Europe&p=grid)
-
-*  
-<!-- There is no right side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-
-
-```
-<!-- ############ SLIDE BREAK ############# -->
-
-
-
-
-
-
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Updates for Asia](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&f_region=Asia&p=grid)
-
-*  
-<!-- There is no right side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-
-
-```
-<!-- ############ SLIDE BREAK ############# -->
-
-
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Updates for Africa](https://nextstrain.org/ncov/2020-03-25?d=tree,map&f_region=Africa&p=grid)
-
-*  
-<!-- There is no right side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-
-
-```
-<!-- ############ SLIDE BREAK ############# -->
-
-
-
-
-
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# [Updates for Oceania](https://nextstrain.org/ncov/2020-03-25?d=tree,map&f_region=Oceania&p=grid)
-
-*  
-<!-- There is no right side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-
-<!-- There is no right side text -->
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
-# []()
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-
-
-```
-<!-- ############ SLIDE BREAK ############# -->
-
-
-
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -319,7 +134,7 @@ For example, the map shows very few sequences from the global south. This is NOT
 ```auspiceMainDisplayMarkdown
 # Takeaways
 
-#### 
+####
 <br><br>
 ####
 <br><br>
