@@ -242,7 +242,6 @@ location	Jefferson County
 location	Dutchess County
 location	Accra
 
-
 division	China
 division	Hubei
 division	Beijing
@@ -563,6 +562,7 @@ division	Quito
 division	Guayas
 division	Pichincha
 division	Lima
+division	Montevideo
 division	Panama City
 division	Mexico City
 division	Estado de Mexico
@@ -677,6 +677,7 @@ country	Ecuador
 country	Peru
 country	Brazil
 country	Argentina
+country	Uruguay
 country	Colombia
 country	Panama
 country	Mexico
