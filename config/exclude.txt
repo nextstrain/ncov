@@ -264,3 +264,6 @@ Portugal/PT0006b/2020
 # More diverse than expected - possible sequencing/assembly error
 Ecuador/HGSQ-USFQ-007/2020
 Ecuador/HGSQ-USFQ-010/2020
+
+#excluding due to incorrect collection duplicate
+Uruguay/UY-3/2020
