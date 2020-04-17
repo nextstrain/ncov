@@ -23,7 +23,7 @@ translators:
 translatorLinks:
 license: "CC-BY"  
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
-dataset: "https://nextstrain.org/ncov/north-america/2020-04-17?d=map&legend=closed"
+dataset: "https://nextstrain.org/ncov/north-america/2020-04-17?c=division&d=tree,map&f_country=USA&p=full&r=division&legend=closed"
 abstract: "This weekly report uses publicly shared genomic data to track the spread of COVID-19. This week, we focus on the outbreak in the United States. For most areas of the U.S., we find evidence for multiple introductions -- of both international and domestic origins. This data emphasizes that the decisions made by each state profoundly impacts the fate of the others."
 
 ---
@@ -49,7 +49,7 @@ abstract: "This weekly report uses publicly shared genomic data to track the spr
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-We analyzed 2,460 publicly shared COVID-19 genomes from the United States. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, report:  
+We analyzed 1,347 publicly shared hCoV-19 genomes from the United States. By comparing these viral genomes to each other, we can characterize how hCoV-19 is moving around the world and spreading locally. In this week's updates, report:  
 
 * The New York outbreak is cosmopolitan, but the majority of cases are attributable to introductions from Europe.   
 * The outbreak in New York City shows mixing of cases across all 5 boroughs.  
@@ -65,7 +65,7 @@ We analyzed 2,460 publicly shared COVID-19 genomes from the United States. By co
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/XX/2020-04-17?d=tree&p=full&legend=closed)
+# [COVID-19 Resources](https://nextstrain.org/ncov/north-america/2020-04-17?c=division&d=tree&f_country=USA&p=full&r=division)
 We've prepared some resources that will make interpreting the data we present in this narrative easier.
 #### Nextstrain Resources  
 * [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
@@ -83,12 +83,12 @@ We've prepared some resources that will make interpreting the data we present in
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/north-america/2020-04-17?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in XX states. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+# [A note on sampling](https://nextstrain.org/ncov/north-america/2020-04-17?c=division&d=map&f_country=USA&p=full&r=division)
+We currently have sequences from samples collected in 36 states. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
 <br><br>
-For example, the map shows relatively few sequences from the Midwestern United States. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+For example, the map shows relatively few sequences from the Southeastern United States. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
 
 <!-- There is NO right-side text -->
 
@@ -125,11 +125,10 @@ Within New York City, we see little segregation of cases by borough. This is con
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7-->
-# [California outbreak related to both nearby and distant states'](https://nextstrain.org/ncov/north-america/2020-04-17?c=division&f_division=California,New%20York,Washington&r=location)
+# [California outbreak related to both nearby and distant states'](https://nextstrain.org/ncov/north-america/2020-04-17?c=division&f_division=California,New%20York,Washington&r=location&d=tree,map)
 
-Within the U.S., we also see evidence of multi-source outbreaks. For example, cases from California span the genetic diversity of the tree, grouping together with samples from both nearby Washington State and New York. This is evidence for introductions from both nearby and distant states to California.
-<br><br>
-This clearly demonstrates that the decisions made by each state profoundly impacts the fate of the others. "Liberating" any state safely will require coordinated containment, with all states acting to protect each other.  
+We also see evidence of multiple introductions between states. For example, cases from California span the genetic diversity of the tree, grouping together with samples from both nearby Washington State and New York. This is evidence for transmission between California and both nearby and distant states.
+
 <!-- This is no right-side text -->
 
 
@@ -137,7 +136,7 @@ This clearly demonstrates that the decisions made by each state profoundly impac
 <!-- This is left-side text 8-->
 # [Midwest outbreaks were seeded by many introductions](https://nextstrain.org/ncov/north-america/2020-04-17?c=division&d=tree,map&f_country=USA&f_division=Illinois,Indiana,Iowa,Kansas,Michigan,Minnesota,Nebraska,Ohio,Wisconsin&p=full&r=division)
 
-Turning our attention to the Midwestern United States, we see that cases from this area span the full genetic diversity of the tree, rather than forming a series of tight clusters. This tells us that there have been many independent introductions to these states, with several transmission chains circulating in parallel.
+Turning our attention to the Midwestern United States, we see that cases from this area are spread evenly across the tree, rather than forming a series of tight clusters. This tells us that there have been many independent introductions to these states, with several different transmission chains circulating in parallel.
 
 <!-- This is no right-side text -->
 
@@ -146,7 +145,7 @@ Turning our attention to the Midwestern United States, we see that cases from th
 <!-- This is left-side text 9-->
 # [Related outbreaks across the Rocky Mountain West](https://nextstrain.org/ncov/north-america/2020-04-17?c=division&d=tree,map&f_country=USA&f_division=Idaho,Utah&label=clade:A2&m=div&p=full&r=division)
 
-There have also been several introductions to the Rocky Mountain West. Zooming in to the densest area of the tree, we see a well-resolved transmission chain making its way across Idaho. Notably, this set of cases is flanked by a cluster of cases from Utah, demonstrating a close relationship between these two outbreaks.
+There have also been several introductions to the Rocky Mountain West. Zooming in, we see a well-resolved transmission chain making its way across Idaho. Notably, this set of cases is flanked by a cluster of cases from Utah, demonstrating a close relationship between these two outbreaks.
 
 <!-- This is no right-side text -->
 
