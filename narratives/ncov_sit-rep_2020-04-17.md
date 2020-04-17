@@ -1,21 +1,19 @@
 ---
 title: Genomic analysis of COVID-19 spread. Situation report 2020-04-17.
 authors:
-  - Emma Hodcroft
-  - Nicola Müller
-  - Cassia Wagner
-  - Misja Ilcisin
-  - James Hadfield
   - Sidney M. Bell
+  - Emma Hodcroft
+  - Cassia Wagner
+  - Nicola Müller
+  - James Hadfield
   - Richard Neher
   - Trevor Bedford
 authorLinks:
-  - https://neherlab.org/emma-hodcroft.html
-  - https://bedford.io/team/nicola-mueller/
-  - https://bedford.io/team/cassia-wagner/
-  - https://bedford.io/team/misja-ilcisin/
-  - https://bedford.io/team/james-hadfield/
   - https://twitter.com/sidneymbell
+  - https://neherlab.org/emma-hodcroft.html
+  - https://bedford.io/team/cassia-wagner/
+  - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/james-hadfield/
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
