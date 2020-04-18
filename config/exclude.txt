@@ -58,6 +58,9 @@ England/20108125106/2020
 # Many A's from position 29767 to 29799
 England/20146015504/2020
 
+# Suspicious mutations in subsequent positions - possible sequencing error
+USA/UN-UW-1486/2020
+
 # Confusing phylogeography
 Netherlands/Rotterdam_1363790/2020
 Netherlands/NoordBrabant_5/2020

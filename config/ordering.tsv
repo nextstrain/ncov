@@ -54,7 +54,7 @@ location	Gilgit
 location	Riyadh
 location	Hawali
 location	Dasman
-location	Saint Petersburg
+location	Ulan-Ude
 location	Vienne
 location	Heinsberg District
 location	Heinsberg
@@ -175,9 +175,10 @@ location	Helsinki
 location	Sao Paulo
 location	Brasilia
 location	Rio de Janeiro
-location	Maceio
-location	Joinville
 location	Florianopolis
+location	Niteroi
+location	Joinville
+location	Maceio
 location	Manaus
 location	Feira de Santana
 location	Vila Velha
@@ -245,6 +246,8 @@ location	Jefferson County
 location	Dutchess County
 location	Accra
 
+
+
 division	China
 division	Hubei
 division	Beijing
@@ -309,7 +312,8 @@ division	Wellington
 division	Otago
 division	Auckland
 division	Riyadh
-division	Saint Petersburg
+division	Saint-Petersburg
+division	Buryat Republic
 division	Europe
 division	Reykjavik
 division	Oslo
@@ -558,9 +562,9 @@ division	Goiais
 division	Minas Gerais
 division	Rio Grande do Sul
 division	Rio de Janeiro
-division	Distrito Federal
-division	Alagoas
 division	Santa Catarina
+division	Alagoas
+division	Distrito Federal
 division	Amazonas State
 division	Antioquia
 division	Bogota
