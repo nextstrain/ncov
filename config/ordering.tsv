@@ -190,7 +190,6 @@ location	Pierce County
 location	Solano County
 location	Sonoma County
 location	Orange County
-location	Orange County NY
 location	Kirkland
 location	Seattle
 location	Los Angeles
@@ -218,6 +217,7 @@ location	Indianapolis
 location	Wisconsin
 location	Dane County
 location	Boston
+location	Orange County NY
 location	Manhattan
 location	Nassau County
 location	Brooklyn
@@ -268,6 +268,7 @@ division	Hong Kong
 division	Taiwan
 division	Taipei
 division	New Taipei City
+division	Keelung
 division	Taoyuan
 division	Aichi
 division	Tokyo
@@ -293,6 +294,7 @@ division	Ramat Gan
 division	Iran
 division	Kuwait
 division	Kayseri
+division	Istanbul
 division	Gilgit Baltistan
 division	Tbilisi
 division	Thanh Hoa
