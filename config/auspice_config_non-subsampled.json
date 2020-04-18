@@ -1,0 +1,82 @@
+{
+  "build_url": "https://github.com/nextstrain/ncov",
+  "maintainers": [
+    {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
+  ],
+  "colorings": [
+    {
+      "key": "location",
+      "title": "Location",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Admin Division",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "country_exposure",
+      "title": "Exposure History",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "age",
+      "title": "Age",
+      "type": "continuous"
+    },
+    {
+      "key": "sex",
+      "title": "Sex",
+      "type": "categorical"
+    },
+    {
+      "key": "author",
+      "title": "Authors",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "location",
+    "division",
+    "country"
+  ],
+  "display_defaults": {
+    "color_by": "country",
+    "distance_measure": "div",
+    "geo_resolution": "country",
+    "map_triplicate": true,
+    "branch_label": "none"
+  },
+  "filters": [
+    "recency",
+    "location",
+    "division",
+    "country",
+    "country_exposure",
+    "region",
+    "host",
+    "author",
+    "originating_lab",
+    "submitting_lab"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}
