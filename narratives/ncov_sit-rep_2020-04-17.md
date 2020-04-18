@@ -116,9 +116,9 @@ direction of later transmissions less clear. As we reported on [last week](https
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6-->
-# [Intermingling of cases from all 5 NYC boroughs](https://nextstrain.org/ncov/north-america/2020-04-17?c=location&d=tree,map&f_division=New%20York&f_location=Bronx,Brooklyn,Queens,Staten%20Island,Manhattan&label=clade:A2&p=full&r=location)
+# [Little geographic clustering of cases from the 5 NYC boroughs](https://nextstrain.org/ncov/north-america/2020-04-17?c=location&d=tree,map&f_division=New%20York&f_location=Bronx,Brooklyn,Queens,Staten%20Island,Manhattan&label=clade:A2&p=full&r=location)
 
-Within New York City, we see little segregation of cases by borough. This is consistent with frequent mixing of cases across the city.
+Within New York City, we see little clustering of cases by borough. This is consistent with frequent mixing of cases across the city.
 <!-- This is no right-side text -->
 
 
@@ -144,7 +144,7 @@ Highlighting sequences from the Midwestern United States, we see that cases from
 <!-- This is left-side text 9-->
 # [Related outbreaks across the Rocky Mountain West](https://nextstrain.org/ncov/north-america/2020-04-17?c=division&d=tree,map&f_country=USA&f_division=Idaho,Utah&label=clade:A2&m=div&p=full&r=division)
 
-There have also been several introductions to the Rocky Mountain West. Zooming in, we see a well-resolved transmission chain making its way across Idaho. Notably, this set of cases is flanked by a cluster of cases from Utah, demonstrating a close relationship between these two outbreaks.
+There have also been several introductions to the Rocky Mountain West. Zooming in, we see a well-resolved transmission chain, with several sequences from Idaho. Notably, this set of cases is flanked by a cluster of cases from Utah, demonstrating a close relationship between these two outbreaks.
 
 <!-- This is no right-side text -->
 
