@@ -175,6 +175,9 @@ location	Helsinki
 location	Sao Paulo
 location	Brasilia
 location	Rio de Janeiro
+location	Maceio
+location	Joinville
+location	Florianopolis
 location	Manaus
 location	Feira de Santana
 location	Vila Velha
@@ -556,6 +559,8 @@ division	Minas Gerais
 division	Rio Grande do Sul
 division	Rio de Janeiro
 division	Distrito Federal
+division	Alagoas
+division	Santa Catarina
 division	Amazonas State
 division	Antioquia
 division	Bogota
