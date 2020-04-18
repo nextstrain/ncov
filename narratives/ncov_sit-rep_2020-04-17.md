@@ -55,7 +55,7 @@ We analyzed 1,347 publicly shared SARS-CoV-2 genomes from the United States. By 
 * The outbreak in California is related to both nearby Washington State and distant New York.  
 * The Midwest outbreak is heterogeneous and is the result of many independent introductions.
 * Ongoing outbreaks in Utah and Idaho are closely related.
-* The decisions made by each state profoundly impacts the fate of the others. "Liberating" any state safely will require coordinated containment, with all states acting to protect each other.
+* The decisions made by each state profoundly impacts the fate of the others. Safely easing restrictions in any state will require coordinated containment, with all states acting to protect each other.
 
 
 ```
@@ -124,7 +124,7 @@ Within New York City, we see little segregation of cases by borough. This is con
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7-->
-# [California outbreak related to both nearby and distant states'](https://nextstrain.org/ncov/north-america/2020-04-17?c=division&f_division=California,New%20York,Washington&r=division&d=tree,map&legend=closed)
+# [California outbreak related to both nearby and distant states](https://nextstrain.org/ncov/north-america/2020-04-17?c=division&f_division=California,New%20York,Washington&r=division&d=tree,map&legend=closed)
 
 We also see evidence of multiple introductions between states. For example, cases from California span the genetic diversity of the tree, grouping together with samples from both nearby Washington State and New York. This is evidence for transmission between California and both nearby and distant states.
 
@@ -184,7 +184,7 @@ There have also been several introductions to the Rocky Mountain West. Zooming i
 <br><br>
 * Outbreaks in Utah and Idaho are closely related, with ongoing community transmission.
 <br><br>
-* The decisions made by each state profoundly impacts the fate of the others. "Liberating" any state safely will require coordinated containment, with all states acting to protect each other.  
+* The decisions made by each state profoundly impacts the fate of the others. Safely easing restrictions in any state will require coordinated containment, with all states acting to protect each other.  
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
