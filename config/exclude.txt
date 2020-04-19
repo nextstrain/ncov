@@ -61,6 +61,7 @@ England/20146015504/2020
 # Suspicious mutations in subsequent positions - possible sequencing error
 USA/UN-UW-1486/2020
 USA/ID-UW-4462/2020
+USA/WA-UW-4118/2020
 
 # Confusing phylogeography
 Netherlands/Rotterdam_1363790/2020
