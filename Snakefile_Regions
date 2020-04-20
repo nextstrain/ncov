@@ -78,9 +78,9 @@ rule subsample_focus:
     output:
         sequences = "results/subsample_focus{region}.fasta"
     params:
-        group_by = "division year month",
-        seq_per_group_global = 40, # i.e. if not regional build
-        seq_per_group_regional = 260
+        group_by = config["subsample_focus"]["group_by"],
+        seq_per_group_global = config["subsample_focus"]["seq_per_group_global"],
+        seq_per_group_regional = config["subsample_focus"]["seq_per_group_regional"]
     shell:
         """
         #Figure out what region being wanted
@@ -156,8 +156,8 @@ rule subsample_context:
     output:
         sequences = "results/subsample_context{region}.fasta"
     params:
-        group_by = "country year month",
-        sequences_per_group = 20
+        group_by = config["subsample_context"]["group_by"],
+        sequences_per_group = config["subsample_context"]["sequences_per_group"]
     shell:
         """
         #Figure out what region being wanted

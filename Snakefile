@@ -3,8 +3,12 @@ from packaging import version
 from socket import getfqdn
 from getpass import getuser
 from snakemake.logging import logger
+from snakemake.utils import validate
 import sys
 from shutil import which
+
+configfile: "config/config.yaml"
+validate(config, schema="schemas/config.schema.yaml")
 
 #
 # Verify that required versions of dependencies are installed.
@@ -36,13 +40,12 @@ def get_todays_date():
 # For information on how to run 'regions' runs, see Snakefile_Regions
 
 # Add new regions here!
-REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america", "_global"]
+REGIONS = config["regions"]
 
 wildcard_constraints:
     region = "|".join(REGIONS) + "||",
     date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
-configfile: "config/Snakefile.yaml"
 localrules: download
 
 # simple rule to call snakemake for outsider users
@@ -95,10 +98,10 @@ rule filter:
     output:
         sequences = "results/filtered.fasta"
     params:
-        min_length = 25000,
-        exclude_where = "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'",
-        group_by = "division year month",
-        sequences_per_group = 2000
+        min_length = config["filter"]["min_length"],
+        exclude_where = config["filter"]["exclude_where"],
+        group_by = config["filter"]["group_by"],
+        sequences_per_group = config["filter"]["sequences_per_group"]
     shell:
         """
         augur filter \
@@ -119,7 +122,7 @@ checkpoint partition_sequences:
     output:
         split_sequences = directory("results/split_sequences/pre/")
     params:
-        sequences_per_group = 150
+        sequences_per_group = config["partition_sequences"]["sequences_per_group"]
     shell:
         """
         python3 scripts/partition-sequences.py \
@@ -194,9 +197,9 @@ rule mask:
     output:
         alignment = "results/masked.fasta"
     params:
-        mask_from_beginning = 130,
-        mask_from_end = 50,
-        mask_sites = "18529 29849 29851 29853"
+        mask_from_beginning = config["mask"]["mask_from_beginning"],
+        mask_from_end = config["mask"]["mask_from_end"],
+        mask_sites = config["mask"]["mask_sites"]
     shell:
         """
         python3 scripts/mask-alignment.py \
@@ -268,13 +271,13 @@ rule refine:
         node_data = "results/branch_lengths{region}.json"
     threads: 1
     params:
-        root = "Wuhan-Hu-1/2019 Wuhan/WH01/2019",
-        clock_rate = 0.0008,
-        clock_std_dev = 0.0004,
-        coalescent = "skyline",
-        date_inference = "marginal",
-        divergence_unit = "mutations",
-        clock_filter_iqd = 4
+        root = config["refine"]["root"],
+        clock_rate = config["refine"]["clock_rate"],
+        clock_std_dev = config["refine"]["clock_std_dev"],
+        coalescent = config["refine"]["coalescent"],
+        date_inference = config["refine"]["date_inference"],
+        divergence_unit = config["refine"]["divergence_unit"],
+        clock_filter_iqd = config["refine"]["clock_filter_iqd"]
     shell:
         """
         augur refine \
@@ -325,7 +328,7 @@ rule haplotype_status:
     output:
         node_data = "results/haplotype_status{region}.json"
     params:
-        reference_node_name = "USA/WA1/2020"
+        reference_node_name = config["reference_node_name"]
     shell:
         """
         python3 scripts/annotate-haplotype-status.py \
@@ -372,7 +375,7 @@ rule traits:
         node_data = "results/traits{region}.json",
     params:
         columns = _get_exposure_trait_for_wildcards,
-        sampling_bias_correction = 2.5
+        sampling_bias_correction = config["traits"]["sampling_bias_correction"]
     shell:
         """
         augur traits \
@@ -439,10 +442,10 @@ rule tip_frequencies:
     output:
         tip_frequencies_json = "auspice/ncov{region}_tip-frequencies.json"
     params:
-        min_date = 2020.0,
-        pivot_interval = 1,
-        narrow_bandwidth = 0.05,
-        proportion_wide = 0.0
+        min_date = config["frequencies"]["min_date"],
+        pivot_interval = config["frequencies"]["pivot_interval"],
+        narrow_bandwidth = config["frequencies"]["narrow_bandwidth"],
+        proportion_wide = config["frequencies"]["proportion_wide"]
     shell:
         """
         augur frequencies \
