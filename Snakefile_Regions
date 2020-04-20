@@ -113,6 +113,8 @@ rule make_priorities:
         focal_alignment = rules.subsample_focus.output.sequences
     output:
         priorities = "results/subsampling_priorities{region}.tsv"
+    resources:
+        mem_mb = 4000
     shell:
         """
         #Figure out what region being wanted
