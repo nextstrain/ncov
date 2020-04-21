@@ -248,14 +248,18 @@ rule deploy_to_staging:
         """
 
 onerror:
-    slack_webhook = config["slack_webhook"] or ""
-    slack_message = json.dumps({"text": f"Build {deploy_origin} failed."})
+    slack_token = config["slack_token"] or ""
+    slack_channel = config["slack_channel"] or ""
+    slack_message = f"Build {deploy_origin} failed."
 
-    if slack_webhook:
+    if slack_token:
         shell(f"""
-            curl {{slack_webhook:q}} \
-                --header 'Content-type: application/json' \
-                --data-raw {{slack_message:q}} \
+            curl https://slack.com/api/files.upload \
+                --header "Authorization: Bearer "{{slack_token:q}} \
+                --form-string channels={{slack_channel:q}} \
+                --form-string initial_comment={{slack_message:q}} \
+                --form file=@{{log:q}} \
+                --form filetype=text \
                 --fail --silent --show-error \
                 --include
         """)
