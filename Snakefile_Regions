@@ -231,17 +231,19 @@ rule deploy_to_staging:
     input:
         *rules.all_regions.input
     params:
-        slack_message = json.dumps({"text":f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}"}),
-        slack_webhook = config["slack_webhook"] or "",
+        slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
+        slack_token = config["slack_token"] or "",
+        slack_channel = config["slack_channel"] or "",
         s3_staging_url = config["s3_staging_url"]
     shell:
         """
         nextstrain deploy {params.s3_staging_url:q} {input:q}
 
-        if [[ -n "{params.slack_webhook}" ]]; then
-            curl {params.slack_webhook:q} \
-                --header 'Content-type: application/json' \
-                --data-raw {params.slack_message:q} \
+        if [[ -n "{params.slack_token}" ]]; then
+            curl https://slack.com/api/chat.postMessage \
+                --header "Authorization: Bearer "{params.slack_token:q} \
+                --form-string channel={params.slack_channel:q} \
+                --form-string text={params.slack_message:q} \
                 --fail --silent --show-error \
                 --include
         fi

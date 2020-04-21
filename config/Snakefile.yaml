@@ -3,7 +3,6 @@
 # or --configfile options.
 ---
 s3_staging_url: s3://nextstrain-staging
-slack_webhook: ~
 slack_token: ~
 slack_channel: "#ncov-gisaid-updates"
 sequences: "data/sequences.fasta"
