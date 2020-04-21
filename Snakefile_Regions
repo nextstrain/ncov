@@ -249,7 +249,7 @@ rule deploy_to_staging:
 
 onerror:
     slack_webhook = config["slack_webhook"] or ""
-    slack_message = json.dumps({"text": f"Failed deployment {deploy_origin}."}),
+    slack_message = json.dumps({"text": f"Build {deploy_origin} failed."})
 
     if slack_webhook:
         shell(f"""
