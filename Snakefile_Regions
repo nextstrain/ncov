@@ -216,6 +216,16 @@ rule adjust_metadata_regions:
         fi
         """
 
+
+#
+# Deployment and error handlers, including Slack messaging integrations.
+#
+
+from os import environ
+
+SLACK_TOKEN   = environ["SLACK_TOKEN"]   = config["slack_token"]   or ""
+SLACK_CHANNEL = environ["SLACK_CHANNEL"] = config["slack_channel"] or ""
+
 try:
     deploy_origin = (
         f"from AWS Batch job `{environ['AWS_BATCH_JOB_ID']}`"
@@ -232,17 +242,15 @@ rule deploy_to_staging:
         *rules.all_regions.input
     params:
         slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
-        slack_token = config["slack_token"] or "",
-        slack_channel = config["slack_channel"] or "",
         s3_staging_url = config["s3_staging_url"]
     shell:
         """
         nextstrain deploy {params.s3_staging_url:q} {input:q}
 
-        if [[ -n "{params.slack_token}" ]]; then
+        if [[ -n "$SLACK_TOKEN" && -n "$SLACK_CHANNEL" ]]; then
             curl https://slack.com/api/chat.postMessage \
-                --header "Authorization: Bearer "{params.slack_token:q} \
-                --form-string channel={params.slack_channel:q} \
+                --header "Authorization: Bearer $SLACK_TOKEN" \
+                --form-string channel="$SLACK_CHANNEL" \
                 --form-string text={params.slack_message:q} \
                 --fail --silent --show-error \
                 --include
@@ -250,15 +258,13 @@ rule deploy_to_staging:
         """
 
 onerror:
-    slack_token = config["slack_token"] or ""
-    slack_channel = config["slack_channel"] or ""
     slack_message = f"Build {deploy_origin} failed."
 
-    if slack_token:
+    if SLACK_TOKEN and SLACK_CHANNEL:
         shell(f"""
             curl https://slack.com/api/files.upload \
-                --header "Authorization: Bearer "{{slack_token:q}} \
-                --form-string channels={{slack_channel:q}} \
+                --header "Authorization: Bearer $SLACK_TOKEN" \
+                --form-string channels="$SLACK_CHANNEL" \
                 --form-string initial_comment={{slack_message:q}} \
                 --form file=@{{log:q}} \
                 --form filetype=text \
