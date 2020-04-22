@@ -62,7 +62,13 @@ tail +2 ./data/our_metadata.tsv >> ./data/metadata.tsv
 ```
 (Please double check the columns in this new metadata TSV match up. It's not a problem if there are more entries in the metadata than there are genomes.)
 
+## Configuring your build
 
+The default build is parameterized by a [Snakemake configuration file](https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html) named `config/config.yaml`.
+Inspect this [YAML file](https://yaml.org/) and modify any parameters as needed for your own analyses.
+When you run the default build using the instructions below, the build commands will reflect your changes.
+
+If you need to change the default build in a way that isn't represented by the configuration file, [create a new issue in the ncov repository](https://github.com/nextstrain/ncov/issues/new) to let us know.
 
 ## Running the default build
 
