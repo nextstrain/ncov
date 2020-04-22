@@ -216,6 +216,16 @@ rule adjust_metadata_regions:
         fi
         """
 
+
+#
+# Deployment and error handlers, including Slack messaging integrations.
+#
+
+from os import environ
+
+SLACK_TOKEN   = environ["SLACK_TOKEN"]   = config["slack_token"]   or ""
+SLACK_CHANNEL = environ["SLACK_CHANNEL"] = config["slack_channel"] or ""
+
 try:
     deploy_origin = (
         f"from AWS Batch job `{environ['AWS_BATCH_JOB_ID']}`"
@@ -231,18 +241,33 @@ rule deploy_to_staging:
     input:
         *rules.all_regions.input
     params:
-        slack_message = json.dumps({"text":f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}"}),
-        slack_webhook = config["slack_webhook"] or "",
+        slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
         s3_staging_url = config["s3_staging_url"]
     shell:
         """
         nextstrain deploy {params.s3_staging_url:q} {input:q}
 
-        if [[ -n "{params.slack_webhook}" ]]; then
-            curl {params.slack_webhook:q} \
-                --header 'Content-type: application/json' \
-                --data-raw {params.slack_message:q} \
+        if [[ -n "$SLACK_TOKEN" && -n "$SLACK_CHANNEL" ]]; then
+            curl https://slack.com/api/chat.postMessage \
+                --header "Authorization: Bearer $SLACK_TOKEN" \
+                --form-string channel="$SLACK_CHANNEL" \
+                --form-string text={params.slack_message:q} \
                 --fail --silent --show-error \
                 --include
         fi
         """
+
+onerror:
+    slack_message = f"Build {deploy_origin} failed."
+
+    if SLACK_TOKEN and SLACK_CHANNEL:
+        shell(f"""
+            curl https://slack.com/api/files.upload \
+                --header "Authorization: Bearer $SLACK_TOKEN" \
+                --form-string channels="$SLACK_CHANNEL" \
+                --form-string initial_comment={{slack_message:q}} \
+                --form file=@{{log:q}} \
+                --form filetype=text \
+                --fail --silent --show-error \
+                --include
+        """)
