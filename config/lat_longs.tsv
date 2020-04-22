@@ -288,7 +288,6 @@ division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
 division	Abruzzo	42.1920	13.7289
 division	Aichi	35.067543	137.334061
-division	Aksaray	38.3686	34.0297
 division	Alagoas	-9.748630	-36.417626
 division	Alken	50.877283	5.289834
 division	Amazonas State	-5.423668	-64.567836
@@ -297,7 +296,6 @@ division	Andel	51.7851	5.0549
 division	Andenne	50.487207	5.056619
 division	Anderlecht	50.829058	4.295860
 division	Anhui	31.754331	117.211441
-division	Ankara	39.9334	32.8597
 division	Antioquia	6.709191	-75.484721
 division	Antwerp	51.225698	4.420885
 division	Arizona	34.220707	-111.657462
@@ -310,7 +308,6 @@ division	Auvergne Rhone Alpes	45.126511	5.480724
 division	Auvergne-Rhône-Alpes	45.4471	4.3853
 division	Baden-Wuerttemberg	48.712618	9.134030
 division	Bahia	-12.5797	-41.7007
-division	Balikesir	39.6533	27.8903
 division	Bangkok	13.798471	100.590834
 division	Baranya	46.0485	18.2719
 division	Barcelona	41.394769	2.173828
@@ -462,9 +459,7 @@ division	Kanagawa	35.403801	139.294288
 division	Kansai	34.778675	135.880055
 division	Kansas	39.0119	-98.4842
 division	Kanto	36.167777	139.170466
-division	Karaman	37.1810	33.2222
 division	Karnataka	15.3173	75.7139
-division	Kastamonu	41.3766	33.7765
 division	Kasterlee	51.2405	4.9674
 division	Kathmandu	27.712907	85.323557
 division	Kaulile	51.1872	5.5257
@@ -474,7 +469,6 @@ division	Kerala	10.359825	76.399550
 division	Kessel-Lo	50.8851	4.7357
 division	Khyber Pakhtunkhwa	33.696621	72.636031
 division	Kinshasa	-4.2978	15.2962
-division	Kocaeli	40.8533	29.8815
 division	Kochi	33.518628	133.505674
 division	Knokke-Heist	51.331501	3.308826
 division	Komen	45.8175	13.7483
@@ -534,7 +528,6 @@ division	Nebraska	41.4925	-99.9018
 division	Netherlands	52.1326	5.2913
 division	Nevada	38.8026	-116.4194
 division	Nevele	51.0343	3.5474
-division	Nevsehir	38.6247	34.7142
 division	New Brunswick	46.570770	-66.308191
 division	New Jersey	40.0583	-74.4057
 division	New Hampshire	43.1939	-71.5724
@@ -607,7 +600,6 @@ division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
 division	Sichuan	30.709229	102.693949
 division	Sihanoukville	10.616351	103.512278
-division	Siirt	37.9274	41.9420
 division	Silly	50.638827	3.943396
 division	Singapore	1.344189	103.867546
 division	Sint-Agatha-Berchem	50.863918	4.294079
@@ -715,6 +707,7 @@ country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166
 country	Peru	-9.650468	-75.328211
 country	Philippines	11.383086	123.521862
+country	Sri Lanka	7.8731	80.7718
 country	Turkey	39.046746	36.767068
 
 country	Africa	4.070194	21.824559
