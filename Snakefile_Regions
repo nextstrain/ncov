@@ -55,6 +55,16 @@ rule export_all_regions:
     input:
         colors_file = expand("config/colors{region}.tsv", region=REGIONS),
         auspice_json = expand("results/ncov_with_accessions{region}.json", region=REGIONS),
+        lat_longs = files.lat_longs,
+        metadata = expand("results/metadata_adjusted{region}.tsv", region=REGIONS),
+        colors = expand("config/colors{region}.tsv", region=REGIONS),
+    shell:
+        """
+        python3 ./scripts/check_missing_locations.py \
+            --metadata {input.metadata} \
+            --colors {input.colors} \
+            --latlong {input.lat_longs} 
+        """
 
 rule subsample_focus:
     message:
