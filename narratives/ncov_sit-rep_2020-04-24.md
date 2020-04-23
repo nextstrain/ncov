@@ -123,7 +123,7 @@ These sequences fall across the tree, with evidence for at least 7 separate intr
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [2 local transmission chains in Kinshasa, seeded in early March](https://nextstrain.org/ncov/africa/2020-04-23?d=tree,map&f_country=Democratic%20Republic%20of%20the%20Congo&f_region=Africa&label=clade:A2a&p=full&legend=closed&m=div)
+# [2 local transmission chains in Kinshasa, seeded in early March](https://nextstrain.org/ncov/africa/2020-04-23?d=tree&f_country=Democratic%20Republic%20of%20the%20Congo&f_region=Africa&label=clade:A2a&p=full&legend=closed&m=div)
 
 In this part of the tree, we see two clusters representing likely local transmission.
 Local transmission looks like a tight cluster of cases from the same location, sampled over time.
