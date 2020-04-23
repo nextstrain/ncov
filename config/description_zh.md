@@ -1,4 +1,4 @@
-[最新的Nextstrain nCoV中文情况报告](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-03-04)。
+[最新的Nextstrain nCoV中文情况报告](https://nextstrain.org/narratives/ncov/sit-rep/zh/2020-04-17)。
 
 此系统发生显示新的冠状病毒（nCoV）COVID-19流行病毒的进化关系。 所有样品相对于一个共同祖先与最多八个突变高度相关，表明在2019年11月至12月某个时间共有一个共同祖先。这表明2019年11月至12月初次人类感染，随后持续的人对人传播导致 采样感染。
 
