@@ -23,9 +23,9 @@ translators:
 translatorLinks:
 license: "CC-BY"  
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
-dataset: "https://nextstrain.org/ncov/africa/2020-04-23?f_region=Africa"
+dataset: "https://nextstrain.org/ncov/africa/2020-04-23?f_region=Africa&d=map,tree"
 
-abstract: "This weekly report uses publicly shared genomic data to track the spread of COVID-19. This week, we focus on Africa. "
+abstract: "This weekly report uses publicly shared genomic data to track the spread of COVID-19. This week, we focus on Africa. We report many separate introductions to the Democratic Republic of the Congo, Senegal, Ghana, Nigeria, Gambia, Algeria, and South Africa. We find evidence of local transmission in Kinshasa, DRC; Dakar and Toubeh, Senegal; and Greater Accra, Ghana."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -69,7 +69,7 @@ We analyzed 1,300 publicly shared COVID-19 genomes. By comparing these viral gen
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/africa/2020-04-23?d=tree&p=full&legend=closed)
+# [COVID-19 Resources](https://nextstrain.org/ncov/africa/2020-04-23?d=tree&p=full&legend=closed&f_region=Africa)
 We've prepared some resources that will make interpreting the data we present in this narrative easier.
 #### Nextstrain Resources  
 * [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
@@ -88,7 +88,7 @@ We've prepared some resources that will make interpreting the data we present in
 
 <!-- This is left-side text -->
 # [A note on sampling](https://nextstrain.org/ncov/africa/2020-04-23?d=map&f_region=Africa&p=full)
-We currently have sequences from samples taken in XX countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+We currently have sequences from samples taken in 6 continents, including 7 African countries. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
 <br><br>
@@ -113,7 +113,7 @@ For example, the map shows very few sequences from East Africa. This is NOT beca
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [At least 7 introductions to the DRC](https://nextstrain.org/ncov/africa/2020-04-23?d=tree,map&f_region=Africa&p=full&r=country&legend=open&f_country=Democratic%20Republic%20of%20the%20Congo)
+# [At least 7 introductions to the DRC](https://nextstrain.org/ncov/africa/2020-04-23?d=tree,map&f_region=Africa&p=full&r=country&legend=closed&f_country=Democratic%20Republic%20of%20the%20Congo)
 
 There are 359 confirmed cases of COVID-19 in the DRC with 25 deaths. On Nextstrain, we have 36 sequences from the DRC.
 <br><br>
@@ -128,9 +128,9 @@ These sequences fall across the tree, with evidence for at least 7 separate intr
 In this part of the tree, we see two clusters representing likely local transmission.
 Local transmission looks like a tight cluster of cases from the same location, sampled over time.
 <br><br>
-Towards the top of this view, we see a cluster of cases from Kinshasa, all sampled March 9 and March 22. The common ancestor of these cases dates to around March 3.
+Towards the top of this view, we see a cluster of cases from Kinshasa, all sampled between March 9 and March 22.
 <br><br>
-Towards the middle, we see another cluster of cases from Kinshasa, sampled between March 15 and March 18th. The common ancestor of these samples dates to around March 10.
+Towards the middle, we see another cluster of cases from Kinshasa, sampled between March 15 and March 18th.
 <br><br>
 From this, we can conclude that there were at least 2 separate transmission chains circulating in Kinshasa in early March, 2020.
 <br><br>
@@ -144,20 +144,20 @@ The DRC reported it’s first cases of COVID-19 to the WHO on March 10. The firs
 
 Similar to the patterns found in the DRC, here we see samples from Senegal spanning the full genetic diversity of the tree. The phylogenetic placement of these samples indicates that there were at least 8 separate introductions to Senegal between late February and late March. Senegal reported its first  COVID-19 cases to the WHO on February 28, the same day that the first viral sample was collected for sequencing.
 <br><br>
-As we reported in our [April 3 Situation Report](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-03?n=5), at least 2 of these introductions in late February or early March have led to ongoing local transmission clusters.
+As we reported in our [April 3 Situation Report](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-03?n=5), at least 2 of these introductions in late February or early March have led to ongoing local transmission clusters in Dakar and Tabou, respectively.
 
 
 <!-- There is no right-side text --><!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [At least 7 introductions to Ghana](https://nextstrain.org/ncov/africa/2020-04-23?d=tree,map&f_country=Ghana&f_region=Africa&p=full)
 
-There are 1,154 confirmed cases of COVID-19 in Ghana with 9 known deaths. On Nextstrain, there are 14 sequences from Ghana which are spread across the phylogenetic tree, representing at least 7 separate introductions. Potential evidence of community transmission in Greater Accra, Ghana from a Asian introduction.
+There are 1,154 confirmed cases of COVID-19 in Ghana with 9 known deaths. On Nextstrain, there are 14 sequences from Ghana which are spread across the phylogenetic tree, representing at least 7 separate introductions.
 <br><br>
 The first case in Ghana was reported to the WHO on March 11, and the first viral genome on Nextstrain was collected on March 24.
 
 <!-- There is no right-side text --><!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Local transmission in Greater Accra, Ghana](https://nextstrain.org/ncov/africa/2020-04-23?label=clade:B4&c=division&d=tree,map&f_country=Ghana,Senegal&f_region=Africa&p=full)
+# [Local transmission in Greater Accra, Ghana](https://nextstrain.org/ncov/africa/2020-04-23?label=clade:B4&c=division&d=tree,map&f_country=Ghana,Senegal&f_region=Africa&p=full&r=division&legend=closed)
 
 Here, we see a cluster of closely related cases from the Greater Accra region of Ghana, sampled between March 25 and March 30.
 The common ancestor of these cases dates to mid-February or early March, and was most likely imported from Asia.
@@ -168,7 +168,9 @@ Interestingly, there is a sample from Senegal that groups tightly with this clus
 <!-- This is left-side text -->
 # [Scattered introductions to Algeria, Gambia, Nigeria, and South Africa](https://nextstrain.org/ncov/africa/2020-04-23?c=division&d=tree,map&f_country=Algeria,Gambia,Nigeria,South%20Africa&f_region=Africa&p=full)
 
-Here, we see samples isolated from Algeria, Gambia, Nigeria and South Africa. These samples are scatted across the full tree, and are largely isolated from one another. This is evidence for many separate introductions, largely from Europe, to many nations in Africa. Without more data, we can't yet say which -- if any -- of these sparks resulted into local outbreaks.
+Here, we see samples isolated from Algeria, Gambia, Nigeria and South Africa. These samples are scatted across the full tree, and are largely isolated from one another.
+<br><br>
+This is evidence for many separate introductions, largely from Europe, to many nations in Africa. Without more data, we can't yet say which -- if any -- of these sparks resulted into local outbreaks.
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -196,6 +198,7 @@ Here, we see samples isolated from Algeria, Gambia, Nigeria and South Africa. Th
 #### There have been many separate introductions of SARS-CoV-2 to the African continent, primarily from Europe (although sampling bias may contribute to this inference).
 <br><br>
 #### 7 introductions to the DRC have led to at least 2 separate transmission chains circulating in Kinshasa.  
+<br><br>
 #### Similarly, 8 introductions to Senegal seeded local transmission chains in Dakar and Touba.  
 <br><br>
 #### SARS-CoV-2 has been introduced to Ghana at least 7 times, with local transmission in Greater Accra.
