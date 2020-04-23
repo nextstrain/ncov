@@ -43,17 +43,42 @@ USA/UPHL-06/2020
 USA/UPHL-04/2020
 
 # Missing mutations
-Netherlands/Oisterwijk_1364072/2020
-Netherlands/Utrecht_1364066/2020
-USA/CT-Yale-001/2020
-Ireland/COR-20134/2020
-Guangzhou/GZMU0031/2020
 Canada/BC_40860/2020
 England/20102000906/2020
-Iceland/288/2020
-Iceland/274/2020
-England/20109050106/2020
 England/20108125106/2020
+England/20109050106/2020
+Germany/NRW-31/2020
+Guangzhou/GZMU0031/2020
+Iceland/263/2020
+Iceland/274/2020
+Iceland/288/2020
+Ireland/COR-20134/2020
+Netherlands/Oisterwijk_1364072/2020
+Netherlands/Utrecht_1364066/2020
+Pakistan/Manga-KPK/2020
+Qatar/QA02/2020
+Qatar/QA08/2020
+Qatar/QA11/2020
+Qatar/QA12/2020
+Qatar/QA13/2020
+Qatar/QA15/2020
+Qatar/QA16/2020
+Qatar/QA17/2020
+Qatar/QA18/2020
+Qatar/QA19/2020
+Qatar/QA20/2020
+Qatar/QA21/2020
+Qatar/QA22/2020
+Qatar/QA23/2020
+Qatar/QA24/2020
+Scotland/EDB034/2020
+Singapore/28/2020
+Singapore/31/2020
+Singapore/32/2020
+USA/CT-Yale-001/2020
+USA/MN-MDH-146/2020
+USA/MN135-MDH135/2020
+
 
 # Many A's from position 29767 to 29799
 England/20146015504/2020

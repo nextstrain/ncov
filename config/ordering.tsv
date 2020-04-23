@@ -359,7 +359,30 @@ division	Otago
 division	Auckland
 division	Riyadh
 division	Saint-Petersburg
+division	Moscow
+division	Moscow Region
+division	Chelyabinsk Region
+division	Krasnodar Region
+division	Krasnoyarsk Region
+division	Khabarovsk Region
+division	Lipetsk Region
+division	Novosibirsk Region
+division	Omsk Region
+division	Orenburg Region
+division	Perm Region
+division	Primorskiy Region
+division	Pskov Region
+division	Sakhalin Region
+division	Samara Region
+division	Sverdlovsk Region
+division	Tver Region
 division	Buryat Republic
+division	Chechen Republic
+division	Republic of Buryatia
+division	Republic of Sakha
+division	Republic of Kabardino-Balkaria
+division	Republic of Crymea
+division	Republic of Tatarstan
 division	Europe
 division	Reykjavik
 division	Oslo
@@ -368,6 +391,7 @@ division	Baranya
 division	Kostoliste
 division	Kosice
 division	Bratislava
+division	Malopolskie
 division	Prague
 division	Martin
 division	Copenhagen
@@ -584,9 +608,7 @@ division	Scotland
 division	Småland
 division	Vasterbotten
 division	Västerbotten
-division	Moscow
-division	Helsinki
-division	Finland
+xdivision	Finland
 division	Denmark
 division	Portugal
 division	Lagos
@@ -594,6 +616,7 @@ division	Kinshasa
 division	Sud Kivu
 division	KwaZulu-Natal
 division	Greater Accra
+division	West Coast Region
 division	Mbour
 division	Touba
 division	Dakar
@@ -728,6 +751,7 @@ country	Egypt
 country	Nigeria
 country	Ghana
 country	Senegal
+country	Gambia
 country	Algeria
 country	Democratic Republic of the Congo
 country	South Africa
