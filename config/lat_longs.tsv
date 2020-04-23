@@ -284,7 +284,6 @@ location	Zhuhai	22.271346	113.562879
 
 
 
-
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
 division	Abruzzo	42.1920	13.7289
@@ -340,7 +339,6 @@ division	Bree	51.138202	5.631877
 division	Bretagne	48.2020	2.9326
 division	British Columbia	54.010982	-124.745183
 division	Brussels	50.8503	4.3517
-division	Budapest	47.482728	19.084269
 division	Buryat Republic	52.311711	108.916732
 division	California	36.357039	-119.690182
 division	Canary Islands	28.2916	-16.6291
@@ -404,6 +402,7 @@ division	Friuli Venezia Giulia	46.2259	13.1034
 division	Fujian	26.284852	118.122938
 division	Galicia	42.5751	-8.1339
 division	Ganshoren	50.8730	4.3093
+division	Gavleborgs lan	61.514766	16.400925
 division	Gelderland	52.042091	6.014860
 division	Genappe	50.603841	4.451737
 division	Geneva	46.216038	6.136984
@@ -422,9 +421,11 @@ division	Graubünden	46.709551	9.606903
 division	Greater Accra	5.761619	0.040546
 division	Grimbergen	50.942962	4.375664
 division	Guangdong	23.615762	114.483257
+division	Guangzhou	23.123972	113.292889
 division	Guayas	-1.9575	-79.9193
 division	Gujarat	22.2587	71.1924
 division	Gyeonggi	37.397957	127.380864
+division	Halland	56.964727	12.796906
 division	Hangzhou	30.2741	120.1551
 division	Hasselt	50.925347	5.311394
 division	Hauts de France	49.934396	2.783002
@@ -554,6 +555,7 @@ division	Nieuwerkerken	50.882291	5.204030
 division	Nonthaburi	13.852511	100.522791
 division	Normandie	48.8799	0.1713
 division	Normandie	49.055810	0.060987
+division	Norrbotten	66.936364	20.341728
 division	North Brabant	51.4827	5.2322
 division	North Carolina	35.7596	-79.0193
 division	North Holland	52.5206	4.7885
@@ -568,10 +570,12 @@ division	Ohio	40.199215	-82.825637
 division	Omsk Region	55.0555	73.3167
 division	Ontario	44.429	-79.377
 division	Oostrozebeke	50.931551	3.338685
+division	Orebro lan	59.378174	14.948348
 division	Oregon	43.8041	-120.5542
 division	Orenburg Region	51.7634	54.6188
 division	Osaka	34.648720	135.525013
 division	Oslo	59.903687	10.7497
+division	Ostergotland	58.402269	15.748012
 division	Otago	-45.412319	169.855268
 division	Oudergem	50.812905	4.435779
 division	Overijssel	52.436273	6.463628
@@ -579,7 +583,7 @@ division	Panama City	8.98333	-79.5166
 division	Pays de la Loire	47.640237	-0.647258
 division	Pelt	51.210014	5.420519
 division	Pennsylvania	41.2033	-77.1945
-division	Perm Region	58.8232	56.5872
+division	Perm Region	58.017794	56.311058
 division	Pichincha	-0.1465	-78.4752
 division	Pomorskie	54.2944	18.1531
 division	Portugal	39.540460	-8.174701
@@ -641,6 +645,7 @@ division	Sint-Pieters-Woluwe	50.8300	4.4335
 division	Sint-Truiden	50.810338	5.192644
 division	Småland	57.528294	14.463824
 division	Soignies	50.565241	4.035806
+division	Sormland	59.061157	16.697407
 division	Soumagne	50.636363	5.733485
 division	South Carolina	33.8361	-81.1637
 division	South Holland	52.006053	4.485728
@@ -649,6 +654,7 @@ division	South Yorkshire	53.4697	-1.3260
 division	Spain	40.4637	-3.7492
 division	St-Louis	16.0326	-16.4818
 division	Stekene	51.214088	4.030857
+division	Stockholm	59.332670	18.061849
 division	Sud Kivu	-3.223156	28.386665
 division	Sverdlovsk Region	59.0077	61.9316
 division	Switzerland	46.8182	8.2275
@@ -656,6 +662,7 @@ division	Taipei	25.002030	121.518688
 division	Taiwan	23.816900	121.031365
 division	Talca	-35.462909	-71.370960
 division	Taoyuan	24.9936	121.3010
+division	Tatarstan	56.130014	53.371181
 division	Tbilisi	41.733699	44.818487
 division	Teramo	42.6611	13.6987
 division	Tervuren	50.820725	4.523870
@@ -681,7 +688,7 @@ division	Usti nad Labem	50.656527	14.053702
 division	Utah	39.4225192	-111.7143583
 division	Utrecht	52.085320	5.184968
 division	Vasterbotten	64.863611	17.743500
-division	Västerbotten	64.863611	17.743500
+division	Varmland	59.894483	13.209991
 division	Vaud	46.619469	6.472479
 division	Veneto	45.4415	12.3153
 division	Victoria	-37.121673	144.106178
