@@ -33,7 +33,7 @@ abstract: "This weekly report uses publicly shared genomic data to track the spr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text 1-->
-# [Table of Contents](https://nextstrain.org/ncov/africa/2020-04-23?d=map,tree&f_region=Africa)
+# [Table of Contents](https://nextstrain.org/ncov/africa/2020-04-24?d=map,tree&f_region=Africa)
 
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-24?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-04-24?n=3).
@@ -68,7 +68,7 @@ We analyzed 1,300 publicly shared COVID-19 genomes. By comparing these viral gen
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/africa/2020-04-23?d=tree&p=full&legend=closed&f_region=Africa)
+# [COVID-19 Resources](https://nextstrain.org/ncov/africa/2020-04-24?d=tree&p=full&legend=closed&f_region=Africa)
 We've prepared some resources that will make interpreting the data we present in this narrative easier.
 #### Nextstrain Resources  
 * [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
@@ -86,7 +86,7 @@ We've prepared some resources that will make interpreting the data we present in
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 3-->
-# [A note on sampling](https://nextstrain.org/ncov/africa/2020-04-23?d=map&f_region=Africa&p=full)
+# [A note on sampling](https://nextstrain.org/ncov/africa/2020-04-24?d=map&f_region=Africa&p=full)
 We currently have sequences from samples taken in 6 continents. In Africa, we have samples from 7 countries. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
@@ -98,7 +98,7 @@ For example, the map shows very few sequences from East Africa. This is NOT beca
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 4-->
-# [Many separate introductions have seeded diverse local transmission chains in Africa](https://nextstrain.org/ncov/africa/2020-04-23?d=tree,map&f_region=Africa&p=full&r=country&legend=open)
+# [Many separate introductions have seeded diverse local transmission chains in Africa](https://nextstrain.org/ncov/africa/2020-04-24?d=tree,map&f_region=Africa&p=full&r=country&legend=open)
   At the time of writing, the [Africa CDC](https://africacdc.org/covid-19/) reports 26,144 confirmed COVID-19 cases and 1,247 deaths across the African Union.
   We have viral genomes from 83 of these cases from 7 African nations, shown here (in color) against a backdrop of contextual sequences from around the world (in gray). We applaud the local public health departments for their rapid response and open data sharing.
   <br><br>
@@ -112,7 +112,7 @@ For example, the map shows very few sequences from East Africa. This is NOT beca
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 5-->
-# [At least 7 introductions to the DRC](https://nextstrain.org/ncov/africa/2020-04-23?d=tree,map&f_region=Africa&p=full&r=country&legend=closed&f_country=Democratic%20Republic%20of%20the%20Congo)
+# [At least 7 introductions to the DRC](https://nextstrain.org/ncov/africa/2020-04-24?d=tree,map&f_region=Africa&p=full&r=country&legend=closed&f_country=Democratic%20Republic%20of%20the%20Congo)
 
 There are 359 confirmed cases of COVID-19 in the DRC with 25 deaths. On Nextstrain, we have 40 sequences from the DRC.
 <br><br>
@@ -124,7 +124,7 @@ Here, we can see 7 places where the colors have changed from grey to orange, rep
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 6-->
-# [Two local transmission chains in Kinshasa, seeded in early March](https://nextstrain.org/ncov/africa/2020-04-23?d=tree&f_country=Democratic%20Republic%20of%20the%20Congo&f_region=Africa&label=clade:A2a&p=full&legend=closed&m=div)
+# [Two local transmission chains in Kinshasa, seeded in early March](https://nextstrain.org/ncov/africa/2020-04-24?d=tree&f_country=Democratic%20Republic%20of%20the%20Congo&f_region=Africa&label=clade:A2a&p=full&legend=closed&m=div)
 
 In this zoomed-in divergence view, we can see two clusters representing likely local transmission.
 Local transmission looks like a tight cluster of cases from the same location, sampled over time, with increasing genetic diversity (longer branch lengths, representing more mutations).
@@ -141,7 +141,7 @@ The DRC reported its first cases of COVID-19 to the WHO on March 10. The first s
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 7-->
-# [At least 8 introductions to Senegal, with 2 local transmission chains](https://nextstrain.org/ncov/africa/2020-04-23?d=tree,map&f_country=Senegal&f_region=Africa&m=div&p=full)
+# [At least 8 introductions to Senegal, with 2 local transmission chains](https://nextstrain.org/ncov/africa/2020-04-24?d=tree,map&f_country=Senegal&f_region=Africa&m=div&p=full)
 
 Similar to the patterns found in the DRC, here we see samples from Senegal spanning the full genetic diversity of the tree. The phylogenetic placement of these samples indicates that there were at least 8 separate introductions to Senegal between late February and late March. Senegal reported its first  COVID-19 cases to the WHO on February 28, the same day that the first viral sample was collected for sequencing.
 <br><br>
@@ -154,7 +154,7 @@ Although the most recent sequence on Nextstrain from Senegal is from March 20, t
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 8-->
-# [At least 7 introductions to Ghana](https://nextstrain.org/ncov/africa/2020-04-23?d=tree,map&f_country=Ghana&f_region=Africa&p=full)
+# [At least 7 introductions to Ghana](https://nextstrain.org/ncov/africa/2020-04-24?d=tree,map&f_country=Ghana&f_region=Africa&p=full)
 
 There are 1,154 confirmed cases of COVID-19 in Ghana with 9 known deaths. On Nextstrain, there are 14 sequences from Ghana which are spread across the phylogenetic tree, representing at least 7 separate introductions.
 <br><br>
@@ -162,7 +162,7 @@ The first case in Ghana was reported to the WHO on March 11, and the first viral
 
 <!-- There is no right-side text --><!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 9-->
-# [Local transmission in Greater Accra, Ghana](https://nextstrain.org/ncov/africa/2020-04-23?label=clade:B4&c=division&d=tree,map&f_country=Ghana,Senegal&f_region=Africa&p=full&r=division&legend=closed)
+# [Local transmission in Greater Accra, Ghana](https://nextstrain.org/ncov/africa/2020-04-24?label=clade:B4&c=division&d=tree,map&f_country=Ghana,Senegal&f_region=Africa&p=full&r=division&legend=closed)
 
 Here, we see a cluster of closely related cases from the Greater Accra region of Ghana, sampled between March 25 and March 30.
 The common ancestor of these cases dates to mid-February or early March, and was most likely imported from Asia.
@@ -174,7 +174,7 @@ Interestingly, there is a sample from Senegal that groups tightly with this clus
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 10-->
-# [Scattered introductions to Algeria, Gambia, Nigeria, and South Africa](https://nextstrain.org/ncov/africa/2020-04-23?c=division&d=tree,map&f_country=Algeria,Gambia,Nigeria,South%20Africa&f_region=Africa&p=full)
+# [Scattered introductions to Algeria, Gambia, Nigeria, and South Africa](https://nextstrain.org/ncov/africa/2020-04-24?c=division&d=tree,map&f_country=Algeria,Gambia,Nigeria,South%20Africa&f_region=Africa&p=full)
 
 Here, we see samples isolated from Algeria, Gambia, Nigeria and South Africa. These samples are scattered across the full tree and are largely isolated from one another.
 <br><br>
