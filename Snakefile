@@ -290,7 +290,7 @@ rule ancestral:
     message:
         """
         Reconstructing ancestral sequences and mutations
-          - not inferring ambiguous mutations
+          - inferring ambiguous mutations
         """
     input:
         tree = "results/tree{region}.nwk",
