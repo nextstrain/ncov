@@ -193,7 +193,7 @@ rule subsample_regions:
         rules.subsample_focus.output.sequences,
         rules.subsample_context.output.sequences
     output:
-        "results/subsampled_alignment{region}.fasta"
+        alignment = "results/subsampled_alignment{region}.fasta"
     shell:
         """
         python3 scripts/combine-and-dedup-fastas.py \
