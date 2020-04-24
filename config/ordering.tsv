@@ -26,6 +26,7 @@ location	Chengdu
 location	Kunming
 location	Hangzhou
 location	Guangdong
+location	Lishui
 location	Shenzhen
 location	Zhuhai
 location	Huaian
@@ -300,7 +301,6 @@ division	Shandong
 division	Zhejiang
 division	Fujian
 division	Guangdong
-division	Guangzhou
 division	Shanghai
 division	Hong Kong
 division	Taiwan
@@ -335,6 +335,11 @@ division	Doha
 division	Kuwait
 division	Kayseri
 division	Istanbul
+division	Afyon
+division	Sakarya
+division	Canakkale
+division	Konya
+division	Eskisehir
 division	Kocaeli
 division	Ankara
 division	Nevsehir
@@ -614,7 +619,6 @@ division	Limerick
 division	Scotland
 division	Småland
 division	Vasterbotten
-division	Guangzhou
 division	Halland
 division	Budapest
 division	Stockholm

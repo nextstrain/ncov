@@ -132,6 +132,7 @@ location	La Crosse County	43.8617	-91.1353
 location	Ladeuze	50.563047	3.768438
 location	Leuven	50.880674	4.700109
 location	Levallois-Perret	48.8932	2.2879
+location	Lishui	28.460681	119.919147
 location	Longjumeau	48.6931	2.2948
 location	Loon	51.379197	5.443200
 location	Loon op zand	51.625527	5.070262
@@ -290,9 +291,11 @@ location	Zhuhai	22.271346	113.562879
 
 
 
+
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
 division	Abruzzo	42.1920	13.7289
+division	Afyon	38.752653	30.553661
 division	Aichi	35.067543	137.334061
 division	Aksaray	38.446110	33.878216
 division	Alagoas	-9.748630	-36.417626
@@ -348,6 +351,7 @@ division	Brussels	50.8503	4.3517
 division	Budapest	47.482728	19.084269
 division	Buryat Republic	52.311711	108.916732
 division	California	36.357039	-119.690182
+division	Canakkale	40.030844	26.733769
 division	Canary Islands	28.2916	-16.6291
 division	Castel di Sangro	41.7840	14.1080
 division	Castilla La Mancha	39.2796	-3.0977
@@ -393,6 +397,7 @@ division	Elsene	50.828210	4.371924
 division	England	52.405994	-1.671707
 division	Estado de Mexico	19.4969	-99.7233
 division	Eupen	50.6292	6.0337
+division	Eskisehir	39.773703	30.518708
 division	Espirito Santo	-19.1834	-40.3089
 division	Estinnes	50.374881	4.103617
 division	Etterbeek	50.833658	4.394661
@@ -428,7 +433,6 @@ division	Graubünden	46.709551	9.606903
 division	Greater Accra	5.761619	0.040546
 division	Grimbergen	50.942962	4.375664
 division	Guangdong	23.615762	114.483257
-division	Guangzhou	23.123972	113.292889
 division	Guayas	-1.9575	-79.9193
 division	Gujarat	22.2587	71.1924
 division	Gyeonggi	37.397957	127.380864
@@ -491,6 +495,7 @@ division	Kochi	33.518628	133.505674
 division	Knokke-Heist	51.331501	3.308826
 division	Kocaeli	40.886367	29.905212
 division	Komen	45.8175	13.7483
+division	Konya	37.859743	32.495438
 division	Kosice	48.7164	21.2611
 division	Kostoliste	48.4467	16.9868
 division	Kraainem	50.8611	4.4593
@@ -627,6 +632,7 @@ division	Saint-Ghislain	50.483208	3.802415
 division	Saint-Petersburg	59.882080	30.330800
 division	Saint-Saulve	50.374816	3.569855
 division	Saitama	35.909903	139.659758
+division	Sakarya	40.753425	30.384694
 division	Sakhalin Region	50.6910	142.9506
 division	Samara Region	53.4184	50.4726
 division	Santa Catarina	-27.157670	-49.888561
