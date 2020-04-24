@@ -3,12 +3,32 @@
 # or --configfile options.
 ---
 s3_staging_url: s3://nextstrain-staging
-slack_webhook: ~
+slack_token: ~
 slack_channel: "#ncov-gisaid-updates"
 sequences: "data/sequences.fasta"
 metadata: "data/metadata.tsv"
 
 reference_node_name: "USA/WA1/2020"
+
+# Define files used for external configuration. Common examples consist of a
+# list of strains to include and exclude from analyses, a reference sequence to
+# align sequences to, colors for strain attributes in auspice, and auspice
+# configuration files.
+files:
+  include: "config/include.txt"
+  exclude: "config/exclude.txt"
+  reference: "config/reference.gb"
+  outgroup: "config/outgroup.fasta"
+  ordering: "config/ordering.tsv"
+  color_schemes: "config/color_schemes.tsv"
+  auspice_config: "config/auspice_config.json"
+  auspice_config_gisaid: "config/auspice_config_gisaid.json"
+  auspice_config_zh: "config/auspice_config_zh.json"
+  lat_longs: "config/lat_longs.tsv"
+  description: "config/description.md"
+  description_zh: "config/description_zh.md"
+  clades: "config/clades.tsv"
+
 
 # Filter settings
 filter:
@@ -50,6 +70,9 @@ refine:
   divergence_unit: "mutations"
   clock_filter_iqd: 4
 
+ancestral:
+  inference: "joint"
+
 traits:
   sampling_bias_correction: 2.5
 
@@ -66,11 +89,10 @@ frequencies:
 
 #
 # Region-specific settings
-# TODO: consider moving these settings into their own config file to complement the base config file.
 #
 
 # Regions to build specific builds for using intelligent subsampling.
-regions: ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america", "_global"]
+regions: ["global"]
 
 # Subsampling settings for region of focus and context.
 subsample_focus:
@@ -89,7 +111,7 @@ subsample_context:
 # TODO: consider how to merge these with the region-specific settings to avoid redundancy.
 #
 
-regions_for_priorities: ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america"]
+regions_for_priorities: ["africa", "asia", "europe", "north-america", "oceania", "south-america"]
 
 # Subsampling settings for region of focus and context.
 # TODO: merge these with "subsample_focus" settings above
