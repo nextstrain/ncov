@@ -114,7 +114,7 @@ For example, the map shows very few sequences from East Africa. This is NOT beca
 <!-- This is left-side text 5-->
 # [At least 7 introductions to the DRC](https://nextstrain.org/ncov/africa/2020-04-23?d=tree,map&f_region=Africa&p=full&r=country&legend=closed&f_country=Democratic%20Republic%20of%20the%20Congo)
 
-There are 359 confirmed cases of COVID-19 in the DRC with 25 deaths. On Nextstrain, we have 36 sequences from the DRC.
+There are 359 confirmed cases of COVID-19 in the DRC with 25 deaths. On Nextstrain, we have 40 sequences from the DRC.
 <br><br>
 These sequences fall across the tree, with evidence for at least 7 separate introductions. As shown here, introductions look like a color change between a virus sample (tips of the tree) and its ancestors (the internal nodes or branch points that lead to it).
 
@@ -131,9 +131,9 @@ Local transmission looks like a tight cluster of cases from the same location, s
 <br><br>
 Toward the top of this view, we see a cluster of cases from Kinshasa, all sampled between March 9 and March 22.
 <br><br>
-Toward the middle, we see another cluster of cases from Kinshasa, sampled between March 15 and March 18th.
+Toward the middle, we see another cluster of cases from Kinshasa, sampled between March 15 and April 6th.
 <br><br>
-From this, we can conclude that at least 2 separate transmission chains were circulating in Kinshasa in early March 2020.
+From this, we can conclude that at least 2 separate transmission chains were circulating in Kinshasa in between early March and early April 2020.
 <br><br>
 The DRC reported its first cases of COVID-19 to the WHO on March 10. The first sample on Nextstrain was collected on March 9, and was reported in our [Situation Report for March 27](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-27?n=16).
 <!-- There is no right-side text -->
