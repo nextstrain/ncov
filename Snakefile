@@ -242,6 +242,15 @@ rule tree:
             --nthreads {threads}
         """
 
+def _get_alignments_for_tree(wildcards):
+    """Global builds use the complete alignment of sequences while regional builds
+    use a subsampled set of sequences.
+    """
+    if wildcards.region == "":
+        return rules.mask.output.alignment
+    else:
+        return rules.subsample_regions.output.alignment
+
 rule refine:
     message:
         """
@@ -252,7 +261,7 @@ rule refine:
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = rules.mask.output,
+        alignment = _get_alignments_for_tree,
         metadata = "results/metadata_adjusted{region}.tsv"
     output:
         tree = "results/tree{region}.nwk",
@@ -294,7 +303,7 @@ rule ancestral:
         """
     input:
         tree = "results/tree{region}.nwk",
-        alignment = rules.mask.output
+        alignment = _get_alignments_for_tree
     output:
         node_data = "results/nt_muts{region}.json"
     params:
