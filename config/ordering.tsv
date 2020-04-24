@@ -257,6 +257,12 @@ location	Broome County
 location	Jefferson County
 location	Dutchess County
 location	Passaic County
+location	Monroe County
+location	Winona County
+location	Allamakee County
+location	Winneshiek County
+location	Jackson County
+location	Adams County
 location	Thiensville
 location	Racine
 location	Cudahy
@@ -278,7 +284,6 @@ location	Brookfield
 location	Elm Grove
 location	Glendale
 location	Accra
-
 
 
 division	China
@@ -396,7 +401,6 @@ division	Malopolskie
 division	Prague
 division	Martin
 division	Copenhagen
-division	Istria
 division	Bretagne
 division	Ile de France
 division	Centre-Val de Loire
@@ -704,6 +708,8 @@ division	Nova Scotia
 division	New Brunswick
 division	Ontario
 division	Manitoba
+division	Prince Edward Island
+division	Newfoundland and Labrador
 division	Saskatchewan
 division	British Columbia
 

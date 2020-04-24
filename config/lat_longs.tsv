@@ -1,7 +1,9 @@
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
+location	Adams County	43.973540	-89.755486
 location	Aichi	35.067543	137.334061
 location	Albany County	42.601369	-73.973601
+location	Allamakee County	43.286290	-91.352362
 location	Anchorage	61.203109	-149.888095
 location	Andel	51.7851	5.0549
 location	Arbre	50.611772	3.817121
@@ -106,6 +108,7 @@ location	Huizhou	23.107144	114.457913
 location	Illinois	40.088552	-89.301876
 location	Indianapolis	39.7684	-86.1581
 location	Jackson	43.325508	-88.167662
+location	Jackson County	44.310891	-90.788896
 location	Jefferson County	44.063938	-75.903794
 location	Jemappes	50.446399	3.898191
 location	Jian	27.0876	114.9647
@@ -145,6 +148,7 @@ location	Mequon	43.226666	-87.973033
 location	Meudon la Forêt	48.787126	2.227098
 location	Milan	45.474	9.177
 location	Milwaukee	43.058555	-87.923530
+location	Monroe County	43.940837	-90.605424
 location	Montgomery County	42.9155	-74.4526
 location	Montignies-Sur-Sambre	50.401302	4.478466
 location	Montreux-Chateau	47.607677	6.994181
@@ -266,6 +270,8 @@ location	Wauwatosa	43.054646	-88.039969
 location	Westchester County	41.1220	-73.7949
 location	Whitefish Bay	43.111041	-87.901408
 location	Winksele	50.897244	4.644376
+location	Winneshiek County	43.288933	-91.839928
+location	Winona County	43.993965	-91.799960
 location	Wisconsin	44.535145	-89.527762
 location	Woippy	49.154613	6.148404
 location	Wuhan	30.554807	114.271501
@@ -459,7 +465,6 @@ division	Iran	34.5732	51.876
 division	Ireland	52.865	-7.979
 division	Ishikawa	36.570185	136.732454
 division	Istanbul	41.0082	28.9784
-division	Istria	45.1286	13.9015
 division	Italy	43.382775	12.183629
 division	Japan	35.68536	139.75309
 division	Jiangsu	33.077761	119.825116
@@ -553,6 +558,7 @@ division	New Jersey	40.0583	-74.4057
 division	New Hampshire	43.1939	-71.5724
 division	New South Wales	-32.688430	146.228414
 division	New Taipei City	25.0170	121.4628
+division	Newfoundland and Labrador	53.655784	-61.203723
 division	Nieuwerkerken	50.882291	5.204030
 division	Nonthaburi	13.852511	100.522791
 division	Normandie	48.8799	0.1713
@@ -593,6 +599,7 @@ division	Primorskiy Region	45.0526	135.0000
 division	Pskov Region	56.7709	29.0940
 division	Puebla	19.0414	-98.2063
 division	Prague	50.0755	14.4378
+division	Prince Edward Island	46.344935	-63.405688
 division	Quangning	21.214760	107.251514
 division	Quaregnon	50.437973	3.859235
 division	Queretaro	20.5888	-100.3899

@@ -90,6 +90,7 @@ USA/WA-UW-4118/2020
 England/20132002004/2020
 Wales/PHWC-25867/2020
 England/20129171402/2020
+Wales/PHWC-24895/2020
 
 # Confusing phylogeography
 Netherlands/Rotterdam_1363790/2020
