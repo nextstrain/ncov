@@ -1,8 +1,3 @@
-include: "Snakefile"
-
-ruleorder: subsample_regions > subsample
-ruleorder: adjust_metadata_regions > adjust_metadata
-
 # How to run: if no region is specified, it'll run a subsampled global build (120 per division)
 # If a region is selected, it'll do 280/division for that region, and 20/division in the rest of the world
 #       -- preferentially sequences near the focal sequences
@@ -26,12 +21,12 @@ ruleorder: adjust_metadata_regions > adjust_metadata
 
 rule all_regions:
     input:
-        auspice_json = expand("auspice/ncov{region}.json", region=REGIONS),
-        tip_frequencies_json = expand("auspice/ncov{region}_tip-frequencies.json", region=REGIONS),
-        dated_auspice_json = expand("auspice/ncov{region}_{date}.json", date=get_todays_date(), region=REGIONS),
-        dated_tip_frequencies_json = expand("auspice/ncov{region}_{date}_tip-frequencies.json", date=get_todays_date(), region=REGIONS),
-        auspice_json_gisaid = expand("auspice/ncov{region}_gisaid.json", region=REGIONS),
-        auspice_json_zh = expand("auspice/ncov{region}_zh.json", region=REGIONS)
+        auspice_json = expand("auspice/ncov_{region}.json", region=REGIONS),
+        tip_frequencies_json = expand("auspice/ncov_{region}_tip-frequencies.json", region=REGIONS),
+        dated_auspice_json = expand("auspice/ncov_{region}_{date}.json", date=get_todays_date(), region=REGIONS),
+        dated_tip_frequencies_json = expand("auspice/ncov_{region}_{date}_tip-frequencies.json", date=get_todays_date(), region=REGIONS),
+        auspice_json_gisaid = expand("auspice/ncov_{region}_gisaid.json", region=REGIONS),
+        auspice_json_zh = expand("auspice/ncov_{region}_zh.json", region=REGIONS)
 
 # This cleans out files to allow re-run of 'normal' run (not ZH or GISAID)
 # with `export` to check lat-longs & orderings
@@ -46,6 +41,7 @@ rule clean_export_regions:
         "auspice/ncov*_gisaid.json",
         "auspice/ncov*_zh.json",
         "config/colors*.tsv"
+    conda: "../envs/nextstrain.yaml"
     shell:
         "rm {params}"
 
@@ -53,135 +49,84 @@ rule clean_export_regions:
 # Just runs this, not ZH & GISAID, to speed up & reduce errors.
 rule export_all_regions:
     input:
-        colors_file = expand("config/colors{region}.tsv", region=REGIONS),
-        auspice_json = expand("results/ncov_with_accessions{region}.json", region=REGIONS),
-        lat_longs = files.lat_longs,
-        metadata = expand("results/metadata_adjusted{region}.tsv", region=REGIONS),
-        colors = expand("config/colors{region}.tsv", region=REGIONS),
-    shell:
-        """
-        python3 ./scripts/check_missing_locations.py \
-            --metadata {input.metadata} \
-            --colors {input.colors} \
-            --latlong {input.lat_longs} 
-        """
+        colors_file = expand("config/colors_{region}.tsv", region=REGIONS),
+        auspice_json = expand(REGION_PATH + "ncov_with_accessions.json", region=REGIONS),
 
 rule subsample_focus:
     message:
         """
-        Subsample all sequences into a focal set
+        Subsample all sequences into a focal set for {wildcards.region} with {params.sequences_per_group} per region
         """
     input:
         sequences = rules.mask.output.alignment,
         metadata = rules.download.output.metadata,
-        include = files.include
+        include = config["files"]["include"]
     output:
-        sequences = "results/subsample_focus{region}.fasta"
+        sequences = REGION_PATH + "subsample_focus.fasta"
     params:
         group_by = config["subsample_focus"]["group_by"],
-        seq_per_group_global = config["subsample_focus"]["seq_per_group_global"],
-        seq_per_group_regional = config["subsample_focus"]["seq_per_group_regional"]
+        sequences_per_group = config["subsample_focus"]["seq_per_group_regional"]
+    conda: "../envs/nextstrain.yaml"
     shell:
         """
-        #Figure out what region being wanted
-        rgn="{wildcards.region}"
-
-        if [ "$rgn" = "_global" ]; then
-            seq_per_group={params.seq_per_group_global}
-            regionarg="--exclude-where region="
-            region="frog"   #I don't know! It wouldn't work without something!
-            echo "Filtering for a global run - $seq_per_group per division"
-        else
-            seq_per_group={params.seq_per_group_regional}
-            region="${{rgn//[_y]/}}"
-            region="${{region//[-y]/ }}"
-            echo "Filtering for a focal run on $region - $seq_per_group per division"
-            regionarg="--exclude-where region!="
-            echo "   This is passed to augur as $regionarg'$region'"
-        fi
-
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --include {input.include} \
-            $regionarg"$region" \
+            --exclude-where region!={wildcards.region} \
             --group-by {params.group_by} \
-            --sequences-per-group $seq_per_group \
+            --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences} \
-
         """
 
 rule make_priorities:
     message:
         """
         determine priority for inclusion in as phylogenetic context by
-        genetic similiarity to sequences in focal set.
+        genetic similiarity to sequences in focal set for region '{wildcards.region}'.
         """
     input:
         alignment = rules.mask.output.alignment,
         metadata = rules.download.output.metadata,
         focal_alignment = rules.subsample_focus.output.sequences
     output:
-        priorities = "results/subsampling_priorities{region}.tsv"
+        priorities = REGION_PATH + "subsampling_priorities.tsv"
     resources:
         mem_mb = 4000
+    conda: "../envs/nextstrain.yaml"
     shell:
         """
-        #Figure out what region being wanted
-        rgn="{wildcards.region}"
-
-        if [ "$rgn" = "_global" ]; then
-            echo "Global run - no priorities needed"
-            echo -n >{output.priorities}
-        else
-            region="${{rgn//[_y]/}}"
-            region="${{region//[-y]/ }}"
-            echo "Creating priorities for focal build on $region"
-            python3 scripts/priorities.py --alignment {input.alignment} \
-                            --metadata {input.metadata} \
-                            --focal-alignment {input.focal_alignment} \
-                            --output {output.priorities}
-        fi
+        python3 scripts/priorities.py --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --focal-alignment {input.focal_alignment} \
+            --output {output.priorities}
         """
 
 rule subsample_context:
     message:
         """
-        Subsample the non-focal sequences to provide phylogenetic context
+        Subsample the non-focal sequences to provide phylogenetic context for the region '{wildcards.region}' using {params.sequences_per_group} per {params.group_by}.
         """
     input:
         sequences = rules.mask.output.alignment,
         metadata = rules.download.output.metadata,
         priorities = rules.make_priorities.output.priorities
     output:
-        sequences = "results/subsample_context{region}.fasta"
+        sequences = REGION_PATH + "subsample_context.fasta"
     params:
         group_by = config["subsample_context"]["group_by"],
         sequences_per_group = config["subsample_context"]["sequences_per_group"]
+    conda: "../envs/nextstrain.yaml"
     shell:
         """
-        #Figure out what region being wanted
-        rgn="{wildcards.region}"
-
-        if [ "$rgn" = "_global" ]; then
-            echo "Global run - no context needed"
-            echo -n >{output.sequences}
-        else
-            region="${{rgn//[_y]/}}"
-            region="${{region//[-y]/ }}"
-            echo "Creating a filtered context for a focal run on $region. Context is {params.sequences_per_group}seqs per '{params.group_by}'"
-            regionarg="--exclude-where region="
-            echo "   (This is passed to 'augur filter' as \"$regionarg'$region'\")"
-
-            augur filter \
-                $regionarg"$region" \
-                --sequences {input.sequences} \
-                --metadata {input.metadata} \
-                --priority {input.priorities} \
-                --group-by {params.group_by} \
-                --sequences-per-group {params.sequences_per_group} \
-                --output {output.sequences}
-        fi
+        augur filter \
+            --exclude-where region={wildcards.region} \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --priority {input.priorities} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --output {output.sequences}
         """
 
 rule subsample_regions:
@@ -193,39 +138,32 @@ rule subsample_regions:
         rules.subsample_focus.output.sequences,
         rules.subsample_context.output.sequences
     output:
-        alignment = "results/subsampled_alignment{region}.fasta"
+        alignment = REGION_PATH + "subsampled_alignment.fasta"
+    conda: "../envs/nextstrain.yaml"
     shell:
         """
         python3 scripts/combine-and-dedup-fastas.py \
             --input {input} \
-            --output {output.alignment}
+            --output {output}
         """
 
 rule adjust_metadata_regions:
+    message:
+        """
+        Adjusting metadata for region '{wildcards.region}'
+        """
     input:
         metadata = rules.download.output.metadata
     output:
-        metadata = "results/metadata_adjusted{region}.tsv"
+        metadata = REGION_PATH + "metadata_adjusted.tsv"
+    conda: "../envs/nextstrain.yaml"
     shell:
         """
-        #Figure out what region being wanted
-        rgn="{wildcards.region}"
-
-        if [ "$rgn" = "_global" ]; then
-            echo "Global run - no metadata adjustment needed"
-            cp {input.metadata} {output.metadata}
-        else
-            region="${{rgn//[_y]/}}"
-            region="${{region//[-y]/ }}"
-             echo "Focal run for $region - adjusting metadata"
-
-            python3 scripts/adjust_regional_meta.py \
-                                    --region "$region" \
-                                    --metadata {input.metadata} \
-                                    --output {output.metadata}
-        fi
+        python3 scripts/adjust_regional_meta.py \
+            --region "$region" \
+            --metadata {input.metadata} \
+            --output {output.metadata}
         """
-
 
 #
 # Deployment and error handlers, including Slack messaging integrations.
@@ -253,6 +191,7 @@ rule deploy_to_staging:
     params:
         slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
         s3_staging_url = config["s3_staging_url"]
+    conda: "../envs/nextstrain.yaml"
     shell:
         """
         nextstrain deploy {params.s3_staging_url:q} {input:q}

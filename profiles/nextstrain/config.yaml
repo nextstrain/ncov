@@ -1,0 +1,8 @@
+configfile:
+  - config/config.yaml
+  - profiles/nextstrain/regions_config.yaml
+cores: 4
+printshellcmds: True
+reason: True
+stats: regions_stats.json
+use-conda: True
