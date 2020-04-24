@@ -198,7 +198,7 @@ rule subsample_regions:
         """
         python3 scripts/combine-and-dedup-fastas.py \
             --input {input} \
-            --output {output}
+            --output {output.alignment}
         """
 
 rule adjust_metadata_regions:
