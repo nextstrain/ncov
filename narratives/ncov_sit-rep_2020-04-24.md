@@ -102,7 +102,7 @@ For example, the map shows very few sequences from East Africa. This is NOT beca
   At the time of writing, the [Africa CDC](https://africacdc.org/covid-19/) reports 26,144 confirmed COVID-19 cases and 1,247 deaths across the African Union.
   We have viral genomes from 83 of these cases from 7 African nations, shown here (in color) against a backdrop of contextual sequences from around the world (in gray). We applaud the local public health departments for their rapid response and open data sharing.
   <br><br>
-  These samples span the full breadth of the tree, indicating that there have been many independent introductions to the African continent.
+  These samples span the full diversity of the tree, indicating that there have been many independent introductions to the African continent.
   Many of these introductions appear to be from Europe, although this may be skewed by the fact that we have more sequences from Europe than from most other places in the world. We can't rule out the possibility of unsampled, intermediate transmissions elsewhere.
   <br><br>
   We don't seen evidence that all of these introductions have led to community transmission, but we see clear clusters in some locations.
