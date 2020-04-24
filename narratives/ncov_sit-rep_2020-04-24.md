@@ -229,6 +229,7 @@ This is evidence for many separate introductions, largely from Europe, to many n
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
+<br><br>
 The specific sequences provided by each lab are [listed here](https://github.com/nextstrain/ncov/blob/52a133354c70d712a99f2d2a62116defe0f605ff/narratives/sit-rep_credits.md).
 <br><br>
 We also gratefully acknowledge GISAID for providing the platform through which these data can be uploaded and shared.
