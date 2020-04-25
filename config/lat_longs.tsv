@@ -99,7 +99,6 @@ location	Heinsberg	51.056262	6.113915
 location	Heinsberg District	51.0499	6.1163
 location	Heverlee	50.861704	4.695889
 location	Helmond	51.4793	5.6570
-location	Helsinki	60.1698848	24.9384991
 location	Hong Kong	22.3964	114.1095
 location	Houten	52.0278	5.1630
 location	Huaian	33.574586	119.132155
@@ -157,7 +156,7 @@ location	Moussy Le Neuf	49.065806	2.601697
 location	Munich	48.155742	11.549380
 location	Naarden	52.2953	5.1604
 location	Naarden	52.2953	5.1604
-location	NanChang	28.707143	115.874137
+location	Nanchang	28.707143	115.874137
 location	Nantes	47.203649	-1.552453
 location	Nassau County	40.7333	-73.58010
 location	Neerpelt	51.228889	5.431667
@@ -187,6 +186,7 @@ location	Poppel	51.445671	5.042493
 location	Port Washington	43.382722	-87.885911
 location	Privas	44.723301	4.594575
 location	Putnam County	41.424102	-73.753622
+location	Pu'er	22.807007	100.971896
 location	Qingdao	36.171557	120.398496
 location	Queens	40.717328	-73.795709
 location	Quevaucamps	50.720840	3.289101
@@ -208,12 +208,12 @@ location	Saint-Priest	45.704159	4.949456
 location	Saint-Thibault-des-Vignes	48.862026	2.674513
 location	Saisinne	50.523754	4.035498
 location	Saive	50.652941	5.685550
+location	San Diego	32.733024	-117.143358
 location	San Diego County	32.981125	-116.681405
-location	San Francisco County	37.755124	-122.436734
 location	San Joaquin County	37.917472	-121.258503
-location	Santa Clara County	37.236094	-121.683399
-location	San Diego	32.7157	-117.1611
+location	San Mateo County	37.438721	-122.348737
 location	San Francisco	37.757679	-122.440006
+location	Santa Clara County	37.236094	-121.683399
 location	Sao Paulo	-23.551096	-46.634874
 location	Saratoga County	43.0324	-73.9360
 location	Schenectady County	42.822882	-74.053939
@@ -300,6 +300,7 @@ division	Afyon	38.752653	30.553661
 division	Aichi	35.067543	137.334061
 division	Aksaray	38.446110	33.878216
 division	Alagoas	-9.748630	-36.417626
+division	Alaska	65.797699	-152.214189
 division	Alken	50.877283	5.289834
 division	Amazonas State	-5.423668	-64.567836
 division	Amman	31.9539	35.9106
@@ -366,6 +367,7 @@ division	Chaineux	50.6317	5.8344
 division	Charleroi	50.418039	4.440646
 division	Chechen Republic	43.4023	45.7187
 division	Chelyabinsk Region	54.4319	60.8789
+division	Chiapas	16.520858	-92.643133
 division	Chiba	35.463961	140.223882
 division	Chihuahua	28.6330	-106.0691
 division	China	33.394333	104.689839
@@ -435,6 +437,7 @@ division	Graubünden	46.709551	9.606903
 division	Greater Accra	5.761619	0.040546
 division	Grimbergen	50.942962	4.375664
 division	Guangdong	23.615762	114.483257
+division	Guangxi	23.717754	108.701872
 division	Guayas	-1.9575	-79.9193
 division	Gujarat	22.2587	71.1924
 division	Gyeonggi	37.397957	127.380864
@@ -472,6 +475,7 @@ division	Irbid	32.5568	35.8469
 division	Ireland	52.865	-7.979
 division	Ishikawa	36.570185	136.732454
 division	Istanbul	41.0082	28.9784
+division	Istria	45.189488	13.889205
 division	Italy	43.382775	12.183629
 division	Japan	35.68536	139.75309
 division	Jiangsu	33.077761	119.825116
@@ -554,7 +558,6 @@ division	Moscow Region	55.3404	38.2918
 division	Mouscron	50.738645	3.238610
 division	Munich	48.144747	11.561739
 division	Namur	50.457215	4.879493
-division	NanChang	28.6829	115.8582
 division	Nara	34.371026	135.887389
 division	Nebraska	41.4925	-99.9018
 division	Netherlands	52.1326	5.2913
@@ -566,6 +569,7 @@ division	New Jersey	40.0583	-74.4057
 division	New Hampshire	43.1939	-71.5724
 division	New South Wales	-32.688430	146.228414
 division	New Taipei City	25.0170	121.4628
+division	New York	40.703395	-73.904193
 division	Newfoundland and Labrador	53.655784	-61.203723
 division	Nieuwerkerken	50.882291	5.204030
 division	Nonthaburi	13.852511	100.522791
@@ -625,6 +629,7 @@ division	Republic of Tatarstan	55.1802	50.7264
 division	Reykjavik	64.1445	-21.9418
 division	Rhode Island	41.5801	-71.4774
 division	Riemst	50.805092	5.589712
+division	Riga	56.960679	24.107160
 division	Rio de Janeiro	-22.89445	-43.2099
 division	Rio Grande do Sul	-29.615543	-53.220125
 division	Rixensart	50.7156	4.5310
@@ -695,6 +700,7 @@ division	Tilburg	51.567213	5.047957
 division	Tipperary	52.4738	-8.1619
 division	Tokyo	35.683441	139.766131
 division	Touba	14.856713	-15.879110
+division	Toulouse	43.597198	1.431465
 division	Tournai	50.615852	3.400822
 division	Tubize	50.687041	4.193545
 division	Tver Region	57.0022	33.9853
@@ -711,6 +717,7 @@ division	Vaud	46.619469	6.472479
 division	Veneto	45.4415	12.3153
 division	Victoria	-37.121673	144.106178
 division	Vienna	48.2082	16.3738
+division	Vilnius	54.697979	25.279095
 division	Vilvoorde	50.932484	4.429885
 division	Vinhphuc	21.348702	105.548594
 division	Virginia	37.926868	-78.024902
@@ -750,22 +757,26 @@ division	South America	-13.083583	-58.470721
 country	Argentina	-37.052315	-64.869142
 country	Asia	30.451098	86.654576
 country	Austria	47.5162	14.5501
+country	Belarus	53.704205	28.247691
 country	Croatia	45.1000	15.2000
 country	Denmark	56.2639	9.5018
 country	Democratic Republic of the Congo	-4.0383	21.7587
 country	Ecuador	-1.0541	-78.1489
 country	Egypt	26.8206	30.8025
 country	England	52.3555	-1.1743
+country	Estonia	58.850111	25.808524
 country	Georgia	41.989378	43.597463
 country	Ghana	7.811417	-1.089272
 country	Iceland	64.90614	-18.4826
 country	Iran	34.5732	51.876
 country	Israel	31.217736	34.903129
+country	Lithuania	55.378752	23.945328
 country	Luxembourg	49.755428	6.119486
 country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166
 country	Peru	-9.650468	-75.328211
 country	Philippines	11.383086	123.521862
+country	Qatar	25.230573	51.183951
 country	Sri Lanka	7.8731	80.7718
 country	Turkey	39.046746	36.767068
 

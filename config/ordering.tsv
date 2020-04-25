@@ -4,11 +4,13 @@ location	Hefei
 location	Jingzhou
 location	Jiujiang
 location	Jian
+location	Pu'er
 location	Xinyu
 location	Shangrao
 location	Ganzhou
 location	Pingxiang
 location	Zhongxian
+location	Xishuangbanna
 location	Yongchuan
 location	Huizhou
 location	Shantou
@@ -32,7 +34,8 @@ location	Zhuhai
 location	Huaian
 location	Qingdao
 location	Guangzhou
-location	NanChang
+location	Zhengzhou
+location	Nanchang
 location	Foshan
 location	Hong Kong
 location	Taipei
@@ -183,7 +186,6 @@ location	Nottinghamshire
 location	Cardiff
 location	Rovaniemi
 location	Jönköping
-location	Helsinki
 location	Sao Paulo
 location	Brasilia
 location	Rio de Janeiro
@@ -212,8 +214,9 @@ location	Fairbanks
 location	Anchorage
 location	San Francisco
 location	San Diego County
+location	San Diego
+location	San Mateo County
 location	Marin County
-location	San Francisco County
 location	San Joaquin County
 location	Sacramento County
 location	Santa Clara County
@@ -289,6 +292,8 @@ location	Accra
 
 division	China
 division	Hubei
+division	Guangxi
+division	Henan
 division	Beijing
 division	Anhui
 division	Jiangxi
@@ -398,7 +403,11 @@ division	Republic of Crymea
 division	Republic of Tatarstan
 division	Europe
 division	Reykjavik
+division	Helsinki
+division	Riga
+division	Vilnius
 division	Oslo
+division	Istria
 division	Central Hungary
 division	Baranya
 division	Kostoliste
@@ -419,6 +428,7 @@ division	Bretagne
 division	Bourgogne-France-Comté
 division	Normandie
 division	Grand Est
+division	Toulouse
 division	Auvergne Rhone Alpes
 division	Spain
 division	Castilla Y León
@@ -669,6 +679,7 @@ division	Montevideo
 division	Panama City
 division	Mexico City
 division	Estado de Mexico
+division	Chiapas
 division	Chihuahua
 division	Puebla
 division	Queretaro
@@ -737,6 +748,7 @@ country	Singapore
 country	Australia
 country	New Zealand
 country	Saudi Arabia
+country	Qatar
 country	Kuwait
 country	Iran
 country	Israel
@@ -750,6 +762,9 @@ country	Latvia
 country	Slovakia
 country	Slovenia
 country	Poland
+country	Belarus
+country	Estonia
+country	Lithuania
 country	Hungary
 country	Croatia
 country	France
