@@ -333,6 +333,8 @@ division	Ramat Gan
 division	Iran
 division	Doha
 division	Kuwait
+division	Amman
+division	Irbid
 division	Kayseri
 division	Istanbul
 division	Afyon
@@ -738,6 +740,7 @@ country	Saudi Arabia
 country	Kuwait
 country	Iran
 country	Israel
+country	Jordan
 country	Turkey
 country	Pakistan
 country	Georgia
