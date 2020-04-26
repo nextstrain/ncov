@@ -149,6 +149,11 @@ rule tree:
     benchmark:
         "benchmarks/tree_{region}.txt"
     threads: 4
+    resources:
+        # Multiple sequence alignments can use up to 40 times their disk size in
+        # memory, especially for larger alignments.
+        # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
+        mem_mb=lambda wildcards, input: 40 * int(input.size / 1024 / 1024)
     conda: "../envs/nextstrain.yaml"
     shell:
         """
@@ -182,6 +187,11 @@ rule refine:
     benchmark:
         "benchmarks/refine_{region}.txt"
     threads: 1
+    resources:
+        # Multiple sequence alignments can use up to 40 times their disk size in
+        # memory, especially for larger alignments.
+        # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
+        mem_mb=lambda wildcards, input: 40 * int(input.size / 1024 / 1024)
     params:
         root = config["refine"]["root"],
         clock_rate = config["refine"]["clock_rate"],
