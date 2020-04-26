@@ -8,7 +8,7 @@ Because Nextstrain is open-source, you may modify the analysis to suit your part
 #### A few points before we dive in:
 
 - If you haven't run an analysis using Nextstrain before, I **highly recommend** running the [zika tutorial](https://nextstrain.org/docs/tutorials/zika) first, which introduces these concepts in a gentler fashion.
-- If you would like to use Nextstrain Groups, such as [this one](https://nextstrain.org/groups/blab/), to share your results through nextstrain.org then please get in touch! You will have control & ownership of the datasets and narratives, but they can be shared freely through nextstrain.org. These are also available in a private fashion for sensitive data.
+- If you would like to use Nextstrain Groups, such as [this one](https://nextstrain.org/groups/blab/), to share your results through nextstrain.org then please [get in touch](mailto:hello@nextstrain.org)! You will have control & ownership of the datasets and narratives, but they can be shared freely through nextstrain.org. These are also available in a private fashion for sensitive data.
 
 
 #### This page consists of four parts:
