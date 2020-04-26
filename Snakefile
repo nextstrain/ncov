@@ -233,7 +233,14 @@ rule tree:
         alignment = "results/subsampled_alignment{region}.fasta"
     output:
         tree = "results/tree_raw{region}.nwk"
+    benchmark:
+        "benchmarks/tree{region}.txt"
     threads: 4
+    resources:
+        # Multiple sequence alignments can use up to 40 times their disk size in
+        # memory, especially for larger alignments.
+        # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
+        mem_mb=lambda wildcards, input: 40 * int(input.size / 1024 / 1024)
     shell:
         """
         augur tree \
@@ -266,7 +273,14 @@ rule refine:
     output:
         tree = "results/tree{region}.nwk",
         node_data = "results/branch_lengths{region}.json"
+    benchmark:
+        "benchmarks/refine{region}.txt"
     threads: 1
+    resources:
+        # Multiple sequence alignments can use up to 15 times their disk size in
+        # memory.
+        # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
+        mem_mb=lambda wildcards, input: 15 * int(input.size / 1024 / 1024)
     params:
         root = "Wuhan-Hu-1/2019 Wuhan/WH01/2019",
         clock_rate = 0.0008,
