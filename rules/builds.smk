@@ -2,33 +2,41 @@ rule download:
     message: "Downloading metadata and fasta files from S3"
     output:
         sequences = config["sequences"],
+        curated_alignment = config["curated_alignment"],
         metadata = config["metadata"]
     conda: "../envs/nextstrain.yaml"
     shell:
         """
         aws s3 cp s3://nextstrain-ncov-private/metadata.tsv {output.metadata:q}
         aws s3 cp s3://nextstrain-ncov-private/sequences.fasta {output.sequences:q}
+        aws s3 cp s3://nextstrain-ncov-private/testing_curated_alignment.fasta {output.curated_alignment:q}
         """
 
 rule filter:
     message:
         """
-        Filtering to
-          - excluding strains in {input.exclude}
-          - minimum genome length of {params.min_length}
+        TEMPORARY -- filtering to <100 genomes, the majority of which are going to be
+        part of the hand-curated & maintained alignment. This is only to have a reproducible
+        test set for development. 
+        
+        These sequences have been chosen from a monophyletic clade in the non-subsampled build which had
+        a subclade which appeared to be poorly aligned. The small number allows me to view all the rows of
+        the alignment on my screen
+        
+        The idea for the future is that this step would
+        only filter out incompleted sequences -- i.e. date missing, too-many-Ns etc etc.
+        The curated alignment would already have been filtered, and include as many sequences
+        as possible (i.e. would include a large fraction of those output from this rule...)
+
         """
     input:
         sequences = rules.download.output.sequences,
         metadata = rules.download.output.metadata,
         include = config["files"]["include"],
-        exclude = config["files"]["exclude"]
     output:
         sequences = "results/filtered.fasta"
     params:
-        min_length = config["filter"]["min_length"],
-        exclude_where = config["filter"]["exclude_where"],
-        group_by = config["filter"]["group_by"],
-        sequences_per_group = config["filter"]["sequences_per_group"]
+        min_length = 10000000
     conda: "../envs/nextstrain.yaml"
     shell:
         """
@@ -36,72 +44,37 @@ rule filter:
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --include {input.include} \
-            --exclude {input.exclude} \
-            --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
-            --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences}
         """
 
-checkpoint partition_sequences:
-    input:
-        sequences = rules.filter.output.sequences
-    output:
-        split_sequences = directory("results/split_sequences/")
-    params:
-        sequences_per_group = config["partition_sequences"]["sequences_per_group"]
-    conda: "../envs/nextstrain.yaml"
-    shell:
-        """
-        python3 scripts/partition-sequences.py \
-            --sequences {input.sequences} \
-            --sequences-per-group {params.sequences_per_group} \
-            --output-dir {output.split_sequences}
-        """
 
 rule align:
     message:
         """
-        Aligning sequences to {input.reference}
+        Aligning filtered sequences to a hand curated alignment
           - gaps relative to reference are considered real
-        Cluster:  {wildcards.cluster}
         """
     input:
-        sequences = "results/split_sequences/{cluster}.fasta",
+        curated = rules.download.output.curated_alignment,
+        sequences = rules.filter.output.sequences,
         reference = config["files"]["reference"]
     output:
-        alignment = "results/split_alignments/{cluster}.fasta"
+        alignment = "results/all_aligned.fasta"
     benchmark:
-        "benchmarks/align_{cluster}.txt"
+        "benchmarks/align.txt"
     threads: 2
     conda: "../envs/nextstrain.yaml"
     shell:
         """
         augur align \
+            --existing-alignment {input.curated} \
             --sequences {input.sequences} \
             --reference-sequence {input.reference} \
             --output {output.alignment} \
             --nthreads {threads} \
             --remove-reference \
             --fill-gaps
-        """
-
-def _get_alignments(wildcards):
-    checkpoint_output = checkpoints.partition_sequences.get(**wildcards).output[0]
-    return expand("results/split_alignments/{i}.fasta",
-                  i=glob_wildcards(os.path.join(checkpoint_output, "{i}.fasta")).i)
-
-rule aggregate_alignments:
-    message: "Collecting alignments"
-    input:
-        alignments = _get_alignments
-    output:
-        alignment = "results/aligned.fasta"
-    conda: "../envs/nextstrain.yaml"
-    shell:
-        """
-        cat {input.alignments} > {output.alignment}
         """
 
 rule mask:
@@ -113,7 +86,7 @@ rule mask:
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = rules.aggregate_alignments.output.alignment
+        alignment = rules.align.output.alignment
     output:
         alignment = "results/masked.fasta"
     params:

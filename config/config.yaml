@@ -7,6 +7,7 @@ slack_token: ~
 slack_channel: "#ncov-gisaid-updates"
 sequences: "data/sequences.fasta"
 metadata: "data/metadata.tsv"
+curated_alignment: "data/curated_alignment.fasta"
 
 reference_node_name: "USA/WA1/2020"
 
