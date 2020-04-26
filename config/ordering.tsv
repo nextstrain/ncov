@@ -199,6 +199,10 @@ location	Vila Velha
 location	Mexico City
 location	La Crosse County
 location	King County
+location	Whatcom County
+location	Yakima County
+location	Thurston County
+location	Skagit County
 location	Snohomish County
 location	Pierce County
 location	Solano County
@@ -315,6 +319,7 @@ division	Keelung
 division	Taoyuan
 division	Aichi
 division	Tokyo
+division	Japan
 division	Chiba
 division	Ishikawa
 division	Saitama
