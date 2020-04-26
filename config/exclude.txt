@@ -75,6 +75,7 @@ Scotland/EDB034/2020
 Singapore/28/2020
 Singapore/31/2020
 Singapore/32/2020
+USA/CA-CZB0706/2020
 USA/CT-Yale-001/2020
 USA/MN-MDH-146/2020
 USA/MN135-MDH135/2020
@@ -121,6 +122,12 @@ USA/WA-UW230/2020
 Italy/UniMI02/2020
 USA/CT-UW230/2020
 USA/WI-GMF-00237/2020
+USA/ID-UW-4100/2020
+USA/WA-UW-4568/2020
+USA/WA-UW-3841/2020
+USA/WI-GMF-00049/2020
+HongKong/XM-PII-S4/2020
+HongKong/HKPU1_2101/2020
 
 # These are removed by 'iqd' cutoff in Treetime repeatedly or >50% time
 # exclude before this step
