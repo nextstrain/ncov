@@ -136,7 +136,7 @@ def _get_alignments_for_tree(wildcards):
     sequences for regional builds.
     """
     if wildcards.region == "global":
-        return rules.mask.output.alignment
+        return rules.subsample_focus.output.sequences
     else:
         return rules.subsample_regions.output.alignment
 

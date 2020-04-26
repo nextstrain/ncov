@@ -52,6 +52,18 @@ rule export_all_regions:
         colors_file = expand("config/colors_{region}.tsv", region=REGIONS),
         auspice_json = expand(REGION_PATH + "ncov_with_accessions.json", region=REGIONS),
 
+def _get_sequences_per_group_by_wildcards(wildcards):
+    if wildcards.region == "global":
+        return config["subsample_focus"]["seq_per_group_global"]
+    else:
+        return config["subsample_focus"]["seq_per_group_regional"]
+
+def _get_exclude_argument_by_wildcards(wildcards):
+    if wildcards.region == "global":
+        return ""
+    else:
+        return f"--exclude-where region!={wildcards.region}"
+
 rule subsample_focus:
     message:
         """
@@ -65,7 +77,8 @@ rule subsample_focus:
         sequences = REGION_PATH + "subsample_focus.fasta"
     params:
         group_by = config["subsample_focus"]["group_by"],
-        sequences_per_group = config["subsample_focus"]["seq_per_group_regional"]
+        sequences_per_group = _get_sequences_per_group_by_wildcards,
+        exclude_argument = _get_exclude_argument_by_wildcards
     conda: "../envs/nextstrain.yaml"
     shell:
         """
@@ -73,7 +86,7 @@ rule subsample_focus:
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --include {input.include} \
-            --exclude-where region!={wildcards.region} \
+            {params.exclude_argument} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences} \
