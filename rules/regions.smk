@@ -160,7 +160,7 @@ rule adjust_metadata_regions:
     shell:
         """
         python3 scripts/adjust_regional_meta.py \
-            --region "$region" \
+            --region "{wildcards.region}" \
             --metadata {input.metadata} \
             --output {output.metadata}
         """
