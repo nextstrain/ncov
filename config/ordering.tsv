@@ -51,6 +51,10 @@ location	Kathmandu
 location	Thanh Hoa
 location	Hanoi
 location	Bangkok
+location	Kolkata
+location	East Medinipur
+location	Tehatta
+location	Darjeeling
 location	Singapore
 location	Gold Coast
 location	Sydney
@@ -297,6 +301,7 @@ location	Accra
 
 
 
+
 division	China
 division	Hubei
 division	Guangxi
@@ -340,6 +345,7 @@ division	Kathmandu
 division	Karnataka
 division	Gujarat
 division	Kerala
+division	West Bengal
 division	Kochi
 division	Khyber Pakhtunkhwa
 division	Ramat Gan
