@@ -52,7 +52,7 @@ rule export_all_regions:
     input:
         colors_file = expand("config/colors_{region}.tsv", region=REGIONS),
         auspice_json = expand(REGION_PATH + "ncov_with_accessions.json", region=REGIONS),
-        lat_longs = config["files"]["lat_longs"], #files.lat_longs,
+        lat_longs = config["files"]["lat_longs"],
         metadata = expand(REGION_PATH + "metadata_adjusted.tsv", region=REGIONS),
         colors = expand("config/colors_{region}.tsv", region=REGIONS),
     conda: "../envs/nextstrain.yaml"
