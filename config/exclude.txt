@@ -311,6 +311,3 @@ Ecuador/HGSQ-USFQ-010/2020
 
 #excluding due to incorrect collection duplicate
 Uruguay/UY-3/2020
-
-#excluding due to sudden name switch in GISAID where this sequences was labelled as from Wales
-tiger/USA/NY-040420/2020
