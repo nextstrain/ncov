@@ -47,10 +47,22 @@ rule clean_export_regions:
 
 # Allows 'normal' run of export to be forced to correct lat-long & ordering
 # Just runs this, not ZH & GISAID, to speed up & reduce errors.
+# Runs an additional script to give a list of locations that need colors and/or lat-longs
 rule export_all_regions:
     input:
         colors_file = expand("config/colors_{region}.tsv", region=REGIONS),
         auspice_json = expand(REGION_PATH + "ncov_with_accessions.json", region=REGIONS),
+        lat_longs = files.lat_longs,
+        metadata = expand("results/metadata_adjusted{region}.tsv", region=REGIONS),
+        colors = expand("config/colors{region}.tsv", region=REGIONS),
+    conda: "../envs/nextstrain.yaml"
+    shell:
+        """
+        python3 ./scripts/check_missing_locations.py \
+            --metadata {input.metadata} \
+            --colors {input.colors} \
+            --latlong {input.lat_longs} 
+        """
 
 def _get_sequences_per_group_by_wildcards(wildcards):
     if wildcards.region == "global":
