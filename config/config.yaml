@@ -2,6 +2,8 @@
 # To temporarily override or provide a value, you can use snakemake's --config
 # or --configfile options.
 ---
+
+# S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
 s3_staging_url: s3://nextstrain-staging
 slack_token: ~
 slack_channel: "#ncov-gisaid-updates"
