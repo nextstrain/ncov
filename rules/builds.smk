@@ -131,6 +131,132 @@ rule mask:
             --output {output.alignment}
         """
 
+def _get_sequences_per_group_by_wildcards(wildcards):
+    if wildcards.region == "global":
+        return config["subsample_focus"]["seq_per_group_global"]
+    else:
+        return config["subsample_focus"]["seq_per_group_regional"]
+
+def _get_exclude_argument_by_wildcards(wildcards):
+    if wildcards.region == "global":
+        return ""
+    else:
+        return f"--exclude-where region!={wildcards.region}"
+
+rule subsample_focus:
+    message:
+        """
+        Subsample all sequences into a focal set for {wildcards.region} with {params.sequences_per_group} per region
+        """
+    input:
+        sequences = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata,
+        include = config["files"]["include"]
+    output:
+        sequences = REGION_PATH + "subsample_focus.fasta"
+    params:
+        group_by = config["subsample_focus"]["group_by"],
+        sequences_per_group = _get_sequences_per_group_by_wildcards,
+        exclude_argument = _get_exclude_argument_by_wildcards
+    conda: "../envs/nextstrain.yaml"
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --include {input.include} \
+            {params.exclude_argument} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --output {output.sequences} \
+        """
+
+rule make_priorities:
+    message:
+        """
+        determine priority for inclusion in as phylogenetic context by
+        genetic similiarity to sequences in focal set for region '{wildcards.region}'.
+        """
+    input:
+        alignment = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata,
+        focal_alignment = rules.subsample_focus.output.sequences
+    output:
+        priorities = REGION_PATH + "subsampling_priorities.tsv"
+    resources:
+        mem_mb = 4000
+    conda: "../envs/nextstrain.yaml"
+    shell:
+        """
+        python3 scripts/priorities.py --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --focal-alignment {input.focal_alignment} \
+            --output {output.priorities}
+        """
+
+rule subsample_context:
+    message:
+        """
+        Subsample the non-focal sequences to provide phylogenetic context for the region '{wildcards.region}' using {params.sequences_per_group} per {params.group_by}.
+        """
+    input:
+        sequences = rules.mask.output.alignment,
+        metadata = rules.download.output.metadata,
+        priorities = rules.make_priorities.output.priorities
+    output:
+        sequences = REGION_PATH + "subsample_context.fasta"
+    params:
+        group_by = config["subsample_context"]["group_by"],
+        sequences_per_group = config["subsample_context"]["sequences_per_group"]
+    conda: "../envs/nextstrain.yaml"
+    shell:
+        """
+        augur filter \
+            --exclude-where region={wildcards.region} \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --priority {input.priorities} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --output {output.sequences}
+        """
+
+rule subsample_regions:
+    message:
+        """
+        Combine and deduplicate FASTAs
+        """
+    input:
+        rules.subsample_focus.output.sequences,
+        rules.subsample_context.output.sequences
+    output:
+        alignment = REGION_PATH + "subsampled_alignment.fasta"
+    conda: "../envs/nextstrain.yaml"
+    shell:
+        """
+        python3 scripts/combine-and-dedup-fastas.py \
+            --input {input} \
+            --output {output}
+        """
+
+rule adjust_metadata_regions:
+    message:
+        """
+        Adjusting metadata for region '{wildcards.region}'
+        """
+    input:
+        metadata = rules.download.output.metadata
+    output:
+        metadata = REGION_PATH + "metadata_adjusted.tsv"
+    conda: "../envs/nextstrain.yaml"
+    shell:
+        """
+        python3 scripts/adjust_regional_meta.py \
+            --region "{wildcards.region}" \
+            --metadata {input.metadata} \
+            --output {output.metadata}
+        """
+
 def _get_alignments_for_tree(wildcards):
     """Use all sequences for global builds. Use a specific subsampled set of
     sequences for regional builds.
@@ -435,68 +561,6 @@ rule export:
             --output {output.auspice_json}
         """
 
-rule export_gisaid:
-    message: "Exporting data files for for auspice"
-    input:
-        tree = rules.refine.output.tree,
-        metadata = _get_metadata_by_wildcards,
-        branch_lengths = rules.refine.output.node_data,
-        nt_muts = rules.ancestral.output.node_data,
-        aa_muts = rules.translate.output.node_data,
-        traits = rules.traits.output.node_data,
-        auspice_config = config["files"]["auspice_config_gisaid"],
-        colors = rules.colors.output.colors,
-        lat_longs = config["files"]["lat_longs"],
-        description = config["files"]["description"],
-        clades = rules.clades.output.clade_data,
-        recency = rules.recency.output
-    output:
-        auspice_json = REGION_PATH + "ncov_gisaid_with_accessions.json"
-    conda: "../envs/nextstrain.yaml"
-    shell:
-        """
-        augur export v2 \
-            --tree {input.tree} \
-            --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
-            --auspice-config {input.auspice_config} \
-            --colors {input.colors} \
-            --lat-longs {input.lat_longs} \
-            --description {input.description} \
-            --output {output.auspice_json}
-        """
-
-rule export_zh:
-    message: "Exporting data files for for auspice"
-    input:
-        tree = rules.refine.output.tree,
-        metadata = _get_metadata_by_wildcards,
-        branch_lengths = rules.refine.output.node_data,
-        nt_muts = rules.ancestral.output.node_data,
-        aa_muts = rules.translate.output.node_data,
-        traits = rules.traits.output.node_data,
-        auspice_config = config["files"]["auspice_config_zh"],
-        colors = rules.colors.output.colors,
-        lat_longs = config["files"]["lat_longs"],
-        description = config["files"]["description_zh"],
-        clades = rules.clades.output.clade_data,
-        recency = rules.recency.output
-    output:
-        auspice_json = REGION_PATH + "ncov_zh_with_accessions.json"
-    conda: "../envs/nextstrain.yaml"
-    shell:
-        """
-        augur export v2 \
-            --tree {input.tree} \
-            --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
-            --auspice-config {input.auspice_config} \
-            --colors {input.colors} \
-            --lat-longs {input.lat_longs} \
-            --description {input.description} \
-            --output {output.auspice_json}
-        """
-
 rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
@@ -508,52 +572,6 @@ rule incorporate_travel_history:
         exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = REGION_PATH + "ncov_with_accessions_and_travel_branches.json"
-    conda: "../envs/nextstrain.yaml"
-    shell:
-        """
-        python3 ./scripts/modify-tree-according-to-exposure.py \
-            --input {input.auspice_json} \
-            --colors {input.colors} \
-            --lat-longs {input.lat_longs} \
-            --sampling {params.sampling} \
-            --exposure {params.exposure} \
-            --output {output.auspice_json}
-        """
-
-rule incorporate_travel_history_gisaid:
-    message: "Adjusting GISAID auspice JSON to take into account travel history"
-    input:
-        auspice_json = rules.export_gisaid.output.auspice_json,
-        colors = rules.colors.output.colors,
-        lat_longs = config["files"]["lat_longs"]
-    params:
-        sampling = _get_sampling_trait_for_wildcards,
-        exposure = _get_exposure_trait_for_wildcards
-    output:
-        auspice_json = REGION_PATH + "ncov_gisaid_with_accessions_and_travel_branches.json"
-    conda: "../envs/nextstrain.yaml"
-    shell:
-        """
-        python3 ./scripts/modify-tree-according-to-exposure.py \
-            --input {input.auspice_json} \
-            --colors {input.colors} \
-            --lat-longs {input.lat_longs} \
-            --sampling {params.sampling} \
-            --exposure {params.exposure} \
-            --output {output.auspice_json}
-        """
-
-rule incorporate_travel_history_zh:
-    message: "Adjusting ZH auspice JSON to take into account travel history"
-    input:
-        auspice_json = rules.export_zh.output.auspice_json,
-        colors = rules.colors.output.colors,
-        lat_longs = config["files"]["lat_longs"]
-    params:
-        sampling = _get_sampling_trait_for_wildcards,
-        exposure = _get_exposure_trait_for_wildcards
-    output:
-        auspice_json = REGION_PATH + "ncov_zh_with_accessions_and_travel_branches.json"
     conda: "../envs/nextstrain.yaml"
     shell:
         """
@@ -578,47 +596,4 @@ rule fix_colorings:
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
             --output {output.auspice_json}
-        """
-
-rule fix_colorings_gisaid:
-    message: "Remove extraneous colorings for the GISAID build"
-    input:
-        auspice_json = rules.incorporate_travel_history_gisaid.output.auspice_json
-    output:
-        auspice_json = "auspice/ncov_{region}_gisaid.json"
-    conda: "../envs/nextstrain.yaml"
-    shell:
-        """
-        python scripts/fix-colorings.py \
-            --input {input.auspice_json} \
-            --output {output.auspice_json}
-        """
-
-rule fix_colorings_zh:
-    message: "Remove extraneous colorings for the Chinese language build"
-    input:
-        auspice_json = rules.incorporate_travel_history_zh.output.auspice_json
-    output:
-        auspice_json = "auspice/ncov_{region}_zh.json"
-    conda: "../envs/nextstrain.yaml"
-    shell:
-        """
-        python scripts/fix-colorings.py \
-            --input {input.auspice_json} \
-            --output {output.auspice_json}
-        """
-
-rule dated_json:
-    message: "Copying dated Auspice JSON"
-    input:
-        auspice_json = rules.fix_colorings.output.auspice_json,
-        tip_frequencies_json = rules.tip_frequencies.output.tip_frequencies_json
-    output:
-        dated_auspice_json = "auspice/ncov_{region}_{date}.json",
-        dated_tip_frequencies_json = "auspice/ncov_{region}_{date}_tip-frequencies.json"
-    conda: "../envs/nextstrain.yaml"
-    shell:
-        """
-        cp {input.auspice_json} {output.dated_auspice_json}
-        cp {input.tip_frequencies_json} {output.dated_tip_frequencies_json}
         """
