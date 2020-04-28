@@ -1,31 +1,36 @@
 clade	gene	site	alt
 
+20A	nuc	8782	T
+20A.1	nuc	8782	T
+20A.1	nuc	17858	G
+20A.2	nuc	8782	T
+20A.2	nuc	14805	T
+20A.3	nuc	8782	T
+20A.3	nuc	24034	T
 
-A1a	ORF3a	251	V
-A1a	ORF1a	3606	F
+20B	nuc	8782	C
+20B	nuc	14408	C
+20B.1	nuc	8782	C
+20B.1	nuc	14408	T
 
-A2	S	614	G
-A2a	ORF1b	314	L
+20B.1.1	nuc	8782	C
+20B.1.1	nuc	14408	T
+20B.1.1	nuc	28881	A
 
-A3	ORF1a	378	I
-A3	ORF1a	3606	F
+20B.1.2	nuc	8782	C
+20B.1.2	nuc	14408	T
+20B.1.2	nuc	25563	T
 
-A6	nuc	514	C
+20B.1.3	nuc	8782	C
+20B.1.3	nuc	14408	T
+20B.1.3	nuc	15324	T
 
+20B.2	nuc	8782	C
+20B.2	nuc	14405	T
 
-A7	ORF1a	3220	V
+20B.3	nuc	8782	C
+20B.3	nuc	2891	A
 
+20B.4	nuc	8782	C
+20B.4	nuc	1397	A
 
-
-
-B	ORF8	84	S
-
-B1	ORF8	84	S
-B1	nuc	18060	T
-
-B2	ORF8	84	S
-B2	nuc	29095	T
-
-B4	ORF8	84	S
-B4	N	202	N
-B4	N	202	N
