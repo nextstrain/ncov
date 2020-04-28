@@ -7,6 +7,7 @@
 s3_staging_url: s3://nextstrain-staging
 slack_token: ~
 slack_channel: "#ncov-gisaid-updates"
+# These are the two main starting files for the run
 sequences: "data/sequences.fasta"
 metadata: "data/metadata.tsv"
 
