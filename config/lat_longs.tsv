@@ -40,6 +40,7 @@ location	Chengdu	30.640989	104.067518
 location	Chicago	41.858966	-87.637242
 location	Chongqing	29.858721	107.375623
 location	Chungcheongnam	36.685948	126.799198
+location	Cincinnati	39.122033	-84.515918
 location	Clark County	45.778260	-122.491540
 location	Clayton	-37.915200	145.127165
 location	Clinton County	44.703277	-73.705166
@@ -64,6 +65,7 @@ location	Dongguan	22.992389	113.744830
 location	Duesseldorf	51.22166	6.75289
 location	Dutchess County	41.762637	-73.721778
 location	East Medinipur	22.037985	87.811563
+location	Eielson AFB	64.655387	-147.064620
 location	Eindhoven	51.4416	5.4697
 location	Elm Grove	43.047975	-88.086157
 location	England	52.405994	-1.671707
@@ -109,6 +111,7 @@ location	Houten	52.0278	5.1630
 location	Huaian	33.574586	119.132155
 location	Hudson County	40.741619	-74.059016
 location	Huizhou	23.107144	114.457913
+location	Hyderabad	17.431807	78.416233
 location	Illinois	40.088552	-89.301876
 location	Indianapolis	39.7684	-86.1581
 location	Jackson	43.325508	-88.167662
@@ -121,6 +124,7 @@ location	Jingzhou	30.350752	112.237294
 location	Joinville	-26.235559	-48.950735
 location	Jönköping	57.777979	14.160453
 location	Jumet	50.442063	4.436515
+location	Juneau	58.541037	-134.236606
 location	Juvisy-sur-Orge	48.690609	2.377581
 location	Kain	50.637121	3.379162
 location	Kaohsiung	22.622632	120.312435
@@ -302,6 +306,7 @@ location	Zhengzhou	34.714074	113.621939
 location	Zhongshan	22.542629	113.390864
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
+
 
 
 division	Aargau	47.420629	8.172097
@@ -579,6 +584,7 @@ division	Luxembourg	49.755428	6.119486
 division	Madrid	40.4168	-3.7038
 division	Malaysia	2.3923759	112.8471939
 division	Malopolskie	49.7225	20.2503
+division	Manila	14.652678	121.043936
 division	Manitoba	55.182879	-97.823531
 division	Marche	43.374025	13.161012
 division	Martin	49.0617	18.919
@@ -591,6 +597,7 @@ division	Merelbeke	50.9945	3.7456
 division	Mexico	19.4325301	-99.1332101
 division	Mexico City	19.404497	-99.143041
 division	Michigan	45.021203	-84.762273
+division	Milheeze	51.505685	5.799239
 division	Minas gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
 division	Missouri	37.9643	-91.8318
@@ -753,6 +760,7 @@ division	Talca	-35.462909	-71.37096
 division	Taoyuan	24.9936	121.301
 division	Tatarstan	56.130014	53.371181
 division	Tbilisi	41.733699	44.818487
+division	Telangana	18.094062	79.141493
 division	Teramo	42.6611	13.6987
 division	Tervuren	50.820725	4.52387
 division	Texas	31.146868	-99.188758

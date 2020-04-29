@@ -51,6 +51,7 @@ location	Kathmandu
 location	Thanh Hoa
 location	Hanoi
 location	Bangkok
+location	Hyderabad
 location	Kolkata
 location	East Medinipur
 location	Tehatta
@@ -220,8 +221,11 @@ location	Seattle
 location	Los Angeles
 location	California
 location	Columbus
+location	Cincinnati
 location	Ketchikan
 location	Fairbanks
+location	Juneau
+location	Eielson AFB
 location	Anchorage
 location	San Francisco
 location	San Diego County
@@ -327,6 +331,7 @@ division	Taiwan
 division	Taipei
 division	New Taipei City
 division	Philippines
+division	Manila
 division	Keelung
 division	Taoyuan
 division	Aichi
@@ -345,6 +350,7 @@ division	Seoul
 division	South Korea
 division	Nepal
 division	India
+division	Telangana
 division	Sri Lanka
 division	Selangor
 division	Kuala Lumpur
@@ -605,6 +611,7 @@ division	Baden-Wuerttemberg
 division	Munich
 division	North Rhine Westphalia
 division	Netherlands
+division	Milheeze
 division	Utrecht
 division	Deinze
 division	Antwerp
