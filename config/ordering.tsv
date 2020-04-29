@@ -326,6 +326,7 @@ division	Hong Kong
 division	Taiwan
 division	Taipei
 division	New Taipei City
+division	Philippines
 division	Keelung
 division	Taoyuan
 division	Aichi
@@ -342,6 +343,9 @@ division	Gyeonggi
 division	Chungcheongnam
 division	Seoul
 division	South Korea
+division	Nepal
+division	India
+division	Sri Lanka
 division	Selangor
 division	Kuala Lumpur
 division	Kathmandu
@@ -374,24 +378,37 @@ division	Kastamonu
 division	Balikesir
 division	Gilgit Baltistan
 division	Tbilisi
+division	Vietnam
 division	Thanh Hoa
 division	Ho Chi Minh City
 division	Vinhphuc
 division	Red River Delta
 division	Quangning
+division	Cambodia
 division	Sihanoukville
 division	Nonthaburi
+division	Thailand
 division	Bangkok
+division	Malaysia
 division	Singapore
+division	Australia
 division	Queensland
 division	Northern Territory
 division	New South Wales
 division	Western Australia
 division	Victoria
 division	Wellington
+division	New Zealand
 division	Otago
 division	Auckland
+division	Saudi Arabia
 division	Riyadh
+division	Qatar
+division	Israel
+division	Jordan
+division	Turkey
+division	Pakistan
+division	Russia
 division	Saint-Petersburg
 division	Moscow
 division	Moscow Region
@@ -418,19 +435,30 @@ division	Republic of Sakha
 division	Republic of Kabardino-Balkaria
 division	Republic of Crymea
 division	Republic of Tatarstan
+division	Slovenia
+division	Poland
+division	Belarus
+division	Estonia
 division	Europe
+division	Iceland
 division	Reykjavik
 division	Helsinki
+division	Latvia
 division	Riga
+division	Lithuania
 division	Vilnius
+division	Norway
 division	Oslo
 division	Istria
+division	Hungary
 division	Central Hungary
 division	Baranya
 division	Kostoliste
 division	Kosice
+division	Slovakia
 division	Bratislava
 division	Malopolskie
+division	Czech Republic
 division	Prague
 division	Martin
 division	Copenhagen
@@ -639,6 +667,7 @@ division	Northern Ireland
 division	England
 division	Nottinghamshire
 division	Wales
+division	Ireland
 division	Dublin
 division	Tipperary
 division	Louth
@@ -649,7 +678,9 @@ division	Scotland
 division	Småland
 division	Vasterbotten
 division	Halland
+division	Czech Republic
 division	Budapest
+division	Sweden
 division	Stockholm
 division	Ostergotland
 division	Sormland
@@ -657,12 +688,21 @@ division	Varmland
 division	Gavleborgs lan
 division	Orebro lan
 division	Norrbotten
+division	Greece
 division	Finland
 division	Denmark
 division	Portugal
+division	Egypt
+division	Nigeria
+division	Ghana
+division	Senegal
+division	Gambia
+division	Algeria
 division	Lagos
+division	Democratic Republic of the Congo
 division	Kinshasa
 division	Sud Kivu
+division	South Africa
 division	KwaZulu-Natal
 division	Gauteng
 division	Greater Accra
@@ -674,6 +714,9 @@ division	St-Louis
 division	Thies
 division	Blida
 division	Boufarik
+division	Chile
+division	Ecuador
+division	Brazil
 division	Santiago
 division	Talca
 division	Sao Paulo
@@ -685,19 +728,25 @@ division	Rio Grande do Sul
 division	Rio de Janeiro
 division	Santa Catarina
 division	Alagoas
+division	Argentina
 division	Ciudad Autonoma de Buenos Aires
 division	Buenos Aires
 division	Rio Negro
 division	Distrito Federal
+division	Uruguay
+division	Colombia
 division	Amazonas State
 division	Antioquia
 division	Bogota
 division	Quito
 division	Guayas
 division	Pichincha
+division	Peru
 division	Lima
 division	Montevideo
 division	Panama City
+division	Panama
+division	Mexico
 division	Mexico City
 division	Estado de Mexico
 division	Chiapas
@@ -742,6 +791,7 @@ division	Oregon
 division	Washington
 division	Hawaii
 division	Alaska
+division	Canada
 division	Nova Scotia
 division	New Brunswick
 division	Ontario
