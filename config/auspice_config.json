@@ -88,6 +88,7 @@
   },
   "filters": [
     "recency",
+    "clade_membership",
     "location",
     "division",
     "country",
@@ -100,6 +101,7 @@
   "panels": [
     "tree",
     "map",
-    "entropy"
+    "entropy",
+    "frequencies"
   ]
 }
