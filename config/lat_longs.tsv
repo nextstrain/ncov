@@ -2,6 +2,7 @@ location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
 location	Adams County	43.973540	-89.755486
 location	Aichi	35.067543	137.334061
+location	Alajuela	10.0159	-84.2142
 location	Albany County	42.601369	-73.973601
 location	Allamakee County	43.286290	-91.352362
 location	Anchorage	61.203109	-149.888095
@@ -35,6 +36,7 @@ location	California	36.357039	-119.690182
 location	Campbellsport	43.596732	-88.280763
 location	Cardiff	51.476291	-3.178964
 location	Carentan	49.302133	-1.250938
+location	Cartago	9.8638	-83.9162
 location	Cayuga County	42.900990	-76.575649
 location	Chateau-Thierry	49.048053	3.390023
 location	Chenango County	42.4972	-75.6208
@@ -106,6 +108,7 @@ location	Hawali	9.3378	48.0235
 location	Hefei	31.806280	117.227234
 location	Heinsberg	51.056262	6.113915
 location	Heinsberg District	51.0499	6.1163
+location	Heredia	9.9981	-84.1198
 location	Heverlee	50.861704	4.695889
 location	Helmond	51.4793	5.6570
 location	Hong Kong	22.3964	114.1095
@@ -228,10 +231,12 @@ location	San Carlos de Bariloche	-41.1335	-71.3103
 location	San Diego	32.733024	-117.143358
 location	San Diego County	32.981125	-116.681405
 location	San Joaquin County	37.917472	-121.258503
+location	San Juan	9.9281	-84.0907
 location	San Mateo County	37.438721	-122.348737
 location	San Francisco	37.757679	-122.440006
 location	Santa Clara County	37.236094	-121.683399
 location	Sao Paulo	-23.551096	-46.634874
+location	San Rafael	10.0145	-84.0986
 location	Saratoga County	43.0324	-73.9360
 location	Schenectady County	42.822882	-74.053939
 location	Seattle	47.748301	-121.850150
@@ -564,6 +569,7 @@ division	KwaZulu-Natal	-28.704798	30.693005
 division	Kyoto	35.007542	135.768455
 division	La Louviere	50.469989	4.158129
 division	La Rioja	42.2871	-2.5396
+division	La Union	9.7489	-83.7534
 division	Lagos	6.54252	3.286661
 division	Lanaken	50.884429	5.634002
 division	Lapland	67.700017	26.273752
@@ -655,6 +661,7 @@ division	Oostrozebeke	50.931551	3.338685
 division	Orebro lan	59.378174	14.948348
 division	Oregon	43.8041	-120.5542
 division	Orenburg Region	51.7634	54.6188
+division	Orotina	9.9120	-84.5195
 division	Osaka	34.64872	135.525013
 division	Oslo	59.903687	10.7497
 division	Ostergotland	58.402269	15.748012
@@ -679,6 +686,7 @@ division	Primorskiy Region	45.0526	135
 division	Prince Edward Island	46.344935	-63.405688
 division	Pskov Region	56.7709	29.094
 division	Puebla	19.0414	-98.2063
+division	Puerto Rico	18.2208	-66.5901
 division	Qatar	25.27932	51.52245
 division	Quangning	21.21476	107.251514
 division	Quaregnon	50.437973	3.859235
@@ -714,6 +722,7 @@ division	Sakarya	40.753425	30.384694
 division	Sakhalin Region	50.691	142.9506
 division	Samara Region	53.4184	50.4726
 division	Santa Catarina	-27.15767	-49.888561
+division	San Rafael	10.0145	-84.0986
 division	Santiago	-33.383304	-70.530623
 division	Sao Paulo	-23.59806	-46.660537
 division	Saskatchewan	53.934278	-106.16006
@@ -773,6 +782,7 @@ division	Thailand	14.8971921	100.83273
 division	Thanh Hoa	20.026365	105.439044
 division	Theux	50.518906	5.814748
 division	Thies	14.791	-16.9359
+division	Tibas	9.9576	-84.0816
 division	Ticino	46.345334	8.774813
 division	Tielt-Winge	50.922676	4.892596
 division	Tienen	50.80466	4.937784
