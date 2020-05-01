@@ -134,7 +134,7 @@ This pattern is consistent with one of these introductions to St. Petersburg tak
 
 The data from the Czech Republic show a mix of these two patterns.
 <br><br>
-There are at least 7 instances where a sample isolated in the Czech Republic descends from a virus that was mostly likely circulating elsewhere in Europe, indicating a new introduction between March 1 and April 2.
+There are at least 7 instances where a sample isolated in the Czech Republic descends from a virus that was mostly likely circulating elsewhere in Europe, indicating new introductions between March 1 and April 2.
 <br><br>
 For 5 of these introductions, we also see closely related local cases, sampled over time. This is consistent with local transmission.
 <br><br>
