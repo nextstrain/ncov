@@ -19,6 +19,11 @@
 #   snakemake --profile profiles/nextstrain
 # to produce the final Auspice files!
 
+def get_todays_date():
+    from datetime import datetime
+    date = datetime.today().strftime('%Y-%m-%d')
+    return date
+
 rule all_regions:
     input:
         auspice_json = expand("auspice/ncov_{region}.json", region=REGIONS),

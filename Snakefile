@@ -33,6 +33,13 @@ rule all:
         auspice_json = expand("auspice/ncov_{region}.json", region=REGIONS),
         tip_frequencies_json = expand("auspice/ncov_{region}_tip-frequencies.json", region=REGIONS)
 
-include: "rules/utils.smk"
+rule clean:
+    message: "Removing directories: {params}"
+    params:
+        "results ",
+        "auspice"
+    shell:
+        "rm -rfv {params}"
+
 include: "rules/builds.smk"
 include: "rules/regions.smk"
