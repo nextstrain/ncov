@@ -6,7 +6,6 @@ authors:
   - Cassia Wagner
   - Emma Hodcroft
   - James Hadfield
-  - Sidney M. Bell
   - Richard Neher
   - Trevor Bedford
 authorLinks:
@@ -23,7 +22,7 @@ translatorLinks:
 license: "CC-BY"  
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
 dataset: "https://nextstrain.org/ncov/europe/2020-04-30?d=map&f_region=Europe&legend=closed"
-
+date: 2020-May-01
 abstract: "This weekly report uses publicly shared genomic data to track the spread of COVID-19. This week, we focus on outbreak dynamics in Central and Eastern Europe."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
@@ -49,7 +48,7 @@ abstract: "This weekly report uses publicly shared genomic data to track the spr
 ```auspiceMainDisplayMarkdown
 # Executive summary
 
-We analyzed 4,442 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we report:
+We analyzed 4,442 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we focus on Central & Eastern Europe and report:
 
 * Many introductions to Russia  
 * Heterogeneous outbreak in Moscow  
@@ -72,11 +71,11 @@ We've prepared some resources that will make interpreting the data we present in
 * [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 #### External Resources  
-* [Intuition: how SARS-CoV-2 mutates and spreads](https://www.nytimes.com/interactive/2020/04/30/science/coronavirus-mutations.html).
-* [Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
+* [How SARS-CoV-2 mutates and spreads](https://www.nytimes.com/interactive/2020/04/30/science/coronavirus-mutations.html).
+* [Ask a Scientist & FAQs](https://covid19.fas.org/).
 * [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 * [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
-* [Making sense of uncertainty](https://www.theatlantic.com/health/archive/2020/04/pandemic-confusing-uncertainty/610819/).
+* [Why the coronavirus is so confusing](https://www.theatlantic.com/health/archive/2020/04/pandemic-confusing-uncertainty/610819/).
 <!-- There is no right-side text -->
 
 
@@ -123,7 +122,7 @@ Given the number of confirmed cases in Moscow, it's likely that at least some of
 We can look at St. Petersburg as a counterexample.
 <br><br>
 As with Moscow, there are samples from St. Petersburg across the tree, indicating that there have been multiple introductions.
-Contrastingly, if you 'Explore the Data Yourself' (top right) and zoom into the main cluster in the center of this view, we can see a large clade that is made up entirely of samples from St. Petersburg.
+Contrastingly, if you click 'Explore the Data Yourself' and zoom into the main cluster in the center of this view, we can see a large clade that is made up entirely of samples from St. Petersburg.
 <br><br>
 This pattern is consistent with one of these introductions to St. Petersburg taking off to spark widespread transmission across the city, starting around the first week of March. This large outbreak cluster is most closely related to samples from Western Europe, although we cannot rule out the possibility of an unsampled, intermediate transmission from elsewhere.
 <!-- There is no right side text -->
