@@ -94,8 +94,9 @@ frequencies:
 # Region-specific settings
 #
 
-# Regions to build specific builds for using intelligent subsampling.
-regions: ["global"]
+# List of regions to build specific builds for using intelligent subsampling.
+regions:
+  - global
 
 # Subsampling settings for region of focus and context.
 subsample_focus:
