@@ -41,5 +41,10 @@ rule clean:
     shell:
         "rm -rfv {params}"
 
+# Include rules to handle primary build logic from multiple sequence alignment
+# to output of auspice JSONs for a default build.
 include: "rules/builds.smk"
-include: "rules/regions.smk"
+
+# Include rules specific to the Nextstrain team including custom exports used in
+# narratives, etc.
+include: "rules/nextstrain_exports.smk"
