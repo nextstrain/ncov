@@ -1,19 +1,8 @@
-from getpass import getuser
-from shutil import which
+from os import environ
 from socket import getfqdn
-from snakemake.logging import logger
+from getpass import getuser
 from snakemake.utils import validate
-import sys
 
-#
-# Verify that required versions of dependencies are installed.
-#
-if not (which("docker") and which("nextstrain")) and not which("conda"):
-    logger.error("ERROR: The Nextstrain CLI and Docker must be installed or conda must be installed.")
-    logger.error("Please follow installation instructions at https://nextstrain.org/docs/ and try again.")
-    sys.exit(1)
-
-# Load and validate configuration.
 configfile: "config/config.yaml"
 validate(config, schema="schemas/config.schema.yaml")
 
