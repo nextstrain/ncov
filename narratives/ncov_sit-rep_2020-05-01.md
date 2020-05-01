@@ -22,7 +22,7 @@ translators:
 translatorLinks:
 license: "CC-BY"  
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
-dataset: "https://nextstrain.org/ncov/europe/2020-04-30?d=map&legend=closed"
+dataset: "https://nextstrain.org/ncov/europe/2020-04-30?d=map&f_region=Europe&legend=closed"
 
 abstract: "This weekly report uses publicly shared genomic data to track the spread of COVID-19. This week, we focus on outbreak dynamics in Central and Eastern Europe."
 ---
@@ -32,7 +32,7 @@ abstract: "This weekly report uses publicly shared genomic data to track the spr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Table of Contents](https://nextstrain.org/ncov/2020-XX-XX?d=tree,map&p=grid)
+# [Table of Contents](https://nextstrain.org/ncov/europe/2020-04-30?d=map&f_region=Europe&legend=closed)
 
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=2).     
 * [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-XX-XX?n=3).
@@ -64,7 +64,7 @@ We analyzed 4,442 publicly shared COVID-19 genomes. By comparing these viral gen
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/XX/2020-XX-XX?d=tree&p=full&legend=closed)
+# [COVID-19 Resources](https://nextstrain.org/ncov/europe/2020-04-30?d=tree&f_region=Europe&legend=closed)
 We've prepared some resources that will make interpreting the data we present in this narrative easier.
 #### Nextstrain Resources  
 * [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
@@ -97,7 +97,7 @@ For example, the map shows many samples from Iceland, the U.K., and the Netherla
 <!-- This is left-side text -->
 # [Many introductions to Russia](https://nextstrain.org/ncov/europe/2020-04-29?c=division&d=tree,map&f_country=Russia&p=full&r=division)
 
-Highlighting all of the samples from Russia, we see that they are scattered all across Russia geographically and all across the tree genomically.
+Highlighting samples from Russia, we see that they are scattered both geographically (across Russia) and genomically (across the tree).
 <br><br>
 This indicates that the epidemic in Russia was sparked by many separate introductions, rather than a single introduction followed by within-country spread.
 <br><br>
@@ -109,22 +109,23 @@ While there are a few samples towards the bottom of the tree that are most close
 <!-- This is left-side text -->
 # [Heterogeneous outbreak in Moscow](https://nextstrain.org/ncov/europe/2020-04-29?c=division&d=tree&f_country=Russia&f_division=Moscow&label=clade:A2&p=full&r=division&m=div)
 
-An example of this pattern can be seen by zooming in on samples from Moscow.
-There are a few clusters of cases that are most closely related to other samples from Moscow, indicating likely local transmission.
+An example of frequent importation can be seen by zooming in on samples from Moscow.
 <br><br>
-However, most of these cases are most closely related to samples from elsewhere, consistent with importation.
+There are a few clusters of cases which are most closely related to other samples from Moscow, indicating likely local transmission.
+However, most samples from Moscow are most closely related to samples from elsewhere, consistent with importation.
+<br><br>
 Given the number of confirmed cases in Moscow, it's likely that at least some of these introductions led to further local spread, but we don't yet have enough data to see this.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Large outbreak cluster in St. Petersburg, sparked in early March](https://nextstrain.org/ncov/europe/2020-04-29?c=division&d=tree,map&f_country=Russia&f_division=Saint-Petersburg&f_region=Europe&label=clade:A2&p=full&r=division)
+# [Large outbreak cluster in St. Petersburg, sparked in early March](https://nextstrain.org/ncov/europe/2020-04-29?c=division&d=tree&f_country=Russia&f_division=Saint-Petersburg&f_region=Europe&label=clade:A2&p=full&r=division)
 
 We can look at St. Petersburg as a counterexample.
 <br><br>
-As with Moscow, there are samples from St. Petersburg across the tree, indicating that there have been many introductions.
-However, if you 'Explore the Data Yourself' (top right) and zoom into the main cluster in the center of this view, we can see a large clade that is made up entirely of samples from St. Petersburg.
+As with Moscow, there are samples from St. Petersburg across the tree, indicating that there have been multiple introductions.
+Contrastingly, if you 'Explore the Data Yourself' (top right) and zoom into the main cluster in the center of this view, we can see a large clade that is made up entirely of samples from St. Petersburg.
 <br><br>
-This pattern is consistent with at least one of those introductions to St. Petersburg taking off to spark widespread transmission across the city, starting around the first week of March. This large outbreak cluster is most closely related to samples from Western Europe, although we cannot rule out the possibility of an unsampled, intermediate transmission from elsewhere.
+This pattern is consistent with one of these introductions to St. Petersburg taking off to spark widespread transmission across the city, starting around the first week of March. This large outbreak cluster is most closely related to samples from Western Europe, although we cannot rule out the possibility of an unsampled, intermediate transmission from elsewhere.
 <!-- There is no right side text -->
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -133,7 +134,7 @@ This pattern is consistent with at least one of those introductions to St. Peter
 
 The data from the Czech Republic show a mix of these two patterns.
 <br><br>
-There are at least 7 instances where a sample isolated in the Czech Republic descends from a virus that was mostly likely circulating elsewhere, indicating a new introduction. These all descend from other European lineages, and were sampled between March 1 and April 2.
+There are at least 7 instances where a sample isolated in the Czech Republic descends from a virus that was mostly likely circulating elsewhere in Europe, indicating a new introduction between March 1 and April 2.
 <br><br>
 For 5 of these introductions, we also see closely related local cases, sampled over time. This is consistent with local transmission.
 <br><br>
@@ -141,7 +142,7 @@ From this, we can say that there were at least 7 introductions to the Czech Repu
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Extensive mixing of cases across Turkey](https://nextstrain.org/ncov/europe/2020-04-29?c=country_exposure&d=tree,map&f_country=Turkey&label=clade:A2&p=full&r=division)
+# [Extensive mixing of cases across Turkey](https://nextstrain.org/ncov/europe/2020-04-29?c=country_exposure&d=tree,map&f_country=Turkey&label=clade:A2&p=full&r=division&legend=open)
 
 In the middle of the tree, we see a string of cases sampled from many different provinces around Turkey.
 Some of these cases have reported travel history to Saudi Arabia, with subsequent closely related cases in Turkey.
@@ -149,7 +150,7 @@ Some of these cases have reported travel history to Saudi Arabia, with subsequen
 Normally, we might assume that returning travelers had passed the virus to household members or neighbors back home.
 Interestingly, though, the travelers' cases were often sampled from different provinces than the most closely related cases.
 <br><br>
-This indicates that there has been extensive mixing of viral lineages which reached many provinces of Turkey within one week.
+This indicates that there has been extensive mixing of viral lineages, reaching many provinces of Turkey within one week.
 We may also speculate that a large gathering could explain these observations, although we would need additional epidemiological data to further investigate.
 <!-- There is no right-side text -->
 
