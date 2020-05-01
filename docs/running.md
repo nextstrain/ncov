@@ -1,8 +1,8 @@
 ### Running a SARS-CoV-2 analysis
 
-The pipeline described in this repo is designed primarily to run the phylogeographic analyses of SARS-CoV-2 data which are displayed on nexstrain.org, for instance [the global analysis](https://nextstrain.org/ncov/global), the [European subsampled build](https://nextstrain.org/ncov/europe), the [North American Build](https://nextstrain.org/ncov/north-america) etc.
+The pipeline described in this repo is designed primarily to run the phylogeographic analyses of SARS-CoV-2 data which are displayed on nexstrain.org, for instance [the global analysis](https://nextstrain.org/ncov/global), the [European subsampled build](https://nextstrain.org/ncov/europe), the [North American build](https://nextstrain.org/ncov/north-america) etc.
 
-It is also possible to run your own data through the analysis here.
+It is also possible to run your own data through the same analysis pipeline.
 Because Nextstrain is open-source, you may modify the analysis to suit your particular needs.
 
 #### A few points before we dive in:
@@ -32,24 +32,23 @@ We will write guidance for subsampling in a future page, but you can investigate
 
 #### Global data
 
-For the nextstrain.org analyses we use data obtained through [GISAID](https//gisaid.org).
-Please see there for how you may obtain those genomic data for your own analysis as the terms of data sharing prevent us making the sequence data publicly available.
-Included in this repository is [a curated list of metadata](../data/metadata.tsv) associated with those sequences.
+For the nextstrain.org analyses, we use data obtained through [GISAID](https//gisaid.org).
+Please see there for how to obtain that genomic data for your own analysis. The terms of data sharing prevent us making the sequence data publicly available. [A curated list of metadata](../data/metadata.tsv) included in this repository is associated with those sequences.
 
 #### Your own data
 
 This should consist of
-- a FASTA file with the (unaligned) genomes and the name must not contain characters such as spaces, or `()[]{}|#><` (except for the `>` character which starts each entry in a FASTA file).
-- the metadata corresponding to each of those genomes.  Please see the [metadata documentation](./metadata.md) for details of the format of this metadata.
+- a FASTA file with the (unaligned) genomes. Sequence names must not contain characters such as spaces, or `()[]{}|#><` (except for the `>` character which starts each entry in a FASTA file).
+- the metadata corresponding to each of your genomes.  Please see [metadata documentation](./metadata.md) for details on the format of this metadata.
 
 
 #### Combining the data
 
-Let's assume you have now have four files:
+Let's assume you now have four files:
 1. `data/global_sequences.fasta` - genomes of worldwide data to provide phylogenetic context
-2. `data/global_metadata.tsv` - Metadata of these (global) genomes. This could well be a copy of the `data/metadata.tsv` that's included with this repo.
+2. `data/global_metadata.tsv` - Metadata of these (global) genomes. This could be a copy of the `data/metadata.tsv` that's included in this repo.
 3. `data/our_sequences.fasta` - Your own sequences, in FASTA format.
-4. `data/our_metadata.tsv` - metadata of your genomes. Let's assume this follows the [same format](./metadata.md) as (2).
+4. `data/our_metadata.tsv` - metadata of your genomes. We'll assume this follows the [same format](./metadata.md) as (2).
 
 We can combine the two sets of genomes simply via
 ```bash
@@ -60,7 +59,7 @@ And, as long as the metadata formats are the same, then we can add our metadata 
 cp ./data/global_metadata.tsv ./data/metadata.tsv
 tail +2 ./data/our_metadata.tsv >> ./data/metadata.tsv
 ```
-(Please double check the columns in this new metadata TSV match up. It's not a problem if there are more entries in the metadata than there are genomes.)
+(Please double check that the columns in this new, merged metadata TSV match up. It's not a problem if there are more entries (rows) in the metadata than the total number of genomes.)
 
 
 
@@ -79,11 +78,11 @@ auspice view --datasetDir auspice
 ## Understanding the parts of the analysis
 
 The Snakemake analysis here consists of a number of rules, which are displayed below.
-Not all of the rules here are essential, or may even be desirable for your analysis.
-We maintain this snakefile primarily for our analyses, and thus your build may be able to be made a lot simpler!
-The aim of this tutorial is to walk you through the rules in this basic analysis run by Nextstrain and give you the ability to change it to suit your needs.
+Not all of the rules included are essential, or may even be desirable for your analysis.
+We maintain this snakefile primarily for our own analyses, and thus your build may be able to be made a lot simpler!
+The aim of this tutorial is to walk you through the rules in the basic analysis run by Nextstrain and to give you the ability to change it to suit your needs.
 
-> Note: this repo contains a few different Snakefiles, as we use them to automate a number of analyses, some of which are beyond the scope of this tutorial. 
+> Note: this repo contains a few different Snakefiles, as we use them to automate a number of analyses, some of which are beyond the scope of this tutorial.
 This tutorial follows the main `Snakefile`.
 
 
@@ -99,7 +98,7 @@ Please inspect the `Snakefile` to see what each rule is doing in more detail and
 
 #### My country / division does not show up on the map
 
-This is most often a result of the country / division not being present in [the file defining the latitude & longitdue of each deme](../config/lat_longs.tsv).
+This is most often a result of the country / division not being present in [the file defining the latitude & longitude of each deme](../config/lat_longs.tsv).
 Adding it to that file (and rerunning the Snakemake rules downstream of this) should fix this.
 You can rerun the appropriate parts of the build via:
 
