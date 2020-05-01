@@ -482,6 +482,7 @@ division	Martin
 division	Copenhagen
 division	Bretagne
 division	Ile de France
+division	Occitanie
 division	Centre-Val de Loire
 division	France
 division	Auvergne-Rhône-Alpes
@@ -701,6 +702,12 @@ division	Czech Republic
 division	Budapest
 division	Sweden
 division	Stockholm
+division	Uppsala
+division	Dalarna
+division	Skane
+division	Jamtland
+division	Vastra Gotaland
+division	Vastmanland
 division	Ostergotland
 division	Sormland
 division	Varmland
@@ -871,7 +878,6 @@ country	Belgium
 country	Luxembourg
 country	Germany
 country	Austria
-country	Croatia
 country	Switzerland
 country	Italy
 country	Spain
