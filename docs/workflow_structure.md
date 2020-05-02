@@ -13,7 +13,6 @@ The following outlines the directory structure of the ncov workflow and describe
       - `ncov_global_gisaid.json`: GISAID-specific JSON for Nextstrain team
       - `ncov_global_zh.json`: Chinese translation for global build JSON for Nextstrain team
       - `ncov_africa.json`: Africa build tree and metadata
-  - `background/`: guides on how to interpret Nextstrain visualizations and narratives
   - `config/`: files used to configure workflow
       - `config.yaml`: primary configuration file, change workflow settings like filtering or subsampling thresholds here
       - `nextstrain_config.yaml`: additional configuration for Nextstrain team that defines all regions to build. These settings get merged with primary config/config.yaml settings.
