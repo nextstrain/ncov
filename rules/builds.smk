@@ -3,7 +3,7 @@ rule download:
     output:
         sequences = config["sequences"],
         metadata = config["metadata"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         aws s3 cp s3://nextstrain-ncov-private/metadata.tsv {output.metadata:q}
@@ -29,7 +29,7 @@ rule filter:
         exclude_where = config["filter"]["exclude_where"],
         group_by = config["filter"]["group_by"],
         sequences_per_group = config["filter"]["sequences_per_group"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur filter \
@@ -51,7 +51,7 @@ checkpoint partition_sequences:
         split_sequences = directory("results/split_sequences/")
     params:
         sequences_per_group = config["partition_sequences"]["sequences_per_group"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/partition-sequences.py \
@@ -75,7 +75,7 @@ rule align:
     benchmark:
         "benchmarks/align_{cluster}.txt"
     threads: 2
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur align \
@@ -98,7 +98,7 @@ rule aggregate_alignments:
         alignments = _get_alignments
     output:
         alignment = "results/aligned.fasta"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         cat {input.alignments} > {output.alignment}
@@ -120,7 +120,7 @@ rule mask:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"],
         mask_sites = config["mask"]["mask_sites"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/mask-alignment.py \
@@ -158,7 +158,7 @@ rule subsample_focus:
         group_by = config["subsample_focus"]["group_by"],
         sequences_per_group = _get_sequences_per_group_by_wildcards,
         exclude_argument = _get_exclude_argument_by_wildcards
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur filter \
@@ -185,7 +185,7 @@ rule make_priorities:
         priorities = REGION_PATH + "subsampling_priorities.tsv"
     resources:
         mem_mb = 4000
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/priorities.py --alignment {input.alignment} \
@@ -208,7 +208,7 @@ rule subsample_context:
     params:
         group_by = config["subsample_context"]["group_by"],
         sequences_per_group = config["subsample_context"]["sequences_per_group"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur filter \
@@ -231,7 +231,7 @@ rule subsample_regions:
         rules.subsample_context.output.sequences
     output:
         alignment = REGION_PATH + "subsampled_alignment.fasta"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/combine-and-dedup-fastas.py \
@@ -248,7 +248,7 @@ rule adjust_metadata_regions:
         metadata = rules.download.output.metadata
     output:
         metadata = REGION_PATH + "metadata_adjusted.tsv"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/adjust_regional_meta.py \
@@ -280,7 +280,7 @@ rule tree:
         # memory, especially for larger alignments.
         # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
         mem_mb=lambda wildcards, input: 40 * int(input.size / 1024 / 1024)
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur tree \
@@ -326,7 +326,7 @@ rule refine:
         date_inference = config["refine"]["date_inference"],
         divergence_unit = config["refine"]["divergence_unit"],
         clock_filter_iqd = config["refine"]["clock_filter_iqd"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur refine \
@@ -360,7 +360,7 @@ rule ancestral:
         node_data = REGION_PATH + "nt_muts.json"
     params:
         inference = config["ancestral"]["inference"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur ancestral \
@@ -379,7 +379,7 @@ rule haplotype_status:
         node_data = REGION_PATH + "haplotype_status.json"
     params:
         reference_node_name = config["reference_node_name"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/annotate-haplotype-status.py \
@@ -396,7 +396,7 @@ rule translate:
         reference = config["files"]["reference"]
     output:
         node_data = REGION_PATH + "aa_muts.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur translate \
@@ -428,7 +428,7 @@ rule traits:
     params:
         columns = _get_exposure_trait_for_wildcards,
         sampling_bias_correction = config["traits"]["sampling_bias_correction"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur traits \
@@ -449,7 +449,7 @@ rule clades:
         clades = config["files"]["clades"]
     output:
         clade_data = REGION_PATH + "clades.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur clades --tree {input.tree} \
@@ -466,7 +466,7 @@ rule colors:
         metadata = _get_metadata_by_wildcards
     output:
         colors = "config/colors_{region}.tsv"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/assign-colors.py \
@@ -482,7 +482,7 @@ rule recency:
         metadata = _get_metadata_by_wildcards
     output:
         REGION_PATH + "recency.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/construct-recency-from-submission-date.py \
@@ -502,7 +502,7 @@ rule tip_frequencies:
         pivot_interval = config["frequencies"]["pivot_interval"],
         narrow_bandwidth = config["frequencies"]["narrow_bandwidth"],
         proportion_wide = config["frequencies"]["proportion_wide"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur frequencies \
@@ -546,7 +546,7 @@ rule export:
         auspice_json = REGION_PATH + "ncov_with_accessions.json"
     params:
         title = export_title
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur export v2 \
@@ -572,7 +572,7 @@ rule incorporate_travel_history:
         exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = REGION_PATH + "ncov_with_accessions_and_travel_branches.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 ./scripts/modify-tree-according-to-exposure.py \
@@ -590,7 +590,7 @@ rule fix_colorings:
         auspice_json = rules.incorporate_travel_history.output.auspice_json
     output:
         auspice_json = "auspice/ncov_{region}.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python scripts/fix-colorings.py \

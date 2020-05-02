@@ -46,7 +46,7 @@ rule clean_export_regions:
         "auspice/ncov*_gisaid.json",
         "auspice/ncov*_zh.json",
         "config/colors_*.tsv"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         "rm -f {params}"
 
@@ -60,7 +60,7 @@ rule export_all_regions:
         lat_longs = config["files"]["lat_longs"],
         metadata = expand(REGION_PATH + "metadata_adjusted.tsv", region=REGIONS),
         colors = expand("config/colors_{region}.tsv", region=REGIONS),
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 ./scripts/check_missing_locations.py \
@@ -90,7 +90,7 @@ rule export_gisaid:
         recency = rules.recency.output
     output:
         auspice_json = REGION_PATH + "ncov_gisaid_with_accessions.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur export v2 \
@@ -121,7 +121,7 @@ rule export_zh:
         recency = rules.recency.output
     output:
         auspice_json = REGION_PATH + "ncov_zh_with_accessions.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur export v2 \
@@ -146,7 +146,7 @@ rule incorporate_travel_history_gisaid:
         exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = REGION_PATH + "ncov_gisaid_with_accessions_and_travel_branches.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 ./scripts/modify-tree-according-to-exposure.py \
@@ -169,7 +169,7 @@ rule incorporate_travel_history_zh:
         exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = REGION_PATH + "ncov_zh_with_accessions_and_travel_branches.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 ./scripts/modify-tree-according-to-exposure.py \
@@ -187,7 +187,7 @@ rule fix_colorings_gisaid:
         auspice_json = rules.incorporate_travel_history_gisaid.output.auspice_json
     output:
         auspice_json = "auspice/ncov_{region}_gisaid.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python scripts/fix-colorings.py \
@@ -201,7 +201,7 @@ rule fix_colorings_zh:
         auspice_json = rules.incorporate_travel_history_zh.output.auspice_json
     output:
         auspice_json = "auspice/ncov_{region}_zh.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python scripts/fix-colorings.py \
@@ -217,7 +217,7 @@ rule dated_json:
     output:
         dated_auspice_json = "auspice/ncov_{region}_{date}.json",
         dated_tip_frequencies_json = "auspice/ncov_{region}_{date}_tip-frequencies.json"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         cp {input.auspice_json} {output.dated_auspice_json}
@@ -250,7 +250,7 @@ rule deploy_to_staging:
     params:
         slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
         s3_staging_url = config["s3_staging_url"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         nextstrain deploy {params.s3_staging_url:q} {input:q}
