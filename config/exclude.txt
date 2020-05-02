@@ -8,6 +8,8 @@ USA/WA1-A12/2020
 # Duplicates of Wuhan/IVDC-HB-envF13/2020
 Wuhan/IVDC-HB-envF13-20/2020
 Wuhan/IVDC-HB-envF13-21/2020
+env/Wuhan/IVDC-HBF13-20/2020
+env/Wuhan/IVDC-HBF13-21/2020
 
 # Duplicates of Italy/INMI1-cs/2020
 Italy/INMI1/2020
@@ -440,6 +442,7 @@ Shenzhen/SZTH-001/2020
 Shenzhen/SZTH-004/2020
 Wuhan/IPBCAMS-WH-05/2020
 Wuhan/IVDC-HB-envF54/2020
+env/Wuhan/IVDC-HBF54/2020
 Wuhan/WH02/2019
 Guangzhou/GZMU0016/2020
 Guangzhou/GZMU0047/2020
@@ -637,6 +640,8 @@ USA/UNKNOWN-UW-581/2020
 USA/UF-1/2020
 USA/UF-2/2020
 USA/FL-2/2020
+USA/FL-UF1/2020
+USA/FL-UF2/2020
 
 # causes IQTREE error: ERROR: b'ERROR: Sequence Norway_X_X_1539_X_X_2020 has invalid character I at site 20199
 # The GISAID data was subsequently updated => TODO check if this sequence has been fixed
