@@ -355,7 +355,7 @@ rule ancestral:
         """
     input:
         tree = rules.refine.output.tree,
-        alignment = rules.mask.output
+        alignment = _get_alignments_for_tree
     output:
         node_data = REGION_PATH + "nt_muts.json"
     params:
