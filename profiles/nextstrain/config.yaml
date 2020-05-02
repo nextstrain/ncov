@@ -1,6 +1,6 @@
 configfile:
   - config/config.yaml
-  - profiles/nextstrain/regions_config.yaml
+  - config/nextstrain_config.yaml
 cores: 4
 printshellcmds: True
 reason: True
