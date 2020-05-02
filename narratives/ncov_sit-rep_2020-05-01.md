@@ -55,7 +55,7 @@ We analyzed 4,442 publicly shared COVID-19 genomes. By comparing these viral gen
 * Extensive mixing of cases across Turkey following repeated travel-related introductions  
 * At least 5 local transmission chains in the Czech Republic, mostly likely due to repeated introductions from Western Europe
 * At least 11 separate introductions to Poland
-* Early samples from Hungary, Latvia, Poland, Slovakia and Slovenia  
+* Early samples from Hungary, Latvia, Slovakia and Slovenia  
 ```
 
 
@@ -205,7 +205,7 @@ While we don't yet have enough data from these countries to draw firm conclusion
 <br><br>
 #### There have been at least 11 separate introductions of the virus to Poland.  
 <br><br>
-#### We have receieved early samples from Hungary, Latvia, Slovakia and Slovenia. While we don't yet have enough data to draw conclusions, we will continue monitoring and provide updates as soon as possible.
+#### We have received early samples from Hungary, Latvia, Slovakia and Slovenia. While we don't yet have enough data to draw conclusions, we will continue monitoring and provide updates as soon as possible.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
