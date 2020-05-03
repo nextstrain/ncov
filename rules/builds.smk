@@ -405,11 +405,11 @@ rule traits:
         tree = rules.refine.output.tree,
         metadata = _get_metadata_by_wildcards
     output:
-        node_data = REGION_PATH + "traits.json",
+        node_data = REGION_PATH + "traits.json"
     params:
-        columns = _get_exposure_trait_for_wildcards,
-        sampling_bias_correction = config["traits"]["sampling_bias_correction"]
-    conda: config["conda_environment"]
+        columns = lambda w: config["traits"][w.region]["columns"],
+        sampling_bias_correction = lambda w: config["traits"][w.region]["sampling_bias_correction"]
+    conda: "../envs/nextstrain.yaml"
     shell:
         """
         augur traits \
