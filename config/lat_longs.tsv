@@ -1,13 +1,7 @@
-location	ahmedabad	23.024605	72.570805
-location	gandhinagar	23.227004	72.643142
-location	mansa	29.993811	75.400092
-division	Nur-Sultan	51.147862	71.433377
-division	samut prakarn	13.581663	100.721344
-division	pathum thani	14.043950	100.604700
-
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
 location	Adams County	43.973540	-89.755486
+location	ahmedabad	23.024605	72.570805
 location	Aichi	35.067543	137.334061
 location	Alajuela	10.0159	-84.2142
 location	Albany County	42.601369	-73.973601
@@ -95,6 +89,7 @@ location	Franklin County	44.5926	-74.3388
 location	Fuyang	32.904205	115.812367
 location	Garches	48.8461	2.1887
 location	Ganzhou	25.8307	114.9335
+location	gandhinagar	23.227004	72.643142
 location	Geluwe	50.809763	3.076704
 location	Gennevilliers	48.927444	2.292449
 location	Gilgit	35.880589	74.448161
@@ -171,6 +166,7 @@ location	Maceio	-9.586654	-35.721537
 location	Macon	46.299425	4.822063
 location	Manaus	-3.126424	-60.019807
 location	Manhattan	40.778542	-73.969920
+location	mansa	23.428814	72.656249
 location	Marin County	38.077277	-122.719060
 location	Mason County	47.4251	-123.1951
 location	Melbourne	-37.839042	145.076343
@@ -667,6 +663,7 @@ division	Norway	64.574131	11.52701029
 division	Nottinghamshire	53.134734	-0.989052
 division	Nova Scotia	44.879119	-64.020314
 division	Novosibirsk Region	55.4467	80.1044
+division	Nur-Sultan	51.147862	71.433377
 division	Occitanie	43.8927	3.2828
 division	Oceania	-25.0562891	152.008576
 division	Oevel	51.1387	4.9043
@@ -687,6 +684,7 @@ division	Overijssel	52.436273	6.463628
 division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
 division	Panama City	8.98333	-79.5166
+division	pathum thani	14.043950	100.604700
 division	Pays de la Loire	47.640237	-0.647258
 division	Pelt	51.210014	5.420519
 division	Pennsylvania	41.2033	-77.1945
@@ -737,6 +735,7 @@ division	Saitama	35.909903	139.659758
 division	Sakarya	40.753425	30.384694
 division	Sakhalin Region	50.691	142.9506
 division	Samara Region	53.4184	50.4726
+division	samut prakarn	13.581663	100.721344
 division	Santa Catarina	-27.15767	-49.888561
 division	San Rafael	10.0145	-84.0986
 division	Santiago	-33.383304	-70.530623
