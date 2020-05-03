@@ -144,7 +144,7 @@ def get_priority_argument(w):
         and config["regions"][w.region][w.subsample]["priorities"]["type"]=="proximity":
             return "--priority " + get_priorities(w)
     else:
-        ""
+        return ""
 
 rule subsample:
     message:
