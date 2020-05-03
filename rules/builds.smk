@@ -203,7 +203,7 @@ rule proximity_score:
         """
 
 
-rule subsample_regions:
+rule combine_samples:
     message:
         """
         Combine and deduplicate FASTAs
@@ -238,19 +238,10 @@ rule adjust_metadata_regions:
             --output {output.metadata}
         """
 
-def _get_alignments_for_tree(wildcards):
-    """Use all sequences for global builds. Use a specific subsampled set of
-    sequences for regional builds.
-    """
-    if wildcards.region == "global":
-        return rules.subsample_focus.output.sequences
-    else:
-        return rules.subsample_regions.output.alignment
-
 rule tree:
     message: "Building tree"
     input:
-        alignment = _get_alignments_for_tree
+        alignment = rules.combine_samples.output.alignment
     output:
         tree = REGION_PATH + "tree_raw.nwk"
     benchmark:
@@ -286,7 +277,7 @@ rule refine:
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = _get_alignments_for_tree,
+        alignment = rules.combine_samples.output.alignment,
         metadata = _get_metadata_by_wildcards
     output:
         tree = REGION_PATH + "tree.nwk",
@@ -336,7 +327,7 @@ rule ancestral:
         """
     input:
         tree = rules.refine.output.tree,
-        alignment = _get_alignments_for_tree
+        alignment = rules.combine_samples.output.alignment
     output:
         node_data = REGION_PATH + "nt_muts.json"
     params:
@@ -462,7 +453,7 @@ rule recency:
     input:
         metadata = _get_metadata_by_wildcards
     output:
-        REGION_PATH + "recency.json"
+        node_data = REGION_PATH + "recency.json"
     conda: config["conda_environment"]
     shell:
         """

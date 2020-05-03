@@ -93,38 +93,74 @@ frequencies:
   narrow_bandwidth: 0.05
   proportion_wide: 0.0
 
+
 #
 # Region-specific settings
 #
+traits:
+  north-america:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
 
-# List of regions to build specific builds for using intelligent subsampling.
+
+# Regions to build specific builds for using intelligent subsampling.
 regions:
-  - global
+  global:
+    global:
+      group_by: "division year month"
+      seq_per_group: 20
+  europe:
+    region:
+      group_by: "division year month"
+      seq_per_group: 150
+      exclude: "--exclude-where region!=Europe"
+    global:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where region=Europe"
+  asia:
+    region:
+      group_by: "division year month"
+      seq_per_group: 150
+      exclude: "--exclude-where region!=Asia"
+    global:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where region=Asia"
+  africa:
+    region:
+      group_by: "division year month"
+      seq_per_group: 150
+      exclude: "--exclude-where region!=Africa"
+    global:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where region=Africa"
+  north-america:
+    region:
+      group_by: "division year month"
+      seq_per_group: 150
+      exclude: "--exclude-where region!='North America'"
+    global:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where region='North America'"
+  oceania:
+    region:
+      group_by: "division year month"
+      seq_per_group: 150
+      exclude: "--exclude-where region!=Oceania"
+    global:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where region=Oceania"
+  south-america:
+    region:
+      group_by: "division year month"
+      seq_per_group: 150
+      exclude: "--exclude-where region!='South America'"
+    global:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where region='South America'"
 
-# Subsampling settings for region of focus and context.
-subsample_focus:
-  group_by: "division year month"
-  seq_per_group_regional: 260
-
-  # Sequences per group if the current build is not a regional build.
-  seq_per_group_global: 40
-
-subsample_context:
-  group_by: "country year month"
-  sequences_per_group: 20
-
-#
-# Priorities-specific settings
-# TODO: consider how to merge these with the region-specific settings to avoid redundancy.
-#
-
-regions_for_priorities: ["africa", "asia", "europe", "north-america", "oceania", "south-america"]
-
-# Subsampling settings for region of focus and context.
-# TODO: merge these with "subsample_focus" settings above
-subsample_focus_for_priorities:
-  group_by: "division year month"
-  seq_per_group_regional: 300
-
-  # Sequences per group if the current build is not a regional build.
-  seq_per_group_global: 150
