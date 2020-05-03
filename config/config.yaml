@@ -118,6 +118,9 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region=Europe"
+      priorities: 
+        type: "proximity"
+        focus: "region"
   asia:
     region:
       group_by: "division year month"
@@ -127,6 +130,9 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region=Asia"
+      priorities: 
+        type: "proximity"
+        focus: "region"
   africa:
     region:
       group_by: "division year month"
@@ -136,6 +142,9 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region=Africa"
+      priorities: 
+        type: "proximity"
+        focus: "region"
   north-america:
     region:
       group_by: "division year month"
@@ -145,6 +154,9 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region='North America'"
+      priorities: 
+        type: "proximity"
+        focus: "region"
   oceania:
     region:
       group_by: "division year month"
@@ -154,6 +166,9 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region=Oceania"
+      priorities: 
+        type: "proximity"
+        focus: "region"
   south-america:
     region:
       group_by: "division year month"
@@ -163,4 +178,7 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region='South America'"
+      priorities: 
+        type: "proximity"
+        focus: "region"
 
