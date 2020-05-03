@@ -164,7 +164,7 @@ rule subsample:
         exclude_argument = lambda w: config["regions"][w.region][w.subsample].get("exclude", ""),
         include_argument = lambda w: config["regions"][w.region][w.subsample].get("include", ""),
         priority_argument = get_priority_argument
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur filter \
@@ -193,7 +193,7 @@ rule proximity_score:
         priorities = REGION_PATH + "proximity_{focus}.tsv"
     resources:
         mem_mb = 4000
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/priorities.py --alignment {input.alignment} \
@@ -212,7 +212,7 @@ rule subsample_regions:
         lambda w: [REGION_PATH + f"sample-{subsample}.fasta" for subsample in config["regions"][w.region]]
     output:
         alignment = REGION_PATH + "subsampled_alignment.fasta"
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/combine-and-dedup-fastas.py \
@@ -409,7 +409,7 @@ rule traits:
     params:
         columns = lambda w: config["traits"][w.region]["columns"],
         sampling_bias_correction = lambda w: config["traits"][w.region]["sampling_bias_correction"]
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur traits \
@@ -542,7 +542,7 @@ rule export:
         auspice_json = REGION_PATH + "ncov_with_accessions.json"
     params:
         title = export_title
-    conda: "../envs/nextstrain.yaml"
+    conda: config["conda_environment"]
     shell:
         """
         augur export v2 \
