@@ -104,6 +104,7 @@ regions:
 # Subsampling settings for region of focus and context.
 subsample_focus:
   group_by: "division year month"
+  group_by_europe: "country year month"
   seq_per_group_regional: 260
 
   # Sequences per group if the current build is not a regional build.

@@ -131,6 +131,14 @@ rule mask:
             --output {output.alignment}
         """
 
+def _get_group_by_wildcards(wildcards):
+    region_key = f"group_by_{wildcards.region}"
+
+    if region_key in config["subsample_focus"]:
+        return config["subsample_focus"][region_key]
+    else:
+        return config["subsample_focus"]["group_by"]
+
 def _get_sequences_per_group_by_wildcards(wildcards):
     if wildcards.region == "global":
         return config["subsample_focus"]["seq_per_group_global"]
@@ -155,7 +163,7 @@ rule subsample_focus:
     output:
         sequences = REGION_PATH + "subsample_focus.fasta"
     params:
-        group_by = config["subsample_focus"]["group_by"],
+        group_by = _get_group_by_wildcards,
         sequences_per_group = _get_sequences_per_group_by_wildcards,
         exclude_argument = _get_focus_exclude_argument_by_wildcards
     conda: config["conda_environment"]
