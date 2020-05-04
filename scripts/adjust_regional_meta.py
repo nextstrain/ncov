@@ -13,7 +13,9 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--metadata", type = str, required=True, help="metadata")
-    parser.add_argument("--region", type=str, required=True, help="focal region")
+    parser.add_argument("--region", type=str, required=False, help="focal region")
+    parser.add_argument("--country", type=str, required=False, help="focal region")
+    parser.add_argument("--division", type=str, required=False, help="focal region")
     parser.add_argument("--output", type=str, required=True, help="adjusted metadata")
     args = parser.parse_args()
 
@@ -25,12 +27,18 @@ if __name__ == '__main__':
         "oceania": "Oceania",
         "south-america": "South America"
     }
-    focal_region = fix_casing[args.region]
 
+    metadata = pd.read_csv(args.metadata, delimiter='\t')
+
+    if args.region in fix_casing:
+        focal_region = fix_casing[args.region]
+    else:
+        metadata.to_csv(args.output, index=False, sep="\t")
+        exit()
 
     print("Adjusting metadata for focal region", args.region)
 
-    metadata = pd.read_csv(args.metadata, delimiter='\t')
+
     metadata.insert(12, 'focal', True)
 
     metadata.loc[metadata.region != focal_region, 'focal'] = False
