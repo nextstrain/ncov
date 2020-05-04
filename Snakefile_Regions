@@ -78,7 +78,7 @@ rule subsample_focus:
     output:
         sequences = "results/subsample_focus{region}.fasta"
     params:
-        group_by = "division year month",
+        #group_by = "division year month",
         seq_per_group_global = 40, # i.e. if not regional build
         seq_per_group_regional = 260
     shell:
@@ -89,12 +89,23 @@ rule subsample_focus:
         if [ "$rgn" = "_global" ]; then
             seq_per_group={params.seq_per_group_global}
             regionarg="--exclude-where region="
+            grouparg="division year month"
             region="frog"   #I don't know! It wouldn't work without something!
             echo "Filtering for a global run - $seq_per_group per division"
+        elif [ "$rgn" = "_europe" ]; then
+            seq_per_group={params.seq_per_group_regional}
+            region="${{rgn//[_y]/}}"
+            region="${{region//[-y]/ }}"
+            grouparg="country year month"
+            echo "Filtering by these groups '$grouparg'"
+            echo "Filtering for a focal run on $region - $seq_per_group per country"
+            regionarg="--exclude-where region!="
+            echo "   This is passed to augur as $regionarg'$region'"
         else
             seq_per_group={params.seq_per_group_regional}
             region="${{rgn//[_y]/}}"
             region="${{region//[-y]/ }}"
+            grouparg="division year month"
             echo "Filtering for a focal run on $region - $seq_per_group per division"
             regionarg="--exclude-where region!="
             echo "   This is passed to augur as $regionarg'$region'"
@@ -105,7 +116,7 @@ rule subsample_focus:
             --metadata {input.metadata} \
             --include {input.include} \
             $regionarg"$region" \
-            --group-by {params.group_by} \
+            --group-by $grouparg \
             --sequences-per-group $seq_per_group \
             --output {output.sequences} \
 
