@@ -102,9 +102,13 @@ traits:
     sampling_bias_correction: 2.5
     columns: ["country_exposure"]
 
+locations:
+  region: ["global", "north-america"]
+  country: ["usa", "switzerland"]
+  division: ["washington"]
 
 # Regions to build specific builds for using intelligent subsampling.
-regions:
+subsampling:
   global:
     global:
       group_by: "division year month"
@@ -118,7 +122,7 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region=Europe"
-      priorities: 
+      priorities:
         type: "proximity"
         focus: "region"
   asia:
@@ -130,7 +134,7 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region=Asia"
-      priorities: 
+      priorities:
         type: "proximity"
         focus: "region"
   africa:
@@ -142,7 +146,7 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region=Africa"
-      priorities: 
+      priorities:
         type: "proximity"
         focus: "region"
   north-america:
@@ -154,7 +158,7 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region='North America'"
-      priorities: 
+      priorities:
         type: "proximity"
         focus: "region"
   oceania:
@@ -166,7 +170,7 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region=Oceania"
-      priorities: 
+      priorities:
         type: "proximity"
         focus: "region"
   south-america:
@@ -178,7 +182,22 @@ regions:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where region='South America'"
-      priorities: 
+      priorities:
         type: "proximity"
         focus: "region"
-
+  iceland:
+    country:
+      group_by: "division year month"
+      seq_per_group: 150
+      exclude: "--exclude-where country!='Iceland'"
+    region:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where region!='Europe' country='Iceland'"
+    global:
+      group_by: "country year month"
+      seq_per_group: 2
+      exclude: "--exclude-where region='Europe'"
+      priorities:
+        type: "proximity"
+        focus: "region"

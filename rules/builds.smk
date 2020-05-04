@@ -132,16 +132,16 @@ rule mask:
         """
 
 def get_priorities(w):
-    if "priorities" in config["regions"][w.region][w.subsample] \
-        and config["regions"][w.region][w.subsample]["priorities"]["type"]=="proximity":
-        return f"{get_region_path(w)}proximity_{config['regions'][w.region][w.subsample]['priorities']['focus']}.tsv"
+    if "priorities" in config["subsampling"][w.location_name][w.subsample] \
+        and config["subsampling"][w.location_name][w.subsample]["priorities"]["type"]=="proximity":
+        return f"results/{w.location_type}/{w.location_name}/proximity_{config['subsampling'][w.location_name][w.subsample]['priorities']['focus']}.tsv"
     else:
         # TODO: find a way to make the list of input files depend on config
         return config["files"]["include"]
 
 def get_priority_argument(w):
-    if "priorities" in config["regions"][w.region][w.subsample]\
-        and config["regions"][w.region][w.subsample]["priorities"]["type"]=="proximity":
+    if "priorities" in config["subsampling"][w.location_name][w.subsample]\
+        and config["subsampling"][w.location_name][w.subsample]["priorities"]["type"]=="proximity":
             return "--priority " + get_priorities(w)
     else:
         return ""
@@ -149,7 +149,7 @@ def get_priority_argument(w):
 rule subsample:
     message:
         """
-        Subsample all sequences into a focal set for {wildcards.region} with {params.sequences_per_group} per region
+        Subsample all sequences into a focal set for {wildcards.location_type} {wildcards.location_name} with {params.sequences_per_group} per region
         """
     input:
         sequences = rules.mask.output.alignment,
@@ -157,12 +157,12 @@ rule subsample:
         include = config["files"]["include"],
         priorities = get_priorities
     output:
-        sequences = REGION_PATH + "sample-{subsample}.fasta"
+        sequences = "results/{location_type}/{location_name}/sample-{subsample}.fasta"
     params:
-        group_by = lambda w: config["regions"][w.region][w.subsample]["group_by"],
-        sequences_per_group = lambda w: config["regions"][w.region][w.subsample]["seq_per_group"],
-        exclude_argument = lambda w: config["regions"][w.region][w.subsample].get("exclude", ""),
-        include_argument = lambda w: config["regions"][w.region][w.subsample].get("include", ""),
+        group_by = lambda w: config["subsampling"][w.location_name][w.subsample]["group_by"],
+        sequences_per_group = lambda w: config["subsampling"][w.location_name][w.subsample]["seq_per_group"],
+        exclude_argument = lambda w: config["subsampling"][w.location_name][w.subsample].get("exclude", ""),
+        include_argument = lambda w: config["subsampling"][w.location_name][w.subsample].get("include", ""),
         priority_argument = get_priority_argument
     conda: config["conda_environment"]
     shell:
@@ -183,14 +183,14 @@ rule proximity_score:
     message:
         """
         determine priority for inclusion in as phylogenetic context by
-        genetic similiarity to sequences in focal set for region '{wildcards.region}'.
+        genetic similiarity to sequences in focal set for {wildcards.location_type} '{wildcards.location_name}'.
         """
     input:
         alignment = rules.mask.output.alignment,
         metadata = rules.download.output.metadata,
-        focal_alignment = REGION_PATH + "sample-{focus}.fasta"
+        focal_alignment = "results/{location_type}/{location_name}/sample-{focus}.fasta"
     output:
-        priorities = REGION_PATH + "proximity_{focus}.tsv"
+        priorities = "results/{location_type}/{location_name}/proximity_{focus}.tsv"
     resources:
         mem_mb = 4000
     conda: config["conda_environment"]
@@ -209,9 +209,9 @@ rule combine_samples:
         Combine and deduplicate FASTAs
         """
     input:
-        lambda w: [REGION_PATH + f"sample-{subsample}.fasta" for subsample in config["regions"][w.region]]
+        lambda w: [f"results/{w.location_type}/{w.location_name}/sample-{subsample}.fasta" for subsample in config["subsampling"][w.location_name]]
     output:
-        alignment = REGION_PATH + "subsampled_alignment.fasta"
+        alignment = "results/{location_type}/{location_name}/subsampled_alignment.fasta"
     conda: config["conda_environment"]
     shell:
         """
@@ -223,17 +223,17 @@ rule combine_samples:
 rule adjust_metadata_regions:
     message:
         """
-        Adjusting metadata for region '{wildcards.region}'
+        Adjusting metadata for {wildcards.location_type} '{wildcards.location_name}'
         """
     input:
         metadata = rules.download.output.metadata
     output:
-        metadata = REGION_PATH + "metadata_adjusted.tsv"
+        metadata = "results/{location_type}/{location_name}/metadata_adjusted.tsv"
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/adjust_regional_meta.py \
-            --region "{wildcards.region}" \
+            --{wildcards.location_type} "{wildcards.location_name}" \
             --metadata {input.metadata} \
             --output {output.metadata}
         """
@@ -243,9 +243,9 @@ rule tree:
     input:
         alignment = rules.combine_samples.output.alignment
     output:
-        tree = REGION_PATH + "tree_raw.nwk"
+        tree = "results/{location_type}/{location_name}/tree_raw.nwk"
     benchmark:
-        "benchmarks/tree_{region}.txt"
+        "benchmarks/tree_{location_type}_{location_name}.txt"
     threads: 4
     resources:
         # Multiple sequence alignments can use up to 40 times their disk size in
@@ -262,7 +262,7 @@ rule tree:
         """
 
 def _get_metadata_by_wildcards(wildcards):
-    if wildcards.region == "global":
+    if wildcards.location_name == "global":
         return rules.download.output.metadata
     else:
         return rules.adjust_metadata_regions.output.metadata
@@ -280,10 +280,10 @@ rule refine:
         alignment = rules.combine_samples.output.alignment,
         metadata = _get_metadata_by_wildcards
     output:
-        tree = REGION_PATH + "tree.nwk",
-        node_data = REGION_PATH + "branch_lengths.json"
+        tree = "results/{location_type}/{location_name}/tree.nwk",
+        node_data = "results/{location_type}/{location_name}/branch_lengths.json"
     benchmark:
-        "benchmarks/refine_{region}.txt"
+        "benchmarks/refine_{location_type}_{location_name}.txt"
     threads: 1
     resources:
         # Multiple sequence alignments can use up to 40 times their disk size in
@@ -329,7 +329,7 @@ rule ancestral:
         tree = rules.refine.output.tree,
         alignment = rules.combine_samples.output.alignment
     output:
-        node_data = REGION_PATH + "nt_muts.json"
+        node_data = "results/{location_type}/{location_name}/nt_muts.json"
     params:
         inference = config["ancestral"]["inference"]
     conda: config["conda_environment"]
@@ -348,7 +348,7 @@ rule haplotype_status:
     input:
         nt_muts = rules.ancestral.output.node_data
     output:
-        node_data = REGION_PATH + "haplotype_status.json"
+        node_data = "results/{location_type}/{location_name}/haplotype_status.json"
     params:
         reference_node_name = config["reference_node_name"]
     conda: config["conda_environment"]
@@ -367,7 +367,7 @@ rule translate:
         node_data = rules.ancestral.output.node_data,
         reference = config["files"]["reference"]
     output:
-        node_data = REGION_PATH + "aa_muts.json"
+        node_data = "results/{location_type}/{location_name}/aa_muts.json"
     conda: config["conda_environment"]
     shell:
         """
@@ -396,7 +396,7 @@ rule traits:
         tree = rules.refine.output.tree,
         metadata = _get_metadata_by_wildcards
     output:
-        node_data = REGION_PATH + "traits.json"
+        node_data = "results/{location_type}/{location_name}/traits.json"
     params:
         columns = lambda w: config["traits"][w.region]["columns"],
         sampling_bias_correction = lambda w: config["traits"][w.region]["sampling_bias_correction"]
@@ -420,7 +420,7 @@ rule clades:
         nuc_muts = rules.ancestral.output.node_data,
         clades = config["files"]["clades"]
     output:
-        clade_data = REGION_PATH + "clades.json"
+        clade_data = "results/{location_type}/{location_name}/clades.json"
     conda: config["conda_environment"]
     shell:
         """
@@ -437,7 +437,7 @@ rule colors:
         color_schemes = config["files"]["color_schemes"],
         metadata = _get_metadata_by_wildcards
     output:
-        colors = "config/colors_{region}.tsv"
+        colors = "config/colors_{location_type}_{location_name}.tsv"
     conda: config["conda_environment"]
     shell:
         """
@@ -453,7 +453,7 @@ rule recency:
     input:
         metadata = _get_metadata_by_wildcards
     output:
-        node_data = REGION_PATH + "recency.json"
+        node_data = "results/{location_type}/{location_name}/recency.json"
     conda: config["conda_environment"]
     shell:
         """
@@ -468,7 +468,7 @@ rule tip_frequencies:
         tree = rules.refine.output.tree,
         metadata = _get_metadata_by_wildcards
     output:
-        tip_frequencies_json = "auspice/ncov_{region}_tip-frequencies.json"
+        tip_frequencies_json = "auspice/ncov_{location_type}_{location_name}_tip-frequencies.json"
     params:
         min_date = config["frequencies"]["min_date"],
         pivot_interval = config["frequencies"]["pivot_interval"],
@@ -530,7 +530,7 @@ rule export:
         lat_longs = config["files"]["lat_longs"],
         description = config["files"]["description"]
     output:
-        auspice_json = REGION_PATH + "ncov_with_accessions.json"
+        auspice_json = "results/{location_type}/{location_name}/ncov_with_accessions.json"
     params:
         title = export_title
     conda: config["conda_environment"]
@@ -558,7 +558,7 @@ rule incorporate_travel_history:
         sampling = _get_sampling_trait_for_wildcards,
         exposure = _get_exposure_trait_for_wildcards
     output:
-        auspice_json = REGION_PATH + "ncov_with_accessions_and_travel_branches.json"
+        auspice_json = "results/{location_type}/{location_name}/ncov_with_accessions_and_travel_branches.json"
     conda: config["conda_environment"]
     shell:
         """
@@ -576,7 +576,7 @@ rule fix_colorings:
     input:
         auspice_json = rules.incorporate_travel_history.output.auspice_json
     output:
-        auspice_json = "auspice/ncov_{region}.json"
+        auspice_json = "auspice/ncov_{location_type}_{location_name}.json"
     conda: config["conda_environment"]
     shell:
         """

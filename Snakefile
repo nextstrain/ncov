@@ -23,10 +23,6 @@ wildcard_constraints:
 
 localrules: download
 
-# Define the format of the output path per region.
-# This format can be changed in the future to group builds by different criteria (e.g., division, country, etc.).
-REGION_PATH = "results/region/{region}/"
-
 # Create a standard ncov build for auspice, by default.
 rule all:
     input:
