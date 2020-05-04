@@ -14,10 +14,9 @@ If you'd like to customize and run the analysis yourself, please see the [develo
 
 ## How to run using your own data
 
-Please see
-- [How to format the metadata](./docs/metadata.md)
-- [Running a SARS-CoV-2 analysis](./docs/running.md)
-
+  - [How to format the metadata](./docs/metadata.md)
+  - [Running a SARS-CoV-2 analysis](./docs/running.md)
+  - [Understanding the structure of the workflow](./docs/workflow_structure.md) including directory structure and the order in which Snakemake runs rules
 
 ## Contributing
 

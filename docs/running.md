@@ -8,7 +8,7 @@ Because Nextstrain is open-source, you may modify the analysis to suit your part
 #### A few points before we dive in:
 
 - If you haven't run an analysis using Nextstrain before, I **highly recommend** running the [zika tutorial](https://nextstrain.org/docs/tutorials/zika) first, which introduces these concepts in a gentler fashion.
-- If you would like to use Nextstrain Groups, such as [this one](https://nextstrain.org/groups/blab/), to share your results through nextstrain.org then please get in touch! You will have control & ownership of the datasets and narratives, but they can be shared freely through nextstrain.org. These are also available in a private fashion for sensitive data.
+- If you would like to use Nextstrain Groups, such as [this one](https://nextstrain.org/groups/blab/), to share your results through nextstrain.org then please [get in touch](mailto:hello@nextstrain.org)! You will have control & ownership of the datasets and narratives, but they can be shared freely through nextstrain.org. These are also available in a private fashion for sensitive data.
 
 
 #### This page consists of four parts:
@@ -61,19 +61,45 @@ tail +2 ./data/our_metadata.tsv >> ./data/metadata.tsv
 ```
 (Please double check that the columns in this new, merged metadata TSV match up. It's not a problem if there are more entries (rows) in the metadata than the total number of genomes.)
 
+## Configure your Snakemake profile
 
+You can define all the settings you commonly use to execute Snakemake with a [Snakemake profile](https://snakemake.readthedocs.io/en/stable/executing/cli.html#profiles).
+Profiles save keystrokes and document how you prefer to run your pipelines.
+For example, if you prefer to run your pipeline with at most 2 CPUs at a time and print both commands and the reasons for the commands being run, you would normally run the following command.
+
+```bash
+snakemake --cores 2 --printshellcmds --reason
+```
+
+However, you can get the same result by defining a profile config file (e.g., `profiles/default/config.yaml`) and running the following command.
+
+```bash
+snakemake --profile profiles/default
+```
+
+For the purposes of this tutorial, we provide this default profile that you can modify to meet your own needs.
+
+## Configuring your build
+
+The default build is parameterized by a [Snakemake configuration file](https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html) named `config/config.yaml`.
+Inspect this [YAML file](https://yaml.org/) and modify any parameters as needed for your own analyses.
+When you run the default build using the instructions below, the build commands will reflect your changes.
+
+If you need to change the default build in a way that isn't represented by the configuration file, [create a new issue in the ncov repository](https://github.com/nextstrain/ncov/issues/new) to let us know.
 
 ## Running the default build
 
 If the data is in the correct formats (`./data/sequences.fasta` & `./data/metadata.tsv`) then we can generate the analysis by simply running
+
 ```bash
-snakemake -p -s Snakefile --cores 2 auspice/ncov.json
-```
-Which will produce a `./auspice/ncov.json` file which you can visualise in Auspice via
-```
-auspice view --datasetDir auspice
+snakemake --profile profiles/default
 ```
 
+Which will produce a `./auspice/ncov_global.json` file which you can visualise in Auspice via
+
+```bash
+auspice view --datasetDir auspice
+```
 
 ## Understanding the parts of the analysis
 
@@ -103,8 +129,8 @@ Adding it to that file (and rerunning the Snakemake rules downstream of this) sh
 You can rerun the appropriate parts of the build via:
 
 ```bash
-snakemake -s Snakefile --cores 2 -p -f results/ncov_with_accessions.json
-snakemake -s Snakefile --cores 2 -p -f auspice/ncov.tsv
+snakemake --profile profiles/default -f results/region/global/ncov_with_accessions.json
+snakemake --profile profiles/default -f auspice/ncov_global.json
 ```
 
 #### My trait (e.g. division) is grey instead of colored
@@ -113,10 +139,9 @@ We generate the colors from the `colors` rule in the Snakefile, which uses the [
 Once you've modified this file, you can regenerate the appropriate parts of the analysis via:
 
 ```bash
-snakemake -s Snakefile --cores 2 -p -f config/colors.tsv
-snakemake -s Snakefile --cores 2 -p -f auspice/ncov.tsv
+snakemake --profile profiles/default -f config/colors_global.tsv
+snakemake --profile profiles/default -f auspice/ncov_global.json
 ```
-
 
 #### My genomes aren't included in the analysis
 
