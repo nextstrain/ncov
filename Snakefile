@@ -6,19 +6,17 @@ from snakemake.utils import validate
 configfile: "config/config.yaml"
 validate(config, schema="schemas/config.schema.yaml")
 
-# For information on how to run 'regions' runs, see rules/regions.smk
-# Regions can be defined as a list or a space-delimited string that is converted
-# to a list.
-if "regions" not in config:
-    REGIONS ={"global": [{"name": "global", "group_by": "country month year", "seq_per_group": 10}]}
-elif isinstance(config["regions"], dict):
-    REGIONS = config["regions"]
-else:
-    REGIONS = {}
+LOCATIONS = [
+    (location_type, location)
+    for location_type, location_values in config["locations"].items()
+    for location in location_values
+]
+LOCATION_TYPES, LOCATION_NAMES = list(zip(*LOCATIONS))
 
 # Define patterns we expect for wildcards.
 wildcard_constraints:
-    region = "[-a-zA-Z]+",
+    location_type = "[-a-zA-Z]+",
+    location_name = "[-a-zA-Z]+",
     date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 localrules: download
@@ -26,8 +24,8 @@ localrules: download
 # Create a standard ncov build for auspice, by default.
 rule all:
     input:
-        auspice_json = expand("auspice/ncov_{region}.json", region=REGIONS),
-        tip_frequencies_json = expand("auspice/ncov_{region}_tip-frequencies.json", region=REGIONS)
+        auspice_json = expand("auspice/ncov_{location_type}_{location_name}.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
+        tip_frequencies_json = expand("auspice/ncov_{location_type}_{location_name}_tip-frequencies.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES)
 
 rule clean:
     message: "Removing directories: {params}"
@@ -43,4 +41,5 @@ include: "rules/builds.smk"
 
 # Include rules specific to the Nextstrain team including custom exports used in
 # narratives, etc.
-include: "rules/nextstrain_exports.smk"
+# TODO: reenable custom exports
+#include: "rules/nextstrain_exports.smk"

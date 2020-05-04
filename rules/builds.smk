@@ -131,25 +131,60 @@ rule mask:
             --output {output.alignment}
         """
 
-def get_priorities(w):
-    if "priorities" in config["subsampling"][w.location_name][w.subsample] \
-        and config["subsampling"][w.location_name][w.subsample]["priorities"]["type"]=="proximity":
-        return f"results/{w.location_type}/{w.location_name}/proximity_{config['subsampling'][w.location_name][w.subsample]['priorities']['focus']}.tsv"
+def _get_subsampling_settings(wildcards):
+    # Allow users to override default subsampling with their own settings keyed
+    # by location type and name. For example, "region_europe" or
+    # "country_iceland". Otherwise, default to settings for the location type.
+    custom_subsampling_key = f"{wildcards.location_type}_{wildcards.location_name}"
+
+    if custom_subsampling_key in config["subsampling"]:
+        subsampling_settings = config["subsampling"][custom_subsampling_key]
+    else:
+        subsampling_settings = config["subsampling"][wildcards.location_type]
+
+    if hasattr(wildcards, "subsample"):
+        return subsampling_settings[wildcards.subsample]
+    else:
+        return subsampling_settings
+
+def get_priorities(wildcards):
+    subsampling_settings = _get_subsampling_settings(wildcards)
+
+    if "priorities" in subsampling_settings and subsampling_settings["priorities"]["type"] == "proximity":
+        return f"results/{wildcards.location_type}/{wildcards.location_name}/proximity_{subsampling_settings['priorities']['focus']}.tsv"
     else:
         # TODO: find a way to make the list of input files depend on config
         return config["files"]["include"]
 
-def get_priority_argument(w):
-    if "priorities" in config["subsampling"][w.location_name][w.subsample]\
-        and config["subsampling"][w.location_name][w.subsample]["priorities"]["type"]=="proximity":
-            return "--priority " + get_priorities(w)
+def get_priority_argument(wildcards):
+    subsampling_settings = _get_subsampling_settings(wildcards)
+
+    if "priorities" in subsampling_settings and subsampling_settings["priorities"]["type"] == "proximity":
+        return "--priority " + get_priorities(wildcards)
     else:
         return ""
+
+def _get_subsample_group_by(wildcards):
+    return _get_subsampling_settings(wildcards)["group_by"]
+
+def _get_specific_subsampling_setting(setting, optional=False):
+    def _get_setting(wildcards):
+        if optional:
+            value = _get_subsampling_settings(wildcards).get(setting, "")
+        else:
+            value = _get_subsampling_settings(wildcards)[setting]
+
+        if isinstance(value, str):
+            return value.format(**wildcards)
+        else:
+            return value
+
+    return _get_setting
 
 rule subsample:
     message:
         """
-        Subsample all sequences into a focal set for {wildcards.location_type} {wildcards.location_name} with {params.sequences_per_group} per region
+        Subsample all sequences into a {wildcards.subsample} set for {wildcards.location_type} {wildcards.location_name} with {params.sequences_per_group} per {params.group_by}
         """
     input:
         sequences = rules.mask.output.alignment,
@@ -159,10 +194,10 @@ rule subsample:
     output:
         sequences = "results/{location_type}/{location_name}/sample-{subsample}.fasta"
     params:
-        group_by = lambda w: config["subsampling"][w.location_name][w.subsample]["group_by"],
-        sequences_per_group = lambda w: config["subsampling"][w.location_name][w.subsample]["seq_per_group"],
-        exclude_argument = lambda w: config["subsampling"][w.location_name][w.subsample].get("exclude", ""),
-        include_argument = lambda w: config["subsampling"][w.location_name][w.subsample].get("include", ""),
+        group_by = _get_specific_subsampling_setting("group_by"),
+        sequences_per_group = _get_specific_subsampling_setting("seq_per_group"),
+        exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
+        include_argument = _get_specific_subsampling_setting("include", optional=True),
         priority_argument = get_priority_argument
     conda: config["conda_environment"]
     shell:
@@ -202,6 +237,13 @@ rule proximity_score:
             --output {output.priorities}
         """
 
+def _get_subsampled_files(wildcards):
+    subsampling_settings = _get_subsampling_settings(wildcards)
+
+    return [
+        f"results/{wildcards.location_type}/{wildcards.location_name}/sample-{subsample}.fasta"
+        for subsample in subsampling_settings
+    ]
 
 rule combine_samples:
     message:
@@ -209,7 +251,7 @@ rule combine_samples:
         Combine and deduplicate FASTAs
         """
     input:
-        lambda w: [f"results/{w.location_type}/{w.location_name}/sample-{subsample}.fasta" for subsample in config["subsampling"][w.location_name]]
+        _get_subsampled_files
     output:
         alignment = "results/{location_type}/{location_name}/subsampled_alignment.fasta"
     conda: config["conda_environment"]
@@ -379,10 +421,14 @@ rule translate:
         """
 
 def _get_sampling_trait_for_wildcards(wildcards):
+    # TODO: fix this for locations
+    return "country"
     mapping = {"north-america": "country", "oceania": "country"} # TODO: switch to "division"
     return mapping[wildcards.region] if wildcards.region in mapping else "country"
 
 def _get_exposure_trait_for_wildcards(wildcards):
+    # TODO: fix this for locations
+    return "country_exposure"
     mapping = {"north-america": "country_exposure", "oceania": "country_exposure"} # TODO: switch to "division_exposure"
     return mapping[wildcards.region] if wildcards.region in mapping else "country_exposure"
 
@@ -489,15 +535,15 @@ rule tip_frequencies:
         """
 
 def export_title(wildcards):
-    region = wildcards.region
+    location_name = wildcards.location_name
 
-    if not region:
+    if not location_name:
         return "Genomic epidemiology of novel coronavirus"
-    elif region == "global":
+    elif location_name == "global":
         return "Genomic epidemiology of novel coronavirus - Global subsampling"
     else:
-        region_title = region.replace("-", " ").title()
-        return f"Genomic epidemiology of novel coronavirus - {region_title}-focused subsampling"
+        location_title = location_name.replace("-", " ").title()
+        return f"Genomic epidemiology of novel coronavirus - {location_title}-focused subsampling"
 
 def _get_node_data_by_wildcards(wildcards):
     """Return a list of node data files to include for a given build's wildcards.
@@ -512,8 +558,9 @@ def _get_node_data_by_wildcards(wildcards):
         rules.recency.output.node_data
     ]
 
-    if wildcards.region in config["traits"]:
-        inputs.append(rules.traits.output.node_data)
+    # TODO: reenable traits
+    #if wildcards.region in config["traits"]:
+    #    inputs.append(rules.traits.output.node_data)
 
     # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]

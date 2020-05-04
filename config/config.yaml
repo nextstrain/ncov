@@ -102,102 +102,91 @@ traits:
     sampling_bias_correction: 2.5
     columns: ["country_exposure"]
 
+# Define locations for which builds should be created.
+# Builds will be subsampled according to their geographic specificity
+# based on the subsampling definitions below.
 locations:
-  region: ["global", "north-america"]
-  country: ["usa", "switzerland"]
-  division: ["washington"]
+  region:
+    - global
+    - north-america
+  country:
+    - switzerland
+    - usa
+  division:
+    - washington
 
-# Regions to build specific builds for using intelligent subsampling.
+# Subsampling definitions by type of geographic location. Individual location
+# defaults can be overridden with custom defaults with a key in the subsampling
+# dictionary following the pattern of "{location_type}_{location_name}". For
+# example, custom subsampling for Iceland could be defined with an entry for
+# "country_iceland".
 subsampling:
-  global:
+  # Default subsampling logic for regions
+  region_global:
     global:
       group_by: "division year month"
       seq_per_group: 20
-  europe:
+
+  region:
+    # Focal samples for region
     region:
       group_by: "division year month"
-      seq_per_group: 150
-      exclude: "--exclude-where region!=Europe"
+      seq_per_group: 260
+      exclude: "--exclude-where 'region!={location_name}'"
+    # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
       seq_per_group: 20
-      exclude: "--exclude-where region=Europe"
+      exclude: "--exclude-where 'region={location_name}'"
       priorities:
         type: "proximity"
         focus: "region"
-  asia:
-    region:
-      group_by: "division year month"
-      seq_per_group: 150
-      exclude: "--exclude-where region!=Asia"
-    global:
-      group_by: "country year month"
-      seq_per_group: 20
-      exclude: "--exclude-where region=Asia"
-      priorities:
-        type: "proximity"
-        focus: "region"
-  africa:
-    region:
-      group_by: "division year month"
-      seq_per_group: 150
-      exclude: "--exclude-where region!=Africa"
-    global:
-      group_by: "country year month"
-      seq_per_group: 20
-      exclude: "--exclude-where region=Africa"
-      priorities:
-        type: "proximity"
-        focus: "region"
-  north-america:
-    region:
-      group_by: "division year month"
-      seq_per_group: 150
-      exclude: "--exclude-where region!='North America'"
-    global:
-      group_by: "country year month"
-      seq_per_group: 20
-      exclude: "--exclude-where region='North America'"
-      priorities:
-        type: "proximity"
-        focus: "region"
-  oceania:
-    region:
-      group_by: "division year month"
-      seq_per_group: 150
-      exclude: "--exclude-where region!=Oceania"
-    global:
-      group_by: "country year month"
-      seq_per_group: 20
-      exclude: "--exclude-where region=Oceania"
-      priorities:
-        type: "proximity"
-        focus: "region"
-  south-america:
-    region:
-      group_by: "division year month"
-      seq_per_group: 150
-      exclude: "--exclude-where region!='South America'"
-    global:
-      group_by: "country year month"
-      seq_per_group: 20
-      exclude: "--exclude-where region='South America'"
-      priorities:
-        type: "proximity"
-        focus: "region"
-  iceland:
+
+  # Default subsampling logic for countries
+  country:
+    # Focal samples for country
     country:
       group_by: "division year month"
-      seq_per_group: 150
-      exclude: "--exclude-where country!='Iceland'"
+      seq_per_group: 260
+      exclude: "--exclude-where 'country!={location_name}'"
+    # Contextual samples from country's region
     region:
       group_by: "country year month"
-      seq_per_group: 20
-      exclude: "--exclude-where region!='Europe' country='Iceland'"
+      seq_per_group: 10
+      exclude: "--exclude-where 'country={location_name}' 'region!={{region}}'"
+    # Contextual samples from the rest of the world,
+    # excluding the current region to avoid resampling.
     global:
       group_by: "country year month"
       seq_per_group: 2
-      exclude: "--exclude-where region='Europe'"
+      exclude: "--exclude-where 'region={{region}}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
+
+  # Default subsampling logic for divisions
+  division:
+    # Focal samples for division
+    division:
+      group_by: "year month"
+      seq_per_group: 260
+      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={location_name}'"
+    # Contextual samples from division's country
+    country:
+      group_by: "division year month"
+      seq_per_group: 100
+      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division={location_name}'"
+    # Contextual samples from division's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}' 'division={location_name}'"
+    # Contextual samples from the rest of the world, excluding the current
+    # division to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 2
+      exclude: "--exclude-where 'region={{region}}'"
       priorities:
         type: "proximity"
         focus: "region"
