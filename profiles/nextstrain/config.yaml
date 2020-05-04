@@ -2,8 +2,8 @@ configfile:
   - config/config.yaml
   - config/nextstrain_config.yaml
 cores: 8
-keep_going: True
+keep-going: True
 printshellcmds: True
 reason: True
-restart_times: 1
+restart-times: 1
 stats: stats.json
