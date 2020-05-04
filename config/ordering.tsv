@@ -329,6 +329,8 @@ location	Accra
 
 
 
+
+
 division	China
 division	Hubei
 division	Guangxi
@@ -432,6 +434,7 @@ division	Thailand
 division	Bangkok
 division	Malaysia
 division	Singapore
+division	Jakarta
 division	Australia
 division	Queensland
 division	Northern Territory
@@ -442,12 +445,14 @@ division	Wellington
 division	New Zealand
 division	Otago
 division	Auckland
+division	United Arab Emirates
 division	Saudi Arabia
 division	Riyadh
 division	Qatar
 division	Israel
 division	Jordan
 division	Turkey
+division	Adıyaman
 division	Pakistan
 division	Nur-Sultan
 division	Russia
@@ -872,6 +877,7 @@ country	Cambodia
 country	Thailand
 country	Malaysia
 country	Singapore
+country	Indonesia
 country	Australia
 country	New Zealand
 country	Saudi Arabia

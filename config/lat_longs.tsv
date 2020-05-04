@@ -329,9 +329,11 @@ location	Zhuhai	22.271346	113.562879
 
 
 
+
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
 division	Abruzzo	42.192	13.7289
+division	Adıyaman	37.900714	38.309879
 division	Africa	4.070194	21.824559
 division	Afyon	38.752653	30.553661
 division	Aichi	35.067543	137.334061
@@ -546,6 +548,7 @@ division	Israel	31.5	34.75
 division	Istanbul	41.0082	28.9784
 division	Istria	45.189488	13.889205
 division	Italy	43.382775	12.183629
+division	Jakarta	-6.221537	106.838429
 division	Jammu	32.7266	74.8570
 division	Jamtland	63.1712	14.9592
 division	Japan	35.68536	139.75309
@@ -891,6 +894,7 @@ country	Estonia	58.850111	25.808524
 country	Georgia	41.989378	43.597463
 country	Ghana	7.811417	-1.089272
 country	Iceland	64.90614	-18.4826
+country	Indonesia	-0.897599	114.181602
 country	Iran	34.5732	51.876
 country	Israel	31.217736	34.903129
 country	Lithuania	55.378752	23.945328
