@@ -137,11 +137,11 @@ def _get_sequences_per_group_by_wildcards(wildcards):
     else:
         return config["subsample_focus"]["seq_per_group_regional"]
 
-def _get_exclude_argument_by_wildcards(wildcards):
+def _get_focus_exclude_argument_by_wildcards(wildcards):
     if wildcards.region == "global":
         return ""
     else:
-        return f"--exclude-where region!={wildcards.region}"
+        return f"--exclude-where \"region!={wildcards.region.replace('-', ' ')}\""
 
 rule subsample_focus:
     message:
@@ -157,7 +157,7 @@ rule subsample_focus:
     params:
         group_by = config["subsample_focus"]["group_by"],
         sequences_per_group = _get_sequences_per_group_by_wildcards,
-        exclude_argument = _get_exclude_argument_by_wildcards
+        exclude_argument = _get_focus_exclude_argument_by_wildcards
     conda: config["conda_environment"]
     shell:
         """
@@ -194,6 +194,12 @@ rule make_priorities:
             --output {output.priorities}
         """
 
+def _get_context_exclude_argument_by_wildcards(wildcards):
+    if wildcards.region == "global":
+        return ""
+    else:
+        return f"--exclude-where \"region={wildcards.region.replace('-', ' ')}\""
+
 rule subsample_context:
     message:
         """
@@ -207,12 +213,13 @@ rule subsample_context:
         sequences = REGION_PATH + "subsample_context.fasta"
     params:
         group_by = config["subsample_context"]["group_by"],
-        sequences_per_group = config["subsample_context"]["sequences_per_group"]
+        sequences_per_group = config["subsample_context"]["sequences_per_group"],
+        exclude_argument = _get_context_exclude_argument_by_wildcards
     conda: config["conda_environment"]
     shell:
         """
         augur filter \
-            --exclude-where region={wildcards.region} \
+            {params.exclude_argument} \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --priority {input.priorities} \
