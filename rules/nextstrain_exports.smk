@@ -2,7 +2,7 @@
 # If a region is selected, it'll do 280/division for that region, and 20/division in the rest of the world
 #       -- preferentially sequences near the focal sequences
 #
-# To run a regional build, be sure to update it to the list in Snakefile
+# To run a regional build, be sure to update the list of regions in `config/nextstrain_config.yaml`.
 #
 # You can run all builds in parallel!
 #   snakemake --profile profiles/nextstrain all_regions
@@ -16,7 +16,7 @@
 #   snakemake --profile profiles/nextstrain clean_export_regions
 #   snakemake --profile profiles/nextstrain export_all_regions
 # When done adjusting lat-longs & orders, remember to run
-#   snakemake --profile profiles/nextstrain
+#   snakemake --profile profiles/nextstrain all_regions
 # to produce the final Auspice files!
 
 def get_todays_date():

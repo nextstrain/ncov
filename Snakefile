@@ -6,7 +6,7 @@ from snakemake.utils import validate
 configfile: "config/config.yaml"
 validate(config, schema="schemas/config.schema.yaml")
 
-# For information on how to run 'regions' runs, see rules/regions.smk
+# For information on how to run Nextstrain 'regions' runs, see rules/nextstrain_exports.smk
 # Regions can be defined as a list or a space-delimited string that is converted
 # to a list.
 if "regions" not in config:
