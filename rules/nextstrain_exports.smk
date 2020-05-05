@@ -103,7 +103,7 @@ rule export_gisaid:
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
-            --output {output.auspice_json} &> {log}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule export_zh:
@@ -136,7 +136,7 @@ rule export_zh:
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
-            --output {output.auspice_json} &> {log}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule incorporate_travel_history_gisaid:
@@ -161,7 +161,7 @@ rule incorporate_travel_history_gisaid:
             --lat-longs {input.lat_longs} \
             --sampling {params.sampling} \
             --exposure {params.exposure} \
-            --output {output.auspice_json} &> {log}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule incorporate_travel_history_zh:
@@ -186,7 +186,7 @@ rule incorporate_travel_history_zh:
             --lat-longs {input.lat_longs} \
             --sampling {params.sampling} \
             --exposure {params.exposure} \
-            --output {output.auspice_json} &> {log}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule fix_colorings_gisaid:
@@ -202,7 +202,7 @@ rule fix_colorings_gisaid:
         """
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
-            --output {output.auspice_json} &> {log}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule fix_colorings_zh:
@@ -218,7 +218,7 @@ rule fix_colorings_zh:
         """
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
-            --output {output.auspice_json} &> {log}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule dated_json:

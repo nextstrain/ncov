@@ -43,7 +43,7 @@ rule filter:
             --min-length {params.min_length} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
-            --output {output.sequences} &> {log}
+            --output {output.sequences} 2>&1 | tee {log}
         """
 
 checkpoint partition_sequences:
@@ -61,7 +61,7 @@ checkpoint partition_sequences:
         python3 scripts/partition-sequences.py \
             --sequences {input.sequences} \
             --sequences-per-group {params.sequences_per_group} \
-            --output-dir {output.split_sequences} &> {log}
+            --output-dir {output.split_sequences} 2>&1 | tee {log}
         """
 
 rule align:
@@ -90,7 +90,7 @@ rule align:
             --output {output.alignment} \
             --nthreads {threads} \
             --remove-reference \
-            --fill-gaps &> {log}
+            --fill-gaps 2>&1 | tee {log}
         """
 
 def _get_alignments(wildcards):
@@ -138,7 +138,7 @@ rule mask:
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
             --mask-sites {params.mask_sites} \
-            --output {output.alignment} &> {log}
+            --output {output.alignment} 2>&1 | tee {log}
         """
 
 def _get_group_by_wildcards(wildcards):
@@ -188,7 +188,7 @@ rule subsample_focus:
             {params.exclude_argument} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
-            --output {output.sequences} &> {log}
+            --output {output.sequences} 2>&1 | tee {log}
         """
 
 rule make_priorities:
@@ -213,7 +213,7 @@ rule make_priorities:
         python3 scripts/priorities.py --alignment {input.alignment} \
             --metadata {input.metadata} \
             --focal-alignment {input.focal_alignment} \
-            --output {output.priorities} &> {log}
+            --output {output.priorities} 2>&1 | tee {log}
         """
 
 def _get_context_exclude_argument_by_wildcards(wildcards):
@@ -249,7 +249,7 @@ rule subsample_context:
             --priority {input.priorities} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
-            --output {output.sequences} &> {log}
+            --output {output.sequences} 2>&1 | tee {log}
         """
 
 rule subsample_regions:
@@ -269,7 +269,7 @@ rule subsample_regions:
         """
         python3 scripts/combine-and-dedup-fastas.py \
             --input {input} \
-            --output {output} &> {log}
+            --output {output} 2>&1 | tee {log}
         """
 
 rule adjust_metadata_regions:
@@ -289,7 +289,7 @@ rule adjust_metadata_regions:
         python3 scripts/adjust_regional_meta.py \
             --region "{wildcards.region}" \
             --metadata {input.metadata} \
-            --output {output.metadata} &> {log}
+            --output {output.metadata} 2>&1 | tee {log}
         """
 
 def _get_alignments_for_tree(wildcards):
@@ -323,7 +323,7 @@ rule tree:
         augur tree \
             --alignment {input.alignment} \
             --output {output.tree} \
-            --nthreads {threads} &> {log}
+            --nthreads {threads} 2>&1 | tee {log}
         """
 
 def _get_metadata_by_wildcards(wildcards):
@@ -383,7 +383,7 @@ rule refine:
             --divergence-unit {params.divergence_unit} \
             --date-confidence \
             --no-covariance \
-            --clock-filter-iqd {params.clock_filter_iqd} &> {log}
+            --clock-filter-iqd {params.clock_filter_iqd} 2>&1 | tee {log}
         """
 
 rule ancestral:
@@ -409,7 +409,7 @@ rule ancestral:
             --alignment {input.alignment} \
             --output-node-data {output.node_data} \
             --inference {params.inference} \
-            --infer-ambiguous &> {log}
+            --infer-ambiguous 2>&1 | tee {log}
         """
 
 rule haplotype_status:
@@ -428,7 +428,7 @@ rule haplotype_status:
         python3 scripts/annotate-haplotype-status.py \
             --ancestral-sequences {input.nt_muts} \
             --reference-node-name {params.reference_node_name:q} \
-            --output {output.node_data} &> {log}
+            --output {output.node_data} 2>&1 | tee {log}
         """
 
 rule translate:
@@ -448,7 +448,7 @@ rule translate:
             --tree {input.tree} \
             --ancestral-sequences {input.node_data} \
             --reference-sequence {input.reference} \
-            --output-node-data {output.node_data} &> {log}
+            --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
 def _get_sampling_trait_for_wildcards(wildcards):
@@ -484,7 +484,7 @@ rule traits:
             --output {output.node_data} \
             --columns {params.columns} \
             --confidence \
-            --sampling-bias-correction {params.sampling_bias_correction} &> {log}
+            --sampling-bias-correction {params.sampling_bias_correction} 2>&1 | tee {log}
         """
 
 rule clades:
@@ -504,7 +504,7 @@ rule clades:
         augur clades --tree {input.tree} \
             --mutations {input.nuc_muts} {input.aa_muts} \
             --clades {input.clades} \
-            --output-node-data {output.clade_data} &> {log}
+            --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
 
 rule colors:
@@ -524,7 +524,7 @@ rule colors:
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
-            --metadata {input.metadata} &> {log}
+            --metadata {input.metadata} 2>&1 | tee {log}
         """
 
 rule recency:
@@ -540,7 +540,7 @@ rule recency:
         """
         python3 scripts/construct-recency-from-submission-date.py \
             --metadata {input.metadata} \
-            --output {output} &> {log}
+            --output {output} 2>&1 | tee {log}
         """
 
 rule tip_frequencies:
@@ -568,7 +568,7 @@ rule tip_frequencies:
             --pivot-interval {params.pivot_interval} \
             --narrow-bandwidth {params.narrow_bandwidth} \
             --proportion-wide {params.proportion_wide} \
-            --output {output.tip_frequencies_json} &> {log}
+            --output {output.tip_frequencies_json} 2>&1 | tee {log}
         """
 
 def export_title(wildcards):
@@ -615,7 +615,7 @@ rule export:
             --lat-longs {input.lat_longs} \
             --title {params.title:q} \
             --description {input.description} \
-            --output {output.auspice_json} &> {log}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule incorporate_travel_history:
@@ -640,7 +640,7 @@ rule incorporate_travel_history:
             --lat-longs {input.lat_longs} \
             --sampling {params.sampling} \
             --exposure {params.exposure} \
-            --output {output.auspice_json} &> {log}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule fix_colorings:
@@ -656,5 +656,5 @@ rule fix_colorings:
         """
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
-            --output {output.auspice_json} &> {log}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
