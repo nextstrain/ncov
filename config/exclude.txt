@@ -657,3 +657,6 @@ Ecuador/HGSQ-USFQ-010/2020
 
 #excluding due to incorrect collection duplicate
 Uruguay/UY-3/2020
+
+# Includes characters "AAGACTAAAAATGTTACAAAAGAA:::::::::::::::GGTTTTTTCACTTACATTTGT"
+USA/AK-PHL180/2020
