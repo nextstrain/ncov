@@ -90,6 +90,8 @@ rule export_gisaid:
         recency = rules.recency.output
     output:
         auspice_json = REGION_PATH + "ncov_gisaid_with_accessions.json"
+    log:
+        "logs/export_gisaid_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -101,7 +103,7 @@ rule export_gisaid:
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} &> {log}
         """
 
 rule export_zh:
@@ -121,6 +123,8 @@ rule export_zh:
         recency = rules.recency.output
     output:
         auspice_json = REGION_PATH + "ncov_zh_with_accessions.json"
+    log:
+        "logs/export_zh_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -132,7 +136,7 @@ rule export_zh:
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} &> {log}
         """
 
 rule incorporate_travel_history_gisaid:
@@ -146,6 +150,8 @@ rule incorporate_travel_history_gisaid:
         exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = REGION_PATH + "ncov_gisaid_with_accessions_and_travel_branches.json"
+    log:
+        "logs/incorporate_travel_history_gisaid_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -155,7 +161,7 @@ rule incorporate_travel_history_gisaid:
             --lat-longs {input.lat_longs} \
             --sampling {params.sampling} \
             --exposure {params.exposure} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} &> {log}
         """
 
 rule incorporate_travel_history_zh:
@@ -169,6 +175,8 @@ rule incorporate_travel_history_zh:
         exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = REGION_PATH + "ncov_zh_with_accessions_and_travel_branches.json"
+    log:
+        "logs/incorporate_travel_history_zh_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -178,7 +186,7 @@ rule incorporate_travel_history_zh:
             --lat-longs {input.lat_longs} \
             --sampling {params.sampling} \
             --exposure {params.exposure} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} &> {log}
         """
 
 rule fix_colorings_gisaid:
@@ -187,12 +195,14 @@ rule fix_colorings_gisaid:
         auspice_json = rules.incorporate_travel_history_gisaid.output.auspice_json
     output:
         auspice_json = "auspice/ncov_{region}_gisaid.json"
+    log:
+        "logs/fix_colorings_gisaid_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} &> {log}
         """
 
 rule fix_colorings_zh:
@@ -201,12 +211,14 @@ rule fix_colorings_zh:
         auspice_json = rules.incorporate_travel_history_zh.output.auspice_json
     output:
         auspice_json = "auspice/ncov_{region}_zh.json"
+    log:
+        "logs/fix_colorings_zh_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} &> {log}
         """
 
 rule dated_json:
