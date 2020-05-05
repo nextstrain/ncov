@@ -424,6 +424,7 @@ division	Tbilisi
 division	Vietnam
 division	Thanh Hoa
 division	Ho Chi Minh City
+division	Hanoi
 division	Vinhphuc
 division	Red River Delta
 division	Quangning
@@ -500,6 +501,13 @@ division	Istria
 division	Hungary
 division	Central Hungary
 division	Baranya
+division	Budapest
+division	Balatonfured
+division	Balassagyarmat
+division	Kecskemet
+division	Oroshaza
+division	Bekesszentandras
+division	Szeged
 division	Kostoliste
 division	Kosice
 division	Slovakia
@@ -679,7 +687,6 @@ division	Friesland
 division	Luxembourg
 division	Austria
 division	Vienna
-division	Budapest
 division	Germany
 division	Zielonogorskie
 division	Pomorskie
@@ -729,7 +736,6 @@ division	Småland
 division	Vasterbotten
 division	Halland
 division	Czech Republic
-division	Budapest
 division	Sweden
 division	Stockholm
 division	Uppsala
@@ -855,6 +861,7 @@ division	Alaska
 division	Canada
 division	Nova Scotia
 division	New Brunswick
+division	Quebec
 division	Ontario
 division	Manitoba
 division	Prince Edward Island
