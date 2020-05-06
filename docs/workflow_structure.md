@@ -28,6 +28,7 @@ The following outlines the directory structure of the ncov workflow and describe
       - `experimental_features.yaml`: an putative example environment with experimental features that are not ready for production yet
   - `example_data/`: minimal data required to test out the default ncov build
   - `figures/`: images used in documentation and narratives
+  - `logs/`: log files containing standard output and error messages from commands run by most rules
   - `narratives/`: dated situation reports based on dated build JSONs
   - `profiles/`: [Snakemake profile configuration](https://snakemake.readthedocs.io/en/stable/executing/cli.html#profiles) for users who are familiar enough with Snakemake to override default command line arguments
       - `default/`

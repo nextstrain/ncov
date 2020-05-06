@@ -24,6 +24,8 @@ rule filter:
         exclude = config["files"]["exclude"]
     output:
         sequences = "results/filtered.fasta"
+    log:
+        "logs/filtered.txt"
     params:
         min_length = config["filter"]["min_length"],
         exclude_where = config["filter"]["exclude_where"],
@@ -41,7 +43,7 @@ rule filter:
             --min-length {params.min_length} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
-            --output {output.sequences}
+            --output {output.sequences} 2>&1 | tee {log}
         """
 
 checkpoint partition_sequences:
@@ -49,6 +51,8 @@ checkpoint partition_sequences:
         sequences = rules.filter.output.sequences
     output:
         split_sequences = directory("results/split_sequences/")
+    log:
+        "logs/partition_sequences.txt"
     params:
         sequences_per_group = config["partition_sequences"]["sequences_per_group"]
     conda: config["conda_environment"]
@@ -57,7 +61,7 @@ checkpoint partition_sequences:
         python3 scripts/partition-sequences.py \
             --sequences {input.sequences} \
             --sequences-per-group {params.sequences_per_group} \
-            --output-dir {output.split_sequences}
+            --output-dir {output.split_sequences} 2>&1 | tee {log}
         """
 
 rule align:
@@ -72,6 +76,8 @@ rule align:
         reference = config["files"]["reference"]
     output:
         alignment = "results/split_alignments/{cluster}.fasta"
+    log:
+        "logs/align_{cluster}.txt"
     benchmark:
         "benchmarks/align_{cluster}.txt"
     threads: 2
@@ -84,7 +90,7 @@ rule align:
             --output {output.alignment} \
             --nthreads {threads} \
             --remove-reference \
-            --fill-gaps
+            --fill-gaps 2>&1 | tee {log}
         """
 
 def _get_alignments(wildcards):
@@ -98,10 +104,12 @@ rule aggregate_alignments:
         alignments = _get_alignments
     output:
         alignment = "results/aligned.fasta"
+    log:
+        "logs/aggregate_alignments.txt"
     conda: config["conda_environment"]
     shell:
         """
-        cat {input.alignments} > {output.alignment}
+        cat {input.alignments} > {output.alignment} 2> {log}
         """
 
 rule mask:
@@ -116,6 +124,8 @@ rule mask:
         alignment = rules.aggregate_alignments.output.alignment
     output:
         alignment = "results/masked.fasta"
+    log:
+        "logs/mask.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"],
@@ -128,7 +138,7 @@ rule mask:
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
             --mask-sites {params.mask_sites} \
-            --output {output.alignment}
+            --output {output.alignment} 2>&1 | tee {log}
         """
 
 def _get_group_by_wildcards(wildcards):
@@ -162,6 +172,8 @@ rule subsample_focus:
         include = config["files"]["include"]
     output:
         sequences = REGION_PATH + "subsample_focus.fasta"
+    log:
+        "logs/subsample_focus_{region}.txt"
     params:
         group_by = _get_group_by_wildcards,
         sequences_per_group = _get_sequences_per_group_by_wildcards,
@@ -176,7 +188,7 @@ rule subsample_focus:
             {params.exclude_argument} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
-            --output {output.sequences} \
+            --output {output.sequences} 2>&1 | tee {log}
         """
 
 rule make_priorities:
@@ -191,6 +203,8 @@ rule make_priorities:
         focal_alignment = rules.subsample_focus.output.sequences
     output:
         priorities = REGION_PATH + "subsampling_priorities.tsv"
+    log:
+        "logs/subsampling_priorities_{region}.txt"
     resources:
         mem_mb = 4000
     conda: config["conda_environment"]
@@ -199,7 +213,7 @@ rule make_priorities:
         python3 scripts/priorities.py --alignment {input.alignment} \
             --metadata {input.metadata} \
             --focal-alignment {input.focal_alignment} \
-            --output {output.priorities}
+            --output {output.priorities} 2>&1 | tee {log}
         """
 
 def _get_context_exclude_argument_by_wildcards(wildcards):
@@ -219,6 +233,8 @@ rule subsample_context:
         priorities = rules.make_priorities.output.priorities
     output:
         sequences = REGION_PATH + "subsample_context.fasta"
+    log:
+        "logs/subsample_context_{region}.txt"
     params:
         group_by = config["subsample_context"]["group_by"],
         sequences_per_group = config["subsample_context"]["sequences_per_group"],
@@ -233,7 +249,7 @@ rule subsample_context:
             --priority {input.priorities} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
-            --output {output.sequences}
+            --output {output.sequences} 2>&1 | tee {log}
         """
 
 rule subsample_regions:
@@ -246,12 +262,14 @@ rule subsample_regions:
         rules.subsample_context.output.sequences
     output:
         alignment = REGION_PATH + "subsampled_alignment.fasta"
+    log:
+        "logs/subsample_regions_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/combine-and-dedup-fastas.py \
             --input {input} \
-            --output {output}
+            --output {output} 2>&1 | tee {log}
         """
 
 rule adjust_metadata_regions:
@@ -263,13 +281,15 @@ rule adjust_metadata_regions:
         metadata = rules.download.output.metadata
     output:
         metadata = REGION_PATH + "metadata_adjusted.tsv"
+    log:
+        "logs/adjust_metadata_regions_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/adjust_regional_meta.py \
             --region "{wildcards.region}" \
             --metadata {input.metadata} \
-            --output {output.metadata}
+            --output {output.metadata} 2>&1 | tee {log}
         """
 
 def _get_alignments_for_tree(wildcards):
@@ -287,6 +307,8 @@ rule tree:
         alignment = _get_alignments_for_tree
     output:
         tree = REGION_PATH + "tree_raw.nwk"
+    log:
+        "logs/tree_{region}.txt"
     benchmark:
         "benchmarks/tree_{region}.txt"
     threads: 4
@@ -301,7 +323,7 @@ rule tree:
         augur tree \
             --alignment {input.alignment} \
             --output {output.tree} \
-            --nthreads {threads}
+            --nthreads {threads} 2>&1 | tee {log}
         """
 
 def _get_metadata_by_wildcards(wildcards):
@@ -325,6 +347,8 @@ rule refine:
     output:
         tree = REGION_PATH + "tree.nwk",
         node_data = REGION_PATH + "branch_lengths.json"
+    log:
+        "logs/refine_{region}.txt"
     benchmark:
         "benchmarks/refine_{region}.txt"
     threads: 1
@@ -359,7 +383,7 @@ rule refine:
             --divergence-unit {params.divergence_unit} \
             --date-confidence \
             --no-covariance \
-            --clock-filter-iqd {params.clock_filter_iqd}
+            --clock-filter-iqd {params.clock_filter_iqd} 2>&1 | tee {log}
         """
 
 rule ancestral:
@@ -373,6 +397,8 @@ rule ancestral:
         alignment = _get_alignments_for_tree
     output:
         node_data = REGION_PATH + "nt_muts.json"
+    log:
+        "logs/ancestral_{region}.txt"
     params:
         inference = config["ancestral"]["inference"]
     conda: config["conda_environment"]
@@ -383,7 +409,7 @@ rule ancestral:
             --alignment {input.alignment} \
             --output-node-data {output.node_data} \
             --inference {params.inference} \
-            --infer-ambiguous
+            --infer-ambiguous 2>&1 | tee {log}
         """
 
 rule haplotype_status:
@@ -392,6 +418,8 @@ rule haplotype_status:
         nt_muts = rules.ancestral.output.node_data
     output:
         node_data = REGION_PATH + "haplotype_status.json"
+    log:
+        "logs/haplotype_status_{region}.txt"
     params:
         reference_node_name = config["reference_node_name"]
     conda: config["conda_environment"]
@@ -400,7 +428,7 @@ rule haplotype_status:
         python3 scripts/annotate-haplotype-status.py \
             --ancestral-sequences {input.nt_muts} \
             --reference-node-name {params.reference_node_name:q} \
-            --output {output.node_data}
+            --output {output.node_data} 2>&1 | tee {log}
         """
 
 rule translate:
@@ -411,6 +439,8 @@ rule translate:
         reference = config["files"]["reference"]
     output:
         node_data = REGION_PATH + "aa_muts.json"
+    log:
+        "logs/translate_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -418,7 +448,7 @@ rule translate:
             --tree {input.tree} \
             --ancestral-sequences {input.node_data} \
             --reference-sequence {input.reference} \
-            --output-node-data {output.node_data} \
+            --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
 def _get_sampling_trait_for_wildcards(wildcards):
@@ -440,6 +470,8 @@ rule traits:
         metadata = _get_metadata_by_wildcards
     output:
         node_data = REGION_PATH + "traits.json",
+    log:
+        "logs/traits_{region}.txt"
     params:
         columns = _get_exposure_trait_for_wildcards,
         sampling_bias_correction = config["traits"]["sampling_bias_correction"]
@@ -452,7 +484,7 @@ rule traits:
             --output {output.node_data} \
             --columns {params.columns} \
             --confidence \
-            --sampling-bias-correction {params.sampling_bias_correction} \
+            --sampling-bias-correction {params.sampling_bias_correction} 2>&1 | tee {log}
         """
 
 rule clades:
@@ -464,13 +496,15 @@ rule clades:
         clades = config["files"]["clades"]
     output:
         clade_data = REGION_PATH + "clades.json"
+    log:
+        "logs/clades_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
         augur clades --tree {input.tree} \
             --mutations {input.nuc_muts} {input.aa_muts} \
             --clades {input.clades} \
-            --output-node-data {output.clade_data}
+            --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
 
 rule colors:
@@ -481,6 +515,8 @@ rule colors:
         metadata = _get_metadata_by_wildcards
     output:
         colors = "config/colors_{region}.tsv"
+    log:
+        "logs/colors_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -488,7 +524,7 @@ rule colors:
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
-            --metadata {input.metadata}
+            --metadata {input.metadata} 2>&1 | tee {log}
         """
 
 rule recency:
@@ -497,12 +533,14 @@ rule recency:
         metadata = _get_metadata_by_wildcards
     output:
         REGION_PATH + "recency.json"
+    log:
+        "logs/recency_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/construct-recency-from-submission-date.py \
             --metadata {input.metadata} \
-            --output {output}
+            --output {output} 2>&1 | tee {log}
         """
 
 rule tip_frequencies:
@@ -512,6 +550,8 @@ rule tip_frequencies:
         metadata = _get_metadata_by_wildcards
     output:
         tip_frequencies_json = "auspice/ncov_{region}_tip-frequencies.json"
+    log:
+        "logs/tip_frequencies_{region}.txt"
     params:
         min_date = config["frequencies"]["min_date"],
         pivot_interval = config["frequencies"]["pivot_interval"],
@@ -528,7 +568,7 @@ rule tip_frequencies:
             --pivot-interval {params.pivot_interval} \
             --narrow-bandwidth {params.narrow_bandwidth} \
             --proportion-wide {params.proportion_wide} \
-            --output {output.tip_frequencies_json}
+            --output {output.tip_frequencies_json} 2>&1 | tee {log}
         """
 
 def export_title(wildcards):
@@ -559,6 +599,8 @@ rule export:
         recency = rules.recency.output
     output:
         auspice_json = REGION_PATH + "ncov_with_accessions.json"
+    log:
+        "logs/export_{region}.txt"
     params:
         title = export_title
     conda: config["conda_environment"]
@@ -573,7 +615,7 @@ rule export:
             --lat-longs {input.lat_longs} \
             --title {params.title:q} \
             --description {input.description} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule incorporate_travel_history:
@@ -587,6 +629,8 @@ rule incorporate_travel_history:
         exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = REGION_PATH + "ncov_with_accessions_and_travel_branches.json"
+    log:
+        "logs/incorporate_travel_history_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -596,7 +640,7 @@ rule incorporate_travel_history:
             --lat-longs {input.lat_longs} \
             --sampling {params.sampling} \
             --exposure {params.exposure} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule fix_colorings:
@@ -605,10 +649,12 @@ rule fix_colorings:
         auspice_json = rules.incorporate_travel_history.output.auspice_json
     output:
         auspice_json = "auspice/ncov_{region}.json"
+    log:
+        "logs/fix_colorings_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
