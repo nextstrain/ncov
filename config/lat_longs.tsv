@@ -79,6 +79,7 @@ location	East Medinipur	22.037985	87.811563
 location	Eielson AFB	64.655387	-147.064620
 location	Eindhoven	51.4416	5.4697
 location	Elm Grove	43.047975	-88.086157
+location	Elmendorf AFB	61.252028	-149.812043
 location	England	52.405994	-1.671707
 location	Essex County	40.784033	-74.235550
 location	Fairbanks	64.835015	-147.664888
@@ -335,7 +336,6 @@ location	Zhuhai	22.271346	113.562879
 
 
 
-
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
 division	Abruzzo	42.192	13.7289
@@ -456,9 +456,9 @@ division	Dendermonde	51.032573	4.099329
 division	Denmark	56.2639	9.5018
 division	Diamond Princess	35.046935	139.419325
 division	Dilbeek	50.8465	4.2621
-division	District of Columbia	38.9072	-77.0369
 division	Distrito Federal	-15.7998	-47.8645
 division	Doha	25.270283	51.52297
+division	Dolnoslaskie	51.122543	16.404924
 division	Doornik	50.616724	3.395329
 division	Drenthe	52.846963	6.608915
 division	Dublin	53.3431	-6.262191
@@ -873,6 +873,7 @@ division	Wales	52.306085	-3.621944
 division	Walloon Brabant	50.661007	4.566076
 division	Wanze	50.549453	5.196784
 division	Washington	47.183945	-119.950361
+division	Washington DC	38.895650	-77.018707
 division	Waterloo	50.710994	4.406944
 division	Watermaal-Bosvoorde	50.793185	4.423301
 division	Wellington	-41.273449	174.857634

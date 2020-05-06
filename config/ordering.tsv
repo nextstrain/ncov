@@ -242,6 +242,7 @@ location	Wasilla
 location	Juneau
 location	Eielson AFB
 location	Anchorage
+location	Elmendorf AFB
 location	San Francisco
 location	San Diego County
 location	San Diego
@@ -330,6 +331,7 @@ location	Brookfield
 location	Elm Grove
 location	Glendale
 location	Accra
+
 
 
 
@@ -488,6 +490,7 @@ division	Republic of Crymea
 division	Republic of Tatarstan
 division	Slovenia
 division	Poland
+division	Dolnoslaskie
 division	Belarus
 division	Estonia
 division	Europe
@@ -823,7 +826,7 @@ division	Chihuahua
 division	Puebla
 division	Queretaro
 division	USA
-division	District of Columbia
+division	Washington DC
 division	Maryland
 division	Texas
 division	Missouri
