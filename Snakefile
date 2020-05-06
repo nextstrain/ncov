@@ -41,6 +41,9 @@ rule clean:
     shell:
         "rm -rfv {params}"
 
+# Include small, shared functions that help build inputs and parameters.
+include: "rules/common.smk"
+
 # Include rules to handle primary build logic from multiple sequence alignment
 # to output of auspice JSONs for a default build.
 include: "rules/builds.smk"
