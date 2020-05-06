@@ -89,8 +89,7 @@ rule align:
             --reference-sequence {input.reference} \
             --output {output.alignment} \
             --nthreads {threads} \
-            --remove-reference \
-            --fill-gaps 2>&1 | tee {log}
+            --remove-reference 2>&1 | tee {log}
         """
 
 def _get_alignments(wildcards):
@@ -138,6 +137,7 @@ rule mask:
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
             --mask-sites {params.mask_sites} \
+            --mask-terminal-gaps \
             --output {output.alignment} 2>&1 | tee {log}
         """
 
