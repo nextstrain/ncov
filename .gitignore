@@ -6,7 +6,6 @@ results/
 build/
 auspice/
 data/*
-!data/metadata.tsv
 config/colors.tsv
 config/colors_*.tsv
 
