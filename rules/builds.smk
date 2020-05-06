@@ -326,12 +326,6 @@ rule tree:
             --nthreads {threads} 2>&1 | tee {log}
         """
 
-def _get_metadata_by_wildcards(wildcards):
-    if wildcards.region == "global":
-        return rules.download.output.metadata
-    else:
-        return rules.adjust_metadata_regions.output.metadata
-
 rule refine:
     message:
         """
