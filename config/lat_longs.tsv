@@ -15,6 +15,7 @@ location	Auckland	-36.8314	174.7606
 location	Bahia Blanca	-38.7183	-62.2663
 location	Bangkok	13.803139	100.491612
 location	Bassilly	50.675907	3.933169
+location	Bayside	43.1806	-87.9006
 location	Beijing	40.071320	116.406908
 location	Bela - Ledec na Sazavou	49.693369	15.277533
 location	Benton County	36.2662	-94.4800
@@ -34,6 +35,7 @@ location	Bronx	40.858846	-73.864979
 location	Brookfield	43.066515	-88.129450
 location	Brooklyn	40.6782	-73.9442
 location	Broome County	42.136164	-75.832955
+location	Brown Deer	43.1633	-87.9645
 location	Budapest	47.482728	19.084269
 location	Caddo Parish	32.618244	-93.832261
 location	California	36.357039	-119.690182
@@ -85,6 +87,7 @@ location	Essex County	40.784033	-74.235550
 location	Fairbanks	64.835015	-147.664888
 location	Fairfield County	41.2560	-73.3709
 location	Feira de Santana	-12.2598	-38.9675
+location	Florida	27.6648	-81.5158
 location	Florianopolis	-27.581052	-48.481313
 location	Forchies-la-marche	50.435103	4.319844
 location	Foshan	23.018766	113.121428
@@ -103,6 +106,7 @@ location	Gondrecourt-le-chateau	48.505557	5.503554
 location	Grafton	43.315718	-87.954140
 location	Grant County	47.163630	-119.524786
 location	Grand Princess Cruise Ship	38.308882	-123.779663
+location	Greater Milwaukee Area	43.0389	-87.9065
 location	Greenfield	42.957786	-88.007122
 location	Guangdong	23.615762	114.483257
 location	Guangzhou	23.123972	113.292889
@@ -112,6 +116,7 @@ location	Hangzhou	30.272732	120.154501
 location	Hanoi	21.020191	105.836099
 location	Hardinxveld	51.8324	4.8336
 location	Hardinxveld Giessendam	51.830196	4.840971
+location	Hartford	43.3178	-88.3790
 location	Haulchin	50.383200	4.081708
 location	Havre	50.463797	4.044809
 location	Hawali	9.3378	48.0235
@@ -228,6 +233,7 @@ location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
 location	Richmond County	40.5795	-74.1502
 location	Rio de Janeiro	-22.89445	-43.2099
+location	River Hills	43.1742	-87.9243
 location	Riyadh	24.705304	46.738279
 location	Rockhampton	-23.378823	150.509921
 location	Rockland County	41.1489	-73.9830
@@ -252,6 +258,7 @@ location	Santa Clara County	37.236094	-121.683399
 location	Sao Paulo	-23.551096	-46.634874
 location	San Rafael	10.0145	-84.0986
 location	Saratoga County	43.0324	-73.9360
+location	Saukville	43.3817	-87.9406
 location	Schenectady County	42.822882	-74.053939
 location	Seattle	47.748301	-121.850150
 location	Seine-Port	48.551795	2.551916
@@ -264,6 +271,7 @@ location	Shanwei	22.776721	115.366044
 location	Shenzhen	22.639468	114.044046
 location	Singapore	1.344189	103.867546
 location	Skagit County	48.485784	-121.815524
+location	Slinger	43.3336	-88.2862
 location	Snohomish County	48.006	-122.0731
 location	Solano County	38.295909	-121.928845
 location	Sonoma County	38.506902	-122.863769
@@ -362,6 +370,7 @@ division	Antwerp	51.225698	4.420885
 division	Argentina	-34	-64
 division	Arizona	34.220707	-111.657462
 division	Asia	30.451098	86.654576
+division	Assam	26.2006	92.9376
 division	Asse	50.9094	4.2005
 division	Ath	50.646122	3.770363
 division	Athens	37.987832	23.726319
@@ -628,6 +637,7 @@ division	Lummen	50.995516	5.181081
 division	Luxembourg	49.755428	6.119486
 division	Madrid	40.4168	-3.7038
 division	Maharashtra	19.7515	75.7139
+division	Madhya Pradesh	22.9734	78.6569
 division	Malaysia	2.3923759	112.8471939
 division	Malopolskie	49.7225	20.2503
 division	Manila	14.652678	121.043936
@@ -737,6 +747,7 @@ division	Queensland	-23.094025	144.192275
 division	Queretaro	20.5888	-100.3899
 division	Quevy	50.368752	3.945724
 division	Quito	-0.18126	-78.4599
+division	Rajsathan	27.0238	74.2179
 division	Ramat Gan	32.0684	34.8248
 division	Ravels	51.416526	5.022319
 division	Red River Delta	21.010949	105.786621

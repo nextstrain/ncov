@@ -301,6 +301,7 @@ location	Winona County
 location	Allamakee County
 location	Winneshiek County
 location	Jackson County
+location	Florida
 location	Adams County
 location	New Orleans
 location	East Feliciana Parish
@@ -317,6 +318,13 @@ location	Mequon
 location	Wauwatosa
 location	Greenfield
 location	Milwaukee
+location	Brown Deer
+location	Greater Milwaukee Area
+location	Slinger
+location	River Hills
+location	Bayside
+location	Saukville
+location	Hartford
 location	Campbellsport
 location	Jackson
 location	Oak Creek
@@ -400,6 +408,9 @@ division	Karnataka
 division	Gujarat
 division	Kerala
 division	West Bengal
+division	Assam
+division	Rajsathan
+division	Madhya Pradesh
 division	Kochi
 division	Khyber Pakhtunkhwa
 division	Ramat Gan
