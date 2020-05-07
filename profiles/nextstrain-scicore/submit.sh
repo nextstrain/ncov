@@ -5,7 +5,7 @@
 
 # activate conda environment
 source /scicore/home/neher/neher/miniconda3/etc/profile.d/conda.sh
-conda activate augur
+conda activate nextstrain
 export AUGUR_MINIFY_JSON=1
 export AUGUR_RECURSION_LIMIT=10000
 
