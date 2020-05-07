@@ -1,14 +1,11 @@
 configfile:
   - config/config.yaml
   - config/nextstrain_config.yaml
-cores: 128
+  - profiles/nextstrain-scicore/localrules.yaml
+
 keep-going: True
 printshellcmds: True
-reason: True
-restart-times: 1
 stats: stats.json
-
-# Custom settings for running builds on a SLURM cluster with DRMAA bindings.
 
 # Wait a fixed number of seconds for missing files since the cluster file system
 # can be quite slow and the workflow can fail unnecessarily due to this latency.
@@ -22,7 +19,11 @@ latency-wait: 10
 # else needs those resources. This is analogous to the spot resources on AWS.
 cluster-config: profiles/nextstrain-scicore/cluster.json
 
-job-script: profiles/nextstrain-scicore/submit.sh
+cluster: "sbatch --time={cluster.time} --mem={cluster.mem} --cpus-per-task={cluster.n} --qos={cluster.qos}"
+
+jobs: 128
+
+jobscript: profiles/nextstrain-scicore/submit.sh
 
 # Set the name for the job as display in the cluster queue.
 jobname: "{rulename}.{jobid}.sh"
