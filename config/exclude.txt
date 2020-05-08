@@ -473,6 +473,9 @@ Senegal/610/2020
 USA/WI-GMF-00384/2020
 USA/WA-UW-1572/2020
 England/201360246/2020
+Turkey/VETAL-AHM1/2020
+SouthAfrica/R05475/2020
+USA/OH-OSUP0014/2020
 
 # Excluding because seem to be too divergent - worth double checking
 Shandong/LY002/2020
