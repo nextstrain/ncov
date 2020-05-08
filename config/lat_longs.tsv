@@ -562,7 +562,7 @@ division	Iceland	64.9841821	-18.1059012
 division	Idaho	43.810421	-114.351215
 division	Ile De France	48.724751	2.491522
 division	Illinois	40.088552	-89.301876
-division	India	22.3511148	78.6677428
+division	India	21.077353	78.723951
 division	Indiana	40.2672	-86.1349
 division	Iowa	41.878	-93.0977
 division	Iran	34.5732	51.876
@@ -623,7 +623,7 @@ division	Lagos	6.54252	3.286661
 division	Lanaken	50.884429	5.634002
 division	Lapland	67.700017	26.273752
 division	Lasne	50.679575	4.463992
-division	Latvia	57	25
+division	Latvia	56.799689	25.441386
 division	Lazio	41.994328	12.622686
 division	Leuven	50.8798	4.7005
 division	Liège	50.6326	5.5797
@@ -827,6 +827,7 @@ division	St-Louis	16.0326	-16.4818
 division	Stekene	51.214088	4.030857
 division	Stockholm	59.33267	18.061849
 division	Sud Kivu	-3.223156	28.386665
+division	Surabaya	-7.266062	112.748376
 division	Sverdlovsk Region	59.0077	61.9316
 division	Sweden	59.6749712	14.5208584
 division	Switzerland	46.8182	8.2275
@@ -910,6 +911,8 @@ division	Zolder	50.9905	5.258
 division	Zonhoven	50.9871	5.3672
 division	Zoutleeuw	50.836614	5.107761
 division	Zurich	47.441242	8.641154
+
+
 
 
 country	Argentina	-37.052315	-64.869142

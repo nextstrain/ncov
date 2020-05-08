@@ -346,6 +346,8 @@ location	Glendale
 location	Accra
 
 
+
+
 division	China
 division	Hubei
 division	Guangxi
@@ -392,7 +394,6 @@ division	Kathmandu
 division	Sri Lanka
 division	Selangor
 division	Kuala Lumpur
-division	India
 division	Uttar Pradesh
 division	Delhi
 division	Ladakh
@@ -455,6 +456,8 @@ division	Malaysia
 division	Singapore
 division	Brunei
 division	Jakarta
+division	Surabaya
+division	India
 division	Australia
 division	Queensland
 division	Northern Territory
@@ -507,11 +510,11 @@ division	Poland
 division	Dolnoslaskie
 division	Belarus
 division	Estonia
+division	Latvia
 division	Europe
 division	Iceland
 division	Reykjavik
 division	Helsinki
-division	Latvia
 division	Riga
 division	Lithuania
 division	Vilnius
