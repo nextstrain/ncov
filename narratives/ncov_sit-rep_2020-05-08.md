@@ -94,11 +94,11 @@ A [series of religious gatherings in Delhi](https://en.wikipedia.org/wiki/2020_T
 <br><br>
 Between March 1-April 8 (two weeks after the gathering), 16 viral genomes from the Delhi area were sampled and sequenced. As shown here, these cases are scattered across the tree.
 <br><br>
-If these gatherings were the primary hub of transmission in Delhi, we would have expected to see a small number of large clusters. This would have been consistent with a few infected individuals at the gathering spreading the virus to other attendees.
+If these gatherings were the primary hub of transmission in Delhi, we might have expected to see most of these cases grouping together in large clusters. This would have been consistent with a few infected attendees spreading the virus to many other people.
 <br><br>
-Instead, we see a large number of small clusters, scattered across the tree. This means that the samples from India on Nextstrain were the result of many different introductions from all over the world.
+Instead, we see a large number of small clusters, scattered across the tree. This means that these sampled cases from Delhi were the result of many different introductions from all over the world.
 <br><br>
-While large gatherings can amplify outbreaks, there is strong evidence for multiple, separate introductions to Delhi during this time period.
+We don't yet have enough data to directly assess the impact of this specific gathering. However, these observations provide strong evidence for many separate introductions to Delhi during this time period; this gathering is only part of the story.
 <!-- There is no right side text -->
 
 
