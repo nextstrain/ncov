@@ -21,7 +21,7 @@ translators:
 translatorLinks:
 license: "CC-BY"  
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
-dataset: "https://nextstrain.org/ncov/2020-05-06?d=map&legend=closed"
+dataset: "https://nextstrain.org/ncov/asia/2020-05-06?d=map&legend=closed"
 
 abstract: "This weekly report uses publicly shared genomic data to track the spread of COVID-19. This week, we focus on Asia. We report many separate, independent introductions to India; context for the outbreak among migrant workers in Singapore; and the prevalence of international spread across the region."
 ---
