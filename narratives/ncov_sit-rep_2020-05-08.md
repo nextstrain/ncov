@@ -86,34 +86,27 @@ For example, the map shows very few sequences from the Middle East. This is NOT 
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 4-->
-# [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-06?c=division&d=tree,map&dmax=2020-04-05&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=country)
+<!-- This is left-side text -->
+# [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-08?c=division&d=tree,map&dmax=2020-04-08&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=division)
 
 A [series of religious gatherings in Delhi](https://en.wikipedia.org/wiki/2020_Tablighi_Jamaat_coronavirus_hotspot_in_Delhi), between March 1-24, have been scrutinized for their presumed contribution to the spread of SARS-CoV-2 across the country.
 <br><br>
-Between March 1-April 8 (two weeks after the gathering), 16 viral genomes from the Delhi area were sampled and sequenced. As shown here, these cases are scattered across the tree.
+Between March 1-April 8 (two weeks after the gathering), 30 viral genomes from the Delhi area were sampled and sequenced (shown here).
 <br><br>
-If these gatherings were the primary hub of transmission in Delhi, we might have expected to see most of these cases grouping together in large clusters. This would have been consistent with a few infected attendees spreading the virus to many other people.
+In the middle of the tree, we see a large cluster of closely related cases. This is consistent with a few infected people spreading the virus to other attendees at a large gathering, followed by targeted contact tracing and sampling.
 <br><br>
-Instead, we see a large number of small clusters, scattered across the tree. This means that these sampled cases from Delhi were the result of many different introductions from all over the world.
+However, it is crucial to consider the context of this cluster.  
+Scattered across the tree, we also see many other small clusters and isolated cases.
+These represent multiple separate introductions from all over the world.
+Unlike the cases from the gathering, however, these introductory cases may not have been targeted for contact tracing and sampling; we can't say how extensively they have spread.
 <br><br>
-We don't yet have enough data to directly assess the impact of this specific gathering. However, these observations provide strong evidence for many separate introductions to Delhi during this time period; this gathering is only part of the story.
+This gathering was only part of the story.
 <!-- There is no right side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 5-->
-# [Many cases in India are not necessarily linked to Delhi](https://nextstrain.org/ncov/asia/2020-05-06?c=division&d=tree&f_country=India&f_division=Delhi,Karnataka&label=clade:A2&m=div&p=full&r=division)
-
-We see similar patterns of multiple independent introductions to other states across India. For example, here we see samples from Karnataka and from Delhi. The samples from Karnataka form two separate clusters, but each of these is more closely related to samples from Europe than to samples from Delhi.
-<br><br>
-We can't preclude the possibility that there were intermediate cases in other locations that simply weren't sampled. However, this reinforces that the outbreak in India was sparked by many separate introductions from other parts of the world.
-<!-- There is no right side text -->
-
-
-<!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 6-->
-# [Contextualizing the SARS-CoV-2 resurgence in Singapore](https://nextstrain.org/ncov/asia/2020-05-06?d=tree,map&dmin=2020-02-26&f_country=China,Singapore,India,Philippines&p=full&legend=closed&r=division)
+<!-- This is left-side text -->
+# [Contextualizing the SARS-CoV-2 resurgence in Singapore](https://nextstrain.org/ncov/asia/2020-05-08?d=tree,map&dmin=2020-02-26&f_country=China,Singapore,India,Philippines&p=full&legend=closed&r=division)
 
 In the last 10 weeks, SARS-CoV-2 has been introduced to Singapore many times, from multiple locations.
 <br><br>
@@ -167,7 +160,7 @@ The consistency of this pattern is strong evidence that the virus frequently cro
 ```auspiceMainDisplayMarkdown
 # Takeaways
 
-#### The outbreak in India is the result of many separate introductions from around the world, rather than a single gathering.  
+#### The outbreak in India is the result of many separate introductions from around the world.  
 <br><br>
 #### In Singapore, sociological factors accelerated the expansion of one introduction to become a large outbreak, in contrast to the many introductions which have not spread widely.
 <br><br>
