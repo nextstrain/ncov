@@ -87,7 +87,7 @@ For example, the map shows very few sequences from the Middle East. This is NOT 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-08?c=division&d=tree,map&dmax=2020-04-08&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=division)
+# [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-08?c=division&d=tree,map&dmax=2020-04-08&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=country)
 
 A [series of religious gatherings in Delhi](https://en.wikipedia.org/wiki/2020_Tablighi_Jamaat_coronavirus_hotspot_in_Delhi), between March 1-24, have been scrutinized for their presumed contribution to the spread of SARS-CoV-2 across the country.
 <br><br>
@@ -100,7 +100,7 @@ Scattered across the tree, we also see many other small clusters and isolated ca
 These represent multiple separate introductions from all over the world.
 Unlike the cases from the gathering, however, these introductory cases may not have been targeted for contact tracing and sampling; we can't say how extensively they have spread.
 <br><br>
-This gathering was only part of the story.
+Although we have more data available from the gathering, it only tells part of the story.
 <!-- There is no right side text -->
 
 
