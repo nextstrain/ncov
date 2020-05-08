@@ -30,16 +30,16 @@ abstract: "This weekly report uses publicly shared genomic data to track the spr
 <!-- Ensure that links always end in a 'letter' (. counts) If some kind of text doesn't follow them, it breaks the slide. -->
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
-<!-- This is left-side text -->
+<!-- This is left-side text 1-->
 # [Table of Contents](https://nextstrain.org/ncov/2020-05-06?d=tree,map&p=grid)
 
 * [Background resources](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=2).     
-* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=3).
-* [](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=X).
-
-* [What you can do](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=X).
-* [FAQ & common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=X).
-* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=X).
+* [About this data](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=3).  
+* [Origins of the epidemic in India](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=4).  
+* [Contextualizing the resurgence of cases in Singapore](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=6).  
+* [Introductions to Malaysia](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=7).  
+* [Frequent spread across international borders](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=8).    
+* [Scientific credit](https://nextstrain.org/narratives/ncov/sit-rep/2020-05-06?n=9).
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
@@ -75,7 +75,7 @@ We've prepared some resources that will make interpreting the data we present in
 
 <!-- ############ SLIDE BREAK ############# -->
 
-<!-- This is left-side text -->
+<!-- This is left-side text 3-->
 # [A note on sampling](https://nextstrain.org/ncov/XX/2020-05-06?c=country&r=country&d=map&p=grid&legend=closed)
 We currently have sequences from samples taken in 26 countries in Asia. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
@@ -87,7 +87,7 @@ For example, the map shows very few sequences from the Middle East. This is NOT 
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 4-->
 # [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-06?c=division&d=tree,map&dmax=2020-04-05&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=country)
 
 A [series of religious gatherings in Delhi](https://en.wikipedia.org/wiki/2020_Tablighi_Jamaat_coronavirus_hotspot_in_Delhi), between March 1-24, have been scrutinized for their presumed contribution to the spread of SARS-CoV-2 across the country.
@@ -103,7 +103,7 @@ We don't yet have enough data to directly assess the impact of this specific gat
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 5-->
 # [Many cases in India are not necessarily linked to Delhi](https://nextstrain.org/ncov/asia/2020-05-06?c=division&d=tree&f_country=India&f_division=Delhi,Karnataka&label=clade:A2&m=div&p=full&r=division)
 
 We see similar patterns of multiple independent introductions to other states across India. For example, here we see samples from Karnataka and from Delhi. The samples from Karnataka form two separate clusters, but each of these is more closely related to samples from Europe than to samples from Delhi.
@@ -113,7 +113,7 @@ We can't preclude the possibility that there were intermediate cases in other lo
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 6-->
 # [Contextualizing the SARS-CoV-2 resurgence in Singapore](https://nextstrain.org/ncov/asia/2020-05-06?d=tree,map&dmin=2020-02-26&f_country=China,Singapore,India,Philippines&p=full&legend=closed&r=division)
 
 In the last 10 weeks, SARS-CoV-2 has been introduced to Singapore many times, from multiple locations.
@@ -130,24 +130,26 @@ This illustrates how the extent to which an introduction spreads within a popula
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 7-->
 # [Repeated introductions to Malaysia](https://nextstrain.org/ncov/asia/2020-05-06?f_country=Malaysia&d=tree,map&r=division)
 
 We have 14 sequences from Malaysia on Nextstrain, sampled between late January and late March. These sequences group with several different clades, each of which was circulating mostly in other Asian countries. This suggests that there have been multiple introductions from the surrounding region into Malaysia.
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text -->
+<!-- This is left-side text 8-->
 # [Regional spread across Asia](https://nextstrain.org/ncov/asia/2020-05-06?d=tree,map&f_country=Japan,Jordan,Thailand,United%20Arab%20Emirates)
 
-A similar pattern is repeated for many other countries in the region: multiple introductions, many of which were well-contained, but with a few that took off to spark local transmission. We encourage you to "Explore the Data Yourself". You will observe similar patterns in Jordan, Japan, Thailand, and the United Arab Emirates.
+A similar pattern is repeated for many other countries in the region: multiple introductions, many of which were well-contained, but with a few that took off to spark local transmission.
+<br><br>
+We encourage you to "Explore the Data Yourself". You will observe similar patterns in Jordan, Japan, Thailand, and the United Arab Emirates.
 <br><br>
 The consistency of this pattern is strong evidence that the virus frequently crosses international borders. Thus, in order to effectively control the epidemic in any one country, we must control the pandemic across all countries through coordinated international efforts.
 <!-- There is no right side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
-<!-- This is left-side text 13-->
+<!-- This is left-side text 9-->
 # [What you can do](https://nextstrain.org/ncov/2020-05-06?c=country&d=map&p=full)
 #### ...as an individual
 * Practice strict social distancing, especially if you are in a vulnerable group.
@@ -187,41 +189,18 @@ The consistency of this pattern is strong evidence that the virus frequently cro
 <!-- This is left-side text -->
 # [Scientific credit](https://nextstrain.org/ncov/2020-05-06?d=map&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
+We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
-
-<br>
-
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
+<br><br>
+The specific sequences provided by each lab are [listed here]().
+<br><br>
+We also gratefully acknowledge GISAID for providing the platform through which these data can be uploaded and shared.
 
 <!-- Do not need to translate institutions names -->
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
 
 We are grateful for the data gathered by these originating labs:
-
-
-
-```
-
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
-
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
-
-<br>
-
-To the right we give specific sequences shared by each lab.
-
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
-
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
-
 
 
 
