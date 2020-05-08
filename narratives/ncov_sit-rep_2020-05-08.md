@@ -131,11 +131,11 @@ This clearly illustrates how sociological factors intersect with epidemiology an
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Regional transmission across Asia](https://nextstrain.org/ncov/asia/2020-05-06?f_country=Malaysia&d=tree,map)
+# [Regional transmission across Asia](https://nextstrain.org/ncov/asia/2020-05-06?f_country=Malaysia&d=tree,map&r=division)
 
 We have 14 sequences from Malaysia on Nextstrain, sampled between January 28 and March 20. These sequences nest among several different clades circulating predominantly in other Asian countries during the same time period, suggesting that there have been multiple introductions into Malaysia from the surrounding region.
 <br><br>
-This pattern is repeated for many other countries in the region: multiple introductions, many well-contained by isolation, with a few that take off to spark local transmission. We encourage you to "Explore the Data Yourself"; you'll observe similar scattered cases in Jordan, Japan, Thailand, and the United Arab Emirates.
+This pattern is repeated for many other countries in the region: multiple introductions, many well-contained by isolation, with a few that take off to spark local transmission. We encourage you to "Explore the Data Yourself"; you'll observe similarly scattered introductions into Jordan, Japan, Thailand, and the United Arab Emirates.
 <br><br>
 The consistency of this pattern is strong evidence that no country can single-handedly combat COVID-19: viruses do not respect international borders. Rather, international and regional collaboration will be required to contain the pathogen long-term.
 <!-- There is no right side text -->
