@@ -131,11 +131,16 @@ This illustrates how the extent to which an introduction spreads within a popula
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Regional transmission across Asia](https://nextstrain.org/ncov/asia/2020-05-06?f_country=Malaysia&d=tree,map&r=division)
+# [Repeated introductions to Malaysia](https://nextstrain.org/ncov/asia/2020-05-06?f_country=Malaysia&d=tree,map&r=division)
 
 We have 14 sequences from Malaysia on Nextstrain, sampled between late January and late March. These sequences group with several different clades, each of which was circulating mostly in other Asian countries. This suggests that there have been multiple introductions from the surrounding region into Malaysia.
-<br><br>
-This pattern is repeated for many other countries in the region: multiple introductions, many of which were well-contained, but with a few that took off to spark local transmission. We encourage you to "Explore the Data Yourself". You will observe similar patterns in Jordan, Japan, Thailand, and the United Arab Emirates.
+
+
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
+# [Regional spread across Asia](https://nextstrain.org/ncov/asia/2020-05-06?d=tree,map&f_country=Japan,Jordan,Thailand,United%20Arab%20Emirates)
+
+A similar pattern is repeated for many other countries in the region: multiple introductions, many of which were well-contained, but with a few that took off to spark local transmission. We encourage you to "Explore the Data Yourself". You will observe similar patterns in Jordan, Japan, Thailand, and the United Arab Emirates.
 <br><br>
 The consistency of this pattern is strong evidence that the virus frequently crosses international borders. Thus, in order to effectively control the epidemic in any one country, we must control the pandemic across all countries through coordinated international efforts.
 <!-- There is no right side text -->
