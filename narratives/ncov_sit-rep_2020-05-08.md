@@ -21,7 +21,7 @@ translators:
 translatorLinks:
 license: "CC-BY"  
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
-dataset: "https://nextstrain.org/ncov/asia/2020-05-06?d=map&legend=closed"
+dataset: "https://nextstrain.org/ncov/asia/2020-05-06?d=map&legend=closed&f_region=Asia"
 
 abstract: "This weekly report uses publicly shared genomic data to track the spread of COVID-19. This week, we focus on Asia. We report many separate, independent introductions to India; context for the outbreak among migrant workers in Singapore; and the prevalence of international spread across the region."
 ---
@@ -58,7 +58,7 @@ We analyzed 2,112 publicly shared COVID-19 genomes. By comparing these viral gen
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2-->
-# [COVID-19 Resources](https://nextstrain.org/ncov/asia/2020-05-06?d=tree&p=full&legend=closed)
+# [COVID-19 Resources](https://nextstrain.org/ncov/asia/2020-05-06?d=tree&p=full&legend=closed&f_region=Asia)
 We've prepared some resources that will make interpreting the data we present in this narrative easier.
 #### Nextstrain Resources  
 * [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).  
@@ -77,34 +77,34 @@ We've prepared some resources that will make interpreting the data we present in
 
 <!-- This is left-side text -->
 # [A note on sampling](https://nextstrain.org/ncov/XX/2020-05-06?c=country&r=country&d=map&p=grid&legend=closed)
-We currently have sequences from samples taken in XX countries across 6 continents. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
+We currently have sequences from samples taken in 26 countries in Asia. This is an incredible achievement -- sequencing an unknown, large RNA virus in the midst of a pandemic is difficult, and is only possible through the incredible work and timely sharing of data by scientists and physicians around the world.
 <br><br>
 While this data enables us to infer many useful characteristics of the outbreak and track its spread in real time, it's important to emphasize that our conclusions are limited by the available data.
 <br><br>
-For example, the map shows very few sequences from the global south. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
+For example, the map shows very few sequences from the Middle East. This is NOT because COVID-19 isn't circulating in these areas, or that these cases are not as crucial to understand; rather, we just don't have much data available from these areas. The size of each circle on the map indicates how much data is currently available from that area, rather than the true size of the outbreak.
 
 <!-- There is NO right-side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-06?c=division&d=tree,map&dmax=2020-04-05&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=division)
+# [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-06?c=division&d=tree,map&dmax=2020-04-05&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=country)
 
 A [series of religious gatherings in Delhi](https://en.wikipedia.org/wiki/2020_Tablighi_Jamaat_coronavirus_hotspot_in_Delhi) have received a great deal of scrutiny.
 <br><br>
 These gatherings lasted between March 1 -- March 24. Between March 1 -- April 8 (2 weeks after the gathering), 16 viral genomes from the Delhi area were sampled and sequenced.
 <br><br>
-If these gatherings were the hub of onward transmission in Delhi, we would expect to see only a few, large clusters of cases, consistent with a few infected individuals joining the gathering and spreading the virus to other attendees.
+If these gatherings were the sole hub of onward transmission in Delhi, we would expect to see only a few, large clusters of cases, consistent with a few infected individuals joining the gathering and spreading the virus to other attendees.
 <br><br>
 Here, though, we see cases scattered across the tree. This means that these cases were the result of many different introductions from all over the world.
 <br><br>
-This does not preclude the amplifying effect of the religious gatherings, but it does show that there were many separate introductions, from multiple sources, to Delhi during this time period.
+This does not preclude the amplifying effect of large gatherings, but it does show that there were many separate introductions, from multiple sources, to Delhi during this time period.
 <!-- There is no right side text -->
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Many cases in India are not necessarily linked to Delhi](https://nextstrain.org/ncov/asia/2020-05-06?c=division&d=tree,map&f_country=India&f_division=Delhi,Karnataka&label=clade:A2&m=div&p=full&r=division)
+# [Many cases in India are not necessarily linked to Delhi](https://nextstrain.org/ncov/asia/2020-05-06?c=division&d=tree&f_country=India&f_division=Delhi,Karnataka&label=clade:A2&m=div&p=full&r=division)
 
 This is also true of other Indian states. Here, we see samples from Karnataka and from Delhi. The samples from Karnataka form two separate transmission chains, but each of these clusters is much more closely related to samples from other countries than to those from Delhi.
 <br><br>
@@ -114,7 +114,7 @@ As always, we can't preclude the possibility that there were unsampled, intermed
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Outcome of introductions to Singapore determined by sociological factors](https://nextstrain.org/ncov/asia/2020-05-06?d=tree,map&dmin=2020-02-26&f_country=China,Singapore,India,Philippines&p=full&legend=open)
+# [Outcome of introductions to Singapore determined by sociological factors](https://nextstrain.org/ncov/asia/2020-05-06?d=tree,map&dmin=2020-02-26&f_country=China,Singapore,India,Philippines&p=full&legend=closed&r=division)
 
 In the last 10 weeks, SARS-CoV-2 has been introduced to Singapore many times, from multiple locations. On the tree, this looks like a color change between a sampled case ("tip") and its ancestor ("internal node").
 <br><br>
@@ -131,12 +131,13 @@ This clearly illustrates how sociological factors intersect with epidemiology an
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Regional transmission across Asia](https://nextstrain.org/ncov/asia/2020-05-06?f_country=Malaysia)
+# [Regional transmission across Asia](https://nextstrain.org/ncov/asia/2020-05-06?f_country=Malaysia&d=tree,map)
 
 We have 14 sequences from Malaysia on Nextstrain, sampled between January 28 and March 20. These sequences nest among several different clades circulating predominantly in other Asian countries during the same time period, suggesting that there have been multiple introductions into Malaysia from the surrounding region.
 <br><br>
-This pattern is repeated for many other countries in the region, and we encourage you to 'Explore the Data Yourself'.
-The consistency of this pattern is strong evidence for the importance of international and regional collaboration to successfully controlling the pandemic long-term.
+This pattern is repeated for many other countries in the region: multiple introductions, many well-contained by isolation, with a few that take off to spark local transmission. We encourage you to "Explore the Data Yourself"; you'll observe similar scattered cases in Jordan, Japan, Thailand, and the United Arab Emirates.
+<br><br>
+The consistency of this pattern is strong evidence that no country can single-handedly combat COVID-19: viruses do not respect international borders. Rather, international and regional collaboration will be required to contain the pathogen long-term.
 <!-- There is no right side text -->
 
 
