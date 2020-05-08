@@ -50,8 +50,8 @@ We analyzed 2,112 publicly shared COVID-19 genomes. By comparing these viral gen
 * Multiple introductions to Delhi during March 2020 from all over the world, rather than a single source  
 * Separate, likely unrelated outbreaks in other Indian states  
 * Many separate introductions to Singapore, most of which do not appear to have spread further  
-* Expansion of a large cluster of cases in Singapore is likely driven by sociological factors
-* Similar patterns of international spread emphasize the urgent need for cooperative efforts
+* Expansion of a large cluster of cases in Singapore likely driven by sociological factors
+* Similar patterns of international spread that emphasize the urgent need for cooperative efforts
 ```
 
 
@@ -90,9 +90,9 @@ For example, the map shows very few sequences from the Middle East. This is NOT 
 <!-- This is left-side text -->
 # [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-06?c=division&d=tree,map&dmax=2020-04-05&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=country)
 
-A [series of religious gatherings in Delhi](https://en.wikipedia.org/wiki/2020_Tablighi_Jamaat_coronavirus_hotspot_in_Delhi), between March 1 -- 24, have been scrutinized for their presumed contribution to the spread of SARS-CoV-2 across the country.
+A [series of religious gatherings in Delhi](https://en.wikipedia.org/wiki/2020_Tablighi_Jamaat_coronavirus_hotspot_in_Delhi), between March 1-24, have been scrutinized for their presumed contribution to the spread of SARS-CoV-2 across the country.
 <br><br>
-Between March 1 -- April 8 (2 weeks after the gathering), 16 viral genomes from the Delhi area were sampled and sequenced. As shown here, these cases are scattered across the tree.
+Between March 1-April 8 (two weeks after the gathering), 16 viral genomes from the Delhi area were sampled and sequenced. As shown here, these cases are scattered across the tree.
 <br><br>
 If these gatherings were the primary hub of transmission in Delhi, we would have expected to see a small number of large clusters. This would have been consistent with a few infected individuals at the gathering spreading the virus to other attendees.
 <br><br>
@@ -108,7 +108,7 @@ While large gatherings can amplify outbreaks, there is strong evidence for multi
 
 We see similar patterns of multiple independent introductions to other states across India. For example, here we see samples from Karnataka and from Delhi. The samples from Karnataka form two separate clusters, but each of these is more closely related to samples from Europe than to samples from Delhi.
 <br><br>
-We can't preclude the possibility that there were intermediate cases in other locations that simply weren't sampled. However, this reinforces that the outbreak in India is the result of many separate introductions from other parts of the world.
+We can't preclude the possibility that there were intermediate cases in other locations that simply weren't sampled. However, this reinforces that the outbreak in India was sparked by many separate introductions from other parts of the world.
 <!-- There is no right side text -->
 
 
@@ -125,7 +125,7 @@ This large, cohesive cluster is most closely related to samples from India and t
 <br><br>
 This is consistent with [recent reports](https://www.nytimes.com/interactive/2020/04/28/world/asia/coronavirus-singapore-migrants.html) that the virus is spreading rapidly among vulnerable, confined populations of migrant workers in Singapore.
 <br><br>
-This illustrates how the extent to which an introduction spreads within a population depends on sociological factors, and emphasizes why it is critically important to protect vulnerable groups.
+This illustrates how the extent to which an introduction spreads within a population depends on sociological factors and emphasizes why it is critically important to protect vulnerable groups.
 <!-- There is no right side text -->
 
 
@@ -135,7 +135,7 @@ This illustrates how the extent to which an introduction spreads within a popula
 
 We have 14 sequences from Malaysia on Nextstrain, sampled between late January and late March. These sequences group with several different clades, each of which was circulating mostly in other Asian countries. This suggests that there have been multiple introductions from the surrounding region into Malaysia.
 <br><br>
-This pattern is repeated for many other countries in the region: multiple introductions, many of which were well-contained, but with a few that took off to spark local transmission. We encourage you to "Explore the Data Yourself"; you'll observe similar patterns in Jordan, Japan, Thailand, and the United Arab Emirates.
+This pattern is repeated for many other countries in the region: multiple introductions, many of which were well-contained, but with a few that took off to spark local transmission. We encourage you to "Explore the Data Yourself". You will observe similar patterns in Jordan, Japan, Thailand, and the United Arab Emirates.
 <br><br>
 The consistency of this pattern is strong evidence that the virus frequently crosses international borders. Thus, in order to effectively control the epidemic in any one country, we must control the pandemic across all countries through coordinated international efforts.
 <!-- There is no right side text -->
@@ -167,7 +167,7 @@ The consistency of this pattern is strong evidence that the virus frequently cro
 <br><br>
 #### In Singapore, sociological factors accelerated the expansion of one introduction to become a large outbreak, in contrast to the many introductions which have not spread widely.
 <br><br>
-#### Most countries' outbreaks have a similar history: many separate introductions from other countries, some of which resulted in local spread. This pattern of multiple introductions over time emphasizes the need for international and regional cooperation to fully control the pandemic.
+#### In Asia, most countries' outbreaks have a similar history: many separate introductions from other countries, some of which resulted in local spread. This pattern of multiple introductions over time emphasizes the need for international and regional cooperation to fully control the pandemic.
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
