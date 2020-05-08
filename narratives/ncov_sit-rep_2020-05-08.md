@@ -47,7 +47,7 @@ abstract: "This weekly report uses publicly shared genomic data to track the spr
 
 We analyzed 2,226 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how COVID-19 is moving around the world and spreading locally. In this week's updates, we focus on recent spread across Asia. We report:
 
-* Multiple introductions to Delhi during March 2020 from all over the world, rather than a single source  
+* Multiple introductions to Delhi during March 2020 from all over the world  
 * Many separate introductions to Singapore, most of which do not appear to have spread further  
 * Expansion of a large cluster of cases in Singapore likely driven by sociological factors
 * Similar patterns of international spread that emphasize the urgent need for cooperative efforts
@@ -87,20 +87,15 @@ For example, the map shows very few sequences from the Middle East. This is NOT 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-08?c=division&d=tree,map&dmax=2020-04-08&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=country)
+# [Many separate introductions to Delhi during March](https://nextstrain.org/ncov/asia/2020-05-08?c=division&d=tree,map&dmax=2020-04-15&dmin=2020-03-01&f_country=India&f_division=Delhi&p=full&r=country&m=div)
 
-A [series of religious gatherings in Delhi](https://en.wikipedia.org/wiki/2020_Tablighi_Jamaat_coronavirus_hotspot_in_Delhi), between March 1-24, have been scrutinized for their presumed contribution to the spread of SARS-CoV-2 across the country.
+Between March 1-April 15, 38 viral genomes from the Delhi area were sampled and sequenced (shown here).
 <br><br>
-Between March 1-April 8 (two weeks after the gathering), 30 viral genomes from the Delhi area were sampled and sequenced (shown here).
-<br><br>
-In the middle of the tree, we see a large cluster of closely related cases. This is consistent with a few infected people spreading the virus to other attendees at a large gathering, followed by targeted contact tracing and sampling.
+In the middle of the tree, we see a sizable cluster of closely related cases. This is consistent with a single introduction, followed by local community spread.
 <br><br>
 However, it is crucial to consider the context of this cluster.  
-Scattered across the tree, we also see many other small clusters and isolated cases.
-These represent multiple separate introductions from all over the world.
-Unlike the cases from the gathering, however, these introductory cases may not have been targeted for contact tracing and sampling; we can't say how extensively they have spread.
-<br><br>
-Although we have more data available from the gathering, it only tells part of the story.
+Scattered across the tree, we also see many other small clusters and isolated cases, representing separate introductions from all over the world.
+We don't have enough data to say what followed these other introductions -- if or how far they spread. But, we can say that the large cluster of cases is only part of the story.
 <!-- There is no right side text -->
 
 
