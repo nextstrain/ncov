@@ -238,6 +238,9 @@ location	Columbus
 location	Cincinnati
 location	Ketchikan
 location	Fairbanks
+location	Mat-Su
+location	Interior Alaska
+location	Southeast Alaska
 location	Wasilla
 location	Juneau
 location	Eielson AFB
@@ -346,6 +349,10 @@ location	Glendale
 location	Accra
 
 
+
+
+
+
 division	China
 division	Hubei
 division	Guangxi
@@ -392,7 +399,6 @@ division	Kathmandu
 division	Sri Lanka
 division	Selangor
 division	Kuala Lumpur
-division	India
 division	Uttar Pradesh
 division	Delhi
 division	Ladakh
@@ -455,6 +461,8 @@ division	Malaysia
 division	Singapore
 division	Brunei
 division	Jakarta
+division	Surabaya
+division	India
 division	Australia
 division	Queensland
 division	Northern Territory
@@ -472,6 +480,12 @@ division	Qatar
 division	Israel
 division	Jordan
 division	Turkey
+division	Styria
+division	Denizli
+division	Tokat
+division	Agri
+division	Mardin
+division	Tekirdag
 division	Adıyaman
 division	Pakistan
 division	Nur-Sultan
@@ -507,17 +521,20 @@ division	Poland
 division	Dolnoslaskie
 division	Belarus
 division	Estonia
+division	Latvia
 division	Europe
 division	Iceland
 division	Reykjavik
 division	Helsinki
-division	Latvia
 division	Riga
 division	Lithuania
 division	Vilnius
 division	Norway
 division	Oslo
 division	Istria
+division	Serbia
+division	Kraljevo
+division	Novi Pazar
 division	Hungary
 division	Central Hungary
 division	Baranya
@@ -872,6 +889,7 @@ division	Arizona
 division	Utah
 division	Wyoming
 division	Idaho
+division	Montana
 division	California
 division	Grand Princess
 division	Oregon
@@ -919,8 +937,10 @@ country	Jordan
 country	Turkey
 country	Pakistan
 country	Kazakhstan
+country	Kyrgyzstan
 country	Georgia
 country	Russia
+country	Serbia
 country	Europe
 country	Latvia
 country	Slovakia

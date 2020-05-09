@@ -136,6 +136,7 @@ location	Hyderabad	17.431807	78.416233
 location	Iberville Parish	30.256342	-91.380864
 location	Illinois	40.088552	-89.301876
 location	Indianapolis	39.7684	-86.1581
+location	Interior Alaska	65.905635	-150.144417
 location	Jackson	43.325508	-88.167662
 location	Jackson County	44.310891	-90.788896
 location	Jefferson County	44.063938	-75.903794
@@ -180,6 +181,7 @@ location	Manhattan	40.778542	-73.969920
 location	mansa	23.428814	72.656249
 location	Marin County	38.077277	-122.719060
 location	Mason County	47.4251	-123.1951
+location	Mat-Su	61.382704	-150.251175
 location	Melbourne	-37.839042	145.076343
 location	Mequon	43.226666	-87.973033
 location	Meudon la Forêt	48.787126	2.227098
@@ -280,6 +282,7 @@ location	Solano County	38.295909	-121.928845
 location	Sonoma County	38.506902	-122.863769
 location	South Milwaukee	42.908266	-87.860903
 location	South Yorkshire	53.476171	-1.327867
+location	Southeast Alaska	57.011818	-133.720144
 location	Spicheren	49.192118	6.967399
 location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
@@ -348,13 +351,13 @@ location	Zhuhai	22.271346	113.562879
 
 
 
-
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
 division	Abruzzo	42.192	13.7289
 division	Adıyaman	37.900714	38.309879
 division	Africa	4.070194	21.824559
 division	Afyon	38.752653	30.553661
+division	Agri	39.7191	43.0506
 division	Aichi	35.067543	137.334061
 division	Aksaray	38.44611	33.878216
 division	Alagoas	-9.74863	-36.417626
@@ -467,6 +470,7 @@ division	Deinze	50.9875	3.5236
 division	Delhi	28.7041	77.1025
 division	Democratic Republic of the Congo	-4.0383	21.7587
 division	Dendermonde	51.032573	4.099329
+division	Denizli	37.7830	29.0963
 division	Denmark	56.2639	9.5018
 division	Diamond Princess	35.046935	139.419325
 division	Dilbeek	50.8465	4.2621
@@ -562,7 +566,7 @@ division	Iceland	64.9841821	-18.1059012
 division	Idaho	43.810421	-114.351215
 division	Ile De France	48.724751	2.491522
 division	Illinois	40.088552	-89.301876
-division	India	22.3511148	78.6677428
+division	India	21.077353	78.723951
 division	Indiana	40.2672	-86.1349
 division	Iowa	41.878	-93.0977
 division	Iran	34.5732	51.876
@@ -609,6 +613,7 @@ division	Konya	37.859743	32.495438
 division	Kosice	48.7164	21.2611
 division	Kostoliste	48.4467	16.9868
 division	Kraainem	50.8611	4.4593
+division	Kraljevo	43.7238	20.6873
 division	Krasnodar Region	45.6415	39.7056
 division	Krasnoyarsk Region	64.248	95.1104
 division	Kuala Lumpur	3.139	101.6869
@@ -623,7 +628,7 @@ division	Lagos	6.54252	3.286661
 division	Lanaken	50.884429	5.634002
 division	Lapland	67.700017	26.273752
 division	Lasne	50.679575	4.463992
-division	Latvia	57	25
+division	Latvia	56.799689	25.441386
 division	Lazio	41.994328	12.622686
 division	Leuven	50.8798	4.7005
 division	Liège	50.6326	5.5797
@@ -649,6 +654,7 @@ division	Malopolskie	49.7225	20.2503
 division	Manila	14.652678	121.043936
 division	Manitoba	55.182879	-97.823531
 division	Marche	43.374025	13.161012
+division	Mardin	37.3129	40.7340
 division	Martin	49.0617	18.919
 division	Maryland	39.0458	-76.6413
 division	Massachusetts	42.340741	-71.998513
@@ -664,6 +670,7 @@ division	Minas gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
 division	Missouri	37.9643	-91.8318
 division	Mons	50.445439	3.962794
+division	Montana	46.974704	-110.872530
 division	Montevideo	-34.823827	-56.211799
 division	Montigny-le-Tilleul	50.374917	4.371814
 division	Moscow	55.7558	37.6173
@@ -703,6 +710,7 @@ division	Northern Territory	-19.4914	132.551
 division	Norway	64.574131	11.52701029
 division	Nottinghamshire	53.134734	-0.989052
 division	Nova Scotia	44.879119	-64.020314
+division	Novi Pazar	43.1407	20.5214
 division	Novosibirsk Region	55.4467	80.1044
 division	Nur-Sultan	51.147862	71.433377
 division	Occitanie	43.8927	3.2828
@@ -796,6 +804,7 @@ division	Selangor	3.0738	101.5183
 division	Senegal	14.5	-14.25
 division	Seoul	37.548278	126.990916
 division	Seraing	50.591687	5.516066
+division	Serbia	43.745902	20.848918
 division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
 division	Sichuan	30.709229	102.693949
@@ -826,7 +835,9 @@ division	Sri Lanka	7.75	80.75
 division	St-Louis	16.0326	-16.4818
 division	Stekene	51.214088	4.030857
 division	Stockholm	59.33267	18.061849
+division	Styria	47.3593	14.4700
 division	Sud Kivu	-3.223156	28.386665
+division	Surabaya	-7.266062	112.748376
 division	Sverdlovsk Region	59.0077	61.9316
 division	Sweden	59.6749712	14.5208584
 division	Switzerland	46.8182	8.2275
@@ -838,6 +849,7 @@ division	Tamil Nadu	11.1271	78.6569
 division	Taoyuan	24.9936	121.301
 division	Tatarstan	56.130014	53.371181
 division	Tbilisi	41.733699	44.818487
+division	Tekirdag	40.9781	27.5117
 division	Telangana	18.094062	79.141493
 division	Teramo	42.6611	13.6987
 division	Tervuren	50.820725	4.52387
@@ -852,6 +864,7 @@ division	Tielt-Winge	50.922676	4.892596
 division	Tienen	50.80466	4.937784
 division	Tilburg	51.567213	5.047957
 division	Tipperary	52.4738	-8.1619
+division	Tokat	40.3235	36.5522
 division	Tokyo	35.683441	139.766131
 division	Touba	14.856713	-15.87911
 division	Toulouse	43.597198	1.431465
@@ -912,6 +925,8 @@ division	Zoutleeuw	50.836614	5.107761
 division	Zurich	47.441242	8.641154
 
 
+
+
 country	Argentina	-37.052315	-64.869142
 country	Asia	30.451098	86.654576
 country	Austria	47.5162	14.5501
@@ -930,6 +945,7 @@ country	Iceland	64.90614	-18.4826
 country	Indonesia	-0.897599	114.181602
 country	Iran	34.5732	51.876
 country	Israel	31.217736	34.903129
+country	Kyrgyzstan	41.2044	74.7661
 country	Lithuania	55.378752	23.945328
 country	Luxembourg	49.755428	6.119486
 country	Malaysia	4.264153	102.222436
