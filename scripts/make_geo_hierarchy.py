@@ -20,6 +20,14 @@ def majority_rule(d):
 
     return max_only
 
+
+def fix_names(d):
+    new_dict = {}
+    for k,v in d.items():
+        new_dict[k.lower().replace(' ', '-')] = v
+
+    return new_dict
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="make region hierarchy",
@@ -66,11 +74,14 @@ if __name__ == '__main__':
 
     
 
-    geo_hierarchy = {"region": majority_rule(regions), 
-                     "country": majority_rule(countries), 
-                     "division": majority_rule( divisions), 
-                     "location": majority_rule(locations)
-                    }
+    geo_hierarchy = {
+        "geo_hierarchy":{
+            "region": fix_names(majority_rule(regions)), 
+            "country": fix_names(majority_rule(countries)), 
+            "division": fix_names(majority_rule( divisions)), 
+            "location": fix_names(majority_rule(locations))
+        }
+    }
 
     with open(args.output, 'w') as fh:
         json.dump(geo_hierarchy, fh)

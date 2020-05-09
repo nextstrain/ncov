@@ -131,12 +131,12 @@ subsampling:
     region:
       group_by: "division year month"
       seq_per_group: 260
-      exclude: "--exclude-where 'region!={location_name}'"
+      exclude: "--exclude-where 'region!={{region}}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
       seq_per_group: 20
-      exclude: "--exclude-where 'region={location_name}'"
+      exclude: "--exclude-where 'region={{region}}'"
       priorities:
         type: "proximity"
         focus: "region"
@@ -147,12 +147,12 @@ subsampling:
     country:
       group_by: "division year month"
       seq_per_group: 260
-      exclude: "--exclude-where 'country!={location_name}'"
+      exclude: "--exclude-where 'country!={{country}}'"
     # Contextual samples from country's region
     region:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'country={location_name}' 'region!={{region}}'"
+      exclude: "--exclude-where 'country={{country}}' 'region!={{region}}'"
     # Contextual samples from the rest of the world,
     # excluding the current region to avoid resampling.
     global:
@@ -169,17 +169,17 @@ subsampling:
     division:
       group_by: "year month"
       seq_per_group: 260
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={location_name}'"
+      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}'"
     # Contextual samples from division's country
     country:
       group_by: "division year month"
       seq_per_group: 100
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division={location_name}'"
+      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division={{division}}'"
     # Contextual samples from division's region
     region:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}' 'division={location_name}'"
+      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}' 'division={{division}}'"
     # Contextual samples from the rest of the world, excluding the current
     # division to avoid resampling.
     global:

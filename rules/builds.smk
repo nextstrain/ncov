@@ -185,7 +185,14 @@ def _get_specific_subsampling_setting(setting, optional=False):
             value = _get_subsampling_settings(wildcards)[setting]
 
         if isinstance(value, str):
-            return value.format(**wildcards)
+            value = value.format(**wildcards)
+        else:
+            return value
+
+        if "geo_hierarchy" in config\
+             and wildcards.location_type in config["geo_hierarchy"] \
+             and wildcards.location_name in config["geo_hierarchy"][wildcards.location_type]:
+            return value.format(**config["geo_hierarchy"][wildcards.location_type][wildcards.location_name])
         else:
             return value
 
