@@ -15,3 +15,35 @@ Please see [these docs](./docs/running.md) for instructions on how to run this b
 
 The resulting output JSON at `auspice/ncov.json` can be visualized by running `auspice view --datasetDir auspice` or `nextstrain view auspice/` depending on local vs containerized installation.
 
+### Finalizing automated builds
+
+To run a regional build, be sure to update the list of regions in `config/nextstrain_config.yaml`.
+You can run all builds in parallel with the following command.
+
+```bash
+snakemake --profile profiles/nextstrain all_regions
+```
+
+Or you can specify final or intermediate output files like so:
+
+```bash
+# subsampled regional focal
+snakemake --profile profiles/nextstrain auspice/ncov_europe.json
+
+# subsampled global
+snakemake --profile profiles/nextstrain auspice/ncov_global.json
+```
+
+To update ordering/lat_longs after AWS download:
+
+```bash
+snakemake --touch --forceall --profile profiles/nextstrain
+snakemake --profile profiles/nextstrain clean_export_regions
+snakemake --profile profiles/nextstrain export_all_regions
+```
+
+When done adjusting lat-longs & orders, remember to run the following command to produce the final Auspice files.
+
+```bash
+snakemake --profile profiles/nextstrain all_regions
+```

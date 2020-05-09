@@ -2,7 +2,7 @@
 # If a region is selected, it'll do 280/division for that region, and 20/division in the rest of the world
 #       -- preferentially sequences near the focal sequences
 #
-# To run a regional build, be sure to update it to the list in Snakefile
+# To run a regional build, be sure to update the list of regions in `config/nextstrain_config.yaml`.
 #
 # You can run all builds in parallel!
 #   snakemake --profile profiles/nextstrain all_regions
@@ -16,7 +16,7 @@
 #   snakemake --profile profiles/nextstrain clean_export_regions
 #   snakemake --profile profiles/nextstrain export_all_regions
 # When done adjusting lat-longs & orders, remember to run
-#   snakemake --profile profiles/nextstrain
+#   snakemake --profile profiles/nextstrain all_regions
 # to produce the final Auspice files!
 
 def get_todays_date():
@@ -58,7 +58,7 @@ rule export_all_regions:
         colors_file = expand("config/colors_{region}.tsv", region=REGIONS),
         auspice_json = expand(REGION_PATH + "ncov_with_accessions.json", region=REGIONS),
         lat_longs = config["files"]["lat_longs"],
-        metadata = expand(REGION_PATH + "metadata_adjusted.tsv", region=REGIONS),
+        metadata = [_get_metadata_by_region(region).format(region=region) for region in REGIONS],
         colors = expand("config/colors_{region}.tsv", region=REGIONS),
     conda: config["conda_environment"]
     shell:
@@ -90,6 +90,8 @@ rule export_gisaid:
         recency = rules.recency.output
     output:
         auspice_json = REGION_PATH + "ncov_gisaid_with_accessions.json"
+    log:
+        "logs/export_gisaid_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -101,7 +103,7 @@ rule export_gisaid:
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule export_zh:
@@ -121,6 +123,8 @@ rule export_zh:
         recency = rules.recency.output
     output:
         auspice_json = REGION_PATH + "ncov_zh_with_accessions.json"
+    log:
+        "logs/export_zh_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -132,7 +136,7 @@ rule export_zh:
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --description {input.description} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule incorporate_travel_history_gisaid:
@@ -146,6 +150,8 @@ rule incorporate_travel_history_gisaid:
         exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = REGION_PATH + "ncov_gisaid_with_accessions_and_travel_branches.json"
+    log:
+        "logs/incorporate_travel_history_gisaid_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -155,7 +161,7 @@ rule incorporate_travel_history_gisaid:
             --lat-longs {input.lat_longs} \
             --sampling {params.sampling} \
             --exposure {params.exposure} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule incorporate_travel_history_zh:
@@ -169,6 +175,8 @@ rule incorporate_travel_history_zh:
         exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = REGION_PATH + "ncov_zh_with_accessions_and_travel_branches.json"
+    log:
+        "logs/incorporate_travel_history_zh_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -178,7 +186,7 @@ rule incorporate_travel_history_zh:
             --lat-longs {input.lat_longs} \
             --sampling {params.sampling} \
             --exposure {params.exposure} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule fix_colorings_gisaid:
@@ -187,12 +195,14 @@ rule fix_colorings_gisaid:
         auspice_json = rules.incorporate_travel_history_gisaid.output.auspice_json
     output:
         auspice_json = "auspice/ncov_{region}_gisaid.json"
+    log:
+        "logs/fix_colorings_gisaid_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule fix_colorings_zh:
@@ -201,12 +211,14 @@ rule fix_colorings_zh:
         auspice_json = rules.incorporate_travel_history_zh.output.auspice_json
     output:
         auspice_json = "auspice/ncov_{region}_zh.json"
+    log:
+        "logs/fix_colorings_zh_{region}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
-            --output {output.auspice_json}
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 rule dated_json:
