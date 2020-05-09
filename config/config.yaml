@@ -1,3 +1,4 @@
+
 # This file contains defaults for the "config" object used in the Snakefile.
 # To temporarily override or provide a value, you can use snakemake's --config
 # or --configfile options.
@@ -113,6 +114,7 @@ locations:
     - usa
   division:
     - washington
+    - geneva
 
 # Subsampling definitions by type of geographic location. Individual location
 # defaults can be overridden with custom defaults with a key in the subsampling
