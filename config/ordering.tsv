@@ -238,6 +238,9 @@ location	Columbus
 location	Cincinnati
 location	Ketchikan
 location	Fairbanks
+location	Mat-Su
+location	Interior Alaska
+location	Southeast Alaska
 location	Wasilla
 location	Juneau
 location	Eielson AFB
@@ -344,6 +347,8 @@ location	Brookfield
 location	Elm Grove
 location	Glendale
 location	Accra
+
+
 
 
 
@@ -512,8 +517,6 @@ division	Republic of Kabardino-Balkaria
 division	Republic of Crymea
 division	Republic of Tatarstan
 division	Slovenia
-division	Kraljevo
-division	Novi Pazar
 division	Poland
 division	Dolnoslaskie
 division	Belarus
@@ -529,6 +532,9 @@ division	Vilnius
 division	Norway
 division	Oslo
 division	Istria
+division	Serbia
+division	Kraljevo
+division	Novi Pazar
 division	Hungary
 division	Central Hungary
 division	Baranya
@@ -883,6 +889,7 @@ division	Arizona
 division	Utah
 division	Wyoming
 division	Idaho
+division	Montana
 division	California
 division	Grand Princess
 division	Oregon

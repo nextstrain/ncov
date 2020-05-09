@@ -136,6 +136,7 @@ location	Hyderabad	17.431807	78.416233
 location	Iberville Parish	30.256342	-91.380864
 location	Illinois	40.088552	-89.301876
 location	Indianapolis	39.7684	-86.1581
+location	Interior Alaska	65.905635	-150.144417
 location	Jackson	43.325508	-88.167662
 location	Jackson County	44.310891	-90.788896
 location	Jefferson County	44.063938	-75.903794
@@ -180,6 +181,7 @@ location	Manhattan	40.778542	-73.969920
 location	mansa	23.428814	72.656249
 location	Marin County	38.077277	-122.719060
 location	Mason County	47.4251	-123.1951
+location	Mat-Su	61.382704	-150.251175
 location	Melbourne	-37.839042	145.076343
 location	Mequon	43.226666	-87.973033
 location	Meudon la Forêt	48.787126	2.227098
@@ -280,6 +282,7 @@ location	Solano County	38.295909	-121.928845
 location	Sonoma County	38.506902	-122.863769
 location	South Milwaukee	42.908266	-87.860903
 location	South Yorkshire	53.476171	-1.327867
+location	Southeast Alaska	57.011818	-133.720144
 location	Spicheren	49.192118	6.967399
 location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
@@ -345,7 +348,6 @@ location	Zhengzhou	34.714074	113.621939
 location	Zhongshan	22.542629	113.390864
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
-
 
 
 
@@ -668,6 +670,7 @@ division	Minas gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
 division	Missouri	37.9643	-91.8318
 division	Mons	50.445439	3.962794
+division	Montana	46.974704	-110.872530
 division	Montevideo	-34.823827	-56.211799
 division	Montigny-le-Tilleul	50.374917	4.371814
 division	Moscow	55.7558	37.6173
@@ -801,6 +804,7 @@ division	Selangor	3.0738	101.5183
 division	Senegal	14.5	-14.25
 division	Seoul	37.548278	126.990916
 division	Seraing	50.591687	5.516066
+division	Serbia	43.745902	20.848918
 division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
 division	Sichuan	30.709229	102.693949
