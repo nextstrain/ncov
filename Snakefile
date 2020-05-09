@@ -51,3 +51,6 @@ include: "rules/builds.smk"
 # Include rules specific to the Nextstrain team including custom exports used in
 # narratives, etc.
 include: "rules/nextstrain_exports.smk"
+
+if "localrules" in config:
+    include: config["localrules"]

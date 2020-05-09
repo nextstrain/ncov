@@ -1,7 +1,7 @@
 configfile:
   - config/config.yaml
   - config/nextstrain_config.yaml
-  - profiles/nextstrain-scicore/localrules.yaml
+  - profiles/nextstrain-scicore/scicore-config.yaml
 
 keep-going: True
 printshellcmds: True
