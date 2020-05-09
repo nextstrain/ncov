@@ -114,6 +114,14 @@ locations:
     - usa
   division:
     - washington
+    - texas
+    - new-york
+    - california
+    - louisiana
+    - utah
+    - wisconsin
+    - michigan
+    - connecticut
     - geneva
 
 # Subsampling definitions by type of geographic location. Individual location
@@ -126,18 +134,18 @@ subsampling:
   region_global:
     global:
       group_by: "division year month"
-      seq_per_group: 20
+      seq_per_group: 10
 
   region:
     # Focal samples for region
     region:
       group_by: "division year month"
-      seq_per_group: 260
+      seq_per_group: 30
       exclude: "--exclude-where 'region!={{region}}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
-      seq_per_group: 20
+      seq_per_group: 10
       exclude: "--exclude-where 'region={{region}}'"
       priorities:
         type: "proximity"
@@ -148,46 +156,55 @@ subsampling:
     # Focal samples for country
     country:
       group_by: "division year month"
-      seq_per_group: 260
+      seq_per_group: 200
       exclude: "--exclude-where 'country!={{country}}'"
     # Contextual samples from country's region
     region:
       group_by: "country year month"
-      seq_per_group: 10
+      seq_per_group: 20
       exclude: "--exclude-where 'country={{country}}' 'region!={{region}}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
     # Contextual samples from the rest of the world,
     # excluding the current region to avoid resampling.
     global:
       group_by: "country year month"
-      seq_per_group: 2
+      seq_per_group: 10
       exclude: "--exclude-where 'region={{region}}'"
       priorities:
         type: "proximity"
-        focus: "region"
+        focus: "country"
 
   # Default subsampling logic for divisions
   division:
     # Focal samples for division
     division:
       group_by: "year month"
-      seq_per_group: 260
+      seq_per_group: 300
       exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}'"
     # Contextual samples from division's country
     country:
       group_by: "division year month"
-      seq_per_group: 100
+      seq_per_group: 20
       exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division={{division}}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
     # Contextual samples from division's region
     region:
       group_by: "country year month"
       seq_per_group: 10
       exclude: "--exclude-where 'region!={{region}}' 'country={{country}}' 'division={{division}}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
     # Contextual samples from the rest of the world, excluding the current
     # division to avoid resampling.
     global:
       group_by: "country year month"
-      seq_per_group: 2
+      seq_per_group: 10
       exclude: "--exclude-where 'region={{region}}'"
       priorities:
         type: "proximity"
-        focus: "region"
+        focus: "division"
