@@ -214,11 +214,38 @@ subsampling:
   # Default subsampling logic for divisions
   division_usa-north-east:
     # Focal samples for division
-    division:
+    NY:
       group_by: "year month"
       seq_per_group: 100
-      exclude: "--exclude-where 'region=no-such-region'"
-      include: "--include-where 'division=New York' 'division=New Jersey' division='Connecticut' division='Maine' division='Massachusetts' division='New Hampshire' division='Rhode Island' division='Vermont'"
+      exclude: "--exclude-where 'division!=New York'"
+    NJ:
+      group_by: "year month"
+      seq_per_group: 100
+      exclude: "--exclude-where 'division!=New Jersey'"
+    CT:
+      group_by: "year month"
+      seq_per_group: 100
+      exclude: "--exclude-where 'division!=Connecticut'"
+    MS:
+      group_by: "year month"
+      seq_per_group: 100
+      exclude: "--exclude-where 'division!=Massachusetts'"
+    VT:
+      group_by: "year month"
+      seq_per_group: 100
+      exclude: "--exclude-where 'division!=Vermont'"
+    MN:
+      group_by: "year month"
+      seq_per_group: 100
+      exclude: "--exclude-where 'division!=Maine'"
+    NH:
+      group_by: "year month"
+      seq_per_group: 100
+      exclude: "--exclude-where 'division!=New Hampshire'"
+    RI:
+      group_by: "year month"
+      seq_per_group: 100
+      exclude: "--exclude-where 'division!=Rhode Island'"
     # Contextual samples from division's region
     region:
       group_by: "division year month"
@@ -226,7 +253,7 @@ subsampling:
       include: "--exclude-where 'region!=North America'"
       priorities:
         type: "proximity"
-        focus: "division"
+        focus: "NY"
     # Contextual samples from the rest of the world, excluding the current
     # division to avoid resampling.
     global:
@@ -235,4 +262,4 @@ subsampling:
       exclude: "--exclude-where 'region=North America'"
       priorities:
         type: "proximity"
-        focus: "division"
+        focus: "NY"
