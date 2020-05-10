@@ -123,6 +123,7 @@ locations:
     - michigan
     - connecticut
     - geneva
+    - usa-north-east
 
 # Subsampling definitions by type of geographic location. Individual location
 # defaults can be overridden with custom defaults with a key in the subsampling
@@ -205,6 +206,32 @@ subsampling:
       group_by: "country year month"
       seq_per_group: 10
       exclude: "--exclude-where 'region={{region}}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+
+
+  # Default subsampling logic for divisions
+  division_usa-north-east:
+    # Focal samples for division
+    division:
+      group_by: "year month"
+      seq_per_group: 100
+      include: "--include-where 'division=New York' 'division=New Jersey' division='Connecticut' division='Maine' division='Massachusetts' division='New Hampshire' division='Rhode Island' division='Vermont'"
+    # Contextual samples from division's region
+    region:
+      group_by: "division year month"
+      seq_per_group: 20
+      include: "--include-where 'region=North America'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+    # Contextual samples from the rest of the world, excluding the current
+    # division to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region=North America'"
       priorities:
         type: "proximity"
         focus: "division"
