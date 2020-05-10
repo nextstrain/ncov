@@ -217,12 +217,13 @@ subsampling:
     division:
       group_by: "year month"
       seq_per_group: 100
+      exclude: "--exclude-where 'region=no-such-region'"
       include: "--include-where 'division=New York' 'division=New Jersey' division='Connecticut' division='Maine' division='Massachusetts' division='New Hampshire' division='Rhode Island' division='Vermont'"
     # Contextual samples from division's region
     region:
       group_by: "division year month"
       seq_per_group: 20
-      include: "--include-where 'region=North America'"
+      include: "--exclude-where 'region!=North America'"
       priorities:
         type: "proximity"
         focus: "division"
