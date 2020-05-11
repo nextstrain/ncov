@@ -56,6 +56,7 @@ location	Clark County	45.778260	-122.491540
 location	Clayton	-37.915200	145.127165
 location	Clinton County	44.703277	-73.705166
 location	Coevorden	52.6614	6.7411
+location	Columbia County	45.956622	-123.082332
 location	Columbus	39.973143	-82.993618
 location	Compiègne	49.408175	2.842839
 location	Contamines	45.820585	6.727730
@@ -129,6 +130,7 @@ location	Heverlee	50.861704	4.695889
 location	Helmond	51.4793	5.6570
 location	Hong Kong	22.3964	114.1095
 location	Houten	52.0278	5.1630
+location	Howrah	22.554019	88.182766
 location	Huaian	33.574586	119.132155
 location	Hudson County	40.741619	-74.059016
 location	Huizhou	23.107144	114.457913
@@ -192,6 +194,7 @@ location	Montgomery County	42.9155	-74.4526
 location	Montignies-Sur-Sambre	50.401302	4.478466
 location	Montreux-Chateau	47.607677	6.994181
 location	Moussy Le Neuf	49.065806	2.601697
+location	Multnomah County	45.517630	-122.536942
 location	Munich	48.155742	11.549380
 location	Naarden	52.2953	5.1604
 location	Naarden	52.2953	5.1604
@@ -280,6 +283,7 @@ location	Slinger	43.3336	-88.2862
 location	Snohomish County	48.006	-122.0731
 location	Solano County	38.295909	-121.928845
 location	Sonoma County	38.506902	-122.863769
+location	South 24 Parganas	22.145444	88.474411
 location	South Milwaukee	42.908266	-87.860903
 location	South Yorkshire	53.476171	-1.327867
 location	Southeast Alaska	57.011818	-133.720144
@@ -323,6 +327,7 @@ location	Vienne	48.190041	16.382686
 location	Vila Velha	-20.3472	-40.2823
 location	Villerot	50.485709	3.791108
 location	Wandre	50.667253	5.661576
+location	Wasco County	45.145543	-121.204409
 location	Washington County	43.303560	-73.428260
 location	Wasilla	61.579538	-149.468390
 location	Wauwatosa	43.054646	-88.039969
@@ -349,6 +354,8 @@ location	Zhengzhou	34.714074	113.621939
 location	Zhongshan	22.542629	113.390864
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
+
+
 
 
 
