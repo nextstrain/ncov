@@ -23,9 +23,8 @@ if __name__ == '__main__':
     clades = {}
     with open(args.clades, 'r') as fh:
         for line in fh:
-            strain, clade, _1, _2, status  = line.strip().split(",")[:5]
-            if status=='success':
-                clades[strain]=clade
+            strain, country, travel_history, sample_date, epiweek, lineage, representative = line.strip().split(",")
+            clades[strain] = lineage
 
     with open(args.input, "r") as f:
         input_json = json.load(f)
