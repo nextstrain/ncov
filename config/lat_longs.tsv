@@ -170,6 +170,7 @@ location	Leuven	50.880674	4.700109
 location	Levallois-Perret	48.8932	2.2879
 location	Lishui	28.460681	119.919147
 location	Livingston Parish	30.463159	-90.743070
+location	London	51.497327	-0.118796
 location	Longjumeau	48.6931	2.2948
 location	Loon	51.379197	5.443200
 location	Loon op zand	51.625527	5.070262
@@ -210,6 +211,7 @@ location	Niteroi	-22.912156	-43.060953
 location	Noida	28.552876	77.394687
 location	Noisy le Roi	48.852116	2.055226
 location	Nootdorp	52.0440	4.3909
+location	Northamtonshire	52.324226	-0.872799
 location	Nottinghamshire	53.139677	-1.027527
 location	Oak Creek	42.878698	-87.901041
 location	Oisterwijk	51.568179	5.211873
@@ -354,7 +356,6 @@ location	Zhengzhou	34.714074	113.621939
 location	Zhongshan	22.542629	113.390864
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
-
 
 
 
@@ -689,6 +690,7 @@ division	Moscow Region	55.3404	38.2918
 division	Mouscron	50.738645	3.23861
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
+division	Myanmar	20.600856	96.287616
 division	Namur	50.457215	4.879493
 division	Nara	34.371026	135.887389
 division	Nebraska	41.4925	-99.9018
@@ -960,6 +962,7 @@ country	Kyrgyzstan	41.2044	74.7661
 country	Lithuania	55.378752	23.945328
 country	Luxembourg	49.755428	6.119486
 country	Malaysia	4.264153	102.222436
+country	Myanmar	20.600856	96.287616
 country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166
 country	Peru	-9.650468	-75.328211

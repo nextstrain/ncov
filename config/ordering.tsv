@@ -193,6 +193,8 @@ location	Valencia
 location	Luxembourg
 location	England
 location	South Yorkshire
+location	London
+location	Northamtonshire
 location	Derbyshire
 location	Yorkshire
 location	Nottinghamshire
@@ -356,6 +358,7 @@ location	Accra
 
 
 
+
 division	China
 division	Hubei
 division	Guangxi
@@ -386,7 +389,6 @@ division	Taoyuan
 division	Aichi
 division	Tokyo
 division	Japan
-division	Kanto
 division	Chiba
 division	Ishikawa
 division	Saitama
@@ -460,6 +462,7 @@ division	Cambodia
 division	Sihanoukville
 division	Nonthaburi
 division	Thailand
+division	Myanmar
 division	Bangkok
 division	Malaysia
 division	Singapore
@@ -928,6 +931,7 @@ country	Sri Lanka
 country	Vietnam
 country	Cambodia
 country	Thailand
+country	Myanmar
 country	Malaysia
 country	Singapore
 country	Brunei
