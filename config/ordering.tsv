@@ -51,6 +51,12 @@ location	Kathmandu
 location	Thanh Hoa
 location	Hanoi
 location	Bangkok
+location	Hyderabad
+location	Noida
+location	Ahmedabad
+location	Surat
+location	Gandhinagar
+location	Mansa
 location	Kolkata
 location	East Medinipur
 location	Tehatta
@@ -71,6 +77,7 @@ location	Riyadh
 location	Hawali
 location	Dasman
 location	Ulan-Ude
+location	Bela - Ledec na Sazavou
 location	Vienne
 location	Heinsberg District
 location	Heinsberg
@@ -204,6 +211,11 @@ location	Manaus
 location	Feira de Santana
 location	Vila Velha
 location	Mexico City
+location	Alajuela
+location	San Rafael
+location	Cartago
+location	San Juan
+location	Heredia
 location	La Crosse County
 location	King County
 location	Whatcom County
@@ -216,13 +228,25 @@ location	Solano County
 location	Sonoma County
 location	Orange County
 location	Kirkland
+location	Mason County
+location	Asotin County
+location	Benton County
+location	Kittitas County
 location	Seattle
 location	Los Angeles
 location	California
 location	Columbus
+location	Cincinnati
 location	Ketchikan
 location	Fairbanks
+location	Mat-Su
+location	Interior Alaska
+location	Southeast Alaska
+location	Wasilla
+location	Juneau
+location	Eielson AFB
 location	Anchorage
+location	Elmendorf AFB
 location	San Francisco
 location	San Diego County
 location	San Diego
@@ -251,6 +275,8 @@ location	Queens
 location	Staten Island
 location	Bronx
 location	Hudson County
+location	Essex County
+location	Camden County
 location	Westchester County
 location	Richmond County
 location	Franklin County
@@ -279,7 +305,18 @@ location	Winona County
 location	Allamakee County
 location	Winneshiek County
 location	Jackson County
+location	Florida
 location	Adams County
+location	New Orleans
+location	East Feliciana Parish
+location	Caddo Parish
+location	Webster Parish
+location	Bienville Parish
+location	East Baton Rouge Parish
+location	Livingston Parish
+location	Iberville Parish
+location	Pittsburgh
+location	Fayette County
 location	Thiensville
 location	Racine
 location	Cudahy
@@ -287,6 +324,16 @@ location	Mequon
 location	Wauwatosa
 location	Greenfield
 location	Milwaukee
+location	Brown Deer
+location	Greater Milwaukee Area
+location	Slinger
+location	River Hills
+location	Bayside
+location	Vernon County
+location	Trempealeau County
+location	Juneau County
+location	Saukville
+location	Hartford
 location	Campbellsport
 location	Jackson
 location	Oak Creek
@@ -301,6 +348,8 @@ location	Brookfield
 location	Elm Grove
 location	Glendale
 location	Accra
+
+
 
 
 
@@ -324,8 +373,12 @@ division	Guangdong
 division	Shanghai
 division	Hong Kong
 division	Taiwan
+division	Samut Prakarn
+division	Pathum Thani
 division	Taipei
 division	New Taipei City
+division	Philippines
+division	Manila
 division	Keelung
 division	Taoyuan
 division	Aichi
@@ -342,13 +395,32 @@ division	Gyeonggi
 division	Chungcheongnam
 division	Seoul
 division	South Korea
+division	Nepal
+division	Kathmandu
+division	Sri Lanka
 division	Selangor
 division	Kuala Lumpur
-division	Kathmandu
+division	Uttar Pradesh
+division	Delhi
+division	Ladakh
+division	Punjab
+division	Tamil Nadu
+division	Bihar
+division	Mumbai
+division	Andhra Pradesh
+division	Jammu
+division	Haryana
+division	Maharashtra
+division	Odisha
+division	Kargil
+division	Telangana
 division	Karnataka
 division	Gujarat
 division	Kerala
 division	West Bengal
+division	Assam
+division	Rajsathan
+division	Madhya Pradesh
 division	Kochi
 division	Khyber Pakhtunkhwa
 division	Ramat Gan
@@ -374,24 +446,54 @@ division	Kastamonu
 division	Balikesir
 division	Gilgit Baltistan
 division	Tbilisi
+division	Vietnam
 division	Thanh Hoa
 division	Ho Chi Minh City
+division	Hanoi
 division	Vinhphuc
 division	Red River Delta
 division	Quangning
+division	Cambodia
 division	Sihanoukville
 division	Nonthaburi
+division	Thailand
 division	Bangkok
+division	Malaysia
 division	Singapore
+division	Brunei
+division	Jakarta
+division	Surabaya
+division	India
+division	Australia
 division	Queensland
 division	Northern Territory
 division	New South Wales
 division	Western Australia
 division	Victoria
 division	Wellington
+division	New Zealand
 division	Otago
 division	Auckland
+division	United Arab Emirates
+division	Saudi Arabia
 division	Riyadh
+division	Qatar
+division	Israel
+division	Jordan
+division	Turkey
+division	Styria
+division	Denizli
+division	Tokat
+division	Agri
+division	Mardin
+division	Tekirdag
+division	Adıyaman
+division	Pakistan
+division	Jeddah
+division	Madinah
+division	Makkah
+division	Nur-Sultan
+division	Russia
 division	Saint-Petersburg
 division	Moscow
 division	Moscow Region
@@ -418,24 +520,48 @@ division	Republic of Sakha
 division	Republic of Kabardino-Balkaria
 division	Republic of Crymea
 division	Republic of Tatarstan
+division	Slovenia
+division	Poland
+division	Dolnoslaskie
+division	Belarus
+division	Estonia
+division	Latvia
 division	Europe
+division	Iceland
 division	Reykjavik
 division	Helsinki
 division	Riga
+division	Lithuania
 division	Vilnius
+division	Norway
 division	Oslo
 division	Istria
+division	Serbia
+division	Kraljevo
+division	Novi Pazar
+division	Hungary
 division	Central Hungary
 division	Baranya
+division	Budapest
+division	Balatonfured
+division	Balassagyarmat
+division	Kecskemet
+division	Oroshaza
+division	Bekesszentandras
+division	Szeged
 division	Kostoliste
 division	Kosice
+division	Slovakia
 division	Bratislava
 division	Malopolskie
+division	Czech Republic
 division	Prague
+division	Vysocina Region
 division	Martin
 division	Copenhagen
 division	Bretagne
 division	Ile de France
+division	Occitanie
 division	Centre-Val de Loire
 division	France
 division	Auvergne-Rhône-Alpes
@@ -577,6 +703,7 @@ division	Baden-Wuerttemberg
 division	Munich
 division	North Rhine Westphalia
 division	Netherlands
+division	Milheeze
 division	Utrecht
 division	Deinze
 division	Antwerp
@@ -601,7 +728,6 @@ division	Friesland
 division	Luxembourg
 division	Austria
 division	Vienna
-division	Budapest
 division	Germany
 division	Zielonogorskie
 division	Pomorskie
@@ -639,6 +765,7 @@ division	Northern Ireland
 division	England
 division	Nottinghamshire
 division	Wales
+division	Ireland
 division	Dublin
 division	Tipperary
 division	Louth
@@ -649,20 +776,37 @@ division	Scotland
 division	Småland
 division	Vasterbotten
 division	Halland
-division	Budapest
+division	Czech Republic
+division	Sweden
 division	Stockholm
+division	Uppsala
+division	Dalarna
+division	Skane
+division	Jamtland
+division	Vastra Gotaland
+division	Vastmanland
 division	Ostergotland
 division	Sormland
 division	Varmland
 division	Gavleborgs lan
 division	Orebro lan
 division	Norrbotten
+division	Greece
 division	Finland
 division	Denmark
 division	Portugal
+division	Egypt
+division	Nigeria
+division	Ghana
+division	Senegal
+division	Gambia
+division	Algeria
 division	Lagos
+division	Democratic Republic of the Congo
 division	Kinshasa
 division	Sud Kivu
+division	South Africa
+division	Eastern Cape
 division	KwaZulu-Natal
 division	Gauteng
 division	Greater Accra
@@ -674,6 +818,9 @@ division	St-Louis
 division	Thies
 division	Blida
 division	Boufarik
+division	Chile
+division	Ecuador
+division	Brazil
 division	Santiago
 division	Talca
 division	Sao Paulo
@@ -685,19 +832,29 @@ division	Rio Grande do Sul
 division	Rio de Janeiro
 division	Santa Catarina
 division	Alagoas
+division	Argentina
 division	Ciudad Autonoma de Buenos Aires
 division	Buenos Aires
 division	Rio Negro
 division	Distrito Federal
+division	Uruguay
+division	Colombia
 division	Amazonas State
 division	Antioquia
 division	Bogota
 division	Quito
 division	Guayas
 division	Pichincha
+division	Peru
 division	Lima
 division	Montevideo
 division	Panama City
+division	Panama
+division	San Rafael
+division	La Union
+division	Tibas
+division	Orotina
+division	Mexico
 division	Mexico City
 division	Estado de Mexico
 division	Chiapas
@@ -705,7 +862,7 @@ division	Chihuahua
 division	Puebla
 division	Queretaro
 division	USA
-division	District of Columbia
+division	Washington DC
 division	Maryland
 division	Texas
 division	Missouri
@@ -736,14 +893,18 @@ division	Arizona
 division	Utah
 division	Wyoming
 division	Idaho
+division	Montana
 division	California
 division	Grand Princess
 division	Oregon
 division	Washington
 division	Hawaii
+division	Puerto Rico
 division	Alaska
+division	Canada
 division	Nova Scotia
 division	New Brunswick
+division	Quebec
 division	Ontario
 division	Manitoba
 division	Prince Edward Island
@@ -766,18 +927,24 @@ country	Cambodia
 country	Thailand
 country	Malaysia
 country	Singapore
+country	Brunei
+country	Indonesia
 country	Australia
 country	New Zealand
 country	Saudi Arabia
 country	Qatar
+country	United Arab Emirates
 country	Kuwait
 country	Iran
 country	Israel
 country	Jordan
 country	Turkey
 country	Pakistan
+country	Kazakhstan
+country	Kyrgyzstan
 country	Georgia
 country	Russia
+country	Serbia
 country	Europe
 country	Latvia
 country	Slovakia
@@ -797,7 +964,6 @@ country	Belgium
 country	Luxembourg
 country	Germany
 country	Austria
-country	Croatia
 country	Switzerland
 country	Italy
 country	Spain
@@ -824,6 +990,7 @@ country	Argentina
 country	Uruguay
 country	Colombia
 country	Panama
+country	Costa Rica
 country	Mexico
 country	USA
 country	Canada
@@ -840,5 +1007,4 @@ region	Asia
 region	Africa
 region	Europe
 region	North America
-region	Central America
 region	South America

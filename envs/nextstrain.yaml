@@ -1,0 +1,24 @@
+name: nextstrain
+channels:
+- bioconda
+- defaults
+dependencies:
+- cvxopt
+- datrie
+- fasttree
+- iqtree
+- mafft
+- opencv
+- pandas
+- psutil
+- python=3.6*
+- nodejs=10
+- raxml
+- vcftools
+- git
+- pip
+- pip:
+  - awscli==1.18.45
+  - nextstrain-augur==7.0.2
+  - nextstrain-cli==1.16.5
+  - rethinkdb==2.3.0.post6

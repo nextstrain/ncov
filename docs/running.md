@@ -1,14 +1,14 @@
 ### Running a SARS-CoV-2 analysis
 
-The pipeline described in this repo is designed primarily to run the phylogeographic analyses of SARS-CoV-2 data which are displayed on nexstrain.org, for instance [the global analysis](https://nextstrain.org/ncov/global), the [European subsampled build](https://nextstrain.org/ncov/europe), the [North American Build](https://nextstrain.org/ncov/north-america) etc.
+The pipeline described in this repo is designed primarily to run the phylogeographic analyses of SARS-CoV-2 data which are displayed on nexstrain.org, for instance [the global analysis](https://nextstrain.org/ncov/global), the [European subsampled build](https://nextstrain.org/ncov/europe), the [North American build](https://nextstrain.org/ncov/north-america) etc.
 
-It is also possible to run your own data through the analysis here.
+It is also possible to run your own data through the same analysis pipeline.
 Because Nextstrain is open-source, you may modify the analysis to suit your particular needs.
 
 #### A few points before we dive in:
 
 - If you haven't run an analysis using Nextstrain before, I **highly recommend** running the [zika tutorial](https://nextstrain.org/docs/tutorials/zika) first, which introduces these concepts in a gentler fashion.
-- If you would like to use Nextstrain Groups, such as [this one](https://nextstrain.org/groups/blab/), to share your results through nextstrain.org then please get in touch! You will have control & ownership of the datasets and narratives, but they can be shared freely through nextstrain.org. These are also available in a private fashion for sensitive data.
+- If you would like to use Nextstrain Groups, such as [this one](https://nextstrain.org/groups/blab/), to share your results through nextstrain.org then please [get in touch](mailto:hello@nextstrain.org)! You will have control & ownership of the datasets and narratives, but they can be shared freely through nextstrain.org. These are also available in a private fashion for sensitive data.
 
 
 #### This page consists of four parts:
@@ -30,26 +30,33 @@ Here we assume you have two data sources which you wish to analyse together:
 > As the global dataset grows, subsampling becomes important.
 We will write guidance for subsampling in a future page, but you can investigate the `Snakefile_Regions` to see how we perform subsampling for our regional builds.
 
-#### Global data
+#### Obtaining global data through GISAID
 
-For the nextstrain.org analyses we use data obtained through [GISAID](https//gisaid.org).
-Please see there for how you may obtain those genomic data for your own analysis as the terms of data sharing prevent us making the sequence data publicly available.
-Included in this repository is [a curated list of metadata](../data/metadata.tsv) associated with those sequences.
+For the nextstrain.org analyses, we use data obtained through [GISAID](https//gisaid.org).
+Once you have logged into GISAID's EpiCoV site, click "Downloads" to bring up a modal window.
+In this window click on "nextmeta" to download the file `nextstrain_metadata.tsv.bz2`.
+This should be decompressed and saved as `data/global_metadata.tsv`.
+Then, in this window click on "nextfasta" to download the file `nextstrain_sequences.fasta.bz2`.
+This should be decompressed and saved as `data/global_sequences.fasta`.
+
+![gisaid_downloads](images/gisaid_downloads.png)
+
+> Please note that `data/metadata.tsv` is no longer included as part of this repo and should be downloaded directly from GISAID.
 
 #### Your own data
 
 This should consist of
-- a FASTA file with the (unaligned) genomes and the name must not contain characters such as spaces, or `()[]{}|#><` (except for the `>` character which starts each entry in a FASTA file).
-- the metadata corresponding to each of those genomes.  Please see the [metadata documentation](./metadata.md) for details of the format of this metadata.
+- a FASTA file with the (unaligned) genomes. Sequence names must not contain characters such as spaces, or `()[]{}|#><` (except for the `>` character which starts each entry in a FASTA file).
+- the metadata corresponding to each of your genomes.  Please see [metadata documentation](./metadata.md) for details on the format of this metadata.
 
 
 #### Combining the data
 
-Let's assume you have now have four files:
+Let's assume you now have four files:
 1. `data/global_sequences.fasta` - genomes of worldwide data to provide phylogenetic context
-2. `data/global_metadata.tsv` - Metadata of these (global) genomes. This could well be a copy of the `data/metadata.tsv` that's included with this repo.
+2. `data/global_metadata.tsv` - Metadata of these (global) genomes. This could be a copy of the `data/metadata.tsv` that's included in this repo.
 3. `data/our_sequences.fasta` - Your own sequences, in FASTA format.
-4. `data/our_metadata.tsv` - metadata of your genomes. Let's assume this follows the [same format](./metadata.md) as (2).
+4. `data/our_metadata.tsv` - metadata of your genomes. We'll assume this follows the [same format](./metadata.md) as (2).
 
 We can combine the two sets of genomes simply via
 ```bash
@@ -60,30 +67,56 @@ And, as long as the metadata formats are the same, then we can add our metadata 
 cp ./data/global_metadata.tsv ./data/metadata.tsv
 tail +2 ./data/our_metadata.tsv >> ./data/metadata.tsv
 ```
-(Please double check the columns in this new metadata TSV match up. It's not a problem if there are more entries in the metadata than there are genomes.)
+(Please double check that the columns in this new, merged metadata TSV match up. It's not a problem if there are more entries (rows) in the metadata than the total number of genomes.)
 
+## Configure your Snakemake profile
 
+You can define all the settings you commonly use to execute Snakemake with a [Snakemake profile](https://snakemake.readthedocs.io/en/stable/executing/cli.html#profiles).
+Profiles save keystrokes and document how you prefer to run your pipelines.
+For example, if you prefer to run your pipeline with at most 2 CPUs at a time and print both commands and the reasons for the commands being run, you would normally run the following command.
+
+```bash
+snakemake --cores 2 --printshellcmds --reason
+```
+
+However, you can get the same result by defining a profile config file (e.g., `profiles/default/config.yaml`) and running the following command.
+
+```bash
+snakemake --profile profiles/default
+```
+
+For the purposes of this tutorial, we provide this default profile that you can modify to meet your own needs.
+
+## Configuring your build
+
+The default build is parameterized by a [Snakemake configuration file](https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html) named `config/config.yaml`.
+Inspect this [YAML file](https://yaml.org/) and modify any parameters as needed for your own analyses.
+When you run the default build using the instructions below, the build commands will reflect your changes.
+
+If you need to change the default build in a way that isn't represented by the configuration file, [create a new issue in the ncov repository](https://github.com/nextstrain/ncov/issues/new) to let us know.
 
 ## Running the default build
 
 If the data is in the correct formats (`./data/sequences.fasta` & `./data/metadata.tsv`) then we can generate the analysis by simply running
+
 ```bash
-snakemake -p -s Snakefile --cores 2 auspice/ncov.json
-```
-Which will produce a `./auspice/ncov.json` file which you can visualise in Auspice via
-```
-auspice view --datasetDir auspice
+snakemake --profile profiles/default
 ```
 
+Which will produce a `./auspice/ncov_global.json` file which you can visualise in Auspice via
+
+```bash
+auspice view --datasetDir auspice
+```
 
 ## Understanding the parts of the analysis
 
 The Snakemake analysis here consists of a number of rules, which are displayed below.
-Not all of the rules here are essential, or may even be desirable for your analysis.
-We maintain this snakefile primarily for our analyses, and thus your build may be able to be made a lot simpler!
-The aim of this tutorial is to walk you through the rules in this basic analysis run by Nextstrain and give you the ability to change it to suit your needs.
+Not all of the rules included are essential, or may even be desirable for your analysis.
+We maintain this snakefile primarily for our own analyses, and thus your build may be able to be made a lot simpler!
+The aim of this tutorial is to walk you through the rules in the basic analysis run by Nextstrain and to give you the ability to change it to suit your needs.
 
-> Note: this repo contains a few different Snakefiles, as we use them to automate a number of analyses, some of which are beyond the scope of this tutorial. 
+> Note: this repo contains a few different Snakefiles, as we use them to automate a number of analyses, some of which are beyond the scope of this tutorial.
 This tutorial follows the main `Snakefile`.
 
 
@@ -99,13 +132,13 @@ Please inspect the `Snakefile` to see what each rule is doing in more detail and
 
 #### My country / division does not show up on the map
 
-This is most often a result of the country / division not being present in [the file defining the latitude & longitdue of each deme](../config/lat_longs.tsv).
+This is most often a result of the country / division not being present in [the file defining the latitude & longitude of each deme](../config/lat_longs.tsv).
 Adding it to that file (and rerunning the Snakemake rules downstream of this) should fix this.
 You can rerun the appropriate parts of the build via:
 
 ```bash
-snakemake -s Snakefile --cores 2 -p -f results/ncov_with_accessions.json
-snakemake -s Snakefile --cores 2 -p -f auspice/ncov.tsv
+snakemake --profile profiles/default -f results/region/global/ncov_with_accessions.json
+snakemake --profile profiles/default -f auspice/ncov_global.json
 ```
 
 #### My trait (e.g. division) is grey instead of colored
@@ -114,10 +147,9 @@ We generate the colors from the `colors` rule in the Snakefile, which uses the [
 Once you've modified this file, you can regenerate the appropriate parts of the analysis via:
 
 ```bash
-snakemake -s Snakefile --cores 2 -p -f config/colors.tsv
-snakemake -s Snakefile --cores 2 -p -f auspice/ncov.tsv
+snakemake --profile profiles/default -f config/colors_global.tsv
+snakemake --profile profiles/default -f auspice/ncov_global.json
 ```
-
 
 #### My genomes aren't included in the analysis
 

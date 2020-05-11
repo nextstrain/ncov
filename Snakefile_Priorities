@@ -5,7 +5,7 @@ include: "Snakefile"
 
 ruleorder: export_priorities > export
 
-REGIONS = ["_africa", "_asia", "_europe", "_north-america", "_oceania", "_south-america"]
+REGIONS = config["regions_for_priorities"]
 
 # I recognise some rules here are a little redundant - happy to change file
 # names so that they don't conflict with Region builds, but wanted this
@@ -31,9 +31,9 @@ rule subsample_focus:
     output:
         sequences = "results/subsample_focus{region}.fasta"
     params:
-        group_by = "division year month",
-        seq_per_group_global = 150, # i.e. if not regional build
-        seq_per_group_regional = 300
+        group_by = config["subsample_focus_for_priorities"]["group_by"],
+        seq_per_group_global = config["subsample_focus_for_priorities"]["seq_per_group_global"],
+        seq_per_group_regional = config["subsample_focus_for_priorities"]["seq_per_group_regional"]
     shell:
         """
         #Figure out what region being wanted

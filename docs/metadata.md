@@ -2,7 +2,7 @@
 
 Running the phylodynamics analysis described in this repo requires 2 main inputs: the sequence data, in FASTA format, and metadata in TSV format.
 Here we describe the format of the metadata which the pipeline expects.
-An example of this can be seen with the metadata [metadata.tsv](../data/metadata.tsv) for shared sequences which is what we use for the global analysis at [nextstrain.org/ncov/global](https://nextstrain.org/ncov/global). 
+An example of this can be seen with the metadata [metadata.tsv](../data/metadata.tsv) for shared sequences which are used for the global analysis at [nextstrain.org/ncov/global](https://nextstrain.org/ncov/global).
 
 #### A few points before we dive in:
 - The _order_ of the fields doesn't matter; but if you are going to join your metadata with the global collection then it's easiest to keep them in the same order!
@@ -10,7 +10,7 @@ An example of this can be seen with the metadata [metadata.tsv](../data/metadata
 - A tab character -- `\t` -- separates columns. Read more about the TSV format [here](https://en.wikipedia.org/wiki/Tab-separated_values).
 - Data is case sensitive
 - The "geographic" columns, such as "region" and "country" will be used to plot the samples on the map.
-Adding a new value to these columns isn't a problem at all, but lat/long coordinates will also need to be defined for this in a seaparate file (documentation forthcoming).
+Adding a new value to these columns isn't a problem at all, but lat/long coordinates will also need to be defined for this in a separate file (documentation forthcoming).
 - A lot of these fields will be available to interact with as "colorings" of the data in Auspice (the interactive visualisation used within Nextstrain). However which exact columns are used, and which colours are used for each value is completely customisable (documentation forthcoming).
 - See also the [augur documentation](https://nextstrain-augur.readthedocs.io/en/stable/faq/metadata.html) relating to metadata formatting
 
@@ -53,7 +53,7 @@ If this genome is shared via [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) th
 
 **Column 5: `date`** (really important!)
 
-This describes the sample collection data (_not_ sequencing date!) and must be formated according as `YYYY-MM-DD`. 
+This describes the sample collection data (_not_ sequencing date!) and must be formated according as `YYYY-MM-DD`.
 Our example was collected on Feb 27, 2020 and is therefore represented as "2020-02-27".
 
 You can specify unknown dates or month by replacing the respected values by `XX` (ex: `2013-01-XX` or `2011-XX-XX`) and completely unknown dates can be shown with `20XX-XX-XX` (which does not restrict the sequence to being in the 21st century - they could be earlier).
@@ -62,21 +62,21 @@ Please be aware that our current pipeline will filter out any genomes with an un
 **Column 6: `region`**
 
 The region the sample was collected in -- for our example this is "Oceania".
-Please use one of "Africa", "Asia", "Europe", "North America", "Oceania" or "South America".
-If you sequence a genome from Antartica please get in touch!
+Please use either "Africa", "Asia", "Europe", "North America", "Oceania" or "South America".
+If you sequence a genome from Antartica, please get in touch!
 
 
 **Column 7: `country`**
 
 The country the sample was collected in. Our example, "NewZealand/01/2020", was collected in ....... New Zealand.
 You can run `tail +2 data/metadata.tsv | cut -f 7 | sort | uniq` to see all the countries currently present in the metadata.
-As of April 10 there were 64! 🌎
+As of April 10, there were 64! 🌎
 
 **Column 8: `division`**
 
 Division currently doesn't have a precise definition and we use it differently for different regions.
-For instance, for samples in the USA we are detailing the state in which the sample was collected here. For other countries, it might be a county, region, or other administrative sub-division.
-To see the divisions which are currently set for your country you can run the following command (replace "New Zealand" with your country):
+For instance for samples in the USA, division is the state in which the sample was collected here. For other countries, it might be a county, region, or other administrative sub-division.
+To see the divisions which are currently set for your country, you can run the following command (replace "New Zealand" with your country):
 ```bash
 tail +2 data/metadata.tsv | cut -f 7,8 | grep "^New Zealand" | cut -f 2 | sort | uniq
 ```
@@ -84,7 +84,7 @@ tail +2 data/metadata.tsv | cut -f 7,8 | grep "^New Zealand" | cut -f 2 | sort |
 **Column 9: `location`**
 
 Similarly to `division`, but for a smaller geographic resolution. This data is often unavailable, and missing data here is typically represented by an empty field or the same value as `division` is used.
-In our example the division is "Auckland", which conveniently or confusingly is both a province of New Zealand and a city.
+In our example the division is "Auckland", which conveniently (or confusingly) is both a province of New Zealand and a city.
 
 **Column 10: `region_exposure`**
 
@@ -121,7 +121,7 @@ Currently we have multiple values in the dataset, including "Human", "Canine", "
 
 Numeric age of the patient from whom the sample was collected.
 We round to an integer value.
-This will show up in auspice when clicking on the tip in the tree which brings up an info box and 
+This will show up in auspice when clicking on the tip in the tree which brings up an info box.
 
 **Column 17: `sex`**
 
@@ -151,10 +151,9 @@ For most SARS-CoV-2 data this is [https://www.gisaid.org](https://www.gisaid.org
 
 **Column 22: `title`**
 
-The URL, if available, of the publication announcing these genomes. 
+The URL, if available, of the publication announcing these genomes.
 
 **Column 23: `date_submitted`**
 
 Date the genome was submitted to a public database (most often GISAID).
 In `YYYY-MM-DD` format (see `date` for more information on this formatting).
-

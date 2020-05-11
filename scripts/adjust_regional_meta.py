@@ -21,9 +21,9 @@ if __name__ == '__main__':
         "asia": "Asia",
         "africa": "Africa",
         "europe": "Europe",
-        "north america": "North America",
+        "north-america": "North America",
         "oceania": "Oceania",
-        "south america": "South America"
+        "south-america": "South America"
     }
     focal_region = fix_casing[args.region]
 

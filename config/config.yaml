@@ -1,0 +1,131 @@
+# This file contains defaults for the "config" object used in the Snakefile.
+# To temporarily override or provide a value, you can use snakemake's --config
+# or --configfile options.
+---
+# conda environment file to use by default
+conda_environment: "../envs/nextstrain.yaml"
+
+# S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
+s3_staging_url: s3://nextstrain-staging
+slack_token: ~
+slack_channel: "#ncov-gisaid-updates"
+
+# These are the two main starting files for the run
+sequences: "data/sequences.fasta"
+metadata: "data/metadata.tsv"
+
+reference_node_name: "USA/WA1/2020"
+
+# Define files used for external configuration. Common examples consist of a
+# list of strains to include and exclude from analyses, a reference sequence to
+# align sequences to, colors for strain attributes in auspice, and auspice
+# configuration files.
+files:
+  include: "config/include.txt"
+  exclude: "config/exclude.txt"
+  reference: "config/reference.gb"
+  outgroup: "config/outgroup.fasta"
+  ordering: "config/ordering.tsv"
+  color_schemes: "config/color_schemes.tsv"
+  auspice_config: "config/auspice_config.json"
+  auspice_config_gisaid: "config/auspice_config_gisaid.json"
+  auspice_config_zh: "config/auspice_config_zh.json"
+  lat_longs: "config/lat_longs.tsv"
+  description: "config/description.md"
+  description_zh: "config/description_zh.md"
+  clades: "config/clades.tsv"
+
+
+# Filter settings
+filter:
+  # Require nearly full-length genomes.
+  min_length: 25000
+
+  # Omit sequences with incomplete date annotations.
+  exclude_where: "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'"
+
+  # Select a subset of sequences per unique geographic and temporal group.
+  # This limits the number of sequences in the base build to prevent long runtimes.
+  group_by: "division year month"
+  sequences_per_group: 2000
+
+# Alignment settings
+# Alignments are partitioned into smaller groups to speed up the overall alignment process.
+# The number of sequences per group determines the run time of a single alignment job.
+partition_sequences:
+  sequences_per_group: 150
+
+# Mask settings determine how the multiple sequence alignment is masked prior to phylogenetic inference.
+mask:
+  # Number of bases to mask from the beginning and end of the alignment. These regions of the genome
+  # are difficult to sequence accurately.
+  mask_from_beginning: 130
+  mask_from_end: 50
+
+  # Specific sites to mask in the reference genome's coordinates.
+  # These are 1-indexed coordinates of sites that have been identified as prone to sequencing errors.
+  mask_sites: "18529 29849 29851 29853"
+
+# TreeTime settings
+refine:
+  root: "Wuhan-Hu-1/2019 Wuhan/WH01/2019"
+  clock_rate: 0.0008
+  clock_std_dev: 0.0004
+  coalescent: "skyline"
+  date_inference: "marginal"
+  divergence_unit: "mutations"
+  clock_filter_iqd: 4
+
+ancestral:
+  inference: "joint"
+
+traits:
+  sampling_bias_correction: 2.5
+
+# Frequencies settings
+frequencies:
+  min_date: 2020.0
+
+  # Number of months between pivots
+  pivot_interval: 1
+
+  # KDE bandwidths in proportion of a year to use per strain.
+  narrow_bandwidth: 0.05
+  proportion_wide: 0.0
+
+#
+# Region-specific settings
+#
+
+# List of regions to build specific builds for using intelligent subsampling.
+regions:
+  - global
+
+# Subsampling settings for region of focus and context.
+subsample_focus:
+  group_by: "division year month"
+  group_by_europe: "country year month"
+  seq_per_group_regional: 260
+
+  # Sequences per group if the current build is not a regional build.
+  seq_per_group_global: 40
+
+subsample_context:
+  group_by: "country year month"
+  sequences_per_group: 20
+
+#
+# Priorities-specific settings
+# TODO: consider how to merge these with the region-specific settings to avoid redundancy.
+#
+
+regions_for_priorities: ["africa", "asia", "europe", "north-america", "oceania", "south-america"]
+
+# Subsampling settings for region of focus and context.
+# TODO: merge these with "subsample_focus" settings above
+subsample_focus_for_priorities:
+  group_by: "division year month"
+  seq_per_group_regional: 300
+
+  # Sequences per group if the current build is not a regional build.
+  seq_per_group_global: 150
