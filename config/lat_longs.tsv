@@ -160,7 +160,7 @@ location	Juvisy-sur-Orge	48.690609	2.377581
 location	Kain	50.637121	3.379162
 location	Kaohsiung	22.622632	120.312435
 location	Kathmandu	27.712907	85.323557
-location	Kematen In Tirol	47.253643	11.273540
+location	Kematen in Tirol	47.253643	11.273540
 location	Ketchikan	55.346882	-131.655301
 location	King County	47.449221	-121.864246
 location	Kirkland	47.679486	-122.206354
@@ -372,9 +372,6 @@ location	Zhongshan	22.542629	113.390864
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
 
-
-
-division	Cruise ship	42.644543	12.765475
 
 
 
@@ -606,6 +603,7 @@ division	Ishikawa	36.570185	136.732454
 division	Israel	31.5	34.75
 division	Istanbul	41.0082	28.9784
 division	Istria	45.189488	13.889205
+division	Italian cruise ship	41.831176	11.491061
 division	Italy	43.382775	12.183629
 division	Jakarta	-6.221537	106.838429
 division	Jammu	32.7266	74.8570
