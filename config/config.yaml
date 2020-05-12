@@ -64,8 +64,8 @@ mask:
 
   # Specific sites to mask in the reference genome's coordinates.
   # These are 1-indexed coordinates of sites that have been identified as prone to sequencing errors.
-  # Need to provide something here for the script to not crash, using "1" in this case
-  mask_sites: "1"
+  # 13402, 24389 and 24390 are restricted to Belgian samples
+  mask_sites: "13402 24389 24390"
 
 # TreeTime settings
 refine:
