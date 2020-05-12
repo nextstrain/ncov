@@ -372,6 +372,7 @@ Wuhan/HBCDC-HB-04/2019
 DRC/KN-0051/2020
 India/S8/2020
 India/S10/2020
+India/S12/2020
 
 # UPHL-05 and -06 are same patient - exclude -06
 USA/UPHL-06/2020
