@@ -88,9 +88,7 @@
     "country",
     "region",
     "host",
-    "author",
-    "originating_lab",
-    "submitting_lab"
+    "author"
   ],
   "panels": [
     "tree",
