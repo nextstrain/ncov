@@ -479,8 +479,8 @@ rule traits:
     log:
         "logs/traits_{location_type}_{location_name}.txt"
     params:
-        columns = lambda w: config["traits"][w.region]["columns"],
-        sampling_bias_correction = lambda w: config["traits"][w.region]["sampling_bias_correction"]
+        columns = lambda w: config["traits"][w.region]["columns"] if w.region in config["traits"] else config["traits"]["default"]["columns"],
+        sampling_bias_correction = lambda w: config["traits"][w.region]["sampling_bias_correction"]  if w.region in config["traits"] else config["traits"]["default"]["sampling_bias_correction"]
     conda: config["conda_environment"]
     shell:
         """
