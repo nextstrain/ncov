@@ -80,6 +80,21 @@ location	Hawali
 location	Dasman
 location	Ulan-Ude
 location	Bela - Ledec na Sazavou
+location	Ischgl
+location	Innsbruck
+location	Matrei am Brenner
+location	Strass im Zillertal
+location	Elbigenalp
+location	Aldrans
+location	Ramsau im Zillertal
+location	Steinach am Brenner
+location	Zams
+location	Seefeld in Tirol
+location	Bad Gastein
+location	Kematen in Tirol
+location	Laengenfeld
+location	St. Anton
+location	Sistrans
 location	Vienne
 location	Heinsberg District
 location	Heinsberg
@@ -358,6 +373,9 @@ location	Accra
 
 
 
+division	Cruise ship
+
+
 
 division	China
 division	Hubei
@@ -431,6 +449,7 @@ division	Khyber Pakhtunkhwa
 division	Ramat Gan
 division	Iran
 division	Doha
+division	Dhaka
 division	Kuwait
 division	Amman
 division	Irbid
@@ -734,6 +753,9 @@ division	Friesland
 division	Luxembourg
 division	Austria
 division	Vienna
+division	Tyrol
+division	Burgenland
+division	Salzburg
 division	Germany
 division	Zielonogorskie
 division	Pomorskie
@@ -751,6 +773,7 @@ division	Comunitat Valenciana
 division	Athens
 division	Komen
 division	Italy
+division	South Tyrol
 division	Lazio
 division	Marche
 division	Lombardy

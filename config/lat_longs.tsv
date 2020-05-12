@@ -5,6 +5,7 @@ location	ahmedabad	23.024605	72.570805
 location	Aichi	35.067543	137.334061
 location	Alajuela	10.0159	-84.2142
 location	Albany County	42.601369	-73.973601
+location	Aldrans	47.250725	11.445815
 location	Allamakee County	43.286290	-91.352362
 location	Anchorage	61.203109	-149.888095
 location	Andel	51.7851	5.0549
@@ -12,6 +13,7 @@ location	Arbre	50.611772	3.817121
 location	Asnières-sur-Seine	48.911508	2.284362
 location	Asotin County	46.1460	-117.2085
 location	Auckland	-36.8314	174.7606
+location	Bad Gastein	47.109942	13.127594
 location	Bahia Blanca	-38.7183	-62.2663
 location	Bangkok	13.803139	100.491612
 location	Bassilly	50.675907	3.933169
@@ -81,6 +83,7 @@ location	East Feliciana Parish	30.850463	-91.036298
 location	East Medinipur	22.037985	87.811563
 location	Eielson AFB	64.655387	-147.064620
 location	Eindhoven	51.4416	5.4697
+location	Elbigenalp	47.289202	10.434541
 location	Elm Grove	43.047975	-88.086157
 location	Elmendorf AFB	61.252028	-149.812043
 location	England	52.405994	-1.671707
@@ -138,7 +141,9 @@ location	Hyderabad	17.431807	78.416233
 location	Iberville Parish	30.256342	-91.380864
 location	Illinois	40.088552	-89.301876
 location	Indianapolis	39.7684	-86.1581
+location	Innsbruck	47.283507	11.379467
 location	Interior Alaska	65.905635	-150.144417
+location	Ischgl	47.011789	10.289683
 location	Jackson	43.325508	-88.167662
 location	Jackson County	44.310891	-90.788896
 location	Jefferson County	44.063938	-75.903794
@@ -155,6 +160,7 @@ location	Juvisy-sur-Orge	48.690609	2.377581
 location	Kain	50.637121	3.379162
 location	Kaohsiung	22.622632	120.312435
 location	Kathmandu	27.712907	85.323557
+location	Kematen In Tirol	47.253643	11.273540
 location	Ketchikan	55.346882	-131.655301
 location	King County	47.449221	-121.864246
 location	Kirkland	47.679486	-122.206354
@@ -166,6 +172,7 @@ location	Kyoto	35.007542	135.768455
 location	L'Aquila	42.360082	13.391087
 location	La Crosse County	43.8617	-91.1353
 location	Ladeuze	50.563047	3.768438
+location	Laengenfeld	47.073729	10.969964
 location	Leuven	50.880674	4.700109
 location	Levallois-Perret	48.8932	2.2879
 location	Lishui	28.460681	119.919147
@@ -185,6 +192,7 @@ location	mansa	23.428814	72.656249
 location	Marin County	38.077277	-122.719060
 location	Mason County	47.4251	-123.1951
 location	Mat-Su	61.382704	-150.251175
+location	Matrei am Brenner	47.128405	11.452845
 location	Melbourne	-37.839042	145.076343
 location	Mequon	43.226666	-87.973033
 location	Meudon la Forêt	48.787126	2.227098
@@ -239,6 +247,7 @@ location	Queens	40.717328	-73.795709
 location	Quevaucamps	50.720840	3.289101
 location	Quilmes	-34.7206	-58.2546
 location	Racine	42.721147	-87.800333
+location	Ramsau im Zillertal	47.203746	11.876947
 location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
 location	Richmond County	40.5795	-74.1502
@@ -271,6 +280,7 @@ location	Saratoga County	43.0324	-73.9360
 location	Saukville	43.3817	-87.9406
 location	Schenectady County	42.822882	-74.053939
 location	Seattle	47.748301	-121.850150
+location	Seefeld in Tirol	47.329203	11.188798
 location	Seine-Port	48.551795	2.551916
 location	Seoul	37.548278	126.990916
 location	Shanghai	31.171447	121.429896
@@ -280,6 +290,7 @@ location	Shaoguan	24.803789	113.598404
 location	Shanwei	22.776721	115.366044
 location	Shenzhen	22.639468	114.044046
 location	Singapore	1.344189	103.867546
+location	Sistrans	47.231579	11.466706
 location	Skagit County	48.485784	-121.815524
 location	Slinger	43.3336	-88.2862
 location	Snohomish County	48.006	-122.0731
@@ -290,9 +301,12 @@ location	South Milwaukee	42.908266	-87.860903
 location	South Yorkshire	53.476171	-1.327867
 location	Southeast Alaska	57.011818	-133.720144
 location	Spicheren	49.192118	6.967399
+location	St. Anton	47.121254	10.265750
 location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
+location	Steinach am Brenner	47.090272	11.472902
 location	Strasbourg	48.5734	7.7521
+location	Strass im Zillertal	47.397430	11.820402
 location	Suffolk County	40.9849	-72.6151
 location	Sunshine Coast	-26.6500	153.0667
 location	Surat	21.166995	72.824307
@@ -350,6 +364,7 @@ location	Yangjiang	21.888814	111.972598
 location	Yernee-fraineux	50.528091	5.383570
 location	Yongchuan	29.374774	105.925391
 location	Yorkshire	53.3833	-1.4599
+location	Zams	47.159925	10.587413
 location	Zeewolde	52.3311	5.5405
 location	Zhanjiang	21.229510	110.393313
 location	Zhengzhou	34.714074	113.621939
@@ -357,6 +372,9 @@ location	Zhongshan	22.542629	113.390864
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
 
+
+
+division	Cruise ship	42.644543	12.765475
 
 
 
@@ -436,6 +454,7 @@ division	Brunei	4.5353	114.7277
 division	Brussels	50.8503	4.3517
 division	Budapest	47.482728	19.084269
 division	Buenos Aires	-34.6037	-58.3816
+division	Burgenland	47.517438	16.468160
 division	Buryat Republic	52.311711	108.916732
 division	California	36.357039	-119.690182
 division	Cambodia	13	105
@@ -481,6 +500,7 @@ division	Democratic Republic of the Congo	-4.0383	21.7587
 division	Dendermonde	51.032573	4.099329
 division	Denizli	37.7830	29.0963
 division	Denmark	56.2639	9.5018
+division	Dhaka	23.789370	90.415192
 division	Diamond Princess	35.046935	139.419325
 division	Dilbeek	50.8465	4.2621
 division	Distrito Federal	-15.7998	-47.8645
@@ -801,6 +821,7 @@ division	Saint-Saulve	50.374816	3.569855
 division	Saitama	35.909903	139.659758
 division	Sakarya	40.753425	30.384694
 division	Sakhalin Region	50.691	142.9506
+division	Salzburg	47.356774	13.227550
 division	Samara Region	53.4184	50.4726
 division	samut prakarn	13.581663	100.721344
 division	Santa Catarina	-27.15767	-49.888561
@@ -842,6 +863,7 @@ division	South America	-13.083583	-58.470721
 division	South Carolina	33.8361	-81.1637
 division	South Holland	52.006053	4.485728
 division	South Korea	36.609249	127.917932
+division	South Tyrol	46.762051	11.427443
 division	South Yorkshire	53.4697	-1.326
 division	Spain	40.4637	-3.7492
 division	Sri Lanka	7.75	80.75
@@ -885,6 +907,7 @@ division	Tournai	50.615852	3.400822
 division	Tubize	50.687041	4.193545
 division	Turkey	39	35
 division	Tver Region	57.0022	33.9853
+division	Tyrol	47.220292	11.277287
 division	UK	54.234125	-2.078794
 division	Ukkel	50.78985	4.360242
 division	United Arab Emirates	23.546651	54.065059
