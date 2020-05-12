@@ -446,11 +446,11 @@ rule translate:
         """
 
 def _get_sampling_trait_for_wildcards(wildcards):
-    mapping = {"north-america": "country", "oceania": "country"} # TODO: switch to "division"
+    mapping = {"north-america": "division", "oceania": "division"}
     return mapping[wildcards.region] if wildcards.region in mapping else "country"
 
 def _get_exposure_trait_for_wildcards(wildcards):
-    mapping = {"north-america": "country_exposure", "oceania": "country_exposure"} # TODO: switch to "division_exposure"
+    mapping = {"north-america": "division_exposure", "oceania": "division_exposure"}
     return mapping[wildcards.region] if wildcards.region in mapping else "country_exposure"
 
 rule traits:
