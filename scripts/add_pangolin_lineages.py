@@ -2,47 +2,39 @@ import argparse
 import json
 
 
-def add_clade(c, clades):
+def add_lineage(c, clades):
     if c["name"] in clades:
         c["node_attrs"]["pangolin-clade"] = {"value": clades[c["name"]]}
     if "children" in c:
         for n in c["children"]:
-            add_clade(n, clades)
+            add_lineage(n, clades)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Remove extraneous colorings",
+        description="Add pangolin lineage definition to tree json as coloring",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
 
     parser.add_argument('--input', type=str, metavar="JSON", required=True, help="input Auspice JSON")
-    parser.add_argument('--clades', type=str, required=True, help="clade file")
+    parser.add_argument('--lineages', type=str, required=True, help="csv file with pangolin lineages")
     parser.add_argument('--output', type=str, metavar="JSON", required=True, help="output Auspice JSON")
     args = parser.parse_args()
 
-    clades = {}
-    with open(args.clades, 'r') as fh:
+    # read file with pangolin lineage definitions
+    lineages = {}
+    with open(args.lineages, 'r') as fh:
         for line in fh:
             strain, country, travel_history, sample_date, epiweek, lineage, representative = line.strip().split(",")
-            clades[strain] = lineage
+            lineages[strain] = lineage
 
     with open(args.input, "r") as f:
         input_json = json.load(f)
 
-    keys_to_remove = ["genbank_accession", "gisaid_epi_isl"]
-
-    fixed_colorings = []
-    for coloring in input_json["meta"]["colorings"]:
-        if coloring['key'] not in keys_to_remove:
-            fixed_colorings.append(coloring)
-
-    input_json["meta"]["colorings"] = fixed_colorings
-
-    add_clade(input_json["tree"], clades)
+    add_lineage(input_json["tree"], lineages)
     input_json["meta"]["colorings"].append(
       {
-        "key": "pangolin-clade",
-        "title": "pangolin-clade",
+        "key": "pangolin-lineage",
+        "title": "pangolin-lineage",
         "type": "categorical"
       })
 

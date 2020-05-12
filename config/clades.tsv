@@ -1,36 +1,27 @@
 clade	gene	site	alt
 
-20A	nuc	8782	T
-20A.1	nuc	8782	T
-20A.1	nuc	17858	G
-20A.2	nuc	8782	T
-20A.2	nuc	14805	T
-20A.3	nuc	8782	T
-20A.3	nuc	24034	T
+19A	nuc	8782	C
+19A	nuc	14408	C
 
-20B	nuc	8782	C
-20B	nuc	14408	C
-20B.1	nuc	8782	C
-20B.1	nuc	14408	T
+19B	nuc	8782	T
+19B.1	nuc	8782	T
+19B.1	nuc	17858	G
 
-20B.1.1	nuc	8782	C
-20B.1.1	nuc	14408	T
-20B.1.1	nuc	28881	A
+20A	nuc	8782	C
+20A	nuc	14408	T
+20A	nuc	23403	G
 
-20B.1.2	nuc	8782	C
-20B.1.2	nuc	14408	T
-20B.1.2	nuc	25563	T
+20A.1	nuc	8782	C
+20A.1	nuc	14408	T
+20A.1	nuc	28881	A
+20A	nuc	23403	G
 
-20B.1.3	nuc	8782	C
-20B.1.3	nuc	14408	T
-20B.1.3	nuc	15324	T
+20A.2	nuc	8782	C
+20A.2	nuc	14408	T
+20A.2	nuc	25563	T
+20A	nuc	23403	G
 
-20B.2	nuc	8782	C
-20B.2	nuc	14405	T
-
-20B.3	nuc	8782	C
-20B.3	nuc	2891	A
-
-20B.4	nuc	8782	C
-20B.4	nuc	1397	A
-
+20A.3	nuc	8782	C
+20A.3	nuc	14408	T
+20A.3	nuc	15324	T
+20A	nuc	23403	G

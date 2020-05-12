@@ -80,11 +80,11 @@
     "country"
   ],
   "display_defaults": {
-    "color_by": "country",
+    "color_by": "clade_membership",
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,
-    "branch_label": "none"
+    "branch_label": "clade"
   },
   "filters": [
     "recency",
