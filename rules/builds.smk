@@ -10,6 +10,15 @@ rule download:
         aws s3 cp s3://nextstrain-ncov-private/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
         """
 
+rule combine_exclude_files:
+    message: "Combining the local `exclude.txt` with the generated one on S3"
+    output:
+        exclude = "config/exclude.txt"
+    shell:
+        """
+        aws s3 cp s3://nextstrain-ncov-private/exclude.txt - >> {output.exclude:q}
+        """
+
 rule filter:
     message:
         """
