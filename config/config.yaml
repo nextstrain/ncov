@@ -59,12 +59,13 @@ partition_sequences:
 mask:
   # Number of bases to mask from the beginning and end of the alignment. These regions of the genome
   # are difficult to sequence accurately.
-  mask_from_beginning: 130
+  mask_from_beginning: 100
   mask_from_end: 50
 
   # Specific sites to mask in the reference genome's coordinates.
   # These are 1-indexed coordinates of sites that have been identified as prone to sequencing errors.
-  mask_sites: "18529 29849 29851 29853"
+  # 13402, 24389 and 24390 are restricted to Belgian samples
+  mask_sites: "13402 24389 24390"
 
 # TreeTime settings
 refine:
