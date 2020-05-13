@@ -59,6 +59,8 @@ location	Gandhinagar
 location	Mansa
 location	Kolkata
 location	East Medinipur
+location	South 24 Parganas
+location	Howrah
 location	Tehatta
 location	Darjeeling
 location	Singapore
@@ -78,6 +80,21 @@ location	Hawali
 location	Dasman
 location	Ulan-Ude
 location	Bela - Ledec na Sazavou
+location	Ischgl
+location	Innsbruck
+location	Matrei am Brenner
+location	Strass im Zillertal
+location	Elbigenalp
+location	Aldrans
+location	Ramsau im Zillertal
+location	Steinach am Brenner
+location	Zams
+location	Seefeld in Tirol
+location	Bad Gastein
+location	Kematen in Tirol
+location	Laengenfeld
+location	St. Anton
+location	Sistrans
 location	Vienne
 location	Heinsberg District
 location	Heinsberg
@@ -120,6 +137,18 @@ location	Macon
 location	Privas
 location	Valence
 location	Lyon
+location	Le Pecq
+location	Colombes
+location	Nogent-l'Artaud
+location	Montigny le Bretonneux
+location	Dijon
+location	Ploudalmezeau
+location	Ham sous Varsberg
+location	Asnieres sur Seine
+location	Cergy
+location	Guyancourt
+location	Chalon sur Saone
+location	Nancy
 location	Paris
 location	Saint Germain en Laye
 location	Seine-Port
@@ -191,6 +220,8 @@ location	Valencia
 location	Luxembourg
 location	England
 location	South Yorkshire
+location	London
+location	Northamtonshire
 location	Derbyshire
 location	Yorkshire
 location	Nottinghamshire
@@ -347,10 +378,10 @@ location	South Milwaukee
 location	Brookfield
 location	Elm Grove
 location	Glendale
+location	Columbia County
+location	Multnomah County
+location	Wasco County
 location	Accra
-
-
-
 
 
 
@@ -384,6 +415,7 @@ division	Taoyuan
 division	Aichi
 division	Tokyo
 division	Japan
+division	Kanto
 division	Chiba
 division	Ishikawa
 division	Saitama
@@ -425,7 +457,10 @@ division	Kochi
 division	Khyber Pakhtunkhwa
 division	Ramat Gan
 division	Iran
+division	Tehran
+division	Semnan
 division	Doha
+division	Dhaka
 division	Kuwait
 division	Amman
 division	Irbid
@@ -457,6 +492,7 @@ division	Cambodia
 division	Sihanoukville
 division	Nonthaburi
 division	Thailand
+division	Myanmar
 division	Bangkok
 division	Malaysia
 division	Singapore
@@ -569,6 +605,7 @@ division	Pays de la Loire
 division	Hauts de France
 division	Bretagne
 division	Bourgogne-France-Comté
+division	Bourgogne
 division	Normandie
 division	Grand Est
 division	Toulouse
@@ -728,6 +765,9 @@ division	Friesland
 division	Luxembourg
 division	Austria
 division	Vienna
+division	Tyrol
+division	Burgenland
+division	Salzburg
 division	Germany
 division	Zielonogorskie
 division	Pomorskie
@@ -745,6 +785,8 @@ division	Comunitat Valenciana
 division	Athens
 division	Komen
 division	Italy
+division	Italian cruise ship
+division	South Tyrol
 division	Lazio
 division	Marche
 division	Lombardy
@@ -921,10 +963,12 @@ country	Japan
 country	South Korea
 country	Nepal
 country	India
+country	Bangladesh
 country	Sri Lanka
 country	Vietnam
 country	Cambodia
 country	Thailand
+country	Myanmar
 country	Malaysia
 country	Singapore
 country	Brunei
