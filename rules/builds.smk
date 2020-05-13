@@ -453,18 +453,6 @@ rule translate:
             --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
-def _get_sampling_trait_for_wildcards(wildcards):
-    # TODO: fix this for locations
-    return "country"
-    mapping = {"north-america": "country", "oceania": "country"} # TODO: switch to "division"
-    return mapping[wildcards.region] if wildcards.region in mapping else "country"
-
-def _get_exposure_trait_for_wildcards(wildcards):
-    # TODO: fix this for locations
-    return "country_exposure"
-    mapping = {"north-america": "country_exposure", "oceania": "country_exposure"} # TODO: switch to "division_exposure"
-    return mapping[wildcards.region] if wildcards.region in mapping else "country_exposure"
-
 rule traits:
     message:
         """
@@ -640,6 +628,7 @@ rule export:
             --output {output.auspice_json} 2>&1 | tee {log}
         """
 
+
 rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
@@ -647,8 +636,8 @@ rule incorporate_travel_history:
         colors = rules.colors.output.colors,
         lat_longs = config["files"]["lat_longs"]
     params:
-        sampling = _get_sampling_trait_for_wildcards,
-        exposure = _get_exposure_trait_for_wildcards
+        sampling = lambda w: config["exposure"][w.location_name]["trait"] if w.location_name in config["exposure"] else config["exposure"]["default"]["trait"],
+        exposure = lambda w: config["exposure"][w.location_name]["exposure"] if w.location_name in config["exposure"] else config["exposure"]["default"]["exposure"]
     output:
         auspice_json = "results/{location_type}/{location_name}/ncov_with_accessions_and_travel_branches.json"
     log:
