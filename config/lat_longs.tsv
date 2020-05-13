@@ -9,6 +9,7 @@ location	Aldrans	47.250725	11.445815
 location	Allamakee County	43.286290	-91.352362
 location	Anchorage	61.203109	-149.888095
 location	Andel	51.7851	5.0549
+location	Asnieres sur Seine	48.9142	2.2854
 location	Arbre	50.611772	3.817121
 location	Asnières-sur-Seine	48.911508	2.284362
 location	Asotin County	46.1460	-117.2085
@@ -47,6 +48,8 @@ location	Cardiff	51.476291	-3.178964
 location	Carentan	49.302133	-1.250938
 location	Cartago	9.8638	-83.9162
 location	Cayuga County	42.900990	-76.575649
+location	Cergy	49.0356	2.0603
+location	Chalon sur Saone	46.7808	4.8539
 location	Chateau-Thierry	49.048053	3.390023
 location	Chenango County	42.4972	-75.6208
 location	Chengdu	30.640989	104.067518
@@ -58,6 +61,7 @@ location	Clark County	45.778260	-122.491540
 location	Clayton	-37.915200	145.127165
 location	Clinton County	44.703277	-73.705166
 location	Coevorden	52.6614	6.7411
+location	Colombes	48.9221	2.2533
 location	Columbia County	45.956622	-123.082332
 location	Columbus	39.973143	-82.993618
 location	Compiègne	49.408175	2.842839
@@ -74,6 +78,7 @@ location	Darjeeling	27.028909	88.260898
 location	Dasman	29.386491	47.999895
 location	Delft	52.0116	4.3571
 location	Derbyshire	53.142893	-1.611670
+location	Dijon	47.3220	5.0415
 location	Diemen	52.3390	4.9592
 location	Dongguan	22.992389	113.744830
 location	Duesseldorf	51.22166	6.75289
@@ -115,8 +120,10 @@ location	Greater Milwaukee Area	43.0389	-87.9065
 location	Greenfield	42.957786	-88.007122
 location	Guangdong	23.615762	114.483257
 location	Guangzhou	23.123972	113.292889
+location	Guyancourt	48.7629	2.0753
 location	Gyeonggi	37.397957	127.380864
 location	Haarlem	52.3874	4.6462
+location	Ham sous Varsberg	49.1796	6.6452
 location	Hangzhou	30.272732	120.154501
 location	Hanoi	21.020191	105.836099
 location	Hardinxveld	51.8324	4.8336
@@ -173,6 +180,7 @@ location	L'Aquila	42.360082	13.391087
 location	La Crosse County	43.8617	-91.1353
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
+location	Le Pecq	48.8973	2.1064
 location	Leuven	50.880674	4.700109
 location	Levallois-Perret	48.8932	2.2879
 location	Lishui	28.460681	119.919147
@@ -200,6 +208,7 @@ location	Milan	45.474	9.177
 location	Milwaukee	43.058555	-87.923530
 location	Monroe County	43.940837	-90.605424
 location	Montgomery County	42.9155	-74.4526
+location	Montigny le Bretonneux	48.7739	2.0360
 location	Montignies-Sur-Sambre	50.401302	4.478466
 location	Montreux-Chateau	47.607677	6.994181
 location	Moussy Le Neuf	49.065806	2.601697
@@ -208,6 +217,7 @@ location	Munich	48.155742	11.549380
 location	Naarden	52.2953	5.1604
 location	Naarden	52.2953	5.1604
 location	Nanchang	28.707143	115.874137
+location	Nancy	48.6921	6.1844
 location	Nantes	47.203649	-1.552453
 location	Nassau County	40.7333	-73.58010
 location	Neerpelt	51.228889	5.431667
@@ -216,6 +226,7 @@ location	New Orleans	29.9511	-90.0715
 location	New York City	40.695065	-73.993461
 location	Nieuwendijk	51.7774	4.8743
 location	Niteroi	-22.912156	-43.060953
+location	Nogent-l'Artaud	48.9651	3.3183
 location	Noida	28.552876	77.394687
 location	Noisy le Roi	48.852116	2.055226
 location	Nootdorp	52.0440	4.3909
@@ -236,6 +247,7 @@ location	Phoenix	33.433362	-112.068786
 location	Pierce County	47.006605	-122.107847
 location	Pingxiang	27.632413	113.892981
 location	Pittsburgh	40.433375	-79.996990
+location	Ploudalmezeau	48.5415	-4.6578
 location	Pontoise	49.049228	2.098595
 location	Poppel	51.445671	5.042493
 location	Port Washington	43.382722	-87.885911
@@ -438,6 +450,7 @@ division	Blida	36.48329	2.808751
 division	Bogota	4.629337	-74.095588
 division	Bonheiden	51.01931	4.568699
 division	Boufarik	36.57709	2.914137
+division	Bourgogne	47.0525	4.3837
 division	Bourgogne-France-Comté	47.2805	4.9994
 division	Boussu	50.425366	3.797692
 division	Boutersem	50.833781	4.839596
@@ -833,6 +846,7 @@ division	Schoten	51.2498	4.4977
 division	Schwyz	47.055398	8.73645
 division	Scotland	56.415858	-4.090641
 division	Selangor	3.0738	101.5183
+division	Semnan	35.2256	54.4342
 division	Senegal	14.5	-14.25
 division	Seoul	37.548278	126.990916
 division	Seraing	50.591687	5.516066
@@ -882,6 +896,7 @@ division	Tamil Nadu	11.1271	78.6569
 division	Taoyuan	24.9936	121.301
 division	Tatarstan	56.130014	53.371181
 division	Tbilisi	41.733699	44.818487
+division	Tehran	35.6892	51.3890
 division	Tekirdag	40.9781	27.5117
 division	Telangana	18.094062	79.141493
 division	Teramo	42.6611	13.6987

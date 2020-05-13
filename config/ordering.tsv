@@ -137,6 +137,18 @@ location	Macon
 location	Privas
 location	Valence
 location	Lyon
+location	Le Pecq
+location	Colombes
+location	Nogent-l'Artaud
+location	Montigny le Bretonneux
+location	Dijon
+location	Ploudalmezeau
+location	Ham sous Varsberg
+location	Asnieres sur Seine
+location	Cergy
+location	Guyancourt
+location	Chalon sur Saone
+location	Nancy
 location	Paris
 location	Saint Germain en Laye
 location	Seine-Port
@@ -445,6 +457,8 @@ division	Kochi
 division	Khyber Pakhtunkhwa
 division	Ramat Gan
 division	Iran
+division	Tehran
+division	Semnan
 division	Doha
 division	Dhaka
 division	Kuwait
@@ -591,6 +605,7 @@ division	Pays de la Loire
 division	Hauts de France
 division	Bretagne
 division	Bourgogne-France-Comté
+division	Bourgogne
 division	Normandie
 division	Grand Est
 division	Toulouse
