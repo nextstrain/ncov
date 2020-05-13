@@ -4,7 +4,7 @@ import json
 
 def add_lineage(c, clades):
     if c["name"] in clades:
-        c["node_attrs"]["pangolin-clade"] = {"value": clades[c["name"]]}
+        c["node_attrs"]["pangolin-lineage"] = {"value": clades[c["name"]]}
     if "children" in c:
         for n in c["children"]:
             add_lineage(n, clades)
