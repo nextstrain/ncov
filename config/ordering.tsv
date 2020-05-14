@@ -69,6 +69,9 @@ location	Darjeeling
 location	Singapore
 location	Gold Coast
 location	Sydney
+location	Southeast Queensland
+location	Northern Queensland
+location	Cairns
 location	Tweed Heads
 location	Perth
 location	Sunshine Coast
@@ -511,6 +514,7 @@ division	New South Wales
 division	Western Australia
 division	Victoria
 division	Wellington
+division	Guam
 division	New Zealand
 division	Otago
 division	Auckland
@@ -977,6 +981,7 @@ country	Malaysia
 country	Singapore
 country	Brunei
 country	Indonesia
+country	Guam
 country	Australia
 country	New Zealand
 country	Saudi Arabia

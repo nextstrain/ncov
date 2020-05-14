@@ -41,6 +41,7 @@ location	Broome County	42.136164	-75.832955
 location	Brown Deer	43.1633	-87.9645
 location	Budapest	47.482728	19.084269
 location	Caddo Parish	32.618244	-93.832261
+location	Cairns	-16.890992	145.724483
 location	California	36.357039	-119.690182
 location	Camden County	39.814507	-74.986182
 location	Campbellsport	43.596732	-88.280763
@@ -234,6 +235,7 @@ location	Noida	28.552876	77.394687
 location	Noisy le Roi	48.852116	2.055226
 location	Nootdorp	52.0440	4.3909
 location	Northamtonshire	52.324226	-0.872799
+location	Northern Queensland	-17.758290	142.643075
 location	Nottinghamshire	53.139677	-1.027527
 location	Oak Creek	42.878698	-87.901041
 location	Oisterwijk	51.568179	5.211873
@@ -316,6 +318,7 @@ location	South 24 Parganas	22.145444	88.474411
 location	South Milwaukee	42.908266	-87.860903
 location	South Yorkshire	53.476171	-1.327867
 location	Southeast Alaska	57.011818	-133.720144
+location	Southeast Queensland	-27.478427	152.687047
 location	Spicheren	49.192118	6.967399
 location	St. Anton	47.121254	10.265750
 location	Starnberg	48.0000	11.3390
@@ -387,7 +390,6 @@ location	Zhengzhou	34.714074	113.621939
 location	Zhongshan	22.542629	113.390864
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
-
 
 
 
@@ -573,6 +575,7 @@ division	Graubünden	46.709551	9.606903
 division	Greater Accra	5.761619	0.040546
 division	Greece	39	22
 division	Grimbergen	50.942962	4.375664
+division	Guam	13.464887	144.792016
 division	Guangdong	23.615762	114.483257
 division	Guangxi	23.717754	108.701872
 division	Guayas	-1.9575	-79.9193
@@ -995,6 +998,7 @@ country	England	52.3555	-1.1743
 country	Estonia	58.850111	25.808524
 country	Georgia	41.989378	43.597463
 country	Ghana	7.811417	-1.089272
+country	Guam	13.464887	144.792016
 country	Iceland	64.90614	-18.4826
 country	Indonesia	-0.897599	114.181602
 country	Iran	34.5732	51.876
