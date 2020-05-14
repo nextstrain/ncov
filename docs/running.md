@@ -32,7 +32,7 @@ We will write guidance for subsampling in a future page, but you can investigate
 
 #### Obtaining global data through GISAID
 
-For the nextstrain.org analyses, we use data obtained through [GISAID](https//gisaid.org).
+For the nextstrain.org analyses, we use data obtained through [GISAID](https://gisaid.org).
 Once you have logged into GISAID's EpiCoV site, click "Downloads" to bring up a modal window.
 In this window click on "nextmeta" to download the file `nextstrain_metadata.tsv.bz2`.
 This should be decompressed and saved as `data/global_metadata.tsv`.
