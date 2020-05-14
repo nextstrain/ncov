@@ -124,24 +124,25 @@ exposure:
 locations:
   region:
     - global
-    - africa
-    - asia
-    - europe
-    - north-america
-    - oceania
-    - south-america
-  country:
-    - united-kingdom
-    - netherlands
-    - iceland
-  division:
-    - washington
-    - texas
-    - new-york
-    - california
-    - louisiana
-    - utah
-    - connecticut
+# Uncomment the following lines to add support for specific regions, countries, and divisions.
+  #   - africa
+  #   - asia
+  #   - europe
+  #   - north-america
+  #   - oceania
+  #   - south-america
+  # country:
+  #   - united-kingdom
+  #   - netherlands
+  #   - iceland
+  # division:
+  #   - washington
+  #   - texas
+  #   - new-york
+  #   - california
+  #   - louisiana
+  #   - utah
+  #   - connecticut
 
 # Subsampling definitions by type of geographic location. Individual location
 # defaults can be overridden with custom defaults with a key in the subsampling
