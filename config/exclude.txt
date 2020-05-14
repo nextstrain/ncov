@@ -350,12 +350,6 @@ Denmark/TEST-ALAB-SSI523/2020
 Denmark/TEST-ALAB-SSI592/2020
 Denmark/TEST-ALAB-SSI595/2020
 
-# Future sampling date
-Taiwan/CGMH-CGU-22/2020
-Taiwan/CGMH-CGU-23/2020
-Taiwan/CGMH-CGU-24/2020
-Taiwan/CGMH-CGU-25/2020
-
 # Appears to be a duplicate of France/IDF0515/2020 47F taken 3 days later on Feb 2
 France/IDF0571/2020
 
