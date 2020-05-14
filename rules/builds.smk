@@ -328,12 +328,6 @@ rule tree:
             --nthreads {threads} 2>&1 | tee {log}
         """
 
-def _get_metadata_by_wildcards(wildcards):
-    if wildcards.location_name == "global":
-        return rules.download.output.metadata
-    else:
-        return rules.adjust_metadata_regions.output.metadata
-
 rule refine:
     message:
         """
@@ -467,8 +461,8 @@ rule traits:
     log:
         "logs/traits_{location_type}_{location_name}.txt"
     params:
-        columns = lambda w: config["traits"][w.region]["columns"] if w.region in config["traits"] else config["traits"]["default"]["columns"],
-        sampling_bias_correction = lambda w: config["traits"][w.region]["sampling_bias_correction"]  if w.region in config["traits"] else config["traits"]["default"]["sampling_bias_correction"]
+        columns = _get_trait_columns_by_wildcards,
+        sampling_bias_correction = _get_sampling_bias_correction_for_wildcards
     conda: config["conda_environment"]
     shell:
         """
@@ -586,12 +580,9 @@ def _get_node_data_by_wildcards(wildcards):
         rules.ancestral.output.node_data,
         rules.translate.output.node_data,
         rules.clades.output.clade_data,
-        rules.recency.output.node_data
+        rules.recency.output.node_data,
+        rules.traits.output.node_data
     ]
-
-    # TODO: reenable traits
-    #if wildcards.region in config["traits"]:
-    #    inputs.append(rules.traits.output.node_data)
 
     # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]
@@ -636,8 +627,8 @@ rule incorporate_travel_history:
         colors = rules.colors.output.colors,
         lat_longs = config["files"]["lat_longs"]
     params:
-        sampling = lambda w: config["exposure"][w.location_name]["trait"] if w.location_name in config["exposure"] else config["exposure"]["default"]["trait"],
-        exposure = lambda w: config["exposure"][w.location_name]["exposure"] if w.location_name in config["exposure"] else config["exposure"]["default"]["exposure"]
+        sampling = _get_sampling_trait_for_wildcards,
+        exposure = _get_exposure_trait_for_wildcards
     output:
         auspice_json = "results/{location_type}/{location_name}/ncov_with_accessions_and_travel_branches.json"
     log:
