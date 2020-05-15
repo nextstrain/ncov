@@ -123,17 +123,21 @@ exposure:
 # based on the subsampling definitions below.
 builds:
   global:
-    subsampling_scheme: region
+    subsampling_scheme: region_global
   north-america:
     subsampling_scheme: region
   country-usa:
     subsampling_scheme: country
+    geographic_name: usa
+    geographic_scale: country
   USA_washington:
     subsampling_scheme: division
     geographic_name: washington
+    geographic_scale: division
   washington_king-county:
     subsampling_scheme: location
     geographic_name: king-county
+    geographic_scale: location
 
 # Subsampling definitions by type of geographic location. Individual location
 # defaults can be overridden with custom defaults with a key in the subsampling
@@ -145,18 +149,18 @@ subsampling:
   region_global:
     global:
       group_by: "division year month"
-      seq_per_group: 10
+      seq_per_group: 1
 
   region:
     # Focal samples for region
     region:
       group_by: "division year month"
-      seq_per_group: 30
+      seq_per_group: 3
       exclude: "--exclude-where 'region!={{region}}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
-      seq_per_group: 10
+      seq_per_group: 1
       exclude: "--exclude-where 'region={{region}}'"
       priorities:
         type: "proximity"
@@ -167,12 +171,12 @@ subsampling:
     # Focal samples for country
     country:
       group_by: "division year month"
-      seq_per_group: 200
+      seq_per_group: 2
       exclude: "--exclude-where 'country!={{country}}'"
     # Contextual samples from country's region
     region:
       group_by: "country year month"
-      seq_per_group: 20
+      seq_per_group: 2
       exclude: "--exclude-where 'country={{country}}' 'region!={{region}}'"
       priorities:
         type: "proximity"
@@ -181,7 +185,7 @@ subsampling:
     # excluding the current region to avoid resampling.
     global:
       group_by: "country year month"
-      seq_per_group: 10
+      seq_per_group: 1
       exclude: "--exclude-where 'region={{region}}'"
       priorities:
         type: "proximity"
@@ -192,12 +196,12 @@ subsampling:
     # Focal samples for division
     division:
       group_by: "year month"
-      seq_per_group: 300
+      seq_per_group: 3
       exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}'"
     # Contextual samples from division's country
     country:
       group_by: "division year month"
-      seq_per_group: 20
+      seq_per_group: 2
       exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division={{division}}'"
       priorities:
         type: "proximity"
@@ -205,8 +209,8 @@ subsampling:
     # Contextual samples from division's region
     region:
       group_by: "country year month"
-      seq_per_group: 10
-      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}''"
+      seq_per_group: 1
+      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}'"
       priorities:
         type: "proximity"
         focus: "division"
@@ -214,7 +218,7 @@ subsampling:
     # division to avoid resampling.
     global:
       group_by: "country year month"
-      seq_per_group: 10
+      seq_per_group: 1
       exclude: "--exclude-where 'region={{region}}'"
       priorities:
         type: "proximity"
@@ -225,12 +229,12 @@ subsampling:
     # Focal samples for location
     focal:
       group_by: "year month"
-      seq_per_group: 300
+      seq_per_group: 3
       exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}' 'location!={{location}}'"
     # Samples that are genetically related to the focal samples
     related:
       group_by: "country year month"
-      seq_per_group: 20
+      seq_per_group: 2
       exclude: "--exclude-where 'location={{location}}'"
       priorities:
         type: "proximity"
@@ -238,5 +242,5 @@ subsampling:
     # Contextual samples from the rest of the world
     contextual:
       group_by: "country year month"
-      seq_per_group: 10
+      seq_per_group: 1
       exclude: "--exclude-where 'location={{location}}'"

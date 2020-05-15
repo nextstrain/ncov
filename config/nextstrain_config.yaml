@@ -1,18 +1,28 @@
 # Define locations for which builds should be created.
-# Builds will be subsampled according to their geographic specificity
-# based on the subsampling definitions below.
+# For each build we specify a subsampling scheme via an explicit key.
+# If the name of the focal geography differs from the build name this needs to 
+# be specified explicity as geographic_name. In addition, we require the 
+# geographic scale the build focuses on. Together name and scale serve a look-up
+# in the geo_hierarchy to define region, country, division, etc 
 builds:
   global:
+    subsampling_scheme: region_global
     geographic_scale: region
   africa:
+    subsampling_scheme: region
     geographic_scale: region
   asia:
+    subsampling_scheme: region
     geographic_scale: region
   europe:
+    subsampling_scheme: region
     geographic_scale: region
   north-america:
+    subsampling_scheme: region
     geographic_scale: region
   oceania:
+    subsampling_scheme: region
     geographic_scale: region
   south-america:
+    subsampling_scheme: region
     geographic_scale: region

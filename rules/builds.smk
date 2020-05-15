@@ -177,6 +177,7 @@ def _get_specific_subsampling_setting(setting, optional=False):
     def _get_setting(wildcards):
         subsampling_scheme = _get_subsampling_scheme_by_build_name(wildcards.build_name)
         geographic_name = config["builds"][wildcards.build_name].get("geographic_name", wildcards.build_name)
+        geographic_scale = config["builds"][wildcards.build_name].get("geographic_scale", wildcards.build_name)
 
         if optional:
             value = _get_subsampling_settings(wildcards).get(setting, "")
@@ -189,9 +190,9 @@ def _get_specific_subsampling_setting(setting, optional=False):
             return value
 
         if ("geo_hierarchy" in config
-            and subsampling_scheme in config["geo_hierarchy"]
-            and geographic_name in config["geo_hierarchy"][subsampling_scheme]):
-            return value.format(**config["geo_hierarchy"][subsampling_scheme][geographic_name])
+            and geographic_scale in config["geo_hierarchy"]
+            and geographic_name in config["geo_hierarchy"][geographic_scale]):
+            return value.format(**config["geo_hierarchy"][geographic_scale][geographic_name])
         else:
             return value
 
