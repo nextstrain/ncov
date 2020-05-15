@@ -6,26 +6,20 @@ from snakemake.utils import validate
 configfile: "config/config.yaml"
 validate(config, schema="schemas/config.schema.yaml")
 
-LOCATIONS = [
-    (location_type, location)
-    for location_type, location_values in config["locations"].items()
-    for location in location_values
-]
-LOCATION_TYPES, LOCATION_NAMES = list(zip(*LOCATIONS))
+BUILD_NAMES = list(config["builds"].keys())
 
 # Define patterns we expect for wildcards.
 wildcard_constraints:
-    location_type = "[-a-zA-Z]+",
-    location_name = "[-a-zA-Z]+",
-    date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
+    build_name = r"[-a-zA-Z]+",
+    date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 localrules: download
 
 # Create a standard ncov build for auspice, by default.
 rule all:
     input:
-        auspice_json = expand("auspice/ncov_{location_type}_{location_name}.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
-        tip_frequencies_json = expand("auspice/ncov_{location_type}_{location_name}_tip-frequencies.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES)
+        auspice_json = expand("auspice/ncov_{build_name}.json", build_name=BUILD_NAMES),
+        tip_frequencies_json = expand("auspice/ncov_{build_name}_tip-frequencies.json", build_name=BUILD_NAMES)
 
 rule clean:
     message: "Removing directories: {params}"

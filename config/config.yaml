@@ -121,28 +121,19 @@ exposure:
 # Define locations for which builds should be created.
 # Builds will be subsampled according to their geographic specificity
 # based on the subsampling definitions below.
-locations:
-  region:
-    - global
-# Uncomment the following lines to add support for specific regions, countries, and divisions.
-  #   - africa
-  #   - asia
-  #   - europe
-  #   - north-america
-  #   - oceania
-  #   - south-america
-  # country:
-  #   - united-kingdom
-  #   - netherlands
-  #   - iceland
-  # division:
-  #   - washington
-  #   - texas
-  #   - new-york
-  #   - california
-  #   - louisiana
-  #   - utah
-  #   - connecticut
+builds:
+  global:
+    geographic_scale: region
+  north-america:
+    geographic_scale: region
+  country-usa:
+    geographic_scale: country
+  division-washington:
+    geographic_scale: division
+    geographic_name: washington
+  location-king-county:
+    geographic_scale: location
+    geographic_name: king-county
 
 # Subsampling definitions by type of geographic location. Individual location
 # defaults can be overridden with custom defaults with a key in the subsampling
@@ -215,7 +206,7 @@ subsampling:
     region:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}' 'division={{division}}'"
+      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}''"
       priorities:
         type: "proximity"
         focus: "division"
@@ -228,3 +219,24 @@ subsampling:
       priorities:
         type: "proximity"
         focus: "division"
+
+  # Default subsampling logic for locations
+  location:
+    # Focal samples for location
+    focal:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}' 'location!={{location}}'"
+    # Samples that are genetically related to the focal samples
+    related:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'location={{location}}'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+    # Contextual samples from the rest of the world
+    contextual:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'location={{location}}'"

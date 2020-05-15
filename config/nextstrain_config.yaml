@@ -1,12 +1,18 @@
 # Define locations for which builds should be created.
 # Builds will be subsampled according to their geographic specificity
 # based on the subsampling definitions below.
-locations:
-  region:
-    - global
-    - africa
-    - asia
-    - europe
-    - north-america
-    - oceania
-    - south-america
+builds:
+  global:
+    geographic_scale: region
+  africa:
+    geographic_scale: region
+  asia:
+    geographic_scale: region
+  europe:
+    geographic_scale: region
+  north-america:
+    geographic_scale: region
+  oceania:
+    geographic_scale: region
+  south-america:
+    geographic_scale: region

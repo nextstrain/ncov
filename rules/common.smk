@@ -1,12 +1,18 @@
 """Small, shared functions used to generate inputs and parameters.
 """
-def _get_metadata_by_location_name(location_name):
-    """Returns a path associated with the metadata for the given location name.
+def _get_geographic_scale_by_build_name(build_name):
+    return config["builds"][build_name]["geographic_scale"]
+
+def _get_geographic_name_by_build_name(build_name):
+    return config["builds"][build_name].get("geographic_name", build_name)
+
+def _get_metadata_by_build_name(build_name):
+    """Returns a path associated with the metadata for the given build name.
 
     The path can include wildcards that must be provided by the caller through
     the Snakemake `expand` function or through string formatting with `.format`.
     """
-    if location_name == "global":
+    if build_name == "global":
         return rules.download.output.metadata
     else:
         return rules.adjust_metadata_regions.output.metadata
@@ -16,28 +22,28 @@ def _get_metadata_by_wildcards(wildcards):
 
     This function is designed to be used as an input function.
     """
-    return _get_metadata_by_location_name(wildcards.location_name)
+    return _get_metadata_by_build_name(wildcards.build_name)
 
 def _get_sampling_trait_for_wildcards(wildcards):
-    if wildcards.location_name in config["exposure"]:
-        return config["exposure"][wildcards.location_name]["trait"]
+    if wildcards.build_name in config["exposure"]:
+        return config["exposure"][wildcards.build_name]["trait"]
     else:
         return config["exposure"]["default"]["trait"]
 
 def _get_exposure_trait_for_wildcards(wildcards):
-    if wildcards.location_name in config["exposure"]:
-        return config["exposure"][wildcards.location_name]["exposure"]
+    if wildcards.build_name in config["exposure"]:
+        return config["exposure"][wildcards.build_name]["exposure"]
     else:
         return config["exposure"]["default"]["exposure"]
 
 def _get_trait_columns_by_wildcards(wildcards):
-    if wildcards.location_name in config["traits"]:
-        return config["traits"][wildcards.location_name]["columns"]
+    if wildcards.build_name in config["traits"]:
+        return config["traits"][wildcards.build_name]["columns"]
     else:
         return config["traits"]["default"]["columns"]
 
 def _get_sampling_bias_correction_for_wildcards(wildcards):
-    if wildcards.location_name in config["traits"]:
-        return config["traits"][wildcards.location_name]["sampling_bias_correction"]
+    if wildcards.build_name in config["traits"]:
+        return config["traits"][wildcards.build_name]["sampling_bias_correction"]
     else:
         return config["traits"]["default"]["sampling_bias_correction"]

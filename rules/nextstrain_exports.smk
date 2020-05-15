@@ -26,12 +26,12 @@ def get_todays_date():
 
 rule all_regions:
     input:
-        auspice_json = expand("auspice/ncov_{location_type}_{location_name}.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
-        tip_frequencies_json = expand("auspice/ncov_{location_type}_{location_name}_tip-frequencies.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
-        dated_auspice_json = expand("auspice/ncov_{location_type}_{location_name}_{date}.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES, date=get_todays_date()),
-        dated_tip_frequencies_json = expand("auspice/ncov_{location_type}_{location_name}_{date}_tip-frequencies.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES, date=get_todays_date()),
-        auspice_json_gisaid = expand("auspice/ncov_{location_type}_{location_name}_gisaid.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
-        auspice_json_zh = expand("auspice/ncov_{location_type}_{location_name}_zh.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES)
+        auspice_json = expand("auspice/ncov_{build_name}.json", build_name=BUILD_NAMES),
+        tip_frequencies_json = expand("auspice/ncov_{build_name}_tip-frequencies.json", build_name=BUILD_NAMES),
+        dated_auspice_json = expand("auspice/ncov_{build_name}_{date}.json", build_name=BUILD_NAMES, date=get_todays_date()),
+        dated_tip_frequencies_json = expand("auspice/ncov_{build_name}_{date}_tip-frequencies.json", build_name=BUILD_NAMES, date=get_todays_date()),
+        auspice_json_gisaid = expand("auspice/ncov_{build_name}_gisaid.json", build_name=BUILD_NAMES),
+        auspice_json_zh = expand("auspice/ncov_{build_name}_zh.json", build_name=BUILD_NAMES)
 
 # This cleans out files to allow re-run of 'normal' run (not ZH or GISAID)
 # with `export` to check lat-longs & orderings
@@ -40,9 +40,9 @@ rule all_regions:
 rule clean_export_regions:
     message: "Removing export files: {input}"
     params:
-        *expand("results/{location_type}/{location_name}/ncov_with_accessions.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
-        *expand("results/{location_type}/{location_name}/ncov_gisaid_with_accessions.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
-        *expand("results/{location_type}/{location_name}/ncov_zh_with_accessions.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
+        *expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
+        *expand("results/{build_name}/ncov_gisaid_with_accessions.json", build_name=BUILD_NAMES),
+        *expand("results/{build_name}/ncov_zh_with_accessions.json", build_name=BUILD_NAMES),
         "auspice/ncov*_gisaid.json",
         "auspice/ncov*_zh.json",
         "config/colors_*.tsv"
@@ -55,12 +55,12 @@ rule clean_export_regions:
 # Runs an additional script to give a list of locations that need colors and/or lat-longs
 rule export_all_regions:
     input:
-        colors_file = expand("config/colors_{location_type}_{location_name}.tsv", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
-        auspice_json = expand("results/{location_type}/{location_name}/ncov_with_accessions.json", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
+        colors_file = expand("config/colors_{build_name}.tsv", build_name=BUILD_NAMES),
+        auspice_json = expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
         lat_longs = config["files"]["lat_longs"],
-        metadata = [_get_metadata_by_location_name(location_name).format(location_type=location_type, location_name=location_name)
-                    for (location_type, location_name) in zip(LOCATION_TYPES, LOCATION_NAMES)],
-        colors = expand("config/colors_{location_type}_{location_name}.tsv", zip, location_type=LOCATION_TYPES, location_name=LOCATION_NAMES),
+        metadata = [_get_metadata_by_build_name(build_name).format(build_name=build_name)
+                    for build_name in BUILD_NAMES],
+        colors = expand("config/colors_{build_name}.tsv", build_name=BUILD_NAMES),
     conda: config["conda_environment"]
     shell:
         """
@@ -90,9 +90,9 @@ rule export_gisaid:
         clades = rules.clades.output.clade_data,
         recency = rules.recency.output
     output:
-        auspice_json = "results/{location_type}/{location_name}/ncov_gisaid_with_accessions.json"
+        auspice_json = "results/{build_name}/ncov_gisaid_with_accessions.json"
     log:
-        "logs/export_gisaid_{location_type}_{location_name}.txt"
+        "logs/export_gisaid_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -123,9 +123,9 @@ rule export_zh:
         clades = rules.clades.output.clade_data,
         recency = rules.recency.output
     output:
-        auspice_json = "results/{location_type}/{location_name}/ncov_zh_with_accessions.json"
+        auspice_json = "results/{build_name}/ncov_zh_with_accessions.json"
     log:
-        "logs/export_zh_{location_type}_{location_name}.txt"
+        "logs/export_zh_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -150,9 +150,9 @@ rule incorporate_travel_history_gisaid:
         sampling = _get_sampling_trait_for_wildcards,
         exposure = _get_exposure_trait_for_wildcards
     output:
-        auspice_json = "results/{location_type}/{location_name}/ncov_gisaid_with_accessions_and_travel_branches.json"
+        auspice_json = "results/{build_name}/ncov_gisaid_with_accessions_and_travel_branches.json"
     log:
-        "logs/incorporate_travel_history_gisaid_{location_type}_{location_name}.txt"
+        "logs/incorporate_travel_history_gisaid_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -175,9 +175,9 @@ rule incorporate_travel_history_zh:
         sampling = _get_sampling_trait_for_wildcards,
         exposure = _get_exposure_trait_for_wildcards
     output:
-        auspice_json = "results/{location_type}/{location_name}/ncov_zh_with_accessions_and_travel_branches.json"
+        auspice_json = "results/{build_name}/ncov_zh_with_accessions_and_travel_branches.json"
     log:
-        "logs/incorporate_travel_history_zh_{location_type}_{location_name}.txt"
+        "logs/incorporate_travel_history_zh_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -195,9 +195,9 @@ rule fix_colorings_gisaid:
     input:
         auspice_json = rules.incorporate_travel_history_gisaid.output.auspice_json
     output:
-        auspice_json = "auspice/ncov_{location_type}_{location_name}_gisaid.json"
+        auspice_json = "auspice/ncov_{build_name}_gisaid.json"
     log:
-        "logs/fix_colorings_gisaid_{location_type}_{location_name}.txt"
+        "logs/fix_colorings_gisaid_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -211,9 +211,9 @@ rule fix_colorings_zh:
     input:
         auspice_json = rules.incorporate_travel_history_zh.output.auspice_json
     output:
-        auspice_json = "auspice/ncov_{location_type}_{location_name}_zh.json"
+        auspice_json = "auspice/ncov_{build_name}_zh.json"
     log:
-        "logs/fix_colorings_zh_{location_type}_{location_name}.txt"
+        "logs/fix_colorings_zh_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -228,8 +228,8 @@ rule dated_json:
         auspice_json = rules.fix_colorings.output.auspice_json,
         tip_frequencies_json = rules.tip_frequencies.output.tip_frequencies_json
     output:
-        dated_auspice_json = "auspice/ncov_{location_type}_{location_name}_{date}.json",
-        dated_tip_frequencies_json = "auspice/ncov_{location_type}_{location_name}_{date}_tip-frequencies.json"
+        dated_auspice_json = "auspice/ncov_{build_name}_{date}.json",
+        dated_tip_frequencies_json = "auspice/ncov_{build_name}_{date}_tip-frequencies.json"
     conda: config["conda_environment"]
     shell:
         """
