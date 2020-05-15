@@ -108,19 +108,19 @@ SARS-CoV-2, the virus that causes the disease COVID-19, is a [coronavirus](https
 <br><br>
 Viruses infect cells because they need to borrow cellular machinery to replicate. For RNA viruses, this process is quite error-prone, as most RNA polymerases (the molecular machines that make copies of RNA) aren't able to proofread and correct their work. This leads to frequent mutations in the viral genome; these are normal and expected.
 <br><br>
-Importantly, the vast majority of these mutations either "break" the virus such that it can't transmit and/or replicate anymore, or don't change the virus at all because of [redundant encoding](https://en.wikipedia.org/wiki/Synonymous_substitution). 
+Importantly, the vast majority of these mutations either "break" the virus such that it can't transmit and/or replicate anymore, or don't change the virus at all because of [redundant encoding](https://en.wikipedia.org/wiki/Synonymous_substitution).
 This means that the mutations don't change the proteins, and therefore function, of the virus in any way.
 Other changes may modify a protein of the virus very slightly, but not impact the function at all.
 Rarely, a change in the genetic code of a virus can help it to replicate and/or transmit better, but nearly all of these changes still have only a tiny effect.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Differences in the genetic code of viruses are useful for tracing outbreaks](https://nextstrain.org/ncov/global/2020-05-14?c=gt-ORF3a_57&d=tree,entropy&f_division=New%20York&m=div&p=full)
+# [Variation in viruses' genetic code is useful for tracing outbreaks](https://nextstrain.org/ncov/global/2020-05-14?c=gt-ORF3a_57&d=tree,entropy&f_division=New%20York&m=div&p=full)
 
-These differences in the genomes between viruses can be used as "bread crumbs" to trace the history of a given sample. 
+These differences in the genomes between viruses can be used as "bread crumbs" to trace the history of a given sample.
 Just as the people in your family share unique combinations of genetic characteristics, closely related viral samples share unique combinations of genetic mutations.
 <br><br>
-For example, here we show the viral "family tree" with each sample colored by which amino acid is present at a specific location in the viral genome (gene "ORF1a", site 57). 
+For example, here we show the viral "family tree" with each sample colored by which amino acid is present at a specific location in the viral genome (gene "ORF1a", site 57).
 <br><br>
 Highlighting samples from New York, we see that most of the cases from New York and Europe have the amino acid Histidine ("H") rather than Glutamine ("Q") at this position. This, in combination with all the other sites in the genome, tells us that these cases are all closely related to each other.
 <br><br>
@@ -137,11 +137,10 @@ Because viral genomes inevitably change, these differences tend to accumulate at
 <br><br>
 Here, the x axis shows the date that each sample was collected. The y axis shows the *total number* of mutations each strain is away from the root of the tree. Each sample is colored by the date it was collected.
 <br><br>
-While there are certainly some outliers, on average, we see changes accumulate at a rate of ~24 substitutions per year. This means that if a single viral lineage were transmitting from one person to the next for a full year, we'd expect its entire genome to accumulate roughly 24 substitutions by the end of the year. 
-As the whole genome is ~30,000 bases, this corresponds to only (24/30,000)\*100\% = ~0.08\% of the viral genome changing each year.
+While there are certainly some outliers, on average, we see changes accumulate at a rate of ~24 substitutions per year. This means that if a single viral lineage were transmitting from one person to the next for a full year, we'd expect its entire genome to accumulate roughly 24 substitutions by the end of the year.
+As the whole SARS-CoV-2 genome is ~30,000 bases, this corresponds to roughly ~1 mutation per 1,000 bases in a year.
 <br><br>
-For context, SARS (also a coronavirus) accumulates XX substitutions per year (changing XX\% of its genome), while influenza accumulates XX substitutions per year (changing XX\% of its genome).
-
+For context, influenza would average ~2 mutations per 1,000 bases per year; HIV would average ~4 mutations per 1,000 bases per year.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
@@ -153,7 +152,7 @@ First, a clarification: when virologists use the word "strain," it's often just 
 Separately, "strain" can be used to refer to viral genotypes that are functionally distinct, either biologically (e.g., pathogenicity/disease severity) and/or epidemiologically (e.g., transmissibility).
 Importantly, though, determining whether two genotypes actually *are* functionally distinct requires much more experimental, clinical and epidemiological data than we currently have.
 <br><br>
-One of the most prominent hypotheses about SARS-CoV-2 strains compares possible "D614" vs "G614" strains. 
+One of the most prominent hypotheses about SARS-CoV-2 strains compares possible "D614" vs "G614" strains.
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -209,21 +208,11 @@ There's a fair amount of debate regarding the relative merits of these two hypot
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
-# [Scientific credit](https://nextstrain.org/ncov/2020-05-14?d=map&c=author)
+# [Scientific credit](https://nextstrain.org/ncov/global/2020-05-14?d=tree&c=author)
 
-We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak, and particularly those working in China.
+We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
-
+We encourage you to click on 'Explore the Data Yourself' and scroll down for a full list of authors; the author of each individual sequence is available by selecting it on the tree.
 <br>
 
-We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the platform through which these data can be uploaded and shared.
-
-<!-- Do not need to translate institutions names -->
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
-
-We are grateful for the data gathered by these originating labs:
-
-
-
-```
+We also gratefully acknowledge GISAID for providing the platform through which these data can be uploaded and shared.
