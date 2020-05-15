@@ -1,6 +1,6 @@
 configfile:
   - config/config.yaml
-  - config/nextstrain_config.yaml
+  - profiles/nextstrain/builds.yaml
   - config/geo_hierarchy.json
 
 cores: 8
