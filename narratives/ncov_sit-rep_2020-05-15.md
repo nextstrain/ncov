@@ -65,7 +65,7 @@ We analyzed 5,193 publicly shared COVID-19 genomes. By comparing these viral gen
 # Situation Report Hiatus
 <p>
 Early in the pandemic, it was unclear how SARS-CoV-2 was moving between countries, where it was circulating locally, and how localized outbreaks were related.
-Over the last four months, we've tackled these questions and more in our weekly Situation Reports. At this stage of the pandemic, it's clear that these broad-strokes patterns are largely consistent across regions and countries:  
+Over the last four months, we've tackled these questions - and more - in our weekly Situation Reports. At this stage of the pandemic, it's clear that some broad-strokes patterns are largely consistent across regions and countries:  
 </p>
 <p/>
 
@@ -82,16 +82,16 @@ Unsurprisingly, we see this pattern in countries experiencing their first wave o
 Ultimately, this pattern is only broken when a country is able to effectively test, trace, and isolate cases immediately.
 <br><br>
 
-This means that outbreaks across the world are deeply intertwined, and the battle against COVID-19 will always be global -- we can't conquer the virus anywhere without addressing it everywhere.
+This means that outbreaks across the world are deeply connected, and the battle against COVID-19 will always be global -- we can't conquer the virus anywhere without addressing it everywhere.
 <br><br>
 
-But, at this stage of the pandemic, genomic epidemiology is most urgently needed within hyperlocal communities through local public health offices.
+But, at this stage of the pandemic, genomic epidemiology is most urgently needed within local and hyperlocal communities through local public health offices.
 <br><br>
 
 As such, this will be our last weekly Situation Report for awhile as we shift our focus to supporting local public health officials.
 <br><br>
 
-We will, of course, continue daily updates to the global & regional builds as new sequences are posted to GISAID.
+We will, of course, continue daily updates to the global & regional builds as new sequences are made available.
 When the big-picture data says something new, we'll also issue additional Situation Reports.
 All of these updates will be posted to the [Nextstrain twitter account](https://twitter.com/nextstrain) (as always).  
 <br><br>
@@ -108,7 +108,9 @@ SARS-CoV-2 is a [coronavirus](https://nextstrain.org/help/coronavirus/human-CoV)
 <br><br>
 Viruses infect cells because they need to borrow cellular machinery to replicate. For RNA viruses, this process is quite error-prone, as most RNA polymerases (the cellular machines that make copies of RNA) aren't able to proofread and correct their work. This leads to frequent mutations in the viral genome; these are normal and expected.
 <br><br>
-Importantly, the vast majority of these mutations either "break" the virus such that it can't transmit and/or replicate anymore, or don't change the virus at all because of [redundant encoding](https://en.wikipedia.org/wiki/Synonymous_substitution).
+Importantly, the vast majority of these mutations either "break" the virus such that it can't transmit and/or replicate anymore, or don't change the virus at all because of [redundant encoding](https://en.wikipedia.org/wiki/Synonymous_substitution). 
+This means that the mutations don't change the proteins of the virus in any way.
+Other changes may modify a protein of the virus very slightly, but not impact the function at all.
 Rarely, a mutation can help the virus replicate and/or transmit better, but nearly all of these changes still have only a tiny effect.
 
 <!-- ############ SLIDE BREAK ############# -->
