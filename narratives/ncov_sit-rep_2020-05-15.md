@@ -68,6 +68,7 @@ Early in the pandemic, it was unclear how SARS-CoV-2 was moving between countrie
 Over the last four months, we've tackled these questions and more in our weekly Situation Reports. At this stage of the pandemic, it's clear that these broad-strokes patterns are largely consistent across regions and countries:  
 </p>
 <p/>
+
 - Outbreaks across even distant parts of the world are deeply intertwined.<p/>
 
 - Through human migration and travel, the virus has been introduced to most communities multiple times.<p/>  
@@ -76,7 +77,7 @@ Over the last four months, we've tackled these questions and more in our weekly 
 
 - Eventually, these local outbreaks send of sparks of their own, spreading to new locations.  
 <p/>
-<p>
+
 Unsurprisingly, we see this pattern in countries experiencing their first wave of infections. More alarmingly, we also see this pattern after reintroduction to  countries where the initial peak passed months beforehand.
 Ultimately, this pattern is only broken when a country is able to effectively test, trace, and isolate cases immediately.
 <br><br>
@@ -96,7 +97,7 @@ All of these updates will be posted to the [Nextstrain twitter account](https://
 <br><br>
 
 You can also find <a href="https://nextstrain.org/ncov-sit-reps/">all of our previous Situation Reports here</a>.
-</p>
+
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
