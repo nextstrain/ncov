@@ -122,7 +122,7 @@ For a more in-depth explanation of these concepts, we recommend [this visual exp
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [The mutation rate of SARS-CoV-2 is quite typical (and not at all alarming)](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&l=clock&p=full)  
+# [The mutation rate of SARS-CoV-2 is typical for a coronavirus](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&l=clock&p=full)  
 
 Because mutations are biologically inevitable, they tend to accumulate at a steady rate over time.
 <br><br>
@@ -138,7 +138,7 @@ For context, SARS (also a coronavirus) accumulates XX substitutions per year (ch
 # [As far as we know, there is only 1 strain of SARS-CoV-2](https://nextstrain.org/ncov/global/2020-05-14?branchLabel=clade&c=clade_membership&d=tree&p=full)  
 
 There have been many reports about multiple "strains" of SARS-CoV-2.
-First, a clarification: when virologists use the word "strain," it often just refers to a handy label so we can all refer to the same group of samples (e.g., our clade labels shown here). This does *not* imply any known functional difference.
+First, a clarification: when virologists use the word "strain," it often just refers to a useful label so we can all refer to the same group of samples (e.g., our clade labels shown here). This does *not* imply any known functional difference.
 <br><br>
 Separately, "strain" can be used to refer to viral genotypes that are functionally distinct, either biologically (e.g., pathogenicity/disease severity) and/or epidemiologically (e.g., transmissibility).
 Importantly, though, determining whether two genotypes actually *are* functionally distinct requires much more experimental, clinical and epidemiological data than we currently have.
@@ -162,12 +162,12 @@ However, this could also just be a side effect of the natural history of the pan
 Early on in the pandemic, most strains exported from China had a D allele. Later, most strains from Italy had a G allele. Recently, we've seen more exportation from Europe than from Asia overall (although there's certainly some sampling bias at play here).
 Thus, it could just be that this particular genotype got lucky, and spread so rapidly because it got there first.
 <br><br>
-There's a fair amount of debate regarding the relative merits of these two hypotheses. It'll be important to carefully tease these apart, but we don't have scientific consensus on this issue yet.
+There's a fair amount of debate regarding the relative merits of these two hypotheses. It'll be important to carefully tease these apart, but we don't have scientific consensus on this issue yet. For a more detailed explanation, [see this thread](https://twitter.com/trvrb/status/1257825352660877313).
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text 13-->
-# [What you can do](https://nextstrain.org/ncov/2020-03-27?c=country&d=map&p=full)
+# [What you can do](https://nextstrain.org/ncov/2020-05-14?c=country&d=map&p=full)
 #### ...as an individual
 * Practice strict social distancing, especially if you are in a vulnerable group.
 * Remember that even if you are not super vulnerable, many people around you are; follow these practices to protect others.
@@ -181,6 +181,19 @@ There's a fair amount of debate regarding the relative merits of these two hypot
 * Fund and implement extensive contact tracing efforts.
 * Financially support those impacted by social distancing measures.
 
+
+<!-- This is the right-side text -->
+```auspiceMainDisplayMarkdown
+# Takeaways  
+
+#### Viruses naturally acquire mutations as they replicate. This is normal. Mutations can also help us trace the course of epidemics.  
+
+#### SARS-CoV-2 mutation rate is very typical for coronaviruses.
+
+#### As far as we know, there is only 1 functional "strain" of SARS-CoV-2.  
+
+#### Teasing apart the biological impact of specific mutations can be tricky -- many perceived differences can be attributed to chance and epidemiological factors.  
+```
 
 <!-- ############ SLIDE BREAK ############# -->
 
