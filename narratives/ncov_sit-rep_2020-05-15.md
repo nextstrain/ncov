@@ -35,7 +35,7 @@ abstract: "This weekly report uses publicly shared genomic data to track the spr
 <!-- This is left-side text -->
 # [Executive summary](https://nextstrain.org/ncov/2020-05-14?d=tree,entropy&p=grid)
 
-We analyzed 5,193 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how SARS-CoV-2 is evolving and moving around the world. This week, we focus on viral mutations -- where they come from, what they mean, and how they're useful. We cover:
+We analyzed 5,193 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how SARS-CoV-2 is evolving and moving around the world. This week, we focus on viral mutations. We cover:
 <br><br>
 * Where viral mutations come from (they're normal)  
 * The rate of mutation in SARS-CoV-2 (very typical)
@@ -70,9 +70,9 @@ Early in the pandemic, it was unclear how SARS-CoV-2 was moving between countrie
 Over the last four months, we've tackled these questions and more in our weekly Situation Reports. At this stage of the pandemic, it's clear that these broad-strokes patterns are largely consistent across regions and countries:  
 </p>
 <p>
-- Outbreaks across even distant parts of the world are deeply intertwined.  
-- Through human migration and travel, the virus has been introduced to most communities multiple times.  
-- Once these "sparks" land in a new community, many fizzle out without causing widespread transmission. Subject to local conditions and a bit of chance, some of these sparks grow into local outbreaks.  
+- Outbreaks across even distant parts of the world are deeply intertwined.<br>  
+- Through human migration and travel, the virus has been introduced to most communities multiple times.<br>  
+- Once these "sparks" land in a new community, many fizzle out without causing widespread transmission. Subject to local conditions and a bit of chance, some of these sparks grow into local outbreaks.<br>  
 - Eventually, these local outbreaks send of sparks of their own, spreading to new locations.  
 </p>
 <p>
@@ -100,7 +100,7 @@ You can also find <a href="https://nextstrain.org/ncov-sit-reps/">all of our pre
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Viral mutations are normal](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&m=div&p=full)
+# [Viral mutations are normal](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&m=div&p=full&legend=open)
 
 SARS-CoV-2 is a [coronavirus](https://nextstrain.org/help/coronavirus/human-CoV). Like other coronaviruses, SARS-CoV-2 has a genome encoded in RNA (rather than DNA).
 <br><br>
@@ -128,9 +128,9 @@ Because mutations are biologically inevitable, they tend to accumulate at a stea
 <br><br>
 Here, the x axis shows the date that each sample was collected. The y axis shows the *total number* of mutations away from the root of the tree. Each sample is colored by which region of the world it was collected in.
 <br><br>
-While there are certainly some outliers, on average, we see changes accumulate at a rate of ~24 substitutions per year. This means that if a single viral lineage were transmitting from one person to the next for a full year, we'd expect it to accumulate roughly 24 substitutions by the end of the year. Importantly, this corresponds to only (24/30,000)\*100% = ~0.08% of the viral genome changing each year.
+While there are certainly some outliers, on average, we see changes accumulate at a rate of ~24 substitutions per year. This means that if a single viral lineage were transmitting from one person to the next for a full year, we'd expect it to accumulate roughly 24 substitutions by the end of the year. Importantly, this corresponds to only (24/30,000)\*100\% = ~0.08\% of the viral genome changing each year.
 <br><br>
-For context, SARS (also a coronavirus) accumulates XX substitutions per year (changing XX% of its genome), while influenza accumulates XX substitutions per year (changing XX% of its genome).
+For context, SARS (also a coronavirus) accumulates XX substitutions per year (changing XX\% of its genome), while influenza accumulates XX substitutions per year (changing XX\% of its genome).
 
 
 <!-- ############ SLIDE BREAK ############# -->
