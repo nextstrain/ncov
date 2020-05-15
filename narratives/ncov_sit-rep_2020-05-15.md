@@ -2,17 +2,17 @@
 title: Genomic analysis of COVID-19. Situation report 2020-05-15.
 authors:
   - Sidney M. Bell
-  - Cassia Wagner
   - Emma Hodcroft
   - Nicola Müller
+  - Cassia Wagner
   - James Hadfield
   - Richard Neher
   - Trevor Bedford
 authorLinks:
   - https://twitter.com/sidneymbell
-  - https://bedford.io/team/cassia-wagner/
   - https://neherlab.org/emma-hodcroft.html
   - https://bedford.io/team/nicola-mueller/
+  - https://bedford.io/team/cassia-wagner/
   - https://bedford.io/team/james-hadfield/
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
