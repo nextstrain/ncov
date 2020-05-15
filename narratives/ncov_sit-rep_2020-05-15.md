@@ -212,7 +212,7 @@ There's a fair amount of debate regarding the relative merits of these two hypot
 
 We would like to acknowledge the amazing and timely work done by all scientists involved in this outbreak.
 Only through the rapid sharing of genomic data and metadata are analyses such as these possible.
-We encourage you to click on 'Explore the Data Yourself' and scroll down for a full list of authors; the author of each individual sequence is available by selecting it on the tree.
-<br>
-
+<br><br>
+**We encourage you to click on 'Explore the Data Yourself' and scroll down for a full list of authors; the author of each individual sequence is available by selecting it on the tree.**
+<br><br>
 We also gratefully acknowledge GISAID for providing the platform through which these data can be uploaded and shared.
