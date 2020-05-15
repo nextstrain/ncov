@@ -51,29 +51,31 @@ We analyzed 5,193 publicly shared COVID-19 genomes. By comparing these viral gen
 #### Nextstrain Resources
 * [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).
 * [Previous Situation Reports](https://nextstrain.org/ncov-sit-reps/).
+* [Explanatory Twitter threads](https://bedford.io/misc/twitter/).
 * [Background on coronaviruses](https://nextstrain.org/help/coronavirus/human-CoV).
 * [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 #### External Resources
+* [How coronavirus mutations and spreads (NYTimes)](https://www.nytimes.com/interactive/2020/04/30/science/coronavirus-mutations.html).
 * [Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
 * [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 * [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
-* [The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
 
 <!-- This is the right-side text -->
 ```auspiceMainDisplayMarkdown
 
 # Situation Report Hiatus
-
+<p>
 Early in the pandemic, it was unclear how SARS-CoV-2 was moving between countries, where it was circulating locally, and how localized outbreaks were related.
 Over the last four months, we've tackled these questions and more in our weekly Situation Reports. At this stage of the pandemic, it's clear that these broad-strokes patterns are largely consistent across regions and countries:  
-<br><br>
+</p>
+<p>
 - Outbreaks across even distant parts of the world are deeply intertwined.  
 - Through human migration and travel, the virus has been introduced to most communities multiple times.  
 - Once these "sparks" land in a new community, many fizzle out without causing widespread transmission. Subject to local conditions and a bit of chance, some of these sparks grow into local outbreaks.  
 - Eventually, these local outbreaks send of sparks of their own, spreading to new locations.  
-
-<br><br>
+</p>
+<p>
 Unsurprisingly, we see this pattern in countries experiencing their first wave of infections. More alarmingly, we also see this pattern after reintroduction to  countries where the initial peak passed months beforehand.
 Ultimately, this pattern is only broken when a country is able to effectively test, trace, and isolate cases immediately.
 <br><br>
@@ -92,20 +94,23 @@ When the big-picture data says something new, we'll also issue additional Situat
 All of these updates will be posted to the [Nextstrain twitter account](https://twitter.com/nextstrain) (as always).  
 <br><br>
 
-You can also find [all of our previous Situation Reports here](https://nextstrain.org/ncov-sit-reps/).
+You can also find <a href="https://nextstrain.org/ncov-sit-reps/">all of our previous Situation Reports here</a>.
+</p>
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
 # [Viral mutations are normal](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&m=div&p=full)
 
-[SARS-CoV-2 is a coronavirus](https://nextstrain.org/help/coronavirus/human-CoV). Like other coronaviruses, SARS-CoV-2 has a genome encoded in RNA (rather than DNA).
+SARS-CoV-2 is a [coronavirus](https://nextstrain.org/help/coronavirus/human-CoV). Like other coronaviruses, SARS-CoV-2 has a genome encoded in RNA (rather than DNA).
 <br><br>
 Viruses infect cells because they need to borrow cellular machinery to replicate. For RNA viruses, this process is quite error-prone, as most RNA polymerases (the cellular machines that make copies of RNA) aren't able to proofread and correct their work. This leads to frequent mutations in the viral genome; these are normal and expected.
 <br><br>
 Importantly, the vast majority of these mutations either "break" the virus such that it can't transmit and/or replicate anymore, or don't change the virus at all because of [redundant encoding](https://en.wikipedia.org/wiki/Synonymous_substitution).
 Rarely, a mutation can help the virus replicate and/or transmit better, but nearly all of these changes still have only a tiny effect.
 
+<!-- ############ SLIDE BREAK ############# -->
+<!-- This is left-side text -->
 # [Viral mutations are useful for tracing outbreaks](https://nextstrain.org/ncov/global/2020-05-14?c=gt-ORF3a_57&d=tree,entropy&f_division=New%20York&m=div&p=full)
 
 These mutations can be used as "bread crumbs" to trace the history of a given sample. Just as the people in your family share unique combinations of genetic characteristics, closely related viral samples share unique combinations of genetic mutations.
@@ -120,17 +125,17 @@ For a more in-depth explanation of these concepts, we recommend [this visual exp
 # [The mutation rate of SARS-CoV-2 is quite typical (and not at all alarming)](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&l=clock&p=full)  
 
 Because mutations are biologically inevitable, they tend to accumulate at a steady rate over time.
-
+<br><br>
 Here, the x axis shows the date that each sample was collected. The y axis shows the *total number* of mutations away from the root of the tree. Each sample is colored by which region of the world it was collected in.
-
+<br><br>
 While there are certainly some outliers, on average, we see changes accumulate at a rate of ~24 substitutions per year. This means that if a single viral lineage were transmitting from one person to the next for a full year, we'd expect it to accumulate roughly 24 substitutions by the end of the year. Importantly, this corresponds to only (24/30,000)\*100% = ~0.08% of the viral genome changing each year.
-
+<br><br>
 For context, SARS (also a coronavirus) accumulates XX substitutions per year (changing XX% of its genome), while influenza accumulates XX substitutions per year (changing XX% of its genome).
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [As far as we know, there is only 1 "strain" of SARS-CoV-2](https://nextstrain.org/ncov/global/2020-05-14?branchLabel=clade&c=clade_membership&d=tree&p=full)  
+# [As far as we know, there is only 1 strain of SARS-CoV-2](https://nextstrain.org/ncov/global/2020-05-14?branchLabel=clade&c=clade_membership&d=tree&p=full)  
 
 There have been many reports about multiple "strains" of SARS-CoV-2.
 First, a clarification: when virologists use the word "strain," it often just refers to a handy label so we can all refer to the same group of samples (e.g., our clade labels shown here). This does *not* imply any known functional difference.
@@ -177,27 +182,6 @@ There's a fair amount of debate regarding the relative merits of these two hypot
 * Financially support those impacted by social distancing measures.
 
 
-<!-- This is the right-side text -->
-
-```auspiceMainDisplayMarkdown
-# Takeaways
-
-####
-<br><br>
-####
-<br><br>
-
-
-
-```
-
-<!-- ############ SLIDE BREAK ############# -->
-
-
-
-
-
-
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text -->
@@ -215,29 +199,6 @@ We also gratefully acknowledge [GISAID](https://gisaid.org) for providing the pl
 ```auspiceMainDisplayMarkdown
 
 We are grateful for the data gathered by these originating labs:
-
-
-
-```
-
-
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [Detailed scientific credit](https://nextstrain.org/ncov/2020-03-05?d=map&c=author)
-
-These data were shared via [GISAID](https://gisaid.org).
-We gratefully acknowledge their contributions.
-
-<br>
-
-To the right we give specific sequences shared by each lab.
-
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
-
-The SARS-CoV-2 genomes were generously shared by scientists at these submitting labs:
-
 
 
 
