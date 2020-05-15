@@ -2,19 +2,17 @@
 title: Genomic analysis of COVID-19. Situation report 2020-05-15.
 authors:
   - Sidney M. Bell
+  - Cassia Wagner
   - Emma Hodcroft
   - Nicola Müller
-  - Cassia Wagner
-  - Misja Ilcisin
   - James Hadfield
   - Richard Neher
   - Trevor Bedford
 authorLinks:
   - https://twitter.com/sidneymbell
+  - https://bedford.io/team/cassia-wagner/
   - https://neherlab.org/emma-hodcroft.html
   - https://bedford.io/team/nicola-mueller/
-  - https://bedford.io/team/cassia-wagner/
-  - https://bedford.io/team/misja-ilcisin/
   - https://bedford.io/team/james-hadfield/
   - https://neherlab.org/richard-neher.html
   - https://bedford.io/team/trevor-bedford/
@@ -25,7 +23,7 @@ license: "CC-BY"
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
 dataset: "https://nextstrain.org/ncov/global/2020-05-14?d=tree&legend=closed"
 
-abstract: "This weekly report uses publicly shared genomic data to track the spread and evolution of SARS-CoV-2. This week, we give an overview of viral mutations and what they mean (and don't mean) for the COVID-19 pandemic."
+abstract: "Nextstrain Situation Reports use publicly shared genomic data to track the spread and evolution of SARS-CoV-2. This week, we give an overview of viral mutations and what they mean (and don't mean) for the COVID-19 pandemic."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -69,12 +67,15 @@ We analyzed 5,193 publicly shared COVID-19 genomes. By comparing these viral gen
 Early in the pandemic, it was unclear how SARS-CoV-2 was moving between countries, where it was circulating locally, and how localized outbreaks were related.
 Over the last four months, we've tackled these questions and more in our weekly Situation Reports. At this stage of the pandemic, it's clear that these broad-strokes patterns are largely consistent across regions and countries:  
 </p>
-<p>
-- Outbreaks across even distant parts of the world are deeply intertwined.<br>  
-- Through human migration and travel, the virus has been introduced to most communities multiple times.<br>  
-- Once these "sparks" land in a new community, many fizzle out without causing widespread transmission. Subject to local conditions and a bit of chance, some of these sparks grow into local outbreaks.<br>  
+<p/>
+- Outbreaks across even distant parts of the world are deeply intertwined.<p/>
+
+- Through human migration and travel, the virus has been introduced to most communities multiple times.<p/>  
+
+- Once these "sparks" land in a new community, many fizzle out without causing widespread transmission. Subject to local conditions and a bit of chance, some of these sparks grow into local outbreaks.<p/>  
+
 - Eventually, these local outbreaks send of sparks of their own, spreading to new locations.  
-</p>
+<p/>
 <p>
 Unsurprisingly, we see this pattern in countries experiencing their first wave of infections. More alarmingly, we also see this pattern after reintroduction to  countries where the initial peak passed months beforehand.
 Ultimately, this pattern is only broken when a country is able to effectively test, trace, and isolate cases immediately.
