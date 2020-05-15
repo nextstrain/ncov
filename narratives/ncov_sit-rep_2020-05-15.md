@@ -88,7 +88,7 @@ This means that outbreaks across the world are deeply connected, and the battle 
 But, at this stage of the pandemic, genomic epidemiology is most urgently needed within local and hyperlocal communities through local public health offices.
 <br><br>
 
-As such, this will be our last weekly Situation Report for awhile as we shift our focus to supporting local public health officials.
+As such, this will be our last weekly Situation Report for a while, though we aim to support similar reports from local public health officials.
 <br><br>
 
 We will, of course, continue daily updates to the global & regional builds as new sequences are made available.
@@ -119,30 +119,35 @@ Rarely, a mutation can help the virus replicate and/or transmit better, but near
 
 These mutations can be used as "bread crumbs" to trace the history of a given sample. Just as the people in your family share unique combinations of genetic characteristics, closely related viral samples share unique combinations of genetic mutations.
 <br><br>
-For example, here we show the viral "family tree" with each sample colored by which amino acid is present at a specific location in the viral genome (ORF1a, site 57). Highlighting samples from New York, we see that most of the cases from New York and Europe have the amino acid Histidine ("H") rather than Glutamine ("Q") at this position. This, in combination with all the other sites in the genome, tells us that these cases are all closely related to each other.
+For example, here we show the viral "family tree" with each sample colored by which amino acid is present at a specific location in the viral genome (gene "ORF1a", site 57). 
+<br><br>
+Highlighting samples from New York, we see that most of the cases from New York and Europe have the amino acid Histidine ("H") rather than Glutamine ("Q") at this position. This, in combination with all the other sites in the genome, tells us that these cases are all closely related to each other.
+<br><br>
+You can also see the position in gene "ORF3a" highlighted on the chart at the bottom of the left.
 <br><br>
 For a more in-depth explanation of these concepts, we recommend [this visual explanation](https://www.nytimes.com/interactive/2020/04/30/science/coronavirus-mutations.html) by Jonathan Corum and Carl Zimmer.
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [The mutation rate of SARS-CoV-2 is typical for a coronavirus](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&l=clock&p=full)  
+# [The mutation rate of SARS-CoV-2 is typical for a coronavirus](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&l=clock&p=full)
 
 Because mutations are biologically inevitable, they tend to accumulate at a steady rate over time.
 <br><br>
-Here, the x axis shows the date that each sample was collected. The y axis shows the *total number* of mutations away from the root of the tree. Each sample is colored by which region of the world it was collected in.
+Here, the x axis shows the date that each sample was collected. The y axis shows the *total number* of mutations each strain is away from the root of the tree. Each sample is colored by the date it was collected.
 <br><br>
-While there are certainly some outliers, on average, we see changes accumulate at a rate of ~24 substitutions per year. This means that if a single viral lineage were transmitting from one person to the next for a full year, we'd expect it to accumulate roughly 24 substitutions by the end of the year. Importantly, this corresponds to only (24/30,000)\*100\% = ~0.08\% of the viral genome changing each year.
+While there are certainly some outliers, on average, we see changes accumulate at a rate of ~24 substitutions per year. This means that if a single viral lineage were transmitting from one person to the next for a full year, we'd expect its entire genome to accumulate roughly 24 substitutions by the end of the year. 
+As the whole genome is ~30,000 bases, this corresponds to only (24/30,000)\*100\% = ~0.08\% of the viral genome changing each year.
 <br><br>
 For context, SARS (also a coronavirus) accumulates XX substitutions per year (changing XX\% of its genome), while influenza accumulates XX substitutions per year (changing XX\% of its genome).
 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [As far as we know, there is only 1 strain of SARS-CoV-2](https://nextstrain.org/ncov/global/2020-05-14?branchLabel=clade&c=clade_membership&d=tree&p=full)  
+# [As far as we know, there is only 1 strain of SARS-CoV-2](https://nextstrain.org/ncov/global/2020-05-14?branchLabel=clade&c=clade_membership&d=tree&p=full)
 
 There have been many reports about multiple "strains" of SARS-CoV-2.
-First, a clarification: when virologists use the word "strain," it often just refers to a useful label so we can all refer to the same group of samples (e.g., our clade labels shown here). This does *not* imply any known functional difference.
+First, a clarification: when virologists use the word "strain," it's often just as a useful label so we can all refer to the same group of samples (e.g., our clade labels, shown here). This does *not* imply any known functional difference.
 <br><br>
 Separately, "strain" can be used to refer to viral genotypes that are functionally distinct, either biologically (e.g., pathogenicity/disease severity) and/or epidemiologically (e.g., transmissibility).
 Importantly, though, determining whether two genotypes actually *are* functionally distinct requires much more experimental, clinical and epidemiological data than we currently have.
@@ -152,9 +157,9 @@ One of the most prominent hypotheses about SARS-CoV-2 strains compares possible 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [D614G may be related to transmissibility, but could also be explained by geography](https://nextstrain.org/ncov/global/2020-05-14?c=gt-S_614&gmax=25778&gmin=21082&p=full)  
+# [D614G may be related to transmissibility, but could also be explained by geography](https://nextstrain.org/ncov/global/2020-05-14?c=gt-S_614&gmax=25778&gmin=21082&p=full)
 
-[A recent paper](https://www.biorxiv.org/content/10.1101/2020.04.29.069054v1) suggests that a single mutation, D614G (from amino acid "D" to "G" at site 614), may be responsible for increasing the transmissibility and/or pathogenicity of SARS-CoV-2.
+[A recent pre-print](https://www.biorxiv.org/content/10.1101/2020.04.29.069054v1) suggests that a single mutation, D614G (from amino acid "D" to "G" at site 614 in the "S" ('spike') protein), may be responsible for increasing the transmissibility of SARS-CoV-2.
 <br><br>
 The primary evidence for this hypothesis is based on how relative frequencies of each genotype change over time.
 If a given genotype is bad at transmitting, it is expected to decrease in frequency over time (and vice versa).
@@ -163,7 +168,7 @@ For this site, we see a number of geographic locations where initially, most vir
 This *could* be a hallmark of G being slightly "fitter" than D (e.g., if it did indeed have a slightly higher R0 through increased transmissibility).
 <br><br>
 However, this could also just be a side effect of the natural history of the pandemic.
-Early on in the pandemic, most strains exported from China had a D allele. Later, most strains from Italy had a G allele. Recently, we've seen more exportation from Europe than from Asia overall (although there's certainly some sampling bias at play here).
+Early on in the pandemic, most strains exported from China had a D allele. Later, most strains from Italy had a G allele. Recently, we've seen more exportation from Europe than from Asia overall (although there's certainly some sampling bias at play here, as well).
 Thus, it could just be that this particular genotype got lucky, and spread so rapidly because it got there first.
 <br><br>
 There's a fair amount of debate regarding the relative merits of these two hypotheses. It'll be important to carefully tease these apart, but we don't have scientific consensus on this issue yet. For a more detailed explanation, [see this thread](https://twitter.com/trvrb/status/1257825352660877313).
