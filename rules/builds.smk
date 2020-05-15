@@ -145,18 +145,14 @@ def _get_subsampling_settings(wildcards):
     # Allow users to override default subsampling with their own settings keyed
     # by location type and name. For example, "region_europe" or
     # "country_iceland". Otherwise, default to settings for the location type.
-    custom_subsampling_key = wildcards.build_name
-
-    if custom_subsampling_key in config["subsampling"]:
-        subsampling_settings = config["subsampling"][custom_subsampling_key]
-    else:
-        geographic_scale = _get_geographic_scale_by_build_name(wildcards.build_name)
-        subsampling_settings = config["subsampling"][geographic_scale]
+    subsampling_scheme = _get_subsampling_scheme_by_build_name(wildcards.build_name)
+    subsampling_settings = config["subsampling"][subsampling_scheme]
 
     if hasattr(wildcards, "subsample"):
         return subsampling_settings[wildcards.subsample]
     else:
         return subsampling_settings
+
 
 def get_priorities(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
@@ -167,6 +163,7 @@ def get_priorities(wildcards):
         # TODO: find a way to make the list of input files depend on config
         return config["files"]["include"]
 
+
 def get_priority_argument(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
 
@@ -175,12 +172,10 @@ def get_priority_argument(wildcards):
     else:
         return ""
 
-def _get_subsample_group_by(wildcards):
-    return _get_subsampling_settings(wildcards)["group_by"]
 
 def _get_specific_subsampling_setting(setting, optional=False):
     def _get_setting(wildcards):
-        geographic_scale = _get_geographic_scale_by_build_name(wildcards.build_name)
+        subsampling_scheme = _get_subsampling_scheme_by_build_name(wildcards.build_name)
         geographic_name = config["builds"][wildcards.build_name].get("geographic_name", wildcards.build_name)
 
         if optional:
@@ -194,9 +189,9 @@ def _get_specific_subsampling_setting(setting, optional=False):
             return value
 
         if ("geo_hierarchy" in config
-            and geographic_scale in config["geo_hierarchy"]
-            and geographic_name in config["geo_hierarchy"][geographic_scale]):
-            return value.format(**config["geo_hierarchy"][geographic_scale][geographic_name])
+            and subsampling_scheme in config["geo_hierarchy"]
+            and geographic_name in config["geo_hierarchy"][subsampling_scheme]):
+            return value.format(**config["geo_hierarchy"][subsampling_scheme][geographic_name])
         else:
             return value
 
@@ -298,7 +293,7 @@ rule adjust_metadata_regions:
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv"
     params:
-        geographic_scale = lambda wildcards: _get_geographic_scale_by_build_name(wildcards.build_name),
+        subsampling_scheme = lambda wildcards: _get_subsampling_scheme_by_build_name(wildcards.build_name),
         geographic_name = lambda wildcards: _get_geographic_name_by_build_name(wildcards.build_name)
     log:
         "logs/adjust_metadata_regions_{build_name}.txt"
@@ -306,7 +301,7 @@ rule adjust_metadata_regions:
     shell:
         """
         python3 scripts/adjust_regional_meta.py \
-            --{params.geographic_scale} {params.geographic_name:q} \
+            --{params.subsampling_scheme} {params.geographic_name:q} \
             --metadata {input.metadata} \
             --output {output.metadata} 2>&1 | tee {log}
         """
@@ -545,7 +540,7 @@ rule tip_frequencies:
         tree = rules.refine.output.tree,
         metadata = _get_metadata_by_wildcards
     output:
-        tip_frequencies_json = "auspice/ncov_{build_name}_tip-frequencies.json"
+        tip_frequencies_json = "results/{build_name}/tip-frequencies.json"
     log:
         "logs/tip_frequencies_{build_name}.txt"
     params:
@@ -625,7 +620,7 @@ rule export:
             --lat-longs {input.lat_longs} \
             --title {params.title:q} \
             --description {input.description} \
-            --output {output.auspice_json} 2>&1 | tee {log}
+            --output {output.auspice_json} 2>&1 | tee {log} 
         """
 
 
@@ -654,10 +649,11 @@ rule incorporate_travel_history:
             --output {output.auspice_json} 2>&1 | tee {log}
         """
 
-rule fix_colorings:
-    message: "Remove extraneous colorings for main build"
+rule finalize:
+    message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = rules.incorporate_travel_history.output.auspice_json
+        auspice_json = rules.incorporate_travel_history.output.auspice_json,
+        frequencies = rules.tip_frequencies.output.tip_frequencies_json
     output:
         auspice_json = "auspice/ncov_{build_name}.json"
     log:
@@ -667,5 +663,6 @@ rule fix_colorings:
         """
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
-            --output {output.auspice_json} 2>&1 | tee {log}
+            --output {output.auspice_json} 2>&1 | tee {log} &&
+        cp {input.frequencies} auspice/ncov_{wildcards.build_name}_tip-frequencies.json
         """

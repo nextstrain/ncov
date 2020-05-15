@@ -225,7 +225,7 @@ rule fix_colorings_zh:
 rule dated_json:
     message: "Copying dated Auspice JSON"
     input:
-        auspice_json = rules.fix_colorings.output.auspice_json,
+        auspice_json = rules.finalize.output.auspice_json,
         tip_frequencies_json = rules.tip_frequencies.output.tip_frequencies_json
     output:
         dated_auspice_json = "auspice/ncov_{build_name}_{date}.json",

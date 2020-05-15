@@ -123,16 +123,16 @@ exposure:
 # based on the subsampling definitions below.
 builds:
   global:
-    geographic_scale: region
+    subsampling_scheme: region
   north-america:
-    geographic_scale: region
+    subsampling_scheme: region
   country-usa:
-    geographic_scale: country
-  division-washington:
-    geographic_scale: division
+    subsampling_scheme: country
+  USA_washington:
+    subsampling_scheme: division
     geographic_name: washington
-  location-king-county:
-    geographic_scale: location
+  washington_king-county:
+    subsampling_scheme: location
     geographic_name: king-county
 
 # Subsampling definitions by type of geographic location. Individual location

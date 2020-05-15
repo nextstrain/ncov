@@ -1,7 +1,7 @@
 """Small, shared functions used to generate inputs and parameters.
 """
-def _get_geographic_scale_by_build_name(build_name):
-    return config["builds"][build_name]["geographic_scale"]
+def _get_subsampling_scheme_by_build_name(build_name):
+    return config["builds"][build_name]["subsampling_scheme"]
 
 def _get_geographic_name_by_build_name(build_name):
     return config["builds"][build_name].get("geographic_name", build_name)
