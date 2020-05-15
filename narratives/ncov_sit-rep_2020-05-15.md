@@ -75,17 +75,17 @@ Over the last four months, we've tackled these questions - and more - in our wee
 
 - Once these "sparks" land in a new community, many fizzle out without causing widespread transmission. Subject to local conditions and a bit of chance, some of these sparks grow into local outbreaks.<p/>  
 
-- Eventually, these local outbreaks send of sparks of their own, spreading to new locations.  
+- Eventually, these local outbreaks send off sparks of their own, spreading to new locations.  
 <p/>
 
-Unsurprisingly, we see this pattern in countries experiencing their first wave of infections. More alarmingly, we also see this pattern after reintroduction to  countries where the initial peak passed months beforehand.
+Unsurprisingly, we see this pattern in countries experiencing their first wave of infections. More alarmingly, we also see this pattern after re-introductions of the virus to countries where the initial peak passed months beforehand.
 Ultimately, this pattern is only broken when a country is able to effectively test, trace, and isolate cases immediately.
 <br><br>
 
 This means that outbreaks across the world are deeply connected, and the battle against COVID-19 will always be global -- we can't conquer the virus anywhere without addressing it everywhere.
 <br><br>
 
-But, at this stage of the pandemic, genomic epidemiology is most urgently needed within local and hyperlocal communities through local public health offices.
+At this stage of the pandemic, genomic epidemiology is most urgently needed within local and hyperlocal communities through local public health offices.
 <br><br>
 
 As such, this will be our last weekly Situation Report for a while, though we aim to support similar reports from local public health officials.
@@ -102,22 +102,23 @@ You can also find <a href="https://nextstrain.org/ncov-sit-reps/">all of our pre
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Viral mutations are normal](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&m=div&p=full&legend=open)
+# [Changes in viral genomes over time are normal](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&m=div&p=full&legend=open)
 
-SARS-CoV-2 is a [coronavirus](https://nextstrain.org/help/coronavirus/human-CoV). Like other coronaviruses, SARS-CoV-2 has a genome encoded in RNA (rather than DNA).
+SARS-CoV-2, the virus that causes the disease COVID-19, is a [coronavirus](https://nextstrain.org/help/coronavirus/human-CoV). Like other coronaviruses, SARS-CoV-2 has a genome encoded in RNA (rather than DNA).
 <br><br>
-Viruses infect cells because they need to borrow cellular machinery to replicate. For RNA viruses, this process is quite error-prone, as most RNA polymerases (the cellular machines that make copies of RNA) aren't able to proofread and correct their work. This leads to frequent mutations in the viral genome; these are normal and expected.
+Viruses infect cells because they need to borrow cellular machinery to replicate. For RNA viruses, this process is quite error-prone, as most RNA polymerases (the molecular machines that make copies of RNA) aren't able to proofread and correct their work. This leads to frequent mutations in the viral genome; these are normal and expected.
 <br><br>
 Importantly, the vast majority of these mutations either "break" the virus such that it can't transmit and/or replicate anymore, or don't change the virus at all because of [redundant encoding](https://en.wikipedia.org/wiki/Synonymous_substitution). 
-This means that the mutations don't change the proteins of the virus in any way.
+This means that the mutations don't change the proteins, and therefore function, of the virus in any way.
 Other changes may modify a protein of the virus very slightly, but not impact the function at all.
-Rarely, a mutation can help the virus replicate and/or transmit better, but nearly all of these changes still have only a tiny effect.
+Rarely, a change in the genetic code of a virus can help it to replicate and/or transmit better, but nearly all of these changes still have only a tiny effect.
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Viral mutations are useful for tracing outbreaks](https://nextstrain.org/ncov/global/2020-05-14?c=gt-ORF3a_57&d=tree,entropy&f_division=New%20York&m=div&p=full)
+# [Differences in the genetic code of viruses are useful for tracing outbreaks](https://nextstrain.org/ncov/global/2020-05-14?c=gt-ORF3a_57&d=tree,entropy&f_division=New%20York&m=div&p=full)
 
-These mutations can be used as "bread crumbs" to trace the history of a given sample. Just as the people in your family share unique combinations of genetic characteristics, closely related viral samples share unique combinations of genetic mutations.
+These differences in the genomes between viruses can be used as "bread crumbs" to trace the history of a given sample. 
+Just as the people in your family share unique combinations of genetic characteristics, closely related viral samples share unique combinations of genetic mutations.
 <br><br>
 For example, here we show the viral "family tree" with each sample colored by which amino acid is present at a specific location in the viral genome (gene "ORF1a", site 57). 
 <br><br>
@@ -130,9 +131,9 @@ For a more in-depth explanation of these concepts, we recommend [this visual exp
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [The mutation rate of SARS-CoV-2 is typical for a coronavirus](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&l=clock&p=full)
+# [The evolutionary rate of SARS-CoV-2 is similar to SARS-CoV-1 and MERS](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&l=clock&p=full)
 
-Because mutations are biologically inevitable, they tend to accumulate at a steady rate over time.
+Because viral genomes inevitably change, these differences tend to accumulate at a steady rate over time.
 <br><br>
 Here, the x axis shows the date that each sample was collected. The y axis shows the *total number* of mutations each strain is away from the root of the tree. Each sample is colored by the date it was collected.
 <br><br>
@@ -152,7 +153,7 @@ First, a clarification: when virologists use the word "strain," it's often just 
 Separately, "strain" can be used to refer to viral genotypes that are functionally distinct, either biologically (e.g., pathogenicity/disease severity) and/or epidemiologically (e.g., transmissibility).
 Importantly, though, determining whether two genotypes actually *are* functionally distinct requires much more experimental, clinical and epidemiological data than we currently have.
 <br><br>
-One of the most prominent hypotheses about SARS-CoV-2 strains compares possible "D614" vs "G614" strains. We can use Nextstrain to investigate.
+One of the most prominent hypotheses about SARS-CoV-2 strains compares possible "D614" vs "G614" strains. 
 
 
 <!-- ############ SLIDE BREAK ############# -->
@@ -161,11 +162,12 @@ One of the most prominent hypotheses about SARS-CoV-2 strains compares possible 
 
 [A recent pre-print](https://www.biorxiv.org/content/10.1101/2020.04.29.069054v1) suggests that a single mutation, D614G (from amino acid "D" to "G" at site 614 in the "S" ('spike') protein), may be responsible for increasing the transmissibility of SARS-CoV-2.
 <br><br>
-The primary evidence for this hypothesis is based on how relative frequencies of each genotype change over time.
-If a given genotype is bad at transmitting, it is expected to decrease in frequency over time (and vice versa).
+In many geographic areas, the relative frequency of 614D compared to 614G increased over time.
+If a certain genotype leads to better transmissibility, we would expect it's frequency to increase over time.
+There are, however, other explanations to why the relative frequency of some genotypes would increase over time.
 <br><br>
 For this site, we see a number of geographic locations where initially, most viral lineages in circulation had the D allele; later, this balance flips such that most lineages have the G allele.
-This *could* be a hallmark of G being slightly "fitter" than D (e.g., if it did indeed have a slightly higher R0 through increased transmissibility).
+This *could* be a hallmark of G being slightly "fitter" than D (e.g., if viruses with the G mutation had a slightly higher R0 through increased transmissibility).
 <br><br>
 However, this could also just be a side effect of the natural history of the pandemic.
 Early on in the pandemic, most strains exported from China had a D allele. Later, most strains from Italy had a G allele. Recently, we've seen more exportation from Europe than from Asia overall (although there's certainly some sampling bias at play here, as well).
@@ -201,7 +203,7 @@ There's a fair amount of debate regarding the relative merits of these two hypot
 
 #### As far as we know, there is only 1 functional "strain" of SARS-CoV-2.  
 
-#### Teasing apart the biological impact of specific mutations can be tricky -- many perceived differences can be attributed to chance and epidemiological factors.  
+#### Teasing apart the biological impact of specific mutations is tricky -- many perceived differences can be attributed to chance and epidemiological factors.  
 ```
 
 <!-- ############ SLIDE BREAK ############# -->
