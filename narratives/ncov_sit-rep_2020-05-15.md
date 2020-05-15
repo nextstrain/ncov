@@ -72,20 +72,26 @@ Over the last four months, we've tackled these questions and more in our weekly 
 - Through human migration and travel, the virus has been introduced to most communities multiple times.  
 - Once these "sparks" land in a new community, many fizzle out without causing widespread transmission. Subject to local conditions and a bit of chance, some of these sparks grow into local outbreaks.  
 - Eventually, these local outbreaks send of sparks of their own, spreading to new locations.  
+
 <br><br>
 Unsurprisingly, we see this pattern in countries experiencing their first wave of infections. More alarmingly, we also see this pattern after reintroduction to  countries where the initial peak passed months beforehand.
 Ultimately, this pattern is only broken when a country is able to effectively test, trace, and isolate cases immediately.
 <br><br>
+
 This means that outbreaks across the world are deeply intertwined, and the battle against COVID-19 will always be global -- we can't conquer the virus anywhere without addressing it everywhere.
 <br><br>
+
 But, at this stage of the pandemic, genomic epidemiology is most urgently needed within hyperlocal communities through local public health offices.
 <br><br>
+
 As such, this will be our last weekly Situation Report for awhile as we shift our focus to supporting local public health officials.
 <br><br>
+
 We will, of course, continue daily updates to the global & regional builds as new sequences are posted to GISAID.
 When the big-picture data says something new, we'll also issue additional Situation Reports.
 All of these updates will be posted to the [Nextstrain twitter account](https://twitter.com/nextstrain) (as always).  
 <br><br>
+
 You can also find [all of our previous Situation Reports here](https://nextstrain.org/ncov-sit-reps/).
 ```
 
@@ -94,7 +100,7 @@ You can also find [all of our previous Situation Reports here](https://nextstrai
 # [Viral mutations are normal](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&m=div&p=full)
 
 [SARS-CoV-2 is a coronavirus](https://nextstrain.org/help/coronavirus/human-CoV). Like other coronaviruses, SARS-CoV-2 has a genome encoded in RNA (rather than DNA).
-
+<br><br>
 Viruses infect cells because they need to borrow cellular machinery to replicate. For RNA viruses, this process is quite error-prone, as most RNA polymerases (the cellular machines that make copies of RNA) aren't able to proofread and correct their work. This leads to frequent mutations in the viral genome; these are normal and expected.
 <br><br>
 Importantly, the vast majority of these mutations either "break" the virus such that it can't transmit and/or replicate anymore, or don't change the virus at all because of [redundant encoding](https://en.wikipedia.org/wiki/Synonymous_substitution).
