@@ -25,7 +25,7 @@ license: "CC-BY"
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
 dataset: "https://nextstrain.org/ncov/global/2020-05-14?d=tree&legend=closed"
 
-abstract: "This weekly report uses publicly shared genomic data to track the spread and evolution of SARS-CoV-2. This week, we focus on how the virus emerged and has changed over the course of the pandemic. We also discuss related concerns raised in the media."
+abstract: "This weekly report uses publicly shared genomic data to track the spread and evolution of SARS-CoV-2. This week, we give an overview of viral mutations and what they mean (and don't mean) for the COVID-19 pandemic."
 ---
 <!-- Translators: Only text after : in the above ^ needs to be translated -->
 <!-- Comment tags like these do not need to be translated, they are only to help you! -->
@@ -33,12 +33,7 @@ abstract: "This weekly report uses publicly shared genomic data to track the spr
 <!-- numbers can be tagged ilke this: 161</tag> - this is just for us to help find them to update! Just leave in the </tag> bit. -->
 
 <!-- This is left-side text -->
-# [Executive summary](https://nextstrain.org/ncov/2020-05-14?d=tree,map&p=grid)
-
-
-<!-- This is right-side text -->
-```auspiceMainDisplayMarkdown
-# This week: all about viral mutations  
+# [Executive summary](https://nextstrain.org/ncov/2020-05-14?d=tree,entropy&p=grid)
 
 We analyzed 5,193 publicly shared COVID-19 genomes. By comparing these viral genomes to each other, we can characterize how SARS-CoV-2 is evolving and moving around the world. This week, we focus on viral mutations -- where they come from, what they mean, and how they're useful. We cover:
 <br><br>
@@ -47,14 +42,12 @@ We analyzed 5,193 publicly shared COVID-19 genomes. By comparing these viral gen
 * How many strains of SARS-CoV-2 are circulating (as far as we know: 1)  
 * How geography and epidemiology contribute to perceived differences in viral genotypes (this is tricky)
 
-```
-
 
 <!-- ############ SLIDE BREAK ############# -->
 
 <!-- This is left-side text 2-->
 # [COVID-19 Resources](https://nextstrain.org/ncov/global/2020-05-14?d=tree&p=full&legend=closed)
-We've prepared some resources that will make interpreting the data we present in this narrative easier.
+
 #### Nextstrain Resources
 * [START HERE: How to read a phylogeny](https://nextstrain.org/narratives/trees-background/).
 * [Previous Situation Reports](https://nextstrain.org/ncov-sit-reps/).
@@ -66,13 +59,11 @@ We've prepared some resources that will make interpreting the data we present in
 * [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 * [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
 * [The NYTimes COVID-19 coverage](https://www.nytimes.com/news-event/coronavirus).
-<!-- There is no right-side text -->
 
+<!-- This is the right-side text -->
+```auspiceMainDisplayMarkdown
 
-<!-- ############ SLIDE BREAK ############# -->
-
-<!-- This is left-side text -->
-# [Situation Report Hiatus](https://nextstrain.org/ncov/global/2020-05-14?c=country&r=country&d=map&p=grid&legend=closed)
+# Situation Report Hiatus
 
 Early in the pandemic, it was unclear how SARS-CoV-2 was moving between countries, where it was circulating locally, and how localized outbreaks were related.
 Over the last four months, we've tackled these questions and more in our weekly Situation Reports. At this stage of the pandemic, it's clear that these broad-strokes patterns are largely consistent across regions and countries:  
@@ -96,12 +87,11 @@ When the big-picture data says something new, we'll also issue additional Situat
 All of these updates will be posted to the [Nextstrain twitter account](https://twitter.com/nextstrain) (as always).  
 <br><br>
 You can also find [all of our previous Situation Reports here](https://nextstrain.org/ncov-sit-reps/).
-<!-- There is NO right-side text -->
-
+```
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- This is left-side text -->
-# [Viral mutations are normal and help us trace outbreaks](https://nextstrain.org/ncov/global/2020-05-14?c=gt-ORF3a_57&d=tree,entropy&f_division=New%20York&m=div&p=full)
+# [Viral mutations are normal](https://nextstrain.org/ncov/global/2020-05-14?c=num_date&d=tree,entropy&m=div&p=full)
 
 [SARS-CoV-2 is a coronavirus](https://nextstrain.org/help/coronavirus/human-CoV). Like other coronaviruses, SARS-CoV-2 has a genome encoded in RNA (rather than DNA).
 
@@ -109,8 +99,10 @@ Viruses infect cells because they need to borrow cellular machinery to replicate
 <br><br>
 Importantly, the vast majority of these mutations either "break" the virus such that it can't transmit and/or replicate anymore, or don't change the virus at all because of [redundant encoding](https://en.wikipedia.org/wiki/Synonymous_substitution).
 Rarely, a mutation can help the virus replicate and/or transmit better, but nearly all of these changes still have only a tiny effect.
-<br><br>
-Usefully, though, these mutations can be used as "bread crumbs" to trace the history of a given sample. Just as the people in your family share unique combinations of genetic characteristics, closely related viral samples share unique combinations of genetic mutations.
+
+# [Viral mutations are useful for tracing outbreaks](https://nextstrain.org/ncov/global/2020-05-14?c=gt-ORF3a_57&d=tree,entropy&f_division=New%20York&m=div&p=full)
+
+These mutations can be used as "bread crumbs" to trace the history of a given sample. Just as the people in your family share unique combinations of genetic characteristics, closely related viral samples share unique combinations of genetic mutations.
 <br><br>
 For example, here we show the viral "family tree" with each sample colored by which amino acid is present at a specific location in the viral genome (ORF1a, site 57). Highlighting samples from New York, we see that most of the cases from New York and Europe have the amino acid Histidine ("H") rather than Glutamine ("Q") at this position. This, in combination with all the other sites in the genome, tells us that these cases are all closely related to each other.
 <br><br>
