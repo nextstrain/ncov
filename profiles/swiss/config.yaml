@@ -1,0 +1,11 @@
+configfile:
+  - config/config.yaml
+  - profiles/swiss/builds.yaml
+  - config/geo_hierarchy.json
+
+cores: 8
+keep-going: True
+printshellcmds: True
+reason: True
+restart-times: 1
+stats: stats.json
