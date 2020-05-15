@@ -176,8 +176,8 @@ def get_priority_argument(wildcards):
 def _get_specific_subsampling_setting(setting, optional=False):
     def _get_setting(wildcards):
         subsampling_scheme = _get_subsampling_scheme_by_build_name(wildcards.build_name)
-        geographic_name = config["builds"][wildcards.build_name].get("geographic_name", wildcards.build_name)
-        geographic_scale = config["builds"][wildcards.build_name].get("geographic_scale", wildcards.build_name)
+        geographic_name = _get_geographic_name_by_build_name(wildcards.build_name)
+        geographic_scale = _get_geographic_scale_by_build_name(wildcards.build_name)
 
         if optional:
             value = _get_subsampling_settings(wildcards).get(setting, "")
@@ -294,7 +294,7 @@ rule adjust_metadata_regions:
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv"
     params:
-        subsampling_scheme = lambda wildcards: _get_subsampling_scheme_by_build_name(wildcards.build_name),
+        geographic_scale = lambda wildcards: _get_geographic_scale_by_build_name(wildcards.build_name),
         geographic_name = lambda wildcards: _get_geographic_name_by_build_name(wildcards.build_name)
     log:
         "logs/adjust_metadata_regions_{build_name}.txt"
@@ -302,7 +302,7 @@ rule adjust_metadata_regions:
     shell:
         """
         python3 scripts/adjust_regional_meta.py \
-            --{params.subsampling_scheme} {params.geographic_name:q} \
+            --{params.geographic_scale} {params.geographic_name:q} \
             --metadata {input.metadata} \
             --output {output.metadata} 2>&1 | tee {log}
         """
@@ -621,7 +621,7 @@ rule export:
             --lat-longs {input.lat_longs} \
             --title {params.title:q} \
             --description {input.description} \
-            --output {output.auspice_json} 2>&1 | tee {log} 
+            --output {output.auspice_json} 2>&1 | tee {log}
         """
 
 
