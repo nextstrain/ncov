@@ -25,7 +25,7 @@ builds:
     geographic_scale: division
   lac-leman:
     subsampling_scheme: lac-leman
-
+    geographic_scale: composite
 
 subsampling:
 
@@ -91,15 +91,15 @@ subsampling:
     geneva:
       group_by: "year month"
       seq_per_group: 300
-      exclude: "--exclude-where 'division!={{geneva}}'"
+      exclude: "--exclude-where 'division!=geneva'"
     vaud:
       group_by: "year month"
       seq_per_group: 300
-      exclude: "--exclude-where 'division!={{vaud}}'"
+      exclude: "--exclude-where 'division!=vaud'"
     valais:
       group_by: "year month"
       seq_per_group: 300
-      exclude: "--exclude-where 'division!={{valais}}'"
+      exclude: "--exclude-where 'division!=valais'"
 
     # Contextual samples from the country
     country:

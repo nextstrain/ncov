@@ -14,9 +14,10 @@ if __name__ == '__main__':
     )
     parser.add_argument("--metadata", type = str, required=True, help="metadata")
     parser.add_argument("--region", type=str, required=False, help="focal region")
-    parser.add_argument("--country", type=str, required=False, help="focal region")
-    parser.add_argument("--division", type=str, required=False, help="focal region")
-    parser.add_argument("--location", type=str, required=False, help="focal region")
+    parser.add_argument("--country", type=str, required=False, help="focal country")
+    parser.add_argument("--division", type=str, required=False, help="focal division")
+    parser.add_argument("--location", type=str, required=False, help="focal location")
+    parser.add_argument("--composite", type=str, required=False, help="composite sampling")
     parser.add_argument("--output", type=str, required=True, help="adjusted metadata")
     args = parser.parse_args()
 
