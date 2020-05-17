@@ -656,7 +656,8 @@ rule finalize:
         auspice_json = rules.incorporate_travel_history.output.auspice_json,
         frequencies = rules.tip_frequencies.output.tip_frequencies_json
     output:
-        auspice_json = "auspice/ncov_{build_name}.json"
+        auspice_json = "auspice/ncov_{build_name}.json",
+        tip_frequency_json = "auspice/ncov_{build_name}_tip-frequencies.json"
     log:
         "logs/fix_colorings_{build_name}.txt"
     conda: config["conda_environment"]
@@ -665,5 +666,5 @@ rule finalize:
         python scripts/fix-colorings.py \
             --input {input.auspice_json} \
             --output {output.auspice_json} 2>&1 | tee {log} &&
-        cp {input.frequencies} auspice/ncov_{wildcards.build_name}_tip-frequencies.json
+        cp {input.frequencies} {output.tip_frequency_json}
         """
