@@ -316,13 +316,16 @@ rule tree:
         # Multiple sequence alignments can use up to 40 times their disk size in
         # memory, especially for larger alignments.
         # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
-        mem_mb=lambda wildcards, input: 40 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 40 * int(input.size / 1024 / 1024),
+    params:
+        mem_gb=lambda wildcards, resources: int(resources.mem_mb / 1024)-1,
     conda: config["conda_environment"]
     shell:
         """
         augur tree \
             --alignment {input.alignment} \
             --output {output.tree} \
+            --tree-builder-args="-mem {params.mem_gb}G" \
             --nthreads {threads} 2>&1 | tee {log}
         """
 
