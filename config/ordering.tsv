@@ -152,7 +152,6 @@ location	Montigny le Bretonneux
 location	Dijon
 location	Ploudalmezeau
 location	Ham sous Varsberg
-location	Asnieres sur Seine
 location	Cergy
 location	Guyancourt
 location	Chalon sur Saone
@@ -256,6 +255,41 @@ location	Nottinghamshire
 location	Cardiff
 location	Rovaniemi
 location	Jönköping
+location	Anserma
+location	Palmira
+location	Togüí
+location	Soacha
+location	Madrid CO
+location	Zipaquirá
+location	Santa Sofía
+location	Ipiales
+location	Quibdo
+location	Pereira
+location	Neiva
+location	Funza
+location	Buga
+location	Ibagué
+location	Medellín
+location	Envigado
+location	Itagui
+location	Sabaneta
+location	Chocontá
+location	Tuluá
+location	Santa Marta
+location	Trujillo
+location	Andalucía
+location	Jamundí
+location	El cerrito
+location	Santana
+location	Pacho
+location	Tierralta
+location	Montería
+location	Valledupar
+location	Cajicá
+location	Cúcuta
+location	Villavicencio
+location	Chía
+location	Yumbo
 location	Sao Paulo
 location	Brasilia
 location	Rio de Janeiro
@@ -931,6 +965,20 @@ division	Rio Negro
 division	Distrito Federal
 division	Uruguay
 division	Colombia
+division	Caldas
+division	Valle del Cauca
+division	Boyaca
+division	Cundinamarca
+division	Nariño
+division	Choco
+division	Huila
+division	Tolima
+division	Risaralda
+division	Magdalena
+division	Cordoba
+division	Cesar
+division	Norte de santander
+division	Meta
 division	Amazonas State
 division	Antioquia
 division	Bogota
