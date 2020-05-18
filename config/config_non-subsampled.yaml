@@ -1,0 +1,6 @@
+
+filter:
+  exclude_where: "host=rat" # using a meaningless query to avoid modifying the actual rule
+  sequences_per_group: 10000000
+subsample_focus:
+  seq_per_group_global: 10000000

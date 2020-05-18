@@ -36,11 +36,12 @@ def modify(node):
         "name": node["name"]+"_travel_history",
         "node_attrs": {
             "div": node["node_attrs"]["div"],
-            "num_date": node["node_attrs"]["num_date"],
             EXPOSURE_TRAIT: node["node_attrs"][EXPOSURE_TRAIT]
         },
         "children": [node]
     }
+    if "num_date" in node["node_attrs"]:
+      n["node_attrs"]["num_date"] = node["node_attrs"]["num_date"]
 
     # Store a backup of the original exposure, to put back in later
     node["node_attrs"]["exposure_backup"] = node["node_attrs"][EXPOSURE_TRAIT]

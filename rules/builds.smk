@@ -311,7 +311,7 @@ rule tree:
         "logs/tree_{region}.txt"
     benchmark:
         "benchmarks/tree_{region}.txt"
-    threads: 4
+    threads: 8
     resources:
         # Multiple sequence alignments can use up to 40 times their disk size in
         # memory, especially for larger alignments.
@@ -368,16 +368,7 @@ rule refine:
             --metadata {input.metadata} \
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
-            --root {params.root} \
-            --timetree \
-            --clock-rate {params.clock_rate} \
-            --clock-std-dev {params.clock_std_dev} \
-            --coalescent {params.coalescent} \
-            --date-inference {params.date_inference} \
-            --divergence-unit {params.divergence_unit} \
-            --date-confidence \
-            --no-covariance \
-            --clock-filter-iqd {params.clock_filter_iqd} 2>&1 | tee {log}
+            --root {params.root}
         """
 
 rule ancestral:
@@ -584,7 +575,6 @@ rule export:
         branch_lengths = rules.refine.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
-        traits = rules.traits.output.node_data,
         auspice_config = config["files"]["auspice_config"],
         colors = rules.colors.output.colors,
         lat_longs = config["files"]["lat_longs"],
@@ -603,7 +593,7 @@ rule export:
         augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.clades} {input.recency} \
             --auspice-config {input.auspice_config} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
