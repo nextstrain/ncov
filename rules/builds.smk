@@ -240,6 +240,7 @@ rule proximity_score:
     input:
         alignment = rules.mask.output.alignment,
         metadata = rules.download.output.metadata,
+        reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
     output:
         priorities = "results/{build_name}/proximity_{focus}.tsv"
@@ -252,6 +253,7 @@ rule proximity_score:
         """
         python3 scripts/priorities.py --alignment {input.alignment} \
             --metadata {input.metadata} \
+            --reference {input.reference} \
             --focal-alignment {input.focal_alignment} \
             --output {output.priorities} 2>&1 | tee {log}
         """
