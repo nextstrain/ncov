@@ -60,7 +60,9 @@ location	Mansa
 location	Kolkata
 location	Modasa
 location	Dhansura
+location	Dahegam
 location	Prantij
+location	Himatnagar
 location	East Medinipur
 location	South 24 Parganas
 location	Howrah
@@ -223,6 +225,26 @@ location	Verona
 location	L'Aquila
 location	Teramo
 location	Valencia
+location	Beniganim
+location	Llutxent
+location	Tavernes de la Valldigna
+location	Gandia
+location	Sagunt
+location	Segorbe
+location	Pala de Gandia
+location	El Puig
+location	Elda
+location	Olleria
+location	Canet d'en Berenguer
+location	Bonrepos i Mirambell
+location	Alboraya
+location	Meliana
+location	Gilet
+location	Albuixech
+location	Xeraco
+location	Oliva
+location	Puzol
+location	Benirredra
 location	Luxembourg
 location	England
 location	South Yorkshire
@@ -344,6 +366,7 @@ location	Allamakee County
 location	Winneshiek County
 location	Jackson County
 location	Florida
+location	Miramar
 location	Adams County
 location	New Orleans
 location	East Feliciana Parish

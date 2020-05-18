@@ -5,6 +5,8 @@ location	ahmedabad	23.024605	72.570805
 location	Aichi	35.067543	137.334061
 location	Alajuela	10.0159	-84.2142
 location	Albany County	42.601369	-73.973601
+location	Alboraya	39.4990	-0.3510
+location	Albuixech	39.5448	-0.3248
 location	Aldrans	47.250725	11.445815
 location	Allamakee County	43.286290	-91.352362
 location	Anchorage	61.203109	-149.888095
@@ -21,6 +23,8 @@ location	Bassilly	50.675907	3.933169
 location	Bayside	43.1806	-87.9006
 location	Beijing	40.071320	116.406908
 location	Bela - Ledec na Sazavou	49.693369	15.277533
+location	Beniganim	38.9431	-0.4439
+location	Benirredra	38.9612	-0.1928
 location	Benton County	36.2662	-94.4800
 location	Bergen County	40.9263	-74.0770
 location	Berlicum	51.6789	5.4012
@@ -28,6 +32,7 @@ location	Bienville Parish	32.340169	-93.050187
 location	Bierset	50.656953	5.454009
 location	Blandain	50.624503	3.303954
 location	Blaricum	52.2727	5.2481
+location	Bonrepos i Mirambell	39.5178	-0.3647
 location	Boston	42.354750	-71.061299
 location	Bourg-en-Bresse	46.206861	5.229144
 location	Braine-le-Chateau	50.677854	4.267574
@@ -45,6 +50,7 @@ location	Cairns	-16.890992	145.724483
 location	California	36.357039	-119.690182
 location	Camden County	39.814507	-74.986182
 location	Campbellsport	43.596732	-88.280763
+location	Canet d'en Berenguer	39.6806	-0.2192
 location	Cardiff	51.476291	-3.178964
 location	Carentan	49.302133	-1.250938
 location	Cartago	9.8638	-83.9162
@@ -73,6 +79,7 @@ location	Crépy en Valois	49.234399	2.888491
 location	Crouy en Thelle	49.213817	2.320688
 location	Cudahy	42.946879	-87.861992
 location	Cuesmes	50.435127	3.923209
+location	Dahegam	23.1637	72.8102
 location	Dalen	52.6994	6.7568
 location	Dane county	43.0186	-89.5498
 location	Darjeeling	27.028909	88.260898
@@ -91,8 +98,10 @@ location	East Medinipur	22.037985	87.811563
 location	Eielson AFB	64.655387	-147.064620
 location	Eindhoven	51.4416	5.4697
 location	Elbigenalp	47.289202	10.434541
+location	Elda	38.4765	-0.7966
 location	Elm Grove	43.047975	-88.086157
 location	Elmendorf AFB	61.252028	-149.812043
+location	El Puig	39.5908	-0.3031
 location	England	52.405994	-1.671707
 location	Essex County	40.784033	-74.235550
 location	Fairbanks	64.835015	-147.664888
@@ -109,8 +118,10 @@ location	Fuyang	32.904205	115.812367
 location	Garches	48.8461	2.1887
 location	Ganzhou	25.8307	114.9335
 location	gandhinagar	23.227004	72.643142
+location	Gandia	38.9680	-0.1845
 location	Geluwe	50.809763	3.076704
 location	Gennevilliers	48.927444	2.292449
+location	Gilet	39.6668	-0.3325
 location	Gilgit	35.880589	74.448161
 location	Glendale	43.129400	-87.930209
 location	Gold Coast	-28.019726	153.398160
@@ -140,6 +151,7 @@ location	Heinsberg District	51.0499	6.1163
 location	Heredia	9.9981	-84.1198
 location	Heverlee	50.861704	4.695889
 location	Helmond	51.4793	5.6570
+location	Himatnagar	23.5969	72.9630
 location	Hong Kong	22.3964	114.1095
 location	Houston	29.813606	-95.415223
 location	Houten	52.0278	5.1630
@@ -188,6 +200,7 @@ location	Leuven	50.880674	4.700109
 location	Levallois-Perret	48.8932	2.2879
 location	Lishui	28.460681	119.919147
 location	Livingston Parish	30.463159	-90.743070
+location	Llutxent	38.9421	-0.3554
 location	London	51.497327	-0.118796
 location	Longjumeau	48.6931	2.2948
 location	Loon	51.379197	5.443200
@@ -205,10 +218,12 @@ location	Mason County	47.4251	-123.1951
 location	Mat-Su	61.382704	-150.251175
 location	Matrei am Brenner	47.128405	11.452845
 location	Melbourne	-37.839042	145.076343
+location	Meliana	39.5286	-0.3478
 location	Mequon	43.226666	-87.973033
 location	Meudon la Forêt	48.787126	2.227098
 location	Milan	45.474	9.177
 location	Milwaukee	43.058555	-87.923530
+location	Miramar	25.9861	-80.3036
 location	Modasa	23.4643	73.2988
 location	Monroe County	43.940837	-90.605424
 location	Montgomery County	42.9155	-74.4526
@@ -239,11 +254,14 @@ location	Northern Queensland	-17.758290	142.643075
 location	Nottinghamshire	53.139677	-1.027527
 location	Oak Creek	42.878698	-87.901041
 location	Oisterwijk	51.568179	5.211873
+location	Olleria	38.9146	-0.5506
+location	Oliva	38.9198	-0.1188
 location	Onondaga County	43.0268	-76.1784
 location	Orange County	33.689584	-117.788718
 location	Orange County NY	41.394693	-74.289170
 location	Orsay	48.703347	2.187373
 location	Oss	51.762396	5.530563
+location	Palma de Gandia	38.9251	-0.2215
 location	Paris	48.853884	2.341738
 location	Passaic County	40.955105	-74.229353
 location	Perth	-31.942741	115.841171
@@ -259,6 +277,7 @@ location	Port Washington	43.382722	-87.885911
 location	Prantij	23.4367	72.8528
 location	Privas	44.723301	4.594575
 location	Putnam County	41.424102	-73.753622
+location	Puzol	39.6153	0.3043
 location	Pu'er	22.807007	100.971896
 location	Qingdao	36.171557	120.398496
 location	Queens	40.717328	-73.795709
@@ -279,6 +298,7 @@ location	Rotterdam	51.9244	4.4777
 location	Rouen	49.4432	1.1000
 location	Rovaniemi	66.501553	25.728919
 location	Sacramento County	38.494406	-121.301826
+location	Sagunt	39.6801	-0.2784
 location	Saint Germain en Laye	48.938032	2.094734
 location	Saint-Priest	45.704159	4.949456
 location	Saint-Thibault-des-Vignes	48.862026	2.674513
@@ -299,6 +319,7 @@ location	Saukville	43.3817	-87.9406
 location	Schenectady County	42.822882	-74.053939
 location	Seattle	47.748301	-121.850150
 location	Seefeld in Tirol	47.329203	11.188798
+location	Segorbe	39.8492	-0.4904
 location	Seine-Port	48.551795	2.551916
 location	Seoul	37.548278	126.990916
 location	Shanghai	31.171447	121.429896
@@ -333,6 +354,7 @@ location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
 location	Taipei	25.043279	121.565717
 location	Taoyuan	24.951706	121.219785
+location	Tavernes de la Valldigna	39.0734	-0.2644
 location	Tehatta	23.730511	88.527338
 location	Temploux	50.484053	4.753481
 location	Tertre	50.466483	3.811510
@@ -376,6 +398,7 @@ location	Winona County	43.993965	-91.799960
 location	Wisconsin	44.535145	-89.527762
 location	Woippy	49.154613	6.148404
 location	Wuhan	30.554807	114.271501
+location	Xeraco	39.0331	-0.2163
 location	Xishuangbanna	21.995	100.837
 location	Xinyu	27.8178	114.9173
 location	Yakima County	46.430431	-120.711765
