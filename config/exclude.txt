@@ -682,3 +682,6 @@ Uruguay/UY-3/2020
 
 # Includes characters "AAGACTAAAAATGTTACAAAAGAA:::::::::::::::GGTTTTTTCACTTACATTTGT"
 USA/AK-PHL180/2020
+
+#Seems pretty divergent with about 30 mutations
+Colombia/GVI-97181/2020

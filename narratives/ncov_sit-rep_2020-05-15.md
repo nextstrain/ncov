@@ -54,7 +54,7 @@ We analyzed 5,193 publicly shared COVID-19 genomes. By comparing these viral gen
 * [Common misconceptions](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13?n=11).
 
 #### External Resources
-* [How coronavirus mutations and spreads (NYTimes)](https://www.nytimes.com/interactive/2020/04/30/science/coronavirus-mutations.html).
+* [How coronavirus mutates and spreads (NYTimes)](https://www.nytimes.com/interactive/2020/04/30/science/coronavirus-mutations.html).
 * [Ask a Scientist & FAQs](https://covid19.fas.org/l/en).
 * [WHO Situation Reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports).
 * [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
@@ -161,7 +161,7 @@ One of the most prominent hypotheses about SARS-CoV-2 strains compares possible 
 
 [A recent pre-print](https://www.biorxiv.org/content/10.1101/2020.04.29.069054v1) suggests that a single mutation, D614G (from amino acid "D" to "G" at site 614 in the "S" ('spike') protein), may be responsible for increasing the transmissibility of SARS-CoV-2.
 <br><br>
-In many geographic areas, the relative frequency of 614D compared to 614G increased over time.
+In many geographic areas, the relative frequency of 614G compared to 614D increased over time.
 If a certain genotype leads to better transmissibility, we would expect it's frequency to increase over time.
 There are, however, other explanations to why the relative frequency of some genotypes would increase over time.
 <br><br>

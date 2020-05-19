@@ -106,14 +106,14 @@ regions:
 subsample_focus:
   group_by: "division year month"
   group_by_europe: "country year month"
-  seq_per_group_regional: 160
+  seq_per_group_regional: 120
 
   # Sequences per group if the current build is not a regional build.
-  seq_per_group_global: 24
+  seq_per_group_global: 18
 
 subsample_context:
   group_by: "country year month"
-  sequences_per_group: 16
+  sequences_per_group: 12
 
 #
 # Priorities-specific settings
