@@ -228,6 +228,7 @@ location	Beniganim
 location	Llutxent
 location	Tavernes de la Valldigna
 location	Gandia
+location	Palma de Gandia
 location	Sagunt
 location	Segorbe
 location	Pala de Gandia
@@ -257,11 +258,11 @@ location	Rovaniemi
 location	Jönköping
 location	Anserma
 location	Palmira
-location	Togüí
+location	Togui
 location	Soacha
 location	Madrid CO
-location	Zipaquirá
-location	Santa Sofía
+location	Zipaquira
+location	Santa Sofia
 location	Ipiales
 location	Quibdo
 location	Pereira
@@ -269,24 +270,25 @@ location	Neiva
 location	Funza
 location	Cali
 location	Buga
-location	Ibagué
-location	Medellín
+location	Ibague
+location	Medellin
+location	Dosquebradas
 location	Envigado
 location	Itagui
 location	Sabaneta
-location	Chocontá
-location	Tuluá
+location	Choconta
+location	Tulua
 location	Santa Marta
 location	Trujillo
-location	Andalucía
-location	Jamundí
+location	Andalucia
+location	Jamundi
 location	El cerrito
 location	Santana
 location	Pacho
 location	Tierralta
-location	Montería
+location	Monteria
 location	Valledupar
-location	Cajicá
+location	Cajica
 location	Cúcuta
 location	Villavicencio
 location	Chía
@@ -561,6 +563,7 @@ division	Cambodia
 division	Sihanoukville
 division	Nonthaburi
 division	Thailand
+division	Phuket
 division	Myanmar
 division	Bangkok
 division	Malaysia
@@ -970,11 +973,12 @@ division	Rio Negro
 division	Distrito Federal
 division	Uruguay
 division	Colombia
+division	Meta
 division	Caldas
 division	Valle del Cauca
 division	Boyaca
 division	Cundinamarca
-division	Nariño
+division	Narino
 division	Choco
 division	Huila
 division	Tolima
@@ -983,7 +987,6 @@ division	Magdalena
 division	Cordoba
 division	Cesar
 division	Norte de santander
-division	Meta
 division	Amazonas State
 division	Antioquia
 division	Bogota

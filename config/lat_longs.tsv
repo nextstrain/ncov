@@ -11,7 +11,7 @@ location	Albuixech	39.5448	-0.3248
 location	Aldrans	47.250725	11.445815
 location	Allamakee County	43.286290	-91.352362
 location	Anchorage	61.203109	-149.888095
-location	Andalucía	4.173863	-76.164864
+location	Andalucia	4.173863	-76.164864
 location	Andel	51.7851	5.0549
 location	Anserma	5.238746	-75.782888
 location	Arbre	50.611772	3.817121
@@ -50,7 +50,7 @@ location	Budapest	47.482728	19.084269
 location	Buga	3.903723	-76.300764
 location	Caddo Parish	32.618244	-93.832261
 location	Cairns	-16.890992	145.724483
-location	Cajicá	4.919830	-74.024182
+location	Cajica	4.919830	-74.024182
 location	Cali	3.4516	-76.5320
 location	California	36.357039	-119.690182
 location	Camden County	39.814507	-74.986182
@@ -67,7 +67,7 @@ location	Chenango County	42.4972	-75.6208
 location	Chengdu	30.640989	104.067518
 location	Chía	4.865442	-74.052806
 location	Chicago	41.858966	-87.637242
-location	Chocontá	5.146017	-73.683678
+location	Choconta	5.146017	-73.683678
 location	Chongqing	29.858721	107.375623
 location	Chungcheongnam	36.685948	126.799198
 location	Cincinnati	39.122033	-84.515918
@@ -99,6 +99,7 @@ location	Dhansura	23.3498	73.2087
 location	Dijon	47.3220	5.0415
 location	Diemen	52.3390	4.9592
 location	Dongguan	22.992389	113.744830
+location	Dosquebradas	4.832649	-75.677377
 location	Duesseldorf	51.22166	6.75289
 location	Dutchess County	41.762637	-73.721778
 location	East Baton Rouge Parish	30.469664	-91.097549
@@ -125,7 +126,7 @@ location	Forchies-la-marche	50.435103	4.319844
 location	Foshan	23.018766	113.121428
 location	Franklin	42.882823	-88.009275
 location	Franklin County NY	44.5926	-74.3388
-location	Franklin County WA	46.517555, -118.921601
+location	Franklin County WA	46.517555	-118.921601
 location	Funza	4.713017	-74.206999
 location	Fuyang	32.904205	115.812367
 location	Garches	48.8461	2.1887
@@ -173,7 +174,7 @@ location	Huaian	33.574586	119.132155
 location	Hudson County	40.741619	-74.059016
 location	Huizhou	23.107144	114.457913
 location	Hyderabad	17.431807	78.416233
-location	Ibagué	4.438643	-75.190558
+location	Ibague	4.438643	-75.190558
 location	Iberville Parish	30.256342	-91.380864
 location	Illinois	40.088552	-89.301876
 location	Indianapolis	39.7684	-86.1581
@@ -184,7 +185,7 @@ location	Ischgl	47.011789	10.289683
 location	Itagui	6.174822	-75.607579
 location	Jackson	43.325508	-88.167662
 location	Jackson County	44.310891	-90.788896
-location	Jamundí	3.260158	-76.539750
+location	Jamundi	3.260158	-76.539750
 location	Jefferson County	44.063938	-75.903794
 location	Jemappes	50.446399	3.898191
 location	Jian	27.0876	114.9647
@@ -235,7 +236,7 @@ location	Marin County	38.077277	-122.719060
 location	Mason County	47.4251	-123.1951
 location	Mat-Su	61.382704	-150.251175
 location	Matrei am Brenner	47.128405	11.452845
-location	Medellín	6.254779	-75.578125
+location	Medellin	6.254779	-75.578125
 location	Melbourne	-37.839042	145.076343
 location	Meliana	39.5286	-0.3478
 location	Mequon	43.226666	-87.973033
@@ -245,7 +246,7 @@ location	Milwaukee	43.058555	-87.923530
 location	Miramar	25.9861	-80.3036
 location	Modasa	23.4643	73.2988
 location	Monroe County	43.940837	-90.605424
-location	Montería	8.747483	-75.880941
+location	Monteria	8.747483	-75.880941
 location	Montgomery County	42.9155	-74.4526
 location	Montigny le Bretonneux	48.7739	2.0360
 location	Montignies-Sur-Sambre	50.401302	4.478466
@@ -339,7 +340,7 @@ location	San Francisco	37.757679	-122.440006
 location	San Rafael	10.0145	-84.0986
 location	Santa Clara County	37.236094	-121.683399
 location	Santa Marta	11.234638	-74.192698
-location	Santa Sofía	5.714409	-73.602111
+location	Santa Sofia	5.714409	-73.602111
 location	Santana	6.057578	-73.479309
 location	Sao Paulo	-23.551096	-46.634874
 location	Saratoga County	43.0324	-73.9360
@@ -395,13 +396,13 @@ location	Thurston County	46.935508	-122.867349
 location	Tianmen	30.6510	113.1556
 location	Tierralta	8.171825	-76.060340
 location	Tilburg	51.571419	5.052759
-location	Togüí	5.937829	-73.513494
+location	Togui	5.937829	-73.513494
 location	Tokyo	35.683441	139.766131
 location	Tours	47.404471	0.693908
 location	Trazegnies	50.466074	4.334811
 location	Trempealeau County	44.2398	-91.3662
 location	Trujillo	4.212089	-76.319157
-location	Tuluá	4.092520	-76.197483
+location	Tulua	4.092520	-76.197483
 location	Tweed Heads	-28.201312	153.543425
 location	Ulan-Ude	51.827029	107.655954
 location	Ulster County	41.8586	-74.3118
@@ -450,7 +451,7 @@ location	Zhengzhou	34.714074	113.621939
 location	Zhongshan	22.542629	113.390864
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
-location	Zipaquirá	5.023869	-73.999449
+location	Zipaquira	5.023869	-73.999449
 
 
 
@@ -811,7 +812,7 @@ division	Munich	48.144747	11.561739
 division	Myanmar	20.600856	96.287616
 division	Namur	50.457215	4.879493
 division	Nara	34.371026	135.887389
-division	Nariño	1.592142	-77.851790
+division	Narino	1.592142	-77.851790
 division	Nebraska	41.4925	-99.9018
 division	Nepal	28	84
 division	Netherlands	52.1326	5.2913
@@ -875,6 +876,7 @@ division	Pennsylvania	41.2033	-77.1945
 division	Perm Region	58.017794	56.311058
 division	Peru	-10	-75.25
 division	Philippines	12.8797	121.774
+division	Phuket	7.959471	98.339272
 division	Pichincha	-0.1465	-78.4752
 division	Poland	52.0977181	19.0258159
 division	Pomorskie	54.2944	18.1531
