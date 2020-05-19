@@ -58,7 +58,7 @@ checkpoint partition_sequences:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/partition-sequences.py \
+        {python:q} scripts/partition-sequences.py \
             --sequences {input.sequences} \
             --sequences-per-group {params.sequences_per_group} \
             --output-dir {output.split_sequences} 2>&1 | tee {log}
@@ -132,7 +132,7 @@ rule mask:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/mask-alignment.py \
+        {python:q} scripts/mask-alignment.py \
             --alignment {input.alignment} \
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
@@ -210,7 +210,7 @@ rule make_priorities:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/priorities.py --alignment {input.alignment} \
+        {python:q} scripts/priorities.py --alignment {input.alignment} \
             --metadata {input.metadata} \
             --focal-alignment {input.focal_alignment} \
             --output {output.priorities} 2>&1 | tee {log}
@@ -267,7 +267,7 @@ rule subsample_regions:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/combine-and-dedup-fastas.py \
+        {python:q} scripts/combine-and-dedup-fastas.py \
             --input {input} \
             --output {output} 2>&1 | tee {log}
         """
@@ -286,7 +286,7 @@ rule adjust_metadata_regions:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/adjust_regional_meta.py \
+        {python:q} scripts/adjust_regional_meta.py \
             --region "{wildcards.region}" \
             --metadata {input.metadata} \
             --output {output.metadata} 2>&1 | tee {log}
@@ -419,7 +419,7 @@ rule haplotype_status:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/annotate-haplotype-status.py \
+        {python:q} scripts/annotate-haplotype-status.py \
             --ancestral-sequences {input.nt_muts} \
             --reference-node-name {params.reference_node_name:q} \
             --output {output.node_data} 2>&1 | tee {log}
@@ -514,7 +514,7 @@ rule colors:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/assign-colors.py \
+        {python:q} scripts/assign-colors.py \
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
@@ -532,7 +532,7 @@ rule recency:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/construct-recency-from-submission-date.py \
+        {python:q} scripts/construct-recency-from-submission-date.py \
             --metadata {input.metadata} \
             --output {output} 2>&1 | tee {log}
         """
@@ -628,7 +628,7 @@ rule incorporate_travel_history:
     conda: config["conda_environment"]
     shell:
         """
-        python3 ./scripts/modify-tree-according-to-exposure.py \
+        {python:q} ./scripts/modify-tree-according-to-exposure.py \
             --input {input.auspice_json} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -648,7 +648,7 @@ rule fix_colorings:
     conda: config["conda_environment"]
     shell:
         """
-        python scripts/fix-colorings.py \
+        {python:q} scripts/fix-colorings.py \
             --input {input.auspice_json} \
             --output {output.auspice_json} 2>&1 | tee {log}
         """

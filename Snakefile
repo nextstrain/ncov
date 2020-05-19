@@ -6,6 +6,11 @@ from snakemake.utils import validate
 configfile: "config/config.yaml"
 validate(config, schema="schemas/config.schema.yaml")
 
+# In our shell rules, we try to use the same Python executable running
+# Snakemake, if known, by interpolating {python:q}.  The aim is to prevent
+# issues with multiple Python versions or symlinks for python vs. python3.
+python = sys.executable or "python3"
+
 # For information on how to run Nextstrain 'regions' runs, see rules/nextstrain_exports.smk
 # Regions can be defined as a list or a space-delimited string that is converted
 # to a list.
