@@ -1,0 +1,22 @@
+# Define locations for which builds should be created.
+# Builds will be subsampled according to their geographic specificity
+# based on the subsampling definitions below.
+builds:
+  global:
+    geographic_scale: region
+    subsampling_scheme: region_global
+#   north-america:
+#     subsampling_scheme: region
+#   country-usa:
+#     subsampling_scheme: country
+#     geographic_name: usa
+#     geographic_scale: country
+#   USA_washington:
+#     subsampling_scheme: division
+#     geographic_name: washington
+#     geographic_scale: division
+#   washington_king-county:
+#     subsampling_scheme: location
+#     geographic_name: king-county
+#     geographic_scale: location
+

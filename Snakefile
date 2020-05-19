@@ -6,6 +6,15 @@ from snakemake.utils import validate
 configfile: "config/config.yaml"
 validate(config, schema="schemas/config.schema.yaml")
 
+# default build if none specified in config
+if "builds" not in config:
+    config["builds"] = {
+        "global":{
+                    "geographic_scale": "region",
+                    "subsampling_scheme": "region_global",
+                 }
+        }
+
 BUILD_NAMES = list(config["builds"].keys())
 
 # Define patterns we expect for wildcards.
