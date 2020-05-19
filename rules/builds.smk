@@ -507,7 +507,7 @@ rule colors:
         color_schemes = config["files"]["color_schemes"],
         metadata = _get_metadata_by_wildcards
     output:
-        colors = "config/colors_{build_name}.tsv"
+        colors = "results/{build_name}/colors.tsv"
     log:
         "logs/colors_{build_name}.txt"
     conda: config["conda_environment"]
