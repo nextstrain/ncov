@@ -320,7 +320,7 @@ location	Snohomish County
 location	Pierce County
 location	Solano County
 location	Sonoma County
-location	Orange County
+location	Orange County CA
 location	Kirkland
 location	Mason County
 location	Asotin County
@@ -375,7 +375,8 @@ location	Essex County
 location	Camden County
 location	Westchester County
 location	Richmond County
-location	Franklin County
+location	Franklin County NY
+location	Franklin County WA
 location	Suffolk County
 location	Onondaga County
 location	Rockland County
@@ -385,7 +386,8 @@ location	Montgomery County
 location	Ulster County
 location	Cayuga County
 location	Schenectady County
-location	Washington County
+location	Washington County NY
+location	Washington County OR
 location	Albany County
 location	Putnam County
 location	New York City
@@ -403,7 +405,8 @@ location	Winneshiek County
 location	Jackson County
 location	Florida
 location	Miramar
-location	Adams County
+location	Adams County WA
+location	Adams County WI
 location	New Orleans
 location	East Feliciana Parish
 location	Caddo Parish

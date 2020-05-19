@@ -1,6 +1,7 @@
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
-location	Adams County	43.973540	-89.755486
+location	Adams County WI	43.973540	-89.755486
+location	Adams County WA	46.985877	-118.480355
 location	ahmedabad	23.024605	72.570805
 location	Aichi	35.067543	137.334061
 location	Alajuela	10.0159	-84.2142
@@ -123,7 +124,8 @@ location	Florianopolis	-27.581052	-48.481313
 location	Forchies-la-marche	50.435103	4.319844
 location	Foshan	23.018766	113.121428
 location	Franklin	42.882823	-88.009275
-location	Franklin County	44.5926	-74.3388
+location	Franklin County NY	44.5926	-74.3388
+location	Franklin County WA	46.517555, -118.921601
 location	Funza	4.713017	-74.206999
 location	Fuyang	32.904205	115.812367
 location	Garches	48.8461	2.1887
@@ -275,7 +277,7 @@ location	Oisterwijk	51.568179	5.211873
 location	Olleria	38.9146	-0.5506
 location	Oliva	38.9198	-0.1188
 location	Onondaga County	43.0268	-76.1784
-location	Orange County	33.689584	-117.788718
+location	Orange County CA	33.689584	-117.788718
 location	Orange County NY	41.394693	-74.289170
 location	Orsay	48.703347	2.187373
 location	Oss	51.762396	5.530563
@@ -418,7 +420,8 @@ location	Villavicencio	4.134000	-73.623483
 location	Villerot	50.485709	3.791108
 location	Wandre	50.667253	5.661576
 location	Wasco County	45.145543	-121.204409
-location	Washington County	43.303560	-73.428260
+location	Washington County NY	43.303560	-73.428260
+location	Washington County OR	45.544427	-123.010435
 location	Wasilla	61.579538	-149.468390
 location	Wauwatosa	43.054646	-88.039969
 location	Webster Parish	32.726688	-93.341411
