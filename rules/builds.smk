@@ -175,7 +175,6 @@ def get_priority_argument(wildcards):
 
 def _get_specific_subsampling_setting(setting, optional=False):
     def _get_setting(wildcards):
-        subsampling_scheme = _get_subsampling_scheme_by_build_name(wildcards.build_name)
         geographic_name = _get_geographic_name_by_build_name(wildcards.build_name)
         geographic_scale = _get_geographic_scale_by_build_name(wildcards.build_name)
 
