@@ -121,9 +121,10 @@ exposure:
 # Define locations for which builds should be created.
 # Builds will be subsampled according to their geographic specificity
 # based on the subsampling definitions below.
-# builds:
-#   global:
-#     subsampling_scheme: region_global
+builds:
+  global:
+    geographic_scale: region
+    subsampling_scheme: region_global
 #   north-america:
 #     subsampling_scheme: region
 #   country-usa:
