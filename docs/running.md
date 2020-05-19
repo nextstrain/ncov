@@ -90,10 +90,85 @@ For the purposes of this tutorial, we provide this default profile that you can 
 ## Configuring your build
 
 The default build is parameterized by a [Snakemake configuration file](https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html) named `config/config.yaml`.
-Inspect this [YAML file](https://yaml.org/) and modify any parameters as needed for your own analyses.
-When you run the default build using the instructions below, the build commands will reflect your changes.
+In most cases, you should not need to modify these parameters.
+Instead, you can define your own analysis and tweak parameters by creating your own profile, more on this below.
 
-If you need to change the default build in a way that isn't represented by the configuration file, [create a new issue in the ncov repository](https://github.com/nextstrain/ncov/issues/new) to let us know.
+To do so, copy `profiles/default` to `profiles/<my-new-profile-name>` and open the `builds.yaml`
+file in this directory.
+This file specifies the analysis you want to run in a data structure called `builds`.
+Each entry has `build_name` which in the example is `global`.
+For each build, you can specify
+
+ - `subsampling_scheme`: specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes can be defined (see below).
+ - `geographic_scale` and `geographic_name`: together, these two define the keys for subsampling. `geographic_name` defaults to `build_name` if not specified.
+
+For our Switzerland specific builds, this looks like this:
+```yaml
+builds:
+  switzerland:
+    subsampling_scheme: country
+    geographic_scale: country
+  basel-stadt:
+    subsampling_scheme: canton
+    geographic_scale: division
+  ticino:
+    subsampling_scheme: canton
+    geographic_scale: division
+  lac-leman:
+    subsampling_scheme: lac-leman
+    geographic_scale: composite
+```
+These subsampling schemes for the cantons and the composite region `lac-leman` are
+not one our default scheme but custom ones.
+
+### Custom subsampling schemes
+Each subsampling scheme consists of multiple samples that typically refer
+to samples at different levels of geographic scale.
+For canton's this looks like this:
+```yaml
+subsampling:
+  # Default subsampling logic for divisions
+  canton:
+    # Focal samples for division
+    division:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}'"
+    # Contextual samples from division's country
+    country:
+      group_by: "division year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division={{division}}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+    # Contextual samples from division's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+    # Contextual samples from the rest of the world, excluding the current
+    # division to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 5
+      exclude: "--exclude-where 'region={{region}}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+```
+All entries above canton level specify priorities. Currently, we have only implemented
+one type of priority called `proximity`.
+It attempts to selected sequences as close as possible to the focal samples
+specified as `focus: division`.
+
+If you need parameters in a way that isn't represented by the configuration file, [create a new issue in the ncov repository](https://github.com/nextstrain/ncov/issues/new) to let us know.
+
+
+
 
 ## Running the default build
 

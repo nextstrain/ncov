@@ -28,7 +28,6 @@ builds:
     geographic_scale: composite
 
 subsampling:
-
   # Default subsampling logic for countries
   switzerland:
     # Focal samples for country

@@ -100,22 +100,10 @@ traits:
     sampling_bias_correction: 2.5
     columns: ["region"]
 
-  north-america:
-    sampling_bias_correction: 2.5
-    columns: ["country_exposure", "division_exposure"]
-
 exposure:
   default:
     trait: "country"
     exposure: "country_exposure"
-
-  north-america:
-    trait: "division"
-    exposure: "division_exposure"
-
-  oceania:
-    trait: "division"
-    exposure: "division_exposure"
 
 
 # Subsampling definitions by type of geographic location. Individual location

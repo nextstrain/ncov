@@ -7,7 +7,8 @@ builds:
     subsampling_scheme: region_global
 #   north-america:
 #     subsampling_scheme: region
-#   country-usa:
+#     geographic_scale: region
+#   usa:
 #     subsampling_scheme: country
 #     geographic_name: usa
 #     geographic_scale: country
