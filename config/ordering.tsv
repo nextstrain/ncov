@@ -223,7 +223,9 @@ location	Milan
 location	Verona
 location	L'Aquila
 location	Teramo
+location	Grau de Sagunt
 location	Valencia
+location	Valencia Horta
 location	Beniganim
 location	Llutxent
 location	Tavernes de la Valldigna
@@ -261,6 +263,7 @@ location	Palmira
 location	Togui
 location	Soacha
 location	Madrid CO
+location	Meta
 location	Zipaquira
 location	Santa Sofia
 location	Ipiales
@@ -958,6 +961,7 @@ division	Brazil
 division	Santiago
 division	Talca
 division	Sao Paulo
+division	Villavicencio
 division	Espirito Santo
 division	Bahia
 division	Goiais
