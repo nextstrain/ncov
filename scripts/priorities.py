@@ -27,7 +27,7 @@ def compactify_sequences(sparse_matrix, sequence_names):
 INITIALISATION_LENGTH = 1000000
 
 def sequence_to_int_array(s, fill_value=110):
-    seq = np.frombuffer(s.lower().encode('utf-8'), dtype=np.int8).copy()
+    seq = np.frombuffer(str(s).lower().encode('utf-8'), dtype=np.int8).copy()
     seq[(seq!=97) & (seq!=99) & (seq!=103) & (seq!=116)] = fill_value
     return seq
 
