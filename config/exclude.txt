@@ -685,3 +685,10 @@ USA/AK-PHL180/2020
 
 #Seems pretty divergent with about 30 mutations
 Colombia/GVI-97181/2020
+
+# These early Wuhan seem very divergent, and have a cluster of mutations all together. Excluding for now, but may choose to re-include later 
+Wuhan/WHUH006/2020
+Wuhan/WHUH005/2020
+Wuhan/WHUH004/2020
+Wuhan/WHUH003/2020
+Wuhan/WHUH008/2020
