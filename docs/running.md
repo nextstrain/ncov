@@ -185,6 +185,8 @@ traits:
     columns: ["country_exposure", "division_exposure"]
 ```
 This would define settings for the rules `traits` and `exposure` that deviate from the default settings.
+Currently such build specific parameters are supported for `traits`, `exposure`, and `subsampling`.
+We are working on generalizing our workflow further.
 
 ## Running the default build
 
