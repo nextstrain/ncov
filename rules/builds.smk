@@ -601,7 +601,7 @@ rule export:
         metadata = _get_metadata_by_wildcards,
         node_data = _get_node_data_by_wildcards,
         auspice_config = config["files"]["auspice_config"],
-        colors = rules.colors.output.colors,
+        colors = lambda w: config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w),
         lat_longs = config["files"]["lat_longs"],
         description = config["files"]["description"]
     output:
@@ -630,7 +630,7 @@ rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
         auspice_json = rules.export.output.auspice_json,
-        colors = rules.colors.output.colors,
+        colors = lambda w: config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w),
         lat_longs = config["files"]["lat_longs"]
     params:
         sampling = _get_sampling_trait_for_wildcards,
