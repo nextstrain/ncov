@@ -123,12 +123,12 @@ subsampling:
     region:
       group_by: "division year month"
       seq_per_group: 30
-      exclude: "--exclude-where 'region!={{region}}'"
+      exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'region={{region}}'"
+      exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "region"
@@ -139,12 +139,12 @@ subsampling:
     country:
       group_by: "division year month"
       seq_per_group: 200
-      exclude: "--exclude-where 'country!={{country}}'"
+      exclude: "--exclude-where 'country!={country}'"
     # Contextual samples from country's region
     region:
       group_by: "country year month"
       seq_per_group: 20
-      exclude: "--exclude-where 'country={{country}}' 'region!={{region}}'"
+      exclude: "--exclude-where 'country={country}' 'region!={region}'"
       priorities:
         type: "proximity"
         focus: "country"
@@ -153,7 +153,7 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'region={{region}}'"
+      exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "country"
@@ -164,12 +164,12 @@ subsampling:
     division:
       group_by: "year month"
       seq_per_group: 300
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}'"
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
     # Contextual samples from division's country
     country:
       group_by: "division year month"
       seq_per_group: 20
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division={{division}}'"
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
       priorities:
         type: "proximity"
         focus: "division"
@@ -177,7 +177,7 @@ subsampling:
     region:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}'"
+      exclude: "--exclude-where 'region!={region}' 'country={country}'"
       priorities:
         type: "proximity"
         focus: "division"
@@ -186,7 +186,7 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 5
-      exclude: "--exclude-where 'region={{region}}'"
+      exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "division"
@@ -197,12 +197,12 @@ subsampling:
     focal:
       group_by: "year month"
       seq_per_group: 300
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}' 'location!={{location}}'"
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}' 'location!={location}'"
     # Samples that are genetically related to the focal samples
     related:
       group_by: "country year month"
       seq_per_group: 20
-      exclude: "--exclude-where 'location={{location}}'"
+      exclude: "--exclude-where 'location={location}'"
       priorities:
         type: "proximity"
         focus: "focal"
@@ -210,4 +210,4 @@ subsampling:
     contextual:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'location={{location}}'"
+      exclude: "--exclude-where 'location={location}'"

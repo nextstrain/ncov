@@ -11,21 +11,27 @@ builds:
   africa:
     subsampling_scheme: region
     geographic_scale: region
+    region: Africa
   asia:
     subsampling_scheme: region
     geographic_scale: region
+    region: Asia
   europe:
     subsampling_scheme: region
     geographic_scale: region
+    region: Europe
   north-america:
     subsampling_scheme: region
     geographic_scale: region
+    region: North America
   oceania:
     subsampling_scheme: region
     geographic_scale: region
+    region: Oceania
   south-america:
     subsampling_scheme: region
     geographic_scale: region
+    region: South America
 
 # if different exposure traits should be used for some builds, specify here
 # otherwise the default exposure in config/config.yaml will used

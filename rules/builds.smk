@@ -175,27 +175,22 @@ def get_priority_argument(wildcards):
 
 def _get_specific_subsampling_setting(setting, optional=False):
     def _get_setting(wildcards):
-        geographic_name = _get_geographic_name_by_build_name(wildcards.build_name)
-        geographic_scale = _get_geographic_scale_by_build_name(wildcards.build_name)
-
         if optional:
             value = _get_subsampling_settings(wildcards).get(setting, "")
         else:
             value = _get_subsampling_settings(wildcards)[setting]
 
         if isinstance(value, str):
-            value = value.format(**wildcards)
+            # Load build attributes including geographic details about the
+            # build's region, country, division, etc. as needed for subsampling.
+            build = config["builds"][wildcards.build_name]
+            value = value.format(**build)
         else:
             return value
 
-        if ("geo_hierarchy" in config
-            and geographic_scale in config["geo_hierarchy"]
-            and geographic_name in config["geo_hierarchy"][geographic_scale]):
-            value = value.format(**config["geo_hierarchy"][geographic_scale][geographic_name])
-
         # Check format strings that haven't been resolved.
         if re.search(r'\{.+\}', value):
-            raise Exception(f"The parameters for the subsampling scheme '{wildcards.subsample}' require expansion from the geo hierarchy but it is not defined: '{value}'. Check that the build params define the correct geographic name and scale, and that these are present in the `geo_hierarchy`")
+            raise Exception(f"The parameters for the subsampling scheme '{wildcards.subsample}' of build '{wildcards.build_name}' reference build attributes that are not defined in the configuration file: '{value}'. Add these build attributes to the appropriate configuration file and try again.")
 
         return value
 
@@ -299,15 +294,14 @@ rule adjust_metadata_regions:
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv"
     params:
-        geographic_scale = lambda wildcards: _get_geographic_scale_by_build_name(wildcards.build_name),
-        geographic_name = lambda wildcards: _get_geographic_name_by_build_name(wildcards.build_name)
+        region = lambda wildcards: config["builds"][wildcards.build_name]["region"]
     log:
         "logs/adjust_metadata_regions_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/adjust_regional_meta.py \
-            --{params.geographic_scale} {params.geographic_name:q} \
+            --region {params.region:q} \
             --metadata {input.metadata} \
             --output {output.metadata} 2>&1 | tee {log}
         """
