@@ -122,14 +122,16 @@ These subsampling schemes for the cantons and the composite region `lac-leman` a
 not one our default scheme but custom ones.
 
 ### Custom subsampling schemes
-Each subsampling scheme consists of multiple samples that typically refer
-to samples at different levels of geographic scale.
+We implement hierarchical subsampling by producing multiple samples at different geographic scales
+and merge these samples into one file for further analysis.
+A build can specify any number of such samples which can be flexibly restricted to particular
+meta data fields and subsampled from groups with particular properties.
 For canton's this looks like this:
 ```yaml
 subsampling:
   # Default subsampling logic for divisions
   canton:
-    # Focal samples for division
+    # Focal samples for division (only samples from a specifed division with 300 seqs per month)
     division:
       group_by: "year month"
       seq_per_group: 300
@@ -167,8 +169,22 @@ specified as `focus: division`.
 
 If you need parameters in a way that isn't represented by the configuration file, [create a new issue in the ncov repository](https://github.com/nextstrain/ncov/issues/new) to let us know.
 
+### Additional build-specific configuration
+We currently allow for build-specific trait reconstruction and decoration with travel exposure traits.
+The default configuration for these steps sits in `config/config.yaml` and can be overridden
+by build specific settings by adding blocks like the following to the `builds.yaml` of your profile:
+```yaml
+exposure:
+  north-america:
+    trait: "division"
+    exposure: "division_exposure"
 
-
+traits:
+  north-america:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure", "division_exposure"]
+```
+This would define settings for the rules `traits` and `exposure` that deviate from the default settings.
 
 ## Running the default build
 
