@@ -30,6 +30,10 @@ builds:
 # if different exposure traits should be used for some builds, specify here
 # otherwise the default exposure in config/config.yaml will used
 exposure:
+  global:
+    trait: "region"
+    exposure: "region_exposure"
+
   north-america:
     trait: "division"
     exposure: "division_exposure"
@@ -41,6 +45,9 @@ exposure:
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in config/config.yaml will used
 traits:
+  global:
+    sampling_bias_correction: 2.5
+    columns: ["region", "region_exposure"]
   north-america:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure", "division_exposure"]
+    columns: ["region", "country_exposure", "division_exposure"]

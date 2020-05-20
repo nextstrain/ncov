@@ -82,10 +82,11 @@
   "geo_resolutions": [
     "location",
     "division",
-    "country"
+    "country",
+    "region"
   ],
   "display_defaults": {
-    "color_by": "country",
+    "color_by": "region",
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,
