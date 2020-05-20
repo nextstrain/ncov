@@ -87,6 +87,7 @@ location	Riyadh
 location	Hawali
 location	Dasman
 location	Ulan-Ude
+location	Kipen
 location	Bela - Ledec na Sazavou
 location	Ischgl
 location	Innsbruck
@@ -357,6 +358,7 @@ location	Benton County
 location	Kittitas County
 location	Seattle
 location	Los Angeles
+location	San Francisco County
 location	California
 location	Columbus
 location	Cincinnati
@@ -601,6 +603,7 @@ division	Surabaya
 division	India
 division	Bangladesh
 division	Australia
+division	South Australia
 division	Queensland
 division	Northern Territory
 division	New South Wales
@@ -639,6 +642,7 @@ division	Russia
 division	Saint-Petersburg
 division	Moscow
 division	Moscow Region
+division	Leningrad Region
 division	Chelyabinsk Region
 division	Krasnodar Region
 division	Krasnoyarsk Region
