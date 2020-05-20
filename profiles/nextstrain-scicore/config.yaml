@@ -2,7 +2,6 @@ configfile:
   - config/config.yaml
   - profiles/nextstrain/builds.yaml
   - config/geo_hierarchy.json
-  - profiles/nextstrain-scicore/scicore-config.yaml
 
 keep-going: True
 printshellcmds: True
