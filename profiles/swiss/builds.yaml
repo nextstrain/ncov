@@ -124,3 +124,5 @@ subsampling:
         type: "proximity"
         focus: "country"
 
+files:
+  colors: "profiles/swiss/colors.tsv"
