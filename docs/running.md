@@ -116,10 +116,11 @@ builds:
     geographic_scale: division
   lac-leman:
     subsampling_scheme: lac-leman
-    geographic_scale: composite
+    geographic_scale: division
 ```
 These subsampling schemes for the cantons and the composite region `lac-leman` are
 not one our default scheme but custom ones.
+
 
 ### Custom subsampling schemes
 We implement hierarchical subsampling by producing multiple samples at different geographic scales
@@ -166,6 +167,7 @@ All entries above canton level specify priorities. Currently, we have only imple
 one type of priority called `proximity`.
 It attempts to selected sequences as close as possible to the focal samples
 specified as `focus: division`.
+The argument of the latter has to match the name of one of the other subsamples.
 
 If you need parameters in a way that isn't represented by the configuration file, [create a new issue in the ncov repository](https://github.com/nextstrain/ncov/issues/new) to let us know.
 
