@@ -26,6 +26,8 @@ location	Bassilly	50.675907	3.933169
 location	Bayside	43.1806	-87.9006
 location	Beijing	40.071320	116.406908
 location	Bela - Ledec na Sazavou	49.693369	15.277533
+location	Belleville	42.863312	-89.535472
+location	Beloit	42.519007	-89.018844
 location	Beniganim	38.9431	-0.4439
 location	Benirredra	38.9612	-0.1928
 location	Benton County	36.2662	-94.4800
@@ -33,6 +35,7 @@ location	Bergen County	40.9263	-74.0770
 location	Berlicum	51.6789	5.4012
 location	Bienville Parish	32.340169	-93.050187
 location	Bierset	50.656953	5.454009
+location	Blanchardville	42.809498	-89.860021
 location	Blandain	50.624503	3.303954
 location	Blaricum	52.2727	5.2481
 location	Bonrepos i Mirambell	39.5178	-0.3647
@@ -68,6 +71,7 @@ location	Chenango County	42.4972	-75.6208
 location	Chengdu	30.640989	104.067518
 location	Chía	4.865442	-74.052806
 location	Chicago	41.858966	-87.637242
+location	Chippewa Falls	44.931261	-91.389704
 location	Choconta	5.146017	-73.683678
 location	Chongqing	29.858721	107.375623
 location	Chungcheongnam	36.685948	126.799198
@@ -82,8 +86,10 @@ location	Columbus	39.973143	-82.993618
 location	Compiègne	49.408175	2.842839
 location	Contamines	45.820585	6.727730
 location	Cork	51.899	-8.460
+location	Cottage Grove	43.090480	-89.205111
 location	Couillet	50.391184	4.459113
 location	Crépy en Valois	49.234399	2.888491
+location	Cross Plains	43.115305	-89.646827
 location	Crouy en Thelle	49.213817	2.320688
 location	Cúcuta	7.904674	-72.506484
 location	Cudahy	42.946879	-87.861992
@@ -94,6 +100,7 @@ location	Dane county	43.0186	-89.5498
 location	Darjeeling	27.028909	88.260898
 location	Dasman	29.386491	47.999895
 location	Davis	38.5449	121.7405
+location	DeForest	43.244858	-89.351873
 location	Delft	52.0116	4.3571
 location	Derbyshire	53.142893	-1.611670
 location	Dhansura	23.3498	73.2087
@@ -121,6 +128,7 @@ location	Fairbanks	64.835015	-147.664888
 location	Fairfield County	41.2560	-73.3709
 location	Fayette County	42.9258	-91.9099
 location	Feira de Santana	-12.2598	-38.9675
+location	Fitchburg	42.986206	-89.426696
 location	Florida	27.6648	-81.5158
 location	Florianopolis	-27.581052	-48.481313
 location	Forchies-la-marche	50.435103	4.319844
@@ -167,7 +175,9 @@ location	Heinsberg District	51.0499	6.1163
 location	Heredia	9.9981	-84.1198
 location	Heverlee	50.861704	4.695889
 location	Helmond	51.4793	5.6570
+location	Hillpoint	43.423267	-90.113371
 location	Himatnagar	23.5969	72.9630
+location	Holy Cross	43.469964	-87.900967
 location	Hong Kong	22.3964	114.1095
 location	Houston	29.813606	-95.415223
 location	Houten	52.0278	5.1630
@@ -188,6 +198,7 @@ location	Itagui	6.174822	-75.607579
 location	Jackson	43.325508	-88.167662
 location	Jackson County	44.310891	-90.788896
 location	Jamundi	3.260158	-76.539750
+location	Janesville	42.691211	-89.014160
 location	Jefferson County	44.063938	-75.903794
 location	Jemappes	50.446399	3.898191
 location	Jian	27.0876	114.9647
@@ -230,11 +241,13 @@ location	Luxembourg	49.607806	6.130375
 location	Lyon	45.757870	4.841293
 location	Maceio	-9.586654	-35.721537
 location	Macon	46.299425	4.822063
+location	Madison	43.062839	-89.448317
 location	Madrid CO	4.734291	-74.262272
 location	Manaus	-3.126424	-60.019807
 location	Manhattan	40.778542	-73.969920
 location	mansa	23.428814	72.656249
 location	Marin County	38.077277	-122.719060
+location	Marshall	43.167355	-89.066568
 location	Mason County	47.4251	-123.1951
 location	Mat-Su	61.382704	-150.251175
 location	Matrei am Brenner	47.128405	11.452845
@@ -244,19 +257,23 @@ location	Meliana	39.5286	-0.3478
 location	Mequon	43.226666	-87.973033
 location	Meta	3.297576	-73.053515
 location	Meudon la Forêt	48.787126	2.227098
+location	Middleton	43.105596	-89.509368
 location	Milan	45.474	9.177
 location	Milwaukee	43.058555	-87.923530
 location	Miramar	25.9861	-80.3036
 location	Modasa	23.4643	73.2988
+location	Monona	43.056000	-89.330773
 location	Monroe County	43.940837	-90.605424
 location	Monteria	8.747483	-75.880941
 location	Montgomery County	42.9155	-74.4526
 location	Montigny le Bretonneux	48.7739	2.0360
 location	Montignies-Sur-Sambre	50.401302	4.478466
 location	Montreux-Chateau	47.607677	6.994181
+location	Mount Horeb	43.008707	-89.730497
 location	Moussy Le Neuf	49.065806	2.601697
 location	Multnomah County	45.517630	-122.536942
 location	Munich	48.155742	11.549380
+location	Muscoda	43.189115	-90.439704
 location	Naarden	52.2953	5.1604
 location	Nanchang	28.707143	115.874137
 location	Nancy	48.6921	6.1844
@@ -283,6 +300,7 @@ location	Oliva	38.9198	-0.1188
 location	Onondaga County	43.0268	-76.1784
 location	Orange County CA	33.689584	-117.788718
 location	Orange County NY	41.394693	-74.289170
+location	Oregon WI	42.927835	-89.380569
 location	Orsay	48.703347	2.187373
 location	Oss	51.762396	5.530563
 location	Pacho	5.135952	-74.156902
@@ -315,6 +333,7 @@ location	Racine	42.721147	-87.800333
 location	Ramsau im Zillertal	47.203746	11.876947
 location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
+location	Richland Center	43.339975	-90.385959
 location	Richmond County	40.5795	-74.1502
 location	Rio de Janeiro	-22.89445	-43.2099
 location	River Hills	43.1742	-87.9243
@@ -374,13 +393,16 @@ location	South Yorkshire	53.476171	-1.327867
 location	Southeast Alaska	57.011818	-133.720144
 location	Southeast Queensland	-27.478427	152.687047
 location	Spicheren	49.192118	6.967399
+location	Spring Green	43.177689	-90.069216
 location	St. Anton	47.121254	10.265750
 location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
 location	Steinach am Brenner	47.090272	11.472902
+location	Stoughton	42.922770	-89.225062
 location	Strasbourg	48.5734	7.7521
 location	Strass im Zillertal	47.397430	11.820402
 location	Suffolk County	40.9849	-72.6151
+location	Sun Prarie	43.185544	-89.230804
 location	Sunshine Coast	-26.6500	153.0667
 location	Surat	21.166995	72.824307
 location	Suzhou	31.289911	120.538521
@@ -401,6 +423,7 @@ location	Tierralta	8.171825	-76.060340
 location	Tilburg	51.571419	5.052759
 location	Togui	5.937829	-73.513494
 location	Tokyo	35.683441	139.766131
+location	Tomah	43.988774	-90.502952
 location	Tours	47.404471	0.693908
 location	Trazegnies	50.466074	4.334811
 location	Trempealeau County	44.2398	-91.3662
@@ -428,6 +451,7 @@ location	Wasco County	45.145543	-121.204409
 location	Washington County NY	43.303560	-73.428260
 location	Washington County OR	45.544427	-123.010435
 location	Wasilla	61.579538	-149.468390
+location	Waunakee	43.185210	-89.446208
 location	Wauwatosa	43.054646	-88.039969
 location	Webster Parish	32.726688	-93.341411
 location	Westchester County	41.1220	-73.7949
