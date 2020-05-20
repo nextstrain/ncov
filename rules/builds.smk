@@ -191,9 +191,13 @@ def _get_specific_subsampling_setting(setting, optional=False):
         if ("geo_hierarchy" in config
             and geographic_scale in config["geo_hierarchy"]
             and geographic_name in config["geo_hierarchy"][geographic_scale]):
-            return value.format(**config["geo_hierarchy"][geographic_scale][geographic_name])
-        else:
-            return value
+            value = value.format(**config["geo_hierarchy"][geographic_scale][geographic_name])
+
+        # Check format strings that haven't been resolved.
+        if re.search(r'\{.+\}', value):
+            raise Exception(f"The parameters for the subsampling scheme '{wildcards.subsample}' require expansion from the geo hierarchy but it is not defined: '{value}'. Check that the build params define the correct geographic name and scale, and that these are present in the `geo_hierarchy`")
+
+        return value
 
     return _get_setting
 
