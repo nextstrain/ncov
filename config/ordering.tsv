@@ -221,7 +221,7 @@ location	Starnberg
 location	Strasbourg
 location	Rome
 location	Milan
-location	Verona
+location	Verona IT
 location	L'Aquila
 location	Teramo
 location	Grau de Sagunt
@@ -360,7 +360,8 @@ location	Seattle
 location	Los Angeles
 location	San Francisco County
 location	California
-location	Columbus
+location	Columbus OH
+location	Columbus WI
 location	Cincinnati
 location	Ketchikan
 location	Fairbanks
@@ -398,6 +399,7 @@ location	Orange County NY
 location	Manhattan
 location	Nassau County
 location	Brooklyn
+location	Brooklyn NY
 location	Queens
 location	Staten Island
 location	Bronx
@@ -426,7 +428,9 @@ location	Fairfield County
 location	Bergen County
 location	Clinton County
 location	Broome County
-location	Jefferson County
+location	Jefferson County WA
+location	Jefferson County WI
+location	Verona WI
 location	Dutchess County
 location	Passaic County
 location	Monroe County
