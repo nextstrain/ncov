@@ -81,6 +81,7 @@ location	Clayton	-37.915200	145.127165
 location	Clinton County	44.703277	-73.705166
 location	Coevorden	52.6614	6.7411
 location	Colombes	48.9221	2.2533
+location	Colorado Springs	38.8339	-104.8214
 location	Columbia County	45.956622	-123.082332
 location	Columbus	39.973143	-82.993618
 location	Compiègne	49.408175	2.842839
@@ -227,6 +228,7 @@ location	L'Aquila	42.360082	13.391087
 location	La Crosse County	43.8617	-91.1353
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
+location	Lanaudière	46.76678	-73.83248
 location	Le Pecq	48.8973	2.1064
 location	Leuven	50.880674	4.700109
 location	Levallois-Perret	48.8932	2.2879
@@ -265,6 +267,7 @@ location	Miramar	25.9861	-80.3036
 location	Modasa	23.4643	73.2988
 location	Monona	43.056000	-89.330773
 location	Monroe County	43.940837	-90.605424
+location	Montérégie	45.3872317844	-73.1007662636
 location	Monteria	8.747483	-75.880941
 location	Montgomery County	42.9155	-74.4526
 location	Montigny le Bretonneux	48.7739	2.0360
@@ -586,6 +589,7 @@ division	Centre-Val de Loire	47.481221	1.698793
 division	Cesar	9.654915	-73.528255
 division	Chaineux	50.6317	5.8344
 division	Charleroi	50.418039	4.440646
+division	Chattogram	22.3569	91.7832
 division	Chechen Republic	43.4023	45.7187
 division	Chelyabinsk Region	54.4319	60.8789
 division	Chiapas	16.520858	-92.643133
@@ -793,6 +797,7 @@ division	Liège	50.6326	5.5797
 division	Lima	-11.971424	-77.070229
 division	Limburg	51.230477	5.956744
 division	Limerick	52.662235	-8.627565
+division	Limpopo	-23.4013	29.4179
 division	Linter	50.818098	5.042221
 division	Lipetsk Region	52.5265	39.2032
 division	Lisbon	38.7223	-9.1393
@@ -838,6 +843,7 @@ division	Montigny-le-Tilleul	50.374917	4.371814
 division	Moscow	55.7558	37.6173
 division	Moscow Region	55.3404	38.2918
 division	Mouscron	50.738645	3.23861
+division	Mpumalanga	-25.5653	30.5279
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
 division	Myanmar	20.600856	96.287616
@@ -1049,6 +1055,7 @@ division	Tolima	4.065944	-75.215716
 division	Touba	14.856713	-15.87911
 division	Toulouse	43.597198	1.431465
 division	Tournai	50.615852	3.400822
+division	Trondheim	63.4305	10.3951
 division	Tubize	50.687041	4.193545
 division	Turkey	39	35
 division	Tver Region	57.0022	33.9853
@@ -1098,6 +1105,7 @@ division	West Coast Region	13.2229	16.582
 division	Western Australia	-27.055937	122.236663
 division	Wevelgem	50.832135	3.174228
 division	Wicklow	52.9808	-6.0446
+division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762
 division	Wyoming	43.076	-107.2903
 division	Yunnan	24.556297	101.36621

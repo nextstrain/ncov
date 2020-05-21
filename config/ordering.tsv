@@ -447,6 +447,7 @@ location	East Baton Rouge Parish
 location	Livingston Parish
 location	Iberville Parish
 location	Pittsburgh
+location	Colorado Springs
 location	Fayette County
 location	Thiensville
 location	Racine
@@ -482,6 +483,8 @@ location	Columbia County
 location	Multnomah County
 location	Wasco County
 location	Accra
+location	Montérégie
+location	Lanaudière
 
 
 
@@ -527,6 +530,7 @@ division	Gyeonggi
 division	Chungcheongnam
 division	Seoul
 division	South Korea
+division	Chattogram
 division	Nepal
 division	Kathmandu
 division	Sri Lanka
@@ -671,6 +675,7 @@ division	Bucharest
 division	Constanta
 division	Brasov
 division	Poland
+division	Wielkopolskie
 division	Dolnoslaskie
 division	Belarus
 division	Estonia
@@ -684,6 +689,7 @@ division	Lithuania
 division	Vilnius
 division	Norway
 division	Oslo
+division	Trondheim
 division	Istria
 division	Serbia
 division	Kraljevo
@@ -965,6 +971,8 @@ division	South Africa
 division	Eastern Cape
 division	KwaZulu-Natal
 division	Gauteng
+division	Mpumalanga
+division	Limpopo
 division	Greater Accra
 division	West Coast Region
 division	Mbour
