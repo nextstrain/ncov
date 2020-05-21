@@ -1,6 +1,7 @@
 configfile:
   - config/config.yaml
   - profiles/nextstrain/builds.yaml
+  - profiles/nextstrain-scicore/scicore-config.yaml
 
 keep-going: True
 printshellcmds: True
@@ -8,7 +9,7 @@ stats: stats.json
 
 # Wait a fixed number of seconds for missing files since the cluster file system
 # can be quite slow and the workflow can fail unnecessarily due to this latency.
-latency-wait: 10
+latency-wait: 60
 
 # Cluster-specific settings for resources required by any rule. This file
 # provides default resources for all rules and allows users to specify resources
