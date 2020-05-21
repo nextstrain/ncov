@@ -58,6 +58,11 @@ location	Surat
 location	Gandhinagar
 location	Mansa
 location	Kolkata
+location	Modasa
+location	Dhansura
+location	Dahegam
+location	Prantij
+location	Himatnagar
 location	East Medinipur
 location	South 24 Parganas
 location	Howrah
@@ -66,6 +71,9 @@ location	Darjeeling
 location	Singapore
 location	Gold Coast
 location	Sydney
+location	Southeast Queensland
+location	Northern Queensland
+location	Cairns
 location	Tweed Heads
 location	Perth
 location	Sunshine Coast
@@ -79,6 +87,7 @@ location	Riyadh
 location	Hawali
 location	Dasman
 location	Ulan-Ude
+location	Kipen
 location	Bela - Ledec na Sazavou
 location	Ischgl
 location	Innsbruck
@@ -144,7 +153,6 @@ location	Montigny le Bretonneux
 location	Dijon
 location	Ploudalmezeau
 location	Ham sous Varsberg
-location	Asnieres sur Seine
 location	Cergy
 location	Guyancourt
 location	Chalon sur Saone
@@ -213,10 +221,33 @@ location	Starnberg
 location	Strasbourg
 location	Rome
 location	Milan
-location	Verona
+location	Verona IT
 location	L'Aquila
 location	Teramo
+location	Grau de Sagunt
 location	Valencia
+location	Valencia Horta
+location	Beniganim
+location	Llutxent
+location	Tavernes de la Valldigna
+location	Gandia
+location	Palma de Gandia
+location	Sagunt
+location	Segorbe
+location	Pala de Gandia
+location	El Puig
+location	Elda
+location	Olleria
+location	Canet d'en Berenguer
+location	Bonrepos i Mirambell
+location	Alboraya
+location	Meliana
+location	Gilet
+location	Albuixech
+location	Xeraco
+location	Oliva
+location	Puzol
+location	Benirredra
 location	Luxembourg
 location	England
 location	South Yorkshire
@@ -228,6 +259,44 @@ location	Nottinghamshire
 location	Cardiff
 location	Rovaniemi
 location	Jönköping
+location	Anserma
+location	Palmira
+location	Togui
+location	Soacha
+location	Madrid CO
+location	Meta
+location	Zipaquira
+location	Santa Sofia
+location	Ipiales
+location	Quibdo
+location	Pereira
+location	Neiva
+location	Funza
+location	Cali
+location	Buga
+location	Ibague
+location	Medellin
+location	Dosquebradas
+location	Envigado
+location	Itagui
+location	Sabaneta
+location	Choconta
+location	Tulua
+location	Santa Marta
+location	Trujillo
+location	Andalucia
+location	Jamundi
+location	El cerrito
+location	Santana
+location	Pacho
+location	Tierralta
+location	Monteria
+location	Valledupar
+location	Cajica
+location	Cúcuta
+location	Villavicencio
+location	Chía
+location	Yumbo
 location	Sao Paulo
 location	Brasilia
 location	Rio de Janeiro
@@ -248,6 +317,30 @@ location	Cartago
 location	San Juan
 location	Heredia
 location	La Crosse County
+location	Stoughton
+location	Beloit
+location	Belleville
+location	Marshall
+location	Muscoda
+location	Blanchardville
+location	Tomah
+location	Janesville
+location	Holy Cross
+location	Hillpoint
+location	Richland Center
+location	Oregon WI
+location	Cottage Grove
+location	Cross Plains
+location	DeForest
+location	Madison
+location	Chippewa Falls
+location	Monona
+location	Mount Horeb
+location	Sun Prarie
+location	Fitchburg
+location	Waunakee
+location	Spring Green
+location	Middleton
 location	King County
 location	Whatcom County
 location	Yakima County
@@ -257,7 +350,7 @@ location	Snohomish County
 location	Pierce County
 location	Solano County
 location	Sonoma County
-location	Orange County
+location	Orange County CA
 location	Kirkland
 location	Mason County
 location	Asotin County
@@ -265,8 +358,10 @@ location	Benton County
 location	Kittitas County
 location	Seattle
 location	Los Angeles
+location	San Francisco County
 location	California
-location	Columbus
+location	Columbus OH
+location	Columbus WI
 location	Cincinnati
 location	Ketchikan
 location	Fairbanks
@@ -286,6 +381,7 @@ location	Marin County
 location	San Joaquin County
 location	Sacramento County
 location	Santa Clara County
+location	Davis
 location	Grant County
 location	Snohomish County
 location	King County
@@ -298,10 +394,12 @@ location	Indianapolis
 location	Wisconsin
 location	Dane County
 location	Boston
+location	Houston
 location	Orange County NY
 location	Manhattan
 location	Nassau County
 location	Brooklyn
+location	Brooklyn NY
 location	Queens
 location	Staten Island
 location	Bronx
@@ -310,7 +408,8 @@ location	Essex County
 location	Camden County
 location	Westchester County
 location	Richmond County
-location	Franklin County
+location	Franklin County NY
+location	Franklin County WA
 location	Suffolk County
 location	Onondaga County
 location	Rockland County
@@ -320,7 +419,8 @@ location	Montgomery County
 location	Ulster County
 location	Cayuga County
 location	Schenectady County
-location	Washington County
+location	Washington County NY
+location	Washington County OR
 location	Albany County
 location	Putnam County
 location	New York City
@@ -328,7 +428,9 @@ location	Fairfield County
 location	Bergen County
 location	Clinton County
 location	Broome County
-location	Jefferson County
+location	Jefferson County WA
+location	Jefferson County WI
+location	Verona WI
 location	Dutchess County
 location	Passaic County
 location	Monroe County
@@ -337,7 +439,9 @@ location	Allamakee County
 location	Winneshiek County
 location	Jackson County
 location	Florida
-location	Adams County
+location	Miramar
+location	Adams County WA
+location	Adams County WI
 location	New Orleans
 location	East Feliciana Parish
 location	Caddo Parish
@@ -347,6 +451,7 @@ location	East Baton Rouge Parish
 location	Livingston Parish
 location	Iberville Parish
 location	Pittsburgh
+location	Colorado Springs
 location	Fayette County
 location	Thiensville
 location	Racine
@@ -382,6 +487,8 @@ location	Columbia County
 location	Multnomah County
 location	Wasco County
 location	Accra
+location	Montérégie
+location	Lanaudière
 
 
 
@@ -427,6 +534,7 @@ division	Gyeonggi
 division	Chungcheongnam
 division	Seoul
 division	South Korea
+division	Chattogram
 division	Nepal
 division	Kathmandu
 division	Sri Lanka
@@ -492,6 +600,7 @@ division	Cambodia
 division	Sihanoukville
 division	Nonthaburi
 division	Thailand
+division	Phuket
 division	Myanmar
 division	Bangkok
 division	Malaysia
@@ -500,13 +609,16 @@ division	Brunei
 division	Jakarta
 division	Surabaya
 division	India
+division	Bangladesh
 division	Australia
+division	South Australia
 division	Queensland
 division	Northern Territory
 division	New South Wales
 division	Western Australia
 division	Victoria
 division	Wellington
+division	Guam
 division	New Zealand
 division	Otago
 division	Auckland
@@ -515,6 +627,11 @@ division	Saudi Arabia
 division	Riyadh
 division	Qatar
 division	Israel
+division	Tel Aviv District
+division	North District
+division	Jerusalem District
+division	South Coast District
+division	South District
 division	Jordan
 division	Turkey
 division	Styria
@@ -533,6 +650,7 @@ division	Russia
 division	Saint-Petersburg
 division	Moscow
 division	Moscow Region
+division	Leningrad Region
 division	Chelyabinsk Region
 division	Krasnodar Region
 division	Krasnoyarsk Region
@@ -557,7 +675,11 @@ division	Republic of Kabardino-Balkaria
 division	Republic of Crymea
 division	Republic of Tatarstan
 division	Slovenia
+division	Bucharest
+division	Constanta
+division	Brasov
 division	Poland
+division	Wielkopolskie
 division	Dolnoslaskie
 division	Belarus
 division	Estonia
@@ -571,10 +693,12 @@ division	Lithuania
 division	Vilnius
 division	Norway
 division	Oslo
+division	Trondheim
 division	Istria
 division	Serbia
 division	Kraljevo
 division	Novi Pazar
+division	Bucharest
 division	Hungary
 division	Central Hungary
 division	Baranya
@@ -851,6 +975,8 @@ division	South Africa
 division	Eastern Cape
 division	KwaZulu-Natal
 division	Gauteng
+division	Mpumalanga
+division	Limpopo
 division	Greater Accra
 division	West Coast Region
 division	Mbour
@@ -861,11 +987,21 @@ division	Thies
 division	Blida
 division	Boufarik
 division	Chile
+division	Antofagasta
+division	Chillan
+division	Concepcion
+division	Rancagua
+division	Valparaiso
+division	Temuco
+division	Coyhaique
+division	Punta Arenas
+division	Puerto Montt
 division	Ecuador
 division	Brazil
 division	Santiago
 division	Talca
 division	Sao Paulo
+division	Villavicencio
 division	Espirito Santo
 division	Bahia
 division	Goiais
@@ -881,6 +1017,20 @@ division	Rio Negro
 division	Distrito Federal
 division	Uruguay
 division	Colombia
+division	Meta
+division	Caldas
+division	Valle del Cauca
+division	Boyaca
+division	Cundinamarca
+division	Narino
+division	Choco
+division	Huila
+division	Tolima
+division	Risaralda
+division	Magdalena
+division	Cordoba
+division	Cesar
+division	Norte de santander
 division	Amazonas State
 division	Antioquia
 division	Bogota
@@ -920,6 +1070,7 @@ division	New York
 division	New Jersey
 division	Massachusetts
 division	New Hampshire
+division	Vermont
 division	Pennsylvania
 division	Ohio
 division	Indiana
@@ -973,6 +1124,7 @@ country	Malaysia
 country	Singapore
 country	Brunei
 country	Indonesia
+country	Guam
 country	Australia
 country	New Zealand
 country	Saudi Arabia
@@ -989,6 +1141,7 @@ country	Kyrgyzstan
 country	Georgia
 country	Russia
 country	Serbia
+country	Romania
 country	Europe
 country	Latvia
 country	Slovakia
