@@ -21,20 +21,14 @@ if __name__ == '__main__':
     parser.add_argument("--output", type=str, required=True, help="adjusted metadata")
     args = parser.parse_args()
 
-    fix_casing = {
-        "asia": "Asia",
-        "africa": "Africa",
-        "europe": "Europe",
-        "north-america": "North America",
-        "oceania": "Oceania",
-        "south-america": "South America"
-    }
+    region_list = ["Asia", "Africa", "Europe", "North America", "Oceania", "South America"]
 
     metadata = pd.read_csv(args.metadata, delimiter='\t')
 
-    if args.region in fix_casing:
-        focal_region = fix_casing[args.region]
-    else:
+    # if in region list, then do the fixing
+    if args.region in region_list:
+        focal_region = args.region
+    else: # otherwise just write out metadata as is, and proceed
         metadata.to_csv(args.output, index=False, sep="\t")
         exit()
 
