@@ -105,29 +105,55 @@ exposure:
     trait: "country"
     exposure: "country_exposure"
 
-
-# Subsampling definitions by type of geographic location. Individual location
-# defaults can be overridden with custom defaults with a key in the subsampling
-# dictionary following the pattern of "{location_type}_{location_name}". For
-# example, custom subsampling for Iceland could be defined with an entry for
-# "country_iceland".
+# Default subsampling schemes designed for different geographic scales. With the
+# exception of the "global" region, most subsampling schemes define a large
+# focal set of sequences related to a specific geographic entity (e.g., Africa,
+# Switzerland, etc.) and a smaller set of contextual sequences from the rest of
+# the world.
+#
+# Users can control the specificity of subsampling by defining as many
+# subsampling sets as they require. For example, one may wish to include all
+# sequences from California, many contextual sequences from the USA, and a few
+# contextual sequences from the rest of the world.
+#
+# Each build defines its subsampling scheme by specifying a `subsampling_scheme`
+# attribute whose value is the name of an entry in the subsampling configuration
+# below or defined elsewhere in another configuration file.
 subsampling:
   # Default subsampling logic for regions
-  region_global:
-    global:
-      group_by: "division year month"
-      seq_per_group: 10
-
   region:
     # Focal samples for region
     region:
       group_by: "division year month"
-      seq_per_group: 30
+      seq_per_group: 120
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
-      seq_per_group: 10
+      seq_per_group: 12
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
+
+  # Custom subsampling logic for global region.
+  region_global:
+    global:
+      group_by: "division year month"
+      seq_per_group: 18
+
+  # Custom subsampling logic for regions like Europe where grouping by country
+  # is the smallest resolution required.
+  region_grouped_by_country:
+    # Focal samples for region
+    region:
+      group_by: "country year month"
+      seq_per_group: 120
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global:
+      group_by: "country year month"
+      seq_per_group: 12
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"

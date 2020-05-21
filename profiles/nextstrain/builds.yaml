@@ -17,7 +17,7 @@ builds:
     geographic_scale: region
     region: Asia
   europe:
-    subsampling_scheme: region
+    subsampling_scheme: region_grouped_by_country
     geographic_scale: region
     region: Europe
   north-america:
