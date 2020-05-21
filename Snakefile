@@ -6,11 +6,22 @@ from snakemake.utils import validate
 configfile: "config/config.yaml"
 validate(config, schema="schemas/config.schema.yaml")
 
+# default build if none specified in config
+if "builds" not in config:
+    config["builds"] = {
+        "global":{
+                    "geographic_scale": "region",
+                    "subsampling_scheme": "region_global",
+                 }
+        }
+
 BUILD_NAMES = list(config["builds"].keys())
 
 # Define patterns we expect for wildcards.
 wildcard_constraints:
-    build_name = r'(?:[\w-](?!tip-frequencies))+',
+    # Allow build names to contain alpha characters, underscores, and hyphens
+    # but not special strings used for Nextstrain builds.
+    build_name = r'(?:[_a-zA-Z-](?!(tip-frequencies|gisaid|zh)))+',
     date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 localrules: download

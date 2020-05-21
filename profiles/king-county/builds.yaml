@@ -1,0 +1,28 @@
+# Define locations for which builds should be created.
+# For each build we specify a subsampling scheme via an explicit key.
+# If the name of the focal geography differs from the build name this needs to
+# be specified explicity as geographic_name. In addition, we require the
+# geographic scale the build focuses on. Together name and scale serve a look-up
+# in the geo_hierarchy to define region, country, division, etc
+builds:
+  global:
+    subsampling_scheme: region_global
+    geographic_scale: region
+  usa:
+    subsampling_scheme: country
+    geographic_scale: country
+    region: North America
+    country: USA
+  usa_washington:
+    subsampling_scheme: division
+    geographic_scale: division
+    region: North America
+    country: USA
+    division: Washington
+  usa_washington_king-county:
+    subsampling_scheme: location
+    geographic_scale: location
+    region: North America
+    country: USA
+    division: Washington
+    location: King County

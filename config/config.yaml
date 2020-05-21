@@ -43,7 +43,7 @@ filter:
   min_length: 25000
 
   # Omit sequences with incomplete date annotations.
-  exclude_where: "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04'"
+  exclude_where: "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-05-XX' date='2020-06-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04' date='2020-05' date='2020-06'"
 
   # Select a subset of sequences per unique geographic and temporal group.
   # This limits the number of sequences in the base build to prevent long runtimes.
@@ -100,68 +100,61 @@ traits:
     sampling_bias_correction: 2.5
     columns: ["region"]
 
-  north-america:
-    sampling_bias_correction: 2.5
-    columns: ["country_exposure", "division_exposure"]
-
 exposure:
   default:
     trait: "country"
     exposure: "country_exposure"
 
-  north-america:
-    trait: "division"
-    exposure: "division_exposure"
-
-  oceania:
-    trait: "division"
-    exposure: "division_exposure"
-
-
-# Define locations for which builds should be created.
-# Builds will be subsampled according to their geographic specificity
-# based on the subsampling definitions below.
-# builds:
-#   global:
-#     subsampling_scheme: region_global
-#   north-america:
-#     subsampling_scheme: region
-#   country-usa:
-#     subsampling_scheme: country
-#     geographic_name: usa
-#     geographic_scale: country
-#   USA_washington:
-#     subsampling_scheme: division
-#     geographic_name: washington
-#     geographic_scale: division
-#   washington_king-county:
-#     subsampling_scheme: location
-#     geographic_name: king-county
-#     geographic_scale: location
-
-# Subsampling definitions by type of geographic location. Individual location
-# defaults can be overridden with custom defaults with a key in the subsampling
-# dictionary following the pattern of "{location_type}_{location_name}". For
-# example, custom subsampling for Iceland could be defined with an entry for
-# "country_iceland".
+# Default subsampling schemes designed for different geographic scales. With the
+# exception of the "global" region, most subsampling schemes define a large
+# focal set of sequences related to a specific geographic entity (e.g., Africa,
+# Switzerland, etc.) and a smaller set of contextual sequences from the rest of
+# the world.
+#
+# Users can control the specificity of subsampling by defining as many
+# subsampling sets as they require. For example, one may wish to include all
+# sequences from California, many contextual sequences from the USA, and a few
+# contextual sequences from the rest of the world.
+#
+# Each build defines its subsampling scheme by specifying a `subsampling_scheme`
+# attribute whose value is the name of an entry in the subsampling configuration
+# below or defined elsewhere in another configuration file.
 subsampling:
   # Default subsampling logic for regions
-  region_global:
-    global:
-      group_by: "division year month"
-      seq_per_group: 10
-
   region:
     # Focal samples for region
     region:
       group_by: "division year month"
-      seq_per_group: 30
-      exclude: "--exclude-where 'region!={{region}}'"
+      seq_per_group: 120
+      exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
-      seq_per_group: 10
-      exclude: "--exclude-where 'region={{region}}'"
+      seq_per_group: 12
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
+
+  # Custom subsampling logic for global region.
+  region_global:
+    global:
+      group_by: "division year month"
+      seq_per_group: 18
+
+  # Custom subsampling logic for regions like Europe where grouping by country
+  # is the smallest resolution required.
+  region_grouped_by_country:
+    # Focal samples for region
+    region:
+      group_by: "country year month"
+      seq_per_group: 120
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global:
+      group_by: "country year month"
+      seq_per_group: 12
+      exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "region"
@@ -172,12 +165,12 @@ subsampling:
     country:
       group_by: "division year month"
       seq_per_group: 200
-      exclude: "--exclude-where 'country!={{country}}'"
+      exclude: "--exclude-where 'country!={country}'"
     # Contextual samples from country's region
     region:
       group_by: "country year month"
       seq_per_group: 20
-      exclude: "--exclude-where 'country={{country}}' 'region!={{region}}'"
+      exclude: "--exclude-where 'country={country}' 'region!={region}'"
       priorities:
         type: "proximity"
         focus: "country"
@@ -186,7 +179,7 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'region={{region}}'"
+      exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "country"
@@ -197,12 +190,12 @@ subsampling:
     division:
       group_by: "year month"
       seq_per_group: 300
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}'"
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
     # Contextual samples from division's country
     country:
       group_by: "division year month"
       seq_per_group: 20
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division={{division}}'"
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
       priorities:
         type: "proximity"
         focus: "division"
@@ -210,7 +203,7 @@ subsampling:
     region:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}'"
+      exclude: "--exclude-where 'region!={region}' 'country={country}'"
       priorities:
         type: "proximity"
         focus: "division"
@@ -219,7 +212,7 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 5
-      exclude: "--exclude-where 'region={{region}}'"
+      exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "division"
@@ -230,12 +223,12 @@ subsampling:
     focal:
       group_by: "year month"
       seq_per_group: 300
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}' 'location!={{location}}'"
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}' 'location!={location}'"
     # Samples that are genetically related to the focal samples
     related:
       group_by: "country year month"
       seq_per_group: 20
-      exclude: "--exclude-where 'location={{location}}'"
+      exclude: "--exclude-where 'location={location}'"
       priorities:
         type: "proximity"
         focus: "focal"
@@ -243,4 +236,4 @@ subsampling:
     contextual:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'location={{location}}'"
+      exclude: "--exclude-where 'location={location}'"

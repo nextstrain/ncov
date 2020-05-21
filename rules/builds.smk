@@ -175,26 +175,24 @@ def get_priority_argument(wildcards):
 
 def _get_specific_subsampling_setting(setting, optional=False):
     def _get_setting(wildcards):
-        subsampling_scheme = _get_subsampling_scheme_by_build_name(wildcards.build_name)
-        geographic_name = _get_geographic_name_by_build_name(wildcards.build_name)
-        geographic_scale = _get_geographic_scale_by_build_name(wildcards.build_name)
-
         if optional:
             value = _get_subsampling_settings(wildcards).get(setting, "")
         else:
             value = _get_subsampling_settings(wildcards)[setting]
 
         if isinstance(value, str):
-            value = value.format(**wildcards)
+            # Load build attributes including geographic details about the
+            # build's region, country, division, etc. as needed for subsampling.
+            build = config["builds"][wildcards.build_name]
+            value = value.format(**build)
         else:
             return value
 
-        if ("geo_hierarchy" in config
-            and geographic_scale in config["geo_hierarchy"]
-            and geographic_name in config["geo_hierarchy"][geographic_scale]):
-            return value.format(**config["geo_hierarchy"][geographic_scale][geographic_name])
-        else:
-            return value
+        # Check format strings that haven't been resolved.
+        if re.search(r'\{.+\}', value):
+            raise Exception(f"The parameters for the subsampling scheme '{wildcards.subsample}' of build '{wildcards.build_name}' reference build attributes that are not defined in the configuration file: '{value}'. Add these build attributes to the appropriate configuration file and try again.")
+
+        return value
 
     return _get_setting
 
@@ -240,6 +238,7 @@ rule proximity_score:
     input:
         alignment = rules.mask.output.alignment,
         metadata = rules.download.output.metadata,
+        reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
     output:
         priorities = "results/{build_name}/proximity_{focus}.tsv"
@@ -252,6 +251,7 @@ rule proximity_score:
         """
         python3 scripts/priorities.py --alignment {input.alignment} \
             --metadata {input.metadata} \
+            --reference {input.reference} \
             --focal-alignment {input.focal_alignment} \
             --output {output.priorities} 2>&1 | tee {log}
         """
@@ -294,15 +294,14 @@ rule adjust_metadata_regions:
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv"
     params:
-        geographic_scale = lambda wildcards: _get_geographic_scale_by_build_name(wildcards.build_name),
-        geographic_name = lambda wildcards: _get_geographic_name_by_build_name(wildcards.build_name)
+        region = lambda wildcards: config["builds"][wildcards.build_name]["region"]
     log:
         "logs/adjust_metadata_regions_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/adjust_regional_meta.py \
-            --{params.geographic_scale} {params.geographic_name:q} \
+            --region {params.region:q} \
             --metadata {input.metadata} \
             --output {output.metadata} 2>&1 | tee {log}
         """
@@ -506,7 +505,7 @@ rule colors:
         color_schemes = config["files"]["color_schemes"],
         metadata = _get_metadata_by_wildcards
     output:
-        colors = "config/colors_{build_name}.tsv"
+        colors = "results/{build_name}/colors.tsv"
     log:
         "logs/colors_{build_name}.txt"
     conda: config["conda_environment"]
@@ -600,7 +599,7 @@ rule export:
         metadata = _get_metadata_by_wildcards,
         node_data = _get_node_data_by_wildcards,
         auspice_config = config["files"]["auspice_config"],
-        colors = rules.colors.output.colors,
+        colors = lambda w: config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w),
         lat_longs = config["files"]["lat_longs"],
         description = config["files"]["description"]
     output:
@@ -629,7 +628,7 @@ rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
         auspice_json = rules.export.output.auspice_json,
-        colors = rules.colors.output.colors,
+        colors = lambda w: config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w),
         lat_longs = config["files"]["lat_longs"]
     params:
         sampling = _get_sampling_trait_for_wildcards,
