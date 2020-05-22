@@ -1125,7 +1125,6 @@ division	Zurich	47.441242	8.641154
 
 
 country	Argentina	-37.052315	-64.869142
-country	Asia	30.451098	86.654576
 country	Austria	47.5162	14.5501
 country	Bangladesh	24.506442	90.041454
 country	Belarus	53.704205	28.247691
@@ -1159,7 +1158,10 @@ country	Sri Lanka	7.8731	80.7718
 country	Turkey	39.046746	36.767068
 
 country	Africa	4.070194	21.824559
+country	Asia	30.451098	86.654576
 country	Europe	49.646237	10.799454
 country	North America	28.2367447	-97.738017
 country	Oceania	-25.0562891	152.008576
 country	South America	-13.083583	-58.470721
+
+region	Asia	30.451098	86.654576

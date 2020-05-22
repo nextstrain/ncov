@@ -77,6 +77,11 @@
       "key": "division_exposure",
       "title": "Division of exposure",
       "type": "categorical"
+    },
+    {
+      "key": "region_exposure",
+      "title": "Region of exposure",
+      "type": "categorical"
     }
   ],
   "geo_resolutions": [
