@@ -37,8 +37,8 @@ builds:
 # otherwise the default exposure in config/config.yaml will used
 exposure:
   global:
-    trait: "region"
-    exposure: "region_exposure"
+    trait: "country"
+    exposure: "country_exposure"
 
   north-america:
     trait: "division"
@@ -53,7 +53,7 @@ exposure:
 traits:
   global:
     sampling_bias_correction: 2.5
-    columns: ["region", "region_exposure"]
+    columns: ["country", "country_exposure"]
   north-america:
     sampling_bias_correction: 2.5
     columns: ["region", "country_exposure", "division_exposure"]
