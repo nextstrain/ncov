@@ -15,6 +15,7 @@ environment*
 
 # Snakemake state dir
 /.snakemake
+snakemake_log
 
 # Local config overrides
 /config_local.yaml
@@ -44,5 +45,6 @@ environment*
 Icon?
 ehthumbs.db
 Thumbs.db
+*~
 
 narratives/*pdf

@@ -146,3 +146,4 @@ subsampling:
 
 files:
   colors: "profiles/swiss/colors.tsv"
+  auspice_config: "profiles/swiss/auspice_config_swiss.json"
