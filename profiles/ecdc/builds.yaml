@@ -6,133 +6,133 @@
 # in the geo_hierarchy to define region, country, division, etc
 builds:
   ecdc_russia:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Russia
   ecdc_serbia:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Serbia
   ecdc_europe:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Europe
   ecdc_latvia:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Latvia
   ecdc_slovakia:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Slovakia
   ecdc_slovenia:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Slovenia
   ecdc_poland:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Poland
   ecdc_belarus:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Belarus
   ecdc_estonia:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Estonia
   ecdc_lithuania:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Lithuania
   ecdc_hungary:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Hungary
   ecdc_croatia:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Croatia
   ecdc_france:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: France
   ecdc_iceland:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Iceland
   ecdc_norway:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Norway
   ecdc_denmark:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Denmark
   ecdc_netherlands:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Netherlands
   ecdc_belgium:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Belgium
   ecdc_luxembourg:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Luxembourg
   ecdc_germany:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Germany
   ecdc_austria:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Austria
   ecdc_switzerland:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Switzerland
   ecdc_italy:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Italy
   ecdc_spain:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Spain
   ecdc_czech-republic:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Czech Republic
   ecdc_united-kingdom:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: United Kingdom
   ecdc_ireland:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Ireland
   ecdc_finland:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Finland
   ecdc_sweden:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Sweden
   ecdc_portugal:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Portugal
   ecdc_greece:
-    geographic_scale: country
+    subsampling_scheme: ecdc-country
     region: Europe
     country: Greece
 
 subsampling:
   # Default subsampling logic for countries
-  country:
+  ecdc-country:
     # Focal samples for country
     country:
       group_by: "division year month"
