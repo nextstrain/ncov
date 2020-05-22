@@ -59,6 +59,11 @@ location	Gandhinagar
 location	Mansa
 location	Kolkata
 location	Modasa
+location	Rajkot
+location	Kodinar
+location	Junagadh
+location	Botad
+location	Una
 location	Dhansura
 location	Dahegam
 location	Prantij
@@ -898,6 +903,7 @@ division	Zielonogorskie
 division	Pomorskie
 division	Basel
 division	Basel-Stadt
+division	Basel-Land
 division	Bern
 division	Zürich
 division	Aargau
@@ -953,6 +959,8 @@ division	Jamtland
 division	Vastra Gotaland
 division	Vastmanland
 division	Ostergotland
+division	Kalmar
+division	Jonkoping
 division	Sormland
 division	Varmland
 division	Gavleborgs lan
@@ -1062,6 +1070,7 @@ division	Missouri
 division	Florida
 division	Georgia
 division	Alabama
+division	Arkansas
 division	Louisiana
 division	North Carolina
 division	South Carolina
@@ -1095,6 +1104,8 @@ division	Oregon
 division	Washington
 division	Hawaii
 division	Puerto Rico
+division	Virgin Islands
+division	Jamaica
 division	Alaska
 division	Canada
 division	Nova Scotia
@@ -1192,6 +1203,7 @@ country	Colombia
 country	Panama
 country	Costa Rica
 country	Mexico
+country	Jamaica
 country	USA
 country	Canada
 
