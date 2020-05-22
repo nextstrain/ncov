@@ -538,8 +538,8 @@ division	Bangkok	13.798471	100.590834
 division	Bangladesh	24.506442	90.041454
 division	Baranya	46.0485	18.2719
 division	Barcelona	41.394769	2.173828
-division	Basel	47.559198	7.59064
 division	Basel-Stadt	47.557238	7.595666
+division	Basel-Land	47.493316	7.714938
 division	Basque Country	42.9896	-2.6189
 division	Bavaria	48.1382614	11.5845093
 division	Beersel	50.7669	4.3085
@@ -1119,13 +1119,12 @@ division	Zinnik	50.567422	4.040613
 division	Zolder	50.9905	5.258
 division	Zonhoven	50.9871	5.3672
 division	Zoutleeuw	50.836614	5.107761
-division	Zurich	47.441242	8.641154
+division	Zürich	47.441242	8.641154
 
 
 
 
 country	Argentina	-37.052315	-64.869142
-country	Asia	30.451098	86.654576
 country	Austria	47.5162	14.5501
 country	Bangladesh	24.506442	90.041454
 country	Belarus	53.704205	28.247691
@@ -1159,7 +1158,10 @@ country	Sri Lanka	7.8731	80.7718
 country	Turkey	39.046746	36.767068
 
 country	Africa	4.070194	21.824559
+country	Asia	30.451098	86.654576
 country	Europe	49.646237	10.799454
 country	North America	28.2367447	-97.738017
 country	Oceania	-25.0562891	152.008576
 country	South America	-13.083583	-58.470721
+
+region	Asia	30.451098	86.654576

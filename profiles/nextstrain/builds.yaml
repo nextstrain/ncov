@@ -37,8 +37,8 @@ builds:
 # otherwise the default exposure in config/config.yaml will used
 exposure:
   global:
-    trait: "country"
-    exposure: "country_exposure"
+    trait: "region"
+    exposure: "region_exposure"
 
   north-america:
     trait: "division"
