@@ -55,12 +55,11 @@ rule clean_export_regions:
 # Runs an additional script to give a list of locations that need colors and/or lat-longs
 rule export_all_regions:
     input:
-        colors_file = expand("config/colors_{build_name}.tsv", build_name=BUILD_NAMES),
         auspice_json = expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
         lat_longs = config["files"]["lat_longs"],
         metadata = [_get_metadata_by_build_name(build_name).format(build_name=build_name)
                     for build_name in BUILD_NAMES],
-        colors = expand("config/colors_{build_name}.tsv", build_name=BUILD_NAMES),
+        colors = expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
     conda: config["conda_environment"]
     shell:
         """

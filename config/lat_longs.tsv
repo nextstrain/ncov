@@ -538,8 +538,8 @@ division	Bangkok	13.798471	100.590834
 division	Bangladesh	24.506442	90.041454
 division	Baranya	46.0485	18.2719
 division	Barcelona	41.394769	2.173828
-division	Basel	47.559198	7.59064
 division	Basel-Stadt	47.557238	7.595666
+division	Basel-Land	47.493316	7.714938
 division	Basque Country	42.9896	-2.6189
 division	Bavaria	48.1382614	11.5845093
 division	Beersel	50.7669	4.3085
@@ -1120,7 +1120,6 @@ division	Zolder	50.9905	5.258
 division	Zonhoven	50.9871	5.3672
 division	Zoutleeuw	50.836614	5.107761
 division	Zürich	47.441242	8.641154
-division	Zurich	47.441242	8.641154
 
 
 
