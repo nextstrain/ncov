@@ -626,6 +626,7 @@ division	United Arab Emirates
 division	Saudi Arabia
 division	Riyadh
 division	Qatar
+division	Beirut
 division	Israel
 division	Tel Aviv District
 division	North District
@@ -898,7 +899,7 @@ division	Pomorskie
 division	Basel
 division	Basel-Stadt
 division	Bern
-division	Zurich
+division	Zürich
 division	Aargau
 division	Geneva
 division	Vaud
@@ -1060,6 +1061,7 @@ division	Texas
 division	Missouri
 division	Florida
 division	Georgia
+division	Alabama
 division	Louisiana
 division	North Carolina
 division	South Carolina
@@ -1131,6 +1133,7 @@ country	Saudi Arabia
 country	Qatar
 country	United Arab Emirates
 country	Kuwait
+country	Lebanon
 country	Iran
 country	Israel
 country	Jordan
