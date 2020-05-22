@@ -1,6 +1,6 @@
 configfile:
   - config/config.yaml
-  - profiles/swiss/builds.yaml
+  - profiles/ecdc/builds.yaml
   - profiles/nextstrain-scicore/scicore-config.yaml
 
 keep-going: True

@@ -130,6 +130,7 @@ builds:
     region: Europe
     country: Greece
 
+subsampling:
   # Default subsampling logic for countries
   country:
     # Focal samples for country
