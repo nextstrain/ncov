@@ -2,7 +2,7 @@
   "title": "Genomic epidemiology of novel coronavirus in Europe",
   "build_url": "https://github.com/nextstrain/ncov",
   "maintainers": [
-    {"name": "Emma Hodcroft, Richard Neher, Sarah Nadeau, Tanja Stadler", "url": "https://neherlab.org"}
+    {"name": "Emma Hodcroft, Richard Neher, Erik Alm", "url": "https://neherlab.org"}
   ],
   "colorings": [
     {
