@@ -1,8 +1,8 @@
 {
-  "title": "Genomic epidemiology of novel coronavirus",
+  "title": "Genomic epidemiology of novel coronavirus in Switzerland",
   "build_url": "https://github.com/nextstrain/ncov",
   "maintainers": [
-    {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
+    {"name": "Emma Hodcroft, Richard Neher, Sarah Nadeau, Tanja Stadler", "url": "https://neherlab.org"}
   ],
   "colorings": [
     {
@@ -91,9 +91,9 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "country",
+    "color_by": "division",
     "distance_measure": "num_date",
-    "geo_resolution": "country",
+    "geo_resolution": "division",
     "map_triplicate": true,
     "branch_label": "none"
   },

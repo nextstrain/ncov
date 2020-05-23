@@ -1,0 +1,149 @@
+# Define locations for which builds should be created.
+# For each build we specify a subsampling scheme via an explicit key.
+# If the name of the focal geography differs from the build name this needs to
+# be specified explicity as geographic_name. In addition, we require the
+# geographic scale the build focuses on. Together name and scale serve a look-up
+# in the geo_hierarchy to define region, country, division, etc
+builds:
+  switzerland:
+    subsampling_scheme: switzerland
+    geographic_scale: country
+    region: Europe
+    country: Switzerland
+  basel-stadt:
+    subsampling_scheme: canton
+    geographic_scale: division
+    region: Europe
+    country: Switzerland
+    division: Basel-Stadt
+  basel-land:
+    subsampling_scheme: canton
+    geographic_scale: division
+    region: Europe
+    country: Switzerland
+    division: Basel-Land
+  geneva:
+    subsampling_scheme: canton
+    geographic_scale: division
+    region: Europe
+    country: Switzerland
+    division: Geneva
+  vaud:
+    subsampling_scheme: canton
+    geographic_scale: division
+    region: Europe
+    country: Switzerland
+    division: Vaud
+  ticino:
+    subsampling_scheme: canton
+    geographic_scale: division
+    region: Europe
+    country: Switzerland
+    division: Ticino
+  lac-leman:
+    subsampling_scheme: lac-leman
+    geographic_scale: division
+    region: Europe
+    country: Switzerland
+    division: Lac Leman
+
+subsampling:
+  # Default subsampling logic for countries
+  switzerland:
+    # Focal samples for country
+    country:
+      group_by: "division year month"
+      seq_per_group: 200
+      exclude: "--exclude-where 'country!={country}'"
+    # Contextual samples from country's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'country={country}' 'region!={region}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+    # Contextual samples from the rest of the world,
+    # excluding the current region to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+
+  # Default subsampling logic for divisions
+  canton:
+    # Focal samples for division
+    division:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
+    # Contextual samples from division's country
+    country:
+      group_by: "division year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+    # Contextual samples from division's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region!={region}' 'country={country}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+    # Contextual samples from the rest of the world, excluding the current
+    # division to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 5
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+
+  lac-leman:
+    geneva:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'division!=geneva'"
+    vaud:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'division!=vaud'"
+    valais:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'division!=valais'"
+
+    # Contextual samples from the country
+    country:
+      group_by: "division year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'country!=switzerland'"
+
+    # Contextual samples from division's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region!=europe'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+    # Contextual samples from the rest of the world, excluding the current
+    # division to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 5
+      exclude: "--exclude-where 'region=europe'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+
+files:
+  colors: "profiles/swiss/colors.tsv"
+  auspice_config: "profiles/swiss/auspice_config_swiss.json"

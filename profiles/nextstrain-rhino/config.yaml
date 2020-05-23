@@ -1,6 +1,7 @@
 configfile:
   - config/config.yaml
-  - config/nextstrain_config.yaml
+  - profiles/nextstrain/builds.yaml
+
 cores: 20
 keep-going: True
 printshellcmds: True
