@@ -99,6 +99,7 @@ location	Cúcuta	7.904674	-72.506484
 location	Cudahy	42.946879	-87.861992
 location	Cuesmes	50.435127	3.923209
 location	Dahegam	23.1637	72.8102
+location	Dahod	22.836899	74.251376
 location	Dalen	52.6994	6.7568
 location	Dane county	43.0186	-89.5498
 location	Darjeeling	27.028909	88.260898
@@ -201,6 +202,7 @@ location	Ischgl	47.011789	10.289683
 location	Itagui	6.174822	-75.607579
 location	Jackson	43.325508	-88.167662
 location	Jackson County	44.310891	-90.788896
+location	Jamnagar	22.471143	70.051543
 location	Jamundi	3.260158	-76.539750
 location	Janesville	42.691211	-89.014160
 location	Jefferson County WA	47.728342	-123.606395
@@ -447,6 +449,7 @@ location	Ulster County	41.8586	-74.3118
 location	Umatilla County	45.648981	-118.720688
 location	Una	31.4685	76.2708
 location	Utrecht	52.0907	5.1214
+location	Vadodara	22.306797	73.173072
 location	Valence	44.926123	4.900583
 location	Valencia	39.337	-0.354
 location	Valencia Horta	39.465736	-0.424354
@@ -494,6 +497,7 @@ location	Zhongshan	22.542629	113.390864
 location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
 location	Zipaquira	5.023869	-73.999449
+
 
 
 
@@ -921,6 +925,7 @@ division	Overijssel	52.436273	6.463628
 division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
 division	Panama City	8.98333	-79.5166
+division	Para	-4.281398	-52.582417
 division	pathum thani	14.043950	100.604700
 division	Pays de la Loire	47.640237	-0.647258
 division	Pelt	51.210014	5.420519

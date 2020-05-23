@@ -62,6 +62,9 @@ location	Modasa
 location	Rajkot
 location	Kodinar
 location	Junagadh
+location	Jamnagar
+location	Dahod
+location	Vadodara
 location	Botad
 location	Una
 location	Dhansura
@@ -1040,6 +1043,7 @@ division	Cordoba
 division	Cesar
 division	Norte de santander
 division	Amazonas State
+division	Para
 division	Antioquia
 division	Bogota
 division	Quito
