@@ -125,12 +125,12 @@ subsampling:
     # Focal samples for region
     region:
       group_by: "division year month"
-      seq_per_group: 120
+      seq_per_group: 96
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
-      seq_per_group: 12
+      seq_per_group: 10
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
@@ -140,7 +140,7 @@ subsampling:
   region_global:
     global:
       group_by: "division year month"
-      seq_per_group: 18
+      seq_per_group: 14
 
   # Custom subsampling logic for regions like Europe where grouping by country
   # is the smallest resolution required.

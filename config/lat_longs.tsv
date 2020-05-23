@@ -40,6 +40,7 @@ location	Blandain	50.624503	3.303954
 location	Blaricum	52.2727	5.2481
 location	Bonrepos i Mirambell	39.5178	-0.3647
 location	Boston	42.354750	-71.061299
+location	Botad	22.1723	71.6636
 location	Bourg-en-Bresse	46.206861	5.229144
 location	Braine-le-Chateau	50.677854	4.267574
 location	Brasilia	-15.814189	-47.875543
@@ -203,7 +204,7 @@ location	Jackson County	44.310891	-90.788896
 location	Jamundi	3.260158	-76.539750
 location	Janesville	42.691211	-89.014160
 location	Jefferson County WA	47.728342	-123.606395
-location	Jefferson County WI	43.027985	-88.766471
+location	Jefferson County NY	44.095507	-75.890072
 location	Jemappes	50.446399	3.898191
 location	Jian	27.0876	114.9647
 location	Jiujiang	29.7051	116.0019
@@ -211,6 +212,7 @@ location	Jingzhou	30.350752	112.237294
 location	Joinville	-26.235559	-48.950735
 location	Jönköping	57.777979	14.160453
 location	Jumet	50.442063	4.436515
+location	Junagadh	21.5222	70.4579
 location	Juneau	58.541037	-134.236606
 location	Juneau County	43.8673	-90.0747
 location	Juvisy-sur-Orge	48.690609	2.377581
@@ -223,6 +225,7 @@ location	King County	47.449221	-121.864246
 location	Kipen	59.6739	29.8498
 location	Kirkland	47.679486	-122.206354
 location	Kittitas County	47.1750	-120.9319
+location	Kodinar	20.8009	70.6960
 location	Kolkata	22.543905	88.374991
 location	Koersel	51.058003	5.272274
 location	Kunming	25.013024	102.866742
@@ -337,6 +340,7 @@ location	Quevaucamps	50.720840	3.289101
 location	Quibdo	5.691789	-76.654649
 location	Quilmes	-34.7206	-58.2546
 location	Racine	42.721147	-87.800333
+location	Rajkot	22.3039	70.8022
 location	Ramsau im Zillertal	47.203746	11.876947
 location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
@@ -441,6 +445,7 @@ location	Tweed Heads	-28.201312	153.543425
 location	Ulan-Ude	51.827029	107.655954
 location	Ulster County	41.8586	-74.3118
 location	Umatilla County	45.648981	-118.720688
+location	Una	31.4685	76.2708
 location	Utrecht	52.0907	5.1214
 location	Valence	44.926123	4.900583
 location	Valencia	39.337	-0.354
@@ -501,6 +506,7 @@ division	Afyon	38.752653	30.553661
 division	Agri	39.7191	43.0506
 division	Aichi	35.067543	137.334061
 division	Aksaray	38.44611	33.878216
+division	Alabama	32.3182	-86.9023
 division	Alagoas	-9.74863	-36.417626
 division	Alaska	65.797699	-152.214189
 division	Algeria	28.0000272	2.9999825
@@ -519,6 +525,7 @@ division	Antofagasta	-23.6509	-70.3975
 division	Antwerp	51.225698	4.420885
 division	Argentina	-34	-64
 division	Arizona	34.220707	-111.657462
+division	Arkansas	35.2010	-91.8318
 division	Asia	30.451098	86.654576
 division	Assam	26.2006	92.9376
 division	Asse	50.9094	4.2005
@@ -544,6 +551,7 @@ division	Basque Country	42.9896	-2.6189
 division	Bavaria	48.1382614	11.5845093
 division	Beersel	50.7669	4.3085
 division	Beijing	40.07132	116.406908
+division	Beirut	33.8938	35.5018
 division	Bekesszentandras	46.8716	20.4834
 division	Belarus	53	28
 division	Belgium	50.707735	4.677726
@@ -742,6 +750,7 @@ division	Istria	45.189488	13.889205
 division	Italian cruise ship	41.831176	11.491061
 division	Italy	43.382775	12.183629
 division	Jakarta	-6.221537	106.838429
+division	Jamaica	18.1096	-77.2975
 division	Jammu	32.7266	74.8570
 division	Jamtland	63.1712	14.9592
 division	Japan	35.68536	139.75309
@@ -749,7 +758,9 @@ division	Jeddah	21.4858	39.1925
 division	Jerusalem District	31.7648	34.9948
 division	Jiangsu	33.077761	119.825116
 division	Jiangxi	27.458973	115.535326
+division	Jonkoping	57.7826	14.1618
 division	Jordan	31.1667049	36.941628
+division	Kalmar	56.6634	16.3568
 division	Kalmthout	51.383	4.4752
 division	Kanagawa	35.403801	139.294288
 division	Kansai	34.778675	135.880055
@@ -1091,6 +1102,7 @@ division	Villavicencio	4.134000	-73.623483
 division	Vilnius	54.697979	25.279095
 division	Vilvoorde	50.932484	4.429885
 division	Vinhphuc	21.348702	105.548594
+division	Virgin Islands	18.3358	-64.8963
 division	Virginia	37.926868	-78.024902
 division	Vorst	50.8134	4.3248
 division	Vysocina Region	49.442644	15.672714
@@ -1143,6 +1155,7 @@ country	Iceland	64.90614	-18.4826
 country	Indonesia	-0.897599	114.181602
 country	Iran	34.5732	51.876
 country	Israel	31.217736	34.903129
+country	Jamaica	18.1096	-77.2975
 country	Kyrgyzstan	41.2044	74.7661
 country	Lithuania	55.378752	23.945328
 country	Luxembourg	49.755428	6.119486

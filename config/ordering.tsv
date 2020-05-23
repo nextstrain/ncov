@@ -59,6 +59,11 @@ location	Gandhinagar
 location	Mansa
 location	Kolkata
 location	Modasa
+location	Rajkot
+location	Kodinar
+location	Junagadh
+location	Botad
+location	Una
 location	Dhansura
 location	Dahegam
 location	Prantij
@@ -399,7 +404,7 @@ location	Orange County NY
 location	Manhattan
 location	Nassau County
 location	Brooklyn
-location	Brooklyn NY
+location	Brooklyn WI
 location	Queens
 location	Staten Island
 location	Bronx
@@ -429,7 +434,7 @@ location	Bergen County
 location	Clinton County
 location	Broome County
 location	Jefferson County WA
-location	Jefferson County WI
+location	Jefferson County NY
 location	Verona WI
 location	Dutchess County
 location	Passaic County
@@ -626,6 +631,7 @@ division	United Arab Emirates
 division	Saudi Arabia
 division	Riyadh
 division	Qatar
+division	Beirut
 division	Israel
 division	Tel Aviv District
 division	North District
@@ -952,6 +958,8 @@ division	Jamtland
 division	Vastra Gotaland
 division	Vastmanland
 division	Ostergotland
+division	Kalmar
+division	Jonkoping
 division	Sormland
 division	Varmland
 division	Gavleborgs lan
@@ -1060,6 +1068,8 @@ division	Texas
 division	Missouri
 division	Florida
 division	Georgia
+division	Alabama
+division	Arkansas
 division	Louisiana
 division	North Carolina
 division	South Carolina
@@ -1093,6 +1103,8 @@ division	Oregon
 division	Washington
 division	Hawaii
 division	Puerto Rico
+division	Virgin Islands
+division	Jamaica
 division	Alaska
 division	Canada
 division	Nova Scotia
@@ -1131,6 +1143,7 @@ country	Saudi Arabia
 country	Qatar
 country	United Arab Emirates
 country	Kuwait
+country	Lebanon
 country	Iran
 country	Israel
 country	Jordan
@@ -1189,6 +1202,7 @@ country	Colombia
 country	Panama
 country	Costa Rica
 country	Mexico
+country	Jamaica
 country	USA
 country	Canada
 
