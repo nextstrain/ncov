@@ -91,7 +91,7 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "region",
+    "color_by": "country",
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,
