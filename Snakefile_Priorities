@@ -88,7 +88,7 @@ rule make_priorities:
             region="${{rgn//[_y]/}}"
             region="${{region//[-y]/ }}"
             echo "Creating priorities for focal build on $region"
-            python3 scripts/priorities.py --alignment {input.alignment} \
+            {python:q} scripts/priorities.py --alignment {input.alignment} \
                             --metadata {input.metadata} \
                             --focal-alignment {input.focal_alignment} \
                             --output {output.priorities}
@@ -105,7 +105,7 @@ rule add_priorities_metadata:
         config = "results/auspice_config_priors.json"
     shell:
         """
-        python3 scripts/add_priorities_to_meta.py \
+        {python:q} scripts/add_priorities_to_meta.py \
             --metadata {input.metadata} \
             --config {input.config} \
             --priorities {input.priorities} \

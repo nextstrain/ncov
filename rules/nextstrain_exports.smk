@@ -63,7 +63,7 @@ rule export_all_regions:
     conda: config["conda_environment"]
     shell:
         """
-        python3 ./scripts/check_missing_locations.py \
+        {python:q} ./scripts/check_missing_locations.py \
             --metadata {input.metadata} \
             --colors {input.colors} \
             --latlong {input.lat_longs}
@@ -155,7 +155,7 @@ rule incorporate_travel_history_gisaid:
     conda: config["conda_environment"]
     shell:
         """
-        python3 ./scripts/modify-tree-according-to-exposure.py \
+        {python:q} ./scripts/modify-tree-according-to-exposure.py \
             --input {input.auspice_json} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -180,7 +180,7 @@ rule incorporate_travel_history_zh:
     conda: config["conda_environment"]
     shell:
         """
-        python3 ./scripts/modify-tree-according-to-exposure.py \
+        {python:q} ./scripts/modify-tree-according-to-exposure.py \
             --input {input.auspice_json} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -200,7 +200,7 @@ rule fix_colorings_gisaid:
     conda: config["conda_environment"]
     shell:
         """
-        python scripts/fix-colorings.py \
+        {python:q} scripts/fix-colorings.py \
             --input {input.auspice_json} \
             --output {output.auspice_json} 2>&1 | tee {log}
         """
@@ -216,7 +216,7 @@ rule fix_colorings_zh:
     conda: config["conda_environment"]
     shell:
         """
-        python scripts/fix-colorings.py \
+        {python:q} scripts/fix-colorings.py \
             --input {input.auspice_json} \
             --output {output.auspice_json} 2>&1 | tee {log}
         """
