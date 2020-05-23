@@ -1,3 +1,4 @@
+
 # This file contains defaults for the "config" object used in the Snakefile.
 # To temporarily override or provide a value, you can use snakemake's --config
 # or --configfile options.
@@ -80,9 +81,6 @@ refine:
 ancestral:
   inference: "joint"
 
-traits:
-  sampling_bias_correction: 2.5
-
 # Frequencies settings
 frequencies:
   min_date: 2020.0
@@ -97,36 +95,145 @@ frequencies:
 #
 # Region-specific settings
 #
+traits:
+  default:
+    sampling_bias_correction: 2.5
+    columns: ["region_exposure", "country_exposure"]
 
-# List of regions to build specific builds for using intelligent subsampling.
-regions:
-  - global
+exposure:
+  default:
+    trait: "country"
+    exposure: "country_exposure"
 
-# Subsampling settings for region of focus and context.
-subsample_focus:
-  group_by: "division year month"
-  group_by_europe: "country year month"
-  seq_per_group_regional: 120
-
-  # Sequences per group if the current build is not a regional build.
-  seq_per_group_global: 18
-
-subsample_context:
-  group_by: "country year month"
-  sequences_per_group: 12
-
+# Default subsampling schemes designed for different geographic scales. With the
+# exception of the "global" region, most subsampling schemes define a large
+# focal set of sequences related to a specific geographic entity (e.g., Africa,
+# Switzerland, etc.) and a smaller set of contextual sequences from the rest of
+# the world.
 #
-# Priorities-specific settings
-# TODO: consider how to merge these with the region-specific settings to avoid redundancy.
+# Users can control the specificity of subsampling by defining as many
+# subsampling sets as they require. For example, one may wish to include all
+# sequences from California, many contextual sequences from the USA, and a few
+# contextual sequences from the rest of the world.
 #
+# Each build defines its subsampling scheme by specifying a `subsampling_scheme`
+# attribute whose value is the name of an entry in the subsampling configuration
+# below or defined elsewhere in another configuration file.
+subsampling:
+  # Default subsampling logic for regions
+  region:
+    # Focal samples for region
+    region:
+      group_by: "division year month"
+      seq_per_group: 96
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
 
-regions_for_priorities: ["africa", "asia", "europe", "north-america", "oceania", "south-america"]
+  # Custom subsampling logic for global region.
+  region_global:
+    global:
+      group_by: "division year month"
+      seq_per_group: 14
 
-# Subsampling settings for region of focus and context.
-# TODO: merge these with "subsample_focus" settings above
-subsample_focus_for_priorities:
-  group_by: "division year month"
-  seq_per_group_regional: 300
+  # Custom subsampling logic for regions like Europe where grouping by country
+  # is the smallest resolution required.
+  region_grouped_by_country:
+    # Focal samples for region
+    region:
+      group_by: "country year month"
+      seq_per_group: 120
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global:
+      group_by: "country year month"
+      seq_per_group: 12
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
 
-  # Sequences per group if the current build is not a regional build.
-  seq_per_group_global: 150
+  # Default subsampling logic for countries
+  country:
+    # Focal samples for country
+    country:
+      group_by: "division year month"
+      seq_per_group: 200
+      exclude: "--exclude-where 'country!={country}'"
+    # Contextual samples from country's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'country={country}' 'region!={region}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+    # Contextual samples from the rest of the world,
+    # excluding the current region to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+
+  # Default subsampling logic for divisions
+  division:
+    # Focal samples for division
+    division:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
+    # Contextual samples from division's country
+    country:
+      group_by: "division year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+    # Contextual samples from division's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region!={region}' 'country={country}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+    # Contextual samples from the rest of the world, excluding the current
+    # division to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 5
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+
+  # Default subsampling logic for locations
+  location:
+    # Focal samples for location
+    focal:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}' 'location!={location}'"
+    # Samples that are genetically related to the focal samples
+    related:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'location={location}'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+    # Contextual samples from the rest of the world
+    contextual:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'location={location}'"

@@ -1,11 +1,8 @@
 configfile:
   - config/config.yaml
-  - profiles/nextstrain/builds.yaml
+  - profiles/king-county/builds.yaml
 
-cores: 8
 keep-going: True
 printshellcmds: True
 reason: True
-restart-times: 1
 stats: stats.json
-set-threads: tree=4

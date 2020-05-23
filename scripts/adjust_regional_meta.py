@@ -13,24 +13,28 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--metadata", type = str, required=True, help="metadata")
-    parser.add_argument("--region", type=str, required=True, help="focal region")
+    parser.add_argument("--region", type=str, required=False, help="focal region")
+    parser.add_argument("--country", type=str, required=False, help="focal country")
+    parser.add_argument("--division", type=str, required=False, help="focal division")
+    parser.add_argument("--location", type=str, required=False, help="focal location")
+    parser.add_argument("--composite", type=str, required=False, help="composite sampling")
     parser.add_argument("--output", type=str, required=True, help="adjusted metadata")
     args = parser.parse_args()
 
-    fix_casing = {
-        "asia": "Asia",
-        "africa": "Africa",
-        "europe": "Europe",
-        "north-america": "North America",
-        "oceania": "Oceania",
-        "south-america": "South America"
-    }
-    focal_region = fix_casing[args.region]
+    region_list = ["Asia", "Africa", "Europe", "North America", "Oceania", "South America"]
 
+    metadata = pd.read_csv(args.metadata, delimiter='\t')
+
+    # if in region list, then do the fixing
+    if args.region in region_list:
+        focal_region = args.region
+    else: # otherwise just write out metadata as is, and proceed
+        metadata.to_csv(args.output, index=False, sep="\t")
+        exit()
 
     print("Adjusting metadata for focal region", args.region)
 
-    metadata = pd.read_csv(args.metadata, delimiter='\t')
+
     metadata.insert(12, 'focal', True)
 
     metadata.loc[metadata.region != focal_region, 'focal'] = False

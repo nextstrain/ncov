@@ -501,6 +501,7 @@ USA/WA-UW45/2020
 France/HF1805/2020
 Canada/ON_PHL4069/2020
 Canada/ON_PHL3501/2020
+Bangladesh/DNAS_CPH_436/2020
 
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
@@ -517,9 +518,6 @@ pangolin/Guandong/1/2019
 pangolin/China/MP789/2019
 bat/Yunnan/RmYN02/2019
 bat/Yunnan/RmYN01/2019
-
-# Experimental infections
-mink/Netherlands/1/2020
 
 # Temporarily excluded
 USA/CruiseA-1/2020

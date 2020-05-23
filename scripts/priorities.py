@@ -8,14 +8,31 @@ import Bio
 import numpy as np
 from Bio.SeqIO.FastaIO import SimpleFastaParser
 from Bio.Seq import Seq
-from Bio import AlignIO
+from Bio import AlignIO, SeqIO
 from scipy import sparse
 
 
+def compactify_sequences(sparse_matrix, sequence_names):
+    sequence_groups = defaultdict(list)
+    for s, snps in zip(sequence_names, sparse_matrix):
+        ind = snps.nonzero()
+        vals = np.array(snps[ind])
+        if len(ind[1]):
+            sequence_groups[tuple(zip(ind[1], vals[0]))].append(s)
+        else:
+            sequence_groups[tuple()].append(s)
+
+    return sequence_groups
+
 INITIALISATION_LENGTH = 1000000
 
+def sequence_to_int_array(s, fill_value=110):
+    seq = np.frombuffer(str(s).lower().encode('utf-8'), dtype=np.int8).copy()
+    seq[(seq!=97) & (seq!=99) & (seq!=103) & (seq!=116)] = fill_value
+    return seq
+
 # Function adapted from https://github.com/gtonkinhill/pairsnp-python
-def calculate_snp_matrix(fastafile, consensus=None, zipped=False):
+def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110):
     # This function generate a sparse matrix where differences to the consensus are coded as integers.
 
     row = np.empty(INITIALISATION_LENGTH)
@@ -26,6 +43,7 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False):
     n_snps = 0
     nseqs = 0
     seq_names = []
+    filled_positions = []
     current_length = INITIALISATION_LENGTH
     if zipped:
         fh = gzip.open(fastafile, 'rt')
@@ -36,8 +54,7 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False):
             if consensus is None:
                 align_length = len(s)
                 # Take consensus as first sequence
-                consensus = np.frombuffer(s.lower().encode('utf-8'), dtype=np.int8).copy()
-                consensus[(consensus!=97) & (consensus!=99) & (consensus!=103) & (consensus!=116)] = 97
+                consensus = sequence_to_int_array(s, fill_value=fill_value)
             else:
                 align_length = len(consensus)
 
@@ -47,10 +64,10 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False):
             if(len(s)!=align_length):
                 raise ValueError('Fasta file appears to have sequences of different lengths!')
 
-            s = np.frombuffer(s.lower().encode('utf-8'), dtype=np.int8).copy()
-            s[(s!=97) & (s!=99) & (s!=103) & (s!=116)] = 110
-            snps = consensus!=s
+            s = sequence_to_int_array(s, fill_value=fill_value)
+            snps = (consensus!=s) & (s!=fill_value)
             right = n_snps + np.sum(snps)
+            filled_positions.append(np.where(s==fill_value)[0])
 
             if right >= (current_length/2):
                 current_length = current_length + INITIALISATION_LENGTH
@@ -68,13 +85,13 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False):
     if nseqs==0:
         raise ValueError('No sequences found!')
 
-    row = row[0:right] 
+    row = row[0:right]
     col = col[0:right]
     val = val[0:right]
 
     sparse_snps = sparse.csc_matrix((val, (row, col)), shape=(nseqs, align_length))
 
-    return {'snps': sparse_snps, 'consensus': consensus, 'names': seq_names}
+    return {'snps': sparse_snps, 'consensus': consensus, 'names': seq_names, 'filled_positions': filled_positions}
 
 # Function adapted from https://github.com/gtonkinhill/pairsnp-python
 def calculate_distance_matrix(sparse_matrix_A, sparse_matrix_B, consensus):
@@ -94,14 +111,14 @@ def calculate_distance_matrix(sparse_matrix_A, sparse_matrix_B, consensus):
 
     temp_total = np.zeros((n_seqs_A, n_seqs_B))
     temp_total[:] = (1*(sparse_matrix_A>0)).sum(1)
-    temp_total += (1*(sparse_matrix_B>0)).sum(1).transpose()    
+    temp_total += (1*(sparse_matrix_B>0)).sum(1).transpose()
 
     total_differences_shared = (1*(sparse_matrix_A>0)) * (sparse_matrix_B.transpose()>0)
 
     n_total = np.zeros((n_seqs_A, n_seqs_B))
     n_sum = (1*(sparse_matrix_A==110)).sum(1)
     n_total[:] = n_sum
-    n_total += (1*(sparse_matrix_B==110)).sum(1).transpose()  
+    n_total += (1*(sparse_matrix_B==110)).sum(1).transpose()
 
     diff_n = n_total - 2*n_comp
     d = temp_total - total_differences_shared.todense() - d - diff_n
@@ -114,40 +131,28 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--alignment", type=str, required=True, help="FASTA file of alignment")
+    parser.add_argument("--reference", type = str, required=True, help="reference sequence")
     parser.add_argument("--metadata", type = str, required=True, help="metadata")
     parser.add_argument("--focal-alignment", type = str, required=True, help="focal smaple of sequences")
     parser.add_argument("--output", type=str, required=True, help="FASTA file of output alignment")
     args = parser.parse_args()
 
     # load entire alignment and the alignment of focal sequences (upper case -- probably not necessary)
-    context_seqs_dict = calculate_snp_matrix(args.alignment)
-    focal_seqs_dict = calculate_snp_matrix(args.focal_alignment, consensus = context_seqs_dict['consensus'])
-    alignment_length = len(context_seqs_dict['consensus'])
+    ref = sequence_to_int_array(SeqIO.read(args.reference, 'genbank').seq)
+    context_seqs_dict = calculate_snp_matrix(args.alignment, consensus=ref)
+    focal_seqs_dict = calculate_snp_matrix(args.focal_alignment, consensus = ref)
+    alignment_length = len(ref)
     print("Done reading the alignments.")
 
-    # read in focal alignment to figure out number N & gap
-    focal_seqs = [x.upper() for x in AlignIO.read(args.focal_alignment, format='fasta')]
-    focal_seqs_array = np.array([list(str(x.seq)) for x in focal_seqs])
-    
-    #focal_seqs2 = {x.id:x.upper() for x in AlignIO.read(args.focal_alignment, format='fasta')}
-    #focal_seqs_array2 = np.array([list(str(focal_seqs[x].seq)) for x in focal_seqs])
-    mask_count_focal = np.sum(np.logical_or(focal_seqs_array=='N',focal_seqs_array=='-'), axis=1)
-
-    # remove focal sequences from all sequence to provide context data set
-    keep = [(i, name) for i, name in enumerate(context_seqs_dict['names']) if name not in set(focal_seqs_dict['names'])]
-    context_seqs_dict['snps'] = context_seqs_dict['snps'].tocsr()[[i for i, name in keep],:].tocsc()
-    context_seqs_dict['names'] = [name for i, name in keep]
-
-    tmp_context_seqs = {x.id: x.upper() for x in AlignIO.read(args.alignment, format='fasta')}
-    context_seqs_array = np.array([list(str(tmp_context_seqs[x[1]].seq)) for x in keep])
-    mask_count_context = {k[1]:m for k,m in zip(keep, np.sum(np.logical_or(context_seqs_array=='N',context_seqs_array=='-'), axis=1))}
+    # calculate number of masked sites in either set
+    mask_count_focal = np.array([len(x) for x in focal_seqs_dict['filled_positions']])
+    mask_count_context = {s: len(x) for s,x in zip(context_seqs_dict['names'], context_seqs_dict['filled_positions'])}
 
     # for each context sequence, calculate minimal distance to focal set, weigh with number of N/- to pick best sequence
     d = np.array(calculate_distance_matrix(context_seqs_dict['snps'], focal_seqs_dict['snps'], consensus = context_seqs_dict['consensus']))
     closest_match = np.argmin(d+mask_count_focal/alignment_length, axis=1)
-    #closest_match = np.argmin(d, axis=1)[:,0]
     print("Done finding closest matches.")
-    
+
     minimal_distance_to_focal_set = {}
     for context_index, focal_index in enumerate(closest_match):
         minimal_distance_to_focal_set[context_seqs_dict['names'][context_index]] = (d[context_index, focal_index], focal_seqs_dict["names"][focal_index])
@@ -160,8 +165,6 @@ if __name__ == '__main__':
     for f in close_matches:
         shuffle(close_matches[f])
         close_matches[f].sort(key=lambda x: minimal_distance_to_focal_set[x][0] + mask_count_context[x]/alignment_length)
-
-    
 
     # export priorities
     with open(args.output, 'w') as fh:

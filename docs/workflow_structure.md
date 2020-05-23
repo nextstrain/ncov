@@ -14,8 +14,7 @@ The following outlines the directory structure of the ncov workflow and describe
       - `ncov_global_zh.json`: Chinese translation for global build JSON for Nextstrain team
       - `ncov_africa.json`: Africa build tree and metadata
   - `config/`: files used to configure workflow
-      - `config.yaml`: primary configuration file, change workflow settings like filtering or subsampling thresholds here
-      - `nextstrain_config.yaml`: additional configuration for Nextstrain team that defines all regions to build. These settings get merged with primary config/config.yaml settings.
+      - `config.yaml`: primary configuration file, change workflow settings like filtering or subsampling thresholds here. These are modified by specific profiles below.
   - `data/`: data needed to start running a build, either downloaded from GISAID for general users or from S3 for the Nextstrain team
       - `metadata.tsv`: tab-delimited description of strain attributes
       - `sequences.fasta`: genomic sequences of strains with sequence ids matching `strain` in the metadata
@@ -35,6 +34,7 @@ The following outlines the directory structure of the ncov workflow and describe
           - `config.yaml`: a simple profile with reasonable defaults
       - `nextstrain/`
           - `config.yaml`: a profile with preferred arguments for the Nextstrain team and definition of the Nextstrain-specific configuration file
+          - `builds.yaml`: additional configuration for Nextstrain team that defines all regions to build. These settings get merged with primary config/config.yaml settings.
   - `results/`: all intermediate results from the workflow go here (examples below)
       - `filtered.fasta`: sequences that pass quality control filters
       - `aligned.fasta`: multiple sequence alignment (MSA)

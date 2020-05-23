@@ -1,5 +1,6 @@
 configfile:
   - config/config.yaml
+  - profiles/default/builds.yaml
   # Add your own config files to the list here.
   # For example, uncomment the following line and create the corresponding config file to override defaults or provide your own new configuration parameters.
   # - profiles/default/custom_config.yaml
