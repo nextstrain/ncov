@@ -28,7 +28,7 @@ if __name__ == '__main__':
     parser.add_argument("--output", required=True, help="FASTA file of output alignment")
     args = parser.parse_args()
 
-    being_length = 0
+    begin_length = 0
     if args.mask_from_beginning:
         begin_length = args.mask_from_beginning
     end_length = 0
