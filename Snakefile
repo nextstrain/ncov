@@ -6,32 +6,36 @@ from snakemake.utils import validate
 configfile: "config/config.yaml"
 validate(config, schema="schemas/config.schema.yaml")
 
-# For information on how to run Nextstrain 'regions' runs, see rules/nextstrain_exports.smk
-# Regions can be defined as a list or a space-delimited string that is converted
-# to a list.
-if "regions" not in config:
-    REGIONS = ["global"]
-elif isinstance(config["regions"], list):
-    REGIONS = config["regions"]
-else:
-    REGIONS = config["regions"].split(" ")
+# In our shell rules, we try to use the same Python executable running
+# Snakemake, if known, by interpolating {python:q}.  The aim is to prevent
+# issues with multiple Python versions or symlinks for python vs. python3.
+python = sys.executable or "python3"
+
+# default build if none specified in config
+if "builds" not in config:
+    config["builds"] = {
+        "global":{
+                    "geographic_scale": "region",
+                    "subsampling_scheme": "region_global",
+                 }
+        }
+
+BUILD_NAMES = list(config["builds"].keys())
 
 # Define patterns we expect for wildcards.
 wildcard_constraints:
-    region = "[-a-zA-Z]+",
-    date = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
+    # Allow build names to contain alpha characters, underscores, and hyphens
+    # but not special strings used for Nextstrain builds.
+    build_name = r'(?:[_a-zA-Z-](?!(tip-frequencies|gisaid|zh)))+',
+    date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 localrules: download
-
-# Define the format of the output path per region.
-# This format can be changed in the future to group builds by different criteria (e.g., division, country, etc.).
-REGION_PATH = "results/region/{region}/"
 
 # Create a standard ncov build for auspice, by default.
 rule all:
     input:
-        auspice_json = expand("auspice/ncov_{region}.json", region=REGIONS),
-        tip_frequencies_json = expand("auspice/ncov_{region}_tip-frequencies.json", region=REGIONS)
+        auspice_json = expand("auspice/ncov_{build_name}.json", build_name=BUILD_NAMES),
+        tip_frequency_json = expand("auspice/ncov_{build_name}_tip-frequencies.json", build_name=BUILD_NAMES),
 
 rule clean:
     message: "Removing directories: {params}"
@@ -52,5 +56,7 @@ include: "rules/builds.smk"
 # narratives, etc.
 include: "rules/nextstrain_exports.smk"
 
+# Include a custom Snakefile that specifies `localrules` required by the user's
+# workflow environment.
 if "localrules" in config:
     include: config["localrules"]

@@ -65,7 +65,12 @@
     },
     {
       "key": "country_exposure",
-      "title": "Exposure History",
+      "title": "Country of exposure",
+      "type": "categorical"
+    },
+    {
+      "key": "division_exposure",
+      "title": "Division of exposure",
       "type": "categorical"
     }
   ],
@@ -88,9 +93,7 @@
     "country",
     "region",
     "host",
-    "author",
-    "originating_lab",
-    "submitting_lab"
+    "author"
   ],
   "panels": [
     "tree",
