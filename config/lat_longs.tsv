@@ -1,4 +1,5 @@
 
+
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
 location	Adams County WI	43.973540	-89.755486
@@ -39,6 +40,7 @@ location	Blanchardville	42.809498	-89.860021
 location	Blandain	50.624503	3.303954
 location	Blaricum	52.2727	5.2481
 location	Bonrepos i Mirambell	39.5178	-0.3647
+location	Bossier Parish	32.684186	-93.609166
 location	Boston	42.354750	-71.061299
 location	Botad	22.1723	71.6636
 location	Bourg-en-Bresse	46.206861	5.229144
@@ -107,6 +109,7 @@ location	Dasman	29.386491	47.999895
 location	Davis	38.5449	-121.7405
 location	DeForest	43.244858	-89.351873
 location	Delft	52.0116	4.3571
+location	DeSoto Parish	32.071362	-93.725530
 location	Derbyshire	53.142893	-1.611670
 location	Dhansura	23.3498	73.2087
 location	Dijon	47.3220	5.0415
@@ -156,6 +159,7 @@ location	Gold Coast	-28.019726	153.398160
 location	Gondrecourt-le-chateau	48.505557	5.503554
 location	Grafton	43.315718	-87.954140
 location	Grant County	47.163630	-119.524786
+location	Grant Parish	31.570014	-92.534059
 location	Grand Princess Cruise Ship	38.308882	-123.779663
 location	Grau de Sagunt	39.633481	-0.241370
 location	Greater Milwaukee Area	43.0389	-87.9065
@@ -859,6 +863,7 @@ division	Mons	50.445439	3.962794
 division	Montana	46.974704	-110.872530
 division	Montevideo	-34.823827	-56.211799
 division	Montigny-le-Tilleul	50.374917	4.371814
+location	Morehouse Parish	32.813203	-91.810337
 division	Moscow	55.7558	37.6173
 division	Moscow Region	55.3404	38.2918
 division	Mouscron	50.738645	3.23861
@@ -958,6 +963,7 @@ division	Quito	-0.18126	-78.4599
 division	Rajsathan	27.0238	74.2179
 division	Ramat Gan	32.0684	34.8248
 division	Rancagua	-34.1701	-70.7406
+location	Rapides Parish	31.204868	-92.527191
 division	Ravels	51.416526	5.022319
 division	Red River Delta	21.010949	105.786621
 division	Republic of Buryatia	54.8331	112.4061
@@ -1056,6 +1062,7 @@ division	Tekirdag	40.9781	27.5117
 division	Tel Aviv District	32.0929	34.8072
 division	Telangana	18.094062	79.141493
 division	Temuco	-38.7359	-72.5904
+location	Tensas Parish	31.996977	-91.321633
 division	Teramo	42.6611	13.6987
 division	Tervuren	50.820725	4.52387
 division	Texas	31.146868	-99.188758
