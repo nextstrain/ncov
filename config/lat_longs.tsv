@@ -1,5 +1,4 @@
 
-
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
 location	Adams County WI	43.973540	-89.755486
@@ -238,6 +237,7 @@ location	Kunming	25.013024	102.866742
 location	Kyoto	35.007542	135.768455
 location	L'Aquila	42.360082	13.391087
 location	La Crosse County	43.8617	-91.1353
+location	La Union	9.922919	-84.001485
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
 location	Lanaudière	46.76678	-73.83248
@@ -317,6 +317,7 @@ location	Onondaga County	43.0268	-76.1784
 location	Orange County CA	33.689584	-117.788718
 location	Orange County NY	41.394693	-74.289170
 location	Oregon WI	42.927835	-89.380569
+location	Orotina	9.913179	-84.523659
 location	Orsay	48.703347	2.187373
 location	Oss	51.762396	5.530563
 location	Pacho	5.135952	-74.156902
@@ -378,6 +379,8 @@ location	San Juan	9.9281	-84.0907
 location	San Mateo County	37.438721	-122.348737
 location	San Francisco	37.757679	-122.440006
 location	San Rafael	10.0145	-84.0986
+location	San Rafael de Alajuela	9.964081	-84.223595
+location	San Rafael Heredia	10.013197	-84.097456
 location	Santa Clara County	37.236094	-121.683399
 location	Santa Marta	11.234638	-74.192698
 location	Santa Sofia	5.714409	-73.602111
@@ -516,6 +519,7 @@ division	Aichi	35.067543	137.334061
 division	Aksaray	38.44611	33.878216
 division	Alabama	32.3182	-86.9023
 division	Alagoas	-9.74863	-36.417626
+division	Alajuela	10.020137	-84.210339
 division	Alaska	65.797699	-152.214189
 division	Algeria	28.0000272	2.9999825
 division	Alken	50.877283	5.289834
@@ -599,6 +603,7 @@ division	Cambodia	13	105
 division	Canada	61.0666922	-107.991707
 division	Canakkale	40.030844	26.733769
 division	Canary Islands	28.2916	-16.6291
+division	Cartago	9.860294	-83.918495
 division	Castel di Sangro	41.784	14.108
 division	Castilla La Mancha	39.2796	-3.0977
 division	Castilla y Leon	41.8357	-4.3976
@@ -726,6 +731,7 @@ division	Helsinki	60.1698848	24.9384991
 division	Hemiksem	51.143514	4.339896
 division	Henan	33.817629	113.690243
 division	Henri-chapelle	50.665958	5.932616
+division	Heredia	9.997549	-84.121162
 division	Herent	50.91021	4.644197
 division	Herselt	51.048723	4.879674
 division	Herstal	50.680399	5.606845

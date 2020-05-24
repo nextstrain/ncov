@@ -1,3 +1,4 @@
+
 location	Wuhan
 location	Tianmen
 location	Hefei
@@ -323,6 +324,10 @@ location	Alajuela
 location	San Rafael
 location	Cartago
 location	San Juan
+location	San Rafael de Alajuela
+location	San Rafael Heredia
+location	Orotina
+location	La Union
 location	Heredia
 location	La Crosse County
 location	Stoughton
@@ -1064,6 +1069,9 @@ division	Panama
 division	San Rafael
 division	La Union
 division	Tibas
+division	Alajuela
+division	Heredia
+division	Cartago
 division	Orotina
 division	Mexico
 division	Mexico City
