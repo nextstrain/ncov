@@ -5,7 +5,6 @@ location	Adams County WI	43.973540	-89.755486
 location	Adams County WA	46.985877	-118.480355
 location	ahmedabad	23.024605	72.570805
 location	Aichi	35.067543	137.334061
-location	Alajuela	10.0159	-84.2142
 location	Albany County	42.601369	-73.973601
 location	Alboraya	39.4990	-0.3510
 location	Albuixech	39.5448	-0.3248
@@ -65,7 +64,6 @@ location	Campbellsport	43.596732	-88.280763
 location	Canet d'en Berenguer	39.6806	-0.2192
 location	Cardiff	51.476291	-3.178964
 location	Carentan	49.302133	-1.250938
-location	Cartago	9.8638	-83.9162
 location	Cayuga County	42.900990	-76.575649
 location	Cergy	49.0356	2.0603
 location	Chalon sur Saone	46.7808	4.8539
@@ -180,7 +178,6 @@ location	Hawali	9.3378	48.0235
 location	Hefei	31.806280	117.227234
 location	Heinsberg	51.056262	6.113915
 location	Heinsberg District	51.0499	6.1163
-location	Heredia	9.9981	-84.1198
 location	Heverlee	50.861704	4.695889
 location	Helmond	51.4793	5.6570
 location	Hillpoint	43.423267	-90.113371
@@ -375,10 +372,8 @@ location	San Diego	32.733024	-117.143358
 location	San Diego County	32.981125	-116.681405
 location	San Francisco County	37.7749	-122.4194
 location	San Joaquin County	37.917472	-121.258503
-location	San Juan	9.9281	-84.0907
 location	San Mateo County	37.438721	-122.348737
 location	San Francisco	37.757679	-122.440006
-location	San Rafael	10.0145	-84.0986
 location	San Rafael de Alajuela	9.964081	-84.223595
 location	San Rafael Heredia	10.013197	-84.097456
 location	Santa Clara County	37.236094	-121.683399
@@ -440,6 +435,7 @@ location	Thiensville	43.236206	-87.979679
 location	Thise	47.284553	6.079822
 location	Thurston County	46.935508	-122.867349
 location	Tianmen	30.6510	113.1556
+location	Tibas	9.9576	-84.0816
 location	Tierralta	8.171825	-76.060340
 location	Tilburg	51.571419	5.052759
 location	Togui	5.937829	-73.513494
@@ -813,7 +809,6 @@ division	Kyoto	35.007542	135.768455
 division	Ladakh	34.152588	77.577049
 division	La Louviere	50.469989	4.158129
 division	La Rioja	42.2871	-2.5396
-division	La Union	9.7489	-83.7534
 division	Lagos	6.54252	3.286661
 division	Lanaken	50.884429	5.634002
 division	Lapland	67.700017	26.273752
@@ -926,7 +921,6 @@ division	Orebro lan	59.378174	14.948348
 division	Oregon	43.8041	-120.5542
 division	Orenburg Region	51.7634	54.6188
 division	Oroshaza	46.5684	20.6545
-division	Orotina	9.9120	-84.5195
 division	Osaka	34.64872	135.525013
 division	Oslo	59.903687	10.7497
 division	Ostergotland	58.402269	15.748012
@@ -1000,7 +994,7 @@ division	Salzburg	47.356774	13.227550
 division	Samara Region	53.4184	50.4726
 division	samut prakarn	13.581663	100.721344
 division	Santa Catarina	-27.15767	-49.888561
-division	San Rafael	10.0145	-84.0986
+division	San Jose	9.9281	-84.0907
 division	Santiago	-33.383304	-70.530623
 division	Sao Paulo	-23.59806	-46.660537
 division	Saskatchewan	53.934278	-106.16006
@@ -1076,7 +1070,6 @@ division	Thailand	14.8971921	100.83273
 division	Thanh Hoa	20.026365	105.439044
 division	Theux	50.518906	5.814748
 division	Thies	14.791	-16.9359
-division	Tibas	9.9576	-84.0816
 division	Ticino	46.345334	8.774813
 division	Tielt-Winge	50.922676	4.892596
 division	Tienen	50.80466	4.937784
@@ -1188,6 +1181,7 @@ country	Qatar	25.230573	51.183951
 country	Romania	45.9432	24.9668
 country	Sri Lanka	7.8731	80.7718
 country	Turkey	39.046746	36.767068
+country	Uganda	1.861287	32.551490
 
 country	Africa	4.070194	21.824559
 country	Asia	30.451098	86.654576
