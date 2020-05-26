@@ -662,7 +662,6 @@ USA/UF-2/2020
 USA/FL-2/2020
 USA/FL-UF1/2020
 USA/FL-UF2/2020
-USA/COVID19-AK087/2020
 
 
 # causes IQTREE error: ERROR: b'ERROR: Sequence Norway_X_X_1539_X_X_2020 has invalid character I at site 20199
