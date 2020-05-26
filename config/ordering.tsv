@@ -97,6 +97,7 @@ location	Hawali
 location	Dasman
 location	Ulan-Ude
 location	Kipen
+location	Kraków
 location	Bela - Ledec na Sazavou
 location	Ischgl
 location	Innsbruck
@@ -229,6 +230,7 @@ location	Yernee-fraineux
 location	Starnberg
 location	Strasbourg
 location	Rome
+location	Bergamo
 location	Milan
 location	Verona IT
 location	L'Aquila
@@ -624,6 +626,7 @@ division	Brunei
 division	Jakarta
 division	Surabaya
 division	India
+division	Karachi
 division	Bangladesh
 division	Australia
 division	South Australia
@@ -941,6 +944,7 @@ division	Lazio
 division	Marche
 division	Lombardy
 division	Abruzzo
+division	Apulia
 division	Rome
 division	Teramo
 division	Veneto
@@ -1116,6 +1120,8 @@ division	Nebraska
 division	Kansas
 division	Nevada
 division	Arizona
+division	Colorado
+division	New Mexico
 division	Utah
 division	Wyoming
 division	Idaho
