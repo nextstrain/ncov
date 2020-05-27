@@ -12,10 +12,13 @@ rule download:
 
 rule combine_exclude_files:
     message: "Combining the local `exclude.txt` with the generated one on S3"
+    input:
+        exclude = config["files"]["exclude"]
     output:
-        exclude = "config/exclude.txt"
+        exclude = "results/exclude.txt"
     shell:
         """
+        cp {input.exclude} {output.exclude:q}
         aws s3 cp s3://nextstrain-ncov-private/exclude.txt - >> {output.exclude:q}
         """
 
@@ -29,7 +32,7 @@ rule filter:
         sequences = rules.download.output.sequences,
         metadata = rules.download.output.metadata,
         include = config["files"]["include"],
-        exclude = config["files"]["exclude"]
+        exclude = rules.combine_exclude_files.output.exclude
     output:
         sequences = "results/filtered.fasta"
     log:
