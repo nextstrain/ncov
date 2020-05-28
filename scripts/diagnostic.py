@@ -24,7 +24,7 @@ def analyze_divergence(sequences, metadata, reference):
     diagnostics = defaultdict(dict)
     fill_value = 110
     gap_value = 45
-    ws = 100
+    ws = 50
     cluster_cut_off = 5
     with open(sequences) as fasta:
         for h,s in SimpleFastaParser(fasta):
@@ -42,9 +42,13 @@ def analyze_divergence(sequences, metadata, reference):
             gap_start = np.where(np.diff(gaps)==1)[0]
             gap_end = np.where(np.diff(gaps)==-1)[0]
 
-            clusters = np.array(np.convolve(snps, np.ones(ws), mode='same')>cluster_cut_off, dtype=int)
-            cluster_start = np.where(np.diff(clusters)==1)[0]
-            cluster_end = np.where(np.diff(clusters)==-1)[0]
+            clusters = np.array(np.convolve(snps, np.ones(ws), mode='same')>=cluster_cut_off, dtype=int)
+            cluster_start = [0] if clusters[0] else []
+            cluster_start.extend([max(0, x-ws//2) for x in np.where(np.diff(clusters)==1)[0]])
+            cluster_end = [min(int_ref.shape[0], x+ws//2) for x in np.where(np.diff(clusters)==-1)[0]]
+            if clusters[-1]:
+                cluster_end.append(int_ref.shape[0])
+
             diagnostics[h] = {'snps':list(np.where(snps)[0]), 'gaps': list(zip(gap_start, gap_end)), 'gap_sum':np.sum(gaps),
                               'no_data':np.sum(filled),
                               'clusters': [(b,e,np.sum(snps[b:e])) for b,e in zip(cluster_start, cluster_end)]}
