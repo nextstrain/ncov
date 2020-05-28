@@ -19,6 +19,9 @@ rule combine_exclude_files:
     shell:
         """
         cp {input.exclude} {output.exclude:q}
+
+        # add trailing newline to end of copied exclude file before combining
+        printf '\n' >> {output.exclude:q}
         aws s3 cp s3://nextstrain-ncov-private/exclude.txt - >> {output.exclude:q}
         """
 
