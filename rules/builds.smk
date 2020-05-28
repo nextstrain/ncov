@@ -46,6 +46,83 @@ rule filter:
             --output {output.sequences} 2>&1 | tee {log}
         """
 
+rule excluded_sequences:
+    message:
+        """
+        Generating fasta file of exluded sequences
+        """
+    input:
+        sequences = rules.download.output.sequences,
+        metadata = rules.download.output.metadata,
+        include = config["files"]["exclude"]
+    output:
+        sequences = "results/excluded.fasta"
+    log:
+        "logs/excluded.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --include {input.include} \
+            --min-length 50000 \
+            --output {output.sequences} 2>&1 | tee {log}
+        """
+
+rule align_excluded:
+    message:
+        """
+        Aligning excluded sequences to {input.reference}
+          - gaps relative to reference are considered real
+        """
+    input:
+        sequences = rules.excluded_sequences.output.sequences,
+        reference = config["files"]["reference"]
+    output:
+        alignment = "results/excluded_alignment.fasta"
+    log:
+        "logs/align_excluded.txt"
+    threads: 2
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur align \
+            --sequences {input.sequences} \
+            --reference-sequence {input.reference} \
+            --output {output.alignment} \
+            --nthreads {threads} \
+            --remove-reference 2>&1 | tee {log}
+        """
+
+rule diagnose_excluded:
+    message: "Scanning excluded sequences {input.alignment} for problematic sequences"
+    input:
+        alignment = rules.align_excluded.output.alignment,
+        metadata = rules.download.output.metadata,
+        reference = config["files"]["reference"]
+    output:
+        diagnostics = "results/excluded-sequence-diagnostics.tsv",
+        flagged = "results/excluded-flagged-sequences.tsv"
+    log:
+        "logs/diagnose-excluded.txt"
+    params:
+        mask_from_beginning = config["mask"]["mask_from_beginning"],
+        mask_from_end = config["mask"]["mask_from_end"]
+    conda: config["conda_environment"]
+    shell:
+        """
+        {python:q} scripts/diagnostic.py \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --reference {input.reference} \
+            --mask-from-beginning {params.mask_from_beginning} \
+            --mask-from-end {params.mask_from_end} \
+            --output-flagged {output.flagged} \
+            --output-diagnostics {output.diagnostics} 2>&1 | tee {log}
+        """
+
+
 checkpoint partition_sequences:
     input:
         sequences = rules.filter.output.sequences
@@ -121,7 +198,7 @@ rule diagnostic:
         diagnostics = "results/sequence-diagnostics.tsv",
         flagged = "results/flagged-sequences.tsv"
     log:
-        "logs/mask.txt"
+        "logs/diagnostics.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"]
