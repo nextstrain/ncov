@@ -111,6 +111,29 @@ rule aggregate_alignments:
         cat {input.alignments} > {output.alignment} 2> {log}
         """
 
+rule diagnostic:
+    message: "Scanning aligned sequences {input.alignment} for problematic sequences"
+    input:
+        alignment = rules.aggregate_alignments.output.alignment,
+        metadata = metadata = rules.download.output.metadata,
+        reference = config["files"]["reference"]
+    output:
+        diagnostics = "results/sequence-diagnostics.tsv",
+        flagged = "results/flagged-sequences.tsv"
+    log:
+        "logs/mask.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        {python:q} scripts/diagnostic.py \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --reference {input.reference} \
+            --output-flagged {output.flagged} \
+            --output-diagnostics {output.diagnostic} 2>&1 | tee {log}
+        """
+
+
 rule mask:
     message:
         """
