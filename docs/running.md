@@ -108,15 +108,26 @@ builds:
   switzerland:
     subsampling_scheme: country
     geographic_scale: country
+    region: Europe
+    country: Switzerland
   basel-stadt:
     subsampling_scheme: canton
     geographic_scale: division
+    region: Europe
+    country: Switzerland
+    division: Basel-Stadt
   ticino:
     subsampling_scheme: canton
     geographic_scale: division
+    region: Europe
+    country: Switzerland
+    division: Ticino
   lac-leman:
     subsampling_scheme: lac-leman
     geographic_scale: division
+    region: Europe
+    country: Switzerland
+    division: Lac Leman
 ```
 These subsampling schemes for the cantons and the composite region `lac-leman` are
 not one our default scheme but custom ones.
