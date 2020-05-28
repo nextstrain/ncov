@@ -256,51 +256,39 @@ except:
     # means that the Snakefile won't crash.
     deploy_origin = "by an unknown identity"
 
-rule deploy_to_staging:
-    input:
-        *rules.all_regions.input
-    params:
-        slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
-        s3_staging_url = config["s3_staging_url"]
-    conda: config["conda_environment"]
-    shell:
-        """
-        nextstrain deploy {params.s3_staging_url:q} {input:q}
+if config["connect_to_s3"]:
+    rule deploy_to_staging:
+        input:
+            *rules.all_regions.input
+        params:
+            slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
+            s3_staging_url = config["s3_staging_url"]
+        conda: config["conda_environment"]
+        shell:
+            """
+            nextstrain deploy {params.s3_staging_url:q} {input:q}
 
-        if [[ -n "$SLACK_TOKEN" && -n "$SLACK_CHANNEL" ]]; then
-            curl https://slack.com/api/chat.postMessage \
-                --header "Authorization: Bearer $SLACK_TOKEN" \
-                --form-string channel="$SLACK_CHANNEL" \
-                --form-string text={params.slack_message:q} \
-                --fail --silent --show-error \
-                --include
-        fi
-        """
+            if [[ -n "$SLACK_TOKEN" && -n "$SLACK_CHANNEL" ]]; then
+                curl https://slack.com/api/chat.postMessage \
+                    --header "Authorization: Bearer $SLACK_TOKEN" \
+                    --form-string channel="$SLACK_CHANNEL" \
+                    --form-string text={params.slack_message:q} \
+                    --fail --silent --show-error \
+                    --include
+            fi
+            """
 
-onstart:
-    slack_message = f"Build {deploy_origin} started."
+    onerror:
+        slack_message = f"Build {deploy_origin} failed."
 
-    if SLACK_TOKEN and SLACK_CHANNEL:
-        shell(f"""
-            curl https://slack.com/api/chat.postMessage \
-                --header "Authorization: Bearer $SLACK_TOKEN" \
-                --form-string channel="$SLACK_CHANNEL" \
-                --form-string text={{slack_message:q}} \
-                --fail --silent --show-error \
-                --include
-        """)
-
-onerror:
-    slack_message = f"Build {deploy_origin} failed."
-
-    if SLACK_TOKEN and SLACK_CHANNEL:
-        shell(f"""
-            curl https://slack.com/api/files.upload \
-                --header "Authorization: Bearer $SLACK_TOKEN" \
-                --form-string channels="$SLACK_CHANNEL" \
-                --form-string initial_comment={{slack_message:q}} \
-                --form file=@{{log:q}} \
-                --form filetype=text \
-                --fail --silent --show-error \
-                --include
-        """)
+        if SLACK_TOKEN and SLACK_CHANNEL:
+            shell(f"""
+                curl https://slack.com/api/files.upload \
+                    --header "Authorization: Bearer $SLACK_TOKEN" \
+                    --form-string channels="$SLACK_CHANNEL" \
+                    --form-string initial_comment={{slack_message:q}} \
+                    --form file=@{{log:q}} \
+                    --form filetype=text \
+                    --fail --silent --show-error \
+                    --include
+            """)

@@ -1,6 +1,7 @@
 configfile:
   - config/config.yaml
   - profiles/nextstrain/builds.yaml
+  - profiles/nextstrain/s3.yaml
 
 cores: 8
 keep-going: True

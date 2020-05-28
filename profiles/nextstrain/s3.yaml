@@ -1,0 +1,4 @@
+connect_to_s3: True
+
+# S3 options are related to Nextstrain live builds and don't need to be modified for local builds
+s3_staging_url: s3://nextstrain-staging

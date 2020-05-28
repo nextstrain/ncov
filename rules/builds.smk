@@ -1,29 +1,36 @@
-rule download:
-    message: "Downloading metadata and fasta files from S3"
-    output:
-        sequences = config["sequences"],
-        metadata = config["metadata"]
-    conda: config["conda_environment"]
-    shell:
-        """
-        aws s3 cp s3://nextstrain-ncov-private/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}
-        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
-        """
+if config["connect_to_s3"]:
+    rule download:
+        message: "Downloading metadata and fasta files from S3"
+        output:
+            sequences = config["sequences"],
+            metadata = config["metadata"]
+        conda: config["conda_environment"]
+        shell:
+            """
+            aws s3 cp s3://nextstrain-ncov-private/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}
+            aws s3 cp s3://nextstrain-ncov-private/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
+            """
 
-rule combine_exclude_files:
-    message: "Combining the local `exclude.txt` with the generated one on S3"
-    input:
-        exclude = config["files"]["exclude"]
-    output:
-        exclude = "results/exclude.txt"
-    shell:
-        """
-        cp {input.exclude} {output.exclude:q}
+    rule combine_exclude_files:
+        message: "Combining the local `exclude.txt` with the generated one on S3"
+        input:
+            exclude = config["files"]["exclude"]
+        output:
+            exclude = "results/exclude.txt"
+        shell:
+            """
+            cp {input.exclude} {output.exclude:q}
 
-        # add trailing newline to end of copied exclude file before combining
-        printf '\n' >> {output.exclude:q}
-        aws s3 cp s3://nextstrain-ncov-private/exclude.txt - >> {output.exclude:q}
-        """
+            # add trailing newline to end of copied exclude file before combining
+            printf '\n' >> {output.exclude:q}
+            aws s3 cp s3://nextstrain-ncov-private/exclude.txt - >> {output.exclude:q}
+            """
+else:
+    rule download:
+        message: "Sourcing local metadata and fasta files"
+        output:
+            sequences = config["sequences"],
+            metadata = config["metadata"]
 
 rule filter:
     message:
@@ -35,7 +42,7 @@ rule filter:
         sequences = rules.download.output.sequences,
         metadata = rules.download.output.metadata,
         include = config["files"]["include"],
-        exclude = rules.combine_exclude_files.output.exclude
+        exclude = rules.combine_exclude_files.output.exclude if config["connect_to_s3"] else config["files"]["exclude"]
     output:
         sequences = "results/filtered.fasta"
     log:
