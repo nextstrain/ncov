@@ -101,6 +101,7 @@ For each build, you can specify
 
  - `subsampling_scheme`: specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes can be defined (see below).
  - `geographic_scale` and `geographic_name`: together, these two define the keys for subsampling. `geographic_name` defaults to `build_name` if not specified.
+ - `region`, `country`, and `division`: specify the location of the sample, down to the specified `geographic_scale`. If the build is a compilation of locations (like the `lac-leman` example below), you can provide your own final geographic location name.
 
 For our Switzerland specific builds, this looks like this:
 ```yaml
