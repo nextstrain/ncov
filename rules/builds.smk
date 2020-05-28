@@ -122,6 +122,9 @@ rule diagnostic:
         flagged = "results/flagged-sequences.tsv"
     log:
         "logs/mask.txt"
+    params:
+        mask_from_beginning = config["mask"]["mask_from_beginning"],
+        mask_from_end = config["mask"]["mask_from_end"]
     conda: config["conda_environment"]
     shell:
         """
@@ -129,6 +132,8 @@ rule diagnostic:
             --alignment {input.alignment} \
             --metadata {input.metadata} \
             --reference {input.reference} \
+            --mask-from-beginning {params.mask_from_beginning} \
+            --mask-from-end {params.mask_from_end} \
             --output-flagged {output.flagged} \
             --output-diagnostics {output.diagnostics} 2>&1 | tee {log}
         """

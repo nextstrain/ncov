@@ -20,7 +20,7 @@ def expected_divergence(date):
     except:
         return np.nan
 
-def analyze_divergence(sequences, metadata, reference):
+def analyze_divergence(sequences, metadata, reference, mask_5p=0, mask_3p=0):
     int_ref = sequence_to_int_array(reference, fill_gaps=False)
     diagnostics = defaultdict(dict)
     fill_value = 110
@@ -32,6 +32,11 @@ def analyze_divergence(sequences, metadata, reference):
             left_gaps = len(s) - len(s.lstrip('-'))
             right_gaps = len(s) - len(s.rstrip('-'))
             s = sequence_to_int_array(s, fill_value=fill_value, fill_gaps=False)
+            if mask_5p:
+                s[:mask_5p] = fill_value
+            if mask_3p:
+                s[-mask_3p:] = fill_value
+
             if left_gaps:
                 s[:left_gaps] = fill_value
             if right_gaps:
@@ -51,7 +56,7 @@ def analyze_divergence(sequences, metadata, reference):
                 cluster_end.append(int_ref.shape[0])
 
             diagnostics[h] = {'snps':list(np.where(snps)[0]), 'gaps': list(zip(gap_start, gap_end)), 'gap_sum':np.sum(gaps),
-                              'no_data':np.sum(filled),
+                              'no_data':np.sum(filled) - mask_3p - mask_5p,
                               'clusters': [(b,e,np.sum(snps[b:e])) for b,e in zip(cluster_start, cluster_end)]}
 
     return diagnostics
@@ -64,6 +69,8 @@ if __name__ == '__main__':
     parser.add_argument("--alignment", type=str, required=True, help="FASTA file of alignment")
     parser.add_argument("--reference", type = str, required=True, help="reference sequence")
     parser.add_argument("--metadata", type = str, required=True, help="metadata")
+    parser.add_argument("--mask-from-beginning", type = int, default=0, help="number of bases to mask from start")
+    parser.add_argument("--mask-from-end", type = int, default=0, help="number of bases to mask from end")
     parser.add_argument("--output-diagnostics", type=str, required=True, help="Output of stats for every sequence")
     parser.add_argument("--output-flagged", type=str, required=True, help="Output of sequences flagged for exclusion")
     args = parser.parse_args()
@@ -72,7 +79,9 @@ if __name__ == '__main__':
     ref  = SeqIO.read(args.reference, 'genbank').seq
     metadata, _ = read_metadata(args.metadata)
 
-    diagnostics = analyze_divergence(args.alignment, metadata, ref)
+    diagnostics = analyze_divergence(args.alignment, metadata, ref,
+                                     mask_5p=args.mask_from_beginning,
+                                     mask_3p=args.mask_from_end)
     snp_cutoff = 20
     no_data_cutoff = 3000
     with open(args.output_diagnostics, 'w') as diag, open(args.output_flagged, 'w') as flag:
