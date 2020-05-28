@@ -115,7 +115,7 @@ rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
         alignment = rules.aggregate_alignments.output.alignment,
-        metadata = metadata = rules.download.output.metadata,
+        metadata = rules.download.output.metadata,
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/sequence-diagnostics.tsv",
@@ -130,7 +130,7 @@ rule diagnostic:
             --metadata {input.metadata} \
             --reference {input.reference} \
             --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostic} 2>&1 | tee {log}
+            --output-diagnostics {output.diagnostics} 2>&1 | tee {log}
         """
 
 
