@@ -125,7 +125,7 @@ if __name__ == '__main__':
     to_exclude_by_reason = defaultdict(list)
     with open(args.output_flagged, 'w') as flag:
         for s, msg, reasons, meta in sorted(flagged_sequences, key=lambda x:x[3].get('date_submitted', 'XX'), reverse=True):
-            flag.write(f'{s}\t{msg}\n\n')
+            flag.write(f'{s}\t{msg}\n')
             to_exclude_by_reason[reasons].append(s)
 
     # write out file with sequences flagged for exclusion sorted by date
