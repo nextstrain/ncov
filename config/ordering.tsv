@@ -64,6 +64,10 @@ location	Rajkot
 location	Kodinar
 location	Junagadh
 location	Jamnagar
+location	Mandsaur
+location	Neemach
+location	Burhanpur
+location	Ujjain
 location	Dahod
 location	Vadodara
 location	Botad
@@ -248,6 +252,49 @@ location	Segorbe
 location	Pala de Gandia
 location	El Puig
 location	Elda
+location	Vitoria-Gasteiz
+location	Donostia-San Sebastian
+location	Sevilla
+location	Pamplona
+location	Baranain
+location	Alcobendas
+location	Cizur Menor
+location	Zulueta
+location	Barasoain
+location	Logrono
+location	Mutilva
+location	Calahorra
+location	Cintruenigo
+location	Noain
+location	Tafalla
+location	Fitero
+location	Peralta
+location	Pradejon
+location	Echavarri
+location	Portugalete
+location	Torres De Elorz
+location	Bermeo
+location	Rota
+location	Puerto Santa Maria
+location	San Fernando
+location	Mairena Aljarafe
+location	Chiclana de la Frontera
+location	Cadiz
+location	San Roque
+location	Algeciras
+location	La Linea de la Concepcion
+location	Conil de la Frontera
+location	Madrid
+location	Malaga
+location	Jerez De La Frontera
+location	Alhaurin de la Torre
+location	Chilches
+location	Rincon de la Victoria
+location	Almeria
+location	Torremolinos
+location	Benajarafe
+location	Velez_Malaga
+location	Antequera
 location	Olleria
 location	Canet d'en Berenguer
 location	Bonrepos i Mirambell
@@ -509,6 +556,7 @@ location	Lanaudière
 
 
 
+
 division	China
 division	Hubei
 division	Guangxi
@@ -519,6 +567,7 @@ division	Jiangxi
 division	Chongqing
 division	Hangzhou
 division	Sichuan
+division	Meizhou
 division	Yunnan
 division	Jiangsu
 division	Shandong
@@ -715,6 +764,11 @@ division	Norway
 division	Oslo
 division	Trondheim
 division	Istria
+division	Split
+division	Koprivnica
+division	Dubrovnik
+division	Varazdin
+division	Osijek
 division	Serbia
 division	Kraljevo
 division	Novi Pazar
@@ -760,6 +814,7 @@ division	Castilla Y León
 division	Basque Country
 division	Castilla La Mancha
 division	Andalusia
+division	Navarra
 division	Catalunya
 division	Castilla y Leon
 division	Barcelona
@@ -904,6 +959,7 @@ division	Gelderland
 division	Limburg
 division	Drenthe
 division	North Brabant
+division	Leiden
 division	Flevoland
 division	South Holland
 division	North Holland
@@ -974,6 +1030,7 @@ division	Limerick
 division	Scotland
 division	Småland
 division	Vasterbotten
+division	Vasternorrland
 division	Halland
 division	Czech Republic
 division	Sweden
