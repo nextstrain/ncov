@@ -1,13 +1,14 @@
 """
 Mask initial bases from alignment FASTA
 """
-import argparse, gzip
+import argparse, gzip, sys
+sys.path.insert(0,'.')
 from collections import defaultdict
 import numpy as np
 from Bio.SeqIO.FastaIO import SimpleFastaParser
 from Bio.Seq import Seq
 from Bio import AlignIO, SeqIO
-from scripts.priorities import sequence_to_int_array
+from priorities import sequence_to_int_array
 from augur.utils import read_metadata
 from datetime import datetime
 
@@ -76,7 +77,7 @@ if __name__ == '__main__':
     no_data_cutoff = 3000
     with open(args.output_diagnostics, 'w') as diag, open(args.output_flagged, 'w') as flag:
         diag.write('\t'.join(['strain', 'divergence', 'excess divergence', '#Ns', '#gaps', 'clusters', 'gaps', 'all_snps'])+'\n')
-        for s, d in sorted(diagnostics.items(), key=lambda x:len(x[1]['snps'])):
+        for s, d in sorted(diagnostics.items(), key=lambda x:len(x[1]['snps']), reverse=True):
             expected_div = expected_divergence(metadata[s]['date']) if s in metadata else np.nan
             diag.write('\t'.join(map(str,[s, len(d['snps']), round(len(d['snps']) - expected_div,2),
                      d['no_data'], d['gap_sum'],
