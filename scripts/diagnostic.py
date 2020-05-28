@@ -82,7 +82,7 @@ if __name__ == '__main__':
     diagnostics = analyze_divergence(args.alignment, metadata, ref,
                                      mask_5p=args.mask_from_beginning,
                                      mask_3p=args.mask_from_end)
-    snp_cutoff = 20
+    snp_cutoff = 15
     no_data_cutoff = 3000
     with open(args.output_diagnostics, 'w') as diag, open(args.output_flagged, 'w') as flag:
         diag.write('\t'.join(['strain', 'divergence', 'excess divergence', '#Ns', '#gaps', 'clusters', 'gaps', 'all_snps'])+'\n')
@@ -99,7 +99,7 @@ if __name__ == '__main__':
             if not np.isnan(expected_div) and len(d['snps']) - expected_div > snp_cutoff:
                 msg += f"too high divergence {len(d['snps']) - expected_div:1.2f}>{snp_cutoff};"
             if len(d['clusters']):
-                msg += f"{len(d['clusters'])} snp clusters a {','.join([x[2] for x in d['clusters']])} SNPs;"
+                msg += f"{len(d['clusters'])} snp clusters a {','.join([str(x[2]) for x in d['clusters']])} SNPs;"
             if d['no_data']>no_data_cutoff:
                 msg += f"too many Ns ({d['no_data']}>{no_data_cutoff})"
             if msg:
