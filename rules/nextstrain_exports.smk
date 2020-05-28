@@ -277,6 +277,19 @@ rule deploy_to_staging:
         fi
         """
 
+onstart:
+    slack_message = f"Build {deploy_origin} started."
+
+    if SLACK_TOKEN and SLACK_CHANNEL:
+        shell(f"""
+            curl https://slack.com/api/chat.postMessage \
+                --header "Authorization: Bearer $SLACK_TOKEN" \
+                --form-string channel="$SLACK_CHANNEL" \
+                --form-string text={{slack_message:q}} \
+                --fail --silent --show-error \
+                --include
+        """)
+
 onerror:
     slack_message = f"Build {deploy_origin} failed."
 
