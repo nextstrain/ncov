@@ -103,7 +103,8 @@ rule diagnose_excluded:
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/excluded-sequence-diagnostics.tsv",
-        flagged = "results/excluded-flagged-sequences.tsv"
+        flagged = "results/excluded-flagged-sequences.tsv",
+        to_exclude = "results/check_exclusion.txt"
     log:
         "logs/diagnose-excluded.txt"
     params:
@@ -119,7 +120,8 @@ rule diagnose_excluded:
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
             --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostics} 2>&1 | tee {log}
+            --output-diagnostics {output.diagnostics} \
+            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
 
@@ -196,7 +198,8 @@ rule diagnostic:
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/sequence-diagnostics.tsv",
-        flagged = "results/flagged-sequences.tsv"
+        flagged = "results/flagged-sequences.tsv",
+        to_exclude = "results/to-exclude.txt"
     log:
         "logs/diagnostics.txt"
     params:
@@ -212,7 +215,8 @@ rule diagnostic:
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
             --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostics} 2>&1 | tee {log}
+            --output-diagnostics {output.diagnostics}
+            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
 
