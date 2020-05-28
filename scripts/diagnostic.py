@@ -119,18 +119,18 @@ if __name__ == '__main__':
                 reasons.append('too many ambigous sites')
 
             if msg:
-                flagged_sequences.append([s, msg, tuple(reasons), d[s]])
+                flagged_sequences.append([s, msg, tuple(reasons), metadata.get(s,{})])
 
     # write out file with sequences flagged for exclusion sorted by date
     to_exclude_by_reason = defaultdict(list)
     with open(args.output_flagged, 'w') as flag:
-        for s, msg, reasons, meta in sorted(flagged_sequences, key=lambda x:x[3]['submission-date'], reverse=True):
+        for s, msg, reasons, meta in sorted(flagged_sequences, key=lambda x:x[3].get('date_submitted', 'XX'), reverse=True):
             flag.write(f'{s}\t{msg}\n\n')
             to_exclude_by_reason[reasons].append(s)
 
     # write out file with sequences flagged for exclusion sorted by date
     with open(args.output_exclusion_list, 'w') as excl:
         for reason in to_exclude_by_reason:
-            excl.write(f'# {reason}\n')
+            excl.write(f'\n# {"&".join(reason)}\n')
             excl.write('\n'.join(to_exclude_by_reason[reasons])+'\n')
 

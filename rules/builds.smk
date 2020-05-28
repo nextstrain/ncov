@@ -215,7 +215,7 @@ rule diagnostic:
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
             --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostics}
+            --output-diagnostics {output.diagnostics} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
