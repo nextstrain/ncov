@@ -12,7 +12,7 @@ from priorities import sequence_to_int_array
 from augur.utils import read_metadata
 from datetime import datetime
 
-tmrca = datetime(2019, 11,15).toordinal()
+tmrca = datetime(2019, 12, 1).toordinal()
 
 def expected_divergence(date):
     try:
@@ -99,7 +99,7 @@ if __name__ == '__main__':
             if not np.isnan(expected_div) and len(d['snps']) - expected_div > snp_cutoff:
                 msg += f"too high divergence {len(d['snps']) - expected_div:1.2f}>{snp_cutoff};"
             if len(d['clusters']):
-                msg += f"snps clusters;"
+                msg += f"{len(d['clusters'])} snp clusters a {','.join([x[2] for x in d['clusters']])} SNPs;"
             if d['no_data']>no_data_cutoff:
                 msg += f"too many Ns ({d['no_data']}>{no_data_cutoff})"
             if msg:
