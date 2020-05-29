@@ -124,8 +124,9 @@ if __name__ == '__main__':
     # write out file with sequences flagged for exclusion sorted by date
     to_exclude_by_reason = defaultdict(list)
     with open(args.output_flagged, 'w') as flag:
+        flag.write(f'strain\tcollection_date\tsubmission_date\tflagging_reason\n')
         for s, msg, reasons, meta in sorted(flagged_sequences, key=lambda x:x[3].get('date_submitted', 'XX'), reverse=True):
-            flag.write(f'{s}\t{msg}\n')
+            flag.write(f'{s}\t{metadata[s]['date'] if s in metadata else 'XXXX-XX-XX'}\t{metadata[s]['date_submitted'] if s in metadata else 'XXXX-XX-XX'}\t{msg}\n')
             to_exclude_by_reason[reasons].append(s)
 
     # write out file with sequences flagged for exclusion sorted by date
