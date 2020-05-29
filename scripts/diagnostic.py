@@ -138,5 +138,5 @@ if __name__ == '__main__':
     with open(args.output_exclusion_list, 'w') as excl:
         for reason in to_exclude_by_reason:
             excl.write(f'\n# {"&".join(reason)}\n')
-            excl.write('\n'.join(to_exclude_by_reason[reasons])+'\n')
+            excl.write('\n'.join(to_exclude_by_reason[reason])+'\n')
 
