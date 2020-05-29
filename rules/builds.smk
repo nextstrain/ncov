@@ -61,7 +61,6 @@ rule excluded_sequences:
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --include {input.include} \
-            --min-length 50000 \
             --output {output.sequences} 2>&1 | tee {log}
         """
 
