@@ -27,6 +27,11 @@ def analyze_divergence(sequences, metadata, reference, mask_5p=0, mask_3p=0):
     fill_value = 110
     gap_value = 45
     ws = 50
+    known_true_clusters = [(28880,28883)]
+    known_true_cluster_array = np.ones_like(int_ref, dtype=int)
+    for b,e in known_true_clusters:
+        known_true_cluster_array[b:e]=0
+
     cluster_cut_off = 5
     with open(sequences) as fasta:
         for h,s in SimpleFastaParser(fasta):
@@ -55,7 +60,7 @@ def analyze_divergence(sequences, metadata, reference, mask_5p=0, mask_3p=0):
             gap_end = np.where(np.diff(gaps)==-1)[0]
 
             # determined mutation clusters by convolution with an array of ones => running window average
-            clusters = np.array(np.convolve(snps, np.ones(ws), mode='same')>=cluster_cut_off, dtype=int)
+            clusters = np.array(np.convolve(snps*known_true_cluster_array, np.ones(ws), mode='same')>=cluster_cut_off, dtype=int)
             # determine start and end of clusters. extend by half window size on both ends.
             cluster_start = [0] if clusters[0] else []
             cluster_start.extend([max(0, x-ws//2) for x in np.where(np.diff(clusters)==1)[0]])
@@ -126,7 +131,7 @@ if __name__ == '__main__':
     with open(args.output_flagged, 'w') as flag:
         flag.write(f'strain\tcollection_date\tsubmission_date\tflagging_reason\n')
         for s, msg, reasons, meta in sorted(flagged_sequences, key=lambda x:x[3].get('date_submitted', 'XX'), reverse=True):
-            flag.write(f'{s}\t{metadata[s]['date'] if s in metadata else 'XXXX-XX-XX'}\t{metadata[s]['date_submitted'] if s in metadata else 'XXXX-XX-XX'}\t{msg}\n')
+            flag.write(f"{s}\t{metadata[s]['date'] if s in metadata else 'XXXX-XX-XX'}\t{metadata[s]['date_submitted'] if s in metadata else 'XXXX-XX-XX'}\t{msg}\n")
             to_exclude_by_reason[reasons].append(s)
 
     # write out file with sequences flagged for exclusion sorted by date
