@@ -219,6 +219,29 @@ rule diagnostic:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
+rule refilter:
+    message:
+        """
+        excluding sequences flagged in the diagnostic step in file {input.exclude}
+        """
+    input:
+        sequences = rules.aggregate_alignments.output.alignment,
+        metadata = rules.download.output.metadata,
+        exclude = rules.diagnostic.output.to_exclude
+    output:
+        sequences = "results/aligned-filtered.fasta"
+    log:
+        "logs/refiltered.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --exclude {input.exclude} \
+            --output {output.sequences} 2>&1 | tee {log}
+        """
+
 
 rule mask:
     message:
@@ -229,7 +252,7 @@ rule mask:
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = rules.aggregate_alignments.output.alignment
+        alignment = rules.refilter.output.sequences
     output:
         alignment = "results/masked.fasta"
     log:
