@@ -15,7 +15,6 @@ rule filter:
         """
         Filtering to
           - excluding strains in {input.exclude}
-          - minimum genome length of {params.min_length}
         """
     input:
         sequences = rules.download.output.sequences,
@@ -28,9 +27,7 @@ rule filter:
         "logs/filtered.txt"
     params:
         min_length = config["filter"]["min_length"],
-        exclude_where = config["filter"]["exclude_where"],
-        group_by = config["filter"]["group_by"],
-        sequences_per_group = config["filter"]["sequences_per_group"]
+        exclude_where = config["filter"]["exclude_where"]
     conda: config["conda_environment"]
     shell:
         """
@@ -41,8 +38,6 @@ rule filter:
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
-            --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences} 2>&1 | tee {log}
         """
 
