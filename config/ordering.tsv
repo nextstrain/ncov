@@ -64,6 +64,10 @@ location	Rajkot
 location	Kodinar
 location	Junagadh
 location	Jamnagar
+location	Mandsaur
+location	Neemach
+location	Burhanpur
+location	Ujjain
 location	Dahod
 location	Vadodara
 location	Botad
@@ -248,6 +252,49 @@ location	Segorbe
 location	Pala de Gandia
 location	El Puig
 location	Elda
+location	Vitoria-Gasteiz
+location	Donostia-San Sebastian
+location	Sevilla
+location	Pamplona
+location	Baranain
+location	Alcobendas
+location	Cizur Menor
+location	Zulueta
+location	Barasoain
+location	Logrono
+location	Mutilva
+location	Calahorra
+location	Cintruenigo
+location	Noain
+location	Tafalla
+location	Fitero
+location	Peralta
+location	Pradejon
+location	Echavarri
+location	Portugalete
+location	Torres De Elorz
+location	Bermeo
+location	Rota
+location	Puerto Santa Maria
+location	San Fernando
+location	Mairena Aljarafe
+location	Chiclana de la Frontera
+location	Cadiz
+location	San Roque
+location	Algeciras
+location	La Linea de la Concepcion
+location	Conil de la Frontera
+location	Madrid
+location	Malaga
+location	Jerez De La Frontera
+location	Alhaurin de la Torre
+location	Chilches
+location	Rincon de la Victoria
+location	Almeria
+location	Torremolinos
+location	Benajarafe
+location	Velez_Malaga
+location	Antequera
 location	Olleria
 location	Canet d'en Berenguer
 location	Bonrepos i Mirambell
@@ -469,6 +516,9 @@ location	Livingston Parish
 location	Iberville Parish
 location	Pittsburgh
 location	Colorado Springs
+location	Alameda County
+location	Humboldt County
+location	San Luis Obispo County
 location	Fayette County
 location	Thiensville
 location	Racine
@@ -509,6 +559,7 @@ location	Lanaudière
 
 
 
+
 division	China
 division	Hubei
 division	Guangxi
@@ -519,6 +570,7 @@ division	Jiangxi
 division	Chongqing
 division	Hangzhou
 division	Sichuan
+division	Meizhou
 division	Yunnan
 division	Jiangsu
 division	Shandong
@@ -715,6 +767,11 @@ division	Norway
 division	Oslo
 division	Trondheim
 division	Istria
+division	Split
+division	Koprivnica
+division	Dubrovnik
+division	Varazdin
+division	Osijek
 division	Serbia
 division	Kraljevo
 division	Novi Pazar
@@ -760,6 +817,7 @@ division	Castilla Y León
 division	Basque Country
 division	Castilla La Mancha
 division	Andalusia
+division	Navarra
 division	Catalunya
 division	Castilla y Leon
 division	Barcelona
@@ -883,6 +941,7 @@ division	Bavaria
 division	Duesseldorf
 division	Baden-Wuerttemberg
 division	Munich
+division	Frankfurt
 division	North Rhine Westphalia
 division	Netherlands
 division	Milheeze
@@ -903,6 +962,7 @@ division	Gelderland
 division	Limburg
 division	Drenthe
 division	North Brabant
+division	Leiden
 division	Flevoland
 division	South Holland
 division	North Holland
@@ -914,6 +974,7 @@ division	Tyrol
 division	Burgenland
 division	Salzburg
 division	Germany
+division	Frankfurt
 division	Zielonogorskie
 division	Pomorskie
 division	Basel-Stadt
@@ -948,6 +1009,7 @@ division	Apulia
 division	Rome
 division	Teramo
 division	Veneto
+division	Verona
 division	Castel di Sangro
 division	Friuli Venezia Giulia
 division	Usti nad Labem
@@ -971,6 +1033,7 @@ division	Limerick
 division	Scotland
 division	Småland
 division	Vasterbotten
+division	Vasternorrland
 division	Halland
 division	Czech Republic
 division	Sweden

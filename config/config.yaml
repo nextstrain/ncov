@@ -140,7 +140,7 @@ subsampling:
   region_global:
     global:
       group_by: "division year month"
-      seq_per_group: 14
+      seq_per_group: 10
 
   # Custom subsampling logic for regions like Europe where grouping by country
   # is the smallest resolution required.
