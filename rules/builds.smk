@@ -508,7 +508,7 @@ rule legacy_clades:
     output:
         clade_data = "results/{build_name}/legacy_clades.json"
     log:
-        "logs/clades_{build_name}.txt"
+        "logs/legacy_clades_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
