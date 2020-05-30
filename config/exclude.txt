@@ -658,5 +658,8 @@ Wuhan/WHUH004/2020
 Wuhan/WHUH003/2020
 Wuhan/WHUH008/2020
 
+
 #40+ mutations
 Russia/SCPM-O-05/2020
+
+

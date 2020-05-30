@@ -26,9 +26,12 @@ def compactify_sequences(sparse_matrix, sequence_names):
 
 INITIALISATION_LENGTH = 1000000
 
-def sequence_to_int_array(s, fill_value=110):
+def sequence_to_int_array(s, fill_value=110, fill_gaps=True):
     seq = np.frombuffer(str(s).lower().encode('utf-8'), dtype=np.int8).copy()
-    seq[(seq!=97) & (seq!=99) & (seq!=103) & (seq!=116)] = fill_value
+    if fill_gaps:
+        seq[(seq!=97) & (seq!=99) & (seq!=103) & (seq!=116)] = fill_value
+    else:
+        seq[(seq!=97) & (seq!=99) & (seq!=103) & (seq!=116) & (seq!=45)] = fill_value
     return seq
 
 # Function adapted from https://github.com/gtonkinhill/pairsnp-python
