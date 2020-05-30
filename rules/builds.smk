@@ -566,16 +566,15 @@ def export_title(wildcards):
     # TODO: maybe we could replace this with a config entry for full/human-readable build name?
     location_name = wildcards.build_name
 
-    from augur.utils import read_config
-    if "auspice_config" in config["builds"][location_name]:
-        auspice_config = read_config(config["builds"][location_name]["auspice_config"])
-    elif "auspice_config" in config["files"]:
-        auspice_config = read_config(config["files"]["auspice_config"])
+    # If specified in config file generally, or in a config file build
+    if "title" in config["builds"][location_name]:
+        title = config["builds"][location_name]["title"]
+    elif "title" in config:
+        title = config["title"]
+    if title:
+            return title
 
-    if auspice_config:
-        if 'title' in auspice_config and auspice_config['title']:
-            return auspice_config['title']
-
+    # Else return an auto-generated title
     if not location_name:
         return "Genomic epidemiology of novel coronavirus"
     elif location_name == "global":
