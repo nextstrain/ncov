@@ -1,3 +1,4 @@
+
 location	Wuhan
 location	Tianmen
 location	Hefei
@@ -61,7 +62,15 @@ location	Kolkata
 location	Modasa
 location	Rajkot
 location	Kodinar
+location	Jaipur
 location	Junagadh
+location	Jamnagar
+location	Mandsaur
+location	Neemach
+location	Burhanpur
+location	Ujjain
+location	Dahod
+location	Vadodara
 location	Botad
 location	Una
 location	Dhansura
@@ -93,6 +102,7 @@ location	Hawali
 location	Dasman
 location	Ulan-Ude
 location	Kipen
+location	Kraków
 location	Bela - Ledec na Sazavou
 location	Ischgl
 location	Innsbruck
@@ -225,6 +235,7 @@ location	Yernee-fraineux
 location	Starnberg
 location	Strasbourg
 location	Rome
+location	Bergamo
 location	Milan
 location	Verona IT
 location	L'Aquila
@@ -242,6 +253,49 @@ location	Segorbe
 location	Pala de Gandia
 location	El Puig
 location	Elda
+location	Vitoria-Gasteiz
+location	Donostia-San Sebastian
+location	Sevilla
+location	Pamplona
+location	Baranain
+location	Alcobendas
+location	Cizur Menor
+location	Zulueta
+location	Barasoain
+location	Logrono
+location	Mutilva
+location	Calahorra
+location	Cintruenigo
+location	Noain
+location	Tafalla
+location	Fitero
+location	Peralta
+location	Pradejon
+location	Echavarri
+location	Portugalete
+location	Torres De Elorz
+location	Bermeo
+location	Rota
+location	Puerto Santa Maria
+location	San Fernando
+location	Mairena Aljarafe
+location	Chiclana de la Frontera
+location	Cadiz
+location	San Roque
+location	Algeciras
+location	La Linea de la Concepcion
+location	Conil de la Frontera
+location	Madrid
+location	Malaga
+location	Jerez De La Frontera
+location	Alhaurin de la Torre
+location	Chilches
+location	Rincon de la Victoria
+location	Almeria
+location	Torremolinos
+location	Benajarafe
+location	Velez_Malaga
+location	Antequera
 location	Olleria
 location	Canet d'en Berenguer
 location	Bonrepos i Mirambell
@@ -316,11 +370,11 @@ location	Manaus
 location	Feira de Santana
 location	Vila Velha
 location	Mexico City
-location	Alajuela
-location	San Rafael
-location	Cartago
-location	San Juan
-location	Heredia
+location	San Rafael de Alajuela
+location	San Rafael Heredia
+location	Orotina
+location	La Union
+location	Tibas
 location	La Crosse County
 location	Stoughton
 location	Beloit
@@ -448,6 +502,12 @@ location	Miramar
 location	Adams County WA
 location	Adams County WI
 location	New Orleans
+location	Morehouse Parish
+location	Tensas Parish
+location	Rapides Parish
+location	Bossier Parish
+location	Grant Parish
+location	DeSoto Parish
 location	East Feliciana Parish
 location	Caddo Parish
 location	Webster Parish
@@ -457,6 +517,9 @@ location	Livingston Parish
 location	Iberville Parish
 location	Pittsburgh
 location	Colorado Springs
+location	Alameda County
+location	Humboldt County
+location	San Luis Obispo County
 location	Fayette County
 location	Thiensville
 location	Racine
@@ -497,6 +560,7 @@ location	Lanaudière
 
 
 
+
 division	China
 division	Hubei
 division	Guangxi
@@ -507,6 +571,7 @@ division	Jiangxi
 division	Chongqing
 division	Hangzhou
 division	Sichuan
+division	Meizhou
 division	Yunnan
 division	Jiangsu
 division	Shandong
@@ -561,10 +626,10 @@ division	Kargil
 division	Telangana
 division	Karnataka
 division	Gujarat
+division	Rajasthan
 division	Kerala
 division	West Bengal
 division	Assam
-division	Rajsathan
 division	Madhya Pradesh
 division	Kochi
 division	Khyber Pakhtunkhwa
@@ -609,11 +674,13 @@ division	Phuket
 division	Myanmar
 division	Bangkok
 division	Malaysia
+division	Pahang
 division	Singapore
 division	Brunei
 division	Jakarta
 division	Surabaya
 division	India
+division	Karachi
 division	Bangladesh
 division	Australia
 division	South Australia
@@ -685,6 +752,7 @@ division	Bucharest
 division	Constanta
 division	Brasov
 division	Poland
+division	Slask
 division	Wielkopolskie
 division	Dolnoslaskie
 division	Belarus
@@ -701,13 +769,21 @@ division	Norway
 division	Oslo
 division	Trondheim
 division	Istria
+division	Pula
+division	Split
+division	Koprivnica
+division	Dubrovnik
+division	Varazdin
+division	Osijek
 division	Serbia
 division	Kraljevo
 division	Novi Pazar
+division	Cacak
 division	Bucharest
 division	Hungary
 division	Central Hungary
 division	Baranya
+division	Varaždin County
 division	Budapest
 division	Balatonfured
 division	Balassagyarmat
@@ -745,6 +821,7 @@ division	Castilla Y León
 division	Basque Country
 division	Castilla La Mancha
 division	Andalusia
+division	Navarra
 division	Catalunya
 division	Castilla y Leon
 division	Barcelona
@@ -868,6 +945,7 @@ division	Bavaria
 division	Duesseldorf
 division	Baden-Wuerttemberg
 division	Munich
+division	Frankfurt
 division	North Rhine Westphalia
 division	Netherlands
 division	Milheeze
@@ -888,6 +966,7 @@ division	Gelderland
 division	Limburg
 division	Drenthe
 division	North Brabant
+division	Leiden
 division	Flevoland
 division	South Holland
 division	North Holland
@@ -899,12 +978,21 @@ division	Tyrol
 division	Burgenland
 division	Salzburg
 division	Germany
+division	Frankfurt
 division	Zielonogorskie
 division	Pomorskie
 division	Basel-Stadt
 division	Basel-Land
 division	Bern
 division	Zürich
+division	Valais
+division	Jura
+division	Thurgau
+division	Sankt Gallen
+division	Uri
+division	Schaffhausen
+division	Glarus
+division	Fribourg
 division	Aargau
 division	Geneva
 division	Vaud
@@ -921,9 +1009,11 @@ division	Lazio
 division	Marche
 division	Lombardy
 division	Abruzzo
+division	Apulia
 division	Rome
 division	Teramo
 division	Veneto
+division	Verona
 division	Castel di Sangro
 division	Friuli Venezia Giulia
 division	Usti nad Labem
@@ -947,6 +1037,7 @@ division	Limerick
 division	Scotland
 division	Småland
 division	Vasterbotten
+division	Vasternorrland
 division	Halland
 division	Czech Republic
 division	Sweden
@@ -976,6 +1067,7 @@ division	Senegal
 division	Gambia
 division	Algeria
 division	Lagos
+division	Uganda
 division	Democratic Republic of the Congo
 division	Kinshasa
 division	Sud Kivu
@@ -1016,6 +1108,7 @@ division	Goiais
 division	Minas Gerais
 division	Rio Grande do Sul
 division	Rio de Janeiro
+division	Amapa
 division	Santa Catarina
 division	Alagoas
 division	Argentina
@@ -1040,6 +1133,7 @@ division	Cordoba
 division	Cesar
 division	Norte de santander
 division	Amazonas State
+division	Para
 division	Antioquia
 division	Bogota
 division	Quito
@@ -1050,10 +1144,10 @@ division	Lima
 division	Montevideo
 division	Panama City
 division	Panama
-division	San Rafael
-division	La Union
-division	Tibas
-division	Orotina
+division	Alajuela
+division	Heredia
+division	Cartago
+division	San Jose
 division	Mexico
 division	Mexico City
 division	Estado de Mexico
@@ -1093,6 +1187,8 @@ division	Nebraska
 division	Kansas
 division	Nevada
 division	Arizona
+division	Colorado
+division	New Mexico
 division	Utah
 division	Wyoming
 division	Idaho
@@ -1190,6 +1286,7 @@ country	Ghana
 country	Senegal
 country	Gambia
 country	Algeria
+country	Uganda
 country	Democratic Republic of the Congo
 country	South Africa
 country	Chile
