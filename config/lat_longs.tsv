@@ -165,6 +165,7 @@ location	Franklin County NY	44.5926	-74.3388
 location	Franklin County WA	46.517555	-118.921601
 location	Funza	4.713017	-74.206999
 location	Fuyang	32.904205	115.812367
+location	Fuzhou	27.965633	116.359573
 location	Garches	48.8461	2.1887
 location	Ganzhou	25.8307	114.9335
 location	gandhinagar	23.227004	72.643142
@@ -183,6 +184,7 @@ location	Grand Princess Cruise Ship	38.308882	-123.779663
 location	Grau de Sagunt	39.633481	-0.241370
 location	Greater Milwaukee Area	43.0389	-87.9065
 location	Greenfield	42.957786	-88.007122
+location	Grodzisk Mazowiecki	52.105601	20.633940
 location	Guangdong	23.615762	114.483257
 location	Guangzhou	23.123972	113.292889
 location	Guyancourt	48.7629	2.0753
@@ -244,6 +246,7 @@ location	Juneau	58.541037	-134.236606
 location	Juneau County	43.8673	-90.0747
 location	Juvisy-sur-Orge	48.690609	2.377581
 location	Kain	50.637121	3.379162
+location	Kalisz	51.743335	18.073619
 location	Kaohsiung	22.622632	120.312435
 location	Kathmandu	27.712907	85.323557
 location	Kematen in Tirol	47.253643	11.273540
@@ -345,6 +348,7 @@ location	Oak Creek	42.878698	-87.901041
 location	Oisterwijk	51.568179	5.211873
 location	Olleria	38.9146	-0.5506
 location	Oliva	38.9198	-0.1188
+location	Olsztyn	53.774711	20.481482
 location	Onondaga County	43.0268	-76.1784
 location	Orange County CA	33.689584	-117.788718
 location	Orange County NY	41.394693	-74.289170
@@ -384,6 +388,7 @@ location	Quevaucamps	50.720840	3.289101
 location	Quibdo	5.691789	-76.654649
 location	Quilmes	-34.7206	-58.2546
 location	Racine	42.721147	-87.800333
+location	Radom	51.397849	21.151218
 location	Rajkot	22.3039	70.8022
 location	Ramsau im Zillertal	47.203746	11.876947
 location	Reims	49.253754	4.035860
@@ -519,6 +524,7 @@ location	Villavicencio	4.134000	-73.623483
 location	Villerot	50.485709	3.791108
 location	Vitoria-Gasteiz	42.848478	-2.672011
 location	Wandre	50.667253	5.661576
+location	Warszawa	52.241015	20.985625
 location	Wasco County	45.145543	-121.204409
 location	Washington County NY	43.303560	-73.428260
 location	Washington County OR	45.544427	-123.010435
@@ -541,6 +547,8 @@ location	Xinyu	27.8178	114.9173
 location	Yakima County	46.430431	-120.711765
 location	Yangjiang	21.888814	111.972598
 location	Yernee-fraineux	50.528091	5.383570
+location	Yichun	27.804179	114.414177
+location	Yingtan	28.258501	117.043863
 location	Yongchuan	29.374774	105.925391
 location	Yorkshire	53.3833	-1.4599
 location	Yumbo	3.525117	-76.502240
@@ -588,6 +596,7 @@ division	Antofagasta	-23.6509	-70.3975
 division	Antwerp	51.225698	4.420885
 division	Apulia	40.7928	17.1012
 division	Argentina	-34	-64
+division	Arges	45.060683	24.903263
 division	Arizona	34.220707	-111.657462
 division	Arkansas	35.2010	-91.8318
 division	Asia	30.451098	86.654576
@@ -634,6 +643,7 @@ division	Bourgogne-France-Comté	47.2805	4.9994
 division	Boussu	50.425366	3.797692
 division	Boutersem	50.833781	4.839596
 division	Boyaca	5.454426	-73.362218
+division	Buzau	45.143297	26.816251
 division	Braine-l alleud	50.667307	4.358179
 division	Brasov	45.6580	25.6012
 division	Bratislava	48.1486	17.1077
@@ -643,8 +653,8 @@ division	Bretagne	48.202	2.9326
 division	British Columbia	54.010982	-124.745183
 division	Brunei	4.5353	114.7277
 division	Brussels	50.8503	4.3517
-division	Budapest	47.482728	19.084269
 division	Bucharest	44.4268	26.1025
+division	Budapest	47.482728	19.084269
 division	Buenos Aires	-34.6037	-58.3816
 division	Burgenland	47.517438	16.468160
 division	Buryat Republic	52.311711	108.916732
@@ -716,6 +726,7 @@ division	Drenthe	52.846963	6.608915
 division	Dublin	53.3431	-6.262191
 division	Dubrovnik	42.651307	18.102801
 division	Duesseldorf	51.236437	6.809537
+division	Durango	24.019546	-104.658028
 division	Eastern Cape	-32.344458	26.497832
 division	Ecuador	-1.3397667	-79.3666964
 division	Egypt	26.2540493	29.2675469
@@ -760,6 +771,7 @@ division	Gierle	51.2672	4.8677
 division	Gilgit Baltistan	35.589113	75.614837
 division	Glarus	47.018842	8.979742
 division	Goiais	-15.932272	-49.593573
+division	Gomez Palacios	25.572985	-103.492743
 division	Grand Canary Islands	27.9202	-15.5474
 division	Grand Est	48.691467	5.566495
 division	Grand Princess	37.579905	-123.67313
@@ -767,10 +779,12 @@ division	Graubünden	46.709551	9.606903
 division	Greater Accra	5.761619	0.040546
 division	Greece	39	22
 division	Grimbergen	50.942962	4.375664
+division	Guadalajara	20.676026	-103.332671
 division	Guam	13.464887	144.792016
 division	Guangdong	23.615762	114.483257
 division	Guangxi	23.717754	108.701872
 division	Guayas	-1.9575	-79.9193
+division	Guerrero	17.463444	-99.792052
 division	Gujarat	22.2587	71.1924
 division	Gyeonggi	37.397957	127.380864
 division	Halland	56.964727	12.796906
@@ -819,6 +833,7 @@ division	Istria	45.189488	13.889205
 division	Italian cruise ship	41.831176	11.491061
 division	Italy	43.382775	12.183629
 division	Jakarta	-6.221537	106.838429
+division	Jalisco	20.422362	-103.793697
 division	Jamaica	18.1096	-77.2975
 division	Jammu	32.7266	74.8570
 division	Jamtland	63.1712	14.9592
@@ -867,6 +882,7 @@ division	Krasnoyarsk Region	64.248	95.1104
 division	Kuala Lumpur	3.139	101.6869
 division	Kuwait	29.452987	47.447194
 division	KwaZulu-Natal	-28.704798	30.693005
+division	Kwara State	9.172913	4.409729
 division	Kyoto	35.007542	135.768455
 division	Ladakh	34.152588	77.577049
 division	La Louviere	50.469989	4.158129
@@ -911,10 +927,12 @@ division	Mardin	37.3129	40.7340
 division	Martin	49.0617	18.919
 division	Maryland	39.0458	-76.6413
 division	Massachusetts	42.340741	-71.998513
+division	Mazowieckie	52.467791	21.224779
 division	Mbour	14.427132	-16.966574
 division	Medellin	6.2486	-75.5742
 division	Meizhou	24.212443	116.104148
 division	Melbourne	-37.8136	144.9631
+division	Melilla	35.291746	-2.938261
 division	Merelbeke	50.9945	3.7456
 division	Meta	3.275638	-73.120232
 division	Mexico	19.4325301	-99.1332101
@@ -923,6 +941,7 @@ division	Michigan	45.021203	-84.762273
 division	Milheeze	51.505685	5.799239
 division	Minas gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
+division	Mirpur	23.808569	90.363307
 division	Missouri	37.9643	-91.8318
 division	Mons	50.445439	3.962794
 division	Montana	46.974704	-110.872530
@@ -938,6 +957,7 @@ division	Munich	48.144747	11.561739
 division	Myanmar	20.600856	96.287616
 division	Namur	50.457215	4.879493
 division	Nara	34.371026	135.887389
+division	Narayanganj	23.619169	90.500837
 division	Narino	1.592142	-77.851790
 division	Navarra	42.687776	-1.645699
 division	Nebraska	41.4925	-99.9018
@@ -979,6 +999,7 @@ division	Occitanie	43.8927	3.2828
 division	Oceania	-25.0562891	152.008576
 division	Odisha	20.9517	85.0985
 division	Oevel	51.1387	4.9043
+division	Ogun State	7.006146	3.401761
 division	Ohio	40.199215	-82.825637
 division	Omsk Region	55.0555	73.3167
 division	Ontario	44.429	-79.377
@@ -991,9 +1012,11 @@ division	Osaka	34.64872	135.525013
 division	Osijek	45.552719	18.693245
 division	Oslo	59.903687	10.7497
 division	Ostergotland	58.402269	15.748012
+division	Osun State	7.592215	4.505599
 division	Otago	-45.412319	169.855268
 division	Oudergem	50.812905	4.435779
 division	Overijssel	52.436273	6.463628
+division	Oyo State	8.154414	3.632978
 division	Pahang	3.8126	103.3256
 division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
@@ -1008,6 +1031,7 @@ division	Peru	-10	-75.25
 division	Philippines	12.8797	121.774
 division	Phuket	7.959471	98.339272
 division	Pichincha	-0.1465	-78.4752
+location	Plock	52.520284	19.690317
 division	Poland	52.0977181	19.0258159
 division	Pomorskie	54.2944	18.1531
 division	Portugal	39.54046	-8.174701
@@ -1028,6 +1052,7 @@ division	Quebec	52.9399	-73.5491
 division	Queensland	-23.094025	144.192275
 division	Queretaro	20.5888	-100.3899
 division	Quevy	50.368752	3.945724
+division	Quintana Roo	19.642598	-88.040442
 division	Quito	-0.18126	-78.4599
 division	Rajasthan	26.498229	73.881085
 division	Ramat Gan	32.0684	34.8248
@@ -1202,6 +1227,7 @@ division	Waasmunster	51.1182	4.080492
 division	Wales	52.306085	-3.621944
 division	Walloon Brabant	50.661007	4.566076
 division	Wanze	50.549453	5.196784
+division	Warminsko-Mazurskie	53.924679	20.844499
 division	Washington	47.183945	-119.950361
 division	Washington DC	38.895650	-77.018707
 division	Waterloo	50.710994	4.406944

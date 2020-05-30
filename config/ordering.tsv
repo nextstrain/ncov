@@ -22,6 +22,9 @@ location	Shaoguan
 location	Dongguan
 location	Zhanjiang
 location	Beijing
+location	Fuzhou
+location	Yichun
+location	Yingtan
 location	Chongqing
 location	Suzhou
 location	Fuyang
@@ -103,6 +106,12 @@ location	Dasman
 location	Ulan-Ude
 location	Kipen
 location	Kraków
+location	Plock
+location	Grodzisk Mazowiecki
+location	Olsztyn
+location	Warszawa
+location	Radom
+location	Kalisz
 location	Bela - Ledec na Sazavou
 location	Ischgl
 location	Innsbruck
@@ -682,6 +691,8 @@ division	Surabaya
 division	India
 division	Karachi
 division	Bangladesh
+division	Mirpur
+division	Narayanganj
 division	Australia
 division	South Australia
 division	Queensland
@@ -749,9 +760,13 @@ division	Republic of Crymea
 division	Republic of Tatarstan
 division	Slovenia
 division	Bucharest
+division	Arges
+division	Buzau
 division	Constanta
 division	Brasov
 division	Poland
+division	Mazowieckie
+division	Warminsko-Mazurskie
 division	Slask
 division	Wielkopolskie
 division	Dolnoslaskie
@@ -817,6 +832,7 @@ division	Grand Est
 division	Toulouse
 division	Auvergne Rhone Alpes
 division	Spain
+division	Melilla
 division	Castilla Y León
 division	Basque Country
 division	Castilla La Mancha
@@ -1062,6 +1078,10 @@ division	Denmark
 division	Portugal
 division	Egypt
 division	Nigeria
+division	Kwara State
+division	Ogun State
+division	Osun State
+division	Oyo State
 division	Ghana
 division	Senegal
 division	Gambia
@@ -1149,6 +1169,12 @@ division	Heredia
 division	Cartago
 division	San Jose
 division	Mexico
+division	Gomez Palacios
+division	Guadalajara
+division	Durango
+division	Guerrero
+division	Jalisco
+division	Quintana Roo
 division	Mexico City
 division	Estado de Mexico
 division	Chiapas
