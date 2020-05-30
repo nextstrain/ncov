@@ -62,6 +62,7 @@ location	Kolkata
 location	Modasa
 location	Rajkot
 location	Kodinar
+location	Jaipur
 location	Junagadh
 location	Jamnagar
 location	Mandsaur
@@ -625,10 +626,10 @@ division	Kargil
 division	Telangana
 division	Karnataka
 division	Gujarat
+division	Rajasthan
 division	Kerala
 division	West Bengal
 division	Assam
-division	Rajsathan
 division	Madhya Pradesh
 division	Kochi
 division	Khyber Pakhtunkhwa
@@ -673,6 +674,7 @@ division	Phuket
 division	Myanmar
 division	Bangkok
 division	Malaysia
+division	Pahang
 division	Singapore
 division	Brunei
 division	Jakarta
@@ -767,6 +769,7 @@ division	Norway
 division	Oslo
 division	Trondheim
 division	Istria
+division	Pula
 division	Split
 division	Koprivnica
 division	Dubrovnik
@@ -775,6 +778,7 @@ division	Osijek
 division	Serbia
 division	Kraljevo
 division	Novi Pazar
+division	Cacak
 division	Bucharest
 division	Hungary
 division	Central Hungary
