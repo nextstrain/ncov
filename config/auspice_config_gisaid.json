@@ -1,6 +1,11 @@
 {
   "colorings": [
     {
+      "key": "legacy_clade_membership",
+      "title": "Old Nextstrain clade",
+      "type": "categorical"
+    },
+    {
       "key": "location",
       "title": "Location",
       "type": "categorical"

@@ -498,6 +498,27 @@ rule clades:
             --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
 
+rule legacy_clades:
+    message: "Adding internal clade labels"
+    input:
+        tree = rules.refine.output.tree,
+        aa_muts = rules.translate.output.node_data,
+        nuc_muts = rules.ancestral.output.node_data,
+        clades = config["files"]["legacy_clades"]
+    output:
+        clade_data = "results/{build_name}/legacy_clades.json"
+    log:
+        "logs/clades_{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur clades --tree {input.tree} \
+            --mutations {input.nuc_muts} {input.aa_muts} \
+            --clades {input.clades} \
+            --output-node-data {output.clade_data} 2>&1 | tee {log} &&
+        sed -i 's/clade_/legacy_clade_/g' {output.clade_data}
+        """
+
 rule colors:
     message: "Constructing colors file"
     input:
@@ -583,6 +604,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.refine.output.node_data,
         rules.ancestral.output.node_data,
         rules.translate.output.node_data,
+        rules.legacy_clades.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data
