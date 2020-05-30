@@ -44,7 +44,7 @@ rule filter:
 rule excluded_sequences:
     message:
         """
-        Generating fasta file of exluded sequences
+        Generating fasta file of excluded sequences
         """
     input:
         sequences = rules.download.output.sequences,
@@ -60,6 +60,7 @@ rule excluded_sequences:
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
+	    --min-length 50000 \
             --include {input.include} \
             --output {output.sequences} 2>&1 | tee {log}
         """

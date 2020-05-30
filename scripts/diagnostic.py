@@ -113,11 +113,11 @@ if __name__ == '__main__':
 
             msg = ""
             reasons = []
-            if not np.isnan(expected_div) and len(d['snps']) - expected_div > snp_cutoff:
-                msg += f"too high divergence {len(d['snps']) - expected_div:1.2f}>{snp_cutoff};"
+            if not np.isnan(expected_div) and np.abs(len(d['snps']) - expected_div) > snp_cutoff:
+                msg += f"too high divergence {np.abs(len(d['snps']) - expected_div):1.2f}>{snp_cutoff};"
                 reasons.append('divergence')
             if len(d['clusters']):
-                msg += f"{len(d['clusters'])} snp clusters a {','.join([str(x[2]) for x in d['clusters']])} SNPs;"
+                msg += f"{len(d['clusters'])} SNP clusters with {','.join([str(x[2]) for x in d['clusters']])} SNPs each;"
                 reasons.append('clustered mutations')
             if d['no_data']>no_data_cutoff:
                 msg += f"too many Ns ({d['no_data']}>{no_data_cutoff})"
