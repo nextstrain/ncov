@@ -35,8 +35,7 @@ localrules: download
 rule all:
     input:
         auspice_json = expand("auspice/ncov_{build_name}.json", build_name=BUILD_NAMES),
-        tip_frequency_json = expand("auspice/ncov_{build_name}_tip-frequencies.json", build_name=BUILD_NAMES),
-        diagnostics = "results/sequence-diagnostics.tsv"
+        tip_frequency_json = expand("auspice/ncov_{build_name}_tip-frequencies.json", build_name=BUILD_NAMES)
 
 rule clean:
     message: "Removing directories: {params}"
