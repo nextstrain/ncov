@@ -1,13 +1,25 @@
 import argparse
 import json
+import requests
+import io
+import pandas as pd
+from Bio import Phylo
 
+URL = "https://raw.githubusercontent.com/hCoV-2019/lineages/master/lineages/data/lineages.metadata.csv"
+def get_pangolin_lineages():
+    r  = requests.get(URL)
+    if not r.ok:
+        print(f"Failed to fetch {URL}", file=sys.stderr)
+        exit(1)
+        r.close()
 
-def add_lineage(c, clades):
-    if c["name"] in clades:
-        c["node_attrs"]["pangolin-lineage"] = {"value": clades[c["name"]]}
-    if "children" in c:
-        for n in c["children"]:
-            add_lineage(n, clades)
+    d = pd.read_csv(io.StringIO(r.text))
+    lineages = {}
+    for ri, row in d.iterrows():
+        if row['lineage']:
+            lineages[row['name']] = row['lineage']
+            lineages[row['name'].replace('_', '')] = row['lineage']
+    return lineages
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -15,28 +27,29 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
 
-    parser.add_argument('--input', type=str, metavar="JSON", required=True, help="input Auspice JSON")
-    parser.add_argument('--lineages', type=str, required=True, help="csv file with pangolin lineages")
+    parser.add_argument('--tree', type=str, required=True, help="tree file")
     parser.add_argument('--output', type=str, metavar="JSON", required=True, help="output Auspice JSON")
     args = parser.parse_args()
 
-    # read file with pangolin lineage definitions
-    lineages = {}
-    with open(args.lineages, 'r') as fh:
-        for line in fh:
-            strain, country, travel_history, sample_date, epiweek, lineage, representative = line.strip().split(",")
-            lineages[strain] = lineage
+    lineages =get_pangolin_lineages()
 
-    with open(args.input, "r") as f:
-        input_json = json.load(f)
+    T = Phylo.read(args.tree, 'newick')
+    node_data = {}
+    for n in T.find_clades(order='postorder'):
+        if n.is_terminal():
+            if n.name in lineages:
+                n.pangolin = lineages[n.name]
+            else:
+                n.pangolin = 'unassigned'
+        else:
+            daughter_clades = list({c.pangolin for c in n if c.pangolin!='unassigned'})
+            if len(daughter_clades)==1:
+                n.pangolin=daughter_clades[0]
+            else:
+                n.pangolin = 'ambiguous'
+        if n.pangolin!='ambiguous':
+            node_data[n.name] = {'pangolin_lineage':n.pangolin}
 
-    add_lineage(input_json["tree"], lineages)
-    input_json["meta"]["colorings"].append(
-      {
-        "key": "pangolin-lineage",
-        "title": "pangolin-lineage",
-        "type": "categorical"
-      })
 
-    with open(args.output, 'w') as f:
-        json.dump(input_json, f, indent=2)
+    with open(args.output, 'w', encoding='utf-8') as f:
+        json.dump({"nodes":node_data}, f, indent=2)

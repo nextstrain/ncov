@@ -498,6 +498,23 @@ rule clades:
             --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
 
+rule pangolin:
+    message: "Adding internal clade labels"
+    input:
+        tree = rules.refine.output.tree,
+    output:
+        clade_data = "results/{build_name}/pangolin.json"
+    log:
+        "logs/pangolin_{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        {python:q} scripts/all_pangolin_lineages.py \
+            --tree {input.tree} \
+            --output {output.clade_data}
+        """
+
+
 rule legacy_clades:
     message: "Adding internal clade labels"
     input:
@@ -533,7 +550,7 @@ rule rename_legacy_clades:
                      new_data[k] = {"legacy_clade_membership": v["clade_membership"]}
          with open(output.clade_data, "w") as fh:
              json.dump({"nodes":new_data}, fh)
-	
+
 
 rule colors:
     message: "Constructing colors file"
@@ -622,6 +639,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.translate.output.node_data,
         rules.rename_legacy_clades.output.clade_data,
         rules.clades.output.clade_data,
+        rules.pangolin.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data
     ]
