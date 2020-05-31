@@ -506,7 +506,7 @@ rule legacy_clades:
         nuc_muts = rules.ancestral.output.node_data,
         clades = config["files"]["legacy_clades"]
     output:
-        clade_data = "results/{build_name}/legacy_clades.json"
+        clade_data = "results/{build_name}/temp_legacy_clades.json"
     log:
         "logs/legacy_clades_{build_name}.txt"
     conda: config["conda_environment"]
@@ -515,9 +515,25 @@ rule legacy_clades:
         augur clades --tree {input.tree} \
             --mutations {input.nuc_muts} {input.aa_muts} \
             --clades {input.clades} \
-            --output-node-data {output.clade_data} 2>&1 | tee {log} &&
-        sed -i 's/clade_/legacy_clade_/g' {output.clade_data}
+            --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
+
+rule rename_legacy_clades:
+     input:
+         node_data = rules.legacy_clades.output.clade_data
+     output:
+         clade_data = "results/{build_name}/legacy_clades.json"
+     run:
+         import json
+         with open(input.node_data, 'r', encoding='utf-8') as fh:
+             d = json.load(fh)
+             new_data = {}
+             for k,v in d['nodes'].items():
+                 if "clade_membership" in v:
+                     new_data[k] = {"legacy_clade_membership": v["clade_membership"]}
+         with open(output.clade_data, "w") as fh:
+             json.dump({"nodes":new_data}, fh)
+	
 
 rule colors:
     message: "Constructing colors file"
@@ -604,7 +620,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.refine.output.node_data,
         rules.ancestral.output.node_data,
         rules.translate.output.node_data,
-        rules.legacy_clades.output.clade_data,
+        rules.rename_legacy_clades.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data
