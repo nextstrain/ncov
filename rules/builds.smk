@@ -509,7 +509,7 @@ rule pangolin:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/all_pangolin_lineages.py \
+        {python:q} scripts/add_pangolin_lineages.py \
             --tree {input.tree} \
             --output {output.clade_data}
         """
