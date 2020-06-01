@@ -2,6 +2,8 @@
 
 This is a [Nextstrain](https://nextstrain.org) build for novel coronavirus, alternately known as hCoV-19 or SARS-CoV-2 that is responsible for the COVID-19 pandemic. This build is visible at [nextstrain.org/ncov](https://nextstrain.org/ncov).
 
+Can't find your sequences in Nextstrain? Check [here](./docs/data_faq.md) for common reasons why your sequences may not be appearing.
+
 ### Data
 
 The hCoV-19 / SARS-CoV-2 genomes were generously shared via GISAID. We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based.
