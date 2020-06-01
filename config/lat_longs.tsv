@@ -22,6 +22,7 @@ location	Anserma	5.238746	-75.782888
 location	Antequera	37.017136	-4.561986
 location	Arbre	50.611772	3.817121
 location	Asnières-sur-Seine	48.911508	2.284362
+location	Assumption Parish	29.912050	-91.042405
 location	Asotin County	46.1460	-117.2085
 location	Auckland	-36.8314	174.7606
 location	Bad Gastein	47.109942	13.127594
@@ -45,6 +46,7 @@ location	Berlicum	51.6789	5.4012
 location	Bermeo	43.418493	-2.730537
 location	Bienville Parish	32.340169	-93.050187
 location	Bierset	50.656953	5.454009
+location	Bikaner	28.024421	73.311641
 location	Blanchardville	42.809498	-89.860021
 location	Blandain	50.624503	3.303954
 location	Blaricum	52.2727	5.2481
@@ -82,6 +84,7 @@ location	Carentan	49.302133	-1.250938
 location	Cayuga County	42.900990	-76.575649
 location	Cergy	49.0356	2.0603
 location	Chalon sur Saone	46.7808	4.8539
+location	Changzhou	31.774498	119.919839
 location	Chateau-Thierry	49.048053	3.390023
 location	Chenango County	42.4972	-75.6208
 location	Chengdu	30.640989	104.067518
@@ -236,6 +239,7 @@ location	Jamundi	3.260158	-76.539750
 location	Janesville	42.691211	-89.014160
 location	Jefferson County WA	47.728342	-123.606395
 location	Jefferson County NY	44.095507	-75.890072
+location	Jefferson Parish	29.777633	-90.114916
 location	Jemappes	50.446399	3.898191
 location	Jerez De La Frontera	36.690491	-6.126763
 location	Jian	27.0876	114.9647
@@ -302,6 +306,7 @@ location	Mason County	47.4251	-123.1951
 location	Mat-Su	61.382704	-150.251175
 location	Matrei am Brenner	47.128405	11.452845
 location	Medellin	6.254779	-75.578125
+location	Meizhou	24.212443	116.104148
 location	Melbourne	-37.839042	145.076343
 location	Meliana	39.5286	-0.3478
 location	Mequon	43.226666	-87.973033
@@ -344,6 +349,7 @@ location	Nogent-l'Artaud	48.9651	3.3183
 location	Noida	28.552876	77.394687
 location	Noisy le Roi	48.852116	2.055226
 location	Nootdorp	52.0440	4.3909
+location	North 24 Parganas	22.722907	88.734582
 location	Northamtonshire	52.324226	-0.872799
 location	Northern Queensland	-17.758290	142.643075
 location	Nottinghamshire	53.139677	-1.027527
@@ -465,6 +471,8 @@ location	Southeast Queensland	-27.478427	152.687047
 location	Spicheren	49.192118	6.967399
 location	Spring Green	43.177689	-90.069216
 location	St. Anton	47.121254	10.265750
+location	St Bernard Parish	29.805323	-89.660779
+location	St Tammany Parish	30.438441	-89.935519
 location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
 location	Steinach am Brenner	47.090272	11.472902
@@ -564,7 +572,6 @@ location	Zhongxian	30.323947	108.012855
 location	Zhuhai	22.271346	113.562879
 location	Zipaquira	5.023869	-73.999449
 location	Zulueta	42.745008	-1.579320
-
 
 
 
@@ -933,7 +940,6 @@ division	Massachusetts	42.340741	-71.998513
 division	Mazowieckie	52.467791	21.224779
 division	Mbour	14.427132	-16.966574
 division	Medellin	6.2486	-75.5742
-division	Meizhou	24.212443	116.104148
 division	Melbourne	-37.8136	144.9631
 division	Melilla	35.291746	-2.938261
 division	Merelbeke	50.9945	3.7456
@@ -958,6 +964,7 @@ division	Mpumalanga	-25.5653	30.5279
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
 division	Myanmar	20.600856	96.287616
+division	Nakhonnayok	14.180467	101.096533
 division	Namur	50.457215	4.879493
 division	Nara	34.371026	135.887389
 division	Narayanganj	23.619169	90.500837
@@ -1025,7 +1032,7 @@ division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
 division	Panama City	8.98333	-79.5166
 division	Para	-4.281398	-52.582417
-division	pathum thani	14.043950	100.604700
+division	Pathum Thani	14.018153	100.723973
 division	Pays de la Loire	47.640237	-0.647258
 division	Pelt	51.210014	5.420519
 division	Pennsylvania	41.2033	-77.1945
@@ -1183,6 +1190,7 @@ division	Tolima	4.065944	-75.215716
 division	Touba	14.856713	-15.87911
 division	Toulouse	43.597198	1.431465
 division	Tournai	50.615852	3.400822
+division	Trang	7.529936	99.611699
 division	Trondheim	63.4305	10.3951
 division	Tubize	50.687041	4.193545
 division	Turkey	39	35
