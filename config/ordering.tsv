@@ -1,3 +1,17 @@
+division	Cali
+division	Waikato
+division	Southern
+division	Midcentral
+division	Combined Wellington
+division	Lakes
+division	Wairarapa
+division	Bay of Plenty
+division	Counties Manukau
+division	Canterbury
+division	Nelson Marlborough
+division	Waitemata
+division	Midcentral
+division	Timor-Leste
 
 location	Wuhan
 location	Tianmen
@@ -1305,6 +1319,7 @@ country	Singapore
 country	Brunei
 country	Indonesia
 country	Guam
+country	Timor-Leste
 country	Australia
 country	New Zealand
 country	Saudi Arabia
