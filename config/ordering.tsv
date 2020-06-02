@@ -1,7 +1,6 @@
 division	Cali
 division	Waikato
 division	Southern
-division	Midcentral
 division	Combined Wellington
 division	Lakes
 division	Wairarapa
@@ -10,8 +9,9 @@ division	Counties Manukau
 division	Canterbury
 division	Nelson Marlborough
 division	Waitemata
-division	Midcentral
+division	MidCentral
 division	Timor-Leste
+
 
 location	Wuhan
 location	Tianmen
