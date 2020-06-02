@@ -35,3 +35,9 @@ Within these major clades, we monitor potential ‘emerging clades', which we wi
 | 20C | N America:  USA | C1059T G25563T | 19-21% Globally Apr |
 
 You can view the current clades on the Global SARS-CoV-2 Nextstrain tree [here](https://nextstrain.org/ncov/global?branchLabel=clade&c=clade_membership).
+
+### Identifying Nextstrain Clades
+
+To make it easy for users to identify the Nextstrain clade of their own sequences, we provide [a simple python script](https://github.com/nextstrain/ncov/blob/master/assign_clades.py) that can be run on any Fasta file to assign appropriate clades. 
+
+This script is part of the ‘ncov’ github repository, but does not require running any other part of the pipeline. However ‘augur’ must be installed to run the script. This can be done [a number of different ways](https://nextstrain.org/docs/getting-started/local-installation#install-augur-with-python), but is often most easily done [using ‘pip’](https://nextstrain-augur.readthedocs.io/en/stable/installation/installation.html#using-pip-from-pypi). 
