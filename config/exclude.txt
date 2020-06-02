@@ -365,9 +365,6 @@ Hefei/2/2020
 # Seems divergent - sample date 8 Jan, but 6 muts from root.
 Jingzhou/HBCDC-HB-01/2020
 
-#date seems wrong - says 2020-01-03 but seems much more likely to be 2020-03-01
-Australia/VPRL014/2020
-
 # Far to divergent- 30 mutations
 Wuhan/HBCDC-HB-04/2019
 
