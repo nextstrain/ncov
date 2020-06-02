@@ -40,15 +40,11 @@ files:
 # Filter settings
 filter:
   # Require nearly full-length genomes.
-  min_length: 25000
+  min_length: 27000
 
-  # Omit sequences with incomplete date annotations.
-  exclude_where: "date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-05-XX' date='2020-06-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04' date='2020-05' date='2020-06'"
+  # Omit sequences with incomplete date annotations, and USA seqs without a state.
+  exclude_where: "division='USA' date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-05-XX' date='2020-06-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04' date='2020-05' date='2020-06'"
 
-  # Select a subset of sequences per unique geographic and temporal group.
-  # This limits the number of sequences in the base build to prevent long runtimes.
-  group_by: "division year month"
-  sequences_per_group: 2000
 
 # Alignment settings
 # Alignments are partitioned into smaller groups to speed up the overall alignment process.
@@ -140,7 +136,7 @@ subsampling:
   region_global:
     global:
       group_by: "division year month"
-      seq_per_group: 14
+      seq_per_group: 10
 
   # Custom subsampling logic for regions like Europe where grouping by country
   # is the smallest resolution required.

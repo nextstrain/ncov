@@ -15,7 +15,6 @@ rule filter:
         """
         Filtering to
           - excluding strains in {input.exclude}
-          - minimum genome length of {params.min_length}
         """
     input:
         sequences = rules.download.output.sequences,
@@ -28,9 +27,7 @@ rule filter:
         "logs/filtered.txt"
     params:
         min_length = config["filter"]["min_length"],
-        exclude_where = config["filter"]["exclude_where"],
-        group_by = config["filter"]["group_by"],
-        sequences_per_group = config["filter"]["sequences_per_group"]
+        exclude_where = config["filter"]["exclude_where"]
     conda: config["conda_environment"]
     shell:
         """
@@ -41,10 +38,87 @@ rule filter:
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
-            --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
             --output {output.sequences} 2>&1 | tee {log}
         """
+
+rule excluded_sequences:
+    message:
+        """
+        Generating fasta file of excluded sequences
+        """
+    input:
+        sequences = rules.download.output.sequences,
+        metadata = rules.download.output.metadata,
+        include = config["files"]["exclude"]
+    output:
+        sequences = "results/excluded.fasta"
+    log:
+        "logs/excluded.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+	    --min-length 50000 \
+            --include {input.include} \
+            --output {output.sequences} 2>&1 | tee {log}
+        """
+
+rule align_excluded:
+    message:
+        """
+        Aligning excluded sequences to {input.reference}
+          - gaps relative to reference are considered real
+        """
+    input:
+        sequences = rules.excluded_sequences.output.sequences,
+        reference = config["files"]["reference"]
+    output:
+        alignment = "results/excluded_alignment.fasta"
+    log:
+        "logs/align_excluded.txt"
+    threads: 2
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur align \
+            --sequences {input.sequences} \
+            --reference-sequence {input.reference} \
+            --output {output.alignment} \
+            --nthreads {threads} \
+            --remove-reference 2>&1 | tee {log}
+        """
+
+rule diagnose_excluded:
+    message: "Scanning excluded sequences {input.alignment} for problematic sequences"
+    input:
+        alignment = rules.align_excluded.output.alignment,
+        metadata = rules.download.output.metadata,
+        reference = config["files"]["reference"]
+    output:
+        diagnostics = "results/excluded-sequence-diagnostics.tsv",
+        flagged = "results/excluded-flagged-sequences.tsv",
+        to_exclude = "results/check_exclusion.txt"
+    log:
+        "logs/diagnose-excluded.txt"
+    params:
+        mask_from_beginning = config["mask"]["mask_from_beginning"],
+        mask_from_end = config["mask"]["mask_from_end"]
+    conda: config["conda_environment"]
+    shell:
+        """
+        {python:q} scripts/diagnostic.py \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --reference {input.reference} \
+            --mask-from-beginning {params.mask_from_beginning} \
+            --mask-from-end {params.mask_from_end} \
+            --output-flagged {output.flagged} \
+            --output-diagnostics {output.diagnostics} \
+            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
+        """
+
 
 checkpoint partition_sequences:
     input:
@@ -111,6 +185,59 @@ rule aggregate_alignments:
         cat {input.alignments} > {output.alignment} 2> {log}
         """
 
+rule diagnostic:
+    message: "Scanning aligned sequences {input.alignment} for problematic sequences"
+    input:
+        alignment = rules.aggregate_alignments.output.alignment,
+        metadata = rules.download.output.metadata,
+        reference = config["files"]["reference"]
+    output:
+        diagnostics = "results/sequence-diagnostics.tsv",
+        flagged = "results/flagged-sequences.tsv",
+        to_exclude = "results/to-exclude.txt"
+    log:
+        "logs/diagnostics.txt"
+    params:
+        mask_from_beginning = config["mask"]["mask_from_beginning"],
+        mask_from_end = config["mask"]["mask_from_end"]
+    conda: config["conda_environment"]
+    shell:
+        """
+        {python:q} scripts/diagnostic.py \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --reference {input.reference} \
+            --mask-from-beginning {params.mask_from_beginning} \
+            --mask-from-end {params.mask_from_end} \
+            --output-flagged {output.flagged} \
+            --output-diagnostics {output.diagnostics} \
+            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
+        """
+
+rule refilter:
+    message:
+        """
+        excluding sequences flagged in the diagnostic step in file {input.exclude}
+        """
+    input:
+        sequences = rules.aggregate_alignments.output.alignment,
+        metadata = rules.download.output.metadata,
+        exclude = rules.diagnostic.output.to_exclude
+    output:
+        sequences = "results/aligned-filtered.fasta"
+    log:
+        "logs/refiltered.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --exclude {input.exclude} \
+            --output {output.sequences} 2>&1 | tee {log}
+        """
+
+
 rule mask:
     message:
         """
@@ -120,7 +247,7 @@ rule mask:
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = rules.aggregate_alignments.output.alignment
+        alignment = rules.refilter.output.sequences
     output:
         alignment = "results/masked.fasta"
     log:
