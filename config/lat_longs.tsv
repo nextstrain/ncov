@@ -24,6 +24,7 @@ location	Andel	51.7851	5.0549
 location	Anserma	5.238746	-75.782888
 location	Antequera	37.017136	-4.561986
 location	Arbre	50.611772	3.817121
+location	Armenia	4.539019	-75.680551
 location	Asnières-sur-Seine	48.911508	2.284362
 location	Assumption Parish	29.912050	-91.042405
 location	Asotin County	46.1460	-117.2085
@@ -33,12 +34,15 @@ location	Bahia Blanca	-38.7183	-62.2663
 location	Bangkok	13.803139	100.491612
 location	Baranain	42.804918	-1.682891
 location	Barasoain	42.604612	-1.645399
+location	Barrancabermeja	7.067561	-73.848406
+location	Barranquilla	10.987216	-74.805576
 location	Bassilly	50.675907	3.933169
 location	Bayside	43.1806	-87.9006
 location	Beijing	40.071320	116.406908
 location	Bela - Ledec na Sazavou	49.693369	15.277533
 location	Belford Roxo	-22.7645	-43.3996
 location	Belleville	42.863312	-89.535472
+location	Bello	6.337338	-75.551569
 location	Beloit	42.519007	-89.018844
 location	Benajarafe	36.716604	-4.195416
 location	Beniganim	38.9431	-0.4439
@@ -69,8 +73,9 @@ location	Brooklyn	40.6782	-73.9442
 location	Brooklyn WI	42.854602	-89.371662
 location	Broome County	42.136164	-75.832955
 location	Brown Deer	43.1633	-87.9645
-location	Budapest	47.482728	19.084269
+location	Bucaramanga	7.112728	-73.129549
 location	Buchanan County	42.4566	-91.9099
+location	Budapest	47.482728	19.084269
 location	Buga	3.903723	-76.300764
 location	Burhanpur	21.318288	76.220760
 location	Caddo Parish	32.618244	-93.832261
@@ -85,6 +90,7 @@ location	Campbellsport	43.596732	-88.280763
 location	Canet d'en Berenguer	39.6806	-0.2192
 location	Cardiff	51.476291	-3.178964
 location	Carentan	49.302133	-1.250938
+location	Cartagena	10.400866	-75.503036
 location	Cayuga County	42.900990	-76.575649
 location	Cergy	49.0356	2.0603
 location	Chalon sur Saone	46.7808	4.8539
@@ -100,6 +106,7 @@ location	Chippewa Falls	44.931261	-91.389704
 location	Choconta	5.146017	-73.683678
 location	Chongqing	29.858721	107.375623
 location	Chungcheongnam	36.685948	126.799198
+location	Cienaga	11.006697	-74.244529
 location	Cincinnati	39.122033	-84.515918
 location	Cintruenigo	42.078227	-1.805927
 location	Cizur Menor	42.786144	-1.677269
@@ -122,7 +129,7 @@ location	Crawford County	42.0347	-95.3103
 location	Crépy en Valois	49.234399	2.888491
 location	Cross Plains	43.115305	-89.646827
 location	Crouy en Thelle	49.213817	2.320688
-location	Cúcuta	7.904674	-72.506484
+location	Cucuta	7.907734	-72.507857
 location	Cudahy	42.946879	-87.861992
 location	Cuesmes	50.435127	3.923209
 location	Dahegam	23.1637	72.8102
@@ -282,6 +289,7 @@ location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
 location	Lanaudière	46.76678	-73.83248
 location	Le Pecq	48.8973	2.1064
+location	Leticia	-4.212580	-69.943144
 location	Leuven	50.880674	4.700109
 location	Levallois-Perret	48.8932	2.2879
 location	Lishui	28.460681	119.919147
@@ -305,6 +313,7 @@ location	Malaga	36.718690	-4.432799
 location	Manaus	-3.126424	-60.019807
 location	Mandsaur	24.077683	75.067604
 location	Manhattan	40.778542	-73.969920
+location	Manizales	5.058776	-75.498753
 location	mansa	23.428814	72.656249
 location	Marin County	38.077277	-122.719060
 location	Marshall	43.167355	-89.066568
@@ -391,6 +400,7 @@ location	Pingxiang	27.632413	113.892981
 location	Pittsburgh	40.433375	-79.996990
 location	Ploudalmezeau	48.5415	-4.6578
 location	Pontoise	49.049228	2.098595
+location	Popayan	2.458755	-76.606118
 location	Poppel	51.445671	5.042493
 location	Port Washington	43.382722	-87.885911
 location	Portugalete	43.317356	-3.021671
@@ -524,6 +534,7 @@ location	Trazegnies	50.466074	4.334811
 location	Trempealeau County	44.2398	-91.3662
 location	Trujillo	4.212089	-76.319157
 location	Tulua	4.092520	-76.197483
+location	Tumaco	1.792753	-78.793766
 location	Tweed Heads	-28.201312	153.543425
 location	Ujjain	23.161092	75.803740
 location	Ulan-Ude	51.827029	107.655954
@@ -627,6 +638,7 @@ division	Assam	26.2006	92.9376
 division	Asse	50.9094	4.2005
 division	Ath	50.646122	3.770363
 division	Athens	37.987832	23.726319
+division	Atlantico	10.681025	-74.955752
 division	Auckland	-36.8314	174.7606
 division	Australia	-24.7761085	134.755
 division	Austria	47.5162	14.5501
@@ -659,6 +671,7 @@ division	Bihar	25.0961	85.3131
 division	Blegny	50.676412	5.704849
 division	Blida	36.48329	2.808751
 division	Bogota	4.629337	-74.095588
+division	Bolivar	8.753508	-74.367735
 division	Bonheiden	51.01931	4.568699
 division	Boufarik	36.57709	2.914137
 division	Bourgogne	47.0525	4.3837
@@ -694,6 +707,7 @@ division	Castilla La Mancha	39.2796	-3.0977
 division	Castilla y Leon	41.8357	-4.3976
 division	Castilla Y León	41.8357	-4.3976
 division	Catalunya	41.834815	1.606414
+division	Cauca	2.473774	-76.864221
 division	Central Hungary	47.360008	19.252798
 division	Centre-Val de Loire	47.481221	1.698793
 division	Cesar	9.654915	-73.528255
@@ -738,6 +752,7 @@ division	Democratic Republic of the Congo	-4.0383	21.7587
 division	Dendermonde	51.032573	4.099329
 division	Denizli	37.7830	29.0963
 division	Denmark	56.2639	9.5018
+division	Departamento de Amazonas	-1.420517	-71.257925
 division	Dhaka	23.789370	90.415192
 division	Diamond Princess	35.046935	139.419325
 division	Dilbeek	50.8465	4.2621
@@ -953,7 +968,6 @@ division	Maryland	39.0458	-76.6413
 division	Massachusetts	42.340741	-71.998513
 division	Mazowieckie	52.467791	21.224779
 division	Mbour	14.427132	-16.966574
-division	Medellin	6.2486	-75.5742
 division	Melbourne	-37.8136	144.9631
 division	Melilla	35.291746	-2.938261
 division	Merelbeke	50.9945	3.7456
@@ -1078,6 +1092,7 @@ division	Quebec	52.9399	-73.5491
 division	Queensland	-23.094025	144.192275
 division	Queretaro	20.5888	-100.3899
 division	Quevy	50.368752	3.945724
+division	Quindio	4.477059	-75.690565
 division	Quintana Roo	19.642598	-88.040442
 division	Quito	-0.18126	-78.4599
 division	Rajasthan	26.498229	73.881085
@@ -1115,6 +1130,7 @@ division	Samara Region	53.4184	50.4726
 division	samut prakarn	13.581663	100.721344
 division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
+division	Santander	6.746570	-73.476456
 division	San Jose	9.9281	-84.0907
 division	Santiago	-33.383304	-70.530623
 division	Sao Paulo	-23.59806	-46.660537

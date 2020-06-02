@@ -353,6 +353,18 @@ location	Funza
 location	Cali
 location	Buga
 location	Ibague
+location	Cienaga
+location	Tumaco
+location	Bello
+location	Leticia
+location	Manizales
+location	Cucuta
+location	Cartagena
+location	Barranquilla
+location	Barrancabermeja
+location	Bucaramanga
+location	Armenia
+location	Popayan
 location	Medellin
 location	Dosquebradas
 location	Envigado
@@ -371,7 +383,6 @@ location	Tierralta
 location	Monteria
 location	Valledupar
 location	Cajica
-location	Cúcuta
 location	Villavicencio
 location	Chía
 location	Yumbo
@@ -1169,6 +1180,12 @@ division	Colombia
 division	Meta
 division	Caldas
 division	Valle del Cauca
+division	Cauca
+division	Quindio
+division	Santander
+division	Atlantico
+division	Bolivar
+division	Departamento de Amazonas
 division	Boyaca
 division	Cundinamarca
 division	Narino
