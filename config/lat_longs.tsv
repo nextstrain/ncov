@@ -2,8 +2,6 @@ division	Cali	3.420251	-76.522405
 division	Waikato	-37.601432	175.119315
 division	Combined Wellington	-41.246350	174.751547
 division	Canterbury	-43.466990	171.751554
-division	MidCentral	-40.363958	175.826839
-division	Timor-Leste	-8.809397	125.909527
 
 
 location	Abondant	48.790785	1.420178
@@ -662,6 +660,7 @@ division	Baranya	46.0485	18.2719
 division	Barcelona	41.394769	2.173828
 division	Basel-Stadt	47.557238	7.595666
 division	Basel-Land	47.493316	7.714938
+division	Basilicata	40.447062	16.081705
 division	Basque Country	42.9896	-2.6189
 division	Bavaria	48.1382614	11.5845093
 division	Beersel	50.7669	4.3085
@@ -778,6 +777,7 @@ division	Egypt	26.2540493	29.2675469
 division	Ellezelles	50.7338	3.6799
 division	Elsene	50.82821	4.371924
 division	England	52.405994	-1.671707
+division	Emilia-Romagna	44.641437	11.119072
 division	Eskisehir	39.773703	30.518708
 division	Espirito Santo	-19.1834	-40.3089
 division	Estado de Mexico	19.4969	-99.7233
@@ -826,6 +826,7 @@ division	Greater Accra	5.761619	0.040546
 division	Greece	39	22
 division	Grimbergen	50.942962	4.375664
 division	Guadalajara	20.676026	-103.332671
+division	Guangzhou	23.123972	113.292889
 division	Guam	13.464887	144.792016
 division	Guangdong	23.615762	114.483257
 division	Guangxi	23.717754	108.701872
@@ -987,6 +988,7 @@ division	Minas gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
 division	Mirpur	23.808569	90.363307
 division	Missouri	37.9643	-91.8318
+division	Molise	41.686461	14.608668
 division	Mons	50.445439	3.962794
 division	Montana	46.974704	-110.872530
 division	Montevideo	-34.823827	-56.211799
@@ -998,6 +1000,7 @@ division	Mouscron	50.738645	3.23861
 division	Mpumalanga	-25.5653	30.5279
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
+division	Muscat	23.580244	58.362707
 division	Myanmar	20.600856	96.287616
 division	Nakhonnayok	14.180467	101.096533
 division	Namur	50.457215	4.879493
@@ -1063,6 +1066,7 @@ division	Otago	-45.412319	169.855268
 division	Oudergem	50.812905	4.435779
 division	Overijssel	52.436273	6.463628
 division	Oyo State	8.154414	3.632978
+division	Pa Trento	46.096712	11.130704
 division	Pahang	3.8126	103.3256
 division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
@@ -1125,6 +1129,7 @@ division	Rixensart	50.7156	4.531
 division	Riyadh	23.197563	45.243845
 division	Rome	41.9028	12.4964
 division	Ronse	50.745879	3.607614
+division	Rostock	54.130776	12.106778
 division	Russia	64.6863136	97.7453061
 division	Saint-Ghislain	50.483208	3.802415
 division	Saint-Petersburg	59.88208	30.3308
@@ -1157,6 +1162,7 @@ division	Serbia	43.745902	20.848918
 division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
 division	Sichuan	30.709229	102.693949
+division	Sicily	37.636932	14.193097
 division	Sihanoukville	10.616351	103.512278
 division	Siirt	37.911394	42.115166
 division	Silly	50.638827	3.943396
@@ -1222,6 +1228,7 @@ division	Ticino	46.345334	8.774813
 division	Tielt-Winge	50.922676	4.892596
 division	Tienen	50.80466	4.937784
 division	Tilburg	51.567213	5.047957
+division	Timor-Leste	-8.809397	125.909527
 division	Tipperary	52.4738	-8.1619
 division	Tokat	40.3235	36.5522
 division	Tokyo	35.683441	139.766131
@@ -1249,6 +1256,7 @@ division	Usti nad Labem	50.656527	14.053702
 division	Utah	39.4225192	-111.7143583
 division	Utrecht	52.08532	5.184968
 division	Valais	46.166982	7.563441
+division	Valle d'Aosta	45.746178	7.353924
 division	Valle del Cauca	3.747163	-76.415809
 division	Valparaiso	-33.0472	-71.6127
 division	Vastmanland	59.6714	16.2159

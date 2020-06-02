@@ -101,7 +101,7 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "clade_membership",
+    "color_by": "country",
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,

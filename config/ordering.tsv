@@ -1,6 +1,7 @@
 division	Cali
 division	Waikato
 division	Southern
+division	MidCentral
 division	Combined Wellington
 division	Lakes
 division	Wairarapa
@@ -9,9 +10,7 @@ division	Counties Manukau
 division	Canterbury
 division	Nelson Marlborough
 division	Waitemata
-division	MidCentral
-division	Timor-Leste
-
+division	Midcentral
 
 location	Wuhan
 location	Tianmen
@@ -33,6 +32,7 @@ location	Zhongshan
 location	Shanwei
 location	Yangjiang
 location	Shaoguan
+division	Guangzhou
 location	Dongguan
 location	Zhanjiang
 location	Beijing
@@ -745,6 +745,7 @@ division	Karachi
 division	Bangladesh
 division	Mirpur
 division	Narayanganj
+division	Timor-Leste
 division	Australia
 division	South Australia
 division	Queensland
@@ -758,6 +759,7 @@ division	New Zealand
 division	Otago
 division	Auckland
 division	United Arab Emirates
+division	Muscat
 division	Saudi Arabia
 division	Riyadh
 division	Qatar
@@ -1014,6 +1016,7 @@ division	Duesseldorf
 division	Baden-Wuerttemberg
 division	Munich
 division	Frankfurt
+division	Rostock
 division	North Rhine Westphalia
 division	Netherlands
 division	Milheeze
@@ -1076,6 +1079,12 @@ division	South Tyrol
 division	Lazio
 division	Marche
 division	Lombardy
+division	Emilia-Romagna
+division	Molise
+division	PA Trento
+division	Sicily
+division	Valle D'Aosta
+division	Basilicata
 division	Abruzzo
 division	Apulia
 division	Rome
@@ -1327,6 +1336,7 @@ country	Qatar
 country	United Arab Emirates
 country	Kuwait
 country	Lebanon
+country	Oman
 country	Iran
 country	Israel
 country	Jordan
