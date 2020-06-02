@@ -10,6 +10,10 @@ In order to download the GISAID data to run yourself, please see [Running a SARS
 
 > Please note that `data/metadata.tsv` is no longer included as part of this repo and should be downloaded directly from GISAID.
 
+### Clades
+
+For information about how clades are defined, and the currently named clades, please see [here](./docs/clades.md).
+
 ### Bioinformatics notes
 
 Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of [8 &times; 10^-4 subs per site per year](http://virological.org/t/phylodynamic-analysis-176-genomes-6-mar-2020/356). There were SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts.
