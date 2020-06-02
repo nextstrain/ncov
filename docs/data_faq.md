@@ -3,6 +3,10 @@
 We often recieve questions from data submittors about why their data is not visible on the [Nextstrain SARS-CoV-2 runs](https://nextstrain.org/ncov). 
 This short FAQ highlights some of the main reasons why data may not be showing up on Nextstrain.
 
+### Sequence Length & Number of N's
+
+We currently only use full-genome sequences which are at least 27,000 bases in length. They also cannot have more than 3,000 bases that are 'N'.
+
 ### Subsampling
 
 Nextstrain runs can be subsampled considerably. There are over >30,000 whole-genome sequences available on GISAID currently, but we typically include <5,000 in each of our runs. If the division your samples are from contains more than about 100 samples per month, they are likely to be downsampled. Be sure to check the appropriate regional build - these are sampled more heavily from the focal region, so there's a higher chance a sequence will be included in the run. We have regional builds for [North America](https://nextstrain.org/ncov/north-america), [South America](https://nextstrain.org/ncov/south-america), [Asia](https://nextstrain.org/ncov/asia), [Africa](https://nextstrain.org/ncov/africa/), [Europe](https://nextstrain.org/ncov/europe), and [Oceania](https://nextstrain.org/ncov/oceania).
