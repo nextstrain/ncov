@@ -1410,9 +1410,9 @@ recency	3-7 days ago
 recency	1-2 days ago
 recency	New
 
-region	Oceania
 region	Asia
-region	Africa
+region	Oceania
 region	Europe
-region	North America
+region	Africa
 region	South America
+region	North America
