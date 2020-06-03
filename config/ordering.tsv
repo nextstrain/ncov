@@ -12,6 +12,9 @@ division	Nelson Marlborough
 division	Waitemata
 division	Midcentral
 
+
+
+
 location	Wuhan
 location	Tianmen
 location	Hefei
@@ -327,7 +330,7 @@ location	Rincon de la Victoria
 location	Almeria
 location	Torremolinos
 location	Benajarafe
-location	Velez_Malaga
+location	Velez Malaga
 location	Antequera
 location	Olleria
 location	Canet d'en Berenguer
@@ -553,12 +556,8 @@ location	Miramar
 location	Adams County WA
 location	Adams County WI
 location	New Orleans
-location	Assumption Parish
-location	St Tammany Parish
-location	Jefferson Parish
 location	Panola County
 location	Morehouse Parish
-location	St Bernard Parish
 location	Tensas Parish
 location	Rapides Parish
 location	Bossier Parish
@@ -765,6 +764,10 @@ division	Otago
 division	Auckland
 division	United Arab Emirates
 division	Muscat
+division	North Batinah
+division	South Batinah
+division	Dakhiliyah
+division	Buraimi
 division	Saudi Arabia
 division	Riyadh
 division	Qatar

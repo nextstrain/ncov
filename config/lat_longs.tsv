@@ -4,6 +4,8 @@ division	Combined Wellington	-41.246350	174.751547
 division	Canterbury	-43.466990	171.751554
 
 
+
+
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
 location	Adams County WI	43.973540	-89.755486
@@ -33,7 +35,6 @@ location	Armenia	4.539019	-75.680551
 location	Asnières-sur-Seine	48.911508	2.284362
 location	Assumption Parish	29.912050	-91.042405
 location	Asotin County	46.1460	-117.2085
-location	Assumption Parish	29.911453	-91.066422
 location	Auckland	-36.8314	174.7606
 location	Bad Gastein	47.109942	13.127594
 location	Bahia Blanca	-38.7183	-62.2663
@@ -347,7 +348,6 @@ location	Montgomery County	42.9155	-74.4526
 location	Montigny le Bretonneux	48.7739	2.0360
 location	Montignies-Sur-Sambre	50.401302	4.478466
 location	Montreux-Chateau	47.607677	6.994181
-location	Morehouse Parish	32.802813	-91.808966
 location	Mount Horeb	43.008707	-89.730497
 location	Moussy Le Neuf	49.065806	2.601697
 location	Multnomah County	45.517630	-122.536942
@@ -556,7 +556,7 @@ location	Valencia	39.337	-0.354
 location	Valencia Horta	39.465736	-0.424354
 location	Valledupar	10.466023	-73.253272
 location	Vanves	48.821722	2.288675
-location	Velez_Malaga	36.779282	-4.100078
+location	Velez Malaga	36.779282	-4.100078
 location	Venissieux	45.704031	4.882246
 location	Vernon County	43.5577	-90.8294
 location	Verona IT	45.4384	10.9916
@@ -701,6 +701,7 @@ division	Brussels	50.8503	4.3517
 division	Bucharest	44.4268	26.1025
 division	Budapest	47.482728	19.084269
 division	Buenos Aires	-34.6037	-58.3816
+division	Buraimi	24.268575	55.826808
 division	Burgenland	47.517438	16.468160
 division	Buryat Republic	52.311711	108.916732
 division	Cacak	43.891816	20.362815
@@ -753,6 +754,7 @@ division	Croatia	45.1	15.2
 division	Cundinamarca	5.049758	-74.076048
 division	Czech Republic	49.8175	15.473
 division	Dakar	14.725966	-17.46181
+division	Dakhiliyah	22.316676	57.359135
 division	Dalhem	50.71948	5.758129
 division	Dalarna	61.0917	14.6664
 division	Deinze	50.9875	3.5236
@@ -1034,6 +1036,7 @@ division	Normandie	48.8799	0.1713
 division	Norrbotten	66.936364	20.341728
 division	Norte de santander	8.107454	-72.862123
 division	North America	28.2367447	-97.738017
+division	North Batinah	24.577310	56.435470
 division	North Brabant	51.4827	5.2322
 division	North Carolina	35.7596	-79.0193
 division	North District	32.8972	35.3027
@@ -1188,6 +1191,7 @@ division	Soumagne	50.636363	5.733485
 division	South Africa	-28.8166235	24.991639
 division	South America	-13.083583	-58.470721
 division	South Australia	-30.0002	136.2092
+division	South Batinah	23.760421	57.045212
 division	South Carolina	33.8361	-81.1637
 division	South Coast District	29.873836	34.934417
 division	South District	30.8296	35.0388
