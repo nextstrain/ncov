@@ -747,6 +747,13 @@ def export_title(wildcards):
     # TODO: maybe we could replace this with a config entry for full/human-readable build name?
     location_name = wildcards.build_name
 
+    # If specified in config file generally, or in a config file build
+    if "title" in config["builds"][location_name]:
+        return config["builds"][location_name]["title"]
+    elif "title" in config:
+        return config["title"]
+
+    # Else return an auto-generated title
     if not location_name:
         return "Genomic epidemiology of novel coronavirus"
     elif location_name == "global":
@@ -781,8 +788,8 @@ rule export:
         tree = rules.refine.output.tree,
         metadata = _get_metadata_by_wildcards,
         node_data = _get_node_data_by_wildcards,
-        auspice_config = config["files"]["auspice_config"],
-        colors = lambda w: config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w),
+        auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"][w.build_name] else config["files"]["auspice_config"],
+        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"],
         description = config["files"]["description"]
     output:

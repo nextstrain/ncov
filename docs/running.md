@@ -96,14 +96,24 @@ Instead, you can define your own analysis and tweak parameters by creating your 
 To do so, copy `profiles/default` to `profiles/<my-new-profile-name>` and open the `builds.yaml`
 file in this directory.
 This file specifies the analysis you want to run in a data structure called `builds`.
-Each entry has `build_name` which in the example is `global`.
+Each entry has `build_name` which in the example below are `switzerland`, `basel-stadt`, `ticino` and `lac-leman`.
 For each build, you can specify
 
  - `subsampling_scheme`: specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes can be defined (see below).
- - `geographic_scale` and `geographic_name`: together, these two define the keys for subsampling. `geographic_name` defaults to `build_name` if not specified.
- - `region`, `country`, and `division`: specify the location of the sample, down to the specified `geographic_scale`. If the build is a compilation of locations (like the `lac-leman` example below), you can provide your own final geographic location name.
+ - `geographic_scale`: this defines the keys for subsampling.
+ - `location`, `region`, `country`, and `division`: specify the location of the sample, down to the specified `geographic_scale`. If the build aggregates strains across a custom geographic scale (like the `lac-leman` example below), you can provide your own geographic scale name and reference this in the corresponding subsampling schemes.
+ - `title`: specify the title of this build only
+ - `colors`: a file containing custom color values to be used for this build only. (Should be formatted as specified [here](https://nextstrain-augur.readthedocs.io/en/stable/faq/colors.html))
+ - `auspice_config`: the Auspice config file that should be used for this build only
 
-For our Switzerland specific builds, this looks like this:
+You can also specify some values which will apply to all the builds in this profile (if a build-specific option is provided as well, it will override these):
+ - `title`: specify the title of all builds
+
+In a section called `files` you can specify:
+ - `colors`: a file containing custom color values to be used for all builds (Should be formatted as specified [here](https://nextstrain-augur.readthedocs.io/en/stable/faq/colors.html))
+ - `auspice_config`: the Auspice config file that should be used for all builds
+
+For our Switzerland specific builds, this looks like this (note not all options possible are specified below):
 ```yaml
 builds:
   switzerland:
@@ -117,6 +127,8 @@ builds:
     region: Europe
     country: Switzerland
     division: Basel-Stadt
+    title: "Novel Coronavius Build for Basel-Stadt"
+    colors: "profiles/swiss/colors_for_BS.tsv"
   ticino:
     subsampling_scheme: canton
     geographic_scale: division
@@ -129,6 +141,11 @@ builds:
     region: Europe
     country: Switzerland
     division: Lac Leman
+
+title: "Novel Coronavirus Builds for Switzerland"
+files:
+  colors: "profiles/swiss/colors.tsv"
+  auspice_config: "profiles/swiss/auspice_config.json"
 ```
 These subsampling schemes for the cantons and the composite region `lac-leman` are
 not one our default scheme but custom ones.
