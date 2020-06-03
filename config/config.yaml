@@ -65,6 +65,9 @@ mask:
   # 13402, 24389 and 24390 are restricted to Belgian samples
   mask_sites: "13402 24389 24390"
 
+tree:
+  tree-builder-args: "'-ninit 10 -n 4'"
+
 # TreeTime settings
 refine:
   root: "Wuhan-Hu-1/2019 Wuhan/WH01/2019"

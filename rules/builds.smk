@@ -439,6 +439,8 @@ rule tree:
         alignment = rules.combine_samples.output.alignment
     output:
         tree = "results/{build_name}/tree_raw.nwk"
+    params:
+        args = lambda w: config["tree"].get("tree-builder-args","") if "tree" in config else ""
     log:
         "logs/tree_{build_name}.txt"
     benchmark:
@@ -454,6 +456,7 @@ rule tree:
         """
         augur tree \
             --alignment {input.alignment} \
+            --tree-builder-args {params.args} \
             --output {output.tree} \
             --nthreads {threads} 2>&1 | tee {log}
         """
