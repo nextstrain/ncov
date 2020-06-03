@@ -100,8 +100,8 @@ Each entry has `build_name` which in the example below are `switzerland`, `basel
 For each build, you can specify
 
  - `subsampling_scheme`: specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes can be defined (see below).
- - `geographic_scale`: together, this defines the keys for subsampling.
- - `region`, `country`, and `division`: specify the location of the sample, down to the specified `geographic_scale`. If the build is a compilation of locations (like the `lac-leman` example below), you can provide your own final geographic location name.
+ - `geographic_scale`: this defines the keys for subsampling.
+ - `location`, `region`, `country`, and `division`: specify the location of the sample, down to the specified `geographic_scale`. If the build aggregates strains across a custom geographic scale (like the `lac-leman` example below), you can provide your own geographic scale name and reference this in the corresponding subsampling schemes.
  - `title`: specify the title of this build only
  - `colors`: a file containing custom color values to be used for this build only. (Should be formatted as specified [here](https://nextstrain-augur.readthedocs.io/en/stable/faq/colors.html))
  - `auspice_config`: the Auspice config file that should be used for this build only

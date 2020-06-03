@@ -693,14 +693,11 @@ def export_title(wildcards):
     # TODO: maybe we could replace this with a config entry for full/human-readable build name?
     location_name = wildcards.build_name
 
-    title = None
     # If specified in config file generally, or in a config file build
     if "title" in config["builds"][location_name]:
-        title = config["builds"][location_name]["title"]
+        return config["builds"][location_name]["title"]
     elif "title" in config:
-        title = config["title"]
-    if title:
-            return title
+        return config["title"]
 
     # Else return an auto-generated title
     if not location_name:
