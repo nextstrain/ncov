@@ -249,6 +249,26 @@ location	Montignies-Sur-Sambre
 location	Tertre
 location	Heverlee
 location	Kain
+location	Wespelaar
+location	Molenstede
+location	Kaggevinne
+location	Sterrebeek
+location	Luttre
+location	Givry
+location	Wilrijk
+location	Ramsel
+location	Baudour
+location	Neufmaison
+location	Veltem-beisem
+location	Shape
+location	Flénu
+location	Ghlin
+location	Lotenhulle
+location	Thulin
+location	Wilsele
+location	Paal
+location	Wadelincourt
+location	Grand-Leez
 location	Winksele
 location	Jemappes
 location	Bassilly
@@ -977,6 +997,29 @@ division	Havelange
 division	Fontaine-l Eveque
 division	Lummen
 division	Mons
+division	Overijse
+division	Scherpenheuvel-Zichem
+division	Jette
+division	Geetbets
+division	Dour
+division	Seneffe
+division	Machelen
+division	Laken
+division	Mepel
+division	Le roeulx
+division	Temse
+division	Jurbise
+division	Edingen
+division	Madegem
+division	Morlanwelz
+division	Malle
+division	Aarschot
+division	Tessenderlo
+division	Vlaams-Brabant
+division	Henegouwen
+division	Aalter
+division	Hensies
+division	Beloeil
 division	Boussu
 division	Tienen
 division	Grimbergen
@@ -1159,6 +1202,11 @@ division	Oyo State
 division	Ghana
 division	Senegal
 division	Gambia
+division	Morocco
+division	Casablanca
+division	Tunisia
+division	Bizerte
+division	Ben Arous
 division	Algeria
 division	Lagos
 division	Uganda
@@ -1206,6 +1254,8 @@ division	Rio de Janeiro
 division	Amapa
 division	Santa Catarina
 division	Alagoas
+division	Acre
+division	Maranhao
 division	Argentina
 division	Ciudad Autonoma de Buenos Aires
 division	Buenos Aires
