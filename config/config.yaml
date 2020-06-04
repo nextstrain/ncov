@@ -98,7 +98,7 @@ frequencies:
 traits:
   default:
     sampling_bias_correction: 2.5
-    columns: ["region_exposure", "country_exposure"]
+    columns: ["country_exposure"]
 
 exposure:
   default:
