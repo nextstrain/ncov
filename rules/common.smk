@@ -43,7 +43,7 @@ def _get_trait_columns_by_wildcards(wildcards):
         return config["traits"]["default"]["columns"]
 
 def _get_sampling_bias_correction_for_wildcards(wildcards):
-    if wildcards.build_name in config["traits"]:
+    if wildcards.build_name in config["traits"] and 'sampling_bias_correction' in config["traits"][wildcards.build_name]:
         return config["traits"][wildcards.build_name]["sampling_bias_correction"]
     else:
         return config["traits"]["default"]["sampling_bias_correction"]
