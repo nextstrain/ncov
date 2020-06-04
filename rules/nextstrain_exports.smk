@@ -43,9 +43,9 @@ rule clean_export_regions:
         *expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
         *expand("results/{build_name}/ncov_gisaid_with_accessions.json", build_name=BUILD_NAMES),
         *expand("results/{build_name}/ncov_zh_with_accessions.json", build_name=BUILD_NAMES),
+        *expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
         "auspice/ncov*_gisaid.json",
-        "auspice/ncov*_zh.json",
-        "config/colors_*.tsv"
+        "auspice/ncov*_zh.json"
     conda: config["conda_environment"]
     shell:
         "rm -f {params}"
