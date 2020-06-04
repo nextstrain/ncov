@@ -14,7 +14,6 @@ division	Midcentral
 
 
 
-
 location	Wuhan
 location	Tianmen
 location	Hefei
@@ -997,6 +996,7 @@ division	Havelange
 division	Fontaine-l Eveque
 division	Lummen
 division	Mons
+division	Bury
 division	Overijse
 division	Scherpenheuvel-Zichem
 division	Jette
@@ -1447,6 +1447,8 @@ country	Ghana
 country	Senegal
 country	Gambia
 country	Algeria
+country	Tunisia
+country	Morocco
 country	Uganda
 country	Democratic Republic of the Congo
 country	South Africa
