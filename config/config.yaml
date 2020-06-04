@@ -98,12 +98,12 @@ frequencies:
 traits:
   default:
     sampling_bias_correction: 2.5
-    columns: ["region_exposure"]
+    columns: ["country_exposure"]
 
 exposure:
   default:
-    trait: "region"
-    exposure: "region_exposure"
+    trait: "country"
+    exposure: "country_exposure"
 
 # Default subsampling schemes designed for different geographic scales. With the
 # exception of the "global" region, most subsampling schemes define a large
