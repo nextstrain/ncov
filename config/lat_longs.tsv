@@ -225,6 +225,7 @@ location	Haarlem	52.3874	4.6462
 location	Ham sous Varsberg	49.1796	6.6452
 location	Hangzhou	30.272732	120.154501
 location	Hanoi	21.020191	105.836099
+location	Harbin	45.743472	126.645116
 location	Hardinxveld	51.8324	4.8336
 location	Hardinxveld Giessendam	51.830196	4.840971
 location	Hartford	43.3178	-88.3790
@@ -746,7 +747,8 @@ division	Cambodia	13	105
 division	Canada	61.0666922	-107.991707
 division	Canakkale	40.030844	26.733769
 division	Canary Islands	28.2916	-16.6291
-division	Cartago	9.860294	-83.918495
+division	Cartago CO	4.748755	-75.928118
+division	Cartago CR	9.864015	-83.917122
 division	Casablanca	33.589370	-7.604170
 division	Castel di Sangro	41.784	14.108
 division	Castilla La Mancha	39.2796	-3.0977
@@ -887,6 +889,7 @@ division	Hauts de France	49.934396	2.783002
 division	Havelange	50.359744	5.246545
 division	Hawaii	19.8968	-155.5828
 division	Hawali	29.3378	48.0235
+division	Heilongjiang	47.286490	127.992676
 division	Helden	51.32323	6.012457
 division	Helsinki	60.1698848	24.9384991
 division	Hemiksem	51.143514	4.339896
@@ -995,6 +998,7 @@ division	Leuven	50.8798	4.7005
 division	Liège	50.6326	5.5797
 division	Lima	-11.971424	-77.070229
 division	Limburg	51.230477	5.956744
+division	Limburg BE	50.609713	5.937284
 division	Limerick	52.662235	-8.627565
 division	Limpopo	-23.4013	29.4179
 division	Linter	50.818098	5.042221

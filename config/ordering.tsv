@@ -38,6 +38,7 @@ division	Guangzhou
 location	Dongguan
 location	Zhanjiang
 location	Beijing
+location	Harbin
 location	Meizhou
 location	Fuzhou
 location	Yichun
@@ -660,6 +661,7 @@ division	Shandong
 division	Zhejiang
 division	Fujian
 division	Guangdong
+division	Heilongjiang
 division	Shanghai
 division	Hong Kong
 division	Taiwan
@@ -1089,6 +1091,7 @@ division	Ghent
 division	Overijssel
 division	Gelderland
 division	Limburg
+division	Limburg BE
 division	Drenthe
 division	North Brabant
 division	Leiden
@@ -1300,7 +1303,8 @@ division	Panama City
 division	Panama
 division	Alajuela
 division	Heredia
-division	Cartago
+division	Cartago CO
+division	Cartago CR
 division	San Jose
 division	Mexico
 division	Gomez Palacios
