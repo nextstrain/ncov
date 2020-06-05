@@ -11,6 +11,9 @@ Wuhan/IVDC-HB-envF13-21/2020
 env/Wuhan/IVDC-HBF13-20/2020
 env/Wuhan/IVDC-HBF13-21/2020
 
+# Potentially artificial mouse sample
+mouse/Harbin/HRB-26m/2020
+
 # Duplicates of Italy/INMI1-cs/2020
 Italy/INMI1/2020
 Italy/INMI1-isl/2020
