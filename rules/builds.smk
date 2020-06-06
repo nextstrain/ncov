@@ -10,27 +10,14 @@ if config["connect_to_s3"]:
             aws s3 cp s3://nextstrain-ncov-private/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}
             aws s3 cp s3://nextstrain-ncov-private/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
             """
-
-    rule combine_exclude_files:
-        message: "Combining the local `exclude.txt` with the generated one on S3"
-        input:
-            exclude = config["files"]["exclude"]
-        output:
-            exclude = "results/exclude.txt"
-        shell:
-            """
-            cp {input.exclude} {output.exclude:q}
-
-            # add trailing newline to end of copied exclude file before combining
-            printf '\n' >> {output.exclude:q}
-            aws s3 cp s3://nextstrain-ncov-private/exclude.txt - >> {output.exclude:q}
-            """
 else:
     rule download:
         message: "Sourcing local metadata and fasta files"
         output:
             sequences = config["sequences"],
             metadata = config["metadata"]
+
+from datetime import date
 
 rule filter:
     message:
@@ -42,7 +29,8 @@ rule filter:
         sequences = rules.download.output.sequences,
         metadata = rules.download.output.metadata,
         include = config["files"]["include"],
-        exclude = rules.combine_exclude_files.output.exclude if config["connect_to_s3"] else config["files"]["exclude"]
+        exclude = config["files"]["exclude"],
+        date = str(date.today())
     output:
         sequences = "results/filtered.fasta"
     log:
@@ -57,6 +45,7 @@ rule filter:
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --include {input.include} \
+            --max-date {input.date} \
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
