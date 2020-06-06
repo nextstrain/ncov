@@ -666,20 +666,20 @@ rule legacy_clades:
         """
 
 rule rename_legacy_clades:
-     input:
-         node_data = rules.legacy_clades.output.clade_data
-     output:
-         clade_data = "results/{build_name}/legacy_clades.json"
-     run:
-         import json
-         with open(input.node_data, 'r', encoding='utf-8') as fh:
-             d = json.load(fh)
-             new_data = {}
-             for k,v in d['nodes'].items():
-                 if "clade_membership" in v:
-                     new_data[k] = {"legacy_clade_membership": v["clade_membership"]}
-         with open(output.clade_data, "w") as fh:
-             json.dump({"nodes":new_data}, fh)
+    input:
+        node_data = rules.legacy_clades.output.clade_data
+    output:
+        clade_data = "results/{build_name}/legacy_clades.json"
+    run:
+        import json
+        with open(input.node_data, 'r', encoding='utf-8') as fh:
+            d = json.load(fh)
+            new_data = {}
+            for k,v in d['nodes'].items():
+                if "clade_membership" in v:
+                    new_data[k] = {"legacy_clade_membership": v["clade_membership"]}
+        with open(output.clade_data, "w") as fh:
+            json.dump({"nodes":new_data}, fh)
 
 
 rule colors:
