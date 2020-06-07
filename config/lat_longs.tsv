@@ -1,10 +1,3 @@
-division	Cali	3.420251	-76.522405
-division	Waikato	-37.601432	175.119315
-division	Combined Wellington	-41.246350	174.751547
-division	Canterbury	-43.466990	171.751554
-
-
-
 
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
@@ -679,7 +672,7 @@ division	Asse	50.9094	4.2005
 division	Ath	50.646122	3.770363
 division	Athens	37.987832	23.726319
 division	Atlantico	10.681025	-74.955752
-division	Auckland	-36.8314	174.7606
+division	Auckland	-36.837842	174.800853
 division	Australia	-24.7761085	134.755
 division	Austria	47.5162	14.5501
 division	Auvergne Rhone Alpes	45.126511	5.480724
@@ -698,6 +691,7 @@ division	Basel-Land	47.493316	7.714938
 division	Basilicata	40.447062	16.081705
 division	Basque Country	42.9896	-2.6189
 division	Bavaria	48.1382614	11.5845093
+division	Bay of Plenty	-38.216044	176.783577
 division	Beersel	50.7669	4.3085
 division	Beijing	40.07132	116.406908
 division	Beirut	33.8938	35.5018
@@ -742,11 +736,13 @@ division	Bury	50.541909	3.593710
 division	Buryat Republic	52.311711	108.916732
 division	Cacak	43.891816	20.362815
 division	Caldas	5.314226	-75.340073
+division	Cali	3.420251	-76.522405
 division	California	36.357039	-119.690182
 division	Cambodia	13	105
 division	Canada	61.0666922	-107.991707
 division	Canakkale	40.030844	26.733769
 division	Canary Islands	28.2916	-16.6291
+division	Canterbury	-43.346635	172.190743
 division	Cartago CO	4.748755	-75.928118
 division	Cartago CR	9.864015	-83.917122
 division	Casablanca	33.589370	-7.604170
@@ -777,6 +773,7 @@ division	Ciudad Autonoma de Buenos Aires	-34.6037	-58.3816
 division	Colfontaine	50.40777	3.846237
 division	Colombia	2.893108	-73.7845142
 division	Colorado	39.5501	-105.7821
+division	Combined Wellington	-41.203882	174.849953
 division	Comunitat Valenciana	39.337	-0.354
 division	Concepcion	-36.8201	-73.0444
 division	Connecticut	41.678117	-72.669773
@@ -784,6 +781,7 @@ division	Constanta	44.1598	28.6348
 division	Copenhagen	55.6761	12.5683
 division	Cordoba	8.359263	-75.763226
 division	Cork	51.895349	-8.474381
+division	Counties Manukau	-37.101403	175.005947
 division	Courcelles	50.469378	4.34449
 division	Couthuin	50.5315	5.1225
 division	Couvin	50.035063	4.485139
@@ -1039,6 +1037,7 @@ division	Meta	3.275638	-73.120232
 division	Mexico	19.4325301	-99.1332101
 division	Mexico City	19.404497	-99.143041
 division	Michigan	45.021203	-84.762273
+division	MidCentral	-40.398721	175.799685
 division	Milheeze	51.505685	5.799239
 division	Minas gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
@@ -1068,6 +1067,7 @@ division	Navarra	42.687776	-1.645699
 division	Nebraska	41.4925	-99.9018
 division	Nepal	28	84
 division	Netherlands	52.1326	5.2913
+division	Nelson Marlborough	-41.436949	173.142614
 division	Nevada	38.8026	-116.4194
 division	Nevele	51.0343	3.5474
 division	Nevsehir	38.767304	34.698996
@@ -1256,6 +1256,7 @@ division	South Holland	52.006053	4.485728
 division	South Korea	36.609249	127.917932
 division	South Tyrol	46.762051	11.427443
 division	South Yorkshire	53.4697	-1.326
+division	Southern	-46.040582	169.144142
 division	Spain	40.4637	-3.7492
 division	Split	43.514220	16.461441
 division	Sri Lanka	7.75	80.75
@@ -1351,6 +1352,9 @@ division	Vlaams-Brabant	50.910594	4.662258
 division	Vorst	50.8134	4.3248
 division	Vysocina Region	49.442644	15.672714
 division	Waasmunster	51.1182	4.080492
+division	Waikato	-37.777199	175.528928
+division	Waitemata	-36.579105	174.548718
+division	Wairarapa	-41.073572	175.737609
 division	Wales	52.306085	-3.621944
 division	Walloon Brabant	50.661007	4.566076
 division	Wanze	50.549453	5.196784
