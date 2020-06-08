@@ -1,7 +1,15 @@
 {
-  "title": "新型冠状病毒（HCoV-19）的基因组流行病学",
+  "title": "新型冠状病毒（hCoV-19）的基因组流行病学",
   "build_url": "https://github.com/nextstrain/ncov",
+  "maintainers": [
+    {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
+  ],
   "colorings": [
+    {
+      "key": "legacy_clade_membership",
+      "title": "Old Nextstrain clade",
+      "type": "categorical"
+    },
     {
       "key": "location",
       "title": "Location",
@@ -9,12 +17,17 @@
     },
     {
       "key": "division",
-      "title": "Admin division",
+      "title": "Admin Division",
       "type": "categorical"
     },
     {
       "key": "country",
       "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
       "type": "categorical"
     },
     {
@@ -48,31 +61,55 @@
       "type": "categorical"
     },
     {
-      "key": "gisaid_epi_isl"
+      "key": "recency",
+      "title": "Submission Date",
+      "type": "categorical"
     },
     {
-      "key": "genbank_accession"
+      "key": "gisaid_epi_isl",
+      "type": "categorical"
+    },
+    {
+      "key": "genbank_accession",
+      "type": "categorical"
+    },
+    {
+      "key": "country_exposure",
+      "title": "Country of exposure",
+      "type": "categorical"
+    },
+    {
+      "key": "division_exposure",
+      "title": "Division of exposure",
+      "type": "categorical"
+    },
+    {
+      "key": "region_exposure",
+      "title": "Region of exposure",
+      "type": "categorical"
     }
   ],
   "geo_resolutions": [
     "location",
     "division",
-    "country"
+    "country",
+    "region"
   ],
   "display_defaults": {
-    "color_by": "division",
+    "color_by": "clade_membership",
     "distance_measure": "num_date",
-    "geo_resolution": "division",
-    "map_triplicate": true
+    "geo_resolution": "country",
+    "map_triplicate": true,
+    "branch_label": "none"
   },
   "filters": [
+    "recency",
     "location",
     "division",
     "country",
+    "region",
     "host",
-    "author",
-    "originating_lab",
-    "submitting_lab"
+    "author"
   ],
   "panels": [
     "tree",

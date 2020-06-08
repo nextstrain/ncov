@@ -1,0 +1,8 @@
+configfile:
+  - config/config.yaml
+  - profiles/king-county/builds.yaml
+
+keep-going: True
+printshellcmds: True
+reason: True
+stats: stats.json

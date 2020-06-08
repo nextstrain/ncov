@@ -1,0 +1,97 @@
+# Define locations for which builds should be created.
+# For each build we specify a subsampling scheme via an explicit key.
+# If the name of the focal geography differs from the build name this needs to
+# be specified explicity as geographic_name. In addition, we require the
+# geographic scale the build focuses on. Together name and scale serve a look-up
+# in the geo_hierarchy to define region, country, division, etc
+builds:
+  global:
+    subsampling_scheme: region_global
+    geographic_scale: region
+    auspice_config: "profiles/nextstrain/global_auspice_config.json"
+  africa:
+    subsampling_scheme: region
+    geographic_scale: region
+    region: Africa
+    auspice_config: "profiles/nextstrain/africa_auspice_config.json"
+  asia:
+    subsampling_scheme: region
+    geographic_scale: region
+    region: Asia
+    auspice_config: "profiles/nextstrain/asia_auspice_config.json"
+  europe:
+    subsampling_scheme: region_grouped_by_country
+    geographic_scale: region
+    region: Europe
+    auspice_config: "profiles/nextstrain/europe_auspice_config.json"
+  north-america:
+    subsampling_scheme: region
+    geographic_scale: region
+    region: North America
+    auspice_config: "profiles/nextstrain/north-america_auspice_config.json"
+  oceania:
+    subsampling_scheme: region
+    geographic_scale: region
+    region: Oceania
+    auspice_config: "profiles/nextstrain/oceania_auspice_config.json"
+  south-america:
+    subsampling_scheme: region
+    geographic_scale: region
+    region: South America
+    auspice_config: "profiles/nextstrain/south-america_auspice_config.json"
+
+# if different exposure traits should be used for some builds, specify here
+# otherwise the default exposure in config/config.yaml will used
+exposure:
+  global:
+    trait: "region"
+    exposure: "region_exposure"
+
+  africa:
+    trait: "country"
+    exposure: "country_exposure"
+
+  asia:
+    trait: "country"
+    exposure: "country_exposure"
+
+  europe:
+    trait: "country"
+    exposure: "country_exposure"
+
+  south-america:
+    trait: "country"
+    exposure: "country_exposure"
+
+  north-america:
+    trait: "division"
+    exposure: "division_exposure"
+
+  oceania:
+    trait: "division"
+    exposure: "division_exposure"
+
+# if different traits should be reconstructed for some builds, specify here
+# otherwise the default trait config in config/config.yaml will used
+traits:
+  global:
+    sampling_bias_correction: 2.5
+    columns: ["region_exposure"]
+  europe:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  africa:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  asia:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  south-america:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  north-america:
+    sampling_bias_correction: 2.5
+    columns: ["division_exposure"]
+  oceania:
+    sampling_bias_correction: 2.5
+    columns: ["division_exposure"]

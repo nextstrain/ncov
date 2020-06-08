@@ -1,0 +1,16 @@
+configfile:
+  - config/config.yaml
+  - profiles/default/builds.yaml
+  # Add your own config files to the list here.
+  # For example, uncomment the following line and create the corresponding config file to override defaults or provide your own new configuration parameters.
+  # - profiles/default/custom_config.yaml
+
+# Set the maximum number of cores you want Snakemake to use for this pipeline.
+cores: 2
+
+# Always print the commands that will be run to the screen for debugging.
+printshellcmds: True
+
+# Print the reason why each rule is running.
+# This can help you understand why Snakemake is trying to re-run something you didn't expect it to.
+reason: True

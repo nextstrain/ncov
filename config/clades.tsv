@@ -1,0 +1,24 @@
+clade	gene	site	alt
+
+19A	nuc	8782	C
+19A	nuc	14408	C
+
+19B	nuc	8782	T
+19B	nuc	28144	C
+
+20A	nuc	8782	C
+20A	nuc	14408	T
+20A	nuc	23403	G
+
+20B	nuc	8782	C
+20B	nuc	14408	T
+20B	nuc	23403	G
+20B	nuc	28881	A
+20B	nuc	28882	A
+
+20C	nuc	1059	T
+20C	nuc	8782	C
+20C	nuc	14408	T
+20C	nuc	23403	G
+20C	nuc	25563	T
+
