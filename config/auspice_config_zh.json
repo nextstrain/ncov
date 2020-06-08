@@ -100,8 +100,7 @@
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,
-    "branch_label": "none",
-    "transmission_lines": false
+    "branch_label": "none"
   },
   "filters": [
     "recency",
