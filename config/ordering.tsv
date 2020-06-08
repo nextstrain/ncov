@@ -167,6 +167,27 @@ location	Oisterwijk
 location	Dalen
 location	Budapest
 location	Macon
+location	Uccle
+location	Kaulille
+location	Quévy
+location	Ixelles
+location	Mol
+location	Fontaine-l'Évêque
+location	Braine-l'Alleud
+location	Beerse
+location	Auderghem
+location	Berchem-Sainte-Agathe
+location	Lo
+location	Henri-Chapelle
+location	Bruxelles
+location	Woluwe-Saint-Pierre
+location	Le Roeulx
+location	Enghien
+location	Maldegem
+location	Ans
+location	Berg
+location	Limbourg
+location	Comines
 location	Villerot
 location	Poppel
 location	Couillet
@@ -1135,7 +1156,9 @@ division	Quévy
 division	Walloon Brabant
 division	Belgium
 division	Leuven
-division	Leuven
+division	Philippeville
+division	Limburg
+division	Eeklo
 division	Namur
 division	Charleroi
 division	Ath
