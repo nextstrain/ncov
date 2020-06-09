@@ -669,4 +669,18 @@ Wuhan/WHUH008/2020
 #40+ mutations
 Russia/SCPM-O-05/2020
 
+# Likely consecutive days sampling dates from same patient Germany/NRW-42/2020, all 68 yo male from Dusseldorf as per GISAID metadata
+Germany/NRW-42-2/2020
+Germany/NRW-42-3/2020
 
+# Submitting hospital notes duplicate sampling in preprint 10.1101/2020.05.19.20107144, both same collection date 69 yo male, arbitrarily keeping USA/IL-NM082/2020 as sequences are identical
+USA/IL-NM087/2020
+
+# Subsequent (BAL) sampling of Italy/INMI2-N/2020 (NP sample)
+Italy/INMI2-B/2020
+
+# According to GISAID metadata duplicate entries for 24 yo male in Kalmthout
+Belgium/VDLH-030548/2020
+# Likely duplicate case BAL sample based on metadata: collection same day for hospitalized 51 yo male in Liege with identical viral genome as NP swab Belgium/ULG-9620/2020 
+# BALs are few and far between in the Belgian data, increasing likelihood this was a single patient multi-site collection.
+Belgium/ULG-9732/2020
