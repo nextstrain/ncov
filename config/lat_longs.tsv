@@ -908,11 +908,13 @@ division	Belgium	50.707735	4.677726
 division	Ben Arous	36.747441	10.234475
 division	Berchem-Sainte-Agathe	50.863918	4.294079
 division	Bern	46.855135	7.570549
+division	Bihac	44.8120	15.8686
 division	Bihar	25.0961	85.3131
 division	Bizerte	37.280658	9.863049
 division	Blida	36.48329	2.808751
 division	Bogota	4.629337	-74.095588
 division	Bolivar	8.753508	-74.367735
+division	Bosnia and Herzegovina	43.9159	17.6791
 division	Boufarik	36.57709	2.914137
 division	Bourgogne	47.0525	4.3837
 division	Bourgogne-France-Comté	47.2805	4.9994
@@ -922,6 +924,7 @@ division	Brasov	45.6580	25.6012
 division	Bratislava	48.1486	17.1077
 division	Brazil	-10.3333332	-53.1999999
 division	Bretagne	48.202	2.9326
+division	Breza	44.0181	18.2613
 division	British Columbia	54.010982	-124.745183
 division	Brugge	51.205987	3.226255
 division	Brunei	4.5353	114.7277
@@ -951,6 +954,7 @@ division	Castilla Y León	41.8357	-4.3976
 division	Castilla y Leon	41.8357	-4.3976
 division	Catalunya	41.834815	1.606414
 division	Cauca	2.473774	-76.864221
+division	Cazin	44.9690	15.9432
 division	Central Hungary	47.360008	19.252798
 division	Centre-Val de Loire	47.481221	1.698793
 division	Cesar	9.654915	-73.528255
@@ -1043,6 +1047,8 @@ division	Gilgit Baltistan	35.589113	75.614837
 division	Glarus	47.018842	8.979742
 division	Goiais	-15.932272	-49.593573
 division	Gomez Palacios	25.572985	-103.492743
+division	Gorazde	43.6685	18.9749
+division	Gornji Vakuf	43.9375	17.5880
 division	Grand Canary Islands	27.9202	-15.5474
 division	Grand Est	48.691467	5.566495
 division	Grand Princess	37.579905	-123.67313
@@ -1085,6 +1091,8 @@ division	Iceland	64.9841821	-18.1059012
 division	Idaho	43.810421	-114.351215
 division	Ieper	50.857716	2.874138
 division	Ile De France	48.724751	2.491522
+division	Ilidza	43.8314	18.3002
+division	Ilijas	43.9486	18.2649
 division	Illinois	40.088552	-89.301876
 division	India	21.077353	78.723951
 division	Indiana	40.2672	-86.1349
@@ -1147,11 +1155,13 @@ division	Kuwait	29.452987	47.447194
 division	KwaZulu-Natal	-28.704798	30.693005
 division	Kwara State	9.172913	4.409729
 division	Kyoto	35.007542	135.768455
+division	Kakanj	44.1280	18.1178
 division	La Louvière	50.469989	4.158129
 division	La Rioja	42.2871	-2.5396
 division	Ladakh	34.152588	77.577049
 division	Lagos	6.54252	3.286661
 division	Lakes	-38.5882085	175.9492056
+division	Lao Cai	22.3381	104.1487
 division	Lapland	67.700017	26.273752
 division	Latvia	56.799689	25.441386
 division	Lazio	41.994328	12.622686
@@ -1169,6 +1179,7 @@ division	Limpopo	-23.4013	29.4179
 division	Lipetsk Region	52.5265	39.2032
 division	Lisbon	38.7223	-9.1393
 division	Lithuania	55.41667	24
+division	Livno	43.8250	17.0077
 division	Liège	50.6326	5.5797
 division	Lombardy	45.4791	9.8452
 division	Louisiana	30.9843	-91.9623
@@ -1180,6 +1191,7 @@ division	Madhya Pradesh	22.9734	78.6569
 division	Madinah	24.5247	39.5692
 division	Madrid	40.4168	-3.7038
 division	Magdalena	10.258546	-74.366995
+division	Maglaj	44.5455	18.1034
 division	Maharashtra	19.7515	75.7139
 division	Makkah	21.3891	39.8579
 division	Malaysia	2.3923759	112.8471939
@@ -1261,6 +1273,7 @@ division	Norway	64.574131	11.52701029
 division	Nottinghamshire	53.134734	-0.989052
 division	Nova Scotia	44.879119	-64.020314
 division	Novi Pazar	43.1407	20.5214
+division	Novi Travnik	44.1748	17.6634
 division	Novi Sad	45.269432	19.830203
 division	Novosibirsk Region	55.4467	80.1044
 division	Nur-Sultan	51.147862	71.433377
@@ -1360,6 +1373,7 @@ division	Santa Catarina	-27.15767	-49.888561
 division	Santander	6.746570	-73.476456
 division	Santiago	-33.383304	-70.530623
 division	Sao Paulo	-23.59806	-46.660537
+division	Sarajevo	43.8563	18.4131
 division	Sardinia	40.1209	9.0129
 division	Saskatchewan	53.934278	-106.16006
 division	Saudi Arabia	25	45
@@ -1489,6 +1503,7 @@ division	Vina del Mar	-33.0153	-71.5500
 division	Vinhphuc	21.348702	105.548594
 division	Virgin Islands	18.3358	-64.8963
 division	Virginia	37.926868	-78.024902
+division	Vitez	44.1525	17.7903
 division	Vlaams-Brabant	50.910594	4.662258
 division	Vysocina Region	49.442644	15.672714
 division	Waikato	-37.777199	175.528928
@@ -1512,6 +1527,7 @@ division	Woluwe-Saint-Pierre	50.83	4.4335
 division	Wyoming	43.076	-107.2903
 division	Yunnan	24.556297	101.36621
 division	Zeeland	51.484078	3.802245
+division	Zepce	44.4287	18.0379
 division	Zhejiang	29.22571	120.299125
 division	Zielonogorskie	52.2275	15.2559
 division	Zürich	47.441242	8.641154
