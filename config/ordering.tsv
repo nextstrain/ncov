@@ -953,6 +953,7 @@ division	Tbilisi
 division	Vietnam
 division	Thanh Hoa
 division	Ho Chi Minh City
+division	Lao Cai
 division	Quangninh
 division	Hanoi
 division	Vinhphuc
@@ -1110,6 +1111,20 @@ division	Bekesszentandras
 division	Szeged
 division	Kostoliste
 division	Kosice
+division	Bosnia and Herzegovina
+division	Bihac
+division	Breza
+division	Cazin
+division	Vitez
+division	Gorazde
+division	Gornji Vakuf
+division	Ilijas
+division	Ilidza
+division	Kakanj
+division	Maglaj
+division	Novi Travnik
+division	Sarajevo
+division	Zepce
 division	Slovakia
 division	Bratislava
 division	Malopolskie
@@ -1556,6 +1571,7 @@ country	Europe
 country	Latvia
 country	Slovakia
 country	Slovenia
+country	Bosnia and Herzegovina
 country	Poland
 country	Belarus
 country	Estonia
