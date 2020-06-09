@@ -4,6 +4,7 @@ import requests
 import io
 import pandas as pd
 from Bio import Phylo
+from augur.utils import read_metadata
 
 URL = "https://raw.githubusercontent.com/hCoV-2019/lineages/master/lineages/data/lineages.metadata.csv"
 def get_pangolin_lineages():
@@ -17,6 +18,7 @@ def get_pangolin_lineages():
     lineages = {}
     for ri, row in d.iterrows():
         if row['lineage']:
+            lineages[row['GISAID ID']] = row['lineage']
             lineages[row['name']] = row['lineage']
             lineages[row['name'].replace('_', '')] = row['lineage']
     return lineages
@@ -28,10 +30,12 @@ if __name__ == '__main__':
     )
 
     parser.add_argument('--tree', type=str, required=True, help="tree file")
-    parser.add_argument('--output', type=str, metavar="JSON", required=True, help="output Auspice JSON")
+    parser.add_argument('--metadata', type=str, required=True, help="metadata file")
+    parser.add_argument('--output', type=str, metavar="JSON", required=True, help="output node data JSON")
     args = parser.parse_args()
 
-    lineages =get_pangolin_lineages()
+    lineages = get_pangolin_lineages()
+    metadata, _ = read_metadata(args.metadata)
 
     T = Phylo.read(args.tree, 'newick')
     node_data = {}
@@ -39,6 +43,9 @@ if __name__ == '__main__':
         if n.is_terminal():
             if n.name in lineages:
                 n.pangolin = lineages[n.name]
+            elif (n.name in metadata) and ('gisaid_epi_isl' in metadata[n.name])\
+                    and metadata[n.name]['gisaid_epi_isl'] in lineages:
+                n.pangolin = lineages[metadata[n.name]['gisaid_epi_isl']]
             else:
                 n.pangolin = 'unassigned'
         else:

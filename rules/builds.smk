@@ -632,6 +632,7 @@ rule pangolin:
     message: "Adding internal clade labels"
     input:
         tree = rules.refine.output.tree,
+        metadata = _get_metadata_by_wildcards
     output:
         clade_data = "results/{build_name}/pangolin.json"
     log:
@@ -641,6 +642,7 @@ rule pangolin:
         """
         {python:q} scripts/add_pangolin_lineages.py \
             --tree {input.tree} \
+            --metadata {input.metadata} \
             --output {output.clade_data}
         """
 
