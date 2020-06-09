@@ -165,7 +165,6 @@ location	Choconta	5.146017	-73.683678
 location	Chongqing	29.858721	107.375623
 location	Chungcheongnam	36.685948	126.799198
 location	Châtelet	50.400026	4.521491
-location	Chía	4.865442	-74.052806
 location	Cienaga	11.006697	-74.244529
 location	Cincinnati	39.122033	-84.515918
 location	Ciney	50.269588	5.122431
@@ -305,7 +304,6 @@ location	Grimbergen	50.942962	4.375664
 location	Grobbendonk	51.176608	4.738931
 location	Grodzisk Mazowiecki	52.105601	20.633940
 location	Grote-Brogel	51.153218	5.508637
-location	Guangdong	23.615762	114.483257
 location	Guangzhou	23.123972	113.292889
 location	Guyancourt	48.7629	2.0753
 location	Gyeonggi	37.397957	127.380864
@@ -331,7 +329,6 @@ location	Hemiksem	51.143514	4.339896
 location	Henri-Chapelle	50.666254	5.938463
 location	Hensies	50.435594	3.711566
 location	Heppen	51.108225	5.228402
-location	Herent	50.91021	4.644197
 location	Herselt	51.048723	4.879674
 location	Herstal	50.680399	5.606845
 location	Herve	50.647665	5.794572
@@ -906,7 +903,6 @@ division	Bekesszentandras	46.8716	20.4834
 division	Belarus	53	28
 division	Belgium	50.707735	4.677726
 division	Ben Arous	36.747441	10.234475
-division	Berchem-Sainte-Agathe	50.863918	4.294079
 division	Bern	46.855135	7.570549
 division	Bihac	44.8120	15.8686
 division	Bihar	25.0961	85.3131
@@ -919,7 +915,6 @@ division	Boufarik	36.57709	2.914137
 division	Bourgogne	47.0525	4.3837
 division	Bourgogne-France-Comté	47.2805	4.9994
 division	Boyaca	5.454426	-73.362218
-division	Braine-l'Alleud	50.667307	4.358179
 division	Brasov	45.6580	25.6012
 division	Bratislava	48.1486	17.1077
 division	Brazil	-10.3333332	-53.1999999
@@ -955,6 +950,7 @@ division	Castilla y Leon	41.8357	-4.3976
 division	Catalunya	41.834815	1.606414
 division	Cauca	2.473774	-76.864221
 division	Cazin	44.9690	15.9432
+division	Čelinac	44.724001	17.324755
 division	Central Hungary	47.360008	19.252798
 division	Centre-Val de Loire	47.481221	1.698793
 division	Cesar	9.654915	-73.528255
@@ -1014,7 +1010,6 @@ division	Ecuador	-1.3397667	-79.3666964
 division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
 division	Emilia-Romagna	44.641437	11.119072
-division	Enghien	50.682142	4.009170
 division	England	52.405994	-1.671707
 division	Eskisehir	39.773703	30.518708
 division	Espirito Santo	-19.1834	-40.3089
@@ -1022,10 +1017,8 @@ division	Estado de Mexico	19.4969	-99.7233
 division	Estonia	59	26
 division	Europe	49.646237	10.799454
 division	Finland	61.751734	26.186437
-division	Flanders	51.056536	4.254283
 division	Flevoland	52.48851	5.615829
 division	Florida	27.6648	-81.5158
-division	Fontaine-l'Évêque	50.407803	4.322526
 division	France	46.2276	2.2137
 division	Frankfurt	50.1109	8.6821
 division	Fribourg	46.804570	7.162854
@@ -1060,7 +1053,6 @@ division	Guadalajara	20.676026	-103.332671
 division	Guam	13.464887	144.792016
 division	Guangdong	23.615762	114.483257
 division	Guangxi	23.717754	108.701872
-division	Guangzhou	23.123972	113.292889
 division	Guayas	-1.9575	-79.9193
 division	Guerrero	17.463444	-99.792052
 division	Gujarat	22.2587	71.1924
@@ -1075,11 +1067,8 @@ division	Hauts de France	49.934396	2.783002
 division	Hawaii	19.8968	-155.5828
 division	Hawali	29.3378	48.0235
 division	Heilongjiang	47.286490	127.992676
-division	Helden	51.32323	6.012457
 division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
-division	Henegouwen	50.538788	3.899405
-division	Henri-Chapelle	50.665958	5.932616
 division	Heredia	9.997549	-84.121162
 division	Ho Chi Minh City	10.790417	106.653985
 division	Hong Kong	22.3964	114.1095
@@ -1106,7 +1095,6 @@ division	Istanbul	41.0082	28.9784
 division	Istria	45.189488	13.889205
 division	Italian cruise ship	41.831176	11.491061
 division	Italy	43.382775	12.183629
-division	Ixelles	50.82821	4.371924
 division	Jakarta	-6.221537	106.838429
 division	Jalisco	20.422362	-103.793697
 division	Jamaica	18.1096	-77.2975
@@ -1165,14 +1153,11 @@ division	Lao Cai	22.3381	104.1487
 division	Lapland	67.700017	26.273752
 division	Latvia	56.799689	25.441386
 division	Lazio	41.994328	12.622686
-division	Le Roeulx	50.506541	4.102731
 division	Leiden	52.154612	4.484671
 division	Leningrad Region	60.0793	31.8927
 division	Leuven	50.8798	4.7005
 division	Leuven	50.880674	4.700109
 division	Lima	-11.971424	-77.070229
-division	Limbourg	51.230477	5.956744
-division	Limburg BE	50.609713	5.937284
 division	Limburg	50.612763	5.936255
 division	Limerick	52.662235	-8.627565
 division	Limpopo	-23.4013	29.4179
@@ -1195,7 +1180,6 @@ division	Maglaj	44.5455	18.1034
 division	Maharashtra	19.7515	75.7139
 division	Makkah	21.3891	39.8579
 division	Malaysia	2.3923759	112.8471939
-division	Maldegem	51.195924	3.449198
 division	Malopolskie	49.7225	20.2503
 division	Manila	14.652678	121.043936
 division	Manitoba	55.182879	-97.823531
@@ -1339,7 +1323,6 @@ division	Queretaro	20.5888	-100.3899
 division	Quindio	4.477059	-75.690565
 division	Quintana Roo	19.642598	-88.040442
 division	Quito	-0.18126	-78.4599
-division	Quévy	50.368752	3.945724
 division	Rajasthan	26.498229	73.881085
 division	Ramat Gan	32.0684	34.8248
 division	Rancagua	-34.1701	-70.7406
@@ -1357,7 +1340,6 @@ division	Rio Negro	-40.8261	-63.0266
 division	Rio de Janeiro	-22.89445	-43.2099
 division	Risaralda	4.921633	-75.900759
 division	Riyadh	23.197563	45.243845
-division	Rome	41.9028	12.4964
 division	Rostock	54.130776	12.106778
 division	Russia	64.6863136	97.7453061
 division	Saint-Petersburg	59.88208	30.3308
@@ -1425,11 +1407,9 @@ division	Sverdlovsk Region	59.0077	61.9316
 division	Sweden	59.6749712	14.5208584
 division	Switzerland	46.8182	8.2275
 division	Szeged	46.2530	20.1414
-division	Taipei	25.00203	121.518688
 division	Taiwan	23.8169	121.031365
 division	Talca	-35.462909	-71.37096
 division	Tamil Nadu	11.1271	78.6569
-division	Taoyuan	24.9936	121.301
 division	Tatarstan	56.130014	53.371181
 division	Tbilisi	41.733699	44.818487
 division	Tehran	35.6892	51.3890
@@ -1465,7 +1445,6 @@ division	Tver Region	57.0022	33.9853
 division	Tyrol	47.220292	11.277287
 division	UK	54.234125	-2.078794
 division	USA	38.916963	-98.891372
-division	Uccle	50.78985	4.360242
 division	Uganda	1.3733	32.2903
 division	United Arab Emirates	23.546651	54.065059
 division	United Kingdom	54.242833	-2.088739
@@ -1504,18 +1483,15 @@ division	Vinhphuc	21.348702	105.548594
 division	Virgin Islands	18.3358	-64.8963
 division	Virginia	37.926868	-78.024902
 division	Vitez	44.1525	17.7903
-division	Vlaams-Brabant	50.910594	4.662258
 division	Vysocina Region	49.442644	15.672714
 division	Waikato	-37.777199	175.528928
 division	Wairarapa	-41.073572	175.737609
 division	Waitemata	-36.579105	174.548718
 division	Wales	52.306085	-3.621944
-division	Walloon Brabant	50.661007	4.566076
 division	Waremme	50.692236	5.260861
 division	Warminsko-Mazurskie	53.924679	20.844499
 division	Washington	47.183945	-119.950361
 division	Washington DC	38.895650	-77.018707
-division	Watermael-Boitsfort	50.793185	4.423301
 division	Wellington	-41.273449	174.857634
 division	West Bengal	23.361461	87.724077
 division	West Coast Region	13.2229	16.582
@@ -1523,7 +1499,6 @@ division	Western Australia	-27.055937	122.236663
 division	Wicklow	52.9808	-6.0446
 division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762
-division	Woluwe-Saint-Pierre	50.83	4.4335
 division	Wyoming	43.076	-107.2903
 division	Yunnan	24.556297	101.36621
 division	Zeeland	51.484078	3.802245
