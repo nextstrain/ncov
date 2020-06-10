@@ -80,6 +80,7 @@ location	Beringen	51.064162	5.224601
 location	Berlicum	51.6789	5.4012
 location	Berloz	50.703886	5.202112
 location	Bermeo	43.418493	-2.730537
+location	Bethany	41.427181	-72.993597
 location	Beuzet	50.533144	4.745754
 location	Bevel	51.137253	4.680380
 location	Bevere	51.248887	4.235716
@@ -109,6 +110,7 @@ location	Boussu	50.425366	3.797692
 location	Boutersem	50.833781	4.839596
 location	Braine-l'Alleud	50.671286	4.358875
 location	Braine-le-Château	50.677854	4.267574
+location	Branford	41.286635	-72.801979
 location	Brasilia	-15.814189	-47.875543
 location	Brasschaat	51.308911	4.497508
 location	Bree	51.138202	5.631877
@@ -225,6 +227,7 @@ location	Duesseldorf	51.22166	6.75289
 location	Duque de Caxias	-22.7863	-43.3053
 location	Dutchess County	41.762637	-73.721778
 location	East Baton Rouge Parish	30.469664	-91.097549
+location	East Haven	41.298543	-72.862538
 location	East Feliciana Parish	30.850463	-91.036298
 location	East Medinipur	22.037985	87.811563
 location	Echavarri	42.727827	-2.066099
@@ -309,6 +312,7 @@ location	Guyancourt	48.7629	2.0753
 location	Gyeonggi	37.397957	127.380864
 location	Haarlem	52.3874	4.6462
 location	Ham sous Varsberg	49.1796	6.6452
+location	Hamden	41.397428	-72.924035
 location	Hamme	51.081154	4.142607
 location	Hangzhou	30.272732	120.154501
 location	Hanoi	21.020191	105.836099
@@ -454,6 +458,7 @@ location	Maceio	-9.586654	-35.721537
 location	Machelen	50.903182	4.444013
 location	Macon	46.299425	4.822063
 location	Madison	43.062839	-89.448317
+location	Madison CT	41.356100	-72.642246
 location	Madrid	40.444140	-3.680235
 location	Madrid CO	4.734291	-74.262272
 location	Mairena Aljarafe	37.347290	-6.052941
@@ -479,6 +484,7 @@ location	Mellet	50.503949	4.480401
 location	Membach	50.618449	5.994495
 location	Mequon	43.226666	-87.973033
 location	Merelbeke	50.9945	3.7456
+location	Meriden	41.539616	-72.794843
 location	Meta	3.297576	-73.053515
 location	Meudon la Forêt	48.787126	2.227098
 location	Middleton	43.105596	-89.509368
@@ -520,8 +526,10 @@ location	Neiva	2.933160	-75.277542
 location	Neufmaison	50.528807	3.793244
 location	Nevele	51.0343	3.5474
 location	New Berlin	42.969065	-88.129847
+location	New Haven	41.312452	-72.928412
 location	New Orleans	29.9511	-90.0715
 location	New York City	40.695065	-73.993461
+location	Newtown	41.411793	-73.311831
 location	Nieuwendijk	51.7774	4.8743
 location	Nieuwerkerken	50.882291	5.20403
 location	Niteroi	-22.912156	-43.060953
@@ -531,8 +539,10 @@ location	Noida	28.552876	77.394687
 location	Noisy le Roi	48.852116	2.055226
 location	Nootdorp	52.0440	4.3909
 location	North 24 Parganas	22.722907	88.734582
+location	North Haven	41.383683	-72.858134
 location	Northamtonshire	52.324226	-0.872799
 location	Northern Queensland	-17.758290	142.643075
+location	Northford	41.392896	-72.791640
 location	Nottinghamshire	53.139677	-1.027527
 location	Nova Iguacu	-22.7561	-43.4607
 location	Oak Creek	42.878698	-87.901041
@@ -663,6 +673,7 @@ location	Seneffe	50.549618	4.268821
 location	Seoul	37.548278	126.990916
 location	Seraing	50.591687	5.516066
 location	Sevilla	37.379170	-5.983557
+location	Seymour	41.396164	-73.072024
 location	Shanghai	31.171447	121.429896
 location	Shangrao	28.4549	117.9434
 location	Shantou	23.379291	116.700154
@@ -780,6 +791,7 @@ location	Vorselaar	51.216049	4.773289
 location	Waasmont	50.726586	5.062739
 location	Waasmunster	51.1182	4.080492
 location	Wadelincourt	50.537149	3.653475
+location	Wallingford	41.460399	-72.804432
 location	Wandre	50.667253	5.661576
 location	Wanze	50.549453	5.196784
 location	Warszawa	52.241015	20.985625
@@ -795,6 +807,7 @@ location	Wauwatosa	43.054646	-88.039969
 location	Webster Parish	32.726688	-93.341411
 location	Wervik	50.807707	3.052349
 location	Wespelaar	50.960557	4.640385
+location	West Haven	41.279571	-72.962057
 location	Westchester County	41.1220	-73.7949
 location	Wevelgem	50.832135	3.174228
 location	Wezembeek-Oppem	50.842122	4.490653
@@ -808,6 +821,7 @@ location	Winksele	50.897244	4.644376
 location	Winneshiek County	43.288933	-91.839928
 location	Winona County	43.993965	-91.799960
 location	Wisconsin	44.535145	-89.527762
+location	Woodbridge	41.357409	-73.009510
 location	Woippy	49.154613	6.148404
 location	Woluwe-Saint-Pierre	50.829410	4.433356
 location	Wuhan	30.554807	114.271501
