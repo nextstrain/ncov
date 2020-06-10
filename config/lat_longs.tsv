@@ -192,6 +192,7 @@ location	Couillet	50.391184	4.459113
 location	Courcelles	50.469378	4.34449
 location	Couthuin	50.5315	5.1225
 location	Couvin	50.035063	4.485139
+location	Cowlitz County	46.186419	-122.679487
 location	Crawford County	42.0347	-95.3103
 location	Cross Plains	43.115305	-89.646827
 location	Crouy en Thelle	49.213817	2.320688
@@ -222,6 +223,7 @@ location	Dolembreux	50.535464	5.632975
 location	Dongguan	22.992389	113.744830
 location	Donostia-San Sebastian	43.304023	-1.981439
 location	Dosquebradas	4.832649	-75.677377
+location	Douglas County	47.728531	-119.651043
 location	Dour	50.390137	3.785941
 location	Duesseldorf	51.22166	6.75289
 location	Duque de Caxias	-22.7863	-43.3053
@@ -702,6 +704,7 @@ location	South Yorkshire	53.476171	-1.327867
 location	Southeast Alaska	57.011818	-133.720144
 location	Southeast Queensland	-27.478427	152.687047
 location	Spicheren	49.192118	6.967399
+location	Spokane County	47.605929	-117.398931
 location	Spring Green	43.177689	-90.069216
 location	St Bernard Parish	29.805323	-89.660779
 location	St Tammany Parish	30.438441	-89.935519
@@ -854,6 +857,7 @@ location	gandhinagar	23.227004	72.643142
 location	mansa	23.428814	72.656249
 
 
+
 division	Aalst	50.939656	4.064173
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
@@ -999,6 +1003,7 @@ division	Counties Manukau	-37.101403	175.005947
 division	Coyhaique	-45.5712	-72.0683
 division	Croatia	45.1	15.2
 division	Cundinamarca	5.049758	-74.076048
+division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
@@ -1533,6 +1538,7 @@ country	Bangladesh	24.506442	90.041454
 country	Belarus	53.704205	28.247691
 country	Costa Rica	10.037900	-83.818759
 country	Croatia	45.1000	15.2000
+country	Cyprus	34.965802	33.171772
 country	Democratic Republic of the Congo	-4.0383	21.7587
 country	Denmark	56.2639	9.5018
 country	Ecuador	-1.0541	-78.1489

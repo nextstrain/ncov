@@ -763,6 +763,9 @@ location	Bergen County
 location	Clinton County
 location	Broome County
 location	Jefferson County WA
+location	Cowlitz County
+location	Douglas County
+location	Spokane County
 location	Jefferson County NY
 location	Verona WI
 location	Dutchess County
@@ -854,7 +857,6 @@ location	Wasco County
 location	Accra
 location	Montérégie
 location	Lanaudière
-
 
 
 
@@ -1271,6 +1273,7 @@ division	Comunitat Valenciana
 division	Athens
 division	Sardinia
 division	Comines
+division	Cyprus
 division	Italy
 division	Italian cruise ship
 division	South Tyrol
@@ -1580,6 +1583,7 @@ country	Germany
 country	Austria
 country	Switzerland
 country	Italy
+country	Cyprus
 country	Spain
 country	Czech Republic
 country	United Kingdom
