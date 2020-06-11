@@ -338,6 +338,16 @@ location	Genappe
 location	Theux
 location	Berloz
 location	Anderlecht
+location	Brugelette
+location	Blanden
+location	Brunehaut
+location	Lillois-Witterzée
+location	Flobecq
+location	Hannut
+location	Monceau-sur-Sambre
+location	Rebecq
+location	Buissenal
+location	Kortenberg
 location	Waasmunster
 location	Tielt-Winge
 location	Dalhem
@@ -652,6 +662,7 @@ location	San Rafael Heredia
 location	Orotina
 location	La Union
 location	Tibas
+location	Toronto
 location	La Crosse County
 location	Stoughton
 location	Beloit
@@ -678,6 +689,7 @@ location	Waunakee
 location	Spring Green
 location	Middleton
 location	King County
+location	Monterey County CA
 location	Whatcom County
 location	Yakima County
 location	Thurston County
@@ -858,6 +870,7 @@ location	Columbia County
 location	Multnomah County
 location	Wasco County
 location	Accra
+location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
 
@@ -1126,6 +1139,7 @@ division	Kostoliste
 division	Kosice
 division	Bosnia and Herzegovina
 division	Bihac
+division	Tuzla
 division	Čelinac
 division	Breza
 division	Cazin
@@ -1367,6 +1381,7 @@ division	South Africa
 division	Eastern Cape
 division	KwaZulu-Natal
 division	Gauteng
+division	Western Cape Province
 division	Mpumalanga
 division	Limpopo
 division	Greater Accra

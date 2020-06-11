@@ -94,6 +94,7 @@ location	Binche	50.404183	4.193398
 location	Blaasveld	51.055289	4.377447
 location	Blanchardville	42.809498	-89.860021
 location	Blandain	50.624503	3.303954
+location	Blanden	50.824873	4.709589
 location	Blankenberge	51.301443	3.139196
 location	Blaricum	52.2727	5.2481
 location	Blegny	50.676412	5.704849
@@ -125,12 +126,15 @@ location	Brooklyn	40.6782	-73.9442
 location	Brooklyn WI	42.854602	-89.371662
 location	Broome County	42.136164	-75.832955
 location	Brown Deer	43.1633	-87.9645
+location	Brugelette	50.602225	3.869806
+location	Brunehaut	50.528143	3.394669
 location	Bruxelles	50.844766	4.351355
 location	Bucaramanga	7.112728	-73.129549
 location	Buchanan County	42.4566	-91.9099
 location	Budapest	47.482728	19.084269
 location	Buga	3.903723	-76.300764
 location	Buggenhout	51.010966	4.197976
+location	Buissenal	50.663713	3.655885
 location	Burdinne	50.585698	5.092629
 location	Burhanpur	21.318288	76.220760
 location	Bury	50.541909	3.593710
@@ -146,6 +150,7 @@ location	California	36.357039	-119.690182
 location	Camden County	39.814507	-74.986182
 location	Campbellsport	43.596732	-88.280763
 location	Canet d'en Berenguer	39.6806	-0.2192
+location	Cape Town Metro	-33.970973	18.510306
 location	Cardiff	51.476291	-3.178964
 location	Carentan	49.302133	-1.250938
 location	Cartagena	10.400866	-75.503036
@@ -260,6 +265,7 @@ location	Feira de Santana	-12.2598	-38.9675
 location	Fillmore County	41.5637	-92.0077
 location	Fitchburg	42.986206	-89.426696
 location	Fitero	42.059536	-1.858151
+location	Flobecq	50.752594	3.731461
 location	Florianopolis	-27.581052	-48.481313
 location	Florida	27.6648	-81.5158
 location	Flénu	50.433143	3.888990
@@ -317,6 +323,7 @@ location	Ham sous Varsberg	49.1796	6.6452
 location	Hamden	41.397428	-72.924035
 location	Hamme	51.081154	4.142607
 location	Hangzhou	30.272732	120.154501
+location	Hannut	50.667745	5.077469
 location	Hanoi	21.020191	105.836099
 location	Harbin	45.743472	126.645116
 location	Hardinxveld	51.8324	4.8336
@@ -414,6 +421,7 @@ location	Knokke-Heist	51.331501	3.308826
 location	Kodinar	20.8009	70.6960
 location	Koersel	51.058003	5.272274
 location	Kolkata	22.543905	88.374991
+location	Kortenberg	50.887699	4.567473
 location	Kraainem	50.8611	4.4593
 location	Kraków	50.0647	19.9450
 location	Kunming	25.013024	102.866742
@@ -436,6 +444,7 @@ location	Le Roeulx	50.505667	4.104105
 location	Lessines	50.710456	3.828368
 location	Leticia	-4.212580	-69.943144
 location	Levallois-Perret	48.8932	2.2879
+location	Lillois-Witterzée	50.644797	4.366948
 location	Limbourg	50.613635	5.935911
 location	Linter	50.818098	5.042221
 location	Lippelo	51.041285	4.258686
@@ -498,8 +507,10 @@ location	Modasa	23.4643	73.2988
 location	Mol	51.217746	5.187479
 location	Molenbeek-Saint-Jean	50.853857	4.323479
 location	Molenstede	50.999889	5.012097
+location	Monceau-sur-Sambre	50.416209	4.376445
 location	Monona	43.056000	-89.330773
 location	Monroe County	43.940837	-90.605424
+location	Monterey County CA	36.176354	-121.254507
 location	Monteria	8.747483	-75.880941
 location	Montgomery County	42.9155	-74.4526
 location	Montignies-sur-Sambre	50.401302	4.478466
@@ -616,6 +627,7 @@ location	Ramsel	51.031568	4.832886
 location	Ransart	50.461008	4.476094
 location	Rapides Parish	31.204868	-92.527191
 location	Ravels	51.416526	5.022319
+location	Rebecq	50.670468	4.133291
 location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
 location	Retie	51.268101	5.078413
@@ -754,6 +766,7 @@ location	Togui	5.937829	-73.513494
 location	Tokyo	35.683441	139.766131
 location	Tomah	43.988774	-90.502952
 location	Torhout	51.062493	3.100652
+location	Toronto	43.720877	-79.365740
 location	Torremolinos	36.620077	-4.500794
 location	Torres De Elorz	42.733599	-1.596477
 location	Tournai	50.615852	3.400822
@@ -1466,6 +1479,7 @@ division	Trondheim	63.4305	10.3951
 division	Tunisia	33.654143	9.065134
 division	Turkey	39	35
 division	Turnhout	51.321956	4.940098
+division	Tuzla	44.537787	18.680139
 division	Tver Region	57.0022	33.9853
 division	Tyrol	47.220292	11.277287
 division	UK	54.234125	-2.078794
@@ -1521,6 +1535,7 @@ division	Wellington	-41.273449	174.857634
 division	West Bengal	23.361461	87.724077
 division	West Coast Region	13.2229	16.582
 division	Western Australia	-27.055937	122.236663
+division	Western Cape Province	-33.493715	20.219852
 division	Wicklow	52.9808	-6.0446
 division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762
