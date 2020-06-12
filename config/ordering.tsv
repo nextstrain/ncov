@@ -562,6 +562,37 @@ location	La Linea de la Concepcion
 location	Conil de la Frontera
 location	Madrid
 location	Malaga
+location	Santiago de Compostela
+location	Ames
+location	Ambite
+location	Boiro
+location	Boqueixón
+location	Campo Real
+location	Cordoba
+location	Granada
+location	La Estrada
+location	Las Palmas
+location	Lalin
+location	Leganés
+location	Negreira
+location	Noia
+location	Manacor
+location	Marratxí
+location	Muros
+location	Oroso
+location	Padrón
+location	Palma
+location	Rianjo
+location	Ribeira
+location	Rio San Pedro
+location	Rivas-Vaciamadrid
+location	Santa Comba
+location	Santa Fe
+location	Tarifa
+location	Teo
+location	Valdaracete
+location	Valga
+location	Valderrubio
 location	Jerez De La Frontera
 location	Alhaurin de la Torre
 location	Chilches
@@ -819,6 +850,7 @@ location	East Baton Rouge Parish
 location	Livingston Parish
 location	Iberville Parish
 location	Pittsburgh
+location	St. Louis MO
 location	Colorado Springs
 location	Alameda County
 location	Humboldt County
@@ -1196,6 +1228,7 @@ division	Castilla y Leon
 division	Barcelona
 division	Galicia
 division	Madrid
+division	Balear Islands
 division	Soignies
 division	Auderghem
 division	La Louvière
