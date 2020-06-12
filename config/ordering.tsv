@@ -63,6 +63,11 @@ location	Bangkok
 location	Hyderabad
 location	Noida
 location	Ahmedabad
+location	Uttara
+location	Gulshan
+location	Mirpur
+location	Mohammadpur
+location	Agargaon
 location	Surat
 location	Gandhinagar
 location	Mansa
@@ -1002,6 +1007,7 @@ division	India
 division	Karachi
 division	Bangladesh
 division	Mirpur
+division	Chittagong
 division	Narayanganj
 division	Timor-Leste
 division	Australia
