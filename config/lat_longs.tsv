@@ -22,6 +22,8 @@ location	Allamakee County	43.286290	-91.352362
 location	Almassera	39.5105	-0.3572
 location	Almenara	-16.1797	-40.6953
 location	Almeria	36.844270	-2.450766
+location	Ambite	40.3284	-3.1824
+location	Ames	42.9038	-8.6584
 location	Anchorage	61.203109	-149.888095
 location	Andalucia	4.173863	-76.164864
 location	Andel	51.7851	5.0549
@@ -100,12 +102,14 @@ location	Blankenberge	51.301443	3.139196
 location	Blaricum	52.2727	5.2481
 location	Blegny	50.676412	5.704849
 location	Bocholt	51.183426	5.558851
+location	Boiro	42.6475	-8.8834
 location	Bonheiden	51.01931	4.568699
 location	Bonrepos i Mirambell	39.5178	-0.3647
 location	Bornem	51.095382	4.243244
 location	Bossier Parish	32.684186	-93.609166
 location	Boston	42.354750	-71.061299
 location	Botad	22.1723	71.6636
+location	Boqueixón	42.8118	-8.4147
 location	Bottelare	50.962494	3.753962
 location	Bourg-en-Bresse	46.206861	5.229144
 location	Boussu	50.425366	3.797692
@@ -150,6 +154,7 @@ location	Cali	3.4516	-76.5320
 location	California	36.357039	-119.690182
 location	Camden County	39.814507	-74.986182
 location	Campbellsport	43.596732	-88.280763
+location	Campo Real	40.3390	-3.3833
 location	Canet d'en Berenguer	39.6806	-0.2192
 location	Cape Town Metro	-33.970973	18.510306
 location	Cardiff	51.476291	-3.178964
@@ -192,6 +197,7 @@ location	Comines	50.749249	3.221643
 location	Compiègne	49.408175	2.842839
 location	Conil de la Frontera	36.277924	-6.088770
 location	Contamines	45.820585	6.727730
+location	Cordoba	37.8882	-4.7794
 location	Cork	51.899	-8.460
 location	Cottage Grove	43.090480	-89.205111
 location	Couillet	50.391184	4.459113
@@ -304,6 +310,7 @@ location	Gold Coast	-28.019726	153.398160
 location	Gondrecourt-le-chateau	48.505557	5.503554
 location	Goutroux	50.406076	4.360658
 location	Grafton	43.315718	-87.954140
+location	Granada	37.1773	-3.5986
 location	Grand Princess Cruise Ship	38.308882	-123.779663
 location	Grand-Leez	50.582921	4.774690
 location	Grant County WA	47.209925	-119.420874
@@ -431,18 +438,22 @@ location	Kuurne	50.860060	3.270708
 location	Kyoto	35.007542	135.768455
 location	L'Aquila	42.360082	13.391087
 location	La Crosse County	43.8617	-91.1353
+location	La Estrada	42.6899	-8.4909
 location	La Linea de la Concepcion	36.166010	-5.347498
 location	La Union	9.922919	-84.001485
 location	Laakdal	51.081957	4.997449
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
 location	Laken	50.887688	4.353935
+location	Lalin	42.6612	-8.1110
 location	Lamine	50.688307	5.334720
 location	Lanaken	50.884429	5.634002
 location	Lanaudière	46.76678	-73.83248
+location	Las Palmas	28.1009	-15.4654
 location	Lasne	50.679575	4.463992
 location	Le Pecq	48.8973	2.1064
 location	Le Roeulx	50.505667	4.104105
+location	Leganés	40.3320	-3.7687
 location	Lessines	50.710456	3.828368
 location	Leticia	-4.212580	-69.943144
 location	Levallois-Perret	48.8932	2.2879
@@ -479,6 +490,7 @@ location	Mairena Aljarafe	37.347290	-6.052941
 location	Malaga	36.718690	-4.432799
 location	Maldegem	51.197062	3.450921
 location	Malle	51.304141	4.715731
+location	Manacor	39.5697	3.2095
 location	Manaus	-3.126424	-60.019807
 location	Mandsaur	24.077683	75.067604
 location	Manhattan	40.778542	-73.969920
@@ -486,6 +498,7 @@ location	Manizales	5.058776	-75.498753
 location	Marcinelle	50.394727	4.427537
 location	Mariakerke	51.072918	3.680642
 location	Marin County	38.077277	-122.719060
+location	Marratxí	39.6272	2.7572
 location	Marshall	43.167355	-89.066568
 location	Mason County	47.4251	-123.1951
 location	Mat-Su	61.382704	-150.251175
@@ -530,6 +543,7 @@ location	Moussy Le Neuf	49.065806	2.601697
 location	Multnomah County	45.517630	-122.536942
 location	Munich	48.155742	11.549380
 location	Münster	51.958677	7.616881
+location	Muros	42.8074	-9.0461
 location	Muscoda	43.189115	-90.439704
 location	Museros	39.5738	-0.3607
 location	Mutilva	42.789102	-1.616814
@@ -540,6 +554,7 @@ location	Nantes	47.203649	-1.552453
 location	Nassau County	40.7333	-73.58010
 location	Neemach	24.467521	74.875900
 location	Neerpelt	51.228889	5.431667
+location	Negreira	42.9105	-8.7363
 location	Neiva	2.933160	-75.277542
 location	Neufmaison	50.528807	3.793244
 location	Nevele	51.0343	3.5474
@@ -553,6 +568,7 @@ location	Nieuwerkerken	50.882291	5.20403
 location	Niteroi	-22.912156	-43.060953
 location	Noain	42.758167	-1.632185
 location	Nogent-l'Artaud	48.9651	3.3183
+location	Noia	42.7843	-8.8883
 location	Noida	28.552876	77.394687
 location	Noisy le Roi	48.852116	2.055226
 location	Nootdorp	52.0440	4.3909
@@ -576,6 +592,7 @@ location	Oostrozebeke	50.931551	3.338685
 location	Orange County CA	33.689584	-117.788718
 location	Orange County NY	41.394693	-74.289170
 location	Oregon WI	42.927835	-89.380569
+location	Oroso	42.9948	-8.3636
 location	Orotina	9.913179	-84.523659
 location	Orsay	48.703347	2.187373
 location	Oss	51.762396	5.530563
@@ -584,6 +601,8 @@ location	Overijse	50.769757	4.532583
 location	Overpelt	51.219149	5.383722
 location	Paal	51.031859	5.166158
 location	Pacho	5.135952	-74.156902
+location	Padrón	42.7381	-8.6608
+location	Palma	39.5696	2.6502
 location	Palma de Gandia	38.9251	-0.2215
 location	Palmira	3.534069	-76.297658
 location	Pamplona	42.808441	-1.648651
@@ -635,13 +654,17 @@ location	Rebecq	50.670468	4.133291
 location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
 location	Retie	51.268101	5.078413
+location	Rianjo	42.6924	-8.7812
 location	Richland Center	43.339975	-90.385959
 location	Richmond County	40.5795	-74.1502
 location	Riemst	50.805092	5.589712
 location	Rijkevorsel	51.355735	4.766466
 location	Rincon de la Victoria	36.717712	-4.278570
 location	Rio de Janeiro	-22.89445	-43.2099
+location	Rio San Pedro	36.5235	-6.2259
+location	Rivas-Vaciamadrid	40.3519	-3.5357
 location	River Hills	43.1742	-87.9243
+location	Ribeira	42.5541	-8.9922
 location	Rixensart	50.7156	4.531
 location	Riyadh	24.705304	46.738279
 location	Rockhampton	-23.378823	150.509921
@@ -675,9 +698,12 @@ location	San Rafael Heredia	10.013197	-84.097456
 location	San Rafael de Alajuela	9.964081	-84.223595
 location	San Roque	36.210735	-5.386139
 location	Santa Clara County	37.236094	-121.683399
+location	Santa Comba	43.0336	-8.8047
+location	Santa Fe	37.1879	-3.7202
 location	Santa Marta	11.234638	-74.192698
 location	Santa Sofia	5.714409	-73.602111
 location	Santana	6.057578	-73.479309
+location	Santiago de Compostela	42.8782	8.5448
 location	Sao Paulo	-23.551096	-46.634874
 location	Saratoga County	43.0324	-73.9360
 location	Saukville	43.3817	-87.9406
@@ -725,6 +751,7 @@ location	Spicheren	49.192118	6.967399
 location	Spokane County	47.605929	-117.398931
 location	Spring Green	43.177689	-90.069216
 location	St Bernard Parish	29.805323	-89.660779
+location	St. Louis MO	38.6270	-90.1994
 location	St Tammany Parish	30.438441	-89.935519
 location	St. Anton	47.121254	10.265750
 location	Starnberg	48.0000	11.3390
@@ -744,11 +771,13 @@ location	Sydney	-33.870747	151.208359
 location	Tafalla	42.522804	-1.675960
 location	Taipei	25.043279	121.565717
 location	Taoyuan	24.951706	121.219785
+location	Tarifa	36.0143	-5.6044
 location	Tavernes de la Valldigna	39.0734	-0.2644
 location	Tehatta	23.730511	88.527338
 location	Temploux	50.484053	4.753481
 location	Temse	51.135398	4.208311
 location	Tensas Parish	31.996977	-91.321633
+location	Teo	42.8061	-8.5611
 location	Teramo	42.661036	13.710926
 location	Teresopolis	-22.4170	-42.9756
 location	Tertre	50.466483	3.811510
@@ -791,6 +820,9 @@ location	Una	31.4685	76.2708
 location	Utrecht	52.0907	5.1214
 location	Uttara	23.8759	90.3795
 location	Vadodara	22.306797	73.173072
+location	Valdaracete	40.2106	-3.1946
+location	Valderrubio	37.2346	-3.8183
+location	Valga	42.6830	-8.6491
 location	Valence	44.926123	4.900583
 location	Valencia	39.337	-0.354
 location	Valencia Horta	39.465736	-0.424354
@@ -927,6 +959,7 @@ division	Baden-Wuerttemberg	48.712618	9.13403
 division	Bahia	-12.5797	-41.7007
 division	Balassagyarmat	48.0712	19.2937
 division	Balatonfured	46.9599	17.8851
+division	Balear Islands	39.30	3.0
 division	Balikesir	39.650196	27.88958
 division	Bangkok	13.798471	100.590834
 division	Bangladesh	24.506442	90.041454

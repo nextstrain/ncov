@@ -36,6 +36,7 @@ files:
   description_zh: "config/description_zh.md"
   clades: "config/clades.tsv"
   legacy_clades: "config/legacy_clades.tsv"
+  gisaid_clades: "config/gisaid_clades.tsv"
 
 
 # Filter settings
