@@ -421,14 +421,16 @@ rule adjust_metadata_regions:
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv"
     params:
-        region = lambda wildcards: config["builds"][wildcards.build_name]["region"]
+        focal_resolution = config["adjust_metadata_regions"]["focal_resolution"],
+        focal_label = lambda wildcards: config["builds"][wildcards.build_name][config["adjust_metadata_regions"]["focal_resolution"]]
     log:
         "logs/adjust_metadata_regions_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
         {python:q} scripts/adjust_regional_meta.py \
-            --region {params.region:q} \
+            --focal-resolution {params.focal_resolution:q} \
+            --focal-label {params.focal_label:q} \
             --metadata {input.metadata} \
             --output {output.metadata} 2>&1 | tee {log}
         """

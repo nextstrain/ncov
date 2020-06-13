@@ -65,6 +65,9 @@ mask:
   # 13402, 24389 and 24390 are restricted to Belgian samples
   mask_sites: "13402 24389 24390"
 
+adjust_metadata_regions:
+  focal_resolution: "region"
+
 tree:
   tree-builder-args: "'-ninit 10 -n 4'"
 

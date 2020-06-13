@@ -1,5 +1,5 @@
 """
-Add column to metadata to denote 'focal' samples based on supplied region
+Add column to metadata to denote 'focal' samples based on supplied geo resolution
 Rewrite location, division and country for non-focal samples to be region
 Rewrite division_exposure and country_exposure for non-focal samples to be region_exposure
 """
@@ -13,39 +13,29 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--metadata", type = str, required=True, help="metadata")
-    parser.add_argument("--region", type=str, required=False, help="focal region")
-    parser.add_argument("--country", type=str, required=False, help="focal country")
-    parser.add_argument("--division", type=str, required=False, help="focal division")
-    parser.add_argument("--location", type=str, required=False, help="focal location")
-    parser.add_argument("--composite", type=str, required=False, help="composite sampling")
+    parser.add_argument("--focal-resolution", type=str, required=False, help="focal geo resolution, eg region, country, division")
+    parser.add_argument("--focal-label", type=str, required=False, help="focal geo label, eg North America, USA, Washington")
     parser.add_argument("--output", type=str, required=True, help="adjusted metadata")
     args = parser.parse_args()
 
-    region_list = ["Asia", "Africa", "Europe", "North America", "Oceania", "South America"]
+    focal_label = args.focal_label
+    focal_resolution = args.focal_resolution
+    focal_resolution_exposure = args.focal_resolution + "_exposure"
+
+    print("Adjusting metadata for focal geography", focal_label, "with resolution", focal_resolution)
 
     metadata = pd.read_csv(args.metadata, delimiter='\t')
-
-    # if in region list, then do the fixing
-    if args.region in region_list:
-        focal_region = args.region
-    else: # otherwise just write out metadata as is, and proceed
-        metadata.to_csv(args.output, index=False, sep="\t")
-        exit()
-
-    print("Adjusting metadata for focal region", args.region)
-
-
     metadata.insert(12, 'focal', True)
 
-    metadata.loc[metadata.region != focal_region, 'focal'] = False
-    metadata.loc[metadata.region != focal_region, 'location'] = ""
-    metadata.loc[metadata.region != focal_region, 'division'] = metadata.region
-    metadata.loc[metadata.region != focal_region, 'country'] = metadata.region
-    metadata.loc[metadata.region != focal_region, 'division_exposure'] = metadata.region_exposure
-    metadata.loc[metadata.region != focal_region, 'country_exposure'] = metadata.region_exposure
-    metadata.loc[(metadata.region == focal_region) & (metadata.region_exposure != focal_region), 'division_exposure'] = metadata.region_exposure
-    metadata.loc[(metadata.region == focal_region) & (metadata.region_exposure != focal_region), 'country_exposure'] = metadata.region_exposure
-    metadata.loc[(metadata.region == focal_region) & (metadata.division_exposure.isna()), 'division_exposure'] = metadata.division
-    metadata.loc[(metadata.region == focal_region) & (metadata.country_exposure.isna()), 'country_exposure'] = metadata.country
+    metadata.loc[metadata[focal_resolution] != focal_label, 'focal'] = False
+    metadata.loc[metadata[focal_resolution] != focal_label, 'location'] = ""
+    metadata.loc[metadata[focal_resolution] != focal_label, 'division'] = metadata.region
+    metadata.loc[metadata[focal_resolution] != focal_label, 'country'] = metadata.region
+    metadata.loc[metadata[focal_resolution] != focal_label, 'division_exposure'] = metadata.region_exposure
+    metadata.loc[metadata[focal_resolution] != focal_label, 'country_exposure'] = metadata.region_exposure
+    metadata.loc[(metadata[focal_resolution] == focal_label) & (metadata[focal_resolution_exposure] != focal_label), 'division_exposure'] = metadata.region_exposure
+    metadata.loc[(metadata[focal_resolution] == focal_label) & (metadata[focal_resolution_exposure] != focal_label), 'country_exposure'] = metadata.region_exposure
+    metadata.loc[(metadata[focal_resolution] == focal_label) & (metadata.division_exposure.isna()), 'division_exposure'] = metadata.division
+    metadata.loc[(metadata[focal_resolution] == focal_label) & (metadata.country_exposure.isna()), 'country_exposure'] = metadata.country
 
     metadata.to_csv(args.output, index=False, sep="\t")
