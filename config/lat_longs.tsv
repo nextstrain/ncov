@@ -216,7 +216,7 @@ location	Dahegam	23.1637	72.8102
 location	Dahod	22.836899	74.251376
 location	Dalen	52.6994	6.7568
 location	Dalhem	50.71948	5.758129
-location	Dane county	43.0186	-89.5498
+location	Dane County	43.0186	-89.5498
 location	Darjeeling	27.028909	88.260898
 location	Dasman	29.386491	47.999895
 location	Davis	38.5449	-121.7405
@@ -491,6 +491,7 @@ location	Malaga	36.718690	-4.432799
 location	Maldegem	51.197062	3.450921
 location	Malle	51.304141	4.715731
 location	Manacor	39.5697	3.2095
+location	Manado	1.487271	124.842838
 location	Manaus	-3.126424	-60.019807
 location	Mandsaur	24.077683	75.067604
 location	Manhattan	40.778542	-73.969920
@@ -686,6 +687,7 @@ location	Saint-Priest	45.704159	4.949456
 location	Saint-Thibault-des-Vignes	48.862026	2.674513
 location	Saisinne	50.523754	4.035498
 location	Saive	50.652941	5.685550
+location	Samarinda	-0.488935	117.142459
 location	San Carlos de Bariloche	-41.1335	-71.3103
 location	San Diego	32.733024	-117.143358
 location	San Diego County	32.981125	-116.681405
@@ -906,10 +908,9 @@ location	Zolder	50.9905	5.258
 location	Zonhoven	50.9871	5.3672
 location	Zoutleeuw	50.836614	5.107761
 location	Zulueta	42.745008	-1.579320
-location	ahmedabad	23.024605	72.570805
-location	gandhinagar	23.227004	72.643142
-location	mansa	23.428814	72.656249
-
+location	Ahmedabad	23.024605	72.570805
+location	Gandhinagar	23.227004	72.643142
+location	Mansa	23.428814	72.656249
 
 
 division	Aalst	50.939656	4.064173
@@ -1082,6 +1083,7 @@ division	Dublin	53.3431	-6.262191
 division	Dubrovnik	42.651307	18.102801
 division	Duesseldorf	51.236437	6.809537
 division	Durango	24.019546	-104.658028
+division	East Kalimantan	0.241323	116.558975
 division	Eastern Cape	-32.344458	26.497832
 division	Ecuador	-1.3397667	-79.3666964
 division	Eeklo	51.193464	3.562381
@@ -1109,7 +1111,6 @@ division	Gavleborgs lan	61.514766	16.400925
 division	Gelderland	52.042091	6.01486
 division	Geneva	46.216038	6.136984
 division	Gent	51.04154	3.697961
-division	Gent	51.0543	3.7174
 division	Georgia	32.1656	-82.9001
 division	Germany	51.1657	10.4515
 division	Ghana	8.0300284	-1.080027
@@ -1156,7 +1157,7 @@ division	Huy	50.510704	5.209278
 division	Iceland	64.9841821	-18.1059012
 division	Idaho	43.810421	-114.351215
 division	Ieper	50.857716	2.874138
-division	Ile De France	48.724751	2.491522
+division	Ile de France	48.724751	2.491522
 division	Ilidza	43.8314	18.3002
 division	Ilijas	43.9486	18.2649
 division	Illinois	40.088552	-89.301876
@@ -1232,7 +1233,6 @@ division	Latvia	56.799689	25.441386
 division	Lazio	41.994328	12.622686
 division	Leiden	52.154612	4.484671
 division	Leningrad Region	60.0793	31.8927
-division	Leuven	50.8798	4.7005
 division	Leuven	50.880674	4.700109
 division	Lima	-11.971424	-77.070229
 division	Limburg	50.612763	5.936255
@@ -1278,7 +1278,7 @@ division	Mexico City	19.404497	-99.143041
 division	Michigan	45.021203	-84.762273
 division	MidCentral	-40.398721	175.799685
 division	Milheeze	51.505685	5.799239
-division	Minas gerais	-18.35789	-44.411895
+division	Minas Gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
 division	Mirpur	23.808569	90.363307
 division	Missouri	37.9643	-91.8318
@@ -1328,6 +1328,7 @@ division	North Carolina	35.7596	-79.0193
 division	North District	32.8972	35.3027
 division	North Holland	52.5206	4.7885
 division	North Rhine Westphalia	51.44	7.705
+division	North Sulawesi	0.950357	124.450132
 division	Northern Ireland	54.60219	-6.687146
 division	Northern Territory	-19.4914	132.551
 division	Norway	64.574131	11.52701029
@@ -1361,7 +1362,7 @@ division	Ouarzazate	30.9335	6.9370
 division	Oudenaarde	50.857635	3.629018
 division	Overijssel	52.436273	6.463628
 division	Oyo State	8.154414	3.632978
-division	Pa Trento	46.096712	11.130704
+division	PA Trento	46.096712	11.130704
 division	Pahang	3.8126	103.3256
 division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
@@ -1457,7 +1458,6 @@ division	Slask	50.406080	18.976345
 division	Slovakia	48.66667	19.5
 division	Slovenia	45.8133113	14.4808369
 division	Småland	57.528294	14.463824
-division	Soignies	50.565241	4.035806
 division	Soignies	50.567422	4.040613
 division	Solothurn	47.207025	7.528326
 division	Sormland	59.061157	16.697407
@@ -1537,7 +1537,7 @@ division	Utrecht	52.08532	5.184968
 division	Uttar Pradesh	26.8467	80.9462
 division	Uzice	43.852499	19.847479
 division	Valais	46.166982	7.563441
-division	Valle d'Aosta	45.746178	7.353924
+division	Valle D'Aosta	45.746178	7.353924
 division	Valle del Cauca	3.747163	-76.415809
 division	Valparaiso	-33.0472	-71.6127
 division	Varazdin	46.304239	16.337102
@@ -1588,7 +1588,7 @@ division	Zhejiang	29.22571	120.299125
 division	Zielonogorskie	52.2275	15.2559
 division	Zug	47.155891	8.525039
 division	Zürich	47.441242	8.641154
-division	samut prakarn	13.581663	100.721344
+division	Samut Prakarn	13.581663	100.721344
 
 
 

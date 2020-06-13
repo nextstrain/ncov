@@ -81,6 +81,8 @@ location	Bayad
 location	North 24 Parganas
 location	Bikaner
 location	Junagadh
+location	Manado
+location	Samarinda
 location	Jamnagar
 location	Mandsaur
 location	Neemach
@@ -472,7 +474,6 @@ location	Seine-Port
 location	Abondant
 location	Levallois-Perret
 location	Reims
-location	Garches
 location	Rennes
 location	Longjumeau
 location	Levallois-perret
@@ -769,8 +770,6 @@ location	Santa Clara County
 location	Davis
 location	Grant County WA
 location	Grant County WI
-location	Snohomish County
-location	King County
 location	Clark County
 location	Umatilla County
 location	Phoenix
@@ -980,6 +979,8 @@ division	Odisha
 division	Kargil
 division	Telangana
 division	Karnataka
+division	North Sulawesi
+division	East Kalimantan
 division	Gujarat
 division	Rajasthan
 division	Kerala
@@ -1125,7 +1126,6 @@ division	Republic of Kabardino-Balkaria
 division	Republic of Crymea
 division	Republic of Tatarstan
 division	Slovenia
-division	Bucharest
 division	Arges
 division	Buzau
 division	Constanta
@@ -1196,12 +1196,10 @@ division	Zepce
 division	Slovakia
 division	Bratislava
 division	Malopolskie
-division	Czech Republic
 division	Prague
 division	Vysocina Region
 division	Martin
 division	Copenhagen
-division	Bretagne
 division	Ile de France
 division	Occitanie
 division	Centre-Val de Loire
@@ -1230,7 +1228,6 @@ division	Barcelona
 division	Galicia
 division	Madrid
 division	Balear Islands
-division	Soignies
 division	Auderghem
 division	La Louvière
 division	Tournai
@@ -1279,7 +1276,6 @@ division	Bavaria
 division	Duesseldorf
 division	Baden-Wuerttemberg
 division	Munich
-division	Frankfurt
 division	Rostock
 division	North Rhine Westphalia
 division	Netherlands
@@ -1288,7 +1284,6 @@ division	Utrecht
 division	Zeeland
 division	Antwerpen
 division	Kaulille
-division	Gent
 division	Overijssel
 division	Gelderland
 division	Drenthe
