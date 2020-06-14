@@ -20,16 +20,21 @@ if __name__ == '__main__':
         description="Assign clades to sequences",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    parser.add_argument("--sequences", required=True, help="FASTA file of HA sequences")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--sequences", help="*unaligned* FASTA file of SARS-CoV-2sequences")
+    group.add_argument("--alignment", help="*aligned* FASTA file of SARS-CoV-2 sequences")
     parser.add_argument("--output", type=str, default='clade_assignment.tsv', help="tsv file to write clade definitions to")
     parser.add_argument("--keep-temporary-files", action='store_true', help="don't clean up")
-    parser.add_argument("--chunk-size", default=10, type=int, help="don't clean up")
+    parser.add_argument("--chunk-size", default=10, type=int, help="process this many sequences at once")
     parser.add_argument("--nthreads", default=1, type=int, help="Number of threads to use in alignment")
     args = parser.parse_args()
 
     refname = f"config/reference.gb"
     features = load_features(refname)
-    seqs = SeqIO.parse(args.sequences, 'fasta')
+    if args.sequences:
+        seqs = SeqIO.parse(args.sequences, 'fasta')
+    else:
+        seqs = SeqIO.parse(args.alignment, 'fasta')
     ref = SeqIO.read(refname, 'genbank')
     clade_designations = read_in_clade_definitions(f"config/clades.tsv")
 
@@ -57,14 +62,21 @@ if __name__ == '__main__':
         with open(in_fname, 'wt') as fh:
             SeqIO.write(chunk + [ref], fh, 'fasta')
 
-        # align using augur command structure
-        cmd = generate_alignment_cmd('mafft', args.nthreads, None, in_fname, out_fname, log_fname)
-        success = run_shell_command(cmd)
+        # if not aligned, align
+        if args.sequences:
+            # align using augur command structure
+            cmd = generate_alignment_cmd('mafft', args.nthreads, None, in_fname, out_fname, log_fname)
+            success = run_shell_command(cmd)
 
-        if not success:
-            raise AlignmentError("Error during alignment")
+            if not success:
+                raise AlignmentError("Error during alignment")
+            file_to_clade = out_fname
 
-        alignment = AlignIO.read(out_fname, 'fasta')
+        # otherwise, if aligned, just read in the chunked file
+        else:
+            file_to_clade = in_fname
+
+        alignment = AlignIO.read(file_to_clade, 'fasta')
         for seq in alignment:
             if seq.id==ref.id:
                 continue
@@ -94,7 +106,8 @@ if __name__ == '__main__':
     output.close()
 
     if not args.keep_temporary_files:
-        os.remove(log_fname)
+        if os.path.isfile(log_fname): #won't exist if didn't align
+            os.remove(log_fname)
         os.remove(in_fname)
         os.remove(out_fname)
 
