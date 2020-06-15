@@ -735,3 +735,9 @@ Belgium/VDLH-030548/2020
 # Likely duplicate case BAL sample based on metadata: collection same day for hospitalized 51 yo male in Liege with identical viral genome as NP swab Belgium/ULG-9620/2020 
 # BALs are few and far between in the Belgian data, increasing likelihood this was a single patient multi-site collection.
 Belgium/ULG-9732/2020
+
+# Duplicates passages of USA/CA-CZB-59X001/2020
+# Told to us via: https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1592249374011900
+USA/CA-CZB-59X002/2020
+USA/CA-CZB-59X003/2020
+USA/CA-CZB-59X004/2020
