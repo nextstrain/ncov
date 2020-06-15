@@ -16,6 +16,11 @@
       "type": "categorical"
     },
     {
+      "key": "GISAID_clade",
+      "title": "GISAID Clade",
+      "type": "categorical"
+    },
+    {
       "key": "location",
       "title": "Location",
       "type": "categorical"

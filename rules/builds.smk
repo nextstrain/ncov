@@ -814,7 +814,6 @@ def _get_node_data_by_wildcards(wildcards):
         rules.translate.output.node_data,
         rules.rename_legacy_clades.output.clade_data,
         rules.clades.output.clade_data,
-        rules.pangolin.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data
     ]

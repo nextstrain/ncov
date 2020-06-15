@@ -12,7 +12,12 @@
     },
     {
       "key": "pangolin_lineage",
-      "title": "Pangolin lineage",
+      "title": "Pangolin Lineage",
+      "type": "categorical"
+    },
+    {
+      "key": "GISAID_clade",
+      "title": "GISAID Clade",
       "type": "categorical"
     },
     {
