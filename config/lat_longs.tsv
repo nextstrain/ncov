@@ -499,6 +499,7 @@ location	Manhattan	40.778542	-73.969920
 location	Manizales	5.058776	-75.498753
 location	Marcinelle	50.394727	4.427537
 location	Mariakerke	51.072918	3.680642
+location	Marion County	44.924528	-122.798248
 location	Marin County	38.077277	-122.719060
 location	Marratxí	39.6272	2.7572
 location	Marshall	43.167355	-89.066568
@@ -914,6 +915,7 @@ location	Gandhinagar	23.227004	72.643142
 location	Mansa	23.428814	72.656249
 
 
+
 division	Aalst	50.939656	4.064173
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
@@ -1169,6 +1171,7 @@ division	Iran	34.5732	51.876
 division	Irbid	32.5568	35.8469
 division	Ireland	52.865	-7.979
 division	Ishikawa	36.570185	136.732454
+division	Islamabad	33.714095	73.066832
 division	Israel	31.5	34.75
 division	Istanbul	41.0082	28.9784
 division	Istria	45.189488	13.889205
@@ -1202,6 +1205,7 @@ division	Kaulille	51.1872	5.5257
 division	Kayseri	38.7205	35.4826
 division	Kecskemet	46.8964	19.6897
 division	Keelung	25.1276	121.7392
+division	Kentucky	37.649540	-85.450190
 division	Kenya	0.0236	37.9062
 division	Kerala	10.359825	76.39955
 division	Khabarovsk Region	50.5888	135
@@ -1281,6 +1285,7 @@ division	MidCentral	-40.398721	175.799685
 division	Milheeze	51.505685	5.799239
 division	Minas Gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
+division	Mioveni	44.957951	24.939220
 division	Mirpur	23.808569	90.363307
 division	Missouri	37.9643	-91.8318
 division	Molise	41.686461	14.608668
@@ -1406,6 +1411,7 @@ division	Quito	-0.18126	-78.4599
 division	Rajasthan	26.498229	73.881085
 division	Ramat Gan	32.0684	34.8248
 division	Rancagua	-34.1701	-70.7406
+division	Rawalpindi	33.583175	73.049347
 division	Red River Delta	21.010949	105.786621
 division	Republic of Buryatia	54.8331	112.4061
 division	Republic of Crymea	45.3453	34.4997
@@ -1481,6 +1487,7 @@ division	Sri Lanka	7.75	80.75
 division	St-Louis	16.0326	-16.4818
 division	Stockholm	59.33267	18.061849
 division	Styria	47.3593	14.4700
+division	Suceava	47.667761	26.266066
 division	Sud Kivu	-3.223156	28.386665
 division	Surabaya	-7.266062	112.748376
 division	Sverdlovsk Region	59.0077	61.9316
@@ -1490,6 +1497,7 @@ division	Szeged	46.2530	20.1414
 division	Taiwan	23.8169	121.031365
 division	Talca	-35.462909	-71.37096
 division	Tamil Nadu	11.1271	78.6569
+division	Tangail	24.248630	89.917926
 division	Tatarstan	56.130014	53.371181
 division	Tbilisi	41.733699	44.818487
 division	Tehran	35.6892	51.3890

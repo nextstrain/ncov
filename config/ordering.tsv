@@ -905,12 +905,14 @@ location	Brookfield
 location	Elm Grove
 location	Glendale
 location	Columbia County
+location	Marion County
 location	Multnomah County
 location	Wasco County
 location	Accra
 location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
+
 
 
 division	Mongolia
@@ -1040,8 +1042,11 @@ division	Jakarta
 division	Surabaya
 division	India
 division	Karachi
+division	Islamabad
+division	Rawalpindi
 division	Bangladesh
 division	Mirpur
+division	Tangail
 division	Chittagong
 division	Narayanganj
 division	Timor-Leste
@@ -1164,6 +1169,8 @@ division	Kraljevo
 division	Novi Pazar
 division	Cacak
 division	Bucharest
+division	Mioveni
+division	Suceava
 division	Teleorman
 division	Hungary
 division	Central Hungary
@@ -1559,6 +1566,7 @@ division	Wyoming
 division	Idaho
 division	Montana
 division	California
+division	Kentucky
 division	Grand Princess
 division	Grand Princess 2nd cruise
 division	Oregon
