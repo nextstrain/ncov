@@ -101,6 +101,10 @@ location	East Medinipur
 location	South 24 Parganas
 location	Howrah
 location	Tehatta
+location	Nadiad
+location	Kapadvanj
+location	Mahemdavad
+location	Dhanera
 location	Darjeeling
 location	Singapore
 location	Gold Coast
@@ -585,6 +589,15 @@ location	Muros
 location	Oroso
 location	Padrón
 location	Palma
+location	Alcaniz
+location	Alcudia
+location	Ibiza
+location	Llubi
+location	Lluchmayor
+location	Santa Maria del Camino
+location	Son Servera
+location	Teruel
+location	Zaragoza
 location	Rianjo
 location	Ribeira
 location	Queimados
@@ -893,6 +906,16 @@ location	Hartford
 location	Meriden
 location	Madison CT
 location	New Haven
+location	Stratford
+location	Shelton
+location	New Fairfield
+location	Bridgeport
+location	Port Chester
+location	North-Branford
+location	Waterbury
+location	Mount-Vernon
+location	Milford
+location	Bridgeport
 location	Bethany
 location	Newtown
 location	Wallingford
@@ -1237,6 +1260,7 @@ division	Grand Est
 division	Toulouse
 division	Auvergne Rhone Alpes
 division	Spain
+division	Aragon
 division	Melilla
 division	Castilla Y León
 division	Basque Country
