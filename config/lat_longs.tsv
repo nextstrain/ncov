@@ -1,3 +1,4 @@
+location	A Coruna	43.361494	-8.411483
 location	Aalter	51.079810	3.459957
 location	Aarschot	50.986584	4.868284
 location	Abondant	48.790785	1.420178
@@ -146,6 +147,7 @@ location	Buzet	50.419853	4.773861
 location	Büllingen	50.395004	6.308021
 location	Caddo Parish	32.618244	-93.832261
 location	Cadiz	36.524659	-6.285386
+location	Caieiras	-23.375719	-46.723472
 location	Cairns	-16.890992	145.724483
 location	Cajica	4.919830	-74.024182
 location	Calahorra	42.307900	-1.966751
@@ -172,6 +174,7 @@ location	Chengdu	30.640989	104.067518
 location	Chicago	41.858966	-87.637242
 location	Chiclana de la Frontera	36.407163	-6.153590
 location	Chilches	36.726129	-4.224430
+location	Chillan	-36.6063	-72.1023
 location	Chippewa Falls	44.931261	-91.389704
 location	Choconta	5.146017	-73.683678
 location	Chongqing	29.858721	107.375623
@@ -196,6 +199,8 @@ location	Comines	50.749249	3.221643
 location	Compiègne	49.408175	2.842839
 location	Conil de la Frontera	36.277924	-6.088770
 location	Contamines	45.820585	6.727730
+location	Contra Costa County	37.871082	-121.872678
+location	Copiapo	-27.372842	-70.320323
 location	Cordoba	37.8882	-4.7794
 location	Cork	51.899	-8.460
 location	Cottage Grove	43.090480	-89.205111
@@ -227,6 +232,7 @@ location	Delft	52.0116	4.3571
 location	Derbyshire	53.142893	-1.611670
 location	Deurne	51.220173	4.458167
 location	Dhansura	23.3498	73.2087
+location	Diadema	-23.692685	-46.606911
 location	Diemen	52.3390	4.9592
 location	Dijon	47.3220	5.0415
 location	Dilbeek	50.8465	4.2621
@@ -361,11 +367,13 @@ location	Holsbeek	50.9211	4.757
 location	Holy Cross	43.469964	-87.900967
 location	Hong Kong	22.3964	114.1095
 location	Honnelles	50.350747	3.714603
+location	Hortolandia	-22.881443	-47.206973
 location	Houston	29.813606	-95.415223
 location	Houten	52.0278	5.1630
 location	Houthalen-Helchteren	51.0312	5.3765
 location	Howrah	22.554019	88.182766
 location	Huaian	33.574586	119.132155
+location	Huasco	-28.467340	-71.221674
 location	Hudson County	40.741619	-74.059016
 location	Huizhou	23.107144	114.457913
 location	Huldenberg	50.7886	4.5881
@@ -506,6 +514,7 @@ location	Marshall	43.167355	-89.066568
 location	Mason County	47.4251	-123.1951
 location	Mat-Su	61.382704	-150.251175
 location	Matrei am Brenner	47.128405	11.452845
+location	Maua	-23.664006	-46.442663
 location	Medellin	6.254779	-75.578125
 location	Meizhou	24.212443	116.104148
 location	Melbourne	-37.839042	145.076343
@@ -664,6 +673,7 @@ location	Richmond County	40.5795	-74.1502
 location	Riemst	50.805092	5.589712
 location	Rijkevorsel	51.355735	4.766466
 location	Rincon de la Victoria	36.717712	-4.278570
+location	Rio Claro	-22.418843	-47.567420
 location	Rio de Janeiro	-22.89445	-43.2099
 location	Rio San Pedro	36.5235	-6.2259
 location	Rivas-Vaciamadrid	40.3519	-3.5357
@@ -708,7 +718,9 @@ location	Santa Fe	37.1879	-3.7202
 location	Santa Marta	11.234638	-74.192698
 location	Santa Sofia	5.714409	-73.602111
 location	Santana	6.057578	-73.479309
+location	Santiago	-33.464455	-70.651851
 location	Santiago de Compostela	42.8782	8.5448
+location	Sao Bernardo do Campo	-23.735551	-46.563349
 location	Sao Paulo	-23.551096	-46.634874
 location	Saratoga County	43.0324	-73.9360
 location	Saukville	43.3817	-87.9406
@@ -836,6 +848,7 @@ location	Vanves	48.821722	2.288675
 location	Velez Malaga	36.779282	-4.100078
 location	Veltem-Beisem	50.905721	4.620653
 location	Venissieux	45.704031	4.882246
+location	Ventura County	34.440591	-119.058305
 location	Vernon County	43.5577	-90.8294
 location	Verona IT	45.4384	10.9916
 location	Verona WI	42.987161	-89.535380
@@ -1057,6 +1070,7 @@ division	Concepcion	-36.8201	-73.0444
 division	Connecticut	41.678117	-72.669773
 division	Constanta	44.1598	28.6348
 division	Copenhagen	55.6761	12.5683
+division	Copiapo	-27.372842	-70.320323
 division	Cordoba	8.359263	-75.763226
 division	Cork	51.895349	-8.474381
 division	Counties Manukau	-37.101403	175.005947
@@ -1153,6 +1167,7 @@ division	Henan	33.817629	113.690243
 division	Heredia	9.997549	-84.121162
 division	Ho Chi Minh City	10.790417	106.653985
 division	Hong Kong	22.3964	114.1095
+division	Huasco	-28.467340	-71.221674
 division	Hubei	31.095477	112.676644
 division	Huila	2.545605	-75.524024
 division	Hungary	47	20
@@ -1351,6 +1366,7 @@ division	Oceania	-25.0562891	152.008576
 division	Odisha	20.9517	85.0985
 division	Ogun State	7.006146	3.401761
 division	Ohio	40.199215	-82.825637
+division	Oklahoma	35.370608	-97.186200
 division	Omsk Region	55.0555	73.3167
 division	Ontario	44.429	-79.377
 division	Oostende	51.210615	2.914232
