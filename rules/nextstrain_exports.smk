@@ -69,6 +69,9 @@ rule export_all_regions:
             --latlong {input.lat_longs}
         """
 
+rule all_mutation_frequencies:
+    input: expand("results/{build_name}/nucleotide_mutation_frequencies.json", build_name=BUILD_NAMES)
+
 #
 # Rules for custom auspice exports for the Nextstrain team.
 #
