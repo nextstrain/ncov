@@ -126,6 +126,7 @@ location	Breendonk	51.042441	4.321611
 location	Bressoux	50.639339	5.605728
 location	Brest	48.398586	-4.493766
 location	Bridgeport	41.1792	-73.1894
+location	Brindisi	40.629964	17.937041
 location	Brisbane	-27.484246	153.026118
 location	Broechem	51.180793	4.602098
 location	Bronx	40.858846	-73.864979
@@ -468,6 +469,7 @@ location	Las Palmas	28.1009	-15.4654
 location	Lasne	50.679575	4.463992
 location	Le Pecq	48.8973	2.1064
 location	Le Roeulx	50.505667	4.104105
+location	Lecce	40.354894	18.168455
 location	Leganés	40.3320	-3.7687
 location	Lessines	50.710456	3.828368
 location	Leticia	-4.212580	-69.943144
@@ -478,8 +480,8 @@ location	Linter	50.818098	5.042221
 location	Lippelo	51.041285	4.258686
 location	Lishui	28.460681	119.919147
 location	Livingston Parish	30.463159	-90.743070
-location	Llubí	39.6994	3.0063
-location	Llucmajor	39.4908	2.8917
+location	Llubi	39.6994	3.0063
+location	Lluchmayor	39.4908	2.8917
 location	Llutxent	38.9421	-0.3554
 location	Lo	50.980372	2.748844
 location	Logrono	42.460541	-2.446303
@@ -560,12 +562,13 @@ location	Montérégie	45.3872317844	-73.1007662636
 location	Morehouse Parish	32.813203	-91.810337
 location	Morlanwelz	50.450138	4.246584
 location	Mount Horeb	43.008707	-89.730497
-location	Mount Vernon	40.9126	-73.8371
+location	Mount-Vernon	41.851953	-72.440345
 location	Mouscron	50.738645	3.23861
 location	Moussy Le Neuf	49.065806	2.601697
 location	Multnomah County	45.517630	-122.536942
 location	Munich	48.155742	11.549380
 location	Münster	51.958677	7.616881
+location	Muro	39.734505	3.055198
 location	Muros	42.8074	-9.0461
 location	Muscoda	43.189115	-90.439704
 location	Museros	39.5738	-0.3607
@@ -630,6 +633,7 @@ location	Pacho	5.135952	-74.156902
 location	Padrón	42.7381	-8.6608
 location	Palma	39.5696	2.6502
 location	Palma de Gandia	38.9251	-0.2215
+location	Palma de Mallorca	39.577847	2.650605
 location	Palmira	3.534069	-76.297658
 location	Pamplona	42.808441	-1.648651
 location	Panola County	32.1920	-94.3154
@@ -808,6 +812,7 @@ location	Tafalla	42.522804	-1.675960
 location	Taipei	25.043279	121.565717
 location	Taoyuan	24.951706	121.219785
 location	Tarifa	36.0143	-5.6044
+location	Taranto	40.524671	17.215202
 location	Tavernes de la Valldigna	39.0734	-0.2644
 location	Tehatta	23.730511	88.527338
 location	Temploux	50.484053	4.753481
@@ -844,6 +849,7 @@ location	Tours	47.404471	0.693908
 location	Trazegnies	50.466074	4.334811
 location	Trempealeau County	44.2398	-91.3662
 location	Trujillo	4.212089	-76.319157
+location	Trumbull	41.247238	-73.194570
 location	Tubize	50.687041	4.193545
 location	Tulua	4.092520	-76.197483
 location	Tumaco	1.792753	-78.793766
@@ -1147,7 +1153,7 @@ division	Fujian	26.284852	118.122938
 division	Galicia	42.5751	-8.1339
 division	Gambia	13.5	-15.5
 division	Gauteng	-26.199815	28.110057
-division	Gavleborgs lan	61.514766	16.400925
+division	Gavleborgs Lan	61.514766	16.400925
 division	Gelderland	52.042091	6.01486
 division	Geneva	46.216038	6.136984
 division	Gent	51.04154	3.697961

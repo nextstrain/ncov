@@ -510,6 +510,9 @@ location	Yernée-Fraineux
 location	Starnberg
 location	Strasbourg
 location	Rome
+location	Taranto
+location	Lecce
+location	Brindisi
 location	Bergamo
 location	Milan
 location	Verona IT
@@ -567,6 +570,8 @@ location	Algeciras
 location	La Linea de la Concepcion
 location	Conil de la Frontera
 location	Madrid
+location	Muro
+location	Palma de Mallorca
 location	A Coruna
 location	Malaga
 location	Santiago de Compostela
@@ -914,6 +919,7 @@ location	Port Chester
 location	North-Branford
 location	Waterbury
 location	Mount-Vernon
+location	Trumbull
 location	Milford
 location	Bridgeport
 location	Bethany
@@ -948,6 +954,7 @@ location	Accra
 location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
+
 
 
 
@@ -1431,7 +1438,7 @@ division	Kalmar
 division	Jonkoping
 division	Sormland
 division	Varmland
-division	Gavleborgs lan
+division	Gavleborgs Lan
 division	Orebro Lan
 division	Norrbotten
 division	Greece
