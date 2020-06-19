@@ -66,7 +66,7 @@ location	Beerse	50.753018	4.305199
 location	Beersel	50.7669	4.3085
 location	Beerst	51.058103	2.886961
 location	Beijing	40.071320	116.406908
-location	Bela - Ledec na Sazavou	49.693369	15.277533
+location	Bela - Ledec Na Sazavou	49.693369	15.277533
 location	Belford Roxo	-22.7645	-43.3996
 location	Belleville	42.863312	-89.535472
 location	Bello	6.337338	-75.551569
@@ -228,7 +228,7 @@ location	Dane County	43.0186	-89.5498
 location	Darjeeling	27.028909	88.260898
 location	Dasman	29.386491	47.999895
 location	Davis	38.5449	-121.7405
-location	DeForest	43.244858	-89.351873
+location	Deforest	43.244858	-89.351873
 location	DeSoto Parish	32.071362	-93.725530
 location	Deerlijk	50.837861	3.365039
 location	Deinze	50.9875	3.5236
@@ -260,7 +260,7 @@ location	Eindhoven	51.4416	5.4697
 location	Eisden	50.984698	5.714420
 location	Ekeren	51.276812	4.418126
 location	El Puig	39.5908	-0.3031
-location	El cerrito	3.684363	-76.311345
+location	El Cerrito	3.684363	-76.311345
 location	Elbigenalp	47.289202	10.434541
 location	Elda	38.4765	-0.7966
 location	Ellezelles	50.7338	3.6799
@@ -317,7 +317,7 @@ location	Gilgit	35.880589	74.448161
 location	Givry	50.380304	4.037642
 location	Glendale	43.129400	-87.930209
 location	Gold Coast	-28.019726	153.398160
-location	Gondrecourt-le-chateau	48.505557	5.503554
+location	Gondrecourt-le-Chateau	48.505557	5.503554
 location	Goutroux	50.406076	4.360658
 location	Grafton	43.315718	-87.954140
 location	Granada	37.1773	-3.5986
@@ -338,7 +338,7 @@ location	Gulshan	23.7925	90.4078
 location	Guyancourt	48.7629	2.0753
 location	Gyeonggi	37.397957	127.380864
 location	Haarlem	52.3874	4.6462
-location	Ham sous Varsberg	49.1796	6.6452
+location	Ham Sous Varsberg	49.1796	6.6452
 location	Hamden	41.397428	-72.924035
 location	Hamme	51.081154	4.142607
 location	Hangzhou	30.272732	120.154501
@@ -662,7 +662,7 @@ location	Portugalete	43.317356	-3.021671
 location	Pradejon	42.331616	-2.067126
 location	Prantij	23.4367	72.8528
 location	Privas	44.723301	4.594575
-location	Pu'er	22.807007	100.971896
+location	Pu'Er	22.807007	100.971896
 location	Puerto Santa Maria	36.526984	-6.288553
 location	Putnam County	41.424102	-73.753622
 location	Puzol	39.6153	0.3043
@@ -974,8 +974,7 @@ division	Alajuela	10.020137	-84.210339
 division	Alaska	65.797699	-152.214189
 division	Algeria	28.0000272	2.9999825
 division	Amapa	1.582936	-51.809488
-division	Amazonas State	-5.423668	-64.567836
-division	Amazonas 	-3.4168	-65.8561
+division	Amazonas	-3.4168	-65.8561
 division	Amman	31.9539	35.9106
 division	Andalusia	37.5443	-4.7278
 division	Andel	51.7851	5.0549
@@ -1054,6 +1053,7 @@ division	Burgenland	47.517438	16.468160
 division	Buryat Republic	52.311711	108.916732
 division	Buzau	45.143297	26.816251
 division	Cacak	43.891816	20.362815
+division	Cairo	30.041045	31.237176
 division	Caldas	5.314226	-75.340073
 division	Cali	3.420251	-76.522405
 division	California	36.357039	-119.690182
@@ -1328,7 +1328,7 @@ division	Meta	3.275638	-73.120232
 division	Mexico	19.4325301	-99.1332101
 division	Mexico City	19.404497	-99.143041
 division	Michigan	45.021203	-84.762273
-division	MidCentral	-40.398721	175.799685
+division	Midcentral	-40.398721	175.799685
 division	Milheeze	51.505685	5.799239
 division	Minas Gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
@@ -1374,7 +1374,7 @@ division	Nivelles	50.594427	4.331238
 division	Nonthaburi	13.852511	100.522791
 division	Normandie	48.8799	0.1713
 division	Norrbotten	66.936364	20.341728
-division	Norte de santander	8.107454	-72.862123
+division	Norte de Santander	8.107454	-72.862123
 division	North America	28.2367447	-97.738017
 division	North Batinah	24.577310	56.435470
 division	North Brabant	51.4827	5.2322
@@ -1383,6 +1383,7 @@ division	North District	32.8972	35.3027
 division	North Holland	52.5206	4.7885
 division	North Rhine Westphalia	51.44	7.705
 division	North Sulawesi	0.950357	124.450132
+division	North-West	-26.524595	25.625515
 division	Northern Ireland	54.60219	-6.687146
 division	Northern Territory	-19.4914	132.551
 division	Norway	64.574131	11.52701029
@@ -1403,7 +1404,7 @@ division	Omsk Region	55.0555	73.3167
 division	Ontario	44.429	-79.377
 division	Oostende	51.210615	2.914232
 division	Orebro	59.2753	15.2134
-division	Orebro lan	59.378174	14.948348
+division	Orebro Lan	59.378174	14.948348
 division	Oregon	43.8041	-120.5542
 division	Orenburg Region	51.7634	54.6188
 division	Oroshaza	46.5684	20.6545
@@ -1417,7 +1418,7 @@ division	Ouarzazate	30.9335	6.9370
 division	Oudenaarde	50.857635	3.629018
 division	Overijssel	52.436273	6.463628
 division	Oyo State	8.154414	3.632978
-division	PA Trento	46.096712	11.130704
+division	Pa Trento	46.096712	11.130704
 division	Pahang	3.8126	103.3256
 division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
@@ -1429,7 +1430,7 @@ division	Pathum Thani	14.018153	100.723973
 division	Pays de la Loire	47.640237	-0.647258
 division	Pennsylvania	41.2033	-77.1945
 division	Perm Region	58.017794	56.311058
-division	Prenambuco	-8.8137	-36.9541
+division	Pernambuco	-8.8137	-36.9541
 division	Peru	-10	-75.25
 division	Philippeville	50.178836	4.592270
 division	Philippines	12.8797	121.774
