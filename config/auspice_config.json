@@ -11,6 +11,11 @@
       "type": "categorical"
     },
     {
+      "key": "subclades_membership",
+      "title": "Subclades",
+      "type": "categorical"
+    },
+    {
       "key": "pangolin_lineage",
       "title": "Pangolin lineage",
       "type": "categorical"

@@ -687,6 +687,46 @@ rule rename_legacy_clades:
             json.dump({"nodes":new_data}, fh)
 
 
+rule subclades:
+    message: "Adding internal clade labels"
+    input:
+        tree = rules.refine.output.tree,
+        aa_muts = rules.translate.output.node_data,
+        nuc_muts = rules.ancestral.output.node_data,
+        subclades = config["files"]["subclades"]
+        clades = config["files"]["clades"]
+    output:
+        clade_data = "results/{build_name}/temp_subclades.json"
+    params:
+        clade_file = "results/{build_name}/temp_subclades.tsv"
+    log:
+        "logs/subclades_{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        cat {input.clades} {input.subclades} > {params.clade_file} && \
+        augur clades --tree {input.tree} \
+            --mutations {input.nuc_muts} {input.aa_muts} \
+            --clades {params.clade_file} \
+            --output-node-data {output.clade_data} 2>&1 | tee {log}
+        """
+
+rule rename_subclades:
+    input:
+        node_data = rules.subclades.output.clade_data
+    output:
+        clade_data = "results/{build_name}/subclades.json"
+    run:
+        import json
+        with open(input.node_data, 'r', encoding='utf-8') as fh:
+            d = json.load(fh)
+            new_data = {}
+            for k,v in d['nodes'].items():
+                if "clade_membership" in v:
+                    new_data[k] = {"subclades_membership": v["clade_membership"]}
+        with open(output.clade_data, "w") as fh:
+            json.dump({"nodes":new_data}, fh)
+
 rule gisaid_clades:
     message: "Adding internal clade labels"
     input:
@@ -818,6 +858,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.ancestral.output.node_data,
         rules.translate.output.node_data,
         rules.rename_legacy_clades.output.clade_data,
+        rules.rename_subclades.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data
