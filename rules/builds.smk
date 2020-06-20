@@ -693,7 +693,7 @@ rule subclades:
         tree = rules.refine.output.tree,
         aa_muts = rules.translate.output.node_data,
         nuc_muts = rules.ancestral.output.node_data,
-        subclades = config["files"]["subclades"]
+        subclades = config["files"]["subclades"],
         clades = config["files"]["clades"]
     output:
         clade_data = "results/{build_name}/temp_subclades.json"
@@ -723,7 +723,7 @@ rule rename_subclades:
             new_data = {}
             for k,v in d['nodes'].items():
                 if "clade_membership" in v:
-                    new_data[k] = {"subclades_membership": v["clade_membership"]}
+                    new_data[k] = {"subclade_membership": v["clade_membership"]}
         with open(output.clade_data, "w") as fh:
             json.dump({"nodes":new_data}, fh)
 

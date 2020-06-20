@@ -11,8 +11,8 @@
       "type": "categorical"
     },
     {
-      "key": "subclades_membership",
-      "title": "Subclades",
+      "key": "subclade_membership",
+      "title": "Subclade",
       "type": "categorical"
     },
     {
