@@ -10,6 +10,11 @@
       "title": "Old Nextstrain clade",
       "type": "categorical"
     },
+   {
+      "key": "subclade_membership",
+      "title": "Subclade",
+      "type": "categorical"
+    },
     {
       "key": "pangolin_lineage",
       "title": "Pangolin Lineage",
