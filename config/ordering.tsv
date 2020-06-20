@@ -705,6 +705,7 @@ location	Rio de Janeiro
 location	Bahia Blanca
 location	San Carlos de Bariloche
 location	Quilmes
+location	Babahoyo
 location	Florianopolis
 location	Niteroi
 location	Joinville
@@ -860,6 +861,7 @@ location	Winneshiek County
 location	Jackson County
 location	Florida
 location	Miramar
+location	Wabasha County
 location	Adams County WA
 location	Adams County WI
 location	New Orleans
@@ -914,7 +916,6 @@ location	New Haven
 location	Stratford
 location	Shelton
 location	New Fairfield
-location	Bridgeport
 location	Port Chester
 location	North-Branford
 location	Waterbury
@@ -1088,6 +1089,7 @@ division	Karachi
 division	Islamabad
 division	Rawalpindi
 division	Bangladesh
+division	Rangpur
 division	Mirpur
 division	Tangail
 division	Chittagong
@@ -1455,6 +1457,7 @@ division	Oyo State
 division	Ghana
 division	Senegal
 division	Gambia
+division	Kombo
 division	Morocco
 division	Casablanca
 division	Tunisia
@@ -1500,6 +1503,7 @@ division	Coyhaique
 division	Punta Arenas
 division	Puerto Montt
 division	Ecuador
+division	Los Rios
 division	Brazil
 division	Santiago
 division	Talca
