@@ -155,6 +155,8 @@ location	Heinsberg
 location	Munich
 location	Duesseldorf
 location	Münster
+location	Focsani
+location	Iasi
 location	Delft
 location	Utrecht
 location	Zeeland
@@ -1214,6 +1216,8 @@ division	Kraljevo
 division	Novi Pazar
 division	Cacak
 division	Bucharest
+division	Vrancea
+division	Valcea
 division	Mioveni
 division	Suceava
 division	Teleorman
