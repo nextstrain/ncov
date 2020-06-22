@@ -46,15 +46,15 @@ rule clean:
         "rm -rfv {params}"
 
 # Include small, shared functions that help build inputs and parameters.
-include: "rules/common.smk"
+include: "snakemake_rules/helpers.smk"
 
 # Include rules to handle primary build logic from multiple sequence alignment
 # to output of auspice JSONs for a default build.
-include: "rules/builds.smk"
+include: "snakemake_rules/main_workflow.smk"
 
 # Include rules specific to the Nextstrain team including custom exports used in
 # narratives, etc.
-include: "rules/nextstrain_exports.smk"
+include: "snakemake_rules/export_for_nextstrain.smk"
 
 # Include a custom Snakefile that specifies `localrules` required by the user's
 # workflow environment.

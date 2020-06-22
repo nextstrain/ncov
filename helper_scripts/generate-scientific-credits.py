@@ -1,10 +1,10 @@
 import pandas as pd
 
-data = pd.read_csv('../data/metadata.tsv', sep='\t')
+data = pd.read_csv('../input_data/metadata.tsv', sep='\t')
 credits = data.groupby('originating_lab')['strain'].apply(list).to_dict()
 
-detailed_ofile = open('../data/detailed_credits.md', 'a')
-ofile = open('../data/credits.md', 'a')
+detailed_ofile = open('../input_data/detailed_credits.md', 'a')
+ofile = open('../input_data/credits.md', 'a')
 
 for institution in sorted(list(credits.keys())):
     if institution == 'unknown':

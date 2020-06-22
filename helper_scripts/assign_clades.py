@@ -32,7 +32,7 @@ if __name__ == '__main__':
     parser.add_argument("--nthreads", default=1, type=int, help="Number of threads to use in alignment")
     args = parser.parse_args()
 
-    refname = f"default_config/reference.gb"
+    refname = f"default_config/reference_seq.gb"
     features = load_features(refname)
     if args.sequences:
         seqs = SeqIO.parse(args.sequences, 'fasta')
@@ -116,4 +116,3 @@ if __name__ == '__main__':
         for fname in [log_fname, in_fname, out_fname]:
             if os.path.isfile(fname): #won't exist if didn't align
                 os.remove(fname)
-
