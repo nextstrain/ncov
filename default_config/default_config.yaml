@@ -22,20 +22,20 @@ reference_node_name: "USA/WA1/2020"
 # align sequences to, colors for strain attributes in auspice, and auspice
 # configuration files.
 files:
-  include: "default_config/include.txt"
-  exclude: "default_config/exclude.txt"
-  reference: "default_config/reference.gb"
+  include: "default_config/seqs_to_include.txt"
+  exclude: "default_config/seqs_to_exclude.txt"
+  reference: "default_config/reference_seq.gb"
   outgroup: "default_config/outgroup.fasta"
-  ordering: "default_config/ordering.tsv"
+  ordering: "default_config/geographic_ordering.tsv"
   color_schemes: "default_config/color_schemes.tsv"
   auspice_config: "default_config/default_auspice_config.json"
   auspice_config_gisaid: "default_config/nextstrain/auspice_config_gisaid.json"
   auspice_config_zh: "default_config/nextstrain/auspice_config_zh.json"
-  lat_longs: "default_config/lat_longs.tsv"
+  lat_longs: "default_config/gps_coordinates.tsv"
   description: "default_config/nextstrain/description.md"
   description_zh: "default_config/nextstrain/description_zh.md"
   clades: "default_config/clades.tsv"
-  legacy_clades: "default_config/legacy_clades.tsv"
+  legacy_clades: "default_config/nextstrain/legacy_clades.tsv"
   gisaid_clades: "default_config/nextstrain/gisaid_clades.tsv"
 
 
