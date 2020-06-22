@@ -573,6 +573,8 @@ pangolin/Guangxi/P5E/2017
 pangolin/Guangxi/P5L/2017
 pangolin/Guandong/1/2019
 pangolin/China/MP789/2019
+pangolin/Guangdong/A22-2/2019
+pangolin/Guangdong/FM45-9/2019
 bat/Yunnan/RmYN02/2019
 bat/Yunnan/RmYN01/2019
 
