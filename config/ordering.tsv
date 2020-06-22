@@ -370,6 +370,7 @@ location	Hemiksem
 location	Sint-Gillis-Waas
 location	Silly
 location	Wervik
+location	Kynice
 location	Pelt
 location	Blegny
 location	Estinnes
@@ -705,6 +706,12 @@ location	Sao Paulo
 location	Brasilia
 location	Rio de Janeiro
 location	Bahia Blanca
+location	Osasco
+location	Presidente Venceslau
+location	Barueri
+location	Itapecerica
+location	Da Serra
+location	Mogi Das Cruzes
 location	San Carlos de Bariloche
 location	Quilmes
 location	Babahoyo
@@ -1433,6 +1440,7 @@ division	Vasterbotten
 division	Vasternorrland
 division	Halland
 division	Czech Republic
+division	Jihlava
 division	Sweden
 division	Stockholm
 division	Orebro
