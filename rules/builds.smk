@@ -789,6 +789,37 @@ rule tip_frequencies:
             --output {output.tip_frequencies_json} 2>&1 | tee {log}
         """
 
+rule nucleotide_mutation_frequencies:
+    message: "Estimate nucleotide mutation frequencies"
+    input:
+        alignment = rules.combine_samples.output.alignment,
+        metadata = _get_metadata_by_wildcards
+    output:
+        frequencies = "results/{build_name}/nucleotide_mutation_frequencies.json"
+    log:
+        "logs/nucleotide_mutation_frequencies_{build_name}.txt"
+    params:
+        min_date = config["frequencies"]["min_date"],
+        minimal_frequency = config["frequencies"]["minimal_frequency"],
+        pivot_interval = config["frequencies"]["pivot_interval"],
+        stiffness = config["frequencies"]["stiffness"],
+        inertia = config["frequencies"]["inertia"]
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur frequencies \
+            --method diffusion \
+            --alignments {input.alignment} \
+            --gene-names nuc \
+            --metadata {input.metadata} \
+            --min-date {params.min_date} \
+            --minimal-frequency {params.minimal_frequency} \
+            --pivot-interval {params.pivot_interval} \
+            --stiffness {params.stiffness} \
+            --inertia {params.inertia} \
+            --output {output.frequencies} 2>&1 | tee {log}
+        """
+
 def export_title(wildcards):
     # TODO: maybe we could replace this with a config entry for full/human-readable build name?
     location_name = wildcards.build_name

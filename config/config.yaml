@@ -93,6 +93,11 @@ frequencies:
   narrow_bandwidth: 0.05
   proportion_wide: 0.0
 
+  # Diffusion frequency settings
+  minimal_frequency: 0.01
+  stiffness: 20
+  inertia: 0.2
+
 #
 # Region-specific settings
 #
