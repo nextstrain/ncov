@@ -1,0 +1,48 @@
+# This is where we define which builds we'd like to run.
+# This example includes 4 separate builds, ranging from the regional (global) to location (county) level.
+# You can comment-out, remove, or add as many builds as you'd like.
+
+# Each build needs a name, a defined subsampling process, and a geographic specification.
+# Geography is specified by both `geographic_scale` (region, country, division, location) and a value (North America, USA, Washington, King County).
+
+# The default config file, `./default_config/default_config.yaml` has reasonable default subsampling methods for each geographic resolution.
+# These subsample primarily from the area of interest ("focus"), and add in background ("contextual") sequences from the rest of the world.
+# Contextual sequences that are genetically similar to (hamming distance) and geographically near the focal sequences are heavily prioritized.
+
+# In this example, we use these default methods. See other templates for examples of how to customize this subsampling scheme.
+
+builds:
+  # build focusing on King County (location) in Washington State (division) in the USA (country)
+  usa_washington_king-county: # name of the build; this can be anything, but if it differs from the focal geography, you'll also need to define `geographic_name`
+    subsampling_scheme: location # what subsampling method to use (see default_config.yaml)
+    geographic_scale: location # our focal area is a 'location' (e.g., county or city)
+    region: North America
+    country: USA
+    division: Washington
+    location: King County
+
+  # Zoom out one level: this build focuses on all of Washington State
+  usa_washington:
+    subsampling_scheme: division # we named the subsampling scheme meant for divisions accordingly; you can rename these whatever you'd like
+    geographic_scale: division
+    region: North America
+    country: USA
+    division: Washington
+
+  # Focus on the entire U.S.
+  usa:
+    subsampling_scheme: country
+    geographic_scale: country
+    region: North America
+    country: USA
+
+# Focus on all of North America
+  north_america:
+    subsampling_scheme: region
+    geographic_scale: region
+    region: North America
+
+# Sample evenly from the globe
+  global:
+    subsampling_scheme: region_global
+    geographic_scale: region
