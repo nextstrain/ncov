@@ -6,8 +6,8 @@ results/
 build/
 auspice/
 data/*
-config/colors.tsv
-config/colors_*.tsv
+default_config/colors.tsv
+default_config/colors_*.tsv
 stats.json
 
 # Sensitive environment variables
