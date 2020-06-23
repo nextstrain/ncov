@@ -53,7 +53,7 @@ A valid metadata file must include the following fields:
 |---|---|---|---|
 |`strain` or `name`| `NewZealand/01/2020` | Sample name / ID | Each header in the fasta file must exactly match a `strain` value in the metadata. Characters `()[]{}|#><` are disallowed |
 |`date` | `2020-02-27`, `2020-02-XX`, `2020-XX-XX` | Date of _sampling_ | `YYYY-MM-DD`; ambiguities can be indicated with `XX`|  
-|`virus`|`ncov`|Pathogen name|Just needs to be consistent|
+|`virus`|`ncov`|Pathogen name|Needs to be consistent|
 |`region`|"Africa", "Asia", "Europe", "North America", "Oceania" or "South America"|Global region of _sampling_ ||
 
 Please be aware that our current pipeline will filter out any genomes with an unknown date - you can change this in your own pipeline.
@@ -76,7 +76,7 @@ Adding a new value to these columns isn't a problem at all, but there are a few 
 
 
 #### Formatting metadata in Excel  
-You can also create a TSV file in Excel. 
+You can also create a TSV file in Excel.
 However, due to issues with auto-formatting of certain fields in Excel (like dates), we don't recommend this as a first option.
 If you do edit a file in Excel, open it afterwards in a text-editor to check it looks as it should!
 1. Create a spreadsheet where each row is a sample, and each column is a metadata field  
@@ -102,7 +102,7 @@ This should be decompressed and saved as `data/global_sequences.fasta`.
 
 ![gisaid_downloads](images/gisaid_downloads.png)
 
-You can concatenate these files with your own; just make sure the TSV fields are in the same order.
+You can concatenate these files with your own; make sure the TSV fields are in the same order.
 
 ### Subsampling  
 
@@ -240,4 +240,4 @@ Date the genome was submitted to a public database (most often GISAID).
 In `YYYY-MM-DD` format (see `date` for more information on this formatting).
 
 
-## [Next Section: Setup and Intallation](./docs/setup.md)
+## [Next Section: Setup and Installation](./docs/setup.md)

@@ -3,7 +3,7 @@
 ## Changing parameters  
 Each step in the [augur workflow](orientation-workflow.md) can be parameterized; these parameters are specified in `config.yaml` files.  
 
-We've provided reasonable default values for each step in the `default_config/default_config.yaml`; these are largely the same values we use for our [nextstrain.org/ncov workflows](https://github.com/nextstrain/ncov).
+We've provided reasonable default values for each step in the `default_config/default_config.yaml`; these are the same values the Nextstrain team uses for our analyses.
 
 We encourage you to take a few minutes to **skim through [the default config file](default_config/default_config.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**  
 
@@ -14,7 +14,7 @@ Keeping build-specific parameters separate this way prevents mixups of settings 
 
 Places are defined as one of:  
 - `region` (e.g., `North America`, `Asia`)  
-- `country  
+- `country`  
 - `division` (i.e., state, province, or canton)  
 - `location` (i.e., a county or city within a division)  
 
@@ -34,7 +34,7 @@ location	Abondant	48.790785	1.420178
 ## Subsampling  
 
 ### Basic subsampling  
-Reasonable defaults are pre-defined. You can find a [description of them here](XXX).
+Reasonable defaults are pre-defined. You can find a [description of them here](running.md).
 
 ### Custom subsampling schemes
 We implement hierarchical subsampling by producing multiple samples at different geographic scales and merge these samples into one file for further analysis.
@@ -56,13 +56,13 @@ subsampling:
     division:
       group_by: "year month"
       seq_per_group: 300
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division!={{division}}'"
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
     # Now we'll specify the types of 'contextual' samples we want:
     # Contextual samples from division's country
     country:
       group_by: "division year month"
       seq_per_group: 20
-      exclude: "--exclude-where 'region!={{region}}' 'country!={{country}}' 'division={{division}}'"
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
       priorities:
         type: "proximity"
         focus: "division"
@@ -70,7 +70,7 @@ subsampling:
     region:
       group_by: "country year month"
       seq_per_group: 10
-      exclude: "--exclude-where 'region!={{region}}' 'country={{country}}'"
+      exclude: "--exclude-where 'region!={region}' 'country={country}'"
       priorities:
         type: "proximity"
         focus: "division"
@@ -79,12 +79,12 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 5
-      exclude: "--exclude-where 'region={{region}}'"
+      exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "division"
 ```
-All entries above canton level (the 'contextual' samples) specify priorities. 
+All entries above canton level (the 'contextual' samples) specify priorities.
 Currently, we have only implemented one type of priority called `proximity`.
 It attempts to selected sequences as close as possible to the focal samples
 specified as `focus: division`.
@@ -130,37 +130,6 @@ These are specified in `default_config/clades.tsv` like so:
 A1a	ORF3a	251	V
 A1a	ORF1a	3606	F
 ```  
-
-## Keeping a 'Location Build' Up-To-Date
-
-If you are aiming to create a public health build for a state, division, or area of interest, you likely want to keep your analysis up-to-date easily.
-If your run contains contextual subsampling (sequences from outside of your focal area), you should first ensure that you regularly download the latest sequences as input, then re-run the build.
-This way, you always have a build that reflects the most recent SARS-CoV-2 information.
-
-You should also aim to keep the `ncov` repository updated.
-If you've clone the repository from Github, this is done by running `git pull`.
-This downloads any changes that we have made to the repoistory to your own computer.
-In particular, we add new colors and latitute & longitude information regularly - these should match the new sequences you download, so that you don't need to add this information yourself.
-
-If you don't need to share your build 'profile' with anyone, then it's simple to leave this in the `/profiles` folder.
-It won't be changed when you `git pull` for the latest information.
-
-However, if you want to share your build profile, you'll need to adopt one of the following solutions.
-First, you can 'fork' the entire `ncov` repository, which means you have your own copy of the repository. 
-You can then add your profile files to the repository and anyone else can download them as part of your 'fork' of the repository.
-Note that if you do this, you should ensure you `pull` regularly from the original `ncov` repository to keep it up-to-date.
-
-Alternatively, you can create a new repository just to hold your 'profile' files, outside of the `ncov` repository.
-You can then share this repository with others, and it's very simple to keep `ncov` up to date, as you don't change it at all.
-If doing this, it can be easiest to create a 'profiles' folder and imitate the structure found in the 'profiles' folder within `ncov`, but this isn't required.
-Note that to run the build using the profile you'll need still run the `snakemake` command from within the `ncov` repository, but specify that the profile you want is outside that folder.
-
-For the [`south-usa-sarscov2`](https://github.com/emmahodcroft/south-usa-sarscov2/) example, you can see the `south-central ` profile set up in a 'profiles' folder.
-To run this, one would call the following from within `ncov`:
-
-```bash
-ncov$ snakemake --profile ../south-usa-sarscov2/profiles/south-central/
-```
 
 ## [Previous Section: Orientation: Running & troubleshooting](./docs/running.md)
 ## [Next Section: Orientation: Customizing your visualization](./docs/customizing-visualization.md)

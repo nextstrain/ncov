@@ -1,8 +1,5 @@
 # Guidance for interpretation  
 
-We're hard at work on a complete set of case studies to guide your intepretation of genomic epidemiological data.  
-In the meantime, we recommend the following resources to get started.
-
 ## Introductory resources  
 
 * Visual explanation of how viral mutations and spread are related: https://www.nytimes.com/interactive/2020/04/30/science/coronavirus-mutations.html

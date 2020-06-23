@@ -1,26 +1,18 @@
 # Running the analysis
 
-## Quickstart  
-
-For this tutorial, we've provided an example dataset and a reasonable set of default settings.  
-To execute the analysis using these example defaults, run:  
-```bash
-sarscov2-tutorial$ snakemake --profile ./my_config/example -p
-```
-
-## Checklist    
+>This section focuses on how to running the basic example build to give you a chance to practice and get a sense of how things work. The next section covers customizing and configuring your own build. 
 
 **To run our analyses, we need to:**  
 1. Ensure our **sequence data and metadata is [properly formatted](data-prep.md)**  
 2. **Specify which builds you want** to generate using a `builds.yaml` file  
-3. Say the magic words (**execute the workflow** :)  
+3. **Execute the workflow**    
 4. [Hopefully you don't have to] **troubleshoot**
 
 ## Step 1. Gather and format your data  
 
 If you haven't done this step yet, check out our [data prep](data-prep.md) guide and come back when you're ready.  
 
-## Step 2. Which builds do you want to run?  
+## Step 2. Specify which builds to run    
 
 In the orientation section, we learned that  
 - [Nextstrain analyses are run using a workflow manager called Snakemake](orientation-workflow.md)  
@@ -57,7 +49,7 @@ file in this directory.**
 
 Go ahead and **swap out the values in this file with the geographic area of interest to you.** You can add, disable (comment out), or remove as many of these build definitions as you'd like.  
 
-## Step 3: Say the magic words  
+## Step 3: Run the workflow  
 
 To actually execute the workflow, run:  
 
@@ -68,15 +60,12 @@ sarscov2-tutorial$ snakemake --profile my_config/example -p
 `--profile` tells snakemake where to find your `builds.yaml` and `config.yaml` files.  
 `-p` tells snakemake to print each command it runs to help you understand what it's doing.   
 
-If you'd like to run a dryrun, try running with the `--np` flag, which will execute a dryrun. This prints out each command, but doesn't execute it.
+If you'd like to run a dryrun, try running with the `-np` flag, which will execute a dryrun. This prints out each command, but doesn't execute it.
 
 
-## Step 4: Troubleshooting common issues
+## Step 4: Troubleshoot common issues
 
-See our [troubleshooting guide](XXX).
-
-
-> If you have a question which is not addressed here, please don't hestitate to [ask for help](XXX)
+If you have a question which is not addressed here, please don't hestitate to [ask for help](XXX)
 
 
 #### My country / division does not show up on the map

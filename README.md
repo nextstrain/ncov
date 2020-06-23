@@ -10,16 +10,16 @@ We maintain a number of publicly-available builds, visible at [nextstrain.org/nc
 ### Use Nextstrain to analyze your SARS-CoV-2 data  
 
 **We've written a comprehensive guide to get you up and running in <1 hr. Click on the below links to follow it. It covers:**
-* [**Preparing your data**](./docs/data-prep.md) _(Start here)_
-* [**Setup and installation**](./docs/setup.md)
-* [**Orientation: analysis workflow**](.docs/orientation-workflow.md)
-* [**Orientation: which files should I touch?**](.docs/orientation-files.md)
-* [**Running & troubleshooting**](.docs/running.md)
-* [**Customizing your analysis**](.docs/customizing-analysis.md)
-* [**Customizing your visualization**](.docs/customizing-visualization.md)
-* [**Options for visualizing and sharing results**](.docs/sharing.md) (including working with sensitive metadata)  
-* [**Interpreting your results**](.docs/interpretation.md)
-* [**Writing a narrative to highlight key findings**](.docs/narratives.md)
+1. [**Preparing your data**](./docs/data-prep.md) _(Start here)_
+2. [**Setup and installation**](./docs/setup.md)
+3. [**Orientation: analysis workflow**](.docs/orientation-workflow.md)
+4. [**Orientation: which files should I touch?**](.docs/orientation-files.md)
+5. [**Running & troubleshooting**](.docs/running.md)
+6. [**Customizing your analysis**](.docs/customizing-analysis.md)
+7. [**Customizing your visualization**](.docs/customizing-visualization.md)
+8. [**Options for visualizing and sharing results**](.docs/sharing.md) (including working with sensitive metadata)  
+9. [**Interpreting your results**](.docs/interpretation.md)
+10. [**Writing a narrative to highlight key findings**](.docs/narratives.md)
 
 
 ### Download formatted datasets  
