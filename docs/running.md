@@ -88,6 +88,9 @@ Adding it to that file (and rerunning the Snakemake rules downstream of this) sh
 
 We generate the colors from the `colors` rule in the Snakefile, which uses the [ordering TSV](./default_config/ordering.tsv) to generate these. See ['customizing your analysis'](customizing-analysis.md) for more info.
 
+_*A note about locations and colors:*_
+Unless you want to specifically override the colors generated, it's usually easier to _add_ information to the default `ncov` files, so that you can benefit from all the information already in those files.
+
 #### My genomes aren't included in the analysis
 
 There are a few steps where sequences can be removed:
