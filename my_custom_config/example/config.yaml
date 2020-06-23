@@ -4,7 +4,7 @@
 
 configfile:
   - default_config/default_config.yaml # Pull in the default values
-  - my_analyses/example/builds.yaml # Pull in our list of desired builds
+  - my_config/example/builds.yaml # Pull in our list of desired builds
 
 config:
   - sequences=input_data/example_sequences.fasta

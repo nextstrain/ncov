@@ -1,6 +1,6 @@
 configfile:
   - default_config/default_config.yaml
-  - nextstrain_analyses/nextstrain/builds.yaml
+  - nextstrain_config/nextstrain/builds.yaml
 
 cores: 20
 keep-going: True
@@ -26,7 +26,7 @@ use-conda: True
 # "partition". Jobs submitted to the "restart" partition will start running
 # almost immediately, but they may also be killed at any moment when someone
 # else needs those resources. This is analogous to the spot resources on AWS.
-cluster-config: nextstrain_analyses/nextstrain-rhino/cluster.json
+cluster-config: nextstrain_config/nextstrain-rhino/cluster.json
 
 # Submit jobs to the cluster with Python's DRMAA bindings instead of the SLURM
 # sbatch command. The string associated with this key tells DRMAA how to connect

@@ -5,18 +5,18 @@
 # To run a regional build, be sure to update the list of regions in `config/nextstrain_config.yaml`.
 #
 # You can run all builds in parallel!
-#   snakemake --profile nextstrain_analyses/nextstrain all_regions
+#   snakemake --profile nextstrain_config/nextstrain all_regions
 #
 # Or you can specify final or intermediate output files like so:
-#   snakemake --profile nextstrain_analyses/nextstrain auspice/ncov_europe.json (subsampled regional focal)
-#   snakemake --profile nextstrain_analyses/nextstrain auspice/ncov_global.json (subsampled global)
+#   snakemake --profile nextstrain_config/nextstrain auspice/ncov_europe.json (subsampled regional focal)
+#   snakemake --profile nextstrain_config/nextstrain auspice/ncov_global.json (subsampled global)
 #
 # To update ordering/lat_longs after AWS download:
-#   snakemake --touch --forceall --profile nextstrain_analyses/nextstrain
-#   snakemake --profile nextstrain_analyses/nextstrain clean_export_regions
-#   snakemake --profile nextstrain_analyses/nextstrain export_all_regions
+#   snakemake --touch --forceall --profile nextstrain_config/nextstrain
+#   snakemake --profile nextstrain_config/nextstrain clean_export_regions
+#   snakemake --profile nextstrain_config/nextstrain export_all_regions
 # When done adjusting lat-longs & orders, remember to run
-#   snakemake --profile nextstrain_analyses/nextstrain all_regions
+#   snakemake --profile nextstrain_config/nextstrain all_regions
 # to produce the final Auspice files!
 
 def get_todays_date():
@@ -63,7 +63,7 @@ rule export_all_regions:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} ./snakemake/scripts/check_missing_locations.py \
+        {python:q} ./scripts/check_missing_locations.py \
             --metadata {input.metadata} \
             --colors {input.colors} \
             --latlong {input.lat_longs}
@@ -158,7 +158,7 @@ rule incorporate_travel_history_gisaid:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} ./snakemake/scripts/modify-tree-according-to-exposure.py \
+        {python:q} ./scripts/modify-tree-according-to-exposure.py \
             --input {input.auspice_json} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -183,7 +183,7 @@ rule incorporate_travel_history_zh:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} ./snakemake/scripts/modify-tree-according-to-exposure.py \
+        {python:q} ./scripts/modify-tree-according-to-exposure.py \
             --input {input.auspice_json} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -203,7 +203,7 @@ rule fix_colorings_gisaid:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} snakemake/scripts/fix-colorings.py \
+        {python:q} scripts/fix-colorings.py \
             --input {input.auspice_json} \
             --output {output.auspice_json} 2>&1 | tee {log}
         """
@@ -219,7 +219,7 @@ rule fix_colorings_zh:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} snakemake/scripts/fix-colorings.py \
+        {python:q} scripts/fix-colorings.py \
             --input {input.auspice_json} \
             --output {output.auspice_json} 2>&1 | tee {log}
         """

@@ -7,7 +7,7 @@ We've provided reasonable default values for each step in the `default_config/de
 
 We encourage you to take a few minutes to **skim through [the default config file](default_config/default_config.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**  
 
-If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the `my_analyses/<name>/config.yaml` file. Any values not overridden in this way will fall back to the default values.**
+If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the `my_config/<name>/config.yaml` file. Any values not overridden in this way will fall back to the default values.**
 Keeping build-specific parameters separate this way prevents mixups of settings between builds, and gives you a cleaner file to work with (rather than having to wrestle the _entire_ default config file).
 
 ## Adding a new place    
@@ -100,7 +100,7 @@ Trait reconstruction is the process by which augur infers the most likely metada
 For each build, you can specify which categorical metadata fields to use for trait reconstruction.
 
 <!-- TODO: can someone please check this section for me? the existing docs were unclear to me -->
-To specify this on a per-build basis, add a block like the following to your `my_analyses/<name>/builds.yaml` file:
+To specify this on a per-build basis, add a block like the following to your `my_config/<name>/builds.yaml` file:
 ```yaml
 traits:
   north-america: ### build name  

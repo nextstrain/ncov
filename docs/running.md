@@ -5,7 +5,7 @@
 For this tutorial, we've provided an example dataset and a reasonable set of default settings.  
 To execute the analysis using these example defaults, run:  
 ```bash
-sarscov2-tutorial$ snakemake --profile ./my_analyses/example -p
+sarscov2-tutorial$ snakemake --profile ./my_config/example -p
 ```
 
 ## Checklist    
@@ -27,7 +27,7 @@ In the orientation section, we learned that
 - [A "build"](glossary.md#Build) is a bundle of input files, parameters, and commands   
 - [Each build is configured by two primary files](orientation-files.md): `build.yaml` and `config.yaml`  
 
-Let's start with defining a build in `./my_analyses/example/builds.yaml`.  
+Let's start with defining a build in `./my_config/example/builds.yaml`.  
 **We use the `builds.yaml` file to define what geographic areas of the world we want to focus on. Each block in this file will produce a separate output JSON for visualization**.  
 
 The first block of the provided `build.yaml` file looks like this:  
@@ -52,7 +52,7 @@ Looking at this example, we can see that each build has a:
 
 The rest of the builds defined in this file serve as examples for division-, country- or region-focused analyses.
 
-**To adapt this for your own analyses, copy `my_analyses/example` to `my_analyses/<my-new-name>` and open the `builds.yaml`
+**To adapt this for your own analyses, copy `my_config/example` to `my_config/<my-new-name>` and open the `builds.yaml`
 file in this directory.**
 
 Go ahead and **swap out the values in this file with the geographic area of interest to you.** You can add, disable (comment out), or remove as many of these build definitions as you'd like.  
@@ -62,7 +62,7 @@ Go ahead and **swap out the values in this file with the geographic area of inte
 To actually execute the workflow, run:  
 
 ```bash  
-sarscov2-tutorial$ snakemake --profile my_analyses/example -p  
+sarscov2-tutorial$ snakemake --profile my_config/example -p  
 ```
 
 `--profile` tells snakemake where to find your `builds.yaml` and `config.yaml` files.  
@@ -131,13 +131,13 @@ The flagged sequences will be excluded from the current run.
 
 To only run the sequence diagnostic, you can specify any of the three above files as target or run:
 ```bash
-snakemake --profile my_analyses/<name> diagnostic
+snakemake --profile my_config/<name> diagnostic
 ```
 
 In addition, we provide rules to re-examine the sequences in `config/exclude.txt`.
 By running
 ```bash
-snakemake --profile my_analyses/<name> diagnose_excluded
+snakemake --profile my_config/<name> diagnose_excluded
 ```
 the pipeline will produce
 

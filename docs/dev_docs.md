@@ -21,29 +21,29 @@ To run a regional build, be sure to update the list of regions in `config/nextst
 You can run all builds in parallel with the following command.
 
 ```bash
-snakemake --profile nextstrain_analyses/nextstrain all_regions
+snakemake --profile nextstrain_config/nextstrain all_regions
 ```
 
 Or you can specify final or intermediate output files like so:
 
 ```bash
 # subsampled regional focal
-snakemake --profile nextstrain_analyses/nextstrain auspice/ncov_europe.json
+snakemake --profile nextstrain_config/nextstrain auspice/ncov_europe.json
 
 # subsampled global
-snakemake --profile nextstrain_analyses/nextstrain auspice/ncov_global.json
+snakemake --profile nextstrain_config/nextstrain auspice/ncov_global.json
 ```
 
 To update ordering/lat_longs after AWS download:
 
 ```bash
-snakemake --touch --forceall --profile nextstrain_analyses/nextstrain
-snakemake --profile nextstrain_analyses/nextstrain clean_export_regions
-snakemake --profile nextstrain_analyses/nextstrain export_all_regions
+snakemake --touch --forceall --profile nextstrain_config/nextstrain
+snakemake --profile nextstrain_config/nextstrain clean_export_regions
+snakemake --profile nextstrain_config/nextstrain export_all_regions
 ```
 
 When done adjusting lat-longs & orders, remember to run the following command to produce the final Auspice files.
 
 ```bash
-snakemake --profile nextstrain_analyses/nextstrain all_regions
+snakemake --profile nextstrain_config/nextstrain all_regions
 ```
