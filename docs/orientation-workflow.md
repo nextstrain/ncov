@@ -4,7 +4,7 @@ Nextstrain has two main parts:
 * **Augur performs the bioinformatic analyses** required to produce a tree, map, and other inferences from your input data.  
 * The outputs of augur form the input for **Auspice, which provides the visualizations** you see on Nextstrain.org  
 
-You can find more information about how these tools fit together [here](XXX). We'll come back to Auspice when we get to the [visualization](XXX) section.
+You can find more information about how these tools fit together [here](https://nextstrain.org/docs/getting-started/introduction). We'll come back to Auspice when we get to the [visualization](sharing.md) section.
 
 First, let's take a look at how augur works.
 
@@ -34,13 +34,13 @@ Required input files (e.g. the sequence data generated above, or other files whi
 ![snakemake_workflow](images/basic_snakemake_build.png)
 
 
-We encourage you to take a look at the [`Snakefile`](XXX) to see what each rule is doing in more detail.  
+We encourage you to take a look at [`main_workflow.smk`](https://github.com/nextstrain/ncov/blob/tutorial/workflow/snakemake_rules/main_workflow.smk) to see what each rule is doing in more detail.  
 
 ### What's a "build?"
 
 The components in this diagram **constitute a Nextstrain "build" -- i.e., a set of commands, parameters and input files which work together to reproducibly execute bioinformatic analyses and generate a JSON for visualization with auspice.** You can learn more about builds [here](https://nextstrain.org/docs/bioinformatics/what-is-a-build).
 
-Builds are particularly important if you frequently want to run several different analysis workflows or datasets. For example, if you wanted to run one analysis on just your data and another analysis that incorporates background / contextual sequences, you could configure two different _builds_ (one for each of these workflows). We'll cover this in more detail in the [configuration](XXX) section.
+Builds are particularly important if you frequently want to run several different analysis workflows or datasets. For example, if you wanted to run one analysis on just your data and another analysis that incorporates background / contextual sequences, you could configure two different _builds_ (one for each of these workflows). We'll cover this in more detail in the [basic build configuration](running.md) section.
 
 ## [Previous Section: Setup and installation](./docs/setup.md)
-## [Next Section: Orientation: which files should I touch?](./docs/orientation-files.md)
+## [Next Section: Orientation: which files should I touch?](orientation-files.md)

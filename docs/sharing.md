@@ -22,7 +22,7 @@ Doing so will enable you to color by any of the values in this extra metadata fi
 2. Add your sensitive metadata to the remaining columns  
 3. On your computer, drag and drop the file onto the browser window where Auspice is visualizing your JSON    
 
-_For more help formatting this metadata file, including how to do so using Excel, [see this page](XXX)_
+_For more help formatting this metadata file, including how to do so using Excel, [see this page](data-prep.md)_
 
 ---
 
@@ -47,6 +47,7 @@ When your browser connects to auspice.us, it downloads from the server a version
 
 
 ## Option 2: Nextstrain community pages  
+* **Example:** [CZBiohub's California COVID Tracker](https://nextstrain.org/community/czbiohub/covidtracker/ca)
 * **Advantages:** Fully featured, plug-and-play visualization of any JSON file hosted on Github.
 * **Limitations:** Only available for publicly viewable JSON files in public repositories.
 
@@ -58,7 +59,7 @@ Quickstart:
 2. Navigate to `https://nextstrain.org/community/myGithubOrganization/myRepository/myBuildName`
 3. [Optional] Drag and drop a TSV with additional or private metadata onto the page (see above)  
 
-Check out our [full guide to community pages here](XXX).
+Check out our [full guide to community pages here](https://nextstrain.org/docs/contributing/community-builds).
 
 #### Privacy and security  
 Community builds are visible to anyone with the URL.
@@ -72,7 +73,7 @@ Community builds are visible to anyone with the URL.
 
 #### How to view  
 
-1. Follow the instructions [here](XXX) to install Auspice on your computer.  
+1. Follow the instructions [here](https://nextstrain.github.io/auspice/introduction/install) to install Auspice on your computer.  
 2. Make sure the JSON you'd like to visualize is in `./auspice/<mybuildname>.json`; alternatively, pass the `--datasetDir` flag to specify another directory.  
 3. Run `auspice view` and select the build of interest.
 4. [Optional] drag and drop a TSV with additional or private metadata onto the page (see above)  
@@ -100,15 +101,14 @@ With Nextstrain Groups, you can choose whether each dataset is publicly viewable
 
 
 ## Option 5: Deploying your own Auspice server
-* **Example:** XXX
 * **Advantages:** Fully-featured Auspice instance, natively hosted on your own domain.  
 * **Limitations:** More technically involved, especially if user authentication is required.
 
 #### How to get started  
-[See our guide here](XXX)
+[See our guide here](https://nextstrain.github.io/auspice/server/introduction)
 
 #### Privacy and security  
 Independently hosted Auspice servers can be configured with any security protocols necessary.
 
-## [Previous Section: Orientation: Customizing your visualization](./docs/customizing-visualization.md)
-## [Next Section: Interpreting your results](./docs/interpretation.md)
+## [Previous Section: Orientation: Customizing your visualization](customizing-visualization.md)
+## [Next Section: Interpreting your results](interpretation.md)

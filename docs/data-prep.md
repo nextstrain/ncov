@@ -71,8 +71,8 @@ There is one important difference: if a discrete trait reconstruction (e.g. via 
 - **Not all fields are currently used**, but this may change in the future.
 - Data is **case sensitive**
 - The **"geographic" columns, such as "region" and "country" will be used to plot the samples on the map**.
-Adding a new value to these columns isn't a problem at all, but there are a few extra steps to take; see the [customization guide](XXX).
-- **You can color by any of these fields in the Auspice visualization**. Which exact columns are used, and which colours are used for each value is completely customisable; see the [customization guide](XXX).
+Adding a new value to these columns isn't a problem at all, but there are a few extra steps to take; see the [customization guide](customizing-analysis.md).
+- **You can color by any of these fields in the Auspice visualization**. Which exact columns are used, and which colours are used for each value is completely customisable; see the [customization guide](customizing-visualization.md).
 
 
 #### Formatting metadata in Excel  
@@ -106,7 +106,7 @@ You can concatenate these files with your own; make sure the TSV fields are in t
 
 ### Subsampling  
 
-We've outlined several methods for subsampling, including builds with a focus area + genetically similar contextual sequences, in the [next section](XXX).
+We've outlined several methods for subsampling, including builds with a focus area + genetically similar contextual sequences, in the [next section](running.md).
 
 ---
 
@@ -240,4 +240,4 @@ Date the genome was submitted to a public database (most often GISAID).
 In `YYYY-MM-DD` format (see `date` for more information on this formatting).
 
 
-## [Next Section: Setup and Installation](./docs/setup.md)
+## [Next Section: Setup and Installation](setup.md)

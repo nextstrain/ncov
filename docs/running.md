@@ -1,6 +1,6 @@
 # Running the analysis
 
->This section focuses on how to running the basic example build to give you a chance to practice and get a sense of how things work. The next section covers customizing and configuring your own build. 
+>This section focuses on how to running the basic example build to give you a chance to practice and get a sense of how things work. The next section covers customizing and configuring your own build.
 
 **To run our analyses, we need to:**  
 1. Ensure our **sequence data and metadata is [properly formatted](data-prep.md)**  
@@ -136,5 +136,5 @@ the pipeline will produce
 
 These files are meant to facilitate checking whether sequences in `config/exclude.txt` are excluded for valid reasons.
 
-## [Previous Section: Orientation: which files should I touch?](./docs/orientation-files.md)
-## [Next Section: Orientation: Customizing your analysis](./docs/customizing-analysis.md)
+## [Previous Section: Orientation: which files should I touch?](orientation-files.md)
+## [Next Section: Orientation: Customizing your analysis](customizing-analysis.md)

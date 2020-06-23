@@ -95,7 +95,7 @@ If you need parameters in a way that isn't represented by the configuration file
 
 ## Ancestral trait reconstruction  
 
-Trait reconstruction is the process by which augur infers the most likely metadata value of an internal node. For example, if an internal node (which always represents a hypothesized, ancestral virus / case) has 3 descendants, all of which were isolated in Washington State, we might infer that the ancestor was most likely also circulating in Washington State (see ["Interpretation"](XXX) for more).
+Trait reconstruction is the process by which augur infers the most likely metadata value of an internal node. For example, if an internal node (which always represents a hypothesized, ancestral virus / case) has 3 descendants, all of which were isolated in Washington State, we might infer that the ancestor was most likely also circulating in Washington State (see ["Interpretation"](interpretation.md) for more).
 
 For each build, you can specify which categorical metadata fields to use for trait reconstruction.
 
@@ -119,7 +119,7 @@ exposure:
 
 ## Labeling clades  
 
-We assign clade labels according to [this schema](XXX).  
+We assign clade labels according to [this schema](naming_clades.md).  
 
 Because the exact topology of the tree will vary across runs, clades are defined based on their unique mutations.
 These are specified in `default_config/clades.tsv` like so:
@@ -131,5 +131,5 @@ A1a	ORF3a	251	V
 A1a	ORF1a	3606	F
 ```  
 
-## [Previous Section: Orientation: Running & troubleshooting](./docs/running.md)
-## [Next Section: Orientation: Customizing your visualization](./docs/customizing-visualization.md)
+## [Previous Section: Orientation: Running & troubleshooting](running.md)
+## [Next Section: Orientation: Customizing your visualization](customizing-visualization.md)

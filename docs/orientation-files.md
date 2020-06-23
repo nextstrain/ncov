@@ -12,11 +12,11 @@ We'll walk through all of the files one by one, but here are the most important 
 
 |Category| Directory | File | Description | Configuration|  
 |-----|-----|-----|------|-----|
-|Input file|`./input_data/`|`sequences.fasta`|**Genomic sequences; IDs must match `strain` column in `metadata.tsv`**| See ['Preparing your data'](XXX)
-|Input file|`./input_data/`|`metadata.tsv`|**Tab-delimited description of strain (i.e., sample) attributes**|See ['Preparing your data'](XXX)|
+|Input file|`./input_data/`|`sequences.fasta`|**Genomic sequences; IDs must match `strain` column in `metadata.tsv`**| See ['Preparing your data'](data-prep.md)
+|Input file|`./input_data/`|`metadata.tsv`|**Tab-delimited description of strain (i.e., sample) attributes**|See ['Preparing your data'](data-prep.md)|
 |Output file|`./auspice/`|`buildName.json`|**Output file for visualization in auspice**||
-|Customizable workflow file|`./my_config/<mybuildname>/`|`builds.yaml`|**Specify and define all the builds you'd like to run**|See our [customization guide](XXX)|
-|Customizable workflow file|`./my_config/<mybuildname>/`|`config.yaml`|**Analysis configuration file; parameterize your analyses here**|See our [customization guide](XXX)|
+|Customizable workflow file|`./my_config/<mybuildname>/`|`builds.yaml`|**Specify and define all the builds you'd like to run**|See our [customization guide](customizing-analysis.md)|
+|Customizable workflow file|`./my_config/<mybuildname>/`|`config.yaml`|**Analysis configuration file; parameterize your analyses here**|See our [customization guide](customizing-analysis.md)|
 
 
 -----
@@ -24,11 +24,10 @@ We'll walk through all of the files one by one, but here are the most important 
 
 ## Input files  
 
-<!-- XXX make file names into links -->
 | Directory | File | Description | Configuration|  
 |-----|-----|-----|------|
-|`./input_data/`|`sequences.fasta`|**Genomic sequences; IDs must match `strain` column in `metadata.tsv`**| See ['Preparing your data'](XXX)
-|`./input_data/`|`metadata.tsv`|**Tab-delimited description of strain (i.e., sample) attributes**|See ['Preparing your data'](XXX)|
+|`./input_data/`|`sequences.fasta`|**Genomic sequences; IDs must match `strain` column in `metadata.tsv`**| See ['Preparing your data'](data-prep.md)
+|`./input_data/`|`metadata.tsv`|**Tab-delimited description of strain (i.e., sample) attributes**|See ['Preparing your data'](data-prep.md)|
 |`./default_config/`|`include.txt`| List of strain names to _include_ during subsampling and filtering | One strain name per line|  
 |`./default_config/`|`exclude.txt`|List of strain names to _exclude_ during subsampling and filtering|One strain name per line|
 
@@ -47,10 +46,10 @@ We'll walk through all of the files one by one, but here are the most important 
 
 | Directory | File | Description | Configuration |
 |-----|-----|-----|----|
-|`./my_config/<mybuildname>/builds.yaml`|**Specify and define all the builds you'd like to run**|See our [customization guide](XXX)|
-|`./my_config/<mybuildname>/config.yaml`|**Analysis configuration file; parameterize your analyses here**|See our [customization guide](XXX)|
+|`./my_config/<mybuildname>/builds.yaml`|**Specify and define all the builds you'd like to run**|See our [customization guide](customizing-analysis.md)|
+|`./my_config/<mybuildname>/config.yaml`|**Analysis configuration file; parameterize your analyses here**|See our [customization guide](customizing-analysis.md)|
 |`./default_config/`|`default_config.yaml`|**Default analysis configuration file**|Override these settings in `./my_config/.../config.yaml`|
-|`./default_config/`|`default_auspice_config.json`|**Default visualization configuration file**|Override these settings in `./my_config/.../auspice_config.yaml`|XXX|
+|`./default_config/`|`default_auspice_config.json`|**Default visualization configuration file**|Override these settings in `./my_config/.../auspice_config.yaml`|See our [customization guide](customizing-visualization.md)|
 
 
 ## Workflow configuration files we don't need to touch  
@@ -62,5 +61,5 @@ We'll walk through all of the files one by one, but here are the most important 
 |`./workflow/schemas/`|`config.schema.yaml`|Defines format (e.g., required fields and types) for  `config.yaml` files.|Useful reference, but no modification needed.|
 |`./scripts/`| `add_priorities_to_meta.py`, etc.| Helper scripts for common tasks | No modification needed |
 
-## [Previous Section: Orientation: analysis workflow](./docs/orientation-workflow.md)
-## [Next Section: Orientation: Running & troubleshooting](./docs/running.md)
+## [Previous Section: Orientation: analysis workflow](orientation-workflow.md)
+## [Next Section: Orientation: Running & troubleshooting](running.md)

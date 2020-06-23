@@ -23,5 +23,5 @@
 
 * Nextstrain situation reports: https://nextstrain.org/ncov-sit-reps/
 
-## [Previous Section: Options for visualizing and sharing results](./docs/sharing.md)
-## [Next Section: Writing a narrative](./docs/narratives.md)
+## [Previous Section: Options for visualizing and sharing results](sharing.md)
+## [Next Section: Writing a narrative](narratives.md)
