@@ -43,8 +43,8 @@ strain              virus  gisaid_epi_isl  genbank_accession   date        regio
 NewZealand/01/2020  ncov   EPI_ISL_413490  ?                   2020-02-27  Oceania  ...
 ```
 
-In total there are 23 columns of metadata for each genome; see the last section for an in-depth walkthrough.
-
+In total there are 23 columns of metadata for each genome; see the [last section](./docs/data-prep.md#appendix-in-depth-guide-to-the-standard-nextstrain-metadata-fields) for an in-depth walkthrough.
+_Someone please check the above link_
 
 #### Required metadata  
 A valid metadata file must include the following fields:  
@@ -52,9 +52,11 @@ A valid metadata file must include the following fields:
 | Field | Example value | Description | Formatting |  
 |---|---|---|---|
 |`strain` or `name`| `NewZealand/01/2020` | Sample name / ID | Each header in the fasta file must exactly match a `strain` value in the metadata. Characters `()[]{}|#><` are disallowed |
-|`date` | `2020-02-27`, `2020-02-XX` | Date of _sampling_ | `YYYY-MM-DD`; ambiguities can be indicated with `XX`|  
+|`date` | `2020-02-27`, `2020-02-XX`, `2020-XX-XX` | Date of _sampling_ | `YYYY-MM-DD`; ambiguities can be indicated with `XX`|  
 |`virus`|`ncov`|Pathogen name|Just needs to be consistent|
 |`region`|"Africa", "Asia", "Europe", "North America", "Oceania" or "South America"|Global region of _sampling_ ||
+
+Please be aware that our current pipeline will filter out any genomes with an unknown date - you can change this in your own pipeline.
 
 
 #### Missing metadata:
@@ -74,7 +76,9 @@ Adding a new value to these columns isn't a problem at all, but there are a few 
 
 
 #### Formatting metadata in Excel  
-You can also create a TSV file in Excel.  
+You can also create a TSV file in Excel. 
+However, due to issues with auto-formatting of certain fields in Excel (like dates), we don't recommend this as a first option.
+If you do edit a file in Excel, open it afterwards in a text-editor to check it looks as it should!
 1. Create a spreadsheet where each row is a sample, and each column is a metadata field  
 2. Ensure your spreadsheet meets the requirements outlined above. Pay special attention to date formats; see [this guide to date formatting in Excel](https://support.microsoft.com/en-us/office/format-a-date-the-way-you-want-8e10019e-d5d8-47a1-ba95-db95123d273e?ui=en-us&rs=en-us&ad=us).  
 3. Click on `File > Save as`
@@ -234,3 +238,6 @@ The URL, if available, of the publication announcing these genomes.
 
 Date the genome was submitted to a public database (most often GISAID).
 In `YYYY-MM-DD` format (see `date` for more information on this formatting).
+
+
+## [Next Section: Setup and Intallation](./docs/setup.md)
