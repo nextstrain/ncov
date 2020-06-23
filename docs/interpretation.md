@@ -25,3 +25,6 @@ In the meantime, we recommend the following resources to get started.
 * Australia cluster detection: https://www.medrxiv.org/content/10.1101/2020.05.12.20099929v1
 
 * Nextstrain situation reports: https://nextstrain.org/ncov-sit-reps/
+
+## [Previous Section: Options for visualizing and sharing results](./docs/sharing.md)
+## [Next Section: Writing a narrative](./docs/narratives.md)

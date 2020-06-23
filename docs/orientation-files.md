@@ -49,3 +49,6 @@ We'll walk through these one by one; **the 5 most important files are bolded**.
 |`./envs/`|`nextstrain.yaml`|Specifies computing environment needed to run workflow with the `--use-conda` flag|No modification needed|
 |`./schemas/`|`config.schema.yaml`|Defines format (e.g., required fields and types) for  `config.yaml` files.|Useful reference, but no modification needed.|
 |`./scripts/`| `add_priorities_to_meta.py`, etc.| Helper scripts for common tasks | No modification needed |
+
+## [Previous Section: Orientation: analysis workflow](./docs/orientation-workflow.md)
+## [Next Section: Orientation: Running & troubleshooting](./docs/running.md)

@@ -161,3 +161,6 @@ To run this, one would call the following from within `ncov`:
 ```bash
 ncov$ snakemake --profile ../south-usa-sarscov2/profiles/south-central/
 ```
+
+## [Previous Section: Orientation: Running & troubleshooting](./docs/running.md)
+## [Next Section: Orientation: Customizing your visualization](./docs/customizing-visualization.md)

@@ -108,3 +108,6 @@ Community builds are visible to anyone with the URL.
 
 #### Privacy and security  
 Independently hosted Auspice servers can be configured with any security protocols necessary.
+
+## [Previous Section: Orientation: Customizing your visualization](./docs/customizing-visualization.md)
+## [Next Section: Interpreting your results](./docs/interpretation.md)

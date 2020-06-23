@@ -26,3 +26,6 @@ If you are running Windows, we recommend working through Windows Subsystem for L
 ## 3. Install auspice [required only for local visualization; web-based, no-install options available]
 
 You can find instructions for installing auspice [here](https://nextstrain.github.io/auspice/introduction/install).
+
+## [Previous Section: Preparing your data](./docs/data-prep.md)
+## [Next Section: Orientation: analysis workflow](./docs/orientation-workflow.md)

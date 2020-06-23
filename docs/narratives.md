@@ -9,3 +9,5 @@ We've also [provided a template narrative file](XXX) for you to edit.
 You can preview the template narrative by navigating to [https://nextstrain.org/community/narratives/nextstrain/sarscov2-tutorial/template](XXX).
 
 We'll add more to this page soon; in the meantime, if you get stuck, don't hesitate to [ask for help](README.md#Help)! :)
+
+## [Previous Section: Interpreting your results](./docs/interpretation.md)

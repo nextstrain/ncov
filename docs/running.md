@@ -146,3 +146,6 @@ the pipeline will produce
  * `results/check-exclusion.txt`
 
 These files are meant to facilitate checking whether sequences in `config/exclude.txt` are excluded for valid reasons.
+
+## [Previous Section: Orientation: which files should I touch?](./docs/orientation-files.md)
+## [Next Section: Orientation: Customizing your analysis](./docs/customizing-analysis.md)
