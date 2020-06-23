@@ -5,50 +5,37 @@
 # geographic scale the build focuses on. Together name and scale serve a look-up
 # in the geo_hierarchy to define region, country, division, etc
 builds:
+  # first we'll define a country-level build, focused on Switzerland.
+  # we'll define the sampling schemes below
   switzerland:
-    subsampling_scheme: switzerland
-    geographic_scale: country
+    subsampling_scheme: switzerland # <- use the 'switzerland' sampling scheme
+    geographic_scale: country # <- country level build
     region: Europe
     country: Switzerland
+  # now we'll have 2 division-level builds, for 'cantons' (states) in Switzerland
   basel-stadt:
-    subsampling_scheme: canton
-    geographic_scale: division
+    subsampling_scheme: canton # <- use the 'canton' sampling scheme
+    geographic_scale: division # <- division level build
     region: Europe
     country: Switzerland
     division: Basel-Stadt
-  basel-land:
-    subsampling_scheme: canton
-    geographic_scale: division
-    region: Europe
-    country: Switzerland
-    division: Basel-Land
   geneva:
     subsampling_scheme: canton
     geographic_scale: division
     region: Europe
     country: Switzerland
     division: Geneva
-  vaud:
-    subsampling_scheme: canton
-    geographic_scale: division
-    region: Europe
-    country: Switzerland
-    division: Vaud
-  ticino:
-    subsampling_scheme: canton
-    geographic_scale: division
-    region: Europe
-    country: Switzerland
-    division: Ticino
+  # Finally we'll have build that involves multiple cantons (divisions) in a region around
+  # a lake in Switzerland
   lac-leman:
-    subsampling_scheme: lac-leman
-    geographic_scale: division
+    subsampling_scheme: lac-leman # <- this is a specialised build (see below)
+    geographic_scale: division # <- 
     region: Europe
     country: Switzerland
     division: Lac Leman
 
 subsampling:
-  # Default subsampling logic for countries
+  # Here we use the default subsampling logic for countries
   switzerland:
     # Focal samples for country
     country:
@@ -73,7 +60,8 @@ subsampling:
         type: "proximity"
         focus: "country"
 
-  # Default subsampling logic for divisions
+  # Here we use the default subsampling logic for divisions
+  # This is used for both canton builds: Basel-Stadt & Geneva
   canton:
     # Focal samples for division
     division:
@@ -106,7 +94,10 @@ subsampling:
         type: "proximity"
         focus: "division"
 
+  # This build will take from 3 cantons - we have a sample rule for each,
+  # rather than just one division that's focal build 
   lac-leman:
+    # focal samples
     geneva:
       group_by: "year month"
       seq_per_group: 300
@@ -144,6 +135,9 @@ subsampling:
         type: "proximity"
         focus: "country"
 
+# Here we can specify the colors file & auspice_config to be used for all of the
+# above builds - unless otherwise specified in the builds above!
+# If you don't specify these, the files in `default_config` folder will be used
 files:
   colors: "profiles/swiss/colors.tsv"
   auspice_config: "profiles/swiss/auspice_config_swiss.json"
