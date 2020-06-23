@@ -1,6 +1,6 @@
 # About  
 
-This repository analyzes viral genomes using [Nextstrain](https://nextstrain.org) to understand how SARS-CoV-2 is evolves and spreads.
+This repository analyzes viral genomes using [Nextstrain](https://nextstrain.org) to understand how SARS-CoV-2, the virus that is responsible for the COVID-19 pandemic, evolves and spreads.
 
 We maintain a number of publicly-available builds, visible at [nextstrain.org/ncov](https://nextstrain.org/ncov).
 
@@ -9,17 +9,17 @@ We maintain a number of publicly-available builds, visible at [nextstrain.org/nc
 
 ### Use Nextstrain to analyze your SARS-CoV-2 data  
 
-[**We've written a comprehensive guide to get you up and running in <1 hr. This covers:**](XXX)  
-* **Preparing your data**  
-* **Setup and installation**  
-* **Orientation: analysis workflow**  
-* **Orientation: which files should I touch?**  
-* **Running & troubleshooting**   
-* **Customizing your analysis**  
-* **Customizing your visualization**
-* **Options for visualizing and sharing results** (including working with sensitive metadata)  
-* **Interpreting your results**  
-* **Writing a narrative to highlight key findings**  
+**We've written a comprehensive guide to get you up and running in <1 hr. Click on the below links to follow it. It covers:**
+* [**Preparing your data**](./docs/data-prep.md) _(Start here)_
+* [**Setup and installation**](./docs/setup.md)
+* [**Orientation: analysis workflow**](.docs/orientation-workflow.md)
+* [**Orientation: which files should I touch?**](.docs/orientation-files.md)
+* [**Running & troubleshooting**](.docs/running.md)
+* [**Customizing your analysis**](.docs/customizing-analysis.md)
+* [**Customizing your visualization**](.docs/customizing-visualization.md)
+* [**Options for visualizing and sharing results**](.docs/sharing.md) (including working with sensitive metadata)  
+* [**Interpreting your results**](.docs/interpretation.md)
+* [**Writing a narrative to highlight key findings**](.docs/narratives.md)
 
 
 ### Download formatted datasets  
@@ -36,6 +36,10 @@ We issued weekly Situation Reports for the first ~5 months of the pandemic. You 
 
 - Can't find your sequences in Nextstrain? Check [here](./docs/data_faq.md) for common reasons why your sequences may not be appearing.
 - For information about how clades are defined, and the currently named clades, please see [here](./contributor_docs/clades.md).
+
+### Bioinformatics notes
+
+Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of [8 &times; 10^-4 subs per site per year](http://virological.org/t/phylodynamic-analysis-176-genomes-6-mar-2020/356). There were SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts.
 
 ---
 
