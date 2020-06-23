@@ -46,7 +46,7 @@ We'll walk through these one by one; **the 5 most important files are bolded**.
 |-----|-----|-----|-----|
 |`./`|`Snakefile`|Entry point for `snakemake` commands; validates input.|No modification needed|
 |`./rules/`|`builds.smk`|Defines rules for running each step in the analysis|Modify your `config` file, rather than hardcode changes into the snakemake file itself|
-|`./envs/`|`nextstrain.yaml`|Specifies computing environment needed to run workflow with the `--use-conda` flag|No modification needed|
+|`./workflow/envs/`|`nextstrain.yaml`|Specifies computing environment needed to run workflow with the `--use-conda` flag|No modification needed|
 |`./schemas/`|`config.schema.yaml`|Defines format (e.g., required fields and types) for  `config.yaml` files.|Useful reference, but no modification needed.|
 |`./scripts/`| `add_priorities_to_meta.py`, etc.| Helper scripts for common tasks | No modification needed |
 
