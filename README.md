@@ -10,7 +10,8 @@ We maintain a number of publicly-available builds, visible at [nextstrain.org/nc
 ### Use Nextstrain to analyze your SARS-CoV-2 data  
 
 **We've written a comprehensive guide to get you up and running in <1 hr. Click on the below links to follow it. It covers:**
-1. [**Preparing your data**](./docs/data-prep.md) _(Start here)_
+0. [**Introduction and quickstart**](./docs/index.md) _(Start here)_
+1. [**Preparing your data**](./docs/data-prep.md)
 2. [**Setup and installation**](./docs/setup.md)
 3. [**Orientation: analysis workflow**](.docs/orientation-workflow.md)
 4. [**Orientation: which files should I touch?**](.docs/orientation-files.md)

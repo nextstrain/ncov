@@ -65,7 +65,7 @@ If you'd like to run a dryrun, try running with the `-np` flag, which will execu
 
 ## Step 4: Troubleshoot common issues
 
-If you have a question which is not addressed here, please don't hestitate to [ask for help](XXX)
+If you have a question which is not addressed here, please don't hestitate to [ask for help](index.md#Help)
 
 
 #### My country / division does not show up on the map
