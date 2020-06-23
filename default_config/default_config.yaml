@@ -4,7 +4,7 @@
 # or --configfile options.
 ---
 # conda environment file to use by default
-conda_environment: "../workflow/envs/nextstrain.yaml"
+conda_environment: "../envs/nextstrain.yaml"
 
 # S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
 s3_staging_url: s3://nextstrain-staging
