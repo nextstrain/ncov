@@ -1,7 +1,7 @@
 configfile:
   - default_config/default_config.yaml
   - profiles/swiss/builds.yaml
-  - profiles/nextstrain-scicore/scicore-config.yaml
+  - nextstrain_analyses/nextstrain-scicore/scicore-config.yaml
 
 keep-going: True
 printshellcmds: True
@@ -17,13 +17,13 @@ latency-wait: 60
 # "partition". Jobs submitted to the "restart" partition will start running
 # almost immediately, but they may also be killed at any moment when someone
 # else needs those resources. This is analogous to the spot resources on AWS.
-cluster-config: profiles/nextstrain-scicore/cluster.json
+cluster-config: nextstrain_analyses/nextstrain-scicore/cluster.json
 
 cluster: "sbatch --time={cluster.time} --mem={cluster.mem} --cpus-per-task={cluster.n} --qos={cluster.qos}"
 
 jobs: 128
 
-jobscript: profiles/nextstrain-scicore/submit.sh
+jobscript: nextstrain_analyses/nextstrain-scicore/submit.sh
 
 # Set the name for the job as display in the cluster queue.
 jobname: "{rulename}.{jobid}.sh"

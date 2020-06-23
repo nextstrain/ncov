@@ -1,6 +1,6 @@
 configfile:
   - default_config/default_config.yaml
-  - profiles/nextstrain/builds.yaml
+  - nextstrain_analyses/nextstrain/builds.yaml
 
 cores: 8
 keep-going: True

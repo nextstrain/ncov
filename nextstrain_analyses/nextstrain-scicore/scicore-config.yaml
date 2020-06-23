@@ -1,0 +1,2 @@
+
+localrules: "nextstrain_analyses/nextstrain-scicore/localrules.smk"
