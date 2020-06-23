@@ -563,6 +563,7 @@ SouthAfrica/Tygerberg_50/2020
 # Bat and pangolin relatives, too divergent to be included here
 bat/Yunnan/RaTG13/2013
 pangolin/Guangdong/SM44-9/2019
+pangolin/Guangdong/SM79-9/2019
 pangolin/Guandong/1/2020
 pangolin/Guangdong/1/2019
 pangolin/Guangdong/P2S/2019
