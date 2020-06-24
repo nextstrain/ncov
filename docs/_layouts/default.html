@@ -14,10 +14,10 @@
   <body>
     <div class="wrapper">
       <header>
-        <h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
+        <h2><img src="{{site.logo | relative_url}}" alt="Nextstrain logo" width=40/>
+        <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Nextstrain logo" width=150/>
         {% endif %}
 
         <p>
@@ -43,7 +43,6 @@
         </ul>
 
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
         <p><a href="https://discussion.nextstrain.org">Stuck? Ask us on the discussion board. We're happy to help!</a></p>
       </header>
       <section>
