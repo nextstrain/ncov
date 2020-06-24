@@ -13,7 +13,7 @@
 
 builds:
   # Focus on King County (location) in Washington State (division) in the USA (country)
-  usa_washington_king-county: # name of the build; this can be anything
+  my_king_county_build: # name of the build; this can be anything
     subsampling_scheme: location # what subsampling method to use (see default_config.yaml)
     region: North America
     country: USA
@@ -21,23 +21,23 @@ builds:
     location: King County
 
   # Zoom out one level: this build focuses on all of Washington State
-  usa_washington:
+  my_washington_state_build:
     subsampling_scheme: division # we named the subsampling scheme meant for divisions accordingly; you can rename these whatever you'd like
     region: North America
     country: USA
     division: Washington
 
   # Focus on the entire U.S.
-  usa:
+  my_usa_build:
     subsampling_scheme: country
     region: North America
     country: USA
 
   # Focus on all of North America
-  north_america:
+  my_north_america_build:
     subsampling_scheme: region
     region: North America
 
   # Sample evenly from the globe
-  global:
+  my_global_build:
     subsampling_scheme: region_global
