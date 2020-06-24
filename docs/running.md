@@ -27,7 +27,7 @@ The first block of the provided `build.yaml` file looks like this:
 # build focusing on King County (location) in Washington State (division) in the USA (country)
 
 builds:
-  usa_washington_king-county: # name of the build
+  my_king_county_build: # name of the build
     subsampling_scheme: location # what subsampling method to use (see default_config.yaml)
     region: North America
     country: USA
