@@ -131,5 +131,5 @@ subsampling:
 # above builds - unless otherwise specified in the builds above!
 # If you don't specify these, the files in `default_config` folder will be used
 files:
-  colors: "profiles/swiss/colors.tsv"
-  auspice_config: "profiles/swiss/auspice_config_swiss.json"
+  colors: "my_config/example_advanced_customization/colors.tsv"
+  auspice_config: "my_config/example_advanced_customization/auspice_config_swiss.json"
