@@ -65,6 +65,9 @@ location	Ahmedabad
 location	Uttara
 location	Gulshan
 location	Mirpur
+location	Shailokupa
+location	Kalia
+location	Sador
 location	Mohammadpur
 location	Agargaon
 location	Surat
@@ -85,6 +88,12 @@ location	Junagadh
 location	Manado
 location	Samarinda
 location	Jamnagar
+location	Savli
+location	Palanpur
+location	Bharuch
+location	Kheda
+location	Mandvi
+location	Bhuj
 location	Mandsaur
 location	Neemach
 location	Burhanpur
@@ -608,7 +617,7 @@ location	Pulianas
 location	Riopar
 location	San Clemente
 location	Socuellamos
-location	Tafzona
+location	Tazona
 location	Tobarra
 location	Ubeda
 location	Vegas del Genil
@@ -1007,7 +1016,6 @@ location	Lanaudière
 
 
 
-
 division	Mongolia
 division	China
 division	Hubei
@@ -1091,6 +1099,9 @@ division	Tehran
 division	Semnan
 division	Doha
 division	Dhaka
+division	Jhenaidha
+division	Narail
+division	Bagherhat
 division	Kuwait
 division	Amman
 division	Irbid
@@ -1197,6 +1208,7 @@ division	Raanana
 division	Ramla
 division	Yehud
 division	Kfar Habad
+division	Kfar Saba
 division	Kiryat Ono
 division	Elad
 division	Elkana
@@ -1359,6 +1371,8 @@ division	Andalusia
 division	Asturias
 division	Navarra
 division	Catalunya
+division	Murcia
+division	Donostia-San Sebatian
 division	Castilla y Leon
 division	Barcelona
 division	Galicia
@@ -1507,6 +1521,7 @@ division	Småland
 division	Vasterbotten
 division	Vasternorrland
 division	Halland
+division	Jamtland Harjedalen
 division	Czech Republic
 division	Jihlava
 division	Sweden

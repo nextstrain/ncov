@@ -101,6 +101,8 @@ location	Bevel	51.137253	4.680380
 location	Bevere	51.248887	4.235716
 location	Beveren	51.244589	4.229537
 location	Beverst	50.889411	5.475428
+location	Bharuch	21.720731	72.999163
+location	Bhuj	23.247885	69.666857
 location	Bienville Parish	32.340169	-93.050187
 location	Bierbeek	50.836502	4.771272
 location	Bierset	50.656953	5.454009
@@ -448,6 +450,7 @@ location	Juvisy-sur-Orge	48.690609	2.377581
 location	Jönköping	57.777979	14.160453
 location	Kadi	23.294922	72.333046
 location	Kaggevinne	50.980233	5.021191
+location	Kalia	23.037114	89.641357
 location	Kain	50.637121	3.379162
 location	Kalisz	51.743335	18.073619
 location	Kalken	51.037676	3.917157
@@ -464,6 +467,7 @@ location	Keqiao	30.0819	120.4951
 location	Kermt	50.946857	5.247189
 location	Kessel-Lo	50.8851	4.7357
 location	Ketchikan	55.346882	-131.655301
+location	Kheda	22.749950	72.686465
 location	Khedbrahma	24.0291	73.0435
 location	King County	47.449221	-121.864246
 location	Kipen	59.6739	29.8498
@@ -544,6 +548,7 @@ location	Manacor	39.5697	3.2095
 location	Manado	1.487271	124.842838
 location	Manaus	-3.126424	-60.019807
 location	Mandsaur	24.077683	75.067604
+location	Mandvi	21.254369	73.303536
 location	Manhattan	40.778542	-73.969920
 location	Manizales	5.058776	-75.498753
 location	Maracena	37.2079	-3.6329
@@ -668,6 +673,7 @@ location	Overpelt	51.219149	5.383722
 location	Paal	51.031859	5.166158
 location	Pacho	5.135952	-74.156902
 location	Padrón	42.7381	-8.6608
+location	Palanpur	24.173368	72.432000
 location	Palma	39.5696	2.6502
 location	Palma de Gandia	38.9251	-0.2215
 location	Palma de Mallorca	39.577847	2.650605
@@ -752,6 +758,7 @@ location	Rouen	49.4432	1.1000
 location	Rovaniemi	66.501553	25.728919
 location	Sabaneta	6.151838	-75.616992
 location	Sacramento County	38.494406	-121.301826
+location	Sador	22.693161	89.775469
 location	Sagunt	39.6801	-0.2784
 location	Saint Germain en Laye	48.938032	2.094734
 location	Saint-Ghislain	50.483208	3.802415
@@ -786,6 +793,7 @@ location	Sao Bernardo do Campo	-23.735551	-46.563349
 location	Sao Paulo	-23.551096	-46.634874
 location	Saratoga County	43.0324	-73.9360
 location	Saukville	43.3817	-87.9406
+location	Savli	22.560712	73.223754
 location	Schenectady County	42.822882	-74.053939
 location	Scherpenheuvel-Zichem	50.997795	4.967443
 location	Schoten	51.2498	4.4977
@@ -798,6 +806,7 @@ location	Seoul	37.548278	126.990916
 location	Seraing	50.591687	5.516066
 location	Sevilla	37.379170	-5.983557
 location	Seymour	41.396164	-73.072024
+location	Shailokupa	23.685593	89.242822
 location	Shanghai	31.171447	121.429896
 location	Shangrao	28.4549	117.9434
 location	Shangyu	30.0331	120.8681
@@ -1008,6 +1017,7 @@ location	Mansa	23.428814	72.656249
 
 
 
+
 division	Aalst	50.939656	4.064173
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
@@ -1055,6 +1065,7 @@ division	Austria	47.5162	14.5501
 division	Auvergne Rhone Alpes	45.126511	5.480724
 division	Auvergne-Rhône-Alpes	45.4471	4.3853
 division	Baden-Wuerttemberg	48.712618	9.13403
+division	Bagherhat	22.655249	89.774093
 division	Bahia	-12.5797	-41.7007
 division	Balassagyarmat	48.0712	19.2937
 division	Balatonfured	46.9599	17.8851
@@ -1181,6 +1192,7 @@ division	Dinant	50.239336	4.939426
 division	Distrito Federal	-15.7998	-47.8645
 division	Doha	25.270283	51.52297
 division	Dolnoslaskie	51.122543	16.404924
+division	Donostia-San Sebatian	43.306272	-1.979035
 division	Drenthe	52.846963	6.608915
 division	Dublin	53.3431	-6.262191
 division	Dubrovnik	42.651307	18.102801
@@ -1291,9 +1303,11 @@ division	Jalisco	20.422362	-103.793697
 division	Jamaica	18.1096	-77.2975
 division	Jammu	32.7266	74.8570
 division	Jamtland	63.1712	14.9592
+division	Jamtland Harjedalen	62.162882	13.755564
 division	Japan	35.68536	139.75309
 division	Jeddah	21.4858	39.1925
 division	Jerusalem District	31.7648	34.9948
+division	Jhenaidha	23.547692	89.175424
 division	Jiangsu	33.077761	119.825116
 division	Jiangxi	27.458973	115.535326
 division	Jihlava	49.3984	15.5870
@@ -1319,10 +1333,12 @@ division	Kentucky	37.649540	-85.450190
 division	Kenya	0.0236	37.9062
 division	Kerala	10.359825	76.39955
 division	Kfar Habad	31.9901	34.8491
+division	Kfar Saba	32.180607	34.912861
 division	Khabarovsk Region	50.5888	135
 division	Khyber Pakhtunkhwa	33.696621	72.636031
 division	Kinshasa	-4.2978	15.2962
 division	Kiryat Gat	31.6111	34.7685
+division	Kiryat Ono	32.059259	34.859216
 division	Kocaeli	40.886367	29.905212
 division	Kochi	33.518628	133.505674
 division	Kombo	13.294035	-16.656832
@@ -1423,6 +1439,7 @@ division	Myanmar	20.600856	96.287616
 division	Nakhonnayok	14.180467	101.096533
 division	Namur	50.457215	4.879493
 division	Nara	34.371026	135.887389
+division	Narail	23.175281	89.504017
 division	Narayanganj	23.619169	90.500837
 division	Narino	1.592142	-77.851790
 division	Navarra	42.687776	-1.645699
@@ -1536,6 +1553,7 @@ division	Queretaro	20.5888	-100.3899
 division	Quindio	4.477059	-75.690565
 division	Quintana Roo	19.642598	-88.040442
 division	Quito	-0.18126	-78.4599
+division	Raanana	32.189052	34.868626
 division	Rabat	33.976469	-6.843796
 division	Rajasthan	26.498229	73.881085
 division	Ramat Gan	32.0684	34.
