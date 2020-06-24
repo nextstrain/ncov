@@ -46,10 +46,10 @@ We'll walk through all of the files one by one, but here are the most important 
 
 | Directory | File | Description | Configuration |
 |-----|-----|-----|----|
-|`./my_config/<mybuildname>/builds.yaml`|**Specify and define all the builds you'd like to run**|See our [customization guide](customizing-analysis.md)|
-|`./my_config/<mybuildname>/config.yaml`|**Analysis configuration file; parameterize your analyses here**|See our [customization guide](customizing-analysis.md)|
-|`./default_config/`|`default_config.yaml`|**Default analysis configuration file**|Override these settings in `./my_config/.../config.yaml`|
-|`./default_config/`|`default_auspice_config.json`|**Default visualization configuration file**|Override these settings in `./my_config/.../auspice_config.yaml`|
+|`./my_config/<mybuildname>/`|`builds.yaml`|**Specify and define all the builds you'd like to run**|See our [customization guide](customizing-analysis.md)|
+|`./my_config/<mybuildname>/`|`config.yaml`|**Analysis configuration file; parameterize your analyses here**|See our [customization guide](customizing-analysis.md)|
+|`./default_config/`|`default_config.yaml`|**Default analysis configuration file**|Override in `./my_config/.../config.yaml`|
+|`./default_config/`|`default_auspice_config.json`|**Default visualization configuration file**|Override in `./my_config/.../auspice_config.yaml`|
 
 
 ## Workflow configuration files we don't need to touch  
