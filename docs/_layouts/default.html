@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2><img src="{{site.logo | relative_url}}" alt="Nextstrain logo" width=40 float="left"/>
+        <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
+
+        {% if site.logo %}
+        {% endif %}
+
+        <p>
+          <h3>Analysis</h3>
+          <a href="https://nextstrain.github.io/ncov/data-prep.md">1. Preparing your data</a><br>
+          <a href="https://nextstrain.github.io/ncov/setup.md">2. Set up and installation</a><br>
+          <a href="https://nextstrain.github.io/ncov/orientation-analysis.md">3. Orientation: analysis workflow</a><br>
+          <a href="https://nextstrain.github.io/ncov/orientation-files.md">4. Orientation: which files should I touch?</a><br>
+          <a href="https://nextstrain.github.io/ncov/running.md">5. Running & troubleshooting</a><br>
+          <a href="https://nextstrain.github.io/ncov/customizing-analysis.md">6. Customizing your analysis</a><br>
+          <a href="https://nextstrain.github.io/ncov/customizing-visualization.md">7. Customizing your visualization</a><br>
+        </p><p>
+          <h3>Visualization & interpretation</h3>
+          <a href="https://nextstrain.github.io/ncov/sharing.md">8. Options for visualizing and sharing results</a><br>
+          <a href="https://nextstrain.github.io/ncov/interpretation.md">9. Interpreting your results</a><br>
+          <a href="https://nextstrain.github.io/ncov/narratives.md">10. Writing a narrative to highlight key findings</a><br>
+        </p>
+
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+        </ul>
+        <p><h4><a href="https://discussion.nextstrain.org">Stuck? Ask us on the discussion board. We're happy to help!</a></h4></p>
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>
