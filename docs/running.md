@@ -29,7 +29,6 @@ The first block of the provided `build.yaml` file looks like this:
 builds:
   usa_washington_king-county: # name of the build
     subsampling_scheme: location # what subsampling method to use (see default_config.yaml)
-    geographic_scale: location # our focal area is a 'location' (e.g., county or city)
     region: North America
     country: USA
     division: Washington
@@ -38,9 +37,7 @@ builds:
 Looking at this example, we can see that each build has a:  
 - `build_name`, which is used for naming output files  
 - `subsampling_scheme`, which specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes [can be defined](###).
-- `geographic_scale` specifies whether the focal area is a `location`, `division`, `country` or `region`.  
-- `geographic_name` the name of the focal area; if not provided, defaults to the `build_name`  
-- `region`, `country`, and `division`: specify the location of the sample, down to the specified `geographic_scale`.
+- `region`, `country`, `division`, `location`: specify geographic attributes of the sample used for subsampling
 
 The rest of the builds defined in this file serve as examples for division-, country- or region-focused analyses.
 
