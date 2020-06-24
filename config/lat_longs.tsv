@@ -1002,6 +1002,7 @@ division	Arges	45.060683	24.903263
 division	Arizona	34.220707	-111.657462
 division	Arkansas	35.2010	-91.8318
 division	Asia	30.451098	86.654576
+division	Ashdod	31.8044	34.6553
 division	Assam	26.2006	92.9376
 division	Asturias	43.317041	-6.006428
 division	Ath	50.646122	3.770363
@@ -1026,15 +1027,18 @@ division	Barcelona	41.394769	2.173828
 division	Basel-Land	47.493316	7.714938
 division	Basel-Stadt	47.557238	7.595666
 division	Basilicata	40.447062	16.081705
-division	Basque Country	42.9896	-2.6189
+division	Basque Country	42.9896	-2.
+division	Bat Yam	32.0132	34.7480
 division	Bavaria	48.1382614	11.5845093
 division	Bay of Plenty	-38.216044	176.783577
 division	Beijing	40.07132	116.406908
 division	Beirut	33.8938	35.5018
+division	Beit Shemesh	31.7470	34.9881
 division	Bekesszentandras	46.8716	20.4834
 division	Belarus	53	28
 division	Belgium	50.707735	4.677726
 division	Ben Arous	36.747441	10.234475
+division	Beni Brak	32.0849	34.8352
 division	Bern	46.855135	7.570549
 division	Bihac	44.8120	15.8686
 division	Bihar	25.0961	85.3131
@@ -1147,6 +1151,8 @@ division	Eastern Cape	-32.344458	26.497832
 division	Ecuador	-1.3397667	-79.3666964
 division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
+division	Elad	32.0495	34.9507
+division	Elkana	32.1106	35.0321
 division	Emilia-Romagna	44.641437	11.119072
 division	England	52.405994	-1.671707
 division	Eskisehir	39.773703	30.518708
@@ -1165,8 +1171,10 @@ division	Friuli Venezia Giulia	46.2259	13.1034
 division	Fujian	26.284852	118.122938
 division	Galicia	42.5751	-8.1339
 division	Gambia	13.5	-15.5
+division	Gani Tikva	32.06111	34.87444
 division	Gauteng	-26.199815	28.110057
 division	Gavleborgs Lan	61.514766	16.400925
+division	Gedera	31.8123	34.7770
 division	Gelderland	52.042091	6.01486
 division	Geneva	46.216038	6.136984
 division	Gent	51.04154	3.697961
@@ -1194,6 +1202,7 @@ division	Guayas	-1.9575	-79.9193
 division	Guerrero	17.463444	-99.792052
 division	Gujarat	22.2587	71.1924
 division	Gyeonggi	37.397957	127.380864
+division	Haifa	32.7940	34.9896
 division	Halland	56.964727	12.796906
 division	Halle-Vilvoorde	50.927353	4.424742
 division	Hangzhou	30.2741	120.1551
@@ -1209,10 +1218,12 @@ division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
 division	Heredia	9.997549	-84.121162
 division	Ho Chi Minh City	10.790417	106.653985
+division	Holon	32.0158	34.7874
 division	Hong Kong	22.3964	114.1095
 division	Huasco	-28.467340	-71.221674
 division	Hubei	31.095477	112.676644
 division	Huila	2.545605	-75.524024
+division	Hukuk	32.8798972	35.4958000
 division	Hungary	47	20
 division	Huy	50.510704	5.209278
 division	Iceland	64.9841821	-18.1059012
@@ -1267,9 +1278,11 @@ division	Keelung	25.1276	121.7392
 division	Kentucky	37.649540	-85.450190
 division	Kenya	0.0236	37.9062
 division	Kerala	10.359825	76.39955
+division	Kfar Habad	31.9901	34.8491
 division	Khabarovsk Region	50.5888	135
 division	Khyber Pakhtunkhwa	33.696621	72.636031
 division	Kinshasa	-4.2978	15.2962
+division	Kiryat Gat	31.6111	34.7685
 division	Kocaeli	40.886367	29.905212
 division	Kochi	33.518628	133.505674
 division	Kombo	13.294035	-16.656832
@@ -1315,6 +1328,7 @@ division	Louisiana	30.9843	-91.9623
 division	Louth	53.9508	-6.5406
 division	Lucerne	47.0502	8.3093
 division	Luxembourg	49.755428	6.119486
+division	Maalot Tarshicha	33.0150	35.2760
 division	Maaseik	51.104005	5.714000
 division	Madhya Pradesh	22.9734	78.6569
 division	Madinah	24.5247	39.5692
@@ -1364,6 +1378,7 @@ division	Mpumalanga	-25.5653	30.5279
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
 division	Muscat	23.580244	58.362707
+division	Murcia	37.9922	-1.1307
 division	Myanmar	20.600856	96.287616
 division	Nakhonnayok	14.180467	101.096533
 division	Namur	50.457215	4.879493
@@ -1374,7 +1389,9 @@ division	Navarra	42.687776	-1.645699
 division	Nebraska	41.4925	-99.9018
 division	Nelson Marlborough	-41.436949	173.142614
 division	Nepal	28	84
+division	Netanya	32.3215	34.8532
 division	Netherlands	52.1326	5.2913
+division	Netivot	31.4232	34.5953
 division	Nevada	38.8026	-116.4194
 division	Nevsehir	38.767304	34.698996
 division	New Brunswick	46.57077	-66.308191
@@ -1442,6 +1459,7 @@ division	Panama	8.3096067	-81.3066245
 division	Panama City	8.98333	-79.5166
 division	Para	-4.281398	-52.582417
 division	Parana	-25.2521	-52.0215
+division	Pardesia	32.3050	34.9117
 division	Pasuruan	-7.6469	112.8999
 division	Pathum Thani	14.018153	100.723973
 division	Pays de la Loire	47.640237	-0.647258
@@ -1449,6 +1467,7 @@ division	Pennsylvania	41.2033	-77.1945
 division	Perm Region	58.017794	56.311058
 division	Pernambuco	-8.8137	-36.9541
 division	Peru	-10	-75.25
+division	Petah Tikva	32.0840	34.8878
 division	Philippeville	50.178836	4.592270
 division	Philippines	12.8797	121.774
 division	Phuket	7.959471	98.339272
@@ -1479,7 +1498,8 @@ division	Quintana Roo	19.642598	-88.040442
 division	Quito	-0.18126	-78.4599
 division	Rabat	33.976469	-6.843796
 division	Rajasthan	26.498229	73.881085
-division	Ramat Gan	32.0684	34.8248
+division	Ramat Gan	32.0684	34.
+division	Ramla	31.9316	34.8729
 division	Rancagua	-34.1701	-70.7406
 division	Rangpur	25.748894	89.260669
 division	Rawalpindi	33.583175	73.049347
@@ -1526,6 +1546,7 @@ division	Seoul	37.548278	126.990916
 division	Serbia	43.745902	20.848918
 division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
+division	Shoam	31.9958	34.9488
 division	Sichuan	30.709229	102.693949
 division	Sicily	37.636932	14.193097
 division	Sihanoukville	10.616351	103.512278
@@ -1590,6 +1611,7 @@ division	Tielt	51.001589	3.355702
 division	Tilburg	51.567213	5.047957
 division	Timor-Leste	-8.809397	125.909527
 division	Tipperary	52.4738	-8.1619
+division	Tirat Zvi	32.4225	35.5283
 division	Tokat	40.3235	36.5522
 division	Tokyo	35.683441	139.766131
 division	Tolima	4.065944	-75.215716
@@ -1605,6 +1627,7 @@ division	Turkey	39	35
 division	Turnhout	51.321956	4.940098
 division	Tuzla	44.537787	18.680139
 division	Tver Region	57.0022	33.9853
+division	Tveria	32.7959	35.5310
 division	Tyrol	47.220292	11.277287
 division	UK	54.234125	-2.078794
 division	USA	38.916963	-98.891372
@@ -1666,8 +1689,11 @@ division	Wicklow	52.9808	-6.0446
 division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762
 division	Wyoming	43.076	-107.2903
+division	Yavne	31.8780	34.7394
+division	Yehud	32.0340	34.8859
 division	Yunnan	24.556297	101.36621
 division	Zeeland	51.484078	3.802245
+division	Zefat	32.9646	35.4960
 division	Zepce	44.4287	18.0379
 division	Zhejiang	29.22571	120.299125
 division	Zielonogorskie	52.2275	15.2559
