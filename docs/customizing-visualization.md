@@ -39,7 +39,7 @@ The dataset description, which appears below the visualizations, is specified in
 ## Adding custom metadata fields to color by   
 1. Add a [valid metadata column](data-prep.md) to your `metadata.tsv`  
 2. Using our example as a template, create an `auspice_config.json` file to your analysis directory
-`sarscov2-tutorial$ cp ./my_config/example_advanced_customization/auspice_config_swiss.json ./my_config/<name>/`    
+`ncov$ cp ./my_config/example_advanced_customization/auspice_config_swiss.json ./my_config/<name>/`    
 3. Add an entry to the `colorings` block of this JSON. You can see an example of this in `my_config/example_advanced_customization/auspice_config_swiss.json` file:  
 ```json
 ...

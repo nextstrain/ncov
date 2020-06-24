@@ -51,7 +51,7 @@ Go ahead and **swap out the values in this file with the geographic area of inte
 To actually execute the workflow, run:  
 
 ```bash  
-sarscov2-tutorial$ snakemake --profile my_config/example -p  
+ncov$ snakemake --profile my_config/example -p  
 ```
 
 `--profile` tells snakemake where to find your `builds.yaml` and `config.yaml` files.  
