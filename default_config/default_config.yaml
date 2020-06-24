@@ -31,7 +31,7 @@ files:
   auspice_config: "default_config/default_auspice_config.json"
   auspice_config_gisaid: "default_config/nextstrain/auspice_config_gisaid.json"
   auspice_config_zh: "default_config/nextstrain/auspice_config_zh.json"
-  lat_longs: "default_config/gps_coordinates.tsv"
+  lat_longs: "default_config/lat_longs.tsv"
   description: "default_config/nextstrain/nextstrain_description.md"
   description_zh: "default_config/nextstrain/description_zh.md"
   clades: "default_config/clades.tsv"
