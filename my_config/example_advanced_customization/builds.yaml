@@ -1,27 +1,20 @@
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
-# If the name of the focal geography differs from the build name this needs to
-# be specified explicity as geographic_name. In addition, we require the
-# geographic scale the build focuses on. Together name and scale serve a look-up
-# in the geo_hierarchy to define region, country, division, etc
 builds:
   # first we'll define a country-level build, focused on Switzerland.
   # we'll define the sampling schemes below
   switzerland:
     subsampling_scheme: switzerland # <- use the 'switzerland' sampling scheme
-    geographic_scale: country # <- country level build
     region: Europe
     country: Switzerland
   # now we'll have 2 division-level builds, for 'cantons' (states) in Switzerland
   basel-stadt:
     subsampling_scheme: canton # <- use the 'canton' sampling scheme
-    geographic_scale: division # <- division level build
     region: Europe
     country: Switzerland
     division: Basel-Stadt
   geneva:
     subsampling_scheme: canton
-    geographic_scale: division
     region: Europe
     country: Switzerland
     division: Geneva
@@ -29,7 +22,6 @@ builds:
   # a lake in Switzerland
   lac-leman:
     subsampling_scheme: lac-leman # <- this is a specialised build (see below)
-    geographic_scale: division # <- 
     region: Europe
     country: Switzerland
     division: Lac Leman

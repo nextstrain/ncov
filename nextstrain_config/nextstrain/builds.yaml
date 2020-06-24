@@ -1,42 +1,31 @@
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
-# If the name of the focal geography differs from the build name this needs to
-# be specified explicity as geographic_name. In addition, we require the
-# geographic scale the build focuses on. Together name and scale serve a look-up
-# in the geo_hierarchy to define region, country, division, etc
 builds:
   global:
     subsampling_scheme: region_global
-    geographic_scale: region
     auspice_config: "nextstrain_config/nextstrain/global_auspice_config.json"
   africa:
     subsampling_scheme: region
-    geographic_scale: region
     region: Africa
     auspice_config: "nextstrain_config/nextstrain/africa_auspice_config.json"
   asia:
     subsampling_scheme: region
-    geographic_scale: region
     region: Asia
     auspice_config: "nextstrain_config/nextstrain/asia_auspice_config.json"
   europe:
     subsampling_scheme: region_grouped_by_country
-    geographic_scale: region
     region: Europe
     auspice_config: "nextstrain_config/nextstrain/europe_auspice_config.json"
   north-america:
     subsampling_scheme: region
-    geographic_scale: region
     region: North America
     auspice_config: "nextstrain_config/nextstrain/north-america_auspice_config.json"
   oceania:
     subsampling_scheme: region
-    geographic_scale: region
     region: Oceania
     auspice_config: "nextstrain_config/nextstrain/oceania_auspice_config.json"
   south-america:
     subsampling_scheme: region
-    geographic_scale: region
     region: South America
     auspice_config: "nextstrain_config/nextstrain/south-america_auspice_config.json"
 

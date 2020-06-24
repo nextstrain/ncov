@@ -3,9 +3,6 @@
 def _get_subsampling_scheme_by_build_name(build_name):
     return config["builds"][build_name].get("subsampling_scheme", build_name)
 
-def _get_geographic_scale_by_build_name(build_name):
-    return config["builds"][build_name].get("geographic_scale", build_name)
-
 def _get_metadata_by_build_name(build_name):
     """Returns a path associated with the metadata for the given build name.
 

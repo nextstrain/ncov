@@ -14,11 +14,10 @@ python = sys.executable or "python3"
 # default build if none specified in config
 if "builds" not in config:
     config["builds"] = {
-        "global":{
-                    "geographic_scale": "region",
-                    "subsampling_scheme": "region_global",
-                 }
+        "global": {
+            "subsampling_scheme": "region_global",
         }
+    }
 
 BUILD_NAMES = list(config["builds"].keys())
 
