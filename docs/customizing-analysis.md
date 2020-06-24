@@ -131,5 +131,5 @@ A1a	ORF3a	251	V
 A1a	ORF1a	3606	F
 ```  
 
-## [Previous Section: Orientation: Running & troubleshooting](running.md)
-## [Next Section: Orientation: Customizing your visualization](customizing-visualization.md)
+## [Previous Section: Running & troubleshooting](running.md)
+## [Next Section: Customizing your visualization](customizing-visualization.md)

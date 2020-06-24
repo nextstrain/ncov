@@ -63,4 +63,4 @@ We'll walk through all of the files one by one, but here are the most important 
 |`./scripts/`| `add_priorities_to_meta.py`, etc.| Helper scripts for common tasks | No modification needed |
 
 ## [Previous Section: Orientation: analysis workflow](orientation-workflow.md)
-## [Next Section: Orientation: Running & troubleshooting](running.md)
+## [Next Section: Running & troubleshooting](running.md)

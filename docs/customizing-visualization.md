@@ -86,5 +86,5 @@ Similarly, you can choose which panels to enable in the `panels` block:
 ...
 ```
 
-## [Previous Section: Orientation: Customizing your analysis](customizing-analysis.md)
+## [Previous Section: Customizing your analysis](customizing-analysis.md)
 ## [Next Section: Options for visualizing and sharing results](sharing.md)

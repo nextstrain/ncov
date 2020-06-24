@@ -110,5 +110,5 @@ With Nextstrain Groups, you can choose whether each dataset is publicly viewable
 #### Privacy and security  
 Independently hosted Auspice servers can be configured with any security protocols necessary.
 
-## [Previous Section: Orientation: Customizing your visualization](customizing-visualization.md)
+## [Previous Section: Customizing your visualization](customizing-visualization.md)
 ## [Next Section: Interpreting your results](interpretation.md)

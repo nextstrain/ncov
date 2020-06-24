@@ -137,4 +137,4 @@ the pipeline will produce
 These files are meant to facilitate checking whether sequences in `config/exclude.txt` are excluded for valid reasons.
 
 ## [Previous Section: Orientation: which files should I touch?](orientation-files.md)
-## [Next Section: Orientation: Customizing your analysis](customizing-analysis.md)
+## [Next Section: Customizing your analysis](customizing-analysis.md)
