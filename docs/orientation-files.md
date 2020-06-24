@@ -12,8 +12,8 @@ We'll walk through all of the files one by one, but here are the most important 
 
 |Category| Directory | File | Description | Configuration|  
 |-----|-----|-----|------|-----|
-|Input file|`./input_data/`|`sequences.fasta`|**Genomic sequences; IDs must match `strain` column in `metadata.tsv`**| See ['Preparing your data'](data-prep.md)
-|Input file|`./input_data/`|`metadata.tsv`|**Tab-delimited description of strain (i.e., sample) attributes**|See ['Preparing your data'](data-prep.md)|
+|Input file|`./data/`|`sequences.fasta`|**Genomic sequences; IDs must match `strain` column in `metadata.tsv`**| See ['Preparing your data'](data-prep.md)
+|Input file|`./data/`|`metadata.tsv`|**Tab-delimited description of strain (i.e., sample) attributes**|See ['Preparing your data'](data-prep.md)|
 |Output file|`./auspice/`|`buildName.json`|**Output file for visualization in auspice**||
 |Customizable workflow file|`./my_config/<mybuildname>/`|`builds.yaml`|**Specify and define all the builds you'd like to run**|See our [customization guide](customizing-analysis.md)|
 |Customizable workflow file|`./my_config/<mybuildname>/`|`config.yaml`|**Analysis configuration file; parameterize your analyses here**|See our [customization guide](customizing-analysis.md)|
@@ -26,8 +26,8 @@ We'll walk through all of the files one by one, but here are the most important 
 
 | Directory | File | Description | Configuration|  
 |-----|-----|-----|------|
-|`./input_data/`|`sequences.fasta`|**Genomic sequences; IDs must match `strain` column in `metadata.tsv`**| See ['Preparing your data'](data-prep.md)
-|`./input_data/`|`metadata.tsv`|**Tab-delimited description of strain (i.e., sample) attributes**|See ['Preparing your data'](data-prep.md)|
+|`./data/`|`sequences.fasta`|**Genomic sequences; IDs must match `strain` column in `metadata.tsv`**| See ['Preparing your data'](data-prep.md)
+|`./data/`|`metadata.tsv`|**Tab-delimited description of strain (i.e., sample) attributes**|See ['Preparing your data'](data-prep.md)|
 |`./default_config/`|`include.txt`| List of strain names to _include_ during subsampling and filtering | One strain name per line|  
 |`./default_config/`|`exclude.txt`|List of strain names to _exclude_ during subsampling and filtering|One strain name per line|
 
@@ -37,8 +37,8 @@ We'll walk through all of the files one by one, but here are the most important 
 | Directory | File | Description |
 |-----|-----|-----|
 |`./auspice/`|`buildName.json`|**Output file for visualization in auspice**|
-|`./intermediate_results/`|`aligned.fasta`, `sequence-disagnostics.tsv`, etc.|Raw results files (dependencies) that are shared across all `builds`|
-|`./intermediate_results/<buildName>/`|`tree.nwk`, `aa_mutations.json`, etc.|Raw results files (dependencies) that are specific to a single `build`|
+|`./results/`|`aligned.fasta`, `sequence-disagnostics.tsv`, etc.|Raw results files (dependencies) that are shared across all `builds`|
+|`./results/<buildName>/`|`tree.nwk`, `aa_mutations.json`, etc.|Raw results files (dependencies) that are specific to a single `build`|
 |`./logs/`|`.log` files|Error messages and other information about the run|
 
 

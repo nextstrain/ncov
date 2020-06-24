@@ -40,10 +40,10 @@ rule all_regions:
 rule clean_export_regions:
     message: "Removing export files: {input}"
     params:
-        *expand("intermediate_results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
-        *expand("intermediate_results/{build_name}/ncov_gisaid_with_accessions.json", build_name=BUILD_NAMES),
-        *expand("intermediate_results/{build_name}/ncov_zh_with_accessions.json", build_name=BUILD_NAMES),
-        *expand("intermediate_results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
+        *expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
+        *expand("results/{build_name}/ncov_gisaid_with_accessions.json", build_name=BUILD_NAMES),
+        *expand("results/{build_name}/ncov_zh_with_accessions.json", build_name=BUILD_NAMES),
+        *expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
         "auspice/ncov*_gisaid.json",
         "auspice/ncov*_zh.json"
     conda: config["conda_environment"]
@@ -55,11 +55,11 @@ rule clean_export_regions:
 # Runs an additional script to give a list of locations that need colors and/or lat-longs
 rule export_all_regions:
     input:
-        auspice_json = expand("intermediate_results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
+        auspice_json = expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
         lat_longs = config["files"]["lat_longs"],
         metadata = [_get_metadata_by_build_name(build_name).format(build_name=build_name)
                     for build_name in BUILD_NAMES],
-        colors = expand("intermediate_results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
+        colors = expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
     conda: config["conda_environment"]
     shell:
         """
@@ -70,7 +70,7 @@ rule export_all_regions:
         """
 
 rule all_mutation_frequencies:
-    input: expand("intermediate_results/{build_name}/nucleotide_mutation_frequencies.json", build_name=BUILD_NAMES)
+    input: expand("results/{build_name}/nucleotide_mutation_frequencies.json", build_name=BUILD_NAMES)
 
 #
 # Rules for custom auspice exports for the Nextstrain team.
@@ -92,7 +92,7 @@ rule export_gisaid:
         clades = rules.clades.output.clade_data,
         recency = rules.recency.output
     output:
-        auspice_json = "intermediate_results/{build_name}/ncov_gisaid_with_accessions.json"
+        auspice_json = "results/{build_name}/ncov_gisaid_with_accessions.json"
     log:
         "logs/export_gisaid_{build_name}.txt"
     conda: config["conda_environment"]
@@ -125,7 +125,7 @@ rule export_zh:
         clades = rules.clades.output.clade_data,
         recency = rules.recency.output
     output:
-        auspice_json = "intermediate_results/{build_name}/ncov_zh_with_accessions.json"
+        auspice_json = "results/{build_name}/ncov_zh_with_accessions.json"
     log:
         "logs/export_zh_{build_name}.txt"
     conda: config["conda_environment"]
@@ -152,7 +152,7 @@ rule incorporate_travel_history_gisaid:
         sampling = _get_sampling_trait_for_wildcards,
         exposure = _get_exposure_trait_for_wildcards
     output:
-        auspice_json = "intermediate_results/{build_name}/ncov_gisaid_with_accessions_and_travel_branches.json"
+        auspice_json = "results/{build_name}/ncov_gisaid_with_accessions_and_travel_branches.json"
     log:
         "logs/incorporate_travel_history_gisaid_{build_name}.txt"
     conda: config["conda_environment"]
@@ -177,7 +177,7 @@ rule incorporate_travel_history_zh:
         sampling = _get_sampling_trait_for_wildcards,
         exposure = _get_exposure_trait_for_wildcards
     output:
-        auspice_json = "intermediate_results/{build_name}/ncov_zh_with_accessions_and_travel_branches.json"
+        auspice_json = "results/{build_name}/ncov_zh_with_accessions_and_travel_branches.json"
     log:
         "logs/incorporate_travel_history_zh_{build_name}.txt"
     conda: config["conda_environment"]
