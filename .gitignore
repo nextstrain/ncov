@@ -2,10 +2,10 @@
 # (or at least out of _this_ git repo).
 benchmarks/
 logs/
-intermediate_results/
+results/
 build/
 auspice/
-input_data/*
+data/*
 default_config/colors.tsv
 default_config/colors_*.tsv
 stats.json
