@@ -14,14 +14,14 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Nextstrain logo" width=150/>
         {% endif %}
 
         <p>
-          <h3>Getting started with analysis</h3>
+          <h3>Analysis</h3>
           <a href="data-prep.md">1. Preparing your data</a><br>
           <a href="setup.md">2. Set up and installation</a><br>
           <a href="orientation-analysis.md">3. Orientation: analysis workflow</a><br>
@@ -30,19 +30,21 @@
           <a href="customizing-analysis.md">6. Customizing your analysis</a><br>
           <a href="customizing-visualization.md">7. Customizing your visualization</a><br>
 
-          <h3>Getting started with visualization & interpretation</h3>
-          <a href="sharing.md">8. Options for visualizing and sharing results](sharing.md)</a><br>
-          <a href="interpretation.md">9. Interpreting your results](interpretation.md)</a><br>
-          <a href="narratives.md">10. Writing a narrative to highlight key findings](narratives.md)</a><br>
+          <h3>Visualization & interpretation</h3>
+          <a href="sharing.md">8. Options for visualizing and sharing results</a><br>
+          <a href="interpretation.md">9. Interpreting your results</a><br>
+          <a href="narratives.md">10. Writing a narrative to highlight key findings</a><br>
         </p>
 
-        {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
           <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
+
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
+        <p><a href="https://discussion.nextstrain.org">Stuck? Ask us on the discussion board. We're happy to help!</a></p>
       </header>
       <section>
 
@@ -50,11 +52,6 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><a href="https://discussion.nextstrain.org">Stuck? Ask us on the discussion board. We're happy to help!</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
