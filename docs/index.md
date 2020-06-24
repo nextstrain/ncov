@@ -20,7 +20,7 @@ We also recommend [this 1-hour video overview](https://youtu.be/m4_F2tG58Pc) by 
 
 #### 1. Clone this repository  
 ```
-git clone https://github.com/nextstrain/sarscov2-tutorial.git
+git clone https://github.com/nextstrain/ncov.git
 ```
 
 #### 2. Install augur for bioinformatics
@@ -40,7 +40,7 @@ sudo apt install mafft iqtree raxml fasttree vcftools
 
 #### 3. Run basic analysis on example data  
 ```
-sarscov-tutorial$ snakemake --profile ./my-analyses/example
+ncov$ snakemake --profile ./my_config/example
 ```
 
 

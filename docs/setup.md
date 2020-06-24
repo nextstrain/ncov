@@ -27,9 +27,6 @@ If you are running Windows, we recommend working through Windows Subsystem for L
 
 You can find instructions for installing auspice [here](https://nextstrain.github.io/auspice/introduction/install).
 
-## [Previous Section: Preparing your data](./docs/data-prep.md)
-## [Next Section: Orientation: analysis workflow](./docs/orientation-workflow.md)
-
 ---
 
 ## Advanced reading: considerations for keeping a 'Location Build' up-to-date
@@ -64,3 +61,7 @@ To run this, one would call the following from within `ncov`:
 ```bash
 ncov$ snakemake --profile ../south-usa-sarscov2/profiles/south-central/
 ```
+
+
+## [Previous Section: Preparing your data](./docs/data-prep.md)
+## [Next Section: Orientation: analysis workflow](./docs/orientation-workflow.md)

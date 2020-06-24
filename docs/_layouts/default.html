@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h2><img src="{{site.logo | relative_url}}" alt="Nextstrain logo" width=40/>
+        <h2><img src="{{site.logo | relative_url}}" alt="Nextstrain logo" width=40 float="left"/>
         <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
 
         {% if site.logo %}
@@ -22,18 +22,18 @@
 
         <p>
           <h3>Analysis</h3>
-          <a href="data-prep.md">1. Preparing your data</a><br>
-          <a href="setup.md">2. Set up and installation</a><br>
-          <a href="orientation-analysis.md">3. Orientation: analysis workflow</a><br>
-          <a href="orientation-files.md">4. Orientation: which files should I touch?</a><br>
-          <a href="running.md">5. Running & troubleshooting</a><br>
-          <a href="customizing-analysis.md">6. Customizing your analysis</a><br>
-          <a href="customizing-visualization.md">7. Customizing your visualization</a><br>
-
+          <a href="https://nextstrain.github.io/ncov/data-prep.md">1. Preparing your data</a><br>
+          <a href="https://nextstrain.github.io/ncov/setup.md">2. Set up and installation</a><br>
+          <a href="https://nextstrain.github.io/ncov/orientation-analysis.md">3. Orientation: analysis workflow</a><br>
+          <a href="https://nextstrain.github.io/ncov/orientation-files.md">4. Orientation: which files should I touch?</a><br>
+          <a href="https://nextstrain.github.io/ncov/running.md">5. Running & troubleshooting</a><br>
+          <a href="https://nextstrain.github.io/ncov/customizing-analysis.md">6. Customizing your analysis</a><br>
+          <a href="https://nextstrain.github.io/ncov/customizing-visualization.md">7. Customizing your visualization</a><br>
+        </p><p>
           <h3>Visualization & interpretation</h3>
-          <a href="sharing.md">8. Options for visualizing and sharing results</a><br>
-          <a href="interpretation.md">9. Interpreting your results</a><br>
-          <a href="narratives.md">10. Writing a narrative to highlight key findings</a><br>
+          <a href="https://nextstrain.github.io/ncov/sharing.md">8. Options for visualizing and sharing results</a><br>
+          <a href="https://nextstrain.github.io/ncov/interpretation.md">9. Interpreting your results</a><br>
+          <a href="https://nextstrain.github.io/ncov/narratives.md">10. Writing a narrative to highlight key findings</a><br>
         </p>
 
         <ul class="downloads">
@@ -41,9 +41,8 @@
           <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
-
+        <p><h4><a href="https://discussion.nextstrain.org">Stuck? Ask us on the discussion board. We're happy to help!</a></h4></p>
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        <p><a href="https://discussion.nextstrain.org">Stuck? Ask us on the discussion board. We're happy to help!</a></p>
       </header>
       <section>
 
