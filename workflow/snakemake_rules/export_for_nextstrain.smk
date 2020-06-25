@@ -2,21 +2,21 @@
 # If a region is selected, it'll do 280/division for that region, and 20/division in the rest of the world
 #       -- preferentially sequences near the focal sequences
 #
-# To run a regional build, be sure to update the list of regions in `config/nextstrain_config.yaml`.
+# To run a regional build, be sure to update the list of regions in `config/config_library.yaml`.
 #
 # You can run all builds in parallel!
-#   snakemake --profile nextstrain_config/nextstrain all_regions
+#   snakemake --profile config_library/nextstrain all_regions
 #
 # Or you can specify final or intermediate output files like so:
-#   snakemake --profile nextstrain_config/nextstrain auspice/ncov_europe.json (subsampled regional focal)
-#   snakemake --profile nextstrain_config/nextstrain auspice/ncov_global.json (subsampled global)
+#   snakemake --profile config_library/nextstrain auspice/ncov_europe.json (subsampled regional focal)
+#   snakemake --profile config_library/nextstrain auspice/ncov_global.json (subsampled global)
 #
 # To update ordering/lat_longs after AWS download:
-#   snakemake --touch --forceall --profile nextstrain_config/nextstrain
-#   snakemake --profile nextstrain_config/nextstrain clean_export_regions
-#   snakemake --profile nextstrain_config/nextstrain export_all_regions
+#   snakemake --touch --forceall --profile config_library/nextstrain
+#   snakemake --profile config_library/nextstrain clean_export_regions
+#   snakemake --profile config_library/nextstrain export_all_regions
 # When done adjusting lat-longs & orders, remember to run
-#   snakemake --profile nextstrain_config/nextstrain all_regions
+#   snakemake --profile config_library/nextstrain all_regions
 # to produce the final Auspice files!
 
 def get_todays_date():

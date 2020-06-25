@@ -3,31 +3,31 @@
 builds:
   global:
     subsampling_scheme: region_global
-    auspice_config: "nextstrain_config/nextstrain/global_auspice_config.json"
+    auspice_config: "config_library/nextstrain/global_auspice_config.json"
   africa:
     subsampling_scheme: region
     region: Africa
-    auspice_config: "nextstrain_config/nextstrain/africa_auspice_config.json"
+    auspice_config: "config_library/nextstrain/africa_auspice_config.json"
   asia:
     subsampling_scheme: region
     region: Asia
-    auspice_config: "nextstrain_config/nextstrain/asia_auspice_config.json"
+    auspice_config: "config_library/nextstrain/asia_auspice_config.json"
   europe:
     subsampling_scheme: region_grouped_by_country
     region: Europe
-    auspice_config: "nextstrain_config/nextstrain/europe_auspice_config.json"
+    auspice_config: "config_library/nextstrain/europe_auspice_config.json"
   north-america:
     subsampling_scheme: region
     region: North America
-    auspice_config: "nextstrain_config/nextstrain/north-america_auspice_config.json"
+    auspice_config: "config_library/nextstrain/north-america_auspice_config.json"
   oceania:
     subsampling_scheme: region
     region: Oceania
-    auspice_config: "nextstrain_config/nextstrain/oceania_auspice_config.json"
+    auspice_config: "config_library/nextstrain/oceania_auspice_config.json"
   south-america:
     subsampling_scheme: region
     region: South America
-    auspice_config: "nextstrain_config/nextstrain/south-america_auspice_config.json"
+    auspice_config: "config_library/nextstrain/south-america_auspice_config.json"
 
 # if different exposure traits should be used for some builds, specify here
 # otherwise the default exposure in default_config/default_config.yaml will used
