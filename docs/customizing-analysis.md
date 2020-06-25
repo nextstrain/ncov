@@ -131,37 +131,5 @@ A1a	ORF3a	251	V
 A1a	ORF1a	3606	F
 ```  
 
-## Keeping a 'Location Build' Up-To-Date
-
-If you are aiming to create a public health build for a state, division, or area of interest, you likely want to keep your analysis up-to-date easily.
-If your run contains contextual subsampling (sequences from outside of your focal area), you should first ensure that you regularly download the latest sequences as input, then re-run the build.
-This way, you always have a build that reflects the most recent SARS-CoV-2 information.
-
-You should also aim to keep the `ncov` repository updated.
-If you've clone the repository from Github, this is done by running `git pull`.
-This downloads any changes that we have made to the repository to your own computer.
-In particular, we add new colors and latitute & longitude information regularly - these should match the new sequences you download, so that you don't need to add this information yourself.
-
-If you don't need to share your build 'profile' with anyone, then it's simple to leave this in the `/my_config` folder.
-It won't be changed when you `git pull` for the latest information.
-
-However, if you want to share your build profile, you'll need to adopt one of the following solutions:
-
-First, you can 'fork' the entire `ncov` repository, which means you have your own copy of the repository. 
-You can then add your profile files to the repository and anyone else can download them as part of your 'fork' of the repository.
-Note that if you do this, you should ensure you `pull` regularly from the original `ncov` repository to keep it up-to-date.
-
-Alternatively, you can create a new repository just to hold your 'profile' files, outside of the `ncov` repository.
-You can then share this repository with others, and it's very simple to keep `ncov` up to date, as you don't change it at all.
-If doing this, it can be easiest to create a 'profiles' or 'my_config' folder and imitate the structure found in the 'my_config' folder within `ncov`, but this isn't required.
-Note that to run the build using the profile you'll need still to run the `snakemake` command from within the `ncov` repository, but specify that the profile you want is outside that folder.
-
-For the [`south-usa-sarscov2`](https://github.com/emmahodcroft/south-usa-sarscov2/) example, you can see the `south-central ` profile set up in a 'profiles' folder.
-To run this, one would call the following from within `ncov`:
-
-```bash
-ncov$ snakemake --profile ../south-usa-sarscov2/profiles/south-central/
-```
-
 ## [Previous Section: Orientation: Running & troubleshooting](running.md)
 ## [Next Section: Orientation: Customizing your visualization](customizing-visualization.md)
