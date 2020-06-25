@@ -140,27 +140,44 @@ files:
   colors: "my_config/example_advanced_customization/colors.tsv"
   auspice_config: "my_config/example_advanced_customization/auspice_config_swiss.json"
 
-# You could also specify a title which will be used for all builds
-# where you haven't already specified a title above:
-# (Uncomment this to use!):
+## You could also specify a title which will be used for all builds
+## where you haven't already specified a title above:
+## (Uncomment this to use!):
 # title: "SARS-CoV-2 Builds Focused on Regions of Switzerland"
 
-# Finally, you can specify what traits you want to reconstruct, per build.
-# If you have exposure information for a trait, specify it as well, so that
-# this is incorporated into the final run. (Otherwise, it will simply be excluded)
+#########
+## Finally, you can specify what traits you want to reconstruct, per build.
+## If you have exposure information for a trait, specify it as well, so that
+## this is incorporated into the final run. (Otherwise, it will simply be excluded)
 
-# First, specify the traits you want to reconstruct, per build:
-# (uncomment to use!)
+## First, specify the traits you want to reconstruct, per build:
+## (uncomment to use!)
 #traits:
 #  switzerland: # for the switzerland build
 #    columns: ["location", "division_exposure"]
 
-# ^ Note that the swiss samples do not have 'location' (typically, city)
-# information, so this command would fail as-is - but for many other places
-# there are samples with 'location' information.
-
+## ^ Note that the swiss samples do not have 'location' (typically, city)
+## information, so this command would fail as-is - but for many other places
+## there are samples with 'location' information.
 
 #exposure:
 #  switzerland: #for the same build, incorporate division exposure information
 #    trait: "division"
 #    exposure: "division_exposure"
+
+##########
+## If you want to modify parameters for the steps in the build - augur commands -
+## you can copy these from the 'defaults/parameters.yaml' file:
+## Here are some examples below - uncomment if you want to use them:
+
+## Modify filter settings. By default we filter out sequences less than 27000 bases
+## If you wanted to include slightly shorter sequeces, change this:
+#filter:
+#  min_length: 25000
+
+## TreeTime settings for the 'refine' rule. By default we exclude sequences more than 
+## 4 IQD from the root-to-tip vs clock regression. You can change this if you want to include
+## more divergent sequences:
+#refine:
+#  clock_filter_iqd: 6
+
