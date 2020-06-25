@@ -19,6 +19,9 @@ builds:
     country: USA
     division: Washington
     location: King County
+    # Whatever your lowest geographic area is (here, 'location' since we are doing a county in the USA)
+    # list 'up' from here the geographic area that location is in. 
+    # Here, King County is in Washington state, is in USA, is in North America.
 
   # Zoom out one level: this build focuses on all of Washington State
   washington-state:
@@ -26,22 +29,28 @@ builds:
     region: North America
     country: USA
     division: Washington
+    # Here, Washington state is in USA, is in North America.
 
-  # Focus on the entire U.S.
+  # This build focuses on the entire U.S.
   usa:
     subsampling_scheme: country
     region: North America
     country: USA
+    # Here, USA is in North America
 
-  # Focus on all of North America
+  # This build foocuses on all of North America
   north-america:
     subsampling_scheme: region
     region: North America
 
-  # Sample evenly from the globe
+  # This build samples evenly from the globe
   global:
     subsampling_scheme: region_global
 
+# Here, you can specify what type of auspice_config you want to use
+# and what description you want. These will apply to all the above builds.
+# If you want to specify specific files for each build - you can! 
+# See the 'example_advanced_customization' builds.yaml
 files:
   auspice_config: "my_config/example/my_auspice_config.json"
   description: "my_config/example/my_description.md"
