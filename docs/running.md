@@ -28,7 +28,7 @@ The first block of the provided `build.yaml` file looks like this:
 
 builds:
   my_king_county_build: # name of the build
-    subsampling_scheme: location # what subsampling method to use (see default_config.yaml)
+    subsampling_scheme: location # what subsampling method to use (see default_parameters.yaml)
     region: North America
     country: USA
     division: Washington
@@ -67,7 +67,7 @@ If you have a question which is not addressed here, please don't hestitate to [a
 
 #### My country / division does not show up on the map
 
-This is most often a result of the country / division not being present in [the file defining the latitude & longitude of each deme](../config/lat_longs.tsv).
+This is most often a result of the country / division not being present in [the file defining the latitude & longitude of each deme](../defaults/supplementary_files/lat_longs.tsv).
 Adding it to that file (and rerunning the Snakemake rules downstream of this) should fix this.
 
 #### My trait (e.g. division) is grey instead of colored
@@ -83,7 +83,7 @@ There are a few steps where sequences can be removed:
 
 - During the `filter` step:
     - Samples which are included in [the exclude file](../defaults/exclude.tsv) are removed
-    - Samples which fail the current filtering criteria, as defined in the `default_config.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
+    - Samples which fail the current filtering criteria, as defined in the `default_parameters.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
         - Minimum sequence length of 25kb
         - No ambiguity in (sample collection) date
     - Samples may be randomly removed during subsampling; see ['customizing your analysis'](customizing-analysis.md) for more info.

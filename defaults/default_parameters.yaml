@@ -6,11 +6,6 @@
 # conda environment file to use by default
 conda_environment: "../envs/nextstrain.yaml"
 
-# S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
-s3_staging_url: s3://nextstrain-staging
-slack_token: ~
-slack_channel: "#ncov-gisaid-updates"
-
 # These are the two main starting files for the run
 sequences: "data/sequences.fasta"
 metadata: "data/metadata.tsv"
@@ -22,21 +17,16 @@ reference_node_name: "USA/WA1/2020"
 # align sequences to, colors for strain attributes in auspice, and auspice
 # configuration files.
 files:
-  include: "defaults/include.txt"
-  exclude: "defaults/exclude.txt"
-  reference: "defaults/reference_seq.gb"
-  outgroup: "defaults/outgroup.fasta"
-  ordering: "defaults/color_ordering.tsv"
-  color_schemes: "defaults/color_schemes.tsv"
+  include: "defaults/supplementary_files/include.txt"
+  exclude: "defaults/supplementary_files/exclude.txt"
+  reference: "defaults/supplementary_files/reference_seq.gb"
+  outgroup: "defaults/outgroup.fasta" # is this arg still used? file doesn't exist in default repo
+  ordering: "defaults/supplementary_files/color_ordering.tsv"
+  color_schemes: "defaults/supplementary_files/color_schemes.tsv"
   auspice_config: "defaults/default_auspice_config.json"
-  auspice_config_gisaid: "defaults/nextstrain/auspice_config_gisaid.json"
-  auspice_config_zh: "defaults/nextstrain/auspice_config_zh.json"
-  lat_longs: "defaults/lat_longs.tsv"
-  description: "defaults/nextstrain/nextstrain_description.md"
-  description_zh: "defaults/nextstrain/description_zh.md"
-  clades: "defaults/clades.tsv"
-  legacy_clades: "defaults/nextstrain/legacy_clades.tsv"
-
+  lat_longs: "defaults/supplementary_files/lat_longs.tsv"
+  description: "defaults/supplementary_files/default_description.md"
+  clades: "defaults/supplementary_files/clades.tsv"
 
 # Filter settings
 filter:

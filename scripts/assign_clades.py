@@ -32,7 +32,7 @@ if __name__ == '__main__':
     parser.add_argument("--nthreads", default=1, type=int, help="Number of threads to use in alignment")
     args = parser.parse_args()
 
-    refname = f"defaults/reference_seq.gb"
+    refname = f"defaults/supplementary_files/reference_seq.gb"
     features = load_features(refname)
     if args.sequences:
         seqs = SeqIO.parse(args.sequences, 'fasta')
@@ -40,7 +40,7 @@ if __name__ == '__main__':
         alignment = SeqIO.parse(args.alignment, 'fasta')
 
     ref = SeqIO.read(refname, 'genbank')
-    clade_designations = read_in_clade_definitions(f"defaults/clades.tsv")
+    clade_designations = read_in_clade_definitions(f"defaults/supplementary_files/clades.tsv")
 
     log_fname = "clade_assignment.log"
     in_fname = "clade_assignment_tmp.fasta"

@@ -7,7 +7,7 @@
 # If a parameter is not defined here, it will fall back to the default value.
 
 configfile:
-  - defaults/default_config.yaml # Pull in the default values
+  - defaults/default_parameters.yaml # Pull in the default values
   - my_profiles/example/builds.yaml # Pull in our list of desired builds
 
 config:

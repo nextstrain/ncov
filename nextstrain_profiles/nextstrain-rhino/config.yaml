@@ -1,5 +1,5 @@
 configfile:
-  - defaults/default_config.yaml
+  - defaults/default_parameters.yaml
   - nextstrain_profiles/nextstrain/builds.yaml
 
 cores: 20

@@ -3,7 +3,7 @@ from socket import getfqdn
 from getpass import getuser
 from snakemake.utils import validate
 
-configfile: "defaults/default_config.yaml"
+configfile: "defaults/default_parameters.yaml"
 validate(config, schema="workflow/schemas/config.schema.yaml")
 
 # In our shell rules, we try to use the same Python executable running
