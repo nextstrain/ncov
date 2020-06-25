@@ -1109,6 +1109,7 @@ division	Bizerte	37.280658	9.863049
 division	Blida	36.48329	2.808751
 division	Bogota	4.629337	-74.095588
 division	Bolivar	8.753508	-74.367735
+division	Borsod-Abaúj-Zemplén County	48.2939	20.6934
 division	Bosnia and Herzegovina	43.9159	17.6791
 division	Boufarik	36.57709	2.914137
 division	Bourgogne	47.0525	4.3837
@@ -1150,7 +1151,7 @@ division	Castilla y Leon	41.8357	-4.3976
 division	Catalunya	41.834815	1.606414
 division	Cauca	2.473774	-76.864221
 division	Cazin	44.9690	15.9432
-division	Ceara	-5.4984	-39.3206
+division	Ceará	-5.4984	-39.3206
 division	Čelinac	44.724001	17.324755
 division	Central Hungary	47.360008	19.252798
 division	Centre-Val de Loire	47.481221	1.698793
@@ -1185,12 +1186,14 @@ division	Cork	51.895349	-8.474381
 division	Counties Manukau	-37.101403	175.005947
 division	Coyhaique	-45.5712	-72.0683
 division	Croatia	45.1	15.2
+division	Csongrád County	46.7084	20.1436
 division	Cundinamarca	5.049758	-74.076048
 division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
 division	Dalarna	61.0917	14.6664
+division	Debrecen	47.5316	21.6273
 division	Delhi	28.7041	77.1025
 division	Democratic Republic of the Congo	-4.0383	21.7587
 division	Dendermonde	51.032573	4.099329
@@ -1248,6 +1251,7 @@ division	Ghana	8.0300284	-1.080027
 division	Gilgit Baltistan	35.589113	75.614837
 division	Glarus	47.018842	8.979742
 division	Goiais	-15.932272	-49.593573
+division	Goiás	-15.8270	-49.8362
 division	Gomez Palacios	25.572985	-103.492743
 division	Gorazde	43.6685	18.9749
 division	Gornji Vakuf	43.9375	17.5880
@@ -1281,9 +1285,11 @@ division	Heilongjiang	47.286490	127.992676
 division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
 division	Heredia	9.997549	-84.121162
+division	Heves County	47.8058	20.2039
 division	Ho Chi Minh City	10.790417	106.653985
 division	Holon	32.0158	34.7874
 division	Hong Kong	22.3964	114.1095
+division	Hranice Na Moravě	49.5497	17.7349
 division	Huasco	-28.467340	-71.221674
 division	Hubei	31.095477	112.676644
 division	Huila	2.545605	-75.524024
@@ -1317,6 +1323,7 @@ division	Jammu	32.7266	74.8570
 division	Jamtland	63.1712	14.9592
 division	Jamtland Harjedalen	62.162882	13.755564
 division	Japan	35.68536	139.75309
+division	Jász-Nagykun-Szolnok County	47.2556	20.5232
 division	Jeddah	21.4858	39.1925
 division	Jerusalem District	31.7648	34.9948
 division	Jhenaidha	23.547692	89.175424
@@ -1410,7 +1417,7 @@ division	Malaysia	2.3923759	112.8471939
 division	Malopolskie	49.7225	20.2503
 division	Manila	14.652678	121.043936
 division	Manitoba	55.182879	-97.823531
-division	Maranhao	-5.199400	-45.309818
+division	Maranhão	-4.9609	-45.2744
 division	Marche	43.374025	13.161012
 division	Mardin	37.3129	40.7340
 division	Martin	49.0617	18.919
@@ -1528,7 +1535,7 @@ division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
 division	Panama City	8.98333	-79.5166
 division	Para	-4.281398	-52.582417
-division	Parana	-25.2521	-52.0215
+division	Paraná	-25.2521	-52.0215
 division	Pardesia	32.3050	34.9117
 division	Pasuruan	-7.6469	112.8999
 division	Pathum Thani	14.018153	100.723973
@@ -1583,6 +1590,7 @@ division	Republic of Tatarstan	55.1802	50.7264
 division	Reykjavik	64.1445	-21.9418
 division	Rhode Island	41.5801	-71.4774
 division	Riga	56.960679	24.10716
+division	Rio Grande do Norte	-5.4026	-36.9541
 division	Rio Grande do Sul	-29.615543	-53.220125
 division	Rio Negro	-40.8261	-63.0266
 division	Rio de Janeiro	-22.89445	-43.2099
@@ -1602,7 +1610,7 @@ division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
 division	Santander	6.746570	-73.476456
 division	Santiago	-33.383304	-70.530623
-division	Sao Paulo	-23.59806	-46.660537
+division	São Paulo	-23.59806	-46.660537
 division	Sarajevo	43.8563	18.4131
 division	Sardinia	40.1209	9.0129
 division	Saskatchewan	53.934278	-106.16006
@@ -1615,6 +1623,7 @@ division	Semnan	35.2256	54.4342
 division	Senegal	14.5	-14.25
 division	Seoul	37.548278	126.990916
 division	Serbia	43.745902	20.848918
+division	Sergipe	-10.5741	-37.3857
 division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
 division	Shoam	31.9958	34.9488
@@ -1629,6 +1638,7 @@ division	Slask	50.406080	18.976345
 division	Slovakia	48.66667	19.5
 division	Slovenia	45.8133113	14.4808369
 division	Småland	57.528294	14.463824
+division	Sodermanland	59.0336	16.7519
 division	Soignies	50.567422	4.040613
 division	Solothurn	47.207025	7.528326
 division	Sormland	59.061157	16.697407
@@ -1647,6 +1657,7 @@ division	Southern	-46.040582	169.144142
 division	Spain	40.4637	-3.7492
 division	Split	43.514220	16.461441
 division	Sri Lanka	7.75	80.75
+division	St Gallen	47.4245	9.3767
 division	St-Louis	16.0326	-16.4818
 division	Stockholm	59.33267	18.061849
 division	Styria	47.3593	14.4700
@@ -1693,6 +1704,7 @@ division	Tournai	50.616724	3.395329
 division	Tournai-Mouscron	50.610622	3.406319
 division	Trang	7.529936	99.611699
 division	Trondheim	63.4305	10.3951
+division	Tucuman	-26.8083	-65.2176
 division	Tunisia	33.654143	9.065134
 division	Turkey	39	35
 division	Turnhout	51.321956	4.940098
