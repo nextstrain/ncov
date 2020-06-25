@@ -28,7 +28,7 @@ location	Abondant	48.790785	1.420178
 
 >Note: keep in mind that `0.0` longitude is the prime meridian; to specify something in the Western hemisphere, you'll need to enter a _negative_ value for longitude. Similarly, to specify something in the Southern hemisphere, you'll need to enter a _negative_ value for latitude
 
-2. Add an entry to `ordering.tsv` such that your newly-defined place is next to geographically nearby places in the list.  
+2. Add an entry to `color_ordering.tsv` such that your newly-defined place is next to geographically nearby places in the list.  
 
 
 ## Subsampling  
