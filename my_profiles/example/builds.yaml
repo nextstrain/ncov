@@ -20,11 +20,11 @@ builds:
     division: Washington
     location: King County
     # Whatever your lowest geographic area is (here, 'location' since we are doing a county in the USA)
-    # list 'up' from here the geographic area that location is in. 
+    # list 'up' from here the geographic area that location is in.
     # Here, King County is in Washington state, is in USA, is in North America.
 
   # Zoom out one level: this build focuses on all of Washington State
-  washington-state:
+  my_washington_state_build:
     subsampling_scheme: division # we named the subsampling scheme meant for divisions accordingly; you can rename these whatever you'd like
     region: North America
     country: USA
@@ -49,7 +49,7 @@ builds:
 
 # Here, you can specify what type of auspice_config you want to use
 # and what description you want. These will apply to all the above builds.
-# If you want to specify specific files for each build - you can! 
+# If you want to specify specific files for each build - you can!
 # See the 'example_advanced_customization' builds.yaml
 files:
   auspice_config: "my_profiles/example/my_auspice_config.json"
