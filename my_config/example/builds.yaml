@@ -39,7 +39,7 @@ builds:
     region: North America
 
   # Sample evenly from the globe
-  my_global_build:
+  global:
     subsampling_scheme: region_global
 
 files:
