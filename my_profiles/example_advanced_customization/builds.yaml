@@ -9,8 +9,8 @@ builds:
     country: Switzerland
     # If we want to have specific files for colors or the auspice_config file *just*
     # for this build, we can specify this here. 
-    colors: "my_config/example_advanced_customization/switzerland_build_colors.tsv"
-    auspice_config: "my_config/example_advanced_customization/auspice_config_switzerland_build.json"
+    colors: "my_profiles/example_advanced_customization/switzerland_build_colors.tsv"
+    auspice_config: "my_profiles/example_advanced_customization/auspice_config_switzerland_build.json"
     # We can also set a title for *just* this build.
     title: "SARS-CoV-2 Sequences in Switzerland"
   # now we'll have 2 division-level builds, for 'cantons' (states) in Switzerland
@@ -137,8 +137,8 @@ subsampling:
 # above builds - unless otherwise specified in the builds above!
 # If you don't specify these, the files in `default_config` folder will be used
 files:
-  colors: "my_config/example_advanced_customization/colors.tsv"
-  auspice_config: "my_config/example_advanced_customization/auspice_config_swiss.json"
+  colors: "my_profiles/example_advanced_customization/colors.tsv"
+  auspice_config: "my_profiles/example_advanced_customization/auspice_config_swiss.json"
 
 ## You could also specify a title which will be used for all builds
 ## where you haven't already specified a title above:

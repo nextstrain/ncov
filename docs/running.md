@@ -19,7 +19,7 @@ In the orientation section, we learned that
 - [A "build"](glossary.md#Build) is a bundle of input files, parameters, and commands   
 - [Each build is configured by two primary files](orientation-files.md): `build.yaml` and `config.yaml`  
 
-Let's start with defining a build in `./my_config/example/builds.yaml`.  
+Let's start with defining a build in `./my_profiles/example/builds.yaml`.  
 **We use the `builds.yaml` file to define what geographic areas of the world we want to focus on. Each block in this file will produce a separate output JSON for visualization**.  
 
 The first block of the provided `build.yaml` file looks like this:  
@@ -41,7 +41,7 @@ Looking at this example, we can see that each build has a:
 
 The rest of the builds defined in this file serve as examples for division-, country- or region-focused analyses.
 
-**To adapt this for your own analyses, copy `my_config/example` to `my_config/<my-new-name>` and open the `builds.yaml`
+**To adapt this for your own analyses, copy `my_profiles/example` to `my_profiles/<my-new-name>` and open the `builds.yaml`
 file in this directory.**
 
 Go ahead and **swap out the values in this file with the geographic area of interest to you.** You can add, disable (comment out), or remove as many of these build definitions as you'd like.  
@@ -51,7 +51,7 @@ Go ahead and **swap out the values in this file with the geographic area of inte
 To actually execute the workflow, run:  
 
 ```bash  
-ncov$ snakemake --profile my_config/example -p  
+ncov$ snakemake --profile my_profiles/example -p  
 ```
 
 `--profile` tells snakemake where to find your `builds.yaml` and `config.yaml` files.  
@@ -72,7 +72,7 @@ Adding it to that file (and rerunning the Snakemake rules downstream of this) sh
 
 #### My trait (e.g. division) is grey instead of colored
 
-We generate the colors from the `colors` rule in the Snakefile, which uses the [ordering TSV](./default_config/ordering.tsv) to generate these. See ['customizing your analysis'](customizing-analysis.md) for more info.
+We generate the colors from the `colors` rule in the Snakefile, which uses the [ordering TSV](./defaults/ordering.tsv) to generate these. See ['customizing your analysis'](customizing-analysis.md) for more info.
 
 _*A note about locations and colors:*_
 Unless you want to specifically override the colors generated, it's usually easier to _add_ information to the default `ncov` files, so that you can benefit from all the information already in those files.
@@ -82,7 +82,7 @@ Unless you want to specifically override the colors generated, it's usually easi
 There are a few steps where sequences can be removed:
 
 - During the `filter` step:
-    - Samples which are included in [the exclude file](../default_config/exclude.tsv) are removed
+    - Samples which are included in [the exclude file](../defaults/exclude.tsv) are removed
     - Samples which fail the current filtering criteria, as defined in the `default_config.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
         - Minimum sequence length of 25kb
         - No ambiguity in (sample collection) date
@@ -117,13 +117,13 @@ The flagged sequences will be excluded from the current run.
 
 To only run the sequence diagnostic, you can specify any of the three above files as target or run:
 ```bash
-snakemake --profile my_config/<name> diagnostic
+snakemake --profile my_profiles/<name> diagnostic
 ```
 
 In addition, we provide rules to re-examine the sequences in `config/exclude.txt`.
 By running
 ```bash
-snakemake --profile my_config/<name> diagnose_excluded
+snakemake --profile my_profiles/<name> diagnose_excluded
 ```
 the pipeline will produce
 

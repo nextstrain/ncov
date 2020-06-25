@@ -3,11 +3,11 @@
 ## Changing parameters  
 Each step in the [augur workflow](orientation-workflow.md) can be parameterized; these parameters are specified in `config.yaml` files.  
 
-We've provided reasonable default values for each step in the `default_config/default_config.yaml`; these are the same values the Nextstrain team uses for our analyses.
+We've provided reasonable default values for each step in the `defaults/default_config.yaml`; these are the same values the Nextstrain team uses for our analyses.
 
-We encourage you to take a few minutes to **skim through [the default config file](default_config/default_config.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**  
+We encourage you to take a few minutes to **skim through [the default config file](defaults/default_config.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**  
 
-If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the `my_config/<name>/config.yaml` file. Any values not overridden in this way will fall back to the default values.**
+If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the `my_profiles/<name>/config.yaml` file. Any values not overridden in this way will fall back to the default values.**
 Keeping build-specific parameters separate this way prevents mixups of settings between builds, and gives you a cleaner file to work with (rather than having to wrestle the _entire_ default config file).
 
 ## Adding a new place    
@@ -20,7 +20,7 @@ Places are defined as one of:
 
 To define a new place, you'll need to specify its GPS coordinates and a color.  
 
-1. Add a line to `default_config/lat_longs.tsv`. This file is separated into sections for each geographic resolution. This looks like:  
+1. Add a line to `defaults/lat_longs.tsv`. This file is separated into sections for each geographic resolution. This looks like:  
 ```
 # resolution	place	latitude	longitude
 location	Abondant	48.790785	1.420178
@@ -100,7 +100,7 @@ Trait reconstruction is the process by which augur infers the most likely metada
 For each build, you can specify which categorical metadata fields to use for trait reconstruction.
 
 <!-- TODO: can someone please check this section for me? the existing docs were unclear to me -->
-To specify this on a per-build basis, add a block like the following to your `my_config/<name>/builds.yaml` file:
+To specify this on a per-build basis, add a block like the following to your `my_profiles/<name>/builds.yaml` file:
 ```yaml
 traits:
   north-america: ### build name  
@@ -122,7 +122,7 @@ exposure:
 We assign clade labels according to [this schema](naming_clades.md).  
 
 Because the exact topology of the tree will vary across runs, clades are defined based on their unique mutations.
-These are specified in `default_config/clades.tsv` like so:
+These are specified in `defaults/clades.tsv` like so:
 
 ```tsv
 # clade	gene	site	alt

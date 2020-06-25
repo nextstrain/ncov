@@ -1,12 +1,12 @@
 # Customizing your Auspice visualization  
 
-Just as we can specify a build-specific analysis options in the `config.yaml` file, we can also specify build-specific visualization options in this directory. An example of this can be seen in the `./my_config/example_advanced_customization/` directory.
+Just as we can specify a build-specific analysis options in the `config.yaml` file, we can also specify build-specific visualization options in this directory. An example of this can be seen in the `./my_profiles/example_advanced_customization/` directory.
 
 Looking at the `config.yaml` file, the last few lines are:  
 ```yaml
 files:
-  colors: "my_config/example_advanced_customization/colors.tsv"
-  auspice_config: "my_config/example_advanced_customization/auspice_config_swiss.json"
+  colors: "my_profiles/example_advanced_customization/colors.tsv"
+  auspice_config: "my_profiles/example_advanced_customization/auspice_config_swiss.json"
 ```
 
 Let's look at what kinds of customization options we can use these for.
@@ -27,20 +27,20 @@ country	Europe	#4530BB
 Make sure to also add
 ```yaml
 files:
-  colors: "my_config/<name>/colors.tsv"
+  colors: "my_profiles/<name>/colors.tsv"
 ```
 to your `config.yaml` file.
 
 
 ## Changing the dataset description
 
-The dataset description, which appears below the visualizations, is specified in `default_config/description.md`
+The dataset description, which appears below the visualizations, is specified in `defaults/description.md`
 
 ## Adding custom metadata fields to color by   
 1. Add a [valid metadata column](data-prep.md) to your `metadata.tsv`  
 2. Using our example as a template, create an `auspice_config.json` file to your analysis directory
-`ncov$ cp ./my_config/example_advanced_customization/auspice_config_swiss.json ./my_config/<name>/`    
-3. Add an entry to the `colorings` block of this JSON. You can see an example of this in `my_config/example_advanced_customization/auspice_config_swiss.json` file:  
+`ncov$ cp ./my_profiles/example_advanced_customization/auspice_config_swiss.json ./my_profiles/<name>/`    
+3. Add an entry to the `colorings` block of this JSON. You can see an example of this in `my_profiles/example_advanced_customization/auspice_config_swiss.json` file:  
 ```json
 ...
 "colorings": [

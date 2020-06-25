@@ -1,5 +1,5 @@
 configfile:
-  - default_config/default_config.yaml
+  - defaults/default_config.yaml
   - nextstrain_profiles/nextstrain/builds.yaml
   - nextstrain_profiles/nextstrain-scicore/scicore-config.yaml
 

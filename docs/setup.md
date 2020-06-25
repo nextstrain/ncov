@@ -45,7 +45,7 @@ If you've clone the repository from Github, this is done by running `git pull`.
 This downloads any changes that we have made to the repository to your own computer.
 In particular, we add [new colors and latitute & longitude information](customizing-analysis.md) regularly - these should match the new sequences you download, so that you don't need to add this information yourself.
 
-If you don't need to share the contents of [`my_config`](orientation-files.md) with anyone, then you can leave this in the `./my_config/` folder.
+If you don't need to share the contents of [`my_profiles`](orientation-files.md) with anyone, then you can leave this in the `./my_profiles/` folder.
 It won't be changed when you `git pull` for the latest information.
 
 However, if you want to share your build config, you'll need to adopt one of the following solutions.
@@ -53,9 +53,9 @@ First, you can 'fork' the entire `ncov` repository, which means you have your ow
 You can then add your config files to the repository and anyone else can download them as part of your 'fork' of the repository.
 Note that if you do this, you should ensure you `pull` regularly from the original `ncov` repository to keep it up-to-date.
 
-Alternatively, you can create a new repository to hold your `my_config` files, outside of the `ncov` repository.
+Alternatively, you can create a new repository to hold your `my_profiles` files, outside of the `ncov` repository.
 You can then share this repository with others, and it's straightforward to keep `ncov` up to date, as you don't change it at all.
-If doing this, it can be easiest to create a `my_config` folder and imitate the structure found in the `my_config` folder within `ncov`, but this isn't required.
+If doing this, it can be easiest to create a `my_profiles` folder and imitate the structure found in the `my_profiles` folder within `ncov`, but this isn't required.
 Note that to run the build you'll need still run the `snakemake` command from within the `ncov` repository, but specify that the build you want is outside that folder.
 
 For the [`south-usa-sarscov2`](https://github.com/emmahodcroft/south-usa-sarscov2/) example, you can see the `south-central` build set up in a `profiles` folder.

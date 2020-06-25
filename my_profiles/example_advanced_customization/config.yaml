@@ -1,6 +1,6 @@
 configfile:
-  - default_config/default_config.yaml
-  - my_config/example_advanced_customization/builds.yaml
+  - defaults/default_config.yaml
+  - my_profiles/example_advanced_customization/builds.yaml
   - nextstrain_profiles/nextstrain-scicore/scicore-config.yaml
 
 keep-going: True

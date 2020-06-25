@@ -5,7 +5,7 @@
 # Each build needs a name, a defined subsampling process, and geographic attributes used for subsampling.
 # Geography is specified by build attributes (e.g., `region`, `country`, `division`, `location`) that are referenced from subsampling schemes.
 
-# The default config file, `./default_config/default_config.yaml` has reasonable default subsampling methods for each geographic resolution.
+# The default config file, `./defaults/default_config.yaml` has reasonable default subsampling methods for each geographic resolution.
 # These subsample primarily from the area of interest ("focus"), and add in background ("contextual") sequences from the rest of the world.
 # Contextual sequences that are genetically similar to (hamming distance) and geographically near the focal sequences are heavily prioritized.
 
@@ -52,5 +52,5 @@ builds:
 # If you want to specify specific files for each build - you can! 
 # See the 'example_advanced_customization' builds.yaml
 files:
-  auspice_config: "my_config/example/my_auspice_config.json"
-  description: "my_config/example/my_description.md"
+  auspice_config: "my_profiles/example/my_auspice_config.json"
+  description: "my_profiles/example/my_description.md"

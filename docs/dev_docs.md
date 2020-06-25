@@ -28,22 +28,22 @@ Or you can specify final or intermediate output files like so:
 
 ```bash
 # subsampled regional focal
-snakemake --profile config_library/nextstrain auspice/ncov_europe.json
+snakemake --profile nextstrain_profiles/nextstrain auspice/ncov_europe.json
 
 # subsampled global
-snakemake --profile config_library/nextstrain auspice/ncov_global.json
+snakemake --profile nextstrain_profiles/nextstrain auspice/ncov_global.json
 ```
 
 To update ordering/lat_longs after AWS download:
 
 ```bash
-snakemake --touch --forceall --profile config_library/nextstrain
-snakemake --profile config_library/nextstrain clean_export_regions
-snakemake --profile config_library/nextstrain export_all_regions
+snakemake --touch --forceall --profile nextstrain_profiles/nextstrain
+snakemake --profile nextstrain_profiles/nextstrain clean_export_regions
+snakemake --profile nextstrain_profiles/nextstrain export_all_regions
 ```
 
 When done adjusting lat-longs & orders, remember to run the following command to produce the final Auspice files.
 
 ```bash
-snakemake --profile config_library/nextstrain all_regions
+snakemake --profile nextstrain_profiles/nextstrain all_regions
 ```
