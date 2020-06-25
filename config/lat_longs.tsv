@@ -29,6 +29,7 @@ location	Almansa	38.8703	-1.0993
 location	Almassera	39.5105	-0.3572
 location	Almenara	-16.1797	-40.6953
 location	Almeria	36.844270	-2.450766
+location	Altenhof Am Hausruck	48.134291	13.686464
 location	Ambite	40.3284	-3.1824
 location	Ames	42.9038	-8.6584
 location	Anchorage	61.203109	-149.888095
@@ -524,6 +525,7 @@ location	Longjumeau	48.6931	2.2948
 location	Loon	51.379197	5.443200
 location	Loon op zand	51.625527	5.070262
 location	Los Angeles	34.029267	-118.242865
+location	Losenstein	47.924273	14.433111
 location	Lotenhulle	51.047900	3.465749
 location	Lovendegem	51.100478	3.624891
 location	Lubbeek	50.880093	4.821901
@@ -562,6 +564,7 @@ location	Mason County	47.4251	-123.1951
 location	Mat-Su	61.382704	-150.251175
 location	Matrei am Brenner	47.128405	11.452845
 location	Maua	-23.664006	-46.442663
+location	Mayrhofen	47.163296	11.862115
 location	Medellin	6.254779	-75.578125
 location	Meizhou	24.212443	116.104148
 location	Melbourne	-37.839042	145.076343
@@ -879,6 +882,7 @@ location	Teruel	40.3457	-1.1064
 location	Tervuren	50.820725	4.52387
 location	Tessenderlo	51.053036	5.060074
 location	Thanh Hoa	19.805359	105.784515
+location	Thaur	47.308893	11.462294
 location	Theux	50.518906	5.814748
 location	Thiensville	43.236206	-87.979679
 location	Thise	47.284553	6.079822
@@ -1014,6 +1018,14 @@ location	Zulueta	42.745008	-1.579320
 location	Ahmedabad	23.024605	72.570805
 location	Gandhinagar	23.227004	72.643142
 location	Mansa	23.428814	72.656249
+
+
+
+
+
+
+
+
 
 
 
@@ -1382,6 +1394,7 @@ division	Lombardy	45.4791	9.8452
 division	Los Rios	-1.385450	-79.552240
 division	Louisiana	30.9843	-91.9623
 division	Louth	53.9508	-6.5406
+division	Lower Austria	48.360214	15.824134
 division	Lucerne	47.0502	8.3093
 division	Luxembourg	49.755428	6.119486
 division	Maalot Tarshicha	33.0150	35.2760
@@ -1692,6 +1705,7 @@ division	USA	38.916963	-98.891372
 division	Uganda	1.3733	32.2903
 division	United Arab Emirates	23.546651	54.065059
 division	United Kingdom	54.242833	-2.088739
+division	Upper Austria	48.166283	13.869698
 division	Uppsala	59.8586	17.6389
 division	Uri	46.774206	8.628190
 division	Uruguay	-33	-56
@@ -1728,6 +1742,7 @@ division	Vinhphuc	21.348702	105.548594
 division	Virgin Islands	18.3358	-64.8963
 division	Virginia	37.926868	-78.024902
 division	Vitez	44.1525	17.7903
+division	Vorarlberg	47.232027	9.897419
 division	Vrancea	44.545232	22.598705
 division	Vysocina Region	49.442644	15.672714
 division	Waikato	-37.777199	175.528928

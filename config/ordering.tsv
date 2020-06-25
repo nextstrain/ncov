@@ -147,6 +147,10 @@ location	Ischgl
 location	Innsbruck
 location	Matrei am Brenner
 location	Strass im Zillertal
+location	Mayrhofen
+location	Thaur
+location	Altenhof Am Hausruck
+location	Losenstein
 location	Elbigenalp
 location	Aldrans
 location	Ramsau im Zillertal
@@ -1016,6 +1020,7 @@ location	Lanaudière
 
 
 
+
 division	Mongolia
 division	China
 division	Hubei
@@ -1201,7 +1206,6 @@ division	Netanya
 division	Hukuk
 division	Ashdod
 division	Yavne
-division	Ramat Gan
 division	Gedera
 division	Petah Tikva
 division	Raanana
@@ -1446,6 +1450,9 @@ division	Friesland
 division	Luxembourg
 division	Austria
 division	Vienna
+division	Lower Austria
+division	Upper Austria
+division	Vorarlberg
 division	Tyrol
 division	Burgenland
 division	Salzburg
