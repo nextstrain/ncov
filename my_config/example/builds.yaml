@@ -41,3 +41,7 @@ builds:
   # Sample evenly from the globe
   my_global_build:
     subsampling_scheme: region_global
+
+files:
+  auspice_config: "my_config/example/my_auspice_config.json"
+  description: "my_config/example/my_description.md"

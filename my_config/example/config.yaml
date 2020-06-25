@@ -1,6 +1,10 @@
+#####################################################################################
+#### NOTE: head over to `builds.yaml` to define what builds you'd like to run. ####
+#### (i.e., datasets and subsampling schemas)  ####
+#####################################################################################
+
 # This analysis-specific config file overrides the settings in the default config file.
 # If a parameter is not defined here, it will fall back to the default value.
-
 
 configfile:
   - default_config/default_config.yaml # Pull in the default values
