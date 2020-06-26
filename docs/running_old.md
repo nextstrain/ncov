@@ -18,6 +18,10 @@ Because Nextstrain is open-source, you may modify the analysis to suit your part
 - Understanding the parts of the analysis
 - Debugging common issues
 
+## Using the example data
+
+You can use the data in the `example_data` folder to start running quickly.
+Rename the `example_data` folder to `data`, and it will work as a subset of data for input.
 
 ## Curating your own input data
 
