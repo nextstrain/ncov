@@ -17,16 +17,16 @@ reference_node_name: "USA/WA1/2020"
 # align sequences to, colors for strain attributes in auspice, and auspice
 # configuration files.
 files:
-  include: "defaults/supplementary_files/include.txt"
-  exclude: "defaults/supplementary_files/exclude.txt"
-  reference: "defaults/supplementary_files/reference_seq.gb"
+  include: "defaults/include.txt"
+  exclude: "defaults/exclude.txt"
+  reference: "defaults/reference_seq.gb"
   outgroup: "defaults/outgroup.fasta" # is this arg still used? file doesn't exist in default repo
-  ordering: "defaults/supplementary_files/color_ordering.tsv"
-  color_schemes: "defaults/supplementary_files/color_schemes.tsv"
-  auspice_config: "defaults/default_auspice_config.json"
-  lat_longs: "defaults/supplementary_files/lat_longs.tsv"
-  description: "defaults/supplementary_files/default_description.md"
-  clades: "defaults/supplementary_files/clades.tsv"
+  ordering: "defaults/color_ordering.tsv"
+  color_schemes: "defaults/color_schemes.tsv"
+  auspice_config: "defaults/auspice_config.json"
+  lat_longs: "defaults/lat_longs.tsv"
+  description: "defaults/description.md"
+  clades: "defaults/clades.tsv"
 
 # Filter settings
 filter:

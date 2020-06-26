@@ -20,7 +20,7 @@ Places are defined as one of:
 
 To define a new place, you'll need to specify its GPS coordinates and a color.  
 
-1. Add a line to `defaults/supplementary_files/lat_longs.tsv`. This file is separated into sections for each geographic resolution. This looks like:  
+1. Add a line to `defaults/lat_longs.tsv`. This file is separated into sections for each geographic resolution. This looks like:  
 ```
 # resolution	place	latitude	longitude
 location	Abondant	48.790785	1.420178
@@ -122,7 +122,7 @@ exposure:
 We assign clade labels according to [this schema](naming_clades.md).  
 
 Because the exact topology of the tree will vary across runs, clades are defined based on their unique mutations.
-These are specified in `defaults/supplementary_files/clades.tsv` like so:
+These are specified in `defaults/clades.tsv` like so:
 
 ```tsv
 # clade	gene	site	alt

@@ -28,8 +28,8 @@ We'll walk through all of the files one by one, but here are the most important 
 |-----|-----|-----|------|
 |`./data/`|`sequences.fasta`|**Genomic sequences; IDs must match `strain` column in `metadata.tsv`**| See ['Preparing your data'](data-prep.md)
 |`./data/`|`metadata.tsv`|**Tab-delimited description of strain (i.e., sample) attributes**|See ['Preparing your data'](data-prep.md)|
-|`./defaults/supplementary_files/`|`include.txt`| List of strain names to _include_ during subsampling and filtering | One strain name per line|  
-|`./defaults/supplementary_files/`|`exclude.txt`|List of strain names to _exclude_ during subsampling and filtering|One strain name per line|
+|`./defaults/`|`include.txt`| List of strain names to _include_ during subsampling and filtering | One strain name per line|  
+|`./defaults/`|`exclude.txt`|List of strain names to _exclude_ during subsampling and filtering|One strain name per line|
 
 
 ## Output files and directories  
@@ -48,8 +48,8 @@ We'll walk through all of the files one by one, but here are the most important 
 |-----|-----|-----|----|
 |`./my_profiles/<mybuildname>/builds.yaml`|**Specify and define all the builds you'd like to run**|See our [customization guide](customizing-analysis.md)|
 |`./my_profiles/<mybuildname>/config.yaml`|**Analysis configuration file; parameterize your analyses here**|See our [customization guide](customizing-analysis.md)|
-|`./defaults/`|`default_parameters.yaml`|**Default analysis configuration file**|Override these settings in `./my_profiles/.../config.yaml`|
-|`./defaults/`|`default_auspice_config.json`|**Default visualization configuration file**|Override these settings in `./my_profiles/.../auspice_config.yaml`|See our [customization guide](customizing-visualization.md)|
+|`./defaults/`|`parameters.yaml`|**Default analysis configuration file**|Override these settings in `./my_profiles/.../config.yaml`|
+|`./defaults/`|`auspice_config.json`|**Default visualization configuration file**|Override these settings in `./my_profiles/.../auspice_config.yaml`|See our [customization guide](customizing-visualization.md)|
 
 
 ## Workflow configuration files we don't need to touch  

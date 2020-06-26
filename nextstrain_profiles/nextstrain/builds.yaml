@@ -86,11 +86,11 @@ traits:
     columns: ["division_exposure"]
 
 files:
-  legacy_clades: "nextstrain_profiles/nextstrain/supplementary_files/legacy_clades.tsv"
+  legacy_clades: "nextstrain_profiles/nextstrain/legacy_clades.tsv"
   auspice_config_gisaid: "nextstrain_profiles/nextstrain/auspice_config_gisaid.json"
   auspice_config_zh: "nextstrain_profiles/nextstrain/auspice_config_zh.json"
-  description: "nextstrain_profiles/nextstrain/supplementary_files/nextstrain_description.md"
-  description_zh: "nextstrain_profiles/nextstrain/supplementary_files/nextstrain_description_zh.md"
+  description: "nextstrain_profiles/nextstrain/nextstrain_description.md"
+  description_zh: "nextstrain_profiles/nextstrain/nextstrain_description_zh.md"
 
 # S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
 s3_staging_url: s3://nextstrain-staging
