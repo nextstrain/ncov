@@ -46,6 +46,7 @@ builds:
   # This build samples evenly from the globe
   my_global_build:
     subsampling_scheme: region_global
+    region: global
 
 # Here, you can specify what type of auspice_config you want to use
 # and what description you want. These will apply to all the above builds.
