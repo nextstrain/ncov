@@ -51,7 +51,7 @@ ncov$ snakemake --profile ./my-analyses/example
 
 
 #### 4. Visualize your results (or our example output)  
-Go to `https://auspice.us` in your browser.
+Go to `https://auspice.us` in your browser.  
 Drag and drop any of the JSON files from `./auspice/*.json` anywhere on the screen.
 
 Voila!

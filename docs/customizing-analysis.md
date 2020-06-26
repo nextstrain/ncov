@@ -1,14 +1,14 @@
 # Customizing analysis  
 
 ## Changing parameters  
-Each step in the [augur workflow](orientation-workflow.md) can be parameterized; these parameters are specified in `config.yaml` files.  
+Each step in the [augur workflow](orientation-workflow.md) can be parameterized; these parameters are specified in `.yaml` files.  
 
 We've provided reasonable default values for each step in the `defaults/parameters.yaml`; these are the same values the Nextstrain team uses for our analyses.
 
 We encourage you to take a few minutes to **skim through [the default config file](defaults/parameters.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**  
 
-If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the `my_profiles/<name>/config.yaml` file. Any values not overridden in this way will fall back to the default values.**
-Keeping build-specific parameters separate this way prevents mixups of settings between builds, and gives you a cleaner file to work with (rather than having to wrestle the _entire_ default config file).
+If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the `my_profiles/<name>/builds.yaml` file. Any values not overridden in this way will fall back to the default values.**
+Keeping build-specific parameters separate this way prevents mixups of settings between runs, and gives you a cleaner file to work with (rather than having to wrestle the _entire_ default parameterization file).
 
 ## Adding a new place    
 
@@ -44,46 +44,52 @@ Read further for information on how we select these samples.
 
 In this example, we'll look at a subsampling scheme which defines a `canton`.
 Cantons are regional divisions in Switzerland - below 'country,' but above 'location' (often city-level).
-Here, we'd like to be able to specify a particular 'canton' and do focal sampling there, with contextual samples from elsewhere in the country, other countries in the region, and other regions in the world.
+In the advanced example (`./my_profiles/example_advanced_customization`), we'd like to be able to specify a set of neighboring 'cantons' and do focal sampling there, with contextual samples from elsewhere in the country, other countries in the region, and other regions in the world.
 
 For cantons this looks like this:
 ```yaml
-subsampling:
-  # We are calling this type of sampling 'canton'.
-  # As a 'canton' is a division, we'll start by defining what kind of sampling we want at the 'division' level, for whatever canton we specify
-  canton: ## Build name
-    # Focal samples for division (only samples from a specifed division with 300 seqs per month)
-    division:
-      group_by: "year month"
-      seq_per_group: 300
-      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
-    # Now we'll specify the types of 'contextual' samples we want:
-    # Contextual samples from division's country
-    country:
-      group_by: "division year month"
-      seq_per_group: 20
-      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
-      priorities:
-        type: "proximity"
-        focus: "division"
-    # Contextual samples from division's region
-    region:
-      group_by: "country year month"
-      seq_per_group: 10
-      exclude: "--exclude-where 'region!={region}' 'country={country}'"
-      priorities:
-        type: "proximity"
-        focus: "division"
-    # Contextual samples from the rest of the world, excluding the current
-    # division to avoid resampling.
-    global:
-      group_by: "country year month"
-      seq_per_group: 5
-      exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "division"
+# This build will take from 3 cantons - we have a sample rule for each,
+# rather than just one division that's focal build
+lac-leman:
+  # focal samples
+  geneva:
+    group_by: "year month"
+    seq_per_group: 300
+    exclude: "--exclude-where 'division!=geneva'"
+  vaud:
+    group_by: "year month"
+    seq_per_group: 300
+    exclude: "--exclude-where 'division!=vaud'"
+  valais:
+    group_by: "year month"
+    seq_per_group: 300
+    exclude: "--exclude-where 'division!=valais'"
+
+  # Contextual samples from the country
+  country:
+    group_by: "division year month"
+    seq_per_group: 20
+    exclude: "--exclude-where 'country!=switzerland'"
+
+  # Contextual samples from division's region
+  region:
+    group_by: "country year month"
+    seq_per_group: 10
+    exclude: "--exclude-where 'region!=europe'"
+    priorities:
+      type: "proximity"
+      focus: "country"
+  # Contextual samples from the rest of the world, excluding the current
+  # division to avoid resampling.
+  global:
+    group_by: "country year month"
+    seq_per_group: 5
+    exclude: "--exclude-where 'region=europe'"
+    priorities:
+      type: "proximity"
+      focus: "country"
 ```
+
 All entries above canton level (the 'contextual' samples) specify priorities.
 Currently, we have only implemented one type of priority called `proximity`.
 It attempts to selected sequences as close as possible to the focal samples
@@ -103,16 +109,16 @@ For each build, you can specify which categorical metadata fields to use for tra
 To specify this on a per-build basis, add a block like the following to your `my_profiles/<name>/builds.yaml` file:
 ```yaml
 traits:
-  north-america: ### build name  
+  my_north_america_build: ### build name  
     sampling_bias_correction: 2.5
     columns: ["country_exposure", "division_exposure"] ### traits to reconstruct; must match column names in metadata.tsv
 ```
 
-This is particularly powerful when travel histories are available.
+This is particularly powerful when travel histories are available:
 
 ```yaml
 exposure:
-  north-america: ## build name  
+  my_north_america_build: ### build name  
     trait: "division"
     exposure: "division_exposure"
 ```

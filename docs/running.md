@@ -17,26 +17,28 @@ If you haven't done this step yet, check out our [data prep](data-prep.md) guide
 In the orientation section, we learned that  
 - [Nextstrain analyses are run using a workflow manager called Snakemake](orientation-workflow.md)  
 - [A "build"](glossary.md#Build) is a bundle of input files, parameters, and commands   
-- [Each build is configured by two primary files](orientation-files.md): `build.yaml` and `config.yaml`  
+- [Each build is primarily configured by your `builds.yaml` file](orientation-files.md): `build.yaml` and `config.yaml`  
 
 Let's start with defining a build in `./my_profiles/example/builds.yaml`.  
 **We use the `builds.yaml` file to define what geographic areas of the world we want to focus on. Each block in this file will produce a separate output JSON for visualization**.  
 
-The first block of the provided `build.yaml` file looks like this:  
+The first block of the provided `./my_profiles/example/builds.yaml` file looks like this:  
 ```
-# build focusing on King County (location) in Washington State (division) in the USA (country)
-
 builds:
-  my_king_county_build: # name of the build
+  # Focus on King County (location) in Washington State (division) in the USA (country)
+  my_king_county_build: # name of the build; this can be anything
     subsampling_scheme: location # what subsampling method to use (see parameters.yaml)
     region: North America
     country: USA
     division: Washington
     location: King County
+    # Whatever your lowest geographic area is (here, 'location' since we are doing a county in the USA)
+    # list 'up' from here the geographic area that location is in.
+    # Here, King County is in Washington state, is in USA, is in North America.
 ```
 Looking at this example, we can see that each build has a:  
 - `build_name`, which is used for naming output files  
-- `subsampling_scheme`, which specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes [can be defined](###).
+- `subsampling_scheme`, which specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes [can be defined](customizing-analysis.md).
 - `region`, `country`, `division`, `location`: specify geographic attributes of the sample used for subsampling
 
 The rest of the builds defined in this file serve as examples for division-, country- or region-focused analyses.
