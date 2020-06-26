@@ -805,7 +805,7 @@ location	Santana	6.057578	-73.479309
 location	Santiago	-33.464455	-70.651851
 location	Santiago de Compostela	42.8782	8.5448
 location	Sao Bernardo do Campo	-23.735551	-46.563349
-location	Sao Paulo	-23.551096	-46.634874
+location	São Paulo	-23.551096	-46.634874
 location	Saratoga County	43.0324	-73.9360
 location	Saukville	43.3817	-87.9406
 location	Savli	22.560712	73.223754
@@ -1035,14 +1035,6 @@ location	Mansa	23.428814	72.656249
 
 
 
-
-
-
-
-
-
-
-
 division	Aalst	50.939656	4.064173
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
@@ -1196,6 +1188,7 @@ division	Copenhagen	55.6761	12.5683
 division	Copiapo	-27.372842	-70.320323
 division	Cordoba	8.359263	-75.763226
 division	Cork	51.895349	-8.474381
+division	Cotonou	6.372284	2.365266
 division	Counties Manukau	-37.101403	175.005947
 division	Coyhaique	-45.5712	-72.0683
 division	Croatia	45.1	15.2
@@ -1539,6 +1532,7 @@ division	Ostergotland	58.402269	15.748012
 division	Osun State	7.592215	4.505599
 division	Otago	-45.412319	169.855268
 division	Ouarzazate	30.9335	6.9370
+division	Oueme	6.625372	2.532611
 division	Oudenaarde	50.857635	3.629018
 division	Overijssel	52.436273	6.463628
 division	Oyo State	8.154414	3.632978
@@ -1752,6 +1746,7 @@ division	Vastmanland	59.6714	16.2159
 division	Vastra Gotaland	58.2528	13.0596
 division	Vaud	46.619469	6.472479
 division	Veneto	45.4415	12.3153
+division	Venezuela	7.838891	-65.916409
 division	Vermont	44.5588	-72.5778
 division	Verona	45.4384	10.9916
 division	Verviers	50.580257	5.866744
@@ -1804,6 +1799,7 @@ country	Argentina	-37.052315	-64.869142
 country	Austria	47.5162	14.5501
 country	Bangladesh	24.506442	90.041454
 country	Belarus	53.704205	28.247691
+country	Benin	9.961027	2.327362
 country	Costa Rica	10.037900	-83.818759
 country	Croatia	45.1000	15.2000
 country	Cyprus	34.965802	33.171772
@@ -1839,6 +1835,7 @@ country	Timor-Leste	-8.809397	125.909527
 country	Tunisia	33.654143	9.065134
 country	Turkey	39.046746	36.767068
 country	Uganda	1.861287	32.551490
+country	Venezuela	7.838891	-65.916409
 
 
 country	Africa	4.070194	21.824559

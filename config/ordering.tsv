@@ -757,7 +757,7 @@ location	Valledupar
 location	Cajica
 location	Villavicencio
 location	Yumbo
-location	Sao Paulo
+location	São Paulo
 location	Brasilia
 location	Rio de Janeiro
 location	Bahia Blanca
@@ -1030,7 +1030,6 @@ location	Accra
 location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
-
 
 
 
@@ -1574,6 +1573,8 @@ division	Denmark
 division	Portugal
 division	Egypt
 division	Cairo
+division	Oueme
+division	Cotonou
 division	Nigeria
 division	Kwara State
 division	Ogun State
@@ -1656,7 +1657,8 @@ division	Amapa
 division	Santa Catarina
 division	Alagoas
 division	Acre
-division	Maranhao
+division	Maranhão
+division	Venezuela
 division	Argentina
 division	Ciudad Autonoma de Buenos Aires
 division	Buenos Aires
@@ -1850,6 +1852,7 @@ country	Portugal
 country	Greece
 country	Egypt
 country	Nigeria
+country	Benin
 country	Kenya
 country	Ghana
 country	Senegal
@@ -1865,6 +1868,7 @@ country	Ecuador
 country	Peru
 country	Brazil
 country	Argentina
+country	Venezuela
 country	Uruguay
 country	Colombia
 country	Panama
