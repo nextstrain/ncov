@@ -14,7 +14,7 @@ In order to download the GISAID data to run yourself, please see [Running a SARS
 
 ### Clades
 
-For information about how clades are defined, and the currently named clades, please see [here](./docs/clades.md).
+For information about how clades are defined, and the currently named clades, please see [here](./docs/naming_clades.md).
 
 ### Bioinformatics notes
 
