@@ -34,30 +34,25 @@ We also recommend [this 1-hour video overview](https://youtu.be/m4_F2tG58Pc) by 
 git clone https://github.com/nextstrain/ncov.git
 ```
 
-#### 2. Install augur for bioinformatics
+#### 2. Install augur and auspice for bioinformatics and visualization, respectively
+_Note: this assumes you have conda installed. If this doesn't work for you, see our full installation instructions [here](https://nextstrain.org/docs/getting-started/local-installation)._
 ```
-python3 -m pip install nextstrain-augur
-```
-
-MacOS:
-```
-brew install mafft iqtree raxml fasttree vcftools
-```
-
-Ubuntu/Debian:  
-```
-sudo apt install mafft iqtree raxml fasttree vcftools
+curl http://data.nextstrain.org/nextstrain.yml --compressed -o nextstrain.yml
+conda env create -f nextstrain.yml
+conda activate nextstrain
+npm install --global auspice
 ```
 
 #### 3. Run basic analysis on example data  
 ```
+ncov$ conda activate nextstrain
 ncov$ snakemake --profile ./my-analyses/example
 ```
 
 
 #### 4. Visualize your results (or our example output)  
 Go to `https://auspice.us` in your browser.
-Drag and drop `./auspice/ncov_example.json` (or any other JSON in this directory) anywhere on the screen.
+Drag and drop any of the JSON files from `./auspice/*.json` anywhere on the screen.
 
 Voila!
 
