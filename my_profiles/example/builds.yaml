@@ -5,7 +5,7 @@
 # Each build needs a name, a defined subsampling process, and geographic attributes used for subsampling.
 # Geography is specified by build attributes (e.g., `region`, `country`, `division`, `location`) that are referenced from subsampling schemes.
 
-# The default config file, `./defaults/default_parameters.yaml` has reasonable default subsampling methods for each geographic resolution.
+# The default config file, `./defaults/parameters.yaml` has reasonable default subsampling methods for each geographic resolution.
 # These subsample primarily from the area of interest ("focus"), and add in background ("contextual") sequences from the rest of the world.
 # Contextual sequences that are genetically similar to (hamming distance) and geographically near the focal sequences are heavily prioritized.
 
@@ -14,7 +14,7 @@
 builds:
   # Focus on King County (location) in Washington State (division) in the USA (country)
   my_king_county_build: # name of the build; this can be anything
-    subsampling_scheme: location # what subsampling method to use (see default_parameters.yaml)
+    subsampling_scheme: location # what subsampling method to use (see parameters.yaml)
     region: North America
     country: USA
     division: Washington
