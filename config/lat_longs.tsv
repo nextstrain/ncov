@@ -1125,6 +1125,8 @@ division	Boufarik	36.57709	2.914137
 division	Bourgogne	47.0525	4.3837
 division	Bourgogne-France-Comté	47.2805	4.9994
 division	Boyaca	5.454426	-73.362218
+division	Braffe	50.5522	3.5820
+division	Braine-lAlleud	50.6854	4.3779
 division	Brasov	45.6580	25.6012
 division	Bratislava	48.1486	17.1077
 division	Brazil	-10.3333332	-53.1999999
@@ -1169,6 +1171,7 @@ division	Charleroi	50.418039	4.440646
 division	Chattogram	22.3569	91.7832
 division	Chechen Republic	43.4023	45.7187
 division	Chelyabinsk Region	54.4319	60.8789
+division	Chercq	50.5895	3.4220
 division	Chiapas	16.520858	-92.643133
 division	Chiba	35.463961	140.223882
 division	Chihuahua	28.633	-106.0691
@@ -1222,9 +1225,11 @@ division	Drenthe	52.846963	6.608915
 division	Dublin	53.3431	-6.262191
 division	Dubrovnik	42.651307	18.102801
 division	Duesseldorf	51.236437	6.809537
+division	Duisberg	51.4344	6.7623
 division	Durango	24.019546	-104.658028
 division	East Kalimantan	0.241323	116.558975
 division	Eastern Cape	-32.344458	26.497832
+division	Ecaussinnes	50.5606	4.1724
 division	Ecuador	-1.3397667	-79.3666964
 division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
@@ -1245,6 +1250,7 @@ division	Frankfurt	50.1109	8.6821
 division	Fribourg	46.804570	7.162854
 division	Friesland	53.1642	5.7818
 division	Friuli Venezia Giulia	46.2259	13.1034
+division	Froyennes	50.6229	3.3471
 division	Fujian	26.284852	118.122938
 division	Galicia	42.5751	-8.1339
 division	Gambia	13.5	-15.5
@@ -1280,11 +1286,14 @@ division	Guayas	-1.9575	-79.9193
 division	Guerrero	17.463444	-99.792052
 division	Gujarat	22.2587	71.1924
 division	Gyeonggi	37.397957	127.380864
+division	Haasrode	50.8322	4.7335
 division	Haifa	32.7940	34.9896
+division	Halen	50.9485	5.1112
 division	Halland	56.964727	12.796906
 division	Halle-Vilvoorde	50.927353	4.424742
 division	Hangzhou	30.2741	120.1551
 division	Hanoi	21.0278	105.8342
+division	Harchies	50.4803	3.6947
 division	Haryana	29.0588	76.0856
 division	Hasselt	50.925347	5.311394
 division	Haut-Katanga	-10.457682	27.690512
@@ -1295,9 +1304,12 @@ division	Heilongjiang	47.286490	127.992676
 division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
 division	Heredia	9.997549	-84.121162
+division	Herselt	51.0524	4.8807
+division	Heverlee	50.8626	4.6959
 division	Heves County	47.8058	20.2039
 division	Ho Chi Minh City	10.790417	106.653985
 division	Holon	32.0158	34.7874
+division	Holsbeek	50.9211	4.7570
 division	Hong Kong	22.3964	114.1095
 division	Hranice Na Moravě	49.5497	17.7349
 division	Huasco	-28.467340	-71.221674
@@ -1343,6 +1355,7 @@ division	Jihlava	49.3984	15.5870
 division	Jonkoping	57.7826	14.1618
 division	Jordan	31.1667049	36.941628
 division	Jura	47.368929	7.163449
+division	Kaggevinne	50.9794	5.0190
 division	Kalmar	56.6634	16.3568
 division	Kanagawa	35.403801	139.294288
 division	Kansai	34.778675	135.880055
@@ -1358,6 +1371,7 @@ division	Kaulille	51.1872	5.5257
 division	Kayseri	38.7205	35.4826
 division	Kecskemet	46.8964	19.6897
 division	Keelung	25.1276	121.7392
+division	Kersbeek-Miskom	50.886055	4.995715
 division	Kentucky	37.649540	-85.450190
 division	Kenya	0.0236	37.9062
 division	Kerala	10.359825	76.39955
@@ -1401,6 +1415,7 @@ division	Lima	-11.971424	-77.070229
 division	Limburg	50.612763	5.936255
 division	Limerick	52.662235	-8.627565
 division	Limpopo	-23.4013	29.4179
+division	Linter	50.802855	5.056890
 division	Lipetsk Region	52.5265	39.2032
 division	Lisbon	38.7223	-9.1393
 division	Lithuania	55.41667	24
@@ -1413,6 +1428,7 @@ division	Louisiana	30.9843	-91.9623
 division	Louth	53.9508	-6.5406
 division	Lower Austria	48.360214	15.824134
 division	Lucerne	47.0502	8.3093
+division	Luingne	50.738590	3.233736
 division	Luxembourg	49.755428	6.119486
 division	Maalot Tarshicha	33.0150	35.2760
 division	Maaseik	51.104005	5.714000
@@ -1434,6 +1450,7 @@ division	Martin	49.0617	18.919
 division	Maryland	39.0458	-76.6413
 division	Massachusetts	42.340741	-71.998513
 division	Mato Grosso	-12.6819	-56.9211
+division	Maurage	50.456959	4.099206
 division	Mazowieckie	52.467791	21.224779
 division	Mbour	14.427132	-16.966574
 division	Mechelen	51.033475	4.444398
@@ -1452,6 +1469,7 @@ division	Minnesota	46.126042	-94.619581
 division	Mioveni	44.957951	24.939220
 division	Mirpur	23.808569	90.363307
 division	Missouri	37.9643	-91.8318
+division	Molenbeek-Saint-Jean	50.849476	4.329267
 division	Molise	41.686461	14.608668
 division	Mongolia	47.504782	102.997672
 division	Mons	50.445439	3.962794
@@ -1466,6 +1484,7 @@ division	Munich	48.144747	11.561739
 division	Muscat	23.580244	58.362707
 division	Murcia	37.9922	-1.1307
 division	Myanmar	20.600856	96.287616
+division	Naast	50.554614	4.099133
 division	Nakhonnayok	14.180467	101.096533
 division	Namur	50.457215	4.879493
 division	Nara	34.371026	135.887389
@@ -1479,6 +1498,7 @@ division	Nepal	28	84
 division	Netanya	32.3215	34.8532
 division	Netherlands	52.1326	5.2913
 division	Netivot	31.4232	34.5953
+division 	Neufvilles	50.568779	4.002636
 division	Nevada	38.8026	-116.4194
 division	Nevsehir	38.767304	34.698996
 division	New Brunswick	46.57077	-66.308191
@@ -1508,6 +1528,7 @@ division	North-West	-26.524595	25.625515
 division	Northern Ireland	54.60219	-6.687146
 division	Northern Territory	-19.4914	132.551
 division	Norway	64.574131	11.52701029
+division	Nossegem	50.878367	4.507474
 division	Nottinghamshire	53.134734	-0.989052
 division	Nova Scotia	44.879119	-64.020314
 division	Novi Pazar	43.1407	20.5214
@@ -1541,6 +1562,7 @@ division	Oudenaarde	50.857635	3.629018
 division	Overijssel	52.436273	6.463628
 division	Oyo State	8.154414	3.632978
 division	Pa Trento	46.096712	11.130704
+division 	Paal	51.032994	5.166286
 division	Pahang	3.8126	103.3256
 division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
@@ -1551,10 +1573,12 @@ division	Pardesia	32.3050	34.9117
 division	Pasuruan	-7.6469	112.8999
 division	Pathum Thani	14.018153	100.723973
 division	Pays de la Loire	47.640237	-0.647258
+division	Peer	50.5039	4.4699
 division	Pennsylvania	41.2033	-77.1945
 division	Perm Region	58.017794	56.311058
 division	Pernambuco	-8.8137	-36.9541
 division	Peru	-10	-75.25
+division	Péruwelz	50.5106	3.5937
 division	Petah Tikva	32.0840	34.8878
 division	Philippeville	50.178836	4.592270
 division	Philippines	12.8797	121.774
@@ -1750,6 +1774,7 @@ division	Vasternorrland	63.286259	17.641659
 division	Vastmanland	59.6714	16.2159
 division	Vastra Gotaland	58.2528	13.0596
 division	Vaud	46.619469	6.472479
+division	Veerle	51.0699	4.9872
 division	Veneto	45.4415	12.3153
 division	Venezuela	7.838891	-65.916409
 division	Vermont	44.5588	-72.5778
