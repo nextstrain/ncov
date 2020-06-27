@@ -64,6 +64,7 @@ location	Balen	51.155143	5.184431
 location	Bangkok	13.803139	100.491612
 location	Baranain	42.804918	-1.682891
 location	Barasoain	42.604612	-1.645399
+location	Bardoli	21.127394	73.105201
 location	Barrancabermeja	7.067561	-73.848406
 location	Barranquilla	10.987216	-74.805576
 location	Barueri	-23.5114	-46.8729
@@ -199,6 +200,7 @@ location	Chillan	-36.6063	-72.1023
 location	Chippewa Falls	44.931261	-91.389704
 location	Choconta	5.146017	-73.683678
 location	Chongqing	29.858721	107.375623
+location	Choryasi	21.309529	72.957233
 location	Chungcheongnam	36.685948	126.799198
 location	Churriana de la Vega	37.1457	-3.6449
 location	Châtelet	50.400026	4.521491
@@ -748,6 +750,7 @@ location	Rennes	48.1173	1.6778
 location	Retie	51.268101	5.078413
 location	Rianjo	42.6924	-8.7812
 location	Richland Center	43.339975	-90.385959
+location	Richland County	34.043420	-80.959967
 location	Richmond County	40.5795	-74.1502
 location	Riemst	50.805092	5.589712
 location	Rijkevorsel	51.355735	4.766466
@@ -808,6 +811,7 @@ location	Sao Bernardo do Campo	-23.735551	-46.563349
 location	São Paulo	-23.551096	-46.634874
 location	Saratoga County	43.0324	-73.9360
 location	Saukville	43.3817	-87.9406
+location	Savali	22.952682	73.110405
 location	Savli	22.560712	73.223754
 location	Schenectady County	42.822882	-74.053939
 location	Scherpenheuvel-Zichem	50.997795	4.967443
@@ -1035,6 +1039,7 @@ location	Mansa	23.428814	72.656249
 
 
 
+
 division	Aalst	50.939656	4.064173
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
@@ -1150,8 +1155,7 @@ division	Cartago CO	4.748755	-75.928118
 division	Cartago CR	9.864015	-83.917122
 division	Casablanca	33.589370	-7.604170
 division	Castel di Sangro	41.784	14.108
-division	Castilla La Mancha	39.2796	-3.0977
-division	Castilla Y León	41.8357	-4.3976
+division	Castilla la Mancha	39.2796	-3.0977
 division	Castilla y Leon	41.8357	-4.3976
 division	Catalunya	41.834815	1.606414
 division	Cauca	2.473774	-76.864221
@@ -1691,6 +1695,7 @@ division	Teramo	42.6611	13.6987
 division	Texas	31.146868	-99.188758
 division	Thailand	14.8971921	100.83273
 division	Thanh Hoa	20.026365	105.439044
+division	Thessaloniki	40.636023	22.943965
 division	Thies	14.791	-16.9359
 division	Thuin	50.326454	4.308720
 division	Thurgau	47.576816	9.072051

@@ -94,6 +94,9 @@ location	Bharuch
 location	Kheda
 location	Mandvi
 location	Bhuj
+location	Savali
+location	Bardoli
+location	Choryasi
 location	Mandsaur
 location	Neemach
 location	Burhanpur
@@ -1026,10 +1029,12 @@ location	Columbia County
 location	Marion County
 location	Multnomah County
 location	Wasco County
+location	Richland County
 location	Accra
 location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
+
 
 
 
@@ -1387,9 +1392,8 @@ division	Auvergne Rhone Alpes
 division	Spain
 division	Aragon
 division	Melilla
-division	Castilla Y León
 division	Basque Country
-division	Castilla La Mancha
+division	Castilla la Mancha
 division	Andalusia
 division	Asturias
 division	Navarra
@@ -1568,6 +1572,7 @@ division	Gavleborgs Lan
 division	Orebro Lan
 division	Norrbotten
 division	Greece
+division	Thessaloniki
 division	Finland
 division	Denmark
 division	Portugal
