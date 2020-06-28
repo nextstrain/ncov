@@ -200,6 +200,32 @@ location	Dalen
 location	Budapest
 location	Macon
 location	Uccle
+location	Harchies
+location	Haasrode
+location	Diest
+location	Kersbeek-Miskom
+location	Duisburg
+location	Heusden-Zolder
+location	Halen
+location	Beverlo
+location	Steenokkerzeel
+location	Kampenhout
+location	Nossegem
+location	Halle
+location	Peer
+location	Veerle
+location	Froyennes
+location	Braffe
+location	Chercq
+location	Péruwelz
+location	Luingne
+location	Naast
+location	Braine-le-Comte
+location	Écaussinnes
+location	Neufvilles
+location	Strépy-Bracquegnies
+location	Maurage
+location	Landen BE
 location	Kaulille
 location	Quévy
 location	Ixelles
@@ -218,7 +244,7 @@ location	Enghien
 location	Maldegem
 location	Ans
 location	Berg
-location	Limbourg
+location	Limbourg BE
 location	Comines
 location	Villerot
 location	Poppel
@@ -1037,7 +1063,6 @@ location	Lanaudière
 
 
 
-
 division	Mongolia
 division	China
 division	Hubei
@@ -1409,35 +1434,17 @@ division	Auderghem
 division	La Louvière
 division	Tournai
 division	Belgium
-division	Braffe
 division	Braine-l'Alleud
-division	Chercq
-division	Duisburg
-division	Écaussinnes
-division	Froyennes
-division	Haasrode
-division	Halen
-division	Harchies
 division	Herselt
 division	Heverlee
 division	Holsbeek
 division	Kaggevinne
-division	Kersbeek-Miskom
-division	Landen BE
 division	Linter
-division	Luingne
-division	Maurage
 division	Molenbeek-Saint-Jean
-division	Naast
-division	Neufvilles
-division	Nossegem
 division	Paal
-division	Peer
-division	Péruwelz
-division	Veerle
 division	Leuven
 division	Philippeville
-division	Limbourg
+division	Limburg
 division	Eeklo
 division	Namur
 division	Charleroi
@@ -1449,6 +1456,7 @@ division	Mons
 division	Hasselt
 division	Sint-Niklaas
 division	Brussels
+division	Verviers
 division	Thuin
 division	Tournai-Mouscron
 division	Brugge
@@ -1458,24 +1466,16 @@ division	Kortrijk
 division	Diksmuide
 division	Oostende
 division	Halle-Vilvoorde
-division	Landen BE
 division	Zolder
-division	Diest
-division	Kampenhout
 division	Tervuren
-division	Steenokkerzeel
-division	Beverlo
 division	Tubize
 division	Ixelles
 division	Laken
-division	Strépy-Bracquegnies
-division	Flines-Les-Morta
+division	Flines-lès-Mortagne
 division	Mouscron
 division	Sint-Truiden
 division	Tienen
-division	Heusden-Zolder
 division	Koersel
-division	Braine-le-Comte
 division	Lummen
 division	Szabolcs-Szatmár-Bereg County
 division	Houthalen-Helchteren

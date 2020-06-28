@@ -103,6 +103,7 @@ location	Beuzet	50.533144	4.745754
 location	Bevel	51.137253	4.680380
 location	Bevere	51.248887	4.235716
 location	Beveren	51.244589	4.229537
+location	Beverlo	51.086108	5.218808
 location	Beverst	50.889411	5.475428
 location	Bharuch	21.720731	72.999163
 location	Bhuj	23.247885	69.666857
@@ -131,8 +132,10 @@ location	Bottelare	50.962494	3.753962
 location	Bourg-en-Bresse	46.206861	5.229144
 location	Boussu	50.425366	3.797692
 location	Boutersem	50.833781	4.839596
+location	Braffe	50.551795	3.582031
 location	Braine-l'Alleud	50.671286	4.358875
 location	Braine-le-Château	50.677854	4.267574
+location	Braine-le-Comte	50.612409	4.149466
 location	Branford	41.286635	-72.801979
 location	Brasilia	-15.814189	-47.875543
 location	Brasschaat	51.308911	4.497508
@@ -192,6 +195,7 @@ location	Changzhou	31.774498	119.919839
 location	Chateau-Thierry	49.048053	3.390023
 location	Chenango County	42.4972	-75.6208
 location	Chengdu	30.640989	104.067518
+location	Chercq	50.588930	3.422219
 location	Cheshire	41.5084	-72.9106
 location	Chicago	41.858966	-87.637242
 location	Chiclana de la Frontera	36.407163	-6.153590
@@ -262,6 +266,7 @@ location	Dhansura	23.3498	73.2087
 location	Dhanera	24.5064	72.0258
 location	Diadema	-23.692685	-46.606911
 location	Diemen	52.3390	4.9592
+location	Diest	50.998854	5.062917
 location	Dijon	47.3220	5.0415
 location	Dilbeek	50.8465	4.2621
 location	Dolembreux	50.535464	5.632975
@@ -271,12 +276,14 @@ location	Dosquebradas	4.832649	-75.677377
 location	Douglas County	47.728531	-119.651043
 location	Dour	50.390137	3.785941
 location	Duesseldorf	51.22166	6.75289
+location	Duisburg	50.814708	4.551668
 location	Duque de Caxias	-22.7863	-43.3053
 location	Dutchess County	41.762637	-73.721778
 location	East Baton Rouge Parish	30.469664	-91.097549
 location	East Haven	41.298543	-72.862538
 location	East Feliciana Parish	30.850463	-91.036298
 location	East Medinipur	22.037985	87.811563
+location	Écaussinnes	50.561198	4.181268
 location	Echavarri	42.727827	-2.066099
 location	Eielson AFB	64.655387	-147.064620
 location	Eindhoven	51.4416	5.4697
@@ -323,6 +330,7 @@ location	Frameries	50.389738	3.883946
 location	Franklin	42.882823	-88.009275
 location	Franklin County NY	44.5926	-74.3388
 location	Franklin County WA	46.517555	-118.921601
+location	Froyennes	50.622463	3.347464
 location	Funza	4.713017	-74.206999
 location	Fuyang	32.904205	115.812367
 location	Fuzhou	27.965633	116.359573
@@ -370,6 +378,9 @@ location	Gulshan	23.7925	90.4078
 location	Guyancourt	48.7629	2.0753
 location	Gyeonggi	37.397957	127.380864
 location	Haarlem	52.3874	4.6462
+location	Haasrode	50.831336	4.733827
+location	Halen	50.948587	5.090071
+location	Halle	50.723860	4.235891
 location	Ham Sous Varsberg	49.1796	6.6452
 location	Hamden	41.397428	-72.924035
 location	Hamme	51.081154	4.142607
@@ -377,6 +388,7 @@ location	Hangzhou	30.272732	120.154501
 location	Hannut	50.667745	5.077469
 location	Hanoi	21.020191	105.836099
 location	Harbin	45.743472	126.645116
+location	Harchies	50.479753	3.694996
 location	Hardinxveld	51.8324	4.8336
 location	Hardinxveld Giessendam	51.830196	4.840971
 location	Harelbeke	50.865264	3.308918
@@ -397,6 +409,7 @@ location	Heppen	51.108225	5.228402
 location	Herselt	51.048723	4.879674
 location	Herstal	50.680399	5.606845
 location	Herve	50.647665	5.794572
+location	Heusden-Zolder	51.016671	5.290726
 location	Heverlee	50.861704	4.695889
 location	Hillpoint	43.423267	-90.113371
 location	Himatnagar	23.5969	72.9630
@@ -459,12 +472,13 @@ location	Juvisy-sur-Orge	48.690609	2.377581
 location	Jönköping	57.777979	14.160453
 location	Kadi	23.294922	72.333046
 location	Kaggevinne	50.980233	5.021191
-location	Kalia	23.037114	89.641357
 location	Kain	50.637121	3.379162
+location	Kalia	23.037114	89.641357
 location	Kalisz	51.743335	18.073619
 location	Kalken	51.037676	3.917157
 location	Kalmthout	51.383	4.4752
 location	Kalol	23.238801	72.498547
+location	Kampenhout	50.945063	4.567367
 location	Kaohsiung	22.622632	120.312435
 location	Kapadvanj	23.0200	73.0700
 location	Kasterlee	51.2405	4.9674
@@ -474,6 +488,7 @@ location	Kelmis	50.714674	6.023042
 location	Kematen in Tirol	47.253643	11.273540
 location	Keqiao	30.0819	120.4951
 location	Kermt	50.946857	5.247189
+location	Kersbeek-Miskom	50.886946	4.999315
 location	Kessel-Lo	50.8851	4.7357
 location	Ketchikan	55.346882	-131.655301
 location	Kheda	22.749950	72.686465
@@ -506,6 +521,7 @@ location	Lalin	42.6612	-8.1110
 location	Lamine	50.688307	5.334720
 location	Lanaken	50.884429	5.634002
 location	Lanaudière	46.76678	-73.83248
+location	Landen BE	50.75267	5.082
 location	Las Palmas	28.1009	-15.4654
 location	Lasne	50.679575	4.463992
 location	Le Pecq	48.8973	2.1064
@@ -517,7 +533,7 @@ location	Leticia	-4.212580	-69.943144
 location	Levallois-Perret	48.8932	2.2879
 location	Lezuza	38.9496	-2.3555
 location	Lillois-Witterzée	50.644797	4.366948
-location	Limbourg	50.613635	5.935911
+location	Limbourg BE	50.613635	5.935911
 location	Linter	50.818098	5.042221
 location	Lippelo	51.041285	4.258686
 location	Lishui	28.460681	119.919147
@@ -538,6 +554,7 @@ location	Losenstein	47.924273	14.433111
 location	Lotenhulle	51.047900	3.465749
 location	Lovendegem	51.100478	3.624891
 location	Lubbeek	50.880093	4.821901
+location	Luingne	50.737783	3.234058
 location	Lummen	50.995516	5.181081
 location	Luttre	50.509069	4.391808
 location	Luxembourg	49.607806	6.130375
@@ -574,6 +591,7 @@ location	Mason County	47.4251	-123.1951
 location	Mat-Su	61.382704	-150.251175
 location	Matrei am Brenner	47.128405	11.452845
 location	Maua	-23.664006	-46.442663
+location	Maurage	50.455601	4.099269
 location	Mayrhofen	47.163296	11.862115
 location	Medellin	6.254779	-75.578125
 location	Meizhou	24.212443	116.104148
@@ -626,6 +644,7 @@ location	Muscoda	43.189115	-90.439704
 location	Museros	39.5738	-0.3607
 location	Mutilva	42.789102	-1.616814
 location	Naarden	52.2953	5.1604
+location	Naast	50.553695	4.099133
 location	Nadiad	22.6916	72.8634
 location	Nanchang	28.707143	115.874137
 location	Nancy	48.6921	6.1844
@@ -636,6 +655,7 @@ location	Neerpelt	51.228889	5.431667
 location	Negreira	42.9105	-8.7363
 location	Neiva	2.933160	-75.277542
 location	Neufmaison	50.528807	3.793244
+location	Neufvilles	50.568107	4.004889
 location	Nevele	51.0343	3.5474
 location	New Berlin	42.969065	-88.129847
 location	New Fairfield	41.4661	-73.4856
@@ -659,6 +679,7 @@ location	North Haven	41.383683	-72.858134
 location	Northamtonshire	52.324226	-0.872799
 location	Northern Queensland	-17.758290	142.643075
 location	Northford	41.392896	-72.791640
+location	Nossegem	50.877645	4.507645
 location	Nottinghamshire	53.139677	-1.027527
 location	Nova Iguacu	-22.7561	-43.4607
 location	Oak Creek	42.878698	-87.901041
@@ -696,10 +717,12 @@ location	Pamplona	42.808441	-1.648651
 location	Panola County	32.1920	-94.3154
 location	Paris	48.853884	2.341738
 location	Passaic County	40.955105	-74.229353
+location	Peer	51.128120	5.458372
 location	Pelt	51.210014	5.420519
 location	Peralta	42.337833	-1.799176
 location	Pereira	4.804771	-75.717885
 location	Perth	-31.942741	115.841171
+location	Péruwelz	50.535464	3.566154
 location	Petropolis	-22.5112	-43.1779
 location	Pewaukee	43.061507	-88.237950
 location	Phoenix	33.433362	-112.068786
@@ -866,6 +889,7 @@ location	St Tammany Parish	30.438441	-89.935519
 location	St. Anton	47.121254	10.265750
 location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
+location	Steenokkerzeel	50.922396	4.499669
 location	Steinach am Brenner	47.090272	11.472902
 location	Stekene	51.214088	4.030857
 location	Sterrebeek	50.866403	4.474336
@@ -873,6 +897,7 @@ location	Stoughton	42.922770	-89.225062
 location	Strasbourg	48.5734	7.7521
 location	Strass im Zillertal	47.397430	11.820402
 location	Stratford	41.1845	-73.1332
+location	Strépy-Bracquegnies	50.480107	4.120343
 location	Suffolk County	40.9849	-72.6151
 location	Sun Prarie	43.185544	-89.230804
 location	Sunshine Coast	-26.6500	153.0667
@@ -946,6 +971,7 @@ location	Valencia	39.337	-0.354
 location	Valencia Horta	39.465736	-0.424354
 location	Valledupar	10.466023	-73.253272
 location	Vanves	48.821722	2.288675
+location	Veerle	51.068963	4.986866
 location	Vegas del Genil	37.1701	-3.6978
 location	Velez Malaga	36.779282	-4.100078
 location	Veltem-Beisem	50.905721	4.620653
@@ -1040,6 +1066,7 @@ location	Mansa	23.428814	72.656249
 
 
 
+
 division	Aalst	50.939656	4.064173
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
@@ -1104,7 +1131,6 @@ division	Basque Country	42.9896	-2.
 division	Bat Yam	32.0132	34.7480
 division	Bavaria	48.1382614	11.5845093
 division	Bay of Plenty	-38.216044	176.783577
-division	Beverlo	51.0873	5.2190
 division	Beijing	40.07132	116.406908
 division	Beirut	33.8938	35.5018
 division	Beit Shemesh	31.7470	34.9881
@@ -1126,9 +1152,7 @@ division	Boufarik	36.57709	2.914137
 division	Bourgogne	47.0525	4.3837
 division	Bourgogne-France-Comté	47.2805	4.9994
 division	Boyaca	5.454426	-73.362218
-division	Braffe	50.5522	3.5820
 division	Braine-l'Alleud	50.6854	4.3779
-division	Braine-le-Comte	50.6094	4.1348
 division	Brasov	45.6580	25.6012
 division	Bratislava	48.1486	17.1077
 division	Brazil	-10.3333332	-53.1999999
@@ -1173,7 +1197,6 @@ division	Charleroi	50.418039	4.440646
 division	Chattogram	22.3569	91.7832
 division	Chechen Republic	43.4023	45.7187
 division	Chelyabinsk Region	54.4319	60.8789
-division	Chercq	50.5895	3.4220
 division	Chiapas	16.520858	-92.643133
 division	Chiba	35.463961	140.223882
 division	Chihuahua	28.633	-106.0691
@@ -1217,7 +1240,6 @@ division	Denmark	56.2639	9.5018
 division	Departamento de Amazonas	-1.420517	-71.257925
 division	Dhaka	23.789370	90.415192
 division	Diamond Princess	35.046935	139.419325
-division	Diest	50.9896	5.0502
 division	Diksmuide	51.050218	2.859454
 division	Dinant	50.239336	4.939426
 division	Distrito Federal	-15.7998	-47.8645
@@ -1228,11 +1250,9 @@ division	Drenthe	52.846963	6.608915
 division	Dublin	53.3431	-6.262191
 division	Dubrovnik	42.651307	18.102801
 division	Duesseldorf	51.236437	6.809537
-division	Duisburg	51.4344	6.7623
 division	Durango	24.019546	-104.658028
 division	East Kalimantan	0.241323	116.558975
 division	Eastern Cape	-32.344458	26.497832
-division	Écaussinnes	50.5606	4.1724
 division	Ecuador	-1.3397667	-79.3666964
 division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
@@ -1247,14 +1267,13 @@ division	Estonia	59	26
 division	Europe	49.646237	10.799454
 division	Finland	61.751734	26.186437
 division	Flevoland	52.48851	5.615829
-division	Flines-Les-Morta	50.5037	3.4641
+division	Flines-lès-Mortagne	50.5037	3.4641
 division	Florida	27.6648	-81.5158
 division	France	46.2276	2.2137
 division	Frankfurt	50.1109	8.6821
 division	Fribourg	46.804570	7.162854
 division	Friesland	53.1642	5.7818
 division	Friuli Venezia Giulia	46.2259	13.1034
-division	Froyennes	50.6229	3.3471
 division	Fujian	26.284852	118.122938
 division	Galicia	42.5751	-8.1339
 division	Gambia	13.5	-15.5
@@ -1290,15 +1309,11 @@ division	Guayas	-1.9575	-79.9193
 division	Guerrero	17.463444	-99.792052
 division	Gujarat	22.2587	71.1924
 division	Gyeonggi	37.397957	127.380864
-division	Haasrode	50.8322	4.7335
 division	Haifa	32.7940	34.9896
-division	Halen	50.9485	5.1112
-division	Halle	50.7376	4.2325
 division	Halland	56.964727	12.796906
 division	Halle-Vilvoorde	50.927353	4.424742
 division	Hangzhou	30.2741	120.1551
 division	Hanoi	21.0278	105.8342
-division	Harchies	50.4803	3.6947
 division	Haryana	29.0588	76.0856
 division	Hasselt	50.925347	5.311394
 division	Haut-Katanga	-10.457682	27.690512
@@ -1310,7 +1325,6 @@ division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
 division	Heredia	9.997549	-84.121162
 division	Herselt	51.0524	4.8807
-division	Heusden-Zolder	51.0385	5.2904
 division	Heverlee	50.8626	4.6959
 division	Heves County	47.8058	20.2039
 division	Ho Chi Minh City	10.790417	106.653985
@@ -1365,7 +1379,6 @@ division	Jordan	31.1667049	36.941628
 division	Jura	47.368929	7.163449
 division	Kaggevinne	50.9794	5.0190
 division	Kalmar	56.6634	16.3568
-division	Kampenhout	50.9421	4.5498
 division	Kanagawa	35.403801	139.294288
 division	Kansai	34.778675	135.880055
 division	Kansas	39.0119	-98.4842
@@ -1380,7 +1393,6 @@ division	Kaulille	51.1872	5.5257
 division	Kayseri	38.7205	35.4826
 division	Kecskemet	46.8964	19.6897
 division	Keelung	25.1276	121.7392
-division	Kersbeek-Miskom	50.886055	4.995715
 division	Kentucky	37.649540	-85.450190
 division	Kenya	0.0236	37.9062
 division	Kerala	10.359825	76.39955
@@ -1415,7 +1427,6 @@ division	Ladakh	34.152588	77.577049
 division	Lagos	6.54252	3.286661
 division	Laken	50.8778	4.3481
 division	Lakes	-38.5882085	175.9492056
-division	Landen BE	50.75267	5.082
 division	Landen	39.3120	-84.2830
 division	Lao Cai	22.3381	104.1487
 division	Lapland	67.700017	26.273752
@@ -1425,7 +1436,7 @@ division	Leiden	52.154612	4.484671
 division	Leningrad Region	60.0793	31.8927
 division	Leuven	50.880674	4.700109
 division	Lima	-11.971424	-77.070229
-division	Limbourg	50.612763	5.936255
+division	Limburg	50.612763	5.936255
 division	Limerick	52.662235	-8.627565
 division	Limpopo	-23.4013	29.4179
 division	Linter	50.802855	5.056890
@@ -1441,7 +1452,6 @@ division	Louisiana	30.9843	-91.9623
 division	Louth	53.9508	-6.5406
 division	Lower Austria	48.360214	15.824134
 division	Lucerne	47.0502	8.3093
-division	Luingne	50.738590	3.233736
 division	Lummen	50.9876	5.1951
 division	Luxembourg	49.755428	6.119486
 division	Maalot Tarshicha	33.0150	35.2760
@@ -1464,7 +1474,6 @@ division	Martin	49.0617	18.919
 division	Maryland	39.0458	-76.6413
 division	Massachusetts	42.340741	-71.998513
 division	Mato Grosso	-12.6819	-56.9211
-division	Maurage	50.456959	4.099206
 division	Mazowieckie	52.467791	21.224779
 division	Mbour	14.427132	-16.966574
 division	Mechelen	51.033475	4.444398
@@ -1499,7 +1508,6 @@ division	Munich	48.144747	11.561739
 division	Muscat	23.580244	58.362707
 division	Murcia	37.9922	-1.1307
 division	Myanmar	20.600856	96.287616
-division	Naast	50.554614	4.099133
 division	Nakhonnayok	14.180467	101.096533
 division	Namur	50.457215	4.879493
 division	Nara	34.371026	135.887389
@@ -1513,7 +1521,6 @@ division	Nepal	28	84
 division	Netanya	32.3215	34.8532
 division	Netherlands	52.1326	5.2913
 division	Netivot	31.4232	34.5953
-division	Neufvilles	50.568779	4.002636
 division	Nevada	38.8026	-116.4194
 division	Nevsehir	38.767304	34.698996
 division	New Brunswick	46.57077	-66.308191
@@ -1543,7 +1550,6 @@ division	North-West	-26.524595	25.625515
 division	Northern Ireland	54.60219	-6.687146
 division	Northern Territory	-19.4914	132.551
 division	Norway	64.574131	11.52701029
-division	Nossegem	50.878367	4.507474
 division	Nottinghamshire	53.134734	-0.989052
 division	Nova Scotia	44.879119	-64.020314
 division	Novi Pazar	43.1407	20.5214
@@ -1588,12 +1594,10 @@ division	Pardesia	32.3050	34.9117
 division	Pasuruan	-7.6469	112.8999
 division	Pathum Thani	14.018153	100.723973
 division	Pays de la Loire	47.640237	-0.647258
-division	Peer	50.5039	4.4699
 division	Pennsylvania	41.2033	-77.1945
 division	Perm Region	58.017794	56.311058
 division	Pernambuco	-8.8137	-36.9541
 division	Peru	-10	-75.25
-division	Péruwelz	50.5106	3.5937
 division	Petah Tikva	32.0840	34.8878
 division	Philippeville	50.178836	4.592270
 division	Philippines	12.8797	121.774
@@ -1601,6 +1605,7 @@ division	Phuket	7.959471	98.339272
 division	Piaui	-7.7183	-42.7289
 division	Pichincha	-0.1465	-78.4752
 division	Poland	52.0977181	19.0258159
+division	Polleur	50.580257	5.866744
 division	Pomorskie	54.2944	18.1531
 division	Portugal	39.54046	-8.174701
 division	Prague	50.0755	14.4378
@@ -1710,9 +1715,7 @@ division	Spain	40.4637	-3.7492
 division	Split	43.514220	16.461441
 division	Sri Lanka	7.75	80.75
 division	St-Louis	16.0326	-16.4818
-division	Steenokkerzeel	50.9079	4.5135
 division	Stockholm	59.33267	18.061849
-division	Strépy-Bracquegnies	50.4805	4.1200
 division	Styria	47.3593	14.4700
 division	Suceava	47.667761	26.266066
 division	Sud Kivu	-3.223156	28.386665
@@ -1797,12 +1800,11 @@ division	Vasternorrland	63.286259	17.641659
 division	Vastmanland	59.6714	16.2159
 division	Vastra Gotaland	58.2528	13.0596
 division	Vaud	46.619469	6.472479
-division	Veerle	51.0699	4.9872
 division	Veneto	45.4415	12.3153
 division	Venezuela	7.838891	-65.916409
 division	Vermont	44.5588	-72.5778
 division	Verona	45.4384	10.9916
-division	Polleur	50.580257	5.866744
+division	Verviers	50.578077	5.872924
 division	Veurne	51.046671	2.663125
 division	Victoria	-37.121673	144.106178
 division	Vienna	48.2082	16.3738
