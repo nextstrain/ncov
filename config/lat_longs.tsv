@@ -1104,6 +1104,7 @@ division	Basque Country	42.9896	-2.
 division	Bat Yam	32.0132	34.7480
 division	Bavaria	48.1382614	11.5845093
 division	Bay of Plenty	-38.216044	176.783577
+division	Beverloo	51.0873	5.2190
 division	Beijing	40.07132	116.406908
 division	Beirut	33.8938	35.5018
 division	Beit Shemesh	31.7470	34.9881
@@ -1127,6 +1128,7 @@ division	Bourgogne-France-Comté	47.2805	4.9994
 division	Boyaca	5.454426	-73.362218
 division	Braffe	50.5522	3.5820
 division	Braine-lAlleud	50.6854	4.3779
+division	Braine-le-Comte	50.6094	4.1348
 division	Brasov	45.6580	25.6012
 division	Bratislava	48.1486	17.1077
 division	Brazil	-10.3333332	-53.1999999
@@ -1215,6 +1217,7 @@ division	Denmark	56.2639	9.5018
 division	Departamento de Amazonas	-1.420517	-71.257925
 division	Dhaka	23.789370	90.415192
 division	Diamond Princess	35.046935	139.419325
+division	Diest	50.9896	5.0502
 division	Diksmuide	51.050218	2.859454
 division	Dinant	50.239336	4.939426
 division	Distrito Federal	-15.7998	-47.8645
@@ -1244,6 +1247,7 @@ division	Estonia	59	26
 division	Europe	49.646237	10.799454
 division	Finland	61.751734	26.186437
 division	Flevoland	52.48851	5.615829
+division	Flines-Les-Morta	50.5037	3.4641
 division	Florida	27.6648	-81.5158
 division	France	46.2276	2.2137
 division	Frankfurt	50.1109	8.6821
@@ -1305,12 +1309,14 @@ division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
 division	Heredia	9.997549	-84.121162
 division	Herselt	51.0524	4.8807
+division	Heusden-Zolder	51.0385	5.2904
 division	Heverlee	50.8626	4.6959
 division	Heves County	47.8058	20.2039
 division	Ho Chi Minh City	10.790417	106.653985
 division	Holon	32.0158	34.7874
 division	Holsbeek	50.9211	4.7570
 division	Hong Kong	22.3964	114.1095
+division	Houthalen-Helchteren	51.0312	5.3765
 division	Hranice Na Moravě	49.5497	17.7349
 division	Huasco	-28.467340	-71.221674
 division	Hubei	31.095477	112.676644
@@ -1338,6 +1344,7 @@ division	Istanbul	41.0082	28.9784
 division	Istria	45.189488	13.889205
 division	Italian cruise ship	41.831176	11.491061
 division	Italy	43.382775	12.183629
+division	Ixelles	50.8333	4.3666
 division	Jakarta	-6.221537	106.838429
 division	Jalisco	20.422362	-103.793697
 division	Jamaica	18.1096	-77.2975
@@ -1357,6 +1364,7 @@ division	Jordan	31.1667049	36.941628
 division	Jura	47.368929	7.163449
 division	Kaggevinne	50.9794	5.0190
 division	Kalmar	56.6634	16.3568
+division	Kampenhout	50.9421	4.5498
 division	Kanagawa	35.403801	139.294288
 division	Kansai	34.778675	135.880055
 division	Kansas	39.0119	-98.4842
@@ -1384,6 +1392,7 @@ division	Kiryat Gat	31.6111	34.7685
 division	Kiryat Ono	32.059259	34.859216
 division	Kocaeli	40.886367	29.905212
 division	Kochi	33.518628	133.505674
+division	Koersel	51.0584	5.2718
 division	Kombo	13.294035	-16.656832
 division	Konya	37.859743	32.495438
 division	Koprivnica	46.168157	16.827208
@@ -1403,7 +1412,10 @@ division	La Louvière	50.469989	4.158129
 division	La Rioja	42.2871	-2.5396
 division	Ladakh	34.152588	77.577049
 division	Lagos	6.54252	3.286661
+division	Laken	50.8778	4.3481
 division	Lakes	-38.5882085	175.9492056
+division	Landen-B	50.75267	5.082
+division	Landen	39.3120	-84.2830
 division	Lao Cai	22.3381	104.1487
 division	Lapland	67.700017	26.273752
 division	Latvia	56.799689	25.441386
@@ -1429,6 +1441,7 @@ division	Louth	53.9508	-6.5406
 division	Lower Austria	48.360214	15.824134
 division	Lucerne	47.0502	8.3093
 division	Luingne	50.738590	3.233736
+division	Lummen	50.9876	5.1951
 division	Luxembourg	49.755428	6.119486
 division	Maalot Tarshicha	33.0150	35.2760
 division	Maaseik	51.104005	5.714000
@@ -1478,6 +1491,7 @@ division	Montevideo	-34.823827	-56.211799
 division	Morocco	32.525925	-5.843761
 division	Moscow	55.7558	37.6173
 division	Moscow Region	55.3404	38.2918
+division	Mouscron	50.7459	3.2193
 division	Mpumalanga	-25.5653	30.5279
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
@@ -1668,6 +1682,7 @@ division	Sihanoukville	10.616351	103.512278
 division	Siirt	37.911394	42.115166
 division	Singapore	1.344189	103.867546
 division	Sint-Niklaas	51.1559	4.1544
+division	Sint-Truiden	50.8157	5.1863
 division	Skane	55.9903	13.5958
 division	Slask	50.406080	18.976345
 division	Slovakia	48.66667	19.5
@@ -1693,7 +1708,9 @@ division	Spain	40.4637	-3.7492
 division	Split	43.514220	16.461441
 division	Sri Lanka	7.75	80.75
 division	St-Louis	16.0326	-16.4818
+division	Steenokkerzeel	50.9079	4.5135
 division	Stockholm	59.33267	18.061849
+division	Strepy-Bracquegnies	50.4805	4.1200
 division	Styria	47.3593	14.4700
 division	Suceava	47.667761	26.266066
 division	Sud Kivu	-3.223156	28.386665
@@ -1701,6 +1718,7 @@ division	Surabaya	-7.266062	112.748376
 division	Sverdlovsk Region	59.0077	61.9316
 division	Sweden	59.6749712	14.5208584
 division	Switzerland	46.8182	8.2275
+division	Szabolcs-Szatmár-Bereg County	48.0395	22.0033
 division	Szeged	46.2530	20.1414
 division	Taiwan	23.8169	121.031365
 division	Talca	-35.462909	-71.37096
@@ -1716,6 +1734,7 @@ division	Teleorman	44.0160	25.2987
 division	Temuco	-38.7359	-72.5904
 division	Tennessee	35.5175	-86.5804
 division	Teramo	42.6611	13.6987
+division	Tervuren	50.8259	4.5078
 division	Texas	31.146868	-99.188758
 division	Thailand	14.8971921	100.83273
 division	Thanh Hoa	20.026365	105.439044
@@ -1725,6 +1744,7 @@ division	Thuin	50.326454	4.308720
 division	Thurgau	47.576816	9.072051
 division	Ticino	46.345334	8.774813
 division	Tielt	51.001589	3.355702
+division	Tienen	50.8106	4.9362
 division	Tilburg	51.567213	5.047957
 division	Timor-Leste	-8.809397	125.909527
 division	Tipperary	52.4738	-8.1619
@@ -1739,6 +1759,7 @@ division	Tournai	50.616724	3.395329
 division	Tournai-Mouscron	50.610622	3.406319
 division	Trang	7.529936	99.611699
 division	Trondheim	63.4305	10.3951
+division	Tubize	50.6905	4.2026
 division	Tucuman	-26.8083	-65.2176
 division	Tunisia	33.654143	9.065134
 division	Turkey	39	35
@@ -1819,6 +1840,7 @@ division	Zefat	32.9646	35.4960
 division	Zepce	44.4287	18.0379
 division	Zhejiang	29.22571	120.299125
 division	Zielonogorskie	52.2275	15.2559
+division	Zolder	50.9905	5.2580
 division	Zug	47.155891	8.525039
 division	Zürich	47.441242	8.641154
 division	Samut Prakarn	13.581663	100.721344
