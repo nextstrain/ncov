@@ -1127,7 +1127,7 @@ division	Bourgogne	47.0525	4.3837
 division	Bourgogne-France-Comté	47.2805	4.9994
 division	Boyaca	5.454426	-73.362218
 division	Braffe	50.5522	3.5820
-division	Braine-lAlleud	50.6854	4.3779
+division	Braine-l'Alleud	50.6854	4.3779
 division	Braine-le-Comte	50.6094	4.1348
 division	Brasov	45.6580	25.6012
 division	Bratislava	48.1486	17.1077
@@ -1293,6 +1293,7 @@ division	Gyeonggi	37.397957	127.380864
 division	Haasrode	50.8322	4.7335
 division	Haifa	32.7940	34.9896
 division	Halen	50.9485	5.1112
+division	Halle	50.7376	4.2325
 division	Halland	56.964727	12.796906
 division	Halle-Vilvoorde	50.927353	4.424742
 division	Hangzhou	30.2741	120.1551
@@ -1512,7 +1513,7 @@ division	Nepal	28	84
 division	Netanya	32.3215	34.8532
 division	Netherlands	52.1326	5.2913
 division	Netivot	31.4232	34.5953
-division 	Neufvilles	50.568779	4.002636
+division	Neufvilles	50.568779	4.002636
 division	Nevada	38.8026	-116.4194
 division	Nevsehir	38.767304	34.698996
 division	New Brunswick	46.57077	-66.308191
@@ -1576,7 +1577,7 @@ division	Oudenaarde	50.857635	3.629018
 division	Overijssel	52.436273	6.463628
 division	Oyo State	8.154414	3.632978
 division	Pa Trento	46.096712	11.130704
-division 	Paal	51.032994	5.166286
+division	Paal	51.032994	5.166286
 division	Pahang	3.8126	103.3256
 division	Pakistan	30	70
 division	Panama	8.3096067	-81.3066245
@@ -1665,6 +1666,7 @@ division	Sardinia	40.1209	9.0129
 division	Saskatchewan	53.934278	-106.16006
 division	Saudi Arabia	25	45
 division	Schaffhausen	47.712000	8.638976
+division	Scherpenheuvel-Zchem	50.9890	4.9776
 division	Schwyz	47.055398	8.73645
 division	Scotland	56.415858	-4.090641
 division	Selangor	3.0738	101.5183
