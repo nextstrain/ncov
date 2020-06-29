@@ -65,6 +65,9 @@ location	Ahmedabad
 location	Uttara
 location	Gulshan
 location	Mirpur
+location	Shailokupa
+location	Kalia
+location	Sador
 location	Mohammadpur
 location	Agargaon
 location	Surat
@@ -85,6 +88,15 @@ location	Junagadh
 location	Manado
 location	Samarinda
 location	Jamnagar
+location	Savli
+location	Palanpur
+location	Bharuch
+location	Kheda
+location	Mandvi
+location	Bhuj
+location	Savali
+location	Bardoli
+location	Choryasi
 location	Mandsaur
 location	Neemach
 location	Burhanpur
@@ -127,6 +139,7 @@ location	Dasman
 location	Ulan-Ude
 location	Kipen
 location	Kraków
+location	Prostějov
 location	Plock
 location	Grodzisk Mazowiecki
 location	Olsztyn
@@ -138,6 +151,10 @@ location	Ischgl
 location	Innsbruck
 location	Matrei am Brenner
 location	Strass im Zillertal
+location	Mayrhofen
+location	Thaur
+location	Altenhof Am Hausruck
+location	Losenstein
 location	Elbigenalp
 location	Aldrans
 location	Ramsau im Zillertal
@@ -155,6 +172,8 @@ location	Heinsberg
 location	Munich
 location	Duesseldorf
 location	Münster
+location	Focsani
+location	Iasi
 location	Delft
 location	Utrecht
 location	Zeeland
@@ -181,6 +200,32 @@ location	Dalen
 location	Budapest
 location	Macon
 location	Uccle
+location	Harchies
+location	Haasrode
+location	Diest
+location	Kersbeek-Miskom
+location	Duisburg
+location	Heusden-Zolder
+location	Halen
+location	Beverlo
+location	Steenokkerzeel
+location	Kampenhout
+location	Nossegem
+location	Halle
+location	Peer
+location	Veerle
+location	Froyennes
+location	Braffe
+location	Chercq
+location	Péruwelz
+location	Luingne
+location	Naast
+location	Braine-le-Comte
+location	Écaussinnes
+location	Neufvilles
+location	Strépy-Bracquegnies
+location	Maurage
+location	Landen BE
 location	Kaulille
 location	Quévy
 location	Ixelles
@@ -199,7 +244,7 @@ location	Enghien
 location	Maldegem
 location	Ans
 location	Berg
-location	Limbourg
+location	Limbourg BE
 location	Comines
 location	Villerot
 location	Poppel
@@ -368,6 +413,7 @@ location	Hemiksem
 location	Sint-Gillis-Waas
 location	Silly
 location	Wervik
+location	Kynice
 location	Pelt
 location	Blegny
 location	Estinnes
@@ -572,6 +618,46 @@ location	Conil de la Frontera
 location	Madrid
 location	Muro
 location	Palma de Mallorca
+location	Alamedilla
+location	Albacete
+location	Albolote
+location	Alcala la Real
+location	Almansa
+location	Atarfe
+location	Ayna
+location	Balazote
+location	Castril
+location	Churriana de la Vega
+location	Cortijos Nuevos
+location	Cuenca
+location	El Rosal
+location	Fonelas
+location	Frailes
+location	Guadix
+location	Guevejar
+location	Hellin
+location	Huetor Santillan
+location	Iznalloz
+location	Jun
+location	Lezuza
+location	Madrigueras
+location	Maracena
+location	Mingogil
+location	Murcia
+location	Ogijares
+location	Otura
+location	Pinos Puente
+location	Pulianas
+location	Riopar
+location	San Clemente
+location	Socuellamos
+location	Tazona
+location	Tobarra
+location	Ubeda
+location	Vegas del Genil
+location	Villanueva de la Jara
+location	Villarrobledo
+location	Zujar
 location	A Coruna
 location	Malaga
 location	Santiago de Compostela
@@ -671,6 +757,7 @@ location	Chillan
 location	Santiago
 location	Copiapo
 location	Huasco
+location	Lomas de Zamora
 location	Manizales
 location	Cucuta
 location	Cartagena
@@ -699,12 +786,19 @@ location	Valledupar
 location	Cajica
 location	Villavicencio
 location	Yumbo
-location	Sao Paulo
+location	São Paulo
 location	Brasilia
 location	Rio de Janeiro
 location	Bahia Blanca
+location	Osasco
+location	Presidente Venceslau
+location	Barueri
+location	Itapecerica Da Serra
+location	Da Serra
+location	Mogi Das Cruzes
 location	San Carlos de Bariloche
 location	Quilmes
+location	Babahoyo
 location	Florianopolis
 location	Niteroi
 location	Joinville
@@ -860,6 +954,7 @@ location	Winneshiek County
 location	Jackson County
 location	Florida
 location	Miramar
+location	Wabasha County
 location	Adams County WA
 location	Adams County WI
 location	New Orleans
@@ -911,10 +1006,20 @@ location	Hartford
 location	Meriden
 location	Madison CT
 location	New Haven
+location	Yorktown Heights
+location	New Rochelle
+location	Prospect
+location	Beacon Falls
+location	Bristol
+location	Cheshire
+location	Fairfield
+location	Greenwich
+location	Glastonbury
+location	Manchester
+location	Riverside
 location	Stratford
 location	Shelton
 location	New Fairfield
-location	Bridgeport
 location	Port Chester
 location	North-Branford
 location	Waterbury
@@ -950,11 +1055,11 @@ location	Columbia County
 location	Marion County
 location	Multnomah County
 location	Wasco County
+location	Richland County
 location	Accra
 location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
-
 
 
 
@@ -1041,6 +1146,9 @@ division	Tehran
 division	Semnan
 division	Doha
 division	Dhaka
+division	Jhenaidha
+division	Narail
+division	Bagherhat
 division	Kuwait
 division	Amman
 division	Irbid
@@ -1088,6 +1196,7 @@ division	Karachi
 division	Islamabad
 division	Rawalpindi
 division	Bangladesh
+division	Rangpur
 division	Mirpur
 division	Tangail
 division	Chittagong
@@ -1128,6 +1237,34 @@ division	Qatar
 division	Beirut
 division	Israel
 division	Tel Aviv District
+division	Kiryat Gat
+division	Netivot
+division	Beni Brak
+division	Tirat Zvi
+division	Pardesia
+division	Shoam
+division	Zefat
+division	Netanya
+division	Hukuk
+division	Ashdod
+division	Yavne
+division	Gedera
+division	Petah Tikva
+division	Raanana
+division	Ramla
+division	Yehud
+division	Kfar Habad
+division	Kfar Saba
+division	Kiryat Ono
+division	Elad
+division	Elkana
+division	Haifa
+division	Bat Yam
+division	Holon
+division	Beit Shemesh
+division	Tveria
+division	Maalot Tarshicha
+division	Gani Tikva
 division	North District
 division	Jerusalem District
 division	South Coast District
@@ -1212,10 +1349,19 @@ division	Kraljevo
 division	Novi Pazar
 division	Cacak
 division	Bucharest
+division	Vrancea
+division	Valcea
 division	Mioveni
 division	Suceava
 division	Teleorman
 division	Hungary
+division	Jász-Nagykun-Szolnok County
+division	Sodermanland
+division	Hranice Na Moravě
+division	Borsod-Abaúj-Zemplén County
+division	Debrecen
+division	Csongrád County
+division	Heves County
 division	Central Hungary
 division	Baranya
 division	Varaždin County
@@ -1249,6 +1395,8 @@ division	Slovakia
 division	Bratislava
 division	Malopolskie
 division	Prague
+division	Melnik
+division	Litomerice-Brnay
 division	Vysocina Region
 division	Martin
 division	Copenhagen
@@ -1269,13 +1417,14 @@ division	Auvergne Rhone Alpes
 division	Spain
 division	Aragon
 division	Melilla
-division	Castilla Y León
 division	Basque Country
-division	Castilla La Mancha
+division	Castilla la Mancha
 division	Andalusia
 division	Asturias
 division	Navarra
 division	Catalunya
+division	Murcia
+division	Donostia-San Sebatian
 division	Castilla y Leon
 division	Barcelona
 division	Galicia
@@ -1285,6 +1434,14 @@ division	Auderghem
 division	La Louvière
 division	Tournai
 division	Belgium
+division	Braine-l'Alleud
+division	Herselt
+division	Heverlee
+division	Holsbeek
+division	Kaggevinne
+division	Linter
+division	Molenbeek-Saint-Jean
+division	Paal
 division	Leuven
 division	Philippeville
 division	Limburg
@@ -1299,6 +1456,7 @@ division	Mons
 division	Hasselt
 division	Sint-Niklaas
 division	Brussels
+division	Verviers
 division	Thuin
 division	Tournai-Mouscron
 division	Brugge
@@ -1308,6 +1466,19 @@ division	Kortrijk
 division	Diksmuide
 division	Oostende
 division	Halle-Vilvoorde
+division	Zolder
+division	Tervuren
+division	Tubize
+division	Ixelles
+division	Laken
+division	Flines-lès-Mortagne
+division	Mouscron
+division	Sint-Truiden
+division	Tienen
+division	Koersel
+division	Lummen
+division	Szabolcs-Szatmár-Bereg County
+division	Houthalen-Helchteren
 division	Huy
 division	Mechelen
 division	Dinant
@@ -1319,7 +1490,7 @@ division	Nivelles
 division	Oudenaarde
 division	Ieper
 division	Tielt
-division	Verviers
+division	Polleur
 division	Liège
 division	Mepel
 division	Saint-Saulve
@@ -1349,6 +1520,9 @@ division	Friesland
 division	Luxembourg
 division	Austria
 division	Vienna
+division	Lower Austria
+division	Upper Austria
+division	Vorarlberg
 division	Tyrol
 division	Burgenland
 division	Salzburg
@@ -1387,6 +1561,7 @@ division	South Tyrol
 division	Lazio
 division	Marche
 division	Lombardy
+division	Trentino
 division	Emilia-Romagna
 division	Molise
 division	Pa Trento
@@ -1423,7 +1598,9 @@ division	Småland
 division	Vasterbotten
 division	Vasternorrland
 division	Halland
+division	Jamtland Harjedalen
 division	Czech Republic
+division	Jihlava
 division	Sweden
 division	Stockholm
 division	Orebro
@@ -1442,11 +1619,14 @@ division	Gavleborgs Lan
 division	Orebro Lan
 division	Norrbotten
 division	Greece
+division	Thessaloniki
 division	Finland
 division	Denmark
 division	Portugal
 division	Egypt
 division	Cairo
+division	Oueme
+division	Cotonou
 division	Nigeria
 division	Kwara State
 division	Ogun State
@@ -1455,7 +1635,9 @@ division	Oyo State
 division	Ghana
 division	Senegal
 division	Gambia
+division	Kombo
 division	Morocco
+division	Rabat
 division	Casablanca
 division	Tunisia
 division	Bizerte
@@ -1466,6 +1648,7 @@ division	Lagos
 division	Uganda
 division	Kenya
 division	Democratic Republic of the Congo
+division	Haut-Katanga
 division	Kinshasa
 division	Sud Kivu
 division	South Africa
@@ -1500,28 +1683,34 @@ division	Coyhaique
 division	Punta Arenas
 division	Puerto Montt
 division	Ecuador
+division	Los Rios
 division	Brazil
 division	Santiago
 division	Talca
-division	Sao Paulo
+division	São Paulo
+division	Ceará
+division	Tucuman
+division	Sergipe
+division	Rio Grande do Norte
+division	Goiás
 division	Villavicencio
 division	Espirito Santo
 division	Bahia
 division	Goiais
 division	Minas Gerais
 division	Pernambuco
-division	Ceara
 division	Amazonas
 division	Mato Grosso
 division	Piaui
-division	Parana
+division	Paraná
 division	Rio Grande do Sul
 division	Rio de Janeiro
 division	Amapa
 division	Santa Catarina
 division	Alagoas
 division	Acre
-division	Maranhao
+division	Maranhão
+division	Venezuela
 division	Argentina
 division	Ciudad Autonoma de Buenos Aires
 division	Buenos Aires
@@ -1715,6 +1904,7 @@ country	Portugal
 country	Greece
 country	Egypt
 country	Nigeria
+country	Benin
 country	Kenya
 country	Ghana
 country	Senegal
@@ -1730,6 +1920,7 @@ country	Ecuador
 country	Peru
 country	Brazil
 country	Argentina
+country	Venezuela
 country	Uruguay
 country	Colombia
 country	Panama

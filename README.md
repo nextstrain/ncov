@@ -8,13 +8,13 @@ Can't find your sequences in Nextstrain? Check [here](./docs/data_faq.md) for co
 
 The hCoV-19 / SARS-CoV-2 genomes were generously shared via GISAID. We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based.
 
-In order to download the GISAID data to run yourself, please see [Running a SARS-CoV-2 analysis](./docs/running.md)
+In order to download the GISAID data to run yourself, please see [Running a SARS-CoV-2 analysis](./docs/running_old.md)
 
 > Please note that `data/metadata.tsv` is no longer included as part of this repo and should be downloaded directly from GISAID.
 
 ### Clades
 
-For information about how clades are defined, and the currently named clades, please see [here](./docs/clades.md).
+For information about how clades are defined, and the currently named clades, please see [here](./docs/naming_clades.md).
 
 ### Bioinformatics notes
 
@@ -25,7 +25,7 @@ If you'd like to customize and run the analysis yourself, please see the [develo
 ## How to run using your own data
 
   - [How to format the metadata](./docs/metadata.md)
-  - [Running a SARS-CoV-2 analysis](./docs/running.md)
+  - [Running a SARS-CoV-2 analysis](./docs/running_old.md)
   - [Understanding the structure of the workflow](./docs/workflow_structure.md) including directory structure and the order in which Snakemake runs rules
 
 ## Contributing

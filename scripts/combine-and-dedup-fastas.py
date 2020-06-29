@@ -13,6 +13,11 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Read sequences with augur to benefit from additional checks for duplicates.
-    sequences = list(read_sequences(*args.input).values())
+    sequences = read_sequences(*args.input)
+
+    # Convert dictionary of sequences by id to a list, for compatibility with
+    # augur versions <9.0.0.
+    if isinstance(sequences, dict):
+        sequences = list(sequences.values())
 
     SeqIO.write(sequences, args.output, 'fasta')
