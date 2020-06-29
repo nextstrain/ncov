@@ -26,7 +26,9 @@ The first block of the provided `./my_profiles/example/builds.yaml` file looks l
 ```
 builds:
   # Focus on King County (location) in Washington State (division) in the USA (country)
-  my_king_county_build: # name of the build; this can be anything
+  # with a build name that will produce the following URL fragment on Nextstrain/auspice:
+  # /ncov/north-america/usa/washington/king-county
+  north-america_usa_washington_king-county: # name of the build; this can be anything
     subsampling_scheme: location # what subsampling method to use (see parameters.yaml)
     region: North America
     country: USA
