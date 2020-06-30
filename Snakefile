@@ -51,11 +51,12 @@ include: "workflow/snakemake_rules/common.smk"
 # to output of auspice JSONs for a default build.
 include: "workflow/snakemake_rules/main_workflow.smk"
 
-# Include rules specific to the Nextstrain team including custom exports used in
-# narratives, etc.
-include: "workflow/snakemake_rules/export_for_nextstrain.smk"
-
 # Include a custom Snakefile that specifies `localrules` required by the user's
 # workflow environment.
 if "localrules" in config:
     include: config["localrules"]
+
+# Include custom rules defined in the config.
+if "custom_rules" in config:
+    for rule_file in config["custom_rules"]:
+        include: rule_file
