@@ -1,26 +1,26 @@
-# Customizing analysis  
+# Customizing analysis
 
-## Changing parameters  
-Each step in the [augur workflow](orientation-workflow.md) can be parameterized; these parameters are specified in `.yaml` files.  
+## Changing parameters
+Each step in the [augur workflow](orientation-workflow.md) can be parameterized; these parameters are specified in `.yaml` files.
 
 We've provided reasonable default values for each step in the `defaults/parameters.yaml`; these are the same values the Nextstrain team uses for our analyses.
 
-We encourage you to take a few minutes to **skim through [the default config file](defaults/parameters.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**  
+We encourage you to take a few minutes to **skim through [the default config file](defaults/parameters.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**
 
 If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the `my_profiles/<name>/builds.yaml` file. Any values not overridden in this way will fall back to the default values.**
 Keeping build-specific parameters separate this way prevents mixups of settings between runs, and gives you a cleaner file to work with (rather than having to wrestle the _entire_ default parameterization file).
 
-## Adding a new place    
+## Adding a new place
 
-Places are defined as one of:  
-- `region` (e.g., `North America`, `Asia`)  
-- `country`  
-- `division` (i.e., state, province, or canton)  
-- `location` (i.e., a county or city within a division)  
+Places are defined as one of:
+- `region` (e.g., `North America`, `Asia`)
+- `country`
+- `division` (i.e., state, province, or canton)
+- `location` (i.e., a county or city within a division)
 
-To define a new place, you'll need to specify its GPS coordinates and a color.  
+To define a new place, you'll need to specify its GPS coordinates and a color.
 
-1. Add a line to `defaults/lat_longs.tsv`. This file is separated into sections for each geographic resolution. This looks like:  
+1. Add a line to `defaults/lat_longs.tsv`. This file is separated into sections for each geographic resolution. This looks like:
 ```
 # resolution	place	latitude	longitude
 location	Abondant	48.790785	1.420178
@@ -28,12 +28,12 @@ location	Abondant	48.790785	1.420178
 
 >Note: keep in mind that `0.0` longitude is the prime meridian; to specify something in the Western hemisphere, you'll need to enter a _negative_ value for longitude. Similarly, to specify something in the Southern hemisphere, you'll need to enter a _negative_ value for latitude
 
-2. Add an entry to `color_ordering.tsv` such that your newly-defined place is next to geographically nearby places in the list.  
+2. Add an entry to `color_ordering.tsv` such that your newly-defined place is next to geographically nearby places in the list.
 
 
-## Subsampling  
+## Subsampling
 
-### Basic subsampling  
+### Basic subsampling
 Reasonable defaults are pre-defined. You can find a [description of them here](running.md).
 
 ### Custom subsampling schemes
@@ -99,7 +99,7 @@ The argument of the latter has to match the name of one of the other subsamples.
 If you need parameters in a way that isn't represented by the configuration file, [create a new issue in the ncov repository](https://github.com/nextstrain/ncov/issues/new) to let us know.
 
 
-## Ancestral trait reconstruction  
+## Ancestral trait reconstruction
 
 Trait reconstruction is the process by which augur infers the most likely metadata value of an internal node. For example, if an internal node (which always represents a hypothesized, ancestral virus / case) has 3 descendants, all of which were isolated in Washington State, we might infer that the ancestor was most likely also circulating in Washington State (see ["Interpretation"](interpretation.md) for more).
 
@@ -109,7 +109,7 @@ For each build, you can specify which categorical metadata fields to use for tra
 To specify this on a per-build basis, add a block like the following to your `my_profiles/<name>/builds.yaml` file:
 ```yaml
 traits:
-  my_north_america_build: ### build name  
+  my_north_america_build: ### build name
     sampling_bias_correction: 2.5
     columns: ["country_exposure", "division_exposure"] ### traits to reconstruct; must match column names in metadata.tsv
 ```
@@ -118,14 +118,14 @@ This is particularly powerful when travel histories are available:
 
 ```yaml
 exposure:
-  my_north_america_build: ### build name  
+  my_north_america_build: ### build name
     trait: "division"
     exposure: "division_exposure"
 ```
 
-## Labeling clades  
+## Labeling clades
 
-We assign clade labels according to [this schema](naming_clades.md).  
+We assign clade labels according to [this schema](naming_clades.md).
 
 Because the exact topology of the tree will vary across runs, clades are defined based on their unique mutations.
 These are specified in `defaults/clades.tsv` like so:
@@ -135,7 +135,7 @@ These are specified in `defaults/clades.tsv` like so:
 
 A1a	ORF3a	251	V
 A1a	ORF1a	3606	F
-```  
+```
 
 ## [Previous Section: Orientation: Running & troubleshooting](running.md)
 ## [Next Section: Orientation: Customizing your visualization](customizing-visualization.md)
