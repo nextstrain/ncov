@@ -17,11 +17,11 @@ The resulting output JSON at `auspice/ncov.json` can be visualized by running `a
 
 ### Finalizing automated builds
 
-To run a regional build, be sure to update the list of regions in `config/nextstrain_config.yaml`.
+To run a regional build, be sure to update the list of regions in `nextstrain_profiles/nextstrain/builds.yaml`.
 You can run all builds in parallel with the following command.
 
 ```bash
-snakemake --profile nextstrain_config/nextstrain all_regions
+snakemake --profile nextstrain_profiles/nextstrain all_regions
 ```
 
 Or you can specify final or intermediate output files like so:

@@ -17,7 +17,7 @@ If you haven't done this step yet, check out our [data prep](data-prep.md) guide
 In the orientation section, we learned that
 - [Nextstrain analyses are run using a workflow manager called Snakemake](orientation-workflow.md)
 - [A "build"](glossary.md#Build) is a bundle of input files, parameters, and commands
-- [Each build is primarily configured by your `builds.yaml` file](orientation-files.md): `build.yaml` and `config.yaml`
+- [Each build is primarily configured by your `builds.yaml` file](orientation-files.md): `builds.yaml` and `config.yaml`
 
 Let's start with defining a build in `./my_profiles/example/builds.yaml`.
 **We use the `builds.yaml` file to define what geographic areas of the world we want to focus on. Each block in this file will produce a separate output JSON for visualization**.
