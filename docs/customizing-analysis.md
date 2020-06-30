@@ -10,6 +10,27 @@ We encourage you to take a few minutes to **skim through [the default config fil
 If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the `my_profiles/<name>/builds.yaml` file. Any values not overridden in this way will fall back to the default values.**
 Keeping build-specific parameters separate this way prevents mixups of settings between runs, and gives you a cleaner file to work with (rather than having to wrestle the _entire_ default parameterization file).
 
+## Adding custom rules
+
+Insert your own custom Snakemake rules into the default workflow without modifying the main Snakemake files, by defining a list of `custom_rules` in your `builds.yaml` file.
+Each entry in the `custom_rules` list should be a path to a valid Snakemake file (e.g., "my_rules.smk").
+The main workflow will detect these custom rules and include them after all other rules have been defined.
+
+As an example, the Nextstrain team's workflow defines custom export rules that modify the default auspice JSONs.
+These rules are defined in the `builds.yaml` file as follows:
+
+```yaml
+custom_rules:
+  - workflow/snakemake_rules/export_for_nextstrain.smk
+```
+
+To modify rules for the example profile, create a new file named `my_profiles/example/my_rules.smk` and modify the `builds.yaml` file for the example profile to include the following lines:
+
+```yaml
+custom_rules:
+  - my_profiles/example/my_rules.smk
+```
+
 ## Adding a new place
 
 Places are defined as one of:
