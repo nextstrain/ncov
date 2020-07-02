@@ -319,6 +319,7 @@ location	Florianopolis	-27.581052	-48.481313
 location	Florida	27.6648	-81.5158
 location	Flénu	50.433143	3.888990
 location	Focsani	45.697572	27.188348
+location	Fond Du Lac County	43.739156	-88.479198
 location	Fonelas	37.4137	-3.1742
 location	Fontaine-Valmont	50.317343	4.215677
 location	Fontaine-l'Évêque	50.407803	4.325273
@@ -365,6 +366,7 @@ location	Grant County WI	42.888151	-90.703612
 location	Grant Parish	31.570014	-92.534059
 location	Grau de Sagunt	39.633481	-0.241370
 location	Greater Milwaukee Area	43.0389	-87.9065
+location	Green County	42.687601	-89.584475
 location	Greenfield	42.957786	-88.007122
 location	Greenwich	41.0262	-73.6282
 location	Grimbergen	50.942962	4.375664
@@ -453,8 +455,10 @@ location	Jaipur	26.901676	75.793978
 location	Jamnagar	22.471143	70.051543
 location	Jamundi	3.260158	-76.539750
 location	Janesville	42.691211	-89.014160
+location	Jatrabari	23.711397	90.435403
 location	Jefferson County NY	44.095507	-75.890072
 location	Jefferson County WA	47.728342	-123.606395
+location	Jefferson County WI	43.025978	-88.773336
 location	Jefferson Parish	29.777633	-90.114916
 location	Jemappes	50.446399	3.898191
 location	Jerez De La Frontera	36.690491	-6.126763
@@ -500,6 +504,7 @@ location	Kirkland	47.679486	-122.206354
 location	Kittitas County	47.1750	-120.9319
 location	Knokke-Heist	51.331501	3.308826
 location	Kodinar	20.8009	70.6960
+location	Kodomtoly	23.703843	90.875119
 location	Koersel	51.058003	5.272274
 location	Kolkata	22.543905	88.374991
 location	Kortenberg	50.887699	4.567473
@@ -517,6 +522,7 @@ location	La Union	9.922919	-84.001485
 location	Laakdal	51.081957	4.997449
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
+location	Lafayette County	42.662913	-90.134986
 location	Laken	50.887688	4.353935
 location	Lalin	42.6612	-8.1110
 location	Lamine	50.688307	5.334720
@@ -609,7 +615,7 @@ location	Miami	25.760439	-80.206459
 location	Middleton	43.105596	-89.509368
 location	Milford	41.2307	-73.0640
 location	Milan	45.474	9.177
-location	Milwaukee	43.058555	-87.923530
+location	Milwaukee County	43.008019	-87.937899
 location	Mingogil	38.4609	-1.7411
 location	Miramar	25.9861	-80.3036
 location	Mirpur	23.8223	90.3654
@@ -651,6 +657,7 @@ location	Nadiad	22.6916	72.8634
 location	Nanchang	28.707143	115.874137
 location	Nancy	48.6921	6.1844
 location	Nantes	47.203649	-1.552453
+location	Naples	40.857678	14.229949
 location	Nassau County	40.7333	-73.58010
 location	Neemach	24.467521	74.875900
 location	Neerpelt	51.228889	5.431667
@@ -707,6 +714,7 @@ location	Oud-Turnhout	51.319510	5.004179
 location	Otura	37.0913	-3.6345
 location	Overijse	50.769757	4.532583
 location	Overpelt	51.219149	5.383722
+location	Ozaukee County	43.407672	-87.926654
 location	Paal	51.031859	5.166158
 location	Pacho	5.135952	-74.156902
 location	Padrón	42.7381	-8.6608
@@ -790,6 +798,7 @@ location	Ribeira	42.5541	-8.9922
 location	Riopar	38.4982	-2.4172
 location	Rixensart	50.7156	4.531
 location	Riyadh	24.705304	46.738279
+location	Rock County	42.654281	-89.079857
 location	Rockhampton	-23.378823	150.509921
 location	Rockland County	41.1489	-73.9830
 location	Rome	41.881118	12.492817
@@ -914,6 +923,7 @@ location	Taranto	40.524671	17.215202
 location	Tazona	38.3057	-1.9093
 location	Tavernes de la Valldigna	39.0734	-0.2644
 location	Tehatta	23.730511	88.527338
+location	Tejgaon	23.758670	90.391633
 location	Temploux	50.484053	4.753481
 location	Temse	51.135398	4.208311
 location	Tensas Parish	31.996977	-91.321633
@@ -1005,10 +1015,12 @@ location	Warwickshire	52.2671	1.4675
 location	Wasco County	45.145543	-121.204409
 location	Washington County NY	43.303560	-73.428260
 location	Washington County OR	45.544427	-123.010435
+location	Washington County WI	43.362309	-88.235107
 location	Wasilla	61.579538	-149.468390
 location	Waterbury	41.5582	-73.0515
 location	Waterloo	50.710994	4.406944
 location	Watermael-Boitsfort	50.793201	4.423990
+location	Waukesha County	43.000286	-88.237059
 location	Waunakee	43.185210	-89.446208
 location	Wauwatosa	43.054646	-88.039969
 location	Webster Parish	32.726688	-93.341411
@@ -1025,6 +1037,7 @@ location	Wilrijk	51.169169	4.396261
 location	Wilsele	50.889602	4.693823
 location	Wingene	51.058896	3.252863
 location	Winksele	50.897244	4.644376
+location	Winnebago County	42.303699	-89.118448
 location	Winneshiek County	43.288933	-91.839928
 location	Winona County	43.993965	-91.799960
 location	Wisconsin	44.535145	-89.527762
@@ -1179,6 +1192,7 @@ division	Caldas	5.314226	-75.340073
 division	Cali	3.420251	-76.522405
 division	California	36.357039	-119.690182
 division	Cambodia	13	105
+division	Campania	40.922286	14.904416
 division	Canada	61.0666922	-107.991707
 division	Canakkale	40.030844	26.733769
 division	Canary Islands	28.2916	-16.6291
@@ -1474,6 +1488,7 @@ division	Maglaj	44.5455	18.1034
 division	Maharashtra	19.7515	75.7139
 division	Makkah	21.3891	39.8579
 division	Malaysia	2.3923759	112.8471939
+division	Maldonado	-34.904210	-54.969183
 division	Malopolskie	49.7225	20.2503
 division	Manila	14.652678	121.043936
 division	Manitoba	55.182879	-97.823531
@@ -1642,6 +1657,7 @@ division	Quito	-0.18126	-78.4599
 division	Raanana	32.189052	34.868626
 division	Rabat	33.976469	-6.843796
 division	Rajasthan	26.498229	73.881085
+division	Rajshahi	24.372633	88.606356
 division	Ramat Gan	32.0684	34.
 division	Ramla	31.9316	34.8729
 division	Rancagua	-34.1701	-70.7406
@@ -1661,6 +1677,7 @@ division	Rio Grande do Sul	-29.615543	-53.220125
 division	Rio Negro	-40.8261	-63.0266
 division	Rio de Janeiro	-22.89445	-43.2099
 division	Risaralda	4.921633	-75.900759
+division	Rivera	-30.906491	-55.540612
 division	Riyadh	23.197563	45.243845
 division	Rostock	54.130776	12.106778
 division	Russia	64.6863136	97.7453061

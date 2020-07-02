@@ -67,6 +67,9 @@ location	Gulshan
 location	Mirpur
 location	Shailokupa
 location	Kalia
+location	Kodomtoly
+location	Tejgaon
+location	Jatrabari
 location	Sador
 location	Mohammadpur
 location	Agargaon
@@ -556,6 +559,7 @@ location	Yernée-Fraineux
 location	Starnberg
 location	Strasbourg
 location	Rome
+location	Naples
 location	Taranto
 location	Lecce
 location	Brindisi
@@ -897,6 +901,16 @@ location	Santa Clara County
 location	Davis
 location	Grant County WA
 location	Grant County WI
+location	Winnebago County
+location	Lafayette County
+location	Rock County
+location	Green County
+location	Milwaukee County
+location	Ozaukee County
+location	Fond Du Lac County
+location	Waukesha County
+location	Jefferson County WI
+location	Washington County WI
 location	Clark County
 location	Umatilla County
 location	Phoenix
@@ -994,7 +1008,6 @@ location	Cudahy
 location	Mequon
 location	Wauwatosa
 location	Greenfield
-location	Milwaukee
 location	Brown Deer
 location	Greater Milwaukee Area
 location	Slinger
@@ -1062,6 +1075,7 @@ location	Accra
 location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
+
 
 
 
@@ -1203,6 +1217,7 @@ division	Karachi
 division	Islamabad
 division	Rawalpindi
 division	Bangladesh
+division	Rajshahi
 division	Rangpur
 division	Mirpur
 division	Tangail
@@ -1573,6 +1588,7 @@ division	Sardinia
 division	Comines
 division	Cyprus
 division	Italy
+division	Campania
 division	Italian cruise ship
 division	South Tyrol
 division	Lazio
@@ -1734,6 +1750,8 @@ division	Buenos Aires
 division	Rio Negro
 division	Distrito Federal
 division	Uruguay
+division	Rivera
+division	Maldonado
 division	Colombia
 division	Meta
 division	Caldas
