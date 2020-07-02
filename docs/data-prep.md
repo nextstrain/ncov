@@ -43,11 +43,10 @@ strain              virus  gisaid_epi_isl  genbank_accession   date        regio
 NewZealand/01/2020  ncov   EPI_ISL_413490  ?                   2020-02-27  Oceania  ...
 ```
 
-In total there are 23 columns of metadata for each genome; see the [last section](./docs/data-prep.md#appendix-in-depth-guide-to-the-standard-nextstrain-metadata-fields) for an in-depth walkthrough.
-_Someone please check the above link_
+In total there are 23 columns of metadata for each genome; see the last section of this page for an in-depth walkthrough.
 
 #### Required metadata  
-A valid metadata file must include the following fields:  
+**A valid metadata file must include the following fields:**  
 
 | Field | Example value | Description | Formatting |  
 |---|---|---|---|
@@ -56,7 +55,7 @@ A valid metadata file must include the following fields:
 |`virus`|`ncov`|Pathogen name|Needs to be consistent|
 |`region`|"Africa", "Asia", "Europe", "North America", "Oceania" or "South America"|Global region of _sampling_ ||
 
-Please be aware that our current pipeline will filter out any genomes with an unknown date - you can change this in your own pipeline.
+Please be aware that **our current pipeline will filter out any genomes with an unknown date - you can change this in your own pipeline.**
 
 
 #### Missing metadata:

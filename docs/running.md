@@ -2,60 +2,64 @@
 
 >This section focuses on how to running the basic example build to give you a chance to practice and get a sense of how things work. The next section covers customizing and configuring your own build.
 
-**To run our analyses, we need to:**  
-1. Ensure our **sequence data and metadata is [properly formatted](data-prep.md)**  
-2. **Specify which builds you want** to generate using a `builds.yaml` file  
-3. **Execute the workflow**    
+**To run our analyses, we need to:**
+1. Ensure our **sequence data and metadata is [properly formatted](data-prep.md)**
+2. **Specify which builds you want** to generate using a `builds.yaml` file
+3. **Execute the workflow**
 4. [Hopefully you don't have to] **troubleshoot**
 
-## Step 1. Gather and format your data  
+## Step 1. Gather and format your data
 
-If you haven't done this step yet, check out our [data prep](data-prep.md) guide and come back when you're ready.  
+If you haven't done this step yet, check out our [data prep](data-prep.md) guide and come back when you're ready.
 
-## Step 2. Specify which builds to run    
+## Step 2. Specify which builds to run
 
-In the orientation section, we learned that  
-- [Nextstrain analyses are run using a workflow manager called Snakemake](orientation-workflow.md)  
-- [A "build"](glossary.md#Build) is a bundle of input files, parameters, and commands   
-- [Each build is configured by two primary files](orientation-files.md): `build.yaml` and `config.yaml`  
+In the orientation section, we learned that
+- [Nextstrain analyses are run using a workflow manager called Snakemake](orientation-workflow.md)
+- [A "build"](glossary.md#Build) is a bundle of input files, parameters, and commands
+- [Each build is primarily configured by your `builds.yaml` file](orientation-files.md): `builds.yaml` and `config.yaml`
 
-Let's start with defining a build in `./my_config/example/builds.yaml`.  
-**We use the `builds.yaml` file to define what geographic areas of the world we want to focus on. Each block in this file will produce a separate output JSON for visualization**.  
+Let's start with defining a build in `./my_profiles/example/builds.yaml`.
+**We use the `builds.yaml` file to define what geographic areas of the world we want to focus on. Each block in this file will produce a separate output JSON for visualization**.
 
-The first block of the provided `build.yaml` file looks like this:  
+The first block of the provided `./my_profiles/example/builds.yaml` file looks like this:
 ```
-# build focusing on King County (location) in Washington State (division) in the USA (country)
-
 builds:
-  usa_washington_king-county: # name of the build
-    subsampling_scheme: location # what subsampling method to use (see default_config.yaml)
+  # Focus on King County (location) in Washington State (division) in the USA (country)
+  # with a build name that will produce the following URL fragment on Nextstrain/auspice:
+  # /ncov/north-america/usa/washington/king-county
+  north-america_usa_washington_king-county: # name of the build; this can be anything
+    subsampling_scheme: location # what subsampling method to use (see parameters.yaml)
     region: North America
     country: USA
     division: Washington
     location: King County
+    # Whatever your lowest geographic area is (here, 'location' since we are doing a county in the USA)
+    # list 'up' from here the geographic area that location is in.
+    # Here, King County is in Washington state, is in USA, is in North America.
 ```
-Looking at this example, we can see that each build has a:  
-- `build_name`, which is used for naming output files  
-- `subsampling_scheme`, which specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes [can be defined](###).
+Looking at this example, we can see that each build has a:
+- `build_name`, which is used for naming output files
+- `subsampling_scheme`, which specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes [can be defined](customizing-analysis.md).
 - `region`, `country`, `division`, `location`: specify geographic attributes of the sample used for subsampling
 
 The rest of the builds defined in this file serve as examples for division-, country- or region-focused analyses.
 
-**To adapt this for your own analyses, copy `my_config/example` to `my_config/<my-new-name>` and open the `builds.yaml`
+**To adapt this for your own analyses, copy `my_profiles/example` to `my_profiles/<my-new-name>` and open the `builds.yaml`
 file in this directory.**
 
-Go ahead and **swap out the values in this file with the geographic area of interest to you.** You can add, disable (comment out), or remove as many of these build definitions as you'd like.  
+Go ahead and **swap out the values in this file with the geographic area of interest to you.** You can add, disable (comment out), or remove as many of these build definitions as you'd like.
 
-## Step 3: Run the workflow  
+## Step 3: Run the workflow
 
-To actually execute the workflow, run:  
+To actually execute the workflow, run:
 
-```bash  
-sarscov2-tutorial$ snakemake --profile my_config/example -p  
+```bash
+ncov$ snakemake --profile my_profiles/example -p
 ```
 
-`--profile` tells snakemake where to find your `builds.yaml` and `config.yaml` files.  
-`-p` tells snakemake to print each command it runs to help you understand what it's doing.   
+`--profile` tells snakemake where to find your `builds.yaml` and `config.yaml` files.
+`-p` tells snakemake to print each command it runs to help you understand what it's doing.
 
 If you'd like to run a dryrun, try running with the `-np` flag, which will execute a dryrun. This prints out each command, but doesn't execute it.
 
@@ -67,12 +71,12 @@ If you have a question which is not addressed here, please don't hestitate to [a
 
 #### My country / division does not show up on the map
 
-This is most often a result of the country / division not being present in [the file defining the latitude & longitude of each deme](../config/lat_longs.tsv).
+This is most often a result of the country / division not being present in [the file defining the latitude & longitude of each deme](../defaults/lat_longs.tsv).
 Adding it to that file (and rerunning the Snakemake rules downstream of this) should fix this.
 
 #### My trait (e.g. division) is grey instead of colored
 
-We generate the colors from the `colors` rule in the Snakefile, which uses the [ordering TSV](./default_config/ordering.tsv) to generate these. See ['customizing your analysis'](customizing-analysis.md) for more info.
+We generate the colors from the `colors` rule in the Snakefile, which uses the [ordering TSV](./defaults/ordering.tsv) to generate these. See ['customizing your analysis'](customizing-analysis.md) for more info.
 
 _*A note about locations and colors:*_
 Unless you want to specifically override the colors generated, it's usually easier to _add_ information to the default `ncov` files, so that you can benefit from all the information already in those files.
@@ -82,8 +86,8 @@ Unless you want to specifically override the colors generated, it's usually easi
 There are a few steps where sequences can be removed:
 
 - During the `filter` step:
-    - Samples which are included in [the exclude file](../default_config/exclude.tsv) are removed
-    - Samples which fail the current filtering criteria, as defined in the `default_config.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
+    - Samples which are included in [the exclude file](../defaults/exclude.tsv) are removed
+    - Samples which fail the current filtering criteria, as defined in the `parameters.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
         - Minimum sequence length of 25kb
         - No ambiguity in (sample collection) date
     - Samples may be randomly removed during subsampling; see ['customizing your analysis'](customizing-analysis.md) for more info.
@@ -117,13 +121,13 @@ The flagged sequences will be excluded from the current run.
 
 To only run the sequence diagnostic, you can specify any of the three above files as target or run:
 ```bash
-snakemake --profile my_config/<name> diagnostic
+snakemake --profile my_profiles/<name> diagnostic
 ```
 
 In addition, we provide rules to re-examine the sequences in `config/exclude.txt`.
 By running
 ```bash
-snakemake --profile my_config/<name> diagnose_excluded
+snakemake --profile my_profiles/<name> diagnose_excluded
 ```
 the pipeline will produce
 
@@ -134,4 +138,4 @@ the pipeline will produce
 These files are meant to facilitate checking whether sequences in `config/exclude.txt` are excluded for valid reasons.
 
 ## [Previous Section: Orientation: which files should I touch?](orientation-files.md)
-## [Next Section: Customizing your analysis](customizing-analysis.md)
+## [Next Section: Orientation: Customizing your analysis](customizing-analysis.md)
