@@ -1,0 +1,8 @@
+false division (actually location)	true division
+Thaur	Tyrol
+Mayrhofen	Tyrol
+Altenhof Am Hausruck	Upper Austria
+Losenstein	Upper Austria
+Ischgl	Tyrol
+Innsbruck	Tyrol
+Hanoi	Red River Delta

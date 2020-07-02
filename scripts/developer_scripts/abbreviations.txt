@@ -1,0 +1,6 @@
+Name	Abbreviation
+Washington	WA
+Wisconsin	WI
+New York	NY
+Missouri	MO
+Oregon	OR
