@@ -911,6 +911,7 @@ location	Fond Du Lac County
 location	Waukesha County
 location	Jefferson County WI
 location	Washington County WI
+location	Columbia County WI
 location	Clark County
 location	Umatilla County
 location	Phoenix
@@ -948,6 +949,7 @@ location	Cayuga County
 location	Schenectady County
 location	Washington County NY
 location	Washington County OR
+location	Columbia County OR
 location	Albany County
 location	Putnam County
 location	New York City
@@ -1119,6 +1121,8 @@ division	Tohoku
 division	Japan
 division	Diamond Princess
 division	Kanto
+division	Chushikoku
+division	Hokurikushinsyu
 division	Chiba
 division	Ishikawa
 division	Saitama

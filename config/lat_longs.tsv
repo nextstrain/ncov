@@ -218,6 +218,8 @@ location	Clayton	-37.915200	145.127165
 location	Clinton County	44.703277	-73.705166
 location	Coevorden	52.6614	6.7411
 location	Colfontaine	50.40777	3.846237
+location	Columbia County OR	45.968079	-123.064474
+location	Columbia County WI	43.461844	-89.293554
 location	Colombes	48.9221	2.2533
 location	Colorado Springs	38.8339	-104.8214
 location	Columbia County	45.956622	-123.082332
@@ -1226,6 +1228,7 @@ division	Choco	5.705238	-76.890815
 division	Chongqing	29.858721	107.375623
 division	Chubu	35.183334	136.899994
 division	Chungcheongnam	36.685948	126.799198
+division	Chushikoku	34.237636	133.058999
 division	Ciudad Autonoma de Buenos Aires	-34.6037	-58.3816
 division	Colombia	2.893108	-73.7845142
 division	Colorado	39.5501	-105.7821
@@ -1350,6 +1353,7 @@ division	Heves County	47.8058	20.2039
 division	Ho Chi Minh City	10.790417	106.653985
 division	Hokkaido	43.2203	142.8635
 division	Hokuriku	37.9154	139.0356
+division	Hokurikushinsyu	36.708064	137.806500
 division	Holon	32.0158	34.7874
 division	Holsbeek	50.9211	4.7570
 division	Hong Kong	22.3964	114.1095
