@@ -1096,6 +1096,12 @@ division	Manila
 division	Keelung
 division	Aichi
 division	Tokyo
+division	Hokuriku
+division	Hokkaido
+division	Kansai
+division	Kyusyu
+division	Chubu
+division	Tohoku
 division	Japan
 division	Diamond Princess
 division	Kanto
@@ -1312,6 +1318,15 @@ division	Republic of Sakha
 division	Republic of Kabardino-Balkaria
 division	Republic of Crymea
 division	Republic of Tatarstan
+division	Bulgaria
+division	Blagoevgrad
+division	Dupnitza
+division	Kyustendil
+division	Pazardzhik
+division	Pleven
+division	Smolyan
+division	Sofia
+division	Vidin
 division	Slovenia
 division	Arges
 division	Buzau
@@ -1882,6 +1897,7 @@ country	Poland
 country	Belarus
 country	Estonia
 country	Lithuania
+country	Bulgaria
 country	Hungary
 country	Croatia
 country	France

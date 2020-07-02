@@ -1146,6 +1146,7 @@ division	Bern	46.855135	7.570549
 division	Bihac	44.8120	15.8686
 division	Bihar	25.0961	85.3131
 division	Bizerte	37.280658	9.863049
+division	Blagoevgrad	42.0209	23.0943
 division	Blida	36.48329	2.808751
 division	Bogota	4.629337	-74.095588
 division	Bolivar	8.753508	-74.367735
@@ -1209,6 +1210,7 @@ division	China	33.394333	104.689839
 division	Chittagong	22.3569	91.7832
 division	Choco	5.705238	-76.890815
 division	Chongqing	29.858721	107.375623
+division	Chubu	35.183334	136.899994
 division	Chungcheongnam	36.685948	126.799198
 division	Ciudad Autonoma de Buenos Aires	-34.6037	-58.3816
 division	Colombia	2.893108	-73.7845142
@@ -1253,6 +1255,7 @@ division	Drenthe	52.846963	6.608915
 division	Dublin	53.3431	-6.262191
 division	Dubrovnik	42.651307	18.102801
 division	Duesseldorf	51.236437	6.809537
+division	Dupnitza	42.2613	23.1125
 division	Durango	24.019546	-104.658028
 division	East Kalimantan	0.241323	116.558975
 division	Eastern Cape	-32.344458	26.497832
@@ -1331,6 +1334,8 @@ division	Herselt	51.0524	4.8807
 division	Heverlee	50.8626	4.6959
 division	Heves County	47.8058	20.2039
 division	Ho Chi Minh City	10.790417	106.653985
+division	Hokkaido	43.2203	142.8635
+division	Hokuriku	37.9154	139.0356
 division	Holon	32.0158	34.7874
 division	Holsbeek	50.9211	4.7570
 division	Hong Kong	22.3964	114.1095
@@ -1423,6 +1428,8 @@ division	Kuwait	29.452987	47.447194
 division	KwaZulu-Natal	-28.704798	30.693005
 division	Kwara State	9.172913	4.409729
 division	Kyoto	35.007542	135.768455
+division	Kyusyu	32.5900	130.8000
+division	Kyustendil	42.2869	22.6939
 division	Kakanj	44.1280	18.1178
 division	La Louvière	50.469989	4.158129
 division	La Rioja	42.2871	-2.5396
@@ -1597,6 +1604,7 @@ division	Pardesia	32.3050	34.9117
 division	Pasuruan	-7.6469	112.8999
 division	Pathum Thani	14.018153	100.723973
 division	Pays de la Loire	47.640237	-0.647258
+division	Pazardzhik	42.1928	24.3336
 division	Pennsylvania	41.2033	-77.1945
 division	Perm Region	58.017794	56.311058
 division	Pernambuco	-8.8137	-36.9541
@@ -1607,6 +1615,7 @@ division	Philippines	12.8797	121.774
 division	Phuket	7.959471	98.339272
 division	Piaui	-7.7183	-42.7289
 division	Pichincha	-0.1465	-78.4752
+division	Pleven	43.4170	24.6067
 division	Poland	52.0977181	19.0258159
 division	Polleur	50.580257	5.866744
 division	Pomorskie	54.2944	18.1531
@@ -1697,7 +1706,9 @@ division	Slask	50.406080	18.976345
 division	Slovakia	48.66667	19.5
 division	Slovenia	45.8133113	14.4808369
 division	Småland	57.528294	14.463824
+division	Smolyan	41.5774	24.7011
 division	Sodermanland	59.0336	16.7519
+division	Sofia	42.6977	23.3219
 division	Soignies	50.567422	4.040613
 division	Solothurn	47.207025	7.528326
 division	Sormland	59.061157	16.697407
@@ -1756,6 +1767,7 @@ division	Tilburg	51.567213	5.047957
 division	Timor-Leste	-8.809397	125.909527
 division	Tipperary	52.4738	-8.1619
 division	Tirat Zvi	32.4225	35.5283
+division	Tohoku	40.7280	141.2578
 division	Tokat	40.3235	36.5522
 division	Tokyo	35.683441	139.766131
 division	Tolima	4.065944	-75.215716
@@ -1809,6 +1821,7 @@ division	Verona	45.4384	10.9916
 division	Verviers	50.578077	5.872924
 division	Veurne	51.046671	2.663125
 division	Victoria	-37.121673	144.106178
+division	Vidin	43.9962	22.8679
 division	Vienna	48.2082	16.3738
 division	Vietnam	16.16667	107.83333
 division	Villavicencio	4.134000	-73.623483
