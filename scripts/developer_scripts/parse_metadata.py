@@ -468,7 +468,7 @@ def check_duplicate(data):
 def check_for_missing(data):
     data_clean = {}
 
-    missing = {"country": [], "division": [], "location": []}
+    missing = {"country": [], "division": {}, "location": {}}
 
     for region in data:
         data_clean[region] = {}
@@ -492,7 +492,9 @@ def check_for_missing(data):
                         s = s + " (only missing in ordering)"
                     if division in ordering["division"] and division not in lat_longs["division"]:
                         s = s + " (only missing in lat_longs)"
-                    missing["division"].append(s)
+                    if country not in missing["division"]:
+                        missing["division"][country] = []
+                    missing["division"][country].append(s)
 
                 else:
                     data_clean[region][country][division] = []
@@ -510,17 +512,37 @@ def check_for_missing(data):
                             s = s + " (only missing in ordering)"
                         if location in ordering["location"] and location not in lat_longs["location"]:
                             s = s + " (only missing in lat_longs)"
-                        missing["location"].append(s)
+
+                        if country not in missing["location"]:
+                            missing["location"][country] = {}
+                        if division not in missing["location"][country]:
+                            missing["location"][country][division] = []
+                        missing["location"][country][division].append(s)
 
                     else:
                         if division in ordering["division"] and division in lat_longs["division"]:
                             data_clean[region][country][division].append(location)
 
-    for type in missing:
-        print("Missing " + type + ":")
-        for entry in missing[type]:
-            print(type + "\t" + entry)
+    print("Missing locations:")
+    for country in missing["location"]:
+        print("# " + country + " #")
+        for division in missing["location"][country]:
+            print(division)
+            for location in missing["location"][country][division]:
+                print("location\t" + location)
         print()
+
+    print("\nMissing divisions:")
+    for country in missing["division"]:
+        print("# " + country + " #")
+        for division in missing["division"][country]:
+            print("division\t" + division)
+        print()
+
+    print("\nMissing countries:")
+    for country in missing["country"]:
+        print(country)
+
 
     print("\n=============================\n")
     return data_clean
