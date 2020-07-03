@@ -1042,6 +1042,13 @@ location	Warwickshire
 # Greater Accra
 location	Accra
 
+### Senegal
+# Dakar
+location	Guediawaye
+
+# Kolda
+location	Velingara
+
 ### South Africa
 # Western Cape Province
 location	Cape Town Metro
@@ -1633,6 +1640,7 @@ division	Tirat Zvi
 division	Tveria
 
 ### Japan
+division	Nagasaki
 division	Kyusyu
 division	Chushikoku
 division	Kochi
@@ -1930,6 +1938,7 @@ division	Baden-Wuerttemberg
 division	Germany
 division	Bavaria
 division	Rostock
+division	Berlin
 
 ### Greece
 division	Thessaloniki
@@ -2101,7 +2110,6 @@ division	Murcia
 division	Comunitat Valenciana
 division	Aragon
 division	Catalunya
-division	Barcelona
 division	Balear Islands
 
 ### Sweden
@@ -2233,6 +2241,7 @@ division	Mbour
 division	Thies
 division	St-Louis
 division	Touba
+division	Kolda
 
 ### South Africa
 division	Western Cape Province

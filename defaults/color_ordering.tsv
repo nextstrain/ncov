@@ -625,6 +625,7 @@ location	Algeciras
 location	La Linea de la Concepcion
 location	Conil de la Frontera
 location	Madrid
+division	Barcelona
 location	Muro
 location	Palma de Mallorca
 location	Alamedilla
@@ -1079,6 +1080,7 @@ location	Multnomah County
 location	Wasco County
 location	Richland County
 location	Accra
+location	Yeumbeul
 location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
@@ -1117,6 +1119,7 @@ division	Manila
 division	Keelung
 division	Aichi
 division	Tokyo
+division	Nagasaki
 division	Hokuriku
 division	Hokkaido
 division	Kansai
@@ -1568,6 +1571,7 @@ division	Tyrol
 division	Burgenland
 division	Salzburg
 division	Germany
+division	Berlin
 division	Frankfurt
 division	Zielonogorskie
 division	Pomorskie
@@ -1675,6 +1679,7 @@ division	Ogun State
 division	Osun State
 division	Oyo State
 division	Ghana
+division	Yeumbeul
 division	Senegal
 division	Gambia
 division	Kombo

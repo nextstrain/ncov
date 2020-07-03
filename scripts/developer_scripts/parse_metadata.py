@@ -576,7 +576,7 @@ def write_ordering(data, hierarchy):
     if hierarchy == "location":
         mode = "w"
 
-    with open("ordering.tsv", mode) as out:
+    with open("color_ordering.tsv", mode) as out:
         if hierarchy == "recency":
             out.write("recency\tOlder\nrecency\tOne month ago\nrecency\tOne week ago\nrecency\t3-7 days ago\nrecency\t1-2 days ago\nrecency\tNew\n")
             return
@@ -635,8 +635,8 @@ with open(path_to_ncov + "data/metadata.tsv") as myfile:
     metadata = myfile.readlines()
 
 # Read orderings and lat_longs
-ordering = read_geography_file(path_to_ncov + "config/ordering.tsv") #TODO: combine with read_local_files()?
-lat_longs = read_geography_file(path_to_ncov + "config/lat_longs.tsv")
+ordering = read_geography_file(path_to_ncov + "defaults/color_ordering.tsv") #TODO: combine with read_local_files()?
+lat_longs = read_geography_file(path_to_ncov + "defaults/lat_longs.tsv")
 
 # List that will contain all proposed annotations collected throughout the script
 additions_to_annotation = []

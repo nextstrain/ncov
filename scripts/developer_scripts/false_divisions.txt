@@ -6,3 +6,4 @@ Losenstein	Upper Austria
 Ischgl	Tyrol
 Innsbruck	Tyrol
 Hanoi	Red River Delta
+Barcelona	Catalunya
