@@ -61,7 +61,7 @@ For the [`south-usa-sarscov2`](https://github.com/emmahodcroft/south-usa-sarscov
 To run this, one would call the following from within `ncov`:
 
 ```bash
-ncov$ snakemake --profile ../south-usa-sarscov2/profiles/south-central/
+ncov$ snakemake --cores 1 --profile ../south-usa-sarscov2/profiles/south-central/
 ```
 
 ## [Previous Section: Preparing your data](data-prep.md)
