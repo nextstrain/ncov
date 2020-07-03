@@ -137,6 +137,8 @@ location	Clayton
 location	Auckland
 location	Gilgit
 location	Riyadh
+location	Guediawaye
+location	Velingara
 location	Hawali
 location	Dasman
 location	Ulan-Ude
@@ -590,6 +592,9 @@ location	Elda
 location	Vitoria-Gasteiz
 location	Donostia-San Sebastian
 location	Sevilla
+location	Alcala de Henares
+location	Arganda del Rey
+location	Parla
 location	Pamplona
 location	Baranain
 location	Alcobendas
@@ -1701,6 +1706,7 @@ division	West Coast Region
 division	Mbour
 division	Touba
 division	Dakar
+division	Kolda
 division	St-Louis
 division	Thies
 division	Blida
