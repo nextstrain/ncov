@@ -908,11 +908,14 @@ location	Cortijos Nuevos
 location	Almeria
 
 # Madrid
+location	Parla
 location	Leganés
 location	Madrid
 location	Alcobendas
 location	Rivas-Vaciamadrid
+location	Arganda del Rey
 location	Campo Real
+location	Alcala de Henares
 location	Valdaracete
 location	Ambite
 
@@ -1242,6 +1245,7 @@ location	Southeast Alaska
 location	Sonoma County
 
 # Oregon
+location	Columbia County OR
 location	Washington County OR
 location	Marion County
 location	Multnomah County
@@ -1366,6 +1370,7 @@ location	Oregon WI
 location	Brooklyn WI
 location	Deforest
 location	Monona
+location	Columbia County WI
 location	Sun Prarie
 location	Stoughton
 location	Cottage Grove
@@ -1629,6 +1634,7 @@ division	Tveria
 
 ### Japan
 division	Kyusyu
+division	Chushikoku
 division	Kochi
 division	Osaka
 division	Kyoto
@@ -1637,6 +1643,7 @@ division	Nara
 division	Ishikawa
 division	Chubu
 division	Aichi
+division	Hokurikushinsyu
 division	Hokuriku
 division	Kanto
 division	Kanagawa

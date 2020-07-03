@@ -492,6 +492,8 @@ def check_for_missing(data):
                         s = s + " (only missing in ordering)"
                     if division in ordering["division"] and division not in lat_longs["division"]:
                         s = s + " (only missing in lat_longs)"
+                    if division in ordering["location"] or division in lat_longs["location"]:
+                        s = s + " (present as location)"
                     if country not in missing["division"]:
                         missing["division"][country] = []
                     missing["division"][country].append(s)
@@ -512,6 +514,8 @@ def check_for_missing(data):
                             s = s + " (only missing in ordering)"
                         if location in ordering["location"] and location not in lat_longs["location"]:
                             s = s + " (only missing in lat_longs)"
+                        if location in ordering["division"] or location in lat_longs["division"]:
+                            s = s + " (present as division)"
 
                         if country not in missing["location"]:
                             missing["location"][country] = {}
