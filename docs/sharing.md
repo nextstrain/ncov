@@ -66,7 +66,7 @@ Community builds are visible to anyone with the URL.
 
 ## Option 3: Local viewing on your computer with Auspice  
 
-* **Quickstart**: `sarscov2-tutorial$ auspice view`
+* **Quickstart**: `ncov$ auspice view`
 * **Advantages:** Offline, entirely local viewing of results, including sensitive data.
 * **Limitations:** Requires collaborators to install Auspice locally. Requires separate management of JSON file sharing and version control. Sharing a specific view via a URL isn't possible with this method.
 
@@ -110,5 +110,5 @@ With Nextstrain Groups, you can choose whether each dataset is publicly viewable
 #### Privacy and security  
 Independently hosted Auspice servers can be configured with any security protocols necessary.
 
-## [Previous Section: Customizing your visualization](customizing-visualization.md)
+## [Previous Section: Orientation: Customizing your visualization](customizing-visualization.md)
 ## [Next Section: Interpreting your results](interpretation.md)
