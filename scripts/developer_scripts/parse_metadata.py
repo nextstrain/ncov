@@ -413,9 +413,7 @@ def check_duplicate(data):
                 for location in data[region][country][division]:
                     if location in duplicates:
                         print("Known duplicate detected: " + bold(location))
-                        duplicate_locations[location] = (region, country, division, location + " " + abbreviations[division])
-
-    data = correct_data(data, "location", duplicate_locations)
+                        data = correct_data(data, "location", {location: (region, country, division, location + " " + abbreviations[division])})
 
     #Check for new cases
     division_to_country = {}
@@ -606,17 +604,17 @@ def write_ordering(data, hierarchy):
 ################################################################################
 
 # Read current metadata
-path_to_nextstrain = "../Nextstrain_local/" # TODO: adjust file structure properly
-with open(path_to_nextstrain + "ncov/data/metadata.tsv") as myfile:
+path_to_ncov = "../../" # TODO: adjust file structure properly
+with open(path_to_ncov + "data/metadata.tsv") as myfile:
     metadata = myfile.readlines()
 
 # Read orderings and lat_longs
-ordering = read_geography_file(path_to_nextstrain + "ncov/config/ordering.tsv") #TODO: combine with read_local_files()?
-lat_longs = read_geography_file(path_to_nextstrain + "ncov/config/lat_longs.tsv")
+ordering = read_geography_file(path_to_ncov + "config/ordering.tsv") #TODO: combine with read_local_files()?
+lat_longs = read_geography_file(path_to_ncov + "config/lat_longs.tsv")
 
 # List that will contain all proposed annotations collected throughout the script
 additions_to_annotation = []
-with open(path_to_nextstrain + "ncov-ingest/source-data/gisaid_annotations.tsv") as myfile:
+with open(path_to_ncov + "../ncov-ingest/source-data/gisaid_annotations.tsv") as myfile:
     annotations = myfile.read()
 
 
