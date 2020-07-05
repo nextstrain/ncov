@@ -63,6 +63,13 @@ ncov$ snakemake --profile my_profiles/example -p
 
 If you'd like to run a dryrun, try running with the `-np` flag, which will execute a dryrun. This prints out each command, but doesn't execute it.
 
+Note that the example profile runs the workflow with at most two cores at once, as defined by the `cores` parameter in `my_profiles/example/config.yaml`.
+Snakemake requires you to specify how many cores to use at once.
+To define the number of cores to use from the command line, run Snakemake as follows.
+
+```bash
+ncov$ snakemake --cores 1 --profile my_profiles/example -p
+```
 
 ## Step 4: Troubleshoot common issues
 

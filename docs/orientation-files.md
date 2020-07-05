@@ -51,7 +51,8 @@ We'll walk through all of the files one by one, but here are the most important 
 |`./defaults/`|`auspice_config.json`|**Default visualization configuration file**|Override these settings in `./my_profiles/.../auspice_config.yaml`|See our [customization guide](customizing-visualization.md)|
 
 
-## Workflow configuration files we don't need to touch  
+## Workflow configuration files we don't need to touch
+
 | Directory | File | Description | Configuration|
 |-----|-----|-----|-----|
 |`./`|`Snakefile`|Entry point for `snakemake` commands; validates input.|No modification needed|
