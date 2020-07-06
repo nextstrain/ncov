@@ -571,3 +571,9 @@ Australia/VIC2087/2020
 Australia/VIC2089/2020
 Timor-Leste/TL04/2020 
 Timor-Leste/TL13/2020 
+
+# Collection dates from Jan 6 with divergence resembling a much more recent virus
+Australia/VIC1898/2020
+Australia/VIC1899/2020
+Australia/VIC2012/2020
+Australia/VIC2013/2020
