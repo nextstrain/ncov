@@ -4,6 +4,9 @@ from difflib import SequenceMatcher
 # Things to make things recogised as Cruise ships & ignored/special treatment
 cruise_abbrev = ["Grand Princess", "Cruise"]
 
+#path to files used in the script
+path_to_script_files = "scripts/developer_scripts/"
+
 def bold(s):
     return('\033[1m' + s + '\033[0m')
 
@@ -14,13 +17,19 @@ def bold(s):
 # Read files which store duplicates, variants etc.
 def read_local_file(file_name): #TODO: how will final file structure look like? Also, combine everything into one file for compactness?
 
-    with open(file_name) as myfile:
+    path_file_name = path_to_script_files + file_name
+
+    with open(path_file_name) as myfile:
         file_content = myfile.readlines()
 
-    if file_name in ["sequences_exclude.txt", "duplicates.txt", "accepted_exposure_additions.txt"]: #simple list
+    first_files = [path_to_script_files+fi for fi in ["sequences_exclude.txt", "duplicates.txt", "accepted_exposure_additions.txt"]]
+
+    if path_file_name in first_files: #simple list
         return [line.strip() for line in file_content[1:]]
 
-    if file_name in ["variants.txt", "wrong_regions.txt", "abbreviations.txt", "false_divisions.txt", ]: #dictionary, keys seaprated from content with tabs
+    second_files = [path_to_script_files+fi for fi in ["variants.txt", "wrong_regions.txt", "abbreviations.txt", "false_divisions.txt", ] ]
+
+    if path_file_name in second_files: #dictionary, keys seaprated from content with tabs
         content = {}
         for line in file_content[1:]:
             l = line.strip().split("\t")
@@ -247,10 +256,10 @@ def check_similar(ordering, name):
 def adjust_to_database(data): #TODO: temporary solution, needs reworking
     for region in data:
         for country in data[region]:
-            if country + ".txt" in listdir("country_ordering/"): #TODO: correct path?
+            if country + ".txt" in listdir(path_to_script_files + "country_ordering/"): #TODO: correct path?
 
                 variants = {}
-                with open("country_ordering/Belgium_variants.txt") as myfile: #TODO: this could be prettier...
+                with open(path_to_script_files + "country_ordering/Belgium_variants.txt") as myfile: #TODO: this could be prettier...
                     belgium_variants = myfile.readlines()
                 for line in belgium_variants:
                     if line == "\n":
@@ -258,7 +267,7 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                     l = line.strip().split("\t")
                     variants[l[0]] = l[1]
 
-                with open("country_ordering/" + country + ".txt") as myfile:
+                with open(path_to_script_files + "country_ordering/" + country + ".txt") as myfile:
                     country_ordering = myfile.readlines()
 
                 arrondissement_to_location = {}
@@ -578,6 +587,9 @@ def check_for_missing(data):
     else:
         print("No missing countries")
 
+
+    ##### Ask user if they want to look for lat-longs now, or end script for time being.
+
     find_lat_longs = input("\n\nWould you like to look for lat-longs for these places now? y or n \n(it's suggested to make any necessary file additions before this step): ")
 
     if find_lat_longs.lower() == 'y':
@@ -740,17 +752,17 @@ def write_ordering(data, hierarchy):
 ################################################################################
 
 # Read current metadata
-path_to_ncov = "../../" # TODO: adjust file structure properly
-with open(path_to_ncov + "data/metadata.tsv") as myfile:
+#path_to_ncov = "../../" # TODO: adjust file structure properly
+with open("data/metadata.tsv") as myfile:
     metadata = myfile.readlines()
 
 # Read orderings and lat_longs
-ordering = read_geography_file(path_to_ncov + "defaults/color_ordering.tsv") #TODO: combine with read_local_files()?
-lat_longs = read_geography_file(path_to_ncov + "defaults/lat_longs.tsv")
+ordering = read_geography_file("defaults/color_ordering.tsv") #TODO: combine with read_local_files()?
+lat_longs = read_geography_file("defaults/lat_longs.tsv")
 
 # List that will contain all proposed annotations collected throughout the script
 additions_to_annotation = []
-with open(path_to_ncov + "../ncov-ingest/source-data/gisaid_annotations.tsv") as myfile:
+with open("../ncov-ingest/source-data/gisaid_annotations.tsv") as myfile:
     annotations = myfile.read()
 
 
