@@ -1,6 +1,9 @@
 from os import listdir
 from difflib import SequenceMatcher
 
+# Things to make things recogised as Cruise ships & ignored/special treatment
+cruise_abbrev = ["Grand Princess", "Cruise"]
+
 def bold(s):
     return('\033[1m' + s + '\033[0m')
 
@@ -54,7 +57,7 @@ def read_geography_file(file_name):
             s = "ordering"
             if lat_longs:
                 s = "lat_longs"
-            print("Duplicate in " + s + "? (" + l[0] + " " + l[1] + ")") #if already in the dictionary, print warning
+            print("Duplicate in " + s + "? (" + l[0] + " " + l[1] + ")\n") #if already in the dictionary, print warning
 
     return data
 
@@ -445,6 +448,8 @@ def check_duplicate(data):
 
             print("New duplicate division detected: " + bold(division + " (" + s + ")"))
 
+    cruise_ship_duplicates = 0
+    cruis_ship_abbrev = 0
     for location in location_to_division:
         if len(location_to_division[location]) > 1:
             if location_to_division[location][0][1] == location_to_division[location][1][1]:
@@ -455,13 +460,23 @@ def check_duplicate(data):
             else:
                 s = ", ".join([division + " (" + country + ")" for (division, country, region) in location_to_division[location]])
 
-            print("New duplicate location detected: " + bold(location + " (" + s + ")"))
-            print("(Suggestion: Add " + location + " to duplicates.txt)")
+            if location.find("Cruise"):
+                cruise_ship_duplicates = cruise_ship_duplicates + 1
+            else:
+                print("New duplicate location detected: " + bold(location + " (in both " + s + ")"))
+                print("(Suggestion: Add " + location + " to duplicates.txt)")
 
+            
             for (division, country, region) in location_to_division[location]:
                 if division not in abbreviations:
-                    print("Attention: Missing abbreviation for " + bold(division) + " (Suggestion: add to abbreviations.txt)")
+                    if not any(x in division for x in cruise_abbrev):
+                        print("Attention: Missing abbreviation for " + bold(division) + " (Suggestion: add to abbreviations.txt)")
+                    else:
+                        cruis_ship_abbrev = cruis_ship_abbrev + 1 
+                        
 
+    if cruise_ship_duplicates: print("("+str(cruise_ship_duplicates)+" cruise ship entries ignored for duplicate locations)")
+    if cruis_ship_abbrev: print("("+ str(cruis_ship_abbrev) + " cruise ship entries ignored for missing state abbreviations)")
     print("\n=============================\n")
 
 ##### Step 2.4: Check for missing names in ordering and lat_longs as well as return a clean, reduced version of the metadata
@@ -469,6 +484,7 @@ def check_for_missing(data):
     data_clean = {}
 
     missing = {"country": [], "division": {}, "location": {}}
+    clean_missing = {"country": [], "division": {}, "location": {}} # Same as above, but without formatting or notes
 
     for region in data:
         data_clean[region] = {}
@@ -476,6 +492,7 @@ def check_for_missing(data):
         for country in data[region]:
             if country not in ordering["country"]:
                 missing["country"].append(bold(country))
+                clean_missing["country"].append(country)
             else:
                 data_clean[region][country] = {}
 
@@ -496,7 +513,9 @@ def check_for_missing(data):
                         s = s + " (present as location)"
                     if country not in missing["division"]:
                         missing["division"][country] = []
+                        clean_missing["division"][country] = []
                     missing["division"][country].append(s)
+                    clean_missing["division"][country].append(division)
 
                 else:
                     data_clean[region][country][division] = []
@@ -519,37 +538,128 @@ def check_for_missing(data):
 
                         if country not in missing["location"]:
                             missing["location"][country] = {}
+                            clean_missing["location"][country] = {}
                         if division not in missing["location"][country]:
                             missing["location"][country][division] = []
+                            clean_missing["location"][country][division] = []
                         missing["location"][country][division].append(s)
+                        clean_missing["location"][country][division].append(location)
 
                     else:
                         if division in ordering["division"] and division in lat_longs["division"]:
                             data_clean[region][country][division].append(location)
 
-    print("Missing locations:")
-    for country in missing["location"]:
-        print("# " + country + " #")
-        for division in missing["location"][country]:
-            print(division)
-            for location in missing["location"][country][division]:
-                print("location\t" + location)
-        print()
+    if missing['location']:
+        print("Missing locations:")
+        for country in missing["location"]:
+            print("# " + country + " #")
+            for division in missing["location"][country]:
+                print(division)
+                for location in missing["location"][country][division]:
+                    print("location\t" + location)
+            print()
+    else:
+        print("No missing locations")
 
-    print("\nMissing divisions:")
-    for country in missing["division"]:
-        print("# " + country + " #")
-        for division in missing["division"][country]:
-            print("division\t" + division)
-        print()
+    if missing['division']:
+        print("\nMissing divisions:")
+        for country in missing["division"]:
+            print("# " + country + " #")
+            for division in missing["division"][country]:
+                print("division\t" + division)
+            print()
+    else:
+        print("No missing divisions")
 
-    print("\nMissing countries:")
-    for country in missing["country"]:
-        print(country)
+    if missing['country']:
+        print("\nMissing countries:")
+        for country in missing["country"]:
+            print(country)
+    else:
+        print("No missing countries")
 
+    find_lat_longs = input("\n\nWould you like to look for lat-longs for these places now? y or n \n(it's suggested to make any necessary file additions before this step): ")
+
+    if find_lat_longs.lower() == 'y':
+
+        from geopy.geocoders import Nominatim
+        geolocator = Nominatim()
+        new_lat_longs = []
+
+        print("Getting lat-long for missing places:\n")
+
+        for country in clean_missing["location"]:
+            print("# " + country + " #")
+            for division in clean_missing["location"][country]:
+                print("\ndivision: "+division)
+                for location in clean_missing["location"][country][division]:
+                    if any(x in location for x in cruise_abbrev):
+                        print(" One cruise ship location ignored ("+ location +").")
+                        continue
+
+                    full_location = location +", "+ division+", "+country
+
+                    new_lat_longs.append(find_place("location", location, full_location, geolocator))
+            print()
+
+
+        for country in clean_missing["division"]:
+            print("# " + country + " #")
+            for division in clean_missing["division"][country]:
+                print("division\t" + division)
+                full_division = division+", "+country
+
+                new_lat_longs.append(find_place("division", division, full_division, geolocator))
+            print()
+
+        for country in missing["country"]:
+            print(country)
+            
+            new_lat_longs.append(find_place("country", country, country, geolocator))
+
+        print("\nNew locations to be written out: ")
+        print(*new_lat_longs, sep='\n')
 
     print("\n=============================\n")
     return data_clean
+
+
+# Get the geo-locator to find a possible location - returns result
+# call with ex: 'Dallas, Texas, USA', geolocator
+def ask_geocoder(full_unknown_place, geolocator):
+    new_place = geolocator.geocode(full_unknown_place, language='en')
+    return new_place
+
+# Allows user to try typing different locations to get lat-long, or tell to leave blank
+# Call with ex: 'location', 'Dallas', 'Dallas, Texas, USA', geolocator
+def find_place(geo_level, place, full_place, geolocator):
+    typed_place = full_place
+    redo = True                    
+    while redo == True:
+        print("\nCurrent place for missing {}:\t".format(geo_level) + full_place)
+        new_place = ask_geocoder(typed_place, geolocator)
+
+        if str(new_place) == 'None':
+            print("The place as currently written could not be found.")
+            answer = 'n'
+        else:
+            print("Geopy suggestion: "+ new_place.address)
+            answer = input('Is this the right place? Type y or n: ')
+
+        if answer.lower() == 'y':
+            answer = (geo_level + "\t" + place + "\t" + str(new_place.latitude) + "\t" + str(new_place.longitude))
+            redo = False
+
+        else:
+            # Let the user correct/have more detail for what's typed
+            print("For: "+full_place)
+            typed_place =  input("Type a more specific place name or 'NA' to leave blank: ")
+            if typed_place.lower() == 'na':
+                print("Writing out a line with blank lat-long to be filled by hand")
+                answer = (geo_level + "\t" + place + "\t")
+                redo = False
+
+    return answer
 
 ################################################################################
 # Step 3: Storage of locations, divisions etc hierarchical manner
