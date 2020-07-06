@@ -19,7 +19,3 @@ cores: 2
 
 # Always print the commands that will be run to the screen for debugging.
 printshellcmds: True
-
-# Print the reason why each rule is running.
-# This can help you understand why Snakemake is trying to re-run something you didn't expect it to.
-reason: True
