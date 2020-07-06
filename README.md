@@ -41,7 +41,7 @@ We issued weekly Situation Reports for the first ~5 months of the pandemic. You 
 ### FAQs  
 
 - Can't find your sequences in Nextstrain? Check [here](./docs/data_faq.md) for common reasons why your sequences may not be appearing.
-- For information about how clades are defined, and the currently named clades, please see [here](./docs/clades.md).
+- For information about how clades are defined, and the currently named clades, please see [here](./docs/naming_clades.md).
 
 ### Bioinformatics notes
 
