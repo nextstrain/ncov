@@ -46,7 +46,7 @@ npm install --global auspice
 #### 3. Run basic analysis on example data  
 ```
 ncov$ conda activate nextstrain
-ncov$ snakemake --profile ./my-analyses/example
+ncov$ snakemake --profile ./my_profiles/example
 ```
 
 
