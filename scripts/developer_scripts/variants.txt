@@ -17,3 +17,4 @@ Castilla-la Mancha	Castilla la Mancha
 Quangning	Quangninh
 Ragshahi	Rajshahi
 Milwaukee	Milwaukee County
+Kzn	KwaZulu-Natal
