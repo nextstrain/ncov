@@ -8,6 +8,7 @@ location	Adams County WI	43.973540	-89.755486
 location	Aichi	35.067543	137.334061
 location	Aiseau	50.404827	4.576191
 location	Aisemont	50.404382	4.651832
+location	Al Matariyyah	30.123764	31.317953
 location	Alameda County	37.6017	-121.7195
 location	Alamedilla	37.5816	-3.2439
 location	Albacete	38.9943	-1.8585
@@ -1060,7 +1061,7 @@ location	Xishuangbanna	21.995	100.837
 location	Yakima County	46.430431	-120.711765
 location	Yangjiang	21.888814	111.972598
 location	Yernée-Fraineux	50.528091	5.383570
-location    Yeumbeul    14.7722 -17.3581
+location	Yeumbeul	14.7722	-17.3581
 location	Yichun	27.804179	114.414177
 location	Yingtan	28.258501	117.043863
 location	Yongchuan	29.374774	105.925391
@@ -1413,6 +1414,7 @@ division	Jordan	31.1667049	36.941628
 division	Jura	47.368929	7.163449
 division	Kaggevinne	50.9794	5.0190
 division	Kalmar	56.6634	16.3568
+division	Kalyoubia	30.283113	31.247786
 division	Kanagawa	35.403801	139.294288
 division	Kansai	34.778675	135.880055
 division	Kansas	39.0119	-98.4842

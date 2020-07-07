@@ -139,7 +139,7 @@ location	Gilgit
 location	Riyadh
 location	Guediawaye
 location	Mbao
-location    Yeumbeul
+location	Yeumbeul
 location	Velingara
 location	Hawali
 location	Dasman
@@ -1085,6 +1085,7 @@ location	Accra
 location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
+location	Al Matariyyah
 
 
 
@@ -1674,6 +1675,7 @@ division	Denmark
 division	Portugal
 division	Egypt
 division	Cairo
+division	Kalyoubia
 division	Oueme
 division	Cotonou
 division	Nigeria
