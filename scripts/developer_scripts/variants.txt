@@ -18,3 +18,4 @@ Quangning	Quangninh
 Ragshahi	Rajshahi
 Milwaukee	Milwaukee County
 Kzn	KwaZulu-Natal
+St Louis	St-Louis
