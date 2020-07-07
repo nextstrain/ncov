@@ -138,6 +138,8 @@ location	Auckland
 location	Gilgit
 location	Riyadh
 location	Guediawaye
+location	Mbao
+location	Yeumbeul
 location	Velingara
 location	Hawali
 location	Dasman
@@ -625,7 +627,7 @@ location	Algeciras
 location	La Linea de la Concepcion
 location	Conil de la Frontera
 location	Madrid
-division	Barcelona
+location	Barcelona
 location	Muro
 location	Palma de Mallorca
 location	Alamedilla
@@ -1080,10 +1082,10 @@ location	Multnomah County
 location	Wasco County
 location	Richland County
 location	Accra
-location	Yeumbeul
 location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
+location	Al Matariyyah
 
 
 
@@ -1180,6 +1182,7 @@ division	Tehran
 division	Semnan
 division	Doha
 division	Dhaka
+division	Yeumbeul
 division	Jhenaidha
 division	Narail
 division	Bagherhat
@@ -1546,6 +1549,7 @@ division	Baden-Wuerttemberg
 division	Munich
 division	Rostock
 division	North Rhine Westphalia
+division	Berlin
 division	Netherlands
 division	Milheeze
 division	Utrecht
@@ -1571,7 +1575,6 @@ division	Tyrol
 division	Burgenland
 division	Salzburg
 division	Germany
-division	Berlin
 division	Frankfurt
 division	Zielonogorskie
 division	Pomorskie
@@ -1667,10 +1670,12 @@ division	Norrbotten
 division	Greece
 division	Thessaloniki
 division	Finland
+division	Uusimaa
 division	Denmark
 division	Portugal
 division	Egypt
 division	Cairo
+division	Kalyoubia
 division	Oueme
 division	Cotonou
 division	Nigeria
@@ -1679,7 +1684,6 @@ division	Ogun State
 division	Osun State
 division	Oyo State
 division	Ghana
-division	Yeumbeul
 division	Senegal
 division	Gambia
 division	Kombo
