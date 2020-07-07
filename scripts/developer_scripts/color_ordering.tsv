@@ -1004,6 +1004,9 @@ location	Teruel
 location	Zaragoza
 location	Alcaniz
 
+# Catalunya
+location	Barcelona
+
 # Balear Islands
 location	Ibiza
 location	Palma
@@ -1038,6 +1041,10 @@ location	Warwickshire
 
 # Africa
 
+### Egypt
+# Cairo
+location	Al Matariyyah
+
 ### Ghana
 # Greater Accra
 location	Accra
@@ -1045,6 +1052,8 @@ location	Accra
 ### Senegal
 # Dakar
 location	Guediawaye
+location	Yeumbeul
+location	Mbao
 
 # Kolda
 location	Velingara
@@ -1780,6 +1789,7 @@ division	Guam
 division	Southern
 division	Otago
 division	Canterbury
+division	New Zealand
 division	Nelson Marlborough
 division	Waitemata
 division	Auckland
@@ -1914,6 +1924,7 @@ division	Estonia
 
 ### Finland
 division	Helsinki
+division	Uusimaa
 division	Finland
 
 ### France
@@ -2083,6 +2094,7 @@ division	Uzice
 division	Cacak
 division	Novi Pazar
 division	Kraljevo
+division	Serbia
 
 ### Slovakia
 division	Kostoliste
@@ -2210,6 +2222,7 @@ division	Sud Kivu
 ### Egypt
 division	Egypt
 division	Cairo
+division	Kalyoubia
 
 ### Gambia
 division	Kombo
