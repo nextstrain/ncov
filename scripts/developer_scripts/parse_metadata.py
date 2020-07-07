@@ -698,7 +698,7 @@ def write_ordering(data, hierarchy):
     if hierarchy == "location":
         mode = "w"
 
-    with open("color_ordering.tsv", mode) as out:
+    with open(path_to_script_files+"color_ordering.tsv", mode) as out:
         if hierarchy == "recency":
             out.write("recency\tOlder\nrecency\tOne month ago\nrecency\tOne week ago\nrecency\t3-7 days ago\nrecency\t1-2 days ago\nrecency\tNew\n")
             return
@@ -821,10 +821,17 @@ write_ordering(data, "region")
 ##### Bonus step: Print out all collected annotations - if considered correct, they can be copied by the user to annotations.tsv
 # Only print line if not yet present
 # Print warning if this GISAID ID is already in the file
+annot_lines_to_write = []
 for line in additions_to_annotation:
     if line in annotations:
         continue
     print(line)
+    if "=" not in line:
+        annot_lines_to_write.append(line)
     if len(line.split("\t")) == 4:
         if line.split("\t")[1] in annotations:
             print("Warning: " + line.split("\t")[1] + " already exists in annotations!")
+
+with open(path_to_script_files+"new_annotations.tsv", 'w') as out:
+    out.write("\n".join(annot_lines_to_write))
+print("New annotation additions written out to "+path_to_script_files+"new_annotations.tsv")
