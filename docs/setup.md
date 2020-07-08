@@ -1,20 +1,19 @@
-# Setup  
+# Setup
 
-For this tutorial, there are three components to set up. Depending on what you'd like to do, you may need one, two, or all of these components.  
+For this tutorial, there are three components to set up. Depending on what you'd like to do, you may need one, two, or all of these components.
 
-
-## 1. Make a copy of this tutorial [required for all]  
+## 1. Make a copy of this tutorial [required for all]
 
 There are two ways to do this:
-* [Recommended] If you're familiar with git, clone this repository either via the web interface, a GUI such as gitkraken, or the command line:  
-```bash  
+* [Recommended] If you're familiar with git, clone this repository either via the web interface, a GUI such as gitkraken, or the command line:
+```bash
 git clone https://github.com/nextstrain/ncov.git
 ```
 
 * [Alternative] If you're not familiar with git, you can also download a copy of these files via the buttons on the left.
 
 
-## 2. Install augur [required for running analysis]  
+## 2. Install augur [required for running analysis]
 
 You can find instructions for installing augur [here](https://nextstrain.org/docs/getting-started/introduction).
 

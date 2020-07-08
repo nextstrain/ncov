@@ -27,7 +27,6 @@ If you were running customized builds before this, these changes may cause some 
 9. [**Interpreting your results**](https://nextstrain.github.io/ncov/interpretation)
 10. [**Writing a narrative to highlight key findings**](https://nextstrain.github.io/ncov/narratives)
 
-
 ### Download formatted datasets
 
 The hCoV-19 / SARS-CoV-2 genomes were generously shared via GISAID. We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based.

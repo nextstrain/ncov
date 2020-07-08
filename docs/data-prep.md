@@ -8,9 +8,7 @@ To use Nextstrain to analyze your own data, you'll need to prepare two files:
 1. A `fasta` file with viral genomic sequences
 2. A corresponding `tsv` file with metadata describing each sequence
 
-
 We've created an example dataset in the `data` directory. This consists of a fasta file with viral genomes sourced from Genbank, and a corresponding TSV with metadata describing these sequences.
-
 
 ### Formatting your sequence data
 
