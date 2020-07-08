@@ -116,6 +116,7 @@ location	Bierbeek	50.836502	4.771272
 location	Bierset	50.656953	5.454009
 location	Bikaner	28.024421	73.311641
 location	Binche	50.404183	4.193398
+location	Bizkaia	43.2204	-2.6984
 location	Blaasveld	51.055289	4.377447
 location	Blanchardville	42.809498	-89.860021
 location	Blandain	50.624503	3.303954
@@ -725,6 +726,7 @@ location	Overijse	50.769757	4.532583
 location	Overpelt	51.219149	5.383722
 location	Ozaukee County	43.407672	-87.926654
 location	Paal	51.031859	5.166158
+location	Pabna	24.0129	89.2591
 location	Pacho	5.135952	-74.156902
 location	Padrón	42.7381	-8.6608
 location	Palanpur	24.173368	72.432000
@@ -1142,6 +1144,7 @@ division	Bács-Kiskun County	46.551745	19.374218
 division	Baden-Wuerttemberg	48.712618	9.13403
 division	Bagherhat	22.655249	89.774093
 division	Bahia	-12.5797	-41.7007
+division	Bahrain	26.0667	50.5577
 division	Balassagyarmat	48.0712	19.2937
 division	Balatonfured	46.9599	17.8851
 division	Balear Islands	39.30	3.0
@@ -1904,6 +1907,7 @@ division	Samut Prakarn	13.581663	100.721344
 
 country	Argentina	-37.052315	-64.869142
 country	Austria	47.5162	14.5501
+country	Bahrain	26.0667	50.5577
 country	Bangladesh	24.506442	90.041454
 country	Belarus	53.704205	28.247691
 country	Benin	9.961027	2.327362

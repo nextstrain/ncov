@@ -66,6 +66,7 @@ location	Uttara
 location	Gulshan
 location	Mirpur
 location	Shailokupa
+location	Pabna
 location	Kalia
 location	Kodomtoly
 location	Tejgaon
@@ -615,6 +616,7 @@ location	Pradejon
 location	Echavarri
 location	Portugalete
 location	Torres De Elorz
+location	Bizkaia
 location	Bermeo
 location	Rota
 location	Puerto Santa Maria
@@ -1181,6 +1183,7 @@ division	Ramat Gan
 division	Iran
 division	Tehran
 division	Semnan
+division	Bahrain
 division	Doha
 division	Dhaka
 division	Yeumbeul
@@ -1911,6 +1914,7 @@ country	Australia
 country	New Zealand
 country	Saudi Arabia
 country	Qatar
+country	Bahrain
 country	United Arab Emirates
 country	Kuwait
 country	Lebanon
