@@ -239,4 +239,5 @@ Date the genome was submitted to a public database (most often GISAID).
 In `YYYY-MM-DD` format (see `date` for more information on this formatting).
 
 
-## [Next Section: Setup and Installation](setup.md)
+## [Previous Section: Setup and Installation](setup.md)
+## [Next Section: Orientation: workflow](orientation-workflow.md)

@@ -42,5 +42,5 @@ The components in this diagram **constitute a Nextstrain "build" -- i.e., a set 
 
 Builds are particularly important if you frequently want to run several different analysis workflows or datasets. For example, if you wanted to run one analysis on just your data and another analysis that incorporates background / contextual sequences, you could configure two different _builds_ (one for each of these workflows). We'll cover this in more detail in the [basic build configuration](running.md) section.
 
-## [Previous Section: Setup and installation](setup.md)
+## [Previous Section: Preparing your data](data-prep.md)
 ## [Next Section: Orientation: which files should I touch?](orientation-files.md)

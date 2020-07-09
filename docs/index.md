@@ -8,8 +8,8 @@ In addition to the phylogenetic analysis described here, you can use our "drag-a
 ### Getting started with analysis
 _The starting point for this section is a FASTA file with sequence data + a TSV file with metadata. You can alternately use our example data to start._
 
-[1. Preparing your data](data-prep.md)
-[2. Set up and installation](setup.md)
+[1. Setup and installation](setup.md)
+[2. Preparing your data](data-prep.md)
 [3. Orientation: analysis workflow](orientation-workflow.md)
 [4. Orientation: which files should I touch?](orientation-files.md)
 [5. Running & troubleshooting](running.md)
