@@ -32,11 +32,11 @@ Run a basic workflow on example data, to confirm that your Nextstrain environmen
 
 ```
 conda activate nextstrain
-snakemake --cores 3 --profile ./my_profiles/getting_started
+snakemake --cores 4 --profile ./my_profiles/getting_started
 ```
 
 The `getting_started` profile produces a minimal global phylogeny for visualization in auspice.
-This workflow should complete in XX minutes on a MacBook Pro with three cores.
+This workflow should complete in about 5 minutes on a MacBook Pro (2.7 GHz Intel Core i5) with four cores.
 
 ## 4. Visualize the phylogeny for example data
 
