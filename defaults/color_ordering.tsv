@@ -66,6 +66,11 @@ location	Uttara
 location	Gulshan
 location	Mirpur
 location	Shailokupa
+location	Moulvibazar
+location	Habiganj
+location	Brahmanbaria
+location	Pabna
+location	Chandpur
 location	Kalia
 location	Kodomtoly
 location	Tejgaon
@@ -74,13 +79,18 @@ location	Sador
 location	Mohammadpur
 location	Agargaon
 location	Surat
+location	Olpad
+location	Talod
 location	Gandhinagar
 location	Mansa
 location	Kolkata
 location	Kadi
 location	Kalol
 location	Modasa
+location	Chuda
 location	Rajkot
+location	Gondal
+location	Jetpur
 location	Kodinar
 location	Jaipur
 location	Khedbrahma
@@ -615,6 +625,7 @@ location	Pradejon
 location	Echavarri
 location	Portugalete
 location	Torres De Elorz
+location	Bizkaia
 location	Bermeo
 location	Rota
 location	Puerto Santa Maria
@@ -881,7 +892,7 @@ location	Asotin County
 location	Benton County
 location	Kittitas County
 location	Seattle
-location	Los Angeles
+location	Los Angeles County
 location	Imperial County
 location	San Francisco County
 location	California
@@ -1014,6 +1025,15 @@ location	Buchanan County
 location	Crawford County
 location	Fillmore County
 location	Thiensville
+location	Montgomery County NY
+location	Mchenry County
+location	Cook County
+location	Lake County
+location	Montgomery County PA
+location	Dodge Count
+location	Sheboygan County
+location	Outagamie Coun
+location	Door County
 location	Racine
 location	Cudahy
 location	Mequon
@@ -1087,8 +1107,8 @@ location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
 location	Al Matariyyah
-
-
+location	Kfar Saba
+location	Uijeongbu
 
 
 division	Mongolia
@@ -1141,11 +1161,12 @@ division	Nara
 division	Osaka
 division	Kyoto
 division	Kanagawa
-division	Gyeonggi
+division	Gyeonggi Province
 division	Chungcheongnam
 division	Seoul
 division	South Korea
 division	Chattogram
+division	Sylhet
 division	Nepal
 division	Kathmandu
 division	Sri Lanka
@@ -1181,6 +1202,8 @@ division	Ramat Gan
 division	Iran
 division	Tehran
 division	Semnan
+division	Bahrain
+division	Manama
 division	Doha
 division	Dhaka
 division	Yeumbeul
@@ -1364,6 +1387,8 @@ division	Buzau
 division	Constanta
 division	Brasov
 division	Poland
+division	Łódzkie
+division	Opolskie
 division	Mazowieckie
 division	Warminsko-Mazurskie
 division	Slask
@@ -1410,6 +1435,7 @@ division	Debrecen
 division	Csongrád County
 division	Heves County
 division	Central Hungary
+division	Central District
 division	Békés County
 division	Bács-Kiskun County
 division	Baranya
@@ -1911,6 +1937,7 @@ country	Australia
 country	New Zealand
 country	Saudi Arabia
 country	Qatar
+country	Bahrain
 country	United Arab Emirates
 country	Kuwait
 country	Lebanon

@@ -527,7 +527,10 @@ def check_for_missing(data):
                     clean_missing["division"][country].append(division)
 
                 else:
-                    data_clean[region][country][division] = []
+                    if country not in data_clean[region]:
+                        print("WARNING: country "+country+" seems to be missing. Possibly also division "+division+"\n")
+                    else:
+                        data_clean[region][country][division] = []
 
                 for location in data[region][country][division]:
                     if location == "":
@@ -624,13 +627,18 @@ def check_for_missing(data):
                 new_lat_longs.append(find_place("division", division, full_division, geolocator))
             print()
 
-        for country in missing["country"]:
+        for country in clean_missing["country"]:
             print(country)
             
             new_lat_longs.append(find_place("country", country, country, geolocator))
 
         print("\nNew locations to be written out: ")
         print(*new_lat_longs, sep='\n')
+
+        with open(path_to_script_files+"new_lat-longs.tsv", 'w') as out:
+            out.write("\n".join(new_lat_longs))
+        print("New lat-longs written out to "+path_to_script_files+"new_lat-longs.tsv")
+
 
     print("\n=============================\n")
     return data_clean
