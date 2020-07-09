@@ -16,7 +16,7 @@ If you were running customized builds before this, these changes may cause some 
 **We've written a comprehensive guide to get you up and running in <1 hr. Click on the below links to follow it. It covers:**
 
 0. [**Introduction**](https://nextstrain.github.io/ncov/index) _(Start here)_
-1. [**Setup and installation**](https://nextstrain.github.io/ncov/setup.md)
+1. [**Setup and installation**](https://nextstrain.github.io/ncov/setup)
 2. [**Preparing your data**](https://nextstrain.github.io/ncov/data-prep)
 3. [**Orientation: analysis workflow**](https://nextstrain.github.io/ncov/orientation-workflow)
 4. [**Orientation: which files should I touch?**](https://nextstrain.github.io/ncov/orientation-files)

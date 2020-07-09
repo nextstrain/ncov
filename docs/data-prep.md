@@ -46,7 +46,8 @@ NewZealand/01/2020  ncov   EPI_ISL_413490  ?                   2020-02-27  Ocean
 In total there are 23 columns of metadata for each genome; see the last section of this page for an in-depth walkthrough.
 
 #### Required metadata
-**A valid metadata file must include the following fields:**
+
+A valid metadata file must include the following fields:
 
 | Field | Example value | Description | Formatting |
 |---|---|---|---|
@@ -239,5 +240,5 @@ Date the genome was submitted to a public database (most often GISAID).
 In `YYYY-MM-DD` format (see `date` for more information on this formatting).
 
 
-## [Previous Section: Setup and Installation](setup.md)
+## [Previous Section: Setup and installation](setup.md)
 ## [Next Section: Orientation: workflow](orientation-workflow.md)

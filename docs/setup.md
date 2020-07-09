@@ -5,33 +5,33 @@ The following steps will prepare you to run complete analyses of SARS-CoV-2 data
 ## 1. Make a copy of this tutorial
 
 There are two ways to do this:
-* [Recommended] If you're familiar with git, clone this repository either via the web interface, a GUI such as gitkraken, or the command line:
+
+  * [Recommended] If you're familiar with git, clone this repository either via the web interface, a GUI such as [GitKraken](https://www.gitkraken.com/), or the command line:
 
 ```bash
 git clone https://github.com/nextstrain/ncov.git
 ```
 
-* [Alternative] If you're not familiar with git, you can also download a copy of these files via the buttons on the left.
+  * [Alternative] If you're not familiar with git, you can also download a copy of these files via the buttons on the left.
 
-## 2. Install augur and auspice for bioinformatics and visualization, respectively
+## 2. Setup your Nextstrain environment
 
 Create a Nextstrain conda environment with augur and auspice installed.
 If you do not have conda installed already, [see our full installation instructions for more details](https://nextstrain.org/docs/getting-started/local-installation).
-If you are running Windows, we recommend working through Windows Subsystem for Linux (WSL) - you can find out how to set this up [here](https://nextstrain.org/docs/getting-started/windows-help).
+If you are running Windows, [see our documentation about setting up the Windows Subsystem for Linux (WSL)](https://nextstrain.org/docs/getting-started/windows-help).
 
-```
+```bash
 curl http://data.nextstrain.org/nextstrain.yml --compressed -o nextstrain.yml
 conda env create -f nextstrain.yml
 conda activate nextstrain
 npm install --global auspice
 ```
 
-## 3. Run a basic analysis on example data
+## 3. Run a basic analysis with example data
 
-Run a basic workflow on example data, to confirm that your Nextstrain environment is properly configured.
+Run a basic workflow with example data, to confirm that your Nextstrain environment is properly configured.
 
-```
-conda activate nextstrain
+```bash
 snakemake --cores 4 --profile ./my_profiles/getting_started
 ```
 
@@ -41,7 +41,7 @@ This workflow should complete in about 5 minutes on a MacBook Pro (2.7 GHz Intel
 ## 4. Visualize the phylogeny for example data
 
 Go to [https://auspice.us](https://auspice.us) in your browser.
-Drag and drop any of the JSON files from `./auspice/*.json` anywhere on the screen.
+Drag and drop the JSON file `auspice/ncov_global.json` anywhere on the [https://auspice.us](https://auspice.us) landing page, to visualize the resulting phylogeny.
 
 ## Advanced reading: considerations for keeping a 'Location Build' up-to-date
 
@@ -75,7 +75,7 @@ For the [`south-usa-sarscov2`](https://github.com/emmahodcroft/south-usa-sarscov
 To run this, one would call the following from within `ncov`:
 
 ```bash
-ncov$ snakemake --cores 1 --profile ../south-usa-sarscov2/profiles/south-central/
+snakemake --cores 1 --profile ../south-usa-sarscov2/profiles/south-central/
 ```
 
 ## [Next Section: Preparing your data](data-prep.md)
