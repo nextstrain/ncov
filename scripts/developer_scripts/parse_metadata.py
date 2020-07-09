@@ -420,9 +420,9 @@ def check_duplicate(data):
 
     duplicate_locations = {}
     for region in data:
-        for country in data[region]:
-            for division in data[region][country]:
-                for location in data[region][country][division]:
+        for country in list(data[region].keys()):
+            for division in list(data[region][country]):
+                for location in list(data[region][country][division]):
                     if location in duplicates:
                         print("Known duplicate detected: " + bold(location))
                         data = correct_data(data, "location", {location: (region, country, division, location + " " + abbreviations[division])})
