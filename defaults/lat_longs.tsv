@@ -238,6 +238,7 @@ location	Compiègne	49.408175	2.842839
 location	Conil de la Frontera	36.277924	-6.088770
 location	Contamines	45.820585	6.727730
 location	Contra Costa County	37.871082	-121.872678
+location	Cook County	41.8197385	-87.756525
 location	Copiapo	-27.372842	-70.320323
 location	Cordoba	37.8882	-4.7794
 location	Cork	51.899	-8.460
@@ -279,9 +280,11 @@ location	Diemen	52.3390	4.9592
 location	Diest	50.998854	5.062917
 location	Dijon	47.3220	5.0415
 location	Dilbeek	50.8465	4.2621
+location	Dodge County	43.413614	-88.7177834
 location	Dolembreux	50.535464	5.632975
 location	Dongguan	22.992389	113.744830
 location	Donostia-San Sebastian	43.304023	-1.981439
+location	Door County	44.7615925	-87.5329747
 location	Dosquebradas	4.832649	-75.677377
 location	Douglas County	47.728531	-119.651043
 location	Dour	50.390137	3.785941
@@ -540,6 +543,7 @@ location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
 location	Lafayette County	42.662913	-90.134986
 location	Laken	50.887688	4.353935
+location	Lake County	42.3327033	-87.9939552
 location	Lalin	42.6612	-8.1110
 location	Lamine	50.688307	5.334720
 location	Lanaken	50.884429	5.634002
@@ -572,7 +576,7 @@ location	London	51.497327	-0.118796
 location	Longjumeau	48.6931	2.2948
 location	Loon	51.379197	5.443200
 location	Loon op zand	51.625527	5.070262
-location	Los Angeles	34.029267	-118.242865
+location	Los Angeles County	34.029267	-118.242865
 location	Losenstein	47.924273	14.433111
 location	Lotenhulle	51.047900	3.465749
 location	Lovendegem	51.100478	3.624891
@@ -617,6 +621,7 @@ location	Maua	-23.664006	-46.442663
 location	Maurage	50.455601	4.099269
 location	Mayrhofen	47.163296	11.862115
 location	Mbao	14.7299	-17.3258
+location	Mchenry County	42.3294391	-88.4605713
 location	Medellin	6.254779	-75.578125
 location	Meizhou	24.212443	116.104148
 location	Melbourne	-37.839042	145.076343
@@ -647,7 +652,8 @@ location	Monona	43.056000	-89.330773
 location	Monroe County	43.940837	-90.605424
 location	Monterey County CA	36.176354	-121.254507
 location	Monteria	8.747483	-75.880941
-location	Montgomery County	42.9155	-74.4526
+location	Montgomery County PA	40.2154361	-75.3702305
+location	Montgomery County NY	42.8941269	-74.4099745
 location	Montignies-sur-Sambre	50.401302	4.478466
 location	Montigny le Bretonneux	48.7739	2.0360
 location	Montigny-le-Tilleul	50.374917	4.371814
@@ -730,6 +736,7 @@ location	Orsay	48.703347	2.187373
 location	Osasco	-23.5372	-46.7962
 location	Oss	51.762396	5.530563
 location	Oud-Turnhout	51.319510	5.004179
+location	Outagamie County	44.41603	-88.4602005
 location	Otura	37.0913	-3.6345
 location	Overijse	50.769757	4.532583
 location	Overpelt	51.219149	5.383722
@@ -887,6 +894,7 @@ location	Shangyu	30.0331	120.8681
 location	Shantou	23.379291	116.700154
 location	Shanwei	22.776721	115.366044
 location	Shaoguan	24.803789	113.598404
+location	Sheboygan County	43.7128967	-87.9370433
 location	Shape	50.771320	3.943706
 location	Shelton	41.3165	73.0932
 location	Shenzhen	22.639468	114.044046
@@ -990,6 +998,7 @@ location	Tweed Heads	-28.201312	153.543425
 location	Ubeda	38.0114	-3.3712
 location	Uccle	50.793431	4.355608
 location	Ujjain	23.161092	75.803740
+location	Uijeongbu	37.7381078	127.033929
 location	Ulan-Ude	51.827029	107.655954
 location	Ulster County	41.8586	-74.3118
 location	Umatilla County	45.648981	-118.720688
@@ -1355,7 +1364,7 @@ division	Guangxi	23.717754	108.701872
 division	Guayas	-1.9575	-79.9193
 division	Guerrero	17.463444	-99.792052
 division	Gujarat	22.2587	71.1924
-division	Gyeonggi	37.397957	127.380864
+division	Gyeonggi Province	37.397957	127.380864
 division	Haifa	32.7940	34.9896
 division	Halland	56.964727	12.796906
 division	Halle-Vilvoorde	50.927353	4.424742
@@ -1500,6 +1509,7 @@ division	Lithuania	55.41667	24
 division	Litomerice-Brnay	50.534253	14.131013
 division	Livno	43.8250	17.0077
 division	Liège	50.6326	5.5797
+division	Łódzkie	51.4721678	19.3460637
 division	Lombardy	45.4791	9.8452
 division	Los Rios	-1.385450	-79.552240
 division	Louisiana	30.9843	-91.9623
@@ -1520,6 +1530,7 @@ division	Makkah	21.3891	39.8579
 division	Malaysia	2.3923759	112.8471939
 division	Maldonado	-34.904210	-54.969183
 division	Malopolskie	49.7225	20.2503
+division	Manama	26.2235041	50.5822436
 division	Manila	14.652678	121.043936
 division	Manitoba	55.182879	-97.823531
 division	Maranhão	-4.9609	-45.2744
@@ -1622,6 +1633,7 @@ division	Oklahoma	35.370608	-97.186200
 division	Omsk Region	55.0555	73.3167
 division	Ontario	44.429	-79.377
 division	Oostende	51.210615	2.914232
+division	Opolskie	50.8918612	17.9321175
 division	Orebro	59.2753	15.2134
 division	Orebro Lan	59.378174	14.948348
 division	Oregon	43.8041	-120.5542

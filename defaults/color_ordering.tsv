@@ -892,7 +892,7 @@ location	Asotin County
 location	Benton County
 location	Kittitas County
 location	Seattle
-location	Los Angeles
+location	Los Angeles County
 location	Imperial County
 location	San Francisco County
 location	California
@@ -1025,6 +1025,15 @@ location	Buchanan County
 location	Crawford County
 location	Fillmore County
 location	Thiensville
+location	Montgomery County NY
+location	Mchenry County
+location	Cook County
+location	Lake County
+location	Montgomery County PA
+location	Dodge Count
+location	Sheboygan County
+location	Outagamie Coun
+location	Door County
 location	Racine
 location	Cudahy
 location	Mequon
@@ -1099,7 +1108,7 @@ location	Montérégie
 location	Lanaudière
 location	Al Matariyyah
 location	Kfar Saba
-
+location	Uijeongbu
 
 
 division	Mongolia
@@ -1152,7 +1161,7 @@ division	Nara
 division	Osaka
 division	Kyoto
 division	Kanagawa
-division	Gyeonggi
+division	Gyeonggi Province
 division	Chungcheongnam
 division	Seoul
 division	South Korea
@@ -1194,6 +1203,7 @@ division	Iran
 division	Tehran
 division	Semnan
 division	Bahrain
+division	Manama
 division	Doha
 division	Dhaka
 division	Yeumbeul
@@ -1377,6 +1387,8 @@ division	Buzau
 division	Constanta
 division	Brasov
 division	Poland
+division	Łódzkie
+division	Opolskie
 division	Mazowieckie
 division	Warminsko-Mazurskie
 division	Slask
