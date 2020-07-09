@@ -22,3 +22,5 @@ St Louis	St-Louis
 Imperial	Imperial County
 Bahrein	Bahrain
 Hobigonj	Habiganj
+Grand-Est	Grand Est
+Califonia	California
