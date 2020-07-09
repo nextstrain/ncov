@@ -2,6 +2,9 @@
 # Asia
 
 ### Bangladesh
+# Rajshahi
+location	Pabna
+
 # Jhenaidha
 location	Shailokupa
 
@@ -20,6 +23,10 @@ location	Tejgaon
 location	Gulshan
 location	Jatrabari
 location	Kodomtoly
+
+# Sylhet
+location	Habiganj
+location	Moulvibazar
 
 ### China
 # Yunnan
@@ -103,9 +110,12 @@ location	Hong Kong
 location	Bhuj
 location	Jamnagar
 location	Junagadh
+location	Jetpur
 location	Kodinar
+location	Gondal
 location	Rajkot
 location	Botad
+location	Chuda
 location	Dhanera
 location	Kadi
 location	Palanpur
@@ -114,11 +124,13 @@ location	Ahmedabad
 location	Gandhinagar
 location	Mansa
 location	Kheda
+location	Olpad
 location	Mahemdavad
 location	Dahegam
 location	Surat
 location	Prantij
 location	Nadiad
+location	Talod
 location	Choryasi
 location	Himatnagar
 location	Bharuch
@@ -167,6 +179,10 @@ location	Samarinda
 # North Sulawesi
 location	Manado
 
+### Israel
+# Central District
+location	Kfar Saba
+
 ### Japan
 # Kyoto
 location	Kyoto
@@ -201,8 +217,8 @@ location	Chungcheongnam
 # Seoul
 location	Seoul
 
-# Gyeonggi
-location	Gyeonggi
+# Gyeonggi Province
+location	Uijeongbu
 
 ### Taiwan
 # Taiwan
@@ -945,6 +961,7 @@ location	Calahorra
 # Basque Country
 location	Portugalete
 location	Bermeo
+location	Bizkaia
 location	Vitoria-Gasteiz
 location	Donostia-San Sebastian
 
@@ -1307,7 +1324,7 @@ location	San Joaquin County
 location	Monterey County CA
 location	San Luis Obispo County
 location	Ventura County
-location	Los Angeles
+location	Los Angeles County
 location	Orange County CA
 location	San Diego
 location	San Diego County
@@ -1391,6 +1408,7 @@ location	Columbia County WI
 location	Sun Prarie
 location	Stoughton
 location	Cottage Grove
+location	Winnebago County
 location	Rock County
 location	Marshall
 location	Columbus WI
@@ -1417,6 +1435,7 @@ location	Brown Deer
 location	Grafton
 location	Saukville
 location	Milwaukee County
+location	Sheboygan County
 location	Glendale
 location	Ozaukee County
 location	River Hills
@@ -1429,9 +1448,13 @@ location	Port Washington
 location	Cudahy
 location	South Milwaukee
 location	Racine
+location	Door County
 
 # Illinois
 location	Winnebago County
+location	Mchenry County
+location	Lake County
+location	Cook County
 location	Chicago
 
 # Indiana
@@ -1449,6 +1472,7 @@ location	Richland County
 
 # Pennsylvania
 location	Pittsburgh
+location	Montgomery County PA
 
 # New Jersey
 location	Camden County
@@ -1462,7 +1486,7 @@ location	Onondaga County
 location	Jefferson County NY
 location	Broome County
 location	Chenango County
-location	Montgomery County
+location	Montgomery County NY
 location	Franklin County NY
 location	Ulster County
 location	Orange County NY
@@ -1535,6 +1559,9 @@ location	Boston
 
 # Asia
 
+### Bahrain
+division	Bahrain
+
 ### Bangladesh
 division	Rajshahi
 division	Jhenaidha
@@ -1546,6 +1573,7 @@ division	Bangladesh
 division	Dhaka
 division	Narayanganj
 division	Chittagong
+division	Sylhet
 
 ### Brunei
 division	Brunei
@@ -1632,8 +1660,8 @@ division	Ramla
 division	Gani Tikva
 division	Yehud
 division	Petah Tikva
+division	Central District
 division	Pardesia
-division	Kfar Saba
 division	South Coast District
 division	Shoam
 division	Elad
@@ -1734,7 +1762,7 @@ division	Singapore
 ### South Korea
 division	Chungcheongnam
 division	Seoul
-division	Gyeonggi
+division	Gyeonggi Province
 division	South Korea
 
 ### Sri Lanka
@@ -1851,6 +1879,7 @@ division	Halle-Vilvoorde
 division	Charleroi
 division	Mechelen
 division	Philippeville
+division	Belgium
 division	Leuven
 division	Namur
 division	Dinant
@@ -2041,8 +2070,10 @@ division	Norway
 division	Zielonogorskie
 division	Dolnoslaskie
 division	Wielkopolskie
+division	Opolskie
 division	Pomorskie
 division	Slask
+division	Łódzkie
 division	Malopolskie
 division	Warminsko-Mazurskie
 division	Mazowieckie
@@ -2466,6 +2497,7 @@ division	Diamond Princess
 
 
 # Asia
+country	Bahrain
 country	Bangladesh
 country	Brunei
 country	Cambodia
