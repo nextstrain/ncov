@@ -66,7 +66,11 @@ location	Uttara
 location	Gulshan
 location	Mirpur
 location	Shailokupa
+location	Moulvibazar
+location	Habiganj
+location	Brahmanbaria
 location	Pabna
+location	Chandpur
 location	Kalia
 location	Kodomtoly
 location	Tejgaon
@@ -75,13 +79,18 @@ location	Sador
 location	Mohammadpur
 location	Agargaon
 location	Surat
+location	Olpad
+location	Talod
 location	Gandhinagar
 location	Mansa
 location	Kolkata
 location	Kadi
 location	Kalol
 location	Modasa
+location	Chuda
 location	Rajkot
+location	Gondal
+location	Jetpur
 location	Kodinar
 location	Jaipur
 location	Khedbrahma
@@ -1089,7 +1098,7 @@ location	Cape Town Metro
 location	Montérégie
 location	Lanaudière
 location	Al Matariyyah
-
+location	Kfar Saba
 
 
 
@@ -1148,6 +1157,7 @@ division	Chungcheongnam
 division	Seoul
 division	South Korea
 division	Chattogram
+division	Sylhet
 division	Nepal
 division	Kathmandu
 division	Sri Lanka
@@ -1413,6 +1423,7 @@ division	Debrecen
 division	Csongrád County
 division	Heves County
 division	Central Hungary
+division	Central District
 division	Békés County
 division	Bács-Kiskun County
 division	Baranya

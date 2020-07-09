@@ -138,6 +138,7 @@ location	Bourg-en-Bresse	46.206861	5.229144
 location	Boussu	50.425366	3.797692
 location	Boutersem	50.833781	4.839596
 location	Braffe	50.551795	3.582031
+location	Brahmanbaria	23.9675	91.1119
 location	Braine-l'Alleud	50.671286	4.358875
 location	Braine-le-Château	50.677854	4.267574
 location	Braine-le-Comte	50.612409	4.149466
@@ -197,6 +198,7 @@ location	Chaineux	50.6317	5.8344
 location	Chalon sur Saone	46.7808	4.8539
 location	Champion	50.495161	4.902091
 location	Changzhou	31.774498	119.919839
+location	Chandpur	23.2321	90.6631
 location	Chateau-Thierry	49.048053	3.390023
 location	Chenango County	42.4972	-75.6208
 location	Chengdu	30.640989	104.067518
@@ -210,6 +212,7 @@ location	Chippewa Falls	44.931261	-91.389704
 location	Choconta	5.146017	-73.683678
 location	Chongqing	29.858721	107.375623
 location	Choryasi	21.309529	72.957233
+location	Chuda	22.4806	71.6879
 location	Chungcheongnam	36.685948	126.799198
 location	Churriana de la Vega	37.1457	-3.6449
 location	Châtelet	50.400026	4.521491
@@ -362,6 +365,7 @@ location	Givry	50.380304	4.037642
 location	Glastonbury	41.6862	-72.5451
 location	Glendale	43.129400	-87.930209
 location	Gold Coast	-28.019726	153.398160
+location	Gondal	21.9612	70.7939
 location	Gondrecourt-le-Chateau	48.505557	5.503554
 location	Goutroux	50.406076	4.360658
 location	Grafton	43.315718	-87.954140
@@ -389,6 +393,7 @@ location	Guyancourt	48.7629	2.0753
 location	Gyeonggi	37.397957	127.380864
 location	Haarlem	52.3874	4.6462
 location	Haasrode	50.831336	4.733827
+location	Habiganj	24.3840	91.4169
 location	Halen	50.948587	5.090071
 location	Halle	50.723860	4.235891
 location	Ham Sous Varsberg	49.1796	6.6452
@@ -471,6 +476,7 @@ location	Jefferson County WI	43.025978	-88.773336
 location	Jefferson Parish	29.777633	-90.114916
 location	Jemappes	50.446399	3.898191
 location	Jerez De La Frontera	36.690491	-6.126763
+location	Jetpur	21.7547	70.6180
 location	Jette	50.883110	4.324621
 location	Jian	27.0876	114.9647
 location	Jingzhou	30.350752	112.237294
@@ -505,6 +511,7 @@ location	Kermt	50.946857	5.247189
 location	Kersbeek-Miskom	50.886946	4.999315
 location	Kessel-Lo	50.8851	4.7357
 location	Ketchikan	55.346882	-131.655301
+location	Kfar Saba	32.180607	34.912861
 location	Kheda	22.749950	72.686465
 location	Khedbrahma	24.0291	73.0435
 location	King County	47.449221	-121.864246
@@ -648,6 +655,7 @@ location	Montreux-Chateau	47.607677	6.994181
 location	Montérégie	45.3872317844	-73.1007662636
 location	Morehouse Parish	32.813203	-91.810337
 location	Morlanwelz	50.450138	4.246584
+location	Moulvibazar	24.4843	91.7685
 location	Mount Horeb	43.008707	-89.730497
 location	Mount-Vernon	41.851953	-72.440345
 location	Mouscron	50.738645	3.23861
@@ -708,6 +716,7 @@ location	Oisterwijk	51.568179	5.211873
 location	Olen	51.163420	4.888294
 location	Oliva	38.9198	-0.1188
 location	Olleria	38.9146	-0.5506
+location	Olpad	21.3401	72.7554
 location	Olsztyn	53.774711	20.481482
 location	Onondaga County	43.0268	-76.1784
 location	Oostmalle	51.300438	4.734269
@@ -929,6 +938,7 @@ location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
 location	Tafalla	42.522804	-1.675960
 location	Taipei	25.043279	121.565717
+location	Talod	23.3512	72.9505
 location	Taoyuan	24.951706	121.219785
 location	Tarifa	36.0143	-5.6044
 location	Taranto	40.524671	17.215202
@@ -1224,6 +1234,7 @@ division	Cazin	44.9690	15.9432
 division	Ceará	-5.4984	-39.3206
 division	Čelinac	44.724001	17.324755
 division	Central Hungary	47.360008	19.252798
+division	Central District	31.9521	34.9066
 division	Centre-Val de Loire	47.481221	1.698793
 division	Cesar	9.654915	-73.528255
 division	Charleroi	50.418039	4.440646
@@ -1773,6 +1784,7 @@ division	Surabaya	-7.266062	112.748376
 division	Sverdlovsk Region	59.0077	61.9316
 division	Sweden	59.6749712	14.5208584
 division	Switzerland	46.8182	8.2275
+division	Sylhet	24.8949	91.8687
 division	Szabolcs-Szatmár-Bereg County	48.0395	22.0033
 division	Szeged	46.2530	20.1414
 division	Taiwan	23.8169	121.031365
