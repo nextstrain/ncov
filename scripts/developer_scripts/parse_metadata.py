@@ -598,7 +598,7 @@ def check_for_missing(data):
     if find_lat_longs.lower() == 'y':
 
         from geopy.geocoders import Nominatim
-        geolocator = Nominatim()
+        geolocator = Nominatim(user_agent="hello@nextstrain.org")
         new_lat_longs = []
 
         print("Getting lat-long for missing places:\n")
