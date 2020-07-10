@@ -26,3 +26,7 @@ Grand-Est	Grand Est
 Califonia	California
 East Baton Rouge	East Baton Rouge Parish
 Los Angeles	Los Angeles County
+Baden-Württemberg	Baden-Wuerttemberg
+Dodge Count	Dodge County
+Outagamie Coun	Outagamie County
+Tübingen	Tuebingen

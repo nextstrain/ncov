@@ -1,6 +1,10 @@
 
 # Asia
 
+### Bahrain
+# Capital Governorate
+location	Manama
+
 ### Bangladesh
 # Rajshahi
 location	Pabna
@@ -219,6 +223,7 @@ location	Seoul
 
 # Gyeonggi Province
 location	Uijeongbu
+location	Gyeonggi
 
 ### Taiwan
 # Taiwan
@@ -750,6 +755,9 @@ location	Heinsberg District
 location	Duesseldorf
 location	Münster
 
+# Baden-Wuerttemberg
+location	Tuebingen
+
 # Bavaria
 location	Starnberg
 location	Munich
@@ -1071,6 +1079,8 @@ location	Accra
 location	Guediawaye
 location	Yeumbeul
 location	Mbao
+location	Keur Massar
+location	Sangalkam
 
 # Kolda
 location	Velingara
@@ -1408,14 +1418,16 @@ location	Columbia County WI
 location	Sun Prarie
 location	Stoughton
 location	Cottage Grove
-location	Winnebago County
 location	Rock County
 location	Marshall
 location	Columbus WI
 location	Beloit
 location	Janesville
 location	Jefferson County WI
+location	Dodge County
+location	Winnebago County WI
 location	Fond Du Lac County
+location	Outagamie County
 location	Hartford
 location	Slinger
 location	Campbellsport
@@ -1451,7 +1463,7 @@ location	Racine
 location	Door County
 
 # Illinois
-location	Winnebago County
+location	Winnebago County IL
 location	Mchenry County
 location	Lake County
 location	Cook County
@@ -1561,6 +1573,7 @@ location	Boston
 
 ### Bahrain
 division	Bahrain
+division	Capital Governorate
 
 ### Bangladesh
 division	Rajshahi
