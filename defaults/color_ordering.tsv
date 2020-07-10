@@ -53,6 +53,7 @@ location	Aichi
 location	Tokyo
 location	Kyoto
 location	Gyeonggi
+location	Uijeongbu
 location	Chungcheongnam
 location	Seoul
 location	Kathmandu
@@ -129,6 +130,7 @@ location	Tehatta
 location	Nadiad
 location	Kapadvanj
 location	Mahemdavad
+location	Manama
 location	Dhanera
 location	Darjeeling
 location	Singapore
@@ -149,6 +151,8 @@ location	Gilgit
 location	Riyadh
 location	Guediawaye
 location	Mbao
+location	Keur Massar
+location	Sangalkam
 location	Yeumbeul
 location	Velingara
 location	Hawali
@@ -571,6 +575,7 @@ location	Braine-le-Château
 location	Forchies-la-Marche
 location	Yernée-Fraineux
 location	Starnberg
+location	Tuebingen
 location	Strasbourg
 location	Rome
 location	Naples
@@ -921,7 +926,7 @@ location	Santa Clara County
 location	Davis
 location	Grant County WA
 location	Grant County WI
-location	Winnebago County
+location	Winnebago County WI
 location	Lafayette County
 location	Rock County
 location	Green County
@@ -936,6 +941,7 @@ location	Clark County
 location	Umatilla County
 location	Phoenix
 location	Chicago
+location	Winnebago County IL
 location	Illinois
 location	Indianapolis
 location	Wisconsin
@@ -1032,9 +1038,9 @@ location	Mchenry County
 location	Cook County
 location	Lake County
 location	Montgomery County PA
-location	Dodge Count
+location	Dodge County
 location	Sheboygan County
-location	Outagamie Coun
+location	Outagamie County
 location	Door County
 location	Racine
 location	Cudahy
@@ -1110,7 +1116,6 @@ location	Montérégie
 location	Lanaudière
 location	Al Matariyyah
 location	Kfar Saba
-location	Uijeongbu
 
 
 division	Mongolia
@@ -1205,7 +1210,7 @@ division	Iran
 division	Tehran
 division	Semnan
 division	Bahrain
-division	Manama
+division	Capital Governorate
 division	Doha
 division	Dhaka
 division	Yeumbeul

@@ -514,6 +514,7 @@ location	Kermt	50.946857	5.247189
 location	Kersbeek-Miskom	50.886946	4.999315
 location	Kessel-Lo	50.8851	4.7357
 location	Ketchikan	55.346882	-131.655301
+location	Keur Massar	14.7825027	-17.3111773
 location	Kfar Saba	32.180607	34.912861
 location	Kheda	22.749950	72.686465
 location	Khedbrahma	24.0291	73.0435
@@ -602,6 +603,7 @@ location	Malle	51.304141	4.715731
 location	Manchester	41.7759	-72.5215
 location	Manacor	39.5697	3.2095
 location	Manado	1.487271	124.842838
+location	Manama	26.2235041	50.5822436
 location	Manaus	-3.126424	-60.019807
 location	Mandsaur	24.077683	75.067604
 location	Mandvi	21.254369	73.303536
@@ -860,6 +862,7 @@ location	San Mateo County	37.438721	-122.348737
 location	San Rafael Heredia	10.013197	-84.097456
 location	San Rafael de Alajuela	9.964081	-84.223595
 location	San Roque	36.210735	-5.386139
+location	Sangalkam	14.779304	-17.228261
 location	Santa Clara County	37.236094	-121.683399
 location	Santa Comba	43.0336	-8.8047
 location	Santa Fe	37.1879	-3.7202
@@ -992,6 +995,7 @@ location	Trempealeau County	44.2398	-91.3662
 location	Trujillo	4.212089	-76.319157
 location	Trumbull	41.247238	-73.194570
 location	Tubize	50.687041	4.193545
+location	Tuebingen	48.5236164	9.0535531
 location	Tulua	4.092520	-76.197483
 location	Tumaco	1.792753	-78.793766
 location	Tweed Heads	-28.201312	153.543425
@@ -1069,7 +1073,8 @@ location	Wilrijk	51.169169	4.396261
 location	Wilsele	50.889602	4.693823
 location	Wingene	51.058896	3.252863
 location	Winksele	50.897244	4.644376
-location	Winnebago County	42.303699	-89.118448
+location	Winnebago County IL	42.3255276	-89.1496574
+location	Winnebago County WI	44.0697014	-88.6516527
 location	Winneshiek County	43.288933	-91.839928
 location	Winona County	43.993965	-91.799960
 location	Wisconsin	44.535145	-89.527762
@@ -1231,6 +1236,7 @@ division	Canada	61.0666922	-107.991707
 division	Canakkale	40.030844	26.733769
 division	Canary Islands	28.2916	-16.6291
 division	Canterbury	-43.346635	172.190743
+division	Capital Governorate	26.2285	50.5860
 division	Cartago CO	4.748755	-75.928118
 division	Cartago CR	9.864015	-83.917122
 division	Casablanca	33.589370	-7.604170
@@ -1531,7 +1537,6 @@ division	Makkah	21.3891	39.8579
 division	Malaysia	2.3923759	112.8471939
 division	Maldonado	-34.904210	-54.969183
 division	Malopolskie	49.7225	20.2503
-division	Manama	26.2235041	50.5822436
 division	Manila	14.652678	121.043936
 division	Manitoba	55.182879	-97.823531
 division	Maranhão	-4.9609	-45.2744
