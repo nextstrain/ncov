@@ -1,0 +1,236 @@
+
+# This file contains defaults for the "config" object used in the Snakefile.
+# To temporarily override or provide a value, you can use snakemake's --config
+# or --configfile options.
+---
+# conda environment file to use by default
+conda_environment: "../envs/nextstrain.yaml"
+
+# These are the two main starting files for the run
+sequences: "data/sequences.fasta"
+metadata: "data/metadata.tsv"
+
+reference_node_name: "USA/WA1/2020"
+
+# Define files used for external configuration. Common examples consist of a
+# list of strains to include and exclude from analyses, a reference sequence to
+# align sequences to, colors for strain attributes in auspice, and auspice
+# configuration files.
+files:
+  include: "defaults/include.txt"
+  exclude: "defaults/exclude.txt"
+  reference: "defaults/reference_seq.gb"
+  outgroup: "defaults/outgroup.fasta" # is this arg still used? file doesn't exist in gh repo
+  ordering: "defaults/color_ordering.tsv"
+  color_schemes: "defaults/color_schemes.tsv"
+  auspice_config: "defaults/auspice_config.json"
+  lat_longs: "defaults/lat_longs.tsv"
+  description: "defaults/description.md"
+  clades: "defaults/clades.tsv"
+  legacy_clades: "nextstrain_profiles/nextstrain/legacy_clades.tsv"
+  subclades: "defaults/subclades.tsv"
+
+# Filter settings
+filter:
+  # Require nearly full-length genomes.
+  min_length: 27000
+
+  # Omit sequences with incomplete date annotations, and USA seqs without a state.
+  exclude_where: "division='USA' date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-05-XX' date='2020-06-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04' date='2020-05' date='2020-06'"
+
+
+# Alignment settings
+# Alignments are partitioned into smaller groups to speed up the overall alignment process.
+# The number of sequences per group determines the run time of a single alignment job.
+partition_sequences:
+  sequences_per_group: 150
+
+# Mask settings determine how the multiple sequence alignment is masked prior to phylogenetic inference.
+mask:
+  # Number of bases to mask from the beginning and end of the alignment. These regions of the genome
+  # are difficult to sequence accurately.
+  mask_from_beginning: 100
+  mask_from_end: 50
+
+  # Specific sites to mask in the reference genome's coordinates.
+  # These are 1-indexed coordinates of sites that have been identified as prone to sequencing errors.
+  # 13402, 24389 and 24390 are restricted to Belgian samples
+  mask_sites: "13402 24389 24390"
+
+tree:
+  tree-builder-args: "'-ninit 10 -n 4'"
+
+# TreeTime settings
+refine:
+  root: "Wuhan/Hu-1/2019 Wuhan/WH01/2019" #EPI_ISL_402125  EPI_ISL_406798
+  clock_rate: 0.0008
+  clock_std_dev: 0.0004
+  coalescent: "skyline"
+  date_inference: "marginal"
+  divergence_unit: "mutations"
+  clock_filter_iqd: 4
+
+ancestral:
+  inference: "joint"
+
+# Frequencies settings
+frequencies:
+  min_date: 2020.0
+
+  # Number of months between pivots
+  pivot_interval: 1
+
+  # KDE bandwidths in proportion of a year to use per strain.
+  narrow_bandwidth: 0.05
+  proportion_wide: 0.0
+
+  # Diffusion frequency settings
+  minimal_frequency: 0.01
+  stiffness: 20
+  inertia: 0.2
+
+#
+# Region-specific settings
+#
+traits:
+  default:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+
+exposure:
+  default:
+    trait: "country"
+    exposure: "country_exposure"
+
+# Default subsampling schemes designed for different geographic scales. With the
+# exception of the "global" region, most subsampling schemes define a large
+# focal set of sequences related to a specific geographic entity (e.g., Africa,
+# Switzerland, etc.) and a smaller set of contextual sequences from the rest of
+# the world.
+#
+# Users can control the specificity of subsampling by defining as many
+# subsampling sets as they require. For example, one may wish to include all
+# sequences from California, many contextual sequences from the USA, and a few
+# contextual sequences from the rest of the world.
+#
+# Each build defines its subsampling scheme by specifying a `subsampling_scheme`
+# attribute whose value is the name of an entry in the subsampling configuration
+# below or defined elsewhere in another configuration file.
+subsampling:
+  # Default subsampling logic for regions
+  region:
+    # Focal samples for region
+    region:
+      group_by: "division year month"
+      seq_per_group: 48
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global:
+      group_by: "country year month"
+      seq_per_group: 4
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
+
+  # Custom subsampling logic for global region.
+  region_global:
+    global:
+      group_by: "country year month"
+      seq_per_group: 20
+
+  # Custom subsampling logic for regions like Europe where grouping by country
+  # is the smallest resolution required.
+  region_grouped_by_country:
+    # Focal samples for region
+    region:
+      group_by: "country year month"
+      seq_per_group: 64
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global:
+      group_by: "country year month"
+      seq_per_group: 6
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
+
+  # Default subsampling logic for countries
+  country:
+    # Focal samples for country
+    country:
+      group_by: "division year month"
+      seq_per_group: 200
+      exclude: "--exclude-where 'country!={country}'"
+    # Contextual samples from country's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'country={country}' 'region!={region}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+    # Contextual samples from the rest of the world,
+    # excluding the current region to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+
+  # Default subsampling logic for divisions
+  division:
+    # Focal samples for division
+    division:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
+    # Contextual samples from division's country
+    country:
+      group_by: "division year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+    # Contextual samples from division's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'region!={region}' 'country={country}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+    # Contextual samples from the rest of the world, excluding the current
+    # division to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 5
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "division"
+
+  # Default subsampling logic for locations
+  location:
+    # Focal samples for location
+    focal:
+      group_by: "year month"
+      seq_per_group: 300
+      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}' 'location!={location}'"
+    # Samples that are genetically related to the focal samples
+    related:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'location={location}'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+    # Contextual samples from the rest of the world
+    contextual:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'location={location}'"

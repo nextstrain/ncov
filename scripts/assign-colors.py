@@ -56,7 +56,19 @@ if __name__ == '__main__':
             if len(trait_array)==0:
                 print(f"No traits found for {trait_name}")
                 continue
-            color_array = schemes[len(trait_array)]
+            if len(schemes)<len(trait_array):
+              print(f"WARNING: insufficient colours available for trait {trait_name} - reusing colours!")
+              remain = len(trait_array)
+              color_array = []
+              while(remain>0):
+                if (remain>len(schemes)):
+                  color_array = [*color_array, *schemes[len(schemes)]]
+                  remain -= len(schemes)
+                else:
+                  color_array = [*color_array, *schemes[remain]]
+                  remain = 0
+            else:
+              color_array = schemes[len(trait_array)]
             extra_trait_values = list(forced_colors.get(trait_name, {}).keys())
             extra_color_values = list(forced_colors.get(trait_name, {}).values())
 
