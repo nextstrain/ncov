@@ -30,3 +30,10 @@ Baden-Württemberg	Baden-Wuerttemberg
 Dodge Count	Dodge County
 Outagamie Coun	Outagamie County
 Tübingen	Tuebingen
+Basel-Landschaft	Basel-Land
+St Gallen	Sankt Gallen
+Luzern	Lucerne
+Ct	Connecticut
+Id	Idaho
+Or	Oregon
+Wa	Washington
