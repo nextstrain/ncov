@@ -20,21 +20,21 @@ So, **to manage all of these steps, we use a workflow manager called snakemake**
 Snakemake is an incredibly powerful workflow manager with many complex features. For our purposes, though, we only need to understand a few things:  
 
 * **Each step in a workflow is called a "rule."** The inputs, outputs, and shell commands for each step/rule are defined in a `.smk` file.    
-* Each rule has a number of **parameters, which are specified in a `config` file**.  
-* Each rule produces **output (called a "dependency") which may be used by other rules**.
+* Each rule has a number of **parameters, which are specified in a `.yaml` file**.  
+* Each rule produces **output (called a "dependency") which may be used as input to other rules**.
 
 ## Overview of a Nextstrain "build" (analysis workflow)
 Below is an illustration of each step in a standard Nextstrain analysis workflow.
 Dependencies (output files from one step that act as input to the next) are indicated by grey arrows. Input files which must be provided are indicated with red outlines. As you can see in yellow, the final output is a JSON file for visualization in auspice.
 
-Required input files (e.g. the sequence data generated above, or other files which are part of this repo) are indicated with red outlines. We'll walk through each of these in detail in the next section.
-
->Note: Not all of the rules included are essential, or may even be desirable for your analysis. Your build may be able to be made a lot simpler, depending on your goals.
+Required input files (e.g. the sequence data generated in the [data preparation section](data-prep.md), or other files which are part of this repo) are indicated with red outlines. We'll walk through each of these in detail in the next section.
 
 ![snakemake_workflow](images/basic_snakemake_build.png)
 
 
 We encourage you to take a look at [`main_workflow.smk`](https://github.com/nextstrain/ncov/blob/tutorial/workflow/snakemake_rules/main_workflow.smk) to see what each rule is doing in more detail.  
+
+>Note: Not all of the rules included are essential, or may even be desirable for your analysis. Your build may be able to be made a lot simpler, depending on your goals.
 
 ### What's a "build?"
 
@@ -42,5 +42,5 @@ The components in this diagram **constitute a Nextstrain "build" -- i.e., a set 
 
 Builds are particularly important if you frequently want to run several different analysis workflows or datasets. For example, if you wanted to run one analysis on just your data and another analysis that incorporates background / contextual sequences, you could configure two different _builds_ (one for each of these workflows). We'll cover this in more detail in the [basic build configuration](running.md) section.
 
-## [Previous Section: Setup and installation](./docs/setup.md)
+## [Previous Section: Setup and installation](setup.md)
 ## [Next Section: Orientation: which files should I touch?](orientation-files.md)
