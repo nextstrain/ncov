@@ -38,8 +38,10 @@ You can view the current clades on the Global SARS-CoV-2 Nextstrain tree [here](
 
 ### Identifying Nextstrain Clades
 
-To make it easy for users to identify the Nextstrain clade of their own sequences, we provide [a simple python script](https://github.com/nextstrain/ncov/blob/master/assign_clades.py) that can be run on any Fasta file to assign appropriate clades. 
+To make it easy for users to identify the Nextstrain clade of their own sequences, we provide a clade assigment tool at [clades.nextstrain.org](https://clades.nextstrain.org/).
+In addition to assigning clades, this tool will call mutations in your sequences relative to the reference and performs some basic QC.
 
-This script is part of the ‘ncov’ github repository, but does not require running any other part of the pipeline. However ‘augur’ must be installed to run the script. This can be done [a number of different ways](https://nextstrain.org/docs/getting-started/local-installation#install-augur-with-python), but is often most easily done [using ‘pip’](https://nextstrain-augur.readthedocs.io/en/stable/installation/installation.html#using-pip-from-pypi). 
+You can also use the [simple python script](https://github.com/nextstrain/ncov/blob/master/assign_clades.py) to assign appropriate clades to sequences in a fasta file.
+This script is part of the ‘ncov’ github repository, but does not require running any other part of the pipeline. However ‘augur’ must be installed to run the script. This can be done [a number of different ways](https://nextstrain.org/docs/getting-started/local-installation#install-augur-with-python), but is often most easily done [using ‘pip’](https://nextstrain-augur.readthedocs.io/en/stable/installation/installation.html#using-pip-from-pypi).
 
 Note when running this script you can supply `--sequences` if your sequences require aligning first. If you already have aligned your sequences to the `ncov` repository reference (for example, from running the repository), you can supply `--alignment`. If you supply sequence that are not aligned to the `ncov` reference, you may get bad results!
