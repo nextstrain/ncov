@@ -827,6 +827,10 @@ location	Mogi Das Cruzes
 location	San Carlos de Bariloche
 location	Quilmes
 location	Babahoyo
+location	Cayambe
+location	Riobamba
+location	Ibarra
+location	Urcuqui
 location	Florianopolis
 location	Niteroi
 location	Joinville
@@ -948,8 +952,6 @@ location	Wisconsin
 location	Manitowoc County
 location	Brown County WI
 location	Dane County
-location	Dodge County
-location	Outagamie County
 location	Boston
 location	Houston
 location	Greater Houston Area
@@ -1721,8 +1723,6 @@ division	Osun State
 division	Oyo State
 division	Ghana
 division	Senegal
-division	Keur Massar
-division	Sangalkam
 division	Gambia
 division	Kombo
 division	Morocco
@@ -1835,6 +1835,8 @@ division	Para
 division	Antioquia
 division	Bogota
 division	Quito
+division	Chimborazo
+division	Imbabura
 division	Guayas
 division	Pichincha
 division	Peru

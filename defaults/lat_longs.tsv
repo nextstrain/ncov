@@ -193,6 +193,7 @@ location	Carentan	49.302133	-1.250938
 location	Cartagena	10.400866	-75.503036
 location	Casteau	50.515333	4.013682
 location	Castril	37.7957	-2.7802
+location	Cayambe	-0.0038813	-78.04818008344479
 location	Cayuga County	42.900990	-76.575649
 location	Cergy	49.0356	2.0603
 location	Chaineux	50.6317	5.8344
@@ -453,6 +454,7 @@ location	Humboldt County	40.7450	-123.8695
 location	Hyderabad	17.431807	78.416233
 location	Iasi	47.155585	27.590394
 location	Ibague	4.438643	-75.190558
+location	Ibarra	0.3478421	-78.1173588
 location	Iberville Parish	30.256342	-91.380864
 location	Ibiza	39.0200	1.4821
 location	Illinois	40.088552	-89.301876
@@ -823,11 +825,12 @@ location	Rincon de la Victoria	36.717712	-4.278570
 location	Rio Claro	-22.418843	-47.567420
 location	Rio de Janeiro	-22.89445	-43.2099
 location	Rio San Pedro	36.5235	-6.2259
+location	Riobamba	-1.6731483	-78.6486465
+location	Riopar	38.4982	-2.4172
 location	Rivas-Vaciamadrid	40.3519	-3.5357
 location	River Hills	43.1742	-87.9243
 location	Riverside	41.0338	-73.5785
 location	Ribeira	42.5541	-8.9922
-location	Riopar	38.4982	-2.4172
 location	Rixensart	50.7156	4.531
 location	Riyadh	24.705304	46.738279
 location	Rock County	42.654281	-89.079857
@@ -1009,6 +1012,7 @@ location	Ulan-Ude	51.827029	107.655954
 location	Ulster County	41.8586	-74.3118
 location	Umatilla County	45.648981	-118.720688
 location	Una	31.4685	76.2708
+location	Urcuqui	0.4172921	-78.1941499
 location	Utrecht	52.0907	5.1214
 location	Uttara	23.8759	90.3795
 location	Vadodara	22.306797	73.173072
@@ -1263,6 +1267,7 @@ division	Chiba	35.463961	140.223882
 division	Chihuahua	28.633	-106.0691
 division	Chile	-31.7613364	-71.3187696
 division	Chillan	-36.6063	-72.1023
+division	Chimborazo	-1.9262626	-78.7297799
 division	China	33.394333	104.689839
 division	Chittagong	22.3569	91.7832
 division	Choco	5.705238	-76.890815
@@ -1413,6 +1418,7 @@ division	Ile de France	48.724751	2.491522
 division	Ilidza	43.8314	18.3002
 division	Ilijas	43.9486	18.2649
 division	Illinois	40.088552	-89.301876
+division	Imbabura	0.3753621	-78.355681
 division	India	21.077353	78.723951
 division	Indiana	40.2672	-86.1349
 division	Iowa	41.878	-93.0977
@@ -1464,7 +1470,6 @@ division	Keelung	25.1276	121.7392
 division	Kentucky	37.649540	-85.450190
 division	Kenya	0.0236	37.9062
 division	Kerala	10.359825	76.39955
-division	Keur Massar	14.785537	-17.311426
 division	Kfar Habad	31.9901	34.8491
 division	Kfar Saba	32.180607	34.912861
 division	Khabarovsk Region	50.5888	135
@@ -1740,7 +1745,6 @@ division	Sakhalin Region	50.691	142.9506
 division	Salzburg	47.356774	13.227550
 division	Samara Region	53.4184	50.4726
 division	San Jose	9.9281	-84.0907
-division	Sangalkam	14.778142	-17.226013
 division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
 division	Santander	6.746570	-73.476456
