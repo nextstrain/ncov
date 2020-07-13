@@ -1253,6 +1253,16 @@ location	Leticia
 # Los Rios
 location	Babahoyo
 
+# Chimborazo
+location	Riobamba
+
+# Pichincha
+location	Cayambe
+
+# Imbabura
+location	Urcuqui
+location	Ibarra
+
 ################
 
 # North America
@@ -2400,8 +2410,10 @@ division	Departamento de Amazonas
 
 ### Ecuador
 division	Los Rios
+division	Chimborazo
 division	Pichincha
 division	Quito
+division	Imbabura
 
 ### Peru
 division	Lima
