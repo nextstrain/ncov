@@ -552,23 +552,29 @@ def check_for_missing(data):
                             missing["location"][country] = {}
                             clean_missing["location"][country] = {}
                         if division not in missing["location"][country]:
-                            missing["location"][country][division] = []
-                            clean_missing["location"][country][division] = []
-                        missing["location"][country][division].append(s)
-                        clean_missing["location"][country][division].append(location)
+                            if any(x in division for x in cruise_abbrev):
+                                print("Cruise-associated division ignored ("+division+")")
+                            else:
+                                missing["location"][country][division] = []
+                                clean_missing["location"][country][division] = []
+                        if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
+                            missing["location"][country][division].append(s)
+                            clean_missing["location"][country][division].append(location)
+                        else:
+                            print("Cruise-associated location ignored ("+location+")")
 
                     else:
                         if division in ordering["division"] and division in lat_longs["division"]:
                             data_clean[region][country][division].append(location)
 
     if missing['location']:
-        print("Missing locations:")
+        print("\n\nMissing locations:")
         for country in missing["location"]:
             print("# " + country + " #")
             for division in missing["location"][country]:
                 print(division)
                 for location in missing["location"][country][division]:
-                    print("location\t" + location)
+                    print("\tlocation\t" + location)
             print()
     else:
         print("No missing locations")

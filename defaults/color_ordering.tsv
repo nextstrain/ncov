@@ -827,6 +827,10 @@ location	Mogi Das Cruzes
 location	San Carlos de Bariloche
 location	Quilmes
 location	Babahoyo
+location	Cayambe
+location	Riobamba
+location	Ibarra
+location	Urcuqui
 location	Florianopolis
 location	Niteroi
 location	Joinville
@@ -1831,6 +1835,8 @@ division	Para
 division	Antioquia
 division	Bogota
 division	Quito
+division	Chimborazo
+division	Imbabura
 division	Guayas
 division	Pichincha
 division	Peru

@@ -14,3 +14,4 @@ Sangalkam	Dakar
 Yeumbeul	Dakar
 Tuebingen	Baden-Wuerttemberg
 Manama	Capital Governorate
+Mbao	Dakar
