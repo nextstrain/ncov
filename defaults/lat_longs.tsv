@@ -159,6 +159,7 @@ location	Brookfield	43.066515	-88.129450
 location	Brooklyn	40.6782	-73.9442
 location	Brooklyn WI	42.854602	-89.371662
 location	Broome County	42.136164	-75.832955
+location	Brown County WI	44.4383498	-88.0167093
 location	Brown Deer	43.1633	-87.9645
 location	Brugelette	50.602225	3.869806
 location	Brunehaut	50.528143	3.394669
@@ -192,6 +193,7 @@ location	Carentan	49.302133	-1.250938
 location	Cartagena	10.400866	-75.503036
 location	Casteau	50.515333	4.013682
 location	Castril	37.7957	-2.7802
+location	Cayambe	-0.0038813	-78.04818008344479
 location	Cayuga County	42.900990	-76.575649
 location	Cergy	49.0356	2.0603
 location	Chaineux	50.6317	5.8344
@@ -452,6 +454,7 @@ location	Humboldt County	40.7450	-123.8695
 location	Hyderabad	17.431807	78.416233
 location	Iasi	47.155585	27.590394
 location	Ibague	4.438643	-75.190558
+location	Ibarra	0.3478421	-78.1173588
 location	Iberville Parish	30.256342	-91.380864
 location	Ibiza	39.0200	1.4821
 location	Illinois	40.088552	-89.301876
@@ -514,6 +517,7 @@ location	Kermt	50.946857	5.247189
 location	Kersbeek-Miskom	50.886946	4.999315
 location	Kessel-Lo	50.8851	4.7357
 location	Ketchikan	55.346882	-131.655301
+location	Keur Massar	14.7825027	-17.3111773
 location	Kfar Saba	32.180607	34.912861
 location	Kheda	22.749950	72.686465
 location	Khedbrahma	24.0291	73.0435
@@ -602,10 +606,12 @@ location	Malle	51.304141	4.715731
 location	Manchester	41.7759	-72.5215
 location	Manacor	39.5697	3.2095
 location	Manado	1.487271	124.842838
+location	Manama	26.2235041	50.5822436
 location	Manaus	-3.126424	-60.019807
 location	Mandsaur	24.077683	75.067604
 location	Mandvi	21.254369	73.303536
 location	Manhattan	40.778542	-73.969920
+location	Manitowoc County	44.0998341	-87.827992
 location	Manizales	5.058776	-75.498753
 location	Maracena	37.2079	-3.6329
 location	Marcinelle	50.394727	4.427537
@@ -819,11 +825,12 @@ location	Rincon de la Victoria	36.717712	-4.278570
 location	Rio Claro	-22.418843	-47.567420
 location	Rio de Janeiro	-22.89445	-43.2099
 location	Rio San Pedro	36.5235	-6.2259
+location	Riobamba	-1.6731483	-78.6486465
+location	Riopar	38.4982	-2.4172
 location	Rivas-Vaciamadrid	40.3519	-3.5357
 location	River Hills	43.1742	-87.9243
 location	Riverside	41.0338	-73.5785
 location	Ribeira	42.5541	-8.9922
-location	Riopar	38.4982	-2.4172
 location	Rixensart	50.7156	4.531
 location	Riyadh	24.705304	46.738279
 location	Rock County	42.654281	-89.079857
@@ -860,6 +867,7 @@ location	San Mateo County	37.438721	-122.348737
 location	San Rafael Heredia	10.013197	-84.097456
 location	San Rafael de Alajuela	9.964081	-84.223595
 location	San Roque	36.210735	-5.386139
+location	Sangalkam	14.779304	-17.228261
 location	Santa Clara County	37.236094	-121.683399
 location	Santa Comba	43.0336	-8.8047
 location	Santa Fe	37.1879	-3.7202
@@ -992,6 +1000,7 @@ location	Trempealeau County	44.2398	-91.3662
 location	Trujillo	4.212089	-76.319157
 location	Trumbull	41.247238	-73.194570
 location	Tubize	50.687041	4.193545
+location	Tuebingen	48.5236164	9.0535531
 location	Tulua	4.092520	-76.197483
 location	Tumaco	1.792753	-78.793766
 location	Tweed Heads	-28.201312	153.543425
@@ -1003,6 +1012,7 @@ location	Ulan-Ude	51.827029	107.655954
 location	Ulster County	41.8586	-74.3118
 location	Umatilla County	45.648981	-118.720688
 location	Una	31.4685	76.2708
+location	Urcuqui	0.4172921	-78.1941499
 location	Utrecht	52.0907	5.1214
 location	Uttara	23.8759	90.3795
 location	Vadodara	22.306797	73.173072
@@ -1069,7 +1079,8 @@ location	Wilrijk	51.169169	4.396261
 location	Wilsele	50.889602	4.693823
 location	Wingene	51.058896	3.252863
 location	Winksele	50.897244	4.644376
-location	Winnebago County	42.303699	-89.118448
+location	Winnebago County IL	42.3255276	-89.1496574
+location	Winnebago County WI	44.0697014	-88.6516527
 location	Winneshiek County	43.288933	-91.839928
 location	Winona County	43.993965	-91.799960
 location	Wisconsin	44.535145	-89.527762
@@ -1231,6 +1242,7 @@ division	Canada	61.0666922	-107.991707
 division	Canakkale	40.030844	26.733769
 division	Canary Islands	28.2916	-16.6291
 division	Canterbury	-43.346635	172.190743
+division	Capital Governorate	26.2285	50.5860
 division	Cartago CO	4.748755	-75.928118
 division	Cartago CR	9.864015	-83.917122
 division	Casablanca	33.589370	-7.604170
@@ -1255,6 +1267,7 @@ division	Chiba	35.463961	140.223882
 division	Chihuahua	28.633	-106.0691
 division	Chile	-31.7613364	-71.3187696
 division	Chillan	-36.6063	-72.1023
+division	Chimborazo	-1.9262626	-78.7297799
 division	China	33.394333	104.689839
 division	Chittagong	22.3569	91.7832
 division	Choco	5.705238	-76.890815
@@ -1405,6 +1418,7 @@ division	Ile de France	48.724751	2.491522
 division	Ilidza	43.8314	18.3002
 division	Ilijas	43.9486	18.2649
 division	Illinois	40.088552	-89.301876
+division	Imbabura	0.3753621	-78.355681
 division	India	21.077353	78.723951
 division	Indiana	40.2672	-86.1349
 division	Iowa	41.878	-93.0977
@@ -1456,7 +1470,6 @@ division	Keelung	25.1276	121.7392
 division	Kentucky	37.649540	-85.450190
 division	Kenya	0.0236	37.9062
 division	Kerala	10.359825	76.39955
-division	Keur Massar	14.785537	-17.311426
 division	Kfar Habad	31.9901	34.8491
 division	Kfar Saba	32.180607	34.912861
 division	Khabarovsk Region	50.5888	135
@@ -1489,6 +1502,7 @@ division	La Louvière	50.469989	4.158129
 division	La Rioja	42.2871	-2.5396
 division	Ladakh	34.152588	77.577049
 division	Lagos	6.54252	3.286661
+division	Ondo State	6.970395	5.101463
 division	Laken	50.8778	4.3481
 division	Lakes	-38.5882085	175.9492056
 division	Landen	39.3120	-84.2830
@@ -1531,7 +1545,6 @@ division	Makkah	21.3891	39.8579
 division	Malaysia	2.3923759	112.8471939
 division	Maldonado	-34.904210	-54.969183
 division	Malopolskie	49.7225	20.2503
-division	Manama	26.2235041	50.5822436
 division	Manila	14.652678	121.043936
 division	Manitoba	55.182879	-97.823531
 division	Maranhão	-4.9609	-45.2744
@@ -1733,7 +1746,6 @@ division	Sakhalin Region	50.691	142.9506
 division	Salzburg	47.356774	13.227550
 division	Samara Region	53.4184	50.4726
 division	San Jose	9.9281	-84.0907
-division	Sangalkam	14.778142	-17.226013
 division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
 division	Santander	6.746570	-73.476456
