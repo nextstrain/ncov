@@ -32,6 +32,7 @@ location	Almassera	39.5105	-0.3572
 location	Almenara	-16.1797	-40.6953
 location	Almeria	36.844270	-2.450766
 location	Altenhof Am Hausruck	48.134291	13.686464
+location	Amajuba	-27.7351566	29.961884968271626
 location	Ambite	40.3284	-3.1824
 location	Ames	42.9038	-8.6584
 location	Anchorage	61.203109	-149.888095
@@ -153,6 +154,7 @@ location	Bridgeport	41.1792	-73.1894
 location	Brindisi	40.629964	17.937041
 location	Brisbane	-27.484246	153.026118
 location	Bristol	41.6718	-72.9493
+location	Brno	49.1922443	16.6113382
 location	Broechem	51.180793	4.602098
 location	Bronx	40.858846	-73.864979
 location	Brookfield	43.066515	-88.129450
@@ -284,6 +286,7 @@ location	Dijon	47.3220	5.0415
 location	Dilbeek	50.8465	4.2621
 location	Dodge County	43.413614	-88.7177834
 location	Dolembreux	50.535464	5.632975
+location	Domažlice	49.4407069	12.9298338
 location	Dongguan	22.992389	113.744830
 location	Donostia-San Sebastian	43.304023	-1.981439
 location	Door County	44.7615925	-87.5329747
@@ -318,6 +321,7 @@ location	Envigado	6.168786	-75.583389
 location	Ere	50.580306	3.368009
 location	Essex County	40.784033	-74.235550
 location	Estinnes	50.374881	4.103617
+location	eThekwini	-29.861825	31.009909
 location	Ettelgem	51.178991	3.030238
 location	Etterbeek	50.833658	4.394661
 location	Eupen	50.6292	6.0337
@@ -457,6 +461,7 @@ location	Ibague	4.438643	-75.190558
 location	Ibarra	0.3478421	-78.1173588
 location	Iberville Parish	30.256342	-91.380864
 location	Ibiza	39.0200	1.4821
+location	iLembe	-29.240765	31.234110920000003
 location	Illinois	40.088552	-89.301876
 location	Imperial County	32.845969	-115.543429
 location	Indianapolis	39.7684	-86.1581
@@ -1006,13 +1011,16 @@ location	Tumaco	1.792753	-78.793766
 location	Tweed Heads	-28.201312	153.543425
 location	Ubeda	38.0114	-3.3712
 location	Uccle	50.793431	4.355608
+location	Ugu	-30.54723	30.29119696183432
 location	Ujjain	23.161092	75.803740
 location	Uijeongbu	37.7381078	127.033929
 location	Ulan-Ude	51.827029	107.655954
 location	Ulster County	41.8586	-74.3118
 location	Umatilla County	45.648981	-118.720688
+location	uMgungundlovu	-29.52982	30.057047991912206
 location	Una	31.4685	76.2708
 location	Urcuqui	0.4172921	-78.1941499
+location	uThukela	-28.7446904	30.2224445
 location	Utrecht	52.0907	5.1214
 location	Uttara	23.8759	90.3795
 location	Vadodara	22.306797	73.173072
@@ -1117,6 +1125,7 @@ location	Zonhoven	50.9871	5.3672
 location	Zoutleeuw	50.836614	5.107761
 location	Zujar	37.5394	-2.8415
 location	Zulueta	42.745008	-1.579320
+location	Zululand	-27.897909900000002	31.293846335885597
 location	Ahmedabad	23.024605	72.570805
 location	Gandhinagar	23.227004	72.643142
 location	Mansa	23.428814	72.656249
@@ -1693,6 +1702,7 @@ division	Phuket	7.959471	98.339272
 division	Piaui	-7.7183	-42.7289
 division	Pichincha	-0.1465	-78.4752
 division	Pleven	43.4170	24.6067
+division	Plzeň Region	49.7477415	13.3775249
 division	Poland	52.0977181	19.0258159
 division	Polleur	50.580257	5.866744
 division	Pomorskie	54.2944	18.1531
@@ -1800,6 +1810,7 @@ division	South Coast District	29.873836	34.934417
 division	South District	30.8296	35.0388
 division	South Holland	52.006053	4.485728
 division	South Korea	36.609249	127.917932
+division	South Moravian Region	49.1249179	16.682771628867208
 division	South Tyrol	46.762051	11.427443
 division	South Yorkshire	53.4697	-1.326
 division	Southern	-46.040582	169.144142

@@ -1594,6 +1594,7 @@ division	Narail
 division	Bagherhat
 division	Tangail
 division	Bangladesh
+division	Barishal
 division	Dhaka
 division	Narayanganj
 division	Chittagong
@@ -2270,6 +2271,7 @@ division	Cotonou
 division	Oueme
 
 ### Democratic Republic of the Congo
+division	Kongo Central
 division	Kinshasa
 division	Democratic Republic of the Congo
 division	Haut-Katanga
@@ -2290,6 +2292,10 @@ division	Greater Accra
 ### Kenya
 division	Kenya
 
+### Mali
+division	Bamako
+division	Mopti
+
 ### Morocco
 division	Casablanca
 division	Rabat
@@ -2302,6 +2308,8 @@ division	Ogun State
 division	Oyo State
 division	Kwara State
 division	Osun State
+division	Ondo State
+division	Ekiti State
 division	Nigeria
 
 ### Senegal
@@ -2607,6 +2615,7 @@ country	Egypt
 country	Gambia
 country	Ghana
 country	Kenya
+country	Mali
 country	Morocco
 country	Nigeria
 country	Senegal

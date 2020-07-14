@@ -161,6 +161,8 @@ location	Ulan-Ude
 location	Kipen
 location	Kraków
 location	Prostějov
+location	Domažlice
+location	Brno
 location	Plock
 location	Grodzisk Mazowiecki
 location	Olsztyn
@@ -1116,6 +1118,13 @@ location	Wasco County
 location	Richland County
 location	Accra
 location	Cape Town Metro
+location	eThekwini
+location	iLembe
+location	Zululand
+location	uMgungundlovu
+location	uThukela
+location	Ugu
+location	Amajuba
 location	Montérégie
 location	Lanaudière
 location	Al Matariyyah
@@ -1485,6 +1494,8 @@ division	Prague
 division	Melnik
 division	Litomerice-Brnay
 division	Vysocina Region
+division	Plzeň Region
+division	South Moravian Region
 division	Martin
 division	Copenhagen
 division	Ile de France

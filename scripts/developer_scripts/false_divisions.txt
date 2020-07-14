@@ -15,3 +15,5 @@ Yeumbeul	Dakar
 Tuebingen	Baden-Wuerttemberg
 Manama	Capital Governorate
 Mbao	Dakar
+Domažlice	Plzeň Region
+Brno	South Moravian Region
