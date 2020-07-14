@@ -1178,6 +1178,7 @@ division	Seoul
 division	South Korea
 division	Chattogram
 division	Sylhet
+division	Barishal
 division	Nepal
 division	Kathmandu
 division	Sri Lanka
@@ -1721,6 +1722,7 @@ division	Kwara State
 division	Ogun State
 division	Osun State
 division	Oyo State
+division	Ekiti State
 division	Ghana
 division	Senegal
 division	Gambia
@@ -1740,6 +1742,7 @@ division	Kenya
 division	Democratic Republic of the Congo
 division	Haut-Katanga
 division	Kinshasa
+division	Kongo Central
 division	Sud Kivu
 division	South Africa
 division	Eastern Cape
@@ -1757,6 +1760,8 @@ division	Dakar
 division	Kolda
 division	St-Louis
 division	Thies
+division	Mopti
+division	Bamako
 division	Blida
 division	Boufarik
 division	Chile
@@ -2004,6 +2009,7 @@ country	Nigeria
 country	Benin
 country	Kenya
 country	Ghana
+country	Mali
 country	Senegal
 country	Gambia
 country	Algeria

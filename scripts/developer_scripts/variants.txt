@@ -37,3 +37,6 @@ Ct	Connecticut
 Id	Idaho
 Or	Oregon
 Wa	Washington
+United States	USA
+Kongo-Central	Kongo Central
+Barisal	Barishal

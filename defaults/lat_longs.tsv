@@ -1179,10 +1179,12 @@ division	Balassagyarmat	48.0712	19.2937
 division	Balatonfured	46.9599	17.8851
 division	Balear Islands	39.30	3.0
 division	Balikesir	39.650196	27.88958
+division	Bamako	12.60503275	-7.986513673439357
 division	Bangkok	13.798471	100.590834
 division	Bangladesh	24.506442	90.041454
 division	Baranya	46.0485	18.2719
 division	Barcelona	41.394769	2.173828
+division	Barishal	22.7562851	90.41098391553726
 division	Basel-Land	47.493316	7.714938
 division	Basel-Stadt	47.557238	7.595666
 division	Basilicata	40.447062	16.081705
@@ -1325,6 +1327,7 @@ division	Eastern Cape	-32.344458	26.497832
 division	Ecuador	-1.3397667	-79.3666964
 division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
+division	Ekiti State	9.0311972	7.521753
 division	Elad	32.0495	34.9507
 division	Elkana	32.1106	35.0321
 division	Emilia-Romagna	44.641437	11.119072
@@ -1482,6 +1485,7 @@ division	Kochi	33.518628	133.505674
 division	Koersel	51.0584	5.2718
 division	Kolda	12.9493	-14.4723
 division	Kombo	13.294035	-16.656832
+division	Kongo Central	-5.8162516	13.4908753
 division	Konya	37.859743	32.495438
 division	Koprivnica	46.168157	16.827208
 division	Kortrijk	50.802287	3.264668
@@ -1578,6 +1582,7 @@ division	Mongolia	47.504782	102.997672
 division	Mons	50.445439	3.962794
 division	Montana	46.974704	-110.872530
 division	Montevideo	-34.823827	-56.211799
+division	Mopti	14.514489000000001	-3.646458060483871
 division	Morocco	32.525925	-5.843761
 division	Moscow	55.7558	37.6173
 division	Moscow Region	55.3404	38.2918
@@ -1970,6 +1975,7 @@ country	Kyrgyzstan	41.2044	74.7661
 country	Lithuania	55.378752	23.945328
 country	Luxembourg	49.755428	6.119486
 country	Malaysia	4.264153	102.222436
+country	Mali	16.3700359	-2.2900239
 country	Mongolia	47.504782	102.997672
 country	Morocco	32.549785	-5.480765
 country	Myanmar	20.600856	96.287616
