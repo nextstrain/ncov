@@ -191,6 +191,23 @@ def read_exposure(data, metadata):
 # e.g. switch all locations and strains from a misspelled division to the correct division
 # e.g. turn a certain false division into a location below the correct division, and move all connected strains
 def correct_data(data, type, corrections): #TODO: add region correction (e.g. for Turkey, Georgia)
+
+    if type == "country":
+        for country in corrections:
+            (region, country_correct) = corrections[country]
+            if country_correct not in data[region]:
+                data[region][country_correct] = {}
+            for division in data[region][country]:
+                if division not in data[region][country_correct]:
+                    data[region][country_correct][division] = {}
+                for location in data[region][country][division]:
+                    if location not in data[region][country_correct][division]:
+                        data[region][country_correct][division][location] = []
+                    for strain in data[region][country][division][location]:
+                        additions_to_annotation.append(strain + "\tcountry\t" + country_correct + " # previously " + country)
+                        data[region][country_correct][division][location].append(strain)
+            del data[region][country]
+
     if type == "division":
         for division in corrections:
             (region, country, division_correct) = corrections[division]
@@ -330,6 +347,17 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
 ##### Step 2.1: Apply all known variants stored in an external file variants.txt
 def apply_variants(data): #TODO: currently, the file variants.txt doesn't distinguish between location or division - what if we want to correct only one type, not the other?
     variants = read_local_file("variants.txt")
+
+    countries_to_switch = {}
+    for region in data:
+        for country in data[region]:
+            if country in variants:
+                country_correct = variants[country]
+                print("Apply variant (country): " + bold(country) + " -> " + bold(country_correct))
+                countries_to_switch[country] = (region, country_correct)
+
+    data = correct_data(data, "country", countries_to_switch)
+
     divisions_to_switch = {}
     for region in data:
         for country in data[region]:
