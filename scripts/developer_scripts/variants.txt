@@ -1,0 +1,39 @@
+misspelled name	correct name
+Nw	North-West
+Ec	Eastern Cape
+Gp	Gauteng
+Amazonas State	Amazonas
+Liege	Liège
+Bucuresti	Bucharest
+Ghent	Gent
+Gavleborg	Gavleborgs Lan
+Bat-Yam	Bat Yam
+Jerusalem	Jerusalem District
+Auvergne Rhone Alpes	Auvergne-Rhône-Alpes
+Zurich	Zürich
+Sao Paulo	São Paulo
+Dakarhuman	Dakar
+Castilla-la Mancha	Castilla la Mancha
+Quangning	Quangninh
+Ragshahi	Rajshahi
+Milwaukee	Milwaukee County
+Kzn	KwaZulu-Natal
+St Louis	St-Louis
+Imperial	Imperial County
+Bahrein	Bahrain
+Hobigonj	Habiganj
+Grand-Est	Grand Est
+Califonia	California
+East Baton Rouge	East Baton Rouge Parish
+Los Angeles	Los Angeles County
+Baden-Württemberg	Baden-Wuerttemberg
+Dodge Count	Dodge County
+Outagamie Coun	Outagamie County
+Tübingen	Tuebingen
+Basel-Landschaft	Basel-Land
+St Gallen	Sankt Gallen
+Luzern	Lucerne
+Ct	Connecticut
+Id	Idaho
+Or	Oregon
+Wa	Washington

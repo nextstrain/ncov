@@ -1,0 +1,17 @@
+false division (actually location)	true division
+Thaur	Tyrol
+Mayrhofen	Tyrol
+Altenhof Am Hausruck	Upper Austria
+Losenstein	Upper Austria
+Ischgl	Tyrol
+Innsbruck	Tyrol
+Hanoi	Red River Delta
+Barcelona	Catalunya
+Kfar Saba	Central District
+Uijeongbu	Gyeonggi Province
+Keur Massar	Dakar
+Sangalkam	Dakar
+Yeumbeul	Dakar
+Tuebingen	Baden-Wuerttemberg
+Manama	Capital Governorate
+Mbao	Dakar
