@@ -663,9 +663,15 @@ location	Eupen
 location	Büllingen
 
 ### Czech Republic
+# Plzeň Region
+location	Domažlice
+
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
 location	Kynice
+
+# South Moravian Region
+location	Brno
 
 # Hranice Na Moravě
 location	Prostějov
@@ -1087,6 +1093,15 @@ location	Velingara
 ### South Africa
 # Western Cape Province
 location	Cape Town Metro
+
+# KwaZulu-Natal
+location	Amajuba
+location	uMgungundlovu
+location	uThukela
+location	Ugu
+location	eThekwini
+location	iLembe
+location	Zululand
 
 ################
 
@@ -1961,6 +1976,7 @@ division	Osijek
 division	Cyprus
 
 ### Czech Republic
+division	Plzeň Region
 division	Usti nad Labem
 division	Litomerice-Brnay
 division	Prague
@@ -1968,6 +1984,7 @@ division	Melnik
 division	Czech Republic
 division	Jihlava
 division	Vysocina Region
+division	South Moravian Region
 division	Hranice Na Moravě
 
 ### Denmark
