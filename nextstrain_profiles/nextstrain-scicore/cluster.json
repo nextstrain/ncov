@@ -20,5 +20,8 @@
     "align": {
         "n" : 2,
         "mem": "16G"
+    },
+    "proximity_score":{
+	"mem": "32G"
     }
 }
