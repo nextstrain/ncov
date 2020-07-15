@@ -1376,9 +1376,10 @@ location	Panola County
 location	Wabasha County
 location	Fillmore County
 location	Winona County
+location	Houston County
 
 # Iowa
-location	Fayette County
+location	Buchanan County
 location	Winneshiek County
 location	Allamakee County
 
@@ -1410,6 +1411,7 @@ location	Colorado Springs
 location	Crawford County
 location	Chippewa Falls
 location	Trempealeau County
+location	Whitehall County
 location	La Crosse County
 location	Vernon County
 location	Jackson County
@@ -1662,6 +1664,7 @@ division	Madhya Pradesh
 division	India
 division	Telangana
 division	Andhra Pradesh
+division	Lucknow
 division	Uttar Pradesh
 division	Odisha
 division	Bihar
@@ -1816,6 +1819,7 @@ division	Keelung
 ### Thailand
 division	Phuket
 division	Trang
+division	Samut Songkhram
 division	Nonthaburi
 division	Bangkok
 division	Samut Prakarn
@@ -2442,6 +2446,8 @@ division	Imbabura
 
 ### Peru
 division	Lima
+division	Huanuco
+division	Ica
 
 ### Uruguay
 division	Montevideo

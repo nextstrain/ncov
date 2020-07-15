@@ -1001,9 +1001,11 @@ location	Dutchess County
 location	Passaic County
 location	Monroe County
 location	Winona County
+location	Houston County
 location	Allamakee County
 location	Winneshiek County
 location	Jackson County
+location	Whitehall County
 location	Florida
 location	Miramar
 location	Wabasha County
@@ -1131,6 +1133,8 @@ location	Al Matariyyah
 location	Kfar Saba
 
 
+
+
 division	Mongolia
 division	China
 division	Hubei
@@ -1156,6 +1160,7 @@ division	Samut Prakarn
 division	Pathum Thani
 division	Nakhonnayok
 division	Trang
+division	Samut Songkhram
 division	New Taipei City
 division	Philippines
 division	Manila
@@ -1212,6 +1217,7 @@ division	Karnataka
 division	North Sulawesi
 division	East Kalimantan
 division	Gujarat
+division	Lucknow
 division	Rajasthan
 division	Kerala
 division	West Bengal
@@ -1857,6 +1863,8 @@ division	Imbabura
 division	Guayas
 division	Pichincha
 division	Peru
+division	Huanuco
+division	Ica
 division	Lima
 division	Montevideo
 division	Panama City

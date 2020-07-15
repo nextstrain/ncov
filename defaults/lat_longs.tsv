@@ -444,6 +444,7 @@ location	Hong Kong	22.3964	114.1095
 location	Honnelles	50.350747	3.714603
 location	Hortolandia	-22.881443	-47.206973
 location	Houston	29.813606	-95.415223
+location	Houston County	43.676439	-91.493283
 location	Greater Houston Area	29.679767	-95.360138
 location	Houten	52.0278	5.1630
 location	Houthalen-Helchteren	51.0312	5.3765
@@ -1081,6 +1082,7 @@ location	Westchester County	41.1220	-73.7949
 location	Wevelgem	50.832135	3.174228
 location	Wezembeek-Oppem	50.842122	4.490653
 location	Whatcom County	48.830959	-121.791189
+location	Whitehall County	44.366840	-91.324050
 location	Whitefish Bay	43.111041	-87.901408
 location	Wijnegem	51.228317	4.515561
 location	Wilrijk	51.169169	4.396261
@@ -1129,7 +1131,6 @@ location	Zululand	-27.897909900000002	31.293846335885597
 location	Ahmedabad	23.024605	72.570805
 location	Gandhinagar	23.227004	72.643142
 location	Mansa	23.428814	72.656249
-
 
 
 
@@ -1417,12 +1418,14 @@ division	Holsbeek	50.9211	4.7570
 division	Hong Kong	22.3964	114.1095
 division	Houthalen-Helchteren	51.0312	5.3765
 division	Hranice Na Moravě	49.5497	17.7349
+division	Huanuco	-9.893964	-76.299456
 division	Huasco	-28.467340	-71.221674
 division	Hubei	31.095477	112.676644
 division	Huila	2.545605	-75.524024
 division	Hukuk	32.8798972	35.4958000
 division	Hungary	47	20
 division	Huy	50.510704	5.209278
+division	Ica	-14.079922	-75.740852
 division	Iceland	64.9841821	-18.1059012
 division	Idaho	43.810421	-114.351215
 division	Ieper	50.857716	2.874138
@@ -1544,6 +1547,7 @@ division	Louisiana	30.9843	-91.9623
 division	Louth	53.9508	-6.5406
 division	Lower Austria	48.360214	15.824134
 division	Lucerne	47.0502	8.3093
+division	Lucknow	26.851073	80.934261
 division	Lummen	50.9876	5.1951
 division	Luxembourg	49.755428	6.119486
 division	Maalot Tarshicha	33.0150	35.2760
@@ -1760,6 +1764,7 @@ division	Sakarya	40.753425	30.384694
 division	Sakhalin Region	50.691	142.9506
 division	Salzburg	47.356774	13.227550
 division	Samara Region	53.4184	50.4726
+division	Samut Songkhram	13.410190	99.949071
 division	San Jose	9.9281	-84.0907
 division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
