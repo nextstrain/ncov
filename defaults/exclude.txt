@@ -678,3 +678,7 @@ India/GBRC191b/2020
 India/GBRC193b/2020
 India/GBRC195b/2020
 
+# In vertical transmission study (https://journals.lww.com/pidj/Abstract/9000/Probable_Vertical_Transmission_of_SARS_CoV_2.96098.aspx), 
+# maternal and neonatal SARS-CoV-2 viruses were sequenced at two time points. Later timepoint being excluded.
+England/20110005006/2020 
+England/20118044606/2020
