@@ -62,6 +62,7 @@ location	Hanoi
 location	Bangkok
 location	Hyderabad
 location	Noida
+location	Lucknow
 location	Ahmedabad
 location	Uttara
 location	Gulshan
@@ -71,6 +72,7 @@ location	Moulvibazar
 location	Habiganj
 location	Brahmanbaria
 location	Pabna
+location	Jashore
 location	Chandpur
 location	Kalia
 location	Kodomtoly
@@ -162,6 +164,11 @@ location	Kipen
 location	Kraków
 location	Prostějov
 location	Domažlice
+location	Všebořice
+location	Fryšták
+location	Plzeň
+location	Klenčí
+location	Litovel
 location	Brno
 location	Plock
 location	Grodzisk Mazowiecki
@@ -829,6 +836,7 @@ location	Mogi Das Cruzes
 location	San Carlos de Bariloche
 location	Quilmes
 location	Babahoyo
+location	Guayaquil
 location	Cayambe
 location	Riobamba
 location	Ibarra
@@ -987,7 +995,7 @@ location	Columbia County OR
 location	Albany County
 location	Putnam County
 location	New York City
-location	Fairfield County
+location	Fairfield County CT
 location	Bergen County
 location	Clinton County
 location	Broome County
@@ -1117,7 +1125,9 @@ location	Columbia County
 location	Marion County
 location	Multnomah County
 location	Wasco County
-location	Richland County
+location	Fairfield County SC
+location	Berkeley County
+location	Richland County SC
 location	Accra
 location	Cape Town Metro
 location	eThekwini
@@ -1192,6 +1202,7 @@ division	Seoul
 division	South Korea
 division	Chattogram
 division	Sylhet
+division	Khulna
 division	Barishal
 division	Nepal
 division	Kathmandu
@@ -1502,6 +1513,8 @@ division	Litomerice-Brnay
 division	Vysocina Region
 division	Plzeň Region
 division	South Moravian Region
+division	Zlin
+division	Olomouc Region
 division	Martin
 division	Copenhagen
 division	Ile de France
@@ -1600,6 +1613,8 @@ division	Saint-Saulve
 division	Switzerland
 division	Lucerne
 division	Bavaria
+division	Niedersachsen
+division	Western Pomerania
 division	Duesseldorf
 division	Baden-Wuerttemberg
 division	Munich
@@ -1762,6 +1777,8 @@ division	Kinshasa
 division	Kongo Central
 division	Sud Kivu
 division	South Africa
+division	Western Cape
+division	Free State
 division	Eastern Cape
 division	KwaZulu-Natal
 division	North-West

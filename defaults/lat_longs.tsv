@@ -100,6 +100,7 @@ location	Berg	50.931302	4.537617
 location	Bergamo	45.6983	9.6773
 location	Bergen County	40.9263	-74.0770
 location	Beringen	51.064162	5.224601
+location	Berkeley County	33.1595951	-79.9070461
 location	Berlicum	51.6789	5.4012
 location	Berloz	50.703886	5.202112
 location	Bermeo	43.418493	-2.730537
@@ -327,7 +328,8 @@ location	Etterbeek	50.833658	4.394661
 location	Eupen	50.6292	6.0337
 location	Fairbanks	64.835015	-147.664888
 location	Fairfield	41.1408	-73.2613
-location	Fairfield County	41.2560	-73.3709
+location	Fairfield County CT	41.2943069	-73.37486
+location	Fairfield County SC	34.4091797	-81.1131228
 location	Fayette County	42.9258	-91.9099
 location	Feira de Santana	-12.2598	-38.9675
 location	Fillmore County	41.5637	-92.0077
@@ -351,6 +353,7 @@ location	Franklin	42.882823	-88.009275
 location	Franklin County NY	44.5926	-74.3388
 location	Franklin County WA	46.517555	-118.921601
 location	Froyennes	50.622463	3.347464
+location	Fryšták	49.2852044	17.6834631
 location	Funza	4.713017	-74.206999
 location	Fuyang	32.904205	115.812367
 location	Fuzhou	27.965633	116.359573
@@ -395,6 +398,7 @@ location	Grodzisk Mazowiecki	52.105601	20.633940
 location	Grote-Brogel	51.153218	5.508637
 location	Guadix	37.3011	-3.1403
 location	Guangzhou	23.123972	113.292889
+location	Guayaquil	-2.1899066	-79.887726
 location	Guediawaye	14.7828	-17.3760
 location	Guevejar	37.2574	-3.5977
 location	Gulshan	23.7925	90.4078
@@ -481,6 +485,7 @@ location	Jaipur	26.901676	75.793978
 location	Jamnagar	22.471143	70.051543
 location	Jamundi	3.260158	-76.539750
 location	Janesville	42.691211	-89.014160
+location	Jashore	23.1665971	89.2095143
 location	Jatrabari	23.711397	90.435403
 location	Jefferson County NY	44.095507	-75.890072
 location	Jefferson County WA	47.728342	-123.606395
@@ -531,6 +536,7 @@ location	King County	47.449221	-121.864246
 location	Kipen	59.6739	29.8498
 location	Kirkland	47.679486	-122.206354
 location	Kittitas County	47.1750	-120.9319
+location	Klenčí	49.4348	12.8147
 location	Knokke-Heist	51.331501	3.308826
 location	Kodinar	20.8009	70.6960
 location	Kodomtoly	23.703843	90.875119
@@ -574,6 +580,7 @@ location	Limbourg BE	50.613635	5.935911
 location	Linter	50.818098	5.042221
 location	Lippelo	51.041285	4.258686
 location	Lishui	28.460681	119.919147
+location	Litovel	49.7014789	17.0761064
 location	Livingston Parish	30.463159	-90.743070
 location	Llubi	39.6994	3.0063
 location	Lluchmayor	39.4908	2.8917
@@ -591,6 +598,7 @@ location	Losenstein	47.924273	14.433111
 location	Lotenhulle	51.047900	3.465749
 location	Lovendegem	51.100478	3.624891
 location	Lubbeek	50.880093	4.821901
+location	Lucknow	26.8381	80.9346001
 location	Luingne	50.737783	3.234058
 location	Lummen	50.995516	5.181081
 location	Luttre	50.509069	4.391808
@@ -783,6 +791,7 @@ location	Pittsburgh	40.433375	-79.996990
 location	Plock	52.520284	19.690317
 location	Ploegsteert	50.725900	2.880261
 location	Ploudalmezeau	48.5415	-4.6578
+location	Plzeň	49.7477415	13.3775249
 location	Pontoise	49.049228	2.098595
 location	Popayan	2.458755	-76.606118
 location	Poperinge	50.854747	2.692635
@@ -823,7 +832,8 @@ location	Rennes	48.1173	1.6778
 location	Retie	51.268101	5.078413
 location	Rianjo	42.6924	-8.7812
 location	Richland Center	43.339975	-90.385959
-location	Richland County	34.043420	-80.959967
+location	Richland County SC	34.0190006	-80.9176832
+location	Richland County WI	43.4060	-90.3748
 location	Richmond County	40.5795	-74.1502
 location	Riemst	50.805092	5.589712
 location	Rijkevorsel	51.355735	4.766466
@@ -1054,6 +1064,7 @@ location	Vitoria-Gasteiz	42.848478	-2.672011
 location	Vlamertinge	50.853066	2.824175
 location	Voroux-lez-Liers	50.686830	5.554916
 location	Vorselaar	51.216049	4.773289
+location	Všebořice	50.6837604	13.991913
 location	Waasmont	50.726586	5.062739
 location	Waasmunster	51.1182	4.080492
 location	Wabasha County	 44.274798	-92.226763
@@ -1353,6 +1364,7 @@ division	Flines-lès-Mortagne	50.5037	3.4641
 division	Florida	27.6648	-81.5158
 division	France	46.2276	2.2137
 division	Frankfurt	50.1109	8.6821
+division	Free State	-28.7853618	26.4978933
 division	Fribourg	46.804570	7.162854
 division	Friesland	53.1642	5.7818
 division	Friuli Venezia Giulia	46.2259	13.1034
@@ -1488,6 +1500,7 @@ division	Kerala	10.359825	76.39955
 division	Kfar Habad	31.9901	34.8491
 division	Kfar Saba	32.180607	34.912861
 division	Khabarovsk Region	50.5888	135
+division	Khulna	22.815139549999998	89.44492672055918
 division	Khyber Pakhtunkhwa	33.696621	72.636031
 division	Kinshasa	-4.2978	15.2962
 division	Kiryat Gat	31.6111	34.7685
@@ -1518,6 +1531,7 @@ division	La Louvière	50.469989	4.158129
 division	La Rioja	42.2871	-2.5396
 division	Ladakh	34.152588	77.577049
 division	Lagos	6.54252	3.286661
+division	Olomouc Region	49.859105799999995	16.956126746749305
 division	Ondo State	6.970395	5.101463
 division	Laken	50.8778	4.3481
 division	Lakes	-38.5882085	175.9492056
@@ -1631,6 +1645,7 @@ division	New Taipei City	25.017	121.4628
 division	New York	40.703395	-73.904193
 division	New Zealand	-41.500083	172.8344077
 division	Newfoundland and Labrador	53.655784	-61.203723
+division	Niedersachsen	52.8398531	9.075962
 division	Nigeria	10	8
 division	Nivelles	50.594427	4.331238
 division	Nonthaburi	13.852511	100.522791
@@ -1944,6 +1959,7 @@ division	West Bengal	23.361461	87.724077
 division	West Coast Region	13.2229	16.582
 division	Western Australia	-27.055937	122.236663
 division	Western Cape Province	-33.493715	20.219852
+division	Western Pomerania	53.84713085	13.351339698378764
 division	Wicklow	52.9808	-6.0446
 division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762
@@ -1957,6 +1973,7 @@ division	Zefat	32.9646	35.4960
 division	Zepce	44.4287	18.0379
 division	Zhejiang	29.22571	120.299125
 division	Zielonogorskie	52.2275	15.2559
+division	Zlin	49.226766	17.6667415
 division	Zolder	50.9905	5.2580
 division	Zug	47.155891	8.525039
 division	Zürich	47.441242	8.641154

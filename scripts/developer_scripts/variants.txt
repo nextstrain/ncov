@@ -2,6 +2,9 @@ misspelled name	correct name
 Nw	North-West
 Ec	Eastern Cape
 Gp	Gauteng
+Fs	Free State
+Lp	Limpopo
+Wc	Western Cape Province
 Amazonas State	Amazonas
 Liege	Liège
 Bucuresti	Bucharest
@@ -33,10 +36,67 @@ Tübingen	Tuebingen
 Basel-Landschaft	Basel-Land
 St Gallen	Sankt Gallen
 Luzern	Lucerne
-Ct	Connecticut
-Id	Idaho
-Or	Oregon
-Wa	Washington
 United States	USA
 Kongo-Central	Kongo Central
 Barisal	Barishal
+Al	Alabama
+Ak	Alaska
+As	American Samoa
+Az	Arizona
+Ar	Arkansas
+Ca	California
+Co	Colorado
+Ct	Connecticut
+De	Delaware
+Dc	District of Columbia
+Fm	Federated States of Micronesia
+Fl	Florida
+Ga	Georgia
+Gu	Guam
+Hi	Hawaii
+Id	Idaho
+Il	Illinois
+In	Indiana
+Ia	Iowa
+Ks	Kansas
+Ky	Kentucky
+La	Louisiana
+Me	Maine
+Mh	Marshall Islands
+Md	Maryland
+Ma	Massachusetts
+Mi	Michigan
+Mn	Minnesota
+Ms	Mississippi
+Mo	Missouri
+Mt	Montana
+Ne	Nebraska
+Nv	Nevada
+Nh	New Hampshire
+Nj	New Jersey
+Nm	New Mexico
+Ny	New York
+Nc	North Carolina
+Nd	North Dakota
+Mp	Northern Mariana Islands
+Oh	Ohio
+Ok	Oklahoma
+Or	Oregon
+Pw	Palau
+Pa	Pennsylvania
+Pr	Puerto Rico
+Ri	Rhode Island
+Sc	South Carolina
+Sd	South Dakota
+Tn	Tennessee
+Tx	Texas
+Ut	Utah
+Vt	Vermont
+Vi	Virgin Islands
+Va	Virginia
+Wa	Washington
+Wv	West Virginia
+Wi	Wisconsin
+Wy	Wyoming
+Whitehall County	Trempealeau County
+Ústí nad Labem	Usti nad Labem

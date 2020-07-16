@@ -12,6 +12,9 @@ location	Pabna
 # Jhenaidha
 location	Shailokupa
 
+# Khulna
+location	Jashore
+
 # Narail
 location	Kalia
 
@@ -166,6 +169,7 @@ location	Hyderabad
 
 # Uttar Pradesh
 location	Noida
+location	Lucknow
 
 # West Bengal
 location	East Medinipur
@@ -665,6 +669,10 @@ location	Büllingen
 ### Czech Republic
 # Plzeň Region
 location	Domažlice
+location	Plzeň
+
+# Usti nad Labem
+location	Všebořice
 
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
@@ -672,6 +680,12 @@ location	Kynice
 
 # South Moravian Region
 location	Brno
+
+# Olomouc Region
+location	Litovel
+
+# Zlin
+location	Fryšták
 
 # Hranice Na Moravě
 location	Prostějov
@@ -1265,6 +1279,9 @@ location	Cucuta
 location	Leticia
 
 ### Ecuador
+# Guayas
+location	Guayaquil
+
 # Los Rios
 location	Babahoyo
 
@@ -1411,7 +1428,6 @@ location	Colorado Springs
 location	Crawford County
 location	Chippewa Falls
 location	Trempealeau County
-location	Whitehall County
 location	La Crosse County
 location	Vernon County
 location	Jackson County
@@ -1508,7 +1524,9 @@ location	Columbus OH
 location	Miami
 
 # South Carolina
-location	Richland County
+location	Fairfield County SC
+location	Richland County SC
+location	Berkeley County
 
 # Pennsylvania
 location	Pittsburgh
@@ -1557,7 +1575,7 @@ location	Port Chester
 location	Greenwich
 location	Riverside
 location	New Fairfield
-location	Fairfield County
+location	Fairfield County CT
 location	Newtown
 location	Fairfield
 location	Trumbull
@@ -1607,6 +1625,7 @@ division	Capital Governorate
 division	Rajshahi
 division	Jhenaidha
 division	Rangpur
+division	Khulna
 division	Narail
 division	Bagherhat
 division	Tangail
@@ -1664,7 +1683,6 @@ division	Madhya Pradesh
 division	India
 division	Telangana
 division	Andhra Pradesh
-division	Lucknow
 division	Uttar Pradesh
 division	Odisha
 division	Bihar
@@ -1989,6 +2007,8 @@ division	Czech Republic
 division	Jihlava
 division	Vysocina Region
 division	South Moravian Region
+division	Olomouc Region
+division	Zlin
 division	Hranice Na Moravě
 
 ### Denmark
@@ -2021,10 +2041,12 @@ division	Grand Est
 ### Germany
 division	North Rhine Westphalia
 division	Frankfurt
+division	Niedersachsen
 division	Baden-Wuerttemberg
 division	Germany
 division	Bavaria
 division	Rostock
+division	Western Pomerania
 division	Berlin
 
 ### Greece
@@ -2346,6 +2368,7 @@ division	Western Cape Province
 division	South Africa
 division	North-West
 division	Eastern Cape
+division	Free State
 division	Gauteng
 division	Limpopo
 division	Mpumalanga
@@ -2438,6 +2461,7 @@ division	Norte de Santander
 division	Departamento de Amazonas
 
 ### Ecuador
+division	Guayas
 division	Los Rios
 division	Chimborazo
 division	Pichincha
