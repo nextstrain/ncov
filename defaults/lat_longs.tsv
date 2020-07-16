@@ -9,6 +9,8 @@ location	Aichi	35.067543	137.334061
 location	Aiseau	50.404827	4.576191
 location	Aisemont	50.404382	4.651832
 location	Al Matariyyah	30.123764	31.317953
+location	Al Amrat	23.5223356	58.5002366
+location	Al Awabi	23.3	57.52
 location	Alameda County	37.6017	-121.7195
 location	Alamedilla	37.5816	-3.2439
 location	Albacete	38.9943	-1.8585
@@ -45,10 +47,12 @@ location	Anserma	5.238746	-75.782888
 location	Antequera	37.017136	-4.561986
 location	Antheit	50.548353	5.240102
 location	Anzegem	50.830817	3.452651
+location	Ar Rustaq	23.3899385	57.4201142
 location	Arbre	50.611772	3.817121
 location	Agargaon	23.7792	90.3737
 location	Arganda del Rey	40.3064	-3.4479
 location	Armenia	4.539019	-75.680551
+location	As Seeb	23.6821956	58.1843842
 location	Asnières-sur-Seine	48.911508	2.284362
 location	Asotin County	46.1460	-117.2085
 location	Asper	50.915644	3.652577
@@ -63,6 +67,7 @@ location	Ayna	40.4637	-3.7492
 location	Babahoyo	-1.802318	-79.524709
 location	Bad Gastein	47.109942	13.127594
 location	Bahia Blanca	-38.7183	-62.2663
+location	Bahla	22.970025	57.2986957
 location	Balazote	38.8849	-2.1523
 location	Balen	51.155143	5.184431
 location	Bangkok	13.803139	100.491612
@@ -70,12 +75,14 @@ location	Baranain	42.804918	-1.682891
 location	Barasoain	42.604612	-1.645399
 location	Barcelona	41.403267	2.151855
 location	Bardoli	21.127394	73.105201
+location	Barka	23.7079666	57.89278
 location	Barrancabermeja	7.067561	-73.848406
 location	Barranquilla	10.987216	-74.805576
 location	Barueri	-23.5114	-46.8729
 location	Bassilly	50.675907	3.933169
 location	Baudour	50.482837	3.838083
 location	Bauffe	50.569209	3.853564
+location	Bawshar	23.56	58.41
 location	Bayad	23.2298	73.2205
 location	Bayside	43.1806	-87.9006
 location	Bazel	51.146864	4.298358
@@ -147,6 +154,7 @@ location	Braine-le-Comte	50.612409	4.149466
 location	Branford	41.286635	-72.801979
 location	Brasilia	-15.814189	-47.875543
 location	Brasschaat	51.308911	4.497508
+location	Breclav	48.7594008	16.8813137
 location	Bree	51.138202	5.631877
 location	Breendonk	51.042441	4.321611
 location	Bressoux	50.639339	5.605728
@@ -173,6 +181,7 @@ location	Budapest	47.482728	19.084269
 location	Buga	3.903723	-76.300764
 location	Buggenhout	51.010966	4.197976
 location	Buissenal	50.663713	3.655885
+location	Buraimi	24.25919	55.783763
 location	Burdinne	50.585698	5.092629
 location	Burhanpur	21.318288	76.220760
 location	Bury	50.541909	3.593710
@@ -466,6 +475,8 @@ location	Ibague	4.438643	-75.190558
 location	Ibarra	0.3478421	-78.1173588
 location	Iberville Parish	30.256342	-91.380864
 location	Ibiza	39.0200	1.4821
+location	Ibra	22.6895878	58.5469793
+location	Ibri	23.2178676	56.4921938
 location	iLembe	-29.240765	31.234110920000003
 location	Illinois	40.088552	-89.301876
 location	Imperial County	32.845969	-115.543429
@@ -617,6 +628,7 @@ location	Mairena Aljarafe	37.347290	-6.052941
 location	Malaga	36.718690	-4.432799
 location	Maldegem	51.197062	3.450921
 location	Malle	51.304141	4.715731
+location	Manah	22.7903348	57.6096159
 location	Manchester	41.7759	-72.5215
 location	Manacor	39.5697	3.2095
 location	Manado	1.487271	124.842838
@@ -695,9 +707,11 @@ location	Muros	42.8074	-9.0461
 location	Muscoda	43.189115	-90.439704
 location	Museros	39.5738	-0.3607
 location	Mutilva	42.789102	-1.616814
+location	Mutrah	23.618733	58.5657654
 location	Naarden	52.2953	5.1604
 location	Naast	50.553695	4.099133
 location	Nadiad	22.6916	72.8634
+location	Nakhal	23.395468	57.8289398
 location	Nanchang	28.707143	115.874137
 location	Nancy	48.6921	6.1844
 location	Nantes	47.203649	-1.552453
@@ -720,6 +734,7 @@ location	Newtown	41.411793	-73.311831
 location	Nieuwendijk	51.7774	4.8743
 location	Nieuwerkerken	50.882291	5.20403
 location	Niteroi	-22.912156	-43.060953
+location	Nizwa	22.9323884	57.5311
 location	Noain	42.758167	-1.632185
 location	Nogent-l'Artaud	48.9651	3.3183
 location	Noia	42.7843	-8.8883
@@ -818,6 +833,7 @@ location	Queimados	-22.720854	-43.583396
 location	Quevaucamps	50.720840	3.289101
 location	Quibdo	5.691789	-76.654649
 location	Quilmes	-34.7206	-58.2546
+location	Qurayyat	23.2610439	58.9202694
 location	Racine	42.721147	-87.800333
 location	Radom	51.397849	21.151218
 location	Rajkot	22.3039	70.8022
@@ -870,6 +886,7 @@ location	Saint-Thibault-des-Vignes	48.862026	2.674513
 location	Saisinne	50.523754	4.035498
 location	Saive	50.652941	5.685550
 location	Samarinda	-0.488935	117.142459
+location	Samail	23.32	57.98
 location	San Carlos de Bariloche	-41.1335	-71.3103
 location	San Clemente	39.4017	-2.4283
 location	San Diego	32.733024	-117.143358
@@ -1329,6 +1346,7 @@ division	Dendermonde	51.032573	4.099329
 division	Denizli	37.7830	29.0963
 division	Denmark	56.2639	9.5018
 division	Departamento de Amazonas	-1.420517	-71.257925
+division	Dhahirah	22.65052325	56.0616295382364
 division	Dhaka	23.789370	90.415192
 division	Diamond Princess	35.046935	139.419325
 division	Diksmuide	51.050218	2.859454
@@ -1659,6 +1677,7 @@ division	North Carolina	35.7596	-79.0193
 division	North District	32.8972	35.3027
 division	North Holland	52.5206	4.7885
 division	North Rhine Westphalia	51.44	7.705
+division	North Sharqiyah	22.157117399999997	58.51833487712584
 division	North Sulawesi	0.950357	124.450132
 division	North-West	-26.524595	25.625515
 division	Northern Ireland	54.60219	-6.687146

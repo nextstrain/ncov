@@ -133,6 +133,22 @@ location	Nadiad
 location	Kapadvanj
 location	Mahemdavad
 location	Manama
+location	Barka
+location	Al Awabi
+location	Nakhal
+location	Ar Rustaq
+location	Ibra
+location	Nizwa
+location	Bahla
+location	Samail
+location	Manah
+location	Bawshar
+location	Al Amrat
+location	Mutrah
+location	As Seeb
+location	Qurayyat
+location	Ibri
+location	Buraimi
 location	Dhanera
 location	Darjeeling
 location	Singapore
@@ -170,6 +186,7 @@ location	Plzeň
 location	Klenčí
 location	Litovel
 location	Brno
+location	Breclav
 location	Plock
 location	Grodzisk Mazowiecki
 location	Olsztyn
@@ -1326,6 +1343,8 @@ division	Nelson Marlborough
 division	Waitemata
 division	United Arab Emirates
 division	Muscat
+division	Dhahirah
+division	North Sharqiyah
 division	North Batinah
 division	South Batinah
 division	Dakhiliyah

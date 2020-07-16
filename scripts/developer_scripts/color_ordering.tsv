@@ -210,6 +210,35 @@ location	Hawali
 # Kathmandu
 location	Kathmandu
 
+### Oman
+# Buraimi
+location	Buraimi
+
+# Dhahirah
+location	Ibri
+
+# South Batinah
+location	Ar Rustaq
+location	Al Awabi
+location	Nakhal
+location	Barka
+
+# Dakhiliyah
+location	Bahla
+location	Nizwa
+location	Manah
+location	Samail
+
+# Muscat
+location	As Seeb
+location	Bawshar
+location	Al Amrat
+location	Mutrah
+location	Qurayyat
+
+# North Sharqiyah
+location	Ibra
+
 ### Pakistan
 # Gilgit Baltistan
 location	Gilgit
@@ -680,6 +709,7 @@ location	Kynice
 
 # South Moravian Region
 location	Brno
+location	Breclav
 
 # Olomouc Region
 location	Litovel
@@ -1791,10 +1821,12 @@ division	Kathmandu
 
 ### Oman
 division	Buraimi
+division	Dhahirah
 division	North Batinah
 division	South Batinah
 division	Dakhiliyah
 division	Muscat
+division	North Sharqiyah
 
 ### Pakistan
 division	Karachi

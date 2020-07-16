@@ -100,3 +100,5 @@ Wi	Wisconsin
 Wy	Wyoming
 Whitehall County	Trempealeau County
 Ústí nad Labem	Usti nad Labem
+Buraymi	Buraimi
+Qurayat	Qurayyat

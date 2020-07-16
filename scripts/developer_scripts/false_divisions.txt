@@ -22,3 +22,4 @@ Jashore	Khulna
 Lucknow	Uttar Pradesh
 Litovel	Olomouc Region
 Guayaquil	Guayas
+Breclav	South Moravian Region
