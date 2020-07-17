@@ -1,33 +1,47 @@
-# Setup  
+# Setup and installation
 
-For this tutorial, there are three components to set up. Depending on what you'd like to do, you may need one, two, or all of these components.  
+The following steps will prepare you to run complete analyses of SARS-CoV-2 data by installing required software and running a simple example workflow.
 
-
-## 1. Make a copy of this tutorial [required for all]  
+## 1. Make a copy of this tutorial
 
 There are two ways to do this:
-* [Recommended] If you're familiar with git, clone this repository either via the web interface, a GUI such as gitkraken, or the command line:  
-```bash  
+
+  * [Recommended] If you're familiar with git, clone this repository either via the web interface, a GUI such as [GitKraken](https://www.gitkraken.com/), or the command line:
+
+```bash
 git clone https://github.com/nextstrain/ncov.git
 ```
 
-* [Alternative] If you're not familiar with git, you can also download a copy of these files via the buttons on the left.
+  * [Alternative] If you're not familiar with git, you can also download a copy of these files via the buttons on the left.
 
+## 2. Setup your Nextstrain environment
 
-## 2. Install augur [required for running analysis]  
+Create a Nextstrain conda environment with augur and auspice installed.
+If you do not have conda installed already, [see our full installation instructions for more details](https://nextstrain.org/docs/getting-started/local-installation).
+If you are running Windows, [see our documentation about setting up the Windows Subsystem for Linux (WSL)](https://nextstrain.org/docs/getting-started/windows-help).
 
-You can find instructions for installing augur [here](https://nextstrain.org/docs/getting-started/introduction).
+```bash
+curl http://data.nextstrain.org/nextstrain.yml --compressed -o nextstrain.yml
+conda env create -f nextstrain.yml
+conda activate nextstrain
+npm install --global auspice
+```
 
-Note there are many options for installing augur, including local installations from `conda`, `pip`, and from source, and container installation - take a minute to look at which may be best for you.
+## 3. Run a basic analysis with example data
 
-If you are running Windows, we recommend working through Windows Subsystem for Linux (WSL) - you can find out how to set this up [here](https://nextstrain.org/docs/getting-started/windows-help).
+Run a basic workflow with example data, to confirm that your Nextstrain environment is properly configured.
 
+```bash
+snakemake --cores 4 --profile ./my_profiles/getting_started
+```
 
-## 3. Install auspice [required only for local visualization; web-based, no-install options available]
+The `getting_started` profile produces a minimal global phylogeny for visualization in auspice.
+This workflow should complete in about 5 minutes on a MacBook Pro (2.7 GHz Intel Core i5) with four cores.
 
-You can find instructions for installing auspice [here](https://nextstrain.github.io/auspice/introduction/install).
+## 4. Visualize the phylogeny for example data
 
----
+Go to [https://auspice.us](https://auspice.us) in your browser.
+Drag and drop the JSON file `auspice/ncov_global.json` anywhere on the [https://auspice.us](https://auspice.us) landing page, to visualize the resulting phylogeny.
 
 ## Advanced reading: considerations for keeping a 'Location Build' up-to-date
 
@@ -61,8 +75,7 @@ For the [`south-usa-sarscov2`](https://github.com/emmahodcroft/south-usa-sarscov
 To run this, one would call the following from within `ncov`:
 
 ```bash
-ncov$ snakemake --cores 1 --profile ../south-usa-sarscov2/profiles/south-central/
+snakemake --cores 1 --profile ../south-usa-sarscov2/profiles/south-central/
 ```
 
-## [Previous Section: Preparing your data](data-prep.md)
-## [Next Section: Orientation: workflow](orientation-workflow.md)
+## [Next Section: Preparing your data](data-prep.md)

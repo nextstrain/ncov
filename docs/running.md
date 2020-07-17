@@ -23,6 +23,7 @@ Let's start with defining a build in `./my_profiles/example/builds.yaml`.
 **We use the `builds.yaml` file to define what geographic areas of the world we want to focus on. Each block in this file will produce a separate output JSON for visualization**.
 
 The first block of the provided `./my_profiles/example/builds.yaml` file looks like this:
+
 ```
 builds:
   # Focus on King County (location) in Washington State (division) in the USA (country)
@@ -38,17 +39,21 @@ builds:
     # list 'up' from here the geographic area that location is in.
     # Here, King County is in Washington state, is in USA, is in North America.
 ```
+
 Looking at this example, we can see that each build has a:
+
 - `build_name`, which is used for naming output files
 - `subsampling_scheme`, which specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes [can be defined](customizing-analysis.md).
 - `region`, `country`, `division`, `location`: specify geographic attributes of the sample used for subsampling
 
 The rest of the builds defined in this file serve as examples for division-, country- or region-focused analyses.
+To adapt this for your own analyses:
 
-**To adapt this for your own analyses, copy `my_profiles/example` to `my_profiles/<my-new-name>` and open the `builds.yaml`
-file in this directory.**
-
-Go ahead and **swap out the values in this file with the geographic area of interest to you.** You can add, disable (comment out), or remove as many of these build definitions as you'd like.
+  1. copy `my_profiles/example` to `my_profiles/<my-new-name>`
+  1. open and modify the `builds.yaml` file in this directory to include your geographic area(s) of interest and remove any builds that are not relevant to your work
+  1. open and modify the `config.yaml` file in this directory such that it references:
+     - the path to your new custom `builds.yaml` instead of the example builds file
+     - the path to your own sequences and metadata instead of the example data
 
 ## Step 3: Run the workflow
 

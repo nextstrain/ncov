@@ -8,9 +8,7 @@ To use Nextstrain to analyze your own data, you'll need to prepare two files:
 1. A `fasta` file with viral genomic sequences
 2. A corresponding `tsv` file with metadata describing each sequence
 
-
 We've created an example dataset in the `data` directory. This consists of a fasta file with viral genomes sourced from Genbank, and a corresponding TSV with metadata describing these sequences.
-
 
 ### Formatting your sequence data
 
@@ -48,7 +46,8 @@ NewZealand/01/2020  ncov   EPI_ISL_413490  ?                   2020-02-27  Ocean
 In total there are 23 columns of metadata for each genome; see the last section of this page for an in-depth walkthrough.
 
 #### Required metadata
-**A valid metadata file must include the following fields:**
+
+A valid metadata file must include the following fields:
 
 | Field | Example value | Description | Formatting |
 |---|---|---|---|
@@ -241,4 +240,5 @@ Date the genome was submitted to a public database (most often GISAID).
 In `YYYY-MM-DD` format (see `date` for more information on this formatting).
 
 
-## [Next Section: Setup and Installation](setup.md)
+## [Previous Section: Setup and installation](setup.md)
+## [Next Section: Orientation: workflow](orientation-workflow.md)

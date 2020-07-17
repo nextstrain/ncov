@@ -15,9 +15,9 @@ If you were running customized builds before this, these changes may cause some 
 
 **We've written a comprehensive guide to get you up and running in <1 hr. Click on the below links to follow it. It covers:**
 
-0. [**Introduction and quickstart**](https://nextstrain.github.io/ncov/index) _(Start here)_
-1. [**Preparing your data**](https://nextstrain.github.io/ncov/data-prep)
-2. [**Setup and installation**](https://nextstrain.github.io/ncov/setup.md)
+0. [**Introduction**](https://nextstrain.github.io/ncov/index) _(Start here)_
+1. [**Setup and installation**](https://nextstrain.github.io/ncov/setup)
+2. [**Preparing your data**](https://nextstrain.github.io/ncov/data-prep)
 3. [**Orientation: analysis workflow**](https://nextstrain.github.io/ncov/orientation-workflow)
 4. [**Orientation: which files should I touch?**](https://nextstrain.github.io/ncov/orientation-files)
 5. [**Running & troubleshooting**](https://nextstrain.github.io/ncov/running)
@@ -26,7 +26,6 @@ If you were running customized builds before this, these changes may cause some 
 8. [**Options for visualizing and sharing results**](https://nextstrain.github.io/ncov/sharing) (including working with sensitive metadata)
 9. [**Interpreting your results**](https://nextstrain.github.io/ncov/interpretation)
 10. [**Writing a narrative to highlight key findings**](https://nextstrain.github.io/ncov/narratives)
-
 
 ### Download formatted datasets
 
