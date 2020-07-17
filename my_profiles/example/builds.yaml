@@ -16,12 +16,12 @@ builds:
   # with a build name that will produce the following URL fragment on Nextstrain/auspice:
   # /ncov/north-america/usa/washington/king-county
   north-america_usa_washington_king-county: # name of the build; this can be anything
-    subsampling_scheme: location # what subsampling method to use (see parameters.yaml)
+    subsampling_scheme: county # use a custom subsampling scheme defined below
     region: North America
     country: USA
     division: Washington
     location: King County
-    # Whatever your lowest geographic area is (here, 'location' since we are doing a county in the USA)
+    # Whatever your finest geographic scale is (here, 'location' since we are doing a county in the USA)
     # list 'up' from here the geographic area that location is in.
     # Here, King County is in Washington state, is in USA, is in North America.
 
@@ -29,7 +29,7 @@ builds:
   # with a build name that will produce the following URL fragment on Nextstrain/auspice:
   # /ncov/north-america/usa/washington
   north-america_usa_washington:
-    subsampling_scheme: division # we named the subsampling scheme meant for divisions accordingly; you can rename these whatever you'd like
+    subsampling_scheme: division # use a default subsampling scheme defined in defaults/parameters.yaml
     region: North America
     country: USA
     division: Washington
@@ -57,6 +57,32 @@ builds:
   global:
     subsampling_scheme: region_global
     region: global
+
+# Define custom subsampling logic for county-level builds.
+subsampling:
+  county:
+    # Focal samples for location
+    focal:
+      group_by: "year month"
+      seq_per_group: 300
+      # Use augur filter's query argument to filter strains with pandas-style logic expressions.
+      # This can be easier to read than the corresponding filter by exclusion.
+      query: --query "(country == '{country}') & (division == '{division}') & (location == '{location}')"
+
+    # Samples that are genetically related to the focal samples
+    related:
+      group_by: "country year month"
+      seq_per_group: 20
+      exclude: "--exclude-where 'location={location}'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    # Contextual samples from the rest of the world
+    contextual:
+      group_by: "country year month"
+      seq_per_group: 10
+      exclude: "--exclude-where 'location={location}'"
 
 # Here, you can specify what type of auspice_config you want to use
 # and what description you want. These will apply to all the above builds.

@@ -113,9 +113,22 @@ lac-leman:
 
 All entries above canton level (the 'contextual' samples) specify priorities.
 Currently, we have only implemented one type of priority called `proximity`.
-It attempts to selected sequences as close as possible to the focal samples
-specified as `focus: division`.
+It attempts to selected sequences as close as possible to the focal samples specified as `focus: division`.
 The argument of the latter has to match the name of one of the other subsamples.
+
+In addition to the `exclude` filter, you can also specify strains to keep by providing a `query`.
+The `query` field uses augur filter's `--query` argument (introduced in version 8.0.0) and supports [pandas-style logical operators](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#indexing-query).
+For example, the following exclusionary filter,
+
+```yaml
+exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
+```
+
+can also be written as an inclusionary filter like so:
+
+```yaml
+query: --query "(region == {region}) & (country == {country}) & (division == '{division}')"
+```
 
 If you need parameters in a way that isn't represented by the configuration file, [create a new issue in the ncov repository](https://github.com/nextstrain/ncov/issues/new) to let us know.
 

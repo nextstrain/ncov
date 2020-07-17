@@ -345,6 +345,7 @@ rule subsample:
         sequences_per_group = _get_specific_subsampling_setting("seq_per_group"),
         exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
         include_argument = _get_specific_subsampling_setting("include", optional=True),
+        query_argument = _get_specific_subsampling_setting("query", optional=True),
         priority_argument = get_priority_argument
     conda: config["conda_environment"]
     shell:
@@ -355,6 +356,7 @@ rule subsample:
             --include {input.include} \
             {params.exclude_argument} \
             {params.include_argument} \
+            {params.query_argument} \
             {params.priority_argument} \
             --group-by {params.group_by} \
             --sequences-per-group {params.sequences_per_group} \
