@@ -893,6 +893,40 @@ location	Grodzisk Mazowiecki
 location	Warszawa
 location	Radom
 
+### Portugal
+# Lisbon
+location	Cova da Moura
+location	Algueirão-Mem Martins
+location	Rio de Mouro
+location	Cacem
+location	Agualva
+location	Massama
+location	Almargem do Bispo
+location	Monte Abrão
+location	Casal de Cambra
+location	Reboleira
+location	Amadora
+location	Damaia de Cima
+location	Encosta de Sol
+location	Buraca
+location	Pontinha
+location	Ramada
+location	São Domingos da Benfica
+location	Corroios
+location	Aguas livres
+location	Sacavem
+location	Santa Maria dos Olivais
+location	Seia
+
+# Santarem
+location	Santarem
+
+# Coimbra
+location	Penacova
+
+# Beja
+location	Santa Clara de Louredo
+
 ### Romania
 # Vrancea
 location	Focsani
@@ -1334,15 +1368,28 @@ location	Ibarra
 location	Toronto
 
 ### Costa Rica
+# Guanacaste
+location	Nicoya
+
 # Alajuela
 location	Orotina
+location	Grecia
 location	San Rafael de Alajuela
+location	Alajuela
 
 # Heredia
 location	San Rafael Heredia
 
 # San Jose
+location	Santa Ana
+location	Escazu
+location	San Jose
+location	Aserri
 location	Tibas
+location	Tarrazu
+location	Desamparados
+location	Curridabat
+location	Perez Zeledon
 
 # Cartago CR
 location	La Union
@@ -1355,7 +1402,11 @@ location	Anchorage
 location	Fairbanks
 location	Southeast Alaska
 
+# Grand Princess 2nd cruise
+location	Grand Princess Cruise Ship
+
 # Grand Princess
+location	Grand Princess Cruise Ship
 location	Sonoma County
 
 # Oregon
@@ -1412,6 +1463,7 @@ location	San Diego County
 location	Imperial County
 
 # Arizona
+location	Maricopa County
 location	Phoenix
 
 # Colorado
@@ -1433,7 +1485,7 @@ location	Houston County
 location	Buchanan County
 location	Winneshiek County
 location	Allamakee County
-location	Jackson County
+location	Jackson County IA
 
 # Louisiana
 location	Caddo Parish
@@ -1465,7 +1517,7 @@ location	Chippewa Falls
 location	Trempealeau County
 location	La Crosse County
 location	Vernon County
-location	Jackson County
+location	Jackson County WI
 location	Grant County WI
 location	Monroe County
 location	Tomah
@@ -1475,6 +1527,7 @@ location	Lafayette County
 location	Hillpoint
 location	Juneau County
 location	Spring Green
+location	Sauk County
 location	Blanchardville
 location	Adams County WI
 location	Mount Horeb
@@ -1848,6 +1901,7 @@ division	Islamabad
 division	Gilgit Baltistan
 
 ### Philippines
+division	National Capital Region
 division	Manila
 division	Philippines
 
@@ -2192,7 +2246,10 @@ division	Mazowieckie
 
 ### Portugal
 division	Lisbon
+division	Santarem
+division	Coimbra
 division	Portugal
+division	Beja
 
 ### Romania
 division	Vrancea
@@ -2396,6 +2453,7 @@ division	Oyo State
 division	Kwara State
 division	Osun State
 division	Ondo State
+division	Ekiti State
 division	Nigeria
 
 ### Senegal
@@ -2512,6 +2570,7 @@ division	Quito
 division	Imbabura
 
 ### Peru
+division	Lambayeque
 division	Lima
 division	Huanuco
 division	Ica
@@ -2539,6 +2598,7 @@ division	Nova Scotia
 division	Newfoundland and Labrador
 
 ### Costa Rica
+division	Guanacaste
 division	Alajuela
 division	Heredia
 division	San Jose

@@ -114,3 +114,4 @@ União das freguesias de Queluz	Queluz
 União das freguesias de Ramada	Ramada
 União das freguesias de Santarem	Santarem
 União das freguesias de Seia	Seia
+Ncr	National Capital Region
