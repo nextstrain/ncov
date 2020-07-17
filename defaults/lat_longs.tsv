@@ -6,6 +6,8 @@ location	Accra	5.591875	-0.184552
 location	Adams County WA	46.985877	-118.480355
 location	Adams County WI	43.973540	-89.755486
 location	Agargaon	23.7792	90.3737
+location	Agualva	38.7712545	-9.291961378935335
+location	Aguas livres	38.7077507	-9.1365919
 location	Ahmedabad	23.024605	72.570805
 location	Aichi	35.067543	137.334061
 location	Aiseau	50.404827	4.576191
@@ -28,14 +30,17 @@ location	Alcobendas	40.527225	-3.637649
 location	Alcudia	39.8533	3.1240
 location	Aldrans	47.250725	11.445815
 location	Algeciras	36.138633	-5.455967
+location	Algueirão-Mem Martins	38.7999099	-9.3397834
 location	Alhaurin de la Torre	36.657013	-4.560975
 location	Alken	50.877283	5.289834
 location	Allamakee County	43.286290	-91.352362
 location	Almansa	38.8703	-1.0993
+location	Almargem do Bispo	38.8491202	-9.264334778649605
 location	Almassera	39.5105	-0.3572
 location	Almenara	-16.1797	-40.6953
 location	Almeria	36.844270	-2.450766
 location	Altenhof Am Hausruck	48.134291	13.686464
+location	Amadora	38.7595162	-9.223677009460125
 location	Amajuba	-27.7351566	29.961884968271626
 location	Ambite	40.3284	-3.1824
 location	Ames	42.9038	-8.6584
@@ -182,12 +187,14 @@ location	Budapest	47.482728	19.084269
 location	Buga	3.903723	-76.300764
 location	Buggenhout	51.010966	4.197976
 location	Buissenal	50.663713	3.655885
+location	Buraca	38.7437889	-9.2082841
 location	Buraimi	24.25919	55.783763
 location	Burdinne	50.585698	5.092629
 location	Burhanpur	21.318288	76.220760
 location	Bury	50.541909	3.593710
 location	Buzet	50.419853	4.773861
 location	Büllingen	50.395004	6.308021
+location	Cacem	38.7704429	-9.30908972918529
 location	Caddo Parish	32.618244	-93.832261
 location	Cadiz	36.524659	-6.285386
 location	Caieiras	-23.375719	-46.723472
@@ -204,6 +211,7 @@ location	Cape Town Metro	-33.970973	18.510306
 location	Cardiff	51.476291	-3.178964
 location	Carentan	49.302133	-1.250938
 location	Cartagena	10.400866	-75.503036
+location	Casal de Cambra	38.8005207	-9.2307698
 location	Casteau	50.515333	4.013682
 location	Castril	37.7957	-2.7802
 location	Cayambe	-0.0038813	-78.04818008344479
@@ -257,12 +265,14 @@ location	Cook County	41.8197385	-87.756525
 location	Copiapo	-27.372842	-70.320323
 location	Cordoba	37.8882	-4.7794
 location	Cork	51.899	-8.460
+location	Corrois	38.6415327	-9.1522335
 location	Cortijos Nuevos	38.2471	-2.7259
 location	Cottage Grove	43.090480	-89.205111
 location	Couillet	50.391184	4.459113
 location	Courcelles	50.469378	4.34449
 location	Couthuin	50.5315	5.1225
 location	Couvin	50.035063	4.485139
+location	Cova da Moura	38.9114419	-9.428262
 location	Cowlitz County	46.186419	-122.679487
 location	Crawford County	42.0347	-95.3103
 location	Cross Plains	43.115305	-89.646827
@@ -277,6 +287,7 @@ location	Dahegam	23.1637	72.8102
 location	Dahod	22.836899	74.251376
 location	Dalen	52.6994	6.7568
 location	Dalhem	50.71948	5.758129
+location	Damaia de Cima	38.7469973	-9.2202393
 location	Dane County	43.0186	-89.5498
 location	Darjeeling	27.028909	88.260898
 location	Dasman	29.386491	47.999895
@@ -327,6 +338,7 @@ location	Elda	38.4765	-0.7966
 location	Ellezelles	50.7338	3.6799
 location	Elm Grove	43.047975	-88.086157
 location	Elmendorf AFB	61.252028	-149.812043
+location	Encosta de Sol	38.7673226	-9.2101078
 location	Enghien	50.690407	4.036980
 location	England	52.405994	-1.671707
 location	Envigado	6.168786	-75.583389
@@ -651,6 +663,7 @@ location	Marion County	44.924528	-122.798248
 location	Marratxí	39.6272	2.7572
 location	Marshall	43.167355	-89.066568
 location	Mason County	47.4251	-123.1951
+location	Massama	38.75563785	-9.28189049097309
 location	Mat-Su	61.382704	-150.251175
 location	Matrei am Brenner	47.128405	11.452845
 location	Maua	-23.664006	-46.442663
@@ -676,6 +689,7 @@ location	Middleton	43.105596	-89.509368
 location	Milan	45.474	9.177
 location	Milford	41.2307	-73.0640
 location	Milwaukee County	43.008019	-87.937899
+location	Mina da Agua	38.7595162	-9.223677009460125
 location	Mingogil	38.4609	-1.7411
 location	Miramar	25.9861	-80.3036
 location	Mirpur	23.8223	90.3654
@@ -688,6 +702,7 @@ location	Molenstede	50.999889	5.012097
 location	Monceau-sur-Sambre	50.416209	4.376445
 location	Monona	43.056000	-89.330773
 location	Monroe County	43.940837	-90.605424
+location	Monte Abrão	38.7604252	-9.2559895
 location	Monterey County CA	36.176354	-121.254507
 location	Monteria	8.747483	-75.880941
 location	Montgomery County NY	42.8941269	-74.4099745
@@ -800,6 +815,7 @@ location	Parla	40.2373	-3.7740
 location	Passaic County	40.955105	-74.229353
 location	Peer	51.128120	5.458372
 location	Pelt	51.210014	5.420519
+location	Penacova	40.2702086	-8.2810743
 location	Peralta	42.337833	-1.799176
 location	Pereira	4.804771	-75.717885
 location	Perth	-31.942741	115.841171
@@ -814,6 +830,7 @@ location	Plock	52.520284	19.690317
 location	Ploegsteert	50.725900	2.880261
 location	Ploudalmezeau	48.5415	-4.6578
 location	Plzeň	49.7477415	13.3775249
+location	Pontinha	38.7622108	-9.1968418
 location	Pontoise	49.049228	2.098595
 location	Popayan	2.458755	-76.606118
 location	Poperinge	50.854747	2.692635
@@ -837,6 +854,7 @@ location	Qingdao	36.171557	120.398496
 location	Quaregnon	50.437973	3.859235
 location	Queens	40.717328	-73.795709
 location	Queimados	-22.720854	-43.583396
+location	Queluz	38.7604252	-9.2559895
 location	Quevaucamps	50.720840	3.289101
 location	Quibdo	5.691789	-76.654649
 location	Quilmes	-34.7206	-58.2546
@@ -845,12 +863,14 @@ location	Quévy	50.369910	3.951226
 location	Racine	42.721147	-87.800333
 location	Radom	51.397849	21.151218
 location	Rajkot	22.3039	70.8022
+location	Ramada	38.80800875	-9.196383669904645
 location	Ramsau im Zillertal	47.203746	11.876947
 location	Ramsel	51.031568	4.832886
 location	Ransart	50.461008	4.476094
 location	Rapides Parish	31.204868	-92.527191
 location	Ravels	51.416526	5.022319
 location	Rebecq	50.670468	4.133291
+location	Reboleira	38.7523013	-9.2240282
 location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
 location	Retie	51.268101	5.078413
@@ -866,6 +886,7 @@ location	Rincon de la Victoria	36.717712	-4.278570
 location	Rio Claro	-22.418843	-47.567420
 location	Rio San Pedro	36.5235	-6.2259
 location	Rio de Janeiro	-22.89445	-43.2099
+location	Rio de Mouro	38.7723602	-9.3256835
 location	Riobamba	-1.6731483	-78.6486465
 location	Riopar	38.4982	-2.4172
 location	Rivas-Vaciamadrid	40.3519	-3.5357
@@ -884,6 +905,7 @@ location	Roucourt	50.528622	3.586797
 location	Rouen	49.4432	1.1000
 location	Rovaniemi	66.501553	25.728919
 location	Sabaneta	6.151838	-75.616992
+location	Sacavem	38.794386700000004	-9.108563857720288
 location	Sacramento County	38.494406	-121.301826
 location	Sador	22.693161	89.775469
 location	Sagunt	39.6801	-0.2784
@@ -910,12 +932,15 @@ location	San Rafael de Alajuela	9.964081	-84.223595
 location	San Roque	36.210735	-5.386139
 location	Sangalkam	14.779304	-17.228261
 location	Santa Clara County	37.236094	-121.683399
+location	Santa Clara de Louredo	37.9701683	-7.8720098
 location	Santa Comba	43.0336	-8.8047
 location	Santa Fe	37.1879	-3.7202
 location	Santa Maria del Camino	39.6705	2.7680
+location	Santa Maria dos Olivais	39.60115745	-8.384718083003463
 location	Santa Marta	11.234638	-74.192698
 location	Santa Sofia	5.714409	-73.602111
 location	Santana	6.057578	-73.479309
+location	Santarem	39.2363637	-8.6867081
 location	Santiago	-33.464455	-70.651851
 location	Santiago de Compostela	42.8782	8.5448
 location	Sao Bernardo do Campo	-23.735551	-46.563349
@@ -930,6 +955,7 @@ location	Schoten	51.2498	4.4977
 location	Seattle	47.748301	-121.850150
 location	Seefeld in Tirol	47.329203	11.188798
 location	Segorbe	39.8492	-0.4904
+location	Seia	40.382903299999995	-7.691353727409561
 location	Seine-Port	48.551795	2.551916
 location	Seneffe	50.549618	4.268821
 location	Seoul	37.548278	126.990916
@@ -994,6 +1020,7 @@ location	Sunshine Coast	-26.6500	153.0667
 location	Surat	21.166995	72.824307
 location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
+location	São Domingos da Benfica	38.738026950000005	-9.195298604626885
 location	São Paulo	-23.551096	-46.634874
 location	Tafalla	42.522804	-1.675960
 location	Taipei	25.043279	121.565717
@@ -1170,6 +1197,7 @@ location	iLembe	-29.240765	31.234110920000003
 location	uMgungundlovu	-29.52982	30.057047991912206
 location	uThukela	-28.7446904	30.2224445
 location	Écaussinnes	50.561198	4.181268
+ocation	Écaussinnes	50.561198	4.181268
 
 
 
@@ -1243,6 +1271,7 @@ division	Bat Yam	32.0132	34.7480
 division	Bavaria	48.1382614	11.5845093
 division	Bay of Plenty	-38.216044	176.783577
 division	Beijing	40.07132	116.406908
+division	Beja	38.0153	-7.8627
 division	Beirut	33.8938	35.5018
 division	Beit Shemesh	31.7470	34.9881
 division	Békés County	46.741797	21.031653
@@ -1328,6 +1357,7 @@ division	Chubu	35.183334	136.899994
 division	Chungcheongnam	36.685948	126.799198
 division	Chushikoku	34.237636	133.058999
 division	Ciudad Autonoma de Buenos Aires	-34.6037	-58.3816
+division	Coimbra	40.2033	-8.4103
 division	Colombia	2.893108	-73.7845142
 division	Colorado	39.5501	-105.7821
 division	Combined Wellington	-41.203882	174.849953
@@ -1429,6 +1459,7 @@ division	Guadalajara	20.676026	-103.332671
 division	Guam	13.464887	144.792016
 division	Guangdong	23.615762	114.483257
 division	Guangxi	23.717754	108.701872
+division	Guardav	40.5308	-7.2221
 division	Guayas	-1.9575	-79.9193
 division	Guerrero	17.463444	-99.792052
 division	Gujarat	22.2587	71.1924
@@ -1815,6 +1846,7 @@ division	San Jose	9.9281	-84.0907
 division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
 division	Santander	6.746570	-73.476456
+division	Santarem	39.2849	-8.7041
 division	Santiago	-33.383304	-70.530623
 division	São Paulo	-23.59806	-46.660537
 division	Sarajevo	43.8563	18.4131
@@ -1831,6 +1863,7 @@ division	Senegal	14.5	-14.25
 division	Seoul	37.548278	126.990916
 division	Serbia	43.745902	20.848918
 division	Sergipe	-10.5741	-37.3857
+division	Setúbal	38.5260	-8.8909
 division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
 division	Shoam	31.9958	34.9488

@@ -102,3 +102,15 @@ Whitehall County	Trempealeau County
 Ústí nad Labem	Usti nad Labem
 Buraymi	Buraimi
 Qurayat	Qurayyat
+Falagueria- Venda Nova	Amadora
+Agualva cacem	Agualva
+União das freguesias de Agualva	Agualva
+União das freguesias de Almargem do Bispo	Almargem do Bispo
+União das freguesias de Cacem	Cacem
+União das freguesias de Igreja	Igreja
+União das freguesias de Massama	Massama
+União das freguesias de Pontinha	Pontinha
+União das freguesias de Queluz	Queluz
+União das freguesias de Ramada	Ramada
+União das freguesias de Santarem	Santarem
+União das freguesias de Seia	Seia

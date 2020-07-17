@@ -724,6 +724,33 @@ location	Cordoba
 location	Granada
 location	La Estrada
 location	Las Palmas
+location	Agualva
+location	Aguas livres
+location	Algueirão-Mem Martins
+location	Almargem do Bispo
+location	Amadora
+location	Buraca
+location	Cacem
+location	Casal de Cambra
+location	Corrois
+location	Cova da Moura
+location	Damaia de Cima
+location	Encosta de Sol
+location	Massama
+location	Mina da Agua
+location	Monte Abrão
+location	Penacova
+location	Pontinha
+location	Queluz
+location	Ramada
+location	Reboleira
+location	Rio de Mouro
+location	Sacavem
+location	Santa Clara de Louredo
+location	Santa Maria dos Olivais
+location	Santarem
+location	Seia
+location	São Domingos da Benfica
 location	Lalin
 location	Leganés
 location	Negreira
@@ -897,6 +924,7 @@ location	Holy Cross
 location	Hillpoint
 location	Richland Center
 location	Oregon WI
+location	Sauk County
 location	Cottage Grove
 location	Cross Plains
 location	Deforest
@@ -973,6 +1001,7 @@ location	Columbia County WI
 location	Clark County
 location	Umatilla County
 location	Phoenix
+location	Maricopa County
 location	Denver County
 location	Chicago
 location	Winnebago County IL
@@ -1728,6 +1757,12 @@ division	Grand Canary Islands
 division	Canary Islands
 division	La Rioja
 division	Lisbon
+division	Setúbal
+division	Coimbra
+division	Coimbra
+division	Beja
+division	Guarda
+division	Santarem
 division	Croatia
 division	United Kingdom
 division	Northern Ireland
