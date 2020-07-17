@@ -497,7 +497,8 @@ def check_duplicate(data):
             else:
                 s = ", ".join([division + " (" + country + ")" for (division, country, region) in location_to_division[location]])
 
-            if location.find("Cruise"):
+
+            if "Cruise" in location:
                 cruise_ship_duplicates = cruise_ship_duplicates + 1
             else:
                 print("New duplicate location detected: " + bold(location + " (in both " + s + ")"))
@@ -509,7 +510,7 @@ def check_duplicate(data):
                     if not any(x in division for x in cruise_abbrev):
                         print("Attention: Missing abbreviation for " + bold(division) + " (Suggestion: add to abbreviations.txt)")
                     else:
-                        cruis_ship_abbrev = cruis_ship_abbrev + 1 
+                        cruis_ship_abbrev = cruis_ship_abbrev + 1
                         
 
     if cruise_ship_duplicates: print("("+str(cruise_ship_duplicates)+" cruise ship entries ignored for duplicate locations)")
@@ -540,14 +541,16 @@ def check_for_missing(data):
                 if division not in ordering["division"] or division not in lat_longs["division"]:
                     s = bold(division)
                     name0 = check_similar(ordering["division"], division)
-                    if name0 != "":
-                        s += " (similar name: " + name0 + " - consider adding to variants.txt)"
                     if division not in ordering["division"] and division in lat_longs["division"]:
-                        s = s + " (only missing in ordering)"
-                    if division in ordering["division"] and division not in lat_longs["division"]:
-                        s = s + " (only missing in lat_longs)"
-                    if division in ordering["location"] or division in lat_longs["location"]:
-                        s = s + " (present as location)"
+                        s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
+                        data_clean[region][country][division] = []
+                    else: #only check for additional hints like "similar name" or "present as location" if not auto-added to color_ordering
+                        if name0 != "":
+                            s += " (similar name: " + name0 + " - consider adding to variants.txt)"
+                        if division in ordering["division"] and division not in lat_longs["division"]:
+                            s = s + " (only missing in lat_longs)"
+                        if division in ordering["location"] or division in lat_longs["location"]:
+                            s = s + " (present as location)"
                     if country not in missing["division"]:
                         missing["division"][country] = []
                         clean_missing["division"][country] = []
@@ -567,14 +570,20 @@ def check_for_missing(data):
                     if location not in ordering["location"] or location not in lat_longs["location"]:
                         s = bold(location)
                         name0 = check_similar(ordering["location"], location)
-                        if name0 != "":
-                            s += " (similar name: " + name0 + " - consider adding to variants.txt)"
                         if location not in ordering["location"] and location in lat_longs["location"]:
-                            s = s + " (only missing in ordering)"
-                        if location in ordering["location"] and location not in lat_longs["location"]:
-                            s = s + " (only missing in lat_longs)"
-                        if location in ordering["division"] or location in lat_longs["division"]:
-                            s = s + " (present as division)"
+                            s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
+                            if division not in data_clean[region][country]:
+                                if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
+                                    print("Conflict: location " + location + " should be added to color_ordering.tsv, but division " + division + " is missing from dataset")
+                            else:
+                                data_clean[region][country][division].append(location)
+                        else: #only check for additional hints like "similar name" or "present as division" if not auto-added to color_ordering
+                            if name0 != "":
+                                s += " (similar name: " + name0 + " - consider adding to variants.txt)"
+                            if location in ordering["location"] and location not in lat_longs["location"]:
+                                s = s + " (only missing in lat_longs)"
+                            if location in ordering["division"] or location in lat_longs["division"]:
+                                s = s + " (present as division)"
 
                         if country not in missing["location"]:
                             missing["location"][country] = {}
@@ -592,7 +601,10 @@ def check_for_missing(data):
                             print("Cruise-associated location ignored ("+location+")")
 
                     else:
-                        if division in ordering["division"] and division in lat_longs["division"]:
+                        if division not in data_clean[region][country]:
+                            if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
+                                print("Conflict: location " + location + " should be added to color_ordering.tsv, but division " + division + " is missing from dataset")
+                        else:
                             data_clean[region][country][division].append(location)
 
     if missing['location']:
