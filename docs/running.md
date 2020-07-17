@@ -51,7 +51,9 @@ To adapt this for your own analyses:
 
   1. copy `my_profiles/example` to `my_profiles/<my-new-name>`
   1. open and modify the `builds.yaml` file in this directory to include your geographic area(s) of interest and remove any builds that are not relevant to your work
-  1. open and modify the `config.yaml` file in this directory such that it references the path to your new custom `builds.yaml` instead of the example builds file
+  1. open and modify the `config.yaml` file in this directory such that it references:
+    - the path to your new custom `builds.yaml` instead of the example builds file
+    - the path to your own sequences and metadata instead of the example data
 
 ## Step 3: Run the workflow
 
