@@ -936,6 +936,8 @@ location	Columbus OH
 location	Columbus WI
 location	Cincinnati
 location	Miami
+location	Miami-Dade County
+location	Palm Beach County
 location	Ketchikan
 location	Fairbanks
 location	Mat-Su
@@ -971,8 +973,11 @@ location	Columbia County WI
 location	Clark County
 location	Umatilla County
 location	Phoenix
+location	Denver County
 location	Chicago
 location	Winnebago County IL
+location	Dupage County
+location	Kane County
 location	Illinois
 location	Indianapolis
 location	Wisconsin
@@ -980,6 +985,8 @@ location	Manitowoc County
 location	Brown County WI
 location	Dane County
 location	Boston
+location	Norfolk County
+location	Middlesex County
 location	Houston
 location	Greater Houston Area
 location	Orange County NY
@@ -1034,6 +1041,7 @@ location	Whitehall County
 location	Florida
 location	Miramar
 location	Wabasha County
+location	Stearns County
 location	Adams County WA
 location	Adams County WI
 location	New Orleans
@@ -1075,6 +1083,7 @@ location	Dodge County
 location	Sheboygan County
 location	Outagamie County
 location	Door County
+location	Waupaca County
 location	Racine
 location	Cudahy
 location	Mequon
@@ -1900,6 +1909,7 @@ division	Guayas
 division	Pichincha
 division	Peru
 division	Huanuco
+division	Arequipa
 division	Ica
 division	Lima
 division	Montevideo
