@@ -62,6 +62,7 @@ location	Hanoi
 location	Bangkok
 location	Hyderabad
 location	Noida
+location	Lucknow
 location	Ahmedabad
 location	Uttara
 location	Gulshan
@@ -71,6 +72,7 @@ location	Moulvibazar
 location	Habiganj
 location	Brahmanbaria
 location	Pabna
+location	Jashore
 location	Chandpur
 location	Kalia
 location	Kodomtoly
@@ -131,6 +133,22 @@ location	Nadiad
 location	Kapadvanj
 location	Mahemdavad
 location	Manama
+location	Barka
+location	Al Awabi
+location	Nakhal
+location	Ar Rustaq
+location	Ibra
+location	Nizwa
+location	Bahla
+location	Samail
+location	Manah
+location	Bawshar
+location	Al Amrat
+location	Mutrah
+location	As Seeb
+location	Qurayyat
+location	Ibri
+location	Buraimi
 location	Dhanera
 location	Darjeeling
 location	Singapore
@@ -161,6 +179,14 @@ location	Ulan-Ude
 location	Kipen
 location	Kraków
 location	Prostějov
+location	Domažlice
+location	Všebořice
+location	Fryšták
+location	Plzeň
+location	Klenčí
+location	Litovel
+location	Brno
+location	Breclav
 location	Plock
 location	Grodzisk Mazowiecki
 location	Olsztyn
@@ -698,6 +724,33 @@ location	Cordoba
 location	Granada
 location	La Estrada
 location	Las Palmas
+location	Agualva
+location	Aguas livres
+location	Algueirão-Mem Martins
+location	Almargem do Bispo
+location	Amadora
+location	Buraca
+location	Cacem
+location	Casal de Cambra
+location	Corrois
+location	Cova da Moura
+location	Damaia de Cima
+location	Encosta de Sol
+location	Massama
+location	Mina da Agua
+location	Monte Abrão
+location	Penacova
+location	Pontinha
+location	Queluz
+location	Ramada
+location	Reboleira
+location	Rio de Mouro
+location	Sacavem
+location	Santa Clara de Louredo
+location	Santa Maria dos Olivais
+location	Santarem
+location	Seia
+location	São Domingos da Benfica
 location	Lalin
 location	Leganés
 location	Negreira
@@ -827,6 +880,7 @@ location	Mogi Das Cruzes
 location	San Carlos de Bariloche
 location	Quilmes
 location	Babahoyo
+location	Guayaquil
 location	Cayambe
 location	Riobamba
 location	Ibarra
@@ -870,6 +924,7 @@ location	Holy Cross
 location	Hillpoint
 location	Richland Center
 location	Oregon WI
+location	Sauk County
 location	Cottage Grove
 location	Cross Plains
 location	Deforest
@@ -909,6 +964,8 @@ location	Columbus OH
 location	Columbus WI
 location	Cincinnati
 location	Miami
+location	Miami-Dade County
+location	Palm Beach County
 location	Ketchikan
 location	Fairbanks
 location	Mat-Su
@@ -944,8 +1001,12 @@ location	Columbia County WI
 location	Clark County
 location	Umatilla County
 location	Phoenix
+location	Maricopa County
+location	Denver County
 location	Chicago
 location	Winnebago County IL
+location	Dupage County
+location	Kane County
 location	Illinois
 location	Indianapolis
 location	Wisconsin
@@ -953,6 +1014,8 @@ location	Manitowoc County
 location	Brown County WI
 location	Dane County
 location	Boston
+location	Norfolk County
+location	Middlesex County
 location	Houston
 location	Greater Houston Area
 location	Orange County NY
@@ -985,7 +1048,7 @@ location	Columbia County OR
 location	Albany County
 location	Putnam County
 location	New York City
-location	Fairfield County
+location	Fairfield County CT
 location	Bergen County
 location	Clinton County
 location	Broome County
@@ -999,12 +1062,15 @@ location	Dutchess County
 location	Passaic County
 location	Monroe County
 location	Winona County
+location	Houston County
 location	Allamakee County
 location	Winneshiek County
 location	Jackson County
+location	Whitehall County
 location	Florida
 location	Miramar
 location	Wabasha County
+location	Stearns County
 location	Adams County WA
 location	Adams County WI
 location	New Orleans
@@ -1046,6 +1112,7 @@ location	Dodge County
 location	Sheboygan County
 location	Outagamie County
 location	Door County
+location	Waupaca County
 location	Racine
 location	Cudahy
 location	Mequon
@@ -1113,13 +1180,24 @@ location	Columbia County
 location	Marion County
 location	Multnomah County
 location	Wasco County
-location	Richland County
+location	Fairfield County SC
+location	Berkeley County
+location	Richland County SC
 location	Accra
 location	Cape Town Metro
+location	eThekwini
+location	iLembe
+location	Zululand
+location	uMgungundlovu
+location	uThukela
+location	Ugu
+location	Amajuba
 location	Montérégie
 location	Lanaudière
 location	Al Matariyyah
 location	Kfar Saba
+
+
 
 
 division	Mongolia
@@ -1147,6 +1225,7 @@ division	Samut Prakarn
 division	Pathum Thani
 division	Nakhonnayok
 division	Trang
+division	Samut Songkhram
 division	New Taipei City
 division	Philippines
 division	Manila
@@ -1178,6 +1257,8 @@ division	Seoul
 division	South Korea
 division	Chattogram
 division	Sylhet
+division	Khulna
+division	Barishal
 division	Nepal
 division	Kathmandu
 division	Sri Lanka
@@ -1202,6 +1283,7 @@ division	Karnataka
 division	North Sulawesi
 division	East Kalimantan
 division	Gujarat
+division	Lucknow
 division	Rajasthan
 division	Kerala
 division	West Bengal
@@ -1299,6 +1381,8 @@ division	Nelson Marlborough
 division	Waitemata
 division	United Arab Emirates
 division	Muscat
+division	Dhahirah
+division	North Sharqiyah
 division	North Batinah
 division	South Batinah
 division	Dakhiliyah
@@ -1484,6 +1568,10 @@ division	Prague
 division	Melnik
 division	Litomerice-Brnay
 division	Vysocina Region
+division	Plzeň Region
+division	South Moravian Region
+division	Zlin
+division	Olomouc Region
 division	Martin
 division	Copenhagen
 division	Ile de France
@@ -1582,6 +1670,8 @@ division	Saint-Saulve
 division	Switzerland
 division	Lucerne
 division	Bavaria
+division	Niedersachsen
+division	Western Pomerania
 division	Duesseldorf
 division	Baden-Wuerttemberg
 division	Munich
@@ -1667,6 +1757,12 @@ division	Grand Canary Islands
 division	Canary Islands
 division	La Rioja
 division	Lisbon
+division	Setúbal
+division	Coimbra
+division	Coimbra
+division	Beja
+division	Guarda
+division	Santarem
 division	Croatia
 division	United Kingdom
 division	Northern Ireland
@@ -1721,6 +1817,7 @@ division	Kwara State
 division	Ogun State
 division	Osun State
 division	Oyo State
+division	Ekiti State
 division	Ghana
 division	Senegal
 division	Gambia
@@ -1740,8 +1837,11 @@ division	Kenya
 division	Democratic Republic of the Congo
 division	Haut-Katanga
 division	Kinshasa
+division	Kongo Central
 division	Sud Kivu
 division	South Africa
+division	Western Cape
+division	Free State
 division	Eastern Cape
 division	KwaZulu-Natal
 division	North-West
@@ -1757,6 +1857,8 @@ division	Dakar
 division	Kolda
 division	St-Louis
 division	Thies
+division	Mopti
+division	Bamako
 division	Blida
 division	Boufarik
 division	Chile
@@ -1841,6 +1943,9 @@ division	Imbabura
 division	Guayas
 division	Pichincha
 division	Peru
+division	Huanuco
+division	Arequipa
+division	Ica
 division	Lima
 division	Montevideo
 division	Panama City
@@ -2004,6 +2109,7 @@ country	Nigeria
 country	Benin
 country	Kenya
 country	Ghana
+country	Mali
 country	Senegal
 country	Gambia
 country	Algeria

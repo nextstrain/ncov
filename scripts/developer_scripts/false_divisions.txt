@@ -15,3 +15,11 @@ Yeumbeul	Dakar
 Tuebingen	Baden-Wuerttemberg
 Manama	Capital Governorate
 Mbao	Dakar
+Domažlice	Plzeň Region
+Brno	South Moravian Region
+Munich	Bavaria
+Jashore	Khulna
+Lucknow	Uttar Pradesh
+Litovel	Olomouc Region
+Guayaquil	Guayas
+Breclav	South Moravian Region

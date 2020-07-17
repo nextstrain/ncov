@@ -12,6 +12,9 @@ location	Pabna
 # Jhenaidha
 location	Shailokupa
 
+# Khulna
+location	Jashore
+
 # Narail
 location	Kalia
 
@@ -166,6 +169,7 @@ location	Hyderabad
 
 # Uttar Pradesh
 location	Noida
+location	Lucknow
 
 # West Bengal
 location	East Medinipur
@@ -205,6 +209,35 @@ location	Hawali
 ### Nepal
 # Kathmandu
 location	Kathmandu
+
+### Oman
+# Buraimi
+location	Buraimi
+
+# Dhahirah
+location	Ibri
+
+# South Batinah
+location	Ar Rustaq
+location	Al Awabi
+location	Nakhal
+location	Barka
+
+# Dakhiliyah
+location	Bahla
+location	Nizwa
+location	Manah
+location	Samail
+
+# Muscat
+location	As Seeb
+location	Bawshar
+location	Al Amrat
+location	Mutrah
+location	Qurayyat
+
+# North Sharqiyah
+location	Ibra
 
 ### Pakistan
 # Gilgit Baltistan
@@ -663,9 +696,26 @@ location	Eupen
 location	Büllingen
 
 ### Czech Republic
+# Plzeň Region
+location	Domažlice
+location	Plzeň
+
+# Usti nad Labem
+location	Všebořice
+
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
 location	Kynice
+
+# South Moravian Region
+location	Brno
+location	Breclav
+
+# Olomouc Region
+location	Litovel
+
+# Zlin
+location	Fryšták
 
 # Hranice Na Moravě
 location	Prostějov
@@ -1088,6 +1138,15 @@ location	Velingara
 # Western Cape Province
 location	Cape Town Metro
 
+# KwaZulu-Natal
+location	Amajuba
+location	uMgungundlovu
+location	uThukela
+location	Ugu
+location	eThekwini
+location	iLembe
+location	Zululand
+
 ################
 
 # South America
@@ -1250,6 +1309,9 @@ location	Cucuta
 location	Leticia
 
 ### Ecuador
+# Guayas
+location	Guayaquil
+
 # Los Rios
 location	Babahoyo
 
@@ -1352,20 +1414,26 @@ location	Imperial County
 # Arizona
 location	Phoenix
 
+# Colorado
+location	Denver County
+
 # Texas
 location	Houston
 location	Greater Houston Area
 location	Panola County
 
 # Minnesota
+location	Stearns County
 location	Wabasha County
 location	Fillmore County
 location	Winona County
+location	Houston County
 
 # Iowa
-location	Fayette County
+location	Buchanan County
 location	Winneshiek County
 location	Allamakee County
+location	Jackson County
 
 # Louisiana
 location	Caddo Parish
@@ -1432,6 +1500,7 @@ location	Marshall
 location	Columbus WI
 location	Beloit
 location	Janesville
+location	Waupaca County
 location	Jefferson County WI
 location	Dodge County
 location	Winnebago County WI
@@ -1476,6 +1545,8 @@ location	Door County
 # Illinois
 location	Winnebago County IL
 location	Mchenry County
+location	Kane County
+location	Dupage County
 location	Lake County
 location	Cook County
 location	Chicago
@@ -1488,10 +1559,14 @@ location	Cincinnati
 location	Columbus OH
 
 # Florida
+location	Miami-Dade County
+location	Palm Beach County
 location	Miami
 
 # South Carolina
-location	Richland County
+location	Fairfield County SC
+location	Richland County SC
+location	Berkeley County
 
 # Pennsylvania
 location	Pittsburgh
@@ -1540,7 +1615,7 @@ location	Port Chester
 location	Greenwich
 location	Riverside
 location	New Fairfield
-location	Fairfield County
+location	Fairfield County CT
 location	Newtown
 location	Fairfield
 location	Trumbull
@@ -1572,6 +1647,8 @@ location	Mount-Vernon
 location	Shelton
 
 # Massachusetts
+location	Middlesex County
+location	Norfolk County
 location	Boston
 
 ################
@@ -1590,10 +1667,12 @@ division	Capital Governorate
 division	Rajshahi
 division	Jhenaidha
 division	Rangpur
+division	Khulna
 division	Narail
 division	Bagherhat
 division	Tangail
 division	Bangladesh
+division	Barishal
 division	Dhaka
 division	Narayanganj
 division	Chittagong
@@ -1754,10 +1833,12 @@ division	Kathmandu
 
 ### Oman
 division	Buraimi
+division	Dhahirah
 division	North Batinah
 division	South Batinah
 division	Dakhiliyah
 division	Muscat
+division	North Sharqiyah
 
 ### Pakistan
 division	Karachi
@@ -1800,6 +1881,7 @@ division	Keelung
 ### Thailand
 division	Phuket
 division	Trang
+division	Samut Songkhram
 division	Nonthaburi
 division	Bangkok
 division	Samut Prakarn
@@ -1960,6 +2042,7 @@ division	Osijek
 division	Cyprus
 
 ### Czech Republic
+division	Plzeň Region
 division	Usti nad Labem
 division	Litomerice-Brnay
 division	Prague
@@ -1967,6 +2050,9 @@ division	Melnik
 division	Czech Republic
 division	Jihlava
 division	Vysocina Region
+division	South Moravian Region
+division	Olomouc Region
+division	Zlin
 division	Hranice Na Moravě
 
 ### Denmark
@@ -1999,10 +2085,12 @@ division	Grand Est
 ### Germany
 division	North Rhine Westphalia
 division	Frankfurt
+division	Niedersachsen
 division	Baden-Wuerttemberg
 division	Germany
 division	Bavaria
 division	Rostock
+division	Western Pomerania
 division	Berlin
 
 ### Greece
@@ -2270,6 +2358,7 @@ division	Cotonou
 division	Oueme
 
 ### Democratic Republic of the Congo
+division	Kongo Central
 division	Kinshasa
 division	Democratic Republic of the Congo
 division	Haut-Katanga
@@ -2289,6 +2378,10 @@ division	Greater Accra
 
 ### Kenya
 division	Kenya
+
+### Mali
+division	Bamako
+division	Mopti
 
 ### Morocco
 division	Casablanca
@@ -2318,6 +2411,7 @@ division	Western Cape Province
 division	South Africa
 division	North-West
 division	Eastern Cape
+division	Free State
 division	Gauteng
 division	Limpopo
 division	Mpumalanga
@@ -2410,6 +2504,7 @@ division	Norte de Santander
 division	Departamento de Amazonas
 
 ### Ecuador
+division	Guayas
 division	Los Rios
 division	Chimborazo
 division	Pichincha
@@ -2418,6 +2513,9 @@ division	Imbabura
 
 ### Peru
 division	Lima
+division	Huanuco
+division	Ica
+division	Arequipa
 
 ### Uruguay
 division	Montevideo
@@ -2608,6 +2706,7 @@ country	Egypt
 country	Gambia
 country	Ghana
 country	Kenya
+country	Mali
 country	Morocco
 country	Nigeria
 country	Senegal
