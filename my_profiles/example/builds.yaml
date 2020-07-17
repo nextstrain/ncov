@@ -16,12 +16,12 @@ builds:
   # with a build name that will produce the following URL fragment on Nextstrain/auspice:
   # /ncov/north-america/usa/washington/king-county
   north-america_usa_washington_king-county: # name of the build; this can be anything
-    subsampling_scheme: county
+    subsampling_scheme: county # use a custom subsampling scheme defined below
     region: North America
     country: USA
     division: Washington
     location: King County
-    # Whatever your lowest geographic area is (here, 'location' since we are doing a county in the USA)
+    # Whatever your finest geographic scale is (here, 'location' since we are doing a county in the USA)
     # list 'up' from here the geographic area that location is in.
     # Here, King County is in Washington state, is in USA, is in North America.
 
@@ -29,7 +29,7 @@ builds:
   # with a build name that will produce the following URL fragment on Nextstrain/auspice:
   # /ncov/north-america/usa/washington
   north-america_usa_washington:
-    subsampling_scheme: division
+    subsampling_scheme: division # use a default subsampling scheme defined in defaults/parameters.yaml
     region: North America
     country: USA
     division: Washington
