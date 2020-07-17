@@ -732,7 +732,7 @@ location	Amadora
 location	Buraca
 location	Cacem
 location	Casal de Cambra
-location	Corrois
+location	Corroios
 location	Cova da Moura
 location	Damaia de Cima
 location	Encosta de Sol
@@ -907,6 +907,17 @@ location	Vila Velha
 location	Mexico City
 location	San Rafael de Alajuela
 location	San Rafael Heredia
+location	Alajuela
+location	Grecia
+location	Escazu
+location	San Jose
+location	Curridabat
+location	Santa Ana
+location	Perez Zeledon
+location	Aserri
+location	Desamparados
+location	Tarrazu
+location	Nicoya
 location	Orotina
 location	La Union
 location	Tibas
@@ -998,6 +1009,8 @@ location	Waukesha County
 location	Jefferson County WI
 location	Washington County WI
 location	Columbia County WI
+location	Jackson County IA
+location	Jackson County WI
 location	Clark County
 location	Umatilla County
 location	Phoenix
@@ -1065,7 +1078,6 @@ location	Winona County
 location	Houston County
 location	Allamakee County
 location	Winneshiek County
-location	Jackson County
 location	Whitehall County
 location	Florida
 location	Miramar
@@ -1228,6 +1240,7 @@ division	Trang
 division	Samut Songkhram
 division	New Taipei City
 division	Philippines
+division	National Capital Region
 division	Manila
 division	Keelung
 division	Aichi
@@ -1759,7 +1772,6 @@ division	La Rioja
 division	Lisbon
 division	Setúbal
 division	Coimbra
-division	Coimbra
 division	Beja
 division	Guarda
 division	Santarem
@@ -1943,6 +1955,7 @@ division	Imbabura
 division	Guayas
 division	Pichincha
 division	Peru
+division	Lambayeque
 division	Huanuco
 division	Arequipa
 division	Ica
@@ -1955,6 +1968,7 @@ division	Heredia
 division	Cartago CO
 division	Cartago CR
 division	San Jose
+division	Guanacaste
 division	Mexico
 division	Gomez Palacios
 division	Guadalajara

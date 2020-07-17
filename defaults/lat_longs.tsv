@@ -15,6 +15,7 @@ location	Aisemont	50.404382	4.651832
 location	Al Amrat	23.5223356	58.5002366
 location	Al Awabi	23.3	57.52
 location	Al Matariyyah	30.123764	31.317953
+location	Alajuela	10.012782	-84.215404
 location	Alameda County	37.6017	-121.7195
 location	Alamedilla	37.5816	-3.2439
 location	Albacete	38.9943	-1.8585
@@ -59,6 +60,7 @@ location	Arbre	50.611772	3.817121
 location	Arganda del Rey	40.3064	-3.4479
 location	Armenia	4.539019	-75.680551
 location	As Seeb	23.6821956	58.1843842
+location	Aserri	9.865508	-84.091553
 location	Asnières-sur-Seine	48.911508	2.284362
 location	Asotin County	46.1460	-117.2085
 location	Asper	50.915644	3.652577
@@ -265,7 +267,7 @@ location	Cook County	41.8197385	-87.756525
 location	Copiapo	-27.372842	-70.320323
 location	Cordoba	37.8882	-4.7794
 location	Cork	51.899	-8.460
-location	Corrois	38.6415327	-9.1522335
+location	Corroios	38.6415327	-9.1522335
 location	Cortijos Nuevos	38.2471	-2.7259
 location	Cottage Grove	43.090480	-89.205111
 location	Couillet	50.391184	4.459113
@@ -282,6 +284,7 @@ location	Cucuta	7.907734	-72.507857
 location	Cudahy	42.946879	-87.861992
 location	Cuenca	40.0704	-2.1374
 location	Cuesmes	50.435127	3.923209
+location	Curridabat	9.916215	-84.035009
 location	Da Serra	-23.7442	-46.3975
 location	Dahegam	23.1637	72.8102
 location	Dahod	22.836899	74.251376
@@ -299,6 +302,7 @@ location	Deinze	50.9875	3.5236
 location	Delft	52.0116	4.3571
 location	Denver County	39.7348381	-104.9653271
 location	Derbyshire	53.142893	-1.611670
+location	Desamparados	9.895826	-84.062458
 location	Deurne	51.220173	4.458167
 location	Dhanera	24.5064	72.0258
 location	Dhansura	23.3498	73.2087
@@ -343,6 +347,7 @@ location	Enghien	50.690407	4.036980
 location	England	52.405994	-1.671707
 location	Envigado	6.168786	-75.583389
 location	Ere	50.580306	3.368009
+location	Escazu	9.919781	-84.142340
 location	Essex County	40.784033	-74.235550
 location	Estinnes	50.374881	4.103617
 location	Ettelgem	51.178991	3.030238
@@ -413,6 +418,7 @@ location	Grant Parish	31.570014	-92.534059
 location	Grau de Sagunt	39.633481	-0.241370
 location	Greater Houston Area	29.679767	-95.360138
 location	Greater Milwaukee Area	43.0389	-87.9065
+location	Grecia	10.071966	-84.312172
 location	Green County	42.687601	-89.584475
 location	Greenfield	42.957786	-88.007122
 location	Greenwich	41.0262	-73.6282
@@ -504,7 +510,8 @@ location	Itapecerica Da Serra	-23.734665	-46.857835
 location	Ixelles	50.826707	4.374329
 location	Iznalloz	37.3926	-3.5199
 location	Jackson	43.325508	-88.167662
-location	Jackson County	44.310891	-90.788896
+location	Jackson County IA	42.195909	-90.570525
+location	Jackson County WI	44.312857	-90.780626
 location	Jaipur	26.901676	75.793978
 location	Jamnagar	22.471143	70.051543
 location	Jamundi	3.260158	-76.539750
@@ -752,6 +759,7 @@ location	New Orleans	29.9511	-90.0715
 location	New Rochelle	40.9115	-73.7824
 location	New York City	40.695065	-73.993461
 location	Newtown	41.411793	-73.311831
+location	Nicoya	10.147393	-85.452562
 location	Nieuwendijk	51.7774	4.8743
 location	Nieuwerkerken	50.882291	5.20403
 location	Niteroi	-22.912156	-43.060953
@@ -818,6 +826,7 @@ location	Pelt	51.210014	5.420519
 location	Penacova	40.2702086	-8.2810743
 location	Peralta	42.337833	-1.799176
 location	Pereira	4.804771	-75.717885
+location	Perez Zeledon	9.355504	-83.624556
 location	Perth	-31.942741	115.841171
 location	Petropolis	-22.5112	-43.1779
 location	Pewaukee	43.061507	-88.237950
@@ -925,12 +934,14 @@ location	San Fernando	36.461409	-6.203425
 location	San Francisco	37.757679	-122.440006
 location	San Francisco County	37.7749	-122.4194
 location	San Joaquin County	37.917472	-121.258503
+location	San Jose	9.935877	-84.094466
 location	San Luis Obispo County	35.3102	-120.4358
 location	San Mateo County	37.438721	-122.348737
 location	San Rafael Heredia	10.013197	-84.097456
 location	San Rafael de Alajuela	9.964081	-84.223595
 location	San Roque	36.210735	-5.386139
 location	Sangalkam	14.779304	-17.228261
+location	Santa Ana	9.930026	-84.180497
 location	Santa Clara County	37.236094	-121.683399
 location	Santa Clara de Louredo	37.9701683	-7.8720098
 location	Santa Comba	43.0336	-8.8047
@@ -1028,6 +1039,7 @@ location	Talod	23.3512	72.9505
 location	Taoyuan	24.951706	121.219785
 location	Taranto	40.524671	17.215202
 location	Tarifa	36.0143	-5.6044
+location	Tarrazu	9.609000	-84.069307
 location	Tavernes de la Valldigna	39.0734	-0.2644
 location	Tazona	38.3057	-1.9093
 location	Tehatta	23.730511	88.527338
@@ -1197,7 +1209,7 @@ location	iLembe	-29.240765	31.234110920000003
 location	uMgungundlovu	-29.52982	30.057047991912206
 location	uThukela	-28.7446904	30.2224445
 location	Écaussinnes	50.561198	4.181268
-ocation	Écaussinnes	50.561198	4.181268
+
 
 
 
@@ -1457,6 +1469,7 @@ division	Greater Accra	5.761619	0.040546
 division	Greece	39	22
 division	Guadalajara	20.676026	-103.332671
 division	Guam	13.464887	144.792016
+division	Guanacaste	10.489280	-85.455092
 division	Guangdong	23.615762	114.483257
 division	Guangxi	23.717754	108.701872
 division	Guardav	40.5308	-7.2221
@@ -1596,6 +1609,7 @@ division	Olomouc Region	49.859105799999995	16.956126746749305
 division	Ondo State	6.970395	5.101463
 division	Laken	50.8778	4.3481
 division	Lakes	-38.5882085	175.9492056
+division	Lambayeque	-6.707066	-79.907239
 division	Landen	39.3120	-84.2830
 division	Lao Cai	22.3381	104.1487
 division	Lapland	67.700017	26.273752
@@ -1688,6 +1702,7 @@ division	Nara	34.371026	135.887389
 division	Narail	23.175281	89.504017
 division	Narayanganj	23.619169	90.500837
 division	Narino	1.592142	-77.851790
+division	National Capital Region	14.632748	121.027441
 division	Navarra	42.687776	-1.645699
 division	Nebraska	41.4925	-99.9018
 division	Nelson Marlborough	-41.436949	173.142614
