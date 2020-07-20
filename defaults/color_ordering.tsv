@@ -190,6 +190,7 @@ location	Breclav
 location	Plock
 location	Grodzisk Mazowiecki
 location	Olsztyn
+location	Brodno-Warszawa
 location	Warszawa
 location	Radom
 location	Kalisz
@@ -870,6 +871,7 @@ location	Yumbo
 location	São Paulo
 location	Brasilia
 location	Rio de Janeiro
+location	Resende
 location	Bahia Blanca
 location	Osasco
 location	Presidente Venceslau
@@ -1825,6 +1827,7 @@ division	Varmland
 division	Gavleborgs Lan
 division	Orebro Lan
 division	Norrbotten
+division	North Macedonia
 division	Greece
 division	Thessaloniki
 division	Finland
@@ -2134,6 +2137,7 @@ country	Ireland
 country	Finland
 country	Sweden
 country	Portugal
+country	North Macedonia
 country	Greece
 country	Egypt
 country	Nigeria

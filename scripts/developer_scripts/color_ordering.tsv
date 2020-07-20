@@ -1343,11 +1343,26 @@ location	Cucuta
 location	Leticia
 
 ### Ecuador
+# Galapagos
+location	Puerto Baquerizo Moreno
+
+# Manabi
+location	Manta
+location	Puerto Lopez
+location	Jipijapa
+location	Portoviejo
+location	Pajan
+location	Sucre
+location	Calceta
+
 # Guayas
+location	General Villamil Playas
 location	Guayaquil
+location	San Jacinto de Yaguachi
 
 # Los Rios
 location	Babahoyo
+location	Ventanas
 
 # Chimborazo
 location	Riobamba
@@ -1393,6 +1408,10 @@ location	Perez Zeledon
 
 # Cartago CR
 location	La Union
+
+### Mexico
+# Durango
+location	Gomez Palacios
 
 ### USA
 # Alaska
@@ -2562,12 +2581,18 @@ division	Norte de Santander
 division	Departamento de Amazonas
 
 ### Ecuador
+division	Galapagos
+division	Santa Elena
+division	Manabi
 division	Guayas
+division	Daule
 division	Los Rios
 division	Chimborazo
 division	Pichincha
 division	Quito
 division	Imbabura
+division	Carchi
+division	Orellana
 
 ### Peru
 division	Lambayeque

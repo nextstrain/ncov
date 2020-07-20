@@ -172,6 +172,7 @@ location	Brindisi	40.629964	17.937041
 location	Brisbane	-27.484246	153.026118
 location	Bristol	41.6718	-72.9493
 location	Brno	49.1922443	16.6113382
+location	Brodno-Warszawa	52.288533	21.0310084
 location	Broechem	51.180793	4.602098
 location	Bronx	40.858846	-73.864979
 location	Brookfield	43.066515	-88.129450
@@ -891,6 +892,7 @@ location	Rebecq	50.670468	4.133291
 location	Reboleira	38.7523013	-9.2240282
 location	Reims	49.253754	4.035860
 location	Rennes	48.1173	1.6778
+location	Resende	-22.4683626	-44.4463494
 location	Retie	51.268101	5.078413
 location	Rianjo	42.6924	-8.7812
 location	Ribeira	42.5541	-8.9922
@@ -1749,6 +1751,7 @@ division	North Brabant	51.4827	5.2322
 division	North Carolina	35.7596	-79.0193
 division	North District	32.8972	35.3027
 division	North Holland	52.5206	4.7885
+division	North Macedonia	41.6171214	21.7168387
 division	North Rhine Westphalia	51.44	7.705
 division	North Sharqiyah	22.157117399999997	58.51833487712584
 division	North Sulawesi	0.950357	124.450132
@@ -2108,6 +2111,7 @@ country	Mali	16.3700359	-2.2900239
 country	Mongolia	47.504782	102.997672
 country	Morocco	32.549785	-5.480765
 country	Myanmar	20.600856	96.287616
+country	North Macedonia	41.6171214	21.7168387
 country	Norway	61.3109	8.73701
 country	Panama	8.98333	-79.5166
 country	Peru	-9.650468	-75.328211
