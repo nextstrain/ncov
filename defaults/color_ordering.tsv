@@ -881,6 +881,18 @@ location	San Carlos de Bariloche
 location	Quilmes
 location	Babahoyo
 location	Guayaquil
+location	Ventanas
+location	San Jacinto de Yaguachi
+location	General Villamil Playas
+location	Puerto Lopez
+location	Pajan
+location	Jipijapa
+location	Sucre
+location	Portoviejo
+location	Calceta
+location	Manta
+location	Puerto Baquerizo Moreno
+location	Gomez Palacios
 location	Cayambe
 location	Riobamba
 location	Ibarra
@@ -1953,6 +1965,12 @@ division	Quito
 division	Chimborazo
 division	Imbabura
 division	Guayas
+division	Manabi
+division	Daule
+division	Santa Elena
+division	Carchi
+division	Orellana
+division	Galapagos
 division	Pichincha
 division	Peru
 division	Lambayeque
@@ -1970,7 +1988,6 @@ division	Cartago CR
 division	San Jose
 division	Guanacaste
 division	Mexico
-division	Gomez Palacios
 division	Guadalajara
 division	Durango
 division	Guerrero

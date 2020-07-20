@@ -203,6 +203,7 @@ location	Caieiras	-23.375719	-46.723472
 location	Cairns	-16.890992	145.724483
 location	Cajica	4.919830	-74.024182
 location	Calahorra	42.307900	-1.966751
+location	Calceta	-0.8480934	-80.1640382
 location	Cali	3.4516	-76.5320
 location	California	36.357039	-119.690182
 location	Camden County	39.814507	-74.986182
@@ -392,6 +393,7 @@ location	Garches	48.8461	2.1887
 location	Geetbets	50.891512	5.132033
 location	Geluwe	50.809763	3.076704
 location	Genappe	50.603841	4.451737
+location	General Villamil Playas	-2.5937913000000004	-80.42615751756438
 location	Genk	50.966203	5.492020
 location	Gennevilliers	48.927444	2.292449
 location	Gentbrugge	51.042328	3.759051
@@ -405,6 +407,7 @@ location	Givry	50.380304	4.037642
 location	Glastonbury	41.6862	-72.5451
 location	Glendale	43.129400	-87.930209
 location	Gold Coast	-28.019726	153.398160
+location	Gomez Palacios	25.5732473	-103.494779
 location	Gondal	21.9612	70.7939
 location	Gondrecourt-le-Chateau	48.505557	5.503554
 location	Goutroux	50.406076	4.360658
@@ -528,6 +531,7 @@ location	Jetpur	21.7547	70.6180
 location	Jette	50.883110	4.324621
 location	Jian	27.0876	114.9647
 location	Jingzhou	30.350752	112.237294
+location	Jipijapa	-1.5158193	-80.61249824917113
 location	Jiujiang	29.7051	116.0019
 location	Joinville	-26.235559	-48.950735
 location	Jumet	50.442063	4.436515
@@ -661,6 +665,7 @@ location	Manhattan	40.778542	-73.969920
 location	Manitowoc County	44.0998341	-87.827992
 location	Manizales	5.058776	-75.498753
 location	Mansa	23.428814	72.656249
+location	Manta	-1.0321775	-80.82221666609834
 location	Maracena	37.2079	-3.6329
 location	Marcinelle	50.394727	4.427537
 location	Mariakerke	51.072918	3.680642
@@ -810,6 +815,7 @@ location	Paal	51.031859	5.166158
 location	Pabna	24.0129	89.2591
 location	Pacho	5.135952	-74.156902
 location	Padrón	42.7381	-8.6608
+location	Pajan	-1.70407915	-80.42129748047982
 location	Palanpur	24.173368	72.432000
 location	Palm Beach County	26.6279798	-80.4494174
 location	Palma	39.5696	2.6502
@@ -846,6 +852,7 @@ location	Poperinge	50.854747	2.692635
 location	Poppel	51.445671	5.042493
 location	Port Chester	41.0018	-73.6657
 location	Port Washington	43.382722	-87.885911
+location	Portoviejo	-1.0528066	-80.4534269
 location	Portugalete	43.317356	-3.021671
 location	Pradejon	42.331616	-2.067126
 location	Prantij	23.4367	72.8528
@@ -854,7 +861,9 @@ location	Privas	44.723301	4.594575
 location	Prospect	41.5023	-72.9787
 location	Prostějov	49.4724	17.1068
 location	Pu'Er	22.807007	100.971896
+location	Puerto Baquerizo Moreno	-0.902599	-89.610191
 location	Puerto Santa Maria	36.526984	-6.288553
+location	Puerto Lopez	-1.5440814	-80.74452395771863
 location	Pulianas	37.2225	-3.6075
 location	Putnam County	41.424102	-73.753622
 location	Puzol	39.6153	0.3043
@@ -933,6 +942,7 @@ location	San Diego County	32.981125	-116.681405
 location	San Fernando	36.461409	-6.203425
 location	San Francisco	37.757679	-122.440006
 location	San Francisco County	37.7749	-122.4194
+location	San Jacinto de Yaguachi	-2.11784565	-79.73593868679905
 location	San Joaquin County	37.917472	-121.258503
 location	San Jose	9.935877	-84.094466
 location	San Luis Obispo County	35.3102	-120.4358
@@ -1025,6 +1035,7 @@ location	Strasbourg	48.5734	7.7521
 location	Strass im Zillertal	47.397430	11.820402
 location	Stratford	41.1845	-73.1332
 location	Strépy-Bracquegnies	50.480107	4.120343
+location	Sucre	-0.7264261	-80.41619512637334
 location	Suffolk County	40.9849	-72.6151
 location	Sun Prarie	43.185544	-89.230804
 location	Sunshine Coast	-26.6500	153.0667
@@ -1113,6 +1124,7 @@ location	Velez Malaga	36.779282	-4.100078
 location	Velingara	13.1441	-14.1059
 location	Veltem-Beisem	50.905721	4.620653
 location	Venissieux	45.704031	4.882246
+location	Ventanas	-1.3335519	-79.33690086959444
 location	Ventura County	34.440591	-119.058305
 location	Vernon County	43.5577	-90.8294
 location	Verona IT	45.4384	10.9916
@@ -1336,6 +1348,7 @@ division	Canakkale	40.030844	26.733769
 division	Canary Islands	28.2916	-16.6291
 division	Canterbury	-43.346635	172.190743
 division	Capital Governorate	26.2285	50.5860
+division	Carchi	0.8375163	-78.2075154
 division	Cartago CO	4.748755	-75.928118
 division	Cartago CR	9.864015	-83.917122
 division	Casablanca	33.589370	-7.604170
@@ -1393,6 +1406,7 @@ division	Czech Republic	49.8175	15.473
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
 division	Dalarna	61.0917	14.6664
+division	Daule	-1.92000685	-79.91293069792368
 division	Debrecen	47.5316	21.6273
 division	Delhi	28.7041	77.1025
 division	Democratic Republic of the Congo	-4.0383	21.7587
@@ -1441,6 +1455,7 @@ division	Fribourg	46.804570	7.162854
 division	Friesland	53.1642	5.7818
 division	Friuli Venezia Giulia	46.2259	13.1034
 division	Fujian	26.284852	118.122938
+division	Galapagos	-0.62881505	-90.3638752022324
 division	Galicia	42.5751	-8.1339
 division	Gambia	13.5	-15.5
 division	Gani Tikva	32.06111	34.87444
@@ -1457,7 +1472,6 @@ division	Gilgit Baltistan	35.589113	75.614837
 division	Glarus	47.018842	8.979742
 division	Goiais	-15.932272	-49.593573
 division	Goiás	-15.8270	-49.8362
-division	Gomez Palacios	25.572985	-103.492743
 division	Gorazde	43.6685	18.9749
 division	Gornji Vakuf	43.9375	17.5880
 division	Grand Canary Islands	27.9202	-15.5474
@@ -1651,6 +1665,7 @@ division	Makkah	21.3891	39.8579
 division	Malaysia	2.3923759	112.8471939
 division	Maldonado	-34.904210	-54.969183
 division	Malopolskie	49.7225	20.2503
+division	Manabi	-0.7588025	-80.0612131
 division	Manila	14.652678	121.043936
 division	Manitoba	55.182879	-97.823531
 division	Maranhão	-4.9609	-45.2744
@@ -1761,6 +1776,7 @@ division	Opolskie	50.8918612	17.9321175
 division	Orebro	59.2753	15.2134
 division	Orebro Lan	59.378174	14.948348
 division	Oregon	43.8041	-120.5542
+division	Orellana	-0.78618	-76.4803184
 division	Orenburg Region	51.7634	54.6188
 division	Oroshaza	46.5684	20.6545
 division	Osaka	34.64872	135.525013
@@ -1860,6 +1876,7 @@ division	Samut Songkhram	13.410190	99.949071
 division	San Jose	9.9281	-84.0907
 division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
+division	Santa Elena	-2.1954593	-80.5669167
 division	Santander	6.746570	-73.476456
 division	Santarem	39.2849	-8.7041
 division	Santiago	-33.383304	-70.530623
