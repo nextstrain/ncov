@@ -543,7 +543,10 @@ def check_for_missing(data):
                     name0 = check_similar(ordering["division"], division)
                     if division not in ordering["division"] and division in lat_longs["division"]:
                         s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
-                        data_clean[region][country][division] = []
+                        if country not in data_clean[region]:
+                            print("Conflict: division " + division + " should be added to color_ordering.tsv, but country " + country + " is missing from dataset")
+                        else:
+                            data_clean[region][country][division] = []
                     else: #only check for additional hints like "similar name" or "present as location" if not auto-added to color_ordering
                         if name0 != "":
                             s += " (similar name: " + name0 + " - consider adding to variants.txt)"
@@ -559,7 +562,7 @@ def check_for_missing(data):
 
                 else:
                     if country not in data_clean[region]:
-                        print("WARNING: country "+country+" seems to be missing. Possibly also division "+division+"\n")
+                        print("Conflict: division " + division + " should be added to color_ordering.tsv, but country " + country + " is missing from dataset")
                     else:
                         data_clean[region][country][division] = []
 
@@ -572,11 +575,14 @@ def check_for_missing(data):
                         name0 = check_similar(ordering["location"], location)
                         if location not in ordering["location"] and location in lat_longs["location"]:
                             s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
-                            if division not in data_clean[region][country]:
-                                if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
-                                    print("Conflict: location " + location + " should be added to color_ordering.tsv, but division " + division + " is missing from dataset")
+                            if country not in data_clean[region]:
+                                print("Conflict: location " + location + " should be added to color_ordering.tsv, but country " + country + " is missing from dataset")
                             else:
-                                data_clean[region][country][division].append(location)
+                                if division not in data_clean[region][country]:
+                                    if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
+                                        print("Conflict: location " + location + " should be added to color_ordering.tsv, but division " + division + " is missing from dataset")
+                                else:
+                                    data_clean[region][country][division].append(location)
                         else: #only check for additional hints like "similar name" or "present as division" if not auto-added to color_ordering
                             if name0 != "":
                                 s += " (similar name: " + name0 + " - consider adding to variants.txt)"
@@ -601,11 +607,14 @@ def check_for_missing(data):
                             print("Cruise-associated location ignored ("+location+")")
 
                     else:
-                        if division not in data_clean[region][country]:
-                            if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
-                                print("Conflict: location " + location + " should be added to color_ordering.tsv, but division " + division + " is missing from dataset")
+                        if country not in data_clean[region]:
+                            print("Conflict: location " + location + " should be added to color_ordering.tsv, but country " + country + " is missing from dataset")
                         else:
-                            data_clean[region][country][division].append(location)
+                            if division not in data_clean[region][country]:
+                                if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
+                                    print("Conflict: location " + location + " should be added to color_ordering.tsv, but division " + division + " is missing from dataset")
+                            else:
+                                data_clean[region][country][division].append(location)
 
     if missing['location']:
         print("\n\nMissing locations:")
