@@ -606,6 +606,7 @@ location	Tuebingen
 location	Strasbourg
 location	Rome
 location	Naples
+location	Benevento
 location	Taranto
 location	Lecce
 location	Brindisi
@@ -2002,6 +2003,15 @@ division	Mexico City
 division	Estado de Mexico
 division	Chiapas
 division	Chihuahua
+division	Guanajuato
+division	Sinaloa
+division	Tabasco
+division	Morelos
+division	Nayarit
+division	Sonora
+division	Yucatan
+division	Baja California Sur
+division	Baja California
 division	Puebla
 division	Queretaro
 division	USA
