@@ -118,3 +118,6 @@ Ncr	National Capital Region
 Richalnd County	Richland County
 Ventana	Ventanas
 Verona	Verona IT
+Chattogram	Chittagong
+Mina da Agua	Amadora
+Ciudad Autonoma de Buenos Aires	Buenos Aires

@@ -31,6 +31,10 @@ location	Gulshan
 location	Jatrabari
 location	Kodomtoly
 
+# Chittagong
+location	Chandpur
+location	Brahmanbaria
+
 # Sylhet
 location	Habiganj
 location	Moulvibazar
@@ -902,8 +906,9 @@ location	Rio de Mouro
 location	Cacem
 location	Agualva
 location	Massama
-location	Almargem do Bispo
 location	Monte Abrão
+location	Almargem do Bispo
+location	Queluz
 location	Casal de Cambra
 location	Reboleira
 location	Amadora
@@ -1506,6 +1511,7 @@ location	Winona County
 location	Houston County
 
 # Iowa
+location	Fayette County
 location	Buchanan County
 location	Winneshiek County
 location	Allamakee County
@@ -1792,12 +1798,14 @@ division	Mumbai
 division	Rajasthan
 division	Jammu
 division	Punjab
+division	Maharashtra
 division	Karnataka
 division	Haryana
 division	Kargil
 division	Kerala
 division	Delhi
 division	Ladakh
+division	Tamil Nadu
 division	Madhya Pradesh
 division	India
 division	Telangana
@@ -2314,6 +2322,7 @@ division	Krasnoyarsk Region
 division	Buryat Republic
 division	Republic of Buryatia
 division	Republic of Sakha
+division	Khabarovsk Region
 division	Primorskiy Region
 division	Sakhalin Region
 
@@ -2543,6 +2552,7 @@ division	Bahia
 division	Espirito Santo
 division	Ceará
 division	Sergipe
+division	Rio Grande do Norte
 division	Pernambuco
 division	Alagoas
 
@@ -2681,6 +2691,7 @@ division	Oklahoma
 division	Minnesota
 division	Iowa
 division	Louisiana
+division	Arkansas
 division	Missouri
 division	Wisconsin
 division	Illinois

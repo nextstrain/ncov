@@ -55,6 +55,8 @@ def read_geography_file(file_name):
         if line == "\n":
             continue
         l = line.strip().split("\t")
+        if l[0][:1] == "#": #if a comment - ignore!
+            continue
         type = l[0] #location, division etc
         name = l[1]
         if name not in data[type]:
@@ -746,12 +748,15 @@ def sort_by_coordinates(data, coordinates):
     loc_per_coord = {}
     for loc in data:
         if loc in coordinates:
-            loc_per_coord[coordinates[loc][1]] = loc
+            if coordinates[loc][1] in loc_per_coord:
+                loc_per_coord[coordinates[loc][1]].append(loc)
+            else:
+                loc_per_coord[coordinates[loc][1]] = [loc]
         else:
             print("Missing coordinates: " + bold(loc))
     sorted_locs = []
     for coord in sorted(loc_per_coord):
-        sorted_locs.append(loc_per_coord[coord])
+        sorted_locs.extend(loc_per_coord[coord])
     return sorted_locs
 
 # Write a given hierarchy (location, division, country, region, recency) into the new ordering file.
@@ -845,7 +850,7 @@ data = read_metadata(metadata)
 # Since travel history related entries are prone to errors, check for each entry whether it collides with already existing data.
 
 # TODO: Currently commented out due to numerous inconsistencies
-#data_exposure = read_exposure(data, metadata)
+# data_exposure = read_exposure(data, metadata)
 
 
 ################################################################################
@@ -867,8 +872,6 @@ check_duplicate(data)
 
 ##### Step 2.4: Check for missing names in ordering and lat_longs as well as return a clean, reduced version of the metadata
 data = check_for_missing(data) # =====> From here on, strains are dropped, only region/country/division/location remain
-
-
 
 ################################################################################
 # Step 3: Storage of locations, divisions etc hierarchical manner
