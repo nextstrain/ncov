@@ -484,8 +484,8 @@ rule remove_zero_branches:
         from treetime import TreeAnc
         from Bio import Phylo
         tt = TreeAnc(tree=input.tree, aln=input.alignment, gtr='JC69', verbose=1)
-        tt.optimize_tree(prune_short=True)
-        Phylo.write(tt.tree, output.tree, 'newick')
+        tt.optimize_tree(prune_short=True, infer_gtr=True)
+        Phylo.write(tt.tree, output.tree, 'newick', format_branch_length="%1.7f")
 
 
 rule refine:
