@@ -9,7 +9,7 @@ def _get_metadata_by_build_name(build_name):
     The path can include wildcards that must be provided by the caller through
     the Snakemake `expand` function or through string formatting with `.format`.
     """
-    if build_name == "global":
+    if build_name == "global" or "region" not in config["builds"][build_name]:
         return rules.download.output.metadata
     else:
         return rules.adjust_metadata_regions.output.metadata

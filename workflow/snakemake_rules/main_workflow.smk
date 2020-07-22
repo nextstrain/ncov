@@ -500,7 +500,8 @@ rule refine:
         coalescent = config["refine"]["coalescent"],
         date_inference = config["refine"]["date_inference"],
         divergence_unit = config["refine"]["divergence_unit"],
-        clock_filter_iqd = config["refine"]["clock_filter_iqd"]
+        clock_filter_iqd = config["refine"]["clock_filter_iqd"],
+        timetree = "" if config["refine"].get("no_timetree", False) else "--timetree"
     conda: config["conda_environment"]
     shell:
         """
@@ -511,7 +512,7 @@ rule refine:
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
             --root {params.root} \
-            --timetree \
+            {params.timetree} \
             --clock-rate {params.clock_rate} \
             --clock-std-dev {params.clock_std_dev} \
             --coalescent {params.coalescent} \
