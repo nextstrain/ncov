@@ -1,123 +1,127 @@
-misspelled name	correct name
-Nw	North-West
-Ec	Eastern Cape
-Gp	Gauteng
-Fs	Free State
-Lp	Limpopo
-Wc	Western Cape Province
-Amazonas State	Amazonas
-Liege	Liège
-Bucuresti	Bucharest
-Ghent	Gent
-Gavleborg	Gavleborgs Lan
-Bat-Yam	Bat Yam
-Jerusalem	Jerusalem District
-Auvergne Rhone Alpes	Auvergne-Rhône-Alpes
-Zurich	Zürich
-Sao Paulo	São Paulo
-Dakarhuman	Dakar
-Castilla-la Mancha	Castilla la Mancha
-Quangning	Quangninh
-Ragshahi	Rajshahi
-Milwaukee	Milwaukee County
-Kzn	KwaZulu-Natal
-St Louis	St-Louis
-Imperial	Imperial County
-Bahrein	Bahrain
-Hobigonj	Habiganj
-Grand-Est	Grand Est
-Califonia	California
-East Baton Rouge	East Baton Rouge Parish
-Los Angeles	Los Angeles County
-Baden-Württemberg	Baden-Wuerttemberg
-Dodge Count	Dodge County
-Outagamie Coun	Outagamie County
-Tübingen	Tuebingen
-Basel-Landschaft	Basel-Land
-St Gallen	Sankt Gallen
-Luzern	Lucerne
-United States	USA
-Kongo-Central	Kongo Central
-Barisal	Barishal
-Al	Alabama
-Ak	Alaska
-As	American Samoa
-Az	Arizona
-Ar	Arkansas
-Ca	California
-Co	Colorado
-Ct	Connecticut
-De	Delaware
-Dc	District of Columbia
-Fm	Federated States of Micronesia
-Fl	Florida
-Ga	Georgia
-Gu	Guam
-Hi	Hawaii
-Id	Idaho
-Il	Illinois
-In	Indiana
-Ia	Iowa
-Ks	Kansas
-Ky	Kentucky
-La	Louisiana
-Me	Maine
-Mh	Marshall Islands
-Md	Maryland
-Ma	Massachusetts
-Mi	Michigan
-Mn	Minnesota
-Ms	Mississippi
-Mo	Missouri
-Mt	Montana
-Ne	Nebraska
-Nv	Nevada
-Nh	New Hampshire
-Nj	New Jersey
-Nm	New Mexico
-Ny	New York
-Nc	North Carolina
-Nd	North Dakota
-Mp	Northern Mariana Islands
-Oh	Ohio
-Ok	Oklahoma
-Or	Oregon
-Pw	Palau
-Pa	Pennsylvania
-Pr	Puerto Rico
-Ri	Rhode Island
-Sc	South Carolina
-Sd	South Dakota
-Tn	Tennessee
-Tx	Texas
-Ut	Utah
-Vt	Vermont
-Vi	Virgin Islands
-Va	Virginia
-Wa	Washington
-Wv	West Virginia
-Wi	Wisconsin
-Wy	Wyoming
-Whitehall County	Trempealeau County
-Ústí nad Labem	Usti nad Labem
-Buraymi	Buraimi
-Qurayat	Qurayyat
-Falagueria- Venda Nova	Amadora
-Agualva cacem	Agualva
-União das freguesias de Agualva	Agualva
-União das freguesias de Almargem do Bispo	Almargem do Bispo
-União das freguesias de Cacem	Cacem
-União das freguesias de Igreja	Igreja
-União das freguesias de Massama	Massama
-União das freguesias de Pontinha	Pontinha
-União das freguesias de Queluz	Queluz
-União das freguesias de Ramada	Ramada
-União das freguesias de Santarem	Santarem
-União das freguesias de Seia	Seia
-Ncr	National Capital Region
-Richalnd County	Richland County
-Ventana	Ventanas
-Verona	Verona IT
-Chattogram	Chittagong
-Mina da Agua	Amadora
-Ciudad Autonoma de Buenos Aires	Buenos Aires
+level	misspelled name	correct name
+location	Mina da Agua	Amadora
+location	St Louis	St-Louis
+location	Imperial	Imperial County
+location	Milwaukee	Milwaukee County
+location	Richalnd County	Richland County
+location	Ventana	Ventanas
+location	Verona	Verona IT
+location	Hobigonj	Habiganj
+location	East Baton Rouge	East Baton Rouge Parish
+location	Los Angeles	Los Angeles County
+location	Dodge Count	Dodge County
+location	Outagamie Coun	Outagamie County
+location	Tübingen	Tuebingen
+location	Agualva cacem	Agualva
+location	União das freguesias de Agualva	Agualva
+location	União das freguesias de Almargem do Bispo	Almargem do Bispo
+location	União das freguesias de Cacem	Cacem
+location	União das freguesias de Igreja	Igreja
+location	União das freguesias de Massama	Massama
+location	União das freguesias de Pontinha	Pontinha
+location	União das freguesias de Queluz	Queluz
+location	União das freguesias de Ramada	Ramada
+location	União das freguesias de Santarem	Santarem
+location	União das freguesias de Seia	Seia
+location	Buraymi	Buraimi
+location	Qurayat	Qurayyat
+##location 	Whitehall County	Trempealeau County #Needs to specify WI division
+##location	Falagueria- Venda Nova	Amadora #can't find this in annotations
+division	Nw	North-West
+division	Ec	Eastern Cape
+division	Gp	Gauteng
+division	Fs	Free State
+division	Lp	Limpopo
+division	Wc	Western Cape Province
+division	Amazonas State	Amazonas
+division	Liege	Liège
+division	Bucuresti	Bucharest
+division	Ghent	Gent
+division	Gavleborg	Gavleborgs Lan
+division	Bat-Yam	Bat Yam
+division	Jerusalem	Jerusalem District
+division	Auvergne Rhone Alpes	Auvergne-Rhône-Alpes
+division	Zurich	Zürich
+division	Dakarhuman	Dakar
+division	Castilla-la Mancha	Castilla la Mancha
+division	Quangning	Quangninh
+division	Ragshahi	Rajshahi
+division	Kzn	KwaZulu-Natal
+division	Grand-Est	Grand Est
+division	Califonia	California
+division	Baden-Württemberg	Baden-Wuerttemberg
+division	Basel-Landschaft	Basel-Land
+division	St Gallen	Sankt Gallen
+division	Luzern	Lucerne
+division	Kongo-Central	Kongo Central
+division	Barisal	Barishal
+division	Al	Alabama
+division	Ak	Alaska
+division	As	American Samoa
+division	Az	Arizona
+division	Ar	Arkansas
+division	Ca	California
+division	Co	Colorado
+division	Ct	Connecticut
+division	De	Delaware
+division	Dc	District of Columbia
+division	Fm	Federated States of Micronesia
+division	Fl	Florida
+division	Ga	Georgia
+division	Gu	Guam
+division	Hi	Hawaii
+division	Id	Idaho
+division	Il	Illinois
+division	In	Indiana
+division	Ia	Iowa
+division	Ks	Kansas
+division	Ky	Kentucky
+division	La	Louisiana
+division	Me	Maine
+division	Mh	Marshall Islands
+division	Md	Maryland
+division	Ma	Massachusetts
+division	Mi	Michigan
+division	Mn	Minnesota
+division	Ms	Mississippi
+division	Mo	Missouri
+division	Mt	Montana
+division	Ne	Nebraska
+division	Nv	Nevada
+division	Nh	New Hampshire
+division	Nj	New Jersey
+division	Nm	New Mexico
+division	Ny	New York
+division	Nc	North Carolina
+division	Nd	North Dakota
+division	Mp	Northern Mariana Islands
+division	Oh	Ohio
+division	Ok	Oklahoma
+division	Or	Oregon
+division	Pw	Palau
+division	Pa	Pennsylvania
+division	Pr	Puerto Rico
+division	Ri	Rhode Island
+division	Sc	South Carolina
+division	Sd	South Dakota
+division	Tn	Tennessee
+division	Tx	Texas
+division	Ut	Utah
+division	Vt	Vermont
+division	Vi	Virgin Islands
+division	Va	Virginia
+division	Wa	Washington
+division	Wv	West Virginia
+division	Wi	Wisconsin
+division	Wy	Wyoming
+division	Ústí nad Labem	Usti nad Labem
+division	Buraymi	Buraimi
+division	Ncr	National Capital Region
+division	Chittagong	Chattogram
+division	Ciudad Autonoma de Buenos Aires	Buenos Aires
+division	Bahrein	Bahrain
+country	Bahrein	Bahrain
+division	Sao Paulo	São Paulo
+location	Sao Paulo	São Paulo
+division	United States	USA
+country	United States	USA
