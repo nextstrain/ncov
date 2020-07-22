@@ -2,7 +2,7 @@ from os import listdir
 from difflib import SequenceMatcher
 
 # Things to make things recogised as Cruise ships & ignored/special treatment
-cruise_abbrev = ["Grand Princess", "Cruise"]
+cruise_abbrev = ["Grand Princess", "Cruise", "cruise", "Diamond Princess"]
 
 #path to files used in the script
 path_to_script_files = "scripts/developer_scripts/"
@@ -477,15 +477,22 @@ def check_duplicate(data):
 
     print()
 
+    cruise_ship_duplicates = 0
     #TODO: a bit chaotic, go over it again
     for division in division_to_country:
-        if len(division_to_country[division]) > 1:
-            if division_to_country[division][0][1] == division_to_country[division][1][1]:
-                s = ", ".join([country for (country, region) in division_to_country[division]])
-            else:
-                s = ", ".join([country + " (" + region + ")" for (country, region) in division_to_country[division]])
+        if not any(x in division for x in cruise_abbrev): #ignore cruise ship ones
+            if len(division_to_country[division]) > 1:
+                if division_to_country[division][0][1] == division_to_country[division][1][1]:
+                    s = ", ".join([country for (country, region) in division_to_country[division]])
+                else:
+                    s = ", ".join([country + " (" + region + ")" for (country, region) in division_to_country[division]])
 
-            print("New duplicate division detected: " + bold(division + " (" + s + ")"))
+                print("New duplicate division detected: " + bold(division + " (" + s + ")"))
+        else:
+            cruise_ship_duplicates = cruise_ship_duplicates + 1
+
+    if cruise_ship_duplicates: print("("+str(cruise_ship_duplicates)+" cruise ship entries ignored for duplicate divisions)")
+    
 
     cruise_ship_duplicates = 0
     cruis_ship_abbrev = 0
