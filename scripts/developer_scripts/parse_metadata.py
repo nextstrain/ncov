@@ -557,12 +557,13 @@ def check_for_missing(data):
                         else:
                             data_clean[region][country][division] = []
                     else: #only check for additional hints like "similar name" or "present as location" if not auto-added to color_ordering
-                        if name0 != "":
-                            s += " (similar name: " + name0 + " - consider adding to variants.txt)"
                         if division in ordering["division"] and division not in lat_longs["division"]:
                             s = s + " (only missing in lat_longs)"
-                        if division in ordering["location"] or division in lat_longs["location"]:
-                            s = s + " (present as location)"
+                        else:
+                            if name0 != "":
+                                s += " (similar name: " + name0 + " - consider adding to variants.txt)"
+                            if division in ordering["location"] or division in lat_longs["location"]:
+                                s = s + " (present as location)"
                     if country not in missing["division"]:
                         missing["division"][country] = []
                         clean_missing["division"][country] = []
@@ -857,7 +858,7 @@ data = read_metadata(metadata)
 # Since travel history related entries are prone to errors, check for each entry whether it collides with already existing data.
 
 # TODO: Currently commented out due to numerous inconsistencies
-# data_exposure = read_exposure(data, metadata)
+#data = read_exposure(data, metadata)
 
 
 ################################################################################
