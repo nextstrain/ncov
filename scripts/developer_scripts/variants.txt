@@ -118,6 +118,8 @@ Ncr	National Capital Region
 Richalnd County	Richland County
 Ventana	Ventanas
 Verona	Verona IT
-Chattogram	Chittagong
+Chittagong	Chattogram
 Mina da Agua	Amadora
 Ciudad Autonoma de Buenos Aires	Buenos Aires
+Bcs	Baja California Sur
+Bc	Baja California
