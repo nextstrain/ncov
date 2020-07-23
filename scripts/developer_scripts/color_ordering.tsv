@@ -127,20 +127,26 @@ location	Gondal
 location	Rajkot
 location	Botad
 location	Chuda
+location	Mahuva
 location	Dhanera
+location	Bhavnagar
+location	Ghogha
 location	Kadi
 location	Palanpur
+location	Dholka
 location	Kalol
 location	Ahmedabad
 location	Gandhinagar
 location	Mansa
 location	Kheda
+location	Daskroi
 location	Olpad
 location	Mahemdavad
 location	Dahegam
 location	Surat
 location	Prantij
 location	Nadiad
+location	Kamrej
 location	Talod
 location	Choryasi
 location	Himatnagar
@@ -836,6 +842,7 @@ location	Teramo
 
 # Campania
 location	Naples
+location	Benevento
 
 # Apulia
 location	Taranto
@@ -1538,6 +1545,7 @@ location	St Tammany Parish
 location	St Bernard Parish
 
 # Missouri
+location	Saint Louis County
 location	St. Louis MO
 
 # Wisconsin
@@ -1657,6 +1665,7 @@ location	Montgomery County PA
 
 # New Jersey
 location	Camden County
+location	Burlington County
 location	Essex County
 location	Bergen County
 location	Hudson County
@@ -2432,6 +2441,7 @@ division	Adıyaman
 division	Mardin
 division	Siirt
 division	Agri
+division	Kars Province
 
 ### United Kingdom
 division	Northern Ireland
@@ -2652,16 +2662,25 @@ division	Cartago CR
 division	Jamaica
 
 ### Mexico
+division	Baja California
+division	Baja California Sur
+division	Sonora
+division	Sinaloa
 division	Chihuahua
+division	Nayarit
 division	Durango
 division	Jalisco
+division	Guanajuato
 division	Queretaro
 division	Guerrero
 division	Estado de Mexico
 division	Mexico City
 division	Mexico
+division	Morelos
 division	Puebla
 division	Chiapas
+division	Tabasco
+division	Yucatan
 division	Quintana Roo
 
 ### Panama
