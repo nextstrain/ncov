@@ -1236,6 +1236,8 @@ location	Kfar Saba
 
 
 
+division	Asia
+division	Kyrgyzstan
 division	Mongolia
 division	China
 division	Hubei
@@ -1319,6 +1321,7 @@ division	Kargil
 division	Telangana
 division	Karnataka
 division	North Sulawesi
+division	Indonesia
 division	East Kalimantan
 division	Gujarat
 division	Lucknow
@@ -1847,6 +1850,7 @@ division	Uusimaa
 division	Denmark
 division	Portugal
 division	Egypt
+division	Nile River Cruise
 division	Cairo
 division	Kalyoubia
 division	Oueme
@@ -1872,6 +1876,9 @@ division	Ouarzazate
 division	Lagos
 division	Ondo State
 division	Uganda
+division	Niger
+division	Togo
+division	Burkina Faso
 division	Kenya
 division	Democratic Republic of the Congo
 division	Haut-Katanga
@@ -2023,6 +2030,7 @@ division	Baja California Sur
 division	Baja California
 division	Puebla
 division	Queretaro
+division	South America
 division	USA
 division	Washington DC
 division	Maryland
@@ -2086,6 +2094,7 @@ division	Saskatchewan
 division	British Columbia
 
 
+country	Asia
 country	Mongolia
 country	China
 country	Hong Kong
@@ -2174,6 +2183,10 @@ country	Morocco
 country	Uganda
 country	Democratic Republic of the Congo
 country	South Africa
+country	Togo
+country	Niger
+country	Burkina Faso
+country	South America
 country	Chile
 country	Ecuador
 country	Peru
