@@ -1,0 +1,3 @@
+country	region
+Georgia	Asia
+Turkey	Europe

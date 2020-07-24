@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper" style="width: 1050px">
+      <header>
+        <img src="{{site.logo | relative_url}}" alt="Nextstrain logo" width=50 style="float: left; padding: 10px;"/>
+        <p style="float: right; display: inline-block"><h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2></p>
+
+        <p>
+          <h3>Analysis</h3>
+          <a href="https://nextstrain.github.io/ncov/setup">1. Setup and installation</a><br>
+          <a href="https://nextstrain.github.io/ncov/data-prep">2. Preparing your data</a><br>
+          <a href="https://nextstrain.github.io/ncov/orientation-workflow">3. Orientation: analysis workflow</a><br>
+          <a href="https://nextstrain.github.io/ncov/orientation-files">4. Orientation: files</a><br>
+          <a href="https://nextstrain.github.io/ncov/running">5. Running & troubleshooting</a><br>
+          <a href="https://nextstrain.github.io/ncov/customizing-analysis">6. Customizing your analysis</a><br>
+          <a href="https://nextstrain.github.io/ncov/customizing-visualization">7. Customizing your visualization</a><br>
+        </p>
+        <p/>
+        <p>
+          <h3>Visualization & interpretation</h3>
+          <a href="https://nextstrain.github.io/ncov/sharing">8. Options: visualizing and sharing</a><br>
+          <a href="https://nextstrain.github.io/ncov/interpretation">9. Interpreting your results</a><br>
+          <a href="https://nextstrain.github.io/ncov/narratives">10. Writing a narrative</a><br>
+        </p>
+
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+        </ul>
+        <p><h4><a href="https://discussion.nextstrain.org">Stuck? Ask us on the discussion board. We're happy to help!</a></h4></p>
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      </header>
+      <section style="width: 700px">
+
+      {{ content }}
+
+      </section>
+    </div>
+  </body>
+</html>

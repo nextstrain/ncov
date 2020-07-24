@@ -1,0 +1,102 @@
+# Define custom rules for pre- or post-standard workflow processing of data.
+custom_rules:
+  - workflow/snakemake_rules/export_for_nextstrain.smk
+
+# Define locations for which builds should be created.
+# For each build we specify a subsampling scheme via an explicit key.
+builds:
+  global:
+    subsampling_scheme: region_global
+    auspice_config: "nextstrain_profiles/nextstrain/global_auspice_config.json"
+  africa:
+    subsampling_scheme: region
+    region: Africa
+    auspice_config: "nextstrain_profiles/nextstrain/africa_auspice_config.json"
+  asia:
+    subsampling_scheme: region
+    region: Asia
+    auspice_config: "nextstrain_profiles/nextstrain/asia_auspice_config.json"
+  europe:
+    subsampling_scheme: region_grouped_by_country
+    region: Europe
+    auspice_config: "nextstrain_profiles/nextstrain/europe_auspice_config.json"
+  north-america:
+    subsampling_scheme: region
+    region: North America
+    auspice_config: "nextstrain_profiles/nextstrain/north-america_auspice_config.json"
+  oceania:
+    subsampling_scheme: region
+    region: Oceania
+    auspice_config: "nextstrain_profiles/nextstrain/oceania_auspice_config.json"
+  south-america:
+    subsampling_scheme: region
+    region: South America
+    auspice_config: "nextstrain_profiles/nextstrain/south-america_auspice_config.json"
+
+# if different exposure traits should be used for some builds, specify here
+# otherwise the default exposure in defaults/parameters.yaml will used
+exposure:
+  global:
+    trait: "region"
+    exposure: "region_exposure"
+
+  africa:
+    trait: "country"
+    exposure: "country_exposure"
+
+  asia:
+    trait: "country"
+    exposure: "country_exposure"
+
+  europe:
+    trait: "country"
+    exposure: "country_exposure"
+
+  south-america:
+    trait: "country"
+    exposure: "country_exposure"
+
+  north-america:
+    trait: "division"
+    exposure: "division_exposure"
+
+  oceania:
+    trait: "division"
+    exposure: "division_exposure"
+
+# if different traits should be reconstructed for some builds, specify here
+# otherwise the default trait config in defaults/parameters.yaml will used
+traits:
+  global:
+    sampling_bias_correction: 2.5
+    columns: ["region_exposure"]
+  europe:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  africa:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  asia:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  south-america:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  north-america:
+    sampling_bias_correction: 2.5
+    columns: ["division_exposure"]
+  oceania:
+    sampling_bias_correction: 2.5
+    columns: ["division_exposure"]
+
+files:
+  legacy_clades: "nextstrain_profiles/nextstrain/legacy_clades.tsv"
+  auspice_config_gisaid: "nextstrain_profiles/nextstrain/nextstrain_auspice_config_gisaid.json"
+  auspice_config_zh: "nextstrain_profiles/nextstrain/nextstrain_auspice_config_zh.json"
+  description: "nextstrain_profiles/nextstrain/nextstrain_description.md"
+  description_zh: "nextstrain_profiles/nextstrain/nextstrain_description_zh.md"
+
+# S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
+s3_staging_url: s3://nextstrain-staging
+slack_token: ~
+slack_channel: "#ncov-gisaid-updates"

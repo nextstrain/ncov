@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: "Tutorial: Using Nextstrain for SARS-CoV-2"
+logo: "https://raw.githubusercontent.com/nextstrain/nextstrain.org/master/logo/circular-tree.svg"
+markdown: GFM

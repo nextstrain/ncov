@@ -1,0 +1,125 @@
+misspelled name	correct name
+Nw	North-West
+Ec	Eastern Cape
+Gp	Gauteng
+Fs	Free State
+Lp	Limpopo
+Wc	Western Cape Province
+Amazonas State	Amazonas
+Liege	Liège
+Bucuresti	Bucharest
+Ghent	Gent
+Gavleborg	Gavleborgs Lan
+Bat-Yam	Bat Yam
+Jerusalem	Jerusalem District
+Auvergne Rhone Alpes	Auvergne-Rhône-Alpes
+Zurich	Zürich
+Sao Paulo	São Paulo
+Dakarhuman	Dakar
+Castilla-la Mancha	Castilla la Mancha
+Quangning	Quangninh
+Ragshahi	Rajshahi
+Milwaukee	Milwaukee County
+Kzn	KwaZulu-Natal
+St Louis	St-Louis
+Imperial	Imperial County
+Bahrein	Bahrain
+Hobigonj	Habiganj
+Grand-Est	Grand Est
+Califonia	California
+East Baton Rouge	East Baton Rouge Parish
+Los Angeles	Los Angeles County
+Baden-Württemberg	Baden-Wuerttemberg
+Dodge Count	Dodge County
+Outagamie Coun	Outagamie County
+Tübingen	Tuebingen
+Basel-Landschaft	Basel-Land
+St Gallen	Sankt Gallen
+Luzern	Lucerne
+United States	USA
+Kongo-Central	Kongo Central
+Barisal	Barishal
+Al	Alabama
+Ak	Alaska
+As	American Samoa
+Az	Arizona
+Ar	Arkansas
+Ca	California
+Co	Colorado
+Ct	Connecticut
+De	Delaware
+Dc	District of Columbia
+Fm	Federated States of Micronesia
+Fl	Florida
+Ga	Georgia
+Gu	Guam
+Hi	Hawaii
+Id	Idaho
+Il	Illinois
+In	Indiana
+Ia	Iowa
+Ks	Kansas
+Ky	Kentucky
+La	Louisiana
+Me	Maine
+Mh	Marshall Islands
+Md	Maryland
+Ma	Massachusetts
+Mi	Michigan
+Mn	Minnesota
+Ms	Mississippi
+Mo	Missouri
+Mt	Montana
+Ne	Nebraska
+Nv	Nevada
+Nh	New Hampshire
+Nj	New Jersey
+Nm	New Mexico
+Ny	New York
+Nc	North Carolina
+Nd	North Dakota
+Mp	Northern Mariana Islands
+Oh	Ohio
+Ok	Oklahoma
+Or	Oregon
+Pw	Palau
+Pa	Pennsylvania
+Pr	Puerto Rico
+Ri	Rhode Island
+Sc	South Carolina
+Sd	South Dakota
+Tn	Tennessee
+Tx	Texas
+Ut	Utah
+Vt	Vermont
+Vi	Virgin Islands
+Va	Virginia
+Wa	Washington
+Wv	West Virginia
+Wi	Wisconsin
+Wy	Wyoming
+Whitehall County	Trempealeau County
+Ústí nad Labem	Usti nad Labem
+Buraymi	Buraimi
+Qurayat	Qurayyat
+Falagueria- Venda Nova	Amadora
+Agualva cacem	Agualva
+União das freguesias de Agualva	Agualva
+União das freguesias de Almargem do Bispo	Almargem do Bispo
+União das freguesias de Cacem	Cacem
+União das freguesias de Igreja	Igreja
+União das freguesias de Massama	Massama
+União das freguesias de Pontinha	Pontinha
+União das freguesias de Queluz	Queluz
+União das freguesias de Ramada	Ramada
+União das freguesias de Santarem	Santarem
+União das freguesias de Seia	Seia
+Ncr	National Capital Region
+Richalnd County	Richland County
+Ventana	Ventanas
+Verona	Verona IT
+Chittagong	Chattogram
+Mina da Agua	Amadora
+Ciudad Autonoma de Buenos Aires	Buenos Aires
+Bcs	Baja California Sur
+Bc	Baja California

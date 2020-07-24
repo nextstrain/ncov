@@ -1,0 +1,29 @@
+{
+    "__default__": {
+        "partition": "restart",
+        "time" : "00:05:00",
+        "cores" : 1,
+        "memory": "256",
+        "disk": "10",
+        "name": "{rule}.{wildcards}"
+    },
+    "align": {
+        "memory": "4096",
+        "cores": 2
+    },
+    "tree": {
+        "partition": "campus",
+        "time": "2:00:00",
+        "memory": "16384",
+        "cores": 4
+    },
+    "refine": {
+        "partition": "campus",
+        "time": "4:00:00",
+        "memory": "16384"
+    },
+    "ancestral": {
+        "time": "0:15:00",
+        "memory": "4096"
+    }
+}
