@@ -973,9 +973,12 @@ location	Middleton
 location	Ventura County
 location	Contra Costa County
 location	King County
+location	Grays Harbor County
 location	Monterey County CA
 location	Whatcom County
 location	Yakima County
+location	Walla Walla County
+location	Chelan County
 location	Thurston County
 location	Skagit County
 location	Snohomish County
@@ -1012,6 +1015,7 @@ location	Elmendorf AFB
 location	San Francisco
 location	San Diego County
 location	San Diego
+location	Tijuana
 location	San Mateo County
 location	Marin County
 location	San Joaquin County
@@ -1224,6 +1228,15 @@ location	Cape Town Metro
 location	eThekwini
 location	iLembe
 location	Zululand
+location	Overport
+location	Berea
+location	Morningside
+location	Umbilo
+location	Harry Gwala
+location	KwaDukuza
+location	uMzinyathi
+location	King Cetshwayo
+location	uMkhanyakude
 location	uMgungundlovu
 location	uThukela
 location	Ugu

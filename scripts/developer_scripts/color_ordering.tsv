@@ -1186,13 +1186,22 @@ location	Velingara
 location	Cape Town Metro
 
 # KwaZulu-Natal
+location	Harry Gwala
 location	Amajuba
 location	uMgungundlovu
 location	uThukela
 location	Ugu
+location	uMzinyathi
+location	Umbilo
+location	Overport
+location	Berea
 location	eThekwini
+location	Morningside
 location	iLembe
 location	Zululand
+location	KwaDukuza
+location	King Cetshwayo
+location	uMkhanyakude
 
 ################
 
@@ -1427,6 +1436,9 @@ location	Perez Zeledon
 location	La Union
 
 ### Mexico
+# Baja California
+location	Tijuana
+
 # Durango
 location	Gomez Palacios
 
@@ -1453,6 +1465,7 @@ location	Multnomah County
 location	Wasco County
 
 # Washington
+location	Grays Harbor County
 location	Jefferson County WA
 location	Mason County
 location	Thurston County
@@ -1467,10 +1480,12 @@ location	Skagit County
 location	Whatcom County
 location	Kittitas County
 location	Yakima County
+location	Chelan County
 location	Douglas County
 location	Grant County WA
 location	Franklin County WA
 location	Umatilla County
+location	Walla Walla County
 location	Adams County WA
 location	Spokane County
 location	Asotin County
@@ -2551,7 +2566,6 @@ division	Paraná
 division	Amapa
 division	Santa Catarina
 division	Goiás
-division	Goiais
 division	Distrito Federal
 division	São Paulo
 division	Maranhão

@@ -123,3 +123,13 @@ Mina da Agua	Amadora
 Ciudad Autonoma de Buenos Aires	Buenos Aires
 Bcs	Baja California Sur
 Bc	Baja California
+Stanger	KwaDukuza
+Ethekwini	eThekwini
+Uthukela	uThukela
+Umgungundlovu	uMgungundlovu
+Sisonke	Harry Gwala
+Umzinyathi	uMzinyathi
+Ilembe	iLembe
+Uthungulu	King Cetshwayo
+Umkhanyakude	uMkhanyakude
+Goias	Goiás

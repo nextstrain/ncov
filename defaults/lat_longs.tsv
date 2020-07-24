@@ -113,6 +113,7 @@ location	Benirredra	38.9612	-0.1928
 location	Benton County	36.2662	-94.4800
 location	Berchem	50.789509	3.509630
 location	Berchem-Sainte-Agathe	50.865005	4.292878
+location	Berea	-29.8505556	31.0019444
 location	Berg	50.931302	4.537617
 location	Bergamo	45.6983	9.6773
 location	Bergen County	40.9263	-74.0770
@@ -231,6 +232,7 @@ location	Champion	50.495161	4.902091
 location	Chandpur	23.2321	90.6631
 location	Changzhou	31.774498	119.919839
 location	Chateau-Thierry	49.048053	3.390023
+location	Chelan County	47.8012197	-120.6276904
 location	Chenango County	42.4972	-75.6208
 location	Chengdu	30.640989	104.067518
 location	Chercq	50.588930	3.422219
@@ -427,6 +429,7 @@ location	Grant County WA	47.209925	-119.420874
 location	Grant County WI	42.888151	-90.703612
 location	Grant Parish	31.570014	-92.534059
 location	Grau de Sagunt	39.633481	-0.241370
+location	Grays Harbor County	47.1744169	-123.8658829
 location	Greater Houston Area	29.679767	-95.360138
 location	Greater Milwaukee Area	43.0389	-87.9065
 location	Grecia	10.071966	-84.312172
@@ -461,6 +464,7 @@ location	Harchies	50.479753	3.694996
 location	Hardinxveld	51.8324	4.8336
 location	Hardinxveld Giessendam	51.830196	4.840971
 location	Harelbeke	50.865264	3.308918
+location	Harry Gwala	-30.0841649	29.745542074375365
 location	Hartford	43.3178	-88.3790
 location	Haulchin	50.383200	4.081708
 location	Havelange	50.359744	5.246545
@@ -577,6 +581,7 @@ location	Keur Massar	14.7825027	-17.3111773
 location	Kfar Saba	32.180607	34.912861
 location	Kheda	22.749950	72.686465
 location	Khedbrahma	24.0291	73.0435
+location	King Cetshwayo	-28.750343899999997	32.050227274984636
 location	King County	47.449221	-121.864246
 location	Kipen	59.6739	29.8498
 location	Kirkland	47.679486	-122.206354
@@ -592,6 +597,7 @@ location	Kraainem	50.8611	4.4593
 location	Kraków	50.0647	19.9450
 location	Kunming	25.013024	102.866742
 location	Kuurne	50.860060	3.270708
+location	KwaDukuza	-29.335722	31.296489
 location	Kynice	49.7392	15.3601
 location	Kyoto	35.007542	135.768455
 location	L'Aquila	42.360082	13.391087
@@ -735,6 +741,7 @@ location	Montreux-Chateau	47.607677	6.994181
 location	Montérégie	45.3872317844	-73.1007662636
 location	Morehouse Parish	32.813203	-91.810337
 location	Morlanwelz	50.450138	4.246584
+location	Morningside	-29.8183613	31.0180771
 location	Moulvibazar	24.4843	91.7685
 location	Mount Horeb	43.008707	-89.730497
 location	Mount-Vernon	41.851953	-72.440345
@@ -819,6 +826,7 @@ location	Oud-Turnhout	51.319510	5.004179
 location	Outagamie County	44.41603	-88.4602005
 location	Overijse	50.769757	4.532583
 location	Overpelt	51.219149	5.383722
+location	Overport	-29.837791950000003	30.990248958511735
 location	Ozaukee County	43.407672	-87.926654
 location	Paal	51.031859	5.166158
 location	Pabna	24.0129	89.2591
@@ -938,6 +946,7 @@ location	Sacramento County	38.494406	-121.301826
 location	Sador	22.693161	89.775469
 location	Sagunt	39.6801	-0.2784
 location	Saint Germain en Laye	48.938032	2.094734
+location	Saint Louis County	38.632980	-90.472478
 location	Saint-Ghislain	50.483208	3.802415
 location	Saint-Priest	45.704159	4.949456
 location	Saint-Thibault-des-Vignes	48.862026	2.674513
@@ -1033,7 +1042,6 @@ location	St Bernard Parish	29.805323	-89.660779
 location	St Tammany Parish	30.438441	-89.935519
 location	St. Anton	47.121254	10.265750
 location	St. Louis MO	38.6270	-90.1994
-location	Saint Louis County	38.632980	-90.472478
 location	Starnberg	48.0000	11.3390
 location	Staten Island	40.592429	-74.149614
 location	Stearns County	45.535326	-94.6139422
@@ -1088,6 +1096,7 @@ location	Tibas	9.9576	-84.0816
 location	Tielt-Winge	50.922676	4.892596
 location	Tienen	50.80466	4.937784
 location	Tierralta	8.171825	-76.060340
+location	Tijuana	32.5010188	-116.9646629
 location	Tilburg	51.571419	5.052759
 location	Tobarra	38.5910	-1.6931
 location	Togui	5.937829	-73.513494
@@ -1116,6 +1125,7 @@ location	Ujjain	23.161092	75.803740
 location	Ulan-Ude	51.827029	107.655954
 location	Ulster County	41.8586	-74.3118
 location	Umatilla County	45.648981	-118.720688
+location	Umbilo	-29.8905556	30.9777778
 location	Una	31.4685	76.2708
 location	Urcuqui	0.4172921	-78.1941499
 location	Utrecht	52.0907	5.1214
@@ -1156,6 +1166,7 @@ location	Waasmont	50.726586	5.062739
 location	Waasmunster	51.1182	4.080492
 location	Wabasha County	 44.274798	-92.226763
 location	Wadelincourt	50.537149	3.653475
+location	Walla Walla County	46.2055155	-118.5174284
 location	Wallingford	41.460399	-72.804432
 location	Wandre	50.667253	5.661576
 location	Wanze	50.549453	5.196784
@@ -1230,6 +1241,8 @@ location	Zululand	-27.897909900000002	31.293846335885597
 location	eThekwini	-29.861825	31.009909
 location	iLembe	-29.240765	31.234110920000003
 location	uMgungundlovu	-29.52982	30.057047991912206
+location	uMkhanyakude	-46.77757335	37.79103213020967
+location	uMzinyathi	-28.0585234	30.3725385
 location	uThukela	-28.7446904	30.2224445
 location	Écaussinnes	50.561198	4.181268
 
