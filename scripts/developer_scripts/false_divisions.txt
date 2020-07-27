@@ -33,3 +33,4 @@ Villavicencio	Meta
 Cartagena	Bolivar
 Barranquilla	Atlantico
 Armenia	Quindio
+Guediawaye	Dakar

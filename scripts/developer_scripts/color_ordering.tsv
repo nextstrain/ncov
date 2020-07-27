@@ -1455,7 +1455,6 @@ location	Burunga
 location	Veracruz
 
 # Panama Center
-location	San Francisco
 location	Calidonia
 location	Pueblo Nuevo
 location	Las Cumbres
@@ -1474,6 +1473,7 @@ location	Bella Vista
 location	Omar Torrijos
 location	Amelia Denis de Icaza
 location	Victoriano Lorenzo
+location	San Francisco PA
 location	Belisario Porras
 location	Belisario Frías
 location	Parque Lefevre
@@ -2570,6 +2570,7 @@ division	Nigeria
 
 ### Senegal
 division	Dakar
+division	Pikine
 division	Mbour
 division	Thies
 division	St-Louis
@@ -2757,6 +2758,7 @@ division	Quintana Roo
 ### Panama
 division	Chiriqui
 division	Bocas del Toro
+division	Santiago de Veraguas
 division	Herrera
 division	Cocle
 division	Los Santos
@@ -2765,7 +2767,6 @@ division	Panama Oeste
 division	Panama City
 division	Panama Center
 division	Guna Yala
-division	Santiago
 
 ### USA
 division	Hawaii

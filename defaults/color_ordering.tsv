@@ -167,9 +167,9 @@ location	Tweed Heads
 location	Perth
 location	Sunshine Coast
 location	Melbourne
+location	Clayton AU
 location	Brisbane
 location	Rockhampton
-location	Clayton
 location	Auckland
 location	Gilgit
 location	Riyadh
@@ -934,11 +934,53 @@ location	Grecia
 location	Escazu
 location	San Jose
 location	Curridabat
-location	Santa Ana
+location	Santa Ana CR
 location	Perez Zeledon
 location	Aserri
 location	Desamparados
 location	Tarrazu
+location	San Francisco PA
+location	Parque Lefevre
+location	Las Cumbres
+location	Pedregal
+location	Omar Torrijos
+location	Betania
+location	Amelia Denis de Icaza
+location	Juan Díaz
+location	Bella Vista
+location	Rufina Alfaro
+location	Alcalde Díaz
+location	Ernesto Córdoba
+location	Pacora
+location	Clayton PA
+location	Ancón
+location	Arnulfo Arias
+location	Don Bosco
+location	Río Abajo
+location	Pueblo Nuevo
+location	Chepo
+location	El Crisol
+location	Las Mañanitas
+location	Tocumen
+location	Santa Ana PA
+location	Calidonia
+location	Parque Real
+location	Chilibre
+location	El Chorrillo
+location	Belisario Frías
+location	Jose Domingo Espinar
+location	Victoriano Lorenzo
+location	Belisario Porras
+location	Juan Demóstenes Arosemena
+location	Vista Alegre
+location	La Chorrera
+location	Arraiján
+location	Herrera (Panama Oeste)
+location	Lídice
+location	Guadalupe
+location	Burunga
+location	Veracruz
+location	Aligandí
 location	Nicoya
 location	Orotina
 location	La Union
@@ -1023,6 +1065,7 @@ location	Sacramento County
 location	Santa Clara County
 location	Davis
 location	Grant County WA
+location	San Juan County
 location	Grant County WI
 location	Winnebago County WI
 location	Lafayette County
@@ -1914,6 +1957,7 @@ division	West Coast Region
 division	Mbour
 division	Touba
 division	Dakar
+division	Pikine
 division	Kolda
 division	St-Louis
 division	Thies
@@ -1973,6 +2017,13 @@ division	Uruguay
 division	Rivera
 division	Maldonado
 division	Colombia
+division	Soledad
+division	Tunja
+division	Santander de Quilichao
+division	Pasto
+division	Cienaga de Oro
+division	Suesca
+division	Tolemaida
 division	Meta
 division	Caldas
 division	Cali
@@ -2017,6 +2068,16 @@ division	Lima
 division	Montevideo
 division	Panama City
 division	Panama
+division	Panama Center
+division	Panama Oeste
+division	Colon
+division	Santiago de Veraguas
+division	Cocle
+division	Chiriqui
+division	Guna Yala
+division	Bocas del Toro
+division	Herrera
+division	Los Santos
 division	Alajuela
 division	Heredia
 division	Cartago CO
