@@ -45,6 +45,8 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
             content = {'location': {}, 'division': {}, 'country': {}, 'region': {}}
         for line in file_content[1:]:
             l = line.strip().split("\t")
+            if line.endswith("\t\n"):
+                l = [l[0], l[1], ""] #allow empty assignment of hierarchy (e.g. set location to blank)
             if l[0] in content:
                 if l[1] in content[l[0]]:
                     print("Attention, duplicate found while reading " + file_name + ": " + l[0] + " -> " + l[1] + ", " + content[l[0]] + ", " + content[l[1]])
@@ -585,7 +587,8 @@ def check_for_missing(data):
                         missing["division"][country] = []
                         clean_missing["division"][country] = []
                     missing["division"][country].append(s)
-                    clean_missing["division"][country].append(division)
+                    if "(only missing in ordering" not in s:
+                        clean_missing["division"][country].append(division)
 
                 else:
                     if country not in data_clean[region]:
@@ -629,7 +632,8 @@ def check_for_missing(data):
                                 clean_missing["location"][country][division] = []
                         if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
                             missing["location"][country][division].append(s)
-                            clean_missing["location"][country][division].append(location)
+                            if "(only missing in ordering" not in s:
+                                clean_missing["location"][country][division].append(location)
                         else:
                             print("Cruise-associated location ignored ("+location+")")
 
