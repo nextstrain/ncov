@@ -41,7 +41,8 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
     third_files = [path_to_script_files+fi for fi in ["variants.txt"] ]
 
     if path_file_name in third_files: #need two level-dict
-        content = {}
+        if path_file_name == path_to_script_files+"variants.txt":
+            content = {'location': {}, 'division': {}, 'country': {}, 'region': {}}
         for line in file_content[1:]:
             l = line.strip().split("\t")
             if l[0] in content:

@@ -25,8 +25,8 @@ location	União das freguesias de Santarem	Santarem
 location	União das freguesias de Seia	Seia
 location	Buraymi	Buraimi
 location	Qurayat	Qurayyat
+location	Falagueria- Venda Nova	Amadora
 ##location 	Whitehall County	Trempealeau County #Needs to specify WI division
-##location	Falagueria- Venda Nova	Amadora #can't find this in annotations
 division	Nw	North-West
 division	Ec	Eastern Cape
 division	Gp	Gauteng
