@@ -24,3 +24,12 @@ Litovel	Olomouc Region
 Guayaquil	Guayas
 Breclav	South Moravian Region
 Benevento	Campania
+Togui	Boyaca
+Zipaquira	Cundinamarca
+Pereira	Risaralda
+Santa Marta	Magdalena
+Valledupar	Cesar
+Villavicencio	Meta
+Cartagena	Bolivar
+Barranquilla	Atlantico
+Armenia	Quindio

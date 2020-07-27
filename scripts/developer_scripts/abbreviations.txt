@@ -49,3 +49,6 @@ Washington	WA
 West Virginia	WV
 Wisconsin	WI
 Wyoming	WY
+Panama Center	PA
+Victoria	AU
+San Jose	CR

@@ -288,7 +288,7 @@ location	Perth
 
 # Victoria
 location	Melbourne
-location	Clayton
+location	Clayton AU
 
 # Queensland
 location	Northern Queensland
@@ -1422,7 +1422,7 @@ location	Alajuela
 location	San Rafael Heredia
 
 # San Jose
-location	Santa Ana
+location	Santa Ana CR
 location	Escazu
 location	San Jose
 location	Aserri
@@ -1441,6 +1441,55 @@ location	Tijuana
 
 # Durango
 location	Gomez Palacios
+
+### Panama
+# Panama Oeste
+location	Lídice
+location	La Chorrera
+location	Herrera (Panama Oeste)
+location	Guadalupe
+location	Juan Demóstenes Arosemena
+location	Vista Alegre
+location	Arraiján
+location	Burunga
+location	Veracruz
+
+# Panama Center
+location	San Francisco
+location	Calidonia
+location	Pueblo Nuevo
+location	Las Cumbres
+location	Chilibre
+location	Ancón
+location	Clayton PA
+location	Juan Díaz
+location	Alcalde Díaz
+location	Arnulfo Arias
+location	El Chorrillo
+location	Río Abajo
+location	Santa Ana PA
+location	Ernesto Córdoba
+location	Betania
+location	Bella Vista
+location	Omar Torrijos
+location	Amelia Denis de Icaza
+location	Victoriano Lorenzo
+location	Belisario Porras
+location	Belisario Frías
+location	Parque Lefevre
+location	Jose Domingo Espinar
+location	El Crisol
+location	Pedregal
+location	Rufina Alfaro
+location	Don Bosco
+location	Parque Real
+location	Las Mañanitas
+location	Tocumen
+location	Pacora
+location	Chepo
+
+# Guna Yala
+location	Aligandí
 
 ### USA
 # Alaska
@@ -1468,6 +1517,7 @@ location	Wasco County
 location	Grays Harbor County
 location	Jefferson County WA
 location	Mason County
+location	San Juan County
 location	Thurston County
 location	Cowlitz County
 location	Clark County
@@ -2599,26 +2649,33 @@ division	Punta Arenas
 
 ### Colombia
 division	Narino
+division	Pasto
 division	Choco
 division	Cauca
+division	Santander de Quilichao
 division	Valle del Cauca
 division	Cartago CO
 division	Risaralda
 division	Cordoba
 division	Quindio
+division	Cienaga de Oro
 division	Huila
 division	Antioquia
 division	Caldas
 division	Tolima
 division	Atlantico
+division	Soledad
+division	Tolemaida
 division	Bolivar
 division	Magdalena
 division	Bogota
 division	Cundinamarca
+division	Suesca
 division	Colombia
 division	Cesar
 division	Santander
 division	Boyaca
+division	Tunja
 division	Meta
 division	Norte de Santander
 division	Departamento de Amazonas
@@ -2698,7 +2755,17 @@ division	Yucatan
 division	Quintana Roo
 
 ### Panama
+division	Chiriqui
+division	Bocas del Toro
+division	Herrera
+division	Cocle
+division	Los Santos
+division	Colon
+division	Panama Oeste
 division	Panama City
+division	Panama Center
+division	Guna Yala
+division	Santiago
 
 ### USA
 division	Hawaii

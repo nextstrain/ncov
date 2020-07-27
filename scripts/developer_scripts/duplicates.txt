@@ -13,3 +13,5 @@ Fairfield County
 Richland County
 Jackson County
 Franklin County
+Clayton
+Santa Ana
