@@ -110,6 +110,12 @@ location	Bharuch
 location	Kheda
 location	Mandvi
 location	Bhuj
+location	Daskroi
+location	Dholka
+location	Bhavnagar
+location	Ghogha
+location	Mahuva
+location	Kamrej
 location	Savali
 location	Bardoli
 location	Choryasi
@@ -606,6 +612,7 @@ location	Tuebingen
 location	Strasbourg
 location	Rome
 location	Naples
+location	Benevento
 location	Taranto
 location	Lecce
 location	Brindisi
@@ -966,9 +973,12 @@ location	Middleton
 location	Ventura County
 location	Contra Costa County
 location	King County
+location	Grays Harbor County
 location	Monterey County CA
 location	Whatcom County
 location	Yakima County
+location	Walla Walla County
+location	Chelan County
 location	Thurston County
 location	Skagit County
 location	Snohomish County
@@ -1005,6 +1015,7 @@ location	Elmendorf AFB
 location	San Francisco
 location	San Diego County
 location	San Diego
+location	Tijuana
 location	San Mateo County
 location	Marin County
 location	San Joaquin County
@@ -1056,6 +1067,7 @@ location	Staten Island
 location	Bronx
 location	Hudson County
 location	Essex County
+location	Burlington County
 location	Camden County
 location	Westchester County
 location	Richmond County
@@ -1121,6 +1133,7 @@ location	Livingston Parish
 location	Iberville Parish
 location	Pittsburgh
 location	St. Louis MO
+location	Saint Louis County
 location	Colorado Springs
 location	Alameda County
 location	Humboldt County
@@ -1215,6 +1228,15 @@ location	Cape Town Metro
 location	eThekwini
 location	iLembe
 location	Zululand
+location	Overport
+location	Berea
+location	Morningside
+location	Umbilo
+location	Harry Gwala
+location	KwaDukuza
+location	uMzinyathi
+location	King Cetshwayo
+location	uMkhanyakude
 location	uMgungundlovu
 location	uThukela
 location	Ugu
@@ -1227,6 +1249,8 @@ location	Kfar Saba
 
 
 
+division	Asia
+division	Kyrgyzstan
 division	Mongolia
 division	China
 division	Hubei
@@ -1310,6 +1334,7 @@ division	Kargil
 division	Telangana
 division	Karnataka
 division	North Sulawesi
+division	Indonesia
 division	East Kalimantan
 division	Gujarat
 division	Lucknow
@@ -1456,6 +1481,7 @@ division	South Coast District
 division	South District
 division	Jordan
 division	Turkey
+division	Kars Province
 division	Styria
 division	Denizli
 division	Tokat
@@ -1835,8 +1861,10 @@ division	Thessaloniki
 division	Finland
 division	Uusimaa
 division	Denmark
+division	Faroe Islands
 division	Portugal
 division	Egypt
+division	Nile River Cruise
 division	Cairo
 division	Kalyoubia
 division	Oueme
@@ -1862,6 +1890,9 @@ division	Ouarzazate
 division	Lagos
 division	Ondo State
 division	Uganda
+division	Niger
+division	Togo
+division	Burkina Faso
 division	Kenya
 division	Democratic Republic of the Congo
 division	Haut-Katanga
@@ -2002,8 +2033,18 @@ division	Mexico City
 division	Estado de Mexico
 division	Chiapas
 division	Chihuahua
+division	Guanajuato
+division	Sinaloa
+division	Tabasco
+division	Morelos
+division	Nayarit
+division	Sonora
+division	Yucatan
+division	Baja California Sur
+division	Baja California
 division	Puebla
 division	Queretaro
+division	South America
 division	USA
 division	Washington DC
 division	Maryland
@@ -2067,6 +2108,7 @@ division	Saskatchewan
 division	British Columbia
 
 
+country	Asia
 country	Mongolia
 country	China
 country	Hong Kong
@@ -2155,6 +2197,10 @@ country	Morocco
 country	Uganda
 country	Democratic Republic of the Congo
 country	South Africa
+country	Togo
+country	Niger
+country	Burkina Faso
+country	South America
 country	Chile
 country	Ecuador
 country	Peru

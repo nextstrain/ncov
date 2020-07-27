@@ -26,6 +26,15 @@ location	União das freguesias de Seia	Seia
 location	Buraymi	Buraimi
 location	Qurayat	Qurayyat
 location	Falagueria- Venda Nova	Amadora
+location	Stanger	KwaDukuza
+location	Ethekwini	eThekwini
+location	Uthukela	uThukela
+location	Umgungundlovu	uMgungundlovu
+location	Sisonke	Harry Gwala
+location	Umzinyathi	uMzinyathi
+location	Ilembe	iLembe
+location	Uthungulu	King Cetshwayo
+location	Umkhanyakude	uMkhanyakude
 ##location 	Whitehall County	Trempealeau County #Needs to specify WI division
 division	Nw	North-West
 division	Ec	Eastern Cape
@@ -39,7 +48,7 @@ division	Bucuresti	Bucharest
 division	Ghent	Gent
 division	Gavleborg	Gavleborgs Lan
 division	Bat-Yam	Bat Yam
-division	Jerusalem	Jerusalem District
+division	Jerusalem	Jerusalemusti District
 division	Auvergne Rhone Alpes	Auvergne-Rhône-Alpes
 division	Zurich	Zürich
 division	Dakarhuman	Dakar
@@ -119,6 +128,9 @@ division	Buraymi	Buraimi
 division	Ncr	National Capital Region
 division	Chittagong	Chattogram
 division	Ciudad Autonoma de Buenos Aires	Buenos Aires
+division	Bcs	Baja California Sur
+division	Bc	Baja California
+division	Goias	Goiás
 division	Bahrein	Bahrain
 country	Bahrein	Bahrain
 division	Sao Paulo	São Paulo

@@ -364,6 +364,9 @@ USA/CruiseA-26/2020
 #USA/CruiseA-21/2020
 #USA/CruiseA-22/2020
 
+# Suspected wrong date - listed as 16 Feb but code says epi week 16 (12-18 Apr) see https://bedfordlab.slack.com/archives/CSKMU6YUC/p1595518895288300
+England/20168037604/2020
+
 # causes IQTREE error: ERROR: b'ERROR: Sequence Norway_X_X_1539_X_X_2020 has invalid character I at site 20199
 # The GISAID data was subsequently updated => TODO check if this sequence has been fixed
 Norway/1539/2020
@@ -724,3 +727,13 @@ Belgium/ULG-10120/2020
 Belgium/ULG-10166/2020
 Belgium/ULG-10168/2020
 Belgium/ULG-10109/2020
+
+# wrong dates according to PHE naming scheme; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1595623954471500
+England/201040021/2020
+England/201040023/2020
+England/201040024/2020
+England/20129054906/2020
+England/20130071804/2020
+England/20132079304/2020
+England/20168037604/2020
+England/20186075504/2020
