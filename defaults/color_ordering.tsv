@@ -3,6 +3,7 @@ location	Tianmen
 location	Hefei
 location	Jingzhou
 location	Jiujiang
+location	Dalian
 location	Jian
 location	Pu'Er
 location	Xinyu
@@ -157,6 +158,7 @@ location	Ibri
 location	Buraimi
 location	Dhanera
 location	Darjeeling
+location	Nilphamari
 location	Singapore
 location	Gold Coast
 location	Sydney
@@ -1299,6 +1301,7 @@ division	China
 division	Hubei
 division	Guangxi
 division	Henan
+division	Liaoning
 division	Beijing
 division	Anhui
 division	Jiangxi
@@ -1446,6 +1449,7 @@ division	Karachi
 division	Islamabad
 division	Rawalpindi
 division	Bangladesh
+division	Mymensingh
 division	Rajshahi
 division	Rangpur
 division	Mirpur
@@ -2111,6 +2115,7 @@ division	Washington DC
 division	Maryland
 division	Texas
 division	Missouri
+division	Mississippi
 division	Florida
 division	Georgia
 division	Alabama
