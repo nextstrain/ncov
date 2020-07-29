@@ -49,11 +49,13 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
                 l = [l[0], l[1], ""] #allow empty assignment of hierarchy (e.g. set location to blank)
             if l[0] in content:
                 if l[1] in content[l[0]]:
-                    print("Attention, duplicate found while reading " + file_name + ": " + l[0] + " -> " + l[1] + ", " + content[l[0]] + ", " + content[l[1]])
+                    print("Attention, duplicate found while reading " + file_name + ": " + l[1] + " -> " + " ".join(l[2:]) + ", " + " ".join(content[l[0]][l[1]]))
                 content[l[0]][l[1]] = l[2]
             else:
                 content[l[0]] = {}
                 content[l[0]][l[1]] = l[2]
+            if len(l) == 4:
+                content[l[0]][l[1]] = (l[2],l[3])
         return content
 
 
@@ -126,6 +128,16 @@ def read_metadata(metadata):
                 print("UK issue: division " + division + " != country " + country)
             region = "Europe"
             country = "United Kingdom"
+                
+        if country == "China" and division == "Hong Kong":
+            additions_to_annotation.append(strain + "\t" + id + "\tcountry\tHong Kong #previously China")
+            country = "Hong Kong"
+            if location != "":
+                additions_to_annotation.append(strain + "\t" + id + "\tdivision\t" + location)
+                additions_to_annotation.append(strain + "\t" + id + "\tlocation\t")
+                division = location
+                location = ""
+
 
         if strain in sequences_exclude:
             continue
@@ -374,6 +386,11 @@ def apply_variants(data): #TODO: currently, the file variants.txt doesn't distin
         for country in data[region]:
             if country in variants['country']:
                 country_correct = variants['country'][country]
+                if type(variants['country'][country]) is tuple:
+                    if variants['country'][country][1] == "(" + region + ")":
+                        country_correct = variants['country'][country][0]
+                    else:
+                        continue
                 print("Apply variant (country): " + bold(country) + " -> " + bold(country_correct))
                 countries_to_switch[country] = (region, country_correct)
 
@@ -385,6 +402,11 @@ def apply_variants(data): #TODO: currently, the file variants.txt doesn't distin
             for division in data[region][country]:
                 if division in variants['division']:
                     division_correct = variants['division'][division]
+                    if type(variants['division'][division]) is tuple:
+                        if variants['division'][division][1] == "(" + region + ", " + country + ")":
+                            division_correct = variants['division'][division][0]
+                        else:
+                            continue
                     print("Apply variant (division): " + bold(division) + " -> " + bold(division_correct))
                     divisions_to_switch[division] = (region, country, division_correct)
 
@@ -397,6 +419,11 @@ def apply_variants(data): #TODO: currently, the file variants.txt doesn't distin
                 for location in data[region][country][division]:
                     if location in variants['location']:
                         location_correct = variants['location'][location]
+                        if type(variants['location'][location]) is tuple:
+                            if variants['location'][location][1] == "(" + region + ", " + country + ", " + division + ")":
+                                location_correct = variants['location'][location][0]
+                            else:
+                                continue
                         print("Apply variant (location): " + bold(location) + " -> " + bold(location_correct))
                         locations_to_switch[location] = (region, country, division, location_correct)
 
