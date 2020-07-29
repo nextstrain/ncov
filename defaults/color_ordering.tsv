@@ -657,6 +657,23 @@ location	Barasoain
 location	Logrono
 location	Mutilva
 location	Calahorra
+location	Najera
+location	San Vicente de la Sonsierra
+location	Haro
+location	Nalda
+location	Alberite
+location	Ezcaray
+location	Santo Domingo de la Calzada
+location	El Villar de Arnedo
+location	Villamediana de Iregua
+location	Ojacastro
+location	Lardero
+location	Casalarreina
+location	Albelda de Iregua
+location	Autol
+location	Herce
+location	Alfaro
+location	Agoncillo
 location	Cintruenigo
 location	Noain
 location	Tafalla
@@ -669,6 +686,17 @@ location	Torres De Elorz
 location	Bizkaia
 location	Bermeo
 location	Rota
+location	Cordoba
+location	Cullar Vega
+location	Castillo de Locubin
+location	Cijuela
+location	Las Gabias
+location	Cogollos de la Vega
+location	Puebla de Don Fadrique
+location	Durcal
+location	La Zubia
+location	Illora
+location	Alfacar
 location	Puerto Santa Maria
 location	San Fernando
 location	Mairena Aljarafe
@@ -689,6 +717,8 @@ location	Alcala la Real
 location	Almansa
 location	Atarfe
 location	Ayna
+location	Motilleja
+location	Bogarra
 location	Balazote
 location	Castril
 location	Churriana de la Vega
@@ -730,7 +760,6 @@ location	Ambite
 location	Boiro
 location	Boqueixón
 location	Campo Real
-location	Cordoba
 location	Granada
 location	La Estrada
 location	Las Palmas
@@ -768,6 +797,8 @@ location	Noia
 location	Manacor
 location	Marratxí
 location	Muros
+location	Outes
+location	Pontecesures
 location	Oroso
 location	Padrón
 location	Palma
@@ -914,6 +945,13 @@ location	Niteroi
 location	Joinville
 location	Maceio
 location	Manaus
+location	Recife
+location	Olinda
+location	Jaboatao Dos Guararapes
+location	Ipojuca
+location	Camaragibe
+location	Alianca
+location	Sao Lourenco Da Mata
 location	Diadema
 location	Rio Claro
 location	Sao Bernardo do Campo
@@ -1871,6 +1909,11 @@ division	England
 division	Nottinghamshire
 division	Wales
 division	Ireland
+division	Sligo
+division	Waterford
+division	Kilkenny
+division	Leitrim
+division	Kerry
 division	Dublin
 division	Tipperary
 division	Louth
@@ -2013,6 +2056,7 @@ division	Acre
 division	Maranhão
 division	Venezuela
 division	Argentina
+division	Cordoba AR
 division	Ciudad Autonoma de Buenos Aires
 division	Buenos Aires
 division	Rio Negro
@@ -2021,6 +2065,7 @@ division	Uruguay
 division	Rivera
 division	Maldonado
 division	Colombia
+division	Cordoba CO
 division	Soledad
 division	Tunja
 division	Santander de Quilichao
@@ -2046,7 +2091,6 @@ division	Huila
 division	Tolima
 division	Risaralda
 division	Magdalena
-division	Cordoba
 division	Cesar
 division	Norte de Santander
 division	Para
@@ -2123,6 +2167,7 @@ division	Arkansas
 division	Louisiana
 division	North Carolina
 division	South Carolina
+division	South Dakota
 division	Virginia
 division	Rhode Island
 division	Connecticut

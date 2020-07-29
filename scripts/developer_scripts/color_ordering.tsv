@@ -12,6 +12,9 @@ location	Pabna
 # Jhenaidha
 location	Shailokupa
 
+# Rangpur
+location	Nilphamari
+
 # Khulna
 location	Jashore
 
@@ -108,6 +111,9 @@ location	Hangzhou
 location	Keqiao
 location	Yuecheng
 location	Shangyu
+
+# Liaoning
+location	Dalian
 
 # Heilongjiang
 location	Harbin
@@ -961,6 +967,7 @@ location	Las Palmas
 # Galicia
 location	Muros
 location	Ribeira
+location	Outes
 location	Noia
 location	Boiro
 location	Santa Comba
@@ -968,6 +975,7 @@ location	Rianjo
 location	Negreira
 location	Padrón
 location	Ames
+location	Pontecesures
 location	Valga
 location	Teo
 location	La Estrada
@@ -1001,13 +1009,18 @@ location	Malaga
 location	Rincon de la Victoria
 location	Benajarafe
 location	Velez Malaga
+location	Castillo de Locubin
 location	Alcala la Real
+location	Illora
 location	Frailes
 location	Valderrubio
+location	Cijuela
 location	Pinos Puente
 location	Santa Fe
 location	Vegas del Genil
+location	Las Gabias
 location	Atarfe
+location	Cullar Vega
 location	Albolote
 location	Churriana de la Vega
 location	Otura
@@ -1017,6 +1030,10 @@ location	Pulianas
 location	Granada
 location	Guevejar
 location	Jun
+location	La Zubia
+location	Cogollos de la Vega
+location	Durcal
+location	Alfacar
 location	Iznalloz
 location	Huetor Santillan
 location	Ubeda
@@ -1027,6 +1044,7 @@ location	Zujar
 location	Castril
 location	Cortijos Nuevos
 location	Almeria
+location	Puebla de Don Fadrique
 
 # Madrid
 location	Parla
@@ -1047,21 +1065,40 @@ location	Villarrobledo
 location	San Clemente
 location	Riopar
 location	Lezuza
+location	Bogarra
 location	Balazote
 location	Cuenca
 location	Villanueva de la Jara
 location	Tazona
 location	Albacete
 location	Madrigueras
+location	Motilleja
 location	Mingogil
 location	Hellin
 location	Tobarra
 location	Almansa
 
 # La Rioja
+location	Ezcaray
+location	Ojacastro
+location	Santo Domingo de la Calzada
+location	Casalarreina
+location	Haro
+location	San Vicente de la Sonsierra
+location	Najera
+location	Nalda
+location	Albelda de Iregua
+location	Lardero
 location	Logrono
+location	Alberite
+location	Villamediana de Iregua
+location	Agoncillo
+location	Herce
+location	El Villar de Arnedo
 location	Pradejon
+location	Autol
 location	Calahorra
+location	Alfaro
 
 # Basque Country
 location	Portugalete
@@ -1259,6 +1296,15 @@ location	Feira de Santana
 # Espirito Santo
 location	Vila Velha
 
+# Pernambuco
+location	Alianca
+location	Ipojuca
+location	Sao Lourenco Da Mata
+location	Camaragibe
+location	Jaboatao Dos Guararapes
+location	Recife
+location	Olinda
+
 # Alagoas
 location	Maceio
 
@@ -1300,10 +1346,6 @@ location	Andalucia
 # Risaralda
 location	Pereira
 location	Dosquebradas
-
-# Cordoba
-location	Tierralta
-location	Monteria
 
 # Quindio
 location	Armenia
@@ -1830,6 +1872,7 @@ division	Bagherhat
 division	Tangail
 division	Bangladesh
 division	Barishal
+division	Mymensingh
 division	Dhaka
 division	Narayanganj
 division	Chattogram
@@ -1858,6 +1901,7 @@ division	Shandong
 division	Jiangsu
 division	Zhejiang
 division	Shanghai
+division	Liaoning
 division	Heilongjiang
 
 ### Georgia
@@ -2280,10 +2324,15 @@ division	Szabolcs-Szatmár-Bereg County
 division	Reykjavik
 
 ### Ireland
+division	Kerry
 division	Limerick
+division	Sligo
 division	Cork
 division	Tipperary
+division	Leitrim
 division	Ireland
+division	Kilkenny
+division	Waterford
 division	Louth
 division	Dublin
 division	Wicklow
@@ -2657,7 +2706,6 @@ division	Santander de Quilichao
 division	Valle del Cauca
 division	Cartago CO
 division	Risaralda
-division	Cordoba
 division	Quindio
 division	Cienaga de Oro
 division	Huila
@@ -2784,6 +2832,7 @@ division	Montana
 division	Wyoming
 division	New Mexico
 division	Colorado
+division	South Dakota
 division	Nebraska
 division	Texas
 division	USA
@@ -2794,6 +2843,7 @@ division	Iowa
 division	Louisiana
 division	Arkansas
 division	Missouri
+division	Mississippi
 division	Wisconsin
 division	Illinois
 division	Alabama

@@ -1,4 +1,4 @@
-level	misspelled name	correct name
+level	misspelled name	correct name	(optional: specify region/country/division)
 location	Mina da Agua	Amadora
 location	St Louis	St-Louis
 location	Imperial	Imperial County
@@ -137,7 +137,7 @@ division	Sao Paulo	São Paulo
 location	Sao Paulo	São Paulo
 division	United States	USA
 country	United States	USA
-#division	Santiago	Santiago de Veraguas	#for future use, only in Panama!
+division	Santiago	Santiago de Veraguas	(North America, Panama)
 location	Herrera	Herrera (Panama Oeste)
 division	Panama West	Panama Oeste
 location	24 de Diciembre	Parque Real
@@ -145,3 +145,6 @@ location	Mañanitas	Las Mañanitas
 location	Chorrillo	El Chorrillo
 location	Chorrera	La Chorrera
 location	Desconocido	
+location	San Francisco	San Francisco PA	(North America, Panama, Panama Center)
+division	Washingtondc	Washington DC
+location	Vitoria	Vitoria-Gasteiz	(Europe, Spain, Basque Country)
