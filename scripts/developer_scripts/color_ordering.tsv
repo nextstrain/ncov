@@ -1347,6 +1347,10 @@ location	Andalucia
 location	Pereira
 location	Dosquebradas
 
+# Cordoba CO
+location	Tierralta
+location	Monteria
+
 # Quindio
 location	Armenia
 
@@ -2651,6 +2655,7 @@ division	Uganda
 
 ### Argentina
 division	Tucuman
+division	Cordoba AR
 division	Argentina
 division	Rio Negro
 division	Buenos Aires
@@ -2706,6 +2711,7 @@ division	Santander de Quilichao
 division	Valle del Cauca
 division	Cartago CO
 division	Risaralda
+division	Cordoba CO
 division	Quindio
 division	Cienaga de Oro
 division	Huila
