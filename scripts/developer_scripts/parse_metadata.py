@@ -828,7 +828,12 @@ def write_ordering(data, hierarchy):
             return
 
         # Give fixed order of regions to retain the usual coloring order
-        region_order = ["Asia", "Oceania", "Europe", "Africa", "South America", "North America"] #TODO: is this the correct order?
+        region_order = ["Asia",
+                        "Oceania",
+                        "Africa",
+                        "Europe",
+                        "South America",
+                        "North America"]
 
         for region in region_order:
 

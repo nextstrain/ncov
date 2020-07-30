@@ -148,3 +148,4 @@ location	Desconocido
 location	San Francisco	San Francisco PA	(North America, Panama, Panama Center)
 division	Washingtondc	Washington DC
 location	Vitoria	Vitoria-Gasteiz	(Europe, Spain, Basque Country)
+division	Edomex	Mexico

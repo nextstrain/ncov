@@ -315,6 +315,50 @@ location	Auckland
 
 ################
 
+# Africa
+
+### Egypt
+# Cairo
+location	Al Matariyyah
+
+### Ghana
+# Greater Accra
+location	Accra
+
+### Senegal
+# Dakar
+location	Guediawaye
+location	Yeumbeul
+location	Mbao
+location	Sangalkam
+
+# Kolda
+location	Velingara
+
+### South Africa
+# Western Cape Province
+location	Cape Town Metro
+
+# KwaZulu-Natal
+location	Harry Gwala
+location	Amajuba
+location	uMgungundlovu
+location	uThukela
+location	Ugu
+location	uMzinyathi
+location	Umbilo
+location	Overport
+location	Berea
+location	eThekwini
+location	Morningside
+location	iLembe
+location	Zululand
+location	KwaDukuza
+location	King Cetshwayo
+location	uMkhanyakude
+
+################
+
 # Europe
 
 ### Austria
@@ -1198,50 +1242,6 @@ location	Warwickshire
 
 ################
 
-# Africa
-
-### Egypt
-# Cairo
-location	Al Matariyyah
-
-### Ghana
-# Greater Accra
-location	Accra
-
-### Senegal
-# Dakar
-location	Guediawaye
-location	Yeumbeul
-location	Mbao
-location	Sangalkam
-
-# Kolda
-location	Velingara
-
-### South Africa
-# Western Cape Province
-location	Cape Town Metro
-
-# KwaZulu-Natal
-location	Harry Gwala
-location	Amajuba
-location	uMgungundlovu
-location	uThukela
-location	Ugu
-location	uMzinyathi
-location	Umbilo
-location	Overport
-location	Berea
-location	eThekwini
-location	Morningside
-location	iLembe
-location	Zululand
-location	KwaDukuza
-location	King Cetshwayo
-location	uMkhanyakude
-
-################
-
 # South America
 
 ### Argentina
@@ -1303,6 +1303,7 @@ location	Sao Lourenco Da Mata
 location	Camaragibe
 location	Jaboatao Dos Guararapes
 location	Recife
+location	Paulista
 location	Olinda
 
 # Alagoas
@@ -2148,6 +2149,88 @@ division	Bay of Plenty
 
 ################
 
+# Africa
+
+### Algeria
+division	Blida
+division	Boufarik
+
+### Benin
+division	Cotonou
+division	Oueme
+
+### Democratic Republic of the Congo
+division	Kongo Central
+division	Kinshasa
+division	Democratic Republic of the Congo
+division	Haut-Katanga
+division	Sud Kivu
+
+### Egypt
+division	Egypt
+division	Cairo
+division	Kalyoubia
+
+### Gambia
+division	Kombo
+division	West Coast Region
+
+### Ghana
+division	Greater Accra
+
+### Kenya
+division	Kenya
+
+### Mali
+division	Bamako
+division	Mopti
+
+### Morocco
+division	Casablanca
+division	Rabat
+division	Morocco
+division	Ouarzazate
+
+### Nigeria
+division	Lagos
+division	Ogun State
+division	Oyo State
+division	Kwara State
+division	Osun State
+division	Ondo State
+division	Ekiti State
+division	Nigeria
+
+### Senegal
+division	Dakar
+division	Pikine
+division	Mbour
+division	Thies
+division	St-Louis
+division	Touba
+division	Kolda
+
+### South Africa
+division	Western Cape Province
+division	South Africa
+division	North-West
+division	Eastern Cape
+division	Free State
+division	Gauteng
+division	Limpopo
+division	Mpumalanga
+division	KwaZulu-Natal
+
+### Tunisia
+division	Tunisia
+division	Bizerte
+division	Ben Arous
+
+### Uganda
+division	Uganda
+
+################
+
 # Europe
 
 ### Austria
@@ -2569,88 +2652,6 @@ division	England
 
 ################
 
-# Africa
-
-### Algeria
-division	Blida
-division	Boufarik
-
-### Benin
-division	Cotonou
-division	Oueme
-
-### Democratic Republic of the Congo
-division	Kongo Central
-division	Kinshasa
-division	Democratic Republic of the Congo
-division	Haut-Katanga
-division	Sud Kivu
-
-### Egypt
-division	Egypt
-division	Cairo
-division	Kalyoubia
-
-### Gambia
-division	Kombo
-division	West Coast Region
-
-### Ghana
-division	Greater Accra
-
-### Kenya
-division	Kenya
-
-### Mali
-division	Bamako
-division	Mopti
-
-### Morocco
-division	Casablanca
-division	Rabat
-division	Morocco
-division	Ouarzazate
-
-### Nigeria
-division	Lagos
-division	Ogun State
-division	Oyo State
-division	Kwara State
-division	Osun State
-division	Ondo State
-division	Ekiti State
-division	Nigeria
-
-### Senegal
-division	Dakar
-division	Pikine
-division	Mbour
-division	Thies
-division	St-Louis
-division	Touba
-division	Kolda
-
-### South Africa
-division	Western Cape Province
-division	South Africa
-division	North-West
-division	Eastern Cape
-division	Free State
-division	Gauteng
-division	Limpopo
-division	Mpumalanga
-division	KwaZulu-Natal
-
-### Tunisia
-division	Tunisia
-division	Bizerte
-division	Ben Arous
-
-### Uganda
-division	Uganda
-
-################
-
 # South America
 
 ### Argentina
@@ -2923,6 +2924,22 @@ country	Australia
 country	Guam
 country	New Zealand
 
+# Africa
+country	Algeria
+country	Benin
+country	Democratic Republic of the Congo
+country	Egypt
+country	Gambia
+country	Ghana
+country	Kenya
+country	Mali
+country	Morocco
+country	Nigeria
+country	Senegal
+country	South Africa
+country	Tunisia
+country	Uganda
+
 # Europe
 country	Austria
 country	Belarus
@@ -2961,22 +2978,6 @@ country	Switzerland
 country	Turkey
 country	United Kingdom
 
-# Africa
-country	Algeria
-country	Benin
-country	Democratic Republic of the Congo
-country	Egypt
-country	Gambia
-country	Ghana
-country	Kenya
-country	Mali
-country	Morocco
-country	Nigeria
-country	Senegal
-country	South Africa
-country	Tunisia
-country	Uganda
-
 # South America
 country	Argentina
 country	Brazil
@@ -3006,8 +3007,8 @@ recency	1-2 days ago
 recency	New
 region	Asia
 region	Oceania
-region	Europe
 region	Africa
+region	Europe
 region	South America
 region	North America
 
