@@ -738,3 +738,5 @@ England/20132079304/2020
 England/20168037604/2020
 England/20186075504/2020
 
+# "This looks off. You have a number of mutations neighboring each other at site 29277"; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1596149732030400
+Oman/205036436/2020
