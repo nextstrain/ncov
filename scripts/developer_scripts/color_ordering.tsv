@@ -1863,6 +1863,9 @@ location	Boston
 
 # Asia
 
+### Asia
+division	Asia
+
 ### Bahrain
 division	Bahrain
 division	Capital Governorate
@@ -1943,6 +1946,7 @@ division	Assam
 division	Jakarta
 division	Surabaya
 division	Pasuruan
+division	Indonesia
 division	East Kalimantan
 division	North Sulawesi
 
@@ -2004,6 +2008,7 @@ division	Hokurikushinsyu
 division	Hokuriku
 division	Kanto
 division	Kanagawa
+division	Diamond Princess
 division	Saitama
 division	Japan
 division	Tokyo
@@ -2021,6 +2026,9 @@ division	Nur-Sultan
 ### Kuwait
 division	Kuwait
 
+### Kyrgyzstan
+division	Kyrgyzstan
+
 ### Lebanon
 division	Beirut
 
@@ -2037,6 +2045,7 @@ division	Mongolia
 division	Myanmar
 
 ### Nepal
+division	Nepal
 division	Kathmandu
 
 ### Oman
@@ -2159,6 +2168,9 @@ division	Boufarik
 division	Cotonou
 division	Oueme
 
+### Burkina Faso
+division	Burkina Faso
+
 ### Democratic Republic of the Congo
 division	Kongo Central
 division	Kinshasa
@@ -2170,6 +2182,7 @@ division	Sud Kivu
 division	Egypt
 division	Cairo
 division	Kalyoubia
+division	Nile River Cruise
 
 ### Gambia
 division	Kombo
@@ -2190,6 +2203,9 @@ division	Casablanca
 division	Rabat
 division	Morocco
 division	Ouarzazate
+
+### Niger
+division	Niger
 
 ### Nigeria
 division	Lagos
@@ -2220,6 +2236,9 @@ division	Gauteng
 division	Limpopo
 division	Mpumalanga
 division	KwaZulu-Natal
+
+### Togo
+division	Togo
 
 ### Tunisia
 division	Tunisia
@@ -2323,6 +2342,7 @@ division	Smolyan
 ### Croatia
 division	Pula
 division	Istria
+division	Croatia
 division	Varaždin County
 division	Varazdin
 division	Split
@@ -2348,11 +2368,15 @@ division	Zlin
 division	Hranice Na Moravě
 
 ### Denmark
+division	Faroe Islands
 division	Denmark
 division	Copenhagen
 
 ### Estonia
 division	Estonia
+
+### Europe
+division	Europe
 
 ### Finland
 division	Helsinki
@@ -2428,8 +2452,11 @@ division	Wicklow
 division	Valle D'Aosta
 division	Sardinia
 division	Lombardy
+division	Trentino
 division	Emilia-Romagna
 division	Pa Trento
+division	South Tyrol
+division	Italian cruise ship
 division	Italy
 division	Veneto
 division	Lazio
@@ -2485,6 +2512,7 @@ division	Wielkopolskie
 division	Opolskie
 division	Pomorskie
 division	Slask
+division	Poland
 division	Łódzkie
 division	Malopolskie
 division	Warminsko-Mazurskie
@@ -2555,10 +2583,12 @@ division	Slovenia
 
 ### Spain
 division	Canary Islands
+division	Grand Canary Islands
 division	Galicia
 division	Asturias
 division	Andalusia
 division	Castilla y Leon
+division	Spain
 division	Madrid
 division	Castilla la Mancha
 division	Melilla
@@ -2607,6 +2637,7 @@ division	Bern
 division	Basel-Stadt
 division	Basel-Land
 division	Aargau
+division	Switzerland
 division	Lucerne
 division	Zug
 division	Uri
@@ -2648,6 +2679,7 @@ division	Kars Province
 division	Northern Ireland
 division	Scotland
 division	Wales
+division	United Kingdom
 division	England
 
 ################
@@ -2757,6 +2789,9 @@ division	Huanuco
 division	Ica
 division	Arequipa
 
+### South America
+division	South America
+
 ### Uruguay
 division	Montevideo
 division	Rivera
@@ -2797,6 +2832,7 @@ division	Chihuahua
 division	Nayarit
 division	Durango
 division	Jalisco
+division	Guadalajara
 division	Guanajuato
 division	Queretaro
 division	Guerrero
@@ -2885,6 +2921,7 @@ division	Diamond Princess
 
 
 # Asia
+country	Asia
 country	Bahrain
 country	Bangladesh
 country	Brunei
@@ -2900,6 +2937,7 @@ country	Japan
 country	Jordan
 country	Kazakhstan
 country	Kuwait
+country	Kyrgyzstan
 country	Lebanon
 country	Malaysia
 country	Mongolia
@@ -2927,6 +2965,7 @@ country	New Zealand
 # Africa
 country	Algeria
 country	Benin
+country	Burkina Faso
 country	Democratic Republic of the Congo
 country	Egypt
 country	Gambia
@@ -2934,9 +2973,11 @@ country	Ghana
 country	Kenya
 country	Mali
 country	Morocco
+country	Niger
 country	Nigeria
 country	Senegal
 country	South Africa
+country	Togo
 country	Tunisia
 country	Uganda
 
@@ -2951,6 +2992,7 @@ country	Cyprus
 country	Czech Republic
 country	Denmark
 country	Estonia
+country	Europe
 country	Finland
 country	France
 country	Germany
@@ -2985,6 +3027,7 @@ country	Chile
 country	Colombia
 country	Ecuador
 country	Peru
+country	South America
 country	Uruguay
 country	Venezuela
 
