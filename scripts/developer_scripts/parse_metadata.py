@@ -22,7 +22,7 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
     with open(path_file_name) as myfile:
         file_content = myfile.readlines()
 
-    first_files = [path_to_script_files+fi for fi in ["sequences_exclude.txt", "duplicates.txt", "accepted_exposure_additions.txt"]]
+    first_files = [path_to_script_files+fi for fi in ["duplicates.txt", "accepted_exposure_additions.txt"]]
 
     if path_file_name in first_files: #simple list
         return [line.strip() for line in file_content[1:]]
@@ -105,8 +105,6 @@ def read_geography_file(file_name):
 def read_metadata(metadata):
     data = {}
 
-    sequences_exclude = read_local_file("sequences_exclude.txt") #TODO: temporary solution to exclude two inconsistent Thailand samples
-
     for line in metadata[1:]:
         l = line.split("\t")
         region = l[5]
@@ -119,6 +117,10 @@ def read_metadata(metadata):
         if location == "Unknown" or location == "UNKNOWN" or location == "unknown": #TODO: separate
             additions_to_annotation.append(strain + "\t" + id + "\tlocation\t# previously " + location)
             location = ""
+        
+        if division == "Unknown" or division == "UNKNOWN" or division == "unknown": #TODO: separate
+            additions_to_annotation.append(strain + "\t" + id + "\tdivision\t# previously " + division)
+            division = ""
 
         if region == "United Kingdom": #TODO: separate this, make it more applicable for other countries
             additions_to_annotation.append(strain + "\t" + id + "\tregion\tEurope")
@@ -137,10 +139,6 @@ def read_metadata(metadata):
                 additions_to_annotation.append(strain + "\t" + id + "\tlocation\t")
                 division = location
                 location = ""
-
-
-        if strain in sequences_exclude:
-            continue
 
         if region not in data:
             data[region] = {}
@@ -163,7 +161,7 @@ def read_exposure(data, metadata):
     accepted_additions = read_local_file("accepted_exposure_additions.txt")
 
     print("\n=============================\n")
-    print("Travel history includes:")
+    #print("Travel history includes:")
 
     bad_div = {}
     bad_ctry = {}
@@ -224,6 +222,22 @@ def read_exposure(data, metadata):
 # e.g. switch all locations and strains from a misspelled division to the correct division
 # e.g. turn a certain false division into a location below the correct division, and move all connected strains
 def correct_data(data, type, corrections): #TODO: add region correction (e.g. for Turkey, Georgia)
+
+    if type == "wrong_region":
+        for country in corrections:
+            (region, region_correct) = corrections[country]
+            if country not in data[region_correct]:
+                data[region_correct][country] = {}
+            for division in data[region][country]:
+                if division not in data[region_correct][country]:
+                    data[region_correct][country][division] = {}
+                for location in data[region][country][division]:
+                    if location not in data[region_correct][country][division]:
+                        data[region_correct][country][division][location] = []
+                    for strain in data[region][country][division][location]:
+                        additions_to_annotation.append(strain + "\tregion\t" + region_correct + " # previously " + region)
+                        data[region_correct][country][division][location].append(strain)
+            del data[region][country]
 
     if type == "country":
         for country in corrections:
@@ -438,23 +452,16 @@ def apply_typical_errors(data): #TODO: rename, maybe join with UK as region? als
 
     countries_to_switch = {}
     for country in wrong_regions:
-        correct_region = wrong_regions[country]
+        region_correct = wrong_regions[country]
         for region in data:
-            if region == correct_region:
+            if region == region_correct:
                 continue
             if country in data[region]:
-                print("Found incorrect region " + bold(region) + " for country " + bold(country) + " (correct region: " + bold(correct_region) + ")" )
+                print("Found incorrect region " + bold(region) + " for country " + bold(country) + " (correct region: " + bold(region_correct) + ")" )
+                countries_to_switch[country] = (region, region_correct)
 
-                for division in data[region][country]:
-                    if division not in data[correct_region][country]:
-                        data[correct_region][country][division] = {}
-                    for location in data[region][country][division]:
-                        if location not in data[correct_region][country][division]:
-                            data[correct_region][country][division][location] = []
-                        for strain in data[region][country][division][location]:
-                            additions_to_annotation.append(strain + "\tregion\t" + correct_region + " # previously " + region)
-                            data[correct_region][country][division][location].append(strain)
-                del data[region][country]
+    data = correct_data(data, "wrong_region", countries_to_switch)
+
     return data
 
 ##### Step 2.2 Check for "false" division that appear as location elsewhere (known cases stored in false_divisions.txt as well as checking for new cases)
@@ -699,7 +706,7 @@ def check_for_missing(data):
     if missing['country']:
         print("\nMissing countries:")
         for country in missing["country"]:
-            print(country)
+            print("country\t" + country)
     else:
         print("No missing countries")
 
@@ -911,7 +918,7 @@ data = read_metadata(metadata)
 # Since travel history related entries are prone to errors, check for each entry whether it collides with already existing data.
 
 # TODO: Currently commented out due to numerous inconsistencies
-#data = read_exposure(data, metadata)
+data = read_exposure(data, metadata)
 
 
 ################################################################################
