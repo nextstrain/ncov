@@ -1546,11 +1546,7 @@ location	Anchorage
 location	Fairbanks
 location	Southeast Alaska
 
-# Grand Princess 2nd cruise
-location	Grand Princess Cruise Ship
-
 # Grand Princess
-location	Grand Princess Cruise Ship
 location	Sonoma County
 
 # Oregon
@@ -1590,6 +1586,7 @@ location	Benton County
 
 # California
 location	Humboldt County
+location	Grand Princess Cruise Ship
 location	Marin County
 location	San Francisco
 location	San Francisco County
@@ -2008,7 +2005,6 @@ division	Hokurikushinsyu
 division	Hokuriku
 division	Kanto
 division	Kanagawa
-division	Diamond Princess
 division	Saitama
 division	Japan
 division	Tokyo
@@ -2255,7 +2251,6 @@ division	Uganda
 ### Austria
 division	Vorarlberg
 division	Tyrol
-division	Italian cruise ship
 division	Salzburg
 division	Upper Austria
 division	Styria

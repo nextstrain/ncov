@@ -1546,9 +1546,6 @@ location	Anchorage
 location	Fairbanks
 location	Southeast Alaska
 
-# Grand Princess 2nd cruise
-location	Grand Princess Cruise Ship
-
 # Grand Princess
 location	Sonoma County
 
@@ -1589,6 +1586,7 @@ location	Benton County
 
 # California
 location	Humboldt County
+location	Grand Princess Cruise Ship
 location	Marin County
 location	San Francisco
 location	San Francisco County
