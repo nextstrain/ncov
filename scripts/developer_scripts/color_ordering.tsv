@@ -1669,7 +1669,7 @@ location	St. Louis MO
 location	Crawford County
 location	Chippewa Falls
 location	Trempealeau County
-location	Chippewa County
+location	Chippewa County WI
 location	La Crosse County
 location	Vernon County
 location	Jackson County WI
@@ -1753,6 +1753,7 @@ location	Racine County
 location	Door County
 
 # Illinois
+location	Ogle County
 location	Winnebago County IL
 location	Mchenry County
 location	Kane County
@@ -2847,7 +2848,7 @@ division	Guadalajara
 division	Guanajuato
 division	Queretaro
 division	Guerrero
-division	Estado de Mexico
+division	State of Mexico
 division	Mexico City
 division	Mexico
 division	Morelos
