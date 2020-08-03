@@ -148,7 +148,8 @@ location	Desconocido
 location	San Francisco	San Francisco PA	(North America, Panama, Panama Center)
 division	Washingtondc	Washington DC
 location	Vitoria	Vitoria-Gasteiz	(Europe, Spain, Basque Country)
-division	Edomex	State of Mexico
+division	Edomex	Estado de Mexico
+division	State of Mexico	Estado de Mexico
 division	North West	North-West	(Africa, South Africa)
 division	Paca	Provence-Alpes-Côte d'Azur	(Europe, France)
 division	Idf	Ile de France	(Europe, France)
