@@ -331,6 +331,7 @@ location	Guediawaye
 location	Yeumbeul
 location	Mbao
 location	Sangalkam
+location	Pikine
 
 # Kolda
 location	Velingara
@@ -2215,7 +2216,6 @@ division	Nigeria
 
 ### Senegal
 division	Dakar
-division	Pikine
 division	Mbour
 division	Thies
 division	St-Louis

@@ -327,6 +327,7 @@ location	Accra
 
 ### Senegal
 # Dakar
+location	Pikine
 location	Guediawaye
 location	Yeumbeul
 location	Mbao
@@ -872,6 +873,10 @@ location	Tuebingen
 location	Starnberg
 location	Munich
 
+### Greece
+# Central Greece
+location	Livadeia
+
 ### Hungary
 # Central Hungary
 location	Budapest
@@ -1297,6 +1302,7 @@ location	Feira de Santana
 location	Vila Velha
 
 # Pernambuco
+location	Caruaru
 location	Alianca
 location	Ipojuca
 location	Sao Lourenco Da Mata
@@ -1613,6 +1619,7 @@ location	Phoenix
 
 # Colorado
 location	Denver County
+location	Colorado Springs
 
 # Texas
 location	Houston
@@ -1631,6 +1638,7 @@ location	Fayette County
 location	Buchanan County
 location	Winneshiek County
 location	Allamakee County
+location	Dubuque County
 location	Jackson County IA
 
 # Louisiana
@@ -1658,10 +1666,10 @@ location	Saint Louis County
 location	St. Louis MO
 
 # Wisconsin
-location	Colorado Springs
 location	Crawford County
 location	Chippewa Falls
 location	Trempealeau County
+location	Chippewa County
 location	La Crosse County
 location	Vernon County
 location	Jackson County WI
@@ -1670,6 +1678,7 @@ location	Monroe County
 location	Tomah
 location	Muscoda
 location	Richland Center
+location	Richland County WI
 location	Lafayette County
 location	Hillpoint
 location	Juneau County
@@ -1740,6 +1749,7 @@ location	Cudahy
 location	South Milwaukee
 location	Manitowoc County
 location	Racine
+location	Racine County
 location	Door County
 
 # Illinois
@@ -2215,7 +2225,6 @@ division	Nigeria
 
 ### Senegal
 division	Dakar
-division	Pikine
 division	Mbour
 division	Thies
 division	St-Louis
@@ -2392,6 +2401,7 @@ division	Bourgogne
 division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
 division	Grand Est
+division	Provence-Alpes-Côte d'Azur
 
 ### Germany
 division	North Rhine Westphalia
@@ -2406,6 +2416,7 @@ division	Berlin
 
 ### Greece
 division	Thessaloniki
+division	Central Greece
 division	Athens
 
 ### Hungary
@@ -2431,6 +2442,7 @@ division	Reykjavik
 
 ### Ireland
 division	Kerry
+division	Galway
 division	Limerick
 division	Sligo
 division	Cork
@@ -2439,6 +2451,9 @@ division	Leitrim
 division	Ireland
 division	Kilkenny
 division	Waterford
+division	Monaghan
+division	Kildare
+division	Meath
 division	Louth
 division	Dublin
 division	Wicklow
@@ -2801,6 +2816,7 @@ division	Venezuela
 
 ### Canada
 division	British Columbia
+division	Alberta
 division	Manitoba
 division	Ontario
 division	Quebec

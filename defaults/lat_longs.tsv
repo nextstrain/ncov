@@ -241,6 +241,7 @@ location	Cape Town Metro	-33.970973	18.510306
 location	Cardiff	51.476291	-3.178964
 location	Carentan	49.302133	-1.250938
 location	Cartagena	10.400866	-75.503036
+location	Caruaru	-8.2829702	-35.9722852
 location	Casal de Cambra	38.8005207	-9.2307698
 location	Casalarreina	42.5479528	-2.911077
 location	Casteau	50.515333	4.013682
@@ -264,8 +265,9 @@ location	Cheshire	41.5084	-72.9106
 location	Chicago	41.858966	-87.637242
 location	Chiclana de la Frontera	36.407163	-6.153590
 location	Chilches	36.726129	-4.224430
-location	Chillan	-36.6063	-72.1023
 location	Chilibre	9.1643168	-79.6191005
+location	Chillan	-36.6063	-72.1023
+location	Chippewa County	45.0740585	-91.2947258
 location	Chippewa Falls	44.931261	-91.389704
 location	Choconta	5.146017	-73.683678
 location	Chongqing	29.858721	107.375623
@@ -361,6 +363,7 @@ location	Door County	44.7615925	-87.5329747
 location	Dosquebradas	4.832649	-75.677377
 location	Douglas County	47.728531	-119.651043
 location	Dour	50.390137	3.785941
+location	Dubuque County	42.4692988	-90.8742047
 location	Duesseldorf	51.22166	6.75289
 location	Duisburg	50.814708	4.551668
 location	Dupage County	41.8603735	-88.0906873
@@ -679,13 +682,13 @@ location	Lessines	50.710456	3.828368
 location	Leticia	-4.212580	-69.943144
 location	Levallois-Perret	48.8932	2.2879
 location	Lezuza	38.9496	-2.3555
-location	Lídice	8.7487532	-79.9087931
 location	Lillois-Witterzée	50.644797	4.366948
 location	Limbourg BE	50.613635	5.935911
 location	Linter	50.818098	5.042221
 location	Lippelo	51.041285	4.258686
 location	Lishui	28.460681	119.919147
 location	Litovel	49.7014789	17.0761064
+location	Livadeia	38.3312202	23.2555681
 location	Livingston Parish	30.463159	-90.743070
 location	Llubi	39.6994	3.0063
 location	Lluchmayor	39.4908	2.8917
@@ -709,6 +712,7 @@ location	Lummen	50.995516	5.181081
 location	Luttre	50.509069	4.391808
 location	Luxembourg	49.607806	6.130375
 location	Lyon	45.757870	4.841293
+location	Lídice	8.7487532	-79.9087931
 location	Maceio	-9.586654	-35.721537
 location	Machelen	50.903182	4.444013
 location	Macon	46.299425	4.822063
@@ -922,7 +926,7 @@ location	Petropolis	-22.5112	-43.1779
 location	Pewaukee	43.061507	-88.237950
 location	Phoenix	33.433362	-112.068786
 location	Pierce County	47.006605	-122.107847
-division	Pikine	14.751544	-17.396413
+location	Pikine	14.751544	-17.396413
 location	Pingxiang	27.632413	113.892981
 location	Pinos Puente	37.2515	-3.7496
 location	Pittsburgh	40.433375	-79.996990
@@ -967,6 +971,7 @@ location	Quilmes	-34.7206	-58.2546
 location	Qurayyat	23.2610439	58.9202694
 location	Quévy	50.369910	3.951226
 location	Racine	42.721147	-87.800333
+location	Racine County	42.7260523	-87.7825242
 location	Radom	51.397849	21.151218
 location	Rajkot	22.3039	70.8022
 location	Ramada	38.80800875	-9.196383669904645
@@ -991,7 +996,6 @@ location	Richmond County	40.5795	-74.1502
 location	Riemst	50.805092	5.589712
 location	Rijkevorsel	51.355735	4.766466
 location	Rincon de la Victoria	36.717712	-4.278570
-location	Río Abajo	9.0631987	-79.5444326
 location	Rio Claro	-22.418843	-47.567420
 location	Rio San Pedro	36.5235	-6.2259
 location	Rio de Janeiro	-22.89445	-43.2099
@@ -1014,6 +1018,7 @@ location	Roucourt	50.528622	3.586797
 location	Rouen	49.4432	1.1000
 location	Rovaniemi	66.501553	25.728919
 location	Rufina Alfaro	9.068903	-79.456339
+location	Río Abajo	9.0631987	-79.5444326
 location	Sabaneta	6.151838	-75.616992
 location	Sacavem	38.794386700000004	-9.108563857720288
 location	Sacramento County	38.494406	-121.301826
@@ -1334,7 +1339,6 @@ location	Écaussinnes	50.561198	4.181268
 
 
 
-
 division	Aalst	50.939656	4.064173
 division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
@@ -1350,6 +1354,7 @@ division	Alabama	32.3182	-86.9023
 division	Alagoas	-9.74863	-36.417626
 division	Alajuela	10.020137	-84.210339
 division	Alaska	65.797699	-152.214189
+division	Alberta	55.001251	-115.002136
 division	Algeria	28.0000272	2.9999825
 division	Amapa	1.582936	-51.809488
 division	Amazonas	-3.4168	-65.8561
@@ -1473,6 +1478,7 @@ division	Cauca	2.473774	-76.864221
 division	Cazin	44.9690	15.9432
 division	Ceará	-5.4984	-39.3206
 division	Central District	31.9521	34.9066
+division	Central Greece	38.58000405	23.151988380646536
 division	Central Hungary	47.360008	19.252798
 division	Centre-Val de Loire	47.481221	1.698793
 division	Cesar	9.654915	-73.528255
@@ -1482,7 +1488,6 @@ division	Chechen Republic	43.4023	45.7187
 division	Chelyabinsk Region	54.4319	60.8789
 division	Chiapas	16.520858	-92.643133
 division	Chiba	35.463961	140.223882
-division	Cienaga de Oro	8.8746769	-75.6210036
 division	Chihuahua	28.633	-106.0691
 division	Chile	-31.7613364	-71.3187696
 division	Chillan	-36.6063	-72.1023
@@ -1494,6 +1499,7 @@ division	Chongqing	29.858721	107.375623
 division	Chubu	35.183334	136.899994
 division	Chungcheongnam	36.685948	126.799198
 division	Chushikoku	34.237636	133.058999
+division	Cienaga de Oro	8.8746769	-75.6210036
 division	Cocle	8.4604873	-80.4305652
 division	Coimbra	40.2033	-8.4103
 division	Colombia	2.893108	-73.7845142
@@ -1573,6 +1579,7 @@ division	Friuli Venezia Giulia	46.2259	13.1034
 division	Fujian	26.284852	118.122938
 division	Galapagos	-0.62881505	-90.3638752022324
 division	Galicia	42.5751	-8.1339
+division	Galway	53.2744122	-9.0490632
 division	Gambia	13.5	-15.5
 division	Gani Tikva	32.06111	34.87444
 division	Gauteng	-26.199815	28.110057
@@ -1713,6 +1720,7 @@ division	Kfar Saba	32.180607	34.912861
 division	Khabarovsk Region	50.5888	135
 division	Khulna	22.815139549999998	89.44492672055918
 division	Khyber Pakhtunkhwa	33.696621	72.636031
+division	Kildare	53.15436455	-6.8184175660976445
 division	Kilkenny	52.6510216	-7.2484948
 division	Kinshasa	-4.2978	15.2962
 division	Kiryat Gat	31.6111	34.7685
@@ -1731,12 +1739,12 @@ division	Kostoliste	48.4467	16.9868
 division	Kraljevo	43.7238	20.6873
 division	Krasnodar Region	45.6415	39.7056
 division	Krasnoyarsk Region	64.248	95.1104
-division	Kyrgyzstan	41.927675	75.142149
 division	Kuala Lumpur	3.139	101.6869
 division	Kuwait	29.452987	47.447194
 division	KwaZulu-Natal	-28.704798	30.693005
 division	Kwara State	9.172913	4.409729
 division	Kyoto	35.007542	135.768455
+division	Kyrgyzstan	41.927675	75.142149
 division	Kyustendil	42.2869	22.6939
 division	Kyusyu	32.5900	130.8000
 division	La Louvière	50.469989	4.158129
@@ -1801,6 +1809,7 @@ division	Massachusetts	42.340741	-71.998513
 division	Mato Grosso	-12.6819	-56.9211
 division	Mazowieckie	52.467791	21.224779
 division	Mbour	14.427132	-16.966574
+division	Meath	53.649784350000004	-6.588529492009938
 division	Mechelen	51.033475	4.444398
 division	Melbourne	-37.8136	144.9631
 division	Melilla	35.291746	-2.938261
@@ -1820,6 +1829,7 @@ division	Mississippi	32.9715645	-89.7348497
 division	Missouri	37.9643	-91.8318
 division	Molenbeek-Saint-Jean	50.849476	4.329267
 division	Molise	41.686461	14.608668
+division	Monaghan	54.161066399999996	-6.946364847585796
 division	Mongolia	47.504782	102.997672
 division	Mons	50.445439	3.962794
 division	Montana	46.974704	-110.872530
@@ -1958,6 +1968,7 @@ division	Portugal	39.54046	-8.174701
 division	Prague	50.0755	14.4378
 division	Primorskiy Region	45.0526	135
 division	Prince Edward Island	46.344935	-63.405688
+division	Provence-Alpes-Côte d'Azur	44.0580563	6.0638506
 division	Pskov Region	56.7709	29.094
 division	Puebla	19.0414	-98.2063
 division	Puerto Montt	-41.4689	-72.9411
@@ -2015,13 +2026,13 @@ division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
 division	Santa Elena	-2.1954593	-80.5669167
 division	Santander	6.746570	-73.476456
+division	Santander de Quilichao	3.0075752	-76.4856531
 division	Santarem	39.2849	-8.7041
 division	Santiago	-33.383304	-70.530623
 division	Santiago de Veraguas	8.0989867	-80.9803978
 division	Sarajevo	43.8563	18.4131
 division	Sardinia	40.1209	9.0129
 division	Saskatchewan	53.934278	-106.16006
-division	Santander de Quilichao	3.0075752	-76.4856531
 division	Saudi Arabia	25	45
 division	Schaffhausen	47.712000	8.638976
 division	Scherpenheuvel-Zchem	50.9890	4.9776
@@ -2199,9 +2210,9 @@ division	Waitemata	-36.579105	174.548718
 division	Wales	52.306085	-3.621944
 division	Waremme	50.692236	5.260861
 division	Warminsko-Mazurskie	53.924679	20.844499
-division	Waterford	52.2609997	-7.1119081
 division	Washington	47.183945	-119.950361
 division	Washington DC	38.895650	-77.018707
+division	Waterford	52.2609997	-7.1119081
 division	Wellington	-41.273449	174.857634
 division	West Bengal	23.361461	87.724077
 division	West Coast Region	13.2229	16.582
