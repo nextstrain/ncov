@@ -1667,7 +1667,6 @@ location	St. Louis MO
 
 # Wisconsin
 location	Crawford County
-location	Chippewa Falls
 location	Trempealeau County
 location	Chippewa County WI
 location	La Crosse County
@@ -1675,80 +1674,37 @@ location	Vernon County
 location	Jackson County WI
 location	Grant County WI
 location	Monroe County
-location	Tomah
-location	Muscoda
-location	Richland Center
 location	Richland County WI
 location	Lafayette County
-location	Hillpoint
 location	Juneau County
-location	Spring Green
 location	Sauk County
-location	Blanchardville
 location	Adams County WI
-location	Mount Horeb
-location	Cross Plains
 location	Green County
 location	Dane County
-location	Belleville
 location	Verona WI
-location	Middleton
-location	Madison
-location	Waunakee
-location	Fitchburg
 location	Oregon WI
 location	Brooklyn WI
-location	Deforest
-location	Monona
 location	Columbia County WI
-location	Sun Prarie
-location	Stoughton
-location	Cottage Grove
 location	Rock County
-location	Marshall
 location	Columbus WI
-location	Beloit
-location	Janesville
 location	Waupaca County
 location	Jefferson County WI
 location	Dodge County
 location	Winnebago County WI
 location	Fond Du Lac County
 location	Outagamie County
-location	Hartford
-location	Slinger
 location	Campbellsport
-location	Pewaukee
 location	Waukesha County
 location	Washington County WI
-location	Jackson
-location	New Berlin
-location	Brookfield
-location	Elm Grove
-location	Wauwatosa
 location	Brown County WI
-location	Franklin
-location	Greenfield
 location	Thiensville
-location	Mequon
-location	Brown Deer
-location	Grafton
-location	Saukville
 location	Milwaukee County
 location	Sheboygan County
-location	Glendale
 location	Ozaukee County
-location	River Hills
-location	Greater Milwaukee Area
 location	Whitefish Bay
-location	Oak Creek
-location	Holy Cross
-location	Bayside
 location	Port Washington
-location	Cudahy
 location	South Milwaukee
 location	Manitowoc County
-location	Racine
 location	Racine County
 location	Door County
 
@@ -2551,10 +2507,12 @@ division	Constanta
 division	Pskov Region
 division	Saint-Petersburg
 division	Leningrad Region
+division	Bryansk Oblast
 division	Tver Region
 division	Republic of Crymea
 division	Moscow
 division	Moscow Region
+division	Yaroslavl Oblast
 division	Lipetsk Region
 division	Krasnodar Region
 division	Republic of Kabardino-Balkaria
@@ -2562,11 +2520,13 @@ division	Chechen Republic
 division	Samara Region
 division	Tatarstan
 division	Orenburg Region
+division	Republic of Bashkortostan
 division	Perm Region
 division	Chelyabinsk Region
 division	Sverdlovsk Region
 division	Omsk Region
-division	Novosibirsk Region
+division	Yamalo-Nenets Autonomous Okrug
+division	Novosibirsk Oblast
 division	Krasnoyarsk Region
 division	Buryat Republic
 division	Republic of Buryatia
