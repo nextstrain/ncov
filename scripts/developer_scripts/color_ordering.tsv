@@ -358,13 +358,6 @@ location	Auckland
 
 # Africa
 
-### Madagascar #
-# Analamanga
-location        Antananarivo
-# Analanjirofo
-location        Fenoarivo
-
-
 ### Egypt
 # Cairo
 location	Al Matariyyah
@@ -372,6 +365,13 @@ location	Al Matariyyah
 ### Ghana
 # Greater Accra
 location	Accra
+
+### Madagascar
+# Analamanga
+location	Antananarivo
+
+# Analanjirofo
+location	Fenoarivo
 
 ### Senegal
 # Dakar
@@ -2244,7 +2244,6 @@ division	Kenya
 division	Analamanga
 division	Analanjirofo
 
-
 ### Mali
 division	Bamako
 division	Mopti
@@ -3032,8 +3031,8 @@ country	Egypt
 country	Gambia
 country	Ghana
 country	Kenya
-country	Mali
 country	Madagascar
+country	Mali
 country	Morocco
 country	Niger
 country	Nigeria
