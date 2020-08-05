@@ -64,65 +64,65 @@ division	St Gallen	Sankt Gallen
 division	Luzern	Lucerne
 division	Kongo-Central	Kongo Central
 division	Barisal	Barishal
-division	Al	Alabama
-division	Ak	Alaska
-division	As	American Samoa
-division	Az	Arizona
-division	Ar	Arkansas
-division	Ca	California
-division	Co	Colorado
-division	Ct	Connecticut
-division	De	Delaware
-division	Dc	District of Columbia
-division	Fm	Federated States of Micronesia
-division	Fl	Florida
-division	Ga	Georgia
-division	Gu	Guam
-division	Hi	Hawaii
-division	Id	Idaho
-division	Il	Illinois
-division	In	Indiana
-division	Ia	Iowa
-division	Ks	Kansas
-division	Ky	Kentucky
-division	La	Louisiana
-division	Me	Maine
-division	Mh	Marshall Islands
-division	Md	Maryland
-division	Ma	Massachusetts
-division	Mi	Michigan
-division	Mn	Minnesota
-division	Ms	Mississippi
-division	Mo	Missouri
-division	Mt	Montana
-division	Ne	Nebraska
-division	Nv	Nevada
-division	Nh	New Hampshire
-division	Nj	New Jersey
-division	Nm	New Mexico
-division	Ny	New York
-division	Nc	North Carolina
-division	Nd	North Dakota
-division	Mp	Northern Mariana Islands
-division	Oh	Ohio
-division	Ok	Oklahoma
-division	Or	Oregon
-division	Pw	Palau
-division	Pa	Pennsylvania
-division	Pr	Puerto Rico
-division	Ri	Rhode Island
-division	Sc	South Carolina
-division	Sd	South Dakota
-division	Tn	Tennessee
-division	Tx	Texas
-division	Ut	Utah
-division	Vt	Vermont
-division	Vi	Virgin Islands
-division	Va	Virginia
-division	Wa	Washington
-division	Wv	West Virginia
-division	Wi	Wisconsin
-division	Wy	Wyoming
+division	Al	Alabama	(North America, USA)
+division	Ak	Alaska	(North America, USA)
+division	As	American Samoa	(North America, USA)
+division	Az	Arizona	(North America, USA)
+division	Ar	Arkansas	(North America, USA)
+division	Ca	California	(North America, USA)
+division	Co	Colorado	(North America, USA)
+division	Ct	Connecticut	(North America, USA)
+division	De	Delaware	(North America, USA)
+division	Dc	District of Columbia	(North America, USA)
+division	Fm	Federated States of Micronesia	(North America, USA)
+division	Fl	Florida	(North America, USA)
+division	Ga	Georgia	(North America, USA)
+division	Gu	Guam	(North America, USA)
+division	Hi	Hawaii	(North America, USA)
+division	Id	Idaho	(North America, USA)
+division	Il	Illinois	(North America, USA)
+division	In	Indiana	(North America, USA)
+division	Ia	Iowa	(North America, USA)
+division	Ks	Kansas	(North America, USA)
+division	Ky	Kentucky	(North America, USA)
+division	La	Louisiana	(North America, USA)
+division	Me	Maine	(North America, USA)
+division	Mh	Marshall Islands	(North America, USA)
+division	Md	Maryland	(North America, USA)
+division	Ma	Massachusetts	(North America, USA)
+division	Mi	Michigan	(North America, USA)
+division	Mn	Minnesota	(North America, USA)
+division	Ms	Mississippi	(North America, USA)
+division	Mo	Missouri	(North America, USA)
+division	Mt	Montana	(North America, USA)
+division	Ne	Nebraska	(North America, USA)
+division	Nv	Nevada	(North America, USA)
+division	Nh	New Hampshire	(North America, USA)
+division	Nj	New Jersey	(North America, USA)
+division	Nm	New Mexico	(North America, USA)
+division	Ny	New York	(North America, USA)
+division	Nc	North Carolina	(North America, USA)
+division	Nd	North Dakota	(North America, USA)
+division	Mp	Northern Mariana Islands	(North America, USA)
+division	Oh	Ohio	(North America, USA)
+division	Ok	Oklahoma	(North America, USA)
+division	Or	Oregon	(North America, USA)
+division	Pw	Palau	(North America, USA)
+division	Pa	Pennsylvania	(North America, USA)
+division	Pr	Puerto Rico	(North America, USA)
+division	Ri	Rhode Island	(North America, USA)
+division	Sc	South Carolina	(North America, USA)
+division	Sd	South Dakota	(North America, USA)
+division	Tn	Tennessee	(North America, USA)
+division	Tx	Texas	(North America, USA)
+division	Ut	Utah	(North America, USA)
+division	Vt	Vermont	(North America, USA)
+division	Vi	Virgin Islands	(North America, USA)
+division	Va	Virginia	(North America, USA)
+division	Wa	Washington	(North America, USA)
+division	Wv	West Virginia	(North America, USA)
+division	Wi	Wisconsin	(North America, USA)
+division	Wy	Wyoming	(North America, USA)
 division	Ústí nad Labem	Usti nad Labem
 division	Buraymi	Buraimi
 division	Ncr	National Capital Region
@@ -152,6 +152,7 @@ division	Edomex	Estado de Mexico
 division	State of Mexico	Estado de Mexico
 division	North West	North-West	(Africa, South Africa)
 division	Paca	Provence-Alpes-Côte d'Azur	(Europe, France)
+division	Ara	Auvergne-Rhône-Alpes	(Europe, France)
 division	Idf	Ile de France	(Europe, France)
 location	Livadia	Livadeia	(Europe, Greece, Central Greece)
 division	Livadia	Livadeia	(Europe, Greece)
@@ -159,3 +160,10 @@ division	Ceara	Ceará	(South America, Brazil)
 division	Parana	Paraná	(South America, Brazil)
 division	Saint Petersburg	Saint-Petersburg	(Europe, Russia)
 division	Novosibirsk Region	Novosibirsk Oblast	(Europe, Russia)
+location	Barcelona H	Barcelona
+location	Villefranche	Villefranche-sur-Saône	(Europe, France, Auvergne-Rhône-Alpes)
+division	Mp	Occitanie	(Europe, France)
+division	Na	Nouvelle-Aquitaine	(Europe, France)
+location	Hoogly	Hooghly	(Asia, India, West Bengal)
+location	Tuklakabad	Tughlakabad	(Asia, India, Delhi)
+division	Lodzkie	Łódzkie	(Europe, Poland)
