@@ -2308,52 +2308,114 @@ division	Łódzkie	51.4721678	19.3460637
 
 
 
-
+country	Algeria	28.0000272	2.9999825
 country	Argentina	-37.052315	-64.869142
+country	Asia	30.451098	86.654576
+country	Australia	-24.7761085	134.755
 country	Austria	47.5162	14.5501
 country	Bahrain	26.0667	50.5577
 country	Bangladesh	24.506442	90.041454
 country	Belarus	53.704205	28.247691
+country	Belgium	50.707735	4.677726
 country	Benin	9.961027	2.327362
-country	Costa Rica	10.037900	-83.818759
-country	Croatia	45.1000	15.2000
+country	Bosnia and Herzegovina	43.9159	17.6791
+country	Brazil	-10.3333332	-53.1999999
+country	Brunei	4.5353	114.7277
+country	Bulgaria	42.782450	25.193668
+country	Burkina Faso	12.78998	-1.683734
+country	Cambodia	13.0	105.0
+country	Canada	61.0666922	-107.991707
+country	Chile	-31.7613364	-71.3187696
+country	China	33.394333	104.689839
+country	Colombia	2.893108	-73.7845142
+country	Costa Rica	10.0379	-83.818759
+country	Croatia	45.1	15.2
 country	Cyprus	34.965802	33.171772
+country	Czech Republic	49.8175	15.473
 country	Democratic Republic of the Congo	-4.0383	21.7587
 country	Denmark	56.2639	9.5018
 country	Ecuador	-1.0541	-78.1489
 country	Egypt	26.8206	30.8025
-country	England	52.3555	-1.1743
 country	Estonia	58.850111	25.808524
+country	Europe	49.646237	10.799454
+country	Finland	61.751734	26.186437
+country	France	46.2276	2.2137
+country	Gambia	13.5	-15.5
 country	Georgia	41.989378	43.597463
+country	Germany	51.1657	10.4515
 country	Ghana	7.811417	-1.089272
+country	Greece	39.0	22.0
 country	Guam	13.464887	144.792016
+country	Hong Kong	22.3964	114.1095
+country	Hungary	47.0	20.0
 country	Iceland	64.90614	-18.4826
+country	India	21.077353	78.723951
 country	Indonesia	-0.897599	114.181602
 country	Iran	34.5732	51.876
+country	Ireland	52.865	-7.979
 country	Israel	31.217736	34.903129
+country	Italy	43.382775	12.183629
 country	Jamaica	18.1096	-77.2975
+country	Japan	35.68536	139.75309
+country	Jordan	31.1667049	36.941628
+country	Kazakhstan	48.886304	67.283729
+country	Kenya	0.0236	37.9062
+country	Kuwait	29.452987	47.447194
 country	Kyrgyzstan	41.2044	74.7661
+country	Latvia	56.799689	25.441386
+country	Lebanon	33.945959	35.868630
 country	Lithuania	55.378752	23.945328
 country	Luxembourg	49.755428	6.119486
 country	Madagascar	-18.9249604	46.4416422
 country	Malaysia	4.264153	102.222436
 country	Mali	16.3700359	-2.2900239
+country	Mexico	19.4325301	-99.1332101
 country	Mongolia	47.504782	102.997672
 country	Morocco	32.549785	-5.480765
 country	Myanmar	20.600856	96.287616
+country	Nepal	28.0	84.0
+country	Netherlands	52.1326	5.2913
+country	New Zealand	-41.500083	172.8344077
+country	Niger	18.061703	10.145544
+country	Nigeria	10.0	8.0
 country	North Macedonia	41.6171214	21.7168387
 country	Norway	61.3109	8.73701
+country	Oman	20.565641	56.861042
+country	Pakistan	30.0	70.0
 country	Panama	8.98333	-79.5166
 country	Peru	-9.650468	-75.328211
 country	Philippines	11.383086	123.521862
+country	Poland	52.0977181	19.0258159
+country	Portugal	39.54046	-8.174701
 country	Qatar	25.230573	51.183951
 country	Romania	45.9432	24.9668
+country	Russia	64.6863136	97.7453061
+country	Saudi Arabia	25.0	45.0
+country	Senegal	14.5	-14.25
+country	Serbia	43.745902	20.848918
+country	Singapore	1.344189	103.867546
+country	Slovakia	48.66667	19.5
+country	Slovenia	45.8133113	14.4808369
+country	South Africa	-28.8166235	24.991639
+country	South America	-13.083583	-58.470721
+country	South Korea	36.609249	127.917932
+country	Spain	40.4637	-3.7492
 country	Sri Lanka	7.8731	80.7718
+country	Sweden	59.6749712	14.5208584
+country	Switzerland	46.8182	8.2275
+country	Taiwan	23.8169	121.031365
+country	Thailand	14.8971921	100.83273
 country	Timor-Leste	-8.809397	125.909527
+country	Togo	8.88625	1.069709
 country	Tunisia	33.654143	9.065134
 country	Turkey	39.046746	36.767068
-country	Uganda	1.861287	32.551490
+country	USA	38.916963	-98.891372
+country	Uganda	1.861287	32.55149
+country	United Arab Emirates	23.546651	54.065059
+country	United Kingdom	54.242833	-2.088739
+country	Uruguay	-33.0	-56.0
 country	Venezuela	7.838891	-65.916409
+country	Vietnam	16.16667	107.83333
 
 
 country	Africa	4.070194	21.824559
