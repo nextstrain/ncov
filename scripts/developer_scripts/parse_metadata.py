@@ -631,11 +631,26 @@ def check_for_missing(data):
         data_clean[region] = {}
 
         for country in data[region]:
-            if country not in ordering["country"]:
-                missing["country"].append(bold(country))
-                clean_missing["country"].append(country)
+
+            if country not in ordering["country"] or country not in lat_longs["country"]:
+                s = bold(country)
+                if country not in ordering["country"] and country in lat_longs["country"]:
+                    s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
+                    data_clean[region][country] = {}
+                else:
+                    if country in ordering["country"] and country not in lat_longs["country"]:
+                        s = s + " (only missing in lat_longs)"
+                    else:
+                        if country in ordering["division"] or country in lat_longs["division"]:
+                            s = s + " (present as division)"
+
+                missing["country"].append(s)
+                if "(only missing in ordering" not in s:
+                    clean_missing["country"].append(country)
+
             else:
                 data_clean[region][country] = {}
+
 
             for division in data[region][country]:
                 if division == "":
@@ -790,7 +805,7 @@ def check_for_missing(data):
 
         for country in clean_missing["country"]:
             print(country)
-            
+
             new_lat_longs.append(find_place("country", country, country, geolocator))
 
         print("\nNew locations to be written out: ")
@@ -815,7 +830,7 @@ def ask_geocoder(full_unknown_place, geolocator):
 # Call with ex: 'location', 'Dallas', 'Dallas, Texas, USA', geolocator
 def find_place(geo_level, place, full_place, geolocator):
     typed_place = full_place
-    redo = True                    
+    redo = True
     while redo == True:
         print("\nCurrent place for missing {}:\t".format(geo_level) + full_place)
         new_place = ask_geocoder(typed_place, geolocator)
@@ -849,13 +864,29 @@ def find_place(geo_level, place, full_place, geolocator):
 # Util needed to sort a given list of locations or divisions by their coordinated stored in lat_longs
 # TODO: enable for countries as well
 def sort_by_coordinates(data, coordinates):
+    max_lat = -90
+    min_lat = 90
+    max_long = -150
+    min_long = 150
+    for hierarchy in data:
+        (lat, long) = coordinates[hierarchy]
+        max_lat = max(max_lat, lat)
+        min_lat = min(min_lat, lat)
+        max_long = max(max_long, long)
+        min_long = min(min_long, long)
+
+    index = 1
+    if (max_lat - min_lat) > (max_long - min_long):
+        index = 0
+
     loc_per_coord = {}
     for loc in data:
         if loc in coordinates:
-            if coordinates[loc][1] in loc_per_coord:
-                loc_per_coord[coordinates[loc][1]].append(loc)
+            coord = coordinates[loc][index]
+            if coordinates[loc][index] in loc_per_coord:
+                loc_per_coord[coord].append(loc)
             else:
-                loc_per_coord[coordinates[loc][1]] = [loc]
+                loc_per_coord[coord] = [loc]
         else:
             print("Missing coordinates: " + bold(loc))
     sorted_locs = []
@@ -890,7 +921,7 @@ def write_ordering(data, hierarchy):
                 continue
 
             out.write("\n# " + region + "\n")
-            for country in sorted(data[region]): #TODO: would be nice to sort this by coordinate too, but would need to add most lat_longs first!
+            for country in sort_by_coordinates(data[region], lat_longs["country"]): #TODO: would be nice to sort this by coordinate too, but would need to add most lat_longs first!
 
                 if hierarchy == "country":
                     out.write("country\t" + country + "\n")
