@@ -487,6 +487,7 @@ location	Algeciras
 location	San Roque
 location	La Linea de la Concepcion
 location	Cordoba
+location	Benalmadena
 location	Antequera
 location	Alhaurin de la Torre
 location	Torremolinos
@@ -497,6 +498,7 @@ location	Velez Malaga
 location	Castillo de Locubin
 location	Alcala la Real
 location	Illora
+location	Nerja
 location	Frailes
 location	Valderrubio
 location	Cijuela
@@ -532,11 +534,13 @@ location	Almeria
 location	Puebla de Don Fadrique
 
 # Madrid
+location	Fuenlabrada
 location	Parla
 location	Leganés
 location	Madrid
 location	Alcobendas
 location	Rivas-Vaciamadrid
+location	San Fernando de Henares
 location	Arganda del Rey
 location	Campo Real
 location	Alcala de Henares
@@ -1700,6 +1704,9 @@ location	Phoenix
 location	Colorado Springs
 location	Denver County
 
+# South Dakota
+location	Minnehaha County
+
 # Texas
 location	Greater Houston Area
 location	Houston
@@ -1761,6 +1768,7 @@ location	Adams County WI
 location	Green County
 location	Dane County
 location	Verona WI
+location	Marquette County
 location	Oregon WI
 location	Brooklyn WI
 location	Columbia County WI
@@ -1803,6 +1811,7 @@ location	Indianapolis
 # Ohio
 location	Cincinnati
 location	Columbus OH
+location	Cuyahoga County
 
 # Florida
 location	Miami-Dade County
@@ -2198,6 +2207,7 @@ division	South Australia
 division	Victoria
 division	Queensland
 division	New South Wales
+division	Australian Capital Territory
 
 ### Guam
 division	Guam
@@ -2883,6 +2893,13 @@ division	Heredia
 division	San Jose
 division	Cartago CR
 
+### Guatemala
+division	Guatemala
+
+### Belize
+division	Belize
+division	Belmopan
+
 ### Jamaica
 division	Jamaica
 
@@ -3095,6 +3112,8 @@ country	Venezuela
 # North America
 country	Panama
 country	Costa Rica
+country	Guatemala
+country	Belize
 country	Jamaica
 country	Mexico
 country	USA

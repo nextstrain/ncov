@@ -129,6 +129,7 @@ location	Bello	6.337338	-75.551569
 location	Beloeil	50.535799	3.698624
 location	Beloit	42.519007	-89.018844
 location	Benajarafe	36.716604	-4.195416
+location	Benalmadena	36.594519	-4.572284
 location	Benevento	41.247642600000006	14.705466481850998
 location	Bengaluru Urban	12.94514225	77.55364499971128
 location	Beniganim	38.9431	-0.4439
@@ -341,6 +342,7 @@ location	Cuenca	40.0704	-2.1374
 location	Cuesmes	50.435127	3.923209
 location	Cullar Vega	37.1535419	-3.6703193
 location	Curridabat	9.916215	-84.035009
+location	Cuyahoga County	41.4301347	-81.6905558
 location	Da Serra	-23.7442	-46.3975
 location	Dahegam	23.1637	72.8102
 location	Dahod	22.836899	74.251376
@@ -454,6 +456,7 @@ location	Franklin County NY	44.5926	-74.3388
 location	Franklin County WA	46.517555	-118.921601
 location	Froyennes	50.622463	3.347464
 location	Fryšták	49.2852044	17.6834631
+location	Fuenlabrada	40.282476	-3.7923422
 location	Funza	4.713017	-74.206999
 location	Fuyang	32.904205	115.812367
 location	Fuzhou	27.965633	116.359573
@@ -783,6 +786,7 @@ location	Mariakerke	51.072918	3.680642
 location	Maricopa County	33.34883	-112.49123
 location	Marin County	38.077277	-122.719060
 location	Marion County	44.924528	-122.798248
+location	Marquette County	43.8122244	-89.3926785
 location	Marratxí	39.6272	2.7572
 location	Marshall	43.167355	-89.066568
 location	Mason County	47.4251	-123.1951
@@ -813,6 +817,7 @@ location	Milan	45.474	9.177
 location	Milford	41.2307	-73.0640
 location	Milwaukee County	43.008019	-87.937899
 location	Mingogil	38.4609	-1.7411
+location	Minnehaha County	43.6680284	-96.7837626
 location	Miramar	25.9861	-80.3036
 location	Mirpur	23.8223	90.3654
 location	Modasa	23.4643	73.2988
@@ -871,6 +876,7 @@ location	Neemach	24.467521	74.875900
 location	Neerpelt	51.228889	5.431667
 location	Negreira	42.9105	-8.7363
 location	Neiva	2.933160	-75.277542
+location	Nerja	36.7468565	-3.8790164
 location	Neufmaison	50.528807	3.793244
 location	Neufvilles	50.568107	4.004889
 location	Nevele	51.0343	3.5474
@@ -1085,6 +1091,7 @@ location	San Clemente	39.4017	-2.4283
 location	San Diego	32.733024	-117.143358
 location	San Diego County	32.981125	-116.681405
 location	San Fernando	36.461409	-6.203425
+location	San Fernando de Henares	40.4248548	-3.5350369
 location	San Francisco	37.757679	-122.440006
 location	San Francisco County	37.7749	-122.4194
 location	San Francisco PA	8.990150	-79.506474
@@ -1444,6 +1451,7 @@ division	Atlantico	10.681025	-74.955752
 division	Auckland	-36.837842	174.800853
 division	Auderghem	50.812905	4.435779
 division	Australia	-24.7761085	134.755
+division	Australian Capital Territory	-35.4883502	149.0026942
 division	Austria	47.5162	14.5501
 division	Auvergne-Rhône-Alpes	45.4471	4.3853
 division	Baden-Wuerttemberg	48.712618	9.13403
@@ -1476,6 +1484,8 @@ division	Beja	38.0153	-7.8627
 division	Bekesszentandras	46.8716	20.4834
 division	Belarus	53	28
 division	Belgium	50.707735	4.677726
+division	Belize	16.8259793	-88.7600927
+division	Belmopan	17.250199	-88.770018
 division	Ben Arous	36.747441	10.234475
 division	Beni Brak	32.0849	34.8352
 division	Berlin	52.507192	13.408126
@@ -1672,6 +1682,7 @@ division	Guanajuato	20.9876996	-101.0
 division	Guangdong	23.615762	114.483257
 division	Guangxi	23.717754	108.701872
 division	Guardav	40.5308	-7.2221
+division	Guatemala	15.6356088	-89.8988087
 division	Guayas	-1.9575	-79.9193
 division	Guerrero	17.463444	-99.792052
 division	Gujarat	22.2587	71.1924
@@ -2317,6 +2328,7 @@ country	Bahrain	26.0667	50.5577
 country	Bangladesh	24.506442	90.041454
 country	Belarus	53.704205	28.247691
 country	Belgium	50.707735	4.677726
+country	Belize	16.8259793	-88.7600927
 country	Benin	9.961027	2.327362
 country	Bosnia and Herzegovina	43.9159	17.6791
 country	Brazil	-10.3333332	-53.1999999
@@ -2346,6 +2358,7 @@ country	Germany	51.1657	10.4515
 country	Ghana	7.811417	-1.089272
 country	Greece	39.0	22.0
 country	Guam	13.464887	144.792016
+country	Guatemala	15.6356088	-89.8988087
 country	Hong Kong	22.3964	114.1095
 country	Hungary	47.0	20.0
 country	Iceland	64.90614	-18.4826
