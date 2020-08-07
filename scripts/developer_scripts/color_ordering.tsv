@@ -451,6 +451,7 @@ location	Las Palmas
 
 # Galicia
 location	Muros
+location	Puerto del Son
 location	Ribeira
 location	Outes
 location	Noia
@@ -461,15 +462,27 @@ location	Negreira
 location	Padrón
 location	Ames
 location	Pontecesures
+location	Bertamirans
 location	Valga
 location	Teo
 location	La Estrada
+location	Vedra
 location	Boqueixón
 location	A Coruna
 location	Oroso
 location	Lalin
 location	El Rosal
 location	Santiago de Compostela
+
+# Extremadura
+location	Arroyo de la Luz
+location	Caceres
+location	Plasencia
+location	Malpartida de Plasencia
+location	Jaraicejo
+location	Navalmoral de la Mata
+location	Villanueva de la Vera
+location	Pueblonuevo de Miramontes
 
 # Andalusia
 location	Rota
@@ -494,7 +507,9 @@ location	Torremolinos
 location	Malaga
 location	Rincon de la Victoria
 location	Benajarafe
+location	Loja
 location	Velez Malaga
+location	Torre del Mar
 location	Castillo de Locubin
 location	Alcala la Real
 location	Illora
@@ -507,6 +522,7 @@ location	Santa Fe
 location	Vegas del Genil
 location	Las Gabias
 location	Atarfe
+location	Benalua de las Villas
 location	Cullar Vega
 location	Albolote
 location	Churriana de la Vega
@@ -524,12 +540,15 @@ location	Alfacar
 location	Iznalloz
 location	Huetor Santillan
 location	Ubeda
+location	Navas de San Juan
+location	La Peza
 location	Alamedilla
 location	Fonelas
 location	Guadix
 location	Zujar
 location	Castril
 location	Cortijos Nuevos
+location	Huescar
 location	Almeria
 location	Puebla de Don Fadrique
 
@@ -537,7 +556,6 @@ location	Puebla de Don Fadrique
 location	Fuenlabrada
 location	Parla
 location	Leganés
-location	Madrid
 location	Alcobendas
 location	Rivas-Vaciamadrid
 location	San Fernando de Henares
@@ -656,12 +674,18 @@ location	Zaragoza
 location	Jorba
 location	Vallirana
 location	Santa Coloma de Cervello
+location	San Cugat del Valles
 location	El Prat de Llobregat
 location	L'Hospitalet de Llobregat
 location	Sabadell
 location	Barcelona
+location	Mollet del Valles
 location	Badalona
 location	Vic
+location	Tiana
+location	Granollers
+location	Vilasar de Mar
+location	Mataro
 
 # Balear Islands
 location	Ibiza
@@ -780,6 +804,7 @@ location	Spicheren
 location	Strasbourg
 
 # Provence-Alpes-Côte d'Azur
+location	Marseille
 location	Embrun
 
 ### Belgium
@@ -1359,6 +1384,9 @@ location	Copiapo
 # Amazonas
 location	Manaus
 
+# Paraná
+location	Curitiba
+
 # Santa Catarina
 location	Florianopolis
 location	Joinville
@@ -1814,12 +1842,14 @@ location	Columbus OH
 location	Cuyahoga County
 
 # Florida
+location	Walton County
 location	Miami-Dade County
-location	Miami
 location	Palm Beach County
+location	Miami
 
 # South Carolina
 location	Berkeley County
+location	Columbia SC
 location	Richland County SC
 location	Fairfield County SC
 
@@ -2231,6 +2261,9 @@ division	KwaZulu-Natal
 division	Analamanga
 division	Analanjirofo
 
+### Zambia
+division	Lusaka
+
 ### Democratic Republic of the Congo
 division	Kongo Central
 division	Kinshasa
@@ -2289,6 +2322,7 @@ division	Niger
 ### Egypt
 division	Nile River Cruise
 division	Egypt
+division	Faiyum
 division	Cairo
 division	Kalyoubia
 
@@ -2343,6 +2377,7 @@ division	Wicklow
 division	Canary Islands
 division	Grand Canary Islands
 division	Galicia
+division	Extremadura
 division	Asturias
 division	Andalusia
 division	Castilla y Leon
@@ -2699,6 +2734,7 @@ division	Canakkale
 division	Tekirdag
 division	Balikesir
 division	Istanbul
+division	Bursa
 division	Denizli
 division	Kocaeli
 division	Sakarya
@@ -3042,6 +3078,7 @@ country	Guam
 # Africa
 country	South Africa
 country	Madagascar
+country	Zambia
 country	Democratic Republic of the Congo
 country	Kenya
 country	Uganda

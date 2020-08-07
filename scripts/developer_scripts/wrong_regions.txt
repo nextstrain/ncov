@@ -2,3 +2,4 @@ country	region
 Georgia	Asia
 Turkey	Europe
 Panama	North America
+Egypt	Africa

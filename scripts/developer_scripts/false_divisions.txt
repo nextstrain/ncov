@@ -37,3 +37,4 @@ Guediawaye	Dakar
 Livadeia	Central Greece
 Pikine	Dakar
 Mumbai	Maharashtra
+Marseille	Provence-Alpes-Côte d'Azur

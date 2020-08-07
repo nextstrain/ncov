@@ -172,3 +172,8 @@ location	Rivas Vaciamadrid	Rivas-Vaciamadrid	(Europe, Spain, Madrid)
 location	San Fernando	San Fernando de Henares	(Europe, Spain, Madrid)
 location	Malaga H	Malaga	(Europe, Spain, Andalusia)
 location	Arganda	Arganda del Rey	(Europe, Spain, Madrid)
+region	Asian	Asia
+location	Riveira	Ribeira	(Europe, Spain, Galicia)
+location	Badalona H	Badalona	(Europe, Spain, Catalunya)
+division	Fayoum	Faiyum	(Africa, Egypt)
+location	Noya	Noia	(Europe, Spain, Galicia)
