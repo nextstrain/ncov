@@ -225,6 +225,26 @@ def read_exposure(data, metadata):
 # e.g. turn a certain false division into a location below the correct division, and move all connected strains
 def correct_data(data, type, corrections, add_annotations = True): #TODO: add region correction (e.g. for Turkey, Georgia)
 
+    if type == "region":
+        for (region, region_correct) in corrections:
+            if region_correct not in data:
+                data[region_correct] = {}
+            for country in data[region]:
+                if country not in data[region_correct]:
+                    data[region_correct][country] = {}
+                for division in data[region][country]:
+                    if division not in data[region_correct][country]:
+                        data[region_correct][country][division] = {}
+                    for location in data[region][country][division]:
+                        if location not in data[region_correct][country][division]:
+                            data[region_correct][country][division][location] = []
+                        for strain in data[region][country][division][location]:
+                            if region != region_correct:
+                                if add_annotations:
+                                    additions_to_annotation.append(strain + "\tregion\t" + region_correct + " # previously " + region)
+                            data[region_correct][country][division][location].append(strain)
+            del data[region]
+
     if type == "country":
         for (region, country, region_correct, country_correct) in corrections:
             if country_correct not in data[region_correct]:
@@ -408,6 +428,15 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
 ##### Step 2.1: Apply all known variants stored in an external file variants.txt
 def apply_variants(data): #TODO: currently, the file variants.txt doesn't distinguish between location or division - what if we want to correct only one type, not the other?
     variants = read_local_file("variants.txt")
+
+    regions_to_switch = []
+    for region in data:
+        if region in variants['region']:
+            region_correct = variants['region'][region]
+            print("Apply variant (region): " + bold(region) + " -> " + bold(region_correct))
+            regions_to_switch.append((region, region_correct))
+
+    data = correct_data(data, "region", regions_to_switch)
 
     countries_to_switch = []
     for region in data:
