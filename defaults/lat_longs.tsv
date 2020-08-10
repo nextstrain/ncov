@@ -1493,6 +1493,7 @@ division	Balatonfured	46.9599	17.8851
 division	Balear Islands	39.30	3.0
 division	Balikesir	39.650196	27.88958
 division	Bamako	12.60503275	-7.986513673439357
+division	Bandung	-6.917318	107.607954
 division	Bangkok	13.798471	100.590834
 division	Bangladesh	24.506442	90.041454
 division	Baranya	46.0485	18.2719
@@ -2353,7 +2354,6 @@ division	Łódzkie	51.4721678	19.3460637
 
 country	Algeria	28.0000272	2.9999825
 country	Argentina	-37.052315	-64.869142
-country	Asia	30.451098	86.654576
 country	Australia	-24.7761085	134.755
 country	Austria	47.5162	14.5501
 country	Bahrain	26.0667	50.5577
@@ -2381,7 +2381,6 @@ country	Denmark	56.2639	9.5018
 country	Ecuador	-1.0541	-78.1489
 country	Egypt	26.8206	30.8025
 country	Estonia	58.850111	25.808524
-country	Europe	49.646237	10.799454
 country	Finland	61.751734	26.186437
 country	France	46.2276	2.2137
 country	Gambia	13.5	-15.5
@@ -2442,7 +2441,6 @@ country	Singapore	1.344189	103.867546
 country	Slovakia	48.66667	19.5
 country	Slovenia	45.8133113	14.4808369
 country	South Africa	-28.8166235	24.991639
-country	South America	-13.083583	-58.470721
 country	South Korea	36.609249	127.917932
 country	Spain	40.4637	-3.7492
 country	Sri Lanka	7.8731	80.7718

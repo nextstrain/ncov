@@ -142,8 +142,8 @@ location	Jaipur
 # Uttar Pradesh
 location	Noida
 location	Gaziabad
-location	Aligarh
 location	Muzaffarnagar
+location	Aligarh
 location	Lucknow
 
 # Delhi
@@ -1694,13 +1694,13 @@ location	Klickitat County
 location	Yakima County
 location	Chelan County
 location	Douglas County
+location	Benton County
 location	Grant County WA
 location	Franklin County WA
 location	Walla Walla County
 location	Adams County WA
 location	Spokane County
 location	Asotin County
-location	Benton County
 
 # California
 location	Humboldt County
@@ -2157,6 +2157,7 @@ division	Hong Kong
 
 ### Indonesia
 division	Jakarta
+division	Bandung
 division	Surabaya
 division	Pasuruan
 division	Indonesia
