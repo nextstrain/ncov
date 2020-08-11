@@ -50,6 +50,7 @@ location	Gilgit
 ### India
 # Karnataka
 location	Haveri
+location	Tumakuru
 location	Bengaluru Urban
 location	Chikkaballapura
 location	Kolar
@@ -76,6 +77,7 @@ location	Mahuva
 location	Bardoli
 location	Surat
 location	Mandvi
+location	Adajan
 location	Kamrej
 location	Choryasi
 location	Olpad
@@ -112,6 +114,7 @@ location	Mansa
 location	Prantij
 location	Modasa
 location	Himatnagar
+location	Mehsana
 location	Khedbrahma
 location	Palanpur
 location	Dhanera
@@ -2366,6 +2369,7 @@ division	Cork
 division	Tipperary
 division	Leitrim
 division	Ireland
+division	Laois
 division	Kilkenny
 division	Waterford
 division	Monaghan
