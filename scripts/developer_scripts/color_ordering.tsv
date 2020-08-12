@@ -1625,12 +1625,18 @@ location	Aligandí
 ### Costa Rica
 # Guanacaste
 location	Nicoya
+location	La Cruz
+
+# Puntarenas
+location	Garabito
+location	Corredores
 
 # Alajuela
 location	Orotina
-location	Grecia
 location	San Rafael de Alajuela
 location	Alajuela
+location	Grecia
+location	San Carlos
 
 # Heredia
 location	San Rafael Heredia
@@ -1639,12 +1645,15 @@ location	San Rafael Heredia
 location	Perez Zeledon
 location	Tarrazu
 location	Aserri
+location	Alajuelita
 location	Desamparados
 location	Curridabat
 location	Escazu
 location	Santa Ana CR
 location	San Jose
+location	Montes de Oca
 location	Tibas
+location	Moravia
 
 # Cartago CR
 location	La Union
@@ -2732,6 +2741,9 @@ division	Finland
 ### Belarus
 division	Belarus
 
+### Ukraine
+division	Ukraine
+
 ### Cyprus
 division	Cyprus
 
@@ -2918,6 +2930,7 @@ division	Venezuela
 ### Panama
 division	Chiriqui
 division	Bocas del Toro
+division	Panama
 division	Santiago de Veraguas
 division	Herrera
 division	Cocle
@@ -2930,10 +2943,16 @@ division	Guna Yala
 
 ### Costa Rica
 division	Guanacaste
+division	Puntarenas
 division	Alajuela
 division	Heredia
 division	San Jose
+division	Costa Rica
 division	Cartago CR
+division	Limon
+
+### Nicaragua
+division	Nicaragua
 
 ### Guatemala
 division	Guatemala
@@ -3137,6 +3156,7 @@ country	Latvia
 country	Estonia
 country	Finland
 country	Belarus
+country	Ukraine
 country	Cyprus
 country	Turkey
 country	Russia
@@ -3155,6 +3175,7 @@ country	Venezuela
 # North America
 country	Panama
 country	Costa Rica
+country	Nicaragua
 country	Guatemala
 country	Belize
 country	Jamaica
