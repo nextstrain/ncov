@@ -1292,6 +1292,9 @@ location	Plzeň
 # Usti nad Labem
 location	Všebořice
 
+# Prague
+location	Prague-Miskovice
+
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
 location	Kynice
@@ -1304,6 +1307,7 @@ location	Brno
 location	Litovel
 
 # Zlin
+location	Uhersky Brod
 location	Fryšták
 
 # Hranice Na Moravě
@@ -1950,6 +1954,9 @@ location	Middlesex County
 location	Norfolk County
 location	Boston
 
+# Puerto Rico
+location	Ponce
+
 ### Canada
 # Ontario
 location	Toronto
@@ -2107,6 +2114,7 @@ division	Sylhet
 division	Rangpur
 
 ### Myanmar
+division	Yangon
 division	Myanmar
 
 ### Thailand
@@ -2293,6 +2301,9 @@ division	Uganda
 
 ### Ghana
 division	Greater Accra
+
+### Sierra Leone
+division	Sierra Leone
 
 ### Togo
 division	Togo
@@ -2987,6 +2998,9 @@ division	Tabasco
 division	Yucatan
 division	Quintana Roo
 
+### Cuba
+division	Cuba
+
 ### USA
 division	Hawaii
 division	Alaska
@@ -3038,6 +3052,7 @@ division	Vermont
 division	Massachusetts
 division	New Hampshire
 division	Rhode Island
+division	Maine
 division	Puerto Rico
 division	Virgin Islands
 division	Diamond Princess
@@ -3108,6 +3123,7 @@ country	Democratic Republic of the Congo
 country	Kenya
 country	Uganda
 country	Ghana
+country	Sierra Leone
 country	Togo
 country	Benin
 country	Nigeria
@@ -3180,6 +3196,7 @@ country	Guatemala
 country	Belize
 country	Jamaica
 country	Mexico
+country	Cuba
 country	USA
 country	Canada
 

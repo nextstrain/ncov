@@ -854,6 +854,7 @@ location	Monroe County	43.940837	-90.605424
 location	Monte Abrão	38.759971	-9.265530
 location	Monterey County CA	36.176354	-121.254507
 location	Monteria	8.747483	-75.880941
+location	Montes de Oca	9.9377936	-84.033874
 location	Montgomery County NY	42.8941269	-74.4099745
 location	Montgomery County PA	40.2154361	-75.3702305
 location	Montignies-sur-Sambre	50.401302	4.478466
@@ -861,7 +862,6 @@ location	Montigny le Bretonneux	48.7739	2.0360
 location	Montigny-le-Tilleul	50.374917	4.371814
 location	Montreux-Chateau	47.607677	6.994181
 location	Montérégie	45.3872317844	-73.1007662636
-location	Montes de Oca	9.9377936	-84.033874
 location	Moravia	10.0139444	-84.0094218
 location	Morehouse Parish	32.813203	-91.810337
 location	Morlanwelz	50.450138	4.246584
@@ -1012,6 +1012,7 @@ location	Plock	52.520284	19.690317
 location	Ploegsteert	50.725900	2.880261
 location	Ploudalmezeau	48.5415	-4.6578
 location	Plzeň	49.7477415	13.3775249
+location	Ponce	18.011564	-66.613958
 location	Pontecesures	42.7207856	-8.652991
 location	Pontinha	38.7622108	-9.1968418
 location	Pontoise	49.049228	2.098595
@@ -1023,6 +1024,7 @@ location	Port Washington	43.382722	-87.885911
 location	Portoviejo	-1.0528066	-80.4534269
 location	Portugalete	43.317356	-3.021671
 location	Pradejon	42.331616	-2.067126
+location	Prague-Miskovice	50.1643364	14.5414996
 location	Prantij	23.4367	72.8528
 location	Presidente Venceslau	-21.8744	-51.8443
 location	Privas	44.723301	4.594575
@@ -1299,6 +1301,7 @@ location	Tweed Heads	-28.201312	153.543425
 location	Ubeda	38.0114	-3.3712
 location	Uccle	50.793431	4.355608
 location	Ugu	-30.54723	30.29119696183432
+location	Uhersky Brod	49.0253139	17.6464437
 location	Uijeongbu	37.7381078	127.033929
 location	Ujjain	23.161092	75.803740
 location	Ulan-Ude	51.827029	107.655954
@@ -1439,7 +1442,6 @@ location	uMkhanyakude	-46.77757335	37.79103213020967
 location	uMzinyathi	-28.0585234	30.3725385
 location	uThukela	-28.7446904	30.2224445
 location	Écaussinnes	50.561198	4.181268
-
 
 division	Aalst	50.939656	4.064173
 division	Aargau	47.420629	8.172097
@@ -1632,6 +1634,7 @@ division	Counties Manukau	-37.101403	175.005947
 division	Coyhaique	-45.5712	-72.0683
 division	Croatia	45.1	15.2
 division	Csongrád County	46.7084	20.1436
+division	Cuba	23.0131338	-80.8328748
 division	Cundinamarca	5.049758	-74.076048
 division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
@@ -1910,6 +1913,7 @@ division	Madrid	40.4168	-3.7038
 division	Magdalena	10.258546	-74.366995
 division	Maglaj	44.5455	18.1034
 division	Maharashtra	19.7515	75.7139
+division	Maine	45.709097	-68.8590201
 division	Makkah	21.3891	39.8579
 division	Malaysia	2.3923759	112.8471939
 division	Maldonado	-34.904210	-54.969183
@@ -2171,6 +2175,7 @@ division	Shanghai	31.171447	121.429896
 division	Shoam	31.9958	34.9488
 division	Sichuan	30.709229	102.693949
 division	Sicily	37.636932	14.193097
+division	Sierra Leone	8.6400349	-11.8400269
 division	Sihanoukville	10.616351	103.512278
 division	Siirt	37.911394	42.115166
 division	Sinaloa	25.0000001	-107.5000001
@@ -2347,6 +2352,7 @@ division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762
 division	Wyoming	43.076	-107.2903
 division	Yamalo-Nenets Autonomous Okrug	67.1471631	74.3415488
+division	Yangon	16.7967129	96.1609916
 division	Yaroslavl Oblast	57.7781976	39.0021095
 division	Yavne	31.8780	34.7394
 division	Yehud	32.0340	34.8859
@@ -2364,7 +2370,6 @@ division	Zug	47.155891	8.525039
 division	Zürich	47.441242	8.641154
 division	Čelinac	44.724001	17.324755
 division	Łódzkie	51.4721678	19.3460637
-
 
 
 country	Algeria	28.0000272	2.9999825
@@ -2389,6 +2394,7 @@ country	China	33.394333	104.689839
 country	Colombia	2.893108	-73.7845142
 country	Costa Rica	10.0379	-83.818759
 country	Croatia	45.1	15.2
+country	Cuba	23.0131338	-80.8328748
 country	Cyprus	34.965802	33.171772
 country	Czech Republic	49.8175	15.473
 country	Democratic Republic of the Congo	-4.0383	21.7587
@@ -2453,6 +2459,7 @@ country	Russia	64.6863136	97.7453061
 country	Saudi Arabia	25.0	45.0
 country	Senegal	14.5	-14.25
 country	Serbia	43.745902	20.848918
+country	Sierra Leone	8.6400349	-11.8400269
 country	Singapore	1.344189	103.867546
 country	Slovakia	48.66667	19.5
 country	Slovenia	45.8133113	14.4808369
