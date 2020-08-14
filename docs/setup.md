@@ -30,6 +30,19 @@ npm install --global auspice
 ## 3. Run a basic analysis with example data
 
 Run a basic workflow with example data, to confirm that your Nextstrain environment is properly configured.
+First, change into the `ncov` repository's directory.
+
+```bash
+cd ncov
+```
+
+Then, uncompress the example sequence data we include in the repository.
+
+```bash
+gzip -d -c data/example_sequences.fasta.gz > data/example_sequences.fasta
+```
+
+Finally, run the basic workflow with these example data.
 
 ```bash
 snakemake --cores 4 --profile ./my_profiles/getting_started
