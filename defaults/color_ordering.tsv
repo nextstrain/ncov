@@ -1721,6 +1721,7 @@ location	Asotin County
 # California
 location	Humboldt County
 location	Grand Princess Cruise Ship
+location	Sonoma County
 location	Marin County
 location	San Francisco
 location	San Francisco County
@@ -2298,6 +2299,9 @@ division	Kenya
 
 ### Uganda
 division	Uganda
+
+### Cameroon
+division	Yaounde
 
 ### Ghana
 division	Greater Accra
@@ -3122,6 +3126,7 @@ country	Zambia
 country	Democratic Republic of the Congo
 country	Kenya
 country	Uganda
+country	Cameroon
 country	Ghana
 country	Sierra Leone
 country	Togo
