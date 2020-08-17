@@ -1392,6 +1392,10 @@ location	Copiapo
 # Amazonas
 location	Manaus
 
+# Rondonia
+location	Jaru
+location	Porto Velho
+
 # Paraná
 location	Curitiba
 
@@ -2053,6 +2057,7 @@ division	Nur-Sultan
 
 ### Pakistan
 division	Karachi
+division	Pakistan
 division	Rawalpindi
 division	Khyber Pakhtunkhwa
 division	Islamabad
@@ -2856,6 +2861,7 @@ division	South America
 ### Brazil
 division	Acre
 division	Amazonas
+division	Rondonia
 division	Mato Grosso
 division	Rio Grande do Sul
 division	Brazil
@@ -2881,9 +2887,11 @@ division	Alagoas
 ### Peru
 division	Arequipa
 division	Ica
+division	Cuzco
 division	Lima
 division	Huanuco
 division	Lambayeque
+division	Loreto
 
 ### Ecuador
 division	Galapagos
