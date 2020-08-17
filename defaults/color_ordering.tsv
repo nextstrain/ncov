@@ -195,6 +195,7 @@ location	Uttara
 location	Tejgaon
 location	Gulshan
 location	Jatrabari
+location	Narayanganj
 location	Kodomtoly
 
 # Rajshahi
@@ -2107,7 +2108,6 @@ division	Barishal
 division	Khulna
 division	Narail
 division	Jhenaidha
-division	Narayanganj
 division	Dhaka
 division	Tangail
 division	Rajshahi
