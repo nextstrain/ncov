@@ -183,3 +183,5 @@ location	Foreigner
 division	Maranhao	Maranhão	(South America, Brazil)
 division	Northern District	North District	(Asia, Israel)
 division	Southern District	South District	(Asia, Israel)
+country	Bangaldesh	Bangladesh	(Asia)
+division	Mp	Mpumalanga	(Africa, South Africa)

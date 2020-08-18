@@ -121,6 +121,7 @@ location	Beacon Falls	41.4426	-73.0618
 location	Beerse	50.753018	4.305199
 location	Beersel	50.7669	4.3085
 location	Beerst	51.058103	2.886961
+location	Begumganj	22.9421436	91.0996725
 location	Beijing	40.071320	116.406908
 location	Bela - Ledec Na Sazavou	49.693369	15.277533
 location	Belchatow County	51.3686224	19.276131823300723
@@ -321,6 +322,7 @@ location	Columbia SC	34.0007493	-81.0343313
 location	Columbus OH	39.973143	-82.993618
 location	Columbus WI	43.337556	-89.023979
 location	Comines	50.749249	3.221643
+location	Companigonj	22.87168325	91.27743143154504
 location	Compiègne	49.408175	2.842839
 location	Conil de la Frontera	36.277924	-6.088770
 location	Contamine-sur-Arve	46.1274947	6.3395716
@@ -653,6 +655,7 @@ location	Juneau County	43.8673	-90.0747
 location	Jurbise	50.523647	3.904391
 location	Juvisy-sur-Orge	48.690609	2.377581
 location	Jönköping	57.777979	14.160453
+location	Kabirhat	22.8220772	91.1170328
 location	Kadi	23.294922	72.333046
 location	Kaggevinne	50.980233	5.021191
 location	Kain	50.637121	3.379162
@@ -729,6 +732,7 @@ location	Las Gabias	37.13257725	-3.694362820083108
 location	Las Mañanitas	9.107966	-79.406759
 location	Las Palmas	28.1009	-15.4654
 location	Lasne	50.679575	4.463992
+location	Laxmipur Sadar	22.9428644	90.9181638
 location	Le Pecq	48.8973	2.1064
 location	Le Roeulx	50.505667	4.104105
 location	Lecce	40.354894	18.168455
@@ -922,6 +926,7 @@ location	Nilphamari	25.9339275	88.8534588
 location	Niteroi	-22.912156	-43.060953
 location	Nizwa	22.9323884	57.5311
 location	Noain	42.758167	-1.632185
+location	Noakhali	22.5313205	91.1775744276286
 location	Nogent-l'Artaud	48.9651	3.3183
 location	Noia	42.7843	-8.8883
 location	Noida	28.552876	77.394687
@@ -1030,6 +1035,7 @@ location	Pradejon	42.331616	-2.067126
 location	Prague-Miskovice	50.1643364	14.5414996
 location	Prantij	23.4367	72.8528
 location	Presidente Venceslau	-21.8744	-51.8443
+location	Prilep	41.3446796	21.5505496
 location	Privas	44.723301	4.594575
 location	Prospect	41.5023	-72.9787
 location	Prostějov	49.4724	17.1068
@@ -2076,6 +2082,7 @@ division	Pasuruan	-7.6469	112.8999
 division	Pathum Thani	14.018153	100.723973
 division	Pays de la Loire	47.640237	-0.647258
 division	Pazardzhik	42.1928	24.3336
+division	Pelagonia	41.230157000000005	21.457169901765802
 division	Pennsylvania	41.2033	-77.1945
 division	Perm Region	58.017794	56.311058
 division	Pernambuco	-8.8137	-36.9541
@@ -2376,7 +2383,6 @@ division	Zug	47.155891	8.525039
 division	Zürich	47.441242	8.641154
 division	Čelinac	44.724001	17.324755
 division	Łódzkie	51.4721678	19.3460637
-
 
 country	Algeria	28.0000272	2.9999825
 country	Argentina	-37.052315	-64.869142

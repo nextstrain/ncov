@@ -172,6 +172,11 @@ location	Kathmandu
 
 ### Bangladesh
 # Chattogram
+location	Noakhali
+location	Companigonj
+location	Kabirhat
+location	Laxmipur Sadar
+location	Begumganj
 location	Chandpur
 location	Brahmanbaria
 
@@ -188,15 +193,16 @@ location	Kalia
 location	Shailokupa
 
 # Dhaka
-location	Mohammadpur
-location	Mirpur
-location	Agargaon
-location	Uttara
-location	Tejgaon
-location	Gulshan
-location	Jatrabari
+location	Noakhali
 location	Narayanganj
 location	Kodomtoly
+location	Jatrabari
+location	Tejgaon
+location	Mohammadpur
+location	Agargaon
+location	Gulshan
+location	Mirpur
+location	Uttara
 
 # Rajshahi
 location	Pabna
@@ -1340,6 +1346,10 @@ location	Radom
 ### Hungary
 # Central Hungary
 location	Budapest
+
+### North Macedonia
+# Pelagonia
+location	Prilep
 
 ### Greece
 # Central Greece
@@ -2711,6 +2721,7 @@ division	Cacak
 division	Novi Sad
 
 ### North Macedonia
+division	Pelagonia
 division	North Macedonia
 
 ### Greece
