@@ -173,10 +173,10 @@ location	Kathmandu
 ### Bangladesh
 # Chattogram
 location	Noakhali
-location	Companigonj
 location	Kabirhat
-location	Laxmipur Sadar
+location	Companigonj
 location	Begumganj
+location	Laxmipur Sadar
 location	Chandpur
 location	Brahmanbaria
 
@@ -193,16 +193,15 @@ location	Kalia
 location	Shailokupa
 
 # Dhaka
-location	Noakhali
+location	Mohammadpur
+location	Mirpur
+location	Agargaon
+location	Uttara
+location	Tejgaon
+location	Gulshan
+location	Jatrabari
 location	Narayanganj
 location	Kodomtoly
-location	Jatrabari
-location	Tejgaon
-location	Mohammadpur
-location	Agargaon
-location	Gulshan
-location	Mirpur
-location	Uttara
 
 # Rajshahi
 location	Pabna
@@ -2317,6 +2316,7 @@ division	Yaounde
 
 ### Ghana
 division	Greater Accra
+division	Ghana
 
 ### Sierra Leone
 division	Sierra Leone
