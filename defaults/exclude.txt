@@ -745,3 +745,6 @@ Oman/205036436/2020
 Turkey/ACUTG-10/2020
 Turkey/ACUTG-3/2020
 Turkey/ACUTG-4/2020
+
+#"It properly groups with other Israeli viruses but has a number of additional mutations";  see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1597880694027200
+Israel/CVL-n26495/2020
