@@ -57,6 +57,7 @@ location	Amadora	38.7595162	-9.223677009460125
 location	Amajuba	-27.7351566	29.961884968271626
 location	Ambite	40.3284	-3.1824
 location	Amelia Denis de Icaza	9.041001	-79.516947
+location	Americana	-22.7392463	-47.3306032
 location	Ames	42.9038	-8.6584
 location	Amravati	21.15454115	77.64429617998744
 location	Anchorage	61.203109	-149.888095
@@ -466,6 +467,7 @@ location	Frameries	50.389738	3.883946
 location	Franklin	42.882823	-88.009275
 location	Franklin County NY	44.5926	-74.3388
 location	Franklin County WA	46.517555	-118.921601
+location	Fresno County	36.6713502	-119.8155355
 location	Froyennes	50.622463	3.347464
 location	Fryšták	49.2852044	17.6834631
 location	Fuenlabrada	40.282476	-3.7923422
@@ -525,6 +527,7 @@ location	Grote-Brogel	51.153218	5.508637
 location	Guadalupe	8.859217	-79.808174
 location	Guadix	37.3011	-3.1403
 location	Guangzhou	23.123972	113.292889
+location	Guarujá	-23.9927768	-46.2558332
 location	Guayaquil	-2.1899066	-79.887726
 location	Guediawaye	14.7828	-17.3760
 location	Guevejar	37.2574	-3.5977
@@ -615,6 +618,7 @@ location	Ischgl	47.011789	10.289683
 location	Itaborai	-22.7570	-42.8643
 location	Itagui	6.174822	-75.607579
 location	Itapecerica Da Serra	-23.734665	-46.857835
+location	Itatiba	-22.9965861	-46.8412042
 location	Ixelles	50.826707	4.374329
 location	Iznalloz	37.3926	-3.5199
 location	Jaboatao Dos Guararapes	-8.1752476	-34.9468716
@@ -676,6 +680,7 @@ location	Kelmis	50.714674	6.023042
 location	Kematen in Tirol	47.253643	11.273540
 location	Keqiao	30.0819	120.4951
 location	Kermt	50.946857	5.247189
+location	Kern County	35.3145701	-118.7538222
 location	Kersbeek-Miskom	50.886946	4.999315
 location	Kessel-Lo	50.8851	4.7357
 location	Ketchikan	55.346882	-131.655301
@@ -685,6 +690,7 @@ location	Kheda	22.749950	72.686465
 location	Khedbrahma	24.0291	73.0435
 location	King Cetshwayo	-28.750343899999997	32.050227274984636
 location	King County	47.449221	-121.864246
+location	Kings County	36.0784807	-119.7956342
 location	Kipen	59.6739	29.8498
 location	Kirkland	47.679486	-122.206354
 location	Kittitas County	47.1750	-120.9319
@@ -718,7 +724,8 @@ location	Laakdal	51.081957	4.997449
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
 location	Lafayette County	42.662913	-90.134986
-location	Lake County	42.3327033	-87.9939552
+location	Lake County IL	42.3327033	-87.9939552
+location	Lake County CA	39.071954	-122.739331
 location	Laken	50.887688	4.353935
 location	Lalin	42.6612	-8.1110
 location	Lamine	50.688307	5.334720
@@ -778,6 +785,7 @@ location	Lídice	8.7487532	-79.9087931
 location	Maceio	-9.586654	-35.721537
 location	Machelen	50.903182	4.444013
 location	Macon	46.299425	4.822063
+location	Madera County	37.1716264	-119.7737991
 location	Madison	43.062839	-89.448317
 location	Madison CT	41.356100	-72.642246
 location	Madrid	40.444140	-3.680235
@@ -831,6 +839,7 @@ location	Meliana	39.5286	-0.3478
 location	Mellet	50.503949	4.480401
 location	Membach	50.618449	5.994495
 location	Mequon	43.226666	-87.973033
+location	Merced County	37.1641544	-120.7678602
 location	Merelbeke	50.9945	3.7456
 location	Meriden	41.539616	-72.794843
 location	Meta	3.297576	-73.053515
@@ -1006,6 +1015,7 @@ location	Peralta	42.337833	-1.799176
 location	Pereira	4.804771	-75.717885
 location	Perez Zeledon	9.355504	-83.624556
 location	Perth	-31.942741	115.841171
+location	Peruibe	-24.3218105	-46.9977452
 location	Petropolis	-22.5112	-43.1779
 location	Pewaukee	43.061507	-88.237950
 location	Phoenix	33.433362	-112.068786
@@ -1150,6 +1160,7 @@ location	San Vicente de la Sonsierra	42.5626773	-2.7589811
 location	Sangalkam	14.779304	-17.228261
 location	Santa Ana CR	9.930026	-84.180497
 location	Santa Ana PA	8.95708125	-79.53856710744475
+location	Santa Barbara County	34.7136533	-119.9858232
 location	Santa Clara County	37.236094	-121.683399
 location	Santa Clara de Louredo	37.9701683	-7.8720098
 location	Santa Coloma de Cervello	41.3687006	2.0174512
@@ -1166,6 +1177,7 @@ location	Santiago de Compostela	42.8782	8.5448
 location	Santo Domingo de la Calzada	42.4406711	-2.9536395
 location	Sao Bernardo do Campo	-23.735551	-46.563349
 location	Sao Lourenco Da Mata	-7.9959607	-35.039335
+location	Sao Vicente	-23.9603686	-46.3847024
 location	Saratoga County	43.0324	-73.9360
 location	Sauk County	43.4401728	-89.9653841
 location	Saukville	43.3817	-87.9406
@@ -1242,6 +1254,7 @@ location	Suffolk County	40.9849	-72.6151
 location	Sun Prarie	43.185544	-89.230804
 location	Sunshine Coast	-26.6500	153.0667
 location	Surat	21.166995	72.824307
+location	Sutter County	38.9509675	-121.697088
 location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
 location	São Domingos da Benfica	38.738026950000005	-9.195298604626885
@@ -1306,6 +1319,7 @@ location	Tughlakabad	28.5023598	77.2992401
 location	Tulua	4.092520	-76.197483
 location	Tumaco	1.792753	-78.793766
 location	Tumakuru	13.3400771	77.1006208
+location	Tuolumne County	38.056944	-119.9919351
 location	Tweed Heads	-28.201312	153.543425
 location	Ubeda	38.0114	-3.3712
 location	Uccle	50.793431	4.355608

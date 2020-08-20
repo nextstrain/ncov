@@ -1419,15 +1419,20 @@ location	Brasilia
 # São Paulo
 location	Presidente Venceslau
 location	Rio Claro
+location	Americana
 location	Hortolandia
+location	Peruibe
 location	Barueri
 location	Itapecerica Da Serra
+location	Itatiba
 location	Osasco
 location	Caieiras
 location	São Paulo
 location	Diadema
 location	Sao Bernardo do Campo
 location	Maua
+location	Sao Vicente
+location	Guarujá
 location	Mogi Das Cruzes
 
 # Rio de Janeiro
@@ -1733,6 +1738,7 @@ location	Asotin County
 location	Humboldt County
 location	Grand Princess Cruise Ship
 location	Sonoma County
+location	Lake County CA
 location	Marin County
 location	San Francisco
 location	San Francisco County
@@ -1741,12 +1747,20 @@ location	Solano County
 location	Contra Costa County
 location	Davis
 location	Alameda County
+location	Sutter County
 location	Santa Clara County
 location	Sacramento County
 location	San Joaquin County
 location	Monterey County CA
+location	Merced County
 location	San Luis Obispo County
+location	Tuolumne County
+location	Santa Barbara County
+location	Fresno County
+location	Kings County
+location	Madera County
 location	Ventura County
+location	Kern County
 location	Los Angeles County
 location	Orange County CA
 location	San Diego
@@ -1858,7 +1872,7 @@ location	Winnebago County IL
 location	Mchenry County
 location	Kane County
 location	Dupage County
-location	Lake County
+location	Lake County IL
 location	Cook County
 location	Chicago
 
