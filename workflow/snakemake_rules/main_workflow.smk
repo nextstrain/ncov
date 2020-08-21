@@ -281,9 +281,14 @@ def _get_subsampling_settings(wildcards):
     subsampling_settings = config["subsampling"][subsampling_scheme]
 
     if hasattr(wildcards, "subsample"):
-        return subsampling_settings[wildcards.subsample]
-    else:
-        return subsampling_settings
+        subsampling_settings = subsampling_settings[wildcards.subsample]
+    
+    # If users have supplied 'max_sequences' argument, assume they wish to override
+    # our default 'seq_per_group' from 'parameters.yaml' - so remove the 'seq_per_group'
+    if 'max_sequences' in subsampling_settings and 'seq_per_group' in subsampling_settings:
+        subsampling_settings.pop('seq_per_group')
+
+    return subsampling_settings
 
 
 def get_priorities(wildcards):
@@ -318,6 +323,12 @@ def _get_specific_subsampling_setting(setting, optional=False):
             build = config["builds"][wildcards.build_name]
             value = value.format(**build)
         else:
+            # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
+            # need to return the 'argument' for augur
+            if setting == 'seq_per_group':
+                value = "--sequences-per-group " + str(value)
+            elif setting == 'max_sequences':
+                value = "--subsample-max-sequences " + str(value)
             return value
 
         # Check format strings that haven't been resolved.
@@ -342,7 +353,8 @@ rule subsample:
         sequences = "results/{build_name}/sample-{subsample}.fasta"
     params:
         group_by = _get_specific_subsampling_setting("group_by"),
-        sequences_per_group = _get_specific_subsampling_setting("seq_per_group"),
+        sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
+        subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
         exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
         include_argument = _get_specific_subsampling_setting("include", optional=True),
         query_argument = _get_specific_subsampling_setting("query", optional=True),
@@ -359,7 +371,8 @@ rule subsample:
             {params.query_argument} \
             {params.priority_argument} \
             --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
+            {params.sequences_per_group} \
+            {params.subsample_max_sequences} \
             --output {output.sequences} 2>&1 | tee {log}
         """
 
