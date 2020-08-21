@@ -1350,6 +1350,12 @@ location	Budapest
 # Pelagonia
 location	Prilep
 
+# Northeastern Region MK
+location	Kumanovo
+
+# Eastern Region MK
+location	Shtip
+
 ### Greece
 # Central Greece
 location	Livadeia
@@ -1825,6 +1831,7 @@ location	St. Louis MO
 # Wisconsin
 location	Crawford County
 location	Trempealeau County
+location	Eau Claire County
 location	Chippewa County WI
 location	La Crosse County
 location	Vernon County
@@ -1833,6 +1840,7 @@ location	Grant County WI
 location	Monroe County
 location	Richland County WI
 location	Lafayette County
+location	Iowa County WI
 location	Juneau County
 location	Sauk County
 location	Adams County WI
@@ -1867,6 +1875,7 @@ location	Racine County
 location	Door County
 
 # Illinois
+location	Jo Daviess County
 location	Ogle County
 location	Winnebago County IL
 location	Mchenry County
@@ -1898,6 +1907,7 @@ location	Fairfield County SC
 
 # Pennsylvania
 location	Pittsburgh
+location	Allegheny County
 location	Montgomery County PA
 
 # New Jersey
@@ -2735,8 +2745,11 @@ division	Cacak
 division	Novi Sad
 
 ### North Macedonia
+division	Skopje
 division	Pelagonia
 division	North Macedonia
+division	Northeastern Region MK
+division	Eastern Region MK
 
 ### Greece
 division	Athens
