@@ -152,6 +152,7 @@ location	Bergen County	40.9263	-74.0770
 location	Beringen	51.064162	5.224601
 location	Berkeley County	33.1595951	-79.9070461
 location	Berlicum	51.6789	5.4012
+location	Berlin	52.5034002	13.3386373
 location	Berloz	50.703886	5.202112
 location	Bermeo	43.418493	-2.730537
 location	Bertamirans	42.8594847	-8.6501713
@@ -313,6 +314,7 @@ location	Clayton AU	-37.9173212	145.1304242
 location	Clayton PA	9.01106725	-79.57271645992734
 location	Clinton County	44.703277	-73.705166
 location	Coevorden	52.6614	6.7411
+location	Coca	-0.4721804	-76.9837216
 location	Cogollos de la Vega	37.2755727	-3.572149
 location	Colfontaine	50.40777	3.846237
 location	Colombes	48.9221	2.2533
@@ -730,8 +732,8 @@ location	Laakdal	51.081957	4.997449
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
 location	Lafayette County	42.662913	-90.134986
-location	Lake County CA	39.071954	-122.739331
 location	Lake County IL	42.3327033	-87.9939552
+location	Lake County CA	39.071954	-122.739331
 location	Laken	50.887688	4.353935
 location	Lalin	42.6612	-8.1110
 location	Lamine	50.688307	5.334720
@@ -1073,6 +1075,8 @@ location	Queens	40.717328	-73.795709
 location	Queimados	-22.720854	-43.583396
 location	Queluz	38.757221	-9.258745
 location	Quevaucamps	50.720840	3.289101
+location	Quevedo	-1.396433	-79.549465
+location	Quito	-0.2201641	-78.5123274
 location	Quibdo	5.691789	-76.654649
 location	Quilmes	-34.7206	-58.2546
 location	Qurayyat	23.2610439	58.9202694
@@ -1439,6 +1443,7 @@ location	Xinyu	27.8178	114.9173
 location	Xishuangbanna	21.995	100.837
 location	Yakima County	46.430431	-120.711765
 location	Yangjiang	21.888814	111.972598
+location	Yantzaza	-3.7146811499999997	-78.73763444639725
 location	Yavatmal	20.15	78.35
 location	Yernée-Fraineux	50.528091	5.383570
 location	Yeumbeul	14.7722	-17.3581
@@ -1495,6 +1500,7 @@ division	Amazonas	-3.4168	-65.8561
 division	Amman	31.9539	35.9106
 division	Analamanga	-18.6000004	47.51310021616148
 division	Analanjirofo	-16.5075	49.5280
+division	Ancash	-9.5	-77.75
 division	Andalusia	37.5443	-4.7278
 division	Andel	51.7851	5.0549
 division	Andhra Pradesh	15.9129	79.7400
@@ -1642,6 +1648,7 @@ division	Chubu	35.183334	136.899994
 division	Chungcheongnam	36.685948	126.799198
 division	Chushikoku	34.237636	133.058999
 division	Cienaga de Oro	8.8746769	-75.6210036
+division	Coahuila	27.3333331	-102.0000001
 division	Cocle	8.4604873	-80.4305652
 division	Coimbra	40.2033	-8.4103
 division	Colombia	2.893108	-73.7845142
@@ -1697,7 +1704,7 @@ division	Dupnitza	42.2613	23.1125
 division	Durango	24.019546	-104.658028
 division	East Kalimantan	0.241323	116.558975
 division	Eastern Cape	-32.344458	26.497832
-division	Eastern Region MK	41.836891800000004	22.52384962142576
+division	Eastern Region	41.836891800000004	22.52384962142576
 division	Ecuador	-1.3397667	-79.3666964
 division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
@@ -1839,6 +1846,7 @@ division	Jiangxi	27.458973	115.535326
 division	Jihlava	49.3984	15.5870
 division	Jonkoping	57.7826	14.1618
 division	Jordan	31.1667049	36.941628
+division	Junin	-11.5	-75.0
 division	Jura	47.368929	7.163449
 division	Jász-Nagykun-Szolnok County	47.2556	20.5232
 division	Kaggevinne	50.9794	5.0190
@@ -2048,7 +2056,7 @@ division	North Rhine Westphalia	51.44	7.705
 division	North Sharqiyah	22.157117399999997	58.51833487712584
 division	North Sulawesi	0.950357	124.450132
 division	North-West	-26.524595	25.625515
-division	Northeastern Region MK	42.1670929	22.002467993493266
+division	Northeastern Region	42.1670929	22.002467993493266
 division	Northern Ireland	54.60219	-6.687146
 division	Northern Territory	-19.4914	132.551
 division	Norway	64.574131	11.52701029
@@ -2267,6 +2275,7 @@ division	Tabasco	17.95078635	-92.48312213241397
 division	Tainan	22.9912348	120.184982
 division	Taiwan	23.8169	121.031365
 division	Talca	-35.462909	-71.37096
+division	Tamaulipas	23.9891553	-98.7026825
 division	Tamil Nadu	11.1271	78.6569
 division	Tangail	24.248630	89.917926
 division	Tatarstan	56.130014	53.371181
@@ -2396,6 +2405,7 @@ division	Yehud	32.0340	34.8859
 division	Yeumbeul	14.771188	-17.358556
 division	Yucatan	20.6845957	-88.8755669
 division	Yunnan	24.556297	101.36621
+division	Zamora-Chinchipe	-4.0620183	-78.7751588
 division	Zeeland	51.484078	3.802245
 division	Zefat	32.9646	35.4960
 division	Zepce	44.4287	18.0379

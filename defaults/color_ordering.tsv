@@ -1237,6 +1237,9 @@ location	Heinsberg District
 location	Duesseldorf
 location	Münster
 
+# Berlin
+location	Berlin
+
 ### Italy
 # Lombardy
 location	Milan
@@ -1350,10 +1353,10 @@ location	Budapest
 # Pelagonia
 location	Prilep
 
-# Northeastern Region MK
+# Northeastern Region
 location	Kumanovo
 
-# Eastern Region MK
+# Eastern Region
 location	Shtip
 
 ### Greece
@@ -1493,12 +1496,17 @@ location	San Jacinto de Yaguachi
 
 # Los Rios
 location	Babahoyo
+location	Quevedo
 location	Ventanas
+
+# Zamora-Chinchipe
+location	Yantzaza
 
 # Chimborazo
 location	Riobamba
 
 # Pichincha
+location	Quito
 location	Cayambe
 
 # Imbabura
@@ -1507,6 +1515,9 @@ location	Ibarra
 
 # Carchi
 location	Awa Reserve
+
+# Orellana
+location	Coca
 
 ### Colombia
 # Departamento de Amazonas
@@ -1909,6 +1920,9 @@ location	Fairfield County SC
 location	Pittsburgh
 location	Allegheny County
 location	Montgomery County PA
+
+# Washington DC
+location	District of Columbia County
 
 # New Jersey
 location	Camden County
@@ -2748,8 +2762,8 @@ division	Novi Sad
 division	Skopje
 division	Pelagonia
 division	North Macedonia
-division	Northeastern Region MK
-division	Eastern Region MK
+division	Northeastern Region
+division	Eastern Region
 
 ### Greece
 division	Athens
@@ -2918,8 +2932,8 @@ division	Bahia
 division	Espirito Santo
 division	Ceará
 division	Sergipe
-division	Rio Grande do Norte
 division	Pernambuco
+division	Rio Grande do Norte
 division	Alagoas
 
 ### Peru
@@ -2927,7 +2941,9 @@ division	Arequipa
 division	Ica
 division	Cuzco
 division	Lima
+division	Junin
 division	Huanuco
+division	Ancash
 division	Lambayeque
 division	Loreto
 
@@ -2938,9 +2954,9 @@ division	Manabi
 division	Guayas
 division	Daule
 division	Los Rios
+division	Zamora-Chinchipe
 division	Chimborazo
 division	Pichincha
-division	Quito
 division	Imbabura
 division	Carchi
 division	Orellana
@@ -3032,6 +3048,7 @@ division	Nayarit
 division	Durango
 division	Jalisco
 division	Guadalajara
+division	Coahuila
 division	Guanajuato
 division	Queretaro
 division	Guerrero
@@ -3039,6 +3056,7 @@ division	Estado de Mexico
 division	Mexico City
 division	Mexico
 division	Morelos
+division	Tamaulipas
 division	Puebla
 division	Chiapas
 division	Tabasco
