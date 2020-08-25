@@ -48,6 +48,9 @@ location	Ibra
 location	Gilgit
 
 ### India
+# Tamil Nadu
+location	Chennai
+
 # Karnataka
 location	Haveri
 location	Tumakuru
@@ -56,10 +59,31 @@ location	Chikkaballapura
 location	Kolar
 
 # Telangana
+location	Jogulamba Gadwal
+location	Gadwal
+location	Peddapally
+location	Nagarkurnool
+location	Mahbubnagar
+location	Nalgonda
+location	Suryapet
+location	Rangareddy
+location	Vikarabad
 location	Hyderabad
+location	Khammam
+location	Mahboobnagar
+location	Sangareddy
+location	Kamareddy
+location	Nizamabad
+location	Mancherial
+location	Nirmal
+location	Adilabad
 
 # Maharashtra
 location	Mumbai
+location	Pune
+location	Kolhapur
+location	Sangli
+location	Ahmednagar
 location	Aurangabad
 location	Jalna
 location	Akola
@@ -146,8 +170,20 @@ location	Jaipur
 location	Noida
 location	Gaziabad
 location	Muzaffarnagar
+location	Agra
 location	Aligarh
+location	Sambhal
+location	Moradabad
+location	Farrukhabad
+location	Kannauj
+location	Shahjahanpur
+location	Hardoi
+location	Pilibhit
+location	Kanpur
+location	Lakhimpur
 location	Lucknow
+location	Barabanki
+location	Azamgarh
 
 # Delhi
 location	Tughlakabad
@@ -165,6 +201,9 @@ location	Tehri Garhwal
 location	Pauri Garhwal
 location	Rudraprayag
 location	Chamoli
+
+# Ladakh
+location	Kargil
 
 ### Nepal
 # Kathmandu
@@ -302,6 +341,9 @@ location	Hanoi
 location	Hong Kong
 
 ### Indonesia
+# West Java
+location	Bandung
+
 # East Kalimantan
 location	Samarinda
 
@@ -2049,6 +2091,7 @@ division	Raanana
 division	Pardesia
 division	Netanya
 division	Tirat Zvi
+division	Haifa District
 division	Haifa
 division	Tveria
 division	Hukuk
@@ -2100,6 +2143,9 @@ division	Dakhiliyah
 division	Muscat
 division	North Sharqiyah
 
+### Uzbekistan
+division	Uzbekistan
+
 ### Kazakhstan
 division	Nur-Sultan
 
@@ -2115,7 +2161,6 @@ division	Gilgit Baltistan
 division	Kyrgyzstan
 
 ### India
-division	Kerala
 division	Tamil Nadu
 division	Karnataka
 division	Andhra Pradesh
@@ -2136,7 +2181,6 @@ division	Uttarakhand
 division	Punjab
 division	Jammu
 division	Ladakh
-division	Kargil
 
 ### Sri Lanka
 division	Sri Lanka
@@ -2227,7 +2271,8 @@ division	Hong Kong
 
 ### Indonesia
 division	Jakarta
-division	Bandung
+division	West Java
+division	Special Region of Yogyakarta
 division	Surabaya
 division	Pasuruan
 division	Indonesia
@@ -2732,6 +2777,9 @@ division	Bratislava
 division	Martin
 division	Kosice
 
+### Montenegro
+division	Montenegro
+
 ### Hungary
 division	Balatonfured
 division	Baranya
@@ -2809,6 +2857,11 @@ division	Finland
 
 ### Belarus
 division	Belarus
+
+### Moldova
+division	Balti
+division	Straseni
+division	Chisinau
 
 ### Ukraine
 division	Ukraine
@@ -2994,6 +3047,9 @@ division	Magdalena
 division	Atlantico
 division	Soledad
 
+### Suriname
+division	Suriname
+
 ### Venezuela
 division	Venezuela
 
@@ -3150,6 +3206,7 @@ country	Qatar
 country	Iran
 country	United Arab Emirates
 country	Oman
+country	Uzbekistan
 country	Kazakhstan
 country	Pakistan
 country	Kyrgyzstan
@@ -3227,6 +3284,7 @@ country	Czech Republic
 country	Bosnia and Herzegovina
 country	Poland
 country	Slovakia
+country	Montenegro
 country	Hungary
 country	Serbia
 country	North Macedonia
@@ -3238,6 +3296,7 @@ country	Latvia
 country	Estonia
 country	Finland
 country	Belarus
+country	Moldova
 country	Ukraine
 country	Cyprus
 country	Turkey
@@ -3252,6 +3311,7 @@ country	Brazil
 country	Peru
 country	Ecuador
 country	Colombia
+country	Suriname
 country	Venezuela
 
 # North America

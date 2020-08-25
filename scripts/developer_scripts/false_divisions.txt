@@ -42,3 +42,4 @@ Prague-Miskovice	Prague
 Narayanganj	Dhaka
 Prilep	Pelagonia
 Quito	Pichincha
+Kargil	Ladakh
