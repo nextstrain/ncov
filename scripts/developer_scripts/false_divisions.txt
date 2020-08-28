@@ -43,3 +43,4 @@ Narayanganj	Dhaka
 Prilep	Pelagonia
 Quito	Pichincha
 Kargil	Ladakh
+Rabnita	Rezina

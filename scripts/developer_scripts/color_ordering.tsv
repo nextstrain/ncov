@@ -341,6 +341,9 @@ location	Hanoi
 location	Hong Kong
 
 ### Indonesia
+# Banten
+location	Tangerang
+
 # West Java
 location	Bandung
 
@@ -1279,9 +1282,6 @@ location	Heinsberg District
 location	Duesseldorf
 location	Münster
 
-# Berlin
-location	Berlin
-
 ### Italy
 # Lombardy
 location	Milan
@@ -1415,6 +1415,10 @@ location	Iasi
 ### Finland
 # Finland
 location	Rovaniemi
+
+### Moldova
+# Rezina
+location	Rabnita
 
 ### Russia
 # Leningrad Region
@@ -1929,6 +1933,7 @@ location	Door County
 
 # Illinois
 location	Jo Daviess County
+location	Stephenson County
 location	Ogle County
 location	Winnebago County IL
 location	Mchenry County
@@ -2270,6 +2275,7 @@ division	Lao Cai
 division	Hong Kong
 
 ### Indonesia
+division	Banten
 division	Jakarta
 division	West Java
 division	Special Region of Yogyakarta
@@ -2354,6 +2360,7 @@ division	South Australia
 division	Victoria
 division	Queensland
 division	New South Wales
+division	Tasmania
 division	Australian Capital Territory
 
 ### Guam
@@ -2543,6 +2550,7 @@ division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
 division	Grand Est
 division	Provence-Alpes-Côte d'Azur
+division	Reunion
 
 ### Belgium
 division	Veurne
@@ -2862,6 +2870,7 @@ division	Belarus
 division	Balti
 division	Straseni
 division	Chisinau
+division	Rezina
 
 ### Ukraine
 division	Ukraine
@@ -2997,7 +3006,9 @@ division	Lima
 division	Junin
 division	Huanuco
 division	Ancash
+division	La Libertad
 division	Lambayeque
+division	Cajamarca
 division	Loreto
 
 ### Ecuador
@@ -3093,6 +3104,9 @@ division	Belmopan
 
 ### Jamaica
 division	Jamaica
+
+### Dominican Republic
+division	Dominican Republic
 
 ### Mexico
 division	Baja California
@@ -3321,6 +3335,7 @@ country	Nicaragua
 country	Guatemala
 country	Belize
 country	Jamaica
+country	Dominican Republic
 country	Mexico
 country	Cuba
 country	USA

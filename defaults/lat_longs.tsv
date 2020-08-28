@@ -1110,6 +1110,7 @@ location	Quilmes	-34.7206	-58.2546
 location	Quito	-0.2201641	-78.5123274
 location	Qurayyat	23.2610439	58.9202694
 location	Quévy	50.369910	3.951226
+location	Rabnita	47.7534702	28.9780857
 location	Racine	42.721147	-87.800333
 location	Racine County	42.7260523	-87.7825242
 location	Radom	51.397849	21.151218
@@ -1288,6 +1289,7 @@ location	Stearns County	45.535326	-94.6139422
 location	Steenokkerzeel	50.922396	4.499669
 location	Steinach am Brenner	47.090272	11.472902
 location	Stekene	51.214088	4.030857
+location	Stephenson County	42.3503474	-89.6735637
 location	Sterrebeek	50.866403	4.474336
 location	Stoughton	42.922770	-89.225062
 location	Strasbourg	48.5734	7.7521
@@ -1308,6 +1310,7 @@ location	São Paulo	-23.551096	-46.634874
 location	Tafalla	42.522804	-1.675960
 location	Taipei	25.043279	121.565717
 location	Talod	23.3512	72.9505
+location	Tangerang	-6.1760311	106.6384468
 location	Taoyuan	24.951706	121.219785
 location	Taranto	40.524671	17.215202
 location	Tarare	45.8942555	4.4371374
@@ -1580,6 +1583,7 @@ division	Bamako	12.60503275	-7.986513673439357
 division	Bandung	-6.917318	107.607954
 division	Bangkok	13.798471	100.590834
 division	Bangladesh	24.506442	90.041454
+division	Banten	-6.47800285	105.54102849016589
 division	Baranya	46.0485	18.2719
 division	Barcelona	41.394769	2.173828
 division	Barishal	22.7562851	90.41098391553726
@@ -1641,6 +1645,7 @@ division	Bács-Kiskun County	46.551745	19.374218
 division	Békés County	46.741797	21.031653
 division	Cacak	43.891816	20.362815
 division	Cairo	30.041045	31.237176
+division	Cajamarca	-6.25	-78.833333
 division	Caldas	5.314226	-75.340073
 division	Cali	3.420251	-76.522405
 division	California	36.357039	-119.690182
@@ -1733,6 +1738,7 @@ division	Dinant	50.239336	4.939426
 division	Distrito Federal	-15.7998	-47.8645
 division	Doha	25.270283	51.52297
 division	Dolnoslaskie	51.122543	16.404924
+division	Dominican Republic	19.0974031	-70.3028026
 division	Donostia-San Sebatian	43.306272	-1.979035
 division	Drenthe	52.846963	6.608915
 division	Dublin	53.3431	-6.262191
@@ -1943,6 +1949,7 @@ division	Kyoto	35.007542	135.768455
 division	Kyrgyzstan	41.927675	75.142149
 division	Kyustendil	42.2869	22.6939
 division	Kyusyu	32.5900	130.8000
+division	La Libertad	-8.0	-78.5
 division	La Louvière	50.469989	4.158129
 division	La Rioja	42.2871	-2.5396
 division	Ladakh	34.152588	77.577049
@@ -2207,7 +2214,9 @@ division	Republic of Crymea	45.3453	34.4997
 division	Republic of Kabardino-Balkaria	43.3932	43.5628
 division	Republic of Sakha	66.7613	124.1238
 division	Republic of Tatarstan	55.1802	50.7264
+division	Reunion	-21.1309332	55.5265771
 division	Reykjavik	64.1445	-21.9418
+division	Rezina	47.7485938	28.9507249
 division	Rhode Island	41.5801	-71.4774
 division	Riga	56.960679	24.10716
 division	Rio Grande do Norte	-5.4026	-36.9541
@@ -2321,6 +2330,7 @@ division	Talca	-35.462909	-71.37096
 division	Tamaulipas	23.9891553	-98.7026825
 division	Tamil Nadu	11.1271	78.6569
 division	Tangail	24.248630	89.917926
+division	Tasmania	-42.14220555	146.6723517878467
 division	Tatarstan	56.130014	53.371181
 division	Tbilisi	41.733699	44.818487
 division	Tehran	35.6892	51.3890
@@ -2491,6 +2501,7 @@ country	Cyprus	34.965802	33.171772
 country	Czech Republic	49.8175	15.473
 country	Democratic Republic of the Congo	-4.0383	21.7587
 country	Denmark	56.2639	9.5018
+country	Dominican Republic	19.0974031	-70.3028026
 country	Ecuador	-1.0541	-78.1489
 country	Egypt	26.8206	30.8025
 country	Estonia	58.850111	25.808524
