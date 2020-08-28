@@ -1278,6 +1278,7 @@ location	Munich
 location	Tuebingen
 
 # North Rhine Westphalia
+location	Heinsberg
 location	Heinsberg District
 location	Duesseldorf
 location	Münster
@@ -1473,6 +1474,7 @@ location	Brasilia
 
 # São Paulo
 location	Presidente Venceslau
+location	Assis
 location	Rio Claro
 location	Americana
 location	Hortolandia
@@ -2057,6 +2059,10 @@ location	Ponce
 ### Canada
 # Ontario
 location	Toronto
+
+# Quebec
+location	Montérégie
+location	Lanaudière
 
 ################
 
@@ -2675,6 +2681,7 @@ division	Veneto
 division	Lazio
 division	Friuli Venezia Giulia
 division	Marche
+division	Ancona
 division	Abruzzo
 division	Castel di Sangro
 division	Sicily
@@ -2867,10 +2874,12 @@ division	Finland
 division	Belarus
 
 ### Moldova
-division	Balti
-division	Straseni
+division	Cahul
 division	Chisinau
+division	Straseni
 division	Rezina
+division	Balti
+division	Soroca
 
 ### Ukraine
 division	Ukraine
