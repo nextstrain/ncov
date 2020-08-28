@@ -2550,7 +2550,6 @@ division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
 division	Grand Est
 division	Provence-Alpes-Côte d'Azur
-division	Reunion
 
 ### Belgium
 division	Veurne
@@ -2824,6 +2823,7 @@ division	Eastern Region
 ### Greece
 division	Athens
 division	Central Greece
+division	Greece
 division	Thessaloniki
 
 ### Lithuania
