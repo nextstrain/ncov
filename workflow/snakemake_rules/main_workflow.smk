@@ -328,10 +328,36 @@ def _get_specific_subsampling_setting(setting, optional=False):
 
     return _get_setting
 
+def _get_sampling_rate_arguments():
+    def _get_setting(wildcards):
+        sequences_per_group = _get_subsampling_settings(wildcards).get("seq_per_group", None)
+        max_sequences = _get_subsampling_settings(wildcards).get("max_sequences", None)
+        if sequences_per_group is not None:
+            return f"--sequences-per-group {sequences_per_group}"
+        elif max_sequences is not None:
+            return f"--subsample-max-sequences {max_sequences}"
+        else:
+            raise Exception("neither sequences_per_group nor max_sequences provided for sampling rate")
+
+    return _get_setting
+
+def _get_sampling_rate_description():
+    def _get_setting(wildcards):
+        sequences_per_group = _get_subsampling_settings(wildcards).get("seq_per_group", None)
+        max_sequences = _get_subsampling_settings(wildcards).get("max_sequences", None)
+        if sequences_per_group is not None:
+            return f"{sequences_per_group} per"
+        elif max_sequences is not None:
+            return f"a limit of {max_sequences} total sequences grouping by"
+        else:
+            raise Exception("neither sequences_per_group nor max_sequences provided for sampling rate")
+
+    return _get_setting
+
 rule subsample:
     message:
         """
-        Subsample all sequences into a {wildcards.subsample} set for build '{wildcards.build_name}' with {params.sequences_per_group} per {params.group_by}
+        Subsample all sequences into a {wildcards.subsample} set for build '{wildcards.build_name}' with {params.sampling_rate_description} per {params.group_by}
         """
     input:
         sequences = rules.mask.output.alignment,
@@ -342,7 +368,8 @@ rule subsample:
         sequences = "results/{build_name}/sample-{subsample}.fasta"
     params:
         group_by = _get_specific_subsampling_setting("group_by"),
-        sequences_per_group = _get_specific_subsampling_setting("seq_per_group"),
+        sampling_rate_arguments = _get_sampling_rate_arguments(),
+        sampling_rate_description = _get_sampling_rate_description(),
         exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
         include_argument = _get_specific_subsampling_setting("include", optional=True),
         query_argument = _get_specific_subsampling_setting("query", optional=True),
@@ -359,7 +386,7 @@ rule subsample:
             {params.query_argument} \
             {params.priority_argument} \
             --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
+            {params.sampling_rate_arguments} \
             --output {output.sequences} 2>&1 | tee {log}
         """
 
