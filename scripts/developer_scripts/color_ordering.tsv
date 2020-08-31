@@ -112,8 +112,10 @@ location	Jetpur
 location	Bhavnagar
 location	Gondal
 location	Botad
+location	Khambhaliya
 location	Rajkot
 location	Vadodara
+location	Dhandhuka
 location	Jamnagar
 location	Chuda
 location	Savli
@@ -139,6 +141,9 @@ location	Prantij
 location	Modasa
 location	Himatnagar
 location	Mehsana
+location	Patan
+location	Radhanpur
+location	Siddhpur
 location	Khedbrahma
 location	Palanpur
 location	Dhanera
@@ -1287,11 +1292,17 @@ location	Münster
 # Lombardy
 location	Milan
 
+# Tuscany
+location	Siena
+
 # Veneto
 location	Verona IT
 
 # Lazio
 location	Rome
+
+# Marche
+location	Ancona
 
 # Abruzzo
 location	L'Aquila
@@ -1490,6 +1501,7 @@ location	Sao Bernardo do Campo
 location	Maua
 location	Sao Vicente
 location	Guarujá
+location	Santa Isabel
 location	Mogi Das Cruzes
 
 # Rio de Janeiro
@@ -1548,7 +1560,9 @@ location	Quevedo
 location	Ventanas
 
 # Zamora-Chinchipe
+location	Zamora
 location	Yantzaza
+location	El-Pangui
 
 # Chimborazo
 location	Riobamba
@@ -1558,14 +1572,16 @@ location	Quito
 location	Cayambe
 
 # Imbabura
-location	Urcuqui
+location	Otavalo
 location	Ibarra
+location	Urcuqui
 
 # Carchi
 location	Awa Reserve
 
 # Orellana
 location	Coca
+location	Orellana
 
 ### Colombia
 # Departamento de Amazonas
@@ -2194,6 +2210,8 @@ division	Jammu
 division	Ladakh
 
 ### Sri Lanka
+division	Kalutara
+division	Colombo
 division	Sri Lanka
 
 ### Nepal
@@ -2501,11 +2519,14 @@ division	Cork
 division	Tipperary
 division	Leitrim
 division	Ireland
+division	Offaly
 division	Laois
+division	Cavan
 division	Kilkenny
 division	Waterford
 division	Monaghan
 division	Kildare
+division	Wexford
 division	Meath
 division	Louth
 division	Dublin
@@ -2673,7 +2694,8 @@ division	Sardinia
 division	Lombardy
 division	Trentino
 division	Emilia-Romagna
-division	Pa Trento
+division	Tuscany
+division	Trentino-Alto Adige
 division	South Tyrol
 division	Italian cruise ship
 division	Italy
@@ -2681,9 +2703,7 @@ division	Veneto
 division	Lazio
 division	Friuli Venezia Giulia
 division	Marche
-division	Ancona
 division	Abruzzo
-division	Castel di Sangro
 division	Sicily
 division	Molise
 division	Campania
@@ -2819,6 +2839,9 @@ division	Serbia
 division	Uzice
 division	Cacak
 division	Novi Sad
+
+### Kosovo
+division	Kosovo
 
 ### North Macedonia
 division	Skopje
@@ -3005,6 +3028,7 @@ division	Ceará
 division	Sergipe
 division	Pernambuco
 division	Rio Grande do Norte
+division	Paraiba
 division	Alagoas
 
 ### Peru
@@ -3310,6 +3334,7 @@ country	Slovakia
 country	Montenegro
 country	Hungary
 country	Serbia
+country	Kosovo
 country	North Macedonia
 country	Greece
 country	Lithuania
