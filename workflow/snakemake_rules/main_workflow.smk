@@ -334,9 +334,9 @@ def _get_specific_subsampling_setting(setting, optional=False):
             # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
             # need to return the 'argument' for augur
             if setting == 'seq_per_group':
-                value = "--sequences-per-group " + str(value)
+                value = f"--sequences-per-group {value}"
             elif setting == 'max_sequences':
-                value = "--subsample-max-sequences " + str(value)
+                value = f"--subsample-max-sequences {value}"
 
             return value
         else:
