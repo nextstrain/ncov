@@ -748,3 +748,6 @@ Turkey/ACUTG-4/2020
 
 #"It properly groups with other Israeli viruses but has a number of additional mutations";  see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1597880694027200
 Israel/CVL-n26495/2020
+
+#There are tabs at the end of the sequence - messes up diagnostics. If removed, can re-include
+Italy/FVG-ICGEB-S204/2020
