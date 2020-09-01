@@ -1312,7 +1312,11 @@ location	Teramo
 location	Naples
 location	Benevento
 
+# Basilicata
+location	Potenza
+
 # Apulia
+location	Bari
 location	Taranto
 location	Brindisi
 location	Lecce
@@ -1778,13 +1782,18 @@ location	Fairbanks
 location	Southeast Alaska
 
 # Oregon
+location	Yamhill County
+location	Douglas County OR
 location	Columbia County OR
 location	Washington County OR
 location	Lane County OR
 location	Marion County
+location	Jackson County OR
 location	Multnomah County
 location	Clackamas County
+location	Hood River County
 location	Wasco County
+location	Sherman County
 location	Umatilla County
 
 # Washington
@@ -1806,7 +1815,7 @@ location	Kittitas County
 location	Klickitat County
 location	Yakima County
 location	Chelan County
-location	Douglas County
+location	Douglas County WA
 location	Benton County
 location	Grant County WA
 location	Franklin County WA
@@ -1841,12 +1850,16 @@ location	Fresno County
 location	Kings County
 location	Madera County
 location	Ventura County
+location	Tulare County
 location	Kern County
 location	Los Angeles County
 location	Orange County CA
 location	San Diego
 location	San Diego County
 location	Imperial County
+
+# Idaho
+location	Madison County
 
 # Arizona
 location	Maricopa County
@@ -1860,8 +1873,9 @@ location	Denver County
 location	Minnehaha County
 
 # Texas
-location	Greater Houston Area
+location	Bexar County
 location	Houston
+location	Greater Houston Area
 location	Panola County
 
 # Minnesota
@@ -2303,6 +2317,7 @@ division	Banten
 division	Jakarta
 division	West Java
 division	Special Region of Yogyakarta
+division	Central Java
 division	Surabaya
 division	Pasuruan
 division	Indonesia
@@ -2682,6 +2697,7 @@ division	Germany
 division	North Rhine Westphalia
 division	Berlin
 division	Niedersachsen
+division	Hamburg
 division	Western Pomerania
 division	Rostock
 
@@ -2839,9 +2855,6 @@ division	Serbia
 division	Uzice
 division	Cacak
 division	Novi Sad
-
-### Kosovo
-division	Kosovo
 
 ### North Macedonia
 division	Skopje
@@ -3334,7 +3347,6 @@ country	Slovakia
 country	Montenegro
 country	Hungary
 country	Serbia
-country	Kosovo
 country	North Macedonia
 country	Greece
 country	Lithuania
