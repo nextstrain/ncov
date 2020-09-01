@@ -122,12 +122,20 @@ subsampling:
     # Focal samples for region
     region:
       group_by: "division year month"
+      # augur filter's `seq_per_group` and `max_sequences` are mutually
+      # exclusive, but one of these arguments is required for each subsampling
+      # scheme. To override these defaults in your own subsampling schemes of
+      # the same name, provide a value for the limit you want to use and an
+      # empty entry for the limit you don't use. The entry below demonstrates
+      # this approach.
       seq_per_group: 48
+      max_sequences:
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
       seq_per_group: 4
+      max_sequences:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
@@ -138,6 +146,7 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 20
+      max_sequences:
 
   # Custom subsampling logic for regions like Europe where grouping by country
   # is the smallest resolution required.
@@ -146,11 +155,13 @@ subsampling:
     region:
       group_by: "country year month"
       seq_per_group: 64
+      max_sequences:
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
       seq_per_group: 6
+      max_sequences:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
@@ -162,11 +173,13 @@ subsampling:
     country:
       group_by: "division year month"
       seq_per_group: 200
+      max_sequences:
       exclude: "--exclude-where 'country!={country}'"
     # Contextual samples from country's region
     region:
       group_by: "country year month"
       seq_per_group: 20
+      max_sequences:
       exclude: "--exclude-where 'country={country}' 'region!={region}'"
       priorities:
         type: "proximity"
@@ -176,6 +189,7 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 10
+      max_sequences:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
@@ -187,11 +201,13 @@ subsampling:
     division:
       group_by: "year month"
       seq_per_group: 300
+      max_sequences:
       exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
     # Contextual samples from division's country
     country:
       group_by: "division year month"
       seq_per_group: 20
+      max_sequences:
       exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
       priorities:
         type: "proximity"
@@ -200,6 +216,7 @@ subsampling:
     region:
       group_by: "country year month"
       seq_per_group: 10
+      max_sequences:
       exclude: "--exclude-where 'region!={region}' 'country={country}'"
       priorities:
         type: "proximity"
@@ -209,6 +226,7 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 5
+      max_sequences:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
@@ -220,11 +238,13 @@ subsampling:
     focal:
       group_by: "year month"
       seq_per_group: 300
+      max_sequences:
       exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}' 'location!={location}'"
     # Samples that are genetically related to the focal samples
     related:
       group_by: "country year month"
       seq_per_group: 20
+      max_sequences:
       exclude: "--exclude-where 'location={location}'"
       priorities:
         type: "proximity"
@@ -233,4 +253,5 @@ subsampling:
     contextual:
       group_by: "country year month"
       seq_per_group: 10
+      max_sequences:
       exclude: "--exclude-where 'location={location}'"
