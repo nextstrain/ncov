@@ -99,7 +99,7 @@ For `country`-level sampling above, we specify that we want a maximum of 1,500 s
 Since we set `group_by` to "division year month", all the Swiss sequences will be divided into groups by their division, month, and year of sampling, and the code will try to equally sample from each group to reach 1,500 sequences total.
 
 Alternatively, in the `region`-level sampling, we set `seq_per_group` to 20.
-This means that all the sequences from Europe (excluding Switzerland) will be divided into groups by their sampling country, month, and year (as defined by `group_by`), and then 20 sequences will taken from each group (if there are fewer than 20, all will be taken). 
+This means that all the sequences from Europe (excluding Switzerland) will be divided into groups by their sampling country, month, and year (as defined by `group_by`), and then 20 sequences will taken from each group (if there are fewer than 20 in any given group, all of the samples from that group will be taken). 
 
 Since `max_sequences` and `seq_per_group` are mutually exclusive, you should supply a blank entry for whichever you don't want to use, as shown above.
 
