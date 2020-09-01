@@ -353,7 +353,15 @@ def _get_specific_subsampling_setting(setting, optional=False):
 rule subsample:
     message:
         """
-        Subsample all sequences into a {wildcards.subsample} set for build '{wildcards.build_name}' with {params.sequences_per_group} per {params.group_by}
+        Subsample all sequences by '{wildcards.subsample}' scheme for build '{wildcards.build_name}' with the following parameters:
+
+         - group by: {params.group_by}
+         - sequences per group: {params.sequences_per_group}
+         - subsample max sequences: {params.subsample_max_sequences}
+         - exclude: {params.exclude_argument}
+         - include: {params.include_argument}
+         - query: {params.query_argument}
+         - priority: {params.priority_argument}
         """
     input:
         sequences = rules.mask.output.alignment,
