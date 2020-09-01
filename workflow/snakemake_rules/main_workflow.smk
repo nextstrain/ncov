@@ -330,14 +330,17 @@ def _get_specific_subsampling_setting(setting, optional=False):
             # build's region, country, division, etc. as needed for subsampling.
             build = config["builds"][wildcards.build_name]
             value = value.format(**build)
-        else:
+        elif value is not None:
             # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
             # need to return the 'argument' for augur
             if setting == 'seq_per_group':
                 value = "--sequences-per-group " + str(value)
             elif setting == 'max_sequences':
                 value = "--subsample-max-sequences " + str(value)
+
             return value
+        else:
+            value = ""
 
         # Check format strings that haven't been resolved.
         if re.search(r'\{.+\}', value):
