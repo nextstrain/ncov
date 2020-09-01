@@ -287,7 +287,7 @@ def _get_subsampling_settings(wildcards):
     # an error instead of assuming the user prefers one setting over another by
     # default.
     if subsampling_settings.get("max_sequences") and subsampling_settings.get("seq_per_group"):
-        raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' defines both `max_sequences` and `seq_per_group`, but these arguments are mutually exclusive.")
+        raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' defines both `max_sequences` and `seq_per_group`, but these arguments are mutually exclusive. This could be due to a default value - add an empty value for the argument you wish to ignore to override the default.")
 
     # If users have supplied neither `max_sequences` nor `seq_per_group`, we
     # throw an error because the subsampling rule will still group by one or
