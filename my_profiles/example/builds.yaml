@@ -64,7 +64,14 @@ subsampling:
     # Focal samples for location
     focal:
       group_by: "year month"
+      # augur filter's `seq_per_group` and `max_sequences` are mutually
+      # exclusive, but one of these arguments is required for each subsampling
+      # scheme. To override these defaults in your own subsampling schemes of
+      # the same name, provide a value for the limit you want to use and an
+      # empty entry for the limit you don't use. The entry below demonstrates
+      # this approach.
       seq_per_group: 300
+      max_sequences:
       # Use augur filter's query argument to filter strains with pandas-style logic expressions.
       # This can be easier to read than the corresponding filter by exclusion.
       query: --query "(country == '{country}') & (division == '{division}') & (location == '{location}')"
@@ -73,6 +80,7 @@ subsampling:
     related:
       group_by: "country year month"
       seq_per_group: 20
+      max_sequences:
       exclude: "--exclude-where 'location={location}'"
       priorities:
         type: "proximity"
@@ -82,6 +90,7 @@ subsampling:
     contextual:
       group_by: "country year month"
       seq_per_group: 10
+      max_sequences:
       exclude: "--exclude-where 'location={location}'"
 
 # Here, you can specify what type of auspice_config you want to use
