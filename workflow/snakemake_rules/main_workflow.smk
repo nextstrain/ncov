@@ -282,11 +282,19 @@ def _get_subsampling_settings(wildcards):
 
     if hasattr(wildcards, "subsample"):
         subsampling_settings = subsampling_settings[wildcards.subsample]
-    
-    # If users have supplied 'max_sequences' argument, assume they wish to override
-    # our default 'seq_per_group' from 'parameters.yaml' - so remove the 'seq_per_group'
-    if 'max_sequences' in subsampling_settings and 'seq_per_group' in subsampling_settings:
-        subsampling_settings.pop('seq_per_group')
+
+    # If users have supplied both `max_sequences` and `seq_per_group`, we throw
+    # an error instead of assuming the user prefers one setting over another by
+    # default.
+    if subsampling_settings.get("max_sequences") and subsampling_settings.get("seq_per_group"):
+        raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' defines both `max_sequences` and `seq_per_group`, but these arguments are mutually exclusive.")
+
+    # If users have supplied neither `max_sequences` nor `seq_per_group`, we
+    # throw an error because the subsampling rule will still group by one or
+    # more fields and the lack of limits on this grouping could produce
+    # unexpected behavior.
+    if not subsampling_settings.get("max_sequences") and not subsampling_settings.get("seq_per_group"):
+        raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' must define `max_sequences` or `seq_per_group`.")
 
     return subsampling_settings
 
