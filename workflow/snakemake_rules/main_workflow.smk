@@ -900,7 +900,7 @@ rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
         auspice_json = rules.export.output.auspice_json,
-        colors = lambda w: config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w),
+        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"]
     params:
         sampling = _get_sampling_trait_for_wildcards,
