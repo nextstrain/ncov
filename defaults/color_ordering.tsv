@@ -1288,6 +1288,9 @@ location	Heinsberg District
 location	Duesseldorf
 location	Münster
 
+# Western Pomerania
+location	Rostock
+
 ### Italy
 # Lombardy
 location	Milan
@@ -2699,7 +2702,6 @@ division	Berlin
 division	Niedersachsen
 division	Hamburg
 division	Western Pomerania
-division	Rostock
 
 ### Europe
 division	Europe
@@ -2835,6 +2837,7 @@ division	Balatonfured
 division	Baranya
 division	Central Hungary
 division	Balassagyarmat
+division	Pest County
 division	Bács-Kiskun County
 division	Kecskemet
 division	Szeged
@@ -2855,6 +2858,9 @@ division	Serbia
 division	Uzice
 division	Cacak
 division	Novi Sad
+
+### Kosovo
+division	Kosovo
 
 ### North Macedonia
 division	Skopje
@@ -3347,6 +3353,7 @@ country	Slovakia
 country	Montenegro
 country	Hungary
 country	Serbia
+country	Kosovo
 country	North Macedonia
 country	Greece
 country	Lithuania
