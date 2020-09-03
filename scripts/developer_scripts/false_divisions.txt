@@ -44,3 +44,4 @@ Prilep	Pelagonia
 Quito	Pichincha
 Kargil	Ladakh
 Rabnita	Rezina
+Chia	Cundinamarca
