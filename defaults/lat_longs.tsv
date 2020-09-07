@@ -121,6 +121,7 @@ location	Barka	23.7079666	57.89278
 location	Barrancabermeja	7.067561	-73.848406
 location	Barranquilla	10.987216	-74.805576
 location	Barueri	-23.5114	-46.8729
+location	Barva	10.07634855	-84.10922100765933
 location	Bassilly	50.675907	3.933169
 location	Baudour	50.482837	3.838083
 location	Bauffe	50.569209	3.853564
@@ -267,6 +268,7 @@ location	Calvia	39.5650931	2.5046323
 location	Camaragibe	-8.0213832	-34.9810768
 location	Camden County	39.814507	-74.986182
 location	Campbellsport	43.596732	-88.280763
+location	Campinas	-22.90556	-47.06083
 location	Campo Real	40.3390	-3.3833
 location	Canet d'en Berenguer	39.6806	-0.2192
 location	Cape Town Metro	-33.970973	18.510306
@@ -351,6 +353,7 @@ location	Cork	51.899	-8.460
 location	Corredores	8.53889485	-82.9467215619332
 location	Corroios	38.6415327	-9.1522335
 location	Cortijos Nuevos	38.2471	-2.7259
+location	Coto Brus	8.8892463	-82.91898427298493
 location	Cottage Grove	43.090480	-89.205111
 location	Couillet	50.391184	4.459113
 location	Courcelles	50.469378	4.34449
@@ -453,6 +456,7 @@ location	Envigado	6.168786	-75.583389
 location	Ere	50.580306	3.368009
 location	Ernesto Córdoba	9.093882	-79.530121
 location	Escazu	9.919781	-84.142340
+location	Esmeraldas	0.9668153	-79.6523847
 location	Essex County	40.784033	-74.235550
 location	Estinnes	50.374881	4.103617
 location	Ettelgem	51.178991	3.030238
@@ -521,6 +525,7 @@ location	Gilgit	35.880589	74.448161
 location	Givry	50.380304	4.037642
 location	Glastonbury	41.6862	-72.5451
 location	Glendale	43.129400	-87.930209
+location	Goicoechea	9.9670623	-83.9818366
 location	Gold Coast	-28.019726	153.398160
 location	Gomez Palacios	25.5732473	-103.494779
 location	Gondal	21.9612	70.7939
@@ -549,7 +554,9 @@ location	Grote-Brogel	51.153218	5.508637
 location	Guadalupe	8.859217	-79.808174
 location	Guadix	37.3011	-3.1403
 location	Guangzhou	23.123972	113.292889
+location	Guaranda	-1.590027	-78.999653
 location	Guarujá	-23.9927768	-46.2558332
+location	Guarulhos	-23.4430602	-46.524459
 location	Guayaquil	-2.1899066	-79.887726
 location	Guediawaye	14.7828	-17.3760
 location	Guevejar	37.2574	-3.5977
@@ -593,6 +600,7 @@ location	Henri-Chapelle	50.666254	5.938463
 location	Hensies	50.435594	3.711566
 location	Heppen	51.108225	5.228402
 location	Herce	42.2142703	-2.1654832
+location	Heredia	9.9983493	-84.1167945
 location	Herrera (Panama Oeste)	8.947953	-79.856674
 location	Herselt	51.048723	4.879674
 location	Herstal	50.680399	5.606845
@@ -643,6 +651,7 @@ location	Ischgl	47.011789	10.289683
 location	Itaborai	-22.7570	-42.8643
 location	Itagui	6.174822	-75.607579
 location	Itapecerica Da Serra	-23.734665	-46.857835
+location	Itariri	-24.2900711	-47.176151
 location	Itatiba	-22.9965861	-46.8412042
 location	Ixelles	50.826707	4.374329
 location	Iznalloz	37.3926	-3.5199
@@ -1281,6 +1290,7 @@ location	Singapore	1.344189	103.867546
 location	Sint-Genesius-Rode	50.743667	4.371971
 location	Sint-Gillis-Waas	51.226622	4.118297
 location	Sint-Truiden	50.810338	5.192644
+location	Siquirres	10.1513812	-83.48051634442399
 location	Sistrans	47.231579	11.466706
 location	Skagit County	48.485784	-121.815524
 location	Skierniewice County	51.94468755	20.009552327706285
@@ -1554,6 +1564,7 @@ division	Afyon	38.752653	30.553661
 division	Agri	39.7191	43.0506
 division	Aichi	35.067543	137.334061
 division	Aksaray	38.44611	33.878216
+division	Akwa-Ibom	4.9408638	7.8412267
 division	Alabama	32.3182	-86.9023
 division	Alagoas	-9.74863	-36.417626
 division	Alajuela	10.020137	-84.210339
@@ -1642,6 +1653,7 @@ division	Blida	36.48329	2.808751
 division	Bocas del Toro	9.3040914	-82.12843877974339
 division	Bogota	4.629337	-74.095588
 division	Bolivar	8.753508	-74.367735
+division	Bolivar EC	-1.574489	-79.103194
 division	Borsod-Abaúj-Zemplén County	48.2939	20.6934
 division	Bosnia and Herzegovina	43.9159	17.6791
 division	Boufarik	36.57709	2.914137
@@ -1756,6 +1768,7 @@ division	Dalarna	61.0917	14.6664
 division	Daule	-1.92000685	-79.91293069792368
 division	Debrecen	47.5316	21.6273
 division	Delhi	28.7041	77.1025
+division	Delta	5.5273061	6.1784167
 division	Democratic Republic of the Congo	-4.0383	21.7587
 division	Dendermonde	51.032573	4.099329
 division	Denizli	37.7830	29.0963
@@ -1780,15 +1793,19 @@ division	Durango	24.019546	-104.658028
 division	East Kalimantan	0.241323	116.558975
 division	Eastern Cape	-32.344458	26.497832
 division	Eastern Region	41.836891800000004	22.52384962142576
+division	Ebonyi	6.1996918	8.0348906
 division	Ecuador	-1.3397667	-79.3666964
+division	Edo	6.6076575	5.9722713
 division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
-division	Ekiti State	9.0311972	7.521753
+division	Ekiti State	7.736891	5.2738326
 division	Elad	32.0495	34.9507
 division	Elkana	32.1106	35.0321
 division	Emilia-Romagna	44.641437	11.119072
 division	England	52.405994	-1.671707
+division	Enugu	6.5536094	7.4143061
 division	Eskisehir	39.773703	30.518708
+division	Esmeraldas	0.7343619	-79.3858867
 division	Espirito Santo	-19.1834	-40.3089
 division	Estado de Mexico	19.4839446	-99.6899716
 division	Estonia	59	26
@@ -2263,6 +2280,7 @@ division	Rio Negro	-40.8261	-63.0266
 division	Rio de Janeiro	-22.89445	-43.2099
 division	Risaralda	4.921633	-75.900759
 division	Rivera	-30.906491	-55.540612
+division	Rivers	4.8416028	6.8604088
 division	Riyadh	23.197563	45.243845
 division	Rondonia	-10.943145	-62.8277863
 division	Rostock	54.130776	12.106778

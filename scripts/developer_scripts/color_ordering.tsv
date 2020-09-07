@@ -1496,6 +1496,8 @@ location	Assis
 location	Rio Claro
 location	Americana
 location	Hortolandia
+location	Itariri
+location	Campinas
 location	Peruibe
 location	Barueri
 location	Itapecerica Da Serra
@@ -1505,6 +1507,7 @@ location	Caieiras
 location	São Paulo
 location	Diadema
 location	Sao Bernardo do Campo
+location	Guarulhos
 location	Maua
 location	Sao Vicente
 location	Guarujá
@@ -1565,6 +1568,12 @@ location	San Jacinto de Yaguachi
 location	Babahoyo
 location	Quevedo
 location	Ventanas
+
+# Esmeraldas
+location	Esmeraldas
+
+# Bolivar EC
+location	Guaranda
 
 # Zamora-Chinchipe
 location	Zamora
@@ -1743,6 +1752,7 @@ location	La Cruz
 # Puntarenas
 location	Garabito
 location	Corredores
+location	Coto Brus
 
 # Alajuela
 location	Orotina
@@ -1752,7 +1762,9 @@ location	Grecia
 location	San Carlos
 
 # Heredia
+location	Heredia
 location	San Rafael Heredia
+location	Barva
 
 # San Jose
 location	Perez Zeledon
@@ -1766,10 +1778,14 @@ location	Santa Ana CR
 location	San Jose
 location	Montes de Oca
 location	Tibas
+location	Goicoechea
 location	Moravia
 
 # Cartago CR
 location	La Union
+
+# Limon
+location	Siquirres
 
 ### Mexico
 # Baja California
@@ -2464,13 +2480,19 @@ division	Cotonou
 division	Oueme
 
 ### Nigeria
+division	Rivers
+division	Akwa-Ibom
+division	Delta
+division	Ebonyi
 division	Lagos
+division	Enugu
+division	Edo
+division	Ondo State
 division	Ogun State
+division	Osun State
+division	Ekiti State
 division	Oyo State
 division	Kwara State
-division	Osun State
-division	Ondo State
-division	Ekiti State
 division	Nigeria
 
 ### Burkina Faso
@@ -3073,6 +3095,8 @@ division	Manabi
 division	Guayas
 division	Daule
 division	Los Rios
+division	Esmeraldas
+division	Bolivar EC
 division	Zamora-Chinchipe
 division	Chimborazo
 division	Pichincha
@@ -3091,7 +3115,6 @@ division	Santander de Quilichao
 division	Meta
 division	Valle del Cauca
 division	Tolima
-division	Tolemaida
 division	Quindio
 division	Bogota
 division	Cartago CO

@@ -751,3 +751,6 @@ Israel/CVL-n26495/2020
 
 #This is the first case in NY - however, we already have it. It's identical to USA/NY1-PV08001/2020 - so excluding this one
 USA/NY-Wadsworth-10131-01/2020
+
+#Date before first case confirmed in Nigeria
+Nigeria/ED01-CV155/2020
