@@ -1,10 +1,41 @@
+import copy
 from os import environ
 from socket import getfqdn
 from getpass import getuser
+from snakemake.logging import logger
 from snakemake.utils import validate
+import time
+
+# Store the user's configuration prior to loading defaults, so we can check for
+# reused subsampling scheme names in the user's config. We need to make a deep
+# copy because Snakemake will deep merge the subsampling dictionary later,
+# modifying the values of a reference or shallow copy.
+user_subsampling = copy.deepcopy(config.get("subsampling", {}))
 
 configfile: "defaults/parameters.yaml"
 validate(config, schema="workflow/schemas/config.schema.yaml")
+
+# Check for overlapping subsampling schemes in user and default
+# configurations. For now, issue a deprecation warning, so users know they
+# should rename their subsampling schemes. In the future, this reuse of the same
+# name will cause an error.
+subsampling_config = config.get("subsampling", {})
+overlapping_schemes = []
+for scheme_name, scheme in user_subsampling.items():
+    if scheme_name in subsampling_config and subsampling_config.get(scheme_name) != scheme:
+        overlapping_schemes.append(scheme_name)
+
+if len(overlapping_schemes) > 0:
+    logger.warning(f"WARNING: The following subsampling scheme(s) have the same name as a default scheme in this workflow but different definitions:")
+    logger.warning("")
+    for scheme in overlapping_schemes:
+        logger.warning(f"  - {scheme}")
+    logger.warning("")
+    logger.warning("  This means Snakemake will merge your scheme with the default scheme and may produce unexpected behavior.")
+    logger.warning(f"  To avoid errors in your workflow, rename your schemes with unique names (e.g., 'custom_{overlapping_schemes[0]}')")
+    logger.warning("  In future versions of this workflow, overlapping subsampling scheme names will produce an error.")
+    logger.warning("")
+    time.sleep(5)
 
 # default build if none specified in config
 if "builds" not in config:
