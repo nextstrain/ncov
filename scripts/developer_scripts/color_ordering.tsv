@@ -2195,6 +2195,9 @@ division	Semnan
 
 ### United Arab Emirates
 division	United Arab Emirates
+division	Abu Dhabi
+division	Dubai
+division	Sharja
 
 ### Oman
 division	Buraimi
@@ -2696,8 +2699,8 @@ division	Basel-Stadt
 division	Basel-Land
 division	Aargau
 division	Switzerland
-division	Lucerne
 division	Obwalden
+division	Lucerne
 division	Zug
 division	Uri
 division	Schaffhausen
@@ -2735,9 +2738,9 @@ division	Europe
 
 ### Italy
 division	Valle D'Aosta
+division	Piedmont
 division	Sardinia
 division	Lombardy
-division	Piedmont
 division	Trentino
 division	Emilia-Romagna
 division	Tuscany
