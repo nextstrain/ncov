@@ -34,7 +34,20 @@ to your `builds.yaml` file.
 
 ## Changing the dataset description
 
-The dataset description, which appears below the visualizations, is specified in `my_profiles/example/my_description.md`
+The dataset description, which appears below the visualizations, is read from a file which is specified in `builds.yaml`.  Per-build description can be set by specifying them in the build.
+
+```yaml
+builds:
+  north-america: # name of the build; this can be anything
+    description: my_profiles/example/north-america-description.md
+```
+
+If that is not provided, then a per-run description is used, also specified in `builds.yaml`:
+
+```yaml
+files:
+  description: my_profiles/example/my_description.md
+```
 
 ## Adding custom metadata fields to color by   
 1. Add a [valid metadata column](data-prep.md) to your `metadata.tsv`  
