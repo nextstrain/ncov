@@ -58,6 +58,9 @@ location	Bengaluru Urban
 location	Chikkaballapura
 location	Kolar
 
+# Andhra Pradesh
+location	Kurnool
+
 # Telangana
 location	Jogulamba Gadwal
 location	Gadwal
@@ -72,8 +75,11 @@ location	Hyderabad
 location	Khammam
 location	Mahboobnagar
 location	Sangareddy
+location	Warangal
 location	Kamareddy
+location	Karimnagar
 location	Nizamabad
+location	Jagtial
 location	Mancherial
 location	Nirmal
 location	Adilabad
@@ -1493,7 +1499,6 @@ location	Brasilia
 # São Paulo
 location	Presidente Venceslau
 location	Assis
-location	Rio Claro
 location	Americana
 location	Hortolandia
 location	Itariri
@@ -2960,6 +2965,9 @@ division	Ukraine
 ### Cyprus
 division	Cyprus
 
+### Crimea
+division	Crimea
+
 ### Turkey
 division	Canakkale
 division	Tekirdag
@@ -2992,7 +3000,6 @@ division	Saint-Petersburg
 division	Leningrad Region
 division	Bryansk Oblast
 division	Tver Region
-division	Republic of Crymea
 division	Moscow
 division	Moscow Region
 division	Yaroslavl Oblast
@@ -3398,6 +3405,7 @@ country	Belarus
 country	Moldova
 country	Ukraine
 country	Cyprus
+country	Crimea
 country	Turkey
 country	Russia
 

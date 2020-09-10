@@ -660,6 +660,7 @@ location	Jackson	43.325508	-88.167662
 location	Jackson County IA	42.195909	-90.570525
 location	Jackson County OR	42.398015	-122.7540948
 location	Jackson County WI	44.312857	-90.780626
+location	Jagtial	18.82135895	78.91506632525903
 location	Jaipur	26.901676	75.793978
 location	Jalna	19.9182328	75.8686246900443
 location	Jamnagar	22.471143	70.051543
@@ -714,6 +715,7 @@ location	Kanpur	26.4609135	80.3217588
 location	Kaohsiung	22.622632	120.312435
 location	Kapadvanj	23.0200	73.0700
 location	Kargil	34.420542600000005	75.6467756307598
+location	Karimnagar	18.4346438	79.1322648
 location	Kasterlee	51.2405	4.9674
 location	Kathmandu	27.712907	85.323557
 location	Kaulille	51.186846	5.525937
@@ -751,6 +753,7 @@ location	Kraainem	50.8611	4.4593
 location	Kraków	50.0647	19.9450
 location	Kumanovo	42.1359459	21.7177635
 location	Kunming	25.013024	102.866742
+location	Kurnool	15.8309251	78.0425373
 location	Kuurne	50.860060	3.270708
 location	KwaDukuza	-29.335722	31.296489
 location	Kynice	49.7392	15.3601
@@ -1471,6 +1474,7 @@ location	Wallingford	41.460399	-72.804432
 location	Walton County	30.6204939	-86.1912678
 location	Wandre	50.667253	5.661576
 location	Wanze	50.549453	5.196784
+location	Warangal	17.9806094	79.5982115
 location	Wardha	20.82562315	78.61314549522919
 location	Warszawa	52.241015	20.985625
 location	Warwickshire	52.2671	1.4675
@@ -1756,6 +1760,7 @@ division	Costa Rica	10.2735633	-84.0739102
 division	Cotonou	6.372284	2.365266
 division	Counties Manukau	-37.101403	175.005947
 division	Coyhaique	-45.5712	-72.0683
+division	Crimea	45.28350435	34.20081877526554
 division	Croatia	45.1	15.2
 division	Csongrád County	46.7084	20.1436
 division	Cuba	23.0131338	-80.8328748
@@ -2561,6 +2566,7 @@ country	Chile	-31.7613364	-71.3187696
 country	China	33.394333	104.689839
 country	Colombia	2.893108	-73.7845142
 country	Costa Rica	10.0379	-83.818759
+country	Crimea	45.28350435	34.20081877526554
 country	Croatia	45.1	15.2
 country	Cuba	23.0131338	-80.8328748
 country	Cyprus	34.965802	33.171772
