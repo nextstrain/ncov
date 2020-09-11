@@ -222,25 +222,17 @@ location	Kathmandu
 
 ### Bangladesh
 # Chattogram
+location	Chittagong
 location	Noakhali
-location	Kabirhat
-location	Companigonj
-location	Begumganj
-location	Laxmipur Sadar
+location	Lakshmipur
 location	Chandpur
 location	Brahmanbaria
 
-# Bagherhat
-location	Sador
-
 # Khulna
+location	Bagerhat
 location	Jashore
-
-# Narail
-location	Kalia
-
-# Jhenaidha
-location	Shailokupa
+location	Narail
+location	Jhenaidah
 
 # Dhaka
 location	Mohammadpur
@@ -249,6 +241,7 @@ location	Agargaon
 location	Uttara
 location	Tejgaon
 location	Gulshan
+location	Dhaka
 location	Jatrabari
 location	Narayanganj
 location	Kodomtoly
@@ -357,6 +350,11 @@ location	Tangerang
 
 # West Java
 location	Bandung
+
+# East Java
+location	Pasuruan
+location	Sidoarjo
+location	Surabaya
 
 # East Kalimantan
 location	Samarinda
@@ -1551,6 +1549,17 @@ location	Olinda
 # Alagoas
 location	Maceio
 
+### Peru
+# Lima
+location	Cañete
+location	Lima
+
+# Ancash
+location	Huaraz
+
+# Lambayeque
+location	Chiclayo
+
 ### Ecuador
 # Galapagos
 location	Puerto Baquerizo Moreno
@@ -2266,11 +2275,8 @@ division	Asia
 
 ### Bangladesh
 division	Chattogram
-division	Bagherhat
 division	Barishal
 division	Khulna
-division	Narail
-division	Jhenaidha
 division	Dhaka
 division	Tangail
 division	Rajshahi
@@ -2347,8 +2353,7 @@ division	Jakarta
 division	West Java
 division	Special Region of Yogyakarta
 division	Central Java
-division	Surabaya
-division	Pasuruan
+division	East Java
 division	Indonesia
 division	East Kalimantan
 division	North Sulawesi
@@ -3092,6 +3097,7 @@ division	Alagoas
 division	Arequipa
 division	Ica
 division	Cuzco
+division	Callao
 division	Lima
 division	Junin
 division	Huanuco

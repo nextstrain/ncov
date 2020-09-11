@@ -105,6 +105,7 @@ location	Azamgarh	26.02269675	83.02887343114848
 location	Babahoyo	-1.802318	-79.524709
 location	Bad Gastein	47.109942	13.127594
 location	Badalona	41.4493539	2.248254
+location	Bagerhat	22.6554187	89.7971746
 location	Bahia Blanca	-38.7183	-62.2663
 location	Bahla	22.970025	57.2986957
 location	Balazote	38.8849	-2.1523
@@ -271,6 +272,7 @@ location	Campbellsport	43.596732	-88.280763
 location	Campinas	-22.90556	-47.06083
 location	Campo Real	40.3390	-3.3833
 location	Canet d'en Berenguer	39.6806	-0.2192
+location	Cañete	-12.8209798	-76.3594255
 location	Cape Town Metro	-33.970973	18.510306
 location	Caraman	43.5292631	1.7600805
 location	Cardiff	51.476291	-3.178964
@@ -303,12 +305,14 @@ location	Cheshire	41.5084	-72.9106
 location	Chia	4.8704614500000005	-74.03632158198437
 location	Chicago	41.858966	-87.637242
 location	Chiclana de la Frontera	36.407163	-6.153590
+location	Chiclayo	-6.766417	-79.8408308
 location	Chikkaballapura	13.4358702	77.7312434
 location	Chilches	36.726129	-4.224430
 location	Chilibre	9.1643168	-79.6191005
 location	Chillan	-36.6063	-72.1023
 location	Chippewa County WI	45.0740585	-91.2947258
 location	Chippewa Falls	44.931261	-91.389704
+location	Chittagong	22.3307998	91.8412863
 location	Choconta	5.146017	-73.683678
 location	Chongqing	29.858721	107.375623
 location	Choryasi	21.309529	72.957233
@@ -397,6 +401,7 @@ location	Denver County	39.7348381	-104.9653271
 location	Derbyshire	53.142893	-1.611670
 location	Desamparados	9.895826	-84.062458
 location	Deurne	51.220173	4.458167
+location	Dhaka	23.810651	90.4126466
 location	Dhandhuka	22.3816365	71.9791414
 location	Dhanera	24.5064	72.0258
 location	Dhansura	23.3498	73.2087
@@ -623,6 +628,7 @@ location	Houten	52.0278	5.1630
 location	Houthalen-Helchteren	51.0312	5.3765
 location	Howrah	22.554019	88.182766
 location	Huaian	33.574586	119.132155
+location	Huaraz	-9.5298511	-77.5289981
 location	Huasco	-28.467340	-71.221674
 location	Hudson County	40.741619	-74.059016
 location	Huescar	37.8086268	-2.5398775
@@ -678,6 +684,7 @@ location	Jemappes	50.446399	3.898191
 location	Jerez De La Frontera	36.690491	-6.126763
 location	Jetpur	21.7547	70.6180
 location	Jette	50.883110	4.324621
+location	Jhenaidah	23.5448144	89.1734196
 location	Jian	27.0876	114.9647
 location	Jingzhou	30.350752	112.237294
 location	Jipijapa	-1.5158193	-80.61249824917113
@@ -776,6 +783,7 @@ location	Lake County CA	39.071954	-122.739331
 location	Lake County IL	42.3327033	-87.9939552
 location	Laken	50.887688	4.353935
 location	Lakhimpur	27.985060150000002	80.75384538357649
+location	Lakshmipur	22.9444179	90.827495
 location	Lalin	42.6612	-8.1110
 location	Lamine	50.688307	5.334720
 location	Lanaken	50.884429	5.634002
@@ -798,6 +806,7 @@ location	Leticia	-4.212580	-69.943144
 location	Levallois-Perret	48.8932	2.2879
 location	Lezuza	38.9496	-2.3555
 location	Lillois-Witterzée	50.644797	4.366948
+location	Lima	-12.0621065	-77.0365256
 location	Limbourg BE	50.613635	5.935911
 location	Limoges	45.8354243	1.2644847
 location	Linter	50.818098	5.042221
@@ -965,6 +974,7 @@ location	Nanchang	28.707143	115.874137
 location	Nancy	48.6921	6.1844
 location	Nantes	47.203649	-1.552453
 location	Naples	40.857678	14.229949
+location	Narail	23.175	89.505
 location	Narayanganj	23.6238108	90.4999662
 location	Nassau County	40.7333	-73.58010
 location	Navalmoral de la Mata	39.8928306	-5.5401199
@@ -1065,6 +1075,7 @@ location	Parla	40.2373	-3.7740
 location	Parque Lefevre	9.015279	-79.485133
 location	Parque Real	9.073041	-79.415980
 location	Passaic County	40.955105	-74.229353
+location	Pasuruan	-7.6419894	112.906694
 location	Patan	23.77405735	71.68373465668734
 location	Paulista	-7.9340069	-34.868407
 location	Pauri Garhwal	29.84591115	78.70766746320547
@@ -1286,6 +1297,7 @@ location	Shenzhen	22.639468	114.044046
 location	Sherman County	45.3944268	-120.6963746
 location	Shtip	41.7374724	22.1935856
 location	Siddhpur	23.918279	72.3681846
+location	Sidoarjo	-7.4559622	112.66022171549456
 location	Siena	43.16711185	11.467331746909997
 location	Silly	50.638827	3.943396
 location	Simat de la Valldigna	39.0427	-0.3107
@@ -1335,6 +1347,7 @@ location	Sucre	-0.7264261	-80.41619512637334
 location	Suffolk County	40.9849	-72.6151
 location	Sun Prarie	43.185544	-89.230804
 location	Sunshine Coast	-26.6500	153.0667
+location	Surabaya	-7.2459717	112.7378266
 location	Surat	21.166995	72.824307
 location	Suryapet	17.08001385	79.7925329742427
 location	Sutter County	38.9509675	-121.697088
@@ -1694,6 +1707,7 @@ division	Cajamarca	-6.25	-78.833333
 division	Caldas	5.314226	-75.340073
 division	Cali	3.420251	-76.522405
 division	California	36.357039	-119.690182
+division	Callao	-12.0522626	-77.1391133
 division	Cambodia	13	105
 division	Campania	40.922286	14.904416
 division	Canada	61.0666922	-107.991707
@@ -1797,6 +1811,7 @@ division	Dubrovnik	42.651307	18.102801
 division	Duesseldorf	51.236437	6.809537
 division	Dupnitza	42.2613	23.1125
 division	Durango	24.019546	-104.658028
+division	East Java	-7.6977397	112.4914199
 division	East Kalimantan	0.241323	116.558975
 division	Eastern Cape	-32.344458	26.497832
 division	Eastern Region	41.836891800000004	22.52384962142576
@@ -2118,7 +2133,6 @@ division	Nagasaki	32.796447	129.818142
 division	Nakhonnayok	14.180467	101.096533
 division	Namur	50.457215	4.879493
 division	Nara	34.371026	135.887389
-division	Narail	23.175281	89.504017
 division	Narino	1.592142	-77.851790
 division	National Capital Region	14.632748	121.027441
 division	Navarra	42.687776	-1.645699
@@ -2218,7 +2232,6 @@ division	Paraiba	-7.1219366	-36.7246845
 division	Paraná	-25.2521	-52.0215
 division	Pardesia	32.3050	34.9117
 division	Pasto	1.2146286	-77.2782516
-division	Pasuruan	-7.6469	112.8999
 division	Pathum Thani	14.018153	100.723973
 division	Pays de la Loire	47.640237	-0.647258
 division	Pazardzhik	42.1928	24.3336
@@ -2382,7 +2395,6 @@ division	Styria	47.3593	14.4700
 division	Suceava	47.667761	26.266066
 division	Sud Kivu	-3.223156	28.386665
 division	Suesca	5.1032558	-73.7999769
-division	Surabaya	-7.266062	112.748376
 division	Suriname	4.1413025	-56.0771187
 division	Sverdlovsk Region	59.0077	61.9316
 division	Sweden	59.6749712	14.5208584
