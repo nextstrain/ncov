@@ -235,6 +235,7 @@ location	Narail
 location	Jhenaidah
 
 # Dhaka
+location	Tangail
 location	Mohammadpur
 location	Mirpur
 location	Agargaon
@@ -1364,6 +1365,7 @@ location	Domažlice
 location	Plzeň
 
 # Usti nad Labem
+location	Litvinov
 location	Všebořice
 
 # Prague
@@ -2278,7 +2280,6 @@ division	Chattogram
 division	Barishal
 division	Khulna
 division	Dhaka
-division	Tangail
 division	Rajshahi
 division	Bangladesh
 division	Mymensingh
@@ -2776,6 +2777,7 @@ division	Slovenia
 division	Skane
 division	Kalmar
 division	Halland
+division	Gotland
 division	Småland
 division	Jonkoping
 division	Vastra Gotaland
