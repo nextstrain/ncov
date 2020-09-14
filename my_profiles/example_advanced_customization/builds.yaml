@@ -34,24 +34,16 @@ builds:
 
 subsampling:
   # Here we use the default subsampling logic for countries
-  # augur filter's `seq_per_group` and `max_sequences` are mutually
-  # exclusive, but one of these arguments is required for each subsampling
-  # scheme. To override these defaults in your own subsampling schemes of
-  # the same name, provide a value for the limit you want to use and an
-  # empty entry for the limit you don't use. The entry below demonstrates
-  # this approach.
   switzerland:
     # Focal samples for country
     country:
       group_by: "division year month"
-      seq_per_group:
       max_sequences: 1500
       exclude: "--exclude-where 'country!={country}'"
     # Contextual samples from country's region
     region:
       group_by: "country year month"
       seq_per_group: 20
-      max_sequences:
       exclude: "--exclude-where 'country={country}' 'region!={region}'"
       priorities:
         type: "proximity"
@@ -61,7 +53,6 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 10
-      max_sequences:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
@@ -74,13 +65,11 @@ subsampling:
     division:
       group_by: "year month"
       seq_per_group: 300
-      max_sequences:
       exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division!={division}'"
     # Contextual samples from division's country
     country:
       group_by: "division year month"
       seq_per_group: 20
-      max_sequences:
       exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
       priorities:
         type: "proximity"
@@ -89,7 +78,6 @@ subsampling:
     region:
       group_by: "country year month"
       seq_per_group: 10
-      max_sequences:
       exclude: "--exclude-where 'region!={region}' 'country={country}'"
       priorities:
         type: "proximity"
@@ -99,44 +87,38 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 5
-      max_sequences:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "division"
 
   # This build will take from 3 cantons - we have a sample rule for each,
-  # rather than just one division that's focal build 
+  # rather than just one division that's focal build
   lac-leman:
     # focal samples
     geneva:
       group_by: "year month"
       seq_per_group: 300
-      max_sequences:
       exclude: "--exclude-where 'division!=geneva'"
     vaud:
       group_by: "year month"
       seq_per_group: 300
-      max_sequences:
       exclude: "--exclude-where 'division!=vaud'"
     valais:
       group_by: "year month"
       seq_per_group: 300
-      max_sequences:
       exclude: "--exclude-where 'division!=valais'"
 
     # Contextual samples from the country
     country:
       group_by: "division year month"
       seq_per_group: 20
-      max_sequences:
       exclude: "--exclude-where 'country!=switzerland'"
 
     # Contextual samples from division's region
     region:
       group_by: "country year month"
       seq_per_group: 10
-      max_sequences:
       exclude: "--exclude-where 'region!=europe'"
       priorities:
         type: "proximity"
@@ -146,7 +128,6 @@ subsampling:
     global:
       group_by: "country year month"
       seq_per_group: 5
-      max_sequences:
       exclude: "--exclude-where 'region=europe'"
       priorities:
         type: "proximity"
