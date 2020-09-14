@@ -9,7 +9,23 @@ import time
 # Store the user's configuration prior to loading defaults, so we can check for
 # reused subsampling scheme names in the user's config. We need to make a deep
 # copy because Snakemake will deep merge the subsampling dictionary later,
-# modifying the values of a reference or shallow copy.
+# modifying the values of a reference or shallow copy. Note that this loading of
+# the user's config prior to the defaults below depends on the order Snakemake
+# loads its configfiles. Specifically, the order of config loading is:
+#
+# 1. First, configfile arguments are loaded and config is built from these [1].
+# 2. Then, config arguments are loaded and override existing config keys [2].
+# 3. Then, the Snakefile is parsed and configfile directive inside the Snakefile is processed [3].
+#    When configfile is loaded from the directive in the Snakefile, the config
+#    dictionary is deep merged with the files [4] from the externally provided
+#    config files. This is the only place the deep merge happens using the
+#    update_config function [5].
+#
+# [1] https://github.com/snakemake/snakemake/blob/a7ac40c96d6e2af47102563d0478a2220e2a2ab7/snakemake/__init__.py#L466-L471
+# [2] https://github.com/snakemake/snakemake/blob/a7ac40c96d6e2af47102563d0478a2220e2a2ab7/snakemake/__init__.py#L476-L477
+# [3] https://github.com/snakemake/snakemake/blob/a7ac40c96d6e2af47102563d0478a2220e2a2ab7/snakemake/__init__.py#L551-L553
+# [4] https://github.com/snakemake/snakemake/blob/a7ac40c96d6e2af47102563d0478a2220e2a2ab7/snakemake/workflow.py#L1088-L1094
+# [5] https://github.com/snakemake/snakemake/blob/a7ac40c96d6e2af47102563d0478a2220e2a2ab7/snakemake/utils.py#L455-L476
 user_subsampling = copy.deepcopy(config.get("subsampling", {}))
 
 configfile: "defaults/parameters.yaml"
