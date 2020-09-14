@@ -71,14 +71,12 @@ switzerland:
   # Focal samples for country
   country:
     group_by: "division year month"
-    seq_per_group:
     max_sequences: 1500
     exclude: "--exclude-where 'country!={country}'"
   # Contextual samples from country's region
   region:
     group_by: "country year month"
     seq_per_group: 20
-    max_sequences:
     exclude: "--exclude-where 'country={country}' 'region!={region}'"
     priorities:
       type: "proximity"
@@ -88,7 +86,6 @@ switzerland:
   global:
     group_by: "country year month"
     seq_per_group: 10
-    max_sequences:
     exclude: "--exclude-where 'region={region}'"
     priorities:
       type: "proximity"
@@ -99,9 +96,7 @@ For `country`-level sampling above, we specify that we want a maximum of 1,500 s
 Since we set `group_by` to "division year month", all the Swiss sequences will be divided into groups by their division, month, and year of sampling, and the code will try to equally sample from each group to reach 1,500 sequences total.
 
 Alternatively, in the `region`-level sampling, we set `seq_per_group` to 20.
-This means that all the sequences from Europe (excluding Switzerland) will be divided into groups by their sampling country, month, and year (as defined by `group_by`), and then 20 sequences will taken from each group (if there are fewer than 20 in any given group, all of the samples from that group will be taken). 
-
-Since `max_sequences` and `seq_per_group` are mutually exclusive, you should supply a blank entry for whichever you don't want to use, as shown above.
+This means that all the sequences from Europe (excluding Switzerland) will be divided into groups by their sampling country, month, and year (as defined by `group_by`), and then 20 sequences will taken from each group (if there are fewer than 20 in any given group, all of the samples from that group will be taken).
 
 Now we'll look at a subsampling scheme which defines a multi-`canton` build.
 Cantons are regional divisions in Switzerland - below 'country,' but above 'location' (often city-level).
@@ -116,31 +111,26 @@ lac-leman:
   geneva:
     group_by: "year month"
     seq_per_group: 300
-    max_sequences:
     exclude: "--exclude-where 'division!=geneva'"
   vaud:
     group_by: "year month"
     seq_per_group: 300
-    max_sequences:
     exclude: "--exclude-where 'division!=vaud'"
   valais:
     group_by: "year month"
     seq_per_group: 300
-    max_sequences:
     exclude: "--exclude-where 'division!=valais'"
 
   # Contextual samples from the country
   country:
     group_by: "division year month"
     seq_per_group: 20
-    max_sequences:
     exclude: "--exclude-where 'country!=switzerland'"
 
   # Contextual samples from division's region
   region:
     group_by: "country year month"
     seq_per_group: 10
-    max_sequences:
     exclude: "--exclude-where 'region!=europe'"
     priorities:
       type: "proximity"
@@ -150,7 +140,6 @@ lac-leman:
   global:
     group_by: "country year month"
     seq_per_group: 5
-    max_sequences:
     exclude: "--exclude-where 'region=europe'"
     priorities:
       type: "proximity"
