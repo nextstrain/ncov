@@ -38,7 +38,7 @@ subsampling:
     # Focal samples for country
     country:
       group_by: "division year month"
-      seq_per_group: 200
+      max_sequences: 1500
       exclude: "--exclude-where 'country!={country}'"
     # Contextual samples from country's region
     region:
@@ -93,7 +93,7 @@ subsampling:
         focus: "division"
 
   # This build will take from 3 cantons - we have a sample rule for each,
-  # rather than just one division that's focal build 
+  # rather than just one division that's focal build
   lac-leman:
     # focal samples
     geneva:

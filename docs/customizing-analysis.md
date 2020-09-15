@@ -62,10 +62,45 @@ We implement hierarchical subsampling by producing multiple samples at different
 A build can specify any number of such samples which can be flexibly restricted to particular meta data fields and subsampled from groups with particular properties.
 When specifying subsampling in this way, we'll first take sequences from the 'focal' area, and the select samples from other geographical areas.
 Read further for information on how we select these samples.
+Here, we'll look at the advanced example (`./my_profiles/example_advanced_customization`) file to explain some of the options.
 
-In this example, we'll look at a subsampling scheme which defines a `canton`.
+When specifying how many sequences you want in a subsampling level (for example, from a country or a region), you can do this using either `seq_per_group` or `max_sequences` - these work with the `group_by` argument.
+For example, `switzerland` subsampling rules in the advanced example looks like this:
+```yaml
+switzerland:
+  # Focal samples for country
+  country:
+    group_by: "division year month"
+    max_sequences: 1500
+    exclude: "--exclude-where 'country!={country}'"
+  # Contextual samples from country's region
+  region:
+    group_by: "country year month"
+    seq_per_group: 20
+    exclude: "--exclude-where 'country={country}' 'region!={region}'"
+    priorities:
+      type: "proximity"
+      focus: "country"
+  # Contextual samples from the rest of the world,
+  # excluding the current region to avoid resampling.
+  global:
+    group_by: "country year month"
+    seq_per_group: 10
+    exclude: "--exclude-where 'region={region}'"
+    priorities:
+      type: "proximity"
+      focus: "country"
+```
+
+For `country`-level sampling above, we specify that we want a maximum of 1,500 sequences from the country in question (here, Switzerland).
+Since we set `group_by` to "division year month", all the Swiss sequences will be divided into groups by their division, month, and year of sampling, and the code will try to equally sample from each group to reach 1,500 sequences total.
+
+Alternatively, in the `region`-level sampling, we set `seq_per_group` to 20.
+This means that all the sequences from Europe (excluding Switzerland) will be divided into groups by their sampling country, month, and year (as defined by `group_by`), and then 20 sequences will taken from each group (if there are fewer than 20 in any given group, all of the samples from that group will be taken).
+
+Now we'll look at a subsampling scheme which defines a multi-`canton` build.
 Cantons are regional divisions in Switzerland - below 'country,' but above 'location' (often city-level).
-In the advanced example (`./my_profiles/example_advanced_customization`), we'd like to be able to specify a set of neighboring 'cantons' and do focal sampling there, with contextual samples from elsewhere in the country, other countries in the region, and other regions in the world.
+In the advanced example, we'd like to be able to specify a set of neighboring 'cantons' and do focal sampling there, with contextual samples from elsewhere in the country, other countries in the region, and other regions in the world.
 
 For cantons this looks like this:
 ```yaml

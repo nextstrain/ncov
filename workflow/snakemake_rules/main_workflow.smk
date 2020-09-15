@@ -281,9 +281,22 @@ def _get_subsampling_settings(wildcards):
     subsampling_settings = config["subsampling"][subsampling_scheme]
 
     if hasattr(wildcards, "subsample"):
-        return subsampling_settings[wildcards.subsample]
-    else:
-        return subsampling_settings
+        subsampling_settings = subsampling_settings[wildcards.subsample]
+
+        # If users have supplied both `max_sequences` and `seq_per_group`, we
+        # throw an error instead of assuming the user prefers one setting over
+        # another by default.
+        if subsampling_settings.get("max_sequences") and subsampling_settings.get("seq_per_group"):
+            raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' defines both `max_sequences` and `seq_per_group`, but these arguments are mutually exclusive. If you didn't define both of these settings, this conflict could be caused by using the same subsampling scheme name as a default scheme. In this case, rename your subsampling scheme, '{subsampling_scheme}', to a unique name (e.g., 'custom_{subsampling_scheme}') and run the workflow again.")
+
+        # If users have supplied neither `max_sequences` nor `seq_per_group`, we
+        # throw an error because the subsampling rule will still group by one or
+        # more fields and the lack of limits on this grouping could produce
+        # unexpected behavior.
+        if not subsampling_settings.get("max_sequences") and not subsampling_settings.get("seq_per_group"):
+            raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' must define `max_sequences` or `seq_per_group`.")
+
+    return subsampling_settings
 
 
 def get_priorities(wildcards):
@@ -317,8 +330,17 @@ def _get_specific_subsampling_setting(setting, optional=False):
             # build's region, country, division, etc. as needed for subsampling.
             build = config["builds"][wildcards.build_name]
             value = value.format(**build)
-        else:
+        elif value is not None:
+            # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
+            # need to return the 'argument' for augur
+            if setting == 'seq_per_group':
+                value = f"--sequences-per-group {value}"
+            elif setting == 'max_sequences':
+                value = f"--subsample-max-sequences {value}"
+
             return value
+        else:
+            value = ""
 
         # Check format strings that haven't been resolved.
         if re.search(r'\{.+\}', value):
@@ -331,7 +353,15 @@ def _get_specific_subsampling_setting(setting, optional=False):
 rule subsample:
     message:
         """
-        Subsample all sequences into a {wildcards.subsample} set for build '{wildcards.build_name}' with {params.sequences_per_group} per {params.group_by}
+        Subsample all sequences by '{wildcards.subsample}' scheme for build '{wildcards.build_name}' with the following parameters:
+
+         - group by: {params.group_by}
+         - sequences per group: {params.sequences_per_group}
+         - subsample max sequences: {params.subsample_max_sequences}
+         - exclude: {params.exclude_argument}
+         - include: {params.include_argument}
+         - query: {params.query_argument}
+         - priority: {params.priority_argument}
         """
     input:
         sequences = rules.mask.output.alignment,
@@ -342,7 +372,8 @@ rule subsample:
         sequences = "results/{build_name}/sample-{subsample}.fasta"
     params:
         group_by = _get_specific_subsampling_setting("group_by"),
-        sequences_per_group = _get_specific_subsampling_setting("seq_per_group"),
+        sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
+        subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
         exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
         include_argument = _get_specific_subsampling_setting("include", optional=True),
         query_argument = _get_specific_subsampling_setting("query", optional=True),
@@ -359,7 +390,8 @@ rule subsample:
             {params.query_argument} \
             {params.priority_argument} \
             --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
+            {params.sequences_per_group} \
+            {params.subsample_max_sequences} \
             --output {output.sequences} 2>&1 | tee {log}
         """
 
