@@ -4,6 +4,8 @@ custom_rules:
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
+# These subsampling schemes are defined at the bottom of this file.
+# (They override the defaults)
 builds:
   global:
     subsampling_scheme: region_global
@@ -100,3 +102,43 @@ files:
 s3_staging_url: s3://nextstrain-staging
 slack_token: ~
 slack_channel: "#ncov-gisaid-updates"
+
+subsampling:
+  # Custom subsampling logic for regions
+  region:
+    # Focal samples for region
+    region:
+      group_by: "division year month"
+      seq_per_group: 32
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global:
+      group_by: "country year month"
+      seq_per_group: 4
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
+
+  # Custom subsampling logic for global region.
+  region_global:
+    global:
+      group_by: "country year month"
+      seq_per_group: 16
+
+  # Custom subsampling for regions like Europe where grouping by country
+  # is the smallest resolution requied
+  region_grouped_by_country:
+    # Focal samples for region
+    region:
+      group_by: "country year month"
+      seq_per_group: 44
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global:
+      group_by: "country year month"
+      seq_per_group: 5
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"

@@ -42,3 +42,10 @@ Prague-Miskovice	Prague
 Narayanganj	Dhaka
 Prilep	Pelagonia
 Quito	Pichincha
+Kargil	Ladakh
+Rabnita	Rezina
+Chia	Cundinamarca
+Medellin	Antioquia
+Tolemaida	Tolima
+Tangail	Dhaka
+Taipei	Taiwan

@@ -905,7 +905,7 @@ rule export:
         auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"][w.build_name] else config["files"]["auspice_config"],
         colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"],
-        description = config["files"]["description"]
+        description = lambda w: config["builds"][w.build_name]["description"] if "description" in config["builds"][w.build_name] else config["files"]["description"]
     output:
         auspice_json = "results/{build_name}/ncov_with_accessions.json"
     log:
@@ -932,7 +932,7 @@ rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
         auspice_json = rules.export.output.auspice_json,
-        colors = lambda w: config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w),
+        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"]
     params:
         sampling = _get_sampling_trait_for_wildcards,
