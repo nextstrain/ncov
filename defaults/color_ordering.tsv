@@ -1504,6 +1504,9 @@ location	Hortolandia
 location	Itariri
 location	Campinas
 location	Peruibe
+location	Rio Verde
+location	Cotia
+location	Jandira
 location	Barueri
 location	Itapecerica Da Serra
 location	Itatiba
@@ -2016,7 +2019,6 @@ location	Chicago
 location	Indianapolis
 
 # Ohio
-location	Cincinnati
 location	Columbus OH
 location	Cuyahoga County
 

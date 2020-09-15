@@ -48,3 +48,4 @@ Chia	Cundinamarca
 Medellin	Antioquia
 Tolemaida	Tolima
 Tangail	Dhaka
+Taipei	Taiwan
