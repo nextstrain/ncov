@@ -460,12 +460,19 @@ location	Accra
 # Kolda
 location	Velingara
 
+# Diourbel
+location	Touba
+
 # Dakar
 location	Pikine
 location	Guediawaye
 location	Yeumbeul
 location	Mbao
+location	Keur Massar
 location	Sangalkam
+
+# Thies
+location	Mbour
 
 ### Egypt
 # Cairo
@@ -513,6 +520,7 @@ location	Penacova
 ### Spain
 # Canary Islands
 location	Las Palmas
+location	Lanzarote
 
 # Galicia
 location	Muros
@@ -524,6 +532,7 @@ location	Boiro
 location	Santa Comba
 location	Rianjo
 location	Negreira
+location	Vigo
 location	Padrón
 location	Ames
 location	Pontecesures
@@ -617,10 +626,49 @@ location	Huescar
 location	Almeria
 location	Puebla de Don Fadrique
 
+# Castilla y Leon
+location	Brazuelo
+location	Val de San Lorenzo
+location	Valdeviejas
+location	Astorga
+location	La Carrera de Otero
+location	Castro de Cepeda
+location	San Roman de la Vega
+location	Posada de la Valduerna
+location	Riego de la Vega
+location	Leon
+location	Antonan del Valle
+location	Estebanez de la Calzada
+location	Palacios de la Valduerna
+location	San Cristobal de la Polantera
+location	Villarejo de Orbigo
+location	La Baneza
+location	Benavides de Orbigo
+location	Veguellina de Orbigo
+location	San Pedro de Pegas
+location	Castrillo de San Pelayo
+location	Bercianos del Paramo
+location	Montejos del Camino
+location	La Virgen del Camino
+location	Quintana de Raneros
+location	La Robla
+location	San Andres del Rabanedo
+location	Trobajo del Camino
+location	Villaquilambre
+location	Villaobispo de las Regueras
+location	Garrafe de Torio
+location	Valencia de Don Juan
+location	Villaturiel
+
+# Cantabria
+location	Zurita
+location	Santander
+
 # Madrid
 location	Fuenlabrada
 location	Parla
 location	Leganés
+location	Madrid
 location	Alcobendas
 location	Rivas-Vaciamadrid
 location	San Fernando de Henares
@@ -651,25 +699,34 @@ location	Tobarra
 location	Almansa
 
 # La Rioja
+location	Leiva
 location	Ezcaray
 location	Ojacastro
 location	Santo Domingo de la Calzada
 location	Casalarreina
+location	Ciruena
 location	Haro
 location	San Vicente de la Sonsierra
 location	Najera
+location	Camprovin
+location	Torrecilla en Cameros
+location	Navarrete
 location	Nalda
 location	Albelda de Iregua
 location	Lardero
 location	Logrono
 location	Alberite
+location	Clavijo
 location	Villamediana de Iregua
 location	Agoncillo
 location	Herce
+location	Arnedo
 location	El Villar de Arnedo
 location	Pradejon
 location	Autol
 location	Calahorra
+location	Ventas del Bano
+location	Aldeanueva de Ebro
 location	Alfaro
 
 # Basque Country
@@ -677,22 +734,33 @@ location	Portugalete
 location	Bermeo
 location	Bizkaia
 location	Vitoria-Gasteiz
+location	Mondragon
 location	Donostia-San Sebastian
 
 # Navarra
+location	Viana
+location	Lodosa
+location	Echavarri
 location	Fitero
 location	Cintruenigo
 location	Peralta
-location	Tafalla
-location	Barasoain
-location	Echavarri
-location	Torres De Elorz
-location	Zulueta
-location	Noain
-location	Cizur Menor
-location	Mutilva
+location	Artajona
+location	Zizur Mayor
 location	Baranain
+location	Cizur Menor
+location	Tafalla
 location	Pamplona
+location	Barasoain
+location	Noain
+location	Mendillorri
+location	Mutilva
+location	Burlada
+location	Villava
+location	Tudela
+location	Torres De Elorz
+location	Sarriguren
+location	Huarte
+location	Zulueta
 
 # Murcia
 location	Murcia
@@ -728,12 +796,17 @@ location	Xeraco
 location	Benirredra
 location	Gandia
 location	Oliva
+location	Castellon de la Plana
 location	Puzol
 
 # Aragon
 location	Teruel
 location	Alcaniz
+location	Caspe
+location	Fraga
 location	Zaragoza
+location	Tamarite de Litera
+location	Monzon
 
 # Catalunya
 location	Jorba
@@ -751,6 +824,7 @@ location	Tiana
 location	Granollers
 location	Vilasar de Mar
 location	Mataro
+location	Palamos
 
 # Balear Islands
 location	Ibiza
@@ -1843,7 +1917,7 @@ location	Mason County
 location	San Juan County
 location	Thurston County
 location	Cowlitz County
-location	Clark County
+location	Clark County WA
 location	Kirkland
 location	Pierce County
 location	Snohomish County
@@ -1898,6 +1972,9 @@ location	San Diego
 location	San Diego County
 location	Imperial County
 
+# Nevada
+location	Clark County NV
+
 # Idaho
 location	Madison County
 
@@ -1913,8 +1990,10 @@ location	Denver County
 location	Minnehaha County
 
 # Texas
+location	El Paso
 location	Bexar County
 location	Houston
+location	Harris
 location	Greater Houston Area
 location	Panola County
 
@@ -1972,7 +2051,9 @@ location	Lafayette County
 location	Iowa County WI
 location	Juneau County
 location	Sauk County
+location	Marathon County
 location	Adams County WI
+location	Lincoln County
 location	Green County
 location	Dane County
 location	Verona WI
@@ -2047,6 +2128,7 @@ location	Camden County
 location	Burlington County
 location	Hudson County
 location	Essex County
+location	Morris County
 location	Bergen County
 
 # New York
@@ -2057,6 +2139,7 @@ location	New York City
 location	Queens
 location	Nassau County
 location	Manhattan
+location	New York County
 location	Bronx
 location	New Rochelle
 location	Passaic County
@@ -2262,7 +2345,7 @@ division	Delhi
 division	Haryana
 division	Uttarakhand
 division	Punjab
-division	Jammu
+division	Jammu and Kashmir
 division	Ladakh
 
 ### Sri Lanka
@@ -2520,10 +2603,9 @@ division	West Coast Region
 
 ### Senegal
 division	Kolda
-division	Mbour
+division	Diourbel
 division	Dakar
 division	Thies
-division	Touba
 division	St-Louis
 
 ### Mali
@@ -2600,6 +2682,7 @@ division	Extremadura
 division	Asturias
 division	Andalusia
 division	Castilla y Leon
+division	Cantabria
 division	Spain
 division	Madrid
 division	Castilla la Mancha
@@ -2921,6 +3004,7 @@ division	Greece
 division	Thessaloniki
 
 ### Lithuania
+division	Marijampoles Apskritis
 division	Lithuania
 division	Vilnius
 
