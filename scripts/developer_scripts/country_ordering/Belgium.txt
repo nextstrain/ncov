@@ -2607,7 +2607,6 @@ Horebeke
 	Sint-Kornelis-Horebeke
 	Sint-Maria-Horebeke
 Kluisbergen
-	Berchem
 	Kwaremont
 	Ruien
 	Zulzeke
@@ -2792,7 +2791,6 @@ Meise
 	Wolvertem
 Merchtem
 	Brussegem
-	Hamme
 	Merchtem
 Opwijk
 	Mazenzele
@@ -2881,7 +2879,6 @@ Boutersem
 	Kerkom
 	Roosbeek
 Diest
-	Deurne
 	Diest
 	Kaggevinne
 	Molenstede

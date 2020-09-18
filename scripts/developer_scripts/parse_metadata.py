@@ -391,34 +391,46 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                     location_to_arrondissement[location] = arrondissement
 
                 division_to_correct = []
+                location_to_correct = []
                 div_to_loc = {}
                 for division in data[region][country]:
+                    
+                    for location in data[region][country][division]:
 
-                    if division == country:
-                        continue
+                        if division == country:
+                            continue
 
-                    if division in duplicates:
-                        print("Attention duplicate: " + bold(division) + " found in " + bold(duplicates[division][0]) + " and " + bold(duplicates[division][1]))
-                        print("Suggestion: select one and adjust database by deleting duplicate (no better solution due to missing additional info")
+                        if division in duplicates:
+                            print("Attention duplicate: " + bold(division) + " found in " + bold(duplicates[division][0]) + " and " + bold(duplicates[division][1]))
+                            print("Suggestion: select one and adjust database by deleting duplicate (no better solution due to missing additional info")
+                        
+                        if location in location_to_arrondissement and division == location_to_arrondissement[location]: #consistent with dataset
+                            continue
+                        
+                        if location in location_to_arrondissement and division != location_to_arrondissement[location]:
+                            print("Adjust " + division + " to " + location_to_arrondissement[location] + " for location " + location)
+                            location_to_correct.append((region, country, division, location, region, country, location_to_arrondissement[location], location))
+                            continue
 
-                    if division in arrondissement_to_location: # given division is actually an arrondissement => no changes necessary
-                        continue
+                        if division in arrondissement_to_location: # given division is actually an arrondissement => no changes necessary
+                            continue
 
-                    if division in variants and variants[division] in arrondissement_to_location: # given division is an arrondissement, but missspelled => simple adjustment
-                        division_to_correct.append((region, country, division, region, country, variants[division]))
-                        continue
+                        if division in variants and variants[division] in arrondissement_to_location: # given division is an arrondissement, but missspelled => simple adjustment
+                            division_to_correct.append((region, country, division, region, country, variants[division]))
+                            continue
 
-                    if division in location_to_arrondissement:
-                        div_to_loc[division] = (region, country, location_to_arrondissement[division])
-                        continue
+                        if division in location_to_arrondissement:
+                            div_to_loc[division] = (region, country, location_to_arrondissement[division])
+                            continue
 
-                    if division in variants and variants[division] in location_to_arrondissement:
-                        division_to_correct.append((region, country, division, region, country, variants[division])) #first correct to properly spelled division
-                        div_to_loc[variants[division]] = (region, country, location_to_arrondissement[variants[division]]) #then to location
-                        continue
-                    print("Missing division in " + country + " database: " + bold(division))
+                        if division in variants and variants[division] in location_to_arrondissement:
+                            division_to_correct.append((region, country, division, region, country, variants[division])) #first correct to properly spelled division
+                            div_to_loc[variants[division]] = (region, country, location_to_arrondissement[variants[division]]) #then to location
+                            continue
+                        print("Missing division in " + country + " database: " + bold(division))
 
                 data = correct_data(data, "division", division_to_correct)
+                data = correct_data(data, "location", location_to_correct)
                 data = correct_data(data, "div_to_loc", div_to_loc)
 
     print("\n=============================\n")
