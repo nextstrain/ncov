@@ -1,5 +1,5 @@
 
-## Overview of this repository (i.e., what do these files do?)
+# Overview of this repository (i.e., what do these files do?)
 
 The files in this repository fall into one of these categories:  
 * Input files  
