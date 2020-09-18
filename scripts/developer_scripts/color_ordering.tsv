@@ -591,6 +591,7 @@ location	Nerja
 location	Frailes
 location	Valderrubio
 location	Cijuela
+location	Fuente Vaqueros
 location	Pinos Puente
 location	Santa Fe
 location	Vegas del Genil
@@ -661,8 +662,31 @@ location	Valencia de Don Juan
 location	Villaturiel
 
 # Cantabria
+location	Santillana
+location	Puente San Miguel
+location	Los Corrales de Buelna
+location	Santiago de Cartes
+location	Torrelavega
+location	Suances
+location	Polanco
 location	Zurita
+location	Carandia
+location	Valderredible
+location	Pielagos
+location	Renedo
+location	Oruna
+location	Liencres
+location	Santa Cruz de Bezana
+location	La Penilla
+location	Muriedas
+location	Maliano
 location	Santander
+location	Pontejos
+location	Marina de Cudeyo
+location	Ramales de la Victoria
+location	Santona
+location	Laredo
+location	Castro Urdiales
 
 # Madrid
 location	Fuenlabrada
@@ -730,37 +754,43 @@ location	Aldeanueva de Ebro
 location	Alfaro
 
 # Basque Country
+location	Cabezon de la Sal
+location	Musques
 location	Portugalete
+location	Baracaldo
+location	Bilbao
 location	Bermeo
 location	Bizkaia
 location	Vitoria-Gasteiz
 location	Mondragon
+location	San Sebastian
 location	Donostia-San Sebastian
 
 # Navarra
-location	Viana
-location	Lodosa
-location	Echavarri
 location	Fitero
+location	Tudela
 location	Cintruenigo
 location	Peralta
-location	Artajona
-location	Zizur Mayor
-location	Baranain
-location	Cizur Menor
+location	Lodosa
+location	Viana
 location	Tafalla
-location	Pamplona
+location	Artajona
 location	Barasoain
-location	Noain
-location	Mendillorri
-location	Mutilva
-location	Burlada
-location	Villava
-location	Tudela
+location	Echavarri
 location	Torres De Elorz
-location	Sarriguren
-location	Huarte
 location	Zulueta
+location	Noain
+location	Cizur Menor
+location	Zizur Mayor
+location	Mutilva
+location	Baranain
+location	Pamplona
+location	Sarriguren
+location	Mendillorri
+location	Burlada
+location	Huarte
+location	Villava
+location	Gartzain
 
 # Murcia
 location	Murcia
@@ -770,34 +800,62 @@ location	Miramar
 location	Almenara
 location	Chilches
 location	Elda
+location	Antella
+location	Llombai
 location	Olleria
+location	Massalaves
+location	Carlet
 location	Segorbe
+location	Guadassuar
+location	Alginet
+location	Torrent
+location	Picassent
+location	Alaquas
+location	Carcaixent
 location	Beniganim
+location	Quart de Poblet
+location	Algemesi
+location	Alzira
 location	Soneja
+location	Benifaio
 location	Valencia Horta
+location	Almussafes
 location	Albal
+location	Godella
+location	Sollana
 location	Bonrepos i Mirambell
+location	Tavernes Blanques
 location	Museros
 location	Almassera
 location	Llutxent
 location	Valencia
 location	Alboraya
+location	Alboraia
 location	Meliana
+location	Albalat dels Sorells
 location	Gilet
+location	Massamagrell
 location	Albuixech
+location	Sueca
 location	Simat de la Valldigna
 location	El Puig
+location	Favara
 location	Sagunt
 location	Tavernes de la Valldigna
+location	Cullera
 location	Grau de Sagunt
+location	El Dosel
 location	Palma de Gandia
 location	Canet d'en Berenguer
 location	Xeraco
 location	Benirredra
 location	Gandia
+location	Piles
 location	Oliva
+location	Castello de la Plana
 location	Castellon de la Plana
 location	Puzol
+location	Alcudia
 
 # Aragon
 location	Teruel
@@ -957,6 +1015,7 @@ location	Beerst
 # Ieper
 location	Poperinge
 location	Vlamertinge
+location	Langemark
 location	Geluwe
 
 # Oostende
@@ -1118,6 +1177,7 @@ location	Auderghem
 # Antwerpen
 location	Berchem
 location	Hemiksem
+location	Aartselaar
 location	Wilrijk
 location	Ekeren
 location	Deurne
@@ -1323,12 +1383,18 @@ location	Hardinxveld Giessendam
 
 # North Holland
 location	Haarlem
+location	Beverwijk
+location	Schiphol
+location	Amsterdam West
 location	Diemen
+location	Wervershoof
 location	Naarden
 
 # Utrecht
-location	Houten
+location	Overvecht
 location	Utrecht
+location	Houten
+location	Amersfoort
 
 # North Brabant
 location	Eindhoven
@@ -1336,6 +1402,7 @@ location	Helmond
 location	Oisterwijk
 location	Tilburg
 location	Loon op zand
+location	Heeswijk Dinther
 location	Berlicum
 location	Oss
 location	Nieuwendijk
@@ -1344,6 +1411,9 @@ location	Blaricum
 
 # Flevoland
 location	Zeewolde
+
+# Friesland
+location	Franeker
 
 # Drenthe
 location	Coevorden
@@ -2434,15 +2504,20 @@ division	Lao Cai
 division	Hong Kong
 
 ### Indonesia
+division	North Sumatra
 division	Banten
 division	Jakarta
 division	West Java
 division	Special Region of Yogyakarta
 division	Central Java
 division	East Java
+division	Center Kalimantan
 division	Indonesia
+division	Bali
+division	South Kalimantan
 division	East Kalimantan
 division	North Sulawesi
+division	Papua
 
 ### Brunei
 division	Brunei
@@ -2689,7 +2764,6 @@ division	Castilla la Mancha
 division	Melilla
 division	La Rioja
 division	Basque Country
-division	Donostia-San Sebatian
 division	Navarra
 division	Murcia
 division	Comunitat Valenciana
