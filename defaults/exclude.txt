@@ -754,3 +754,7 @@ USA/NY-Wadsworth-10131-01/2020
 
 #Date before first case confirmed in Nigeria
 Nigeria/ED01-CV155/2020
+
+#Both are identical to reference but taken mid-May - very underdiverged 
+Oman/MA-RESP-20-B-16263/2020
+Bangladesh/NIB-BCSIR-02/2020
