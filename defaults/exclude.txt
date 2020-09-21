@@ -175,8 +175,8 @@ Wuhan/IVDC-HB-envF13/2020
 USA/WA-UW48/2020
 USA/WA-UW45/2020
 France/HF1805/2020
-Canada/ON_PHL4069/2020
-Canada/ON_PHL3501/2020
+Canada/ON-PHL-4069/2020
+Canada/ON-PHL-3501/2020
 Bangladesh/DNAS-CPH-436/2020
 Lebanon/S6_766/2020
 USA/ID-UW-2198/2020
@@ -386,8 +386,8 @@ Uruguay/UY-3/2020
 USA/AK-PHL180/2020
 
 #Seems pretty divergent with about 30 mutations
-Colombia/GVI-97181/2020
-Colombia/GUR-0574/2020
+Colombia/VAC-GVI-97181/2020
+Colombia/BOY-GUR-0574/2020
 
 # These early Wuhan seem very divergent, and have a cluster of mutations all together. Excluding for now, but may choose to re-include later
 Wuhan/WHUH006/2020
