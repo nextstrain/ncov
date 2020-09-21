@@ -141,6 +141,18 @@ def read_metadata(metadata):
                 additions_to_annotation.append(strain + "\t" + id + "\tlocation\t")
                 division = location
                 location = ""
+        
+        if country == "Hunan":
+            additions_to_annotation.append(strain + "\t" + id + "\tcountry\tChina #previously Hunan")
+            additions_to_annotation.append(strain + "\t" + id + "\tdivision\tHunan")
+            additions_to_annotation.append(strain + "\t" + id + "\tlocation\t" + division)
+            print("Warning: Changed Hunan from country to Chinese division for " + id)
+            if location != "":
+                print("Lost location " + location)
+            country = "China"
+            location = division
+            division = "Hunan"
+            
 
         if region not in data:
             data[region] = {}
