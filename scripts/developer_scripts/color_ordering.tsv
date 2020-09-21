@@ -205,6 +205,7 @@ location	Faridabad
 location	Gurugram
 
 # Uttarakhand
+location	Roorkee
 location	Dehradun
 location	Haridwar
 location	Uttarkashi
@@ -212,6 +213,9 @@ location	Tehri Garhwal
 location	Pauri Garhwal
 location	Rudraprayag
 location	Chamoli
+
+# Punjab
+location	Rupnagar
 
 # Ladakh
 location	Kargil
@@ -273,6 +277,10 @@ location	Chengdu
 # Chongqing
 location	Yongchuan
 location	Zhongxian
+
+# Hunan
+location	Huaihua
+location	Shaoyang
 
 # Hubei
 location	Jingzhou
@@ -569,11 +577,11 @@ location	Jerez De La Frontera
 location	Conil de la Frontera
 location	Mairena Aljarafe
 location	Sevilla
+location	Cordoba ES
 location	Tarifa
 location	Algeciras
 location	San Roque
 location	La Linea de la Concepcion
-location	Cordoba
 location	Benalmadena
 location	Antequera
 location	Alhaurin de la Torre
@@ -662,6 +670,7 @@ location	Valencia de Don Juan
 location	Villaturiel
 
 # Cantabria
+location	Cabezon de la Sal
 location	Santillana
 location	Puente San Miguel
 location	Los Corrales de Buelna
@@ -704,6 +713,7 @@ location	Ambite
 
 # Castilla la Mancha
 location	Ayna
+location	Cuenca ES
 location	Socuellamos
 location	Villarrobledo
 location	San Clemente
@@ -711,7 +721,6 @@ location	Riopar
 location	Lezuza
 location	Bogarra
 location	Balazote
-location	Cuenca
 location	Villanueva de la Jara
 location	Tazona
 location	Albacete
@@ -754,7 +763,6 @@ location	Aldeanueva de Ebro
 location	Alfaro
 
 # Basque Country
-location	Cabezon de la Sal
 location	Musques
 location	Portugalete
 location	Baracaldo
@@ -855,7 +863,6 @@ location	Oliva
 location	Castello de la Plana
 location	Castellon de la Plana
 location	Puzol
-location	Alcudia
 
 # Aragon
 location	Teruel
@@ -1515,13 +1522,17 @@ location	Všebořice
 # Prague
 location	Prague-Miskovice
 
+# Central Bohemian Region
+location	Mlada Boleslav
+
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
 location	Kynice
 
 # South Moravian Region
-location	Breclav
+location	Znojmo
 location	Brno
+location	Breclav
 
 # Olomouc Region
 location	Litovel
@@ -1532,6 +1543,10 @@ location	Fryšták
 
 # Hranice Na Moravě
 location	Prostějov
+
+# Moravian-Silesian Region
+location	Albrechtice
+location	Cesky Tesin
 
 ### Poland
 # Wielkopolskie
@@ -1727,6 +1742,10 @@ location	General Villamil Playas
 location	Guayaquil
 location	San Jacinto de Yaguachi
 
+# Loja
+location	Macara
+location	Catamayo
+
 # Los Rios
 location	Babahoyo
 location	Quevedo
@@ -1734,6 +1753,9 @@ location	Ventanas
 
 # Esmeraldas
 location	Esmeraldas
+
+# Azuay
+location	Cuenca EC
 
 # Bolivar EC
 location	Guaranda
@@ -1758,6 +1780,9 @@ location	Urcuqui
 # Carchi
 location	Awa Reserve
 
+# Napo
+location	Tena
+
 # Orellana
 location	Coca
 location	Orellana
@@ -1769,9 +1794,11 @@ location	Leticia
 # Narino
 location	Tumaco
 location	Ipiales
+location	Pasto
 
 # Cauca
 location	Popayan
+location	Santander de Quilichao
 
 # Huila
 location	Neiva
@@ -1797,6 +1824,9 @@ location	Tolemaida
 # Quindio
 location	Armenia
 
+# Cartago CO
+location	Cartago CO
+
 # Risaralda
 location	Pereira
 location	Dosquebradas
@@ -1809,6 +1839,7 @@ location	Pacho
 location	Chia
 location	Cajica
 location	Zipaquira
+location	Suesca
 location	Choconta
 
 # Caldas
@@ -1816,6 +1847,7 @@ location	Anserma
 location	Manizales
 
 # Boyaca
+location	Tunja
 location	Santa Sofia
 location	Togui
 location	Santana
@@ -1840,6 +1872,7 @@ location	Cucuta
 # Cordoba CO
 location	Tierralta
 location	Monteria
+location	Cienaga de Oro
 
 # Bolivar
 location	Cartagena
@@ -1852,6 +1885,7 @@ location	Cienaga
 location	Santa Marta
 
 # Atlantico
+location	Soledad
 location	Barranquilla
 
 ################
@@ -2474,6 +2508,7 @@ division	Sichuan
 division	China
 division	Chongqing
 division	Guangxi
+division	Hunan
 division	Hubei
 division	Henan
 division	Guangdong
@@ -2630,6 +2665,9 @@ division	Haut-Katanga
 division	Sud Kivu
 division	Nord Kivu
 
+### Gabon
+division	Libreville
+
 ### Kenya
 division	Kenya
 
@@ -2755,6 +2793,7 @@ division	Grand Canary Islands
 division	Galicia
 division	Extremadura
 division	Asturias
+division	Ceuta
 division	Andalusia
 division	Castilla y Leon
 division	Cantabria
@@ -2777,6 +2816,9 @@ division	Scotland
 division	Wales
 division	United Kingdom
 division	England
+
+### Andorra
+division	Andorra
 
 ### France
 division	Pays de la Loire
@@ -2985,6 +3027,7 @@ division	Usti nad Labem
 division	Litomerice-Brnay
 division	Prague
 division	Melnik
+division	Central Bohemian Region
 division	Czech Republic
 division	Jihlava
 division	Vysocina Region
@@ -2992,6 +3035,7 @@ division	South Moravian Region
 division	Olomouc Region
 division	Zlin
 division	Hranice Na Moravě
+division	Moravian-Silesian Region
 
 ### Bosnia and Herzegovina
 division	Bihac
@@ -3275,24 +3319,25 @@ division	Santa Elena
 division	Manabi
 division	Guayas
 division	Daule
+division	Loja
 division	Los Rios
 division	Esmeraldas
+division	Azuay
 division	Bolivar EC
 division	Zamora-Chinchipe
 division	Chimborazo
 division	Pichincha
 division	Imbabura
 division	Carchi
+division	Napo
 division	Orellana
 
 ### Colombia
 division	Departamento de Amazonas
-division	Pasto
 division	Narino
 division	Cauca
 division	Huila
 division	Colombia
-division	Santander de Quilichao
 division	Meta
 division	Valle del Cauca
 division	Tolima
@@ -3301,21 +3346,17 @@ division	Bogota
 division	Cartago CO
 division	Risaralda
 division	Cundinamarca
-division	Suesca
 division	Caldas
 division	Boyaca
-division	Tunja
 division	Choco
 division	Antioquia
 division	Santander
 division	Norte de Santander
 division	Cordoba CO
 division	Bolivar
-division	Cienaga de Oro
 division	Cesar
 division	Magdalena
 division	Atlantico
-division	Soledad
 
 ### Suriname
 division	Suriname
@@ -3515,6 +3556,7 @@ country	South Africa
 country	Madagascar
 country	Zambia
 country	Democratic Republic of the Congo
+country	Gabon
 country	Kenya
 country	Uganda
 country	Cameroon
@@ -3539,6 +3581,7 @@ country	Portugal
 country	Ireland
 country	Spain
 country	United Kingdom
+country	Andorra
 country	France
 country	Belgium
 country	Netherlands

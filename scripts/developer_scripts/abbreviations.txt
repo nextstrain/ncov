@@ -52,3 +52,9 @@ Wyoming	WY
 Panama Center	PA
 Victoria	AU
 San Jose	CR
+Cartago CO	CO
+Andalusia	ES
+Castilla la Mancha	ES
+Azuay	EC
+Ecuador	EC
+Spain	ES

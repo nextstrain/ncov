@@ -23,3 +23,5 @@ Cartago
 Lake County
 Iowa County
 Douglas County
+Cordoba
+Cuenca
