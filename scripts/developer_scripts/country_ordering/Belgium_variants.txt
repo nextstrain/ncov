@@ -145,3 +145,5 @@ Duisberg	Duisburg
 Ecaussinnes	Écaussinnes
 Strepy-Bracquegnies	Strépy-Bracquegnies
 Landen-B	Landen BE
+Limburg	Limburg BE
+Bruxelles	Brussels
