@@ -381,12 +381,12 @@ location	Taipei
 # Chungcheongnam
 location	Chungcheongnam
 
-# Seoul
-location	Seoul
-
 # Gyeonggi Province
 location	Uijeongbu
 location	Gyeonggi
+
+# Seoul
+location	Seoul
 
 ### Japan
 # Kyoto
@@ -534,13 +534,16 @@ location	Lanzarote
 location	Muros
 location	Puerto del Son
 location	Ribeira
+location	Puebla del Caraminal
 location	Outes
 location	Noia
 location	Boiro
+location	Lousame
 location	Santa Comba
 location	Rianjo
 location	Negreira
 location	Vigo
+location	Rois
 location	Padrón
 location	Ames
 location	Pontecesures
@@ -552,6 +555,8 @@ location	Vedra
 location	Boqueixón
 location	A Coruna
 location	Oroso
+location	Silleda
+location	Villa de Cruces
 location	Lalin
 location	El Rosal
 location	Santiago de Compostela
@@ -770,9 +775,19 @@ location	Bilbao
 location	Bermeo
 location	Bizkaia
 location	Vitoria-Gasteiz
+location	Deba
+location	Mallabia
 location	Mondragon
+location	Eibar
+location	Mendaro
+location	Zumarraga
+location	Ordizia
+location	Zarauz
+location	Tolosa
 location	San Sebastian
 location	Donostia-San Sebastian
+location	Hernani
+location	Irun
 
 # Navarra
 location	Fitero
@@ -874,6 +889,7 @@ location	Tamarite de Litera
 location	Monzon
 
 # Catalunya
+location	Cambrils
 location	Jorba
 location	Vallirana
 location	Santa Coloma de Cervello
@@ -887,6 +903,7 @@ location	Badalona
 location	Vic
 location	Tiana
 location	Granollers
+location	El Masnou
 location	Vilasar de Mar
 location	Mataro
 location	Palamos
@@ -1521,7 +1538,9 @@ location	Všebořice
 location	Litomerice
 
 # Prague
+location	Sedlec
 location	Prague-Miskovice
+location	Kvetnice
 
 # Central Bohemian Region
 location	Mlada Boleslav
@@ -1530,10 +1549,15 @@ location	Mlada Boleslav
 location	Bela - Ledec Na Sazavou
 location	Kynice
 
+# Pardubice Region
+location	Pardubice
+
 # South Moravian Region
 location	Znojmo
 location	Brno
 location	Breclav
+location	Hodonín
+location	Ratíškovice
 
 # Olomouc Region
 location	Litovel
@@ -1546,7 +1570,9 @@ location	Fryšták
 location	Prostějov
 
 # Moravian-Silesian Region
+location	Havířov
 location	Albrechtice
+location	Karviná
 location	Cesky Tesin
 
 ### Poland
@@ -1647,10 +1673,17 @@ location	Jaru
 location	Porto Velho
 
 # Paraná
+location	Medianeira
+location	Vere
+location	Cianorte
+location	Maringa
+location	Ponta Grossa
 location	Curitiba
 
 # Santa Catarina
+location	Braco do Norte
 location	Florianopolis
+location	Balneario Camburiu
 location	Joinville
 
 # Distrito Federal
@@ -1686,19 +1719,35 @@ location	Mogi Das Cruzes
 location	Resende
 location	Queimados
 location	Nova Iguacu
+location	Mesquita
 location	Belford Roxo
 location	Duque de Caxias
 location	Rio de Janeiro
 location	Petropolis
 location	Niteroi
+location	Sao Goncalo
 location	Teresopolis
 location	Itaborai
+
+# Piaui
+location	Parnaiba
 
 # Bahia
 location	Feira de Santana
 
 # Espirito Santo
 location	Vila Velha
+
+# Sergipe
+location	Tomar do Geru
+location	Estancia
+location	Itaporanga Dajuda
+location	Jaboatiana
+location	Aracaju
+location	Nossa Senhora do Socorro
+location	Laranjeiras
+location	Riachuelo
+location	Nossa Senhora Da Gloria
 
 # Pernambuco
 location	Caruaru
@@ -1715,12 +1764,27 @@ location	Olinda
 location	Maceio
 
 ### Peru
+# Arequipa
+location	Arequipa
+
+# Callao
+location	Callao
+
 # Lima
 location	Cañete
 location	Lima
+location	Huarochiri
 
 # Ancash
+location	Santa
+location	Huarmey
 location	Huaraz
+
+# Ucayali
+location	Coronel Portillo
+
+# La Libertad
+location	La Libertad
 
 # Lambayeque
 location	Chiclayo
@@ -2095,11 +2159,43 @@ location	Denver County
 location	Minnehaha County
 
 # Texas
-location	El Paso
+location	El Paso County
+location	Brewster County
+location	Deaf Smith County
+location	Val Verde County
+location	Ochiltree County
+location	Webb County
+location	Llano County
 location	Bexar County
+location	Comal County
+location	Hidalgo County
+location	Jim Wells County
+location	Live Oak County
+location	Hays County
+location	Parker County
+location	Travis County
+location	Nueces County
+location	Williamson County
+location	San Patricio County
+location	Gonzales County
+location	Cameron County
+location	Mclennan County
+location	Lavaca County
+location	Dallas County
+location	Burleson County
+location	Limestone County
+location	Washington County TX
+location	Kaufman County
+location	Waller County
+location	Grimes County
+location	Lamar County
+location	Montgomery County TX
 location	Houston
-location	Harris
+location	Harris County
 location	Greater Houston Area
+location	Red River County
+location	Galveston County
+location	Titus County
 location	Panola County
 
 # Minnesota
@@ -2162,6 +2258,7 @@ location	Lincoln County
 location	Green County
 location	Dane County
 location	Verona WI
+location	Portage County
 location	Marquette County
 location	Oregon WI
 location	Brooklyn WI
@@ -2172,6 +2269,7 @@ location	Waupaca County
 location	Jefferson County WI
 location	Dodge County
 location	Winnebago County WI
+location	Walworth County
 location	Fond Du Lac County
 location	Outagamie County
 location	Campbellsport
@@ -2194,6 +2292,7 @@ location	Jo Daviess County
 location	Stephenson County
 location	Ogle County
 location	Winnebago County IL
+location	Boone County
 location	Mchenry County
 location	Kane County
 location	Dupage County
@@ -2215,10 +2314,12 @@ location	Palm Beach County
 location	Miami
 
 # South Carolina
-location	Berkeley County
+location	Fairfield County SC
 location	Columbia SC
 location	Richland County SC
-location	Fairfield County SC
+location	Berkeley County
+location	Georgetown
+location	Horry
 
 # Pennsylvania
 location	Pittsburgh
@@ -2573,10 +2674,11 @@ division	Manila
 division	Timor-Leste
 
 ### South Korea
-division	Chungcheongnam
-division	Seoul
-division	Gyeonggi Province
+division	Gwangju
 division	South Korea
+division	Chungcheongnam
+division	Gyeonggi Province
+division	Seoul
 
 ### Japan
 division	Nagasaki
@@ -2852,8 +2954,10 @@ division	Eeklo
 division	Saint-Saulve
 division	Oudenaarde
 division	Gent
+division	Flandre-Orientale
 division	Ath
 division	Mons
+division	Hainaut
 division	Soignies
 division	Aalst
 division	Dendermonde
@@ -2866,6 +2970,7 @@ division	Antwerpen
 division	Halle-Vilvoorde
 division	Charleroi
 division	Mechelen
+division	Brabant Wallon
 division	Philippeville
 division	Belgium
 division	Leuven
@@ -2875,6 +2980,7 @@ division	Turnhout
 division	Huy
 division	Waremme
 division	Hasselt
+division	Limburg BE
 division	Tongeren
 division	Liège
 division	Maaseik
@@ -3032,6 +3138,7 @@ division	Central Bohemian Region
 division	Czech Republic
 division	Jihlava
 division	Vysocina Region
+division	Pardubice Region
 division	South Moravian Region
 division	Olomouc Region
 division	Zlin
@@ -3309,6 +3416,7 @@ division	Lima
 division	Junin
 division	Huanuco
 division	Ancash
+division	Ucayali
 division	La Libertad
 division	Lambayeque
 division	Cajamarca
@@ -3476,6 +3584,7 @@ division	Georgia
 division	Ohio
 division	Florida
 division	South Carolina
+division	West Virginia
 division	North Carolina
 division	Virginia
 division	Pennsylvania
