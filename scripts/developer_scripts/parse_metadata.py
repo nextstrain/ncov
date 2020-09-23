@@ -96,6 +96,40 @@ def read_geography_file(file_name):
     return data
 
 
+#Funtion to support supervised addition of new entries into lat_longs. The user must review every new entry and approve it to be written into the lat_longs file. Ground truth lat_longs is not overwritten, but a copy is made in the developer_scripts folder.
+def auto_sort_lat_longs(new_lat_longs):
+    
+    with open("defaults/lat_longs.tsv") as f:
+        lat_longs = f.readlines()
+    for entry in new_lat_longs:
+        if len(entry.split("\t")) < 4:
+            continue
+        correct_hierarchy = False
+        for i in range(len(lat_longs)):
+            if lat_longs[i] == "\n" and not correct_hierarchy:
+                continue
+            if lat_longs[i] != "\n" and entry[:4] != lat_longs[i][:4]: #first characters correspond to country, division, location etc.
+                continue
+            correct_hierarchy = True
+            if lat_longs[i] != "\n" and entry > lat_longs[i]:
+                continue
+            print("\n")
+            for k in range(3):
+                print(lat_longs[i-3+k].strip())
+            print(bold(entry))
+            for k in range(3):
+                print(lat_longs[i+k].strip())
+            answer = input("Approve of this new entry (y)?")
+            if answer == "y":
+                lat_longs = lat_longs[:i] + [entry + "\n" ] + lat_longs[i:]
+            break
+
+    local_file = path_to_script_files + "lat_longs.tsv"
+    with open(local_file, "w") as f:
+        for line in lat_longs:
+            f.write(line)
+
+
 
 ################################################################################
 # Step 1: Collection of data from metadata file in hierarchical manner
@@ -382,12 +416,15 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
 
                 arrondissement_to_location = {}
                 location_to_arrondissement = {}
+                provinces = []
                 duplicates = {}
 
                 for line in country_ordering:
                     if line == "\n" or "------" in line:
                         continue
                     if line.startswith("### "):
+                        province = line.strip()[4:]
+                        provinces.append(province)
                         continue
                     if line.startswith("# "):
                         arrondissement = line.strip()[2:]
@@ -401,7 +438,7 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                         if location_to_arrondissement[location] != arrondissement:
                             duplicates[location] = (arrondissement, location_to_arrondissement[location])
                     location_to_arrondissement[location] = arrondissement
-
+            
                 division_to_correct = []
                 location_to_correct = []
                 div_to_loc = {}
@@ -410,6 +447,13 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                     for location in data[region][country][division]:
 
                         if division == country:
+                            continue
+                        
+                        if division in provinces and location == "":
+                            continue
+                        
+                        if division in variants and variants[division] in provinces and location == "":
+                            division_to_correct.append((region, country, division, region, country, variants[division]))
                             continue
 
                         if division in duplicates:
@@ -867,6 +911,10 @@ def check_for_missing(data):
         with open(path_to_script_files+"new_lat-longs.tsv", 'w') as out:
             out.write("\n".join(new_lat_longs))
         print("New lat-longs written out to "+path_to_script_files+"new_lat-longs.tsv")
+
+        answer = input("Would you like to use auto-sort for these lat_longs? y or n")
+        if answer == "y":
+            auto_sort_lat_longs(new_lat_longs)
 
 
     print("\n=============================\n")
