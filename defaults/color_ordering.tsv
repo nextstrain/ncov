@@ -1447,6 +1447,10 @@ location	Dalen
 # Luxembourg
 location	Luxembourg
 
+### Norway
+# Vestland
+location	Bergen
+
 ### Germany
 # Bavaria
 location	Starnberg
@@ -2162,6 +2166,7 @@ location	Minnehaha County
 location	El Paso County
 location	Brewster County
 location	Deaf Smith County
+location	Ector County
 location	Val Verde County
 location	Ochiltree County
 location	Webb County
@@ -3032,8 +3037,9 @@ division	Sankt Gallen
 division	Graubünden
 
 ### Norway
-division	Oslo
+division	Vestland
 division	Trondheim
+division	Oslo
 division	Norway
 
 ### Denmark
@@ -3206,6 +3212,7 @@ division	Debrecen
 division	Szabolcs-Szatmár-Bereg County
 
 ### Serbia
+division	Kosovska Mitrovica
 division	Novi Pazar
 division	Kraljevo
 division	Serbia
@@ -3230,8 +3237,11 @@ division	Greece
 division	Thessaloniki
 
 ### Lithuania
+division	Taurages Apskritis
 division	Marijampoles Apskritis
 division	Lithuania
+division	Alytaus Apskritis
+division	Kauno Apskritis
 division	Vilnius
 
 ### Romania
