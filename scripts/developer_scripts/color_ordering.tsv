@@ -715,6 +715,7 @@ location	Campo Real
 location	Alcala de Henares
 location	Valdaracete
 location	Ambite
+location	Estremera
 
 # Castilla la Mancha
 location	Ayna
@@ -909,10 +910,12 @@ location	Mataro
 location	Palamos
 
 # Balear Islands
+location	Formentera
 location	Ibiza
 location	Calvia
 location	Palma
 location	Palma de Mallorca
+location	Pont d'Inca
 location	Marratxí
 location	Santa Maria del Camino
 location	Lluchmayor
@@ -921,6 +924,8 @@ location	Muro
 location	Alcudia
 location	Manacor
 location	Son Servera
+location	Menorca
+location	Mahon
 
 ### United Kingdom
 # Wales
@@ -1446,6 +1451,10 @@ location	Dalen
 ### Luxembourg
 # Luxembourg
 location	Luxembourg
+
+### Norway
+# Vestland
+location	Bergen
 
 ### Germany
 # Bavaria
@@ -2162,6 +2171,7 @@ location	Minnehaha County
 location	El Paso County
 location	Brewster County
 location	Deaf Smith County
+location	Ector County
 location	Val Verde County
 location	Ochiltree County
 location	Webb County
@@ -3032,8 +3042,9 @@ division	Sankt Gallen
 division	Graubünden
 
 ### Norway
-division	Oslo
+division	Vestland
 division	Trondheim
+division	Oslo
 division	Norway
 
 ### Denmark
@@ -3215,6 +3226,7 @@ division	Novi Sad
 
 ### Kosovo
 division	Kosovo
+division	Kosovska Mitrovica
 
 ### North Macedonia
 division	Skopje
@@ -3230,8 +3242,11 @@ division	Greece
 division	Thessaloniki
 
 ### Lithuania
+division	Taurages Apskritis
 division	Marijampoles Apskritis
 division	Lithuania
+division	Alytaus Apskritis
+division	Kauno Apskritis
 division	Vilnius
 
 ### Romania
