@@ -6,6 +6,10 @@
         "n" : 1,
         "mem": "8G"
     },
+    "ancestral":
+    {
+        "mem": "16G"
+    },
     "refine" :
     {
         "time" : "05:59:00",
