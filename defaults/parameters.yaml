@@ -38,6 +38,8 @@ filter:
   # Omit sequences with incomplete date annotations, and USA seqs without a state.
   exclude_where: "division='USA' date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-05-XX' date='2020-06-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04' date='2020-05' date='2020-06'"
 
+  # Exclude sequences which are from before late 2019 (likely date mix-ups)
+  min_date: "2019-10-01"
 
 # Alignment settings
 # Alignments are partitioned into smaller groups to speed up the overall alignment process.

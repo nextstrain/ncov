@@ -31,6 +31,7 @@ rule filter:
     params:
         min_length = config["filter"]["min_length"],
         exclude_where = config["filter"]["exclude_where"],
+        min_date = config["filter"]["min_date"]
         date = numeric_date(date.today())
     conda: config["conda_environment"]
     shell:
@@ -40,6 +41,7 @@ rule filter:
             --metadata {input.metadata} \
             --include {input.include} \
             --max-date {params.date} \
+            --min-date {params.min_date} \
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
