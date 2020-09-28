@@ -52,3 +52,5 @@ Taipei	Taiwan
 Valencia	Comunitat Valenciana
 Houston	Texas
 Bergen	Vestland
+Counties Manukau	Auckland
+Waitemata	Auckland

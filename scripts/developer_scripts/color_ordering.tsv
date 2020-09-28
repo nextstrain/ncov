@@ -405,7 +405,9 @@ location	Tokyo
 
 ### New Zealand
 # Auckland
+location	Waitemata
 location	Auckland
+location	Counties Manukau
 
 ### Australia
 # Western Australia
@@ -1549,6 +1551,7 @@ location	Plzeň
 location	Litvinov
 location	Všebořice
 location	Sulejovice
+location	Libochovice
 location	Litomerice
 location	Račice
 
@@ -2141,6 +2144,7 @@ location	San Francisco
 location	San Francisco County
 location	San Mateo County
 location	Solano County
+location	Yolo County
 location	Contra Costa County
 location	Davis
 location	Alameda County
@@ -2744,11 +2748,9 @@ division	Otago
 division	Canterbury
 division	New Zealand
 division	Nelson Marlborough
-division	Waitemata
 division	Auckland
 division	Combined Wellington
 division	Wellington
-division	Counties Manukau
 division	Waikato
 division	Wairarapa
 division	Midcentral
