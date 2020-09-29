@@ -3101,7 +3101,6 @@ Kortemark
 	Werken
 	Zarren
 Lo-Reninge
-	Lo
 	Noordschote
 	Pollinkhove
 	Reninge

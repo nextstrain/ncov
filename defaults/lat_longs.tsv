@@ -91,6 +91,7 @@ location	Antequera	37.017136	-4.561986
 location	Antheit	50.548353	5.240102
 location	Antonan del Valle	42.5248122	-5.9499103
 location	Anzegem	50.830817	3.452651
+location	Apeldoorn	52.2156457	5.9639485
 location	Ar Rustaq	23.3899385	57.4201142
 location	Aracaju	-10.9162061	-37.0774655
 location	Araçatuba	-21.207992	-50.4390225
@@ -606,6 +607,7 @@ location	Genappe	50.603841	4.451737
 location	General Villamil Playas	-2.5937913000000004	-80.42615751756438
 location	Genk	50.966203	5.492020
 location	Gennevilliers	48.927444	2.292449
+location	Gent	51.099884349999996	3.739013449056724
 location	Gentbrugge	51.042328	3.759051
 location	Genval	50.720392	4.493708
 location	Georgetown	33.4392245	-79.3343041
@@ -839,6 +841,7 @@ location	Karimnagar	18.4346438	79.1322648
 location	Karviná	49.850056	18.546309
 location	Kasterlee	51.2405	4.9674
 location	Kathmandu	27.712907	85.323557
+location	Katwoude	52.4774282	5.042960875677453
 location	Kaufman County	32.581020800000005	-96.29927072197667
 location	Kaulille	51.186846	5.525937
 location	Kelmis	50.714674	6.023042
@@ -933,6 +936,7 @@ location	Leiva	42.5029174	-3.04658
 location	Leon	42.63414505	-5.971415104539984
 location	Lessines	50.710456	3.828368
 location	Leticia	-4.212580	-69.943144
+location	Leuven	50.876941	4.701994
 location	Levallois-Perret	48.8932	2.2879
 location	Lezuza	38.9496	-2.3555
 location	Libochovice	50.4061126	14.044564
@@ -957,7 +961,7 @@ location	Llombai	39.2816214	-0.5731796
 location	Llubi	39.6994	3.0063
 location	Lluchmayor	39.4908	2.8917
 location	Llutxent	38.9421	-0.3554
-location	Lo	50.980372	2.748844
+location	Lo-Reninge	50.9928529	2.7918753
 location	Lodosa	42.4241886	-2.0785646
 location	Lodz	51.7687323	19.4569911
 location	Logrono	42.460541	-2.446303
@@ -1860,6 +1864,7 @@ division	Acre	-8.862769	-70.079844
 division	Adıyaman	37.900714	38.309879
 division	Africa	4.070194	21.824559
 division	Afyon	38.752653	30.553661
+division	Agder	58.71944225	8.034963534558171
 division	Agri	39.7191	43.0506
 division	Aichi	35.067543	137.334061
 division	Aksaray	38.44611	33.878216
@@ -2235,6 +2240,7 @@ division	Imbabura	0.3753621	-78.355681
 division	India	21.077353	78.723951
 division	Indiana	40.2672	-86.1349
 division	Indonesia	0.240253	114.878847
+division	Innlandet	61.26810555	10.485458802304304
 division	Iowa	41.878	-93.0977
 division	Iran	34.5732	51.876
 division	Irbid	32.5568	35.8469
@@ -2427,6 +2433,7 @@ division	Montevideo	-34.823827	-56.211799
 division	Mopti	14.514489000000001	-3.646458060483871
 division	Moravian-Silesian Region	49.83883545	18.153614708783117
 division	Morelos	18.75	-99.0
+division	Moreogromsdal	62.550697	7.320426
 division	Morocco	32.525925	-5.843761
 division	Moscow	55.7558	37.6173
 division	Moscow Region	55.3404	38.2918
@@ -2511,6 +2518,7 @@ division	Olomouc Region	49.859105799999995	16.956126746749305
 division	Omsk Region	55.0555	73.3167
 division	Ondo State	6.970395	5.101463
 division	Ontario	44.429	-79.377
+division	Oost-Vlaanderen	51.0375423	3.8117830113324556
 division	Oostende	51.210615	2.914232
 division	Opolskie	50.8918612	17.9321175
 division	Orebro	59.2753	15.2134
@@ -2616,6 +2624,7 @@ division	Risaralda	4.921633	-75.900759
 division	Rivera	-30.906491	-55.540612
 division	Rivers	4.8416028	6.8604088
 division	Riyadh	23.197563	45.243845
+division	Rogaland	58.93631375	5.805878643040238
 division	Rondonia	-10.943145	-62.8277863
 division	Roscommon	53.6982695	-8.218250761296193
 division	Rostock	54.130776	12.106778
@@ -2761,6 +2770,7 @@ division	Tournai-Mouscron	50.610622	3.406319
 division	Trang	7.529936	99.611699
 division	Trentino	46.051733	11.014531
 division	Trentino-Alto Adige	46.441472	11.282121
+division	Tromsogfinnmark	69.720052	23.450581
 division	Trondheim	63.4305	10.3951
 division	Tubize	50.6905	4.2026
 division	Tucuman	-26.8083	-65.2176
@@ -2810,11 +2820,13 @@ division	Vermont	44.5588	-72.5778
 division	Verona	45.4384	10.9916
 division	Verviers	50.578077	5.872924
 division	Vestland	60.9291011	6.107886941976156
+division	Vestlandet	60.958303	6.533228
 division	Veurne	51.046671	2.663125
 division	Victoria	-37.121673	144.106178
 division	Vidin	43.9962	22.8679
 division	Vienna	48.2082	16.3738
 division	Vietnam	16.16667	107.83333
+division	Viken	59.9263265	9.904234519577855
 division	Villavicencio	4.134000	-73.623483
 division	Vilnius	54.697979	25.279095
 division	Vina del Mar	-33.0153	-71.5500

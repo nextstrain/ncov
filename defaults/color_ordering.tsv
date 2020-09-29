@@ -1044,7 +1044,7 @@ location	Embrun
 location	Beveren
 
 # Diksmuide
-location	Lo
+location	Lo-Reninge
 location	Beerst
 
 # Ieper
@@ -1105,6 +1105,7 @@ location	Nevele
 location	Lovendegem
 location	Asper
 location	Mariakerke
+location	Gent
 location	Merelbeke
 location	Bottelare
 location	Gentbrugge
@@ -1284,6 +1285,7 @@ location	Wespelaar
 location	Winksele
 location	Wilsele
 location	Heverlee
+location	Leuven
 location	Blanden
 location	Haasrode
 location	Kessel-Lo
@@ -1422,6 +1424,7 @@ location	Beverwijk
 location	Schiphol
 location	Amsterdam West
 location	Diemen
+location	Katwoude
 location	Wervershoof
 location	Naarden
 
@@ -1449,6 +1452,9 @@ location	Zeewolde
 
 # Friesland
 location	Franeker
+
+# Gelderland
+location	Apeldoorn
 
 # Drenthe
 location	Coevorden
@@ -2988,8 +2994,8 @@ division	Eeklo
 division	Saint-Saulve
 division	Oudenaarde
 division	Gent
-division	Flandre-Orientale
 division	Ath
+division	Oost-Vlaanderen
 division	Mons
 division	Hainaut
 division	Soignies
@@ -3067,10 +3073,17 @@ division	Sankt Gallen
 division	Graubünden
 
 ### Norway
+division	Rogaland
 division	Vestland
+division	Vestlandet
+division	Moreogromsdal
+division	Agder
+division	Viken
 division	Trondheim
+division	Innlandet
 division	Oslo
 division	Norway
+division	Tromsogfinnmark
 
 ### Denmark
 division	Faroe Islands
