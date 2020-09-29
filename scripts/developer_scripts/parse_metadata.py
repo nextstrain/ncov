@@ -469,6 +469,11 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                             print("Adjust " + division + " to " + location_to_arrondissement[location] + " for location " + location)
                             location_to_correct.append((region, country, division, location, region, country, location_to_arrondissement[location], location))
                             continue
+                        if location in variants and variants[location] in location_to_arrondissement and division != location_to_arrondissement[variants[location]]:
+                            print("Adjust location " + location + " to " + variants[location])
+                            print("Adjust " + division + " to " + location_to_arrondissement[variants[location]] + " for location " + variants[location])
+                            location_to_correct.append((region, country, division, location, region, country, location_to_arrondissement[variants[location]], variants[location]))
+                            continue
 
                         if division in arrondissement_to_location: # given division is actually an arrondissement => no changes necessary
                             continue
@@ -486,6 +491,8 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                             div_to_loc[variants[division]] = (region, country, location_to_arrondissement[variants[division]]) #then to location
                             continue
                         print("Missing division in " + country + " database: " + bold(division))
+                        if location != "":
+                        	print("Missing location in " + location + " database: " + bold(location))
 
                 data = correct_data(data, "division", division_to_correct)
                 data = correct_data(data, "location", location_to_correct)
