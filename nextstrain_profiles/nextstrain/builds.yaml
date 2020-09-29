@@ -109,12 +109,12 @@ subsampling:
     # Focal samples for region
     region:
       group_by: "division year month"
-      seq_per_group: 32
+      max_sequences: 2500
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
-      seq_per_group: 4
+      max_sequences: 1500
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
@@ -122,9 +122,30 @@ subsampling:
 
   # Custom subsampling logic for global region.
   nextstrain_region_global:
-    global:
+    africa:
       group_by: "country year month"
-      seq_per_group: 16
+      max_sequences: 600
+      exclude: "--exclude-where 'region!=Africa'"
+    asia:
+      group_by: "country year month"
+      max_sequences: 700
+      exclude: "--exclude-where 'region!=Asia'"
+    europe:
+      group_by: "country year month"
+      max_sequences: 800
+      exclude: "--exclude-where 'region!=Europe'"
+    north_america:
+      group_by: "division year month"
+      max_sequences: 800
+      exclude: "--exclude-where 'region!=North America'"
+    south_america:
+      group_by: "country year month"
+      max_sequences: 600
+      exclude: "--exclude-where 'region!=South America'"
+    oceania:
+      group_by: "division year month"
+      max_sequences: 500
+      exclude: "--exclude-where 'region!=Oceania'"
 
   # Custom subsampling for regions like Europe where grouping by country
   # is the smallest resolution requied
@@ -132,12 +153,12 @@ subsampling:
     # Focal samples for region
     region:
       group_by: "country year month"
-      seq_per_group: 44
+      max_sequences: 2500
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global:
       group_by: "country year month"
-      seq_per_group: 5
+      max_sequences: 1500
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
