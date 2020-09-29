@@ -360,8 +360,8 @@ rule subsample:
          - group by: {params.group_by}
          - sequences per group: {params.sequences_per_group}
          - subsample max sequences: {params.subsample_max_sequences}
-         - date-min: {params.date_max}
-         - date-max: {params.date_min}
+         - min-date: {params.max_date}
+         - max-date: {params.min_date}
          - exclude: {params.exclude_argument}
          - include: {params.include_argument}
          - query: {params.query_argument}
@@ -381,8 +381,8 @@ rule subsample:
         exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
         include_argument = _get_specific_subsampling_setting("include", optional=True),
         query_argument = _get_specific_subsampling_setting("query", optional=True),
-        date_min = _get_specific_subsampling_setting("date_min", optional=True),
-        date_max = _get_specific_subsampling_setting("date_max", optional=True),
+        min_date = _get_specific_subsampling_setting("min_date", optional=True),
+        max_date = _get_specific_subsampling_setting("max_date", optional=True),
         priority_argument = get_priority_argument
     conda: config["conda_environment"]
     shell:
@@ -391,8 +391,8 @@ rule subsample:
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --include {input.include} \
-            {params.date_min} \
-            {params.date_max} \
+            {params.min_date} \
+            {params.max_date} \
             {params.exclude_argument} \
             {params.include_argument} \
             {params.query_argument} \
