@@ -1371,7 +1371,7 @@ Wasseiges
 
 ---------------
 
-### Limburg
+### Limburg BE
 
 # Hasselt
 As
@@ -2607,7 +2607,6 @@ Horebeke
 	Sint-Kornelis-Horebeke
 	Sint-Maria-Horebeke
 Kluisbergen
-	Berchem
 	Kwaremont
 	Ruien
 	Zulzeke
@@ -2792,7 +2791,6 @@ Meise
 	Wolvertem
 Merchtem
 	Brussegem
-	Hamme
 	Merchtem
 Opwijk
 	Mazenzele
@@ -2881,7 +2879,6 @@ Boutersem
 	Kerkom
 	Roosbeek
 Diest
-	Deurne
 	Diest
 	Kaggevinne
 	Molenstede
@@ -3104,7 +3101,6 @@ Kortemark
 	Werken
 	Zarren
 Lo-Reninge
-	Lo
 	Noordschote
 	Pollinkhove
 	Reninge

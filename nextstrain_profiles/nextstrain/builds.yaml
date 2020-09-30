@@ -8,30 +8,30 @@ custom_rules:
 # (They override the defaults)
 builds:
   global:
-    subsampling_scheme: region_global
+    subsampling_scheme: nextstrain_region_global
     auspice_config: "nextstrain_profiles/nextstrain/global_auspice_config.json"
   africa:
-    subsampling_scheme: region
+    subsampling_scheme: nextstrain_region
     region: Africa
     auspice_config: "nextstrain_profiles/nextstrain/africa_auspice_config.json"
   asia:
-    subsampling_scheme: region
+    subsampling_scheme: nextstrain_region
     region: Asia
     auspice_config: "nextstrain_profiles/nextstrain/asia_auspice_config.json"
   europe:
-    subsampling_scheme: region_grouped_by_country
+    subsampling_scheme: nextstrain_region_grouped_by_country
     region: Europe
     auspice_config: "nextstrain_profiles/nextstrain/europe_auspice_config.json"
   north-america:
-    subsampling_scheme: region
+    subsampling_scheme: nextstrain_region
     region: North America
     auspice_config: "nextstrain_profiles/nextstrain/north-america_auspice_config.json"
   oceania:
-    subsampling_scheme: region
+    subsampling_scheme: nextstrain_region
     region: Oceania
     auspice_config: "nextstrain_profiles/nextstrain/oceania_auspice_config.json"
   south-america:
-    subsampling_scheme: region
+    subsampling_scheme: nextstrain_region
     region: South America
     auspice_config: "nextstrain_profiles/nextstrain/south-america_auspice_config.json"
 
@@ -105,7 +105,7 @@ slack_channel: "#ncov-gisaid-updates"
 
 subsampling:
   # Custom subsampling logic for regions
-  region:
+  nextstrain_region:
     # Focal samples for region
     region:
       group_by: "division year month"
@@ -121,14 +121,14 @@ subsampling:
         focus: "region"
 
   # Custom subsampling logic for global region.
-  region_global:
+  nextstrain_region_global:
     global:
       group_by: "country year month"
       seq_per_group: 16
 
   # Custom subsampling for regions like Europe where grouping by country
   # is the smallest resolution requied
-  region_grouped_by_country:
+  nextstrain_region_grouped_by_country:
     # Focal samples for region
     region:
       group_by: "country year month"

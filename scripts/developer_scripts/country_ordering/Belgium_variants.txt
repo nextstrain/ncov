@@ -145,3 +145,9 @@ Duisberg	Duisburg
 Ecaussinnes	Écaussinnes
 Strepy-Bracquegnies	Strépy-Bracquegnies
 Landen-B	Landen BE
+Limburg	Limburg BE
+Bruxelles	Brussels
+Flandre-Orientale	Oost-Vlaanderen
+West Flanders	West-Vlaanderen
+Properinge	Poperinge
+Lo	Lo-Reninge

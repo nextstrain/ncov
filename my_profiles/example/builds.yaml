@@ -16,7 +16,7 @@ builds:
   # with a build name that will produce the following URL fragment on Nextstrain/auspice:
   # /ncov/north-america/usa/washington/king-county
   north-america_usa_washington_king-county: # name of the build; this can be anything
-    subsampling_scheme: county # use a custom subsampling scheme defined below
+    subsampling_scheme: custom-county # use a custom subsampling scheme defined below
     region: North America
     country: USA
     division: Washington
@@ -60,7 +60,7 @@ builds:
 
 # Define custom subsampling logic for county-level builds.
 subsampling:
-  county:
+  custom-county:
     # Focal samples for location
     focal:
       group_by: "year month"
