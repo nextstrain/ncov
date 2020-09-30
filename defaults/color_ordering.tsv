@@ -960,6 +960,7 @@ location	Limoges
 # Centre-Val de Loire
 location	Tours
 location	Abondant
+location	Angers
 
 # Ile de France
 location	Montigny le Bretonneux
@@ -969,9 +970,12 @@ location	Guyancourt
 location	Saint Germain en Laye
 location	Pontoise
 location	Le Pecq
+location	Le Chesnay
 location	Orsay
 location	Garches
 location	Meudon la Forêt
+location	Boulogne Billancourt
+location	Argenteuil
 location	Colombes
 location	Asnières-sur-Seine
 location	Levallois-Perret
@@ -980,20 +984,32 @@ location	Gennevilliers
 location	Longjumeau
 location	Paris
 location	Juvisy-sur-Orge
+location	Sarcelles
 location	Seine-Port
 location	Moussy Le Neuf
 location	Saint-Thibault-des-Vignes
 
 # Hauts de France
-location	Crouy en Thelle
-location	Compiègne
-location	Crépy en Valois
 location	Nogent-l'Artaud
 location	Chateau-Thierry
+location	Crouy en Thelle
+location	Crépy en Valois
+location	Compiègne
+location	Lille
+location	Santes
 
 # Bretagne
 location	Ploudalmezeau
+location	Lannilis
 location	Brest
+location	Morlaix
+location	Saint Pierre Quiberon
+location	Arradon
+location	Pordic
+location	Vannes
+location	Sene
+location	La Rochelle
+location	Cayenne
 location	Rennes
 
 # Occitanie
@@ -1020,6 +1036,7 @@ location	Chambery
 location	Contamine-sur-Arve
 location	Contamines
 location	Vienne
+location	Montagnieu
 
 # Bourgogne-France-Comté
 location	Chalon sur Saone
@@ -1029,10 +1046,31 @@ location	Montreux-Chateau
 # Grand Est
 location	Reims
 location	Gondrecourt-le-Chateau
+location	Crusnes
+location	Joeuf
+location	Fameck
+location	Marange Silvange
+location	Amneville
 location	Woippy
+location	Montigny Les Metz
+location	Maizières Les Metz
+location	Talange
+location	Metz
 location	Nancy
+location	Ottonville
 location	Ham Sous Varsberg
+location	Munster
 location	Spicheren
+location	Sarreguemines
+location	Soultzeren
+location	Murbach
+location	Guebwiller
+location	Soultz Haut Rhin
+location	Liepvre
+location	Ingersheim
+location	Ensisheim
+location	Reguisheim
+location	Biesheim
 location	Strasbourg
 
 # Provence-Alpes-Côte d'Azur
@@ -1661,6 +1699,10 @@ location	Rabnita
 # Leningrad Region
 location	Kipen
 
+# Sverdlovsk Region
+location	Ekaterinburg
+location	Verkhnyaya Pyshma
+
 # Buryat Republic
 location	Ulan-Ude
 
@@ -2201,6 +2243,7 @@ location	Val Verde County
 location	Ochiltree County
 location	Webb County
 location	Llano County
+location	Comanche County
 location	Bexar County
 location	Comal County
 location	Hidalgo County
@@ -2221,6 +2264,7 @@ location	Burleson County
 location	Limestone County
 location	Washington County TX
 location	Kaufman County
+location	Wharton County
 location	Waller County
 location	Grimes County
 location	Lamar County
@@ -2369,6 +2413,9 @@ location	Montgomery County PA
 
 # Washington DC
 location	District of Columbia County
+
+# Delaware
+location	New Castle
 
 # New Jersey
 location	Camden County
@@ -2791,6 +2838,9 @@ division	Gauteng
 division	Limpopo
 division	Mpumalanga
 division	KwaZulu-Natal
+
+### Botswana
+division	Gaborone
 
 ### Madagascar
 division	Analamanga
@@ -3652,6 +3702,7 @@ division	Virginia
 division	Pennsylvania
 division	Washington DC
 division	Maryland
+division	Delaware
 division	New Jersey
 division	New York
 division	Connecticut
@@ -3725,6 +3776,7 @@ country	Guam
 
 # Africa
 country	South Africa
+country	Botswana
 country	Madagascar
 country	Zambia
 country	Democratic Republic of the Congo
