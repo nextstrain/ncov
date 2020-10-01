@@ -435,7 +435,7 @@ def check_similar(ordering, name, type):
                 diff_max = diff
                 name_max = name0
 
-    if diff_max > 0.7:
+    if diff_max > 0.6:
         return name_max
     return ""
 
@@ -1204,7 +1204,9 @@ for line in additions_to_annotation:
     if "=" not in line:
         annot_lines_to_write.append(line)
     if len(line.split("\t")) == 4:
-        if line.split("\t")[1] in annotations:
+        number_of_occurences = annotations.count(line.split("\t")[1])
+        irrelevant_occurences = sum([(line.split("\t")[1] + "\t" + s) in annotations for s in ["title", "authors", "paper_url"]])
+        if number_of_occurences > irrelevant_occurences:
             print("Warning: " + line.split("\t")[1] + " already exists in annotations!")
 
 with open(path_to_script_files+"new_annotations.tsv", 'w') as out:
