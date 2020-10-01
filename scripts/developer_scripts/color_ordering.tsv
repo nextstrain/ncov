@@ -530,7 +530,7 @@ location	Penacova
 
 ### Spain
 # Canary Islands
-location	Las Palmas
+location	Las Palmas de Gran Canaria
 location	Lanzarote
 
 # Galicia
@@ -995,8 +995,8 @@ location	Chateau-Thierry
 location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
-location	Lille
 location	Santes
+location	Lille
 
 # Bretagne
 location	Ploudalmezeau
@@ -1031,12 +1031,12 @@ location	Saint-Priest
 location	Decines
 location	Bourg-en-Bresse
 location	Bourgoin-Jallieu
+location	Montagnieu
 location	Oyonnax
 location	Chambery
 location	Contamine-sur-Arve
 location	Contamines
 location	Vienne
-location	Montagnieu
 
 # Bourgogne-France-Comté
 location	Chalon sur Saone
@@ -1699,11 +1699,11 @@ location	Rabnita
 # Leningrad Region
 location	Kipen
 
-# Sverdlovsk Region
+# Sverdlovsk
 location	Ekaterinburg
 location	Verkhnyaya Pyshma
 
-# Buryat Republic
+# Buryatia
 location	Ulan-Ude
 
 ################
@@ -2415,6 +2415,8 @@ location	Montgomery County PA
 location	District of Columbia County
 
 # Delaware
+location	Sussex
+location	Kent
 location	New Castle
 
 # New Jersey
@@ -3418,35 +3420,34 @@ division	Agri
 division	Kars Province
 
 ### Russia
-division	Pskov Region
+division	Pskov
 division	Saint-Petersburg
 division	Leningrad Region
-division	Bryansk Oblast
-division	Tver Region
+division	Bryansk
+division	Tver
 division	Moscow
 division	Moscow Region
-division	Yaroslavl Oblast
-division	Lipetsk Region
-division	Krasnodar Region
-division	Republic of Kabardino-Balkaria
-division	Chechen Republic
-division	Samara Region
+division	Yaroslavl
+division	Lipetsk
+division	Krasnodar
+division	Kabardino-Balkaria
+division	Chechen
+division	Samara
 division	Tatarstan
-division	Orenburg Region
-division	Republic of Bashkortostan
-division	Perm Region
-division	Chelyabinsk Region
-division	Sverdlovsk Region
-division	Omsk Region
-division	Yamalo-Nenets Autonomous Okrug
-division	Novosibirsk Oblast
-division	Krasnoyarsk Region
-division	Buryat Republic
-division	Republic of Buryatia
+division	Orenburg
+division	Perm
+division	Bashkortostan
+division	Chelyabinsk
+division	Sverdlovsk
+division	Omsk
+division	Yamalo-Nenets
+division	Novosibirsk
+division	Krasnoyarsk
+division	Buryatia
 division	Republic of Sakha
-division	Khabarovsk Region
-division	Primorskiy Region
-division	Sakhalin Region
+division	Khabarovsk
+division	Primorsky
+division	Sakhalin
 
 ################
 

@@ -256,3 +256,8 @@ location	Wharton	Wharton County	(North America, USA, Texas)
 division	Vilnius R.	Vilnius	(Europe, Lithuania)
 region	North-America	North America
 location	Lanilis	Lannilis	(Europe, France, Bretagne)
+location	Las Palmas	Las Palmas de Gran Canaria	(Europe, Spain, Canary Islands)
+division	Sverdlovsk Region	Sverdlovsk	(Europe, Russia)
+division	Krasnodar Region	Krasnodar	(Europe, Russia)
+division	Lipetsk Region	Lipetsk	(Europe, Russia)
+division	Novosibirsk Oblast	Novosibirsk	(Europe, Russia)

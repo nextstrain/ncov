@@ -861,6 +861,7 @@ location	Kaufman County	32.581020800000005	-96.29927072197667
 location	Kaulille	51.186846	5.525937
 location	Kelmis	50.714674	6.023042
 location	Kematen in Tirol	47.253643	11.273540
+location	Kent	39.1156908	-75.4841394
 location	Keqiao	30.0819	120.4951
 location	Kermt	50.946857	5.247189
 location	Kern County	35.3145701	-118.7538222
@@ -941,7 +942,7 @@ location	Laredo	43.41063	-3.4173
 location	Las Cumbres	9.047266	-79.660616
 location	Las Gabias	37.13257725	-3.694362820083108
 location	Las Mañanitas	9.107966	-79.406759
-location	Las Palmas	28.1009	-15.4654
+location	Las Palmas de Gran Canaria	28.1009	-15.4654
 location	Lasne	50.679575	4.463992
 location	Lavaca County	29.3703333	-96.9334531
 location	Laxmipur Sadar	22.9428644	90.9181638
@@ -1629,6 +1630,7 @@ location	Sunshine Coast	-26.6500	153.0667
 location	Surabaya	-7.2459717	112.7378266
 location	Surat	21.166995	72.824307
 location	Suryapet	17.08001385	79.7925329742427
+location	Sussex	38.6908097	-75.3691421
 location	Sutter County	38.9509675	-121.697088
 location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
@@ -1979,6 +1981,7 @@ division	Barcelona	41.394769	2.173828
 division	Barishal	22.7562851	90.41098391553726
 division	Basel-Land	47.493316	7.714938
 division	Basel-Stadt	47.557238	7.595666
+division	Bashkortostan	54.8573563	57.1439682
 division	Basilicata	40.447062	16.081705
 division	Basque Country	42.9896	-2.
 division	Bat Yam	32.0132	34.7480
@@ -2024,7 +2027,7 @@ division	British Columbia	54.010982	-124.745183
 division	Brugge	51.205987	3.226255
 division	Brunei	4.5353	114.7277
 division	Brussels	50.8503	4.3517
-division	Bryansk Oblast	52.8873315	33.415853
+division	Bryansk	52.8873315	33.415853
 division	Bucharest	44.4268	26.1025
 division	Budapest	47.482728	19.084269
 division	Buenos Aires	-34.6037	-58.3816
@@ -2032,7 +2035,7 @@ division	Buraimi	24.268575	55.826808
 division	Burgenland	47.517438	16.468160
 division	Burkina Faso	12.789980	-1.683734
 division	Bursa	40.1827657	29.0677305
-division	Buryat Republic	52.311711	108.916732
+division	Buryatia	52.311711	108.916732
 division	Buzau	45.143297	26.816251
 division	Bács-Kiskun County	46.551745	19.374218
 division	Békés County	46.741797	21.031653
@@ -2075,8 +2078,8 @@ division	Cesar	9.654915	-73.528255
 division	Ceuta	35.888361	-5.304138
 division	Charleroi	50.418039	4.440646
 division	Chattogram	22.3569	91.7832
-division	Chechen Republic	43.4023	45.7187
-division	Chelyabinsk Region	54.4319	60.8789
+division	Chechen	43.4023	45.7187
+division	Chelyabinsk	54.4319	60.8789
 division	Chiapas	16.520858	-92.643133
 division	Chiba	35.463961	140.223882
 division	Chihuahua	28.633	-106.0691
@@ -2317,6 +2320,7 @@ division	Jordan	31.1667049	36.941628
 division	Junin	-11.5	-75.0
 division	Jura	47.368929	7.163449
 division	Jász-Nagykun-Szolnok County	47.2556	20.5232
+division	Kabardino-Balkaria	43.4428286	43.4204809
 division	Kaggevinne	50.9794	5.0190
 division	Kakanj	44.1280	18.1178
 division	Kalmar	56.6634	16.3568
@@ -2344,7 +2348,7 @@ division	Kerala	10.359825	76.39955
 division	Kerry	52.14533445	-9.517401092833236
 division	Kfar Habad	31.9901	34.8491
 division	Kfar Saba	32.180607	34.912861
-division	Khabarovsk Region	50.5888	135
+division	Khabarovsk	50.5888	135
 division	Khulna	22.815139549999998	89.44492672055918
 division	Khyber Pakhtunkhwa	33.696621	72.636031
 division	Kildare	53.15436455	-6.8184175660976445
@@ -2366,8 +2370,8 @@ division	Kosovo	42.6026	20.9030
 division	Kosovska Mitrovica	42.8790424	20.8657862
 division	Kostoliste	48.4467	16.9868
 division	Kraljevo	43.7238	20.6873
-division	Krasnodar Region	45.6415	39.7056
-division	Krasnoyarsk Region	64.248	95.1104
+division	Krasnodar	45.6415	39.7056
+division	Krasnoyarsk	64.248	95.1104
 division	Kuala Lumpur	3.139	101.6869
 division	Kuwait	29.452987	47.447194
 division	KwaZulu-Natal	-28.704798	30.693005
@@ -2404,7 +2408,7 @@ division	Limerick	52.662235	-8.627565
 division	Limon	10.3787478	-83.5848401
 division	Limpopo	-23.4013	29.4179
 division	Linter	50.802855	5.056890
-division	Lipetsk Region	52.5265	39.2032
+division	Lipetsk	52.5265	39.2032
 division	Lisbon	38.7223	-9.1393
 division	Lithuania	55.41667	24
 division	Litomerice-Brnay	50.534253	14.131013
@@ -2549,7 +2553,7 @@ division	Nova Scotia	44.879119	-64.020314
 division	Novi Pazar	43.1407	20.5214
 division	Novi Sad	45.269432	19.830203
 division	Novi Travnik	44.1748	17.6634
-division	Novosibirsk Oblast	54.9720169	79.4813924
+division	Novosibirsk	54.9720169	79.4813924
 division	Nur-Sultan	51.147862	71.433377
 division	Obwalden	46.8779	8.2512
 division	Occitanie	43.8927	3.2828
@@ -2560,7 +2564,7 @@ division	Ogun State	7.006146	3.401761
 division	Ohio	40.199215	-82.825637
 division	Oklahoma	35.370608	-97.186200
 division	Olomouc Region	49.859105799999995	16.956126746749305
-division	Omsk Region	55.0555	73.3167
+division	Omsk	55.0555	73.3167
 division	Ondo State	6.970395	5.101463
 division	Ontario	44.429	-79.377
 division	Oost-Vlaanderen	51.0375423	3.8117830113324556
@@ -2570,7 +2574,7 @@ division	Orebro	59.2753	15.2134
 division	Orebro Lan	59.378174	14.948348
 division	Oregon	43.8041	-120.5542
 division	Orellana	-0.78618	-76.4803184
-division	Orenburg Region	51.7634	54.6188
+division	Orenburg	51.7634	54.6188
 division	Oroshaza	46.5684	20.6545
 division	Osaka	34.64872	135.525013
 division	Osijek	45.552719	18.693245
@@ -2602,7 +2606,7 @@ division	Pays de la Loire	47.640237	-0.647258
 division	Pazardzhik	42.1928	24.3336
 division	Pelagonia	41.230157000000005	21.457169901765802
 division	Pennsylvania	41.2033	-77.1945
-division	Perm Region	58.017794	56.311058
+division	Perm	58.017794	56.311058
 division	Pernambuco	-8.8137	-36.9541
 division	Peru	-10	-75.25
 division	Pest County	47.3715943	19.3452624
@@ -2620,10 +2624,10 @@ division	Polleur	50.580257	5.866744
 division	Pomorskie	54.2944	18.1531
 division	Portugal	39.54046	-8.174701
 division	Prague	50.0755	14.4378
-division	Primorskiy Region	45.0526	135
+division	Primorsky	45.0526	135
 division	Prince Edward Island	46.344935	-63.405688
 division	Provence-Alpes-Côte d'Azur	44.0580563	6.0638506
-division	Pskov Region	56.7709	29.094
+division	Pskov	56.7709	29.094
 division	Puebla	19.0414	-98.2063
 division	Puerto Montt	-41.4689	-72.9411
 division	Puerto Natales	-51.7309	-72.4977
@@ -2650,10 +2654,7 @@ division	Rancagua	-34.1701	-70.7406
 division	Rangpur	25.748894	89.260669
 division	Rawalpindi	33.583175	73.049347
 division	Red River Delta	21.010949	105.786621
-division	Republic of Bashkortostan	54.4747553	55.9784582
-division	Republic of Buryatia	54.8331	112.4061
 division	Republic of Crymea	45.3453	34.4997
-division	Republic of Kabardino-Balkaria	43.3932	43.5628
 division	Republic of Sakha	66.7613	124.1238
 division	Republic of Tatarstan	55.1802	50.7264
 division	Reunion	-21.1309332	55.5265771
@@ -2678,9 +2679,9 @@ division	Saint-Petersburg	59.88208	30.3308
 division	Saint-Saulve	50.374816	3.569855
 division	Saitama	35.909903	139.659758
 division	Sakarya	40.753425	30.384694
-division	Sakhalin Region	50.691	142.9506
+division	Sakhalin	50.691	142.9506
 division	Salzburg	47.356774	13.227550
-division	Samara Region	53.4184	50.4726
+division	Samara	53.4184	50.4726
 division	Samut Prakarn	13.581663	100.721344
 division	Samut Songkhram	13.410190	99.949071
 division	San Jose	9.9281	-84.0907
@@ -2760,7 +2761,7 @@ division	Styria	47.3593	14.4700
 division	Suceava	47.667761	26.266066
 division	Sud Kivu	-3.223156	28.386665
 division	Suriname	4.1413025	-56.0771187
-division	Sverdlovsk Region	59.0077	61.9316
+division	Sverdlovsk	59.0077	61.9316
 division	Sweden	59.6749712	14.5208584
 division	Switzerland	46.8182	8.2275
 division	Sylhet	24.8949	91.8687
@@ -2824,7 +2825,7 @@ division	Turkey	39	35
 division	Turnhout	51.321956	4.940098
 division	Tuscany	43.4586541	11.1389204
 division	Tuzla	44.537787	18.680139
-division	Tver Region	57.0022	33.9853
+division	Tver	57.0022	33.9853
 division	Tveria	32.7959	35.5310
 division	Tyrol	47.220292	11.277287
 division	UK	54.234125	-2.078794
@@ -2904,10 +2905,10 @@ division	Wicklow	52.9808	-6.0446
 division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762
 division	Wyoming	43.076	-107.2903
-division	Yamalo-Nenets Autonomous Okrug	67.1471631	74.3415488
+division	Yamalo-Nenets	67.1471631	74.3415488
 division	Yangon	16.7967129	96.1609916
 division	Yaounde	3.8689867	11.5213344
-division	Yaroslavl Oblast	57.7781976	39.0021095
+division	Yaroslavl	57.7781976	39.0021095
 division	Yavne	31.8780	34.7394
 division	Yehud	32.0340	34.8859
 division	Yeumbeul	14.771188	-17.358556
