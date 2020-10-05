@@ -362,15 +362,19 @@ location	Tangerang
 location	Bandung
 
 # East Java
-location	Pasuruan
+location	Purwokerto
 location	Sidoarjo
 location	Surabaya
+location	Pasuruan
 
 # East Kalimantan
 location	Samarinda
 
 # North Sulawesi
 location	Manado
+
+# Papua
+location	Timika
 
 ### Taiwan
 # Taiwan
@@ -394,6 +398,7 @@ location	Seoul
 location	Kyoto
 
 # Aichi
+location	Nagoya
 location	Aichi
 
 # Tokyo
@@ -1524,7 +1529,11 @@ location	Münster
 location	Rostock
 
 ### Italy
+# Piedmont
+location	Turin
+
 # Lombardy
+location	Pavia
 location	Milan
 
 # Tuscany
@@ -1703,6 +1712,21 @@ location	Kipen
 location	Ekaterinburg
 location	Verkhnyaya Pyshma
 
+# Omsk
+location	Ust-Ishim
+location	Moskalenki
+location	Maryanovka
+location	Lyubinsky
+location	Azovo
+location	Omsk
+location	Russkaya Polyana
+location	Kalachinsk
+location	Novovarshavka
+location	Cherlak
+location	Nizhnyaya Omka
+location	Muromtsevo
+location	Sedelnikovo
+
 # Buryatia
 location	Ulan-Ude
 
@@ -1849,6 +1873,9 @@ location	Callao
 location	Cañete
 location	Lima
 location	Huarochiri
+
+# Junin
+location	Huancayo
 
 # Ancash
 location	Santa
@@ -2863,6 +2890,10 @@ division	Nord Kivu
 division	Libreville
 
 ### Kenya
+division	Kwale
+division	Mombasa
+division	Taita Taveta
+division	Kilifi
 division	Kenya
 
 ### Uganda

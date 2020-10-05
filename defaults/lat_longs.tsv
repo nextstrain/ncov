@@ -127,6 +127,7 @@ location	Avelgem	50.781406	3.450563
 location	Awa Reserve	0.450000	-77.450000
 location	Ayna	40.4637	-3.7492
 location	Azamgarh	26.02269675	83.02887343114848
+location	Azovo	54.70385	73.026871
 location	Babahoyo	-1.802318	-79.524709
 location	Bad Gastein	47.109942	13.127594
 location	Badalona	41.4493539	2.248254
@@ -363,6 +364,7 @@ location	Chengdu	30.640989	104.067518
 location	Chennai	13.0801721	80.2838331
 location	Chepo	9.1741164	-79.0900045
 location	Chercq	50.588930	3.422219
+location	Cherlak	54.154067	74.7974987
 location	Cheshire	41.5084	-72.9106
 location	Chia	4.8704614500000005	-74.03632158198437
 location	Chicago	41.858966	-87.637242
@@ -746,6 +748,7 @@ location	Howard County	43.3353641	-92.3230007
 location	Howrah	22.554019	88.182766
 location	Huaian	33.574586	119.132155
 location	Huaihua	27.554599	109.9641566
+location	Huancayo	-12.0761679	-75.2063189
 location	Huaraz	-9.5298511	-77.5289981
 location	Huarmey	-10.0643674	-77.9718798
 location	Huarochiri	-11.916667	-76.416667
@@ -838,6 +841,7 @@ location	Kabirhat	22.8220772	91.1170328
 location	Kadi	23.294922	72.333046
 location	Kaggevinne	50.980233	5.021191
 location	Kain	50.637121	3.379162
+location	Kalachinsk	55.049091	74.582428
 location	Kalia	23.037114	89.641357
 location	Kalisz	51.743335	18.073619
 location	Kalken	51.037676	3.917157
@@ -1006,6 +1010,7 @@ location	Lummen	50.995516	5.181081
 location	Luttre	50.509069	4.391808
 location	Luxembourg	49.607806	6.130375
 location	Lyon	45.757870	4.841293
+location	Lyubinsky	55.156715	72.699005
 location	Lídice	8.7487532	-79.9087931
 location	Macara	-4.3490568	-79.91614162495434
 location	Maceio	-9.586654	-35.721537
@@ -1059,6 +1064,7 @@ location	Marquette County	43.8122244	-89.3926785
 location	Marratxí	39.6272	2.7572
 location	Marseille	43.2961743	5.3699525
 location	Marshall	43.167355	-89.066568
+location	Maryanovka	54.960659	72.637947
 location	Mason County	47.4251	-123.1951
 location	Massalaves	39.1437319	-0.523232
 location	Massama	38.75563785	-9.28189049097309
@@ -1138,6 +1144,7 @@ location	Morlaix	48.5824932	-3.8331972
 location	Morlanwelz	50.450138	4.246584
 location	Morningside	-29.8183613	31.0180771
 location	Morris County	40.8679538	-74.5601181
+location	Moskalenki	54.939468	71.92588
 location	Motilleja	39.1804849	-1.7907731
 location	Moulvibazar	24.4843	91.7685
 location	Mount Horeb	43.008707	-89.730497
@@ -1152,6 +1159,7 @@ location	Murbach	47.9233168	7.1571622
 location	Murcia	37.9922	-1.1307
 location	Muriedas	43.4314171	-3.8584093
 location	Muro	39.734505	3.055198
+location	Muromtsevo	56.369392	75.237198
 location	Muros	42.8074	-9.0461
 location	Muscoda	43.189115	-90.439704
 location	Museros	39.5738	-0.3607
@@ -1165,6 +1173,7 @@ location	Naast	50.553695	4.099133
 location	Nadia	23.48454125	88.55676307470536
 location	Nadiad	22.6916	72.8634
 location	Nagarkurnool	16.415762649999998	78.68304333132829
+location	Nagoya	35.1851045	136.8998438
 location	Najera	42.416745	-2.7336874
 location	Nakhal	23.395468	57.8289398
 location	Nalda	42.3351254	-2.4882778
@@ -1203,6 +1212,7 @@ location	Nilphamari	25.9339275	88.8534588
 location	Nirmal	19.091520950000003	78.39660898429065
 location	Niteroi	-22.912156	-43.060953
 location	Nizamabad	18.75	78.25
+location	Nizhnyaya Omka	55.43359	74.938004
 location	Nizwa	22.9323884	57.5311
 location	Noain	42.758167	-1.632185
 location	Noakhali	22.5313205	91.1775744276286
@@ -1223,6 +1233,7 @@ location	Nossa Senhora do Socorro	-10.8553115	-37.1264863
 location	Nossegem	50.877645	4.507645
 location	Nottinghamshire	53.139677	-1.027527
 location	Nova Iguacu	-22.7561	-43.4607
+location	Novovarshavka	54.170616	74.696037
 location	Nueces County	27.7153774	-97.6199942
 location	Oak Creek	42.878698	-87.901041
 location	Ochiltree County	36.2559217	-100.8138152
@@ -1238,6 +1249,7 @@ location	Olleria	38.9146	-0.5506
 location	Olpad	21.3401	72.7554
 location	Olsztyn	53.774711	20.481482
 location	Omar Torrijos	9.062602649999999	-79.51952295729717
+location	Omsk	54.991375	73.371529
 location	Onondaga County	43.0268	-76.1784
 location	Oostmalle	51.300438	4.734269
 location	Oostrozebeke	50.931551	3.338685
@@ -1296,6 +1308,7 @@ location	Pasuruan	-7.6419894	112.906694
 location	Patan	23.77405735	71.68373465668734
 location	Paulista	-7.9340069	-34.868407
 location	Pauri Garhwal	29.84591115	78.70766746320547
+location	Pavia	45.036854649999995	9.137825082826026
 location	Peddapally	16.3760198	78.4053687
 location	Pedregal	9.1302704	-79.4594271
 location	Peer	51.128120	5.458372
@@ -1365,6 +1378,7 @@ location	Puerto Santa Maria	36.526984	-6.288553
 location	Puerto del Son	42.726023	-9.0049123
 location	Pulianas	37.2225	-3.6075
 location	Pune	18.6452489	73.92318563785392
+location	Purwokerto	-7.31924965	112.17989315068222
 location	Putnam County	41.424102	-73.753622
 location	Puzol	39.6153	0.3043
 location	Péruwelz	50.535464	3.566154
@@ -1448,6 +1462,7 @@ location	Rovaniemi	66.501553	25.728919
 location	Rudraprayag	30.3009965	79.06287964782695
 location	Rufina Alfaro	9.068903	-79.456339
 location	Rupnagar	31.09168085	76.5272673916138
+location	Russkaya Polyana	53.780357	73.882103
 location	Río Abajo	9.0631987	-79.5444326
 location	Sabadell	41.5421013	2.1138977
 location	Sabaneta	6.151838	-75.616992
@@ -1539,6 +1554,7 @@ location	Scherpenheuvel-Zichem	50.997795	4.967443
 location	Schiphol	52.3080392	4.7621975
 location	Schoten	51.2498	4.4977
 location	Seattle	47.748301	-121.850150
+location	Sedelnikovo	56.945618	75.306061
 location	Sedlec	50.132828	14.393011
 location	Seefeld in Tirol	47.329203	11.188798
 location	Segorbe	39.8492	-0.4904
@@ -1681,6 +1697,7 @@ location	Tienen	50.80466	4.937784
 location	Tierralta	8.171825	-76.060340
 location	Tijuana	32.5010188	-116.9646629
 location	Tilburg	51.571419	5.052759
+location	Timika	-4.5481052	136.889884
 location	Titus County	33.2040399	-94.9651725
 location	Tobarra	38.5910	-1.6931
 location	Tocumen	9.0894831	-79.3833857
@@ -1717,6 +1734,7 @@ location	Tumaco	1.792753	-78.793766
 location	Tumakuru	13.3400771	77.1006208
 location	Tunja	5.5323632	-73.361362
 location	Tuolumne County	38.056944	-119.9919351
+location	Turin	45.0677551	7.6824892
 location	Tweed Heads	-28.201312	153.543425
 location	Ubeda	38.0114	-3.3712
 location	Uccle	50.793431	4.355608
@@ -1730,6 +1748,7 @@ location	Umatilla County	45.648981	-118.720688
 location	Umbilo	-29.8905556	30.9777778
 location	Una	31.4685	76.2708
 location	Urcuqui	0.4172921	-78.1941499
+location	Ust-Ishim	57.693462	71.169968
 location	Utrecht	52.0907	5.1214
 location	Uttara	23.8759	90.3795
 location	Uttarkashi	30.9654214	78.63368731187963
@@ -2352,6 +2371,7 @@ division	Khabarovsk	50.5888	135
 division	Khulna	22.815139549999998	89.44492672055918
 division	Khyber Pakhtunkhwa	33.696621	72.636031
 division	Kildare	53.15436455	-6.8184175660976445
+division	Kilifi	-3.15073925	39.67507159193717
 division	Kilkenny	52.6510216	-7.2484948
 division	Kinshasa	-4.2978	15.2962
 division	Kiryat Gat	31.6111	34.7685
@@ -2375,6 +2395,7 @@ division	Krasnoyarsk	64.248	95.1104
 division	Kuala Lumpur	3.139	101.6869
 division	Kuwait	29.452987	47.447194
 division	KwaZulu-Natal	-28.704798	30.693005
+division	Kwale	-4.1836067	39.10509552821773
 division	Kwara State	9.172913	4.409729
 division	Kyoto	35.007542	135.768455
 division	Kyrgyzstan	41.927675	75.142149
@@ -2473,6 +2494,7 @@ division	Mississippi	32.9715645	-89.7348497
 division	Missouri	37.9643	-91.8318
 division	Molenbeek-Saint-Jean	50.849476	4.329267
 division	Molise	41.686461	14.608668
+division	Mombasa	-4.05052	39.667169
 division	Monaghan	54.161066399999996	-6.946364847585796
 division	Mongolia	47.504782	102.997672
 division	Mons	50.445439	3.962794
@@ -2770,6 +2792,7 @@ division	Szeged	46.2530	20.1414
 division	São Paulo	-23.59806	-46.660537
 division	Tabasco	17.95078635	-92.48312213241397
 division	Tainan	22.9912348	120.184982
+division	Taita Taveta	-3.4178355	38.36706756969934
 division	Taiwan	23.8169	121.031365
 division	Talca	-35.462909	-71.37096
 division	Tamaulipas	23.9891553	-98.7026825
