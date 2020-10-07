@@ -4,18 +4,18 @@
         "time" : "00:29:00",
         "qos": "30min",
         "n" : 1,
-        "mem": "8G"
+        "mem": "16G"
     },
     "ancestral":
     {
-        "mem": "16G"
+        "mem": "32G"
     },
     "refine" :
     {
         "time" : "05:59:00",
         "qos": "6hours",
         "n" : 1,
-        "mem": "16G"
+        "mem": "32G"
     },
     "tree" : {
         "n": 16,
@@ -24,7 +24,7 @@
     },
     "align": {
         "n" : 2,
-        "mem": "16G"
+        "mem": "32G"
     },
     "proximity_score":{
 	"mem": "32G"
