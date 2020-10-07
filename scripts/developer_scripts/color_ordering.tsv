@@ -1790,6 +1790,7 @@ location	Araçatuba
 location	Assis
 location	Birigui
 location	Americana
+location	Sumare
 location	Hortolandia
 location	Itariri
 location	Campinas
@@ -1850,10 +1851,26 @@ location	Riachuelo
 location	Nossa Senhora Da Gloria
 
 # Pernambuco
+location	Tabira
 location	Caruaru
+location	Jaqueira
+location	Camocim de Sao Felix
+location	Catende
+location	Palmares
+location	Passira
+location	Cha Grande
+location	Gameleira
+location	Primavera
+location	Lagoa do Carro
+location	Vitoria de Santo Antao
+location	Carpina
 location	Alianca
+location	Tamandaré
+location	Condado
 location	Ipojuca
 location	Sao Lourenco Da Mata
+location	Cabo de Santo Agostinho
+location	Goiana
 location	Camaragibe
 location	Jaboatao Dos Guararapes
 location	Recife
@@ -2267,8 +2284,10 @@ location	El Paso County
 location	Brewster County
 location	Deaf Smith County
 location	Ector County
+location	Crosby
 location	Val Verde County
 location	Ochiltree County
+location	Taylor
 location	Webb County
 location	Llano County
 location	Comanche County
@@ -2303,6 +2322,7 @@ location	Red River County
 location	Galveston County
 location	Titus County
 location	Panola County
+location	Jefferson County TX
 
 # Minnesota
 location	Fillmore County
@@ -2326,13 +2346,19 @@ location	Jackson County IA
 location	Caddo Parish
 location	DeSoto Parish
 location	Bossier Parish
+location	Sabine Parish
 location	Webster Parish
+location	Red River Parish
 location	Bienville Parish
+location	Claiborne Parish
+location	Lincoln Parish
 location	Grant Parish
 location	Rapides Parish
 location	Morehouse Parish
 location	Iberville Parish
 location	Tensas Parish
+location	East Carroll Parish
+location	Madison Parish
 location	East Baton Rouge Parish
 location	Assumption Parish
 location	East Feliciana Parish
@@ -2430,6 +2456,7 @@ location	Fairfield County SC
 location	Columbia SC
 location	Richland County SC
 location	Berkeley County
+location	Williamsburg
 location	Georgetown
 location	Horry
 

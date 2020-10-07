@@ -298,6 +298,7 @@ location	Bury	50.541909	3.593710
 location	Buzet	50.419853	4.773861
 location	Büllingen	50.395004	6.308021
 location	Cabezon de la Sal	43.3080667	-4.2358532
+location	Cabo de Santo Agostinho	-8.2838945	-35.0320984
 location	Cacem	38.7704429	-9.30908972918529
 location	Caceres	39.4745175	-6.3716761
 location	Caddo Parish	32.618244	-93.832261
@@ -317,6 +318,7 @@ location	Camaragibe	-8.0213832	-34.9810768
 location	Cambrils	41.0679423	1.0657579
 location	Camden County	39.814507	-74.986182
 location	Cameron County	26.1291189	-97.4134281
+location	Camocim de Sao Felix	-8.3616757	-35.7638903
 location	Campbellsport	43.596732	-88.280763
 location	Campinas	-22.90556	-47.06083
 location	Campo Real	40.3390	-3.3833
@@ -329,6 +331,7 @@ location	Carcaixent	39.1218973	-0.4467128
 location	Cardiff	51.476291	-3.178964
 location	Carentan	49.302133	-1.250938
 location	Carlet	39.2251696	-0.5202051
+location	Carpina	-7.8459151	-35.2538861
 location	Cartagena	10.400866	-75.503036
 location	Cartago CO	4.7465494	-75.9121234
 location	Caruaru	-8.2829702	-35.9722852
@@ -344,12 +347,14 @@ location	Castrillo de San Pelayo	42.4279844	-5.8689705
 location	Castro Urdiales	43.3843347	-3.2162576
 location	Castro de Cepeda	42.6567254	-6.0281647
 location	Catamayo	-3.9911481	-79.40388215708711
+location	Catende	-8.6900588	-35.748470825
 location	Cayambe	-0.0038813	-78.04818008344479
 location	Cayenne	48.4250604	-2.1951293
 location	Cayuga County	42.900990	-76.575649
 location	Cañete	-12.8209798	-76.3594255
 location	Cergy	49.0356	2.0603
 location	Cesky Tesin	49.734614	18.585272
+location	Cha Grande	-8.238271	-35.457148
 location	Chaineux	50.6317	5.8344
 location	Chalon sur Saone	46.7808	4.8539
 location	Chambery	45.5662672	5.9203636
@@ -394,6 +399,7 @@ location	Cintruenigo	42.078227	-1.805927
 location	Ciruena	42.4117511	-2.8955322
 location	Cizur Menor	42.786144	-1.677269
 location	Clackamas County	45.1608821	-122.2305038
+location	Claiborne Parish	32.8218607	-93.0097229
 location	Clark County	45.778260	-122.491540
 location	Clark County NV	36.3467726	-115.0907378
 location	Clark County WA	45.7669047	-122.4940866
@@ -419,6 +425,7 @@ location	Comanche County	31.9130171	-98.527388
 location	Comines	50.749249	3.221643
 location	Companigonj	22.87168325	91.27743143154504
 location	Compiègne	49.408175	2.842839
+location	Condado	-7.587868	-35.09994
 location	Conil de la Frontera	36.277924	-6.088770
 location	Contamine-sur-Arve	46.1274947	6.3395716
 location	Contamines	45.820585	6.727730
@@ -443,6 +450,7 @@ location	Cova da Moura	38.9114419	-9.428262
 location	Cowlitz County	46.186419	-122.679487
 location	Craponne	45.743476	4.7231057
 location	Crawford County	42.0347	-95.3103
+location	Crosby	33.5778818	-101.2855737
 location	Cross Plains	43.115305	-89.646827
 location	Crouy en Thelle	49.213817	2.320688
 location	Crusnes	49.4344038	5.9154872
@@ -513,6 +521,7 @@ location	Duque de Caxias	-22.7863	-43.3053
 location	Durcal	36.9879333	-3.5663828
 location	Dutchess County	41.762637	-73.721778
 location	East Baton Rouge Parish	30.469664	-91.097549
+location	East Carroll Parish	32.6949938	-91.2605142
 location	East Feliciana Parish	30.850463	-91.036298
 location	East Haven	41.298543	-72.862538
 location	East Medinipur	22.037985	87.811563
@@ -605,6 +614,7 @@ location	Fuyang	32.904205	115.812367
 location	Fuzhou	27.965633	116.359573
 location	Gadwal	16.2347032	77.7946371
 location	Galveston County	29.3872254	-94.992736
+location	Gameleira	-8.579803	-35.384573
 location	Gandhinagar	23.227004	72.643142
 location	Gandia	38.9680	-0.1845
 location	Ganjam	19.5	84.5
@@ -637,6 +647,7 @@ location	Givry	50.380304	4.037642
 location	Glastonbury	41.6862	-72.5451
 location	Glendale	43.129400	-87.930209
 location	Godella	39.5184276	-0.4103168
+location	Goiana	-7.560603	-34.99591
 location	Goicoechea	9.9670623	-83.9818366
 location	Gold Coast	-28.019726	153.398160
 location	Gomez Palacios	25.5732473	-103.494779
@@ -802,11 +813,13 @@ location	Jamnagar	22.471143	70.051543
 location	Jamundi	3.260158	-76.539750
 location	Jandira	-23.5282044	-46.9019554
 location	Janesville	42.691211	-89.014160
+location	Jaqueira	-8.7276422	-35.7948925
 location	Jaraicejo	39.6669756	-5.8135394
 location	Jaru	-10.431826	-62.478769
 location	Jashore	23.1665971	89.2095143
 location	Jatrabari	23.711397	90.435403
 location	Jefferson County NY	44.095507	-75.890072
+location	Jefferson County TX	29.834772	-94.1704496
 location	Jefferson County WA	47.728342	-123.606395
 location	Jefferson County WI	43.025978	-88.773336
 location	Jefferson Parish	29.777633	-90.114916
@@ -926,6 +939,7 @@ location	Laakdal	51.081957	4.997449
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
 location	Lafayette County	42.662913	-90.134986
+location	Lagoa do Carro	-7.843834	-35.310783
 location	Lake County CA	39.071954	-122.739331
 location	Lake County IL	42.3327033	-87.9939552
 location	Laken	50.887688	4.353935
@@ -973,6 +987,7 @@ location	Limbourg BE	50.613635	5.935911
 location	Limestone County	31.5261854	-96.580617
 location	Limoges	45.8354243	1.2644847
 location	Lincoln County	45.3265631	-89.7326216
+location	Lincoln Parish	32.598162	-92.6792848
 location	Linter	50.818098	5.042221
 location	Lippelo	51.041285	4.258686
 location	Lishui	28.460681	119.919147
@@ -1021,6 +1036,7 @@ location	Madera County	37.1716264	-119.7737991
 location	Madison	43.062839	-89.448317
 location	Madison CT	41.356100	-72.642246
 location	Madison County	43.7740801	-111.6304151
+location	Madison Parish	32.3614697	-91.255051
 location	Madrid	40.444140	-3.680235
 location	Madrid CO	4.734291	-74.262272
 location	Madrigueras	39.2367	-1.8001
@@ -1291,6 +1307,7 @@ location	Palm Beach County	26.6279798	-80.4494174
 location	Palma	39.5696	2.6502
 location	Palma de Gandia	38.9251	-0.2215
 location	Palma de Mallorca	39.577847	2.650605
+location	Palmares	-8.684226	-35.589032
 location	Palmira	3.534069	-76.297658
 location	Palwal	28.12502575	77.35831300773046
 location	Pamplona	42.808441	-1.648651
@@ -1304,6 +1321,7 @@ location	Parnaiba	-2.9147515	-41.7661953
 location	Parque Lefevre	9.015279	-79.485133
 location	Parque Real	9.073041	-79.415980
 location	Passaic County	40.955105	-74.229353
+location	Passira	-7.976317	-35.5817327
 location	Pasto	1.2146286	-77.2782516
 location	Pasuruan	-7.6419894	112.906694
 location	Patan	23.77405735	71.68373465668734
@@ -1364,6 +1382,7 @@ location	Prantij	23.4367	72.8528
 location	Presidente Prudente	-22.1225167	-51.3882528
 location	Presidente Venceslau	-21.8744	-51.8443
 location	Prilep	41.3446796	21.5505496
+location	Primavera	-8.3308449	-35.3523034
 location	Privas	44.723301	4.594575
 location	Prospect	41.5023	-72.9787
 location	Prostějov	49.4724	17.1068
@@ -1418,6 +1437,7 @@ location	Rebecq	50.670468	4.133291
 location	Reboleira	38.7523013	-9.2240282
 location	Recife	-8.0584933	-34.8848193
 location	Red River County	33.571979	-95.0429674
+location	Red River Parish	32.0835604	-93.3111105
 location	Reguisheim	47.8932253	7.3543762
 location	Reims	49.253754	4.035860
 location	Renedo	43.354601450000004	-3.9538952987855325
@@ -1467,6 +1487,7 @@ location	Russkaya Polyana	53.780357	73.882103
 location	Río Abajo	9.0631987	-79.5444326
 location	Sabadell	41.5421013	2.1138977
 location	Sabaneta	6.151838	-75.616992
+location	Sabine Parish	31.5223049	-93.5265161
 location	Sacavem	38.794386700000004	-9.108563857720288
 location	Sacramento County	38.494406	-121.301826
 location	Sador	22.693161	89.775469
@@ -1641,6 +1662,7 @@ location	Sueca	39.2025604	-0.3111645
 location	Suesca	5.103373	-73.799748
 location	Suffolk County	40.9849	-72.6151
 location	Sulejovice	50.4987867	14.0374081
+location	Sumare	-22.8217964	-47.267105
 location	Sumperk	49.9655521	16.9705651
 location	Sun Prarie	43.185544	-89.230804
 location	Sunshine Coast	-26.6500	153.0667
@@ -1653,11 +1675,13 @@ location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
 location	São Domingos da Benfica	38.738026950000005	-9.195298604626885
 location	São Paulo	-23.551096	-46.634874
+location	Tabira	-7.583661	-37.537735
 location	Taboao Da Serra	-23.6121912	-46.7790539
 location	Tafalla	42.522804	-1.675960
 location	Taipei	25.043279	121.565717
 location	Talange	49.2368955	6.1736941
 location	Talod	23.3512	72.9505
+location	Tamandaré	-8.7500009	-35.1045787
 location	Tamarite de Litera	41.8683507	0.4213037
 location	Tangail	24.2507265	89.9149441
 location	Tangerang	-6.1760311	106.6384468
@@ -1668,6 +1692,7 @@ location	Tarifa	36.0143	-5.6044
 location	Tarrazu	9.609000	-84.069307
 location	Tavernes Blanques	39.5064294	-0.3625992
 location	Tavernes de la Valldigna	39.0734	-0.2644
+location	Taylor	32.2793121	-99.8812612
 location	Tazona	38.3057	-1.9093
 location	Tehatta	23.730511	88.527338
 location	Tehri Garhwal	30.5	78.666667
@@ -1809,6 +1834,7 @@ location	Villefranche-sur-Saône	45.9864749	4.726611
 location	Villerot	50.485709	3.791108
 location	Vilvoorde	50.932484	4.429885
 location	Vista Alegre	8.931677	-79.700195
+location	Vitoria de Santo Antao	-8.1209019	-35.2944858
 location	Vitoria-Gasteiz	42.848478	-2.672011
 location	Vlamertinge	50.853066	2.824175
 location	Voroux-lez-Liers	50.686830	5.554916
@@ -1858,6 +1884,7 @@ location	Whatcom County	48.830959	-121.791189
 location	Whitefish Bay	43.111041	-87.901408
 location	Whitehall County	44.366840	-91.324050
 location	Wijnegem	51.228317	4.515561
+location	Williamsburg	33.6442699	-79.7442135
 location	Williamson County	30.6580927	-97.6041649
 location	Wilrijk	51.169169	4.396261
 location	Wilsele	50.889602	4.693823
