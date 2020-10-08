@@ -356,10 +356,16 @@ location	Hong Kong
 
 ### Indonesia
 # Banten
+location	South Tangerang
 location	Tangerang
 
 # West Java
 location	Bandung
+location	Purwakarta
+location	Bogor Regency
+
+# Yogyakarta
+location	Sleman
 
 # East Java
 location	Purwokerto
@@ -1806,6 +1812,7 @@ location	Itatiba
 location	Osasco
 location	Taboao Da Serra
 location	Caieiras
+location	Jarinu
 location	São Paulo
 location	Diadema
 location	Sao Bernardo do Campo
@@ -1815,6 +1822,7 @@ location	Sao Vicente
 location	Guarujá
 location	Santa Isabel
 location	Mogi Das Cruzes
+location	Taubate
 
 # Rio de Janeiro
 location	Resende
@@ -2789,6 +2797,7 @@ division	North Sumatra
 division	Banten
 division	Jakarta
 division	West Java
+division	Yogyakarta
 division	Special Region of Yogyakarta
 division	Central Java
 division	East Java
