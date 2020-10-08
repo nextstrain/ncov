@@ -360,8 +360,8 @@ rule subsample:
          - group by: {params.group_by}
          - sequences per group: {params.sequences_per_group}
          - subsample max sequences: {params.subsample_max_sequences}
-         - min-date: {params.max_date}
-         - max-date: {params.min_date}
+         - min-date: {params.min_date}
+         - max-date: {params.max_date}
          - exclude: {params.exclude_argument}
          - include: {params.include_argument}
          - query: {params.query_argument}
