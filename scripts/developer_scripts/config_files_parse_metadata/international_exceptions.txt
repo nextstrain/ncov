@@ -1,0 +1,4 @@
+hierarchy	name	assigned region/country/division
+location	Grand Princess Cruise Ship	North America, USA, California
+division	Italian cruise ship	Europe, Italy
+division	Diamond Princess	North America, USA

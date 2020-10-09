@@ -1,0 +1,27 @@
+List of locations known to appear as duplicates
+Adams County
+Grant County
+St. Louis
+Jefferson County
+Washington County
+Columbia County
+Montgomery County
+Winnebago County
+Orange County
+Brown County
+Fairfield County
+Richland County
+Jackson County
+Franklin County
+Clayton
+Santa Ana
+Oregon
+Chippewa County
+Lane County
+Columbia
+Cartago
+Lake County
+Iowa County
+Douglas County
+Cordoba
+Cuenca
