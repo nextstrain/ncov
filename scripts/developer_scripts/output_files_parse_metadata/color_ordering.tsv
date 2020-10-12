@@ -356,10 +356,16 @@ location	Hong Kong
 
 ### Indonesia
 # Banten
+location	South Tangerang
 location	Tangerang
 
 # West Java
 location	Bandung
+location	Purwakarta
+location	Bogor Regency
+
+# Yogyakarta
+location	Sleman
 
 # East Java
 location	Purwokerto
@@ -1705,6 +1711,10 @@ location	Rovaniemi
 # Rezina
 location	Rabnita
 
+### Ukraine
+# Volyn
+location	Lutsk
+
 ### Russia
 # Leningrad Region
 location	Kipen
@@ -1806,6 +1816,7 @@ location	Itatiba
 location	Osasco
 location	Taboao Da Serra
 location	Caieiras
+location	Jarinu
 location	São Paulo
 location	Diadema
 location	Sao Bernardo do Campo
@@ -1815,6 +1826,7 @@ location	Sao Vicente
 location	Guarujá
 location	Santa Isabel
 location	Mogi Das Cruzes
+location	Taubate
 
 # Rio de Janeiro
 location	Resende
@@ -2750,6 +2762,7 @@ division	Singapore
 
 ### China
 division	Yunnan
+division	Gansu
 division	Sichuan
 division	China
 division	Chongqing
@@ -2789,7 +2802,7 @@ division	North Sumatra
 division	Banten
 division	Jakarta
 division	West Java
-division	Special Region of Yogyakarta
+division	Yogyakarta
 division	Central Java
 division	East Java
 division	Center Kalimantan
@@ -3237,6 +3250,9 @@ division	Campania
 division	Basilicata
 division	Apulia
 
+### Malta
+division	Malta
+
 ### Slovenia
 division	Slovenia
 
@@ -3443,7 +3459,11 @@ division	Balti
 division	Soroca
 
 ### Ukraine
+division	Ivano-Frankivsk
+division	Volyn
+division	Kyiv
 division	Ukraine
+division	Kharkiv
 
 ### Cyprus
 division	Cyprus
@@ -3696,20 +3716,31 @@ division	Sinaloa
 division	Chihuahua
 division	Nayarit
 division	Durango
+division	Colima
 division	Jalisco
 division	Guadalajara
+division	Zacatecas
+division	Aguascalientes
 division	Coahuila
+division	Michoacan
 division	Guanajuato
+division	San Luis Potosi
 division	Queretaro
+division	Nuevo Leon
 division	Guerrero
 division	Estado de Mexico
 division	Mexico City
 division	Mexico
+division	Hidalgo
 division	Morelos
 division	Tamaulipas
 division	Puebla
+division	Tlaxcala
+division	Veracruz
+division	Oaxaca
 division	Chiapas
 division	Tabasco
+division	Campeche
 division	Yucatan
 division	Quintana Roo
 
@@ -3875,6 +3906,7 @@ country	Denmark
 country	Germany
 country	Europe
 country	Italy
+country	Malta
 country	Slovenia
 country	Sweden
 country	Austria
