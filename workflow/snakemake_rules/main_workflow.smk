@@ -374,6 +374,8 @@ rule subsample:
         priorities = get_priorities
     output:
         sequences = "results/{build_name}/sample-{subsample}.fasta"
+    log:
+        "logs/subsample_{build_name}_{subsample}.txt"
     params:
         group_by = _get_specific_subsampling_setting("group_by"),
         sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
