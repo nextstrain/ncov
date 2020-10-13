@@ -120,7 +120,7 @@ subsampling:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
-        focus: "region"
+        focus: "region_late"
 
     region_late:
       group_by: "division year month"
@@ -135,7 +135,7 @@ subsampling:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
-        focus: "region"
+        focus: "region_late"
 
   # Custom subsampling logic for global region.
   nextstrain_region_global:
@@ -218,7 +218,7 @@ subsampling:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
-        focus: "region"
+        focus: "region_late"
     # Focal samples for region
     region_early:
       group_by: "country year month"
@@ -233,4 +233,4 @@ subsampling:
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
-        focus: "region"
+        focus: "region_late"
