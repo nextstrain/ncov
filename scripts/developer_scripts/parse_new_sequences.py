@@ -138,7 +138,8 @@ def plot_dates(data, path):
 
     #remove old plots
     for f in os.listdir(path):
-        os.remove(path + f)
+        if f.startswith("dates_"):
+            os.remove(path + f)
 
     for country in dates_by_country:
         dates = list(dates_by_country[country].keys())
@@ -147,7 +148,7 @@ def plot_dates(data, path):
         plt.bar(dates, values)
         plt.title(country)
         plt.xticks(rotation=45, ha="right", size = 7)
-        plt.savefig(path + country)
+        plt.savefig(path + "dates_" + country)
 
 
 # Count for every country the number of new sequences
