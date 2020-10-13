@@ -107,14 +107,31 @@ subsampling:
   # Custom subsampling logic for regions
   nextstrain_region:
     # Focal samples for region
-    region:
+    region_early:
       group_by: "division year month"
-      max_sequences: 2500
+      max_sequences: 800
+      max_date: "--max-date 2020-05-31"
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
-    global:
+    global_early:
       group_by: "country year month"
-      max_sequences: 1500
+      max_sequences: 500
+      max_date: "--max-date 2020-05-31"
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
+
+    region_late:
+      group_by: "division year month"
+      max_sequences: 1700
+      min_date: "--min-date 2020-06-01"
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global_late:
+      group_by: "country year month"
+      max_sequences: 1000
+      min_date: "--min-date 2020-06-01"
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
@@ -122,43 +139,97 @@ subsampling:
 
   # Custom subsampling logic for global region.
   nextstrain_region_global:
-    africa:
+    africa_early:
+      max_date: "--max-date 2020-05-31"
       group_by: "country year month"
-      max_sequences: 600
+      max_sequences: 200
       exclude: "--exclude-where 'region!=Africa'"
-    asia:
+    asia_early:
+      max_date: "--max-date 2020-05-31"
       group_by: "country year month"
-      max_sequences: 700
+      max_sequences: 300
       exclude: "--exclude-where 'region!=Asia'"
-    europe:
+    europe_early:
+      max_date: "--max-date 2020-05-31"
       group_by: "country year month"
-      max_sequences: 800
+      max_sequences: 200
       exclude: "--exclude-where 'region!=Europe'"
-    north_america:
+    north_america_early:
+      max_date: "--max-date 2020-05-31"
       group_by: "division year month"
-      max_sequences: 800
+      max_sequences: 200
       exclude: "--exclude-where 'region!=North America'"
-    south_america:
+    south_america_early:
+      max_date: "--max-date 2020-05-31"
+      group_by: "country year month"
+      max_sequences: 200
+      exclude: "--exclude-where 'region!=South America'"
+    oceania_early:
+      max_date: "--max-date 2020-05-31"
+      group_by: "division year month"
+      max_sequences: 200
+      exclude: "--exclude-where 'region!=Oceania'"
+
+    africa_late:
+      min_date: "--min-date 2020-06-01"
+      group_by: "country year month"
+      max_sequences: 400
+      exclude: "--exclude-where 'region!=Africa'"
+    asia_late:
+      min_date: "--min-date 2020-06-01"
+      group_by: "country year month"
+      max_sequences: 400
+      exclude: "--exclude-where 'region!=Asia'"
+    europe_late:
+      min_date: "--min-date 2020-06-01"
       group_by: "country year month"
       max_sequences: 600
-      exclude: "--exclude-where 'region!=South America'"
-    oceania:
+      exclude: "--exclude-where 'region!=Europe'"
+    north_america_late:
+      min_date: "--min-date 2020-06-01"
       group_by: "division year month"
-      max_sequences: 500
+      max_sequences: 600
+      exclude: "--exclude-where 'region!=North America'"
+    south_america_late:
+      min_date: "--min-date 2020-06-01"
+      group_by: "country year month"
+      max_sequences: 400
+      exclude: "--exclude-where 'region!=South America'"
+    oceania_late:
+      min_date: "--min-date 2020-06-01"
+      group_by: "division year month"
+      max_sequences: 300
       exclude: "--exclude-where 'region!=Oceania'"
 
   # Custom subsampling for regions like Europe where grouping by country
   # is the smallest resolution requied
   nextstrain_region_grouped_by_country:
     # Focal samples for region
-    region:
+    region_late:
       group_by: "country year month"
-      max_sequences: 2500
+      max_sequences: 1700
+      min_date: "--min-date 2020-06-01"
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
-    global:
+    global_late:
       group_by: "country year month"
-      max_sequences: 1500
+      max_sequences: 1000
+      min_date: "--min-date 2020-06-01"
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
+    # Focal samples for region
+    region_early:
+      group_by: "country year month"
+      max_sequences: 800
+      max_date: "--max-date 2020-05-31"
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global_early:
+      group_by: "country year month"
+      max_sequences: 500
+      max_date: "--max-date 2020-05-31"
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
