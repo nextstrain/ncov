@@ -56,3 +56,5 @@ Counties Manukau	Auckland
 Waitemata	Auckland
 Los Angeles County	California
 Lutsk	Volyn
+Zehra	Kosice
+Martincek	Zilina

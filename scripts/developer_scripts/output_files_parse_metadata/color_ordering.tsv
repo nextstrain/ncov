@@ -1678,6 +1678,13 @@ location	Warszawa
 location	Brodno-Warszawa
 location	Radom
 
+### Slovakia
+# Zilina
+location	Martincek
+
+# Kosice
+location	Zehra
+
 ### Hungary
 # Central Hungary
 location	Budapest
@@ -2219,8 +2226,8 @@ location	San Juan County
 location	Thurston County
 location	Cowlitz County
 location	Clark County WA
+location	Pierce County WA
 location	Kirkland
-location	Pierce County
 location	Snohomish County
 location	King County
 location	Seattle
@@ -2386,15 +2393,20 @@ location	St. Louis MO
 
 # Wisconsin
 location	Crawford County
+location	Polk County
+location	Pierce County WI
 location	Pepin County
+location	Barron County
 location	Buffalo County
 location	Trempealeau County
 location	Eau Claire County
 location	Chippewa County WI
+location	Sawyer County
 location	La Crosse County
 location	Vernon County
 location	Jackson County WI
 location	Grant County WI
+location	Ashland County
 location	Monroe County
 location	Richland County WI
 location	Lafayette County
@@ -2423,8 +2435,10 @@ location	Walworth County
 location	Fond Du Lac County
 location	Outagamie County
 location	Campbellsport
+location	Oconto County
 location	Waukesha County
 location	Washington County WI
+location	Kenosha County
 location	Brown County WI
 location	Thiensville
 location	Milwaukee County
@@ -2632,6 +2646,7 @@ division	Amman
 division	Irbid
 
 ### Georgia
+division	Georgia
 division	Tbilisi
 
 ### Saudi Arabia
@@ -3031,7 +3046,9 @@ division	Coimbra
 
 ### Ireland
 division	Kerry
+division	Mayo
 division	Galway
+division	Clare
 division	Limerick
 division	Sligo
 division	Cork
@@ -3041,6 +3058,7 @@ division	Leitrim
 division	Ireland
 division	Offaly
 division	Laois
+division	Westmeath
 division	Cavan
 division	Kilkenny
 division	Waterford
@@ -3356,6 +3374,8 @@ division	Mazowieckie
 ### Slovakia
 division	Kostoliste
 division	Bratislava
+division	Pezinok
+division	Zilina
 division	Martin
 division	Slovakia
 division	Kosice

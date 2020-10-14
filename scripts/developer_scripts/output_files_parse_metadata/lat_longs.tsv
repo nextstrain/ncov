@@ -110,6 +110,7 @@ location	Arroyo de la Luz	39.4840338	-6.5845773
 location	Artajona	42.5876058	-1.7644227
 location	As Seeb	23.6821956	58.1843842
 location	Aserri	9.865508	-84.091553
+location	Ashland County	46.2062319	-90.6802594
 location	Asnières-sur-Seine	48.911508	2.284362
 location	Asotin County	46.1460	-117.2085
 location	Asper	50.915644	3.652577
@@ -149,6 +150,7 @@ location	Bari	41.1257843	16.8620293
 location	Barka	23.7079666	57.89278
 location	Barrancabermeja	7.067561	-73.848406
 location	Barranquilla	10.987216	-74.805576
+location	Barron County	45.423557	-91.8454099
 location	Barueri	-23.5114	-46.8729
 location	Barva	10.07634855	-84.10922100765933
 location	Bassilly	50.675907	3.933169
@@ -881,6 +883,7 @@ location	Kaufman County	32.581020800000005	-96.29927072197667
 location	Kaulille	51.186846	5.525937
 location	Kelmis	50.714674	6.023042
 location	Kematen in Tirol	47.253643	11.273540
+location	Kenosha County	42.5729233	-88.0679837
 location	Kent	39.1156908	-75.4841394
 location	Keqiao	30.0819	120.4951
 location	Kermt	50.946857	5.247189
@@ -1084,6 +1087,7 @@ location	Marquette County	43.8122244	-89.3926785
 location	Marratxí	39.6272	2.7572
 location	Marseille	43.2961743	5.3699525
 location	Marshall	43.167355	-89.066568
+location	Martincek	49.091788	19.3368052
 location	Maryanovka	54.960659	72.637947
 location	Mason County	47.4251	-123.1951
 location	Massalaves	39.1437319	-0.523232
@@ -1257,6 +1261,7 @@ location	Novovarshavka	54.170616	74.696037
 location	Nueces County	27.7153774	-97.6199942
 location	Oak Creek	42.878698	-87.901041
 location	Ochiltree County	36.2559217	-100.8138152
+location	Oconto County	44.9988053	-88.2480072
 location	Oevel	51.1387	4.9043
 location	Ogijares	37.1200	-3.6079
 location	Ogle County	42.0397014	-89.3138599
@@ -1347,7 +1352,8 @@ location	Pewaukee	43.061507	-88.237950
 location	Phoenix	33.433362	-112.068786
 location	Picassent	39.363519	-0.4611789
 location	Pielagos	43.357425	-3.9602596
-location	Pierce County	47.006605	-122.107847
+location	Pierce County WA	47.0022547	-122.2117983
+location	Pierce County WI	44.7186568	-92.3786114
 location	Pikine	14.751544	-17.396413
 location	Piles	38.9407693	-0.1325845
 location	Pilibhit	28.495207649999998	80.10754080018077
@@ -1360,6 +1366,7 @@ location	Ploegsteert	50.725900	2.880261
 location	Ploudalmezeau	48.5415	-4.6578
 location	Plzeň	49.7477415	13.3775249
 location	Polanco	43.38461	-4.01642
+location	Polk County	45.4318573	-92.407472
 location	Ponce	18.011564	-66.613958
 location	Pont d'Inca	39.5983	2.6928
 location	Ponta Grossa	-25.0891685	-50.1601812
@@ -1575,6 +1582,7 @@ location	Sauk County	43.4401728	-89.9653841
 location	Saukville	43.3817	-87.9406
 location	Savali	22.952682	73.110405
 location	Savli	22.560712	73.223754
+location	Sawyer County	45.8731634	-91.1468287
 location	Schenectady County	42.822882	-74.053939
 location	Scherpenheuvel-Zichem	50.997795	4.967443
 location	Schiphol	52.3080392	4.7621975
@@ -1929,6 +1937,7 @@ location	Zams	47.159925	10.587413
 location	Zaragoza	41.6488	-0.8891
 location	Zarauz	43.2834873	-2.1723467
 location	Zeewolde	52.3311	5.5405
+location	Zehra	48.9804224	20.7920261
 location	Zhanjiang	21.229510	110.393313
 location	Zhengzhou	34.714074	113.621939
 location	Zhongshan	22.542629	113.390864
@@ -2150,6 +2159,7 @@ division	Chongqing	29.858721	107.375623
 division	Chubu	35.183334	136.899994
 division	Chungcheongnam	36.685948	126.799198
 division	Chushikoku	34.237636	133.058999
+division	Clare	52.857257450000006	-8.937435925994537
 division	Coahuila	27.3333331	-102.0000001
 division	Cocle	8.4604873	-80.4305652
 division	Coimbra	40.2033	-8.4103
@@ -2516,6 +2526,7 @@ division	Martin	49.0617	18.919
 division	Maryland	39.0458	-76.6413
 division	Massachusetts	42.340741	-71.998513
 division	Mato Grosso	-12.6819	-56.9211
+division	Mayo	53.9087056	-9.298304863654256
 division	Mazowieckie	52.467791	21.224779
 division	Mbour	14.427132	-16.966574
 division	Meath	53.649784350000004	-6.588529492009938
@@ -2680,6 +2691,7 @@ division	Pernambuco	-8.8137	-36.9541
 division	Peru	-10	-75.25
 division	Pest County	47.3715943	19.3452624
 division	Petah Tikva	32.0840	34.8878
+division	Pezinok	48.2854539	17.270194
 division	Philippeville	50.178836	4.592270
 division	Philippines	12.8797	121.774
 division	Phuket	7.959471	98.339272
@@ -2974,6 +2986,7 @@ division	West Virginia	38.4758406	-80.8408415
 division	Western Australia	-27.055937	122.236663
 division	Western Cape Province	-33.493715	20.219852
 division	Western Pomerania	53.84713085	13.351339698378764
+division	Westmeath	53.5577902	-7.3478558260097575
 division	Wexford	52.46018745	-6.606515459159162
 division	Wicklow	52.9808	-6.0446
 division	Wielkopolskie	52.2800	17.3523
@@ -2996,6 +3009,7 @@ division	Zefat	32.9646	35.4960
 division	Zepce	44.4287	18.0379
 division	Zhejiang	29.22571	120.299125
 division	Zielonogorskie	52.2275	15.2559
+division	Zilina	49.2234674	18.7393139
 division	Zlin	49.226766	17.6667415
 division	Zolder	50.9905	5.2580
 division	Zug	47.155891	8.525039
