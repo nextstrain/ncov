@@ -836,3 +836,6 @@ Switzerland/BE-UNIBE-226-3606/2020
 Switzerland/BE-UNIBE-227-3922/2020
 Switzerland/BE-UNIBE-228-9106/2020
 Switzerland/BE-UNIBE-229-6507/2020
+
+# High divergence; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1602716523107800
+India/MH-NIV-220751/2020
