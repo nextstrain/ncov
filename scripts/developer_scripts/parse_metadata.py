@@ -823,7 +823,9 @@ def check_for_missing(data):
 
                 if division not in ordering["division"] or division not in lat_longs["division"]:
                     s = bold(division)
-                    name0 = check_similar(hierarchical_ordering[region][country], division, "division")
+                    name0 = ""
+                    if country in hierarchical_ordering[region]:
+                        name0 = check_similar(hierarchical_ordering[region][country], division, "division")
                     if division not in ordering["division"] and division in lat_longs["division"]:
                         s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
                         if country not in data_clean[region]:
