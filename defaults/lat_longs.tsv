@@ -125,6 +125,7 @@ location	Auderghem	50.808473	4.439214
 location	Aurangabad	19.877263	75.3390241
 location	Autol	42.2130714	-2.0057815
 location	Avelgem	50.781406	3.450563
+location	Avoyelles Parish	31.0471604	-92.0019698
 location	Awa Reserve	0.450000	-77.450000
 location	Ayna	40.4637	-3.7492
 location	Azamgarh	26.02269675	83.02887343114848
@@ -328,6 +329,7 @@ location	Campo Real	40.3390	-3.3833
 location	Camprovin	42.3544752	-2.7220509
 location	Canet d'en Berenguer	39.6806	-0.2192
 location	Cape Town Metro	-33.970973	18.510306
+location	Capital and Coast	-41.168408	174.867814
 location	Caraman	43.5292631	1.7600805
 location	Carandia	43.33684	-3.97495
 location	Carcaixent	39.1218973	-0.4467128
@@ -775,6 +777,7 @@ location	Huetor Santillan	37.2228	-3.5150
 location	Huizhou	23.107144	114.457913
 location	Huldenberg	50.7886	4.5881
 location	Humboldt County	40.7450	-123.8695
+location	Hutt Valley	-41.163361	174.964731
 location	Hyderabad	17.431807	78.416233
 location	Iasi	47.155585	27.590394
 location	Ibague	4.438643	-75.190558
@@ -1209,6 +1212,7 @@ location	Naples	40.857678	14.229949
 location	Narail	23.175	89.505
 location	Narayanganj	23.6238108	90.4999662
 location	Nassau County	40.7333	-73.58010
+location	Natchitoches Parish	31.6464192	-93.1427138
 location	Navalmoral de la Mata	39.8928306	-5.5401199
 location	Navarrete	42.4289697	-2.5616234
 location	Navas de San Juan	38.183649	-3.3137589
@@ -1292,6 +1296,7 @@ location	Oss	51.762396	5.530563
 location	Otavalo	0.22276364999999998	-78.24542744351957
 location	Ottonville	49.2186146	6.5222675
 location	Otura	37.0913	-3.6345
+location	Ouachita Parish	32.4790511	-92.1615004
 location	Oud-Turnhout	51.319510	5.004179
 location	Outagamie County	44.41603	-88.4602005
 location	Outes	42.8428093	-8.9084798
@@ -1461,6 +1466,7 @@ location	Ribeira	42.5541	-8.9922
 location	Richland Center	43.339975	-90.385959
 location	Richland County SC	34.0190006	-80.9176832
 location	Richland County WI	43.4060	-90.3748
+location	Richland Parish	32.4196791	-91.8105911
 location	Richmond County	40.5795	-74.1502
 location	Riego de la Vega	42.388342	-5.9826151
 location	Riemst	50.805092	5.589712
@@ -1788,6 +1794,7 @@ location	Ulster County	41.8586	-74.3118
 location	Umatilla County	45.648981	-118.720688
 location	Umbilo	-29.8905556	30.9777778
 location	Una	31.4685	76.2708
+location	Union Parish	32.8385899	-92.3910295
 location	Urcuqui	0.4172921	-78.1941499
 location	Ust-Ishim	57.693462	71.169968
 location	Utrecht	52.0907	5.1214
@@ -2085,6 +2092,7 @@ division	Brasov	45.6580	25.6012
 division	Bratislava	48.1486	17.1077
 division	Brazil	-10.3333332	-53.1999999
 division	Brazilian Cruise	-15.982399	-35.864365
+division	Brazzaville	-4.2694407	15.2712256
 division	Bretagne	48.202	2.9326
 division	Breza	44.0181	18.2613
 division	British Columbia	54.010982	-124.745183
@@ -2168,7 +2176,6 @@ division	Colombia	2.893108	-73.7845142
 division	Colombo	6.9349969	79.8538463
 division	Colon	9.3553005	-79.8974085
 division	Colorado	39.5501	-105.7821
-division	Combined Wellington	-41.203882	174.849953
 division	Comines	45.8175	13.7483
 division	Comunitat Valenciana	39.337	-0.354
 division	Concepcion	-36.8201	-73.0444
@@ -2273,6 +2280,7 @@ division	Gelderland	52.042091	6.01486
 division	Geneva	46.216038	6.136984
 division	Gent	51.04154	3.697961
 division	Georgia	32.1656	-82.9001
+division	Georgia (Europe)	42.013868	43.575124
 division	Germany	51.1657	10.4515
 division	Ghana	8.0300284	-1.080027
 division	Gibraltar	36.140807	-5.3541295
@@ -2319,6 +2327,7 @@ division	Haut-Katanga	-10.457682	27.690512
 division	Hauts de France	49.934396	2.783002
 division	Hawaii	19.8968	-155.5828
 division	Hawali	29.3378	48.0235
+division	Hawkes Bay	-39.4343279	176.7652742
 division	Heilongjiang	47.286490	127.992676
 division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
@@ -2512,6 +2521,7 @@ division	Maharashtra	19.7515	75.7139
 division	Maine	45.709097	-68.8590201
 division	Makkah	21.3891	39.8579
 division	Malaysia	2.3923759	112.8471939
+division	Maldives	4.7064352	73.3287853
 division	Maldonado	-34.904210	-54.969183
 division	Malopolskie	49.7225	20.2503
 division	Malta	35.8885993	14.4476911
@@ -2599,6 +2609,7 @@ division	New York	40.703395	-73.904193
 division	New Zealand	-41.500083	172.8344077
 division	Newfoundland and Labrador	53.655784	-61.203723
 division	Nicaragua	12.6090157	-85.2936911
+division	Nidwalden	46.942756	8.4119773
 division	Niedersachsen	52.8398531	9.075962
 division	Niger	18.061703	10.145544
 division	Nigeria	10	8
@@ -2858,6 +2869,7 @@ division	Talca	-35.462909	-71.37096
 division	Tamaulipas	23.9891553	-98.7026825
 division	Tamil Nadu	11.1271	78.6569
 division	Tangail	24.248630	89.917926
+division	Taranaki	-39.2711067	174.154795
 division	Tasmania	-42.14220555	146.6723517878467
 division	Tatarstan	56.130014	53.371181
 division	Taurages Apskritis	55.35608325	22.404879243700208
@@ -3088,6 +3100,7 @@ country	Lithuania	55.378752	23.945328
 country	Luxembourg	49.755428	6.119486
 country	Madagascar	-18.9249604	46.4416422
 country	Malaysia	4.264153	102.222436
+country	Maldives	4.7064352	73.3287853
 country	Mali	16.3700359	-2.2900239
 country	Malta	35.8885993	14.4476911
 country	Mexico	19.4325301	-99.1332101
@@ -3112,6 +3125,7 @@ country	Philippines	11.383086	123.521862
 country	Poland	52.0977181	19.0258159
 country	Portugal	39.54046	-8.174701
 country	Qatar	25.230573	51.183951
+country	Republic of the Congo	-0.516362	15.877811
 country	Romania	45.9432	24.9668
 country	Russia	64.6863136	97.7453061
 country	Saudi Arabia	25.0	45.0

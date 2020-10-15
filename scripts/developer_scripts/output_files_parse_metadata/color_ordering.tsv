@@ -420,6 +420,10 @@ location	Waitemata
 location	Auckland
 location	Counties Manukau
 
+# Wellington
+location	Capital and Coast
+location	Hutt Valley
+
 ### Australia
 # Western Australia
 location	Perth
@@ -2368,11 +2372,16 @@ location	Bossier Parish
 location	Sabine Parish
 location	Webster Parish
 location	Red River Parish
+location	Natchitoches Parish
 location	Bienville Parish
 location	Claiborne Parish
 location	Lincoln Parish
 location	Grant Parish
 location	Rapides Parish
+location	Union Parish
+location	Ouachita Parish
+location	Avoyelles Parish
+location	Richland Parish
 location	Morehouse Parish
 location	Iberville Parish
 location	Tensas Parish
@@ -2646,7 +2655,7 @@ division	Amman
 division	Irbid
 
 ### Georgia
-division	Georgia
+division	Georgia (Europe)
 division	Tbilisi
 
 ### Saudi Arabia
@@ -2699,6 +2708,9 @@ division	Rawalpindi
 division	Khyber Pakhtunkhwa
 division	Islamabad
 division	Gilgit Baltistan
+
+### Maldives
+division	Maldives
 
 ### Kyrgyzstan
 division	Kyrgyzstan
@@ -2885,13 +2897,14 @@ division	Otago
 division	Canterbury
 division	New Zealand
 division	Nelson Marlborough
+division	Taranaki
 division	Auckland
-division	Combined Wellington
 division	Wellington
 division	Waikato
 division	Wairarapa
 division	Midcentral
 division	Lakes
+division	Hawkes Bay
 division	Bay of Plenty
 
 ### Australia
@@ -2943,6 +2956,9 @@ division	Nord Kivu
 
 ### Gabon
 division	Libreville
+
+### Republic of the Congo
+division	Brazzaville
 
 ### Kenya
 division	Kwale
@@ -3202,6 +3218,7 @@ division	Aargau
 division	Switzerland
 division	Obwalden
 division	Lucerne
+division	Nidwalden
 division	Zug
 division	Uri
 division	Schaffhausen
@@ -3857,6 +3874,7 @@ country	Oman
 country	Uzbekistan
 country	Kazakhstan
 country	Pakistan
+country	Maldives
 country	Kyrgyzstan
 country	India
 country	Sri Lanka
@@ -3892,6 +3910,7 @@ country	Madagascar
 country	Zambia
 country	Democratic Republic of the Congo
 country	Gabon
+country	Republic of the Congo
 country	Kenya
 country	Uganda
 country	Cameroon
