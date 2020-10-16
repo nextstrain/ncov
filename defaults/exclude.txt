@@ -839,3 +839,6 @@ Switzerland/BE-UNIBE-229-6507/2020
 
 # High divergence; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1602716523107800
 India/MH-NIV-220751/2020
+
+# Checked with submittor, has high intra-sample variation
+France/BR8951/2020
