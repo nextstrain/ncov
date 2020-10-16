@@ -329,6 +329,7 @@ location	Campo Real	40.3390	-3.3833
 location	Camprovin	42.3544752	-2.7220509
 location	Canet d'en Berenguer	39.6806	-0.2192
 location	Cape Town Metro	-33.970973	18.510306
+location	Capital and Coast	-41.168408	174.867814
 location	Caraman	43.5292631	1.7600805
 location	Carandia	43.33684	-3.97495
 location	Carcaixent	39.1218973	-0.4467128
@@ -532,6 +533,7 @@ location	East Medinipur	22.037985	87.811563
 location	Eau Claire County	44.7257643	-91.3040313
 location	Echavarri	42.727827	-2.066099
 location	Ector County	31.8941755	-102.5794339
+location	Edegem	51.1548066	4.4458312
 location	Eibar	43.1842839	-2.4732748
 location	Eielson AFB	64.655387	-147.064620
 location	Eindhoven	51.4416	5.4697
@@ -776,6 +778,7 @@ location	Huetor Santillan	37.2228	-3.5150
 location	Huizhou	23.107144	114.457913
 location	Huldenberg	50.7886	4.5881
 location	Humboldt County	40.7450	-123.8695
+location	Hutt Valley	-41.163361	174.964731
 location	Hyderabad	17.431807	78.416233
 location	Iasi	47.155585	27.590394
 location	Ibague	4.438643	-75.190558
@@ -1983,6 +1986,7 @@ division	Aguascalientes	22.0000001	-102.5000001
 division	Aichi	35.067543	137.334061
 division	Aksaray	38.44611	33.878216
 division	Akwa-Ibom	4.9408638	7.8412267
+division	Al-Muthanna Province	30.5015763	45.0188363
 division	Alabama	32.3182	-86.9023
 division	Alagoas	-9.74863	-36.417626
 division	Alajuela	10.020137	-84.210339
@@ -2174,7 +2178,6 @@ division	Colombia	2.893108	-73.7845142
 division	Colombo	6.9349969	79.8538463
 division	Colon	9.3553005	-79.8974085
 division	Colorado	39.5501	-105.7821
-division	Combined Wellington	-41.203882	174.849953
 division	Comines	45.8175	13.7483
 division	Comunitat Valenciana	39.337	-0.354
 division	Concepcion	-36.8201	-73.0444
@@ -2219,7 +2222,7 @@ division	Dinant	50.239336	4.939426
 division	Diourbel	14.7043898	-16.0511737
 division	Distrito Federal	-15.7998	-47.8645
 division	Doha	25.270283	51.52297
-division	Dolnoslaskie	51.122543	16.404924
+division	Dolnośląskie	51.122543	16.404924
 division	Dominican Republic	19.0974031	-70.3028026
 division	Donostia-San Sebatian	43.306272	-1.979035
 division	Drenthe	52.846963	6.608915
@@ -2279,6 +2282,7 @@ division	Gelderland	52.042091	6.01486
 division	Geneva	46.216038	6.136984
 division	Gent	51.04154	3.697961
 division	Georgia	32.1656	-82.9001
+division	Georgia (Europe)	42.013868	43.575124
 division	Germany	51.1657	10.4515
 division	Ghana	8.0300284	-1.080027
 division	Gibraltar	36.140807	-5.3541295
@@ -3081,6 +3085,7 @@ country	Iceland	64.90614	-18.4826
 country	India	21.077353	78.723951
 country	Indonesia	-0.897599	114.181602
 country	Iran	34.5732	51.876
+country	Iraq	33.0955793	44.1749775
 country	Ireland	52.865	-7.979
 country	Israel	31.217736	34.903129
 country	Italy	43.382775	12.183629
@@ -3123,6 +3128,7 @@ country	Philippines	11.383086	123.521862
 country	Poland	52.0977181	19.0258159
 country	Portugal	39.54046	-8.174701
 country	Qatar	25.230573	51.183951
+country	Republic of the Congo	-0.516362	15.877811
 country	Romania	45.9432	24.9668
 country	Russia	64.6863136	97.7453061
 country	Saudi Arabia	25.0	45.0

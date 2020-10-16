@@ -1270,6 +1270,7 @@ location	Hemiksem
 location	Aartselaar
 location	Wilrijk
 location	Ekeren
+location	Edegem
 location	Deurne
 location	Kalmthout
 location	Brasschaat
@@ -2658,6 +2659,9 @@ division	Irbid
 division	Georgia (Europe)
 division	Tbilisi
 
+### Iraq
+division	Al-Muthanna Province
+
 ### Saudi Arabia
 division	Jeddah
 division	Madinah
@@ -3377,7 +3381,7 @@ division	Gorazde
 
 ### Poland
 division	Zielonogorskie
-division	Dolnoslaskie
+division	Dolnośląskie
 division	Wielkopolskie
 division	Opolskie
 division	Pomorskie
@@ -3864,6 +3868,7 @@ country	Israel
 country	Lebanon
 country	Jordan
 country	Georgia
+country	Iraq
 country	Saudi Arabia
 country	Kuwait
 country	Bahrain

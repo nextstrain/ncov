@@ -533,6 +533,7 @@ location	East Medinipur	22.037985	87.811563
 location	Eau Claire County	44.7257643	-91.3040313
 location	Echavarri	42.727827	-2.066099
 location	Ector County	31.8941755	-102.5794339
+location	Edegem	51.1548066	4.4458312
 location	Eibar	43.1842839	-2.4732748
 location	Eielson AFB	64.655387	-147.064620
 location	Eindhoven	51.4416	5.4697
@@ -1985,6 +1986,7 @@ division	Aguascalientes	22.0000001	-102.5000001
 division	Aichi	35.067543	137.334061
 division	Aksaray	38.44611	33.878216
 division	Akwa-Ibom	4.9408638	7.8412267
+division	Al-Muthanna Province	30.5015763	45.0188363
 division	Alabama	32.3182	-86.9023
 division	Alagoas	-9.74863	-36.417626
 division	Alajuela	10.020137	-84.210339
@@ -2220,7 +2222,7 @@ division	Dinant	50.239336	4.939426
 division	Diourbel	14.7043898	-16.0511737
 division	Distrito Federal	-15.7998	-47.8645
 division	Doha	25.270283	51.52297
-division	Dolnoslaskie	51.122543	16.404924
+division	Dolnośląskie	51.122543	16.404924
 division	Dominican Republic	19.0974031	-70.3028026
 division	Donostia-San Sebatian	43.306272	-1.979035
 division	Drenthe	52.846963	6.608915
@@ -3083,6 +3085,7 @@ country	Iceland	64.90614	-18.4826
 country	India	21.077353	78.723951
 country	Indonesia	-0.897599	114.181602
 country	Iran	34.5732	51.876
+country	Iraq	33.0955793	44.1749775
 country	Ireland	52.865	-7.979
 country	Israel	31.217736	34.903129
 country	Italy	43.382775	12.183629
