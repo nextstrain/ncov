@@ -693,6 +693,7 @@ location	Valencia de Don Juan
 location	Villaturiel
 
 # Cantabria
+location	Comillas
 location	Cabezon de la Sal
 location	Santillana
 location	Puente San Miguel
@@ -711,13 +712,17 @@ location	Liencres
 location	Santa Cruz de Bezana
 location	La Penilla
 location	Muriedas
+location	Santa Maria de Cayon
 location	Maliano
 location	Santander
 location	Pontejos
 location	Marina de Cudeyo
+location	Solares
+location	San Roque de Riomiera
 location	Ramales de la Victoria
 location	Santona
 location	Laredo
+location	Ampuero
 location	Castro Urdiales
 
 # Madrid
