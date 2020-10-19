@@ -1,2 +1,0 @@
-# install with pip install -r scripts/developer_scripts/requirements.txt
-geopy
