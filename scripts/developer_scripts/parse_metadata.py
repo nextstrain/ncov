@@ -1208,7 +1208,7 @@ for line in additions_to_annotation:
         annot_lines_to_write.append(line)
     if len(line.split("\t")) == 4:
         number_of_occurences = annotations.count(line.split("\t")[1])
-        irrelevant_occurences = sum([(line.split("\t")[1] + "\t" + s) in annotations for s in ["title", "authors", "paper_url"]])
+        irrelevant_occurences = sum([(line.split("\t")[1] + "\t" + s) in annotations for s in ["title", "authors", "paper_url", "genbank_accession"]])
         if number_of_occurences > irrelevant_occurences:
             print("Warning: " + line.split("\t")[1] + " already exists in annotations!")
 
