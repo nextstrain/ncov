@@ -449,6 +449,28 @@ location	Tweed Heads
 
 # Africa
 
+### Senegal
+# Dakar
+location	Pikine
+location	Guediawaye
+location	Yeumbeul
+location	Mbao
+location	Keur Massar
+location	Sangalkam
+
+# Thies
+location	Mbour
+
+# Diourbel
+location	Touba
+
+# Kolda
+location	Velingara
+
+### Ghana
+# Greater Accra
+location	Accra
+
 ### South Africa
 # Western Cape Province
 location	Cape Town Metro
@@ -471,38 +493,16 @@ location	uMzinyathi
 location	Zululand
 location	Amajuba
 
+### Egypt
+# Cairo
+location	Al Matariyyah
+
 ### Madagascar
 # Analamanga
 location	Antananarivo
 
 # Analanjirofo
 location	Fenoarivo
-
-### Ghana
-# Greater Accra
-location	Accra
-
-### Senegal
-# Kolda
-location	Velingara
-
-# Diourbel
-location	Touba
-
-# Dakar
-location	Pikine
-location	Guediawaye
-location	Yeumbeul
-location	Mbao
-location	Keur Massar
-location	Sangalkam
-
-# Thies
-location	Mbour
-
-### Egypt
-# Cairo
-location	Al Matariyyah
 
 ################
 
@@ -793,12 +793,21 @@ location	Alfaro
 
 # Basque Country
 location	Musques
+location	Ortuella
+location	Santurtzi
 location	Portugalete
+location	Trapaga
+location	Getxo
 location	Baracaldo
+location	Leioa
+location	Sopelana
+location	Erandio
 location	Bilbao
+location	Derio
 location	Bermeo
 location	Bizkaia
 location	Vitoria-Gasteiz
+location	Muskiz
 location	Deba
 location	Mallabia
 location	Mondragon
@@ -959,6 +968,7 @@ location	Gibraltar
 location	Cardiff
 
 # England
+location	Liverpool
 location	Derbyshire
 location	Yorkshire
 location	South Yorkshire
@@ -995,6 +1005,7 @@ location	Le Chesnay
 location	Orsay
 location	Garches
 location	Meudon la Forêt
+location	Essonne
 location	Boulogne Billancourt
 location	Argenteuil
 location	Colombes
@@ -1034,14 +1045,14 @@ location	Cayenne
 location	Rennes
 
 # Occitanie
+location	Toulouse
 location	Caraman
 
-# Bourgogne
-location	Dijon
-
 # Auvergne-Rhône-Alpes
+location	Clermont-Ferrand
 location	Tarare
 location	Privas
+location	Pollionnay
 location	Craponne
 location	Villefranche-sur-Saône
 location	Macon
@@ -1061,6 +1072,7 @@ location	Vienne
 
 # Bourgogne-France-Comté
 location	Chalon sur Saone
+location	Dijon
 location	Thise
 location	Montreux-Chateau
 
@@ -1569,6 +1581,9 @@ location	Ancona
 location	L'Aquila
 location	Teramo
 
+# Sicily
+location	Palermo
+
 # Campania
 location	Naples
 location	Benevento
@@ -1588,11 +1603,19 @@ location	Jönköping
 
 ### Austria
 # Tyrol
+location	Galtür
 location	St. Anton
 location	Ischgl
+location	Kappl
+location	Pettneu Am Arlberg
 location	Elbigenalp
+location	See
+location	Nauders
+location	Pfunden
 location	Zams
+location	Tösens
 location	Laengenfeld
+location	Sölden
 location	Seefeld in Tirol
 location	Kematen in Tirol
 location	Innsbruck
@@ -1604,13 +1627,16 @@ location	Steinach am Brenner
 location	Strass im Zillertal
 location	Mayrhofen
 location	Ramsau im Zillertal
+location	Kufstein
 
 # Salzburg
 location	Bad Gastein
 
 # Upper Austria
-location	Altenhof Am Hausruck
 location	Losenstein
+location	Altenhof Am Hausruck
+location	Linz
+location	Hochficht
 
 ### Czech Republic
 # Plzeň Region
@@ -1825,6 +1851,7 @@ location	Peruibe
 location	Rio Verde
 location	Cotia
 location	Jandira
+location	Rio Pardo
 location	Jundiai
 location	Cajamar
 location	Barueri
@@ -1832,6 +1859,7 @@ location	Itapecerica Da Serra
 location	Itatiba
 location	Osasco
 location	Taboao Da Serra
+location	Amparo
 location	Caieiras
 location	Jarinu
 location	São Paulo
@@ -1844,6 +1872,7 @@ location	Guarujá
 location	Santa Isabel
 location	Mogi Das Cruzes
 location	Taubate
+location	Caraguatatuba
 
 # Rio de Janeiro
 location	Resende
@@ -2207,7 +2236,6 @@ location	Gomez Palacios
 
 ### USA
 # Alaska
-location	Mat-Su
 location	Interior Alaska
 location	Anchorage
 location	Fairbanks
@@ -2268,7 +2296,6 @@ location	San Mateo County
 location	Solano County
 location	Yolo County
 location	Contra Costa County
-location	Davis
 location	Alameda County
 location	Sutter County
 location	Santa Clara County
@@ -2289,6 +2316,7 @@ location	Los Angeles County
 location	Orange County CA
 location	San Diego
 location	San Diego County
+location	San Bernardino County
 location	Imperial County
 
 # Nevada
@@ -2490,7 +2518,6 @@ location	Cuyahoga County
 location	Walton County
 location	Miami-Dade County
 location	Palm Beach County
-location	Miami
 
 # South Carolina
 location	Fairfield County SC
@@ -2510,9 +2537,9 @@ location	Montgomery County PA
 location	District of Columbia County
 
 # Delaware
-location	Sussex
-location	Kent
-location	New Castle
+location	Sussex County
+location	Kent County
+location	New Castle County
 
 # New Jersey
 location	Camden County
@@ -2555,41 +2582,23 @@ location	Franklin County NY
 location	Clinton County
 
 # Connecticut
-location	Yorktown Heights
-location	Port Chester
-location	Greenwich
-location	Riverside
-location	New Fairfield
+location	Hartford County
 location	Fairfield County CT
 location	Newtown
-location	Fairfield
-location	Trumbull
-location	Bridgeport
-location	Stratford
 location	Seymour
-location	Milford
-location	Beacon Falls
-location	Waterbury
 location	Woodbridge
 location	Bethany
-location	Prospect
 location	West Haven
-location	Bristol
-location	New Haven
+location	New Haven County
 location	Hamden
-location	Cheshire
 location	East Haven
 location	North Haven
 location	Wallingford
 location	Branford
 location	Meriden
 location	Northford
-location	North-Branford
 location	Madison CT
-location	Glastonbury
-location	Manchester
-location	Mount-Vernon
-location	Shelton
+location	Tolland County
 
 # Massachusetts
 location	Middlesex County
@@ -2934,60 +2943,44 @@ division	Guam
 
 # Africa
 
-### South Africa
-division	Western Cape Province
-division	South Africa
-division	North-West
-division	Eastern Cape
-division	Free State
-division	Gauteng
-division	Limpopo
-division	Mpumalanga
-division	KwaZulu-Natal
+### Gambia
+division	Kombo
+division	West Coast Region
 
-### Botswana
-division	Gaborone
+### Senegal
+division	Dakar
+division	Thies
+division	St-Louis
+division	Diourbel
+division	Kolda
+division	Senegal
 
-### Madagascar
-division	Analamanga
-division	Analanjirofo
+### Sierra Leone
+division	Sierra Leone
 
-### Zambia
-division	Lusaka
+### Guinea
+division	Conakry
 
-### Democratic Republic of the Congo
-division	Kongo Central
-division	Kinshasa
-division	Democratic Republic of the Congo
-division	Haut-Katanga
-division	Sud Kivu
-division	Nord Kivu
+### Ivory Coast
+division	Ivory Coast
 
-### Gabon
-division	Libreville
+### Morocco
+division	Casablanca
+division	Rabat
+division	Morocco
+division	Ouarzazate
 
-### Republic of the Congo
-division	Brazzaville
+### Mali
+division	Bamako
+division	Mopti
+division	Mali
 
-### Kenya
-division	Kwale
-division	Mombasa
-division	Taita Taveta
-division	Kilifi
-division	Kenya
-
-### Uganda
-division	Uganda
-
-### Cameroon
-division	Yaounde
+### Burkina Faso
+division	Burkina Faso
 
 ### Ghana
 division	Greater Accra
 division	Ghana
-
-### Sierra Leone
-division	Sierra Leone
 
 ### Togo
 division	Togo
@@ -2995,6 +2988,10 @@ division	Togo
 ### Benin
 division	Cotonou
 division	Oueme
+
+### Algeria
+division	Blida
+division	Boufarik
 
 ### Nigeria
 division	Rivers
@@ -3012,26 +3009,48 @@ division	Oyo State
 division	Kwara State
 division	Nigeria
 
-### Burkina Faso
-division	Burkina Faso
-
-### Gambia
-division	Kombo
-division	West Coast Region
-
-### Senegal
-division	Kolda
-division	Diourbel
-division	Dakar
-division	Thies
-division	St-Louis
-
-### Mali
-division	Bamako
-division	Mopti
+### Tunisia
+division	Tunisia
+division	Ben Arous
+division	Bizerte
 
 ### Niger
 division	Niger
+
+### Gabon
+division	Libreville
+
+### Cameroon
+division	Yaounde
+division	Cameroon
+
+### Republic of the Congo
+division	Brazzaville
+
+### Democratic Republic of the Congo
+division	Kongo Central
+division	Kinshasa
+division	Democratic Republic of the Congo
+division	Haut-Katanga
+division	Sud Kivu
+division	Nord Kivu
+
+### Botswana
+division	Gaborone
+
+### South Africa
+division	Western Cape Province
+division	South Africa
+division	North-West
+division	Eastern Cape
+division	Free State
+division	Gauteng
+division	Limpopo
+division	Mpumalanga
+division	KwaZulu-Natal
+
+### Zambia
+division	Lusaka
 
 ### Egypt
 division	Nile River Cruise
@@ -3040,20 +3059,22 @@ division	Faiyum
 division	Cairo
 division	Kalyoubia
 
-### Algeria
-division	Blida
-division	Boufarik
+### Uganda
+division	Uganda
 
-### Morocco
-division	Casablanca
-division	Rabat
-division	Morocco
-division	Ouarzazate
+### Kenya
+division	Kwale
+division	Mombasa
+division	Taita Taveta
+division	Kilifi
+division	Kenya
 
-### Tunisia
-division	Tunisia
-division	Ben Arous
-division	Bizerte
+### Madagascar
+division	Analamanga
+division	Analanjirofo
+
+### Somalia
+division	Somalia
 
 ################
 
@@ -3133,14 +3154,12 @@ division	Andorra
 division	Pays de la Loire
 division	Normandie
 division	Nouvelle-Aquitaine
-division	Toulouse
 division	Centre-Val de Loire
 division	France
 division	Ile de France
 division	Hauts de France
 division	Bretagne
 division	Occitanie
-division	Bourgogne
 division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
 division	Grand Est
@@ -3401,6 +3420,11 @@ division	Mazowieckie
 division	Kostoliste
 division	Bratislava
 division	Pezinok
+division	Jatov
+division	Kamenicna
+division	Tvrdosovce
+division	Surany
+division	Levice
 division	Zilina
 division	Martin
 division	Slovakia
@@ -3430,10 +3454,13 @@ division	Szabolcs-Szatmár-Bereg County
 
 ### Serbia
 division	Novi Pazar
+division	Krusevac
 division	Kraljevo
 division	Serbia
 division	Uzice
 division	Cacak
+division	Cuprija
+division	Kragujevac
 division	Novi Sad
 
 ### Kosovo
@@ -3914,30 +3941,33 @@ country	Australia
 country	Guam
 
 # Africa
-country	South Africa
-country	Botswana
-country	Madagascar
-country	Zambia
-country	Democratic Republic of the Congo
-country	Gabon
-country	Republic of the Congo
-country	Kenya
-country	Uganda
-country	Cameroon
-country	Ghana
-country	Sierra Leone
-country	Togo
-country	Benin
-country	Nigeria
-country	Burkina Faso
 country	Gambia
 country	Senegal
-country	Mali
-country	Niger
-country	Egypt
-country	Algeria
+country	Sierra Leone
+country	Guinea
+country	Ivory Coast
 country	Morocco
+country	Mali
+country	Burkina Faso
+country	Ghana
+country	Togo
+country	Benin
+country	Algeria
+country	Nigeria
 country	Tunisia
+country	Niger
+country	Gabon
+country	Cameroon
+country	Republic of the Congo
+country	Democratic Republic of the Congo
+country	Botswana
+country	South Africa
+country	Zambia
+country	Egypt
+country	Uganda
+country	Kenya
+country	Madagascar
+country	Somalia
 
 # Europe
 country	Iceland

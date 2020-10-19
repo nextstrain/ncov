@@ -299,3 +299,16 @@ location	De Soto	DeSoto Parish	(North America, USA, Louisiana)
 location	Richland	Richland Parish	(North America, USA, Louisiana)
 location	Madison	Madison Parish	(North America, USA, Louisiana)
 division	Dolnoslaskie	Dolnośląskie	(Europe, Poland)
+division	Bourgogne-Franche-Comté	Bourgogne-France-Comté
+division	Hauts-de-France	Hauts de France
+division	Île-de-France	Ile de France
+division	Pays-de-la-Loire	Pays de la Loire
+location	Saint-Pierre-Quiberon	Saint Pierre Quiberon	(Europe, France, Bretagne)
+location	Guaruja	Guarujá	(South America, Brazil, São Paulo)
+location	Interior	Interior Alaska	(North America, USA, Alaska)
+location	New Haven	New Haven County	(North America, USA, Connecticut)
+location	Hartford	Hartford County	(North America, USA, Connecticut)
+location	New Castle	New Castle County	(North America, USA, Delaware)
+location	Sussex	Sussex County	(North America, USA, Delaware)
+location	Kent	Kent County	(North America, USA, Delaware)
+location	Essone	Essonne	(Europe, France, Ile de France)
