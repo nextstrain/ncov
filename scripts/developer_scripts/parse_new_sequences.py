@@ -313,13 +313,14 @@ path_to_outputs = "scripts/developer_scripts/outputs_new_sequences/"
 table_file_name = path_to_input + "Who to Tag in Nextstrain Update Posts COVID-19.xlsx"
 today = str(datetime.datetime.now())[:10]
 
-data = read_data(path_to_input)
-data = check_dates(data, today)
-plot_dates(data, path_to_outputs + "plots/")
-print_counts(data)
-collect_labs(data, table_file_name)
+if __name__ == '__main__':
+    data = read_data(path_to_input)
+    data = check_dates(data, today)
+    plot_dates(data, path_to_outputs + "plots/")
+    print_counts(data)
+    collect_labs(data, table_file_name)
 
-# Special checks for individual user requirements (e.g. produce concise overview over strain names, provide all new
-# sequences from certain countries, etc.)
-overview_with_dates(data, path_to_outputs + "strains_overview.txt")
-filter_for_date_region(data, path_to_outputs, ("Europe", 6))
+    # Special checks for individual user requirements (e.g. produce concise overview over strain names, provide all new
+    # sequences from certain countries, etc.)
+    overview_with_dates(data, path_to_outputs + "strains_overview.txt")
+    filter_for_date_region(data, path_to_outputs, ("Europe", 6))
