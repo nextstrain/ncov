@@ -851,6 +851,15 @@ location	Gartzain
 # Murcia
 location	Murcia
 
+# Aragon
+location	Teruel
+location	Alcaniz
+location	Caspe
+location	Fraga
+location	Zaragoza
+location	Tamarite de Litera
+location	Monzon
+
 # Comunitat Valenciana
 location	Miramar
 location	Almenara
@@ -911,15 +920,6 @@ location	Oliva
 location	Castello de la Plana
 location	Castellon de la Plana
 location	Puzol
-
-# Aragon
-location	Teruel
-location	Alcaniz
-location	Caspe
-location	Fraga
-location	Zaragoza
-location	Tamarite de Litera
-location	Monzon
 
 # Catalunya
 location	Cambrils
@@ -1656,8 +1656,15 @@ location	Sedlec
 location	Prague-Miskovice
 location	Kvetnice
 
+# Southern Bohemia Region
+location	Pisek
+
 # Central Bohemian Region
 location	Mlada Boleslav
+
+# Liberec Region
+location	Litomerice
+location	Liberec
 
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
@@ -2238,6 +2245,7 @@ location	Gomez Palacios
 # Alaska
 location	Interior Alaska
 location	Anchorage
+location	Matanuska-Susitna Valley
 location	Fairbanks
 location	Southeast Alaska
 
@@ -2265,10 +2273,8 @@ location	Thurston County
 location	Cowlitz County
 location	Clark County WA
 location	Pierce County WA
-location	Kirkland
 location	Snohomish County
 location	King County
-location	Seattle
 location	Skagit County
 location	Whatcom County
 location	Kittitas County
@@ -2341,10 +2347,10 @@ location	El Paso County
 location	Brewster County
 location	Deaf Smith County
 location	Ector County
-location	Crosby
+location	Crosby County
 location	Val Verde County
 location	Ochiltree County
-location	Taylor
+location	Taylor County TX
 location	Webb County
 location	Llano County
 location	Comanche County
@@ -2524,9 +2530,9 @@ location	Fairfield County SC
 location	Columbia SC
 location	Richland County SC
 location	Berkeley County
-location	Williamsburg
-location	Georgetown
-location	Horry
+location	Williamsburg County
+location	Georgetown County
+location	Horry County
 
 # Pennsylvania
 location	Pittsburgh
@@ -3134,8 +3140,8 @@ division	La Rioja
 division	Basque Country
 division	Navarra
 division	Murcia
-division	Comunitat Valenciana
 division	Aragon
+division	Comunitat Valenciana
 division	Catalunya
 division	Balear Islands
 
@@ -3372,6 +3378,7 @@ division	Usti nad Labem
 division	Litomerice-Brnay
 division	Prague
 division	Melnik
+division	Southern Bohemia Region
 division	Central Bohemian Region
 division	Liberec Region
 division	Czech Republic
