@@ -215,6 +215,7 @@ def collect_labs(data, table_file_name):
             authors[country].append(author)
 
     excel_table = pd.read_excel(table_file_name, index_col=0, skiprows=1)
+    excel_table = excel_table.fillna("empty?")
     lab_dictionary = {}
     for country, row in excel_table.iterrows():
         description = row["Who"]
