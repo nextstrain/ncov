@@ -235,6 +235,7 @@ location	Blankenberge	51.301443	3.139196
 location	Blaricum	52.2727	5.2481
 location	Blegny	50.676412	5.704849
 location	Bocholt	51.183426	5.558851
+location	Bodeli	22.2749233	73.7165607
 location	Bogarra	38.5815065	-2.2129227
 location	Bogor Regency	-6.3578472	107.9299121
 location	Boiro	42.6475	-8.8834
@@ -592,6 +593,7 @@ location	Fairfield County SC	34.4091797	-81.1131228
 location	Fameck	49.3043497	6.1041352
 location	Faridabad	28.402837	77.3085626
 location	Farrukhabad	27.43719385	79.48912946503123
+location	Fatepura	23.9319264	72.5821336
 location	Favara	39.1273559	-0.2916155
 location	Fayette County	42.9258	-91.9099
 location	Feira de Santana	-12.2598	-38.9675
@@ -665,6 +667,7 @@ location	Givry	50.380304	4.037642
 location	Glastonbury	41.6862	-72.5451
 location	Glendale	43.129400	-87.930209
 location	Godella	39.5184276	-0.4103168
+location	Godhra	22.7785001	73.6245157
 location	Goiana	-7.560603	-34.99591
 location	Goicoechea	9.9670623	-83.9818366
 location	Gold Coast	-28.019726	153.398160
@@ -883,6 +886,7 @@ location	Kalisz	51.743335	18.073619
 location	Kalken	51.037676	3.917157
 location	Kalmthout	51.383	4.4752
 location	Kalol	23.238801	72.498547
+location	Kalyanpur	22.08421335	69.3041972072113
 location	Kamareddy	18.316551	78.05393808043348
 location	Kampenhout	50.945063	4.567367
 location	Kamrej	21.2797773	72.948269
@@ -1012,6 +1016,7 @@ location	Lillois-Witterzée	50.644797	4.366948
 location	Lima	-12.0621065	-77.0365256
 location	Limbourg BE	50.613635	5.935911
 location	Limestone County	31.5261854	-96.580617
+location	Limkheda	22.8321862	73.9880696
 location	Limoges	45.8354243	1.2644847
 location	Lincoln County	45.3265631	-89.7326216
 location	Lincoln Parish	32.598162	-92.6792848
@@ -1092,6 +1097,7 @@ location	Mancherial	18.8761795	79.4449696
 location	Manchester	41.7759	-72.5215
 location	Mandsaur	24.077683	75.067604
 location	Mandvi	21.254369	73.303536
+location	Mangrol	21.575642	72.8565391
 location	Manhattan	40.778542	-73.969920
 location	Manitowoc County	44.0998341	-87.827992
 location	Manizales	5.058776	-75.498753
@@ -1728,6 +1734,7 @@ location	Surabaya	-7.2459717	112.7378266
 location	Surat	21.166995	72.824307
 location	Suryapet	17.08001385	79.7925329742427
 location	Sussex County	38.6908097	-75.3691421
+location	Sutrapada	20.8428692	70.4799081
 location	Sutter County	38.9509675	-121.697088
 location	Suzhou	31.289911	120.538521
 location	Sydney	-33.870747	151.208359
@@ -1738,6 +1745,7 @@ location	Tabira	-7.583661	-37.537735
 location	Taboao Da Serra	-23.6121912	-46.7790539
 location	Tafalla	42.522804	-1.675960
 location	Taipei	25.043279	121.565717
+location	Talala	21.0560298	70.5303798
 location	Talange	49.2368955	6.1736941
 location	Talod	23.3512	72.9505
 location	Tamandaré	-8.7500009	-35.1045787
@@ -1872,6 +1880,7 @@ location	Ventanas	-1.3335519	-79.33690086959444
 location	Ventas del Bano	42.05702995	-1.9086504628788425
 location	Ventura County	34.440591	-119.058305
 location	Veracruz	8.8933671	-79.6208588
+location	Veraval	20.9057	70.3781
 location	Vere	-25.8812309	-52.9081757
 location	Verkhnyaya Pyshma	56.9724682	60.5738926
 location	Vernon County	43.5577	-90.8294
@@ -2625,6 +2634,7 @@ division	Montenegro	42.9868853	19.5180992
 division	Montevideo	-34.823827	-56.211799
 division	Mopti	14.514489000000001	-3.646458060483871
 division	Moravian-Silesian Region	49.83883545	18.153614708783117
+division	More Og Romsdal	62.8452777	7.518194072637362
 division	Morelos	18.75	-99.0
 division	Moreogromsdal	62.550697	7.320426
 division	Morocco	32.525925	-5.843761
@@ -2972,6 +2982,7 @@ division	Trang	7.529936	99.611699
 division	Trentino	46.051733	11.014531
 division	Trentino-Alto Adige	46.441472	11.282121
 division	Tromsogfinnmark	69.720052	23.450581
+division	Trondelag	63.87759235	10.195050547141093
 division	Trondheim	63.4305	10.3951
 division	Tubize	50.6905	4.2026
 division	Tucuman	-26.8083	-65.2176
@@ -3022,6 +3033,7 @@ division	Veracruz	19.333333	-96.666667
 division	Vermont	44.5588	-72.5778
 division	Verona	45.4384	10.9916
 division	Verviers	50.578077	5.872924
+division	Vestfold Og Telemark	59.39626765	9.061898163187937
 division	Vestland	60.9291011	6.107886941976156
 division	Vestlandet	60.958303	6.533228
 division	Veurne	51.046671	2.663125

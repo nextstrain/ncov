@@ -320,3 +320,4 @@ location	Anchorage-Mat Su	Matanuska-Susitna Valley	(North America, USA, Alaska)
 location	Mat Su	Matanuska-Susitna Valley	(North America, USA, Alaska)
 division	Central Bohemia Region	Central Bohemian Region	(Europe, Czech Republic)
 country	Republic of Congo	Republic of the Congo
+location	Jamkhambhaliya	Khambhaliya	(Asia, India, Gujarat)

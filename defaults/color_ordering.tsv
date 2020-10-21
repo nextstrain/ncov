@@ -103,6 +103,9 @@ location	Ganjam
 
 # Gujarat
 location	Kodinar
+location	Sutrapada
+location	Veraval
+location	Talala
 location	Mahuva
 location	Bardoli
 location	Surat
@@ -112,13 +115,16 @@ location	Kamrej
 location	Choryasi
 location	Olpad
 location	Junagadh
+location	Mangrol
 location	Ghogha
 location	Bharuch
 location	Jetpur
 location	Bhavnagar
 location	Gondal
+location	Kalyanpur
 location	Botad
 location	Khambhaliya
+location	Bodeli
 location	Rajkot
 location	Vadodara
 location	Dhandhuka
@@ -128,7 +134,9 @@ location	Savli
 location	Nadiad
 location	Dholka
 location	Kheda
+location	Godhra
 location	Mahemdavad
+location	Limkheda
 location	Dahod
 location	Savali
 location	Daskroi
@@ -150,6 +158,7 @@ location	Mehsana
 location	Patan
 location	Radhanpur
 location	Siddhpur
+location	Fatepura
 location	Khedbrahma
 location	Palanpur
 location	Dhanera
@@ -968,7 +977,6 @@ location	Gibraltar
 location	Cardiff
 
 # England
-location	Liverpool
 location	Derbyshire
 location	Yorkshire
 location	South Yorkshire
@@ -1663,7 +1671,6 @@ location	Pisek
 location	Mlada Boleslav
 
 # Liberec Region
-location	Litomerice
 location	Liberec
 
 # Vysocina Region
@@ -3269,8 +3276,11 @@ division	Rogaland
 division	Vestland
 division	Vestlandet
 division	Moreogromsdal
+division	More Og Romsdal
 division	Agder
+division	Vestfold Og Telemark
 division	Viken
+division	Trondelag
 division	Trondheim
 division	Innlandet
 division	Oslo
