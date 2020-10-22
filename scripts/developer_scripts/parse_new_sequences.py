@@ -3,6 +3,7 @@ import datetime
 import matplotlib.pyplot as plt
 import pandas as pd
 from pandas.plotting import register_matplotlib_converters
+import random
 register_matplotlib_converters()
 
 
@@ -173,17 +174,21 @@ def print_counts(data):
     print("\n----------------------------------------------\n")
     print("Total counts: " + str(sum_total))
 
-    for country in counts:
-        s = country + ": "
-        sum_country = 0
-        for division in counts[country]:
-            sum_country += counts[country][division]
-        s = s + str(sum_country)
-        if len(counts[country]) == 1:
-            s = s + " (" + division + ")"
-        else:
-            s = s + " (" + ", ".join([str(counts[country][division]) + " " + division for division in counts[country]]) + ")"
-        print(s)
+    with open(path_to_outputs + "tweet_resources.txt", "w") as out:
+        for country in counts:
+            s = country + ": "
+            sum_country = 0
+            for division in counts[country]:
+                sum_country += counts[country][division]
+            s = s + str(sum_country)
+            if len(counts[country]) == 1:
+                s = s + " (" + division + ")"
+            else:
+                s = s + " (" + ", ".join([str(counts[country][division]) + " " + division for division in counts[country]]) + ")"
+            print(s)
+            out.write(s + "\n")
+        out.write("\n\n\n")
+    return counts
 
 
 # Collect all submitting and originating labs as well as authors and try to infer as many twitter handles as possible
@@ -194,25 +199,32 @@ def collect_labs(data, table_file_name):
     originating_labs = {}
     authors = {}
     for id in data:
+        region = data[id]["region"]
         country = data[id]["country"]
         submitting_lab = data[id]["submitting_lab"]
         originating_lab = data[id]["originating_lab"]
         author = data[id]["authors"]
 
-        if country not in submitting_labs:
-            submitting_labs[country] = []
-        if submitting_lab not in submitting_labs[country]:
-            submitting_labs[country].append(submitting_lab)
+        if region not in submitting_labs:
+            submitting_labs[region] = {}
+        if country not in submitting_labs[region]:
+            submitting_labs[region][country] = []
+        if submitting_lab not in submitting_labs[region][country]:
+            submitting_labs[region][country].append(submitting_lab)
 
-        if country not in originating_labs:
-            originating_labs[country] = []
-        if originating_lab not in originating_labs[country] and originating_lab != submitting_lab:
-            originating_labs[country].append(originating_lab)
+        if region not in originating_labs:
+            originating_labs[region] = {}
+        if country not in originating_labs[region]:
+            originating_labs[region][country] = []
+        if originating_lab not in originating_labs[region][country] and originating_lab != submitting_lab:
+            originating_labs[region][country].append(originating_lab)
 
-        if country not in authors:
-            authors[country] = []
-        if author not in authors[country]:
-            authors[country].append(author)
+        if region not in authors:
+            authors[region] = {}
+        if country not in authors[region]:
+            authors[region][country] = []
+        if author not in authors[region][country]:
+            authors[region][country].append(author)
 
     excel_table = pd.read_excel(table_file_name, index_col=0, skiprows=1)
     excel_table = excel_table.fillna("empty?")
@@ -227,36 +239,53 @@ def collect_labs(data, table_file_name):
         lab_dictionary[country][description] = handle
 
 
+    lab_collection = {}
+
     print("\nSubmitting labs:\n(Note: small differences in spelling might cause lab to not be identified. Consider adjusting the spelling in the spreadsheet!)\n")
-    for country in submitting_labs:
-        s = country + ":\n"
-        for lab in submitting_labs[country]:
-            s += lab + ": "
-            if country in lab_dictionary and lab in lab_dictionary[country]:
-                s += bold(lab_dictionary[country][lab])
-            else:
-                s += bold("?")
-            s += "\n"
-        print(s)
+    for region in submitting_labs:
+        if region not in lab_collection:
+            lab_collection[region] = {}
+        for country in submitting_labs[region]:
+            if country not in lab_collection[region]:
+                lab_collection[region][country] = []
+
+            s = country + ":\n"
+            for lab in submitting_labs[region][country]:
+                s += lab + ": "
+                if country in lab_dictionary and lab in lab_dictionary[country]:
+                    s += bold(lab_dictionary[country][lab])
+                    lab_collection[region][country].append(lab_dictionary[country][lab])
+                else:
+                    s += bold("?")
+                    lab_collection[region][country].append("???")
+                s += "\n"
+            print(s)
 
     print("----------------------------------------------\n")
     print("Originating labs (only printed if different from submitting lab):\n")
-    for country in originating_labs:
-        s = country + ":\n"
-        for lab in originating_labs[country]:
-            s += lab
-            if country in lab_dictionary and lab in lab_dictionary[country]:
-                s += ": " + bold(lab_dictionary[country][lab])
-            s += "\n"
-        print(s)
+    for region in originating_labs:
+        for country in originating_labs[region]:
+            s = country + ":\n"
+            for lab in originating_labs[region][country]:
+                s += lab
+                if country in lab_dictionary and lab in lab_dictionary[country]:
+                    s += ": " + bold(lab_dictionary[country][lab])
+                    lab_collection[region][country].append(lab_dictionary[country][lab])
+                s += "\n"
+            print(s)
 
     print("----------------------------------------------\n")
     print("Authors:\n")
-    for country in authors:
-        s = country + ":\n"
-        for author in authors[country]:
-            s += author + "\n"
-        print(s)
+    for region in authors:
+        for country in authors[region]:
+            s = country + ":\n"
+            for author in authors[region][country]:
+                s += author + "\n"
+            print(s)
+
+    return lab_collection
+
+
 
 
 # Produce a concise overview of the new sequences containing only strain name, sampling and submission date sorted by
@@ -307,6 +336,124 @@ def filter_for_date_region(data, path_to_outputs, params):
             myfile.write("\n")
 
 
+def prepare_tweet(counts, lab_collection):
+
+    links = {
+        "Africa": "nextstrain.org/ncov/africa",
+        "Asia": "nextstrain.org/ncov/asia",
+        "Europe": "nextstrain.org/ncov/europe",
+        "North America": "nextstrain.org/ncov/north-america",
+        "Oceania": "nextstrain.org/ncov/oceania",
+        "South America": "nextstrain.org/ncov/south-america"
+    }
+
+    starters = [
+        ("Check out the new sequences from ", " on "),
+        ("New sequences from ", " can be found on "),
+        ("You can see the new sequences from ", " on "),
+        ("You can find the new sequences from ", " on "),
+        ("New sequences from ", " can be seen on ")
+    ]
+
+    total = 0
+    tweet_collection = {}
+    lengths = {}
+    with open(path_to_outputs + "tweet_resources.txt", "a") as out:
+        out.write("===============================\n\n")
+        for region in lab_collection:
+            countries = []
+            handles = []
+            for country in lab_collection[region]:
+                number = sum(counts[country].values())
+                total += number
+                s = country + " (" + str(number) + ")"
+                labs = lab_collection[region][country]
+                countries.append(s)
+                handles = handles + labs
+            tweet_collection[region] = (countries, handles)
+
+            if len(countries) > 1:
+                c = ", ".join(countries[:-1]) + " and " + countries[-1]
+            else:
+                c = countries[0]
+            h = ", ".join(handles)
+            out.write(c + "\n\n")
+            out.write("(Thanks to " + h + ")" + "\n\n\n")
+            lengths[region] = len(c) + len(h) + len(links[region])
+        out.write("===============================\n\n")
+
+    tweet = []
+
+    start_tweet = "Thanks to #opendata sharing by @GISAID, we've updated nextstrain.org/ncov with " + str(total) + " new #COVID19 #SARSCoV2 sequences!"
+    char_total = 270
+    char_available = char_total - len("Check out the new sequences from on ") - len("(Thanks to )") - len("1/1")
+    char_available_first = char_available - len(start_tweet)
+
+    first_region = min(lengths)
+    for region, length in sorted(lengths.items(), key=lambda x: x[1]):
+        if length > char_available_first:
+            break
+        first_region = region
+
+
+    if len(tweet_collection[first_region][0]) > 1:
+        c = ", ".join(tweet_collection[first_region][0][:-1]) + " and " + tweet_collection[first_region][0][-1]
+    else:
+        c = tweet_collection[first_region][0][0]
+    h = ", ".join(tweet_collection[first_region][1])
+
+    s = start_tweet + "\n\n"
+    s += "Check out the new sequences from " + c + " on " + links[first_region] + ".\n\n"
+    s += "(Thanks to " + h + ")\n\n"
+
+    tweet.append((s, "\n\n[pic_" + first_region.replace(" ", "") + "]"))
+
+    lengths.pop(first_region)
+
+    while len(lengths) > 0:
+        current_region = min(lengths)
+        best_partner = ""
+        for region, length in sorted(lengths.items(), key=lambda x: x[1]):
+            if region == current_region:
+                continue
+            if lengths[current_region] + length > char_available:
+                break
+            best_partner = region
+
+        lengths.pop(current_region)
+        c = tweet_collection[current_region][0]
+        h = tweet_collection[current_region][1]
+        p = "[pic_" + current_region.replace(" ", "") + "]"
+        l = links[current_region]
+        if best_partner != "":
+            lengths.pop(best_partner)
+            c += tweet_collection[best_partner][0]
+            h += tweet_collection[best_partner][1]
+            l += " and " + links[best_partner]
+            p += " " + "[pic_" + best_partner.replace(" ", "") + "]"
+
+
+        if len(c) > 1:
+            c = ", ".join(c[:-1]) + " and " + c[-1]
+        else:
+            c = c[0]
+        h = ", ".join(h)
+
+        starter = random.choice(starters)
+        s = starter[0] + c + starter[1] + l + ".\n\n"
+        s += "(Thanks to " + h + ")\n\n"
+        tweet.append((s, "\n\n" + p))
+
+    with open(path_to_outputs + "tweet_resources.txt", "a") as out:
+        for i, t in enumerate(tweet):
+            (s, p) = t
+            out.write(s + str(i+1) + "/" + str(len(tweet)) + p + "\n\n\n")
+
+
+
+
+
+
 
 
 path_to_input = "scripts/developer_scripts/inputs_new_sequences/"
@@ -318,10 +465,11 @@ if __name__ == '__main__':
     data = read_data(path_to_input)
     data = check_dates(data, today)
     plot_dates(data, path_to_outputs + "plots/")
-    print_counts(data)
-    collect_labs(data, table_file_name)
+    counts = print_counts(data)
+    lab_collection = collect_labs(data, table_file_name)
 
     # Special checks for individual user requirements (e.g. produce concise overview over strain names, provide all new
     # sequences from certain countries, etc.)
     overview_with_dates(data, path_to_outputs + "strains_overview.txt")
     filter_for_date_region(data, path_to_outputs, ("Europe", 6))
+    prepare_tweet(counts, lab_collection)
