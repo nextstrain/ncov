@@ -2342,6 +2342,9 @@ location	Madison County
 location	Maricopa County
 location	Phoenix
 
+# Montana
+location	Ravalli County
+
 # Colorado
 location	Colorado Springs
 location	Denver County
@@ -3275,7 +3278,6 @@ division	Graubünden
 division	Rogaland
 division	Vestland
 division	Vestlandet
-division	Moreogromsdal
 division	More Og Romsdal
 division	Agder
 division	Vestfold Og Telemark
