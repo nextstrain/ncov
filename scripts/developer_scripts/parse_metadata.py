@@ -1,5 +1,7 @@
 from os import listdir
 from difflib import SequenceMatcher
+from pathlib import Path
+
 
 # Things to make things recogised as Cruise ships & ignored/special treatment
 cruise_abbrev = ["Grand Princess", "Cruise", "cruise", "Diamond Princess"]
@@ -7,6 +9,7 @@ cruise_abbrev = ["Grand Princess", "Cruise", "cruise", "Diamond Princess"]
 #path to files used in the script
 path_to_config_files = "scripts/developer_scripts/config_files_parse_metadata/"
 path_to_output_files = "scripts/developer_scripts/output_files_parse_metadata/"
+Path(path_to_output_files).mkdir(parents=True, exist_ok=True)
 
 def bold(s):
     return('\033[1m' + s + '\033[0m')
