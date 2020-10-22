@@ -1,0 +1,324 @@
+level	misspelled name	correct name	(optional: specify region/country/division)
+location	Mina da Agua	Amadora
+location	St Louis	St-Louis
+location	Imperial	Imperial County
+location	Milwaukee	Milwaukee County
+location	Richalnd County	Richland County
+location	Ventana	Ventanas
+location	Verona	Verona IT
+location	Hobigonj	Habiganj
+location	East Baton Rouge	East Baton Rouge Parish
+location	Los Angeles	Los Angeles County
+location	Dodge Count	Dodge County
+location	Outagamie Coun	Outagamie County
+location	Tübingen	Tuebingen
+location	Agualva cacem	Agualva
+location	União das freguesias de Agualva	Agualva
+location	União das freguesias de Almargem do Bispo	Almargem do Bispo
+location	União das freguesias de Cacem	Cacem
+location	União das freguesias de Igreja	Igreja
+location	União das freguesias de Massama	Massama
+location	União das freguesias de Pontinha	Pontinha
+location	União das freguesias de Queluz	Queluz
+location	União das freguesias de Ramada	Ramada
+location	União das freguesias de Santarem	Santarem
+location	União das freguesias de Seia	Seia
+location	Buraymi	Buraimi
+location	Qurayat	Qurayyat
+location	Falagueria- Venda Nova	Amadora
+location	Stanger	KwaDukuza
+location	Ethekwini	eThekwini
+location	Uthukela	uThukela
+location	Umgungundlovu	uMgungundlovu
+location	Sisonke	Harry Gwala
+location	Umzinyathi	uMzinyathi
+location	Ilembe	iLembe
+location	Uthungulu	King Cetshwayo
+location	Umkhanyakude	uMkhanyakude
+##location 	Whitehall County	Trempealeau County #Needs to specify WI division
+division	Nw	North-West
+division	Ec	Eastern Cape
+division	Gp	Gauteng
+division	Fs	Free State
+division	Lp	Limpopo
+division	Wc	Western Cape Province
+division	Amazonas State	Amazonas
+division	Liege	Liège
+division	Bucuresti	Bucharest
+division	Ghent	Gent
+division	Gavleborg	Gavleborgs Lan
+division	Bat-Yam	Bat Yam
+division	Jerusalem	Jerusalemusti District
+division	Auvergne Rhone Alpes	Auvergne-Rhône-Alpes
+division	Zurich	Zürich
+division	Dakarhuman	Dakar
+division	Castilla-la Mancha	Castilla la Mancha
+division	Quangning	Quangninh
+division	Ragshahi	Rajshahi
+division	Kzn	KwaZulu-Natal
+division	Grand-Est	Grand Est
+division	Califonia	California
+division	Baden-Württemberg	Baden-Wuerttemberg
+division	Basel-Landschaft	Basel-Land
+division	St Gallen	Sankt Gallen
+division	Luzern	Lucerne
+division	Kongo-Central	Kongo Central
+division	Barisal	Barishal
+division	Al	Alabama	(North America, USA)
+division	Ak	Alaska	(North America, USA)
+division	As	American Samoa	(North America, USA)
+division	Az	Arizona	(North America, USA)
+division	Ar	Arkansas	(North America, USA)
+division	Ca	California	(North America, USA)
+division	Co	Colorado	(North America, USA)
+division	Ct	Connecticut	(North America, USA)
+division	De	Delaware	(North America, USA)
+division	Dc	District of Columbia	(North America, USA)
+division	Fm	Federated States of Micronesia	(North America, USA)
+division	Fl	Florida	(North America, USA)
+division	Ga	Georgia	(North America, USA)
+division	Gu	Guam	(North America, USA)
+division	Hi	Hawaii	(North America, USA)
+division	Id	Idaho	(North America, USA)
+division	Il	Illinois	(North America, USA)
+division	In	Indiana	(North America, USA)
+division	Ia	Iowa	(North America, USA)
+division	Ks	Kansas	(North America, USA)
+division	Ky	Kentucky	(North America, USA)
+division	La	Louisiana	(North America, USA)
+division	Me	Maine	(North America, USA)
+division	Mh	Marshall Islands	(North America, USA)
+division	Md	Maryland	(North America, USA)
+division	Ma	Massachusetts	(North America, USA)
+division	Mi	Michigan	(North America, USA)
+division	Mn	Minnesota	(North America, USA)
+division	Ms	Mississippi	(North America, USA)
+division	Mo	Missouri	(North America, USA)
+division	Mt	Montana	(North America, USA)
+division	Ne	Nebraska	(North America, USA)
+division	Nv	Nevada	(North America, USA)
+division	Nh	New Hampshire	(North America, USA)
+division	Nj	New Jersey	(North America, USA)
+division	Nm	New Mexico	(North America, USA)
+division	Ny	New York	(North America, USA)
+division	Nc	North Carolina	(North America, USA)
+division	Nd	North Dakota	(North America, USA)
+division	Mp	Northern Mariana Islands	(North America, USA)
+division	Oh	Ohio	(North America, USA)
+division	Ok	Oklahoma	(North America, USA)
+division	Or	Oregon	(North America, USA)
+division	Pw	Palau	(North America, USA)
+division	Pa	Pennsylvania	(North America, USA)
+division	Pr	Puerto Rico	(North America, USA)
+division	Ri	Rhode Island	(North America, USA)
+division	Sc	South Carolina	(North America, USA)
+division	Sd	South Dakota	(North America, USA)
+division	Tn	Tennessee	(North America, USA)
+division	Tx	Texas	(North America, USA)
+division	Ut	Utah	(North America, USA)
+division	Vt	Vermont	(North America, USA)
+division	Vi	Virgin Islands	(North America, USA)
+division	Va	Virginia	(North America, USA)
+division	Wa	Washington	(North America, USA)
+division	Wv	West Virginia	(North America, USA)
+division	Wi	Wisconsin	(North America, USA)
+division	Wy	Wyoming	(North America, USA)
+division	Ústí nad Labem	Usti nad Labem
+division	Buraymi	Buraimi
+division	Ncr	National Capital Region
+division	Chittagong	Chattogram
+division	Ciudad Autonoma de Buenos Aires	Buenos Aires
+division	Bcs	Baja California Sur
+division	Bc	Baja California
+division	Goias	Goiás
+division	Bahrein	Bahrain
+country	Bahrein	Bahrain
+division	Sao Paulo	São Paulo
+location	Sao Paulo	São Paulo
+division	United States	USA
+country	United States	USA
+division	Santiago	Santiago de Veraguas	(North America, Panama)
+location	Herrera	Herrera (Panama Oeste)
+division	Panama West	Panama Oeste
+location	24 de Diciembre	Parque Real
+location	Mañanitas	Las Mañanitas
+location	Chorrillo	El Chorrillo
+location	Chorrera	La Chorrera
+location	Desconocido	
+location	San Francisco	San Francisco PA	(North America, Panama, Panama Center)
+division	Washingtondc	Washington DC
+location	Vitoria	Vitoria-Gasteiz	(Europe, Spain, Basque Country)
+division	Edomex	Estado de Mexico
+division	State of Mexico	Estado de Mexico
+division	North West	North-West	(Africa, South Africa)
+division	Paca	Provence-Alpes-Côte d'Azur	(Europe, France)
+division	Ara	Auvergne-Rhône-Alpes	(Europe, France)
+division	Idf	Ile de France	(Europe, France)
+location	Livadia	Livadeia	(Europe, Greece, Central Greece)
+division	Livadia	Livadeia	(Europe, Greece)
+division	Ceara	Ceará	(South America, Brazil)
+division	Parana	Paraná	(South America, Brazil)
+division	Saint Petersburg	Saint-Petersburg	(Europe, Russia)
+division	Novosibirsk Region	Novosibirsk Oblast	(Europe, Russia)
+location	Barcelona H	Barcelona
+location	Villefranche	Villefranche-sur-Saône	(Europe, France, Auvergne-Rhône-Alpes)
+division	Mp	Occitanie	(Europe, France)
+division	Na	Nouvelle-Aquitaine	(Europe, France)
+location	Hoogly	Hooghly	(Asia, India, West Bengal)
+location	Tuklakabad	Tughlakabad	(Asia, India, Delhi)
+division	Lodzkie	Łódzkie	(Europe, Poland)
+division	Act	Australian Capital Territory	(Oceania, Australia)
+location	Rivas Vaciamadrid	Rivas-Vaciamadrid	(Europe, Spain, Madrid)
+location	San Fernando	San Fernando de Henares	(Europe, Spain, Madrid)
+location	Malaga H	Malaga	(Europe, Spain, Andalusia)
+location	Arganda	Arganda del Rey	(Europe, Spain, Madrid)
+region	Asian	Asia
+location	Riveira	Ribeira	(Europe, Spain, Galicia)
+location	Badalona H	Badalona	(Europe, Spain, Catalunya)
+division	Fayoum	Faiyum	(Africa, Egypt)
+location	Noya	Noia	(Europe, Spain, Galicia)
+location	Kalwa	Aligarh	(Asia, India, Uttar Pradesh)
+location	Gurgaon	Gurugram	(Asia, India, Haryana)
+location	Foreigner	
+division	Maranhao	Maranhão	(South America, Brazil)
+division	Northern District	North District	(Asia, Israel)
+division	Southern District	South District	(Asia, Israel)
+country	Bangaldesh	Bangladesh	(Asia)
+division	Mp	Mpumalanga	(Africa, South Africa)
+division	Cusco	Cuzco	(South America, Peru)
+division	Northeastern Region MK	Northeastern Region	(Europe, North Macedonia)
+division	Eastern Region MK	Eastern Region	(Europe, North Macedonia)
+location	Distrsict of Columbia County	District of Columbia County	(North America, USA)
+division	District of Columbia	Washington DC	(North America, USA)
+location	Delhi National Capital Region		(Asia, India, Delhi)
+location	Shahjahapur	Shahjahanpur	(Asia, India, Uttar Pradesh)
+division	Tel Aviv	Tel Aviv District	(Asia, Israel)
+division	Southern Coast District	South Coast District	(Asia, Israel)
+location	Nagakurnool	Nagarkurnool	(Asia, India, Telangana)
+location	Farukhabad	Farrukhabad	(Asia, India, Uttar Pradesh)
+division	Noord Brabant	North Brabant	(Europe, Netherlands)
+division	Noord Holland	North Holland	(Europe, Netherlands)
+division	Zuid Holland	South Holland	(Europe, Netherlands)
+division	North Rhine-Westphalia	North Rhine Westphalia	(Europe, Germany)
+division	Coahuila de Zaragoza	Coahuila	(North America, Mexico)
+location	Daskoi	Daskroi	(Asia, India, Gujarat)
+location	Mdh		(North America, USA, Maryland)
+division	Lombardia	Lombardy	(Europe, Italy)
+division	Geneve	Geneva	(Europe, Switzerland)
+division	Caribbean		(North America, Dominican Republic)
+division	Kk	Sri Lanka	(Asia, Sri Lanka)
+division	Mecklenburg-Western Pomerania	Western Pomerania	(Europe, Germany)
+division	Borsod-Abauj-Zemplen County	Borsod-Abaúj-Zemplén County	(Europe, Hungary)
+division	Amazonas	Departamento de Amazonas	(South America, Colombia)
+division	Graubunden	Graubünden	(Europe, Switzerland)
+division	Bolivar	Bolivar EC	(South America, Ecuador)
+division	Ekiti	Ekiti State	(Africa, Nigeria)
+division	Ondo	Ondo State	(Africa, Nigeria)
+division	Osun	Osun State	(Africa, Nigeria)
+division	Oyo	Oyo State	(Africa, Nigeria)
+division	Waadt	Vaud	(Europe, Switzerland)
+division	Uttrakhand	Uttarakhand	(Asia, India)
+location	Rangaraddy	Rangareddy	(Asia, India, Telangana)
+division	Jawa Barat	West Java	(Asia, Indonesia)
+location	Frystak	Fryšták	(Europe, Czech Republic, Zlin)
+location	Domazlice	Domažlice	(Europe, Czech Republic, Plzeň Region)
+division	Plzen	Plzeň Region	(Europe, Czech Republic)
+division	Lower Saxony	Niedersachsen	(Europe, Germany)
+division	Kwazulu-Natal	KwaZulu-Natal	(Africa, South Africa)
+division	Andalucia	Andalusia	(Europe, Spain)
+location	San Sebatian	San Sebastian	(Europe, Spain, Basque Country)
+location	Alcala Deenares	Alcala de Henares	(Europe, Spain, Madrid)
+division	Canarias	Canary Islands	(Europe, Spain)
+division	Illes Balears	Balear Islands	(Europe, Spain)
+location	Düsseldorf	Duesseldorf	(Europe, Germany, North Rhine Westphalia)
+division	Central Kalimantan	Center Kalimantan	(Asia, Indonesia)
+division	Cordoba	Cordoba CO	(South America, Colombia)
+division	Usti nad Labem Region	Usti nad Labem	(Europe, Czech Republic)
+location	La Coruna	A Coruna	(Europe, Spain, Galicia)
+location	Fon Du Lac County	Fond Du Lac County	(North America, USA, Wisconsin)
+location	Harris	Harris County	(North America, USA, Texas)
+location	El Paso	El Paso County	(North America, USA, Texas)
+location	Mclennan	Mclennan County	(North America, USA, Texas)
+location	Travis	Travis County	(North America, USA, Texas)
+location	Ector	Ector County	(North America, USA, Texas)
+location	Hidalgo	Hidalgo County	(North America, USA, Texas)
+location	Litoměřice	Litomerice	(Europe, Czech Republic, Usti nad Labem)
+division	Saint-Louis	St-Louis	(Africa, Senegal)
+location	Pisarov	Písařov	(Europe, Czech Republic, Olomouc Region)
+division	Ústí nad Labem Region	Usti nad Labem	(Europe, Czech Republic)
+division	Wallis	Valais	(Europe, Switzerland)
+division	Combined Auckland	Auckland	(Oceania, New Zealand)
+division	Combined Wellington	Wellington	(Oceania, New Zealand)
+division	Ge	Grand Est	(Europe, France)
+division	Centre Val de Loire	Centre-Val de Loire	(Europe, France)
+location	Williamson	Williamson County	(North America, USA, Texas)
+location	Comanche	Comanche County	(North America, USA, Texas)
+location	Wharton	Wharton County	(North America, USA, Texas)
+division	Vilnius R.	Vilnius	(Europe, Lithuania)
+region	North-America	North America
+location	Lanilis	Lannilis	(Europe, France, Bretagne)
+location	Las Palmas	Las Palmas de Gran Canaria	(Europe, Spain, Canary Islands)
+division	Sverdlovsk Region	Sverdlovsk	(Europe, Russia)
+division	Krasnodar Region	Krasnodar	(Europe, Russia)
+division	Lipetsk Region	Lipetsk	(Europe, Russia)
+division	Novosibirsk Oblast	Novosibirsk	(Europe, Russia)
+division	Omsk Region	Omsk	(Europe, Russia)
+location	Canete	Cañete	(South America, Peru, Lima)
+location	Kaufman	Kaufman County	(North America, USA, Texas)
+location	Jefferson	Jefferson County TX	(North America, USA, Texas)
+location	Duesseldorf Area	Duesseldorf	(Europe, Germany, North Rhine Westphalia)
+division	Central Region	Central District	(Asia, Israel)
+location	Dallas	Dallas County	(North America, USA, Texas)
+location	Bexar	Bexar County	(North America, USA, Texas)
+division	Special Region of Yogyakarta	Yogyakarta	(Asia, Indonesia)
+location	Brown	Brown County	(North America, USA, Wisconsin)
+location	Grant	Grant County	(North America, USA, Wisconsin)
+location	Door	Door County	(North America, USA, Wisconsin)
+location	Outagamie	Outagamie County	(North America, USA, Wisconsin)
+location	Green	Green County	(North America, USA, Wisconsin)
+location	Chippewa	Chippewa County	(North America, USA, Wisconsin)
+location	Pierce	Pierce County WI	(North America, USA, Wisconsin)
+location	Sawyer	Sawyer County	(North America, USA, Wisconsin)
+location	Columbia	Columbia County	(North America, USA, Wisconsin)
+division	Georgia	Georgia (Europe)	(Asia, Georgia)
+division	St. Gallen	Sankt Gallen	(Europe, Switzerland)
+location	Caddo	Caddo Parish	(North America, USA, Louisiana)
+location	Webster	Webster Parish	(North America, USA, Louisiana)
+location	Rapides	Rapides Parish	(North America, USA, Louisiana)
+location	East Carroll	East Carroll Parish	(North America, USA, Louisiana)
+location	Bienville	Bienville Parish	(North America, USA, Louisiana)
+location	Bossier	Bossier Parish	(North America, USA, Louisiana)
+location	Sabine	Sabine Parish	(North America, USA, Louisiana)
+location	Lincoln	Lincoln Parish	(North America, USA, Louisiana)
+location	Red River	Red River Parish	(North America, USA, Louisiana)
+location	Natchitoches	Natchitoches Parish	(North America, USA, Louisiana)
+location	Ouachita	Ouachita Parish	(North America, USA, Louisiana)
+location	Union	Union Parish	(North America, USA, Louisiana)
+location	Avoyelles	Avoyelles Parish	(North America, USA, Louisiana)
+location	De Soto	DeSoto Parish	(North America, USA, Louisiana)
+location	Richland	Richland Parish	(North America, USA, Louisiana)
+location	Madison	Madison Parish	(North America, USA, Louisiana)
+division	Dolnoslaskie	Dolnośląskie	(Europe, Poland)
+division	Bourgogne-Franche-Comté	Bourgogne-France-Comté
+division	Hauts-de-France	Hauts de France
+division	Île-de-France	Ile de France
+division	Pays-de-la-Loire	Pays de la Loire
+location	Saint-Pierre-Quiberon	Saint Pierre Quiberon	(Europe, France, Bretagne)
+location	Guaruja	Guarujá	(South America, Brazil, São Paulo)
+location	Interior	Interior Alaska	(North America, USA, Alaska)
+location	New Haven	New Haven County	(North America, USA, Connecticut)
+location	Hartford	Hartford County	(North America, USA, Connecticut)
+location	New Castle	New Castle County	(North America, USA, Delaware)
+location	Sussex	Sussex County	(North America, USA, Delaware)
+location	Kent	Kent County	(North America, USA, Delaware)
+location	Essone	Essonne	(Europe, France, Ile de France)
+division	Northern Bohemia Region	Liberec Region	(Europe, Czech Republic)
+division	Liberec	Liberec Region	(Europe, Czech Republic)
+location	Gulf Coast		(North America, USA, Alaska)
+location	South West		(North America, USA, Alaska)
+location	Anchorage-Mat Su	Matanuska-Susitna Valley	(North America, USA, Alaska)
+location	Mat Su	Matanuska-Susitna Valley	(North America, USA, Alaska)
+division	Central Bohemia Region	Central Bohemian Region	(Europe, Czech Republic)
+country	Republic of Congo	Republic of the Congo
+location	Jamkhambhaliya	Khambhaliya	(Asia, India, Gujarat)
+division	Moreogromsdal	More Og Romsdal	(Europe, Norway)

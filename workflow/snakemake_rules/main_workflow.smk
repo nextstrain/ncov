@@ -31,6 +31,7 @@ rule filter:
     params:
         min_length = config["filter"]["min_length"],
         exclude_where = config["filter"]["exclude_where"],
+        min_date = config["filter"]["min_date"],
         date = numeric_date(date.today())
     conda: config["conda_environment"]
     shell:
@@ -40,6 +41,7 @@ rule filter:
             --metadata {input.metadata} \
             --include {input.include} \
             --max-date {params.date} \
+            --min-date {params.min_date} \
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
@@ -113,7 +115,7 @@ rule diagnose_excluded:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/diagnostic.py \
+        python3 scripts/diagnostic.py \
             --alignment {input.alignment} \
             --metadata {input.metadata} \
             --reference {input.reference} \
@@ -137,7 +139,7 @@ checkpoint partition_sequences:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/partition-sequences.py \
+        python3 scripts/partition-sequences.py \
             --sequences {input.sequences} \
             --sequences-per-group {params.sequences_per_group} \
             --output-dir {output.split_sequences} 2>&1 | tee {log}
@@ -208,7 +210,7 @@ rule diagnostic:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/diagnostic.py \
+        python3 scripts/diagnostic.py \
             --alignment {input.alignment} \
             --metadata {input.metadata} \
             --reference {input.reference} \
@@ -264,7 +266,7 @@ rule mask:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/mask-alignment.py \
+        python3 scripts/mask-alignment.py \
             --alignment {input.alignment} \
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
@@ -281,9 +283,22 @@ def _get_subsampling_settings(wildcards):
     subsampling_settings = config["subsampling"][subsampling_scheme]
 
     if hasattr(wildcards, "subsample"):
-        return subsampling_settings[wildcards.subsample]
-    else:
-        return subsampling_settings
+        subsampling_settings = subsampling_settings[wildcards.subsample]
+
+        # If users have supplied both `max_sequences` and `seq_per_group`, we
+        # throw an error instead of assuming the user prefers one setting over
+        # another by default.
+        if subsampling_settings.get("max_sequences") and subsampling_settings.get("seq_per_group"):
+            raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' defines both `max_sequences` and `seq_per_group`, but these arguments are mutually exclusive. If you didn't define both of these settings, this conflict could be caused by using the same subsampling scheme name as a default scheme. In this case, rename your subsampling scheme, '{subsampling_scheme}', to a unique name (e.g., 'custom_{subsampling_scheme}') and run the workflow again.")
+
+        # If users have supplied neither `max_sequences` nor `seq_per_group`, we
+        # throw an error because the subsampling rule will still group by one or
+        # more fields and the lack of limits on this grouping could produce
+        # unexpected behavior.
+        if not subsampling_settings.get("max_sequences") and not subsampling_settings.get("seq_per_group"):
+            raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' must define `max_sequences` or `seq_per_group`.")
+
+    return subsampling_settings
 
 
 def get_priorities(wildcards):
@@ -317,8 +332,17 @@ def _get_specific_subsampling_setting(setting, optional=False):
             # build's region, country, division, etc. as needed for subsampling.
             build = config["builds"][wildcards.build_name]
             value = value.format(**build)
-        else:
+        elif value is not None:
+            # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
+            # need to return the 'argument' for augur
+            if setting == 'seq_per_group':
+                value = f"--sequences-per-group {value}"
+            elif setting == 'max_sequences':
+                value = f"--subsample-max-sequences {value}"
+
             return value
+        else:
+            value = ""
 
         # Check format strings that haven't been resolved.
         if re.search(r'\{.+\}', value):
@@ -331,7 +355,17 @@ def _get_specific_subsampling_setting(setting, optional=False):
 rule subsample:
     message:
         """
-        Subsample all sequences into a {wildcards.subsample} set for build '{wildcards.build_name}' with {params.sequences_per_group} per {params.group_by}
+        Subsample all sequences by '{wildcards.subsample}' scheme for build '{wildcards.build_name}' with the following parameters:
+
+         - group by: {params.group_by}
+         - sequences per group: {params.sequences_per_group}
+         - subsample max sequences: {params.subsample_max_sequences}
+         - min-date: {params.min_date}
+         - max-date: {params.max_date}
+         - exclude: {params.exclude_argument}
+         - include: {params.include_argument}
+         - query: {params.query_argument}
+         - priority: {params.priority_argument}
         """
     input:
         sequences = rules.mask.output.alignment,
@@ -340,12 +374,17 @@ rule subsample:
         priorities = get_priorities
     output:
         sequences = "results/{build_name}/sample-{subsample}.fasta"
+    log:
+        "logs/subsample_{build_name}_{subsample}.txt"
     params:
         group_by = _get_specific_subsampling_setting("group_by"),
-        sequences_per_group = _get_specific_subsampling_setting("seq_per_group"),
+        sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
+        subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
         exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
         include_argument = _get_specific_subsampling_setting("include", optional=True),
         query_argument = _get_specific_subsampling_setting("query", optional=True),
+        min_date = _get_specific_subsampling_setting("min_date", optional=True),
+        max_date = _get_specific_subsampling_setting("max_date", optional=True),
         priority_argument = get_priority_argument
     conda: config["conda_environment"]
     shell:
@@ -354,12 +393,15 @@ rule subsample:
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --include {input.include} \
+            {params.min_date} \
+            {params.max_date} \
             {params.exclude_argument} \
             {params.include_argument} \
             {params.query_argument} \
             {params.priority_argument} \
             --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
+            {params.sequences_per_group} \
+            {params.subsample_max_sequences} \
             --output {output.sequences} 2>&1 | tee {log}
         """
 
@@ -383,7 +425,7 @@ rule proximity_score:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/priorities.py --alignment {input.alignment} \
+        python3 scripts/priorities.py --alignment {input.alignment} \
             --metadata {input.metadata} \
             --reference {input.reference} \
             --focal-alignment {input.focal_alignment} \
@@ -412,7 +454,7 @@ rule combine_samples:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/combine-and-dedup-fastas.py \
+        python3 scripts/combine-and-dedup-fastas.py \
             --input {input} \
             --output {output} 2>&1 | tee {log}
         """
@@ -434,7 +476,7 @@ rule adjust_metadata_regions:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/adjust_regional_meta.py \
+        python3 scripts/adjust_regional_meta.py \
             --region {params.region:q} \
             --metadata {input.metadata} \
             --output {output.metadata} 2>&1 | tee {log}
@@ -521,6 +563,7 @@ rule refine:
         date_inference = config["refine"]["date_inference"],
         divergence_unit = config["refine"]["divergence_unit"],
         clock_filter_iqd = config["refine"]["clock_filter_iqd"],
+        keep_polytomies = "--keep-polytomies" if config["refine"].get("keep_polytomies", False) else "",
         timetree = "" if config["refine"].get("no_timetree", False) else "--timetree"
     conda: config["conda_environment"]
     shell:
@@ -533,6 +576,7 @@ rule refine:
             --output-node-data {output.node_data} \
             --root {params.root} \
             {params.timetree} \
+            {params.keep_polytomies} \
             --clock-rate {params.clock_rate} \
             --clock-std-dev {params.clock_std_dev} \
             --coalescent {params.coalescent} \
@@ -582,7 +626,7 @@ rule haplotype_status:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/annotate-haplotype-status.py \
+        python3 scripts/annotate-haplotype-status.py \
             --ancestral-sequences {input.nt_muts} \
             --reference-node-name {params.reference_node_name:q} \
             --output {output.node_data} 2>&1 | tee {log}
@@ -667,7 +711,7 @@ rule pangolin:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/add_pangolin_lineages.py \
+        python3 scripts/add_pangolin_lineages.py \
             --tree {input.tree} \
             --output {output.clade_data}
         """
@@ -763,7 +807,7 @@ rule colors:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/assign-colors.py \
+        python3 scripts/assign-colors.py \
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
@@ -781,7 +825,7 @@ rule recency:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/construct-recency-from-submission-date.py \
+        python3 scripts/construct-recency-from-submission-date.py \
             --metadata {input.metadata} \
             --output {output} 2>&1 | tee {log}
         """
@@ -893,7 +937,7 @@ rule export:
         auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"][w.build_name] else config["files"]["auspice_config"],
         colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"],
-        description = config["files"]["description"]
+        description = lambda w: config["builds"][w.build_name]["description"] if "description" in config["builds"][w.build_name] else config["files"]["description"]
     output:
         auspice_json = "results/{build_name}/ncov_with_accessions.json"
     log:
@@ -920,7 +964,7 @@ rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
         auspice_json = rules.export.output.auspice_json,
-        colors = lambda w: config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w),
+        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"]
     params:
         sampling = _get_sampling_trait_for_wildcards,
@@ -932,7 +976,7 @@ rule incorporate_travel_history:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} ./scripts/modify-tree-according-to-exposure.py \
+        python3 ./scripts/modify-tree-according-to-exposure.py \
             --input {input.auspice_json} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
@@ -954,7 +998,7 @@ rule finalize:
     conda: config["conda_environment"]
     shell:
         """
-        {python:q} scripts/fix-colorings.py \
+        python3 scripts/fix-colorings.py \
             --input {input.auspice_json} \
             --output {output.auspice_json} 2>&1 | tee {log} &&
         cp {input.frequencies} {output.tip_frequency_json}

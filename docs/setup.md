@@ -30,6 +30,19 @@ npm install --global auspice
 ## 3. Run a basic analysis with example data
 
 Run a basic workflow with example data, to confirm that your Nextstrain environment is properly configured.
+First, change into the `ncov` repository's directory.
+
+```bash
+cd ncov
+```
+
+Then, uncompress the example sequence data we include in the repository.
+
+```bash
+gzip -d -c data/example_sequences.fasta.gz > data/example_sequences.fasta
+```
+
+Finally, run the basic workflow with these example data.
 
 ```bash
 snakemake --cores 4 --profile ./my_profiles/getting_started
@@ -40,8 +53,8 @@ This workflow should complete in about 5 minutes on a MacBook Pro (2.7 GHz Intel
 
 ## 4. Visualize the phylogeny for example data
 
-Go to [https://auspice.us](https://auspice.us) in your browser.
-Drag and drop the JSON file `auspice/ncov_global.json` anywhere on the [https://auspice.us](https://auspice.us) landing page, to visualize the resulting phylogeny.
+Go to [http://auspice.us](http://auspice.us) in your browser.
+Drag and drop the JSON file `auspice/ncov_global.json` anywhere on the [http://auspice.us](http://auspice.us) landing page, to visualize the resulting phylogeny.
 
 ## Advanced reading: considerations for keeping a 'Location Build' up-to-date
 

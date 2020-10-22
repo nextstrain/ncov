@@ -1,0 +1,75 @@
+false division (actually location)	true division
+Thaur	Tyrol
+Mayrhofen	Tyrol
+Altenhof Am Hausruck	Upper Austria
+Losenstein	Upper Austria
+Ischgl	Tyrol
+Innsbruck	Tyrol
+Hanoi	Red River Delta
+Barcelona	Catalunya
+Kfar Saba	Central District
+Uijeongbu	Gyeonggi Province
+Keur Massar	Dakar
+Sangalkam	Dakar
+Yeumbeul	Dakar
+Tuebingen	Baden-Wuerttemberg
+Manama	Capital Governorate
+Mbao	Dakar
+Domažlice	Plzeň Region
+Brno	South Moravian Region
+Munich	Bavaria
+Jashore	Khulna
+Lucknow	Uttar Pradesh
+Litovel	Olomouc Region
+Guayaquil	Guayas
+Breclav	South Moravian Region
+Benevento	Campania
+Togui	Boyaca
+Zipaquira	Cundinamarca
+Pereira	Risaralda
+Santa Marta	Magdalena
+Valledupar	Cesar
+Villavicencio	Meta
+Cartagena	Bolivar
+Barranquilla	Atlantico
+Armenia	Quindio
+Guediawaye	Dakar
+Livadeia	Central Greece
+Pikine	Dakar
+Mumbai	Maharashtra
+Marseille	Provence-Alpes-Côte d'Azur
+Prague-Miskovice	Prague
+Narayanganj	Dhaka
+Prilep	Pelagonia
+Quito	Pichincha
+Kargil	Ladakh
+Rabnita	Rezina
+Chia	Cundinamarca
+Medellin	Antioquia
+Tolemaida	Tolima
+Tangail	Dhaka
+Taipei	Taiwan
+Valencia	Comunitat Valenciana
+Houston	Texas
+Bergen	Vestland
+Counties Manukau	Auckland
+Waitemata	Auckland
+Los Angeles County	California
+Lutsk	Volyn
+Zehra	Kosice
+Martincek	Zilina
+Capital and Coast	Wellington
+Hutt Valley	Wellington
+St. Anton	Tyrol
+Hochficht	Upper Austria
+Linz	Upper Austria
+Kufstein	Tyrol
+See	Tyrol
+Kappl	Tyrol
+Sölden	Tyrol
+Pfunden	Tyrol
+Galtür	Tyrol
+Nauders	Tyrol
+Tösens	Tyrol
+Pettneu Am Arlberg	Tyrol
+Liverpool	England

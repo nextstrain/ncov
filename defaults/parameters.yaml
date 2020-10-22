@@ -36,8 +36,10 @@ filter:
   min_length: 27000
 
   # Omit sequences with incomplete date annotations, and USA seqs without a state.
-  exclude_where: "division='USA' date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-05-XX' date='2020-06-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04' date='2020-05' date='2020-06'"
+  exclude_where: "division='USA' date='2020' date='2020-01-XX' date='2020-02-XX' date='2020-03-XX' date='2020-04-XX' date='2020-05-XX' date='2020-06-XX' date='2020-07-XX' date='2020-08-XX' date='2020-09-XX' date='2020-10-XX' date='2020-11-XX' date='2020-12-XX' date='2020-01' date='2020-02' date='2020-03' date='2020-04' date='2020-05' date='2020-06' date='2020-07' date='2020-08' date='2020-09' date='2020-10' date='2020-11' date='2020-12'"
 
+  # Exclude sequences which are from before late 2019 (likely date mix-ups)
+  min_date: 2019.74
 
 # Alignment settings
 # Alignments are partitioned into smaller groups to speed up the overall alignment process.

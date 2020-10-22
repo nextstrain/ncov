@@ -175,12 +175,15 @@ Wuhan/IVDC-HB-envF13/2020
 USA/WA-UW48/2020
 USA/WA-UW45/2020
 France/HF1805/2020
-Canada/ON_PHL4069/2020
-Canada/ON_PHL3501/2020
-Bangladesh/DNAS_CPH_436/2020
+Canada/ON-PHL-4069/2020
+Canada/ON-PHL-3501/2020
+Bangladesh/DNAS-CPH-436/2020
 Lebanon/S6_766/2020
 USA/ID-UW-2198/2020
 USA/MDH-8137/2020
+Iran/IRVSH-2/2020
+USA/WA-UW-24958/2020
+USA/WA-UW-10272/2020
 
 # Excluded because seem to have sequencing issues - many reversions
 # See slack channel comment & screenshot: https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1591901131438800
@@ -364,6 +367,9 @@ USA/CruiseA-26/2020
 #USA/CruiseA-21/2020
 #USA/CruiseA-22/2020
 
+# Suspected wrong date - listed as 16 Feb but code says epi week 16 (12-18 Apr) see https://bedfordlab.slack.com/archives/CSKMU6YUC/p1595518895288300
+England/20168037604/2020
+
 # causes IQTREE error: ERROR: b'ERROR: Sequence Norway_X_X_1539_X_X_2020 has invalid character I at site 20199
 # The GISAID data was subsequently updated => TODO check if this sequence has been fixed
 Norway/1539/2020
@@ -383,8 +389,8 @@ Uruguay/UY-3/2020
 USA/AK-PHL180/2020
 
 #Seems pretty divergent with about 30 mutations
-Colombia/GVI-97181/2020
-Colombia/GUR-0574/2020
+Colombia/VAC-GVI-97181/2020
+Colombia/BOY-GUR-0574/2020
 
 # These early Wuhan seem very divergent, and have a cluster of mutations all together. Excluding for now, but may choose to re-include later
 Wuhan/WHUH006/2020
@@ -724,3 +730,156 @@ Belgium/ULG-10120/2020
 Belgium/ULG-10166/2020
 Belgium/ULG-10168/2020
 Belgium/ULG-10109/2020
+
+# wrong dates according to PHE naming scheme; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1595623954471500
+England/201040021/2020
+England/201040023/2020
+England/201040024/2020
+England/20129054906/2020
+England/20130071804/2020
+England/20132079304/2020
+England/20168037604/2020
+England/20186075504/2020
+
+# "This looks off. You have a number of mutations neighboring each other at site 29277"; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1596149732030400
+Oman/205036436/2020
+
+# High divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1596744120113900 and subsequent messages in slack
+Turkey/ACUTG-10/2020
+Turkey/ACUTG-3/2020
+Turkey/ACUTG-4/2020
+
+#"It properly groups with other Israeli viruses but has a number of additional mutations";  see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1597880694027200
+Israel/CVL-n26495/2020
+
+#This is the first case in NY - however, we already have it. It's identical to USA/NY1-PV08001/2020 - so excluding this one
+USA/NY-Wadsworth-10131-01/2020
+
+#Date before first case confirmed in Nigeria
+Nigeria/ED01-CV155/2020
+
+#Both are identical to reference but taken mid-May - very underdiverged 
+Oman/MA-RESP-20-B-16263/2020
+Bangladesh/NIB-BCSIR-02/2020Switzerland/BE-UNIBE-149-0641/2020
+
+# Too many on the same day; Emma will reach out. See: https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1602171095033800
+Switzerland/BE-UNIBE-150-5479/2020
+Switzerland/BE-UNIBE-151-6539/2020
+Switzerland/BE-UNIBE-152-7992/2020
+Switzerland/BE-UNIBE-153-8040/2020
+Switzerland/BE-UNIBE-154-8234/2020
+Switzerland/BE-UNIBE-155-8269/2020
+Switzerland/BE-UNIBE-156-8498/2020
+Switzerland/BE-UNIBE-157-8499/2020
+Switzerland/BE-UNIBE-159-9400/2020
+Switzerland/BE-UNIBE-160-0067/2020
+Switzerland/BE-UNIBE-161-0117/2020
+Switzerland/BE-UNIBE-162-0355/2020
+Switzerland/BE-UNIBE-163-0431/2020
+Switzerland/BE-UNIBE-164-0436/2020
+Switzerland/BE-UNIBE-165-0657/2020
+Switzerland/BE-UNIBE-166-0852/2020
+Switzerland/BE-UNIBE-167-0863/2020
+Switzerland/BE-UNIBE-168-1178/2020
+Switzerland/BE-UNIBE-169-1508/2020
+Switzerland/BE-UNIBE-170-1618/2020
+Switzerland/BE-UNIBE-171-1643/2020
+Switzerland/BE-UNIBE-172-1644/2020
+Switzerland/BE-UNIBE-173-2392/2020
+Switzerland/BE-UNIBE-174-2395/2020
+Switzerland/BE-UNIBE-175-2461/2020
+Switzerland/BE-UNIBE-176-2465/2020
+Switzerland/BE-UNIBE-178-2905/2020
+Switzerland/BE-UNIBE-179-2921/2020
+Switzerland/BE-UNIBE-180-2946/2020
+Switzerland/BE-UNIBE-181-3245/2020
+Switzerland/BE-UNIBE-182-3534/2020
+Switzerland/BE-UNIBE-183-3586/2020
+Switzerland/BE-UNIBE-184-3592/2020
+Switzerland/BE-UNIBE-185-3816/2020
+Switzerland/BE-UNIBE-186-3956/2020
+Switzerland/BE-UNIBE-187-3981/2020
+Switzerland/BE-UNIBE-188-3982/2020
+Switzerland/BE-UNIBE-189-4085/2020
+Switzerland/BE-UNIBE-190-4089/2020
+Switzerland/BE-UNIBE-191-4171/2020
+Switzerland/BE-UNIBE-192-4208/2020
+Switzerland/BE-UNIBE-193-4523/2020
+Switzerland/BE-UNIBE-194-4693/2020
+Switzerland/BE-UNIBE-195-4728/2020
+Switzerland/BE-UNIBE-197-5085/2020
+Switzerland/BE-UNIBE-198-5301/2020
+Switzerland/BE-UNIBE-199-5783/2020
+Switzerland/BE-UNIBE-200-5795/2020
+Switzerland/BE-UNIBE-201-6020/2020
+Switzerland/BE-UNIBE-202-6410/2020
+Switzerland/BE-UNIBE-203-6441/2020
+Switzerland/BE-UNIBE-204-6477/2020
+Switzerland/BE-UNIBE-205-7690/2020
+Switzerland/BE-UNIBE-206-7951/2020
+Switzerland/BE-UNIBE-207-8159/2020
+Switzerland/BE-UNIBE-208-8169/2020
+Switzerland/BE-UNIBE-209-8650/2020
+Switzerland/BE-UNIBE-210-8666/2020
+Switzerland/BE-UNIBE-211-9026/2020
+Switzerland/BE-UNIBE-212-9055/2020
+Switzerland/BE-UNIBE-214-0044/2020
+Switzerland/BE-UNIBE-215-0080/2020
+Switzerland/BE-UNIBE-217-0518/2020
+Switzerland/BE-UNIBE-218-0537/2020
+Switzerland/BE-UNIBE-219-1251/2020
+Switzerland/BE-UNIBE-220-1253/2020
+Switzerland/BE-UNIBE-222-1255/2020
+Switzerland/BE-UNIBE-223-2673/2020
+Switzerland/BE-UNIBE-225-2890/2020
+Switzerland/BE-UNIBE-226-3606/2020
+Switzerland/BE-UNIBE-227-3922/2020
+Switzerland/BE-UNIBE-228-9106/2020
+Switzerland/BE-UNIBE-229-6507/2020
+
+# High divergence; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1602716523107800
+India/MH-NIV-220751/2020
+
+# Checked with submittor, has high intra-sample variation
+France/BR8951/2020
+
+# Duplicates marked in additional infos
+USA/NY-MSK-11Ai/2020
+USA/NY-MSK-11D/2020
+USA/NY-MSK-13Ai/2020
+USA/NY-MSK-13B/2020
+USA/NY-MSK-14Ai/2020
+USA/NY-MSK-16Ai/2020
+USA/NY-MSK-16B/2020
+USA/NY-MSK-1Ai/2020
+USA/NY-MSK-20E/2020
+USA/NY-MSK-2Ai/2020
+USA/NY-MSK-2B/2020
+USA/NY-MSK-3Ai/2020
+USA/NY-MSK-3B/2020
+USA/NY-MSK-3Bi/2020
+USA/NY-MSK-3C/2020
+USA/NY-MSK-3Ci/2020
+USA/NY-MSK-3D/2020
+USA/NY-MSK-3E/2020
+USA/NY-MSK-4Ai/2020
+USA/NY-MSK-4C/2020
+USA/NY-MSK-4Ci/2020
+USA/NY-MSK-4E/2020
+USA/NY-MSK-5B/2020
+USA/NY-MSK-6D/2020
+USA/NY-MSK-6E/2020
+USA/NY-MSK-6F/2020
+USA/NY-MSK-6Fi/2020
+USA/NY-MSK-6G/2020
+USA/NY-MSK-6Gi/2020
+USA/NY-MSK-6H/2020
+USA/NY-MSK-6Hi/2020
+USA/NY-MSK-8Ai/2020
+USA/NY-MSK-8B/2020
+USA/NY-MSK-8Bi/2020
+USA/NY-MSK-8C/2020
+USA/NY-MSK-9Ai/2020
+USA/NY-MSK-9B/2020
+USA/NY-MSK-9Bi/2020
+

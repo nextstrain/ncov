@@ -48,3 +48,9 @@ Thumbs.db
 *~
 
 narratives/*pdf
+
+
+# metadata / new seqs scripts
+scripts/developer_scripts/inputs_new_sequences/
+scripts/developer_scripts/output_files_parse_metadata/
+scripts/developer_scripts/outputs_new_sequences/
