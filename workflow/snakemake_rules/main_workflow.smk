@@ -494,7 +494,7 @@ rule tree:
         "logs/tree_{build_name}.txt"
     benchmark:
         "benchmarks/tree_{build_name}.txt"
-    threads: 16
+    threads: 8
     resources:
         # Multiple sequence alignments can use up to 40 times their disk size in
         # memory, especially for larger alignments.

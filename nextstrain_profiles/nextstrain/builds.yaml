@@ -159,7 +159,7 @@ subsampling:
     north_america_early:
       max_date: "--max-date 2020-05-31"
       group_by: "division year month"
-      max_sequences: 200
+      max_sequences: 300
       exclude: "--exclude-where 'region!=North America'"
     south_america_early:
       max_date: "--max-date 2020-05-31"
