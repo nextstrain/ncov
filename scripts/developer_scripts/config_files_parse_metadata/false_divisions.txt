@@ -56,3 +56,20 @@ Counties Manukau	Auckland
 Waitemata	Auckland
 Los Angeles County	California
 Lutsk	Volyn
+Zehra	Kosice
+Martincek	Zilina
+Capital and Coast	Wellington
+Hutt Valley	Wellington
+St. Anton	Tyrol
+Hochficht	Upper Austria
+Linz	Upper Austria
+Kufstein	Tyrol
+See	Tyrol
+Kappl	Tyrol
+Sölden	Tyrol
+Pfunden	Tyrol
+Galtür	Tyrol
+Nauders	Tyrol
+Tösens	Tyrol
+Pettneu Am Arlberg	Tyrol
+Liverpool	England

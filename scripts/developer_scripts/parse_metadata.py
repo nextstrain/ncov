@@ -1,5 +1,7 @@
 from os import listdir
 from difflib import SequenceMatcher
+from pathlib import Path
+
 
 # Things to make things recogised as Cruise ships & ignored/special treatment
 cruise_abbrev = ["Grand Princess", "Cruise", "cruise", "Diamond Princess"]
@@ -7,6 +9,7 @@ cruise_abbrev = ["Grand Princess", "Cruise", "cruise", "Diamond Princess"]
 #path to files used in the script
 path_to_config_files = "scripts/developer_scripts/config_files_parse_metadata/"
 path_to_output_files = "scripts/developer_scripts/output_files_parse_metadata/"
+Path(path_to_output_files).mkdir(parents=True, exist_ok=True)
 
 def bold(s):
     return('\033[1m' + s + '\033[0m')
@@ -823,7 +826,9 @@ def check_for_missing(data):
 
                 if division not in ordering["division"] or division not in lat_longs["division"]:
                     s = bold(division)
-                    name0 = check_similar(hierarchical_ordering[region][country], division, "division")
+                    name0 = ""
+                    if country in hierarchical_ordering[region]:
+                        name0 = check_similar(hierarchical_ordering[region][country], division, "division")
                     if division not in ordering["division"] and division in lat_longs["division"]:
                         s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
                         if country not in data_clean[region]:
@@ -1206,7 +1211,7 @@ for line in additions_to_annotation:
         annot_lines_to_write.append(line)
     if len(line.split("\t")) == 4:
         number_of_occurences = annotations.count(line.split("\t")[1])
-        irrelevant_occurences = sum([(line.split("\t")[1] + "\t" + s) in annotations for s in ["title", "authors", "paper_url"]])
+        irrelevant_occurences = sum([(line.split("\t")[1] + "\t" + s) in annotations for s in ["title", "authors", "paper_url", "genbank_accession"]])
         if number_of_occurences > irrelevant_occurences:
             print("Warning: " + line.split("\t")[1] + " already exists in annotations!")
 
