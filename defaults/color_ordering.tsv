@@ -2708,6 +2708,7 @@ division	Capital Governorate
 
 ### Qatar
 division	Doha
+division	Qatar
 
 ### Iran
 division	Tehran
@@ -3352,6 +3353,7 @@ division	Orebro
 division	Stockholm
 division	Orebro Lan
 division	Vastmanland
+division	Sweden
 division	Uppsala
 division	Varmland
 division	Dalarna
@@ -3614,6 +3616,7 @@ division	Omsk
 division	Yamalo-Nenets
 division	Novosibirsk
 division	Krasnoyarsk
+division	Russia
 division	Buryatia
 division	Republic of Sakha
 division	Khabarovsk
@@ -3901,6 +3904,7 @@ division	Diamond Princess
 ### Canada
 division	British Columbia
 division	Alberta
+division	Canada
 division	Manitoba
 division	Ontario
 division	Quebec
