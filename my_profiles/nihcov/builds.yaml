@@ -1,0 +1,76 @@
+## This YAML file was adapted from https://discussion.nextstrain.org/t/only-global-build-found-in-auspice/164/3
+## The subsampling is extremely strict to improve speed (as this is intended to be used for debugging purposes)
+
+builds:
+  # Build 1: will produce a dataset (JSON) of
+  # `auspice/ncov_north-america_usa_maryland.json
+  # which should be viewable in a local auspice instance at
+  # http://localhost:4000/ncov/north-america/usa/maryland
+  north-america_usa_maryland:
+    subsampling_scheme: maryland
+    # Here, Maryland is in USA, is in North America.
+    region: North America
+    country: USA
+    division: Maryland
+
+  # Build 2: focuses on the entire U.S. Resulting dataset at
+  # `auspice/ncov_north-america_usa.json
+  # which should be viewable in a local auspice instance at
+  # http://localhost:4000/ncov/north-america/usa
+  north-america_usa:
+    subsampling_scheme: usa
+    # Here, USA is in North America
+    region: North America
+    country: USA
+
+
+# Define 2 custom subsampling schemes (referenced by the builds above)
+subsampling:
+  maryland:
+    # Focal samples for country
+    country:
+      group_by: "division year month"
+      max_sequences: 50
+      exclude: "--exclude-where 'country!={country}'"
+    # Contextual samples from country's region
+    region:
+      group_by: "country year month"
+      seq_per_group: 1
+      exclude: "--exclude-where 'country={country}' 'region!={region}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+    # Contextual samples from the rest of the world,
+    # excluding the current region to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 1
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+
+  usa:
+    # Focal samples for country
+    country:
+      group_by: "year month"
+      max_sequences: 20
+      exclude: "--exclude-where 'country!={country}'"
+    # Contextual samples from country's region
+    # Contextual samples from the rest of the world,
+    # excluding the current region to avoid resampling.
+    global:
+      group_by: "country year month"
+      seq_per_group: 1
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "country"
+
+# Here, you can specify what type of auspice_config you want to use
+# and what description you want. These will apply to all the above builds.
+# If you want to specify specific files for each build - you can!
+# See the 'example_advanced_customization' builds.yaml
+files:
+  auspice_config: "my_profiles/example/my_auspice_config.json"
+  description: "my_profiles/example/my_description.md"
