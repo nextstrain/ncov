@@ -997,11 +997,13 @@ location	Rouen
 location	Limoges
 
 # Centre-Val de Loire
+location	Fondettes
 location	Tours
 location	Abondant
 location	Angers
 
 # Ile de France
+location	Limay
 location	Montigny le Bretonneux
 location	Noisy le Roi
 location	Cergy
@@ -1013,6 +1015,7 @@ location	Le Chesnay
 location	Orsay
 location	Garches
 location	Meudon la Forêt
+location	Puteaux
 location	Essonne
 location	Boulogne Billancourt
 location	Argenteuil
@@ -1026,8 +1029,10 @@ location	Paris
 location	Juvisy-sur-Orge
 location	Sarcelles
 location	Seine-Port
+location	Plessis Trevise
 location	Moussy Le Neuf
 location	Saint-Thibault-des-Vignes
+location	Chanteloup-en-Brie
 
 # Hauts de France
 location	Nogent-l'Artaud
@@ -2601,12 +2606,15 @@ location	Clinton County
 location	Hartford County
 location	Fairfield County CT
 location	Newtown
+location	Trumbull
 location	Seymour
 location	Woodbridge
 location	Bethany
+location	Prospect
 location	West Haven
 location	New Haven County
 location	Hamden
+location	Cheshire
 location	East Haven
 location	North Haven
 location	Wallingford
@@ -2627,6 +2635,7 @@ location	Ponce
 ### Canada
 # Ontario
 location	Toronto
+location	Ottawa
 
 # Quebec
 location	Montérégie

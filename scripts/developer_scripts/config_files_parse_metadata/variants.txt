@@ -322,3 +322,7 @@ division	Central Bohemia Region	Central Bohemian Region	(Europe, Czech Republic)
 country	Republic of Congo	Republic of the Congo
 location	Jamkhambhaliya	Khambhaliya	(Asia, India, Gujarat)
 division	Moreogromsdal	More Og Romsdal	(Europe, Norway)
+location	Chesire-Wallingford	Cheshire	(North America, USA, Connecticut)
+location	Branford-Madison	Branford	(North America, USA, Connecticut)
+location	Prospect-Orange	Prospect	(North America, USA, Connecticut)
+location	Trumbull-Shelton	Trumbull	(North America, USA, Connecticut)
