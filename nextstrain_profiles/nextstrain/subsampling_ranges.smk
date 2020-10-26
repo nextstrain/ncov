@@ -8,7 +8,6 @@ early_late_cuotff = today - datetime.timedelta(weeks=18)
 
 for build in config["subsampling"]:
     for scheme in config["subsampling"][build]:
-        print(build, scheme)
         if "_early" in scheme:
             config["subsampling"][build][scheme]["max_date"] = f"--max-date {early_late_cuotff.strftime('%Y-%m-%d')}"
         if "_late" in scheme:
