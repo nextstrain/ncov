@@ -268,6 +268,11 @@ def read_exposure(data, metadata):
         id = l[2]
         strain = l[0]
 
+        if region2 == "United Kingdom": #TODO: separate this, make it more applicable for other countries
+            region2 = "Europe"
+            division2 = country2
+            country2 = "United Kingdom"
+
         s = division2 + " (" + country2 + ", " + region2 + ")"
         s2 = country2 + " (" + region2 + ")"
 
