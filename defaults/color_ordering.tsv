@@ -1778,12 +1778,36 @@ location	Rabnita
 location	Lutsk
 
 ### Russia
-# Leningrad Region
+# Leningrad Oblast
+location	Sosnovyi Bor
 location	Kipen
 
+# Novgorod Oblast
+location	Borovichi
+
+# Krasnodar
+location	Sochi
+
+# Republic of Adygea
+location	Maykop
+
+# Nizhny Novgorod Oblast
+location	Nizhny Novgorod
+
+# Republic of Kalmykia
+location	Elista
+
+# Perm Krai
+location	Perm
+
 # Sverdlovsk
-location	Ekaterinburg
+location	Shalya
+location	Revda
+location	Verkhny Tagil
+location	Nizhny Tagil
+location	Kirovgrad
 location	Verkhnyaya Pyshma
+location	Ekaterinburg
 
 # Omsk
 location	Ust-Ishim
@@ -1800,8 +1824,17 @@ location	Nizhnyaya Omka
 location	Muromtsevo
 location	Sedelnikovo
 
+# Novosibirsk
+location	Novosibirsk
+
+# Republic of Khakassia
+location	Abakan
+
 # Buryatia
 location	Ulan-Ude
+
+# Primorsky
+location	Vladivostok
 
 ################
 
@@ -3604,7 +3637,8 @@ division	Kars Province
 ### Russia
 division	Pskov
 division	Saint-Petersburg
-division	Leningrad Region
+division	Leningrad Oblast
+division	Novgorod Oblast
 division	Bryansk
 division	Tver
 division	Moscow
@@ -3612,18 +3646,22 @@ division	Moscow Region
 division	Yaroslavl
 division	Lipetsk
 division	Krasnodar
+division	Republic of Adygea
 division	Kabardino-Balkaria
+division	Nizhny Novgorod Oblast
+division	Republic of Kalmykia
 division	Chechen
 division	Samara
 division	Tatarstan
 division	Orenburg
-division	Perm
+division	Perm Krai
 division	Bashkortostan
 division	Chelyabinsk
 division	Sverdlovsk
 division	Omsk
 division	Yamalo-Nenets
 division	Novosibirsk
+division	Republic of Khakassia
 division	Krasnoyarsk
 division	Russia
 division	Buryatia

@@ -74,3 +74,4 @@ Tösens	Tyrol
 Pettneu Am Arlberg	Tyrol
 Liverpool	England
 Siena	Tuscany
+Perm	Perm Krai
