@@ -5,6 +5,22 @@
 # Central District
 location	Kfar Saba
 
+### Palestine
+# Hebron
+location	Fawwar
+location	Halhul
+location	al-Arroub
+
+# Ramallah
+location	Jalazone
+
+# Nablus
+location	Majdal Bani Fadil
+location	Qusra
+location	Balata
+location	Deir al-Hatab
+location	Dahieh
+
 ### Kuwait
 # Kuwait
 location	Hawali
@@ -13,6 +29,10 @@ location	Dasman
 ### Bahrain
 # Capital Governorate
 location	Manama
+
+### Iran
+# Sistan and Baluchestan
+location	Zahedan
 
 ### Oman
 # Buraimi
@@ -986,6 +1006,20 @@ location	London
 location	Warwickshire
 
 ### France
+# Bretagne
+location	Ploudalmezeau
+location	Lannilis
+location	Brest
+location	Morlaix
+location	Saint Pierre Quiberon
+location	Arradon
+location	Pordic
+location	Vannes
+location	Sene
+location	La Rochelle
+location	Cayenne
+location	Rennes
+
 # Pays de la Loire
 location	Nantes
 
@@ -1042,20 +1076,6 @@ location	Crépy en Valois
 location	Compiègne
 location	Santes
 location	Lille
-
-# Bretagne
-location	Ploudalmezeau
-location	Lannilis
-location	Brest
-location	Morlaix
-location	Saint Pierre Quiberon
-location	Arradon
-location	Pordic
-location	Vannes
-location	Sene
-location	La Rochelle
-location	Cayenne
-location	Rennes
 
 # Occitanie
 location	Toulouse
@@ -2720,6 +2740,16 @@ division	North District
 division	Zefat
 division	Maalot Tarshicha
 
+### Palestine
+division	Hebron
+division	Bethlehem
+division	Jericho
+division	Ramallah
+division	Jerusalem
+division	Nablus
+division	Tulkarem
+division	Jenin
+
 ### Lebanon
 division	Beirut
 
@@ -2753,9 +2783,11 @@ division	Doha
 division	Qatar
 
 ### Iran
+division	Qom
 division	Tehran
 division	Iran
 division	Semnan
+division	Sistan and Baluchestan
 
 ### United Arab Emirates
 division	United Arab Emirates
@@ -3210,6 +3242,7 @@ division	Scotland
 division	Andorra
 
 ### France
+division	Bretagne
 division	Pays de la Loire
 division	Normandie
 division	Nouvelle-Aquitaine
@@ -3217,7 +3250,6 @@ division	Centre-Val de Loire
 division	France
 division	Ile de France
 division	Hauts de France
-division	Bretagne
 division	Occitanie
 division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
@@ -3967,6 +3999,7 @@ division	Newfoundland and Labrador
 
 # Asia
 country	Israel
+country	Palestine
 country	Lebanon
 country	Jordan
 country	Georgia

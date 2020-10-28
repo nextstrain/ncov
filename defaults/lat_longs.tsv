@@ -139,6 +139,7 @@ location	Badalona	41.4493539	2.248254
 location	Bagerhat	22.6554187	89.7971746
 location	Bahia Blanca	-38.7183	-62.2663
 location	Bahla	22.970025	57.2986957
+location	Balata	32.2054798	35.2864958
 location	Balazote	38.8849	-2.1523
 location	Balen	51.155143	5.184431
 location	Balneario Camburiu	-26.9924395	-48.6339782
@@ -482,6 +483,7 @@ location	Curridabat	9.916215	-84.035009
 location	Cuyahoga County	41.4301347	-81.6905558
 location	Da Serra	-23.7442	-46.3975
 location	Dahegam	23.1637	72.8102
+location	Dahieh	33.8533	35.509
 location	Dahod	22.836899	74.251376
 location	Dalen	52.6994	6.7568
 location	Dalhem	50.71948	5.758129
@@ -501,6 +503,7 @@ location	Deerlijk	50.837861	3.365039
 location	Deforest	43.244858	-89.351873
 location	Dehradun	30.3255646	78.0436813
 location	Deinze	50.9875	3.5236
+location	Deir al-Hatab	32.217222	35.320833
 location	Delft	52.0116	4.3571
 location	Denver County	39.7348381	-104.9653271
 location	Derbyshire	53.142893	-1.611670
@@ -599,6 +602,7 @@ location	Faridabad	28.402837	77.3085626
 location	Farrukhabad	27.43719385	79.48912946503123
 location	Fatepura	23.9319264	72.5821336
 location	Favara	39.1273559	-0.2916155
+location	Fawwar	31.4806083	35.0613504
 location	Fayette County	42.9258	-91.9099
 location	Feira de Santana	-12.2598	-38.9675
 location	Fenoarivo	-17.382029	49.4099733
@@ -721,6 +725,7 @@ location	Haarlem	52.3874	4.6462
 location	Haasrode	50.831336	4.733827
 location	Habiganj	24.3840	91.4169
 location	Halen	50.948587	5.090071
+location	Halhul	31.5775471	35.0993156
 location	Halle	50.723860	4.235891
 location	Ham Sous Varsberg	49.1796	6.6452
 location	Hamden	41.397428	-72.924035
@@ -837,6 +842,7 @@ location	Jackson County OR	42.398015	-122.7540948
 location	Jackson County WI	44.312857	-90.780626
 location	Jagtial	18.82135895	78.91506632525903
 location	Jaipur	26.901676	75.793978
+location	Jalazone	31.951986	35.21155
 location	Jalna	19.9182328	75.8686246900443
 location	Jamnagar	22.471143	70.051543
 location	Jamundi	3.260158	-76.539750
@@ -1089,6 +1095,7 @@ location	Mahon	39.9148	4.2231
 location	Mahuva	21.0914409	71.7621979
 location	Mairena Aljarafe	37.347290	-6.052941
 location	Maizières Les Metz	49.210252	6.1600345
+location	Majdal Bani Fadil	32.083611	35.362778
 location	Malaga	36.718690	-4.432799
 location	Maldegem	51.197062	3.450921
 location	Maliano	43.41845	-3.83623
@@ -1483,6 +1490,7 @@ location	Quilmes	-34.7206	-58.2546
 location	Quintana de Raneros	42.5485607	-5.6328788
 location	Quito	-0.2201641	-78.5123274
 location	Qurayyat	23.2610439	58.9202694
+location	Qusra	32.085278	35.33
 location	Quévy	50.369910	3.951226
 location	Rabnita	47.7534702	28.9780857
 location	Racine	42.721147	-87.800333
@@ -2015,6 +2023,7 @@ location	Yorkshire	53.3833	-1.4599
 location	Yorktown Heights	41.2709	-73.7776
 location	Yuecheng	29.9882	120.5826
 location	Yumbo	3.525117	-76.502240
+location	Zahedan	29.4928874	60.8503017
 location	Zamora	-4.0042008	-78.95777541910938
 location	Zams	47.159925	10.587413
 location	Zaragoza	41.6488	-0.8891
@@ -2038,6 +2047,7 @@ location	Zulueta	42.745008	-1.579320
 location	Zululand	-27.897909900000002	31.293846335885597
 location	Zumarraga	43.0859968	-2.3140925
 location	Zurita	43.3476194	-3.9883478
+location	al-Arroub	31.6232237	35.136928
 location	eThekwini	-29.861825	31.009909
 location	iLembe	-29.240765	31.234110920000003
 location	uMgungundlovu	-29.52982	30.057047991912206
@@ -2148,6 +2158,7 @@ division	Ben Arous	36.747441	10.234475
 division	Beni Brak	32.0849	34.8352
 division	Berlin	52.507192	13.408126
 division	Bern	46.855135	7.570549
+division	Bethlehem	31.7043556	35.2061876
 division	Bihac	44.8120	15.8686
 division	Bihar	25.0961	85.3131
 division	Bizerte	37.280658	9.863049
@@ -2408,6 +2419,7 @@ division	Hauts de France	49.934396	2.783002
 division	Hawaii	19.8968	-155.5828
 division	Hawali	29.3378	48.0235
 division	Hawkes Bay	-39.4343279	176.7652742
+division	Hebron	31.528902	35.0944873
 division	Heilongjiang	47.286490	127.992676
 division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
@@ -2471,6 +2483,9 @@ division	Jamtland Harjedalen	62.162882	13.755564
 division	Japan	35.68536	139.75309
 division	Jatov	48.1284623	18.028264
 division	Jeddah	21.4858	39.1925
+division	Jenin	32.4618837	35.297566
+division	Jericho	31.855987	35.4598851
+division	Jerusalem	32.1142635	35.0344905
 division	Jerusalem District	31.7648	34.9948
 division	Jhenaidha	23.547692	89.175424
 division	Jiangsu	33.077761	119.825116
@@ -2669,6 +2684,7 @@ division	Murcia	37.9922	-1.1307
 division	Muscat	23.580244	58.362707
 division	Myanmar	20.600856	96.287616
 division	Mymensingh	24.8386014	90.41126950462677
+division	Nablus	32.2205316	35.2569374
 division	Nagasaki	32.796447	129.818142
 division	Nakhonnayok	14.180467	101.096533
 division	Namur	50.457215	4.879493
@@ -2818,6 +2834,7 @@ division	Punjab	31.1471	75.3412
 division	Punta Arenas	53.1638	70.9171
 division	Puntarenas	10.0730022	-84.8622981
 division	Qatar	25.27932	51.52245
+division	Qom	34.6423117	50.8800969
 division	Quangninh	21.0064	107.2925
 division	Quebec	52.9399	-73.5491
 division	Queensland	-23.094025	144.192275
@@ -2829,6 +2846,7 @@ division	Raanana	32.189052	34.868626
 division	Rabat	33.976469	-6.843796
 division	Rajasthan	26.498229	73.881085
 division	Rajshahi	24.372633	88.606356
+division	Ramallah	31.9030543	35.1952255
 division	Ramat Gan	32.0684	34.
 division	Ramla	31.9316	34.8729
 division	Rancagua	-34.1701	-70.7406
@@ -2905,6 +2923,7 @@ division	Sinaloa	25.0000001	-107.5000001
 division	Singapore	1.344189	103.867546
 division	Sint-Niklaas	51.1559	4.1544
 division	Sint-Truiden	50.8157	5.1863
+division	Sistan and Baluchestan	28.1292481	60.8236848
 division	Skane	55.9903	13.5958
 division	Skopje	41.9960924	21.4316495
 division	Slask	50.406080	18.976345
@@ -3012,6 +3031,7 @@ division	Trondelag	63.87759235	10.195050547141093
 division	Trondheim	63.4305	10.3951
 division	Tubize	50.6905	4.2026
 division	Tucuman	-26.8083	-65.2176
+division	Tulkarem	32.3111468	35.0275505
 division	Tunisia	33.654143	9.065134
 division	Turkey	39	35
 division	Turnhout	51.321956	4.940098
@@ -3220,6 +3240,7 @@ country	North Macedonia	41.6171214	21.7168387
 country	Norway	61.3109	8.73701
 country	Oman	20.565641	56.861042
 country	Pakistan	30.0	70.0
+country	Palestine	31.94696655	35.27386547291496
 country	Panama	8.98333	-79.5166
 country	Peru	-9.650468	-75.328211
 country	Philippines	11.383086	123.521862
