@@ -52,11 +52,13 @@ def read_data(path):
                         if id in data:
                             print("Attention, same sequence added two times! (" + id + ")")
                         data[id] = {}
-                        for j in range(-2,24):
+                        j = -2
+                        while (i+j) < len(metadata_changes) and metadata_changes[i+j] != "\n":
                             k = metadata_changes[i+j].strip()
                             (key, content) = cut(k)
                             if key != "gisaid_epi_isl":
                                 data[id][key] = content
+                            j += 1
 
                     elif changed:
                         if id in data:
