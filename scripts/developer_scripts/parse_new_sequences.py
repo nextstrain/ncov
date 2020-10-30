@@ -93,9 +93,9 @@ def check_dates(data, today):
         month = int(date[5:7])
         year = int(date[:4])
 
-        day_today = int(date[8:])
-        month_today = int(date[5:7])
-        year_today = int(date[:4])
+        day_today = int(today[8:])
+        month_today = int(today[5:7])
+        year_today = int(today[:4])
 
 
         #check for past dates
