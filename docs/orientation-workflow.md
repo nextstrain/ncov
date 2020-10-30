@@ -32,7 +32,7 @@ Required input files (e.g. the sequence data generated in the [data preparation 
 ![snakemake_workflow](images/basic_snakemake_build.png)
 
 
-We encourage you to take a look at [`main_workflow.smk`](https://github.com/nextstrain/ncov/blob/tutorial/workflow/snakemake_rules/main_workflow.smk) to see what each rule is doing in more detail.  
+We encourage you to take a look at [`main_workflow.smk`](https://github.com/nextstrain/ncov/blob/master/workflow/snakemake_rules/main_workflow.smk) to see what each rule is doing in more detail.  
 
 >Note: Not all of the rules included are essential, or may even be desirable for your analysis. Your build may be able to be made a lot simpler, depending on your goals.
 
