@@ -76,3 +76,4 @@ Liverpool	England
 Siena	Tuscany
 Perm	Perm Krai
 Zahedan	Sistan and Baluchestan
+Beruwala	Kalutara

@@ -250,6 +250,10 @@ location	Rupnagar
 # Ladakh
 location	Kargil
 
+### Sri Lanka
+# Kalutara
+location	Beruwala
+
 ### Nepal
 # Kathmandu
 location	Kathmandu
@@ -1585,6 +1589,7 @@ location	Tuebingen
 location	Heinsberg
 location	Heinsberg District
 location	Duesseldorf
+location	Essen
 location	Münster
 location	Bielefeld
 
@@ -1799,36 +1804,103 @@ location	Rabnita
 location	Lutsk
 
 ### Russia
+# Pskov Oblast
+location	Velikiye Luki
+
 # Leningrad Oblast
 location	Sosnovyi Bor
 location	Kipen
+location	Yanino
+location	Vsevolozhsk
+location	Kirovsk
+location	Kirishi
 
 # Novgorod Oblast
+location	Veliky Novgorod
 location	Borovichi
 
+# Bryansk Oblast
+location	Bryansk
+
+# Republic of Karelia
+location	Petrozavodsk
+
+# Murmansk Oblast
+location	Murmansk
+location	Severomorsk
+
+# Kaluga Oblast
+location	Tovarkovo
+
+# Moscow Oblast
+location	Uvarovka
+location	Lapino
+location	Bronnitsy
+
 # Krasnodar
+location	Anapa
+location	Krasnodar
 location	Sochi
+
+# Voronezh Oblast
+location	Voronezh
 
 # Republic of Adygea
 location	Maykop
 
+# Ivanovo Oblast
+location	Ivanovo
+
+# Karachay-Cherkess Republic
+location	Zelenchukskaya
+location	Karachayevsk
+location	Cherkessk
+
+# Stavropol Krai
+location	Yessentuki
+location	Stavropol
+
 # Nizhny Novgorod Oblast
 location	Nizhny Novgorod
 
+# Republic of Ingushetia
+location	Nazran
+
 # Republic of Kalmykia
 location	Elista
+
+# Chechen Republic
+location	Grozny
+
+# Republic of Dagestan
+location	Derbent
+location	Makhachkala
+
+# Mari El Republic
+location	Kozmodemyansk
+
+# Komi Republic
+location	Ukhta
+location	Sosnogorsk
 
 # Perm Krai
 location	Perm
 
 # Sverdlovsk
 location	Shalya
+location	Kachkanar
 location	Revda
 location	Verkhny Tagil
+location	Pervouralsk
 location	Nizhny Tagil
+location	Krasnouralsk
 location	Kirovgrad
 location	Verkhnyaya Pyshma
 location	Ekaterinburg
+location	Zarechny
+
+# Khanty-Mansi Autonomous Okrug
+location	Khanty-Mansiysk
 
 # Omsk
 location	Ust-Ishim
@@ -1847,6 +1919,12 @@ location	Sedelnikovo
 
 # Novosibirsk
 location	Novosibirsk
+
+# Altai Krai
+location	Barnaul
+
+# Kemerovo Oblast
+location	Kemerovo
 
 # Republic of Khakassia
 location	Abakan
@@ -1910,7 +1988,10 @@ location	Brasilia
 
 # São Paulo
 location	Euclides Da Cunha Paulista
+location	Presidente Epitacio
 location	Presidente Venceslau
+location	Santo Anastacio
+location	Emilianopolis
 location	Presidente Prudente
 location	Araçatuba
 location	Assis
@@ -1938,6 +2019,7 @@ location	Jarinu
 location	São Paulo
 location	Diadema
 location	Sao Bernardo do Campo
+location	Santo Andre
 location	Guarulhos
 location	Maua
 location	Sao Vicente
@@ -1966,6 +2048,7 @@ location	Parnaiba
 
 # Bahia
 location	Feira de Santana
+location	Teixeira de Freitas
 
 # Espirito Santo
 location	Vila Velha
@@ -2851,6 +2934,7 @@ division	Ladakh
 ### Sri Lanka
 division	Kalutara
 division	Colombo
+division	Gampaha
 division	Sri Lanka
 
 ### Nepal
@@ -3578,6 +3662,7 @@ division	Greece
 division	Thessaloniki
 
 ### Lithuania
+division	Klaipedos Apskritis
 division	Taurages Apskritis
 division	Marijampoles Apskritis
 division	Lithuania
@@ -3669,32 +3754,46 @@ division	Agri
 division	Kars Province
 
 ### Russia
-division	Pskov
+division	Pskov Oblast
 division	Saint-Petersburg
 division	Leningrad Oblast
 division	Novgorod Oblast
-division	Bryansk
+division	Bryansk Oblast
+division	Republic of Karelia
 division	Tver
-division	Moscow
+division	Murmansk Oblast
+division	Kaluga Oblast
+division	Moscow Oblast
 division	Moscow Region
 division	Yaroslavl
 division	Lipetsk
 division	Krasnodar
+division	Voronezh Oblast
 division	Republic of Adygea
+division	Ivanovo Oblast
+division	Karachay-Cherkess Republic
 division	Kabardino-Balkaria
+division	Stavropol Krai
 division	Nizhny Novgorod Oblast
+division	Republic of Ingushetia
 division	Republic of Kalmykia
-division	Chechen
+division	Chechen Republic
+division	Republic of Dagestan
+division	Mari El Republic
 division	Samara
 division	Tatarstan
+division	Komi Republic
 division	Orenburg
 division	Perm Krai
 division	Bashkortostan
 division	Chelyabinsk
 division	Sverdlovsk
+division	Khanty-Mansi Autonomous Okrug
 division	Omsk
 division	Yamalo-Nenets
 division	Novosibirsk
+division	Altai Krai
+division	Kemerovo Oblast
 division	Republic of Khakassia
 division	Krasnoyarsk
 division	Russia
