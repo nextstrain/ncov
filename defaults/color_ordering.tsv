@@ -1585,6 +1585,9 @@ location	Munich
 # Baden-Wuerttemberg
 location	Tuebingen
 
+# Hesse
+location	Frankfurt
+
 # North Rhine Westphalia
 location	Heinsberg
 location	Heinsberg District
@@ -2047,8 +2050,8 @@ location	Itaborai
 location	Parnaiba
 
 # Bahia
-location	Feira de Santana
 location	Teixeira de Freitas
+location	Feira de Santana
 
 # Espirito Santo
 location	Vila Velha
@@ -3432,6 +3435,7 @@ division	Schwyz
 division	Ticino
 division	Glarus
 division	Thurgau
+division	Appenzell Ausserrhoden
 division	Sankt Gallen
 division	Graubünden
 
@@ -3458,7 +3462,7 @@ division	Copenhagen
 ### Germany
 division	Bavaria
 division	Baden-Wuerttemberg
-division	Frankfurt
+division	Hesse
 division	Germany
 division	North Rhine Westphalia
 division	Berlin
