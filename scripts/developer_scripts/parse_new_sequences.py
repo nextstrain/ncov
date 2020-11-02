@@ -238,7 +238,7 @@ def collect_labs(data, table_file_name):
             lab_dictionary[country] = {}
         if description in lab_dictionary[country]:
             print("Warning: lab description is found two times in excel table in same country (" + country + ", " + description + ")" )
-        lab_dictionary[country][description] = handle
+        lab_dictionary[country][description.lower()] = handle
 
 
     lab_collection = {}
@@ -254,9 +254,9 @@ def collect_labs(data, table_file_name):
             s = country + ":\n"
             for lab in submitting_labs[region][country]:
                 s += lab + ": "
-                if country in lab_dictionary and lab in lab_dictionary[country]:
-                    s += bold(lab_dictionary[country][lab])
-                    lab_collection[region][country].append(lab_dictionary[country][lab])
+                if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
+                    s += bold(lab_dictionary[country][lab.lower()])
+                    lab_collection[region][country].append(lab_dictionary[country][lab.lower()])
                 else:
                     s += bold("?")
                     lab_collection[region][country].append("???")
@@ -270,9 +270,9 @@ def collect_labs(data, table_file_name):
             s = country + ":\n"
             for lab in originating_labs[region][country]:
                 s += lab
-                if country in lab_dictionary and lab in lab_dictionary[country]:
-                    s += ": " + bold(lab_dictionary[country][lab])
-                    lab_collection[region][country].append(lab_dictionary[country][lab])
+                if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
+                    s += ": " + bold(lab_dictionary[country][lab.lower()])
+                    lab_collection[region][country].append(lab_dictionary[country][lab.lower()])
                 s += "\n"
             print(s)
 
@@ -282,7 +282,11 @@ def collect_labs(data, table_file_name):
         for country in authors[region]:
             s = country + ":\n"
             for author in authors[region][country]:
-                s += author + "\n"
+                s += author
+                if country in lab_dictionary and author.lower() in lab_dictionary[country]:
+                    s += ": " + bold(lab_dictionary[country][author.lower()])
+                    lab_collection[region][country].append(lab_dictionary[country][author.lower()])
+                s += "\n"
             print(s)
 
     return lab_collection
