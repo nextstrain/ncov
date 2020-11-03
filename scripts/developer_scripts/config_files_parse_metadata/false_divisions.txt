@@ -78,3 +78,4 @@ Perm	Perm Krai
 Zahedan	Sistan and Baluchestan
 Beruwala	Kalutara
 Frankfurt	Hesse
+New Delhi	Delhi
