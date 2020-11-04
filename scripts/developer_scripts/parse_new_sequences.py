@@ -256,8 +256,9 @@ def collect_labs(data, table_file_name):
                 s += lab + ": "
                 if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
                     s += bold(lab_dictionary[country][lab.lower()])
-                    if lab_dictionary[country][lab.lower()] not in lab_collection[region][country]:
-                        lab_collection[region][country].append(lab_dictionary[country][lab.lower()])
+                    for l in lab_dictionary[country][lab.lower()].split(", "):
+                        if l not in lab_collection[region][country]:
+                            lab_collection[region][country].append(l)
                 else:
                     s += bold("?")
                     lab_collection[region][country].append("???")
@@ -273,8 +274,9 @@ def collect_labs(data, table_file_name):
                 s += lab
                 if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
                     s += ": " + bold(lab_dictionary[country][lab.lower()])
-                    if lab_dictionary[country][lab.lower()] not in lab_collection[region][country]:
-                        lab_collection[region][country].append(lab_dictionary[country][lab.lower()])
+                    for l in lab_dictionary[country][lab.lower()].split(", "):
+                        if l not in lab_collection[region][country]:
+                            lab_collection[region][country].append(l)
                 s += "\n"
             print(s)
 
@@ -287,8 +289,9 @@ def collect_labs(data, table_file_name):
                 s += author
                 if country in lab_dictionary and author.lower() in lab_dictionary[country]:
                     s += ": " + bold(lab_dictionary[country][author.lower()])
-                    if lab_dictionary[country][author.lower()] not in lab_collection[region][country]:
-                        lab_collection[region][country].append(lab_dictionary[country][author.lower()])
+                    for a in lab_dictionary[country][author.lower()].split(", "):
+                        if a not in lab_collection[region][country]:
+                            lab_collection[region][country].append(a)
                 s += "\n"
             print(s)
 
