@@ -25,7 +25,7 @@ location	União das freguesias de Santarem	Santarem
 location	União das freguesias de Seia	Seia
 location	Buraymi	Buraimi
 location	Qurayat	Qurayyat
-location	Falagueria- Venda Nova	Amadora
+location	Falagueria- Venda Nova	Amadoramos
 location	Stanger	KwaDukuza
 location	Ethekwini	eThekwini
 location	Uthukela	uThukela
@@ -329,7 +329,7 @@ location	Trumbull-Shelton	Trumbull	(North America, USA, Connecticut)
 division	Leningrad Region	Leningrad Oblast	(Europe, Russia)
 division	Sverdlovsk Oblast	Sverdlovsk	(Europe, Russia)
 division	Primorsky Krai	Primorsky	(Europe, Russia)
-division	Novogorod Oblast	Novgorod Oblast	(Europe, Russia)
+division	Novogorod Oblast	Novgorod	(Europe, Russia)
 location	Nizhniy Tagil	Nizhny Tagil	(Europe, Russia, Sverdlovsk)
 location	Jalazon	Jalazone	(Asia, Palestine, Ramallah)
 location	Halhoul	Halhul	(Asia, Palestine, Hebron)
@@ -344,3 +344,24 @@ division	Moscow	Moscow Oblast	(Europe, Russia)
 division	Chechen	Chechen Republic	(Europe, Russia)
 division	Bryansk	Bryansk Oblast	(Europe, Russia)
 division	Constituency Unknown	
+division	Republic of Adygea	Adygea	(Europe, Russia)
+division	Altai K	Altai Krai	(Europe, Russia)
+division	Republic of Dagestan	Dagestan	(Europe, Russia)
+division	Republic of Ingushetia	Ingushetia	(Europe, Russia)
+division	Ivanovo Oblast	Ivanovo	(Europe, Russia)
+division	Karachay-Cherkess Republic	Karachay-Cherkess	(Europe, Russia)
+division	Kemerovo Oblast	Kemerovo	(Europe, Russia)
+division	Khanty-Mansi Autonomous Okrug	Khanty-Mansi	(Europe, Russia)
+division	Republic of Khakassia	Khakassia	(Europe, Russia)
+division	Republic of Kalmykia	Kalmykia	(Europe, Russia)
+division	Kaluga Oblast	Kaluga	(Europe, Russia)
+division	Komi Republic	Komi	(Europe, Russia)
+division	Republic of Karelia	Karelia	(Europe, Russia)
+division	Leningrad	Leningrad Oblast	(Europe, Russia)
+division	Mari El Republic	Mari El	(Europe, Russia)
+division	Murmansk Oblast	Murmansk	(Europe, Russia)
+division	Novgorod Oblast	Novgorod	(Europe, Russia)
+division	Nizhny Novgorod Oblast	Nizhny Novgorod	(Europe, Russia)
+division	Stavropol Krai	Stavropol	(Europe, Russia)
+division	Voronezh Oblast	Voronezh	(Europe, Russia)
+division	Moscow Region	Moscow Oblast	(Europe, Russia)

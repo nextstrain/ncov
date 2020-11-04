@@ -2110,6 +2110,7 @@ division	Aatalunya	41.670376	1.657348
 division	Abruzzo	42.192	13.7289
 division	Abu Dhabi	24.4747961	54.3705762
 division	Acre	-8.862769	-70.079844
+division	Adygea	44.6939006	40.1520421
 division	Adıyaman	37.900714	38.309879
 division	Africa	4.070194	21.824559
 division	Afyon	38.752653	30.553661
@@ -2342,6 +2343,7 @@ division	Curacao	12.1845	-68.9640875031406
 division	Cuzco	-13.5170887	-71.9785356
 division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
+division	Dagestan	43.0574916	47.1332224
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
 division	Dalarna	61.0917	14.6664
@@ -2511,6 +2513,7 @@ division	Imbabura	0.3753621	-78.355681
 division	India	21.077353	78.723951
 division	Indiana	40.2672	-86.1349
 division	Indonesia	0.240253	114.878847
+division	Ingushetia	43.11542075	45.01713552301937
 division	Innlandet	61.26810555	10.485458802304304
 division	Iowa	41.878	-93.0977
 division	Iran	34.5732	51.876
@@ -2524,7 +2527,7 @@ division	Istria	45.189488	13.889205
 division	Italian cruise ship	41.831176	11.491061
 division	Italy	43.382775	12.183629
 division	Ivano-Frankivsk	48.9225224	24.7103188
-division	Ivanovo Oblast	57.04529735	41.37804415061976
+division	Ivanovo	57.04529735	41.37804415061976
 division	Ivory Coast	7.9897371	-5.5679458
 division	Ixelles	50.8333	4.3666
 division	Jakarta	-6.221537	106.838429
@@ -2554,7 +2557,8 @@ division	Kabardino-Balkaria	43.4428286	43.4204809
 division	Kaggevinne	50.9794	5.0190
 division	Kakanj	44.1280	18.1178
 division	Kalmar	56.6634	16.3568
-division	Kaluga Oblast	54.3141064	35.324112237538515
+division	Kalmykia	46.495588	45.44294457678551
+division	Kaluga	54.3141064	35.324112237538515
 division	Kalutara	6.5835219	79.9612508
 division	Kalyoubia	30.283113	31.247786
 division	Kamenicna	47.8162871	18.0426149
@@ -2562,9 +2566,10 @@ division	Kanagawa	35.403801	139.294288
 division	Kansai	34.778675	135.880055
 division	Kansas	39.0119	-98.4842
 division	Kanto	36.167777	139.170466
-division	Karachay-Cherkess Republic	43.7368326	41.7267991
+division	Karachay-Cherkess	43.7368326	41.7267991
 division	Karachi	24.8607	67.0011
 division	Karaman	37.165058	33.294127
+division	Karelia	62.6194031	33.4920267
 division	Kargil	34.5539	76.1349
 division	Karnataka	15.3173	75.7139
 division	Kars Province	40.6076749	43.0948497
@@ -2575,7 +2580,7 @@ division	Kauno Apskritis	55.0163259	24.085757831305433
 division	Kayseri	38.7205	35.4826
 division	Kecskemet	46.8964	19.6897
 division	Keelung	25.1276	121.7392
-division	Kemerovo Oblast	54.5335781	87.342861
+division	Kemerovo	54.5335781	87.342861
 division	Kentucky	37.649540	-85.450190
 division	Kenya	0.0236	37.9062
 division	Kerala	10.359825	76.39955
@@ -2583,7 +2588,8 @@ division	Kerry	52.14533445	-9.517401092833236
 division	Kfar Habad	31.9901	34.8491
 division	Kfar Saba	32.180607	34.912861
 division	Khabarovsk	50.5888	135
-division	Khanty-Mansi Autonomous Okrug	61.0259025	69.0982628
+division	Khakassia	53.4399379	90.0664303
+division	Khanty-Mansi	61.0259025	69.0982628
 division	Kharkiv	49.9902794	36.2303893
 division	Khulna	22.815139549999998	89.44492672055918
 division	Khyber Pakhtunkhwa	33.696621	72.636031
@@ -2599,7 +2605,7 @@ division	Kochi	33.518628	133.505674
 division	Koersel	51.0584	5.2718
 division	Kolda	12.9493	-14.4723
 division	Kombo	13.294035	-16.656832
-division	Komi Republic	63.9881421	54.3326073
+division	Komi	63.9881421	54.3326073
 division	Kongo Central	-5.8162516	13.4908753
 division	Konya	37.859743	32.495438
 division	Koprivnica	46.168157	16.827208
@@ -2693,7 +2699,7 @@ division	Manitoba	55.182879	-97.823531
 division	Maranhão	-4.9609	-45.2744
 division	Marche	43.374025	13.161012
 division	Mardin	37.3129	40.7340
-division	Mari El Republic	56.5767504	47.8817512
+division	Mari El	56.5767504	47.8817512
 division	Marijampoles Apskritis	54.679230399999994	23.200468079034664
 division	Martin	49.0617	18.919
 division	Maryland	39.0458	-76.6413
@@ -2743,7 +2749,7 @@ division	Mpumalanga	-25.5653	30.5279
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
 division	Murcia	37.9922	-1.1307
-division	Murmansk Oblast	68.0000418	33.9999151
+division	Murmansk	68.0000418	33.9999151
 division	Muscat	23.580244	58.362707
 division	Myanmar	20.600856	96.287616
 division	Mymensingh	24.8386014	90.41126950462677
@@ -2781,7 +2787,7 @@ division	Niger	18.061703	10.145544
 division	Nigeria	10	8
 division	Nile River Cruise	23.998417	32.873216
 division	Nivelles	50.594427	4.331238
-division	Nizhny Novgorod Oblast	55.4718033	44.0911594
+division	Nizhny Novgorod	55.4718033	44.0911594
 division	Nonthaburi	13.852511	100.522791
 division	Nord Kivu	-0.5645647	28.7061945
 division	Normandie	48.8799	0.1713
@@ -2806,7 +2812,7 @@ division	Norway	64.574131	11.52701029
 division	Nottinghamshire	53.134734	-0.989052
 division	Nouvelle-Aquitaine	45.4039367	0.3756199
 division	Nova Scotia	44.879119	-64.020314
-division	Novgorod Oblast	58.2843833	32.5169757
+division	Novgorod	58.2843833	32.5169757
 division	Novi Pazar	43.1407	20.5214
 division	Novi Sad	45.269432	19.830203
 division	Novi Travnik	44.1748	17.6634
@@ -2917,13 +2923,7 @@ division	Rancagua	-34.1701	-70.7406
 division	Rangpur	25.748894	89.260669
 division	Rawalpindi	33.583175	73.049347
 division	Red River Delta	21.010949	105.786621
-division	Republic of Adygea	44.6939006	40.1520421
 division	Republic of Crymea	45.3453	34.4997
-division	Republic of Dagestan	43.0883099	47.14988017944228
-division	Republic of Ingushetia	43.11542075	45.01713552301937
-division	Republic of Kalmykia	46.495588	45.44294457678551
-division	Republic of Karelia	62.6194031	33.4920267
-division	Republic of Khakassia	53.4399379	90.0664303
 division	Republic of Sakha	66.7613	124.1238
 division	Republic of Tatarstan	55.1802	50.7264
 division	Reunion	-21.1309332	55.5265771
@@ -3028,7 +3028,7 @@ division	Special Region of Yogyakarta	-7.9778383999999996	110.36722565020224
 division	Split	43.514220	16.461441
 division	Sri Lanka	7.75	80.75
 division	St-Louis	16.0326	-16.4818
-division	Stavropol Krai	44.941379850000004	43.66309345141463
+division	Stavropol	44.941379850000004	43.66309345141463
 division	Stockholm	59.33267	18.061849
 division	Straseni	47.146331	28.6148909
 division	Styria	47.3593	14.4700
@@ -3165,7 +3165,7 @@ division	Virginia	37.926868	-78.024902
 division	Vitez	44.1525	17.7903
 division	Volyn	50.765553049999994	25.34908213724668
 division	Vorarlberg	47.232027	9.897419
-division	Voronezh Oblast	50.9800393	40.1506507
+division	Voronezh	50.9800393	40.1506507
 division	Vrancea	44.545232	22.598705
 division	Vysocina Region	49.442644	15.672714
 division	Waikato	-37.777199	175.528928

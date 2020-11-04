@@ -1819,24 +1819,24 @@ location	Vsevolozhsk
 location	Kirovsk
 location	Kirishi
 
-# Novgorod Oblast
+# Novgorod
 location	Veliky Novgorod
 location	Borovichi
 
 # Bryansk Oblast
 location	Bryansk
 
-# Republic of Karelia
+# Karelia
 location	Petrozavodsk
 
-# Murmansk Oblast
+# Murmansk
 location	Murmansk
 location	Severomorsk
 
-# Kaluga Oblast
+# Kaluga
 location	Tovarkovo
 
-# Moscow Oblast
+# Moscow Region
 location	Uvarovka
 location	Lapino
 location	Bronnitsy
@@ -1846,44 +1846,44 @@ location	Anapa
 location	Krasnodar
 location	Sochi
 
-# Voronezh Oblast
+# Voronezh
 location	Voronezh
 
-# Republic of Adygea
+# Adygea
 location	Maykop
 
-# Ivanovo Oblast
+# Ivanovo
 location	Ivanovo
 
-# Karachay-Cherkess Republic
+# Karachay-Cherkess
 location	Zelenchukskaya
 location	Karachayevsk
 location	Cherkessk
 
-# Stavropol Krai
+# Stavropol
 location	Yessentuki
 location	Stavropol
 
-# Nizhny Novgorod Oblast
+# Nizhny Novgorod
 location	Nizhny Novgorod
 
-# Republic of Ingushetia
+# Ingushetia
 location	Nazran
 
-# Republic of Kalmykia
+# Kalmykia
 location	Elista
 
 # Chechen Republic
 location	Grozny
 
-# Republic of Dagestan
+# Dagestan
 location	Derbent
 location	Makhachkala
 
-# Mari El Republic
+# Mari El
 location	Kozmodemyansk
 
-# Komi Republic
+# Komi
 location	Ukhta
 location	Sosnogorsk
 
@@ -1903,7 +1903,7 @@ location	Verkhnyaya Pyshma
 location	Ekaterinburg
 location	Zarechny
 
-# Khanty-Mansi Autonomous Okrug
+# Khanty-Mansi
 location	Khanty-Mansiysk
 
 # Omsk
@@ -1927,10 +1927,10 @@ location	Novosibirsk
 # Altai Krai
 location	Barnaul
 
-# Kemerovo Oblast
+# Kemerovo
 location	Kemerovo
 
-# Republic of Khakassia
+# Khakassia
 location	Abakan
 
 # Buryatia
@@ -3762,44 +3762,44 @@ division	Kars Province
 division	Pskov Oblast
 division	Saint-Petersburg
 division	Leningrad Oblast
-division	Novgorod Oblast
+division	Novgorod
 division	Bryansk Oblast
-division	Republic of Karelia
+division	Karelia
 division	Tver
-division	Murmansk Oblast
-division	Kaluga Oblast
+division	Murmansk
+division	Kaluga
 division	Moscow Oblast
 division	Moscow Region
 division	Yaroslavl
 division	Lipetsk
 division	Krasnodar
-division	Voronezh Oblast
-division	Republic of Adygea
-division	Ivanovo Oblast
-division	Karachay-Cherkess Republic
+division	Voronezh
+division	Adygea
+division	Ivanovo
+division	Karachay-Cherkess
 division	Kabardino-Balkaria
-division	Stavropol Krai
-division	Nizhny Novgorod Oblast
-division	Republic of Ingushetia
-division	Republic of Kalmykia
+division	Stavropol
+division	Nizhny Novgorod
+division	Ingushetia
+division	Kalmykia
 division	Chechen Republic
-division	Republic of Dagestan
-division	Mari El Republic
+division	Dagestan
+division	Mari El
 division	Samara
 division	Tatarstan
-division	Komi Republic
+division	Komi
 division	Orenburg
 division	Perm Krai
 division	Bashkortostan
 division	Chelyabinsk
 division	Sverdlovsk
-division	Khanty-Mansi Autonomous Okrug
+division	Khanty-Mansi
 division	Omsk
 division	Yamalo-Nenets
 division	Novosibirsk
 division	Altai Krai
-division	Kemerovo Oblast
-division	Republic of Khakassia
+division	Kemerovo
+division	Khakassia
 division	Krasnoyarsk
 division	Russia
 division	Buryatia
