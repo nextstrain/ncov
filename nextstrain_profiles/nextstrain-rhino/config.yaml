@@ -6,14 +6,9 @@ cores: 20
 keep-going: True
 printshellcmds: True
 reason: True
-restart-times: 3
 stats: stats.json
 
 # Custom settings for running builds on a SLURM cluster with DRMAA bindings.
-
-# Wait a fixed number of seconds for missing files since the cluster file system
-# can be quite slow and the workflow can fail unnecessarily due to this latency.
-latency-wait: 60
 
 # Use conda environments for augur and related binaries. This is important in a
 # cluster environment where Docker is not available and Singularity may be
@@ -28,14 +23,31 @@ use-conda: True
 # else needs those resources. This is analogous to the spot resources on AWS.
 cluster-config: nextstrain_profiles/nextstrain-rhino/cluster.json
 
-# Submit jobs to the cluster with Python's DRMAA bindings instead of the SLURM
-# sbatch command. The string associated with this key tells DRMAA how to connect
-# cluster resources with those defined in the cluster config above. Jobs
-# submitted with DRMAA will submit, finish, or die much faster than jobs
-# submitted with sbatch because DRMAA does not use files on disk to track job
-# status. This speed can be noticeable when running workflows with hundreds of
-# jobs. More about DRMAA bindings here: https://pypi.org/project/drmaa/
-drmaa: " -p {cluster.partition} --nodes=1 --ntasks=1 --mem={cluster.memory} --cpus-per-task={cluster.cores} --tmp={cluster.disk} --time={cluster.time}"
+# Submit jobs to the cluster with SLURM's DRMAA bindings. The string associated
+# with this key tells SLURM how to map cluster resources with those defined in
+# the cluster config above.
+drmaa: " {cluster.partition} --nodes=1 --ntasks=1 --mem={cluster.memory} --cpus-per-task={cluster.cores} --tmp={cluster.disk} --time={cluster.time}"
+
+# NOTE: Use the settings from the next block if DRMAA is not an option.
+# Use a custom script to evaluate the status of jobs on the cluster. This
+# prevents jobs from dying silently and not being caught by Snakemake.
+#cluster: "sbatch {cluster.partition} --nodes=1 --ntasks=1 --mem={cluster.memory} --cpus-per-task={cluster.cores} --tmp={cluster.disk} --time={cluster.time}"
+#cluster-status: "slurm-status.py"
+
+# Wait a fixed number of seconds for missing files since the cluster file system
+# can be quite slow and the workflow can fail unnecessarily due to this latency.
+latency-wait: 60
+
+# Restart failed jobs multiple times since the cluster may kill our jobs
+# whenever another job with higher priority comes along.
+restart-times: 3
+
+# Limit job submission and status checks
+max-jobs-per-second: 1
+max-status-checks-per-second: 1
+
+# Limit cores used on the head node where Snakemake is running.
+local-cores: 1
 
 # Set the name for the job as display in the cluster queue.
 jobname: "{rulename}.{jobid}.sh"
