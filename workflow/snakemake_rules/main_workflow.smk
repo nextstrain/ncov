@@ -10,9 +10,6 @@ rule download:
         aws s3 cp s3://nextstrain-ncov-private/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
         """
 
-from datetime import date
-from treetime.utils import numeric_date
-
 rule filter:
     message:
         """
@@ -32,7 +29,7 @@ rule filter:
         min_length = config["filter"]["min_length"],
         exclude_where = config["filter"]["exclude_where"],
         min_date = config["filter"]["min_date"],
-        date = numeric_date(date.today())
+        date = date.today().strftime("%Y-%m-%d")
     conda: config["conda_environment"]
     shell:
         """
