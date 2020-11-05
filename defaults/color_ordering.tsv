@@ -614,7 +614,6 @@ location	El Rosal
 location	Santiago de Compostela
 
 # Extremadura
-location	Alcantara
 location	Arroyo de la Luz
 location	Caceres
 location	Plasencia
@@ -623,6 +622,7 @@ location	Jaraicejo
 location	Navalmoral de la Mata
 location	Villanueva de la Vera
 location	Pueblonuevo de Miramontes
+location	Herrera del Duque
 
 # Andalusia
 location	Rota
