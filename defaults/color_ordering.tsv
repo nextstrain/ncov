@@ -614,6 +614,7 @@ location	El Rosal
 location	Santiago de Compostela
 
 # Extremadura
+location	Alcantara
 location	Arroyo de la Luz
 location	Caceres
 location	Plasencia
@@ -1015,6 +1016,7 @@ location	Warwickshire
 location	Ploudalmezeau
 location	Lannilis
 location	Brest
+location	Chateaulin
 location	Morlaix
 location	Saint Pierre Quiberon
 location	Arradon
@@ -1023,6 +1025,8 @@ location	Vannes
 location	Sene
 location	La Rochelle
 location	Cayenne
+location	Betton
+location	Fougères
 location	Rennes
 
 # Pays de la Loire
@@ -1037,9 +1041,12 @@ location	Limoges
 
 # Centre-Val de Loire
 location	Fondettes
+location	Rouziers-de-Touraine
 location	Tours
+location	Blois
 location	Abondant
 location	Angers
+location	Craon
 
 # Ile de France
 location	Limay
@@ -1059,6 +1066,7 @@ location	Essonne
 location	Boulogne Billancourt
 location	Argenteuil
 location	Colombes
+location	Verrières-le-Buisson
 location	Asnières-sur-Seine
 location	Levallois-Perret
 location	Vanves
@@ -1070,6 +1078,7 @@ location	Sarcelles
 location	Seine-Port
 location	Plessis Trevise
 location	Moussy Le Neuf
+location	Compans
 location	Saint-Thibault-des-Vignes
 location	Chanteloup-en-Brie
 
@@ -1109,6 +1118,7 @@ location	Contamines
 location	Vienne
 
 # Bourgogne-France-Comté
+location	Montcenis
 location	Chalon sur Saone
 location	Dijon
 location	Thise
@@ -1133,6 +1143,7 @@ location	Ham Sous Varsberg
 location	Munster
 location	Spicheren
 location	Sarreguemines
+location	Thann
 location	Soultzeren
 location	Murbach
 location	Guebwiller
@@ -1143,6 +1154,7 @@ location	Ensisheim
 location	Reguisheim
 location	Biesheim
 location	Strasbourg
+location	Bischheim
 
 # Provence-Alpes-Côte d'Azur
 location	Marseille
@@ -1578,10 +1590,15 @@ location	Luxembourg
 # Vestland
 location	Bergen
 
+### Denmark
+# Faroe Islands
+location	Faroe Islands
+
 ### Germany
 # Bavaria
 location	Starnberg
 location	Munich
+location	Erlangen
 
 # Baden-Wuerttemberg
 location	Tuebingen
@@ -1603,6 +1620,9 @@ location	Rostock
 ### Italy
 # Piedmont
 location	Turin
+
+# Sardinia
+location	Nuoro
 
 # Lombardy
 location	Pavia
@@ -1836,7 +1856,7 @@ location	Severomorsk
 # Kaluga
 location	Tovarkovo
 
-# Moscow Region
+# Moscow Oblast
 location	Uvarovka
 location	Lapino
 location	Bronnitsy
@@ -2000,6 +2020,7 @@ location	Presidente Prudente
 location	Araçatuba
 location	Assis
 location	Birigui
+location	Ribeirao Preto
 location	Americana
 location	Sumare
 location	Hortolandia
@@ -3457,7 +3478,9 @@ division	Tromsogfinnmark
 
 ### Denmark
 division	Faroe Islands
+division	Syddanmark
 division	Denmark
+division	Sjaelland
 division	Copenhagen
 
 ### Germany
@@ -3769,7 +3792,6 @@ division	Tver
 division	Murmansk
 division	Kaluga
 division	Moscow Oblast
-division	Moscow Region
 division	Yaroslavl
 division	Lipetsk
 division	Krasnodar
@@ -3979,9 +4001,31 @@ division	Nicaragua
 ### Guatemala
 division	Guatemala
 
+### Guadeloupe
+division	Vieux Habitants
+division	Basse-Terre
+division	Sainte-Rose
+division	Trois-Rivières
+division	Lamentin
+division	Baie-Mahault
+division	Guadeloupe
+division	Les Abymes
+division	Le Gosier
+division	Morne À l'Eau
+division	Sainte-Anne
+division	Le Moule
+division	Métropole
+division	Saint-François
+
 ### Belize
 division	Belize
 division	Belmopan
+
+### Saint Barthélemy
+division	Saint Barthélemy
+
+### Saint Martin
+division	Saint Martin
 
 ### Jamaica
 division	Jamaica
@@ -4243,7 +4287,10 @@ country	Panama
 country	Costa Rica
 country	Nicaragua
 country	Guatemala
+country	Guadeloupe
 country	Belize
+country	Saint Barthélemy
+country	Saint Martin
 country	Jamaica
 country	Dominican Republic
 country	Mexico
