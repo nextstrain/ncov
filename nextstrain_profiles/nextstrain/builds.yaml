@@ -30,7 +30,6 @@ builds:
     auspice_config: "nextstrain_profiles/nextstrain/north-america_auspice_config.json"
   oceania:
     subsampling_scheme: nextstrain_region
-    subclades: "nextstrain_profiles/nextstrain/subclades_OC.tsv"
     region: Oceania
     auspice_config: "nextstrain_profiles/nextstrain/oceania_auspice_config.json"
   south-america:
