@@ -3166,6 +3166,13 @@ division	Conakry
 ### Ivory Coast
 division	Ivory Coast
 
+### Côte d'Ivoire
+division	Yamoussoukro
+division	Bouafle
+division	Beoumi
+division	Bouaké
+division	Katiola
+
 ### Morocco
 division	Casablanca
 division	Rabat
@@ -3253,6 +3260,9 @@ division	KwaZulu-Natal
 
 ### Zambia
 division	Lusaka
+
+### Rwanda
+division	Rwanda
 
 ### Egypt
 division	Nile River Cruise
@@ -3479,8 +3489,11 @@ division	Tromsogfinnmark
 ### Denmark
 division	Faroe Islands
 division	Syddanmark
+division	Midtjylland
 division	Denmark
+division	Nordjylland
 division	Sjaelland
+division	Hovedstaden
 division	Copenhagen
 
 ### Germany
@@ -4199,6 +4212,7 @@ country	Senegal
 country	Sierra Leone
 country	Guinea
 country	Ivory Coast
+country	Côte d'Ivoire
 country	Morocco
 country	Mali
 country	Burkina Faso
@@ -4216,6 +4230,7 @@ country	Democratic Republic of the Congo
 country	Botswana
 country	South Africa
 country	Zambia
+country	Rwanda
 country	Egypt
 country	Uganda
 country	Kenya

@@ -905,3 +905,6 @@ Italy/INMI38/2020
 Italy/INMI39/2020
 Italy/INMI40/2020
 Italy/INMI41/2020
+
+# Sampling date in the past
+pangolin/Yunnan/MP20/2020

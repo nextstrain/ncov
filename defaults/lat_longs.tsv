@@ -2226,6 +2226,7 @@ division	Belize	16.8259793	-88.7600927
 division	Belmopan	17.250199	-88.770018
 division	Ben Arous	36.747441	10.234475
 division	Beni Brak	32.0849	34.8352
+division	Beoumi	7.6745381	-5.5827323
 division	Berlin	52.507192	13.408126
 division	Bern	46.855135	7.570549
 division	Bethlehem	31.7043556	35.2061876
@@ -2240,6 +2241,8 @@ division	Bolivar	8.753508	-74.367735
 division	Bolivar EC	-1.574489	-79.103194
 division	Borsod-Abaúj-Zemplén County	48.2939	20.6934
 division	Bosnia and Herzegovina	43.9159	17.6791
+division	Bouafle	6.9926792	-5.7444227
+division	Bouaké	7.6906058	-5.0298408
 division	Boufarik	36.57709	2.914137
 division	Bourgogne	47.0525	4.3837
 division	Bourgogne-France-Comté	47.2805	4.9994
@@ -2512,6 +2515,7 @@ division	Holon	32.0158	34.7874
 division	Holsbeek	50.9211	4.7570
 division	Hong Kong	22.3964	114.1095
 division	Houthalen-Helchteren	51.0312	5.3765
+division	Hovedstaden	55.86170985	12.313743483194546
 division	Hranice Na Moravě	49.5497	17.7349
 division	Huanuco	-9.893964	-76.299456
 division	Huasco	-28.467340	-71.221674
@@ -2595,6 +2599,7 @@ division	Karnataka	15.3173	75.7139
 division	Kars Province	40.6076749	43.0948497
 division	Kastamonu	41.550202	33.742886
 division	Kathmandu	27.712907	85.323557
+division	Katiola	8.0912137	-5.150708249056292
 division	Kaulille	51.1872	5.5257
 division	Kauno Apskritis	55.0163259	24.085757831305433
 division	Kayseri	38.7205	35.4826
@@ -2744,6 +2749,7 @@ division	Mexico City	19.404497	-99.143041
 division	Michigan	45.021203	-84.762273
 division	Michoacan	19.207098	-101.878113
 division	Midcentral	-40.398721	175.799685
+division	Midtjylland	56.23564835	9.234602771636588
 division	Milheeze	51.505685	5.799239
 division	Minas Gerais	-18.35789	-44.411895
 division	Minnesota	46.126042	-94.619581
@@ -2816,6 +2822,7 @@ division	Nivelles	50.594427	4.331238
 division	Nizhny Novgorod	55.4718033	44.0911594
 division	Nonthaburi	13.852511	100.522791
 division	Nord Kivu	-0.5645647	28.7061945
+division	Nordjylland	56.8152793	9.727330772696376
 division	Normandie	48.8799	0.1713
 division	Norrbotten	66.936364	20.341728
 division	Norte de Santander	8.107454	-72.862123
@@ -2970,6 +2977,7 @@ division	Rondonia	-10.943145	-62.8277863
 division	Roscommon	53.6982695	-8.218250761296193
 division	Rostock	54.130776	12.106778
 division	Russia	64.6863136	97.7453061
+division	Rwanda	-1.9646631	30.0644358
 division	Saint Barthélemy	17.9036287	-62.811568843006896
 division	Saint Martin	18.0668544	-63.0848869
 division	Saint-François	16.2532002	-61.2750706
@@ -3227,6 +3235,7 @@ division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762
 division	Wyoming	43.076	-107.2903
 division	Yamalo-Nenets	67.1471631	74.3415488
+division	Yamoussoukro	6.869145	-5.2823277
 division	Yangon	16.7967129	96.1609916
 division	Yaounde	3.8689867	11.5213344
 division	Yaroslavl	57.7781976	39.0021095
@@ -3282,6 +3291,7 @@ country	Cuba	23.0131338	-80.8328748
 country	Curacao	12.1845	-68.9640875031406
 country	Cyprus	34.965802	33.171772
 country	Czech Republic	49.8175	15.473
+country	Côte d'Ivoire	7.9897371	-5.5679458
 country	Democratic Republic of the Congo	-4.0383	21.7587
 country	Denmark	56.2639	9.5018
 country	Dominican Republic	19.0974031	-70.3028026
@@ -3355,6 +3365,7 @@ country	Qatar	25.230573	51.183951
 country	Republic of the Congo	-0.516362	15.877811
 country	Romania	45.9432	24.9668
 country	Russia	64.6863136	97.7453061
+country	Rwanda	-1.9646631	30.0644358
 country	Saint Barthélemy	17.900773100000002	-62.7971665877911
 country	Saint Martin	18.0668544	-63.0848869
 country	Saudi Arabia	25.0	45.0
