@@ -52,11 +52,13 @@ def read_data(path):
                         if id in data:
                             print("Attention, same sequence added two times! (" + id + ")")
                         data[id] = {}
-                        for j in range(-2,24):
+                        j = -2
+                        while (i+j) < len(metadata_changes) and metadata_changes[i+j] != "\n":
                             k = metadata_changes[i+j].strip()
                             (key, content) = cut(k)
                             if key != "gisaid_epi_isl":
                                 data[id][key] = content
+                            j += 1
 
                     elif changed:
                         if id in data:
@@ -91,9 +93,9 @@ def check_dates(data, today):
         month = int(date[5:7])
         year = int(date[:4])
 
-        day_today = int(date[8:])
-        month_today = int(date[5:7])
-        year_today = int(date[:4])
+        day_today = int(today[8:])
+        month_today = int(today[5:7])
+        year_today = int(today[:4])
 
 
         #check for past dates
@@ -236,7 +238,7 @@ def collect_labs(data, table_file_name):
             lab_dictionary[country] = {}
         if description in lab_dictionary[country]:
             print("Warning: lab description is found two times in excel table in same country (" + country + ", " + description + ")" )
-        lab_dictionary[country][description] = handle
+        lab_dictionary[country][description.lower()] = handle
 
 
     lab_collection = {}
@@ -252,9 +254,11 @@ def collect_labs(data, table_file_name):
             s = country + ":\n"
             for lab in submitting_labs[region][country]:
                 s += lab + ": "
-                if country in lab_dictionary and lab in lab_dictionary[country]:
-                    s += bold(lab_dictionary[country][lab])
-                    lab_collection[region][country].append(lab_dictionary[country][lab])
+                if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
+                    s += bold(lab_dictionary[country][lab.lower()])
+                    for l in lab_dictionary[country][lab.lower()].split(", "):
+                        if l not in lab_collection[region][country]:
+                            lab_collection[region][country].append(l)
                 else:
                     s += bold("?")
                     lab_collection[region][country].append("???")
@@ -268,9 +272,11 @@ def collect_labs(data, table_file_name):
             s = country + ":\n"
             for lab in originating_labs[region][country]:
                 s += lab
-                if country in lab_dictionary and lab in lab_dictionary[country]:
-                    s += ": " + bold(lab_dictionary[country][lab])
-                    lab_collection[region][country].append(lab_dictionary[country][lab])
+                if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
+                    s += ": " + bold(lab_dictionary[country][lab.lower()])
+                    for l in lab_dictionary[country][lab.lower()].split(", "):
+                        if l not in lab_collection[region][country]:
+                            lab_collection[region][country].append(l)
                 s += "\n"
             print(s)
 
@@ -280,7 +286,13 @@ def collect_labs(data, table_file_name):
         for country in authors[region]:
             s = country + ":\n"
             for author in authors[region][country]:
-                s += author + "\n"
+                s += author
+                if country in lab_dictionary and author.lower() in lab_dictionary[country]:
+                    s += ": " + bold(lab_dictionary[country][author.lower()])
+                    for a in lab_dictionary[country][author.lower()].split(", "):
+                        if a not in lab_collection[region][country]:
+                            lab_collection[region][country].append(a)
+                s += "\n"
             print(s)
 
     return lab_collection
@@ -355,6 +367,8 @@ def prepare_tweet(counts, lab_collection):
         ("New sequences from ", " can be seen on ")
     ]
 
+    the = ["United Kingdom", "USA"]
+
     total = 0
     tweet_collection = {}
     lengths = {}
@@ -366,7 +380,10 @@ def prepare_tweet(counts, lab_collection):
             for country in lab_collection[region]:
                 number = sum(counts[country].values())
                 total += number
-                s = country + " (" + str(number) + ")"
+                s = ""
+                if country in the:
+                    s += "the "
+                s += country + " (" + str(number) + ")"
                 labs = lab_collection[region][country]
                 countries.append(s)
                 handles = handles + labs

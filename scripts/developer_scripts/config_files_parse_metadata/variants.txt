@@ -25,7 +25,7 @@ location	União das freguesias de Santarem	Santarem
 location	União das freguesias de Seia	Seia
 location	Buraymi	Buraimi
 location	Qurayat	Qurayyat
-location	Falagueria- Venda Nova	Amadora
+location	Falagueria- Venda Nova	Amadoramos
 location	Stanger	KwaDukuza
 location	Ethekwini	eThekwini
 location	Uthukela	uThukela
@@ -48,7 +48,6 @@ division	Bucuresti	Bucharest
 division	Ghent	Gent
 division	Gavleborg	Gavleborgs Lan
 division	Bat-Yam	Bat Yam
-division	Jerusalem	Jerusalemusti District
 division	Auvergne Rhone Alpes	Auvergne-Rhône-Alpes
 division	Zurich	Zürich
 division	Dakarhuman	Dakar
@@ -260,6 +259,7 @@ location	Lanilis	Lannilis	(Europe, France, Bretagne)
 location	Las Palmas	Las Palmas de Gran Canaria	(Europe, Spain, Canary Islands)
 division	Sverdlovsk Region	Sverdlovsk	(Europe, Russia)
 division	Krasnodar Region	Krasnodar	(Europe, Russia)
+division	Krasnodar Krai	Krasnodar	(Europe, Russia)
 division	Lipetsk Region	Lipetsk	(Europe, Russia)
 division	Novosibirsk Oblast	Novosibirsk	(Europe, Russia)
 division	Omsk Region	Omsk	(Europe, Russia)
@@ -322,3 +322,55 @@ division	Central Bohemia Region	Central Bohemian Region	(Europe, Czech Republic)
 country	Republic of Congo	Republic of the Congo
 location	Jamkhambhaliya	Khambhaliya	(Asia, India, Gujarat)
 division	Moreogromsdal	More Og Romsdal	(Europe, Norway)
+location	Chesire-Wallingford	Cheshire	(North America, USA, Connecticut)
+location	Branford-Madison	Branford	(North America, USA, Connecticut)
+location	Prospect-Orange	Prospect	(North America, USA, Connecticut)
+location	Trumbull-Shelton	Trumbull	(North America, USA, Connecticut)
+division	Leningrad Region	Leningrad Oblast	(Europe, Russia)
+division	Sverdlovsk Oblast	Sverdlovsk	(Europe, Russia)
+division	Primorsky Krai	Primorsky	(Europe, Russia)
+division	Novogorod Oblast	Novgorod	(Europe, Russia)
+location	Nizhniy Tagil	Nizhny Tagil	(Europe, Russia, Sverdlovsk)
+location	Jalazon	Jalazone	(Asia, Palestine, Ramallah)
+location	Halhoul	Halhul	(Asia, Palestine, Hebron)
+location	Aroub	al-Arroub	(Asia, Palestine, Hebron)
+location	Majdal Ben Fadel	Majdal Bani Fadil	(Asia, Palestine, Nablus)
+location	Der Hatab	Deir al-Hatab	(Asia, Palestine, Nablus)
+location	Aracatuba	Araçatuba	(South America, Brazil, São Paulo)
+location	Mahachkala	Makhachkala	(Europe, Russia, Republic of Dagestan)
+location	Karachaevsk	Karachayevsk	(Europe, Russia, Karachay-Cherkess Republic)
+division	Pskov	Pskov Oblast	(Europe, Russia)
+division	Moscow	Moscow Oblast	(Europe, Russia)
+division	Chechen	Chechen Republic	(Europe, Russia)
+division	Bryansk	Bryansk Oblast	(Europe, Russia)
+division	Constituency Unknown	
+division	Republic of Adygea	Adygea	(Europe, Russia)
+division	Altai K	Altai Krai	(Europe, Russia)
+division	Republic of Dagestan	Dagestan	(Europe, Russia)
+division	Republic of Ingushetia	Ingushetia	(Europe, Russia)
+division	Ivanovo Oblast	Ivanovo	(Europe, Russia)
+division	Karachay-Cherkess Republic	Karachay-Cherkess	(Europe, Russia)
+division	Kemerovo Oblast	Kemerovo	(Europe, Russia)
+division	Khanty-Mansi Autonomous Okrug	Khanty-Mansi	(Europe, Russia)
+division	Republic of Khakassia	Khakassia	(Europe, Russia)
+division	Republic of Kalmykia	Kalmykia	(Europe, Russia)
+division	Kaluga Oblast	Kaluga	(Europe, Russia)
+division	Komi Republic	Komi	(Europe, Russia)
+division	Republic of Karelia	Karelia	(Europe, Russia)
+division	Leningrad	Leningrad Oblast	(Europe, Russia)
+division	Mari El Republic	Mari El	(Europe, Russia)
+division	Murmansk Oblast	Murmansk	(Europe, Russia)
+division	Novgorod Oblast	Novgorod	(Europe, Russia)
+division	Nizhny Novgorod Oblast	Nizhny Novgorod	(Europe, Russia)
+division	Stavropol Krai	Stavropol	(Europe, Russia)
+division	Voronezh Oblast	Voronezh	(Europe, Russia)
+division	Moscow Region	Moscow Oblast	(Europe, Russia)
+location	Pecq	Le Pecq	(Europe, France, Ile de France)
+location	Moussy-le-Neuf	Moussy Le Neuf	(Europe, France, Ile de France)
+country	Cotedivoire	Côte d'Ivoire	(Africa)
+country	Ivory Coast	Côte d'Ivoire	(Africa)
+division	Na		(Europe, Denmark)
+division	Boauké	Bouaké	(Africa, Côte d'Ivoire)
+division	Auvergne-Rhone-Alpes	Auvergne-Rhône-Alpes	(Europe, France)
+division	Lm	Limpopo	(Africa, South Africa)
+location	Puerto Wiilliams	Puerto Williams	(South America, Chile, Magallanes)

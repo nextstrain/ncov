@@ -67,9 +67,15 @@ Kufstein	Tyrol
 See	Tyrol
 Kappl	Tyrol
 Sölden	Tyrol
-Pfunden	Tyrol
+Pfunden	Tyrols
 Galtür	Tyrol
 Nauders	Tyrol
 Tösens	Tyrol
 Pettneu Am Arlberg	Tyrol
 Liverpool	England
+Siena	Tuscany
+Perm	Perm Krai
+Zahedan	Sistan and Baluchestan
+Beruwala	Kalutara
+Frankfurt	Hesse
+New Delhi	Delhi

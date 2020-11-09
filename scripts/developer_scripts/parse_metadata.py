@@ -220,7 +220,7 @@ def read_metadata(metadata):
                 division = location
                 location = ""
     
-        countries_to_division = {"Hunan": "China", "Gibraltar": "United Kingdom"}
+        countries_to_division = {"Hunan": "China", "Gibraltar": "United Kingdom", "Faroe Islands": "Denmark"}
     
         if country in countries_to_division:
             additions_to_annotation.append(strain + "\t" + id + "\tcountry\t"+ countries_to_division[country] +" #previously " + country)
@@ -267,6 +267,11 @@ def read_exposure(data, metadata):
         division2 = l[11]
         id = l[2]
         strain = l[0]
+
+        if region2 == "United Kingdom": #TODO: separate this, make it more applicable for other countries
+            region2 = "Europe"
+            division2 = country2
+            country2 = "United Kingdom"
 
         s = division2 + " (" + country2 + ", " + region2 + ")"
         s2 = country2 + " (" + region2 + ")"
@@ -691,11 +696,13 @@ def check_false_divisions(data):
     for region in data:
         for country in data[region]:
             for division in data[region][country]:
-                for location in data[region][country][division]:
-                    if location in data[region][country] and location != division:
-                        div_as_loc[location] = (region, country, division)
-                        print("Unknown location found as division: " + bold(location) + " (true division: " + bold(division) + ")")
-                        print("(Suggestion: add " + location + " -> " + division + " to false_divisions.txt)")
+                if division != "":
+                    for location in data[region][country][division]:
+                        if location != "":
+                            if location in data[region][country] and location != division:
+                                div_as_loc[location] = (region, country, division)
+                                print("Unknown location found as division: " + bold(location) + " (true division: " + bold(division) + ")")
+                                print("(Suggestion: add " + location + " -> " + division + " to false_divisions.txt)")
 
     additions_to_annotation.append("\n=============================\n")
     print("\n=============================\n")
@@ -862,7 +869,7 @@ def check_for_missing(data):
 
                     if location not in ordering["location"] or location not in lat_longs["location"]:
                         s = bold(location)
-                        name0 = check_similar(hierarchical_ordering[region][country], location, "location")
+                        name0 = check_similar(hierarchical_ordering[region][country], location, "location") if hierarchical_ordering[region].get(country) is not None else ""
                         if location not in ordering["location"] and location in lat_longs["location"]:
                             s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
                             if country not in data_clean[region]:
@@ -1127,94 +1134,94 @@ def write_ordering(data, hierarchy):
         out.write("\n################\n\n\n")
 
 
+if __name__ == '__main__':
+
+    ################################################################################
+    # Step 0: Read data
+    ################################################################################
+
+    # Read current metadata
+    #path_to_ncov = "../../" # TODO: adjust file structure properly
+    with open("data/metadata.tsv") as myfile:
+        metadata = myfile.readlines()
+
+    # Read orderings and lat_longs
+    ordering = read_geography_file("defaults/color_ordering.tsv") #TODO: combine with read_local_files()?
+    hierarchical_ordering = read_geography_file("defaults/color_ordering.tsv", True)
+    lat_longs = read_geography_file("defaults/lat_longs.tsv")
+
+    # List that will contain all proposed annotations collected throughout the script
+    additions_to_annotation = []
+    with open("../ncov-ingest/source-data/gisaid_annotations.tsv") as myfile:
+        annotations = myfile.read()
 
 
-################################################################################
-# Step 0: Read data
-################################################################################
+    ################################################################################
+    # Step 1: Collection of data from metadata file in hierarchical manner
+    ################################################################################
 
-# Read current metadata
-#path_to_ncov = "../../" # TODO: adjust file structure properly
-with open("data/metadata.tsv") as myfile:
-    metadata = myfile.readlines()
+    ##### Step 1.1: Collection of all standard, non-exposure related data
 
-# Read orderings and lat_longs
-ordering = read_geography_file("defaults/color_ordering.tsv") #TODO: combine with read_local_files()?
-hierarchical_ordering = read_geography_file("defaults/color_ordering.tsv", True)
-lat_longs = read_geography_file("defaults/lat_longs.tsv")
-
-# List that will contain all proposed annotations collected throughout the script
-additions_to_annotation = []
-with open("../ncov-ingest/source-data/gisaid_annotations.tsv") as myfile:
-    annotations = myfile.read()
+    # Hierarchical ordering of all regions, countries, divisions and locations
+    # Each location (also empty ones) hold a list of all strains & GISAID IDs with this region+country+division+location
+    data = read_metadata(metadata)
 
 
-################################################################################
-# Step 1: Collection of data from metadata file in hierarchical manner
-################################################################################
+    ##### Step 1.2: Collection of regions, countries and divisions of exposure
+    # In case some geographic units are only found in the exposure information of the metadata, iterate again over the metadata and add to the dataset
+    # Since travel history related entries are prone to errors, check for each entry whether it collides with already existing data.
 
-##### Step 1.1: Collection of all standard, non-exposure related data
-
-# Hierarchical ordering of all regions, countries, divisions and locations
-# Each location (also empty ones) hold a list of all strains & GISAID IDs with this region+country+division+location
-data = read_metadata(metadata)
+    # TODO: Currently commented out due to numerous inconsistencies
+    data = read_exposure(data, metadata)
 
 
-##### Step 1.2: Collection of regions, countries and divisions of exposure
-# In case some geographic units are only found in the exposure information of the metadata, iterate again over the metadata and add to the dataset
-# Since travel history related entries are prone to errors, check for each entry whether it collides with already existing data.
+    ################################################################################
+    # Step 2: Clean up data
+    ################################################################################
 
-# TODO: Currently commented out due to numerous inconsistencies
-data = read_exposure(data, metadata)
+    ##### Step 2.0: Adjust the divisions and locations by comparing them to a known database - only accessible for Belgium at the moment
+    data = adjust_to_database(data)
 
+    ##### Step 2.1: Apply all known variants stored in an external file variants.txt
+    data = apply_typical_errors(data) #TODO: do this earlier (before reading metadata), join with UK as region?
+    data = apply_variants(data)
 
-################################################################################
-# Step 2: Clean up data
-################################################################################
+    ##### Step 2.2 Check for "false" division that appear as location elsewhere (known cases stored in false_divisions.txt as well as checking for new cases)
+    check_false_divisions(data)
 
-##### Step 2.0: Adjust the divisions and locations by comparing them to a known database - only accessible for Belgium at the moment
-data = adjust_to_database(data)
+    ##### Step 2.3: Check for duplicate divisions/locations in different countries/divisions (known cases stored in duplicates.txt as well as checking for new cases)
+    check_duplicate(data)
 
-##### Step 2.1: Apply all known variants stored in an external file variants.txt
-data = apply_typical_errors(data) #TODO: do this earlier (before reading metadata), join with UK as region?
-data = apply_variants(data)
+    ##### Step 2.4: Check for missing names in ordering and lat_longs as well as return a clean, reduced version of the metadata
+    data = check_for_missing(data) # =====> From here on, strains are dropped, only region/country/division/location remain
 
-##### Step 2.2 Check for "false" division that appear as location elsewhere (known cases stored in false_divisions.txt as well as checking for new cases)
-check_false_divisions(data)
+    ################################################################################
+    # Step 3: Storage of locations, divisions etc hierarchical manner
+    ################################################################################
 
-##### Step 2.3: Check for duplicate divisions/locations in different countries/divisions (known cases stored in duplicates.txt as well as checking for new cases)
-check_duplicate(data)
-
-##### Step 2.4: Check for missing names in ordering and lat_longs as well as return a clean, reduced version of the metadata
-data = check_for_missing(data) # =====> From here on, strains are dropped, only region/country/division/location remain
-
-################################################################################
-# Step 3: Storage of locations, divisions etc hierarchical manner
-################################################################################
-
-write_ordering(data, "location")
-write_ordering(data, "division")
-write_ordering(data, "country")
-write_ordering(data, "recency")
-write_ordering(data, "region")
+    write_ordering(data, "location")
+    write_ordering(data, "division")
+    write_ordering(data, "country")
+    write_ordering(data, "recency")
+    write_ordering(data, "region")
 
 
-##### Bonus step: Print out all collected annotations - if considered correct, they can be copied by the user to annotations.tsv
-# Only print line if not yet present
-# Print warning if this GISAID ID is already in the file
-annot_lines_to_write = []
-for line in additions_to_annotation:
-    if line in annotations:
-        continue
-    print(line)
-    if "=" not in line:
-        annot_lines_to_write.append(line)
-    if len(line.split("\t")) == 4:
-        number_of_occurences = annotations.count(line.split("\t")[1])
-        irrelevant_occurences = sum([(line.split("\t")[1] + "\t" + s) in annotations for s in ["title", "authors", "paper_url", "genbank_accession"]])
-        if number_of_occurences > irrelevant_occurences:
-            print("Warning: " + line.split("\t")[1] + " already exists in annotations!")
+    ##### Bonus step: Print out all collected annotations - if considered correct, they can be copied by the user to annotations.tsv
+    # Only print line if not yet present
+    # Print warning if this GISAID ID is already in the file
+    annot_lines_to_write = []
+    for line in additions_to_annotation:
+        if line in annotations:
+            continue
+        print(line)
+        if "=" not in line:
+            annot_lines_to_write.append(line)
+        if len(line.split("\t")) == 4:
+            number_of_occurences = annotations.count(line.split("\t")[1])
+            irrelevant_occurences = sum([(line.split("\t")[1] + "\t" + s) in annotations for s in ["title", "authors", "paper_url", "genbank_accession"]])
+            if number_of_occurences > irrelevant_occurences:
+                print("Warning: " + line.split("\t")[1] + " already exists in annotations!")
 
-with open(path_to_output_files+"new_annotations.tsv", 'w') as out:
-    out.write("\n".join(annot_lines_to_write))
-print("New annotation additions written out to "+path_to_output_files+"new_annotations.tsv")
+    with open(path_to_output_files+"new_annotations.tsv", 'w') as out:
+        out.write("\n".join(annot_lines_to_write))
+    print("New annotation additions written out to "+path_to_output_files+"new_annotations.tsv")
