@@ -696,11 +696,13 @@ def check_false_divisions(data):
     for region in data:
         for country in data[region]:
             for division in data[region][country]:
-                for location in data[region][country][division]:
-                    if location in data[region][country] and location != division:
-                        div_as_loc[location] = (region, country, division)
-                        print("Unknown location found as division: " + bold(location) + " (true division: " + bold(division) + ")")
-                        print("(Suggestion: add " + location + " -> " + division + " to false_divisions.txt)")
+                if division != "":
+                    for location in data[region][country][division]:
+                        if location != "":
+                            if location in data[region][country] and location != division:
+                                div_as_loc[location] = (region, country, division)
+                                print("Unknown location found as division: " + bold(location) + " (true division: " + bold(division) + ")")
+                                print("(Suggestion: add " + location + " -> " + division + " to false_divisions.txt)")
 
     additions_to_annotation.append("\n=============================\n")
     print("\n=============================\n")
