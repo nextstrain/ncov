@@ -1489,6 +1489,7 @@ location	Portage County	44.4604931	-89.5108818
 location	Porto Velho	-8.7494525	-63.8735438
 location	Portoviejo	-1.0528066	-80.4534269
 location	Portugalete	43.317356	-3.021671
+location	Porvenir	-53.2956738	-70.3687401
 location	Posada de la Valduerna	42.3113416	-6.0215444
 location	Potenza	40.5183188	15.820959951106293
 location	Pradejon	42.331616	-2.067126
@@ -1510,10 +1511,13 @@ location	Pueblonuevo de Miramontes	40.059856	-5.3786458
 location	Puente San Miguel	43.3598835	-4.0876115
 location	Puerto Baquerizo Moreno	-0.902599	-89.610191
 location	Puerto Lopez	-1.5440814	-80.74452395771863
+location	Puerto Natales	-51.7262826	-72.5062409
 location	Puerto Santa Maria	36.526984	-6.288553
+location	Puerto Williams	-54.9354961	-67.6067034
 location	Puerto del Son	42.726023	-9.0049123
 location	Pulianas	37.2225	-3.6075
 location	Pune	18.6452489	73.92318563785392
+location	Punta Arenas	-53.162664	-70.9080552
 location	Purwakarta	-6.5607313	107.4439799
 location	Purwokerto	-7.31924965	112.17989315068222
 location	Puteaux	48.8841522	2.2368863
@@ -1620,6 +1624,7 @@ location	Sagunt	39.6801	-0.2784
 location	Saint Germain en Laye	48.938032	2.094734
 location	Saint Louis County	38.632980	-90.472478
 location	Saint Pierre Quiberon	47.5305	-3.13689
+location	Saint-Brieuc	48.5141134	-2.7603283
 location	Saint-Ghislain	50.483208	3.802415
 location	Saint-Priest	45.704159	4.949456
 location	Saint-Thibault-des-Vignes	48.862026	2.674513
@@ -1905,6 +1910,7 @@ location	Trobajo del Camino	42.5951876	-5.6073495
 location	Trujillo	4.212089	-76.319157
 location	Trumbull	41.247238	-73.194570
 location	Tubize	50.687041	4.193545
+location	Tucquegnieux	49.3082902	5.8979199
 location	Tudela	42.063972	-1.6053391
 location	Tuebingen	48.5236164	9.0535531
 location	Tughlakabad	28.5023598	77.2992401
@@ -1994,6 +2000,7 @@ location	Villaturiel	42.5185496	-5.4871978
 location	Villava	42.8318984	-1.6071287
 location	Villavicencio	4.134000	-73.623483
 location	Villefranche-sur-Saône	45.9864749	4.726611
+location	Villeneuve St Georges	48.7305272	2.44782
 location	Villerot	50.485709	3.791108
 location	Vilvoorde	50.932484	4.429885
 location	Vista Alegre	8.931677	-79.700195
@@ -2365,6 +2372,7 @@ division	Curacao	12.1845	-68.9640875031406
 division	Cuzco	-13.5170887	-71.9785356
 division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
+division	Côte d'Ivoire	7.9897371	-5.5679458
 division	Dagestan	43.0574916	47.1332224
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
@@ -2711,6 +2719,7 @@ division	Maaseik	51.104005	5.714000
 division	Madhya Pradesh	22.9734	78.6569
 division	Madinah	24.5247	39.5692
 division	Madrid	40.4168	-3.7038
+division	Magallanes	-53.3527518	-71.5547782
 division	Magdalena	10.258546	-74.366995
 division	Maglaj	44.5455	18.1034
 division	Maharashtra	19.7515	75.7139
@@ -3051,6 +3060,7 @@ division	South Africa	-28.8166235	24.991639
 division	South America	-13.083583	-58.470721
 division	South Australia	-30.0002	136.2092
 division	South Batinah	23.760421	57.045212
+division	South Canterbury	-43.49417615	171.8098447584145
 division	South Carolina	33.8361	-81.1637
 division	South Coast District	29.873836	34.934417
 division	South Dakota	44.6471761	-100.348761
@@ -3121,6 +3131,7 @@ division	Timor-Leste	-8.809397	125.909527
 division	Tipperary	52.4738	-8.1619
 division	Tirat Zvi	32.4225	35.5283
 division	Tlaxcala	19.416667	-98.166667
+division	Toamasina	-18.1553985	49.4098352
 division	Togo	8.886250	1.069709
 division	Tohoku	40.7280	141.2578
 division	Tokat	40.3235	36.5522
@@ -3230,6 +3241,7 @@ division	Western Cape Province	-33.493715	20.219852
 division	Western Pomerania	53.84713085	13.351339698378764
 division	Westmeath	53.5577902	-7.3478558260097575
 division	Wexford	52.46018745	-6.606515459159162
+division	Whanganui	-39.9324904	175.0519306
 division	Wicklow	52.9808	-6.0446
 division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762

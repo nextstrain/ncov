@@ -1021,6 +1021,7 @@ location	Morlaix
 location	Saint Pierre Quiberon
 location	Arradon
 location	Pordic
+location	Saint-Brieuc
 location	Vannes
 location	Sene
 location	La Rochelle
@@ -1075,6 +1076,7 @@ location	Longjumeau
 location	Paris
 location	Juvisy-sur-Orge
 location	Sarcelles
+location	Villeneuve St Georges
 location	Seine-Port
 location	Plessis Trevise
 location	Moussy Le Neuf
@@ -1127,6 +1129,7 @@ location	Montreux-Chateau
 # Grand Est
 location	Reims
 location	Gondrecourt-le-Chateau
+location	Tucquegnieux
 location	Crusnes
 location	Joeuf
 location	Fameck
@@ -1975,6 +1978,12 @@ location	Quilmes
 ### Chile
 # Chillan
 location	Chillan
+
+# Magallanes
+location	Puerto Natales
+location	Punta Arenas
+location	Porvenir
+location	Puerto Williams
 
 # Huasco
 location	Huasco
@@ -3114,12 +3123,14 @@ division	Hokkaido
 ### New Zealand
 division	Southern
 division	Otago
+division	South Canterbury
 division	Canterbury
 division	New Zealand
 division	Nelson Marlborough
 division	Taranaki
 division	Auckland
 division	Wellington
+division	Whanganui
 division	Waikato
 division	Wairarapa
 division	Midcentral
@@ -3163,14 +3174,12 @@ division	Sierra Leone
 ### Guinea
 division	Conakry
 
-### Ivory Coast
-division	Ivory Coast
-
 ### Côte d'Ivoire
 division	Yamoussoukro
 division	Bouafle
 division	Beoumi
 division	Bouaké
+division	Côte d'Ivoire
 division	Katiola
 
 ### Morocco
@@ -3283,6 +3292,7 @@ division	Kenya
 
 ### Madagascar
 division	Analamanga
+division	Toamasina
 division	Analanjirofo
 
 ### Somalia
@@ -3867,6 +3877,7 @@ division	Puerto Natales
 division	Chillan
 division	Coyhaique
 division	Valparaiso
+division	Magallanes
 division	Vina del Mar
 division	Talca
 division	Huasco
@@ -4211,7 +4222,6 @@ country	Gambia
 country	Senegal
 country	Sierra Leone
 country	Guinea
-country	Ivory Coast
 country	Côte d'Ivoire
 country	Morocco
 country	Mali
