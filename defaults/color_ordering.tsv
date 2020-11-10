@@ -1707,10 +1707,12 @@ location	Hochficht
 ### Czech Republic
 # Plzeň Region
 location	Domažlice
+location	Dobřany
 location	Plzeň
 
 # Usti nad Labem
 location	Litvinov
+location	Teplice
 location	Všebořice
 location	Sulejovice
 location	Libochovice
@@ -1723,10 +1725,25 @@ location	Prague-Miskovice
 location	Kvetnice
 
 # Southern Bohemia Region
+location	Šumavské Hoštice
+location	Prachatice
 location	Pisek
+location	Netolice
+location	Český Krumlov
+location	Dubné
+location	Dobrá Voda
+location	Jindřichův Hradec
 
 # Central Bohemian Region
+location	Příbram
+location	Zdiby
+location	Bášť
+location	Neratovice
+location	Benátky nad Jizerou
 location	Mlada Boleslav
+location	Chrášťany
+location	Poděbrady
+location	Kolin
 
 # Liberec Region
 location	Liberec
@@ -1758,6 +1775,7 @@ location	Fryšták
 location	Prostějov
 
 # Moravian-Silesian Region
+location	Frýdek-Místek
 location	Havířov
 location	Albrechtice
 location	Karviná
@@ -1976,23 +1994,49 @@ location	Lomas de Zamora
 location	Quilmes
 
 ### Chile
-# Chillan
-location	Chillan
-
 # Magallanes
 location	Puerto Natales
 location	Punta Arenas
 location	Porvenir
 location	Puerto Williams
 
-# Huasco
-location	Huasco
+# Aysén
+location	Coyhaique
+
+# Los Lagos
+location	Puerto Montt
+
+# Araucanía
+location	Temuco
+
+# Biobío
+location	Concepcion
+
+# Ñuble
+location	Chillan
+
+# Maule
+location	Talca
+
+# O'Higgins
+location	Rancagua
 
 # Santiago
 location	Santiago
 
-# Copiapo
+# Valparaiso
+location	Vina del Mar
+
+# Atacama
+location	Domeyko
+location	Freirina
+location	Huasco
+location	Tierra Amarilla
+location	Paipote
 location	Copiapo
+location	Caldera
+location	Chanaral
+location	El Salvador
 
 ### Brazil
 # Amazonas
@@ -3870,22 +3914,18 @@ division	Montevideo
 division	Rivera
 
 ### Chile
-division	Concepcion
-division	Puerto Montt
-division	Temuco
-division	Puerto Natales
-division	Chillan
-division	Coyhaique
-division	Valparaiso
 division	Magallanes
-division	Vina del Mar
-division	Talca
-division	Huasco
-division	Rancagua
+division	Aysén
+division	Los Lagos
+division	Araucanía
+division	Biobío
+division	Ñuble
+division	Maule
+division	O'Higgins
 division	Santiago
+division	Valparaiso
+division	Atacama
 division	Antofagasta
-division	Copiapo
-division	Punta Arenas
 
 ### South America
 division	South America

@@ -79,3 +79,22 @@ Zahedan	Sistan and Baluchestan
 Beruwala	Kalutara
 Frankfurt	Hesse
 New Delhi	Delhi
+Puerto Natales	Magallanes
+Punta Arenas	Magallanes
+Coyhaique	Aysén
+Puerto Montt	Los Lagos
+Temuco	Araucanía
+Concepcion	Biobío
+Chillan	Ñuble
+Talca	Maule
+Rancagua	O'Higgins
+Vina del Mar	Valparaiso
+Huasco	Atacama
+Copiapo	Atacama
+Caldera	Atacama
+Chanaral	Atacama
+Domeyko	Atacama
+El Salvador	Atacama
+Freirina	Atacama
+Paipote	Atacama
+Tierra Amarilla	Atacama

@@ -374,3 +374,6 @@ division	Boauké	Bouaké	(Africa, Côte d'Ivoire)
 division	Auvergne-Rhone-Alpes	Auvergne-Rhône-Alpes	(Europe, France)
 division	Lm	Limpopo	(Africa, South Africa)
 location	Puerto Wiilliams	Puerto Williams	(South America, Chile, Magallanes)
+country	Czech Repubic	Czech Republic
+division	South Bohemian Region	Southern Bohemia Region	(Europe, Czech Republic)
+location	Miškovice	Prague-Miskovice	(Europe, Czech Republic, Prague)
