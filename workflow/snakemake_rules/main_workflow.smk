@@ -491,7 +491,7 @@ rule tree:
         "logs/tree_{build_name}.txt"
     benchmark:
         "benchmarks/tree_{build_name}.txt"
-    threads: 16
+    threads: 8
     resources:
         # Multiple sequence alignments can use up to 40 times their disk size in
         # memory, especially for larger alignments.
@@ -657,13 +657,29 @@ rule traits:
             --sampling-bias-correction {params.sampling_bias_correction} 2>&1 | tee {log}
         """
 
+def _get_clade_files(wildcards):
+    if "subclades" in config["builds"][wildcards.build_name]:
+        return [config["files"]["clades"], config["builds"][wildcards.build_name]["subclades"]]
+    else:
+        return config["files"]["clades"]
+
+rule clade_files:
+    input:
+        clade_files = _get_clade_files
+    output:
+        "results/{build_name}/clades.tsv"
+    shell:
+        '''
+        cat {input.clade_files} > {output}
+        '''
+
 rule clades:
     message: "Adding internal clade labels"
     input:
         tree = rules.refine.output.tree,
         aa_muts = rules.translate.output.node_data,
         nuc_muts = rules.ancestral.output.node_data,
-        clades = config["files"]["clades"]
+        clades = rules.clade_files.output
     output:
         clade_data = "results/{build_name}/clades.json"
     log:

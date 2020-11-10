@@ -1,6 +1,7 @@
 # Define custom rules for pre- or post-standard workflow processing of data.
 custom_rules:
   - workflow/snakemake_rules/export_for_nextstrain.smk
+  - nextstrain_profiles/nextstrain/subsampling_ranges.smk
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
@@ -20,6 +21,7 @@ builds:
     auspice_config: "nextstrain_profiles/nextstrain/asia_auspice_config.json"
   europe:
     subsampling_scheme: nextstrain_region_grouped_by_country
+    subclades: "nextstrain_profiles/nextstrain/subclades_EU.tsv"
     region: Europe
     auspice_config: "nextstrain_profiles/nextstrain/europe_auspice_config.json"
   north-america:
@@ -107,59 +109,110 @@ subsampling:
   # Custom subsampling logic for regions
   nextstrain_region:
     # Focal samples for region
-    region:
+    region_early:
       group_by: "division year month"
-      max_sequences: 2500
+      max_sequences: 800
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
-    global:
+    global_early:
       group_by: "country year month"
-      max_sequences: 1500
+      max_sequences: 500
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
-        focus: "region"
+        focus: "region_late"
+
+    region_late:
+      group_by: "division year month"
+      max_sequences: 1700
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global_late:
+      group_by: "country year month"
+      max_sequences: 1000
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region_late"
 
   # Custom subsampling logic for global region.
   nextstrain_region_global:
-    africa:
+    africa_early:
       group_by: "country year month"
-      max_sequences: 600
+      max_sequences: 200
       exclude: "--exclude-where 'region!=Africa'"
-    asia:
+    asia_early:
       group_by: "country year month"
-      max_sequences: 700
+      max_sequences: 300
       exclude: "--exclude-where 'region!=Asia'"
-    europe:
+    europe_early:
       group_by: "country year month"
-      max_sequences: 800
+      max_sequences: 200
       exclude: "--exclude-where 'region!=Europe'"
-    north_america:
+    north_america_early:
       group_by: "division year month"
-      max_sequences: 800
+      max_sequences: 300
       exclude: "--exclude-where 'region!=North America'"
-    south_america:
+    south_america_early:
+      group_by: "country year month"
+      max_sequences: 200
+      exclude: "--exclude-where 'region!=South America'"
+    oceania_early:
+      group_by: "division year month"
+      max_sequences: 200
+      exclude: "--exclude-where 'region!=Oceania'"
+
+    africa_late:
+      group_by: "country year month"
+      max_sequences: 400
+      exclude: "--exclude-where 'region!=Africa'"
+    asia_late:
+      group_by: "country year month"
+      max_sequences: 400
+      exclude: "--exclude-where 'region!=Asia'"
+    europe_late:
       group_by: "country year month"
       max_sequences: 600
-      exclude: "--exclude-where 'region!=South America'"
-    oceania:
+      exclude: "--exclude-where 'region!=Europe'"
+    north_america_late:
       group_by: "division year month"
-      max_sequences: 500
+      max_sequences: 600
+      exclude: "--exclude-where 'region!=North America'"
+    south_america_late:
+      group_by: "country year month"
+      max_sequences: 400
+      exclude: "--exclude-where 'region!=South America'"
+    oceania_late:
+      group_by: "division year month"
+      max_sequences: 300
       exclude: "--exclude-where 'region!=Oceania'"
 
   # Custom subsampling for regions like Europe where grouping by country
   # is the smallest resolution requied
   nextstrain_region_grouped_by_country:
     # Focal samples for region
-    region:
+    region_late:
       group_by: "country year month"
-      max_sequences: 2500
+      max_sequences: 1700
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
-    global:
+    global_late:
       group_by: "country year month"
-      max_sequences: 1500
+      max_sequences: 1000
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
-        focus: "region"
+        focus: "region_late"
+    # Focal samples for region
+    region_early:
+      group_by: "country year month"
+      max_sequences: 800
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global_early:
+      group_by: "country year month"
+      max_sequences: 500
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region_late"

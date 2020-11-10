@@ -18,7 +18,7 @@
         "mem": "32G"
     },
     "tree" : {
-        "n": 16,
+        "n": 8,
         "qos": "6hours",
         "time" : "05:59:00"
     },
@@ -27,6 +27,6 @@
         "mem": "32G"
     },
     "proximity_score":{
-	"mem": "32G"
+	"mem": "64G"
     }
 }
