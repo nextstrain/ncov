@@ -908,3 +908,6 @@ Italy/INMI41/2020
 
 # Sampling date in the past
 pangolin/Yunnan/MP20/2020
+
+# Labeled as duplicate to CzechRepublic/NRL_9893/2020 in additional info
+CzechRepublic/NRL_9894/2020
