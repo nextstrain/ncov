@@ -377,3 +377,5 @@ location	Puerto Wiilliams	Puerto Williams	(South America, Chile, Magallanes)
 country	Czech Repubic	Czech Republic
 division	South Bohemian Region	Southern Bohemia Region	(Europe, Czech Republic)
 location	Miškovice	Prague-Miskovice	(Europe, Czech Republic, Prague)
+division	Santiago	Region Metropolitana de Santiago	(South America, Chile)
+division	New York County	New York	(North America, USA)

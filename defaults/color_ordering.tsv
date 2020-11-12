@@ -1115,6 +1115,7 @@ location	Bourgoin-Jallieu
 location	Montagnieu
 location	Oyonnax
 location	Chambery
+location	Saint-Julien-en-Genevois
 location	Contamine-sur-Arve
 location	Contamines
 location	Vienne
@@ -1560,17 +1561,18 @@ location	Houten
 location	Amersfoort
 
 # North Brabant
-location	Eindhoven
-location	Helmond
-location	Oisterwijk
-location	Tilburg
-location	Loon op zand
-location	Heeswijk Dinther
-location	Berlicum
-location	Oss
 location	Nieuwendijk
+location	Tilburg
 location	Andel
+location	Loon op zand
+location	Oisterwijk
 location	Blaricum
+location	Berlicum
+location	Heeswijk Dinther
+location	Eindhoven
+location	Oss
+location	Helmond
+location	Milheeze
 
 # Flevoland
 location	Zeewolde
@@ -1613,6 +1615,7 @@ location	Frankfurt
 location	Heinsberg
 location	Heinsberg District
 location	Duesseldorf
+location	Cologne
 location	Essen
 location	Münster
 location	Bielefeld
@@ -2021,7 +2024,7 @@ location	Talca
 # O'Higgins
 location	Rancagua
 
-# Santiago
+# Region Metropolitana de Santiago
 location	Santiago
 
 # Valparaiso
@@ -2598,6 +2601,7 @@ location	San Patricio County
 location	Gonzales County
 location	Cameron County
 location	Mclennan County
+location	Victoria County
 location	Lavaca County
 location	Dallas County
 location	Burleson County
@@ -2688,6 +2692,7 @@ location	Jackson County WI
 location	Grant County WI
 location	Ashland County
 location	Monroe County
+location	Taylor County WI
 location	Richland County WI
 location	Lafayette County
 location	Iowa County WI
@@ -2704,6 +2709,7 @@ location	Marquette County
 location	Oregon WI
 location	Brooklyn WI
 location	Columbia County WI
+location	Waushara County
 location	Rock County
 location	Columbus WI
 location	Waupaca County
@@ -3489,7 +3495,6 @@ division	North Brabant
 division	Netherlands
 division	Flevoland
 division	Friesland
-division	Milheeze
 division	Limburg
 division	Gelderland
 division	Overijssel
@@ -3923,7 +3928,7 @@ division	Biobío
 division	Ñuble
 division	Maule
 division	O'Higgins
-division	Santiago
+division	Region Metropolitana de Santiago
 division	Valparaiso
 division	Atacama
 division	Antofagasta
