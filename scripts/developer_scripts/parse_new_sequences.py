@@ -428,7 +428,7 @@ def prepare_tweet(counts, lab_collection):
     lengths.pop(first_region)
 
     while len(lengths) > 0:
-        current_region = min(lengths)
+        current_region = min(lengths, key=lengths.get)
         best_partner = ""
         for region, length in sorted(lengths.items(), key=lambda x: x[1]):
             if region == current_region:
