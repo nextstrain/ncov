@@ -140,11 +140,83 @@ def read_geography_file(file_name, hierarchical = False):
     return data
 
 
-#Funtion to support supervised addition of new entries into lat_longs. The user must review every new entry and approve it to be written into the lat_longs file. Ground truth lat_longs is not overwritten, but a copy is made in the developer_scripts folder.
-def auto_sort_lat_longs(new_lat_longs):
+replace_special_char = {
+    "é":"e",
+    "è":"e",
+    "ü":"ue",
+    "ä":"ae",
+    "ö":"oe",
+    "í":"i",
+    "ó":"o",
+    "ç":"c",
+    "á":"a",
+    "'":" ",
+    "â":"a",
+    "š":"s",
+    "ť":"t",
+    "ñ":"n",
+    "ř":"r",
+    "ž":"z",
+    "ů":"u",
+    "ý":"y",
+    "ě":"e",
+    "ň":"n",
+    "ã":"a",
+    "ê":"e",
+    "č":"c",
+    "ô":"o",
+    "ı":"i",
+    "ú": "u",
+    "ś":"s",
+    "ą":"q",
+    "à":"a",
+    "å":"a",
+    "ł":"l",
+    "-":" "
+}
+
+
+def clean_string(s):
+    s = s.lower()
+    for c in replace_special_char:
+        s = s.replace(c, replace_special_char[c])
+    return s
+
+
+def pre_sort_lat_longs(lat_longs):
+    dataset = {"location": [], "division": [], "country": [], "region": []}
+    regions = ["Africa", "Asia", "Europe", "North America", "Oceania", "South America"]
+    for line in lat_longs:
+        if line == "\n":
+            continue
+        dataset[line.split("\t")[0]].append(line)
+
+    lat_longs_sorted = []
+
+    regions_list = []
+    for type in dataset:
+        no_special_char = {clean_string(dataset[type][i].split("\t")[1]): i for i in range(len(dataset[type]))}
+        for line in sorted(no_special_char):
+            i = no_special_char[line]
+            line_orig = dataset[type][i]
+            if line_orig.startswith("country") and line_orig.split("\t")[1] in regions:
+                regions_list.append(line_orig)
+                continue
+            lat_longs_sorted.append(line_orig)
+        if type == "country":
+            lat_longs_sorted.append("\n")
+            lat_longs_sorted += regions_list
+        lat_longs_sorted.append("\n\n\n")
+
+    return lat_longs_sorted
+
+
+#Function to support supervised addition of new entries into lat_longs. The user must review every new entry and approve it to be written into the lat_longs file. Ground truth lat_longs is not overwritten, but a copy is made in the developer_scripts folder.
+def auto_add_lat_longs(new_lat_longs):
     
     with open("defaults/lat_longs.tsv") as f:
         lat_longs = f.readlines()
+    lat_longs = pre_sort_lat_longs(lat_longs)
     for entry in new_lat_longs:
         if len(entry.split("\t")) < 4:
             continue
@@ -155,7 +227,7 @@ def auto_sort_lat_longs(new_lat_longs):
             if lat_longs[i] != "\n" and entry[:4] != lat_longs[i][:4]: #first characters correspond to country, division, location etc.
                 continue
             correct_hierarchy = True
-            if lat_longs[i] != "\n" and entry > lat_longs[i]:
+            if lat_longs[i] != "\n" and clean_string(entry) > clean_string(lat_longs[i]):
                 continue
             print("\n")
             for k in range(3):
@@ -994,7 +1066,7 @@ def check_for_missing(data):
 
         answer = input("Would you like to use auto-sort for these lat_longs? y or n")
         if answer == "y":
-            auto_sort_lat_longs(new_lat_longs)
+            auto_add_lat_longs(new_lat_longs)
 
 
     print("\n=============================\n")
