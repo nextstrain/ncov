@@ -2485,8 +2485,8 @@ location	Douglas County OR
 location	Columbia County OR
 location	Washington County OR
 location	Lane County OR
-location	Marion County
 location	Jackson County OR
+location	Marion County OR
 location	Multnomah County
 location	Clackamas County
 location	Hood River County
@@ -2563,7 +2563,6 @@ location	Madison County
 
 # Arizona
 location	Maricopa County
-location	Phoenix
 
 # Montana
 location	Ravalli County
@@ -2738,20 +2737,17 @@ location	Racine County
 location	Door County
 
 # Illinois
-location	Jo Daviess County
-location	Stephenson County
-location	Ogle County
-location	Winnebago County IL
-location	Boone County
-location	Mchenry County
-location	Kane County
-location	Dupage County
-location	Lake County IL
+location	Saline County
+location	Jackson County IL
 location	Cook County
 location	Chicago
+location	Kane County
+location	Winnebago County IL
+location	Lake County IL
+location	Jo Daviess County
 
 # Indiana
-location	Indianapolis
+location	Marion County IN
 
 # Ohio
 location	Columbus OH
@@ -2783,6 +2779,8 @@ location	District of Columbia County
 location	Sussex County
 location	Kent County
 location	New Castle County
+location	Prospect
+location	Cheshire
 
 # New Jersey
 location	Camden County
@@ -2832,11 +2830,9 @@ location	Trumbull
 location	Seymour
 location	Woodbridge
 location	Bethany
-location	Prospect
 location	West Haven
 location	New Haven County
 location	Hamden
-location	Cheshire
 location	East Haven
 location	North Haven
 location	Wallingford
@@ -3606,6 +3602,7 @@ division	Halland
 division	Gotland
 division	Småland
 division	Jonkoping
+division	Västra Götaland
 division	Vastra Gotaland
 division	Ostergotland
 division	Sodermanland
