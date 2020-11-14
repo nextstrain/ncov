@@ -11,6 +11,9 @@ register_matplotlib_converters()
 def bold(s):
     return('\033[1m' + s + '\033[0m')
 
+def strike(s):
+    return('\u0336'.join(s) + '\u0336')
+
 # Cut a string of the format "key: content" into a tuple (key, content)
 def cut(s):
     key = s.split(":")[0]
@@ -241,6 +244,7 @@ def collect_labs(data, table_file_name):
         lab_dictionary[country][description.lower()] = handle
 
 
+    lab_UK = lab_dictionary["United Kingdom"]["COVID-19 Genomics UK Consortium".lower()]
     lab_collection = {}
 
     print("\nSubmitting labs:\n(Note: small differences in spelling might cause lab to not be identified. Consider adjusting the spelling in the spreadsheet!)\n")
@@ -255,14 +259,17 @@ def collect_labs(data, table_file_name):
             for lab in submitting_labs[region][country]:
                 s += lab + ": "
                 if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
-                    s += bold(lab_dictionary[country][lab.lower()])
+                    k = lab_dictionary[country][lab.lower()]
                     for l in lab_dictionary[country][lab.lower()].split(", "):
                         if l not in lab_collection[region][country]:
                             lab_collection[region][country].append(l)
                 else:
-                    s += bold("?")
+                    k = "?"
                     lab_collection[region][country].append("???")
-                s += "\n"
+                if country == "United Kingdom":
+                    k = strike(k) + " " + lab_UK
+
+                s += bold(k) + "\n"
             print(s)
 
     print("----------------------------------------------\n")
@@ -273,7 +280,11 @@ def collect_labs(data, table_file_name):
             for lab in originating_labs[region][country]:
                 s += lab
                 if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
-                    s += ": " + bold(lab_dictionary[country][lab.lower()])
+                    s += ": "
+                    k = lab_dictionary[country][lab.lower()]
+                    if country == "United Kingdom":
+                        k = strike(k) + " " + lab_UK
+                    s += bold(k)
                     for l in lab_dictionary[country][lab.lower()].split(", "):
                         if l not in lab_collection[region][country]:
                             lab_collection[region][country].append(l)
@@ -288,12 +299,18 @@ def collect_labs(data, table_file_name):
             for author in authors[region][country]:
                 s += author
                 if country in lab_dictionary and author.lower() in lab_dictionary[country]:
-                    s += ": " + bold(lab_dictionary[country][author.lower()])
+                    s += ": "
+                    k = lab_dictionary[country][author.lower()]
+                    if country == "United Kingdom":
+                        k = strike(k) + " " + lab_UK
+                    s += bold(k)
                     for a in lab_dictionary[country][author.lower()].split(", "):
                         if a not in lab_collection[region][country]:
                             lab_collection[region][country].append(a)
                 s += "\n"
             print(s)
+
+    lab_collection["Europe"]["United Kingdom"] = [lab_UK]
 
     return lab_collection
 
