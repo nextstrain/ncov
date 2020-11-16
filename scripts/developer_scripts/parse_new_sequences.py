@@ -155,6 +155,7 @@ def plot_dates(data, path):
         plt.title(country)
         plt.xticks(rotation=45, ha="right", size = 7)
         plt.savefig(path + "dates_" + country)
+        plt.close()
 
 
 # Count for every country the number of new sequences
