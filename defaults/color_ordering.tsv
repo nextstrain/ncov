@@ -531,6 +531,16 @@ location	Amajuba
 # Cairo
 location	Al Matariyyah
 
+### Mozambique
+# Gaza
+location	Xai Xai
+
+# Manica
+location	Chimoio
+
+# Cabo Delgado
+location	Pemba
+
 ### Madagascar
 # Analamanga
 location	Antananarivo
@@ -1114,6 +1124,7 @@ location	Bourg-en-Bresse
 location	Bourgoin-Jallieu
 location	Montagnieu
 location	Oyonnax
+location	Grenoble
 location	Chambery
 location	Saint-Julien-en-Genevois
 location	Contamine-sur-Arve
@@ -1538,6 +1549,9 @@ location	Eupen
 location	Büllingen
 
 ### Netherlands
+# St Eustatius
+location	St Eustatius
+
 # South Holland
 location	Delft
 location	Nootdorp
@@ -1639,6 +1653,7 @@ location	Siena
 
 # Veneto
 location	Verona IT
+location	Padova
 
 # Lazio
 location	Rome
@@ -2467,6 +2482,10 @@ location	Siquirres
 ### Mexico
 # Baja California
 location	Tijuana
+location	Mexicali
+
+# Sonora
+location	San Luis Rio Colorado
 
 # Durango
 location	Gomez Palacios
@@ -2554,6 +2573,7 @@ location	San Diego
 location	San Diego County
 location	San Bernardino County
 location	Imperial County
+location	Riverside
 
 # Nevada
 location	Clark County NV
@@ -2562,6 +2582,7 @@ location	Clark County NV
 location	Madison County
 
 # Arizona
+location	Yuma
 location	Maricopa County
 
 # Montana
@@ -2755,6 +2776,7 @@ location	Cuyahoga County
 
 # Florida
 location	Walton County
+location	Orange County FL
 location	Miami-Dade County
 location	Palm Beach County
 
@@ -2774,6 +2796,9 @@ location	Montgomery County PA
 
 # Washington DC
 location	District of Columbia County
+
+# Maryland
+location	Prince George'S County
 
 # Delaware
 location	Sussex County
@@ -2919,8 +2944,9 @@ division	Jenin
 division	Beirut
 
 ### Jordan
-division	Amman
 division	Irbid
+division	Amman
+division	Mafraq
 
 ### Georgia
 division	Georgia (Europe)
@@ -3276,7 +3302,9 @@ division	Nigeria
 
 ### Tunisia
 division	Tunisia
+division	Nabeul
 division	Ben Arous
+division	Tunis
 division	Bizerte
 
 ### Niger
@@ -3294,6 +3322,7 @@ division	Brazzaville
 
 ### Democratic Republic of the Congo
 division	Kongo Central
+division	Kisantu
 division	Kinshasa
 division	Democratic Republic of the Congo
 division	Haut-Katanga
@@ -3329,6 +3358,11 @@ division	Kalyoubia
 
 ### Uganda
 division	Uganda
+
+### Mozambique
+division	Gaza
+division	Manica
+division	Cabo Delgado
 
 ### Kenya
 division	Kwale
@@ -3482,6 +3516,7 @@ division	Verviers
 division	Mepel
 
 ### Netherlands
+division	St Eustatius
 division	Zeeland
 division	Leiden
 division	South Holland
@@ -3540,7 +3575,8 @@ division	Trondheim
 division	Innlandet
 division	Oslo
 division	Norway
-division	Tromsogfinnmark
+division	Nordland
+division	Troms Og Finnmark
 
 ### Denmark
 division	Faroe Islands
@@ -3556,6 +3592,7 @@ division	Copenhagen
 division	Bavaria
 division	Baden-Wuerttemberg
 division	Hesse
+division	Thuringia
 division	Germany
 division	North Rhine Westphalia
 division	Berlin
@@ -3602,7 +3639,6 @@ division	Halland
 division	Gotland
 division	Småland
 division	Jonkoping
-division	Västra Götaland
 division	Vastra Gotaland
 division	Ostergotland
 division	Sodermanland
@@ -4286,6 +4322,7 @@ country	Zambia
 country	Rwanda
 country	Egypt
 country	Uganda
+country	Mozambique
 country	Kenya
 country	Madagascar
 country	Somalia
