@@ -292,7 +292,7 @@ def read_metadata(metadata):
                 division = location
                 location = ""
     
-        countries_to_division = {"Hunan": "China", "Gibraltar": "United Kingdom", "Faroe Islands": "Denmark"}
+        countries_to_division = {"Hunan": "China", "Gibraltar": "United Kingdom", "Faroe Islands": "Denmark", "St Eustatius": "Netherlands"}
     
         if country in countries_to_division:
             additions_to_annotation.append(strain + "\t" + id + "\tcountry\t"+ countries_to_division[country] +" #previously " + country)
