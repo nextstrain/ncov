@@ -464,7 +464,7 @@ def prepare_tweet(counts, lab_collection):
         p = "[pic_" + current_region.replace(" ", "") + "]"
         l = links[current_region]
         if best_partner != "":
-            current_length += lengths(best_partner)
+            current_length += lengths[best_partner]
             lengths.pop(best_partner)
             c += tweet_collection[best_partner][0]
             h += tweet_collection[best_partner][1]
