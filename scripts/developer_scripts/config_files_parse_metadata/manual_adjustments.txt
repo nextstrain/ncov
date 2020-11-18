@@ -1,0 +1,4 @@
+Before	After
+Africa/South Africa/Western Cape/Northern	Africa/South Africa/Northern Cape/
+Africa/South Africa/Western Cape/Siyathemba	Africa/South Africa/Northern Cape/Siyathemba
+Africa/South Africa/Western Cape/Eastern	Africa/South Africa/Eastern Cape/

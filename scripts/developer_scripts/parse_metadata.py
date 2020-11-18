@@ -31,9 +31,9 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
     if path_file_name in first_files: #simple list
         return [line.strip() for line in file_content[1:]]
 
-    second_files = [path_to_config_files+fi for fi in ["wrong_regions.txt", "abbreviations.txt", "false_divisions.txt", ] ]
+    second_files = [path_to_config_files+fi for fi in ["wrong_regions.txt", "abbreviations.txt", "false_divisions.txt", "manual_adjustments.txt"] ]
 
-    if path_file_name in second_files: #dictionary, keys seaprated from content with tabs
+    if path_file_name in second_files: #dictionary, keys seperated from content with tabs
         content = {}
         for line in file_content[1:]:
             l = line.strip().split("\t")
@@ -639,6 +639,31 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
 
     print("\n=============================\n")
     return data
+
+
+##### Step 2.05: Apply manual adjustments set in manual_adjustments.txt
+def manual_adjustments(data):
+    manual_adjustments = read_local_file("manual_adjustments.txt")
+
+    seqs_to_correct = []
+    for region in data:
+        for country in data[region]:
+            for division in data[region][country]:
+                for location in data[region][country][division]:
+                    for g in manual_adjustments:
+                        (region2, country2, division2, location2) = g.split("/")
+                        if region == region2 or region2 == "*":
+                            if country == country2 or country2 == "*":
+                                if division == division2 or division2 == "*":
+                                    if location == location2 or location2 == "*":
+                                        region_correct, country_correct, division_correct, location_correct = manual_adjustments["/".join([region2, country2, division2, location2])].split("/")
+                                        seqs_to_correct.append((region, country, division, location, region_correct, country_correct, division_correct, location_correct))
+                                        print("Manual adjustment: " + bold("/".join([region, country, division, location])) + " -> " + bold("/".join([region_correct, country_correct, division_correct, location_correct])))
+
+    data = correct_data(data, "location", seqs_to_correct)
+    print("\n=============================\n")
+    return data
+
 
 
 ##### Step 2.1: Apply all known variants stored in an external file variants.txt
@@ -1253,6 +1278,10 @@ if __name__ == '__main__':
 
     ##### Step 2.0: Adjust the divisions and locations by comparing them to a known database - only accessible for Belgium at the moment
     data = adjust_to_database(data)
+
+    ##### Step 2.05: Before checking for any of the other adjustments, apply manually designed adjustments stored in manual_adjustments.txt
+    # This includes manually setting the region, country, division and location before and after the adjustment
+    data = manual_adjustments(data)
 
     ##### Step 2.1: Apply all known variants stored in an external file variants.txt
     data = apply_typical_errors(data) #TODO: do this earlier (before reading metadata), join with UK as region?
