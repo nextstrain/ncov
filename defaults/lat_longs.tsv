@@ -90,6 +90,7 @@ location	Andalucia	4.173863	-76.164864
 location	Andel	51.7851	5.0549
 location	Andenne	50.487207	5.056619
 location	Anderlecht	50.829058	4.29586
+location	Andrezieux-Boutheon	45.5351545	4.279901648257095
 location	Angers	47.6781742	2.4367044
 location	Ans	50.671731	5.510231
 location	Anserma	5.238746	-75.782888
@@ -115,6 +116,7 @@ location	Arraiján	8.98985635	-79.6793266702984
 location	Arroyo de la Luz	39.4840338	-6.5845773
 location	Artajona	42.5876058	-1.7644227
 location	As Seeb	23.6821956	58.1843842
+location	Asbest	57.0052746	61.4580765
 location	Aserri	9.865508	-84.091553
 location	Ashland County	46.2062319	-90.6802594
 location	Asnières-sur-Seine	48.911508	2.284362
@@ -171,6 +173,7 @@ location	Bayad	23.2298	73.2205
 location	Bayside	43.1806	-87.9006
 location	Bazel	51.146864	4.298358
 location	Beacon Falls	41.4426	-73.0618
+location	Beaufort West	-32.353611	22.580556
 location	Beerse	50.753018	4.305199
 location	Beersel	50.7669	4.3085
 location	Beerst	51.058103	2.886961
@@ -200,6 +203,7 @@ location	Benton County	46.190531	-119.520720
 location	Berchem	50.789509	3.509630
 location	Berchem-Sainte-Agathe	50.865005	4.292878
 location	Bercianos del Paramo	42.3809862	-5.7038921
+location	Berdsk	54.75795	83.1068095
 location	Berea	-29.8505556	31.0019444
 location	Berg	50.931302	4.537617
 location	Bergamo	45.6983	9.6773
@@ -562,6 +566,7 @@ location	Dosquebradas	4.832649	-75.677377
 location	Douglas County OR	43.1922115	-123.1135963
 location	Douglas County WA	47.7652709	-119.6075365
 location	Dour	50.390137	3.785941
+location	Draguignan	43.5374662	6.4627333
 location	Dubné	48.9767819	14.3594962
 location	Dubuque County	42.4692988	-90.8742047
 location	Duesseldorf	51.22166	6.75289
@@ -703,6 +708,7 @@ location	Gennevilliers	48.927444	2.292449
 location	Gent	51.099884349999996	3.739013449056724
 location	Gentbrugge	51.042328	3.759051
 location	Genval	50.720392	4.493708
+location	George	-33.964444	22.459722
 location	Georgetown	33.4392245	-79.3343041
 location	Georgetown County	33.4392245	-79.3343041
 location	Geraardsbergen	50.777365	3.899454
@@ -813,6 +819,7 @@ location	Herrera del Duque	39.1676109	-5.0504659
 location	Herselt	51.048723	4.879674
 location	Herstal	50.680399	5.606845
 location	Herve	50.647665	5.794572
+location	Hessequa	-34.1176026	21.17880986383399
 location	Heusden-Zolder	51.016671	5.290726
 location	Heverlee	50.861704	4.695889
 location	Hidalgo County	26.3530256	-98.216445
@@ -949,6 +956,7 @@ location	Kalmthout	51.383	4.4752
 location	Kalol	23.238801	72.498547
 location	Kalyanpur	22.08421335	69.3041972072113
 location	Kamareddy	18.316551	78.05393808043348
+location	Kamensk-Shakhtinsky	48.3210807	40.2650679
 location	Kampenhout	50.945063	4.567367
 location	Kamrej	21.2797773	72.948269
 location	Kane County	41.923434	-88.4248315
@@ -982,6 +990,7 @@ location	Kfar Saba	32.180607	34.912861
 location	Khambhaliya	22.2176085	69.6578939
 location	Khammam	17.5	80.333333
 location	Khanty-Mansiysk	61.00346	69.019157
+location	Khayelitsha	-34.0405905	18.6674201
 location	Kheda	22.749950	72.686465
 location	Khedbrahma	24.0291	73.0435
 location	King Cetshwayo	-28.750343899999997	32.050227274984636
@@ -995,7 +1004,9 @@ location	Kirovsk	59.8813954	30.9855331
 location	Kittitas County	47.1750	-120.9319
 location	Klenčí	49.4348	12.8147
 location	Klickitat County	45.8767731	-120.7976033
+location	Klipfontein	-32.0027832	18.5072125
 location	Knokke-Heist	51.331501	3.308826
+location	Knysna	-34.035734	23.048485
 location	Kodinar	20.8009	70.6960
 location	Kodomtoly	23.703843	90.875119
 location	Koersel	51.058003	5.272274
@@ -1003,6 +1014,7 @@ location	Kolar	13.1369996	78.1339606
 location	Kolhapur	16.7028412	74.2405329
 location	Kolin	50.0288894	15.2011571
 location	Kolkata	22.543905	88.374991
+location	Korolyov	55.9204898	37.8326289
 location	Kortenberg	50.887699	4.567473
 location	Kozmodemyansk	56.3324346	46.5462855
 location	Kraainem	50.8611	4.4593
@@ -1135,6 +1147,7 @@ location	Lutsk	50.7450733	25.320078
 location	Luttre	50.509069	4.391808
 location	Luxembourg	49.607806	6.130375
 location	Lyon	45.757870	4.841293
+location	Lyubertsy	55.6783142	37.89377
 location	Lyubinsky	55.156715	72.699005
 location	Macara	-4.3490568	-79.91614162495434
 location	Maceio	-9.586654	-35.721537
@@ -1184,6 +1197,7 @@ location	Marathon County	44.8914036	-89.7748098
 location	Marcinelle	50.394727	4.427537
 location	Mariakerke	51.072918	3.680642
 location	Maricopa County	33.34883	-112.49123
+location	Marignane	43.4162729	5.2146275
 location	Marin County	38.077277	-122.719060
 location	Marina de Cudeyo	43.4195639	-3.749259321692027
 location	Maringa	-23.425269	-51.9382078
@@ -1208,6 +1222,7 @@ location	Maua	-23.664006	-46.442663
 location	Maurage	50.455601	4.099269
 location	Maykop	44.6062079	40.104053
 location	Mayrhofen	47.163296	11.862115
+location	Mazet-Saint-Voy	45.0471901	4.2447342
 location	Mbao	14.7299	-17.3258
 location	Mbour	14.411794	-16.9657124
 location	Mchenry County	42.3294391	-88.4605713
@@ -1244,6 +1259,7 @@ location	Mingogil	38.4609	-1.7411
 location	Minnehaha County	43.6680284	-96.7837626
 location	Miramar	25.9861	-80.3036
 location	Mirpur	23.8223	90.3654
+location	Mitchells Plain	-34.050556	18.618056
 location	Mlada Boleslav	50.414296	14.913877
 location	Modasa	23.4643	73.2988
 location	Mogi Das Cruzes	-23.5393	-46.2167
@@ -1271,6 +1287,7 @@ location	Montignies-sur-Sambre	50.401302	4.478466
 location	Montigny le Bretonneux	48.7739	2.0360
 location	Montigny-le-Tilleul	50.374917	4.371814
 location	Montigny Les Metz	49.0999832	6.153041
+location	Montpellier	43.6112422	3.8767337
 location	Montreux-Chateau	47.607677	6.994181
 location	Monzon	41.9143981	0.1922412
 location	Moradabad	28.8638424	78.80577833091104
@@ -1281,6 +1298,7 @@ location	Morlanwelz	50.450138	4.246584
 location	Morningside	-29.8183613	31.0180771
 location	Morris County	40.8679538	-74.5601181
 location	Moskalenki	54.939468	71.92588
+location	Mossel Bay	-34.1832022	22.1536248
 location	Motilleja	39.1804849	-1.7907731
 location	Moulvibazar	24.4843	91.7685
 location	Mount Horeb	43.008707	-89.730497
@@ -1407,7 +1425,9 @@ location	Orange County FL	28.495156	-81.3111658
 location	Orange County NY	41.394693	-74.289170
 location	Ordizia	43.0539687	-2.1795046
 location	Oregon WI	42.927835	-89.380569
+location	Orel	52.9685433	36.0692477
 location	Orellana	-0.6013233499999999	-76.55625798976627
+location	Orenburg	51.767452	55.097118
 location	Oroso	42.9948	-8.3636
 location	Orotina	9.913179	-84.523659
 location	Orsay	48.703347	2.187373
@@ -1421,6 +1441,7 @@ location	Ottonville	49.2186146	6.5222675
 location	Otura	37.0913	-3.6345
 location	Ouachita Parish	32.4790511	-92.1615004
 location	Oud-Turnhout	51.319510	5.004179
+location	Oudtshoorn	-33.5902954	22.204206
 location	Outagamie County	44.41603	-88.4602005
 location	Outes	42.8428093	-8.9084798
 location	Overijse	50.769757	4.532583
@@ -1655,6 +1676,7 @@ location	Rudraprayag	30.3009965	79.06287964782695
 location	Rufina Alfaro	9.068903	-79.456339
 location	Rupnagar	31.09168085	76.5272673916138
 location	Russkaya Polyana	53.780357	73.882103
+location	Ryazan	54.6295687	39.7425039
 location	Sabadell	41.5421013	2.1138977
 location	Sabaneta	6.151838	-75.616992
 location	Sabine Parish	31.5223049	-93.5265161
@@ -1663,13 +1685,18 @@ location	Sacramento County	38.494406	-121.301826
 location	Sador	22.693161	89.775469
 location	Sagunt	39.6801	-0.2784
 location	Saint-Brieuc	48.5141134	-2.7603283
+location	Saint-Gely-Du-Fesc	43.6913873	3.803981
+location	Saint-Genis-Les-Ollieres	45.7601	4.72654
 location	Saint Germain en Laye	48.938032	2.094734
 location	Saint-Ghislain	50.483208	3.802415
+location	Saint-Jean-de-Bournay	45.501892	5.1389879
 location	Saint-Julien-en-Genevois	46.1444789	6.0812467
 location	Saint Louis County	38.632980	-90.472478
 location	Saint Pierre Quiberon	47.5305	-3.13689
 location	Saint-Priest	45.704159	4.949456
 location	Saint-Thibault-des-Vignes	48.862026	2.674513
+location	Saint-Vallier-de-Thiey	43.6987023	6.8478583
+location	Saint-Verand	45.1738392	5.3329287
 location	Saisinne	50.523754	4.035498
 location	Saive	50.652941	5.685550
 location	Saline County	37.750075	-88.5302584
@@ -1770,6 +1797,7 @@ location	Sene	47.6199584	-2.7373441
 location	Seneffe	50.549618	4.268821
 location	Seoul	37.548278	126.990916
 location	Seraing	50.591687	5.516066
+location	Sergiyev Posad	56.3153529	38.1358208
 location	Severomorsk	69.069168	33.416656
 location	Sevilla	37.379170	-5.983557
 location	Seymour	41.396164	-73.072024
@@ -1802,6 +1830,7 @@ location	Sint-Gillis-Waas	51.226622	4.118297
 location	Sint-Truiden	50.810338	5.192644
 location	Siquirres	10.1513812	-83.48051634442399
 location	Sistrans	47.231579	11.466706
+location	Siyathemba	-29.59172	22.52017633268437
 location	Skagit County	48.485784	-121.815524
 location	Skierniewice County	51.94468755	20.009552327706285
 location	Sleman	-7.6952864000000005	110.34462923977276
@@ -1845,6 +1874,7 @@ location	Stearns County	45.535326	-94.6139422
 location	Steenokkerzeel	50.922396	4.499669
 location	Steinach am Brenner	47.090272	11.472902
 location	Stekene	51.214088	4.030857
+location	Stellenbosch	-33.934444	18.869167
 location	Stephenson County	42.3503474	-89.6735637
 location	Sterrebeek	50.866403	4.474336
 location	Stoughton	42.922770	-89.225062
@@ -1870,6 +1900,7 @@ location	Sussex County	38.6908097	-75.3691421
 location	Sutrapada	20.8428692	70.4799081
 location	Sutter County	38.9509675	-121.697088
 location	Suzhou	31.289911	120.538521
+location	Svobodnyi	58.037659	60.394432
 location	Sydney	-33.870747	151.208359
 location	Tabira	-7.583661	-37.537735
 location	Taboao Da Serra	-23.6121912	-46.7790539
@@ -1974,6 +2005,7 @@ location	Tunja	5.5323632	-73.361362
 location	Tuolumne County	38.056944	-119.9919351
 location	Turin	45.0677551	7.6824892
 location	Tweed Heads	-28.201312	153.543425
+location	Tygerberg	-33.8474485	18.6410685
 location	Ubeda	38.0114	-3.3712
 location	Uccle	50.793431	4.355608
 location	Ugu	-30.54723	30.29119696183432
@@ -2913,6 +2945,7 @@ division	North Sulawesi	0.950357	124.450132
 division	North Sumatra	2.1923519	99.3812201
 division	North-West	-26.524595	25.625515
 division	Northeastern Region	42.1670929	22.002467993493266
+division	Northern Cape	-29.573402	21.2051361
 division	Northern Ireland	54.60219	-6.687146
 division	Northern Territory	-19.4914	132.551
 division	Norway	64.574131	11.52701029
@@ -2947,6 +2980,7 @@ division	Opolskie	50.8918612	17.9321175
 division	Orebro	59.2753	15.2134
 division	Orebro Lan	59.378174	14.948348
 division	Oregon	43.8041	-120.5542
+division	Orel	52.9685433	36.0692477
 division	Orellana	-0.78618	-76.4803184
 division	Orenburg	51.7634	54.6188
 division	Oroshaza	46.5684	20.6545
@@ -3046,11 +3080,14 @@ division	Rivera	-30.906491	-55.540612
 division	Rivers	4.8416028	6.8604088
 division	Riyadh	23.197563	45.243845
 division	Rogaland	58.93631375	5.805878643040238
+division	Romania	45.9852129	24.6859225
 division	Rondonia	-10.943145	-62.8277863
 division	Roscommon	53.6982695	-8.218250761296193
 division	Rostock	54.130776	12.106778
+division	Rostov	47.2213858	39.7114196
 division	Russia	64.6863136	97.7453061
 division	Rwanda	-1.9646631	30.0644358
+division	Ryazan	54.6295687	39.7425039
 division	Saint Barthélemy	17.9036287	-62.811568843006896
 division	Saint-François	16.2532002	-61.2750706
 division	Saint Martin	18.0668544	-63.0848869

@@ -507,7 +507,21 @@ location	Accra
 
 ### South Africa
 # Western Cape Province
+location	Klipfontein
 location	Cape Town Metro
+location	Mitchells Plain
+location	Tygerberg
+location	Khayelitsha
+location	Stellenbosch
+location	Hessequa
+location	Mossel Bay
+location	Oudtshoorn
+location	George
+location	Beaufort West
+location	Knysna
+
+# Northern Cape
+location	Siyathemba
 
 # KwaZulu-Natal
 location	uMkhanyakude
@@ -1106,13 +1120,18 @@ location	Lille
 # Occitanie
 location	Toulouse
 location	Caraman
+location	Saint-Gely-Du-Fesc
+location	Montpellier
 
 # Auvergne-Rhône-Alpes
 location	Clermont-Ferrand
+location	Mazet-Saint-Voy
+location	Andrezieux-Boutheon
 location	Tarare
 location	Privas
 location	Pollionnay
 location	Craponne
+location	Saint-Genis-Les-Ollieres
 location	Villefranche-sur-Saône
 location	Macon
 location	Lyon
@@ -1120,8 +1139,10 @@ location	Venissieux
 location	Valence
 location	Saint-Priest
 location	Decines
+location	Saint-Jean-de-Bournay
 location	Bourg-en-Bresse
 location	Bourgoin-Jallieu
+location	Saint-Verand
 location	Montagnieu
 location	Oyonnax
 location	Grenoble
@@ -1172,8 +1193,11 @@ location	Strasbourg
 location	Bischheim
 
 # Provence-Alpes-Côte d'Azur
+location	Marignane
 location	Marseille
+location	Draguignan
 location	Embrun
+location	Saint-Vallier-de-Thiey
 
 ### Belgium
 # Veurne
@@ -1895,15 +1919,27 @@ location	Severomorsk
 # Kaluga
 location	Tovarkovo
 
+# Orel
+location	Orel
+
 # Moscow Oblast
 location	Uvarovka
 location	Lapino
+location	Korolyov
+location	Lyubertsy
+location	Sergiyev Posad
 location	Bronnitsy
 
 # Krasnodar
 location	Anapa
 location	Krasnodar
 location	Sochi
+
+# Rostov
+location	Kamensk-Shakhtinsky
+
+# Ryazan
+location	Ryazan
 
 # Voronezh
 location	Voronezh
@@ -1946,6 +1982,9 @@ location	Kozmodemyansk
 location	Ukhta
 location	Sosnogorsk
 
+# Orenburg
+location	Orenburg
+
 # Perm Krai
 location	Perm
 
@@ -1958,9 +1997,11 @@ location	Pervouralsk
 location	Nizhny Tagil
 location	Krasnouralsk
 location	Kirovgrad
+location	Svobodnyi
 location	Verkhnyaya Pyshma
 location	Ekaterinburg
 location	Zarechny
+location	Asbest
 
 # Khanty-Mansi
 location	Khanty-Mansiysk
@@ -1981,6 +2022,7 @@ location	Muromtsevo
 location	Sedelnikovo
 
 # Novosibirsk
+location	Berdsk
 location	Novosibirsk
 
 # Altai Krai
@@ -3334,6 +3376,7 @@ division	Gaborone
 
 ### South Africa
 division	Western Cape Province
+division	Northern Cape
 division	South Africa
 division	North-West
 division	Eastern Cape
@@ -3806,6 +3849,7 @@ division	Vilnius
 
 ### Romania
 division	Vrancea
+division	Romania
 division	Arges
 division	Mioveni
 division	Valcea
@@ -3897,10 +3941,13 @@ division	Karelia
 division	Tver
 division	Murmansk
 division	Kaluga
+division	Orel
 division	Moscow Oblast
 division	Yaroslavl
 division	Lipetsk
 division	Krasnodar
+division	Rostov
+division	Ryazan
 division	Voronezh
 division	Adygea
 division	Ivanovo
