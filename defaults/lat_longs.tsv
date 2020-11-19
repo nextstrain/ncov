@@ -24,6 +24,7 @@ location	Al Amrat	23.5223356	58.5002366
 location	al-Arroub	31.6232237	35.136928
 location	Al Awabi	23.3	57.52
 location	Al Matariyyah	30.123764	31.317953
+location	Alachua County	29.675568	-82.3640109
 location	Alajuela	10.012782	-84.215404
 location	Alajuelita	9.88904325	-84.10610329208212
 location	Alameda County	37.6017	-121.7195
@@ -698,6 +699,7 @@ location	Garabito	9.707248100000001	-84.6218658823131
 location	Garches	48.8461	2.1887
 location	Garrafe de Torio	42.730915	-5.5233043
 location	Gartzain	43.1298357	-1.5366744
+location	Gasconade County	38.4575789	-91.5177499
 location	Gaziabad	28.6711527	77.4120356
 location	Geetbets	50.891512	5.132033
 location	Geluwe	50.809763	3.076704
@@ -1014,6 +1016,7 @@ location	Kolar	13.1369996	78.1339606
 location	Kolhapur	16.7028412	74.2405329
 location	Kolin	50.0288894	15.2011571
 location	Kolkata	22.543905	88.374991
+location	Konstanz	47.659216	9.1750718
 location	Korolyov	55.9204898	37.8326289
 location	Kortenberg	50.887699	4.567473
 location	Kozmodemyansk	56.3324346	46.5462855
@@ -1367,6 +1370,7 @@ location	New Rochelle	40.9115	-73.7824
 location	New York City	40.695065	-73.993461
 location	New York County	40.7896239	-73.9598939
 location	Newtown	41.411793	-73.311831
+location	Nice	43.7009358	7.2683912
 location	Nicoya	10.147393	-85.452562
 location	Nieuwendijk	51.7774	4.8743
 location	Nieuwerkerken	50.882291	5.20403
@@ -1668,6 +1672,7 @@ location	Roorkee	29.8693496	77.8902124
 location	Rostock	54.0784362	12.132504
 location	Rota	36.627796	-6.368951
 location	Rotterdam	51.9244	4.4777
+location	Rottweil	48.165531	8.6251283
 location	Roucourt	50.528622	3.586797
 location	Rouen	49.4432	1.1000
 location	Rouziers-de-Touraine	47.5175967	0.6488459
@@ -1685,6 +1690,7 @@ location	Sacramento County	38.494406	-121.301826
 location	Sador	22.693161	89.775469
 location	Sagunt	39.6801	-0.2784
 location	Saint-Brieuc	48.5141134	-2.7603283
+location	Saint-Etienne	45.4401467	4.3873058
 location	Saint-Gely-Du-Fesc	43.6913873	3.803981
 location	Saint-Genis-Les-Ollieres	45.7601	4.72654
 location	Saint Germain en Laye	48.938032	2.094734
@@ -1821,6 +1827,7 @@ location	Shtip	41.7374724	22.1935856
 location	Siddhpur	23.918279	72.3681846
 location	Sidoarjo	-7.4559622	112.66022171549456
 location	Siena	43.16711185	11.467331746909997
+location	Sigmaringen	48.0855844	9.2178879
 location	Silleda	42.6900518	-8.28359
 location	Silly	50.638827	3.943396
 location	Simat de la Valldigna	39.0427	-0.3107
@@ -2004,6 +2011,7 @@ location	Tumakuru	13.3400771	77.1006208
 location	Tunja	5.5323632	-73.361362
 location	Tuolumne County	38.056944	-119.9919351
 location	Turin	45.0677551	7.6824892
+location	Tuttlingen	47.9844315	8.8186606
 location	Tweed Heads	-28.201312	153.543425
 location	Tygerberg	-33.8474485	18.6410685
 location	Ubeda	38.0114	-3.3712
@@ -2090,6 +2098,7 @@ location	Villavicencio	4.134000	-73.623483
 location	Villefranche-sur-Saône	45.9864749	4.726611
 location	Villeneuve St Georges	48.7305272	2.44782
 location	Villerot	50.485709	3.791108
+location	Villingen-Schwenningen	48.0632739	8.494588
 location	Vilvoorde	50.932484	4.429885
 location	Vina del Mar	-33.0244535	-71.5517636
 location	Vista Alegre	8.931677	-79.700195
@@ -2605,6 +2614,7 @@ division	Hesse	50.6118537	9.1909725
 division	Heverlee	50.8626	4.6959
 division	Heves County	47.8058	20.2039
 division	Hidalgo	20.5	-99.0
+division	Himachal Pradesh	31.81676015	77.34932051968858
 division	Ho Chi Minh City	10.790417	106.653985
 division	Hokkaido	43.2203	142.8635
 division	Hokuriku	37.9154	139.0356
@@ -2795,6 +2805,7 @@ division	Livno	43.8250	17.0077
 division	Łódzkie	51.4721678	19.3460637
 division	Loja	-4.0528506	-79.8053425
 division	Lombardy	45.4791	9.8452
+division	Longford	53.726262750000004	-7.791969209626598
 division	Loreto	-5.0	-75.0
 division	Los Lagos	-42.300844	-73.105387
 division	Los Rios	-1.385450	-79.552240

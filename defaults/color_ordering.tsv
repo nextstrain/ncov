@@ -1127,6 +1127,7 @@ location	Montpellier
 location	Clermont-Ferrand
 location	Mazet-Saint-Voy
 location	Andrezieux-Boutheon
+location	Saint-Etienne
 location	Tarare
 location	Privas
 location	Pollionnay
@@ -1198,6 +1199,7 @@ location	Marseille
 location	Draguignan
 location	Embrun
 location	Saint-Vallier-de-Thiey
+location	Nice
 
 ### Belgium
 # Veurne
@@ -1644,6 +1646,11 @@ location	Munich
 location	Erlangen
 
 # Baden-Wuerttemberg
+location	Konstanz
+location	Tuttlingen
+location	Villingen-Schwenningen
+location	Sigmaringen
+location	Rottweil
 location	Tuebingen
 
 # Hesse
@@ -2734,6 +2741,7 @@ location	St Tammany Parish
 location	St Bernard Parish
 
 # Missouri
+location	Gasconade County
 location	Saint Louis County
 location	St. Louis MO
 
@@ -2818,6 +2826,7 @@ location	Cuyahoga County
 
 # Florida
 location	Walton County
+location	Alachua County
 location	Orange County FL
 location	Miami-Dade County
 location	Palm Beach County
@@ -3076,6 +3085,7 @@ division	Delhi
 division	Haryana
 division	Uttarakhand
 division	Punjab
+division	Himachal Pradesh
 division	Jammu and Kashmir
 division	Ladakh
 
@@ -3449,6 +3459,7 @@ division	Tipperary
 division	Leitrim
 division	Ireland
 division	Offaly
+division	Longford
 division	Laois
 division	Westmeath
 division	Cavan
@@ -3811,6 +3822,7 @@ division	Debrecen
 division	Szabolcs-Szatmár-Bereg County
 
 ### Serbia
+division	Kosovska Mitrovica
 division	Novi Pazar
 division	Krusevac
 division	Kraljevo
