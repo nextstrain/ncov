@@ -22,9 +22,10 @@
         "qos": "6hours",
         "time" : "05:59:00"
     },
-    "align": {
-        "n" : 2,
-        "mem": "32G"
+        "n" : 8,
+        "mem": "128G",
+        "qos": "6hours",
+        "time" : "05:59:00"
     },
     "proximity_score":{
 	"mem": "64G"

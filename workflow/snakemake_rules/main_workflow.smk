@@ -124,75 +124,39 @@ rule diagnose_excluded:
         """
 
 
-checkpoint partition_sequences:
-    input:
-        sequences = rules.filter.output.sequences
-    output:
-        split_sequences = directory("results/split_sequences/")
-    log:
-        "logs/partition_sequences.txt"
-    params:
-        sequences_per_group = config["partition_sequences"]["sequences_per_group"]
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/partition-sequences.py \
-            --sequences {input.sequences} \
-            --sequences-per-group {params.sequences_per_group} \
-            --output-dir {output.split_sequences} 2>&1 | tee {log}
-        """
-
 rule align:
     message:
         """
         Aligning sequences to {input.reference}
           - gaps relative to reference are considered real
-        Cluster:  {wildcards.cluster}
         """
     input:
-        sequences = "results/split_sequences/{cluster}.fasta",
-        reference = config["files"]["reference"]
-    output:
-        alignment = "results/split_alignments/{cluster}.fasta"
-    log:
-        "logs/align_{cluster}.txt"
-    benchmark:
-        "benchmarks/align_{cluster}.txt"
-    threads: 2
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur align \
-            --sequences {input.sequences} \
-            --reference-sequence {input.reference} \
-            --output {output.alignment} \
-            --nthreads {threads} \
-            --remove-reference 2>&1 | tee {log}
-        """
-
-def _get_alignments(wildcards):
-    checkpoint_output = checkpoints.partition_sequences.get(**wildcards).output[0]
-    return expand("results/split_alignments/{i}.fasta",
-                  i=glob_wildcards(os.path.join(checkpoint_output, "{i}.fasta")).i)
-
-rule aggregate_alignments:
-    message: "Collecting alignments"
-    input:
-        alignments = _get_alignments
+        sequences = "results/filtered.fasta",
+        reference = config["files"]["alignment_reference"]
     output:
         alignment = "results/aligned.fasta"
     log:
-        "logs/aggregate_alignments.txt"
+        "logs/align.txt"
+    benchmark:
+        "benchmarks/align.txt"
+    threads: 8
     conda: config["conda_environment"]
     shell:
         """
-        cat {input.alignments} > {output.alignment} 2> {log}
+        mafft \
+            --auto \
+            --thread {threads} \
+            --keeplength \
+            --addfragments \
+            {input.sequences} \
+            {input.reference} > {output} 2> {log}
         """
+
 
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
-        alignment = rules.aggregate_alignments.output.alignment,
+        alignment = rules.align.output.alignment,
         metadata = rules.download.output.metadata,
         reference = config["files"]["reference"]
     output:
@@ -224,7 +188,7 @@ rule refilter:
         excluding sequences flagged in the diagnostic step in file {input.exclude}
         """
     input:
-        sequences = rules.aggregate_alignments.output.alignment,
+        sequences = rules.align.output.alignment,
         metadata = rules.download.output.metadata,
         exclude = rules.diagnostic.output.to_exclude
     output:
