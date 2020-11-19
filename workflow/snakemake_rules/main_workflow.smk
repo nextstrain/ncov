@@ -45,6 +45,17 @@ rule filter:
             --output {output.sequences} 2>&1 | tee {log}
         """
 
+rule download_filtered:
+    message: "Downloading metadata and fasta files from S3"
+    output:
+        sequences = "results/filtered.fasta"
+    conda: config["conda_environment"]
+    shell:
+        """
+        aws s3 cp s3://nextstrain-ncov-private/filtered.fasta.gz - | gunzip -cq > {output.sequences:q}
+        """
+
+
 rule excluded_sequences:
     message:
         """
@@ -123,6 +134,15 @@ rule diagnose_excluded:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
+rule download_aligned:
+    message: "Downloading metadata and fasta files from S3"
+    output:
+        sequences = "results/aligned.fasta"
+    conda: config["conda_environment"]
+    shell:
+        """
+        aws s3 cp s3://nextstrain-ncov-private/aligned.fasta.gz - | gunzip -cq > {output.sequences:q}
+        """
 
 rule align:
     message:
@@ -153,10 +173,25 @@ rule align:
         """
 
 
+rule download_diagnostic:
+    message: "Downloading metadata and fasta files from S3"
+    output:
+        diagnostics = "results/sequence-diagnostics.tsv",
+        flagged = "results/flagged-sequences.tsv",
+        to_exclude = "results/to-exclude.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        aws s3 cp s3://nextstrain-ncov-private/sequence-diagnostics.tsv.gz - | gunzip -cq > {output.diagnostics:q}
+        aws s3 cp s3://nextstrain-ncov-private/flagged-sequences.tsv.gz - | gunzip -cq > {output.flagged:q}
+        aws s3 cp s3://nextstrain-ncov-private/to-exclude.txt.gz - | gunzip -cq > {output.to_exclude:q}
+        """
+
+
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
-        alignment = rules.align.output.alignment,
+        alignment = "results/aligned.fasta",
         metadata = rules.download.output.metadata,
         reference = config["files"]["reference"]
     output:
@@ -182,15 +217,25 @@ rule diagnostic:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
+rule download_refiltered:
+    message: "Downloading metadata and fasta files from S3"
+    output:
+        sequences = "results/aligned-filtered.fasta"
+    conda: config["conda_environment"]
+    shell:
+        """
+        aws s3 cp s3://nextstrain-ncov-private/aligned-filtered.fasta.gz - | gunzip -cq > {output.sequences:q}
+        """
+
 rule refilter:
     message:
         """
         excluding sequences flagged in the diagnostic step in file {input.exclude}
         """
     input:
-        sequences = rules.align.output.alignment,
+        sequences = "results/aligned.fasta",
         metadata = rules.download.output.metadata,
-        exclude = rules.diagnostic.output.to_exclude
+        exclude = "results/to-exclude.txt"
     output:
         sequences = "results/aligned-filtered.fasta"
     log:
@@ -205,6 +250,15 @@ rule refilter:
             --output {output.sequences} 2>&1 | tee {log}
         """
 
+rule download_masked:
+    message: "Downloading metadata and fasta files from S3"
+    output:
+        sequences = "results/masked.fasta"
+    conda: config["conda_environment"]
+    shell:
+        """
+        aws s3 cp s3://nextstrain-ncov-private/masked.fasta.gz - | gunzip -cq > {output.sequences:q}
+        """
 
 rule mask:
     message:
@@ -215,7 +269,7 @@ rule mask:
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = rules.refilter.output.sequences
+        alignment = "results/aligned-filtered.fasta"
     output:
         alignment = "results/masked.fasta"
     log:
@@ -329,7 +383,7 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = rules.mask.output.alignment,
+        sequences = "results/masked.fasta",
         metadata = rules.download.output.metadata,
         include = config["files"]["include"],
         priorities = get_priorities
@@ -373,7 +427,7 @@ rule proximity_score:
         genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
         """
     input:
-        alignment = rules.mask.output.alignment,
+        alignment = "results/masked.fasta",
         metadata = rules.download.output.metadata,
         reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
