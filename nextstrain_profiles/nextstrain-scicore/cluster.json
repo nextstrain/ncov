@@ -22,6 +22,7 @@
         "qos": "6hours",
         "time" : "05:59:00"
     },
+    "align": {
         "n" : 8,
         "mem": "128G",
         "qos": "6hours",
