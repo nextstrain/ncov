@@ -311,7 +311,10 @@ def collect_labs(data, table_file_name):
                 s += "\n"
             print(s)
 
-    lab_collection["Europe"]["United Kingdom"] = [lab_UK]
+
+    if "Europe" in lab_collection:
+        if "United Kingdom" in lab_collection["Europe"]:
+            lab_collection["Europe"]["United Kingdom"] = [lab_UK]
 
     return lab_collection
 
