@@ -396,3 +396,4 @@ division	Provence-Alpes-Cote-D’Azur	Provence-Alpes-Côte d'Azur	(Europe, Franc
 division	Western Cape	Western Cape Province	(Africa, South Africa)
 location	Southern		(Africa, South Africa, Western Cape Province)
 location	Western		(Africa, South Africa, Western Cape Province)
+division	Provence-Alpes-Cote D'Azur	Provence-Alpes-Côte d'Azur	(Europe, France)
