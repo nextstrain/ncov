@@ -172,7 +172,8 @@ replace_special_char = {
     "à":"a",
     "å":"a",
     "ł":"l",
-    "-":" "
+    "-":" ",
+    "î": "i"
 }
 
 
@@ -479,6 +480,10 @@ def correct_data(data, type, corrections, add_annotations = True): #TODO: add re
                         additions_to_annotation.append(strain + "\tregion\t" + region_correct + " # previously " + region)
                 data[region_correct][country_correct][division_correct][location_correct].append(strain)
             del data[region][country][division][location]
+            if data[region][country][division] == {}:
+                del data[region][country][division]
+            if data[region][country] == {}:
+                del data[region][country]
 
     if type == "div_to_loc":
         for location in corrections:
@@ -652,13 +657,22 @@ def manual_adjustments(data):
                 for location in data[region][country][division]:
                     for g in manual_adjustments:
                         (region2, country2, division2, location2) = g.split("/")
-                        if region == region2 or region2 == "*":
-                            if country == country2 or country2 == "*":
-                                if division == division2 or division2 == "*":
-                                    if location == location2 or location2 == "*":
-                                        region_correct, country_correct, division_correct, location_correct = manual_adjustments["/".join([region2, country2, division2, location2])].split("/")
-                                        seqs_to_correct.append((region, country, division, location, region_correct, country_correct, division_correct, location_correct))
-                                        print("Manual adjustment: " + bold("/".join([region, country, division, location])) + " -> " + bold("/".join([region_correct, country_correct, division_correct, location_correct])))
+                        (region_correct, country_correct, division_correct, location_correct) = manual_adjustments[g].split("/")
+                        if region2 == "*":
+                            region2 = region
+                            region_correct = region
+                        if country2 == "*":
+                            country2 = country
+                            country_correct = country
+                        if division2 == "*":
+                            division2 = division
+                            division_correct = division
+                        if location2 == "*":
+                            location2 = location
+                            location_correct = location
+                        if region == region2 and country == country2 and division == division2 and location == location2:
+                            seqs_to_correct.append((region, country, division, location, region_correct, country_correct, division_correct, location_correct))
+                            print("Manual adjustment: " + bold("/".join([region, country, division, location])) + " -> " + bold("/".join([region_correct, country_correct, division_correct, location_correct])))
 
     data = correct_data(data, "location", seqs_to_correct)
     print("\n=============================\n")
