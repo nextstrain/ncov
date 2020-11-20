@@ -259,6 +259,7 @@ rule filter:
         min_length = config["filter"]["min_length"],
         exclude_where = config["filter"]["exclude_where"],
         min_date = config["filter"]["min_date"],
+        ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {config['filter']['exclude_ambiguous_dates_by']}" if "exclude_ambiguous_dates_by" in config["filter"] else "",
         date = date.today().strftime("%Y-%m-%d")
     conda: config["conda_environment"]
     shell:
@@ -269,6 +270,7 @@ rule filter:
             --include {input.include} \
             --max-date {params.date} \
             --min-date {params.min_date} \
+            {params.ambiguous} \
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
@@ -332,6 +334,8 @@ def _get_specific_subsampling_setting(setting, optional=False):
             # build's region, country, division, etc. as needed for subsampling.
             build = config["builds"][wildcards.build_name]
             value = value.format(**build)
+            if value !="" and setting == 'exclude_ambiguous_dates_by':
+                value = f"--exclude-ambiguous-dates-by {value}"
         elif value is not None:
             # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
             # need to return the 'argument' for augur
@@ -362,6 +366,7 @@ rule subsample:
          - subsample max sequences: {params.subsample_max_sequences}
          - min-date: {params.min_date}
          - max-date: {params.max_date}
+         - {params.exclude_ambiguous_dates_argument}
          - exclude: {params.exclude_argument}
          - include: {params.include_argument}
          - query: {params.query_argument}
@@ -384,6 +389,7 @@ rule subsample:
         exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
         include_argument = _get_specific_subsampling_setting("include", optional=True),
         query_argument = _get_specific_subsampling_setting("query", optional=True),
+        exclude_ambiguous_dates_argument = _get_specific_subsampling_setting("exclude_ambiguous_dates_by", optional=True),
         min_date = _get_specific_subsampling_setting("min_date", optional=True),
         max_date = _get_specific_subsampling_setting("max_date", optional=True),
         priority_argument = get_priority_argument
@@ -400,6 +406,7 @@ rule subsample:
             {params.exclude_argument} \
             {params.include_argument} \
             {params.query_argument} \
+            {params.exclude_ambiguous_dates_argument} \
             {params.priority_argument} \
             --group-by {params.group_by} \
             {params.sequences_per_group} \
