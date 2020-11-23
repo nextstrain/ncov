@@ -150,6 +150,7 @@ location	Balazote	38.8849	-2.1523
 location	Balen	51.155143	5.184431
 location	Balneario Camburiu	-26.9924395	-48.6339782
 location	Bandung	-6.9344694	107.6049539
+location	Baney	3.7014833	8.9094224
 location	Bangkok	13.803139	100.491612
 location	Barabanki	26.93823105	81.38609761204991
 location	Baracaldo	43.29548	-2.9900933
@@ -167,6 +168,7 @@ location	Barueri	-23.5114	-46.8729
 location	Barva	10.07634855	-84.10922100765933
 location	Bassilly	50.675907	3.933169
 location	Bášť	50.2049402	14.4771151
+location	Bata	1.8650897	9.768665
 location	Baudour	50.482837	3.838083
 location	Bauffe	50.569209	3.853564
 location	Bawshar	23.56	58.41
@@ -261,6 +263,7 @@ location	Bonheiden	51.01931	4.568699
 location	Bonrepos i Mirambell	39.5178	-0.3647
 location	Boone County	42.321246	-88.8235511
 location	Boqueixón	42.8118	-8.4147
+location	Bordeaux	44.841225	-0.5800364
 location	Bornem	51.095382	4.243244
 location	Borovichi	58.389009	33.9068275
 location	Bossier Parish	32.684186	-93.609166
@@ -354,6 +357,7 @@ location	Campo Real	40.3390	-3.3833
 location	Camprovin	42.3544752	-2.7220509
 location	Canet d'en Berenguer	39.6806	-0.2192
 location	Cañete	-12.8209798	-76.3594255
+location	Cañuelas	-35.0540248	-58.7617379
 location	Cape Town Metro	-33.970973	18.510306
 location	Capital and Coast	-41.168408	174.867814
 location	Caraguatatuba	-23.62028	-45.41306
@@ -751,6 +755,7 @@ location	Grecia	10.071966	-84.312172
 location	Green County	42.687601	-89.584475
 location	Greenfield	42.957786	-88.007122
 location	Greenwich	41.0262	-73.6282
+location	Gregorio de Laferrere	-34.7504785	-58.5846362
 location	Grenoble	45.1875602	5.7357819
 location	Grimbergen	50.942962	4.375664
 location	Grimes County	30.5169334	-95.9943034
@@ -1043,6 +1048,7 @@ location	La Cruz	11.0090665	-85.55069626857352
 location	La Estrada	42.6899	-8.4909
 location	La Libertad	-8.4893613	-77.3174141
 location	La Linea de la Concepcion	36.166010	-5.347498
+location	La Matanza	-34.7332835	-58.3700599
 location	La Penilla	43.3180686	-3.8813451
 location	La Peza	37.2755038	-3.2849172
 location	La Robla	42.8029091	-5.6292227
@@ -1173,6 +1179,7 @@ location	Mairena Aljarafe	37.347290	-6.052941
 location	Maizières Les Metz	49.210252	6.1600345
 location	Majdal Bani Fadil	32.083611	35.362778
 location	Makhachkala	42.9830241	47.5048717
+location	Malabo	3.752828	8.780061
 location	Malaga	36.718690	-4.432799
 location	Maldegem	51.197062	3.450921
 location	Maliano	43.41845	-3.83623
@@ -1223,10 +1230,12 @@ location	Mataro	41.5398348	2.4448926
 location	Matrei am Brenner	47.128405	11.452845
 location	Maua	-23.664006	-46.442663
 location	Maurage	50.455601	4.099269
+location	Máximo Paz	-34.9370091	-58.6192087
 location	Maykop	44.6062079	40.104053
 location	Mayrhofen	47.163296	11.862115
 location	Mazet-Saint-Voy	45.0471901	4.2447342
 location	Mbao	14.7299	-17.3258
+location	Mbini	1.577253	9.7832297
 location	Mbour	14.411794	-16.9657124
 location	Mchenry County	42.3294391	-88.4605713
 location	Mclennan County	31.5487691	-97.2189254
@@ -1533,6 +1542,7 @@ location	Ploegsteert	50.725900	2.880261
 location	Ploudalmezeau	48.5415	-4.6578
 location	Plzeň	49.7477415	13.3775249
 location	Poděbrady	50.1430072	15.1191453
+location	Poitiers	46.5802596	0.340196
 location	Polanco	43.38461	-4.01642
 location	Polk County	45.4318573	-92.407472
 location	Pollionnay	45.7659276	4.6607806
@@ -1988,6 +1998,7 @@ location	Torrelavega	43.3487303	-4.0515082
 location	Torremolinos	36.620077	-4.500794
 location	Torrent	39.436668	-0.4656213
 location	Torres De Elorz	42.733599	-1.596477
+location	Totoras	-32.5842697	-61.1667933
 location	Touba	14.864559	-15.876047
 location	Toulouse	43.6044622	1.4442469
 location	Tournai	50.615852	3.400822
@@ -2342,6 +2353,7 @@ division	Bethlehem	31.7043556	35.2061876
 division	Bihac	44.8120	15.8686
 division	Bihar	25.0961	85.3131
 division	Biobío	-37.3391407	-72.4106825
+division	Bioko Norte	3.6484594	8.7851155
 division	Bizerte	37.280658	9.863049
 division	Blagoevgrad	42.0209	23.0943
 division	Blida	36.48329	2.808751
@@ -2519,6 +2531,7 @@ division	Elkana	32.1106	35.0321
 division	Emilia-Romagna	44.641437	11.119072
 division	England	52.405994	-1.671707
 division	Enugu	6.5536094	7.4143061
+division	Equatorial Guinea	1.613172	10.5170357
 division	Eskisehir	39.773703	30.518708
 division	Esmeraldas	0.7343619	-79.3858867
 division	Espirito Santo	-19.1834	-40.3089
@@ -2753,6 +2766,7 @@ division	Kragujevac	44.0125745	20.91877
 division	Kraljevo	43.7238	20.6873
 division	Krasnodar	45.6415	39.7056
 division	Krasnoyarsk	64.248	95.1104
+division	Kronoberg	56.80067805	14.411160995108743
 division	Krusevac	43.5825653	21.326599
 division	Kuala Lumpur	3.139	101.6869
 division	Kuwait	29.452987	47.447194
@@ -2802,6 +2816,7 @@ division	Lipetsk	52.5265	39.2032
 division	Lisbon	38.7223	-9.1393
 division	Lithuania	55.41667	24
 division	Litomerice-Brnay	50.534253	14.131013
+division	Litoral	1.6026374	9.841569
 division	Livno	43.8250	17.0077
 division	Łódzkie	51.4721678	19.3460637
 division	Loja	-4.0528506	-79.8053425
@@ -3119,6 +3134,7 @@ division	San Luis Potosi	22.5000001	-100.5000001
 division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
 division	Santa Elena	-2.1954593	-80.5669167
+division	Santa Fe	-30.3154739	-61.1645076
 division	Santander	6.746570	-73.476456
 division	Santarem	39.2849	-8.7041
 division	Santiago de Veraguas	8.0989867	-80.9803978
@@ -3424,6 +3440,7 @@ country	Denmark	56.2639	9.5018
 country	Dominican Republic	19.0974031	-70.3028026
 country	Ecuador	-1.0541	-78.1489
 country	Egypt	26.8206	30.8025
+country	Equatorial Guinea	1.613172	10.5170357
 country	Estonia	58.850111	25.808524
 country	Finland	61.751734	26.186437
 country	France	46.2276	2.2137

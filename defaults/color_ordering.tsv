@@ -505,6 +505,15 @@ location	Velingara
 # Greater Accra
 location	Accra
 
+### Equatorial Guinea
+# Litoral
+location	Mbini
+location	Bata
+
+# Bioko Norte
+location	Malabo
+location	Baney
+
 ### South Africa
 # Western Cape Province
 location	Klipfontein
@@ -1062,6 +1071,8 @@ location	Carentan
 location	Rouen
 
 # Nouvelle-Aquitaine
+location	Bordeaux
+location	Poitiers
 location	Limoges
 
 # Centre-Val de Loire
@@ -2058,8 +2069,15 @@ location	San Carlos de Bariloche
 
 # Buenos Aires
 location	Bahia Blanca
+location	Cañuelas
+location	Máximo Paz
+location	Gregorio de Laferrere
 location	Lomas de Zamora
+location	La Matanza
 location	Quilmes
+
+# Santa Fe
+location	Totoras
 
 ### Chile
 # Magallanes
@@ -3360,6 +3378,11 @@ division	Bizerte
 ### Niger
 division	Niger
 
+### Equatorial Guinea
+division	Litoral
+division	Equatorial Guinea
+division	Bioko Norte
+
 ### Gabon
 division	Libreville
 
@@ -3690,6 +3713,7 @@ division	Slovenia
 ### Sweden
 division	Skane
 division	Kalmar
+division	Kronoberg
 division	Halland
 division	Gotland
 division	Småland
@@ -4004,6 +4028,7 @@ division	Rio Negro
 division	Buenos Aires
 division	Argentina
 division	Cordoba AR
+division	Santa Fe
 division	Tucuman
 
 ### Uruguay
@@ -4371,6 +4396,7 @@ country	Algeria
 country	Nigeria
 country	Tunisia
 country	Niger
+country	Equatorial Guinea
 country	Gabon
 country	Cameroon
 country	Republic of the Congo
