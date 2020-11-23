@@ -2638,6 +2638,7 @@ location	Kern County
 location	Los Angeles County
 location	Orange County CA
 location	San Diego
+location	Riverside County
 location	San Diego County
 location	San Bernardino County
 location	Imperial County
@@ -2837,6 +2838,9 @@ location	Jo Daviess County
 
 # Indiana
 location	Marion County IN
+
+# Georgia
+location	Cobb
 
 # Ohio
 location	Columbus OH
