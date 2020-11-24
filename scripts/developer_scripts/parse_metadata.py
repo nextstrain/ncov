@@ -660,15 +660,19 @@ def manual_adjustments(data):
                         (region_correct, country_correct, division_correct, location_correct) = manual_adjustments[g].split("/")
                         if region2 == "*":
                             region2 = region
+                        if region_correct == "*":
                             region_correct = region
                         if country2 == "*":
                             country2 = country
+                        if country_correct == "*":
                             country_correct = country
                         if division2 == "*":
                             division2 = division
+                        if division_correct == "*":
                             division_correct = division
                         if location2 == "*":
                             location2 = location
+                        if location_correct == "*":
                             location_correct = location
                         if region == region2 and country == country2 and division == division2 and location == location2:
                             seqs_to_correct.append((region, country, division, location, region_correct, country_correct, division_correct, location_correct))
