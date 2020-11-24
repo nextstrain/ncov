@@ -2,8 +2,64 @@
 # Asia
 
 ### Israel
+# South District
+location	South Coast District
+location	Beer-Sheva
+location	Netivot
+location	Kiryat Gat
+location	Orot
+location	Ashdod
+location	Yeruham
+location	Kfar Habad
+location	Beni Brak
+location	Petah Tikva
+location	Maalot Tarshicha
+
+# Jerusalem District
+location	Beit Shemesh
+
 # Central District
+location	Gedera
+location	Sdema
+location	Yavne
+location	Modiin
+location	Ramla
+location	Lod
+location	Nir-Tzvi
+location	Rishon-Letsion
+location	Shoham
+location	Yehud
+location	Beerot-Itzhak
+location	Elad
+location	Gani Tikva
+location	Petah Tikva
+location	Kefar Sava
 location	Kfar Saba
+location	Raanana
+location	Rishpon
+location	Pardesia
+location	Netanya
+
+# Tel Aviv District
+location	Bat Yam
+location	Holon
+location	Or-Yehuda
+location	Kiryat Ono
+location	Ramat Gan
+location	Tel-Aviv
+location	Ramat-Hasharon
+
+# Haifa District
+location	Ceasaria
+location	Haifa
+
+# North District
+location	Tirat Zvi
+location	Tveria
+location	Chaspin
+location	Hukuk
+location	Yuvalim
+location	Zefat
 
 ### Palestine
 # Hebron
@@ -13,6 +69,11 @@ location	al-Arroub
 
 # Ramallah
 location	Jalazone
+
+# West Bank
+location	Tkoa
+location	Maale-Edumim
+location	Elkana
 
 # Nablus
 location	Majdal Bani Fadil
@@ -1938,8 +1999,8 @@ location	Severomorsk
 # Kaluga
 location	Tovarkovo
 
-# Orel
-location	Orel
+# Oryol
+location	Oryol
 
 # Moscow Oblast
 location	Uvarovka
@@ -2964,48 +3025,21 @@ location	Lanaudière
 # Asia
 
 ### Israel
-division	South Coast District
 division	South District
-division	Netivot
 division	Israel
-division	Kiryat Gat
-division	Beit Shemesh
 division	Jerusalem District
-division	Ashdod
-division	Gedera
-division	Yavne
-division	Ramla
 division	Central District
-division	Kfar Habad
-division	Shoam
-division	Bat Yam
-division	Holon
-division	Yehud
-division	Elad
-division	Kiryat Ono
-division	Gani Tikva
-division	Ramat Gan
-division	Petah Tikva
-division	Beni Brak
 division	Tel Aviv District
-division	Elkana
-division	Raanana
-division	Pardesia
-division	Netanya
-division	Tirat Zvi
+division	Jerusalem
 division	Haifa District
-division	Haifa
-division	Tveria
-division	Hukuk
 division	North District
-division	Zefat
-division	Maalot Tarshicha
 
 ### Palestine
 division	Hebron
 division	Bethlehem
 division	Jericho
 division	Ramallah
+division	West Bank
 division	Jerusalem
 division	Nablus
 division	Tulkarem
@@ -3068,6 +3102,9 @@ division	North Sharqiyah
 
 ### Uzbekistan
 division	Uzbekistan
+
+### Afghanistan
+division	Kabul
 
 ### Kazakhstan
 division	Nur-Sultan
@@ -3981,7 +4018,7 @@ division	Karelia
 division	Tver
 division	Murmansk
 division	Kaluga
-division	Orel
+division	Oryol
 division	Moscow Oblast
 division	Yaroslavl
 division	Lipetsk
@@ -4353,6 +4390,7 @@ country	Iran
 country	United Arab Emirates
 country	Oman
 country	Uzbekistan
+country	Afghanistan
 country	Kazakhstan
 country	Pakistan
 country	Maldives

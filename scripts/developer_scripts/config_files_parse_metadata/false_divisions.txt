@@ -98,3 +98,48 @@ El Salvador	Atacama
 Freirina	Atacama
 Paipote	Atacama
 Tierra Amarilla	Atacama
+South Coast District	South District
+Netivot	South District
+Kiryat Gat	South District
+Beit Shemesh	Jerusalem District
+Ashdod	South District
+Gedera	Central District
+Yavne	Central District
+Ramla	Central District
+Kfar Habad	Central District
+Bat Yam	Tel Aviv District
+Holon	Tel Aviv District
+Yehud	Central District
+Elad	Central District
+Kiryat Ono	Tel Aviv District
+Gani Tikva	Central District
+Ramat Gan	Tel Aviv District
+Petah Tikva	Central District
+Beni Brak	Tel Aviv District
+Raanana	Central District
+Pardesia	Central District
+Netanya	Central District
+Tirat Zvi	North District
+Haifa	Haifa District
+Tveria	North District
+Hukuk	North District
+Zefat	North District
+Maalot Tarshicha	North District
+Sdema	Central District
+Beerot-Itzhak	Central District
+Ramat-Hasharon	Tel Aviv District
+Ceasaria	Haifa District
+Rishon-Letsion	Central District
+Shoham	Central District
+Tel-Aviv	Tel Aviv District
+Orot	South District
+Modiin	Central District
+Yeruham	South District
+Nir-Tzvi	Central District
+Beer-Sheva	South District
+Chaspin	North District
+Yuvalim	North District
+Lod	Central District
+Rishpon	Central District
+Or-Yehuda	Tel Aviv District
+Kefar Sava	Central District
