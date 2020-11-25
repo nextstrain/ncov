@@ -92,6 +92,7 @@ location	Andel	51.7851	5.0549
 location	Andenne	50.487207	5.056619
 location	Anderlecht	50.829058	4.29586
 location	Andrezieux-Boutheon	45.5351545	4.279901648257095
+location	Angelina County	31.2544545	-94.6181177
 location	Angers	47.6781742	2.4367044
 location	Ans	50.671731	5.510231
 location	Anserma	5.238746	-75.782888
@@ -146,6 +147,7 @@ location	Badalona	41.4493539	2.248254
 location	Bagerhat	22.6554187	89.7971746
 location	Bahia Blanca	-38.7183	-62.2663
 location	Bahla	22.970025	57.2986957
+location	Bailey County	34.0349194	-102.8149372
 location	Balata	32.2054798	35.2864958
 location	Balazote	38.8849	-2.1523
 location	Balen	51.155143	5.184431
@@ -179,6 +181,7 @@ location	Bayside	43.1806	-87.9006
 location	Bazel	51.146864	4.298358
 location	Beacon Falls	41.4426	-73.0618
 location	Beaufort West	-32.353611	22.580556
+location	Bee County	28.3871179	-97.7191838
 location	Beer-Sheva	31.2525238	34.7905787
 location	Beerot-Itzhak	32.04648615	34.90895558285108
 location	Beerse	50.753018	4.305199
@@ -281,6 +284,7 @@ location	Bourg-en-Bresse	46.206861	5.229144
 location	Bourgoin-Jallieu	45.5872259	5.2828123
 location	Boussu	50.425366	3.797692
 location	Boutersem	50.833781	4.839596
+location	Bowie County	33.4198886	-94.4479626
 location	Braco do Norte	-28.2728633	-49.1622712
 location	Braffe	50.551795	3.582031
 location	Brahmanbaria	23.9675	91.1119
@@ -310,6 +314,7 @@ location	Brookfield	43.066515	-88.129450
 location	Brooklyn	40.6782	-73.9442
 location	Brooklyn WI	42.854602	-89.371662
 location	Broome County	42.136164	-75.832955
+location	Brown County TX	31.7525184	-98.9904722
 location	Brown County WI	44.4383498	-88.0167093
 location	Brown Deer	43.1633	-87.9645
 location	Brugelette	50.602225	3.869806
@@ -673,6 +678,7 @@ location	Flobecq	50.752594	3.731461
 location	Florianopolis	-27.581052	-48.481313
 location	Florida	27.6648	-81.5158
 location	Focsani	45.697572	27.188348
+location	Foggia	41.50281055	15.452899609627726
 location	Fond Du Lac County	43.739156	-88.479198
 location	Fondettes	47.4036631	0.5961846
 location	Fonelas	37.4137	-3.1742
@@ -761,6 +767,7 @@ location	Grant County WA	47.209925	-119.420874
 location	Grant County WI	42.888151	-90.703612
 location	Grant Parish	31.570014	-92.534059
 location	Grau de Sagunt	39.633481	-0.241370
+location	Gray County	35.3711816	-100.7892236
 location	Grays Harbor County	47.1744169	-123.8658829
 location	Greater Houston Area	29.679767	-95.360138
 location	Greater Milwaukee Area	43.0389	-87.9065
@@ -768,6 +775,7 @@ location	Grecia	10.071966	-84.312172
 location	Green County	42.687601	-89.584475
 location	Greenfield	42.957786	-88.007122
 location	Greenwich	41.0262	-73.6282
+location	Gregg County	32.4492408	-94.8532848
 location	Gregorio de Laferrere	-34.7504785	-58.5846362
 location	Grenoble	45.1875602	5.7357819
 location	Grimbergen	50.942962	4.375664
@@ -880,6 +888,7 @@ location	Huizhou	23.107144	114.457913
 location	Hukuk	32.867141	35.531275
 location	Huldenberg	50.7886	4.5881
 location	Humboldt County	40.7450	-123.8695
+location	Hunt County	33.1161567	-96.0808922
 location	Hutt Valley	-41.163361	174.964731
 location	Hyderabad	17.431807	78.416233
 location	Iasi	47.155585	27.590394
@@ -1068,6 +1077,7 @@ location	La Cruz	11.0090665	-85.55069626857352
 location	La Estrada	42.6899	-8.4909
 location	La Libertad	-8.4893613	-77.3174141
 location	La Linea de la Concepcion	36.166010	-5.347498
+location	La Marsa	36.8790882	10.327678
 location	La Matanza	-34.7332835	-58.3700599
 location	La Penilla	43.3180686	-3.8813451
 location	La Peza	37.2755038	-3.2849172
@@ -1241,6 +1251,7 @@ location	Marquette County	43.8122244	-89.3926785
 location	Marratxí	39.6272	2.7572
 location	Marseille	43.2961743	5.3699525
 location	Marshall	43.167355	-89.066568
+location	Martina Franca	40.7042378	17.3399908
 location	Martincek	49.091788	19.3368052
 location	Maryanovka	54.960659	72.637947
 location	Mason County	47.4251	-123.1951
@@ -1250,6 +1261,7 @@ location	Massamagrell	39.5703995	-0.3302101
 location	Mat-Su	61.382704	-150.251175
 location	Matanuska-Susitna Valley	62.3402481	-149.4793288
 location	Mataro	41.5398348	2.4448926
+location	Matera	40.447641899999994	16.47357384028852
 location	Matrei am Brenner	47.128405	11.452845
 location	Maua	-23.664006	-46.442663
 location	Maurage	50.455601	4.099269
@@ -1362,6 +1374,7 @@ location	Mutrah	23.618733	58.5657654
 location	Muzaffarnagar	29.44800635	77.74068502568672
 location	Naarden	52.2953	5.1604
 location	Naast	50.553695	4.099133
+location	Nacogdoches County	31.5970503	-94.5927451
 location	Nadia	23.48454125	88.55676307470536
 location	Nadiad	22.6916	72.8634
 location	Nagarkurnool	16.415762649999998	78.68304333132829
@@ -1450,6 +1463,7 @@ location	Ogijares	37.1200	-3.6079
 location	Ogle County	42.0397014	-89.3138599
 location	Oisterwijk	51.568179	5.211873
 location	Ojacastro	42.3467292	-3.0049378
+location	Oldham County	35.3907651	-102.6193428
 location	Olen	51.163420	4.888294
 location	Olinda	-7.9986401	-34.8459552
 location	Oliva	38.9198	-0.1188
@@ -1491,6 +1505,7 @@ location	Overijse	50.769757	4.532583
 location	Overpelt	51.219149	5.383722
 location	Overport	-29.837791950000003	30.990248958511735
 location	Overvecht	52.1177281	5.1094214
+location	Oviedo	43.3533424	-5.879514339526834
 location	Oyonnax	46.2476592	5.673359347171946
 location	Ozaukee County	43.407672	-87.926654
 location	Paal	51.031859	5.166158
@@ -1681,6 +1696,7 @@ location	Rennes	48.1173	1.6778
 location	Resende	-22.4683626	-44.4463494
 location	Retie	51.268101	5.078413
 location	Revda	56.8000651	59.9086688
+location	Riaba	3.3854557	8.7629712
 location	Riachuelo	-10.7323307	-37.1863203
 location	Rianjo	42.6924	-8.7812
 location	Ribeira	42.5541	-8.9922
@@ -1893,6 +1909,7 @@ location	Skagit County	48.485784	-121.815524
 location	Skierniewice County	51.94468755	20.009552327706285
 location	Sleman	-7.6952864000000005	110.34462923977276
 location	Slinger	43.3336	-88.2862
+location	Smith County	32.3402898	-95.2563971
 location	Snohomish County	48.006	-122.0731
 location	Soacha	4.581264	-74.216815
 location	Sochi	43.5854823	39.723109
@@ -2087,6 +2104,7 @@ location	uMkhanyakude	-46.77757335	37.79103213020967
 location	uMzinyathi	-28.0585234	30.3725385
 location	Una	31.4685	76.2708
 location	Union Parish	32.8385899	-92.3910295
+location	Upshur County	32.7263725	-94.9286251
 location	Urcuqui	0.4172921	-78.1941499
 location	Ust-Ishim	57.693462	71.169968
 location	uThukela	-28.7446904	30.2224445
@@ -2108,6 +2126,7 @@ location	Valencia Horta	39.465736	-0.424354
 location	Valga	42.6830	-8.6491
 location	Valledupar	10.466023	-73.253272
 location	Vallirana	41.3877623	1.9320806
+location	Van Zandt County	32.5375642	-95.8292165
 location	Vannes	47.6586772	-2.7599079
 location	Vanves	48.821722	2.288675
 location	Vedra	42.7765527	-8.4821723
@@ -2204,12 +2223,14 @@ location	Webster Parish	32.726688	-93.341411
 location	Wervershoof	52.7375095	5.139338864050055
 location	Wervik	50.807707	3.052349
 location	Wespelaar	50.960557	4.640385
+location	West Delhi	28.6479519	77.08556541088615
 location	West Haven	41.279571	-72.962057
 location	Westchester County	41.1220	-73.7949
 location	Wevelgem	50.832135	3.174228
 location	Wezembeek-Oppem	50.842122	4.490653
 location	Wharton County	29.2454534	-96.2291474
 location	Whatcom County	48.830959	-121.791189
+location	Wheeler County	35.3921902	-100.2632764
 location	Whitefish Bay	43.111041	-87.901408
 location	Whitehall County	44.366840	-91.324050
 location	Wijnegem	51.228317	4.515561
@@ -2403,6 +2424,7 @@ division	Bihac	44.8120	15.8686
 division	Bihar	25.0961	85.3131
 division	Biobío	-37.3391407	-72.4106825
 division	Bioko Norte	3.6484594	8.7851155
+division	Bioko Sur	3.4245254	8.6646092
 division	Bizerte	37.280658	9.863049
 division	Blagoevgrad	42.0209	23.0943
 division	Blida	36.48329	2.808751

@@ -7,18 +7,15 @@ location	South Coast District
 location	Beer-Sheva
 location	Netivot
 location	Kiryat Gat
-location	Orot
 location	Ashdod
 location	Yeruham
-location	Kfar Habad
 location	Beni Brak
-location	Petah Tikva
-location	Maalot Tarshicha
 
 # Jerusalem District
 location	Beit Shemesh
 
 # Central District
+location	Orot
 location	Gedera
 location	Sdema
 location	Yavne
@@ -27,6 +24,7 @@ location	Ramla
 location	Lod
 location	Nir-Tzvi
 location	Rishon-Letsion
+location	Kfar Habad
 location	Shoham
 location	Yehud
 location	Beerot-Itzhak
@@ -60,6 +58,7 @@ location	Chaspin
 location	Hukuk
 location	Yuvalim
 location	Zefat
+location	Maalot Tarshicha
 
 ### Palestine
 # Hebron
@@ -287,8 +286,9 @@ location	Barabanki
 location	Azamgarh
 
 # Delhi
-location	Tughlakabad
+location	West Delhi
 location	New Delhi
+location	Tughlakabad
 
 # Haryana
 location	Palwal
@@ -566,10 +566,17 @@ location	Velingara
 # Greater Accra
 location	Accra
 
+### Tunisia
+# Tunis
+location	La Marsa
+
 ### Equatorial Guinea
 # Litoral
 location	Mbini
 location	Bata
+
+# Bioko Sur
+location	Riaba
 
 # Bioko Norte
 location	Malabo
@@ -717,6 +724,9 @@ location	Navalmoral de la Mata
 location	Villanueva de la Vera
 location	Pueblonuevo de Miramontes
 location	Herrera del Duque
+
+# Asturias
+location	Oviedo
 
 # Andalusia
 location	Rota
@@ -1778,10 +1788,13 @@ location	Benevento
 
 # Basilicata
 location	Potenza
+location	Matera
 
 # Apulia
+location	Foggia
 location	Bari
 location	Taranto
+location	Martina Franca
 location	Brindisi
 location	Lecce
 
@@ -2728,13 +2741,18 @@ location	Minnehaha County
 # Texas
 location	El Paso County
 location	Brewster County
+location	Bailey County
+location	Oldham County
 location	Deaf Smith County
 location	Ector County
 location	Crosby County
 location	Val Verde County
 location	Ochiltree County
+location	Gray County
+location	Wheeler County
 location	Taylor County TX
 location	Webb County
+location	Brown County TX
 location	Llano County
 location	Comanche County
 location	Bexar County
@@ -2745,6 +2763,7 @@ location	Live Oak County
 location	Hays County
 location	Parker County
 location	Travis County
+location	Bee County
 location	Nueces County
 location	Williamson County
 location	San Patricio County
@@ -2759,15 +2778,23 @@ location	Limestone County
 location	Washington County TX
 location	Kaufman County
 location	Wharton County
+location	Hunt County
 location	Waller County
 location	Grimes County
+location	Van Zandt County
 location	Lamar County
 location	Montgomery County TX
 location	Harris County
 location	Greater Houston Area
+location	Smith County
 location	Red River County
 location	Galveston County
 location	Titus County
+location	Upshur County
+location	Gregg County
+location	Angelina County
+location	Nacogdoches County
+location	Bowie County
 location	Cass County
 location	Panola County
 location	Jefferson County TX
@@ -3030,7 +3057,6 @@ division	Israel
 division	Jerusalem District
 division	Central District
 division	Tel Aviv District
-division	Jerusalem
 division	Haifa District
 division	North District
 
@@ -3422,6 +3448,7 @@ division	Niger
 ### Equatorial Guinea
 division	Litoral
 division	Equatorial Guinea
+division	Bioko Sur
 division	Bioko Norte
 
 ### Gabon
