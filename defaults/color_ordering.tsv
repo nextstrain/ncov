@@ -726,7 +726,18 @@ location	Pueblonuevo de Miramontes
 location	Herrera del Duque
 
 # Asturias
+location	Tineo
+location	Somiedo
+location	Pravia
+location	Grado
 location	Oviedo
+location	Mieres
+location	Langreo
+location	Gijon
+location	Siero
+location	Bimenes
+location	Laviana
+location	Panes
 
 # Andalusia
 location	Rota
@@ -770,6 +781,7 @@ location	Atarfe
 location	Benalua de las Villas
 location	Cullar Vega
 location	Albolote
+location	Alhendin
 location	Churriana de la Vega
 location	Otura
 location	Maracena
@@ -865,9 +877,13 @@ location	Ampuero
 location	Castro Urdiales
 
 # Madrid
+location	Galapagar
+location	Mostoles
 location	Fuenlabrada
+location	Soto del Real
 location	Parla
 location	Leganés
+location	Getafe
 location	Madrid
 location	Alcobendas
 location	Rivas-Vaciamadrid
@@ -875,6 +891,7 @@ location	San Fernando de Henares
 location	Arganda del Rey
 location	Campo Real
 location	Alcala de Henares
+location	Las Rozas
 location	Valdaracete
 location	Ambite
 location	Estremera
@@ -883,6 +900,7 @@ location	Estremera
 location	Ayna
 location	Cuenca ES
 location	Socuellamos
+location	Belmonte
 location	Villarrobledo
 location	San Clemente
 location	Riopar
@@ -1063,19 +1081,25 @@ location	Puzol
 # Catalunya
 location	Cambrils
 location	Jorba
+location	Navas
 location	Vallirana
 location	Santa Coloma de Cervello
 location	San Cugat del Valles
 location	El Prat de Llobregat
 location	L'Hospitalet de Llobregat
 location	Sabadell
+location	Cerdanyola del Valles
 location	Barcelona
+location	Moncada y Reixach
+location	Santa Coloma de Gramenet
 location	Mollet del Valles
+location	Sant Adria del Besos
 location	Badalona
 location	Vic
 location	Tiana
 location	Granollers
 location	El Masnou
+location	Premia de Mar
 location	Vilasar de Mar
 location	Mataro
 location	Gerona
