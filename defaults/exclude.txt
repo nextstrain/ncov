@@ -1199,3 +1199,7 @@ Zimbabwe/ZW-9951/2020
 Zimbabwe/ZW-9953/2020
 Zimbabwe/ZW-9955/2020
 Zimbabwe/ZW-9957/2020
+
+
+# Excluding in favor of USA/MA-JLL-796350S/2020 from same patient. The 'N' sample is nasopharangeal and the 'S' sample is stool. The N is missing some data / is too short. See https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1606163488161000
+USA/MA-JLL-796350N/2020
