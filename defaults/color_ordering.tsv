@@ -2776,12 +2776,14 @@ location	Gray County
 location	Wheeler County
 location	Taylor County TX
 location	Webb County
+location	Bandera County
 location	Brown County TX
 location	Llano County
 location	Comanche County
 location	Bexar County
 location	Comal County
 location	Hidalgo County
+location	Wilson County
 location	Jim Wells County
 location	Live Oak County
 location	Hays County
@@ -2797,6 +2799,7 @@ location	Mclennan County
 location	Victoria County
 location	Lavaca County
 location	Dallas County
+location	Calhoun County
 location	Burleson County
 location	Limestone County
 location	Washington County TX
@@ -4023,6 +4026,7 @@ division	Soroca
 ### Ukraine
 division	Ivano-Frankivsk
 division	Volyn
+division	Chernivtsi
 division	Kyiv
 division	Ukraine
 division	Kharkiv
