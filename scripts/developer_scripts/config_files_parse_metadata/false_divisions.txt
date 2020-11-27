@@ -143,3 +143,11 @@ Lod	Central District
 Rishpon	Central District
 Or-Yehuda	Tel Aviv District
 Kefar Sava	Central District
+Batié	Sud-Ouest
+Gaoua	Sud-Ouest
+Bobo Dioulasso	Hauts-Bassins
+Houndé	Hauts-Bassins
+N'Dorola	Hauts-Bassins
+Orodara	Hauts-Bassins
+Banfora	Cascades
+Dano	Sud-Ouest

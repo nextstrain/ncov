@@ -562,6 +562,21 @@ location	Touba
 # Kolda
 location	Velingara
 
+### Burkina Faso
+# Cascades
+location	Banfora
+
+# Hauts-Bassins
+location	Orodara
+location	N'Dorola
+location	Bobo Dioulasso
+location	Houndé
+
+# Sud-Ouest
+location	Batié
+location	Gaoua
+location	Dano
+
 ### Ghana
 # Greater Accra
 location	Accra
@@ -584,6 +599,7 @@ location	Baney
 
 ### South Africa
 # Western Cape Province
+location	Cape Town
 location	Klipfontein
 location	Cape Town Metro
 location	Mitchells Plain
@@ -1016,6 +1032,7 @@ location	Fraga
 location	Zaragoza
 location	Tamarite de Litera
 location	Monzon
+location	Ayerbe
 
 # Comunitat Valenciana
 location	Miramar
@@ -1081,27 +1098,40 @@ location	Puzol
 # Catalunya
 location	Cambrils
 location	Jorba
+location	Bellavista
 location	Navas
 location	Vallirana
+location	Terrassa
 location	Santa Coloma de Cervello
 location	San Cugat del Valles
 location	El Prat de Llobregat
+location	Moia
 location	L'Hospitalet de Llobregat
 location	Sabadell
 location	Cerdanyola del Valles
 location	Barcelona
+location	Palau Solita i Plegamans
+location	Santa Perpetua de Mogoda
 location	Moncada y Reixach
+location	La Llagosta
 location	Santa Coloma de Gramenet
+location	Bigues I Riells
 location	Mollet del Valles
 location	Sant Adria del Besos
+location	Lliça de Vall
 location	Badalona
 location	Vic
 location	Tiana
+location	Canovelles
 location	Granollers
 location	El Masnou
+location	Teia
+location	Cardedeu
 location	Premia de Mar
 location	Vilasar de Mar
+location	Llinars del Valles
 location	Mataro
+location	Arenys de Munt
 location	Gerona
 location	Palamos
 
@@ -2389,6 +2419,12 @@ location	Chiclayo
 # Galapagos
 location	Puerto Baquerizo Moreno
 
+# Tungurahua
+location	Ambato
+
+# Cotopaxi
+location	Latacunga
+
 # Manabi
 location	Pajan
 location	Puerto Lopez
@@ -2402,6 +2438,9 @@ location	Sucre
 location	General Villamil Playas
 location	Guayaquil
 location	San Jacinto de Yaguachi
+
+# El Oro
+location	Machala
 
 # Loja
 location	Macara
@@ -2443,6 +2482,9 @@ location	Awa Reserve
 
 # Napo
 location	Tena
+
+# Pastaza
+location	Puyo
 
 # Orellana
 location	Coca
@@ -3428,6 +3470,9 @@ division	Mopti
 division	Mali
 
 ### Burkina Faso
+division	Cascades
+division	Hauts-Bassins
+division	Sud-Ouest
 division	Burkina Faso
 
 ### Ghana
@@ -4196,9 +4241,12 @@ division	Loreto
 ### Ecuador
 division	Galapagos
 division	Santa Elena
+division	Tungurahua
+division	Cotopaxi
 division	Manabi
 division	Guayas
 division	Daule
+division	El Oro
 division	Loja
 division	Los Rios
 division	Esmeraldas
@@ -4210,6 +4258,7 @@ division	Pichincha
 division	Imbabura
 division	Carchi
 division	Napo
+division	Pastaza
 division	Orellana
 
 ### Colombia
