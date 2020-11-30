@@ -151,3 +151,20 @@ N'Dorola	Hauts-Bassins
 Orodara	Hauts-Bassins
 Banfora	Cascades
 Dano	Sud-Ouest
+Taoyuan	Taiwan
+Novi Pazar	Raška District
+Krusevac	Rasina District 
+Kraljevo	Raška District
+Uzice	Zlatibor District 
+Cacak	Moravica District
+Cuprija	Pomoravlje District
+Kragujevac	Šumadija District
+Novi Sad	South Bačka District
+Backa Palanka	South Bačka District
+Kikinda	North Banat District
+Pancevo	South Banat District
+Ruma	Srem District
+Srbobran	South Bačka District
+Suubotica	North Bačka District
+Vrbas	South Bačka District
+Vrsac	South Banat District

@@ -616,6 +616,10 @@ location	Knysna
 # Northern Cape
 location	Siyathemba
 
+# Eastern Cape
+location	Nelson Mandela Bay
+location	Sarah Baartman
+
 # KwaZulu-Natal
 location	uMkhanyakude
 location	Ugu
@@ -1900,6 +1904,7 @@ location	Dobřany
 location	Plzeň
 
 # Usti nad Labem
+location	Chomutov
 location	Litvinov
 location	Teplice
 location	Všebořice
@@ -1920,19 +1925,29 @@ location	Pisek
 location	Netolice
 location	Český Krumlov
 location	Dubné
+location	České Budějovice
 location	Dobrá Voda
 location	Jindřichův Hradec
 
 # Central Bohemian Region
 location	Příbram
+location	Králův Dvůr
+location	Únětice
 location	Zdiby
 location	Bášť
 location	Neratovice
+location	Krhanice
+location	Herink
+location	Zeleneč
+location	Čerčany
+location	Tehovec
+location	Tuklaty
 location	Benátky nad Jizerou
 location	Mlada Boleslav
 location	Chrášťany
 location	Poděbrady
 location	Kolin
+location	Kutná Hora
 
 # Liberec Region
 location	Liberec
@@ -1943,6 +1958,9 @@ location	Kynice
 
 # Pardubice Region
 location	Pardubice
+
+# Hradec Králové Region
+location	Sběř
 
 # South Moravian Region
 location	Znojmo
@@ -2003,6 +2021,45 @@ location	Zehra
 ### Hungary
 # Central Hungary
 location	Budapest
+
+### Serbia
+# Raška District
+location	Novi Pazar
+location	Kraljevo
+
+# Rasina District
+location	Krusevac
+
+# Zlatibor District
+location	Uzice
+
+# Moravica District
+location	Cacak
+
+# Pomoravlje District
+location	Cuprija
+
+# Šumadija District
+location	Kragujevac
+
+# Srem District
+location	Ruma
+
+# South Banat District
+location	Pancevo
+location	Vrsac
+
+# South Bačka District
+location	Backa Palanka
+location	Vrbas
+location	Srbobran
+location	Novi Sad
+
+# North Banat District
+location	Kikinda
+
+# North Bačka District
+location	Suubotica
 
 ### North Macedonia
 # Pelagonia
@@ -2873,6 +2930,7 @@ location	Fillmore County
 location	Houston County
 location	Winona County
 location	Wabasha County
+location	Dakota County
 location	Stearns County
 
 # Iowa
@@ -2944,6 +3002,7 @@ location	Richland County WI
 location	Lafayette County
 location	Iowa County WI
 location	Juneau County
+location	Wood County
 location	Sauk County
 location	Marathon County
 location	Adams County WI
@@ -3912,6 +3971,7 @@ division	Czech Republic
 division	Jihlava
 division	Vysocina Region
 division	Pardubice Region
+division	Hradec Králové Region
 division	South Moravian Region
 division	Olomouc Region
 division	Zlin
@@ -3987,15 +4047,18 @@ division	Debrecen
 division	Szabolcs-Szatmár-Bereg County
 
 ### Serbia
-division	Novi Pazar
-division	Krusevac
-division	Kraljevo
+division	Raška District
+division	Rasina District
+division	Zlatibor District
 division	Serbia
-division	Uzice
-division	Cacak
-division	Cuprija
-division	Kragujevac
-division	Novi Sad
+division	Moravica District
+division	Pomoravlje District
+division	Šumadija District
+division	Srem District
+division	South Banat District
+division	South Bačka District
+division	North Banat District
+division	North Bačka District
 
 ### Kosovo
 division	Kosovo
