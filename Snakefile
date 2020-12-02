@@ -77,7 +77,7 @@ wildcard_constraints:
     build_name = r'(?:[_a-zA-Z-](?!(tip-frequencies|gisaid|zh)))+',
     date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
-localrules: download
+localrules: download, download_metadata, download_sequences
 
 # Create a standard ncov build for auspice, by default.
 rule all:
