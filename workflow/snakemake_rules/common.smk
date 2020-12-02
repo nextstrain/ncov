@@ -3,6 +3,24 @@
 def _get_subsampling_scheme_by_build_name(build_name):
     return config["builds"][build_name].get("subsampling_scheme", build_name)
 
+def _get_main_metadata(wildcards):
+    """Returns the appropriate metadata file for all analysis steps"""
+    if isinstance(config["metadata"], str):
+        return config["metadata"]
+    elif len(config["metadata"])==1:
+        return config["metadata"][0]
+    else:
+        return "results/combined_metadata.tsv"
+
+def _get_main_sequences(wildcards):
+    """Returns the appropriate sequences file (FASTA) for all analysis steps"""
+    if isinstance(config["sequences"], str):
+        return config["sequences"]
+    elif len(config["sequences"])==1:
+        return config["sequences"][0]
+    else:
+        return "results/combined_sequences.fasta"
+
 def _get_metadata_by_build_name(build_name):
     """Returns a path associated with the metadata for the given build name.
 
@@ -10,7 +28,7 @@ def _get_metadata_by_build_name(build_name):
     the Snakemake `expand` function or through string formatting with `.format`.
     """
     if build_name == "global" or "region" not in config["builds"][build_name]:
-        return rules.download.output.metadata
+        return _get_main_metadata({})
     else:
         return rules.adjust_metadata_regions.output.metadata
 

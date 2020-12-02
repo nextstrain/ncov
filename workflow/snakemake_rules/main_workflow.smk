@@ -1,13 +1,49 @@
 rule download:
     message: "Downloading metadata and fasta files from S3"
     output:
-        sequences = config["sequences"],
-        metadata = config["metadata"]
+        sequences = "data/sequences.fasta",
+        metadata = "data/metadata.tsv",
     conda: config["conda_environment"]
     shell:
         """
         aws s3 cp s3://nextstrain-ncov-private/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}
         aws s3 cp s3://nextstrain-ncov-private/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
+        """
+
+rule combine_input_sequences:
+    message:
+        """
+        Combining input sequence files (rule only used if multiple starting sequence files provided)
+        """
+    input:
+        metadata = config["sequences"] # array
+    output:
+        metadata = "results/combined_sequences.fasta"
+    log:
+        "logs/combine_input_sequences.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/combine-and-dedup-fastas.py \
+            --input {input} \
+            --output {output} 2>&1 | tee {log}
+        """
+
+rule combine_input_metadata:
+    message:
+        """
+        Combining metadata files (rule only used if multiple starting metadata files provided)
+        """
+    input:
+        metadata = config["metadata"] # array
+    output:
+        metadata = "results/combined_metadata.tsv"
+    log:
+        "logs/combine_input_metadata.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/combine_metadata.py --input {input.metadata} --output {output.metadata} 2>&1 | tee {log}
         """
 
 rule filter:
@@ -17,8 +53,8 @@ rule filter:
           - excluding strains in {input.exclude}
         """
     input:
-        sequences = rules.download.output.sequences,
-        metadata = rules.download.output.metadata,
+        sequences = _get_main_sequences,
+        metadata = _get_main_metadata,
         include = config["files"]["include"],
         exclude = config["files"]["exclude"]
     output:
@@ -51,8 +87,8 @@ rule excluded_sequences:
         Generating fasta file of excluded sequences
         """
     input:
-        sequences = rules.download.output.sequences,
-        metadata = rules.download.output.metadata,
+        sequences = _get_main_sequences,
+        metadata = _get_main_metadata,
         include = config["files"]["exclude"]
     output:
         sequences = "results/excluded.fasta"
@@ -98,7 +134,7 @@ rule diagnose_excluded:
     message: "Scanning excluded sequences {input.alignment} for problematic sequences"
     input:
         alignment = rules.align_excluded.output.alignment,
-        metadata = rules.download.output.metadata,
+        metadata = _get_main_metadata,
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/excluded-sequence-diagnostics.tsv",
@@ -193,7 +229,7 @@ rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
         alignment = rules.aggregate_alignments.output.alignment,
-        metadata = rules.download.output.metadata,
+        metadata = _get_main_metadata,
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/sequence-diagnostics.tsv",
@@ -225,7 +261,7 @@ rule refilter:
         """
     input:
         sequences = rules.aggregate_alignments.output.alignment,
-        metadata = rules.download.output.metadata,
+        metadata = _get_main_metadata,
         exclude = rules.diagnostic.output.to_exclude
     output:
         sequences = "results/aligned-filtered.fasta"
@@ -366,7 +402,7 @@ rule subsample:
         """
     input:
         sequences = rules.mask.output.alignment,
-        metadata = rules.download.output.metadata,
+        metadata = _get_main_metadata,
         include = config["files"]["include"],
         priorities = get_priorities
     output:
@@ -410,7 +446,7 @@ rule proximity_score:
         """
     input:
         alignment = rules.mask.output.alignment,
-        metadata = rules.download.output.metadata,
+        metadata = _get_main_metadata,
         reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
     output:
@@ -463,7 +499,7 @@ rule adjust_metadata_regions:
         Adjusting metadata for build '{wildcards.build_name}'
         """
     input:
-        metadata = rules.download.output.metadata
+        metadata = _get_main_metadata
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv"
     params:
