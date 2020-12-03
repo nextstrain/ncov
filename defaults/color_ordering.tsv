@@ -3266,6 +3266,9 @@ division	Uzbekistan
 ### Afghanistan
 division	Kabul
 
+### Tajikistan
+division	Tajikistan
+
 ### Kazakhstan
 division	Nur-Sultan
 
@@ -3660,6 +3663,9 @@ division	Analanjirofo
 
 ### Somalia
 division	Somalia
+
+### Ethiopia
+division	Ethiopia
 
 ################
 
@@ -4569,6 +4575,7 @@ country	United Arab Emirates
 country	Oman
 country	Uzbekistan
 country	Afghanistan
+country	Tajikistan
 country	Kazakhstan
 country	Pakistan
 country	Maldives
@@ -4632,6 +4639,7 @@ country	Mozambique
 country	Kenya
 country	Madagascar
 country	Somalia
+country	Ethiopia
 
 # Europe
 country	Iceland
