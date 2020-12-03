@@ -7,19 +7,9 @@ def _get_main_metadata(wildcards):
     """Returns the appropriate metadata file for all analysis steps"""
     if isinstance(config["metadata"], str):
         return config["metadata"]
-    elif len(config["metadata"])==1:
-        return config["metadata"][0]
     else:
         return "results/combined_metadata.tsv"
 
-def _get_main_sequences(wildcards):
-    """Returns the appropriate sequences file (FASTA) for all analysis steps"""
-    if isinstance(config["sequences"], str):
-        return config["sequences"]
-    elif len(config["sequences"])==1:
-        return config["sequences"][0]
-    else:
-        return "results/combined_sequences.fasta"
 
 def _get_metadata_by_build_name(build_name):
     """Returns a path associated with the metadata for the given build name.
@@ -32,12 +22,33 @@ def _get_metadata_by_build_name(build_name):
     else:
         return rules.adjust_metadata_regions.output.metadata
 
+def _get_sequences_by_wildcards(wildcards):
+    if isinstance(config["sequences"], str):
+        return config["sequences"]
+    return config["sequences"][wildcards['origin']]
+
 def _get_metadata_by_wildcards(wildcards):
     """Returns a metadata path based on the given wildcards object.
 
     This function is designed to be used as an input function.
     """
-    return _get_metadata_by_build_name(wildcards.build_name)
+    # When run for rules involved in subsampled build creation, this returns the subsampled metadata
+    if "build_name" in wildcards.keys():
+        return _get_metadata_by_build_name(wildcards.build_name)
+    # When run for rules involving inital aligning/filtering steps, this returns the correct input metatata file
+    elif "origin" in wildcards.keys():
+        if isinstance(config["metadata"], str):
+            return config["metadata"]
+        return config["metadata"][wildcards['origin']]
+    raise Exception("_get_metadata_by_wildcards called with unknown wildcards!")
+
+def _get_filter_param(setting):
+    """get filter param which may be specific to the origin wildcard"""
+    def _get_param(wildcards):
+        if setting in config['filter'].get(wildcards.origin, {}):
+            return config['filter'][wildcards.origin][setting]
+        return config['filter'][setting]
+    return _get_param
 
 def _get_sampling_trait_for_wildcards(wildcards):
     if wildcards.build_name in config["exposure"]:

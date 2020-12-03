@@ -7,7 +7,7 @@
 conda_environment: "../envs/nextstrain.yaml"
 
 # These are the two main starting files for the run
-# Each can take an array (and the files will be merged appropriately) or a string.
+# Each can take either a string (file path) or a dict of input "origins", each specifying a filepath
 sequences: "data/sequences.fasta"
 metadata: "data/metadata.tsv"
 
@@ -47,6 +47,12 @@ filter:
 # The number of sequences per group determines the run time of a single alignment job.
 partition_sequences:
   sequences_per_group: 150
+
+# Diagnostic settings
+# You can opt-out of running diagnostics for certain inputs (be careful!)
+# diagnostic:
+#   skip:
+#     - "origin_name_here"
 
 # Mask settings determine how the multiple sequence alignment is masked prior to phylogenetic inference.
 mask:

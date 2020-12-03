@@ -10,42 +10,6 @@ rule download:
         aws s3 cp s3://nextstrain-ncov-private/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
         """
 
-rule combine_input_sequences:
-    message:
-        """
-        Combining input sequence files (rule only used if multiple starting sequence files provided)
-        """
-    input:
-        metadata = config["sequences"] # array
-    output:
-        metadata = "results/combined_sequences.fasta"
-    log:
-        "logs/combine_input_sequences.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/combine-and-dedup-fastas.py \
-            --input {input} \
-            --output {output} 2>&1 | tee {log}
-        """
-
-rule combine_input_metadata:
-    message:
-        """
-        Combining metadata files (rule only used if multiple starting metadata files provided)
-        """
-    input:
-        metadata = config["metadata"] # array
-    output:
-        metadata = "results/combined_metadata.tsv"
-    log:
-        "logs/combine_input_metadata.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/combine_metadata.py --input {input.metadata} --output {output.metadata} 2>&1 | tee {log}
-        """
-
 rule filter:
     message:
         """
@@ -53,18 +17,18 @@ rule filter:
           - excluding strains in {input.exclude}
         """
     input:
-        sequences = _get_main_sequences,
-        metadata = _get_main_metadata,
+        sequences = _get_sequences_by_wildcards,
+        metadata = _get_metadata_by_wildcards,
         include = config["files"]["include"],
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/filtered.fasta"
+        sequences = "results/filtered_{origin}.fasta"
     log:
-        "logs/filtered.txt"
+        "logs/filtered_{origin}.txt"
     params:
-        min_length = config["filter"]["min_length"],
-        exclude_where = config["filter"]["exclude_where"],
-        min_date = config["filter"]["min_date"],
+        min_length = _get_filter_param("min_length"),
+        exclude_where = _get_filter_param("exclude_where"),
+        min_date = _get_filter_param("min_date"),
         date = date.today().strftime("%Y-%m-%d")
     conda: config["conda_environment"]
     shell:
@@ -81,92 +45,92 @@ rule filter:
             --output {output.sequences} 2>&1 | tee {log}
         """
 
-rule excluded_sequences:
-    message:
-        """
-        Generating fasta file of excluded sequences
-        """
-    input:
-        sequences = _get_main_sequences,
-        metadata = _get_main_metadata,
-        include = config["files"]["exclude"]
-    output:
-        sequences = "results/excluded.fasta"
-    log:
-        "logs/excluded.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur filter \
-            --sequences {input.sequences} \
-            --metadata {input.metadata} \
-	    --min-length 50000 \
-            --include {input.include} \
-            --output {output.sequences} 2>&1 | tee {log}
-        """
+# rule excluded_sequences:
+#     message:
+#         """
+#         Generating fasta file of excluded sequences
+#         """
+#     input:
+#         sequences = _get_main_sequences,
+#         metadata = _get_main_metadata,
+#         include = config["files"]["exclude"]
+#     output:
+#         sequences = "results/excluded.fasta"
+#     log:
+#         "logs/excluded.txt"
+#     conda: config["conda_environment"]
+#     shell:
+#         """
+#         augur filter \
+#             --sequences {input.sequences} \
+#             --metadata {input.metadata} \
+# 	    --min-length 50000 \
+#             --include {input.include} \
+#             --output {output.sequences} 2>&1 | tee {log}
+#         """
 
-rule align_excluded:
-    message:
-        """
-        Aligning excluded sequences to {input.reference}
-          - gaps relative to reference are considered real
-        """
-    input:
-        sequences = rules.excluded_sequences.output.sequences,
-        reference = config["files"]["reference"]
-    output:
-        alignment = "results/excluded_alignment.fasta"
-    log:
-        "logs/align_excluded.txt"
-    threads: 2
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur align \
-            --sequences {input.sequences} \
-            --reference-sequence {input.reference} \
-            --output {output.alignment} \
-            --nthreads {threads} \
-            --remove-reference 2>&1 | tee {log}
-        """
+# rule align_excluded:
+#     message:
+#         """
+#         Aligning excluded sequences to {input.reference}
+#           - gaps relative to reference are considered real
+#         """
+#     input:
+#         sequences = rules.excluded_sequences.output.sequences,
+#         reference = config["files"]["reference"]
+#     output:
+#         alignment = "results/excluded_alignment.fasta"
+#     log:
+#         "logs/align_excluded.txt"
+#     threads: 2
+#     conda: config["conda_environment"]
+#     shell:
+#         """
+#         augur align \
+#             --sequences {input.sequences} \
+#             --reference-sequence {input.reference} \
+#             --output {output.alignment} \
+#             --nthreads {threads} \
+#             --remove-reference 2>&1 | tee {log}
+#         """
 
-rule diagnose_excluded:
-    message: "Scanning excluded sequences {input.alignment} for problematic sequences"
-    input:
-        alignment = rules.align_excluded.output.alignment,
-        metadata = _get_main_metadata,
-        reference = config["files"]["reference"]
-    output:
-        diagnostics = "results/excluded-sequence-diagnostics.tsv",
-        flagged = "results/excluded-flagged-sequences.tsv",
-        to_exclude = "results/check_exclusion.txt"
-    log:
-        "logs/diagnose-excluded.txt"
-    params:
-        mask_from_beginning = config["mask"]["mask_from_beginning"],
-        mask_from_end = config["mask"]["mask_from_end"]
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/diagnostic.py \
-            --alignment {input.alignment} \
-            --metadata {input.metadata} \
-            --reference {input.reference} \
-            --mask-from-beginning {params.mask_from_beginning} \
-            --mask-from-end {params.mask_from_end} \
-            --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostics} \
-            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
-        """
+# rule diagnose_excluded:
+#     message: "Scanning excluded sequences {input.alignment} for problematic sequences"
+#     input:
+#         alignment = rules.align_excluded.output.alignment,
+#         metadata = _get_main_metadata,
+#         reference = config["files"]["reference"]
+#     output:
+#         diagnostics = "results/excluded-sequence-diagnostics.tsv",
+#         flagged = "results/excluded-flagged-sequences.tsv",
+#         to_exclude = "results/check_exclusion.txt"
+#     log:
+#         "logs/diagnose-excluded.txt"
+#     params:
+#         mask_from_beginning = config["mask"]["mask_from_beginning"],
+#         mask_from_end = config["mask"]["mask_from_end"]
+#     conda: config["conda_environment"]
+#     shell:
+#         """
+#         python3 scripts/diagnostic.py \
+#             --alignment {input.alignment} \
+#             --metadata {input.metadata} \
+#             --reference {input.reference} \
+#             --mask-from-beginning {params.mask_from_beginning} \
+#             --mask-from-end {params.mask_from_end} \
+#             --output-flagged {output.flagged} \
+#             --output-diagnostics {output.diagnostics} \
+#             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
+#         """
 
 
 checkpoint partition_sequences:
     input:
-        sequences = rules.filter.output.sequences
+        sequences = "results/filtered_{origin}.fasta"
     output:
-        split_sequences = directory("results/split_sequences/")
+        split_sequences = directory("results/split_sequences_{origin}/")
     log:
-        "logs/partition_sequences.txt"
+        "logs/partition_sequences_{origin}.txt"
     params:
         sequences_per_group = config["partition_sequences"]["sequences_per_group"]
     conda: config["conda_environment"]
@@ -183,17 +147,18 @@ rule align:
         """
         Aligning sequences to {input.reference}
           - gaps relative to reference are considered real
+        Originating input:  {wildcards.origin}
         Cluster:  {wildcards.cluster}
         """
     input:
-        sequences = "results/split_sequences/{cluster}.fasta",
+        sequences = "results/split_sequences_{origin}/{cluster}.fasta",
         reference = config["files"]["reference"]
     output:
-        alignment = "results/split_alignments/{cluster}.fasta"
+        alignment = "results/split_alignments_{origin}/{cluster}.fasta"
     log:
-        "logs/align_{cluster}.txt"
+        "logs/align_{origin}_{cluster}.txt"
     benchmark:
-        "benchmarks/align_{cluster}.txt"
+        "benchmarks/align_{origin}_{cluster}.txt"
     threads: 2
     conda: config["conda_environment"]
     shell:
@@ -208,17 +173,17 @@ rule align:
 
 def _get_alignments(wildcards):
     checkpoint_output = checkpoints.partition_sequences.get(**wildcards).output[0]
-    return expand("results/split_alignments/{i}.fasta",
+    return expand("results/split_alignments_{origin}/{i}.fasta", origin=wildcards.origin,
                   i=glob_wildcards(os.path.join(checkpoint_output, "{i}.fasta")).i)
 
 rule aggregate_alignments:
-    message: "Collecting alignments"
+    message: "Collecting alignments for {wildcards.origin}"
     input:
         alignments = _get_alignments
     output:
-        alignment = "results/aligned.fasta"
+        alignment = "results/aligned_{origin}.fasta"
     log:
-        "logs/aggregate_alignments.txt"
+        "logs/aggregate_alignments_{origin}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -228,15 +193,15 @@ rule aggregate_alignments:
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
-        alignment = rules.aggregate_alignments.output.alignment,
-        metadata = _get_main_metadata,
+        alignment = "results/aligned_{origin}.fasta",
+        metadata = _get_metadata_by_wildcards,
         reference = config["files"]["reference"]
     output:
-        diagnostics = "results/sequence-diagnostics.tsv",
-        flagged = "results/flagged-sequences.tsv",
-        to_exclude = "results/to-exclude.txt"
+        diagnostics = "results/sequence-diagnostics_{origin}.tsv",
+        flagged = "results/flagged-sequences_{origin}.tsv",
+        to_exclude = "results/to-exclude_{origin}.txt"
     log:
-        "logs/diagnostics.txt"
+        "logs/diagnostics_{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"]
@@ -260,13 +225,13 @@ rule refilter:
         excluding sequences flagged in the diagnostic step in file {input.exclude}
         """
     input:
-        sequences = rules.aggregate_alignments.output.alignment,
-        metadata = _get_main_metadata,
-        exclude = rules.diagnostic.output.to_exclude
+        sequences = "results/aligned_{origin}.fasta",
+        metadata = _get_metadata_by_wildcards,
+        exclude = "results/sequence-diagnostics_{origin}.tsv",
     output:
-        sequences = "results/aligned-filtered.fasta"
+        sequences = "results/aligned-refiltered_{origin}.fasta"
     log:
-        "logs/refiltered.txt"
+        "logs/refiltered_{origin}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -277,21 +242,20 @@ rule refilter:
             --output {output.sequences} 2>&1 | tee {log}
         """
 
-
 rule mask:
     message:
         """
-        Mask bases in alignment
+        Mask bases in alignment for origin {wildcards.origin}
           - masking {params.mask_from_beginning} from beginning
           - masking {params.mask_from_end} from end
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = rules.refilter.output.sequences
+        alignment = lambda w: f"results/aligned_{w.origin}.fasta" if w.origin in config.get("diagnostic", {}).get("skip", []) else f"results/aligned-refiltered_{w.origin}.fasta"
     output:
-        alignment = "results/masked.fasta"
+        alignment = "results/masked_{origin}.fasta"
     log:
-        "logs/mask.txt"
+        "logs/mask_{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"],
@@ -306,6 +270,40 @@ rule mask:
             --mask-sites {params.mask_sites} \
             --mask-terminal-gaps \
             --output {output.alignment} 2>&1 | tee {log}
+        """
+
+
+rule collect_masked:
+    message:
+        """
+        Collecting masked alignments together (one masked alignment per input sequences file)
+        """
+    input:
+        lambda wildcards: "results/masked_single.fasta" if isinstance(config["sequences"], str) else [f"results/masked_{k}.fasta" for k in config["sequences"].keys()]
+    output:
+        alignment = "results/masked.fasta"
+    shell:
+        """
+        python3 scripts/combine-and-dedup-fastas.py \
+            --input {input} \
+            --output {output} 2>&1 | tee {log}
+        """
+
+rule combine_input_metadata:
+    message:
+        """
+        Combining metadata files (only needed if multiple input metadata files provided)
+        """
+    input:
+        metadata = lambda wildcards: list(config["metadata"].values())
+    output:
+        metadata = "results/combined_metadata.tsv"
+    log:
+        "logs/combine_input_metadata.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/combine_metadata.py --input {input.metadata} --output {output.metadata} 2>&1 | tee {log}
         """
 
 def _get_subsampling_settings(wildcards):
@@ -401,7 +399,7 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = rules.mask.output.alignment,
+        sequences = rules.collect_masked.output.alignment,
         metadata = _get_main_metadata,
         include = config["files"]["include"],
         priorities = get_priorities
@@ -445,7 +443,7 @@ rule proximity_score:
         genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
         """
     input:
-        alignment = rules.mask.output.alignment,
+        alignment = rules.collect_masked.output.alignment,
         metadata = _get_main_metadata,
         reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
