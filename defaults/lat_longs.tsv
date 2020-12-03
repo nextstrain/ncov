@@ -478,7 +478,6 @@ location	Ciruena	42.4117511	-2.8955322
 location	Cizur Menor	42.786144	-1.677269
 location	Clackamas County	45.1608821	-122.2305038
 location	Claiborne Parish	32.8218607	-93.0097229
-location	Clark County	45.778260	-122.491540
 location	Clark County NV	36.3467726	-115.0907378
 location	Clark County WA	45.7669047	-122.4940866
 location	Clavijo	42.3494671	-2.4262521
@@ -515,6 +514,7 @@ location	Contamine-sur-Arve	46.1274947	6.3395716
 location	Contamines	45.820585	6.727730
 location	Contra Costa County	37.871082	-121.872678
 location	Cook County	41.8197385	-87.756525
+location	Coos County	43.2184144	-124.109621
 location	Copiapo	-27.372842	-70.320323
 location	Cordoba ES	36.1412992	-5.6994821
 location	Cork	51.899	-8.460
@@ -1023,6 +1023,7 @@ location	Kamareddy	18.316551	78.05393808043348
 location	Kamensk-Shakhtinsky	48.3210807	40.2650679
 location	Kampenhout	50.945063	4.567367
 location	Kamrej	21.2797773	72.948269
+location	Kanawha	39.1989653	-81.4601209
 location	Kane County	41.923434	-88.4248315
 location	Kannauj	26.999697400000002	79.68861212775874
 location	Kanpur	26.4609135	80.3217588
@@ -1071,6 +1072,7 @@ location	Kirovsk	59.8813954	30.9855331
 location	Kiryat Gat	31.6093998	34.7711983
 location	Kiryat Ono	32.0591691	34.8594303
 location	Kittitas County	47.1750	-120.9319
+location	Klamath County	42.6052565	-121.739544
 location	Klenčí	49.4348	12.8147
 location	Klickitat County	45.8767731	-120.7976033
 location	Klipfontein	-32.0027832	18.5072125
@@ -1190,6 +1192,7 @@ location	Limkheda	22.8321862	73.9880696
 location	Limoges	45.8354243	1.2644847
 location	Lincoln County	45.3265631	-89.7326216
 location	Lincoln Parish	32.598162	-92.6792848
+location	Linn County	44.4968904	-122.5485977
 location	Linter	50.818098	5.042221
 location	Linz	48.3059078	14.286198
 location	Lippelo	51.041285	4.258686
@@ -2480,7 +2483,7 @@ division	Bandung	-6.917318	107.607954
 division	Bangkok	13.798471	100.590834
 division	Bangladesh	24.506442	90.041454
 division	Banten	-6.47800285	105.54102849016589
-division	Baranya	46.0485	18.2719
+division	Baranya County	45.9714436	18.1669246
 division	Barcelona	41.394769	2.173828
 division	Barishal	22.7562851	90.41098391553726
 division	Basel-Land	47.493316	7.714938
@@ -2765,9 +2768,11 @@ division	Gujarat	22.2587	71.1924
 division	Guna Yala	9.20030225	-77.93252243147037
 division	Gwangju	35.1595775	126.8515089
 division	Gyeonggi Province	37.397957	127.380864
+division	Győr-Moson-Sopron County	47.6610134	17.3796437
 division	Haifa	32.7940	34.9896
 division	Haifa District	32.62574995	34.98251402462225
 division	Hainaut	50.524821	3.976235
+division	Hajdú-Bihar County	47.4407848	21.4752281
 division	Halland	56.964727	12.796906
 division	Halle-Vilvoorde	50.927353	4.424742
 division	Hamburg	53.5437641	10.0099133
@@ -3353,6 +3358,7 @@ division	Sofia	42.6977	23.3219
 division	Soignies	50.567422	4.040613
 division	Solothurn	47.207025	7.528326
 division	Somalia	8.3676771	49.083416
+division	Somogy County	46.439656	17.6212956
 division	Sonora	29.3333331	-110.6666671
 division	Sormland	59.061157	16.697407
 division	Soroca	48.1580642	28.2796328
@@ -3509,6 +3515,7 @@ division	Verviers	50.578077	5.872924
 division	Vestfold Og Telemark	59.39626765	9.061898163187937
 division	Vestland	60.9291011	6.107886941976156
 division	Vestlandet	60.958303	6.533228
+division	Veszprém County	47.0928058	17.9140147
 division	Veurne	51.046671	2.663125
 division	Victoria	-37.121673	144.106178
 division	Vidin	43.9962	22.8679

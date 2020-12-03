@@ -2764,6 +2764,7 @@ location	Fairbanks
 location	Southeast Alaska
 
 # Oregon
+location	Coos County
 location	Yamhill County
 location	Douglas County OR
 location	Columbia County OR
@@ -2771,8 +2772,10 @@ location	Washington County OR
 location	Lane County OR
 location	Jackson County OR
 location	Marion County OR
+location	Linn County
 location	Multnomah County
 location	Clackamas County
+location	Klamath County
 location	Hood River County
 location	Wasco County
 location	Sherman County
@@ -3077,6 +3080,9 @@ location	Berkeley County
 location	Williamsburg County
 location	Georgetown County
 location	Horry County
+
+# West Virginia
+location	Kanawha
 
 # Pennsylvania
 location	Pittsburgh
@@ -4029,8 +4035,11 @@ division	Kosice
 division	Montenegro
 
 ### Hungary
+division	Győr-Moson-Sopron County
+division	Somogy County
 division	Balatonfured
-division	Baranya
+division	Veszprém County
+division	Baranya County
 division	Central Hungary
 division	Balassagyarmat
 division	Pest County
@@ -4044,6 +4053,7 @@ division	Jász-Nagykun-Szolnok County
 division	Oroshaza
 division	Borsod-Abaúj-Zemplén County
 division	Békés County
+division	Hajdú-Bihar County
 division	Debrecen
 division	Szabolcs-Szatmár-Bereg County
 
