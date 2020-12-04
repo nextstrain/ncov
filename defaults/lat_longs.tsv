@@ -50,6 +50,7 @@ location	Alcobendas	40.527225	-3.637649
 location	Alcudia	39.8533	3.1240
 location	Aldeanueva de Ebro	42.2293469	-1.8880858
 location	Aldrans	47.250725	11.445815
+location	Alella	41.4952867	2.2942758
 location	Alfacar	37.2383551	-3.5663721
 location	Alfaro	42.1785741	-1.7492454
 location	Algeciras	36.138633	-5.455967
@@ -134,6 +135,7 @@ location	Assis	-22.6620892	-50.420623
 location	Assumption Parish	29.912050	-91.042405
 location	Astorga	42.4553555	-6.0529025
 location	Atarfe	37.2212	-3.6902
+location	Atlanta	33.7490987	-84.3901849
 location	Auckland	-36.8314	174.7606
 location	Auderghem	50.808473	4.439214
 location	Aurangabad	19.877263	75.3390241
@@ -734,6 +736,7 @@ location	Fuyang	32.904205	115.812367
 location	Fuzhou	27.965633	116.359573
 location	Gadwal	16.2347032	77.7946371
 location	Galapagar	40.5774992	-4.0037748
+location	Gales Ferry	41.4298302	-72.0820131
 location	Galtür	46.919455400000004	10.170590352537147
 location	Galveston County	29.3872254	-94.992736
 location	Gameleira	-8.579803	-35.384573
@@ -1125,6 +1128,7 @@ location	La Matanza	-34.7332835	-58.3700599
 location	La Penilla	43.3180686	-3.8813451
 location	La Peza	37.2755038	-3.2849172
 location	La Robla	42.8029091	-5.6292227
+location	La Roca del Valles	41.5883381	2.3314594
 location	La Rochelle	48.1776576	-2.5195222
 location	La Union	9.922919	-84.001485
 location	La Virgen del Camino	42.5816647	-5.6437418
@@ -1338,6 +1342,7 @@ location	Mendillorri	42.8106542	-1.623558
 location	Menorca	39.9496	4.1104
 location	Mequon	43.226666	-87.973033
 location	Merced County	37.1641544	-120.7678602
+location	Mercer Island	47.5602073	-122.22014226861951
 location	Merelbeke	50.9945	3.7456
 location	Meriden	41.539616	-72.794843
 location	Mesquita	-22.783092	-43.4293599
@@ -1597,6 +1602,7 @@ location	Panes	43.323424	-4.583991
 location	Panola County	32.1920	-94.3154
 location	Pardesia	32.3070353	34.9097723
 location	Pardubice	50.0385812	15.7791356
+location	Parets del Valles	41.5729887	2.2329289
 location	Paris	48.853884	2.341738
 location	Parker County	32.7599475	-97.7935767
 location	Parla	40.2373	-3.7740
@@ -1608,6 +1614,8 @@ location	Passira	-7.976317	-35.5817327
 location	Pasto	1.2146286	-77.2782516
 location	Pasuruan	-7.6419894	112.906694
 location	Patan	23.77405735	71.68373465668734
+location	Paterna	39.5039227	-0.4421014
+location	Paterson	40.9167654	-74.171811
 location	Paulista	-7.9340069	-34.868407
 location	Pauri Garhwal	29.84591115	78.70766746320547
 location	Pavia	45.036854649999995	9.137825082826026
@@ -2284,6 +2292,7 @@ location	Waller County	29.9443902	-95.9955885
 location	Wallingford	41.460399	-72.804432
 location	Walton County	30.6204939	-86.1912678
 location	Walworth County	42.66774995	-88.54129289935219
+location	Wanakena	44.1339512	-74.9210219
 location	Wandre	50.667253	5.661576
 location	Wanze	50.549453	5.196784
 location	Warangal	17.9806094	79.5982115
@@ -2548,6 +2557,7 @@ division	Bryansk Oblast	52.8873315	33.415853
 division	Bucharest	44.4268	26.1025
 division	Budapest	47.482728	19.084269
 division	Buenos Aires	-34.6037	-58.3816
+division	Bulgaria	42.6073975	25.4856617
 division	Buraimi	24.268575	55.826808
 division	Burgenland	47.517438	16.468160
 division	Burkina Faso	12.789980	-1.683734
@@ -2966,6 +2976,7 @@ division	Latvia	56.799689	25.441386
 division	Lazio	41.994328	12.622686
 division	Le Gosier	16.2072112	-61.4931309
 division	Le Moule	16.3316709	-61.3476233
+division	Lebanon	33.8750629	35.843409
 division	Leiden	52.154612	4.484671
 division	Leitrim	54.140162200000006	-8.052478216276088
 division	Leningrad Oblast	60.0793	31.8927
@@ -3059,6 +3070,7 @@ division	Mioveni	44.957951	24.939220
 division	Mirpur	23.808569	90.363307
 division	Mississippi	32.9715645	-89.7348497
 division	Missouri	37.9643	-91.8318
+division	Moldova	47.2879608	28.5670941
 division	Molenbeek-Saint-Jean	50.849476	4.329267
 division	Molise	41.686461	14.608668
 division	Mombasa	-4.05052	39.667169
@@ -3308,6 +3320,7 @@ division	Samut Prakarn	13.581663	100.721344
 division	Samut Songkhram	13.410190	99.949071
 division	San Jose	9.9281	-84.0907
 division	San Luis Potosi	22.5000001	-100.5000001
+division	San Salvador	13.6989939	-89.1914249
 division	Sankt Gallen	47.419862	9.374697
 division	Santa Catarina	-27.15767	-49.888561
 division	Santa Elena	-2.1954593	-80.5669167
@@ -3627,6 +3640,7 @@ country	Denmark	56.2639	9.5018
 country	Dominican Republic	19.0974031	-70.3028026
 country	Ecuador	-1.0541	-78.1489
 country	Egypt	26.8206	30.8025
+country	El Salvador	13.8000382	-88.9140683
 country	Equatorial Guinea	1.613172	10.5170357
 country	Estonia	58.850111	25.808524
 country	Ethiopia	9.1450	40.4897

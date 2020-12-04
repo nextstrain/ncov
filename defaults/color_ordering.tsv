@@ -1122,14 +1122,17 @@ location	Santa Coloma de Gramenet
 location	Bigues I Riells
 location	Mollet del Valles
 location	Sant Adria del Besos
+location	Parets del Valles
 location	Lliça de Vall
 location	Badalona
 location	Vic
 location	Tiana
 location	Canovelles
 location	Granollers
+location	Alella
 location	El Masnou
 location	Teia
+location	La Roca del Valles
 location	Cardedeu
 location	Premia de Mar
 location	Vilasar de Mar
@@ -2789,6 +2792,7 @@ location	San Juan County
 location	Thurston County
 location	Cowlitz County
 location	Clark County WA
+location	Mercer Island
 location	Pierce County WA
 location	Snohomish County
 location	King County
@@ -3059,6 +3063,7 @@ location	Jo Daviess County
 location	Marion County IN
 
 # Georgia
+location	Atlanta
 location	Cobb
 
 # Ohio
@@ -3106,6 +3111,7 @@ location	Burlington County
 location	Hudson County
 location	Essex County
 location	Morris County
+location	Paterson
 location	Bergen County
 
 # New York
@@ -3137,6 +3143,7 @@ location	Onondaga County
 location	Saratoga County
 location	Washington County NY
 location	Jefferson County NY
+location	Wanakena
 location	Franklin County NY
 location	Clinton County
 
@@ -3159,6 +3166,7 @@ location	Meriden
 location	Northford
 location	Madison CT
 location	Tolland County
+location	Gales Ferry
 
 # Massachusetts
 location	Middlesex County
@@ -3207,6 +3215,7 @@ division	Jenin
 
 ### Lebanon
 division	Beirut
+division	Lebanon
 
 ### Jordan
 division	Irbid
@@ -3266,9 +3275,6 @@ division	Uzbekistan
 ### Afghanistan
 division	Kabul
 
-### Tajikistan
-division	Tajikistan
-
 ### Kazakhstan
 division	Nur-Sultan
 
@@ -3279,6 +3285,9 @@ division	Rawalpindi
 division	Khyber Pakhtunkhwa
 division	Islamabad
 division	Gilgit Baltistan
+
+### Tajikistan
+division	Tajikistan
 
 ### Maldives
 division	Maldives
@@ -3656,6 +3665,9 @@ division	Taita Taveta
 division	Kilifi
 division	Kenya
 
+### Ethiopia
+division	Ethiopia
+
 ### Madagascar
 division	Analamanga
 division	Toamasina
@@ -3663,9 +3675,6 @@ division	Analanjirofo
 
 ### Somalia
 division	Somalia
-
-### Ethiopia
-division	Ethiopia
 
 ################
 
@@ -4116,14 +4125,15 @@ division	Buzau
 division	Constanta
 
 ### Bulgaria
-division	Smolyan
-division	Blagoevgrad
-division	Pazardzhik
-division	Dupnitza
 division	Kyustendil
-division	Sofia
-division	Pleven
 division	Vidin
+division	Blagoevgrad
+division	Dupnitza
+division	Sofia
+division	Pazardzhik
+division	Pleven
+division	Smolyan
+division	Bulgaria
 
 ### Latvia
 division	Riga
@@ -4144,6 +4154,7 @@ division	Belarus
 division	Cahul
 division	Chisinau
 division	Straseni
+division	Moldova
 division	Rezina
 division	Balti
 division	Soroca
@@ -4330,6 +4341,7 @@ division	El Oro
 division	Loja
 division	Los Rios
 division	Esmeraldas
+division	Ecuador
 division	Azuay
 division	Bolivar EC
 division	Zamora-Chinchipe
@@ -4409,6 +4421,9 @@ division	Limon
 
 ### Nicaragua
 division	Nicaragua
+
+### El Salvador
+division	San Salvador
 
 ### Guatemala
 division	Guatemala
@@ -4575,9 +4590,9 @@ country	United Arab Emirates
 country	Oman
 country	Uzbekistan
 country	Afghanistan
-country	Tajikistan
 country	Kazakhstan
 country	Pakistan
+country	Tajikistan
 country	Maldives
 country	Kyrgyzstan
 country	India
@@ -4637,9 +4652,9 @@ country	Egypt
 country	Uganda
 country	Mozambique
 country	Kenya
+country	Ethiopia
 country	Madagascar
 country	Somalia
-country	Ethiopia
 
 # Europe
 country	Iceland
@@ -4705,6 +4720,7 @@ country	Aruba
 country	Panama
 country	Costa Rica
 country	Nicaragua
+country	El Salvador
 country	Guatemala
 country	Guadeloupe
 country	Belize
