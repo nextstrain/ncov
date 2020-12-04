@@ -1204,11 +1204,5 @@ Zimbabwe/ZW-9957/2020
 # Excluding in favor of USA/MA-JLL-796350S/2020 from same patient. The 'N' sample is nasopharangeal and the 'S' sample is stool. The N is missing some data / is too short. See https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1606163488161000
 USA/MA-JLL-796350N/2020
 
-# Collection date day and month are switched e.g. 2020-05-11 should be 2020-11-05; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1607001399018700
-England/CAMB-1BA0F5/2020
-England/CAMB-1BA0D7/2020
-England/CAMB-1BA110/2020
-England/CAMB-1BA0B9/2020
-
 # Has a sample date of 30 March but is identical to sequences in Oct/Nov, and was submitted with a batch all from autumn; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1607015177020000?thread_ts=1607001399.018700&cid=CTZKJC7PZ
 Denmark/DCGC-12020/2020
