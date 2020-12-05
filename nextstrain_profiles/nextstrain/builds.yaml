@@ -8,7 +8,7 @@ S3_BUCKET: "nextstrain-ncov-private"
 
 preprocess:
   compression: "xz"
-  deflate: "xc -dcq"
+  deflate: "xz -dcq"
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.

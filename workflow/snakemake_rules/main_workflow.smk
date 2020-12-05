@@ -35,7 +35,7 @@ rule upload:
         compression = config["preprocess"]["compression"]
     run:
         for fname in input:
-            shell(f"./scripts/upload-to-s3 {fname} {params.s3_bucket}/{os.path.basename(fname)}.{params.compression}")
+            shell(f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)}.{params.compression}")
 
 rule download:
     input:
