@@ -42,54 +42,6 @@ rule download:
         config["metadata"],
         config["sequences"]
 
-rule filter:
-    message:
-        """
-        Filtering to
-          - excluding strains in {input.exclude}
-        """
-    input:
-        sequences = config["sequences"],
-        metadata = config["metadata"],
-        include = config["files"]["include"],
-        exclude = config["files"]["exclude"]
-    output:
-        sequences = "results/filtered.fasta"
-    log:
-        "logs/filtered.txt"
-    params:
-        min_length = config["filter"]["min_length"],
-        exclude_where = config["filter"]["exclude_where"],
-        min_date = config["filter"]["min_date"],
-        date = date.today().strftime("%Y-%m-%d")
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur filter \
-            --sequences {input.sequences} \
-            --metadata {input.metadata} \
-            --include {input.include} \
-            --max-date {params.date} \
-            --min-date {params.min_date} \
-            --exclude {input.exclude} \
-            --exclude-where {params.exclude_where}\
-            --min-length {params.min_length} \
-            --output {output.sequences} 2>&1 | tee {log}
-        """
-
-rule download_filtered:
-    message: "Downloading metadata and fasta files from S3"
-    output:
-        sequences = "results/filtered.fasta"
-    conda: config["conda_environment"]
-    params:
-        compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate']
-    shell:
-        """
-        aws s3 cp s3://nextstrain-ncov-private/filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
-        """
-
 
 rule excluded_sequences:
     message:
@@ -169,6 +121,31 @@ rule diagnose_excluded:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
+
+rule prefilter:
+    message:
+        """
+        Filtering for minimal length
+        """
+    input:
+        sequences = config["sequences"],
+        metadata = config["metadata"],
+    output:
+        sequences = "results/prefiltered.fasta"
+    log:
+        "logs/prefiltered.txt"
+    params:
+        min_length = config["filter"]["min_length"],
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --min-length {params.min_length} \
+            --output {output.sequences} 2>&1 | tee {log}
+        """
+
 rule download_aligned:
     message: "Downloading metadata and fasta files from S3"
     output:
@@ -189,7 +166,7 @@ rule align:
           - gaps relative to reference are considered real
         """
     input:
-        sequences = "results/filtered.fasta",
+        sequences = "results/prefiltered.fasta",
         reference = config["files"]["alignment_reference"]
     output:
         alignment = "results/aligned.fasta"
@@ -337,6 +314,54 @@ rule mask:
             --output {output.alignment} 2>&1 | tee {log}
         """
 
+rule filter:
+    message:
+        """
+        Filtering to
+          - excluding strains in {input.exclude}
+        """
+    input:
+        sequences = "results/masked.fasta",
+        metadata = config["metadata"],
+        include = config["files"]["include"],
+        exclude = config["files"]["exclude"]
+    output:
+        sequences = "results/filtered.fasta"
+    log:
+        "logs/filtered.txt"
+    params:
+        min_length = config["filter"]["min_length"],
+        exclude_where = config["filter"]["exclude_where"],
+        min_date = config["filter"]["min_date"],
+        date = date.today().strftime("%Y-%m-%d")
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --include {input.include} \
+            --max-date {params.date} \
+            --min-date {params.min_date} \
+            --exclude {input.exclude} \
+            --exclude-where {params.exclude_where}\
+            --min-length {params.min_length} \
+            --output {output.sequences} 2>&1 | tee {log}
+        """
+
+rule download_filtered:
+    message: "Downloading metadata and fasta files from S3"
+    output:
+        sequences = "results/filtered.fasta"
+    conda: config["conda_environment"]
+    params:
+        compression = config['preprocess']['compression'],
+        deflate = config['preprocess']['deflate']
+    shell:
+        """
+        aws s3 cp s3://nextstrain-ncov-private/filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
+        """
+
 def _get_subsampling_settings(wildcards):
     # Allow users to override default subsampling with their own settings keyed
     # by location type and name. For example, "region_europe" or
@@ -430,7 +455,7 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = "results/masked.fasta",
+        sequences = "results/filtered.fasta",
         metadata = config["metadata"],
         include = config["files"]["include"],
         priorities = get_priorities,
@@ -476,7 +501,7 @@ rule proximity_score:
         genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
         """
     input:
-        alignment = "results/masked.fasta",
+        alignment = "results/filtered.fasta",
         metadata = config["metadata"],
         reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
