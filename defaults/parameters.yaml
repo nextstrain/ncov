@@ -12,6 +12,12 @@ metadata: "data/metadata.tsv"
 
 reference_node_name: "USA/WA1/2020"
 
+S3_BUCKET: "your_S3_bucket_here"
+
+preprocess:
+  compression: "xz"
+  deflate: "xz -dcq"
+
 # Define files used for external configuration. Common examples consist of a
 # list of strains to include and exclude from analyses, a reference sequence to
 # align sequences to, colors for strain attributes in auspice, and auspice

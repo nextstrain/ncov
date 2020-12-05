@@ -6,9 +6,6 @@ custom_rules:
 
 S3_BUCKET: "nextstrain-ncov-private"
 
-preprocess:
-  compression: "xz"
-  deflate: "xz -dcq"
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
