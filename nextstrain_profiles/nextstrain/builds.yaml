@@ -4,6 +4,12 @@ custom_rules:
   - nextstrain_profiles/nextstrain/subsampling_ranges.smk
   - nextstrain_profiles/nextstrain/ruleorders.smk
 
+S3_BUCKET: "nextstrain-ncov-private"
+
+preprocess:
+  compression: "xz"
+  deflate: "xc -dcq"
+
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
 # These subsampling schemes are defined at the bottom of this file.

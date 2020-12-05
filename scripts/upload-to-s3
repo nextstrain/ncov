@@ -1,0 +1,71 @@
+#!/bin/bash
+set -euo pipefail
+
+bin="$(dirname "$0")"
+
+main() {
+    local quiet=0
+
+    for arg; do
+        case "$arg" in
+            --quiet)
+                quiet=1
+                shift;;
+            *)
+                break;;
+        esac
+    done
+
+    local src="${1:?A source file is required as the first argument.}"
+    local dst="${2:?A destination s3:// URL is required as the second argument.}"
+
+    local src_hash="$("$bin/sha256sum" < "$src")"
+    local s3path="${dst#s3://}"
+    local bucket="${s3path%%/*}"
+    local key="${s3path#*/}"
+
+    local dst_hash="$(aws s3api head-object --bucket "$bucket" --key "$key" --query Metadata.sha256sum --output text)"
+
+    echo "$src_hash $src"
+    echo "$dst_hash $dst"
+
+    if [[ $src_hash != $dst_hash ]]; then
+        echo "Uploading $src → $dst"
+        if [[ "$dst" == *.gz ]]; then
+            gzip -c "$src"
+        elif [[ "$dst" == *.xz ]]; then
+            xz -2 -c "$src"
+        else
+            cat "$src"
+        fi | aws s3 cp --no-progress - "$dst" --metadata sha256sum="$src_hash" $(content-type "$dst") $(content-encoding "$dst")
+
+        if [[ $quiet == 1 ]]; then
+            echo "Quiet mode. No Slack notification sent."
+            exit 0
+        fi
+
+        if ! "$bin"/notify-slack "Updated $dst available."; then
+            echo "Notifying Slack failed, but exiting with success anyway."
+        fi
+    else
+        echo "Files are identical, skipping upload"
+    fi
+}
+
+content-type() {
+    case "${1%.gz}" in
+        *.tsv)      echo --content-type=text/tab-separated-values;;
+        *.csv)      echo --content-type=text/comma-separated-values;;
+        *.ndjson)   echo --content-type=application/x-ndjson;;
+        *)          echo --content-type=text/plain;;
+    esac
+}
+
+content-encoding() {
+    case "$1" in
+        *.gz) echo --content-encoding=gzip;;
+        *.xz) echo --content-encoding=xz;;
+    esac
+}
+
+main "$@"

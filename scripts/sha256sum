@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+"""
+Portable sha256sum utility.
+"""
+from hashlib import sha256
+from sys import stdin
+print(sha256(stdin.buffer.read()).hexdigest())

@@ -1,0 +1,2 @@
+custom_rules:
+  - "nextstrain_profiles/preprocess/ruleorders.smk"

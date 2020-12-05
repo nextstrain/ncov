@@ -3,9 +3,11 @@ rule download_sequences:
     output:
         sequences = config["sequences"]
     conda: config["conda_environment"]
+    params:
+        s3_bucket = config["S3_BUCKET"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
+        aws s3 cp s3://{params.s3_bucket}/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
         """
 
 rule download_metadata:
@@ -13,10 +15,27 @@ rule download_metadata:
     output:
         metadata = config["metadata"]
     conda: config["conda_environment"]
+    params:
+        s3_bucket = config["S3_BUCKET"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}
+        aws s3 cp s3://{params.s3_bucket}/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}
         """
+
+rule upload:
+    input:
+        "results/masked.fasta",
+        "results/aligned.fasta",
+        "results/filtered.fasta",
+        "results/sequence-diagnostics.tsv",
+        "results/flagged-sequences.tsv",
+        "results/to-exclude.txt"
+    params:
+        s3_bucket = config["S3_BUCKET"],
+        compression = config["preprocess"]["compression"]
+    run:
+        for fname in input:
+            shell(f"./scripts/upload-to-s3 {fname} {params.s3_bucket}/{os.path.basename(fname)}.{params.compression}")
 
 rule download:
     input:
@@ -63,9 +82,12 @@ rule download_filtered:
     output:
         sequences = "results/filtered.fasta"
     conda: config["conda_environment"]
+    params:
+        compression = config['preprocess']['compression'],
+        deflate = config['preprocess']['deflate']
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/filtered.fasta.gz - | gunzip -cq > {output.sequences:q}
+        aws s3 cp s3://nextstrain-ncov-private/filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 
@@ -152,9 +174,12 @@ rule download_aligned:
     output:
         sequences = "results/aligned.fasta"
     conda: config["conda_environment"]
+    params:
+        compression = config['preprocess']['compression'],
+        deflate = config['preprocess']['deflate']
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/aligned.fasta.gz - | gunzip -cq > {output.sequences:q}
+        aws s3 cp s3://nextstrain-ncov-private/aligned.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 rule align:
@@ -193,11 +218,14 @@ rule download_diagnostic:
         flagged = "results/flagged-sequences.tsv",
         to_exclude = "results/to-exclude.txt"
     conda: config["conda_environment"]
+    params:
+        compression = config['preprocess']['compression'],
+        deflate = config['preprocess']['deflate']
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/sequence-diagnostics.tsv.gz - | gunzip -cq > {output.diagnostics:q}
-        aws s3 cp s3://nextstrain-ncov-private/flagged-sequences.tsv.gz - | gunzip -cq > {output.flagged:q}
-        aws s3 cp s3://nextstrain-ncov-private/to-exclude.txt.gz - | gunzip -cq > {output.to_exclude:q}
+        aws s3 cp s3://nextstrain-ncov-private/sequence-diagnostics.tsv.{params.compression} - | {params.deflate} > {output.diagnostics:q}
+        aws s3 cp s3://nextstrain-ncov-private/flagged-sequences.tsv.{params.compression} - | {params.deflate} > {output.flagged:q}
+        aws s3 cp s3://nextstrain-ncov-private/to-exclude.txt.{params.compression} - | {params.deflate} > {output.to_exclude:q}
         """
 
 
@@ -235,9 +263,12 @@ rule download_refiltered:
     output:
         sequences = "results/aligned-filtered.fasta"
     conda: config["conda_environment"]
+    params:
+        compression = config['preprocess']['compression'],
+        deflate = config['preprocess']['deflate']
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/aligned-filtered.fasta.gz - | gunzip -cq > {output.sequences:q}
+        aws s3 cp s3://nextstrain-ncov-private/aligned-filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 rule refilter:
@@ -268,9 +299,12 @@ rule download_masked:
     output:
         sequences = "results/masked.fasta"
     conda: config["conda_environment"]
+    params:
+        compression = config['preprocess']['compression'],
+        deflate = config['preprocess']['deflate']
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/masked.fasta.gz - | gunzip -cq > {output.sequences:q}
+        aws s3 cp s3://nextstrain-ncov-private/masked.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 rule mask:
