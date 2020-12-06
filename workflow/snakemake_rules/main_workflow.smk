@@ -147,7 +147,7 @@ rule prefilter:
         """
 
 rule download_aligned:
-    message: "Downloading metadata and fasta files from S3"
+    message: "Downloading aligned fasta files from S3"
     output:
         sequences = "results/aligned.fasta"
     conda: config["conda_environment"]
@@ -189,7 +189,7 @@ rule align:
 
 
 rule download_diagnostic:
-    message: "Downloading metadata and fasta files from S3"
+    message: "Downloading diagnostic files from S3"
     output:
         diagnostics = "results/sequence-diagnostics.tsv",
         flagged = "results/flagged-sequences.tsv",
@@ -236,7 +236,7 @@ rule diagnostic:
         """
 
 rule download_refiltered:
-    message: "Downloading metadata and fasta files from S3"
+    message: "Downloading quality filtered files from S3"
     output:
         sequences = "results/aligned-filtered.fasta"
     conda: config["conda_environment"]
@@ -272,7 +272,7 @@ rule refilter:
         """
 
 rule download_masked:
-    message: "Downloading metadata and fasta files from S3"
+    message: "Downloading aligned masked fasta files from S3"
     output:
         sequences = "results/masked.fasta"
     conda: config["conda_environment"]
@@ -350,7 +350,7 @@ rule filter:
         """
 
 rule download_filtered:
-    message: "Downloading metadata and fasta files from S3"
+    message: "Downloading final filtered fasta files from S3"
     output:
         sequences = "results/filtered.fasta"
     conda: config["conda_environment"]
