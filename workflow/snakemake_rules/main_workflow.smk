@@ -148,16 +148,17 @@ rule prefilter:
         """
 
 rule download_aligned:
-    message: "Downloading aligned fasta files from S3"
+    message: "Downloading aligned fasta files from S3 bucket {params.s3_bucket}"
     output:
         sequences = "results/aligned.fasta"
     conda: config["conda_environment"]
     params:
         compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate']
+        deflate = config['preprocess']['deflate'],
+        s3_bucket = config["S3_BUCKET"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/aligned.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
+        aws s3 cp s3://{params.s3_bucket}/aligned.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 rule align:
@@ -190,7 +191,7 @@ rule align:
 
 
 rule download_diagnostic:
-    message: "Downloading diagnostic files from S3"
+    message: "Downloading diagnostic files from S3 bucket {params.s3_bucket}"
     output:
         diagnostics = "results/sequence-diagnostics.tsv",
         flagged = "results/flagged-sequences.tsv",
@@ -198,12 +199,13 @@ rule download_diagnostic:
     conda: config["conda_environment"]
     params:
         compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate']
+        deflate = config['preprocess']['deflate'],
+        s3_bucket = config["S3_BUCKET"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/sequence-diagnostics.tsv.{params.compression} - | {params.deflate} > {output.diagnostics:q}
-        aws s3 cp s3://nextstrain-ncov-private/flagged-sequences.tsv.{params.compression} - | {params.deflate} > {output.flagged:q}
-        aws s3 cp s3://nextstrain-ncov-private/to-exclude.txt.{params.compression} - | {params.deflate} > {output.to_exclude:q}
+        aws s3 cp s3://{params.s3_bucket}/sequence-diagnostics.tsv.{params.compression} - | {params.deflate} > {output.diagnostics:q}
+        aws s3 cp s3://{params.s3_bucket}/flagged-sequences.tsv.{params.compression} - | {params.deflate} > {output.flagged:q}
+        aws s3 cp s3://{params.s3_bucket}/to-exclude.txt.{params.compression} - | {params.deflate} > {output.to_exclude:q}
         """
 
 
@@ -237,16 +239,17 @@ rule diagnostic:
         """
 
 rule download_refiltered:
-    message: "Downloading quality filtered files from S3"
+    message: "Downloading quality filtered files from S3 bucket {params.s3_bucket}"
     output:
         sequences = "results/aligned-filtered.fasta"
     conda: config["conda_environment"]
     params:
         compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate']
+        deflate = config['preprocess']['deflate'],
+        s3_bucket = config["S3_BUCKET"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/aligned-filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
+        aws s3 cp s3://{params.s3_bucket}/aligned-filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 rule refilter:
@@ -273,16 +276,17 @@ rule refilter:
         """
 
 rule download_masked:
-    message: "Downloading aligned masked fasta files from S3"
+    message: "Downloading aligned masked fasta files from S3 bucket {params.s3_bucket}"
     output:
         sequences = "results/masked.fasta"
     conda: config["conda_environment"]
     params:
         compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate']
+        deflate = config['preprocess']['deflate'],
+        s3_bucket = config["S3_BUCKET"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/masked.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
+        aws s3 cp s3://{params.s3_bucket}/masked.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 rule mask:
@@ -351,16 +355,17 @@ rule filter:
         """
 
 rule download_filtered:
-    message: "Downloading final filtered fasta files from S3"
+    message: "Downloading final filtered fasta files from S3 bucket {params.s3_bucket}"
     output:
         sequences = "results/filtered.fasta"
     conda: config["conda_environment"]
     params:
         compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate']
+        deflate = config['preprocess']['deflate'],
+        s3_bucket = config["S3_BUCKET"]
     shell:
         """
-        aws s3 cp s3://nextstrain-ncov-private/filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
+        aws s3 cp s3://{params.s3_bucket}/filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 def _get_subsampling_settings(wildcards):
