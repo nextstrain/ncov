@@ -1,5 +1,5 @@
 rule download_sequences:
-    message: "Downloading sequences from S3"
+    message: "Downloading sequences from S3 bucket {params.s3_bucket}"
     output:
         sequences = config["sequences"]
     conda: config["conda_environment"]
@@ -11,7 +11,7 @@ rule download_sequences:
         """
 
 rule download_metadata:
-    message: "Downloading metadata from S3"
+    message: "Downloading metadata from S3 bucket {params.s3_bucket}"
     output:
         metadata = config["metadata"]
     conda: config["conda_environment"]
@@ -23,6 +23,7 @@ rule download_metadata:
         """
 
 rule upload:
+    message: "Uploading intermediate files to {params.s3_bucket}"
     input:
         "results/masked.fasta",
         "results/aligned.fasta",
@@ -125,7 +126,7 @@ rule diagnose_excluded:
 rule prefilter:
     message:
         """
-        Filtering for minimal length
+        Pre-filtering sequences for minimal length (before aligning)
         """
     input:
         sequences = config["sequences"],
