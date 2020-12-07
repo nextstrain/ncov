@@ -2,7 +2,7 @@ configfile:
   - defaults/parameters.yaml
   - nextstrain_profiles/nextstrain/builds.yaml
   - nextstrain_profiles/nextstrain-scicore/scicore-config.yaml
-  - nextstrain_profiles/preprocess/ruleorder.yaml
+  - nextstrain_profiles/preprocess/rules.yaml
 
 keep-going: True
 printshellcmds: True

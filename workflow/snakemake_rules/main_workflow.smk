@@ -22,22 +22,6 @@ rule download_metadata:
         aws s3 cp s3://{params.s3_bucket}/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}
         """
 
-rule upload:
-    message: "Uploading intermediate files to {params.s3_bucket}"
-    input:
-        "results/masked.fasta",
-        "results/aligned.fasta",
-        "results/filtered.fasta",
-        "results/sequence-diagnostics.tsv",
-        "results/flagged-sequences.tsv",
-        "results/to-exclude.txt"
-    params:
-        s3_bucket = config["S3_BUCKET"],
-        compression = config["preprocess"]["compression"]
-    run:
-        for fname in input:
-            shell(f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)}.{params.compression}")
-
 rule download:
     input:
         config["metadata"],
@@ -122,7 +106,6 @@ rule diagnose_excluded:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
-
 rule prefilter:
     message:
         """
@@ -145,20 +128,6 @@ rule prefilter:
             --metadata {input.metadata} \
             --min-length {params.min_length} \
             --output {output.sequences} 2>&1 | tee {log}
-        """
-
-rule download_aligned:
-    message: "Downloading aligned fasta files from S3 bucket {params.s3_bucket}"
-    output:
-        sequences = "results/aligned.fasta"
-    conda: config["conda_environment"]
-    params:
-        compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate'],
-        s3_bucket = config["S3_BUCKET"]
-    shell:
-        """
-        aws s3 cp s3://{params.s3_bucket}/aligned.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 rule align:
@@ -189,26 +158,6 @@ rule align:
             {input.reference} > {output} 2> {log}
         """
 
-
-rule download_diagnostic:
-    message: "Downloading diagnostic files from S3 bucket {params.s3_bucket}"
-    output:
-        diagnostics = "results/sequence-diagnostics.tsv",
-        flagged = "results/flagged-sequences.tsv",
-        to_exclude = "results/to-exclude.txt"
-    conda: config["conda_environment"]
-    params:
-        compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate'],
-        s3_bucket = config["S3_BUCKET"]
-    shell:
-        """
-        aws s3 cp s3://{params.s3_bucket}/sequence-diagnostics.tsv.{params.compression} - | {params.deflate} > {output.diagnostics:q}
-        aws s3 cp s3://{params.s3_bucket}/flagged-sequences.tsv.{params.compression} - | {params.deflate} > {output.flagged:q}
-        aws s3 cp s3://{params.s3_bucket}/to-exclude.txt.{params.compression} - | {params.deflate} > {output.to_exclude:q}
-        """
-
-
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
@@ -238,20 +187,6 @@ rule diagnostic:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
-rule download_refiltered:
-    message: "Downloading quality filtered files from S3 bucket {params.s3_bucket}"
-    output:
-        sequences = "results/aligned-filtered.fasta"
-    conda: config["conda_environment"]
-    params:
-        compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate'],
-        s3_bucket = config["S3_BUCKET"]
-    shell:
-        """
-        aws s3 cp s3://{params.s3_bucket}/aligned-filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
-        """
-
 rule refilter:
     message:
         """
@@ -273,20 +208,6 @@ rule refilter:
             --metadata {input.metadata} \
             --exclude {input.exclude} \
             --output {output.sequences} 2>&1 | tee {log}
-        """
-
-rule download_masked:
-    message: "Downloading aligned masked fasta files from S3 bucket {params.s3_bucket}"
-    output:
-        sequences = "results/masked.fasta"
-    conda: config["conda_environment"]
-    params:
-        compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate'],
-        s3_bucket = config["S3_BUCKET"]
-    shell:
-        """
-        aws s3 cp s3://{params.s3_bucket}/masked.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 rule mask:
@@ -352,20 +273,6 @@ rule filter:
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
             --output {output.sequences} 2>&1 | tee {log}
-        """
-
-rule download_filtered:
-    message: "Downloading final filtered fasta files from S3 bucket {params.s3_bucket}"
-    output:
-        sequences = "results/filtered.fasta"
-    conda: config["conda_environment"]
-    params:
-        compression = config['preprocess']['compression'],
-        deflate = config['preprocess']['deflate'],
-        s3_bucket = config["S3_BUCKET"]
-    shell:
-        """
-        aws s3 cp s3://{params.s3_bucket}/filtered.fasta.{params.compression} - | {params.deflate} > {output.sequences:q}
         """
 
 def _get_subsampling_settings(wildcards):
