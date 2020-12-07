@@ -16,3 +16,4 @@ Asia/Israel/Petach-Tikva/*	Asia/Israel/South District/Petah Tikva
 Asia/Israel/Kfar-Habad/*	Asia/Israel/Central District/Kfar Habad
 Asia/Israel/Maalot-Tarshicha/*	Asia/Israel/North District/Maalot Tarshicha
 Africa/Burkina Faso/Batie/*	Africa/Burkina Faso/Sud-Ouest/Batié
+North America/USA/Wisconsin/Ogle County	North America/USA/Illinois/Ogle County

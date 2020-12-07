@@ -168,3 +168,16 @@ Srbobran	South Bačka District
 Suubotica	North Bačka District
 Vrbas	South Bačka District
 Vrsac	South Banat District
+Antananarivo	Analamanga
+Shtip	Eastern Region
+Kumanovo	Northeastern Region
+Veles	Vardar
+Ohrid	Southwestern Region
+Bitola	Pelagonia
+Struga	Southwestern Region
+Backa Topola	North Bačka District
+Sremska Mitrovica	Srem District
+Subotica	North Bačka District
+Titel	South Bačka District
+Zrenjanin	Central Banat District
+Qatif	Eastern Province

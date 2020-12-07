@@ -81,6 +81,10 @@ location	Balata
 location	Deir al-Hatab
 location	Dahieh
 
+### Saudi Arabia
+# Eastern Province
+location	Qatif
+
 ### Kuwait
 # Kuwait
 location	Hawali
@@ -2046,27 +2050,41 @@ location	Cuprija
 location	Kragujevac
 
 # Srem District
+location	Sremska Mitrovica
 location	Ruma
 
 # South Banat District
 location	Pancevo
 location	Vrsac
 
+# Central Banat District
+location	Zrenjanin
+
 # South Bačka District
 location	Backa Palanka
 location	Vrbas
 location	Srbobran
 location	Novi Sad
+location	Titel
 
 # North Banat District
 location	Kikinda
 
 # North Bačka District
-location	Suubotica
+location	Backa Topola
+location	Subotica
 
 ### North Macedonia
+# Southwestern Region
+location	Struga
+location	Ohrid
+
 # Pelagonia
+location	Bitola
 location	Prilep
+
+# Vardar
+location	Veles
 
 # Northeastern Region
 location	Kumanovo
@@ -2852,7 +2870,7 @@ location	Riverside
 location	Clark County NV
 
 # Idaho
-location	Madison County
+location	Madison County ID
 
 # Arizona
 location	Yuma
@@ -2867,6 +2885,9 @@ location	Denver County
 
 # South Dakota
 location	Minnehaha County
+
+# Nebraska
+location	Lancaster County
 
 # Texas
 location	El Paso County
@@ -2925,6 +2946,7 @@ location	Galveston County
 location	Titus County
 location	Upshur County
 location	Gregg County
+location	Morris County TX
 location	Angelina County
 location	Nacogdoches County
 location	Bowie County
@@ -3003,7 +3025,7 @@ location	Vernon County
 location	Jackson County WI
 location	Grant County WI
 location	Ashland County
-location	Monroe County
+location	Monroe County WI
 location	Taylor County WI
 location	Richland County WI
 location	Lafayette County
@@ -3055,8 +3077,11 @@ location	Jackson County IL
 location	Cook County
 location	Chicago
 location	Kane County
+location	Ogle County IL
+location	Boone County
 location	Winnebago County IL
 location	Lake County IL
+location	Stephenson County
 location	Jo Daviess County
 
 # Indiana
@@ -3109,43 +3134,75 @@ location	New Castle County
 location	Camden County
 location	Burlington County
 location	Hudson County
-location	Essex County
-location	Morris County
+location	Essex County NJ
+location	Morris County NJ
 location	Paterson
 location	Bergen County
 
 # New York
+location	Chautauqua County
+location	Niagara County
+location	Erie County
+location	Cattaraugus County
+location	Wyoming County
+location	Orleans County
+location	Monroe County NY
+location	Steuben County
+location	Ontario County
+location	Wayne County
+location	Seneca County
+location	Chemung County
+location	Cayuga County
+location	Tompkins County
+location	Tioga County
+location	Onondaga County
+location	Oswego County
+location	Cortland County
+location	Jefferson County NY
+location	Broome County
+location	Madison County NY
+location	Chenango County
+location	Lewis County
+location	Oneida County
+location	St. Lawrence County
+location	Otsego County
+location	Delaware County
+location	Herkimer County
+location	Wanakena
+location	Sullivan County
+location	Hamilton County
+location	Fulton County
+location	Schoharie County
+location	Montgomery County NY
+location	Franklin County NY
+location	Ulster County
+location	Orange County NY
+location	Passaic County
 location	Richmond County
 location	Staten Island
-location	Brooklyn
+location	Greene County
+location	Schenectady County
 location	New York City
-location	Queens
-location	Nassau County
+location	Rockland County
+location	Albany County
 location	Manhattan
 location	New York County
+location	Brooklyn
+location	Saratoga County
 location	Bronx
-location	New Rochelle
-location	Passaic County
-location	Suffolk County
+location	Warren County
+location	Queens
 location	Westchester County
-location	Rockland County
-location	Orange County NY
+location	New Rochelle
+location	Essex County NY
 location	Putnam County
 location	Dutchess County
-location	Ulster County
-location	Broome County
-location	Chenango County
-location	Albany County
-location	Schenectady County
-location	Montgomery County NY
-location	Cayuga County
-location	Onondaga County
-location	Saratoga County
-location	Washington County NY
-location	Jefferson County NY
-location	Wanakena
-location	Franklin County NY
 location	Clinton County
+location	Columbia County NY
+location	Nassau County
+location	Rensselaer County
+location	Washington County NY
+location	Suffolk County
 
 # Connecticut
 location	Hartford County
@@ -3235,6 +3292,7 @@ division	Madinah
 division	Makkah
 division	Saudi Arabia
 division	Riyadh
+division	Eastern Province
 
 ### Kuwait
 division	Kuwait
@@ -4082,6 +4140,7 @@ division	Pomoravlje District
 division	Šumadija District
 division	Srem District
 division	South Banat District
+division	Central Banat District
 division	South Bačka District
 division	North Banat District
 division	North Bačka District
@@ -4091,9 +4150,11 @@ division	Kosovo
 division	Kosovska Mitrovica
 
 ### North Macedonia
+division	Southwestern Region
 division	Skopje
 division	Pelagonia
 division	North Macedonia
+division	Vardar
 division	Northeastern Region
 division	Eastern Region
 
