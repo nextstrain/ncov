@@ -621,8 +621,9 @@ location	Knysna
 location	Siyathemba
 
 # Eastern Cape
-location	Nelson Mandela Bay
 location	Sarah Baartman
+location	Nelson Mandela Bay
+location	Chris Hani
 
 # KwaZulu-Natal
 location	uMkhanyakude
@@ -2092,6 +2093,9 @@ location	Kumanovo
 # Eastern Region
 location	Shtip
 
+# Southeastern Region
+location	Strumica
+
 ### Greece
 # Central Greece
 location	Livadeia
@@ -3078,6 +3082,7 @@ location	Cook County
 location	Chicago
 location	Kane County
 location	Ogle County IL
+location	Ogle County
 location	Boone County
 location	Winnebago County IL
 location	Lake County IL
@@ -4138,6 +4143,7 @@ division	Serbia
 division	Moravica District
 division	Pomoravlje District
 division	Šumadija District
+division	Sabac
 division	Srem District
 division	South Banat District
 division	Central Banat District
@@ -4157,6 +4163,7 @@ division	North Macedonia
 division	Vardar
 division	Northeastern Region
 division	Eastern Region
+division	Southeastern Region
 
 ### Greece
 division	Athens
@@ -4284,9 +4291,11 @@ division	Karachay-Cherkess
 division	Kabardino-Balkaria
 division	Stavropol
 division	Nizhny Novgorod
+division	Penza
 division	Ingushetia
 division	Kalmykia
 division	Chechen Republic
+division	Saratov
 division	Dagestan
 division	Mari El
 division	Samara

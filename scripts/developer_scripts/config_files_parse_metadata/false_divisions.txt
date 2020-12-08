@@ -181,3 +181,4 @@ Subotica	North Bačka District
 Titel	South Bačka District
 Zrenjanin	Central Banat District
 Qatif	Eastern Province
+Strumica	Southeastern Region
