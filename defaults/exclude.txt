@@ -1206,3 +1206,6 @@ USA/MA-JLL-796350N/2020
 
 # Has a sample date of 30 March but is identical to sequences in Oct/Nov, and was submitted with a batch all from autumn; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1607015177020000?thread_ts=1607001399.018700&cid=CTZKJC7PZ
 Denmark/DCGC-12020/2020
+
+# Overly divergent, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1607442993012700
+Hungary/US-60441w/2020
