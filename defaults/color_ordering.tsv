@@ -566,6 +566,10 @@ location	Touba
 # Kolda
 location	Velingara
 
+### Côte d'Ivoire
+# Bouaké
+location	Brobo
+
 ### Burkina Faso
 # Cascades
 location	Banfora
@@ -702,6 +706,10 @@ location	Santarem
 
 # Coimbra
 location	Penacova
+
+### Ireland
+# Limerick
+location	Limerick City
 
 ### Spain
 # Canary Islands
@@ -3591,12 +3599,14 @@ division	Sierra Leone
 division	Conakry
 
 ### Côte d'Ivoire
-division	Yamoussoukro
+division	Guiglo
+division	Séguéla
 division	Bouafle
 division	Beoumi
-division	Bouaké
 division	Côte d'Ivoire
+division	Yamoussoukro
 division	Katiola
+division	Bouaké
 
 ### Morocco
 division	Casablanca
