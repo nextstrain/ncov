@@ -2,10 +2,10 @@
 custom_rules:
   - workflow/snakemake_rules/export_for_nextstrain.smk
   - nextstrain_profiles/nextstrain/subsampling_ranges.smk
-  - nextstrain_profiles/nextstrain/download_preprocessed.smk
+  - nextstrain_profiles/nextstrain/upload_preprocessed.smk
+  # - nextstrain_profiles/nextstrain/download_preprocessed.smk
 
 S3_BUCKET: "nextstrain-ncov-private"
-
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.

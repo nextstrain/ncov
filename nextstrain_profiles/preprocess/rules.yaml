@@ -1,5 +1,0 @@
-# Note that `custom_rules` from multiple configuration YAMLs are combined by replacement,
-# not by concatenation
-custom_rules:
-  - nextstrain_profiles/nextstrain/download_preprocessed.smk
-  - "nextstrain_profiles/preprocess/rules.smk"

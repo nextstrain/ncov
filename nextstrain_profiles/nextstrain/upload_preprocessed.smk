@@ -1,12 +1,4 @@
-localrules: download, upload, clean
-
-# Ensure that we run the preprocess steps ourselves rather than downloading
-# intermediate files from the last run!
-ruleorder: align > download_aligned
-ruleorder: filter > download_filtered
-ruleorder: refilter > download_refiltered
-ruleorder: mask > download_masked
-ruleorder: diagnostic > download_diagnostic
+localrules: download_metadata, download_sequence, download, upload, clean
 
 rule upload:
     message: "Uploading intermediate files to {params.s3_bucket}"
