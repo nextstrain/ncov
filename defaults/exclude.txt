@@ -1209,3 +1209,6 @@ Denmark/DCGC-12020/2020
 
 # Overly divergent, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1607442993012700
 Hungary/US-60441w/2020
+
+# Seems far too diverged compared to date (18 Mar but lines up with seqs from Nov)
+Tunisia/4107/2020
