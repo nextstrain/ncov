@@ -305,6 +305,11 @@ def read_metadata(metadata):
             location = division
             division = country
             country = countries_to_division[country]
+
+
+        host = l[14]
+        if host == "Neovison vison" or host ==  "Mustela lutreola":
+            additions_to_annotation.append(strain + "\t" + id + "\thost\tMink # previously " + host)
             
 
         if region not in data:
