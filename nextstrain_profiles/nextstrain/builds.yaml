@@ -116,7 +116,7 @@ subsampling:
     # Contextual samples for region from the rest of the world
     global_early:
       group_by: "country year month"
-      max_sequences: 500
+      max_sequences: 600
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
