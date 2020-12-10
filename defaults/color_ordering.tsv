@@ -786,7 +786,7 @@ location	Sevilla
 location	Cordoba ES
 location	Tarifa
 location	Algeciras
-location	San Roque
+location	San Roque ES
 location	La Linea de la Concepcion
 location	Benalmadena
 location	Antequera
@@ -1127,6 +1127,7 @@ location	L'Hospitalet de Llobregat
 location	Sabadell
 location	Cerdanyola del Valles
 location	Barcelona
+location	Ripollet
 location	Palau Solita i Plegamans
 location	Santa Perpetua de Mogoda
 location	Moncada y Reixach
@@ -1152,6 +1153,9 @@ location	Vilasar de Mar
 location	Llinars del Valles
 location	Mataro
 location	Arenys de Munt
+location	Calella
+location	Pineda de Mar
+location	Malgrat de Mar
 location	Gerona
 location	Palamos
 
@@ -2741,38 +2745,63 @@ location	La Cruz
 
 # Puntarenas
 location	Garabito
+location	Piedras Blancas
 location	Corredores
+location	Corredor
 location	Coto Brus
+location	Laurel
 
 # Alajuela
 location	Orotina
 location	San Rafael de Alajuela
 location	Alajuela
 location	Grecia
+location	San Roque CO
+location	Quesada
 location	San Carlos
 
 # Heredia
+location	San Pablo
+location	San Francisco CR
 location	Heredia
 location	San Rafael Heredia
 location	Barva
 
 # San Jose
-location	Perez Zeledon
-location	Tarrazu
-location	Aserri
-location	Alajuelita
-location	Desamparados
-location	Curridabat
-location	Escazu
+location	Picagres
+location	Santiago de Puriscal
+location	Pozos
 location	Santa Ana CR
+location	Escazu
+location	San Antonio
+location	Pavas
+location	San Rafael de Escazú
+location	San Felipe
+location	Alajuelita
 location	San Jose
-location	Montes de Oca
+location	Aserri
 location	Tibas
-location	Goicoechea
+location	Tarrazu
+location	Desamparados
+location	Zapote
+location	Los Guido
+location	Curridabat
+location	Montes de Oca
+location	Purral
+location	San Jerónimo
 location	Moravia
+location	Goicoechea
+location	Perez Zeledon
 
 # Cartago CR
+location	San Diego CR
 location	La Union
+location	Tres Rios
+location	San Isidro
+location	Llanos de Santa Lucia
+location	Carmen
+location	La Suiza
+location	Dulce Nombre
 
 # Limon
 location	Siquirres
@@ -3114,6 +3143,7 @@ location	Alachua County
 location	Orange County FL
 location	Miami-Dade County
 location	Palm Beach County
+location	Miami Gardens
 
 # South Carolina
 location	Fairfield County SC
@@ -3146,8 +3176,16 @@ location	New Castle County
 # New Jersey
 location	Camden County
 location	Burlington County
+location	New Jersey
+location	Trenton
+location	Fair Haven
+location	Jersey City
 location	Hudson County
+location	East Orange
+location	Secaucus
 location	Essex County NJ
+location	Guttenberg
+location	Bloomfield
 location	Morris County NJ
 location	Paterson
 location	Bergen County
@@ -3298,6 +3336,9 @@ division	Tbilisi
 
 ### Iraq
 division	Al-Muthanna Province
+
+### Armenia
+division	Armenia
 
 ### Saudi Arabia
 division	Jeddah
@@ -3464,6 +3505,7 @@ division	Heilongjiang
 
 ### Cambodia
 division	Sihanoukville
+division	Phnom Penh
 
 ### Vietnam
 division	Ho Chi Minh City
@@ -3617,6 +3659,7 @@ division	Ouarzazate
 ### Mali
 division	Bamako
 division	Mopti
+division	Timbuktu
 division	Mali
 
 ### Burkina Faso
@@ -4579,6 +4622,9 @@ division	Quintana Roo
 ### Cuba
 division	Cuba
 
+### North America
+division	North America
+
 ### USA
 division	Hawaii
 division	Alaska
@@ -4661,6 +4707,7 @@ country	Lebanon
 country	Jordan
 country	Georgia
 country	Iraq
+country	Armenia
 country	Saudi Arabia
 country	Kuwait
 country	Bahrain
@@ -4810,6 +4857,7 @@ country	Jamaica
 country	Dominican Republic
 country	Mexico
 country	Cuba
+country	North America
 country	USA
 country	Canada
 
