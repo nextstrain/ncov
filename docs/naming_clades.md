@@ -11,7 +11,7 @@ The nomenclature used by Nextstrain to designate clades for SARS-CoV-2 is driven
 
 #### Definition
 
-We name a new major clade when it either reaches a frequency of 20% globally. When calculating these frequencies, care has to be taken to achieve approximately even sampling of sequences in time and space since sequencing effort varies strongly between countries. A clade name consists of the year it emerged and the next available letter in the alphabet. A new clade should be at least 2 mutations away from its parent major clade.
+We name a new major clade when it reaches a frequency of 20% globally. When calculating these frequencies, care has to be taken to achieve approximately even sampling of sequences in time and space since sequencing effort varies strongly between countries. A clade name consists of the year it emerged and the next available letter in the alphabet. A new clade should be at least 2 mutations away from its parent major clade.
 
 #### Naming
 
