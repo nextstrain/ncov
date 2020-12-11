@@ -2378,11 +2378,18 @@ location	Presidente Venceslau
 location	Santo Anastacio
 location	Emilianopolis
 location	Presidente Prudente
+location	Taciba
+location	Taruma
 location	Araçatuba
 location	Assis
 location	Birigui
 location	Ribeirao Preto
+location	Piracicaba
+location	Sorocaba
+location	Limeira
+location	Araras
 location	Americana
+location	Nova Odessa
 location	Sumare
 location	Hortolandia
 location	Itariri
@@ -2404,16 +2411,24 @@ location	Caieiras
 location	Jarinu
 location	São Paulo
 location	Diadema
+location	Mairipora
 location	Sao Bernardo do Campo
+location	Braganca Paulista
 location	Santo Andre
 location	Guarulhos
 location	Maua
+location	Ribeirao Pires
+location	Rio Grande Da Serra
 location	Sao Vicente
+location	Santos
 location	Guarujá
 location	Santa Isabel
 location	Mogi Das Cruzes
+location	Jacareí
 location	Taubate
 location	Caraguatatuba
+location	Sao Sebastiao
+location	Cunha
 
 # Rio de Janeiro
 location	Resende
