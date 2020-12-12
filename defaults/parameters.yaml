@@ -6,11 +6,24 @@
 # conda environment file to use by default
 conda_environment: "../envs/nextstrain.yaml"
 
-# These are the two main starting files for the run
+# These are the two main starting files for the run.
+# If they do not exist, we will attempt to fetch them from a S3 bucket (see below)
 sequences: "data/sequences.fasta"
 metadata: "data/metadata.tsv"
 
 reference_node_name: "USA/WA1/2020"
+
+# Certain steps may require a S3 bucket (e.g. "download pre-aligned sequences").
+# This is optional - as long as you provide the starting metadata + sequences,
+# all steps can run locally without using any S3 buckets.
+S3_BUCKET: "your_S3_bucket_here"
+
+# Preprocess steps involve the creation and storage of intermediate files
+# (alignments etc). These steps are opt-in, and are not run by default.
+# These settings define the compression/decompression settings for these files
+preprocess:
+  compression: "xz"
+  deflate: "xz -dcq"
 
 # Define files used for external configuration. Common examples consist of a
 # list of strains to include and exclude from analyses, a reference sequence to
@@ -20,6 +33,7 @@ files:
   include: "defaults/include.txt"
   exclude: "defaults/exclude.txt"
   reference: "defaults/reference_seq.gb"
+  alignment_reference: "defaults/reference_seq.fasta"
   outgroup: "defaults/outgroup.fasta" # is this arg still used? file doesn't exist in gh repo
   ordering: "defaults/color_ordering.tsv"
   color_schemes: "defaults/color_schemes.tsv"

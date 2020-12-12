@@ -7,8 +7,7 @@ dependencies:
 - datrie
 - fasttree
 - iqtree
-- mafft
-- opencv
+- mafft=7.471
 - pandas
 - psutil
 - python=3.6*
