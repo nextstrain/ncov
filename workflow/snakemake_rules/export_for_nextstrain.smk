@@ -294,7 +294,9 @@ rule upload:
         compression = config["preprocess"]["compression"]
     run:
         for fname in input:
-            shell(f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)}.{params.compression}")
+            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)}.{params.compression}"
+            print("upload command:", cmd)
+            shell(cmd)
 
 onstart:
     slack_message = f"Build {deploy_origin} started."
