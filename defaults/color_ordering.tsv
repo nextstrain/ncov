@@ -169,13 +169,22 @@ location	Nirmal
 location	Adilabad
 
 # Maharashtra
+location	Virar
+location	Palghar
 location	Mumbai
+location	Vasai
+location	Mumbai Suburban
+location	Thane
+location	Navimumbai
+location	Raigad
+location	Ratnagiri
 location	Pune
 location	Kolhapur
 location	Sangli
 location	Ahmednagar
 location	Aurangabad
 location	Jalna
+location	Hingoli
 location	Akola
 location	Washim
 location	Amravati
@@ -249,10 +258,11 @@ location	Dhanera
 location	Una
 
 # Madhya Pradesh
-location	Burhanpur
-location	Ujjain
-location	Mandsaur
 location	Neemach
+location	Mandsaur
+location	Ujjain
+location	Burhanpur
+location	Raisen
 
 # West Bengal
 location	East Medinipur
@@ -264,6 +274,7 @@ location	Hooghly
 location	Nadia
 location	Tehatta
 location	Birbhum
+location	Murshidabad
 location	Darjeeling
 
 # Rajasthan
@@ -287,7 +298,9 @@ location	Kanpur
 location	Lakhimpur
 location	Lucknow
 location	Barabanki
+location	Jaunpur
 location	Azamgarh
+location	Gorakhpur
 
 # Delhi
 location	West Delhi
@@ -616,6 +629,8 @@ location	Khayelitsha
 location	Stellenbosch
 location	Bitou
 location	Hessequa
+location	Kannaland
+location	Prince Albert
 location	Mossel Bay
 location	Oudtshoorn
 location	George
@@ -2982,10 +2997,13 @@ location	Ochiltree County
 location	Gray County
 location	Wheeler County
 location	Taylor County TX
+location	McCulloch County
 location	Webb County
 location	Bandera County
 location	Brown County TX
+location	Wichita County
 location	Llano County
+location	Atascosa County
 location	Comanche County
 location	Bexar County
 location	Comal County
@@ -2996,6 +3014,7 @@ location	Live Oak County
 location	Hays County
 location	Parker County
 location	Travis County
+location	Montague County
 location	Bee County
 location	Nueces County
 location	Williamson County
@@ -3003,6 +3022,7 @@ location	San Patricio County
 location	Gonzales County
 location	Cameron County
 location	Mclennan County
+location	Denton County
 location	Victoria County
 location	Lavaca County
 location	Dallas County
@@ -3010,6 +3030,7 @@ location	Calhoun County
 location	Burleson County
 location	Limestone County
 location	Washington County TX
+location	Brazos County
 location	Kaufman County
 location	Wharton County
 location	Hunt County
@@ -3026,6 +3047,8 @@ location	Galveston County
 location	Titus County
 location	Upshur County
 location	Gregg County
+location	Polk County TX
+location	Rusk County
 location	Morris County TX
 location	Angelina County
 location	Nacogdoches County
@@ -3091,7 +3114,7 @@ location	St. Louis MO
 
 # Wisconsin
 location	Crawford County
-location	Polk County
+location	Polk County WI
 location	Pierce County WI
 location	Pepin County
 location	Barron County
@@ -3744,6 +3767,7 @@ division	Nigeria
 
 ### Tunisia
 division	Tunisia
+division	Monastir
 division	Nabeul
 division	Ben Arous
 division	Tunis
