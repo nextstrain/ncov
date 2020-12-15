@@ -101,14 +101,15 @@ if __name__ == '__main__':
     flagged_sequences = []
     # output diagnostics for each sequence, ordered by divergence
     with open(args.output_diagnostics, 'w') as diag:
-        diag.write('\t'.join(['strain', 'divergence', 'excess divergence', '#Ns', '#gaps', 'clusters', 'gaps', 'all_snps'])+'\n')
+        diag.write('\t'.join(['strain', 'divergence', 'excess divergence', '#Ns', '#gaps', 'clusters', 'gaps', 'all_snps', 'gap_list'])+'\n')
         for s, d in sorted(diagnostics.items(), key=lambda x:len(x[1]['snps']), reverse=True):
             expected_div = expected_divergence(metadata[s]['date']) if s in metadata else np.nan
             diag.write('\t'.join(map(str,[s, len(d['snps']), round(len(d['snps']) - expected_div,2),
                      d['no_data'], d['gap_sum'],
                      ','.join([f'{b}-{e}' for b,e,n in d['clusters']]),
                      ','.join([f'{b}-{e}' for b,e in d['gaps']]),
-                     ','.join(map(str, d['snps']))]))+'\n')
+                     ','.join(map(str, d['snps'])),
+                     ",".join([",".join([str(x) for x in range(b,e)]) for b,e in d["gaps"]])]))+'\n')
 
 
             msg = ""
