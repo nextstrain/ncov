@@ -60,3 +60,5 @@ Azuay	EC
 Ecuador	EC
 Spain	ES
 Alajuela	CO
+Imbabura	EC
+Heredia	CR

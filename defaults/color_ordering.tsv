@@ -169,13 +169,22 @@ location	Nirmal
 location	Adilabad
 
 # Maharashtra
+location	Virar
+location	Palghar
 location	Mumbai
+location	Vasai
+location	Mumbai Suburban
+location	Thane
+location	Navimumbai
+location	Raigad
+location	Ratnagiri
 location	Pune
 location	Kolhapur
 location	Sangli
 location	Ahmednagar
 location	Aurangabad
 location	Jalna
+location	Hingoli
 location	Akola
 location	Washim
 location	Amravati
@@ -249,10 +258,11 @@ location	Dhanera
 location	Una
 
 # Madhya Pradesh
-location	Burhanpur
-location	Ujjain
-location	Mandsaur
 location	Neemach
+location	Mandsaur
+location	Ujjain
+location	Burhanpur
+location	Raisen
 
 # West Bengal
 location	East Medinipur
@@ -264,6 +274,7 @@ location	Hooghly
 location	Nadia
 location	Tehatta
 location	Birbhum
+location	Murshidabad
 location	Darjeeling
 
 # Rajasthan
@@ -287,7 +298,9 @@ location	Kanpur
 location	Lakhimpur
 location	Lucknow
 location	Barabanki
+location	Jaunpur
 location	Azamgarh
+location	Gorakhpur
 
 # Delhi
 location	West Delhi
@@ -614,7 +627,10 @@ location	Mitchells Plain
 location	Tygerberg
 location	Khayelitsha
 location	Stellenbosch
+location	Bitou
 location	Hessequa
+location	Kannaland
+location	Prince Albert
 location	Mossel Bay
 location	Oudtshoorn
 location	George
@@ -1272,6 +1288,7 @@ location	Moussy Le Neuf
 location	Compans
 location	Saint-Thibault-des-Vignes
 location	Chanteloup-en-Brie
+location	Egreville
 
 # Hauts de France
 location	Nogent-l'Artaud
@@ -1279,6 +1296,7 @@ location	Chateau-Thierry
 location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
+location	Genech
 location	Santes
 location	Lille
 
@@ -1356,6 +1374,7 @@ location	Ingersheim
 location	Ensisheim
 location	Reguisheim
 location	Biesheim
+location	Brumath
 location	Strasbourg
 location	Bischheim
 
@@ -1932,6 +1951,7 @@ location	Plzeň
 location	Chomutov
 location	Litvinov
 location	Teplice
+location	Třebenice
 location	Všebořice
 location	Sulejovice
 location	Libochovice
@@ -1955,8 +1975,10 @@ location	Dobrá Voda
 location	Jindřichův Hradec
 
 # Central Bohemian Region
+location	Malinová
 location	Příbram
 location	Králův Dvůr
+location	Chýně
 location	Únětice
 location	Zdiby
 location	Bášť
@@ -1967,9 +1989,12 @@ location	Zeleneč
 location	Čerčany
 location	Tehovec
 location	Tuklaty
+location	Kochánky
+location	Ondřejov
 location	Benátky nad Jizerou
 location	Mlada Boleslav
 location	Chrášťany
+location	Nymburk
 location	Poděbrady
 location	Kolin
 location	Kutná Hora
@@ -1986,6 +2011,7 @@ location	Pardubice
 
 # Hradec Králové Region
 location	Sběř
+location	Jičín
 
 # South Moravian Region
 location	Znojmo
@@ -2007,6 +2033,7 @@ location	Fryšták
 location	Prostějov
 
 # Moravian-Silesian Region
+location	Ostrava
 location	Frýdek-Místek
 location	Havířov
 location	Albrechtice
@@ -2574,6 +2601,9 @@ location	Cuenca EC
 # Bolivar EC
 location	Guaranda
 
+# Cañar
+location	Azogues
+
 # Zamora-Chinchipe
 location	Zamora
 location	Yantzaza
@@ -2587,12 +2617,16 @@ location	Quito
 location	Cayambe
 
 # Imbabura
+location	San Pablo EC
 location	Otavalo
 location	Ibarra
 location	Urcuqui
 
 # Carchi
 location	Awa Reserve
+
+# Morona Santiago
+location	Morona
 
 # Napo
 location	Tena
@@ -2781,7 +2815,7 @@ location	Quesada
 location	San Carlos
 
 # Heredia
-location	San Pablo
+location	San Pablo CR
 location	San Francisco CR
 location	Heredia
 location	San Rafael Heredia
@@ -2963,10 +2997,13 @@ location	Ochiltree County
 location	Gray County
 location	Wheeler County
 location	Taylor County TX
+location	McCulloch County
 location	Webb County
 location	Bandera County
 location	Brown County TX
+location	Wichita County
 location	Llano County
+location	Atascosa County
 location	Comanche County
 location	Bexar County
 location	Comal County
@@ -2977,6 +3014,7 @@ location	Live Oak County
 location	Hays County
 location	Parker County
 location	Travis County
+location	Montague County
 location	Bee County
 location	Nueces County
 location	Williamson County
@@ -2984,6 +3022,7 @@ location	San Patricio County
 location	Gonzales County
 location	Cameron County
 location	Mclennan County
+location	Denton County
 location	Victoria County
 location	Lavaca County
 location	Dallas County
@@ -2991,6 +3030,7 @@ location	Calhoun County
 location	Burleson County
 location	Limestone County
 location	Washington County TX
+location	Brazos County
 location	Kaufman County
 location	Wharton County
 location	Hunt County
@@ -3007,6 +3047,8 @@ location	Galveston County
 location	Titus County
 location	Upshur County
 location	Gregg County
+location	Polk County TX
+location	Rusk County
 location	Morris County TX
 location	Angelina County
 location	Nacogdoches County
@@ -3072,7 +3114,7 @@ location	St. Louis MO
 
 # Wisconsin
 location	Crawford County
-location	Polk County
+location	Polk County WI
 location	Pierce County WI
 location	Pepin County
 location	Barron County
@@ -3635,6 +3677,9 @@ division	New South Wales
 division	Tasmania
 division	Australian Capital Territory
 
+### Papua New Guinea
+division	Papua New Guinea
+
 ### Guam
 division	Guam
 
@@ -3722,6 +3767,7 @@ division	Nigeria
 
 ### Tunisia
 division	Tunisia
+division	Monastir
 division	Nabeul
 division	Ben Arous
 division	Tunis
@@ -3973,6 +4019,7 @@ division	Luxembourg
 ### Switzerland
 division	Geneva
 division	Vaud
+division	Neuchâtel
 division	Fribourg
 division	Jura
 division	Solothurn
@@ -4487,13 +4534,16 @@ division	Esmeraldas
 division	Ecuador
 division	Azuay
 division	Bolivar EC
+division	Cañar
 division	Zamora-Chinchipe
 division	Chimborazo
 division	Pichincha
 division	Imbabura
 division	Carchi
+division	Morona Santiago
 division	Napo
 division	Pastaza
+division	Sucumbios
 division	Orellana
 
 ### Colombia
@@ -4767,6 +4817,7 @@ country	Japan
 # Oceania
 country	New Zealand
 country	Australia
+country	Papua New Guinea
 country	Guam
 
 # Africa
