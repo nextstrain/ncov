@@ -1825,10 +1825,14 @@ location	Bergen
 location	Faroe Islands
 
 ### Germany
-# Bavaria
-location	Starnberg
-location	Munich
-location	Erlangen
+# North Rhine Westphalia
+location	Heinsberg
+location	Heinsberg District
+location	Duesseldorf
+location	Cologne
+location	Essen
+location	Münster
+location	Bielefeld
 
 # Baden-Wuerttemberg
 location	Konstanz
@@ -1841,14 +1845,10 @@ location	Tuebingen
 # Hesse
 location	Frankfurt
 
-# North Rhine Westphalia
-location	Heinsberg
-location	Heinsberg District
-location	Duesseldorf
-location	Cologne
-location	Essen
-location	Münster
-location	Bielefeld
+# Bavaria
+location	Starnberg
+location	Munich
+location	Erlangen
 
 # Western Pomerania
 location	Rostock
@@ -2415,6 +2415,7 @@ location	Taruma
 location	Araçatuba
 location	Assis
 location	Birigui
+location	Fernandopolis
 location	Ribeirao Preto
 location	Piracicaba
 location	Sorocaba
@@ -4073,16 +4074,17 @@ division	Hovedstaden
 division	Copenhagen
 
 ### Germany
-division	Bavaria
+division	Saarland
+division	North Rhine Westphalia
+division	Niedersachsen
 division	Baden-Wuerttemberg
 division	Hesse
-division	Thuringia
-division	Germany
-division	North Rhine Westphalia
-division	Berlin
-division	Niedersachsen
 division	Hamburg
+division	Germany
+division	Thuringia
+division	Bavaria
 division	Western Pomerania
+division	Berlin
 
 ### Europe
 division	Europe
