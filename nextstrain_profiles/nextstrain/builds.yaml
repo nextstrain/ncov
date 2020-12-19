@@ -17,6 +17,7 @@ builds:
   africa:
     subsampling_scheme: nextstrain_region
     region: Africa
+    subclades: "nextstrain_profiles/nextstrain/subclades_AF.tsv"
     auspice_config: "nextstrain_profiles/nextstrain/africa_auspice_config.json"
   asia:
     subsampling_scheme: nextstrain_region
