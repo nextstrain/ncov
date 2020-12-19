@@ -384,6 +384,7 @@ rule subsample:
         exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
         include_argument = _get_specific_subsampling_setting("include", optional=True),
         query_argument = _get_specific_subsampling_setting("query", optional=True),
+        prob_sampling = _get_specific_subsampling_setting("probabilistic", optional=True),
         min_date = _get_specific_subsampling_setting("min_date", optional=True),
         max_date = _get_specific_subsampling_setting("max_date", optional=True),
         priority_argument = get_priority_argument
@@ -404,6 +405,7 @@ rule subsample:
             --group-by {params.group_by} \
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
+            {params.prob_sampling} \
             --output {output.sequences} 2>&1 | tee {log}
         """
 
