@@ -516,5 +516,5 @@ if __name__ == '__main__':
     # Special checks for individual user requirements (e.g. produce concise overview over strain names, provide all new
     # sequences from certain countries, etc.)
     overview_with_dates(data, path_to_outputs + "strains_overview.txt")
-    filter_for_date_region(data, path_to_outputs, ("Europe", 6))
+    filter_for_date_region(data, path_to_outputs, ("Europe", 11))
     prepare_tweet(counts, lab_collection)

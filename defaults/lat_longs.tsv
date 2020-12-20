@@ -3,6 +3,7 @@ location	Aalter	51.079810	3.459957
 location	Aarschot	50.986584	4.868284
 location	Aartselaar	51.133297	4.3870241
 location	Abakan	53.7209024	91.442435
+location	Abbotsford	49.0521162	-122.329479
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
 location	Adajan	21.2651204	72.84991282218647
@@ -2311,6 +2312,7 @@ location	Tuebingen	48.5236164	9.0535531
 location	Tughlakabad	28.5023598	77.2992401
 location	Tuklaty	50.0847775	14.7694956
 location	Tulare County	36.2516475	-118.852583
+location	Tulkarem	32.3194023921685	35.023729717985056
 location	Tulua	4.092520	-76.197483
 location	Tumaco	1.792753	-78.793766
 location	Tumakuru	13.3400771	77.1006208
@@ -3514,6 +3516,7 @@ division	Seoul	37.548278	126.990916
 division	Serbia	43.745902	20.848918
 division	Sergipe	-10.5741	-37.3857
 division	Setúbal	38.5260	-8.8909
+division	Sfax	34.72312735	10.33587885553419
 division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
 division	Sharja	25.3525369	55.4378628
@@ -3645,6 +3648,7 @@ division	Tournai-Mouscron	50.610622	3.406319
 division	Trang	7.529936	99.611699
 division	Trentino	46.051733	11.014531
 division	Trentino-Alto Adige	46.441472	11.282121
+division	Trinidad	10.36701726107432	-61.233044896832965
 division	Trois-Rivières	15.9767433	-61.6441603
 division	Troms Og Finnmark	69.720052	23.450581
 division	Trondelag	63.87759235	10.195050547141093
@@ -3762,6 +3766,7 @@ division	Yogyakarta	-7.8011945	110.364917
 division	Yucatan	20.6845957	-88.8755669
 division	Yunnan	24.556297	101.36621
 division	Zacatecas	23.0000001	-103.0000001
+division	Zagreb	45.8131847	15.9771774
 division	Zamora-Chinchipe	-4.0620183	-78.7751588
 division	Zeeland	51.484078	3.802245
 division	Zefat	32.9646	35.4960
@@ -3913,6 +3918,7 @@ country	Tajikistan	38.8610	71.2761
 country	Thailand	14.8971921	100.83273
 country	Timor-Leste	-8.809397	125.909527
 country	Togo	8.88625	1.069709
+country	Trinidad	10.447801502473043	-61.23664353857157
 country	Tunisia	33.654143	9.065134
 country	Turkey	39.046746	36.767068
 country	Uganda	1.861287	32.55149

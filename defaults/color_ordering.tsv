@@ -73,6 +73,7 @@ location	Jalazone
 location	Tkoa
 location	Maale-Edumim
 location	Elkana
+location	Tulkarem
 
 # Nablus
 location	Majdal Bani Fadil
@@ -3348,6 +3349,9 @@ location	Boston
 location	Ponce
 
 ### Canada
+# British Columbia
+location	Abbotsford
+
 # Ontario
 location	Toronto
 location	Ottawa
@@ -3771,6 +3775,7 @@ division	Nigeria
 ### Tunisia
 division	Tunisia
 division	Gafsa
+division	Sfax
 division	Monastir
 division	Nabeul
 division	Soliman
@@ -4162,6 +4167,7 @@ division	Burgenland
 division	Pula
 division	Istria
 division	Croatia
+division	Zagreb
 division	Varaždin County
 division	Varazdin
 division	Split
@@ -4584,6 +4590,9 @@ division	Suriname
 ### Venezuela
 division	Venezuela
 
+### Trinidad
+division	Trinidad
+
 ### Curacao
 division	Curacao
 
@@ -4917,6 +4926,7 @@ country	Ecuador
 country	Colombia
 country	Suriname
 country	Venezuela
+country	Trinidad
 country	Curacao
 country	Aruba
 
