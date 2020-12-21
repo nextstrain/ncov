@@ -66,9 +66,9 @@ BUILD_NAMES = list(config["builds"].keys())
 
 # Define patterns we expect for wildcards.
 wildcard_constraints:
-    # Allow build names to contain alpha characters, underscores, and hyphens
+    # Allow build names to contain alphanumeric characters, underscores, and hyphens
     # but not special strings used for Nextstrain builds.
-    build_name = r'(?:[_a-zA-Z-](?!(tip-frequencies|gisaid|zh)))+',
+    build_name = r'(?:[a-zA-Z0-9-_](?!(tip-frequencies|gisaid|zh)))+',
     date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 
 localrules: download_metadata, download_sequences, download, upload, clean
