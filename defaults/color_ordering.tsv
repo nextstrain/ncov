@@ -2466,17 +2466,28 @@ location	Cunha
 
 # Rio de Janeiro
 location	Resende
+location	Itaguaí
+location	Seropédica
 location	Queimados
 location	Nova Iguacu
 location	Mesquita
+location	Nilópolis
 location	Belford Roxo
+location	São João de Meriti
 location	Duque de Caxias
 location	Rio de Janeiro
+location	Três Rios
 location	Petropolis
 location	Niteroi
 location	Sao Goncalo
+location	Guapimirim
 location	Teresopolis
 location	Itaborai
+location	Maricá
+location	Nova Friburgo
+location	Cabo Frio
+location	Itaperuna
+location	Macaé
 
 # Piaui
 location	Parnaiba
@@ -3385,7 +3396,6 @@ division	Ramallah
 division	West Bank
 division	Jerusalem
 division	Nablus
-division	Tulkarem
 division	Jenin
 
 ### Lebanon
