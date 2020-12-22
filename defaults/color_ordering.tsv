@@ -2476,7 +2476,6 @@ location	Belford Roxo
 location	São João de Meriti
 location	Duque de Caxias
 location	Rio de Janeiro
-location	Três Rios
 location	Petropolis
 location	Niteroi
 location	Sao Goncalo
@@ -3142,6 +3141,7 @@ location	Jackson County WI
 location	Grant County WI
 location	Ashland County
 location	Monroe County WI
+location	Clark County WI
 location	Taylor County WI
 location	Richland County WI
 location	Lafayette County
@@ -3192,6 +3192,7 @@ location	Door County
 location	Jackson County IL
 location	Cook County
 location	Chicago
+location	Dekalb County
 location	Kane County
 location	Ogle County IL
 location	Ogle County
@@ -3553,6 +3554,7 @@ division	Selangor
 division	Kuala Lumpur
 division	Pahang
 division	Malaysia
+division	Sarawak
 
 ### Mongolia
 division	Mongolia
@@ -4214,6 +4216,7 @@ division	Gornji Vakuf
 division	Novi Travnik
 division	Bosnia and Herzegovina
 division	Vitez
+division	Mostar
 division	Zepce
 division	Maglaj
 division	Kakanj
@@ -4244,6 +4247,8 @@ division	Pezinok
 division	Jatov
 division	Kamenicna
 division	Tvrdosovce
+division	Nitra
+division	Nove Zamky
 division	Surany
 division	Levice
 division	Zilina
