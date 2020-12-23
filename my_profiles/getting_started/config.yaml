@@ -19,3 +19,6 @@ cores: 1
 
 # Always print the commands that will be run to the screen for debugging.
 printshellcmds: True
+
+# Always print log files of failed jobs to the screen.
+show-failed-logs: True

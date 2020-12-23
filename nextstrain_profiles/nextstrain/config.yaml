@@ -5,6 +5,7 @@ configfile:
 cores: 8
 keep-going: True
 printshellcmds: True
+show-failed-logs: True
 reason: True
 restart-times: 1
 stats: stats.json
