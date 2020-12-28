@@ -1218,3 +1218,6 @@ Tunisia/4107/2020
 
 # Overly divergent, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1608249910045600
 Thailand/Bangkok-CONI-0321/2020
+
+# Misplaced date
+Tunisia/3942/2020
