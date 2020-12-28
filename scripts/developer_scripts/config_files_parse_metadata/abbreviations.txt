@@ -62,3 +62,8 @@ Spain	ES
 Alajuela	CO
 Imbabura	EC
 Heredia	CR
+Amur Region	(Amur)
+Sverdlovsk	(Sverdlovsk)
+Rio de Janeiro	BR
+Novgorod	(Novgorod)
+Pskov Oblast	(Pskov)

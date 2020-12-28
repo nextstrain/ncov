@@ -199,6 +199,7 @@ Meerhout
 	Meerhout
 Merksplas
 	Merksplas
+	Geheul
 Mol
 	Mol
 Olen
@@ -273,6 +274,7 @@ Grez-Doiceau
 	Bossut-Gottechain
 	Grez-Doiceau
 	Nethen
+	Pécrot
 Hélécine
 	Linsmeau
 	Neerheylissem
@@ -328,6 +330,7 @@ Ottignies-Louvain-la-Neuve
 	Céroux-Mousty
 	Limelette
 	Ottignies-Louvain-la-Neuve
+	Ottignies
 Perwez
 	Malèves-Sainte-Marie-Wastines
 	Orbais
@@ -447,7 +450,6 @@ Frasnes-lez-Anvaing
 	Buissenal
 	Cordes
 	Dergneau
-	Forest
 	Frasnes-lez-Buissenal
 	Hacquegnies
 	Herquegies
@@ -906,6 +908,7 @@ Tournai
 	Vezon
 	Warchin
 	Willemeau - Froidmont
+	Hertain
 
 
 ---------------
@@ -1595,7 +1598,6 @@ Riemst
 	Vroenhoven
 	Zichen-Zussen-Bolder
 Tongeren
-	Berg
 	Henis
 	Koninksem
 	Lauw
@@ -2221,7 +2223,6 @@ Ohey
 	Haillot
 	Jallet
 	Ohey
-	Perwez
 Profondeville
 	Arbre
 	Bois-de-Villers
@@ -2349,7 +2350,6 @@ Aalst
 	Hofstade
 	Meldert
 	Moorsel
-	Nieuwerkerken
 Denderleeuw
 	Denderleeuw
 	Iddergem
@@ -2892,7 +2892,6 @@ Glabbeek
 	Attenrode
 	Bunsbeek
 	Glabbeek-Zuurbemde
-	Kapellen
 Haacht
 	Haacht
 	Tildonk
@@ -3370,6 +3369,7 @@ Woluwe-Saint-Pierre
 Haren
 Laken
 Neder-Over-Heembeek
+Moriensart
 
 
 ---------------

@@ -17,3 +17,5 @@ Asia/Israel/Kfar-Habad/*	Asia/Israel/Central District/Kfar Habad
 Asia/Israel/Maalot-Tarshicha/*	Asia/Israel/North District/Maalot Tarshicha
 Africa/Burkina Faso/Batie/*	Africa/Burkina Faso/Sud-Ouest/Batié
 North America/USA/Wisconsin/Ogle County	North America/USA/Illinois/Ogle County
+Europe/Belgium/Roermond/*	Europe/Netherlands/Roermond/*
+Europe/Germany/North Rhine Westphalia/Koblenz	Europe/Germany/Rheinland-Pfalz/Koblenz

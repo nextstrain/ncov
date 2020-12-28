@@ -183,3 +183,8 @@ Qatif	Eastern Province
 Strumica	Southeastern Region
 Brobo	Bouaké
 Tulkarem	West Bank
+Chandpur	Chattogram
+Noakhali	Chattogram
+Bandarban	Chattogram
+Khagrachari	Chattogram
+Feni	Chattogram
