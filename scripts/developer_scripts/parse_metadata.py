@@ -207,14 +207,14 @@ def pre_sort_lat_longs(lat_longs):
         if type == "country":
             lat_longs_sorted.append("\n")
             lat_longs_sorted += regions_list
-        lat_longs_sorted.append("\n\n\n")
+        lat_longs_sorted.append("\n")
 
     return lat_longs_sorted
 
 
 #Function to support supervised addition of new entries into lat_longs. The user must review every new entry and approve it to be written into the lat_longs file. Ground truth lat_longs is not overwritten, but a copy is made in the developer_scripts folder.
 def auto_add_lat_longs(new_lat_longs):
-    
+
     with open("defaults/lat_longs.tsv") as f:
         lat_longs = f.readlines()
     lat_longs = pre_sort_lat_longs(lat_longs)
@@ -293,7 +293,7 @@ def read_metadata(metadata):
                 division = location
                 location = ""
     
-        countries_to_division = {"Hunan": "China", "Gibraltar": "United Kingdom", "Faroe Islands": "Denmark", "St Eustatius": "Netherlands"}
+        countries_to_division = {"Hunan": "China", "Gibraltar": "United Kingdom", "Faroe Islands": "Denmark", "St Eustatius": "Netherlands", "Crimea": "Ukraine"}
     
         if country in countries_to_division:
             additions_to_annotation.append(strain + "\t" + id + "\tcountry\t"+ countries_to_division[country] +" #previously " + country)
@@ -636,8 +636,9 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                             continue
 
                         if division in variants and variants[division] in location_to_arrondissement:
-                            division_to_correct.append((region, country, division, region, country, variants[division])) #first correct to properly spelled division
-                            div_to_loc[variants[division]] = (region, country, location_to_arrondissement[variants[division]]) #then to location
+                            #division_to_correct.append((region, country, division, region, country, variants[division])) #first correct to properly spelled division
+                            #div_to_loc[variants[division]] = (region, country, location_to_arrondissement[variants[division]]) #then to location
+                            location_to_correct.append(((region, country, division, location, region, country, location_to_arrondissement[variants[division]], variants[division])))
                             continue
                         print("Missing division in " + country + " database: " + bold(division))
                         if location != "":
@@ -1337,7 +1338,7 @@ if __name__ == '__main__':
     for line in additions_to_annotation:
         if line in annotations:
             continue
-        print(line)
+        #print(line)
         if "=" not in line:
             annot_lines_to_write.append(line)
         if len(line.split("\t")) == 4:
