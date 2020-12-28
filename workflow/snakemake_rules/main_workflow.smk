@@ -138,9 +138,13 @@ rule align:
         """
     input:
         sequences = "results/prefiltered.fasta",
-        reference = config["files"]["alignment_reference"]
+        reference = config["files"]["alignment_reference"],
+        gene_map = config["files"]["gene_map"]
     output:
         alignment = "results/aligned.fasta"
+    params:
+        outdir = "results/nextalign_out",
+        bin = config["nextalign_bin"]
     log:
         "logs/align.txt"
     benchmark:
@@ -149,13 +153,12 @@ rule align:
     conda: config["conda_environment"]
     shell:
         """
-        mafft \
-            --auto \
-            --thread {threads} \
-            --keeplength \
-            --addfragments \
-            {input.sequences} \
-            {input.reference} > {output} 2> {log}
+        {params.bin} \
+            --jobs={threads} \
+            --genemap {input.gene_map} \
+            --reference {input.reference} \
+            --sequences {input.sequences} \
+            --output-fasta {output} --output-dir {params.outdir} 2> {log}
         """
 
 rule diagnostic:

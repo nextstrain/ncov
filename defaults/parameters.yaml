@@ -33,6 +33,7 @@ files:
   include: "defaults/include.txt"
   exclude: "defaults/exclude.txt"
   reference: "defaults/reference_seq.gb"
+  gene_map: "defaults/genemap.gff"
   alignment_reference: "defaults/reference_seq.fasta"
   outgroup: "defaults/outgroup.fasta" # is this arg still used? file doesn't exist in gh repo
   ordering: "defaults/color_ordering.tsv"
