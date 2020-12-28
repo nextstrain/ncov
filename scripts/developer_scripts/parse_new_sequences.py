@@ -398,7 +398,7 @@ def prepare_tweet(counts, lab_collection):
         for region in lab_collection:
             countries = []
             handles = []
-            for country in lab_collection[region]:
+            for country in sorted(lab_collection[region]):
                 number = sum(counts[country].values())
                 total += number
                 s = ""
