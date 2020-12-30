@@ -1,0 +1,8 @@
+configfile:
+  - defaults/parameters.yaml
+  - my_profiles/no-tree/builds.yaml
+
+keep-going: True
+printshellcmds: True
+show-failed-logs: True
+stats: stats.json

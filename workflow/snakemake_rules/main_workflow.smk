@@ -918,9 +918,11 @@ def _get_node_data_by_wildcards(wildcards):
         rules.rename_legacy_clades.output.clade_data,
         rules.rename_subclades.output.clade_data,
         rules.clades.output.clade_data,
-        rules.recency.output.node_data,
-        rules.traits.output.node_data
+        rules.recency.output.node_data
     ]
+    # add the output from `augur traits` to the returned inputs _unless_ the user has specifically provided an empty array of values to run traits on
+    if len(config["traits"].get(wildcards.build_name, {}).get("columns", config["traits"]["default"]["columns"])) != 0:
+        inputs.append(rules.traits.output.node_data)
 
     # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]

@@ -1,0 +1,23 @@
+custom_rules:
+  - nextstrain_profiles/nextstrain/download_preprocessed.smk
+  - my_profiles/no-tree/rules.smk
+
+S3_BUCKET: "nextstrain-ncov-private"
+
+builds:
+  global-no-tree:
+    subsampling_scheme: global
+    title: Globally subsampled build without a tree
+
+subsampling:
+  global:
+    country:
+      group_by: "country year month"
+      max_sequences: 10000
+
+files:
+  auspice_config: "my_profiles/no-tree/auspice_config.json"
+
+traits:
+  global-no-tree:
+    columns: []
