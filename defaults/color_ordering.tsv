@@ -72,7 +72,9 @@ location	Jalazone
 # West Bank
 location	Tkoa
 location	Maale-Edumim
+location	Salfit
 location	Elkana
+location	Qalqilya
 location	Tulkarem
 
 # Nablus
@@ -351,8 +353,10 @@ location	Brahmanbaria
 
 # Khulna
 location	Bagerhat
+location	Satkhira
 location	Jashore
 location	Narail
+location	Magura
 location	Jhenaidah
 
 # Dhaka
@@ -624,6 +628,7 @@ location	Baney
 
 ### South Africa
 # Western Cape Province
+location	West Coast
 location	Cape Town
 location	Klipfontein
 location	Cape Town Metro
@@ -643,6 +648,7 @@ location	Knysna
 location	Garden Route
 
 # Northern Cape
+location	Namakwa
 location	Siyathemba
 
 # Eastern Cape
@@ -1310,6 +1316,9 @@ location	Chateau-Thierry
 location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
+location	Saint-Saulve
+location	Crespin
+location	Flines-lès-Mortagne
 location	Genech
 location	Santes
 location	Lille
@@ -1318,6 +1327,7 @@ location	Leers
 location	Wambrechies
 location	Roubaix
 location	Tourcoing
+location	Bousbecque
 
 # Occitanie
 location	Toulouse
@@ -1543,6 +1553,7 @@ location	Havré
 # Soignies
 location	Neufvilles
 location	Casteau
+location	Horrues
 location	Naast
 location	Le Roeulx
 location	Braine-le-Comte
@@ -1653,6 +1664,7 @@ location	Kalmthout
 location	Borsbeek
 location	Brasschaat
 location	Schoten
+location	Boechout
 location	Wijnegem
 location	Vremde
 location	Wommelgem
@@ -1725,6 +1737,7 @@ location	Duffel
 location	Bonheiden
 location	Lier
 location	Koningshooikt
+location	Putte
 location	Nijlen
 location	Bevel
 location	Schriek
@@ -1769,6 +1782,7 @@ location	Lubbeek
 location	Boutersem
 location	Aarschot
 location	Langdorp
+location	Kumtich
 location	Tielt-Winge
 location	Hoegaarden
 location	Molenbeek-Wersbeek
@@ -1799,6 +1813,7 @@ location	Gembloux
 location	Beuzet
 location	Temploux
 location	Grand-Leez
+location	Bovesse
 location	Bois-de-Villers
 location	Erpent
 location	Champion
@@ -1834,7 +1849,11 @@ location	Laakdal
 location	Oud-Turnhout
 location	Ravels
 location	Poppel
+location	Meerhout
 location	Retie
+location	Arendonk
+location	Dessel
+location	Olmen
 location	Balen
 location	Mol
 
@@ -1965,6 +1984,7 @@ location	Franeker
 location	Apeldoorn
 
 # Drenthe
+location	Meppel
 location	Coevorden
 location	Dalen
 
@@ -2025,6 +2045,7 @@ location	Milan
 
 # Tuscany
 location	Siena
+location	Florence
 
 # Veneto
 location	Verona IT
@@ -2629,6 +2650,7 @@ location	Puerto Montt
 
 # Araucanía
 location	Temuco
+location	Angol
 
 # Biobío
 location	Concepcion
@@ -2658,6 +2680,9 @@ location	Copiapo
 location	Caldera
 location	Chanaral
 location	El Salvador
+
+# Antofagasta
+location	Antofagasta
 
 ### Brazil
 # Amazonas BR
@@ -2987,6 +3012,9 @@ location	Coca
 location	Orellana
 
 ### Colombia
+# Amazonas
+location	Leticia
+
 # Departamento de Amazonas
 location	Leticia
 
@@ -3255,7 +3283,6 @@ location	San Juan County
 location	Thurston County
 location	Cowlitz County
 location	Clark County WA
-location	Mercer Island
 location	Pierce County WA
 location	Snohomish County
 location	King County
@@ -3544,7 +3571,6 @@ location	Jo Daviess County
 location	Marion County IN
 
 # Georgia
-location	Atlanta
 location	Cobb
 
 # Ohio
@@ -3554,10 +3580,8 @@ location	Cuyahoga County
 # Florida
 location	Walton County
 location	Alachua County
-location	Orange County FL
 location	Miami-Dade County
 location	Palm Beach County
-location	Miami Gardens
 
 # South Carolina
 location	Fairfield County SC
@@ -3579,9 +3603,6 @@ location	Montgomery County PA
 # Washington DC
 location	District of Columbia County
 
-# Maryland
-location	Prince George'S County
-
 # Delaware
 location	Sussex County
 location	Kent County
@@ -3590,84 +3611,76 @@ location	New Castle County
 # New Jersey
 location	Camden County
 location	Burlington County
-location	New Jersey
-location	Trenton
-location	Fair Haven
-location	Jersey City
 location	Hudson County
-location	East Orange
-location	Secaucus
 location	Essex County NJ
-location	Guttenberg
-location	Bloomfield
 location	Morris County NJ
-location	Paterson
 location	Bergen County
 
 # New York
-location	Chautauqua County
-location	Niagara County
-location	Erie County
-location	Cattaraugus County
-location	Wyoming County
-location	Orleans County
-location	Monroe County NY
-location	Steuben County
-location	Ontario County
-location	Wayne County
-location	Seneca County
-location	Chemung County
-location	Cayuga County
-location	Tompkins County
-location	Tioga County
-location	Onondaga County
-location	Oswego County
-location	Cortland County
-location	Jefferson County NY
-location	Broome County
-location	Madison County NY
-location	Chenango County
-location	Lewis County
-location	Oneida County
-location	St. Lawrence County
-location	Otsego County
-location	Delaware County
-location	Herkimer County
-location	Wanakena
-location	Sullivan County
-location	Hamilton County
-location	Fulton County
-location	Schoharie County
-location	Montgomery County NY
-location	Franklin County NY
-location	Ulster County
-location	Orange County NY
-location	Passaic County
+location	Orange County FL
 location	Richmond County
 location	Staten Island
-location	Greene County
-location	Schenectady County
+location	Brooklyn
 location	New York City
-location	Rockland County
-location	Albany County
+location	Queens
+location	New Hyde Park
+location	Nassau County
 location	Manhattan
 location	New York County
-location	Brooklyn
-location	Saratoga County
 location	Bronx
-location	Warren County
-location	Queens
-location	Westchester County
 location	New Rochelle
-location	Essex County NY
-location	Putnam County
-location	Dutchess County
-location	Clinton County
-location	Columbia County NY
-location	Nassau County
-location	Rensselaer County
-location	Washington County NY
+location	Passaic County
 location	Suffolk County
+location	Westchester County
+location	Rockland County
+location	Orange County NY
+location	Putnam County
+location	Sullivan County
+location	Dutchess County
+location	Ulster County
+location	Tioga County
+location	Broome County
+location	Chemung County
+location	Delaware County
+location	Cattaraugus County
+location	Steuben County
+location	Columbia County NY
+location	Greene County
+location	Chautauqua County
+location	Tompkins County
+location	Chenango County
+location	Schoharie County
+location	Cortland County
+location	Otsego County
+location	Albany County
+location	Wyoming County
+location	Rensselaer County
+location	Erie County
+location	Seneca County
+location	Schenectady County
+location	Ontario County
+location	Madison County NY
+location	Montgomery County NY
+location	Cayuga County
+location	Onondaga County
+location	Saratoga County
+location	Fulton County
+location	Wayne County
+location	Monroe County NY
+location	Niagara County
+location	Oneida County
+location	Orleans County
+location	Washington County NY
+location	Oswego County
+location	Herkimer County
+location	Warren County
+location	Hamilton County
+location	Lewis County
+location	Essex County NY
+location	Jefferson County NY
+location	St. Lawrence County
+location	Franklin County NY
+location	Clinton County
 
 # Connecticut
 location	Hartford County
@@ -3688,7 +3701,6 @@ location	Meriden
 location	Northford
 location	Madison CT
 location	Tolland County
-location	Gales Ferry
 
 # Massachusetts
 location	Middlesex County
@@ -4345,9 +4357,7 @@ division	Brugge
 division	Kortrijk
 division	Tielt
 division	Tournai-Mouscron
-division	Flines-lès-Mortagne
 division	Eeklo
-division	Saint-Saulve
 division	Oudenaarde
 division	Gent
 division	Ath
@@ -4381,7 +4391,6 @@ division	Tongeren
 division	Liège
 division	Maaseik
 division	Verviers
-division	Mepel
 
 ### Netherlands
 division	St Eustatius
@@ -4959,7 +4968,9 @@ division	Sucumbios
 division	Orellana
 
 ### Colombia
+division	Amazonas
 division	Departamento de Amazonas
+division	Caqueta
 division	Narino
 division	Cauca
 division	Huila
