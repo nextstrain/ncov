@@ -2050,6 +2050,7 @@ location	Florence
 # Veneto
 location	Verona IT
 location	Padova
+location	Rovigo
 
 # Lazio
 location	Rome
@@ -2635,6 +2636,16 @@ location	Quilmes
 # Santa Fe
 location	Totoras
 
+### Uruguay
+# Rocha
+location	Chuy
+
+# Cerro Largo
+location	Rio Branco
+
+# Artigas
+location	Bella Union
+
 ### Chile
 # Magallanes
 location	Puerto Natales
@@ -3012,9 +3023,6 @@ location	Coca
 location	Orellana
 
 ### Colombia
-# Amazonas
-location	Leticia
-
 # Departamento de Amazonas
 location	Leticia
 
@@ -3433,6 +3441,7 @@ location	Bowie County
 location	Cass County
 location	Panola County
 location	Jefferson County TX
+location	Jasper County
 
 # Minnesota
 location	Fillmore County
@@ -3617,70 +3626,69 @@ location	Morris County NJ
 location	Bergen County
 
 # New York
-location	Orange County FL
+location	Chautauqua County
+location	Niagara County
+location	Erie County
+location	Cattaraugus County
+location	Wyoming County
+location	Orleans County
+location	Monroe County NY
+location	Steuben County
+location	Ontario County
+location	Wayne County
+location	Seneca County
+location	Chemung County
+location	Cayuga County
+location	Tompkins County
+location	Tioga County
+location	Onondaga County
+location	Oswego County
+location	Cortland County
+location	Jefferson County NY
+location	Broome County
+location	Madison County NY
+location	Chenango County
+location	Lewis County
+location	Oneida County
+location	St. Lawrence County
+location	Otsego County
+location	Delaware County
+location	Herkimer County
+location	Sullivan County
+location	Hamilton County
+location	Fulton County
+location	Schoharie County
+location	Montgomery County NY
+location	Franklin County NY
+location	Ulster County
+location	Orange County NY
+location	Passaic County
 location	Richmond County
 location	Staten Island
-location	Brooklyn
+location	Greene County
+location	Schenectady County
 location	New York City
-location	Queens
-location	New Hyde Park
-location	Nassau County
+location	Rockland County
+location	Albany County
 location	Manhattan
 location	New York County
-location	Bronx
-location	New Rochelle
-location	Passaic County
-location	Suffolk County
-location	Westchester County
-location	Rockland County
-location	Orange County NY
-location	Putnam County
-location	Sullivan County
-location	Dutchess County
-location	Ulster County
-location	Tioga County
-location	Broome County
-location	Chemung County
-location	Delaware County
-location	Cattaraugus County
-location	Steuben County
-location	Columbia County NY
-location	Greene County
-location	Chautauqua County
-location	Tompkins County
-location	Chenango County
-location	Schoharie County
-location	Cortland County
-location	Otsego County
-location	Albany County
-location	Wyoming County
-location	Rensselaer County
-location	Erie County
-location	Seneca County
-location	Schenectady County
-location	Ontario County
-location	Madison County NY
-location	Montgomery County NY
-location	Cayuga County
-location	Onondaga County
+location	Brooklyn
 location	Saratoga County
-location	Fulton County
-location	Wayne County
-location	Monroe County NY
-location	Niagara County
-location	Oneida County
-location	Orleans County
-location	Washington County NY
-location	Oswego County
-location	Herkimer County
+location	Bronx
 location	Warren County
-location	Hamilton County
-location	Lewis County
+location	Queens
+location	Westchester County
+location	New Rochelle
 location	Essex County NY
-location	Jefferson County NY
-location	St. Lawrence County
-location	Franklin County NY
+location	Putnam County
+location	Dutchess County
 location	Clinton County
+location	New Hyde Park
+location	Columbia County NY
+location	Nassau County
+location	Rensselaer County
+location	Washington County NY
+location	Suffolk County
 
 # Connecticut
 location	Hartford County
@@ -3962,6 +3970,7 @@ division	Hong Kong
 ### Indonesia
 division	North Sumatra
 division	Banten
+division	Kepulauan Bangka Belitung
 division	Jakarta
 division	West Java
 division	Yogyakarta
@@ -4291,6 +4300,7 @@ division	Cavan
 division	Kilkenny
 division	Waterford
 division	Monaghan
+division	Carlow
 division	Kildare
 division	Wexford
 division	Meath
@@ -4699,7 +4709,6 @@ division	Athens
 division	Central Greece
 division	Greece
 division	Thessaloniki
-division	South Aegean Region
 
 ### Lithuania
 division	Klaipedos Apskritis
@@ -4876,7 +4885,11 @@ division	Tucuman
 ### Uruguay
 division	Maldonado
 division	Montevideo
+division	Rocha
+division	Treinta y Tres
+division	Cerro Largo
 division	Rivera
+division	Artigas
 
 ### Chile
 division	Magallanes
@@ -4969,7 +4982,6 @@ division	Sucumbios
 division	Orellana
 
 ### Colombia
-division	Amazonas
 division	Departamento de Amazonas
 division	Caqueta
 division	Narino
