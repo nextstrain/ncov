@@ -1221,3 +1221,6 @@ Thailand/Bangkok-CONI-0321/2020
 
 # Misplaced date
 Tunisia/3942/2020
+
+# Misdated; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1609380393218400
+Luxembourg/LNS4701723/2020
