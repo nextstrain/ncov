@@ -151,7 +151,7 @@ subsampling:
       exclude: "--exclude-where 'region!=Asia'"
     europe_early:
       group_by: "country year month"
-      max_sequences: 200
+      seq_per_group: 1
       exclude: "--exclude-where 'region!=Europe'"
     north_america_early:
       group_by: "division year month"
