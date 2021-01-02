@@ -381,6 +381,7 @@ rule subsample:
         group_by = _get_specific_subsampling_setting("group_by"),
         sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
         subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
+        sampling_scheme = _get_specific_subsampling_setting("sampling_scheme", optional=True),
         exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
         include_argument = _get_specific_subsampling_setting("include", optional=True),
         query_argument = _get_specific_subsampling_setting("query", optional=True),
@@ -404,6 +405,7 @@ rule subsample:
             --group-by {params.group_by} \
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
+            {params.sampling_scheme} \
             --output {output.sequences} 2>&1 | tee {log}
         """
 
