@@ -41,7 +41,6 @@ files:
   lat_longs: "defaults/lat_longs.tsv"
   description: "defaults/description.md"
   clades: "defaults/clades.tsv"
-  legacy_clades: "nextstrain_profiles/nextstrain/legacy_clades.tsv"
   subclades: "defaults/subclades.tsv"
 
 # Filter settings

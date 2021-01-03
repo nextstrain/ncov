@@ -98,7 +98,6 @@ traits:
     columns: ["division_exposure"]
 
 files:
-  legacy_clades: "nextstrain_profiles/nextstrain/legacy_clades.tsv"
   auspice_config_gisaid: "nextstrain_profiles/nextstrain/nextstrain_auspice_config_gisaid.json"
   auspice_config_zh: "nextstrain_profiles/nextstrain/nextstrain_auspice_config_zh.json"
   description: "nextstrain_profiles/nextstrain/nextstrain_description.md"

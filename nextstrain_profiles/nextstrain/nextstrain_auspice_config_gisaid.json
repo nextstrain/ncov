@@ -1,11 +1,6 @@
 {
   "colorings": [
     {
-      "key": "legacy_clade_membership",
-      "title": "Old Nextstrain clade",
-      "type": "categorical"
-    },
-    {
       "key": "location",
       "title": "Location",
       "type": "categorical"
@@ -27,7 +22,7 @@
     },
     {
       "key": "pangolin_lineage",
-      "title": "Pangolin lineage",
+      "title": "Pangolin Lineage",
       "type": "categorical"
     },
     {
@@ -80,17 +75,17 @@
     },
     {
       "key": "country_exposure",
-      "title": "Country of exposure",
+      "title": "Country of Exposure",
       "type": "categorical"
     },
     {
       "key": "division_exposure",
-      "title": "Division of exposure",
+      "title": "Division of Exposure",
       "type": "categorical"
     },
     {
       "key": "region_exposure",
-      "title": "Region of exposure",
+      "title": "Region of Exposure",
       "type": "categorical"
     }
   ],
