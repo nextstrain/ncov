@@ -24,7 +24,6 @@ builds:
     auspice_config: "nextstrain_profiles/nextstrain/asia_auspice_config.json"
   europe:
     subsampling_scheme: nextstrain_region_grouped_by_country
-    subclades: "nextstrain_profiles/nextstrain/subclades_EU.tsv"
     region: Europe
     auspice_config: "nextstrain_profiles/nextstrain/europe_auspice_config.json"
   north-america:
