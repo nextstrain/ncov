@@ -98,7 +98,6 @@ traits:
     columns: ["division_exposure"]
 
 files:
-  auspice_config_gisaid: "nextstrain_profiles/nextstrain/nextstrain_auspice_config_gisaid.json"
   description: "nextstrain_profiles/nextstrain/nextstrain_description.md"
 
 # S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
