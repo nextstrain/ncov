@@ -378,6 +378,7 @@ location	Pabna
 # Sylhet
 location	Habiganj
 location	Moulvibazar
+location	Sunamganj
 
 # Rangpur
 location	Nilphamari
@@ -480,6 +481,7 @@ location	South Tangerang
 location	Tangerang
 
 # West Java
+location	Tasikmalaya
 location	Bandung
 location	Purwakarta
 location	Bogor Regency
@@ -1237,6 +1239,7 @@ location	Warwickshire
 location	Ploudalmezeau
 location	Lannilis
 location	Brest
+location	Quimper
 location	Chateaulin
 location	Morlaix
 location	Saint Pierre Quiberon
@@ -1316,6 +1319,7 @@ location	Chateau-Thierry
 location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
+location	Amiens
 location	Saint-Saulve
 location	Crespin
 location	Flines-lès-Mortagne
@@ -1367,6 +1371,7 @@ location	Contamines
 location	Vienne
 
 # Bourgogne-France-Comté
+location	St Clément
 location	Montcenis
 location	Chalon sur Saone
 location	Dijon
@@ -2348,6 +2353,21 @@ location	Iasi
 # Finland
 location	Rovaniemi
 
+### Belarus
+# Minsk Region
+location	Uzda
+location	Kolodishchi
+location	Smalyavichy
+
+# Vitebsk Region
+location	Dubrowna
+
+# Mogilev Region
+location	Babruysk
+
+# Gomel Region
+location	Kalinkavichy
+
 ### Moldova
 # Rezina
 location	Rabnita
@@ -2673,7 +2693,10 @@ location	Chillan
 location	Talca
 
 # O'Higgins
+location	Lolol
+location	Pichidegua
 location	Rancagua
+location	San Francisco de Mostazal
 
 # Region Metropolitana de Santiago
 location	Santiago
@@ -2786,6 +2809,7 @@ location	Araras
 location	Americana
 location	Nova Odessa
 location	Sumare
+location	Indaiatuba
 location	Hortolandia
 location	Itariri
 location	Campinas
@@ -2799,6 +2823,7 @@ location	Jundiai
 location	Cajamar
 location	Barueri
 location	Itapecerica Da Serra
+location	Embu Das Artes
 location	Itatiba
 location	Osasco
 location	Taboao Da Serra
@@ -2817,10 +2842,12 @@ location	Maua
 location	Ribeirao Pires
 location	Rio Grande Da Serra
 location	Sao Vicente
+location	Poa
 location	Santos
 location	Guarujá
 location	Santa Isabel
 location	Mogi Das Cruzes
+location	Guararema
 location	Jacareí
 location	Taubate
 location	Caraguatatuba
@@ -3258,6 +3285,12 @@ location	San Luis Rio Colorado
 location	Gomez Palacios
 
 ### USA
+# Hawaii
+location	Kauai County
+location	Honolulu County
+location	Maui County
+location	Hawaii County
+
 # Alaska
 location	Interior Alaska
 location	Anchorage
@@ -3312,21 +3345,26 @@ location	Asotin County
 # California
 location	Humboldt County
 location	Grand Princess Cruise Ship
+location	Mendocino County
 location	Sonoma County
 location	Lake County CA
 location	Marin County
 location	San Francisco
 location	San Francisco County
 location	San Mateo County
+location	Napa County
+location	Colusa County
 location	Solano County
 location	Yolo County
 location	Contra Costa County
 location	Alameda County
 location	Sutter County
 location	Santa Clara County
+location	Butte County
 location	Sacramento County
 location	San Joaquin County
 location	Monterey County CA
+location	Stanislaus County
 location	Merced County
 location	San Luis Obispo County
 location	Tuolumne County
@@ -3335,10 +3373,12 @@ location	Fresno County
 location	Kings County
 location	Madera County
 location	Ventura County
+location	Mono County
 location	Tulare County
 location	Kern County
 location	Los Angeles County
 location	Orange County CA
+location	Inyo County
 location	San Diego
 location	Riverside County
 location	San Diego County
@@ -3368,6 +3408,7 @@ location	Minnehaha County
 
 # Nebraska
 location	Lancaster County
+location	Omaha
 
 # Texas
 location	El Paso County
@@ -3564,6 +3605,7 @@ location	Door County
 
 # Illinois
 location	Jackson County IL
+location	Rock Island County
 location	Cook County
 location	Chicago
 location	Dekalb County
@@ -3584,6 +3626,7 @@ location	Cobb
 
 # Ohio
 location	Columbus OH
+location	Franklin County OH
 location	Cuyahoga County
 
 # Florida
@@ -3723,6 +3766,7 @@ location	Ponce
 location	Abbotsford
 
 # Ontario
+location	Brampton
 location	Toronto
 location	Ottawa
 
@@ -3836,6 +3880,7 @@ division	Nur-Sultan
 
 ### Pakistan
 division	Karachi
+division	Sindh
 division	Pakistan
 division	Rawalpindi
 division	Khyber Pakhtunkhwa
@@ -3881,8 +3926,16 @@ division	Gampaha
 division	Sri Lanka
 
 ### Nepal
+division	Rolpa
+division	Kapilvastu
+division	Baglung
+division	Kavre
 division	Nepal
+division	Rautahat
 division	Kathmandu
+division	Bhaktapur
+division	Sarlahi
+division	Dolakha
 
 ### Asia
 division	Asia
@@ -3906,6 +3959,7 @@ division	Myanmar
 ### Thailand
 division	Trang
 division	Phuket
+division	Rayong
 division	Chonburi
 division	Samut Songkhram
 division	Samut Sakhon
@@ -3970,6 +4024,7 @@ division	Lao Cai
 division	Hong Kong
 
 ### Indonesia
+division	Aceh
 division	North Sumatra
 division	Banten
 division	Kepulauan Bangka Belitung
@@ -3983,6 +4038,7 @@ division	Indonesia
 division	Bali
 division	South Kalimantan
 division	East Kalimantan
+division	South Sulawesi
 division	North Sulawesi
 division	Papua
 
@@ -4497,6 +4553,7 @@ division	Mecklenburg-Vorpommern
 division	Brandenburg
 division	Western Pomerania
 division	Berlin
+division	Saxony
 
 ### Europe
 division	Europe
@@ -4632,6 +4689,7 @@ division	Łódzkie
 division	Malopolskie
 division	Warminsko-Mazurskie
 division	Mazowieckie
+division	Masovia
 
 ### Slovakia
 division	Kostoliste
@@ -4707,10 +4765,11 @@ division	Eastern Region
 division	Southeastern Region
 
 ### Greece
-division	Athens
-division	Central Greece
 division	Greece
 division	Thessaloniki
+division	Central Greece
+division	Athens
+division	South Aegean Region
 
 ### Lithuania
 division	Klaipedos Apskritis
@@ -4757,7 +4816,12 @@ division	Uusimaa
 division	Finland
 
 ### Belarus
+division	Minsk
+division	Minsk Region
 division	Belarus
+division	Vitebsk Region
+division	Mogilev Region
+division	Gomel Region
 
 ### Moldova
 division	Cahul
@@ -5056,6 +5120,9 @@ division	Limon
 ### Nicaragua
 division	Nicaragua
 
+### Saint Vincent and the Grenadines
+division	Saint Vincent and the Grenadines
+
 ### El Salvador
 division	San Salvador
 
@@ -5081,6 +5148,12 @@ division	Saint-François
 ### Belize
 division	Belize
 division	Belmopan
+
+### Antigua and Barbuda
+division	Antigua and Barbuda
+
+### Saint Kitts and Nevis
+division	Saint Kitts and Nevis
 
 ### Saint Barthélemy
 division	Saint Barthélemy
@@ -5361,10 +5434,13 @@ country	Aruba
 country	Panama
 country	Costa Rica
 country	Nicaragua
+country	Saint Vincent and the Grenadines
 country	El Salvador
 country	Guatemala
 country	Guadeloupe
 country	Belize
+country	Antigua and Barbuda
+country	Saint Kitts and Nevis
 country	Saint Barthélemy
 country	Saint Martin
 country	Jamaica
