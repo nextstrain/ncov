@@ -32,7 +32,7 @@ def analyze_divergence(sequences, metadata, reference, mask_5p=0, mask_3p=0):
     for b,e in known_true_clusters:
         known_true_cluster_array[b:e]=0
 
-    cluster_cut_off = 5
+    cluster_cut_off = 10
     with open(sequences) as fasta:
         for h,s in SimpleFastaParser(fasta):
             left_gaps = len(s) - len(s.lstrip('-'))
@@ -96,7 +96,7 @@ if __name__ == '__main__':
     diagnostics = analyze_divergence(args.alignment, metadata, ref,
                                      mask_5p=args.mask_from_beginning,
                                      mask_3p=args.mask_from_end)
-    snp_cutoff = 15
+    snp_cutoff = 25
     no_data_cutoff = 3000
     flagged_sequences = []
     # output diagnostics for each sequence, ordered by divergence
@@ -115,7 +115,7 @@ if __name__ == '__main__':
             msg = ""
             reasons = []
             if not np.isnan(expected_div) and np.abs(len(d['snps']) - expected_div) > snp_cutoff:
-                msg += f"too high divergence {np.abs(len(d['snps']) - expected_div):1.2f}>{snp_cutoff};"
+2               msg += f"too high divergence {np.abs(len(d['snps']) - expected_div):1.2f}>{snp_cutoff};2
                 reasons.append('divergence')
             if len(d['clusters']):
                 msg += f"{len(d['clusters'])} SNP clusters with {','.join([str(x[2]) for x in d['clusters']])} SNPs each;"
