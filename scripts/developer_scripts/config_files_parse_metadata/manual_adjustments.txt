@@ -22,3 +22,4 @@ Europe/Germany/North Rhine Westphalia/Koblenz	Europe/Germany/Rheinland-Pfalz/Kob
 Europe/Belgium/Saint-Saulve/*	Europe/France/Hauts de France/Saint-Saulve
 Europe/Belgium/Mepel/*	Europe/Netherlands/Drenthe/Meppel
 Europe/Belgium/Flines-lès-Mortagne/*	Europe/France/Hauts de France/Flines-lès-Mortagne
+North America/USA/New York/Out-of-State	North America/USA/New York/

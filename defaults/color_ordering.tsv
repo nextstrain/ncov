@@ -490,6 +490,7 @@ location	Bogor Regency
 location	Sleman
 
 # East Java
+location	Tulungagung
 location	Purwokerto
 location	Sidoarjo
 location	Surabaya
@@ -3370,7 +3371,7 @@ location	San Luis Obispo County
 location	Tuolumne County
 location	Santa Barbara County
 location	Fresno County
-location	Kings County
+location	Kings County CA
 location	Madera County
 location	Ventura County
 location	Mono County
@@ -3395,6 +3396,7 @@ location	Madison County ID
 # Arizona
 location	Yuma
 location	Maricopa County
+location	Pima County
 
 # Montana
 location	Ravalli County
@@ -3715,6 +3717,7 @@ location	Rockland County
 location	Albany County
 location	Manhattan
 location	New York County
+location	Kings County NY
 location	Brooklyn
 location	Saratoga County
 location	Bronx
@@ -4571,6 +4574,7 @@ division	South Tyrol
 division	Italian cruise ship
 division	Italy
 division	Veneto
+division	Umbria
 division	Lazio
 division	Friuli Venezia Giulia
 division	Marche
