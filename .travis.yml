@@ -1,0 +1,15 @@
+os: linux
+dist: xenial
+services:
+  - docker
+language: python
+python:
+  - "3.6"
+install:
+  - pip3 install git+https://github.com/nextstrain/cli
+  - nextstrain version
+  - nextstrain check-setup
+  - nextstrain update
+script:
+  - gunzip data/example_sequences.fasta.gz
+  - nextstrain build . all_regions -j 2 --profile nextstrain_profiles/nextstrain --config sequences=data/example_sequences.fasta metadata=data/example_metadata.tsv active_builds=global
