@@ -481,10 +481,11 @@ location	South Tangerang
 location	Tangerang
 
 # West Java
-location	Tasikmalaya
-location	Bandung
+location	Depok
 location	Purwakarta
+location	Bandung
 location	Bogor Regency
+location	Tasikmalaya
 
 # Yogyakarta
 location	Sleman
@@ -498,6 +499,9 @@ location	Pasuruan
 
 # East Kalimantan
 location	Samarinda
+
+# East Nusa Tenggara
+location	Kupang
 
 # North Sulawesi
 location	Manado
@@ -2019,6 +2023,9 @@ location	Essen
 location	Münster
 location	Bielefeld
 
+# Niedersachsen
+location	Hannover
+
 # Baden-Wuerttemberg
 location	Konstanz
 location	Tuttlingen
@@ -2055,7 +2062,9 @@ location	Florence
 
 # Veneto
 location	Verona IT
+location	Vicenza
 location	Padova
+location	Treviso
 location	Rovigo
 
 # Lazio
@@ -3419,16 +3428,19 @@ location	Bailey County
 location	Oldham County
 location	Deaf Smith County
 location	Ector County
+location	Lubbock County
 location	Crosby County
 location	Val Verde County
 location	Ochiltree County
 location	Gray County
+location	Tom Green County
 location	Wheeler County
 location	Taylor County TX
 location	McCulloch County
 location	Webb County
 location	Bandera County
 location	Brown County TX
+location	Starr County
 location	Wichita County
 location	Llano County
 location	Atascosa County
@@ -3440,10 +3452,13 @@ location	Wilson County
 location	Jim Wells County
 location	Live Oak County
 location	Hays County
+location	Hood County
+location	Guadalupe County
 location	Parker County
 location	Travis County
 location	Montague County
 location	Bee County
+location	Wise County
 location	Nueces County
 location	Williamson County
 location	San Patricio County
@@ -3456,6 +3471,7 @@ location	Lavaca County
 location	Dallas County
 location	Calhoun County
 location	Burleson County
+location	Collin County
 location	Limestone County
 location	Washington County TX
 location	Brazos County
@@ -3465,6 +3481,7 @@ location	Hunt County
 location	Waller County
 location	Grimes County
 location	Van Zandt County
+location	Fort Bend County
 location	Lamar County
 location	Montgomery County TX
 location	Harris County
@@ -3677,6 +3694,8 @@ location	Erie County
 location	Cattaraugus County
 location	Wyoming County
 location	Orleans County
+location	Allegany County NY
+location	Livingston County
 location	Monroe County NY
 location	Steuben County
 location	Ontario County
@@ -4042,6 +4061,7 @@ division	Bali
 division	South Kalimantan
 division	East Kalimantan
 division	South Sulawesi
+division	East Nusa Tenggara
 division	North Sulawesi
 division	Papua
 
@@ -4200,8 +4220,18 @@ division	Cotonou
 division	Oueme
 
 ### Algeria
+division	Adrar
+division	Ouargla
+division	El Oued
+division	Laghouat
+division	Bordj-Bou-Arreridj
+division	Sétif
+division	Bouira
 division	Blida
+division	Tipaza
 division	Boufarik
+division	Tizi-Ouzou
+division	Alger
 
 ### Nigeria
 division	Lagos
@@ -4593,6 +4623,7 @@ division	Slovenia
 
 ### Sweden
 division	Skane
+division	Blekinge
 division	Kalmar
 division	Kronoberg
 division	Halland

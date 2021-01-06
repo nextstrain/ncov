@@ -69,6 +69,7 @@ location	Aligandí	9.233243	-78.016640
 location	Aligarh	27.8974	78.0880
 location	Alken	50.877283	5.289834
 location	Allamakee County	43.286290	-91.352362
+location	Allegany County NY	42.2446061	-78.0419281
 location	Allegheny County	40.4597204	-79.9760405
 location	Almansa	38.8703	-1.0993
 location	Almargem do Bispo	38.8491202	-9.264334778649605
@@ -580,6 +581,7 @@ location	Coca	-0.4721804	-76.9837216
 location	Coevorden	52.6614	6.7411
 location	Cogollos de la Vega	37.2755727	-3.572149
 location	Colfontaine	50.40777	3.846237
+location	Collin County	33.1609629	-96.6060984
 location	Cologne	50.938361	6.959974
 location	Colombes	48.9221	2.2533
 location	Colorado Springs	38.8339	-104.8214
@@ -681,6 +683,7 @@ location	Delaware County	42.194917	-75.0016302
 location	Delft	52.0116	4.3571
 location	Denton County	33.1838787	-97.1413417
 location	Denver County	39.7348381	-104.9653271
+location	Depok	-6.4074657	106.8138131
 location	Derbent	42.057858	48.2887648
 location	Derbyshire	53.142893	-1.611670
 location	Derevyanka	61.6169349	34.6261437
@@ -847,6 +850,7 @@ location	Fontaine-Valmont	50.317343	4.215677
 location	Forchies-la-Marche	50.435103	4.319844
 location	Forest	50.8134	4.3248
 location	Formentera	38.6964	1.4531
+location	Fort Bend County	29.511218	-95.7807348
 location	Foshan	23.018766	113.121428
 location	Fougères	48.3503362	-1.1958526
 location	Fraga	41.5210138	0.3515596
@@ -968,6 +972,7 @@ location	Groslay	48.9867112	2.3458615
 location	Grote-Brogel	51.153218	5.508637
 location	Grozny	43.3197031	45.6934308
 location	Guadalupe	8.859217	-79.808174
+location	Guadalupe County	29.6480061	-97.8279576
 location	Guadassuar	39.1859294	-0.4769464
 location	Guadix	37.3011	-3.1403
 location	Guangzhou	23.123972	113.292889
@@ -1000,6 +1005,7 @@ location	Hamden	41.397428	-72.924035
 location	Hamilton County	43.6307863	-74.4659275
 location	Hamme	51.081154	4.142607
 location	Hangzhou	30.272732	120.154501
+location	Hannover	52.3744779	9.7385532
 location	Hannut	50.667745	5.077469
 location	Hanoi	21.020191	105.836099
 location	Harbin	45.743472	126.645116
@@ -1070,6 +1076,7 @@ location	Holy Cross	43.469964	-87.900967
 location	Hong Kong	22.3964	114.1095
 location	Honnelles	50.350747	3.714603
 location	Honolulu County	21.468151	-157.960511
+location	Hood County	32.4107555	-97.828282
 location	Hood River County	45.5311636	-121.6475587
 location	Hooghly	22.9052114	88.3760639
 location	Hoogstraten	51.39573015	4.744087183464012
@@ -1331,6 +1338,7 @@ location	Kufstein	47.582996	12.1692134
 location	Kumanovo	42.1359459	21.7177635
 location	Kumtich	50.8188455	4.8874012
 location	Kunming	25.013024	102.866742
+location	Kupang	-10.1632209	123.6017755
 location	Kurnool	15.8309251	78.0425373
 location	Kutná Hora	49.9486561	15.2681123
 location	Kuurne	50.860060	3.270708
@@ -1449,6 +1457,7 @@ location	Litvinov	50.6009532	13.6110485
 location	Livadeia	38.3312202	23.2555681
 location	Live Oak County	28.2678746	-98.101923
 location	Liverpool	53.407154	-2.991665
+location	Livingston County	42.80453775	-77.77145715002706
 location	Livingston Parish	30.463159	-90.743070
 location	Llano County	30.6663312	-98.6970374
 location	Llanos de Santa Lucia	9.84811255	-83.88122915008321
@@ -1482,6 +1491,7 @@ location	Loupoigne	50.5976913	4.4424218
 location	Lousame	42.7655657	-8.8489519
 location	Lovendegem	51.100478	3.624891
 location	Lubbeek	50.880093	4.821901
+location	Lubbock County	33.5831241	-101.818598
 location	Lucknow	26.8381	80.9346001
 location	Luingne	50.737783	3.234058
 location	Lummen	50.995516	5.181081
@@ -2474,6 +2484,7 @@ location	St. Louis MO	38.6270	-90.1994
 location	Stambruges	50.5086579	3.7192008
 location	Stanislaus County	37.5500871	-121.0501425
 location	Starnberg	48.0000	11.3390
+location	Starr County	26.5630409	-98.7479897
 location	Staten Island	40.592429	-74.149614
 location	Stavropol	45.0433245	41.9690934
 location	Stearns County	45.535326	-94.6139422
@@ -2608,6 +2619,7 @@ location	Tokyo	35.683441	139.766131
 location	Tolemaida	4.2511484	-74.6449836
 location	Tolland County	41.818446	-72.3562252
 location	Tolosa	43.1386336	-2.0719964
+location	Tom Green County	31.3782559	-100.4133839
 location	Tomah	43.988774	-90.502952
 location	Tomar do Geru	-11.3752475	-37.8413399
 location	Tompkins County	42.4422105	-76.49962462430045
@@ -2639,6 +2651,7 @@ location	Tres Passos	-27.4556106	-53.9294399
 location	Tres Rios	9.9080401	-83.9872
 location	Tres Rios BR	-22.1167884	-43.2087226
 location	Tres Rios CR	9.9080401	-83.9872
+location	Treviso	45.806691349999994	12.206315763116372
 location	Trobajo del Camino	42.5951876	-5.6073495
 location	Trujillo	4.212089	-76.319157
 location	Trumbull	41.247238	-73.194570
@@ -2736,6 +2749,7 @@ location	Verona WI	42.987161	-89.535380
 location	Verrières-le-Buisson	48.7467819	2.2653844
 location	Viana	42.5154725	-2.3713437
 location	Vic	41.9302021	2.2545943
+location	Vicenza	45.63485905	11.40635425660249
 location	Victoria County	28.8026443	-96.9766308
 location	Victoriano Lorenzo	9.032232950000001	-79.50808452571513
 location	Vienne	48.190041	16.382686
@@ -2856,6 +2870,7 @@ location	Winnebago County WI	44.0697014	-88.6516527
 location	Winneshiek County	43.288933	-91.839928
 location	Winona County	43.993965	-91.799960
 location	Wisconsin	44.535145	-89.527762
+location	Wise County	33.2139213	-97.6563925
 location	Woippy	49.154613	6.148404
 location	Woluwe-Saint-Lambert	50.8430448	4.4256732
 location	Woluwe-Saint-Pierre	50.829410	4.433356
@@ -2941,6 +2956,7 @@ division	Abuja	9.0643305	7.4892974
 division	Aceh	4.3685491	97.0253024
 division	Acre	-8.862769	-70.079844
 division	Adıyaman	37.900714	38.309879
+division	Adrar	26.4888155	-1.3582442169365363
 division	Adygea	44.6939006	40.1520421
 division	Africa	4.070194	21.824559
 division	Afyon	38.752653	30.553661
@@ -2956,6 +2972,7 @@ division	Alagoas	-9.74863	-36.417626
 division	Alajuela	10.020137	-84.210339
 division	Alaska	65.797699	-152.214189
 division	Alberta	55.001251	-115.002136
+division	Alger	36.7753606	3.0601882
 division	Algeria	28.0000272	2.9999825
 division	Altai Krai	52.6932243	82.6931424
 division	Alytaus Apskritis	54.22953895	24.07911990913408
@@ -3064,17 +3081,20 @@ division	Bioko Norte	3.6484594	8.7851155
 division	Bioko Sur	3.4245254	8.6646092
 division	Bizerte	37.280658	9.863049
 division	Blagoevgrad	42.0209	23.0943
+division	Blekinge	56.12401225	15.40220875187768
 division	Blida	36.48329	2.808751
 division	Bocas del Toro	9.3040914	-82.12843877974339
 division	Bogota	4.629337	-74.095588
 division	Bolivar	8.753508	-74.367735
 division	Bolivar EC	-1.574489	-79.103194
+division	Bordj-Bou-Arreridj	36.095506	4.661100173631754
 division	Borno State	12.1875392	13.3080034
 division	Borsod-Abaúj-Zemplén County	48.2939	20.6934
 division	Bosnia and Herzegovina	43.9159	17.6791
 division	Bouafle	6.9926792	-5.7444227
 division	Bouaké	7.6906058	-5.0298408
 division	Boufarik	36.57709	2.914137
+division	Bouira	36.2316481	3.9082579191011253
 division	Bourgogne	47.0525	4.3837
 division	Bourgogne-France-Comté	47.2805	4.9994
 division	Boyaca	5.454426	-73.362218
@@ -3242,6 +3262,7 @@ division	Dupnitza	42.2613	23.1125
 division	Durango	24.019546	-104.658028
 division	East Java	-7.6977397	112.4914199
 division	East Kalimantan	0.241323	116.558975
+division	East Nusa Tenggara	-8.5656787	120.6978581
 division	Eastern Cape	-32.344458	26.497832
 division	Eastern Province	23.3036077	50.1258804
 division	Eastern Region	41.836891800000004	22.52384962142576
@@ -3252,6 +3273,7 @@ division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
 division	Ekiti State	7.736891	5.2738326
 division	El Oro	-3.498709232958782	-79.848108566191
+division	El Oued	33.215441	7.155321399098325
 division	Elad	32.0495	34.9507
 division	Elkana	32.1106	35.0321
 division	Emilia-Romagna	44.641437	11.119072
@@ -3530,6 +3552,7 @@ division	La Libertad	-8.0	-78.5
 division	La Louvière	50.469989	4.158129
 division	La Rioja	42.2871	-2.5396
 division	Ladakh	34.152588	77.577049
+division	Laghouat	33.750440499999996	2.6431093610595155
 division	Lagos	6.54252	3.286661
 division	Laken	50.8778	4.3481
 division	Lakes	-38.5882085	175.9492056
@@ -3784,6 +3807,7 @@ division	Oslo	59.903687	10.7497
 division	Ostergotland	58.402269	15.748012
 division	Osun State	7.592215	4.505599
 division	Otago	-45.412319	169.855268
+division	Ouargla	30.9980145	6.766453639443059
 division	Ouarzazate	30.9335	6.9370
 division	Oudenaarde	50.857635	3.629018
 division	Oueme	6.625372	2.532611
@@ -3953,6 +3977,7 @@ division	Senegal	14.5	-14.25
 division	Seoul	37.548278	126.990916
 division	Serbia	43.745902	20.848918
 division	Sergipe	-10.5741	-37.3857
+division	Sétif	36.1892751	5.403493
 division	Setúbal	38.5260	-8.8909
 division	Sfax	34.72312735	10.33587885553419
 division	Shandong	36.298013	118.193884
@@ -4073,8 +4098,10 @@ division	Tienen	50.8106	4.9362
 division	Tilburg	51.567213	5.047957
 division	Timbuktu	16.7719091	-3.0087272
 division	Timor-Leste	-8.809397	125.909527
+division	Tipaza	36.52727415	2.16836872941747
 division	Tipperary	52.4738	-8.1619
 division	Tirat Zvi	32.4225	35.5283
+division	Tizi-Ouzou	36.6816175	4.237186047040007
 division	Tlaxcala	19.416667	-98.166667
 division	Toamasina	-18.1553985	49.4098352
 division	Togo	8.886250	1.069709
