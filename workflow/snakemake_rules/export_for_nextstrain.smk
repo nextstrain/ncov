@@ -29,29 +29,20 @@ rule all_regions:
         auspice_json = expand("auspice/ncov_{build_name}.json", build_name=BUILD_NAMES),
         tip_frequencies_json = expand("auspice/ncov_{build_name}_tip-frequencies.json", build_name=BUILD_NAMES),
         dated_auspice_json = expand("auspice/ncov_{build_name}_{date}.json", build_name=BUILD_NAMES, date=get_todays_date()),
-        dated_tip_frequencies_json = expand("auspice/ncov_{build_name}_{date}_tip-frequencies.json", build_name=BUILD_NAMES, date=get_todays_date()),
-        auspice_json_gisaid = expand("auspice/ncov_{build_name}_gisaid.json", build_name=BUILD_NAMES),
-        auspice_json_zh = expand("auspice/ncov_{build_name}_zh.json", build_name=BUILD_NAMES)
+        dated_tip_frequencies_json = expand("auspice/ncov_{build_name}_{date}_tip-frequencies.json", build_name=BUILD_NAMES, date=get_todays_date())
 
-# This cleans out files to allow re-run of 'normal' run (not ZH or GISAID)
-# with `export` to check lat-longs & orderings
-# However, *removes* the ZH & GISAID files so that when doing final run after all
-# errors are cleared, these builds will also be rebuilt!
+# This cleans out files to allow re-run of 'normal' run with `export`
+# to check lat-longs & orderings
 rule clean_export_regions:
     message: "Removing export files: {input}"
     params:
         *expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
-        *expand("results/{build_name}/ncov_gisaid_with_accessions.json", build_name=BUILD_NAMES),
-        *expand("results/{build_name}/ncov_zh_with_accessions.json", build_name=BUILD_NAMES),
-        *expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
-        "auspice/ncov*_gisaid.json",
-        "auspice/ncov*_zh.json"
+        *expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES)
     conda: config["conda_environment"]
     shell:
         "rm -f {params}"
 
 # Allows 'normal' run of export to be forced to correct lat-long & ordering
-# Just runs this, not ZH & GISAID, to speed up & reduce errors.
 # Runs an additional script to give a list of locations that need colors and/or lat-longs
 rule export_all_regions:
     input:
@@ -75,154 +66,6 @@ rule all_mutation_frequencies:
 #
 # Rules for custom auspice exports for the Nextstrain team.
 #
-
-rule export_gisaid:
-    message: "Exporting GISAID-related data files for for auspice"
-    input:
-        tree = rules.refine.output.tree,
-        metadata = _get_metadata_by_wildcards,
-        branch_lengths = rules.refine.output.node_data,
-        nt_muts = rules.ancestral.output.node_data,
-        aa_muts = rules.translate.output.node_data,
-        traits = rules.traits.output.node_data,
-        auspice_config = config["files"]["auspice_config_gisaid"],
-        colors = rules.colors.output.colors,
-        lat_longs = config["files"]["lat_longs"],
-        description = config["files"]["description"],
-        clades = rules.clades.output.clade_data,
-        recency = rules.recency.output
-    output:
-        auspice_json = "results/{build_name}/ncov_gisaid_with_accessions.json"
-    log:
-        "logs/export_gisaid_{build_name}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur export v2 \
-            --tree {input.tree} \
-            --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
-            --auspice-config {input.auspice_config} \
-            --colors {input.colors} \
-            --lat-longs {input.lat_longs} \
-            --description {input.description} \
-            --output {output.auspice_json} 2>&1 | tee {log}
-        """
-
-rule export_zh:
-    message: "Exporting ZH-related data files for for auspice"
-    input:
-        tree = rules.refine.output.tree,
-        metadata = _get_metadata_by_wildcards,
-        branch_lengths = rules.refine.output.node_data,
-        nt_muts = rules.ancestral.output.node_data,
-        aa_muts = rules.translate.output.node_data,
-        traits = rules.traits.output.node_data,
-        auspice_config = config["files"]["auspice_config_zh"],
-        colors = rules.colors.output.colors,
-        lat_longs = config["files"]["lat_longs"],
-        description = config["files"]["description_zh"],
-        clades = rules.clades.output.clade_data,
-        recency = rules.recency.output
-    output:
-        auspice_json = "results/{build_name}/ncov_zh_with_accessions.json"
-    log:
-        "logs/export_zh_{build_name}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur export v2 \
-            --tree {input.tree} \
-            --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} {input.traits} {input.clades} {input.recency} \
-            --auspice-config {input.auspice_config} \
-            --colors {input.colors} \
-            --lat-longs {input.lat_longs} \
-            --description {input.description} \
-            --output {output.auspice_json} 2>&1 | tee {log}
-        """
-
-rule incorporate_travel_history_gisaid:
-    message: "Adjusting GISAID auspice JSON to take into account travel history"
-    input:
-        auspice_json = rules.export_gisaid.output.auspice_json,
-        colors = rules.colors.output.colors,
-        lat_longs = config["files"]["lat_longs"]
-    params:
-        sampling = _get_sampling_trait_for_wildcards,
-        exposure = _get_exposure_trait_for_wildcards
-    output:
-        auspice_json = "results/{build_name}/ncov_gisaid_with_accessions_and_travel_branches.json"
-    log:
-        "logs/incorporate_travel_history_gisaid_{build_name}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 ./scripts/modify-tree-according-to-exposure.py \
-            --input {input.auspice_json} \
-            --colors {input.colors} \
-            --lat-longs {input.lat_longs} \
-            --sampling {params.sampling} \
-            --exposure {params.exposure} \
-            --output {output.auspice_json} 2>&1 | tee {log}
-        """
-
-rule incorporate_travel_history_zh:
-    message: "Adjusting ZH auspice JSON to take into account travel history"
-    input:
-        auspice_json = rules.export_zh.output.auspice_json,
-        colors = rules.colors.output.colors,
-        lat_longs = config["files"]["lat_longs"]
-    params:
-        sampling = _get_sampling_trait_for_wildcards,
-        exposure = _get_exposure_trait_for_wildcards
-    output:
-        auspice_json = "results/{build_name}/ncov_zh_with_accessions_and_travel_branches.json"
-    log:
-        "logs/incorporate_travel_history_zh_{build_name}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 ./scripts/modify-tree-according-to-exposure.py \
-            --input {input.auspice_json} \
-            --colors {input.colors} \
-            --lat-longs {input.lat_longs} \
-            --sampling {params.sampling} \
-            --exposure {params.exposure} \
-            --output {output.auspice_json} 2>&1 | tee {log}
-        """
-
-rule fix_colorings_gisaid:
-    message: "Remove extraneous colorings for the GISAID build"
-    input:
-        auspice_json = rules.incorporate_travel_history_gisaid.output.auspice_json
-    output:
-        auspice_json = "auspice/ncov_{build_name}_gisaid.json"
-    log:
-        "logs/fix_colorings_gisaid_{build_name}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/fix-colorings.py \
-            --input {input.auspice_json} \
-            --output {output.auspice_json} 2>&1 | tee {log}
-        """
-
-rule fix_colorings_zh:
-    message: "Remove extraneous colorings for the Chinese language build"
-    input:
-        auspice_json = rules.incorporate_travel_history_zh.output.auspice_json
-    output:
-        auspice_json = "auspice/ncov_{build_name}_zh.json"
-    log:
-        "logs/fix_colorings_zh_{build_name}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/fix-colorings.py \
-            --input {input.auspice_json} \
-            --output {output.auspice_json} 2>&1 | tee {log}
-        """
 
 rule dated_json:
     message: "Copying dated Auspice JSON"
