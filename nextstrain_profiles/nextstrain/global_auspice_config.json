@@ -106,11 +106,12 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "region",
+    "color_by": "clade_membership",
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,
-    "branch_label": "clade"
+    "branch_label": "clade",
+    "transmission_lines": false    
   },
   "filters": [
     "recency",
