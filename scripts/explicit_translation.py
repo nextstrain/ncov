@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     tt = TreeAnc(tree=T, aln=MultipleSeqAlignment(seqs), alphabet='aa')
 
-    tt.infer_ancestral_sequences()
+    tt.infer_ancestral_sequences(reconstruct_tip_states=True)
 
     node_data = {}
 

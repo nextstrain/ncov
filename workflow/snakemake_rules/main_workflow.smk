@@ -618,7 +618,7 @@ rule translate:
             --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
-rule aa_mutation_explicit:
+rule aa_muts_explicit:
     message: "Translating amino acid sequences"
     input:
         tree = rules.refine.output.tree,
