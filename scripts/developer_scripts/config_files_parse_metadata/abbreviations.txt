@@ -67,3 +67,6 @@ Sverdlovsk	(Sverdlovsk)
 Rio de Janeiro	BR
 Novgorod	(Novgorod)
 Pskov Oblast	(Pskov)
+Biobío	CL
+Puntarenas	CR
+Rio Grande do Sul	BR
