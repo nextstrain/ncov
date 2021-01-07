@@ -118,12 +118,13 @@ rule align:
         reference = config["files"]["alignment_reference"],
         gene_map = config["files"]["gene_map"]
     output:
-        alignment = "results/aligned.fasta",
-        translation = "results/nextalign_out/sequences.gene.S.fasta"
+        alignment = "results/nextalign/sequences.aligned.fasta",
+        translation = "results/nextalign/sequences.gene.S.fasta"
     params:
-        outdir = "results/nextalign_out",
+        outdir = "results/nextalign",
         bin = config["nextalign_bin"],
-        genes = 'S'
+        genes = 'S,N',
+	basename = "sequences"
     log:
         "logs/align.txt"
     benchmark:
@@ -138,13 +139,13 @@ rule align:
             --genes {params.genes} \
             --reference {input.reference} \
             --sequences {input.sequences} \
-            --output-fasta {output} --output-dir {params.outdir} 2> {log}
+            --output-basename {params.basename} --output-dir {params.outdir} 2> {log}
         """
 
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
-        alignment = "results/aligned.fasta",
+        alignment = "results/nextalign/sequences.aligned.fasta",
         metadata = config["metadata"],
         reference = config["files"]["reference"]
     output:
@@ -194,7 +195,7 @@ rule mask:
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = "results/aligned.fasta"
+        alignment = "results/nextalign/sequences.aligned.fasta"
     output:
         alignment = "results/masked.fasta"
     log:
