@@ -1228,3 +1228,9 @@ Luxembourg/LNS4701723/2020
 # Duplicates as noted in additional host info
 Brazil/SP-L67-CD1714/2020
 Brazil/SP-L67-CD1713/2020
+
+# mutations suggest sequencing error; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1609979566047200
+Indonesia/SN-NIHRD-PME1701/2020
+Israel/CVL-n25947/2020
+Thailand/Bangkok-Sha06/2020
+USA/WA-UW-32753/2020
