@@ -91,6 +91,8 @@ rule clean:
     shell:
         "rm -rfv {params}"
 
+config["nextalign_bin"] = "./nextalign_cli"
+
 # Include small, shared functions that help build inputs and parameters.
 include: "workflow/snakemake_rules/common.smk"
 
@@ -107,3 +109,4 @@ if "localrules" in config:
 if "custom_rules" in config:
     for rule_file in config["custom_rules"]:
         include: rule_file
+
