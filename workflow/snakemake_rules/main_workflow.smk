@@ -118,10 +118,12 @@ rule align:
         reference = config["files"]["alignment_reference"],
         gene_map = config["files"]["gene_map"]
     output:
-        alignment = "results/aligned.fasta"
+        alignment = "results/aligned.fasta",
+        translation = "results/nextalign_out/sequences.gene.S.fasta"
     params:
         outdir = "results/nextalign_out",
-        bin = config["nextalign_bin"]
+        bin = config["nextalign_bin"],
+        genes = 'S'
     log:
         "logs/align.txt"
     benchmark:
@@ -133,6 +135,7 @@ rule align:
         {params.bin} \
             --jobs={threads} \
             --genemap {input.gene_map} \
+            --genes {params.genes} \
             --reference {input.reference} \
             --sequences {input.sequences} \
             --output-fasta {output} --output-dir {params.outdir} 2> {log}
@@ -615,6 +618,29 @@ rule translate:
             --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
+rule aa_mutation_explicit:
+    message: "Translating amino acid sequences"
+    input:
+        tree = rules.refine.output.tree,
+        translation = rules.align.output.translation
+    output:
+        node_data = "results/{build_name}/aa_muts_explicit.json"
+    params:
+        gene = 'S'
+    log:
+        "logs/aamuts_{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/explicit_translation.py \
+            --tree {input.tree} \
+            --translation {input.translation:q} \
+            --gene {params.gene} \
+            --output {output.node_data} 2>&1 | tee {log}
+
+        """
+
+
 rule traits:
     message:
         """
@@ -862,7 +888,8 @@ def _get_node_data_by_wildcards(wildcards):
         rules.rename_subclades.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
-        rules.traits.output.node_data
+        rules.traits.output.node_data,
+        rules.aa_muts_explicit.output.node_data
     ]
 
     # Convert input files from wildcard strings to real file names.
