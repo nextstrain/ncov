@@ -342,6 +342,7 @@ location	Kathmandu
 
 ### Bangladesh
 # Chattogram
+location	Cox's Bazar
 location	Bandarban
 location	Chittagong
 location	Noakhali
@@ -349,6 +350,7 @@ location	Lakshmipur
 location	Feni
 location	Khagrachari
 location	Chandpur
+location	Comilla
 location	Brahmanbaria
 
 # Khulna
@@ -360,7 +362,9 @@ location	Magura
 location	Jhenaidah
 
 # Dhaka
+location	Faridpur
 location	Tangail
+location	Dhamrai
 location	Mohammadpur
 location	Mirpur
 location	Agargaon
@@ -597,6 +601,10 @@ location	Velingara
 ### Côte d'Ivoire
 # Bouaké
 location	Brobo
+
+### Morocco
+# Rabat
+location	Ain Aouda
 
 ### Burkina Faso
 # Cascades
@@ -2562,11 +2570,11 @@ location	Sosnogorsk
 location	Orenburg
 location	Orsk
 
-# Republic of Bashkortostan
-location	Ufa
-
 # Perm Krai
 location	Perm
+
+# Bashkortostan
+location	Ufa
 
 # Chelyabinsk
 location	Ozyorsk
@@ -2792,6 +2800,7 @@ location	Garibaldi
 location	Carlos Barbosa
 location	Barao
 location	Tupandi
+location	Sao Sebastiao do Cai
 location	Bom Principio
 location	Farroupilha
 location	Alto Feliz
@@ -2833,9 +2842,12 @@ location	Santo Anastacio
 location	Emilianopolis
 location	Presidente Prudente
 location	Taciba
+location	Adamantina
 location	Taruma
 location	Araçatuba
 location	Assis
+location	Candido Mota
+location	Herculandia
 location	Birigui
 location	Fernandopolis
 location	Marilia
@@ -4018,7 +4030,6 @@ division	Dolakha
 division	Asia
 
 ### Bangladesh
-division	Cox'S Bazar
 division	Chattogram
 division	Barishal
 division	Khulna
@@ -4105,10 +4116,12 @@ division	Hong Kong
 ### Indonesia
 division	Aceh
 division	North Sumatra
+division	Lampung
 division	Banten
 division	Kepulauan Bangka Belitung
 division	Jakarta
 division	West Java
+division	West Kalimantan
 division	Yogyakarta
 division	Central Java
 division	East Java
@@ -4117,9 +4130,11 @@ division	Indonesia
 division	Bali
 division	South Kalimantan
 division	East Kalimantan
+division	West Nusa Tenggara
 division	South Sulawesi
 division	East Nusa Tenggara
 division	North Sulawesi
+division	West Papua
 division	Papua
 
 ### Brunei
@@ -4646,7 +4661,6 @@ division	Germany
 division	Thuringia
 division	Bavaria
 division	Saxony-Anhalt
-division	Mecklenburg-Vorpommern
 division	Brandenburg
 division	Western Pomerania
 division	Berlin
@@ -5013,7 +5027,6 @@ division	Samara
 division	Tatarstan
 division	Komi
 division	Orenburg
-division	Republic of Bashkortostan
 division	Perm Krai
 division	Bashkortostan
 division	Chelyabinsk

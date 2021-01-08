@@ -8,6 +8,7 @@ location	Abbotsford	49.0521162	-122.329479
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
 location	Adajan	21.2651204	72.84991282218647
+location	Adamantina	-21.6866517	-51.0762975
 location	Adams County WA	46.985877	-118.480355
 location	Adams County WI	43.973540	-89.755486
 location	Adilabad	19.5	78.5
@@ -20,6 +21,7 @@ location	Aguas livres	38.7077507	-9.1365919
 location	Ahmedabad	23.024605	72.570805
 location	Ahmednagar	19.162772500000003	74.85802430085195
 location	Aichi	35.067543	137.334061
+location	Ain Aouda	33.803077	-6.79413
 location	Aiseau	50.404827	4.576191
 location	Aisemont	50.404382	4.651832
 location	Akhtubinsk	48.2877616	46.1744879
@@ -464,6 +466,7 @@ location	Campo Real	40.3390	-3.3833
 location	Campos	39.4313098	3.0197912
 location	Camprovin	42.3544752	-2.7220509
 location	Can Pastilla	39.5371206	2.7164955
+location	Candido Mota	-22.7434964	-50.38924
 location	Canet d'en Berenguer	39.6806	-0.2192
 location	Cañete	-12.8209798	-76.3594255
 location	Canoas BR	-29.9216045	-51.1799525
@@ -607,6 +610,7 @@ location	Columbus WI	43.337556	-89.023979
 location	Colusa County	39.1465578	-122.2209563
 location	Comal County	29.7979704	-98.2690787
 location	Comanche County	31.9130171	-98.527388
+location	Comilla	23.4610615	91.1808748
 location	Comillas	43.3855344	-4.2901505
 location	Comines	50.749249	3.221643
 location	Comines-Warneton	50.7683055	3.0001175
@@ -643,6 +647,7 @@ location	Couthuin	50.5315	5.1225
 location	Couvin	50.035063	4.485139
 location	Cova da Moura	38.9114419	-9.428262
 location	Cowlitz County	46.186419	-122.679487
+location	Cox's Bazar	21.16587175	92.03996424949702
 location	Coyhaique	-45.5711804	-72.0684863
 location	Craon	46.9948441	2.6823941
 location	Craponne	45.743476	4.7231057
@@ -707,6 +712,7 @@ location	DeSoto Parish	32.071362	-93.725530
 location	Dessel	51.2395713	5.113243
 location	Deurne	51.220173	4.458167
 location	Dhaka	23.810651	90.4126466
+location	Dhamrai	23.920162	90.2108702
 location	Dhandhuka	22.3816365	71.9791414
 location	Dhanera	24.5064	72.0258
 location	Dhansura	23.3498	73.2087
@@ -834,6 +840,7 @@ location	Fairfield County CT	41.2943069	-73.37486
 location	Fairfield County SC	34.4091797	-81.1131228
 location	Fameck	49.3043497	6.1041352
 location	Faridabad	28.402837	77.3085626
+location	Faridpur	23.6040182	89.8415542
 location	Faroe Islands	62.0448724	-7.0322972
 location	Farroupilha	-29.22647	-51.3468188
 location	Farrukhabad	27.43719385	79.48912946503123
@@ -1058,6 +1065,7 @@ location	Henri-Chapelle	50.666254	5.938463
 location	Hensies	50.435594	3.711566
 location	Heppen	51.108225	5.228402
 location	Herce	42.2142703	-2.1654832
+location	Herculandia	-22.004508	-50.3862746
 location	Heredia	9.9983493	-84.1167945
 location	Herent	50.912473399999996	4.6517147625934285
 location	Herentals	51.1855307	4.83462866367042
@@ -2394,6 +2402,7 @@ location	São Leopoldo	-29.793045	-51.1111978
 location	Sao Lourenco Da Mata	-7.9959607	-35.039335
 location	São Paulo	-23.551096	-46.634874
 location	Sao Sebastiao	-23.8027866	-45.4070527
+location	Sao Sebastiao do Cai	-29.5911777	-51.3778772
 location	Sao Vicente	-23.9603686	-46.3847024
 location	Sapiranga	-29.6392382	-51.0068586
 location	Sarah Baartman	-32.951175	24.655121593091742
@@ -3613,6 +3622,7 @@ division	Laken	50.8778	4.3481
 division	Lakes	-38.5882085	175.9492056
 division	Lambayeque	-6.707066	-79.907239
 division	Lamentin	16.2703423	-61.6303025
+division	Lampung	-4.8555039	105.0272986
 division	Landen	39.3120	-84.2830
 division	Lao Cai	22.3381	104.1487
 division	Laois	52.998490450000006	-7.377700166944578
@@ -4280,6 +4290,9 @@ division	West Bank	32.0254688	35.2888075
 division	West Bengal	23.361461	87.724077
 division	West Coast Region	13.2229	16.582
 division	West Java	-6.8891904	107.6404716
+division	West Kalimantan	-1.2003376000000001	109.93193384532759
+division	West Nusa Tenggara	-8.7892855	117.146169
+division	West Papua	-1.3842356	132.902528
 division	West Virginia	38.4758406	-80.8408415
 division	Western Australia	-27.055937	122.236663
 division	Western Cape Province	-33.493715	20.219852
