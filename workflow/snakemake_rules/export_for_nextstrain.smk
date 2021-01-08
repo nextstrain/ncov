@@ -127,7 +127,7 @@ rule upload:
     message: "Uploading intermediate files to {params.s3_bucket}"
     input:
         "results/masked.fasta",
-        "results/aligned.fasta",
+        "results/nextalign/sequences.aligned.fasta",
         "results/filtered.fasta",
         "results/sequence-diagnostics.tsv",
         "results/flagged-sequences.tsv",
