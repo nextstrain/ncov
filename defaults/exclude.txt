@@ -1234,3 +1234,10 @@ Indonesia/SN-NIHRD-PME1701/2020
 Israel/CVL-n25947/2020
 Thailand/Bangkok-Sha06/2020
 USA/WA-UW-32753/2020
+
+# see discussion on slack https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1610149752067200
+SriLanka/BIN33/2020
+Yunnan/KMS1/2020
+Lebanon/S11_765/2020
+India/PB-IMT-P151/2020
+Israel/CVL5757/2020
