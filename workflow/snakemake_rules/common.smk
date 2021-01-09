@@ -1,5 +1,30 @@
 """Small, shared functions used to generate inputs and parameters.
 """
+import datetime
+
+
+def numeric_date(dt=None):
+    """
+    Convert datetime object to the numeric date.
+    The numeric date format is YYYY.F, where F is the fraction of the year passed
+    Parameters
+    ----------
+     dt:  datetime.datetime, None
+        date of to be converted. if None, assume today
+    """
+    from calendar import isleap
+
+    if dt is None:
+        dt = datetime.datetime.now()
+
+    days_in_year = 366 if isleap(dt.year) else 365
+    try:
+        res = dt.year + (dt.timetuple().tm_yday-0.5) / days_in_year
+    except:
+        res = None
+
+    return res
+
 def _get_subsampling_scheme_by_build_name(build_name):
     return config["builds"][build_name].get("subsampling_scheme", build_name)
 
@@ -44,3 +69,9 @@ def _get_sampling_bias_correction_for_wildcards(wildcards):
         return config["traits"][wildcards.build_name]["sampling_bias_correction"]
     else:
         return config["traits"]["default"]["sampling_bias_correction"]
+
+def _get_max_date_for_frequencies(wildcards):
+    if "frequencies" in config and "max_date" in config["frequencies"]:
+        return config["frequencies"]["max_date"]
+    else:
+        return numeric_date(date.today())
