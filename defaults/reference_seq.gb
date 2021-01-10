@@ -24,7 +24,7 @@ REFERENCE   2  (bases 1 to 29903)
   JOURNAL   Submitted (05-JAN-2020) Shanghai Public Health Clinical Center &
             School of Public Health, Fudan University, Shanghai, China
 COMMENT     On Jan 17, 2020 this sequence version replaced MN908947.2.
-            
+
             ##Assembly-Data-START##
             Assembly Method       :: Megahit v. V1.1.3
             Sequencing Technology :: Illumina
@@ -124,21 +124,7 @@ FEATURES             Location/Qualifiers
                      /gene="ORF9b"
                      /codon_start=1
                      /product="Protein 9b"
-     gene            29558..29674
-                     /gene="ORF10"
-     CDS             29558..29674
-                     /gene="ORF10"
-                     /codon_start=1
-                     /product="ORF10 protein"
-                     /protein_id="QHI42199.1"
-     gene            28734..28955
-                     /gene="ORF14"
-     CDS             28734..28955
-                     /gene="ORF14"
-                     /codon_start=1
-                     /product="ORF14 protein"
-     3'UTR           29675..29903
-ORIGIN      
+ORIGIN
         1 attaaaggtt tataccttcc caggtaacaa accaaccaac tttcgatctc ttgtagatct
        61 gttctctaaa cgaactttaa aatctgtgtg gctgtcactc ggctgcatgc ttagtgcact
       121 cacgcagtat aattaataac taattactgt cgttgacagg acacgagtaa ctcgtctatc
