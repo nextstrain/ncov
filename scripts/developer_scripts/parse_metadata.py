@@ -50,18 +50,28 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
         if path_file_name == path_to_config_files+"international_exceptions.txt":
             content = {'location': {}, 'division': {}}
         for line in file_content[1:]:
+            if line == "\n":
+                continue
             l = line.strip().split("\t")
             if line.endswith("\t\n"):
                 l = [l[0], l[1], ""] #allow empty assignment of hierarchy (e.g. set location to blank)
-            if l[0] in content:
-                if l[1] in content[l[0]]:
-                    print("Attention, duplicate found while reading " + file_name + ": " + l[1] + " -> " + " ".join(l[2:]) + ", " + " ".join(content[l[0]][l[1]]))
-                content[l[0]][l[1]] = l[2]
-            else:
-                content[l[0]] = {}
-                content[l[0]][l[1]] = l[2]
+            entry = l[2]
             if len(l) == 4:
-                content[l[0]][l[1]] = (l[2],l[3])
+                entry = (l[2],l[3])
+            if l[0] not in content:
+                content[l[0]] = {}
+            if l[1] not in content[l[0]]: # allow duplicates (e.g. multiple "San Rafael" in different divisions)
+                content[l[0]][l[1]] = []
+            else: #check whether already existing variant has hierarchical ordering or not
+                conflict = False
+                for c in content[l[0]][l[1]]:
+                    if type(c) is not tuple:
+                        print("Warning: Variant " + str(entry) + " can not be applied due to the presence of another instance of this name in variants.txt without hierarchical ordering.")
+                        conflict = True
+                if  conflict:
+                    continue
+            content[l[0]][l[1]].append(entry)
+
         return content
 
 
@@ -207,14 +217,14 @@ def pre_sort_lat_longs(lat_longs):
         if type == "country":
             lat_longs_sorted.append("\n")
             lat_longs_sorted += regions_list
-        lat_longs_sorted.append("\n\n\n")
+        lat_longs_sorted.append("\n")
 
     return lat_longs_sorted
 
 
 #Function to support supervised addition of new entries into lat_longs. The user must review every new entry and approve it to be written into the lat_longs file. Ground truth lat_longs is not overwritten, but a copy is made in the developer_scripts folder.
 def auto_add_lat_longs(new_lat_longs):
-    
+
     with open("defaults/lat_longs.tsv") as f:
         lat_longs = f.readlines()
     lat_longs = pre_sort_lat_longs(lat_longs)
@@ -293,7 +303,7 @@ def read_metadata(metadata):
                 division = location
                 location = ""
     
-        countries_to_division = {"Hunan": "China", "Gibraltar": "United Kingdom", "Faroe Islands": "Denmark", "St Eustatius": "Netherlands"}
+        countries_to_division = {"Hunan": "China", "Gibraltar": "United Kingdom", "Faroe Islands": "Denmark", "St Eustatius": "Netherlands", "Crimea": "Ukraine"}
     
         if country in countries_to_division:
             additions_to_annotation.append(strain + "\t" + id + "\tcountry\t"+ countries_to_division[country] +" #previously " + country)
@@ -305,6 +315,11 @@ def read_metadata(metadata):
             location = division
             division = country
             country = countries_to_division[country]
+
+
+        host = l[14]
+        if host == "Neovison vison" or host ==  "Mustela lutreola":
+            additions_to_annotation.append(strain + "\t" + id + "\thost\tMink # previously " + host)
             
 
         if region not in data:
@@ -631,8 +646,9 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                             continue
 
                         if division in variants and variants[division] in location_to_arrondissement:
-                            division_to_correct.append((region, country, division, region, country, variants[division])) #first correct to properly spelled division
-                            div_to_loc[variants[division]] = (region, country, location_to_arrondissement[variants[division]]) #then to location
+                            #division_to_correct.append((region, country, division, region, country, variants[division])) #first correct to properly spelled division
+                            #div_to_loc[variants[division]] = (region, country, location_to_arrondissement[variants[division]]) #then to location
+                            location_to_correct.append(((region, country, division, location, region, country, location_to_arrondissement[variants[division]], variants[division])))
                             continue
                         print("Missing division in " + country + " database: " + bold(division))
                         if location != "":
@@ -660,15 +676,19 @@ def manual_adjustments(data):
                         (region_correct, country_correct, division_correct, location_correct) = manual_adjustments[g].split("/")
                         if region2 == "*":
                             region2 = region
+                        if region_correct == "*":
                             region_correct = region
                         if country2 == "*":
                             country2 = country
+                        if country_correct == "*":
                             country_correct = country
                         if division2 == "*":
                             division2 = division
+                        if division_correct == "*":
                             division_correct = division
                         if location2 == "*":
                             location2 = location
+                        if location_correct == "*":
                             location_correct = location
                         if region == region2 and country == country2 and division == division2 and location == location2:
                             seqs_to_correct.append((region, country, division, location, region_correct, country_correct, division_correct, location_correct))
@@ -684,27 +704,24 @@ def manual_adjustments(data):
 def apply_variants(data): #TODO: currently, the file variants.txt doesn't distinguish between location or division - what if we want to correct only one type, not the other?
     variants = read_local_file("variants.txt")
 
-    regions_to_switch = []
-    for region in data:
-        if region in variants['region']:
-            region_correct = variants['region'][region]
-            print("Apply variant (region): " + bold(region) + " -> " + bold(region_correct))
-            regions_to_switch.append((region, region_correct))
-
-    data = correct_data(data, "region", regions_to_switch)
-
     countries_to_switch = []
     for region in data:
         for country in data[region]:
             if country in variants['country']:
-                country_correct = variants['country'][country]
-                if type(variants['country'][country]) is tuple:
-                    if variants['country'][country][1] == "(" + region + ")":
-                        country_correct = variants['country'][country][0]
-                    else:
-                        continue
-                print("Apply variant (country): " + bold(country) + " -> " + bold(country_correct))
-                countries_to_switch.append((region, country, region, country_correct))
+                match_found = False
+                # if the first entry has no specified hierarchy, all other entries of this place name are ignored
+                if type(variants['country'][country][0]) is not tuple:
+                    match_found = True
+                    country_correct = variants['country'][country][0]
+                else:
+                    for country_option in variants['country'][country]:
+                        if country_option[1] == "(" + region + ")":
+                            match_found = True
+                            country_correct = country_option[0]
+                            break
+                if match_found:
+                    print("Apply variant (country): " + bold(country) + " -> " + bold(country_correct))
+                    countries_to_switch.append((region, country, region, country_correct))
 
     data = correct_data(data, "country", countries_to_switch)
 
@@ -713,14 +730,19 @@ def apply_variants(data): #TODO: currently, the file variants.txt doesn't distin
         for country in data[region]:
             for division in data[region][country]:
                 if division in variants['division']:
-                    division_correct = variants['division'][division]
-                    if type(variants['division'][division]) is tuple:
-                        if variants['division'][division][1] == "(" + region + ", " + country + ")":
-                            division_correct = variants['division'][division][0]
-                        else:
-                            continue
-                    print("Apply variant (division): " + bold(division) + " -> " + bold(division_correct))
-                    divisions_to_switch.append((region, country, division, region, country, division_correct))
+                    match_found = False
+                    if type(variants['division'][division][0]) is not tuple:
+                        match_found = True
+                        division_correct = variants['division'][division][0]
+                    else:
+                        for division_option in variants['division'][division]:
+                            if division_option[1] == "(" + region + ", " + country + ")":
+                                match_found = True
+                                division_correct = division_option[0]
+                                break
+                    if match_found:
+                        print("Apply variant (division): " + bold(division) + " -> " + bold(division_correct))
+                        divisions_to_switch.append((region, country, division, region, country, division_correct))
 
     data = correct_data(data, "division", divisions_to_switch)
 
@@ -730,14 +752,19 @@ def apply_variants(data): #TODO: currently, the file variants.txt doesn't distin
             for division in data[region][country]:
                 for location in data[region][country][division]:
                     if location in variants['location']:
-                        location_correct = variants['location'][location]
-                        if type(variants['location'][location]) is tuple:
-                            if variants['location'][location][1] == "(" + region + ", " + country + ", " + division + ")":
-                                location_correct = variants['location'][location][0]
-                            else:
-                                continue
-                        print("Apply variant (location): " + bold(location) + " -> " + bold(location_correct))
-                        locations_to_switch.append((region, country, division, location, region, country, division, location_correct))
+                        match_found = False
+                        if type(variants['location'][location][0]) is not tuple:
+                            match_found = True
+                            location_correct = variants['location'][location][0]
+                        else:
+                            for location_option in variants['location'][location]:
+                                if location_option[1] == "(" + region + ", " + country + ", " + division + ")":
+                                    match_found = True
+                                    location_correct = location_option[0]
+                                    break
+                        if match_found:
+                            print("Apply variant (location): " + bold(location) + " -> " + bold(location_correct))
+                            locations_to_switch.append((region, country, division, location, region, country, division, location_correct))
 
     data = correct_data(data, "location", locations_to_switch)
 
@@ -769,14 +796,14 @@ def apply_typical_errors(data): #TODO: rename, maybe join with UK as region? als
         for country in data[region]:
             for division in data[region][country]:
                 if division in international_exceptions["division"]:
-                    (region_correct, country_correct) = tuple(international_exceptions["division"][division].split(", "))
+                    (region_correct, country_correct) = tuple(international_exceptions["division"][division][0].split(", "))
                     if region == region_correct and country == country_correct:
                         continue
                     print("division " + division + ": " + region + ", " + country + " => " + region_correct + ", " + country_correct)
                     divisions_to_switch.append((region, country, division, region_correct, country_correct, division))
                 for location in data[region][country][division]:
                     if location in international_exceptions["location"]:
-                        (region_correct, country_correct, division_correct) = tuple(international_exceptions["location"][location].split(", "))
+                        (region_correct, country_correct, division_correct) = tuple(international_exceptions["location"][location][0].split(", "))
                         if region_correct == region and country_correct == country and division_correct == division:
                             continue
                         print("location " + location + ": " + region + ", " + country + ", " + division + " => " + region_correct + ", " + country_correct + ", " + division_correct)
@@ -1328,7 +1355,7 @@ if __name__ == '__main__':
     for line in additions_to_annotation:
         if line in annotations:
             continue
-        print(line)
+        #print(line)
         if "=" not in line:
             annot_lines_to_write.append(line)
         if len(line.split("\t")) == 4:
@@ -1338,5 +1365,5 @@ if __name__ == '__main__':
                 print("Warning: " + line.split("\t")[1] + " already exists in annotations!")
 
     with open(path_to_output_files+"new_annotations.tsv", 'w') as out:
-        out.write("\n".join(annot_lines_to_write))
+        out.write("\n".join(sorted(annot_lines_to_write)))
     print("New annotation additions written out to "+path_to_output_files+"new_annotations.tsv")

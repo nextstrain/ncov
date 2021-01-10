@@ -21,7 +21,7 @@ The nomenclature used by Nextstrain to designate clades for SARS-CoV-2 is driven
 
 #### Definition
 
-We name a new major clade when it either reaches a frequency of 20% globally. When calculating these frequencies, care has to be taken to achieve approximately even sampling of sequences in time and space since sequencing effort varies strongly between countries. A clade name consists of the year it emerged and the next available letter in the alphabet. A new clade should be at least 2 mutations away from its parent major clade.
+We name a new major clade when it reaches a frequency of 20% globally at any time point. When calculating these frequencies, care has to be taken to achieve approximately even sampling of sequences in time and space since sequencing effort varies strongly between countries. A clade name consists of the year it emerged and the next available letter in the alphabet. A new clade should be at least 2 mutations away from its parent major clade.
 
 #### Naming
 
@@ -54,4 +54,4 @@ In addition to assigning clades, this tool will call mutations in your sequences
 You can also use the [simple python script](https://github.com/nextstrain/ncov/blob/master/assign_clades.py) to assign appropriate clades to sequences in a fasta file.
 This script is part of the ‘ncov’ github repository, but does not require running any other part of the pipeline. However ‘augur’ must be installed to run the script. This can be done [a number of different ways](https://nextstrain.org/docs/getting-started/local-installation#install-augur-with-python), but is often most easily done [using ‘pip’](https://nextstrain-augur.readthedocs.io/en/stable/installation/installation.html#using-pip-from-pypi).
 
-Note when running this script you can supply `--sequences` if your sequences require aligning first. If you already have aligned your sequences to the `ncov` repository reference (for example, from running the repository), you can supply `--alignment`. If you supply sequence that are not aligned to the `ncov` reference, you may get bad results!
+Note when running this script you can supply `--sequences` if your sequences require aligning first. If you already have aligned your sequences to the `ncov` repository reference (for example, from running the repository), you can supply `--alignment`. If you supply sequences that are not aligned to the `ncov` reference, you may get bad results!

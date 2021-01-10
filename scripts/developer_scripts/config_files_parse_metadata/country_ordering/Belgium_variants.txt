@@ -151,3 +151,22 @@ Flandre-Orientale	Oost-Vlaanderen
 West Flanders	West-Vlaanderen
 Properinge	Poperinge
 Lo	Lo-Reninge
+Pont-A-Celles	Pont-à-Celles
+Eghezee	Éghezée
+Saint-Giles	Saint-Gilles
+Sint-Gilles	Saint-Gilles
+Overijze	Overijse
+Court-Saint-Etienne	Court-Saint-Étienne
+Oostakker	Gent
+Autre-Eglise	Autre-Église
+Peruwelz	Péruwelz
+Hennuyeres	Hennuyères
+Steekokkerzeel	Steenokkerzeel
+Sint-Joost-Ten-Noode	Saint-Josse-ten-Noode
+Laeken	Laken
+Landen	Landen BE
+S Gravenwezel	's-Gravenwezel
+Heist-op-Den-Berg	Heist-op-den-Berg
+Deuurne	Deurne
+Huldenbergh	Huldenberg
+Tessenderloo	Tessenderlo

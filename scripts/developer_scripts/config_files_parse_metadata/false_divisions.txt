@@ -32,7 +32,6 @@ Valledupar	Cesar
 Villavicencio	Meta
 Cartagena	Bolivar
 Barranquilla	Atlantico
-Armenia	Quindio
 Guediawaye	Dakar
 Livadeia	Central Greece
 Pikine	Dakar
@@ -98,3 +97,99 @@ El Salvador	Atacama
 Freirina	Atacama
 Paipote	Atacama
 Tierra Amarilla	Atacama
+South Coast District	South District
+Netivot	South District
+Kiryat Gat	South District
+Beit Shemesh	Jerusalem District
+Ashdod	South District
+Gedera	Central District
+Yavne	Central District
+Ramla	Central District
+Kfar Habad	Central District
+Bat Yam	Tel Aviv District
+Holon	Tel Aviv District
+Yehud	Central District
+Elad	Central District
+Kiryat Ono	Tel Aviv District
+Gani Tikva	Central District
+Ramat Gan	Tel Aviv District
+Petah Tikva	Central District
+Beni Brak	Tel Aviv District
+Raanana	Central District
+Pardesia	Central District
+Netanya	Central District
+Tirat Zvi	North District
+Haifa	Haifa District
+Tveria	North District
+Hukuk	North District
+Zefat	North District
+Maalot Tarshicha	North District
+Sdema	Central District
+Beerot-Itzhak	Central District
+Ramat-Hasharon	Tel Aviv District
+Ceasaria	Haifa District
+Rishon-Letsion	Central District
+Shoham	Central District
+Tel-Aviv	Tel Aviv District
+Orot	South District
+Modiin	Central District
+Yeruham	South District
+Nir-Tzvi	Central District
+Beer-Sheva	South District
+Chaspin	North District
+Yuvalim	North District
+Lod	Central District
+Rishpon	Central District
+Or-Yehuda	Tel Aviv District
+Kefar Sava	Central District
+Batié	Sud-Ouest
+Gaoua	Sud-Ouest
+Bobo Dioulasso	Hauts-Bassins
+Houndé	Hauts-Bassins
+N'Dorola	Hauts-Bassins
+Orodara	Hauts-Bassins
+Banfora	Cascades
+Dano	Sud-Ouest
+Taoyuan	Taiwan
+Novi Pazar	Raška District
+Krusevac	Rasina District 
+Kraljevo	Raška District
+Uzice	Zlatibor District 
+Cacak	Moravica District
+Cuprija	Pomoravlje District
+Kragujevac	Šumadija District
+Novi Sad	South Bačka District
+Backa Palanka	South Bačka District
+Kikinda	North Banat District
+Pancevo	South Banat District
+Ruma	Srem District
+Srbobran	South Bačka District
+Suubotica	North Bačka District
+Vrbas	South Bačka District
+Vrsac	South Banat District
+Antananarivo	Analamanga
+Shtip	Eastern Region
+Kumanovo	Northeastern Region
+Veles	Vardar
+Ohrid	Southwestern Region
+Bitola	Pelagonia
+Struga	Southwestern Region
+Backa Topola	North Bačka District
+Sremska Mitrovica	Srem District
+Subotica	North Bačka District
+Titel	South Bačka District
+Zrenjanin	Central Banat District
+Qatif	Eastern Province
+Strumica	Southeastern Region
+Brobo	Bouaké
+Tulkarem	West Bank
+Chandpur	Chattogram
+Noakhali	Chattogram
+Bandarban	Chattogram
+Khagrachari	Chattogram
+Feni	Chattogram
+Bella Union	Artigas
+Rio Branco	Cerro Largo
+Chuy	Rocha
+Ain Aouda	Rabat
+Cox'S Bazar	Chattogram

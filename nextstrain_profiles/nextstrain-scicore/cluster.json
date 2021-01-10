@@ -1,32 +1,31 @@
 {
-    "__default__" :
-    {
-        "time" : "00:29:00",
-        "qos": "30min",
-        "n" : 1,
-        "mem": "16G"
-    },
-    "ancestral":
-    {
-        "mem": "32G"
-    },
-    "refine" :
-    {
-        "time" : "05:59:00",
-        "qos": "6hours",
-        "n" : 1,
-        "mem": "32G"
-    },
-    "tree" : {
-        "n": 8,
-        "qos": "6hours",
-        "time" : "05:59:00"
-    },
-    "align": {
-        "n" : 2,
-        "mem": "32G"
-    },
-    "proximity_score":{
-	"mem": "64G"
-    }
+  "__default__": {
+    "time": "00:29:00",
+    "qos": "30min",
+    "n": 1,
+    "mem": "16G"
+  },
+  "ancestral": {
+    "mem": "32G"
+  },
+  "refine": {
+    "time": "05:59:00",
+    "qos": "6hours",
+    "n": 1,
+    "mem": "32G"
+  },
+  "tree": {
+    "n": 8,
+    "qos": "6hours",
+    "time": "05:59:00"
+  },
+  "align": {
+    "n": 16,
+    "mem": "128G",
+    "qos": "6hours",
+    "time": "05:59:00"
+  },
+  "proximity_score": {
+    "mem": "64G"
+  }
 }

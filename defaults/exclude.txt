@@ -1,3 +1,6 @@
+# Reference
+MN908947
+
 # Duplicate of Guangdong/20SF012/2020 / EPI_ISL_403932
 HKU-SZ-002a_2020
 
@@ -1199,3 +1202,42 @@ Zimbabwe/ZW-9951/2020
 Zimbabwe/ZW-9953/2020
 Zimbabwe/ZW-9955/2020
 Zimbabwe/ZW-9957/2020
+
+
+# Excluding in favor of USA/MA-JLL-796350S/2020 from same patient. The 'N' sample is nasopharangeal and the 'S' sample is stool. The N is missing some data / is too short. See https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1606163488161000
+USA/MA-JLL-796350N/2020
+
+# Has a sample date of 30 March but is identical to sequences in Oct/Nov, and was submitted with a batch all from autumn; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1607015177020000?thread_ts=1607001399.018700&cid=CTZKJC7PZ
+Denmark/DCGC-12020/2020
+
+# Overly divergent, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1607442993012700
+Hungary/US-60441w/2020
+
+# Seems far too diverged compared to date (18 Mar but lines up with seqs from Nov)
+Tunisia/4107/2020
+
+# Overly divergent, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1608249910045600
+Thailand/Bangkok-CONI-0321/2020
+
+# Misplaced date
+Tunisia/3942/2020
+
+# Misdated; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1609380393218400
+Luxembourg/LNS4701723/2020
+
+# Duplicates as noted in additional host info
+Brazil/SP-L67-CD1714/2020
+Brazil/SP-L67-CD1713/2020
+
+# mutations suggest sequencing error; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1609979566047200
+Indonesia/SN-NIHRD-PME1701/2020
+Israel/CVL-n25947/2020
+Thailand/Bangkok-Sha06/2020
+USA/WA-UW-32753/2020
+
+# see discussion on slack https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1610149752067200
+SriLanka/BIN33/2020
+Yunnan/KMS1/2020
+Lebanon/S11_765/2020
+India/PB-IMT-P151/2020
+Israel/CVL5757/2020

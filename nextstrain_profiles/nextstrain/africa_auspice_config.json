@@ -6,18 +6,13 @@
   ],
   "colorings": [
     {
-      "key": "legacy_clade_membership",
-      "title": "Old Nextstrain clade",
-      "type": "categorical"
-    },
-    {
       "key": "subclade_membership",
-      "title": "Emerging clade",
+      "title": "Emerging Clade",
       "type": "categorical"
     },
     {
       "key": "pangolin_lineage",
-      "title": "Pangolin lineage",
+      "title": "Pangolin Lineage",
       "type": "categorical"
     },
     {
@@ -90,17 +85,17 @@
     },
     {
       "key": "country_exposure",
-      "title": "Country of exposure",
+      "title": "Country of Exposure",
       "type": "categorical"
     },
     {
       "key": "division_exposure",
-      "title": "Division of exposure",
+      "title": "Division of Exposure",
       "type": "categorical"
     },
     {
       "key": "region_exposure",
-      "title": "Region of exposure",
+      "title": "Region of Exposure",
       "type": "categorical"
     }
   ],
@@ -111,11 +106,12 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "country",
+    "color_by": "clade_membership",
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,
-    "branch_label": "clade"
+    "branch_label": "clade",
+    "transmission_lines": false
   },
   "filters": [
     "recency",
