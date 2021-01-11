@@ -1,0 +1,4 @@
+screened by S dropout	S dropout
+Not screened by S dropout	No S dropout
+Screened by S Dropout	S dropout
+Not screen by S dropout	No S dropout
