@@ -82,6 +82,16 @@
       "key": "region_exposure",
       "title": "Region of exposure",
       "type": "categorical"
+    },
+    {
+      "key": "antigenic_escape_ep",
+      "title": "epitope mutations",
+      "type": "continuous"
+    },
+    {
+      "key": "weighted_antigenic_escape_ep",
+      "title": "weighted epitope mutations",
+      "type": "continuous"
     }
   ],
   "geo_resolutions": [

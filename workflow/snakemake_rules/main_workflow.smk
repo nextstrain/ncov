@@ -643,6 +643,50 @@ rule translate:
             --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
+rule reconstruct_translations:
+    input:
+        tree = "results/{build_name}/tree.nwk",
+        mutations = "results/{build_name}/aa_muts.json",
+    output:
+        translations = "results/{build_name}/aa-seq_{gene}.fasta"
+    log:
+        "logs/reconstruct_translations_{build_name}_{gene}.txt"
+    conda: config["conda_environment"]
+    shell:
+       """
+       augur reconstruct-sequences \
+           --tree {input.tree} \
+           --mutations {input.mutations} \
+           --gene {wildcards.gene} \
+           --internal-nodes \
+           --output {output}
+       """
+
+rule distances:
+    input:
+        tree = "results/{build_name}/tree.nwk",
+        translations = "results/{build_name}/aa-seq_S.fasta",
+        distance_maps = ["defaults/distance_maps/greaney_2021_antigenic_escape_ep.json", "defaults/distance_maps/greaney_2021_weighted_antigenic_escape_ep.json"]
+    output:
+        node_data = "results/{build_name}/distances.json"
+    log:
+        "logs/distances_{build_name}.txt"
+    conda: config["conda_environment"]
+    params:
+        compare_to = ["root", "root"],
+        attributes = ["antigenic_escape_ep", "weighted_antigenic_escape_ep"]
+    shell:
+        """
+        augur distance \
+            --tree {input.tree} \
+            --alignment {input.translations} \
+            --gene-names S \
+            --compare-to {params.compare_to} \
+            --attribute-name {params.attributes} \
+            --map {input.distance_maps} \
+            --output {output}
+        """
+
 rule traits:
     message:
         """
@@ -892,7 +936,8 @@ def _get_node_data_by_wildcards(wildcards):
         rules.rename_subclades.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
-        rules.traits.output.node_data
+        rules.traits.output.node_data,
+        rules.distances.output.node_data
     ]
 
     # Convert input files from wildcard strings to real file names.
