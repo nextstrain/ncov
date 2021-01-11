@@ -810,6 +810,7 @@ rule tip_frequencies:
         "logs/tip_frequencies_{build_name}.txt"
     params:
         min_date = config["frequencies"]["min_date"],
+        max_date = _get_max_date_for_frequencies,
         pivot_interval = config["frequencies"]["pivot_interval"],
         narrow_bandwidth = config["frequencies"]["narrow_bandwidth"],
         proportion_wide = config["frequencies"]["proportion_wide"]
@@ -821,6 +822,7 @@ rule tip_frequencies:
             --metadata {input.metadata} \
             --tree {input.tree} \
             --min-date {params.min_date} \
+            --max-date {params.max_date} \
             --pivot-interval {params.pivot_interval} \
             --narrow-bandwidth {params.narrow_bandwidth} \
             --proportion-wide {params.proportion_wide} \
