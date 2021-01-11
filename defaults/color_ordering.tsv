@@ -819,7 +819,7 @@ location	Rota
 location	Puerto Santa Maria
 location	Cadiz
 location	Rio San Pedro
-location	San Fernando
+location	San Fernando ES
 location	Chiclana de la Frontera
 location	Jerez De La Frontera
 location	Conil de la Frontera
@@ -849,7 +849,7 @@ location	Valderrubio
 location	Cijuela
 location	Fuente Vaqueros
 location	Pinos Puente
-location	Santa Fe
+location	Santa Fe ES
 location	Vegas del Genil
 location	Las Gabias
 location	Atarfe
@@ -958,9 +958,11 @@ location	Fuenlabrada
 location	Soto del Real
 location	Parla
 location	Leganés
+location	Colmenar Viejo
 location	Getafe
 location	Madrid
 location	Alcobendas
+location	Pedrezuela
 location	Rivas-Vaciamadrid
 location	San Fernando de Henares
 location	Arganda del Rey
@@ -1211,21 +1213,26 @@ location	Palamos
 # Balear Islands
 location	Formentera
 location	Ibiza
+location	Santa Ponca
 location	Calvia
 location	Palma
 location	Palma de Mallorca
 location	Pont d'Inca
+location	Soller
 location	Can Pastilla
 location	Marratxí
 location	Santa Maria del Camino
 location	Lluchmayor
 location	Inca
 location	Llubi
+location	Pollenca
 location	Campos
+location	Sa Pobla
 location	Muro
 location	Vilafranca de Bonany
 location	Santa Margalida
 location	Alcudia
+location	Santany
 location	Manacor
 location	Son Servera
 location	Menorca
@@ -1276,6 +1283,7 @@ location	Bernieres-le-Patry
 location	Rouen
 
 # Nouvelle-Aquitaine
+location	Pau
 location	Anglet
 location	La Brède
 location	Bordeaux
@@ -1293,6 +1301,7 @@ location	Angers
 location	Craon
 
 # Ile de France
+location	Mantes-la-Jolie
 location	Limay
 location	Montigny le Bretonneux
 location	Noisy le Roi
@@ -1339,6 +1348,7 @@ location	Compiègne
 location	Amiens
 location	Saint-Saulve
 location	Crespin
+location	Nord Pas de Calais
 location	Flines-lès-Mortagne
 location	Genech
 location	Santes
@@ -1360,7 +1370,7 @@ location	Nîmes
 # Auvergne-Rhône-Alpes
 location	Clermont-Ferrand
 location	Mazet-Saint-Voy
-location	Andrezieux-Boutheon
+location	Andrézieux-Bouthéon
 location	Saint-Etienne
 location	Tarare
 location	Privas
@@ -1398,6 +1408,8 @@ location	Montreux-Chateau
 
 # Grand Est
 location	Reims
+location	Troyes
+location	Champagne Ardenne
 location	Gondrecourt-le-Chateau
 location	Tucquegnieux
 location	Crusnes
@@ -1436,8 +1448,13 @@ location	Marseille
 location	Toulon
 location	Draguignan
 location	Embrun
+location	Frejus
 location	Saint-Vallier-de-Thiey
+location	Cannes
 location	Nice
+
+# Lorraine
+location	Epinal
 
 # Corse
 location	Porto-Vecchio
@@ -1532,6 +1549,7 @@ location	Gent
 location	Merelbeke
 location	Bottelare
 location	Gentbrugge
+location	Oosterzele
 
 # Ath
 location	Quevaucamps
@@ -2156,6 +2174,7 @@ location	Hochficht
 
 ### Czech Republic
 # Plzeň Region
+location	Tachov
 location	Domažlice
 location	Dobřany
 location	Plzeň
@@ -2171,6 +2190,7 @@ location	Tisá
 location	Sulejovice
 location	Libochovice
 location	Litomerice
+location	Děčín
 location	Račice
 
 # Prague
@@ -2196,6 +2216,7 @@ location	Příbram
 location	Králův Dvůr
 location	Beroun
 location	Chýně
+location	Veltrusy
 location	Únětice
 location	Zdiby
 location	Bášť
@@ -2204,6 +2225,7 @@ location	Krhanice
 location	Herink
 location	Radonice
 location	Říčany
+location	Brandýs N. Labem
 location	Zeleneč
 location	Benešov
 location	Čerčany
@@ -2226,6 +2248,7 @@ location	Kutná Hora
 
 # Liberec Region
 location	Liberec
+location	Jablonec nad Nisou
 
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
@@ -2678,20 +2701,88 @@ location	Petropavlovsk-Kamchatsky
 # South America
 
 ### Argentina
+# Tierra del Fuego
+location	Ushuaia
+location	Rio Grande
+
 # Rio Negro
 location	San Carlos de Bariloche
+location	Cipolletti
+location	General Roca
+
+# Neuquen
+location	Villa la Angostura
+location	San Martin de los Andes
+location	Loncopue
+location	Las Lajas
+location	Zapala
+location	Cutral Co
+location	Plottier
+location	Neuquen
 
 # Buenos Aires
 location	Bahia Blanca
+location	Tres de Febrero
+location	Almirante Brown
+location	Olavarría
+location	Torres AR
+location	Luján
+location	Campana
+location	Gral Rodriguez
+location	Moreno
+location	José C Paz
 location	Cañuelas
+location	Necochea
+location	Esteban Echeverria
+location	Presidente Perón
+location	Hurlingham
+location	Morón
 location	Máximo Paz
 location	Gregorio de Laferrere
+location	Tigre
+location	San Fernando AR
+location	Ezeiza
+location	General San Martin
+location	San Martin
+location	San Isidro AR
+location	Vicente Lopez
 location	Lomas de Zamora
+location	Lanús
 location	La Matanza
+location	Avellaneda
+location	Florencio Varela
 location	Quilmes
+location	Brandsen
+location	Berazategui
+location	La Plata
+location	Berisso
+location	Malvinas Argentinas
+
+# Cordoba AR
+location	Villa Dolores
+location	Saldan
+location	Cordoba AR
+location	Villa Maria
+location	Belle Ville
+location	Brinkmann
 
 # Santa Fe
 location	Totoras
+location	Santa Fe AR
+location	Esperanza
+location	Coronda
+location	Cayastá
+location	Ceres
+location	Reconquista
+location	Villa Ocampo
+
+# Chaco
+location	Puerto Vilelas
+location	Resistencia
+location	Fontana
+location	Isla del Cerrito
+location	Sanz Peña
+location	Sauzalito
 
 ### Uruguay
 # Rocha
@@ -2815,13 +2906,19 @@ location	Morro Reuter
 location	Sapiranga
 location	Taquara
 location	Osorio
-location	Torres
+location	Torres BR
 
 # Paraná
 location	Medianeira
+location	Marechal Candido Rondon
+location	Cascavel
+location	Umuarama
+location	Dois Vizinhos
 location	Vere
 location	Cianorte
 location	Maringa
+location	Londrina
+location	Uniao Da Vitoria
 location	Ponta Grossa
 location	Curitiba
 
@@ -2887,6 +2984,7 @@ location	São Paulo
 location	Mongagua
 location	Diadema
 location	Mairipora
+location	Sao Caetano do Sul
 location	Sao Bernardo do Campo
 location	Braganca Paulista
 location	Santo Andre
@@ -2968,6 +3066,7 @@ location	Lagoa do Carro
 location	Vitoria de Santo Antao
 location	Carpina
 location	Alianca
+location	Itambe
 location	Tamandaré
 location	Condado
 location	Ipojuca
@@ -2979,6 +3078,17 @@ location	Jaboatao Dos Guararapes
 location	Recife
 location	Paulista
 location	Olinda
+
+# Paraiba
+location	Marizopolis
+location	Coxixola
+location	Cacimba de Dentro
+location	Pilar
+location	Pedras de Fogo
+location	Santa Rita
+location	Joao Pessoa
+location	Lucena
+location	Cabedelo
 
 # Alagoas
 location	Maceio
@@ -3333,7 +3443,7 @@ location	La Union
 location	Concepcion CR
 location	San Ramon
 location	Tres Rios CR
-location	San Isidro
+location	San Isidro CR
 location	El Tejar
 location	Cartago CR
 location	San Rafael Cartago
@@ -3359,6 +3469,9 @@ location	San Luis Rio Colorado
 
 # Durango
 location	Gomez Palacios
+
+# Tamaulipas
+location	Matamoros
 
 ### USA
 # Hawaii
@@ -3551,6 +3664,7 @@ location	Van Zandt County
 location	Fort Bend County
 location	Lamar County
 location	Montgomery County TX
+location	Houston
 location	Harris County
 location	Greater Houston Area
 location	Smith County
@@ -3707,6 +3821,9 @@ location	Jo Daviess County
 # Indiana
 location	Marion County IN
 
+# Kentucky
+location	Mccracken County
+
 # Georgia
 location	Cobb
 
@@ -3761,6 +3878,7 @@ location	Erie County
 location	Cattaraugus County
 location	Wyoming County
 location	Orleans County
+location	Genesee County
 location	Allegany County NY
 location	Livingston County
 location	Monroe County NY
@@ -3961,6 +4079,7 @@ division	North Sharqiyah
 division	Uzbekistan
 
 ### Afghanistan
+division	Afghanistan
 division	Kabul
 
 ### Kazakhstan
@@ -4116,6 +4235,8 @@ division	Hong Kong
 ### Indonesia
 division	Aceh
 division	North Sumatra
+division	Bengkulu
+division	Kepulauan Riau
 division	Lampung
 division	Banten
 division	Kepulauan Bangka Belitung
@@ -4134,6 +4255,7 @@ division	West Nusa Tenggara
 division	South Sulawesi
 division	East Nusa Tenggara
 division	North Sulawesi
+division	North Maluku
 division	West Papua
 division	Papua
 
@@ -4525,6 +4647,7 @@ division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
 division	Grand Est
 division	Provence-Alpes-Côte d'Azur
+division	Lorraine
 division	Corse
 
 ### Belgium
@@ -4808,6 +4931,7 @@ division	Masovia
 division	Kostoliste
 division	Bratislava
 division	Pezinok
+division	Miloslavov
 division	Jatov
 division	Kamenicna
 division	Tvrdosovce
@@ -4818,7 +4942,9 @@ division	Levice
 division	Zilina
 division	Martin
 division	Slovakia
+division	Doľany
 division	Kosice
+division	Pavlovce nad Uhom
 
 ### Montenegro
 division	Montenegro
@@ -5055,12 +5181,15 @@ division	Kamchatka Krai
 # South America
 
 ### Argentina
+division	Tierra del Fuego
 division	Rio Negro
+division	Neuquen
 division	Buenos Aires
 division	Argentina
 division	Cordoba AR
 division	Santa Fe
 division	Tucuman
+division	Chaco
 
 ### Uruguay
 division	Maldonado
@@ -5181,6 +5310,7 @@ division	Boyaca
 division	Choco
 division	Antioquia
 division	Santander
+division	San Andres
 division	Norte de Santander
 division	Cordoba CO
 division	Bolivar
@@ -5322,6 +5452,9 @@ division	Cuba
 
 ### North America
 division	North America
+
+### Bermuda
+division	Bermuda
 
 ### USA
 division	Hawaii
@@ -5563,6 +5696,7 @@ country	Dominican Republic
 country	Mexico
 country	Cuba
 country	North America
+country	Bermuda
 country	USA
 country	Canada
 
