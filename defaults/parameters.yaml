@@ -4,7 +4,8 @@
 # or --configfile options.
 ---
 # conda environment file to use by default
-conda_environment: "../envs/nextstrain.yaml"
+# This must be a relative path to the top-level Snakefile directory (e.g., `ncov/`).
+conda_environment: "workflow/envs/nextstrain.yaml"
 
 # These are the two main starting files for the run.
 # If they do not exist, we will attempt to fetch them from a S3 bucket (see below)
