@@ -74,3 +74,5 @@ Buenos Aires	AR
 Santa Fe	AR
 Cordoba	AR
 Cordoba AR	AR
+Los Rios	EC
+Comunitat Valenciana	ES

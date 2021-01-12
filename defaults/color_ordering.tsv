@@ -3,18 +3,31 @@
 
 ### Israel
 # South District
+location	Eilat
 location	South Coast District
 location	Beer-Sheva
+location	Lehavim
 location	Netivot
+location	Alumim
 location	Kiryat Gat
 location	Ashdod
+location	Even Shmuel
 location	Yeruham
-location	Beni Brak
 
 # Jerusalem District
+location	Beko'A
 location	Beit Shemesh
+location	Kiryat Ye'Arim
+location	Beitar Ilit
+location	Jerusalem
+
+# Judea and Samaria
+location	Mevo Horon
+location	Modi'in Illit
+location	Kdumim
 
 # Central District
+location	Sde Yitzhak
 location	Orot
 location	Gedera
 location	Sdema
@@ -45,6 +58,7 @@ location	Or-Yehuda
 location	Kiryat Ono
 location	Ramat Gan
 location	Tel-Aviv
+location	Bnei Brak
 location	Ramat-Hasharon
 
 # Haifa District
@@ -52,13 +66,23 @@ location	Ceasaria
 location	Haifa
 
 # North District
+location	Tamra
+location	Yuvalim
+location	Yafa An-Naseriyye
+location	Maalot Tarshicha
+location	Kisra-Sumei
+location	Sakhnin
+location	Nazareth
+location	Arraba
+location	Kafr Kanna
+location	Deir Hanna
+location	Eilabun
+location	Zefat
+location	Tzfat
 location	Tirat Zvi
+location	Hukuk
 location	Tveria
 location	Chaspin
-location	Hukuk
-location	Yuvalim
-location	Zefat
-location	Maalot Tarshicha
 
 ### Palestine
 # Hebron
@@ -443,6 +467,10 @@ location	Fuzhou
 location	Yingtan
 location	Shangrao
 
+# Hebei
+location	Xingtai
+location	Shijiazhuang
+
 # Beijing
 location	Beijing
 
@@ -626,6 +654,9 @@ location	Dano
 location	Accra
 
 ### Tunisia
+# Monastir
+location	Ksar Hellal
+
 # Tunis
 location	La Marsa
 
@@ -1130,12 +1161,12 @@ location	Almussafes
 location	Albal
 location	Godella
 location	Sollana
+location	Valencia ES
 location	Bonrepos i Mirambell
 location	Tavernes Blanques
 location	Museros
 location	Almassera
 location	Llutxent
-location	Valencia
 location	Alboraya
 location	Alboraia
 location	Meliana
@@ -2080,6 +2111,9 @@ location	Erlangen
 # Western Pomerania
 location	Rostock
 
+# Saxony
+location	Dresden
+
 ### Italy
 # Piedmont
 location	Turin
@@ -2105,6 +2139,10 @@ location	Rovigo
 # Lazio
 location	Rome
 
+# Friuli Venezia Giulia
+location	Trieste
+location	Gorizia
+
 # Marche
 location	Ancona
 
@@ -2125,6 +2163,7 @@ location	Matera
 
 # Apulia
 location	Foggia
+location	Barletta-Andria-Trani
 location	Bari
 location	Taranto
 location	Martina Franca
@@ -2391,6 +2430,13 @@ location	Strumica
 ### Greece
 # Central Greece
 location	Livadeia
+
+### Lithuania
+# Vilnius
+location	Ukmerge
+
+# Utena
+location	Ignalina
 
 ### Romania
 # Vrancea
@@ -2797,6 +2843,7 @@ location	Bella Union
 ### Chile
 # Magallanes
 location	Puerto Natales
+location	Natales
 location	Punta Arenas
 location	Porvenir
 location	Puerto Williams
@@ -2813,12 +2860,14 @@ location	Angol
 
 # Biobío
 location	Concepcion CL
+location	Los Angeles
 
 # Ñuble
 location	Chillan
 
 # Maule
 location	Talca
+location	Curico
 
 # O'Higgins
 location	Lolol
@@ -2827,13 +2876,22 @@ location	Rancagua
 location	San Francisco de Mostazal
 
 # Region Metropolitana de Santiago
+location	Buin
+location	Talagante
+location	Padre Hurtado
+location	Maipu
 location	Santiago
+location	Curacavi
+location	Quilicura
+location	Colina
 
 # Valparaiso
 location	Vina del Mar
+location	Los Andes
 
 # Atacama
 location	Domeyko
+location	Vallenar
 location	Freirina
 location	Huasco
 location	Tierra Amarilla
@@ -2846,8 +2904,18 @@ location	El Salvador
 # Antofagasta
 location	Antofagasta
 
+# Arica and Parinacota
+location	Arica
+
 ### Brazil
 # Amazonas BR
+location	Carauari
+location	Labrea
+location	Tapaua
+location	Caapiranga
+location	Manacapuru
+location	Manaquiri
+location	Iranduba
 location	Manaus
 
 # Rondonia
@@ -3162,6 +3230,7 @@ location	Catamayo
 location	Babahoyo
 location	Quevedo
 location	Ventanas
+location	Valencia EC
 
 # Esmeraldas
 location	Esmeraldas
@@ -3743,8 +3812,10 @@ location	St. Louis MO
 location	Crawford County
 location	Polk County WI
 location	Pierce County WI
+location	Burnett County
 location	Pepin County
 location	Barron County
+location	Washburn County
 location	Buffalo County
 location	Trempealeau County
 location	Eau Claire County
@@ -3771,6 +3842,7 @@ location	Green County
 location	Dane County
 location	Verona WI
 location	Portage County
+location	Vilas County
 location	Marquette County
 location	Oregon WI
 location	Brooklyn WI
@@ -3791,6 +3863,7 @@ location	Oconto County
 location	Waukesha County
 location	Washington County WI
 location	Kenosha County
+location	Marinette County
 location	Brown County WI
 location	Thiensville
 location	Milwaukee County
@@ -3853,6 +3926,7 @@ location	Kanawha
 # Pennsylvania
 location	Pittsburgh
 location	Allegheny County
+location	Chester County
 location	Montgomery County PA
 
 # Washington DC
@@ -3864,8 +3938,13 @@ location	Kent County
 location	New Castle County
 
 # New Jersey
+location	Salem County
+location	Gloucester County
 location	Camden County
 location	Burlington County
+location	Ocean County
+location	Middlesex County NJ
+location	Union County
 location	Hudson County
 location	Essex County NJ
 location	Morris County NJ
@@ -3961,7 +4040,7 @@ location	Madison CT
 location	Tolland County
 
 # Massachusetts
-location	Middlesex County
+location	Middlesex County MA
 location	Norfolk County
 location	Boston
 
@@ -3993,6 +4072,7 @@ location	Lanaudière
 division	South District
 division	Israel
 division	Jerusalem District
+division	Judea and Samaria
 division	Central District
 division	Tel Aviv District
 division	Haifa District
@@ -4153,6 +4233,7 @@ division	Chattogram
 division	Barishal
 division	Khulna
 division	Dhaka
+division	Brahmanbaria
 division	Rajshahi
 division	Bangladesh
 division	Mymensingh
@@ -4206,6 +4287,7 @@ division	Hubei
 division	Henan
 division	Guangdong
 division	Jiangxi
+division	Hebei
 division	Beijing
 division	Anhui
 division	Fujian
@@ -4236,7 +4318,7 @@ division	Hong Kong
 division	Aceh
 division	North Sumatra
 division	Bengkulu
-division	Kepulauan Riau
+division	Riau Islands
 division	Lampung
 division	Banten
 division	Kepulauan Bangka Belitung
@@ -4250,6 +4332,7 @@ division	Center Kalimantan
 division	Indonesia
 division	Bali
 division	South Kalimantan
+division	North Kalimantan
 division	East Kalimantan
 division	West Nusa Tenggara
 division	South Sulawesi
@@ -4463,6 +4546,7 @@ division	Nabeul
 division	Soliman
 division	Ben Arous
 division	Tunis
+division	Ariana
 division	Bizerte
 
 ### Niger
@@ -5012,6 +5096,7 @@ division	South Aegean Region
 
 ### Lithuania
 division	Klaipedos Apskritis
+division	Telsiai
 division	Taurages Apskritis
 division	Marijampoles Apskritis
 division	Lithuania
@@ -5019,6 +5104,7 @@ division	Alytaus Apskritis
 division	Kauno Apskritis
 division	Jonavos Apskritis
 division	Vilnius
+division	Utena
 
 ### Romania
 division	Vrancea
@@ -5027,6 +5113,7 @@ division	Arges
 division	Mioveni
 division	Valcea
 division	Teleorman
+division	Giurgiu
 division	Bucharest
 division	Suceava
 division	Buzau
@@ -5211,8 +5298,10 @@ division	Maule
 division	O'Higgins
 division	Region Metropolitana de Santiago
 division	Valparaiso
+division	Coquimbo
 division	Atacama
 division	Antofagasta
+division	Arica and Parinacota
 
 ### South America
 division	South America
@@ -5317,6 +5406,7 @@ division	Bolivar
 division	Cesar
 division	Magdalena
 division	Atlantico
+division	San Andres y Providencia
 
 ### Suriname
 division	Suriname

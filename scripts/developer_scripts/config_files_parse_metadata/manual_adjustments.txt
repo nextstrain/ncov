@@ -25,3 +25,8 @@ Europe/Belgium/Flines-lès-Mortagne/*	Europe/France/Hauts de France/Flines-lès-
 North America/USA/New York/Out-of-State	North America/USA/New York/
 Europe/France/Champagne Ardenne/Troyes	Europe/France/Grand Est/Troyes
 South America/Brazil/Paraiba/Itambe	South America/Brazil/Pernambuco/Itambe
+Asia/Israel/*/Ramat Hasharon	Asia/Israel/Tel Aviv District/Ramat-Hasharon
+Asia/Israel/*/Or Yehuda	Asia/Israel/Tel Aviv District/Or-Yehuda
+Asia/Israel/*/Beni Brak	Asia/Israel/Tel Aviv District/Bnei Brak
+Asia/Israel/*/Moi'In Ilit	Asia/Israel/Judea and Samaria/Modi'in Illit
+Asia/Israel/*/Modi'In Ilit	Asia/Israel/Judea and Samaria/Modi'in Illit

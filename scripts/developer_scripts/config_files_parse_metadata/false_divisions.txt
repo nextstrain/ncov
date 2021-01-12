@@ -193,3 +193,7 @@ Rio Branco	Cerro Largo
 Chuy	Rocha
 Ain Aouda	Rabat
 Cox'S Bazar	Chattogram
+Ksar Hellal	Monastir
+Dresden	Saxony
+Ignalina	Utena
+Ukmerge	Vilnius

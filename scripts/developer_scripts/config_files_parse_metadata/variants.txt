@@ -8,7 +8,7 @@ location	Ventana	Ventanas
 location	Verona	Verona IT
 location	Hobigonj	Habiganj
 location	East Baton Rouge	East Baton Rouge Parish
-location	Los Angeles	Los Angeles County
+location	Los Angeles	Los Angeles County	(North America, USA, California)
 location	Dodge Count	Dodge County
 location	Outagamie Coun	Outagamie County
 location	Tübingen	Tuebingen
@@ -584,3 +584,19 @@ location	Llucmajor	Lluchmayor	(Europe, Spain, Balear Islands)
 division	Pará	Para	(South America, Brazil)
 division	Center Java	Central Java	(Asia, Indonesia)
 location	Brikman	Brinkmann	(South America, Argentina, Cordoba AR)
+division	Cenral	Central District	(Asia, Israel)
+division	Graubã¼Nden	Graubünden	(Europe, Switzerland)
+division	Neuchã¢Tel	Neuchâtel	(Europe, Switzerland)
+division	La Araucania	Araucanía	(South America, Chile)
+division	Boyacá	Boyaca	(South America, Colombia)
+location	Tel Aviv	Tel-Aviv	(Asia, Israel, Tel Aviv District)
+location	Tiberias	Tveria	(Asia, Israel, North District)
+location	Bet Shemesh	Beit Shemesh	(Asia, Israel, Jerusalem District)
+division	Southern	South District	(Asia, Israel)
+location	Beer Sheva	Beer-Sheva	(Asia, Israel, South District)
+location	Petachtikva	Petah Tikva	(Asia, Israel, Central District)
+location	Rishon Letzion	Rishon-Letsion	(Asia, Israel, Central District)
+location	Natanya	Netanya	(Asia, Israel, Central District)
+location	מבוא חורון	Mevo Horon	(Asia, Israel, Judea and Samaria)
+location	Bat	Barletta-Andria-Trani	(Europe, Italy, Apulia)
+location	Ostego County	Otsego County	(North America, USA, New York)
