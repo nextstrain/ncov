@@ -1,14 +1,8 @@
 {
     "default": 0,
-    "description": "Sites with greater than 4 stddev site-level escape per serum across 2 human sera from Greaney et al. 2021",
+    "description": "Sites with greater than 4 stddev site-level escape per serum across 11 human sera from Greaney et al. 2021",
     "map": {
         "S": {
-            "361": 1,
-            "365": 1,
-            "369": 1,
-            "383": 1,
-            "384": 1,
-            "446": 1,
             "447": 1,
             "449": 1,
             "452": 1,
