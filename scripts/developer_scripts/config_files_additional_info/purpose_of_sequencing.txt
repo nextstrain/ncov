@@ -1,4 +1,5 @@
 screened by S dropout	S dropout
-Not screened by S dropout	No S dropout
+Not screened by S dropout	Not S dropout
+not screened by S dropout	Not S dropout
 Screened by S Dropout	S dropout
-Not screen by S dropout	No S dropout
+Not screen by S dropout	Not S dropout
