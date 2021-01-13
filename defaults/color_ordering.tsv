@@ -62,11 +62,8 @@ location	Bnei Brak
 location	Ramat-Hasharon
 
 # Haifa District
-location	Baqa Al-Gharbiyye
 location	Ceasaria
-location	Kiryat Ata
 location	Haifa
-location	Akko
 
 # North District
 location	Tamra
@@ -80,8 +77,8 @@ location	Arraba
 location	Kafr Kanna
 location	Deir Hanna
 location	Eilabun
-location	Zefat
 location	Tzfat
+location	Zefat
 location	Tirat Zvi
 location	Hukuk
 location	Tveria
@@ -1140,7 +1137,10 @@ location	Ayerbe
 location	Miramar
 location	Almenara
 location	Chilches
+location	Villena
+location	Monovar
 location	Elda
+location	Novelda
 location	Antella
 location	Llombai
 location	Olleria
@@ -1287,6 +1287,9 @@ location	Nottinghamshire
 location	Northamtonshire
 location	London
 location	Warwickshire
+
+# Auckland
+location	Counties Manukau
 
 ### France
 # Bretagne
@@ -4710,12 +4713,13 @@ division	Catalunya
 division	Balear Islands
 
 ### United Kingdom
-division	Gibraltar
-division	Wales
-division	England
-division	United Kingdom
 division	Northern Ireland
+division	Gibraltar
 division	Scotland
+division	Wales
+division	United Kingdom
+division	England
+division	Auckland
 
 ### Andorra
 division	Andorra
