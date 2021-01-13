@@ -1288,9 +1288,6 @@ location	Northamtonshire
 location	London
 location	Warwickshire
 
-# Auckland
-location	Counties Manukau
-
 ### France
 # Bretagne
 location	Ploudalmezeau
@@ -4239,7 +4236,6 @@ division	Chattogram
 division	Barishal
 division	Khulna
 division	Dhaka
-division	Brahmanbaria
 division	Rajshahi
 division	Bangladesh
 division	Mymensingh
@@ -4633,6 +4629,9 @@ division	Kwale
 division	Mombasa
 division	Taita Taveta
 division	Kilifi
+division	Lamu
+division	Kajiado
+division	Tana River
 division	Kenya
 
 ### Ethiopia
@@ -4713,13 +4712,12 @@ division	Catalunya
 division	Balear Islands
 
 ### United Kingdom
-division	Northern Ireland
 division	Gibraltar
-division	Scotland
 division	Wales
-division	United Kingdom
 division	England
-division	Auckland
+division	United Kingdom
+division	Northern Ireland
+division	Scotland
 
 ### Andorra
 division	Andorra
@@ -4875,6 +4873,7 @@ division	Germany
 division	Thuringia
 division	Bavaria
 division	Saxony-Anhalt
+division	Mecklenburg-Vorpommern
 division	Brandenburg
 division	Western Pomerania
 division	Berlin

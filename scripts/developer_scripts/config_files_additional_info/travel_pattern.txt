@@ -38,3 +38,5 @@ imported case from XXX
 Imported case from XXX
 Patient with travel history to XXX
 Returned from the XXX
+Arrived from the XXX
+Traveled from XXX
