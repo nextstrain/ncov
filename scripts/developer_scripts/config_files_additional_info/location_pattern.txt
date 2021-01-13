@@ -10,3 +10,5 @@ Hospital das Clinicas de XXX
 Zip code: XXX
 Hospital General de XXX
 Patient residence:XXX
+XXX Health Department
+XXX Health department

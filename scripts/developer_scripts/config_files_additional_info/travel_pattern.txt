@@ -37,3 +37,4 @@ Airport Quarantine Station in Japan. COVID-19 positive case who entered from XXX
 imported case from XXX
 Imported case from XXX
 Patient with travel history to XXX
+Returned from the XXX
