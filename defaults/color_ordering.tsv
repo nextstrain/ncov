@@ -411,6 +411,10 @@ location	Sunamganj
 # Rangpur
 location	Nilphamari
 
+### Malaysia
+# Negeri Sembilan
+location	Rembau
+
 ### Singapore
 # Singapore
 location	Singapore
@@ -654,6 +658,9 @@ location	Dano
 location	Accra
 
 ### Tunisia
+# Medenine
+location	Djerba
+
 # Monastir
 location	Ksar Hellal
 
@@ -3553,6 +3560,7 @@ location	Maui County
 location	Hawaii County
 
 # Alaska
+location	Southwest Alaska
 location	Interior Alaska
 location	Anchorage
 location	Matanuska-Susitna Valley
@@ -3580,12 +3588,14 @@ location	Umatilla County
 # Washington
 location	Grays Harbor County
 location	Pacific County
+location	Clallam County
 location	Jefferson County WA
 location	Mason County
 location	San Juan County
 location	Thurston County
 location	Cowlitz County
 location	Clark County WA
+location	Lewis County WA
 location	Pierce County WA
 location	Snohomish County
 location	King County
@@ -3601,6 +3611,7 @@ location	Grant County WA
 location	Franklin County WA
 location	Walla Walla County
 location	Adams County WA
+location	Lincoln County WA
 location	Spokane County
 location	Asotin County
 
@@ -3840,7 +3851,7 @@ location	Wood County
 location	Sauk County
 location	Marathon County
 location	Adams County WI
-location	Lincoln County
+location	Lincoln County WI
 location	Green County
 location	Dane County
 location	Verona WI
@@ -3979,7 +3990,7 @@ location	Jefferson County NY
 location	Broome County
 location	Madison County NY
 location	Chenango County
-location	Lewis County
+location	Lewis County NY
 location	Oneida County
 location	St. Lawrence County
 location	Otsego County
@@ -4266,6 +4277,7 @@ division	Chiang Rai
 ### Malaysia
 division	Selangor
 division	Kuala Lumpur
+division	Negeri Sembilan
 division	Pahang
 division	Malaysia
 division	Sarawak
@@ -4540,6 +4552,7 @@ division	Benue State
 division	Borno State
 
 ### Tunisia
+division	Medenine
 division	Tunisia
 division	Gafsa
 division	Sfax
@@ -5114,6 +5127,7 @@ division	Utena
 
 ### Romania
 division	Vrancea
+division	Hunedoara
 division	Romania
 division	Arges
 division	Mioveni
@@ -5197,6 +5211,7 @@ division	Nevsehir
 division	Turkey
 division	Kayseri
 division	Tokat
+division	Kahramanmaras
 division	Adıyaman
 division	Mardin
 division	Siirt
@@ -5568,6 +5583,7 @@ division	Montana
 division	Wyoming
 division	New Mexico
 division	Colorado
+division	North Dakota
 division	South Dakota
 division	Nebraska
 division	Texas

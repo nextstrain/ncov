@@ -612,6 +612,7 @@ location	Ciruena	42.4117511	-2.8955322
 location	Cizur Menor	42.786144	-1.677269
 location	Clackamas County	45.1608821	-122.2305038
 location	Claiborne Parish	32.8218607	-93.0097229
+location	Clallam County	47.9998383	-123.7373472
 location	Clark County NV	36.3467726	-115.0907378
 location	Clark County WA	45.7669047	-122.4940866
 location	Clark County WI	44.7188146	-90.6214928
@@ -765,6 +766,7 @@ location	Diest	50.998854	5.062917
 location	Dijon	47.3220	5.0415
 location	Dilbeek	50.8465	4.2621
 location	District of Columbia County	38.893661249999994	-76.98788325388196
+location	Djerba	33.77339055	10.885904100766005
 location	Dmitrov	56.3450695	37.5200723
 location	Dobrá Voda	48.968182	14.527586
 location	Dobřany	49.6554407	13.2908386
@@ -1532,6 +1534,8 @@ location	Leticia	-4.212580	-69.943144
 location	Leuven	50.876941	4.701994
 location	Levallois-Perret	48.8932	2.2879
 location	Lewis County	43.7344277	-75.440289
+location	Lewis County NY	43.7344277	-75.440289
+location	Lewis County WA	46.5612011	-122.4225561
 location	Lezuza	38.9496	-2.3555
 location	Liberec	50.7702648	15.0583947
 location	Liberia	10.6333401	-85.4362722
@@ -1553,6 +1557,8 @@ location	Limkheda	22.8321862	73.9880696
 location	Limoges	45.8354243	1.2644847
 location	Limon	9.9951608	-83.0303724
 location	Lincoln County	45.3265631	-89.7326216
+location	Lincoln County WA	47.5664588	-118.3588615
+location	Lincoln County WI	45.3265631	-89.7326216
 location	Lincoln Parish	32.598162	-92.6792848
 location	Linden	50.895349	4.7672872
 location	Linha Nova	-29.467709	-51.2001125
@@ -2318,6 +2324,7 @@ location	Red River County	33.571979	-95.0429674
 location	Red River Parish	32.0835604	-93.3111105
 location	Reguisheim	47.8932253	7.3543762
 location	Reims	49.253754	4.035860
+location	Rembau	2.5888688	102.0943404
 location	Renedo	43.354601450000004	-3.9538952987855325
 location	Rennes	48.1173	1.6778
 location	Rensselaer County	42.7091389	-73.5107732
@@ -2664,6 +2671,7 @@ location	South Tangerang	-6.2955404	106.7085494
 location	South Yorkshire	53.476171	-1.327867
 location	Southeast Alaska	57.011818	-133.720144
 location	Southeast Queensland	-27.478427	152.687047
+location	Southwest Alaska	58.983492	-161.72290896746364
 location	Spicheren	49.192118	6.967399
 location	Spokane County	47.605929	-117.398931
 location	Spring Green	43.177689	-90.069216
@@ -3650,6 +3658,7 @@ division	Hubei	31.095477	112.676644
 division	Huila	2.545605	-75.524024
 division	Hukuk	32.8798972	35.4958000
 division	Hunan	27.6662087	111.7487063
+division	Hunedoara	45.7958547	22.944483784106403
 division	Hungary	47	20
 division	Huy	50.510704	5.209278
 division	Ica	-14.079922	-75.740852
@@ -3712,6 +3721,7 @@ division	Kabardino-Balkaria	43.4428286	43.4204809
 division	Kabul	34.5260109	69.1776838
 division	Kaduna State	10.3825318	7.8533226
 division	Kaggevinne	50.9794	5.0190
+division	Kahramanmaras	37.7830345	36.830655
 division	Kajiado	-2.12171705	36.78625503675998
 division	Kakanj	44.1280	18.1178
 division	Kaliningrad Region	54.7293041	21.1489473
@@ -3901,6 +3911,7 @@ division	Mbour	14.427132	-16.966574
 division	Meath	53.649784350000004	-6.588529492009938
 division	Mechelen	51.033475	4.444398
 division	Mecklenburg-Vorpommern	53.7735064	12.5755471
+division	Medenine	33.3434395	10.4910529
 division	Melbourne	-37.8136	144.9631
 division	Melilla	35.291746	-2.938261
 division	Melnik	50.364202	14.482176
@@ -3969,6 +3980,7 @@ division	National Capital Region	14.632748	121.027441
 division	Navarra	42.687776	-1.645699
 division	Nayarit	21.8438765	-104.87148535201122
 division	Nebraska	41.4925	-99.9018
+division	Negeri Sembilan	2.7831895	102.1925319
 division	Nelson Marlborough	-41.436949	173.142614
 division	Nepal	28	84
 division	Netanya	32.3215	34.8532
@@ -4010,6 +4022,7 @@ division	North Banat District	45.888395700000004	20.19005050882369
 division	North Batinah	24.577310	56.435470
 division	North Brabant	51.4827	5.2322
 division	North Carolina	35.7596	-79.0193
+division	North Dakota	47.6201461	-100.540737
 division	North District	32.8972	35.3027
 division	North Holland	52.5206	4.7885
 division	North Kalimantan	3.0235817	116.2049306

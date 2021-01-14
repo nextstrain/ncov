@@ -51,3 +51,5 @@ Torres
 Cordoba
 Valencia
 Middlesex County
+Lewis County
+Lincoln County
