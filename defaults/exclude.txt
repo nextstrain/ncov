@@ -1245,10 +1245,8 @@ Israel/CVL5757/2020
 # Underdiverged, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1610391484104200
 Ireland/un-NVRL-AIIDB0144v1/2020
 
-<<<<<<< HEAD
 # Too divergent for early date, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1610529930191000
 Tunisia/12-8274/2020
-=======
+
 # early date, likely misdated
 England/205390927/2020
->>>>>>> 96d8e02b4a297dab916682ec9f2d6aad25ba571a
