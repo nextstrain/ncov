@@ -666,15 +666,19 @@ rule distances:
     input:
         tree = "results/{build_name}/tree.nwk",
         translations = "results/{build_name}/aa-seq_S.fasta",
-        distance_maps = ["defaults/distance_maps/greaney_2021_antigenic_escape_ep.json", "defaults/distance_maps/greaney_2021_weighted_antigenic_escape_ep.json"]
+        distance_maps = [
+            "defaults/distance_maps/greaney_2021_antigenic_escape_ep.json",
+            "defaults/distance_maps/greaney_2021_weighted_antigenic_escape_ep.json",
+            "defaults/distance_maps/greaney_2021_mutation_antigenic_escape.json"
+        ]
     output:
         node_data = "results/{build_name}/distances.json"
     log:
         "logs/distances_{build_name}.txt"
     conda: config["conda_environment"]
     params:
-        compare_to = ["root", "root"],
-        attributes = ["antigenic_escape_ep", "weighted_antigenic_escape_ep"]
+        compare_to = ["root", "root", "root"],
+        attributes = ["antigenic_escape_ep", "weighted_antigenic_escape_ep", "mutation_antigenic_escape"]
     shell:
         """
         augur distance \
