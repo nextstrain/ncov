@@ -30,3 +30,5 @@ Asia/Israel/*/Or Yehuda	Asia/Israel/Tel Aviv District/Or-Yehuda
 Asia/Israel/*/Beni Brak	Asia/Israel/Tel Aviv District/Bnei Brak
 Asia/Israel/*/Moi'In Ilit	Asia/Israel/Judea and Samaria/Modi'in Illit
 Asia/Israel/*/Modi'In Ilit	Asia/Israel/Judea and Samaria/Modi'in Illit
+Africa/Mosambik/Munich/*	Africa/Mozambique/Mozambique/*
+Europe/Albania/Moerfelden-Walldorf/*	Europe/Albania/Albania/*

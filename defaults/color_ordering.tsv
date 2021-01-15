@@ -2088,14 +2088,24 @@ location	Faroe Islands
 
 ### Germany
 # Rheinland-Pfalz
+location	Daleiden
 location	Koblenz
+location	Vallendar
+location	Kaiserslautern
+location	Nastatten
+location	Mainz
+location	Germersheim
 
 # North Rhine Westphalia
 location	Heinsberg
 location	Heinsberg District
+location	Kaarst
 location	Duesseldorf
+location	Muelheim
+location	Rheinbach
 location	Cologne
 location	Essen
+location	Greven
 location	Münster
 location	Bielefeld
 
@@ -2104,24 +2114,77 @@ location	Hannover
 
 # Baden-Wuerttemberg
 location	Konstanz
+location	Bad Krozingen
 location	Tuttlingen
+location	Pfaffenweiler
 location	Villingen-Schwenningen
 location	Sigmaringen
 location	Rottweil
 location	Tuebingen
+location	Gaufelden
+location	Buehl
+location	Muehlacker
+location	Oftersheim
+location	Heidelberg
+location	Mannheim
 
 # Hesse
+location	Wiesbaden
+location	Bad Camberg
+location	Ginsheim
+location	Solms
+location	Nauheim
+location	Hattersheim
+location	Bad Soden Am Taunus
+location	Moerfelden-Walldorf
+location	Pfungstadt
+location	Bad Homburg
+location	Lohra
 location	Frankfurt
+location	Fronhausen
+location	Neu-Isenburg
+location	Dreieich
+location	Bad Vilbel
+location	Offenbach Am Main
+location	Roedermark
+location	Offenbach
+location	Maintal
+location	Obertshausen
+location	Klein-Zimmern
+location	Nidderau
+location	Hanau
+location	Kirchhain
+location	Langenselbold
+location	Gruendau
+location	Fulda
+
+# Schleswig-Holstein
+location	Norderstedt
+
+# Thuringia
+location	Jena
 
 # Bavaria
+location	Hettstadt
+location	Prichsenstadt
+location	Dirlewang
+location	Schlusselfeld
+location	Gerhardshofen
+location	Fuerth
+location	Erlangen
+location	Nuremberg
 location	Starnberg
 location	Munich
-location	Erlangen
+location	Raubling
+location	Schierling
+location	Neutraubling
+location	Roding
 
-# Western Pomerania
+# Mecklenburg-Vorpommern
 location	Rostock
 
 # Saxony
+location	Hammerbach
 location	Dresden
 
 ### Italy
@@ -2226,6 +2289,7 @@ location	Hochficht
 location	Tachov
 location	Domažlice
 location	Dobřany
+location	Klatovy
 location	Plzeň
 
 # Usti nad Labem
@@ -2573,6 +2637,7 @@ location	Armavir
 
 # Rostov
 location	Zernograd
+location	Rostov-On-Don
 location	Kamensk-Shakhtinsky
 
 # Ryazan
@@ -3172,6 +3237,9 @@ location	Cabedelo
 location	Maceio
 
 ### Peru
+# Moquegua
+location	Moquegua
+
 # Arequipa
 location	Arequipa
 
@@ -3667,8 +3735,10 @@ location	Madison County ID
 
 # Arizona
 location	Yuma
+location	Mohave County
 location	Maricopa County
 location	Pima County
+location	Navajo County
 
 # Montana
 location	Ravalli County
@@ -4149,6 +4219,7 @@ division	Qatar
 
 ### Iran
 division	Qom
+division	Karaj
 division	Tehran
 division	Iran
 division	Semnan
@@ -4631,6 +4702,7 @@ division	Uganda
 
 ### Mozambique
 division	Gaza
+division	Mozambique
 division	Manica
 division	Cabo Delgado
 
@@ -4888,7 +4960,6 @@ division	Bavaria
 division	Saxony-Anhalt
 division	Mecklenburg-Vorpommern
 division	Brandenburg
-division	Western Pomerania
 division	Berlin
 division	Saxony
 
@@ -5052,6 +5123,9 @@ division	Pavlovce nad Uhom
 ### Montenegro
 division	Montenegro
 
+### Albania
+division	Albania
+
 ### Hungary
 division	Győr-Moson-Sopron County
 division	Somogy County
@@ -5126,6 +5200,7 @@ division	Vilnius
 division	Utena
 
 ### Romania
+division	Sanmihaiu Roman
 division	Vrancea
 division	Hunedoara
 division	Romania
@@ -5134,6 +5209,7 @@ division	Mioveni
 division	Valcea
 division	Teleorman
 division	Giurgiu
+division	Ploiesti
 division	Bucharest
 division	Suceava
 division	Buzau
@@ -5356,6 +5432,7 @@ division	Alagoas
 division	Brazilian Cruise
 
 ### Peru
+division	Moquegua
 division	Arequipa
 division	Ica
 division	Cuzco
@@ -5757,6 +5834,7 @@ country	Bosnia and Herzegovina
 country	Poland
 country	Slovakia
 country	Montenegro
+country	Albania
 country	Hungary
 country	Serbia
 country	Kosovo

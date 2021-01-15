@@ -199,3 +199,5 @@ Ukmerge	Vilnius
 Brahmanbaria	Chattogram
 Rembau	Negeri Sembilan
 Djerba	Medenine
+Padova	Veneto
+Klatovy	Plzeň Region
