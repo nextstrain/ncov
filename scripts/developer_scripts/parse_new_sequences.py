@@ -416,23 +416,26 @@ def prepare_tweet(counts, lab_collection):
         length_prediction = [len(country) + len(", ".join(lab_collection[region][country])) for country in lab_collection[region]]
         if sum(length_prediction) > char_available:
             countries_extra = [] #extra large countries
-            while max(length_prediction) > char_available:
+            while len(length_prediction) > 0 and max(length_prediction) > char_available:
                 i = np.argmax(length_prediction)
                 countries_extra.append([countries_list[i]])
                 countries_list.pop(i)
                 length_prediction.pop(i)
 
-            countries = []
+            if len(countries_list) > 0:
+                countries = []
 
-            while(sum(length_prediction) > char_available):
-                length_prediction_sum = np.cumsum(length_prediction)
-                k = np.argmax(length_prediction_sum > char_available)
-                countries.append(countries_list[:k])
-                countries_list = countries_list[k:]
-                length_prediction = length_prediction[k:]
+                while(sum(length_prediction) > char_available):
+                    length_prediction_sum = np.cumsum(length_prediction)
+                    k = np.argmax(length_prediction_sum > char_available)
+                    countries.append(countries_list[:k])
+                    countries_list = countries_list[k:]
+                    length_prediction = length_prediction[k:]
 
-            countries.append(countries_list)
-            countries = countries + countries_extra
+                countries.append(countries_list)
+                countries = countries + countries_extra
+            else:
+                countries = countries_extra
 
             i = 1
             for countries_list in countries:
@@ -567,7 +570,7 @@ today = str(datetime.datetime.now())[:10]
 if __name__ == '__main__':
     data = read_data(path_to_input)
     data = check_dates(data, today)
-    #plot_dates(data, path_to_outputs + "plots/")
+    plot_dates(data, path_to_outputs + "plots/")
     counts = print_counts(data)
     lab_collection = collect_labs(data, table_file_name)
 

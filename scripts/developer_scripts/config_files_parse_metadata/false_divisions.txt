@@ -197,3 +197,5 @@ Dresden	Saxony
 Ignalina	Utena
 Ukmerge	Vilnius
 Brahmanbaria	Chattogram
+Rembau	Negeri Sembilan
+Djerba	Medenine
