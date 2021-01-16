@@ -24,7 +24,7 @@ def cut(s):
 
 # Read all files within given directory that start with "metadata-changes" in a sorted manner. Contents are stored in a
 # dictionary first by GISAID epi isl, then by info-type (e.g. date, division, host)
-def read_data(path):
+def read_data(path, path_to_metadata):
 
     data = {} # added and changed sequences
 
@@ -76,6 +76,22 @@ def read_data(path):
                                 if (i+j) >= len(metadata_changes):
                                     break
                                 k = metadata_changes[i+j]
+
+        if file.startswith("metadata-additions"):
+            with open(path + file) as f:
+                metadata_additions = f.readlines()
+            with open(path_to_metadata + "metadata.tsv") as f:
+                metadata = f.read()
+            header = metadata_additions[0].strip().split("\t")
+            for line in metadata_additions[1:]:
+                l = line.strip().split("\t")
+                id = l[2]
+                if id in data:
+                    print("Attention, same sequence added two times! (" + id + ")")
+                data[id] = {}
+                for i in range(len(header)):
+                    if header != "gisaid_epi_isl":
+                        data[id][header[i]] = l[i]
 
     return (data)
 
@@ -404,7 +420,7 @@ def prepare_tweet(counts, lab_collection):
 
     start_tweet = "Thanks to #opendata sharing by @GISAID, we've updated nextstrain.org/ncov with " + str(
         total) + " new #COVID19 #SARSCoV2 sequences!"
-    char_total = 270
+    char_total = 240
     char_available = char_total - len("Check out the new sequences from on ") - len("(Thanks to )") - len("1/1")
     char_available_first = char_available - len(start_tweet)
 
@@ -568,7 +584,7 @@ table_file_name = path_to_input + "Who to Tag in Nextstrain Update Posts COVID-1
 today = str(datetime.datetime.now())[:10]
 
 if __name__ == '__main__':
-    data = read_data(path_to_input)
+    data = read_data(path_to_input, "data/")
     data = check_dates(data, today)
     plot_dates(data, path_to_outputs + "plots/")
     counts = print_counts(data)
