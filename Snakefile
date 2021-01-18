@@ -87,11 +87,13 @@ rule clean:
     message: "Removing directories: {params}"
     params:
         "results ",
-        "auspice"
+        "auspice",
+        "data/metadata.tsv",
+        "data/sequences.fasta"
     shell:
         "rm -rfv {params}"
 
-config["nextalign_bin"] = "../nextalign_cli"
+config["nextalign_bin"] = "./nextalign_cli"
 
 # Include small, shared functions that help build inputs and parameters.
 include: "workflow/snakemake_rules/common.smk"
