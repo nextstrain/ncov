@@ -250,6 +250,7 @@ location	Vadodara
 location	Dhandhuka
 location	Jamnagar
 location	Chuda
+location	Anand
 location	Savli
 location	Nadiad
 location	Dholka
@@ -263,6 +264,7 @@ location	Daskroi
 location	Kapadvanj
 location	Ahmedabad
 location	Dahegam
+location	Diu
 location	Gandhinagar
 location	Bayad
 location	Kalol
@@ -512,6 +514,9 @@ location	Hanoi
 location	Hong Kong
 
 ### Indonesia
+# South Sumatra
+location	Palembang
+
 # Banten
 location	South Tangerang
 location	Tangerang
@@ -707,6 +712,8 @@ location	Siyathemba
 # Eastern Cape
 location	Sarah Baartman
 location	Nelson Mandela Bay
+location	Amathole
+location	Buffalo City
 location	Chris Hani
 
 # KwaZulu-Natal
@@ -1306,6 +1313,7 @@ location	Morlaix
 location	Saint Pierre Quiberon
 location	Arradon
 location	Pordic
+location	Plerin
 location	Saint-Brieuc
 location	Vannes
 location	Sene
@@ -1338,6 +1346,7 @@ location	Rouziers-de-Touraine
 location	Tours
 location	Blois
 location	Abondant
+location	Orléans
 location	Angers
 location	Craon
 
@@ -1464,6 +1473,7 @@ location	Maizières Les Metz
 location	Talange
 location	Metz
 location	Nancy
+location	Epinal
 location	Ottonville
 location	Ham Sous Varsberg
 location	Munster
@@ -1471,13 +1481,17 @@ location	Spicheren
 location	Sarreguemines
 location	Thann
 location	Soultzeren
+location	Saint-Ulrich
 location	Murbach
 location	Guebwiller
 location	Soultz Haut Rhin
+location	Vieux Ferette
 location	Liepvre
 location	Ingersheim
 location	Ensisheim
 location	Reguisheim
+location	Folgensbourg
+location	Hegenheim
 location	Biesheim
 location	Brumath
 location	Strasbourg
@@ -1493,9 +1507,6 @@ location	Frejus
 location	Saint-Vallier-de-Thiey
 location	Cannes
 location	Nice
-
-# Lorraine
-location	Epinal
 
 # Corse
 location	Porto-Vecchio
@@ -2078,6 +2089,71 @@ location	Dalen
 # Luxembourg
 location	Luxembourg
 
+### Switzerland
+# Vaud
+location	Chavannes-Renens
+location	Lutry
+
+# Jura
+location	Saignelegier
+
+# Solothurn
+location	Solothurn
+location	Büsserach
+location	Breitenbach
+location	Hochwald
+location	Flüh
+
+# Bern
+location	Oberhofen
+location	Wasen Im Emmental
+
+# Basel-Stadt
+location	Basel
+location	Riehen
+location	Bettingen
+
+# Basel-Land
+location	Zwingen
+location	Allschwil
+location	Ettingen
+location	Oberwil
+location	Therwil
+location	Binningen
+location	Bottmingen
+location	Pfeffingen
+location	Reinach
+location	Aesch
+location	Duggingen
+location	Münchenstein
+location	Arlesheim
+location	Birsfelden
+location	Muttenz
+location	Pratteln
+location	Seltisberg
+location	Liestal
+location	Bubendorf
+
+# Aargau
+location	Staffelbach
+location	Oftringen
+location	Wegenstetten
+location	Magden
+location	Möhlin
+
+# Lucerne
+location	Horw
+
+# Zürich
+location	Zürich
+
+# Schwyz
+location	Wollerau
+
+# Graubünden
+location	Flims Dorf
+location	Champfer
+
 ### Norway
 # Vestland
 location	Bergen
@@ -2093,12 +2169,14 @@ location	Koblenz
 location	Vallendar
 location	Kaiserslautern
 location	Nastatten
+location	Wörth Am Rhein
 location	Mainz
 location	Germersheim
 
 # North Rhine Westphalia
 location	Heinsberg
 location	Heinsberg District
+location	Krefeld
 location	Kaarst
 location	Duesseldorf
 location	Muelheim
@@ -2113,6 +2191,8 @@ location	Bielefeld
 location	Hannover
 
 # Baden-Wuerttemberg
+location	Lörrach
+location	Steinen
 location	Konstanz
 location	Bad Krozingen
 location	Tuttlingen
@@ -2425,8 +2505,15 @@ location	Brodno-Warszawa
 location	Radom
 
 ### Slovakia
+# Nitra
+location	Hurbanovo
+
 # Zilina
 location	Martincek
+location	Trstena
+
+# Banska Bystrica
+location	Zelovce
 
 # Kosice
 location	Zehra
@@ -3043,6 +3130,7 @@ location	Linha Nova
 location	Flores Da Cunha
 location	Canoas BR
 location	Caxias do Sul
+location	Esteio
 location	Novo Hamburgo
 location	São Leopoldo
 location	Morro Reuter
@@ -3091,12 +3179,14 @@ location	Herculandia
 location	Birigui
 location	Fernandopolis
 location	Marilia
+location	Ribeirao do Sul
 location	Cajati
 location	Ribeirao Preto
 location	Piracicaba
 location	Juquia
 location	Rio Claro
 location	Sorocaba
+location	Santa Barbara D'Oeste
 location	Limeira
 location	Araras
 location	Americana
@@ -3316,7 +3406,7 @@ location	Esmeraldas
 # Azuay
 location	Cuenca EC
 
-# Santo Domingo
+# Santo Domingo de los Tsachilas
 location	Santo Domingo
 
 # Bolivar EC
@@ -3637,6 +3727,7 @@ location	Southeast Alaska
 
 # Oregon
 location	Coos County
+location	Polk County OR
 location	Yamhill County
 location	Douglas County OR
 location	Columbia County OR
@@ -3650,6 +3741,7 @@ location	Clackamas County
 location	Klamath County
 location	Hood River County
 location	Wasco County
+location	Deschutes County
 location	Sherman County
 location	Umatilla County
 
@@ -3667,6 +3759,7 @@ location	Lewis County WA
 location	Pierce County WA
 location	Snohomish County
 location	King County
+location	Seattle
 location	Skagit County
 location	Whatcom County
 location	Kittitas County
@@ -3728,6 +3821,7 @@ location	Imperial County
 location	Riverside
 
 # Nevada
+location	Las Vegas
 location	Clark County NV
 
 # Idaho
@@ -3761,6 +3855,7 @@ location	Bailey County
 location	Oldham County
 location	Deaf Smith County
 location	Ector County
+location	Hockley County
 location	Lubbock County
 location	Crosby County
 location	Val Verde County
@@ -3783,6 +3878,7 @@ location	Comal County
 location	Hidalgo County
 location	Wilson County
 location	Jim Wells County
+location	Jim Wells
 location	Live Oak County
 location	Hays County
 location	Hood County
@@ -3980,6 +4076,9 @@ location	Marion County IN
 
 # Kentucky
 location	Mccracken County
+
+# Michigan
+location	Alpena County
 
 # Georgia
 location	Cobb
@@ -4326,6 +4425,7 @@ division	Rangpur
 
 ### Myanmar
 division	Yangon
+division	Nay Pyi Taw
 division	Myanmar
 
 ### Thailand
@@ -4403,6 +4503,7 @@ division	Hong Kong
 division	Aceh
 division	North Sumatra
 division	Bengkulu
+division	South Sumatra
 division	Riau Islands
 division	Lampung
 division	Banten
@@ -4821,7 +4922,6 @@ division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
 division	Grand Est
 division	Provence-Alpes-Côte d'Azur
-division	Lorraine
 division	Corse
 
 ### Belgium
@@ -5115,6 +5215,7 @@ division	Surany
 division	Levice
 division	Zilina
 division	Martin
+division	Banska Bystrica
 division	Slovakia
 division	Doľany
 division	Kosice
@@ -5149,6 +5250,7 @@ division	Békés County
 division	Hajdú-Bihar County
 division	Debrecen
 division	Szabolcs-Szatmár-Bereg County
+division	Szabolcs-Szatmár Bereg County
 
 ### Serbia
 division	Raška District
@@ -5463,7 +5565,7 @@ division	Los Rios
 division	Esmeraldas
 division	Ecuador
 division	Azuay
-division	Santo Domingo
+division	Santo Domingo de los Tsachilas
 division	Bolivar EC
 division	Cañar
 division	Zamora-Chinchipe

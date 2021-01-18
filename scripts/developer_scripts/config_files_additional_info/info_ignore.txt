@@ -56,3 +56,4 @@ International traveler
 Patient seeking testing in a local hospital
 Hotel
 Hospital
+There is no abroad travel history in the last month.

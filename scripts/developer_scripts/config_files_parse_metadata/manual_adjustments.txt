@@ -32,3 +32,6 @@ Asia/Israel/*/Moi'In Ilit	Asia/Israel/Judea and Samaria/Modi'in Illit
 Asia/Israel/*/Modi'In Ilit	Asia/Israel/Judea and Samaria/Modi'in Illit
 Africa/Mosambik/Munich/*	Africa/Mozambique/Mozambique/*
 Europe/Albania/Moerfelden-Walldorf/*	Europe/Albania/Albania/*
+Europe/France/Grand Est/Brest	Europe/France/Bretagne/Brest
+Europe/France/Centre Val de Loire/Nantes	Europe/France/Pays de la Loire/Nantes
+Europe/France/Lorraine/Epinal	Europe/France/Grand Est/Epinal

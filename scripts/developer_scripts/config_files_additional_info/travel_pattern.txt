@@ -41,3 +41,4 @@ Returned from the XXX
 Arrived from the XXX
 Traveled from XXX
 Hotel quarantine: travelled from XXX
+Travel Returnee from XXX
