@@ -119,7 +119,6 @@ Raanana	Central District
 Pardesia	Central District
 Netanya	Central District
 Tirat Zvi	North District
-Haifa	Haifa District
 Tveria	North District
 Hukuk	North District
 Zefat	North District
@@ -193,3 +192,15 @@ Rio Branco	Cerro Largo
 Chuy	Rocha
 Ain Aouda	Rabat
 Cox'S Bazar	Chattogram
+Ksar Hellal	Monastir
+Dresden	Saxony
+Ignalina	Utena
+Ukmerge	Vilnius
+Brahmanbaria	Chattogram
+Rembau	Negeri Sembilan
+Djerba	Medenine
+Padova	Veneto
+Klatovy	Plzeň Region
+Trstena	Zilina
+Zelovce	Banska Bystrica
+Hurbanovo	Nitra

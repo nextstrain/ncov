@@ -23,7 +23,6 @@ Cartago
 Lake County
 Iowa County
 Douglas County
-Cordoba
 Cuenca
 Pierce County
 Taylor County
@@ -45,3 +44,12 @@ Kings County
 Allegany County
 Concepcion
 Canoas
+San Fernando
+Santa Fe
+San Isidro
+Torres
+Cordoba
+Valencia
+Middlesex County
+Lewis County
+Lincoln County

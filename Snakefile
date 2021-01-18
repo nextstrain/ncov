@@ -1,5 +1,6 @@
 import copy
 from datetime import date
+import os
 from os import environ
 from socket import getfqdn
 from getpass import getuser
@@ -67,6 +68,13 @@ if config.get("active_builds"):
     BUILD_NAMES = config["active_builds"].split(",")
 else:
     BUILD_NAMES = list(config["builds"].keys())
+
+# Construct the correct absolute path to the conda environment based on the
+# top-level Snakefile's directory and a path defined in the Snakemake config
+# that is relative to that top-level directory.
+SNAKEMAKE_DIR = os.path.dirname(workflow.snakefile)
+CONDA_ENV_PATH = os.path.join(SNAKEMAKE_DIR, config["conda_environment"])
+config["conda_environment"] = CONDA_ENV_PATH
 
 # Define patterns we expect for wildcards.
 wildcard_constraints:

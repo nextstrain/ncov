@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from pandas.plotting import register_matplotlib_converters
 import random
+import numpy as np
+import math
 register_matplotlib_converters()
 
 
@@ -22,7 +24,7 @@ def cut(s):
 
 # Read all files within given directory that start with "metadata-changes" in a sorted manner. Contents are stored in a
 # dictionary first by GISAID epi isl, then by info-type (e.g. date, division, host)
-def read_data(path):
+def read_data(path, path_to_metadata):
 
     data = {} # added and changed sequences
 
@@ -74,6 +76,22 @@ def read_data(path):
                                 if (i+j) >= len(metadata_changes):
                                     break
                                 k = metadata_changes[i+j]
+
+        if file.startswith("metadata-additions"):
+            with open(path + file) as f:
+                metadata_additions = f.readlines()
+            with open(path_to_metadata + "metadata.tsv") as f:
+                metadata = f.read()
+            header = metadata_additions[0].strip().split("\t")
+            for line in metadata_additions[1:]:
+                l = line.strip().split("\t")
+                id = l[2]
+                if id in data:
+                    print("Attention, same sequence added two times! (" + id + ")")
+                data[id] = {}
+                for i in range(len(header)):
+                    if header != "gisaid_epi_isl":
+                        data[id][header[i]] = l[i]
 
     return (data)
 
@@ -252,7 +270,7 @@ def collect_labs(data, table_file_name):
     for region in submitting_labs:
         if region not in lab_collection:
             lab_collection[region] = {}
-        for country in submitting_labs[region]:
+        for country in sorted(submitting_labs[region]):
             if country not in lab_collection[region]:
                 lab_collection[region][country] = []
 
@@ -368,7 +386,6 @@ def filter_for_date_region(data, path_to_outputs, params):
                 myfile.write(date + ": " + str(special_strains[country][date]) + "\n")
             myfile.write("\n")
 
-
 def prepare_tweet(counts, lab_collection):
 
     links = {
@@ -388,46 +405,81 @@ def prepare_tweet(counts, lab_collection):
         ("New sequences from ", " can be seen on ")
     ]
 
-    the = ["United Kingdom", "USA", "Democratic Republic of the Congo"]
+    starters_split = [
+        ("Check out the new sequences from ", " below"),
+        ("New sequences from ", " can be found below"),
+        ("You can see the new sequences from ", " below"),
+        ("You can find the new sequences from ", " below"),
+        ("New sequences from ", " can be seen below")
+    ]
 
-    total = 0
-    tweet_collection = {}
-    lengths = {}
-    with open(path_to_outputs + "tweet_resources.txt", "a") as out:
-        out.write("===============================\n\n")
-        for region in lab_collection:
-            countries = []
-            handles = []
-            for country in sorted(lab_collection[region]):
-                number = sum(counts[country].values())
-                total += number
-                s = ""
-                if country in the:
-                    s += "the "
-                s += country + " (" + str(number) + ")"
-                labs = lab_collection[region][country]
-                countries.append(s)
-                for l in labs:
-                    if l not in handles:
-                        handles.append(l)
-            tweet_collection[region] = (countries, handles)
+    the = ["USA", "United Kingdom"]
 
-            if len(countries) > 1:
-                c = ", ".join(countries[:-1]) + " and " + countries[-1]
-            else:
-                c = countries[0]
-            h = ", ".join(handles)
-            out.write(c + "\n\n")
-            out.write("(Thanks to " + h + ")" + "\n\n\n")
-            lengths[region] = len(c) + len(h) + len(links[region])
-        out.write("===============================\n\n")
+    counts_country = {region: {country: sum(counts[country].values()) for country in lab_collection[region]} for region in lab_collection}
+    total = sum([sum(counts_country[region].values()) for region in counts_country])
 
-    tweet = []
-
-    start_tweet = "Thanks to #opendata sharing by @GISAID, we've updated nextstrain.org/ncov with " + str(total) + " new #COVID19 #SARSCoV2 sequences!"
-    char_total = 270
+    start_tweet = "Thanks to #opendata sharing by @GISAID, we've updated nextstrain.org/ncov with " + str(
+        total) + " new #COVID19 #SARSCoV2 sequences!"
+    char_total = 240
     char_available = char_total - len("Check out the new sequences from on ") - len("(Thanks to )") - len("1/1")
     char_available_first = char_available - len(start_tweet)
+
+    tweet_collection_full = {}
+    tweet_collection_split = {}
+    lengths = {}
+    for region in lab_collection:
+        countries_list = list(lab_collection[region].keys())
+        length_prediction = [len(country) + len(", ".join(lab_collection[region][country])) for country in lab_collection[region]]
+        if sum(length_prediction) > char_available:
+            countries_extra = [] #extra large countries
+            while len(length_prediction) > 0 and max(length_prediction) > char_available:
+                i = np.argmax(length_prediction)
+                countries_extra.append([countries_list[i]])
+                countries_list.pop(i)
+                length_prediction.pop(i)
+
+            if len(countries_list) > 0:
+                countries = []
+
+                while(sum(length_prediction) > char_available):
+                    length_prediction_sum = np.cumsum(length_prediction)
+                    k = np.argmax(length_prediction_sum > char_available)
+                    countries.append(countries_list[:k])
+                    countries_list = countries_list[k:]
+                    length_prediction = length_prediction[k:]
+
+                countries.append(countries_list)
+                countries = countries + countries_extra
+            else:
+                countries = countries_extra
+
+            i = 1
+            for countries_list in countries:
+
+                h = []
+                for country in countries_list:
+                    for l in lab_collection[region][country]:
+                        if l not in h:
+                            h.append(l)
+                c = ["the " + country + " (" + str(counts_country[region][country]) + ")" if country in the else country + " (" + str(counts_country[region][country]) + ")" for country in countries_list]
+                r = region
+                if i > 1:
+                    r += str(i)
+                tweet_collection_split[r] = (c, h)
+                i += 1
+
+        else:
+            h = []
+            for country in lab_collection[region]:
+                for l in lab_collection[region][country]:
+                    if l not in h:
+                        h.append(l)
+
+            c = ["the " + country + " (" + str(counts_country[region][country]) + ")" if country in the else country + " (" + str(counts_country[region][country]) + ")" for country in countries_list]
+            tweet_collection_full[region] = (c, h)
+            lengths[region] = len(", ".join(c)) + len(", ".join(h)) + len(links[region])
+
+    tweet = []
 
     first_region = min(lengths)
     for region, length in sorted(lengths.items(), key=lambda x: x[1]):
@@ -436,11 +488,11 @@ def prepare_tweet(counts, lab_collection):
         first_region = region
 
 
-    if len(tweet_collection[first_region][0]) > 1:
-        c = ", ".join(tweet_collection[first_region][0][:-1]) + " and " + tweet_collection[first_region][0][-1]
+    if len(tweet_collection_full[first_region][0]) > 1:
+        c = ", ".join(tweet_collection_full[first_region][0][:-1]) + " and " + tweet_collection_full[first_region][0][-1]
     else:
-        c = tweet_collection[first_region][0][0]
-    h = ", ".join(tweet_collection[first_region][1])
+        c = tweet_collection_full[first_region][0][0]
+    h = ", ".join(tweet_collection_full[first_region][1])
 
     s = start_tweet + "\n\n"
     s += "Check out the new sequences from " + c + " on " + links[first_region] + ".\n\n"
@@ -462,15 +514,15 @@ def prepare_tweet(counts, lab_collection):
             best_partner = region
 
         lengths.pop(current_region)
-        c = tweet_collection[current_region][0]
-        h = tweet_collection[current_region][1]
+        c = tweet_collection_full[current_region][0]
+        h = tweet_collection_full[current_region][1]
         p = "[pic_" + current_region.replace(" ", "") + "]"
         l = links[current_region]
         if best_partner != "":
             current_length += lengths[best_partner]
             lengths.pop(best_partner)
-            c += tweet_collection[best_partner][0]
-            h += tweet_collection[best_partner][1]
+            c += tweet_collection_full[best_partner][0]
+            h += tweet_collection_full[best_partner][1]
             l += " and " + links[best_partner]
             p += " " + "[pic_" + best_partner.replace(" ", "") + "]"
 
@@ -489,7 +541,32 @@ def prepare_tweet(counts, lab_collection):
         s += "(Thanks to " + h + ")\n\n"
         tweet.append((s, "\n\n" + p))
 
+    for region in tweet_collection_split:
+        c = tweet_collection_split[region][0]
+        h = tweet_collection_split[region][1]
+        p = "[pic_" + region.replace(" ", "") + "]"
+        if region in links:
+            starter = random.choice(starters)
+            l = links[region]
+        else:
+            starter = random.choice(starters_split)
+            l = ""
+        if len(c) > 1:
+            c = ", ".join(c[:-1]) + " and " + c[-1]
+        else:
+            c = c[0]
+
+        if len(", ".join(c)) + len(", ".join(h)) + len(l) > char_available:
+            h = " ".join(h)
+        else:
+            h = ", ".join(h)
+
+        s = starter[0] + c + starter[1] + l + ".\n\n"
+        s += "(Thanks to " + h + ")\n\n"
+        tweet.append((s, "\n\n" + p))
+
     with open(path_to_outputs + "tweet_resources.txt", "a") as out:
+        out.write("===============================\n\n")
         for i, t in enumerate(tweet):
             (s, p) = t
             out.write(s + str(i+1) + "/" + str(len(tweet)) + p + "\n\n\n")
@@ -507,7 +584,7 @@ table_file_name = path_to_input + "Who to Tag in Nextstrain Update Posts COVID-1
 today = str(datetime.datetime.now())[:10]
 
 if __name__ == '__main__':
-    data = read_data(path_to_input)
+    data = read_data(path_to_input, "data/")
     data = check_dates(data, today)
     plot_dates(data, path_to_outputs + "plots/")
     counts = print_counts(data)

@@ -70,3 +70,9 @@ Pskov Oblast	(Pskov)
 Biobío	CL
 Puntarenas	CR
 Rio Grande do Sul	BR
+Buenos Aires	AR
+Santa Fe	AR
+Cordoba	AR
+Cordoba AR	AR
+Los Rios	EC
+Comunitat Valenciana	ES

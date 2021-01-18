@@ -19,17 +19,18 @@ main() {
     local src="${1:?A source file is required as the first argument.}"
     local dst="${2:?A destination s3:// URL is required as the second argument.}"
 
-    local src_hash="$("$bin/sha256sum" < "$src")"
     local s3path="${dst#s3://}"
     local bucket="${s3path%%/*}"
     local key="${s3path#*/}"
 
-    local dst_hash="$(aws s3api head-object --bucket "$bucket" --key "$key" --query Metadata.sha256sum --output text)"
+    local src_hash dst_hash no_hash=0000000000000000000000000000000000000000000000000000000000000000
+    src_hash="$("$bin/sha256sum" < "$src")"
+    dst_hash="$(aws s3api head-object --bucket "$bucket" --key "$key" --query Metadata.sha256sum --output text || echo "$no_hash")"
 
     echo "$src_hash $src"
     echo "$dst_hash $dst"
 
-    if [[ $src_hash != $dst_hash ]]; then
+    if [[ $src_hash != "$dst_hash" ]]; then
         echo "Uploading $src → $dst"
         if [[ "$dst" == *.gz ]]; then
             gzip -c "$src"
@@ -37,7 +38,7 @@ main() {
             xz -2 -c "$src"
         else
             cat "$src"
-        fi | aws s3 cp --no-progress - "$dst" --metadata sha256sum="$src_hash" $(content-type "$dst") $(content-encoding "$dst")
+        fi | aws s3 cp --no-progress - "$dst" --metadata sha256sum="$src_hash" "$(content-type "$dst")" "$(content-encoding "$dst")"
 
         if [[ $quiet == 1 ]]; then
             echo "Quiet mode. No Slack notification sent."

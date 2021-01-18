@@ -1,0 +1,59 @@
+Hospital
+Local
+imported
+Local from unknow
+Local from health
+Local from social
+Local from police
+Local from airport
+Hospital Delfina Torres Concha
+Dermatologist - contact with an infected pacient
+OKD Darkov
+15/7 - 19/7 accommodation in a private cottage, contact with a positive
+Distorted ability to smell
+Outbreak in Ministry of Health
+unknown
+Patient with severe combined immunodeficiency (SCID)
+Nursing home establishments for aged and dependent individuals
+Migrants ship
+Unknown
+same patient as for sequence EPI_ISL_583466
+same patient as for sequence EPI_ISL_583469
+same patient as for sequence EPI_ISL_583472
+same patient as for sequence EPI_ISL_583475
+same patient as for sequence EPI_ISL_583427
+same patient as for sequence EPI_ISL_583479
+same patient as for sequence EPI_ISL_583428
+same patient as for sequence EPI_ISL_583431
+same patient as for sequence EPI_ISL_583439
+same patient as for sequence EPI_ISL_583444
+same patient as for sequence EPI_ISL_583447
+same patient as for sequence EPI_ISL_583456
+same patient as for sequence EPI_ISL_583461
+Airport Quarantine Station in Japan
+e.g. Patient infected while traveling in ….
+Jackson Memorial Hospital
+TRANSP
+QPS-MIA
+Sunset Pediatric
+Ausilio Mutuo
+Distorted ability to smell and taste
+Obesity
+Diarrhoea
+Imported case
+Symptomatic
+Asymptomatic
+General discomfort, headache, cough, myalgia, fever
+General discomfort, headache, cough, odynophagia
+Headache, cough, odynophagia
+General discomfort, headache, cough, myalgia, dysgeusia, fever
+Patient infected while traveling
+Traveled
+Airplane
+Airport
+Patient with travel history
+International traveler
+Patient seeking testing in a local hospital
+Hotel
+Hospital
+There is no abroad travel history in the last month.

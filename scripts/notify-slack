@@ -2,7 +2,7 @@
 set -euo pipefail
 
 : "${SLACK_TOKEN:?The SLACK_TOKEN environment variable is required.}"
-: "${SLACK_CHANNELS:?The SLACK_CHANNELS environment variable is required.}"
+: "${SLACK_CHANNEL:?The SLACK_CHANNEL environment variable is required.}"
 
 upload=0
 args=()
@@ -24,7 +24,7 @@ if [[ "$upload" == 1 ]]; then
     echo "Uploading data to Slack with the message: $text"
     curl https://slack.com/api/files.upload \
         --header "Authorization: Bearer $SLACK_TOKEN" \
-        --form-string channels="$SLACK_CHANNELS" \
+        --form-string channels="$SLACK_CHANNEL" \
         --form-string title="$text" \
         --form-string filename="$text" \
         --form file=@/dev/stdin \
@@ -36,7 +36,7 @@ else
     echo "Posting Slack message: $text"
     curl https://slack.com/api/chat.postMessage \
         --header "Authorization: Bearer $SLACK_TOKEN" \
-        --form-string channel="$SLACK_CHANNELS" \
+        --form-string channel="$SLACK_CHANNEL" \
         --form-string text="$text" \
         --fail --silent --show-error \
         --http1.1 \

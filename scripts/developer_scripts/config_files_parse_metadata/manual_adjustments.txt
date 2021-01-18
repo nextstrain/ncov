@@ -23,3 +23,15 @@ Europe/Belgium/Saint-Saulve/*	Europe/France/Hauts de France/Saint-Saulve
 Europe/Belgium/Mepel/*	Europe/Netherlands/Drenthe/Meppel
 Europe/Belgium/Flines-lès-Mortagne/*	Europe/France/Hauts de France/Flines-lès-Mortagne
 North America/USA/New York/Out-of-State	North America/USA/New York/
+Europe/France/Champagne Ardenne/Troyes	Europe/France/Grand Est/Troyes
+South America/Brazil/Paraiba/Itambe	South America/Brazil/Pernambuco/Itambe
+Asia/Israel/*/Ramat Hasharon	Asia/Israel/Tel Aviv District/Ramat-Hasharon
+Asia/Israel/*/Or Yehuda	Asia/Israel/Tel Aviv District/Or-Yehuda
+Asia/Israel/*/Beni Brak	Asia/Israel/Tel Aviv District/Bnei Brak
+Asia/Israel/*/Moi'In Ilit	Asia/Israel/Judea and Samaria/Modi'in Illit
+Asia/Israel/*/Modi'In Ilit	Asia/Israel/Judea and Samaria/Modi'in Illit
+Africa/Mosambik/Munich/*	Africa/Mozambique/Mozambique/*
+Europe/Albania/Moerfelden-Walldorf/*	Europe/Albania/Albania/*
+Europe/France/Grand Est/Brest	Europe/France/Bretagne/Brest
+Europe/France/Centre Val de Loire/Nantes	Europe/France/Pays de la Loire/Nantes
+Europe/France/Lorraine/Epinal	Europe/France/Grand Est/Epinal

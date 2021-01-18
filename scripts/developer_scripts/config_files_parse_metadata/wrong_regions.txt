@@ -4,3 +4,4 @@ Turkey	Europe
 Panama	North America
 Egypt	Africa
 France	Europe
+Guatemala	North America
