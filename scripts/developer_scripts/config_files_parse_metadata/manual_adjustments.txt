@@ -35,3 +35,5 @@ Europe/Albania/Moerfelden-Walldorf/*	Europe/Albania/Albania/*
 Europe/France/Grand Est/Brest	Europe/France/Bretagne/Brest
 Europe/France/Centre Val de Loire/Nantes	Europe/France/Pays de la Loire/Nantes
 Europe/France/Lorraine/Epinal	Europe/France/Grand Est/Epinal
+South America/Bolivia/Santa Cruz-El Torno/*	South America/Bolivia/Santa Cruz/El Torno
+South America/Bolivia/Santa Cruz-Pailon/*	South America/Bolivia/Santa Cruz/Pailon

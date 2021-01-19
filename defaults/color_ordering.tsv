@@ -522,6 +522,7 @@ location	South Tangerang
 location	Tangerang
 
 # West Java
+location	Bogor
 location	Depok
 location	Purwakarta
 location	Bandung
@@ -531,15 +532,20 @@ location	Tasikmalaya
 # Yogyakarta
 location	Sleman
 
+# Central Java
+location	Purwokerto
+
 # East Java
 location	Tulungagung
-location	Purwokerto
 location	Sidoarjo
 location	Surabaya
 location	Pasuruan
 
 # East Kalimantan
 location	Samarinda
+
+# Sulawesi Selatan
+location	Makassar
 
 # East Nusa Tenggara
 location	Kupang
@@ -3069,6 +3075,11 @@ location	Antofagasta
 # Arica and Parinacota
 location	Arica
 
+### Bolivia
+# Santa Cruz
+location	El Torno
+location	Pailon
+
 ### Brazil
 # Amazonas BR
 location	Carauari
@@ -3219,6 +3230,7 @@ location	Diadema
 location	Mairipora
 location	Sao Caetano do Sul
 location	Sao Bernardo do Campo
+location	Atibaia
 location	Braganca Paulista
 location	Santo Andre
 location	Guarulhos
@@ -3233,9 +3245,11 @@ location	Santa Isabel
 location	Mogi Das Cruzes
 location	Guararema
 location	Jacareí
+location	Sao Jose Dos Campos
 location	Taubate
 location	Caraguatatuba
 location	Sao Sebastiao
+location	Lorena
 location	Cunha
 
 # Rio de Janeiro
@@ -4095,11 +4109,19 @@ location	Miami-Dade County
 location	Palm Beach County
 
 # South Carolina
+location	Anderson County
+location	Greenville County
+location	Spartanburg County
 location	Fairfield County SC
 location	Columbia SC
 location	Richland County SC
+location	Beaufort County
+location	Dorchester County
+location	Darlington County
 location	Berkeley County
+location	Charleston County
 location	Williamsburg County
+location	Florence County
 location	Georgetown County
 location	Horry County
 
@@ -4521,6 +4543,7 @@ division	South Kalimantan
 division	North Kalimantan
 division	East Kalimantan
 division	West Nusa Tenggara
+division	Sulawesi Selatan
 division	South Sulawesi
 division	East Nusa Tenggara
 division	North Sulawesi
@@ -4538,7 +4561,10 @@ division	New Taipei City
 division	Keelung
 
 ### Philippines
+division	Zamboanga Peninsula
 division	Philippines
+division	Mimaropa
+division	Calabarzon
 division	National Capital Region
 division	Manila
 
@@ -5250,10 +5276,14 @@ division	Békés County
 division	Hajdú-Bihar County
 division	Debrecen
 division	Szabolcs-Szatmár-Bereg County
-division	Szabolcs-Szatmár Bereg County
 
 ### Serbia
+division	Vranje
+division	Medvedja
+division	Leskovac
+division	Pirot
 division	Raška District
+division	Nis
 division	Rasina District
 division	Zlatibor District
 division	Serbia
@@ -5501,6 +5531,13 @@ division	Coquimbo
 division	Atacama
 division	Antofagasta
 division	Arica and Parinacota
+
+### Bolivia
+division	Tarija
+division	Oruro
+division	Santa Cruz
+division	Beni
+division	Pando
 
 ### South America
 division	South America
@@ -5959,6 +5996,7 @@ country	Russia
 country	Argentina
 country	Uruguay
 country	Chile
+country	Bolivia
 country	South America
 country	Brazil
 country	Peru
