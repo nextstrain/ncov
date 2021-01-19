@@ -1538,6 +1538,7 @@ location	Ettelgem
 
 # Brugge
 location	Torhout
+location	Oostkamp
 location	Assebroek
 location	Blankenberge
 location	Knokke-Heist
@@ -1703,6 +1704,7 @@ location	Braine-l'Alleud
 location	Lillois-Witterzée
 location	Thines
 location	Waterloo
+location	Vieux-Genappe
 location	Loupoigne
 location	Genappe
 location	Lasne
@@ -1773,6 +1775,7 @@ location	Vremde
 location	Wommelgem
 location	's-Gravenwezel
 location	Ranst
+location	Schilde
 location	Broechem
 location	Zoersel
 location	Malle
@@ -1784,6 +1787,7 @@ location	Affligem
 location	Asse
 location	Halle
 location	Dilbeek
+location	Huizingen
 location	Londerzeel
 location	Wemmel
 location	Beersel
@@ -1882,6 +1886,7 @@ location	Linden
 location	Bierbeek
 location	Begijnendijk
 location	Lubbeek
+location	Meldert
 location	Boutersem
 location	Aarschot
 location	Langdorp
@@ -1918,6 +1923,7 @@ location	Temploux
 location	Grand-Leez
 location	Bovesse
 location	Bois-de-Villers
+location	Dhuy
 location	Erpent
 location	Champion
 location	Éghezée
@@ -1965,6 +1971,7 @@ location	Burdinne
 location	Couthuin
 location	Wanze
 location	Antheit
+location	Amay
 location	Yernée-Fraineux
 
 # Waremme
@@ -2111,6 +2118,7 @@ location	Hochwald
 location	Flüh
 
 # Bern
+location	Kallnach
 location	Oberhofen
 location	Wasen Im Emmental
 
@@ -4775,7 +4783,7 @@ division	Bioko Norte
 division	Libreville
 
 ### Cameroon
-division	Yaounde
+division	Yaoundé
 division	Cameroon
 
 ### Republic of the Congo
