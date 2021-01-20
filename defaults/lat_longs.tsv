@@ -5,6 +5,7 @@ location	Aarschot	50.986584	4.868284
 location	Aartselaar	51.133297	4.3870241
 location	Abakan	53.7209024	91.442435
 location	Abbotsford	49.0521162	-122.329479
+location	Abmangol	35.6729716	51.4379804
 location	Abondant	48.790785	1.420178
 location	Accra	5.591875	-0.184552
 location	Adajan	21.2651204	72.84991282218647
@@ -420,6 +421,7 @@ location	Breclav	48.7594008	16.8813137
 location	Bree	51.138202	5.631877
 location	Breendonk	51.042441	4.321611
 location	Breitenbach	47.4078339	7.5442563
+location	Brentwood County	37.9317766	-121.6960266
 location	Bressoux	50.639339	5.605728
 location	Brest	48.398586	-4.493766
 location	Brewster County	29.8462742	-103.2400734
@@ -618,6 +620,7 @@ location	Chippewa County WI	45.0740585	-91.2947258
 location	Chippewa Falls	44.931261	-91.389704
 location	Chittagong	22.3307998	91.8412863
 location	Choconta	5.146017	-73.683678
+location	Cholet	47.0617293	-0.8801349
 location	Chomutov	50.4606456	13.4178324
 location	Chongqing	29.858721	107.375623
 location	Choryasi	21.309529	72.957233
@@ -651,6 +654,8 @@ location	Clayton County	42.8547706	-91.3667151
 location	Clayton PA	9.01106725	-79.57271645992734
 location	Clermont-Ferrand	45.7774551	3.0819427
 location	Clinton County	44.703277	-73.705166
+location	Clinton County IL	38.5896187	-89.420064
+location	Clinton County NY	44.7278943	-73.6686982
 location	Cluses	46.0603171	6.5804218
 location	Cobb	33.9373948	-84.5732006
 location	Coca	-0.4721804	-76.9837216
@@ -1308,6 +1313,7 @@ location	Itatiba	-22.9965861	-46.8412042
 location	Ittre	50.6501961	4.2637077
 location	Ivanovo	56.9984452	40.9737394
 location	Ivdel	60.6973287	60.4172583
+location	Ivry-sur-Seine	48.8122302	2.3872525
 location	Ixelles	50.826707	4.374329
 location	Iznalloz	37.3926	-3.5199
 location	Jablonec nad Nisou	50.7240899	15.1710958
@@ -1405,6 +1411,7 @@ location	Kampenhout	50.945063	4.567367
 location	Kamrej	21.2797773	72.948269
 location	Kanawha	39.1989653	-81.4601209
 location	Kane County	41.923434	-88.4248315
+location	Kankakee County	41.1253903	-87.848682
 location	Kannaland	-33.61886	21.227504095340592
 location	Kannauj	26.999697400000002	79.68861212775874
 location	Kanpur	26.4609135	80.3217588
@@ -1596,6 +1603,7 @@ location	Laviana	43.23204335	-5.547717886512423
 location	Lavras do Sul	-30.8118057	-53.8982856
 location	Laxmipur Sadar	22.9428644	90.9181638
 location	Le Chesnay	48.8278506	2.1319603
+location	Le Havre	49.4938975	0.1079732
 location	Le Pecq	48.8973	2.1064
 location	Le Roeulx	50.505667	4.104105
 location	Lecce	40.354894	18.168455
@@ -1721,6 +1729,7 @@ location	Madera County	37.1716264	-119.7737991
 location	Madison	43.062839	-89.448317
 location	Madison County	43.7740801	-111.6304151
 location	Madison County ID	43.7740801	-111.6304151
+location	Madison County IL	38.811063	-89.9017112
 location	Madison County NY	42.875882	-75.6802581
 location	Madison CT	41.356100	-72.642246
 location	Madison Parish	32.3614697	-91.255051
@@ -2255,6 +2264,7 @@ location	Peralta	42.337833	-1.799176
 location	Pereira	4.804771	-75.717885
 location	Perez Zeledon	9.355504	-83.624556
 location	Perm	58.014965	56.246723
+location	Perry County	38.0772859	-89.3760499
 location	Perth	-31.942741	115.841171
 location	Peruibe	-24.3218105	-46.9977452
 location	Péruwelz	50.535464	3.566154
@@ -2430,6 +2440,7 @@ location	Ramla	31.9279988	34.8623473
 location	Ramsau im Zillertal	47.203746	11.876947
 location	Ramsel	51.031568	4.832886
 location	Rancagua	-34.170249	-70.7407427
+location	Randolph County	38.0472916	-89.8107962
 location	Rangareddy	17.133395399999998	78.3970978701631
 location	Ransart	50.461008	4.476094
 location	Ranst	51.1962373	4.563813424474654
@@ -2545,6 +2556,8 @@ location	Saint-Genis-Les-Ollieres	45.7601	4.72654
 location	Saint Germain en Laye	48.938032	2.094734
 location	Saint-Ghislain	50.483208	3.802415
 location	Saint-Gilles	50.8249958	4.3454841
+location	Saint-Gilles-Croix-de-Vie	46.692985	-1.9254545
+location	Saint Herblain	47.2233007	-1.6346964
 location	Saint-Jean-de-Bournay	45.501892	5.1389879
 location	Saint-Josse-ten-Noode	50.8508197	4.3691634
 location	Saint-Julien-en-Genevois	46.1444789	6.0812467
@@ -2824,6 +2837,7 @@ location	St Clément	48.2184446	3.2936175
 location	St Eustatius	17.4865252	-62.9653116
 location	St Tammany Parish	30.438441	-89.935519
 location	St. Anton	47.121254	10.265750
+location	St. Clair County	38.4616972	-89.9324347
 location	St. Lawrence County	44.4973591	-75.0657043
 location	St. Louis MO	38.6270	-90.1994
 location	Staffelbach	47.2834729	8.0419242
@@ -2866,6 +2880,7 @@ location	Sunamganj	25.0653149	91.406908
 location	Sunshine Coast	-26.6500	153.0667
 location	Surabaya	-7.2459717	112.7378266
 location	Surat	21.166995	72.824307
+location	Suresnes	48.8710994	2.2283997
 location	Surgut	61.254032	73.3964
 location	Suryapet	17.08001385	79.7925329742427
 location	Sussex County	38.6908097	-75.3691421
@@ -3244,6 +3259,7 @@ location	Wichita County	33.9516534	-98.7088886
 location	Wiesbaden	50.0820384	8.2416556
 location	Wijgmaal	50.9322675	4.695096913535268
 location	Wijnegem	51.228317	4.515561
+location	Will County	41.4194058	-87.9994754
 location	Willaupuis	50.5670756	3.6014894
 location	Willebroek	51.0626964	4.357232464403333
 location	Williamsburg	33.6442699	-79.7442135
