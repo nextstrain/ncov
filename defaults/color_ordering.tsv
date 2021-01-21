@@ -425,6 +425,10 @@ location	Rembau
 location	Singapore
 
 ### China
+# Xinjiang
+location	Kashgar
+location	Urumqi
+
 # Yunnan
 location	Xishuangbanna
 location	Pu'Er
@@ -504,6 +508,9 @@ location	Hangzhou
 
 # Liaoning
 location	Dalian
+
+# Jilin
+location	Shulan
 
 # Heilongjiang
 location	Harbin
@@ -2219,6 +2226,7 @@ location	Steinen
 location	Konstanz
 location	Bad Krozingen
 location	Tuttlingen
+location	Freiburg
 location	Pfaffenweiler
 location	Villingen-Schwenningen
 location	Sigmaringen
@@ -2305,6 +2313,9 @@ location	Milan
 location	Siena
 location	Florence
 
+# South Tyrol
+location	Bozen
+
 # Veneto
 location	Verona IT
 location	Vicenza
@@ -2375,17 +2386,48 @@ location	Sistrans
 location	Steinach am Brenner
 location	Strass im Zillertal
 location	Mayrhofen
+location	Kramsach
 location	Ramsau im Zillertal
 location	Kufstein
 
 # Salzburg
 location	Bad Gastein
+location	Abtenau
+location	Salzburg
+location	Mondsee
+location	Obertrum Am See
+
+# Carinthia
+location	Hermagor
+location	Fresach
+location	Villach
+location	Landskron
+location	Wernberg
+location	Bodensdorf
+location	Wachsenberg
+location	Feldkirchen
+location	Glödnitz
+location	Klagenfurt
+location	Guttaring
+location	Pörtschach
+location	Sittersdorf
+location	St. Jakob
+location	Griffen
 
 # Upper Austria
+location	Altmünster
 location	Losenstein
+location	Attnang-Puchheim
+location	Gunskirchen
 location	Altenhof Am Hausruck
 location	Linz
+location	Haizing
 location	Hochficht
+
+# Styria
+location	Kalsdorf Bei Graz
+location	Graz
+location	Weiz
 
 ### Czech Republic
 # Plzeň Region
@@ -2398,6 +2440,7 @@ location	Plzeň
 # Usti nad Labem
 location	Chomutov
 location	Litvinov
+location	Dubí
 location	Teplice
 location	Telnice
 location	Třebenice
@@ -2443,6 +2486,7 @@ location	Radonice
 location	Říčany
 location	Brandýs N. Labem
 location	Zeleneč
+location	Zápy
 location	Benešov
 location	Čerčany
 location	Tehovec
@@ -2464,6 +2508,7 @@ location	Kutná Hora
 
 # Liberec Region
 location	Liberec
+location	Vratislavice nad Nisou
 location	Jablonec nad Nisou
 
 # Vysocina Region
@@ -2474,8 +2519,11 @@ location	Kynice
 location	Pardubice
 
 # Hradec Králové Region
-location	Sběř
+location	Staré Hrady
 location	Jičín
+location	Sběř
+location	Trutnov
+location	Červený Kostelec
 
 # South Moravian Region
 location	Znojmo
@@ -2489,7 +2537,8 @@ location	Litovel
 location	Sumperk
 location	Písařov
 
-# Zlin
+# Zlín Region
+location	Buchlovice
 location	Uhersky Brod
 location	Fryšták
 
@@ -2616,6 +2665,9 @@ location	Strumica
 location	Livadeia
 
 ### Lithuania
+# Kauno Apskritis
+location	Jonava
+
 # Vilnius
 location	Ukmerge
 
@@ -2952,42 +3004,44 @@ location	Plottier
 location	Neuquen
 
 # Buenos Aires
-location	Bahia Blanca
 location	Tres de Febrero
-location	Almirante Brown
-location	Olavarría
-location	Torres AR
-location	Luján
-location	Campana
-location	Gral Rodriguez
-location	Moreno
-location	José C Paz
-location	Cañuelas
+location	Bahia Blanca
 location	Necochea
-location	Esteban Echeverria
-location	Presidente Perón
-location	Hurlingham
-location	Morón
-location	Máximo Paz
-location	Gregorio de Laferrere
-location	Tigre
-location	San Fernando AR
-location	Ezeiza
-location	General San Martin
-location	San Martin
-location	San Isidro AR
-location	Vicente Lopez
-location	Lomas de Zamora
-location	Lanús
-location	La Matanza
-location	Avellaneda
-location	Florencio Varela
-location	Quilmes
+location	Malvinas Argentinas
+location	Olavarría
 location	Brandsen
-location	Berazategui
+location	Torres AR
+location	Cañuelas
+location	Máximo Paz
 location	La Plata
 location	Berisso
-location	Malvinas Argentinas
+location	Ezeiza
+location	Florencio Varela
+location	Berazategui
+location	Lomas de Zamora
+location	Gregorio de Laferrere
+location	La Matanza
+location	Quilmes
+location	Lanús
+location	Avellaneda
+location	Merlo
+location	Morón
+location	Moreno
+location	Presidente Perón
+location	Gral Rodriguez
+location	Hurlingham
+location	Almirante Brown
+location	General San Martin
+location	San Martin
+location	Luján
+location	Vicente Lopez
+location	José C Paz
+location	San Isidro AR
+location	San Fernando AR
+location	Tigre
+location	Esteban Echeverria
+location	Campana
+location	San Pedro AR
 
 # Cordoba AR
 location	Villa Dolores
@@ -3693,7 +3747,7 @@ location	Llorente
 location	Desamparados
 location	Zapote
 location	San Francisco de Dos Rios
-location	San Pedro
+location	San Pedro CR
 location	Los Guido
 location	Tirrases
 location	Curridabat
@@ -3785,6 +3839,7 @@ location	Mason County
 location	San Juan County
 location	Thurston County
 location	Cowlitz County
+location	Kitsap County
 location	Clark County WA
 location	Lewis County WA
 location	Pierce County WA
@@ -3921,7 +3976,7 @@ location	Montague County
 location	Bee County
 location	Wise County
 location	Nueces County
-location	Williamson County
+location	Williamson County TX
 location	San Patricio County
 location	Gonzales County
 location	Cameron County
@@ -3975,8 +4030,8 @@ location	Stearns County
 
 # Iowa
 location	Howard County
-location	Fayette County
 location	Buchanan County
+location	Fayette County IA
 location	Winneshiek County
 location	Johnson County
 location	Clayton County
@@ -4089,22 +4144,37 @@ location	Racine County
 location	Door County
 
 # Illinois
+location	Pulaski County
+location	Union County IL
+location	Williamson County IL
+location	Saline County
+location	Gallatin County
 location	Jackson County IL
+location	Franklin County IL
 location	Randolph County
+location	Hamilton County IL
+location	White County
 location	Perry County
+location	Monroe County IL
 location	St. Clair County
 location	Clinton County IL
 location	Madison County IL
+location	Bond County
+location	Fayette County IL
+location	Clark County IL
+location	Hancock County
 location	Kankakee County
 location	Will County
 location	Rock Island County
+location	Kendall County
+location	Lee County
 location	Cook County
 location	Chicago
 location	Dupage County
 location	Dekalb County
 location	Kane County
-location	Ogle County IL
 location	Ogle County
+location	Ogle County IL
 location	Boone County
 location	Winnebago County IL
 location	Mchenry County
@@ -4176,7 +4246,7 @@ location	Camden County
 location	Burlington County
 location	Ocean County
 location	Middlesex County NJ
-location	Union County
+location	Union County NJ
 location	Hudson County
 location	Essex County NJ
 location	Morris County NJ
@@ -4215,7 +4285,7 @@ location	Otsego County
 location	Delaware County
 location	Herkimer County
 location	Sullivan County
-location	Hamilton County
+location	Hamilton County NY
 location	Fulton County
 location	Schoharie County
 location	Montgomery County NY
@@ -4510,6 +4580,7 @@ division	Mongolia
 division	Singapore
 
 ### China
+division	Xinjiang
 division	Yunnan
 division	Gansu
 division	Sichuan
@@ -4530,11 +4601,13 @@ division	Jiangsu
 division	Zhejiang
 division	Shanghai
 division	Liaoning
+division	Jilin
 division	Heilongjiang
 
 ### Cambodia
 division	Sihanoukville
 division	Phnom Penh
+division	Steung Treng
 
 ### Vietnam
 division	Ho Chi Minh City
@@ -5096,6 +5169,9 @@ division	Sjaelland
 division	Hovedstaden
 division	Copenhagen
 
+### Liechtenstein
+division	Liechtenstein
+
 ### Germany
 division	Saarland
 division	Rheinland-Pfalz
@@ -5180,6 +5256,7 @@ division	Norrbotten
 division	Vorarlberg
 division	Tyrol
 division	Salzburg
+division	Carinthia
 division	Upper Austria
 division	Styria
 division	Austria
@@ -5215,7 +5292,7 @@ division	Pardubice Region
 division	Hradec Králové Region
 division	South Moravian Region
 division	Olomouc Region
-division	Zlin
+division	Zlín Region
 division	Hranice Na Moravě
 division	Moravian-Silesian Region
 
@@ -5350,6 +5427,7 @@ division	Klaipedos Apskritis
 division	Telsiai
 division	Taurages Apskritis
 division	Marijampoles Apskritis
+division	Radviliskio Apskritis
 division	Lithuania
 division	Alytaus Apskritis
 division	Kauno Apskritis
@@ -5572,6 +5650,7 @@ division	South America
 division	Acre
 division	Amazonas BR
 division	Rondonia
+division	Roraima
 division	Mato Grosso
 division	Rio Grande do Sul
 division	Brazil
@@ -5986,6 +6065,7 @@ country	Luxembourg
 country	Switzerland
 country	Norway
 country	Denmark
+country	Liechtenstein
 country	Germany
 country	Europe
 country	Italy

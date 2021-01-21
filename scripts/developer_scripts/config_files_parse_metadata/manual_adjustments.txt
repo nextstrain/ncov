@@ -37,3 +37,7 @@ Europe/France/Centre Val de Loire/Nantes	Europe/France/Pays de la Loire/Nantes
 Europe/France/Lorraine/Epinal	Europe/France/Grand Est/Epinal
 South America/Bolivia/Santa Cruz-El Torno/*	South America/Bolivia/Santa Cruz/El Torno
 South America/Bolivia/Santa Cruz-Pailon/*	South America/Bolivia/Santa Cruz/Pailon
+Europe/Austria/Salzburg/Kramsach	Europe/Austria/Tyrol/Kramsach
+Europe/Austria/Salzburg/Altmünster	Europe/Austria/Upper Austria/Altmünster
+Europe/Austria/Salzburg/Haizing	Europe/Austria/Upper Austria/Haizing
+Europe/Austria/Salzburg/Attnang-Puchheim	Europe/Austria/Upper Austria/Attnang-Puchheim

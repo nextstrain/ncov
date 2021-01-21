@@ -127,6 +127,7 @@ division	Buraymi	Buraimi
 division	Ncr	National Capital Region
 division	Chittagong	Chattogram
 division	Ciudad Autonoma de Buenos Aires	Buenos Aires
+division	Ciudad Automona de Buenos Aires	Buenos Aires
 division	Bcs	Baja California Sur
 division	Bc	Baja California
 division	Goias	Goiás
@@ -638,3 +639,8 @@ division	Yaounde	Yaoundé	(Africa, Cameroon)
 location	Warsaw	Warszawa	(Europe, Poland, Mazowieckie)
 division	Pays de Loire	Pays de la Loire	(Europe, France)
 location	New York County		(North America, USA, California)
+location	Lanus	Lanús	(South America, Argentina, Buenos Aires)
+division	Zlin	Zlín Region	(Europe, Czech Republic)
+location	Wernerberg	Wernberg	(Europe, Austria, Carinthia)
+location	Eisenklappen		(Europe, Austria, Carinthia)
+location	Sitterdorf	Sittersdorf	(Europe, Austria, Carinthia)
