@@ -122,6 +122,9 @@ location	Dasman
 location	Manama
 
 ### Iran
+# Tehran
+location	Abmangol
+
 # Sistan and Baluchestan
 location	Zahedan
 
@@ -522,6 +525,7 @@ location	South Tangerang
 location	Tangerang
 
 # West Java
+location	Bogor
 location	Depok
 location	Purwakarta
 location	Bandung
@@ -531,15 +535,20 @@ location	Tasikmalaya
 # Yogyakarta
 location	Sleman
 
+# Central Java
+location	Purwokerto
+
 # East Java
 location	Tulungagung
-location	Purwokerto
 location	Sidoarjo
 location	Surabaya
 location	Pasuruan
 
 # East Kalimantan
 location	Samarinda
+
+# Sulawesi Selatan
+location	Makassar
 
 # East Nusa Tenggara
 location	Kupang
@@ -1324,11 +1333,15 @@ location	Fougères
 location	Rennes
 
 # Pays de la Loire
+location	Saint-Gilles-Croix-de-Vie
+location	Saint Herblain
 location	Nantes
+location	Cholet
 
 # Normandie
 location	Carentan
 location	Bernieres-le-Patry
+location	Le Havre
 location	Rouen
 
 # Nouvelle-Aquitaine
@@ -1364,6 +1377,7 @@ location	Le Chesnay
 location	Orsay
 location	Garches
 location	Meudon la Forêt
+location	Suresnes
 location	Puteaux
 location	Essonne
 location	Boulogne Billancourt
@@ -1379,6 +1393,7 @@ location	Paris
 location	Groslay
 location	Juvisy-sur-Orge
 location	Sarcelles
+location	Ivry-sur-Seine
 location	Thiais
 location	Villeneuve St Georges
 location	Seine-Port
@@ -1532,6 +1547,7 @@ location	Ettelgem
 
 # Brugge
 location	Torhout
+location	Oostkamp
 location	Assebroek
 location	Blankenberge
 location	Knokke-Heist
@@ -1697,6 +1713,7 @@ location	Braine-l'Alleud
 location	Lillois-Witterzée
 location	Thines
 location	Waterloo
+location	Vieux-Genappe
 location	Loupoigne
 location	Genappe
 location	Lasne
@@ -1767,6 +1784,7 @@ location	Vremde
 location	Wommelgem
 location	's-Gravenwezel
 location	Ranst
+location	Schilde
 location	Broechem
 location	Zoersel
 location	Malle
@@ -1778,6 +1796,7 @@ location	Affligem
 location	Asse
 location	Halle
 location	Dilbeek
+location	Huizingen
 location	Londerzeel
 location	Wemmel
 location	Beersel
@@ -1876,6 +1895,7 @@ location	Linden
 location	Bierbeek
 location	Begijnendijk
 location	Lubbeek
+location	Meldert
 location	Boutersem
 location	Aarschot
 location	Langdorp
@@ -1912,6 +1932,7 @@ location	Temploux
 location	Grand-Leez
 location	Bovesse
 location	Bois-de-Villers
+location	Dhuy
 location	Erpent
 location	Champion
 location	Éghezée
@@ -1959,6 +1980,7 @@ location	Burdinne
 location	Couthuin
 location	Wanze
 location	Antheit
+location	Amay
 location	Yernée-Fraineux
 
 # Waremme
@@ -2105,6 +2127,7 @@ location	Hochwald
 location	Flüh
 
 # Bern
+location	Kallnach
 location	Oberhofen
 location	Wasen Im Emmental
 
@@ -3069,6 +3092,11 @@ location	Antofagasta
 # Arica and Parinacota
 location	Arica
 
+### Bolivia
+# Santa Cruz
+location	El Torno
+location	Pailon
+
 ### Brazil
 # Amazonas BR
 location	Carauari
@@ -3219,6 +3247,7 @@ location	Diadema
 location	Mairipora
 location	Sao Caetano do Sul
 location	Sao Bernardo do Campo
+location	Atibaia
 location	Braganca Paulista
 location	Santo Andre
 location	Guarulhos
@@ -3233,9 +3262,11 @@ location	Santa Isabel
 location	Mogi Das Cruzes
 location	Guararema
 location	Jacareí
+location	Sao Jose Dos Campos
 location	Taubate
 location	Caraguatatuba
 location	Sao Sebastiao
+location	Lorena
 location	Cunha
 
 # Rio de Janeiro
@@ -3793,6 +3824,7 @@ location	Yolo County
 location	Contra Costa County
 location	Alameda County
 location	Sutter County
+location	Brentwood County
 location	Santa Clara County
 location	Butte County
 location	Sacramento County
@@ -4058,15 +4090,24 @@ location	Door County
 
 # Illinois
 location	Jackson County IL
+location	Randolph County
+location	Perry County
+location	St. Clair County
+location	Clinton County IL
+location	Madison County IL
+location	Kankakee County
+location	Will County
 location	Rock Island County
 location	Cook County
 location	Chicago
+location	Dupage County
 location	Dekalb County
 location	Kane County
 location	Ogle County IL
 location	Ogle County
 location	Boone County
 location	Winnebago County IL
+location	Mchenry County
 location	Lake County IL
 location	Stephenson County
 location	Jo Daviess County
@@ -4095,11 +4136,19 @@ location	Miami-Dade County
 location	Palm Beach County
 
 # South Carolina
+location	Anderson County
+location	Greenville County
+location	Spartanburg County
 location	Fairfield County SC
 location	Columbia SC
 location	Richland County SC
+location	Beaufort County
+location	Dorchester County
+location	Darlington County
 location	Berkeley County
+location	Charleston County
 location	Williamsburg County
+location	Florence County
 location	Georgetown County
 location	Horry County
 
@@ -4194,9 +4243,9 @@ location	New Rochelle
 location	Essex County NY
 location	Putnam County
 location	Dutchess County
-location	Clinton County
 location	New Hyde Park
 location	Columbia County NY
+location	Clinton County NY
 location	Nassau County
 location	Rensselaer County
 location	Washington County NY
@@ -4521,6 +4570,7 @@ division	South Kalimantan
 division	North Kalimantan
 division	East Kalimantan
 division	West Nusa Tenggara
+division	Sulawesi Selatan
 division	South Sulawesi
 division	East Nusa Tenggara
 division	North Sulawesi
@@ -4538,7 +4588,10 @@ division	New Taipei City
 division	Keelung
 
 ### Philippines
+division	Zamboanga Peninsula
 division	Philippines
+division	Mimaropa
+division	Calabarzon
 division	National Capital Region
 division	Manila
 
@@ -4749,7 +4802,7 @@ division	Bioko Norte
 division	Libreville
 
 ### Cameroon
-division	Yaounde
+division	Yaoundé
 division	Cameroon
 
 ### Republic of the Congo
@@ -4803,7 +4856,6 @@ division	Uganda
 
 ### Mozambique
 division	Gaza
-division	Mozambique
 division	Manica
 division	Cabo Delgado
 
@@ -5250,10 +5302,14 @@ division	Békés County
 division	Hajdú-Bihar County
 division	Debrecen
 division	Szabolcs-Szatmár-Bereg County
-division	Szabolcs-Szatmár Bereg County
 
 ### Serbia
+division	Vranje
+division	Medvedja
+division	Leskovac
+division	Pirot
 division	Raška District
+division	Nis
 division	Rasina District
 division	Zlatibor District
 division	Serbia
@@ -5501,6 +5557,13 @@ division	Coquimbo
 division	Atacama
 division	Antofagasta
 division	Arica and Parinacota
+
+### Bolivia
+division	Tarija
+division	Oruro
+division	Santa Cruz
+division	Beni
+division	Pando
 
 ### South America
 division	South America
@@ -5959,6 +6022,7 @@ country	Russia
 country	Argentina
 country	Uruguay
 country	Chile
+country	Bolivia
 country	South America
 country	Brazil
 country	Peru
