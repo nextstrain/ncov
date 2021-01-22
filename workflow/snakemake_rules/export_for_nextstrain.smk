@@ -26,10 +26,10 @@ def get_todays_date():
 
 rule all_regions:
     input:
-        auspice_json = expand("auspice/ncov_{build_name}.json", build_name=BUILD_NAMES),
-        tip_frequencies_json = expand("auspice/ncov_{build_name}_tip-frequencies.json", build_name=BUILD_NAMES),
-        dated_auspice_json = expand("auspice/ncov_{build_name}_{date}.json", build_name=BUILD_NAMES, date=get_todays_date()),
-        dated_tip_frequencies_json = expand("auspice/ncov_{build_name}_{date}_tip-frequencies.json", build_name=BUILD_NAMES, date=get_todays_date())
+        auspice_json = expand("auspice/{prefix}_{build_name}.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
+        tip_frequencies_json = expand("auspice/{prefix}_{build_name}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
+        dated_auspice_json = expand("auspice/{prefix}_{build_name}_{date}.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=get_todays_date()),
+        dated_tip_frequencies_json = expand("auspice/{prefix}_{build_name}_{date}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=get_todays_date())
 
 # This cleans out files to allow re-run of 'normal' run with `export`
 # to check lat-longs & orderings
@@ -128,10 +128,10 @@ rule dated_json:
         auspice_json = rules.finalize.output.auspice_json,
         tip_frequencies_json = rules.tip_frequencies.output.tip_frequencies_json
     output:
-        dated_auspice_json = "auspice/ncov_{build_name}_{date}.json",
-        dated_tip_frequencies_json = "auspice/ncov_{build_name}_{date}_tip-frequencies.json"
+        dated_auspice_json = "auspice/{prefix}_{build_name}_{date}.json",
+        dated_tip_frequencies_json = "auspice/{prefix}_{build_name}_{date}_tip-frequencies.json"
     benchmark:
-        "benchmarks/dated_json_{build_name}_{date}.txt"
+        "benchmarks/dated_json_{prefix}_{build_name}_{date}.txt"
     conda: config["conda_environment"]
     shell:
         """

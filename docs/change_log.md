@@ -3,6 +3,10 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## New features since last version update
+
+ - 25 May 2021: Support custom Auspice JSON prefixes with a new configuration parameter, `auspice_json_prefix`. [See the configuration reference for more details](https://nextstrain.github.io/ncov/configuration.html#auspice_json_prefix). ([#643](https://github.com/nextstrain/ncov/pull/643))
+
 ## v6 (20 May 2021)
 
 ### Major changes

@@ -272,3 +272,6 @@ subsampling:
       group_by: "country year month"
       seq_per_group: 10
       exclude: "--exclude-where 'location={location}'"
+
+# Configure the prefix to use for Auspice JSONs.
+auspice_json_prefix: ncov
