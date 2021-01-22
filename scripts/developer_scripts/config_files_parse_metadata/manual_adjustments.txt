@@ -48,3 +48,4 @@ Europe/France/Poitou Charentes/Saintes	Europe/France/Nouvelle-Aquitaine/Saintes
 Europe/France/Basse Normandie/Lisieux	Europe/France/Normandie/Lisieux
 Africa/Tunisia/Tunis/Ben Arous	Africa/Tunisia/Ben Arous/Ben Arous
 North America/USA/Unknown/	North America/USA/USA/
+Europe/Italy/South Tyrol/*	Europe/Italy/Trentino-Alto Adige/Autonomous Province of Bolzano
