@@ -109,7 +109,7 @@
     "color_by": "clade_membership",
     "distance_measure": "num_date",
     "geo_resolution": "division",
-    "map_triplicate": true,
+    "map_triplicate": false,
     "branch_label": "clade",
     "transmission_lines": false
   },
