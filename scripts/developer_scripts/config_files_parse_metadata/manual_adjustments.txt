@@ -41,3 +41,10 @@ Europe/Austria/Salzburg/Kramsach	Europe/Austria/Tyrol/Kramsach
 Europe/Austria/Salzburg/Altmünster	Europe/Austria/Upper Austria/Altmünster
 Europe/Austria/Salzburg/Haizing	Europe/Austria/Upper Austria/Haizing
 Europe/Austria/Salzburg/Attnang-Puchheim	Europe/Austria/Upper Austria/Attnang-Puchheim
+Europe/France/Picardie/Amiens	Europe/France/Hauts de France/Amiens
+Europe/France/Centre-Val de Loire/Angers	Europe/France/Pays de la Loire/Angers
+Europe/France/Occitanie/Marseille	Europe/France/Provence-Alpes-Côte d'Azur/Marseille
+Europe/France/Poitou Charentes/Saintes	Europe/France/Nouvelle-Aquitaine/Saintes
+Europe/France/Basse Normandie/Lisieux	Europe/France/Normandie/Lisieux
+Africa/Tunisia/Tunis/Ben Arous	Africa/Tunisia/Ben Arous/Ben Arous
+North America/USA/Unknown/	North America/USA/USA/

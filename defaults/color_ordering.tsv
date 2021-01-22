@@ -554,7 +554,7 @@ location	Pasuruan
 # East Kalimantan
 location	Samarinda
 
-# Sulawesi Selatan
+# South Sulawesi
 location	Makassar
 
 # East Nusa Tenggara
@@ -682,11 +682,23 @@ location	Accra
 # Medenine
 location	Djerba
 
+# Sidi Bouzid
+location	Sidi Bouzid
+
 # Monastir
 location	Ksar Hellal
 
+# Ben Arous
+location	Ben Arous
+
 # Tunis
+location	Bouchoucha
+location	Tunis
 location	La Marsa
+
+# Bizerte
+location	Mateur
+location	Corniche
 
 ### Equatorial Guinea
 # Litoral
@@ -1319,118 +1331,11 @@ location	London
 location	Warwickshire
 
 ### France
-# Bretagne
-location	Ploudalmezeau
-location	Lannilis
-location	Brest
-location	Quimper
-location	Chateaulin
-location	Morlaix
-location	Saint Pierre Quiberon
-location	Arradon
-location	Pordic
-location	Plerin
-location	Saint-Brieuc
-location	Vannes
-location	Sene
-location	La Rochelle
-location	Cayenne
-location	Betton
-location	Fougères
-location	Rennes
+# Mayotte
+location	Mamoudzou
 
-# Pays de la Loire
-location	Saint-Gilles-Croix-de-Vie
-location	Saint Herblain
-location	Nantes
-location	Cholet
-
-# Normandie
-location	Carentan
-location	Bernieres-le-Patry
-location	Le Havre
-location	Rouen
-
-# Nouvelle-Aquitaine
-location	Pau
-location	Anglet
-location	La Brède
-location	Bordeaux
-location	Notre-Dame-de-Sanilhac
-location	Limoges
-location	Poitiers
-
-# Centre-Val de Loire
-location	Fondettes
-location	Rouziers-de-Touraine
-location	Tours
-location	Blois
-location	Abondant
-location	Orléans
-location	Angers
-location	Craon
-
-# Ile de France
-location	Mantes-la-Jolie
-location	Limay
-location	Montigny le Bretonneux
-location	Noisy le Roi
-location	Cergy
-location	Guyancourt
-location	Saint Germain en Laye
-location	Pontoise
-location	Le Pecq
-location	Le Chesnay
-location	Orsay
-location	Garches
-location	Meudon la Forêt
-location	Suresnes
-location	Puteaux
-location	Essonne
-location	Boulogne Billancourt
-location	Argenteuil
-location	Colombes
-location	Verrières-le-Buisson
-location	Asnières-sur-Seine
-location	Levallois-Perret
-location	Vanves
-location	Gennevilliers
-location	Longjumeau
-location	Paris
-location	Groslay
-location	Juvisy-sur-Orge
-location	Sarcelles
-location	Ivry-sur-Seine
-location	Thiais
-location	Villeneuve St Georges
-location	Seine-Port
-location	Plessis Trevise
-location	Moussy Le Neuf
-location	Compans
-location	Saint-Thibault-des-Vignes
-location	Chanteloup-en-Brie
-location	Egreville
-
-# Hauts de France
-location	Nogent-l'Artaud
-location	Chateau-Thierry
-location	Crouy en Thelle
-location	Crépy en Valois
-location	Compiègne
-location	Amiens
-location	Saint-Saulve
-location	Crespin
-location	Nord Pas de Calais
-location	Flines-lès-Mortagne
-location	Genech
-location	Santes
-location	Lille
-location	Lyz-Les-Lannoy
-location	Leers
-location	Wambrechies
-location	Roubaix
-location	Tourcoing
-location	Bousbecque
+# Corse
+location	Porto-Vecchio
 
 # Occitanie
 location	Toulouse
@@ -1438,6 +1343,27 @@ location	Caraman
 location	Saint-Gely-Du-Fesc
 location	Montpellier
 location	Nîmes
+
+# Provence-Alpes-Côte d'Azur
+location	Marignane
+location	Marseille
+location	Toulon
+location	Draguignan
+location	Embrun
+location	Frejus
+location	Saint-Vallier-de-Thiey
+location	Cannes
+location	Nice
+
+# Nouvelle-Aquitaine
+location	Pau
+location	Anglet
+location	La Brède
+location	Bordeaux
+location	Notre-Dame-de-Sanilhac
+location	Saintes
+location	Limoges
+location	Poitiers
 
 # Auvergne-Rhône-Alpes
 location	Clermont-Ferrand
@@ -1477,6 +1403,42 @@ location	Chalon sur Saone
 location	Dijon
 location	Thise
 location	Montreux-Chateau
+
+# Centre-Val de Loire
+location	Fondettes
+location	Rouziers-de-Touraine
+location	Tours
+location	Blois
+location	Abondant
+location	Orléans
+location	Craon
+
+# Pays de la Loire
+location	Saint-Gilles-Croix-de-Vie
+location	Saint Herblain
+location	Nantes
+location	Cholet
+location	Angers
+
+# Bretagne
+location	Ploudalmezeau
+location	Lannilis
+location	Brest
+location	Quimper
+location	Chateaulin
+location	Morlaix
+location	Saint Pierre Quiberon
+location	Arradon
+location	Pordic
+location	Plerin
+location	Saint-Brieuc
+location	Vannes
+location	Sene
+location	La Rochelle
+location	Cayenne
+location	Betton
+location	Fougères
+location	Rennes
 
 # Grand Est
 location	Reims
@@ -1519,19 +1481,76 @@ location	Brumath
 location	Strasbourg
 location	Bischheim
 
-# Provence-Alpes-Côte d'Azur
-location	Marignane
-location	Marseille
-location	Toulon
-location	Draguignan
-location	Embrun
-location	Frejus
-location	Saint-Vallier-de-Thiey
-location	Cannes
-location	Nice
+# Ile de France
+location	Mantes-la-Jolie
+location	Limay
+location	Montigny le Bretonneux
+location	Noisy le Roi
+location	Cergy
+location	Guyancourt
+location	Saint Germain en Laye
+location	Pontoise
+location	Le Pecq
+location	Le Chesnay
+location	Orsay
+location	Garches
+location	Meudon la Forêt
+location	Suresnes
+location	Puteaux
+location	Essonne
+location	Boulogne Billancourt
+location	Argenteuil
+location	Colombes
+location	Verrières-le-Buisson
+location	Asnières-sur-Seine
+location	Levallois-Perret
+location	Vanves
+location	Gennevilliers
+location	Longjumeau
+location	Paris
+location	Groslay
+location	Villejuif
+location	Juvisy-sur-Orge
+location	Sarcelles
+location	Ivry-sur-Seine
+location	Thiais
+location	Montreuil
+location	Villeneuve St Georges
+location	Seine-Port
+location	Plessis Trevise
+location	Moussy Le Neuf
+location	Compans
+location	Saint-Thibault-des-Vignes
+location	Chanteloup-en-Brie
+location	Egreville
 
-# Corse
-location	Porto-Vecchio
+# Normandie
+location	Carentan
+location	Bernieres-le-Patry
+location	Le Havre
+location	Lisieux
+location	Rouen
+
+# Hauts de France
+location	Nogent-l'Artaud
+location	Chateau-Thierry
+location	Crouy en Thelle
+location	Crépy en Valois
+location	Compiègne
+location	Amiens
+location	Saint-Saulve
+location	Crespin
+location	Nord Pas de Calais
+location	Flines-lès-Mortagne
+location	Genech
+location	Santes
+location	Lille
+location	Lyz-Les-Lannoy
+location	Leers
+location	Wambrechies
+location	Roubaix
+location	Tourcoing
+location	Bousbecque
 
 ### Belgium
 # Veurne
@@ -1793,6 +1812,7 @@ location	's-Gravenwezel
 location	Ranst
 location	Schilde
 location	Broechem
+location	Emblem
 location	Zoersel
 location	Malle
 location	Oostmalle
@@ -2215,6 +2235,7 @@ location	Cologne
 location	Essen
 location	Greven
 location	Münster
+location	Guetersloh
 location	Bielefeld
 
 # Niedersachsen
@@ -2312,6 +2333,10 @@ location	Milan
 # Tuscany
 location	Siena
 location	Florence
+
+# Trentino-Alto Adige
+location	Autonomous Province of Trento
+location	Autonomous Province of Bolzano
 
 # South Tyrol
 location	Bozen
@@ -3004,44 +3029,45 @@ location	Plottier
 location	Neuquen
 
 # Buenos Aires
-location	Tres de Febrero
 location	Bahia Blanca
-location	Necochea
-location	Malvinas Argentinas
-location	Olavarría
-location	Brandsen
-location	Torres AR
-location	Cañuelas
-location	Máximo Paz
-location	La Plata
-location	Berisso
-location	Ezeiza
-location	Florencio Varela
-location	Berazategui
-location	Lomas de Zamora
-location	Gregorio de Laferrere
-location	La Matanza
-location	Quilmes
-location	Lanús
-location	Avellaneda
-location	Merlo
-location	Morón
-location	Moreno
-location	Presidente Perón
-location	Gral Rodriguez
-location	Hurlingham
+location	Tres de Febrero
 location	Almirante Brown
+location	Olavarría
+location	Torres AR
+location	San Pedro AR
+location	Luján
+location	Campana
+location	Gral Rodriguez
+location	Moreno
+location	José C Paz
+location	Cañuelas
+location	Necochea
+location	Merlo
+location	Esteban Echeverria
+location	Presidente Perón
+location	Hurlingham
+location	Morón
+location	Máximo Paz
+location	Gregorio de Laferrere
+location	Tigre
+location	San Fernando AR
+location	Ezeiza
 location	General San Martin
 location	San Martin
-location	Luján
-location	Vicente Lopez
-location	José C Paz
 location	San Isidro AR
-location	San Fernando AR
-location	Tigre
-location	Esteban Echeverria
-location	Campana
-location	San Pedro AR
+location	Vicente Lopez
+location	Lomas de Zamora
+location	Lanús
+location	La Matanza
+location	Avellaneda
+location	Florencio Varela
+location	Quilmes
+location	Brandsen
+location	Berazategui
+location	La Plata
+location	Berisso
+location	Malvinas Argentinas
+location	La Costa
 
 # Cordoba AR
 location	Villa Dolores
@@ -3942,6 +3968,7 @@ location	Bailey County
 location	Oldham County
 location	Deaf Smith County
 location	Ector County
+location	Terry County
 location	Hockley County
 location	Lubbock County
 location	Crosby County
@@ -3957,6 +3984,7 @@ location	Bandera County
 location	Brown County TX
 location	Starr County
 location	Wichita County
+location	Jim Hogg County
 location	Llano County
 location	Atascosa County
 location	Comanche County
@@ -3980,6 +4008,7 @@ location	Williamson County TX
 location	San Patricio County
 location	Gonzales County
 location	Cameron County
+location	Tarrant County
 location	Mclennan County
 location	Denton County
 location	Victoria County
@@ -4015,6 +4044,7 @@ location	Morris County TX
 location	Angelina County
 location	Nacogdoches County
 location	Bowie County
+location	Harrison County
 location	Cass County
 location	Panola County
 location	Jefferson County TX
@@ -4643,7 +4673,6 @@ division	South Kalimantan
 division	North Kalimantan
 division	East Kalimantan
 division	West Nusa Tenggara
-division	Sulawesi Selatan
 division	South Sulawesi
 division	East Nusa Tenggara
 division	North Sulawesi
@@ -4681,6 +4710,7 @@ division	Seoul
 ### Japan
 division	Nagasaki
 division	Kyusyu
+division	Hiroshima
 division	Chushikoku
 division	Kochi
 division	Osaka
@@ -4854,6 +4884,7 @@ division	Medenine
 division	Tunisia
 division	Gafsa
 division	Sfax
+division	Sidi Bouzid
 division	Monastir
 division	Nabeul
 division	Soliman
@@ -5034,20 +5065,21 @@ division	Scotland
 division	Andorra
 
 ### France
-division	Bretagne
-division	Pays de la Loire
-division	Normandie
-division	Nouvelle-Aquitaine
-division	Centre-Val de Loire
-division	France
-division	Ile de France
-division	Hauts de France
-division	Occitanie
-division	Auvergne-Rhône-Alpes
-division	Bourgogne-France-Comté
-division	Grand Est
-division	Provence-Alpes-Côte d'Azur
+division	Mayotte
 division	Corse
+division	Occitanie
+division	Provence-Alpes-Côte d'Azur
+division	Nouvelle-Aquitaine
+division	Auvergne-Rhône-Alpes
+division	France
+division	Bourgogne-France-Comté
+division	Centre-Val de Loire
+division	Pays de la Loire
+division	Bretagne
+division	Grand Est
+division	Ile de France
+division	Normandie
+division	Hauts de France
 
 ### Belgium
 division	Veurne
@@ -5216,6 +5248,7 @@ division	Sicily
 division	Molise
 division	Campania
 division	Basilicata
+division	Calabria
 division	Apulia
 
 ### Malta
@@ -5420,6 +5453,7 @@ division	Greece
 division	Thessaloniki
 division	Central Greece
 division	Athens
+division	Attica
 division	South Aegean Region
 
 ### Lithuania
@@ -5758,6 +5792,9 @@ division	Venezuela
 
 ### Trinidad
 division	Trinidad
+
+### Trinidad and Tobago
+division	Trinidad and Tobago
 
 ### Curacao
 division	Curacao
@@ -6111,6 +6148,7 @@ country	Colombia
 country	Suriname
 country	Venezuela
 country	Trinidad
+country	Trinidad and Tobago
 country	Curacao
 country	Aruba
 
