@@ -1349,3 +1349,6 @@ env/Austria/CeMM2231/2020
 env/Austria/CeMM2232/2020
 env/Austria/CeMM2233/2020
 env/Austria/CeMM2234/2021
+
+# collection date in the future
+SouthAfrica/KRISP-K007811/2021
