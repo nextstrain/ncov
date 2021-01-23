@@ -99,6 +99,11 @@ rule clean:
     shell:
         "rm -rfv {params}"
 
+rule dump_config:
+    run:
+        import yaml, sys
+        yaml.dump(config, sys.stdout, explicit_start = True, explicit_end = True)
+
 # Include small, shared functions that help build inputs and parameters.
 include: "workflow/snakemake_rules/common.smk"
 
