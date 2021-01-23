@@ -1360,3 +1360,6 @@ SouthAfrica/KRISP-K007815/2020
 # mutations, reached out to submitters
 SouthAfrica/KRISP-K006790/2020
 SouthAfrica/KRISP-K006869/2020
+
+# too early for clade, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1611427114039000?thread_ts=1611343390.024400&cid=CTZKJC7PZ
+UnitedArabEmirates/4358/2020
