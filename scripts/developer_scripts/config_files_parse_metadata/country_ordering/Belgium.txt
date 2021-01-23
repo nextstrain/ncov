@@ -1431,7 +1431,6 @@ Leopoldsburg
 Lummen
 	Linkhout
 	Lummen
-	Meldert
 Nieuwerkerken
 	Binderveld
 	Kozen
@@ -2348,7 +2347,6 @@ Aalst
 	Gijzegem
 	Herdersem
 	Hofstade
-	Meldert
 	Moorsel
 Denderleeuw
 	Denderleeuw
