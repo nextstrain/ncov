@@ -1350,5 +1350,13 @@ env/Austria/CeMM2232/2020
 env/Austria/CeMM2233/2020
 env/Austria/CeMM2234/2021
 
-# collection date in the future
+# collection date in the future, reached out to submitters
 SouthAfrica/KRISP-K007811/2021
+# early SA dates (first days of jan), reached out to submitters
+SouthAfrica/KRISP-K007801/2020
+SouthAfrica/KRISP-K007805/2020
+SouthAfrica/KRISP-K007815/2020
+
+# mutations, reached out to submitters
+SouthAfrica/KRISP-K006790/2020
+SouthAfrica/KRISP-K006869/2020
