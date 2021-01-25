@@ -420,7 +420,7 @@ def prepare_tweet(counts, lab_collection):
 
     start_tweet = "Thanks to #opendata sharing by @GISAID, we've updated nextstrain.org/ncov with " + str(
         total) + " new #COVID19 #SARSCoV2 sequences!"
-    char_total = 240
+    char_total = 220
     char_available = char_total - len("Check out the new sequences from on ") - len("(Thanks to )") - len("1/1")
     char_available_first = char_available - len(start_tweet)
 

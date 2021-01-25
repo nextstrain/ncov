@@ -1253,21 +1253,113 @@ England/205390927/2020
 
 
 # Duplicates, see comments in gisaid_annotations.tsv
-EPI_ISL_833167
-EPI_ISL_833168
-EPI_ISL_833170
-EPI_ISL_833172
-EPI_ISL_833173
-EPI_ISL_833174
-EPI_ISL_833176
-EPI_ISL_804815
-EPI_ISL_804832
-EPI_ISL_804835
-EPI_ISL_804818
-EPI_ISL_804833
-EPI_ISL_804834
-EPI_ISL_804837
+Brazil/AM-987/2020
+Brazil/AM-988/2020
+Brazil/AM-990/2020
+Brazil/AM-992/2020
+Brazil/AM-993/2020
+Brazil/AM-994/2020
+Brazil/AM-997/2020
 
 # https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1611190928000900?thread_ts=1611190385.000800&cid=CTZKJC7PZ
 USA/MDH-8144/2020
 USA/WA-UW-21756/2020
+
+# Invalid date: 2020-01-06 should be 2021-01-06
+CzechRepublic/NRL_274/2021
+
+# these are environmental consensus sequences that are not suitable for phylogenetic analysis it seems; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1611348101028500
+env/Austria/CeMM1283/2020
+env/Austria/CeMM1290/2020
+env/Austria/CeMM1399/2020
+env/Austria/CeMM1442/2020
+env/Austria/CeMM1444/2020
+env/Austria/CeMM1445/2020
+env/Austria/CeMM1446/2020
+env/Austria/CeMM1447/2020
+env/Austria/CeMM1448/2020
+env/Austria/CeMM1450/2020
+env/Austria/CeMM1452/2020
+env/Austria/CeMM1453/2020
+env/Austria/CeMM1456/2020
+env/Austria/CeMM1457/2020
+env/Austria/CeMM1459/2020
+env/Austria/CeMM1461/2020
+env/Austria/CeMM1462/2020
+env/Austria/CeMM1463/2020
+env/Austria/CeMM1464/2020
+env/Austria/CeMM1465/2020
+env/Austria/CeMM1468/2020
+env/Austria/CeMM1470/2020
+env/Austria/CeMM1953/2020
+env/Austria/CeMM1954/2020
+env/Austria/CeMM1955/2020
+env/Austria/CeMM1956/2020
+env/Austria/CeMM1957/2020
+env/Austria/CeMM1958/2020
+env/Austria/CeMM1959/2020
+env/Austria/CeMM1960/2020
+env/Austria/CeMM1961/2020
+env/Austria/CeMM1962/2020
+env/Austria/CeMM1963/2020
+env/Austria/CeMM1964/2020
+env/Austria/CeMM1965/2020
+env/Austria/CeMM1966/2020
+env/Austria/CeMM1967/2020
+env/Austria/CeMM1968/2020
+env/Austria/CeMM1969/2020
+env/Austria/CeMM1970/2020
+env/Austria/CeMM1971/2020
+env/Austria/CeMM1972/2020
+env/Austria/CeMM1973/2020
+env/Austria/CeMM1974/2020
+env/Austria/CeMM1975/2020
+env/Austria/CeMM1976/2020
+env/Austria/CeMM1977/2020
+env/Austria/CeMM1978/2020
+env/Austria/CeMM1979/2020
+env/Austria/CeMM1980/2020
+env/Austria/CeMM1981/2020
+env/Austria/CeMM1982/2020
+env/Austria/CeMM2017/2020
+env/Austria/CeMM2018/2020
+env/Austria/CeMM2019/2020
+env/Austria/CeMM2020/2020
+env/Austria/CeMM2021/2020
+env/Austria/CeMM2022/2020
+env/Austria/CeMM2210/2020
+env/Austria/CeMM2211/2020
+env/Austria/CeMM2212/2020
+env/Austria/CeMM2213/2020
+env/Austria/CeMM2214/2020
+env/Austria/CeMM2218/2020
+env/Austria/CeMM2219/2020
+env/Austria/CeMM2220/2020
+env/Austria/CeMM2221/2020
+env/Austria/CeMM2222/2021
+env/Austria/CeMM2223/2020
+env/Austria/CeMM2224/2020
+env/Austria/CeMM2225/2020
+env/Austria/CeMM2226/2020
+env/Austria/CeMM2227/2020
+env/Austria/CeMM2228/2021
+env/Austria/CeMM2229/2020
+env/Austria/CeMM2230/2020
+env/Austria/CeMM2231/2020
+env/Austria/CeMM2232/2020
+env/Austria/CeMM2233/2020
+env/Austria/CeMM2234/2021
+
+# collection date in the future, reached out to submitters
+SouthAfrica/KRISP-K007811/2021
+# early SA dates (first days of jan), reached out to submitters
+SouthAfrica/KRISP-K007801/2020
+SouthAfrica/KRISP-K007805/2020
+SouthAfrica/KRISP-K007815/2020
+
+# mutations, reached out to submitters
+SouthAfrica/KRISP-K006790/2020
+SouthAfrica/KRISP-K006869/2020
+
+# too early for clade, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1611427114039000?thread_ts=1611343390.024400&cid=CTZKJC7PZ
+UnitedArabEmirates/4358/2020
