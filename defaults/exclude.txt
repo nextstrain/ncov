@@ -1349,6 +1349,9 @@ env/Austria/CeMM2231/2020
 env/Austria/CeMM2232/2020
 env/Austria/CeMM2233/2020
 env/Austria/CeMM2234/2021
+env/Liechtenstein/CeMM2215/2020
+env/Liechtenstein/CeMM2216/2020
+env/Liechtenstein/CeMM2217/2020
 
 # collection date in the future, reached out to submitters
 SouthAfrica/KRISP-K007811/2021
@@ -1367,3 +1370,9 @@ UnitedArabEmirates/4358/2020
 # Too early for USA, probably 2021-2020 swap
 USA/MD-HP01188/2020
 USA/MD-HP01273/2020
+
+# probably 2021-2020 swap
+CzechRepublic/NRL_274/2020
+
+# over-diverged, many small mutation clusters (see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1611596278055900)
+Brazil/RR-IEC176337/2020
