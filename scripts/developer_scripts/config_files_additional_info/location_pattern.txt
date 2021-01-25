@@ -12,3 +12,4 @@ Hospital General de XXX
 Patient residence:XXX
 XXX Health Department
 XXX Health department
+Patient origin XXX
