@@ -1363,3 +1363,7 @@ SouthAfrica/KRISP-K006869/2020
 
 # too early for clade, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1611427114039000?thread_ts=1611343390.024400&cid=CTZKJC7PZ
 UnitedArabEmirates/4358/2020
+
+# Too early for USA, probably 2021-2020 swap
+USA/MD-HP01188/2020
+USA/MD-HP01273/2020
