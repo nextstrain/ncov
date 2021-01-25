@@ -29,6 +29,7 @@ import time
 # [4] https://github.com/snakemake/snakemake/blob/a7ac40c96d6e2af47102563d0478a2220e2a2ab7/snakemake/workflow.py#L1088-L1094
 # [5] https://github.com/snakemake/snakemake/blob/a7ac40c96d6e2af47102563d0478a2220e2a2ab7/snakemake/utils.py#L455-L476
 user_subsampling = copy.deepcopy(config.get("subsampling", {}))
+config["nextalign_bin"] = "nextalign"
 
 configfile: "defaults/parameters.yaml"
 validate(config, schema="workflow/schemas/config.schema.yaml")
@@ -100,8 +101,6 @@ rule clean:
         "data/sequences.fasta"
     shell:
         "rm -rfv {params}"
-
-config["nextalign_bin"] = "./nextalign"
 
 rule dump_config:
     run:
