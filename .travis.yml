@@ -11,5 +11,6 @@ install:
   - nextstrain check-setup
   - nextstrain update
 script:
+  - curl -fsSL "https://github.com/neherlab/nextalign/releases/latest/download/nextalign-Linux-x86_64" -o "nextalign" && chmod +x nextalign
   - gunzip data/example_sequences.fasta.gz
   - nextstrain build . all_regions -j 2 --profile nextstrain_profiles/nextstrain --config sequences=data/example_sequences.fasta metadata=data/example_metadata.tsv active_builds=global
