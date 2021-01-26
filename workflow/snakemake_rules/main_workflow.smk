@@ -114,7 +114,7 @@ rule align:
           - gaps relative to reference are considered real
         """
     input:
-        sequences = "data/sequences.fasta",
+        sequences = config["sequences"],
         reference = config["files"]["alignment_reference"],
         gene_map = config["files"]["gene_map"]
     output:
