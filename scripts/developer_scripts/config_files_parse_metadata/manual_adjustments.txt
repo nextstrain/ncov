@@ -23,6 +23,7 @@ Europe/Belgium/Saint-Saulve/*	Europe/France/Hauts de France/Saint-Saulve
 Europe/Belgium/Mepel/*	Europe/Netherlands/Drenthe/Meppel
 Europe/Belgium/Flines-lès-Mortagne/*	Europe/France/Hauts de France/Flines-lès-Mortagne
 North America/USA/New York/Out-of-State	North America/USA/New York/
+North America/USA/New York/Out of State	North America/USA/New York/
 Europe/France/Champagne Ardenne/Troyes	Europe/France/Grand Est/Troyes
 South America/Brazil/Paraiba/Itambe	South America/Brazil/Pernambuco/Itambe
 Asia/Israel/*/Ramat Hasharon	Asia/Israel/Tel Aviv District/Ramat-Hasharon
@@ -49,3 +50,5 @@ Europe/France/Basse Normandie/Lisieux	Europe/France/Normandie/Lisieux
 Africa/Tunisia/Tunis/Ben Arous	Africa/Tunisia/Ben Arous/Ben Arous
 North America/USA/Unknown/	North America/USA/USA/
 Europe/Italy/South Tyrol/*	Europe/Italy/Trentino-Alto Adige/Autonomous Province of Bolzano
+Europe/France/Nord Pas de Calais/Dunkerque	Europe/France/Hauts de France/Dunkerque
+Europe/France/Picardie/*	Europe/France/Hauts de France/*

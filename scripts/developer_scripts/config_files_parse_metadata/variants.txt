@@ -7,7 +7,7 @@ location	Richalnd County	Richland County
 location	Ventana	Ventanas
 location	Verona	Verona IT
 location	Hobigonj	Habiganj
-location	East Baton Rouge	East Baton Rouge Parish
+location	East Baton Rougegoi	East Baton Rouge Parish
 location	Los Angeles	Los Angeles County	(North America, USA, California)
 location	Dodge Count	Dodge County
 location	Outagamie Coun	Outagamie County
@@ -666,3 +666,13 @@ location	Jim Wells	Jim Wells County	(North America, USA, Texas)
 location	Sant Adrian de Besos	Sant Adria del Besos	(Europe, Spain, Catalunya)
 location	Santa Coloma de Gramanet	Santa Coloma de Gramenet	(Europe, Spain, Catalunya)
 country	Trinidad	Trinidad and Tobago	(South America)
+division	Centre	Centre-Val de Loire	(Europe, France)
+location	Compiegne	Compiègne	(Europe, France, Hauts de France)
+location	Villejuif Cedex	Villejuif	(Europe, France, Ile de France)
+location	Nantes Cedex	Nantes	(Europe, France, Pays de la Loire)
+location	Le Mans Cedex	Le Mans	(Europe, France, Pays de la Loire)
+location	São Jose Dos Campo	Sao Jose Dos Campos	(South America, Brazil, São Paulo)
+division	Stankt Gallen	Sankt Gallen	(Europe, Switzerland)
+location	Alpes Durance		(Europe, France, Provence-Alpes-Côte d'Azur)
+location	Sao Matetus	Sao Mateus	(South America, Brazil, São Paulo)
+location	Ermelindo Matarazo	Ermelino Matarazzo	(South America, Brazil, São Paulo)

@@ -331,6 +331,7 @@ location	Lakhimpur
 location	Lucknow
 location	Barabanki
 location	Jaunpur
+location	Varanasi
 location	Azamgarh
 location	Gorakhpur
 
@@ -1359,11 +1360,14 @@ location	Nîmes
 location	Marignane
 location	Marseille
 location	Toulon
+location	Provence
+location	Var
 location	Draguignan
 location	Embrun
 location	Frejus
 location	Saint-Vallier-de-Thiey
 location	Cannes
+location	Alpes Maritimes
 location	Nice
 
 # Nouvelle-Aquitaine
@@ -1384,6 +1388,7 @@ location	Saint-Etienne
 location	Tarare
 location	Privas
 location	Pollionnay
+location	Rhone Alpes
 location	Craponne
 location	Saint-Genis-Les-Ollieres
 location	Villefranche-sur-Saône
@@ -1429,6 +1434,8 @@ location	Saint-Gilles-Croix-de-Vie
 location	Saint Herblain
 location	Nantes
 location	Cholet
+location	Val de Loire
+location	Le Mans
 location	Angers
 
 # Bretagne
@@ -1447,6 +1454,7 @@ location	Vannes
 location	Sene
 location	La Rochelle
 location	Cayenne
+location	Melesse
 location	Betton
 location	Fougères
 location	Rennes
@@ -1512,6 +1520,7 @@ location	Essonne
 location	Boulogne Billancourt
 location	Argenteuil
 location	Colombes
+location	Clamart
 location	Verrières-le-Buisson
 location	Asnières-sur-Seine
 location	Levallois-Perret
@@ -1525,8 +1534,10 @@ location	Juvisy-sur-Orge
 location	Sarcelles
 location	Ivry-sur-Seine
 location	Thiais
+location	Saint Mandé
 location	Montreuil
 location	Villeneuve St Georges
+location	Bry sur Marne
 location	Seine-Port
 location	Plessis Trevise
 location	Moussy Le Neuf
@@ -1549,6 +1560,7 @@ location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
 location	Amiens
+location	Somain
 location	Saint-Saulve
 location	Crespin
 location	Nord Pas de Calais
@@ -1562,6 +1574,7 @@ location	Wambrechies
 location	Roubaix
 location	Tourcoing
 location	Bousbecque
+location	Dunkerque
 
 ### Belgium
 # Veurne
@@ -1810,6 +1823,7 @@ location	Kapellen
 location	Merksem
 location	Kontich
 location	Edegem
+location	Mortsel
 location	Deurne
 location	Kalmthout
 location	Borsbeek
@@ -2209,10 +2223,13 @@ location	Horw
 location	Zürich
 
 # Schwyz
+location	Merlischachen
+location	Küssnacht Am Rigi
 location	Wollerau
 
 # Graubünden
 location	Flims Dorf
+location	Chur
 location	Champfer
 
 ### Norway
@@ -3301,6 +3318,7 @@ location	Ribeirao Preto
 location	Piracicaba
 location	Juquia
 location	Rio Claro
+location	Porto Feliz
 location	Sorocaba
 location	Santa Barbara D'Oeste
 location	Limeira
@@ -3314,6 +3332,7 @@ location	Itariri
 location	Campinas
 location	Mococa
 location	Peruibe
+location	Mogi-Guacu
 location	Rio Verde
 location	Cotia
 location	Jandira
@@ -3324,6 +3343,7 @@ location	Barueri
 location	Itapecerica Da Serra
 location	Embu Das Artes
 location	Itatiba
+location	Embu-Guacu
 location	Osasco
 location	Taboao Da Serra
 location	Amparo
@@ -3339,6 +3359,8 @@ location	Atibaia
 location	Braganca Paulista
 location	Santo Andre
 location	Guarulhos
+location	Ermelino Matarazzo
+location	Sao Mateus
 location	Maua
 location	Ribeirao Pires
 location	Rio Grande Da Serra
@@ -3352,6 +3374,7 @@ location	Guararema
 location	Jacareí
 location	Sao Jose Dos Campos
 location	Taubate
+location	Pindamonhangaba
 location	Caraguatatuba
 location	Sao Sebastiao
 location	Lorena
@@ -5175,6 +5198,7 @@ division	Uri
 division	Schaffhausen
 division	Zürich
 division	Schwyz
+division	Tessin
 division	Ticino
 division	Glarus
 division	Thurgau
@@ -5242,6 +5266,7 @@ division	Trentino
 division	Emilia-Romagna
 division	Tuscany
 division	Trentino-Alto Adige
+division	South Tyrol
 division	Italian cruise ship
 division	Italy
 division	Veneto
@@ -5479,6 +5504,8 @@ division	Utena
 division	Sanmihaiu Roman
 division	Vrancea
 division	Hunedoara
+division	Cluj Napoca
+division	Cluj
 division	Romania
 division	Arges
 division	Mioveni
@@ -5490,6 +5517,7 @@ division	Bucharest
 division	Suceava
 division	Buzau
 division	Constanta
+division	Tulcea
 
 ### Bulgaria
 division	Kyustendil
@@ -5796,10 +5824,8 @@ division	Suriname
 ### Venezuela
 division	Venezuela
 
-### Trinidad
-division	Trinidad
-
 ### Trinidad and Tobago
+division	Trinidad
 division	Trinidad and Tobago
 
 ### Curacao
@@ -6153,7 +6179,6 @@ country	Ecuador
 country	Colombia
 country	Suriname
 country	Venezuela
-country	Trinidad
 country	Trinidad and Tobago
 country	Curacao
 country	Aruba
