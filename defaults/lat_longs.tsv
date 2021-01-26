@@ -600,6 +600,7 @@ location	Champagne Ardenne	48.74077518849922	4.420081057126004
 location	Champfer	46.4778216	9.8122415
 location	Champion	50.495161	4.902091
 location	Chanaral	-26.347934	-70.6223617
+location	Chandauli	25.1265777	83.2496557733391
 location	Chandpur	23.2321	90.6631
 location	Changzhou	31.774498	119.919839
 location	Chanteloup-en-Brie	48.8555777	2.7395512
@@ -821,6 +822,7 @@ location	Dhuy	50.5596814	4.8573789
 location	Diadema	-23.692685	-46.606911
 location	Diegem	50.8945555	4.4365042
 location	Diemen	52.3390	4.9592
+location	Diepenbeek	50.9078485	5.4200307
 location	Diest	50.998854	5.062917
 location	Dijon	47.3220	5.0415
 location	Dilbeek	50.8465	4.2621
@@ -1334,6 +1336,7 @@ location	Inca	39.7211448	2.9111493
 location	Indaiatuba	-23.09028	-47.21806
 location	Indianapolis	39.7684	-86.1581
 location	Ingersheim	48.0968771	7.3022832
+location	Ingiriya	6.7437564	80.1766773
 location	Innsbruck	47.283507	11.379467
 location	Interior Alaska	65.905635	-150.144417
 location	Inyo County	36.5595325	-117.4074712
@@ -1481,6 +1484,7 @@ location	Kaufman County	32.581020800000005	-96.29927072197667
 location	Kaulille	51.186846	5.525937
 location	Kazhma	62.549908	34.839161
 location	Kdumim	32.21192845	35.15107683682172
+location	Kedrovoye	57.1595769	60.5695324
 location	Keerbergen	51.0049242	4.6265551
 location	Kefar Sava	32.1773471	34.907459
 location	Kelmis	50.714674	6.023042
@@ -2002,6 +2006,7 @@ location	Moradabad	28.8638424	78.80577833091104
 location	Moravia	10.0139444	-84.0094218
 location	Morehouse Parish	32.813203	-91.810337
 location	Moreno	-34.6396556	-58.7898326
+location	Morgan County AL	34.4296848	-86.8529584
 location	Moriensart	50.66674152036121	4.508157051966334
 location	Morlaix	48.5824932	-3.8331972
 location	Morlanwelz	50.450138	4.246584
@@ -2889,6 +2894,7 @@ location	Soacha	4.581264	-74.216815
 location	Sochi	43.5854823	39.723109
 location	Socuellamos	39.2847	-2.7904
 location	Sölden	46.9673961	11.0070193
+location	Sokolova	56.5465841	61.5065237
 location	Solano County	38.295909	-121.928845
 location	Solares	43.3840287	-3.7385842
 location	Soledad	10.905451549999999	-74.77405314080215
@@ -3820,6 +3826,7 @@ division	Ecuador	-1.3397667	-79.3666964
 division	Edo	6.6076575	5.9722713
 division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
+division	Ehime	33.6013646	132.8185275
 division	Ekiti State	7.736891	5.2738326
 division	El Oro	-3.498709232958782	-79.848108566191
 division	El Oued	33.215441	7.155321399098325
@@ -3852,6 +3859,7 @@ division	Fribourg	46.804570	7.162854
 division	Friesland	53.1642	5.7818
 division	Friuli Venezia Giulia	46.2259	13.1034
 division	Fujian	26.284852	118.122938
+division	Fukuoka	33.6251241	130.6180016
 division	Gaborone	-24.6581357	25.9088474
 division	Gafsa	34.43367	8.79079875204918
 division	Galapagos	-0.62881505	-90.3638752022324
@@ -3964,6 +3972,7 @@ division	Iceland	64.9841821	-18.1059012
 division	Idaho	43.810421	-114.351215
 division	Ieper	50.857716	2.874138
 division	Ile de France	48.724751	2.491522
+division	Ilfov	44.5017074	26.244907651159284
 division	Ilidza	43.8314	18.3002
 division	Ilijas	43.9486	18.2649
 division	Illinois	40.088552	-89.301876
@@ -4204,6 +4213,7 @@ division	Martin	49.0617	18.919
 division	Maryland	39.0458	-76.6413
 division	Masovia	54.033698650000005	21.77436913174548
 division	Massachusetts	42.340741	-71.998513
+division	Matale	7.4720453	80.6234307
 division	Mato Grosso	-12.6819	-56.9211
 division	Maule	-35.5972284	-71.48868
 division	Maun	-19.9860951	23.4224352
@@ -4313,6 +4323,7 @@ division	Niedersachsen	52.8398531	9.075962
 division	Niger	18.061703	10.145544
 division	Niger State	9.9326083	5.6511088
 division	Nigeria	10	8
+division	Niigata	37.6452283	138.7669125
 division	Nile River Cruise	23.998417	32.873216
 division	Nis	43.3211301	21.8959232
 division	Nitra	48.31295	18.0894593
@@ -4444,6 +4455,7 @@ division	Pomoravlje District	44.02211065	21.44085667572235
 division	Pomorskie	54.2944	18.1531
 division	Portugal	39.54046	-8.174701
 division	Prague	50.0755	14.4378
+division	Prahova	45.10875455	26.03762296377709
 division	Primorsky	45.0526	135
 division	Prince Edward Island	46.344935	-63.405688
 division	Provence-Alpes-Côte d'Azur	44.0580563	6.0638506
@@ -4785,6 +4797,7 @@ division	Vasternorrland	63.286259	17.641659
 division	Vastmanland	59.6714	16.2159
 division	Vastra Gotaland	58.2528	13.0596
 division	Vaud	46.619469	6.472479
+division	Vavuniya	8.7593517	80.5000778
 division	Veneto	45.4415	12.3153
 division	Venezuela	7.838891	-65.916409
 division	Veracruz	19.333333	-96.666667

@@ -333,6 +333,7 @@ location	Barabanki
 location	Jaunpur
 location	Varanasi
 location	Azamgarh
+location	Chandauli
 location	Gorakhpur
 
 # Delhi
@@ -365,6 +366,7 @@ location	Kargil
 ### Sri Lanka
 # Kalutara
 location	Beruwala
+location	Ingiriya
 
 ### Nepal
 # Kathmandu
@@ -2058,6 +2060,7 @@ location	Zolder
 location	Koersel
 location	Heusden-Zolder
 location	Zonhoven
+location	Diepenbeek
 location	Genk
 
 # Tongeren
@@ -2940,6 +2943,7 @@ location	Kamensk-Uralsky
 location	Polevskoy
 location	Sysert
 location	Kashino
+location	Sokolova
 location	Dvurechensk
 location	Bobrovsky
 location	Revda
@@ -2951,6 +2955,7 @@ location	Sredneuralsk
 location	Baltym
 location	Asbest
 location	Krasnyi Aduy
+location	Kedrovoye
 location	Shalya
 location	Verkhny Tagil
 location	Kirovgrad
@@ -4242,6 +4247,9 @@ location	Lake County IL
 location	Stephenson County
 location	Jo Daviess County
 
+# Alabama
+location	Morgan County AL
+
 # Indiana
 location	Marion County IN
 
@@ -4574,7 +4582,9 @@ division	Ladakh
 division	Kalutara
 division	Colombo
 division	Gampaha
+division	Matale
 division	Sri Lanka
+division	Vavuniya
 
 ### Nepal
 division	Rolpa
@@ -4739,8 +4749,10 @@ division	Seoul
 
 ### Japan
 division	Nagasaki
+division	Fukuoka
 division	Kyusyu
 division	Hiroshima
+division	Ehime
 division	Chushikoku
 division	Kochi
 division	Osaka
@@ -4751,6 +4763,7 @@ division	Ishikawa
 division	Chubu
 division	Aichi
 division	Hokurikushinsyu
+division	Niigata
 division	Hokuriku
 division	Kanto
 division	Kanagawa
@@ -5513,7 +5526,9 @@ division	Valcea
 division	Teleorman
 division	Giurgiu
 division	Ploiesti
+division	Prahova
 division	Bucharest
+division	Ilfov
 division	Suceava
 division	Buzau
 division	Constanta
@@ -5825,7 +5840,6 @@ division	Suriname
 division	Venezuela
 
 ### Trinidad and Tobago
-division	Trinidad
 division	Trinidad and Tobago
 
 ### Curacao

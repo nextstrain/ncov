@@ -52,3 +52,4 @@ North America/USA/Unknown/	North America/USA/USA/
 Europe/Italy/South Tyrol/*	Europe/Italy/Trentino-Alto Adige/Autonomous Province of Bolzano
 Europe/France/Nord Pas de Calais/Dunkerque	Europe/France/Hauts de France/Dunkerque
 Europe/France/Picardie/*	Europe/France/Hauts de France/*
+Italy/Apulia/Bari/	Europe/Italy/Apulia/Bari
