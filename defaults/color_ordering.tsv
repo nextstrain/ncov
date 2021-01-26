@@ -1006,6 +1006,7 @@ location	Suances
 location	Polanco
 location	Zurita
 location	Carandia
+location	Mogro
 location	Valderredible
 location	Pielagos
 location	Renedo
@@ -1013,9 +1014,11 @@ location	Oruna
 location	Liencres
 location	Santa Cruz de Bezana
 location	La Penilla
+location	Peñacastillo
 location	Muriedas
 location	Santa Maria de Cayon
 location	Maliano
+location	Astillero
 location	Santander
 location	Pontejos
 location	Marina de Cudeyo
@@ -1149,6 +1152,7 @@ location	Viana
 location	Tafalla
 location	Artajona
 location	Barasoain
+location	Estella
 location	Echavarri
 location	Torres De Elorz
 location	Zulueta
@@ -1269,22 +1273,26 @@ location	Mollet del Valles
 location	Sant Adria del Besos
 location	Parets del Valles
 location	Sant Fost de Campsentelles
+location	Llissa de Munt
 location	Lliça de Vall
 location	Badalona
 location	Vic
 location	Tiana
 location	Montgat
 location	Canovelles
+location	La Garriga
 location	Granollers
 location	Alella
 location	Corro d'Avall
 location	El Masnou
 location	Teia
 location	La Roca del Valles
+location	Canoves i Samalus
+location	Premia de Dalt
 location	Cardedeu
 location	Premia de Mar
 location	Sant Pere de Vilamajor
-location	Vilasar de Mar
+location	Vilassar de Mar
 location	Cabrera de Mar
 location	Sant Antoni de Vilamajor
 location	Llinars del Valles
@@ -1293,6 +1301,7 @@ location	Sant Celoni
 location	Vallgorguina
 location	Sant Vicenç de Montalt
 location	Arenys de Munt
+location	Arenys de Mar
 location	San Pol de Mar
 location	Calella
 location	Pineda de Mar
