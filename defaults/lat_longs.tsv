@@ -141,6 +141,7 @@ location	Araçatuba	-21.207992	-50.4390225
 location	Araras	-22.3569477	-47.3838889
 location	Arbre	50.611772	3.817121
 location	Arendonk	51.3202315	5.0864557
+location	Arenys de Mar	41.5797031	2.5491562
 location	Arenys de Munt	41.6095429	2.5400513
 location	Arequipa	-16.3988667	-71.5369607
 location	Arganda del Rey	40.3064	-3.4479
@@ -171,6 +172,7 @@ location	Assebroek	51.201322	3.255146
 location	Assenede	51.2275942	3.7532864
 location	Assis	-22.6620892	-50.420623
 location	Assumption Parish	29.912050	-91.042405
+location	Astillero	43.4001931	-3.8185789
 location	Astorga	42.4553555	-6.0529025
 location	Astrakhan	46.3498308	48.0326203
 location	Atarfe	37.2212	-3.6902
@@ -539,6 +541,7 @@ location	Cannes	43.5515198	7.0134418
 location	Canoas BR	-29.9216045	-51.1799525
 location	Canoas CR	8.56429535	-82.88464012507875
 location	Canovelles	41.6173948	2.28288
+location	Canoves i Samalus	41.7072824	2.338253622217338
 location	Cañuelas	-35.0540248	-58.7617379
 location	Cape Town	-33.928992	18.417396
 location	Cape Town Metro	-33.970973	18.510306
@@ -600,6 +603,7 @@ location	Champagne Ardenne	48.74077518849922	4.420081057126004
 location	Champfer	46.4778216	9.8122415
 location	Champion	50.495161	4.902091
 location	Chanaral	-26.347934	-70.6223617
+location	Chandauli	25.1265777	83.2496557733391
 location	Chandpur	23.2321	90.6631
 location	Changzhou	31.774498	119.919839
 location	Chanteloup-en-Brie	48.8555777	2.7395512
@@ -821,6 +825,7 @@ location	Dhuy	50.5596814	4.8573789
 location	Diadema	-23.692685	-46.606911
 location	Diegem	50.8945555	4.4365042
 location	Diemen	52.3390	4.9592
+location	Diepenbeek	50.9078485	5.4200307
 location	Diest	50.998854	5.062917
 location	Dijon	47.3220	5.0415
 location	Dilbeek	50.8465	4.2621
@@ -944,6 +949,7 @@ location	Estancia	-11.2682255	-37.4378341
 location	Esteban Echeverria	-34.4033193	-58.6866309
 location	Estebanez de la Calzada	42.4400439	-5.9408595
 location	Esteio	-29.8511627	-51.1778852
+location	Estella	42.672094	-2.0314834
 location	Estinnes	50.374881	4.103617
 location	Estremera	40.1837	-3.1071
 location	eThekwini	-29.861825	31.009909
@@ -1334,6 +1340,7 @@ location	Inca	39.7211448	2.9111493
 location	Indaiatuba	-23.09028	-47.21806
 location	Indianapolis	39.7684	-86.1581
 location	Ingersheim	48.0968771	7.3022832
+location	Ingiriya	6.7437564	80.1766773
 location	Innsbruck	47.283507	11.379467
 location	Interior Alaska	65.905635	-150.144417
 location	Inyo County	36.5595325	-117.4074712
@@ -1481,6 +1488,7 @@ location	Kaufman County	32.581020800000005	-96.29927072197667
 location	Kaulille	51.186846	5.525937
 location	Kazhma	62.549908	34.839161
 location	Kdumim	32.21192845	35.15107683682172
+location	Kedrovoye	57.1595769	60.5695324
 location	Keerbergen	51.0049242	4.6265551
 location	Kefar Sava	32.1773471	34.907459
 location	Kelmis	50.714674	6.023042
@@ -1596,6 +1604,7 @@ location	La Crosse County WI	43.8890516	-91.0902393
 location	La Cruz	11.0090665	-85.55069626857352
 location	La Cuesta	8.4924424	-82.8492286
 location	La Estrada	42.6899	-8.4909
+location	La Garriga	41.6849111	2.2865796
 location	La Hulpe	50.7313729	4.4893987
 location	La Libertad	-8.4893613	-77.3174141
 location	La Linea de la Concepcion	36.166010	-5.347498
@@ -1724,6 +1733,7 @@ location	Llano County	30.6663312	-98.6970374
 location	Llanos de Santa Lucia	9.84811255	-83.88122915008321
 location	Lliça de Vall	41.5915542	2.2422403
 location	Llinars del Valles	41.6383547	2.4033771
+location	Llissa de Munt	41.6104867	2.2397066
 location	Llombai	39.2816214	-0.5731796
 location	Llorente	9.956165976053066	-84.06629844736024
 location	Llubi	39.6994	3.0063
@@ -1955,6 +1965,7 @@ location	Möhlin	47.560991	7.8431299
 location	Moerfelden-Walldorf	49.9923836	8.5622468
 location	Mogi Das Cruzes	-23.5393	-46.2167
 location	Mogi-Guacu	-22.372222	-46.9425
+location	Mogro	43.4272044	-3.9714117
 location	Mohammadpur	23.7660	90.3586
 location	Mohave County	35.7218038	-113.8271174
 location	Moia	41.8130391	2.0978412
@@ -2002,6 +2013,7 @@ location	Moradabad	28.8638424	78.80577833091104
 location	Moravia	10.0139444	-84.0094218
 location	Morehouse Parish	32.813203	-91.810337
 location	Moreno	-34.6396556	-58.7898326
+location	Morgan County AL	34.4296848	-86.8529584
 location	Moriensart	50.66674152036121	4.508157051966334
 location	Morlaix	48.5824932	-3.8331972
 location	Morlanwelz	50.450138	4.246584
@@ -2329,6 +2341,7 @@ location	Peer	51.128120	5.458372
 location	Pelotas	-31.7699736	-52.3410161
 location	Pelt	51.210014	5.420519
 location	Pemba	-12.9735663	40.5214905
+location	Peñacastillo	43.4458084	-3.8659624
 location	Penacova	40.2702086	-8.2810743
 location	Pepin County	44.6351571	-92.0101928
 location	Peralta	42.337833	-1.799176
@@ -2429,6 +2442,7 @@ location	Prague-Miskovice	50.1643364	14.5414996
 location	Prantij	23.4367	72.8528
 location	Pratteln	47.5192013	7.6944741
 location	Pravia	43.4896744	-6.1138664
+location	Premia de Dalt	41.5076668	2.3437394
 location	Premia de Mar	41.4926822	2.3605846
 location	Presidente Epitacio	-21.765074	-52.11114
 location	Presidente Perón	-34.6322427	-58.6422754
@@ -2889,6 +2903,7 @@ location	Soacha	4.581264	-74.216815
 location	Sochi	43.5854823	39.723109
 location	Socuellamos	39.2847	-2.7904
 location	Sölden	46.9673961	11.0070193
+location	Sokolova	56.5465841	61.5065237
 location	Solano County	38.295909	-121.928845
 location	Solares	43.3840287	-3.7385842
 location	Soledad	10.905451549999999	-74.77405314080215
@@ -3259,6 +3274,7 @@ location	Vila Velha	-20.3472	-40.2823
 location	Vilafranca de Bonany	39.5703083	3.0889977
 location	Vilas County	46.0382686	-89.4734462
 location	Vilasar de Mar	41.5064041	2.3913883
+location	Vilassar de Mar	41.5064041	2.3913883
 location	Villa de Cruces	42.7937228	-8.1699391
 location	Villa Dolores	-31.948647288218332	-65.18894014975473
 location	Villa la Angostura	-40.7620649	-71.6473205
@@ -3820,6 +3836,7 @@ division	Ecuador	-1.3397667	-79.3666964
 division	Edo	6.6076575	5.9722713
 division	Eeklo	51.193464	3.562381
 division	Egypt	26.2540493	29.2675469
+division	Ehime	33.6013646	132.8185275
 division	Ekiti State	7.736891	5.2738326
 division	El Oro	-3.498709232958782	-79.848108566191
 division	El Oued	33.215441	7.155321399098325
@@ -3852,6 +3869,7 @@ division	Fribourg	46.804570	7.162854
 division	Friesland	53.1642	5.7818
 division	Friuli Venezia Giulia	46.2259	13.1034
 division	Fujian	26.284852	118.122938
+division	Fukuoka	33.6251241	130.6180016
 division	Gaborone	-24.6581357	25.9088474
 division	Gafsa	34.43367	8.79079875204918
 division	Galapagos	-0.62881505	-90.3638752022324
@@ -3964,6 +3982,7 @@ division	Iceland	64.9841821	-18.1059012
 division	Idaho	43.810421	-114.351215
 division	Ieper	50.857716	2.874138
 division	Ile de France	48.724751	2.491522
+division	Ilfov	44.5017074	26.244907651159284
 division	Ilidza	43.8314	18.3002
 division	Ilijas	43.9486	18.2649
 division	Illinois	40.088552	-89.301876
@@ -4204,6 +4223,7 @@ division	Martin	49.0617	18.919
 division	Maryland	39.0458	-76.6413
 division	Masovia	54.033698650000005	21.77436913174548
 division	Massachusetts	42.340741	-71.998513
+division	Matale	7.4720453	80.6234307
 division	Mato Grosso	-12.6819	-56.9211
 division	Maule	-35.5972284	-71.48868
 division	Maun	-19.9860951	23.4224352
@@ -4313,6 +4333,7 @@ division	Niedersachsen	52.8398531	9.075962
 division	Niger	18.061703	10.145544
 division	Niger State	9.9326083	5.6511088
 division	Nigeria	10	8
+division	Niigata	37.6452283	138.7669125
 division	Nile River Cruise	23.998417	32.873216
 division	Nis	43.3211301	21.8959232
 division	Nitra	48.31295	18.0894593
@@ -4444,6 +4465,7 @@ division	Pomoravlje District	44.02211065	21.44085667572235
 division	Pomorskie	54.2944	18.1531
 division	Portugal	39.54046	-8.174701
 division	Prague	50.0755	14.4378
+division	Prahova	45.10875455	26.03762296377709
 division	Primorsky	45.0526	135
 division	Prince Edward Island	46.344935	-63.405688
 division	Provence-Alpes-Côte d'Azur	44.0580563	6.0638506
@@ -4785,6 +4807,7 @@ division	Vasternorrland	63.286259	17.641659
 division	Vastmanland	59.6714	16.2159
 division	Vastra Gotaland	58.2528	13.0596
 division	Vaud	46.619469	6.472479
+division	Vavuniya	8.7593517	80.5000778
 division	Veneto	45.4415	12.3153
 division	Venezuela	7.838891	-65.916409
 division	Veracruz	19.333333	-96.666667
