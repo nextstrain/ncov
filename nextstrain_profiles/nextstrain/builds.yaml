@@ -40,6 +40,10 @@ builds:
     region: South America
     auspice_config: "nextstrain_profiles/nextstrain/south-america_auspice_config.json"
 
+# remove S dropout sequences and sequences without division label in US
+filter:
+  exclude_where: "division='USA' purpose_of_sequencing='S dropout'"
+
 # if different exposure traits should be used for some builds, specify here
 # otherwise the default exposure in defaults/parameters.yaml will used
 exposure:
