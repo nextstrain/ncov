@@ -1376,3 +1376,8 @@ CzechRepublic/NRL_274/2020
 
 # over-diverged, many small mutation clusters (see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1611596278055900)
 Brazil/RR-IEC176337/2020
+
+# over-diverged given date; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1611708739069500
+USA/MD-MDH-0170/2020
+Brazil/RR-IEC176349/2020
+USA/UT-UPHL-2012683062/2020
