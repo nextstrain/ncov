@@ -172,7 +172,7 @@ def plot_dates(data, path):
         plt.bar(dates, values)
         plt.title(country)
         plt.xticks(rotation=45, ha="right", size = 7)
-        plt.savefig(path + "dates_" + country)
+        plt.savefig(path + "dates_" + country.replace(".", ""))
         plt.close()
 
 
