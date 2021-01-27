@@ -90,7 +90,8 @@ location	Fawwar
 location	Halhul
 location	al-Arroub
 
-# Ramallah
+# Ramallah and al-Bireh Governorate
+location	Ramallah
 location	Jalazone
 
 # West Bank
@@ -1359,6 +1360,7 @@ location	Mamoudzou
 
 # Corse
 location	Porto-Vecchio
+location	Bastia
 
 # Occitanie
 location	Toulouse
@@ -1428,6 +1430,7 @@ location	St Clément
 location	Montcenis
 location	Chalon sur Saone
 location	Dijon
+location	Besancon
 location	Thise
 location	Montreux-Chateau
 
@@ -1441,6 +1444,7 @@ location	Orléans
 location	Craon
 
 # Pays de la Loire
+location	Saint Nazaire
 location	Saint-Gilles-Croix-de-Vie
 location	Saint Herblain
 location	Nantes
@@ -1471,6 +1475,7 @@ location	Fougères
 location	Rennes
 
 # Grand Est
+location	Bezannes
 location	Reims
 location	Troyes
 location	Champagne Ardenne
@@ -1547,7 +1552,9 @@ location	Ivry-sur-Seine
 location	Thiais
 location	Saint Mandé
 location	Montreuil
+location	Bobigny
 location	Villeneuve St Georges
+location	Aulnay Sous Bois
 location	Bry sur Marne
 location	Seine-Port
 location	Plessis Trevise
@@ -2379,11 +2386,12 @@ location	Autonomous Province of Trento
 location	Autonomous Province of Bolzano
 
 # Veneto
+location	Rovigo
+location	Padova
 location	Verona IT
 location	Vicenza
-location	Padova
 location	Treviso
-location	Rovigo
+location	Belluno
 
 # Lazio
 location	Rome
@@ -2786,7 +2794,7 @@ location	Velikiye Luki
 location	Borovichi (Pskov)
 
 # Saint-Petersburg
-location	Saint Petersburg
+location	Saint-Petersburg
 
 # Leningrad Oblast
 location	Sosnovyi Bor
@@ -2809,7 +2817,7 @@ location	Bryansk
 
 # Karelia
 location	Porosoozero
-location	Shuya
+location	Shuya (Karelia)
 location	Kondopoga
 location	Petrozavodsk
 location	Medvezhyegorsk
@@ -2881,7 +2889,15 @@ location	Tambov
 location	Morshansk
 
 # Ivanovo
+location	Mikhalevo
 location	Ivanovo
+location	Furmanov
+location	Shuya (Ivanovo)
+location	Rodniki
+location	Vichuga
+location	Zavolzhsk
+location	Kineshma
+location	Yuryevets
 
 # Karachay-Cherkess
 location	Zelenchukskaya
@@ -3859,12 +3875,30 @@ location	Mexicali
 
 # Sonora
 location	San Luis Rio Colorado
+location	Caborca
+location	Hermosillo
 
 # Durango
 location	Gomez Palacios
 
+# Estado de Mexico
+location	Nicolas Romero
+
+# Mexico City
+location	Chimalhuacan
+
 # Tamaulipas
 location	Matamoros
+
+# Tlaxcala
+location	Calpulalpan
+
+# Tabasco
+location	Huimanguillo
+location	Centla
+
+# Quintana Roo
+location	Cozumel
 
 ### USA
 # Hawaii
@@ -4003,7 +4037,7 @@ location	Denver County
 location	Minnehaha County
 
 # Nebraska
-location	Lancaster County
+location	Lancaster County NE
 location	Omaha
 
 # Texas
@@ -4058,10 +4092,10 @@ location	Denton County
 location	Victoria County
 location	Lavaca County
 location	Dallas County
-location	Calhoun County
+location	Calhoun County TX
 location	Burleson County
 location	Collin County
-location	Limestone County
+location	Limestone County TX
 location	Washington County TX
 location	Brazos County
 location	Kaufman County
@@ -4096,7 +4130,7 @@ location	Jasper County
 
 # Minnesota
 location	Fillmore County
-location	Houston County
+location	Houston County MN
 location	Winona County
 location	Wabasha County
 location	Dakota County
@@ -4225,12 +4259,12 @@ location	Saline County
 location	Gallatin County
 location	Jackson County IL
 location	Franklin County IL
-location	Randolph County
+location	Randolph County IL
 location	Hamilton County IL
 location	White County
 location	Perry County
 location	Monroe County IL
-location	St. Clair County
+location	St. Clair County IL
 location	Clinton County IL
 location	Madison County IL
 location	Bond County
@@ -4245,7 +4279,7 @@ location	Lee County
 location	Cook County
 location	Chicago
 location	Dupage County
-location	Dekalb County
+location	Dekalb County IL
 location	Kane County
 location	Ogle County
 location	Ogle County IL
@@ -4257,7 +4291,46 @@ location	Stephenson County
 location	Jo Daviess County
 
 # Alabama
+location	Baldwin County
+location	Mobile County
+location	Geneva County
+location	Escambia County
+location	Houston County AL
+location	Covington County
+location	Coffee County
+location	Dale County
+location	Conecuh County
+location	Butler County
+location	Montgomery County AL
+location	Autauga County
+location	Sumter County
+location	Elmore County
+location	Hale County
+location	Chilton County
+location	Tallapoosa County
+location	Clay County
+location	Shelby County
+location	Randolph County AL
+location	Tuscaloosa County
+location	Pickens County AL
+location	Talladega County
+location	Jefferson County AL
+location	Cleburne County
+location	St. Clair County AL
+location	Calhoun County AL
+location	Blount County
+location	Etowah County
+location	Cherokee County
+location	Winston County
+location	Cullman County
+location	Marshall County
 location	Morgan County AL
+location	Dekalb County AL
+location	Lawrence County
+location	Jackson County AL
+location	Madison County AL
+location	Limestone County AL
+location	Lauderdale County
 
 # Indiana
 location	Marion County IN
@@ -4269,6 +4342,7 @@ location	Mccracken County
 location	Alpena County
 
 # Georgia
+location	Thomas County
 location	Cobb
 
 # Ohio
@@ -4283,13 +4357,18 @@ location	Miami-Dade County
 location	Palm Beach County
 
 # South Carolina
+location	Pickens County SC
 location	Anderson County
 location	Greenville County
 location	Spartanburg County
+location	York County
+location	Hampton County
 location	Fairfield County SC
 location	Columbia SC
 location	Richland County SC
+location	Lancaster County SC
 location	Beaufort County
+location	Colleton County
 location	Dorchester County
 location	Darlington County
 location	Berkeley County
@@ -4301,6 +4380,9 @@ location	Horry County
 
 # West Virginia
 location	Kanawha
+
+# Virginia
+location	Frederick County
 
 # Pennsylvania
 location	Pittsburgh
@@ -4461,7 +4543,7 @@ division	North District
 division	Hebron
 division	Bethlehem
 division	Jericho
-division	Ramallah
+division	Ramallah and al-Bireh Governorate
 division	West Bank
 division	Jerusalem
 division	Nablus
@@ -4916,6 +4998,7 @@ division	Ekiti State
 division	Niger State
 division	Edo
 division	Delta
+division	Zamfara State
 division	Kogi State
 division	Rivers
 division	Federal Capital Territory
@@ -4974,6 +5057,7 @@ division	Sud Kivu
 division	Nord Kivu
 
 ### Botswana
+division	Southern East
 division	Gaborone
 division	Francistown
 division	Maun
@@ -5403,34 +5487,46 @@ division	Tuzla
 division	Gorazde
 
 ### Poland
+division	Lubuskie
 division	Zielonogorskie
+division	Zachodniopomorskie
 division	Dolnośląskie
 division	Wielkopolskie
 division	Opolskie
 division	Pomorskie
 division	Slask
 division	Poland
+division	Slaskie
 division	Łódzkie
 division	Malopolskie
+division	Swietokrzyskie
 division	Warminsko-Mazurskie
 division	Mazowieckie
 division	Masovia
+division	Podkarpackie
 
 ### Slovakia
 division	Kostoliste
 division	Bratislava
 division	Pezinok
 division	Miloslavov
+division	Nove Mesto nad Vahom
 division	Jatov
+division	Trencin
 division	Kamenicna
 division	Tvrdosovce
 division	Nitra
 division	Nove Zamky
 division	Surany
+division	Ilava
+division	Banovce nad Bebravou
+division	Partizanske
 division	Levice
+division	Prievidza
 division	Zilina
 division	Martin
 division	Banska Bystrica
+division	Oravska Lesna
 division	Slovakia
 division	Doľany
 division	Kosice
@@ -5894,6 +5990,9 @@ division	Saint Vincent and the Grenadines
 ### El Salvador
 division	San Salvador
 
+### St. Lucia
+division	St. Lucia
+
 ### Guatemala
 division	Guatemala
 
@@ -6212,6 +6311,7 @@ country	Costa Rica
 country	Nicaragua
 country	Saint Vincent and the Grenadines
 country	El Salvador
+country	St. Lucia
 country	Guatemala
 country	Guadeloupe
 country	Belize
