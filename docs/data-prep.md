@@ -114,6 +114,8 @@ This should be decompressed and saved as `data/global_sequences.fasta`.
 
 You can concatenate these files with your own; make sure the TSV fields are in the same order.
 
+The Nextstrain team uses this pipeline to include the latest sequences and metadata from GISAID in our builds: [nextstrain/ncov-ingest](https://github.com/nextstrain/ncov-ingest).
+
 ### Subsampling
 
 We've outlined several methods for subsampling, including builds with a focus area + genetically similar contextual sequences, in the [next section](running.md).
