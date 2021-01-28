@@ -57,3 +57,5 @@ North America/USA/Texas Mclennan/*	North America/USA/Texas/Mclennan County
 Asia/Palestine/West Bank/Ramallah	Asia/Palestine/Ramallah and al-Bireh Governorate/Ramallah
 Africa/Mayotte/Mayotte/Mamoudzou	Europe/France/Mayotte/Mamoudzou
 Africa/Mayotte/Mamoudzou/	Europe/France/Mayotte/Mamoudzou
+South America/Guyane Francaise/Cayenne/	Europe/France/French Guiana/Cayenne
+South America/Guyane Francaise/Guyane Francaise/	Europe/France/French Guiana/
