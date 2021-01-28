@@ -1351,6 +1351,7 @@ if __name__ == '__main__':
     ##### Bonus step: Print out all collected annotations - if considered correct, they can be copied by the user to annotations.tsv
     # Only print line if not yet present
     # Print warning if this GISAID ID is already in the file
+    lines_exclude = ["title", "authors", "paper_url", "genbank_accession", "purpose_of_sequencing"]
     annot_lines_to_write = []
     for line in additions_to_annotation:
         if line in annotations:
@@ -1359,10 +1360,18 @@ if __name__ == '__main__':
         if "=" not in line:
             annot_lines_to_write.append(line)
         if len(line.split("\t")) == 4:
-            number_of_occurences = annotations.count(line.split("\t")[1])
-            irrelevant_occurences = sum([(line.split("\t")[1] + "\t" + s) in annotations for s in ["title", "authors", "paper_url", "genbank_accession"]])
-            if number_of_occurences > irrelevant_occurences:
-                print("Warning: " + line.split("\t")[1] + " already exists in annotations!")
+            epi = line.split("\t")[1]
+            if epi in annotations:
+                number_of_occurences = annotations.count(line.split("\t")[1])
+                irrelevant_occurences = sum([(line.split("\t")[1] + "\t" + s) in annotations for s in lines_exclude])
+                if number_of_occurences > irrelevant_occurences:
+                    for l in annotations.split("\n"):
+                        if epi in l:
+                            print("Warning: " + epi + " already exists in annotations! (" + bold(line.split("\t")[2]) + " " + line.split("\t")[3] + " vs " + bold(l.split("\t")[2]) + " " + l.split("\t")[3] + ")")
+
+
+
+                #print("Warning: " + line.split("\t")[1] + " already exists in annotations!")
 
     with open(path_to_output_files+"new_annotations.tsv", 'w') as out:
         out.write("\n".join(sorted(annot_lines_to_write)))

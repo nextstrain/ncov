@@ -42,7 +42,6 @@ Europe/Austria/Salzburg/Kramsach	Europe/Austria/Tyrol/Kramsach
 Europe/Austria/Salzburg/Altmünster	Europe/Austria/Upper Austria/Altmünster
 Europe/Austria/Salzburg/Haizing	Europe/Austria/Upper Austria/Haizing
 Europe/Austria/Salzburg/Attnang-Puchheim	Europe/Austria/Upper Austria/Attnang-Puchheim
-Europe/France/Picardie/Amiens	Europe/France/Hauts de France/Amiens
 Europe/France/Centre-Val de Loire/Angers	Europe/France/Pays de la Loire/Angers
 Europe/France/Occitanie/Marseille	Europe/France/Provence-Alpes-Côte d'Azur/Marseille
 Europe/France/Poitou Charentes/Saintes	Europe/France/Nouvelle-Aquitaine/Saintes
@@ -53,3 +52,8 @@ Europe/Italy/South Tyrol/*	Europe/Italy/Trentino-Alto Adige/Autonomous Province 
 Europe/France/Nord Pas de Calais/Dunkerque	Europe/France/Hauts de France/Dunkerque
 Europe/France/Picardie/*	Europe/France/Hauts de France/*
 Italy/Apulia/Bari/	Europe/Italy/Apulia/Bari
+North America/USA/Texas Terry/*	North America/USA/Texas/Terry County
+North America/USA/Texas Mclennan/*	North America/USA/Texas/Mclennan County
+Asia/Palestine/West Bank/Ramallah	Asia/Palestine/Ramallah and al-Bireh Governorate/Ramallah
+Africa/Mayotte/Mayotte/Mamoudzou	Europe/France/Mayotte/Mamoudzou
+Africa/Mayotte/Mamoudzou/	Europe/France/Mayotte/Mamoudzou
