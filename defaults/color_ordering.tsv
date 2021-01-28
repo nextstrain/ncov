@@ -4333,7 +4333,7 @@ location	Chambers County
 location	Coosa County
 location	Bibb County
 location	Clay County
-location	Shelby County
+location	Shelby County AL
 location	Randolph County AL
 location	Tuscaloosa County
 location	Pickens County AL
@@ -4359,6 +4359,9 @@ location	Jackson County AL
 location	Madison County AL
 location	Limestone County AL
 location	Lauderdale County
+
+# Tennessee
+location	Shelby County TN
 
 # Indiana
 location	Marion County IN
