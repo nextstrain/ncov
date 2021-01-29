@@ -59,3 +59,8 @@ Africa/Mayotte/Mayotte/Mamoudzou	Europe/France/Mayotte/Mamoudzou
 Africa/Mayotte/Mamoudzou/	Europe/France/Mayotte/Mamoudzou
 South America/Guyane Francaise/Cayenne/	Europe/France/French Guiana/Cayenne
 South America/Guyane Francaise/Guyane Francaise/	Europe/France/French Guiana/
+Europe/France/Centre-Val de Loire/Nantes	Europe/France/Pays de la Loire/Nantes
+Asia/Israel/Central District/Bat Yam	Asia/Israel/Tel Aviv District/Bat Yam
+Asia/Israel/Central District/Herzelia	Asia/Israel/Tel Aviv District/Herzelia
+Asia/Israel/Jerusalem/Maale Edomim	Asia/Palestine/West Bank/Maale-Edumim
+Asia/Israel/Judea and Samaria/Ariel	Asia/Palestine/West Bank/Ariel

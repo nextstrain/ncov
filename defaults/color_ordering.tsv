@@ -6,10 +6,19 @@
 location	Eilat
 location	South Coast District
 location	Beer-Sheva
+location	Arad
 location	Lehavim
+location	Rahat
 location	Netivot
+location	Mabu'Im
 location	Alumim
+location	Sderot
+location	Or Haner
+location	Sde Moshe
 location	Kiryat Gat
+location	Beit Shikma
+location	Ashkelon
+location	Talmei Yehi'El
 location	Ashdod
 location	Even Shmuel
 location	Yeruham
@@ -17,8 +26,10 @@ location	Yeruham
 # Jerusalem District
 location	Beko'A
 location	Beit Shemesh
+location	Givat Ye'Arim
 location	Kiryat Ye'Arim
 location	Beitar Ilit
+location	Mevaseret Tzion
 location	Jerusalem
 
 # Judea and Samaria
@@ -29,9 +40,11 @@ location	Kdumim
 # Central District
 location	Sde Yitzhak
 location	Orot
+location	Bnei Ayish
 location	Gedera
 location	Sdema
 location	Yavne
+location	Rehovot
 location	Modiin
 location	Ramla
 location	Lod
@@ -44,12 +57,18 @@ location	Beerot-Itzhak
 location	Elad
 location	Gani Tikva
 location	Petah Tikva
+location	Rosh Haayin
+location	Givat Hen
 location	Kefar Sava
 location	Kfar Saba
 location	Raanana
 location	Rishpon
+location	Tira
+location	Taibe
+location	Qalansawe
 location	Pardesia
 location	Netanya
+location	Elyakhin
 
 # Tel Aviv District
 location	Bat Yam
@@ -60,29 +79,41 @@ location	Ramat Gan
 location	Tel-Aviv
 location	Bnei Brak
 location	Ramat-Hasharon
+location	Herzelia
 
 # Haifa District
+location	Baqa Al-Gharbiyye
 location	Ceasaria
+location	Maale Iron
+location	Tirat Carmel
+location	Kiryat Ata
 location	Haifa
 
 # North District
-location	Tamra
-location	Yuvalim
+location	Tirat Zvi
 location	Yafa An-Naseriyye
-location	Maalot Tarshicha
-location	Kisra-Sumei
-location	Sakhnin
+location	Nof Hagalil
 location	Nazareth
-location	Arraba
+location	Ka'Abiyye-Tabbash-Hajajre
 location	Kafr Kanna
-location	Deir Hanna
+location	Tveria
+location	I'Billin
 location	Eilabun
+location	Chaspin
+location	Arraba
+location	Tamra
+location	Deir Hanna
+location	Sakhnin
+location	Hukuk
+location	Yuvalim
+location	Sha'Ab
 location	Tzfat
 location	Zefat
-location	Tirat Zvi
-location	Hukuk
-location	Tveria
-location	Chaspin
+location	Kisra-Sumei
+location	Maalot Tarshicha
+location	Hurefeish
+location	Jish
+location	Shlomi
 
 ### Palestine
 # Hebron
@@ -98,6 +129,7 @@ location	Jalazone
 location	Tkoa
 location	Maale-Edumim
 location	Salfit
+location	Ariel
 location	Elkana
 location	Qalqilya
 location	Tulkarem
@@ -538,6 +570,7 @@ location	Tangerang
 # West Java
 location	Bogor
 location	Depok
+location	Bekasi
 location	Purwakarta
 location	Bandung
 location	Bogor Regency
@@ -771,8 +804,18 @@ location	Amajuba
 location	Al Matariyyah
 
 ### Mozambique
+# Maputo
+location	Katembe
+location	Polana Canico
+location	Mavalane
+location	Bagamoio
+location	Marracuene
+
 # Gaza
 location	Xai Xai
+
+# Sofala
+location	Beira
 
 # Manica
 location	Chimoio
@@ -1751,6 +1794,7 @@ location	Seneffe
 location	Geraardsbergen
 location	Herzele
 location	Erpe-Mere
+location	Lede
 
 # Dendermonde
 location	Kalken
@@ -1832,6 +1876,7 @@ location	Ganshoren
 location	Jette
 location	Laken
 location	Haren
+location	Neder-Over-Heembeek
 
 # Antwerpen
 location	Berchem
@@ -1875,6 +1920,7 @@ location	Huizingen
 location	Londerzeel
 location	Wemmel
 location	Beersel
+location	Strombeek-Bever
 location	Sint-Genesius-Rode
 location	Grimbergen
 location	Humbeek
@@ -1925,6 +1971,7 @@ location	Willebroek
 location	Blaasveld
 location	Leest
 location	Duffel
+location	Muizen
 location	Bonheiden
 location	Lier
 location	Koningshooikt
@@ -1933,6 +1980,7 @@ location	Nijlen
 location	Bevel
 location	Schriek
 location	Heist-op-den-Berg
+location	Booischot
 
 # Philippeville
 location	Couvin
@@ -1965,6 +2013,7 @@ location	Blanden
 location	Haasrode
 location	Kessel-Lo
 location	Baal
+location	Wezemaal
 location	Holsbeek
 location	Linden
 location	Bierbeek
@@ -1977,6 +2026,7 @@ location	Langdorp
 location	Kumtich
 location	Tielt-Winge
 location	Hoegaarden
+location	Attenrode
 location	Molenbeek-Wersbeek
 location	Tienen
 location	Bost
@@ -2002,6 +2052,7 @@ location	Ligny
 location	Aisemont
 location	Jemeppe-sur-Sambre
 location	Gembloux
+location	Spy
 location	Beuzet
 location	Temploux
 location	Grand-Leez
@@ -2014,8 +2065,12 @@ location	Éghezée
 location	Andenne
 
 # Dinant
+location	Alle
 location	Rochefort
+location	Heer
+location	Sorinnes
 location	Ciney
+location	Dorinne
 location	Maffe
 location	Havelange
 
@@ -2078,15 +2133,20 @@ location	Heppen
 location	Stevoort
 location	Kermt
 location	Zolder
+location	Leopoldsburg
 location	Koersel
 location	Heusden-Zolder
 location	Zonhoven
 location	Diepenbeek
 location	Genk
 
+# Neufchâteau
+location	Saint-Hubert
+
 # Tongeren
 location	Alken
 location	Beverst
+location	Hoeselt
 location	Bilzen
 location	Riemst
 location	Lanaken
@@ -4392,6 +4452,7 @@ location	Pickens County SC
 location	Anderson County
 location	Greenville County
 location	Spartanburg County
+location	Aiken
 location	York County
 location	Hampton County
 location	Fairfield County SC
@@ -4599,6 +4660,7 @@ division	Tbilisi
 ### Iraq
 division	Al-Muthanna Province
 division	Iraq
+division	Erbil
 
 ### Armenia
 division	Armenia
@@ -5128,8 +5190,12 @@ division	Kalyoubia
 division	Uganda
 
 ### Mozambique
+division	Maputo
 division	Gaza
+division	Inhambane
+division	Sofala
 division	Manica
+division	Nampula
 division	Cabo Delgado
 
 ### Tanzania
@@ -5291,6 +5357,7 @@ division	Huy
 division	Waremme
 division	Hasselt
 division	Limburg BE
+division	Neufchâteau
 division	Tongeren
 division	Liège
 division	Maaseik
