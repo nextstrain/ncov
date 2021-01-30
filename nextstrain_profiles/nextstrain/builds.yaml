@@ -4,6 +4,9 @@ custom_rules:
   - nextstrain_profiles/nextstrain/subsampling_ranges.smk
   # - nextstrain_profiles/nextstrain/download_preprocessed.smk
 
+nextalign_bin: "nextalign"
+use_nextalign: true
+
 S3_BUCKET: "nextstrain-ncov-private"
 
 # Define locations for which builds should be created.
