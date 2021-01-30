@@ -139,7 +139,7 @@ rule align:
             --genes {params.genes} \
             --reference {input.reference} \
             --sequences {input.sequences} \
-            --output-basename {params.basename} --output-dir {params.outdir} 2> {log}
+            --output-basename {params.basename} --output-dir {params.outdir} > {log} 2>&1
         """
 
 rule diagnostic:
