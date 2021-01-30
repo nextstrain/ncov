@@ -24,9 +24,13 @@ jobs:
     - name: launch
       run: |
         PATH="$HOME/.local/bin:$PATH"
+        set -x
 
+        echo "::group::Install nextstrain-cli"
         python3 -m pip install nextstrain-cli
+        echo "::endgroup::"
 
+        echo "::group::nextstrain build"
         nextstrain build \
           --aws-batch \
           --cpus 96 \
@@ -40,7 +44,20 @@ jobs:
                 S3_DST_BUCKET=nextstrain-ncov-private/trial/"$TRIAL_NAME" \
                 s3_staging_url=s3://nextstrain-staging/trial_"$TRIAL_NAME"_ \
             --profile nextstrain_profiles/nextstrain \
-            --set-threads tree=16
+            --set-threads tree=16 \
+        |& tee build-launch.log
+        echo "::endgroup::"
+
+        set +x
+        echo "--> Trial name is: $TRIAL_NAME"
+        echo
+        echo "--> Upload prefixes"
+        echo "intermediates: s3://nextstrain-ncov-private/trial/$TRIAL_NAME/"
+        echo "results: s3://nextstrain-staging/trial_${TRIAL_NAME}_"
+        echo "         https://nextstrain.org/staging/trial/$TRIAL_NAME/"
+        echo
+        echo "--> Attach command"
+        tail -n1 build-launch.log
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
