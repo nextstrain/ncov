@@ -1398,7 +1398,6 @@ Gingelom
 	Kortijs
 	Mielen-boven-Aalst
 	Montenaken
-	Muizen
 	Niel-bij-Sint-Truiden
 	Vorsen
 Halen

@@ -4,7 +4,7 @@ rule download_sequences:
         sequences = config["sequences"]
     conda: config["conda_environment"]
     params:
-        s3_bucket = config["S3_BUCKET"]
+        s3_bucket = _get_first(config, "S3_SRC_BUCKET", "S3_BUCKET")
     shell:
         """
         aws s3 cp s3://{params.s3_bucket}/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
@@ -16,7 +16,7 @@ rule download_metadata:
         metadata = config["metadata"]
     conda: config["conda_environment"]
     params:
-        s3_bucket = config["S3_BUCKET"]
+        s3_bucket = _get_first(config, "S3_SRC_BUCKET", "S3_BUCKET")
     shell:
         """
         aws s3 cp s3://{params.s3_bucket}/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}

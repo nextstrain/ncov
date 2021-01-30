@@ -75,3 +75,16 @@ def _get_max_date_for_frequencies(wildcards):
         return config["frequencies"]["max_date"]
     else:
         return numeric_date(date.today())
+
+def _get_first(config, *keys):
+    """
+    Get the value of the first key in *keys* that exists in *config* and has a
+    non-empty value.
+
+    Raises a :class:`KeyError` if none of the *keys* exist with a suitable
+    value.
+    """
+    for key in keys:
+        if config.get(key) not in {"", None}:
+            return config[key]
+    raise KeyError(str(keys))

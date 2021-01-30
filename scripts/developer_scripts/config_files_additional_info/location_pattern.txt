@@ -13,3 +13,9 @@ Patient residence:XXX
 XXX Health Department
 XXX Health department
 Patient origin XXX
+zip code: XXX
+zip code: XXX  (interpreted as patient residence) (interpreted as patient residence) (interpreted as patient residence) (interpreted as patient residence) (interpreted as patient residence)
+CS XXX
+HG de XXX
+CS de XXX
+HG da XXX
