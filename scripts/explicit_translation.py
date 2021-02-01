@@ -11,27 +11,34 @@ if __name__ == '__main__':
     )
 
     parser.add_argument('--tree', type=str, required=True, help="input tree")
-    parser.add_argument('--translation', type=str, required=True, help="amino acid alignment")
-    parser.add_argument('--gene', type=str, required=True, help="amino acid alignment")
+    parser.add_argument('--translations', type=str,  nargs='+', required=True, help="amino acid alignment")
+    parser.add_argument('--genes', type=str, nargs='+', required=True, help="amino acid alignment")
     parser.add_argument('--output', type=str, metavar="JSON", required=True, help="output Auspice JSON")
     args = parser.parse_args()
 
+    genes = args.genes if type(args.genes)==list else [args.genes]
+    translations = args.translations if type(args.translations)==list else [args.translations]
+
     T = Phylo.read(args.tree, 'newick')
     leafs = {n.name for n in T.get_terminals()}
-    seqs = []
-    for s in SeqIO.parse(args.translation, 'fasta'):
-        if s.id in leafs:
-            seqs.append(s)
-
-
-    tt = TreeAnc(tree=T, aln=MultipleSeqAlignment(seqs), alphabet='aa')
-
-    tt.infer_ancestral_sequences(reconstruct_tip_states=True)
 
     node_data = {}
-
     for n in tt.tree.find_clades():
-        node_data[n.name] = {"aa_muts":{args.gene:[f"{a}{p+1}{d}" for a,p,d in n.mutations]}}
+        node_data[n.name] = {"aa_muts":{}}
+
+    for gene, translation in zip(genes, translations):
+        seqs = []
+        for s in SeqIO.parse(args.translation, 'fasta'):
+            if s.id in leafs:
+                seqs.append(s)
+
+
+        tt = TreeAnc(tree=T, aln=MultipleSeqAlignment(seqs), alphabet='aa')
+
+        tt.infer_ancestral_sequences(reconstruct_tip_states=True)
+
+        for n in tt.tree.find_clades():
+            node_data[n.name]["aa_muts"][gene] = [f"{a}{p+1}{d}" for a,p,d in n.mutations]
 
     with open(args.output, 'w') as fh:
         json.dump({"nodes":node_data}, fh)

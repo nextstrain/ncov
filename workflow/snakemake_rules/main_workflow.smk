@@ -119,11 +119,11 @@ if "use_nextalign" in config and config["use_nextalign"]:
             gene_map = config["files"]["gene_map"]
         output:
             alignment = "results/nextalign/sequences.aligned.fasta",
-            translation = "results/nextalign/sequences.gene.S.fasta"
+            translations = expand("results/nextalign/sequences.gene.{gene}.fasta", gene=config.get('genes', ['S']))
         params:
             outdir = "results/nextalign",
             bin = config["nextalign_bin"],
-            genes = 'S,N',
+            genes = ','.join(config.get('genes', ['S'])),
         	basename = "sequences"
         log:
             "logs/align.txt"
@@ -652,11 +652,11 @@ rule aa_muts_explicit:
     message: "Translating amino acid sequences"
     input:
         tree = rules.refine.output.tree,
-        translation = rules.align.output.translation
+        translations = rules.align.output.translations
     output:
         node_data = "results/{build_name}/aa_muts_explicit.json"
     params:
-        gene = 'S'
+        genes = config.get('genes', 'S')
     log:
         "logs/aamuts_{build_name}.txt"
     conda: config["conda_environment"]
@@ -664,8 +664,8 @@ rule aa_muts_explicit:
         """
         python3 scripts/explicit_translation.py \
             --tree {input.tree} \
-            --translation {input.translation:q} \
-            --gene {params.gene} \
+            --translations {input.translations:q} \
+            --genes {params.genes} \
             --output {output.node_data} 2>&1 | tee {log}
 
         """
