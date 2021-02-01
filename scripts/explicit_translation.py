@@ -23,9 +23,6 @@ if __name__ == '__main__':
     leafs = {n.name for n in T.get_terminals()}
 
     node_data = {}
-    for n in tt.tree.find_clades():
-        node_data[n.name] = {"aa_muts":{}}
-
     for gene, translation in zip(genes, translations):
         seqs = []
         for s in SeqIO.parse(args.translation, 'fasta'):
@@ -36,6 +33,9 @@ if __name__ == '__main__':
         tt = TreeAnc(tree=T, aln=MultipleSeqAlignment(seqs), alphabet='aa')
 
         tt.infer_ancestral_sequences(reconstruct_tip_states=True)
+        for n in tt.tree.find_clades():
+            if n.name not in node_data:
+                node_data[n.name] = {"aa_muts":{}}
 
         for n in tt.tree.find_clades():
             node_data[n.name]["aa_muts"][gene] = [f"{a}{p+1}{d}" for a,p,d in n.mutations]
