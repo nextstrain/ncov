@@ -393,7 +393,7 @@ location	Pauri Garhwal
 location	Rudraprayag
 location	Chamoli
 
-# Punjab
+# Punjab IN
 location	Rupnagar
 
 # Ladakh
@@ -4811,7 +4811,7 @@ division	Nur-Sultan
 division	Karachi
 division	Sindh
 division	Pakistan
-division	Punjab
+division	Punjab PK
 division	Rawalpindi
 division	Khyber Pakhtunkhwa
 division	Islamabad
@@ -4844,7 +4844,7 @@ division	Uttar Pradesh
 division	Delhi
 division	Haryana
 division	Uttarakhand
-division	Punjab
+division	Punjab IN
 division	Himachal Pradesh
 division	Jammu and Kashmir
 division	Ladakh
@@ -5412,7 +5412,6 @@ division	Ieper
 division	Oostende
 division	West-Vlaanderen
 division	Roeselare
-division	Roeselaere
 division	Brugge
 division	Kortrijk
 division	Tielt
