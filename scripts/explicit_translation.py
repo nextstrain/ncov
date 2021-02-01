@@ -25,7 +25,7 @@ if __name__ == '__main__':
     node_data = {}
     for gene, translation in zip(genes, translations):
         seqs = []
-        for s in SeqIO.parse(args.translation, 'fasta'):
+        for s in SeqIO.parse(translation, 'fasta'):
             if s.id in leafs:
                 seqs.append(s)
 
