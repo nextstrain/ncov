@@ -19,3 +19,7 @@ CS XXX
 HG de XXX
 CS de XXX
 HG da XXX
+Lives in XXX
+Resident in XXX
+Patient resident in XXX
+Patient resident in XXX.

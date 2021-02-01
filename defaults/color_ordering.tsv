@@ -1690,6 +1690,7 @@ location	Izegem
 # Brugge
 location	Torhout
 location	Oostkamp
+location	Sint-Michiels
 location	Sint-Andries
 location	Assebroek
 location	Sint-Kruis
@@ -5412,7 +5413,6 @@ division	Oostende
 division	West-Vlaanderen
 division	Roeselare
 division	Roeselaere
-division	Sint-Michiels
 division	Brugge
 division	Kortrijk
 division	Tielt
@@ -5704,7 +5704,6 @@ division	Miloslavov
 division	Nove Mesto nad Vahom
 division	Jatov
 division	Trenčín
-division	Trencin
 division	Kamenicna
 division	Tvrdosovce
 division	Nitra

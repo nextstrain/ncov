@@ -57,3 +57,5 @@ Patient seeking testing in a local hospital
 Hotel
 Hospital
 There is no abroad travel history in the last month.
+COVID-19 triage center
+Contact with a patient who lives in
