@@ -153,7 +153,7 @@ else:
             reference = config["files"]["alignment_reference"]
         output:
             alignment = "results/aligned.fasta",
-            translation = []
+            translations = []
         log:
             "logs/align.txt"
         benchmark:
