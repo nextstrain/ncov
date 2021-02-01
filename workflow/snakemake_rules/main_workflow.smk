@@ -171,6 +171,32 @@ else:
                 {input.reference} > {output} 2> {log}
             """
 
+rule mutation_summary:
+    message: "Summarizing {input.alignment}"
+    input:
+        alignment = rules.align.output.alignment,
+        translations = rules.align.output.translations,
+        reference = config["files"]["alignment_reference"],
+        genemap = config["files"]["gene_map"]
+    output:
+        mutation_summary = "results/mutation_summary.tsv"
+    log:
+        "logs/mutation_summary.txt"
+    params:
+        outdir = "results/nextalign",
+        basename = "sequences"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/mutation_summary.py \
+            --directory {params.outdir} \
+            --basename {params.basename} \
+            --reference {input.reference} \
+            --genemap {input.genemap} \
+            --output {output.mutation_summary} 2>&1 | tee {log}
+        """
+
+
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
