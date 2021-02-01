@@ -80,3 +80,9 @@ Ivanovo	(Ivanovo)
 Karelia	(Karelia)
 French Guiana	GF
 Bretagne	BRE
+India	IN
+Punjab	PK
+France	FR
+Belgium	BE
+Turnhout	BE
+Hauts de France	FR
