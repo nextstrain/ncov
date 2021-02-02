@@ -1367,6 +1367,7 @@ location	Formentera
 location	Ibiza
 location	Santa Ponca
 location	Calvia
+location	Palmanova
 location	Palma
 location	Palma de Mallorca
 location	Pont d'Inca
@@ -1517,6 +1518,7 @@ location	Compans
 location	Saint-Thibault-des-Vignes
 location	Chanteloup-en-Brie
 location	Egreville
+location	Meaux
 
 # Hauts de France
 location	Nogent-l'Artaud
@@ -1525,9 +1527,11 @@ location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
 location	Amiens
+location	Cambrai
 location	Somain
 location	Saint-Saulve
 location	Crespin
+location	Henin-Beaumont
 location	Nord Pas de Calais
 location	Flines-lès-Mortagne
 location	Genech
@@ -1607,6 +1611,7 @@ location	Amneville
 location	Woippy
 location	Montigny Les Metz
 location	Maizières Les Metz
+location	Vandoeuvre-Les-Nancy
 location	Talange
 location	Metz
 location	Nancy
@@ -1667,11 +1672,15 @@ location	Beveren
 # Diksmuide
 location	Lo-Reninge
 location	Beerst
+location	Houthulst
+location	Zarren
+location	Koekelare
 location	Kortemark
 
 # Ieper
 location	Poperinge
 location	Vlamertinge
+location	Langemark-Poelkapelle
 location	Langemark
 location	Wervik
 location	Geluwe
@@ -1679,16 +1688,19 @@ location	Geluwe
 # Oostende
 location	Middelkerke
 location	Oudenburg
+location	Ichtegem
 location	Ettelgem
 
-# West-Vlaanderen
-location	Herthoek
-
 # Roeselare
+location	Staden
+location	Hooglede
+location	Lichtervelde
 location	Izegem
 
 # Brugge
 location	Torhout
+location	Aartrijke
+location	Zedelgem
 location	Oostkamp
 location	Sint-Michiels
 location	Sint-Andries
@@ -1699,18 +1711,25 @@ location	Zeebrugge
 location	Knokke-Heist
 
 # Kortrijk
+location	Moorsele
+location	Herthoek
+location	Menen
 location	Wevelgem
 location	Kuurne
 location	Hulste
 location	Harelbeke
 location	Deerlijk
+location	Moen
 location	Avelgem
 location	Anzegem
 
 # Tielt
-location	Oostrozebeke
-location	Meulebeke
+location	Ardooie
 location	Wingene
+location	Meulebeke
+location	Oostrozebeke
+location	Wielsbeke
+location	Ruiselede
 
 # Tournai-Mouscron
 location	Ploegsteert
@@ -4968,6 +4987,7 @@ division	Hong Kong
 ### Indonesia
 division	Aceh
 division	North Sumatra
+division	Sumatera Barat
 division	Bengkulu
 division	South Sumatra
 division	Riau Islands
@@ -5410,7 +5430,6 @@ division	Veurne
 division	Diksmuide
 division	Ieper
 division	Oostende
-division	West-Vlaanderen
 division	Roeselare
 division	Brugge
 division	Kortrijk
@@ -5781,6 +5800,7 @@ division	Kosovska Mitrovica
 
 ### North Macedonia
 division	Southwestern Region
+division	Tetovo
 division	Skopje
 division	Pelagonia
 division	North Macedonia
@@ -6122,6 +6142,7 @@ division	Cundinamarca
 division	Caldas
 division	Boyaca
 division	Choco
+division	Arauca
 division	Antioquia
 division	Santander
 division	San Andres
@@ -6131,6 +6152,7 @@ division	Bolivar
 division	Cesar
 division	Magdalena
 division	Atlantico
+division	La Guajira
 division	San Andres y Providencia
 
 ### Suriname

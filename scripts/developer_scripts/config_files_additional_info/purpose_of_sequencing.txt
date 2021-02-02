@@ -23,3 +23,4 @@ Screened for S Gene Dropout - Negative for S Gene Dropout	S dropout
 Screened for S Gene Dropout - Negative for S gene dropout	S dropout
 Screened for S gene dropout - Negative for S dropout	S dropout
 Screened for S Gene Dropout - Negative for S Dropout	S dropout
+Screened for S gene dropout - Negative for S gene has a 69/70 deletion	S dropout
