@@ -64,3 +64,14 @@ Asia/Israel/Central District/Bat Yam	Asia/Israel/Tel Aviv District/Bat Yam
 Asia/Israel/Central District/Herzelia	Asia/Israel/Tel Aviv District/Herzelia
 Asia/Israel/Jerusalem/Maale Edomim	Asia/Palestine/West Bank/Maale-Edumim
 Asia/Israel/Judea and Samaria/Ariel	Asia/Palestine/West Bank/Ariel
+Europe/Serbia/Gracanica/	Europe/Kosovo/Pristina/Gracanica
+Europe/Serbia/Lipljan/	Europe/Kosovo/Pristina/Lipljan
+Europe/Serbia/Strpce/	Europe/Kosovo/Ferizaj/Strpce
+South America/Brazil/Southeast/Minas Gerais	South America/Brazil/Minas Gerais/
+Europe/Belgium/Turnhout/Vorst	Europe/Belgium/Brussels/Forest
+Europe/Lithuania/Ukmergės R./	Europe/Lithuania/Vilnius/Ukmerge
+Europe/Lithuania/Širvintų R./	Europe/Lithuania/Vilnius/Širvintų rajono savivaldybė
+Europe/Lithuania/Kretingos R./	Europe/Lithuania/Klaipedos Apskritis/Kretingos rajono savivaldybė
+Europe/Lithuania/Molėtų R./	Europe/Lithuania/Utena/Molėtų rajono savivaldybės
+Europe/Lithuania/Zarasų R./	Europe/Lithuania/Utena/Zarasų rajono savivaldybė
+Europe/Belgium/Sint-Amansberg/	Europe/Belgium/Gent/Sint-Amandsberg

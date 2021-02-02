@@ -17,3 +17,9 @@ Screened for S gene dropout - No S gene dropout	Not S dropout
 Not Screened for S Drop out	Not S dropout
 Not Screened for S Drop out - RT	Not S dropout
 Not Screened for S Gene Dropout	Not S dropout
+Screened for S gene Dropout - Negative for S gene dropout	S dropout
+Screened for S gene dropout - Negative for S gene dropout	S dropout
+Screened for S Gene Dropout - Negative for S Gene Dropout	S dropout
+Screened for S Gene Dropout - Negative for S gene dropout	S dropout
+Screened for S gene dropout - Negative for S dropout	S dropout
+Screened for S Gene Dropout - Negative for S Dropout	S dropout

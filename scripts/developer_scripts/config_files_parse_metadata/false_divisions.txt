@@ -209,3 +209,18 @@ Bozen	South Tyrol
 Mamoudzou	Mayotte
 Alpes Maritimes	Provence-Alpes-Côte d'Azur
 Ingiriya	Kalutara
+Sint Michiels	Brugge
+Sint-Amansberg	Gent
+Herthoek	West-Vlaanderen
+Groot-Gelmen	Hasselt
+Ukmergės R.	Vilnius
+Širvintų R.	Vilnius
+Molėtų R.	Utena
+Zarasų R.	Utena
+Kretingos R.	Klaipedos Apskritis
+Visaginas	Utena
+Becej	South Bačka District
+Dolný Kubín	Zilina
+Kuwait City	Al Asimah
+Walhain	Nivelles
+Slaný	Central Bohemian Region
