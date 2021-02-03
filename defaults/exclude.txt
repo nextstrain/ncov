@@ -1386,12 +1386,6 @@ USA/UT-UPHL-2012683062/2020
 # Duplicate sampled two days in a row - exclude the shorter one (additional_host_info: The same cat as hCoV-19/cat/Russia/RII-LEN-22246S/2021, another time point)
 cat/Russia/LEN-RII-22390S/2021
 
-# misdated; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612218966122800
-USA/WA-S3873/2020: 2020-01-05
-USA/WA-S3874/2020: 2020-01-05
-USA/WA-S3875/2020: 2020-01-05
-USA/WA-S3876/2020: 2020-01-05
-
 # https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612243509126400
 Australia/QLD1276/2020
 Egypt/CCHE57357-P-30/2020
