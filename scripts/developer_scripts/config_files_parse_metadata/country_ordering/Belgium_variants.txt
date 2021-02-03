@@ -170,3 +170,4 @@ Heist-op-Den-Berg	Heist-op-den-Berg
 Deuurne	Deurne
 Huldenbergh	Huldenberg
 Tessenderloo	Tessenderlo
+Walloonbrabant	Brabant Wallon
