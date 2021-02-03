@@ -75,3 +75,8 @@ Europe/Lithuania/Kretingos R./	Europe/Lithuania/Klaipedos Apskritis/Kretingos ra
 Europe/Lithuania/Molėtų R./	Europe/Lithuania/Utena/Molėtų rajono savivaldybės
 Europe/Lithuania/Zarasų R./	Europe/Lithuania/Utena/Zarasų rajono savivaldybė
 Europe/Belgium/Sint-Amansberg/	Europe/Belgium/Gent/Sint-Amandsberg
+Europe/Belgium/Velenje/	Europe/Slovenia/Velenje/
+Europe/Belgium/Bekkenvoort/	Europe/Belgium/Leuven/Bekkevoort
+Europe/Belgium/Wilsbeke/	Europe/Belgium/Tielt/Wielsbeke
+Europe/Belgium/Faulx-Les-Tombes/	Europe/Belgium/Namur/Faulx-les-Tombes
+Europe/Belgium/Berchem-Sainte-Agath/	Europe/Belgium/Brussels/Berchem-Sainte-Agathe
