@@ -171,3 +171,6 @@ Deuurne	Deurne
 Huldenbergh	Huldenberg
 Tessenderloo	Tessenderlo
 Walloonbrabant	Brabant Wallon
+Walloon Brabant	Brabant Wallon
+Brussels-Capital	Brussels
+Luxembourg	Luxembourg BE

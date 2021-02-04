@@ -80,3 +80,8 @@ Europe/Belgium/Bekkenvoort/	Europe/Belgium/Leuven/Bekkevoort
 Europe/Belgium/Wilsbeke/	Europe/Belgium/Tielt/Wielsbeke
 Europe/Belgium/Faulx-Les-Tombes/	Europe/Belgium/Namur/Faulx-les-Tombes
 Europe/Belgium/Berchem-Sainte-Agath/	Europe/Belgium/Brussels/Berchem-Sainte-Agathe
+Europe/Belgium/Raalte/	Europe/Netherlands/Overijssel/Raalte
+North America/Costa Rica/Alajuela/Santiago	North America/Costa Rica/Alajuela/Santiago (Alajuela)
+North America/Costa Rica/Alajuela/San Isidro	North America/Costa Rica/Alajuela/San Isidro (Alajuela)
+North America/Costa Rica/Cartago/San Diego	North America/Costa Rica/Cartago CR/San Diego CR
+South America/Ecuador/Santo Domingo de los Tsachilas/Santo Domingo	South America/Ecuador/Santo Domingo de los Tsachilas/Santo Domingo de los Colorados
