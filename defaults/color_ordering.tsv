@@ -1419,6 +1419,7 @@ location	Quimper
 location	Chateaulin
 location	Morlaix
 location	Saint Pierre Quiberon
+location	Noyal Pontivy
 location	Arradon
 location	Pordic
 location	Plerin
@@ -1435,6 +1436,7 @@ location	Rennes
 # Pays de la Loire
 location	Saint Nazaire
 location	Saint-Gilles-Croix-de-Vie
+location	Les Sables D'Olonne
 location	Saint Herblain
 location	Nantes
 location	Cholet
@@ -1444,11 +1446,13 @@ location	Angers
 
 # Normandie
 location	Cherbourg-Octeville
+location	Yquelon
 location	Carentan
 location	Bernieres-le-Patry
 location	Le Havre
 location	Lisieux
 location	Rouen
+location	Gisors
 
 # Nouvelle-Aquitaine
 location	Anglet
@@ -1466,6 +1470,7 @@ location	Gueret
 location	Fondettes
 location	Rouziers-de-Touraine
 location	Tours
+location	Chambrey Les Tours
 location	Blois
 location	Abondant
 location	Orléans
@@ -1493,6 +1498,7 @@ location	Argenteuil
 location	Colombes
 location	Clamart
 location	Verrières-le-Buisson
+location	Neuilly sur Seine
 location	Asnières-sur-Seine
 location	Levallois-Perret
 location	Vanves
@@ -1506,6 +1512,7 @@ location	Sarcelles
 location	Ivry-sur-Seine
 location	Thiais
 location	Saint Mandé
+location	Maisons Alfort
 location	Montreuil
 location	Bobigny
 location	Villeneuve St Georges
@@ -1519,6 +1526,7 @@ location	Saint-Thibault-des-Vignes
 location	Chanteloup-en-Brie
 location	Egreville
 location	Meaux
+location	Provins
 
 # Hauts de France
 location	Nogent-l'Artaud
@@ -1528,6 +1536,7 @@ location	Crépy en Valois
 location	Compiègne
 location	Amiens
 location	Cambrai
+location	Thiant
 location	Somain
 location	Saint-Saulve
 location	Crespin
@@ -1546,6 +1555,7 @@ location	Bousbecque
 location	Dunkerque
 
 # Occitanie
+location	Saint-Gaudens
 location	Toulouse
 location	Caraman
 location	Beziers
@@ -1555,6 +1565,7 @@ location	Nîmes
 
 # Auvergne-Rhône-Alpes
 location	Clermont-Ferrand
+location	Vichy
 location	Le Puy-en-Velay
 location	Mazet-Saint-Voy
 location	Andrézieux-Bouthéon
@@ -1718,6 +1729,7 @@ location	Wevelgem
 location	Kuurne
 location	Hulste
 location	Harelbeke
+location	Zwevegem
 location	Deerlijk
 location	Moen
 location	Avelgem
@@ -1730,6 +1742,7 @@ location	Meulebeke
 location	Oostrozebeke
 location	Wielsbeke
 location	Ruiselede
+location	Dentergem
 
 # Tournai-Mouscron
 location	Ploegsteert
@@ -1768,10 +1781,12 @@ location	Maldegem
 location	Assenede
 
 # Oudenaarde
+location	Wortegem-Petegem
 location	Ronse
 location	Bevere
 
 # Gent
+location	Aalter
 location	Lotenhulle
 location	Zulte
 location	Deinze
@@ -1845,6 +1860,7 @@ location	Seneffe
 # Aalst
 location	Geraardsbergen
 location	Herzele
+location	Denderleeuw
 location	Erpe-Mere
 location	Lede
 
@@ -1975,6 +1991,7 @@ location	Shape
 location	Herne
 location	Oetingen
 location	Affligem
+location	Opwijk
 location	Asse
 location	Halle
 location	Dilbeek
@@ -2126,9 +2143,11 @@ location	Grand-Leez
 location	Bovesse
 location	Bois-de-Villers
 location	Dhuy
+location	Profondeville
 location	Erpent
 location	Champion
 location	Éghezée
+location	Faulx-les-Tombes
 location	Andenne
 
 # Dinant
@@ -4074,6 +4093,7 @@ location	Hawaii County
 
 # Alaska
 location	Southwest Alaska
+location	Northern Alaska
 location	Interior Alaska
 location	Anchorage
 location	Matanuska-Susitna Valley
@@ -4217,6 +4237,7 @@ location	Omaha
 location	El Paso County
 location	Brewster County
 location	Bailey County
+location	Pecos County
 location	Oldham County
 location	Deaf Smith County
 location	Ector County
@@ -5602,6 +5623,7 @@ division	Malta
 
 ### Slovenia
 division	Slovenia
+division	Velenje
 
 ### Sweden
 division	Skane
