@@ -431,6 +431,8 @@ rule proximity_score:
         priorities = "results/{build_name}/proximity_{focus}.tsv"
     log:
         "logs/subsampling_priorities_{build_name}_{focus}.txt"
+    benchmark:
+        "benchmarks/proximity_score_{build_name}_{focus}.txt"
     resources:
         mem_mb = 4000
     conda: config["conda_environment"]
