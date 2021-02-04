@@ -1403,3 +1403,6 @@ India/UT-AR50/2020
 Italy/LOM-UniMI02/2020
 Romania/ROSV_3316/2020
 Spain/RI-IBV-99010963/2020
+
+# throwing off the dating of clade 20B; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612477096194500
+Mexico/VER-InDRE_112/2020
