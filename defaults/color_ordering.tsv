@@ -1678,6 +1678,7 @@ location	Mamoudzou
 ### Belgium
 # Veurne
 location	De Panne
+location	Oostduinkerke
 location	Beveren
 
 # Diksmuide
@@ -2106,6 +2107,7 @@ location	Meldert
 location	Boutersem
 location	Aarschot
 location	Langdorp
+location	Sint-Joris-Winge
 location	Kumtich
 location	Tielt-Winge
 location	Hoegaarden
@@ -2115,6 +2117,7 @@ location	Tienen
 location	Bost
 location	Bunsbeek
 location	Glabbeek
+location	Testelt
 location	Scherpenheuvel-Zichem
 location	Averbode
 location	Bekkevoort
@@ -2167,6 +2170,7 @@ location	Meer
 location	Hoogstraten
 location	Rijkevorsel
 location	Vorselaar
+location	Hulshout
 location	Lille BE
 location	Ramsel
 location	Herentals
@@ -2331,6 +2335,9 @@ location	Franeker
 
 # Gelderland
 location	Apeldoorn
+
+# Overijssel
+location	Raalte
 
 # Drenthe
 location	Meppel
@@ -3431,7 +3438,7 @@ location	Itaqui
 location	Quaraí
 location	Sao Borja
 location	Santana do Livramento
-location	Santa Rosa
+location	Santa Rosa BR
 location	Girua
 location	Santo Angelo
 location	Tres Passos
@@ -3763,7 +3770,7 @@ location	Esmeraldas
 location	Cuenca EC
 
 # Santo Domingo de los Tsachilas
-location	Santo Domingo
+location	Santo Domingo de los Colorados
 
 # Bolivar EC
 location	Guaranda
@@ -3962,12 +3969,17 @@ location	Aligandí
 ### Costa Rica
 # Guanacaste
 location	Nicoya
+location	Tilaran
+location	Bagaces
+location	Sardinal
 location	Liberia
 location	La Cruz
 
 # Puntarenas
 location	Puntarenas
 location	Garabito
+location	Puerto Cortes
+location	Golfito
 location	Palmar
 location	Piedras Blancas
 location	Buenos Aires
@@ -3980,21 +3992,30 @@ location	La Cuesta
 
 # Alajuela
 location	Orotina
+location	Guacima
 location	San Rafael de Alajuela
 location	Alajuela
+location	Santiago (Alajuela)
 location	Grecia
-location	San Roque CO
+location	Sabanilla
+location	San Isidro (Alajuela)
+location	San Roque CR
 location	Quesada
 location	San Carlos
+location	Cutris
 
 # Heredia
+location	Santo Domingo CR
+location	San Pablo CR
+location	Paracito
 location	San Francisco CR
 location	Heredia
-location	Barva
-location	San Pablo CR
 location	San Rafael Heredia
 location	Mercedes
-location	Paracito
+location	Barva
+location	Horquetas
+location	Puerto Viejo
+location	Sarapiqui
 
 # San Jose
 location	Barbacoas
@@ -4026,11 +4047,14 @@ location	Montes de Oca
 location	Purral
 location	Patalillo
 location	San Jerónimo
+location	Granadilla
 location	Moravia
 location	Goicoechea
+location	San Isidro de El General
 location	Perez Zeledon
 
 # Cartago CR
+location	San Juan
 location	San Diego CR
 location	La Union
 location	Concepcion CR
@@ -4038,15 +4062,22 @@ location	San Ramon
 location	Tres Rios CR
 location	San Isidro CR
 location	El Tejar
+location	Occidental
 location	Cartago CR
+location	Aguacaliente
 location	San Rafael Cartago
 location	Llanos de Santa Lucia
+location	Orosi
+location	Oreamuno
 location	Paraiso
 location	Carmen
+location	Santa Rosa CR
 location	La Suiza
 location	Dulce Nombre
 
 # Limon
+location	Guapiles
+location	Pococi
 location	Siquirres
 location	Limon
 
@@ -4209,9 +4240,13 @@ location	Madison County ID
 # Arizona
 location	Yuma
 location	Mohave County
+location	Yavapai County
 location	Maricopa County
+location	Coconino County
 location	Pima County
+location	Gila County
 location	Navajo County
+location	Apache County
 
 # Montana
 location	Ravalli County
@@ -4252,10 +4287,13 @@ location	Tom Green County
 location	Wheeler County
 location	Taylor County TX
 location	McCulloch County
+location	Kerr County
 location	Webb County
 location	Bandera County
 location	Brown County TX
+location	San Saba County
 location	Starr County
+location	Kendall County TX
 location	Wichita County
 location	Jim Hogg County
 location	Llano County
@@ -4290,10 +4328,13 @@ location	Calhoun County TX
 location	Burleson County
 location	Collin County
 location	Limestone County TX
+location	Robertson County
 location	Washington County TX
 location	Brazos County
 location	Kaufman County
+location	Austin County
 location	Wharton County
+location	Freestone County
 location	Hunt County
 location	Waller County
 location	Grimes County
@@ -4468,7 +4509,7 @@ location	Hancock County
 location	Kankakee County
 location	Will County
 location	Rock Island County
-location	Kendall County
+location	Kendall County IL
 location	Lee County IL
 location	Cook County
 location	Chicago
@@ -4991,6 +5032,7 @@ division	Heilongjiang
 ### Cambodia
 division	Sihanoukville
 division	Phnom Penh
+division	Cambodia
 division	Steung Treng
 
 ### Vietnam
@@ -5451,6 +5493,7 @@ division	Veurne
 division	Diksmuide
 division	Ieper
 division	Oostende
+division	West-Vlaanderen
 division	Roeselare
 division	Brugge
 division	Kortrijk
@@ -5488,6 +5531,7 @@ division	Hasselt
 division	Limburg BE
 division	Neufchâteau
 division	Tongeren
+division	Luxembourg BE
 division	Liège
 division	Maaseik
 division	Verviers
@@ -5849,6 +5893,7 @@ division	Lithuania
 division	Alytaus Apskritis
 division	Kauno Apskritis
 division	Jonavos Apskritis
+division	Vilniaus Apskritis
 division	Vilnius
 division	Utena
 
