@@ -226,3 +226,6 @@ Walhain	Nivelles
 Slaný	Central Bohemian Region
 Rhone Alpes	Auvergne-Rhône-Alpes
 Berchem-Sainte-Agath	Brussels
+Kumanovo	Northeastern Region
+Fleron	Liège
+Marchinne-Au-Pont	Charleroi
