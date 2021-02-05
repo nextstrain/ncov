@@ -225,6 +225,7 @@ location	Bad Krozingen	47.9118288	7.7033313
 location	Bad Säckingen	47.5525538	7.9495387
 location	Bad Soden Am Taunus	50.1429142	8.5029259
 location	Bad Vilbel	50.1804837	8.7410776
+location	Bad Vöslau	47.9655519	16.2148073
 location	Badalona	41.4493539	2.248254
 location	Badaran	42.3677057	-2.8083919
 location	Bättwil	47.4899611	7.5093058
@@ -484,6 +485,7 @@ location	Breclav	48.7594008	16.8813137
 location	Bredene	51.23890495	2.972576946828359
 location	Bree	51.138202	5.631877
 location	Breendonk	51.042441	4.321611
+location	Bregenz	47.5025779	9.7472924
 location	Breitenbach	47.4078339	7.5442563
 location	Brentwood County	37.9317766	-121.6960266
 location	Bressoux	50.639339	5.605728
@@ -898,7 +900,6 @@ location	Dekalb County AL	34.4524349	-85.7662118
 location	Dekalb County IL	41.8903447	-88.7713953
 location	Delaware County	42.194917	-75.0016302
 location	Delémont	47.3615882	7.354445
-location	Delemont	47.3615882	7.354445
 location	Delft	52.0116	4.3571
 location	Denderleeuw	50.88813845	4.062511248890271
 location	Dentergem	50.96614065	3.4019362200773458
@@ -1104,6 +1105,7 @@ location	Feldkirchen	46.7219887	14.0969727
 location	Feni	23.0170829	91.40786619267402
 location	Fenoarivo	-17.382029	49.4099733
 location	Fernandopolis	-20.2825647	-50.2500762
+location	Fieberbrunn	47.45518755	12.544424258717815
 location	Fillmore County	41.5637	-92.0077
 location	Fitchburg	42.986206	-89.426696
 location	Fitero	42.059536	-1.858151
@@ -1248,6 +1250,7 @@ location	Godella	39.5184276	-0.4103168
 location	Godhra	22.7785001	73.6245157
 location	Goiana	-7.560603	-34.99591
 location	Goicoechea	9.9670623	-83.9818366
+location	Going	47.5142224	12.3275716
 location	Gold Coast	-28.019726	153.398160
 location	Golfito	8.533789500000001	-83.45844839937729
 location	Gomez Palacios	25.5732473	-103.494779
@@ -1433,6 +1436,7 @@ location	Hoeilaart	50.7674846	4.474407
 location	Hoeselt	50.8500788	5.4865309
 location	Hoevenen	51.3066168	4.4046996
 location	Hofstetten	47.4755349	7.5158929
+location	Hohenems	47.3639973	9.689271
 location	Holon	32.0193121	34.7804076
 location	Holsbeek	50.9211	4.757
 location	Holy Cross	43.469964	-87.900967
@@ -1496,6 +1500,7 @@ location	Iasi	47.155585	27.590394
 location	Ibague	4.438643	-75.190558
 location	Ibarra	0.3478421	-78.1173588
 location	Iberville Parish	30.256342	-91.380864
+location	Ibiruba	-28.630161	-53.096124
 location	Ibiza	39.0200	1.4821
 location	Ibra	22.6895878	58.5469793
 location	Ibri	23.2178676	56.4921938
@@ -1708,6 +1713,7 @@ location	Kings County	36.0784807	-119.7956342
 location	Kings County CA	36.0784807	-119.7956342
 location	Kings County NY	40.64530975	-73.9550230275334
 location	Kipen	59.6739	29.8498
+location	Kirchbichl	47.51380975	12.091103520158118
 location	Kirchhain	50.826987700000004	8.927593310210382
 location	Kirishi	59.450325	32.010578
 location	Kirkland	47.679486	-122.206354
@@ -2636,6 +2642,7 @@ location	Petrozavodsk	61.790039	34.390007
 location	Pettneu Am Arlberg	47.13119495	10.353063484739884
 location	Pewaukee	43.061507	-88.237950
 location	Pfaffenweiler	48.0336388	8.4195787
+location	Pfarrwerfen	47.4570287	13.205675
 location	Pfeffingen	47.4579858	7.589006
 location	Pfunden	46.9984543	10.5829968
 location	Pfungstadt	49.8023181	8.5987671
@@ -2916,6 +2923,7 @@ location	Romny	50.718391	129.290924
 location	Ronse	50.745879	3.607614
 location	Roorkee	29.8693496	77.8902124
 location	Rosarito	32.3648126	-117.055626
+location	Rosegg	46.5898126	14.0200876
 location	Rosh Haayin	32.0952929	34.9533225
 location	Rostock	54.0784362	12.132504
 location	Rostov-On-Don	47.2213858	39.7114196
@@ -2942,6 +2950,7 @@ location	Rusk County	32.051377	-94.7906553
 location	Russkaya Polyana	53.780357	73.882103
 location	Ryazan	54.6295687	39.7425039
 location	Sa Pobla	39.7699388	3.0250102
+location	Saalfelden	47.4268102	12.8297861
 location	Sabadell	41.5421013	2.1138977
 location	Sabaneta	6.151838	-75.616992
 location	Sabanilla	10.0749363	-84.2151914
@@ -3222,6 +3231,7 @@ location	Sidi Bouzid	35.0382386	9.4865301
 location	Sidoarjo	-7.4559622	112.66022171549456
 location	Siena	43.16711185	11.467331746909997
 location	Siero	43.3952982	-5.635702393762417
+location	Siggerwiesen	47.8597857	13.0107741
 location	Sigmaringen	48.0855844	9.2178879
 location	Silleda	42.6900518	-8.28359
 location	Silly	50.638827	3.943396
@@ -3261,6 +3271,7 @@ location	Soacha	4.581264	-74.216815
 location	Sochi	43.5854823	39.723109
 location	Socuellamos	39.2847	-2.7904
 location	Sölden	46.9673961	11.0070193
+location	Söll	47.5104298	12.206404904058626
 location	Sokolova	56.5465841	61.5065237
 location	Solano County	38.295909	-121.928845
 location	Solares	43.3840287	-3.7385842
@@ -3650,6 +3661,7 @@ location	Vichuga	57.220222	41.9245606
 location	Vichy	46.1239268	3.4203712
 location	Victoria County	28.8026443	-96.9766308
 location	Victoriano Lorenzo	9.032232950000001	-79.50808452571513
+location	Vienna	48.2083537	16.3725042
 location	Vienne	48.190041	16.382686
 location	Vieux Ferette	47.6238204	7.2401542
 location	Vieux-Genappe	50.6083965	4.4412263
@@ -3882,6 +3894,7 @@ location	Zehra	48.9804224	20.7920261
 location	Zele	51.0730461	4.0424143
 location	Zelenchukskaya	43.8549752	41.5853611
 location	Zeleneč	50.133619	14.660698
+location	Zell am See	47.3239636	12.7963165
 location	Zelovce	48.1245541	19.3527584
 location	Zepperen	50.8225873	5.2476844
 location	Zernograd	46.844845	40.304813

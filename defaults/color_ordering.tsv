@@ -2403,7 +2403,6 @@ location	Lutry
 # Jura
 location	Saignelegier
 location	Boncourt
-location	Delemont
 location	Delémont
 
 # Solothurn
@@ -2708,7 +2707,9 @@ location	Jönköping
 # Vorarlberg
 location	Bludenz
 location	Feldkirch
+location	Hohenems
 location	Dornbirn
+location	Bregenz
 
 # Tyrol
 location	Galtür
@@ -2736,13 +2737,21 @@ location	Strass im Zillertal
 location	Mayrhofen
 location	Kramsach
 location	Ramsau im Zillertal
+location	Kirchbichl
 location	Kufstein
+location	Söll
+location	Going
+location	Fieberbrunn
 
 # Salzburg
 location	Bad Gastein
+location	Zell am See
+location	Saalfelden
+location	Pfarrwerfen
 location	Abtenau
 location	Salzburg
 location	Mondsee
+location	Siggerwiesen
 location	Obertrum Am See
 
 # Carinthia
@@ -2752,6 +2761,7 @@ location	Villach
 location	Landskron
 location	Wernberg
 location	Bodensdorf
+location	Rosegg
 location	Wachsenberg
 location	Feldkirchen
 location	Glödnitz
@@ -2779,7 +2789,11 @@ location	Graz
 location	Weiz
 
 # Lower Austria
+location	Bad Vöslau
 location	Mödling
+
+# Vienna
+location	Vienna
 
 ### Czech Republic
 # Plzeň Region
@@ -3566,6 +3580,7 @@ location	Cruz Alta
 location	Cacapava do Sul
 location	Frederico Westphalen
 location	Saldanha Marinho
+location	Ibiruba
 location	Cachoeira do Sul
 location	Não-Me-Toque
 location	Carazinho
