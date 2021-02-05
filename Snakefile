@@ -1,6 +1,6 @@
 import copy
 from datetime import date
-import os
+import os, sys
 from os import environ
 from socket import getfqdn
 from getpass import getuser
@@ -31,7 +31,19 @@ import time
 user_subsampling = copy.deepcopy(config.get("subsampling", {}))
 
 configfile: "defaults/parameters.yaml"
+if "sequences" not in config: config["sequences"]=config["default_sequences"]
+if "metadata" not in config: config["metadata"]=config["default_metadata"]
+
+# Check config file for errors
 validate(config, schema="workflow/schemas/config.schema.yaml")
+try:
+    assert type(config["sequences"])==type(config["metadata"])
+    if isinstance(config["sequences"], dict):
+        # todo - this assertion could be relaxed as we combine multiple metadata files straight away...
+        assert sorted(list(config["sequences"].keys())) == sorted(list(config["metadata"].keys()))
+except AssertionError:
+    print("The specified sequences & metadata file(s) didn't match! They must both be strings or dictionaries (each with the same keys)")
+    sys.exit(2)
 
 # Check for overlapping subsampling schemes in user and default
 # configurations. For now, issue a deprecation warning, so users know they
@@ -81,7 +93,8 @@ wildcard_constraints:
     # Allow build names to contain alpha characters, underscores, and hyphens
     # but not special strings used for Nextstrain builds.
     build_name = r'(?:[_a-zA-Z-](?!(tip-frequencies)))+',
-    date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
+    date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]",
+    origin = r"(_[a-zA-Z0-9-]+)?" # origin starts with an underscore _OR_ it's the empty string
 
 localrules: download_metadata, download_sequences, download, upload, clean
 

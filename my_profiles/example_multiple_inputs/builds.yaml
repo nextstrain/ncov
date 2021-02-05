@@ -1,0 +1,39 @@
+
+## This YAML file is sparsely commented, with a focus on the parts relevant to multiple inputs
+## See my_profiles/example/builds.yaml for more comments
+
+
+custom_rules:
+  - nextstrain_profiles/nextstrain/download_preprocessed.smk
+S3_BUCKET: "nextstrain-ncov-private"
+
+sequences:
+  input1: "data/example_input_1.fasta"
+  input2: "data/example_input_2.fasta"
+metadata:
+  input1: "data/example_input_1.tsv"
+  input2: "data/example_input_2.tsv"
+
+builds:
+  multiple-inputs:
+    subsampling_scheme: custom-scheme # use a custom subsampling scheme defined below
+
+# Define custom subsampling logic for county-level builds.
+subsampling:
+  custom-scheme:
+    # Simple random sampling to start with
+    random:
+      group_by: "year month country"
+      seq_per_group: 5
+
+files:
+  auspice_config: "my_profiles/example_multiple_inputs/my_auspice_config.json"
+  description: "my_profiles/example_multiple_inputs/my_description.md"
+
+filter:
+  input1:
+    min_length: 5000
+    exclude_where: country=Canada # no canadian sequences
+    min_date: "2020-02-01" # no early sequences
+    exclude_ambiguous_dates_by: year
+    skip_diagnostics: True

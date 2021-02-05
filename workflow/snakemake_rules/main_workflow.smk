@@ -1,7 +1,46 @@
+def _get_unaligned_sequence_file(wildcards):
+    if wildcards["origin"] == "":
+        if not isinstance(config["sequences"], str):
+            print("Error - a rule has asked for unaligned sequences without specifying an 'origin'. This necessitates config->sequences to be a string!")
+            # todo - the following exception is swallowed when snakemake decides that _running_ the rule which calls this fn (`_get_unaligned_sequence_file`)
+            # isn't necessary for the pipeline (e.g. due to intermediate files being present from a different run)
+            # how can we make snakemake exit here?
+            # Note that if the snakemake actually tries to run the rule, the exception causes an exit & message to be printed, as desired.
+            raise WorkflowError("Error - a rule has asked for unaligned sequences without specifying an 'origin'. This necessitates config->sequences to be a string!")
+        return config["sequences"]
+    origin = wildcards["origin"][1:] # trim leading `_`
+    if origin not in config["sequences"]:
+        print(f"Error - a rule has used an origin wildcard ({origin}) which doesn't have an associated sequences file!")
+        raise WorkflowError(f"Error - a rule has used an origin wildcard ({origin}) which doesn't have an associated sequences file!")
+    return config["sequences"][origin]
+
+def _get_filter_value(wildcards, key):
+    default = config["filter"].get(key, "")
+    if wildcards["origin"] == "":
+        return default
+    origin = wildcards["origin"][1:] # trim leading `_`
+    return config["filter"].get(origin, {}).get(key, default)
+
+
+def _get_aligned_sequence_file(wildcards):
+    """
+    Decide whether to use the aligned sequences file after diagnostics/refiltering,
+    or the aligned file without diagnostics
+    """
+    if wildcards["origin"] == "":
+        # todo - expose option to skip diagnostic / refiltering steps for normal (single-input) workflows?
+        return "results/aligned-filtered.fasta"
+    origin = wildcards["origin"][1:] # trim leading `_`
+    if config["filter"].get(origin, {}).get("skip_diagnostics", False):
+        return f"results/aligned{wildcards.origin}.fasta"
+    return f"results/aligned-filtered{wildcards.origin}.fasta"
+
+
+
 rule download_sequences:
     message: "Downloading sequences from S3 bucket {params.s3_bucket}"
     output:
-        sequences = config["sequences"]
+        sequences = config["default_sequences"]
     conda: config["conda_environment"]
     params:
         s3_bucket = _get_first(config, "S3_SRC_BUCKET", "S3_BUCKET")
@@ -13,7 +52,7 @@ rule download_sequences:
 rule download_metadata:
     message: "Downloading metadata from S3 bucket {params.s3_bucket}"
     output:
-        metadata = config["metadata"]
+        metadata = config["default_metadata"]
     conda: config["conda_environment"]
     params:
         s3_bucket = _get_first(config, "S3_SRC_BUCKET", "S3_BUCKET")
@@ -27,20 +66,42 @@ rule download:
         config["metadata"],
         config["sequences"]
 
+rule combine_input_metadata:
+    message:
+        """
+        Combining metadata files {input.metadata} -> {output.metadata}
+        """
+    input:
+        metadata = lambda wildcards: list(config["metadata"].values())
+    output:
+        metadata = "results/combined_metadata.tsv"
+    log:
+        "logs/combine_input_metadata.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/combine_metadata.py --input {input.metadata} --output {output.metadata} 2>&1 | tee {log}
+        """
+
+def _get_unified_metadata(wildcards):
+    # TODO - there's another metadata file getter function!
+    if isinstance(config['metadata'], str):
+        return config['metadata']
+    return "results/combined_metadata.tsv" # see rule combine_input_metadata
 
 rule excluded_sequences:
     message:
         """
-        Generating fasta file of excluded sequences
+        Generating fasta file of excluded sequences from input {input.sequences}
         """
     input:
-        sequences = config["sequences"],
-        metadata = config["metadata"],
+        sequences = _get_unaligned_sequence_file,
+        metadata = _get_unified_metadata,
         include = config["files"]["exclude"]
     output:
-        sequences = "results/excluded.fasta"
+        sequences = "results/excluded{origin}.fasta"
     log:
-        "logs/excluded.txt"
+        "logs/excluded{origin}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -62,9 +123,9 @@ rule align_excluded:
         sequences = rules.excluded_sequences.output.sequences,
         reference = config["files"]["reference"]
     output:
-        alignment = "results/excluded_alignment.fasta"
+        alignment = "results/excluded_alignment{origin}.fasta"
     log:
-        "logs/align_excluded.txt"
+        "logs/align_excluded{origin}.txt"
     threads: 2
     conda: config["conda_environment"]
     shell:
@@ -81,14 +142,14 @@ rule diagnose_excluded:
     message: "Scanning excluded sequences {input.alignment} for problematic sequences"
     input:
         alignment = rules.align_excluded.output.alignment,
-        metadata = config["metadata"],
+        metadata = _get_unified_metadata,
         reference = config["files"]["reference"]
     output:
-        diagnostics = "results/excluded-sequence-diagnostics.tsv",
-        flagged = "results/excluded-flagged-sequences.tsv",
-        to_exclude = "results/check_exclusion.txt"
+        diagnostics = "results/excluded-sequence-diagnostics{origin}.tsv",
+        flagged = "results/excluded-flagged-sequences{origin}.tsv",
+        to_exclude = "results/check_exclusion{origin}.txt"
     log:
-        "logs/diagnose-excluded.txt"
+        "logs/diagnose-excluded{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"]
@@ -109,17 +170,18 @@ rule diagnose_excluded:
 rule prefilter:
     message:
         """
-        Pre-filtering sequences for minimal length (before aligning)
+        Pre-filtering sequences before aligning for minimal length.
+        Input: {input.sequences}, Min-length: {params.min_length}bp.
         """
     input:
-        sequences = config["sequences"],
-        metadata = config["metadata"],
+        sequences = _get_unaligned_sequence_file,
+        metadata = _get_unified_metadata,
     output:
-        sequences = "results/prefiltered.fasta"
+        sequences = "results/prefiltered{origin}.fasta"
     log:
-        "logs/prefiltered.txt"
+        "logs/prefiltered{origin}.txt"
     params:
-        min_length = config["filter"]["min_length"],
+        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length")
     conda: config["conda_environment"]
     shell:
         """
@@ -133,18 +195,18 @@ rule prefilter:
 rule align:
     message:
         """
-        Aligning sequences to {input.reference}
+        Aligning sequences from {input.sequences} to {input.reference}
           - gaps relative to reference are considered real
         """
     input:
-        sequences = "results/prefiltered.fasta",
+        sequences = "results/prefiltered{origin}.fasta",
         reference = config["files"]["alignment_reference"]
     output:
-        alignment = "results/aligned.fasta"
+        alignment = "results/aligned{origin}.fasta"
     log:
-        "logs/align.txt"
+        "logs/align{origin}.txt"
     benchmark:
-        "benchmarks/align.txt"
+        "benchmarks/align{origin}.txt"
     threads: 16
     conda: config["conda_environment"]
     shell:
@@ -161,15 +223,15 @@ rule align:
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
-        alignment = "results/aligned.fasta",
-        metadata = config["metadata"],
+        alignment = "results/aligned{origin}.fasta",
+        metadata = _get_unified_metadata,
         reference = config["files"]["reference"]
     output:
-        diagnostics = "results/sequence-diagnostics.tsv",
-        flagged = "results/flagged-sequences.tsv",
-        to_exclude = "results/to-exclude.txt"
+        diagnostics = "results/sequence-diagnostics{origin}.tsv",
+        flagged = "results/flagged-sequences{origin}.tsv",
+        to_exclude = "results/to-exclude{origin}.txt"
     log:
-        "logs/diagnostics.txt"
+        "logs/diagnostics{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"]
@@ -193,13 +255,13 @@ rule refilter:
         excluding sequences flagged in the diagnostic step in file {input.exclude}
         """
     input:
-        sequences = "results/aligned.fasta",
-        metadata = config["metadata"],
-        exclude = "results/to-exclude.txt"
+        sequences = "results/aligned{origin}.fasta",
+        metadata = _get_unified_metadata,
+        exclude = "results/to-exclude{origin}.txt"
     output:
-        sequences = "results/aligned-filtered.fasta"
+        sequences = "results/aligned-filtered{origin}.fasta"
     log:
-        "logs/refiltered.txt"
+        "logs/refiltered{origin}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -213,17 +275,17 @@ rule refilter:
 rule mask:
     message:
         """
-        Mask bases in alignment
+        Mask bases in alignment {input.alignment}
           - masking {params.mask_from_beginning} from beginning
           - masking {params.mask_from_end} from end
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = "results/aligned-filtered.fasta"
+        alignment = _get_aligned_sequence_file
     output:
-        alignment = "results/masked.fasta"
+        alignment = "results/masked{origin}.fasta"
     log:
-        "logs/mask.txt"
+        "logs/mask{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"],
@@ -243,23 +305,24 @@ rule mask:
 rule filter:
     message:
         """
-        Filtering to
+        Filtering {input.sequences} to
           - excluding strains in {input.exclude}
         """
     input:
-        sequences = "results/masked.fasta",
-        metadata = config["metadata"],
+        sequences = "results/masked{origin}.fasta",
+        metadata = _get_unified_metadata,
+        # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/filtered.fasta"
+        sequences = "results/filtered{origin}.fasta"
     log:
-        "logs/filtered.txt"
+        "logs/filtered{origin}.txt"
     params:
-        min_length = config["filter"]["min_length"],
-        exclude_where = config["filter"]["exclude_where"],
-        min_date = config["filter"]["min_date"],
-        ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {config['filter']['exclude_ambiguous_dates_by']}" if "exclude_ambiguous_dates_by" in config["filter"] else "",
+        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length"), # TODO - this can be removed, since the `prefilter` rule does this
+        exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
+        min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
+        ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
         date = date.today().strftime("%Y-%m-%d")
     conda: config["conda_environment"]
     shell:

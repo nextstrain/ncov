@@ -9,8 +9,9 @@ conda_environment: "workflow/envs/nextstrain.yaml"
 
 # These are the two main starting files for the run.
 # If they do not exist, we will attempt to fetch them from a S3 bucket (see below)
-sequences: "data/sequences.fasta"
-metadata: "data/metadata.tsv"
+# NOTE: if you are defining these in your own configs, you should remove the `default_` prefix.
+default_sequences: "data/sequences.fasta"
+default_metadata: "data/metadata.tsv"
 
 reference_node_name: "USA/WA1/2020"
 

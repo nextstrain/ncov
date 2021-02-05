@@ -4,3 +4,12 @@ description: snakemake configuration file
 
 type: object
 
+properties:
+  sequences:
+    type:
+      - object
+      - string
+  metadata:
+    type:
+      - object
+      - string
