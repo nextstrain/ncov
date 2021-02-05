@@ -129,6 +129,7 @@ rule upload:
         rules.mask.output.alignment,
         rules.align.output.alignment,
         rules.filter.output.sequences,
+	"results/mutation_summary.tsv",
         "results/sequence-diagnostics.tsv",
         "results/flagged-sequences.tsv",
         "results/to-exclude.txt"
