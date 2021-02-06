@@ -1405,7 +1405,14 @@ Romania/ROSV_3316/2020
 Spain/RI-IBV-99010963/2020
 
 # throwing off the dating of clade 20B; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612477096194500
+Mexico/VER-InDRE_111/2020
 Mexico/VER-InDRE_112/2020
+
+# https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612578967204200?thread_ts=1612570323.203300&cid=CTZKJC7PZ
+Brazil/CE-IEC-177339/2020
+Germany/SL-SU-10450744/2020
+Panama/336044/2020
+Luxembourg/LNS6911797/2020
 
 # https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612536640198200
 Belgium/rega-2110/2020
