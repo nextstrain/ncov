@@ -433,11 +433,13 @@ location	Jhenaidah
 location	Faridpur
 location	Tangail
 location	Dhamrai
+location	Keraniganj
 location	Mohammadpur
 location	Mirpur
 location	Agargaon
 location	Uttara
 location	Tejgaon
+location	Banani
 location	Gulshan
 location	Dhaka
 location	Jatrabari
@@ -762,6 +764,7 @@ location	Mitchells Plain
 location	Tygerberg
 location	Khayelitsha
 location	Stellenbosch
+location	Cape Winelands
 location	Bitou
 location	Hessequa
 location	Kannaland
@@ -779,10 +782,17 @@ location	Siyathemba
 
 # Eastern Cape
 location	Sarah Baartman
+location	Middleburg
 location	Nelson Mandela Bay
+location	Joe Gqabi
 location	Amathole
 location	Buffalo City
 location	Chris Hani
+
+# Gauteng
+location	West Rand
+location	Johannesburg Metro
+location	Ekurhuleni Metro
 
 # KwaZulu-Natal
 location	uMkhanyakude
@@ -985,7 +995,7 @@ location	Otura
 location	Maracena
 location	Ogijares
 location	Pulianas
-location	Granada
+location	Granada ES
 location	Guevejar
 location	Jun
 location	La Zubia
@@ -1239,6 +1249,7 @@ location	Elda
 location	Novelda
 location	Antella
 location	Llombai
+location	La Pobla de Vallbona
 location	Olleria
 location	Massalaves
 location	Carlet
@@ -1667,6 +1678,7 @@ location	Lingolsheim
 location	Brumath
 location	Strasbourg
 location	Bischheim
+location	Wissembourg
 
 # Provence-Alpes-Côte d'Azur
 location	Marignane
@@ -1978,6 +1990,7 @@ location	Neder-Over-Heembeek
 location	Berchem
 location	Niel
 location	Hemiksem
+location	Hoboken
 location	Boom
 location	Stabroek
 location	Aartselaar
@@ -3383,7 +3396,7 @@ location	Petropavlovsk-Kamchatsky
 ### Argentina
 # Tierra del Fuego
 location	Ushuaia
-location	Rio Grande
+location	Rio Grande AR
 
 # Rio Negro
 location	San Carlos de Bariloche
@@ -3455,7 +3468,7 @@ location	Santa Fe AR
 location	Esperanza
 location	Coronda
 location	Cayastá
-location	Ceres
+location	Ceres AR
 location	Reconquista
 location	Villa Ocampo
 
@@ -3572,10 +3585,13 @@ location	Santana do Livramento
 location	Santa Rosa BR
 location	Girua
 location	Santo Angelo
+location	Bage
 location	Tres Passos
 location	Ijui
 location	Lavras do Sul
 location	Santa Maria
+location	Tiradentes
+location	Vista Gaucha
 location	Cruz Alta
 location	Cacapava do Sul
 location	Frederico Westphalen
@@ -3584,11 +3600,14 @@ location	Ibiruba
 location	Cachoeira do Sul
 location	Não-Me-Toque
 location	Carazinho
+location	Vera Cruz
 location	Passo Fundo
 location	Pelotas
 location	Erechim
+location	Sertao
 location	Marau
 location	Venancio Aires
+location	Rio Grande BR
 location	Nova Brescia
 location	Tapejara
 location	Butia
@@ -3597,14 +3616,17 @@ location	Arroio do Meio
 location	Bom Retiro do Sul
 location	Serafina Correa
 location	São Domingos do Sul
+location	Teutonia
 location	Nova Araça
 location	Garibaldi
 location	Carlos Barbosa
 location	Barao
 location	Tupandi
+location	Tapes
 location	Sao Sebastiao do Cai
 location	Bom Principio
 location	Farroupilha
+location	Guaiba
 location	Alto Feliz
 location	Porto Alegre
 location	Linha Nova
@@ -3614,10 +3636,16 @@ location	Caxias do Sul
 location	Esteio
 location	Novo Hamburgo
 location	São Leopoldo
+location	Cachoeirnha
 location	Morro Reuter
+location	Viamao
 location	Sapiranga
 location	Taquara
+location	Santo Antonio Da Patrulha
 location	Osorio
+location	Balneario Pinhal
+location	Tramandai
+location	Imbe
 location	Torres BR
 
 # Paraná
@@ -3641,7 +3669,21 @@ location	Balneario Camburiu
 location	Joinville
 
 # Goiás
+location	Goiania
 location	Santa Barbara de Goias
+location	Ceres BR
+
+# Tocantins
+location	Sandolandia
+location	Figueiropolis
+location	Formoso do Araguaia
+location	Mateiros
+location	Palmas
+location	Paraiso do Tacantins
+location	Guarai
+location	Presidente Kennedy
+location	Araguaiana
+location	Araguatins
 
 # Distrito Federal
 location	Brasilia
@@ -3670,6 +3712,7 @@ location	Ribeirao Preto
 location	Piracicaba
 location	Juquia
 location	Rio Claro
+location	Iguape
 location	Porto Feliz
 location	Sorocaba
 location	Santa Barbara D'Oeste
@@ -3759,6 +3802,7 @@ location	Itaperuna
 location	Macaé
 
 # Piaui
+location	Terezina
 location	Parnaiba
 
 # Bahia
@@ -3876,10 +3920,12 @@ location	Portoviejo
 location	Manta
 location	Calceta
 location	Sucre
+location	Chone
 
 # Guayas
 location	General Villamil Playas
 location	Guayaquil
+location	Duran
 location	San Jacinto de Yaguachi
 
 # El Oro
@@ -3947,10 +3993,13 @@ location	Orellana
 ### Colombia
 # Departamento de Amazonas
 location	Leticia
+location	Puerto Nariño
+location	Tarapacá
 
 # Narino
 location	Tumaco
 location	Ipiales
+location	Potosi
 location	Pasto
 
 # Cauca
@@ -3961,6 +4010,7 @@ location	Santander de Quilichao
 location	Neiva
 
 # Meta
+location	Granada CO
 location	Villavicencio
 
 # Valle del Cauca
@@ -3989,15 +4039,17 @@ location	Pereira
 location	Dosquebradas
 
 # Cundinamarca
-location	Madrid CO
 location	Soacha
 location	Funza
-location	Pacho
+location	Madrid CO
+location	Facatativa
 location	Chia
 location	Cajica
 location	Zipaquira
 location	Suesca
+location	Pacho
 location	Choconta
+location	Fuquene
 
 # Caldas
 location	Anserma
@@ -4010,6 +4062,7 @@ location	Togui
 location	Santana
 
 # Choco
+location	Union Panamericana
 location	Quibdo
 
 # Antioquia
@@ -4030,6 +4083,7 @@ location	Cucuta
 location	Tierralta
 location	Monteria
 location	Cienaga de Oro
+location	Santa Cruz de Lorica
 
 # Bolivar
 location	Cartagena
@@ -4044,6 +4098,9 @@ location	Santa Marta
 # Atlantico
 location	Soledad
 location	Barranquilla
+
+# La Guajira
+location	Riohacha
 
 ################
 
@@ -4450,6 +4507,7 @@ location	Nueces County
 location	Williamson County TX
 location	San Patricio County
 location	Gonzales County
+location	Bell County
 location	Cameron County
 location	Tarrant County
 location	Mclennan County
@@ -4502,10 +4560,13 @@ location	Houston County MN
 location	Winona County
 location	Wabasha County
 location	Dakota County
+location	Chisago County
 location	Stearns County
+location	Pine County
 
 # Iowa
 location	Howard County
+location	Chickasaw County
 location	Buchanan County
 location	Fayette County IA
 location	Winneshiek County
@@ -4563,6 +4624,7 @@ location	Buffalo County
 location	Trempealeau County
 location	Eau Claire County
 location	Chippewa County WI
+location	Bayfield County
 location	Sawyer County
 location	La Crosse County
 location	Vernon County
@@ -4573,6 +4635,7 @@ location	Monroe County WI
 location	Clark County WI
 location	Taylor County WI
 location	Richland County WI
+location	Price County
 location	Lafayette County
 location	Iowa County WI
 location	Juneau County
@@ -4592,6 +4655,8 @@ location	Brooklyn WI
 location	Columbia County WI
 location	Waushara County
 location	Rock County
+location	Langlade County
+location	Green Lake County
 location	Columbus WI
 location	Waupaca County
 location	Jefferson County WI
@@ -4722,11 +4787,14 @@ location	Shelby County TN
 # Indiana
 location	Indianapolis
 location	Marion County IN
+location	Lake County IN
+location	Elkhart County
 
 # Kentucky
 location	Mccracken County
 
 # Michigan
+location	Berrien County
 location	Alpena County
 
 # Georgia
@@ -4734,13 +4802,18 @@ location	Thomas County
 location	Cobb
 
 # Ohio
-location	Columbus OH
+location	Greene County OH
 location	Franklin County OH
+location	Columbus OH
 location	Cuyahoga County
 
 # Florida
 location	Walton County
 location	Alachua County
+location	Lee County FL
+location	Duval County
+location	Orange County FL
+location	Monroe County FL
 location	Miami-Dade County
 location	Palm Beach County
 
@@ -4778,9 +4851,13 @@ location	Pittsburgh
 location	Allegheny County
 location	Chester County
 location	Montgomery County PA
+location	Philadelphia County
 
 # Washington DC
 location	District of Columbia County
+
+# Maryland
+location	Prince George's County
 
 # Delaware
 location	Sussex County
@@ -4845,7 +4922,7 @@ location	Orange County NY
 location	Passaic County
 location	Richmond County
 location	Staten Island
-location	Greene County
+location	Greene County NY
 location	Schenectady County
 location	New York City
 location	Rockland County
@@ -5457,6 +5534,8 @@ division	Sud Kivu
 division	Nord Kivu
 
 ### Botswana
+division	Goodhope
+division	Lobatse
 division	Southern East
 division	Gaborone
 division	Botswana
@@ -5716,7 +5795,6 @@ division	Uri
 division	Schaffhausen
 division	Zürich
 division	Schwyz
-division	Tessin
 division	Ticino
 division	Glarus
 division	Thurgau
@@ -6044,6 +6122,7 @@ division	Vrancea
 division	Hunedoara
 division	Cluj Napoca
 division	Cluj
+division	Mures
 division	Romania
 division	Arges
 division	Mioveni
@@ -6227,6 +6306,7 @@ division	Chaco
 division	Maldonado
 division	Montevideo
 division	Rocha
+division	Uruguay
 division	Treinta y Tres
 division	Cerro Largo
 division	Rivera
@@ -6271,6 +6351,7 @@ division	Paraná
 division	Amapa
 division	Santa Catarina
 division	Goiás
+division	Tocantins
 division	Distrito Federal
 division	São Paulo
 division	Maranhão
