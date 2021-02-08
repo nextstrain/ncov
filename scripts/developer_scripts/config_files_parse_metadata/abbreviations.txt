@@ -87,3 +87,6 @@ Belgium	BE
 Turnhout	BE
 Hauts de France	FR
 Santo Domingo de los Tsachilas	EC
+Meta	CO
+Tierra del Fuego	AR
+Goiás	BR

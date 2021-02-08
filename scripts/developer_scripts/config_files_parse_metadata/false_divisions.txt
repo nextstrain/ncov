@@ -168,7 +168,6 @@ Vrbas	South Bačka District
 Vrsac	South Banat District
 Antananarivo	Analamanga
 Shtip	Eastern Region
-Kumanovo	Northeastern Region
 Veles	Vardar
 Ohrid	Southwestern Region
 Bitola	Pelagonia
@@ -229,3 +228,4 @@ Berchem-Sainte-Agath	Brussels
 Kumanovo	Northeastern Region
 Fleron	Liège
 Marchinne-Au-Pont	Charleroi
+Cape Town	Western Cape Province

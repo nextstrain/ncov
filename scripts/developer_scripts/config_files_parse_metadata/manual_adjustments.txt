@@ -88,3 +88,9 @@ South America/Ecuador/Santo Domingo de los Tsachilas/Santo Domingo	South America
 Europe/Belgium/Kappelen/	Europe/Belgium/Antwerpen/Kapellen
 Europe/Belgium/Fontaine-l'Evêque/	Europe/Belgium/Charleroi/Fontaine-l'Évêque
 Europe/Belgium/Montigny-le-Tileul/	Europe/Belgium/Charleroi/Montigny-le-Tilleul
+North America/Puerto Rico/Puerto Rico/*	North America/USA/Puerto Rico/*
+Africa/Gaborone/Lobatse/	Africa/Botswana/Lobatse/
+Africa/South Africa/Eastern Cape/Cape Winelands	Africa/South Africa/Western Cape/Cape Winelands
+Africa/South Africa/Eastern Cape/Middelburg Municipal Clinic	Africa/South Africa/Eastern Cape/Middleburg
+North America/USA/Wisconsin/Chisago County	North America/USA/Minnesota/Chisago County
+North America/USA/Wisconsin/Pine County	North America/USA/Minnesota/Pine County
