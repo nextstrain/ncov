@@ -1043,7 +1043,7 @@ rule incorporate_travel_history:
 rule finalize:
     message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = rules.incorporate_travel_history.output.auspice_json,
+        auspice_json = lambda w: rules.export.output.auspice_json if config.get("skip_travel_history_adjustment", False) else rules.incorporate_travel_history.output.auspice_json,
         frequencies = rules.tip_frequencies.output.tip_frequencies_json,
         root_sequence_json = rules.export.output.root_sequence_json
     output:
