@@ -6,8 +6,8 @@
   ],
   "colorings": [
     {
-      "key": "location",
-      "title": "Location",
+      "key": "input1",
+      "title": "Source: input1",
       "type": "categorical"
     },
     {
@@ -85,13 +85,12 @@
     }
   ],
   "geo_resolutions": [
-    "location",
     "division",
     "country",
     "region"
   ],
   "display_defaults": {
-    "color_by": "division",
+    "color_by": "input1",
     "distance_measure": "num_date",
     "geo_resolution": "division",
     "map_triplicate": true,
@@ -99,7 +98,8 @@
   },
   "filters": [
     "recency",
-    "location",
+    "input1",
+    "input2",
     "division",
     "country",
     "region",

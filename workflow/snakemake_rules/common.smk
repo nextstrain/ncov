@@ -28,6 +28,26 @@ def numeric_date(dt=None):
 def _get_subsampling_scheme_by_build_name(build_name):
     return config["builds"][build_name].get("subsampling_scheme", build_name)
 
+
+def _get_single_metadata(wildcards):
+    """If multiple origins are specified, we fetch the metadata corresponding
+    to that origin. If multiple inputs are employed, we simply return the
+    corresponding (un-modified) metadata input
+    """
+    if isinstance(config['metadata'], str):
+        return config['metadata']
+    return config['metadata'][wildcards.origin[1:]]
+
+
+def _get_unified_metadata(wildcards):
+    """Returns a singular metadata file representing the input metadata file(s).
+    If a single input was specified, this is returned.
+    If multiple inputs are specified, a rule to combine them is used.
+    """
+    if isinstance(config['metadata'], str):
+        return config['metadata']
+    return "results/combined_metadata.tsv" # see rule combine_input_metadata
+
 def _get_metadata_by_build_name(build_name):
     """Returns a path associated with the metadata for the given build name.
 
@@ -35,7 +55,7 @@ def _get_metadata_by_build_name(build_name):
     the Snakemake `expand` function or through string formatting with `.format`.
     """
     if build_name == "global" or "region" not in config["builds"][build_name]:
-        return config["metadata"]
+        return _get_unified_metadata({})
     else:
         return rules.adjust_metadata_regions.output.metadata
 

@@ -67,27 +67,25 @@ rule download:
         config["sequences"]
 
 rule combine_input_metadata:
+    # this rule is intended to be run _only_ if we have defined multiple inputs ("origins")
     message:
         """
-        Combining metadata files {input.metadata} -> {output.metadata}
+        Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
     input:
-        metadata = lambda wildcards: list(config["metadata"].values())
+        metadata = lambda wildcards: list(config["metadata"].values()),
+        sequences = lambda wildcards: list(config["sequences"].values())
     output:
         metadata = "results/combined_metadata.tsv"
+    params:
+        origins = lambda wildcards: list(config["sequences"].keys())
     log:
         "logs/combine_input_metadata.txt"
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/combine_metadata.py --input {input.metadata} --output {output.metadata} 2>&1 | tee {log}
+        python3 scripts/combine_metadata.py --metadata {input.metadata} --origins {params.origins} --sequences {input.sequences} --output {output.metadata} 2>&1 | tee {log}
         """
-
-def _get_unified_metadata(wildcards):
-    # TODO - there's another metadata file getter function!
-    if isinstance(config['metadata'], str):
-        return config['metadata']
-    return "results/combined_metadata.tsv" # see rule combine_input_metadata
 
 rule excluded_sequences:
     message:
@@ -96,7 +94,7 @@ rule excluded_sequences:
         """
     input:
         sequences = _get_unaligned_sequence_file,
-        metadata = _get_unified_metadata,
+        metadata = _get_single_metadata,
         include = config["files"]["exclude"]
     output:
         sequences = "results/excluded{origin}.fasta"
@@ -175,7 +173,7 @@ rule prefilter:
         """
     input:
         sequences = _get_unaligned_sequence_file,
-        metadata = _get_unified_metadata,
+        metadata = _get_single_metadata,
     output:
         sequences = "results/prefiltered{origin}.fasta"
     log:
@@ -224,7 +222,7 @@ rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
         alignment = "results/aligned{origin}.fasta",
-        metadata = _get_unified_metadata,
+        metadata = _get_single_metadata,
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/sequence-diagnostics{origin}.tsv",
@@ -256,7 +254,7 @@ rule refilter:
         """
     input:
         sequences = "results/aligned{origin}.fasta",
-        metadata = _get_unified_metadata,
+        metadata = _get_single_metadata,
         exclude = "results/to-exclude{origin}.txt"
     output:
         sequences = "results/aligned-filtered{origin}.fasta"
@@ -310,7 +308,7 @@ rule filter:
         """
     input:
         sequences = "results/masked{origin}.fasta",
-        metadata = _get_unified_metadata,
+        metadata = _get_single_metadata,
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = config["files"]["exclude"]
@@ -419,6 +417,25 @@ def _get_specific_subsampling_setting(setting, optional=False):
 
     return _get_setting
 
+rule combine_sequences_for_subsampling:
+    # Note: this rule should only be run if multiple inputs are being used (i.e. multiple origins)
+    message:
+        """
+        Combine and deduplicate filtered FASTAs from multiple origins in preparation for subsampling.
+        TODO: does this work with preprocessed?
+        """
+    input:
+        expand("results/filtered{origin}.fasta", origin=[f"_{k}" for k in config["sequences"]])
+    output:
+        "results/combined_sequences_for_subsampling.fasta"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/combine-and-dedup-fastas.py \
+            --input {input} \
+            --output {output}
+        """
+
 rule subsample:
     message:
         """
@@ -436,8 +453,8 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = "results/filtered.fasta",
-        metadata = config["metadata"],
+        sequences = "results/filtered.fasta" if isinstance(config["sequences"], str) else "results/combined_sequences_for_subsampling.fasta",
+        metadata = _get_unified_metadata,
         include = config["files"]["include"],
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
@@ -486,8 +503,8 @@ rule proximity_score:
         genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
         """
     input:
-        alignment = "results/filtered.fasta",
-        metadata = config["metadata"],
+        alignment = "results/filtered.fasta" if isinstance(config["sequences"], str) else "results/combined_sequences_for_subsampling.fasta",
+        metadata = _get_unified_metadata,
         reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
     output:
@@ -540,7 +557,7 @@ rule adjust_metadata_regions:
         Adjusting metadata for build '{wildcards.build_name}'
         """
     input:
-        metadata = config["metadata"]
+        metadata = _get_unified_metadata
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv"
     params:

@@ -68,8 +68,16 @@ metadata:
   input2: "data/example_input_2.tsv"
 ```
 
+# Creating combined metadata
 
-# Filtering / subsampling input-specific parameters
+The different provided metadata files (e.g. for `input1` and `input2` are combined during the pipeline.
+The combined metadata file includes all columns present -- for instance, if there's a column only present in `input2` then that will be in the combined metadata, and the values of samples from the other metadata files (e.g. `input1`) will be empty (`""`).
+In the case of conflicts, the order of the entries in the YAML matters, with the last value being used.
+
+
+Finally, extra columns will be added for each input (e.g. `input1` and `input2`), with values `"yes"` or `"no"`, representing which samples are contained in each set of sequences.
+
+# (Pre-) Filtering  input-specific parameters
 
 The parameters used for filtering steps are typically defined by the "filter" dict in the `builds.yaml`, with sensible defaults provided (by `defaults/parameters.yaml`).
 For multiple inputs, we can overwrite these on a per-input level, such as the example tutorial does for `input1` (the North American genomes).
@@ -83,5 +91,32 @@ filter:
     min_date: "2020-02-01" # used by the filter rule. Will remove all sequences from the Jan 2020
     exclude_ambiguous_dates_by: year # used by the filter rule.
     skip_diagnostics: True # skip diagnostics (which can remove genomes) for this input
+```
+
+# Subsampling parameters
+
+For subsampling, we utilise the fact that the metadata has extra columns `input1` and `input2` to allow us to have per-input subsampling rules.
+In this example, we want to include _all_ of the samples from `input1` (from North America) and then create a contextual subsampling of the genomes from `input2` (the rest of the world) based on genetic distance from the first sample.
+
+```yaml
+builds:
+  multiple-inputs:
+    subsampling_scheme: custom-scheme # use a custom subsampling scheme defined below
+
+subsampling:
+  custom-scheme:
+    # Use metadata key to include ALL from `input1`
+    allFromInput1:
+      exclude: "--exclude-where 'input1=no'" # subset to sequences from input 1 
+      group_by: year # needed for pipeline to work!
+      seq_per_group: 1000000 # needed for pipeline to work!
+    # Proximity subsampling from `input2` to provide context 
+    sampleForContext:
+      exclude: "--exclude-where 'input1=yes'" # i.e. subset to sequences _not_ from input 1
+      group_by: year month
+      seq_per_group: 5
+      priorities:
+        type: "proximity"
+        focus: "allFromInput1"
 ```
 

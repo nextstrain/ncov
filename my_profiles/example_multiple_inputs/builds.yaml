@@ -18,13 +18,21 @@ builds:
   multiple-inputs:
     subsampling_scheme: custom-scheme # use a custom subsampling scheme defined below
 
-# Define custom subsampling logic for county-level builds.
 subsampling:
   custom-scheme:
-    # Simple random sampling to start with
-    random:
-      group_by: "year month country"
+    # Use metadata key to include ALL from `input1`
+    allFromInput1:
+      exclude: "--exclude-where 'input1=no'" # subset to sequences from input 1 
+      group_by: year # needed for pipeline to work!
+      seq_per_group: 1000000 # needed for pipeline to work!
+    # Proximity subsampling from `input2` to provide context 
+    sampleForContext:
+      exclude: "--exclude-where 'input1=yes'" # i.e. subset to sequences _not_ from input 1
+      group_by: year month
       seq_per_group: 5
+      priorities:
+        type: "proximity"
+        focus: "allFromInput1"
 
 files:
   auspice_config: "my_profiles/example_multiple_inputs/my_auspice_config.json"
