@@ -896,6 +896,7 @@ location	Limerick City
 
 ### Spain
 # Canary Islands
+location	Adeje
 location	Las Palmas de Gran Canaria
 location	Lanzarote
 
@@ -1315,6 +1316,7 @@ location	Puzol
 
 # Catalunya
 location	Cambrils
+location	Solsona
 location	Jorba
 location	Sant Joan Vilatorrada
 location	Bellavista
@@ -1322,6 +1324,7 @@ location	Manresa
 location	Berga
 location	Navas
 location	Vallirana
+location	Castellbisbal
 location	Terrassa
 location	Santa Coloma de Cervello
 location	San Cugat del Valles
@@ -3066,14 +3069,14 @@ location	Ohrid
 location	Bitola
 location	Prilep
 
+# North Macedonia
+location	Kavadarci
+
 # Vardar
 location	Veles
 
 # Northeastern Region
 location	Kumanovo
-
-# Kavadarci
-location	Kavadarci
 
 # Eastern Region
 location	Shtip
