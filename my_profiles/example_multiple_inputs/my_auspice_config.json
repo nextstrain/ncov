@@ -6,9 +6,9 @@
   ],
   "colorings": [
     {
-      "key": "input1",
-      "title": "Source: input1",
-      "type": "categorical"
+      "key": "aus",
+      "title": "Source: Australia",
+      "type": "boolean"
     },
     {
       "key": "division",
@@ -90,16 +90,15 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "input1",
+    "color_by": "aus",
     "distance_measure": "num_date",
-    "geo_resolution": "division",
-    "map_triplicate": true,
+    "geo_resolution": "country",
+    "map_triplicate": false,
     "branch_label": "none"
   },
   "filters": [
     "recency",
-    "input1",
-    "input2",
+    "aus",
     "division",
     "country",
     "region",

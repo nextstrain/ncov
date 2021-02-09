@@ -12,25 +12,34 @@
 
 A common use case is to have a set (or sets) of SARS-CoV-2 sequences which you wish to analyse together.
 For instance, you may have a set of freshly generated genomes which you wish to analyse in the context of a larger, worldwide set of genomes such as those found on GISAID.
+This tutorial works through such a scenario.
 
 
-This file walks though an example build found - `example_multiple_inputs` - in the nextstrain/ncov repo.
-It describes how each input set of sequences can use different filtering, diagnostic & subsampling rules with the end result being a combined, representative dataset for visualization in Auspice.
+We have partitioned the data contained within the main example dataset into two sets:
+1. An "Australian" dataset, containing 91 genomes from Victoria, Australia. These were genomes uploaded to NCBI from [Torsten Seemann et al.,](https://www.doherty.edu.au/people/associate-professor-torsten-seemann) but are used in this tutorial to represent a small subset of genomes which may not yet be public.
+2. A "worldwide" dataset for context. Often this would be the entire NCBI/GISAID dataset, but here only includes 327 genomes for speed and data-sharing reasons. 
 
-### Files
 
-The starting files for this tutorial are in `data/example_multiple_inputs.tar.xz` and must be decompressed via `tar xf data/example_multiple_inputs.tar.xz --directory data/`.
-These files have the same data as the found in `example_metadata.tsv` etc, but are split into two files - one set to represent genomes from North America, and one set to represent genomes from the rest of the world, which is intended to make it easy to discern in the final output that we do indeed have data from both inputs!
+Our aim is to produce an analysis of the 91 Australian genomes with select worldwide genomes for context. To achieve this, we wish to apply different input-dependent filtering, subsampling and colouring steps.
+
+
+
+## Files
+
+The **sequences and metadata** for this tutorial are in `data/example_multiple_inputs.tar.xz` and must be decompressed via `tar xf data/example_multiple_inputs.tar.xz --directory data/`.
 
 You should now see the following starting files:
 ```sh
-data/example_input_1.fasta # North American genomes
-data/example_input_1.tsv   # corresponding metadata
-data/example_input_2.fasta # Worldwide genomes
-data/example_input_2.tsv   # corresponding metadata
+data/example_metadata_aus.tsv           # Aus data (n=91)
+data/example_sequences_aus.fasta
+data/example_metadata_worldwide.tsv     # Worldwide, contextual data (n=327)
+data/example_sequences_worldwide.fasta
 ```
 
-The build-specific configs etc are in `my_profiles/example_multiple_inputs`
+The files are small enough to be examined in a text editor -- the format of the worldwide metadata is similar to the `nextmeta.tsv` file which you may download from GISAID, whereas the format of the Australian metadata is more limited, only containing sampling date and geographic details. Note: see `data/example_metadata.tsv` for the full metadata of these Australian samples, we've intentionally restricted this here to mimic a real-world scenario.
+
+
+The **build-specific configs** etc are in `my_profiles/example_multiple_inputs`
 
 ```sh
 my_profiles/example_multiple_inputs/config.yaml
@@ -38,7 +47,7 @@ my_profiles/example_multiple_inputs/builds.yaml # this is where the input files 
 my_profiles/example_multiple_inputs/my_auspice_config.json
 ```
 
-### Snakemake terminology
+## Snakemake terminology
 
 Inside the Snakemake rules, we use a wildcard `origin` to define different starting points.
 For instance, if we ask for the file `results/aligned_seqRun42.fasta` then `wildcards.origin="_seqRun42"` and we expect that the config has defined
@@ -46,57 +55,78 @@ a sequences input via `config["sequences"]["seqRun42"]=<path to fasta>` (note th
 If there's only one starting point, then this wildcard is empty.
 For instance, asking for `results/aligned.fasta` results in `wildcards.origin=""` and we expect `config["sequences"]=<path to fasta>`.
 
+
 # Setting up the config
 
-Typically, inside the `builds.yaml`, you would specify input files such as
+Typically, inside the `builds.yaml`, you typically specify input files such as
 
 ```yaml
 sequences: "data/sequences.fasta"
 metadata: "data/metadata.tsv"
 ```
 
-(In fact, you can leave these out completely, as these are the defaults.)
 For multiple inputs, we shall specify a dictionary for each of these, such as:
 
 ```yaml
 # my_profiles/example_multiple_inputs/builds.yaml
 sequences:
-  input1: "data/example_input_1.fasta"
-  input2: "data/example_input_2.fasta"
+  aus: "data/example_sequences_aus.fasta"
+  worldwide: "data/example_sequences_worldwide.fasta"
 metadata:
-  input1: "data/example_input_1.tsv"
-  input2: "data/example_input_2.tsv"
+  aus: "data/example_metadata_aus.tsv"
+  worldwide: "data/example_metadata_worldwide.tsv"
 ```
 
 # Creating combined metadata
 
-The different provided metadata files (e.g. for `input1` and `input2` are combined during the pipeline.
-The combined metadata file includes all columns present -- for instance, if there's a column only present in `input2` then that will be in the combined metadata, and the values of samples from the other metadata files (e.g. `input1`) will be empty (`""`).
+The different provided metadata files (`aus` and `worldwide`, defined above) are combined during the pipeline.
+The combined metadata file includes all columns present: the `worldwide` metadata contains many more columns than the `aus` metadata does, so the latter samples will have a number of empty values.
+
 In the case of conflicts, the order of the entries in the YAML matters, with the last value being used.
 
+Finally, extra columns will be added for each input (e.g. `aus` and `worldwide`), with values `"yes"` or `"no"`, representing which samples are contained in each set of sequences.
+We are going to use this to our advantage, by adding a coloring to highlight the source of sequences in auspice via `my_profiles/example_multiple_inputs/my_auspice_config.json`:
 
-Finally, extra columns will be added for each input (e.g. `input1` and `input2`), with values `"yes"` or `"no"`, representing which samples are contained in each set of sequences.
+```json
+"colorings": [
+  {
+    "key": "aus",
+    "title": "Source: Australia",
+    "type": "boolean"
+  }
+],
+"display_defaults": {
+  "color_by": "aus"
+}
+```
 
 # (Pre-) Filtering  input-specific parameters
 
 The parameters used for filtering steps are typically defined by the "filter" dict in the `builds.yaml`, with sensible defaults provided (by `defaults/parameters.yaml`).
-For multiple inputs, we can overwrite these on a per-input level, such as the example tutorial does for `input1` (the North American genomes).
+For multiple inputs, we can overwrite these for each input.
+
+In this tutorial, we wish to make sure we include all the Australian samples, even if they may be partial genomes etc
+
+per-input level, such as the example tutorial does for `input1` (the North American genomes).
 
 ```yaml
 # my_profiles/example_multiple_inputs/builds.yaml
 filter:
-  input1:
-    min_length: 5000 # used in the prefilter & filter rules
-    exclude_where: country=Canada # used by the filter rule. Will remove Canadian sequences
-    min_date: "2020-02-01" # used by the filter rule. Will remove all sequences from the Jan 2020
+  aus:
+    min_length: 5000 # Allow shorter genomes. Parameter used in the prefilter & filter rules
+    exclude_where: country=Canada # Would remove all Canadian sequences (there aren't any!)
+    min_date: "2020-02-01" # used by the filter rule. Will remove all sequences from Jan 2020
     exclude_ambiguous_dates_by: year # used by the filter rule.
     skip_diagnostics: True # skip diagnostics (which can remove genomes) for this input
 ```
 
 # Subsampling parameters
 
-For subsampling, we utilise the fact that the metadata has extra columns `input1` and `input2` to allow us to have per-input subsampling rules.
-In this example, we want to include _all_ of the samples from `input1` (from North America) and then create a contextual subsampling of the genomes from `input2` (the rest of the world) based on genetic distance from the first sample.
+For subsampling, we utilise the fact that the combined metadata has additional columns to represent the input source: `aus` and `worldwide`.
+This allows us to have per-input subsampling steps by restricting the step to sequences from an individual input (or inputs).
+
+
+In this example, we want to include _all_ of the samples from `aus` (i.e. all Australian genomes) and then create a contextual subsampling of the genomes from `worldwide` based on genetic distance from the `aus` sample.
 
 ```yaml
 builds:
@@ -106,17 +136,31 @@ builds:
 subsampling:
   custom-scheme:
     # Use metadata key to include ALL from `input1`
-    allFromInput1:
-      exclude: "--exclude-where 'input1=no'" # subset to sequences from input 1 
+    allFromAus:
+      exclude: "--exclude-where 'aus=no'" # subset to sequences from input `aus`
       group_by: year # needed for pipeline to work!
       seq_per_group: 1000000 # needed for pipeline to work!
     # Proximity subsampling from `input2` to provide context 
-    sampleForContext:
-      exclude: "--exclude-where 'input1=yes'" # i.e. subset to sequences _not_ from input 1
+    worldwideContext:
+      exclude: "--exclude-where 'aus=yes'" # i.e. subset to sequences _not_ from input `aus`
       group_by: year month
-      seq_per_group: 5
+      seq_per_group: 10
       priorities:
         type: "proximity"
-        focus: "allFromInput1"
+        focus: "allFromAus"
+
 ```
 
+# Run the build
+
+The following commands will run this tutorial
+
+```sh
+tar xf data/example_multiple_inputs.tar.xz --directory data/ # make sure you have input files!
+snakemake --profile my_profiles/example_multiple_inputs -f auspice/ncov_multiple-inputs.json
+```
+
+The resulting JSON can be dropped onto [auspice.us](https://auspice.us) for visualization.
+
+> P.S. If you want to see the DAG to help understand the pipeline steps, you can run
+`snakemake --profile my_profiles/example_multiple_inputs -f auspice/ncov_multiple-inputs.json --dag | dot -Tpdf > dag.pdf`

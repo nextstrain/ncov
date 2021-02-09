@@ -1,18 +1,13 @@
 
 ## This YAML file is sparsely commented, with a focus on the parts relevant to multiple inputs
-## See my_profiles/example/builds.yaml for more comments
-
-
-custom_rules:
-  - nextstrain_profiles/nextstrain/download_preprocessed.smk
-S3_BUCKET: "nextstrain-ncov-private"
+## See my_profiles/example/builds.yaml for more general comments
 
 sequences:
-  input1: "data/example_input_1.fasta"
-  input2: "data/example_input_2.fasta"
+  aus: "data/example_sequences_aus.fasta"
+  worldwide: "data/example_sequences_worldwide.fasta"
 metadata:
-  input1: "data/example_input_1.tsv"
-  input2: "data/example_input_2.tsv"
+  aus: "data/example_metadata_aus.tsv"
+  worldwide: "data/example_metadata_worldwide.tsv"
 
 builds:
   multiple-inputs:
@@ -21,27 +16,34 @@ builds:
 subsampling:
   custom-scheme:
     # Use metadata key to include ALL from `input1`
-    allFromInput1:
-      exclude: "--exclude-where 'input1=no'" # subset to sequences from input 1 
+    allFromAus:
+      exclude: "--exclude-where 'aus=no'" # subset to sequences from input `aus`
       group_by: year # needed for pipeline to work!
       seq_per_group: 1000000 # needed for pipeline to work!
     # Proximity subsampling from `input2` to provide context 
-    sampleForContext:
-      exclude: "--exclude-where 'input1=yes'" # i.e. subset to sequences _not_ from input 1
+    worldwideContext:
+      exclude: "--exclude-where 'aus=yes'" # i.e. subset to sequences _not_ from input `aus`
       group_by: year month
-      seq_per_group: 5
+      seq_per_group: 10
       priorities:
         type: "proximity"
-        focus: "allFromInput1"
+        focus: "allFromAus"
 
 files:
   auspice_config: "my_profiles/example_multiple_inputs/my_auspice_config.json"
   description: "my_profiles/example_multiple_inputs/my_description.md"
 
 filter:
-  input1:
-    min_length: 5000
-    exclude_where: country=Canada # no canadian sequences
-    min_date: "2020-02-01" # no early sequences
-    exclude_ambiguous_dates_by: year
-    skip_diagnostics: True
+  aus:
+    min_length: 5000 # Allow shorter genomes. Parameter used in the prefilter & filter rules
+    exclude_where: country=Canada # Would remove all Canadian sequences (there aren't any!)
+    min_date: "2020-02-01" # used by the filter rule. Will remove all sequences from Jan 2020
+    exclude_ambiguous_dates_by: year # used by the filter rule.
+    skip_diagnostics: True # skip diagnostics (which can remove genomes) for this input
+
+skip_travel_history_adjustment: True
+
+traits:
+  multiple-inputs:
+    sampling_bias_correction: 2.5
+    columns: ["country"]
