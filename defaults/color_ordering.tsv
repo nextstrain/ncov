@@ -260,6 +260,11 @@ location	Wardha
 # Odisha
 location	Ganjam
 
+# Chhattisgarh
+location	Durg
+location	Bilaspur
+location	Janjgir-Champa
+
 # Gujarat
 location	Kodinar
 location	Sutrapada
@@ -743,16 +748,19 @@ location	Mateur
 location	Corniche
 
 ### Equatorial Guinea
-# Litoral
-location	Mbini
-location	Bata
-
 # Bioko Sur
 location	Riaba
 
 # Bioko Norte
 location	Malabo
 location	Baney
+
+# Litoral
+location	Mbini
+location	Bata
+
+# Wele Nzas
+location	Nsork
 
 ### South Africa
 # Western Cape Province
@@ -1441,6 +1449,7 @@ location	Vannes
 location	Sene
 location	La Rochelle
 location	Cayenne BRE
+location	Dinan
 location	Melesse
 location	Betton
 location	Fougères
@@ -1454,8 +1463,10 @@ location	Saint Herblain
 location	Nantes
 location	La Roche-sur-Yon
 location	Cholet
+location	Laval
 location	Val de Loire
 location	Le Mans
+location	Montval sur Loir
 location	Angers
 
 # Normandie
@@ -1466,6 +1477,7 @@ location	Bernieres-le-Patry
 location	Caen
 location	Le Havre
 location	Lisieux
+location	Saint Valery en Caux
 location	Rouen
 location	Gisors
 
@@ -1570,6 +1582,7 @@ location	Leers
 location	Wambrechies
 location	Roubaix
 location	Tourcoing
+location	Saint Omer
 location	Bousbecque
 location	Dunkerque
 
@@ -1630,8 +1643,10 @@ location	Montreux-Chateau
 # Grand Est
 location	Bezannes
 location	Reims
+location	La Chapelle-Saint-Luc
 location	Troyes
 location	Champagne Ardenne
+location	Charleville-Mezieres
 location	Saint Dizier
 location	Gondrecourt-le-Chateau
 location	Tucquegnieux
@@ -1643,6 +1658,7 @@ location	Amneville
 location	Woippy
 location	Montigny Les Metz
 location	Maizières Les Metz
+location	Maxeville
 location	Vandoeuvre-Les-Nancy
 location	Talange
 location	Metz
@@ -1683,6 +1699,7 @@ location	Wissembourg
 # Provence-Alpes-Côte d'Azur
 location	Marignane
 location	Marseille
+location	Manosque
 location	Sanary-sur-Mer
 location	Toulon
 location	Provence
@@ -1731,6 +1748,7 @@ location	Geluwe
 location	Westende
 location	Middelkerke
 location	Leffinge
+location	Gistel
 location	Bredene
 location	Oudenburg
 location	Ichtegem
@@ -1767,6 +1785,7 @@ location	Harelbeke
 location	Zwevegem
 location	Deerlijk
 location	Moen
+location	Sint-Eloois-Vijve
 location	Avelgem
 location	Anzegem
 
@@ -1781,6 +1800,7 @@ location	Dentergem
 
 # Tournai-Mouscron
 location	Ploegsteert
+location	Warneton
 location	Comines-Warneton
 location	Comines
 location	Luingne
@@ -2020,6 +2040,7 @@ location	Oelegem
 location	Broechem
 location	Emblem
 location	Brecht
+location	Zandhoven
 location	Zoersel
 location	Sint-Lenaarts
 location	Malle
@@ -2281,6 +2302,7 @@ location	Heusden-Zolder
 location	Zonhoven
 location	Diepenbeek
 location	Genk
+location	Zutendaal
 
 # Marche-en-Famenne
 location	Hotton
@@ -2291,7 +2313,9 @@ location	Saint-Hubert
 # Tongeren
 location	Klein-Gelmen
 location	Alken
+location	Wellen
 location	Borgloon
+location	Kortessem
 location	Beverst
 location	Hoeselt
 location	Bilzen
@@ -2326,6 +2350,7 @@ location	Kaulille
 location	Oudsbergen
 location	Bocholt
 location	Bree
+location	Dilsen-Stokkem
 
 # Arlon
 location	Sélange
@@ -2389,6 +2414,7 @@ location	Zeewolde
 location	Franeker
 
 # Gelderland
+location	Nijmegen
 location	Apeldoorn
 
 # Overijssel
@@ -3046,8 +3072,12 @@ location	Veles
 # Northeastern Region
 location	Kumanovo
 
+# Kavadarci
+location	Kavadarci
+
 # Eastern Region
 location	Shtip
+location	Kochani
 
 # Southeastern Region
 location	Strumica
@@ -4026,6 +4056,7 @@ location	Trujillo
 
 # Tolima
 location	Ibague
+location	Espinal
 location	Tolemaida
 
 # Quindio
@@ -4054,6 +4085,7 @@ location	Fuquene
 # Caldas
 location	Anserma
 location	Manizales
+location	La Dorada
 
 # Boyaca
 location	Tunja
@@ -5125,6 +5157,7 @@ division	Telangana
 division	Maharashtra
 division	Odisha
 division	India
+division	Chhattisgarh
 division	Gujarat
 division	Madhya Pradesh
 division	West Bengal
@@ -5509,10 +5542,11 @@ division	Bizerte
 division	Niger
 
 ### Equatorial Guinea
-division	Litoral
-division	Equatorial Guinea
 division	Bioko Sur
 division	Bioko Norte
+division	Litoral
+division	Equatorial Guinea
+division	Wele Nzas
 
 ### Gabon
 division	Libreville
@@ -5737,6 +5771,7 @@ division	Brabant Wallon
 division	Philippeville
 division	Belgium
 division	Leuven
+division	Flemish Brabant
 division	Namur
 division	Dinant
 division	Turnhout
@@ -5778,6 +5813,7 @@ division	Luxembourg
 division	Geneva
 division	Vaud
 division	Neuchâtel
+division	Freiburg
 division	Fribourg
 division	Jura
 division	Solothurn
@@ -6067,6 +6103,7 @@ division	Moravica District
 division	Pomoravlje District
 division	Šumadija District
 division	Sabac
+division	Belgrade
 division	Srem District
 division	South Banat District
 division	Central Banat District
@@ -6082,6 +6119,7 @@ division	Kosovska Mitrovica
 
 ### North Macedonia
 division	Southwestern Region
+division	Gostivar
 division	Tetovo
 division	Skopje
 division	Pelagonia

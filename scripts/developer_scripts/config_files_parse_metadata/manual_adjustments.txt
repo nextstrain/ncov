@@ -94,3 +94,7 @@ Africa/South Africa/Eastern Cape/Cape Winelands	Africa/South Africa/Western Cape
 Africa/South Africa/Eastern Cape/Middelburg Municipal Clinic	Africa/South Africa/Eastern Cape/Middleburg
 North America/USA/Wisconsin/Chisago County	North America/USA/Minnesota/Chisago County
 North America/USA/Wisconsin/Pine County	North America/USA/Minnesota/Pine County
+North Macedonia/Kochani/Kochani/	Europe/North Macedonia/Eastern Region/Kochani
+South America/French Guiana/Cayenne/	Europe/France/French Guiana/Cayenne GF
+North Macedonia/Kavadarci/Kavadarci/	Europe/North Macedonia/Kavadarci/Kavadarci
+Europe/Belgium/Niewerkerken/	Europe/Belgium/Hasselt/Nieuwerkerken
