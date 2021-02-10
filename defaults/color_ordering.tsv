@@ -764,25 +764,26 @@ location	Nsork
 
 ### South Africa
 # Western Cape Province
-location	West Coast
-location	Cape Town
-location	Klipfontein
-location	Cape Town Metro
-location	Mitchells Plain
-location	Tygerberg
-location	Khayelitsha
-location	Stellenbosch
-location	Cape Winelands
-location	Bitou
-location	Hessequa
-location	Kannaland
-location	Prince Albert
 location	Mossel Bay
-location	Oudtshoorn
-location	George
-location	Beaufort West
-location	Knysna
+location	Hessequa
 location	Garden Route
+location	Mitchells Plain
+location	Khayelitsha
+location	Knysna
+location	Cape Town Metro
+location	George
+location	Stellenbosch
+location	Cape Town
+location	Tygerberg
+location	Bitou
+location	Cape Winelands
+location	Kannaland
+location	Oudtshoorn
+location	Prince Albert
+location	West Coast
+location	Beaufort West
+location	Klipfontein
+location	Ga-Segonyana
 
 # Northern Cape
 location	Namakwa
@@ -1327,6 +1328,8 @@ location	Vallirana
 location	Castellbisbal
 location	Terrassa
 location	Santa Coloma de Cervello
+location	Rubi
+location	Sant Joan Despi
 location	San Cugat del Valles
 location	El Prat de Llobregat
 location	Moia
@@ -1344,11 +1347,13 @@ location	La Llagosta
 location	Santa Coloma de Gramenet
 location	Bigues I Riells
 location	Mollet del Valles
+location	Centelles
 location	Sant Adria del Besos
 location	Santa Eulàlia de Ronçana
 location	Parets del Valles
 location	Sant Fost de Campsentelles
 location	Llissa de Munt
+location	Llica D'Amunt
 location	Lliça de Vall
 location	Badalona
 location	Vic
@@ -1367,12 +1372,16 @@ location	Canoves i Samalus
 location	Premia de Dalt
 location	Cardedeu
 location	Premia de Mar
+location	Cabrils
 location	Sant Pere de Vilamajor
 location	Vilassar de Mar
 location	Cabrera de Mar
+location	Argentona
 location	Sant Antoni de Vilamajor
 location	Llinars del Valles
+location	Sant Esteve de Palautordera
 location	Mataro
+location	Sant Andreu de Llavaneres
 location	Sant Celoni
 location	Vallgorguina
 location	Sant Vicenç de Montalt
@@ -2850,11 +2859,13 @@ location	Chomutov
 location	Litvinov
 location	Dubí
 location	Teplice
+location	Chlumec
 location	Telnice
 location	Třebenice
 location	Všebořice
 location	Tisá
 location	Sulejovice
+location	Usti nad Labem
 location	Libochovice
 location	Litomerice
 location	Děčín
@@ -2884,15 +2895,20 @@ location	Králův Dvůr
 location	Beroun
 location	Slaný
 location	Kladno
+location	Slatina
 location	Chýně
+location	Krauupy nad Vltavou
 location	Veltrusy
 location	Únětice
 location	Zdiby
 location	Bášť
+location	Libis
 location	Neratovice
 location	Krhanice
 location	Herink
+location	Kostelec nad Labem
 location	Radonice
+location	Konetopy
 location	Říčany
 location	Brandýs N. Labem
 location	Zeleneč
@@ -2910,6 +2926,7 @@ location	Hrušov
 location	Kostelec N. Černými Lesy
 location	Mladá Boleslav
 location	Chrášťany
+location	Kosmonosy
 location	Hořátev
 location	Nymburk
 location	Poděbrady
@@ -2920,6 +2937,7 @@ location	Kutná Hora
 location	Liberec
 location	Vratislavice nad Nisou
 location	Jablonec nad Nisou
+location	Chuchelna
 
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
@@ -2927,6 +2945,7 @@ location	Kynice
 
 # Pardubice Region
 location	Pardubice
+location	Horni Jeleni
 
 # Hradec Králové Region
 location	Staré Hrady
@@ -2950,6 +2969,7 @@ location	Písařov
 
 # Zlín Region
 location	Buchlovice
+location	Hluk
 location	Uhersky Brod
 location	Fryšták
 
@@ -3069,14 +3089,14 @@ location	Ohrid
 location	Bitola
 location	Prilep
 
-# North Macedonia
-location	Kavadarci
-
 # Vardar
 location	Veles
 
 # Northeastern Region
 location	Kumanovo
+
+# Kavadarci
+location	Kavadarci
 
 # Eastern Region
 location	Shtip
@@ -4461,6 +4481,9 @@ location	Clark County NV
 location	Kootenai County
 location	Madison County ID
 
+# Utah
+location	Utah County
+
 # Arizona
 location	Yuma
 location	Mohave County
@@ -4822,6 +4845,7 @@ location	Shelby County TN
 # Indiana
 location	Indianapolis
 location	Marion County IN
+location	Tippecanoe County
 location	Lake County IN
 location	Elkhart County
 
@@ -5100,10 +5124,12 @@ division	Doha
 division	Qatar
 
 ### Iran
+division	Gilan
 division	Qom
 division	Karaj
 division	Tehran
 division	Iran
+division	Gorgan
 division	Semnan
 division	Sistan and Baluchestan
 
@@ -5679,6 +5705,7 @@ division	Westmeath
 division	Cavan
 division	Kilkenny
 division	Waterford
+division	Leinster
 division	Monaghan
 division	Carlow
 division	Kildare
@@ -5774,7 +5801,7 @@ division	Brabant Wallon
 division	Philippeville
 division	Belgium
 division	Leuven
-division	Flemish Brabant
+division	Vlaams-Brabant
 division	Namur
 division	Dinant
 division	Turnhout
@@ -5921,8 +5948,12 @@ division	Apulia
 division	Malta
 
 ### Slovenia
+division	Kranj
 division	Slovenia
 division	Velenje
+division	Novo Mesto
+division	Celje
+division	Murska Sobota
 
 ### Sweden
 division	Skane
@@ -6002,16 +6033,19 @@ division	Cazin
 division	Livno
 division	Čelinac
 division	Gornji Vakuf
+division	Prnjavor
 division	Novi Travnik
 division	Bosnia and Herzegovina
 division	Vitez
 division	Mostar
+division	Zenica
 division	Zepce
 division	Maglaj
 division	Kakanj
 division	Breza
 division	Ilijas
 division	Ilidza
+division	Vogosca
 division	Sarajevo
 division	Tuzla
 division	Gorazde
@@ -6046,7 +6080,9 @@ division	Trenčín
 division	Kamenicna
 division	Tvrdosovce
 division	Nitra
+division	Trencianska Tepla
 division	Nove Zamky
+division	Topolcany
 division	Surany
 division	Ilava
 division	Banovce nad Bebravou
@@ -6054,13 +6090,24 @@ division	Partizanske
 division	Levice
 division	Prievidza
 division	Zilina
+division	Bartosova Lehotka
 division	Martin
 division	Banska Bystrica
 division	Oravska Lesna
+division	Dolny Kubin
+division	Ruzomberok
+division	Velky Krtis
 division	Slovakia
+division	Tvrdosin
+division	Myto Pod Dumbierom
+division	Hnusta
+division	Rimavska Sobota
+division	Muranska Huta
+division	Revuca
 division	Doľany
 division	Kosice
 division	Pavlovce nad Uhom
+division	Bela nad Cirochou
 
 ### Montenegro
 division	Montenegro
@@ -6121,6 +6168,7 @@ division	Pristina
 division	Kosovska Mitrovica
 
 ### North Macedonia
+division	Debar
 division	Southwestern Region
 division	Gostivar
 division	Tetovo
@@ -6457,6 +6505,7 @@ division	Orellana
 
 ### Colombia
 division	Departamento de Amazonas
+division	Putumayo
 division	Caqueta
 division	Narino
 division	Cauca
@@ -6469,6 +6518,7 @@ division	Quindio
 division	Bogota
 division	Cartago CO
 division	Risaralda
+division	Vichada
 division	Cundinamarca
 division	Caldas
 division	Boyaca
