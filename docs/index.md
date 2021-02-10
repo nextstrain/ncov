@@ -39,6 +39,10 @@ The starting point for this section is a JSON file. You can alternately use our 
   10. [Writing a narrative to highlight key findings](narratives.md)
   11. _Case studies: interpreting your data (coming soon!)_
 
+### Multiple inputs
+
+  12. [Running the pipeline starting with multiple inputs](multiple_inputs.md)
+
 ## Help
 
 If something in this tutorial is broken or unclear, please [open an issue](https://github.com/nextstrain/ncov/issues/new/choose) so we can improve it for everyone.

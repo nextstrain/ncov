@@ -123,20 +123,22 @@ rule deploy_to_staging:
         fi
         """
 
+
 rule upload:
-    message: "Uploading intermediate files to {params.s3_bucket}"
+    message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
     input:
-        "results/masked.fasta",
-        "results/aligned.fasta",
-        "results/filtered.fasta",
-        "results/sequence-diagnostics.tsv",
-        "results/flagged-sequences.tsv",
-        "results/to-exclude.txt"
+        expand("results/aligned_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
+        expand("results/sequence-diagnostics_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
+        expand("results/flagged-sequences_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
+        expand("results/to-exclude_{origin}.txt", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
+        expand("results/aligned-filtered_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),     # from `rule refilter`
+        expand("results/masked_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
+        expand("results/filtered_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
     params:
-        s3_bucket = _get_first(config, "S3_DST_BUCKET", "S3_BUCKET"),
-        compression = config["preprocess"]["compression"]
+        s3_bucket = config["S3_DST_BUCKET"],
+        compression = config["S3_DST_COMPRESSION"]
     log:
-        "logs/upload.txt"
+        "logs/upload_gisaid.txt"
     run:
         for fname in input:
             cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)}.{params.compression} | tee -a {log}"

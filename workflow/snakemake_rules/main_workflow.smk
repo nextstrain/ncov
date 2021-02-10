@@ -1,71 +1,3 @@
-def _get_unaligned_sequence_file(wildcards):
-    if wildcards["origin"] == "":
-        if not isinstance(config["sequences"], str):
-            print("Error - a rule has asked for unaligned sequences without specifying an 'origin'. This necessitates config->sequences to be a string!")
-            # todo - the following exception is swallowed when snakemake decides that _running_ the rule which calls this fn (`_get_unaligned_sequence_file`)
-            # isn't necessary for the pipeline (e.g. due to intermediate files being present from a different run)
-            # how can we make snakemake exit here?
-            # Note that if the snakemake actually tries to run the rule, the exception causes an exit & message to be printed, as desired.
-            raise WorkflowError("Error - a rule has asked for unaligned sequences without specifying an 'origin'. This necessitates config->sequences to be a string!")
-        return config["sequences"]
-    origin = wildcards["origin"][1:] # trim leading `_`
-    if origin not in config["sequences"]:
-        print(f"Error - a rule has used an origin wildcard ({origin}) which doesn't have an associated sequences file!")
-        raise WorkflowError(f"Error - a rule has used an origin wildcard ({origin}) which doesn't have an associated sequences file!")
-    return config["sequences"][origin]
-
-def _get_filter_value(wildcards, key):
-    default = config["filter"].get(key, "")
-    if wildcards["origin"] == "":
-        return default
-    origin = wildcards["origin"][1:] # trim leading `_`
-    return config["filter"].get(origin, {}).get(key, default)
-
-
-def _get_aligned_sequence_file(wildcards):
-    """
-    Decide whether to use the aligned sequences file after diagnostics/refiltering,
-    or the aligned file without diagnostics
-    """
-    if wildcards["origin"] == "":
-        # todo - expose option to skip diagnostic / refiltering steps for normal (single-input) workflows?
-        return "results/aligned-filtered.fasta"
-    origin = wildcards["origin"][1:] # trim leading `_`
-    if config["filter"].get(origin, {}).get("skip_diagnostics", False):
-        return f"results/aligned{wildcards.origin}.fasta"
-    return f"results/aligned-filtered{wildcards.origin}.fasta"
-
-
-
-rule download_sequences:
-    message: "Downloading sequences from S3 bucket {params.s3_bucket}"
-    output:
-        sequences = config["default_sequences"]
-    conda: config["conda_environment"]
-    params:
-        s3_bucket = _get_first(config, "S3_SRC_BUCKET", "S3_BUCKET")
-    shell:
-        """
-        aws s3 cp s3://{params.s3_bucket}/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
-        """
-
-rule download_metadata:
-    message: "Downloading metadata from S3 bucket {params.s3_bucket}"
-    output:
-        metadata = config["default_metadata"]
-    conda: config["conda_environment"]
-    params:
-        s3_bucket = _get_first(config, "S3_SRC_BUCKET", "S3_BUCKET")
-    shell:
-        """
-        aws s3 cp s3://{params.s3_bucket}/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}
-        """
-
-rule download:
-    input:
-        config["metadata"],
-        config["sequences"]
-
 rule combine_input_metadata:
     # this rule is intended to be run _only_ if we have defined multiple inputs ("origins")
     message:
@@ -73,28 +5,27 @@ rule combine_input_metadata:
         Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
     input:
-        metadata = lambda wildcards: list(config["metadata"].values()),
-        sequences = lambda wildcards: list(config["sequences"].values())
+        metadata = lambda wildcards: [_get_path_for_input("metadata", f"_{origin}") for origin in config.get("inputs", "")],
     output:
         metadata = "results/combined_metadata.tsv"
     params:
-        origins = lambda wildcards: list(config["sequences"].keys())
+        origins = lambda wildcards: list(config["inputs"].keys())
     log:
         "logs/combine_input_metadata.txt"
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/combine_metadata.py --metadata {input.metadata} --origins {params.origins} --sequences {input.sequences} --output {output.metadata} 2>&1 | tee {log}
+        python3 scripts/combine_metadata.py --metadata {input.metadata} --origins {params.origins} --output {output.metadata} 2>&1 | tee {log}
         """
 
 rule excluded_sequences:
     message:
         """
-        Generating fasta file of excluded sequences from input {input.sequences}
+        Generating fasta file of (config-defined) excluded sequences from input {input.sequences}
         """
     input:
-        sequences = _get_unaligned_sequence_file,
-        metadata = _get_single_metadata,
+        sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         include = config["files"]["exclude"]
     output:
         sequences = "results/excluded{origin}.fasta"
@@ -106,7 +37,7 @@ rule excluded_sequences:
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
-	    --min-length 50000 \
+	        --min-length 50000 \
             --include {input.include} \
             --output {output.sequences} 2>&1 | tee {log}
         """
@@ -139,8 +70,8 @@ rule align_excluded:
 rule diagnose_excluded:
     message: "Scanning excluded sequences {input.alignment} for problematic sequences"
     input:
-        alignment = rules.align_excluded.output.alignment,
-        metadata = _get_unified_metadata,
+        alignment = "results/excluded_alignment{origin}.fasta",
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/excluded-sequence-diagnostics{origin}.tsv",
@@ -169,11 +100,13 @@ rule prefilter:
     message:
         """
         Pre-filtering sequences before aligning for minimal length.
-        Input: {input.sequences}, Min-length: {params.min_length}bp.
+         - Input: {input.sequences}
+         - Filtering to sequences with more than {params.min_length}bp.
+         - Output: {output.sequences}
         """
     input:
-        sequences = _get_unaligned_sequence_file,
-        metadata = _get_single_metadata,
+        sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
     output:
         sequences = "results/prefiltered{origin}.fasta"
     log:
@@ -197,7 +130,7 @@ rule align:
           - gaps relative to reference are considered real
         """
     input:
-        sequences = "results/prefiltered{origin}.fasta",
+        sequences = lambda wildcards: _get_path_for_input("prefiltered", wildcards.origin),
         reference = config["files"]["alignment_reference"]
     output:
         alignment = "results/aligned{origin}.fasta"
@@ -221,8 +154,8 @@ rule align:
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
-        alignment = "results/aligned{origin}.fasta",
-        metadata = _get_single_metadata,
+        alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/sequence-diagnostics{origin}.tsv",
@@ -250,12 +183,13 @@ rule diagnostic:
 rule refilter:
     message:
         """
-        excluding sequences flagged in the diagnostic step in file {input.exclude}
+        Excluding sequences flagged in the diagnostic step.
+        {input.sequences} - {input.exclude} -> {output.sequences}
         """
     input:
-        sequences = "results/aligned{origin}.fasta",
-        metadata = _get_single_metadata,
-        exclude = "results/to-exclude{origin}.txt"
+        sequences = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
+        exclude = lambda wildcards: _get_path_for_input("to-exclude", wildcards.origin),
     output:
         sequences = "results/aligned-filtered{origin}.fasta"
     log:
@@ -270,6 +204,15 @@ rule refilter:
             --output {output.sequences} 2>&1 | tee {log}
         """
 
+def _run_diagnostics(wildcards):
+    # Note that diagnostic (& therefore refiltering) steps can
+    # be skipped on a per-input (per-origin) basis by the user.
+    if wildcards["origin"] == "":
+        return True
+    if config["filter"].get(_trim_origin(wildcards["origin"]), {}).get("skip_diagnostics", False):
+        return False
+    return True
+
 rule mask:
     message:
         """
@@ -279,7 +222,7 @@ rule mask:
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = _get_aligned_sequence_file
+        alignment = lambda w: _get_path_for_input("aligned-filtered" if _run_diagnostics(w) else "aligned", w.origin)
     output:
         alignment = "results/masked{origin}.fasta"
     log:
@@ -303,12 +246,14 @@ rule mask:
 rule filter:
     message:
         """
-        Filtering {input.sequences} to
+        Filtering alignment {input.sequences} -> {output.sequences}
           - excluding strains in {input.exclude}
+          - including strains in {input.include}
+          - min length: {params.min_length}
         """
     input:
-        sequences = "results/masked{origin}.fasta",
-        metadata = _get_single_metadata,
+        sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = config["files"]["exclude"]
@@ -417,23 +362,21 @@ def _get_specific_subsampling_setting(setting, optional=False):
 
     return _get_setting
 
+
 rule combine_sequences_for_subsampling:
-    # Note: this rule should only be run if multiple inputs are being used (i.e. multiple origins)
+    # Similar to rule combine_input_metadata, this rule should only be run if multiple inputs are being used (i.e. multiple origins)
     message:
         """
-        Combine and deduplicate filtered FASTAs from multiple origins in preparation for subsampling.
-        TODO: does this work with preprocessed?
+        Combine and deduplicate aligned & filtered FASTAs from multiple origins in preparation for subsampling.
         """
     input:
-        expand("results/filtered{origin}.fasta", origin=[f"_{k}" for k in config["sequences"]])
+        lambda w: [_get_path_for_input("filtered", f"_{origin}") for origin in config.get("inputs", {})]
     output:
         "results/combined_sequences_for_subsampling.fasta"
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/combine-and-dedup-fastas.py \
-            --input {input} \
-            --output {output}
+        python3 scripts/combine-and-dedup-fastas.py --input {input} --output {output}
         """
 
 rule subsample:
@@ -453,7 +396,7 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = "results/filtered.fasta" if isinstance(config["sequences"], str) else "results/combined_sequences_for_subsampling.fasta",
+        sequences = _get_unified_alignment,
         metadata = _get_unified_metadata,
         include = config["files"]["include"],
         priorities = get_priorities,
@@ -503,7 +446,7 @@ rule proximity_score:
         genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
         """
     input:
-        alignment = "results/filtered.fasta" if isinstance(config["sequences"], str) else "results/combined_sequences_for_subsampling.fasta",
+        alignment = _get_unified_alignment,
         metadata = _get_unified_metadata,
         reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"

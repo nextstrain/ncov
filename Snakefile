@@ -31,19 +31,9 @@ import time
 user_subsampling = copy.deepcopy(config.get("subsampling", {}))
 
 configfile: "defaults/parameters.yaml"
-if "sequences" not in config: config["sequences"]=config["default_sequences"]
-if "metadata" not in config: config["metadata"]=config["default_metadata"]
 
 # Check config file for errors
 validate(config, schema="workflow/schemas/config.schema.yaml")
-try:
-    assert type(config["sequences"])==type(config["metadata"])
-    if isinstance(config["sequences"], dict):
-        # todo - this assertion could be relaxed as we combine multiple metadata files straight away...
-        assert sorted(list(config["sequences"].keys())) == sorted(list(config["metadata"].keys()))
-except AssertionError:
-    print("The specified sequences & metadata file(s) didn't match! They must both be strings or dictionaries (each with the same keys)")
-    sys.exit(2)
 
 # Check for overlapping subsampling schemes in user and default
 # configurations. For now, issue a deprecation warning, so users know they
@@ -123,6 +113,10 @@ include: "workflow/snakemake_rules/common.smk"
 # Include rules to handle primary build logic from multiple sequence alignment
 # to output of auspice JSONs for a default build.
 include: "workflow/snakemake_rules/main_workflow.smk"
+
+# Include rules to allow downloading of input-specific files from s3 buckets.
+# These have to be opted-into via config params.
+include: "workflow/snakemake_rules/download.smk"
 
 # Include a custom Snakefile that specifies `localrules` required by the user's
 # workflow environment.
