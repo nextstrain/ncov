@@ -27,6 +27,26 @@ rule download:
         config["metadata"],
         config["sequences"]
 
+rule index_sequences:
+    message:
+        """
+        Index sequence composition for faster filtering.
+        """
+    input:
+        sequences = config["sequences"]
+    output:
+        sequence_index = "results/sequence_index.tsv"
+    log:
+        "logs/index_sequences.txt"
+    benchmark:
+        "benchmarks/index_sequences.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur index \
+            --sequences {input.sequences} \
+            --output {output.sequence_index}
+        """
 
 rule excluded_sequences:
     message:
@@ -35,6 +55,7 @@ rule excluded_sequences:
         """
     input:
         sequences = config["sequences"],
+        sequence_index = "results/sequence_index.tsv",
         metadata = config["metadata"],
         include = config["files"]["exclude"]
     output:
@@ -46,6 +67,7 @@ rule excluded_sequences:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
 	    --min-length 50000 \
             --include {input.include} \
@@ -113,6 +135,7 @@ rule prefilter:
         """
     input:
         sequences = config["sequences"],
+        sequence_index = "results/sequence_index.tsv",
         metadata = config["metadata"],
     output:
         sequences = "results/prefiltered.fasta"
@@ -125,6 +148,7 @@ rule prefilter:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --min-length {params.min_length} \
             --output {output.sequences} 2>&1 | tee {log}
@@ -194,6 +218,7 @@ rule refilter:
         """
     input:
         sequences = "results/aligned.fasta",
+        sequence_index = "results/sequence_index.tsv",
         metadata = config["metadata"],
         exclude = "results/to-exclude.txt"
     output:
@@ -205,6 +230,7 @@ rule refilter:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --exclude {input.exclude} \
             --output {output.sequences} 2>&1 | tee {log}
@@ -248,6 +274,7 @@ rule filter:
         """
     input:
         sequences = "results/masked.fasta",
+        sequence_index = "results/sequence_index.tsv",
         metadata = config["metadata"],
         include = config["files"]["include"],
         exclude = config["files"]["exclude"]
@@ -266,6 +293,7 @@ rule filter:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --include {input.include} \
             --max-date {params.date} \
@@ -374,6 +402,7 @@ rule subsample:
         """
     input:
         sequences = "results/filtered.fasta",
+        sequence_index = "results/sequence_index.tsv",
         metadata = config["metadata"],
         include = config["files"]["include"],
         priorities = get_priorities,
@@ -382,6 +411,8 @@ rule subsample:
         sequences = "results/{build_name}/sample-{subsample}.fasta"
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
+    benchmark:
+        "benchmarks/subsample_{build_name}_{subsample}.txt"
     params:
         group_by = _get_specific_subsampling_setting("group_by"),
         sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
@@ -399,6 +430,7 @@ rule subsample:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --include {input.include} \
             --exclude {input.exclude} \
