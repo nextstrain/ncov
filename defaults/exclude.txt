@@ -1419,3 +1419,6 @@ Belgium/rega-2110/2020
 
 # misdated, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612984051246700
 NorthMacedonia/30272/2021
+
+# excess divergence
+Israel/CVL-n25783/2020
