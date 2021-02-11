@@ -1394,3 +1394,31 @@ Lebanon/S7_763/2020
 Spain/PV-ISCIII-201385/2020
 Tunisia/4874/2020
 Australia/QLD1278/2020
+
+# https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612397736150800
+Egypt/CCHE57357-A-91/2020
+Morocco/RA85/2020
+Taiwan/TSGH-28/2020
+India/UT-AR50/2020
+Italy/LOM-UniMI02/2020
+Romania/ROSV_3316/2020
+Spain/RI-IBV-99010963/2020
+
+# throwing off the dating of clade 20B; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612477096194500
+Mexico/VER-InDRE_111/2020
+Mexico/VER-InDRE_112/2020
+
+# https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612578967204200?thread_ts=1612570323.203300&cid=CTZKJC7PZ
+Brazil/CE-IEC-177339/2020
+Germany/SL-SU-10450744/2020
+Panama/336044/2020
+Luxembourg/LNS6911797/2020
+
+# https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612536640198200
+Belgium/rega-2110/2020
+
+# misdated, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1612984051246700
+NorthMacedonia/30272/2021
+
+# excess divergence
+Israel/CVL-n25783/2020
