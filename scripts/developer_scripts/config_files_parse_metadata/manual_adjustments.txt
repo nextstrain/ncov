@@ -98,3 +98,5 @@ North Macedonia/Kochani/Kochani/	Europe/North Macedonia/Eastern Region/Kochani
 South America/French Guiana/Cayenne/	Europe/France/French Guiana/Cayenne GF
 North Macedonia/Kavadarci/Kavadarci/	Europe/North Macedonia/Kavadarci/Kavadarci
 Europe/Belgium/Niewerkerken/	Europe/Belgium/Hasselt/Nieuwerkerken
+Europe/Portugal/Montemor-O-Nov/	Europe/Portugal/Évora/Montemor-o-Novo
+Europe/Portugal/Sobral de Monte Agrac*/	Europe/Portugal/Lisbon/Sobral de Monte Agraço

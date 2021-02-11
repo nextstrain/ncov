@@ -229,3 +229,32 @@ Kumanovo	Northeastern Region
 Fleron	Liège
 Marchinne-Au-Pont	Charleroi
 Cape Town	Western Cape Province
+Almada	Setúbal
+Barreiro	Setúbal
+Montijo	Setúbal
+Alcacer do Sal	Setúbal
+Grandola	Setúbal
+Moita	Setúbal
+Sesimbra	Setúbal
+Alcochete	Setúbal
+Seixal	Setúbal
+Palmela	Setúbal
+Peniche	Leiria
+Alcobaca	Leiria
+Caldas Da Rainha	Leiria
+Obidos	Leiria
+Cascais	Lisbon
+Arneiro	Lisbon
+Torres Vedras	Lisbon
+Sintra	Lisbon
+Amadora	Lisbon
+Mafra	Lisbon
+Odivelas	Lisbon
+Lourinha	Lisbon
+Oeiras	Lisbon
+Loures	Lisbon
+Vila Franca de Xira	Lisbon
+Rio Maior	Santarem
+Almeirim	Santarem
+Torres Novas	Santarem
+Benavente	Santarem

@@ -828,6 +828,7 @@ location	Al Matariyyah
 ### Mozambique
 # Maputo
 location	Katembe
+location	Maputo City
 location	Polana Canico
 location	Mavalane
 location	Bagamoio
@@ -835,6 +836,9 @@ location	Marracuene
 
 # Gaza
 location	Xai Xai
+
+# Inhambane
+location	Inhambane
 
 # Sofala
 location	Beira
@@ -860,33 +864,68 @@ location	Fenoarivo
 # Beja
 location	Santa Clara de Louredo
 
+# Setúbal
+location	Almada
+location	Seixal
+location	Sesimbra
+location	Barreiro
+location	Moita
+location	Alcochete
+location	Palmela
+location	Montijo
+location	Grandola
+location	Alcacer do Sal
+
+# Évora
+location	Montemor-o-Novo
+
 # Lisbon
-location	Corroios
-location	Aguas livres
-location	São Domingos da Benfica
-location	Buraca
-location	Damaia de Cima
-location	Reboleira
-location	Massama
-location	Queluz
-location	Amadora
-location	Monte Abrão
-location	Pontinha
-location	Encosta de Sol
+location	Arneiro
+location	Cova da Moura
+location	Cascais
+location	Sintra
+location	Algueirão-Mem Martins
+location	Mafra
+location	Rio de Mouro
 location	Cacem
 location	Agualva
-location	Rio de Mouro
-location	Sacavem
-location	Algueirão-Mem Martins
-location	Casal de Cambra
-location	Ramada
+location	Massama
+location	Torres Vedras
+location	Lourinha
+location	Oeiras
+location	Monte Abrão
 location	Almargem do Bispo
-location	Cova da Moura
+location	Queluz
+location	Casal de Cambra
+location	Reboleira
+location	Amadora
+location	Damaia de Cima
+location	Encosta de Sol
+location	Buraca
+location	Pontinha
+location	Ramada
+location	São Domingos da Benfica
+location	Odivelas
+location	Loures
+location	Corroios
+location	Aguas livres
+location	Sacavem
+location	Vila Franca de Xira
 location	Santa Maria dos Olivais
 location	Seia
 
 # Santarem
+location	Benavente
+location	Almeirim
 location	Santarem
+location	Rio Maior
+location	Torres Novas
+
+# Leiria
+location	Peniche
+location	Obidos
+location	Caldas Da Rainha
+location	Alcobaca
 
 # Coimbra
 location	Penacova
@@ -1264,6 +1303,7 @@ location	Olleria
 location	Massalaves
 location	Carlet
 location	Segorbe
+location	Alicante
 location	Guadassuar
 location	Alginet
 location	Torrent
@@ -1558,6 +1598,7 @@ location	Maisons Alfort
 location	Montreuil
 location	Bobigny
 location	Villeneuve-Saint-Georges
+location	Creteil
 location	Aulnay Sous Bois
 location	Bry sur Marne
 location	Seine-Port
@@ -1753,6 +1794,7 @@ location	Poperinge
 location	Vlamertinge
 location	Langemark-Poelkapelle
 location	Langemark
+location	Zonnebeke
 location	Wervik
 location	Geluwe
 
@@ -1770,11 +1812,13 @@ location	De Haan
 # Roeselare
 location	Staden
 location	Hooglede
+location	Ledegem
 location	Lichtervelde
 location	Izegem
 
 # Brugge
 location	Torhout
+location	Ruddervoorde
 location	Aartrijke
 location	Zedelgem
 location	Oostkamp
@@ -1804,6 +1848,7 @@ location	Anzegem
 # Tielt
 location	Ardooie
 location	Wingene
+location	Pittem
 location	Meulebeke
 location	Oostrozebeke
 location	Wielsbeke
@@ -2132,6 +2177,7 @@ location	Bonheiden
 location	Lier
 location	Onze-Lieve-Vrouw-Waver
 location	Koningshooikt
+location	Kessel
 location	Putte
 location	Berlaar
 location	Nijlen
@@ -2607,28 +2653,29 @@ location	Bielefeld
 location	Hannover
 
 # Baden-Wuerttemberg
-location	Bad Säckingen
-location	Grenzach-Wyhlen
 location	Weil Am Rhein
-location	Lörrach
-location	Rickenbach
 location	Rümmingen
-location	Steinen
-location	Konstanz
+location	Lörrach
+location	Grenzach-Wyhlen
 location	Bad Krozingen
-location	Tuttlingen
+location	Steinen
 location	Freiburg
-location	Pfaffenweiler
-location	Villingen-Schwenningen
-location	Sigmaringen
-location	Rottweil
-location	Tuebingen
-location	Gaufelden
+location	Bad Säckingen
+location	Rickenbach
 location	Buehl
-location	Muehlacker
-location	Oftersheim
-location	Heidelberg
+location	Pfaffenweiler
 location	Mannheim
+location	Villingen-Schwenningen
+location	Oftersheim
+location	Rottweil
+location	Heidelberg
+location	Tuttlingen
+location	Gaufelden
+location	Muehlacker
+location	Tuebingen
+location	Konstanz
+location	Sigmaringen
+location	Ulm
 
 # Hesse
 location	Wiesbaden
@@ -2709,12 +2756,13 @@ location	Autonomous Province of Trento
 location	Autonomous Province of Bolzano
 
 # Veneto
-location	Rovigo
-location	Padova
 location	Verona IT
 location	Vicenza
-location	Treviso
+location	Padova
 location	Belluno
+location	Treviso
+location	Rovigo
+location	Venezia
 
 # Lazio
 location	Rome
@@ -2986,6 +3034,13 @@ location	Cesky Tesin
 
 ### Poland
 # Wielkopolskie
+location	Tarnowo Podgorne
+location	Sierosław
+location	Plewiska
+location	Oborniki
+location	Lubon
+location	Czapury
+location	Poznan
 location	Kalisz
 
 # Łódzkie
@@ -3463,6 +3518,8 @@ location	Loncopue
 location	Las Lajas
 location	Zapala
 location	Cutral Co
+location	Centenario
+location	Senillosa
 location	Plottier
 location	Neuquen
 
@@ -4518,6 +4575,7 @@ location	Omaha
 
 # Texas
 location	El Paso County
+location	Presidio County
 location	Brewster County
 location	Bailey County
 location	Pecos County
@@ -4755,18 +4813,30 @@ location	Hamilton County IL
 location	White County
 location	Perry County IL
 location	Monroe County IL
+location	Washington County IL
 location	St. Clair County IL
 location	Clinton County IL
 location	Madison County IL
 location	Bond County
 location	Fayette County IL
 location	Clark County IL
+location	Morgan County IL
+location	Douglas County IL
+location	Cass County IL
+location	Adams County IL
+location	Schuyler County
 location	Hancock County
+location	McDonough County
+location	Fulton County IL
+location	Peoria County
+location	Warren County IL
 location	Kankakee County
+location	Bureau County
 location	Will County
 location	Rock Island County
 location	Kendall County IL
 location	Lee County IL
+location	Whiteside County
 location	Cook County
 location	Chicago
 location	Dupage County
@@ -4777,6 +4847,7 @@ location	Ogle County IL
 location	Boone County
 location	Winnebago County IL
 location	Mchenry County
+location	McHenry County
 location	Lake County IL
 location	Stephenson County
 location	Jo Daviess County
@@ -5592,6 +5663,7 @@ division	Kongo Central
 division	Kisantu
 division	Kinshasa
 division	Democratic Republic of the Congo
+division	Lualaba
 division	Haut-Katanga
 division	Sud Kivu
 division	Nord Kivu
@@ -5680,9 +5752,13 @@ division	Reykjavik
 
 ### Portugal
 division	Beja
+division	Setúbal
+division	Évora
 division	Lisbon
+division	Sobral de Monte AgracO
 division	Santarem
 division	Portugal
+division	Leiria
 division	Coimbra
 
 ### Ireland
