@@ -937,6 +937,14 @@ location	Limerick City
 ### Spain
 # Canary Islands
 location	Adeje
+location	La Aldea de San Nicolas
+location	Agaete
+location	Galdar
+location	Santa Maria de Guia de Gran Canaria
+location	Moya
+location	Teror
+location	Arucas
+location	Santa Brigida
 location	Las Palmas de Gran Canaria
 location	Lanzarote
 
@@ -1296,6 +1304,8 @@ location	Villena
 location	Monovar
 location	Elda
 location	Novelda
+location	Elche
+location	Torrevieja
 location	Antella
 location	Llombai
 location	La Pobla de Vallbona
@@ -1342,6 +1352,7 @@ location	Sagunt
 location	Tavernes de la Valldigna
 location	Cullera
 location	Grau de Sagunt
+location	Villajoyosa
 location	El Dosel
 location	Palma de Gandia
 location	Canet d'en Berenguer
@@ -1365,6 +1376,7 @@ location	Manresa
 location	Berga
 location	Navas
 location	Vallirana
+location	Sant Andreu de la Barca
 location	Castellbisbal
 location	Terrassa
 location	Santa Coloma de Cervello
@@ -4846,7 +4858,6 @@ location	Ogle County
 location	Ogle County IL
 location	Boone County
 location	Winnebago County IL
-location	Mchenry County
 location	McHenry County
 location	Lake County IL
 location	Stephenson County

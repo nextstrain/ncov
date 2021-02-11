@@ -19,6 +19,7 @@ location	Adeje	28.1219416	-16.7241893
 location	Adilabad	19.5	78.5
 location	Aesch	47.4682447	7.5980395
 location	Affligem	50.9035063	4.1174675
+location	Agaete	28.1008499	-15.7023479
 location	Agargaon	23.7792	90.3737
 location	Agoncillo	42.4451704	-2.2913654
 location	Agra	27.1752554	78.0098161
@@ -181,6 +182,7 @@ location	Arraiján	8.98985635	-79.6793266702984
 location	Arroio do Meio	-29.4020392	-51.9444993
 location	Arroyo de la Luz	39.4840338	-6.5845773
 location	Artajona	42.5876058	-1.7644227
+location	Arucas	28.1184492	-15.5232237
 location	As Seeb	23.6821956	58.1843842
 location	Asbest	57.0052746	61.4580765
 location	Aserri	9.865508	-84.091553
@@ -1061,6 +1063,7 @@ location	El Torno	-17.9980974	-63.387676488747985
 location	El Villar de Arnedo	42.318377	-2.093425
 location	Elad	32.0495306	34.9507087
 location	Elbigenalp	47.289202	10.434541
+location	Elche	38.2653307	-0.6988391
 location	Elda	38.4765	-0.7966
 location	Elektrostal	55.7903785	38.4405711
 location	Elista	46.306999	44.270187
@@ -1229,6 +1232,7 @@ location	Fuzhou	27.965633	116.359573
 location	Ga-Segonyana	-27.634241453568887	23.592402142666945
 location	Gadwal	16.2347032	77.7946371
 location	Galapagar	40.5774992	-4.0037748
+location	Galdar	28.1442408	-15.6542506
 location	Gales Ferry	41.4298302	-72.0820131
 location	Gallatin County	37.7509507	-88.2264519
 location	Galtür	46.919455400000004	10.170590352537147
@@ -1878,6 +1882,7 @@ location	Kynice	49.7392	15.3601
 location	Kyoto	35.007542	135.768455
 location	L'Aquila	42.360082	13.391087
 location	L'Hospitalet de Llobregat	41.3598601	2.0997927
+location	La Aldea de San Nicolas	27.9827393	-15.779715
 location	La Baneza	42.2998096	-5.8970081
 location	La Brède	44.6811652	-0.5279844
 location	La Carrera de Otero	42.5099199	-6.0425563
@@ -2243,7 +2248,6 @@ location	Mccracken County	37.0335839	-88.7107201
 location	McCulloch County	31.1699604	-99.3885277
 location	McDonough County	40.4376858	-90.6780272
 location	McHenry County	42.3294391	-88.4605713
-location	Mchenry County	42.3294391	-88.4605713
 location	Mclennan County	31.5487691	-97.2189254
 location	Meaux	48.9582708	2.8773541
 location	Medellin	6.254779	-75.578125
@@ -2403,6 +2407,7 @@ location	Mount-Vernon	41.851953	-72.440345
 location	Mouscron	50.738645	3.23861
 location	Moussy Le Neuf	49.065806	2.601697
 location	Moutier	47.2796142	7.3704192
+location	Moya	28.1107662	-15.583223
 location	Mozyr	52.0475464	29.2667179
 location	Muehlacker	48.9487272	8.8492931
 location	Muelheim	51.4272925	6.8829192
@@ -3207,6 +3212,7 @@ location	Sangalkam	14.779304	-17.228261
 location	Sangareddy	17.86859205	77.8228199507381
 location	Sangli	16.8502534	74.5948885
 location	Sant Adria del Besos	41.4204568	2.2234134
+location	Sant Andreu de la Barca	41.4518183	1.972476
 location	Sant Andreu de Llavaneres	41.5739524	2.4828158
 location	Sant Antoni de Vilamajor	41.6735604	2.4012202
 location	Sant Celoni	41.6895041	2.4914526
@@ -3222,6 +3228,7 @@ location	Santa Ana PA	8.95708125	-79.53856710744475
 location	Santa Barbara County	34.7136533	-119.9858232
 location	Santa Barbara D'Oeste	-22.7542539	-47.4137884
 location	Santa Barbara de Goias	-16.5779125	-49.6982268
+location	Santa Brigida	28.035684	-15.4974676
 location	Santa Clara County	37.236094	-121.683399
 location	Santa Clara de Louredo	37.9701683	-7.8720098
 location	Santa Coloma de Cervello	41.3687006	2.0174512
@@ -3236,6 +3243,7 @@ location	Santa Isabel	-23.3194222	-46.2271903
 location	Santa Margalida	39.7033676	3.1026602
 location	Santa Maria	-29.6860512	-53.8069214
 location	Santa Maria de Cayon	43.30976	-3.85548
+location	Santa Maria de Guia de Gran Canaria	28.1390522	-15.6318282
 location	Santa Maria del Camino	39.6705	2.7680
 location	Santa Maria dos Olivais	39.60115745	-8.384718083003463
 location	Santa Marta	11.234638	-74.192698
@@ -3601,6 +3609,7 @@ location	Teplice	50.6406644	13.8244461
 location	Teramo	42.661036	13.710926
 location	Teresopolis	-22.4170	-42.9756
 location	Terezina	-5.0896403	-42.809588
+location	Teror	28.0590002	-15.5475653
 location	Terrassa	41.5629885	2.0102442
 location	Terry County	33.1514254	-102.3328121
 location	Tertre	50.466483	3.811510
@@ -3673,6 +3682,7 @@ location	Torres BR	-29.3373663	-49.7299648
 location	Torres De Elorz	42.733599	-1.596477
 location	Torres Novas	39.5147503	-8.562223320605705
 location	Torres Vedras	39.11014835	-9.276731117530929
+location	Torrevieja	37.9775416	-0.6828446
 location	Tosno	59.5412777	30.8773645
 location	Totoras	-32.5842697	-61.1667933
 location	Touba	14.864559	-15.876047
@@ -3854,6 +3864,7 @@ location	Villa Maria	-32.41964350402729	-63.240765153914566
 location	Villa Ocampo	-28.4839542	-59.3469032
 location	Villach	46.6167284	13.8500268
 location	Village-Neuf	47.6054816	7.5696755
+location	Villajoyosa	38.5064035	-0.2309882
 location	Villamediana de Iregua	42.4259906	-2.4187939
 location	Villanueva de la Jara	39.4403	-1.9551
 location	Villanueva de la Vera	40.1290938	-5.4620958
