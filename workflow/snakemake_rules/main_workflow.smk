@@ -18,6 +18,27 @@ rule combine_input_metadata:
         python3 scripts/combine_metadata.py --metadata {input.metadata} --origins {params.origins} --output {output.metadata} 2>&1 | tee {log}
         """
 
+rule index_sequences:
+    message:
+        """
+        Index sequence composition for faster filtering.
+        """
+    input:
+        sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin)
+    output:
+        sequence_index = "results/sequence_index{origin}.tsv"
+    log:
+        "logs/index_sequences{origin}.txt"
+    benchmark:
+        "benchmarks/index_sequences{origin}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur index \
+            --sequences {input.sequences} \
+            --output {output.sequence_index}
+        """
+
 rule excluded_sequences:
     message:
         """
@@ -25,6 +46,7 @@ rule excluded_sequences:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
+        sequence_index = "results/sequence_index{origin.tsv}",
         metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         include = config["files"]["exclude"]
     output:
@@ -36,6 +58,7 @@ rule excluded_sequences:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
 	        --min-length 50000 \
             --include {input.include} \
@@ -106,6 +129,7 @@ rule prefilter:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
+        sequence_index = "results/sequence_index{origin}.tsv",
         metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
     output:
         sequences = "results/prefiltered{origin}.fasta"
@@ -118,6 +142,7 @@ rule prefilter:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --min-length {params.min_length} \
             --output {output.sequences} 2>&1 | tee {log}
@@ -188,6 +213,7 @@ rule refilter:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
+        sequence_index = "results/sequence_index{origin}.tsv",
         metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         exclude = lambda wildcards: _get_path_for_input("to-exclude", wildcards.origin),
     output:
@@ -199,6 +225,7 @@ rule refilter:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --exclude {input.exclude} \
             --output {output.sequences} 2>&1 | tee {log}
@@ -253,6 +280,7 @@ rule filter:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
+        sequence_index = "results/sequence_index{origin}.tsv",
         metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
@@ -272,6 +300,7 @@ rule filter:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --include {input.include} \
             --max-date {params.date} \
@@ -389,6 +418,27 @@ rule combine_sequences_for_subsampling:
         python3 scripts/combine-and-dedup-fastas.py --input {input} --output {output}
         """
 
+rule index_combined_sequences:
+    message:
+        """
+        Index combined sequences prior to subsampling.
+        """
+    input:
+        sequences = "results/combined_sequences_for_subsampling.fasta"
+    output:
+        sequence_index = "results/combined_sequence_index.tsv"
+    log:
+        "logs/index_combined_sequences.txt"
+    benchmark:
+        "benchmarks/index_combined_sequences.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur index \
+            --sequences {input.sequences} \
+            --output {output.sequence_index}
+        """
+
 rule subsample:
     message:
         """
@@ -407,6 +457,7 @@ rule subsample:
         """
     input:
         sequences = _get_unified_alignment,
+        sequence_index = _get_unified_sequence_index,
         metadata = _get_unified_metadata,
         include = config["files"]["include"],
         priorities = get_priorities,
@@ -415,6 +466,8 @@ rule subsample:
         sequences = "results/{build_name}/sample-{subsample}.fasta"
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
+    benchmark:
+        "benchmarks/subsample_{build_name}_{subsample}.txt"
     params:
         group_by = _get_specific_subsampling_setting("group_by", optional=True),
         sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
@@ -432,6 +485,7 @@ rule subsample:
         """
         augur filter \
             --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --include {input.include} \
             --exclude {input.exclude} \

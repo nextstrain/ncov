@@ -110,6 +110,14 @@ def _get_unified_alignment(wildcards):
         return _get_path_for_input("filtered", "_"+list(config["inputs"].keys())[0])
     return "results/combined_sequences_for_subsampling.fasta",
 
+def _get_unified_sequence_index(wildcards):
+    if not config.get("inputs"):
+        return f"results/sequence_index.tsv"
+    elif len(list(config["inputs"].keys())) == 1:
+        return f"results/sequence_index{wildcards.origin}.tsv"
+
+    return "results/combined_sequence_index.tsv"
+
 def _get_metadata_by_build_name(build_name):
     """Returns a path associated with the metadata for the given build name.
 
