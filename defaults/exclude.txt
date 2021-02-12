@@ -1422,3 +1422,6 @@ NorthMacedonia/30272/2021
 
 # excess divergence
 Israel/CVL-n25783/2020
+
+# https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1613088026264700
+Belgium/AZDelta12-22124_S13/2021
