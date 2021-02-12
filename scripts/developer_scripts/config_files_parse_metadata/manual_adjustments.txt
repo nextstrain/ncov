@@ -100,3 +100,9 @@ North Macedonia/Kavadarci/Kavadarci/	Europe/North Macedonia/Kavadarci/Kavadarci
 Europe/Belgium/Niewerkerken/	Europe/Belgium/Hasselt/Nieuwerkerken
 Europe/Portugal/Montemor-O-Nov/	Europe/Portugal/Évora/Montemor-o-Novo
 Europe/Portugal/Sobral de Monte Agrac*/	Europe/Portugal/Lisbon/Sobral de Monte Agraço
+Afirica/Morocoo/Ouarzazate/	Africa/Morocco/Ouarzazate/
+North America/Caribbean/Barbados/	North America/Barbados/Barbados/
+North America/Caribbean/British Virgin Islands/	Europe/United Kingdom/British Virgin Islands/
+North America/USA/California/Alexandria, Va County	North America/USA/Virginia/Alexandria
+Europe/Belgium/S Herenelderen/	Europe/Belgium/Limburg/'s Herenelderen
+Europe/Belgium/Gnoelselderen/	Europe/Belgium/Limburg/Genoelselderen

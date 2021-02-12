@@ -90,3 +90,5 @@ Santo Domingo de los Tsachilas	EC
 Meta	CO
 Tierra del Fuego	AR
 Goiás	BR
+Mechelen	BE
+Limburg	NL

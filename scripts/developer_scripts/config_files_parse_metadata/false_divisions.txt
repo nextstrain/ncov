@@ -258,3 +258,10 @@ Rio Maior	Santarem
 Almeirim	Santarem
 Torres Novas	Santarem
 Benavente	Santarem
+Roermond	Limburg
+Gelbressee	Namur
+Boignee	Namur
+Evelette	Namur
+Ougree	Liège
+Avissawella	Western Province
+Dambulla	Central Province
