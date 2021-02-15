@@ -6,7 +6,7 @@ custom_rules:
 
 nextalign_bin: "nextalign"
 genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
-use_nextalign: false
+use_nextalign: true
 
 S3_BUCKET: "nextstrain-ncov-private"
 
