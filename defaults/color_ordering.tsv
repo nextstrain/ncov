@@ -731,6 +731,10 @@ location	Dano
 # Greater Accra
 location	Accra
 
+### Togo
+# Golfe
+location	Lome
+
 ### Tunisia
 # Medenine
 location	Djerba
@@ -2124,6 +2128,7 @@ location	Brecht
 location	Zandhoven
 location	Zoersel
 location	Sint-Lenaarts
+location	Pulle
 location	Malle
 location	Oostmalle
 
@@ -2150,6 +2155,7 @@ location	Sint-Stevens-Woluwe
 location	Diegem
 location	Machelen
 location	Kraainem
+location	Zemst
 location	Zaventem
 location	Sterrebeek
 location	Hoeilaart
@@ -2408,7 +2414,9 @@ location	Bommershoven
 location	Kortessem
 location	Beverst
 location	Hoeselt
+location	's Herenelderen
 location	Bilzen
+location	Genoelselderen
 location	Riemst
 location	Gellik
 location	Lanaken
@@ -2460,10 +2468,6 @@ location	Kelmis
 location	Malmedy
 location	Eupen
 location	Büllingen
-
-# Limburg
-location	's Herenelderen
-location	Genoelselderen
 
 ### Netherlands
 # St Eustatius
@@ -3585,9 +3589,18 @@ location	Ushuaia
 location	Rio Grande AR
 
 # Rio Negro
+location	Patagones
+location	Jacobacci
 location	San Carlos de Bariloche
 location	Cipolletti
+location	Catriel
 location	General Roca
+location	Villa Regina
+location	Chinchinales
+location	Allen
+location	San Antonio Este
+location	General Conesa
+location	Viedma
 
 # Neuquen
 location	Villa la Angostura
@@ -3760,6 +3773,7 @@ location	Manacapuru
 location	Manaquiri
 location	Iranduba
 location	Manaus
+location	Nova Holinda
 
 # Rondonia
 location	Jaru
@@ -3783,8 +3797,10 @@ location	Vista Gaucha
 location	Cruz Alta
 location	Cacapava do Sul
 location	Frederico Westphalen
+location	Estrela Velha
 location	Saldanha Marinho
 location	Ibiruba
+location	Novo Cabrais
 location	Cachoeira do Sul
 location	Não-Me-Toque
 location	Carazinho
@@ -3804,6 +3820,7 @@ location	Arroio do Meio
 location	Bom Retiro do Sul
 location	Serafina Correa
 location	São Domingos do Sul
+location	Taquari
 location	Teutonia
 location	Nova Araça
 location	Garibaldi
@@ -3828,6 +3845,8 @@ location	Cachoeirnha
 location	Morro Reuter
 location	Viamao
 location	Sapiranga
+location	Gramado
+location	Parobe
 location	Taquara
 location	Santo Antonio Da Patrulha
 location	Osorio
@@ -3888,17 +3907,24 @@ location	Taciba
 location	Adamantina
 location	Taruma
 location	Auriflama
+location	Tupa
 location	Araçatuba
 location	Assis
 location	Candido Mota
 location	Herculandia
 location	Birigui
 location	Fernandopolis
+location	Echapora
 location	Marilia
 location	Ribeirao do Sul
+location	Ourinhos
+location	Santa Cruz do Rio Pardo
+location	Aguas de Santa Barbara
+location	Jau
 location	Cajati
 location	Cesário Lange
 location	Sete Barras
+location	Pariquera-Acu
 location	Ribeirao Preto
 location	Piracicaba
 location	Juquia
@@ -4594,6 +4620,7 @@ location	Yuba County
 location	Sacramento County
 location	San Joaquin County
 location	Monterey County CA
+location	San Benito County
 location	Stanislaus County
 location	Nevada County
 location	Merced County
@@ -4778,8 +4805,10 @@ location	Stearns County
 location	Pine County
 
 # Iowa
+location	Polk County IA
 location	Howard County
 location	Chickasaw County
+location	Bremer County
 location	Buchanan County
 location	Fayette County IA
 location	Winneshiek County
@@ -4827,10 +4856,13 @@ location	St. Louis MO
 
 # Wisconsin
 location	Crawford County
+location	Saint Croix County
 location	Polk County WI
 location	Pierce County WI
 location	Burnett County
 location	Pepin County
+location	Douglas County WI
+location	Dunn County
 location	Barron County
 location	Washburn County
 location	Buffalo County
@@ -4849,6 +4881,7 @@ location	Clark County WI
 location	Taylor County WI
 location	Richland County WI
 location	Price County
+location	Iron County
 location	Lafayette County
 location	Iowa County WI
 location	Juneau County
@@ -4861,6 +4894,7 @@ location	Green County
 location	Dane County
 location	Verona WI
 location	Portage County
+location	Oneida County WI
 location	Vilas County
 location	Marquette County
 location	Oregon WI
@@ -4895,6 +4929,7 @@ location	Port Washington
 location	South Milwaukee
 location	Manitowoc County
 location	Racine County
+location	Kewaunee County
 location	Door County
 
 # Illinois
@@ -5134,7 +5169,7 @@ location	Broome County
 location	Madison County NY
 location	Chenango County
 location	Lewis County NY
-location	Oneida County
+location	Oneida County NY
 location	St. Lawrence County
 location	Otsego County
 location	Delaware County
@@ -5678,6 +5713,7 @@ division	Volta
 division	Ghana
 
 ### Togo
+division	Golfe
 division	Togo
 
 ### Benin
@@ -5826,6 +5862,7 @@ division	Cabo Delgado
 
 ### Tanzania
 division	Tanzania
+division	Arusha
 
 ### Kenya
 division	Kwale
@@ -5920,6 +5957,7 @@ division	Catalunya
 division	Balear Islands
 
 ### United Kingdom
+division	Cayman Islands
 division	British Virgin Islands
 division	Northern Ireland
 division	Gibraltar
@@ -6000,7 +6038,6 @@ division	Liège
 division	Maaseik
 division	Arlon
 division	Verviers
-division	Limburg
 
 ### Netherlands
 division	St Eustatius
@@ -6105,6 +6142,7 @@ division	Europe
 ### Italy
 division	Valle D'Aosta
 division	Piedmont
+division	Liguria
 division	Sardinia
 division	Lombardy
 division	Trentino
@@ -6401,12 +6439,14 @@ division	Mioveni
 division	Valcea
 division	Teleorman
 division	Giurgiu
+division	Covasna
 division	Ploiesti
 division	Prahova
 division	Bucharest
 division	Ilfov
 division	Suceava
 division	Buzau
+division	Calarasi
 division	Ialomița
 division	Constanta
 division	Tulcea
@@ -6452,9 +6492,12 @@ division	Balti
 division	Soroca
 
 ### Ukraine
+division	Uzhgorod
 division	Ivano-Frankivsk
 division	Volyn
 division	Chernivtsi
+division	Rivne
+division	Vinnytsia
 division	Kyiv
 division	Ukraine
 division	Crimea

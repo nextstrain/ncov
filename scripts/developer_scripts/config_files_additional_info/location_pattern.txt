@@ -25,3 +25,4 @@ Patient resident in XXX
 Patient resident in XXX.
 Lives in the XXX
 Patient resides in XXX
+Patient from XXX transferred to Rio Grande do Sul State to receive hospital care

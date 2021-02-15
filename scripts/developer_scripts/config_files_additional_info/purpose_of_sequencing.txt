@@ -32,3 +32,4 @@ Not Screened for S gene dropout	Not S dropout
 Not Screened for S Gene dropout	Not S dropout
 Not Screened for the S Gene Dropout	Not S dropout
 SGTF screening	S dropout
+Screened for Variants of Concern (VoC) with C19-SPAR-Seq	S dropout
