@@ -123,16 +123,22 @@ rule deploy_to_staging:
         fi
         """
 
+def _get_upload_files(w):
+    uploads =[ rules.mask.output.alignment,
+               rules.align.output.alignment,
+               rules.filter.output.sequences,
+               "results/sequence-diagnostics.tsv",
+               "results/flagged-sequences.tsv",
+               "results/to-exclude.txt"]
+    if config['use_nextalign']:
+        uploads.append("results/mutation_summary.tsv")
+
+    return uploads
+
+
 rule upload:
     message: "Uploading intermediate files to {params.s3_bucket}"
-    input:
-        rules.mask.output.alignment,
-        rules.align.output.alignment,
-        rules.filter.output.sequences,
-	"results/mutation_summary.tsv",
-        "results/sequence-diagnostics.tsv",
-        "results/flagged-sequences.tsv",
-        "results/to-exclude.txt"
+    input: _get_upload_files
     params:
         s3_bucket = _get_first(config, "S3_DST_BUCKET", "S3_BUCKET"),
         compression = config["preprocess"]["compression"]
