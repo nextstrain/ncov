@@ -1713,14 +1713,17 @@ location	Chalon sur Saone
 location	Dijon
 location	Besancon
 location	Thise
+location	Brognard
 location	Montreux-Chateau
 
 # Grand Est
+location	Romilly sur Seine
 location	Bezannes
 location	Reims
 location	La Chapelle-Saint-Luc
 location	Troyes
 location	Champagne Ardenne
+location	Vitry le Francois
 location	Charleville-Mezieres
 location	Saint Dizier
 location	Gondrecourt-le-Chateau
@@ -1734,6 +1737,7 @@ location	Woippy
 location	Montigny Les Metz
 location	Maizières Les Metz
 location	Maxeville
+location	Thionville
 location	Vandoeuvre-Les-Nancy
 location	Talange
 location	Metz
@@ -1993,6 +1997,7 @@ location	Le Roeulx
 location	Braine-le-Comte
 location	Hennuyères
 location	Écaussinnes
+location	Manage
 location	Bellecourt
 location	Seneffe
 
@@ -2285,6 +2290,7 @@ location	Kortenaken
 location	Waasmont
 location	Diest
 location	Landen BE
+location	Walshoutem
 location	Zoutleeuw
 location	Geetbets
 location	Rummen
@@ -2330,10 +2336,14 @@ location	Havelange
 location	Beerse
 location	Grobbendonk
 location	Meer
+location	Bouwel
 location	Hoogstraten
+location	Herenthout
+location	Minderhout
 location	Rijkevorsel
 location	Vorselaar
 location	Hulshout
+location	Meerle
 location	Lille BE
 location	Ramsel
 location	Herentals
@@ -2345,9 +2355,11 @@ location	Olen
 location	Geheul
 location	Oevel
 location	Westerlo
+location	Baarle-Hertog
 location	Kasterlee
 location	Veerle
 location	Geel
+location	Weelde
 location	Laakdal
 location	Oud-Turnhout
 location	Ravels
@@ -2363,6 +2375,7 @@ location	Mol
 # Huy
 location	Burdinne
 location	Couthuin
+location	Moha
 location	Wanze
 location	Antheit
 location	Amay
@@ -2376,6 +2389,8 @@ location	Lamine
 # Hasselt
 location	Tessenderlo
 location	Halen
+location	Gingelom
+location	Velm
 location	Ham
 location	Paal
 location	Lummen
@@ -2396,6 +2411,7 @@ location	Heusden-Zolder
 location	Zonhoven
 location	Diepenbeek
 location	Genk
+location	As
 location	Zutendaal
 
 # Marche-en-Famenne
@@ -2408,6 +2424,7 @@ location	Saint-Hubert
 location	Klein-Gelmen
 location	Batsheers
 location	Alken
+location	Heers
 location	Wellen
 location	Borgloon
 location	Bommershoven
@@ -2420,8 +2437,12 @@ location	Genoelselderen
 location	Riemst
 location	Gellik
 location	Lanaken
+location	Rekem
 location	Maasmechelen
 location	Eisden
+
+# Virton
+location	Valansart
 
 # Liège
 location	Bierset
@@ -2448,11 +2469,13 @@ location	Overpelt
 location	Neerpelt
 location	Peer
 location	Grote-Brogel
+location	Meeuwen-Gruitrode
 location	Kaulille
 location	Oudsbergen
 location	Bocholt
 location	Bree
 location	Dilsen-Stokkem
+location	Kinrooi
 
 # Arlon
 location	Sélange
@@ -3900,6 +3923,7 @@ location	Euclides Da Cunha Paulista
 location	Presidente Epitacio
 location	Presidente Venceslau
 location	Ouro Verde
+location	Estrela do Norte
 location	Santo Anastacio
 location	Emilianopolis
 location	Presidente Prudente
@@ -3921,6 +3945,7 @@ location	Ourinhos
 location	Santa Cruz do Rio Pardo
 location	Aguas de Santa Barbara
 location	Jau
+location	Araraquara
 location	Cajati
 location	Cesário Lange
 location	Sete Barras
@@ -3992,6 +4017,7 @@ location	Pindamonhangaba
 location	Caraguatatuba
 location	Sao Sebastiao
 location	Lorena
+location	Cahoeira Paulista
 location	Cunha
 
 # Rio de Janeiro
@@ -5411,10 +5437,13 @@ division	Kalutara
 division	Western Province
 division	Colombo
 division	Gampaha
+division	Kandy
 division	Central Province
 division	Matale
 division	Sri Lanka
 division	Vavuniya
+division	Mannar
+division	Kilinochchi
 
 ### Nepal
 division	Rolpa
@@ -5599,6 +5628,7 @@ division	Ishikawa
 division	Chubu
 division	Aichi
 division	Hokurikushinsyu
+division	Yamanashi
 division	Niigata
 division	Hokuriku
 division	Kanto
@@ -5789,7 +5819,13 @@ division	Wele Nzas
 division	Libreville
 
 ### Cameroon
+division	Douala
+division	Kribi
+division	Dschang
+division	Bafoussam
+division	Ebolowa
 division	Yaoundé
+division	Sangmelima
 division	Cameroon
 
 ### Republic of the Congo
@@ -6034,6 +6070,7 @@ division	Limburg BE
 division	Neufchâteau
 division	Tongeren
 division	Luxembourg BE
+division	Virton
 division	Liège
 division	Maaseik
 division	Arlon
@@ -6434,6 +6471,7 @@ division	Cluj Napoca
 division	Cluj
 division	Mures
 division	Romania
+division	Pitesti
 division	Arges
 division	Mioveni
 division	Valcea

@@ -192,9 +192,9 @@ Laakdal
 	Varendonk
 	Veerle
 	Vorst
-Lille
+Lille BE
 	Gierle
-	Lille
+	Lille BE
 	Poederlee
 	Wechelderzande
 Meerhout
@@ -1497,8 +1497,7 @@ Maaseik
 	Opoeteren
 Oudsbergen
 	Ellikom
-	Gruitrode
-	Meeuwen
+	Meeuwen-Gruitrode
 	Neerglabbeek
 	Opglabbeek
 	Wijshagen
@@ -1865,6 +1864,7 @@ Chiny
 	Les Bulles
 	Suxy
 	Termes
+	Valansart
 Étalle
 	Buzenol
 	Chantemelle

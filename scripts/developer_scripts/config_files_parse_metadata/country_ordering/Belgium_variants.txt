@@ -176,3 +176,7 @@ Brussels-Capital	Brussels
 Luxembourg	Luxembourg BE
 Flemish Brabant	Vlaams-Brabant
 East Flanders	Oost-Vlaanderen
+Sinttruiden	Sint-Truiden
+Dilsen-Stokken	Dilsen-Stokkem
+Pont-À-Celles	Pont-à-Celles
+Lille (Antwerpen)	Lille BE
