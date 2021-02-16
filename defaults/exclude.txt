@@ -1464,3 +1464,9 @@ Romania/B-1507/2021
 
 # wrong date
 USA/OH-UHTL-3/2020
+
+# over-diverged
+Lebanon/LAU-R43/2020
+
+# wrong date, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1613491136302100
+USA/CA-LACPHL-AF00294/2020
