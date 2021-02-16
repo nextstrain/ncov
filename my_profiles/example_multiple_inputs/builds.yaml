@@ -30,13 +30,11 @@ subsampling:
     # Use metadata key to include ALL from `input1`
     allFromAus:
       exclude: "--exclude-where 'aus!=yes'" # subset to sequences from input `aus`
-      group_by: year                        # needed for pipeline to work!
-      seq_per_group: 1000000                # needed for pipeline to work!
     # Proximity subsampling from `worldwide` input to provide context 
     worldwideContext:
       exclude: "--exclude-where 'aus=yes'" # i.e. subset to sequences _not_ from input `aus`
+      group_by: "year"    # NOTE: `augur filter` needs this to use `max_sequences` (TODO)
       max_sequences: 100
-      group_by: year                        # needed for pipeline to work!
       priorities:
         type: "proximity"
         focus: "allFromAus"

@@ -299,11 +299,11 @@ def _get_subsampling_settings(wildcards):
         if subsampling_settings.get("max_sequences") and subsampling_settings.get("seq_per_group"):
             raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' defines both `max_sequences` and `seq_per_group`, but these arguments are mutually exclusive. If you didn't define both of these settings, this conflict could be caused by using the same subsampling scheme name as a default scheme. In this case, rename your subsampling scheme, '{subsampling_scheme}', to a unique name (e.g., 'custom_{subsampling_scheme}') and run the workflow again.")
 
-        # If users have supplied neither `max_sequences` nor `seq_per_group`, we
+        # If users have defined `group_by` but supplied neither `max_sequences` nor `seq_per_group`, we
         # throw an error because the subsampling rule will still group by one or
         # more fields and the lack of limits on this grouping could produce
         # unexpected behavior.
-        if not subsampling_settings.get("max_sequences") and not subsampling_settings.get("seq_per_group"):
+        if subsampling_settings.get("group_by") and not subsampling_settings.get("max_sequences") and not subsampling_settings.get("seq_per_group"):
             raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' must define `max_sequences` or `seq_per_group`.")
 
     return subsampling_settings
@@ -329,6 +329,13 @@ def get_priority_argument(wildcards):
 
 
 def _get_specific_subsampling_setting(setting, optional=False):
+    # Note -- this function contains a lot of conditional logic because
+    # we have the situation where some config options must define the
+    # augur argument in their value, and some must not. For instance:
+    # subsamplingScheme -> sampleName -> group_by: year                            (`--group-by` is _not_ part of this value)
+    #                                 -> exclude: "--exclude-where 'country=USA'"  (`--exclude-where` IS part of this value)
+    # Since there are a lot of subsampling schemes out there, backwards compatability
+    # is important!                                 james hadfield, feb 2021
     def _get_setting(wildcards):
         if optional:
             value = _get_subsampling_settings(wildcards).get(setting, "")
@@ -340,8 +347,11 @@ def _get_specific_subsampling_setting(setting, optional=False):
             # build's region, country, division, etc. as needed for subsampling.
             build = config["builds"][wildcards.build_name]
             value = value.format(**build)
-            if value !="" and setting == 'exclude_ambiguous_dates_by':
-                value = f"--exclude-ambiguous-dates-by {value}"
+            if value !="":
+                if setting == 'exclude_ambiguous_dates_by':
+                    value = f"--exclude-ambiguous-dates-by {value}"
+                elif setting == 'group_by':
+                    value = f"--group-by {value}"
         elif value is not None:
             # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
             # need to return the 'argument' for augur
@@ -406,7 +416,7 @@ rule subsample:
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
     params:
-        group_by = _get_specific_subsampling_setting("group_by"),
+        group_by = _get_specific_subsampling_setting("group_by", optional=True),
         sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
         subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
         sampling_scheme = _get_specific_subsampling_setting("sampling_scheme", optional=True),
@@ -432,7 +442,7 @@ rule subsample:
             {params.query_argument} \
             {params.exclude_ambiguous_dates_argument} \
             {params.priority_argument} \
-            --group-by {params.group_by} \
+            {params.group_by} \
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
