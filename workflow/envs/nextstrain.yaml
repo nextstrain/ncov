@@ -18,6 +18,6 @@ dependencies:
 - pip
 - pip:
   - awscli==1.18.45
-  - git+https://github.com/nextstrain/augur@add-index-command
+  - nextstrain-augur==11.1.1
   - nextstrain-cli==1.16.5
   - rethinkdb==2.3.0.post6
