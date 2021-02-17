@@ -1006,8 +1006,11 @@ location	Tineo
 location	Somiedo
 location	Pravia
 location	Grado
+location	Candamo
 location	Oviedo
+location	Llanera
 location	Mieres
+location	Norena
 location	Langreo
 location	Gijon
 location	Siero
@@ -1119,17 +1122,23 @@ location	Garrafe de Torio
 location	Valencia de Don Juan
 location	Villaturiel
 location	Valladolid
+location	Burgos
 
 # Cantabria
+location	Cillorigo de Liebana
 location	Comillas
 location	Cabezon de la Sal
+location	Matamorosa
 location	Santillana
 location	Puente San Miguel
 location	Los Corrales de Buelna
 location	Santiago de Cartes
 location	Torrelavega
+location	Barreda
 location	Suances
 location	Polanco
+location	Miengo
+location	Rumoroso
 location	Zurita
 location	Carandia
 location	Mogro
@@ -1137,24 +1146,34 @@ location	Valderredible
 location	Pielagos
 location	Renedo
 location	Oruna
+location	Boo de Pielagos
 location	Liencres
+location	Mompia
+location	Escobedo
 location	Santa Cruz de Bezana
+location	Camargo
 location	La Penilla
 location	Peñacastillo
 location	Muriedas
 location	Santa Maria de Cayon
+location	Liano
 location	Maliano
+location	Guarnizo
 location	Astillero
 location	Santander
 location	Pontejos
+location	Anaz
 location	Marina de Cudeyo
 location	Solares
 location	San Roque de Riomiera
+location	Arnuero
 location	Ramales de la Victoria
+location	Mortera
 location	Santona
 location	Laredo
 location	Ampuero
 location	Castro Urdiales
+location	Cueto
 
 # Madrid
 location	Galapagar
@@ -1293,20 +1312,24 @@ location	Mendillorri
 location	Burlada
 location	Huarte
 location	Villava
+location	Erro
 location	Gartzain
 
 # Murcia
 location	Murcia
 
 # Aragon
+location	Calatayud
+location	Epila
+location	Alagon
 location	Teruel
+location	Zaragoza
+location	Ayerbe
 location	Alcaniz
 location	Caspe
-location	Fraga
-location	Zaragoza
-location	Tamarite de Litera
 location	Monzon
-location	Ayerbe
+location	Fraga
+location	Tamarite de Litera
 
 # Comunitat Valenciana
 location	Miramar
@@ -1382,10 +1405,13 @@ location	Puzol
 location	Cambrils
 location	Solsona
 location	Jorba
+location	Cardona
 location	Sant Joan Vilatorrada
 location	Bellavista
 location	Manresa
 location	Berga
+location	San Vicente de Castellet
+location	Sant Fruitos de Bages
 location	Navas
 location	Vallirana
 location	Sant Andreu de la Barca
@@ -1415,15 +1441,19 @@ location	Centelles
 location	Sant Adria del Besos
 location	Santa Eulàlia de Ronçana
 location	Parets del Valles
+location	Les Masies de Voltrega
 location	Sant Fost de Campsentelles
 location	Llissa de Munt
 location	Llica D'Amunt
 location	Lliça de Vall
 location	Badalona
+location	Aiguafreda
 location	Vic
 location	Tiana
 location	Montgat
 location	Canovelles
+location	Manlleu
+location	Taradell
 location	Vilanova del Vallés
 location	La Garriga
 location	Granollers
