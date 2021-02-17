@@ -952,6 +952,7 @@ location	Agaete
 location	Galdar
 location	Santa Maria de Guia de Gran Canaria
 location	Moya
+location	Valleseco
 location	Teror
 location	Arucas
 location	Santa Brigida
@@ -1117,6 +1118,7 @@ location	Villaobispo de las Regueras
 location	Garrafe de Torio
 location	Valencia de Don Juan
 location	Villaturiel
+location	Valladolid
 
 # Cantabria
 location	Comillas
@@ -2913,6 +2915,7 @@ location	Bludenz
 location	Feldkirch
 location	Hohenems
 location	Dornbirn
+location	Schwarzach
 location	Bregenz
 
 # Tyrol
@@ -2932,11 +2935,13 @@ location	Sölden
 location	Seefeld in Tirol
 location	Kematen in Tirol
 location	Innsbruck
+location	Innsbruck-Land
 location	Aldrans
 location	Matrei am Brenner
 location	Thaur
 location	Sistrans
 location	Steinach am Brenner
+location	Schwaz
 location	Strass im Zillertal
 location	Mayrhofen
 location	Kramsach
@@ -2950,17 +2955,22 @@ location	Fieberbrunn
 # Salzburg
 location	Bad Gastein
 location	Zell am See
+location	St. Johann im Pongau
 location	Saalfelden
 location	Pfarrwerfen
 location	Abtenau
+location	Hallein
 location	Salzburg
 location	Mondsee
 location	Siggerwiesen
+location	Salzburg-Umgebung
 location	Obertrum Am See
 
 # Carinthia
 location	Hermagor
+location	Spittal an der Drau
 location	Fresach
+location	Villach-Land
 location	Villach
 location	Landskron
 location	Wernberg
@@ -2970,6 +2980,7 @@ location	Wachsenberg
 location	Feldkirchen
 location	Glödnitz
 location	Klagenfurt
+location	Sankt Veit An Der Glan
 location	Guttaring
 location	Pörtschach
 location	Sittersdorf
@@ -2977,27 +2988,44 @@ location	St. Jakob
 location	Griffen
 
 # Upper Austria
-location	Altmünster
-location	Losenstein
-location	Attnang-Puchheim
-location	Wels-Land
-location	Gunskirchen
+location	Vöcklabruck
 location	Altenhof Am Hausruck
-location	Linz
-location	Haizing
+location	Attnang-Puchheim
+location	Altmünster
+location	Gmunden
 location	Hochficht
+location	Gunskirchen
+location	Wels-Land
+location	Haizing
+location	Wels-Stadt
+location	Linz
+location	Linz-Land
+location	Losenstein
+location	Freistadt
 
 # Styria
-location	Kalsdorf Bei Graz
+location	Liezen
+location	Murau
+location	Bruck-Mürzzuschlag
 location	Graz
+location	Kalsdorf Bei Graz
 location	Weiz
+location	Hartberg-Fürstenfeld
 
 # Lower Austria
+location	Zwettl
 location	Bad Vöslau
+location	Baden
 location	Mödling
+location	Korneuburg
+location	Mistelbach
+location	Bruck An Der Leitha
 
 # Vienna
 location	Vienna
+
+# Burgenland
+location	Eisenstadt-Umgebung
 
 ### Czech Republic
 # Plzeň Region
@@ -3138,14 +3166,47 @@ location	Karviná
 location	Cesky Tesin
 
 ### Poland
+# Zachodniopomorskie
+location	Witkowo Drugie
+
+# Dolnośląskie
+location	Ząbkowice Śląskie
+
 # Wielkopolskie
+location	Nowy Tomysl
+location	Duszniki
+location	Jeziorki
+location	Cieradz Koscielny
+location	Niepruszewo
+location	Zydowo
+location	Strykowo
 location	Tarnowo Podgorne
 location	Sierosław
+location	Sady
+location	Debienko
+location	Rokietnica
+location	Dabrowa
+location	Dąbrowa
+location	Rogierowko
+location	Przeźmierowo
+location	Skórzewo
+location	Komorniki
 location	Plewiska
 location	Oborniki
+location	Ludomki
+location	Orlowo
+location	Puszczykowo
+location	Maniewo
 location	Lubon
+location	Wiorek
 location	Czapury
 location	Poznan
+location	Baranowo
+location	Koziegłowy
+location	Rogozno
+location	Murowana Goslina
+location	Wysławice
+location	Jarocin
 location	Kalisz
 
 # Łódzkie
@@ -5606,6 +5667,7 @@ division	Manila
 division	Timor-Leste
 
 ### South Korea
+division	Jeonnam
 division	Gwangju
 division	South Korea
 division	Chungcheongnam
@@ -5819,13 +5881,7 @@ division	Wele Nzas
 division	Libreville
 
 ### Cameroon
-division	Douala
-division	Kribi
-division	Dschang
-division	Bafoussam
-division	Ebolowa
 division	Yaoundé
-division	Sangmelima
 division	Cameroon
 
 ### Republic of the Congo
@@ -6595,6 +6651,7 @@ division	Rostov
 division	Ryazan
 division	Voronezh
 division	Adygea
+division	Arkhangelsk Region
 division	Vladimir Region
 division	Tambov Region
 division	Ivanovo

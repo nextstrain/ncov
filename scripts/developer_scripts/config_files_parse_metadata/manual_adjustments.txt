@@ -105,3 +105,4 @@ North America/Caribbean/Barbados/	North America/Barbados/Barbados/
 North America/Caribbean/British Virgin Islands/	Europe/United Kingdom/British Virgin Islands/
 North America/USA/California/Alexandria, Va County	North America/USA/Virginia/Alexandria
 North America/Caribbean/Cayman Islands/	Europe/United Kingdom/Cayman Islands/
+Europe/Austria/Vienna/Wien, Hagenbrunn, Langenzersdorf, Gerasdorf Bei Wien, Kaltenleutgeben, Perchtoldsdorf, Vösendorf, Mauerbach, Purkersdorf	Europe/Austria/Lower Austria/Korneuburg
