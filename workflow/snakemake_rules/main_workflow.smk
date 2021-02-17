@@ -96,33 +96,6 @@ rule diagnose_excluded:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
-rule prefilter:
-    message:
-        """
-        Pre-filtering sequences before aligning for minimal length.
-         - Input: {input.sequences}
-         - Filtering to sequences with more than {params.min_length}bp.
-         - Output: {output.sequences}
-        """
-    input:
-        sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
-        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
-    output:
-        sequences = "results/prefiltered{origin}.fasta"
-    log:
-        "logs/prefiltered{origin}.txt"
-    params:
-        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length")
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur filter \
-            --sequences {input.sequences} \
-            --metadata {input.metadata} \
-            --min-length {params.min_length} \
-            --output {output.sequences} 2>&1 | tee {log}
-        """
-
 if "use_nextalign" in config and config["use_nextalign"]:
     rule align:
         message:
@@ -131,7 +104,7 @@ if "use_nextalign" in config and config["use_nextalign"]:
               - gaps relative to reference are considered real
             """
         input:
-            sequences = lambda wildcards: _get_path_for_input("prefiltered", wildcards.origin),
+            sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
             reference = config["files"]["alignment_reference"]
         output:
             alignment = "results/aligned{origin}.fasta",
@@ -160,7 +133,7 @@ else:
             - gaps relative to reference are considered real
             """
         input:
-            sequences = lambda wildcards: _get_path_for_input("prefiltered", wildcards.origin),
+            sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
             reference = config["files"]["alignment_reference"]
         output:
             alignment = "results/aligned{origin}.fasta"
@@ -210,28 +183,15 @@ rule diagnostic:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
-rule refilter:
-    message:
-        """
-        Excluding sequences flagged in the diagnostic step.
-        {input.sequences} - {input.exclude} -> {output.sequences}
-        """
+rule exclude_file:
     input:
-        sequences = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
-        exclude = lambda wildcards: _get_path_for_input("to-exclude", wildcards.origin),
+        exclude_diagnostic = lambda wildcards: _get_path_for_input("to-exclude", wildcards.origin),
+        exclude = config["files"]["exclude"]
     output:
-        sequences = "results/aligned-filtered{origin}.fasta"
-    log:
-        "logs/refiltered{origin}.txt"
-    conda: config["conda_environment"]
+        "results/exclude{origin}.txt"
     shell:
         """
-        augur filter \
-            --sequences {input.sequences} \
-            --metadata {input.metadata} \
-            --exclude {input.exclude} \
-            --output {output.sequences} 2>&1 | tee {log}
+        cat {input.exclude} {input.exclude_diagnostic} > {output}
         """
 
 def _run_diagnostics(wildcards):
@@ -252,7 +212,7 @@ rule mask:
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = lambda w: _get_path_for_input("aligned-filtered" if _run_diagnostics(w) else "aligned", w.origin)
+        alignment = lambda w: _get_path_for_input("aligned", w.origin)
     output:
         alignment = "results/masked{origin}.fasta"
     log:
@@ -286,7 +246,7 @@ rule filter:
         metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
-        exclude = config["files"]["exclude"]
+        exclude = rules.exclude_file.output
     output:
         sequences = "results/filtered{origin}.fasta"
     log:
