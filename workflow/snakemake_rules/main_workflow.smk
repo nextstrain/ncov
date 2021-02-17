@@ -123,33 +123,63 @@ rule prefilter:
             --output {output.sequences} 2>&1 | tee {log}
         """
 
-rule align:
-    message:
-        """
-        Aligning sequences from {input.sequences} to {input.reference}
-          - gaps relative to reference are considered real
-        """
-    input:
-        sequences = lambda wildcards: _get_path_for_input("prefiltered", wildcards.origin),
-        reference = config["files"]["alignment_reference"]
-    output:
-        alignment = "results/aligned{origin}.fasta"
-    log:
-        "logs/align{origin}.txt"
-    benchmark:
-        "benchmarks/align{origin}.txt"
-    threads: 16
-    conda: config["conda_environment"]
-    shell:
-        """
-        mafft \
-            --auto \
-            --thread {threads} \
-            --keeplength \
-            --addfragments \
-            {input.sequences} \
-            {input.reference} > {output} 2> {log}
-        """
+if "use_nextalign" in config and config["use_nextalign"]:
+    rule align:
+        message:
+            """
+            Aligning sequences to {input.reference}
+              - gaps relative to reference are considered real
+            """
+        input:
+            sequences = lambda wildcards: _get_path_for_input("prefiltered", wildcards.origin),
+            reference = config["files"]["alignment_reference"]
+        output:
+            alignment = "results/aligned{origin}.fasta",
+            insertions = "results/insertions{origin}.tsv"
+        params:
+            bin = config["nextalign_bin"],
+        log:
+            "logs/align{origin}.txt"
+        benchmark:
+            "benchmarks/align{origin}.txt"
+        threads: 8
+        shell:
+            """
+            {params.bin} \
+                --jobs={threads} \
+                --reference {input.reference} \
+                --sequences {input.sequences} \
+                --output-fasta {output.alignment} \
+                --output-insertions {output.insertions} > {log} 2>&1
+            """
+else:
+    rule align:
+        message:
+            """
+            Aligning sequences from {input.sequences} to {input.reference}
+            - gaps relative to reference are considered real
+            """
+        input:
+            sequences = lambda wildcards: _get_path_for_input("prefiltered", wildcards.origin),
+            reference = config["files"]["alignment_reference"]
+        output:
+            alignment = "results/aligned{origin}.fasta"
+        log:
+            "logs/align{origin}.txt"
+        benchmark:
+            "benchmarks/align{origin}.txt"
+        threads: 16
+        conda: config["conda_environment"]
+        shell:
+            """
+            mafft \
+                --auto \
+                --thread {threads} \
+                --keeplength \
+                --addfragments \
+                {input.sequences} \
+                {input.reference} > {output} 2> {log}
+            """
 
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
