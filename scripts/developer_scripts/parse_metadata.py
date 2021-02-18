@@ -277,6 +277,14 @@ def read_metadata(metadata):
         id = l[2]
         strain = l[0]
 
+        if region not in ["Africa", "Asia", "Europe", "North America", "Oceania", "South America"]:
+            print("Attention: Unknown region " + region + " for strain " + strain)
+
+        if region == "North-America":
+            additions_to_annotation.append(strain + "\t" + id + "\tregion\tNorth America # previously " + region)
+            print("Adjust North-America to North America for strain " + strain)
+            region = "North America"
+
         if location == "Unknown" or location == "UNKNOWN" or location == "unknown": #TODO: separate
             additions_to_annotation.append(strain + "\t" + id + "\tlocation\t# previously " + location)
             location = ""
@@ -331,7 +339,6 @@ def read_metadata(metadata):
         if location not in data[region][country][division]:
             data[region][country][division][location] = []
         data[region][country][division][location].append(strain + "\t" + id)  # store strain and id of each seq with this combination of region/country/division/location
-    additions_to_annotation.append("\n=============================\n")
     return data
 
 
@@ -360,6 +367,9 @@ def read_exposure(data, metadata):
             region2 = "Europe"
             division2 = country2
             country2 = "United Kingdom"
+
+        if region2 not in data:
+            continue
 
         s = division2 + " (" + country2 + ", " + region2 + ")"
         s2 = country2 + " (" + region2 + ")"
@@ -770,7 +780,6 @@ def apply_variants(data): #TODO: currently, the file variants.txt doesn't distin
 
     data = correct_data(data, "location", locations_to_switch)
 
-    additions_to_annotation.append("\n=============================\n")
     print("\n=============================\n")
     return data
 
@@ -844,7 +853,6 @@ def check_false_divisions(data):
                                 print("Unknown location found as division: " + bold(location) + " (true division: " + bold(division) + ")")
                                 print("(Suggestion: add " + location + " -> " + division + " to false_divisions.txt)")
 
-    additions_to_annotation.append("\n=============================\n")
     print("\n=============================\n")
 
 ##### Step 2.3: Check for duplicate divisions/locations in different countries/divisions (known cases stored in duplicates.txt as well as checking for new cases)
@@ -987,7 +995,7 @@ def check_for_missing(data):
                             s = s + " (only missing in lat_longs)"
                         else:
                             if name0 != "":
-                                s += " (similar name in same country: " + name0 + " - consider adding to variants.txt)"
+                                s += " (similar name in same country: " + name0 + " - consider adding " + bold("division\t" + division + "\t" + name0 + "\t(" + region + ", " + country + ")") + " to variants.txt)"
                             if division in ordering["location"] or division in lat_longs["location"]:
                                 s = s + " (present as location)"
                     if country not in missing["division"]:
@@ -1022,7 +1030,7 @@ def check_for_missing(data):
                                     data_clean[region][country][division].append(location)
                         else: #only check for additional hints like "similar name" or "present as division" if not auto-added to color_ordering
                             if name0 != "":
-                                s += " (similar name in same country: " + name0 + " - consider adding to variants.txt)"
+                                s += " (similar name in same country: " + name0 + " - consider adding " + bold("location\t" + location + "\t" + name0 + "\t(" + region + ", " + country + ", " + division + ")") + " to variants.txt)"
                             if location in ordering["location"] and location not in lat_longs["location"]:
                                 s = s + " (only missing in lat_longs)"
                             if location in ordering["division"] or location in lat_longs["division"]:
@@ -1284,6 +1292,60 @@ def write_ordering(data, hierarchy):
         out.write("\n################\n\n\n")
 
 
+def auto_add_annotations(additions_to_annotation):
+    enable_duplicate_check = True
+
+    with open("../ncov-ingest/source-data/gisaid_annotations.tsv") as myfile:
+        annotations = myfile.readlines()
+    types = {"geography": ["location", "division", "country", "region", "division_exposure", "country_exposure", "region_exposure"], "special": ["purpose_of_sequencing", "date", "host", "strain"], "paper": ["title", "paper_url"], "genbank": ["genbank_accession"]}
+    sections = {"comments": [], "geography": [], "special": [], "paper": [], "genbank": []}
+
+    print("The following annotations have unknown type:")
+    for list in [annotations, additions_to_annotation]:
+        for line in list:
+            if not line.endswith("\n"):
+                line = line + "\n"
+            if line.startswith("#"):
+                sections["comments"].append(line)
+                continue
+            t1 = line.split("\t")[2]
+            type_found = False
+            for t in types:
+                if t1 in types[t]:
+                    if line not in sections[t]:
+                        sections[t].append(line)
+                    type_found = True
+                    break
+            if not type_found:
+                print(line)
+
+    with open(path_to_output_files + "gisaid_annotations.tsv", "w") as out:
+        for t in sections:
+            for l in sorted(sections[t]):
+                out.write(l)
+    print("New annotation auto-added to " + path_to_output_files + "gisaid_annotations.tsv")
+
+    if enable_duplicate_check:
+        print("The following annotations have duplicate annotations:")
+        duplicate_check = {}
+        with open(path_to_output_files + "gisaid_annotations.tsv") as list:
+            for line in list:
+                if not line.startswith("#"):
+                    t = line.split("\t")[2]
+                    if t not in types["paper"] and t not in types["genbank"]:
+                        epi = line.split("\t")[1]
+                        if t not in duplicate_check:
+                            duplicate_check[t] = []
+                        if epi not in duplicate_check[t]:
+                            duplicate_check[t].append(epi)
+                        else:
+                            print("Attention: Duplicate annotation for " + epi + ", " + t)
+
+
+
+
+
+
 if __name__ == '__main__':
 
     ################################################################################
@@ -1363,7 +1425,9 @@ if __name__ == '__main__':
     ##### Bonus step: Print out all collected annotations - if considered correct, they can be copied by the user to annotations.tsv
     with open(path_to_output_files+"new_annotations.tsv", 'w') as out:
         out.write("\n".join(sorted(additions_to_annotation)))
-    print("New annotation additions written out to "+path_to_output_files+"new_annotations.tsv")
+    print("New annotation additions written out to " + path_to_output_files + "new_annotations.tsv")
+
+    auto_add_annotations(additions_to_annotation)
 
     # Only print line if not yet present
     # Print warning if this GISAID ID is already in the file
