@@ -335,7 +335,7 @@ def get_priorities(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
 
     if "priorities" in subsampling_settings and subsampling_settings["priorities"]["type"] == "proximity":
-        return f"results/{wildcards.build_name}/proximity_{subsampling_settings['priorities']['focus']}.tsv"
+        return f"results/{wildcards.build_name}/priorities_{subsampling_settings['priorities']['focus']}.tsv"
     else:
         # TODO: find a way to make the list of input files depend on config
         return config["files"]["include"]
@@ -456,13 +456,12 @@ rule proximity_score:
         """
     input:
         alignment = "results/filtered.fasta",
-        metadata = config["metadata"],
         reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
     output:
-        priorities = "results/{build_name}/proximity_{focus}.tsv"
+        proximities = "results/{build_name}/proximity_{focus}.tsv"
     log:
-        "logs/subsampling_priorities_{build_name}_{focus}.txt"
+        "logs/subsampling_proximity_{build_name}_{focus}.txt"
     benchmark:
         "benchmarks/proximity_score_{build_name}_{focus}.txt"
     resources:
@@ -470,12 +469,26 @@ rule proximity_score:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/priorities.py --alignment {input.alignment} \
-            --metadata {input.metadata} \
+        python3 scripts/get_distance_to_focal_set.py \
             --reference {input.reference} \
+            --alignment {input.alignment} \
             --focal-alignment {input.focal_alignment} \
+            --output {output.proximities} 2>&1 | tee {log}
+        """
+rule priority_score:
+    input:
+        proximity = rules.proximity_score.output.proximities,
+        sequence_index = "results/sequence_index.tsv",
+    output:
+        priorities = "results/{build_name}/priorities_{focus}.tsv"
+    shell:
+        """
+        python3 scripts/priorities.py \
+            --sequence-index {input.sequence_index} \
+            --proximity {input.proximity} \
             --output {output.priorities} 2>&1 | tee {log}
         """
+
 
 def _get_subsampled_files(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)

@@ -12,7 +12,7 @@ if __name__ == '__main__':
         description="generate priorities files based on genetic proximity to focal sample",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    parser.add_argument("--index", type=str, required=True, help="sequence index file")
+    parser.add_argument("--sequence-index", type=str, required=True, help="sequence index file")
     parser.add_argument("--proximities", type = str, required=True, help="tsv file with proximities")
     parser.add_argument("--Nweight", type = float, default=0.003, required=False, help="parameterizes de-prioritization of incomplete sequences")
     parser.add_argument("--crowding-penalty", type = float, default=0.05, required=False, help="parameterizes how priorities decrease when there is many very similar sequences")
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     proximities = pd.read_csv(args.proximities, sep='\t', index_col=0)
-    index = pd.read_csv(args.index, sep='\t', index_col=0)
+    index = pd.read_csv(args.sequence_index, sep='\t', index_col=0)
     d = pd.concat([proximities, index], axis=1)
 
     closest_matches = d.groupBy('closest strain')
