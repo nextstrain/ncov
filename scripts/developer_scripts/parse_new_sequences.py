@@ -160,7 +160,7 @@ def check_dates(data, today):
             year_clade = int(clade_day[:4])
 
             if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
-                suspicious_sample_date[strain] = date + ", " + clade
+                suspicious_sample_date[strain] = date + " (" + clade + ")"
                 data.pop(id)
                 continue
 
