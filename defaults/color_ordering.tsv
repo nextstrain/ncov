@@ -1034,6 +1034,7 @@ location	Tarifa
 location	Algeciras
 location	San Roque ES
 location	La Linea de la Concepcion
+location	Montilla
 location	Benalmadena
 location	Antequera
 location	Alhaurin de la Torre
@@ -1051,7 +1052,9 @@ location	Nerja
 location	Frailes
 location	Valderrubio
 location	Cijuela
+location	Moclin
 location	Fuente Vaqueros
+location	Chauchina
 location	Pinos Puente
 location	Santa Fe ES
 location	Vegas del Genil
@@ -1062,8 +1065,10 @@ location	Cullar Vega
 location	Albolote
 location	Alhendin
 location	Churriana de la Vega
+location	Campillo de Arenas
 location	Otura
 location	Maracena
+location	Peligros
 location	Ogijares
 location	Pulianas
 location	Granada ES
@@ -1076,13 +1081,18 @@ location	Alfacar
 location	Iznalloz
 location	Huetor Santillan
 location	Ubeda
+location	Jodar
 location	Navas de San Juan
 location	La Peza
+location	Huelago
 location	Alamedilla
 location	Fonelas
+location	Benalua
 location	Guadix
+location	Alicun de Ortega
 location	Zujar
 location	Castril
+location	Baza
 location	Cortijos Nuevos
 location	Huescar
 location	Almeria
@@ -1149,6 +1159,7 @@ location	Oruna
 location	Boo de Pielagos
 location	Liencres
 location	Mompia
+location	Alceda
 location	Escobedo
 location	Santa Cruz de Bezana
 location	Camargo
@@ -1156,16 +1167,19 @@ location	La Penilla
 location	Peñacastillo
 location	Muriedas
 location	Santa Maria de Cayon
+location	Saron
 location	Liano
 location	Maliano
 location	Guarnizo
 location	Astillero
 location	Santander
+location	Selaya
 location	Pontejos
 location	Anaz
 location	Marina de Cudeyo
 location	Solares
 location	San Roque de Riomiera
+location	Loredo
 location	Arnuero
 location	Ramales de la Victoria
 location	Mortera
@@ -1292,6 +1306,7 @@ location	Fitero
 location	Tudela
 location	Cintruenigo
 location	Peralta
+location	Andosilla
 location	Lodosa
 location	Viana
 location	Tafalla
@@ -1402,10 +1417,12 @@ location	Castellon de la Plana
 location	Puzol
 
 # Catalunya
+location	Lleida
 location	Cambrils
 location	Solsona
 location	Jorba
 location	Cardona
+location	Hostalrich
 location	Sant Joan Vilatorrada
 location	Bellavista
 location	Manresa
@@ -1415,8 +1432,10 @@ location	Sant Fruitos de Bages
 location	Navas
 location	Vallirana
 location	Sant Andreu de la Barca
+location	Castelldefels
 location	Castellbisbal
 location	Terrassa
+location	Viladecans
 location	Santa Coloma de Cervello
 location	Rubi
 location	Sant Joan Despi
@@ -1429,6 +1448,7 @@ location	Castellterçol
 location	Cerdanyola del Valles
 location	Barcelona
 location	Ripollet
+location	Sant Feliu de Codines
 location	Caldes de Montbui
 location	Palau Solita i Plegamans
 location	Santa Perpetua de Mogoda
@@ -1436,12 +1456,14 @@ location	Moncada y Reixach
 location	La Llagosta
 location	Santa Coloma de Gramenet
 location	Bigues I Riells
+location	Oris
 location	Mollet del Valles
 location	Centelles
 location	Sant Adria del Besos
 location	Santa Eulàlia de Ronçana
 location	Parets del Valles
 location	Les Masies de Voltrega
+location	Martorelles
 location	Sant Fost de Campsentelles
 location	Llissa de Munt
 location	Llica D'Amunt
@@ -1449,6 +1471,7 @@ location	Lliça de Vall
 location	Badalona
 location	Aiguafreda
 location	Vic
+location	L'Ametlla del Valles
 location	Tiana
 location	Montgat
 location	Canovelles
@@ -1465,6 +1488,7 @@ location	La Roca del Valles
 location	Canoves i Samalus
 location	Premia de Dalt
 location	Cardedeu
+location	Vilassar de Dalt
 location	Premia de Mar
 location	Cabrils
 location	Sant Pere de Vilamajor
@@ -1479,10 +1503,12 @@ location	Sant Andreu de Llavaneres
 location	Sant Celoni
 location	Vallgorguina
 location	Sant Vicenç de Montalt
+location	Caldes d'Estrac
 location	Arenys de Munt
 location	Arenys de Mar
 location	San Pol de Mar
 location	Calella
+location	Fogars de la Selva
 location	Pineda de Mar
 location	Malgrat de Mar
 location	Gerona
@@ -1623,6 +1649,7 @@ location	Le Pecq
 location	Le Chesnay
 location	Orsay
 location	Garches
+location	Hauts-de-Seine
 location	Meudon la Forêt
 location	Suresnes
 location	Puteaux
@@ -1652,6 +1679,7 @@ location	Maisons Alfort
 location	Montreuil
 location	Bobigny
 location	Villeneuve-Saint-Georges
+location	Seine-Saint-Denis
 location	Creteil
 location	Aulnay Sous Bois
 location	Bry sur Marne
@@ -1663,6 +1691,7 @@ location	Saint-Thibault-des-Vignes
 location	Chanteloup-en-Brie
 location	Egreville
 location	Meaux
+location	Seine-Et-Marne
 location	Provins
 
 # Hauts de France
@@ -2791,6 +2820,7 @@ location	Grenzach-Wyhlen
 location	Bad Krozingen
 location	Steinen
 location	Freiburg
+location	Gundelfingen
 location	Bad Säckingen
 location	Rickenbach
 location	Buehl
@@ -2945,7 +2975,6 @@ location	Bludenz
 location	Feldkirch
 location	Hohenems
 location	Dornbirn
-location	Schwarzach
 location	Bregenz
 
 # Tyrol
@@ -2965,7 +2994,6 @@ location	Sölden
 location	Seefeld in Tirol
 location	Kematen in Tirol
 location	Innsbruck
-location	Innsbruck-Land
 location	Aldrans
 location	Matrei am Brenner
 location	Thaur
@@ -5445,6 +5473,8 @@ division	Doha
 division	Qatar
 
 ### Iran
+division	Urmia
+division	Hamedan
 division	Gilan
 division	Qom
 division	Karaj
@@ -5452,6 +5482,7 @@ division	Tehran
 division	Iran
 division	Gorgan
 division	Semnan
+division	Kashmar
 division	Sistan and Baluchestan
 
 ### United Arab Emirates

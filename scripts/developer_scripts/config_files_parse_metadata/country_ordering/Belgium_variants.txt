@@ -180,3 +180,4 @@ Sinttruiden	Sint-Truiden
 Dilsen-Stokken	Dilsen-Stokkem
 Pont-À-Celles	Pont-à-Celles
 Lille (Antwerpen)	Lille BE
+Wallonie	Wallonia
