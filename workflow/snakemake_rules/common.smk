@@ -49,7 +49,7 @@ def _get_path_for_input(stage, origin_wildcard):
     if not origin_wildcard:
         # No origin wildcards => deprecated single inputs (e.g. `config["sequences"]`) which cannot
         # be downloaded from remote resources
-        if "inputs" in config:
+        if config.get("inputs"):
             raise Exception("ERROR: empty origin wildcard but config defines 'inputs`")
         path_or_url = config[stage] if stage in ["metadata", "sequences"] else ""
         remote = False
@@ -97,14 +97,14 @@ def _get_unified_metadata(wildcards):
     then that file is returned. Else "results/combined_metadata.tsv" is returned
     which will run the `combine_input_metadata` rule to make it.
     """
-    if "inputs" not in config:
+    if not config.get("inputs"):
         return config["metadata"]
     if len(list(config["inputs"].keys()))==1:
         return _get_path_for_input("metadata", "_"+list(config["inputs"].keys())[0])
     return "results/combined_metadata.tsv"
 
 def _get_unified_alignment(wildcards):
-    if "inputs" not in config:
+    if not config.get("inputs"):
         return "results/filtered.fasta"
     if len(list(config["inputs"].keys()))==1:
         return _get_path_for_input("filtered", "_"+list(config["inputs"].keys())[0])
