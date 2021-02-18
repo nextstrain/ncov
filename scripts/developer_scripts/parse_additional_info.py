@@ -190,7 +190,7 @@ def rearrange_additional_info(additional_info):
 
 # Given the variants dictionary stored in variants.txt, apply on given place name
 def apply_variant(place, variants):
-    place_correct = place
+    place_correct = place.replace("_", " ")
     for hierarchy in variants:
         if place in variants[hierarchy]:
             if len(variants[hierarchy][place]) > 1:
