@@ -10,7 +10,7 @@ dependencies:
 - mafft=7.471
 - pandas
 - psutil
-- python=3.6*
+- python=3.7*
 - nodejs=10
 - raxml
 - vcftools
