@@ -28,7 +28,7 @@ if __name__ == '__main__':
     for focal_seq, seqs in closest_matches.groups.items():
         tmp = p1.loc[seqs, ["distance", "Ns"]]
         tmp.priority = -tmp.distance + tmp.Ns*Nweight
-        candidates[focal_seq] = sorted(shuffle([(name, d.proximity) for name, d in tmp.iterrows()]), key:lambda x:x[1])
+        candidates[focal_seq] = sorted(shuffle([(name, d.proximity) for name, d in tmp.iterrows()]), key=lambda x:x[1])
 
     # export priorities
     crowding = args.crowding_penalty
