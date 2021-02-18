@@ -172,8 +172,11 @@ snakemake --profile my_profiles/example_multiple_inputs -f auspice/ncov_multiple
 
 The resulting JSON can be dropped onto [auspice.us](https://auspice.us) for visualization.
 
-> P.S. If you want to see the DAG to help understand the pipeline steps, you can run
-`snakemake --profile my_profiles/example_multiple_inputs -f auspice/ncov_multiple-inputs.json --dag | dot -Tpdf > dag.pdf`
+The following figure shows the graph (DAG) of steps which Snakemake will run to produce the target auspice JSON.
+You can generate this yourself via
+`snakemake --profile my_profiles/example_multiple_inputs -f auspice/ncov_multiple-inputs.json --dag | dot -Tpdf > dag.pdf`.
+
+![snakemake-graph](images/multiple_inputs_dag.png)
 
 
 ## Extra examples
@@ -232,20 +235,3 @@ inputs:
 > If your S3 bucket is private, make sure you have the following env variables set: `$AWS_SECRET_ACCESS_KEY` and `$AWS_ACCESS_KEY_ID`.
 
 > You may use `.xz` or `.gz` compression - we automatically infer this from the filename suffix.
-
-### Can I start from intermediate files stored remotely?
-
-Yes, however this functionality is new and the syntax may change -- please beware!
-
-If you define the `filtered` keyword as an input, then the pipeline will download this file and avoid aligning and filtering this input, which can save a lot of compute time:
-```yaml
-# your builds.yaml config file
-inputs:
-  worldwide:
-    metadata: <local path or s3 address>,
-    filtered: "s3://your_bucket_name/path_to_filtered_sequences.fasta.xz"
-```
-The same functionality is available for `masked`, `aligned` and `prefiltered` stages, however beware that these may change in the future.
-
-> Note that if intermediate files are present locally, then snakemake will automatically avoid recreating them.
-For instance, if you have an input `worldwide` defined in your config (as above) and the file `results/aligned_worldwide.fasta` exists, then Snakemake will know not to recreate this!
