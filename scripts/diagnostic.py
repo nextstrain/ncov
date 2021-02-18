@@ -8,7 +8,7 @@ import numpy as np
 from Bio.SeqIO.FastaIO import SimpleFastaParser
 from Bio.Seq import Seq
 from Bio import AlignIO, SeqIO
-from priorities import sequence_to_int_array
+from get_distance_to_focal_set import sequence_to_int_array, N, gap
 from augur.utils import read_metadata
 from datetime import datetime
 
@@ -24,8 +24,8 @@ def expected_divergence(date, rate_per_day = 25/365):
 def analyze_divergence(sequences, metadata, reference, mask_5p=0, mask_3p=0):
     int_ref = sequence_to_int_array(reference, fill_gaps=False)
     diagnostics = defaultdict(dict)
-    fill_value = 110
-    gap_value = 45
+    fill_value = N
+    gap_value = gap
     ws = 50
     known_true_clusters = [(28880,28883)]
     known_true_cluster_array = np.ones_like(int_ref, dtype=int)
