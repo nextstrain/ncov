@@ -110,12 +110,12 @@ if "use_nextalign" in config and config["use_nextalign"]:
         output:
             alignment = "results/aligned{origin}.fasta",
             insertions = "results/insertions{origin}.tsv",
-            translations = expand("results/translations/{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+            translations = expand("results/translations/seqs{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
         params:
             outdir = "results/translations",
             bin = config["nextalign_bin"],
             genes = ','.join(config.get('genes', ['S'])),
-            basename = lambda w: w.origin or "seqs"
+            basename = "seqs{origin}"
         log:
             "logs/align{origin}.txt"
         benchmark:
