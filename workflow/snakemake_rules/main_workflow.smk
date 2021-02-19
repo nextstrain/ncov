@@ -517,7 +517,7 @@ if "use_nextalign" in config and config["use_nextalign"]:
         output:
             alignment = "results/{build_name}/aligned.fasta",
             insertions = "results/{build_name}/insertions.tsv",
-            translations = expand("results/{build_name}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+            translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
         params:
             outdir = "results/{build_name}/translations",
             bin = config["nextalign_bin"],
