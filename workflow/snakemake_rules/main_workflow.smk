@@ -744,6 +744,27 @@ rule translate:
             --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
+rule aa_muts_explicit:
+    message: "Translating amino acid sequences"
+    input:
+        tree = rules.refine.output.tree,
+        translations = rules.build_align.output.translations
+    output:
+        node_data = "results/{build_name}/aa_muts_explicit.json"
+    params:
+        genes = config.get('genes', 'S')
+    log:
+        "logs/aamuts_{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/explicit_translation.py \
+            --tree {input.tree} \
+            --translations {input.translations:q} \
+            --genes {params.genes} \
+            --output {output.node_data} 2>&1 | tee {log}
+        """
+
 rule traits:
     message:
         """
@@ -997,6 +1018,9 @@ def _get_node_data_by_wildcards(wildcards):
         rules.recency.output.node_data,
         rules.traits.output.node_data
     ]
+
+    if "use_nextalign" in config and config["use_nextalign"]:
+        inputs.append(rules.aa_muts_explicit.output.node_data)
 
     # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]
