@@ -130,7 +130,7 @@ if "use_nextalign" in config and config["use_nextalign"]:
                 --genes {params.genes} \
                 --sequences {input.sequences} \
                 --output-dir {params.outdir} \
-                --basename {params.basename} \
+                --output-basename {params.basename} \
                 --output-fasta {output.alignment} \
                 --output-insertions {output.insertions} > {log} 2>&1
             """
