@@ -183,25 +183,24 @@ rule diagnostic:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
+def _collect_exclusion_files(wildcards):
+    # Note that we _always_ exclude the sequences from the (config-defined) exclude file
+    # As well as the sequences flagged by the diagnostic step.
+    # Note that we can skip the diagnostic step on a per-input (per-origin) basis.
+    exclude_files = [ config["files"]["exclude"] ]
+    if not config["filter"].get(_trim_origin(wildcards["origin"]), {}).get("skip_diagnostics", False):
+        exclude_files.append(_get_path_for_input("to-exclude", wildcards.origin))
+    return exclude_files
+
 rule exclude_file:
     input:
-        exclude_diagnostic = lambda wildcards: _get_path_for_input("to-exclude", wildcards.origin),
-        exclude = config["files"]["exclude"]
+        _collect_exclusion_files
     output:
         "results/exclude{origin}.txt"
     shell:
         """
-        cat {input.exclude} {input.exclude_diagnostic} > {output}
+        cat {input} > {output}
         """
-
-def _run_diagnostics(wildcards):
-    # Note that diagnostic (& therefore refiltering) steps can
-    # be skipped on a per-input (per-origin) basis by the user.
-    if wildcards["origin"] == "":
-        return True
-    if config["filter"].get(_trim_origin(wildcards["origin"]), {}).get("skip_diagnostics", False):
-        return False
-    return True
 
 rule mask:
     message:
@@ -252,7 +251,7 @@ rule filter:
     log:
         "logs/filtered{origin}.txt"
     params:
-        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length"), # TODO - this can be removed, since the `prefilter` rule does this
+        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length"),
         exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
         min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
         ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
