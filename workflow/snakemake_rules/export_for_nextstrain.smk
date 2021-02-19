@@ -68,20 +68,23 @@ rule mutation_summary:
     message: "Summarizing {input.alignment}"
     input:
         alignment = rules.align.output.alignment,
+        insertions = rules.align.output.insertions,
         translations = rules.align.output.translations,
         reference = config["files"]["alignment_reference"],
-        genemap = config["files"]["gene_map"]
+        genemap = config["files"]["annotation"]
     output:
-        mutation_summary = "results/mutation_summary.tsv"
+        mutation_summary = "results/mutation_summary{origin}.tsv"
     log:
-        "logs/mutation_summary.txt"
+        "logs/mutation_summary{origin}.txt"
     params:
-        outdir = "results/nextalign",
-        basename = "sequences"
+        outdir = "results/translations",
+        basename = "{origin}"
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/mutation_summary.py \
+            --alignment {input.alignment} \
+            --insertions {input.insertions} \
             --directory {params.outdir} \
             --basename {params.basename} \
             --reference {input.reference} \

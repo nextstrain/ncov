@@ -105,11 +105,12 @@ if "use_nextalign" in config and config["use_nextalign"]:
             """
         input:
             sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
+            genemap = config["files"]["annotation"],
             reference = config["files"]["alignment_reference"]
         output:
             alignment = "results/aligned{origin}.fasta",
             insertions = "results/insertions{origin}.tsv",
-            translations = expand("results/translations/{origin}.gene.{gene}.fasta", gene=config.get('genes', ['S']]))
+            translations = expand("results/translations/{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
         params:
             outdir = "results/translations",
             bin = config["nextalign_bin"],
@@ -125,6 +126,8 @@ if "use_nextalign" in config and config["use_nextalign"]:
             {params.bin} \
                 --jobs={threads} \
                 --reference {input.reference} \
+                --genemap {input.genemap} \
+                --genes {params.genes} \
                 --sequences {input.sequences} \
                 --output-dir {params.outdir} \
                 --basename {params.basename} \
