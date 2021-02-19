@@ -108,9 +108,13 @@ if "use_nextalign" in config and config["use_nextalign"]:
             reference = config["files"]["alignment_reference"]
         output:
             alignment = "results/aligned{origin}.fasta",
-            insertions = "results/insertions{origin}.tsv"
+            insertions = "results/insertions{origin}.tsv",
+            translations = expand("results/translations/{origin}.gene.{gene}.fasta", gene=config.get('genes', ['S']]))
         params:
+            outdir = "results/translations",
             bin = config["nextalign_bin"],
+            genes = ','.join(config.get('genes', ['S'])),
+            basename = "{origin}"
         log:
             "logs/align{origin}.txt"
         benchmark:
@@ -122,6 +126,8 @@ if "use_nextalign" in config and config["use_nextalign"]:
                 --jobs={threads} \
                 --reference {input.reference} \
                 --sequences {input.sequences} \
+                --output-dir {params.outdir} \
+                --basename {params.basename} \
                 --output-fasta {output.alignment} \
                 --output-insertions {output.insertions} > {log} 2>&1
             """
