@@ -115,7 +115,7 @@ if "use_nextalign" in config and config["use_nextalign"]:
             outdir = "results/translations",
             bin = config["nextalign_bin"],
             genes = ','.join(config.get('genes', ['S'])),
-            basename = "{origin}"
+            basename = lambda w: w.origin or "seqs"
         log:
             "logs/align{origin}.txt"
         benchmark:
