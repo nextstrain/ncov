@@ -72,15 +72,10 @@ def _get_path_for_input(stage, origin_wildcard):
         return f"data/downloaded{origin_wildcard}.tsv" if remote else path_or_url
     if stage=="sequences":
         return f"data/downloaded{origin_wildcard}.fasta" if remote else path_or_url
-    if stage=="prefiltered":
-        # we don't expose the option to download a prefiltered alignment - it must be computed locally
-        return f"results/prefiltered{origin_wildcard}.fasta"
     if stage=="aligned":
         return f"results/precomputed-aligned{origin_wildcard}.fasta" if remote else f"results/aligned{origin_wildcard}.fasta"
     if stage=="to-exclude":
         return f"results/precomputed-to-exclude{origin_wildcard}.txt" if remote else f"results/to-exclude{origin_wildcard}.txt"
-    if stage=="aligned-filtered": # refiltering. Different to filtered!
-        return f"results/precomputed-aligned-filtered{origin_wildcard}.fasta" if remote else f"results/aligned-filtered{origin_wildcard}.fasta"
     if stage=="masked":
         return f"results/precomputed-masked{origin_wildcard}.fasta" if remote else f"results/masked{origin_wildcard}.fasta"
     if stage=="filtered":
