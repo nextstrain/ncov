@@ -64,10 +64,10 @@ For multiple inputs, we shall use the new `inputs` section of the config to spec
 ```yaml
 # my_profiles/example_multiple_inputs/builds.yaml
 inputs:
-  aus: 
+  - name: "aus" 
     metadata: "data/example_metadata_aus.tsv"
     sequences: "data/example_sequences_aus.fasta"
-  worldwide:
+  - name: "worldwide"
     metadata: "data/example_metadata_worldwide.tsv"
     sequences: "data/example_sequences_worldwide.fasta"
 ```
@@ -89,7 +89,7 @@ Looking at the individual TSVs, the `worldwide` metadata contains many more colu
 In the case of **conflicts**, the order of the entries in the YAML matters, with the last value being used.
 
 Finally, we use one-hot encoding to express the origin of each row of metadata.
-This means that **extra columns** will be added for each input (e.g. `aus` and `worldwide`), with values of `"yes"` or `""`, representing which samples are contained in each set of sequences.
+This means that **extra columns** will be added for each input (e.g. `aus` and `worldwide`), with values of `"yes"` or `"no"`, representing which samples are contained in each set of sequences.
 We are going to use this to our advantage, by adding a coloring to highlight the source of sequences in auspice via `my_profiles/example_multiple_inputs/my_auspice_config.json`:
 
 ```json
@@ -227,7 +227,7 @@ Currently we can handle files stored on S3 buckets rather than remotely by simpl
 ```yaml
 # your pipeline's builds.yaml config
 inputs:
-  worldwide:
+  - name: worldwide
     metadata: "s3://your_bucket_name/metadata.tsv"
     sequences: "s3://your_bucket_name/sequences.fasta.xz"
 ```

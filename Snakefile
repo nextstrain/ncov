@@ -1,11 +1,13 @@
 import copy
 from datetime import date
-import os, sys
+import os
+import sys
 from os import environ
 from socket import getfqdn
 from getpass import getuser
 from snakemake.logging import logger
 from snakemake.utils import validate
+from collections import OrderedDict
 import time
 
 # Store the user's configuration prior to loading defaults, so we can check for
@@ -34,6 +36,9 @@ configfile: "defaults/parameters.yaml"
 
 # Check config file for errors
 validate(config, schema="workflow/schemas/config.schema.yaml")
+# Convert inputs (YAML array) into an OrderedDict with keys of "name" for use by the pipeline. String values are ignored.
+if isinstance(config.get("inputs", ""), list):
+    config["inputs"] = OrderedDict((v["name"], v) for v in config["inputs"])
 
 # Check for overlapping subsampling schemes in user and default
 # configurations. For now, issue a deprecation warning, so users know they

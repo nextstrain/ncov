@@ -7,10 +7,10 @@
 #   - my_profiles/example_multiple_inputs/rules.smk
 
 inputs:
-  aus: 
+  - name: "aus" 
     metadata: "data/example_metadata_aus.tsv"
     sequences: "data/example_sequences_aus.fasta"
-  worldwide:
+  - name: "worldwide"
     metadata: "data/example_metadata_worldwide.tsv"
     sequences: "data/example_sequences_worldwide.fasta"
 

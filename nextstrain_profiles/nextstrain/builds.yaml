@@ -16,7 +16,7 @@ S3_DST_ORIGINS: ["gisaid"]
 # will start by downloading that file and proceeding straight to
 # subsampling
 inputs:
-  gisaid:
+  - name: gisaid
     metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
     sequences: "s3://nextstrain-ncov-private/sequences.fasta.gz"
     # ---------------------- NOTE --------------------------
@@ -28,7 +28,6 @@ inputs:
     # sequences: "s3://nextstrain-ncov-private/sequences_gisaid.fasta.gz"
     # aligned: "s3://nextstrain-ncov-private/aligned_gisaid.fasta.xz"
     # to-exclude: "s3://nextstrain-ncov-private/to-exclude_gisaid.txt.xz"
-    # aligned-filtered: "s3://nextstrain-ncov-private/aligned-filtered_gisaid.fasta.xz"
     # masked: "s3://nextstrain-ncov-private/masked_gisaid.fasta.fasta.xz"
     # filtered: "s3://nextstrain-ncov-private/filtered_gisaid.fasta.xz"
   

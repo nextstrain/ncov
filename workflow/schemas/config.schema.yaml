@@ -6,8 +6,16 @@ type: object
 
 properties:
   sequences:
-    type:
-      - string
+    type: string
   metadata:
+    type: string
+  inputs:
     type:
-      - string
+      - array
+      - string # string values will be ignored, but this can be useful for cmd-line overrides
+    minItems: 1
+    items:
+      type: object
+      required:
+        - name
+        - metadata
