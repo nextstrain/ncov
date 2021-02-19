@@ -266,3 +266,5 @@ Ougree	Liège
 Avissawella	Western Province
 Dambulla	Central Province
 Eindhoven	North Brabant
+Tangerang Selatan	Banten
+Tangerang	Banten

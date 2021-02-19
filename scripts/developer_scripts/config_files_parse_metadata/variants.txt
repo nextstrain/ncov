@@ -945,4 +945,4 @@ location	Atmella del Valles	L'Ametlla del Valles	(Europe, Spain, Catalunya)
 location	L' Ametlla del Valles	L'Ametlla del Valles	(Europe, Spain, Catalunya)
 division	Ghilan	Gilan	(Asia, Iran)
 location	Huetor de Santillan	Huetor Santillan	(Europe, Spain, Andalusia)
-
+location	Sant Joan de Vilatorrada	Sant Joan Vilatorrada	(Europe, Spain, Catalunya)

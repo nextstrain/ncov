@@ -583,6 +583,9 @@ location	Palembang
 location	South Tangerang
 location	Tangerang
 
+# Jakarta
+location	South Jakarta
+
 # West Java
 location	Bogor
 location	Depok
@@ -1426,6 +1429,7 @@ location	Hostalrich
 location	Sant Joan Vilatorrada
 location	Bellavista
 location	Manresa
+location	Monistrol de Montserrat
 location	Berga
 location	San Vicente de Castellet
 location	Sant Fruitos de Bages
@@ -5101,7 +5105,7 @@ location	Morgan County IL
 location	Douglas County IL
 location	Cass County IL
 location	Adams County IL
-location	Schuyler County
+location	Schuyler County IL
 location	Hancock County
 location	McDonough County
 location	Fulton County IL
@@ -5222,6 +5226,7 @@ location	Orange County FL
 location	Monroe County FL
 location	Miami-Dade County
 location	Palm Beach County
+location	Miami
 
 # South Carolina
 location	Pickens County SC
@@ -5300,6 +5305,7 @@ location	Steuben County
 location	Ontario County
 location	Yates County
 location	Wayne County
+location	Schuyler County NY
 location	Seneca County
 location	Chemung County
 location	Cayuga County
@@ -5774,6 +5780,7 @@ division	South Canterbury
 division	Canterbury
 division	New Zealand
 division	Nelson Marlborough
+division	Northland
 division	Taranaki
 division	Auckland
 division	Wellington
@@ -6622,6 +6629,7 @@ division	Riga
 division	Latvia
 
 ### Estonia
+division	Harjumaa
 division	Estonia
 
 ### Finland
