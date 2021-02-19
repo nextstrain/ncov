@@ -14,24 +14,6 @@ metadata: "data/metadata.tsv"
 
 reference_node_name: "USA/WA1/2020"
 
-# Certain steps may require a S3 bucket (e.g. "download pre-aligned sequences").
-# This is optional - as long as you provide the starting metadata + sequences,
-# all steps can run locally without using any S3 buckets.
-S3_BUCKET: "your_S3_bucket_here"
-
-# Set these instead to download from a source (SRC) bucket and upload to a
-# different destination (DST) bucket.  If either is empty/undefined, then the
-# value of S3_BUCKET is used instead.
-S3_SRC_BUCKET: ""
-S3_DST_BUCKET: ""
-
-# Preprocess steps involve the creation and storage of intermediate files
-# (alignments etc). These steps are opt-in, and are not run by default.
-# These settings define the compression/decompression settings for these files
-preprocess:
-  compression: "xz"
-  deflate: "xz -dcq"
-
 # Define files used for external configuration. Common examples consist of a
 # list of strains to include and exclude from analyses, a reference sequence to
 # align sequences to, colors for strain attributes in auspice, and auspice

@@ -12,4 +12,4 @@ install:
   - nextstrain update
 script:
   - gunzip data/example_sequences.fasta.gz
-  - nextstrain build . all_regions -j 2 --profile nextstrain_profiles/nextstrain --config sequences=data/example_sequences.fasta metadata=data/example_metadata.tsv active_builds=global
+  - nextstrain build . all_regions -j 2 --profile nextstrain_profiles/nextstrain --config sequences=data/example_sequences.fasta metadata=data/example_metadata.tsv active_builds=global inputs=

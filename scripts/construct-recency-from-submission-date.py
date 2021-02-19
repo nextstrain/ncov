@@ -37,7 +37,7 @@ if __name__ == '__main__':
     ref_date = datetime.now()
 
     for strain, d in meta.items():
-        if 'date_submitted' in d:
+        if 'date_submitted' in d and d['date_submitted']:
             node_data['nodes'][strain] = {'recency': get_recency(d['date_submitted'], ref_date)}
 
     with open(args.output, 'wt') as fh:

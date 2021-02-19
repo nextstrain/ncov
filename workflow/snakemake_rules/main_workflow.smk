@@ -1,53 +1,43 @@
-rule download_sequences:
-    message: "Downloading sequences from S3 bucket {params.s3_bucket}"
-    output:
-        sequences = config["sequences"]
-    conda: config["conda_environment"]
-    params:
-        s3_bucket = _get_first(config, "S3_SRC_BUCKET", "S3_BUCKET")
-    shell:
+rule combine_input_metadata:
+    # this rule is intended to be run _only_ if we have defined multiple inputs ("origins")
+    message:
         """
-        aws s3 cp s3://{params.s3_bucket}/sequences.fasta.gz - | gunzip -cq > {output.sequences:q}
+        Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
-
-rule download_metadata:
-    message: "Downloading metadata from S3 bucket {params.s3_bucket}"
-    output:
-        metadata = config["metadata"]
-    conda: config["conda_environment"]
-    params:
-        s3_bucket = _get_first(config, "S3_SRC_BUCKET", "S3_BUCKET")
-    shell:
-        """
-        aws s3 cp s3://{params.s3_bucket}/metadata.tsv.gz - | gunzip -cq >{output.metadata:q}
-        """
-
-rule download:
     input:
-        config["metadata"],
-        config["sequences"]
-
+        metadata = lambda wildcards: [_get_path_for_input("metadata", f"_{origin}") for origin in config.get("inputs", "")],
+    output:
+        metadata = "results/combined_metadata.tsv"
+    params:
+        origins = lambda wildcards: list(config["inputs"].keys())
+    log:
+        "logs/combine_input_metadata.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/combine_metadata.py --metadata {input.metadata} --origins {params.origins} --output {output.metadata} 2>&1 | tee {log}
+        """
 
 rule excluded_sequences:
     message:
         """
-        Generating fasta file of excluded sequences
+        Generating fasta file of (config-defined) excluded sequences from input {input.sequences}
         """
     input:
-        sequences = config["sequences"],
-        metadata = config["metadata"],
+        sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         include = config["files"]["exclude"]
     output:
-        sequences = "results/excluded.fasta"
+        sequences = "results/excluded{origin}.fasta"
     log:
-        "logs/excluded.txt"
+        "logs/excluded{origin}.txt"
     conda: config["conda_environment"]
     shell:
         """
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
-	    --min-length 50000 \
+	        --min-length 50000 \
             --include {input.include} \
             --output {output.sequences} 2>&1 | tee {log}
         """
@@ -62,9 +52,9 @@ rule align_excluded:
         sequences = rules.excluded_sequences.output.sequences,
         reference = config["files"]["reference"]
     output:
-        alignment = "results/excluded_alignment.fasta"
+        alignment = "results/excluded_alignment{origin}.fasta"
     log:
-        "logs/align_excluded.txt"
+        "logs/align_excluded{origin}.txt"
     threads: 2
     conda: config["conda_environment"]
     shell:
@@ -80,15 +70,15 @@ rule align_excluded:
 rule diagnose_excluded:
     message: "Scanning excluded sequences {input.alignment} for problematic sequences"
     input:
-        alignment = rules.align_excluded.output.alignment,
-        metadata = config["metadata"],
+        alignment = "results/excluded_alignment{origin}.fasta",
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         reference = config["files"]["reference"]
     output:
-        diagnostics = "results/excluded-sequence-diagnostics.tsv",
-        flagged = "results/excluded-flagged-sequences.tsv",
-        to_exclude = "results/check_exclusion.txt"
+        diagnostics = "results/excluded-sequence-diagnostics{origin}.tsv",
+        flagged = "results/excluded-flagged-sequences{origin}.tsv",
+        to_exclude = "results/check_exclusion{origin}.txt"
     log:
-        "logs/diagnose-excluded.txt"
+        "logs/diagnose-excluded{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"]
@@ -109,17 +99,20 @@ rule diagnose_excluded:
 rule prefilter:
     message:
         """
-        Pre-filtering sequences for minimal length (before aligning)
+        Pre-filtering sequences before aligning for minimal length.
+         - Input: {input.sequences}
+         - Filtering to sequences with more than {params.min_length}bp.
+         - Output: {output.sequences}
         """
     input:
-        sequences = config["sequences"],
-        metadata = config["metadata"],
+        sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
     output:
-        sequences = "results/prefiltered.fasta"
+        sequences = "results/prefiltered{origin}.fasta"
     log:
-        "logs/prefiltered.txt"
+        "logs/prefiltered{origin}.txt"
     params:
-        min_length = config["filter"]["min_length"],
+        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length")
     conda: config["conda_environment"]
     shell:
         """
@@ -133,18 +126,18 @@ rule prefilter:
 rule align:
     message:
         """
-        Aligning sequences to {input.reference}
+        Aligning sequences from {input.sequences} to {input.reference}
           - gaps relative to reference are considered real
         """
     input:
-        sequences = "results/prefiltered.fasta",
+        sequences = lambda wildcards: _get_path_for_input("prefiltered", wildcards.origin),
         reference = config["files"]["alignment_reference"]
     output:
-        alignment = "results/aligned.fasta"
+        alignment = "results/aligned{origin}.fasta"
     log:
-        "logs/align.txt"
+        "logs/align{origin}.txt"
     benchmark:
-        "benchmarks/align.txt"
+        "benchmarks/align{origin}.txt"
     threads: 16
     conda: config["conda_environment"]
     shell:
@@ -161,15 +154,15 @@ rule align:
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
-        alignment = "results/aligned.fasta",
-        metadata = config["metadata"],
+        alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         reference = config["files"]["reference"]
     output:
-        diagnostics = "results/sequence-diagnostics.tsv",
-        flagged = "results/flagged-sequences.tsv",
-        to_exclude = "results/to-exclude.txt"
+        diagnostics = "results/sequence-diagnostics{origin}.tsv",
+        flagged = "results/flagged-sequences{origin}.tsv",
+        to_exclude = "results/to-exclude{origin}.txt"
     log:
-        "logs/diagnostics.txt"
+        "logs/diagnostics{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"]
@@ -190,16 +183,17 @@ rule diagnostic:
 rule refilter:
     message:
         """
-        excluding sequences flagged in the diagnostic step in file {input.exclude}
+        Excluding sequences flagged in the diagnostic step.
+        {input.sequences} - {input.exclude} -> {output.sequences}
         """
     input:
-        sequences = "results/aligned.fasta",
-        metadata = config["metadata"],
-        exclude = "results/to-exclude.txt"
+        sequences = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
+        exclude = lambda wildcards: _get_path_for_input("to-exclude", wildcards.origin),
     output:
-        sequences = "results/aligned-filtered.fasta"
+        sequences = "results/aligned-filtered{origin}.fasta"
     log:
-        "logs/refiltered.txt"
+        "logs/refiltered{origin}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -210,20 +204,29 @@ rule refilter:
             --output {output.sequences} 2>&1 | tee {log}
         """
 
+def _run_diagnostics(wildcards):
+    # Note that diagnostic (& therefore refiltering) steps can
+    # be skipped on a per-input (per-origin) basis by the user.
+    if wildcards["origin"] == "":
+        return True
+    if config["filter"].get(_trim_origin(wildcards["origin"]), {}).get("skip_diagnostics", False):
+        return False
+    return True
+
 rule mask:
     message:
         """
-        Mask bases in alignment
+        Mask bases in alignment {input.alignment}
           - masking {params.mask_from_beginning} from beginning
           - masking {params.mask_from_end} from end
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = "results/aligned-filtered.fasta"
+        alignment = lambda w: _get_path_for_input("aligned-filtered" if _run_diagnostics(w) else "aligned", w.origin)
     output:
-        alignment = "results/masked.fasta"
+        alignment = "results/masked{origin}.fasta"
     log:
-        "logs/mask.txt"
+        "logs/mask{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"],
@@ -243,23 +246,26 @@ rule mask:
 rule filter:
     message:
         """
-        Filtering to
+        Filtering alignment {input.sequences} -> {output.sequences}
           - excluding strains in {input.exclude}
+          - including strains in {input.include}
+          - min length: {params.min_length}
         """
     input:
-        sequences = "results/masked.fasta",
-        metadata = config["metadata"],
+        sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
+        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
+        # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/filtered.fasta"
+        sequences = "results/filtered{origin}.fasta"
     log:
-        "logs/filtered.txt"
+        "logs/filtered{origin}.txt"
     params:
-        min_length = config["filter"]["min_length"],
-        exclude_where = config["filter"]["exclude_where"],
-        min_date = config["filter"]["min_date"],
-        ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {config['filter']['exclude_ambiguous_dates_by']}" if "exclude_ambiguous_dates_by" in config["filter"] else "",
+        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length"), # TODO - this can be removed, since the `prefilter` rule does this
+        exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
+        min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
+        ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
         date = date.today().strftime("%Y-%m-%d")
     conda: config["conda_environment"]
     shell:
@@ -293,11 +299,11 @@ def _get_subsampling_settings(wildcards):
         if subsampling_settings.get("max_sequences") and subsampling_settings.get("seq_per_group"):
             raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' defines both `max_sequences` and `seq_per_group`, but these arguments are mutually exclusive. If you didn't define both of these settings, this conflict could be caused by using the same subsampling scheme name as a default scheme. In this case, rename your subsampling scheme, '{subsampling_scheme}', to a unique name (e.g., 'custom_{subsampling_scheme}') and run the workflow again.")
 
-        # If users have supplied neither `max_sequences` nor `seq_per_group`, we
+        # If users have defined `group_by` but supplied neither `max_sequences` nor `seq_per_group`, we
         # throw an error because the subsampling rule will still group by one or
         # more fields and the lack of limits on this grouping could produce
         # unexpected behavior.
-        if not subsampling_settings.get("max_sequences") and not subsampling_settings.get("seq_per_group"):
+        if subsampling_settings.get("group_by") and not subsampling_settings.get("max_sequences") and not subsampling_settings.get("seq_per_group"):
             raise Exception(f"The subsampling scheme '{subsampling_scheme}' for build '{wildcards.build_name}' must define `max_sequences` or `seq_per_group`.")
 
     return subsampling_settings
@@ -323,6 +329,13 @@ def get_priority_argument(wildcards):
 
 
 def _get_specific_subsampling_setting(setting, optional=False):
+    # Note -- this function contains a lot of conditional logic because
+    # we have the situation where some config options must define the
+    # augur argument in their value, and some must not. For instance:
+    # subsamplingScheme -> sampleName -> group_by: year                            (`--group-by` is _not_ part of this value)
+    #                                 -> exclude: "--exclude-where 'country=USA'"  (`--exclude-where` IS part of this value)
+    # Since there are a lot of subsampling schemes out there, backwards compatability
+    # is important!                                 james hadfield, feb 2021
     def _get_setting(wildcards):
         if optional:
             value = _get_subsampling_settings(wildcards).get(setting, "")
@@ -334,8 +347,11 @@ def _get_specific_subsampling_setting(setting, optional=False):
             # build's region, country, division, etc. as needed for subsampling.
             build = config["builds"][wildcards.build_name]
             value = value.format(**build)
-            if value !="" and setting == 'exclude_ambiguous_dates_by':
-                value = f"--exclude-ambiguous-dates-by {value}"
+            if value !="":
+                if setting == 'exclude_ambiguous_dates_by':
+                    value = f"--exclude-ambiguous-dates-by {value}"
+                elif setting == 'group_by':
+                    value = f"--group-by {value}"
         elif value is not None:
             # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
             # need to return the 'argument' for augur
@@ -356,6 +372,23 @@ def _get_specific_subsampling_setting(setting, optional=False):
 
     return _get_setting
 
+
+rule combine_sequences_for_subsampling:
+    # Similar to rule combine_input_metadata, this rule should only be run if multiple inputs are being used (i.e. multiple origins)
+    message:
+        """
+        Combine and deduplicate aligned & filtered FASTAs from multiple origins in preparation for subsampling.
+        """
+    input:
+        lambda w: [_get_path_for_input("filtered", f"_{origin}") for origin in config.get("inputs", {})]
+    output:
+        "results/combined_sequences_for_subsampling.fasta"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/combine-and-dedup-fastas.py --input {input} --output {output}
+        """
+
 rule subsample:
     message:
         """
@@ -373,8 +406,8 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = "results/filtered.fasta",
-        metadata = config["metadata"],
+        sequences = _get_unified_alignment,
+        metadata = _get_unified_metadata,
         include = config["files"]["include"],
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
@@ -383,7 +416,7 @@ rule subsample:
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
     params:
-        group_by = _get_specific_subsampling_setting("group_by"),
+        group_by = _get_specific_subsampling_setting("group_by", optional=True),
         sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
         subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
         sampling_scheme = _get_specific_subsampling_setting("sampling_scheme", optional=True),
@@ -409,7 +442,7 @@ rule subsample:
             {params.query_argument} \
             {params.exclude_ambiguous_dates_argument} \
             {params.priority_argument} \
-            --group-by {params.group_by} \
+            {params.group_by} \
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
@@ -423,8 +456,8 @@ rule proximity_score:
         genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
         """
     input:
-        alignment = "results/filtered.fasta",
-        metadata = config["metadata"],
+        alignment = _get_unified_alignment,
+        metadata = _get_unified_metadata,
         reference = config["files"]["reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
     output:
@@ -479,7 +512,7 @@ rule adjust_metadata_regions:
         Adjusting metadata for build '{wildcards.build_name}'
         """
     input:
-        metadata = config["metadata"]
+        metadata = _get_unified_metadata
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv"
     params:
@@ -965,7 +998,7 @@ rule incorporate_travel_history:
 rule finalize:
     message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = rules.incorporate_travel_history.output.auspice_json,
+        auspice_json = lambda w: rules.export.output.auspice_json if config.get("skip_travel_history_adjustment", False) else rules.incorporate_travel_history.output.auspice_json,
         frequencies = rules.tip_frequencies.output.tip_frequencies_json,
         root_sequence_json = rules.export.output.root_sequence_json
     output:
