@@ -2,6 +2,7 @@ import argparse
 from augur.utils import read_metadata
 from Bio import SeqIO
 import csv
+import sys
 
 EMPTY = ''
 
@@ -18,25 +19,33 @@ EMPTY = ''
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Custom script to combine metadata files",
+        description="""
+        Custom script to combine metadata files from different origins.
+        In the case where metadata files specify different values, the latter provided file will take priority.
+        Columns will be added for each origin with values "yes" or "no" to identify the input source (origin) of each sample.
+        """,
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument('--metadata', required=True, nargs='+', metavar="TSV", help="Metadata files")
-    parser.add_argument('--origins', required=True, nargs='+', metavar="STR", help="Names of origins (metadata columns will be created from these)")
-    parser.add_argument('--output', required=True, metavar="TSV", help="output (merged) metadata")
+    parser.add_argument('--origins', required=True, nargs='+', metavar="STR", help="Names of origins (order should match provided metadata)")
+    parser.add_argument('--output', required=True, metavar="TSV", help="Output (merged) metadata")
     args = parser.parse_args()
     return args
 
 if __name__ == '__main__':
     args = parse_args()
-    assert(len(args.metadata)==len(args.origins))
-    assert(len(args.origins)>1)
+    try:
+        assert(len(args.metadata)==len(args.origins))
+        assert(len(args.origins)>1)
+    except AssertionError:
+        print("Error. Please check your inputs - there must be the same number of metadata files as origins provided, and there must be more than one of each!")
+        sys.exit(2)
 
     # READ IN METADATA FILES
     metadata = []
     for (origin, fname) in zip(args.origins, args.metadata):
         data, columns = read_metadata(fname)
-        metadata.append({'origin': origin, "fname": fname, 'data': data, 'columns': columns})
+        metadata.append({'origin': origin, "fname": fname, 'data': data, 'columns': columns, 'strains': {s for s in data.keys()}})
 
     # SUMMARISE INPUT METADATA
     print(f"Parsed {len(metadata)} metadata TSVs")
@@ -54,8 +63,8 @@ if __name__ == '__main__':
     for strain in combined_data:
         for column in combined_columns:
             if column not in combined_data[strain]:
-                combined_data[strain][column] = EMPTY
-        combined_data[strain][metadata[0]['origin']] = "yes" # can't use `True` as booleans cause issues for `augur filter`
+                combined_data[strain][column] = EMPTY    
+    
     for idx in range(1, len(metadata)):
         for strain, row in metadata[idx]['data'].items():
             if strain not in combined_data:
@@ -69,7 +78,13 @@ if __name__ == '__main__':
                         if existing_value != EMPTY:
                             print(f"[{strain}::{column}] Overwriting {combined_data[strain][column]} with {new_value}")
                         combined_data[strain][column] = new_value
-            combined_data[strain][metadata[idx]['origin']] = "yes"
+
+    # one-hot encoding for origin
+    # note that we use "yes" / "no" here as Booleans are problematic for `augur filter`
+    for metadata_entry in metadata:
+        origin = metadata_entry['origin']
+        for strain in combined_data:
+            combined_data[strain][origin] = "yes" if strain in metadata_entry['strains'] else "no"
 
     print(f"Combined metadata: {len(combined_data.keys())} strains x {len(combined_columns)} columns")
 
