@@ -492,7 +492,7 @@ rule combine_samples:
     input:
         _get_subsampled_files
     output:
-        alignment = "results/{build_name}/subsampled_alignment.fasta"
+        sequences = "results/{build_name}/subsampled_sequences.fasta"
     log:
         "logs/subsample_regions_{build_name}.txt"
     conda: config["conda_environment"]
@@ -502,6 +502,74 @@ rule combine_samples:
             --input {input} \
             --output {output} 2>&1 | tee {log}
         """
+
+if "use_nextalign" in config and config["use_nextalign"]:
+    rule build_align:
+        message:
+            """
+            Aligning sequences to {input.reference}
+              - gaps relative to reference are considered real
+            """
+        input:
+            sequences = rules.combine_samples.output.sequences,
+            genemap = config["files"]["annotation"],
+            reference = config["files"]["alignment_reference"]
+        output:
+            alignment = "results/{build_name}/aligned.fasta",
+            insertions = "results/{build_name}/insertions.tsv",
+            translations = expand("results/{build_name}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+        params:
+            outdir = "results/{build_name}/translations",
+            bin = config["nextalign_bin"],
+            genes = ','.join(config.get('genes', ['S'])),
+            basename = "aligned"
+        log:
+            "logs/align_{build_name}.txt"
+        benchmark:
+            "benchmarks/align_{build_name}.txt"
+        threads: 8
+        shell:
+            """
+            {params.bin} \
+                --jobs={threads} \
+                --reference {input.reference} \
+                --genemap {input.genemap} \
+                --genes {params.genes} \
+                --sequences {input.sequences} \
+                --output-dir {params.outdir} \
+                --output-basename {params.basename} \
+                --output-fasta {output.alignment} \
+                --output-insertions {output.insertions} > {log} 2>&1
+            """
+else:
+    rule build_align:
+        message:
+            """
+            Aligning sequences from {input.sequences} to {input.reference}
+            - gaps relative to reference are considered real
+            """
+        input:
+            sequences = rules.combine_samples.output.sequences,
+            reference = config["files"]["alignment_reference"]
+        output:
+            alignment = "results/{build_name}/aligned.fasta"
+        log:
+            "logs/align_{build_name}.txt"
+        benchmark:
+            "benchmarks/align_{build_name}.txt"
+        threads: 16
+        conda: config["conda_environment"]
+        shell:
+            """
+            mafft \
+                --auto \
+                --thread {threads} \
+                --keeplength \
+                --addfragments \
+                {input.sequences} \
+                {input.reference} > {output} 2> {log}
+            """
+
 
 # TODO: This will probably not work for build names like "country_usa" where we need to know the country is "USA".
 rule adjust_metadata_regions:
@@ -529,7 +597,7 @@ rule adjust_metadata_regions:
 rule tree:
     message: "Building tree"
     input:
-        alignment = rules.combine_samples.output.alignment
+        alignment = rules.build_align.output.alignment
     output:
         tree = "results/{build_name}/tree_raw.nwk"
     params:
@@ -564,7 +632,7 @@ rule refine:
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = rules.combine_samples.output.alignment,
+        alignment = rules.build_align.output.alignment,
         metadata = _get_metadata_by_wildcards
     output:
         tree = "results/{build_name}/tree.nwk",
@@ -619,7 +687,7 @@ rule ancestral:
         """
     input:
         tree = rules.refine.output.tree,
-        alignment = rules.combine_samples.output.alignment
+        alignment = rules.build_align.output.alignment
     output:
         node_data = "results/{build_name}/nt_muts.json"
     log:
@@ -868,7 +936,7 @@ rule tip_frequencies:
 rule nucleotide_mutation_frequencies:
     message: "Estimate nucleotide mutation frequencies"
     input:
-        alignment = rules.combine_samples.output.alignment,
+        alignment = rules.build_align.output.alignment,
         metadata = _get_metadata_by_wildcards
     output:
         frequencies = "results/{build_name}/nucleotide_mutation_frequencies.json"
