@@ -26,7 +26,7 @@
     "time": "05:59:00"
   },
   "proximity_score": {
-    "mem": "64G"
+    "mem": "8G"
   },
     "filter":{
     "qos": "6hours",

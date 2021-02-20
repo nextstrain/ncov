@@ -487,7 +487,7 @@ rule proximity_score:
     benchmark:
         "benchmarks/proximity_score_{build_name}_{focus}.txt"
     resources:
-        mem_mb = 60000
+        mem_mb = 4000
     conda: config["conda_environment"]
     shell:
         """
@@ -497,6 +497,7 @@ rule proximity_score:
             --focal-alignment {input.focal_alignment} \
             --output {output.proximities} 2>&1 | tee {log}
         """
+
 rule priority_score:
     input:
         proximity = rules.proximity_score.output.proximities,
