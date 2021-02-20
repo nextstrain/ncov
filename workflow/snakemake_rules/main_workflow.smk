@@ -387,6 +387,27 @@ rule combine_sequences_for_subsampling:
         python3 scripts/combine-and-dedup-fastas.py --input {input} --output {output}
         """
 
+rule index_sequences:
+    message:
+        """
+        Index sequence composition for faster filtering.
+        """
+    input:
+        sequences = combine_sequences_for_subsampling.output
+    output:
+        sequence_index = "results/combined_sequence_index.tsv"
+    log:
+        "logs/index_sequences.txt"
+    benchmark:
+        "benchmarks/index_sequences.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur index \
+            --sequences {input.sequences} \
+            --output {output.sequence_index}
+        """
+
 rule subsample:
     message:
         """
@@ -406,6 +427,7 @@ rule subsample:
     input:
         sequences = _get_unified_alignment,
         metadata = _get_unified_metadata,
+        sequence_index = rules.index_sequences.output.sequence_index,
         include = config["files"]["include"],
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
@@ -431,6 +453,7 @@ rule subsample:
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
+            --sequence-index {input.sequence_index} \
             --include {input.include} \
             --exclude {input.exclude} \
             {params.min_date} \
