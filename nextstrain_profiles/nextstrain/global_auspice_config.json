@@ -121,7 +121,7 @@
     "division",
     "location",
     "host",
-    "author"
+    "pangolin_lineage"
   ],
   "panels": [
     "tree",
