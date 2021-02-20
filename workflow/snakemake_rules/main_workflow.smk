@@ -500,7 +500,7 @@ rule proximity_score:
 rule priority_score:
     input:
         proximity = rules.proximity_score.output.proximities,
-        sequence_index = "results/sequence_index.tsv",
+        sequence_index = rules.index_sequences.output.sequence_index,
     output:
         priorities = "results/{build_name}/priorities_{focus}.tsv"
     shell:
