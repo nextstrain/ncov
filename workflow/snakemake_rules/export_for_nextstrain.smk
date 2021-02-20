@@ -127,6 +127,7 @@ rule deploy_to_staging:
 rule upload:
     message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
     input:
+        expand("results/sequence_index_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),         # from `rule index_sequences`
         expand("results/aligned_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
         expand("results/sequence-diagnostics_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
         expand("results/flagged-sequences_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
