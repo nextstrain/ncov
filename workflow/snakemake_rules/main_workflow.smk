@@ -478,7 +478,7 @@ rule proximity_score:
         """
     input:
         alignment = _get_unified_alignment,
-        reference = config["files"]["reference"],
+        reference = config["files"]["alignment_reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
     output:
         proximities = "results/{build_name}/proximity_{focus}.tsv"
