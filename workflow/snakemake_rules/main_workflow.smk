@@ -46,7 +46,7 @@ rule excluded_sequences:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
-        sequence_index = "results/sequence_index{origin.tsv}",
+        sequence_index = "results/sequence_index{origin}.tsv",
         metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
         include = config["files"]["exclude"]
     output:
