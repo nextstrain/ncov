@@ -465,7 +465,7 @@ rule proximity_score:
     benchmark:
         "benchmarks/proximity_score_{build_name}_{focus}.txt"
     resources:
-        mem_mb = 40000
+        mem_mb = 60000
     conda: config["conda_environment"]
     shell:
         """
