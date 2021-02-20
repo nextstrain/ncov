@@ -26,6 +26,7 @@ inputs:
     # ------------------------------------------------------
     # metadata: "s3://nextstrain-ncov-private/metadata_gisaid.tsv.gz"
     # sequences: "s3://nextstrain-ncov-private/sequences_gisaid.fasta.gz"
+    # sequence_index: "s3://nextstrain-ncov-private/sequence_index_gisaid.tsv"
     # aligned: "s3://nextstrain-ncov-private/aligned_gisaid.fasta.xz"
     # to-exclude: "s3://nextstrain-ncov-private/to-exclude_gisaid.txt.xz"
     # masked: "s3://nextstrain-ncov-private/masked_gisaid.fasta.fasta.xz"

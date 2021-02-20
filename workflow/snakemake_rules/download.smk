@@ -43,6 +43,18 @@ rule download_sequences:
         aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
         """
 
+rule download_sequence_index:
+    message: "Downloading sequence index from {params.address} -> {output.sequence_index}"
+    output:
+        sequence_index = "results/precomputed-sequence_index{origin}.tsv"
+    conda: config["conda_environment"]
+    params:
+        address = lambda w: config["inputs"][_trim_origin(w.origin)]["sequence_index"]
+    shell:
+        """
+        aws s3 cp {params.address} - | gunzip -cq >{output.sequence_index:q}
+        """
+
 rule download_metadata:
     message: "Downloading metadata from {params.address} -> {output.metadata}"
     output:

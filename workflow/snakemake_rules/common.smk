@@ -72,6 +72,8 @@ def _get_path_for_input(stage, origin_wildcard):
         return f"data/downloaded{origin_wildcard}.tsv" if remote else path_or_url
     if stage=="sequences":
         return f"data/downloaded{origin_wildcard}.fasta" if remote else path_or_url
+    if stage=="sequence_index":
+        return f"results/precomputed-sequence_index{origin_wildcard}.tsv" if remote else f"results/sequence_index{origin_wildcard}.tsv"
     if stage=="prefiltered":
         # we don't expose the option to download a prefiltered alignment - it must be computed locally
         return f"results/prefiltered{origin_wildcard}.fasta"
@@ -112,9 +114,9 @@ def _get_unified_alignment(wildcards):
 
 def _get_unified_sequence_index(wildcards):
     if not config.get("inputs"):
-        return f"results/sequence_index.tsv"
+        return "results/sequence_index.tsv"
     elif len(list(config["inputs"].keys())) == 1:
-        return f"results/sequence_index{wildcards.origin}.tsv"
+        return _get_path_for_input("sequence_index", "_"+list(config["inputs"].keys())[0])
 
     return "results/combined_sequence_index.tsv"
 
