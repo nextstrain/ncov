@@ -5,7 +5,7 @@ import argparse
 from random import shuffle
 from collections import defaultdict
 import numpy as np
-
+import pandas as pd
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -21,14 +21,16 @@ if __name__ == '__main__':
 
     proximities = pd.read_csv(args.proximities, sep='\t', index_col=0)
     index = pd.read_csv(args.sequence_index, sep='\t', index_col=0)
-    d = pd.concat([proximities, index], axis=1)
+    combined = pd.concat([proximities, index], axis=1)
 
-    closest_matches = d.groupBy('closest strain')
+    closest_matches = combined.groupby('closest strain')
     candidates = {}
     for focal_seq, seqs in closest_matches.groups.items():
-        tmp = p1.loc[seqs, ["distance", "Ns"]]
-        tmp.priority = -tmp.distance + tmp.Ns*Nweight
-        candidates[focal_seq] = sorted(shuffle([(name, d.proximity) for name, d in tmp.iterrows()]), key=lambda x:x[1])
+        tmp = combined.loc[seqs, ["distance", "N"]]
+        tmp["priority"] = -tmp.distance + tmp.N*args.Nweight
+        name_prior = [(name, d.priority) for name, d in tmp.iterrows()]
+        shuffle(name_prior)
+        candidates[focal_seq] = sorted(name_prior, key=lambda x:x[1])
 
     # export priorities
     crowding = args.crowding_penalty

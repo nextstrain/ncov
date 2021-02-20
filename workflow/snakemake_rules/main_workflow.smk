@@ -508,7 +508,7 @@ rule priority_score:
         """
         python3 scripts/priorities.py \
             --sequence-index {input.sequence_index} \
-            --proximity {input.proximity} \
+            --proximities {input.proximity} \
             --output {output.priorities} 2>&1 | tee {log}
         """
 
