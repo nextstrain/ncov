@@ -393,7 +393,7 @@ rule index_sequences:
         Index sequence composition for faster filtering.
         """
     input:
-        sequences = rules.combine_sequences_for_subsampling.output
+        sequences = _get_unified_alignment
     output:
         sequence_index = "results/combined_sequence_index.tsv"
     log:
