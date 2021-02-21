@@ -225,7 +225,7 @@ def build_tree(focal_alignment):
         pyhlogenetic tree of focal-alignment.
 
     """
-    tree_cmd = ["fasttree", "-fastest", "-nt",  "-noml", "-nome",  "-nosupport", focal_alignment]
+    tree_cmd = ["FastTree", "-fastest", "-nt",  "-noml", "-nome",  "-nosupport", focal_alignment]
 
     T = Phylo.read(io.StringIO(subprocess.check_output(tree_cmd).decode()), 'newick')
     T.root_with_outgroup('Wuhan/Hu-1/2019')
