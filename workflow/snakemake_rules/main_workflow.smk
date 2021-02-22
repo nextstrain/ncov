@@ -771,7 +771,7 @@ rule aa_muts_explicit:
     message: "Translating amino acid sequences"
     input:
         tree = rules.refine.output.tree,
-        translations = rules.build_align.output.translations
+        translations = lambda w: rules.build_align.output.translations
     output:
         node_data = "results/{build_name}/aa_muts_explicit.json"
     params:
