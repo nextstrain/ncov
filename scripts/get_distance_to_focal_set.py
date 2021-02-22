@@ -132,7 +132,6 @@ if __name__ == '__main__':
     )
     parser.add_argument("--alignment", type=str, required=True, help="FASTA file of alignment")
     parser.add_argument("--reference", type = str, required=True, help="reference sequence")
-    parser.add_argument("--metadata", type = str, required=True, help="metadata")
     parser.add_argument("--focal-alignment", type = str, required=True, help="focal smaple of sequences")
     parser.add_argument("--output", type=str, required=True, help="FASTA file of output alignment")
     args = parser.parse_args()
