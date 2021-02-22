@@ -8,7 +8,7 @@ import numpy as np
 from Bio.SeqIO.FastaIO import SimpleFastaParser
 from Bio.Seq import Seq
 from Bio import AlignIO, SeqIO
-from priorities import sequence_to_int_array
+from get_distance_to_focal_set import sequence_to_int_array
 from augur.utils import read_metadata
 from datetime import datetime
 
