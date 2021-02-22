@@ -142,14 +142,14 @@ if __name__ == '__main__':
     alignment_length = len(ref)
 
     fh_focal = open(args.focal_seqs, 'rt')
-    focal_seqs = SimpleFastaParser(fh_focal):
+    focal_seqs = SimpleFastaParser(fh_focal)
     focal_seqs_dict = calculate_snp_matrix(focal_seqs, consensus = ref)
 
     fh_seqs = open(args.alignment, 'rt')
-    seqs = SimpleFastaParser(fh_seqs):
+    seqs = SimpleFastaParser(fh_seqs)
 
     # export priorities
-    fh_out = open(args.output, 'w'):
+    fh_out = open(args.output, 'w')
 
 
     chunk_size=10000
