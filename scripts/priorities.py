@@ -35,7 +35,7 @@ def sequence_to_int_array(s, fill_value=110, fill_gaps=True):
     return seq
 
 # Function adapted from https://github.com/gtonkinhill/pairsnp-python
-def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110):
+def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110, chunk_size=0):
     # This function generate a sparse matrix where differences to the consensus are coded as integers.
 
     row = np.empty(INITIALISATION_LENGTH)
@@ -48,45 +48,42 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110
     seq_names = []
     filled_positions = []
     current_length = INITIALISATION_LENGTH
-    if zipped:
-        fh = gzip.open(fastafile, 'rt')
-    else:
-        fh = open(fastafile, 'rt')
-    with fh as fasta:
-        for h,s in SimpleFastaParser(fasta):
-            if consensus is None:
-                align_length = len(s)
-                # Take consensus as first sequence
-                consensus = sequence_to_int_array(s, fill_value=fill_value)
-            else:
-                align_length = len(consensus)
 
-            nseqs +=1
-            seq_names.append(h)
+    for h,s in fastafile:
+        if consensus is None:
+            align_length = len(s)
+            # Take consensus as first sequence
+            consensus = sequence_to_int_array(s, fill_value=fill_value)
+        else:
+            align_length = len(consensus)
 
-            if(len(s)!=align_length):
-                raise ValueError('Fasta file appears to have sequences of different lengths!')
+        nseqs +=1
+        seq_names.append(h)
 
-            s = sequence_to_int_array(s, fill_value=fill_value)
-            snps = (consensus!=s) & (s!=fill_value)
-            right = n_snps + np.sum(snps)
-            filled_positions.append(np.where(s==fill_value)[0])
+        if(len(s)!=align_length):
+            raise ValueError('Fasta file appears to have sequences of different lengths!')
 
-            if right >= (current_length/2):
-                current_length = current_length + INITIALISATION_LENGTH
-                row.resize(current_length)
-                col.resize(current_length)
-                val.resize(current_length)
+        s = sequence_to_int_array(s, fill_value=fill_value)
+        snps = (consensus!=s) & (s!=fill_value)
+        right = n_snps + np.sum(snps)
+        filled_positions.append(np.where(s==fill_value)[0])
 
-            row[n_snps:right] = r
-            col[n_snps:right] = np.flatnonzero(snps)
-            val[n_snps:right] = s[snps]
-            r += 1
-            n_snps = right
-    fh.close()
+        if right >= (current_length/2):
+            current_length = current_length + INITIALISATION_LENGTH
+            row.resize(current_length)
+            col.resize(current_length)
+            val.resize(current_length)
+
+        row[n_snps:right] = r
+        col[n_snps:right] = np.flatnonzero(snps)
+        val[n_snps:right] = s[snps]
+        r += 1
+        n_snps = right
+        if chunk_size and chunk_size==nseqs:
+            break
 
     if nseqs==0:
-        raise ValueError('No sequences found!')
+        return None
 
     row = row[0:right]
     col = col[0:right]
@@ -142,35 +139,50 @@ if __name__ == '__main__':
 
     # load entire alignment and the alignment of focal sequences (upper case -- probably not necessary)
     ref = sequence_to_int_array(SeqIO.read(args.reference, 'genbank').seq)
-    context_seqs_dict = calculate_snp_matrix(args.alignment, consensus=ref)
-    focal_seqs_dict = calculate_snp_matrix(args.focal_alignment, consensus = ref)
     alignment_length = len(ref)
-    print("Done reading the alignments.")
 
-    # calculate number of masked sites in either set
-    mask_count_focal = np.array([len(x) for x in focal_seqs_dict['filled_positions']])
-    mask_count_context = {s: len(x) for s,x in zip(context_seqs_dict['names'], context_seqs_dict['filled_positions'])}
+    fh_focal = open(args.focal_seqs, 'rt')
+    focal_seqs = SimpleFastaParser(fh_focal):
+    focal_seqs_dict = calculate_snp_matrix(focal_seqs, consensus = ref)
 
-    # for each context sequence, calculate minimal distance to focal set, weigh with number of N/- to pick best sequence
-    d = np.array(calculate_distance_matrix(context_seqs_dict['snps'], focal_seqs_dict['snps'], consensus = context_seqs_dict['consensus']))
-    closest_match = np.argmin(d+mask_count_focal/alignment_length, axis=1)
-    print("Done finding closest matches.")
-
-    minimal_distance_to_focal_set = {}
-    for context_index, focal_index in enumerate(closest_match):
-        minimal_distance_to_focal_set[context_seqs_dict['names'][context_index]] = (d[context_index, focal_index], focal_seqs_dict["names"][focal_index])
-
-    # for each focal sequence with close matches (using the index), we list all close contexts
-    close_matches = defaultdict(list)
-    for seq in minimal_distance_to_focal_set:
-        close_matches[minimal_distance_to_focal_set[seq][1]].append(seq)
-
-    for f in close_matches:
-        shuffle(close_matches[f])
-        close_matches[f].sort(key=lambda x: minimal_distance_to_focal_set[x][0] + mask_count_context[x]/alignment_length)
+    fh_seqs = open(args.alignment, 'rt')
+    seqs = SimpleFastaParser(fh_seqs):
 
     # export priorities
-    with open(args.output, 'w') as fh:
+    fh_out = open(args.output, 'w'):
+
+
+    chunk_size=10000
+    chunk_count = 0
+    while True:
+        context_seqs_dict = calculate_snp_matrix(seqs, consensus=ref, chunk_size=chunk_size)
+        if context_seqs_dict is None:
+            break
+
+        print("Reading the alignments.", chunk_count)
+
+        # calculate number of masked sites in either set
+        mask_count_focal = np.array([len(x) for x in focal_seqs_dict['filled_positions']])
+        mask_count_context = {s: len(x) for s,x in zip(context_seqs_dict['names'], context_seqs_dict['filled_positions'])}
+
+        # for each context sequence, calculate minimal distance to focal set, weigh with number of N/- to pick best sequence
+        d = np.array(calculate_distance_matrix(context_seqs_dict['snps'], focal_seqs_dict['snps'], consensus = context_seqs_dict['consensus']))
+        closest_match = np.argmin(d+mask_count_focal/alignment_length, axis=1)
+        print("Done finding closest matches.")
+
+        minimal_distance_to_focal_set = {}
+        for context_index, focal_index in enumerate(closest_match):
+            minimal_distance_to_focal_set[context_seqs_dict['names'][context_index]] = (d[context_index, focal_index], focal_seqs_dict["names"][focal_index])
+
+        # for each focal sequence with close matches (using the index), we list all close contexts
+        close_matches = defaultdict(list)
+        for seq in minimal_distance_to_focal_set:
+            close_matches[minimal_distance_to_focal_set[seq][1]].append(seq)
+
+        for f in close_matches:
+            shuffle(close_matches[f])
+            close_matches[f].sort(key=lambda x: minimal_distance_to_focal_set[x][0] + mask_count_context[x]/alignment_length)
+
         for i, seqid in enumerate(context_seqs_dict['names']):
             # use distance as negative priority
             # penalize masked (N or -) -- 333 masked sites==one mutations
@@ -178,4 +190,10 @@ if __name__ == '__main__':
             # currently each position in this lists reduced priority by 0.2, i.e. 5 other sequences == one mutation
             position = close_matches[minimal_distance_to_focal_set[seqid][1]].index(seqid)
             priority = -minimal_distance_to_focal_set[seqid][0] - 0.1*position
-            fh.write(f"{seqid}\t{priority:1.2f}\n")
+            fh_out.write(f"{seqid}\t{priority:1.2f}\n")
+
+        chunk_count += 1
+
+    fh_out.close()
+    fh_seqs.close()
+    fh_focal.close()
