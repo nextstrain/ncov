@@ -131,13 +131,13 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--alignment", type=str, required=True, help="FASTA file of alignment")
-    parser.add_argument("--reference", type = str, required=True, help="reference sequence")
+    parser.add_argument("--reference", type = str, required=True, help="reference sequence (fasta)")
     parser.add_argument("--focal-alignment", type = str, required=True, help="focal smaple of sequences")
     parser.add_argument("--output", type=str, required=True, help="FASTA file of output alignment")
     args = parser.parse_args()
 
     # load entire alignment and the alignment of focal sequences (upper case -- probably not necessary)
-    ref = sequence_to_int_array(SeqIO.read(args.reference, 'genbank').seq)
+    ref = sequence_to_int_array(SeqIO.read(args.reference, 'fasta').seq)
     alignment_length = len(ref)
 
     fh_focal = open(args.focal_alignment, 'rt')
