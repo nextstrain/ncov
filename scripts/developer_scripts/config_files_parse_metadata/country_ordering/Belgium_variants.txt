@@ -181,3 +181,5 @@ Dilsen-Stokken	Dilsen-Stokkem
 Pont-À-Celles	Pont-à-Celles
 Lille (Antwerpen)	Lille BE
 Wallonie	Wallonia
+Westflanders	West-Vlaanderen
+Flemishbrabant	Vlaams-Brabant

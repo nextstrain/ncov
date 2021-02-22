@@ -700,6 +700,7 @@ location	Sangalkam
 
 # Thies
 location	Mbour
+location	Saly Portudal
 
 # Diourbel
 location	Touba
@@ -1646,6 +1647,7 @@ location	Limay
 location	Montigny le Bretonneux
 location	Noisy le Roi
 location	Cergy
+location	Cergy Pontoise
 location	Guyancourt
 location	Saint Germain en Laye
 location	Pontoise
@@ -1659,6 +1661,7 @@ location	Suresnes
 location	Puteaux
 location	Essonne
 location	Boulogne Billancourt
+location	Arpajon
 location	Argenteuil
 location	Colombes
 location	Clamart
@@ -1688,6 +1691,7 @@ location	Creteil
 location	Aulnay Sous Bois
 location	Bry sur Marne
 location	Seine-Port
+location	Montfermeil
 location	Plessis Trevise
 location	Moussy Le Neuf
 location	Compans
@@ -1704,6 +1708,7 @@ location	Chateau-Thierry
 location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
+location	Laon
 location	Amiens
 location	Cambrai
 location	Thiant
@@ -2661,6 +2666,10 @@ location	Chavannes-Renens
 location	Renens
 location	Lutry
 
+# Fribourg
+location	Le Mouret
+location	Fribourg
+
 # Jura
 location	Saignelegier
 location	Boncourt
@@ -2683,17 +2692,23 @@ location	Himmelried
 location	Nunningen
 location	Hochwald
 location	Seewen
-location	St.Pantaleon
+location	St. Pantaleon
 location	Nuglar
 location	Kestenholz
 location	Dulliken
 
 # Bern
+location	Orvin
+location	Ipsach
 location	Kallnach
+location	Evilard
+location	Biel
 location	Moutier
+location	Gasel
 location	Burgdorf
 location	Oberhofen
 location	Wasen Im Emmental
+location	Goldswil
 
 # Basel-Stadt
 location	Basel
@@ -2743,39 +2758,84 @@ location	Rheinfelden
 location	Magden
 location	Möhlin
 location	Glashütten
+location	Rothrist
+location	Aarburg
 location	Wallbach
 location	Oftringen
 location	Wegenstetten
 location	Zofingen
 location	Frick
 location	Staffelbach
+location	Riniken
 location	Dottikon
+location	Untersiggenthal
+location	Spreitenbach
 
 # Lucerne
+location	Grosswangen
 location	Wolhusen
+location	Gunzwil
 location	Horw
 
 # Uri
 location	Bauen
 
 # Schaffhausen
+location	Flurlingen
 location	Schaffhausen
 
 # Zürich
 location	Birmensdorf
+location	Niederhasli
 location	Zürich
+location	Thalwil
+location	Wallisellen
+location	Lufingen
+location	Dubendorf
+location	Bassersdorf
+location	Volketswil
+location	Nanikon
 location	Seuzach
+location	Hinwil
 
 # Schwyz
 location	Merlischachen
 location	Küssnacht Am Rigi
 location	Wollerau
 
+# Ticino
+location	Purasca
+location	Lugano
+location	Pregassona
+
+# Glarus
+location	Bilten
+location	Niederurnen
+location	Filzbach
+
+# Thurgau
+location	Frauenfeld
+location	Wangi
+location	Munchwilen
+location	Wilen bei Wil
+
+# Sankt Gallen
+location	Rheintal
+location	Buchs
+location	Kriessern
+location	Altstatten
+location	Rebstein
+location	Widnau
+location	St Gallen
+
 # Graubünden
 location	Flims Dorf
 location	Chur
+location	Landquart
+location	Trimmis
 location	Jenaz
 location	Champfer
+location	Zernez
 
 ### Norway
 # Vestland
@@ -2818,7 +2878,6 @@ location	Hannover
 
 # Baden-Wuerttemberg
 location	Weil Am Rhein
-location	Rümmingen
 location	Lörrach
 location	Grenzach-Wyhlen
 location	Bad Krozingen
@@ -2841,6 +2900,7 @@ location	Tuebingen
 location	Konstanz
 location	Sigmaringen
 location	Ulm
+location	Rammingen
 
 # Hesse
 location	Wiesbaden
@@ -2950,7 +3010,9 @@ location	Palermo
 
 # Molise
 location	Isernia
+location	Frosolone
 location	Campobasso
+location	Colletorto
 
 # Campania
 location	Naples
@@ -2977,6 +3039,8 @@ location	Jönköping
 # Vorarlberg
 location	Bludenz
 location	Feldkirch
+location	Gofis
+location	Rankweil
 location	Hohenems
 location	Dornbirn
 location	Bregenz
@@ -3494,6 +3558,9 @@ location	Povenets
 location	Kazhma
 location	Podporozhye
 
+# Tver
+location	Torzhok
+
 # Murmansk
 location	Murmansk
 location	Severomorsk
@@ -3506,6 +3573,14 @@ location	Oryol
 
 # Tula Region
 location	Novomoskovsk
+
+# Belgorod Region
+location	Grayvoron
+location	Belgorod
+location	Prokhorovka
+location	Stary Oskol
+location	Novy Oskol
+location	Valuyki
 
 # Moscow Oblast
 location	Uvarovka
@@ -4022,6 +4097,7 @@ location	Balneario Camburiu
 location	Joinville
 
 # Goiás
+location	Aparecida de Goiania
 location	Goiania
 location	Santa Barbara de Goias
 location	Ceres BR
@@ -4050,6 +4126,7 @@ location	Estrela do Norte
 location	Santo Anastacio
 location	Emilianopolis
 location	Presidente Prudente
+location	Andradina
 location	Taciba
 location	Adamantina
 location	Taruma
@@ -4091,6 +4168,7 @@ location	Hortolandia
 location	Itariri
 location	Juquitiba
 location	Campinas
+location	Vargem Grande Paulista
 location	Mococa
 location	Peruibe
 location	Mogi-Guacu
@@ -4129,6 +4207,7 @@ location	Rio Grande Da Serra
 location	Sao Vicente
 location	Poa
 location	Santos
+location	Suzano
 location	Guarujá
 location	Santa Isabel
 location	Mogi Das Cruzes
@@ -4715,7 +4794,7 @@ location	Grays Harbor County
 location	Pacific County
 location	Clallam County
 location	Jefferson County WA
-location	Mason County
+location	Mason County WA
 location	San Juan County
 location	Thurston County
 location	Cowlitz County
@@ -4938,7 +5017,7 @@ location	Angelina County
 location	Nacogdoches County
 location	Bowie County
 location	Harrison County
-location	Cass County
+location	Cass County TX
 location	Panola County
 location	Jefferson County TX
 location	Jasper County
@@ -4961,7 +5040,7 @@ location	Bremer County
 location	Buchanan County
 location	Fayette County IA
 location	Winneshiek County
-location	Johnson County
+location	Johnson County IA
 location	Clayton County
 location	Allamakee County
 location	Dubuque County
@@ -5004,7 +5083,6 @@ location	Saint Louis County
 location	St. Louis MO
 
 # Wisconsin
-location	Crawford County
 location	Saint Croix County
 location	Polk County WI
 location	Pierce County WI
@@ -5021,6 +5099,7 @@ location	Chippewa County WI
 location	Bayfield County
 location	Sawyer County
 location	La Crosse County
+location	Crawford County WI
 location	Vernon County
 location	Jackson County WI
 location	Grant County WI
@@ -5082,7 +5161,9 @@ location	Kewaunee County
 location	Door County
 
 # Illinois
+location	Massac County
 location	Pulaski County
+location	Johnson County IL
 location	Union County IL
 location	Williamson County IL
 location	Saline County
@@ -5095,23 +5176,50 @@ location	White County
 location	Perry County IL
 location	Monroe County IL
 location	Washington County IL
+location	Wayne County IL
+location	Wabash County
 location	St. Clair County IL
 location	Clinton County IL
+location	Marion County IL
 location	Madison County IL
 location	Bond County
 location	Fayette County IL
+location	Crawford County IL
+location	Effingham County
+location	Jersey County
+location	Montgomery County IL
+location	Macoupin County
+location	Cumberland County
 location	Clark County IL
+location	Greene County IL
+location	Shelby County IL
+location	Christian County
+location	Pike County IL
+location	Scott County
 location	Morgan County IL
+location	Sangamon County
 location	Douglas County IL
+location	Macon County
+location	Brown County IL
 location	Cass County IL
 location	Adams County IL
+location	Logan County
+location	Champaign County
 location	Schuyler County IL
+location	Vermilion County
+location	Mason County IL
 location	Hancock County
 location	McDonough County
 location	Fulton County IL
+location	Tazewell County
+location	Iroquois County
 location	Peoria County
 location	Warren County IL
+location	Knox County
+location	Marshall County IL
 location	Kankakee County
+location	Putnam County IL
+location	Lasalle County
 location	Bureau County
 location	Will County
 location	Rock Island County
@@ -5145,7 +5253,7 @@ location	Conecuh County
 location	Henry County
 location	Crenshaw County
 location	Butler County
-location	Pike County
+location	Pike County AL
 location	Barbour County
 location	Wilcox County
 location	Lowndes County
@@ -5180,7 +5288,7 @@ location	Marion County AL
 location	Cherokee County
 location	Winston County
 location	Cullman County
-location	Marshall County
+location	Marshall County AL
 location	Morgan County AL
 location	Dekalb County AL
 location	Lawrence County
@@ -5304,7 +5412,7 @@ location	Monroe County NY
 location	Steuben County
 location	Ontario County
 location	Yates County
-location	Wayne County
+location	Wayne County NY
 location	Schuyler County NY
 location	Seneca County
 location	Chemung County
@@ -5327,7 +5435,7 @@ location	Delaware County
 location	Herkimer County
 location	Sullivan County
 location	Hamilton County NY
-location	Fulton County
+location	Fulton County NY
 location	Schoharie County
 location	Montgomery County NY
 location	Franklin County NY
@@ -5347,12 +5455,12 @@ location	Kings County NY
 location	Brooklyn
 location	Saratoga County
 location	Bronx
-location	Warren County
+location	Warren County NY
 location	Queens
 location	Westchester County
 location	New Rochelle
+location	Putnam County NY
 location	Essex County NY
-location	Putnam County
 location	Dutchess County
 location	New Hyde Park
 location	Columbia County NY
@@ -5537,7 +5645,9 @@ division	Maldives
 division	Kyrgyzstan
 
 ### India
+division	Kerala
 division	Tamil Nadu
+division	Goa
 division	Karnataka
 division	Andhra Pradesh
 division	Telangana
@@ -6224,7 +6334,6 @@ division	Luxembourg
 division	Geneva
 division	Vaud
 division	Neuchâtel
-division	Freiburg
 division	Fribourg
 division	Jura
 division	Solothurn
@@ -6276,9 +6385,17 @@ division	Hovedstaden
 division	Copenhagen
 
 ### Liechtenstein
+division	Vaduz
 division	Liechtenstein
+division	Schaan
+division	Planken
+division	Eschen
+division	Gamprin-Bendern
+division	Mauren
+division	Schellenberg
 
 ### Germany
+division	Herzogenrath
 division	Saarland
 division	Rheinland-Pfalz
 division	North Rhine Westphalia
@@ -6330,8 +6447,16 @@ division	Apulia
 division	Malta
 
 ### Slovenia
+division	Kranjska Gora
+division	Jesenice
+division	Ziri
+division	Zelezniki
+division	Skofija Loka
 division	Kranj
 division	Slovenia
+division	Ljubljana
+division	Kamnik
+division	Trebnje
 division	Velenje
 division	Novo Mesto
 division	Celje
@@ -6498,15 +6623,19 @@ division	Montenegro
 division	Albania
 
 ### Hungary
+division	Vas
 division	Győr-Moson-Sopron County
 division	Somogy County
 division	Balatonfured
 division	Veszprém County
 division	Baranya County
+division	Komárom-Esztergom
+division	Fejer
 division	Central Hungary
 division	Balassagyarmat
 division	Pest County
 division	Bács-Kiskun County
+division	Nógrád
 division	Kecskemet
 division	Hungary
 division	Szeged
@@ -6712,6 +6841,7 @@ division	Murmansk
 division	Kaluga
 division	Oryol
 division	Tula Region
+division	Belgorod Region
 division	Moscow Oblast
 division	Yaroslavl
 division	Lipetsk
@@ -6941,6 +7071,9 @@ division	Curacao
 ### Aruba
 division	Aruba
 
+### Sint Maarten
+division	Sint Maarten
+
 ################
 
 # North America
@@ -7071,8 +7204,15 @@ division	North America
 division	Bermuda
 
 ### USA
+division	Howland Island
+division	Baker Island
+division	Johnson Atoll
+division	Kingman Reef
+division	Palmyra Atoll
+division	Jarvis Island
 division	Hawaii
 division	Alaska
+division	Midway Islands
 division	Grand Princess 2nd cruise
 division	Grand Princess
 division	Oregon
@@ -7117,6 +7257,7 @@ division	Pennsylvania
 division	Washington DC
 division	Maryland
 division	Delaware
+division	Navassa Island
 division	New Jersey
 division	New York
 division	Connecticut
@@ -7128,6 +7269,7 @@ division	Maine
 division	Puerto Rico
 division	Virgin Islands
 division	Diamond Princess
+division	Wake Island
 
 ### Canada
 division	British Columbia
@@ -7296,6 +7438,7 @@ country	Venezuela
 country	Trinidad and Tobago
 country	Curacao
 country	Aruba
+country	Sint Maarten
 
 # North America
 country	Panama
