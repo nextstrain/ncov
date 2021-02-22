@@ -141,7 +141,7 @@ if __name__ == '__main__':
     ref = sequence_to_int_array(SeqIO.read(args.reference, 'genbank').seq)
     alignment_length = len(ref)
 
-    fh_focal = open(args.focal_seqs, 'rt')
+    fh_focal = open(args.focal_alignment, 'rt')
     focal_seqs = SimpleFastaParser(fh_focal)
     focal_seqs_dict = calculate_snp_matrix(focal_seqs, consensus = ref)
 
