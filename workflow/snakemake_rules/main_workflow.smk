@@ -121,6 +121,8 @@ if "use_nextalign" in config and config["use_nextalign"]:
             "benchmarks/align{origin}.txt"
         conda: config["conda_environment"]
         threads: 8
+        resources:
+            mem_mb = 3000
         shell:
             """
             nextalign \
@@ -486,7 +488,10 @@ rule proximity_score:
         "logs/subsampling_proximity_{build_name}_{focus}.txt"
     benchmark:
         "benchmarks/proximity_score_{build_name}_{focus}.txt"
+    params:
+        chunk_size=10000
     resources:
+        # Memory scales at ~0.15 MB * chunk_size (e.g., 0.15 MB * 10000 = 1.5GB).
         mem_mb = 4000
     conda: config["conda_environment"]
     shell:
@@ -495,6 +500,7 @@ rule proximity_score:
             --reference {input.reference} \
             --alignment {input.alignment} \
             --focal-alignment {input.focal_alignment} \
+            --chunk-size {params.chunk_size} \
             --output {output.proximities} 2>&1 | tee {log}
         """
 
@@ -566,6 +572,8 @@ if "use_nextalign" in config and config["use_nextalign"]:
             "benchmarks/align_{build_name}.txt"
         conda: config["conda_environment"]
         threads: 8
+        resources:
+            mem_mb = 3000
         shell:
             """
             nextalign \
@@ -732,6 +740,8 @@ rule ancestral:
         "logs/ancestral_{build_name}.txt"
     params:
         inference = config["ancestral"]["inference"]
+    resources:
+        mem_mb = 4000
     conda: config["conda_environment"]
     shell:
         """
