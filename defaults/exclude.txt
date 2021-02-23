@@ -1522,3 +1522,9 @@ Lebanon/LAU-R148/2020
 
 # misdated 2012 instead of 2021; reached out to submitter
 SouthAfrica/KRISP-K008526/2021
+
+# duplicate; additional info was: refseq hCoV-19/Wuhan/WIV04/2019|GISAID accession no. EPI_ISL_402124; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1614102889023200
+Wuhan/WH-CD/2020
+
+# lab sequence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1614102889023200
+mouse/Wuhan/LG/2020
