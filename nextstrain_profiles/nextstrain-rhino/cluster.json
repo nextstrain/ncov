@@ -9,14 +9,15 @@
     },
     "align": {
         "partition": "-p campus-new",
-        "memory": "8192",
+        "time": "00:45:00",
+        "memory": "4096",
         "cores": 8
     },
     "tree": {
         "partition": "-p campus-new",
         "time": "2:00:00",
         "memory": "16384",
-        "cores": 4
+        "cores": 8
     },
     "refine": {
         "partition": "-p campus-new",
