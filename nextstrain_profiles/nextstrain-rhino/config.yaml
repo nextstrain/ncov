@@ -27,7 +27,8 @@ cluster-config: nextstrain_profiles/nextstrain-rhino/cluster.json
 # Submit jobs to the cluster with SLURM's DRMAA bindings. The string associated
 # with this key tells SLURM how to map cluster resources with those defined in
 # the cluster config above.
-drmaa: " {cluster.partition} --nodes=1 --ntasks=1 --mem={cluster.memory} --cpus-per-task={cluster.cores} --tmp={cluster.disk} --time={cluster.time}"
+default-resources: mem_mb=256
+drmaa: " {cluster.partition} --nodes=1 --ntasks=1 --mem={resources.mem_mb} --cpus-per-task={threads} --time={cluster.time}"
 
 # NOTE: Use the settings from the next block if DRMAA is not an option.
 # Use a custom script to evaluate the status of jobs on the cluster. This
@@ -57,4 +58,6 @@ jobname: "{rulename}.{jobid}.sh"
 # should use on the cluster. These settings override the hardcoded values in the
 # Snakemake rules. For the rhino cluster, it is difficult to get a node with
 # more than 4 cores.
-set-threads: tree=4
+set-threads:
+  - align=8
+  - tree=8

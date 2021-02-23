@@ -5,10 +5,14 @@ custom_rules:
 
 # These parameters are only used by the `export_for_nextstrain` rule and shouldn't need to be modified.
 # To modify the s3 _source_ bucket, specify this directly in the `inputs` section of the config.
-# P.S. These are intentionally set as top-level keys as this allows command-line overrides. 
+# P.S. These are intentionally set as top-level keys as this allows command-line overrides.
 S3_DST_BUCKET: "nextstrain-ncov-private"
 S3_DST_COMPRESSION: "xz"
 S3_DST_ORIGINS: ["gisaid"]
+
+genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
+use_nextalign: true
+conda_environment: "workflow/envs/nextstrain_with_nextalign.yaml"
 
 # NOTE for shepherds -- there are commented out inputs here, you can
 # uncomment them to start the pipeline at that stage.
@@ -20,7 +24,7 @@ inputs:
     metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
     sequences: "s3://nextstrain-ncov-private/sequences.fasta.gz"
     # ---------------------- NOTE --------------------------
-    # PR 550 changed the path of intermediate files on 
+    # PR 550 changed the path of intermediate files on
     # the S3 bucket to include the origin (e.g. _gisaid).
     # Some of these files may not yet exist!
     # ------------------------------------------------------
@@ -30,7 +34,7 @@ inputs:
     # to-exclude: "s3://nextstrain-ncov-private/to-exclude_gisaid.txt.xz"
     # masked: "s3://nextstrain-ncov-private/masked_gisaid.fasta.fasta.xz"
     # filtered: "s3://nextstrain-ncov-private/filtered_gisaid.fasta.xz"
-  
+
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
 # These subsampling schemes are defined at the bottom of this file.

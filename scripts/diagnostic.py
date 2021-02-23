@@ -1,5 +1,5 @@
 """
-Mask initial bases from alignment FASTA
+Run a number QC checks on an alignment. these involve divergence from a reference, clusters of mutations, and completeness
 """
 import argparse, gzip, sys
 sys.path.insert(0,'.')
@@ -8,7 +8,7 @@ import numpy as np
 from Bio.SeqIO.FastaIO import SimpleFastaParser
 from Bio.Seq import Seq
 from Bio import AlignIO, SeqIO
-from priorities import sequence_to_int_array
+from get_distance_to_focal_set import sequence_to_int_array
 from augur.utils import read_metadata
 from datetime import datetime
 

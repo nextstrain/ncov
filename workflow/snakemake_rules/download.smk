@@ -94,19 +94,6 @@ rule download_diagnostic:
         aws s3 cp {params.diagnostics_address} - | {params.deflate} > {output.diagnostics:q}
         """
 
-rule download_refiltered:
-    message: "Downloading quality (re-)filtered files from {params.address} -> {output.sequences}"
-    output:
-        sequences = "results/precomputed-aligned-filtered{origin}.fasta"
-    conda: config["conda_environment"]
-    params:
-        address = lambda w: config["inputs"][_trim_origin(w.origin)]["aligned-filtered"],
-        deflate = lambda w: _infer_decompression(config["inputs"][_trim_origin(w.origin)]["aligned-filtered"])
-    shell:
-        """
-        aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
-        """
-
 
 rule download_masked:
     message: "Downloading aligned & masked FASTA from {params.address} -> {output.sequences}"

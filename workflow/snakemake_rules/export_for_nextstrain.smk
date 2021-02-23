@@ -60,8 +60,38 @@ rule export_all_regions:
             --latlong {input.lat_longs}
         """
 
+
 rule all_mutation_frequencies:
     input: expand("results/{build_name}/nucleotide_mutation_frequencies.json", build_name=BUILD_NAMES)
+
+rule mutation_summary:
+    message: "Summarizing {input.alignment}"
+    input:
+        alignment = rules.align.output.alignment,
+        insertions = rules.align.output.insertions,
+        translations = rules.align.output.translations,
+        reference = config["files"]["alignment_reference"],
+        genemap = config["files"]["annotation"]
+    output:
+        mutation_summary = "results/mutation_summary{origin}.tsv"
+    log:
+        "logs/mutation_summary{origin}.txt"
+    params:
+        outdir = "results/translations",
+        basename = "{origin}"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/mutation_summary.py \
+            --alignment {input.alignment} \
+            --insertions {input.insertions} \
+            --directory {params.outdir} \
+            --basename {params.basename} \
+            --reference {input.reference} \
+            --genemap {input.genemap} \
+            --output {output.mutation_summary} 2>&1 | tee {log}
+        """
+
 
 #
 # Rules for custom auspice exports for the Nextstrain team.
@@ -131,9 +161,9 @@ rule upload:
         expand("results/sequence-diagnostics_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
         expand("results/flagged-sequences_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
         expand("results/to-exclude_{origin}.txt", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
-        expand("results/aligned-filtered_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),     # from `rule refilter`
         expand("results/masked_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
         expand("results/filtered_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
+        expand("results/mutation_summary_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary`
     params:
         s3_bucket = config["S3_DST_BUCKET"],
         compression = config["S3_DST_COMPRESSION"]
