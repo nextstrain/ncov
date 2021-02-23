@@ -778,12 +778,14 @@ location	Nsork
 
 ### South Africa
 # Western Cape Province
+location	Cape Agulhas
 location	Mossel Bay
 location	Hessequa
 location	Garden Route
 location	Mitchells Plain
 location	Khayelitsha
 location	Knysna
+location	Swellendam
 location	Cape Town Metro
 location	George
 location	Stellenbosch
@@ -791,6 +793,7 @@ location	Cape Town
 location	Tygerberg
 location	Bitou
 location	Cape Winelands
+location	Breede Valley
 location	Kannaland
 location	Oudtshoorn
 location	Prince Albert
@@ -1427,6 +1430,7 @@ location	Cambrils
 location	Solsona
 location	Jorba
 location	Calafell
+location	Santa Margarida de Montbui
 location	Cardona
 location	Hostalrich
 location	Sant Joan Vilatorrada
@@ -1437,6 +1441,7 @@ location	Berga
 location	San Vicente de Castellet
 location	Sant Fruitos de Bages
 location	Navas
+location	Navarcles
 location	Vallirana
 location	Sant Andreu de la Barca
 location	Castelldefels
@@ -1515,6 +1520,7 @@ location	Sant Vicenç de Montalt
 location	Caldes d'Estrac
 location	Arenys de Munt
 location	Arenys de Mar
+location	Sant Jaume de Llierca
 location	San Pol de Mar
 location	Calella
 location	Fogars de la Selva
@@ -5985,6 +5991,7 @@ division	Sierra Leone
 
 ### Guinea
 division	Conakry
+division	Guinea
 
 ### Liberia
 division	Liberia
@@ -6985,6 +6992,7 @@ division	Arica and Parinacota
 division	Tarija
 division	Oruro
 division	Santa Cruz
+division	Bolivia
 division	Beni
 division	Pando
 

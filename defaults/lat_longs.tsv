@@ -559,6 +559,7 @@ location	Brecht	51.3495582	4.6393435
 location	Breclav	48.7594008	16.8813137
 location	Bredene	51.23890495	2.972576946828359
 location	Bree	51.138202	5.631877
+location	Breede Valley	-33.63565065	19.358449645517894
 location	Breendonk	51.042441	4.321611
 location	Bregenz	47.5025779	9.7472924
 location	Breitenbach	47.4078339	7.5442563
@@ -702,6 +703,7 @@ location	Canoas CR	8.56429535	-82.88464012507875
 location	Canovelles	41.6173948	2.28288
 location	Canoves i Samalus	41.7072824	2.338253622217338
 location	Cañuelas	-35.0540248	-58.7617379
+location	Cape Agulhas	-34.8332036	19.9999325
 location	Cape Town	-33.928992	18.417396
 location	Cape Town Metro	-33.970973	18.510306
 location	Cape Winelands	-33.6357743	19.4574432
@@ -2715,6 +2717,7 @@ location	Nauders	46.89014505	10.542293187555815
 location	Nauheim	49.9452137	8.4535626
 location	Navajo County	35.1819775	-110.3549451
 location	Navalmoral de la Mata	39.8928306	-5.5401199
+location	Navarcles	41.7531567	1.9033612
 location	Navarrete	42.4289697	-2.5616234
 location	Navas	41.8989233	1.8767736
 location	Navas de San Juan	38.183649	-3.3137589
@@ -3534,6 +3537,7 @@ location	Sant Esteve de Palautordera	41.7040768	2.4343426
 location	Sant Feliu de Codines	41.6885036	2.1646769
 location	Sant Fost de Campsentelles	41.5122172	2.2379134
 location	Sant Fruitos de Bages	41.7532735	1.8749418
+location	Sant Jaume de Llierca	42.2119833	2.6074259
 location	Sant Joan Despi	41.3667951	2.0570346
 location	Sant Joan Vilatorrada	41.7422073	1.803625
 location	Sant Pere de Vilamajor	41.6843288	2.3900497
@@ -3559,6 +3563,7 @@ location	Santa Fe AR	-31.61799171769444	-60.70471255354044
 location	Santa Fe ES	37.18715273934768	-3.720580462243735
 location	Santa Isabel	-23.3194222	-46.2271903
 location	Santa Margalida	39.7033676	3.1026602
+location	Santa Margarida de Montbui	41.5746303	1.6087408
 location	Santa Maria	-29.6860512	-53.8069214
 location	Santa Maria de Cayon	43.30976	-3.85548
 location	Santa Maria de Guia de Gran Canaria	28.1390522	-15.6318282
@@ -3891,6 +3896,7 @@ location	Suzano	-23.5427842	-46.3108391
 location	Suzhou	31.289911	120.538521
 location	Svobodny (Amur)	51.377354	128.13475
 location	Svobodny (Sverdlovsk)	58.037659	60.394432
+location	Swellendam	-34.021111	20.441944
 location	Sydney	-33.870747	151.208359
 location	Sysert	56.5030175	60.8093215
 location	Tabira	-7.583661	-37.537735
@@ -4690,6 +4696,7 @@ division	Bocas del Toro	9.3040914	-82.12843877974339
 division	Bogota	4.629337	-74.095588
 division	Bolivar	8.753508	-74.367735
 division	Bolivar EC	-1.574489	-79.103194
+division	Bolivia	-17.0568696	-64.9912286
 division	Bordj-Bou-Arreridj	36.095506	4.661100173631754
 division	Borno State	12.1875392	13.3080034
 division	Borsod-Abaúj-Zemplén County	48.2939	20.6934
@@ -4999,6 +5006,7 @@ division	Guatemala	15.6356088	-89.8988087
 division	Guayas	-1.9575	-79.9193
 division	Guerrero	17.463444	-99.792052
 division	Guiglo	6.43034025	-7.5909032112704775
+division	Guinea	10.7226226	-10.7083587
 division	Gujarat	22.2587	71.1924
 division	Guna Yala	9.20030225	-77.93252243147037
 division	Gwangju	35.1595775	126.8515089
