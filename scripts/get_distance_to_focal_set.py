@@ -131,8 +131,9 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--alignment", type=str, required=True, help="FASTA file of alignment")
-    parser.add_argument("--reference", type = str, required=True, help="reference sequence (fasta)")
-    parser.add_argument("--focal-alignment", type = str, required=True, help="focal smaple of sequences")
+    parser.add_argument("--reference", type = str, required=True, help="reference sequence (FASTA)")
+    parser.add_argument("--focal-alignment", type = str, required=True, help="focal sample of sequences")
+    parser.add_argument("--chunk-size", type=int, default=10000, help="number of samples in the global alignment to process at once. Reduce this number to reduce memory usage at the cost of increased run-time.")
     parser.add_argument("--output", type=str, required=True, help="FASTA file of output alignment")
     args = parser.parse_args()
 
@@ -151,7 +152,7 @@ if __name__ == '__main__':
     fh_out = open(args.output, 'w')
     fh_out.write('strain\tclosest strain\tdistance\n')
 
-    chunk_size=10000
+    chunk_size=args.chunk_size
     chunk_count = 0
     while True:
         context_seqs_dict = calculate_snp_matrix(seqs, consensus=ref, chunk_size=chunk_size)
