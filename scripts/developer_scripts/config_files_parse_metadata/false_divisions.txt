@@ -269,3 +269,5 @@ Eindhoven	North Brabant
 Tangerang Selatan	Banten
 Tangerang	Banten
 Budapest	Central Hungary
+Wuhan	Hubei
+Gouy-Lez-Pieton	Wallonia

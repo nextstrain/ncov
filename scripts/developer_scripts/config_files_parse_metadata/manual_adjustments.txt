@@ -107,3 +107,12 @@ North America/USA/California/Alexandria, Va County	North America/USA/Virginia/Al
 North America/Caribbean/Cayman Islands/	Europe/United Kingdom/Cayman Islands/
 Europe/Austria/Vienna/Wien, Hagenbrunn, Langenzersdorf, Gerasdorf Bei Wien, Kaltenleutgeben, Perchtoldsdorf, Vösendorf, Mauerbach, Purkersdorf	Europe/Austria/Lower Austria/Korneuburg
 Asia/Indonesia/Tangerang Selatan/	Asia/Indonesia/Banten/South Tangerang
+North America/USA/New York/Passaic County	North America/USA/New Jersey/Passaic County	
+North America/Brazil/Mato Grosso do Sul/Santo Anastacio	North America/Brazil/São Paulo/Santo Anastacio
+Europe/Belgium/Steenokkereel/	Europe/Belgium/Halle-Vilvoorde/Steenokkerzeel
+Europe/Belgium/Kampenhot/	Europe/Belgium/Halle-Vilvoorde/Kampenhout
+Europe/Belgium/Lille/	Europe/Belgium/Turnhout/Lille BE
+Europe/Belgium/Sint-Josse-Ten-Noode/	Europe/Belgium/Brussels/Saint-Josse-ten-Noode
+Europe/Belgium/Kessel Lo/	Europe/Belgium/Leuven/Kessel-Lo
+Europe/Belgium/Leopolsdburg/	Europe/Belgium/Hasselt/Leopoldsburg
+Europe/Spain/Catalunya/Horcajo de los Montes	Europe/Spain/Castilla la Mancha/Horcajo de los Montes

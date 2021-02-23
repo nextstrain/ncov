@@ -1216,6 +1216,7 @@ location	Ambite
 location	Estremera
 
 # Castilla la Mancha
+location	Horcajo de los Montes
 location	Ayna
 location	Cuenca ES
 location	Socuellamos
@@ -1425,6 +1426,7 @@ location	Lleida
 location	Cambrils
 location	Solsona
 location	Jorba
+location	Calafell
 location	Cardona
 location	Hostalrich
 location	Sant Joan Vilatorrada
@@ -1477,6 +1479,7 @@ location	Badalona
 location	Aiguafreda
 location	Vic
 location	L'Ametlla del Valles
+location	Montornes del Valles
 location	Tiana
 location	Montgat
 location	Canovelles
@@ -1492,6 +1495,7 @@ location	Teia
 location	La Roca del Valles
 location	Canoves i Samalus
 location	Premia de Dalt
+location	Orrius
 location	Cardedeu
 location	Vilassar de Dalt
 location	Premia de Mar
@@ -1952,6 +1956,7 @@ location	Meulebeke
 location	Oostrozebeke
 location	Wielsbeke
 location	Ruiselede
+location	Wakken
 location	Dentergem
 
 # Tournai-Mouscron
@@ -2068,6 +2073,7 @@ location	Braine-le-Comte
 location	Hennuyères
 location	Écaussinnes
 location	Manage
+location	Feluy
 location	Bellecourt
 location	Seneffe
 
@@ -2133,6 +2139,7 @@ location	Mont-Saint-Guibert
 location	Chastre
 location	Pécrot
 location	Walhain
+location	Grez-Doiceau
 location	Chaumont-Gistoux
 location	Beauvechain
 location	Perwez
@@ -2169,6 +2176,7 @@ location	Neder-Over-Heembeek
 # Antwerpen
 location	Berchem
 location	Niel
+location	Schelle
 location	Hemiksem
 location	Hoboken
 location	Boom
@@ -2195,6 +2203,7 @@ location	Vremde
 location	Wommelgem
 location	's-Gravenwezel
 location	Ranst
+location	Wuustwezel
 location	Schilde
 location	Oelegem
 location	Broechem
@@ -2221,6 +2230,8 @@ location	Huizingen
 location	Londerzeel
 location	Wemmel
 location	Beersel
+location	Meise
+location	Linkebeek
 location	Strombeek-Bever
 location	Sint-Genesius-Rode
 location	Grimbergen
@@ -2236,6 +2247,7 @@ location	Sterrebeek
 location	Hoeilaart
 location	Melsbroek
 location	Wezembeek-Oppem
+location	Hofstade
 location	Steenokkerzeel
 location	Nossegem
 location	Overijse
@@ -2305,6 +2317,7 @@ location	Kortenberg
 location	Everberg
 location	Boortmeerbeek
 location	Huldenberg
+location	Leefdaal
 location	Veltem-Beisem
 location	Keerbergen
 location	Bertem
@@ -2370,6 +2383,7 @@ location	Arbre
 location	Ligny
 location	Boignee
 location	Sambreville
+location	Arsimont
 location	Aisemont
 location	Jemeppe-sur-Sambre
 location	Mettet
@@ -2394,6 +2408,7 @@ location	Evelette
 
 # Dinant
 location	Alle
+location	Beauraing
 location	Rochefort
 location	Heer
 location	Sorinnes
@@ -2487,6 +2502,9 @@ location	Zutendaal
 # Marche-en-Famenne
 location	Hotton
 
+# Wallonia
+location	Gouy-Lez-Pieton
+
 # Neufchâteau
 location	Saint-Hubert
 
@@ -2525,6 +2543,7 @@ location	Bressoux
 location	Herstal
 location	Dolembreux
 location	Wandre
+location	Harzé
 location	Fleron
 location	Saive
 location	Soumagne
@@ -2538,7 +2557,9 @@ location	Helchteren
 location	Overpelt
 location	Neerpelt
 location	Peer
+location	Achel
 location	Grote-Brogel
+location	Hamont-Achel
 location	Meeuwen-Gruitrode
 location	Kaulille
 location	Oudsbergen
@@ -3345,6 +3366,8 @@ location	Skierniewice County
 location	Kraków
 
 # Warminsko-Mazurskie
+location	Ostrodzki
+location	Elblaski
 location	Olsztyn
 
 # Mazowieckie
@@ -4000,6 +4023,26 @@ location	Nova Holinda
 location	Jaru
 location	Porto Velho
 
+# Mato Grosso do Sul
+location	Rondonopolis
+location	Iguatemi
+location	Ponta Pora
+location	Dourados
+location	Maracaju
+location	Jardim
+location	Tres Lagoas
+location	Anastacio
+location	Aquidauana
+location	Campo Grande
+location	Agua Clara
+location	Selviria
+location	Miranda
+location	Ladario
+location	Chapadao do Sul
+location	Figueirao
+location	Coxim
+location	Sonora
+
 # Rio Grande do Sul
 location	Itaqui
 location	Quaraí
@@ -4205,6 +4248,7 @@ location	Maua
 location	Ribeirao Pires
 location	Rio Grande Da Serra
 location	Sao Vicente
+location	Piracaia
 location	Poa
 location	Santos
 location	Suzano
@@ -5333,6 +5377,7 @@ location	Duval County
 location	Orange County FL
 location	Monroe County FL
 location	Miami-Dade County
+location	Broward County
 location	Palm Beach County
 location	Miami
 
@@ -5397,6 +5442,7 @@ location	Hudson County
 location	Essex County NJ
 location	Morris County NJ
 location	Bergen County
+location	Passaic County
 
 # New York
 location	Chautauqua County
@@ -5413,7 +5459,6 @@ location	Steuben County
 location	Ontario County
 location	Yates County
 location	Wayne County NY
-location	Schuyler County NY
 location	Seneca County
 location	Chemung County
 location	Cayuga County
@@ -5441,7 +5486,6 @@ location	Montgomery County NY
 location	Franklin County NY
 location	Ulster County
 location	Orange County NY
-location	Passaic County
 location	Richmond County
 location	Staten Island
 location	Greene County NY
@@ -6953,6 +6997,7 @@ division	Amazonas BR
 division	Rondonia
 division	Roraima
 division	Mato Grosso
+division	Mato Grosso do Sul
 division	Rio Grande do Sul
 division	Brazil
 division	Para
