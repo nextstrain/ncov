@@ -1519,3 +1519,6 @@ Lebanon/LAU-R249/2020
 Lebanon/LAU-R77/2020
 Lebanon/LAU-R115/2020
 Lebanon/LAU-R148/2020
+
+# misdated 2012 instead of 2021; reached out to submitter
+SouthAfrica/KRISP-K008526/2021
