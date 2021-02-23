@@ -1,5 +1,5 @@
 """
-Mask initial bases from alignment FASTA
+Run a number QC checks on an alignment. these involve divergence from a reference, clusters of mutations, and completeness
 """
 import argparse, gzip, sys
 sys.path.insert(0,'.')

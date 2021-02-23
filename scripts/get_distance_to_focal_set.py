@@ -1,5 +1,5 @@
 """
-Mask initial bases from alignment FASTA
+Calculate minimal distances between sequences in an alignment and a set of focal sequences
 """
 import argparse
 from random import shuffle
