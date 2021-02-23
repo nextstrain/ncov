@@ -1354,7 +1354,7 @@ if __name__ == '__main__':
 
     # Read current metadata
     #path_to_ncov = "../../" # TODO: adjust file structure properly
-    with open("data/metadata.tsv") as myfile:
+    with open("data/downloaded_gisaid.tsv") as myfile:
         metadata = myfile.readlines()
 
     # Read orderings and lat_longs

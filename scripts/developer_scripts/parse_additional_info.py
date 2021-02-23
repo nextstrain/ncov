@@ -586,7 +586,7 @@ def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, 
 
 # Iterate over every info given and search for known patterns, or provide interactive interface for manual processing
 def check_additional_info(additional_info, path_to_config_files):
-    metadata = read_metadata(path_to_nextstrain + "ncov/data/metadata.tsv", additional_info)
+    metadata = read_metadata(path_to_nextstrain + "ncov/data/downloaded_gisaid.tsv", additional_info)
     if metadata == None:
         return []
     ordering = read_ordering_file(path_to_nextstrain + "ncov/defaults/color_ordering.tsv")
