@@ -113,17 +113,17 @@ if "use_nextalign" in config and config["use_nextalign"]:
             translations = expand("results/translations/seqs{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
         params:
             outdir = "results/translations",
-            bin = config["nextalign_bin"],
             genes = ','.join(config.get('genes', ['S'])),
             basename = "seqs{origin}"
         log:
             "logs/align{origin}.txt"
         benchmark:
             "benchmarks/align{origin}.txt"
+        conda: config["conda_environment"]
         threads: 8
         shell:
             """
-            {params.bin} \
+            nextalign \
                 --jobs={threads} \
                 --reference {input.reference} \
                 --genemap {input.genemap} \
@@ -504,6 +504,7 @@ rule priority_score:
         sequence_index = rules.index_sequences.output.sequence_index,
     output:
         priorities = "results/{build_name}/priorities_{focus}.tsv"
+    conda: config["conda_environment"]
     shell:
         """
         python3 scripts/priorities.py \
@@ -557,17 +558,17 @@ if "use_nextalign" in config and config["use_nextalign"]:
             translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
         params:
             outdir = "results/{build_name}/translations",
-            bin = config["nextalign_bin"],
             genes = ','.join(config.get('genes', ['S'])),
             basename = "aligned"
         log:
             "logs/align_{build_name}.txt"
         benchmark:
             "benchmarks/align_{build_name}.txt"
+        conda: config["conda_environment"]
         threads: 8
         shell:
             """
-            {params.bin} \
+            nextalign \
                 --jobs={threads} \
                 --reference {input.reference} \
                 --genemap {input.genemap} \
