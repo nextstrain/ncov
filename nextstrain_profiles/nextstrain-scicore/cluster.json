@@ -3,7 +3,7 @@
     "time": "00:29:00",
     "qos": "30min",
     "n": 1,
-    "mem": "8G"
+    "mem": "16G"
   },
   "ancestral": {
     "mem": "32G"
@@ -24,9 +24,6 @@
     "mem": "16G",
     "qos": "6hours",
     "time": "05:59:00"
-  },
-  "proximity_score": {
-    "mem": "4G"
   },
   "filter":{
     "qos": "6hours",
