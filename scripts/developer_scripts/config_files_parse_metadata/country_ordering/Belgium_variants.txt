@@ -183,3 +183,5 @@ Lille (Antwerpen)	Lille BE
 Wallonie	Wallonia
 Westflanders	West-Vlaanderen
 Flemishbrabant	Vlaams-Brabant
+Meeuwen	Meeuwen-Gruitrode
+Gouy-Lez-Pieton	Gouy-lez-Piéton

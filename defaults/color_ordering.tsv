@@ -1368,6 +1368,7 @@ location	Antella
 location	Llombai
 location	La Pobla de Vallbona
 location	Olleria
+location	L’Eliana
 location	Massalaves
 location	Carlet
 location	Segorbe
@@ -1380,6 +1381,7 @@ location	Alaquas
 location	Carcaixent
 location	Beniganim
 location	Quart de Poblet
+location	Paterna
 location	Algemesi
 location	Alzira
 location	Soneja
@@ -1390,6 +1392,7 @@ location	Albal
 location	Godella
 location	Sollana
 location	Valencia ES
+location	Vinalesa
 location	Bonrepos i Mirambell
 location	Tavernes Blanques
 location	Museros
@@ -1418,8 +1421,15 @@ location	Xeraco
 location	Benirredra
 location	Gandia
 location	Piles
+location	Alfas del Pi
+location	Benidorm
+location	Polop
+location	La Nucia
+location	Callosa de Sarria
 location	Oliva
+location	Burriana
 location	Castellón
+location	Altea
 location	Castello de la Plana
 location	Castellon de la Plana
 location	Puzol
@@ -1452,6 +1462,7 @@ location	Santa Coloma de Cervello
 location	Rubi
 location	Sant Joan Despi
 location	San Cugat del Valles
+location	Esplugues de Llobregat
 location	El Prat de Llobregat
 location	Moia
 location	L'Hospitalet de Llobregat
@@ -1586,6 +1597,7 @@ location	Quimper
 location	Chateaulin
 location	Morlaix
 location	Saint Pierre Quiberon
+location	Paimpol
 location	Noyal Pontivy
 location	Etables sur Mer
 location	Arradon
@@ -1599,6 +1611,7 @@ location	Cayenne BRE
 location	Dinan
 location	Melesse
 location	Betton
+location	Vitre
 location	Fougères
 location	Rennes
 
@@ -1648,7 +1661,9 @@ location	Chambrey Les Tours
 location	Blois
 location	Dreux
 location	Abondant
+location	Romorantin
 location	Orléans
+location	Mehun sur Yevre
 location	Craon
 
 # Ile de France
@@ -1666,6 +1681,7 @@ location	Le Chesnay
 location	Orsay
 location	Garches
 location	Hauts-de-Seine
+location	Val D'Oise
 location	Meudon la Forêt
 location	Suresnes
 location	Puteaux
@@ -1719,6 +1735,7 @@ location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
 location	Laon
+location	Saint Quentin
 location	Amiens
 location	Cambrai
 location	Thiant
@@ -1787,6 +1804,7 @@ location	Contamines
 location	Vienne
 
 # Bourgogne-France-Comté
+location	Nevers
 location	St Clément
 location	Montcenis
 location	Chalon sur Saone
@@ -1911,6 +1929,7 @@ location	Leffinge
 location	Gistel
 location	Bredene
 location	Oudenburg
+location	Eernegem
 location	Ichtegem
 location	Ettelgem
 location	De Haan
@@ -1943,6 +1962,7 @@ location	Moorsele
 location	Herthoek
 location	Menen
 location	Wevelgem
+location	Heule
 location	Kuurne
 location	Hulste
 location	Harelbeke
@@ -2087,6 +2107,8 @@ location	Seneffe
 location	Geraardsbergen
 location	Herzele
 location	Denderleeuw
+location	Welle
+location	Borsbeke
 location	Erpe-Mere
 location	Lede
 
@@ -2214,6 +2236,7 @@ location	Schilde
 location	Oelegem
 location	Broechem
 location	Emblem
+location	Massenhoven
 location	Brecht
 location	Zandhoven
 location	Zoersel
@@ -2263,6 +2286,7 @@ location	Kampenhout
 # Charleroi
 location	Forchies-la-Marche
 location	Fontaine-l'Évêque
+location	Gouy-lez-Piéton
 location	Trazegnies
 location	Courcelles
 location	Goutroux
@@ -2350,6 +2374,7 @@ location	Linden
 location	Bierbeek
 location	Begijnendijk
 location	Lubbeek
+location	Nieuwrode
 location	Meldert
 location	Boutersem
 location	Aarschot
@@ -2438,6 +2463,7 @@ location	Meerle
 location	Lille BE
 location	Ramsel
 location	Herentals
+location	Noorderwijk
 location	Merksplas
 location	Gierle
 location	Herselt
@@ -2508,9 +2534,6 @@ location	Zutendaal
 # Marche-en-Famenne
 location	Hotton
 
-# Wallonia
-location	Gouy-Lez-Pieton
-
 # Neufchâteau
 location	Saint-Hubert
 
@@ -2570,9 +2593,11 @@ location	Meeuwen-Gruitrode
 location	Kaulille
 location	Oudsbergen
 location	Bocholt
+location	Opglabbeek
 location	Bree
 location	Dilsen-Stokkem
 location	Kinrooi
+location	Stokkem
 
 # Arlon
 location	Sélange
@@ -3328,6 +3353,7 @@ location	Ząbkowice Śląskie
 # Wielkopolskie
 location	Nowy Tomysl
 location	Duszniki
+location	Buk
 location	Jeziorki
 location	Cieradz Koscielny
 location	Niepruszewo
@@ -4847,6 +4873,7 @@ location	Jefferson County WA
 location	Mason County WA
 location	San Juan County
 location	Thurston County
+location	Island County
 location	Cowlitz County
 location	Kitsap County
 location	Clark County WA
@@ -5413,6 +5440,9 @@ location	Horry County
 # West Virginia
 location	Kanawha
 
+# North Carolina
+location	Mecklenburg County
+
 # Virginia
 location	Frederick County
 location	Alexandria
@@ -5465,6 +5495,7 @@ location	Steuben County
 location	Ontario County
 location	Yates County
 location	Wayne County NY
+location	Schuyler County NY
 location	Seneca County
 location	Chemung County
 location	Cayuga County
@@ -6727,7 +6758,7 @@ division	North Bačka District
 division	Ferizaj
 division	Kosovo
 division	Pristina
-division	Kosovska Mitrovica
+division	Mitrovica
 
 ### North Macedonia
 division	Debar

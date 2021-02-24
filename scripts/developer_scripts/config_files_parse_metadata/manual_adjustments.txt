@@ -116,3 +116,4 @@ Europe/Belgium/Sint-Josse-Ten-Noode/	Europe/Belgium/Brussels/Saint-Josse-ten-Noo
 Europe/Belgium/Kessel Lo/	Europe/Belgium/Leuven/Kessel-Lo
 Europe/Belgium/Leopolsdburg/	Europe/Belgium/Hasselt/Leopoldsburg
 Europe/Spain/Catalunya/Horcajo de los Montes	Europe/Spain/Castilla la Mancha/Horcajo de los Montes
+Europe/France/Val D'Oise/	Europe/France/Ile de France/Val D'Oise
