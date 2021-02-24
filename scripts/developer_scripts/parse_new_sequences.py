@@ -290,7 +290,7 @@ def collect_labs(data, table_file_name):
         if country not in lab_dictionary:
             lab_dictionary[country] = {}
         if description in lab_dictionary[country]:
-            print("Warning: lab description is found two times in excel table in same country (" + country + ", " + description + ")" )
+            print("Warning: lab description is found two times in excel table in same country (" + str(country) + ", " + str(description) + ")" )
         lab_dictionary[country][description.lower()] = handle
 
 
