@@ -1528,3 +1528,15 @@ Wuhan/WH-CD/2020
 
 # lab sequence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1614102889023200
 mouse/Wuhan/LG/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1614127615034900
+Egypt/C-CEIRS-2MOH/2020
+Tunisia/5008/2020
+Tunisia/9111/2020
+Tunisia/COV1663/2020
+Israel/CVL1198/2020
+Turkey/HSGM-2004082/2020
+Mexico/ROO-InDRE_243/2020
+USA/PR-CDC-S32/2020
+Serbia/Belgrade-2515952809/2020
+England/LOND-12F7D4C/2021
