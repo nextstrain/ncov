@@ -5746,6 +5746,7 @@ division	Uttar Pradesh
 division	Delhi
 division	Haryana
 division	Uttarakhand
+division	Chandigarh
 division	Punjab IN
 division	Himachal Pradesh
 division	Jammu and Kashmir
@@ -6846,6 +6847,7 @@ division	Estonia
 ### Finland
 division	Helsinki
 division	Uusimaa
+division	Southern Finland
 division	Finland
 
 ### Belarus
@@ -7288,15 +7290,8 @@ division	North America
 division	Bermuda
 
 ### USA
-division	Howland Island
-division	Baker Island
-division	Johnson Atoll
-division	Kingman Reef
-division	Palmyra Atoll
-division	Jarvis Island
 division	Hawaii
 division	Alaska
-division	Midway Islands
 division	Grand Princess 2nd cruise
 division	Grand Princess
 division	Oregon
@@ -7341,7 +7336,6 @@ division	Pennsylvania
 division	Washington DC
 division	Maryland
 division	Delaware
-division	Navassa Island
 division	New Jersey
 division	New York
 division	Connecticut
@@ -7353,7 +7347,6 @@ division	Maine
 division	Puerto Rico
 division	Virgin Islands
 division	Diamond Princess
-division	Wake Island
 
 ### Canada
 division	British Columbia
