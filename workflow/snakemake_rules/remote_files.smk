@@ -2,7 +2,7 @@
 """
 from functools import partial
 from snakemake.remote import HTTP, S3
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urljoin
 
 
 SCHEME_REMOTES = {
@@ -44,8 +44,13 @@ def path_or_url(path_or_url, stay_on_remote = False, keep_local = False):
     if url.scheme not in SCHEME_REMOTES:
         raise ValueError(f"Unsupported URL scheme: {path_or_url!r} (supported schemes are {set(SCHEME_REMOTES)})")
 
+    # Snakemake's providers want scheme-less URLs without even the leading
+    # hierarchy root prefix (//).  urljoin() will discard the query and
+    # fragment (including their leading delimiters) if they're empty.
+    schemeless_url = urljoin(url.netloc + url.path, f"?{url.query}#{url.fragment}")
+
     return SCHEME_REMOTES[url.scheme](
-        url.netloc + url.path,
+        schemeless_url,
         stay_on_remote = stay_on_remote,
         keep_local     = keep_local,
     )
