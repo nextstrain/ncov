@@ -78,7 +78,7 @@ rule mutation_summary:
         "logs/mutation_summary{origin}.txt"
     params:
         outdir = "results/translations",
-        basename = "{origin}"
+        basename = "seqs{origin}"
     conda: config["conda_environment"]
     shell:
         """
