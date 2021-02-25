@@ -12,7 +12,6 @@ S3_DST_ORIGINS: ["gisaid"]
 
 genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
 use_nextalign: true
-conda_environment: "workflow/envs/nextstrain_with_nextalign.yaml"
 
 # NOTE for shepherds -- there are commented out inputs here, you can
 # uncomment them to start the pipeline at that stage.
