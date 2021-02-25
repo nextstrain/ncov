@@ -10,6 +10,9 @@ S3_DST_BUCKET: "nextstrain-data/ncov-intermediates"
 S3_DST_COMPRESSION: "xz"
 S3_DST_ORIGINS: ["genbank"]
 
+refine:
+   root: "Wuhan/WH01/2019"
+
 genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
 use_nextalign: true
 conda_environment: "workflow/envs/nextstrain_with_nextalign.yaml"
