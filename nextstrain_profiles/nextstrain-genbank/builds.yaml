@@ -21,8 +21,8 @@ conda_environment: "workflow/envs/nextstrain_with_nextalign.yaml"
 # subsampling
 inputs:
   - name: genbank
-    metadata: "s3://nextstrain-data/ncov-ingest/metadata.tsv.gz"
-    sequences: "s3://nextstrain-data/ncov-ingest/sequences.fasta.gz"
+    metadata: "s3://nextstrain-data/ncov-ingest/genbank_metadata.tsv.gz"
+    sequences: "s3://nextstrain-data/ncov-ingest/genbank_sequences.fasta.gz"
     # ---------------------- NOTE --------------------------
     # PR 550 changed the path of intermediate files on
     # the S3 bucket to include the origin (e.g. _gisaid).
