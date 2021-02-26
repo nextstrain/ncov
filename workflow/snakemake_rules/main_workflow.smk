@@ -18,84 +18,6 @@ rule combine_input_metadata:
         python3 scripts/combine_metadata.py --metadata {input.metadata} --origins {params.origins} --output {output.metadata} 2>&1 | tee {log}
         """
 
-rule excluded_sequences:
-    message:
-        """
-        Generating fasta file of (config-defined) excluded sequences from input {input.sequences}
-        """
-    input:
-        sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
-        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
-        include = config["files"]["exclude"]
-    output:
-        sequences = "results/excluded{origin}.fasta"
-    log:
-        "logs/excluded{origin}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur filter \
-            --sequences {input.sequences} \
-            --metadata {input.metadata} \
-	        --min-length 50000 \
-            --include {input.include} \
-            --output {output.sequences} 2>&1 | tee {log}
-        """
-
-rule align_excluded:
-    message:
-        """
-        Aligning excluded sequences to {input.reference}
-          - gaps relative to reference are considered real
-        """
-    input:
-        sequences = rules.excluded_sequences.output.sequences,
-        reference = config["files"]["reference"]
-    output:
-        alignment = "results/excluded_alignment{origin}.fasta"
-    log:
-        "logs/align_excluded{origin}.txt"
-    threads: 2
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur align \
-            --sequences {input.sequences} \
-            --reference-sequence {input.reference} \
-            --output {output.alignment} \
-            --nthreads {threads} \
-            --remove-reference 2>&1 | tee {log}
-        """
-
-rule diagnose_excluded:
-    message: "Scanning excluded sequences {input.alignment} for problematic sequences"
-    input:
-        alignment = "results/excluded_alignment{origin}.fasta",
-        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
-        reference = config["files"]["reference"]
-    output:
-        diagnostics = "results/excluded-sequence-diagnostics{origin}.tsv",
-        flagged = "results/excluded-flagged-sequences{origin}.tsv",
-        to_exclude = "results/check_exclusion{origin}.txt"
-    log:
-        "logs/diagnose-excluded{origin}.txt"
-    params:
-        mask_from_beginning = config["mask"]["mask_from_beginning"],
-        mask_from_end = config["mask"]["mask_from_end"]
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/diagnostic.py \
-            --alignment {input.alignment} \
-            --metadata {input.metadata} \
-            --reference {input.reference} \
-            --mask-from-beginning {params.mask_from_beginning} \
-            --mask-from-end {params.mask_from_end} \
-            --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostics} \
-            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
-        """
-
 if "use_nextalign" in config and config["use_nextalign"]:
     rule align:
         message:
@@ -875,22 +797,6 @@ rule clades:
             --mutations {input.nuc_muts} {input.aa_muts} \
             --clades {input.clades} \
             --output-node-data {output.clade_data} 2>&1 | tee {log}
-        """
-
-rule pangolin:
-    message: "Adding internal clade labels"
-    input:
-        tree = rules.refine.output.tree,
-    output:
-        clade_data = "results/{build_name}/pangolin.json"
-    log:
-        "logs/pangolin_{build_name}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/add_pangolin_lineages.py \
-            --tree {input.tree} \
-            --output {output.clade_data}
         """
 
 rule subclades:
