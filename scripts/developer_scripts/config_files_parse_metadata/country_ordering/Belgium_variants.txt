@@ -185,3 +185,5 @@ Westflanders	West-Vlaanderen
 Flemishbrabant	Vlaams-Brabant
 Meeuwen	Meeuwen-Gruitrode
 Gouy-Lez-Pieton	Gouy-lez-Piéton
+Meeuwen-Gruitorde	Meeuwen-Gruitrode
+Korktrijk	Kortrijk

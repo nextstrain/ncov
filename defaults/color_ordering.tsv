@@ -541,6 +541,7 @@ location	Beijing
 
 # Anhui
 location	Fuyang
+location	Lu'An
 location	Hefei
 location	Suzhou
 
@@ -576,6 +577,11 @@ location	Hanoi
 location	Hong Kong
 
 ### Indonesia
+# North Sumatra
+location	Binjai
+location	Medan
+location	Mandailing
+
 # South Sumatra
 location	Palembang
 
@@ -2508,6 +2514,7 @@ location	Tessenderlo
 location	Halen
 location	Gingelom
 location	Velm
+location	Duras
 location	Ham
 location	Paal
 location	Lummen
@@ -2591,10 +2598,12 @@ location	Grote-Brogel
 location	Hamont-Achel
 location	Meeuwen-Gruitrode
 location	Kaulille
+location	Hamont
 location	Oudsbergen
 location	Bocholt
 location	Opglabbeek
 location	Bree
+location	Dilsen
 location	Dilsen-Stokkem
 location	Kinrooi
 location	Stokkem
@@ -4041,15 +4050,32 @@ location	Pailon
 
 ### Brazil
 # Amazonas BR
+location	Tabatinga
+location	Santo Antônio do Içá
+location	São Gabriel Da Cachoeira
 location	Carauari
+location	Jutaí
+location	Santa Isabel do Rio Negro
 location	Labrea
 location	Tapaua
+location	Anori
+location	Manicoré
 location	Caapiranga
 location	Manacapuru
 location	Manaquiri
+location	Careiro
 location	Iranduba
+location	Presidente Figueiredo
 location	Manaus
+location	Rio Preto Da Eva
+location	Autazes
+location	Nova Olinda do Norte
 location	Nova Holinda
+location	Itacoatiara
+location	Urucará
+location	Maués
+location	Barreirinha
+location	Parintins
 
 # Rondonia
 location	Jaru
@@ -4682,6 +4708,7 @@ location	Aligandí
 ### Costa Rica
 # Guanacaste
 location	Nicoya
+location	Santa Cruz
 location	Tilaran
 location	Bagaces
 location	Sardinal
@@ -4694,6 +4721,7 @@ location	Garabito
 location	Puerto Cortes
 location	Golfito
 location	Palmar
+location	Osa
 location	Piedras Blancas
 location	Buenos Aires
 location	Corredores
@@ -4716,6 +4744,7 @@ location	San Roque CR
 location	Quesada
 location	San Carlos
 location	Cutris
+location	Guatuso
 
 # Heredia
 location	Santo Domingo CR
@@ -4784,6 +4813,7 @@ location	Orosi
 location	Oreamuno
 location	Paraiso
 location	Carmen
+location	Jimenez
 location	Santa Rosa CR
 location	La Suiza
 location	Dulce Nombre
@@ -5921,6 +5951,7 @@ division	Mimaropa
 division	Calabarzon
 division	National Capital Region
 division	Manila
+division	Central Luzon
 
 ### Timor-Leste
 division	Timor-Leste
@@ -6166,6 +6197,7 @@ division	Gaborone
 division	Botswana
 division	Francistown
 division	Maun
+division	Kasane
 
 ### South Africa
 division	Western Cape Province

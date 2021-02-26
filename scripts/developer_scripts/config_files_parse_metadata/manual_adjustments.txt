@@ -117,3 +117,6 @@ Europe/Belgium/Kessel Lo/	Europe/Belgium/Leuven/Kessel-Lo
 Europe/Belgium/Leopolsdburg/	Europe/Belgium/Hasselt/Leopoldsburg
 Europe/Spain/Catalunya/Horcajo de los Montes	Europe/Spain/Castilla la Mancha/Horcajo de los Montes
 Europe/France/Val D'Oise/	Europe/France/Ile de France/Val D'Oise
+Israel/Asia/Central/	Asia/Israel/Central/
+Israel/Asia/Asia/	Asia/Israel/Israel/
+Israel/Asia/Southern/	Asia/Israel/Southern/
