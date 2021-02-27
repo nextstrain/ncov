@@ -11,7 +11,7 @@
       "type": "categorical"
     },
     {
-      "key": "pangolin_lineage",
+      "key": "pango_lineage",
       "title": "PANGO Lineage",
       "type": "categorical"
     },
@@ -121,7 +121,7 @@
     "division",
     "location",
     "host",
-    "pangolin_lineage"
+    "pango_lineage"
   ],
   "panels": [
     "tree",
