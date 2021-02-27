@@ -143,28 +143,28 @@ subsampling:
     # Focal samples for region
     region_early:
       group_by: "division year month"
-      max_sequences: 800
+      max_sequences: 1050
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global_early:
       group_by: "country year month"
-      max_sequences: 600
+      max_sequences: 350
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "region_late"
-
+    # Focal samples for region
     region_late:
       group_by: "division year month"
-      max_sequences: 1700
+      max_sequences: 2100
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
     global_late:
       group_by: "country year month"
-      max_sequences: 1000
+      max_sequences: 700
       exclude: "--exclude-where 'region={region}'"
       sampling_scheme: "--probabilistic-sampling"
       priorities:
@@ -239,30 +239,30 @@ subsampling:
   # is the smallest resolution requied
   nextstrain_region_grouped_by_country:
     # Focal samples for region
-    region_late:
+    region_early:
       group_by: "country year month"
-      max_sequences: 1700
+      max_sequences: 1050
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
-    global_late:
+    global_early:
       group_by: "country year month"
-      max_sequences: 1000
+      max_sequences: 350
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
       priorities:
         type: "proximity"
         focus: "region_late"
     # Focal samples for region
-    region_early:
+    region_late:
       group_by: "country year month"
-      max_sequences: 800
+      max_sequences: 2100
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region!={region}'"
     # Contextual samples for region from the rest of the world
-    global_early:
+    global_late:
       group_by: "country year month"
-      max_sequences: 500
+      max_sequences: 700
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
       priorities:
