@@ -31,7 +31,7 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
     if path_file_name in first_files: #simple list
         return [line.strip() for line in file_content[1:]]
 
-    second_files = [path_to_config_files+fi for fi in ["wrong_regions.txt", "abbreviations.txt", "false_divisions.txt", "manual_adjustments.txt"] ]
+    second_files = [path_to_config_files+fi for fi in ["wrong_regions.txt", "abbreviations.txt", "false_divisions.txt"] ]
 
     if path_file_name in second_files: #dictionary, keys seperated from content with tabs
         content = {}
@@ -73,6 +73,22 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
             content[l[0]][l[1]].append(entry)
 
         return content
+
+    fourth_files = [path_to_config_files + fi for fi in ["manual_adjustments.txt"]]
+
+    if path_file_name in fourth_files: # 8 tabs
+        content = {}
+        for line in file_content[1:]:
+            if line == "\n":
+                continue
+            l = line.strip().split("\t")
+            k = "/".join(l[:4])
+            c = "/".join(l[4:])
+            if k in content:
+                print("Attention, duplicate found while reading " + file_name + ": " + k + " -> " + c + ", " + content[k])
+            content[k] = c
+        return content
+
 
 
 # Read ordering and lat_longs file and return as dictionary:
@@ -533,18 +549,13 @@ def correct_data(data, type, corrections, add_annotations = True): #TODO: add re
 def check_similar(ordering, name, type):
     diff_max = 0
     name_max = ""
-    for division in ordering:
-        if type == "division":
-            name0 = division
-        for location in ordering[division]:
-            if type == "location":
-                name0 = location
-            diff = SequenceMatcher(None, name, name0).ratio()
-            if name0 in name or name in name0:
-                diff = 0.8
-            if diff > diff_max:
-                diff_max = diff
-                name_max = name0
+    for name0 in ordering:
+        diff = SequenceMatcher(None, name, name0).ratio()
+        if name0 in name or name in name0:
+            diff = 0.8
+        if diff > diff_max:
+            diff_max = diff
+            name_max = name0
 
     if diff_max > 0.6:
         return name_max
@@ -851,7 +862,7 @@ def check_false_divisions(data):
                             if location in data[region][country] and location != division:
                                 div_as_loc[location] = (region, country, division)
                                 print("Unknown location found as division: " + bold(location) + " (true division: " + bold(division) + ")")
-                                print("(Suggestion: add " + location + " -> " + division + " to false_divisions.txt)")
+                                print("(Suggestion: add " + "[" + "\t".join([region, country, location, "", region, country, division, location]) + "]" + " to manual_adjustments.txt)")
 
     print("\n=============================\n")
 
@@ -870,6 +881,7 @@ def check_duplicate(data):
                 for location in data[region][country][division]:
                     if location in duplicates:
                         print("Known duplicate detected: " + bold(location))
+                        print("Please add [" + "\t".join([region, country, division, location, region, country, division, location + " " + abbreviations[division]]) + "] to manual_adjustments.txt")
                         location_correct = location + " " + abbreviations[division]
                         duplicate_locations.append((region, country, division, location, region, country, division, location_correct))
     data = correct_data(data, "location", duplicate_locations)
@@ -928,7 +940,7 @@ def check_duplicate(data):
                 cruise_ship_duplicates = cruise_ship_duplicates + 1
             else:
                 print("New duplicate location detected: " + bold(location + " (in both " + s + ")"))
-                print("(Suggestion: Add " + location + " to duplicates.txt)")
+                print("Suggestion: Add " + location + " to duplicates.txt")
 
             
             for (division, country, region) in location_to_division[location]:
@@ -995,7 +1007,7 @@ def check_for_missing(data):
                             s = s + " (only missing in lat_longs)"
                         else:
                             if name0 != "":
-                                s += " (similar name in same country: " + name0 + " - consider adding " + bold("division\t" + division + "\t" + name0 + "\t(" + region + ", " + country + ")") + " to variants.txt)"
+                                s += " (similar name in same country: " + bold(name0) + " - consider adding " + "[" + "\t".join([region, country, division, "*", region, country, name0, "*"]) + "]" + " to manual_adjustments.txt)"
                             if division in ordering["location"] or division in lat_longs["location"]:
                                 s = s + " (present as location)"
                     if country not in missing["division"]:
@@ -1017,7 +1029,7 @@ def check_for_missing(data):
 
                     if location not in ordering["location"] or location not in lat_longs["location"]:
                         s = bold(location)
-                        name0 = check_similar(hierarchical_ordering[region][country], location, "location") if hierarchical_ordering[region].get(country) is not None else ""
+                        name0 = check_similar(hierarchical_ordering[region][country][division], location, "location") if hierarchical_ordering[region].get(country) is not None else ""
                         if location not in ordering["location"] and location in lat_longs["location"]:
                             s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
                             if country not in data_clean[region]:
@@ -1030,7 +1042,7 @@ def check_for_missing(data):
                                     data_clean[region][country][division].append(location)
                         else: #only check for additional hints like "similar name" or "present as division" if not auto-added to color_ordering
                             if name0 != "":
-                                s += " (similar name in same country: " + name0 + " - consider adding " + bold("location\t" + location + "\t" + name0 + "\t(" + region + ", " + country + ", " + division + ")") + " to variants.txt)"
+                                s += " (similar name in same division: " + bold(name0) + " - consider adding " + "[" + "\t".join([region, country, division, location, region, country, division, name0]) + "]" + " to manual_adjustments.txt)"
                             if location in ordering["location"] and location not in lat_longs["location"]:
                                 s = s + " (only missing in lat_longs)"
                             if location in ordering["division"] or location in lat_longs["division"]:
