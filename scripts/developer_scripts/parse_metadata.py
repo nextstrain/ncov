@@ -82,6 +82,9 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
             if line == "\n":
                 continue
             l = line.strip().split("\t")
+            if len(l) < 8:
+                for i in range(8-len(l)):
+                    l.append("")
             k = "/".join(l[:4])
             c = "/".join(l[4:])
             if k in content:
