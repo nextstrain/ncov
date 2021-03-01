@@ -783,11 +783,11 @@ location	Bata
 location	Nsork
 
 ### Botswana
+# Central District BW
+location	Palapye
+
 # North-East District
 location	Masunga
-
-# Central District
-location	Palapye
 
 ### South Africa
 # Western Cape Province
@@ -850,10 +850,6 @@ location	uThukela
 location	uMzinyathi
 location	Zululand
 location	Amajuba
-
-### Zimbabwe
-# Zimbabwe
-location	Counties Manukau
 
 ### Egypt
 # Cairo
@@ -1266,6 +1262,7 @@ location	Casalarreina
 location	Ciruena
 location	Haro
 location	Badaran
+location	Banos de Rio Tobia
 location	San Vicente de la Sonsierra
 location	Najera
 location	Hormilleja
@@ -1273,6 +1270,8 @@ location	Camprovin
 location	Aleson
 location	Torrecilla en Cameros
 location	Navarrete
+location	Fuenmayor
+location	Medrano
 location	Nalda
 location	Albelda de Iregua
 location	Lardero
@@ -1282,7 +1281,9 @@ location	Clavijo
 location	Puente Madre
 location	Villamediana de Iregua
 location	Agoncillo
+location	Ausejo
 location	Herce
+location	Alcanadre
 location	Tudelilla
 location	Arnedo
 location	El Villar de Arnedo
@@ -1466,6 +1467,7 @@ location	Manresa
 location	Monistrol de Montserrat
 location	Berga
 location	San Vicente de Castellet
+location	Baga
 location	Sant Fruitos de Bages
 location	Navas
 location	Navarcles
@@ -1592,9 +1594,6 @@ location	Gibraltar
 
 # Wales
 location	Cardiff
-
-# United Kingdom
-location	Counties Manukau
 
 # England
 location	Derbyshire
@@ -6273,11 +6272,11 @@ division	Lobatse
 division	Southern East
 division	Gaborone
 division	Botswana
+division	Central District BW
 division	Francistown
 division	North-East District
 division	Maun
 division	Kasane
-division	Central District
 
 ### South Africa
 division	Western Cape Province
