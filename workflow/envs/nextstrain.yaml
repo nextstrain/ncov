@@ -8,6 +8,7 @@ dependencies:
   - fasttree
   - iqtree
   - mafft=7.471
+  - nextalign=0.1.6
   - pandas
   - psutil
   - python=3.7*
