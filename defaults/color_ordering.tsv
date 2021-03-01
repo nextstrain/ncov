@@ -782,6 +782,13 @@ location	Bata
 # Wele Nzas
 location	Nsork
 
+### Botswana
+# North-East District
+location	Masunga
+
+# Central District
+location	Palapye
+
 ### South Africa
 # Western Cape Province
 location	Cape Agulhas
@@ -843,6 +850,10 @@ location	uThukela
 location	uMzinyathi
 location	Zululand
 location	Amajuba
+
+### Zimbabwe
+# Zimbabwe
+location	Counties Manukau
 
 ### Egypt
 # Cairo
@@ -1582,6 +1593,9 @@ location	Gibraltar
 # Wales
 location	Cardiff
 
+# United Kingdom
+location	Counties Manukau
+
 # England
 location	Derbyshire
 location	Yorkshire
@@ -1602,6 +1616,7 @@ location	Brest
 location	Quimper
 location	Chateaulin
 location	Morlaix
+location	Lorient
 location	Saint Pierre Quiberon
 location	Paimpol
 location	Noyal Pontivy
@@ -1662,6 +1677,7 @@ location	Gueret
 # Centre-Val de Loire
 location	Fondettes
 location	Rouziers-de-Touraine
+location	Joue-Les-Tours
 location	Tours
 location	Chambrey Les Tours
 location	Blois
@@ -1745,6 +1761,7 @@ location	Saint Quentin
 location	Amiens
 location	Cambrai
 location	Thiant
+location	Valenciennes
 location	Somain
 location	Saint-Saulve
 location	Crespin
@@ -1758,6 +1775,7 @@ location	Lille FR
 location	Lyz-Les-Lannoy
 location	Leers
 location	Wambrechies
+location	Armentieres
 location	Roubaix
 location	Tourcoing
 location	Saint Omer
@@ -1931,6 +1949,7 @@ location	Geluwe
 # Oostende
 location	Westende
 location	Middelkerke
+location	Schore
 location	Leffinge
 location	Gistel
 location	Bredene
@@ -1956,9 +1975,12 @@ location	Aartrijke
 location	Zedelgem
 location	Oostkamp
 location	Sint-Michiels
+location	Jabbeke
+location	Varsenare
 location	Sint-Andries
 location	Assebroek
 location	Sint-Kruis
+location	Damme
 location	Blankenberge
 location	Zeebrugge
 location	Knokke-Heist
@@ -2031,6 +2053,7 @@ location	Assenede
 # Oudenaarde
 location	Wortegem-Petegem
 location	Ronse
+location	Brakel
 location	Bevere
 
 # Gent
@@ -2132,6 +2155,7 @@ location	Buggenhout
 location	Lokeren
 location	Stekene
 location	Sint-Gillis-Waas
+location	Kieldrecht
 location	Temse
 location	Bazel
 
@@ -2145,6 +2169,7 @@ location	Morlanwelz
 # Thuin
 location	Fontaine-Valmont
 location	Anderlues
+location	Nalinnes
 
 # Nivelles
 location	Rebecq
@@ -2209,6 +2234,7 @@ location	Neder-Over-Heembeek
 
 # Antwerpen
 location	Berchem
+location	Zwijndrecht
 location	Niel
 location	Schelle
 location	Hemiksem
@@ -2219,6 +2245,7 @@ location	Aartselaar
 location	Wilrijk
 location	Hoevenen
 location	Ekeren
+location	Rumst
 location	Kapellen
 location	Merksem
 location	Kontich
@@ -2247,6 +2274,7 @@ location	Brecht
 location	Zandhoven
 location	Zoersel
 location	Sint-Lenaarts
+location	Pulderbos
 location	Pulle
 location	Malle
 location	Oostmalle
@@ -2340,9 +2368,12 @@ location	Schriek
 location	Heist-op-den-Berg
 location	Itegem
 location	Booischot
+location	Wiekevorst
 
 # Philippeville
 location	Couvin
+location	Walcourt
+location	Florennes
 
 # Leuven
 location	Tervuren
@@ -2357,6 +2388,7 @@ location	Leefdaal
 location	Veltem-Beisem
 location	Keerbergen
 location	Bertem
+location	Sint-Agatha-Rode
 location	Haacht
 location	Wespelaar
 location	Winksele
@@ -2389,6 +2421,7 @@ location	Sint-Joris-Winge
 location	Kumtich
 location	Tielt-Winge
 location	Hoegaarden
+location	Rillaar
 location	Attenrode
 location	Molenbeek-Wersbeek
 location	Tienen
@@ -2405,12 +2438,14 @@ location	Eliksem
 location	Molenstede
 location	Neerlinter
 location	Kaggevinne
+location	Neerwinden
 location	Linter
 location	Kortenaken
 location	Waasmont
 location	Diest
 location	Landen BE
 location	Walshoutem
+location	Attenhoven
 location	Zoutleeuw
 location	Geetbets
 location	Rummen
@@ -2505,6 +2540,7 @@ location	Amay
 location	Yernée-Fraineux
 
 # Waremme
+location	Acosse
 location	Hannut
 location	Berloz
 location	Lamine
@@ -2607,6 +2643,7 @@ location	Dilsen
 location	Dilsen-Stokkem
 location	Kinrooi
 location	Stokkem
+location	Kessenich
 
 # Arlon
 location	Sélange
@@ -2901,6 +2938,9 @@ location	Zernez
 ### Norway
 # Vestland
 location	Bergen
+
+# Trondelag
+location	Trondheim
 
 ### Denmark
 # Faroe Islands
@@ -3214,6 +3254,13 @@ location	Vienna
 # Burgenland
 location	Eisenstadt-Umgebung
 
+### Croatia
+# Zagreb
+location	Zagreb
+
+# Osijek-Baranja
+location	Osijek
+
 ### Czech Republic
 # Plzeň Region
 location	Tachov
@@ -3417,10 +3464,17 @@ location	Grodzisk Mazowiecki
 location	Warszawa
 location	Brodno-Warszawa
 location	Radom
+location	Sokolow Podlaski
 
 ### Slovakia
+# Malacky
+location	Studienka
+
 # Nitra
 location	Hurbanovo
+
+# Nove Zamky
+location	Ulany nad Zitavou
 
 # Zilina
 location	Dolný Kubín
@@ -4243,9 +4297,15 @@ location	Echapora
 location	Marilia
 location	Ribeirao do Sul
 location	Ourinhos
+location	Lins
 location	Santa Cruz do Rio Pardo
 location	Aguas de Santa Barbara
+location	Bauru
+location	Lencois Paulista
 location	Jau
+location	Igaracu do Tiete
+location	Bocaina
+location	Dois Corregos
 location	Araraquara
 location	Cajati
 location	Cesário Lange
@@ -4957,6 +5017,7 @@ location	San Joaquin County
 location	Monterey County CA
 location	San Benito County
 location	Stanislaus County
+location	Modesto
 location	Nevada County
 location	Merced County
 location	Placer County
@@ -5047,6 +5108,7 @@ location	Ochiltree County
 location	Gray County
 location	Tom Green County
 location	Wheeler County
+location	Taylor
 location	Taylor County TX
 location	McCulloch County
 location	Kerr County
@@ -5062,6 +5124,7 @@ location	Llano County
 location	Atascosa County
 location	Comanche County
 location	Bexar County
+location	Lometa
 location	Comal County
 location	Hidalgo County
 location	Wilson County
@@ -5070,8 +5133,11 @@ location	Live Oak County
 location	Hays County
 location	Hood County
 location	Guadalupe County
+location	Cedar Park
 location	Parker County
 location	Travis County
+location	Gatesville
+location	Killeen
 location	Montague County
 location	Bee County
 location	Wise County
@@ -5083,20 +5149,27 @@ location	Belton
 location	Bell County
 location	Cameron County
 location	Kleberg County
+location	Temple
 location	Tarrant County
 location	Mclennan County
+location	Hewitt
+location	Waco
 location	Denton County
 location	Victoria County
+location	Rosebud
 location	Lavaca County
+location	Marlin
 location	Frisco
 location	Dallas County TX
 location	Calhoun County TX
 location	Burleson County
 location	Collin County
+location	Hearne
 location	Limestone County TX
 location	Robertson County
 location	Washington County TX
 location	Brazos County
+location	College Station
 location	Kaufman County
 location	Austin County
 location	Wharton County
@@ -5128,6 +5201,7 @@ location	Cass County TX
 location	Panola County
 location	Jefferson County TX
 location	Jasper County
+location	Georgetown
 
 # Minnesota
 location	Fillmore County
@@ -5503,6 +5577,7 @@ location	Burlington County
 location	Ocean County
 location	Monmouth County
 location	Middlesex County NJ
+location	Somerset County
 location	Union County NJ
 location	Hudson County
 location	Essex County NJ
@@ -5945,13 +6020,16 @@ division	New Taipei City
 division	Keelung
 
 ### Philippines
+division	Davao Region
 division	Zamboanga Peninsula
+division	Central Visayas
 division	Philippines
 division	Mimaropa
 division	Calabarzon
 division	National Capital Region
 division	Manila
 division	Central Luzon
+division	Cordillera Administrative Region
 
 ### Timor-Leste
 division	Timor-Leste
@@ -6196,8 +6274,10 @@ division	Southern East
 division	Gaborone
 division	Botswana
 division	Francistown
+division	North-East District
 division	Maun
 division	Kasane
+division	Central District
 
 ### South Africa
 division	Western Cape Province
@@ -6482,7 +6562,6 @@ division	Agder
 division	Vestfold Og Telemark
 division	Viken
 division	Trondelag
-division	Trondheim
 division	Innlandet
 division	Oslo
 division	Norway
@@ -6621,13 +6700,20 @@ division	Burgenland
 division	Pula
 division	Istria
 division	Croatia
+division	Krapina-Zagorje County
 division	Zagreb
 division	Varaždin County
 division	Varazdin
 division	Split
+division	Sisak-Moslavina County
 division	Koprivnica
+division	Bjelovar-Bilogora County
+division	Pozega-Slavonia County
+division	Brod-Posavina County
 division	Dubrovnik
-division	Osijek
+division	Osijek-Baranja County
+division	Osijek-Baranja
+division	Vukovar-Srijem County
 
 ### Czech Republic
 division	Plzeň Region
@@ -6693,6 +6779,7 @@ division	Podkarpackie
 
 ### Slovakia
 division	Kostoliste
+division	Malacky
 division	Bratislava
 division	Pezinok
 division	Miloslavov
@@ -7100,6 +7187,7 @@ division	Moquegua
 division	Arequipa
 division	Ica
 division	Cuzco
+division	Huancavelica
 division	Callao
 division	Lima
 division	Junin

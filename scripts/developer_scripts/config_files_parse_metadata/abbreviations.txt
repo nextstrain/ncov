@@ -92,3 +92,5 @@ Tierra del Fuego	AR
 Goiás	BR
 Mechelen	BE
 Limburg	NL
+Israel	IL
+Botswana	BW

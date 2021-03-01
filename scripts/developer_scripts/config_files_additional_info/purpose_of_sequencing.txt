@@ -36,3 +36,5 @@ Screened for Variants of Concern (VoC) with C19-SPAR-Seq	S dropout
 S gene screened	S dropout
 Returning traveller with S-gene dropout	S dropout
 S-gene dropout	S dropout
+Not S dropout	Not S dropout
+Baseline Surveillance	Not S dropout
