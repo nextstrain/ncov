@@ -97,6 +97,7 @@ Montaigu	Scherpenheuvel
 Spiere	Espierres
 Helkijn	Helchin
 Oudergem	Auderghem
+Auderghelm	Auderghem
 Sint-Agatha-Berchem	Berchem-Sainte-Agathe
 Brussel	Bruxelles
 Vorst	Forest
@@ -104,6 +105,7 @@ Elsene	Ixelles
 Sint-Jans-Molenbeek	Molenbeek-Saint-Jean
 Sint-Gillis	Saint-Gilles
 Sint-Joost-ten-Node	Saint-Josse-ten-Noode
+Sint-Joost-Ten-Node	Saint-Josse-ten-Noode
 Schaarbeek	Schaerbeek
 Ukkel	Uccle
 Watermaal-Bosvoorde	Watermael-Boitsfort
@@ -187,3 +189,7 @@ Meeuwen	Meeuwen-Gruitrode
 Gouy-Lez-Pieton	Gouy-lez-Piéton
 Meeuwen-Gruitorde	Meeuwen-Gruitrode
 Korktrijk	Kortrijk
+Zwijndracht	Zwijndrecht
+Florenne	Florennes
+Kortenborg	Kortenberg
+Berverlo	Beverlo
