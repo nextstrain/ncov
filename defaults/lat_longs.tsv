@@ -2342,6 +2342,8 @@ location	Loon	51.379197	5.443200
 location	Loon op zand	51.625527	5.070262
 location	Loredo	43.46128	-3.71962
 location	Lorena	-22.7367652	-45.1070876
+location	Lorena BR	-22.7367652	-45.1070876
+location	Lorena TX	31.3865592	-97.2155596
 location	Lorient	47.7477336	-3.3660907
 location	Lorraine	48.5222144	6.917528
 location	Los Andes	-32.8336867	-70.5981609
@@ -2653,6 +2655,7 @@ location	Mono County	37.9533927	-118.9398758
 location	Monona	43.056000	-89.330773
 location	Monovar	38.4387815	-0.8396316
 location	Monroe County	43.940837	-90.605424
+location	Monroe County AL	31.5593935	-87.3781004
 location	Monroe County FL	25.0405135	-80.8337157
 location	Monroe County IL	38.2722313	-90.1792484
 location	Monroe County NY	43.150094	-77.6810141
@@ -4385,6 +4388,7 @@ location	Vladimir	56.1288899	40.4075203
 location	Vladivostok	43.1150678	131.8855768
 location	Vlamertinge	50.853066	2.824175
 location	Vöcklabruck	48.0078587	13.6460378
+location	Voeren	50.7465564	5.8390140411473
 location	Voerendaal	50.8722592	5.913755707785212
 location	Volgograd	48.7081906	44.5153353
 location	Volketswil	47.3898617	8.690503
@@ -5009,11 +5013,13 @@ division	Donegal	54.92075415	-7.952385214651309
 division	Donostia-San Sebatian	43.306272	-1.979035
 division	Douala	4.0429408	9.706203
 division	Doľany	49.021347	20.647670680715226
+division	Drama	41.1499443	24.1468286
 division	Drenthe	52.846963	6.608915
 division	Dschang	5.4469923	10.053309
 division	Dubai	25.0750095	55.18876088183319
 division	Dublin	53.3431	-6.262191
 division	Dubrovnik	42.651307	18.102801
+division	Dubrovnik-Neretva County	42.7580845	17.3352326
 division	Duesseldorf	51.236437	6.809537
 division	Dupnitza	42.2613	23.1125
 division	Durango	24.019546	-104.658028
@@ -5049,6 +5055,7 @@ division	Estonia	59	26
 division	Ethiopia	9.1450	40.4897
 division	Europe	49.646237	10.799454
 division	Évora	38.5707742	-7.9092808
+division	Evros	40.0809716	23.978897
 division	Extremadura	39.1748426	-6.1529891
 division	Faiyum	29.340736999999997	30.61964337571458
 division	Faroe Islands	62.157709	-6.987672
@@ -5486,6 +5493,7 @@ division	Meath	53.649784350000004	-6.588529492009938
 division	Mechelen	51.033475	4.444398
 division	Mecklenburg-Vorpommern	53.7735064	12.5755471
 division	Medenine	33.3434395	10.4910529
+division	Medimurje County	46.4232963	16.4661353
 division	Medvedja	42.842459	21.5847305
 division	Melbourne	-37.8136	144.9631
 division	Melilla	35.291746	-2.938261
@@ -5808,6 +5816,7 @@ division	Rivers	4.8416028	6.8604088
 division	Rivne	50.6196175	26.2513165
 division	Riyadh	23.197563	45.243845
 division	Rocha	-34.0	-54.0
+division	Rodopi	41.07803825	25.491327963731663
 division	Roermond	51.1933903	5.9882649
 division	Roeselaere	50.9444948	3.124765
 division	Roeselare	50.9444948	3.124765
@@ -5896,9 +5905,11 @@ division	Shanghai	31.171447	121.429896
 division	Sharja	25.3525369	55.4378628
 division	Shoam	31.9958	34.9488
 division	Siauliu Apskritis	55.93985585	23.39385766209714
+division	Sibenik-Knin County	43.8410419	16.022628
 division	Sichuan	30.709229	102.693949
 division	Sicily	37.636932	14.193097
 division	Sidi Bouzid	34.881181	9.526359847182345
+division	Sidi Lahcen	33.7890814	-4.6804442
 division	Sierra Leone	8.6400349	-11.8400269
 division	Sihanoukville	10.616351	103.512278
 division	Siirt	37.911394	42.115166
@@ -6024,6 +6035,7 @@ division	Thailand	14.8971921	100.83273
 division	Thanh Hoa	20.026365	105.439044
 division	Thessaloniki	40.636023	22.943965
 division	Thies	14.791	-16.9359
+division	Thrace	40.7229413	22.9237909
 division	Thuin	50.326454	4.308720
 division	Thurgau	47.576816	9.072051
 division	Thuringia	50.7333163	11.0747905
@@ -6201,6 +6213,7 @@ division	Wicklow	52.9808	-6.0446
 division	Wielkopolskie	52.2800	17.3523
 division	Wisconsin	44.535145	-89.527762
 division	Wyoming	43.076	-107.2903
+division	Xanthi	41.1380289	24.8862688
 division	Xinjiang	42.4804953	85.4633464
 division	Yamalo-Nenets	67.1471631	74.3415488
 division	Yamanashi	35.6928452	138.6871263

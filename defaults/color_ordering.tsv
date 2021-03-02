@@ -2599,6 +2599,7 @@ location	Lanaken
 location	Rekem
 location	Maasmechelen
 location	Eisden
+location	Voeren
 
 # Virton
 location	Valansart
@@ -4379,7 +4380,7 @@ location	Taubate
 location	Pindamonhangaba
 location	Caraguatatuba
 location	Sao Sebastiao
-location	Lorena
+location	Lorena BR
 location	Cahoeira Paulista
 location	Cunha
 
@@ -5151,6 +5152,7 @@ location	Kleberg County
 location	Temple
 location	Tarrant County
 location	Mclennan County
+location	Lorena TX
 location	Hewitt
 location	Waco
 location	Denton County
@@ -5431,6 +5433,7 @@ location	Coffee County
 location	Dale County
 location	Conecuh County
 location	Henry County
+location	Monroe County AL
 location	Crenshaw County
 location	Butler County
 location	Pike County AL
@@ -6154,6 +6157,7 @@ division	Temara
 division	Rabat
 division	Salé
 division	Morocco
+division	Sidi Lahcen
 division	Ouarzazate
 
 ### Mali
@@ -6701,12 +6705,15 @@ division	Istria
 division	Croatia
 division	Krapina-Zagorje County
 division	Zagreb
+division	Sibenik-Knin County
 division	Varaždin County
 division	Varazdin
 division	Split
+division	Medimurje County
 division	Sisak-Moslavina County
 division	Koprivnica
 division	Bjelovar-Bilogora County
+division	Dubrovnik-Neretva County
 division	Pozega-Slavonia County
 division	Brod-Posavina County
 division	Dubrovnik
@@ -6894,12 +6901,17 @@ division	Eastern Region
 division	Southeastern Region
 
 ### Greece
-division	Greece
-division	Thessaloniki
-division	Central Greece
+division	South Aegean Region
 division	Athens
 division	Attica
-division	South Aegean Region
+division	Central Greece
+division	Greece
+division	Evros
+division	Thessaloniki
+division	Thrace
+division	Rodopi
+division	Xanthi
+division	Drama
 
 ### Lithuania
 division	Klaipedos Apskritis
