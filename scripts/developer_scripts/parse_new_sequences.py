@@ -167,11 +167,11 @@ def check_dates(data, today):
 
 
     print("\n----------------------------------------------\n")
-    print("Invalid sample dates (please check whether all are automatically excluded):")
+    print("Invalid sample dates (automatically excluded from total counts):")
     for strain in invalid_sample_date:
         print(strain + ": " + invalid_sample_date[strain])
 
-    print("\nSample date before clade:")
+    print("\nSample date before clade (automatically excluded from total counts):")
     for strain in suspicious_sample_date:
         print(strain + ": " + suspicious_sample_date[strain])
 
