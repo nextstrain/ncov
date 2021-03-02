@@ -614,6 +614,14 @@ def check_additional_info(additional_info, path_to_config_files):
 
         while True:
 
+            if info.lower().startswith("zip code") or info.lower().startswith("zipcode"):
+                print("Auto-add comment for " + bold(info))
+                for (id, strain) in strain_list:
+                    annotations_append.append("# " + strain + "\t" + id + "\t" + info_type + ": " + info)
+                    print("Add comment for " + id)
+                break
+
+
             # Special case:
             if (info.startswith("Resident of ") or info.startswith("resident of ")) and " tested in " in info:
                 if info.startswith("Resident of "):
