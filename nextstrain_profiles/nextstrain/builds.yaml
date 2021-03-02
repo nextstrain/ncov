@@ -31,7 +31,7 @@ inputs:
     # sequences: "s3://nextstrain-ncov-private/sequences_gisaid.fasta.gz"
     # aligned: "s3://nextstrain-ncov-private/aligned_gisaid.fasta.xz"
     # to-exclude: "s3://nextstrain-ncov-private/to-exclude_gisaid.txt.xz"
-    # masked: "s3://nextstrain-ncov-private/masked_gisaid.fasta.fasta.xz"
+    # masked: "s3://nextstrain-ncov-private/masked_gisaid.fasta.xz"
     # filtered: "s3://nextstrain-ncov-private/filtered_gisaid.fasta.xz"
 
 # Define locations for which builds should be created.
