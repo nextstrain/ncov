@@ -1689,3 +1689,6 @@ Israel/CVL-2764/2021
 Israel/CVL-2766/2021
 Israel/CVL-2767/2021
 Israel/CVL-2770/2021
+
+# Date before clade
+Australia/NSW4306/2020
