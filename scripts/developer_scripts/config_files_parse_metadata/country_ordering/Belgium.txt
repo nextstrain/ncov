@@ -101,7 +101,7 @@ Bornem
 	Bornem
 	Hingene
 	Mariekerke
-	Weert
+	Weert BE
 Duffel
 	Duffel
 Heist-op-den-Berg
@@ -1203,10 +1203,10 @@ Lierneux
 	Arbrefontaine
 	Bra
 	Lierneux
-Limbourg
+Limbourg BE
 	Bilstain
 	Goé
-	Limbourg
+	Limbourg BE
 Lontzen
 	Lontzen
 	Walhorn
