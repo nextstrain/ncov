@@ -355,14 +355,12 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = _get_unified_alignment,
         metadata = _get_unified_metadata,
         sequence_index = rules.index_sequences.output.sequence_index,
         include = config["files"]["include"],
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/{build_name}/sample-{subsample}.fasta",
         strains="results/{build_name}/sample-{subsample}.txt",
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
@@ -387,7 +385,6 @@ rule subsample:
     shell:
         """
         augur filter \
-            --sequences {input.sequences} \
             --metadata {input.metadata} \
             --sequence-index {input.sequence_index} \
             --include {input.include} \
@@ -403,7 +400,6 @@ rule subsample:
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
-            --output {output.sequences} \
             --output-strains {output.strains} 2>&1 | tee {log}
         """
 
@@ -468,10 +464,6 @@ def _get_subsampled_files(wildcards):
     ]
 
 rule combine_samples:
-    message:
-        """
-        Combine and deduplicate FASTAs
-        """
     input:
         sequences=_get_unified_alignment,
         sequence_index=rules.index_sequences.output.sequence_index,
