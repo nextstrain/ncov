@@ -417,14 +417,13 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = _get_unified_alignment,
         metadata = _get_unified_metadata,
         sequence_index = rules.index_sequences.output.sequence_index,
         include = config["files"]["include"],
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/{build_name}/sample-{subsample}.fasta"
+        strains = "results/{build_name}/sample-{subsample}.txt"
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
     params:
@@ -443,7 +442,6 @@ rule subsample:
     shell:
         """
         augur filter \
-            --sequences {input.sequences} \
             --metadata {input.metadata} \
             --sequence-index {input.sequence_index} \
             --include {input.include} \
@@ -459,7 +457,27 @@ rule subsample:
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
-            --output {output.sequences} 2>&1 | tee {log}
+            --output-strains {output.strains} 2>&1 | tee {log}
+        """
+
+rule extract_subsampled_sequences:
+    input:
+        sequences = _get_unified_alignment,
+        sequence_index = rules.index_sequences.output.sequence_index,
+        metadata = _get_unified_metadata,
+        include = "results/{build_name}/sample-{subsample}.txt",
+    output:
+        sequences = "results/{build_name}/sample-{subsample}.fasta"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
+            --metadata {input.metadata} \
+            --exclude-all \
+            --include {input.include} \
+            --output {output.sequences}
         """
 
 rule proximity_score:
@@ -514,27 +532,28 @@ def _get_subsampled_files(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
 
     return [
-        f"results/{wildcards.build_name}/sample-{subsample}.fasta"
+        f"results/{wildcards.build_name}/sample-{subsample}.txt"
         for subsample in subsampling_settings
     ]
 
 rule combine_samples:
-    message:
-        """
-        Combine and deduplicate FASTAs
-        """
     input:
-        _get_subsampled_files
+        sequences = _get_unified_alignment,
+        sequence_index = rules.index_sequences.output.sequence_index,
+        metadata = _get_unified_metadata,
+        include = _get_subsampled_files,
     output:
         sequences = "results/{build_name}/subsampled_sequences.fasta"
-    log:
-        "logs/subsample_regions_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/combine-and-dedup-fastas.py \
-            --input {input} \
-            --output {output} 2>&1 | tee {log}
+        augur filter \
+            --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
+            --metadata {input.metadata} \
+            --exclude-all \
+            --include {input.include} \
+            --output {output.sequences}
         """
 
 if "use_nextalign" in config and config["use_nextalign"]:
