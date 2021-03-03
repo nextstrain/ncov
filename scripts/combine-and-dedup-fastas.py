@@ -20,15 +20,28 @@ if __name__ == '__main__':
 
     counter = 0
     with open(args.output, "w") as output_handle:
+        # Stream sequences from all input files into a single output file,
+        # skipping duplicate records (same strain and sequence) and noting
+        # mismatched sequences for the same strain name.
         for filename in args.input:
             for record in SeqIO.parse(filename, 'fasta'):
                 counter += 1
                 if counter % 10000 == 0:
                     print(f"Processed {counter} records")
 
+                # Hash each sequence and check whether another sequence with the
+                # same name already exists and if the hash is different.
                 sequence_hash = hashlib.sha256(str(record.seq).encode("utf-8")).hexdigest()
-                if record.name in sequence_hash_by_name and sequence_hash_by_name.get(record.name) != sequence_hash:
-                    duplicate_strains.add(record.name)
+                if record.name in sequence_hash_by_name:
+                    # If the hashes differ (multiple entries with the same
+                    # strain name but different sequences), we keep the first
+                    # sequence and add the strain to a list of duplicates to
+                    # report at the end.
+                    if sequence_hash_by_name.get(record.name) != sequence_hash:
+                        duplicate_strains.add(record.name)
+
+                    # If the current strain has been seen before, don't write
+                    # out its sequence again.
                     continue
 
                 sequence_hash_by_name[record.name] = sequence_hash
@@ -36,8 +49,10 @@ if __name__ == '__main__':
 
     if len(duplicate_strains) > 0:
         print(
-            "WARNING: Detected the following duplicate input strains with different sequences:",
+            "ERROR: Detected the following duplicate input strains with different sequences:",
             file=sys.stderr
         )
         for strain in duplicate_strains:
             print(textwrap.indent(strain, "    "), file=sys.stderr)
+
+        sys.exit(1)
