@@ -89,7 +89,7 @@ wildcard_constraints:
     # but not special strings used for Nextstrain builds.
     build_name = r'(?:[_a-zA-Z-](?!(tip-frequencies)))+',
     date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]",
-    origin = r"(_[a-zA-Z0-9-]+)?" # origin starts with an underscore _OR_ it's the empty string
+    #origin = r"(_[a-zA-Z0-9-]+)?" # origin starts with an underscore _OR_ it's the empty string
 
 localrules: download_metadata, download_sequences, download, upload, clean
 
@@ -118,10 +118,6 @@ include: "workflow/snakemake_rules/common.smk"
 # Include rules to handle primary build logic from multiple sequence alignment
 # to output of auspice JSONs for a default build.
 include: "workflow/snakemake_rules/main_workflow.smk"
-
-# Include rules to allow downloading of input-specific files from s3 buckets.
-# These have to be opted-into via config params.
-include: "workflow/snakemake_rules/download.smk"
 
 # Include a custom Snakefile that specifies `localrules` required by the user's
 # workflow environment.
