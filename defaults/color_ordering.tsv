@@ -1376,6 +1376,7 @@ location	Tamarite de Litera
 location	Miramar
 location	Almenara
 location	Chilches
+location	Utiel
 location	Requena
 location	Villena
 location	Monovar
@@ -2621,21 +2622,22 @@ location	Voeren
 location	Valansart
 
 # Liège
-location	Bierset
-location	Ans
-location	Seraing
-location	Boncelles
-location	Ougrée
-location	Voroux-lez-Liers
-location	Bressoux
-location	Herstal
-location	Dolembreux
-location	Wandre
 location	Harzé
+location	Dolembreux
+location	Boncelles
+location	Seraing
+location	Ougrée
 location	Fléron
-location	Saive
 location	Soumagne
+location	Bressoux
+location	Saive
+location	Bierset
+location	Wandre
+location	Ans
+location	Herstal
+location	Voroux-lez-Liers
 location	Dalhem
+location	Bitsingen
 
 # Maaseik
 location	Lommel
@@ -2979,6 +2981,7 @@ location	Mainz
 location	Germersheim
 
 # North Rhine Westphalia
+location	Selfkant
 location	Heinsberg
 location	Heinsberg District
 location	Krefeld
@@ -3165,7 +3168,6 @@ location	Gofis
 location	Rankweil
 location	Hohenems
 location	Dornbirn
-location	Schwarzach
 location	Bildstein
 location	Bregenz
 
