@@ -199,3 +199,5 @@ Marchinne-Au-Pont	Marchienne-au-Pont
 Gelbressee	Boninne - Gelbressée
 Boignee	Boignée
 Evelette	Évelette
+Brussels Capital Region	Brussels
+Sint-Josse-Ten-Node	Saint-Josse-ten-Noode
