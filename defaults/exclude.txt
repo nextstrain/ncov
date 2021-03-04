@@ -1695,3 +1695,6 @@ Australia/NSW4306/2020
 
 # divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1614649829130500
 Jordan/PHBC7/2021
+
+# Date too early for clade
+USA/NV-NSPHL-338695/2020
