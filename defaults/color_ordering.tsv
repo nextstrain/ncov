@@ -256,6 +256,7 @@ location	Washim
 location	Amravati
 location	Yavatmal
 location	Wardha
+location	Nagpur
 
 # Odisha
 location	Ganjam
@@ -425,6 +426,7 @@ location	Cox's Bazar
 location	Bandarban
 location	Chittagong
 location	Noakhali
+location	Rangamati
 location	Lakshmipur
 location	Feni
 location	Khagrachari
@@ -537,6 +539,7 @@ location	Xingtai
 location	Shijiazhuang
 
 # Beijing
+location	Daxing
 location	Beijing
 
 # Anhui
@@ -587,6 +590,7 @@ location	Palembang
 
 # Banten
 location	South Tangerang
+location	Tangerang Selatan
 location	Tangerang
 
 # Jakarta
@@ -1798,12 +1802,14 @@ location	Dunkerque
 
 # Occitanie
 location	Saint-Gaudens
+location	Montauban
 location	Toulouse
 location	Caraman
 location	Beziers
 location	Saint-Gely-Du-Fesc
 location	Montpellier
 location	Nîmes
+location	Uzès
 
 # Auvergne-Rhône-Alpes
 location	Clermont-Ferrand
@@ -1819,8 +1825,10 @@ location	Rhone Alpes
 location	Craponne
 location	Saint-Genis-Les-Ollieres
 location	Villefranche-sur-Saône
+location	Givors
 location	Roussillon
 location	Macon
+location	Pierre-Bénite
 location	Lyon
 location	Venissieux
 location	Valence
@@ -1831,8 +1839,10 @@ location	Bourg-en-Bresse
 location	Bourgoin-Jallieu
 location	Saint-Verand
 location	Montagnieu
+location	Voiron
 location	Oyonnax
 location	Grenoble
+location	Saint-Martin-D'Hères
 location	Chambery
 location	Saint-Julien-en-Genevois
 location	Annemasse
@@ -2637,7 +2647,7 @@ location	Ans
 location	Herstal
 location	Voroux-lez-Liers
 location	Dalhem
-location	Bitsingen
+location	Bassenge
 
 # Maaseik
 location	Lommel
@@ -4184,13 +4194,19 @@ location	Parintins
 location	Jaru
 location	Porto Velho
 
+# Mato Grosso
+location	Cuiaba
+location	Primavera do Leste
+
 # Mato Grosso do Sul
 location	Rondonopolis
 location	Iguatemi
 location	Ponta Pora
 location	Dourados
+location	Douradinho
 location	Maracaju
 location	Jardim
+location	Sidrolandia
 location	Tres Lagoas
 location	Anastacio
 location	Aquidauana
@@ -4348,8 +4364,10 @@ location	Ribeirao do Sul
 location	Ourinhos
 location	Lins
 location	Santa Cruz do Rio Pardo
+location	Uru
 location	Aguas de Santa Barbara
 location	Bauru
+location	Borebi
 location	Lencois Paulista
 location	Jau
 location	Igaracu do Tiete
@@ -4382,6 +4400,7 @@ location	Campinas
 location	Vargem Grande Paulista
 location	Mococa
 location	Peruibe
+location	Valinhos
 location	Mogi-Guacu
 location	Rio Verde
 location	Cotia
@@ -4396,6 +4415,7 @@ location	Embu Das Artes
 location	Itatiba
 location	Embu-Guacu
 location	Osasco
+location	Itanhaem
 location	Taboao Da Serra
 location	Amparo
 location	Caieiras
@@ -4413,6 +4433,7 @@ location	Guarulhos
 location	Ermelino Matarazzo
 location	Sao Mateus
 location	Maua
+location	Cubatao
 location	Ribeirao Pires
 location	Rio Grande Da Serra
 location	Sao Vicente
@@ -4423,6 +4444,7 @@ location	Suzano
 location	Guarujá
 location	Santa Isabel
 location	Mogi Das Cruzes
+location	Biritiba Mirim
 location	Guararema
 location	Jacareí
 location	Sao Jose Dos Campos
@@ -4433,6 +4455,12 @@ location	Sao Sebastiao
 location	Lorena BR
 location	Cahoeira Paulista
 location	Cunha
+
+# Minas Gerais
+location	Araxa
+location	Betim
+location	Belo Horizonte
+location	Barbacena
 
 # Rio de Janeiro
 location	Resende
@@ -4458,6 +4486,7 @@ location	Nova Friburgo
 location	Cabo Frio
 location	Itaperuna
 location	Macaé
+location	Campos Dos Goytacazes
 
 # Piaui
 location	Terezina
@@ -4465,10 +4494,12 @@ location	Parnaiba
 
 # Bahia
 location	Teixeira de Freitas
+location	Sao Sebastiao do Passe
 location	Feira de Santana
 
 # Espirito Santo
 location	Vila Velha
+location	Barra do Sao Francisco
 
 # Sergipe
 location	Tomar do Geru
@@ -4576,6 +4607,7 @@ location	Bongara
 ### Ecuador
 # Galapagos
 location	Puerto Baquerizo Moreno
+location	San Cristobal
 
 # Tungurahua
 location	Ambato
@@ -4598,6 +4630,8 @@ location	General Villamil Playas
 location	Guayaquil
 location	Duran
 location	San Jacinto de Yaguachi
+location	Samborondon
+location	Daule
 
 # El Oro
 location	Machala
@@ -4642,7 +4676,12 @@ location	Cayambe
 # Imbabura
 location	San Pablo EC
 location	Otavalo
+location	Jordán
+location	Andrade Marin
+location	Atuntaqui
+location	Antonio Ante
 location	Ibarra
+location	Chaltura
 location	Urcuqui
 
 # Carchi
@@ -5008,17 +5047,23 @@ location	Sheridan
 location	Yamhill County
 location	Douglas County OR
 location	Columbia County OR
+location	Salem
 location	Washington County OR
 location	Medford
 location	Lane County OR
 location	Beaverton
+location	Sublimity
 location	Wilsonville
 location	Jackson County OR
 location	Marion County OR
+location	Portland
 location	Lake Oswego
+location	Oregon City
 location	Linn County
 location	Multnomah County
+location	Wood Village
 location	Clackamas County
+location	Klamath Falls
 location	Klamath County
 location	Hood River County
 location	Wasco County
@@ -5026,6 +5071,7 @@ location	Redmond
 location	Deschutes County
 location	Sherman County
 location	Umatilla County
+location	Union County OR
 
 # Washington
 location	Grays Harbor County
@@ -5037,8 +5083,10 @@ location	San Juan County
 location	Thurston County
 location	Island County
 location	Cowlitz County
+location	Vancouver
 location	Kitsap County
 location	Clark County WA
+location	Tacoma
 location	Lewis County WA
 location	Pierce County WA
 location	Snohomish County
@@ -5120,6 +5168,16 @@ location	Riverside
 # Nevada
 location	Las Vegas
 location	Clark County NV
+location	Mineral County
+location	Douglas County NV
+location	Lyon County
+location	Carson
+location	Storey County
+location	Churchill County
+location	Lander County
+location	Pershing County
+location	Washoe County
+location	Elko County
 
 # Idaho
 location	Kootenai County
@@ -5215,6 +5273,7 @@ location	Killeen
 location	Montague County
 location	Bee County
 location	Wise County
+location	Georgetown TX
 location	Nueces County
 location	Williamson County TX
 location	San Patricio County
@@ -5277,7 +5336,6 @@ location	Cass County TX
 location	Panola County
 location	Jefferson County TX
 location	Jasper County
-location	Georgetown
 
 # Minnesota
 location	Fillmore County
@@ -5642,9 +5700,16 @@ location	District of Columbia County
 location	Prince George's County
 
 # Delaware
-location	Sussex County
-location	Kent County
+location	Newark
+location	Seaford
+location	Smyrna
 location	New Castle County
+location	Wilmington
+location	Dover
+location	Kent County
+location	Georgetown DE
+location	Sussex County
+location	Milford
 
 # New Jersey
 location	Salem County
@@ -6123,7 +6188,7 @@ division	Seoul
 ### Japan
 division	Nagasaki
 division	Fukuoka
-division	Kyusyu
+division	Kyushu
 division	Hiroshima
 division	Ehime
 division	Chushikoku
@@ -6401,7 +6466,9 @@ division	Inhambane
 division	Mozambique
 division	Sofala
 division	Manica
+division	Tete
 division	Nampula
+division	Niassa
 division	Cabo Delgado
 
 ### Tanzania
@@ -6603,6 +6670,9 @@ division	Drenthe
 
 ### Luxembourg
 division	Luxembourg
+
+### Monaco
+division	Monaco
 
 ### Switzerland
 division	Geneva
@@ -7076,6 +7146,7 @@ division	Soroca
 
 ### Ukraine
 division	Uzhgorod
+division	Lviv
 division	Ivano-Frankivsk
 division	Volyn
 division	Chernivtsi
@@ -7297,7 +7368,6 @@ division	Tungurahua
 division	Cotopaxi
 division	Manabi
 division	Guayas
-division	Daule
 division	El Oro
 division	Loja
 division	Los Rios
@@ -7672,6 +7742,7 @@ country	France
 country	Belgium
 country	Netherlands
 country	Luxembourg
+country	Monaco
 country	Switzerland
 country	Norway
 country	Denmark
