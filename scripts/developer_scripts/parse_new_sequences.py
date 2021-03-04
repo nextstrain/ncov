@@ -151,18 +151,21 @@ def check_dates(data, today):
             #suspicious_sample_date[strain] = date
 
         clade = data[id]["Nextstrain_clade"]
-        if clade not in clade_dates:
-            print("Unknown clade " + clade + " for sequence " + id)
+        if clade == "":
+            print("Clade missing for sequence " + id)
         else:
-            clade_day = clade_dates[clade]
-            day_clade = int(clade_day[8:])
-            month_clade = int(clade_day[5:7])
-            year_clade = int(clade_day[:4])
+            if clade not in clade_dates:
+                print("Unknown clade " + clade + " for sequence " + id)
+            else:
+                clade_day = clade_dates[clade]
+                day_clade = int(clade_day[8:])
+                month_clade = int(clade_day[5:7])
+                year_clade = int(clade_day[:4])
 
-            if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
-                suspicious_sample_date[strain] = date + " (" + clade + ")"
-                data.pop(id)
-                continue
+                if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
+                    suspicious_sample_date[strain] = date + " (" + clade + ")"
+                    data.pop(id)
+                    continue
 
 
 
