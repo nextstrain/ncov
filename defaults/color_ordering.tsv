@@ -2714,6 +2714,7 @@ location	Naarden
 location	Overvecht
 location	Utrecht
 location	Houten
+location	Zeist
 location	Amersfoort
 
 # North Brabant
@@ -2777,6 +2778,7 @@ location	Apeldoorn
 
 # Overijssel
 location	Raalte
+location	Hengelo
 
 # Drenthe
 location	Meppel
@@ -4201,11 +4203,16 @@ location	Primavera do Leste
 # Mato Grosso do Sul
 location	Rondonopolis
 location	Iguatemi
+location	Itaquirai
 location	Ponta Pora
+location	Vicentina
+location	Nova Andradina
 location	Dourados
 location	Douradinho
 location	Maracaju
+location	Guia Lopes Da Laguna
 location	Jardim
+location	Bonito
 location	Sidrolandia
 location	Tres Lagoas
 location	Anastacio
@@ -4440,6 +4447,7 @@ location	Sao Vicente
 location	Piracaia
 location	Poa
 location	Santos
+location	Aruja
 location	Suzano
 location	Guarujá
 location	Santa Isabel
@@ -5043,27 +5051,17 @@ location	Southeast Alaska
 location	Coos County
 location	Clatsop County
 location	Polk County OR
-location	Sheridan
 location	Yamhill County
 location	Douglas County OR
 location	Columbia County OR
-location	Salem
 location	Washington County OR
-location	Medford
 location	Lane County OR
-location	Beaverton
-location	Sublimity
-location	Wilsonville
 location	Jackson County OR
 location	Marion County OR
-location	Portland
 location	Lake Oswego
-location	Oregon City
 location	Linn County
 location	Multnomah County
-location	Wood Village
 location	Clackamas County
-location	Klamath Falls
 location	Klamath County
 location	Hood River County
 location	Wasco County
@@ -5490,6 +5488,7 @@ location	Hamilton County IL
 location	White County
 location	Perry County IL
 location	Monroe County IL
+location	Jefferson County IL
 location	Washington County IL
 location	Wayne County IL
 location	Wabash County
@@ -5618,6 +5617,7 @@ location	Lauderdale County
 location	Shelby County TN
 
 # Indiana
+location	Jefferson County IN
 location	Indianapolis
 location	Marion County IN
 location	Tippecanoe County
@@ -5697,6 +5697,7 @@ location	Philadelphia County
 location	District of Columbia County
 
 # Maryland
+location	Montgomery County MD
 location	Prince George's County
 
 # Delaware
@@ -5986,10 +5987,12 @@ division	Chhattisgarh
 division	Gujarat
 division	Madhya Pradesh
 division	West Bengal
+division	Jharkhand
 division	Bihar
 division	Assam
 division	Rajasthan
 division	Uttar Pradesh
+division	Sikkim
 division	Delhi
 division	Haryana
 division	Uttarakhand
@@ -6374,6 +6377,7 @@ division	Gafsa
 division	Sfax
 division	Sidi Bouzid
 division	Monastir
+division	Sousse
 division	Nabeul
 division	Soliman
 division	Ben Arous
@@ -6928,6 +6932,7 @@ division	Warminsko-Mazurskie
 division	Mazowieckie
 division	Masovia
 division	Podkarpackie
+division	Bielsk Podlaski
 
 ### Slovakia
 division	Kostoliste
@@ -7360,6 +7365,7 @@ division	Lambayeque
 division	Cajamarca
 division	Amazonas PE
 division	Loreto
+division	Piura
 
 ### Ecuador
 division	Galapagos

@@ -220,6 +220,7 @@ location	Arroyo de la Luz	39.4840338	-6.5845773
 location	Arsimont	50.4273479	4.6388177
 location	Artajona	42.5876058	-1.7644227
 location	Arucas	28.1184492	-15.5232237
+location	Aruja	-23.396266	-46.3175449
 location	As	51.000539599999996	5.572202585246233
 location	As Seeb	23.6821956	58.1843842
 location	Asbest	57.0052746	61.4580765
@@ -546,6 +547,7 @@ location	Bond County	38.8630331	-89.4391416
 location	Bongara	-5.6745697	-77.901939
 location	Bonheiden	51.01931	4.568699
 location	Boninne - Gelbressée	50.5094834	4.9541659
+location	Bonito	-21.1264766	-56.4902208
 location	Bonrepos i Mirambell	39.5178	-0.3647
 location	Boo de Pielagos	43.43049	-3.94551
 location	Booischot	51.0524068	4.7784936
@@ -1616,6 +1618,7 @@ location	Guediawaye	14.7828	-17.3760
 location	Gueret	46.1686865	1.8713349
 location	Guetersloh	51.9063997	8.3782078
 location	Guevejar	37.2574	-3.5977
+location	Guia Lopes Da Laguna	-21.5375346	-55.96134153440401
 location	Guignies	50.5471385	3.3663017
 location	Gulpen-Wittem	50.79962605	5.890529675273097
 location	Gulshan	23.7925	90.4078
@@ -1698,6 +1701,7 @@ location	Helchteren	51.0566984	5.3830618
 location	Hellin	38.5069	-1.6979
 location	Helmond	51.4793	5.6570
 location	Hemiksem	51.143514	4.339896
+location	Hengelo	52.2523195	6.795525590808008
 location	Henin-Beaumont	50.4194308	2.9469926
 location	Hennef	50.7754417	7.2847945
 location	Hennersdorf	48.113904250000004	16.369216091308893
@@ -1877,6 +1881,7 @@ location	Itapecerica Da Serra	-23.734665	-46.857835
 location	Itaperuna	-21.2048	-41.88801
 location	Itaporanga Dajuda	-10.9961671	-37.3045841
 location	Itaqui	-29.1222037	-56.5551258
+location	Itaquirai	-23.4801914	-54.1833692
 location	Itariri	-24.2900711	-47.176151
 location	Itatiba	-22.9965861	-46.8412042
 location	Itegem	51.1030959	4.7294471
@@ -1921,6 +1926,8 @@ location	Jatrabari	23.711397	90.435403
 location	Jau	-22.293585	-48.559193
 location	Jaunpur	25.7955927	82.48834097504385
 location	Jefferson County AL	33.5228184	-86.9164513
+location	Jefferson County IL	38.3010487	-88.9344303
+location	Jefferson County IN	38.8166724	-85.4299489
 location	Jefferson County NY	44.095507	-75.890072
 location	Jefferson County TX	29.834772	-94.1704496
 location	Jefferson County WA	47.728342	-123.606395
@@ -2745,6 +2752,7 @@ location	Montfermeil	48.8992679	2.5660399
 location	Montgat	41.4666983	2.2789654
 location	Montgomery County AL	32.1672192	-86.1999118
 location	Montgomery County IL	39.2052633	-89.5057126
+location	Montgomery County MD	39.1406267	-77.2075612
 location	Montgomery County NY	42.8941269	-74.4099745
 location	Montgomery County PA	40.2154361	-75.3702305
 location	Montgomery County TX	30.301949	-95.5065944
@@ -2954,6 +2962,7 @@ location	Nossa Senhora do Socorro	-10.8553115	-37.1264863
 location	Nossegem	50.877645	4.507645
 location	Notre-Dame-de-Sanilhac	45.13292945	0.7080364376276143
 location	Nottinghamshire	53.139677	-1.027527
+location	Nova Andradina	-22.2477565	-53.3480621
 location	Nova Araça	-28.6604116	-51.7424776
 location	Nova Brescia	-29.2158737	-52.0290188
 location	Nova Friburgo	-22.2800004	-42.5325303
@@ -4448,6 +4457,7 @@ location	Viamao	-30.0819338	-51.0261927
 location	Viana	42.5154725	-2.3713437
 location	Vic	41.9302021	2.2545943
 location	Vicente Lopez	-34.52955795	-58.506973968642164
+location	Vicentina	-22.4093447	-54.4370921
 location	Vicenza	45.63485905	11.40635425660249
 location	Vichuga	57.220222	41.9245606
 location	Vichy	46.1239268	3.4203712
@@ -4738,6 +4748,7 @@ location	Zeebrugge	51.3312211	3.207561
 location	Zeewolde	52.3311	5.5405
 location	Zefat	32.9646301	35.502451
 location	Zehra	48.9804224	20.7920261
+location	Zeist	52.086531750000006	5.249007957671885
 location	Zele	51.0730461	4.0424143
 location	Zelenchukskaya	43.8549752	41.5853611
 location	Zeleneč	50.133619	14.660698
@@ -4934,6 +4945,7 @@ division	Bermuda	32.3018217	-64.7603583
 division	Bern	46.855135	7.570549
 division	Bethlehem	31.7043556	35.2061876
 division	Bhaktapur	27.6720657	85.428171
+division	Bielsk Podlaski	52.764915	23.188210662123517
 division	Bihac	44.8120	15.8686
 division	Bihar	25.0961	85.3131
 division	Biobío	-37.3391407	-72.4106825
@@ -5387,6 +5399,7 @@ division	Jericho	31.855987	35.4598851
 division	Jerusalem	32.1142635	35.0344905
 division	Jerusalem District	31.7648	34.9948
 division	Jesenice	46.4323791	14.0623337
+division	Jharkhand	23.4559809	85.2557301
 division	Jhenaidha	23.547692	89.175424
 division	Jiangsu	33.077761	119.825116
 division	Jiangxi	27.458973	115.535326
@@ -5875,6 +5888,7 @@ division	Pichincha	-0.1465	-78.4752
 division	Piedmont	45.0522	7.5154
 division	Pirot	43.1547342	22.5865039
 division	Pitesti	44.8572343	24.8719422
+division	Piura	-5.0	-80.333333
 division	Planken	47.1858848	9.5452211
 division	Pleven	43.4170	24.6067
 division	Ploiesti	44.9417468	26.0236504
@@ -6052,6 +6066,7 @@ division	Sidi Lahcen	33.7890814	-4.6804442
 division	Sierra Leone	8.6400349	-11.8400269
 division	Sihanoukville	10.616351	103.512278
 division	Siirt	37.911394	42.115166
+division	Sikkim	27.601029	88.45413638680145
 division	Sinaloa	25.0000001	-107.5000001
 division	Sindh	25.5	69.0
 division	Singapore	1.344189	103.867546
@@ -6085,6 +6100,7 @@ division	Somogy County	46.439656	17.6212956
 division	Sonora	29.3333331	-110.6666671
 division	Sormland	59.061157	16.697407
 division	Soroca	48.1580642	28.2796328
+division	Sousse	35.8288175	10.6405392
 division	South Aegean Region	36.8	26.2
 division	South Africa	-28.8166235	24.991639
 division	South America	-13.083583	-58.470721
