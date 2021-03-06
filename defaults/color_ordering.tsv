@@ -2632,22 +2632,23 @@ location	Voeren
 location	Valansart
 
 # Liège
-location	Harzé
-location	Dolembreux
-location	Boncelles
-location	Seraing
-location	Ougrée
-location	Fléron
-location	Soumagne
-location	Bressoux
-location	Saive
 location	Bierset
-location	Wandre
 location	Ans
-location	Herstal
+location	Seraing
+location	Boncelles
+location	Ougrée
 location	Voroux-lez-Liers
-location	Dalhem
+location	Bressoux
+location	Herstal
 location	Bassenge
+location	Dolembreux
+location	Wandre
+location	Harzé
+location	Fléron
+location	Saive
+location	Soumagne
+location	Dalhem
+location	Lontzen
 
 # Maaseik
 location	Lommel
