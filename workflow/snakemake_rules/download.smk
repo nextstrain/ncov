@@ -8,7 +8,7 @@
 #       rule: align
 #           input: _get_path_for_input
 #           ...
-# will result in an input file looking like "results/aligned{origin}.fasta" or 
+# will result in an input file looking like "results/aligned{origin}.fasta" or
 # "results/download-aligned{origin}.fasta" (which one is chosen depends on the
 # supplied `config`). In the latter case, `rule download_aligned` will be used.
 # See https://github.com/nextstrain/ncov/compare/remote-files for an example of
@@ -83,8 +83,8 @@ rule download_diagnostic:
     params:
         # Only `to-exclude` is defined via the config, so we make some assumptions about the format of the other filenames
         to_exclude_address = lambda w: config["inputs"][_trim_origin(w.origin)]["to-exclude"],
-        flagged_address = lambda w: config["inputs"][_trim_origin(w.origin)]["to-exclude"].replace('to-exclude.txt', 'flagged-sequences.tsv'),
-        diagnostics_address = lambda w: config["inputs"][_trim_origin(w.origin)]["to-exclude"].replace('to-exclude.txt', 'sequence-diagnostics.tsv'),
+        flagged_address = lambda w: config["inputs"][_trim_origin(w.origin)]["to-exclude"].replace(f'to-exclude{w.origin}.txt', f'flagged-sequences{w.origin}.tsv'),
+        diagnostics_address = lambda w: config["inputs"][_trim_origin(w.origin)]["to-exclude"].replace(f'to-exclude{w.origin}.txt', f'sequence-diagnostics{w.origin}.tsv'),
         # assume the compression is the same across all 3 addresses
         deflate = lambda w: _infer_decompression(config["inputs"][_trim_origin(w.origin)]["to-exclude"])
     shell:
