@@ -14,19 +14,19 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=str, required=True, help="output json file")
     args = parser.parse_args()
 
-    mutations = pd.read_csv(args.mutation_summary, sep='\t', index_col=0)
+    mutations = pd.read_csv(args.mutation_summary, sep='\t', index_col=0).fillna('')
 
     d = {}
     T = Phylo.read(args.tree, 'newick')
     for n in T.get_terminals():
         d[n.name] = {}
         try:
-            m = mutations[n.name]
+            m = mutations.loc[n.name]
         except:
             print(f"no data found for {n.name}")
             continue
         for gene in args.genes:
-            d[n.name][f"{gene}_mutation_count"] = len([x for x in m[gene].split(',') if x[-1]!='-'])
+            d[n.name][f"{gene}_mutation_count"] = len([x for x in m[gene].split(',') if x and x[-1]!='-'])
 
     with open(args.output, 'w') as fh:
         json.dump({"nodes":d}, fh)
