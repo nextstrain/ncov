@@ -1,17 +1,10 @@
+from snakemake.utils import min_version
+min_version("6.0")
+
 from snakemake.remote.S3 import RemoteProvider as S3RemoteProvider
 S3 = S3RemoteProvider()
 
 ORIGINS = list(config["inputs"].keys())
-
-
-rule download:
-    input:
-        S3.remote("nextstrain-ncov-private/{filename}.gz")
-    output:
-        "results/datasets/{origin}/{filename}"
-    run:
-        shell("cp {output} ./")
-
 
 rule align:
     message:
@@ -20,21 +13,21 @@ rule align:
             - gaps relative to reference are considered real
         """
     input:
-        sequences = "results/datasets/{origin}/sequences.fasta",
+        sequences = "results/{build_name}/subsampled_sequences.fasta",
         genemap = config["files"]["annotation"],
         reference = config["files"]["alignment_reference"],
     output:
-        alignment = "results/datasets/{origin}/aligned.fasta",
-        insertions = "results/datasets/{origin}/insertions.tsv",
-        translations = expand("results/datasets/{{origin}}/amino_acid_sequences.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+        alignment = "results/{build_name}/aligned.fasta",
+        insertions = "results/{build_name}/insertions.tsv",
+        translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S'])),
     params:
-        outdir = "results/datasets/{origin}",
+        outdir = "results/{build_name}/translations",
         genes = ','.join(config.get('genes', ['S'])),
-        basename = "amino_acid_sequences"
+        basename = "aligned"
     log:
-        "logs/align_{origin}.txt"
+        "logs/align_{build_name}.txt"
     benchmark:
-        "benchmarks/align_{origin}.txt"
+        "benchmarks/align_{build_name}.txt"
     conda: config["conda_environment"]
     threads: 8
     resources:
@@ -63,11 +56,11 @@ rule mask:
           - masking other sites: {params.mask_sites}
         """
     input:
-        alignment = "results/datasets/{origin}/aligned.fasta"
+        alignment = "results/{build_name}/aligned.fasta"
     output:
-        alignment = "results/datasets/{origin}/masked.fasta"
+        alignment = "results/{build_name}/masked.fasta"
     log:
-        "logs/mask_{origin}.txt"
+        "logs/mask_{build_name}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"],
@@ -85,15 +78,25 @@ rule mask:
         """
 
 
+rule download:
+    input:
+        S3.remote("nextstrain-ncov-private/{filename}")
+    output:
+        "results/datasets/{origin}/{filename}"
+    run:
+        shell("cp {output} ./")
+
+
 rule index_sequences:
     message:
         """
         Index sequence composition for faster filtering.
         """
     input:
-        sequences = "results/datasets/{origin}/masked.fasta",
+        sequences = "results/datasets/{origin}/sequences.fasta.gz",
     output:
-        sequence_index = "results/datasets/{origin}/sequence_index.tsv"
+        sequence_index = "results/datasets/{origin}/sequence_index.tsv",
+        samtools_index = "results/datasets/{origin}/sequences.fasta.gz.fai"
     log:
         "logs/index_sequences_{origin}.txt"
     benchmark:
@@ -119,7 +122,7 @@ rule filter:
         """
     input:
         sequence_index = "results/datasets/{origin}/sequence_index.tsv",
-        metadata = "results/datasets/{origin}/metadata.tsv",
+        metadata = "results/datasets/{origin}/metadata.tsv.gz",
         include = config["files"]["include"],
         exclude = config["files"]["exclude"],
     output:
@@ -302,7 +305,7 @@ rule subsample:
 
 rule extract_subsampled_sequences:
     input:
-        sequences = expand("results/datasets/{origin}/masked.fasta", origin=ORIGINS),
+        sequences = expand("results/datasets/{origin}/sequences.fasta.gz", origin=ORIGINS),
         metadata = expand("results/datasets/{origin}/filtered_metadata.tsv", origin=ORIGINS),
         sequence_index = expand("results/datasets/{origin}/sequence_index.tsv", origin=ORIGINS),
         include = "results/{build_name}/sample-{subsample}.txt",
@@ -321,6 +324,34 @@ rule extract_subsampled_sequences:
         """
 
 
+use rule align as align_subsampled with:
+    input:
+        sequences = "results/{build_name}/sample-{subsample}.fasta",
+        genemap = config["files"]["annotation"],
+        reference = config["files"]["alignment_reference"],
+    output:
+        alignment = "results/{build_name}/aligned-{subsample}.fasta",
+        insertions = "results/{build_name}/insertions-{subsample}.tsv",
+        translations = expand("results/{{build_name}}/subsample_{{subsample}}/translations.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+    params:
+        outdir = "results/{build_name}/subsample_{subsample}",
+        genes = ','.join(config.get('genes', ['S'])),
+        basename = "translations"
+    log:
+        "logs/align_{build_name}_{subsample}.txt"
+    benchmark:
+        "benchmarks/align_{build_name}_{subsample}.txt"
+
+
+use rule mask as mask_subsampled with:
+    input:
+        alignment = "results/{build_name}/aligned-{subsample}.fasta"
+    output:
+        alignment = "results/{build_name}/masked-{subsample}.fasta"
+    log:
+        "logs/mask_{build_name}_{subsample}.txt"
+
+
 rule proximity_score:
     message:
         """
@@ -328,9 +359,9 @@ rule proximity_score:
         genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
         """
     input:
-        alignment = expand("results/datasets/{origin}/masked.fasta", origin=ORIGINS),
+        alignment = expand("results/datasets/{origin}/sequences.fasta.gz", origin=ORIGINS),
         reference = config["files"]["alignment_reference"],
-        focal_alignment = "results/{build_name}/sample-{focus}.fasta"
+        focal_alignment = "results/{build_name}/masked-{focus}.fasta"
     output:
         proximities = "results/{build_name}/proximity_{focus}.tsv"
     log:
@@ -380,7 +411,7 @@ def _get_subsampled_files(wildcards):
 
 rule combine_samples:
     input:
-        sequences = expand("results/datasets/{origin}/masked.fasta", origin=ORIGINS),
+        sequences = expand("results/datasets/{origin}/sequences.fasta.gz", origin=ORIGINS),
         metadata = expand("results/datasets/{origin}/filtered_metadata.tsv", origin=ORIGINS),
         sequence_index = expand("results/datasets/{origin}/sequence_index.tsv", origin=ORIGINS),
         include = _get_subsampled_files,
@@ -398,45 +429,7 @@ rule combine_samples:
             --output {output.sequences}
         """
 
-rule build_align:
-    message:
-        """
-        Aligning sequences to {input.reference}
-            - gaps relative to reference are considered real
-        """
-    input:
-        sequences = rules.combine_samples.output.sequences,
-        genemap = config["files"]["annotation"],
-        reference = config["files"]["alignment_reference"]
-    output:
-        alignment = "results/{build_name}/aligned.fasta",
-        insertions = "results/{build_name}/insertions.tsv",
-        translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
-    params:
-        outdir = "results/{build_name}/translations",
-        genes = ','.join(config.get('genes', ['S'])),
-        basename = "aligned"
-    log:
-        "logs/align_{build_name}.txt"
-    benchmark:
-        "benchmarks/align_{build_name}.txt"
-    conda: config["conda_environment"]
-    threads: 8
-    resources:
-        mem_mb = 3000
-    shell:
-        """
-        nextalign \
-            --jobs={threads} \
-            --reference {input.reference} \
-            --genemap {input.genemap} \
-            --genes {params.genes} \
-            --sequences {input.sequences} \
-            --output-dir {params.outdir} \
-            --output-basename {params.basename} \
-            --output-fasta {output.alignment} \
-            --output-insertions {output.insertions} > {log} 2>&1
-        """
+
 
 
 # TODO: This will probably not work for build names like "country_usa" where we need to know the country is "USA".
@@ -466,7 +459,7 @@ rule adjust_metadata_regions:
 rule tree:
     message: "Building tree"
     input:
-        alignment = rules.build_align.output.alignment
+        alignment = "results/{build_name}/masked.fasta"
     output:
         tree = "results/{build_name}/tree_raw.nwk"
     params:
@@ -501,8 +494,8 @@ rule refine:
           - estimate {params.date_inference} node dates
         """
     input:
-        tree = rules.tree.output.tree,
-        alignment = rules.build_align.output.alignment,
+        tree = "results/{build_name}/tree_raw.nwk",
+        alignment = "results/{build_name}/masked.fasta",
         metadata = _get_metadata_by_wildcards
     output:
         tree = "results/{build_name}/tree.nwk",
@@ -557,8 +550,8 @@ rule ancestral:
           - inferring ambiguous mutations
         """
     input:
-        tree = rules.refine.output.tree,
-        alignment = rules.build_align.output.alignment
+        tree = "results/{build_name}/tree.nwk",
+        alignment = "results/{build_name}/masked.fasta"
     output:
         node_data = "results/{build_name}/nt_muts.json"
     log:
@@ -604,7 +597,7 @@ rule aa_muts_explicit:
     message: "Translating amino acid sequences"
     input:
         tree = rules.refine.output.tree,
-        translations = lambda w: rules.build_align.output.translations
+        translations = lambda w: rules.align.output.translations
     output:
         node_data = "results/{build_name}/aa_muts_explicit.json"
     params:
@@ -822,7 +815,7 @@ rule tip_frequencies:
 rule nucleotide_mutation_frequencies:
     message: "Estimate nucleotide mutation frequencies"
     input:
-        alignment = rules.build_align.output.alignment,
+        alignment = rules.align.output.alignment,
         metadata = _get_metadata_by_wildcards
     output:
         frequencies = "results/{build_name}/nucleotide_mutation_frequencies.json"
