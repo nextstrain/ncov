@@ -201,3 +201,5 @@ Boignee	Boignée
 Evelette	Évelette
 Brussels Capital Region	Brussels
 Sint-Josse-Ten-Node	Saint-Josse-ten-Noode
+Emines	Émines
+Achene	Achêne
