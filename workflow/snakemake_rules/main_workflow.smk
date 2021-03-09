@@ -183,6 +183,10 @@ rule filter:
         sequences = "results/filtered{origin}.fasta"
     log:
         "logs/filtered{origin}.txt"
+    resources:
+        # Filter takes roughly as much memory 4x the input metadata size.
+        # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
+        mem_mb=lambda wildcards, input: 4 * int(input["metadata"].size / 1024 / 1024)
     params:
         min_length = lambda wildcards: _get_filter_value(wildcards, "min_length"),
         exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
