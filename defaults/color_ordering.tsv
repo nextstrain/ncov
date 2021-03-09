@@ -1127,7 +1127,7 @@ location	Puebla de Don Fadrique
 location	Brazuelo
 location	Val de San Lorenzo
 location	Valdeviejas
-location	Astorga
+location	Astorga ES
 location	La Carrera de Otero
 location	Castro de Cepeda
 location	San Roman de la Vega
@@ -1480,6 +1480,7 @@ location	Sant Fruitos de Bages
 location	Navas
 location	Vacarisses
 location	Navarcles
+location	Gaia
 location	Vallirana
 location	Sant Andreu de la Barca
 location	Castelldefels
@@ -3287,6 +3288,7 @@ location	Pörtschach
 location	Sittersdorf
 location	St. Jakob
 location	Griffen
+location	Wolfsberg
 
 # Upper Austria
 location	Zell Am Moos
@@ -3296,6 +3298,7 @@ location	St. Georgen Im Attergau
 location	Frankenburg Am Hausruck
 location	Attersee
 location	Weyregg Am Attersee
+location	Schörfling Am Attersee
 location	Timelkam
 location	Bad Goisern
 location	Bad Ischl
@@ -3317,6 +3320,7 @@ location	Wels-Land
 location	Haizing
 location	Eferding
 location	Wels-Stadt
+location	Steyr-Land
 location	Linz
 location	Linz-Land
 location	Losenstein
@@ -3325,6 +3329,7 @@ location	Freistadt
 # Styria
 location	Liezen
 location	Murau
+location	Murtal
 location	Bruck-Mürzzuschlag
 location	Kapfenberg
 location	Graz
@@ -3335,7 +3340,10 @@ location	Hartberg-Fürstenfeld
 # Lower Austria
 location	Amstetten
 location	Zwettl
+location	Lilienfeld
+location	Horn
 location	Sankt Polten-Land
+location	Hollabrunn
 location	Markt Piesting
 location	Bad Vöslau
 location	Baden
@@ -3344,6 +3352,7 @@ location	Mödling
 location	Korneuburg
 location	Hennersdorf
 location	Mistelbach
+location	Gänserndorf
 location	Bruck An Der Leitha
 
 # Vienna
@@ -3500,7 +3509,12 @@ location	Karviná
 location	Cesky Tesin
 
 ### Poland
+# Lubuskie
+location	Dabrowka
+
 # Zachodniopomorskie
+location	Stare Brynki
+location	Mysliborz
 location	Witkowo Drugie
 
 # Dolnośląskie
@@ -3510,6 +3524,7 @@ location	Ząbkowice Śląskie
 location	Nowy Tomysl
 location	Duszniki
 location	Buk
+location	Kobylniki
 location	Jeziorki
 location	Cieradz Koscielny
 location	Niepruszewo
@@ -3519,9 +3534,11 @@ location	Tarnowo Podgorne
 location	Sierosław
 location	Sady
 location	Debienko
+location	Paledzie
 location	Rokietnica
 location	Dabrowa
 location	Dąbrowa
+location	Goluski
 location	Rogierowko
 location	Przeźmierowo
 location	Skórzewo
@@ -3530,6 +3547,7 @@ location	Plewiska
 location	Oborniki
 location	Ludomki
 location	Orlowo
+location	Zlotniki
 location	Puszczykowo
 location	Maniewo
 location	Lubon
@@ -3537,9 +3555,11 @@ location	Wiorek
 location	Czapury
 location	Poznan
 location	Baranowo
+location	Gora
 location	Koziegłowy
 location	Rogozno
 location	Murowana Goslina
+location	Zalasewo
 location	Wysławice
 location	Jarocin
 location	Kalisz
@@ -4341,94 +4361,118 @@ location	Coxim
 location	Sonora
 
 # Rio Grande do Sul
-location	Itaqui
-location	Quaraí
-location	Sao Borja
-location	Santana do Livramento
-location	Santa Rosa BR
-location	Girua
-location	Santo Angelo
-location	Bage
-location	Tres Passos
-location	Ijui
-location	Lavras do Sul
-location	Santa Maria
-location	Tiradentes
-location	Vista Gaucha
-location	Cruz Alta
-location	Cacapava do Sul
-location	Frederico Westphalen
-location	Estrela Velha
-location	Saldanha Marinho
-location	Ibiruba
-location	Novo Cabrais
-location	Cachoeira do Sul
-location	Não-Me-Toque
-location	Carazinho
-location	Vera Cruz (Rio Grande do Sul)
-location	Passo Fundo
-location	Pelotas
-location	Erechim
-location	Sertao
-location	Marau
-location	Venancio Aires
 location	Rio Grande BR
-location	Nova Brescia
-location	Tapejara
-location	Butia
-location	Lajeado
-location	Arroio do Meio
-location	Bom Retiro do Sul
-location	Serafina Correa
-location	São Domingos do Sul
-location	Taquari
-location	Teutonia
-location	Nova Araça
-location	Garibaldi
-location	Carlos Barbosa
-location	Barao
-location	Tupandi
+location	Pelotas
+location	Bage
+location	Lavras do Sul
+location	Santana do Livramento
 location	Tapes
-location	Sao Sebastiao do Cai
-location	Bom Principio
-location	Farroupilha
-location	Guaiba
-location	Alto Feliz
-location	Porto Alegre
-location	Linha Nova
-location	Flores Da Cunha
-location	Canoas BR
-location	Caxias do Sul
-location	Esteio
-location	Novo Hamburgo
-location	São Leopoldo
-location	Cachoeirnha
-location	Morro Reuter
-location	Viamao
-location	Sapiranga
-location	Gramado
-location	Parobe
-location	Taquara
-location	Santo Antonio Da Patrulha
-location	Osorio
+location	Cacapava do Sul
+location	Quaraí
 location	Balneario Pinhal
+location	Butia
+location	Guaiba
+location	Viamao
+location	Cachoeira do Sul
+location	Porto Alegre
 location	Tramandai
 location	Imbe
+location	Cachoeirnha
+location	Canoas BR
+location	Osorio
+location	Esteio
+location	Santo Antonio Da Patrulha
+location	Xangri-la
+location	Taquari
+location	São Leopoldo
+location	Novo Cabrais
+location	Vera Cruz (Rio Grande do Sul)
+location	Novo Hamburgo
+location	Santa Maria
+location	Taquara
+location	Sapiranga
+location	Parobe
+location	Venancio Aires
+location	Bom Retiro do Sul
+location	Sao Sebastiao do Cai
+location	Morro Reuter
+location	Bom Principio
+location	Teutonia
+location	Tupandi
+location	Linha Nova
+location	Lajeado
+location	Três Cachoeiras
+location	Arroio do Meio
+location	Gramado
+location	Alto Feliz
+location	Barao
 location	Torres BR
+location	Carlos Barbosa
+location	Garibaldi
+location	Farroupilha
+location	Nova Brescia
+location	Estrela Velha
+location	Caxias do Sul
+location	Itaqui
+location	Flores Da Cunha
+location	Espumoso
+location	Serafina Correa
+location	Nova Araça
+location	Sao Borja
+location	Cruz Alta
+location	Ibiruba
+location	São Domingos do Sul
+location	Não-Me-Toque
+location	Marau
+location	Saldanha Marinho
+location	Ijui
+location	Santo Angelo
+location	Carazinho
+location	Passo Fundo
+location	Tapejara
+location	Girua
+location	Sertao
+location	Santa Rosa BR
+location	Tiradentes
+location	Erechim
+location	Tres Passos
+location	Frederico Westphalen
+location	Vista Gaucha
+location	Candelaria
 
 # Paraná
+location	Santa Helena
+location	Sao Miguel do Iguacu
 location	Medianeira
 location	Marechal Candido Rondon
+location	Toledo
 location	Cascavel
 location	Umuarama
+location	Boa Esperanca do Iguacu
 location	Dois Vizinhos
+location	Francisco Beltrao
+location	Quedas do Iguacu
 location	Vere
+location	Sulina
 location	Cianorte
+location	Terra Boa
+location	Mangueirinha
 location	Maringa
+location	Astorga BR
+location	Borrazopolis
 location	Londrina
 location	Uniao Da Vitoria
+location	Reboucas
+location	Cornelio Procopio
+location	Irati
 location	Ponta Grossa
+location	Carambei
+location	Cambara
+location	Castro
+location	Lapa
+location	Araucaria
 location	Curitiba
+location	Colombo
 
 # Santa Catarina
 location	Braco do Norte
@@ -4517,7 +4561,7 @@ location	Pariquera-Acu
 location	Ribeirao Preto
 location	Piracicaba
 location	Juquia
-location	Rio Claro
+location	Rio Claro SP
 location	Iguape
 location	Porto Feliz
 location	Porto Ferreira
@@ -4538,11 +4582,10 @@ location	Mococa
 location	Peruibe
 location	Valinhos
 location	Mogi-Guacu
-location	Rio Verde
 location	Cotia
 location	Santana de Parnaiba
 location	Jandira
-location	Rio Pardo
+location	Sao Jose do Rio Pardo
 location	Jundiai
 location	Cajamar
 location	Barueri
@@ -4566,8 +4609,6 @@ location	Atibaia
 location	Braganca Paulista
 location	Santo Andre
 location	Guarulhos
-location	Ermelino Matarazzo
-location	Sao Mateus
 location	Maua
 location	Cubatao
 location	Ribeirao Pires
@@ -4591,17 +4632,38 @@ location	Pindamonhangaba
 location	Caraguatatuba
 location	Sao Sebastiao
 location	Lorena BR
-location	Cahoeira Paulista
+location	Cachoeira Paulista
 location	Cunha
 
 # Minas Gerais
+location	Uberaba
+location	Coromandel
 location	Araxa
+location	Paracatu
+location	Ibitiura de Minas
+location	Alfenas
+location	Bom Despacho
+location	Divinopolis
+location	Esmeraldas BR
 location	Betim
+location	Confins
 location	Belo Horizonte
+location	Montes Claros
+location	Sabara
 location	Barbacena
+location	Ouro Branco
+location	Desterro do Melo
+location	Alem do Paraiba
+location	Guaira
+location	Muriae
+location	Caratinga
+location	Aracuai
+location	Governador Valadares
 
 # Rio de Janeiro
 location	Resende
+location	Porto Real
+location	Rio Claro RJ
 location	Itaguaí
 location	Seropédica
 location	Queimados
@@ -4620,6 +4682,7 @@ location	Guapimirim
 location	Teresopolis
 location	Itaborai
 location	Maricá
+location	Rio Bonito
 location	Nova Friburgo
 location	Cabo Frio
 location	Itaperuna
@@ -4631,9 +4694,8 @@ location	Terezina
 location	Parnaiba
 
 # Bahia
-location	Teixeira de Freitas
-location	Sao Sebastiao do Passe
 location	Feira de Santana
+location	Sao Sebastiao do Passe
 
 # Espirito Santo
 location	Vila Velha
@@ -4785,7 +4847,7 @@ location	Ventanas
 location	Valencia EC
 
 # Esmeraldas
-location	Esmeraldas
+location	Esmeraldas EC
 
 # Azuay
 location	Cuenca EC
@@ -5395,6 +5457,7 @@ location	Wilson County
 location	Jim Wells County
 location	Live Oak County
 location	Hays County
+location	Copperas Cove
 location	Hood County
 location	Guadalupe County
 location	Cedar Park
@@ -5404,6 +5467,7 @@ location	Gatesville
 location	Killeen
 location	Montague County
 location	Bee County
+location	Round Rock
 location	Wise County
 location	Georgetown TX
 location	Nueces County
@@ -5415,8 +5479,11 @@ location	Belton
 location	Bell County
 location	Cameron County
 location	Kleberg County
+location	Moody
+location	Little River Academy
 location	Temple
 location	Tarrant County
+location	Rogers
 location	Mclennan County
 location	Lorena TX
 location	Hewitt
@@ -5424,11 +5491,13 @@ location	Waco
 location	Denton County
 location	Victoria County
 location	Rosebud
+location	Giddings
 location	Lavaca County
 location	Marlin
 location	Mart
 location	Frisco
 location	Dallas County TX
+location	Caldwell
 location	Calhoun County TX
 location	Burleson County
 location	Collin County
@@ -6124,6 +6193,7 @@ division	Gujarat
 division	Madhya Pradesh
 division	West Bengal
 division	Jharkhand
+division	Manipur
 division	Bihar
 division	Assam
 division	Rajasthan
