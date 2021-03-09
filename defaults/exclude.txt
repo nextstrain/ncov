@@ -1756,3 +1756,7 @@ Senegal/SN-MBO-201654/2021
 NorthMacedonia/1236/2020
 NorthMacedonia/1285/2020
 
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615327203067500
+NorthMacedonia/9109/2021
+Brazil/RJ-9055PL04/2020
+Brazil/RJ-9055PL01/2020
