@@ -1742,3 +1742,18 @@ Germany/BY-RKI-I-013858/2020
 Germany/BY-RKI-I-013861/2020
 Germany/BY-RKI-I-013862/2020
 Chile/AR-265171/2020
+
+# Under-diverged, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615230182053300
+Senegal/SN-MBO-201724/2021
+Senegal/SN-MBO-201825/2021
+Senegal/SN-MBO-201781/2021
+Senegal/SN-MBO-201670/2021
+Senegal/SN-MBO-201894/2021
+Senegal/SN-MBO-201902/2021
+Senegal/SN-MBO-201765/2021
+Senegal/SN-MBO-201654/2021
+
+# Over-diverged, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615230568054300
+NorthMacedonia/1236/2020
+NorthMacedonia/1285/2020
+
