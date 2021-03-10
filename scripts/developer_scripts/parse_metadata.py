@@ -1,7 +1,13 @@
 from os import listdir
 from difflib import SequenceMatcher
 from pathlib import Path
+import csv
 
+# US cities DB (comes from https://simplemaps.com/data/us-cities)
+US_CITIES_TO_COUNTIES = {}
+with open('scripts/developer_scripts/config_files_parse_metadata/uscities.csv', 'r') as uscitiesfile:
+    for r in csv.DictReader(row for row in uscitiesfile if not row.startswith('#')):
+        US_CITIES_TO_COUNTIES[f"{r['city']}, {r['state_name']}"] = r["county_name"]
 
 # Things to make things recogised as Cruise ships & ignored/special treatment
 cruise_abbrev = ["Grand Princess", "Cruise", "cruise", "Diamond Princess"]
@@ -1016,7 +1022,10 @@ def check_for_missing(data):
                             if location in ordering["division"] or location in lat_longs["division"]:
                                 s = s + " (present as division)"
                             if country == "USA" and "County" not in location:
-                                s = s + " (correction to County might be necessary using [" + "\t".join([region, country, division, location, region, country, division, location + " County"]) + "]"
+                                # look up county name
+                                county_name = US_CITIES_TO_COUNTIES.get(f"{location}, {division}")
+                                if (county_name is not None):
+                                    s = s + f" ({location} is a city in {county_name} County, {division}. Consider adding rule: [" + "\t".join([region, country, division, location, region, country, division, county_name + " County"]) + "])"
 
                         if country not in missing["location"]:
                             missing["location"][country] = {}
