@@ -891,6 +891,10 @@ location	Antananarivo
 # Analanjirofo
 location	Fenoarivo
 
+### Mauritius
+# Plaine-Wilhems
+location	Candos
+
 ################
 
 # Europe
@@ -1127,7 +1131,7 @@ location	Puebla de Don Fadrique
 location	Brazuelo
 location	Val de San Lorenzo
 location	Valdeviejas
-location	Astorga ES
+location	Astorga
 location	La Carrera de Otero
 location	Castro de Cepeda
 location	San Roman de la Vega
@@ -1170,6 +1174,7 @@ location	Puente San Miguel
 location	Los Corrales de Buelna
 location	Santiago de Cartes
 location	Torrelavega
+location	Tanos
 location	Barreda
 location	Suances
 location	Polanco
@@ -1186,6 +1191,7 @@ location	Boo de Pielagos
 location	Liencres
 location	Mompia
 location	Alceda
+location	San Roman
 location	Escobedo
 location	Santa Cruz de Bezana
 location	Camargo
@@ -1200,12 +1206,17 @@ location	Guarnizo
 location	Astillero
 location	Santander
 location	Selaya
+location	Penagos
+location	Villacarriedo
 location	Pontejos
 location	Anaz
 location	Marina de Cudeyo
+location	Lierganes
 location	Solares
 location	San Roque de Riomiera
 location	Loredo
+location	Somo
+location	Meruelo
 location	Arnuero
 location	Ramales de la Victoria
 location	Mortera
@@ -1361,6 +1372,7 @@ location	Mendillorri
 location	Burlada
 location	Huarte
 location	Villava
+location	Arce
 location	Erro
 location	Leitza
 location	Gartzain
@@ -1464,9 +1476,30 @@ location	Castellon de la Plana
 location	Puzol
 
 # Catalunya
+location	La Granja d’Escarp
+location	Seros
+location	Almacelles
+location	Alpicat
+location	Sarroca de Lleida
+location	Alguaire
 location	Lleida
+location	Algerri
+location	La Clua
+location	Juncosa
+location	Balaguer
+location	Vallfogona de Balaguer
+location	Juneda
+location	Les Borges Blanques
+location	Mollerussa
+location	Linyola
+location	Bellpuig
+location	La Fuliola
 location	Cambrils
+location	Agramunt
+location	Sort
+location	Tarrega
 location	Solsona
+location	El Vendrell
 location	Jorba
 location	Calafell
 location	Santa Margarida de Montbui
@@ -1493,6 +1526,7 @@ location	Terrassa
 location	Viladecans
 location	Santa Coloma de Cervello
 location	Rubi
+location	Sant Feliu de Llobregat
 location	Sant Joan Despi
 location	San Cugat del Valles
 location	Esplugues de Llobregat
@@ -1559,6 +1593,7 @@ location	Sant Esteve de Palautordera
 location	Mataro
 location	Sant Andreu de Llavaneres
 location	Sant Celoni
+location	El Maresme
 location	Vallgorguina
 location	Sant Vicenç de Montalt
 location	Caldes d'Estrac
@@ -1601,6 +1636,7 @@ location	Manacor
 location	Son Servera
 location	Menorca
 location	Mahon
+location	Mao
 
 ### United Kingdom
 # Gibraltar
@@ -1619,6 +1655,9 @@ location	London
 location	Warwickshire
 
 ### France
+# Martinique
+location	Fort-de-France
+
 # French Guiana
 location	Cayenne GF
 
@@ -1681,6 +1720,7 @@ location	Gisors
 
 # Nouvelle-Aquitaine
 location	Anglet
+location	Bayonne
 location	Dax
 location	Saint-Paul-lès-Dax
 location	Le Haillan
@@ -1693,6 +1733,7 @@ location	Pau
 location	Langon
 location	Poitiers
 location	Notre-Dame-de-Sanilhac
+location	Perigueux
 location	Limoges
 location	Gueret
 
@@ -1817,11 +1858,13 @@ location	Saint-Gaudens
 location	Montauban
 location	Toulouse
 location	Caraman
+location	Narbonne
 location	Beziers
 location	Saint-Gely-Du-Fesc
 location	Montpellier
 location	Nîmes
 location	Uzès
+location	Saint-Gilles FR
 
 # Auvergne-Rhône-Alpes
 location	Clermont-Ferrand
@@ -1845,7 +1888,7 @@ location	Lyon
 location	Venissieux
 location	Valence
 location	Saint-Priest
-location	Decines
+location	Decines-Charpieu
 location	Saint-Jean-de-Bournay
 location	Bourg-en-Bresse
 location	Bourgoin-Jallieu
@@ -1857,6 +1900,7 @@ location	Grenoble
 location	Saint-Martin-D'Hères
 location	Chambery
 location	Saint-Julien-en-Genevois
+location	Pringy
 location	Annemasse
 location	Contamine-sur-Arve
 location	Cluses
@@ -1939,6 +1983,7 @@ location	Wissembourg
 # Provence-Alpes-Côte d'Azur
 location	Marignane
 location	Marseille
+location	Aix-en-Provence
 location	Manosque
 location	Sanary-sur-Mer
 location	Toulon
@@ -1951,6 +1996,7 @@ location	Frejus
 location	Saint-Vallier-de-Thiey
 location	Mouans-Sartoux
 location	Cannes
+location	Antibes
 location	Alpes Maritimes
 location	Nice
 
@@ -1960,6 +2006,9 @@ location	Bastia
 
 # Mayotte
 location	Mamoudzou
+
+# Réunion
+location	Saint-Denis de la Réunion
 
 ### Belgium
 # Veurne
@@ -1997,6 +2046,7 @@ location	Eernegem
 location	Ichtegem
 location	Ettelgem
 location	De Haan
+location	Bekegem
 
 # Roeselare
 location	Staden
@@ -2023,6 +2073,8 @@ location	Damme
 location	Blankenberge
 location	Zeebrugge
 location	Knokke-Heist
+location	Heist
+location	Knokke
 
 # Kortrijk
 location	Moorsele
@@ -2253,7 +2305,7 @@ location	Watermael-Boitsfort
 location	Uccle
 location	Auderghem
 location	Forest
-location	Saint-Gilles
+location	Saint-Gilles BE
 location	Ixelles
 location	Anderlecht
 location	Woluwe-Saint-Pierre
@@ -3122,6 +3174,7 @@ location	Turin
 
 # Sardinia
 location	Nuoro
+location	Sassari
 
 # Lombardy
 location	Pavia
@@ -5424,6 +5477,7 @@ location	Presidio County
 location	Brewster County
 location	Bailey County
 location	Pecos County
+location	Parmer County
 location	Oldham County
 location	Deaf Smith County
 location	Ector County
@@ -5444,6 +5498,7 @@ location	McCulloch County
 location	Kerr County
 location	Webb County
 location	Bandera County
+location	Zapata County
 location	Brown County TX
 location	San Saba County
 location	Starr County
@@ -5495,6 +5550,7 @@ location	Waco
 location	Denton County
 location	Victoria County
 location	Rosebud
+location	Lee County TX
 location	Giddings
 location	Lavaca County
 location	Marlin
@@ -5517,6 +5573,7 @@ location	Wharton County
 location	Freestone County
 location	Hunt County
 location	Waller County
+location	Leon County
 location	Grimes County
 location	Van Zandt County
 location	Fort Bend County
@@ -5526,6 +5583,7 @@ location	Houston
 location	Harris County
 location	Greater Houston Area
 location	Smith County
+location	Trinity County
 location	Red River County
 location	Galveston County
 location	Titus County
@@ -5899,6 +5957,7 @@ location	Alexandria
 location	Pittsburgh
 location	Allegheny County
 location	Chester County
+location	Delaware County PA
 location	Montgomery County PA
 location	Philadelphia County
 
@@ -5970,7 +6029,7 @@ location	Lewis County NY
 location	Oneida County NY
 location	St. Lawrence County
 location	Otsego County
-location	Delaware County
+location	Delaware County NY
 location	Herkimer County
 location	Sullivan County
 location	Hamilton County NY
@@ -6032,6 +6091,9 @@ location	Tolland County
 location	Middlesex County MA
 location	Norfolk County
 location	Boston
+
+# Maine
+location	Penobscot County
 
 # Puerto Rico
 location	Ponce
@@ -6711,6 +6773,9 @@ division	Analanjirofo
 ### Somalia
 division	Somalia
 
+### Mauritius
+division	Plaine-Wilhems
+
 ################
 
 # Europe
@@ -6796,6 +6861,7 @@ division	England
 division	Andorra
 
 ### France
+division	Martinique
 division	French Guiana
 division	Bretagne
 division	Pays de la Loire
@@ -6812,6 +6878,7 @@ division	Grand Est
 division	Provence-Alpes-Côte d'Azur
 division	Corse
 division	Mayotte
+division	Réunion
 
 ### Belgium
 division	Veurne
@@ -7067,6 +7134,7 @@ division	Croatia
 division	Krapina-Zagorje County
 division	Zagreb
 division	Sibenik-Knin County
+division	Split-Dalmatia County
 division	Varaždin County
 division	Varazdin
 division	Split
@@ -7076,6 +7144,7 @@ division	Koprivnica
 division	Bjelovar-Bilogora County
 division	Dubrovnik-Neretva County
 division	Pozega-Slavonia County
+division	Virovitica-Podravina County
 division	Brod-Posavina County
 division	Dubrovnik
 division	Osijek-Baranja County
@@ -7259,6 +7328,7 @@ division	North Macedonia
 division	Vardar
 division	Northeastern Region
 division	Kavadarci
+division	Gevgelija
 division	Eastern Region
 division	Southeastern Region
 
@@ -7951,6 +8021,7 @@ country	Kenya
 country	Ethiopia
 country	Madagascar
 country	Somalia
+country	Mauritius
 
 # Europe
 country	Iceland

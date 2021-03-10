@@ -203,3 +203,4 @@ Brussels Capital Region	Brussels
 Sint-Josse-Ten-Node	Saint-Josse-ten-Noode
 Emines	Émines
 Achene	Achêne
+Heist-Aan-Zee	Heist
