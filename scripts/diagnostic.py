@@ -2,12 +2,8 @@
 Run a number QC checks on an alignment. these involve divergence from a reference, clusters of mutations, and completeness
 """
 import argparse
-from collections import defaultdict
 import numpy as np
-from augur.utils import read_metadata
-from datetime import datetime
-
-tmrca = datetime(2019, 12, 1).toordinal()
+import pandas as pd
 
 def isfloat(value):
     try:
@@ -22,14 +18,17 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--metadata", type = str, required=True, help="metadata")
+    parser.add_argument("--clock-filter", type=float, default=15, help="maximal allowed deviation from the molecular clock")
+    parser.add_argument("--snp-clusters", type=int, default=1, help="maximal allowed SNP clusters (as defined by nextclade)")
     parser.add_argument("--output-exclusion-list", type=str, required=True, help="Output to-be-reviewed addition to exclude.txt")
     args = parser.parse_args()
 
     metadata = pd.read_csv(args.metadata, sep='\t')
 
     clock_deviation = np.array([float(x) if isfloat(x) else np.nan for x in metadata.clock_deviation])
+    snp_clusters = np.array([float(x) if isfloat(x) else np.nan for x in metadata.snp_clusters])
 
-    to_exclude = np.abs(clock_deviation)>15 | (metadata.snp_clusters>1)
+    to_exclude = (np.abs(clock_deviation)>args.clock_filter) | (snp_clusters>args.snp_clusters)
 
     # write out file with sequences flagged for exclusion sorted by date
     with open(args.output_exclusion_list, 'w') as excl:
