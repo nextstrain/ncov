@@ -3576,6 +3576,7 @@ location	Witkowo Drugie
 
 # Dolnośląskie
 location	Ząbkowice Śląskie
+location	Wroclaw
 
 # Wielkopolskie
 location	Nowy Tomysl
@@ -3621,6 +3622,10 @@ location	Wysławice
 location	Jarocin
 location	Kalisz
 
+# Pomorskie
+location	Gdynia
+location	Gdansk
+
 # Łódzkie
 location	Pajeczno County
 location	Belchatow County
@@ -3631,10 +3636,21 @@ location	Skierniewice County
 location	Kraków
 
 # Warminsko-Mazurskie
+location	Ilawski
 location	Ostrodzki
 location	Elblaski
+location	Braniewski
+location	Dzialdowski
+location	Lidzbarski
 location	Olsztyn
+location	Nidzicki
+location	Bartoszycki
+location	Szczycienski
+location	Ketrzynski
+location	Mragowski
+location	Gizycki
 location	Orzysz
+location	Goldapski
 
 # Mazowieckie
 location	Plock
@@ -4138,18 +4154,9 @@ location	Ushuaia
 location	Rio Grande AR
 
 # Rio Negro
-location	Patagones
-location	Jacobacci
 location	San Carlos de Bariloche
 location	Cipolletti
-location	Catriel
 location	General Roca
-location	Villa Regina
-location	Chinchinales
-location	Allen
-location	San Antonio Este
-location	General Conesa
-location	Viedma
 
 # Neuquen
 location	Villa la Angostura
@@ -4158,8 +4165,6 @@ location	Loncopue
 location	Las Lajas
 location	Zapala
 location	Cutral Co
-location	Centenario
-location	Senillosa
 location	Plottier
 location	Neuquen
 
@@ -4396,6 +4401,7 @@ location	Iguatemi
 location	Itaquirai
 location	Ponta Pora
 location	Vicentina
+location	Fatima do Sul
 location	Nova Andradina
 location	Dourados
 location	Douradinho
@@ -4424,6 +4430,7 @@ location	Bage
 location	Lavras do Sul
 location	Santana do Livramento
 location	Tapes
+location	Cerro Grande do Sul
 location	Cacapava do Sul
 location	Quaraí
 location	Balneario Pinhal
@@ -4432,6 +4439,7 @@ location	Guaiba
 location	Viamao
 location	Cachoeira do Sul
 location	Porto Alegre
+location	Alvorada
 location	Tramandai
 location	Imbe
 location	Cachoeirnha
@@ -4466,12 +4474,15 @@ location	Barao
 location	Torres BR
 location	Carlos Barbosa
 location	Garibaldi
+location	Arroio do Tigre
 location	Farroupilha
 location	Nova Brescia
 location	Estrela Velha
 location	Caxias do Sul
 location	Itaqui
 location	Flores Da Cunha
+location	Cotipora
+location	Arvorezinha
 location	Espumoso
 location	Serafina Correa
 location	Nova Araça
@@ -4498,11 +4509,13 @@ location	Vista Gaucha
 location	Candelaria
 
 # Paraná
+location	Foz do Iguacu
 location	Santa Helena
 location	Sao Miguel do Iguacu
 location	Medianeira
 location	Marechal Candido Rondon
 location	Toledo
+location	Assis Chateaubriand
 location	Cascavel
 location	Umuarama
 location	Boa Esperanca do Iguacu
@@ -4512,36 +4525,54 @@ location	Quedas do Iguacu
 location	Vere
 location	Sulina
 location	Cianorte
+location	Paranavai
 location	Terra Boa
+location	Clevelandia
 location	Mangueirinha
+location	Fenix
 location	Maringa
+location	Sao Joao do Ivai
 location	Astorga BR
 location	Borrazopolis
+location	Rolandia
+location	Cambe
+location	Bela Vista do Paraiso
 location	Londrina
 location	Uniao Da Vitoria
+location	Ibipora
+location	Primeiro de Maio
 location	Reboucas
 location	Cornelio Procopio
 location	Irati
 location	Ponta Grossa
 location	Carambei
+location	Santo Antonio Da Platina
 location	Cambara
 location	Castro
 location	Lapa
+location	Campo Largo
 location	Araucaria
+location	Almirante Tamandare
 location	Curitiba
 location	Colombo
+location	Sao Jose Dos Pinhais
 
 # Santa Catarina
+location	Planalto Alegre
+location	Chapeco
 location	Braco do Norte
-location	Florianopolis
-location	Balneario Camburiu
+location	Blumenau
 location	Joinville
+location	Balneario Camburiu
+location	Florianopolis
 
 # Goiás
-location	Aparecida de Goiania
-location	Goiania
+location	Jatai
 location	Santa Barbara de Goias
 location	Ceres BR
+location	Goiania
+location	Aparecida de Goiania
+location	Senador Canedo
 
 # Tocantins
 location	Sandolandia
@@ -4604,6 +4635,7 @@ location	Uru
 location	Aguas de Santa Barbara
 location	Bauru
 location	Borebi
+location	Avare
 location	Lencois Paulista
 location	Jau
 location	Igaracu do Tiete
@@ -4692,6 +4724,10 @@ location	Lorena BR
 location	Cachoeira Paulista
 location	Cunha
 
+# Maranhão
+location	Sao Luis
+location	Sao Jose de Ribamar
+
 # Minas Gerais
 location	Uberaba
 location	Coromandel
@@ -4715,13 +4751,16 @@ location	Guaira
 location	Muriae
 location	Caratinga
 location	Aracuai
+location	Manhuacu
 location	Governador Valadares
 
 # Rio de Janeiro
 location	Resende
 location	Porto Real
 location	Rio Claro RJ
+location	Volta Redonda
 location	Itaguaí
+location	Paracambi
 location	Seropédica
 location	Queimados
 location	Nova Iguacu
@@ -4734,6 +4773,7 @@ location	Rio de Janeiro
 location	Tres Rios BR
 location	Petropolis
 location	Niteroi
+location	Mage
 location	Sao Goncalo
 location	Guapimirim
 location	Teresopolis
@@ -4751,12 +4791,25 @@ location	Terezina
 location	Parnaiba
 
 # Bahia
-location	Feira de Santana
+location	Porto Seguro
+location	Salvador
 location	Sao Sebastiao do Passe
+location	Feira de Santana
 
 # Espirito Santo
+location	Cachoeiro de Itapemirim
+location	Guarapari
 location	Vila Velha
+location	Vitoria
+location	Cariacica
+location	Serra
+location	Santa Teresa
+location	Linhares
 location	Barra do Sao Francisco
+
+# Ceará
+location	Arneiroz
+location	Fortaleza
 
 # Sergipe
 location	Tomar do Geru
@@ -4764,6 +4817,7 @@ location	Estancia
 location	Itaporanga Dajuda
 location	Jaboatiana
 location	Aracaju
+location	Lagarto
 location	Nossa Senhora do Socorro
 location	Laranjeiras
 location	Riachuelo
@@ -4822,6 +4876,7 @@ location	Lucena
 location	Cabedelo
 
 # Alagoas
+location	Delmiro Gouveia
 location	Maceio
 
 ### Peru
@@ -5236,6 +5291,7 @@ location	Jimenez
 location	Santa Rosa CR
 location	La Suiza
 location	Dulce Nombre
+location	Turrialba
 
 # Limon
 location	Guapiles
@@ -5540,11 +5596,13 @@ location	Cameron County
 location	Kleberg County
 location	Moody
 location	Little River Academy
+location	Johnson County TX
 location	Temple
 location	Tarrant County
 location	Rogers
 location	Mclennan County
 location	Lorena TX
+location	Cooke County
 location	Hewitt
 location	Waco
 location	Denton County
@@ -5556,6 +5614,7 @@ location	Lavaca County
 location	Marlin
 location	Mart
 location	Frisco
+location	Ellis County
 location	Dallas County TX
 location	Caldwell
 location	Calhoun County TX
@@ -5579,6 +5638,7 @@ location	Van Zandt County
 location	Fort Bend County
 location	Lamar County
 location	Montgomery County TX
+location	Brazoria County
 location	Houston
 location	Harris County
 location	Greater Houston Area
@@ -5650,6 +5710,7 @@ location	Madison Parish
 location	East Baton Rouge Parish
 location	Assumption Parish
 location	East Feliciana Parish
+location	Ascension Parish
 location	Livingston Parish
 location	Jefferson Parish
 location	New Orleans
@@ -5945,9 +6006,6 @@ location	Horry County
 
 # West Virginia
 location	Kanawha
-
-# North Carolina
-location	Mecklenburg County
 
 # Virginia
 location	Frederick County
@@ -6731,6 +6789,12 @@ division	Egypt
 division	Faiyum
 division	Cairo
 division	Kalyoubia
+
+### Eswatini
+division	Shiselweni
+division	Manzini
+division	Mbabane
+division	Hhohho
 
 ### Uganda
 division	Uganda
@@ -8014,6 +8078,7 @@ country	Zambia
 country	Zimbabwe
 country	Rwanda
 country	Egypt
+country	Eswatini
 country	Uganda
 country	Mozambique
 country	Tanzania
