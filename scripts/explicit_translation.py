@@ -40,7 +40,7 @@ if __name__ == '__main__':
                 if n.name not in node_data:
                     node_data[n.name] = {"aa_muts":{}}
                 node_data[n.name]["aa_muts"][gene] = [f"{a}{p+1}{d}" for a,p,d in n.mutations]
-                fh.write(f">{n.name}\n{tt.sequence(n, as_string=True)}\n")
+                fh.write(f">{n.name}\n{tt.sequence(n, as_string=True, reconstructed=True)}\n")
 
 
     with open(args.output, 'w') as fh:

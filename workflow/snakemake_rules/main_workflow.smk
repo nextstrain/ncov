@@ -767,11 +767,11 @@ if "use_nextalign" in config and config["use_nextalign"]:
         input:
             tree = rules.refine.output.tree,
             alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
-            distance_maps = ["defaults/distance_maps/S1.json"]
+            distance_maps = ["defaults/distance_maps/S1.json", "defaults/distance_maps/VoC.json"]
         params:
-            genes = ['S'],
-            comparisons = 'root',
-            attribute_names = 'S1_mutations'
+            genes = 'S',
+            comparisons = ['root', 'root'],
+            attribute_names = ['S1_mutations', 'MoC_count']
         output:
             node_data = "results/{build_name}/distances.json"
         shell:
