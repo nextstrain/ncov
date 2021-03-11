@@ -12,7 +12,6 @@ properties:
   inputs:
     type:
       - array
-      - string # string values will be ignored, but this can be useful for cmd-line overrides
     minItems: 1
     items:
       type: object

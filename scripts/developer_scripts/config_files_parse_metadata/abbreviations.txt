@@ -95,3 +95,7 @@ Limburg	NL
 Israel	IL
 Botswana	BW
 São Paulo	BR
+Region Metropolitana de Santiago	CL
+Valparaiso	CL
+Brussels	BE
+Occitanie	FR
