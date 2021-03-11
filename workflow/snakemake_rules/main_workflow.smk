@@ -90,33 +90,20 @@ else:
             """
 
 rule diagnostic:
-    message: "Scanning aligned sequences {input.alignment} for problematic sequences"
+    message: "Scanning data {input.metadata} for problematic sequences"
     input:
-        alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
         metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
-        reference = config["files"]["reference"]
     output:
-        diagnostics = "results/sequence-diagnostics{origin}.tsv",
-        flagged = "results/flagged-sequences{origin}.tsv",
         to_exclude = "results/to-exclude{origin}.txt"
     log:
         "logs/diagnostics{origin}.txt"
-    params:
-        mask_from_beginning = config["mask"]["mask_from_beginning"],
-        mask_from_end = config["mask"]["mask_from_end"]
     benchmark:
         "benchmarks/diagnostics{origin}.txt"
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/diagnostic.py \
-            --alignment {input.alignment} \
             --metadata {input.metadata} \
-            --reference {input.reference} \
-            --mask-from-beginning {params.mask_from_beginning} \
-            --mask-from-end {params.mask_from_end} \
-            --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostics} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
