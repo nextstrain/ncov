@@ -421,7 +421,7 @@ Italy/INMI2-B/2020
 
 # According to GISAID metadata duplicate entries for 24 yo male in Kalmthout
 Belgium/VDLH-030548/2020
-# Likely duplicate case BAL sample based on metadata: collection same day for hospitalized 51 yo male in Liege with identical viral genome as NP swab Belgium/ULG-9620/2020 
+# Likely duplicate case BAL sample based on metadata: collection same day for hospitalized 51 yo male in Liege with identical viral genome as NP swab Belgium/ULG-9620/2020
 # BALs are few and far between in the Belgian data, increasing likelihood this was a single patient multi-site collection.
 Belgium/ULG-9732/2020
 
@@ -538,7 +538,7 @@ Egypt/CUNCI-HGC6I032/2020
 Egypt/CUNCI-HGC6I033/2020
 
 
-# future collection dates 
+# future collection dates
 Australia/VIC1101/2020
 Australia/VIC1129/2020
 Australia/VIC1130/2020
@@ -581,8 +581,8 @@ Australia/VIC2066/2020
 Australia/VIC2067/2020
 Australia/VIC2087/2020
 Australia/VIC2089/2020
-Timor-Leste/TL04/2020 
-Timor-Leste/TL13/2020 
+Timor-Leste/TL04/2020
+Timor-Leste/TL13/2020
 
 # Collection dates from Jan 6 with divergence resembling a much more recent virus
 Australia/VIC1898/2020
@@ -590,7 +590,7 @@ Australia/VIC1899/2020
 Australia/VIC2012/2020
 Australia/VIC2013/2020
 
-# Per pre-print https://www.biorxiv.org/content/10.1101/2020.07.10.197095v1 samples with 'a' and 'b' suffices from 
+# Per pre-print https://www.biorxiv.org/content/10.1101/2020.07.10.197095v1 samples with 'a' and 'b' suffices from
 # Gujarat are from the same sample but "heterozygous mutations" have been manually separated into two genomes (co-infection was assumed)
 # Genomes with suffix 'a' are the major allele (60-80% of the Ion Torrent reads), so 'b' is being excluded. 1s is also a dupe (resampling)
 India/GBRC1s/2020
@@ -690,9 +690,9 @@ India/GBRC191b/2020
 India/GBRC193b/2020
 India/GBRC195b/2020
 
-# In vertical transmission study (https://journals.lww.com/pidj/Abstract/9000/Probable_Vertical_Transmission_of_SARS_CoV_2.96098.aspx), 
+# In vertical transmission study (https://journals.lww.com/pidj/Abstract/9000/Probable_Vertical_Transmission_of_SARS_CoV_2.96098.aspx),
 # maternal and neonatal SARS-CoV-2 viruses were sequenced at two time points. Later timepoint being excluded.
-England/20110005006/2020 
+England/20110005006/2020
 England/20118044606/2020
 
 
@@ -761,7 +761,7 @@ USA/NY-Wadsworth-10131-01/2020
 #Date before first case confirmed in Nigeria
 Nigeria/ED01-CV155/2020
 
-#Both are identical to reference but taken mid-May - very underdiverged 
+#Both are identical to reference but taken mid-May - very underdiverged
 Oman/MA-RESP-20-B-16263/2020
 Bangladesh/NIB-BCSIR-02/2020Switzerland/BE-UNIBE-149-0641/2020
 
@@ -916,7 +916,7 @@ pangolin/Yunnan/MP20/2020
 CzechRepublic/NRL_9894/2020
 
 # Collection date in the future
-England/C200040625/2020 
+England/C200040625/2020
 
 # Divergence is far more diverse than the very narrow date range given
 # suspect incorrect dates - excluding until can be fixed
@@ -1483,7 +1483,7 @@ UnitedArabEmirates/4285/2020
 Norway/7667/2020
 Spain/MD-IBV-99018532/2020
 
-# Marked as "Longitudinal surveillance (repeat sampling)" in additional info 
+# Marked as "Longitudinal surveillance (repeat sampling)" in additional info
 USA/MA-MGH-03866/2020
 USA/MA-MGH-03872/2020
 USA/MA-MGH-03873/2020
@@ -1769,3 +1769,6 @@ Brazil/RJ-FIOCRUZ-12887/2020
 Brazil/RJ-FIOCRUZ-12985/2020
 Brazil/RJ-FIOCRUZ-7657/2020
 USA/PR-01222021-811/2021
+
+# large deletions, including in Spike:
+Turkey/22_Ankara_GUMV_50454/2020
