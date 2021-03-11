@@ -719,7 +719,8 @@ rule aa_muts_explicit:
         tree = rules.refine.output.tree,
         translations = lambda w: rules.build_align.output.translations
     output:
-        node_data = "results/{build_name}/aa_muts_explicit.json"
+        node_data = "results/{build_name}/aa_muts_explicit.json",
+        translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}_withInternalNodes.fasta", gene=config.get('genes', ['S']))
     params:
         genes = config.get('genes', 'S')
     log:
@@ -762,21 +763,27 @@ if "use_nextalign" in config and config["use_nextalign"]:
                 --output {output.mutation_summary} 2>&1 | tee {log}
             """
 
-    rule add_mutation_counts:
+    rule distances:
         input:
-            mutation_summary = rules.build_mutation_summary.output.mutation_summary,
-            tree = rules.refine.output.tree
-        output:
-            node_data = "results/{build_name}/mutation_count.json"
+            tree = rules.refine.output.tree,
+            alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
+            distance_maps = ["defaults/distance_maps/S1.json"]
         params:
-            genes = ['S']
+            genes = ['S'],
+            comparisons = 'root',
+            attribute_names = 'S1_mutations'
+        output:
+            node_data = "results/{build_name}/distances.json"
         shell:
             """
-            python3 scripts/mutation_counts.py \
+            augur distance \
                 --tree {input.tree} \
-                --mutation-summary {input.mutation_summary} \
-                --genes {params.genes} \
-                --output {output.node_data} 2>&1 | tee {log}
+                --alignment {input.alignments} \
+                --gene-names {params.genes} \
+                --compare-to {params.comparisons} \
+                --attribute-name {params.attribute_names} \
+                --map {input.distance_maps} \
+                --output {output}
             """
 
 rule traits:
@@ -1019,7 +1026,7 @@ def _get_node_data_by_wildcards(wildcards):
 
     if "use_nextalign" in config and config["use_nextalign"]:
         inputs.append(rules.aa_muts_explicit.output.node_data)
-        inputs.append(rules.add_mutation_counts.output.node_data)
+        inputs.append(rules.distances.output.node_data)
 
     # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]
