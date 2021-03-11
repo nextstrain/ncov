@@ -25,9 +25,16 @@ if __name__ == '__main__':
 
     metadata = pd.read_csv(args.metadata, sep='\t')
 
-    clock_deviation = np.array([float(x) if isfloat(x) else np.nan for x in metadata.clock_deviation])
-    snp_clusters = np.array([float(x) if isfloat(x) else np.nan for x in metadata.snp_clusters])
+    if "clock_deviation" in metadata.columns:
+        clock_deviation = np.array([float(x) if isfloat(x) else np.nan for x in metadata.clock_deviation])
+    else:
+        clock_deviation = np.zeros(len(metadata), dtype=bool)
 
+    if "snp_clusters" in metadata.columns:
+        snp_clusters = np.array([float(x) if isfloat(x) else np.nan for x in metadata.snp_clusters])
+    else:
+        snp_clusters = np.zeros(len(metadata), dtype=bool)
+        
     to_exclude = (np.abs(clock_deviation)>args.clock_filter) | (snp_clusters>args.snp_clusters)
 
     # write out file with sequences flagged for exclusion sorted by date
