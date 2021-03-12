@@ -410,11 +410,18 @@ location	Kargil
 location	Beruwala
 location	Ingiriya
 
+# Sabaragamuwa Province
+location	Ratnapura
+location	Kegalle
+
 # Western Province
 location	Avissawella
 
 # Central Province
 location	Dambulla
+
+# North Western Province
+location	Puttalam
 
 ### Nepal
 # Kathmandu
@@ -1519,9 +1526,11 @@ location	Vacarisses
 location	Navarcles
 location	Gaia
 location	Vallirana
+location	Viladecavalls
 location	Sant Andreu de la Barca
 location	Castelldefels
 location	Castellbisbal
+location	Palleja
 location	Terrassa
 location	Viladecans
 location	Santa Coloma de Cervello
@@ -1534,16 +1543,22 @@ location	El Prat de Llobregat
 location	Moia
 location	L'Hospitalet de Llobregat
 location	Sabadell
+location	Badia del Valles
 location	Castellterçol
+location	Torre-Romeu
+location	Barbera del Valles
 location	Cerdanyola del Valles
 location	Barcelona
 location	Ripollet
 location	Sant Feliu de Codines
 location	Caldes de Montbui
+location	Campdevànol
+location	La Virreina
 location	Palau Solita i Plegamans
 location	Santa Perpetua de Mogoda
 location	Moncada y Reixach
 location	La Llagosta
+location	Ripoll
 location	Santa Coloma de Gramenet
 location	Bigues I Riells
 location	Oris
@@ -1558,12 +1573,14 @@ location	Sant Fost de Campsentelles
 location	Llissa de Munt
 location	Llica D'Amunt
 location	Lliça de Vall
+location	Montmelo
 location	Badalona
 location	Aiguafreda
 location	Vic
 location	L'Ametlla del Valles
 location	Montornes del Valles
 location	Tiana
+location	Can Tries
 location	Montgat
 location	Canovelles
 location	Manlleu
@@ -1589,24 +1606,53 @@ location	Cabrera de Mar
 location	Argentona
 location	Sant Antoni de Vilamajor
 location	Llinars del Valles
+location	Dosrius
 location	Sant Esteve de Palautordera
+location	La Vall D'en Bas
+location	Santa Maria de Palautordera
 location	Mataro
+location	Les Preses
 location	Sant Andreu de Llavaneres
+location	Olot
 location	Sant Celoni
 location	El Maresme
 location	Vallgorguina
 location	Sant Vicenç de Montalt
 location	Caldes d'Estrac
+location	Riells I Viabrea
 location	Arenys de Munt
 location	Arenys de Mar
+location	Santa Pau
+location	Canet de Mar
 location	Sant Jaume de Llierca
 location	San Pol de Mar
+location	Massanes
 location	Calella
+location	Santa Coloma de Farners
 location	Fogars de la Selva
 location	Pineda de Mar
+location	Besalu
+location	Tordera
+location	Macanet de la Selva
 location	Malgrat de Mar
-location	Gerona
+location	Sils
+location	Banyoles
+location	Vidreres
+location	Salt
+location	Riudellots de la Selva
+location	Caldes de Malavella
+location	Cornella de Terri
+location	Girona
+location	Cassa de la Selva
+location	Castillo de Ferran
+location	Figueres
+location	Pubol
+location	Sant Feliu de Guixols
+location	S'Agaro
+location	La Bisbal de l'Emporda
 location	Palamos
+location	Palafrugell
+location	Regencos
 
 # Balear Islands
 location	Formentera
@@ -1685,6 +1731,7 @@ location	Cayenne BRE
 location	Dinan
 location	Saint Malo
 location	Melesse
+location	Saint Gregoire
 location	Noyal Chatillon sur Seiche
 location	Betton
 location	Vitre
@@ -1729,6 +1776,7 @@ location	Saintes
 location	Bordeaux
 location	Pons
 location	La Brède
+location	Niort
 location	Pau
 location	Langon
 location	Poitiers
@@ -1749,6 +1797,7 @@ location	Abondant
 location	Romorantin
 location	Orléans
 location	Mehun sur Yevre
+location	Pannes
 location	Craon
 
 # Ile de France
@@ -1856,6 +1905,7 @@ location	Dunkerque
 # Occitanie
 location	Saint-Gaudens
 location	Montauban
+location	Cahors
 location	Toulouse
 location	Caraman
 location	Narbonne
@@ -2156,6 +2206,7 @@ location	Deinze
 location	Nevele
 location	Lovendegem
 location	Asper
+location	Gavere
 location	Mariakerke
 location	Gent
 location	Merelbeke
@@ -2366,6 +2417,7 @@ location	Brecht
 location	Zandhoven
 location	Zoersel
 location	Sint-Lenaarts
+location	Westmalle
 location	Pulderbos
 location	Pulle
 location	Malle
@@ -2766,6 +2818,7 @@ location	St Eustatius
 location	Delft
 location	Nootdorp
 location	Rotterdam
+location	Dordrecht
 location	Hardinxveld Giessendam
 
 # North Holland
@@ -2789,7 +2842,9 @@ location	Amersfoort
 
 # North Brabant
 location	Cranendonck
+location	Valkenswaard
 location	Bergeijk
+location	Heeze-Leende
 location	Someren
 location	Veldhoven
 location	Eindhoven
@@ -3343,6 +3398,7 @@ location	Sankt Veit An Der Glan
 location	Guttaring
 location	Pörtschach
 location	Sittersdorf
+location	Völkermarkt
 location	St. Jakob
 location	Griffen
 location	Wolfsberg
@@ -3395,14 +3451,17 @@ location	Weiz
 location	Hartberg-Fürstenfeld
 
 # Lower Austria
+location	Waidhofen An Der Ybbs
 location	Amstetten
 location	Zwettl
+location	Melk
 location	Lilienfeld
 location	Horn
 location	Sankt Polten-Land
 location	Hollabrunn
 location	Markt Piesting
 location	Bad Vöslau
+location	Wiener Neustadt-Land
 location	Baden
 location	Schönau an der Triesting
 location	Mödling
@@ -3418,6 +3477,7 @@ location	Vienna
 # Burgenland
 location	Unterwart
 location	Eisenstadt
+location	Neusiedl Am See
 location	Eisenstadt-Umgebung
 
 ### Croatia
@@ -4491,7 +4551,6 @@ location	Cruz Alta
 location	Ibiruba
 location	São Domingos do Sul
 location	Não-Me-Toque
-location	Marau
 location	Saldanha Marinho
 location	Ijui
 location	Santo Angelo
@@ -4591,6 +4650,7 @@ location	Brasilia
 
 # São Paulo
 location	Euclides Da Cunha Paulista
+location	Teodoro Sampaio
 location	Presidente Epitacio
 location	Presidente Venceslau
 location	Sandovalina
@@ -4611,6 +4671,7 @@ location	Regente Feijo
 location	Taciba
 location	Martinopolis
 location	Adamantina
+location	Oswaldo Cruz
 location	Taruma
 location	Auriflama
 location	Tupa
@@ -4631,6 +4692,7 @@ location	Lins
 location	Sao Pedro do Turvo
 location	Garca
 location	Santa Cruz do Rio Pardo
+location	Itarare
 location	Uru
 location	Aguas de Santa Barbara
 location	Bauru
@@ -4639,11 +4701,13 @@ location	Avare
 location	Lencois Paulista
 location	Jau
 location	Igaracu do Tiete
+location	Guapiara
 location	Bocaina
 location	Taquaritinga
 location	Dois Corregos
 location	Araraquara
 location	Cajati
+location	Itapetininga
 location	Cesário Lange
 location	Sete Barras
 location	Pariquera-Acu
@@ -4791,7 +4855,19 @@ location	Terezina
 location	Parnaiba
 
 # Bahia
+location	Marau
 location	Porto Seguro
+location	Pau Brasil
+location	Camacan
+location	Jussari
+location	Cordeiros
+location	Buerarema
+location	Floresta Azul
+location	Itabuna
+location	Ilheus
+location	Itajuipe
+location	Itapitanga
+location	Itacare
 location	Salvador
 location	Sao Sebastiao do Passe
 location	Feira de Santana
@@ -4864,13 +4940,33 @@ location	Recife
 location	Paulista
 location	Olinda
 
+# Rio Grande do Norte
+location	Natal
+
 # Paraiba
 location	Marizopolis
+location	Riacho Dos Cavalos
+location	Sao Jose do Brejo do Cruz
+location	Monteiro
 location	Coxixola
+location	Sossego
+location	Olivedos
+location	Cuite
+location	Queimadas
+location	Campina Grande
 location	Cacimba de Dentro
+location	Areia
+location	Riachao
+location	Alagoa Grande
+location	Inga
+location	Itabaiana
 location	Pilar
+location	Sape
 location	Pedras de Fogo
+location	Rio Tinto
 location	Santa Rita
+location	Bayeux
+location	Conde
 location	Joao Pessoa
 location	Lucena
 location	Cabedelo
@@ -5410,6 +5506,7 @@ location	Franklin County WA
 location	Walla Walla County
 location	Adams County WA
 location	Lincoln County WA
+location	Stevens County
 location	Spokane County
 location	Asotin County
 
@@ -6334,6 +6431,7 @@ division	Ladakh
 
 ### Sri Lanka
 division	Kalutara
+division	Sabaragamuwa Province
 division	Western Province
 division	Colombo
 division	Gampaha
@@ -6341,6 +6439,7 @@ division	Kandy
 division	Central Province
 division	Matale
 division	Sri Lanka
+division	North Western Province
 division	Vavuniya
 division	Mannar
 division	Kilinochchi
@@ -6495,10 +6594,12 @@ division	New Taipei City
 division	Keelung
 
 ### Philippines
+division	Soccsksargen
 division	Davao Region
 division	Zamboanga Peninsula
 division	Northern Mindanao
 division	Central Visayas
+division	Western Visayas
 division	Philippines
 division	Mimaropa
 division	Calabarzon
@@ -6734,6 +6835,21 @@ division	Cameroon
 
 ### Republic of the Congo
 division	Brazzaville
+
+### Namibia
+division	Kunene
+division	Omusati
+division	Erongo
+division	Oshana
+division	Ohangwena
+division	Khomas
+division	Oshikoto
+division	Hardap
+division	Kavango
+division	ǁKaras
+division	Otjozondjupa
+division	Omaheke
+division	Zambezi
 
 ### Democratic Republic of the Congo
 division	Kongo Central
@@ -7768,6 +7884,7 @@ division	San Andres
 division	Norte de Santander
 division	Cordoba CO
 division	Bolivar
+division	Sucre
 division	Cesar
 division	Magdalena
 division	Atlantico
@@ -8071,6 +8188,7 @@ country	Equatorial Guinea
 country	Gabon
 country	Cameroon
 country	Republic of the Congo
+country	Namibia
 country	Democratic Republic of the Congo
 country	Botswana
 country	South Africa
