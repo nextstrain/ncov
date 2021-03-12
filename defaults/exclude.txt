@@ -1772,3 +1772,5 @@ USA/PR-01222021-811/2021
 
 # large deletions, including in Spike:
 Turkey/22_Ankara_GUMV_50454/2020
+USA/SC-CDC-2-3714451/2020
+
