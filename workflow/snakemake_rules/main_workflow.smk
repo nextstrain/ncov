@@ -556,7 +556,6 @@ else:
                 {input.reference} > {output} 2> {log}
             """
 
-
 # TODO: This will probably not work for build names like "country_usa" where we need to know the country is "USA".
 rule adjust_metadata_regions:
     message:
@@ -746,7 +745,8 @@ rule aa_muts_explicit:
         tree = rules.refine.output.tree,
         translations = lambda w: rules.build_align.output.translations
     output:
-        node_data = "results/{build_name}/aa_muts_explicit.json"
+        node_data = "results/{build_name}/aa_muts_explicit.json",
+        translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}_withInternalNodes.fasta", gene=config.get('genes', ['S']))
     params:
         genes = config.get('genes', 'S')
     log:
@@ -762,6 +762,57 @@ rule aa_muts_explicit:
             --genes {params.genes} \
             --output {output.node_data} 2>&1 | tee {log}
         """
+if "use_nextalign" in config and config["use_nextalign"]:
+    rule build_mutation_summary:
+        message: "Summarizing {input.alignment}"
+        input:
+            alignment = rules.build_align.output.alignment,
+            insertions = rules.build_align.output.insertions,
+            translations = rules.build_align.output.translations,
+            reference = config["files"]["alignment_reference"],
+            genemap = config["files"]["annotation"]
+        output:
+            mutation_summary = "results/{build_name}/mutation_summary.tsv"
+        log:
+            "logs/mutation_summary_{build_name}.txt"
+        params:
+            outdir = "results/{build_name}/translations",
+            basename = "aligned"
+        conda: config["conda_environment"]
+        shell:
+            """
+            python3 scripts/mutation_summary.py \
+                --alignment {input.alignment} \
+                --insertions {input.insertions} \
+                --directory {params.outdir} \
+                --basename {params.basename} \
+                --reference {input.reference} \
+                --genemap {input.genemap} \
+                --output {output.mutation_summary} 2>&1 | tee {log}
+            """
+
+    rule distances:
+        input:
+            tree = rules.refine.output.tree,
+            alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
+            distance_maps = ["defaults/distance_maps/S1.json"]
+        params:
+            genes = 'S',
+            comparisons = ['root'],
+            attribute_names = ['S1_mutations']
+        output:
+            node_data = "results/{build_name}/distances.json"
+        shell:
+            """
+            augur distance \
+                --tree {input.tree} \
+                --alignment {input.alignments} \
+                --gene-names {params.genes} \
+                --compare-to {params.comparisons} \
+                --attribute-name {params.attribute_names} \
+                --map {input.distance_maps} \
+                --output {output}
+            """
 
 rule traits:
     message:
@@ -1021,6 +1072,7 @@ def _get_node_data_by_wildcards(wildcards):
 
     if "use_nextalign" in config and config["use_nextalign"]:
         inputs.append(rules.aa_muts_explicit.output.node_data)
+        inputs.append(rules.distances.output.node_data)
 
     # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]
