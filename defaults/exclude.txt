@@ -1774,3 +1774,7 @@ USA/PR-01222021-811/2021
 Turkey/22_Ankara_GUMV_50454/2020
 USA/SC-CDC-2-3714451/2020
 
+# too early for clade; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615577473113100
+Austria/CeMM4362/2020
+Austria/CeMM4363/2020
+Spain/CL-MS6922/2020
