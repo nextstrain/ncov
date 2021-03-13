@@ -804,7 +804,7 @@ if "use_nextalign" in config and config["use_nextalign"]:
             node_data = "results/{build_name}/distances.json"
         shell:
             """
-            augur distance \
+            python scripts/mutation_counts.py
                 --tree {input.tree} \
                 --alignment {input.alignments} \
                 --gene-names {params.genes} \
