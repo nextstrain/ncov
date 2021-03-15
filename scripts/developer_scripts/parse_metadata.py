@@ -849,9 +849,12 @@ def check_duplicate(data):
                 for location in data[region][country][division]:
                     if location in duplicates:
                         print("Known duplicate detected: " + bold(location))
-                        print("Please add [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location + " " + abbreviations[division]]) + "] to manual_adjustments.txt")
-                        location_correct = location + " " + abbreviations[division]
-                        duplicate_locations.append((region, country, division, location, region, country, division, location_correct))
+                        if abbreviations.get(division) is not None:
+                            print("Please add [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location + " " + abbreviations[division]]) + "] to manual_adjustments.txt")
+                            location_correct = location + " " + abbreviations[division]
+                            duplicate_locations.append((region, country, division, location, region, country, division, location_correct))
+                        else:
+                            print("No abbreviation for " + division + ", please add one to abbreviations.txt and rerun.")
     data = correct_data(data, "location", duplicate_locations)
 
     #Check for new cases
