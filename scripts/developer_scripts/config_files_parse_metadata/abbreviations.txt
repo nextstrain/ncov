@@ -99,3 +99,5 @@ Region Metropolitana de Santiago	CL
 Valparaiso	CL
 Brussels	BE
 Occitanie	FR
+Bulgaria	BG
+Tuscany	IT

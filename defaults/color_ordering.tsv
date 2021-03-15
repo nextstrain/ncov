@@ -412,16 +412,19 @@ location	Ingiriya
 
 # Sabaragamuwa Province
 location	Ratnapura
-location	Kegalle
 
 # Western Province
 location	Avissawella
 
+# Uva Province
+location	Badulla
+location	Mahiyangana
+
 # Central Province
 location	Dambulla
 
-# North Western Province
-location	Puttalam
+# North Central Province
+location	Anuradhapura
 
 ### Nepal
 # Kathmandu
@@ -1773,6 +1776,7 @@ location	Anglet
 location	Bayonne
 location	Dax
 location	Saint-Paul-lès-Dax
+location	Royan
 location	Le Haillan
 location	Blaye
 location	Saintes
@@ -1806,6 +1810,7 @@ location	Craon
 # Ile de France
 location	Mantes-la-Jolie
 location	Limay
+location	Yvelines
 location	Dourdan
 location	Montigny le Bretonneux
 location	Poissy
@@ -1851,6 +1856,7 @@ location	Maisons Alfort
 location	Montreuil
 location	Bobigny
 location	Villeneuve-Saint-Georges
+location	Gonesse
 location	Seine-Saint-Denis
 location	Creteil
 location	Aulnay Sous Bois
@@ -2779,6 +2785,7 @@ location	Houthalen-Helchteren
 location	Hechtel-Eksel
 location	Helchteren
 location	Overpelt
+location	Pelt
 location	Neerpelt
 location	Peer
 location	Achel
@@ -2935,6 +2942,7 @@ location	Fribourg
 location	Saignelegier
 location	Boncourt
 location	Delémont
+location	Courrendlin
 
 # Solothurn
 location	Rodersdorf
@@ -2956,6 +2964,7 @@ location	Seewen
 location	St. Pantaleon
 location	Nuglar
 location	Kestenholz
+location	Starrkirch-Wil
 location	Dulliken
 
 # Bern
@@ -2963,9 +2972,11 @@ location	Orvin
 location	Ipsach
 location	Kallnach
 location	Evilard
-location	Biel
+location	Nidau
+location	Biel-Bienne
 location	Moutier
 location	Gasel
+location	Bolligen
 location	Burgdorf
 location	Oberhofen
 location	Wasen Im Emmental
@@ -3027,6 +3038,7 @@ location	Wegenstetten
 location	Zofingen
 location	Frick
 location	Staffelbach
+location	Suhr
 location	Riniken
 location	Dottikon
 location	Untersiggenthal
@@ -3050,23 +3062,36 @@ location	Birmensdorf
 location	Niederhasli
 location	Zürich
 location	Thalwil
+location	Zollikon
+location	Rorbas
 location	Wallisellen
 location	Lufingen
+location	Embrach
+location	Horgen
 location	Dubendorf
 location	Bassersdorf
+location	Brüttisellen
+location	Wangen
+location	Brütten
 location	Volketswil
 location	Nanikon
+location	Winterthur
 location	Seuzach
+location	Wetzikon
+location	Wolfhausen
 location	Hinwil
 
 # Schwyz
 location	Merlischachen
 location	Küssnacht Am Rigi
+location	Rickenbach CH
 location	Wollerau
 
 # Ticino
 location	Purasca
+location	Paradiso
 location	Lugano
+location	Canobbio
 location	Pregassona
 
 # Glarus
@@ -3075,21 +3100,34 @@ location	Niederurnen
 location	Filzbach
 
 # Thurgau
+location	Gachnang
 location	Frauenfeld
+location	Felben-Wellhausen
 location	Wangi
 location	Munchwilen
 location	Wilen bei Wil
+location	Erlen
 
 # Sankt Gallen
-location	Rheintal
+location	Niederuzwil
+location	Grub
+location	Gossau
+location	Walenstadt
+location	St Gallen
+location	Mels
+location	Mörschwil
+location	Gams
 location	Buchs
-location	Kriessern
+location	Sevelen
+location	Rheintal
+location	Bad Ragaz
 location	Altstatten
 location	Rebstein
+location	Kriessern
 location	Widnau
-location	St Gallen
 
 # Graubünden
+location	Vals
 location	Flims Dorf
 location	Chur
 location	Landquart
@@ -3108,6 +3146,10 @@ location	Trondheim
 ### Denmark
 # Faroe Islands
 location	Faroe Islands
+
+### Liechtenstein
+# Eschen
+location	Nendeln
 
 ### Germany
 # Rheinland-Pfalz
@@ -3756,19 +3798,60 @@ location	Suwałki
 # Malacky
 location	Studienka
 
+# Bratislava
+location	Rovinka
+location	Slovensky Grob
+location	Vinosady
+
+# Trnava
+location	Voderady
+location	Velke Ulany
+location	Cierna Voda
+location	Mostova
+location	Horne Saliby
+location	Dolne Saliby
+location	Soporna
+
+# Trenčín
+location	Moravske Lieskove
+location	Beckov
+location	Kostolna-Zariecie
+location	Nova Dubnica
+
 # Nitra
+location	Ton
 location	Hurbanovo
+location	Marcelova
+location	Batorove Kosihy
+location	Kolta
 
 # Nove Zamky
 location	Ulany nad Zitavou
 
 # Zilina
+location	Turzovka
 location	Dolný Kubín
 location	Martincek
+location	Oravska Jasenica
+location	Oravska Polhora
+location	Nizna
 location	Trstena
 
 # Banska Bystrica
 location	Zelovce
+
+# Namestovo
+location	Benadovo
+location	Oravske Vesele
+location	Vavrecka
+location	Klin
+
+# Prešov
+location	Vikartovce
+location	Spisske Bystre
+location	Velka Frankova
+location	Spisske Podhradie
+location	Janovce
 
 # Kosice
 location	Zehra
@@ -4787,7 +4870,7 @@ location	Taubate
 location	Pindamonhangaba
 location	Caraguatatuba
 location	Sao Sebastiao
-location	Lorena BR
+location	Lorena SP
 location	Cachoeira Paulista
 location	Cunha
 
@@ -4796,6 +4879,7 @@ location	Sao Luis
 location	Sao Jose de Ribamar
 
 # Minas Gerais
+location	Monte Alegre de Minas
 location	Uberaba
 location	Coromandel
 location	Araxa
@@ -4848,9 +4932,11 @@ location	Itaborai
 location	Maricá
 location	Rio Bonito
 location	Nova Friburgo
+location	Miracema
 location	Cabo Frio
 location	Itaperuna
 location	Macaé
+location	Bom Jesus do Itabapoana
 location	Campos Dos Goytacazes
 
 # Piaui
@@ -4879,12 +4965,20 @@ location	Feira de Santana
 location	Cachoeiro de Itapemirim
 location	Guarapari
 location	Vila Velha
+location	Irupi
 location	Vitoria
 location	Cariacica
 location	Serra
 location	Santa Teresa
+location	Fundao
+location	Aracruz
+location	Baixo Guandu
 location	Linhares
+location	Sao Gabriel Da Palha
+location	Vila Valerio
+location	Aguia Branca
 location	Barra do Sao Francisco
+location	Vila Pavao
 
 # Ceará
 location	Arneiroz
@@ -4907,6 +5001,7 @@ location	Araripina
 location	Serra Talhada
 location	Tabira
 location	Sao Jose do Egito
+location	Arcoverde
 location	Pesqueira
 location	Sao Bento do Una
 location	Santa Cruz do Capibaribe
@@ -5456,6 +5551,7 @@ location	Coos County
 location	Clatsop County
 location	Josephine County
 location	Polk County OR
+location	Benton County OR
 location	Yamhill County
 location	Douglas County OR
 location	Columbia County OR
@@ -5463,7 +5559,6 @@ location	Washington County OR
 location	Lane County OR
 location	Jackson County OR
 location	Marion County OR
-location	Lake Oswego
 location	Linn County
 location	Multnomah County
 location	Clackamas County
@@ -5471,7 +5566,6 @@ location	Klamath County
 location	Hood River County
 location	Jefferson County OR
 location	Wasco County
-location	Redmond
 location	Deschutes County
 location	Sherman County
 location	Umatilla County
@@ -5503,7 +5597,7 @@ location	Klickitat County
 location	Yakima County
 location	Chelan County
 location	Douglas County WA
-location	Benton County
+location	Benton County WA
 location	Grant County WA
 location	Franklin County WA
 location	Walla Walla County
@@ -5525,7 +5619,6 @@ location	San Francisco County
 location	Redding
 location	San Mateo County
 location	Napa County
-location	Colusa County
 location	Tehama County
 location	Shasta County
 location	Santa Cruz County
@@ -5562,7 +5655,6 @@ location	Tulare County
 location	Kern County
 location	Los Angeles County
 location	Orange County CA
-location	Inyo County
 location	San Diego
 location	Riverside County
 location	San Diego County
@@ -5630,6 +5722,7 @@ location	Omaha
 # Texas
 location	El Paso County
 location	Presidio County
+location	Pecos
 location	Brewster County
 location	Bailey County
 location	Pecos County
@@ -5699,6 +5792,7 @@ location	Little River Academy
 location	Johnson County TX
 location	Temple
 location	Tarrant County
+location	Burleson
 location	Rogers
 location	Mclennan County
 location	Lorena TX
@@ -5711,6 +5805,7 @@ location	Rosebud
 location	Lee County TX
 location	Giddings
 location	Lavaca County
+location	Falls County
 location	Marlin
 location	Mart
 location	Frisco
@@ -5740,6 +5835,7 @@ location	Lamar County
 location	Montgomery County TX
 location	Brazoria County
 location	Houston
+location	Wood County TX
 location	Harris County
 location	Greater Houston Area
 location	Smith County
@@ -5853,7 +5949,7 @@ location	Iron County
 location	Lafayette County
 location	Iowa County WI
 location	Juneau County
-location	Wood County
+location	Wood County WI
 location	Sauk County
 location	Marathon County
 location	Adams County WI
@@ -6417,6 +6513,7 @@ division	Gujarat
 division	Madhya Pradesh
 division	West Bengal
 division	Jharkhand
+division	Tripura
 division	Manipur
 division	Bihar
 division	Assam
@@ -6437,12 +6534,13 @@ division	Kalutara
 division	Sabaragamuwa Province
 division	Western Province
 division	Colombo
+division	Uva Province
 division	Gampaha
 division	Kandy
 division	Central Province
 division	Matale
 division	Sri Lanka
-division	North Western Province
+division	North Central Province
 division	Vavuniya
 division	Mannar
 division	Kilinochchi
@@ -7193,6 +7291,8 @@ division	Hovedstaden
 division	Copenhagen
 
 ### Liechtenstein
+division	Balzers
+division	Triesen
 division	Vaduz
 division	Liechtenstein
 division	Schaan
@@ -7403,13 +7503,17 @@ division	Malacky
 division	Bratislava
 division	Pezinok
 division	Miloslavov
+division	Senec
+division	Trnava
 division	Nove Mesto nad Vahom
+division	Sala
 division	Jatov
 division	Trenčín
 division	Kamenicna
 division	Tvrdosovce
 division	Nitra
 division	Trencianska Tepla
+division	Komarno
 division	Nove Zamky
 division	Topolcany
 division	Surany
@@ -7426,6 +7530,7 @@ division	Oravska Lesna
 division	Dolny Kubin
 division	Ruzomberok
 division	Velky Krtis
+division	Namestovo
 division	Slovakia
 division	Tvrdosin
 division	Myto Pod Dumbierom
@@ -7433,8 +7538,11 @@ division	Hnusta
 division	Rimavska Sobota
 division	Muranska Huta
 division	Revuca
+division	Poprad
 division	Doľany
+division	Prešov
 division	Kosice
+division	Humenne
 division	Pavlovce nad Uhom
 division	Bela nad Cirochou
 
@@ -7546,6 +7654,7 @@ division	Utena
 
 ### Romania
 division	Sanmihaiu Roman
+division	Bihor
 division	Vrancea
 division	Hunedoara
 division	Cluj Napoca
@@ -7568,19 +7677,34 @@ division	Suceava
 division	Buzau
 division	Calarasi
 division	Ialomița
+division	Galati
 division	Constanta
 division	Tulcea
 
 ### Bulgaria
 division	Kyustendil
 division	Vidin
+division	Pernik
 division	Blagoevgrad
 division	Dupnitza
+division	Montana BG
 division	Sofia
+division	Vratsa
 division	Pazardzhik
+division	Lovech
 division	Pleven
 division	Smolyan
+division	Plovdiv
+division	Gabrovo
 division	Bulgaria
+division	Haskovo
+division	Ruse
+division	Sliven
+division	Yambol
+division	Razgrad
+division	Targovishte
+division	Burgas
+division	Varna
 
 ### Latvia
 division	Riga
@@ -7903,6 +8027,9 @@ division	Venezuela
 ### Trinidad and Tobago
 division	Trinidad and Tobago
 
+### Bonaire
+division	Bonaire
+
 ### Curacao
 division	Curacao
 
@@ -7924,7 +8051,9 @@ division	Los Santos
 division	Colon
 division	Panama Oeste
 division	Panama City
+division	San Miguelito
 division	Panama Center
+division	Darien
 division	Guna Yala
 
 ### Costa Rica
@@ -8271,6 +8400,7 @@ country	Colombia
 country	Suriname
 country	Venezuela
 country	Trinidad and Tobago
+country	Bonaire
 country	Curacao
 country	Aruba
 
