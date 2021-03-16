@@ -1794,3 +1794,6 @@ USA/WA-UW-22854/2020
 Uganda/UG111/2020
 Israel/CVL1328/2020
 SouthKorea/KDCA1415/2020
+
+# too many s1 mutations; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615918799038800?thread_ts=1615905803.029600&cid=CTZKJC7PZ
+USA/TX-HMH-MCoV-26196/2021
