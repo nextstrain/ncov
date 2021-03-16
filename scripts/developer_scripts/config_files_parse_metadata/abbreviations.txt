@@ -101,3 +101,8 @@ Brussels	BE
 Occitanie	FR
 Bulgaria	BG
 Tuscany	IT
+Setúbal	PT
+Veraguas	PA
+Cocle	PA
+Paraiba	PB
+Panama	PA

@@ -921,7 +921,7 @@ location	Barreiro
 location	Moita
 location	Alcochete
 location	Palmela
-location	Montijo
+location	Montijo PT
 location	Grandola
 location	Alcacer do Sal
 
@@ -1042,10 +1042,13 @@ location	Herrera del Duque
 
 # Asturias
 location	Tineo
+location	Salas
 location	Somiedo
 location	Pravia
 location	Grado
+location	Quiros
 location	Candamo
+location	Ribera de Arriba
 location	Oviedo
 location	Llanera
 location	Mieres
@@ -4339,7 +4342,7 @@ location	Tigre
 location	San Fernando AR
 location	Ezeiza
 location	General San Martin
-location	San Martin
+location	San Martin AR
 location	San Isidro AR
 location	Vicente Lopez
 location	Lomas de Zamora
@@ -5062,7 +5065,7 @@ location	Pilar
 location	Sape
 location	Pedras de Fogo
 location	Rio Tinto
-location	Santa Rita
+location	Santa Rita PB
 location	Bayeux
 location	Conde
 location	Joao Pessoa
@@ -5325,16 +5328,87 @@ location	Riohacha
 # North America
 
 ### Panama
+# Chiriqui
+location	Puerto Armuelles
+location	Baco
+location	David
+location	Gomez
+location	Bugaba
+location	Volcan
+
+# Bocas del Toro
+location	Changuinola
+location	Guabito
+location	Finca 30
+location	El Empalme
+
+# Veraguas
+location	Las Palmas
+location	Sona
+location	Montijo PA
+location	Los Algarrobos
+location	La Colorada
+location	Rodrigo Luque
+location	Santiago PA
+location	San Martín de Porres
+location	Atalaya
+
+# Herrera
+location	El Calabacito
+location	Chitre
+location	San Juan Bautista
+
+# Cocle
+location	Aguadulce
+location	Barrios Unidos
+location	Llano Grande
+location	Toabre
+location	Pajonal
+location	Penonome
+location	Anton
+location	Chiguiri Arriba
+location	Rio Hato
+location	El Valle
+
+# Los Santos
+location	Las Tablas
+location	Pocri
+
+# Colon
+location	Nueva Esperanza
+location	Ciricito
+location	Escobal
+location	San Juan PA
+location	Buena Vista
+location	Sabanitas
+location	Cristobal
+location	Barrio Sur
+location	Pilon
+location	Barrio Norte
+location	Cativá
+location	Maria Chiquita
+location	Portobelo
+
 # Panama Oeste
 location	Lídice
 location	La Chorrera
 location	Herrera (Panama Oeste)
 location	Guadalupe
+location	El Coco
+location	Barrio Balboa
+location	Feuillet
+location	Barrio Colon
+location	Santa Clara
 location	Juan Demóstenes Arosemena
+location	Puerto Caimito
 location	Vista Alegre
 location	Arraiján
 location	Burunga
 location	Veracruz
+
+# San Miguelito
+location	Jose D. Espinar
+location	Belisario Frias
 
 # Panama Center
 location	Calidonia
@@ -5343,13 +5417,15 @@ location	Las Cumbres
 location	Chilibre
 location	Ancón
 location	Clayton PA
+location	Boqueron
 location	Juan Díaz
 location	Alcalde Díaz
 location	Arnulfo Arias
 location	El Chorrillo
 location	Río Abajo
+location	Caimitillo
 location	Santa Ana PA
-location	Ernesto Córdoba
+location	Curundú
 location	Betania
 location	Bella Vista
 location	Omar Torrijos
@@ -5357,6 +5433,7 @@ location	Amelia Denis de Icaza
 location	Victoriano Lorenzo
 location	San Francisco PA
 location	Belisario Porras
+location	Ernesto Cordoba
 location	Belisario Frías
 location	Parque Lefevre
 location	Jose Domingo Espinar
@@ -5367,11 +5444,25 @@ location	Don Bosco
 location	Parque Real
 location	Las Mañanitas
 location	Tocumen
+location	24 De Diciembre
 location	Pacora
 location	Chepo
+location	Torti
+
+# Darien
+location	Tucuti
+location	Sambu
+location	Yaviza
+location	Pinogana
+location	Meteti
+location	Santa Fe PA
 
 # Guna Yala
+location	Salto Dupi
+location	Carlos Santana Avila
+location	Nargana
 location	Aligandí
+location	Cirilo Guaynora
 
 ### Costa Rica
 # Guanacaste
@@ -5464,7 +5555,7 @@ location	San Isidro de El General
 location	Perez Zeledon
 
 # Cartago CR
-location	San Juan
+location	San Juan CR
 location	San Diego CR
 location	La Union
 location	Concepcion CR
@@ -8043,8 +8134,7 @@ division	Aruba
 ### Panama
 division	Chiriqui
 division	Bocas del Toro
-division	Panama
-division	Santiago de Veraguas
+division	Veraguas
 division	Herrera
 division	Cocle
 division	Los Santos
