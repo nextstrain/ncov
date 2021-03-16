@@ -5408,7 +5408,6 @@ location	Veracruz
 
 # San Miguelito
 location	Jose D. Espinar
-location	Belisario Frias
 
 # Panama Center
 location	Calidonia
@@ -5446,6 +5445,7 @@ location	Las Mañanitas
 location	Tocumen
 location	24 De Diciembre
 location	Pacora
+location	San Martin PA
 location	Chepo
 location	Torti
 
@@ -7220,14 +7220,12 @@ division	Catalunya
 division	Balear Islands
 
 ### United Kingdom
-division	Cayman Islands
-division	British Virgin Islands
-division	Northern Ireland
 division	Gibraltar
-division	Scotland
 division	Wales
-division	United Kingdom
 division	England
+division	United Kingdom
+division	Northern Ireland
+division	Scotland
 
 ### Andorra
 division	Andorra
@@ -8134,6 +8132,7 @@ division	Aruba
 ### Panama
 division	Chiriqui
 division	Bocas del Toro
+division	Panama
 division	Veraguas
 division	Herrera
 division	Cocle
