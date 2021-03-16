@@ -628,6 +628,9 @@ location	Sidoarjo
 location	Surabaya
 location	Gresik
 
+# North Kalimantan
+location	Malinau
+
 # East Kalimantan
 location	Samarinda
 
@@ -1775,6 +1778,7 @@ location	Rouen
 location	Gisors
 
 # Nouvelle-Aquitaine
+location	Hendaye
 location	Anglet
 location	Bayonne
 location	Dax
@@ -1948,6 +1952,7 @@ location	Roussillon
 location	Pierre-Bénite
 location	Lyon
 location	Venissieux
+location	Bourg-Lès-Valence
 location	Valence
 location	Saint-Priest
 location	Decines-Charpieu
@@ -2046,6 +2051,7 @@ location	Wissembourg
 location	Marignane
 location	Marseille
 location	Aix-en-Provence
+location	Aubagne
 location	Manosque
 location	Sanary-sur-Mer
 location	Toulon
@@ -3678,9 +3684,10 @@ location	Cesky Tesin
 location	Dabrowka
 
 # Zachodniopomorskie
-location	Stare Brynki
 location	Mysliborz
+location	Stare Brynki
 location	Witkowo Drugie
+location	Szczecin
 
 # Dolnośląskie
 location	Ząbkowice Śląskie
@@ -3717,6 +3724,7 @@ location	Zlotniki
 location	Puszczykowo
 location	Maniewo
 location	Lubon
+location	Suchy las
 location	Wiorek
 location	Czapury
 location	Poznan
@@ -3727,12 +3735,23 @@ location	Rogozno
 location	Murowana Goslina
 location	Zalasewo
 location	Wysławice
+location	Krotoszyn
 location	Jarocin
 location	Kalisz
+
+# Opolskie
+location	Kedzierzyn Kozle
+location	Opole
 
 # Pomorskie
 location	Gdynia
 location	Gdansk
+
+# Kujawsko-Pomorskie
+location	Bydgoszcz
+
+# Slaskie
+location	Katowice
 
 # Łódzkie
 location	Pajeczno County
@@ -3742,6 +3761,9 @@ location	Skierniewice County
 
 # Malopolskie
 location	Kraków
+
+# Swietokrzyskie
+location	Kielce
 
 # Warminsko-Mazurskie
 location	Ilawski
@@ -3767,6 +3789,12 @@ location	Warszawa
 location	Brodno-Warszawa
 location	Radom
 location	Sokolow Podlaski
+
+# Podkarpackie
+location	Rzeszow
+
+# Lubelskie
+location	Lublin
 
 # Podlaskie
 location	Twarogi-Mazury
@@ -4889,6 +4917,7 @@ location	Araxa
 location	Paracatu
 location	Ibitiura de Minas
 location	Alfenas
+location	Guape
 location	Bom Despacho
 location	Divinopolis
 location	Esmeraldas BR
@@ -4965,23 +4994,26 @@ location	Sao Sebastiao do Passe
 location	Feira de Santana
 
 # Espirito Santo
-location	Cachoeiro de Itapemirim
-location	Guarapari
-location	Vila Velha
 location	Irupi
-location	Vitoria
-location	Cariacica
-location	Serra
-location	Santa Teresa
-location	Fundao
-location	Aracruz
+location	Cachoeiro de Itapemirim
 location	Baixo Guandu
-location	Linhares
-location	Sao Gabriel Da Palha
-location	Vila Valerio
-location	Aguia Branca
 location	Barra do Sao Francisco
+location	Santa Maria de Jetiba
+location	Aguia Branca
 location	Vila Pavao
+location	Santa Teresa
+location	Sao Gabriel Da Palha
+location	Guarapari
+location	Governador Lindenberg
+location	Cariacica
+location	Fundao
+location	Vila Valerio
+location	Vitoria
+location	Serra
+location	Vila Velha
+location	Aracruz
+location	Linhares
+location	Rochedo
 
 # Ceará
 location	Arneiroz
@@ -5367,6 +5399,7 @@ location	Pajonal
 location	Penonome
 location	Anton
 location	Chiguiri Arriba
+location	Santa Rita PA
 location	Rio Hato
 location	El Valle
 
@@ -6906,6 +6939,9 @@ division	Guinea
 ### Liberia
 division	Liberia
 
+### Mauritania
+division	Mauritania
+
 ### Côte d'Ivoire
 division	Guiglo
 division	Séguéla
@@ -6991,6 +7027,7 @@ division	Ebonyi
 division	Nasarawa State
 division	Kano State
 division	Benue State
+division	Plateau State
 division	Borno State
 
 ### Tunisia
@@ -7220,12 +7257,14 @@ division	Catalunya
 division	Balear Islands
 
 ### United Kingdom
-division	Gibraltar
-division	Wales
-division	England
-division	United Kingdom
+division	Cayman Islands
+division	British Virgin Islands
 division	Northern Ireland
+division	Gibraltar
 division	Scotland
+division	Wales
+division	United Kingdom
+division	England
 
 ### Andorra
 division	Andorra
@@ -7574,6 +7613,7 @@ division	Dolnośląskie
 division	Wielkopolskie
 division	Opolskie
 division	Pomorskie
+division	Kujawsko-Pomorskie
 division	Slask
 division	Poland
 division	Slaskie
@@ -7584,16 +7624,22 @@ division	Warminsko-Mazurskie
 division	Mazowieckie
 division	Masovia
 division	Podkarpackie
+division	Lubelskie
 division	Podlaskie
 
 ### Slovakia
 division	Kostoliste
 division	Malacky
+division	Stupava
 division	Bratislava
+division	Ivanka Pri Dunaji
 division	Pezinok
 division	Miloslavov
 division	Senec
 division	Trnava
+division	Drahovce
+division	Hlohovec
+division	Piestany
 division	Nove Mesto nad Vahom
 division	Sala
 division	Jatov
@@ -7614,14 +7660,22 @@ division	Prievidza
 division	Zilina
 division	Bartosova Lehotka
 division	Martin
+division	Sahy
 division	Banska Bystrica
 division	Oravska Lesna
 division	Dolny Kubin
 division	Ruzomberok
+division	Mutne Dulov
 division	Velky Krtis
+division	Tapesovo
 division	Namestovo
+division	Krivá
+division	Rabca
 division	Slovakia
+division	Medvedzie
+division	Bobrov
 division	Tvrdosin
+division	Zabiedovo
 division	Myto Pod Dumbierom
 division	Hnusta
 division	Rimavska Sobota
@@ -8394,6 +8448,7 @@ country	Senegal
 country	Sierra Leone
 country	Guinea
 country	Liberia
+country	Mauritania
 country	Côte d'Ivoire
 country	Morocco
 country	Mali

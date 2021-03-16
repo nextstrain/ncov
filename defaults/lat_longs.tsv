@@ -287,6 +287,7 @@ location	Attersee	47.9113862	13.537790421084743
 location	Attnang-Puchheim	48.0114566	13.7210848
 location	Atuntaqui	0.32810055	-78.21502288833759
 location	Atxuri	43.254073	-2.9217107
+location	Aubagne	43.2924385	5.5703031
 location	Auckland	-36.8314	174.7606
 location	Auderghem	50.808473	4.439214
 location	Aulnay Sous Bois	48.934231	2.499789
@@ -653,6 +654,7 @@ location	Bouffioulx	50.390213	4.5151961
 location	Boulogne Billancourt	48.8356649	2.240206
 location	Boulogne sur Mer	50.7259985	1.6118771
 location	Bourg-en-Bresse	46.206861	5.229144
+location	Bourg-Lès-Valence	44.9528222	4.8953847
 location	Bourgoin-Jallieu	45.5872259	5.2828123
 location	Bousbecque	50.7720856	3.076757
 location	Boussu	50.425366	3.797692
@@ -767,6 +769,7 @@ location	Butia	-30.1256795	-51.9692224
 location	Butler County	31.7340713	-86.6754793
 location	Butte County	39.6519275	-121.5858444
 location	Buzet	50.419853	4.773861
+location	Bydgoszcz	53.12974625	18.029369658534854
 location	Caapiranga	-3.3188884	-61.2096404
 location	Cabedelo	-6.97324	-34.8351609
 location	Cabezon de la Sal	43.3080667	-4.2358532
@@ -1751,6 +1754,7 @@ location	Gorizia	45.9441278	13.6252288
 location	Gossau	47.4155906	9.249359
 location	Goutroux	50.406076	4.360658
 location	Gouy-lez-Piéton	50.4875628	4.3287132
+location	Governador Lindenberg	-19.25076	-40.462888
 location	Governador Valadares	-18.8539497	-41.9458753
 location	Grabowiec	52.7522152	23.0427621
 location	Gracanica	42.623454550000005	21.241032254746372
@@ -1817,6 +1821,7 @@ location	Guadix	37.3011	-3.1403
 location	Guaiba	-30.1130731	-51.329442
 location	Guaira	-19.4608971	-42.5227089
 location	Guangzhou	23.123972	113.292889
+location	Guape	-20.7619447	-45.9174969
 location	Guapiara	-24.18921	-48.529549
 location	Guapiles	10.2152164	-83.7913841
 location	Guapimirim	-22.5266308	-42.9790687
@@ -1921,6 +1926,7 @@ location	Helchteren	51.0566984	5.3830618
 location	Hellin	38.5069	-1.6979
 location	Helmond	51.4793	5.6570
 location	Hemiksem	51.143514	4.339896
+location	Hendaye	43.3641518	-1.7616499
 location	Hengelo	52.2523195	6.795525590808008
 location	Henin-Beaumont	50.4194308	2.9469926
 location	Hennef	50.7754417	7.2847945
@@ -2288,6 +2294,7 @@ location	Kashino	56.538687192694844	60.86596040407967
 location	Kasterlee	51.2405	4.9674
 location	Katembe	-26.02703125	32.54984173582457
 location	Kathmandu	27.712907	85.323557
+location	Katowice	50.2598987	19.0215852
 location	Katwoude	52.4774282	5.042960875677453
 location	Kauai County	22.0557204	-159.4945109
 location	Kaufman County	32.581020800000005	-96.29927072197667
@@ -2296,6 +2303,7 @@ location	Kavadarci	41.4332802	22.0122593
 location	Kazhma	62.549908	34.839161
 location	Kdumim	32.21192845	35.15107683682172
 location	Kedrovoye	57.1595769	60.5695324
+location	Kedzierzyn Kozle	50.3448836	18.2109594
 location	Keerbergen	51.0049242	4.6265551
 location	Kefar Sava	32.1773471	34.907459
 location	Kegalle	7.2532006	80.3454132
@@ -2332,6 +2340,7 @@ location	Kharabali	47.4083742	47.2538899
 location	Khayelitsha	-34.0405905	18.6674201
 location	Kheda	22.749950	72.686465
 location	Khedbrahma	24.0291	73.0435
+location	Kielce	50.85403585	20.609914352101452
 location	Kieldrecht	51.2888268	4.1758418
 location	Kikinda	45.8297838	20.4653942
 location	Killeen	31.1171441	-97.727796
@@ -2427,6 +2436,7 @@ location	Krefeld	51.3331205	6.5623343
 location	Kretingos rajono savivaldybė	55.9686093	21.36040592407803
 location	Krhanice	49.8560083	14.557357
 location	Kriessern	47.3653317	9.6071943
+location	Krotoszyn	51.695926	17.4374158
 location	Krukowszczyzna	52.9850238	23.5435534
 location	Krusevac	43.5825653	21.326599
 location	Ksar Hellal	35.6516722	10.906119548434997
@@ -2734,6 +2744,7 @@ location	Lowndes County	32.1088066	-86.6402541
 location	Lu'An	31.7383487	116.5142252
 location	Lubbeek	50.880093	4.821901
 location	Lubbock County	33.5831241	-101.818598
+location	Lublin	51.218194499999996	22.554677565192677
 location	Lubon	52.33884585	16.86973700391791
 location	Lucena	-6.8984018	-34.8711915
 location	Lucknow	26.8381	80.9346001
@@ -2810,6 +2821,7 @@ location	Malaga	36.718690	-4.432799
 location	Maldegem	51.197062	3.450921
 location	Malgrat de Mar	41.6459118	2.7414054
 location	Maliano	43.41845	-3.83623
+location	Malinau	2.6185545	115.69049695186618
 location	Malinová	50.0478149	13.6669222
 location	Mallabia	43.1895207	-2.5298369
 location	Malle	51.304141	4.715731
@@ -3403,6 +3415,7 @@ location	Oostmalle	51.300438	4.734269
 location	Oostrozebeke	50.931551	3.338685
 location	Opglabbeek	51.0429949	5.581962
 location	Ophain-Bois-Seigneur-Isaac	50.6658971	4.3480069
+location	Opole	50.678792900000005	17.929884436033525
 location	Opwijk	50.9690529	4.1896665
 location	Or Haner	31.5566083	34.602628
 location	Or-Yehuda	32.0309712	34.8523936
@@ -3964,6 +3977,7 @@ location	Riverside County	33.7871393	-117.0109705
 location	Rixensart	50.7156	4.531
 location	Riyadh	24.705304	46.738279
 location	Robertson County	31.0339058	-96.5079742
+location	Rochedo	-20.4769832	-28.8516786
 location	Rochefort	50.1588503	5.2233447
 location	Rock County	42.654281	-89.079857
 location	Rock Island County	41.4411786	-90.5766144
@@ -4028,6 +4042,7 @@ location	Rupnagar	31.09168085	76.5272673916138
 location	Rusk County	32.051377	-94.7906553
 location	Russkaya Polyana	53.780357	73.882103
 location	Ryazan	54.6295687	39.7425039
+location	Rzeszow	50.013064	22.016143457294312
 location	S'Agaro	41.7947494	3.0560269
 location	Sa Pobla	39.7699388	3.0250102
 location	Saalfelden	47.4268102	12.8297861
@@ -4241,6 +4256,7 @@ location	Santa Margarida de Montbui	41.5746303	1.6087408
 location	Santa Maria	-29.6860512	-53.8069214
 location	Santa Maria de Cayon	43.30976	-3.85548
 location	Santa Maria de Guia de Gran Canaria	28.1390522	-15.6318282
+location	Santa Maria de Jetiba	-20.025296	-40.743931
 location	Santa Maria de Palautordera	41.693781	2.4442321
 location	Santa Maria del Camino	39.6705	2.7680
 location	Santa Maria dos Olivais	39.60115745	-8.384718083003463
@@ -4249,6 +4265,7 @@ location	Santa Pau	42.1442606	2.571379
 location	Santa Perpetua de Mogoda	41.5328106	2.1823309
 location	Santa Ponca	39.5171235	2.4822483
 location	Santa Rita	-7.128465	-34.9846186
+location	Santa Rita PA	8.49659119774437	-80.18592621740063
 location	Santa Rita PB	-7.128465	-34.9846186
 location	Santa Rosa	-27.8643546	-54.4779287
 location	Santa Rosa BR	-27.8643546	-54.4779287
@@ -4610,6 +4627,7 @@ location	Studienka	48.52836	17.1347157
 location	Suances	43.4260091	-4.041568
 location	Sublimity	44.8295663	-122.7945335
 location	Subotica	46.1000129	19.6640974
+location	Suchy las	52.4775865	16.8772192
 location	Sucre	-0.7264261	-80.41619512637334
 location	Sueca	39.2025604	-0.3111645
 location	Suesca	5.103373	-73.799748
@@ -4643,6 +4661,7 @@ location	Svobodny (Sverdlovsk)	58.037659	60.394432
 location	Swellendam	-34.021111	20.441944
 location	Sydney	-33.870747	151.208359
 location	Sysert	56.5030175	60.8093215
+location	Szczecin	53.4301818	14.5509623
 location	Szczycienski	53.541742049999996	21.018362051755837
 location	Szudziałowo	53.2994967	23.6548709
 location	Tabatinga	-4.2327349	-69.9263372
@@ -5555,6 +5574,7 @@ division	Bjelovar-Bilogora County	45.7462142	16.9212335
 division	Blagoevgrad	42.0209	23.0943
 division	Blekinge	56.12401225	15.40220875187768
 division	Blida	36.48329	2.808751
+division	Bobrov	49.4291733	19.5421527
 division	Bocas del Toro	9.3040914	-82.12843877974339
 division	Bogota	4.629337	-74.095588
 division	Bolivar	8.753508	-74.367735
@@ -5761,6 +5781,7 @@ division	Donegal	54.92075415	-7.952385214651309
 division	Donostia-San Sebatian	43.306272	-1.979035
 division	Douala	4.0429408	9.706203
 division	Doľany	49.021347	20.647670680715226
+division	Drahovce	48.5183461	17.7985046
 division	Drama	41.1499443	24.1468286
 division	Drenthe	52.846963	6.608915
 division	Dschang	5.4469923	10.053309
@@ -5932,6 +5953,7 @@ division	Hhohho	-26.1022695	31.364094517500757
 division	Hidalgo	20.5	-99.0
 division	Himachal Pradesh	31.81676015	77.34932051968858
 division	Hiroshima	34.3916058	132.4518156
+division	Hlohovec	48.4278838	17.798782
 division	Hnusta	48.5787043	19.9531888
 division	Ho Chi Minh City	10.790417	106.653985
 division	Hokkaido	43.2203	142.8635
@@ -5987,6 +6009,7 @@ division	Istanbul	41.0082	28.9784
 division	Istria	45.189488	13.889205
 division	Italian cruise ship	41.831176	11.491061
 division	Italy	43.382775	12.183629
+division	Ivanka Pri Dunaji	48.1885931	17.2578039
 division	Ivano-Frankivsk	48.9225224	24.7103188
 division	Ivanovo	57.04529735	41.37804415061976
 division	Ivory Coast	7.9897371	-5.5679458
@@ -6119,9 +6142,11 @@ division	Krapina-Zagorje County	46.0983218	15.9377404
 division	Krasnodar	45.6415	39.7056
 division	Krasnoyarsk	64.248	95.1104
 division	Kribi	2.8655757499999996	9.892047402266869
+division	Krivá	49.2825832	19.4791415
 division	Kronoberg	56.80067805	14.411160995108743
 division	Krusevac	43.5825653	21.326599
 division	Kuala Lumpur	3.139	101.6869
+division	Kujawsko-Pomorskie	53.3220016	18.3392939
 division	Kunene	-19.6792809	13.9756564
 division	Kuwait	29.452987	47.447194
 division	Kwale	-4.1836067	39.10509552821773
@@ -6202,6 +6227,7 @@ division	Louth	53.9508	-6.5406
 division	Lovech	43.0443145	24.487966724322504
 division	Lower Austria	48.360214	15.824134
 division	Lualaba	-9.69691495	23.02254385532696
+division	Lubelskie	50.8586338	22.7732404
 division	Lubuskie	52.18772680160436	15.244301130159887
 division	Lucerne	47.0502	8.3093
 division	Lucknow	26.851073	80.934261
@@ -6253,6 +6279,7 @@ division	Mato Grosso do Sul	-19.5852564	-54.4794731
 division	Maule	-35.5972284	-71.48868
 division	Maun	-19.9860951	23.4224352
 division	Mauren	47.2196512	9.5418065
+division	Mauritania	20.2540382	-9.2399263
 division	Mayo	53.9087056	-9.298304863654256
 division	Mayotte	-12.8253862	45.148626111147614
 division	Mazowieckie	52.467791	21.224779
@@ -6264,6 +6291,7 @@ division	Mecklenburg-Vorpommern	53.7735064	12.5755471
 division	Medenine	33.3434395	10.4910529
 division	Medimurje County	46.4232963	16.4661353
 division	Medvedja	42.842459	21.5847305
+division	Medvedzie	49.3417948	19.53357086713877
 division	Melbourne	-37.8136	144.9631
 division	Melilla	35.291746	-2.938261
 division	Melnik	50.364202	14.482176
@@ -6327,6 +6355,7 @@ division	Mures	46.60645805	24.625192636852347
 division	Murmansk	68.0000418	33.9999151
 division	Murska Sobota	46.6624644	16.1655256
 division	Muscat	23.580244	58.362707
+division	Mutne Dulov	49.4355087	19.3147604
 division	Myanmar	20.600856	96.287616
 division	Mymensingh	24.8386014	90.41126950462677
 division	Myto Pod Dumbierom	48.8556374	19.62969423799256
@@ -6518,11 +6547,13 @@ division	Phuket	7.959471	98.339272
 division	Piaui	-7.7183	-42.7289
 division	Pichincha	-0.1465	-78.4752
 division	Piedmont	45.0522	7.5154
+division	Piestany	48.5895247	17.8213848
 division	Pirot	43.1547342	22.5865039
 division	Pitesti	44.8572343	24.8719422
 division	Piura	-5.0	-80.333333
 division	Plaine-Wilhems	-20.32250438758201	57.50491168170886
 division	Planken	47.1858848	9.5452211
+division	Plateau State	9.0583446	9.6826289
 division	Pleven	43.4170	24.6067
 division	Ploiesti	44.9417468	26.0236504
 division	Plovdiv	42.1418541	24.7499297
@@ -6567,6 +6598,7 @@ division	Quintana Roo	19.642598	-88.040442
 division	Quito	-0.18126	-78.4599
 division	Raanana	32.189052	34.868626
 division	Rabat	33.976469	-6.843796
+division	Rabca	49.4833334	19.4833333
 division	Radviliskio Apskritis	55.69341675	23.650119846962173
 division	Rajasthan	26.498229	73.881085
 division	Rajshahi	24.372633	88.606356
@@ -6629,6 +6661,7 @@ division	Saarland	49.3841872	6.9537369
 division	Sabac	44.7571535	19.6953972
 division	Sabah	5.4257359	117.0326392
 division	Sabaragamuwa Province	6.8124018	80.33547643025922
+division	Sahy	48.0694559	18.9493378
 division	Saint Barthélemy	17.9036287	-62.811568843006896
 division	Saint-François	16.2532002	-61.2750706
 division	Saint Kitts and Nevis	17.250512	-62.6725973
@@ -6786,6 +6819,7 @@ division	Stavropol	44.941379850000004	43.66309345141463
 division	Steung Treng	13.5313006	105.9729938
 division	Stockholm	59.33267	18.061849
 division	Straseni	47.146331	28.6148909
+division	Stupava	48.2731324	17.0327458
 division	Styria	47.3593	14.4700
 division	Suceava	47.667761	26.266066
 division	Sucre	9.0	-75.0
@@ -6816,6 +6850,7 @@ division	Tamil Nadu	11.1271	78.6569
 division	Tana River	-1.53651195	39.55083745466502
 division	Tangail	24.248630	89.917926
 division	Tanzania	-6.5247123	35.7878438
+division	Tapesovo	49.3740873	19.4467954
 division	Taranaki	-39.2711067	174.154795
 division	Tarapacá	-20.1636672	-69.5463448
 division	Targovishte	43.251196	26.5727944
@@ -7044,6 +7079,7 @@ division	Yeumbeul	14.771188	-17.358556
 division	Yogyakarta	-7.8011945	110.364917
 division	Yucatan	20.6845957	-88.8755669
 division	Yunnan	24.556297	101.36621
+division	Zabiedovo	49.320123	19.6069033
 division	Zacatecas	23.0000001	-103.0000001
 division	Zachodniopomorskie	53.532925406940386	15.480819266107156
 division	Zagreb	45.8131847	15.9771774
@@ -7165,6 +7201,7 @@ country	Malaysia	4.264153	102.222436
 country	Maldives	4.7064352	73.3287853
 country	Mali	16.3700359	-2.2900239
 country	Malta	35.8885993	14.4476911
+country	Mauritania	20.2540382	-9.2399263
 country	Mauritius	-20.2759451	57.5703566
 country	Mexico	19.4325301	-99.1332101
 country	Moldova	47.2879608	28.5670941
