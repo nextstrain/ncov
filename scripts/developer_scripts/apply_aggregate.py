@@ -1,5 +1,5 @@
 
-#This class is used to create aggregate that contain gisaid_epi_isl as root and 
+#Gisaid class is used to create aggregate that contain gisaid_epi_isl as root and 
 #encapsulate/privatize the entity strain
 class Gisaid:    
     def __init__(self, gisaid_epi_isl='?'):
@@ -11,14 +11,26 @@ class Gisaid:
         self.date = date
 
 
-obj = Gisaid()
-print(obj.gisaid_epi_isl)
+#######################################################
+#Strain class is to store the strainname/id that can be later refernced to match with data in fasta file
+# as part of aggregate strain should only be accesed via Gisaid
+class Strain: 
+    def __init__(self, strain):
+        self.strain = strain
 
-obj.gisaid_epi_isl =  'EPI_ISL_406798'
-obj.addStrain('Wuhan/WH01/2019','2019-12-26')
+#######################################################
+#Region class is independent 1 aggregate unit
+# Region is aggregate root and once we have region it can have country,division,location
+# but these entities dont exists without region 
 
+class Region:
+    def __init__(self, region):
+        self.region = region
+    
+    def addData(self, region, country, division ='', location  = ''):
+        self.region = region
+        self.country = country 
+        self.division = division
+        self.location = location
 
-print(obj.strain)
-print(obj.date)
-
-print(obj.gisaid_epi_isl)
+ 

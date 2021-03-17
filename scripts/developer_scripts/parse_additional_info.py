@@ -65,11 +65,14 @@ def read_ordering_file(file_name):
         data_file = myfile.readlines()
 
     data = {"Asia": {}, "Oceania": {}, "Africa": {}, "Europe": {}, "South America": {}, "North America": {}}
+    
 
     region = ""
     country = ""
     division = ""
 
+    regionClsObj = Region(region)
+    
     for line in data_file:
         if line == "\n":
             continue
@@ -103,6 +106,8 @@ def read_ordering_file(file_name):
                     location = place
                     if location not in data[region][country][division]:
                         data[region][country][division].append(location)
+                        regionClsObj.addData(region,country,division,location)
+
 
     return data
 
