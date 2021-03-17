@@ -1611,6 +1611,7 @@ location	Orrius
 location	Cardedeu
 location	Vilassar de Dalt
 location	Premia de Mar
+location	Camprodon
 location	Cabrils
 location	Sant Pere de Vilamajor
 location	Vilassar de Mar
@@ -1638,6 +1639,8 @@ location	Santa Pau
 location	Canet de Mar
 location	Sant Jaume de Llierca
 location	San Pol de Mar
+location	Tortellà
+location	Angles
 location	Massanes
 location	Calella
 location	Santa Coloma de Farners
@@ -1646,6 +1649,7 @@ location	Pineda de Mar
 location	Besalu
 location	Tordera
 location	Macanet de la Selva
+location	Bescano
 location	Malgrat de Mar
 location	Sils
 location	Banyoles
@@ -1656,6 +1660,7 @@ location	Caldes de Malavella
 location	Cornella de Terri
 location	Girona
 location	Cassa de la Selva
+location	Bordils
 location	Castillo de Ferran
 location	Figueres
 location	Pubol
@@ -1663,6 +1668,7 @@ location	Sant Feliu de Guixols
 location	S'Agaro
 location	La Bisbal de l'Emporda
 location	Palamos
+location	Llanca
 location	Palafrugell
 location	Regencos
 
@@ -1954,6 +1960,7 @@ location	Lyon
 location	Venissieux
 location	Bourg-Lès-Valence
 location	Valence
+location	Bron
 location	Saint-Priest
 location	Decines-Charpieu
 location	Saint-Jean-de-Bournay
@@ -2070,6 +2077,7 @@ location	Nice
 
 # Corse
 location	Porto-Vecchio
+location	Ajaccio
 location	Bastia
 
 # Mayotte
@@ -3684,13 +3692,16 @@ location	Cesky Tesin
 location	Dabrowka
 
 # Zachodniopomorskie
-location	Mysliborz
-location	Stare Brynki
-location	Witkowo Drugie
+location	Gryfino
+location	Nowe Brynki
 location	Szczecin
+location	Stare Brynki
+location	Mysliborz
+location	Witkowo Drugie
 
 # Dolnośląskie
 location	Ząbkowice Śląskie
+location	Wojnowice
 location	Wroclaw
 
 # Wielkopolskie
@@ -3704,7 +3715,9 @@ location	Niepruszewo
 location	Zydowo
 location	Strykowo
 location	Tarnowo Podgorne
+location	Popowko
 location	Sierosław
+location	Lusowo
 location	Sady
 location	Debienko
 location	Paledzie
@@ -3713,6 +3726,7 @@ location	Dabrowa
 location	Dąbrowa
 location	Goluski
 location	Rogierowko
+location	Uscikowo
 location	Przeźmierowo
 location	Skórzewo
 location	Komorniki
@@ -3721,6 +3735,9 @@ location	Oborniki
 location	Ludomki
 location	Orlowo
 location	Zlotniki
+location	Mosina
+location	Kowanowko
+location	Wiry
 location	Puszczykowo
 location	Maniewo
 location	Lubon
@@ -3733,11 +3750,16 @@ location	Gora
 location	Koziegłowy
 location	Rogozno
 location	Murowana Goslina
+location	Srem
+location	Przebedowo
 location	Zalasewo
+location	Swarzedz
 location	Wysławice
+location	Gorzewo
 location	Krotoszyn
 location	Jarocin
 location	Kalisz
+location	Czajkow
 
 # Opolskie
 location	Kedzierzyn Kozle
@@ -3748,6 +3770,7 @@ location	Gdynia
 location	Gdansk
 
 # Kujawsko-Pomorskie
+location	Dziarnowo
 location	Bydgoszcz
 
 # Slaskie
@@ -3767,6 +3790,7 @@ location	Kielce
 
 # Warminsko-Mazurskie
 location	Ilawski
+location	Nowomiejski
 location	Ostrodzki
 location	Elblaski
 location	Braniewski
@@ -3778,6 +3802,7 @@ location	Bartoszycki
 location	Szczycienski
 location	Ketrzynski
 location	Mragowski
+location	Piski
 location	Gizycki
 location	Orzysz
 location	Goldapski
@@ -5672,6 +5697,7 @@ location	Southeast Alaska
 
 # Oregon
 location	Coos County
+location	Lincoln County OR
 location	Clatsop County
 location	Josephine County
 location	Polk County OR
@@ -5832,8 +5858,9 @@ location	West Yellowstone
 location	Bozeman
 
 # Colorado
-location	Colorado Springs
+location	Mesa County
 location	Denver County
+location	Colorado Springs
 
 # South Dakota
 location	Beadle County
@@ -5858,6 +5885,7 @@ location	Terry County
 location	Hockley County
 location	Castro County
 location	Lubbock County
+location	Swisher County
 location	Crosby County
 location	Crosby
 location	Val Verde County
@@ -5935,6 +5963,7 @@ location	Mart
 location	Frisco
 location	Ellis County
 location	Dallas County TX
+location	Dawson
 location	Caldwell
 location	Calhoun County TX
 location	Burleson County
@@ -5980,6 +6009,7 @@ location	Cass County TX
 location	Panola County
 location	Jefferson County TX
 location	Jasper County
+location	Orange County TX
 
 # Minnesota
 location	Fillmore County
@@ -6304,7 +6334,9 @@ location	Miami
 # South Carolina
 location	Pickens County SC
 location	Anderson County
+location	Abbeville County
 location	Greenville County
+location	Greenwood County
 location	Spartanburg County
 location	Aiken
 location	York County
@@ -6312,6 +6344,7 @@ location	Hampton County
 location	Fairfield County SC
 location	Columbia SC
 location	Richland County SC
+location	Orangeburg County
 location	Lancaster County SC
 location	Beaufort County
 location	Colleton County
@@ -6717,6 +6750,7 @@ division	Nakhonnayok
 division	Ang Thong
 division	Thailand
 division	Singburi
+division	Khon Kaen
 division	Phitsanulok
 division	Chiang Rai
 
@@ -8042,6 +8076,7 @@ division	Tarija
 division	Oruro
 division	Santa Cruz
 division	Bolivia
+division	La Paz
 division	Beni
 division	Pando
 
