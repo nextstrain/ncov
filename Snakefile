@@ -114,6 +114,7 @@ rule dump_config:
 
 # Include small, shared functions that help build inputs and parameters.
 include: "workflow/snakemake_rules/common.smk"
+include: "workflow/snakemake_rules/remote_files.smk"
 
 # Include rules to handle primary build logic from multiple sequence alignment
 # to output of auspice JSONs for a default build.
