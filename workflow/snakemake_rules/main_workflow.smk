@@ -78,13 +78,14 @@ rule mask:
         """
 
 
-rule download:
-    input:
-        S3.remote("nextstrain-ncov-private/{filename}")
-    output:
-        "results/datasets/{origin}/{filename}"
-    run:
-        shell("cp {output} ./")
+def get_sequences_by_origin(wildcards):
+    return path_or_url(config["inputs"][wildcards.origin]["sequences"])
+
+def get_sequences_by_multiple_origins(origins):
+    return [path_or_url(config["inputs"][origin]["sequences"]) for origin in origins]
+
+def get_metadata_by_origin(wildcards):
+    return path_or_url(config["inputs"][wildcards.origin]["metadata"])
 
 
 rule index_sequences:
@@ -93,10 +94,9 @@ rule index_sequences:
         Index sequence composition for faster filtering.
         """
     input:
-        sequences = "results/datasets/{origin}/sequences.fasta.gz",
+        sequences = get_sequences_by_origin,
     output:
         sequence_index = "results/datasets/{origin}/sequence_index.tsv",
-        samtools_index = "results/datasets/{origin}/sequences.fasta.gz.fai"
     log:
         "logs/index_sequences_{origin}.txt"
     benchmark:
@@ -107,8 +107,26 @@ rule index_sequences:
         augur index \
             --sequences {input.sequences} \
             --output {output.sequence_index}
+        """
 
-        samtools faidx {input.sequences}
+
+rule samtools_index_sequences:
+    message:
+        """
+        Index sequence composition for faster sequence extraction.
+        """
+    input:
+        sequences = get_sequences_by_origin,
+    output:
+        samtools_index = "results/datasets/{origin}/sequences.fasta.gz.fai"
+    log:
+        "logs/samtools_index_sequences_{origin}.txt"
+    benchmark:
+        "benchmarks/samtools_index_sequences_{origin}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        samtools faidx --fai-idx {output.samtools_index} {input.sequences}
         """
 
 
@@ -122,7 +140,7 @@ rule filter:
         """
     input:
         sequence_index = "results/datasets/{origin}/sequence_index.tsv",
-        metadata = "results/datasets/{origin}/metadata.tsv.gz",
+        metadata = get_metadata_by_origin,
         include = config["files"]["include"],
         exclude = config["files"]["exclude"],
     output:
@@ -305,7 +323,7 @@ rule subsample:
 
 rule extract_subsampled_sequences:
     input:
-        sequences = expand("results/datasets/{origin}/sequences.fasta.gz", origin=ORIGINS),
+        sequences = get_sequences_by_multiple_origins(ORIGINS),
         metadata = expand("results/datasets/{origin}/filtered_metadata.tsv", origin=ORIGINS),
         sequence_index = expand("results/datasets/{origin}/sequence_index.tsv", origin=ORIGINS),
         include = "results/{build_name}/sample-{subsample}.txt",
@@ -359,7 +377,7 @@ rule proximity_score:
         genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
         """
     input:
-        alignment = expand("results/datasets/{origin}/sequences.fasta.gz", origin=ORIGINS),
+        alignment = get_sequences_by_multiple_origins(ORIGINS),
         reference = config["files"]["alignment_reference"],
         focal_alignment = "results/{build_name}/masked-{focus}.fasta"
     output:
@@ -411,7 +429,7 @@ def _get_subsampled_files(wildcards):
 
 rule combine_samples:
     input:
-        sequences = expand("results/datasets/{origin}/sequences.fasta.gz", origin=ORIGINS),
+        sequences = get_sequences_by_multiple_origins(ORIGINS),
         metadata = expand("results/datasets/{origin}/filtered_metadata.tsv", origin=ORIGINS),
         sequence_index = expand("results/datasets/{origin}/sequence_index.tsv", origin=ORIGINS),
         include = _get_subsampled_files,
