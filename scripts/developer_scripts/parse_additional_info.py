@@ -27,6 +27,8 @@ def add_to_simple_file(file_name, line):
     with open(file_name, "a") as myfile:
         myfile.write(line + "\n")
 
+#calling Class Gisaid to use Aggregate and store the  gisaid_epi_isl information
+gisaidClsObj = Gisaid() 
 # Return the current metadata as dictionary sorted by gisaid_epi_isl, only containing the sequences in sorted_info
 def read_metadata(file_name, additional_info):
     with open(file_name) as myfile:
@@ -45,6 +47,9 @@ def read_metadata(file_name, additional_info):
                 if type == "gisaid_epi_isl":
                     continue
                 metadata[id][type] = l[i]
+                gisaidClsObj.gisaid_epi_isl = id
+                   
+
 
     for id in additional_info:
         if id not in metadata:
@@ -142,6 +147,7 @@ def read_data(path):
 
                         if key == "gisaid_epi_isl":
                             id = content
+                            gisaidClsObj.gisaid_epi_isl = id     #inserting data into aggregate root
                             if id in additional_info:
                                 print("WARNING: additional info added two times for same strain! (" + id + ")")
                             additional_info[id] = {}
@@ -166,6 +172,8 @@ def rearrange_additional_info(additional_info):
                 if content not in sorted_info:
                     sorted_info[content] = []
                 sorted_info[content].append((id, additional_info[id]["strain"]))
+                gisaidClsObj.addStrain(additional_info[id]["strain"])
+
 
             elif key == "additional_host_info" or key == "additional_location_info":
                 content = additional_info[id][key]
@@ -176,6 +184,7 @@ def rearrange_additional_info(additional_info):
                 if access not in sorted_info:
                     sorted_info[access] = []
                 sorted_info[access].append((id, additional_info[id]["strain"]))
+                gisaidClsObj.addStrain(additional_info[id]["strain"])
         if info_found > 1:
             if additional_info[id]["additional_location_info"] != additional_info[id]["additional_host_info"]:
                 print("Warning: " + id + " has more than one relevant info (\"" + additional_info[id]["additional_host_info"] + "\" and \"" + additional_info[id]["additional_location_info"] + "\"). Possible conflict!")
