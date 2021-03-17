@@ -10,3 +10,27 @@ class Gisaid:
         self.strain = strainName
         self.date = date
 
+
+#######################################################
+#Strain class is to store the strainname/id that can be later refernced to match with data in fasta file
+# as part of aggregate strain should only be accesed via Gisaid
+class Strain: 
+    def __init__(self, strain):
+        self.strain = strain
+
+#######################################################
+#Region class is independent 1 aggregate unit
+# Region is aggregate root and once we have region it can have country,division,location
+# but these entities dont exists without region 
+
+class Region:
+    def __init__(self, region):
+        self.region = region
+    
+    def addData(self, region, country, division ='', location  = ''):
+        self.region = region
+        self.country = country 
+        self.division = division
+        self.location = location
+
+ 
