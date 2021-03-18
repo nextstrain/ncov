@@ -1798,7 +1798,11 @@ SouthKorea/KDCA1415/2020
 # too many s1 mutations; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615918799038800?thread_ts=1615905803.029600&cid=CTZKJC7PZ
 USA/TX-HMH-MCoV-26196/2021
 
-
 # divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616020140009400
 USA/ME-HETL-J1539/2020
 Spain/MD-IBV-99020764/2020
+
+# Sample date before clade
+Belgium/UZA-UA-CV0615326772/2020
+Belgium/UZA-UA-CV0631961262/2020
+USA/NV-NSPHL-NV2025949/2020

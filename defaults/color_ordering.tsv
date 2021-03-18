@@ -721,6 +721,7 @@ location	Yeumbeul
 location	Mbao
 location	Keur Massar
 location	Sangalkam
+location	Diamniadio
 
 # Thies
 location	Mbour
@@ -756,8 +757,24 @@ location	Gaoua
 location	Dano
 
 ### Ghana
+# Western Region
+location	Takoradi
+location	Tarkwa
+location	Tarkwa Gold Fields
+
+# Central Region
+location	Cape Coast
+
+# Eastern Region GH
+location	New Juaben South
+location	Abuakwa North
+location	Atiwa West
+location	Kwahu West
+location	Kwahu East
+
 # Greater Accra
 location	Accra
+location	Ledzokuku-Krowor
 
 ### Togo
 # Golfe
@@ -1631,7 +1648,10 @@ location	Sant Celoni
 location	El Maresme
 location	Vallgorguina
 location	Sant Vicenç de Montalt
+location	Sant Hilari Sacalm
+location	Arbúcies
 location	Caldes d'Estrac
+location	Montagut I Oix
 location	Riells I Viabrea
 location	Arenys de Munt
 location	Arenys de Mar
@@ -1647,6 +1667,7 @@ location	Santa Coloma de Farners
 location	Fogars de la Selva
 location	Pineda de Mar
 location	Besalu
+location	Riudarenes
 location	Tordera
 location	Macanet de la Selva
 location	Bescano
@@ -1654,13 +1675,17 @@ location	Malgrat de Mar
 location	Sils
 location	Banyoles
 location	Vidreres
+location	Fontcoberta
 location	Salt
 location	Riudellots de la Selva
 location	Caldes de Malavella
 location	Cornella de Terri
 location	Girona
+location	Lloret de Mar
 location	Cassa de la Selva
+location	Llagostera
 location	Bordils
+location	Vilafant
 location	Castillo de Ferran
 location	Figueres
 location	Pubol
@@ -1671,6 +1696,8 @@ location	Palamos
 location	Llanca
 location	Palafrugell
 location	Regencos
+location	La Selva de Mar
+location	El Port de la Selva
 
 # Balear Islands
 location	Formentera
@@ -1817,6 +1844,7 @@ location	Abondant
 location	Romorantin
 location	Orléans
 location	Mehun sur Yevre
+location	Bourges
 location	Pannes
 location	Craon
 
@@ -1833,6 +1861,7 @@ location	Cergy Pontoise
 location	Guyancourt
 location	Saint Germain en Laye
 location	Pontoise
+location	Saint Ouen l'Aumone
 location	Le Pecq
 location	Le Chesnay
 location	Orsay
@@ -1880,6 +1909,7 @@ location	Plessis Trevise
 location	Moussy Le Neuf
 location	Compans
 location	Saint-Thibault-des-Vignes
+location	Fontainebleau
 location	Chanteloup-en-Brie
 location	Egreville
 location	Meaux
@@ -2115,6 +2145,7 @@ location	Westende
 location	Middelkerke
 location	Schore
 location	Leffinge
+location	Zevekote
 location	Gistel
 location	Bredene
 location	Oudenburg
@@ -2259,6 +2290,7 @@ location	Bassilly
 location	Enghien
 
 # Mons
+location	Quiévrain
 location	Honnelles
 location	Thulin
 location	Dour
@@ -2403,6 +2435,7 @@ location	Neder-Over-Heembeek
 
 # Antwerpen
 location	Berchem
+location	Berendrecht - Zandvliet - Lillo
 location	Zwijndrecht
 location	Niel
 location	Schelle
@@ -2454,12 +2487,15 @@ location	Shape
 location	Herne
 location	Oetingen
 location	Affligem
+location	Lennik
 location	Opwijk
 location	Asse
+location	Merchtem
 location	Halle
 location	Sint-Pieters-Leeuw
 location	Itterbeek
 location	Dilbeek
+location	Zellik
 location	Huizingen
 location	Londerzeel
 location	Wemmel
@@ -2680,6 +2716,7 @@ location	Herentals
 location	Noorderwijk
 location	Merksplas
 location	Gierle
+location	Zoerle-Parwijs
 location	Herselt
 location	Vosselaar
 location	Olen
@@ -3455,7 +3492,7 @@ location	Velden Am Wörther See
 location	Wachsenberg
 location	Feldkirchen
 location	Glödnitz
-location	Klagenfurt
+location	Klagenfurt Am Wörthersee
 location	Sankt Veit An Der Glan
 location	Guttaring
 location	Pörtschach
@@ -3982,13 +4019,13 @@ location	Prilep
 # Vardar
 location	Veles
 
-# Northeastern Region
+# Northeastern Region MK
 location	Kumanovo
 
 # Kavadarci
 location	Kavadarci
 
-# Eastern Region
+# Eastern Region MK
 location	Shtip
 location	Kochani
 
@@ -5881,6 +5918,7 @@ location	Parmer County
 location	Oldham County
 location	Deaf Smith County
 location	Ector County
+location	Lamb County
 location	Terry County
 location	Hockley County
 location	Castro County
@@ -5992,6 +6030,7 @@ location	Wood County TX
 location	Harris County
 location	Greater Houston Area
 location	Smith County
+location	San Jacinto County
 location	Trinity County
 location	Red River County
 location	Galveston County
@@ -6026,6 +6065,7 @@ location	Polk County IA
 location	Howard County
 location	Chickasaw County
 location	Bremer County
+location	Black Hawk County
 location	Buchanan County
 location	Fayette County IA
 location	Winneshiek County
@@ -6836,10 +6876,12 @@ division	South Kalimantan
 division	North Kalimantan
 division	East Kalimantan
 division	West Nusa Tenggara
+division	West Sulawesi
 division	South Sulawesi
 division	East Nusa Tenggara
 division	North Sulawesi
 division	North Maluku
+division	Maluku
 division	West Papua
 division	Papua
 
@@ -7010,9 +7052,16 @@ division	Sud-Ouest
 division	Burkina Faso
 
 ### Ghana
+division	Western North Region
+division	Bono Region
+division	Western Region
+division	Ashanti Region
+division	Central Region
+division	Ghana
+division	Eastern Region GH
+division	Lower Manya Krobo
 division	Greater Accra
 division	Volta
-division	Ghana
 
 ### Togo
 division	Golfe
@@ -7597,7 +7646,11 @@ division	Osijek-Baranja
 division	Vukovar-Srijem County
 
 ### Czech Republic
+division	Cheb
+division	Carlsbad
 division	Plzeň Region
+division	Ustecky Region
+division	Stredocesky Region
 division	Usti nad Labem
 division	Litomerice-Brnay
 division	Prague
@@ -7608,8 +7661,10 @@ division	Liberec Region
 division	Czech Republic
 division	Jihlava
 division	Vysocina Region
+division	Kralovehradecky Region
 division	Pardubice Region
 division	Hradec Králové Region
+division	Nachod
 division	South Moravian Region
 division	Olomouc Region
 division	Zlín Region
@@ -7794,10 +7849,10 @@ division	Skopje
 division	Pelagonia
 division	North Macedonia
 division	Vardar
-division	Northeastern Region
+division	Northeastern Region MK
 division	Kavadarci
+division	Eastern Region MK
 division	Gevgelija
-division	Eastern Region
 division	Southeastern Region
 
 ### Greece
@@ -7834,6 +7889,7 @@ division	Sanmihaiu Roman
 division	Bihor
 division	Vrancea
 division	Hunedoara
+division	Gorj
 division	Cluj Napoca
 division	Cluj
 division	Mures
