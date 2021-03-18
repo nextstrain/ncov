@@ -1806,3 +1806,7 @@ Spain/MD-IBV-99020764/2020
 Belgium/UZA-UA-CV0615326772/2020
 Belgium/UZA-UA-CV0631961262/2020
 USA/NV-NSPHL-NV2025949/2020
+
+# Over-diverged, probably date swap, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616082465020900
+Belgium/UZA-UA-CV2006969709/2020
+
