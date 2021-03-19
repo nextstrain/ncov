@@ -106,3 +106,6 @@ Veraguas	PA
 Cocle	PA
 Paraiba	PB
 Panama	PA
+Bolivia	BO
+Manabi	EC
+Colombia	CO
