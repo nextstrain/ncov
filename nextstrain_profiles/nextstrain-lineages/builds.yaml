@@ -1,0 +1,18 @@
+use_nextalign: true
+
+inputs:
+  - name: gisaid
+    metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
+    filtered: "s3://nextstrain-ncov-private/filtered_gisaid.fasta.xz"
+
+builds:
+  pangolin:
+    subsampling_scheme: nextstrain_pangolin
+    auspice_config: "nextstrain_profiles/nextstrain/global_auspice_config.json"
+
+subsampling:
+  nextstrain_pangolin:
+    lineages:
+      group_by: "pangolin_lineage"
+      seq_per_group: 1
+      sampling_scheme: "--no-probabilistic-sampling"
