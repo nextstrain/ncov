@@ -27,6 +27,7 @@ location	Adams County WA	46.985877	-118.480355
 location	Adams County WI	43.973540	-89.755486
 location	Adeje	28.1219416	-16.7241893
 location	Adilabad	19.5	78.5
+location	Adra	36.748834	-3.0203617
 location	Aesch	47.4682447	7.5980395
 location	Affligem	50.9035063	4.1174675
 location	Agaete	28.1008499	-15.7023479
@@ -301,6 +302,7 @@ location	Atxuri	43.254073	-2.9217107
 location	Aubagne	43.2924385	5.5703031
 location	Auckland	-36.8314	174.7606
 location	Auderghem	50.808473	4.439214
+location	Aulago	37.1604047	-2.6261429
 location	Aulnay Sous Bois	48.934231	2.499789
 location	Aurangabad	19.877263	75.3390241
 location	Auriflama	-20.6840418	-50.5554616
@@ -330,6 +332,7 @@ location	Baal	50.9956319	4.7523911
 location	Baarle-Hertog	51.4383589	4.9316995
 location	Babahoyo	-1.802318	-79.524709
 location	Babruysk	53.1449683	29.2281209
+location	Bacares	37.261184	-2.453323
 location	Bachórzec	49.8233371	22.3327855
 location	Backa Palanka	45.2502498	19.3960842
 location	Backa Topola	45.8121657	19.6304705
@@ -409,6 +412,7 @@ location	Barrio Norte	9.361907	-79.89987429981319
 location	Barrio Sur	9.3530093	-79.89550241930797
 location	Barrios Unidos	8.2048321	-80.5156335
 location	Barron County	45.423557	-91.8454099
+location	Bartenheim	47.6354901	7.4766365
 location	Bartoszycki	54.2124185	20.568447369148576
 location	Barueri	-23.5114	-46.8729
 location	Barva	10.07634855	-84.10922100765933
@@ -490,10 +494,12 @@ location	Beloit	42.519007	-89.018844
 location	Belton	31.0560132	-97.464453
 location	Ben Arous	36.7515997	10.224547
 location	Benadovo	49.4307982	19.33899
+location	Benahadux	36.9251533	-2.460209
 location	Benajarafe	36.716604	-4.195416
 location	Benalmadena	36.594519	-4.572284
 location	Benalua	37.3499272	-3.1690217
 location	Benalua de las Villas	37.4317716	-3.6823181
+location	Benamaurel	37.6084683	-2.6970148
 location	Benátky nad Jizerou	50.291767	14.8260014
 location	Benavente	38.9741643	-8.8120694
 location	Benavides de Orbigo	42.5595764	-5.895921692946511
@@ -869,6 +875,7 @@ location	Campo Grande	-20.4640173	-54.6162947
 location	Campo Largo	-25.4597726	-49.5270851
 location	Campo Real	40.3390	-3.3833
 location	Campobasso	41.717264799999995	14.826226697820019
+location	Campohermoso	36.9357485	-2.1336526
 location	Campos	39.4313098	3.0197912
 location	Campos Dos Goytacazes	-21.7558619	-41.3326895
 location	Camprodon	42.3127896	2.364926
@@ -902,6 +909,7 @@ location	Carandia	43.33684	-3.97495
 location	Caratinga	-19.7900887	-42.140533
 location	Carauari	-4.8766426	-66.8961433
 location	Carazinho	-28.2981634	-52.7942363
+location	Carboneras	36.9968699	-1.8946552
 location	Carcaixent	39.1218973	-0.4467128
 location	Cardedeu	41.6385167	2.3558408
 location	Cardiff	51.476291	-3.178964
@@ -1425,6 +1433,8 @@ location	Eisenstadt-Umgebung	47.9396071	16.726515713873287
 location	Ekaterinburg	56.839104	60.60825
 location	Ekeren	51.276812	4.418126
 location	Ekurhuleni Metro	-26.08802865	28.36673016689302
+location	El Argamason	36.9980535	-1.9779162
+location	El Barranquete	36.8380656	-2.1970697
 location	El Calabacito	7.7715462	-81.0254359
 location	El Cerrito	3.684363	-76.311345
 location	El Chorrillo	8.949912	-79.545254
@@ -1581,6 +1591,7 @@ location	Figueiropolis	-12.1347916	-49.1737141
 location	Figueres	42.2666314	2.9638434
 location	Fillmore County	41.5637	-92.0077
 location	Filzbach	47.1204474	9.1296451
+location	Finana	37.1709721	-2.8397107
 location	Finca 30	9.42348245	-82.5562999569464
 location	Fitchburg	42.986206	-89.426696
 location	Fitero	42.059536	-1.858151
@@ -1735,6 +1746,7 @@ location	Georgetown County	33.4392245	-79.3343041
 location	Georgetown DE	38.6900507	-75.3858753
 location	Georgetown TX	30.671598	-97.65500660120435
 location	Geraardsbergen	50.777365	3.899454
+location	Gergal	37.118565	-2.5395634
 location	Gerhardshofen	49.6302367	10.6914557
 location	Germersheim	49.2222749	8.36659
 location	Gerona	41.9793006	2.8199439
@@ -2089,6 +2101,7 @@ location	Huasco	-28.4651248	-71.2207947
 location	Hudson County	40.741619	-74.059016
 location	Huechuraba	-33.365721449999995	-70.6429271186091
 location	Huelago	37.4205176	-3.2622608
+location	Huercal de Almeria	36.8836087	-2.4398613
 location	Huescar	37.8086268	-2.5398775
 location	Huetor Santillan	37.2228	-3.5150
 location	Huimanguillo	17.7620967	-93.66344080511583
@@ -2100,6 +2113,7 @@ location	Hulshout	51.0749541	4.796794688834951
 location	Hulste	50.8820656	3.2990273
 location	Humbeek	50.9673676	4.3794122
 location	Humboldt County	40.7450	-123.8695
+location	Huningue	47.5941514	7.5794613
 location	Hunt County	33.1161567	-96.0808922
 location	Hurbanovo	47.8761227	18.198313
 location	Hurefeish	33.021767395388366	35.34665715770681
@@ -2127,6 +2141,7 @@ location	Ijui	-28.3878734	-53.9201692
 location	Ilawski	53.67479095	19.4915030031177
 location	iLembe	-29.240765	31.234110920000003
 location	Ilheus	-14.792599	-39.0453843
+location	Illar	36.9851023	-2.6391402
 location	Illinois	40.088552	-89.301876
 location	Illora	37.2885009	-3.8795173
 location	Imbe	-29.975269	-50.128068
@@ -2524,6 +2539,8 @@ location	La Aldea de San Nicolas	27.9827393	-15.779715
 location	La Baneza	42.2998096	-5.8970081
 location	La Bisbal de l'Emporda	41.9720829	3.1198892
 location	La Brède	44.6811652	-0.5279844
+location	La Calahorra	37.1814745	-3.0640503
+location	La Canada de San Urbano	36.8414444	-2.4070041
 location	La Carrera de Otero	42.5099199	-6.0425563
 location	La Chapelle-Saint-Luc	48.3185478	4.0413095
 location	La Chorrera	8.9789112	-79.87043288185177
@@ -2687,6 +2704,7 @@ location	Lewis and Clark County	47.2117026	-112.4768049
 location	Lewis County	43.7344277	-75.440289
 location	Lewis County NY	43.7344277	-75.440289
 location	Lewis County WA	46.5612011	-122.4225561
+location	Leymen	47.4940419	7.4826921
 location	Lezuza	38.9496	-2.3555
 location	Liano	43.3829224	-3.8396364
 location	Liberec	50.7702648	15.0583947
@@ -2849,6 +2867,7 @@ location	Maasmechelen	50.9635024	5.696445
 location	Maastricht	50.85798545	5.6969881818221095
 location	Mabu'Im	31.4492727	34.6547505
 location	Macaé	-22.3712958	-41.7866922
+location	Macael	37.3309751	-2.3024387
 location	Macanet de la Selva	41.7774442	2.7309225
 location	Macara	-4.3490568	-79.91614162495434
 location	Macchiagodena	41.559826	14.407824
@@ -3597,6 +3616,7 @@ location	Pailon	-17.6592379	-62.719661
 location	Paimpol	48.7794818	-3.0484022
 location	Paipote	-27.4147265	-70.2749806
 location	Pajan	-1.70407915	-80.42129748047982
+location	Pajara	36.9941187	-5.2353096
 location	Pajeczno County	51.1408981	19.019363191126182
 location	Pajonal	8.5937539	-80.254955
 location	Palacios de la Valduerna	42.3279483	-5.9389711
@@ -4018,6 +4038,7 @@ location	Rensselaer County	42.7091389	-73.5107732
 location	Requena	39.4880777	-1.1001643
 location	Resende	-22.4683626	-44.4463494
 location	Resistencia	-27.4511235	-58.9865196
+location	Retamar	38.0397389	-3.0806417
 location	Retie	51.268101	5.078413
 location	Reutte	47.456572550000004	10.700811364115278
 location	Revda	56.8000651	59.9086688
@@ -4267,6 +4288,7 @@ location	San Isidro (Alajuela)	10.0780962	-84.1931678
 location	San Isidro AR	-34.47417457465127	-58.526015318917636
 location	San Isidro CR	9.8303018	-83.9536131
 location	San Isidro de El General	9.3714044	-83.7040469
+location	San Isidro de Nijar	36.909012	-2.1735077
 location	San Jacinto County	30.5083577	-95.1902362
 location	San Jacinto de Yaguachi	-2.11784565	-79.73593868679905
 location	San Jerónimo	10.0060332	-84.015112
@@ -4377,6 +4399,7 @@ location	Santa Maria de Cayon	43.30976	-3.85548
 location	Santa Maria de Guia de Gran Canaria	28.1390522	-15.6318282
 location	Santa Maria de Jetiba	-20.025296	-40.743931
 location	Santa Maria de Palautordera	41.693781	2.4442321
+location	Santa Maria del Aguila	36.780645	-2.7736816
 location	Santa Maria del Camino	39.6705	2.7680
 location	Santa Maria dos Olivais	39.60115745	-8.384718083003463
 location	Santa Marta	11.234638	-74.192698
@@ -4490,6 +4513,7 @@ location	Schriek	51.0248817	4.6908515
 location	Schuyler County	40.1370869	-90.5697373
 location	Schuyler County IL	40.1370869	-90.5697373
 location	Schuyler County NY	42.3903231	-76.8691575
+location	Schwabach	49.3295535	11.0195132
 location	Schwanenstadt	48.0545249	13.7749232
 location	Schwarzach	47.44718315	9.75849349364426
 location	Schwaz	47.3449529	11.7084253
@@ -4657,6 +4681,7 @@ location	Sonoma County	38.506902	-122.863769
 location	Sonora	-17.5852028	-54.7548288
 location	Sopelana	43.3802735	-2.9838326
 location	Soporna	48.2537227	17.8157589574625
+location	Sorbas	37.098183	-2.1239548
 location	Sorinnes	50.2597292	4.98106
 location	Sorocaba	-23.501667	-47.458056
 location	Sort	42.4113985	1.1297727
@@ -4706,6 +4731,7 @@ location	St. Jakob	46.6785854	14.6904763
 location	St. Johann im Pongau	47.3475782	13.2026049
 location	St. Lawrence County	44.4973591	-75.0657043
 location	St. Louis MO	38.6270	-90.1994
+location	St. Moritz	46.4960592	9.8386578
 location	St. Pantaleon	47.4601498	7.6910021
 location	Stabroek	51.3352018	4.370408277101575
 location	Staden	50.9705286	3.0013884999155254
@@ -4723,6 +4749,7 @@ location	Stary Oskol	51.301733771509085	37.8503792523148
 location	Staten Island	40.592429	-74.149614
 location	Stavropol	45.0433245	41.9690934
 location	Stearns County	45.535326	-94.6139422
+location	Steckborn	47.6653429	8.9815246
 location	Steenokkerzeel	50.922396	4.499669
 location	Stein	50.9732145	5.760681940061414
 location	Steinach am Brenner	47.090272	11.472902
@@ -4795,6 +4822,7 @@ location	Szczecinek	53.70234205	16.70713424642978
 location	Szczycienski	53.541742049999996	21.018362051755837
 location	Szudziałowo	53.2994967	23.6548709
 location	Tabatinga	-4.2327349	-69.9263372
+location	Tabernas	37.0498879	-2.3913774
 location	Tabira	-7.583661	-37.537735
 location	Taboao Da Serra	-23.6121912	-46.7790539
 location	Tachov	49.7955449	12.6329861
@@ -5169,6 +5197,7 @@ location	Verona WI	42.987161	-89.535380
 location	Verrières-le-Buisson	48.7467819	2.2653844
 location	Viamao	-30.0819338	-51.0261927
 location	Viana	42.5154725	-2.3713437
+location	Viator	36.8887282	-2.4251246
 location	Vic	41.9302021	2.2545943
 location	Vicente Lopez	-34.52955795	-58.506973968642164
 location	Vicentina	-22.4093447	-54.4370921

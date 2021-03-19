@@ -1101,6 +1101,7 @@ location	Laviana
 location	Panes
 
 # Andalusia
+location	Aguadulce
 location	Rota
 location	Puerto Santa Maria
 location	Cadiz
@@ -1116,6 +1117,7 @@ location	Tarifa
 location	Algeciras
 location	San Roque ES
 location	La Linea de la Concepcion
+location	Pajara
 location	Montilla
 location	Benalmadena
 location	Antequera
@@ -1172,13 +1174,35 @@ location	Fonelas
 location	Benalua
 location	Guadix
 location	Alicun de Ortega
+location	Retamar
+location	La Calahorra
+location	Adra
 location	Zujar
+location	Finana
 location	Castril
+location	Santa Maria del Aguila
 location	Baza
 location	Cortijos Nuevos
+location	Benamaurel
+location	Illar
+location	Aulago
 location	Huescar
+location	Gergal
+location	Benahadux
+location	Bacares
 location	Almeria
+location	Huercal de Almeria
 location	Puebla de Don Fadrique
+location	Viator
+location	La Canada de San Urbano
+location	Tabernas
+location	Macael
+location	El Barranquete
+location	San Isidro de Nijar
+location	Campohermoso
+location	Sorbas
+location	El Argamason
+location	Carboneras
 
 # Castilla y Leon
 location	Brazuelo
@@ -2099,9 +2123,12 @@ location	Reguisheim
 location	Colmar
 location	Baldersheim
 location	Folgensbourg
+location	Bartenheim
+location	Leymen
 location	Hegenheim
 location	Biesheim
 location	Village-Neuf
+location	Huningue
 location	Lingolsheim
 location	Brumath
 location	Strasbourg
@@ -3196,6 +3223,7 @@ location	Gachnang
 location	Frauenfeld
 location	Felben-Wellhausen
 location	Wangi
+location	Steckborn
 location	Munchwilen
 location	Wilen bei Wil
 location	Erlen
@@ -3226,6 +3254,7 @@ location	Landquart
 location	Trimmis
 location	Jenaz
 location	Champfer
+location	St. Moritz
 location	Zernez
 
 ### Norway
@@ -3345,6 +3374,7 @@ location	Schlusselfeld
 location	Gerhardshofen
 location	Fuerth
 location	Erlangen
+location	Schwabach
 location	Nuremberg
 location	Starnberg
 location	Munich
