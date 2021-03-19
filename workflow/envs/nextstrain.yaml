@@ -19,6 +19,6 @@ dependencies:
   - pip
   - pip:
       - awscli==1.18.45
-      - nextstrain-augur==11.1.2
+      - nextstrain-augur==11.3.0
       - nextstrain-cli==1.16.5
       - rethinkdb==2.3.0.post6

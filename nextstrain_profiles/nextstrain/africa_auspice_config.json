@@ -4,6 +4,11 @@
   "maintainers": [
     {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
   ],
+  "data_provenance": [
+    {
+      "name": "GISAID"
+    }
+  ],
   "colorings": [
     {
       "key": "subclade_membership",
