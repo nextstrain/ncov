@@ -1101,7 +1101,6 @@ location	Laviana
 location	Panes
 
 # Andalusia
-location	Aguadulce
 location	Rota
 location	Puerto Santa Maria
 location	Cadiz
@@ -1118,6 +1117,7 @@ location	Algeciras
 location	San Roque ES
 location	La Linea de la Concepcion
 location	Pajara
+location	Aguadulce ES
 location	Montilla
 location	Benalmadena
 location	Antequera
@@ -1147,7 +1147,6 @@ location	Atarfe
 location	Benalua de las Villas
 location	Cullar Vega
 location	Albolote
-location	Alhendin
 location	Churriana de la Vega
 location	Campillo de Arenas
 location	Otura
