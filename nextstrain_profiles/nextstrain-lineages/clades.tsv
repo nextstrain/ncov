@@ -1,0 +1,82 @@
+clade	gene	site	alt
+
+A (19B)	nuc	8782	T
+A (19B)	nuc	28144	C
+
+B (19A)	nuc	8782	C
+B (19A)	nuc	14408	C
+
+B.1	nuc	8782	C
+B.1	nuc	23403	G
+B.1	nuc	3037	T
+
+B.1.1 (20B)	nuc	8782	C
+B.1.1 (20B)	nuc	14408	T
+B.1.1 (20B)	nuc	23403	G
+B.1.1 (20B)	nuc	28881	A
+B.1.1 (20B)	nuc	28882	A
+
+B.1.1.7 (20I)	nuc	8782	C
+B.1.1.7 (20I)	nuc	14408	T
+B.1.1.7 (20I)	nuc	23403	G
+B.1.1.7 (20I)	nuc	28881	A
+B.1.1.7 (20I)	nuc	28882	A
+B.1.1.7 (20I)	nuc	23063	T
+B.1.1.7 (20I)	nuc	14676	T
+B.1.1.7 (20I)	nuc	15279	T
+
+B.1.2 (20G)	nuc	10319	T
+B.1.2 (20G)	nuc	18424	G
+B.1.2 (20G)	nuc	21304	T
+B.1.2 (20G)	nuc	25907	T
+B.1.2 (20G)	nuc	27964	T
+B.1.2 (20G)	nuc	28472	T
+B.1.2 (20G)	nuc	28869	T
+
+B.1.9	nuc	7765	T
+B.1.9	nuc	17690	T
+
+B.1.36	nuc	26735	T
+B.1.36	nuc	28854	T
+
+B.1.177 (20E)	nuc	8782	C
+B.1.177 (20E)	nuc	14408	T
+B.1.177 (20E)	nuc	23403	G
+B.1.177 (20E)	nuc	22227	T
+B.1.177 (20E)	nuc	28932	T
+B.1.177 (20E)	nuc	29645	T
+
+B.1.258	nuc	7767	C
+B.1.258	nuc	8047	T
+B.1.258	nuc	22879	A
+
+B.1.351 (20H)	nuc	1059	T
+B.1.351 (20H)	nuc	8782	C
+B.1.351 (20H)	nuc	14408	T
+B.1.351 (20H)	nuc	23403	G
+B.1.351 (20H)	nuc	25563	T
+B.1.351 (20H)	nuc	23063	T
+B.1.351 (20H)	nuc	23012	A
+
+B.6	nuc	13730	T
+B.6	nuc	23929	T
+B.6	nuc	28311	T
+
+C (20D)	nuc	4002	T
+C (20D)	nuc	10097	A
+C (20D)	nuc	13536	T
+C (20D)	nuc	23731	T
+
+D.2 (20F)	nuc	1163	T
+D.2 (20F)	nuc	7540	C
+D.2 (20F)	nuc	16647	T
+D.2 (20F)	nuc	18555	T
+D.2 (20F)	nuc	22992	A
+D.2 (20F)	nuc	23401	A
+
+P.1 (20J)	nuc	733	C
+P.1 (20J)	nuc	2749	T
+P.1 (20J)	nuc	3828	T
+P.1 (20J)	nuc	5648	C
+P.1 (20J)	nuc	12778	T
+P.1 (20J)	nuc	13860	T

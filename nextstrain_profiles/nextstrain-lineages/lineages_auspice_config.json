@@ -1,5 +1,5 @@
 {
-  "title": "Genomic epidemiology of novel coronavirus",
+  "title": "Phylogeny of novel coronavirus PANGO lineages",
   "build_url": "https://github.com/nextstrain/ncov",
   "maintainers": [
     {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
@@ -21,6 +21,11 @@
       "type": "categorical"
     },
     {
+      "key": "S1_mutations",
+      "title": "S1 mutations",
+      "type": "continuous"
+    },
+    {
       "key": "location",
       "title": "Location",
       "type": "categorical"
@@ -38,21 +43,6 @@
     {
       "key": "region",
       "title": "Region",
-      "type": "categorical"
-    },
-    {
-      "key": "host",
-      "title": "Host",
-      "type": "categorical"
-    },
-    {
-      "key": "age",
-      "title": "Age",
-      "type": "continuous"
-    },
-    {
-      "key": "sex",
-      "title": "Sex",
       "type": "categorical"
     },
     {
@@ -95,7 +85,7 @@
     },
     {
       "key": "region_exposure",
-      "title": "Region of exposure",
+      "title": "Region of Exposure",
       "type": "categorical"
     }
   ],
@@ -106,26 +96,23 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "country",
-    "distance_measure": "num_date",
+    "color_by": "pango_lineage",
+    "distance_measure": "div",
     "geo_resolution": "country",
     "map_triplicate": true,
-    "branch_label": "clade"
+    "branch_label": "clade",
+    "transmission_lines": false
   },
   "filters": [
-    "recency",
     "clade_membership",
     "region",
     "country",
     "division",
     "location",
-    "host",
-    "author",
     "pango_lineage"
   ],
   "panels": [
     "tree",
-    "map",
     "entropy"
   ]
 }
