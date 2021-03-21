@@ -815,11 +815,11 @@ if "use_nextalign" in config and config["use_nextalign"]:
         input:
             tree = rules.refine.output.tree,
             alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
-            distance_maps = ["defaults/distance_maps/S1.json"]
+            distance_maps = ["defaults/distance_maps/S1.json","defaults/distance_maps/class1.json", "defaults/distance_maps/class2.json","defaults/distance_maps/class3.json" ]
         params:
             genes = 'S',
-            comparisons = ['root'],
-            attribute_names = ['S1_mutations']
+            comparisons = ['root','root','root','root'],
+            attribute_names = ['S1_mutations', "class1", "class2", "class3"]
         output:
             node_data = "results/{build_name}/distances.json"
         shell:
