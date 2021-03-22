@@ -134,7 +134,6 @@ Puurs-Sint-Amands
 	Lippelo
 	Oppuurs
 	Puurs
-	Ruisbroek
 	Sint-Amands
 Sint-Katelijne-Waver
 	Onze-Lieve-Vrouw-Waver
