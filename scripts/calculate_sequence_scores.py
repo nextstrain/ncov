@@ -49,5 +49,8 @@ if __name__ == '__main__':
     all_scores["sum"] = d.sum(axis=1)
     all_scores["number"] = (d>0).sum(axis=1)
 
+    triple_muts = all_scores.number==3
+    all_scores.loc[triple_muts,:]
+
     # with open(args.output, 'w') as fh:
     #     json.dump({"nodes":node_data}, fh)
