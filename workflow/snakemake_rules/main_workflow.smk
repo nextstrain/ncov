@@ -374,7 +374,8 @@ rule subsample:
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/{build_name}/sample-{subsample}.fasta"
+        sequences = "results/{build_name}/sample-{subsample}.fasta",
+        strains="results/{build_name}/sample-{subsample}.txt",
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
     benchmark:
@@ -414,7 +415,8 @@ rule subsample:
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
-            --output {output.sequences} 2>&1 | tee {log}
+            --output {output.sequences} \
+            --output-strains {output.strains} 2>&1 | tee {log}
         """
 
 rule proximity_score:
@@ -471,7 +473,7 @@ def _get_subsampled_files(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
 
     return [
-        f"results/{wildcards.build_name}/sample-{subsample}.fasta"
+        f"results/{wildcards.build_name}/sample-{subsample}.txt"
         for subsample in subsampling_settings
     ]
 
@@ -481,9 +483,13 @@ rule combine_samples:
         Combine and deduplicate FASTAs
         """
     input:
-        _get_subsampled_files
+        sequences=_get_unified_alignment,
+        sequence_index=rules.index_sequences.output.sequence_index,
+        metadata=_get_unified_metadata,
+        include=_get_subsampled_files,
     output:
-        sequences = "results/{build_name}/subsampled_sequences.fasta"
+        sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta",
+        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv"
     log:
         "logs/subsample_regions_{build_name}.txt"
     benchmark:
@@ -491,9 +497,14 @@ rule combine_samples:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/combine-and-dedup-fastas.py \
-            --input {input} \
-            --output {output} 2>&1 | tee {log}
+        augur filter \
+            --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
+            --metadata {input.metadata} \
+            --exclude-all \
+            --include {input.include} \
+            --output-sequences {output.sequences} \
+            --output-metadata {output.metadata} 2>&1 | tee {log}
         """
 
 if "use_nextalign" in config and config["use_nextalign"]:
