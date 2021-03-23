@@ -2566,6 +2566,7 @@ location	Itterbeek
 location	Dilbeek
 location	Zellik
 location	Huizingen
+location	Ruisbroek
 location	Londerzeel
 location	Wemmel
 location	Beersel
@@ -2725,9 +2726,6 @@ location	Attenhoven
 location	Zoutleeuw
 location	Geetbets
 location	Rummen
-
-# Vlaams-Brabant
-location	Ruisbroek
 
 # Namur
 location	Belgrade
@@ -4842,7 +4840,7 @@ location	São Leopoldo
 location	Novo Cabrais
 location	Vera Cruz (Rio Grande do Sul)
 location	Novo Hamburgo
-location	Santa Maria
+location	Santa Maria RS
 location	Taquara
 location	Sapiranga
 location	Parobe
@@ -4956,11 +4954,17 @@ location	Florianopolis
 
 # Goiás
 location	Jatai
+location	Britania
+location	Sanclerlandia
+location	Turvania
 location	Santa Barbara de Goias
 location	Ceres BR
+location	Jaragua
+location	Mangueira
 location	Goiania
 location	Aparecida de Goiania
 location	Senador Canedo
+location	Cidade Ocidental
 
 # Tocantins
 location	Sandolandia
@@ -4976,7 +4980,9 @@ location	Araguaina
 location	Araguatins
 
 # Distrito Federal
+location	Santa Maria DF
 location	Brasilia
+location	Planaltina
 
 # São Paulo
 location	Euclides Da Cunha Paulista
@@ -5004,6 +5010,7 @@ location	Adamantina
 location	Oswaldo Cruz
 location	Taruma
 location	Auriflama
+location	Jales
 location	Tupa
 location	Araçatuba
 location	Assis
@@ -5013,21 +5020,32 @@ location	Birigui
 location	Quintana
 location	Fernandopolis
 location	Echapora
+location	Meridiano
+location	Mira Estrela
 location	Oriente
+location	Votuporanga
 location	Marilia
 location	Ribeirao do Sul
+location	Cardoso
 location	Ourinhos
 location	Vera Cruz (São Paulo)
 location	Lins
 location	Sao Pedro do Turvo
+location	Ubarana
 location	Garca
 location	Santa Cruz do Rio Pardo
+location	Mirassolandia
+location	Ipigua
+location	Sao Jose do Rio Preto
+location	Potirendaba
 location	Itarare
 location	Uru
 location	Aguas de Santa Barbara
+location	Guapiacu
 location	Itabera
 location	Bauru
 location	Borebi
+location	Catanduva
 location	Avare
 location	Lencois Paulista
 location	Jau

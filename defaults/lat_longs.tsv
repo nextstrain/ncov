@@ -737,6 +737,7 @@ location	Brinkmann	-30.8643586	-62.0470794
 location	Brisbane	-27.484246	153.026118
 location	Brislach	47.4181317	7.5433687
 location	Bristol	41.6718	-72.9493
+location	Britania	-15.2427599	-51.1602061
 location	Brno	49.1922443	16.6113382
 location	Brobo	7.966667	-4.833333
 location	Brodno-Warszawa	52.288533	21.0310084
@@ -924,6 +925,7 @@ location	Carcassonne	43.2130358	2.3491069
 location	Cardedeu	41.6385167	2.3558408
 location	Cardiff	51.476291	-3.178964
 location	Cardona	41.9142758	1.68133
+location	Cardoso	-20.080447	-49.9139767
 location	Careiro	-3.8185277	-60.3616505
 location	Carentan	49.302133	-1.250938
 location	Cariacica	-20.263202	-40.416549
@@ -963,6 +965,7 @@ location	Castro County	34.4952536	-102.2592314
 location	Castro de Cepeda	42.6567254	-6.0281647
 location	Castro Urdiales	43.3843347	-3.2162576
 location	Catamayo	-3.9911481	-79.40388215708711
+location	Catanduva	-21.1331035	-48.9712817
 location	Catende	-8.6900588	-35.748470825
 location	Cativá	9.3634008	-79.8349538
 location	Catriel	-37.8794088	-67.7932024
@@ -1081,6 +1084,7 @@ location	Churriana de la Vega	37.1457	-3.6449
 location	Chuy	-33.6937948	-53.4561114
 location	Chýně	50.0606462	14.2272998
 location	Cianorte	-23.662036	-52.6103989
+location	Cidade Ocidental	-16.1000758	-47.9445014
 location	Cienaga	11.006697	-74.244529
 location	Cienaga de Oro	8.8746769	-75.6210036
 location	Cieradz Koscielny	52.43779	16.59244
@@ -1906,6 +1910,7 @@ location	Guaiba	-30.1130731	-51.329442
 location	Guaira	-19.4608971	-42.5227089
 location	Guangzhou	23.123972	113.292889
 location	Guape	-20.7619447	-45.9174969
+location	Guapiacu	-20.79663	-49.2253917
 location	Guapiara	-24.18921	-48.529549
 location	Guapiles	10.2152164	-83.7913841
 location	Guapimirim	-22.5266308	-42.9790687
@@ -2189,6 +2194,7 @@ location	Interior Alaska	65.905635	-150.144417
 location	Inyo County	36.5595325	-117.4074712
 location	Iowa County WI	42.9732457	-90.1334393
 location	Ipiales	0.828410	-77.638041
+location	Ipigua	-20.657282	-49.3881146
 location	Ipojuca	-8.3980773	-35.0611068
 location	Ipsach	47.1118789	7.2329528
 location	Iquique	-20.2140657	-70.1524646
@@ -2251,6 +2257,7 @@ location	Jacobacci	-41.1543657	-71.3219762
 location	Jagtial	18.82135895	78.91506632525903
 location	Jaipur	26.901676	75.793978
 location	Jalazone	31.951986	35.21155
+location	Jales	-20.2671767	-50.5492435
 location	Jalna	19.9182328	75.8686246900443
 location	Jamnagar	22.471143	70.051543
 location	Jamundi	3.260158	-76.539750
@@ -2259,6 +2266,7 @@ location	Janesville	42.691211	-89.014160
 location	Janjgir-Champa	21.967126399999998	82.6647242496104
 location	Janovce	49.183742050000006	21.3049069607189
 location	Jaqueira	-8.7276422	-35.7948925
+location	Jaragua	-15.7528866	-49.3344033
 location	Jaraicejo	39.6669756	-5.8135394
 location	Jardim	-21.479941	-56.148902
 location	Jarinu	-23.0949584	-46.7148636
@@ -2970,6 +2978,7 @@ location	Mandailing	3.3224455	99.1298137
 location	Mandsaur	24.077683	75.067604
 location	Mandvi	21.254369	73.303536
 location	Mangrol	21.575642	72.8565391
+location	Mangueira	-16.6017274	-49.2617098
 location	Mangueirinha	-25.9412009	-52.1740852
 location	Manhattan	40.778542	-73.969920
 location	Manhuacu	-20.2574434	-42.0340769
@@ -3113,6 +3122,7 @@ location	Mercer Island	47.5602073	-122.22014226861951
 location	Merchtem	50.9591981	4.2327769
 location	Merelbeke	50.9945	3.7456
 location	Meriden	41.539616	-72.794843
+location	Meridiano	-20.3547223	-50.172574
 location	Merksem	51.2438894	4.4397179
 location	Merksplas	51.3580597	4.8627541
 location	Merlischachen	47.0655534	8.4071994
@@ -3152,9 +3162,11 @@ location	Minderhout	51.4174934	4.7636002
 location	Mineral County	38.4815162	-118.498262
 location	Mingogil	38.4609	-1.7411
 location	Minnehaha County	43.6680284	-96.7837626
+location	Mira Estrela	-19.9806298	-50.136873
 location	Miracema	-21.4123651	-42.1965147
 location	Miramar	25.9861	-80.3036
 location	Miranda	-20.2405943	-56.3770344
+location	Mirassolandia	-20.6147204	-49.462817
 location	Mirpur	23.8223	90.3654
 location	Mistelbach	48.5694535	16.5720327
 location	Mitchells Plain	-34.050556	18.618056
@@ -3824,6 +3836,7 @@ location	Pitahaya	9.9373912	-84.0920344
 location	Pittem	50.999964750000004	3.262273003445322
 location	Pittsburgh	40.433375	-79.996990
 location	Placer County	39.1012064	-120.7650606
+location	Planaltina	-15.6181947	-47.6555703
 location	Planalto Alegre	-27.0721133	-52.8667023
 location	Plasencia	40.0302938	-6.0902595
 location	Plerin	48.5348817	-2.7695752
@@ -3891,6 +3904,7 @@ location	Portugalete	43.317356	-3.021671
 location	Porvenir	-53.2956738	-70.3687401
 location	Posada de la Valduerna	42.3113416	-6.0215444
 location	Potenza	40.5183188	15.820959951106293
+location	Potirendaba	-21.0457369	-49.3767154
 location	Potosi	0.7340175	-77.40917648770488
 location	Povenets	62.848721	34.820995
 location	Poyarkovo	49.621155	128.65097
@@ -4387,6 +4401,7 @@ location	San Sebastian	43.3224219	-1.9838889
 location	San Vicente de Castellet	41.6669999	1.8625559
 location	San Vicente de la Sonsierra	42.5626773	-2.7589811
 location	Sanary-sur-Mer	43.1177238	5.8008839
+location	Sanclerlandia	-16.1993165	-50.309374
 location	Sandolandia	-12.5389465	-49.9285958
 location	Sandovalina	-22.4560782	-51.7634004
 location	Sangalkam	14.779304	-17.228261
@@ -4450,7 +4465,9 @@ location	Santa Maria de Jetiba	-20.025296	-40.743931
 location	Santa Maria de Palautordera	41.693781	2.4442321
 location	Santa Maria del Aguila	36.780645	-2.7736816
 location	Santa Maria del Camino	39.6705	2.7680
+location	Santa Maria DF	-16.0171229	-48.0131328
 location	Santa Maria dos Olivais	39.60115745	-8.384718083003463
+location	Santa Maria RS	-29.6860512	-53.8069214
 location	Santa Marta	11.234638	-74.192698
 location	Santa Pau	42.1442606	2.571379
 location	Santa Perpetua de Mogoda	41.5328106	2.1823309
@@ -4509,6 +4526,7 @@ location	Sao Jose de Ribamar	-2.5609115	-44.0559509
 location	Sao Jose do Brejo do Cruz	-6.212327	-37.3544536
 location	Sao Jose do Egito	-7.469447	-37.273974
 location	Sao Jose do Rio Pardo	-21.595288	-46.887303
+location	Sao Jose do Rio Preto	-20.8125851	-49.3804212
 location	Sao Jose Dos Campos	-23.1860383	-45.8866816
 location	Sao Jose Dos Pinhais	-25.533816	-49.2072163
 location	São Leopoldo	-29.793045	-51.1111978
@@ -5107,6 +5125,7 @@ location	Tupa	-21.9349129	-50.5141255
 location	Tupandi	-29.4779269	-51.4209232
 location	Turin	45.0677551	7.6824892
 location	Turrialba	9.78380435	-83.49914625487494
+location	Turvania	-16.6120126	-50.1352075
 location	Turzovka	49.4051578	18.6259805
 location	Tuscaloosa County	33.2668398	-87.4862182
 location	Tuttlingen	47.9844315	8.8186606
@@ -5116,6 +5135,7 @@ location	Tweed Heads	-28.201312	153.543425
 location	Tygerberg	-33.8474485	18.6410685
 location	Tyumen	57.153534	65.542274
 location	Tzfat	32.9646301	35.502451
+location	Ubarana	-21.1637674	-49.7167796
 location	Ubeda	38.0114	-3.3712
 location	Uberaba	-19.750833	-47.936666
 location	Uccle	50.793431	4.355608
@@ -5353,6 +5373,7 @@ location	Voroux-lez-Liers	50.686830	5.554916
 location	Vorselaar	51.216049	4.773289
 location	Vosselaar	51.3129153	4.8878026
 location	Votorantim	-23.5386249	-47.440842
+location	Votuporanga	-20.4252908	-49.972028
 location	Vrasene	51.2191283	4.194377
 location	Vratislavice nad Nisou	50.7434889	15.0964436
 location	Vrbas	45.568028	19.6470089
