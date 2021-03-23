@@ -176,7 +176,9 @@ rule upload:
         expand("results/to-exclude_{origin}.txt", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
         expand("results/masked_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
         expand("results/filtered_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
-        expand("results/mutation_summary_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary`
+        expand("results/mutation_summary_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary
+        "results/global/global_subsampled_sequences.fasta",
+        "results/global/global_subsampled_metadata.tsv"
     params:
         s3_bucket = config["S3_DST_BUCKET"],
         compression = config["S3_DST_COMPRESSION"]
