@@ -8,6 +8,7 @@ import numpy as np
 from collections import defaultdict
 
 def smooth(x, smoothing=None):
+    # assumes no empty weeks, need to fix
     if smoothing is None:
         smoothing = np.exp(-np.arange(-5,5)**2/2)
 
@@ -45,6 +46,7 @@ if __name__ == '__main__':
     query =['E484K']
     query =['A222V']
     query =['E484K', 'N501Y']
+    query =['N501Y']
     fig = plt.figure()
     for region in ['Europe', 'Africa', 'North America', 'South America']:
         subset = meta.loc[meta.region==region]
@@ -55,7 +57,7 @@ if __name__ == '__main__':
         d = pd.concat([m,denom], axis=1).fillna(0)
         d = d.loc[d.index>0]
 
-        plt.plot([datetime.fromordinal(int(7*x + ref_date)) for x in denom.index], smooth(d.iloc[:,0])/smooth(d.iloc[:,1]), label=region)
+        plt.plot([datetime.fromordinal(int(7*x + ref_date)) for x in d.index], smooth(d.iloc[:,0])/smooth(d.iloc[:,1]), label=region)
 
     plt.legend()
     fig.autofmt_xdate()
