@@ -1831,6 +1831,7 @@ Panama/334468/2020
 Italy/CAM-TIGEM-995/2020
 Ecuador/ZZ-SARS-1/2020
 Peru/LIM-INS-172/2020
+Mexico/CMX-IMSS_K2/2020
 
 # Impossible date or clade, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616586122040500
 Netherlands/NB-EMC-748/2020
