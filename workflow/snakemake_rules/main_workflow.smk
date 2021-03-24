@@ -565,6 +565,36 @@ else:
                 {input.reference} > {output} 2> {log}
             """
 
+if "run_pangolin" in config and config["run_pangolin"]:
+    rule run_pangolin:
+        message:
+            """
+            Running pangolin to assign lineage labels to samples. Includes putative lineage definitions by default.
+            Please remember to update your installation of pangolin regularly to ensure the most up-to-date classifications.
+            """
+        input:
+            alignment = rules.build_align.output.alignment,
+        output:
+            lineages = "results/{build_name}/results/pangolineages.csv",
+            node_data = "results/{build_name}/results/pangolineages.json"
+        params:
+            outdir = "results/{build_name}",
+            outfile = "pangolineages.csv",
+        log:
+            "logs/pangolin_{build_name}.txt"
+        conda: config["conda_environment"]
+        threads: 8
+        resources:
+            mem_mb=3000
+        shell:
+            """
+            pangolin {input.alignment}\
+                --threads {threads} \
+                --outdir {params.outdir} \
+                --outfile {params.outfile} \
+                --include-putative \
+            """
+
 # TODO: This will probably not work for build names like "country_usa" where we need to know the country is "USA".
 rule adjust_metadata_regions:
     message:
