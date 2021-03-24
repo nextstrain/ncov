@@ -7,6 +7,12 @@ import json
 import numpy as np
 from collections import defaultdict
 
+def smooth(x, smoothing=None):
+    if smoothing is None:
+        smoothing = np.exp(-np.arange(-5,5)**2/2)
+
+    return np.convolve(x, smoothing, mode='same')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -22,7 +28,7 @@ if __name__ == '__main__':
     meta = pd.read_csv(args.metadata, sep='\t', index_col=0)
     ref_date = datetime.strptime('2020-W1-1', "%Y-W%U-%d").toordinal()
     meta = meta.loc[meta.date.apply(lambda x:len(x)==10 and 'X' not in x),:]
-    meta["CW"] = meta.date.apply(lambda x:(datetime.strptime(x, '%Y-%m-%d').toordinal()-ref_date)//7 + 1)
+    meta["CW"] = meta.date.apply(lambda x:int((datetime.strptime(x, '%Y-%m-%d').toordinal()-ref_date)//7 + 1))
     seq_counts= {x:len(y) for x,y in meta.groupby(['CW', 'country'])}
 
     # from https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json
@@ -45,7 +51,11 @@ if __name__ == '__main__':
         ind = np.array([all([x in muts for x in query]) for muts in subset.S.fillna('')])
         m = subset.loc[ind].groupby('CW').sum().weight
         denom = subset.groupby('CW').sum().weight
-        plt.plot([datetime.fromordinal(int(7*x + ref_date)) for x in denom.index], m/denom, label=region)
+
+        d = pd.concat([m,denom], axis=1).fillna(0)
+        d = d.loc[d.index>0]
+
+        plt.plot([datetime.fromordinal(int(7*x + ref_date)) for x in denom.index], smooth(d.iloc[:,0])/smooth(d.iloc[:,1]), label=region)
 
     plt.legend()
     fig.autofmt_xdate()
