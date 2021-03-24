@@ -1877,6 +1877,7 @@ location	La Brède
 location	Niort
 location	Pau
 location	Langon
+location	Casteljaloux
 location	Poitiers
 location	Agen
 location	Notre-Dame-de-Sanilhac
@@ -2024,6 +2025,7 @@ location	Uzès
 location	Saint-Gilles FR
 
 # Auvergne-Rhône-Alpes
+location	Aurillac
 location	Montlucon
 location	Clermont-Ferrand
 location	Vichy
@@ -2059,6 +2061,7 @@ location	Oyonnax
 location	Grenoble
 location	Saint-Martin-D'Hères
 location	Chambery
+location	Challes-Les-Eaux
 location	Saint-Julien-en-Genevois
 location	Pringy
 location	Annemasse
@@ -2168,6 +2171,7 @@ location	Nice
 # Corse
 location	Porto-Vecchio
 location	Ajaccio
+location	Borgo
 location	Bastia
 
 # Mayotte
@@ -2204,11 +2208,13 @@ location	Geluwe
 # Oostende
 location	Westende
 location	Middelkerke
+location	Mannekensvere
 location	Schore
 location	Leffinge
 location	Zevekote
 location	Gistel
 location	Bredene
+location	Zandvoorde
 location	Oudenburg
 location	Eernegem
 location	Ichtegem
@@ -2566,10 +2572,12 @@ location	Itterbeek
 location	Dilbeek
 location	Zellik
 location	Huizingen
+location	Relegem
 location	Ruisbroek
 location	Londerzeel
 location	Wemmel
 location	Beersel
+location	Drogenbos
 location	Meise
 location	Linkebeek
 location	Strombeek-Bever
@@ -2639,6 +2647,7 @@ location	Koningshooikt
 location	Kessel
 location	Putte
 location	Berlaar
+location	Gestel
 location	Nijlen
 location	Bevel
 location	Schriek
@@ -2660,6 +2669,7 @@ location	Erps-Kwerps
 location	Kortenberg
 location	Everberg
 location	Boortmeerbeek
+location	Meerbeek
 location	Huldenberg
 location	Leefdaal
 location	Veltem-Beisem
@@ -2687,7 +2697,9 @@ location	Wezemaal
 location	Holsbeek
 location	Linden
 location	Bierbeek
+location	Betekom
 location	Begijnendijk
+location	Pellenberg
 location	Lubbeek
 location	Nieuwrode
 location	Meldert
@@ -2707,6 +2719,7 @@ location	Bunsbeek
 location	Glabbeek
 location	Testelt
 location	Scherpenheuvel-Zichem
+location	Scherpenheuvel
 location	Averbode
 location	Bekkevoort
 location	Zichem
@@ -2923,6 +2936,7 @@ location	Oudsbergen
 location	Bocholt
 location	Opglabbeek
 location	Bree
+location	Neeroeteren
 location	Dilsen
 location	Dilsen-Stokkem
 location	Kinrooi
@@ -6431,7 +6445,7 @@ location	Brown County IL
 location	Cass County IL
 location	Adams County IL
 location	Logan County
-location	Champaign County
+location	Champaign County IL
 location	Schuyler County IL
 location	Vermilion County
 location	Mason County IL
@@ -6480,7 +6494,7 @@ location	Conecuh County
 location	Henry County
 location	Monroe County AL
 location	Crenshaw County
-location	Butler County
+location	Butler County AL
 location	Pike County AL
 location	Barbour County
 location	Wilcox County
@@ -6550,15 +6564,19 @@ location	Thomas County
 location	Cobb
 
 # Ohio
+location	Butler County OH
 location	Williams County OH
 location	Montgomery County OH
 location	Greene County OH
+location	Clark County OH
+location	Champaign County OH
 location	Marion County OH
 location	Pickaway County
 location	Franklin County OH
 location	Columbus OH
 location	Hocking County
 location	Cuyahoga County
+location	Summit County
 
 # Florida
 location	Walton County FL
@@ -7354,6 +7372,9 @@ division	Cameroon
 
 ### Republic of the Congo
 division	Brazzaville
+
+### Libya
+division	Libya
 
 ### Namibia
 division	Kunene
@@ -8787,6 +8808,7 @@ country	Equatorial Guinea
 country	Gabon
 country	Cameroon
 country	Republic of the Congo
+country	Libya
 country	Namibia
 country	Democratic Republic of the Congo
 country	Botswana
