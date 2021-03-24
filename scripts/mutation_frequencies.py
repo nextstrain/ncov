@@ -45,9 +45,10 @@ if __name__ == '__main__':
 
     query =['E484K']
     query =['A222V']
-    query =['E484K', 'N501Y']
     query =['N501Y']
+    query =['E484K', 'N501Y']
     fig = plt.figure()
+    plt.title(','.join(query))
     for region in ['Europe', 'Africa', 'North America', 'South America']:
         subset = meta.loc[meta.region==region]
         ind = np.array([all([x in muts for x in query]) for muts in subset.S.fillna('')])
