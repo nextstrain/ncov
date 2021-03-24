@@ -205,3 +205,7 @@ Emines	Émines
 Achene	Achêne
 Heist-Aan-Zee	Heist
 Zandvliet	Berendrecht - Zandvliet - Lillo
+Keergbergen	Keerbergen
+Atenhoven	Attenhoven
+Fontaine-l'Eveque	Fontaine-l'Évêque
+Merkplas	Merksplas

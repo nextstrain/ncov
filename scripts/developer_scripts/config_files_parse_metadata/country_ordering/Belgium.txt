@@ -3147,7 +3147,6 @@ Zonnebeke
 	Beselare
 	Geluveld
 	Passendale
-	Zandvoorde
 	Zonnebeke
 
 # Kortrijk

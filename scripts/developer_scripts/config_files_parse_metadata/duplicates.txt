@@ -112,3 +112,5 @@ Sucre
 Walker County
 Walton County
 Gallatin County
+Butler County
+Champaign County
