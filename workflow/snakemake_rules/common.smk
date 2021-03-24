@@ -79,7 +79,12 @@ def _get_path_for_input(stage, origin_wildcard):
     if stage=="masked":
         return f"results/precomputed-masked{origin_wildcard}.fasta" if remote else f"results/masked{origin_wildcard}.fasta"
     if stage=="filtered":
-        return f"results/precomputed-filtered{origin_wildcard}.fasta" if remote else f"results/filtered{origin_wildcard}.fasta"
+        if remote:
+            return f"results/precomputed-filtered{origin_wildcard}.fasta"
+        elif path_or_url:
+            return path_or_url
+        else:
+            return f"results/filtered{origin_wildcard}.fasta"
 
     raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
 
