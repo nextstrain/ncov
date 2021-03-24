@@ -27,6 +27,9 @@ if __name__ == '__main__':
 
 
     meta = pd.read_csv(args.metadata, sep='\t', index_col=0)
+    mutations = pd.read_csv(args.mutation_summary, sep='\t', index_col=0).fillna('')
+    meta = pd.concat([meta, mutations['S']], axis=1)
+
     ref_date = datetime.strptime('2020-W1-1', "%Y-W%U-%d").toordinal()
     meta = meta.loc[meta.date.apply(lambda x:len(x)==10 and 'X' not in x),:]
     meta["CW"] = meta.date.apply(lambda x:int((datetime.strptime(x, '%Y-%m-%d').toordinal()-ref_date)//7 + 1))
@@ -40,9 +43,6 @@ if __name__ == '__main__':
     weights = {(cw, country): pops.get(country, 1e7)/seq_counts[(cw, country)]/1e6 for cw, country in seq_counts}
     meta['weight'] = [weights[(row['CW'], row['country'])] for s, row in meta.iterrows()]
 
-    mutations = pd.read_csv(args.mutation_summary, sep='\t', index_col=0).fillna('')
-    meta = pd.concat([meta, mutations['S']], axis=1)
-
     query =['E484K']
     query =['A222V']
     query =['E484K', 'N501Y']
@@ -53,11 +53,11 @@ if __name__ == '__main__':
         ind = np.array([all([x in muts for x in query]) for muts in subset.S.fillna('')])
         m = subset.loc[ind].groupby('CW').sum().weight
         denom = subset.groupby('CW').sum().weight
-
-        d = pd.concat([m,denom], axis=1).fillna(0)
+        max_week = int(max(denom.index))+1
+        dates = pd.DataFrame([datetime.fromordinal(int(7*x + ref_date)) for x in range(max_week)], index=range(max_week))
+        d = pd.concat([dates, m,denom], axis=1).fillna(0)
         d = d.loc[d.index>0]
-
-        plt.plot([datetime.fromordinal(int(7*x + ref_date)) for x in d.index], smooth(d.iloc[:,0])/smooth(d.iloc[:,1]), label=region)
+        plt.plot(d.iloc[:,0], smooth(d.iloc[:,1])/smooth(d.iloc[:,2]), label=region)
 
     plt.legend()
     fig.autofmt_xdate()
