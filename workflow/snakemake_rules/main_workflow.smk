@@ -575,11 +575,12 @@ if "run_pangolin" in config and config["run_pangolin"]:
         input:
             alignment = rules.build_align.output.alignment,
         output:
-            lineages = "results/{build_name}/results/pangolineages.csv",
-            node_data = "results/{build_name}/results/pangolineages.json"
+            lineages = "results/{build_name}/pangolineages.csv",
+            node_data = "results/{build_name}/pangolineages.json"
         params:
-            outdir = "results/{build_name}",
-            outfile = "pangolineages.csv",
+            outdir = "results/{build_name}/",
+            csv_outfile = "pangolineages.csv",
+            node_data_outfile = "pangolineages.json"
         log:
             "logs/pangolin_{build_name}.txt"
         conda: config["conda_environment"]
@@ -591,8 +592,12 @@ if "run_pangolin" in config and config["run_pangolin"]:
             pangolin {input.alignment}\
                 --threads {threads} \
                 --outdir {params.outdir} \
-                --outfile {params.outfile} \
+                --outfile {params.csv_outfile} \
                 --include-putative \
+                &&
+            python3 scripts/make_pangolin_node_data.py \
+                --pangolineages {params.outdir}+{params.csv_outfile} \
+                --node_data_outfile {params.outdir}+{params.node_data_outfile} \
             """
 
 # TODO: This will probably not work for build names like "country_usa" where we need to know the country is "USA".
@@ -1146,6 +1151,8 @@ def _get_node_data_by_wildcards(wildcards):
     if "use_nextalign" in config and config["use_nextalign"]:
         inputs.append(rules.aa_muts_explicit.output.node_data)
         inputs.append(rules.distances.output.node_data)
+    if "run_pangolin" in config and config["run_pangolin"]:
+        inputs.append(rules.run_pangolin.output.node_data)
 
     # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]
