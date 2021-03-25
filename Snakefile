@@ -37,7 +37,7 @@ configfile: "defaults/parameters.yaml"
 # Check config file for errors
 validate(config, schema="workflow/schemas/config.schema.yaml")
 # Convert inputs (YAML array) into an OrderedDict with keys of "name" for use by the pipeline. String values are ignored.
-if isinstance(config.get("inputs", ""), list):
+if isinstance(config.get("inputs"), list):
     config["inputs"] = OrderedDict((v["name"], v) for v in config["inputs"])
 
 # Check for overlapping subsampling schemes in user and default

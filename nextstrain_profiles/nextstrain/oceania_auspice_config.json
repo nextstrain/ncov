@@ -4,6 +4,11 @@
   "maintainers": [
     {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
   ],
+  "data_provenance": [
+    {
+      "name": "GISAID"
+    }
+  ],
   "colorings": [
    {
       "key": "subclade_membership",
@@ -11,7 +16,7 @@
       "type": "categorical"
     },
     {
-      "key": "pangolin_lineage",
+      "key": "pango_lineage",
       "title": "PANGO Lineage",
       "type": "categorical"
     },
@@ -20,6 +25,11 @@
       "title": "GISAID Clade",
       "type": "categorical"
     },
+    {
+      "key": "S1_mutations",
+      "title": "S1 mutations",
+      "type": "continuous"
+    },    
     {
       "key": "location",
       "title": "Location",
@@ -121,7 +131,7 @@
     "division",
     "location",
     "host",
-    "pangolin_lineage"
+    "pango_lineage"
   ],
   "panels": [
     "tree",

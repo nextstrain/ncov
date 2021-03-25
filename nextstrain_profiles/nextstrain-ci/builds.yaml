@@ -1,0 +1,8 @@
+# Only use one build for CI.
+active_builds: europe
+
+# Override full GISAID data with example data for a faster build.
+inputs:
+  - name: gisaid
+    metadata: "data/example_metadata.tsv"
+    sequences: "data/example_sequences.fasta"

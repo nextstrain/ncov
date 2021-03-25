@@ -97,6 +97,7 @@ Montaigu	Scherpenheuvel
 Spiere	Espierres
 Helkijn	Helchin
 Oudergem	Auderghem
+Auderghelm	Auderghem
 Sint-Agatha-Berchem	Berchem-Sainte-Agathe
 Brussel	Bruxelles
 Vorst	Forest
@@ -104,6 +105,7 @@ Elsene	Ixelles
 Sint-Jans-Molenbeek	Molenbeek-Saint-Jean
 Sint-Gillis	Saint-Gilles
 Sint-Joost-ten-Node	Saint-Josse-ten-Noode
+Sint-Joost-Ten-Node	Saint-Josse-ten-Noode
 Schaarbeek	Schaerbeek
 Ukkel	Uccle
 Watermaal-Bosvoorde	Watermael-Boitsfort
@@ -185,3 +187,25 @@ Westflanders	West-Vlaanderen
 Flemishbrabant	Vlaams-Brabant
 Meeuwen	Meeuwen-Gruitrode
 Gouy-Lez-Pieton	Gouy-lez-Piéton
+Meeuwen-Gruitorde	Meeuwen-Gruitrode
+Korktrijk	Kortrijk
+Zwijndracht	Zwijndrecht
+Florenne	Florennes
+Kortenborg	Kortenberg
+Berverlo	Beverlo
+Ougree	Ougrée
+Fleron	Fléron
+Marchinne-Au-Pont	Marchienne-au-Pont
+Gelbressee	Boninne - Gelbressée
+Boignee	Boignée
+Evelette	Évelette
+Brussels Capital Region	Brussels
+Sint-Josse-Ten-Node	Saint-Josse-ten-Noode
+Emines	Émines
+Achene	Achêne
+Heist-Aan-Zee	Heist
+Zandvliet	Berendrecht - Zandvliet - Lillo
+Keergbergen	Keerbergen
+Atenhoven	Attenhoven
+Fontaine-l'Eveque	Fontaine-l'Évêque
+Merkplas	Merksplas

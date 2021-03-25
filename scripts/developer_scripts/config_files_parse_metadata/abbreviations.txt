@@ -92,3 +92,20 @@ Tierra del Fuego	AR
 Goiás	BR
 Mechelen	BE
 Limburg	NL
+Israel	IL
+Botswana	BW
+São Paulo	BR
+Region Metropolitana de Santiago	CL
+Valparaiso	CL
+Brussels	BE
+Occitanie	FR
+Bulgaria	BG
+Tuscany	IT
+Setúbal	PT
+Veraguas	PA
+Cocle	PA
+Paraiba	PB
+Panama	PA
+Bolivia	BO
+Manabi	EC
+Colombia	CO

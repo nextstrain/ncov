@@ -31,7 +31,7 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
     if path_file_name in first_files: #simple list
         return [line.strip() for line in file_content[1:]]
 
-    second_files = [path_to_config_files+fi for fi in ["wrong_regions.txt", "abbreviations.txt", "false_divisions.txt", "manual_adjustments.txt"] ]
+    second_files = [path_to_config_files+fi for fi in ["wrong_regions.txt", "abbreviations.txt", "false_divisions.txt"] ]
 
     if path_file_name in second_files: #dictionary, keys seperated from content with tabs
         content = {}
@@ -73,6 +73,25 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
             content[l[0]][l[1]].append(entry)
 
         return content
+
+    fourth_files = [path_to_config_files + fi for fi in ["manual_adjustments.txt"]]
+
+    if path_file_name in fourth_files: # / and tab as separator
+        content = {}
+        for line in file_content[1:]:
+            if line == "\n":
+                continue
+            l = line.strip().split("\t")[0].split("/") + line.strip().split("\t")[1].split("/")
+            if len(l) < 8:
+                for i in range(8-len(l)):
+                    l.append("")
+            k = "/".join(l[:4])
+            c = "/".join(l[4:])
+            if k in content:
+                print("Attention, duplicate found while reading " + file_name + ": " + k + " -> " + c + ", " + content[k])
+            content[k] = c
+        return content
+
 
 
 # Read ordering and lat_longs file and return as dictionary:
@@ -277,57 +296,18 @@ def read_metadata(metadata):
         id = l[2]
         strain = l[0]
 
-        if region not in ["Africa", "Asia", "Europe", "North America", "Oceania", "South America"]:
-            print("Attention: Unknown region " + region + " for strain " + strain)
-
-        if region == "North-America":
-            additions_to_annotation.append(strain + "\t" + id + "\tregion\tNorth America # previously " + region)
-            print("Adjust North-America to North America for strain " + strain)
-            region = "North America"
-
-        if location == "Unknown" or location == "UNKNOWN" or location == "unknown": #TODO: separate
-            additions_to_annotation.append(strain + "\t" + id + "\tlocation\t# previously " + location)
-            location = ""
-        
-        if division == "Unknown" or division == "UNKNOWN" or division == "unknown": #TODO: separate
-            additions_to_annotation.append(strain + "\t" + id + "\tdivision\t# previously " + division)
-            division = ""
-
-        if region == "United Kingdom": #TODO: separate this, make it more applicable for other countries
-            additions_to_annotation.append(strain + "\t" + id + "\tregion\tEurope")
-            additions_to_annotation.append(strain + "\t" + id + "\tcountry\tUnited Kingdom")
-            additions_to_annotation.append(strain + "\t" + id + "\tdivision\t" + country)
-            if division != country:
-                print("UK issue: division " + division + " != country " + country)
-            region = "Europe"
-            country = "United Kingdom"
-                
-        if country == "China" and division == "Hong Kong":
-            additions_to_annotation.append(strain + "\t" + id + "\tcountry\tHong Kong #previously China")
-            country = "Hong Kong"
-            if location != "":
-                additions_to_annotation.append(strain + "\t" + id + "\tdivision\t" + location)
-                additions_to_annotation.append(strain + "\t" + id + "\tlocation\t")
-                division = location
-                location = ""
-    
-        countries_to_division = {"Hunan": "China", "Gibraltar": "United Kingdom", "Faroe Islands": "Denmark", "St Eustatius": "Netherlands", "Crimea": "Ukraine"}
-    
-        if country in countries_to_division:
-            additions_to_annotation.append(strain + "\t" + id + "\tcountry\t"+ countries_to_division[country] +" #previously " + country)
-            additions_to_annotation.append(strain + "\t" + id + "\tdivision\t" + country)
-            additions_to_annotation.append(strain + "\t" + id + "\tlocation\t" + division)
-            print("Warning: Changed " + country + " from country to "+ countries_to_division[country] +" division for " + id)
-            if location != "":
-                print("Lost location " + location)
-            location = division
-            division = country
-            country = countries_to_division[country]
-
-
         host = l[14]
         if host == "Neovison vison" or host ==  "Mustela lutreola":
+            print("Adjust host " + host + " to Mink")
             additions_to_annotation.append(strain + "\t" + id + "\thost\tMink # previously " + host)
+
+        problematic_char = ["'", "`"]
+
+        for c in problematic_char:
+            if c in strain:
+                strain2 = strain.replace(c, "-")
+                print("Adjust strain " + strain + " to " + strain2)
+                additions_to_annotation.append(strain + "\t" + id + "\tstrain\t" + strain2 + " # previously " + strain)
             
 
         if region not in data:
@@ -533,18 +513,13 @@ def correct_data(data, type, corrections, add_annotations = True): #TODO: add re
 def check_similar(ordering, name, type):
     diff_max = 0
     name_max = ""
-    for division in ordering:
-        if type == "division":
-            name0 = division
-        for location in ordering[division]:
-            if type == "location":
-                name0 = location
-            diff = SequenceMatcher(None, name, name0).ratio()
-            if name0 in name or name in name0:
-                diff = 0.8
-            if diff > diff_max:
-                diff_max = diff
-                name_max = name0
+    for name0 in ordering:
+        diff = SequenceMatcher(None, name, name0).ratio()
+        if name0 in name or name in name0:
+            diff = 0.8
+        if diff > diff_max:
+            diff_max = diff
+            name_max = name0
 
     if diff_max > 0.6:
         return name_max
@@ -560,12 +535,12 @@ def check_similar(ordering, name, type):
 def adjust_to_database(data): #TODO: temporary solution, needs reworking
     for region in data:
         for country in data[region]:
-            if country + ".txt" in listdir(path_to_config_files + "country_ordering/"): #TODO: correct path?
+            if country + ".txt" in listdir(path_to_config_files + "country_ordering/"):
 
                 variants = {}
-                with open(path_to_config_files + "country_ordering/Belgium_variants.txt") as myfile: #TODO: this could be prettier...
-                    belgium_variants = myfile.readlines()
-                for line in belgium_variants:
+                with open(path_to_config_files + "country_ordering/" + country + "_variants.txt") as myfile:
+                    country_variants = myfile.readlines()
+                for line in country_variants:
                     if line == "\n":
                         continue
                     l = line.strip().split("\t")
@@ -591,6 +566,10 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                         arrondissement_to_location[arrondissement] = []
                         continue
 
+                    if line.strip().startswith("-"): #adjust location to county (last location without -)
+                        variants[line.strip()[1:]] = location
+                        continue
+
                     location = line.strip()
                     if location not in arrondissement_to_location[arrondissement]:
                         arrondissement_to_location[arrondissement].append(location)
@@ -598,76 +577,74 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                         if location_to_arrondissement[location] != arrondissement:
                             duplicates[location] = (arrondissement, location_to_arrondissement[location])
                     location_to_arrondissement[location] = arrondissement
-            
-                division_to_correct = []
-                location_to_correct = []
-                div_to_loc = {}
+
                 for division in data[region][country]:
                     
                     for location in data[region][country][division]:
-
 
                         if division == country:
                             continue
                         
                         if division in provinces and location == "":
                             continue
-                        
-                        if division in variants and variants[division] in provinces and location == "":
-                            division_to_correct.append((region, country, division, region, country, variants[division]))
-                            continue
 
+                        # division appears two times in country ordering - advise to pick one
                         if division in duplicates:
                             print("Attention duplicate: " + bold(division) + " found in " + bold(duplicates[division][0]) + " and " + bold(duplicates[division][1]))
-                            print("Suggestion: select one and adjust database by deleting duplicate (check additional info for zip code!)")
-                        
-                        if location in location_to_arrondissement and division == location_to_arrondissement[location]: #consistent with dataset
-                            continue
-                        
-                        if location in location_to_arrondissement and division != location_to_arrondissement[location]:
-                            print("Adjust " + division + " to " + location_to_arrondissement[location] + " for location " + location)
-                            location_to_correct.append((region, country, division, location, region, country, location_to_arrondissement[location], location))
+                            print("Suggestion: check additional info for zip code")
                             continue
 
-
-                        if location in variants and variants[location] in location_to_arrondissement and division == location_to_arrondissement[variants[location]]:
-                            print("Adjust location " + location + " to " + variants[location])
-                            location_to_correct.append((region, country, division, location, region, country, division, variants[location]))
-                            continue
-
-
-                        if location in variants and variants[location] in location_to_arrondissement and division != location_to_arrondissement[variants[location]]:
-                            print("Adjust location " + location + " to " + variants[location])
-                            print("Adjust " + division + " to " + location_to_arrondissement[variants[location]] + " for location " + variants[location])
-                            location_to_correct.append((region, country, division, location, region, country, location_to_arrondissement[variants[location]], variants[location]))
-                            continue
-
-
-                        if division in arrondissement_to_location: # given division is actually an arrondissement => no changes necessary
-                            continue
-
-
-                        if division in variants and variants[division] in arrondissement_to_location: # given division is an arrondissement, but missspelled => simple adjustment
-                            division_to_correct.append((region, country, division, region, country, variants[division]))
-                            continue
-
-                        if division in location_to_arrondissement:
-                            div_to_loc[division] = (region, country, location_to_arrondissement[division])
-                            continue
-
-                        if division in variants and variants[division] in location_to_arrondissement:
-                            #division_to_correct.append((region, country, division, region, country, variants[division])) #first correct to properly spelled division
-                            #div_to_loc[variants[division]] = (region, country, location_to_arrondissement[variants[division]]) #then to location
-                            location_to_correct.append(((region, country, division, location, region, country, location_to_arrondissement[variants[division]], variants[division])))
-                            continue
-
-                        print("Missing division in " + country + " database: " + bold(division))
+                        ### location given
                         if location != "":
-                        	print("Missing location in " + country + " database: " + bold(location))
 
-                data = correct_data(data, "division", division_to_correct)
-                data = correct_data(data, "location", location_to_correct)
-                data = correct_data(data, "div_to_loc", div_to_loc)
+                            # consistent with dataset
+                            if location in location_to_arrondissement and division == location_to_arrondissement[location]:
+                                continue
+
+                            # location given, but with wrong division - adjust to correct division
+                            #if location in location_to_arrondissement and division != location_to_arrondissement[location]:
+                                #print("Wrong division " + bold(division) + " given for location " + bold(location))
+                                #print("Suggestion: add [" + "\t".join([region, country, division, location, region, country, location_to_arrondissement[location], location]) + "] to manual_adjustments.txt")
+                                #continue
+
+                            # location given, but with wrong spelling. Division is correct - adjust to correct location
+                            if location in variants and variants[location] in location_to_arrondissement and division == location_to_arrondissement[variants[location]]:
+                                print("Location " + bold(location) + " should be adjusted to " + bold(variants[location]))
+                                print("Suggestion: add [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, variants[location]]) + "] to manual_adjustments.txt")
+                                continue
+
+                            # location given, but with wrong spelling. Division false - adjust both location and division
+                            #if location in variants and variants[location] in location_to_arrondissement and division != location_to_arrondissement[variants[location]]:
+                                #print("Location " + bold(location) + " should be adjusted to " + bold(variants[location]) + ". Wrong division " + bold(division) + " given for location " + bold(variants[location]))
+                                #print("Suggestion: add [" + "\t".join( [region, country, division, location, region, country, location_to_arrondissement[variants[location]], variants[location]]) + "] to manual_adjustments.txt")
+                                #continue
+
+                        ### location empty
+                        else:
+                            # given division is proper - no changes necessary
+                            if division in arrondissement_to_location:
+                                continue
+
+                            # given division is proper, but misspelled - adjust spelling
+                            if division in variants and (variants[division] in provinces or variants[division] in arrondissement_to_location) and location == "":
+                                print("Division " + bold(division) + " should be adjusted to " + bold(variants[division]))
+                                print("Suggestion: add [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, variants[division], location]) + "] to manual_adjustments.txt")
+                                continue
+
+                            # given division is actually a location
+                            if division in location_to_arrondissement:
+                                print("Given division " + bold(division) + " is actually a location within division " + bold(location_to_arrondissement[division]))
+                                print("Suggestion: add [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, location_to_arrondissement[division], division]) + "] to manual_adjustments.txt")
+                                continue
+
+                            # given division is misspelled and location
+                            if division in variants and variants[division] in location_to_arrondissement:
+                                print("Given division " + bold(division) + " is a misspelled location " + bold(variants[division]) + " within division " + bold(location_to_arrondissement[variants[division]]))
+                                print("Suggestion: add [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, location_to_arrondissement[variants[division]], variants[division]]) + "] to manual_adjustments.txt")
+                                continue
+
+                        print("Missing combination in " + country + " database: " + bold(division + ", " + location))
+
 
     print("\n=============================\n")
     return data
@@ -713,7 +690,7 @@ def manual_adjustments(data):
 
 
 ##### Step 2.1: Apply all known variants stored in an external file variants.txt
-def apply_variants(data): #TODO: currently, the file variants.txt doesn't distinguish between location or division - what if we want to correct only one type, not the other?
+def apply_variants(data):
     variants = read_local_file("variants.txt")
 
     countries_to_switch = []
@@ -851,7 +828,9 @@ def check_false_divisions(data):
                             if location in data[region][country] and location != division:
                                 div_as_loc[location] = (region, country, division)
                                 print("Unknown location found as division: " + bold(location) + " (true division: " + bold(division) + ")")
-                                print("(Suggestion: add " + location + " -> " + division + " to false_divisions.txt)")
+                                print("(Suggestion: add " + "[" + "/".join([region, country, location, ""]) + "\t" + "/".join([region, country, division, location]) + "]" + " to manual_adjustments.txt)")
+                                if list(data[region][country][location]) != [""]:
+                                    print("Attention: location(s) " + ", ".join(data[region][country][location]) + " would be lost.")
 
     print("\n=============================\n")
 
@@ -870,8 +849,12 @@ def check_duplicate(data):
                 for location in data[region][country][division]:
                     if location in duplicates:
                         print("Known duplicate detected: " + bold(location))
-                        location_correct = location + " " + abbreviations[division]
-                        duplicate_locations.append((region, country, division, location, region, country, division, location_correct))
+                        if abbreviations.get(division) is not None:
+                            print("Please add [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location + " " + abbreviations[division]]) + "] to manual_adjustments.txt")
+                            location_correct = location + " " + abbreviations[division]
+                            duplicate_locations.append((region, country, division, location, region, country, division, location_correct))
+                        else:
+                            print("No abbreviation for " + division + ", please add one to abbreviations.txt and rerun.")
     data = correct_data(data, "location", duplicate_locations)
 
     #Check for new cases
@@ -928,7 +911,7 @@ def check_duplicate(data):
                 cruise_ship_duplicates = cruise_ship_duplicates + 1
             else:
                 print("New duplicate location detected: " + bold(location + " (in both " + s + ")"))
-                print("(Suggestion: Add " + location + " to duplicates.txt)")
+                print("Suggestion: Add " + location + " to duplicates.txt")
 
             
             for (division, country, region) in location_to_division[location]:
@@ -995,7 +978,7 @@ def check_for_missing(data):
                             s = s + " (only missing in lat_longs)"
                         else:
                             if name0 != "":
-                                s += " (similar name in same country: " + name0 + " - consider adding " + bold("division\t" + division + "\t" + name0 + "\t(" + region + ", " + country + ")") + " to variants.txt)"
+                                s += " (similar name in same country: " + bold(name0) + " - consider adding " + "[" + "/".join([region, country, division, "*"]) + "\t" + "/".join([region, country, name0, "*"]) + "]" + " to manual_adjustments.txt)"
                             if division in ordering["location"] or division in lat_longs["location"]:
                                 s = s + " (present as location)"
                     if country not in missing["division"]:
@@ -1017,7 +1000,7 @@ def check_for_missing(data):
 
                     if location not in ordering["location"] or location not in lat_longs["location"]:
                         s = bold(location)
-                        name0 = check_similar(hierarchical_ordering[region][country], location, "location") if hierarchical_ordering[region].get(country) is not None else ""
+                        name0 = check_similar(hierarchical_ordering[region][country][division], location, "location") if hierarchical_ordering[region].get(country) is not None and hierarchical_ordering[region][country].get(division) else ""
                         if location not in ordering["location"] and location in lat_longs["location"]:
                             s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
                             if country not in data_clean[region]:
@@ -1030,11 +1013,13 @@ def check_for_missing(data):
                                     data_clean[region][country][division].append(location)
                         else: #only check for additional hints like "similar name" or "present as division" if not auto-added to color_ordering
                             if name0 != "":
-                                s += " (similar name in same country: " + name0 + " - consider adding " + bold("location\t" + location + "\t" + name0 + "\t(" + region + ", " + country + ", " + division + ")") + " to variants.txt)"
+                                s += " (similar name in same division: " + bold(name0) + " - consider adding " + "[" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, name0]) + "]" + " to manual_adjustments.txt)"
                             if location in ordering["location"] and location not in lat_longs["location"]:
                                 s = s + " (only missing in lat_longs)"
                             if location in ordering["division"] or location in lat_longs["division"]:
                                 s = s + " (present as division)"
+                            if country == "USA" and "County" not in location:
+                                s = s + " (correction to County might be necessary using [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location + " County"]) + "]"
 
                         if country not in missing["location"]:
                             missing["location"][country] = {}

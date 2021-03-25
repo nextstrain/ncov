@@ -421,7 +421,7 @@ Italy/INMI2-B/2020
 
 # According to GISAID metadata duplicate entries for 24 yo male in Kalmthout
 Belgium/VDLH-030548/2020
-# Likely duplicate case BAL sample based on metadata: collection same day for hospitalized 51 yo male in Liege with identical viral genome as NP swab Belgium/ULG-9620/2020 
+# Likely duplicate case BAL sample based on metadata: collection same day for hospitalized 51 yo male in Liege with identical viral genome as NP swab Belgium/ULG-9620/2020
 # BALs are few and far between in the Belgian data, increasing likelihood this was a single patient multi-site collection.
 Belgium/ULG-9732/2020
 
@@ -538,7 +538,7 @@ Egypt/CUNCI-HGC6I032/2020
 Egypt/CUNCI-HGC6I033/2020
 
 
-# future collection dates 
+# future collection dates
 Australia/VIC1101/2020
 Australia/VIC1129/2020
 Australia/VIC1130/2020
@@ -581,8 +581,8 @@ Australia/VIC2066/2020
 Australia/VIC2067/2020
 Australia/VIC2087/2020
 Australia/VIC2089/2020
-Timor-Leste/TL04/2020 
-Timor-Leste/TL13/2020 
+Timor-Leste/TL04/2020
+Timor-Leste/TL13/2020
 
 # Collection dates from Jan 6 with divergence resembling a much more recent virus
 Australia/VIC1898/2020
@@ -590,7 +590,7 @@ Australia/VIC1899/2020
 Australia/VIC2012/2020
 Australia/VIC2013/2020
 
-# Per pre-print https://www.biorxiv.org/content/10.1101/2020.07.10.197095v1 samples with 'a' and 'b' suffices from 
+# Per pre-print https://www.biorxiv.org/content/10.1101/2020.07.10.197095v1 samples with 'a' and 'b' suffices from
 # Gujarat are from the same sample but "heterozygous mutations" have been manually separated into two genomes (co-infection was assumed)
 # Genomes with suffix 'a' are the major allele (60-80% of the Ion Torrent reads), so 'b' is being excluded. 1s is also a dupe (resampling)
 India/GBRC1s/2020
@@ -690,9 +690,9 @@ India/GBRC191b/2020
 India/GBRC193b/2020
 India/GBRC195b/2020
 
-# In vertical transmission study (https://journals.lww.com/pidj/Abstract/9000/Probable_Vertical_Transmission_of_SARS_CoV_2.96098.aspx), 
+# In vertical transmission study (https://journals.lww.com/pidj/Abstract/9000/Probable_Vertical_Transmission_of_SARS_CoV_2.96098.aspx),
 # maternal and neonatal SARS-CoV-2 viruses were sequenced at two time points. Later timepoint being excluded.
-England/20110005006/2020 
+England/20110005006/2020
 England/20118044606/2020
 
 
@@ -761,7 +761,7 @@ USA/NY-Wadsworth-10131-01/2020
 #Date before first case confirmed in Nigeria
 Nigeria/ED01-CV155/2020
 
-#Both are identical to reference but taken mid-May - very underdiverged 
+#Both are identical to reference but taken mid-May - very underdiverged
 Oman/MA-RESP-20-B-16263/2020
 Bangladesh/NIB-BCSIR-02/2020Switzerland/BE-UNIBE-149-0641/2020
 
@@ -916,7 +916,7 @@ pangolin/Yunnan/MP20/2020
 CzechRepublic/NRL_9894/2020
 
 # Collection date in the future
-England/C200040625/2020 
+England/C200040625/2020
 
 # Divergence is far more diverse than the very narrow date range given
 # suspect incorrect dates - excluding until can be fixed
@@ -1483,7 +1483,7 @@ UnitedArabEmirates/4285/2020
 Norway/7667/2020
 Spain/MD-IBV-99018532/2020
 
-# Marked as "Longitudinal surveillance (repeat sampling)" in additional info 
+# Marked as "Longitudinal surveillance (repeat sampling)" in additional info
 USA/MA-MGH-03866/2020
 USA/MA-MGH-03872/2020
 USA/MA-MGH-03873/2020
@@ -1540,3 +1540,327 @@ Mexico/ROO-InDRE_243/2020
 USA/PR-CDC-S32/2020
 Serbia/Belgrade-2515952809/2020
 England/LOND-12F7D4C/2021
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1614291542057200
+India/MH-NIV-967/2020
+Shandong/2020C1240126/2020
+Italy/CAM-CRGS-65/2020
+Italy/FVG-ASUFC-23/2021
+Brazil/RJ-9055PL02/2020
+
+# Sample date before clade
+Israel/CVL-1066/2020
+Israel/CVL-1484/2020
+Israel/CVL-1488/2020
+Israel/CVL-1494/2020
+Israel/CVL-1495/2020
+Israel/CVL-1499/2020
+Israel/CVL-1501/2020
+Israel/CVL-1502/2020
+Israel/CVL-1504/2020
+Israel/CVL-1508/2020
+Israel/CVL-1512/2020
+Israel/CVL-1515/2020
+Israel/CVL-1516/2020
+Israel/CVL-1520/2020
+Israel/CVL-1521/2020
+Israel/CVL-1522/2020
+Israel/CVL-1523/2020
+Israel/CVL-1530/2020
+Israel/CVL-1532/2020
+Israel/CVL-1535/2020
+Israel/CVL-1537/2020
+Israel/CVL-1538/2020
+Israel/CVL-1541/2020
+Israel/CVL-1544/2020
+Israel/CVL-1545/2020
+Israel/CVL-1547/2020
+Israel/CVL-1554/2020
+Israel/CVL-1557/2020
+Israel/CVL-1562/2020
+Israel/CVL-1567/2020
+Israel/CVL-1576/2020
+Israel/CVL-1578/2020
+Israel/CVL-1584/2020
+Israel/CVL-1589/2020
+Israel/CVL-1598/2020
+Israel/CVL-1600/2020
+Israel/CVL-1602/2020
+Israel/CVL-1604/2020
+Israel/CVL-1607/2020
+Israel/CVL-1620/2020
+Israel/CVL-1628/2020
+Israel/CVL-1629/2020
+Israel/CVL-1635/2020
+Israel/CVL-1636/2020
+Israel/CVL-1641/2020
+Israel/CVL-1642/2020
+Israel/CVL-1643/2020
+Israel/CVL-1657/2020
+Israel/CVL-1661/2020
+Israel/CVL-1663/2020
+Israel/CVL-1665/2020
+Israel/CVL-1666/2020
+Israel/CVL-1668/2020
+Israel/CVL-1669/2020
+Israel/CVL-1671/2020
+Israel/CVL-1675/2020
+Israel/CVL-1677/2020
+Israel/CVL-1678/2020
+Israel/CVL-1679/2020
+Israel/CVL-1680/2020
+Israel/CVL-1681/2020
+Israel/CVL-1684/2020
+Israel/CVL-1686/2020
+Israel/CVL-2672/2021
+Israel/CVL-2673/2021
+Israel/CVL-2674/2021
+Israel/CVL-2675/2021
+Israel/CVL-2676/2021
+Israel/CVL-2677/2021
+Israel/CVL-2678/2021
+Israel/CVL-2680/2021
+Israel/CVL-2681/2021
+Israel/CVL-2682/2021
+Israel/CVL-2683/2021
+Israel/CVL-2684/2021
+Israel/CVL-2685/2021
+Israel/CVL-2686/2021
+Israel/CVL-2687/2021
+Israel/CVL-2688/2021
+Israel/CVL-2689/2021
+Israel/CVL-2690/2021
+Israel/CVL-2691/2021
+Israel/CVL-2692/2021
+Israel/CVL-2693/2021
+Israel/CVL-2696/2021
+Israel/CVL-2697/2021
+Israel/CVL-2698/2021
+Israel/CVL-2699/2021
+Israel/CVL-2700/2021
+Israel/CVL-2701/2021
+Israel/CVL-2702/2021
+Israel/CVL-2703/2021
+Israel/CVL-2704/2021
+Israel/CVL-2705/2021
+Israel/CVL-2706/2021
+Israel/CVL-2708/2021
+Israel/CVL-2709/2021
+Israel/CVL-2710/2021
+Israel/CVL-2711/2021
+Israel/CVL-2712/2021
+Israel/CVL-2713/2021
+Israel/CVL-2714/2021
+Israel/CVL-2715/2021
+Israel/CVL-2724/2021
+Israel/CVL-2726/2021
+Israel/CVL-2727/2021
+Israel/CVL-2728/2021
+Israel/CVL-2729/2021
+Israel/CVL-2730/2021
+Israel/CVL-2731/2021
+Israel/CVL-2732/2021
+Israel/CVL-2733/2021
+Israel/CVL-2735/2021
+Israel/CVL-2736/2021
+Israel/CVL-2737/2021
+Israel/CVL-2738/2021
+Israel/CVL-2739/2021
+Israel/CVL-2740/2021
+Israel/CVL-2741/2021
+Israel/CVL-2742/2021
+Israel/CVL-2744/2021
+Israel/CVL-2745/2021
+Israel/CVL-2746/2021
+Israel/CVL-2747/2021
+Israel/CVL-2748/2021
+Israel/CVL-2749/2021
+Israel/CVL-2750/2021
+Israel/CVL-2751/2021
+Israel/CVL-2753/2021
+Israel/CVL-2754/2021
+Israel/CVL-2755/2021
+Israel/CVL-2756/2021
+Israel/CVL-2757/2021
+Israel/CVL-2758/2021
+Israel/CVL-2760/2021
+Israel/CVL-2761/2021
+Israel/CVL-2764/2021
+Israel/CVL-2766/2021
+Israel/CVL-2767/2021
+Israel/CVL-2770/2021
+
+# Date before clade
+Australia/NSW4306/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1614649829130500
+Jordan/PHBC7/2021
+
+# Date too early for clade
+USA/NV-NSPHL-338695/2020
+
+# divergence / clade timing; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615004811024400
+SouthAfrica/N00187/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615005029024900
+Brazil/RJ-9055PL03/2020
+Colombia/AMA-INS-VG-612/2021
+
+# Problematic dates, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615197320039000
+USA/WA-AG-10073193/2021
+USA/WA-AG-10077940/2021
+USA/WA-AG-10083605/2021
+USA/WA-AG-10085652/2021
+USA/WA-AG-10087551/2021
+USA/WA-AG-10088997/2021
+USA/WA-AG-10093571/2021
+USA/WA-AG-10093589/2021
+USA/WA-AG-10093590/2021
+USA/WA-AG-10093591/2021
+USA/WA-AG-10093592/2021
+USA/WA-AG-10093594/2021
+USA/WA-AG-10093595/2021
+USA/WA-AG-10093596/2021
+USA/WA-AG-10093597/2021
+USA/WA-AG-10093598/2021
+USA/WA-AG-10093599/2021
+USA/WA-AG-10093600/2021
+USA/WA-AG-10093601/2021
+USA/WA-AG-10093602/2021
+USA/WA-AG-10093608/2021
+USA/WA-AG-10095842/2021
+USA/WA-AG-10096118/2021
+USA/WA-AG-10103025/2021
+USA/WA-AG-10105222/2021
+USA/WA-AG-10106255/2021
+USA/WA-AG-10106322/2021
+Germany/HB-RKI-I-014899/2020
+Germany/BY-RKI-I-013857/2020
+Germany/BY-RKI-I-013858/2020
+Germany/BY-RKI-I-013861/2020
+Germany/BY-RKI-I-013862/2020
+Chile/AR-265171/2020
+
+# Under-diverged, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615230182053300
+Senegal/SN-MBO-201724/2021
+Senegal/SN-MBO-201825/2021
+Senegal/SN-MBO-201781/2021
+Senegal/SN-MBO-201670/2021
+Senegal/SN-MBO-201894/2021
+Senegal/SN-MBO-201902/2021
+Senegal/SN-MBO-201765/2021
+Senegal/SN-MBO-201654/2021
+
+# Over-diverged, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615230568054300
+NorthMacedonia/1236/2020
+NorthMacedonia/1285/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615327203067500
+NorthMacedonia/9109/2021
+Brazil/RJ-9055PL04/2020
+Brazil/RJ-9055PL01/2020
+
+# Identified as duplicates in additional info
+Brazil/PR-FIOCRUZ-10634/2020
+Brazil/RJ-FIOCRUZ-11771A1/2020
+Brazil/RJ-FIOCRUZ-12854/2020
+Brazil/RJ-FIOCRUZ-12887/2020
+Brazil/RJ-FIOCRUZ-12985/2020
+Brazil/RJ-FIOCRUZ-7657/2020
+USA/PR-01222021-811/2021
+
+# large deletions, including in Spike:
+Turkey/22_Ankara_GUMV_50454/2020
+USA/SC-CDC-2-3714451/2020
+
+# too early for clade; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615577473113100
+Austria/CeMM4362/2020
+Austria/CeMM4363/2020
+Spain/CL-MS6922/2020
+
+# too many s1 mutations; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615591129119500
+SriLanka/Genelabs-CA17643/2020
+
+# Sample date before clade 2020-05 (20I/501Y.V1)
+USA/UT-UPHL-2103006954/2020
+USA/UT-UPHL-2103147562/2020
+USA/UT-UPHL-2103760993/2020
+
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615915704035800?thread_ts=1615905803.029600&cid=CTZKJC7PZ
+Japan/PG-10466/2020
+Senegal/64914/2020
+USA/WA-UW-22854/2020
+Uganda/UG111/2020
+Israel/CVL1328/2020
+SouthKorea/KDCA1415/2020
+
+# too many s1 mutations; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615918799038800?thread_ts=1615905803.029600&cid=CTZKJC7PZ
+USA/TX-HMH-MCoV-26196/2021
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616020140009400
+USA/ME-HETL-J1539/2020
+Spain/MD-IBV-99020764/2020
+
+# Sample date before clade
+Belgium/UZA-UA-CV0615326772/2020
+Belgium/UZA-UA-CV0631961262/2020
+USA/NV-NSPHL-NV2025949/2020
+
+# Over-diverged, probably date swap, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616082465020900
+Belgium/UZA-UA-CV2006969709/2020
+
+# Sample date before clade : 2020-02-08 (20G) ; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616180986031500
+USA/OH-ODH-SC1040172/2020
+
+# Sample date before clade
+Australia/NSW4375/2020
+Australia/NSW4379/2020
+USA/NY-Yale-1980/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616203761035600
+Lebanon/LAU-R92/2020
+Lebanon/LAU-R145/2020
+Lebanon/LAU-R204/2020
+Lebanon/LAU-R231/2020
+Lebanon/LAU-R242/2020
+USA/WA-UW-12771/2020
+NorthMacedonia/1282/2020
+Panama/334468/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616542141028700
+Italy/CAM-TIGEM-995/2020
+Ecuador/ZZ-SARS-1/2020
+Peru/LIM-INS-172/2020
+Mexico/CMX-IMSS_K2/2020
+
+# Impossible date or clade, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616586122040500
+Netherlands/NB-EMC-748/2020
+Netherlands/NB-EMC-749/2020
+Netherlands/NB-EMC-810/2020
+Netherlands/NB-EMC-855/2020
+Netherlands/NB-EMC-856/2020
+Netherlands/ZH-EMC-1909/2020
+Netherlands/ZH-EMC-1910/2020
+Netherlands/ZH-EMC-1911/2020
+Netherlands/ZH-EMC-1916/2020
+Netherlands/ZH-EMC-1917/2020
+Netherlands/ZH-EMC-1918/2020
+Netherlands/ZH-EMC-1919/2020
+Netherlands/ZH-EMC-1925/2020
+Netherlands/ZH-EMC-1926/2020
+Netherlands/ZH-EMC-1941/2020
+Netherlands/ZH-EMC-2070/2020
+Netherlands/ZH-EMC-2071/2020
+Netherlands/ZH-EMC-2072/2020
+Netherlands/ZH-EMC-2073/2020
+Netherlands/ZH-EMC-2074/2020
+Netherlands/ZH-EMC-2075/2020
+Netherlands/ZH-EMC-2076/2020
+Netherlands/ZH-EMC-2077/2020
+Netherlands/ZH-EMC-2078/2020
+Netherlands/ZH-EMC-2079/2020
+Netherlands/ZH-EMC-2080/2020
+Netherlands/NB-EMC-750/2020
+Netherlands/NB-EMC-811/2020
+Netherlands/ZH-EMC-1816/2020
+Netherlands/NB-EMC-751/2020

@@ -151,27 +151,30 @@ def check_dates(data, today):
             #suspicious_sample_date[strain] = date
 
         clade = data[id]["Nextstrain_clade"]
-        if clade not in clade_dates:
-            print("Unknown clade " + clade + " for sequence " + id)
+        if clade == "":
+            print("Clade missing for sequence " + id)
         else:
-            clade_day = clade_dates[clade]
-            day_clade = int(clade_day[8:])
-            month_clade = int(clade_day[5:7])
-            year_clade = int(clade_day[:4])
+            if clade not in clade_dates:
+                print("Unknown clade " + clade + " for sequence " + id)
+            else:
+                clade_day = clade_dates[clade]
+                day_clade = int(clade_day[8:])
+                month_clade = int(clade_day[5:7])
+                year_clade = int(clade_day[:4])
 
-            if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
-                suspicious_sample_date[strain] = date + " (" + clade + ")"
-                data.pop(id)
-                continue
+                if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
+                    suspicious_sample_date[strain] = date + " (" + clade + ")"
+                    data.pop(id)
+                    continue
 
 
 
     print("\n----------------------------------------------\n")
-    print("Invalid sample dates (please check whether all are automatically excluded):")
+    print("Invalid sample dates (automatically excluded from total counts):")
     for strain in invalid_sample_date:
         print(strain + ": " + invalid_sample_date[strain])
 
-    print("\nSample date before clade:")
+    print("\nSample date before clade (automatically excluded from total counts):")
     for strain in suspicious_sample_date:
         print(strain + ": " + suspicious_sample_date[strain])
 
@@ -451,7 +454,7 @@ def prepare_tweet(counts, lab_collection):
 
     start_tweet = "Thanks to #opendata sharing by @GISAID, we've updated nextstrain.org/ncov with " + str(
         total) + " new #COVID19 #SARSCoV2 sequences!"
-    char_total = 220
+    char_total = 260
     char_available = char_total - len("Check out the new sequences from on ") - len("(Thanks to )") - len("1/1")
     char_available_first = char_available - len(start_tweet)
 

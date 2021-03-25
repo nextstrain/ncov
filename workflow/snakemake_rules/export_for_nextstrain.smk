@@ -51,6 +51,13 @@ rule export_all_regions:
         metadata = [_get_metadata_by_build_name(build_name).format(build_name=build_name)
                     for build_name in BUILD_NAMES],
         colors = expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
+    benchmark:
+        "benchmarks/export_all_regions.txt"
+    resources:
+        # Memory use scales primarily with the size of the metadata file.
+        # Compared to other rules, this rule loads metadata as a pandas
+        # DataFrame instead of a dictionary, so it uses much less memory.
+        mem_mb=lambda wildcards, input: 5 * int(input.metadata.size / 1024 / 1024)
     conda: config["conda_environment"]
     shell:
         """
@@ -76,6 +83,8 @@ rule mutation_summary:
         mutation_summary = "results/mutation_summary{origin}.tsv"
     log:
         "logs/mutation_summary{origin}.txt"
+    benchmark:
+        "benchmarks/mutation_summary{origin}.txt"
     params:
         outdir = "results/translations",
         basename = "seqs{origin}"
@@ -105,6 +114,8 @@ rule dated_json:
     output:
         dated_auspice_json = "auspice/ncov_{build_name}_{date}.json",
         dated_tip_frequencies_json = "auspice/ncov_{build_name}_{date}_tip-frequencies.json"
+    benchmark:
+        "benchmarks/dated_json_{build_name}_{date}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -138,6 +149,8 @@ rule deploy_to_staging:
     params:
         slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
         s3_staging_url = config["s3_staging_url"]
+    benchmark:
+        "benchmarks/deploy_to_staging.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -169,6 +182,8 @@ rule upload:
         compression = config["S3_DST_COMPRESSION"]
     log:
         "logs/upload_gisaid.txt"
+    benchmark:
+        "benchmarks/upload_gisaid.txt"
     run:
         for fname in input:
             cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)}.{params.compression} | tee -a {log}"

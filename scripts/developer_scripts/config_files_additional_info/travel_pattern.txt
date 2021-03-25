@@ -51,3 +51,11 @@ Work in XXX
 XXX Return
 Tourist from XXX
 XXX resident who was diagnosed in Florianopolis, state of Santa Catarina
+Patient has a history of travel from XXX
+Recent travel to XXX
+From XXX
+With History of Travel: XXX
+Returee from XXX
+Travel History to XXX
+Patient had traveled from XXX
+Return from XXX
