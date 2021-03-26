@@ -1,6 +1,8 @@
 """
-Add column to metadata with the priorities of 'context' sequences
-relative to the 'focal' samples
+Translate pangolineages from CSV -> JSON for node_data
+Note: this should arguably live instead as part of `combine_metadata`,
+but this gets particularly complex given the new multiple-inputs logic.
+So, for now, following the initial suggestion in the issue.
 """
 
 import argparse
