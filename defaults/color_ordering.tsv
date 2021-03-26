@@ -605,8 +605,10 @@ location	Hong Kong
 
 ### Indonesia
 # North Sumatra
+location	Langkat
 location	Binjai
 location	Medan
+location	Simalungun
 location	Mandailing
 
 # South Sumatra
@@ -1603,6 +1605,7 @@ location	Berga
 location	Castellbell I El Vilar
 location	San Vicente de Castellet
 location	Baga
+location	Sant Esteve Sesrovires
 location	Sant Fruitos de Bages
 location	Navas
 location	Torruella de Baix
@@ -1881,6 +1884,7 @@ location	Orthez
 location	Le Haillan
 location	Blaye
 location	Merignac
+location	Pessac
 location	Saintes
 location	Gradignan
 location	Bordeaux
@@ -2027,6 +2031,7 @@ location	Montauban
 location	Cahors
 location	Toulouse
 location	Caraman
+location	Castelnaudary
 location	Albi
 location	Carcassonne
 location	Rodez
@@ -2044,10 +2049,12 @@ location	Saint-Gilles FR
 location	Aurillac
 location	Montlucon
 location	Clermont-Ferrand
+location	Moulins
 location	Vichy
 location	Le Puy-en-Velay
 location	Roanne
 location	Mazet-Saint-Voy
+location	Saint-Just-Saint-Rambert
 location	Andrézieux-Bouthéon
 location	Saint-Etienne
 location	Tarare
@@ -2059,6 +2066,7 @@ location	Craponne
 location	Saint-Genis-Les-Ollieres
 location	Villefranche-sur-Saône
 location	Chaponost
+location	Montelimar
 location	Givors
 location	Roussillon
 location	Pierre-Bénite
@@ -2070,6 +2078,7 @@ location	Valence
 location	Bron
 location	Saint-Priest
 location	Decines-Charpieu
+location	Romans-sur-Isere
 location	Saint-Jean-de-Bournay
 location	Bourg-en-Bresse
 location	Bourgoin-Jallieu
@@ -2094,6 +2103,7 @@ location	Vienne
 location	Nevers
 location	St Clément
 location	Auxerre
+location	Autun
 location	Montcenis
 location	Macon
 location	Chalon sur Saone
@@ -2176,7 +2186,9 @@ location	La Penne-sur-Huveaune
 location	Aubagne
 location	Manosque
 location	Sanary-sur-Mer
+location	La Seyne-sur-Mer
 location	Toulon
+location	Gap
 location	Provence
 location	Var
 location	Draguignan
@@ -2186,6 +2198,7 @@ location	Frejus
 location	Saint-Vallier-de-Thiey
 location	Mouans-Sartoux
 location	Cannes
+location	Biot
 location	Antibes
 location	Villeneuve-Loubet
 location	Cagnes-sur-Mer
@@ -2269,6 +2282,7 @@ location	Varsenare
 location	Sint-Andries
 location	Assebroek
 location	Sint-Kruis
+location	Moerkerke
 location	Damme
 location	Blankenberge
 location	Zeebrugge
@@ -2942,6 +2956,7 @@ location	Boncelles
 location	Seraing
 location	Ougrée
 location	Fléron
+location	Retinne
 location	Soumagne
 location	Bressoux
 location	Saive
@@ -2999,11 +3014,16 @@ location	Büllingen
 # St Eustatius
 location	St Eustatius
 
+# Zeeland
+location	Middelburg
+
 # South Holland
 location	Delft
 location	Nootdorp
 location	Rotterdam
+location	Leiden
 location	Dordrecht
+location	Molenlanden
 location	Hardinxveld Giessendam
 
 # North Holland
@@ -3017,6 +3037,7 @@ location	Katwoude
 location	Gooise Meren
 location	Wervershoof
 location	Naarden
+location	Blaricum
 
 # Utrecht
 location	Overvecht
@@ -3026,25 +3047,25 @@ location	Zeist
 location	Amersfoort
 
 # North Brabant
-location	Cranendonck
-location	Valkenswaard
-location	Bergeijk
-location	Heeze-Leende
-location	Someren
-location	Veldhoven
-location	Eindhoven
-location	Helmond
-location	Best
-location	Milheeze
-location	Oisterwijk
-location	Tilburg
-location	Loon op zand
-location	Heeswijk Dinther
-location	Berlicum
-location	Oss
 location	Nieuwendijk
+location	Tilburg
 location	Andel
-location	Blaricum
+location	Loon op Zand
+location	Oisterwijk
+location	Bladel
+location	Bergeijk
+location	Veldhoven
+location	Best
+location	Berlicum
+location	Valkenswaard
+location	Heeswijk Dinther
+location	Eindhoven
+location	Oss
+location	Heeze-Leende
+location	Cranendonck
+location	Helmond
+location	Someren
+location	Milheeze
 
 # Flevoland
 location	Zeewolde
@@ -3077,11 +3098,13 @@ location	Roermond
 location	Leudal
 location	Weert NL
 location	Nederweert
+location	Peel en Maas
 location	Venlo
 location	Horst Aan de Maas
 location	Venray
 
 # Gelderland
+location	Wijchen
 location	Nijmegen
 location	Arnhem
 location	Apeldoorn
@@ -3345,6 +3368,9 @@ location	Trondheim
 ### Denmark
 # Faroe Islands
 location	Faroe Islands
+
+# Hovedstaden
+location	Copenhagen
 
 ### Liechtenstein
 # Eschen
@@ -4225,6 +4251,8 @@ location	Livadeia
 
 ### Lithuania
 # Klaipedos Apskritis
+location	Silute
+location	Palanga
 location	Kretingos rajono savivaldybė
 
 # Kauno Apskritis
@@ -6642,7 +6670,6 @@ location	Columbus OH
 location	Hocking County
 location	Richland County OH
 location	Cuyahoga County
-location	Summit County
 location	Summit County OH
 
 # Florida
@@ -6965,8 +6992,11 @@ division	Afghanistan
 division	Kabul
 
 ### Kazakhstan
+division	Atyrau Region
+division	Aktobe Region
 division	Kazakhstan
 division	Nur-Sultan
+division	Almaty
 
 ### Pakistan
 division	Karachi
@@ -7234,6 +7264,7 @@ division	Hokuriku
 division	Kanto
 division	Kanagawa
 division	Saitama
+division	Tochigi
 division	Japan
 division	Tokyo
 division	Chiba
@@ -7564,6 +7595,10 @@ division	Kenya
 division	Addis Ababa
 division	Ethiopia
 
+### Union of the Comoros
+division	Moheli
+division	Ngazidja
+
 ### Madagascar
 division	Analamanga
 division	Toamasina
@@ -7735,7 +7770,6 @@ division	Verviers
 ### Netherlands
 division	St Eustatius
 division	Zeeland
-division	Leiden
 division	South Holland
 division	North Holland
 division	Utrecht
@@ -7806,7 +7840,6 @@ division	Denmark
 division	Nordjylland
 division	Sjaelland
 division	Hovedstaden
-division	Copenhagen
 
 ### Liechtenstein
 division	Balzers
@@ -7876,19 +7909,29 @@ division	Malta
 
 ### Slovenia
 division	Kranjska Gora
+division	Obalnokraska
 division	Jesenice
 division	Ziri
+division	Gorenjska
 division	Zelezniki
 division	Skofija Loka
+division	Primorskonotranjska
 division	Kranj
 division	Slovenia
+division	Osrednjeslovenska
 division	Ljubljana
 division	Kamnik
+division	Jugovzhodna
 division	Trebnje
+division	Koroska
 division	Velenje
 division	Novo Mesto
 division	Celje
+division	Savinjska
+division	Posavska
+division	Podravska
 division	Murska Sobota
+division	Pomurska
 
 ### Sweden
 division	Skane
@@ -8192,7 +8235,6 @@ division	Radviliskio Apskritis
 division	Prienai
 division	Kedainiai
 division	Lithuania
-division	Alytus
 division	Alytaus Apskritis
 division	Kauno Apskritis
 division	Jonavos Apskritis
@@ -8897,6 +8939,7 @@ country	Mozambique
 country	Tanzania
 country	Kenya
 country	Ethiopia
+country	Union of the Comoros
 country	Madagascar
 country	Somalia
 country	Mauritius
