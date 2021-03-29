@@ -1707,7 +1707,6 @@ Brazil/RJ-9055PL03/2020
 Colombia/AMA-INS-VG-612/2021
 
 # Problematic dates, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1615197320039000
-USA/MT-CDC-2-3850606/2020
 USA/WA-AG-10073193/2021
 USA/WA-AG-10077940/2021
 USA/WA-AG-10083605/2021
@@ -1812,3 +1811,60 @@ Belgium/UZA-UA-CV2006969709/2020
 
 # Sample date before clade : 2020-02-08 (20G) ; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616180986031500
 USA/OH-ODH-SC1040172/2020
+
+# Sample date before clade
+Australia/NSW4375/2020
+Australia/NSW4379/2020
+USA/NY-Yale-1980/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616203761035600
+Lebanon/LAU-R92/2020
+Lebanon/LAU-R145/2020
+Lebanon/LAU-R204/2020
+Lebanon/LAU-R231/2020
+Lebanon/LAU-R242/2020
+USA/WA-UW-12771/2020
+NorthMacedonia/1282/2020
+Panama/334468/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616542141028700
+Italy/CAM-TIGEM-995/2020
+Ecuador/ZZ-SARS-1/2020
+Peru/LIM-INS-172/2020
+Mexico/CMX-IMSS_K2/2020
+
+# Impossible date or clade, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616586122040500
+Netherlands/NB-EMC-748/2020
+Netherlands/NB-EMC-749/2020
+Netherlands/NB-EMC-810/2020
+Netherlands/NB-EMC-855/2020
+Netherlands/NB-EMC-856/2020
+Netherlands/ZH-EMC-1909/2020
+Netherlands/ZH-EMC-1910/2020
+Netherlands/ZH-EMC-1911/2020
+Netherlands/ZH-EMC-1916/2020
+Netherlands/ZH-EMC-1917/2020
+Netherlands/ZH-EMC-1918/2020
+Netherlands/ZH-EMC-1919/2020
+Netherlands/ZH-EMC-1925/2020
+Netherlands/ZH-EMC-1926/2020
+Netherlands/ZH-EMC-1941/2020
+Netherlands/ZH-EMC-2070/2020
+Netherlands/ZH-EMC-2071/2020
+Netherlands/ZH-EMC-2072/2020
+Netherlands/ZH-EMC-2073/2020
+Netherlands/ZH-EMC-2074/2020
+Netherlands/ZH-EMC-2075/2020
+Netherlands/ZH-EMC-2076/2020
+Netherlands/ZH-EMC-2077/2020
+Netherlands/ZH-EMC-2078/2020
+Netherlands/ZH-EMC-2079/2020
+Netherlands/ZH-EMC-2080/2020
+Netherlands/NB-EMC-750/2020
+Netherlands/NB-EMC-811/2020
+Netherlands/ZH-EMC-1816/2020
+Netherlands/NB-EMC-751/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616712320056000
+Malaysia/7970/2020
+Turkey/Ankara_GUMV_10711/2020

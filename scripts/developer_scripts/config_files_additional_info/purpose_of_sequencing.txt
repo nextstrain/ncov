@@ -41,3 +41,4 @@ Baseline Surveillance	Not S dropout
 SGTF Screening	S dropout
 S-dropout	S dropout
 SGTF screen	S dropout
+SGTF	S dropout
