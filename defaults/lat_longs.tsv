@@ -943,6 +943,7 @@ location	Candos	-20.27620758365396	57.479395845815944
 location	Canet d'en Berenguer	39.6806	-0.2192
 location	Canet de Mar	41.5900933	2.5777998
 location	Cañete	-12.8209798	-76.3594255
+location	Canillas de Rio Tuerto	42.3994057	-2.8412029
 location	Cannes	43.5515198	7.0134418
 location	Canoas BR	-29.9216045	-51.1799525
 location	Canoas CR	8.56429535	-82.88464012507875
@@ -967,6 +968,7 @@ location	Carboneras	36.9968699	-1.8946552
 location	Carcaixent	39.1218973	-0.4467128
 location	Carcassonne	43.2130358	2.3491069
 location	Cardedeu	41.6385167	2.3558408
+location	Cardenas	42.3743627	-2.767099
 location	Cardiff	51.476291	-3.178964
 location	Cardona	41.9142758	1.68133
 location	Cardoso	-20.080447	-49.9139767
@@ -1720,6 +1722,7 @@ location	Focsani	45.697572	27.188348
 location	Fogars de la Selva	41.7342133	2.6728108
 location	Foggia	41.50281055	15.452899609627726
 location	Folgensbourg	47.5505154	7.4464337
+location	Foncea	42.6149845	-3.0390692
 location	Fond Du Lac County	43.739156	-88.479198
 location	Fondettes	47.4036631	0.5961846
 location	Fonelas	37.4137	-3.1742
@@ -1794,6 +1797,7 @@ location	Gaia	41.9160989	1.9255287
 location	Galapagar	40.5774992	-4.0037748
 location	Galdar	28.1442408	-15.6542506
 location	Gales Ferry	41.4298302	-72.0820131
+location	Galilea	42.3475858	-2.2370324
 location	Gallatin County	37.7509507	-88.2264519
 location	Gallatin County IL	37.7509507	-88.2264519
 location	Gallatin County MT	45.4868491	-111.1967693
@@ -2035,6 +2039,7 @@ location	Gulpen-Wittem	50.79962605	5.890529675273097
 location	Gulshan	23.7925	90.4078
 location	Gundelfingen	48.032914950000006	7.893234691631104
 location	Gunskirchen	48.1334587	13.9427447
+location	Guntur	16.2915189	80.4541588
 location	Gunzwil	47.2116702	8.1800549
 location	Gurugram	28.4646148	77.0299194
 location	Gurupi	-11.72794	-49.068046
@@ -2471,6 +2476,7 @@ location	Kaarst	51.226675	6.6193924
 location	Kabirhat	22.8220772	91.1170328
 location	Kachkanar	58.6981697	59.4810114
 location	Kacik	54.1679868	18.9557149
+location	Kadapa	14.4752936	78.8216861
 location	Kadi	23.294922	72.333046
 location	Kafr Kanna	32.7516395	35.3464804
 location	Kaggevinne	50.980233	5.021191
@@ -2536,6 +2542,7 @@ location	Kegalle	7.2532006	80.3454132
 location	Kelmis	50.714674	6.023042
 location	Kematen in Tirol	47.253643	11.273540
 location	Kemerovo	55.355125	86.087234
+location	Kempton Park	-26.0964372	28.2336325
 location	Kendall County	41.5853584	-88.4319488
 location	Kendall County IL	41.5853584	-88.4319488
 location	Kendall County TX	29.943885	-98.7258845
@@ -2650,7 +2657,6 @@ location	Kortemark	51.0314599	3.036868308654011
 location	Kortenaken	50.906611	5.0622937
 location	Kortenberg	50.887699	4.567473
 location	Kortessem	50.8600026	5.3865719
-location	Koscierzyna	54.1210215	17.9781656
 location	Kościerzyna	54.1210215	17.9781656
 location	Kosmonosy	50.4389828	14.9305091
 location	Kostelec N. Černými Lesy	49.9996259	14.851957749764026
@@ -2662,7 +2668,6 @@ location	Kowale	52.8641915	22.9785478
 location	Kowanowko	52.6734543	16.8534353
 location	Koziegłowy	52.4450201	16.992239
 location	Kozłowo	53.3071759	20.2931276
-location	Kozlowo	53.3071759	20.2931276
 location	Kozmodemyansk	56.3324346	46.5462855
 location	Kraainem	50.8611	4.4593
 location	Kragujevac	44.0125745	20.91877
@@ -3589,6 +3594,7 @@ location	Neerpelt	51.228889	5.431667
 location	Neerwinden	50.765746	5.0368679
 location	Negreira	42.9105	-8.7363
 location	Neiva	2.933160	-75.277542
+location	Nellore	14.4493717	79.9873763
 location	Nelson Mandela Bay	-33.98916975	25.672838422792537
 location	Nemšová	48.9646151	18.1175713
 location	Nendeln	47.1973842	9.5430689
@@ -4212,6 +4218,7 @@ location	Pune	18.6452489	73.92318563785392
 location	Punta Arenas	-53.162664	-70.9080552
 location	Puntarenas	9.9780257	-84.831251
 location	Purasca	45.9779043	8.8510918
+location	Puriscal	9.733365599999999	-84.4094350689388
 location	Purral	9.9552442	-84.0322962
 location	Purwakarta	-6.5607313	107.4439799
 location	Purwokerto	-7.31924965	112.17989315068222
@@ -5387,6 +5394,7 @@ location	Tres Rios	9.9080401	-83.9872
 location	Tres Rios BR	-22.1167884	-43.2087226
 location	Tres Rios CR	9.9080401	-83.9872
 location	Treviso	45.806691349999994	12.206315763116372
+location	Tricio	42.4019281	-2.7183425
 location	Trieste	45.6504806	13.7931263
 location	Trimmis	46.8970804	9.5634251
 location	Trinity County	31.0834452	-95.1219348
@@ -5533,6 +5541,7 @@ location	Vargem Grande Paulista	-23.599338	-47.022038
 location	Varsenare	51.1900214	3.1433949
 location	Vasai	19.439884550000002	72.8803834000775
 location	Vavrecka	49.3855959	19.4674903
+location	Vazquez De Coronado	10.0301109	-83.9519851
 location	Vedra	42.7765527	-8.4821723
 location	Veerle	51.068963	4.986866
 location	Vegas del Genil	37.1701	-3.6978
@@ -5617,6 +5626,7 @@ location	Villach-Land	46.553864250000004	13.828515867881872
 location	Village-Neuf	47.6054816	7.5696755
 location	Villajoyosa	38.5064035	-0.2309882
 location	Villamediana de Iregua	42.4259906	-2.4187939
+location	Villanueva de Cameros	42.1671295	-2.6509038
 location	Villanueva de la Jara	39.4403	-1.9551
 location	Villanueva de la Vera	40.1290938	-5.4620958
 location	Villaobispo de las Regueras	42.6132607	-5.5486764
@@ -5930,6 +5940,7 @@ location	Zaragoza	41.6488	-0.8891
 location	Zarasų rajono savivaldybė	55.73037705	26.038793538617405
 location	Zarauz	43.2834873	-2.1723467
 location	Zarechny	56.8149706	61.3205936
+location	Zarraton	42.5152122	-2.8820043
 location	Zarren	51.0185167	2.9585072
 location	Zaventem	50.8806207	4.4730008
 location	Zavolzhsk	57.4909934	42.13964

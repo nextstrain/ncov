@@ -223,6 +223,9 @@ location	Kolar
 
 # Andhra Pradesh
 location	Kurnool
+location	Kadapa
+location	Nellore
+location	Guntur
 
 # Telangana
 location	Jogulamba Gadwal
@@ -895,13 +898,14 @@ location	Namakwa
 location	Siyathemba
 
 # Eastern Cape
-location	Sarah Baartman
-location	Middleburg
 location	Nelson Mandela Bay
-location	Joe Gqabi
-location	Amathole
 location	Buffalo City
+location	Sarah Baartman
+location	Amathole
 location	Chris Hani
+location	Middleburg
+location	Joe Gqabi
+location	Kempton Park
 
 # Gauteng
 location	West Rand
@@ -1369,22 +1373,28 @@ location	Almansa
 
 # La Rioja
 location	Leiva
+location	Foncea
 location	Ezcaray
 location	Ojacastro
 location	Santo Domingo de la Calzada
 location	Casalarreina
 location	Anguciana
 location	Ciruena
+location	Zarraton
 location	Haro
+location	Canillas de Rio Tuerto
 location	Alesanco
 location	Cordovin
 location	Badaran
+location	Cardenas
 location	Banos de Rio Tobia
 location	San Vicente de la Sonsierra
 location	Najera
 location	Hormilleja
 location	Camprovin
+location	Tricio
 location	Aleson
+location	Villanueva de Cameros
 location	Torrecilla en Cameros
 location	Navarrete
 location	Fuenmayor
@@ -1398,6 +1408,7 @@ location	Clavijo
 location	Puente Madre
 location	Villamediana de Iregua
 location	Agoncillo
+location	Galilea
 location	Ausejo
 location	Herce
 location	Alcanadre
@@ -2461,9 +2472,6 @@ location	Saisinne
 location	Givry
 location	Havré
 
-# Hainaut
-location	Houdeng-Gœgnies
-
 # Soignies
 location	Neufvilles
 location	Casteau
@@ -2514,6 +2522,7 @@ location	Haulchin
 location	Maurage
 location	Strépy-Bracquegnies
 location	Trivières
+location	Houdeng-Gœgnies
 location	Binche
 location	Morlanwelz
 
@@ -4087,7 +4096,6 @@ location	Lichnowy
 location	Lebork
 location	Gozdawa
 location	Kościerzyna
-location	Koscierzyna
 location	Kartuzy
 location	Jeleńska Huta
 location	Wejherowo
@@ -4160,7 +4168,6 @@ location	Bialczyn
 location	Lodwigowo
 location	Komorniki WN
 location	Swiatki
-location	Kozlowo
 location	Kozłowo
 location	Sławka Mała
 location	Lysakowo
@@ -6064,19 +6071,21 @@ location	Canoas CR
 location	La Cuesta
 
 # Alajuela
+location	Guatuso
 location	Orotina
+location	Santiago (Alajuela)
+location	San Carlos CR
+location	San Carlos
+location	Quesada
+location	Cutris
+location	Grecia
+location	San Roque CR
 location	Guacima
 location	San Rafael de Alajuela
 location	Alajuela
-location	Santiago (Alajuela)
-location	Grecia
 location	Sabanilla
 location	San Isidro (Alajuela)
-location	San Roque CR
-location	Quesada
-location	San Carlos CR
-location	Cutris
-location	Guatuso
+location	San Ramon CR
 
 # Heredia
 location	Santo Domingo CR
@@ -6092,6 +6101,7 @@ location	Puerto Viejo
 location	Sarapiqui
 
 # San Jose
+location	Puriscal
 location	Barbacoas
 location	Picagres
 location	Santiago de Puriscal
@@ -6124,6 +6134,7 @@ location	San Jerónimo
 location	Granadilla
 location	Moravia
 location	Goicoechea
+location	Vazquez De Coronado
 location	San Isidro de El General
 location	Perez Zeledon
 
