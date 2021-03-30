@@ -1045,6 +1045,33 @@ rule tip_frequencies:
             --output {output.tip_frequencies_json} 2>&1 | tee {log}
         """
 
+
+rule delta_frequency:
+    input:
+        tree="results/{build_name}/tree.nwk",
+        frequencies="results/{build_name}/tip-frequencies.json",
+    output:
+        node_data="results/{build_name}/delta_frequency.json"
+    benchmark:
+        "benchmarks/delta_frequency_{build_name}.txt"
+    conda:
+        config["conda_environment"]
+    log:
+        "logs/delta_frequency_{build_name}.txt"
+    params:
+        delta_pivots=config["delta_frequency"]["delta_pivots"],
+    resources:
+        mem_mb=256
+    shell:
+        """
+        python3 scripts/calculate_delta_frequency.py \
+            --tree {input.tree} \
+            --frequencies {input.frequencies} \
+            --delta-pivots {params.delta_pivots} \
+            --output {output.node_data} 2>&1 | tee {log}
+        """
+
+
 rule nucleotide_mutation_frequencies:
     message: "Estimate nucleotide mutation frequencies"
     input:
@@ -1112,7 +1139,8 @@ def _get_node_data_by_wildcards(wildcards):
         rules.rename_subclades.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
-        rules.traits.output.node_data
+        rules.traits.output.node_data,
+        rules.delta_frequency.output.node_data
     ]
 
     if "use_nextalign" in config and config["use_nextalign"]:
