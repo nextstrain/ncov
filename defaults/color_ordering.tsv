@@ -1689,6 +1689,7 @@ location	Lliça de Vall
 location	Montmelo
 location	Badalona
 location	Aiguafreda
+location	Santa Maria de Martorelle
 location	Vic
 location	L'Ametlla del Valles
 location	Torelló
@@ -1706,6 +1707,7 @@ location	Granollers
 location	Alella
 location	Corro d'Avall
 location	Llerona
+location	Vallromanes
 location	El Masnou
 location	Teia
 location	La Roca del Valles
@@ -1838,6 +1840,7 @@ location	Warwickshire
 ### France
 # Martinique
 location	Fort-de-France
+location	Schoelcher
 
 # French Guiana
 location	Cayenne GF
@@ -1853,6 +1856,7 @@ location	Lannion
 location	Lorient
 location	Saint Pierre Quiberon
 location	Paimpol
+location	Pontivy
 location	Noyal Pontivy
 location	Etables sur Mer
 location	Arradon
@@ -1864,6 +1868,7 @@ location	Sene
 location	Cayenne BRE
 location	Dinan
 location	Saint Malo
+location	Tinteniac
 location	Melesse
 location	Saint Gregoire
 location	Noyal Chatillon sur Seiche
@@ -1875,10 +1880,12 @@ location	Rennes
 # Pays de la Loire
 location	Saint Nazaire
 location	Saint-Gilles-Croix-de-Vie
+location	Challans
 location	Les Sables D'Olonne
 location	Saint Herblain
 location	Nantes
 location	La Roche-sur-Yon
+location	Luçon
 location	Cholet
 location	Laval
 location	Val de Loire
@@ -2182,6 +2189,7 @@ location	Ottonville
 location	Ham Sous Varsberg
 location	Munster
 location	Lorraine
+location	Urbes
 location	Spicheren
 location	Sarreguemines
 location	Thann
@@ -2195,16 +2203,20 @@ location	Vieux Ferette
 location	Altkirch
 location	Liepvre
 location	Ingersheim
+location	Mulhouse
 location	Meyenheim
 location	Ensisheim
 location	Franken
 location	Reguisheim
 location	Colmar
 location	Baldersheim
+location	Rixheim
 location	Folgensbourg
 location	Bartenheim
 location	Leymen
+location	Kembs
 location	Hegenheim
+location	Rosenau
 location	Biesheim
 location	Village-Neuf
 location	Huningue
@@ -2279,6 +2291,7 @@ location	Kortemark
 # Ieper
 location	Poperinge
 location	Vlamertinge
+location	Zillebeke
 location	Langemark-Poelkapelle
 location	Langemark
 location	Zonnebeke
@@ -2304,6 +2317,7 @@ location	Bekegem
 
 # Roeselare
 location	Staden
+location	Westrozebeke
 location	Moorslede
 location	Hooglede
 location	Dadizele
@@ -2315,6 +2329,7 @@ location	Ingelmunster
 # Brugge
 location	Torhout
 location	Ruddervoorde
+location	Veldegem
 location	Aartrijke
 location	Beernem
 location	Zedelgem
@@ -2366,6 +2381,7 @@ location	Dentergem
 # Tournai-Mouscron
 location	Ploegsteert
 location	Warneton
+location	Houthem
 location	Comines-Warneton
 location	Comines
 location	Luingne
@@ -2458,6 +2474,7 @@ location	Baudour
 location	Colfontaine
 location	Bauffe
 location	Quaregnon
+location	La Bouverie
 location	Frameries
 location	Erbaut
 location	Flénu
@@ -2476,6 +2493,7 @@ location	Havré
 location	Neufvilles
 location	Casteau
 location	Horrues
+location	Steenkerque
 location	Naast
 location	Le Roeulx
 location	Braine-le-Comte
@@ -2488,6 +2506,7 @@ location	Seneffe
 
 # Aalst
 location	Geraardsbergen
+location	Ninove
 location	Herzele
 location	Denderleeuw
 location	Welle
@@ -2522,12 +2541,14 @@ location	Haulchin
 location	Maurage
 location	Strépy-Bracquegnies
 location	Trivières
-location	Houdeng-Gœgnies
+location	Houdeng-Goegnies
+location	Battignies
 location	Binche
 location	Morlanwelz
 
 # Thuin
 location	Chimay
+location	Barbençon
 location	Fontaine-Valmont
 location	Nalinnes
 location	Lobbes
@@ -2536,6 +2557,7 @@ location	Anderlues
 # Nivelles
 location	Rebecq
 location	Tubize
+location	Clabecq
 location	Ittre
 location	Braine-le-Château
 location	Ophain-Bois-Seigneur-Isaac
@@ -2549,6 +2571,7 @@ location	Loupoigne
 location	Genappe
 location	Lasne
 location	La Hulpe
+location	Sart-Dames-Avelines
 location	Genval
 location	Rixensart
 location	Villers-la-Ville
@@ -2597,7 +2620,6 @@ location	Neder-Over-Heembeek
 
 # Antwerpen
 location	Berchem
-location	Buitenland
 location	Berendrecht - Zandvliet - Lillo
 location	Zwijndrecht
 location	Niel
@@ -2651,6 +2673,7 @@ location	Oostmalle
 location	Shape
 location	Herne
 location	Oetingen
+location	Liedekerke
 location	Roosdaal
 location	Affligem
 location	Sint-Katherina-Lombeek
@@ -2663,6 +2686,7 @@ location	Lembeek
 location	Merchtem
 location	Halle
 location	Sint-Pieters-Leeuw
+location	Buizingen
 location	Itterbeek
 location	Dilbeek
 location	Groot-Bijgaarden
@@ -2671,6 +2695,7 @@ location	Huizingen
 location	Relegem
 location	Ruisbroek
 location	Londerzeel
+location	Dworp
 location	Wemmel
 location	Beersel
 location	Wolvertem
@@ -2716,12 +2741,14 @@ location	Luttre
 location	Marchienne-au-Pont
 location	Marcinelle
 location	Jumet
+location	Lodelinsart
 location	Gosselies
 location	Couillet
 location	Ransart
 location	Montignies-sur-Sambre
 location	Mellet
 location	Gilly
+location	Joncret
 location	Bouffioulx
 location	Châtelineau
 location	Châtelet
@@ -2810,6 +2837,7 @@ location	Lubbeek
 location	Nieuwrode
 location	Meldert
 location	Boutersem
+location	Roosbeek
 location	Aarschot
 location	Langdorp
 location	Sint-Joris-Winge
@@ -2852,6 +2880,7 @@ location	Rummen
 location	Belgrade
 location	Arbre
 location	Ligny
+location	Sombreffe
 location	Boignée
 location	Sambreville
 location	Arsimont
@@ -2946,6 +2975,8 @@ location	Yernée-Fraineux
 # Waremme
 location	Acosse
 location	Hannut
+location	Braives
+location	Omal
 location	Berloz
 location	Lamine
 
@@ -2976,14 +3007,12 @@ location	Kuringen
 location	Zonhoven
 location	Diepenbeek
 location	Genk
+location	Waterschei-Zwartberg
 location	As
 location	Zutendaal
 
 # Marche-en-Famenne
 location	Hotton
-
-# Limburg BE
-location	Waterschei-Zwartberg
 
 # Neufchâteau
 location	Tellin
@@ -3004,10 +3033,12 @@ location	Hoeselt
 location	's Herenelderen
 location	Bilzen
 location	Genoelselderen
+location	Millen
 location	Riemst
 location	Gellik
 location	Lanaken
 location	Rekem
+location	Opgrimbie
 location	Maasmechelen
 location	Eisden
 location	Uikhoven
@@ -3020,23 +3051,24 @@ location	Dampicourt
 location	Valansart
 
 # Liège
-location	Harzé
-location	Dolembreux
-location	Boncelles
+location	Flémalle
+location	Bierset
+location	Ans
 location	Seraing
+location	Boncelles
 location	Ougrée
+location	Voroux-lez-Liers
+location	Bressoux
+location	Herstal
+location	Bassenge
+location	Dolembreux
+location	Wandre
+location	Harzé
 location	Fléron
+location	Saive
 location	Retinne
 location	Soumagne
-location	Bressoux
-location	Saive
-location	Bierset
-location	Wandre
-location	Ans
-location	Herstal
-location	Voroux-lez-Liers
 location	Dalhem
-location	Bassenge
 
 # Maaseik
 location	Lommel
@@ -3051,7 +3083,6 @@ location	Achel
 location	Grote-Brogel
 location	Hamont-Achel
 location	Meeuwen-Gruitrode
-location	Meeuwen
 location	Kaulille
 location	Hamont
 location	Oudsbergen
@@ -3060,7 +3091,9 @@ location	Opglabbeek
 location	Bree
 location	Neeroeteren
 location	Dilsen
+location	Lanklaar
 location	Dilsen-Stokkem
+location	Molenbeersel
 location	Kinrooi
 location	Stokkem
 location	Kessenich
@@ -3204,17 +3237,22 @@ location	Renens
 location	Lutry CH
 
 # Fribourg
-location	Le Mouret
+location	Portalban
 location	Fribourg
+location	Le Mouret
 
 # Jura
+location	Fahy
 location	Saignelegier
 location	Boncourt
+location	Courtemautruy
+location	Bassecourt
 location	Courtetelle
 location	Delémont
 location	Courrendlin
 
 # Solothurn
+location	Kleinlützel
 location	Rodersdorf
 location	Metzerlen
 location	Flüh
@@ -3238,6 +3276,9 @@ location	Kestenholz
 location	Starrkirch-Wil
 location	Dulliken
 
+# Valais
+location	Visp
+
 # Bern
 location	Orvin
 location	Ipsach
@@ -3248,9 +3289,11 @@ location	Biel-Bienne
 location	Bellmund
 location	Moutier
 location	Gasel
+location	Spiegel B. Bern
 location	Bern
 location	Bolligen
 location	Burgdorf
+location	Steffisburg
 location	Oberhofen
 location	Wasen Im Emmental
 location	Goldswil
@@ -3265,6 +3308,7 @@ location	Roggenburg
 location	Röschenz
 location	Dittingen
 location	Laufen
+location	Wahlen B. Laufen
 location	Blauen
 location	Zwingen
 location	Allschwil
@@ -3288,13 +3332,18 @@ location	Lupsingen
 location	Pratteln
 location	Frenkendorf
 location	Seltisberg
+location	Augst
 location	Füllinsdorf
 location	Liestal
 location	Bubendorf
 location	Oberdorf
+location	Lausen
+location	Itingen
 location	Zunzgen
 location	Sissach
+location	Eptingen
 location	Gelterkinden
+location	Buus
 location	Ormalingen
 location	Rothenfluh
 
@@ -3308,6 +3357,7 @@ location	Rothrist
 location	Aarburg
 location	Wallbach
 location	Oftringen
+location	Hellikon
 location	Wegenstetten
 location	Zofingen
 location	Sisseln
@@ -3323,12 +3373,31 @@ location	Doettingen
 location	Untersiggenthal
 location	Spreitenbach
 
+# Obwalden
+location	Sarnen
+
 # Lucerne
+location	Reiden
+location	Schötz
 location	Grosswangen
 location	Wolhusen
 location	Gunzwil
+location	Emmenbrücke
+location	Hämikon
+location	Kriens
+location	Hochdorf
+location	Luzern
 location	Horw
 location	Meggen
+location	Weggis
+
+# Nidwalden
+location	Stansstad
+location	Stans
+
+# Zug
+location	Zug
+location	Unterägeri
 
 # Uri
 location	Bauen
@@ -3371,6 +3440,7 @@ location	Küssnacht Am Rigi
 location	Ingenbohl
 location	Rickenbach CH
 location	Wollerau
+location	Einsiedeln
 
 # Ticino
 location	Purasca
@@ -3481,15 +3551,21 @@ location	Hannover
 
 # Baden-Wuerttemberg
 location	Weil Am Rhein
+location	Lörrach-Stetten
 location	Lörrach
 location	Grenzach-Wyhlen
 location	Bad Krozingen
 location	Steinen
+location	Schopfheim
 location	Freiburg
 location	Gundelfingen
+location	Wehr
 location	Bad Säckingen
 location	Rickenbach
+location	Zell
+location	Albbruck
 location	Buehl
+location	Waldshut-Tiengen
 location	Pfaffenweiler
 location	Mannheim
 location	Villingen-Schwenningen
@@ -3562,6 +3638,7 @@ location	Roding
 location	Rostock
 
 # Saxony
+location	Hohenwarsleben
 location	Hammerbach
 location	Dresden
 
@@ -4008,6 +4085,9 @@ location	Swidwin
 location	Szczecinek
 
 # Dolnośląskie
+location	Jelenia Gora
+location	Legnica
+location	Walbrzych
 location	Ząbkowice Śląskie
 location	Wroclaw
 location	Kamieniec Wrocławski
@@ -4070,6 +4150,7 @@ location	Srem
 location	Przebedowo
 location	Zalasewo
 location	Swarzedz
+location	Lipka
 location	Wysławice
 location	Gorzewo
 location	Krotoszyn
@@ -4104,6 +4185,7 @@ location	Rumia
 location	Puck
 location	Gdynia
 location	Pogorze
+location	Gdynski
 location	Gdansk
 location	Pruszcz Gdanski
 location	Hel
@@ -4133,6 +4215,7 @@ location	Pawłowice
 location	Suszec
 location	Katowice
 location	Ruda Śląska
+location	Sosnicowice
 location	Wojska
 
 # Łódzkie
@@ -4192,6 +4275,7 @@ location	Korsze
 location	Biały Grunt
 location	Ketrzynski
 location	Mragowski
+location	Wegorzewski
 location	Piski
 location	Gizycki
 location	Orzysz
@@ -4440,6 +4524,7 @@ location	Kretingos rajono savivaldybė
 location	Marijampole
 
 # Kauno Apskritis
+location	Kedainiai
 location	Jonava
 
 # Panevezio Apskritis
@@ -6494,6 +6579,7 @@ location	Mclennan County
 location	Lorena TX
 location	Cooke County
 location	Hewitt
+location	Hill County
 location	Waco
 location	Denton County
 location	Victoria County
@@ -6551,6 +6637,7 @@ location	Rusk
 location	Trinity County
 location	Red River County
 location	Galveston County
+location	Camp County
 location	Titus County
 location	Upshur County
 location	Gregg County
@@ -6894,6 +6981,7 @@ location	Greene County OH
 location	Clark County OH
 location	Champaign County OH
 location	Hardin County OH
+location	Adams County OH
 location	Marion County OH
 location	Pickaway County
 location	Franklin County OH
@@ -8244,20 +8332,37 @@ division	Plzeň Region
 division	Ustecky Region
 division	Stredocesky Region
 division	Usti nad Labem
+division	Zlonice
 division	Litomerice-Brnay
+division	Unhost
+division	Chyne
+division	Libochovicky
+division	Hostivice
+division	Velke Prilepy
+division	Odolena Voda
 division	Prague
+division	Plana
 division	Melnik
 division	Southern Bohemia Region
 division	Central Bohemian Region
+division	Stara Boleslav
+division	Sezimovo Usti
+division	Nučice
 division	Liberec Region
+division	Uhlirske Janovice
 division	Czech Republic
 division	Jihlava
 division	Vysocina Region
 division	Kralovehradecky Region
+division	Zabrezi
+division	Caslavice
+division	Slavetin
 division	Pardubice Region
 division	Hradec Králové Region
 division	Nachod
+division	Kunice
 division	South Moravian Region
+division	Zabreh Na Morave
 division	Olomouc Region
 division	Zlín Region
 division	Hranice Na Moravě
@@ -8472,7 +8577,6 @@ division	Marijampoles Apskritis
 division	Siauliu Apskritis
 division	Radviliskio Apskritis
 division	Prienai
-division	Kedainiai
 division	Lithuania
 division	Alytaus Apskritis
 division	Kauno Apskritis
