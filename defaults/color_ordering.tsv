@@ -206,6 +206,10 @@ location	Qurayyat
 # North Sharqiyah
 location	Ibra
 
+### Uzbekistan
+# Tashkent
+location	Tashkent City
+
 ### Pakistan
 # Gilgit Baltistan
 location	Gilgit
@@ -718,7 +722,7 @@ location	Tokyo
 # Oceania
 
 ### French Polynesia
-# Windward Islands
+# Tahiti
 location	Papeete
 
 ### Australia
@@ -2333,6 +2337,7 @@ location	Veldegem
 location	Aartrijke
 location	Beernem
 location	Zedelgem
+location	Loppem
 location	Oostkamp
 location	Sint-Michiels
 location	Jabbeke
@@ -2551,7 +2556,6 @@ location	Chimay
 location	Barbençon
 location	Fontaine-Valmont
 location	Nalinnes
-location	Lobbes
 location	Anderlues
 
 # Nivelles
@@ -3651,6 +3655,7 @@ location	Nuoro
 location	Sassari
 
 # Lombardy
+location	Varese
 location	Pavia
 location	Milan
 location	Brescia
@@ -4095,6 +4100,8 @@ location	Wojnowice
 location	Kepno
 
 # Wielkopolskie
+location	Miedzyrzecz
+location	Skwierzyna
 location	Nowy Tomysl
 location	Wielen
 location	Wielichowo
@@ -4119,11 +4126,13 @@ location	Rokietnica
 location	Dabrowa
 location	Dąbrowa
 location	Goluski
+location	Wymyslowo
 location	Rogierowko
 location	Uscikowo
 location	Wysogotowo
 location	Przeźmierowo
 location	Skórzewo
+location	Zielatkowo
 location	Pecna
 location	Komorniki WP
 location	Plewiska
@@ -4145,23 +4154,47 @@ location	Baranowo
 location	Gora
 location	Koziegłowy
 location	Rogozno
+location	Kamionki
 location	Murowana Goslina
 location	Srem
 location	Przebedowo
 location	Zalasewo
 location	Swarzedz
+location	Jarosławiec
 location	Lipka
+location	Sroda Wielkopolska
+location	Pobiedziska
 location	Wysławice
+location	Wola Lagiewnicka
 location	Gorzewo
 location	Krotoszyn
+location	Czerniejewo
 location	Jarocin
+location	Dalki
+location	Gniezno
+location	Welnica
+location	Trzuskołon
+location	Witkowo
+location	Miaty
+location	Kruchowo
+location	Trzemeszno
+location	Powidz
+location	Orchowo
 location	Kalisz
 location	Czajkow
 
 # Opolskie
+location	Nysa
+location	Głuchołazy
+location	Stary las
+location	Łąka Prudnicka
 location	Prudnik
+location	Biała
+location	Głogówek
 location	Opole
+location	Otmice
 location	Kedzierzyn Kozle
+location	Sucha
 location	Strzelce Opolskie
 location	Olesno
 
@@ -4185,6 +4218,7 @@ location	Rumia
 location	Puck
 location	Gdynia
 location	Pogorze
+location	Sopot
 location	Gdynski
 location	Gdansk
 location	Pruszcz Gdanski
@@ -4207,16 +4241,25 @@ location	Sepolno Krajenskie
 location	Bydgoszcz
 location	Dziarnowo
 location	Pruszcz
+location	Grudziadz
 location	Bobrowo
 
 # Slaskie
-location	Bielsko-Biała
-location	Pawłowice
-location	Suszec
-location	Katowice
-location	Ruda Śląska
+location	Dankowice
 location	Sosnicowice
+location	Cieszyn
+location	Gliwice
 location	Wojska
+location	Hażlach
+location	Pawłowice
+location	Rudziczka
+location	Suszec
+location	Ruda Śląska
+location	Czechowice-Dziedzice
+location	Katowice
+location	Bielsko-Biała
+location	Wilkowice
+location	Żywiec
 
 # Łódzkie
 location	Pajeczno County
@@ -4229,7 +4272,35 @@ location	Kutno
 # Malopolskie
 location	Olkusz
 location	Olewin
+location	Biertowice
+location	Bysina
+location	Krzyszkowice
+location	Myślenice
 location	Kraków
+location	Wrzosowa
+location	Siepraw
+location	Borzęta
+location	Osieczany
+location	Grabówki
+location	Brzączowice
+location	Stojowice
+location	Wieliczka
+location	Zabawa
+location	Dobczyce
+location	Glichów
+location	Strumiany
+location	Sułków
+location	Węgrzce Wielkie
+location	Poznachowice Górne
+location	Modrzewiowa
+location	Raciechowice
+location	Zakrzów
+location	Gruszów
+location	Niepołomice
+location	Szczytniki
+location	Wola Batorska
+location	Zawada
+location	Nowa Wieś
 
 # Swietokrzyskie
 location	Kielce
@@ -4282,6 +4353,7 @@ location	Orzysz
 location	Zalesie
 location	Goldapski
 location	Olecki
+location	Elk
 
 # Mazowieckie
 location	Plock
@@ -4294,7 +4366,9 @@ location	Sokolow Podlaski
 # Podkarpackie
 location	Siedliska-Bogusz
 location	Nagoszyn
+location	Tarnobrzeg
 location	Rzeszow
+location	Brzozow
 location	Bachórzec
 location	Ustrzyki Dolne
 
@@ -4356,19 +4430,20 @@ location	Plavecký Štvrtok
 location	Veľké Leváre
 
 # Trnava
-location	Šaštín-Stráže
-location	Smolenice
-location	Hradište pod Vrátnom
-location	Boleraz
-location	Voderady
-location	Velke Ulany
+location	Dolne Saliby
+location	Horne Saliby
 location	Cierna Voda
 location	Mostova
-location	Brestovany
-location	Sereď
-location	Horne Saliby
-location	Dolne Saliby
+location	Velke Ulany
 location	Soporna
+location	Voderady
+location	Sereď
+location	Brestovany
+location	Boleraz
+location	Smolenice
+location	Hradište pod Vrátnom
+location	Šaštín-Stráže
+location	Skalica
 
 # Trenčín
 location	Moravske Lieskove
@@ -4377,6 +4452,7 @@ location	Kostolna-Zariecie
 location	Dolná Súča
 location	Nemšová
 location	Nova Dubnica
+location	Puchov
 location	Handlová
 
 # Nitra
@@ -4396,6 +4472,7 @@ location	Dubnik
 
 # Zilina
 location	Turzovka
+location	Cadca
 location	Turcianske Teplice
 location	Horná Štubňa
 location	Dolný Kubín
@@ -4404,9 +4481,14 @@ location	Oravska Jasenica
 location	Oravska Polhora
 location	Nizna
 location	Trstena
+location	Liptovsky Mikulas
 
 # Banska Bystrica
+location	Zarnovica
+location	Ziar nad Hronom
 location	Zelovce
+location	Brezno
+location	Lucenec
 
 # Namestovo
 location	Benadovo
@@ -4419,11 +4501,21 @@ location	Vikartovce
 location	Spisske Bystre
 location	Velka Frankova
 location	Hranovnica
+location	Kezmarok
+location	Stara Lubovna
 location	Spisske Podhradie
+location	Sabinov
 location	Janovce
+location	Stropkov
+location	Snina
 
 # Kosice
+location	Spisska Nova Ves
 location	Zehra
+location	Gelnica
+location	Trebisov
+location	Michalovce
+location	Sobrance
 
 ### Hungary
 # Central Hungary
@@ -4591,6 +4683,7 @@ location	Lutsk
 location	Yevpatoriya
 location	Novofedorovka
 location	Simpheropol
+location	Oktyabr'skoye
 location	Crimea
 location	Alushta
 
@@ -4642,6 +4735,7 @@ location	Podporozhye
 location	Torzhok
 
 # Murmansk
+location	Kovdor
 location	Murmansk
 location	Severomorsk
 
@@ -4669,6 +4763,7 @@ location	Kubinka
 location	Naro-Fominsk
 location	Zvenigorod
 location	Kalininets
+location	Dolgoprudny
 location	Moscow
 location	Dmitrov
 location	Korolyov
@@ -4715,6 +4810,7 @@ location	Ivanovo
 location	Furmanov
 location	Shuya (Ivanovo)
 location	Rodniki
+location	Palekh
 location	Vichuga
 location	Zavolzhsk
 location	Kineshma
@@ -4799,6 +4895,7 @@ location	Revda
 location	Zarechny
 location	Yekaterinburg
 location	Pervouralsk
+location	Berezovsky
 location	Verkhnyaya Pyshma
 location	Sredneuralsk
 location	Baltym
@@ -4893,24 +4990,54 @@ location	Petropavlovsk-Kamchatsky
 ### Argentina
 # Tierra del Fuego
 location	Ushuaia
+location	Tolhuin
 location	Rio Grande AR
 
 # Rio Negro
+location	Patagones
+location	Jacobacci
 location	San Carlos de Bariloche
 location	Cipolletti
+location	Catriel
 location	General Roca
+location	Villa Regina
+location	Chinchinales
+location	Allen
+location	San Antonio Este
+location	General Conesa
+location	Viedma
 
 # Neuquen
 location	Villa la Angostura
 location	San Martin de los Andes
-location	Loncopue
-location	Las Lajas
-location	Zapala
-location	Cutral Co
-location	Plottier
+location	Senillosa
 location	Neuquen
+location	Plottier
+location	Centenario
+location	Cutral Co
+location	Zapala
+location	Las Lajas
+location	Loncopue
+location	Las Ovejas
+
+# La Pampa
+location	Macachín
+location	Santa Rosa AR
+location	Catrilo
+location	Winifreda
+location	Intendente Alvear
+location	Larroude
+
+# Mendoza
+location	Guaymallen
+location	Lujan de Cuyo
+location	San Martin MZ
+location	Godoy Cruz
+location	Maipu AR
+location	Rivadavia
 
 # Buenos Aires
+location	San Martin BA
 location	Bahia Blanca
 location	Tres de Febrero
 location	Almirante Brown
@@ -4935,7 +5062,6 @@ location	Tigre
 location	San Fernando AR
 location	Ezeiza
 location	General San Martin
-location	San Martin AR
 location	San Isidro AR
 location	Vicente Lopez
 location	Lomas de Zamora
@@ -4952,30 +5078,154 @@ location	Malvinas Argentinas
 location	La Costa
 
 # Cordoba AR
-location	Villa Dolores
-location	Saldan
-location	Cordoba AR
-location	Villa Maria
+location	Jesus Maria
+location	La Falda
+location	Rio Ceballos
+location	Monte Maiz
+location	Monte Buey
+location	Marcos Juarez
+location	Rio Segundo
+location	Alta Gracia
+location	Arroyito
+location	Oncativo
+location	General Deheza
+location	Rio Cuarto
+location	Rio Tercero
+location	Monte Cristo
+location	Las Varillas
+location	Corral de Bustos
 location	Belle Ville
+location	Villa Maria
+location	Santa Rosa de Calamuchita
+location	Oliva AR
+location	Villa Dolores
+location	Cordoba Villa El Libertador
+location	Cordoba AR
+location	San Francisco AR
+location	Saldan
+location	Unquillo
+location	Colonia Caroya
 location	Brinkmann
 
 # Santa Fe
+location	Teodelina
+location	Sancti Spiritu
+location	Villa Cañas
+location	Santa Isabel AR
+location	Hughes
+location	Wheelwright
+location	Venado Tuerto
+location	Maggiolo
+location	Firmat
+location	Villada
+location	Rueda
+location	Pavon Arriba
+location	Acebal
+location	Fighiera
+location	Villa Amelia
+location	Fuentes
+location	Arroyo Seco
+location	Sanford
+location	San Jose de la Esquina
+location	Coronel Arnold
+location	Los Molinos
+location	Pueblo Esther
+location	Avellaneda AR
+location	Casilda
+location	San Carlos AR
+location	Villa Gobernador Galvez
+location	Zavalla
+location	Soldini
+location	Perez
+location	Rosario
+location	Villa Constitucion
+location	Funes
+location	Carcaraña
+location	Capitan Bermudez
+location	Fray Luis Beltran
+location	Ricardone
+location	San Lorenzo
+location	Puerto Gral San Martin
 location	Totoras
+location	Las Rosas
+location	Colonia Margarita
+location	Santo Tome
 location	Santa Fe AR
+location	Monte Vera
 location	Esperanza
+location	Helvecia
+location	Laguna Paiva
+location	Rafaela
 location	Coronda
+location	Sunchales
+location	Villa Gob. Galvez
+location	San Justo
 location	Cayastá
 location	Ceres AR
 location	Reconquista
+location	Fortin Olmos
 location	Villa Ocampo
 
+# Corrientes
+location	Corrientes
+
+# Tucuman
+location	Las Talitas
+location	Aguilares
+location	Concepcion AR
+location	Simoca
+location	Monteros
+location	Famailla
+location	San Pablo AR
+location	Lastenia
+location	San Miguel de Tucuman
+location	Alderetes
+location	Yerba Buena
+location	Tafi Viejo
+location	Burruyacu
+
 # Chaco
+location	Santa Sylvina
+location	Coronel Du Graty
+location	Villa Angela
 location	Puerto Vilelas
+location	Barranqueras
+location	Gancedo
 location	Resistencia
 location	Fontana
+location	Colonia Benitez
 location	Isla del Cerrito
+location	Charata
+location	Lapachito
+location	La Verde
+location	Las Breñas
+location	Presidencia de la Plaza
+location	Machagai
+location	Quitilipi
+location	Avia Terai
+location	Tres Isletas
+location	Pampa del Indio
 location	Sanz Peña
+location	Juan Jose Castelli
 location	Sauzalito
+
+# Salta
+location	General Guemes
+location	Salta
+location	Salvador Mazza
+location	Colonia Santa Rosa
+location	Hipolito Yrigoyen
+location	San Ramon de la Nueva Oran
+location	General Mosconi
+location	Tartagal
+location	Aguaray
+
+# Jujuy
+location	Perico
+location	San Pedro de Jujuy
+location	Calilegua
+location	Libertador General San Martin
+location	San Salvador de Jujuy
 
 ### Uruguay
 # Rocha
@@ -7280,6 +7530,7 @@ division	Qatar
 division	Urmia
 division	Hamedan
 division	Gilan
+division	Alborz Province
 division	Qom
 division	Karaj
 division	Tehran
@@ -7306,6 +7557,7 @@ division	North Sharqiyah
 
 ### Uzbekistan
 division	Uzbekistan
+division	Tashkent
 
 ### Afghanistan
 division	Afghanistan
@@ -7599,7 +7851,7 @@ division	Hokkaido
 # Oceania
 
 ### French Polynesia
-division	Windward Islands
+division	Tahiti
 
 ### Australia
 division	Western Australia
@@ -8637,6 +8889,7 @@ division	Pleven
 division	Smolyan
 division	Plovdiv
 division	Gabrovo
+division	Kardzhali
 division	Bulgaria
 division	Stara Zagora
 division	Haskovo
@@ -8804,12 +9057,17 @@ division	Kamchatka Krai
 division	Tierra del Fuego
 division	Rio Negro
 division	Neuquen
+division	La Pampa
+division	Mendoza
 division	Buenos Aires
 division	Argentina
 division	Cordoba AR
 division	Santa Fe
+division	Corrientes
 division	Tucuman
 division	Chaco
+division	Salta
+division	Jujuy
 
 ### Uruguay
 division	Maldonado
