@@ -38,6 +38,7 @@ if __name__ == "__main__":
     parser.add_argument("--frequencies", required=True, help="frequencies JSON")
     parser.add_argument("--delta-pivots", type=int, default=1, help="number of frequency pivots to look back in time for change in frequency calculation")
     parser.add_argument("--attribute-name", default="delta_frequency", help="name of the annotation to store in the node data JSON output")
+    parser.add_argument("--include-tips", action="store_true", help="include change of frequency for tips in output. This output tends to be less meaningful than change of frequency for internal nodes (i.e., clades).")
     parser.add_argument("--output", required=True, help="JSON of delta frequency annotations for nodes in the given tree")
 
     args = parser.parse_args()
@@ -73,10 +74,15 @@ if __name__ == "__main__":
                 for child in node.clades
             ]).sum(axis=0)
 
-        # Calculate the change in frequency over the requested time period.
-        delta_frequency[node.name] = {
-            args.attribute_name: (node.frequencies[-1] - node.frequencies[-(args.delta_pivots + 1)]) / delta_time
-        }
+        if not node.is_terminal() or args.include_tips:
+            # Calculate the change in frequency over the requested time period.
+            node_delta_frequency = (node.frequencies[-1] - node.frequencies[-(args.delta_pivots + 1)]) / delta_time
+
+            if node_delta_frequency != 0:
+                delta_frequency[node.name] = {
+                    args.attribute_name: node_delta_frequency,
+                    "current_frequency": node.frequencies[-1]
+                }
 
     # Write out the node annotations.
     write_json({"nodes": delta_frequency}, args.output)
