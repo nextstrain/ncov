@@ -1084,7 +1084,7 @@ rule logistic_growth:
     conda:
         config["conda_environment"]
     log:
-        "logs/logistic_growth__{build_name}.txt"
+        "logs/logistic_growth_{build_name}.txt"
     params:
         method="logistic",
         attribute_name = "logistic_growth",
