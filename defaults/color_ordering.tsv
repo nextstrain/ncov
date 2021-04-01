@@ -968,6 +968,17 @@ location	Amajuba
 location	Giza
 location	Al Matariyyah
 
+### Malawi
+# Southern Region MW
+location	Blantyre
+
+# Central Region MW
+location	Lilongwe
+
+# Northern Region MW
+location	Mzimba
+location	Karonga
+
 ### Mozambique
 # Maputo
 location	Katembe
