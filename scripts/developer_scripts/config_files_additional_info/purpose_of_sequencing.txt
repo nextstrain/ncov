@@ -44,3 +44,4 @@ SGTF screen	S dropout
 SGTF	S dropout
 Active surveillance, N-gene dropout	N dropout
 Active Surveillance, N-gene dropout	N dropout
+Baseline surveillance (random sampling)	Not S dropout
