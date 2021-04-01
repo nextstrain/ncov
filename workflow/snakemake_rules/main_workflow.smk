@@ -576,28 +576,40 @@ if "run_pangolin" in config and config["run_pangolin"]:
             alignment = rules.build_align.output.alignment,
         output:
             lineages = "results/{build_name}/pangolineages.csv",
-            node_data = "results/{build_name}/pangolineages.json"
         params:
-            outdir = "results/{build_name}/",
+            outdir = "results/{build_name}",
             csv_outfile = "pangolineages.csv",
             node_data_outfile = "pangolineages.json"
         log:
             "logs/pangolin_{build_name}.txt"
-        conda: config["conda_environment"]
+        conda: config["conda_environment"] ## not sure what this arg does -- could it be used to separate the requirements for `pangolin` rather than adding them to the ncov env?
         threads: 8
         resources:
-            mem_mb=3000
+            mem_mb=3000 ## should update these
         shell:
             """
             pangolin {input.alignment}\
                 --threads {threads} \
                 --outdir {params.outdir} \
                 --outfile {params.csv_outfile} \
-                --include-putative \
-                &&
+            """
+
+    rule make_pangolin_node_data:
+        input:
+            lineages = rules.run_pangolin.output.lineages
+        output:
+            node_data = "results/{build_name}/pangolineages.json"
+        log:
+            "logs/pangolin_export_{build_name}.txt"
+        conda: config["conda_environment"]
+        threads: 8
+        resources:
+            mem_mb=3000 ## should update these
+        shell:
+            """
             python3 scripts/make_pangolin_node_data.py \
-                --pangolineages {params.outdir}+{params.csv_outfile} \
-                --node_data_outfile {params.outdir}+{params.node_data_outfile} \
+            --pangolineages {input.lineages} \
+            --node_data_outfile {output.node_data} \
             """
 
 # TODO: This will probably not work for build names like "country_usa" where we need to know the country is "USA".
@@ -1148,14 +1160,15 @@ def _get_node_data_by_wildcards(wildcards):
         rules.traits.output.node_data
     ]
 
+    # Convert input files from wildcard strings to real file names.
     if "use_nextalign" in config and config["use_nextalign"]:
         inputs.append(rules.aa_muts_explicit.output.node_data)
         inputs.append(rules.distances.output.node_data)
     if "run_pangolin" in config and config["run_pangolin"]:
-        inputs.append(rules.run_pangolin.output.node_data)
+        inputs.append(rules.make_pangolin_node_data.output.node_data)
 
-    # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]
+
     return inputs
 
 rule export:

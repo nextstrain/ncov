@@ -15,14 +15,16 @@ if __name__ == '__main__':
         description="Create node data for assigned pangolin lineages",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    parser.add_argument("--pangolineages", type=str, nargs="1", required=True, help="pangolineages.csv")
+    parser.add_argument("--pangolineages", type=str, required=True, help="pangolineages.csv")
     parser.add_argument("--node_data_outfile", type=str, help="pangolineages.json")
     args = parser.parse_args()
+    print('INPUT TO MAKE NODE DATA', '\n\n', args.pangolineages, '\n\n', args.node_data_outfile)
 
-    pangolineages = pd.read_csv(args.pangolineages, sep='\t')
+    pangolineages = pd.read_csv(args.pangolineages)
+    print(pangolineages.head())
     node_data = {
     "nodes": {
-    row['Taxon']: row['Lineage'] for idx, row in pangolineages.iterrows()
+    row['taxon']: row['lineage'] for idx, row in pangolineages.iterrows()
         }
     }
 
