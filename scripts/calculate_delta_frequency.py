@@ -1,12 +1,14 @@
 """Calculate the change in frequency for clades over time (aka the delta frequency or dfreq).
 """
 import argparse
-from augur.frequency_estimators import TreeKdeFrequencies
+from augur.frequency_estimators import logit_transform
 from augur.utils import read_node_data, read_tree, write_json
 import Bio.Phylo
 from collections import defaultdict
 import json
 import numpy as np
+from scipy.stats import linregress
+import sys
 
 
 def read_frequencies(frequencies_file):
@@ -37,6 +39,14 @@ if __name__ == "__main__":
     parser.add_argument("--tree", required=True, help="Newick tree")
     parser.add_argument("--frequencies", required=True, help="frequencies JSON")
     parser.add_argument("--delta-pivots", type=int, default=1, help="number of frequency pivots to look back in time for change in frequency calculation")
+    parser.add_argument(
+        "--method",
+        default="linear",
+        choices=("linear", "logistic"),
+        help="""method to use when calculating slope of frequency changes per clade.
+        The 'linear' method calculates the slope between the most recent timepoint and the timepoint associted with the number of pivots back in time requested by `--delta-pivots`.
+        The 'logistic' method fits applies logistic regression per clade to frequencies of each timepoint between the latest and earliest requested timepoint and uses the slope from this regression."""
+    )
     parser.add_argument("--attribute-name", default="delta_frequency", help="name of the annotation to store in the node data JSON output")
     parser.add_argument("--include-tips", action="store_true", help="include change of frequency for tips in output. This output tends to be less meaningful than change of frequency for internal nodes (i.e., clades).")
     parser.add_argument("--output", required=True, help="JSON of delta frequency annotations for nodes in the given tree")
@@ -48,10 +58,12 @@ if __name__ == "__main__":
 
     # Load frequencies.
     frequencies, parameters = read_frequencies(args.frequencies)
-    pivots = parameters["pivots"]
+    pivots = np.array(parameters["pivots"])
 
     # Determine the total time that elapsed between the current and past timepoint.
-    delta_time = pivots[-1] - pivots[-(args.delta_pivots + 1)]
+    first_pivot_index = -(args.delta_pivots + 1)
+    last_pivot_index = -1
+    delta_time = pivots[last_pivot_index] - pivots[first_pivot_index]
 
     # Calculate frequencies for internal nodes by summing the frequencies of
     # their respective tips. Then calculate the change in frequency for each
@@ -61,7 +73,7 @@ if __name__ == "__main__":
         if node.is_terminal():
             # We already know the frequencies of each terminal node, so
             # store those frequencies with the corresponding node of the tree.
-            node.frequencies = frequencies[node.name]
+            node.frequencies = np.array(frequencies[node.name])
         else:
             # For each internal node, sum the frequencies of its immediate
             # children. Since we are walking through the tree from the bottom
@@ -76,7 +88,29 @@ if __name__ == "__main__":
 
         if not node.is_terminal() or args.include_tips:
             # Calculate the change in frequency over the requested time period.
-            node_delta_frequency = (node.frequencies[-1] - node.frequencies[-(args.delta_pivots + 1)]) / delta_time
+            if args.method == "linear":
+                node_delta_frequency = (node.frequencies[last_pivot_index] - node.frequencies[first_pivot_index]) / delta_time
+            elif args.method == "logistic":
+                x_pivots = pivots[first_pivot_index:]
+
+                # Transform most recent frequencies prior to fitting linear
+                # regression to better represent logistic growth we expect from
+                # SARS-CoV-2 clades. This transformation accounts for numerical
+                # error with its second argument to avoid infinite values in the
+                # transform (as when frequencies equal 0 or 1).
+                y_frequencies = logit_transform(
+                    node.frequencies[first_pivot_index:],
+                    pc=1e-4
+                )
+
+                # Fit linear regression to pivots and frequencies and use the
+                # resulting slope as the measure of recent clade growth or
+                # decline.
+                model = linregress(x_pivots, y_frequencies)
+                node_delta_frequency = model.slope
+            else:
+                print(f"Error: The request method, '{args.method}', is not supported.", file=sys.stderr)
+                sys.exit(1)
 
             if node_delta_frequency != 0:
                 delta_frequency[node.name] = {

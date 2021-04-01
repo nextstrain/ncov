@@ -1059,6 +1059,7 @@ rule delta_frequency:
     log:
         "logs/delta_frequency_{build_name}.txt"
     params:
+        method="linear",
         delta_pivots=config["delta_frequency"]["delta_pivots"],
     resources:
         mem_mb=256
@@ -1067,10 +1068,41 @@ rule delta_frequency:
         python3 scripts/calculate_delta_frequency.py \
             --tree {input.tree} \
             --frequencies {input.frequencies} \
+            --method {params.method} \
             --delta-pivots {params.delta_pivots} \
+            --include-tips \
             --output {output.node_data} 2>&1 | tee {log}
         """
 
+rule logistic_growth:
+    input:
+        tree="results/{build_name}/tree.nwk",
+        frequencies="results/{build_name}/tip-frequencies.json",
+    output:
+        node_data="results/{build_name}/logistic_growth.json"
+    benchmark:
+        "benchmarks/logistic_growth_{build_name}.txt"
+    conda:
+        config["conda_environment"]
+    log:
+        "logs/logistic_growth__{build_name}.txt"
+    params:
+        method="logistic",
+        attribute_name = "logistic_growth",
+        delta_pivots=config["delta_frequency"]["delta_pivots"],
+    resources:
+        mem_mb=256
+    shell:
+        """
+        python3 scripts/calculate_delta_frequency.py \
+            --tree {input.tree} \
+            --frequencies {input.frequencies} \
+            --method {params.method} \
+            --delta-pivots {params.delta_pivots} \
+            --attribute-name {params.attribute_name} \
+            --include-tips \
+            --output {output.node_data} 2>&1 | tee {log}
+        """
 
 rule nucleotide_mutation_frequencies:
     message: "Estimate nucleotide mutation frequencies"
@@ -1140,7 +1172,8 @@ def _get_node_data_by_wildcards(wildcards):
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data,
-        rules.delta_frequency.output.node_data
+        rules.delta_frequency.output.node_data,
+        rules.logistic_growth.output.node_data
     ]
 
     if "use_nextalign" in config and config["use_nextalign"]:
