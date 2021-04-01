@@ -1070,7 +1070,6 @@ rule delta_frequency:
             --frequencies {input.frequencies} \
             --method {params.method} \
             --delta-pivots {params.delta_pivots} \
-            --include-tips \
             --output {output.node_data} 2>&1 | tee {log}
         """
 
@@ -1100,7 +1099,6 @@ rule logistic_growth:
             --method {params.method} \
             --delta-pivots {params.delta_pivots} \
             --attribute-name {params.attribute_name} \
-            --include-tips \
             --output {output.node_data} 2>&1 | tee {log}
         """
 

@@ -2,7 +2,7 @@
 """
 import argparse
 from augur.frequency_estimators import logit_transform
-from augur.utils import read_node_data, read_tree, write_json
+from augur.utils import annotate_parents_for_tree, read_node_data, read_tree, write_json
 import Bio.Phylo
 from collections import defaultdict
 import json
@@ -47,6 +47,12 @@ if __name__ == "__main__":
         The 'linear' method calculates the slope between the most recent timepoint and the timepoint associted with the number of pivots back in time requested by `--delta-pivots`.
         The 'logistic' method fits applies logistic regression per clade to frequencies of each timepoint between the latest and earliest requested timepoint and uses the slope from this regression."""
     )
+    parser.add_argument(
+        "--min-frequency",
+        default=0.01,
+        type=float,
+        help="minimum current frequency for internal nodes to calculate delta frequency for. Nodes below this frequency inherit the values of their parent node."
+    )
     parser.add_argument("--attribute-name", default="delta_frequency", help="name of the annotation to store in the node data JSON output")
     parser.add_argument("--include-tips", action="store_true", help="include change of frequency for tips in output. This output tends to be less meaningful than change of frequency for internal nodes (i.e., clades).")
     parser.add_argument("--output", required=True, help="JSON of delta frequency annotations for nodes in the given tree")
@@ -55,6 +61,7 @@ if __name__ == "__main__":
 
     # Load the tree.
     tree = read_tree(args.tree)
+    tree = annotate_parents_for_tree(tree)
 
     # Load frequencies.
     frequencies, parameters = read_frequencies(args.frequencies)
@@ -66,8 +73,7 @@ if __name__ == "__main__":
     delta_time = pivots[last_pivot_index] - pivots[first_pivot_index]
 
     # Calculate frequencies for internal nodes by summing the frequencies of
-    # their respective tips. Then calculate the change in frequency for each
-    # node from the resulting frequencies.
+    # their respective tips.
     delta_frequency = {}
     for node in tree.find_clades(order="postorder"):
         if node.is_terminal():
@@ -86,7 +92,12 @@ if __name__ == "__main__":
                 for child in node.clades
             ]).sum(axis=0)
 
-        if not node.is_terminal() or args.include_tips:
+    # Calculate the change in frequency for each node from the precalculated
+    # frequencies. The signal for smaller clades is noisier, so we set a minimum
+    # clade frequency below which clades/tips inherit their parent's delta
+    # frequency value.
+    for node in tree.find_clades(order="preorder"):
+        if node.frequencies[last_pivot_index] >= args.min_frequency:
             # Calculate the change in frequency over the requested time period.
             if args.method == "linear":
                 node_delta_frequency = (node.frequencies[last_pivot_index] - node.frequencies[first_pivot_index]) / delta_time
@@ -114,9 +125,16 @@ if __name__ == "__main__":
 
             if node_delta_frequency != 0:
                 delta_frequency[node.name] = {
-                    args.attribute_name: node_delta_frequency,
-                    "current_frequency": node.frequencies[-1]
+                    args.attribute_name: node_delta_frequency
                 }
+        else:
+            # If the current node is low frequency, use its parent node's delta frequency value.
+            delta_frequency[node.name] = {
+                    args.attribute_name: delta_frequency[node.parent.name][args.attribute_name]
+            }
+
+        # Always annotate the current frequency of each node.
+        delta_frequency[node.name]["current_frequency"] = node.frequencies[last_pivot_index]
 
     # Write out the node annotations.
     write_json({"nodes": delta_frequency}, args.output)
