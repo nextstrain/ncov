@@ -6,7 +6,7 @@ We maintain a number of publicly-available builds, visible at [nextstrain.org/nc
 
 In July 2020, we introduced some major changes to this repository.
 If you were running customized builds before this, these changes may cause some merge conflicts.
-[Read here](https://github.com/nextstrain/ncov/blob/master/docs/change_log_2020-07.md) to find out about all the changes, and which ones may impact custom runs.
+[Read here](https://github.com/nextstrain/ncov/blob/master/docs/change_log.md) to find out about all the changes, and which ones may impact custom runs.
 
 ---
 # Resources
