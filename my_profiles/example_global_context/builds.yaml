@@ -8,6 +8,9 @@
 
 use_nextalign: true
 
+combine_sequences_for_subsampling:
+  warn_about_duplicates: true
+
 inputs:
   - name: aus
     metadata: "data/example_metadata_aus.tsv"

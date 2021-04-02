@@ -13,6 +13,7 @@ if __name__ == '__main__':
     )
 
     parser.add_argument('--input', type=str,  nargs="+", metavar="FASTA", required=True, help="input FASTAs")
+    parser.add_argument('--warn-about-duplicates', action="store_true", help="warn the user about duplicate strains instead of exiting with an error. The output will include the first occurrence of a duplicate sequence.")
     parser.add_argument('--output', type=str, metavar="FASTA", required=True, help="output FASTA")
     args = parser.parse_args()
 
@@ -48,11 +49,26 @@ if __name__ == '__main__':
             SeqIO.write(record, output_handle, 'fasta')
 
     if len(duplicate_strains) > 0:
+        error_mode = "ERROR"
+        exit_code = 1
+
+        if args.warn_about_duplicates:
+            error_mode = "WARNING"
+            exit_code = 0
+
         print(
-            "ERROR: Detected the following duplicate input strains with different sequences:",
+            f"{error_mode}: Detected the following duplicate input strains with different sequences:",
             file=sys.stderr
         )
         for strain in duplicate_strains:
             print(textwrap.indent(strain, "    "), file=sys.stderr)
 
-        sys.exit(1)
+        if not args.warn_about_duplicates:
+            print(
+                "Use the `--warn-about-duplicates` flag, if you prefer to accept",
+                "the first occurrence of duplicate sequences based on the order",
+                "of the given input sequences.",
+                file=sys.stderr
+            )
+
+        sys.exit(exit_code)
