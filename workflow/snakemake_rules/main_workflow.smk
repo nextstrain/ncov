@@ -324,9 +324,14 @@ rule combine_sequences_for_subsampling:
     benchmark:
         "benchmarks/combine_sequences_for_subsampling.txt"
     conda: config["conda_environment"]
+    params:
+        warn_about_duplicates="--warn-about-duplicates" if config.get("combine_sequences_for_subsampling", {}).get("warn_about_duplicates") else ""
     shell:
         """
-        python3 scripts/combine-and-dedup-fastas.py --input {input} --output {output}
+        python3 scripts/combine-and-dedup-fastas.py \
+            --input {input} \
+            {params.warn_about_duplicates} \
+            --output {output}
         """
 
 rule index_sequences:

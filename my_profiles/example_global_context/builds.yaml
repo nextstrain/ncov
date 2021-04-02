@@ -8,6 +8,9 @@
 
 use_nextalign: true
 
+combine_sequences_for_subsampling:
+  warn_about_duplicates: true
+
 inputs:
   - name: local
     metadata: "data/example_metadata.tsv"
