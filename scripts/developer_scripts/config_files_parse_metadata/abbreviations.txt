@@ -109,3 +109,7 @@ Panama	PA
 Bolivia	BO
 Manabi	EC
 Colombia	CO
+Loja	EC
+Extremadura	ES
+Panama Oeste	PA
+Valle del Cauca	CO
