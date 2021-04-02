@@ -1882,3 +1882,6 @@ Indonesia/RSDS-RCVTD-UNAIR-35-C/2020
 India/MH-NCCS-181766/2020
 India/MH-NCCS-181778/2020
 India/MH-NCCS-181784/2020
+
+# sample date before clade
+Portugal/PT5273/2021
