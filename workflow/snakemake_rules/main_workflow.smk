@@ -602,7 +602,6 @@ if "run_pangolin" in config and config["run_pangolin"]:
         log:
             "logs/pangolin_export_{build_name}.txt"
         conda: config["conda_environment"]
-        threads: 8
         resources:
             mem_mb=3000 ## should update these
         shell:
