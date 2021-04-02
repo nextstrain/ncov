@@ -9,6 +9,7 @@ import argparse
 import pandas as pd
 import csv
 import json
+from augur.utils import write_json
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -18,17 +19,13 @@ if __name__ == '__main__':
     parser.add_argument("--pangolineages", type=str, required=True, help="pangolineages.csv")
     parser.add_argument("--node_data_outfile", type=str, help="pangolineages.json")
     args = parser.parse_args()
-    print('INPUT TO MAKE NODE DATA', '\n\n', args.pangolineages, '\n\n', args.node_data_outfile)
 
     pangolineages = pd.read_csv(args.pangolineages)
-    print(pangolineages.head())
+
     node_data = {
     "nodes": {
-    row['taxon']: row['lineage'] for idx, row in pangolineages.iterrows()
+    row['taxon']: {'PANGO lineage - local': row['lineage']} for idx, row in pangolineages.iterrows()
         }
     }
 
-    # input_json['colorings'].append({'key': 'pangolin lineage', 'type': 'categorical'})
-
-    with open(args.node_data_outfile, 'w') as fh:
-        json.dump(node_data, fh, indent=2)
+    write_json(node_data, args.node_data_outfile)
