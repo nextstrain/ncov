@@ -21,6 +21,7 @@ dependencies:
   - raxml
   - vcftools
   - git
+  - pandas
   - pip:
       - awscli==1.18.45
       - nextstrain-augur==11.3.0
@@ -28,5 +29,4 @@ dependencies:
       - rethinkdb==2.3.0.post6
       - git+https://github.com/hCoV-2019/lineages.git
       - git+https://github.com/hCoV-2019/pangolin.git
-      - pandas==1.0.1
       - git+https://github.com/cov-lineages/pangoLEARN.git
