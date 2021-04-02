@@ -1868,3 +1868,20 @@ Netherlands/NB-EMC-751/2020
 # divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1616712320056000
 Malaysia/7970/2020
 Turkey/Ankara_GUMV_10711/2020
+
+# Sample date before clade; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1617059513084600
+France/ARA-HCL021011750901/2020
+France/ARA-HCL021020561601/2020
+USA/ID-IBL-620653/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1617125150114900
+Kazakhstan/123632/2020
+Kazakhstan/125378/2020
+Lebanon/LAU-R153/2020
+Indonesia/RSDS-RCVTD-UNAIR-35-C/2020
+India/MH-NCCS-181766/2020
+India/MH-NCCS-181778/2020
+India/MH-NCCS-181784/2020
+
+# sample date before clade
+Portugal/PT5273/2021

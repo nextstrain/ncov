@@ -581,7 +581,7 @@ La Louvière
 	Haine-Saint-Paul
 	Haine-Saint-Pierre
 	Houdeng-Aimeries
-	Houdeng-Gœgnies
+	Houdeng-Goegnies
 	La Louvière
 	Maurage
 	Saint-Vaast
@@ -1389,6 +1389,7 @@ Diepenbeek
 	Diepenbeek
 Genk
 	Genk
+	Waterschei-Zwartberg
 Gingelom
 	Boekhout
 	Borlo
