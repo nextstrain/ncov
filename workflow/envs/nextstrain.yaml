@@ -1,24 +1,32 @@
 name: nextstrain
 channels:
+  - conda-forge
   - bioconda
   - defaults
 dependencies:
+  - biopython=1.74
+  - minimap2>=2.16
+  - pip=19.3.1
+  - snakemake-minimal=5.13
+  - gofasta
   - cvxopt
   - datrie
   - fasttree
   - iqtree
   - mafft=7.471
   - nextalign=0.1.6
-  - pandas
   - psutil
   - python=3.7*
   - nodejs=10
   - raxml
   - vcftools
   - git
-  - pip
   - pip:
       - awscli==1.18.45
       - nextstrain-augur==11.3.0
       - nextstrain-cli==1.16.5
       - rethinkdb==2.3.0.post6
+      - git+https://github.com/hCoV-2019/lineages.git
+      - git+https://github.com/hCoV-2019/pangolin.git
+      - pandas==1.0.1
+      - git+https://github.com/cov-lineages/pangoLEARN.git
