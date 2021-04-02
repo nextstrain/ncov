@@ -867,6 +867,40 @@ rule traits:
             --sampling-bias-correction {params.sampling_bias_correction} 2>&1 | tee {log}
         """
 
+rule lbi:
+    message:
+        """
+        Calculating LBI with time scales  {params.dt!s}
+        """
+    input:
+        tree = rules.refine.output.tree,
+        branch_lengths = rules.refine.output.node_data
+    output:
+        node_data = "results/{build_name}/lbi.json"
+    log:
+        "logs/lbi_{build_name}.txt"
+    benchmark:
+        "benchmarks/lbi_{build_name}.txt"
+    params:
+        dt = [0.1, 0.3, 0.6],
+        attr_names = [f"lbi_{t:1.2f}" for t in [0.1, 0.3, 0.6]],
+        window = 0.4
+    resources:
+        # Memory use scales primarily with the size of the metadata file.
+        mem_mb=256
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur lbi \
+            --tree {input.tree} \
+            --branch-lengths {input.branch_lengths} \
+            --attribute-names {params.attr_names} \
+            --tau {params.dt} \
+            --window {params.window} \
+            --output {output.node_data} 2>&1 | tee {log}
+        """
+
+
 def _get_clade_files(wildcards):
     if "subclades" in config["builds"][wildcards.build_name]:
         return [config["files"]["clades"], config["builds"][wildcards.build_name]["subclades"]]
@@ -1110,7 +1144,8 @@ def _get_node_data_by_wildcards(wildcards):
         rules.rename_subclades.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
-        rules.traits.output.node_data
+        rules.traits.output.node_data,
+        rules.lbi.output.node_data
     ]
 
     if "use_nextalign" in config and config["use_nextalign"]:
