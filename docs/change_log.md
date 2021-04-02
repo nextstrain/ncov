@@ -1,6 +1,7 @@
 # Change Log
 
-As of April 2021, we use major version numbers to reflect backwards-incompatible changes to the workflow that likely require you to update your Nextstrain installation.
+As of April 2021, we use major version numbers (e.g. v2.0) to reflect backward-incompatible changes to the workflow that likely require you to update your Nextstrain installation.
+We use minor version numbers (e.g., v2.1) to reflect new features that maintain backward compatibility.
 
 ## v2.0 (2 April 2021)
 
