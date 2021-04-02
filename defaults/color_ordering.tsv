@@ -1139,14 +1139,24 @@ location	El Rosal
 location	Santiago de Compostela
 
 # Extremadura
+location	Valencia de Alcantara
+location	Zarza la Mayor
 location	Arroyo de la Luz
+location	Garrovillas de Alconetar
 location	Caceres
+location	Riolobos
+location	Sierra de Fuentes
 location	Plasencia
 location	Malpartida de Plasencia
+location	Miajadas
+location	Villamesias
 location	Jaraicejo
+location	Campo Lugar
 location	Navalmoral de la Mata
+location	Trujillo ES
 location	Villanueva de la Vera
 location	Pueblonuevo de Miramontes
+location	Guadalupe ES
 location	Herrera del Duque
 
 # Asturias
@@ -1195,7 +1205,7 @@ location	Torremolinos
 location	Malaga
 location	Rincon de la Victoria
 location	Benajarafe
-location	Loja
+location	Loja ES
 location	Velez Malaga
 location	Torre del Mar
 location	Castillo de Locubin
@@ -1238,6 +1248,8 @@ location	Navas de San Juan
 location	La Peza
 location	Huelago
 location	Alamedilla
+location	Pedro Martinez
+location	Purullena
 location	Fonelas
 location	Benalua
 location	Guadix
@@ -1312,25 +1324,34 @@ location	Burgos
 # Cantabria
 location	Cillorigo de Liebana
 location	Comillas
+location	Ruiloba
 location	Cabezon de la Sal
+location	Mazcuerras
 location	Matamorosa
+location	Cieza
 location	Santillana
+location	Villapresente
 location	Puente San Miguel
 location	Los Corrales de Buelna
 location	Santiago de Cartes
+location	Campuzano
 location	Torrelavega
 location	Tanos
 location	Barreda
 location	Suances
+location	Sierrapando
 location	Polanco
 location	Miengo
 location	Rumoroso
 location	Zurita
+location	Las Presillas
 location	Carandia
 location	Mogro
 location	Valderredible
+location	Puente Viesgo
 location	Pielagos
 location	Renedo
+location	Renedo de Pielago
 location	Oruna
 location	Boo de Pielagos
 location	Liencres
@@ -1342,6 +1363,7 @@ location	Santa Cruz de Bezana
 location	Camargo
 location	La Penilla
 location	Peñacastillo
+location	Herrera de Camargo
 location	Muriedas
 location	Santa Maria de Cayon
 location	Saron
@@ -1354,20 +1376,27 @@ location	Selaya
 location	Penagos
 location	Villacarriedo
 location	Pontejos
+location	Vega de Pas
 location	Anaz
 location	Marina de Cudeyo
+location	Orejo
 location	Lierganes
 location	Solares
 location	San Roque de Riomiera
 location	Loredo
+location	La Cavada
+location	Anero
 location	Somo
 location	Meruelo
+location	Beranga
 location	Arnuero
+location	Noja
 location	Ramales de la Victoria
 location	Mortera
 location	Santona
 location	Laredo
 location	Ampuero
+location	Guriezo
 location	Castro Urdiales
 location	Cueto
 
@@ -1639,20 +1668,25 @@ location	Sarroca de Lleida
 location	Alguaire
 location	Lleida
 location	Algerri
+location	Alcoletge
 location	La Clua
 location	Juncosa
 location	Balaguer
 location	Vallfogona de Balaguer
+location	Bellvis
 location	Juneda
 location	Les Borges Blanques
+location	Tremp
 location	Mollerussa
 location	Linyola
+location	Gavet de La Conca
 location	Bellpuig
 location	La Fuliola
 location	Cambrils
 location	Agramunt
 location	Sort
 location	Tarrega
+location	Cervera
 location	Solsona
 location	El Vendrell
 location	Jorba
@@ -1660,6 +1694,7 @@ location	Calafell
 location	Santa Margarida de Montbui
 location	Cardona
 location	Sant Pere de Riudebitlles
+location	Vilanova i la Geltru
 location	Suria
 location	Callus
 location	Hostalrich
@@ -1686,6 +1721,7 @@ location	Sant Andreu de la Barca
 location	Castelldefels
 location	Castellbisbal
 location	Palleja
+location	Gava
 location	Terrassa
 location	Viladecans
 location	Santa Coloma de Cervello
@@ -1745,6 +1781,7 @@ location	Can Tries
 location	Montgat
 location	Canovelles
 location	Manlleu
+location	Sant Joan de les Abadesses
 location	Taradell
 location	Vilanova del Vallés
 location	La Garriga
@@ -2260,6 +2297,7 @@ location	Bourgoin-Jallieu
 location	Saint-Verand
 location	Saint-Etienne-de-Saint-Geoirs
 location	Montagnieu
+location	Vezeronce-Curtin
 location	St Gervais D Auvergne
 location	Voiron
 location	Oyonnax
@@ -2391,6 +2429,7 @@ location	Villeneuve-Loubet
 location	Cagnes-sur-Mer
 location	Alpes Maritimes
 location	Nice
+location	Tende
 
 # Corse
 location	Porto-Vecchio
@@ -2664,6 +2703,7 @@ location	Buggenhout
 # Sint-Niklaas
 location	Lokeren
 location	Stekene
+location	Kemzeke
 location	Sint-Gillis-Waas
 location	Kieldrecht
 location	Vrasene
@@ -2794,6 +2834,7 @@ location	Broechem
 location	Emblem
 location	Massenhoven
 location	Brecht
+location	Loenhout
 location	Zandhoven
 location	Zoersel
 location	Sint-Lenaarts
@@ -5846,7 +5887,9 @@ location	Oswaldo Cruz
 location	Taruma
 location	Auriflama
 location	Jales
+location	Bora
 location	Tupa
+location	Bilac
 location	Araçatuba
 location	Assis
 location	Candido Mota
@@ -5864,6 +5907,7 @@ location	Ribeirao do Sul
 location	Cardoso
 location	Ourinhos
 location	Vera Cruz (São Paulo)
+location	Julio Mesquita
 location	Lins
 location	Sao Pedro do Turvo
 location	Ubarana
@@ -5882,26 +5926,36 @@ location	Bauru
 location	Borebi
 location	Catanduva
 location	Avare
+location	Olimpia
 location	Lencois Paulista
 location	Jau
 location	Igaracu do Tiete
 location	Guapiara
 location	Bocaina
+location	Taiacu
 location	Taquaritinga
 location	Angatuba
 location	Dois Corregos
+location	Capao Bonito
+location	Guariba
 location	Araraquara
 location	Cajati
+location	Morro Agudo
 location	Itapetininga
 location	Sao Miguel Arcanjo
 location	Cesário Lange
 location	Sete Barras
 location	Pariquera-Acu
 location	Tatui
+location	Sales Oliveira
 location	Ribeirao Preto
+location	Capela do Alto
 location	Tiete
+location	Ipero
+location	Boituva
 location	Piracicaba
 location	Juquia
+location	Aracoiaba Da Serra
 location	Rio Claro SP
 location	Iguape
 location	Porto Feliz
@@ -5910,6 +5964,7 @@ location	Sorocaba
 location	Votorantim
 location	Santa Barbara D'Oeste
 location	Limeira
+location	Franca
 location	Araras
 location	Americana
 location	Itu
@@ -5919,17 +5974,22 @@ location	Sumare
 location	Ibiuna
 location	Indaiatuba
 location	Hortolandia
+location	Mairinque
 location	Itariri
+location	Sao Roque
 location	Juquitiba
 location	Campinas
 location	Vargem Grande Paulista
 location	Mococa
 location	Peruibe
 location	Valinhos
+location	Jaguariuna
 location	Mogi-Guacu
 location	Cotia
 location	Santana de Parnaiba
 location	Jandira
+location	Pedreira
+location	Vargem Grande do Sul
 location	Sao Jose do Rio Pardo
 location	Jundiai
 location	Cajamar
@@ -5940,8 +6000,10 @@ location	Itatiba
 location	Embu-Guacu
 location	Osasco
 location	Itanhaem
+location	Sao Joao Da Boa Vista
 location	Taboao Da Serra
 location	Amparo
+location	Francisco Morato
 location	Caieiras
 location	Jarinu
 location	São Paulo
@@ -5968,10 +6030,12 @@ location	Suzano
 location	Guarujá
 location	Santa Isabel
 location	Mogi Das Cruzes
+location	Bertioga
 location	Biritiba Mirim
 location	Guararema
 location	Jacareí
 location	Sao Jose Dos Campos
+location	Cacapava
 location	Taubate
 location	Pindamonhangaba
 location	Caraguatatuba
@@ -6109,8 +6173,10 @@ location	Nossa Senhora Da Gloria
 # Pernambuco
 location	Araripina
 location	Serra Talhada
+location	Petrolandia
 location	Tabira
 location	Sao Jose do Egito
+location	Itapetim
 location	Arcoverde
 location	Pesqueira
 location	Sao Bento do Una
@@ -6255,6 +6321,7 @@ location	Machala
 # Loja
 location	Macara
 location	Catamayo
+location	Loja EC
 
 # Los Rios EC
 location	Babahoyo
@@ -6293,9 +6360,16 @@ location	Quito
 location	Cayambe
 
 # Imbabura
+location	Gonzalez Suarez
+location	Cuenca Lago San Pablo
+location	Eugenio Espejo
 location	San Pablo EC
 location	Otavalo
+location	Miguel Egas
 location	Jordán
+location	Imbabura
+location	Iluman
+location	San Roque EC
 location	Andrade Marin
 location	Atuntaqui
 location	Antonio Ante
@@ -6352,7 +6426,7 @@ location	El Cerrito
 location	Buga
 location	Tulua
 location	Andalucia
-location	Trujillo
+location	Trujillo CO
 
 # Tolima
 location	Ibague
@@ -6506,7 +6580,7 @@ location	Portobelo
 location	Lídice
 location	La Chorrera
 location	Herrera (Panama Oeste)
-location	Guadalupe
+location	Guadalupe PA
 location	El Coco
 location	Barrio Balboa
 location	Feuillet
@@ -6782,6 +6856,7 @@ location	Jefferson County OR
 location	Wasco County
 location	Deschutes County
 location	Sherman County
+location	Grant County OR
 location	Umatilla County
 location	Union County OR
 
@@ -7057,6 +7132,7 @@ location	Limestone County TX
 location	Colorado County
 location	Colorado County TX
 location	Robertson County
+location	Navarro County
 location	Rockwall County
 location	Washington County TX
 location	Brazos County
@@ -7067,6 +7143,7 @@ location	Wharton County
 location	Freestone County
 location	Fannin County TX
 location	Hunt County
+location	Matagorda County
 location	Waller County
 location	Leon County
 location	Grimes County
@@ -8764,11 +8841,13 @@ division	Burgenland
 division	Pula
 division	Istria
 division	Croatia
+division	Lika-Senj County
 division	Karlovac County
 division	Krapina-Zagorje County
 division	Zagreb
 division	Sibenik-Knin County
 division	Split-Dalmatia County
+division	Zagreb County
 division	Varaždin County
 division	Varazdin
 division	Split
