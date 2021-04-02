@@ -13,8 +13,12 @@ inputs:
     metadata: "data/example_metadata_aus.tsv"
     sequences: "data/example_sequences_aus.fasta"
   - name: global
+    # Define local paths to a pre-filtered global context.
     metadata: "data/global_subsampled_metadata.tsv.gz"
     filtered: "data/global_subsampled_sequences.fasta.gz"
+    # Paths to files on S3 also work. For example:
+    #metadata: "s3://nextstrain-ncov-private/global_subsampled_metadata.tsv.xz"
+    #filtered: "s3://nextstrain-ncov-private/global_subsampled_sequences.fasta.xz"
     # TODO: ideally, we could support something like the following, to inject
     # a collection of contextual sequences into the analysis after all other
     # subsampling.
