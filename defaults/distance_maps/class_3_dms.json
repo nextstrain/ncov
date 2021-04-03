@@ -2,1425 +2,1165 @@
   "default": 0,
   "map": {
     "S": {
-      "336": [
-        {
-          "to": "C",
-          "from": "G",
-          "weight": 0.0245294
-        }
-      ],
       "345": [
         {
-          "to": "T",
-          "from": "K",
+          "from": "T",
+          "to": "K",
           "weight": 0.0798315
         },
         {
-          "to": "T",
-          "from": "R",
+          "from": "T",
+          "to": "R",
           "weight": 0.07411100000000001
         }
       ],
       "346": [
         {
-          "to": "R",
-          "from": "A",
+          "from": "R",
+          "to": "A",
           "weight": 0.3037944
         },
         {
-          "to": "R",
-          "from": "C",
+          "from": "R",
+          "to": "C",
           "weight": 0.3298586
         },
         {
-          "to": "R",
-          "from": "D",
+          "from": "R",
+          "to": "D",
           "weight": 0.5184742
         },
         {
-          "to": "R",
-          "from": "E",
+          "from": "R",
+          "to": "E",
           "weight": 0.5306607999999999
         },
         {
-          "to": "R",
-          "from": "F",
+          "from": "R",
+          "to": "F",
           "weight": 0.3204244
         },
         {
-          "to": "R",
-          "from": "G",
+          "from": "R",
+          "to": "G",
           "weight": 0.2617252
         },
         {
-          "to": "R",
-          "from": "H",
+          "from": "R",
+          "to": "H",
           "weight": 0.1466194
         },
         {
-          "to": "R",
-          "from": "I",
+          "from": "R",
+          "to": "I",
           "weight": 0.2934758
         },
         {
-          "to": "R",
-          "from": "K",
+          "from": "R",
+          "to": "K",
           "weight": 0.1653138
         },
         {
-          "to": "R",
-          "from": "L",
+          "from": "R",
+          "to": "L",
           "weight": 0.32058280000000006
         },
         {
-          "to": "R",
-          "from": "M",
+          "from": "R",
+          "to": "M",
           "weight": 0.3066586
         },
         {
-          "to": "R",
-          "from": "N",
+          "from": "R",
+          "to": "N",
           "weight": 0.3510642
         },
         {
-          "to": "R",
-          "from": "Q",
+          "from": "R",
+          "to": "Q",
           "weight": 0.3183776
         },
         {
-          "to": "R",
-          "from": "S",
+          "from": "R",
+          "to": "S",
           "weight": 0.318824
         },
         {
-          "to": "R",
-          "from": "T",
+          "from": "R",
+          "to": "T",
           "weight": 0.34185079999999995
         },
         {
-          "to": "R",
-          "from": "V",
+          "from": "R",
+          "to": "V",
           "weight": 0.32762040000000003
         },
         {
-          "to": "R",
-          "from": "W",
+          "from": "R",
+          "to": "W",
           "weight": 0.3024584
         },
         {
-          "to": "R",
-          "from": "Y",
-          "weight": 0.3398274
-        }
-      ],
-      "358": [
-        {
-          "to": "I",
-          "from": "C",
-          "weight": 0.013873400000000003
-        }
-      ],
-      "359": [
-        {
-          "to": "S",
-          "from": "V",
-          "weight": 0.0149748
-        }
-      ],
-      "361": [
-        {
-          "to": "C",
-          "from": "N",
-          "weight": 0.01028772
-        }
-      ],
-      "365": [
-        {
+          "from": "R",
           "to": "Y",
-          "from": "C",
-          "weight": 0.011593999999999998
-        }
-      ],
-      "366": [
-        {
-          "to": "S",
-          "from": "P",
-          "weight": 0.01909796
+          "weight": 0.3398274
         }
       ],
       "371": [
         {
-          "to": "S",
-          "from": "N",
+          "from": "S",
+          "to": "N",
           "weight": 0.11084989999999999
-        }
-      ],
-      "374": [
-        {
-          "to": "F",
-          "from": "N",
-          "weight": 0.01009664
-        }
-      ],
-      "382": [
-        {
-          "to": "V",
-          "from": "M",
-          "weight": 0.01302075
         }
       ],
       "406": [
         {
-          "to": "E",
-          "from": "W",
+          "from": "E",
+          "to": "W",
           "weight": 0.23984679999999997
         }
       ],
       "439": [
         {
-          "to": "N",
-          "from": "K",
-          "weight": 0.0151916
-        },
-        {
-          "to": "N",
-          "from": "S",
+          "from": "N",
+          "to": "S",
           "weight": 0.1323018
         },
         {
-          "to": "N",
-          "from": "T",
+          "from": "N",
+          "to": "T",
           "weight": 0.1710356
         },
         {
-          "to": "N",
-          "from": "Y",
+          "from": "N",
+          "to": "Y",
           "weight": 0.13302326
         }
       ],
       "440": [
         {
-          "to": "N",
-          "from": "C",
-          "weight": 0.0204008
-        },
-        {
-          "to": "N",
-          "from": "D",
+          "from": "N",
+          "to": "D",
           "weight": 0.09529380000000001
         },
         {
-          "to": "N",
-          "from": "E",
+          "from": "N",
+          "to": "E",
           "weight": 0.12915978
         },
         {
-          "to": "N",
-          "from": "F",
+          "from": "N",
+          "to": "F",
           "weight": 0.23890766000000002
         },
         {
-          "to": "N",
-          "from": "I",
+          "from": "N",
+          "to": "I",
           "weight": 0.26768436
         },
         {
-          "to": "N",
-          "from": "K",
+          "from": "N",
+          "to": "K",
           "weight": 0.2775538
         },
         {
-          "to": "N",
-          "from": "L",
+          "from": "N",
+          "to": "L",
           "weight": 0.3306182
         },
         {
-          "to": "N",
-          "from": "M",
+          "from": "N",
+          "to": "M",
           "weight": 0.1154898
         },
         {
-          "to": "N",
-          "from": "Q",
-          "weight": 0.03827319999999999
-        },
-        {
-          "to": "N",
-          "from": "R",
-          "weight": 0.0473538
-        },
-        {
-          "to": "N",
-          "from": "T",
+          "from": "N",
+          "to": "T",
           "weight": 0.10331599999999999
         },
         {
-          "to": "N",
-          "from": "V",
+          "from": "N",
+          "to": "V",
           "weight": 0.14917439999999998
         },
         {
-          "to": "N",
-          "from": "Y",
+          "from": "N",
+          "to": "Y",
           "weight": 0.11310624
         }
       ],
       "441": [
         {
-          "to": "L",
-          "from": "A",
-          "weight": 0.0178818
-        },
-        {
-          "to": "L",
-          "from": "S",
+          "from": "L",
+          "to": "S",
           "weight": 0.2695254
         }
       ],
       "443": [
         {
-          "to": "S",
-          "from": "C",
-          "weight": 0.043511
-        },
-        {
-          "to": "S",
-          "from": "N",
+          "from": "S",
+          "to": "N",
           "weight": 0.1787134
         },
         {
-          "to": "S",
-          "from": "Q",
+          "from": "S",
+          "to": "Q",
           "weight": 0.18977119999999997
         },
         {
-          "to": "S",
-          "from": "T",
-          "weight": 0.012380599999999999
-        },
-        {
-          "to": "S",
-          "from": "V",
+          "from": "S",
+          "to": "V",
           "weight": 0.0688226
         },
         {
-          "to": "S",
-          "from": "Y",
+          "from": "S",
+          "to": "Y",
           "weight": 0.4292224
         }
       ],
       "444": [
         {
-          "to": "K",
-          "from": "A",
+          "from": "K",
+          "to": "A",
           "weight": 0.5891074
         },
         {
-          "to": "K",
-          "from": "C",
+          "from": "K",
+          "to": "C",
           "weight": 0.43643020000000005
         },
         {
-          "to": "K",
-          "from": "D",
+          "from": "K",
+          "to": "D",
           "weight": 0.6146986
         },
         {
-          "to": "K",
-          "from": "E",
+          "from": "K",
+          "to": "E",
           "weight": 0.6937684
         },
         {
-          "to": "K",
-          "from": "F",
+          "from": "K",
+          "to": "F",
           "weight": 0.6709736000000001
         },
         {
-          "to": "K",
-          "from": "G",
+          "from": "K",
+          "to": "G",
           "weight": 0.5995812
         },
         {
-          "to": "K",
-          "from": "H",
+          "from": "K",
+          "to": "H",
           "weight": 0.391668
         },
         {
-          "to": "K",
-          "from": "I",
+          "from": "K",
+          "to": "I",
           "weight": 0.6968282
         },
         {
-          "to": "K",
-          "from": "L",
+          "from": "K",
+          "to": "L",
           "weight": 0.7105602000000001
         },
         {
-          "to": "K",
-          "from": "M",
+          "from": "K",
+          "to": "M",
           "weight": 0.605607
         },
         {
-          "to": "K",
-          "from": "N",
+          "from": "K",
+          "to": "N",
           "weight": 0.3767246
         },
         {
-          "to": "K",
-          "from": "P",
+          "from": "K",
+          "to": "P",
           "weight": 0.5552968
         },
         {
-          "to": "K",
-          "from": "Q",
+          "from": "K",
+          "to": "Q",
           "weight": 0.5914686
         },
         {
-          "to": "K",
-          "from": "R",
+          "from": "K",
+          "to": "R",
           "weight": 0.19620959999999998
         },
         {
-          "to": "K",
-          "from": "S",
+          "from": "K",
+          "to": "S",
           "weight": 0.409393
         },
         {
-          "to": "K",
-          "from": "T",
+          "from": "K",
+          "to": "T",
           "weight": 0.42151379999999994
         },
         {
-          "to": "K",
-          "from": "V",
+          "from": "K",
+          "to": "V",
           "weight": 0.6405597999999999
         },
         {
-          "to": "K",
-          "from": "W",
+          "from": "K",
+          "to": "W",
           "weight": 0.7224117999999999
         },
         {
-          "to": "K",
-          "from": "Y",
+          "from": "K",
+          "to": "Y",
           "weight": 0.6863608
         }
       ],
       "445": [
         {
-          "to": "V",
-          "from": "A",
+          "from": "V",
+          "to": "A",
           "weight": 0.199583
         },
         {
-          "to": "V",
-          "from": "C",
+          "from": "V",
+          "to": "C",
           "weight": 0.21661099999999997
         },
         {
-          "to": "V",
-          "from": "D",
+          "from": "V",
+          "to": "D",
           "weight": 0.4087136
         },
         {
-          "to": "V",
-          "from": "E",
+          "from": "V",
+          "to": "E",
           "weight": 0.253755
         },
         {
-          "to": "V",
-          "from": "F",
+          "from": "V",
+          "to": "F",
           "weight": 0.18541126000000002
         },
         {
-          "to": "V",
-          "from": "G",
+          "from": "V",
+          "to": "G",
           "weight": 0.5644624
         },
         {
-          "to": "V",
-          "from": "H",
+          "from": "V",
+          "to": "H",
           "weight": 0.18146288000000002
         },
         {
-          "to": "V",
-          "from": "K",
+          "from": "V",
+          "to": "K",
           "weight": 0.298359
         },
         {
-          "to": "V",
-          "from": "L",
+          "from": "V",
+          "to": "L",
           "weight": 0.16238022
         },
         {
-          "to": "V",
-          "from": "M",
+          "from": "V",
+          "to": "M",
           "weight": 0.09600882
         },
         {
-          "to": "V",
-          "from": "N",
+          "from": "V",
+          "to": "N",
           "weight": 0.3080868
         },
         {
-          "to": "V",
-          "from": "P",
+          "from": "V",
+          "to": "P",
           "weight": 0.48123839999999996
         },
         {
-          "to": "V",
-          "from": "Q",
+          "from": "V",
+          "to": "Q",
           "weight": 0.20011792
         },
         {
-          "to": "V",
-          "from": "R",
+          "from": "V",
+          "to": "R",
           "weight": 0.288296
         },
         {
-          "to": "V",
-          "from": "S",
+          "from": "V",
+          "to": "S",
           "weight": 0.254824
         },
         {
-          "to": "V",
-          "from": "T",
+          "from": "V",
+          "to": "T",
           "weight": 0.19063532
         },
         {
-          "to": "V",
-          "from": "W",
+          "from": "V",
+          "to": "W",
           "weight": 0.24904137999999998
         },
         {
-          "to": "V",
-          "from": "Y",
+          "from": "V",
+          "to": "Y",
           "weight": 0.284051
         }
       ],
       "446": [
         {
-          "to": "G",
-          "from": "A",
+          "from": "G",
+          "to": "A",
           "weight": 0.1515966
         },
         {
-          "to": "G",
-          "from": "C",
+          "from": "G",
+          "to": "C",
           "weight": 0.24094169999999998
         },
         {
-          "to": "G",
-          "from": "D",
+          "from": "G",
+          "to": "D",
           "weight": 0.30399499999999996
         },
         {
-          "to": "G",
-          "from": "E",
+          "from": "G",
+          "to": "E",
           "weight": 0.3512254
         },
         {
-          "to": "G",
-          "from": "F",
+          "from": "G",
+          "to": "F",
           "weight": 0.27414299999999997
         },
         {
-          "to": "G",
-          "from": "H",
+          "from": "G",
+          "to": "H",
           "weight": 0.2579862
         },
         {
-          "to": "G",
-          "from": "I",
+          "from": "G",
+          "to": "I",
           "weight": 0.3582484
         },
         {
-          "to": "G",
-          "from": "K",
+          "from": "G",
+          "to": "K",
           "weight": 0.3551322
         },
         {
-          "to": "G",
-          "from": "L",
+          "from": "G",
+          "to": "L",
           "weight": 0.356259
         },
         {
-          "to": "G",
-          "from": "M",
+          "from": "G",
+          "to": "M",
           "weight": 0.17045818
         },
         {
-          "to": "G",
-          "from": "N",
+          "from": "G",
+          "to": "N",
           "weight": 0.2365548
         },
         {
-          "to": "G",
-          "from": "P",
+          "from": "G",
+          "to": "P",
           "weight": 0.5213319999999999
         },
         {
-          "to": "G",
-          "from": "Q",
+          "from": "G",
+          "to": "Q",
           "weight": 0.2141458
         },
         {
-          "to": "G",
-          "from": "R",
+          "from": "G",
+          "to": "R",
           "weight": 0.39823519999999996
         },
         {
-          "to": "G",
-          "from": "S",
+          "from": "G",
+          "to": "S",
           "weight": 0.1663554
         },
         {
-          "to": "G",
-          "from": "T",
+          "from": "G",
+          "to": "T",
           "weight": 0.28024499999999997
         },
         {
-          "to": "G",
-          "from": "V",
+          "from": "G",
+          "to": "V",
           "weight": 0.462721
         },
         {
-          "to": "G",
-          "from": "W",
+          "from": "G",
+          "to": "W",
           "weight": 0.23014320000000002
         },
         {
-          "to": "G",
-          "from": "Y",
+          "from": "G",
+          "to": "Y",
           "weight": 0.2830982
         }
       ],
       "447": [
         {
-          "to": "G",
-          "from": "A",
+          "from": "G",
+          "to": "A",
           "weight": 0.0551928
         },
         {
-          "to": "G",
-          "from": "C",
+          "from": "G",
+          "to": "C",
           "weight": 0.19147820000000002
         },
         {
-          "to": "G",
-          "from": "D",
+          "from": "G",
+          "to": "D",
           "weight": 0.64325
         },
         {
-          "to": "G",
-          "from": "E",
+          "from": "G",
+          "to": "E",
           "weight": 0.5971848
         },
         {
-          "to": "G",
-          "from": "F",
+          "from": "G",
+          "to": "F",
           "weight": 0.41575819999999997
         },
         {
-          "to": "G",
-          "from": "H",
+          "from": "G",
+          "to": "H",
           "weight": 0.4406618
         },
         {
-          "to": "G",
-          "from": "I",
+          "from": "G",
+          "to": "I",
           "weight": 0.397663
         },
         {
-          "to": "G",
-          "from": "K",
+          "from": "G",
+          "to": "K",
           "weight": 0.2593776
         },
         {
-          "to": "G",
-          "from": "L",
+          "from": "G",
+          "to": "L",
           "weight": 0.6504380000000001
         },
         {
-          "to": "G",
-          "from": "M",
+          "from": "G",
+          "to": "M",
           "weight": 0.36774680000000004
         },
         {
-          "to": "G",
-          "from": "N",
+          "from": "G",
+          "to": "N",
           "weight": 0.4769696
         },
         {
-          "to": "G",
-          "from": "P",
+          "from": "G",
+          "to": "P",
           "weight": 0.633794
         },
         {
-          "to": "G",
-          "from": "Q",
+          "from": "G",
+          "to": "Q",
           "weight": 0.4246568
         },
         {
-          "to": "G",
-          "from": "R",
+          "from": "G",
+          "to": "R",
           "weight": 0.11817420000000001
         },
         {
-          "to": "G",
-          "from": "S",
+          "from": "G",
+          "to": "S",
           "weight": 0.23367199999999996
         },
         {
-          "to": "G",
-          "from": "T",
+          "from": "G",
+          "to": "T",
           "weight": 0.3617072
         },
         {
-          "to": "G",
-          "from": "V",
+          "from": "G",
+          "to": "V",
           "weight": 0.42483339999999997
         },
         {
-          "to": "G",
-          "from": "Y",
+          "from": "G",
+          "to": "Y",
           "weight": 0.45157959999999997
         }
       ],
       "448": [
         {
-          "to": "N",
-          "from": "A",
+          "from": "N",
+          "to": "A",
           "weight": 0.10111080000000001
         },
         {
-          "to": "N",
-          "from": "C",
+          "from": "N",
+          "to": "C",
           "weight": 0.1122708
         },
         {
-          "to": "N",
-          "from": "D",
+          "from": "N",
+          "to": "D",
           "weight": 0.4527072
         },
         {
-          "to": "N",
-          "from": "E",
+          "from": "N",
+          "to": "E",
           "weight": 0.24817940000000002
         },
         {
-          "to": "N",
-          "from": "G",
+          "from": "N",
+          "to": "G",
           "weight": 0.444735
         },
         {
-          "to": "N",
-          "from": "H",
+          "from": "N",
+          "to": "H",
           "weight": 0.12154228
         },
         {
-          "to": "N",
-          "from": "K",
+          "from": "N",
+          "to": "K",
           "weight": 0.5828276000000001
         },
         {
-          "to": "N",
-          "from": "P",
+          "from": "N",
+          "to": "P",
           "weight": 0.67946
         },
         {
-          "to": "N",
-          "from": "Q",
+          "from": "N",
+          "to": "Q",
           "weight": 0.3229106
         },
         {
-          "to": "N",
-          "from": "R",
+          "from": "N",
+          "to": "R",
           "weight": 0.6616658
         },
         {
-          "to": "N",
-          "from": "S",
-          "weight": 0.019229000000000003
-        },
-        {
-          "to": "N",
-          "from": "T",
+          "from": "N",
+          "to": "T",
           "weight": 0.19518399999999997
         },
         {
-          "to": "N",
-          "from": "V",
+          "from": "N",
+          "to": "V",
           "weight": 0.45912320000000006
         },
         {
-          "to": "N",
-          "from": "Y",
+          "from": "N",
+          "to": "Y",
           "weight": 0.3694306
         }
       ],
       "449": [
         {
-          "to": "Y",
-          "from": "A",
+          "from": "Y",
+          "to": "A",
           "weight": 0.20573519999999998
         },
         {
-          "to": "Y",
-          "from": "C",
-          "weight": 0.0405404
-        },
-        {
-          "to": "Y",
-          "from": "D",
+          "from": "Y",
+          "to": "D",
           "weight": 0.3496384
         },
         {
-          "to": "Y",
-          "from": "E",
+          "from": "Y",
+          "to": "E",
           "weight": 0.21995520000000002
         },
         {
-          "to": "Y",
-          "from": "G",
-          "weight": 0.0198684
-        },
-        {
-          "to": "Y",
-          "from": "I",
+          "from": "Y",
+          "to": "I",
           "weight": 0.1959676
         },
         {
-          "to": "Y",
-          "from": "K",
+          "from": "Y",
+          "to": "K",
           "weight": 0.42225900000000005
         },
         {
-          "to": "Y",
-          "from": "L",
+          "from": "Y",
+          "to": "L",
           "weight": 0.3241908
         },
         {
-          "to": "Y",
-          "from": "N",
+          "from": "Y",
+          "to": "N",
           "weight": 0.08057
         },
         {
-          "to": "Y",
-          "from": "P",
+          "from": "Y",
+          "to": "P",
           "weight": 0.28119679999999997
         },
         {
-          "to": "Y",
-          "from": "Q",
+          "from": "Y",
+          "to": "Q",
           "weight": 0.1910191
         },
         {
-          "to": "Y",
-          "from": "R",
+          "from": "Y",
+          "to": "R",
           "weight": 0.3867184
         },
         {
-          "to": "Y",
-          "from": "S",
+          "from": "Y",
+          "to": "S",
           "weight": 0.1911642
         },
         {
-          "to": "Y",
-          "from": "T",
+          "from": "Y",
+          "to": "T",
           "weight": 0.24992679999999998
         },
         {
-          "to": "Y",
-          "from": "V",
+          "from": "Y",
+          "to": "V",
           "weight": 0.21443334000000003
         }
       ],
       "450": [
         {
-          "to": "N",
-          "from": "D",
+          "from": "N",
+          "to": "D",
           "weight": 0.2728526
         },
         {
-          "to": "N",
-          "from": "E",
+          "from": "N",
+          "to": "E",
           "weight": 0.05322519999999999
         },
         {
-          "to": "N",
-          "from": "P",
+          "from": "N",
+          "to": "P",
           "weight": 0.702232
         },
         {
-          "to": "N",
-          "from": "T",
+          "from": "N",
+          "to": "T",
           "weight": 0.6689
         }
       ],
       "452": [
         {
-          "to": "L",
-          "from": "A",
-          "weight": 0.013710599999999998
-        },
-        {
-          "to": "L",
-          "from": "D",
+          "from": "L",
+          "to": "D",
           "weight": 0.17115306
         },
         {
-          "to": "L",
-          "from": "E",
+          "from": "L",
+          "to": "E",
           "weight": 0.1927298
         },
         {
-          "to": "L",
-          "from": "F",
+          "from": "L",
+          "to": "F",
           "weight": 0.19671360000000002
         },
         {
-          "to": "L",
-          "from": "G",
-          "weight": 0.011166600000000002
-        },
-        {
-          "to": "L",
-          "from": "H",
+          "from": "L",
+          "to": "H",
           "weight": 0.165831
         },
         {
-          "to": "L",
-          "from": "K",
+          "from": "L",
+          "to": "K",
           "weight": 0.19558540000000002
         },
         {
-          "to": "L",
-          "from": "N",
+          "from": "L",
+          "to": "N",
           "weight": 0.0638286
         },
         {
-          "to": "L",
-          "from": "Q",
-          "weight": 0.0375318
-        },
-        {
-          "to": "L",
-          "from": "R",
+          "from": "L",
+          "to": "R",
           "weight": 0.19686824
         },
         {
-          "to": "L",
-          "from": "S",
+          "from": "L",
+          "to": "S",
           "weight": 0.18590984
         },
         {
-          "to": "L",
-          "from": "T",
+          "from": "L",
+          "to": "T",
           "weight": 0.1725516
         },
         {
-          "to": "L",
-          "from": "W",
+          "from": "L",
+          "to": "W",
           "weight": 0.19722414000000002
         },
         {
-          "to": "L",
-          "from": "Y",
+          "from": "L",
+          "to": "Y",
           "weight": 0.19617120000000002
-        }
-      ],
-      "456": [
-        {
-          "to": "F",
-          "from": "M",
-          "weight": 0.014701750000000001
-        },
-        {
-          "to": "F",
-          "from": "Y",
-          "weight": 0.0201108
-        }
-      ],
-      "484": [
-        {
-          "to": "E",
-          "from": "C",
-          "weight": 0.01194302
         }
       ],
       "490": [
         {
-          "to": "F",
-          "from": "A",
+          "from": "F",
+          "to": "A",
           "weight": 0.18832314
         },
         {
-          "to": "F",
-          "from": "C",
-          "weight": 0.030869599999999997
-        },
-        {
-          "to": "F",
-          "from": "D",
+          "from": "F",
+          "to": "D",
           "weight": 0.20097179999999998
         },
         {
-          "to": "F",
-          "from": "E",
+          "from": "F",
+          "to": "E",
           "weight": 0.19191632000000003
         },
         {
-          "to": "F",
-          "from": "G",
-          "weight": 0.045547
-        },
-        {
-          "to": "F",
-          "from": "I",
-          "weight": 0.015385
-        },
-        {
-          "to": "F",
-          "from": "K",
+          "from": "F",
+          "to": "K",
           "weight": 0.19183676
         },
         {
-          "to": "F",
-          "from": "N",
+          "from": "F",
+          "to": "N",
           "weight": 0.18523934000000003
         },
         {
-          "to": "F",
-          "from": "P",
+          "from": "F",
+          "to": "P",
           "weight": 0.1711852
         },
         {
-          "to": "F",
-          "from": "Q",
+          "from": "F",
+          "to": "Q",
           "weight": 0.1309295
         },
         {
-          "to": "F",
-          "from": "R",
+          "from": "F",
+          "to": "R",
           "weight": 0.18169284000000002
         },
         {
-          "to": "F",
-          "from": "S",
+          "from": "F",
+          "to": "S",
           "weight": 0.1500966
         },
         {
-          "to": "F",
-          "from": "T",
+          "from": "F",
+          "to": "T",
           "weight": 0.06946359999999999
-        },
-        {
-          "to": "F",
-          "from": "V",
-          "weight": 0.041500999999999996
         }
       ],
       "494": [
         {
-          "to": "S",
-          "from": "D",
+          "from": "S",
+          "to": "D",
           "weight": 0.21237600000000004
         },
         {
-          "to": "S",
-          "from": "F",
+          "from": "S",
+          "to": "F",
           "weight": 0.1583768
         },
         {
-          "to": "S",
-          "from": "H",
+          "from": "S",
+          "to": "H",
           "weight": 0.18903520000000001
         },
         {
-          "to": "S",
-          "from": "I",
+          "from": "S",
+          "to": "I",
           "weight": 0.1823174
         },
         {
-          "to": "S",
-          "from": "K",
+          "from": "S",
+          "to": "K",
           "weight": 0.37035
         },
         {
-          "to": "S",
-          "from": "M",
+          "from": "S",
+          "to": "M",
           "weight": 0.19358716000000004
         },
         {
-          "to": "S",
-          "from": "N",
+          "from": "S",
+          "to": "N",
           "weight": 0.19051228
         },
         {
-          "to": "S",
-          "from": "P",
+          "from": "S",
+          "to": "P",
           "weight": 0.05828890000000001
         },
         {
-          "to": "S",
-          "from": "R",
+          "from": "S",
+          "to": "R",
           "weight": 0.25775080000000006
         },
         {
-          "to": "S",
-          "from": "V",
+          "from": "S",
+          "to": "V",
           "weight": 0.15753060000000002
         },
         {
-          "to": "S",
-          "from": "W",
+          "from": "S",
+          "to": "W",
           "weight": 0.1920812
         },
         {
-          "to": "S",
-          "from": "Y",
+          "from": "S",
+          "to": "Y",
           "weight": 0.18077740000000003
         }
       ],
       "496": [
         {
-          "to": "G",
-          "from": "C",
-          "weight": 0.04692
-        },
-        {
-          "to": "G",
-          "from": "D",
+          "from": "G",
+          "to": "D",
           "weight": 0.11164659999999997
         },
         {
-          "to": "G",
-          "from": "E",
+          "from": "G",
+          "to": "E",
           "weight": 0.10028788
         },
         {
-          "to": "G",
-          "from": "F",
+          "from": "G",
+          "to": "F",
           "weight": 0.09120140000000002
         },
         {
-          "to": "G",
-          "from": "H",
-          "weight": 0.048821
-        },
-        {
-          "to": "G",
-          "from": "I",
+          "from": "G",
+          "to": "I",
           "weight": 0.08944550000000001
         },
         {
-          "to": "G",
-          "from": "K",
+          "from": "G",
+          "to": "K",
           "weight": 0.07351520000000002
         },
         {
-          "to": "G",
-          "from": "L",
+          "from": "G",
+          "to": "L",
           "weight": 0.08561560000000001
         },
         {
-          "to": "G",
-          "from": "M",
+          "from": "G",
+          "to": "M",
           "weight": 0.058773620000000006
         },
         {
-          "to": "G",
-          "from": "N",
+          "from": "G",
+          "to": "N",
           "weight": 0.0741678
         },
         {
-          "to": "G",
-          "from": "Q",
+          "from": "G",
+          "to": "Q",
           "weight": 0.0862734
         },
         {
-          "to": "G",
-          "from": "R",
+          "from": "G",
+          "to": "R",
           "weight": 0.11071299999999999
         },
         {
-          "to": "G",
-          "from": "S",
-          "weight": 0.012263259999999998
-        },
-        {
-          "to": "G",
-          "from": "T",
+          "from": "G",
+          "to": "T",
           "weight": 0.0725064
         },
         {
-          "to": "G",
-          "from": "V",
+          "from": "G",
+          "to": "V",
           "weight": 0.11102839999999999
         },
         {
-          "to": "G",
-          "from": "W",
+          "from": "G",
+          "to": "W",
           "weight": 0.10119580000000002
         },
         {
-          "to": "G",
-          "from": "Y",
+          "from": "G",
+          "to": "Y",
           "weight": 0.1132914
         }
       ],
       "498": [
         {
-          "to": "Q",
-          "from": "A",
-          "weight": 0.014511199999999998
-        },
-        {
-          "to": "Q",
-          "from": "C",
+          "from": "Q",
+          "to": "C",
           "weight": 0.10618308000000001
         },
         {
-          "to": "Q",
-          "from": "E",
+          "from": "Q",
+          "to": "E",
           "weight": 0.09141142
         },
         {
-          "to": "Q",
-          "from": "F",
+          "from": "Q",
+          "to": "F",
           "weight": 0.0836206
         },
         {
-          "to": "Q",
-          "from": "G",
-          "weight": 0.029544400000000005
-        },
-        {
-          "to": "Q",
-          "from": "I",
+          "from": "Q",
+          "to": "I",
           "weight": 0.10562459999999999
         },
         {
-          "to": "Q",
-          "from": "K",
+          "from": "Q",
+          "to": "K",
           "weight": 0.13153363999999998
         },
         {
-          "to": "Q",
-          "from": "L",
+          "from": "Q",
+          "to": "L",
           "weight": 0.1010906
         },
         {
-          "to": "Q",
-          "from": "M",
+          "from": "Q",
+          "to": "M",
           "weight": 0.0848254
         },
         {
-          "to": "Q",
-          "from": "N",
-          "weight": 0.02535056
-        },
-        {
-          "to": "Q",
-          "from": "R",
+          "from": "Q",
+          "to": "R",
           "weight": 0.08663540000000002
         },
         {
-          "to": "Q",
-          "from": "V",
-          "weight": 0.02697
-        },
-        {
-          "to": "Q",
-          "from": "W",
+          "from": "Q",
+          "to": "W",
           "weight": 0.1523884
         },
         {
-          "to": "Q",
-          "from": "Y",
+          "from": "Q",
+          "to": "Y",
           "weight": 0.09925482000000001
         },
         {
-          "to": "Q",
-          "from": "D",
+          "from": "Q",
+          "to": "D",
           "weight": 0.14033225
         }
       ],
       "499": [
         {
-          "to": "P",
-          "from": "C",
+          "from": "P",
+          "to": "C",
           "weight": 0.1803644
         },
         {
-          "to": "P",
-          "from": "D",
+          "from": "P",
+          "to": "D",
           "weight": 0.268783
         },
         {
-          "to": "P",
-          "from": "E",
+          "from": "P",
+          "to": "E",
           "weight": 0.1859284
         },
         {
-          "to": "P",
-          "from": "G",
+          "from": "P",
+          "to": "G",
           "weight": 0.21594682
         },
         {
-          "to": "P",
-          "from": "H",
+          "from": "P",
+          "to": "H",
           "weight": 0.10338478
         },
         {
-          "to": "P",
-          "from": "L",
-          "weight": 0.012649000000000002
-        },
-        {
-          "to": "P",
-          "from": "M",
-          "weight": 0.048774200000000004
-        },
-        {
-          "to": "P",
-          "from": "N",
+          "from": "P",
+          "to": "N",
           "weight": 0.1818948
         },
         {
-          "to": "P",
-          "from": "Q",
+          "from": "P",
+          "to": "Q",
           "weight": 0.1427097
         },
         {
-          "to": "P",
-          "from": "R",
+          "from": "P",
+          "to": "R",
           "weight": 0.18954608
         },
         {
-          "to": "P",
-          "from": "S",
+          "from": "P",
+          "to": "S",
           "weight": 0.16692820000000003
         },
         {
-          "to": "P",
-          "from": "T",
+          "from": "P",
+          "to": "T",
           "weight": 0.11864866
         },
         {
-          "to": "P",
-          "from": "Y",
+          "from": "P",
+          "to": "Y",
           "weight": 0.071953
         }
       ],
       "500": [
         {
-          "to": "T",
-          "from": "D",
+          "from": "T",
+          "to": "D",
           "weight": 0.23792400000000002
         },
         {
-          "to": "T",
-          "from": "E",
+          "from": "T",
+          "to": "E",
           "weight": 0.07482216
         },
         {
-          "to": "T",
-          "from": "F",
+          "from": "T",
+          "to": "F",
           "weight": 0.0763036
         },
         {
-          "to": "T",
-          "from": "G",
-          "weight": 0.048849420000000005
-        },
-        {
-          "to": "T",
-          "from": "H",
+          "from": "T",
+          "to": "H",
           "weight": 0.08654448000000001
         },
         {
-          "to": "T",
-          "from": "K",
+          "from": "T",
+          "to": "K",
           "weight": 0.10128439999999998
         },
         {
-          "to": "T",
-          "from": "M",
-          "weight": 0.021875520000000002
-        },
-        {
-          "to": "T",
-          "from": "N",
+          "from": "T",
+          "to": "N",
           "weight": 0.06269121999999999
         },
         {
-          "to": "T",
-          "from": "R",
+          "from": "T",
+          "to": "R",
           "weight": 0.11886455999999997
         },
         {
-          "to": "T",
-          "from": "W",
+          "from": "T",
+          "to": "W",
           "weight": 0.06691834
         },
         {
-          "to": "T",
-          "from": "Y",
-          "weight": 0.06302379999999999
-        }
-      ],
-      "501": [
-        {
-          "to": "N",
-          "from": "P",
-          "weight": 0.011877219999999999
-        },
-        {
-          "to": "N",
-          "from": "Q",
-          "weight": 0.017056799999999997
-        }
-      ],
-      "503": [
-        {
-          "to": "V",
-          "from": "S",
-          "weight": 0.01671738
-        },
-        {
-          "to": "V",
           "from": "T",
-          "weight": 0.037593600000000005
+          "to": "Y",
+          "weight": 0.06302379999999999
         }
       ],
       "507": [
         {
-          "to": "P",
-          "from": "A",
-          "weight": 0.07045860000000001
-        }
-      ],
-      "508": [
-        {
-          "to": "Y",
-          "from": "A",
-          "weight": 0.011415
-        }
-      ],
-      "519": [
-        {
-          "to": "H",
-          "from": "Q",
-          "weight": 0.011515319999999999
-        }
-      ],
-      "520": [
-        {
-          "to": "A",
           "from": "P",
-          "weight": 0.012180779999999999
+          "to": "A",
+          "weight": 0.07045860000000001
         }
       ]
     }
