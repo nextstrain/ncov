@@ -49,8 +49,13 @@ if __name__ == '__main__':
     all_scores["sum"] = d.sum(axis=1)
     all_scores["number"] = (d>0).sum(axis=1)
 
-    triple_muts = all_scores.number==3
-    all_scores.loc[triple_muts,:]
 
-    # with open(args.output, 'w') as fh:
-    #     json.dump({"nodes":node_data}, fh)
+    thres = 20
+    for mut_count in [2,3]:
+        mult_muts = all_scores.number==mut_count
+        mult_hits = all_scores.loc[mult_muts,:]
+        print(f"\n# Substantial escape in {mut_count} class vaccines")
+        for r, row in mult_hits.iterrows():
+            if row['sum']>thres:
+                print(f"{r}\t{row.S}\t{row.c1}\t{row.c2}\t{row.c3}\t{row['sum']}")
+
