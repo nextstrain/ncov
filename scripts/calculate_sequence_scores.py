@@ -12,9 +12,14 @@ if __name__ == '__main__':
     )
 
     parser.add_argument('--mutation-summary', type=str)
+    parser.add_argument('--metadata', type=str)
     parser.add_argument('--map', nargs='+')
     parser.add_argument('--attribute-name', nargs='+')
+    parser.add_argument('--min-date', type=str)
+    parser.add_argument('--min-sub-date', type=str)
+    parser.add_argument('--country')
     parser.add_argument('--simple-map', action='store_true')
+    parser.add_argument('--threshold', type=float, default=20)
     args = parser.parse_args()
 
     if type(args.map)==str:
@@ -24,14 +29,16 @@ if __name__ == '__main__':
         args.attribute_name = [args.attribute_name]
 
     mutations = pd.read_csv(args.mutation_summary, sep='\t', index_col=0)['S'].fillna('')
+    meta = pd.read_csv(args.metadata, sep='\t', index_col=0).fillna('')
     positions = {}
     positions_with_muts = {}
     for s,v in mutations.items():
-        positions[s] = [int(x[1:-1]) for x in v.split(',')] if v else []
-        positions_with_muts[s] = [(int(x[1:-1]), x[0], x[-1]) for x in v.split(',')] if v else []
+        positions[s] = [int(x[1:-1])-1 for x in v.split(',')] if v else []
+        positions_with_muts[s] = [(int(x[1:-1])-1, x[0], x[-1]) for x in v.split(',')] if v else []
         if len(positions[s])>30:
             print('excluding',s)
             positions[s]=[]
+            positions_with_muts[s]=[]
 
     L=1400
     scores = defaultdict(dict)
@@ -52,23 +59,37 @@ if __name__ == '__main__':
             for s, muts in positions_with_muts.items():
                 val = 0
                 for pos, wt, m in muts:
-                    if pos in dmap["map"]:
-                        val += dmap["map"][pos].get((wt,m),0)
+                    if pos in dmap["map"]['S']:
+                        val += dmap["map"]['S'][pos].get((wt,m),0)
                 scores[s][attribute] = val
 
     d = pd.DataFrame(scores).T
 
-    all_scores = pd.concat([mutations, d], axis=1)
+    all_scores = pd.concat([mutations, d, meta.loc[:, ["date", "date_submitted", "country"]]], axis=1).loc[d.index]
     all_scores["sum"] = d.sum(axis=1)
     all_scores["number"] = (d>0).sum(axis=1)
 
 
-    thres = 20
-    for mut_count in [2,3]:
+    if args.min_date:
+        all_scores = all_scores.loc[all_scores.date>args.min_date]
+
+    if args.min_sub_date:
+        all_scores = all_scores.loc[all_scores.date_submitted>args.min_sub_date]
+
+    if args.country:
+        all_scores = all_scores.loc[all_scores.country==args.country]
+        
+    thres = args.threshold
+    for mut_count in [2,3,4]:
         mult_muts = all_scores.number==mut_count
         mult_hits = all_scores.loc[mult_muts,:]
-        print(f"\n# Substantial escape in {mut_count} class vaccines")
+        print(f"\n# Substantial escape in {mut_count} class epitopes")
         for r, row in mult_hits.iterrows():
             if row['sum']>thres:
                 print(f"{r}\t{row.S}\t{row.c1}\t{row.c2}\t{row.c3}\t{row['sum']}")
 
+
+    for a in args.attribute_name+['sum']:
+        print("\n\n### ATTRIBTUE ",a)
+        for r, row in all_scores.sort_values(by=a)[-20:].iterrows():
+            print(f"{r}\t{row.S}\t{row.c1}\t{row.c2}\t{row.c3}\t{row['sum']}")
