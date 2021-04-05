@@ -18,6 +18,7 @@ if __name__ == '__main__':
     parser.add_argument('--min-date', type=str)
     parser.add_argument('--min-sub-date', type=str)
     parser.add_argument('--country')
+    parser.add_argument('--region')
     parser.add_argument('--simple-map', action='store_true')
     parser.add_argument('--threshold', type=float, default=20)
     args = parser.parse_args()
@@ -65,7 +66,7 @@ if __name__ == '__main__':
 
     d = pd.DataFrame(scores).T
 
-    all_scores = pd.concat([mutations, d, meta.loc[:, ["date", "date_submitted", "country"]]], axis=1).loc[d.index]
+    all_scores = pd.concat([mutations, d, meta.loc[:, ["date", "date_submitted", "country", "region"]]], axis=1).loc[d.index]
     all_scores["sum"] = d.sum(axis=1)
     all_scores["number"] = (d>0).sum(axis=1)
 
@@ -78,7 +79,11 @@ if __name__ == '__main__':
 
     if args.country:
         all_scores = all_scores.loc[all_scores.country==args.country]
+
+    if args.region:
+        all_scores = all_scores.loc[all_scores.region==args.region]
         
+    # this only works with the discrete maps, not the DMS ones
     thres = args.threshold
     for mut_count in [2,3,4]:
         mult_muts = all_scores.number==mut_count
@@ -89,7 +94,10 @@ if __name__ == '__main__':
                 print(f"{r}\t{row.S}\t{row.c1}\t{row.c2}\t{row.c3}\t{row['sum']}")
 
 
+    nMax = 20
+    # print the nMax sequences with the highest score for each map and the sum
     for a in args.attribute_name+['sum']:
         print("\n\n### ATTRIBTUE ",a)
-        for r, row in all_scores.sort_values(by=a)[-20:].iterrows():
-            print(f"{r}\t{row.S}\t{row.c1}\t{row.c2}\t{row.c3}\t{row['sum']}")
+        print(f"#{'strain':<40}\t{a}\t{'sum'}\tSpike mutations")
+        for r, row in all_scores.sort_values(by=a)[-nMax:].iterrows():
+            print(f"{r:<40}\t{row[a]:1.2f}\t{row['sum']:1.2f}\t{row.S}")
