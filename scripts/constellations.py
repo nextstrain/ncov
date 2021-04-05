@@ -20,25 +20,15 @@ if __name__ == '__main__':
 
     parser.add_argument('--mutation-summary', type=str)
     parser.add_argument('--metadata', type=str)
-    parser.add_argument('--map', nargs='+')
-    parser.add_argument('--attribute-name', nargs='+')
     parser.add_argument('--min-date', type=str)
     parser.add_argument('--min-sub-date', type=str)
     parser.add_argument('--country')
     parser.add_argument('--region')
-    parser.add_argument('--simple-map', action='store_true')
-    parser.add_argument('--threshold', type=float, default=20)
     args = parser.parse_args()
-
-    if type(args.map)==str:
-        args.map = [args.map]
-
-    if type(args.attribute_name)==str:
-        args.attribute_name = [args.attribute_name]
 
     mutations = pd.read_csv(args.mutation_summary, sep='\t', index_col=0)['S'].fillna('')
     meta = pd.read_csv(args.metadata, sep='\t', index_col=0).fillna('')
-    data = pd.concat([mutations, d, meta.loc[:, ["date", "date_submitted", "country", "region"]]], axis=1).loc[d.index]
+    data = pd.concat([mutations, meta.loc[:, ["date", "date_submitted", "country", "region"]]], axis=1).loc[mutations.index]
 
     if args.min_date:
         data = data.loc[data.date>args.min_date]
@@ -55,9 +45,9 @@ if __name__ == '__main__':
 
     positions = {}
     positions_with_muts = {}
-    for s,v in data.items():
-        positions[s] = [int(x[1:-1])-1 for x in v.split(',')] if v else []
-        positions_with_muts[s] = [(int(x[1:-1])-1, x[0], x[-1]) for x in v.split(',')] if v else []
+    for s,v in data.iterrows():
+        positions[s] = [int(x[1:-1]) for x in v['S'].split(',')] if v['S'] else []
+        positions_with_muts[s] = [(int(x[1:-1]), x[0], x[-1]) for x in v['S'].split(',')] if v['S'] else []
         if len(positions[s])>30:
             print('excluding',s)
             positions[s]=[]
