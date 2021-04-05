@@ -1885,3 +1885,13 @@ India/MH-NCCS-181784/2020
 
 # sample date before clade
 Portugal/PT5273/2021
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1617399827159200
+India/KL-NCCS-CH8970/2021
+India/MH-NCCS-172247/2020
+Paraguay/33611-R1/2020
+Israel/CVL-n26800/2020
+Kazakhstan/122259/2020
+Lebanon/LAU-R87/2020
+India/MH-NCCS-154558/2020
+Japan/PG-27639/2020
