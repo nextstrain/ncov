@@ -35,6 +35,7 @@ location	Adra	36.748834	-3.0203617
 location	Aesch	47.4682447	7.5980395
 location	Affligem	50.9035063	4.1174675
 location	Agaete	28.1008499	-15.7023479
+location	Agam	-0.2634005	100.17201627524973
 location	Agargaon	23.7792	90.3737
 location	Agen	44.2015827	0.6176112
 location	Agoncillo	42.4451704	-2.2913654
@@ -349,6 +350,7 @@ location	Autonomous Province of Trento	46.0664228	11.1257601
 location	Autre-Église	50.6631583	4.9249295
 location	Autun	46.9510313	4.2989478
 location	Auxerre	47.7961287	3.570579
+location	Avanhandava	-21.4603331	-49.9465156
 location	Avare	-23.1045215	-48.9259103
 location	Avelgem	50.781406	3.450563
 location	Avellaneda	-34.6648394	-58.3628061
@@ -881,6 +883,7 @@ location	Buissenal	50.663713	3.655885
 location	Buitenland	51.1152348	4.2314405
 location	Buizingen	50.7412271	4.2493488
 location	Buk	52.352840975584776	16.521408270210564
+location	Bukittinggi	-0.3051954	100.3694921
 location	Bulnes	-36.7422507	-72.2987216
 location	Bunsbeek	50.8425529	4.9454461
 location	Buraca	38.7437889	-9.2082841
@@ -1078,6 +1081,7 @@ location	Castellón	40.25185675	-0.061505110105748245
 location	Castellon de la Plana	39.9860347	-0.0377354
 location	Castellterçol	41.7503071	2.1230793
 location	Castelnaudary	43.3192021	1.9533495
+location	Castilho	-20.8695636	-51.4877792
 location	Castillo de Ferran	42.2739927	2.946129818149471
 location	Castillo de Locubin	37.5279563	-3.9422486
 location	Castril	37.7957	-2.7802
@@ -1472,6 +1476,7 @@ location	Dampicourt	49.55507315	5.475324290832722
 location	Dane County	43.0186	-89.5498
 location	Dankowice	50.8571693	16.8714051
 location	Dano	11.1435597	-3.0637939
+location	Dardilly	45.8064992	4.7537701
 location	Darjeeling	27.028909	88.260898
 location	Darlington County	34.3609331	-79.9438572
 location	Daskroi	22.95840725	72.71852429515411
@@ -1518,6 +1523,7 @@ location	Derbyshire	53.142893	-1.611670
 location	Derevyanka	61.6169349	34.6261437
 location	Derio	43.2916949	-2.8858821
 location	Desamparados	9.895826	-84.062458
+location	Descalvado	-21.9090404	-47.6203241
 location	Deschutes County	43.8194838	-121.1669662
 location	DeSoto Parish	32.071362	-93.725530
 location	Dessel	51.2395713	5.113243
@@ -2084,6 +2090,7 @@ location	Gondrecourt-le-Chateau	48.505557	5.503554
 location	Gonesse	48.9863555	2.4500537
 location	Gonzales County	29.4436555	-97.5108636
 location	Gonzalez Suarez	0.1809706	-78.2032913
+location	Goodhue County	44.396973	-92.7175627
 location	Gooise Meren	52.322224000000006	5.104556785563771
 location	Gora	52.12128	16.98452
 location	Gorakhpur	26.67132865	83.36458284327038
@@ -2190,6 +2197,7 @@ location	Guapimirim	-22.5266308	-42.9790687
 location	Guarai	-8.835429	-48.511432
 location	Guaranda	-1.590027	-78.999653
 location	Guarapari	-20.6718755	-40.4984617
+location	Guararapes	-21.2542739	-50.6440083
 location	Guararema	-23.4133724	-46.0379249
 location	Guariba	-21.35938	-48.23158
 location	Guarnizo	43.39953	-3.83026
@@ -2230,6 +2238,7 @@ location	Haizing	48.3765399	14.0010015
 location	Hale County	32.7412417	-87.6561668
 location	Halen	50.948587	5.090071
 location	Halhul	31.5775471	35.0993156
+location	Hallaar	51.0845683	4.7294097
 location	Halle	50.723860	4.235891
 location	Hallein	47.6821521	13.0956313
 location	Ham	51.1054908	5.1609815
@@ -2534,6 +2543,7 @@ location	Itaperuna	-21.2048	-41.88801
 location	Itapetim	-7.377514	-37.1887321
 location	Itapetininga	-23.588607	-48.048326
 location	Itapitanga	-14.4213865	-39.5664662
+location	Itapolis	-21.5958368	-48.8122696
 location	Itaporanga Dajuda	-10.9961671	-37.3045841
 location	Itaqui	-29.1222037	-56.5551258
 location	Itaquirai	-23.4801914	-54.1833692
@@ -3175,6 +3185,7 @@ location	Lille FR	50.6365654	3.0635282
 location	Lillois-Witterzée	50.644797	4.366948
 location	Lilongwe	-13.9875107	33.768144
 location	Lima	-12.0621065	-77.0365256
+location	Lima Puluh Kota	-0.0041436	100.55927144934105
 location	Limache	-33.0018741	-71.2657315
 location	Limay	48.9921015	1.7353686
 location	Limbourg BE	50.613635	5.935911
@@ -3520,6 +3531,7 @@ location	Matagorda County	28.8879823	-96.0035095
 location	Matamoros	25.8520977	-97.5017951
 location	Matamorosa	42.9811686	-4.1487879
 location	Matanuska-Susitna Valley	62.3402481	-149.4793288
+location	Matao	-21.6033611	-48.3660603
 location	Mataro	41.5398348	2.4448926
 location	Mateiros	-10.5462254	-46.417423
 location	Matera	40.447641899999994	16.47357384028852
@@ -3589,6 +3601,7 @@ location	Mendocino County	39.3176491	-123.4126399
 location	Menen	50.7937353	3.167040611100269
 location	Menominee County	45.0154357	-88.7089153
 location	Menorca	39.9496	4.1104
+location	Mentawai	-0.5941681	100.1679253
 location	Meppel	52.711744350000004	6.197307325163717
 location	Mequon	43.226666	-87.973033
 location	Merced County	37.1641544	-120.7678602
@@ -3657,6 +3670,7 @@ location	Mira Estrela	-19.9806298	-50.136873
 location	Miracema	-21.4123651	-42.1965147
 location	Miramar	25.9861	-80.3036
 location	Miranda	-20.2405943	-56.3770344
+location	Mirandopolis	-21.1328313	-51.1029422
 location	Mirassolandia	-20.6147204	-49.462817
 location	Mirpur	23.8223	90.3654
 location	Mistelbach	48.5694535	16.5720327
@@ -4014,6 +4028,7 @@ location	Nossa Senhora do Socorro	-10.8553115	-37.1264863
 location	Nossegem	50.877645	4.507645
 location	Notre-Dame-de-Sanilhac	45.13292945	0.7080364376276143
 location	Nottinghamshire	53.139677	-1.027527
+location	Nova Alvorada do Sul	-21.4587274	-54.3760634
 location	Nova Andradina	-22.2477565	-53.3480621
 location	Nova Araça	-28.6604116	-51.7424776
 location	Nova Brescia	-29.2158737	-52.0290188
@@ -4220,6 +4235,9 @@ location	Pabna	24.0129	89.2591
 location	Pacho	5.135952	-74.156902
 location	Pacific County	46.5334929	-123.768029
 location	Pacora	9.0827803	-79.288579
+location	Padang	-0.9247587	100.3632561
+location	Padang Panjang	-0.46333235933252004	100.39990564477131
+location	Padang Pariaman	-0.5467895814081101	100.22910882144373
 location	Padova	45.4077172	11.8734455
 location	Padre Hurtado	-33.5673051	-70.8020467
 location	Padre las Casas	-38.7674245	-72.5956312
@@ -4277,6 +4295,7 @@ location	Paranavai	-23.08165	-52.461724
 location	Pardesia	32.3070353	34.9097723
 location	Pardubice	50.0385812	15.7791356
 location	Parets del Valles	41.5729887	2.2329289
+location	Pariaman	-0.6263889	100.1177778
 location	Parintins	-2.6344567	-56.7319324
 location	Pariquera-Acu	-24.7146891	-47.8802361
 location	Paris	48.853884	2.341738
@@ -4339,6 +4358,7 @@ location	Peoria County	40.8021278	-89.7713762
 location	Pepin County	44.6351571	-92.0101928
 location	Peralta	42.337833	-1.799176
 location	Pereira	4.804771	-75.717885
+location	Pereira Barreto	-20.6378509	-51.1052172
 location	Perez	-32.9982237	-60.7708529
 location	Perez Zeledon	9.355504	-83.624556
 location	Perico	-24.3938068	-65.11528896134641
@@ -4697,6 +4717,7 @@ location	Red River County	33.571979	-95.0429674
 location	Red River Parish	32.0835604	-93.3111105
 location	Redding	40.5863563	-122.3916754
 location	Redmond	44.2726203	-121.1739212
+location	Reet	51.1017566	4.4129446
 location	Regau	47.991944	13.688056
 location	Regencos	41.9523563	3.1687852
 location	Regente Feijo	-22.218131	-51.30545
@@ -4901,6 +4922,7 @@ location	Sador	22.693161	89.775469
 location	Sady	52.4485883	16.7229112
 location	Sagunt	39.6801	-0.2784
 location	Saignelegier	47.2557997	6.9963585
+location	Saint-Affrique	43.9580035	2.8866641
 location	Saint-Aunes	43.6394182	3.9637108
 location	Saint Beauzire	45.8516333	3.1790056
 location	Saint-Benoit	-21.033188	55.7131508
@@ -5134,6 +5156,8 @@ location	Santa Comba	43.0336	-8.8047
 location	Santa Croce di Magliano	41.7124096	14.9933783
 location	Santa Cruz	10.23575875	-85.66996320389299
 location	Santa Cruz County	37.050096	-121.9905908
+location	Santa Cruz County AZ	31.5094579	-110.8476281
+location	Santa Cruz County CA	37.050096	-121.9905908
 location	Santa Cruz de Bezana	43.4429266	-3.9048376
 location	Santa Cruz de Lorica	9.238594101122898	-75.81619916716095
 location	Santa Cruz do Capibaribe	-7.948019	-36.206092
@@ -5210,6 +5234,7 @@ location	Sao Bernardo do Campo	-23.735551	-46.563349
 location	Sao Borja	-28.6592237	-56.0044295
 location	Sao Caetano	-8.3304491	-36.135359
 location	Sao Caetano do Sul	-23.6195923	-46.5688323
+location	Sao Carlos	-22.0180395	-47.891154
 location	São Domingos da Benfica	38.738026950000005	-9.195298604626885
 location	São Domingos do Sul	-28.5297239	-51.8905306
 location	São Gabriel Da Cachoeira	-0.1249715	-67.0813855
@@ -5249,6 +5274,7 @@ location	Saratoga County	43.0324	-73.9360
 location	Sarcelles	48.9960813	2.3796245
 location	Sardinal	10.5169085	-85.6467609
 location	Sarnen	46.8956729	8.2461492
+location	Sarolangun	-2.3051268	102.7175331
 location	Saron	43.3237089	-3.8536587
 location	Sarreguemines	49.1094836	7.0708865
 location	Sarriguren	42.8105858	-1.5926872
@@ -5391,6 +5417,7 @@ location	Sierra de Fuentes	39.4372411	-6.2739777
 location	Sierrapando	43.3439274	-4.03291
 location	Siggerwiesen	47.8597857	13.0107741
 location	Sigmaringen	48.0855844	9.2178879
+location	Sijunjung	-0.6664603	100.9448719
 location	Silleda	42.6900518	-8.28359
 location	Silly	50.638827	3.943396
 location	Sils	41.8089441	2.7414651
@@ -5464,6 +5491,8 @@ location	Soledad	10.905451549999999	-74.77405314080215
 location	Sollana	39.2784514	-0.3818215
 location	Soller	39.7663047	2.7150538
 location	Solms	50.5333914	8.4073302
+location	Solok City	-0.7922164	100.6573316
+location	Solok Regency	-0.9288959666458962	100.78702153168835
 location	Solothurn	47.2081355	7.5384045
 location	Solsona	41.9945762	1.5184038
 location	Somain	50.3589237	3.2810972
@@ -5499,7 +5528,9 @@ location	South 24 Parganas	22.145444	88.474411
 location	South Coast District	29.873836	34.934417
 location	South Jakarta	-6.2639932	106.7924085
 location	South Milwaukee	42.908266	-87.860903
+location	South Pesisir	-1.6847379939406404	100.90015197379961
 location	South Sikkim	27.74891905	88.5214387098307
+location	South Solok	-1.4221157258055603	101.24606608841445
 location	South Tangerang	-6.2955404	106.7085494
 location	South Tyrol	46.65594215	11.229637264169462
 location	South Yorkshire	53.476171	-1.327867
@@ -5696,6 +5727,7 @@ location	Tamarite de Litera	41.8683507	0.4213037
 location	Tambov	52.72879	41.45536
 location	Tambovka	50.098019	128.069885
 location	Tamra	32.8534876	35.1978748
+location	Tanah Datar	-0.4742493	100.6235057
 location	Tangail	24.2507265	89.9149441
 location	Tangerang	-6.1760311	106.6384468
 location	Tangerang Selatan	-6.2955404	106.7085494
@@ -6036,6 +6068,8 @@ location	Vallirana	41.3877623	1.9320806
 location	Vallon en Sully	46.5375	2.60656
 location	Vallromanes	41.5323208	2.2989347
 location	Valparaiso	-33.0458456	-71.6196749
+location	Valparaiso BR	-21.2230369	-50.8666375
+location	Valparaiso CL	-33.0458456	-71.6196749
 location	Vals	46.6166848	9.1804954
 location	Valuyki	50.19417240489066	38.11999415685251
 location	Van Zandt County	32.5375642	-95.8292165
@@ -6324,6 +6358,7 @@ location	West Baton Rouge Parish	30.4514623	-91.3261882
 location	West Coast	-32.9218992	17.985654577646827
 location	West Delhi	28.6479519	77.08556541088615
 location	West Haven	41.279571	-72.962057
+location	West Pasaman	0.1875976	99.68987375527963
 location	West Rand	-26.209282503849348	27.556660564979346
 location	West Yellowstone	44.664290199999996	-111.10513722509046
 location	Westchester County	41.1220	-73.7949
@@ -7220,6 +7255,7 @@ division	Ixelles	50.8333	4.3666
 division	Jakarta	-6.221537	106.838429
 division	Jalisco	20.422362	-103.793697
 division	Jamaica	18.1096	-77.2975
+division	Jambi	-1.6454854	102.93517597904014
 division	Jammu	32.7266	74.8570
 division	Jammu and Kashmir	33.796268	76.481097
 division	Jamtland	63.1712	14.9592
@@ -7276,6 +7312,7 @@ division	Kanto	36.167777	139.170466
 division	Kapilvastu	27.61923765	82.98222657989004
 division	Karachay-Cherkess	43.7368326	41.7267991
 division	Karachi	24.8607	67.0011
+division	Karaganda Region	48.1144938	70.1404868
 division	Karaj	35.82478305	50.95955469625573
 division	Karaman	37.165058	33.294127
 division	Kardzhali	41.57161625	25.399198889947556
@@ -8053,6 +8090,7 @@ division	South Dakota	44.6471761	-100.348761
 division	South District	30.8296	35.0388
 division	South Holland	52.006053	4.485728
 division	South Kalimantan	-2.9285686	115.3700718
+division	South Kazakhstan Region	42.61668616573577	68.41903047442649
 division	South Korea	36.609249	127.917932
 division	South Moravian Region	49.1249179	16.682771628867208
 division	South Sulawesi	-3.6446718	119.9471906

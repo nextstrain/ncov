@@ -650,6 +650,26 @@ location	Medan
 location	Simalungun
 location	Mandailing
 
+# West Sumatra
+location	South Pesisir
+location	South Solok
+location	Solok Regency
+location	Padang
+location	Solok City
+location	Sijunjung
+location	Pariaman
+location	Mentawai
+location	Padang Pariaman
+location	Tanah Datar
+location	Padang Panjang
+location	Bukittinggi
+location	Agam
+location	Lima Puluh Kota
+location	West Pasaman
+
+# Jambi
+location	Sarolangun
+
 # South Sumatra
 location	Palembang
 
@@ -2164,6 +2184,7 @@ location	Castelnaudary
 location	Albi
 location	Carcassonne
 location	Rodez
+location	Saint-Affrique
 location	Perpignan
 location	Narbonne
 location	Millau
@@ -2279,6 +2300,7 @@ location	Saint-Genis-Les-Ollieres
 location	Villefranche-sur-Saône
 location	Chaponost
 location	Montelimar
+location	Dardilly
 location	Givors
 location	Roussillon
 location	Pierre-Bénite
@@ -2806,6 +2828,7 @@ location	Stabroek
 location	Aartselaar
 location	Wilrijk
 location	Hoevenen
+location	Reet
 location	Ekeren
 location	Rumst
 location	Kapellen
@@ -2960,6 +2983,7 @@ location	Nijlen
 location	Bevel
 location	Schriek
 location	Heist-op-den-Berg
+location	Hallaar
 location	Itegem
 location	Booischot
 location	Wiekevorst
@@ -5572,7 +5596,7 @@ location	Penalolen
 location	San Jose de Maipo
 
 # Valparaiso
-location	Valparaiso
+location	Valparaiso CL
 location	Vina del Mar
 location	Con-Con
 location	Casablanca
@@ -5668,6 +5692,7 @@ location	Douradinho
 location	Maracaju
 location	Guia Lopes Da Laguna
 location	Jardim
+location	Nova Alvorada do Sul
 location	Bonito
 location	Sidrolandia
 location	Tres Lagoas
@@ -5875,6 +5900,7 @@ location	Presidente Bernardes
 location	Dracena
 location	Narandiba
 location	Pirapozinho
+location	Castilho
 location	Emilianopolis
 location	Alvares Machado
 location	Presidente Prudente
@@ -5882,8 +5908,12 @@ location	Andradina
 location	Regente Feijo
 location	Taciba
 location	Martinopolis
+location	Pereira Barreto
+location	Mirandopolis
 location	Adamantina
 location	Oswaldo Cruz
+location	Valparaiso BR
+location	Guararapes
 location	Taruma
 location	Auriflama
 location	Jales
@@ -5903,6 +5933,7 @@ location	Mira Estrela
 location	Oriente
 location	Votuporanga
 location	Marilia
+location	Avanhandava
 location	Ribeirao do Sul
 location	Cardoso
 location	Ourinhos
@@ -5927,6 +5958,7 @@ location	Borebi
 location	Catanduva
 location	Avare
 location	Olimpia
+location	Itapolis
 location	Lencois Paulista
 location	Jau
 location	Igaracu do Tiete
@@ -5936,6 +5968,7 @@ location	Taiacu
 location	Taquaritinga
 location	Angatuba
 location	Dois Corregos
+location	Matao
 location	Capao Bonito
 location	Guariba
 location	Araraquara
@@ -5945,6 +5978,7 @@ location	Itapetininga
 location	Sao Miguel Arcanjo
 location	Cesário Lange
 location	Sete Barras
+location	Sao Carlos
 location	Pariquera-Acu
 location	Tatui
 location	Sales Oliveira
@@ -5955,6 +5989,7 @@ location	Ipero
 location	Boituva
 location	Piracicaba
 location	Juquia
+location	Descalvado
 location	Aracoiaba Da Serra
 location	Rio Claro SP
 location	Iguape
@@ -6910,7 +6945,7 @@ location	San Mateo County
 location	Napa County
 location	Tehama County
 location	Shasta County
-location	Santa Cruz County
+location	Santa Cruz County CA
 location	Solano County
 location	Yolo County
 location	Contra Costa County
@@ -6984,6 +7019,7 @@ location	Maricopa County
 location	Coconino County
 location	Pima County
 location	Pinal County
+location	Santa Cruz County AZ
 location	Gila County
 location	Navajo County
 location	Graham County
@@ -7190,6 +7226,7 @@ location	Fillmore County
 location	Houston County MN
 location	Winona County
 location	Wabasha County
+location	Goodhue County
 location	Dakota County
 location	Chisago County
 location	Stearns County
@@ -7850,6 +7887,8 @@ division	Atyrau Region
 division	Aktobe Region
 division	Kyzylorda Region
 division	Kazakhstan
+division	South Kazakhstan Region
+division	Karaganda Region
 division	Nur-Sultan
 division	Almaty
 division	East-Kazakhstan Region
@@ -8038,6 +8077,7 @@ division	Aceh
 division	North Sumatra
 division	West Sumatra
 division	Bengkulu
+division	Jambi
 division	South Sumatra
 division	Riau Islands
 division	Lampung
@@ -8761,7 +8801,6 @@ division	Trentino
 division	Emilia-Romagna
 division	Tuscany
 division	Trentino-Alto Adige
-division	South Tyrol
 division	Italian cruise ship
 division	Italy
 division	Veneto
@@ -8847,7 +8886,6 @@ division	Krapina-Zagorje County
 division	Zagreb
 division	Sibenik-Knin County
 division	Split-Dalmatia County
-division	Zagreb County
 division	Varaždin County
 division	Varazdin
 division	Split
