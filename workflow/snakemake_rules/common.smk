@@ -151,7 +151,14 @@ def _get_max_date_for_frequencies(wildcards):
     if "frequencies" in config and "max_date" in config["frequencies"]:
         return config["frequencies"]["max_date"]
     else:
-        return numeric_date(date.today())
+        # Allow users to censor the N most recent days to minimize effects of
+        # uneven recent sampling.
+        recent_days_to_censor = config.get("frequencies", {}).get("recent_days_to_censor", 0)
+        offset = datetime.timedelta(days=recent_days_to_censor)
+
+        return numeric_date(
+            date.today() - offset
+        )
 
 def _get_first(config, *keys):
     """
