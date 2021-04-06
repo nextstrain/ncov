@@ -1895,3 +1895,12 @@ Kazakhstan/122259/2020
 Lebanon/LAU-R87/2020
 India/MH-NCCS-154558/2020
 Japan/PG-27639/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1617746578178900
+India/MH-MW15/2020
+Kazakhstan/124921/2020
+Kazakhstan/125343/2020
+USA/NV-NSPHL-NV2047306/2020
+Indonesia/JI-RSDS-RCVTD-UNAIR-35-C/2020
+Israel/CVL4659/2020
+SriLanka/CDR-SL7066/2020
