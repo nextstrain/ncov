@@ -491,6 +491,9 @@ location	Chandpur
 location	Comilla
 location	Brahmanbaria
 
+# Barishal
+location	Bhola
+
 # Khulna
 location	Bagerhat
 location	Satkhira
@@ -500,6 +503,7 @@ location	Magura
 location	Jhenaidah
 
 # Dhaka
+location	Madaripur
 location	Shariatpur
 location	Faridpur
 location	Narayanganj
@@ -517,6 +521,7 @@ location	Manikganj
 location	Uttara
 location	Dhamrai
 location	Tangail
+location	Kishoreganj
 
 # Rajshahi
 location	Pabna
@@ -527,6 +532,7 @@ location	Sherpur
 # Sylhet
 location	Habiganj
 location	Moulvibazar
+location	Sylhet
 location	Sunamganj
 
 # Rangpur
@@ -3667,27 +3673,54 @@ location	Steckborn
 location	Munchwilen
 location	Wilen bei Wil
 location	Erlen
+location	Bischofszell
+location	Arbon
+
+# Appenzell Ausserrhoden
+location	Waldstatt
+location	Herisau
 
 # Sankt Gallen
+location	Rapperswil
+location	Jona
+location	Schmerikon
+location	Wil
+location	Schänis
+location	Bazenheid
+location	Bütschwil
+location	Wattwil
+location	Amden
 location	Niederuzwil
 location	Grub
 location	Au
 location	Gossau
 location	Walenstadt
+location	Abtwil SG
+location	Flums
+location	Appenzell
 location	St Gallen
 location	Mels
 location	Mörschwil
+location	Grabserberg
+location	Sargans
 location	Gams
 location	Grabs
+location	Werdenberg
+location	Buchs SG
 location	Buchs
 location	Sevelen
+location	Rorschach
 location	Rheintal
 location	Bad Ragaz
+location	Ruthi
 location	Altstatten
 location	Oberriet
 location	Rebstein
+location	Rheineck
 location	Kriessern
+location	Heerbrugg
 location	Widnau
+location	St. Margrethen
 
 # Graubünden
 location	Vals
@@ -5714,6 +5747,7 @@ location	Sonora
 location	Rio Grande BR
 location	Pelotas
 location	Bage
+location	Camaquã
 location	Lavras do Sul
 location	Santana do Livramento
 location	Tapes
@@ -5729,25 +5763,41 @@ location	Porto Alegre
 location	Alvorada
 location	Tramandai
 location	Imbe
+location	Gravataí
+location	Triunfo
 location	Cachoeirnha
 location	Canoas BR
 location	Osorio
+location	Glorinha
 location	Esteio
+location	Nova Santa Rita
 location	Santo Antonio Da Patrulha
+location	Sapucaia do Sul
 location	Xangri-la
 location	Taquari
 location	São Leopoldo
 location	Novo Cabrais
 location	Vera Cruz (Rio Grande do Sul)
+location	Portão
 location	Novo Hamburgo
 location	Santa Maria RS
+location	Montenegro
+location	Campo Bom
+location	Estância Velha
+location	Rolante
 location	Taquara
+location	Riozinho
 location	Sapiranga
+location	Pareci Novo
 location	Parobe
 location	Venancio Aires
 location	Bom Retiro do Sul
 location	Sao Sebastiao do Cai
+location	Dois Irmãos
+location	Igrejinha
+location	Harmonia
 location	Morro Reuter
+location	Três Coroas
 location	Bom Principio
 location	Teutonia
 location	Tupandi
@@ -5767,6 +5817,7 @@ location	Nova Brescia
 location	Estrela Velha
 location	Caxias do Sul
 location	Itaqui
+location	Cambará do Sul
 location	Flores Da Cunha
 location	Cotipora
 location	Arvorezinha
@@ -6862,9 +6913,9 @@ location	Hawaii County
 # Alaska
 location	Southwest Alaska
 location	Northern Alaska
+location	Gulf Coast Alaska
+location	Anchorage and Matanuska-Susitna
 location	Interior Alaska
-location	Anchorage
-location	Matanuska-Susitna Valley
 location	Fairbanks
 location	Southeast Alaska
 
