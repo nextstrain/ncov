@@ -54,7 +54,6 @@ if __name__ == "__main__":
         help="minimum number of tips for internal nodes to calculate delta frequency for. Nodes below this number inherit the values of their parent node."
     )
     parser.add_argument("--attribute-name", default="delta_frequency", help="name of the annotation to store in the node data JSON output")
-    parser.add_argument("--include-tips", action="store_true", help="include change of frequency for tips in output. This output tends to be less meaningful than change of frequency for internal nodes (i.e., clades).")
     parser.add_argument("--output", required=True, help="JSON of delta frequency annotations for nodes in the given tree")
 
     args = parser.parse_args()
@@ -116,7 +115,7 @@ if __name__ == "__main__":
                 # transform (as when frequencies equal 0 or 1).
                 y_frequencies = logit_transform(
                     node.frequencies[first_pivot_index:],
-                    pc=1e-4
+                    pc=1e-2
                 )
 
                 # Fit linear regression to pivots and frequencies and use the
