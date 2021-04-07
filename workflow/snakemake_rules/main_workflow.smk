@@ -1061,6 +1061,7 @@ rule delta_frequency:
     params:
         method="linear",
         delta_pivots=config["delta_frequency"]["delta_pivots"],
+        min_tips=config["delta_frequency"]["min_tips"],
     resources:
         mem_mb=256
     shell:
@@ -1069,6 +1070,7 @@ rule delta_frequency:
             --tree {input.tree} \
             --frequencies {input.frequencies} \
             --method {params.method} \
+            --min-tips {params.min_tips} \
             --delta-pivots {params.delta_pivots} \
             --output {output.node_data} 2>&1 | tee {log}
         """
@@ -1088,7 +1090,9 @@ rule logistic_growth:
     params:
         method="logistic",
         attribute_name = "logistic_growth",
-        delta_pivots=config["delta_frequency"]["delta_pivots"],
+        delta_pivots=config["logistic_growth"]["delta_pivots"],
+        min_tips=config["logistic_growth"]["min_tips"],
+        frequency_threshold=config["logistic_growth"]["frequency_threshold"],
     resources:
         mem_mb=256
     shell:
@@ -1097,7 +1101,9 @@ rule logistic_growth:
             --tree {input.tree} \
             --frequencies {input.frequencies} \
             --method {params.method} \
+            --min-tips {params.min_tips} \
             --delta-pivots {params.delta_pivots} \
+            --frequency-threshold {params.frequency_threshold} \
             --attribute-name {params.attribute_name} \
             --output {output.node_data} 2>&1 | tee {log}
         """

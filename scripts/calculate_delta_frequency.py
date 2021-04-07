@@ -53,6 +53,12 @@ if __name__ == "__main__":
         type=int,
         help="minimum number of tips for internal nodes to calculate delta frequency for. Nodes below this number inherit the values of their parent node."
     )
+    parser.add_argument(
+        "--frequency-threshold",
+        default=0.0001,
+        type=float,
+        help="threshold to apply to frequency values when performing logit transform for logistic growth calculations"
+    )
     parser.add_argument("--attribute-name", default="delta_frequency", help="name of the annotation to store in the node data JSON output")
     parser.add_argument("--output", required=True, help="JSON of delta frequency annotations for nodes in the given tree")
 
@@ -115,7 +121,7 @@ if __name__ == "__main__":
                 # transform (as when frequencies equal 0 or 1).
                 y_frequencies = logit_transform(
                     node.frequencies[first_pivot_index:],
-                    pc=1e-2
+                    pc=args.frequency_threshold
                 )
 
                 # Fit linear regression to pivots and frequencies and use the
