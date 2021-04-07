@@ -1155,6 +1155,7 @@ location	Valga
 location	Teo
 location	La Estrada
 location	Vedra
+location	Pontevedra
 location	Boqueixón
 location	A Coruna
 location	Oroso
@@ -5542,13 +5543,21 @@ location	Porvenir
 location	Puerto Williams
 
 # Aysén
+location	Guaitecas
 location	Coyhaique
 
 # Los Lagos
+location	Quellon
 location	Ancud
+location	Cochamo
 location	Puerto Montt
+location	Puerto Varas
+location	Osorno
 
 # Los Rios CL
+location	Valdivia
+location	La Union CL
+location	Paillaco
 location	Panguipulli
 
 # Araucanía
@@ -5562,6 +5571,7 @@ location	Perquenco
 location	Angol
 
 # Biobío
+location	Coronel
 location	Talcahuano
 location	San Pedro de la Paz
 location	Hualpen
@@ -5595,15 +5605,19 @@ location	San Francisco de Mostazal
 location	Machali
 
 # Region Metropolitana de Santiago
+location	Melipilla
 location	Curacavi
 location	Talagante
+location	Isla de Maipo
 location	Penaflor
+location	Lampa
 location	Pudahuel
 location	Padre Hurtado
 location	Maipu
 location	Quilicura
 location	Buin
 location	Renca
+location	Lo Prado
 location	Estacion Central
 location	San Bernardo
 location	Quinta Normal
@@ -5626,6 +5640,7 @@ location	Vitacura
 location	La Florida
 location	Las Condes
 location	Penalolen
+location	Lo Barnechea
 location	San Jose de Maipo
 
 # Valparaiso
@@ -5793,6 +5808,7 @@ location	Parobe
 location	Venancio Aires
 location	Bom Retiro do Sul
 location	Sao Sebastiao do Cai
+location	Nova Hartz
 location	Dois Irmãos
 location	Igrejinha
 location	Harmonia
@@ -6835,10 +6851,10 @@ location	Perez Zeledon
 # Cartago CR
 location	San Juan CR
 location	San Diego CR
-location	La Union
 location	Concepcion CR
 location	San Ramón District, La Unión
 location	Tres Rios CR
+location	La Union CR
 location	San Isidro CR
 location	El Tejar
 location	Occidental
@@ -7138,6 +7154,7 @@ location	Bandera County
 location	Zapata County
 location	Medina County TX
 location	Brown County TX
+location	Gillespie County
 location	San Saba County
 location	Starr County
 location	Kendall County TX
@@ -7151,6 +7168,7 @@ location	Bexar County
 location	Lometa
 location	Comal County
 location	Hidalgo County
+location	Burnet County
 location	Wilson County
 location	Jim Wells County
 location	Live Oak County
@@ -8427,9 +8445,6 @@ division	Cameroon
 
 ### Republic of the Congo
 division	Brazzaville
-
-### Libya
-division	Libya
 
 ### Namibia
 division	Kunene
@@ -9913,7 +9928,6 @@ country	Equatorial Guinea
 country	Gabon
 country	Cameroon
 country	Republic of the Congo
-country	Libya
 country	Namibia
 country	Angola
 country	Democratic Republic of the Congo

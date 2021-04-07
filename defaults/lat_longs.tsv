@@ -909,6 +909,7 @@ location	Burlada	42.8230299	-1.614076
 location	Burleson	32.535768554050875	-97.32722170343142
 location	Burleson County	30.4764878	-96.6353488
 location	Burlington County	39.9325409	-74.7226665
+location	Burnet County	30.7763939	-98.1700016
 location	Burnett County	45.8652437	-92.2673161
 location	Burriana	39.8873342	-0.0838341
 location	Burruyacu	-26.499131900000002	-64.74324085284465
@@ -1294,6 +1295,7 @@ location	Clinton County NY	44.7278943	-73.6686982
 location	Cluses	46.0603171	6.5804218
 location	Cobb	33.9373948	-84.5732006
 location	Coca	-0.4721804	-76.9837216
+location	Cochamo	-41.4925628	-72.3079293
 location	Cochise County	31.8514532	-109.8181858
 location	Coconino County	35.9363252	-111.6948197
 location	Coevorden	52.6614	6.7411
@@ -1374,6 +1376,7 @@ location	Cornella de Terri	42.0898363	2.8157343
 location	Corniche	37.3009937	9.8655949
 location	Coromandel	-18.473889	-47.200278
 location	Coronda	-31.2370791	-60.5291251
+location	Coronel	-37.0164712	-73.1561953
 location	Coronel Arnold	-33.1059019	-60.9667135
 location	Coronel Du Graty	-27.6821132	-60.9045554
 location	Coronel Portillo	-8.6867272	-73.9320879
@@ -2055,6 +2058,7 @@ location	Gila County	33.74135485	-110.68128894247536
 location	Gilchin	49.903302205780186	127.86212703615573
 location	Gilet	39.6668	-0.3325
 location	Gilgit	35.880589	74.448161
+location	Gillespie County	30.2954086	-98.9086643
 location	Gilly	50.4262689	4.484719762079403
 location	Gilwa	53.7123923	19.146635
 location	Gingelom	50.751534750000005	5.132409812775332
@@ -2208,6 +2212,7 @@ location	Guadassuar	39.1859294	-0.4769464
 location	Guadix	37.3011	-3.1403
 location	Guaiba	-30.1130731	-51.329442
 location	Guaira	-19.4608971	-42.5227089
+location	Guaitecas	-43.917431	-73.9078914874624
 location	Guangzhou	23.123972	113.292889
 location	Guape	-20.7619447	-45.9174969
 location	Guapiacu	-20.79663	-49.2253917
@@ -2547,6 +2552,7 @@ location	Irun	43.3383176	-1.7888095
 location	Irupi	-20.346479	-41.6392581
 location	Ischgl	47.011789	10.289683
 location	Isernia	41.649467599999994	14.208148034519315
+location	Isla de Maipo	-33.7537387	-70.9039325
 location	Isla del Cerrito	-27.2951994	-58.62300289157733
 location	Island County	48.2162669	-122.6842402
 location	Isserteaux	45.6528133	3.3872068
@@ -3029,6 +3035,8 @@ location	La Serena	-29.902631	-71.2520253
 location	La Seyne-sur-Mer	43.1007714	5.8788948
 location	La Suiza	9.853005	-83.6115748
 location	La Union	9.922919	-84.001485
+location	La Union CL	-40.2952392	-73.0820366
+location	La Union CR	9.9133715	-83.98392968999697
 location	La Vall D'en Bas	42.12501845	2.4356715864152942
 location	La Verde	-27.1304632	-59.3762738
 location	La Virgen del Camino	42.5816647	-5.6437418
@@ -3058,6 +3066,7 @@ location	Lalin	42.6612	-8.1110
 location	Lamar County	33.6383552	-95.582343
 location	Lamb County	34.0321667	-102.3429233
 location	Lamine	50.688307	5.334720
+location	Lampa	-33.2864213	-70.8729771
 location	Lanaken	50.884429	5.634002
 location	Lanaudière	46.76678	-73.83248
 location	Lancaster County	40.7768326	-96.7111039
@@ -3278,6 +3287,8 @@ location	Lloret de Mar	41.6973503	2.8392392
 location	Llubi	39.6994	3.0063
 location	Lluchmayor	39.4908	2.8917
 location	Llutxent	38.9421	-0.3554
+location	Lo Barnechea	-33.2935888	-70.39035501440654
+location	Lo Prado	-33.44704385	-70.72339935540677
 location	Lo-Reninge	50.9928529	2.7918753
 location	Lobbes	50.35415555	4.238652470459903
 location	Lobez	53.6391189	15.6213487
@@ -3616,6 +3627,7 @@ location	Meldert	50.7881599	4.8372377
 location	Melesse	48.2175823	-1.6962403
 location	Meliana	39.5286	-0.3478
 location	Mélin	50.7400918	4.8286208
+location	Melipilla	-33.6855134	-71.2145796
 location	Melk	48.1472806	15.2642089
 location	Mellet	50.503949	4.480401
 location	Mels	47.0467333	9.4192932
@@ -4063,6 +4075,7 @@ location	Nova Araça	-28.6604116	-51.7424776
 location	Nova Brescia	-29.2158737	-52.0290188
 location	Nova Dubnica	48.9358736	18.1457351
 location	Nova Friburgo	-22.2800004	-42.5325303
+location	Nova Hartz	-29.5842391	-50.9043246
 location	Nova Holinda	-4.003124927676892	-58.589094526426976
 location	Nova Iguacu	-22.7561	-43.4607
 location	Nova Odessa	-22.783186	-47.294059
@@ -4224,6 +4237,7 @@ location	Osasco	-23.5372	-46.7962
 location	Osieczany	49.8414451	19.9798684
 location	Osijek	45.5548719	18.6953719
 location	Osorio	-29.8890733	-50.2740498
+location	Osorno	-40.5733223	-73.1359011
 location	Oss	51.762396	5.530563
 location	Ostrava	49.8349139	18.2820084
 location	Ostrodzki	53.6	19.5786111
@@ -4272,6 +4286,7 @@ location	Padova	45.4077172	11.8734455
 location	Padre Hurtado	-33.5673051	-70.8020467
 location	Padre las Casas	-38.7674245	-72.5956312
 location	Padrón	42.7381	-8.6608
+location	Paillaco	-40.0706715	-72.8727124
 location	Pailon	-17.6592379	-62.719661
 location	Paimpol	48.7794818	-3.0484022
 location	Paipote	-27.4147265	-70.2749806
@@ -4511,6 +4526,7 @@ location	Ponta Grossa	-25.0891685	-50.1601812
 location	Ponta Pora	-22.5286917	-55.723426
 location	Pontecesures	42.7207856	-8.652991
 location	Pontejos	43.40711	-3.8001
+location	Pontevedra	42.6075172	-8.4714942
 location	Pontinha	38.7622108	-9.1968418
 location	Pontivy	48.0695882686933	-2.9639488211463747
 location	Pontoise	49.049228	2.098595
@@ -4626,6 +4642,7 @@ location	Puerto Nariño	-3.7897260062514477	-70.35599924696716
 location	Puerto Natales	-51.7262826	-72.5062409
 location	Puerto Santa Maria	36.526984	-6.288553
 location	Puerto Vallarta	20.6407176	-105.220306
+location	Puerto Varas	-41.317802	-72.9829073
 location	Puerto Viejo	10.4541312	-84.0096613
 location	Puerto Vilelas	-27.5171208	-58.9405157
 location	Puerto Williams	-54.9354961	-67.6067034
@@ -4671,6 +4688,7 @@ location	Queens	40.717328	-73.795709
 location	Queens County	40.652492699999996	-73.7914214158161
 location	Queimadas	-7.3640404	-35.9016644
 location	Queimados	-22.720854	-43.583396
+location	Quellon	-43.1200305	-73.6203025
 location	Queluz	38.757221	-9.258745
 location	Quesada	10.3441844	-84.41820363830183
 location	Quevaucamps	50.720840	3.289101
@@ -6091,6 +6109,7 @@ location	Valdaracete	40.2106	-3.1946
 location	Valderredible	42.8564085	-3.970889841832725
 location	Valderrubio	37.2346	-3.8183
 location	Valdeviejas	42.4620462	-6.0788959
+location	Valdivia	-39.8141262	-73.2459859
 location	Valence	44.926123	4.900583
 location	Valencia	39.337	-0.354
 location	Valencia de Alcantara	39.4131173	-7.242137
