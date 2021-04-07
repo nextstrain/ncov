@@ -102,6 +102,16 @@
       "key": "delta_frequency",
       "title": "Change in frequency",
       "type": "continuous"
+    },
+    {
+      "key": "logistic_growth",
+      "title": "Logistic growth",
+      "type": "continuous"
+    },
+    {
+      "key": "current_frequency",
+      "title": "Current frequency",
+      "type": "continuous"
     }
   ],
   "geo_resolutions": [
