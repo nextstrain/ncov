@@ -1758,6 +1758,7 @@ location	Sant Feliu de Llobregat
 location	Sant Joan Despi
 location	Cornella de Llobregat
 location	San Cugat del Valles
+location	Sant Quirze del Valles
 location	Esplugues de Llobregat
 location	El Prat de Llobregat
 location	Moia
@@ -1779,6 +1780,7 @@ location	Santa Perpetua de Mogoda
 location	Moncada y Reixach
 location	La Llagosta
 location	Ripoll
+location	Gallecs
 location	Santa Coloma de Gramenet
 location	Bigues I Riells
 location	Oris
@@ -1803,6 +1805,7 @@ location	L'Ametlla del Valles
 location	Torelló
 location	Montornes del Valles
 location	Tiana
+location	Figaro
 location	Figaro-Montmany
 location	Can Tries
 location	Montgat
@@ -1847,6 +1850,7 @@ location	El Maresme
 location	Vallgorguina
 location	Sant Vicenç de Montalt
 location	Sant Hilari Sacalm
+location	Sant Joan Les Fonts
 location	Arbúcies
 location	Caldes d'Estrac
 location	Montagut I Oix
@@ -1883,6 +1887,8 @@ location	Caldes de Malavella
 location	Cornella de Terri
 location	Girona
 location	Lloret de Mar
+location	Sant Julia de Ramis
+location	La Jonquera
 location	Cassa de la Selva
 location	Llagostera
 location	Bordils
@@ -1892,6 +1898,7 @@ location	Figueres
 location	Pubol
 location	Sant Feliu de Guixols
 location	S'Agaro
+location	Castello D'Empuries
 location	La Bisbal de l'Emporda
 location	Palamos
 location	Llanca
@@ -2109,6 +2116,7 @@ location	Levallois-Perret
 location	Vanves
 location	Gennevilliers
 location	Longjumeau
+location	Saint-Ouen-sur-Seine
 location	Paris
 location	Groslay
 location	Saint-Denis
@@ -2207,7 +2215,9 @@ location	Saint-Gilles FR
 location	Ytrac
 location	Aurillac
 location	Lafeuillade en Vezie
+location	Huriel
 location	Premilhat
+location	Champs sur Tarentaine
 location	Vallon en Sully
 location	Montlucon
 location	Riom Es Montagnes
@@ -2216,24 +2226,36 @@ location	Murat le Quaire
 location	La Bourboule
 location	Condat
 location	La Goutelle
+location	St Priest des Champs
+location	Deneuille Les Mines
+location	Rochefort Montagne
 location	Montaigut
 location	Le Mont Dore
 location	Paulhenc
+location	St Georges de Mons
 location	Villefranche-d'Allier
 location	Chapdes Beaufort
 location	Espinchal
 location	St Ours Les Roches
+location	Menat
+location	Manzat
+location	Murol
 location	Aydat
-location	Charbonniere Les Vieilles
+location	Charbonnieres Les Vieilles
 location	Charbonnieres Les Varenne
 location	Volvic
 location	St Hilaire la Croix
+location	Royat
+location	Sayat
+location	Durtol
 location	Nohanent
 location	Chatel Guyon
 location	Chamalieres
 location	Ceyrat
+location	Blanzat
 location	Clermont-Ferrand
 location	Marsat
+location	Chateaugay
 location	Beaumont
 location	Combronde
 location	Yssac la Tourette
@@ -2245,6 +2267,7 @@ location	Riom
 location	Saint Bonnet Pres Riom
 location	Aubiere
 location	La Roche Blanche
+location	Champeix
 location	Gerzat
 location	Apchat
 location	Chambaron sur Morge
@@ -2253,19 +2276,24 @@ location	Veyre Monton
 location	Aulnat
 location	Saint Beauzire
 location	Les Martres de Veyre
+location	Clerlande
 location	Lempdes
 location	Cournon D Auvergne
 location	Cournon
 location	Gannat
 location	Les Martres sur Morge
+location	Ennezat
 location	Dallet
 location	Pont Du Chateau
 location	Issoire
 location	Coulandon
+location	Les Martres D'Artiere
 location	Le Breuil sur Couze
 location	Escurolles
+location	Bayet
 location	Chauriat
 location	Vertaizon
+location	St Laure
 location	Saint Julien de Coppel
 location	Maringues
 location	Moulins
@@ -2334,6 +2362,7 @@ location	Grenoble
 location	Saint-Martin-D'Hères
 location	Bellegarde-sur-Valserine
 location	Chambery
+location	Entraigues
 location	Challes-Les-Eaux
 location	Saint-Julien-en-Genevois
 location	Pringy
@@ -2443,6 +2472,7 @@ location	Toulon
 location	Gap
 location	Provence
 location	Var
+location	Digne Les Bains
 location	La Londe-Les-Maures
 location	Draguignan
 location	Embrun
@@ -4076,6 +4106,7 @@ location	Wolfsberg
 # Upper Austria
 location	Zell Am Moos
 location	Fornach
+location	Unterach Am Attersee
 location	Vöcklamarkt
 location	St. Georgen Im Attergau
 location	Frankenburg Am Hausruck
@@ -4086,21 +4117,28 @@ location	Timelkam
 location	Bad Goisern
 location	Bad Ischl
 location	Vöcklabruck
+location	Aurach Am Hongar
+location	Pilsbach
 location	Altenhof Am Hausruck
 location	Regau
 location	Neukirchen
 location	Attnang-Puchheim
 location	Altmünster
+location	Pinsdorf
 location	Ebensee Am Traunsee
 location	Schwanenstadt
 location	Ohlsdorf
 location	Gmunden
 location	Laakirchen
 location	Grieskirchen
+location	St. Konrad
 location	Hochficht
 location	Gunskirchen
 location	Wels-Land
+location	Grünau im Almtal
+location	Scharnstein
 location	Haizing
+location	Pettenbach
 location	Eferding
 location	Wels-Stadt
 location	Steyr-Land
@@ -4110,6 +4148,7 @@ location	Losenstein
 location	Freistadt
 
 # Styria
+location	Bad Aussee
 location	Liezen
 location	Murau
 location	Murtal
@@ -4535,6 +4574,7 @@ location	Bobrowo
 
 # Slaskie
 location	Dankowice
+location	Chałupki
 location	Sosnicowice
 location	Cieszyn
 location	Gliwice
@@ -4727,6 +4767,7 @@ location	Plavecký Štvrtok
 location	Veľké Leváre
 
 # Trnava
+location	Holice
 location	Dolne Saliby
 location	Horne Saliby
 location	Cierna Voda
@@ -4772,13 +4813,21 @@ location	Turzovka
 location	Cadca
 location	Turcianske Teplice
 location	Horná Štubňa
+location	Novot
 location	Dolný Kubín
+location	Mutne
 location	Martincek
 location	Oravska Jasenica
+location	Sihelne
 location	Oravska Polhora
+location	Zubrohlava
 location	Nizna
 location	Trstena
+location	Zuberec
 location	Liptovsky Mikulas
+location	Liesek
+location	Vitanova
+location	Suchá Hora
 
 # Banska Bystrica
 location	Zarnovica
@@ -4801,9 +4850,11 @@ location	Hranovnica
 location	Kezmarok
 location	Stara Lubovna
 location	Spisske Podhradie
+location	Livovska Huta
 location	Sabinov
 location	Janovce
 location	Stropkov
+location	Turany nad Ondavou
 location	Snina
 
 # Kosice
@@ -4812,6 +4863,7 @@ location	Zehra
 location	Gelnica
 location	Trebisov
 location	Michalovce
+location	Kralovsky Chlmec
 location	Sobrance
 
 ### Hungary
@@ -4998,8 +5050,10 @@ location	Kolpino
 
 # Leningrad Oblast
 location	Sosnovyi Bor
+location	Lomonosov
 location	Kipen
 location	Gatchina
+location	Sertolovo
 location	Yanino-1
 location	Vsevolozhsk
 location	Tosno
@@ -5154,6 +5208,7 @@ location	Makhachkala
 location	Kozmodemyansk
 
 # Astrakhan Region
+location	Chyorny Yar
 location	Akhtubinsk
 location	Enotaevka
 location	Kharabali
@@ -7061,6 +7116,7 @@ location	Mineral County NV
 location	Douglas County NV
 location	Lyon County
 location	Carson
+location	Carson City
 location	Storey County
 location	Churchill County
 location	Lander County
@@ -7294,6 +7350,7 @@ location	Jackson
 location	Fillmore County
 location	Houston County MN
 location	Winona County
+location	Olmsted County
 location	Wabasha County
 location	Goodhue County
 location	Dakota County
@@ -7953,12 +8010,14 @@ division	Kabul
 ### Kazakhstan
 division	West-Kazakhstan Region
 division	Atyrau Region
+division	Mangystau Region
 division	Aktobe Region
 division	Kyzylorda Region
 division	Kazakhstan
 division	South Kazakhstan Region
 division	Karaganda Region
 division	Nur-Sultan
+division	Jambyl Region
 division	Almaty
 division	East-Kazakhstan Region
 
@@ -8063,6 +8122,7 @@ division	Nay Pyi Taw
 division	Myanmar
 
 ### Thailand
+division	Narathiwat
 division	Trang
 division	Phuket
 division	Rayong
@@ -8074,7 +8134,7 @@ division	Samut Prakan
 division	Bangkok
 division	Nonthaburi
 division	Pathum Thani
-division	Nakhonnayok
+division	Nakhon Nayok
 division	Ang Thong
 division	Thailand
 division	Singburi
