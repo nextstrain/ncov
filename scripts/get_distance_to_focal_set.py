@@ -155,6 +155,9 @@ if __name__ == '__main__':
     fh_out = open(args.output, 'w')
     fh_out.write('strain\tclosest strain\tdistance\n')
 
+    if focal_seqs_dict is None:
+        exit()
+
     chunk_size=args.chunk_size
     chunk_count = 0
     while True:
