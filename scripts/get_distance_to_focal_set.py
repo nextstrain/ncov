@@ -10,6 +10,7 @@ from Bio.SeqIO.FastaIO import SimpleFastaParser
 from Bio.Seq import Seq
 from Bio import AlignIO, SeqIO
 from scipy import sparse
+import sys
 
 
 def compactify_sequences(sparse_matrix, sequence_names):
@@ -35,8 +36,10 @@ def sequence_to_int_array(s, fill_value=110, fill_gaps=True):
     return seq
 
 # Function adapted from https://github.com/gtonkinhill/pairsnp-python
-def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110, chunk_size=0, ignore_seqs=[]):
+def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110, chunk_size=0, ignore_seqs=None):
     # This function generate a sparse matrix where differences to the consensus are coded as integers.
+    if ignore_seqs is None:
+        ignore_seqs = []
 
     row = np.empty(INITIALISATION_LENGTH)
     col = np.empty(INITIALISATION_LENGTH, dtype=np.int64)
@@ -146,7 +149,15 @@ if __name__ == '__main__':
 
     fh_focal = open(args.focal_alignment, 'rt')
     focal_seqs = SimpleFastaParser(fh_focal)
-    focal_seqs_dict = calculate_snp_matrix(focal_seqs, consensus = ref, ignore_seqs=args.ignore_seqs or [])
+    focal_seqs_dict = calculate_snp_matrix(focal_seqs, consensus = ref, ignore_seqs=args.ignore_seqs)
+
+    if focal_seqs_dict is None:
+        print(
+            f"ERROR: There are no valid sequences in the focal alignment, '{args.focal_alignment}', to compare against the full alignment.",
+            "Check your subsampling settings for the focal alignment or consider disabling proximity-based subsampling.",
+            file=sys.stderr
+        )
+        sys.exit(1)
 
     fh_seqs = open(args.alignment, 'rt')
     seqs = SimpleFastaParser(fh_seqs)
@@ -154,9 +165,6 @@ if __name__ == '__main__':
     # export priorities
     fh_out = open(args.output, 'w')
     fh_out.write('strain\tclosest strain\tdistance\n')
-
-    if focal_seqs_dict is None:
-        exit()
 
     chunk_size=args.chunk_size
     chunk_count = 0
