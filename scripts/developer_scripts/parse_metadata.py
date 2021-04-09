@@ -1147,7 +1147,10 @@ def find_place(geo_level, place, full_place, geolocator):
     redo = True
     while redo == True:
 
-        new_place = ask_geocoder(typed_place, geolocator)
+        try:
+            new_place = ask_geocoder(typed_place, geolocator)
+        except:
+            continue
 
         if str(new_place) == 'None':
             print("\nCurrent place for missing {}:\t".format(geo_level) + full_place)
@@ -1179,6 +1182,7 @@ def find_place(geo_level, place, full_place, geolocator):
                 answer = (geo_level + "\t" + place + "\t")
                 redo = False
 
+    print(answer)
     return answer
 
 ################################################################################
@@ -1376,12 +1380,12 @@ if __name__ == '__main__':
     # Step 2: Clean up data
     ################################################################################
 
-    ##### Step 2.0: Adjust the divisions and locations by comparing them to a known database - only accessible for Belgium at the moment
-    data = adjust_to_database(data)
-
-    ##### Step 2.05: Before checking for any of the other adjustments, apply manually designed adjustments stored in manual_adjustments.txt
+    ##### Step 2.0: Before checking for any of the other adjustments, apply manually designed adjustments stored in manual_adjustments.txt
     # This includes manually setting the region, country, division and location before and after the adjustment
     data = manual_adjustments(data)
+
+    ##### Step 2.05: Adjust the divisions and locations by comparing them to a known database - only accessible for Belgium at the moment
+    data = adjust_to_database(data)
 
     ##### Step 2.1: Apply all known variants stored in an external file variants.txt
     data = apply_typical_errors(data) #TODO: do this earlier (before reading metadata), join with UK as region?

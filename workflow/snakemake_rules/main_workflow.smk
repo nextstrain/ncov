@@ -434,7 +434,8 @@ rule proximity_score:
     benchmark:
         "benchmarks/proximity_score_{build_name}_{focus}.txt"
     params:
-        chunk_size=10000
+        chunk_size=10000,
+        ignore_seqs = config['refine']['root']
     resources:
         # Memory scales at ~0.15 MB * chunk_size (e.g., 0.15 MB * 10000 = 1.5GB).
         mem_mb=4000
@@ -445,6 +446,7 @@ rule proximity_score:
             --reference {input.reference} \
             --alignment {input.alignment} \
             --focal-alignment {input.focal_alignment} \
+            --ignore-seqs {params.ignore_seqs} \
             --chunk-size {params.chunk_size} \
             --output {output.proximities} 2>&1 | tee {log}
         """

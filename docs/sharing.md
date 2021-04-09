@@ -14,7 +14,7 @@
 
 We'll walk through each of these in detail, roughly in order from the simplest and most private to the slightly more complex and publicly shareable.
 
-If none of these options meet your needs, please [get in touch](index.md#Help)!
+If none of these options meet your needs, please [get in touch](https://discussion.nextstrain.org/)!
 
 ---
 
@@ -103,7 +103,7 @@ When running locally, both the server and the client run on your computer; no in
 
 #### How to get started  
 
-Nextstrain Groups are a new feature; if you'd like to use this option, please [get in touch](index.md#Help) and we'll help you get started right away!
+Nextstrain Groups are a new feature; if you'd like to use this option, please [get in touch](mailto:hello@nextstrain.org) and we'll help you get started right away!
 
 #### Privacy and security  
 

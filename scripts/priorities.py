@@ -15,7 +15,7 @@ if __name__ == '__main__':
     parser.add_argument("--sequence-index", type=str, required=True, help="sequence index file")
     parser.add_argument("--proximities", type = str, required=True, help="tsv file with proximities")
     parser.add_argument("--Nweight", type = float, default=0.003, required=False, help="parameterizes de-prioritization of incomplete sequences")
-    parser.add_argument("--crowding-penalty", type = float, default=0.05, required=False, help="parameterizes how priorities decrease when there is many very similar sequences")
+    parser.add_argument("--crowding-penalty", type = float, default=0.01, required=False, help="parameterizes how priorities decrease when there is many very similar sequences")
     parser.add_argument("--output", type=str, required=True, help="tsv file with the priorities")
     args = parser.parse_args()
 
@@ -27,7 +27,8 @@ if __name__ == '__main__':
     candidates = {}
     for focal_seq, seqs in closest_matches.groups.items():
         tmp = combined.loc[seqs, ["distance", "N"]]
-        tmp["priority"] = -tmp.distance + tmp.N*args.Nweight
+        # penalize larger distances and more undetermined sites. 1/args.Nweight are 'as bad' as one extra mutation
+        tmp["priority"] = -tmp.distance - tmp.N*args.Nweight
         name_prior = [(name, d.priority) for name, d in tmp.iterrows()]
         shuffle(name_prior)
         candidates[focal_seq] = sorted(name_prior, key=lambda x:x[1])
@@ -35,6 +36,8 @@ if __name__ == '__main__':
     # export priorities
     crowding = args.crowding_penalty
     with open(args.output, 'w') as fh:
+        # loop over lists of sequences that are closest to particular focal sequences
         for cs in candidates.values():
+            # these sets have been shuffled -- reduce priorities in this shuffled random order
             for i, (name, pr) in enumerate(cs):
-                fh.write(f"{name}\t{pr+i*crowding:1.2f}\n")
+                fh.write(f"{name}\t{pr-i*crowding:1.2f}\n")
