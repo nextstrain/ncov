@@ -57,10 +57,12 @@ snakemake --profile nextstrain_profiles/nextstrain all_regions
 
 ## Releasing new workflow versions
 
-We use semantic versioning of the ncov workflow, denoting backward incompatible changes with major versions and new features with minor versions.
-Prior to merging a pull request that introduces a new backward incompatible change (e.g., requirement of a new version of Augur) or feature (e.g., support for multiple input datasets), take the following steps to document these changes:
+We use semantic versioning of the ncov workflow, denoting backward incompatible changes with major versions.
+Prior to merging a pull request that introduces a new backward incompatible change (e.g., requirement of a new version of Augur), take the following steps to document these changes:
 
- 1. Determine the new version number based on whether the changes are backward incompatible or new features. For example, if current version is 1.0 and changes are backward incompatible, the new version is 2.0. If changes add new features, the new version is 1.1.
+ 1. Determine the new version number by incrementing [the current version](https://github.com/nextstrain/ncov/releases/) (e.g., "v2.0" from "v1.0").
  1. As part of the pull request, document the change(s) from the pull request in [`docs/change_log.md`](https://github.com/nextstrain/ncov/blob/master/docs/change_log.md) with the current date and new version number.
  1. Merge the pull request
- 1. [Create a new GitHub release](https://github.com/nextstrain/ncov/releases/new) using the new version as the tag (e.g., "v1.1" or "v2.0") and release title. Leave the release description empty.
+ 1. [Create a new GitHub release](https://github.com/nextstrain/ncov/releases/new) using the new version as the tag (e.g., "v2.0") and release title. Leave the release description empty.
+
+We do not release new minor versions for new features, but you should document new features in the change log as part of the corresponding pull request under a heading for the date those features are merged.
