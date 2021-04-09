@@ -191,11 +191,11 @@ rule upload_reference_sets:
         s3_bucket = config["S3_DST_BUCKET"],
         compression = config["S3_DST_COMPRESSION"]
     run:
-        for fname in alignments:
+        for fname in input.alignments:
             cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.dirname(fname).split('/')[-1]}_alignment.fasta.{params.compression} | tee -a {log}"
             print("upload command:", cmd)
             shell(cmd)
-        for fname in metadata:
+        for fname in input.metadata:
             cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.dirname(fname).split('/')[-1]}_metadata.tsv.{params.compression} | tee -a {log}"
             print("upload command:", cmd)
             shell(cmd)
