@@ -9,9 +9,9 @@
 use_nextalign: true
 
 inputs:
-  - name: aus
-    metadata: "data/example_metadata_aus.tsv"
-    sequences: "data/example_sequences_aus.fasta"
+  - name: local
+    metadata: "data/example_metadata.tsv"
+    sequences: "data/example_sequences.fasta"
   - name: global
     # Define local paths to a pre-filtered global context.
     metadata: "data/global_subsampled_metadata.tsv.gz"
