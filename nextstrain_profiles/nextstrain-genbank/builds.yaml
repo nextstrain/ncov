@@ -128,7 +128,7 @@ builds:
     auspice_config: "nextstrain_profiles/nextstrain/south-america_auspice_config.json"
 
   us-washington:
-    subsampling_scheme: nextstrain_division_small
+    subsampling_scheme: nextstrain_local_small
     region: North America
     country: USA
     division: Washington
