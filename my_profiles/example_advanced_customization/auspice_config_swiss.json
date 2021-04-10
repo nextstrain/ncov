@@ -82,11 +82,6 @@
       "key": "region_exposure",
       "title": "Region of exposure",
       "type": "categorical"
-    },
-    {
-      "key": "delta_frequency",
-      "title": "Change in frequency",
-      "type": "continuous"
     }
   ],
   "geo_resolutions": [

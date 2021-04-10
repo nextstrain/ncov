@@ -1045,36 +1045,6 @@ rule tip_frequencies:
             --output {output.tip_frequencies_json} 2>&1 | tee {log}
         """
 
-
-rule delta_frequency:
-    input:
-        tree="results/{build_name}/tree.nwk",
-        frequencies="results/{build_name}/tip-frequencies.json",
-    output:
-        node_data="results/{build_name}/delta_frequency.json"
-    benchmark:
-        "benchmarks/delta_frequency_{build_name}.txt"
-    conda:
-        config["conda_environment"]
-    log:
-        "logs/delta_frequency_{build_name}.txt"
-    params:
-        method="linear",
-        delta_pivots=config["delta_frequency"]["delta_pivots"],
-        min_tips=config["delta_frequency"]["min_tips"],
-    resources:
-        mem_mb=256
-    shell:
-        """
-        python3 scripts/calculate_delta_frequency.py \
-            --tree {input.tree} \
-            --frequencies {input.frequencies} \
-            --method {params.method} \
-            --min-tips {params.min_tips} \
-            --delta-pivots {params.delta_pivots} \
-            --output {output.node_data} 2>&1 | tee {log}
-        """
-
 rule logistic_growth:
     input:
         tree="results/{build_name}/tree.nwk",
@@ -1176,7 +1146,6 @@ def _get_node_data_by_wildcards(wildcards):
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data,
-        rules.delta_frequency.output.node_data,
         rules.logistic_growth.output.node_data
     ]
 

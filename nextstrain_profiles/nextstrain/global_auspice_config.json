@@ -31,11 +31,6 @@
       "type": "continuous"
     },
     {
-      "key": "delta_frequency",
-      "title": "Change in frequency",
-      "type": "continuous"
-    },
-    {
       "key": "logistic_growth",
       "title": "Logistic growth",
       "type": "continuous"

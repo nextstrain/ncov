@@ -6,11 +6,6 @@
   ],
   "colorings": [
     {
-      "key": "delta_frequency",
-      "title": "Change in frequency",
-      "type": "continuous"
-    },
-    {
       "key": "location",
       "title": "Location",
       "type": "categorical"
