@@ -17,7 +17,7 @@ If you added or changed behavior in the codebase, did you update the tests, or d
 
 If this pull request introduces backward incompatible changes, complete the following steps for a new release of the workflow:
 
- - [ ] Determine the version number for the new release by incrementing [the most recent release](https://github.com/nextstrain/ncov/releases) (e.g., "v2.0" from "v1.0").
+ - [ ] Determine the version number for the new release by incrementing [the most recent release](https://github.com/nextstrain/ncov/releases) (e.g., "v2" from "v1").
  - [ ] Update `docs/change_log.md` in this pull request to document these changes and the new version number.
  - [ ] After merging, [create a new GitHub release](https://github.com/nextstrain/ncov/releases/new) with the new version number as the tag and release title.
 
