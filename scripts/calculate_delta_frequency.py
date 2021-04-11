@@ -1,4 +1,5 @@
 """Calculate the change in frequency for clades over time (aka the delta frequency or dfreq).
+Design discussion is located on GitHub at https://github.com/nextstrain/ncov/pull/595
 """
 import argparse
 from augur.frequency_estimators import logit_transform
@@ -9,6 +10,7 @@ import json
 import numpy as np
 from scipy.stats import linregress
 import sys
+import math
 
 
 def read_frequencies(frequencies_file):
@@ -49,15 +51,15 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--min-tips",
-        default=10,
+        default=50,
         type=int,
-        help="minimum number of tips for internal nodes to calculate delta frequency for. Nodes below this number inherit the values of their parent node."
+        help="minimum number of child tips for internal nodes on which to perform logistic growth calculations. Nodes below this frequency inherit the values of their parent node."
     )
     parser.add_argument(
-        "--frequency-threshold",
-        default=0.0001,
+        "--max-frequency",
+        default=0.95,
         type=float,
-        help="threshold to apply to frequency values when performing logit transform for logistic growth calculations"
+        help="maximum frequency of nodes on which to perform logistic growth calculations"
     )
     parser.add_argument("--attribute-name", default="delta_frequency", help="name of the annotation to store in the node data JSON output")
     parser.add_argument("--output", required=True, help="JSON of delta frequency annotations for nodes in the given tree")
@@ -121,7 +123,7 @@ if __name__ == "__main__":
                 # transform (as when frequencies equal 0 or 1).
                 y_frequencies = logit_transform(
                     node.frequencies[first_pivot_index:],
-                    pc=args.frequency_threshold
+                    pc=0.001
                 )
 
                 # Fit linear regression to pivots and frequencies and use the
@@ -129,6 +131,17 @@ if __name__ == "__main__":
                 # decline.
                 model = linregress(x_pivots, y_frequencies)
                 node_delta_frequency = model.slope
+
+                # don't estimate logistic growth rate for high frequency nodes
+                # set these to undefined
+                if node.frequencies[last_pivot_index] > args.max_frequency:
+                    node_delta_frequency = math.nan
+
+                # don't estimate logistic growth rate for zero frequency nodes
+                # where a 0 logistic growth estimate appears par for the course
+                # instead these are better conveyed as undefined
+                if node.frequencies[last_pivot_index] < 0.0001:
+                    node_delta_frequency = math.nan
             else:
                 print(f"Error: The request method, '{args.method}', is not supported.", file=sys.stderr)
                 sys.exit(1)

@@ -102,15 +102,15 @@ logistic_growth:
   # Calculate logistic growth over the last N pivots which corresponds to N
   # times the amount of time represented by the `pivot_interval_units` in the
   # frequencies configuration.
-  delta_pivots: 4
-
-  # Set the frequency threshold for logistic growth calculations, to avoid
-  # numerical errors when calculating logit transformations.
-  frequency_threshold: 0.0001
+  delta_pivots: 6
 
   # Set the minimum number of tips a clade must have before its logistic growth
   # is calculated.
-  min_tips: 25
+  min_tips: 50
+
+  # Set the maximum current frequency a clade must for its logistic growth
+  # to be calculated.
+  max_frequency: 0.5
 
 #
 # Region-specific settings
