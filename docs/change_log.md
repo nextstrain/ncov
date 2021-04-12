@@ -3,6 +3,13 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## v3 (12 April 2021)
+
+  - Use Augur 11.2.0's metadata-only output arguments to aggregate subsampled sequences and metadata [#592][]
+  - Use Augur 11.3.0's `io.py` module to combine and deduplicate uncompressed or compressed sequences when handling multiple input datasets [#592][]
+
+[#592]: https://github.com/nextstrain/ncov/pull/592
+
 ## v2 (9 April 2021)
 
 This release reflects the state of the workflow when we instituted our workflow versioning system.
