@@ -147,9 +147,12 @@ if __name__ == "__main__":
                 sys.exit(1)
 
             delta_frequency[node.name][args.attribute_name] = node_delta_frequency
-        else:
-            # If the current node is low frequency, use its parent node's delta frequency value.
+        elif node.parent is not None:
+            # If the current node is low frequency, try to use its parent node's delta frequency value.
+            # Otherwise, default to a missing value.
             delta_frequency[node.name][args.attribute_name] = delta_frequency[node.parent.name][args.attribute_name]
+        else:
+            delta_frequency[node.name][args.attribute_name] = math.nan
 
     # Write out the node annotations.
     write_json({"nodes": delta_frequency}, args.output)
