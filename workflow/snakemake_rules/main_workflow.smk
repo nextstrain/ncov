@@ -1062,7 +1062,8 @@ rule logistic_growth:
         attribute_name = "logistic_growth",
         delta_pivots=config["logistic_growth"]["delta_pivots"],
         min_tips=config["logistic_growth"]["min_tips"],
-        max_frequency=config["logistic_growth"]["max_frequency"]
+        min_frequency=config["logistic_growth"]["min_frequency"],
+        max_frequency=config["logistic_growth"]["max_frequency"],
     resources:
         mem_mb=256
     shell:
@@ -1073,6 +1074,7 @@ rule logistic_growth:
             --method {params.method} \
             --delta-pivots {params.delta_pivots} \
             --min-tips {params.min_tips} \
+            --min-frequency {params.min_frequency} \
             --max-frequency {params.max_frequency} \
             --attribute-name {params.attribute_name} \
             --output {output.node_data} 2>&1 | tee {log}

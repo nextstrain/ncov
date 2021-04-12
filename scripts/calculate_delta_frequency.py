@@ -7,10 +7,10 @@ from augur.utils import annotate_parents_for_tree, read_node_data, read_tree, wr
 import Bio.Phylo
 from collections import defaultdict
 import json
+import math
 import numpy as np
 from scipy.stats import linregress
 import sys
-import math
 
 
 def read_frequencies(frequencies_file):
@@ -54,6 +54,12 @@ if __name__ == "__main__":
         default=50,
         type=int,
         help="minimum number of child tips for internal nodes on which to perform logistic growth calculations. Nodes below this frequency inherit the values of their parent node."
+    )
+    parser.add_argument(
+        "--min-frequency",
+        default=0.0001,
+        type=float,
+        help="minimum frequency of nodes on which to perform logistic growth calculations"
     )
     parser.add_argument(
         "--max-frequency",
@@ -140,7 +146,7 @@ if __name__ == "__main__":
                 # don't estimate logistic growth rate for zero frequency nodes
                 # where a 0 logistic growth estimate appears par for the course
                 # instead these are better conveyed as undefined
-                if node.frequencies[last_pivot_index] < 0.0001:
+                if node.frequencies[last_pivot_index] < args.min_frequency:
                     node_delta_frequency = math.nan
             else:
                 print(f"Error: The request method, '{args.method}', is not supported.", file=sys.stderr)

@@ -108,8 +108,9 @@ logistic_growth:
   # is calculated.
   min_tips: 50
 
-  # Set the maximum current frequency a clade must for its logistic growth
-  # to be calculated.
+  # Set the minimum and maximum current frequency a clade must for its logistic
+  # growth to be calculated.
+  min_frequency: 0.0001
   max_frequency: 0.5
 
 #
