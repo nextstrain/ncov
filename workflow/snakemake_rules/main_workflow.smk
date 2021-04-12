@@ -592,7 +592,7 @@ if "run_pangolin" in config and config["run_pangolin"]:
             """
             pangolin {input.alignment}\
                 --outdir {params.outdir} \
-                --outfile {params.csv_outfile} \
+                --outfile {params.csv_outfile} 2>&1 | tee {log}\
             """
 
     rule make_pangolin_node_data:
