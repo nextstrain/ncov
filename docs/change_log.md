@@ -3,6 +3,12 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## Features added (12 April 2021)
+
+  - Annotate Pangolin lineages per build in a `pangolineages.json` file and final Auspice JSON by adding `run_pangolin: true` to the top-level workflow config (`builds.yaml`). [#593][]
+
+[#593]: https://github.com/nextstrain/ncov/pull/593
+
 ## v3 (12 April 2021)
 
   - Use Augur 11.2.0's metadata-only output arguments to aggregate subsampled sequences and metadata [#592][]
