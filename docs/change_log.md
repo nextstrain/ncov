@@ -5,7 +5,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## Features added (12 April 2021)
 
-  - Annotate Pangolin lineages per build in a `pangolineages.json` file and final Auspice JSON by adding `run_pangolin: true` to the top-level workflow config (`builds.yaml`). [#593][]
+  - Annotate Pangolin lineages per build in a `pangolineages.json` file and final Auspice JSON by adding `run_pangolin: true` to the top-level workflow config (`builds.yaml`). **Note: this annotation only works when running the workflow with Snakemake's `--use-conda` flag or if your environment has [Pangolin installed](https://github.com/cov-lineages/pangolin).** [#593][]
 
 [#593]: https://github.com/nextstrain/ncov/pull/593
 
