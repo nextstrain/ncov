@@ -582,10 +582,10 @@ if "run_pangolin" in config and config["run_pangolin"]:
             node_data_outfile = "pangolineages.json"
         log:
             "logs/pangolin_{build_name}.txt"
-        conda: config["conda_environment"] ## not sure what this arg does -- could it be used to separate the requirements for `pangolin` rather than adding them to the ncov env?
+        conda: config["conda_environment"]
         threads: 8
         resources:
-            mem_mb=3000 ## should update these
+            mem_mb=3000
         shell:
             """
             pangolin {input.alignment}\
@@ -603,7 +603,7 @@ if "run_pangolin" in config and config["run_pangolin"]:
             "logs/pangolin_export_{build_name}.txt"
         conda: config["conda_environment"]
         resources:
-            mem_mb=3000 ## should update these
+            mem_mb=3000
         shell:
             """
             python3 scripts/make_pangolin_node_data.py \
