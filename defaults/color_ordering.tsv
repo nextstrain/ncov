@@ -241,10 +241,12 @@ location	Chikkaballapura
 location	Kolar
 
 # Andhra Pradesh
-location	Kurnool
-location	Kadapa
+location	Tirupati
 location	Nellore
+location	Kadapa
+location	Kurnool
 location	Guntur
+location	Vijayawada
 
 # Telangana
 location	Jogulamba Gadwal
@@ -962,6 +964,30 @@ location	Bata
 
 # Wele Nzas
 location	Nsork
+
+### Angola
+# Huíla
+location	Lubango
+
+# Cuanza Sul
+location	Libolo
+
+# Luanda
+location	Belas
+location	Sumbe
+location	Talatona
+location	Viana AN
+location	Kilamba Kiaxi
+location	Martires
+location	Calemba
+location	Cacuaco
+location	Alvalade
+location	Maianga
+location	Vila Alice
+location	Cazenga
+location	São Paulo AN
+location	Benguela
+location	Povo Grande
 
 ### Botswana
 # Central District BW
@@ -7539,7 +7565,6 @@ location	Northern Alaska
 location	Gulf Coast Alaska
 location	Anchorage and Matanuska-Susitna
 location	Interior Alaska
-location	Fairbanks
 location	Southeast Alaska
 
 # Oregon
@@ -9097,6 +9122,8 @@ division	Omaheke
 division	Zambezi
 
 ### Angola
+division	Huíla
+division	Cuanza Sul
 division	Luanda
 division	Cabinda
 
