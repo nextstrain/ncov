@@ -267,3 +267,7 @@ subsampling:
       priorities:
         type: "proximity"
         focus: "region_late"
+
+# Define frequencies parameters.
+frequencies:
+    recent_days_to_censor: 7
