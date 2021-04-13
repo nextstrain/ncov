@@ -110,8 +110,8 @@ logistic_growth:
 
   # Set the minimum and maximum current frequency a clade must for its logistic
   # growth to be calculated.
-  min_frequency: 0.0001
-  max_frequency: 0.5
+  min_frequency: 0.000001
+  max_frequency: 0.95
 
 #
 # Region-specific settings

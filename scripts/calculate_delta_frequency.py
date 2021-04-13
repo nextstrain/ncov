@@ -115,48 +115,49 @@ if __name__ == "__main__":
             "current_frequency": node.frequencies[last_pivot_index]
         }
 
-        if node.count_terminals() >= args.min_tips:
-            # Calculate the change in frequency over the requested time period.
-            if args.method == "linear":
-                node_delta_frequency = (node.frequencies[last_pivot_index] - node.frequencies[first_pivot_index]) / delta_time
-            elif args.method == "logistic":
-                x_pivots = pivots[first_pivot_index:]
+        # don't estimate logistic growth rate for low frequency nodes
+        # that represent clades that are no longer extant
+        # instead these are better conveyed as undefined
+        if node.frequencies[last_pivot_index] > args.min_frequency:
+            if node.count_terminals() >= args.min_tips:
+                # Calculate the change in frequency over the requested time period.
+                if args.method == "linear":
+                    node_delta_frequency = (node.frequencies[last_pivot_index] - node.frequencies[first_pivot_index]) / delta_time
+                elif args.method == "logistic":
+                    x_pivots = pivots[first_pivot_index:]
 
-                # Transform most recent frequencies prior to fitting linear
-                # regression to better represent logistic growth we expect from
-                # SARS-CoV-2 clades. This transformation accounts for numerical
-                # error with its second argument to avoid infinite values in the
-                # transform (as when frequencies equal 0 or 1).
-                y_frequencies = logit_transform(
-                    node.frequencies[first_pivot_index:],
-                    pc=0.001
-                )
+                    # Transform most recent frequencies prior to fitting linear
+                    # regression to better represent logistic growth we expect from
+                    # SARS-CoV-2 clades. This transformation accounts for numerical
+                    # error with its second argument to avoid infinite values in the
+                    # transform (as when frequencies equal 0 or 1).
+                    y_frequencies = logit_transform(
+                        node.frequencies[first_pivot_index:],
+                        pc=0.001
+                    )
 
-                # Fit linear regression to pivots and frequencies and use the
-                # resulting slope as the measure of recent clade growth or
-                # decline.
-                model = linregress(x_pivots, y_frequencies)
-                node_delta_frequency = model.slope
+                    # Fit linear regression to pivots and frequencies and use the
+                    # resulting slope as the measure of recent clade growth or
+                    # decline.
+                    model = linregress(x_pivots, y_frequencies)
+                    node_delta_frequency = model.slope
 
-                # don't estimate logistic growth rate for high frequency nodes
-                # set these to undefined
-                if node.frequencies[last_pivot_index] > args.max_frequency:
-                    node_delta_frequency = math.nan
+                    # don't estimate logistic growth rate for high frequency nodes
+                    # set these to undefined
+                    if node.frequencies[last_pivot_index] > args.max_frequency:
+                        node_delta_frequency = math.nan
 
-                # don't estimate logistic growth rate for zero frequency nodes
-                # where a 0 logistic growth estimate appears par for the course
-                # instead these are better conveyed as undefined
-                if node.frequencies[last_pivot_index] < args.min_frequency:
-                    node_delta_frequency = math.nan
+                else:
+                    print(f"Error: The request method, '{args.method}', is not supported.", file=sys.stderr)
+                    sys.exit(1)
+
+                delta_frequency[node.name][args.attribute_name] = node_delta_frequency
+            elif node.parent is not None:
+                # If the current node is low frequency, try to use its parent node's delta frequency value.
+                # Otherwise, default to a missing value.
+                delta_frequency[node.name][args.attribute_name] = delta_frequency[node.parent.name][args.attribute_name]
             else:
-                print(f"Error: The request method, '{args.method}', is not supported.", file=sys.stderr)
-                sys.exit(1)
-
-            delta_frequency[node.name][args.attribute_name] = node_delta_frequency
-        elif node.parent is not None:
-            # If the current node is low frequency, try to use its parent node's delta frequency value.
-            # Otherwise, default to a missing value.
-            delta_frequency[node.name][args.attribute_name] = delta_frequency[node.parent.name][args.attribute_name]
+                delta_frequency[node.name][args.attribute_name] = math.nan
         else:
             delta_frequency[node.name][args.attribute_name] = math.nan
 
