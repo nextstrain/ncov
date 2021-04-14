@@ -3601,9 +3601,14 @@ location	Apeldoorn
 # Overijssel
 location	Raalte
 location	Hengelo
+location	Oldenzaal
+
+# Groningen
+location	Leek
 
 # Drenthe
 location	Meppel
+location	Assen
 location	Coevorden
 location	Dalen
 
