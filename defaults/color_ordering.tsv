@@ -564,6 +564,8 @@ location	Sherpur
 location	Habiganj
 location	Moulvibazar
 location	Sadipur
+location	Fenchuganj
+location	Barutkhana
 location	Sylhet
 location	Subid Bazar
 location	Kasdobir
@@ -710,9 +712,6 @@ location	Sijunjung
 location	South Solok
 location	Dharmasraya
 
-# Riau Island
-location	Batam
-
 # Bengkulu
 location	Muko Muko
 
@@ -723,6 +722,9 @@ location	Sarolangun
 
 # South Sumatra
 location	Palembang
+
+# Riau Islands
+location	Batam
 
 # Lampung
 location	Pringsewu
@@ -1837,6 +1839,7 @@ location	Gava
 location	Terrassa
 location	Viladecans
 location	Santa Coloma de Cervello
+location	Prats de Lluçanès
 location	Rubi
 location	Sant Boi de Llobregat
 location	Sant Feliu de Llobregat
@@ -1870,6 +1873,7 @@ location	Santa Coloma de Gramenet
 location	Bigues I Riells
 location	Oris
 location	Mollet del Valles
+location	Sant Quirze de Besora
 location	Centelles
 location	Sant Adria del Besos
 location	Tona
@@ -1877,6 +1881,7 @@ location	Santa Eulàlia de Ronçana
 location	Parets del Valles
 location	Les Masies de Voltrega
 location	Martorelles
+location	Sant Hipolit de Voltrega
 location	Sant Fost de Campsentelles
 location	Llica D'Amunt
 location	Llissa de Munt
@@ -1903,11 +1908,14 @@ location	Vilanova del Vallés
 location	La Garriga
 location	Granollers
 location	Alella
+location	Sant Pere de Torello
 location	Corro d'Avall
 location	Llerona
 location	Vallromanes
+location	Roda de Ter
 location	El Masnou
 location	Teia
+location	Sant Julia de Vilatorta
 location	La Roca del Valles
 location	Canoves i Samalus
 location	Llanars
@@ -1918,6 +1926,7 @@ location	Vilassar de Dalt
 location	Premia de Mar
 location	Camprodon
 location	Cabrils
+location	Santa Maria de Corcó
 location	Sant Pere de Vilamajor
 location	Vilassar de Mar
 location	Cabrera de Mar
@@ -2505,6 +2514,7 @@ location	Montcenis
 location	Macon
 location	Chalon sur Saone
 location	Dijon
+location	Lons le Saunier
 location	Besancon
 location	Thise
 location	Brognard
@@ -2908,6 +2918,7 @@ location	Morlanwelz
 # Thuin
 location	Chimay
 location	Barbençon
+location	Erquelinnes
 location	Fontaine-Valmont
 location	Nalinnes
 location	Anderlues
@@ -3000,6 +3011,7 @@ location	Merksem
 location	Kontich
 location	Edegem
 location	Borgerhout
+location	Essen BE
 location	Mortsel
 location	Deurne
 location	Kalmthout
@@ -3309,6 +3321,7 @@ location	Zoerle-Parwijs
 location	Herselt
 location	Vosselaar
 location	Olen
+location	Tielen
 location	Geheul
 location	Oevel
 location	Westerlo
@@ -3401,6 +3414,7 @@ location	Hoeselt
 location	's Herenelderen
 location	Bilzen
 location	Genoelselderen
+location	Waltwilder
 location	Millen
 location	Riemst
 location	Gellik
@@ -3948,7 +3962,7 @@ location	Duesseldorf
 location	Muelheim
 location	Rheinbach
 location	Cologne
-location	Essen
+location	Essen DE
 location	Hennef
 location	Wetter
 location	Greven
@@ -6598,6 +6612,7 @@ location	Sao Jose do Rio Preto
 location	Potirendaba
 location	Itarare
 location	Uru
+location	Taquarituba
 location	Aguas de Santa Barbara
 location	Guapiacu
 location	Itabera
@@ -7621,6 +7636,7 @@ location	Klickitat County
 location	Yakima County
 location	Chelan County
 location	Douglas County WA
+location	Okanogan County
 location	Benton County WA
 location	Grant County WA
 location	Franklin County WA
@@ -7739,6 +7755,7 @@ location	Bozeman
 
 # Colorado
 location	Mesa County
+location	Pitkin County
 location	Denver County
 location	Colorado Springs
 
@@ -7985,7 +8002,6 @@ location	Livingston Parish
 location	Jefferson Parish
 location	New Orleans
 location	St Tammany Parish
-location	Orleans Parish
 location	St Bernard Parish
 
 # Missouri
@@ -8115,7 +8131,7 @@ location	Cumberland County
 location	Clark County IL
 location	Greene County IL
 location	Shelby County IL
-location	Christian County
+location	Christian County IL
 location	Coles County IL
 location	Pike County IL
 location	Scott County
@@ -8125,6 +8141,7 @@ location	Morgan County IL
 location	Sangamon County
 location	Douglas County IL
 location	Macon County
+location	Macon County IL
 location	Brown County IL
 location	Piatt County
 location	Cass County IL
@@ -8140,9 +8157,10 @@ location	Hancock County
 location	McDonough County
 location	McLean County IL
 location	Fulton County IL
-location	Tazewell County
+location	Tazewell County IL
 location	Iroquois County
 location	Peoria County
+location	Woodford County IL
 location	Henderson County IL
 location	Warren County IL
 location	Livingston County IL
@@ -8152,14 +8170,14 @@ location	Kankakee County
 location	Putnam County IL
 location	Grundy County IL
 location	Henry County IL
-location	Lasalle County
+location	LaSalle County IL
 location	Bureau County
 location	Will County
 location	Rock Island County
 location	Kendall County IL
 location	Lee County IL
 location	Whiteside County
-location	Cook County
+location	Cook County IL
 location	Chicago
 location	Dupage County
 location	Dekalb County IL
@@ -8167,12 +8185,13 @@ location	Kane County
 location	Ogle County
 location	Ogle County IL
 location	Carroll County IL
-location	Boone County
+location	Boone County IL
 location	Winnebago County IL
 location	McHenry County
 location	Lake County IL
 location	Stephenson County
 location	Jo Daviess County
+location	Madison
 
 # Alabama
 location	Baldwin County
@@ -8241,6 +8260,7 @@ location	Jefferson County IN
 location	Johnson County IN
 location	Indianapolis
 location	Marion County IN
+location	Boone County IN
 location	Tippecanoe County
 location	Lake County IN
 location	Porter County
@@ -8277,6 +8297,7 @@ location	Richland County OH
 location	Lorain County
 location	Cuyahoga County
 location	Summit County OH
+location	Trumbull County
 
 # Florida
 location	Walton County FL
@@ -8802,7 +8823,6 @@ division	Hong Kong
 division	Aceh
 division	North Sumatra
 division	West Sumatra
-division	Riau Island
 division	Riau
 division	Bengkulu
 division	Jambi
@@ -9069,6 +9089,7 @@ division	Nasarawa State
 division	Kano State
 division	Benue State
 division	Plateau State
+division	Bauchi
 division	Borno State
 
 ### Tunisia
@@ -10247,7 +10268,11 @@ division	San Andres y Providencia
 division	Suriname
 
 ### Venezuela
+division	Zulia
+division	Los Roques
+division	Miranda
 division	Venezuela
+division	Nueva Esparta
 
 ### Trinidad and Tobago
 division	Trinidad and Tobago
