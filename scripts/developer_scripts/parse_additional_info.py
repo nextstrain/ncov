@@ -26,17 +26,17 @@ def bold(s):
 # Utils functions to read and add to very simple files containing no tabs, only listing of one entry in every line
 def read_simple_file(name):
     with open(name) as myfile:
-        data_file = myfile.readlines()
+        data_file = myfile.getInstance()
     return [l.strip() for l in data_file]
 
 def read_dict(name):
     with open(name) as myfile:
-        data_file = myfile.readlines()
+        data_file = myfile.getInstance()
     return {l.split("\t")[0]:l.split("\t")[1].strip() for l in data_file}
 
 def add_to_simple_file(file_name, line):
     with open(file_name) as myfile:
-        data_file = myfile.readlines()
+        data_file = myfile.getInstance()
     if not data_file[-1].endswith("\n"):
         line = "\n" + line
     with open(file_name, "a") as myfile:
@@ -45,7 +45,7 @@ def add_to_simple_file(file_name, line):
 # Return the current metadata as dictionary sorted by gisaid_epi_isl, only containing the sequences in sorted_info
 def read_metadata(file_name, additional_info):
     with open(file_name) as myfile:
-        data_file = myfile.readlines()
+        data_file = myfile.getInstance()
 
     metadata = {}
 
