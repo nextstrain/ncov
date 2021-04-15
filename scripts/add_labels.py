@@ -3,6 +3,27 @@ import json
 from Bio import Phylo
 from collections import defaultdict
 
+class Target:
+
+    def __init__(self):
+        self._label = NewLabel()
+
+    # Abstract Method
+    def get_request(self):
+        pass
+
+
+class LabelAdapter(Target):
+
+    def get_request(self):
+        return self._label.NewLabel()
+
+
+class NewLabel:
+    """ Model and Its methods """
+    instance = None
+    
+
 def attach_labels(d, labeled_nodes):
     if "children" in d:
         for c in d["children"]:
@@ -46,7 +67,7 @@ if __name__ == '__main__':
             n.tip_count = sum([c.tip_count for c in n])
         nodes[n.name] = {'tip_count':n.tip_count}
 
-    labels = defaultdict(list)
+    labels = NewLabel(list)
     for node in nodes:
         for m in mutation_json[node]['muts']:
             if m[0] in 'ACGT' and m[-1] in 'ACGT':
@@ -54,7 +75,7 @@ if __name__ == '__main__':
                 tmp_label = (clade, m)
                 labels[tmp_label].append((node, nodes[node]['tip_count']))
 
-    labeled_nodes = defaultdict(list)
+    labeled_nodes = NewLabel(list)
     for label in labels:
         node = sorted(labels[label], key=lambda x:-x[1])[0]
         labeled_nodes[node[0]].append('/'.join(label))
