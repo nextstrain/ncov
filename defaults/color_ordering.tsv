@@ -297,6 +297,7 @@ location	Nagpur
 
 # Odisha
 location	Ganjam
+location	Jharsuguda
 
 # Chhattisgarh
 location	Durg
@@ -415,6 +416,7 @@ location	Tehatta
 location	Birbhum
 location	Murshidabad
 location	Malda
+location	Dakshin Dinajpur
 location	Uttar Dinajpur
 location	Cooch Behar
 location	Jalpaiguri
@@ -422,6 +424,9 @@ location	Darjeeling
 
 # Jharkhand
 location	East Singhbhum
+
+# Bihar
+location	Munger
 
 # Rajasthan
 location	Bikaner
@@ -521,6 +526,7 @@ location	Comilla
 location	Brahmanbaria
 
 # Barishal
+location	Pirojpur
 location	Bhola
 
 # Khulna
@@ -545,6 +551,7 @@ location	Mohammadpur
 location	Agargaon
 location	Banani
 location	Gulshan
+location	Cantonment
 location	Dhaka
 location	Mirpur
 location	Manikganj
@@ -1001,13 +1008,16 @@ location	Masunga
 ### South Africa
 # Western Cape Province
 location	Cape Agulhas
+location	Hermanus
 location	Mossel Bay
+location	Grabouw
 location	Hessequa
 location	Garden Route
 location	Mitchells Plain
 location	Khayelitsha
 location	Knysna
 location	Swellendam
+location	Kleinvlei
 location	Cape Town Metro
 location	George
 location	Bishop Lavis
@@ -1015,9 +1025,11 @@ location	Stellenbosch
 location	Cape Town
 location	Elsie's River
 location	Brackenfell
+location	Milnerton
 location	Tygerberg
 location	Kraaifontein
 location	Bitou
+location	Drakenstein
 location	Cape Winelands
 location	Breede Valley
 location	Kannaland
@@ -1032,9 +1044,11 @@ location	Ga-Segonyana
 location	Alexander Bay
 location	Port Nolloth
 location	Kuboes
+location	Steinkopf
 location	Okiep
 location	Springbok
 location	Karkams
+location	Kamiesberg
 location	Kamieskroon
 location	Concordia
 location	Garies
@@ -1283,7 +1297,9 @@ location	Candamo
 location	Ribera de Arriba
 location	Oviedo
 location	Llanera
+location	Lugones
 location	Mieres
+location	Moreda
 location	Norena
 location	Langreo
 location	Gijon
@@ -1309,7 +1325,10 @@ location	Algeciras
 location	San Roque ES
 location	La Linea de la Concepcion
 location	Pajara
+location	Ronda
 location	Aguadulce ES
+location	Teba
+location	Campillos
 location	Montilla
 location	Benalmadena
 location	Antequera
@@ -1319,6 +1338,7 @@ location	Malaga
 location	Rincon de la Victoria
 location	Benajarafe
 location	Loja ES
+location	Axarquia
 location	Velez Malaga
 location	Torre del Mar
 location	Castillo de Locubin
@@ -1355,6 +1375,7 @@ location	Durcal
 location	Alfacar
 location	Iznalloz
 location	Huetor Santillan
+location	Lanjaron
 location	Ubeda
 location	Jodar
 location	Navas de San Juan
@@ -1368,8 +1389,10 @@ location	Benalua
 location	Guadix
 location	Alicun de Ortega
 location	Retamar
+location	Aldeire
 location	La Calahorra
 location	Adra
+location	Pozo Alcon
 location	Zujar
 location	Finana
 location	Castril
@@ -1436,11 +1459,14 @@ location	Burgos
 
 # Cantabria
 location	Cillorigo de Liebana
+location	Ojedo
+location	Tudanca
 location	Comillas
 location	Ruiloba
 location	Cabezon de la Sal
 location	Mazcuerras
 location	Matamorosa
+location	Quijas
 location	Cieza
 location	Santillana
 location	Villapresente
@@ -1449,6 +1475,7 @@ location	Los Corrales de Buelna
 location	Santiago de Cartes
 location	Campuzano
 location	Torrelavega
+location	Hinojedo
 location	Tanos
 location	Barreda
 location	Suances
@@ -1462,7 +1489,9 @@ location	Carandia
 location	Mogro
 location	Valderredible
 location	Puente Viesgo
+location	Vargas
 location	Pielagos
+location	Barcenilla
 location	Renedo
 location	Renedo de Pielago
 location	Oruna
@@ -1473,6 +1502,7 @@ location	Alceda
 location	San Roman
 location	Escobedo
 location	Santa Cruz de Bezana
+location	Soto de la Marina
 location	Camargo
 location	La Penilla
 location	Peñacastillo
@@ -1490,6 +1520,7 @@ location	Penagos
 location	Villacarriedo
 location	Pontejos
 location	Vega de Pas
+location	Gajano
 location	Anaz
 location	Marina de Cudeyo
 location	Orejo
@@ -1500,6 +1531,7 @@ location	Loredo
 location	La Cavada
 location	Anero
 location	Somo
+location	Hazas de Cesto
 location	Meruelo
 location	Beranga
 location	Arnuero
@@ -1507,6 +1539,7 @@ location	Noja
 location	Ramales de la Victoria
 location	Mortera
 location	Santona
+location	Colindres
 location	Laredo
 location	Ampuero
 location	Guriezo
@@ -1539,16 +1572,40 @@ location	Estremera
 location	Horcajo de los Montes
 location	Ayna
 location	Cuenca ES
+location	El Casar
+location	Villanueva de la Torre
+location	Azuqueca de Henares
+location	Alovera
+location	Cabanillas del Campo
+location	Marchamalo
+location	Pozo de Guadalajara
+location	Chiloeches
+location	Humanes
+location	Driebes
+location	Torija
+location	Almoguera
+location	Pinilla de Jadraque
+location	Jadraque
+location	Pastrana
+location	Brihuega
+location	Albalate de Zorita
 location	Socuellamos
 location	Belmonte
+location	Cifuentes
 location	Villarrobledo
+location	Guadalajara
 location	San Clemente ES
 location	Riopar
 location	Lezuza
+location	Luzon
+location	Villanueva de Alcoron
 location	Bogarra
 location	Balazote
+location	Villel de Mesa
+location	Corduente
 location	Villanueva de la Jara
 location	Tazona
+location	Molina de Aragon
 location	Albacete
 location	Madrigueras
 location	Motilleja
@@ -1664,9 +1721,9 @@ location	Cizur Menor
 location	Zizur Mayor
 location	Mutilva
 location	Baranain
-location	Pamplona
 location	Sarriguren
 location	Mendillorri
+location	Pamplona ES
 location	Burlada
 location	Huarte
 location	Villava
@@ -1777,6 +1834,8 @@ location	Castellón
 location	La Granja d’Escarp
 location	Seros
 location	Almacelles
+location	Soses
+location	Alcarras
 location	Alpicat
 location	Sarroca de Lleida
 location	Alguaire
@@ -1784,6 +1843,7 @@ location	Lleida
 location	Algerri
 location	Alcoletge
 location	La Clua
+location	Els Alamus
 location	Juncosa
 location	Balaguer
 location	Vallfogona de Balaguer
@@ -1794,10 +1854,13 @@ location	Tremp
 location	Mollerussa
 location	Linyola
 location	Gavet de La Conca
+location	Penelles
+location	La Pobla de Segur
 location	Bellpuig
 location	La Fuliola
 location	Cambrils
 location	Agramunt
+location	Puigverd d'Agramunt
 location	Sort
 location	Tarrega
 location	Cervera
@@ -1812,6 +1875,7 @@ location	Vilanova i la Geltru
 location	Suria
 location	Callus
 location	Hostalrich
+location	Cerdanya
 location	Sant Joan Vilatorrada
 location	Masquefa
 location	Bellavista
@@ -1957,6 +2021,7 @@ location	Breda
 location	Santa Pau
 location	Canet de Mar
 location	Sant Jaume de Llierca
+location	La Cellera de Ter
 location	San Pol de Mar
 location	Tortellà
 location	Angles
@@ -1978,6 +2043,7 @@ location	Sils
 location	Sant Gregori
 location	Banyoles
 location	Camos
+location	Vilablareix
 location	Vidreres
 location	Fontcoberta
 location	Blanes
@@ -1991,6 +2057,7 @@ location	Palol D'Onyar
 location	Sant Julia de Ramis
 location	La Jonquera
 location	Cassa de la Selva
+location	Sant Esteve de Guialbes
 location	Llagostera
 location	Bordils
 location	Vilafant
@@ -1998,8 +2065,10 @@ location	Castillo de Ferran
 location	Figueres
 location	Vilamalla
 location	Pubol
+location	Vilatenim
 location	Sant Feliu de Guixols
 location	S'Agaro
+location	Platja D'Aro
 location	Castello D'Empuries
 location	La Bisbal de l'Emporda
 location	Palamos
@@ -2157,6 +2226,7 @@ location	Langon
 location	Casteljaloux
 location	Angouleme
 location	Poitiers
+location	Bergerac
 location	Agen
 location	Notre-Dame-de-Sanilhac
 location	Perigueux
@@ -2176,6 +2246,7 @@ location	Blois
 location	Dreux
 location	Cellettes
 location	Abondant
+location	Chartres
 location	Romorantin
 location	Orléans
 location	Mehun sur Yevre
@@ -2201,6 +2272,7 @@ location	Pontoise
 location	Saint Ouen l'Aumone
 location	Le Pecq
 location	Le Chesnay
+location	Etampes
 location	Orsay
 location	Garches
 location	Hauts-de-Seine
@@ -2518,6 +2590,7 @@ location	Lons le Saunier
 location	Besancon
 location	Thise
 location	Brognard
+location	Belfort
 location	Montreux-Chateau
 
 # Grand Est
@@ -2852,6 +2925,7 @@ location	Jurbise
 location	Cuesmes
 location	Quévy
 location	Nimy
+location	Obourg
 location	Harmignies
 location	Saisinne
 location	Givry
@@ -2876,6 +2950,7 @@ location	Seneffe
 location	Geraardsbergen
 location	Ninove
 location	Herzele
+location	Denderhoutem
 location	Denderleeuw
 location	Welle
 location	Borsbeke
@@ -3440,6 +3515,7 @@ location	Seraing
 location	Boncelles
 location	Ougrée
 location	Voroux-lez-Liers
+location	Grivegnée
 location	Bressoux
 location	Herstal
 location	Bassenge
@@ -3880,6 +3956,7 @@ location	Amden
 location	Niederuzwil
 location	Grub
 location	Flawil
+location	Nesslau
 location	Au
 location	Gossau
 location	Oberterzen
@@ -4623,6 +4700,7 @@ location	Bonin
 location	Choszczno
 location	Stradzewo
 location	Recz
+location	Kolobrzeg
 location	Lobez
 location	Drawno
 location	Swidwin
@@ -4674,6 +4752,7 @@ location	Sosnowa
 location	Cieplowody
 location	Wroclaw
 location	Trzebnica
+location	Strzelin
 location	Kamieniec Wrocławski
 location	Nadolice Wielkie
 location	Wojnowice
@@ -4751,6 +4830,7 @@ location	Rogozno
 location	Kamionki
 location	Murowana Goslina
 location	Srem
+location	Gostyn
 location	Przebedowo
 location	Zalasewo
 location	Tulce
@@ -4787,6 +4867,7 @@ location	Przeclaw
 location	Kalisz
 location	Ostrow
 location	Konin
+location	Turek
 location	Czajkow
 
 # Opolskie
@@ -4803,6 +4884,7 @@ location	Głogówek
 location	Opole
 location	Otmice
 location	Kedzierzyn Kozle
+location	K-Kozle
 location	Kluczbork
 location	Sucha
 location	Strzelce Opolskie
@@ -4869,6 +4951,7 @@ location	Lipno
 location	Wloclawek
 location	Dziarnowo
 location	Znin
+location	Torun
 location	Bydgoszcz
 location	Wabrzezno
 location	Bobrowo
@@ -5108,6 +5191,7 @@ location	Krosno
 location	Strzyzow
 location	Rzeszow
 location	Brzozow
+location	Łańcut
 location	Bachórzec
 location	Lezajsk
 location	Ustrzyki Dolne
@@ -5129,12 +5213,14 @@ location	Nowogrod
 location	Duże Łabno
 location	Kolno
 location	Łomża
+location	Zambrow
 location	Czyżew
 location	Stary Kamień
 location	Grajewo
 location	Twarogi-Mazury
 location	Rajgród
 location	Olendy
+location	Monki
 location	Popławy
 location	Knyszyn
 location	Suwałki
@@ -5155,6 +5241,7 @@ location	Sejny
 location	Sokółka
 location	Gliniszcze Małe
 location	Krukowszczyzna
+location	Hajnowka
 location	Malewicze Gorne
 location	Lipiny
 location	Kuźnica
@@ -5381,7 +5468,7 @@ location	Janovce
 location	Svidnik
 location	Stropkov
 location	Turany nad Ondavou
-location	Vranov nad Toplou
+location	Vranov nad Toplov
 location	Humenne
 location	Medzilaborce
 location	Bela nad Cirochou
@@ -6635,6 +6722,7 @@ location	Guapiara
 location	Bocaina
 location	Taiacu
 location	Taquaritinga
+location	Botucatu
 location	Angatuba
 location	Dois Corregos
 location	Matao
@@ -7176,6 +7264,9 @@ location	Cartago CO
 location	Pereira
 location	Dosquebradas
 
+# Vichada
+location	Puerto Carreno
+
 # Cundinamarca
 location	Soacha
 location	Funza
@@ -7219,6 +7310,8 @@ location	Barrancabermeja
 location	Bucaramanga
 
 # Norte de Santander
+location	Ocana
+location	Pamplona CO
 location	Cucuta
 
 # Cordoba CO
@@ -7247,6 +7340,7 @@ location	Barranquilla
 
 # La Guajira
 location	Riohacha
+location	Maicao
 
 ################
 
@@ -7861,6 +7955,8 @@ location	Johnson County TX
 location	Temple
 location	Tarrant County
 location	Burleson
+location	DeWitt County
+location	Refugio County
 location	Rogers
 location	Mclennan County
 location	Lorena TX
@@ -7933,6 +8029,7 @@ location	Upshur County
 location	Gregg County
 location	Polk County TX
 location	Rusk County
+location	Liberty County
 location	Clark
 location	Morris County TX
 location	Angelina County
@@ -9953,6 +10050,7 @@ division	Helsinki
 division	Uusimaa
 division	Southern Finland
 division	Finland
+division	Keski-Suomi
 
 ### Belarus
 division	Minsk
@@ -10455,8 +10553,8 @@ division	Oklahoma
 division	Minnesota
 division	Iowa
 division	Louisiana
-division	Arkansas
 division	Missouri
+division	Arkansas
 division	Mississippi
 division	Wisconsin
 division	Illinois
