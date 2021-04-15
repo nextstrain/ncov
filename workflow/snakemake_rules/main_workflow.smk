@@ -1,3 +1,25 @@
+rule sanitize_metadata:
+    input:
+        metadata=lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
+    output:
+        metadata="results/sanitized_metadata{origin}.tsv"
+    benchmark:
+        "benchmarks/sanitize_metadata{origin}.txt"
+    conda:
+        config["conda_environment"]
+    log:
+        "logs/sanitize_metadata{origin}.txt"
+    params:
+        strain_prefixes=config["strip_strain_prefixes"],
+    shell:
+        """
+        python3 scripts/sanitize_metadata.py \
+            --metadata {input.metadata} \
+            --strip-prefixes {params.strain_prefixes:q} \
+            --output {output.metadata}
+        """
+
+
 rule combine_input_metadata:
     # this rule is intended to be run _only_ if we have defined multiple inputs ("origins")
     message:
@@ -5,7 +27,7 @@ rule combine_input_metadata:
         Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
     input:
-        metadata = lambda wildcards: [_get_path_for_input("metadata", f"_{origin}") for origin in config.get("inputs", "")],
+        metadata=expand("results/sanitized_metadata{origin}.tsv", origin=[f"_{origin}" if origin else "" for origin in config.get("inputs", "")]),
     output:
         metadata = "results/combined_metadata.tsv"
     params:
@@ -38,7 +60,8 @@ if "use_nextalign" in config and config["use_nextalign"]:
         params:
             outdir = "results/translations",
             genes = ','.join(config.get('genes', ['S'])),
-            basename = "seqs{origin}"
+            basename = "seqs{origin}",
+            strain_prefixes=config["strip_strain_prefixes"],
         log:
             "logs/align{origin}.txt"
         benchmark:
@@ -49,12 +72,16 @@ if "use_nextalign" in config and config["use_nextalign"]:
             mem_mb=3000
         shell:
             """
-            nextalign \
+            python3 scripts/sanitize_sequences.py \
+                --sequences {input.sequences} \
+                --strip-prefixes {params.strain_prefixes:q} \
+                --output /dev/stdout \
+                | nextalign \
                 --jobs={threads} \
                 --reference {input.reference} \
                 --genemap {input.genemap} \
                 --genes {params.genes} \
-                --sequences {input.sequences} \
+                --sequences /dev/stdin \
                 --output-dir {params.outdir} \
                 --output-basename {params.basename} \
                 --output-fasta {output.alignment} \
@@ -78,14 +105,20 @@ else:
             "benchmarks/align{origin}.txt"
         threads: 16
         conda: config["conda_environment"]
+        params:
+            strain_prefixes=config["strip_strain_prefixes"],
         shell:
             """
-            mafft \
+            python3 scripts/sanitize_sequences.py \
+                --sequences {input.sequences} \
+                --strip-prefixes {params.strain_prefixes:q} \
+                --output /dev/stdout \
+                | mafft \
                 --auto \
                 --thread {threads} \
                 --keeplength \
                 --addfragments \
-                {input.sequences} \
+                /dev/stdin \
                 {input.reference} > {output} 2> {log}
             """
 
@@ -93,7 +126,7 @@ rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
         alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
+        metadata = "results/sanitized_metadata{origin}.tsv",
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/sequence-diagnostics{origin}.tsv",
@@ -186,7 +219,7 @@ rule filter:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
-        metadata = lambda wildcards: _get_path_for_input("metadata", wildcards.origin),
+        metadata = "results/sanitized_metadata{origin}.tsv",
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = rules.exclude_file.output
@@ -325,11 +358,16 @@ rule combine_sequences_for_subsampling:
         "benchmarks/combine_sequences_for_subsampling.txt"
     conda: config["conda_environment"]
     params:
-        warn_about_duplicates="--warn-about-duplicates" if config.get("combine_sequences_for_subsampling", {}).get("warn_about_duplicates") else ""
+        warn_about_duplicates="--warn-about-duplicates" if config.get("combine_sequences_for_subsampling", {}).get("warn_about_duplicates") else "",
+        strain_prefixes=config["strip_strain_prefixes"],
     shell:
         """
-        python3 scripts/combine-and-dedup-fastas.py \
-            --input {input} \
+        python3 scripts/sanitize_sequences.py \
+                --sequences {input} \
+                --strip-prefixes {params.strain_prefixes:q} \
+                --output /dev/stdout \
+                | python3 scripts/combine-and-dedup-fastas.py \
+            --input /dev/stdin \
             {params.warn_about_duplicates} \
             --output {output}
         """

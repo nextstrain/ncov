@@ -11,6 +11,10 @@ conda_environment: "workflow/envs/nextstrain.yaml"
 sequences: "data/sequences.fasta"
 metadata: "data/metadata.tsv"
 
+strip_strain_prefixes:
+  - hCoV-19/
+  - SARS-CoV-2/
+
 reference_node_name: "USA/WA1/2020"
 
 # Define files used for external configuration. Common examples consist of a
@@ -61,6 +65,13 @@ mask:
   # These are 1-indexed coordinates of sites that have been identified as prone to sequencing errors.
   # 13402, 24389 and 24390 are restricted to Belgian samples
   mask_sites: "13402 24389 24390"
+
+# Depending on how you define focal and contextual inputs, the same strains may
+# appear in both inputs. This option tells the workflow not to throw an error
+# when duplicates occur but to accept the first instance of a given strain's
+# sequences (e.g., the focal set).
+combine_sequences_for_subsampling:
+  warn_about_duplicates: true
 
 tree:
   tree-builder-args: "'-ninit 10 -n 4'"
