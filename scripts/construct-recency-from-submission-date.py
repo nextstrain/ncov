@@ -39,7 +39,7 @@ class Recency:
         return Recency.__instance_recency 
     
     def toJson(self):
-        return json.dumps(self, default=lambda o: o.__dict__)    
+        return json.dumps(self, default=lambda o: self.__dict__)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     for strain, d in meta.items():
         if 'date_submitted' in d and d['date_submitted']:  
             recVal = rec.get_recency(d['date_submitted'], ref_date)     
-            node_data['nodes'][strain] =  {'recency':  recVal.toJson  }
+            node_data['nodes'][strain] = {'recency':recVal }
     #calling get_recency method 
     
     with open(args.output, 'wt') as fh:
