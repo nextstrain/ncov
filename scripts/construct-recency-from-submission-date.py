@@ -4,6 +4,7 @@ from augur.utils import read_metadata
 import json
 
 
+
 #class applying SINGLETON Design Pattern
 class Recency:
     __instance_recency = None   #instance Variable
@@ -56,9 +57,12 @@ if __name__ == '__main__':
     ref_date = datetime.now()
     
 
+    rec = Recency()
+    
     for strain, d in meta.items():
-        if 'date_submitted' in d and d['date_submitted']:       
-            node_data['nodes'][strain] = {'recency': Recency.get_recency(d['date_submitted'], ref_date).toJson}
+        if 'date_submitted' in d and d['date_submitted']:  
+            recVal = rec.get_recency(d['date_submitted'], ref_date)     
+            node_data['nodes'][strain] =  {'recency':  recVal.toJson  }
     #calling get_recency method 
     
     with open(args.output, 'wt') as fh:
