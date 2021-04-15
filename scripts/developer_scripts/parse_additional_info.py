@@ -1,6 +1,21 @@
 from os import listdir
 from parse_metadata import read_local_file
 
+class additional_info
+    __instanceSingleton = None
+
+    @staticmethod
+    def getInstance():
+	if additional_info.__instanceSingleton == None:
+            additional_info()
+	return additional_info.__instanceSingleton
+
+    def __init__(self)
+        if additional_info.__instanceSingleton != None:
+            raise additional_info("Singleton Class")
+        else:
+            additional_info.__instanceSingleton = self
+
 def bold(s):
     return('\033[1m' + s + '\033[0m')
 
