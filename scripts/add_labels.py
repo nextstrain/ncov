@@ -3,15 +3,34 @@ import json
 from Bio import Phylo
 from collections import defaultdict
 
-def attach_labels(d, labeled_nodes):
-    if "children" in d:
-        for c in d["children"]:
-            if c["name"] in labeled_nodes:
-                if "labels" not in c["branch_attrs"]:
-                    c["branch_attrs"]["labels"] = {}
-                c['branch_attrs']['labels']['mlabel'] = labeled_nodes[c["name"]][0]
-                print(c['branch_attrs']['labels'])
-            attach_labels(c, labeled_nodes)
+
+class ILabel:
+    def attach_labels(self,d, labeled_nodes):
+        pass:
+
+class LeafLabel(ILabel):
+
+    def LeafLabel(self,d,labeled_nodes):
+        self.__d = d
+        self.__labeled_nodes = labeled_nodes
+    
+    def attach_labels(d, labeled_nodes):
+          print(d['branch_attrs']['labels'])
+
+class CompositeLabel(ILabel):
+    def __init__(self,d,labeled_nodes):
+        self.__d = d
+        self.__labeled_nodes = labeled_nodes
+
+    def attach_labels(self, d, labeled_nodes):
+        if "children" in d:
+            for c in d["children"]:
+                if c["name"] in labeled_nodes:
+                    if "labels" not in c["branch_attrs"]:
+                        c["branch_attrs"]["labels"] = {}
+                    c['branch_attrs']['labels']['mlabel'] = labeled_nodes[c["name"]][0]
+                    print(c['branch_attrs']['labels'])
+                attach_labels(c, labeled_nodes)
 
 
 if __name__ == '__main__':
@@ -59,7 +78,12 @@ if __name__ == '__main__':
         node = sorted(labels[label], key=lambda x:-x[1])[0]
         labeled_nodes[node[0]].append('/'.join(label))
 
-    attach_labels(input_json["tree"], labeled_nodes)
+
+    leafObj = LeafLabel()
+    compObj = CompositeLabel()
+
+    leafObj.attach_labels(input_json["tree"], labeled_nodes)
+    compObj.attach_labels(leafObj)
 
     with open(args.output, 'w') as f:
         json.dump(input_json, f, indent=2)
