@@ -1963,3 +1963,6 @@ USA/WA-UW-2780/2020
 USA/WA-UW-3611/2020
 USA/WA-UW-4127/2020
 Panama/GMI-PA344779/2020
+
+# date too early for clade
+SouthAfrica/Tygerberg_650/2020
