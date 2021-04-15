@@ -21,20 +21,20 @@ class Recency:
 
         get_recency.delta_days = ref_day - date_submitted
         if delta_days<=0:
-        get_recency.__instance_recency = 'New'
+            get_recency.__instance_recency = 'New'
         elif delta_days<3:
             get_recency.__instance_recency= '1-2 days ago'
         elif delta_days<8:
-        get_recency.__instance_recency= '3-7 days ago'
+            get_recency.__instance_recency= '3-7 days ago'
         elif delta_days<15:
             get_recency.__instance_recency= 'One week ago'
         elif delta_days<31:
-        get_recency.__instance_recency= 'One month ago'
+            get_recency.__instance_recency= 'One month ago'
         elif delta_days>=31:
-            get_recency.__instance_recency= 'Older'
+                get_recency.__instance_recency= 'Older'
 
         if not Recency.__instance_recency:
-            Recency()         
+                Recency()         
         return Recency.__instance_recency        
 
 if __name__ == '__main__':
