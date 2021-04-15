@@ -16,22 +16,22 @@ class Recency:
         
     @staticmethod
     def get_recency(date_str, ref_date):
-        get_recency.date_submitted = datetime.strptime(date_str, '%Y-%m-%d').toordinal()
-        get_recency.ref_day = ref_date.toordinal()
+        date_submitted = datetime.strptime(date_str, '%Y-%m-%d').toordinal()
+        ref_day = ref_date.toordinal()
 
-        get_recency.delta_days = ref_day - date_submitted
+        delta_days = ref_day - date_submitted
         if delta_days<=0:
-            get_recency.__instance_recency = 'New'
+            __instance_recency = 'New'
         elif delta_days<3:
-            get_recency.__instance_recency= '1-2 days ago'
+            __instance_recency= '1-2 days ago'
         elif delta_days<8:
-            get_recency.__instance_recency= '3-7 days ago'
+            __instance_recency= '3-7 days ago'
         elif delta_days<15:
-            get_recency.__instance_recency= 'One week ago'
+            __instance_recency= 'One week ago'
         elif delta_days<31:
-            get_recency.__instance_recency= 'One month ago'
+            __instance_recency= 'One month ago'
         elif delta_days>=31:
-                get_recency.__instance_recency= 'Older'
+            __instance_recency= 'Older'
 
         if not Recency.__instance_recency:
                 Recency()         
