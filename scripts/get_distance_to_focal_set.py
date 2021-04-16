@@ -2,6 +2,7 @@
 Calculate minimal distances between sequences in an alignment and a set of focal sequences
 """
 import argparse
+from abc import abstractmethod
 from random import shuffle
 from collections import defaultdict
 import Bio
@@ -12,9 +13,30 @@ from Bio import AlignIO, SeqIO
 from scipy import sparse
 import sys
 
+class Dict:
+
+    def __init__(self):
+        self._label = Sequence()
+
+    @abstractmethod
+    def get_request(self):
+        pass
+
+
+class DictImpl(Dict):
+
+    def get_request(self):
+        return self._label.Sequence()
+
+
+class Sequence:
+    """Add methods to implement"""
+    instance = None
+
 
 def compactify_sequences(sparse_matrix, sequence_names):
-    sequence_groups = defaultdict(list)
+
+    sequence_groups = Sequence(list)
     for s, snps in zip(sequence_names, sparse_matrix):
         ind = snps.nonzero()
         vals = np.array(snps[ind])
