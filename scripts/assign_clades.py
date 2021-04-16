@@ -10,6 +10,8 @@ from augur.translate import safe_translate
 from augur.align import run as augur_align
 from augur.clades import read_in_clade_definitions, is_node_in_clade
 from augur.utils import load_features
+import Factory
+
 
 class alignArgs:
     def __init__(self, **kwargs):
@@ -20,6 +22,7 @@ class tmpNode(object):
         self.sequences = {}
 
 if __name__ == '__main__':
+
     parser = argparse.ArgumentParser(
         description="Assign clades to sequences",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
@@ -69,7 +72,7 @@ if __name__ == '__main__':
             with open(in_fname, 'wt') as fh:
                 SeqIO.write(chunk, fh, 'fasta')
 
-            aln_args = alignArgs(sequences=[in_fname], output=out_fname, method='mafft',
+            aln_args = Factory.getAlignArgs(sequences=[in_fname], output=out_fname, method='mafft',
                                  reference_name=None, reference_sequence=refname,
                                  nthreads=args.nthreads, remove_reference=False,
                                  existing_alignment=False, debug=False, fill_gaps=False)
@@ -88,7 +91,7 @@ if __name__ == '__main__':
                 sys.exit(1)
 
             # read sequence and all its annotated features
-            seq_container = tmpNode()
+            seq_container = Factory.getTmpNode()
             seq_str = str(seq.seq)
             seq_container.sequences['nuc'] = {i:c for i,c in enumerate(seq_str)}
             for fname, feat in features.items():
