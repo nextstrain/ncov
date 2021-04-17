@@ -6,7 +6,7 @@
   ],
   "colorings": [
     {
-      "key": "subclade_membership",
+      "key": "emerging_clade_membership",
       "title": "Emerging Clade",
       "type": "categorical"
     },
@@ -125,6 +125,7 @@
   "filters": [
     "recency",
     "clade_membership",
+    "emerging_clade_membership",
     "region",
     "country",
     "division",

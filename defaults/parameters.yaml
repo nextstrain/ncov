@@ -30,7 +30,7 @@ files:
   lat_longs: "defaults/lat_longs.tsv"
   description: "defaults/description.md"
   clades: "defaults/clades.tsv"
-  subclades: "defaults/subclades.tsv"
+  emerging_clades: "defaults/emerging_clades.tsv"
 
 # Filter settings
 filter:
