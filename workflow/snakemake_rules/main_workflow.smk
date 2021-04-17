@@ -165,18 +165,6 @@ def _collect_exclusion_files(wildcards):
         exclude_files.append(_get_path_for_input("to-exclude", wildcards.origin))
     return exclude_files
 
-rule exclude_file:
-    input:
-        _collect_exclusion_files
-    output:
-        "results/exclude{origin}.txt"
-    benchmark:
-        "benchmarks/exclude_file{origin}.txt"
-    shell:
-        """
-        cat {input} > {output}
-        """
-
 rule mask:
     message:
         """
@@ -222,7 +210,7 @@ rule filter:
         metadata = "results/sanitized_metadata{origin}.tsv",
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
-        exclude = rules.exclude_file.output
+        exclude = _collect_exclusion_files,
     output:
         sequences = "results/filtered{origin}.fasta"
     log:
