@@ -53,7 +53,6 @@ builds:
   europe:
     subsampling_scheme: nextstrain_region_grouped_by_country
     region: Europe
-    subclades: "nextstrain_profiles/nextstrain/subclades_EU.tsv"
     auspice_config: "nextstrain_profiles/nextstrain/europe_auspice_config.json"
   north-america:
     subsampling_scheme: nextstrain_region

@@ -10795,7 +10795,6 @@ country	Canada
 
 ################
 
-
 recency	Older
 recency	One month ago
 recency	One week ago
@@ -10811,4 +10810,17 @@ region	North America
 
 ################
 
+emerging_clade_membership	19B/367F (A.23.1)
+emerging_clade_membership	20A.EU2 (B.1.160)
+emerging_clade_membership	20A/154K (B.1.617)
+emerging_clade_membership	20A/888L (B.1.525)
+emerging_clade_membership	20B/265C (P.3)
+emerging_clade_membership	20C/253G (B.1.526)
+emerging_clade_membership	20C/452R (B.1.427+B.1.429)
+emerging_clade_membership	20E (B.1.177)
+emerging_clade_membership	20G (B.1.2)
+emerging_clade_membership	20H/501Y.V2 (B.1.351)
+emerging_clade_membership	20I/501Y.V1 (B.1.1.7)
+emerging_clade_membership	20J/501Y.V3 (P.1)
 
+################
