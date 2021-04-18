@@ -134,58 +134,6 @@ builds:
     region: South America
     auspice_config: "nextstrain_profiles/nextstrain/south-america_auspice_config.json"
 
-  africa-small:
-    subsampling_scheme: nextstrain_region
-    region: Africa
-    auspice_config: "nextstrain_profiles/nextstrain/africa_auspice_config.json"
-  asia-small:
-    subsampling_scheme: nextstrain_region
-    region: Asia
-    auspice_config: "nextstrain_profiles/nextstrain/asia_auspice_config.json"
-  europe-small:
-    subsampling_scheme: nextstrain_region
-    region: Europe
-    subclades: "nextstrain_profiles/nextstrain/subclades_EU.tsv"
-    auspice_config: "nextstrain_profiles/nextstrain/europe_auspice_config.json"
-  north-america-small:
-    subsampling_scheme: nextstrain_region
-    region: North America
-    auspice_config: "nextstrain_profiles/nextstrain/north-america_auspice_config.json"
-  oceania-small:
-    subsampling_scheme: nextstrain_region
-    region: Oceania
-    auspice_config: "nextstrain_profiles/nextstrain/oceania_auspice_config.json"
-  south-america-small:
-    subsampling_scheme: nextstrain_region
-    region: South America
-    auspice_config: "nextstrain_profiles/nextstrain/south-america_auspice_config.json"
-
-  africa-xsmall:
-    subsampling_scheme: nextstrain_region
-    region: Africa
-    auspice_config: "nextstrain_profiles/nextstrain/africa_auspice_config.json"
-  asia-xsmall:
-    subsampling_scheme: nextstrain_region
-    region: Asia
-    auspice_config: "nextstrain_profiles/nextstrain/asia_auspice_config.json"
-  europe-xsmall:
-    subsampling_scheme: nextstrain_region
-    region: Europe
-    subclades: "nextstrain_profiles/nextstrain/subclades_EU.tsv"
-    auspice_config: "nextstrain_profiles/nextstrain/europe_auspice_config.json"
-  north-america-xsmall:
-    subsampling_scheme: nextstrain_region
-    region: North America
-    auspice_config: "nextstrain_profiles/nextstrain/north-america_auspice_config.json"
-  oceania-xsmall:
-    subsampling_scheme: nextstrain_region
-    region: Oceania
-    auspice_config: "nextstrain_profiles/nextstrain/oceania_auspice_config.json"
-  south-america-xsmall:
-    subsampling_scheme: nextstrain_region
-    region: South America
-    auspice_config: "nextstrain_profiles/nextstrain/south-america_auspice_config.json"
-
 # remove S dropout sequences and sequences without division label in US
 filter:
   exclude_where: "division='USA' purpose_of_sequencing='S dropout'"
