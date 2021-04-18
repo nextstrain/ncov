@@ -188,7 +188,7 @@ rule upload_reference_sets:
         alignments = expand("results/{build_name}/aligned.fasta", build_name=config["builds"]),
         metadata = expand("results/{build_name}/extracted_metadata.tsv", build_name=config["builds"])
     params:
-        s3_bucket = config["S3_REF_BUCKET"],
+        s3_bucket = config.get("S3_REF_BUCKET",''),
         compression = config["S3_DST_COMPRESSION"]
     run:
         for fname in input.alignments:
