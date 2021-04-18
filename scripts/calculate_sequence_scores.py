@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
     d = pd.DataFrame(scores).T
 
-    all_scores = pd.concat([mutations, d, meta.loc[:, ["date", "date_submitted", "country", "region"]]], axis=1).loc[d.index]
+    all_scores = pd.concat([mutations, d, meta.loc[:, ["date", "date_submitted", "country", "region", "Nextstrain_clade", "pango_lineage"]]], axis=1).loc[d.index]
     all_scores["sum"] = d.sum(axis=1)
     all_scores["number"] = (d>0).sum(axis=1)
 
@@ -91,7 +91,7 @@ if __name__ == '__main__':
         print(f"\n# Substantial escape in {mut_count} class epitopes")
         for r, row in mult_hits.iterrows():
             if row['sum']>thres:
-                print(f"{r}\t{row.S}\t{row.c1}\t{row.c2}\t{row.c3}\t{row['sum']}")
+                print(f"{r}\t{row.Nextstrain_clade}\t{row.pango_lineage}\t{row.S}\t{row.c1}\t{row.c2}\t{row.c3}\t{row['sum']}")
 
 
     nMax = 20
@@ -100,4 +100,4 @@ if __name__ == '__main__':
         print("\n\n### ATTRIBTUE ",a)
         print(f"#{'strain':<40}\t{a}\t{'sum'}\tSpike mutations")
         for r, row in all_scores.sort_values(by=a)[-nMax:].iterrows():
-            print(f"{r:<40}\t{row[a]:1.2f}\t{row['sum']:1.2f}\t{row.S}")
+            print(f"{r:<40}\t{row.Nextstrain_clade}\t{row.pango_lineage}\t{row[a]:1.2f}\t{row['sum']:1.2f}\t{row.S}")
