@@ -1,5 +1,4 @@
 if config.get('us_state_builds'):
-    print(config.get('us_state_builds'))
     for abbr, state in config.get('us_state_builds'):
         config['builds'][f'US-{abbr}'] = {
             "subsampling_scheme": "nextstrain_local",
@@ -8,7 +7,6 @@ if config.get('us_state_builds'):
             "division": state,
             "auspice_config": "nextstrain_profiles/nextstrain/north-america_auspice_config.json"
         }
-    print(config["builds"].keys())
 
 if config.get("build_sizes"):
     from copy import deepcopy
