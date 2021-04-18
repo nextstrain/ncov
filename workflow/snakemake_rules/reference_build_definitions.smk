@@ -15,10 +15,9 @@ if config.get("build_sizes"):
     for scheme in config['subsampling']:
         for size, N in config["build_sizes"].items():
             tmp = deepcopy(config['subsampling'][scheme])
-            for x in new_schemes:
-                for y in new_schemes[x]:
-                    if 'max_sequences' in new_schemes[x][y]:
-                        new_schemes[x][y]['max_sequences'] = int(new_schemes[x][y]['max_sequences']*N)
+            for y in tmp:
+                if 'max_sequences' in tmp[y] and tmp[y]['max_sequences']<1:
+                    tmp[y]['max_sequences'] = int(tmp[y]['max_sequences']*N)
 
             new_schemes[scheme+'_'+size] = tmp
 
