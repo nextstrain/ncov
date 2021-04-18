@@ -1,12 +1,13 @@
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/nextstrain/ncov)](https://github.com/nextstrain/ncov/releases)
+[![See recent changes](https://img.shields.io/badge/changelog-See%20recent%20changes-blue)](https://github.com/nextstrain/ncov/blob/master/docs/change_log.md)
+
 # About
 
 This repository analyzes viral genomes using [Nextstrain](https://nextstrain.org) to understand how SARS-CoV-2, the virus that is responsible for the COVID-19 pandemic, evolves and spreads.
 
 We maintain a number of publicly-available builds, visible at [nextstrain.org/ncov](https://nextstrain.org/ncov).
 
-In July 2020, we introduced some major changes to this repository.
-If you were running customized builds before this, these changes may cause some merge conflicts.
-[Read here](https://github.com/nextstrain/ncov/blob/master/docs/change_log_2020-07.md) to find out about all the changes, and which ones may impact custom runs.
+[See our change log for details about backwards-incompatible or breaking changes to the workflow](https://github.com/nextstrain/ncov/blob/master/docs/change_log.md).
 
 ---
 # Resources

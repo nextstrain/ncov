@@ -374,7 +374,8 @@ rule subsample:
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/{build_name}/sample-{subsample}.fasta"
+        sequences = "results/{build_name}/sample-{subsample}.fasta",
+        strains="results/{build_name}/sample-{subsample}.txt",
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
     benchmark:
@@ -414,7 +415,8 @@ rule subsample:
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
-            --output {output.sequences} 2>&1 | tee {log}
+            --output {output.sequences} \
+            --output-strains {output.strains} 2>&1 | tee {log}
         """
 
 rule proximity_score:
@@ -473,7 +475,7 @@ def _get_subsampled_files(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
 
     return [
-        f"results/{wildcards.build_name}/sample-{subsample}.fasta"
+        f"results/{wildcards.build_name}/sample-{subsample}.txt"
         for subsample in subsampling_settings
     ]
 
@@ -483,9 +485,13 @@ rule combine_samples:
         Combine and deduplicate FASTAs
         """
     input:
-        _get_subsampled_files
+        sequences=_get_unified_alignment,
+        sequence_index=rules.index_sequences.output.sequence_index,
+        metadata=_get_unified_metadata,
+        include=_get_subsampled_files,
     output:
-        sequences = "results/{build_name}/subsampled_sequences.fasta"
+        sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta",
+        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv"
     log:
         "logs/subsample_regions_{build_name}.txt"
     benchmark:
@@ -493,9 +499,14 @@ rule combine_samples:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/combine-and-dedup-fastas.py \
-            --input {input} \
-            --output {output} 2>&1 | tee {log}
+        augur filter \
+            --sequences {input.sequences} \
+            --sequence-index {input.sequence_index} \
+            --metadata {input.metadata} \
+            --exclude-all \
+            --include {input.include} \
+            --output-sequences {output.sequences} \
+            --output-metadata {output.metadata} 2>&1 | tee {log}
         """
 
 if "use_nextalign" in config and config["use_nextalign"]:
@@ -565,6 +576,55 @@ else:
                 --addfragments \
                 {input.sequences} \
                 {input.reference} > {output} 2> {log}
+            """
+
+if "run_pangolin" in config and config["run_pangolin"]:
+    rule run_pangolin:
+        message:
+            """
+            Running pangolin to assign lineage labels to samples. Includes putative lineage definitions by default.
+            Please remember to update your installation of pangolin regularly to ensure the most up-to-date classifications.
+            """
+        input:
+            alignment = rules.build_align.output.alignment,
+        output:
+            lineages = "results/{build_name}/pangolineages.csv",
+        params:
+            outdir = "results/{build_name}",
+            csv_outfile = "pangolineages.csv",
+            node_data_outfile = "pangolineages.json"
+        log:
+            "logs/pangolin_{build_name}.txt"
+        conda: config["conda_environment"]
+        threads: 1
+        resources:
+            mem_mb=3000
+        benchmark:
+            "benchmarks/pangolineages_{build_name}.txt"
+        shell: ## once pangolin fully supports threads, add `--threads {threads}` to the below (existing pango cli param)
+            """
+            pangolin {input.alignment}\
+                --outdir {params.outdir} \
+                --outfile {params.csv_outfile} 2>&1 | tee {log}\
+            """
+
+    rule make_pangolin_node_data:
+        input:
+            lineages = rules.run_pangolin.output.lineages
+        output:
+            node_data = "results/{build_name}/pangolineages.json"
+        log:
+            "logs/pangolin_export_{build_name}.txt"
+        conda: config["conda_environment"]
+        resources:
+            mem_mb=3000
+        benchmark:
+            "benchmarks/make_pangolin_node_data_{build_name}.txt"
+        shell:
+            """
+            python3 scripts/make_pangolin_node_data.py \
+            --pangolineages {input.lineages} \
+            --node_data_outfile {output.node_data} 2>&1 | tee {log}\
             """
 
 # TODO: This will probably not work for build names like "country_usa" where we need to know the country is "USA".
@@ -1045,6 +1105,41 @@ rule tip_frequencies:
             --output {output.tip_frequencies_json} 2>&1 | tee {log}
         """
 
+rule logistic_growth:
+    input:
+        tree="results/{build_name}/tree.nwk",
+        frequencies="results/{build_name}/tip-frequencies.json",
+    output:
+        node_data="results/{build_name}/logistic_growth.json"
+    benchmark:
+        "benchmarks/logistic_growth_{build_name}.txt"
+    conda:
+        config["conda_environment"]
+    log:
+        "logs/logistic_growth_{build_name}.txt"
+    params:
+        method="logistic",
+        attribute_name = "logistic_growth",
+        delta_pivots=config["logistic_growth"]["delta_pivots"],
+        min_tips=config["logistic_growth"]["min_tips"],
+        min_frequency=config["logistic_growth"]["min_frequency"],
+        max_frequency=config["logistic_growth"]["max_frequency"],
+    resources:
+        mem_mb=256
+    shell:
+        """
+        python3 scripts/calculate_delta_frequency.py \
+            --tree {input.tree} \
+            --frequencies {input.frequencies} \
+            --method {params.method} \
+            --delta-pivots {params.delta_pivots} \
+            --min-tips {params.min_tips} \
+            --min-frequency {params.min_frequency} \
+            --max-frequency {params.max_frequency} \
+            --attribute-name {params.attribute_name} \
+            --output {output.node_data} 2>&1 | tee {log}
+        """
+
 rule nucleotide_mutation_frequencies:
     message: "Estimate nucleotide mutation frequencies"
     input:
@@ -1112,15 +1207,19 @@ def _get_node_data_by_wildcards(wildcards):
         rules.rename_subclades.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
-        rules.traits.output.node_data
+        rules.traits.output.node_data,
+        rules.logistic_growth.output.node_data
     ]
 
     if "use_nextalign" in config and config["use_nextalign"]:
         inputs.append(rules.aa_muts_explicit.output.node_data)
         inputs.append(rules.distances.output.node_data)
+    if "run_pangolin" in config and config["run_pangolin"]:
+        inputs.append(rules.make_pangolin_node_data.output.node_data)
 
     # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]
+
     return inputs
 
 rule export:

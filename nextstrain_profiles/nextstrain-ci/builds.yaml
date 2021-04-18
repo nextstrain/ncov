@@ -32,3 +32,9 @@ subsampling:
       priorities:
         type: "proximity"
         focus: "region"
+
+# Set CI-specific growth settings, such that the small tree still gets logistic
+# growth values and we properly test the growth calculations script.
+logistic_growth:
+  min_tips: 0
+  max_frequency: 1.0

@@ -1,5 +1,6 @@
 name: nextstrain
 channels:
+  - conda-forge
   - bioconda
   - defaults
 dependencies:
@@ -10,6 +11,8 @@ dependencies:
   - mafft=7.471
   - nextalign=0.1.6
   - pandas
+  - pangolin=2.3.8
+  - pangolearn=2021.04.01
   - psutil
   - python=3.7*
   - nodejs=10
