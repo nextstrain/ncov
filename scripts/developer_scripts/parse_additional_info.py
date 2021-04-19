@@ -190,14 +190,9 @@ def rearrange_additional_info(additional_info):
 
 # Given the variants dictionary stored in variants.txt, apply on given place name
 def apply_variant(place, variants):
-    place_correct = place.replace("_", " ")
-    for hierarchy in variants:
-        if place in variants[hierarchy]:
-            if len(variants[hierarchy][place]) > 1:
-                print("WARNING: Several entries for " + bold(place) + " in variants.txt. Picking the first entry...")
-            place_correct = variants[hierarchy][place][0][0]
-            print("Apply variant (" + hierarchy + "): " + bold(place) + " -> " + bold(place_correct))
-    return place_correct
+    if place in variants:
+        return variants[place]
+    return place
 
 
 # Turn string into lower case and remove dashes for easier comparison
@@ -331,6 +326,126 @@ def check_environment(strain_list, metadata, annotations_append):
     return annotations_append
 
 
+def interpret_location(place, ordering, variants):
+    # Pattern: several hierarchical place names separated by slashes or commas.
+    # Remark: Order region/country/division/location is assumed
+    for delim in ["/", ","]:
+        if delim in place:
+            place_list = [elem.strip() for elem in place.split(delim)]
+
+            # Pattern: all 4 hierarchies given
+            if len(place_list) == 4:
+                print("Interpreted pattern: " + bold("region/country/division/location"))
+                region_guess = place_list[0]
+                country_guess = place_list[1]
+                division_guess = place_list[2]
+                location_guess = place_list[3]
+                ordering_result = find_place_in_ordering(location_guess, ordering, variants)
+                if ordering_result == None:
+                    answer = input("Could not correctly interpret " + place + " (unknown location " + location_guess + "). Leave empty to approve of guess " + bold(region_guess + ", " + country_guess + ", " + division_guess + ", " + location_guess) + " or press any key to return to manual processing: ")
+                    if answer != "":
+                        return None
+                    else:
+                        return (region_guess, country_guess, division_guess, location_guess)
+                print("Location found: " + bold("/".join(ordering_result)))
+                if ordering_result[0] == region_guess and ordering_result[1] == country_guess:
+                    return ordering_result
+                else:
+                    print("Found region or country conflicting with given additional info.")
+                    return None
+
+            # Pattern: only 3 hierarchies given - determine whether region or location is missing
+            elif len(place_list) == 3:
+                ordering_result = find_place_in_ordering(place_list[0], ordering, variants)
+                if ordering_result == None:
+                    print("Interpretation failed. " + bold(place_list[0]) + " is not known")
+                    return None
+                (region, country, division, location) = ordering_result
+                if region == country:
+                    print("Interpreted pattern: " + bold("region/country/division"))
+                    region_guess = place_list[0]
+                    country_guess = place_list[1]
+                    division_guess = place_list[2]
+                    location_guess = ""
+
+                    ordering_result = find_place_in_ordering(division_guess, ordering, variants)
+                    if ordering_result == None:
+                        answer = input("Could not correctly interpret " + place + " (unknown division " + division_guess + "). Leave empty to approve of guess " + bold(region_guess + ", " + country_guess + ", " + division_guess) + " or press any key to return to manual processing: ")
+                        if answer == "":
+                            return (region_guess, country_guess, division_guess, location_guess)
+                        else:
+                            return None
+                    print("Division found: " + bold("/".join(ordering_result)))
+                    if ordering_result[0] == region_guess and ordering_result[1] == country_guess:
+                        return ordering_result
+                    else:
+                        print("Found region or country conflicting with given additional info.")
+                        return None
+
+                else:
+                    print("Interpreted pattern: " + bold("country/division/location"))
+                    region_guess = region
+                    country_guess = place_list[0]
+                    division_guess = place_list[1]
+                    location_guess = place_list[2]
+
+                    ordering_result = find_place_in_ordering(location_guess, ordering, variants)
+                    if ordering_result == None:
+                        answer = input(
+                            "Could not correctly interpret " + place + " (unknown location " + location_guess + "). Leave empty to approve of guess " + bold(region_guess + ", " + country_guess + ", " + division_guess + ", " + location_guess) + " or press any key to return to manual processing: ")
+                        if answer != "":
+                            return None
+                        else:
+                            return (region_guess, country_guess, division_guess, location_guess)
+                    print("Location found: " + bold("/".join(ordering_result)))
+                    if ordering_result[0] == region_guess and ordering_result[1] == country_guess:
+                        return ordering_result
+                    else:
+                        print("Found region or country conflicting with given additional info.")
+                        return None
+
+            elif len(place_list) == 2:
+                ordering_result0 = find_place_in_ordering(place_list[0], ordering, variants)
+                ordering_result1 = find_place_in_ordering(place_list[1], ordering, variants)
+
+                if ordering_result0 == None and ordering_result1 == None:
+                    answer = input("Unknown places " + bold(place_list[0]) + " and " + bold(place_list[1]) + ". Enter 0 or 1 to select one location to continue, leave empty to return to manual processing: ")
+                    if answer == "0":
+                        return ("", "", "", place_list[0])
+                    elif answer == "1":
+                        return ("", "", "", place_list[1])
+                    else:
+                        return None
+
+                else:
+                    if ordering_result0 == None and ordering_result1 != None:
+                        return ordering_result1
+                    if ordering_result0 != None and ordering_result1 == None:
+                        return ordering_result0
+                    if ordering_result0 != None and ordering_result1 != None:
+                        answer = input("Two locations found: " + bold(place_list[0]) + " and " + bold(place_list[1]) + ". Enter 0 or 1 to select one location to continue, leave empty to return to manual processing: ")
+                        if answer == "0":
+                            return ordering_result0
+                        elif answer == "1":
+                            return ordering_result1
+                        else:
+                            return None
+
+            else:
+                print("Interpretation failed. Unknown amount of \"/\" or \",\". Returning to manual processing...\n")
+                return None
+
+    # Pattern: no slashes contained in place - assume single place name
+    ordering_result = find_place_in_ordering(place, ordering, variants)
+    if ordering_result == None:
+        print("Unknown location " + bold(place))
+        return ("", "", "", place)
+    else:
+        return ordering_result
+
+
+
+
 # Check an additional info for patterns fitting additional location info and if possible interpret result
 def check_additional_location(info, strain_list, location_pattern, ordering, metadata, annotations_append, variants):
     place = find_longest_pattern(info, location_pattern)
@@ -338,106 +453,41 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
     if info.endswith(" (interpreted as patient residence)"):
         place = info.split(" (interpreted as patient residence)")[0]
 
-    if place != None:
 
+    if place == None:
+        # No pattern found - try whether found as location anyway
+        pattern_found = False
+        place = info
+        print("Testing for single location name...")
+    else:
+        pattern_found = True
         print("Known " + bold("patient residence") + " pattern found. Extracted location(s): " + bold(place))
 
-        # Pattern: several hierarchical place names separated by slashes or commas.
-        # Remark: Order region/country/division/location is assumed
-        for delim in ["/", ","]:
-            if delim in place:
-                place_list = [elem.strip() for elem in place.split(delim)]
+    place = "".join(place.split("_h"))
+    place = " ".join(place.split("_"))
 
-                # Pattern: all 4 hierarchies given
-                if len(place_list) == 4:
-                    print("Interpreted pattern: " + bold("region/country/division/location"))
-                    region_guess = place_list[0]
-                    country_guess = place_list[1]
-                    division_guess = place_list[2]
-                    location_guess = place_list[3]
+    place_interpretation = interpret_location(place, ordering, variants)
 
-                # Pattern: only 3 hierarchies given - determine whether region or location is missing
-                elif len(place_list) == 3:
-                    ordering_result = find_place_in_ordering(place_list[0], ordering, variants)
-                    if ordering_result == None:
-                        print("Interpretation failed. " + bold(place_list[0]) + " is not known. Returning to manual processing...\n")
-                        return annotations_append, False
-                    (region, country, division, location) = ordering_result
-                    if region == country:
-                        print("Interpreted pattern: " + bold("region/country/division"))
-                        region_guess = place_list[0]
-                        country_guess = place_list[1]
-                        division_guess = place_list[2]
-                        location_guess = ""
-                    else:
-                        print("Interpreted pattern: " + bold("country/division/location"))
-                        region_guess = region
-                        country_guess = place_list[0]
-                        division_guess = place_list[1]
-                        location_guess = place_list[2]
-                else:
-                    print("Interpretation failed. Unknown amount of \"/\" or \",\". Returning to manual processing...\n")
-                    return annotations_append, False
 
-                # Pattern: region/country/division
-                if location_guess == "":
-                    ordering_result = find_place_in_ordering(division_guess, ordering, variants)
-                    if ordering_result == None:
-                        answer = input("Could not correctly interpret " + info + " (unknown division " + division_guess + "). Leave empty to approve of guess " + bold(region_guess + ", " + country_guess + ", " + division_guess) + " or press any key to return to manual processing: ")
-                        if answer == "":
-                            return annotations_append, False
-                        else:
-                            region = region_guess
-                            country = country_guess
-                            division = division_guess
-                            location = location_guess
-                    else:
-                        (region, country, division, location) = ordering_result
-                        answer = input("Interpreted " + bold(info) + " as " + bold(region + ", " + country + ", " + division) + ". Leave empty to approve and double check given hierarchies, otherwise press any key: ")
-                        if answer != "":
-                            print("Return to manual processing...")
-                            return annotations_append, False
-                    if region == region_guess and country == country_guess:
-                        for (id, strain) in strain_list:
-                            new = (region, country, division, location)
-                            old = (metadata[id]["region"], metadata[id]["country"], metadata[id]["division"], metadata[id]["location"])
-                            create_annontation(id, strain, new, old, False, info, annotations_append)
-                        return annotations_append, True
-                    else:
-                        print("Could not correctly interpret " + info + " (conflicting region or country). Return to manual processing.")
-                    return annotations_append, False
+    while place_interpretation == None:
+        s = "Could not identify " + bold(place) + ". You have the following options:"
+        s += "\n- Enter different name (e.g. in case of typo) for repeated search"
+        s += "\n- Enter desired region/country/division/location in this exact format"
+        s += "\n- Leave answer empty to return to manual processing"
+        s += "\nType your input here: "
+        answer = input(s)
+        if answer == "":
+            print("Return to manual processing...\n")
+            return annotations_append, False
 
-                # Pattern: region/country/division/location or country/division/location
-                ordering_result = find_place_in_ordering(location_guess, ordering, variants)
-                if ordering_result == None:
-                    answer = input("Could not correctly interpret " + info + " (unknown location " + location_guess + "). Leave empty to approve of guess " + bold(region_guess + ", " + country_guess + ", " + division_guess + ", " + location_guess) + " or press any key to return to manual processing: ")
-                    if answer != "":
-                        return annotations_append, False
-                    else:
-                        region = region_guess
-                        country = country_guess
-                        division = division_guess
-                        location = location_guess
-                else:
-                    (region, country, division, location) = ordering_result
-                    answer = input("Interpreted " + bold(info) + " as " + bold(region + ", " + country + ", " + division + ", " + location) + ". Leave empty to approve and double check given hierarchies, otherwise press any key: ")
-                    if answer != "":
-                        print("Return to manual processing...")
-                        return annotations_append, False
-                if region == region_guess and country == country_guess:
-                    for (id, strain) in strain_list:
-                        new = (region, country, division, location)
-                        old = (metadata[id]["region"], metadata[id]["country"], metadata[id]["division"], metadata[id]["location"])
-                        create_annontation(id, strain, new, old, False, info, annotations_append)
-                    return annotations_append, True
+        place = answer
+        place_interpretation = interpret_location(place, ordering, variants)
 
-                else:
-                    print("Could not correctly interpret " + info + " (conflicting region or country). Return to manual processing.")
-                return annotations_append, False
 
-        #Pattern: no slashes contained in place - assume single place name
-        ordering_result = find_place_in_ordering(place, ordering, variants)
-        if ordering_result == None:
+    (region, country, division, location) = place_interpretation
+    if region == "" and country == "" and division == "":
+        if pattern_found:
+            print("Location not found in ordering and no additional geography given. Assume new location " + bold(location))
             regions = []
             countries = []
             divisions = []
@@ -453,52 +503,38 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
                     locations.append(metadata[id]["location"])
 
             if len(regions) == 1 and len(countries) == 1 and len(divisions) == 1:
-                answer = input("Unknown place " + bold(place) + ". Suggested pattern (please double check!): " + bold(metadata[id]["region"] + ", " + metadata[id]["country"] + ", " + metadata[id]["division"] + ", " + place) + ". Leave empty to approve, otherwise press any key to return to manual processing : ")
+                answer = input("Suggested pattern (please double check!): " + bold(metadata[id]["region"] + ", " + metadata[id]["country"] + ", " + metadata[id]["division"] + ", " + place) + ". Leave empty to approve, otherwise press any key to return to manual processing: ")
                 if answer != "":
-                    print("Return to manual processing...")
+                    print("Return to manual processing...\n")
                     return annotations_append, False
                 else:
                     region = metadata[id]["region"]
                     country = metadata[id]["country"]
                     division = metadata[id]["division"]
                     location = place
+                    for (id, strain) in strain_list:
+                        new = (region, country, division, location)
+                        old = (metadata[id]["region"], metadata[id]["country"], metadata[id]["division"], metadata[id]["location"])
+                        create_annontation(id, strain, new, old, False, info, annotations_append)
+                    return annotations_append, True
 
             else:
-                print("Could not correctly interpret " + info + " (unknown description " + place + "). No suggestions possible (several countries/divisions with this info). Returning to manual processing")
+                print("Could not correctly interpret " + info + " (unknown description " + place + "). No suggestions possible (several countries/divisions with this info). Returning to manual processing...\n")
                 return annotations_append, False
 
-        else:
-            (region, country, division, location) = ordering_result
-        answer = input("Interpreted " + bold(info) + " as " + bold(region + ", " + country + ", " + division + ", " + location) + ". Leave empty to approve and double check given hierarchies, otherwise press any key: ")
+    else:
+        answer = input("Interpreted " + bold(info) + " as " + bold(region + "/" + country + "/" + division + "/" + location) + ". Press enter to approve, press any other key to return to manual processing: ")
         if answer != "":
-            print("Return to manual processing...")
+            print("Return to manual processing...\n")
             return annotations_append, False
-
         for (id, strain) in strain_list:
             new = (region, country, division, location)
             old = (metadata[id]["region"], metadata[id]["country"], metadata[id]["division"], metadata[id]["location"])
             create_annontation(id, strain, new, old, False, info, annotations_append)
         return annotations_append, True
 
-    # No pattern found - try whether found as location anyway
-    ordering_result = find_place_in_ordering(info, ordering, variants)
-    if ordering_result != None:
-        (region, country, division, location) = ordering_result
-        answer = input("Interpreted " + bold(info) + " as " + bold(region + ", " + country + ", " + division + ", " + location) + ". Leave empty to approve and double check given hierarchies, otherwise press any key: ")
-        if answer != "":
-            print("Return to manual processing...")
-            return annotations_append, False
-
-        for (id, strain) in strain_list:
-            new = (region, country, division, location)
-            old = (metadata[id]["region"], metadata[id]["country"], metadata[id]["division"], metadata[id]["location"])
-            create_annontation(id, strain, new, old, False, info + " (interpreted as patient residence)", annotations_append)
-        return annotations_append, True
-
 
     return annotations_append, False
-
-
 
 
 # Check the given info for matching patterns known to carry travel history information, and apply the necessary
@@ -514,8 +550,10 @@ def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, 
 
         print("Known " + bold("travel exposure") + " pattern found. Extracted location(s): " + bold(place))
 
+
         if "," in place:
             places = [p.strip() for p in place.split(",")]
+            print("Several location names found. Process each individually: " + bold("[" + ", ".join(places) + "]"))
         else:
             places = [place]
 
@@ -590,7 +628,7 @@ def check_additional_info(additional_info, path_to_config_files):
     if metadata == None:
         return []
     ordering = read_ordering_file(path_to_nextstrain + "ncov/defaults/color_ordering.tsv")
-    variants = read_local_file("variants.txt")
+    variants = read_dict(path_to_config_files + "variants.txt")
 
     sorted_info = rearrange_additional_info(additional_info)
 
@@ -614,7 +652,8 @@ def check_additional_info(additional_info, path_to_config_files):
 
         while True:
 
-            if info.lower().startswith("zip") or info.lower() == "travel surveillance":
+            auto_comments = ["travel surveillance"]
+            if info.lower().startswith("zip") or info.endswith(".0") or info.lower() in auto_comments:
                 print("Auto-add comment for " + bold(info))
                 for (id, strain) in strain_list:
                     annotations_append.append("# " + strain + "\t" + id + "\t" + info_type + ": " + info)
