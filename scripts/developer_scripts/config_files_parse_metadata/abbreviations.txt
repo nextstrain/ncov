@@ -124,3 +124,5 @@ South Holland	NL
 Lubuskie	(Lubuskie)
 Espirito Santo	(Espirito Santo)
 Sergipe	(Sergipe)
+Navarra	ES
+Norte de Santander	CO

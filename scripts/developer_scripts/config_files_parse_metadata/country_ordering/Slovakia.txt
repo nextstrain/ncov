@@ -350,7 +350,7 @@ District of Kosice – okolie
 	Kosice 5
 	Hosťovce, district Kosice - okolie
 	Slančík
-	Háj, district Kosice - okolie
+	Háj
 	Nižná Hutka
 	Bačkovík
 	Baška
@@ -1133,7 +1133,7 @@ District of Komárno
 	Čalovec
 	Číčov
 	Dedina Mládeže
-	Svätý Peter
+	Svaty Peter
 	Dulovce
 	Hurbanovo
 	Chotín
@@ -1204,7 +1204,7 @@ District of Levice
 	Kubáňovo
 	Kukučínov
 	Kuraľany
-	Keť
+	Ket
 	Lok
 	Lontov
 	Lula
@@ -1220,7 +1220,7 @@ District of Levice
 	Plášťovce
 	Plavé Vozokany
 	Podlužany, district Levice
-	Pohronský Ruskov
+	Pohronsky Ruskov
 	Pukanec
 	Rybník, district Levice
 	Santovka
@@ -1380,7 +1380,7 @@ District of Nove Zamky
 	Vlkas
 	Pavlová
 	Ulany nad Zitavou
-	Nána
+	Nana
 	Obid
 District of Sala
 	Hájske
@@ -1503,10 +1503,10 @@ District of Tvrdosin
 	Vitanova
 	Zabiedovo
 	Zuberec
-	Čimhová
+	Cimhova
 District of Zilina
 	Zilina
-	Belá, district Zilina
+	Bela
 	Čičmany
 	Divina
 	Divinka
@@ -2362,7 +2362,7 @@ District of Stara Lubovna
 	Chmeľnica
 	Jakubany
 	Jarabina
-	Kamienka, district Stara Lubovna
+	Kamienka SL
 	Kolačkov
 	Kremná
 	Kyjov
@@ -2381,7 +2381,7 @@ District of Stara Lubovna
 	Orlov
 	Plaveč
 	Plavnica
-	Podolínec
+	Podolinec
 	Pusté Pole
 	Ruská Voľa nad Popradom
 	Starina
@@ -2680,7 +2680,6 @@ District of Humenne
 	Jabloň
 	Jankovce
 	Kamenica nad Cirochou
-	Kamienka, district Humenne
 	Karná
 	Kochanovce, district Humenne
 	Koškovce
@@ -2840,12 +2839,12 @@ District of Poprad
 	Lučivná
 	Mengusovce
 	Mlynica
-	Nová Lesná
+	Nova Lesna
 	Spišská Teplica
 	Spisske Bystre
 	Spišský Štiavnik
 	Svit
-	Štrba
+	Strba
 	Tatranská Štrba
 	Švábovce
 	Veľký Slavkov
@@ -2856,6 +2855,7 @@ District of Poprad
 	Ždiar
 	Štôla
 	Vysoké Tatry
+	Vysne Hagy
 	Tatranská Javorina
 District of Prešov
 	Haniska, district Prešov
