@@ -595,6 +595,7 @@ location	Kashgar
 location	Urumqi
 
 # Yunnan
+location	Ruili
 location	Xishuangbanna
 location	Pu'Er
 location	Kunming
@@ -2131,12 +2132,24 @@ location	Fort-de-France
 location	Schoelcher
 
 # French Guiana
+location	Grand Santi
+location	Apatou
+location	Papaichton
+location	St Laurent Du Maroni
+location	Javouhey
+location	Sinnamary
+location	Kourou
+location	Macouria
 location	Cayenne GF
+location	Remire-Montjoly
+location	Regina
 
 # Bretagne
 location	Ploudalmezeau
+location	Plouzane
 location	Lannilis
 location	Brest
+location	Lesneven
 location	Quimper
 location	Chateaulin
 location	Morlaix
@@ -2157,6 +2170,7 @@ location	Saint-Brieuc
 location	Vannes
 location	Sene
 location	Cayenne BRE
+location	Redon
 location	Dinan
 location	Saint Malo
 location	Tinteniac
@@ -2227,6 +2241,7 @@ location	Casteljaloux
 location	Angouleme
 location	Poitiers
 location	Bergerac
+location	Saint-Astier
 location	Agen
 location	Notre-Dame-de-Sanilhac
 location	Perigueux
@@ -2337,6 +2352,7 @@ location	Laon
 location	Saint Quentin
 location	Amiens
 location	Cambrai
+location	Arras
 location	Thiant
 location	Valenciennes
 location	Somain
@@ -2394,16 +2410,22 @@ location	Saint-Gilles FR
 location	St Mamet la Salvetat
 location	Ytrac
 location	Aurillac
+location	Arpajon sur Cere
 location	Lafeuillade en Vezie
 location	Huriel
+location	Giou de Mamou
 location	Domerat
 location	Premilhat
 location	Messeix
 location	Champs sur Tarentaine
 location	Vallon en Sully
 location	Montlucon
+location	Tauves
 location	Riom Es Montagnes
 location	Thiezac
+location	Pontaumur
+location	Brommat
+location	Miremont
 location	Laqueuille
 location	Montboudif
 location	Murat le Quaire
@@ -2412,6 +2434,7 @@ location	Condat
 location	La Goutelle
 location	St Priest des Champs
 location	Deneuille Les Mines
+location	Les Ancizes Comps
 location	Rochefort Montagne
 location	Montaigut
 location	Le Mont Dore
@@ -2423,6 +2446,7 @@ location	Olby
 location	Espinchal
 location	St Ours Les Roches
 location	Chambon sur Lac
+location	Paulhac
 location	Menat
 location	Manzat
 location	Murol
@@ -2458,6 +2482,7 @@ location	Beauregard Vendon
 location	Riom
 location	Saint Bonnet Pres Riom
 location	Aubiere
+location	Menetrol
 location	La Roche Blanche
 location	Champeix
 location	Gerzat
@@ -2474,6 +2499,7 @@ location	Lempdes
 location	Cournon D Auvergne
 location	Cournon
 location	Gannat
+location	Aigueperse
 location	Les Martres sur Morge
 location	Ennezat
 location	Mirefleurs
@@ -2481,6 +2507,7 @@ location	Dallet
 location	Vic le Comte
 location	Pont Du Chateau
 location	Issoire
+location	St Bonnet Les Alliers
 location	Coulandon
 location	Les Martres D'Artiere
 location	Le Breuil sur Couze
@@ -2500,6 +2527,7 @@ location	Billom
 location	Yzeure
 location	Randan
 location	Montmorin
+location	Fontans
 location	Lezoux
 location	Isserteaux
 location	Luzillat
@@ -2516,12 +2544,17 @@ location	Paslieres
 location	Thiers
 location	Molles
 location	La Monnerie le Montel
+location	Augerolles
 location	Le Mayet de Montagne
 location	Le Puy-en-Velay
+location	Brives Charensac
+location	Riorges
 location	Roanne
+location	Yssingeaux
 location	Mazet-Saint-Voy
 location	Saint-Just-Saint-Rambert
 location	Andrézieux-Bouthéon
+location	Firminy
 location	Saint-Etienne
 location	Aubenas
 location	Tarare
@@ -2551,6 +2584,7 @@ location	Decines-Charpieu
 location	Romans-sur-Isere
 location	Saint-Jean-de-Bournay
 location	Bourg-en-Bresse
+location	Cormoz
 location	Bourgoin-Jallieu
 location	Saint-Verand
 location	Saint-Etienne-de-Saint-Geoirs
@@ -2579,8 +2613,10 @@ location	Vienne
 
 # Bourgogne-France-Comté
 location	Nevers
+location	Sens
 location	St Clément
 location	Auxerre
+location	Charolles
 location	Autun
 location	Montcenis
 location	Macon
@@ -2918,6 +2954,7 @@ location	Quaregnon
 location	La Bouverie
 location	Frameries
 location	Erbaut
+location	Eugies
 location	Flénu
 location	Ghlin
 location	Jemappes
@@ -3191,6 +3228,7 @@ location	Pont-à-Celles
 location	Luttre
 location	Marchienne-au-Pont
 location	Mont-sur-Marchienne
+location	Liberchies
 location	Marcinelle
 location	Jumet
 location	Lodelinsart
@@ -3943,11 +3981,14 @@ location	Herisau
 # Sankt Gallen
 location	Rapperswil
 location	Jona
+location	Eschenbach
 location	Schmerikon
 location	Sankt Gallenkappel
+location	Uznach
 location	Kaltbrunn
 location	Wil
 location	Schänis
+location	Rieden
 location	Bazenheid
 location	Bütschwil
 location	Wattwil
@@ -3957,8 +3998,10 @@ location	Niederuzwil
 location	Grub
 location	Flawil
 location	Nesslau
+location	Degersheim
 location	Au
 location	Gossau
+location	Unterterzen
 location	Oberterzen
 location	Walenstadt
 location	Abtwil SG
@@ -3973,6 +4016,7 @@ location	Grabserberg
 location	Sargans
 location	Gams
 location	Grabs
+location	Sax
 location	Werdenberg
 location	Buchs SG
 location	Buchs
@@ -3982,6 +4026,7 @@ location	Rorschach
 location	Rorschacherberg
 location	Rheintal
 location	Bad Ragaz
+location	Sennwald
 location	Ruthi
 location	Altstatten
 location	Oberriet
@@ -4354,6 +4399,7 @@ location	Wolfsberg
 # Upper Austria
 location	Zell Am Moos
 location	Ried
+location	Pöndorf
 location	Frankenmarkt
 location	Fornach
 location	Pfaffing
@@ -4361,8 +4407,10 @@ location	Unterach Am Attersee
 location	Vöcklamarkt
 location	St. Georgen Im Attergau
 location	Frankenburg Am Hausruck
+location	Nussdorf Am Attersee
 location	Gosau
 location	Attersee
+location	Aigen-Voglhub
 location	Weyregg Am Attersee
 location	Seewalchen Am Attersee
 location	Schörfling Am Attersee
@@ -4371,6 +4419,7 @@ location	Timelkam
 location	Bad Goisern
 location	Bad Ischl
 location	Vöcklabruck
+location	Manning
 location	Aurach Am Hongar
 location	Pilsbach
 location	Altenhof Am Hausruck
@@ -4658,11 +4707,13 @@ location	Dabrowka
 location	Krosno Odrzańskie
 location	Lubrza
 location	Slubice
+location	Miedzyrzecz
 location	Osnolubuskie
 location	Gorzyca
 location	Kostrzyn (Lubuskie)
 location	Kostrzyn nad Odra
 location	Gorzow Wielkopolski
+location	Drezdenko
 location	Strzelce Krajenskie
 location	Dobiegniew
 
@@ -4714,6 +4765,7 @@ location	Szczecinek
 # Dolnośląskie
 location	Zatonie
 location	Mala Kamienica
+location	Lwowek Slaski
 location	Wojcieszyce
 location	Jelenia Gora
 location	Jezow Sudecki
@@ -4732,6 +4784,7 @@ location	Bolkow
 location	Czarny Bor
 location	Kochanow
 location	Legnica
+location	Lubin
 location	Walbrzych
 location	Swidnica DS
 location	Przylesie
@@ -4756,12 +4809,13 @@ location	Strzelin
 location	Kamieniec Wrocławski
 location	Nadolice Wielkie
 location	Wojnowice
+location	Oława
 location	Sycow
 
 # Wielkopolskie
-location	Miedzyrzecz
 location	Skwierzyna
 location	Jaroszewo
+location	Wolsztynski
 location	Nowy Tomysl
 location	Wielen
 location	Lwowek
@@ -4793,6 +4847,7 @@ location	Mrowino
 location	Sady
 location	Debienko
 location	Paledzie
+location	Leszczynski
 location	Pila
 location	Rokietnica
 location	Dabrowa (Wielkopolskie)
@@ -4922,6 +4977,7 @@ location	Puck
 location	Gdynia
 location	Pogorze
 location	Kosakowo
+location	Starogard Gdański
 location	Sopot
 location	Gdynski
 location	Gdansk
@@ -5012,6 +5068,7 @@ location	Wisniowa Gora
 location	Bedon Przykoscielny
 location	Bedon-Wies
 location	Rogow
+location	Piotrkow Trybunalski
 location	Brzeziny
 location	Koluszki
 location	Jezow
@@ -5061,6 +5118,7 @@ location	Wola Batorska
 location	Limanowa
 location	Bochnia
 location	Tarnow
+location	Dąbrowa Tarnowska
 location	Zawada
 location	Nowa Wieś
 
@@ -5185,9 +5243,11 @@ location	Siedlce
 location	Debica
 location	Siedliska-Bogusz
 location	Nagoszyn
+location	Mielec
 location	Ropczyce
 location	Tarnobrzeg
 location	Krosno
+location	Kolbuszowa
 location	Strzyzow
 location	Rzeszow
 location	Brzozow
@@ -5375,11 +5435,16 @@ location	Zavodie
 location	Kysucke Nove Mesto
 location	Cadca
 location	Svrcinovec
+location	Velky Cepcin
+location	Jazernica
 location	Turcianske Teplice
+location	Bystricka
+location	Mosovce
 location	Horná Štubňa
 location	Vrutky
 location	Martin
 location	Bela
+location	Turčianska Štiavnička
 location	Oravska Lesna
 location	Novot
 location	Dolný Kubín
@@ -5434,10 +5499,12 @@ location	Brezno
 location	Sihla
 location	Lucenec
 location	Poltar
+location	Ozdany
 location	Hnusta
 location	Rimavska Sobota
 location	Muranska Huta
 location	Revuca
+location	Tornala
 
 # Prešov
 location	Tatranská Štrba
@@ -5476,8 +5543,12 @@ location	Snina
 
 # Kosice
 location	Spisska Nova Ves
+location	Krasnohorska Dlha Luka
 location	Zehra
+location	Haj
 location	Gelnica
+location	Valaliky
+location	Mala Trna
 location	Trebisov
 location	Michalovce
 location	Kralovsky Chlmec
@@ -5732,6 +5803,8 @@ location	Kubinka
 location	Naro-Fominsk
 location	Zvenigorod
 location	Kalininets
+location	Zelenograd
+location	Rublevo
 location	Dolgoprudny
 location	Moscow
 location	Dmitrov
@@ -6713,6 +6786,7 @@ location	Borebi
 location	Catanduva
 location	Avare
 location	Olimpia
+location	Ibitinga
 location	Itapolis
 location	Lencois Paulista
 location	Monte Azul Pulista
@@ -6722,6 +6796,7 @@ location	Guapiara
 location	Bocaina
 location	Taiacu
 location	Taquaritinga
+location	Bebedouro
 location	Botucatu
 location	Angatuba
 location	Dois Corregos
@@ -6731,21 +6806,27 @@ location	Viradouro
 location	Guariba
 location	Araraquara
 location	Cajati
+location	Pradopolis
 location	Morro Agudo
 location	Itapetininga
+location	Jacupiranga
 location	Sao Miguel Arcanjo
 location	Cesário Lange
 location	Sete Barras
 location	Sao Carlos
 location	Orlandia
 location	Pariquera-Acu
+location	Aguas de Sao Pedro
 location	Tatui
 location	Registro
 location	Sales Oliveira
 location	Guara
+location	Itirapina
 location	Ribeirao Preto
 location	Ituverava
+location	Jardinopolis
 location	Capela do Alto
+location	Cravinhos
 location	Tiete
 location	Ipero
 location	Boituva
@@ -6753,15 +6834,19 @@ location	Piracicaba
 location	Juquia
 location	Descalvado
 location	Aracoiaba Da Serra
+location	Rio Das Pedras
 location	Rio Claro SP
 location	Iguape
 location	Porto Feliz
+location	Capivari
 location	Porto Ferreira
 location	Sorocaba
 location	Votorantim
+location	Pirassununga
 location	Santa Barbara D'Oeste
 location	Limeira
 location	Franca
+location	Leme
 location	Araras
 location	Americana
 location	Itu
@@ -6769,11 +6854,13 @@ location	Nova Odessa
 location	Salto
 location	Patrocinio Paulista
 location	Sumare
+location	Pedro de Toledo
 location	Ibiuna
 location	Indaiatuba
 location	Hortolandia
 location	Mairinque
 location	Itariri
+location	Conchal
 location	Sao Roque
 location	Juquitiba
 location	Campinas
@@ -6805,6 +6892,7 @@ location	Taboao Da Serra
 location	Amparo
 location	Espirito Santo do Pinhal
 location	Francisco Morato
+location	Divinolandia
 location	Caieiras
 location	Jarinu
 location	São Paulo
@@ -7871,6 +7959,7 @@ location	El Paso County
 location	Presidio County
 location	Pecos
 location	Brewster County
+location	Winkler County
 location	Bailey County
 location	Pecos County
 location	Parmer County
@@ -7883,6 +7972,7 @@ location	Terry County
 location	Hockley County
 location	Castro County
 location	Midland County TX
+location	Randall County
 location	Potter County TX
 location	Lubbock County
 location	Swisher County
@@ -7897,6 +7987,7 @@ location	Wheeler County
 location	Runnels County TX
 location	Taylor
 location	Taylor County TX
+location	Kimble County
 location	Knox County TX
 location	McCulloch County
 location	Kerr County
@@ -7904,6 +7995,7 @@ location	Webb County
 location	Bandera County
 location	Zapata County
 location	Medina County TX
+location	La Salle County
 location	Brown County TX
 location	Gillespie County
 location	San Saba County
@@ -7918,6 +8010,7 @@ location	Comanche County
 location	Bexar County
 location	Lometa
 location	Comal County
+location	Lampasas County
 location	Hidalgo County
 location	Burnet County
 location	Wilson County
@@ -7937,6 +8030,7 @@ location	Montague County
 location	Bee County
 location	Round Rock
 location	Wise County
+location	Bosque County
 location	Georgetown TX
 location	Nueces County
 location	Caldwell County
@@ -7955,7 +8049,7 @@ location	Johnson County TX
 location	Temple
 location	Tarrant County
 location	Burleson
-location	DeWitt County
+location	DeWitt County TX
 location	Refugio County
 location	Rogers
 location	Mclennan County
@@ -8028,7 +8122,7 @@ location	Titus County
 location	Upshur County
 location	Gregg County
 location	Polk County TX
-location	Rusk County
+location	Rusk County TX
 location	Liberty County
 location	Clark
 location	Morris County TX
@@ -8041,6 +8135,7 @@ location	Panola County
 location	Jefferson County TX
 location	Jasper County
 location	Orange County TX
+location	Newton County
 location	Calcasieu County
 location	Jackson
 
@@ -8128,6 +8223,7 @@ location	Chippewa County WI
 location	Bayfield County
 location	Sawyer County
 location	La Crosse County
+location	Rusk County WI
 location	Crawford County WI
 location	Vernon County
 location	Jackson County WI
@@ -8252,6 +8348,7 @@ location	Menard County IL
 location	Logan County IL
 location	Champaign County IL
 location	Schuyler County IL
+location	DeWitt County IL
 location	Vermilion County
 location	De Witt County
 location	Mason County IL
@@ -8589,6 +8686,7 @@ location	Madison CT
 location	Tolland County
 
 # Massachusetts
+location	Worcester County
 location	Middlesex County MA
 location	Norfolk County
 location	Boston
@@ -9179,6 +9277,7 @@ division	Delta
 division	Zamfara State
 division	Kogi State
 division	Rivers
+division	Imo
 division	Federal Capital Territory
 division	Enugu
 division	Abuja
@@ -9192,6 +9291,7 @@ division	Kano State
 division	Benue State
 division	Plateau State
 division	Bauchi
+division	Adamawa
 division	Borno State
 
 ### Tunisia
@@ -9220,6 +9320,7 @@ division	Equatorial Guinea
 division	Wele Nzas
 
 ### Gabon
+division	Lambarene
 division	Libreville
 
 ### Cameroon
@@ -9474,6 +9575,7 @@ division	Hauts de France
 division	Occitanie
 division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
+division	Meuse
 division	Grand Est
 division	Provence-Alpes-Côte d'Azur
 division	Corse
@@ -10034,6 +10136,7 @@ division	Yambol
 division	Razgrad
 division	Targovishte
 division	Burgas
+division	Silistra
 division	Dobrich
 division	Varna
 
@@ -10553,8 +10656,8 @@ division	Oklahoma
 division	Minnesota
 division	Iowa
 division	Louisiana
-division	Missouri
 division	Arkansas
+division	Missouri
 division	Mississippi
 division	Wisconsin
 division	Illinois
