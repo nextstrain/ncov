@@ -1966,3 +1966,11 @@ Panama/GMI-PA344779/2020
 
 # date too early for clade
 SouthAfrica/Tygerberg_650/2020
+
+# date too early for clade, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1618554314280300
+SouthKorea/KDCA0367/2020
+
+# Dates too early
+Spain/CL-COV00781/2020
+USA/AZ-TG808431/2020
+USA/AZ-TG808802/2020
