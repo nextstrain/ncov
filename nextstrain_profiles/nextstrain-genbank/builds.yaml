@@ -1,0 +1,340 @@
+# Define custom rules for pre- or post-standard workflow processing of data.
+custom_rules:
+  - workflow/snakemake_rules/export_for_nextstrain.smk
+  - nextstrain_profiles/nextstrain/subsampling_ranges.smk
+
+# These parameters are only used by the `export_for_nextstrain` rule and shouldn't need to be modified.
+# To modify the s3 _source_ bucket, specify this directly in the `inputs` section of the config.
+# P.S. These are intentionally set as top-level keys as this allows command-line overrides.
+S3_DST_BUCKET: "nextstrain-data/ncov-intermediates"
+S3_REF_BUCKET: "nextstrain-data/ncov-reference-datasets"
+S3_DST_COMPRESSION: "xz"
+S3_DST_ORIGINS: ["genbank"]
+
+build_sizes:
+  standard: 4000
+  small: 2000
+  xsmall: 1000
+
+us_state_builds:
+  - ["AL", "Alabama"]
+  - ["AK", "Alaska"]
+  - ["AZ", "Arizona"]
+  - ["AR", "Arkansas"]
+  - ["CA", "California"]
+  - ["CO", "Colorado"]
+  - ["CT", "Connecticut"]
+  - ["DE", "Delaware"]
+  - ["FL", "Florida"]
+  - ["GA", "Georgia"]
+  - ["HI", "Hawaii"]
+  - ["ID", "Idaho"]
+  - ["IL", "Illinois"]
+  - ["IN", "Indiana"]
+  - ["IA", "Iowa"]
+  - ["KS", "Kansas"]
+  - ["KY", "Kentucky"]
+  - ["LA", "Louisiana"]
+  - ["ME", "Maine"]
+  - ["MD", "Maryland"]
+  - ["MA", "Massachusetts"]
+  - ["MI", "Michigan"]
+  - ["MN", "Minnesota"]
+  - ["MS", "Mississippi"]
+  - ["MO", "Missouri"]
+  - ["MT", "Montana"]
+  - ["NE", "Nebraska"]
+  - ["NV", "Nevada"]
+  - ["NH", "New Hampshire"]
+  - ["NJ", "New Jersey"]
+  - ["NM", "New Mexico"]
+  - ["NY", "New York"]
+  - ["NC", "North Carolina"]
+  - ["ND", "North Dakota"]
+  - ["OH", "Ohio"]
+  - ["OK", "Oklahoma"]
+  - ["OR", "Oregon"]
+  - ["PA", "Pennsylvania"]
+  - ["RI", "Rhode Island"]
+  - ["SC", "South Carolina"]
+  - ["SD", "South Dakota"]
+  - ["TN", "Tennessee"]
+  - ["TX", "Texas"]
+  - ["UT", "Utah"]
+  - ["VT", "Vermont"]
+  - ["VA", "Virginia"]
+  - ["WA", "Washington"]
+  - ["WV", "West Virginia"]
+  - ["WI", "Wisconsin"]
+  - ["WY", "Wyoming"]
+
+
+refine:
+   root: "Wuhan/WH01/2019"
+
+files:
+   auspice_config: "nextstrain-profiles/nextstrain-genbank/auspice_config.json"
+
+genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
+use_nextalign: true
+conda_environment: "workflow/envs/nextstrain_with_nextalign.yaml"
+
+# NOTE for shepherds -- there are commented out inputs here, you can
+# uncomment them to start the pipeline at that stage.
+# E.g. if you uncomment `filtered` then the pipeline
+# will start by downloading that file and proceeding straight to
+# subsampling
+inputs:
+  - name: genbank
+    metadata: "s3://nextstrain-data/ncov-ingest/genbank_metadata.tsv.gz"
+    sequences: "s3://nextstrain-data/ncov-ingest/genbank_sequences.fasta.gz"
+    # ---------------------- NOTE --------------------------
+    # PR 550 changed the path of intermediate files on
+    # the S3 bucket to include the origin (e.g. _gisaid).
+    # Some of these files may not yet exist!
+    # ------------------------------------------------------
+    # metadata: "s3://nextstrain-ncov-private/metadata_gisaid.tsv.gz"
+    # sequences: "s3://nextstrain-ncov-private/sequences_gisaid.fasta.gz"
+    # aligned: "s3://nextstrain-ncov-private/aligned_gisaid.fasta.xz"
+    # to-exclude: "s3://nextstrain-ncov-private/to-exclude_gisaid.txt.xz"
+    # masked: "s3://nextstrain-ncov-private/masked_gisaid.fasta.fasta.xz"
+    # filtered: "s3://nextstrain-ncov-private/filtered_gisaid.fasta.xz"
+
+# Define locations for which builds should be created.
+# For each build we specify a subsampling scheme via an explicit key.
+# These subsampling schemes are defined at the bottom of this file.
+# (They override the defaults)
+builds:
+  global:
+    subsampling_scheme: nextstrain_region_global
+    auspice_config: "nextstrain_profiles/nextstrain/global_auspice_config.json"
+  africa:
+    subsampling_scheme: nextstrain_region
+    region: Africa
+    auspice_config: "nextstrain_profiles/nextstrain/africa_auspice_config.json"
+  asia:
+    subsampling_scheme: nextstrain_region
+    region: Asia
+    auspice_config: "nextstrain_profiles/nextstrain/asia_auspice_config.json"
+  europe:
+    subsampling_scheme: nextstrain_region
+    region: Europe
+    subclades: "nextstrain_profiles/nextstrain/subclades_EU.tsv"
+    auspice_config: "nextstrain_profiles/nextstrain/europe_auspice_config.json"
+  north-america:
+    subsampling_scheme: nextstrain_region
+    region: North America
+    auspice_config: "nextstrain_profiles/nextstrain/north-america_auspice_config.json"
+  oceania:
+    subsampling_scheme: nextstrain_region
+    region: Oceania
+    auspice_config: "nextstrain_profiles/nextstrain/oceania_auspice_config.json"
+  south-america:
+    subsampling_scheme: nextstrain_region
+    region: South America
+    auspice_config: "nextstrain_profiles/nextstrain/south-america_auspice_config.json"
+
+# remove S dropout sequences and sequences without division label in US
+filter:
+  exclude_where: "division='USA' purpose_of_sequencing='S dropout'"
+
+# if different exposure traits should be used for some builds, specify here
+# otherwise the default exposure in defaults/parameters.yaml will used
+exposure:
+  global:
+    trait: "region"
+    exposure: "region_exposure"
+
+  africa:
+    trait: "country"
+    exposure: "country_exposure"
+
+  asia:
+    trait: "country"
+    exposure: "country_exposure"
+
+  europe:
+    trait: "country"
+    exposure: "country_exposure"
+
+  south-america:
+    trait: "country"
+    exposure: "country_exposure"
+
+  north-america:
+    trait: "division"
+    exposure: "division_exposure"
+
+  oceania:
+    trait: "division"
+    exposure: "division_exposure"
+
+# if different traits should be reconstructed for some builds, specify here
+# otherwise the default trait config in defaults/parameters.yaml will used
+traits:
+  global:
+    sampling_bias_correction: 2.5
+    columns: ["region_exposure"]
+  europe:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  africa:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  asia:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  south-america:
+    sampling_bias_correction: 2.5
+    columns: ["country_exposure"]
+  north-america:
+    sampling_bias_correction: 2.5
+    columns: ["division_exposure"]
+  oceania:
+    sampling_bias_correction: 2.5
+    columns: ["division_exposure"]
+
+files:
+  description: "nextstrain_profiles/nextstrain/nextstrain_description.md"
+
+# S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
+s3_staging_url: s3://nextstrain-staging
+slack_token: ~
+slack_channel: "#ncov-genbank-updates"
+
+subsampling:
+  # Custom subsampling logic for regions
+  nextstrain_region:
+    # Focal samples for region
+    region_early:
+      group_by: "division year month"
+      max_sequences: 0.2
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global_early:
+      group_by: "country year month"
+      max_sequences: 0.1
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region={region}'"
+
+    region_late:
+      group_by: "division year month"
+      max_sequences: 0.5
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global_late:
+      group_by: "country year month"
+      max_sequences: 0.2
+      exclude: "--exclude-where 'region={region}'"
+      sampling_scheme: "--probabilistic-sampling"
+
+  # Custom subsampling logic for regions
+  nextstrain_local:
+    # Focal samples for region
+    division_early:
+      group_by: "year month"
+      max_sequences: 0.05
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'division!={division}'"
+    # Contextual samples for region from the rest of the world
+    region_early:
+      group_by: "division year month"
+      max_sequences: 0.15
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global_early:
+      group_by: "country year month"
+      max_sequences: 0.1
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region_late"
+
+    division_late:
+      group_by: "year month"
+      max_sequences: 0.3
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'division!={division}'"
+    # Contextual samples for region from the rest of the world
+    region_late:
+      group_by: "division year month"
+      max_sequences: 0.3
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global_late:
+      group_by: "country year month"
+      max_sequences: 0.1
+      exclude: "--exclude-where 'region={region}'"
+      sampling_scheme: "--probabilistic-sampling"
+      priorities:
+        type: "proximity"
+        focus: "region_late"
+
+  # Custom subsampling logic for global region.
+  nextstrain_region_global:
+    africa_early:
+      group_by: "country year month"
+      max_sequences: 0.05
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=Africa'"
+    asia_early:
+      group_by: "country year month"
+      max_sequences: 0.05
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=Asia'"
+    europe_early:
+      group_by: "country year month"
+      max_sequences: 0.05
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=Europe'"
+    north_america_early:
+      group_by: "division year month"
+      max_sequences: 0.05
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=North America'"
+    south_america_early:
+      group_by: "country year month"
+      max_sequences: 0.05
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=South America'"
+    oceania_early:
+      group_by: "division year month"
+      max_sequences: 0.05
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=Oceania'"
+
+    africa_late:
+      group_by: "country year month"
+      max_sequences: 0.125
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=Africa'"
+    asia_late:
+      group_by: "country year month"
+      max_sequences: 0.125
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=Asia'"
+    europe_late:
+      group_by: "country year month"
+      max_sequences: 0.125
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=Europe'"
+    north_america_late:
+      group_by: "division year month"
+      max_sequences: 0.125
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=North America'"
+    south_america_late:
+      group_by: "country year month"
+      max_sequences: 0.125
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=South America'"
+    oceania_late:
+      group_by: "division year month"
+      max_sequences: 0.075
+      sampling_scheme: "--probabilistic-sampling"
+      exclude: "--exclude-where 'region!=Oceania'"
