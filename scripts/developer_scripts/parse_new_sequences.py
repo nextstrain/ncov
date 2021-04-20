@@ -96,6 +96,7 @@ def read_data(path):
     return (data, list_of_strains)
 
 def check_for_recency(counts, list_of_strains, lab_collection, path_to_metadata, table_file_name):
+    print("\n----------------------------------------------\n")
 
     countries = {}
     subm_labs = {}
@@ -112,6 +113,8 @@ def check_for_recency(counts, list_of_strains, lab_collection, path_to_metadata,
         orig_lab_i = header.index("originating_lab")
         author_i = header.index("authors")
 
+
+        print("Collecting all labs from the last month from metadata... (this may take a while)")
 
         line = f.readline()
         while line:
@@ -149,6 +152,8 @@ def check_for_recency(counts, list_of_strains, lab_collection, path_to_metadata,
                         origlab_authors[country][orig_lab] += 1
             line = f.readline()
 
+    print("\nSearching for twitter handles... ")
+
     rare_countries = []
     for c in counts:
         if c != "United Kingdom":
@@ -183,8 +188,6 @@ def check_for_recency(counts, list_of_strains, lab_collection, path_to_metadata,
 
     lab_collection_present["United Kingdom"] = {"@CovidGenomicsUK": 1000}
 
-    print(lab_collection_present)
-
     rare_labs = {}
     for region in lab_collection:
         for country in lab_collection[region]:
@@ -196,7 +199,10 @@ def check_for_recency(counts, list_of_strains, lab_collection, path_to_metadata,
                         rare_labs[region][country] = []
                     rare_labs[region][country].append(lab)
 
+    print("\nCountries that have submitted < 20 sequences last month (all of these will be included in the tweet):")
     print(rare_countries)
+
+    print("\nSubmitters that have not submitted last month (all of these will be included in the tweet):")
     print(rare_labs)
 
     return rare_countries, rare_labs
@@ -452,7 +458,7 @@ def collect_labs(data, table_file_name):
                         if l not in lab_collection[region][country]:
                             lab_collection[region][country].append(l)
                 s += "\n"
-            #print(s)
+            print(s)
 
     print("----------------------------------------------\n")
     print("Authors:\n")
@@ -471,7 +477,7 @@ def collect_labs(data, table_file_name):
                         if a not in lab_collection[region][country]:
                             lab_collection[region][country].append(a)
                 s += "\n"
-            #print(s)
+            print(s)
 
 
     if "Europe" in lab_collection:
