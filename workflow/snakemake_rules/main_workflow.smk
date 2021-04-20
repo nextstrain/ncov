@@ -972,42 +972,39 @@ rule clades:
             --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
 
-rule subclades:
-    message: "Adding internal clade labels"
+rule emerging_lineages:
+    message: "Adding emerging clade labels"
     input:
         tree = rules.refine.output.tree,
         aa_muts = rules.translate.output.node_data,
         nuc_muts = rules.ancestral.output.node_data,
-        subclades = config["files"]["subclades"],
+        emerging_lineages = config["files"]["emerging_lineages"],
         clades = config["files"]["clades"]
     output:
-        clade_data = "results/{build_name}/temp_subclades.json"
-    params:
-        clade_file = "results/{build_name}/temp_subclades.tsv"
+        clade_data = "results/{build_name}/temp_emerging_lineages.json"
     log:
-        "logs/subclades_{build_name}.txt"
+        "logs/emerging_lineages_{build_name}.txt"
     benchmark:
-        "benchmarks/subclades_{build_name}.txt"
+        "benchmarks/emerging_lineages_{build_name}.txt"
     resources:
         # Memory use scales primarily with size of the node data.
         mem_mb=lambda wildcards, input: 3 * int(input.size / 1024 / 1024)
     conda: config["conda_environment"]
     shell:
         """
-        cat {input.clades} {input.subclades} > {params.clade_file} && \
         augur clades --tree {input.tree} \
             --mutations {input.nuc_muts} {input.aa_muts} \
-            --clades {params.clade_file} \
+            --clades {input.emerging_lineages} \
             --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
 
-rule rename_subclades:
+rule rename_emerging_lineages:
     input:
-        node_data = rules.subclades.output.clade_data
+        node_data = rules.emerging_lineages.output.clade_data
     output:
-        clade_data = "results/{build_name}/subclades.json"
+        clade_data = "results/{build_name}/emerging_lineages.json"
     benchmark:
-        "benchmarks/rename_subclades_{build_name}.txt"
+        "benchmarks/rename_emerging_lineages_{build_name}.txt"
     run:
         import json
         with open(input.node_data, 'r', encoding='utf-8') as fh:
@@ -1015,9 +1012,9 @@ rule rename_subclades:
             new_data = {}
             for k,v in d['nodes'].items():
                 if "clade_membership" in v:
-                    new_data[k] = {"subclade_membership": v["clade_membership"]}
+                    new_data[k] = {"emerging_lineage": v["clade_membership"]}
         with open(output.clade_data, "w") as fh:
-            json.dump({"nodes":new_data}, fh)
+            json.dump({"nodes": new_data}, fh, indent=2)
 
 
 rule colors:
@@ -1204,7 +1201,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.refine.output.node_data,
         rules.ancestral.output.node_data,
         rules.translate.output.node_data,
-        rules.rename_subclades.output.clade_data,
+        rules.rename_emerging_lineages.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data,

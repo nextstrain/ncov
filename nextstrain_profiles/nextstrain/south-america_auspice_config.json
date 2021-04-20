@@ -10,9 +10,9 @@
     }
   ],
   "colorings": [
-   {
-      "key": "subclade_membership",
-      "title": "Emerging Clade",
+    {
+      "key": "emerging_lineage",
+      "title": "Emerging Lineage",
       "type": "categorical"
     },
     {
@@ -136,6 +136,7 @@
   "filters": [
     "recency",
     "clade_membership",
+    "emerging_lineage",
     "region",
     "country",
     "division",
