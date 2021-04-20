@@ -10810,17 +10810,17 @@ region	North America
 
 ################
 
-emerging_clade_membership	19B/A.23.1
-emerging_clade_membership	20A/B.1.160
-emerging_clade_membership	20A/B.1.617
-emerging_clade_membership	20A/B.1.525
-emerging_clade_membership	20B/P.3
-emerging_clade_membership	20C/B.1.526
-emerging_clade_membership	20C/B.1.427+B.1.429
-emerging_clade_membership	20E (B.1.177)
-emerging_clade_membership	20G (B.1.2)
-emerging_clade_membership	20H/501Y.V2 (B.1.351)
-emerging_clade_membership	20I/501Y.V1 (B.1.1.7)
-emerging_clade_membership	20J/501Y.V3 (P.1)
+emerging_lineage	A.23.1
+emerging_lineage	B.1.1.7
+emerging_lineage	B.1.2
+emerging_lineage	B.1.160
+emerging_lineage	B.1.177
+emerging_lineage	B.1.351
+emerging_lineage	B.1.427+B.1.429
+emerging_lineage	B.1.525
+emerging_lineage	B.1.526
+emerging_lineage	B.1.617
+emerging_lineage	P.1
+emerging_lineage	P.3
 
 ################
