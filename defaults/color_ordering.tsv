@@ -976,7 +976,7 @@ location	Bata
 location	Nsork
 
 ### Angola
-# Huíla
+# Huila AO
 location	Lubango
 
 # Cuanza Sul
@@ -2639,6 +2639,7 @@ location	Champagne Ardenne
 location	Vitry le Francois
 location	Charleville-Mezieres
 location	Saint Dizier
+location	Meuse
 location	Gondrecourt-le-Chateau
 location	Tucquegnieux
 location	Crusnes
@@ -7167,6 +7168,8 @@ location	Callao
 
 # Lima
 location	Cañete
+location	San Isidro PE
+location	Jesús María
 location	Lima
 location	Huarochiri
 
@@ -7175,6 +7178,7 @@ location	Huancayo
 
 # Ancash
 location	Santa
+location	Casma
 location	Huarmey
 location	Huaraz
 
@@ -7316,7 +7320,7 @@ location	Pasto
 location	Popayan
 location	Santander de Quilichao
 
-# Huila
+# Huila CO
 location	Neiva
 
 # Meta
@@ -9346,7 +9350,7 @@ division	Omaheke
 division	Zambezi
 
 ### Angola
-division	Huíla
+division	Huila AO
 division	Cuanza Sul
 division	Luanda
 division	Cabinda
@@ -9575,7 +9579,6 @@ division	Hauts de France
 division	Occitanie
 division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
-division	Meuse
 division	Grand Est
 division	Provence-Alpes-Côte d'Azur
 division	Corse
@@ -10442,7 +10445,7 @@ division	Putumayo
 division	Caqueta
 division	Narino
 division	Cauca
-division	Huila
+division	Huila CO
 division	Colombia
 division	Meta
 division	Valle del Cauca
@@ -10455,6 +10458,7 @@ division	Vichada
 division	Cundinamarca
 division	Caldas
 division	Boyaca
+division	Casanare
 division	Choco
 division	Arauca
 division	Antioquia
