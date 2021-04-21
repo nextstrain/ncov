@@ -42,85 +42,50 @@ rule combine_input_metadata:
         python3 scripts/combine_metadata.py --metadata {input.metadata} --origins {params.origins} --output {output.metadata} 2>&1 | tee {log}
         """
 
-if "use_nextalign" in config and config["use_nextalign"]:
-    rule align:
-        message:
-            """
-            Aligning sequences to {input.reference}
-              - gaps relative to reference are considered real
-            """
-        input:
-            sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
-            genemap = config["files"]["annotation"],
-            reference = config["files"]["alignment_reference"]
-        output:
-            alignment = "results/aligned{origin}.fasta",
-            insertions = "results/insertions{origin}.tsv",
-            translations = expand("results/translations/seqs{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
-        params:
-            outdir = "results/translations",
-            genes = ','.join(config.get('genes', ['S'])),
-            basename = "seqs{origin}",
-            strain_prefixes=config["strip_strain_prefixes"],
-        log:
-            "logs/align{origin}.txt"
-        benchmark:
-            "benchmarks/align{origin}.txt"
-        conda: config["conda_environment"]
-        threads: 8
-        resources:
-            mem_mb=3000
-        shell:
-            """
-            python3 scripts/sanitize_sequences.py \
-                --sequences {input.sequences} \
-                --strip-prefixes {params.strain_prefixes:q} \
-                --output /dev/stdout \
-                | nextalign \
-                --jobs={threads} \
-                --reference {input.reference} \
-                --genemap {input.genemap} \
-                --genes {params.genes} \
-                --sequences /dev/stdin \
-                --output-dir {params.outdir} \
-                --output-basename {params.basename} \
-                --output-fasta {output.alignment} \
-                --output-insertions {output.insertions} > {log} 2>&1
-            """
-else:
-    rule align:
-        message:
-            """
-            Aligning sequences from {input.sequences} to {input.reference}
+rule align:
+    message:
+        """
+        Aligning sequences to {input.reference}
             - gaps relative to reference are considered real
-            """
-        input:
-            sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
-            reference = config["files"]["alignment_reference"]
-        output:
-            alignment = "results/aligned{origin}.fasta"
-        log:
-            "logs/align{origin}.txt"
-        benchmark:
-            "benchmarks/align{origin}.txt"
-        threads: 16
-        conda: config["conda_environment"]
-        params:
-            strain_prefixes=config["strip_strain_prefixes"],
-        shell:
-            """
-            python3 scripts/sanitize_sequences.py \
-                --sequences {input.sequences} \
-                --strip-prefixes {params.strain_prefixes:q} \
-                --output /dev/stdout \
-                | mafft \
-                --auto \
-                --thread {threads} \
-                --keeplength \
-                --addfragments \
-                /dev/stdin \
-                {input.reference} > {output} 2> {log}
-            """
+        """
+    input:
+        sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
+        genemap = config["files"]["annotation"],
+        reference = config["files"]["alignment_reference"]
+    output:
+        alignment = "results/aligned{origin}.fasta",
+        insertions = "results/insertions{origin}.tsv",
+        translations = expand("results/translations/seqs{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+    params:
+        outdir = "results/translations",
+        genes = ','.join(config.get('genes', ['S'])),
+        basename = "seqs{origin}",
+        strain_prefixes=config["strip_strain_prefixes"],
+    log:
+        "logs/align{origin}.txt"
+    benchmark:
+        "benchmarks/align{origin}.txt"
+    conda: config["conda_environment"]
+    threads: 8
+    resources:
+        mem_mb=3000
+    shell:
+        """
+        python3 scripts/sanitize_sequences.py \
+            --sequences {input.sequences} \
+            --strip-prefixes {params.strain_prefixes:q} \
+            --output /dev/stdout \
+            | nextalign \
+            --jobs={threads} \
+            --reference {input.reference} \
+            --genemap {input.genemap} \
+            --genes {params.genes} \
+            --sequences /dev/stdin \
+            --output-dir {params.outdir} \
+            --output-basename {params.basename} \
+            --output-fasta {output.alignment} \
+            --output-insertions {output.insertions} > {log} 2>&1
+        """
 
 rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
@@ -551,74 +516,45 @@ rule combine_samples:
             --output-metadata {output.metadata} 2>&1 | tee {log}
         """
 
-if "use_nextalign" in config and config["use_nextalign"]:
-    rule build_align:
-        message:
-            """
-            Aligning sequences to {input.reference}
-              - gaps relative to reference are considered real
-            """
-        input:
-            sequences = rules.combine_samples.output.sequences,
-            genemap = config["files"]["annotation"],
-            reference = config["files"]["alignment_reference"]
-        output:
-            alignment = "results/{build_name}/aligned.fasta",
-            insertions = "results/{build_name}/insertions.tsv",
-            translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
-        params:
-            outdir = "results/{build_name}/translations",
-            genes = ','.join(config.get('genes', ['S'])),
-            basename = "aligned"
-        log:
-            "logs/align_{build_name}.txt"
-        benchmark:
-            "benchmarks/align_{build_name}.txt"
-        conda: config["conda_environment"]
-        threads: 8
-        resources:
-            mem_mb=3000
-        shell:
-            """
-            nextalign \
-                --jobs={threads} \
-                --reference {input.reference} \
-                --genemap {input.genemap} \
-                --genes {params.genes} \
-                --sequences {input.sequences} \
-                --output-dir {params.outdir} \
-                --output-basename {params.basename} \
-                --output-fasta {output.alignment} \
-                --output-insertions {output.insertions} > {log} 2>&1
-            """
-else:
-    rule build_align:
-        message:
-            """
-            Aligning sequences from {input.sequences} to {input.reference}
+rule build_align:
+    message:
+        """
+        Aligning sequences to {input.reference}
             - gaps relative to reference are considered real
-            """
-        input:
-            sequences = rules.combine_samples.output.sequences,
-            reference = config["files"]["alignment_reference"]
-        output:
-            alignment = "results/{build_name}/aligned.fasta"
-        log:
-            "logs/align_{build_name}.txt"
-        benchmark:
-            "benchmarks/align_{build_name}.txt"
-        threads: 16
-        conda: config["conda_environment"]
-        shell:
-            """
-            mafft \
-                --auto \
-                --thread {threads} \
-                --keeplength \
-                --addfragments \
-                {input.sequences} \
-                {input.reference} > {output} 2> {log}
-            """
+        """
+    input:
+        sequences = rules.combine_samples.output.sequences,
+        genemap = config["files"]["annotation"],
+        reference = config["files"]["alignment_reference"]
+    output:
+        alignment = "results/{build_name}/aligned.fasta",
+        insertions = "results/{build_name}/insertions.tsv",
+        translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+    params:
+        outdir = "results/{build_name}/translations",
+        genes = ','.join(config.get('genes', ['S'])),
+        basename = "aligned"
+    log:
+        "logs/align_{build_name}.txt"
+    benchmark:
+        "benchmarks/align_{build_name}.txt"
+    conda: config["conda_environment"]
+    threads: 8
+    resources:
+        mem_mb=3000
+    shell:
+        """
+        nextalign \
+            --jobs={threads} \
+            --reference {input.reference} \
+            --genemap {input.genemap} \
+            --genes {params.genes} \
+            --sequences {input.sequences} \
+            --output-dir {params.outdir} \
+            --output-basename {params.basename} \
+            --output-fasta {output.alignment} \
+            --output-insertions {output.insertions} > {log} 2>&1
+        """
 
 if "run_pangolin" in config and config["run_pangolin"]:
     rule run_pangolin:
@@ -886,57 +822,57 @@ rule aa_muts_explicit:
             --genes {params.genes} \
             --output {output.node_data} 2>&1 | tee {log}
         """
-if "use_nextalign" in config and config["use_nextalign"]:
-    rule build_mutation_summary:
-        message: "Summarizing {input.alignment}"
-        input:
-            alignment = rules.build_align.output.alignment,
-            insertions = rules.build_align.output.insertions,
-            translations = rules.build_align.output.translations,
-            reference = config["files"]["alignment_reference"],
-            genemap = config["files"]["annotation"]
-        output:
-            mutation_summary = "results/{build_name}/mutation_summary.tsv"
-        log:
-            "logs/mutation_summary_{build_name}.txt"
-        params:
-            outdir = "results/{build_name}/translations",
-            basename = "aligned"
-        conda: config["conda_environment"]
-        shell:
-            """
-            python3 scripts/mutation_summary.py \
-                --alignment {input.alignment} \
-                --insertions {input.insertions} \
-                --directory {params.outdir} \
-                --basename {params.basename} \
-                --reference {input.reference} \
-                --genemap {input.genemap} \
-                --output {output.mutation_summary} 2>&1 | tee {log}
-            """
 
-    rule distances:
-        input:
-            tree = rules.refine.output.tree,
-            alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
-            distance_maps = ["defaults/distance_maps/S1.json"]
-        params:
-            genes = 'S',
-            comparisons = ['root'],
-            attribute_names = ['S1_mutations']
-        output:
-            node_data = "results/{build_name}/distances.json"
-        shell:
-            """
-            python scripts/mutation_counts.py \
-                --tree {input.tree} \
-                --alignment {input.alignments} \
-                --gene-names {params.genes} \
-                --compare-to {params.comparisons} \
-                --attribute-name {params.attribute_names} \
-                --map {input.distance_maps} \
-                --output {output}
-            """
+rule build_mutation_summary:
+    message: "Summarizing {input.alignment}"
+    input:
+        alignment = rules.build_align.output.alignment,
+        insertions = rules.build_align.output.insertions,
+        translations = rules.build_align.output.translations,
+        reference = config["files"]["alignment_reference"],
+        genemap = config["files"]["annotation"]
+    output:
+        mutation_summary = "results/{build_name}/mutation_summary.tsv"
+    log:
+        "logs/mutation_summary_{build_name}.txt"
+    params:
+        outdir = "results/{build_name}/translations",
+        basename = "aligned"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/mutation_summary.py \
+            --alignment {input.alignment} \
+            --insertions {input.insertions} \
+            --directory {params.outdir} \
+            --basename {params.basename} \
+            --reference {input.reference} \
+            --genemap {input.genemap} \
+            --output {output.mutation_summary} 2>&1 | tee {log}
+        """
+
+rule distances:
+    input:
+        tree = rules.refine.output.tree,
+        alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
+        distance_maps = ["defaults/distance_maps/S1.json"]
+    params:
+        genes = 'S',
+        comparisons = ['root'],
+        attribute_names = ['S1_mutations']
+    output:
+        node_data = "results/{build_name}/distances.json"
+    shell:
+        """
+        python scripts/mutation_counts.py \
+            --tree {input.tree} \
+            --alignment {input.alignments} \
+            --gene-names {params.genes} \
+            --compare-to {params.comparisons} \
+            --attribute-name {params.attribute_names} \
+            --map {input.distance_maps} \
+            --output {output}
+        """
 
 rule traits:
     message:
@@ -1314,7 +1250,7 @@ rule add_branch_labels:
         python3 ./scripts/add_branch_labels.py \
             --input {input.auspice_json} \
             --emerging-clades {input.emerging_clades} \
-            --output {output.auspice_json} 
+            --output {output.auspice_json}
         """
 
 rule incorporate_travel_history:

@@ -36,6 +36,9 @@ files:
   clades: "defaults/clades.tsv"
   emerging_lineages: "defaults/emerging_lineages.tsv"
 
+# Define genes to translate during alignment by nextalign.
+genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
+
 # Filter settings
 filter:
   # Require nearly full-length genomes.
