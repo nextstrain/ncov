@@ -103,10 +103,10 @@ def read_geography_file(file_name, hierarchical = False):
     if not hierarchical:
         if lat_longs:
             # dictionary containing all locations, divisions ety. as dict, linking name to coordinates
-            data = {"location": {}, "division": {}, "country": {}, "region": {}, "recency": {}}
+            data = {"location": {}, "division": {}, "country": {}, "region": {}}
         else:
             # dictionary containing all locations, divisions etc. as lists
-            data = {"location": [], "division": [], "country": [], "region": [], "recency": []}
+            data = {"location": [], "division": [], "country": [], "region": [], "recency": [], "emerging_lineage": []}
 
         for line in data_file:
             if line == "\n":
@@ -1231,8 +1231,10 @@ def write_ordering(data, hierarchy):
         mode = "w"
 
     with open(path_to_output_files+"color_ordering.tsv", mode) as out:
-        if hierarchy == "recency":
-            out.write("recency\tOlder\nrecency\tOne month ago\nrecency\tOne week ago\nrecency\t3-7 days ago\nrecency\t1-2 days ago\nrecency\tNew\n")
+        if hierarchy == "recency" or hierarchy == "emerging_lineage":
+            for l in data[hierarchy]:
+                out.write(hierarchy + "\t" + l + "\n")
+            out.write("\n################\n\n\n")
             return
 
         # Give fixed order of regions to retain the usual coloring order
@@ -1408,8 +1410,9 @@ if __name__ == '__main__':
     write_ordering(data, "location")
     write_ordering(data, "division")
     write_ordering(data, "country")
-    write_ordering(data, "recency")
     write_ordering(data, "region")
+    write_ordering(ordering, "recency")
+    write_ordering(ordering, "emerging_lineage")
 
 
     ##### Bonus step: Print out all collected annotations - if considered correct, they can be copied by the user to annotations.tsv
