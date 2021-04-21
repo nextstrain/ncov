@@ -347,7 +347,7 @@ rule index_sequences:
         """
         augur index \
             --sequences {input.sequences} \
-            --output {output.sequence_index}
+            --output {output.sequence_index} 2>&1 | tee {log}
         """
 
 rule subsample:
