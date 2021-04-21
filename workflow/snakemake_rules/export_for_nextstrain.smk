@@ -85,9 +85,6 @@ rule export_all_regions:
         """
 
 
-rule all_mutation_frequencies:
-    input: expand("results/{build_name}/nucleotide_mutation_frequencies.json", build_name=BUILD_NAMES)
-
 rule mutation_summary:
     message: "Summarizing {input.alignment}"
     input:
