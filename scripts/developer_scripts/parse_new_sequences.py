@@ -442,13 +442,13 @@ def collect_labs(data, table_file_name):
             print(s)
 
     print("----------------------------------------------\n")
-    print("Originating labs (only printed if different from submitting lab):\n")
+    print("Originating labs (only printed if found in excel sheet):\n")
     for region in originating_labs:
         for country in originating_labs[region]:
             s = country + ":\n"
             for lab in originating_labs[region][country]:
-                s += lab
                 if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
+                    s += lab
                     s += ": "
                     k = lab_dictionary[country][lab.lower()]
                     if country == "United Kingdom":
@@ -457,17 +457,19 @@ def collect_labs(data, table_file_name):
                     for l in lab_dictionary[country][lab.lower()].split(", "):
                         if l not in lab_collection[region][country]:
                             lab_collection[region][country].append(l)
-                s += "\n"
-            print(s)
+                    s += "\n"
+            if s != country + ":\n":
+                print(s)
+
 
     print("----------------------------------------------\n")
-    print("Authors:\n")
+    print("Authors (only printed if found in excel sheet):\n")
     for region in authors:
         for country in authors[region]:
             s = country + ":\n"
             for author in authors[region][country]:
-                s += author
                 if country in lab_dictionary and author.lower() in lab_dictionary[country]:
+                    s += author
                     s += ": "
                     k = lab_dictionary[country][author.lower()]
                     if country == "United Kingdom":
@@ -476,8 +478,9 @@ def collect_labs(data, table_file_name):
                     for a in lab_dictionary[country][author.lower()].split(", "):
                         if a not in lab_collection[region][country]:
                             lab_collection[region][country].append(a)
-                s += "\n"
-            print(s)
+                    s += "\n"
+            if s != country + ":\n":
+                print(s)
 
 
     if "Europe" in lab_collection:
