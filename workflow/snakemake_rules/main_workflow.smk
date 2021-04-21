@@ -2,13 +2,13 @@ rule sanitize_metadata:
     input:
         metadata=lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
     output:
-        metadata="results/sanitized_metadata{origin}.tsv"
+        metadata="results/sanitized_metadata_{origin}.tsv"
     benchmark:
-        "benchmarks/sanitize_metadata{origin}.txt"
+        "benchmarks/sanitize_metadata_{origin}.txt"
     conda:
         config["conda_environment"]
     log:
-        "logs/sanitize_metadata{origin}.txt"
+        "logs/sanitize_metadata_{origin}.txt"
     params:
         strain_prefixes=config["strip_strain_prefixes"],
     shell:
@@ -27,7 +27,7 @@ rule combine_input_metadata:
         Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
     input:
-        metadata=expand("results/sanitized_metadata{origin}.tsv", origin=[f"_{origin}" if origin else "" for origin in config.get("inputs", "")]),
+        metadata=expand("results/sanitized_metadata_{origin}.tsv", origin=config.get("inputs")),
     output:
         metadata = "results/combined_metadata.tsv"
     params:
@@ -53,18 +53,18 @@ rule align:
         genemap = config["files"]["annotation"],
         reference = config["files"]["alignment_reference"]
     output:
-        alignment = "results/aligned{origin}.fasta",
-        insertions = "results/insertions{origin}.tsv",
-        translations = expand("results/translations/seqs{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+        alignment = "results/aligned_{origin}.fasta",
+        insertions = "results/insertions_{origin}.tsv",
+        translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
     params:
         outdir = "results/translations",
         genes = ','.join(config.get('genes', ['S'])),
-        basename = "seqs{origin}",
+        basename = "seqs_{origin}",
         strain_prefixes=config["strip_strain_prefixes"],
     log:
-        "logs/align{origin}.txt"
+        "logs/align_{origin}.txt"
     benchmark:
-        "benchmarks/align{origin}.txt"
+        "benchmarks/align_{origin}.txt"
     conda: config["conda_environment"]
     threads: 8
     resources:
@@ -91,19 +91,19 @@ rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
         alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = "results/sanitized_metadata{origin}.tsv",
+        metadata = "results/sanitized_metadata_{origin}.tsv",
         reference = config["files"]["reference"]
     output:
-        diagnostics = "results/sequence-diagnostics{origin}.tsv",
-        flagged = "results/flagged-sequences{origin}.tsv",
-        to_exclude = "results/to-exclude{origin}.txt"
+        diagnostics = "results/sequence-diagnostics_{origin}.tsv",
+        flagged = "results/flagged-sequences_{origin}.tsv",
+        to_exclude = "results/to-exclude_{origin}.txt"
     log:
-        "logs/diagnostics{origin}.txt"
+        "logs/diagnostics_{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"]
     benchmark:
-        "benchmarks/diagnostics{origin}.txt"
+        "benchmarks/diagnostics_{origin}.txt"
     resources:
         # Memory use scales primarily with the size of the metadata file.
         mem_mb=lambda wildcards, input: 15 * int(input.metadata.size / 1024 / 1024)
@@ -126,7 +126,7 @@ def _collect_exclusion_files(wildcards):
     # As well as the sequences flagged by the diagnostic step.
     # Note that we can skip the diagnostic step on a per-input (per-origin) basis.
     exclude_files = [ config["files"]["exclude"] ]
-    if not config["filter"].get(_trim_origin(wildcards["origin"]), {}).get("skip_diagnostics", False):
+    if not config["filter"].get(wildcards["origin"], {}).get("skip_diagnostics", False):
         exclude_files.append(_get_path_for_input("to-exclude", wildcards.origin))
     return exclude_files
 
@@ -141,11 +141,11 @@ rule mask:
     input:
         alignment = lambda w: _get_path_for_input("aligned", w.origin)
     output:
-        alignment = "results/masked{origin}.fasta"
+        alignment = "results/masked_{origin}.fasta"
     log:
-        "logs/mask{origin}.txt"
+        "logs/mask_{origin}.txt"
     benchmark:
-        "benchmarks/mask{origin}.txt"
+        "benchmarks/mask_{origin}.txt"
     params:
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"],
@@ -172,16 +172,16 @@ rule filter:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
-        metadata = "results/sanitized_metadata{origin}.tsv",
+        metadata = "results/sanitized_metadata_{origin}.tsv",
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = _collect_exclusion_files,
     output:
-        sequences = "results/filtered{origin}.fasta"
+        sequences = "results/filtered_{origin}.fasta"
     log:
-        "logs/filtered{origin}.txt"
+        "logs/filtered_{origin}.txt"
     benchmark:
-        "benchmarks/filter{origin}.txt"
+        "benchmarks/filter_{origin}.txt"
     params:
         min_length = lambda wildcards: _get_filter_value(wildcards, "min_length"),
         exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
@@ -315,7 +315,7 @@ rule combine_sequences_for_subsampling:
         Combine and deduplicate aligned & filtered FASTAs from multiple origins in preparation for subsampling.
         """
     input:
-        lambda w: [_get_path_for_input("filtered", f"_{origin}") for origin in config.get("inputs", {})]
+        lambda w: [_get_path_for_input("filtered", origin) for origin in config.get("inputs", {})]
     output:
         "results/combined_sequences_for_subsampling.fasta"
     benchmark:

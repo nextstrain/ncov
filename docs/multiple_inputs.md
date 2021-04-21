@@ -51,15 +51,17 @@ my_profiles/example_multiple_inputs/my_auspice_config.json
 
 ## Setting up the config
 
-Typically, inside the `builds.yaml` one would specify input files such as
+You can define a single input dataset in `builds.yaml` as follows.
 
 ```yaml
-# traditional syntax for specifying starting files
-sequences: "data/sequences.fasta"
-metadata: "data/metadata.tsv"
+inputs:
+  - name: my-data
+    metadata: "data/metadata.tsv"
+    sequences: "data/sequences.fasta"
 ```
 
-For multiple inputs, we shall use the new `inputs` section of the config to specify that we have two different inputs, and we will give them the names "aus" and "worldwide":
+For multiple inputs, you can add another entry to the `inputs` config list.
+Here, we will give them the names "aus" and "worldwide":
 
 ```yaml
 # my_profiles/example_multiple_inputs/builds.yaml
@@ -72,15 +74,11 @@ inputs:
     sequences: "data/example_sequences_worldwide.fasta"
 ```
 
-> Note that if you also specify `sequences` or `metadata` as top level entries in the config, they will be ignored.
-
 ### Snakemake terminology
 
 Inside the Snakemake rules, we use a wildcard `origin` to define different starting points.
-For instance, if we ask for the file `results/aligned_worldwide.fasta` then `wildcards.origin="_worldwide"` and we expect that the config has defined
-a sequences input via `config["sequences"]["worldwide"]=<path to fasta>` (note the leading `_` has been stripped from the `origin` in the config).
-If we use the older syntax (specifying `sequences` or `metadata` as top level entries in the config) then `wildcards.origin=""`.
-
+For instance, if we ask for the file `results/aligned_worldwide.fasta` then `wildcards.origin="worldwide"` and we expect that the config has defined
+a sequences input as shown above.
 
 ## How is metadata combined?
 
