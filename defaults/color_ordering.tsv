@@ -527,6 +527,7 @@ location	Brahmanbaria
 
 # Barishal
 location	Pirojpur
+location	Barisal
 location	Bhola
 
 # Khulna
@@ -546,6 +547,7 @@ location	Keraniganj
 location	Kodomtoly
 location	Jatrabari
 location	Azimpur
+location	Panthapath
 location	Tejgaon
 location	Mohammadpur
 location	Agargaon
@@ -556,7 +558,9 @@ location	Dhaka
 location	Mirpur
 location	Manikganj
 location	Uttara
+location	Narsingdi
 location	Dhamrai
+location	Gazipur
 location	Tangail
 location	Kishoreganj
 
@@ -580,6 +584,7 @@ location	Sunamganj
 
 # Rangpur
 location	Nilphamari
+location	Panchagarh
 
 ### Malaysia
 # Negeri Sembilan
@@ -1854,6 +1859,7 @@ location	Les Borges Blanques
 location	Tremp
 location	Mollerussa
 location	Linyola
+location	Llimiana
 location	Gavet de La Conca
 location	Penelles
 location	La Pobla de Segur
@@ -1909,6 +1915,7 @@ location	Rubi
 location	Sant Boi de Llobregat
 location	Sant Feliu de Llobregat
 location	Sant Joan Despi
+location	Sant Llorenc Savall
 location	Cornella de Llobregat
 location	San Cugat del Valles
 location	Sant Quirze del Valles
@@ -2052,6 +2059,7 @@ location	Salt
 location	Riudellots de la Selva
 location	Caldes de Malavella
 location	Cornella de Terri
+location	Sarria de Ter
 location	Girona
 location	Lloret de Mar
 location	Palol D'Onyar
@@ -2185,6 +2193,7 @@ location	Rennes
 # Pays de la Loire
 location	Saint Nazaire
 location	Saint-Gilles-Croix-de-Vie
+location	Loire Atlantique
 location	Challans
 location	Saint-Même-le-Tenu
 location	Les Sables D'Olonne
@@ -2193,7 +2202,9 @@ location	Nantes
 location	La Roche-sur-Yon
 location	Luçon
 location	Cholet
+location	Fontenay le Comte
 location	Laval
+location	Chateau-Gontier
 location	Mayenne
 location	Val de Loire
 location	Saumur
@@ -4189,6 +4200,9 @@ location	Roding
 # Mecklenburg-Vorpommern
 location	Rostock
 
+# Berlin
+location	Berlin
+
 # Saxony
 location	Hohenwarsleben
 location	Hammerbach
@@ -4811,6 +4825,7 @@ location	Kamieniec Wrocławski
 location	Nadolice Wielkie
 location	Wojnowice
 location	Oława
+location	Olesnica
 location	Sycow
 
 # Wielkopolskie
@@ -4967,6 +4982,7 @@ location	Lebork
 location	Kowale (Pomorskie)
 location	Gozdawa
 location	Kościerzyna
+location	Kartuski
 location	Kartuzy
 location	Jeleńska Huta
 location	Wejherowo
@@ -5016,11 +5032,13 @@ location	Pruszcz
 location	Swiecie
 location	Sepolno Krajenskie
 location	Grudziadz
+location	Tuchola
 
 # Slaskie
 location	Dankowice
 location	Chałupki
 location	Sosnicowice
+location	Rybnik
 location	Kaczyce
 location	Konczyce Wielkie
 location	Cieszyn
@@ -5063,6 +5081,7 @@ location	Pabianice
 location	Adolfow
 location	Kutno
 location	Zgierz
+location	Radomsko
 location	Lodz
 location	Wiaczyn Dolny
 location	Wisniowa Gora
@@ -5252,6 +5271,7 @@ location	Kolbuszowa
 location	Strzyzow
 location	Rzeszow
 location	Brzozow
+location	Sanok
 location	Łańcut
 location	Bachórzec
 location	Lezajsk
@@ -5735,6 +5755,7 @@ location	Velikiye Luki
 location	Borovichi (Pskov)
 
 # Saint-Petersburg
+location	Sestroretsk
 location	Saint-Petersburg
 location	Kolpino
 
@@ -5744,6 +5765,7 @@ location	Lomonosov
 location	Kipen
 location	Gatchina
 location	Sertolovo
+location	Fedorovskoe
 location	Yanino-1
 location	Vsevolozhsk
 location	Tosno
@@ -5774,6 +5796,7 @@ location	Podporozhye
 
 # Tver
 location	Torzhok
+location	Tver
 
 # Murmansk
 location	Kovdor
@@ -5812,6 +5835,7 @@ location	Dmitrov
 location	Korolyov
 location	Pushkino
 location	Lyubertsy
+location	Balashikha
 location	Sergiyev Posad
 location	Bronnitsy
 location	Elektrostal
@@ -5842,6 +5866,7 @@ location	Maykop
 
 # Vladimir Region
 location	Vladimir
+location	Kovrov
 
 # Tambov Region
 location	Tambov
@@ -5879,6 +5904,9 @@ location	Volgograd
 
 # Republic of Mordovia
 location	Saransk
+
+# Penza
+location	Penza
 
 # Ingushetia
 location	Nazran
@@ -5928,33 +5956,37 @@ location	Ufa
 location	Ozyorsk
 
 # Sverdlovsk
-location	Kamensk-Uralsky
-location	Polevskoy
-location	Sysert
-location	Kashino
-location	Sokolova
-location	Dvurechensk
-location	Bobrovsky
-location	Revda
-location	Zarechny
-location	Yekaterinburg
-location	Pervouralsk
-location	Berezovsky
-location	Verkhnyaya Pyshma
-location	Sredneuralsk
-location	Baltym
-location	Asbest
-location	Krasnyi Aduy
-location	Kedrovoye
+location	Krasnoufimsk
 location	Shalya
-location	Verkhny Tagil
-location	Kirovgrad
-location	Nizhny Tagil
-location	Svobodny (Sverdlovsk)
-location	Krasnouralsk
 location	Kachkanar
-location	Serov
+location	Kushva
+location	Revda
+location	Verkhny Tagil
+location	Pervouralsk
+location	Nizhny Tagil
+location	Krasnouralsk
+location	Kirovgrad
+location	Polevskoy
+location	Svobodny (Sverdlovsk)
 location	Ivdel
+location	Sredneuralsk
+location	Kedrovoye
+location	Verkhnyaya Pyshma
+location	Serov
+location	Krasnyi Aduy
+location	Baltym
+location	Yekaterinburg
+location	Sysert
+location	Berezovsky
+location	Kashino
+location	Bobrovsky
+location	Dvurechensk
+location	Zarechny
+location	Asbest
+location	Sokolova
+location	Pokrovskoe
+location	Kamensk-Uralsky
+location	Kamyshlov
 
 # Khanty-Mansi
 location	Khanty-Mansiysk
@@ -6122,7 +6154,6 @@ location	Malvinas Argentinas
 location	La Costa
 
 # Cordoba AR
-location	Jesus Maria
 location	La Falda
 location	Rio Ceballos
 location	Monte Maiz
@@ -6149,6 +6180,7 @@ location	San Francisco AR
 location	Saldan
 location	Unquillo
 location	Colonia Caroya
+location	Jesus Maria AR
 location	Brinkmann
 
 # Santa Fe
@@ -6290,8 +6322,10 @@ location	Porvenir
 location	Puerto Williams
 
 # Aysén
-location	Guaitecas
+location	Aisen
+location	Rio Ibanez
 location	Coyhaique
+location	Guaitecas
 
 # Los Lagos
 location	Quellon
@@ -6304,7 +6338,9 @@ location	Osorno
 # Los Rios CL
 location	Valdivia
 location	La Union CL
+location	Mafil
 location	Paillaco
+location	Lago Ranco
 location	Panguipulli
 
 # Araucanía
@@ -6319,12 +6355,14 @@ location	Perquenco
 location	Angol
 
 # Biobío
+location	Lota
 location	Coronel
 location	Talcahuano
 location	San Pedro de la Paz
 location	Hualpen
 location	Concepcion CL
 location	Chiguayante
+location	Cabrero
 location	Los Angeles
 
 # Ñuble
@@ -6339,6 +6377,7 @@ location	San Carlos CL
 location	Constitucion
 location	Maule
 location	Talca
+location	Linares
 location	San Clemente CL
 location	Molina
 location	Curico
@@ -6348,6 +6387,8 @@ location	Teno
 location	La Estrella
 location	Lolol
 location	Pichidegua
+location	San Vicente
+location	San Fernando CL
 location	Rancagua
 location	San Francisco de Mostazal
 location	Machali
@@ -6382,6 +6423,7 @@ location	San Joaquin
 location	La Granja
 location	Providencia
 location	Ñuñoa
+location	Macul
 location	Puente Alto
 location	Pirque
 location	Vitacura
@@ -6397,6 +6439,7 @@ location	Vina del Mar
 location	Con-Con
 location	Casablanca
 location	Limache
+location	La Ligua
 location	San Felipe CL
 location	Los Andes
 
@@ -6418,9 +6461,12 @@ location	El Salvador
 
 # Antofagasta
 location	Antofagasta
+location	Calama
 
 # Tarapacá
 location	Iquique
+location	Alto Hospicio
+location	Pozo Almonte
 
 # Arica and Parinacota
 location	Arica
@@ -7169,7 +7215,7 @@ location	Callao
 # Lima
 location	Cañete
 location	San Isidro PE
-location	Jesús María
+location	Jesus Maria PE
 location	Lima
 location	Huarochiri
 
@@ -7382,6 +7428,9 @@ location	Tunja
 location	Santa Sofia
 location	Togui
 location	Santana
+
+# Casanare
+location	Yopal
 
 # Choco
 location	Union Panamericana
@@ -8370,6 +8419,7 @@ location	Livingston County IL
 location	Knox County IL
 location	Marshall County IL
 location	Kankakee County
+location	Mercer County
 location	Putnam County IL
 location	Grundy County IL
 location	Henry County IL
@@ -9394,7 +9444,7 @@ division	KwaZulu-Natal
 division	Livingstone
 division	Lusaka
 division	Zambia
-division	Central
+division	Central Zambia
 division	Copperbelt
 
 ### Lesotho
@@ -9428,6 +9478,7 @@ division	Mbabane
 division	Hhohho
 
 ### Uganda
+division	Central Uganda
 division	Uganda
 
 ### Malawi
@@ -10902,12 +10953,7 @@ country	Canada
 
 ################
 
-recency	Older
-recency	One month ago
-recency	One week ago
-recency	3-7 days ago
-recency	1-2 days ago
-recency	New
+
 region	Asia
 region	Oceania
 region	Africa
@@ -10916,6 +10962,17 @@ region	South America
 region	North America
 
 ################
+
+
+recency	Older
+recency	One month ago
+recency	One week ago
+recency	3-7 days ago
+recency	1-2 days ago
+recency	New
+
+################
+
 
 emerging_lineage	A.23.1
 emerging_lineage	B.1.1.7
@@ -10928,3 +10985,5 @@ emerging_lineage	P.1
 emerging_lineage	P.3
 
 ################
+
+

@@ -126,3 +126,4 @@ Espirito Santo	(Espirito Santo)
 Sergipe	(Sergipe)
 Navarra	ES
 Norte de Santander	CO
+O'Higgins	CL
