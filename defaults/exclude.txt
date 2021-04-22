@@ -1984,3 +1984,6 @@ Panama/GMI-PACH3141/2020
 Panama/GMI-PABT2447/2020
 Shandong/2020C1240152/2020
 Slovenia/17-055168-CE/2020
+
+# Divergence, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619022249327500
+Kazakhstan/125374/2020
