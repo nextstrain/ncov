@@ -1987,3 +1987,18 @@ Slovenia/17-055168-CE/2020
 
 # Divergence, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619022249327500
 Kazakhstan/125374/2020
+
+# Divergence, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619131293335500
+Panama/GMI-PA979/2020
+Spain/AN-ISCIII-201273/2020
+BosniaandHerzegovina/AGCOB841/2021
+Brazil/RJ-IC01044_57-20/2020
+Sweden/20-08339/2020
+India/MH-NIV-6285/2020
+Mexico/BCN-ALSR-8431/2020
+SaudiArabia/KAUST-MAKKAH186/2020
+HongKong/HKPU70-1302/2020
+India/MH-NIV-QC-1377/2020
+BosniaandHerzegovina/02-BanjaLuka/2020
+Kazakhstan/6284/2020
+Netherlands/ZH-EMC-1930/2020
