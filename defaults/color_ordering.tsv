@@ -547,15 +547,19 @@ location	Keraniganj
 location	Kodomtoly
 location	Jatrabari
 location	Azimpur
+location	Dhanmondi
 location	Panthapath
 location	Tejgaon
 location	Mohammadpur
+location	Shaymoli
 location	Agargaon
 location	Banani
 location	Gulshan
 location	Cantonment
+location	Baridhara
 location	Dhaka
 location	Mirpur
+location	Nikunja
 location	Manikganj
 location	Uttara
 location	Narsingdi
@@ -1268,6 +1272,7 @@ location	Oroso
 location	Silleda
 location	Villa de Cruces
 location	Lalin
+location	Lugo
 location	El Rosal
 location	Santiago de Compostela
 
@@ -4723,6 +4728,7 @@ location	Krosno Odrzańskie
 location	Lubrza
 location	Slubice
 location	Miedzyrzecz
+location	Sulecin
 location	Osnolubuskie
 location	Gorzyca
 location	Kostrzyn (Lubuskie)
@@ -4887,6 +4893,7 @@ location	Mosina
 location	Kowanowko
 location	Wiry
 location	Puszczykowo
+location	Rawicz
 location	Maniewo
 location	Lubon
 location	Suchy las
@@ -4926,6 +4933,7 @@ location	Gniezno
 location	Welnica
 location	Trzuskołon
 location	Witkowo
+location	Pleszew
 location	Miaty
 location	Kruchowo
 location	Trzemeszno
@@ -5589,6 +5597,7 @@ location	Kraljevo
 location	Krusevac
 
 # Zlatibor District
+location	Bajina Basta
 location	Uzice
 
 # Moravica District
@@ -8378,7 +8387,7 @@ location	Jersey County
 location	Calhoun County IL
 location	Montgomery County IL
 location	Macoupin County
-location	Cumberland County
+location	Cumberland County IL
 location	Clark County IL
 location	Greene County IL
 location	Shelby County IL
@@ -8507,6 +8516,7 @@ location	Lauderdale County
 
 # Tennessee
 location	Shelby County TN
+location	Cumberland County TN
 
 # Indiana
 location	Jefferson County IN
@@ -9522,9 +9532,17 @@ division	Moheli
 division	Ngazidja
 
 ### Madagascar
+division	Atsimo-Andrefana
+division	Haute Matsiatra
+division	Amoron'i Mania
+division	Menabe
+division	Vakinankaratra
+division	Itasy
 division	Analamanga
 division	Toamasina
 division	Analanjirofo
+division	Boeny
+division	Diana
 
 ### Somalia
 division	Somalia
@@ -10015,6 +10033,7 @@ division	Banska Bystrica
 division	Slovakia
 division	Prešov
 division	Kosice
+division	Stropkov Region
 
 ### Montenegro
 division	Montenegro

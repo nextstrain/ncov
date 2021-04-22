@@ -251,6 +251,7 @@ location	Antofagasta	-23.6463741	-70.3980033
 location	Anton	8.473513	-80.1990243839517
 location	Antonan del Valle	42.5248122	-5.9499103
 location	Antonio Ante	0.3316022	-78.219615
+location	Antsiranana	-12.2779134	49.2913394
 location	Anuradhapura	8.334985	80.4106096
 location	Anzegem	50.830817	3.452651
 location	Apache County	35.214632	-109.4786676
@@ -443,6 +444,7 @@ location	Bahla	22.970025	57.2986957
 location	Bailey County	34.0349194	-102.8149372
 location	Baixo Guandu	-19.5138322	-41.0182089
 location	Bajc	47.9235482	18.2081404
+location	Bajina Basta	43.9714028	19.5659497
 location	Bakow	49.9008987	18.7374167
 location	Balaguer	41.7897204	0.8054914
 location	Balakovo	52.01812	47.819141
@@ -489,6 +491,7 @@ location	Barcelona	41.403267	2.151855
 location	Barcenilla	43.3889333	-3.9547549
 location	Bardoli	21.127394	73.105201
 location	Bari	41.1257843	16.8620293
+location	Baridhara	23.8032197	90.4194794
 location	Barisal	22.7046314	90.3711417
 location	Barka	23.7079666	57.89278
 location	Barletta-Andria-Trani	41.180172	16.1466408
@@ -1602,6 +1605,8 @@ location	Cullar Vega	37.1535419	-3.6703193
 location	Cullera	39.1647217	-0.2542313
 location	Cullman County	34.1335332	-86.8779268
 location	Cumberland County	39.2744299	-88.2423795
+location	Cumberland County IL	39.2744299	-88.2423795
+location	Cumberland County TN	35.953805	-84.9748195
 location	Cunco	-38.9328331	-72.0320492
 location	Cunha	-23.07753	-44.9567436
 location	Cuprija	43.9335612	21.3712355
@@ -1721,6 +1726,7 @@ location	Dhaka	23.810651	90.4126466
 location	Dhamrai	23.920162	90.2108702
 location	Dhandhuka	22.3816365	71.9791414
 location	Dhanera	24.5064	72.0258
+location	Dhanmondi	23.73642665	90.37624419477338
 location	Dhansura	23.3498	73.2087
 location	Dharmasraya	-1.0585388500000001	101.64402551163604
 location	Dholka	22.726607	72.4411863
@@ -2068,6 +2074,7 @@ location	Fenix	-23.9169495	-51.9801443
 location	Fenoarivo	-17.382029	49.4099733
 location	Fernandopolis	-20.2825647	-50.2500762
 location	Feuillet	8.8803539	-79.78105412745327
+location	Fianarantsoa	-21.456444	47.085149
 location	Fieberbrunn	47.45518755	12.544424258717815
 location	Figaro	41.7208879	2.2715584
 location	Figaro-Montmany	41.7204695	2.2726891
@@ -3789,6 +3796,7 @@ location	Luçon	46.45427517728182	-1.1647203563479258
 location	Ludomki	52.7486111	16.8205556
 location	Lufingen	47.48915935	8.592920004231086
 location	Lugano	46.0050102	8.9520281
+location	Lugo	43.0462247	-7.4739921
 location	Lugones	43.404341	-5.8120701
 location	Luingne	50.737783	3.234058
 location	Luján	-34.5661734	-59.1152598
@@ -3866,6 +3874,7 @@ location	Magden	47.5283737	7.8116008
 location	Mage	-22.6604221	-43.0426162
 location	Maggiolo	-33.7237065	-62.2465621
 location	Magura	23.488333	89.42
+location	Mahajanga	-15.7181492	46.3172577
 location	Mahboobnagar	17.7203392	79.6280587
 location	Mahbubnagar	16.7434538	77.9923191
 location	Mahemdavad	22.8256	72.7571
@@ -4532,6 +4541,7 @@ location	Nieuwrode	50.9494124	4.8329514
 location	Niewierz	52.44993	16.34573
 location	Nijlen	51.1611887	4.670951731704948
 location	Nijmegen	51.842574850000005	5.838960628748229
+location	Nikunja	23.8242795	90.4191806
 location	Nilópolis	-22.8080114	-43.4138222
 location	Nilphamari	25.9339275	88.8534588
 location	Nîmes	43.8374249	4.3600687
@@ -5077,6 +5087,7 @@ location	Platja D'Aro	41.81709575	3.0696425219210752
 location	Plavecký Štvrtok	48.3746452	16.9990157
 location	Plerin	48.5348817	-2.7695752
 location	Plessis Trevise	48.8091528	2.5732616
+location	Pleszew	51.8960985	17.7865673
 location	Plewiska	52.3665196	16.809783
 location	Plock	52.520284	19.690317
 location	Ploegsteert	50.725900	2.880261
@@ -5398,6 +5409,7 @@ location	Ratnapura	6.6803691	80.4022975
 location	Raubling	47.7892574	12.1100042
 location	Ravalli County	46.0757223	-114.1139453
 location	Ravels	51.416526	5.022319
+location	Rawicz	51.6101629	16.8583657
 location	Reagan County TX	31.3458428	-101.5295291
 location	Rebecq	50.670468	4.133291
 location	Reboleira	38.7523013	-9.2240282
@@ -6181,6 +6193,7 @@ location	Shape	50.771320	3.943706
 location	Shariatpur	23.2132841	90.3481247
 location	Shasta County	40.7965121	-121.9979194
 location	Shawano County	44.7817214	-88.7118868
+location	Shaymoli	23.7763809	90.3638875
 location	Sheboygan County	43.7128967	-87.9370433
 location	Shelby County	33.2503347	-86.6639746
 location	Shelby County AL	33.2503347	-86.6639746
@@ -6492,6 +6505,7 @@ location	Suesca	5.103373	-73.799748
 location	Suffolk County	40.9849	-72.6151
 location	Suhr	47.373166	8.079534
 location	Sukow	50.8141172	20.6875924
+location	Sulecin	52.4413768	15.1161501
 location	Sulejovice	50.4987867	14.0374081
 location	Sulejowek	52.244349	21.278243596186364
 location	Sulina	-25.7001327	-52.7207833
@@ -6740,6 +6754,7 @@ location	Tokyo	35.683441	139.766131
 location	Toledo	-24.7222438	-53.7402476
 location	Tolemaida	4.2511484	-74.6449836
 location	Tolhuin	-54.5113492	-67.1954004
+location	Toliara	-23.354173	43.66966
 location	Tolland County	41.818446	-72.3562252
 location	Tolosa	43.1386336	-2.0719964
 location	Tom Green County	31.3782559	-100.4133839
@@ -7641,6 +7656,7 @@ division	Amapa	1.582936	-51.809488
 division	Amazonas BR	-4.479925	-63.5185396
 division	Amazonas PE	-5.070085	-78.145666
 division	Amman	31.9539	35.9106
+division	Amoron'i Mania	-20.4591292	46.72639219499414
 division	Amur Region	52.9596609	141.21179224371429
 division	Analamanga	-18.6000004	47.51310021616148
 division	Analanjirofo	-16.5075	49.5280
@@ -7688,6 +7704,7 @@ division	Atacama	-27.5571783	-70.0156882
 division	Ath	50.646122	3.770363
 division	Athens	37.987832	23.726319
 division	Atlantico	10.681025	-74.955752
+division	Atsimo-Andrefana	-23.0907053	44.40133257710572
 division	Attica	37.9946543	23.79940251269328
 division	Atyrau Region	47.6605827	50.806203
 division	Auckland	-36.837842	174.800853
@@ -7780,6 +7797,7 @@ division	Blekinge	56.12401225	15.40220875187768
 division	Blida	36.48329	2.808751
 division	Bobrov	49.4291733	19.5421527
 division	Bocas del Toro	9.3040914	-82.12843877974339
+division	Boeny	-16.23492785	46.12926718059281
 division	Bogota	4.629337	-74.095588
 division	Bolivar	8.753508	-74.367735
 division	Bolivar EC	-1.574489	-79.103194
@@ -7993,6 +8011,7 @@ division	Departamento de Amazonas	-1.420517	-71.257925
 division	Dhahirah	22.65052325	56.0616295382364
 division	Dhaka	23.789370	90.415192
 division	Diamond Princess	35.046935	139.419325
+division	Diana	-12.2735552	49.2845719
 division	Diksmuide	51.050218	2.859454
 division	Dinant	50.239336	4.939426
 division	Diourbel	14.7043898	-16.0511737
@@ -8170,6 +8189,7 @@ division	Haryana	29.0588	76.0856
 division	Haskovo	41.7637519	25.925984569140283
 division	Hasselt	50.925347	5.311394
 division	Haut-Katanga	-10.457682	27.690512
+division	Haute Matsiatra	-21.44975755	47.08703075
 division	Hauts-Bassins	11.389027500000001	-4.041364986476256
 division	Hauts de France	49.934396	2.783002
 division	Hawaii	19.8968	-155.5828
@@ -8252,6 +8272,7 @@ division	Istanbul	41.0082	28.9784
 division	Istria	45.189488	13.889205
 division	Italian cruise ship	41.831176	11.491061
 division	Italy	43.382775	12.183629
+division	Itasy	-19.0535322	46.99220107204388
 division	Ivanka Pri Dunaji	48.1885931	17.2578039
 division	Ivano-Frankivsk	48.9225224	24.7103188
 division	Ivanovo	57.04529735	41.37804415061976
@@ -8574,6 +8595,7 @@ division	Medvedzie	49.3417948	19.53357086713877
 division	Melbourne	-37.8136	144.9631
 division	Melilla	35.291746	-2.938261
 division	Melnik	50.364202	14.482176
+division	Menabe	-20.03559335	45.10848883290599
 division	Mendoza	-34.787093049999996	-68.43818677312292
 division	Mepel	52.704669	6.196582
 division	Meta	3.275638	-73.120232
@@ -9148,6 +9170,7 @@ division	Steung Treng	13.5313006	105.9729938
 division	Stockholm	59.33267	18.061849
 division	Straseni	47.146331	28.6148909
 division	Stredocesky Region	50.0601579	13.83074794209991
+division	Stropkov Region	49.2020091	21.6521343
 division	Stupava	48.2731324	17.0327458
 division	Styria	47.3593	14.4700
 division	Suceava	47.667761	26.266066
@@ -9311,6 +9334,7 @@ division	Uzhgorod	48.6223732	22.3022569
 division	Uzice	43.852499	19.847479
 division	Vaduz	47.1392862	9.5227962
 division	Västra Götaland	58.203026949999995	12.649730022427754
+division	Vakinankaratra	-19.71130945	46.83554814522457
 division	Valais	46.166982	7.563441
 division	Valcea	45.754095	25.176737
 division	Valle D'Aosta	45.746178	7.353924
