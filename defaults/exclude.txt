@@ -2002,3 +2002,6 @@ India/MH-NIV-QC-1377/2020
 BosniaandHerzegovina/02-BanjaLuka/2020
 Kazakhstan/6284/2020
 Netherlands/ZH-EMC-1930/2020
+
+# lab mouse
+mouse/USA/IA-N501Y-MA30/2021
