@@ -1279,17 +1279,23 @@ location	Santiago de Compostela
 # Extremadura
 location	Valencia de Alcantara
 location	Zarza la Mayor
+location	Moraleja
 location	Arroyo de la Luz
 location	Garrovillas de Alconetar
 location	Caceres
+location	Hinojal
+location	Casas de Millan
 location	Riolobos
 location	Sierra de Fuentes
 location	Plasencia
 location	Malpartida de Plasencia
+location	Aldeanueva del Camino
 location	Miajadas
 location	Villamesias
 location	Jaraicejo
 location	Campo Lugar
+location	Madronera
+location	Jarandilla de la Vera
 location	Navalmoral de la Mata
 location	Trujillo ES
 location	Villanueva de la Vera
@@ -1340,6 +1346,7 @@ location	Ronda
 location	Aguadulce ES
 location	Teba
 location	Campillos
+location	Torrenueva
 location	Montilla
 location	Benalmadena
 location	Antequera
@@ -1474,17 +1481,22 @@ location	Ojedo
 location	Tudanca
 location	Comillas
 location	Ruiloba
+location	Santibanez
 location	Cabezon de la Sal
 location	Mazcuerras
 location	Matamorosa
+location	Reinosa
 location	Quijas
 location	Cieza
 location	Santillana
 location	Villapresente
+location	Ubiarco
 location	Puente San Miguel
+location	Cartes
 location	Los Corrales de Buelna
 location	Santiago de Cartes
 location	Campuzano
+location	Las Fraguas
 location	Torrelavega
 location	Hinojedo
 location	Tanos
@@ -1540,6 +1552,8 @@ location	Solares
 location	San Roque de Riomiera
 location	Loredo
 location	La Cavada
+location	La Revilla
+location	Hoz de Anero
 location	Anero
 location	Somo
 location	Hazas de Cesto
@@ -1547,6 +1561,7 @@ location	Meruelo
 location	Beranga
 location	Arnuero
 location	Noja
+location	Cerecedas
 location	Ramales de la Victoria
 location	Mortera
 location	Santona
@@ -1580,11 +1595,29 @@ location	Ambite
 location	Estremera
 
 # Castilla la Mancha
+location	Almaden
 location	Horcajo de los Montes
+location	Piedrabuena
+location	Hinojosas Calatrava
+location	Puertollano
+location	Corral de Calatrava
+location	Fernan Caballero
+location	Miguelturra
 location	Ciudad Real
+location	Malagon
+location	Pozuelo de Calatrava
+location	Fuente el Fresno
+location	Torralba de Calatrava
 location	Ayna
+location	Almagro
+location	Bolanos de Calatrava
+location	Daimiel
+location	Villarrubia de los Ojos
+location	Moral de Calatrava
+location	Almuradiel
 location	Cuenca ES
 location	El Casar
+location	Valdepenas
 location	Villanueva de la Torre
 location	Azuqueca de Henares
 location	Alovera
@@ -1595,10 +1628,12 @@ location	Chiloeches
 location	Humanes
 location	Driebes
 location	Torija
+location	Tomelloso
 location	Almoguera
 location	Pinilla de Jadraque
 location	Jadraque
 location	Pastrana
+location	Villahermosa
 location	Brihuega
 location	Albalate de Zorita
 location	Socuellamos
@@ -1846,22 +1881,30 @@ location	Castellón
 location	La Granja d’Escarp
 location	Seros
 location	Almacelles
+location	Aitona
 location	Soses
 location	Alcarras
 location	Alpicat
 location	Sarroca de Lleida
 location	Alguaire
+location	Torrefarrera
+location	Vilanova de Segria
 location	Lleida
 location	Algerri
+location	Bossòst
 location	Alcoletge
+location	Les
 location	La Clua
+location	Vilanova de la Barca
 location	Els Alamus
 location	Juncosa
+location	Viella Mitg Aran
 location	Balaguer
 location	Vallfogona de Balaguer
 location	Bellvis
 location	Juneda
 location	Les Borges Blanques
+location	Miralcamp
 location	Tremp
 location	Mollerussa
 location	Linyola
@@ -1873,9 +1916,12 @@ location	Bellpuig
 location	La Fuliola
 location	Cambrils
 location	Agramunt
+location	Reus
 location	Puigverd d'Agramunt
 location	Sort
 location	Tarrega
+location	Altet
+location	Ponts
 location	Cervera
 location	Solsona
 location	El Vendrell
@@ -1903,13 +1949,16 @@ location	Sant Esteve Sesrovires
 location	Sant Fruitos de Bages
 location	Navas
 location	Torruella de Baix
+location	Sallent de Llobregat
 location	Olesa de Montserrat
 location	Vacarisses
 location	Navarcles
 location	Gaia
+location	Puigcerda
 location	Vallirana
 location	Viladecavalls
 location	Sant Andreu de la Barca
+location	Llivia
 location	Castelldefels
 location	Castellbisbal
 location	Palleja
@@ -2915,10 +2964,10 @@ location	Tourpes
 location	Blicquy
 
 # Eeklo
-location	Oosteeklo
+location	Middelburg BE
 location	Maldegem
+location	Oosteeklo
 location	Assenede
-location	Middelburg
 
 # Oudenaarde
 location	Wortegem-Petegem
@@ -3646,7 +3695,7 @@ location	Büllingen
 location	St Eustatius
 
 # Zeeland
-location	Middelburg
+location	Middelburg NL
 
 # South Holland
 location	Delft NL
@@ -4157,6 +4206,7 @@ location	Heidelberg
 location	Tuttlingen
 location	Gaufelden
 location	Muehlacker
+location	Tuebingen
 location	Konstanz
 location	Sigmaringen
 location	Ulm
