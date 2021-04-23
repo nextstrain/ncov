@@ -62,11 +62,13 @@ if len(overlapping_schemes) > 0:
     logger.warning("")
     time.sleep(5)
 
-# default build if none specified in config
+# Assign a default build if none are specified in the config. Users can define a
+# `default_build_name` in their builds config without assigning any other build
+# information. Otherwise, we use a generic name for the default build.
 if "builds" not in config:
     config["builds"] = {
-        "global": {
-            "subsampling_scheme": "region_global",
+        config.get("default_build_name", "default-build"): {
+            "subsampling_scheme": "all",
         }
     }
 

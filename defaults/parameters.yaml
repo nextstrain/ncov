@@ -152,6 +152,11 @@ exposure:
 # attribute whose value is the name of an entry in the subsampling configuration
 # below or defined elsewhere in another configuration file.
 subsampling:
+  # Default subsampling logic to select all strains from all inputs (i.e., no subsampling).
+  all:
+    all:
+      no_subsampling: true
+
   # Default subsampling logic for regions
   region:
     # Focal samples for region
