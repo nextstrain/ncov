@@ -30,8 +30,8 @@ Brecht
 	Sint-Lenaarts
 Edegem
 	Edegem
-Essen
-	Essen
+Essen BE
+	Essen BE
 Hemiksem
 	Hemiksem
 Hove

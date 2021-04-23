@@ -79,7 +79,12 @@ def _get_path_for_input(stage, origin_wildcard):
     if stage=="masked":
         return f"results/precomputed-masked{origin_wildcard}.fasta" if remote else f"results/masked{origin_wildcard}.fasta"
     if stage=="filtered":
-        return f"results/precomputed-filtered{origin_wildcard}.fasta" if remote else f"results/filtered{origin_wildcard}.fasta"
+        if remote:
+            return f"results/precomputed-filtered{origin_wildcard}.fasta"
+        elif path_or_url:
+            return path_or_url
+        else:
+            return f"results/filtered{origin_wildcard}.fasta"
 
     raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
 
@@ -151,7 +156,14 @@ def _get_max_date_for_frequencies(wildcards):
     if "frequencies" in config and "max_date" in config["frequencies"]:
         return config["frequencies"]["max_date"]
     else:
-        return numeric_date(date.today())
+        # Allow users to censor the N most recent days to minimize effects of
+        # uneven recent sampling.
+        recent_days_to_censor = config.get("frequencies", {}).get("recent_days_to_censor", 0)
+        offset = datetime.timedelta(days=recent_days_to_censor)
+
+        return numeric_date(
+            date.today() - offset
+        )
 
 def _get_first(config, *keys):
     """

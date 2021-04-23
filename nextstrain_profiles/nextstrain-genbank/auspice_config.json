@@ -4,10 +4,15 @@
   "maintainers": [
     {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
   ],
+  "data_provenance": [
+    {
+      "name": "GENBANK"
+    }
+  ],
   "colorings": [
     {
-      "key": "emerging_lineage",
-      "title": "Emerging Lineage",
+      "key": "subclade_membership",
+      "title": "Emerging Clade",
       "type": "categorical"
     },
     {
@@ -20,6 +25,11 @@
       "title": "GISAID Clade",
       "type": "categorical"
     },
+    {
+      "key": "S1_mutations",
+      "title": "S1 mutations",
+      "type": "continuous"
+    },    
     {
       "key": "location",
       "title": "Location",
@@ -95,18 +105,8 @@
     },
     {
       "key": "region_exposure",
-      "title": "Region of exposure",
+      "title": "Region of Exposure",
       "type": "categorical"
-    },
-    {
-      "key": "logistic_growth",
-      "title": "Logistic growth",
-      "type": "continuous"
-    },
-    {
-      "key": "current_frequency",
-      "title": "Current frequency",
-      "type": "continuous"
     }
   ],
   "geo_resolutions": [
@@ -116,26 +116,27 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "country",
+    "color_by": "clade_membership",
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,
-    "branch_label": "clade"
+    "branch_label": "clade",
+    "transmission_lines": false
   },
   "filters": [
     "recency",
     "clade_membership",
-    "emerging_lineage",
     "region",
     "country",
     "division",
     "location",
     "host",
-    "author"
+    "pango_lineage"
   ],
   "panels": [
     "tree",
     "map",
-    "entropy"
+    "entropy",
+    "frequencies"
   ]
 }

@@ -135,6 +135,7 @@ location	Maale-Edumim
 location	Salfit
 location	Ariel
 location	Elkana
+location	Qalqilia
 location	Tulkarem
 
 # Qalqilya
@@ -153,6 +154,10 @@ location	Tubas
 
 # Jenin
 location	Jenin
+
+### Iraq
+# Al-Muthanna Province
+location	Samawa
 
 ### Saudi Arabia
 # Eastern Province
@@ -184,11 +189,15 @@ location	Buraimi
 # Dhahirah
 location	Ibri
 
+# North Batinah
+location	Sohar
+
 # South Batinah
-location	Ar Rustaq
 location	Al Awabi
+location	Ar Rustaq
 location	Nakhal
 location	Barka
+location	Rustaq
 
 # Dakhiliyah
 location	Bahla
@@ -232,10 +241,12 @@ location	Chikkaballapura
 location	Kolar
 
 # Andhra Pradesh
-location	Kurnool
-location	Kadapa
+location	Tirupati
 location	Nellore
+location	Kadapa
+location	Kurnool
 location	Guntur
+location	Vijayawada
 
 # Telangana
 location	Jogulamba Gadwal
@@ -286,6 +297,7 @@ location	Nagpur
 
 # Odisha
 location	Ganjam
+location	Jharsuguda
 
 # Chhattisgarh
 location	Durg
@@ -296,6 +308,7 @@ location	Janjgir-Champa
 location	Kodinar
 location	Sutrapada
 location	Veraval
+location	Navsari
 location	Talala
 location	Mahuva
 location	Bardoli
@@ -307,33 +320,46 @@ location	Choryasi
 location	Olpad
 location	Junagadh
 location	Mangrol
+location	Rajpara
 location	Ghogha
+location	Vadiya
 location	Bharuch
+location	Narmada
 location	Jetpur
 location	Bhavnagar
+location	Rajpipla
+location	Malsar
 location	Gondal
 location	Kalyanpur
 location	Botad
 location	Khambhaliya
+location	Padra
 location	Bodeli
 location	Rajkot
+location	Waghodia
 location	Vadodara
 location	Dhandhuka
+location	Dashrath
+location	Jarod
 location	Jamnagar
 location	Chuda
 location	Anand
 location	Savli
+location	Sandhasal
 location	Nadiad
 location	Dholka
 location	Kheda
 location	Godhra
+location	Morbi
 location	Mahemdavad
 location	Limkheda
 location	Dahod
+location	Dasa
 location	Savali
 location	Daskroi
 location	Kapadvanj
 location	Ahmedabad
+location	Panchmahal
 location	Dahegam
 location	Diu
 location	Gandhinagar
@@ -353,6 +379,8 @@ location	Radhanpur
 location	Siddhpur
 location	Fatepura
 location	Khedbrahma
+location	Sabarkantha
+location	Banaskantha
 location	Palanpur
 location	Dhanera
 location	Una
@@ -362,6 +390,7 @@ location	Neemach
 location	Mandsaur
 location	Ujjain
 location	Burhanpur
+location	Dungari
 location	Raisen
 
 # Mizoram
@@ -387,6 +416,7 @@ location	Tehatta
 location	Birbhum
 location	Murshidabad
 location	Malda
+location	Dakshin Dinajpur
 location	Uttar Dinajpur
 location	Cooch Behar
 location	Jalpaiguri
@@ -394,6 +424,9 @@ location	Darjeeling
 
 # Jharkhand
 location	East Singhbhum
+
+# Bihar
+location	Munger
 
 # Rajasthan
 location	Bikaner
@@ -459,6 +492,7 @@ location	Ingiriya
 
 # Sabaragamuwa Province
 location	Ratnapura
+location	Kegalle
 
 # Western Province
 location	Avissawella
@@ -491,6 +525,11 @@ location	Chandpur
 location	Comilla
 location	Brahmanbaria
 
+# Barishal
+location	Pirojpur
+location	Barisal
+location	Bhola
+
 # Khulna
 location	Bagerhat
 location	Satkhira
@@ -500,26 +539,38 @@ location	Magura
 location	Jhenaidah
 
 # Dhaka
+location	Madaripur
 location	Shariatpur
 location	Faridpur
 location	Narayanganj
 location	Keraniganj
 location	Kodomtoly
 location	Jatrabari
+location	Azimpur
+location	Dhanmondi
+location	Panthapath
 location	Tejgaon
 location	Mohammadpur
+location	Shaymoli
 location	Agargaon
 location	Banani
 location	Gulshan
+location	Cantonment
+location	Baridhara
 location	Dhaka
 location	Mirpur
+location	Nikunja
 location	Manikganj
 location	Uttara
+location	Narsingdi
 location	Dhamrai
+location	Gazipur
 location	Tangail
+location	Kishoreganj
 
 # Rajshahi
 location	Pabna
+location	Sirajganj
 
 # Mymensingh
 location	Sherpur
@@ -527,10 +578,17 @@ location	Sherpur
 # Sylhet
 location	Habiganj
 location	Moulvibazar
+location	Sadipur
+location	Fenchuganj
+location	Barutkhana
+location	Sylhet
+location	Subid Bazar
+location	Kasdobir
 location	Sunamganj
 
 # Rangpur
 location	Nilphamari
+location	Panchagarh
 
 ### Malaysia
 # Negeri Sembilan
@@ -546,6 +604,7 @@ location	Kashgar
 location	Urumqi
 
 # Yunnan
+location	Ruili
 location	Xishuangbanna
 location	Pu'Er
 location	Kunming
@@ -650,8 +709,39 @@ location	Medan
 location	Simalungun
 location	Mandailing
 
+# West Sumatra
+location	West Pasaman
+location	Pariaman
+location	Mentawai
+location	Agam
+location	Padang Pariaman
+location	Padang
+location	Bukittinggi
+location	Padang Panjang
+location	Lima Puluh Kota
+location	Tanah Datar
+location	Payakumbuh
+location	Solok City
+location	Sawahlunto
+location	Solok Regency
+location	South Pesisir
+location	Sijunjung
+location	South Solok
+location	Dharmasraya
+
+# Bengkulu
+location	Muko Muko
+
+# Jambi
+location	Merangin
+location	Muaro Bungo
+location	Sarolangun
+
 # South Sumatra
 location	Palembang
+
+# Riau Islands
+location	Batam
 
 # Lampung
 location	Pringsewu
@@ -693,6 +783,7 @@ location	Denpasar
 
 # North Kalimantan
 location	Malinau
+location	Tarakan
 
 # East Kalimantan
 location	Samarinda
@@ -893,6 +984,30 @@ location	Bata
 # Wele Nzas
 location	Nsork
 
+### Angola
+# Huila AO
+location	Lubango
+
+# Cuanza Sul
+location	Libolo
+
+# Luanda
+location	Belas
+location	Sumbe
+location	Talatona
+location	Viana AN
+location	Kilamba Kiaxi
+location	Martires
+location	Calemba
+location	Cacuaco
+location	Alvalade
+location	Maianga
+location	Vila Alice
+location	Cazenga
+location	São Paulo AN
+location	Benguela
+location	Povo Grande
+
 ### Botswana
 # Central District BW
 location	Palapye
@@ -903,19 +1018,28 @@ location	Masunga
 ### South Africa
 # Western Cape Province
 location	Cape Agulhas
+location	Hermanus
 location	Mossel Bay
+location	Grabouw
 location	Hessequa
 location	Garden Route
 location	Mitchells Plain
 location	Khayelitsha
 location	Knysna
 location	Swellendam
+location	Kleinvlei
 location	Cape Town Metro
 location	George
+location	Bishop Lavis
 location	Stellenbosch
 location	Cape Town
+location	Elsie's River
+location	Brackenfell
+location	Milnerton
 location	Tygerberg
+location	Kraaifontein
 location	Bitou
+location	Drakenstein
 location	Cape Winelands
 location	Breede Valley
 location	Kannaland
@@ -927,6 +1051,18 @@ location	Klipfontein
 location	Ga-Segonyana
 
 # Northern Cape
+location	Alexander Bay
+location	Port Nolloth
+location	Kuboes
+location	Steinkopf
+location	Okiep
+location	Springbok
+location	Karkams
+location	Kamiesberg
+location	Kamieskroon
+location	Concordia
+location	Garies
+location	Calvinia
 location	Namakwa
 location	Siyathemba
 
@@ -1129,12 +1265,14 @@ location	Valga
 location	Teo
 location	La Estrada
 location	Vedra
+location	Pontevedra
 location	Boqueixón
 location	A Coruna
 location	Oroso
 location	Silleda
 location	Villa de Cruces
 location	Lalin
+location	Lugo
 location	El Rosal
 location	Santiago de Compostela
 
@@ -1170,7 +1308,9 @@ location	Candamo
 location	Ribera de Arriba
 location	Oviedo
 location	Llanera
+location	Lugones
 location	Mieres
+location	Moreda
 location	Norena
 location	Langreo
 location	Gijon
@@ -1196,7 +1336,10 @@ location	Algeciras
 location	San Roque ES
 location	La Linea de la Concepcion
 location	Pajara
+location	Ronda
 location	Aguadulce ES
+location	Teba
+location	Campillos
 location	Montilla
 location	Benalmadena
 location	Antequera
@@ -1206,6 +1349,7 @@ location	Malaga
 location	Rincon de la Victoria
 location	Benajarafe
 location	Loja ES
+location	Axarquia
 location	Velez Malaga
 location	Torre del Mar
 location	Castillo de Locubin
@@ -1242,6 +1386,7 @@ location	Durcal
 location	Alfacar
 location	Iznalloz
 location	Huetor Santillan
+location	Lanjaron
 location	Ubeda
 location	Jodar
 location	Navas de San Juan
@@ -1255,8 +1400,10 @@ location	Benalua
 location	Guadix
 location	Alicun de Ortega
 location	Retamar
+location	Aldeire
 location	La Calahorra
 location	Adra
+location	Pozo Alcon
 location	Zujar
 location	Finana
 location	Castril
@@ -1323,11 +1470,14 @@ location	Burgos
 
 # Cantabria
 location	Cillorigo de Liebana
+location	Ojedo
+location	Tudanca
 location	Comillas
 location	Ruiloba
 location	Cabezon de la Sal
 location	Mazcuerras
 location	Matamorosa
+location	Quijas
 location	Cieza
 location	Santillana
 location	Villapresente
@@ -1336,6 +1486,7 @@ location	Los Corrales de Buelna
 location	Santiago de Cartes
 location	Campuzano
 location	Torrelavega
+location	Hinojedo
 location	Tanos
 location	Barreda
 location	Suances
@@ -1349,7 +1500,9 @@ location	Carandia
 location	Mogro
 location	Valderredible
 location	Puente Viesgo
+location	Vargas
 location	Pielagos
+location	Barcenilla
 location	Renedo
 location	Renedo de Pielago
 location	Oruna
@@ -1360,6 +1513,7 @@ location	Alceda
 location	San Roman
 location	Escobedo
 location	Santa Cruz de Bezana
+location	Soto de la Marina
 location	Camargo
 location	La Penilla
 location	Peñacastillo
@@ -1377,6 +1531,7 @@ location	Penagos
 location	Villacarriedo
 location	Pontejos
 location	Vega de Pas
+location	Gajano
 location	Anaz
 location	Marina de Cudeyo
 location	Orejo
@@ -1387,6 +1542,7 @@ location	Loredo
 location	La Cavada
 location	Anero
 location	Somo
+location	Hazas de Cesto
 location	Meruelo
 location	Beranga
 location	Arnuero
@@ -1394,6 +1550,7 @@ location	Noja
 location	Ramales de la Victoria
 location	Mortera
 location	Santona
+location	Colindres
 location	Laredo
 location	Ampuero
 location	Guriezo
@@ -1426,16 +1583,40 @@ location	Estremera
 location	Horcajo de los Montes
 location	Ayna
 location	Cuenca ES
+location	El Casar
+location	Villanueva de la Torre
+location	Azuqueca de Henares
+location	Alovera
+location	Cabanillas del Campo
+location	Marchamalo
+location	Pozo de Guadalajara
+location	Chiloeches
+location	Humanes
+location	Driebes
+location	Torija
+location	Almoguera
+location	Pinilla de Jadraque
+location	Jadraque
+location	Pastrana
+location	Brihuega
+location	Albalate de Zorita
 location	Socuellamos
 location	Belmonte
+location	Cifuentes
 location	Villarrobledo
+location	Guadalajara
 location	San Clemente ES
 location	Riopar
 location	Lezuza
+location	Luzon
+location	Villanueva de Alcoron
 location	Bogarra
 location	Balazote
+location	Villel de Mesa
+location	Corduente
 location	Villanueva de la Jara
 location	Tazona
+location	Molina de Aragon
 location	Albacete
 location	Madrigueras
 location	Motilleja
@@ -1469,6 +1650,7 @@ location	Tricio
 location	Aleson
 location	Villanueva de Cameros
 location	Torrecilla en Cameros
+location	Sotes
 location	Navarrete
 location	Fuenmayor
 location	Medrano
@@ -1550,9 +1732,9 @@ location	Cizur Menor
 location	Zizur Mayor
 location	Mutilva
 location	Baranain
-location	Pamplona
 location	Sarriguren
 location	Mendillorri
+location	Pamplona ES
 location	Burlada
 location	Huarte
 location	Villava
@@ -1578,91 +1760,93 @@ location	Fraga
 location	Tamarite de Litera
 
 # Comunitat Valenciana
-location	Miramar
 location	Almenara
 location	Chilches
-location	Utiel
-location	Requena
-location	Villena
+location	Torrevieja
+location	Elche
+location	Alicante
+location	Novelda
 location	Monovar
 location	Elda
-location	Novelda
-location	Elche
-location	Torrevieja
-location	Antella
-location	Llombai
-location	La Pobla de Vallbona
-location	Olleria
-location	L’Eliana
-location	Massalaves
-location	Carlet
-location	Segorbe
-location	Alicante
-location	Guadassuar
-location	Alginet
-location	Torrent
-location	Picassent
-location	Alaquas
-location	Carcaixent
-location	Beniganim
-location	Quart de Poblet
-location	Paterna
-location	Algemesi
-location	Alzira
-location	Soneja
-location	Benifaio
-location	Valencia Horta
-location	Almussafes
-location	Albal
-location	Godella
-location	Sollana
-location	Valencia ES
-location	Vinalesa
-location	Bonrepos i Mirambell
-location	Tavernes Blanques
-location	Museros
-location	Almassera
-location	Llutxent
-location	Alboraya
-location	Alboraia
-location	Meliana
-location	Albalat dels Sorells
-location	Gilet
-location	Massamagrell
-location	Albuixech
-location	Sueca
-location	Simat de la Valldigna
-location	El Puig
-location	Favara
-location	Sagunt
-location	Tavernes de la Valldigna
-location	Cullera
-location	Grau de Sagunt
 location	Villajoyosa
-location	El Dosel
+location	Benidorm
+location	Alfas del Pi
+location	Altea
+location	La Nucia
+location	Polop
+location	Villena
+location	Callosa de Sarria
+location	Olleria
+location	Oliva
 location	Palma de Gandia
-location	Canet d'en Berenguer
-location	Xeraco
+location	Piles
+location	Llutxent
+location	Beniganim
+location	Miramar ES
 location	Benirredra
 location	Gandia
-location	Piles
-location	Alfas del Pi
-location	Benidorm
-location	Polop
-location	La Nucia
-location	Callosa de Sarria
-location	Oliva
+location	Xeraco
+location	Simat de la Valldigna
+location	Tavernes de la Valldigna
+location	Antella
+location	Carcaixent
+location	Favara
+location	Massalaves
+location	Alzira
+location	Cullera
+location	Guadassuar
+location	Algemesi
+location	El Dosel
+location	Sueca
+location	Carlet
+location	Alginet
+location	Sollana
+location	Llombai
+location	Benifaio
+location	Almussafes
+location	Picassent
+location	Albal
+location	Torrent
+location	Alaquas
+location	Valencia Horta
+location	Valencia ES
+location	Quart de Poblet
+location	Requena
+location	Alboraya
+location	Alboraia
+location	Paterna
+location	Tavernes Blanques
+location	Almassera
+location	Bonrepos i Mirambell
+location	Godella
+location	Meliana
+location	Vinalesa
+location	Albalat dels Sorells
+location	Albuixech
+location	L’Eliana
+location	Utiel
+location	Massamagrell
+location	Museros
+location	La Pobla de Vallbona
+location	El Puig
+location	Puzol
+location	Grau de Sagunt
+location	Gilet
+location	Sagunt
+location	Canet d'en Berenguer
+location	Soneja
+location	Segorbe
 location	Burriana
-location	Castellón
-location	Altea
 location	Castello de la Plana
 location	Castellon de la Plana
-location	Puzol
+location	Castellón
 
 # Catalunya
 location	La Granja d’Escarp
 location	Seros
 location	Almacelles
+location	Soses
+location	Alcarras
 location	Alpicat
 location	Sarroca de Lleida
 location	Alguaire
@@ -1670,6 +1854,7 @@ location	Lleida
 location	Algerri
 location	Alcoletge
 location	La Clua
+location	Els Alamus
 location	Juncosa
 location	Balaguer
 location	Vallfogona de Balaguer
@@ -1679,11 +1864,15 @@ location	Les Borges Blanques
 location	Tremp
 location	Mollerussa
 location	Linyola
+location	Llimiana
 location	Gavet de La Conca
+location	Penelles
+location	La Pobla de Segur
 location	Bellpuig
 location	La Fuliola
 location	Cambrils
 location	Agramunt
+location	Puigverd d'Agramunt
 location	Sort
 location	Tarrega
 location	Cervera
@@ -1698,6 +1887,7 @@ location	Vilanova i la Geltru
 location	Suria
 location	Callus
 location	Hostalrich
+location	Cerdanya
 location	Sant Joan Vilatorrada
 location	Masquefa
 location	Bellavista
@@ -1725,12 +1915,15 @@ location	Gava
 location	Terrassa
 location	Viladecans
 location	Santa Coloma de Cervello
+location	Prats de Lluçanès
 location	Rubi
 location	Sant Boi de Llobregat
 location	Sant Feliu de Llobregat
 location	Sant Joan Despi
+location	Sant Llorenc Savall
 location	Cornella de Llobregat
 location	San Cugat del Valles
+location	Sant Quirze del Valles
 location	Esplugues de Llobregat
 location	El Prat de Llobregat
 location	Moia
@@ -1752,10 +1945,12 @@ location	Santa Perpetua de Mogoda
 location	Moncada y Reixach
 location	La Llagosta
 location	Ripoll
+location	Gallecs
 location	Santa Coloma de Gramenet
 location	Bigues I Riells
 location	Oris
 location	Mollet del Valles
+location	Sant Quirze de Besora
 location	Centelles
 location	Sant Adria del Besos
 location	Tona
@@ -1763,6 +1958,7 @@ location	Santa Eulàlia de Ronçana
 location	Parets del Valles
 location	Les Masies de Voltrega
 location	Martorelles
+location	Sant Hipolit de Voltrega
 location	Sant Fost de Campsentelles
 location	Llica D'Amunt
 location	Llissa de Munt
@@ -1776,10 +1972,12 @@ location	L'Ametlla del Valles
 location	Torelló
 location	Montornes del Valles
 location	Tiana
+location	Figaro
 location	Figaro-Montmany
 location	Can Tries
 location	Montgat
 location	Canovelles
+location	Seva
 location	Manlleu
 location	Sant Joan de les Abadesses
 location	Taradell
@@ -1787,13 +1985,17 @@ location	Vilanova del Vallés
 location	La Garriga
 location	Granollers
 location	Alella
+location	Sant Pere de Torello
 location	Corro d'Avall
 location	Llerona
 location	Vallromanes
+location	Roda de Ter
 location	El Masnou
 location	Teia
+location	Sant Julia de Vilatorta
 location	La Roca del Valles
 location	Canoves i Samalus
+location	Llanars
 location	Premia de Dalt
 location	Orrius
 location	Cardedeu
@@ -1801,6 +2003,7 @@ location	Vilassar de Dalt
 location	Premia de Mar
 location	Camprodon
 location	Cabrils
+location	Santa Maria de Corcó
 location	Sant Pere de Vilamajor
 location	Vilassar de Mar
 location	Cabrera de Mar
@@ -1820,6 +2023,7 @@ location	El Maresme
 location	Vallgorguina
 location	Sant Vicenç de Montalt
 location	Sant Hilari Sacalm
+location	Sant Joan Les Fonts
 location	Arbúcies
 location	Caldes d'Estrac
 location	Montagut I Oix
@@ -1830,6 +2034,7 @@ location	Breda
 location	Santa Pau
 location	Canet de Mar
 location	Sant Jaume de Llierca
+location	La Cellera de Ter
 location	San Pol de Mar
 location	Tortellà
 location	Angles
@@ -1839,37 +2044,52 @@ location	Santa Coloma de Farners
 location	Fogars de la Selva
 location	Pineda de Mar
 location	Besalu
+location	Santa Susanna
 location	Riudarenes
 location	Tordera
 location	Albanya
+location	Porqueres
 location	Macanet de la Selva
 location	Bescano
 location	Malgrat de Mar
 location	Sils
+location	Sant Gregori
 location	Banyoles
 location	Camos
+location	Vilablareix
 location	Vidreres
 location	Fontcoberta
+location	Blanes
 location	Salt
 location	Riudellots de la Selva
 location	Caldes de Malavella
 location	Cornella de Terri
+location	Sarria de Ter
 location	Girona
 location	Lloret de Mar
+location	Palol D'Onyar
+location	Sant Julia de Ramis
+location	La Jonquera
 location	Cassa de la Selva
+location	Sant Esteve de Guialbes
 location	Llagostera
 location	Bordils
 location	Vilafant
 location	Castillo de Ferran
 location	Figueres
+location	Vilamalla
 location	Pubol
+location	Vilatenim
 location	Sant Feliu de Guixols
 location	S'Agaro
+location	Platja D'Aro
+location	Castello D'Empuries
 location	La Bisbal de l'Emporda
 location	Palamos
 location	Llanca
 location	Palafrugell
 location	Regencos
+location	Roses
 location	La Selva de Mar
 location	El Port de la Selva
 
@@ -1925,18 +2145,32 @@ location	Fort-de-France
 location	Schoelcher
 
 # French Guiana
+location	Grand Santi
+location	Apatou
+location	Papaichton
+location	St Laurent Du Maroni
+location	Javouhey
+location	Sinnamary
+location	Kourou
+location	Macouria
 location	Cayenne GF
+location	Remire-Montjoly
+location	Regina
 
 # Bretagne
 location	Ploudalmezeau
+location	Plouzane
 location	Lannilis
 location	Brest
+location	Lesneven
 location	Quimper
 location	Chateaulin
 location	Morlaix
+location	Quimperle
 location	Lannion
 location	Lorient
 location	Hennebont
+location	Guingamp
 location	Saint Pierre Quiberon
 location	Paimpol
 location	Pontivy
@@ -1949,6 +2183,7 @@ location	Saint-Brieuc
 location	Vannes
 location	Sene
 location	Cayenne BRE
+location	Redon
 location	Dinan
 location	Saint Malo
 location	Tinteniac
@@ -1963,6 +2198,7 @@ location	Rennes
 # Pays de la Loire
 location	Saint Nazaire
 location	Saint-Gilles-Croix-de-Vie
+location	Loire Atlantique
 location	Challans
 location	Saint-Même-le-Tenu
 location	Les Sables D'Olonne
@@ -1971,7 +2207,10 @@ location	Nantes
 location	La Roche-sur-Yon
 location	Luçon
 location	Cholet
+location	Fontenay le Comte
 location	Laval
+location	Chateau-Gontier
+location	Mayenne
 location	Val de Loire
 location	Saumur
 location	Le Mans
@@ -2017,6 +2256,8 @@ location	Langon
 location	Casteljaloux
 location	Angouleme
 location	Poitiers
+location	Bergerac
+location	Saint-Astier
 location	Agen
 location	Notre-Dame-de-Sanilhac
 location	Perigueux
@@ -2036,6 +2277,7 @@ location	Blois
 location	Dreux
 location	Cellettes
 location	Abondant
+location	Chartres
 location	Romorantin
 location	Orléans
 location	Mehun sur Yevre
@@ -2061,6 +2303,7 @@ location	Pontoise
 location	Saint Ouen l'Aumone
 location	Le Pecq
 location	Le Chesnay
+location	Etampes
 location	Orsay
 location	Garches
 location	Hauts-de-Seine
@@ -2082,6 +2325,7 @@ location	Levallois-Perret
 location	Vanves
 location	Gennevilliers
 location	Longjumeau
+location	Saint-Ouen-sur-Seine
 location	Paris
 location	Groslay
 location	Saint-Denis
@@ -2124,6 +2368,7 @@ location	Laon
 location	Saint Quentin
 location	Amiens
 location	Cambrai
+location	Arras
 location	Thiant
 location	Valenciennes
 location	Somain
@@ -2154,6 +2399,7 @@ location	Gravelines
 location	Dunkerque
 
 # Occitanie
+location	Tarbes
 location	Saint-Gaudens
 location	Muret
 location	Montauban
@@ -2164,6 +2410,7 @@ location	Castelnaudary
 location	Albi
 location	Carcassonne
 location	Rodez
+location	Saint-Affrique
 location	Perpignan
 location	Narbonne
 location	Millau
@@ -2176,75 +2423,127 @@ location	Uzès
 location	Saint-Gilles FR
 
 # Auvergne-Rhône-Alpes
+location	St Mamet la Salvetat
 location	Ytrac
 location	Aurillac
+location	Arpajon sur Cere
 location	Lafeuillade en Vezie
+location	Huriel
+location	Giou de Mamou
+location	Domerat
 location	Premilhat
+location	Messeix
+location	Champs sur Tarentaine
 location	Vallon en Sully
 location	Montlucon
+location	Tauves
 location	Riom Es Montagnes
+location	Thiezac
+location	Pontaumur
+location	Brommat
+location	Miremont
 location	Laqueuille
+location	Montboudif
 location	Murat le Quaire
 location	La Bourboule
 location	Condat
 location	La Goutelle
+location	St Priest des Champs
+location	Deneuille Les Mines
+location	Les Ancizes Comps
+location	Rochefort Montagne
 location	Montaigut
 location	Le Mont Dore
 location	Paulhenc
+location	St Georges de Mons
 location	Villefranche-d'Allier
 location	Chapdes Beaufort
+location	Olby
 location	Espinchal
 location	St Ours Les Roches
+location	Chambon sur Lac
+location	Paulhac
+location	Menat
+location	Manzat
+location	Murol
 location	Aydat
-location	Charbonniere Les Vieilles
+location	Charbonnieres Les Vieilles
 location	Charbonnieres Les Varenne
+location	Loubeyrat
 location	Volvic
 location	St Hilaire la Croix
+location	Royat
+location	Enval
+location	Sayat
+location	Durtol
+location	Malauzat
 location	Nohanent
 location	Chatel Guyon
 location	Chamalieres
 location	Ceyrat
+location	Blanzat
 location	Clermont-Ferrand
 location	Marsat
+location	Chateaugay
 location	Beaumont
 location	Combronde
 location	Yssac la Tourette
+location	Mozac
+location	Romagnat
 location	Cebazat
 location	Saint Sandoux
 location	Davayat
 location	St Amant Tallende
+location	Beauregard Vendon
 location	Riom
 location	Saint Bonnet Pres Riom
 location	Aubiere
+location	Menetrol
 location	La Roche Blanche
+location	Champeix
 location	Gerzat
 location	Apchat
 location	Chambaron sur Morge
 location	La Moutade
 location	Veyre Monton
 location	Aulnat
+location	Aumont Aubrac
 location	Saint Beauzire
 location	Les Martres de Veyre
+location	Clerlande
 location	Lempdes
 location	Cournon D Auvergne
 location	Cournon
 location	Gannat
+location	Aigueperse
 location	Les Martres sur Morge
+location	Ennezat
+location	Mirefleurs
 location	Dallet
+location	Vic le Comte
 location	Pont Du Chateau
 location	Issoire
+location	St Bonnet Les Alliers
 location	Coulandon
+location	Les Martres D'Artiere
 location	Le Breuil sur Couze
 location	Escurolles
+location	Bayet
+location	Lempdes sur Allagnon
 location	Chauriat
 location	Vertaizon
+location	St Laure
 location	Saint Julien de Coppel
+location	Saint Andre le Coq
 location	Maringues
+location	Brassac Les Mines
 location	Moulins
 location	St Denis Combarnazat
 location	Billom
+location	Yzeure
 location	Randan
 location	Montmorin
+location	Fontans
 location	Lezoux
 location	Isserteaux
 location	Luzillat
@@ -2261,14 +2560,21 @@ location	Paslieres
 location	Thiers
 location	Molles
 location	La Monnerie le Montel
+location	Augerolles
+location	Le Mayet de Montagne
 location	Le Puy-en-Velay
+location	Brives Charensac
+location	Riorges
 location	Roanne
+location	Yssingeaux
 location	Mazet-Saint-Voy
 location	Saint-Just-Saint-Rambert
 location	Andrézieux-Bouthéon
+location	Firminy
 location	Saint-Etienne
 location	Aubenas
 location	Tarare
+location	Saint Prix
 location	Privas
 location	Pollionnay
 location	Annonay
@@ -2279,6 +2585,7 @@ location	Saint-Genis-Les-Ollieres
 location	Villefranche-sur-Saône
 location	Chaponost
 location	Montelimar
+location	Dardilly
 location	Givors
 location	Roussillon
 location	Pierre-Bénite
@@ -2293,6 +2600,7 @@ location	Decines-Charpieu
 location	Romans-sur-Isere
 location	Saint-Jean-de-Bournay
 location	Bourg-en-Bresse
+location	Cormoz
 location	Bourgoin-Jallieu
 location	Saint-Verand
 location	Saint-Etienne-de-Saint-Geoirs
@@ -2303,12 +2611,15 @@ location	Voiron
 location	Oyonnax
 location	Grenoble
 location	Saint-Martin-D'Hères
+location	Corbel
 location	Bellegarde-sur-Valserine
 location	Chambery
+location	Entraigues
 location	Challes-Les-Eaux
 location	Saint-Julien-en-Genevois
 location	Pringy
 location	Annecy
+location	Saint Christophe
 location	Annemasse
 location	Contamine-sur-Arve
 location	Thonon-Les-Bains
@@ -2318,16 +2629,20 @@ location	Vienne
 
 # Bourgogne-France-Comté
 location	Nevers
+location	Sens
 location	St Clément
 location	Auxerre
+location	Charolles
 location	Autun
 location	Montcenis
 location	Macon
 location	Chalon sur Saone
 location	Dijon
+location	Lons le Saunier
 location	Besancon
 location	Thise
 location	Brognard
+location	Belfort
 location	Montreux-Chateau
 
 # Grand Est
@@ -2340,6 +2655,7 @@ location	Champagne Ardenne
 location	Vitry le Francois
 location	Charleville-Mezieres
 location	Saint Dizier
+location	Meuse
 location	Gondrecourt-le-Chateau
 location	Tucquegnieux
 location	Crusnes
@@ -2359,6 +2675,7 @@ location	Nancy
 location	Epinal
 location	Ottonville
 location	Ham Sous Varsberg
+location	Saint-Avold
 location	Munster
 location	Lorraine
 location	Urbes
@@ -2414,6 +2731,7 @@ location	Toulon
 location	Gap
 location	Provence
 location	Var
+location	Digne Les Bains
 location	La Londe-Les-Maures
 location	Draguignan
 location	Embrun
@@ -2630,6 +2948,8 @@ location	Ladeuze
 location	Lessines
 location	Brugelette
 location	Bassilly
+location	Thoricourt
+location	Marcq
 location	Enghien
 
 # Mons
@@ -2651,6 +2971,7 @@ location	Quaregnon
 location	La Bouverie
 location	Frameries
 location	Erbaut
+location	Eugies
 location	Flénu
 location	Ghlin
 location	Jemappes
@@ -2658,6 +2979,7 @@ location	Jurbise
 location	Cuesmes
 location	Quévy
 location	Nimy
+location	Obourg
 location	Harmignies
 location	Saisinne
 location	Givry
@@ -2682,6 +3004,7 @@ location	Seneffe
 location	Geraardsbergen
 location	Ninove
 location	Herzele
+location	Denderhoutem
 location	Denderleeuw
 location	Welle
 location	Borsbeke
@@ -2724,6 +3047,7 @@ location	Morlanwelz
 # Thuin
 location	Chimay
 location	Barbençon
+location	Erquelinnes
 location	Fontaine-Valmont
 location	Nalinnes
 location	Anderlues
@@ -2740,6 +3064,7 @@ location	Lillois-Witterzée
 location	Thines
 location	Waterloo
 location	Houtain-le-Val
+location	Plancenoit
 location	Vieux-Genappe
 location	Loupoigne
 location	Genappe
@@ -2749,6 +3074,7 @@ location	Sart-Dames-Avelines
 location	Genval
 location	Rixensart
 location	Villers-la-Ville
+location	Céroux-Mousty
 location	Ottignies-Louvain-la-Neuve
 location	Court-Saint-Étienne
 location	Ottignies
@@ -2806,6 +3132,7 @@ location	Stabroek
 location	Aartselaar
 location	Wilrijk
 location	Hoevenen
+location	Reet
 location	Ekeren
 location	Rumst
 location	Kapellen
@@ -2813,6 +3140,7 @@ location	Merksem
 location	Kontich
 location	Edegem
 location	Borgerhout
+location	Essen BE
 location	Mortsel
 location	Deurne
 location	Kalmthout
@@ -2856,6 +3184,7 @@ location	Lennik
 location	Ternat
 location	Opwijk
 location	Schepdaal
+location	Oudenaken
 location	Asse
 location	Lembeek
 location	Merchtem
@@ -2886,6 +3215,7 @@ location	Vilvoorde
 location	Sint-Stevens-Woluwe
 location	Diegem
 location	Machelen
+location	Peutie
 location	Kraainem
 location	Zemst
 location	Zaventem
@@ -2915,6 +3245,7 @@ location	Pont-à-Celles
 location	Luttre
 location	Marchienne-au-Pont
 location	Mont-sur-Marchienne
+location	Liberchies
 location	Marcinelle
 location	Jumet
 location	Lodelinsart
@@ -2960,6 +3291,7 @@ location	Nijlen
 location	Bevel
 location	Schriek
 location	Heist-op-den-Berg
+location	Hallaar
 location	Itegem
 location	Booischot
 location	Wiekevorst
@@ -3119,10 +3451,12 @@ location	Zoerle-Parwijs
 location	Herselt
 location	Vosselaar
 location	Olen
+location	Tielen
 location	Geheul
 location	Oevel
 location	Westerlo
 location	Baarle-Hertog
+location	Varendonk
 location	Kasterlee
 location	Veerle
 location	Geel
@@ -3210,6 +3544,7 @@ location	Hoeselt
 location	's Herenelderen
 location	Bilzen
 location	Genoelselderen
+location	Waltwilder
 location	Millen
 location	Riemst
 location	Gellik
@@ -3235,6 +3570,7 @@ location	Seraing
 location	Boncelles
 location	Ougrée
 location	Voroux-lez-Liers
+location	Grivegnée
 location	Bressoux
 location	Herstal
 location	Bassenge
@@ -3299,11 +3635,12 @@ location	St Eustatius
 location	Middelburg
 
 # South Holland
-location	Delft
+location	Delft NL
 location	Nootdorp
 location	Rotterdam
 location	Leiden
 location	Dordrecht
+location	Gouda
 location	Molenlanden
 location	Hardinxveld Giessendam
 
@@ -3311,6 +3648,7 @@ location	Hardinxveld Giessendam
 location	Haarlem
 location	Beverwijk
 location	Schiphol
+location	Alkmaar
 location	Amsterdam
 location	Amsterdam West
 location	Diemen
@@ -3370,6 +3708,7 @@ location	Meerssen
 location	Beek
 location	Beekdaelen
 location	Brunssum
+location	Geleen
 location	Stein
 location	Sittard-Geleen
 location	Echt-Susteren
@@ -3393,9 +3732,14 @@ location	Apeldoorn
 # Overijssel
 location	Raalte
 location	Hengelo
+location	Oldenzaal
+
+# Groningen
+location	Leek
 
 # Drenthe
 location	Meppel
+location	Assen
 location	Coevorden
 location	Dalen
 
@@ -3643,27 +3987,74 @@ location	Steckborn
 location	Munchwilen
 location	Wilen bei Wil
 location	Erlen
+location	Bischofszell
+location	Altnau
+location	Arbon
+
+# Appenzell Ausserrhoden
+location	Waldstatt
+location	Herisau
 
 # Sankt Gallen
+location	Rapperswil
+location	Jona
+location	Eschenbach
+location	Schmerikon
+location	Sankt Gallenkappel
+location	Uznach
+location	Kaltbrunn
+location	Wil
+location	Schänis
+location	Rieden
+location	Bazenheid
+location	Bütschwil
+location	Wattwil
+location	Ebnat-Kappel
+location	Amden
 location	Niederuzwil
 location	Grub
+location	Flawil
+location	Nesslau
+location	Degersheim
 location	Au
 location	Gossau
+location	Unterterzen
+location	Oberterzen
 location	Walenstadt
+location	Abtwil SG
+location	Flums
+location	Appenzell
 location	St Gallen
+location	Wittenbach
 location	Mels
+location	Speicher
 location	Mörschwil
+location	Grabserberg
+location	Sargans
 location	Gams
 location	Grabs
+location	Sax
+location	Werdenberg
+location	Buchs SG
 location	Buchs
 location	Sevelen
+location	Haag Rheintal
+location	Rorschach
+location	Rorschacherberg
 location	Rheintal
 location	Bad Ragaz
+location	Sennwald
+location	Ruthi
 location	Altstatten
 location	Oberriet
+location	Marbach SG
 location	Rebstein
+location	Rheineck
 location	Kriessern
+location	Heerbrugg
 location	Widnau
+location	St. Margrethen
+location	Diepoldsau
 
 # Graubünden
 location	Vals
@@ -3715,7 +4106,7 @@ location	Duesseldorf
 location	Muelheim
 location	Rheinbach
 location	Cologne
-location	Essen
+location	Essen DE
 location	Hennef
 location	Wetter
 location	Greven
@@ -3814,6 +4205,9 @@ location	Roding
 # Mecklenburg-Vorpommern
 location	Rostock
 
+# Berlin
+location	Berlin
+
 # Saxony
 location	Hohenwarsleben
 location	Hammerbach
@@ -3853,6 +4247,7 @@ location	Venezia
 
 # Lazio
 location	Rome
+location	Viterbo IT
 
 # Friuli Venezia Giulia
 location	Pordenone
@@ -3932,6 +4327,7 @@ location	Rankweil
 location	Hohenems
 location	Dornbirn
 location	Bildstein
+location	Wolfurt
 location	Bregenz
 
 # Tyrol
@@ -3971,6 +4367,7 @@ location	Kufstein
 location	Söll
 location	Going
 location	Kitzbuhel-Stadt
+location	Kitzbühel
 location	Fieberbrunn
 
 # Salzburg
@@ -3980,6 +4377,7 @@ location	Zell am See
 location	St. Johann im Pongau
 location	Bischofshofen
 location	Saalfelden
+location	Filzmoos
 location	Pfarrwerfen
 location	Abtenau
 location	Golling An Der Salzach
@@ -3988,17 +4386,19 @@ location	Salzburg
 location	Mondsee
 location	Siggerwiesen
 location	Salzburg-Umgebung
+location	Seekirchen am Wallersee
 location	Obertrum Am See
 
 # Carinthia
+location	Rangersdorf
 location	Hermagor
 location	Spittal an der Drau
 location	Fresach
 location	Villach-Land
 location	Villach
+location	Patergassen
 location	Landskron
 location	Wernberg
-location	Stadl-Predlitz
 location	Bodensdorf
 location	Rosegg
 location	Velden Am Wörther See
@@ -4007,6 +4407,7 @@ location	Feldkirchen
 location	Glödnitz
 location	Klagenfurt Am Wörthersee
 location	Sankt Veit An Der Glan
+location	Launsdorf
 location	Guttaring
 location	Pörtschach
 location	Sittersdorf
@@ -4017,34 +4418,70 @@ location	Wolfsberg
 
 # Upper Austria
 location	Zell Am Moos
+location	Ried
+location	Pöndorf
+location	Frankenmarkt
 location	Fornach
+location	Pfaffing
+location	Unterach Am Attersee
 location	Vöcklamarkt
 location	St. Georgen Im Attergau
 location	Frankenburg Am Hausruck
+location	Nussdorf Am Attersee
+location	Gosau
 location	Attersee
+location	Aigen-Voglhub
 location	Weyregg Am Attersee
+location	Seewalchen Am Attersee
 location	Schörfling Am Attersee
+location	Lenzing
 location	Timelkam
 location	Bad Goisern
 location	Bad Ischl
 location	Vöcklabruck
+location	Manning
+location	Aurach Am Hongar
+location	Pilsbach
 location	Altenhof Am Hausruck
 location	Regau
 location	Neukirchen
 location	Attnang-Puchheim
+location	Gaspoltshofen
+location	Natternbach
 location	Altmünster
+location	Pinsdorf
 location	Ebensee Am Traunsee
 location	Schwanenstadt
 location	Ohlsdorf
 location	Gmunden
+location	Eschenau Im Hausruckkreis
 location	Laakirchen
 location	Grieskirchen
+location	Roitham am Traunfall
+location	Lambach
+location	St. Konrad
+location	Kirchham
+location	Edt Bei Lambach
+location	Prambachkirchen
 location	Hochficht
 location	Gunskirchen
+location	Fischlham
 location	Wels-Land
+location	Grünau im Almtal
+location	Steinerkirchen an der Traun
+location	Scharnstein
+location	Eberstalzell
 location	Haizing
+location	Hartkirchen
+location	Pettenbach
 location	Eferding
+location	Buchkirchen
+location	Wels
 location	Wels-Stadt
+location	Fraham
+location	Holzhausen
+location	Marchtrenk
+location	Weißkirchen An Der Traun
 location	Steyr-Land
 location	Linz
 location	Linz-Land
@@ -4052,13 +4489,26 @@ location	Losenstein
 location	Freistadt
 
 # Styria
+location	Ramsau Am Dachstein
+location	Bad Aussee
+location	Bad Mitterndorf
+location	Stadl-Predlitz
+location	Öblarn
+location	Aigen Im Ennstal
 location	Liezen
 location	Murau
+location	Oberwölz
 location	Murtal
+location	Bad Gams
 location	Bruck-Mürzzuschlag
 location	Kapfenberg
+location	Mariazell
+location	Seiersberg-Pirka
 location	Graz
 location	Kalsdorf Bei Graz
+location	Gutenberg-Stenzengreith
+location	Leibnitz
+location	Gamlitz
 location	Weiz
 location	Hartberg-Fürstenfeld
 
@@ -4066,10 +4516,18 @@ location	Hartberg-Fürstenfeld
 location	Waidhofen An Der Ybbs
 location	Amstetten
 location	Zwettl
+location	Pöggstall
 location	Melk
+location	Waidhofen An Der Thaya
+location	Windigsteig
+location	Thaya
 location	Lilienfeld
 location	Horn
 location	Sankt Polten-Land
+location	Hainfeld
+location	Weitersfeld
+location	Grunddorf
+location	Oed
 location	Hollabrunn
 location	Markt Piesting
 location	Bad Vöslau
@@ -4084,10 +4542,12 @@ location	Gänserndorf
 location	Bruck An Der Leitha
 
 # Vienna
+location	Rudolfsheim Fünfhaus
 location	Vienna
 
 # Burgenland
 location	Unterwart
+location	Müllendorf
 location	Eisenstadt
 location	Neusiedl Am See
 location	Eisenstadt-Umgebung
@@ -4125,7 +4585,14 @@ location	Děčín
 location	Račice
 
 # Prague
+location	Praha 17
+location	Stodůlky
 location	Sedlec
+location	Praha 6
+location	Praha 5
+location	Praha 3
+location	Praha 8
+location	Praha 9
 location	Prague-Miskovice
 location	Kvetnice
 
@@ -4150,7 +4617,9 @@ location	Slaný
 location	Kladno
 location	Slatina
 location	Chýně
+location	Rudna U Prahy
 location	Krauupy nad Vltavou
+location	Černošice
 location	Veltrusy
 location	Únětice
 location	Zdiby
@@ -4161,6 +4630,7 @@ location	Krhanice
 location	Herink
 location	Kostelec nad Labem
 location	Radonice
+location	Velké Popovice
 location	Konetopy
 location	Říčany
 location	Brandýs N. Labem
@@ -4177,6 +4647,7 @@ location	Ondřejov
 location	Benátky nad Jizerou
 location	Hrušov
 location	Kostelec N. Černými Lesy
+location	Český Brod
 location	Mladá Boleslav
 location	Chrášťany
 location	Kosmonosy
@@ -4195,6 +4666,7 @@ location	Chuchelna
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
 location	Kynice
+location	Náměšť nad Oslavou
 
 # Pardubice Region
 location	Pardubice
@@ -4207,6 +4679,7 @@ location	Sběř
 location	Trutnov
 location	Červený Kostelec
 location	Police nad Metují
+location	Rychnov nad Kněžnou
 
 # South Moravian Region
 location	Znojmo
@@ -4216,6 +4689,7 @@ location	Hodonín
 location	Ratíškovice
 
 # Olomouc Region
+location	Tištín
 location	Litovel
 location	Sumperk
 location	Písařov
@@ -4252,36 +4726,67 @@ location	Czerwiensk
 location	Dabrowka
 location	Krosno Odrzańskie
 location	Lubrza
-location	Kostrzyn
+location	Slubice
+location	Miedzyrzecz
+location	Sulecin
+location	Osnolubuskie
+location	Gorzyca
+location	Kostrzyn (Lubuskie)
 location	Kostrzyn nad Odra
-location	Gorzow Wlkp
+location	Gorzow Wielkopolski
+location	Drezdenko
 location	Strzelce Krajenskie
 location	Dobiegniew
 
 # Zachodniopomorskie
 location	Swinoujscie
+location	Nowe Warpno
+location	Międzyzdroje
 location	Gryfino
+location	Pniewo
+location	Czepino
 location	Nowe Brynki
 location	Szczecin
 location	Stare Brynki
 location	Police
+location	Trzcinsko-Zdroj
+location	Chwarstnica
+location	Skoszewo
+location	Banie
 location	Kukułowo
+location	Dziwnow
+location	Kamien Pomorski
 location	Goleniow
 location	Mysliborz
+location	Pyrzyce
+location	Kretlewo
+location	Samlino
+location	Lipiany
 location	Grzedzice
+location	Golczewo
 location	Stargard
 location	Witkowo Drugie
 location	Gryfice
 location	Płoty
+location	Bonin
 location	Choszczno
+location	Stradzewo
 location	Recz
+location	Kolobrzeg
 location	Lobez
+location	Drawno
 location	Swidwin
+location	Drawsko Pomomorskie
+location	Karlino
+location	Bialogard
+location	Zaborze
+location	Koszalin
 location	Szczecinek
 
 # Dolnośląskie
 location	Zatonie
 location	Mala Kamienica
+location	Lwowek Slaski
 location	Wojcieszyce
 location	Jelenia Gora
 location	Jezow Sudecki
@@ -4300,6 +4805,7 @@ location	Bolkow
 location	Czarny Bor
 location	Kochanow
 location	Legnica
+location	Lubin
 location	Walbrzych
 location	Swidnica DS
 location	Przylesie
@@ -4312,7 +4818,6 @@ location	Dzierzoniow
 location	Lomnica
 location	Przedborowa
 location	Zabor
-location	Lipno
 location	Pilawa Gorna
 location	Bogdaszowice
 location	Ząbkowice Śląskie
@@ -4320,37 +4825,54 @@ location	Bobolice
 location	Sosnowa
 location	Cieplowody
 location	Wroclaw
+location	Trzebnica
+location	Strzelin
 location	Kamieniec Wrocławski
 location	Nadolice Wielkie
 location	Wojnowice
+location	Oława
+location	Olesnica
 location	Sycow
-location	Kepno
 
 # Wielkopolskie
-location	Miedzyrzecz
 location	Skwierzyna
+location	Jaroszewo
+location	Wolsztynski
 location	Nowy Tomysl
 location	Wielen
+location	Lwowek
+location	Pakawie
+location	Niewierz
 location	Wielichowo
+location	Wronki
 location	Duszniki
 location	Wilkowo Polskie
 location	Buk
+location	Obrzycko
+location	Galowo
 location	Kobylniki
+location	Leszno
+location	Szamotuly
 location	Jeziorki
 location	Cieradz Koscielny
 location	Niepruszewo
 location	Zydowo
 location	Strykowo
+location	Gasawy
+location	Koscian
 location	Tarnowo Podgorne
 location	Popowko
 location	Sierosław
 location	Lusowo
+location	Lulinek
 location	Mrowino
 location	Sady
 location	Debienko
 location	Paledzie
+location	Leszczynski
+location	Pila
 location	Rokietnica
-location	Dabrowa
+location	Dabrowa (Wielkopolskie)
 location	Dąbrowa
 location	Goluski
 location	Wymyslowo
@@ -4371,11 +4893,13 @@ location	Mosina
 location	Kowanowko
 location	Wiry
 location	Puszczykowo
+location	Rawicz
 location	Maniewo
 location	Lubon
 location	Suchy las
 location	Wiorek
 location	Czapury
+location	Poznan-Wilda
 location	Poznan
 location	Baranowo
 location	Gora
@@ -4384,15 +4908,22 @@ location	Rogozno
 location	Kamionki
 location	Murowana Goslina
 location	Srem
+location	Gostyn
 location	Przebedowo
 location	Zalasewo
+location	Tulce
 location	Swarzedz
+location	Smogorzewo
+location	Wagrowiec
+location	Borowo-Mlyn
+location	Kostrzyn (Wielkopolskie)
 location	Jarosławiec
 location	Lipka
 location	Sroda Wielkopolska
 location	Pobiedziska
 location	Wysławice
 location	Wola Lagiewnicka
+location	Wierzyce
 location	Gorzewo
 location	Krotoszyn
 location	Czerniejewo
@@ -4402,13 +4933,20 @@ location	Gniezno
 location	Welnica
 location	Trzuskołon
 location	Witkowo
+location	Pleszew
 location	Miaty
 location	Kruchowo
 location	Trzemeszno
 location	Powidz
 location	Ostrzeszow
+location	Grodzisk
+location	Kepno
 location	Orchowo
+location	Przeclaw
 location	Kalisz
+location	Ostrow
+location	Konin
+location	Turek
 location	Czajkow
 
 # Opolskie
@@ -4425,6 +4963,8 @@ location	Głogówek
 location	Opole
 location	Otmice
 location	Kedzierzyn Kozle
+location	K-Kozle
+location	Kluczbork
 location	Sucha
 location	Strzelce Opolskie
 location	Olesno
@@ -4433,84 +4973,146 @@ location	Olesno
 location	Grzybno
 location	Bolesławice
 location	Słupsk
+location	Wyczechy
 location	Objazda
 location	Lubkowo
+location	Sapolno
 location	Czluchow
+location	Gledowo
+location	Wierzchowo-Dworzec
 location	Przelek
+location	Bytow
+location	Chojnice
 location	Lichnowy
+location	Nowe Ostrowite
+location	Chojnicki
 location	Lebork
+location	Kowale (Pomorskie)
 location	Gozdawa
 location	Kościerzyna
+location	Kartuski
 location	Kartuzy
 location	Jeleńska Huta
 location	Wejherowo
+location	Reda
+location	Starogardzki
 location	Bojano
 location	Rumia
 location	Puck
 location	Gdynia
 location	Pogorze
+location	Kosakowo
+location	Starogard Gdański
 location	Sopot
 location	Gdynski
 location	Gdansk
 location	Pruszcz Gdanski
+location	Zalesie (Pomorskie)
 location	Hel
 location	Miloradz
 location	Kwidzyn
 location	Kacik
+location	Nowy Staw
 location	Sztumskie Pole
 location	Sztum
 location	Jantar
 location	Malbork
+location	Nowodworski
 location	Stegna
 location	Nowy Dwor Gdanski
 location	Gilwa
 location	Mikolajki Pomorskie
 location	Raniewo
+location	Stare Pole
+location	Rakowo
+location	Nowiec
 
 # Kujawsko-Pomorskie
-location	Sepolno Krajenskie
-location	Bydgoszcz
+location	Lipno
+location	Wloclawek
 location	Dziarnowo
-location	Pruszcz
-location	Grudziadz
+location	Znin
+location	Torun
+location	Bydgoszcz
+location	Wabrzezno
 location	Bobrowo
+location	Pruszcz
+location	Swiecie
+location	Sepolno Krajenskie
+location	Grudziadz
+location	Tuchola
 
 # Slaskie
 location	Dankowice
+location	Chałupki
 location	Sosnicowice
+location	Rybnik
+location	Kaczyce
+location	Konczyce Wielkie
 location	Cieszyn
 location	Gliwice
 location	Wojska
 location	Hażlach
+location	Pruchna
 location	Pawłowice
+location	Bakow
 location	Rudziczka
 location	Suszec
+location	Gorki Wielkie
 location	Ruda Śląska
+location	Wisla
+location	Bytom
+location	Wisla Glebce
+location	Mazancowice
+location	Tychy
 location	Czechowice-Dziedzice
+location	Siemianowice Slaskie
 location	Katowice
 location	Bielsko-Biała
 location	Wilkowice
+location	Lodygowice
+location	Kozy
 location	Żywiec
+location	Myszkow
+location	Zawiercie
 
 # Łódzkie
 location	Suliszewice
+location	Brzeznio
+location	Losieniec
 location	Sieradz
 location	Pajeczno County
+location	Charbice Gorne
 location	Belchatow County
+location	Konstantynow Lodzki
 location	Pabianice
 location	Adolfow
 location	Kutno
+location	Zgierz
+location	Radomsko
 location	Lodz
+location	Wiaczyn Dolny
 location	Wisniowa Gora
+location	Bedon Przykoscielny
+location	Bedon-Wies
+location	Rogow
+location	Piotrkow Trybunalski
 location	Brzeziny
 location	Koluszki
+location	Jezow
 location	Skierniewice County
 location	Justynow
 
 # Malopolskie
+location	Oswiecim
+location	Chrzanow
 location	Olkusz
+location	Suchabeskidzka
 location	Olewin
+location	Stanislaw Dolny
 location	Biertowice
+location	Zelkow
+location	Mogilany
 location	Bysina
 location	Krzyszkowice
 location	Myślenice
@@ -4519,10 +5121,14 @@ location	Wrzosowa
 location	Siepraw
 location	Borzęta
 location	Osieczany
+location	Miechow
 location	Grabówki
 location	Brzączowice
 location	Stojowice
 location	Wieliczka
+location	Czarnochowice
+location	Slomniki
+location	Choragwica
 location	Zabawa
 location	Dobczyce
 location	Glichów
@@ -4537,12 +5143,37 @@ location	Gruszów
 location	Niepołomice
 location	Szczytniki
 location	Wola Batorska
+location	Limanowa
+location	Bochnia
+location	Tarnow
+location	Dąbrowa Tarnowska
 location	Zawada
 location	Nowa Wieś
 
 # Swietokrzyskie
-location	Kielce
+location	Sedziszow
+location	Oksa
+location	Wodzislaw
+location	Jedrzejow
+location	Porzecze
 location	Modliszewice
+location	Michalow
+location	Micigozd
+location	Mniow
+location	Pinczow
+location	Kielce
+location	Zagnansk
+location	Sukow
+location	Maslow Pierwszy
+location	Bieliny
+location	Lechow
+location	Zagrody
+location	Kunow
+location	Jeziorko
+location	Ostrowiec Swietokrzyski
+location	Bodzechow
+location	Cmielow
+location	Wolka Baltowska
 
 # Warminsko-Mazurskie
 location	Mokajny
@@ -4552,14 +5183,24 @@ location	Nowomiejski
 location	Ostrodzki
 location	Elblaski
 location	Paslek
+location	Stegny
+location	Stepien
+location	Braniewo
+location	Lidzbark
 location	Lubowidz
+location	Belk
+location	Ciborz
+location	Rogity
 location	Dobry
 location	Braniewski
 location	Dzialdowski
 location	Bialczyn
 location	Lodwigowo
+location	Stebark
+location	Dabrowa (Warminsko-Mazurskie)
 location	Komorniki WN
 location	Swiatki
+location	Szkotowo
 location	Kozłowo
 location	Sławka Mała
 location	Lysakowo
@@ -4570,6 +5211,8 @@ location	Lupstych
 location	Szymany
 location	Gutkowo
 location	Lidzbarski
+location	Kanigowo
+location	Siemiatki
 location	Dywity
 location	Olsztyn
 location	Napiwoda
@@ -4577,45 +5220,81 @@ location	Nidzicki
 location	Bartoszycki
 location	Wieckowo
 location	Wólka
+location	Michalki
 location	Lutry PL
+location	Szczytno
 location	Szczycienski
+location	Rybno
 location	Sorkwity
 location	Korsze
 location	Biały Grunt
 location	Ketrzynski
+location	Spychowo
 location	Mragowski
 location	Wegorzewski
 location	Piski
 location	Gizycki
 location	Orzysz
-location	Zalesie
+location	Zalesie (Warminsko-Mazurskie)
 location	Goldapski
 location	Olecki
 location	Elk
+location	Olecko
 
 # Mazowieckie
+location	Halinow
 location	Plock
+location	Plonsk
 location	Grodzisk Mazowiecki
+location	Pruszkow
+location	Piastow
+location	Bialobrzegi
 location	Warszawa
 location	Łaz
+location	Piaseczno
 location	Brodno-Warszawa
 location	Radom
+location	Jozefow
+location	Gora Kalwaria
+location	Wesola
+location	Wolomin
+location	Zakret
+location	Sulejowek
+location	Cisie
+location	Minsk Mazowiecki
+location	Rudzienko
+location	Jozefin
 location	Sokolow Podlaski
+location	Siedlce
 
 # Podkarpackie
+location	Debica
 location	Siedliska-Bogusz
 location	Nagoszyn
+location	Mielec
+location	Ropczyce
 location	Tarnobrzeg
+location	Krosno
+location	Kolbuszowa
+location	Strzyzow
 location	Rzeszow
 location	Brzozow
+location	Sanok
+location	Łańcut
 location	Bachórzec
+location	Lezajsk
 location	Ustrzyki Dolne
+location	Szowsko
 
 # Lubelskie
+location	Bilgoraj
 location	Zamość
+location	Krasnystaw
 location	Chełm
 location	Lublin
 location	Milejów-Osada
+location	Wlodawa
+location	Parczew
 location	Hanna
 
 # Podlaskie
@@ -4623,16 +5302,19 @@ location	Nowogrod
 location	Duże Łabno
 location	Kolno
 location	Łomża
+location	Zambrow
 location	Czyżew
 location	Stary Kamień
 location	Grajewo
 location	Twarogi-Mazury
 location	Rajgród
 location	Olendy
+location	Monki
 location	Popławy
 location	Knyszyn
 location	Suwałki
-location	Kowale
+location	Kowale (Podlaskie)
+location	Augustow
 location	Choroszcz
 location	Boćki
 location	Grabowiec
@@ -4648,6 +5330,7 @@ location	Sejny
 location	Sokółka
 location	Gliniszcze Małe
 location	Krukowszczyzna
+location	Hajnowka
 location	Malewicze Gorne
 location	Lipiny
 location	Kuźnica
@@ -4656,104 +5339,249 @@ location	Nowodziel
 location	Wojnowce
 
 ### Slovakia
-# Malacky
-location	Studienka
-
 # Bratislava
 location	Kalinkovo
 location	Rovinka
+location	Miloslavov
 location	Malinovo
+location	Ivanka Pri Dunaji
+location	Senec
 location	Slovensky Grob
+location	Stupava
+location	Pezinok
 location	Vinosady
 location	Plavecký Štvrtok
+location	Malacky
+location	Kostoliste
 location	Veľké Leváre
+location	Studienka
 
 # Trnava
+location	Velky Meder
+location	Holice
 location	Dolne Saliby
 location	Horne Saliby
 location	Cierna Voda
 location	Mostova
 location	Velke Ulany
+location	Galanta
 location	Soporna
+location	Dolna Streda
 location	Voderady
 location	Sereď
 location	Brestovany
+location	Hlohovec
 location	Boleraz
 location	Smolenice
+location	Drahovce
+location	Piestany
 location	Hradište pod Vrátnom
 location	Šaštín-Stráže
+location	Senica
+location	Sobotiste
+location	Kopcany
+location	Holíč
 location	Skalica
 
 # Trenčín
+location	Myjava
 location	Moravske Lieskove
+location	Nove Mesto nad Vahom
 location	Beckov
 location	Kostolna-Zariecie
 location	Dolná Súča
 location	Nemšová
+location	Trencianska Tepla
 location	Nova Dubnica
+location	Dubnica nad Vahom
+location	Ilava
+location	Timoradza
+location	Mutne Dulov
+location	Banovce nad Bebravou
 location	Puchov
+location	Partizanske
+location	Povazska Bystrica
+location	Bystricany
+location	Novaky
+location	Prievidza
 location	Handlová
 
 # Nitra
+location	Klizska Nema
 location	Ton
-location	Hurbanovo
-location	Marcelova
-location	Batorove Kosihy
-location	Kolta
-location	Velke Ludince
-location	Želiezovce
-
-# Nove Zamky
+location	Diakovce
+location	Bab
+location	Zemianska Olca
+location	Sala
+location	Vlcany
+location	Kolárovo
+location	Jatov
+location	Kamenicna
+location	Tvrdosovce
+location	Andovce
+location	Nesvady
+location	Komarno
+location	Imel
+location	Velky Kyr
+location	Nove Zamky
 location	Komjatice
+location	Topolcany
+location	Velký Harcáš
+location	Surany
+location	Banov
+location	Hurbanovo
+location	Solcany
+location	Bajc
 location	Ulany nad Zitavou
 location	Dolny Ohaj
+location	Svaty Peter
+location	Besenov
+location	Dvory nad Žitavou
+location	Marcelova
+location	Velke Lovce
+location	Podhajska
+location	Semerovo
+location	Jasova
+location	Moca
+location	Batorove Kosihy
 location	Dubnik
+location	Kolta
+location	Velke Ludince
+location	Ket
+location	Levice
+location	Pohronsky Ruskov
+location	Želiezovce
+location	Malá nad Hronom
+location	Nana
+location	Sturovo
+location	Salka
+location	Sahy
 
 # Zilina
+location	Bytca
 location	Turzovka
+location	Zavodie
+location	Kysucke Nove Mesto
 location	Cadca
+location	Svrcinovec
+location	Velky Cepcin
+location	Jazernica
 location	Turcianske Teplice
+location	Bystricka
+location	Mosovce
 location	Horná Štubňa
+location	Vrutky
+location	Martin
+location	Bela
+location	Turčianska Štiavnička
+location	Oravska Lesna
+location	Novot
 location	Dolný Kubín
+location	Ruzomberok
+location	Mutne
 location	Martincek
+location	Benadovo
+location	Hrustin
+location	Oravske Vesele
+location	Vasilov
 location	Oravska Jasenica
+location	Sihelne
+location	Tapesovo
 location	Oravska Polhora
+location	Namestovo
+location	Vavrecka
+location	Krivá
+location	Rabca
+location	Klin
+location	Slanicka Osada
+location	Zubrohlava
 location	Nizna
+location	Medvedzie
+location	Bobrov
+location	Oravsky Biely Potok
+location	Tvrdosin
+location	Zabiedovo
 location	Trstena
+location	Zuberec
 location	Liptovsky Mikulas
+location	Liesek
+location	Cimhova
+location	Vitanova
+location	Suchá Hora
+location	Važec
 
 # Banska Bystrica
 location	Zarnovica
+location	Bzenica
 location	Ziar nad Hronom
+location	Banska Stiavnica
+location	Bartosova Lehotka
+location	Krupina
+location	Zvolen
+location	Donovaly
+location	Velky Krtis
 location	Zelovce
+location	Maly Krtis
+location	Podbrezova
+location	Myto Pod Dumbierom
 location	Brezno
+location	Sihla
 location	Lucenec
-
-# Namestovo
-location	Benadovo
-location	Oravske Vesele
-location	Vavrecka
-location	Klin
+location	Poltar
+location	Ozdany
+location	Hnusta
+location	Rimavska Sobota
+location	Muranska Huta
+location	Revuca
+location	Tornala
 
 # Prešov
+location	Tatranská Štrba
+location	Strba
+location	Vysne Hagy
 location	Vikartovce
+location	Batizovce
+location	Svit
+location	Kravany
 location	Spisske Bystre
+location	Nova Lesna
 location	Velka Frankova
+location	Poprad
 location	Hranovnica
+location	Hozelec
+location	Žakovce
 location	Kezmarok
+location	Podolinec
+location	Levoca
+location	Kamienka SL
+location	Hniezdne
+location	Doľany
 location	Stara Lubovna
 location	Spisske Podhradie
+location	Livovska Huta
 location	Sabinov
 location	Janovce
+location	Svidnik
 location	Stropkov
+location	Turany nad Ondavou
+location	Vranov nad Toplov
+location	Humenne
+location	Medzilaborce
+location	Bela nad Cirochou
 location	Snina
 
 # Kosice
 location	Spisska Nova Ves
+location	Krasnohorska Dlha Luka
 location	Zehra
+location	Haj
 location	Gelnica
+location	Valaliky
+location	Mala Trna
 location	Trebisov
 location	Michalovce
+location	Kralovsky Chlmec
+location	Pavlovce nad Uhom
 location	Sobrance
 
 ### Hungary
@@ -4769,6 +5597,7 @@ location	Kraljevo
 location	Krusevac
 
 # Zlatibor District
+location	Bajina Basta
 location	Uzice
 
 # Moravica District
@@ -4935,13 +5764,17 @@ location	Velikiye Luki
 location	Borovichi (Pskov)
 
 # Saint-Petersburg
+location	Sestroretsk
 location	Saint-Petersburg
 location	Kolpino
 
 # Leningrad Oblast
 location	Sosnovyi Bor
+location	Lomonosov
 location	Kipen
 location	Gatchina
+location	Sertolovo
+location	Fedorovskoe
 location	Yanino-1
 location	Vsevolozhsk
 location	Tosno
@@ -4972,6 +5805,7 @@ location	Podporozhye
 
 # Tver
 location	Torzhok
+location	Tver
 
 # Murmansk
 location	Kovdor
@@ -5002,12 +5836,15 @@ location	Kubinka
 location	Naro-Fominsk
 location	Zvenigorod
 location	Kalininets
+location	Zelenograd
+location	Rublevo
 location	Dolgoprudny
 location	Moscow
 location	Dmitrov
 location	Korolyov
 location	Pushkino
 location	Lyubertsy
+location	Balashikha
 location	Sergiyev Posad
 location	Bronnitsy
 location	Elektrostal
@@ -5038,6 +5875,7 @@ location	Maykop
 
 # Vladimir Region
 location	Vladimir
+location	Kovrov
 
 # Tambov Region
 location	Tambov
@@ -5076,6 +5914,9 @@ location	Volgograd
 # Republic of Mordovia
 location	Saransk
 
+# Penza
+location	Penza
+
 # Ingushetia
 location	Nazran
 
@@ -5096,6 +5937,7 @@ location	Makhachkala
 location	Kozmodemyansk
 
 # Astrakhan Region
+location	Chyorny Yar
 location	Akhtubinsk
 location	Enotaevka
 location	Kharabali
@@ -5123,33 +5965,37 @@ location	Ufa
 location	Ozyorsk
 
 # Sverdlovsk
-location	Kamensk-Uralsky
-location	Polevskoy
-location	Sysert
-location	Kashino
-location	Sokolova
-location	Dvurechensk
-location	Bobrovsky
-location	Revda
-location	Zarechny
-location	Yekaterinburg
-location	Pervouralsk
-location	Berezovsky
-location	Verkhnyaya Pyshma
-location	Sredneuralsk
-location	Baltym
-location	Asbest
-location	Krasnyi Aduy
-location	Kedrovoye
+location	Krasnoufimsk
 location	Shalya
-location	Verkhny Tagil
-location	Kirovgrad
-location	Nizhny Tagil
-location	Svobodny (Sverdlovsk)
-location	Krasnouralsk
 location	Kachkanar
-location	Serov
+location	Kushva
+location	Revda
+location	Verkhny Tagil
+location	Pervouralsk
+location	Nizhny Tagil
+location	Krasnouralsk
+location	Kirovgrad
+location	Polevskoy
+location	Svobodny (Sverdlovsk)
 location	Ivdel
+location	Sredneuralsk
+location	Kedrovoye
+location	Verkhnyaya Pyshma
+location	Serov
+location	Krasnyi Aduy
+location	Baltym
+location	Yekaterinburg
+location	Sysert
+location	Berezovsky
+location	Kashino
+location	Bobrovsky
+location	Dvurechensk
+location	Zarechny
+location	Asbest
+location	Sokolova
+location	Pokrovskoe
+location	Kamensk-Uralsky
+location	Kamyshlov
 
 # Khanty-Mansi
 location	Khanty-Mansiysk
@@ -5317,7 +6163,6 @@ location	Malvinas Argentinas
 location	La Costa
 
 # Cordoba AR
-location	Jesus Maria
 location	La Falda
 location	Rio Ceballos
 location	Monte Maiz
@@ -5344,6 +6189,7 @@ location	San Francisco AR
 location	Saldan
 location	Unquillo
 location	Colonia Caroya
+location	Jesus Maria AR
 location	Brinkmann
 
 # Santa Fe
@@ -5376,7 +6222,7 @@ location	Villa Gobernador Galvez
 location	Zavalla
 location	Soldini
 location	Perez
-location	Rosario
+location	Rosario AR
 location	Villa Constitucion
 location	Funes
 location	Carcaraña
@@ -5485,17 +6331,30 @@ location	Porvenir
 location	Puerto Williams
 
 # Aysén
+location	Aisen
+location	Rio Ibanez
 location	Coyhaique
+location	Guaitecas
 
 # Los Lagos
+location	Quellon
 location	Ancud
+location	Cochamo
 location	Puerto Montt
+location	Puerto Varas
+location	Osorno
 
 # Los Rios CL
+location	Valdivia
+location	La Union CL
+location	Mafil
+location	Paillaco
+location	Lago Ranco
 location	Panguipulli
 
 # Araucanía
 location	Villarrica
+location	Pucon
 location	Cunco
 location	Padre las Casas
 location	Temuco
@@ -5505,11 +6364,14 @@ location	Perquenco
 location	Angol
 
 # Biobío
+location	Lota
+location	Coronel
 location	Talcahuano
 location	San Pedro de la Paz
 location	Hualpen
 location	Concepcion CL
 location	Chiguayante
+location	Cabrero
 location	Los Angeles
 
 # Ñuble
@@ -5524,6 +6386,7 @@ location	San Carlos CL
 location	Constitucion
 location	Maule
 location	Talca
+location	Linares
 location	San Clemente CL
 location	Molina
 location	Curico
@@ -5533,20 +6396,26 @@ location	Teno
 location	La Estrella
 location	Lolol
 location	Pichidegua
+location	San Vicente
+location	San Fernando CL
 location	Rancagua
 location	San Francisco de Mostazal
 location	Machali
 
 # Region Metropolitana de Santiago
+location	Melipilla
 location	Curacavi
 location	Talagante
+location	Isla de Maipo
 location	Penaflor
+location	Lampa
 location	Pudahuel
 location	Padre Hurtado
 location	Maipu
 location	Quilicura
 location	Buin
 location	Renca
+location	Lo Prado
 location	Estacion Central
 location	San Bernardo
 location	Quinta Normal
@@ -5563,20 +6432,23 @@ location	San Joaquin
 location	La Granja
 location	Providencia
 location	Ñuñoa
+location	Macul
 location	Puente Alto
 location	Pirque
 location	Vitacura
 location	La Florida
 location	Las Condes
 location	Penalolen
+location	Lo Barnechea
 location	San Jose de Maipo
 
 # Valparaiso
-location	Valparaiso
+location	Valparaiso CL
 location	Vina del Mar
 location	Con-Con
 location	Casablanca
 location	Limache
+location	La Ligua
 location	San Felipe CL
 location	Los Andes
 
@@ -5598,9 +6470,12 @@ location	El Salvador
 
 # Antofagasta
 location	Antofagasta
+location	Calama
 
 # Tarapacá
 location	Iquique
+location	Alto Hospicio
+location	Pozo Almonte
 
 # Arica and Parinacota
 location	Arica
@@ -5668,6 +6543,7 @@ location	Douradinho
 location	Maracaju
 location	Guia Lopes Da Laguna
 location	Jardim
+location	Nova Alvorada do Sul
 location	Bonito
 location	Sidrolandia
 location	Tres Lagoas
@@ -5689,6 +6565,7 @@ location	Sonora
 location	Rio Grande BR
 location	Pelotas
 location	Bage
+location	Camaquã
 location	Lavras do Sul
 location	Santana do Livramento
 location	Tapes
@@ -5704,25 +6581,42 @@ location	Porto Alegre
 location	Alvorada
 location	Tramandai
 location	Imbe
+location	Gravataí
+location	Triunfo
 location	Cachoeirnha
 location	Canoas BR
 location	Osorio
+location	Glorinha
 location	Esteio
+location	Nova Santa Rita
 location	Santo Antonio Da Patrulha
+location	Sapucaia do Sul
 location	Xangri-la
 location	Taquari
 location	São Leopoldo
 location	Novo Cabrais
 location	Vera Cruz (Rio Grande do Sul)
+location	Portão
 location	Novo Hamburgo
 location	Santa Maria RS
+location	Montenegro
+location	Campo Bom
+location	Estância Velha
+location	Rolante
 location	Taquara
+location	Riozinho
 location	Sapiranga
+location	Pareci Novo
 location	Parobe
 location	Venancio Aires
 location	Bom Retiro do Sul
 location	Sao Sebastiao do Cai
+location	Nova Hartz
+location	Dois Irmãos
+location	Igrejinha
+location	Harmonia
 location	Morro Reuter
+location	Três Coroas
 location	Bom Principio
 location	Teutonia
 location	Tupandi
@@ -5742,6 +6636,7 @@ location	Nova Brescia
 location	Estrela Velha
 location	Caxias do Sul
 location	Itaqui
+location	Cambará do Sul
 location	Flores Da Cunha
 location	Cotipora
 location	Arvorezinha
@@ -5761,6 +6656,7 @@ location	Passo Fundo
 location	Tapejara
 location	Girua
 location	Sertao
+location	Porto Xavier
 location	Santa Rosa BR
 location	Tiradentes
 location	Erechim
@@ -5768,6 +6664,9 @@ location	Tres Passos
 location	Frederico Westphalen
 location	Vista Gaucha
 location	Candelaria
+
+# Para
+location	Belem do Para
 
 # Paraná
 location	Foz do Iguacu
@@ -5821,25 +6720,32 @@ location	Sao Jose Dos Pinhais
 # Santa Catarina
 location	Planalto Alegre
 location	Chapeco
+location	Lages
+location	Balneario Arroio do Silva
 location	Braco do Norte
 location	Blumenau
 location	Joinville
+location	Palhoca
+location	Sao Jose
 location	Balneario Camburiu
 location	Florianopolis
 
 # Goiás
+location	Rio Verde
+location	Simao
 location	Jatai
-location	Britania
-location	Sanclerlandia
-location	Turvania
-location	Santa Barbara de Goias
-location	Ceres BR
-location	Jaragua
-location	Mangueira
-location	Goiania
 location	Aparecida de Goiania
 location	Senador Canedo
+location	Goiania
+location	Trindade
+location	Turvania
+location	Mangueira
+location	Santa Barbara de Goias
+location	Sanclerlandia
 location	Cidade Ocidental
+location	Jaragua
+location	Ceres BR
+location	Britania
 
 # Tocantins
 location	Sandolandia
@@ -5875,15 +6781,21 @@ location	Presidente Bernardes
 location	Dracena
 location	Narandiba
 location	Pirapozinho
+location	Castilho
 location	Emilianopolis
 location	Alvares Machado
 location	Presidente Prudente
 location	Andradina
+location	Ilha Solteira
 location	Regente Feijo
 location	Taciba
 location	Martinopolis
+location	Pereira Barreto
+location	Mirandopolis
 location	Adamantina
 location	Oswaldo Cruz
+location	Valparaiso BR
+location	Guararapes
 location	Taruma
 location	Auriflama
 location	Jales
@@ -5901,8 +6813,10 @@ location	Echapora
 location	Meridiano
 location	Mira Estrela
 location	Oriente
+location	Penapolis
 location	Votuporanga
 location	Marilia
+location	Avanhandava
 location	Ribeirao do Sul
 location	Cardoso
 location	Ourinhos
@@ -5919,6 +6833,7 @@ location	Sao Jose do Rio Preto
 location	Potirendaba
 location	Itarare
 location	Uru
+location	Taquarituba
 location	Aguas de Santa Barbara
 location	Guapiacu
 location	Itabera
@@ -5927,58 +6842,85 @@ location	Borebi
 location	Catanduva
 location	Avare
 location	Olimpia
+location	Ibitinga
+location	Itapolis
 location	Lencois Paulista
+location	Monte Azul Pulista
 location	Jau
 location	Igaracu do Tiete
 location	Guapiara
 location	Bocaina
 location	Taiacu
 location	Taquaritinga
+location	Bebedouro
+location	Botucatu
 location	Angatuba
 location	Dois Corregos
+location	Matao
 location	Capao Bonito
+location	Viradouro
 location	Guariba
 location	Araraquara
 location	Cajati
+location	Pradopolis
 location	Morro Agudo
 location	Itapetininga
+location	Jacupiranga
 location	Sao Miguel Arcanjo
 location	Cesário Lange
 location	Sete Barras
+location	Sao Carlos
+location	Orlandia
 location	Pariquera-Acu
+location	Aguas de Sao Pedro
 location	Tatui
+location	Registro
 location	Sales Oliveira
+location	Guara
+location	Itirapina
 location	Ribeirao Preto
+location	Ituverava
+location	Jardinopolis
 location	Capela do Alto
+location	Cravinhos
 location	Tiete
 location	Ipero
 location	Boituva
 location	Piracicaba
 location	Juquia
+location	Descalvado
 location	Aracoiaba Da Serra
+location	Rio Das Pedras
 location	Rio Claro SP
 location	Iguape
 location	Porto Feliz
+location	Capivari
 location	Porto Ferreira
 location	Sorocaba
 location	Votorantim
+location	Pirassununga
 location	Santa Barbara D'Oeste
 location	Limeira
 location	Franca
+location	Leme
 location	Araras
 location	Americana
 location	Itu
 location	Nova Odessa
 location	Salto
+location	Patrocinio Paulista
 location	Sumare
+location	Pedro de Toledo
 location	Ibiuna
 location	Indaiatuba
 location	Hortolandia
 location	Mairinque
 location	Itariri
+location	Conchal
 location	Sao Roque
 location	Juquitiba
 location	Campinas
+location	Holambra
 location	Vargem Grande Paulista
 location	Mococa
 location	Peruibe
@@ -6000,10 +6942,13 @@ location	Itatiba
 location	Embu-Guacu
 location	Osasco
 location	Itanhaem
+location	Campo Limpo Paulista
 location	Sao Joao Da Boa Vista
 location	Taboao Da Serra
 location	Amparo
+location	Espirito Santo do Pinhal
 location	Francisco Morato
+location	Divinolandia
 location	Caieiras
 location	Jarinu
 location	São Paulo
@@ -6023,6 +6968,7 @@ location	Praia Grande
 location	Rio Grande Da Serra
 location	Sao Vicente
 location	Piracaia
+location	Itaquaquecetuba
 location	Poa
 location	Santos
 location	Aruja
@@ -6041,12 +6987,26 @@ location	Pindamonhangaba
 location	Caraguatatuba
 location	Sao Sebastiao
 location	Lorena SP
+location	Ubatuba
 location	Cachoeira Paulista
 location	Cunha
+location	Guaira
 
 # Maranhão
+location	Imperatriz
+location	Santa Ines
+location	Cajapio
+location	Miranda do Norte
+location	Peritoro
+location	Rosario BR
 location	Sao Luis
+location	Pirapemas
+location	Cachoeira Grande
 location	Sao Jose de Ribamar
+location	Vargem Grande
+location	Caxias
+location	Anapurus
+location	Timon
 
 # Minas Gerais
 location	Monte Alegre de Minas
@@ -6069,7 +7029,6 @@ location	Barbacena
 location	Ouro Branco
 location	Desterro do Melo
 location	Alem do Paraiba
-location	Guaira
 location	Muriae
 location	Caratinga
 location	Aracuai
@@ -6091,6 +7050,7 @@ location	Nilópolis
 location	Belford Roxo
 location	São João de Meriti
 location	Duque de Caxias
+location	Paraiba do Sul
 location	Rio de Janeiro
 location	Tres Rios BR
 location	Petropolis
@@ -6134,6 +7094,7 @@ location	Feira de Santana
 
 # Espirito Santo
 location	Irupi
+location	Laranjeiras (Espirito Santo)
 location	Cachoeiro de Itapemirim
 location	Baixo Guandu
 location	Barra do Sao Francisco
@@ -6165,8 +7126,9 @@ location	Itaporanga Dajuda
 location	Jaboatiana
 location	Aracaju
 location	Lagarto
+location	Barra Dos Coqueiros
 location	Nossa Senhora do Socorro
-location	Laranjeiras
+location	Laranjeiras (Sergipe)
 location	Riachuelo
 location	Nossa Senhora Da Gloria
 
@@ -6261,6 +7223,8 @@ location	Callao
 
 # Lima
 location	Cañete
+location	San Isidro PE
+location	Jesus Maria PE
 location	Lima
 location	Huarochiri
 
@@ -6269,6 +7233,7 @@ location	Huancayo
 
 # Ancash
 location	Santa
+location	Casma
 location	Huarmey
 location	Huaraz
 
@@ -6410,7 +7375,7 @@ location	Pasto
 location	Popayan
 location	Santander de Quilichao
 
-# Huila
+# Huila CO
 location	Neiva
 
 # Meta
@@ -6436,12 +7401,18 @@ location	Tolemaida
 # Quindio
 location	Armenia
 
+# Bogota
+location	Bogota
+
 # Cartago CO
 location	Cartago CO
 
 # Risaralda
 location	Pereira
 location	Dosquebradas
+
+# Vichada
+location	Puerto Carreno
 
 # Cundinamarca
 location	Soacha
@@ -6467,9 +7438,15 @@ location	Santa Sofia
 location	Togui
 location	Santana
 
+# Casanare
+location	Yopal
+
 # Choco
 location	Union Panamericana
 location	Quibdo
+
+# Arauca
+location	Arauca
 
 # Antioquia
 location	Sabaneta
@@ -6483,6 +7460,8 @@ location	Barrancabermeja
 location	Bucaramanga
 
 # Norte de Santander
+location	Ocana
+location	Pamplona CO
 location	Cucuta
 
 # Cordoba CO
@@ -6494,6 +7473,9 @@ location	Santa Cruz de Lorica
 
 # Bolivar
 location	Cartagena
+
+# Sucre
+location	Sincelejo
 
 # Cesar
 location	Valledupar
@@ -6508,6 +7490,7 @@ location	Barranquilla
 
 # La Guajira
 location	Riohacha
+location	Maicao
 
 ################
 
@@ -6545,17 +7528,25 @@ location	Chitre
 location	San Juan Bautista
 
 # Cocle
-location	Aguadulce
+location	El Roble
 location	Barrios Unidos
+location	Aguadulce
+location	El Coco (Coclé)
+location	El Chiru
+location	Rio Hato
+location	Anton
+location	Santa Rita PA
+location	Canaveral
+location	Cabuya
+location	San Juan de Dios
+location	Pajonal
+location	El Valle
+location	Llano Norte
 location	Llano Grande
 location	Toabre
-location	Pajonal
-location	Penonome
-location	Anton
 location	Chiguiri Arriba
-location	Santa Rita PA
-location	Rio Hato
-location	El Valle
+location	Penonome
+location	La Pintada
 
 # Los Santos
 location	Las Tablas
@@ -6575,23 +7566,26 @@ location	Barrio Norte
 location	Cativá
 location	Maria Chiquita
 location	Portobelo
+location	Rio Indio
 
 # Panama Oeste
+location	Las Lajas PA
 location	Lídice
-location	La Chorrera
-location	Herrera (Panama Oeste)
 location	Guadalupe PA
-location	El Coco
+location	Puerto Caimito
+location	El Coco (Panama Oeste)
 location	Barrio Balboa
 location	Feuillet
 location	Barrio Colon
-location	Santa Clara
-location	Juan Demóstenes Arosemena
-location	Puerto Caimito
-location	Vista Alegre
-location	Arraiján
-location	Burunga
 location	Veracruz
+location	Juan Demóstenes Arosemena
+location	Vista Alegre
+location	Cerro Silvestre
+location	Herrera (Panama Oeste)
+location	Burunga
+location	La Chorrera
+location	Arraiján
+location	Santa Clara
 
 # San Miguelito
 location	Jose D. Espinar
@@ -6619,6 +7613,7 @@ location	Amelia Denis de Icaza
 location	Victoriano Lorenzo
 location	San Francisco PA
 location	Belisario Porras
+location	Mateo Iturralde
 location	Ernesto Cordoba
 location	Belisario Frías
 location	Parque Lefevre
@@ -6629,9 +7624,11 @@ location	Rufina Alfaro
 location	Don Bosco
 location	Parque Real
 location	Las Mañanitas
+location	Mananitas
 location	Tocumen
 location	24 De Diciembre
 location	Pacora
+location	Las Garzas
 location	San Martin PA
 location	Chepo
 location	Torti
@@ -6640,6 +7637,7 @@ location	Torti
 location	Tucuti
 location	Sambu
 location	Yaviza
+location	La Palma
 location	Pinogana
 location	Meteti
 location	Santa Fe PA
@@ -6700,6 +7698,7 @@ location	San Pablo CR
 location	Paracito
 location	San Francisco CR
 location	Heredia
+location	Flores
 location	San Rafael Heredia
 location	Mercedes
 location	Barva
@@ -6749,10 +7748,10 @@ location	Perez Zeledon
 # Cartago CR
 location	San Juan CR
 location	San Diego CR
-location	La Union
 location	Concepcion CR
 location	San Ramón District, La Unión
 location	Tres Rios CR
+location	La Union CR
 location	San Isidro CR
 location	El Tejar
 location	Occidental
@@ -6827,10 +7826,9 @@ location	Hawaii County
 # Alaska
 location	Southwest Alaska
 location	Northern Alaska
+location	Gulf Coast Alaska
+location	Anchorage and Matanuska-Susitna
 location	Interior Alaska
-location	Anchorage
-location	Matanuska-Susitna Valley
-location	Fairbanks
 location	Southeast Alaska
 
 # Oregon
@@ -6857,6 +7855,7 @@ location	Wasco County
 location	Deschutes County
 location	Sherman County
 location	Grant County OR
+location	Harney County
 location	Umatilla County
 location	Union County OR
 
@@ -6886,6 +7885,7 @@ location	Klickitat County
 location	Yakima County
 location	Chelan County
 location	Douglas County WA
+location	Okanogan County
 location	Benton County WA
 location	Grant County WA
 location	Franklin County WA
@@ -6910,7 +7910,7 @@ location	San Mateo County
 location	Napa County
 location	Tehama County
 location	Shasta County
-location	Santa Cruz County
+location	Santa Cruz County CA
 location	Solano County
 location	Yolo County
 location	Contra Costa County
@@ -6959,6 +7959,7 @@ location	Mineral County NV
 location	Douglas County NV
 location	Lyon County
 location	Carson
+location	Carson City
 location	Storey County
 location	Churchill County
 location	Lander County
@@ -6971,6 +7972,7 @@ location	Nez Perce County
 location	Kootenai County
 location	Ada County
 location	Madison County ID
+location	Bonneville County
 
 # Utah
 location	Utah County
@@ -6984,6 +7986,7 @@ location	Maricopa County
 location	Coconino County
 location	Pima County
 location	Pinal County
+location	Santa Cruz County AZ
 location	Gila County
 location	Navajo County
 location	Graham County
@@ -7001,6 +8004,7 @@ location	Bozeman
 
 # Colorado
 location	Mesa County
+location	Pitkin County
 location	Denver County
 location	Colorado Springs
 
@@ -7017,6 +8021,7 @@ location	El Paso County
 location	Presidio County
 location	Pecos
 location	Brewster County
+location	Winkler County
 location	Bailey County
 location	Pecos County
 location	Parmer County
@@ -7029,6 +8034,7 @@ location	Terry County
 location	Hockley County
 location	Castro County
 location	Midland County TX
+location	Randall County
 location	Potter County TX
 location	Lubbock County
 location	Swisher County
@@ -7043,6 +8049,7 @@ location	Wheeler County
 location	Runnels County TX
 location	Taylor
 location	Taylor County TX
+location	Kimble County
 location	Knox County TX
 location	McCulloch County
 location	Kerr County
@@ -7050,7 +8057,9 @@ location	Webb County
 location	Bandera County
 location	Zapata County
 location	Medina County TX
+location	La Salle County
 location	Brown County TX
+location	Gillespie County
 location	San Saba County
 location	Starr County
 location	Kendall County TX
@@ -7063,7 +8072,9 @@ location	Comanche County
 location	Bexar County
 location	Lometa
 location	Comal County
+location	Lampasas County
 location	Hidalgo County
+location	Burnet County
 location	Wilson County
 location	Jim Wells County
 location	Live Oak County
@@ -7081,6 +8092,7 @@ location	Montague County
 location	Bee County
 location	Round Rock
 location	Wise County
+location	Bosque County
 location	Georgetown TX
 location	Nueces County
 location	Caldwell County
@@ -7099,6 +8111,8 @@ location	Johnson County TX
 location	Temple
 location	Tarrant County
 location	Burleson
+location	DeWitt County TX
+location	Refugio County
 location	Rogers
 location	Mclennan County
 location	Lorena TX
@@ -7170,7 +8184,8 @@ location	Titus County
 location	Upshur County
 location	Gregg County
 location	Polk County TX
-location	Rusk County
+location	Rusk County TX
+location	Liberty County
 location	Clark
 location	Morris County TX
 location	Angelina County
@@ -7182,6 +8197,7 @@ location	Panola County
 location	Jefferson County TX
 location	Jasper County
 location	Orange County TX
+location	Newton County
 location	Calcasieu County
 location	Jackson
 
@@ -7189,7 +8205,9 @@ location	Jackson
 location	Fillmore County
 location	Houston County MN
 location	Winona County
+location	Olmsted County
 location	Wabasha County
+location	Goodhue County
 location	Dakota County
 location	Chisago County
 location	Stearns County
@@ -7267,6 +8285,7 @@ location	Chippewa County WI
 location	Bayfield County
 location	Sawyer County
 location	La Crosse County
+location	Rusk County WI
 location	Crawford County WI
 location	Vernon County
 location	Jackson County WI
@@ -7331,10 +8350,13 @@ location	Kewaunee County
 location	Door County
 
 # Illinois
+location	Alexander County
 location	Massac County
 location	Pulaski County
+location	Pope County
 location	Johnson County IL
 location	Union County IL
+location	Hardin County IL
 location	Williamson County IL
 location	Saline County IL
 location	Gallatin County IL
@@ -7347,64 +8369,77 @@ location	Perry County IL
 location	Monroe County IL
 location	Jefferson County IL
 location	Washington County IL
+location	Edwards County
 location	Wayne County IL
 location	Wabash County
 location	St. Clair County IL
 location	Clinton County IL
 location	Marion County IL
+location	Richland County IL
+location	Lawrence County IL
+location	Clay County IL
 location	Madison County IL
 location	Bond County
 location	Fayette County IL
 location	Crawford County IL
 location	Effingham County
 location	Jersey County
+location	Calhoun County IL
 location	Montgomery County IL
 location	Macoupin County
-location	Cumberland County
+location	Cumberland County IL
 location	Clark County IL
 location	Greene County IL
 location	Shelby County IL
-location	Christian County
+location	Christian County IL
 location	Coles County IL
 location	Pike County IL
 location	Scott County
 location	Moultrie County
+location	Edgar County
 location	Morgan County IL
 location	Sangamon County
 location	Douglas County IL
 location	Macon County
+location	Macon County IL
 location	Brown County IL
+location	Piatt County
 location	Cass County IL
 location	Adams County IL
 location	Menard County IL
 location	Logan County IL
 location	Champaign County IL
 location	Schuyler County IL
+location	DeWitt County IL
 location	Vermilion County
+location	De Witt County
 location	Mason County IL
 location	Hancock County
 location	McDonough County
 location	McLean County IL
 location	Fulton County IL
-location	Tazewell County
+location	Tazewell County IL
 location	Iroquois County
 location	Peoria County
+location	Woodford County IL
 location	Henderson County IL
 location	Warren County IL
 location	Livingston County IL
 location	Knox County IL
 location	Marshall County IL
 location	Kankakee County
+location	Mercer County
 location	Putnam County IL
 location	Grundy County IL
-location	Lasalle County
+location	Henry County IL
+location	LaSalle County IL
 location	Bureau County
 location	Will County
 location	Rock Island County
 location	Kendall County IL
 location	Lee County IL
 location	Whiteside County
-location	Cook County
+location	Cook County IL
 location	Chicago
 location	Dupage County
 location	Dekalb County IL
@@ -7412,12 +8447,13 @@ location	Kane County
 location	Ogle County
 location	Ogle County IL
 location	Carroll County IL
-location	Boone County
+location	Boone County IL
 location	Winnebago County IL
 location	McHenry County
 location	Lake County IL
 location	Stephenson County
 location	Jo Daviess County
+location	Madison
 
 # Alabama
 location	Baldwin County
@@ -7429,7 +8465,7 @@ location	Covington County
 location	Coffee County
 location	Dale County
 location	Conecuh County
-location	Henry County
+location	Henry County AL
 location	Monroe County AL
 location	Crenshaw County
 location	Butler County AL
@@ -7450,7 +8486,7 @@ location	Tallapoosa County
 location	Chambers County
 location	Coosa County
 location	Bibb County
-location	Clay County
+location	Clay County AL
 location	Shelby County AL
 location	Randolph County AL
 location	Tuscaloosa County
@@ -7471,7 +8507,7 @@ location	Cullman County
 location	Marshall County AL
 location	Morgan County AL
 location	Dekalb County AL
-location	Lawrence County
+location	Lawrence County AL
 location	Colbert County
 location	Jackson County AL
 location	Madison County AL
@@ -7480,14 +8516,17 @@ location	Lauderdale County
 
 # Tennessee
 location	Shelby County TN
+location	Cumberland County TN
 
 # Indiana
 location	Jefferson County IN
 location	Johnson County IN
 location	Indianapolis
 location	Marion County IN
+location	Boone County IN
 location	Tippecanoe County
 location	Lake County IN
+location	Porter County
 location	Elkhart County
 
 # Kentucky
@@ -7518,8 +8557,10 @@ location	Franklin County OH
 location	Columbus OH
 location	Hocking County
 location	Richland County OH
+location	Lorain County
 location	Cuyahoga County
 location	Summit County OH
+location	Trumbull County
 
 # Florida
 location	Walton County FL
@@ -7567,6 +8608,8 @@ location	Kanawha
 
 # Virginia
 location	Frederick County
+location	Loudoun County
+location	Fairfax County
 location	Alexandria
 
 # Pennsylvania
@@ -7707,6 +8750,7 @@ location	Madison CT
 location	Tolland County
 
 # Massachusetts
+location	Worcester County
 location	Middlesex County MA
 location	Norfolk County
 location	Boston
@@ -7818,6 +8862,7 @@ division	Tehran
 division	Iran
 division	Gorgan
 division	Semnan
+division	Hormozgan
 division	Kashmar
 division	Sistan and Baluchestan
 
@@ -7847,10 +8892,14 @@ division	Kabul
 ### Kazakhstan
 division	West-Kazakhstan Region
 division	Atyrau Region
+division	Mangystau Region
 division	Aktobe Region
 division	Kyzylorda Region
 division	Kazakhstan
+division	South Kazakhstan Region
+division	Karaganda Region
 division	Nur-Sultan
+division	Jambyl Region
 division	Almaty
 division	East-Kazakhstan Region
 
@@ -7955,6 +9004,7 @@ division	Nay Pyi Taw
 division	Myanmar
 
 ### Thailand
+division	Narathiwat
 division	Trang
 division	Phuket
 division	Rayong
@@ -7966,7 +9016,7 @@ division	Samut Prakan
 division	Bangkok
 division	Nonthaburi
 division	Pathum Thani
-division	Nakhonnayok
+division	Nakhon Nayok
 division	Ang Thong
 division	Thailand
 division	Singburi
@@ -8037,7 +9087,9 @@ division	Hong Kong
 division	Aceh
 division	North Sumatra
 division	West Sumatra
+division	Riau
 division	Bengkulu
+division	Jambi
 division	South Sumatra
 division	Riau Islands
 division	Lampung
@@ -8253,6 +9305,7 @@ division	Volta
 
 ### Togo
 division	Golfe
+division	Grand Lome
 division	Centrale Region TG
 division	Togo
 
@@ -8288,6 +9341,7 @@ division	Delta
 division	Zamfara State
 division	Kogi State
 division	Rivers
+division	Imo
 division	Federal Capital Territory
 division	Enugu
 division	Abuja
@@ -8300,6 +9354,8 @@ division	Nasarawa State
 division	Kano State
 division	Benue State
 division	Plateau State
+division	Bauchi
+division	Adamawa
 division	Borno State
 
 ### Tunisia
@@ -8328,6 +9384,7 @@ division	Equatorial Guinea
 division	Wele Nzas
 
 ### Gabon
+division	Lambarene
 division	Libreville
 
 ### Cameroon
@@ -8336,9 +9393,6 @@ division	Cameroon
 
 ### Republic of the Congo
 division	Brazzaville
-
-### Libya
-division	Libya
 
 ### Namibia
 division	Kunene
@@ -8356,7 +9410,10 @@ division	Omaheke
 division	Zambezi
 
 ### Angola
+division	Huila AO
+division	Cuanza Sul
 division	Luanda
+division	Cabinda
 
 ### Democratic Republic of the Congo
 division	Kongo Central
@@ -8375,6 +9432,7 @@ division	Southern East
 division	Gaborone
 division	Botswana
 division	Central District BW
+division	Orapa
 division	Francistown
 division	North-East District
 division	Maun
@@ -8396,7 +9454,7 @@ division	KwaZulu-Natal
 division	Livingstone
 division	Lusaka
 division	Zambia
-division	Central
+division	Central Zambia
 division	Copperbelt
 
 ### Lesotho
@@ -8430,6 +9488,7 @@ division	Mbabane
 division	Hhohho
 
 ### Uganda
+division	Central Uganda
 division	Uganda
 
 ### Malawi
@@ -8473,9 +9532,17 @@ division	Moheli
 division	Ngazidja
 
 ### Madagascar
+division	Atsimo-Andrefana
+division	Haute Matsiatra
+division	Amoron'i Mania
+division	Menabe
+division	Vakinankaratra
+division	Itasy
 division	Analamanga
 division	Toamasina
 division	Analanjirofo
+division	Boeny
+division	Diana
 
 ### Somalia
 division	Somalia
@@ -8761,7 +9828,6 @@ division	Trentino
 division	Emilia-Romagna
 division	Tuscany
 division	Trentino-Alto Adige
-division	South Tyrol
 division	Italian cruise ship
 division	Italy
 division	Veneto
@@ -8847,12 +9913,12 @@ division	Krapina-Zagorje County
 division	Zagreb
 division	Sibenik-Knin County
 division	Split-Dalmatia County
-division	Zagreb County
 division	Varaždin County
 division	Varazdin
 division	Split
 division	Medimurje County
 division	Sisak-Moslavina County
+division	Koprivnica-Križevci County
 division	Koprivnica
 division	Bjelovar-Bilogora County
 division	Dubrovnik-Neretva County
@@ -8866,6 +9932,7 @@ division	Vukovar-Srijem County
 
 ### Czech Republic
 division	Cheb
+division	Karlovy Vary
 division	Carlsbad
 division	Plzeň Region
 division	Ustecky Region
@@ -8897,6 +9964,7 @@ division	Zabrezi
 division	Caslavice
 division	Slavetin
 division	Pardubice Region
+division	Trutnov District
 division	Hradec Králové Region
 division	Nachod
 division	Kunice
@@ -8956,66 +10024,16 @@ division	Lubelskie
 division	Podlaskie
 
 ### Slovakia
-division	Kostoliste
-division	Malacky
-division	Stupava
 division	Bratislava
-division	Ivanka Pri Dunaji
-division	Pezinok
-division	Miloslavov
-division	Senec
 division	Trnava
-division	Drahovce
-division	Hlohovec
-division	Piestany
-division	Nove Mesto nad Vahom
-division	Sala
-division	Jatov
 division	Trenčín
-division	Kamenicna
-division	Tvrdosovce
 division	Nitra
-division	Trencianska Tepla
-division	Komarno
-division	Nove Zamky
-division	Topolcany
-division	Surany
-division	Ilava
-division	Banovce nad Bebravou
-division	Partizanske
-division	Levice
-division	Prievidza
 division	Zilina
-division	Bartosova Lehotka
-division	Martin
-division	Sahy
 division	Banska Bystrica
-division	Oravska Lesna
-division	Dolny Kubin
-division	Ruzomberok
-division	Mutne Dulov
-division	Velky Krtis
-division	Tapesovo
-division	Namestovo
-division	Krivá
-division	Rabca
 division	Slovakia
-division	Medvedzie
-division	Bobrov
-division	Tvrdosin
-division	Zabiedovo
-division	Myto Pod Dumbierom
-division	Hnusta
-division	Rimavska Sobota
-division	Muranska Huta
-division	Revuca
-division	Poprad
-division	Doľany
 division	Prešov
 division	Kosice
-division	Humenne
-division	Pavlovce nad Uhom
-division	Bela nad Cirochou
+division	Stropkov Region
 
 ### Montenegro
 division	Montenegro
@@ -9138,6 +10156,7 @@ division	Gorj
 division	Cluj Napoca
 division	Dolj
 division	Cluj
+division	Oltenia
 division	Sibiu
 division	Mures
 division	Romania
@@ -9182,6 +10201,7 @@ division	Gabrovo
 division	Kardzhali
 division	Bulgaria
 division	Stara Zagora
+division	Veliko Tyrnovo
 division	Haskovo
 division	Ruse
 division	Sliven
@@ -9189,6 +10209,7 @@ division	Yambol
 division	Razgrad
 division	Targovishte
 division	Burgas
+division	Silistra
 division	Dobrich
 division	Varna
 
@@ -9205,6 +10226,7 @@ division	Helsinki
 division	Uusimaa
 division	Southern Finland
 division	Finland
+division	Keski-Suomi
 
 ### Belarus
 division	Minsk
@@ -9436,20 +10458,24 @@ division	Alagoas
 division	Brazilian Cruise
 
 ### Peru
+division	Tacna
 division	Moquegua
 division	Arequipa
 division	Ica
+division	Apurimac
 division	Ayacucho
 division	Cuzco
 division	Huancavelica
 division	Callao
 division	Lima
 division	Junin
+division	Pasco
 division	Peru
 division	Huanuco
 division	Ancash
 division	Ucayali
 division	La Libertad
+division	San Martin
 division	Lambayeque
 division	Cajamarca
 division	Amazonas PE
@@ -9489,7 +10515,7 @@ division	Putumayo
 division	Caqueta
 division	Narino
 division	Cauca
-division	Huila
+division	Huila CO
 division	Colombia
 division	Meta
 division	Valle del Cauca
@@ -9502,6 +10528,7 @@ division	Vichada
 division	Cundinamarca
 division	Caldas
 division	Boyaca
+division	Casanare
 division	Choco
 division	Arauca
 division	Antioquia
@@ -9521,7 +10548,11 @@ division	San Andres y Providencia
 division	Suriname
 
 ### Venezuela
+division	Zulia
+division	Los Roques
+division	Miranda
 division	Venezuela
+division	Nueva Esparta
 
 ### Trinidad and Tobago
 division	Trinidad and Tobago
@@ -9824,7 +10855,6 @@ country	Equatorial Guinea
 country	Gabon
 country	Cameroon
 country	Republic of the Congo
-country	Libya
 country	Namibia
 country	Angola
 country	Democratic Republic of the Congo
@@ -9943,18 +10973,1547 @@ country	Canada
 ################
 
 
-recency	Older
-recency	One month ago
-recency	One week ago
-recency	3-7 days ago
-recency	1-2 days ago
-recency	New
 region	Asia
 region	Oceania
 region	Africa
 region	Europe
 region	South America
 region	North America
+
+################
+
+
+recency	Older
+recency	One month ago
+recency	One week ago
+recency	3-7 days ago
+recency	1-2 days ago
+recency	New
+
+################
+
+pango_lineage	A
+pango_lineage	A.1
+pango_lineage	A.2.1
+pango_lineage	A.2.3
+pango_lineage	A.2.4
+pango_lineage	A.2.5
+pango_lineage	A.2.5.1
+pango_lineage	A.2.5.2
+pango_lineage	A.3
+pango_lineage	A.4
+pango_lineage	A.5
+pango_lineage	A.6
+pango_lineage	A.7
+pango_lineage	A.8
+pango_lineage	A.9
+pango_lineage	A.10
+pango_lineage	A.11
+pango_lineage	A.12
+pango_lineage	A.13
+pango_lineage	A.14
+pango_lineage	A.15
+pango_lineage	A.16
+pango_lineage	A.17
+pango_lineage	A.18
+pango_lineage	A.19
+pango_lineage	A.20
+pango_lineage	A.21
+pango_lineage	A.22
+pango_lineage	A.23
+pango_lineage	A.23.1
+pango_lineage	A.24
+pango_lineage	A.25
+pango_lineage	A.26
+pango_lineage	A.27
+pango_lineage	A.28
+pango_lineage	AA.1
+pango_lineage	AA.2
+pango_lineage	AA.3
+pango_lineage	AA.4
+pango_lineage	AA.5
+pango_lineage	AA.6
+pango_lineage	AA.7
+pango_lineage	AA.8
+pango_lineage	AB.1
+pango_lineage	AC.1
+pango_lineage	AD.1
+pango_lineage	AD.2
+pango_lineage	AD.2.1
+pango_lineage	AE.1
+pango_lineage	AE.2
+pango_lineage	AE.3
+pango_lineage	AE.4
+pango_lineage	AE.5
+pango_lineage	AE.6
+pango_lineage	AE.7
+pango_lineage	AE.8
+pango_lineage	AF.1
+pango_lineage	AG.1
+pango_lineage	AH.1
+pango_lineage	AH.2
+pango_lineage	AH.3
+pango_lineage	AJ.1
+pango_lineage	AK.1
+pango_lineage	AK.2
+pango_lineage	AL.1
+pango_lineage	AM.1
+pango_lineage	AM.2
+pango_lineage	AM.3
+pango_lineage	AM.4
+pango_lineage	AN.1
+pango_lineage	AP.1
+pango_lineage	AQ.1
+pango_lineage	AQ.2
+pango_lineage	AS.1
+pango_lineage	AS.2
+pango_lineage	B
+pango_lineage	B.1
+pango_lineage	B.1.1
+pango_lineage	B.1.1.1
+pango_lineage	B.1.1.2
+pango_lineage	B.1.1.3
+pango_lineage	B.1.1.4
+pango_lineage	B.1.1.5
+pango_lineage	B.1.1.6
+pango_lineage	B.1.1.7
+pango_lineage	B.1.1.8
+pango_lineage	B.1.1.10
+pango_lineage	B.1.1.12
+pango_lineage	B.1.1.13
+pango_lineage	B.1.1.14
+pango_lineage	B.1.1.15
+pango_lineage	B.1.1.16
+pango_lineage	B.1.1.17
+pango_lineage	B.1.1.20
+pango_lineage	B.1.1.25
+pango_lineage	B.1.1.26
+pango_lineage	B.1.1.27
+pango_lineage	B.1.1.28
+pango_lineage	B.1.1.29
+pango_lineage	B.1.1.30
+pango_lineage	B.1.1.31
+pango_lineage	B.1.1.32
+pango_lineage	B.1.1.33
+pango_lineage	B.1.1.34
+pango_lineage	B.1.1.35
+pango_lineage	B.1.1.36
+pango_lineage	B.1.1.37
+pango_lineage	B.1.1.38
+pango_lineage	B.1.1.39
+pango_lineage	B.1.1.40
+pango_lineage	B.1.1.41
+pango_lineage	B.1.1.43
+pango_lineage	B.1.1.44
+pango_lineage	B.1.1.45
+pango_lineage	B.1.1.46
+pango_lineage	B.1.1.47
+pango_lineage	B.1.1.48
+pango_lineage	B.1.1.49
+pango_lineage	B.1.1.50
+pango_lineage	B.1.1.51
+pango_lineage	B.1.1.52
+pango_lineage	B.1.1.53
+pango_lineage	B.1.1.54
+pango_lineage	B.1.1.55
+pango_lineage	B.1.1.56
+pango_lineage	B.1.1.57
+pango_lineage	B.1.1.58
+pango_lineage	B.1.1.59
+pango_lineage	B.1.1.60
+pango_lineage	B.1.1.61
+pango_lineage	B.1.1.62
+pango_lineage	B.1.1.63
+pango_lineage	B.1.1.64
+pango_lineage	B.1.1.65
+pango_lineage	B.1.1.66
+pango_lineage	B.1.1.67
+pango_lineage	B.1.1.70
+pango_lineage	B.1.1.71
+pango_lineage	B.1.1.72
+pango_lineage	B.1.1.73
+pango_lineage	B.1.1.74
+pango_lineage	B.1.1.75
+pango_lineage	B.1.1.76
+pango_lineage	B.1.1.77
+pango_lineage	B.1.1.78
+pango_lineage	B.1.1.79
+pango_lineage	B.1.1.80
+pango_lineage	B.1.1.81
+pango_lineage	B.1.1.82
+pango_lineage	B.1.1.83
+pango_lineage	B.1.1.84
+pango_lineage	B.1.1.85
+pango_lineage	B.1.1.86
+pango_lineage	B.1.1.87
+pango_lineage	B.1.1.88
+pango_lineage	B.1.1.89
+pango_lineage	B.1.1.90
+pango_lineage	B.1.1.91
+pango_lineage	B.1.1.92
+pango_lineage	B.1.1.93
+pango_lineage	B.1.1.94
+pango_lineage	B.1.1.95
+pango_lineage	B.1.1.96
+pango_lineage	B.1.1.97
+pango_lineage	B.1.1.98
+pango_lineage	B.1.1.99
+pango_lineage	B.1.1.100
+pango_lineage	B.1.1.101
+pango_lineage	B.1.1.102
+pango_lineage	B.1.1.103
+pango_lineage	B.1.1.104
+pango_lineage	B.1.1.105
+pango_lineage	B.1.1.106
+pango_lineage	B.1.1.107
+pango_lineage	B.1.1.108
+pango_lineage	B.1.1.109
+pango_lineage	B.1.1.110
+pango_lineage	B.1.1.111
+pango_lineage	B.1.1.112
+pango_lineage	B.1.1.113
+pango_lineage	B.1.1.114
+pango_lineage	B.1.1.115
+pango_lineage	B.1.1.116
+pango_lineage	B.1.1.117
+pango_lineage	B.1.1.118
+pango_lineage	B.1.1.119
+pango_lineage	B.1.1.120
+pango_lineage	B.1.1.121
+pango_lineage	B.1.1.122
+pango_lineage	B.1.1.123
+pango_lineage	B.1.1.124
+pango_lineage	B.1.1.125
+pango_lineage	B.1.1.126
+pango_lineage	B.1.1.127
+pango_lineage	B.1.1.128
+pango_lineage	B.1.1.129
+pango_lineage	B.1.1.130
+pango_lineage	B.1.1.131
+pango_lineage	B.1.1.132
+pango_lineage	B.1.1.133
+pango_lineage	B.1.1.134
+pango_lineage	B.1.1.135
+pango_lineage	B.1.1.136
+pango_lineage	B.1.1.137
+pango_lineage	B.1.1.138
+pango_lineage	B.1.1.139
+pango_lineage	B.1.1.140
+pango_lineage	B.1.1.141
+pango_lineage	B.1.1.142
+pango_lineage	B.1.1.143
+pango_lineage	B.1.1.144
+pango_lineage	B.1.1.145
+pango_lineage	B.1.1.146
+pango_lineage	B.1.1.147
+pango_lineage	B.1.1.148
+pango_lineage	B.1.1.149
+pango_lineage	B.1.1.150
+pango_lineage	B.1.1.151
+pango_lineage	B.1.1.152
+pango_lineage	B.1.1.153
+pango_lineage	B.1.1.154
+pango_lineage	B.1.1.155
+pango_lineage	B.1.1.156
+pango_lineage	B.1.1.157
+pango_lineage	B.1.1.158
+pango_lineage	B.1.1.159
+pango_lineage	B.1.1.160
+pango_lineage	B.1.1.161
+pango_lineage	B.1.1.162
+pango_lineage	B.1.1.163
+pango_lineage	B.1.1.164
+pango_lineage	B.1.1.165
+pango_lineage	B.1.1.166
+pango_lineage	B.1.1.167
+pango_lineage	B.1.1.168
+pango_lineage	B.1.1.169
+pango_lineage	B.1.1.170
+pango_lineage	B.1.1.171
+pango_lineage	B.1.1.172
+pango_lineage	B.1.1.173
+pango_lineage	B.1.1.174
+pango_lineage	B.1.1.175
+pango_lineage	B.1.1.176
+pango_lineage	B.1.1.177
+pango_lineage	B.1.1.178
+pango_lineage	B.1.1.179
+pango_lineage	B.1.1.180
+pango_lineage	B.1.1.181
+pango_lineage	B.1.1.182
+pango_lineage	B.1.1.183
+pango_lineage	B.1.1.184
+pango_lineage	B.1.1.185
+pango_lineage	B.1.1.186
+pango_lineage	B.1.1.187
+pango_lineage	B.1.1.189
+pango_lineage	B.1.1.190
+pango_lineage	B.1.1.191
+pango_lineage	B.1.1.192
+pango_lineage	B.1.1.193
+pango_lineage	B.1.1.194
+pango_lineage	B.1.1.195
+pango_lineage	B.1.1.196
+pango_lineage	B.1.1.197
+pango_lineage	B.1.1.198
+pango_lineage	B.1.1.199
+pango_lineage	B.1.1.200
+pango_lineage	B.1.1.201
+pango_lineage	B.1.1.202
+pango_lineage	B.1.1.203
+pango_lineage	B.1.1.204
+pango_lineage	B.1.1.205
+pango_lineage	B.1.1.206
+pango_lineage	B.1.1.207
+pango_lineage	B.1.1.208
+pango_lineage	B.1.1.209
+pango_lineage	B.1.1.210
+pango_lineage	B.1.1.211
+pango_lineage	B.1.1.212
+pango_lineage	B.1.1.213
+pango_lineage	B.1.1.214
+pango_lineage	B.1.1.215
+pango_lineage	B.1.1.216
+pango_lineage	B.1.1.217
+pango_lineage	B.1.1.218
+pango_lineage	B.1.1.219
+pango_lineage	B.1.1.220
+pango_lineage	B.1.1.221
+pango_lineage	B.1.1.222
+pango_lineage	B.1.1.223
+pango_lineage	B.1.1.224
+pango_lineage	B.1.1.225
+pango_lineage	B.1.1.226
+pango_lineage	B.1.1.227
+pango_lineage	B.1.1.231
+pango_lineage	B.1.1.232
+pango_lineage	B.1.1.233
+pango_lineage	B.1.1.234
+pango_lineage	B.1.1.235
+pango_lineage	B.1.1.236
+pango_lineage	B.1.1.237
+pango_lineage	B.1.1.238
+pango_lineage	B.1.1.239
+pango_lineage	B.1.1.240
+pango_lineage	B.1.1.241
+pango_lineage	B.1.1.242
+pango_lineage	B.1.1.243
+pango_lineage	B.1.1.244
+pango_lineage	B.1.1.245
+pango_lineage	B.1.1.246
+pango_lineage	B.1.1.247
+pango_lineage	B.1.1.248
+pango_lineage	B.1.1.249
+pango_lineage	B.1.1.250
+pango_lineage	B.1.1.251
+pango_lineage	B.1.1.252
+pango_lineage	B.1.1.253
+pango_lineage	B.1.1.254
+pango_lineage	B.1.1.255
+pango_lineage	B.1.1.256
+pango_lineage	B.1.1.257
+pango_lineage	B.1.1.258
+pango_lineage	B.1.1.259
+pango_lineage	B.1.1.260
+pango_lineage	B.1.1.261
+pango_lineage	B.1.1.262
+pango_lineage	B.1.1.263
+pango_lineage	B.1.1.264
+pango_lineage	B.1.1.265
+pango_lineage	B.1.1.266
+pango_lineage	B.1.1.267
+pango_lineage	B.1.1.268
+pango_lineage	B.1.1.269
+pango_lineage	B.1.1.270
+pango_lineage	B.1.1.271
+pango_lineage	B.1.1.272
+pango_lineage	B.1.1.273
+pango_lineage	B.1.1.274
+pango_lineage	B.1.1.275
+pango_lineage	B.1.1.276
+pango_lineage	B.1.1.277
+pango_lineage	B.1.1.278
+pango_lineage	B.1.1.279
+pango_lineage	B.1.1.280
+pango_lineage	B.1.1.281
+pango_lineage	B.1.1.282
+pango_lineage	B.1.1.283
+pango_lineage	B.1.1.284
+pango_lineage	B.1.1.285
+pango_lineage	B.1.1.286
+pango_lineage	B.1.1.287
+pango_lineage	B.1.1.288
+pango_lineage	B.1.1.289
+pango_lineage	B.1.1.290
+pango_lineage	B.1.1.291
+pango_lineage	B.1.1.292
+pango_lineage	B.1.1.293
+pango_lineage	B.1.1.294
+pango_lineage	B.1.1.295
+pango_lineage	B.1.1.296
+pango_lineage	B.1.1.297
+pango_lineage	B.1.1.298
+pango_lineage	B.1.1.299
+pango_lineage	B.1.1.300
+pango_lineage	B.1.1.301
+pango_lineage	B.1.1.302
+pango_lineage	B.1.1.303
+pango_lineage	B.1.1.304
+pango_lineage	B.1.1.305
+pango_lineage	B.1.1.306
+pango_lineage	B.1.1.307
+pango_lineage	B.1.1.308
+pango_lineage	B.1.1.309
+pango_lineage	B.1.1.310
+pango_lineage	B.1.1.311
+pango_lineage	B.1.1.312
+pango_lineage	B.1.1.313
+pango_lineage	B.1.1.314
+pango_lineage	B.1.1.315
+pango_lineage	B.1.1.316
+pango_lineage	B.1.1.317
+pango_lineage	B.1.1.318
+pango_lineage	B.1.1.319
+pango_lineage	B.1.1.320
+pango_lineage	B.1.1.322
+pango_lineage	B.1.1.323
+pango_lineage	B.1.1.324
+pango_lineage	B.1.1.325
+pango_lineage	B.1.1.326
+pango_lineage	B.1.1.327
+pango_lineage	B.1.1.328
+pango_lineage	B.1.1.329
+pango_lineage	B.1.1.330
+pango_lineage	B.1.1.331
+pango_lineage	B.1.1.332
+pango_lineage	B.1.1.333
+pango_lineage	B.1.1.334
+pango_lineage	B.1.1.335
+pango_lineage	B.1.1.336
+pango_lineage	B.1.1.337
+pango_lineage	B.1.1.338
+pango_lineage	B.1.1.339
+pango_lineage	B.1.1.340
+pango_lineage	B.1.1.341
+pango_lineage	B.1.1.342
+pango_lineage	B.1.1.343
+pango_lineage	B.1.1.344
+pango_lineage	B.1.1.345
+pango_lineage	B.1.1.346
+pango_lineage	B.1.1.347
+pango_lineage	B.1.1.348
+pango_lineage	B.1.1.349
+pango_lineage	B.1.1.350
+pango_lineage	B.1.1.351
+pango_lineage	B.1.1.352
+pango_lineage	B.1.1.353
+pango_lineage	B.1.1.354
+pango_lineage	B.1.1.355
+pango_lineage	B.1.1.356
+pango_lineage	B.1.1.357
+pango_lineage	B.1.1.358
+pango_lineage	B.1.1.359
+pango_lineage	B.1.1.360
+pango_lineage	B.1.1.361
+pango_lineage	B.1.1.362
+pango_lineage	B.1.1.363
+pango_lineage	B.1.1.364
+pango_lineage	B.1.1.365
+pango_lineage	B.1.1.366
+pango_lineage	B.1.1.367
+pango_lineage	B.1.1.368
+pango_lineage	B.1.1.369
+pango_lineage	B.1.1.370
+pango_lineage	B.1.1.371
+pango_lineage	B.1.1.372
+pango_lineage	B.1.1.373
+pango_lineage	B.1.1.374
+pango_lineage	B.1.1.375
+pango_lineage	B.1.1.376
+pango_lineage	B.1.1.377
+pango_lineage	B.1.1.378
+pango_lineage	B.1.1.379
+pango_lineage	B.1.1.380
+pango_lineage	B.1.1.381
+pango_lineage	B.1.1.382
+pango_lineage	B.1.1.383
+pango_lineage	B.1.1.384
+pango_lineage	B.1.1.385
+pango_lineage	B.1.1.386
+pango_lineage	B.1.1.387
+pango_lineage	B.1.1.388
+pango_lineage	B.1.1.389
+pango_lineage	B.1.1.391
+pango_lineage	B.1.1.392
+pango_lineage	B.1.1.393
+pango_lineage	B.1.1.394
+pango_lineage	B.1.1.395
+pango_lineage	B.1.1.396
+pango_lineage	B.1.1.397
+pango_lineage	B.1.1.398
+pango_lineage	B.1.1.399
+pango_lineage	B.1.1.400
+pango_lineage	B.1.1.401
+pango_lineage	B.1.1.402
+pango_lineage	B.1.1.403
+pango_lineage	B.1.1.404
+pango_lineage	B.1.1.405
+pango_lineage	B.1.1.406
+pango_lineage	B.1.1.407
+pango_lineage	B.1.1.408
+pango_lineage	B.1.1.409
+pango_lineage	B.1.1.410
+pango_lineage	B.1.1.411
+pango_lineage	B.1.1.412
+pango_lineage	B.1.1.413
+pango_lineage	B.1.1.414
+pango_lineage	B.1.1.415
+pango_lineage	B.1.1.416
+pango_lineage	B.1.1.417
+pango_lineage	B.1.1.418
+pango_lineage	B.1.1.419
+pango_lineage	B.1.1.420
+pango_lineage	B.1.1.421
+pango_lineage	B.1.1.422
+pango_lineage	B.1.1.423
+pango_lineage	B.1.1.424
+pango_lineage	B.1.1.425
+pango_lineage	B.1.1.426
+pango_lineage	B.1.1.427
+pango_lineage	B.1.1.428
+pango_lineage	B.1.1.429
+pango_lineage	B.1.1.430
+pango_lineage	B.1.1.431
+pango_lineage	B.1.1.432
+pango_lineage	B.1.1.433
+pango_lineage	B.1.1.434
+pango_lineage	B.1.1.435
+pango_lineage	B.1.1.436
+pango_lineage	B.1.1.437
+pango_lineage	B.1.1.438
+pango_lineage	B.1.1.439
+pango_lineage	B.1.1.440
+pango_lineage	B.1.1.441
+pango_lineage	B.1.1.442
+pango_lineage	B.1.1.444
+pango_lineage	B.1.1.445
+pango_lineage	B.1.1.446
+pango_lineage	B.1.1.447
+pango_lineage	B.1.1.448
+pango_lineage	B.1.1.449
+pango_lineage	B.1.1.450
+pango_lineage	B.1.1.451
+pango_lineage	B.1.1.452
+pango_lineage	B.1.1.453
+pango_lineage	B.1.1.456
+pango_lineage	B.1.1.458
+pango_lineage	B.1.1.459
+pango_lineage	B.1.1.461
+pango_lineage	B.1.1.462
+pango_lineage	B.1.1.463
+pango_lineage	B.1.1.464
+pango_lineage	B.1.1.465
+pango_lineage	B.1.1.466
+pango_lineage	B.1.1.467
+pango_lineage	B.1.1.480
+pango_lineage	B.1.1.481
+pango_lineage	B.1.1.482
+pango_lineage	B.1.1.483
+pango_lineage	B.1.1.484
+pango_lineage	B.1.1.485
+pango_lineage	B.1.1.486
+pango_lineage	B.1.1.487
+pango_lineage	B.1.1.500
+pango_lineage	B.1.1.506
+pango_lineage	B.1.1.507
+pango_lineage	B.1.1.512
+pango_lineage	B.1.1.513
+pango_lineage	B.1.1.514
+pango_lineage	B.1.1.515
+pango_lineage	B.1.1.516
+pango_lineage	B.1.1.517
+pango_lineage	B.1.1.518
+pango_lineage	B.1.1.519
+pango_lineage	B.1.1.521
+pango_lineage	B.1.2
+pango_lineage	B.1.3
+pango_lineage	B.1.3.1
+pango_lineage	B.1.3.2
+pango_lineage	B.1.3.3
+pango_lineage	B.1.3.4
+pango_lineage	B.1.5
+pango_lineage	B.1.5.2
+pango_lineage	B.1.5.5
+pango_lineage	B.1.5.6
+pango_lineage	B.1.5.11
+pango_lineage	B.1.5.12
+pango_lineage	B.1.5.13
+pango_lineage	B.1.5.15
+pango_lineage	B.1.5.16
+pango_lineage	B.1.5.17
+pango_lineage	B.1.5.18
+pango_lineage	B.1.5.19
+pango_lineage	B.1.5.21
+pango_lineage	B.1.5.25
+pango_lineage	B.1.5.26
+pango_lineage	B.1.5.27
+pango_lineage	B.1.5.28
+pango_lineage	B.1.5.29
+pango_lineage	B.1.5.30
+pango_lineage	B.1.5.31
+pango_lineage	B.1.5.32
+pango_lineage	B.1.5.33
+pango_lineage	B.1.5.34
+pango_lineage	B.1.5.35
+pango_lineage	B.1.5.36
+pango_lineage	B.1.6
+pango_lineage	B.1.8
+pango_lineage	B.1.8.2
+pango_lineage	B.1.9
+pango_lineage	B.1.9.1
+pango_lineage	B.1.9.2
+pango_lineage	B.1.9.3
+pango_lineage	B.1.9.4
+pango_lineage	B.1.9.5
+pango_lineage	B.1.9.6
+pango_lineage	B.1.11
+pango_lineage	B.1.12
+pango_lineage	B.1.13
+pango_lineage	B.1.14
+pango_lineage	B.1.19
+pango_lineage	B.1.21
+pango_lineage	B.1.22
+pango_lineage	B.1.22.1
+pango_lineage	B.1.23
+pango_lineage	B.1.25
+pango_lineage	B.1.26
+pango_lineage	B.1.34
+pango_lineage	B.1.35
+pango_lineage	B.1.36
+pango_lineage	B.1.36.1
+pango_lineage	B.1.36.2
+pango_lineage	B.1.36.3
+pango_lineage	B.1.36.4
+pango_lineage	B.1.36.5
+pango_lineage	B.1.36.6
+pango_lineage	B.1.36.7
+pango_lineage	B.1.36.8
+pango_lineage	B.1.36.9
+pango_lineage	B.1.36.10
+pango_lineage	B.1.36.11
+pango_lineage	B.1.36.12
+pango_lineage	B.1.36.13
+pango_lineage	B.1.36.14
+pango_lineage	B.1.36.15
+pango_lineage	B.1.36.16
+pango_lineage	B.1.36.17
+pango_lineage	B.1.36.17.1
+pango_lineage	B.1.36.18
+pango_lineage	B.1.36.19
+pango_lineage	B.1.36.20
+pango_lineage	B.1.36.21
+pango_lineage	B.1.36.23
+pango_lineage	B.1.36.24
+pango_lineage	B.1.36.25
+pango_lineage	B.1.36.26
+pango_lineage	B.1.36.27
+pango_lineage	B.1.36.28
+pango_lineage	B.1.36.29
+pango_lineage	B.1.36.31
+pango_lineage	B.1.36.33
+pango_lineage	B.1.36.34
+pango_lineage	B.1.36.35
+pango_lineage	B.1.36.36
+pango_lineage	B.1.36.37
+pango_lineage	B.1.36.38
+pango_lineage	B.1.36.39
+pango_lineage	B.1.37
+pango_lineage	B.1.38
+pango_lineage	B.1.39
+pango_lineage	B.1.40
+pango_lineage	B.1.44
+pango_lineage	B.1.67
+pango_lineage	B.1.69
+pango_lineage	B.1.70
+pango_lineage	B.1.74
+pango_lineage	B.1.75
+pango_lineage	B.1.76
+pango_lineage	B.1.77
+pango_lineage	B.1.78
+pango_lineage	B.1.79
+pango_lineage	B.1.80
+pango_lineage	B.1.81
+pango_lineage	B.1.82
+pango_lineage	B.1.83
+pango_lineage	B.1.84
+pango_lineage	B.1.88
+pango_lineage	B.1.89
+pango_lineage	B.1.90
+pango_lineage	B.1.91
+pango_lineage	B.1.93
+pango_lineage	B.1.94
+pango_lineage	B.1.95
+pango_lineage	B.1.96
+pango_lineage	B.1.97
+pango_lineage	B.1.98
+pango_lineage	B.1.102
+pango_lineage	B.1.103
+pango_lineage	B.1.104
+pango_lineage	B.1.105
+pango_lineage	B.1.106
+pango_lineage	B.1.107
+pango_lineage	B.1.108
+pango_lineage	B.1.109
+pango_lineage	B.1.110
+pango_lineage	B.1.110.1
+pango_lineage	B.1.110.2
+pango_lineage	B.1.110.3
+pango_lineage	B.1.111
+pango_lineage	B.1.112
+pango_lineage	B.1.113
+pango_lineage	B.1.114
+pango_lineage	B.1.115
+pango_lineage	B.1.116
+pango_lineage	B.1.117
+pango_lineage	B.1.118
+pango_lineage	B.1.119
+pango_lineage	B.1.120
+pango_lineage	B.1.124
+pango_lineage	B.1.126
+pango_lineage	B.1.127
+pango_lineage	B.1.128
+pango_lineage	B.1.131
+pango_lineage	B.1.133
+pango_lineage	B.1.134
+pango_lineage	B.1.135
+pango_lineage	B.1.136
+pango_lineage	B.1.137
+pango_lineage	B.1.138
+pango_lineage	B.1.139
+pango_lineage	B.1.140
+pango_lineage	B.1.141
+pango_lineage	B.1.142
+pango_lineage	B.1.143
+pango_lineage	B.1.144
+pango_lineage	B.1.145
+pango_lineage	B.1.146
+pango_lineage	B.1.147
+pango_lineage	B.1.149
+pango_lineage	B.1.150
+pango_lineage	B.1.151
+pango_lineage	B.1.152
+pango_lineage	B.1.153
+pango_lineage	B.1.154
+pango_lineage	B.1.156
+pango_lineage	B.1.157
+pango_lineage	B.1.158
+pango_lineage	B.1.159
+pango_lineage	B.1.160
+pango_lineage	B.1.160.1
+pango_lineage	B.1.160.2
+pango_lineage	B.1.160.3
+pango_lineage	B.1.160.4
+pango_lineage	B.1.160.5
+pango_lineage	B.1.160.6
+pango_lineage	B.1.160.7
+pango_lineage	B.1.160.8
+pango_lineage	B.1.160.9
+pango_lineage	B.1.160.10
+pango_lineage	B.1.160.11
+pango_lineage	B.1.160.12
+pango_lineage	B.1.160.13
+pango_lineage	B.1.160.14
+pango_lineage	B.1.160.15
+pango_lineage	B.1.160.16
+pango_lineage	B.1.160.17
+pango_lineage	B.1.160.18
+pango_lineage	B.1.160.19
+pango_lineage	B.1.160.20
+pango_lineage	B.1.160.21
+pango_lineage	B.1.160.22
+pango_lineage	B.1.160.23
+pango_lineage	B.1.160.24
+pango_lineage	B.1.160.25
+pango_lineage	B.1.160.26
+pango_lineage	B.1.160.27
+pango_lineage	B.1.160.28
+pango_lineage	B.1.160.29
+pango_lineage	B.1.160.30
+pango_lineage	B.1.160.31
+pango_lineage	B.1.160.32
+pango_lineage	B.1.160.33
+pango_lineage	B.1.161
+pango_lineage	B.1.162
+pango_lineage	B.1.163
+pango_lineage	B.1.164
+pango_lineage	B.1.165
+pango_lineage	B.1.166
+pango_lineage	B.1.167
+pango_lineage	B.1.168
+pango_lineage	B.1.169
+pango_lineage	B.1.170
+pango_lineage	B.1.173
+pango_lineage	B.1.177
+pango_lineage	B.1.177.1
+pango_lineage	B.1.177.2
+pango_lineage	B.1.177.3
+pango_lineage	B.1.177.4
+pango_lineage	B.1.177.5
+pango_lineage	B.1.177.6
+pango_lineage	B.1.177.7
+pango_lineage	B.1.177.8
+pango_lineage	B.1.177.9
+pango_lineage	B.1.177.10
+pango_lineage	B.1.177.11
+pango_lineage	B.1.177.12
+pango_lineage	B.1.177.13
+pango_lineage	B.1.177.14
+pango_lineage	B.1.177.15
+pango_lineage	B.1.177.16
+pango_lineage	B.1.177.17
+pango_lineage	B.1.177.18
+pango_lineage	B.1.177.19
+pango_lineage	B.1.177.20
+pango_lineage	B.1.177.21
+pango_lineage	B.1.177.22
+pango_lineage	B.1.177.23
+pango_lineage	B.1.177.24
+pango_lineage	B.1.177.25
+pango_lineage	B.1.177.26
+pango_lineage	B.1.177.27
+pango_lineage	B.1.177.28
+pango_lineage	B.1.177.29
+pango_lineage	B.1.177.30
+pango_lineage	B.1.177.31
+pango_lineage	B.1.177.32
+pango_lineage	B.1.177.33
+pango_lineage	B.1.177.34
+pango_lineage	B.1.177.35
+pango_lineage	B.1.177.36
+pango_lineage	B.1.177.37
+pango_lineage	B.1.177.38
+pango_lineage	B.1.177.39
+pango_lineage	B.1.177.40
+pango_lineage	B.1.177.41
+pango_lineage	B.1.177.42
+pango_lineage	B.1.177.43
+pango_lineage	B.1.177.44
+pango_lineage	B.1.177.45
+pango_lineage	B.1.177.46
+pango_lineage	B.1.177.47
+pango_lineage	B.1.177.48
+pango_lineage	B.1.177.49
+pango_lineage	B.1.177.50
+pango_lineage	B.1.177.51
+pango_lineage	B.1.177.52
+pango_lineage	B.1.177.53
+pango_lineage	B.1.177.54
+pango_lineage	B.1.177.55
+pango_lineage	B.1.177.56
+pango_lineage	B.1.177.57
+pango_lineage	B.1.177.58
+pango_lineage	B.1.177.59
+pango_lineage	B.1.177.60
+pango_lineage	B.1.177.61
+pango_lineage	B.1.177.62
+pango_lineage	B.1.177.63
+pango_lineage	B.1.177.64
+pango_lineage	B.1.177.65
+pango_lineage	B.1.177.66
+pango_lineage	B.1.177.67
+pango_lineage	B.1.177.68
+pango_lineage	B.1.177.69
+pango_lineage	B.1.177.70
+pango_lineage	B.1.177.71
+pango_lineage	B.1.177.72
+pango_lineage	B.1.177.73
+pango_lineage	B.1.177.74
+pango_lineage	B.1.177.75
+pango_lineage	B.1.177.76
+pango_lineage	B.1.177.77
+pango_lineage	B.1.177.78
+pango_lineage	B.1.177.79
+pango_lineage	B.1.177.80
+pango_lineage	B.1.177.81
+pango_lineage	B.1.177.82
+pango_lineage	B.1.177.83
+pango_lineage	B.1.177.84
+pango_lineage	B.1.177.85
+pango_lineage	B.1.177.86
+pango_lineage	B.1.177.87
+pango_lineage	B.1.177.88
+pango_lineage	B.1.177.89
+pango_lineage	B.1.178
+pango_lineage	B.1.179
+pango_lineage	B.1.180
+pango_lineage	B.1.181
+pango_lineage	B.1.182
+pango_lineage	B.1.183
+pango_lineage	B.1.184
+pango_lineage	B.1.185
+pango_lineage	B.1.186
+pango_lineage	B.1.187
+pango_lineage	B.1.188
+pango_lineage	B.1.189
+pango_lineage	B.1.190
+pango_lineage	B.1.191
+pango_lineage	B.1.192
+pango_lineage	B.1.193
+pango_lineage	B.1.194
+pango_lineage	B.1.195
+pango_lineage	B.1.196
+pango_lineage	B.1.197
+pango_lineage	B.1.198
+pango_lineage	B.1.199
+pango_lineage	B.1.200
+pango_lineage	B.1.201
+pango_lineage	B.1.202
+pango_lineage	B.1.203
+pango_lineage	B.1.204
+pango_lineage	B.1.205
+pango_lineage	B.1.206
+pango_lineage	B.1.207
+pango_lineage	B.1.208
+pango_lineage	B.1.209
+pango_lineage	B.1.210
+pango_lineage	B.1.211
+pango_lineage	B.1.212
+pango_lineage	B.1.213
+pango_lineage	B.1.214
+pango_lineage	B.1.214.1
+pango_lineage	B.1.214.2
+pango_lineage	B.1.214.3
+pango_lineage	B.1.214.4
+pango_lineage	B.1.215
+pango_lineage	B.1.216
+pango_lineage	B.1.217
+pango_lineage	B.1.218
+pango_lineage	B.1.219
+pango_lineage	B.1.220
+pango_lineage	B.1.221
+pango_lineage	B.1.221.1
+pango_lineage	B.1.221.2
+pango_lineage	B.1.221.3
+pango_lineage	B.1.221.4
+pango_lineage	B.1.222
+pango_lineage	B.1.223
+pango_lineage	B.1.224
+pango_lineage	B.1.225
+pango_lineage	B.1.226
+pango_lineage	B.1.227
+pango_lineage	B.1.228
+pango_lineage	B.1.229
+pango_lineage	B.1.230
+pango_lineage	B.1.232
+pango_lineage	B.1.233
+pango_lineage	B.1.234
+pango_lineage	B.1.235
+pango_lineage	B.1.236
+pango_lineage	B.1.237
+pango_lineage	B.1.238
+pango_lineage	B.1.239
+pango_lineage	B.1.240
+pango_lineage	B.1.240.1
+pango_lineage	B.1.240.2
+pango_lineage	B.1.241
+pango_lineage	B.1.242
+pango_lineage	B.1.243
+pango_lineage	B.1.243.1
+pango_lineage	B.1.244
+pango_lineage	B.1.245
+pango_lineage	B.1.246
+pango_lineage	B.1.247
+pango_lineage	B.1.248
+pango_lineage	B.1.249
+pango_lineage	B.1.250
+pango_lineage	B.1.251
+pango_lineage	B.1.252
+pango_lineage	B.1.253
+pango_lineage	B.1.254
+pango_lineage	B.1.255
+pango_lineage	B.1.256
+pango_lineage	B.1.257
+pango_lineage	B.1.258
+pango_lineage	B.1.258.1
+pango_lineage	B.1.258.2
+pango_lineage	B.1.258.3
+pango_lineage	B.1.258.4
+pango_lineage	B.1.258.5
+pango_lineage	B.1.258.6
+pango_lineage	B.1.258.7
+pango_lineage	B.1.258.8
+pango_lineage	B.1.258.9
+pango_lineage	B.1.258.10
+pango_lineage	B.1.258.11
+pango_lineage	B.1.258.12
+pango_lineage	B.1.258.13
+pango_lineage	B.1.258.14
+pango_lineage	B.1.258.15
+pango_lineage	B.1.258.16
+pango_lineage	B.1.258.17
+pango_lineage	B.1.258.18
+pango_lineage	B.1.258.19
+pango_lineage	B.1.258.20
+pango_lineage	B.1.258.21
+pango_lineage	B.1.258.22
+pango_lineage	B.1.258.23
+pango_lineage	B.1.258.24
+pango_lineage	B.1.259
+pango_lineage	B.1.260
+pango_lineage	B.1.261
+pango_lineage	B.1.262
+pango_lineage	B.1.263
+pango_lineage	B.1.264
+pango_lineage	B.1.264.1
+pango_lineage	B.1.265
+pango_lineage	B.1.266
+pango_lineage	B.1.267
+pango_lineage	B.1.268
+pango_lineage	B.1.269
+pango_lineage	B.1.270
+pango_lineage	B.1.271
+pango_lineage	B.1.272
+pango_lineage	B.1.273
+pango_lineage	B.1.274
+pango_lineage	B.1.275
+pango_lineage	B.1.276
+pango_lineage	B.1.277
+pango_lineage	B.1.278
+pango_lineage	B.1.279
+pango_lineage	B.1.280
+pango_lineage	B.1.281
+pango_lineage	B.1.282
+pango_lineage	B.1.283
+pango_lineage	B.1.284
+pango_lineage	B.1.285
+pango_lineage	B.1.286
+pango_lineage	B.1.287
+pango_lineage	B.1.288
+pango_lineage	B.1.289
+pango_lineage	B.1.290
+pango_lineage	B.1.291
+pango_lineage	B.1.292
+pango_lineage	B.1.293
+pango_lineage	B.1.294
+pango_lineage	B.1.295
+pango_lineage	B.1.296
+pango_lineage	B.1.297
+pango_lineage	B.1.297.1
+pango_lineage	B.1.298
+pango_lineage	B.1.299
+pango_lineage	B.1.300
+pango_lineage	B.1.301
+pango_lineage	B.1.302
+pango_lineage	B.1.303
+pango_lineage	B.1.304
+pango_lineage	B.1.305
+pango_lineage	B.1.306
+pango_lineage	B.1.307
+pango_lineage	B.1.308
+pango_lineage	B.1.309
+pango_lineage	B.1.310
+pango_lineage	B.1.311
+pango_lineage	B.1.312
+pango_lineage	B.1.313
+pango_lineage	B.1.314
+pango_lineage	B.1.315
+pango_lineage	B.1.316
+pango_lineage	B.1.317
+pango_lineage	B.1.318
+pango_lineage	B.1.319
+pango_lineage	B.1.320
+pango_lineage	B.1.321
+pango_lineage	B.1.322
+pango_lineage	B.1.323
+pango_lineage	B.1.324
+pango_lineage	B.1.325
+pango_lineage	B.1.326
+pango_lineage	B.1.327
+pango_lineage	B.1.328
+pango_lineage	B.1.329
+pango_lineage	B.1.330
+pango_lineage	B.1.331
+pango_lineage	B.1.332
+pango_lineage	B.1.333
+pango_lineage	B.1.333.1
+pango_lineage	B.1.334
+pango_lineage	B.1.335
+pango_lineage	B.1.336
+pango_lineage	B.1.337
+pango_lineage	B.1.338
+pango_lineage	B.1.339
+pango_lineage	B.1.340
+pango_lineage	B.1.341
+pango_lineage	B.1.342
+pango_lineage	B.1.343
+pango_lineage	B.1.344
+pango_lineage	B.1.345
+pango_lineage	B.1.346
+pango_lineage	B.1.347
+pango_lineage	B.1.348
+pango_lineage	B.1.349
+pango_lineage	B.1.350
+pango_lineage	B.1.350.1
+pango_lineage	B.1.351
+pango_lineage	B.1.351.1
+pango_lineage	B.1.351.2
+pango_lineage	B.1.352
+pango_lineage	B.1.353
+pango_lineage	B.1.355
+pango_lineage	B.1.356
+pango_lineage	B.1.357
+pango_lineage	B.1.358
+pango_lineage	B.1.359
+pango_lineage	B.1.360
+pango_lineage	B.1.361
+pango_lineage	B.1.362
+pango_lineage	B.1.362.1
+pango_lineage	B.1.362.2
+pango_lineage	B.1.363
+pango_lineage	B.1.364
+pango_lineage	B.1.365
+pango_lineage	B.1.366
+pango_lineage	B.1.367
+pango_lineage	B.1.368
+pango_lineage	B.1.369
+pango_lineage	B.1.369.1
+pango_lineage	B.1.370
+pango_lineage	B.1.371
+pango_lineage	B.1.372
+pango_lineage	B.1.373
+pango_lineage	B.1.374
+pango_lineage	B.1.374.1
+pango_lineage	B.1.375
+pango_lineage	B.1.376
+pango_lineage	B.1.377
+pango_lineage	B.1.378
+pango_lineage	B.1.379
+pango_lineage	B.1.380
+pango_lineage	B.1.381
+pango_lineage	B.1.382
+pango_lineage	B.1.383
+pango_lineage	B.1.384
+pango_lineage	B.1.385
+pango_lineage	B.1.386
+pango_lineage	B.1.387
+pango_lineage	B.1.388
+pango_lineage	B.1.389
+pango_lineage	B.1.390
+pango_lineage	B.1.391
+pango_lineage	B.1.392
+pango_lineage	B.1.393
+pango_lineage	B.1.394
+pango_lineage	B.1.395
+pango_lineage	B.1.396
+pango_lineage	B.1.397
+pango_lineage	B.1.398
+pango_lineage	B.1.399
+pango_lineage	B.1.400
+pango_lineage	B.1.401
+pango_lineage	B.1.402
+pango_lineage	B.1.403
+pango_lineage	B.1.404
+pango_lineage	B.1.405
+pango_lineage	B.1.406
+pango_lineage	B.1.407
+pango_lineage	B.1.408
+pango_lineage	B.1.409
+pango_lineage	B.1.410
+pango_lineage	B.1.411
+pango_lineage	B.1.412
+pango_lineage	B.1.413
+pango_lineage	B.1.414
+pango_lineage	B.1.415
+pango_lineage	B.1.416
+pango_lineage	B.1.416.1
+pango_lineage	B.1.417
+pango_lineage	B.1.418
+pango_lineage	B.1.419
+pango_lineage	B.1.420
+pango_lineage	B.1.421
+pango_lineage	B.1.422
+pango_lineage	B.1.423
+pango_lineage	B.1.424
+pango_lineage	B.1.425
+pango_lineage	B.1.426
+pango_lineage	B.1.427
+pango_lineage	B.1.428
+pango_lineage	B.1.428.1
+pango_lineage	B.1.428.2
+pango_lineage	B.1.428.3
+pango_lineage	B.1.429
+pango_lineage	B.1.429.1
+pango_lineage	B.1.431
+pango_lineage	B.1.432
+pango_lineage	B.1.433
+pango_lineage	B.1.434
+pango_lineage	B.1.435
+pango_lineage	B.1.436
+pango_lineage	B.1.437
+pango_lineage	B.1.439
+pango_lineage	B.1.440
+pango_lineage	B.1.441
+pango_lineage	B.1.442
+pango_lineage	B.1.443
+pango_lineage	B.1.444
+pango_lineage	B.1.445
+pango_lineage	B.1.446
+pango_lineage	B.1.447
+pango_lineage	B.1.448
+pango_lineage	B.1.449
+pango_lineage	B.1.450
+pango_lineage	B.1.451
+pango_lineage	B.1.452
+pango_lineage	B.1.453
+pango_lineage	B.1.454
+pango_lineage	B.1.455
+pango_lineage	B.1.456
+pango_lineage	B.1.457
+pango_lineage	B.1.457.1
+pango_lineage	B.1.458
+pango_lineage	B.1.459
+pango_lineage	B.1.460
+pango_lineage	B.1.461
+pango_lineage	B.1.462
+pango_lineage	B.1.463
+pango_lineage	B.1.464
+pango_lineage	B.1.465
+pango_lineage	B.1.466
+pango_lineage	B.1.466.1
+pango_lineage	B.1.466.2
+pango_lineage	B.1.467
+pango_lineage	B.1.468
+pango_lineage	B.1.469
+pango_lineage	B.1.470
+pango_lineage	B.1.471
+pango_lineage	B.1.472
+pango_lineage	B.1.473
+pango_lineage	B.1.474
+pango_lineage	B.1.475
+pango_lineage	B.1.476
+pango_lineage	B.1.477
+pango_lineage	B.1.478
+pango_lineage	B.1.479
+pango_lineage	B.1.480
+pango_lineage	B.1.481
+pango_lineage	B.1.482
+pango_lineage	B.1.483
+pango_lineage	B.1.484
+pango_lineage	B.1.485
+pango_lineage	B.1.486
+pango_lineage	B.1.487
+pango_lineage	B.1.488
+pango_lineage	B.1.489
+pango_lineage	B.1.490
+pango_lineage	B.1.491
+pango_lineage	B.1.492
+pango_lineage	B.1.493
+pango_lineage	B.1.494
+pango_lineage	B.1.495
+pango_lineage	B.1.496
+pango_lineage	B.1.497
+pango_lineage	B.1.498
+pango_lineage	B.1.499
+pango_lineage	B.1.499.1
+pango_lineage	B.1.500
+pango_lineage	B.1.501
+pango_lineage	B.1.502
+pango_lineage	B.1.503
+pango_lineage	B.1.504
+pango_lineage	B.1.505
+pango_lineage	B.1.506
+pango_lineage	B.1.507
+pango_lineage	B.1.508
+pango_lineage	B.1.509
+pango_lineage	B.1.510
+pango_lineage	B.1.511
+pango_lineage	B.1.512
+pango_lineage	B.1.513
+pango_lineage	B.1.514
+pango_lineage	B.1.515
+pango_lineage	B.1.516
+pango_lineage	B.1.517
+pango_lineage	B.1.517.1
+pango_lineage	B.1.518
+pango_lineage	B.1.519
+pango_lineage	B.1.520
+pango_lineage	B.1.521
+pango_lineage	B.1.523
+pango_lineage	B.1.524
+pango_lineage	B.1.525
+pango_lineage	B.1.526
+pango_lineage	B.1.526.1
+pango_lineage	B.1.526.2
+pango_lineage	B.1.526.3
+pango_lineage	B.1.527
+pango_lineage	B.1.528
+pango_lineage	B.1.529
+pango_lineage	B.1.530
+pango_lineage	B.1.531
+pango_lineage	B.1.532
+pango_lineage	B.1.533
+pango_lineage	B.1.534
+pango_lineage	B.1.535
+pango_lineage	B.1.536
+pango_lineage	B.1.537
+pango_lineage	B.1.538
+pango_lineage	B.1.539
+pango_lineage	B.1.540
+pango_lineage	B.1.541
+pango_lineage	B.1.542
+pango_lineage	B.1.543
+pango_lineage	B.1.544
+pango_lineage	B.1.545
+pango_lineage	B.1.546
+pango_lineage	B.1.547
+pango_lineage	B.1.548
+pango_lineage	B.1.549
+pango_lineage	B.1.550
+pango_lineage	B.1.551
+pango_lineage	B.1.552
+pango_lineage	B.1.553
+pango_lineage	B.1.554
+pango_lineage	B.1.555
+pango_lineage	B.1.556
+pango_lineage	B.1.557
+pango_lineage	B.1.558
+pango_lineage	B.1.559
+pango_lineage	B.1.560
+pango_lineage	B.1.561
+pango_lineage	B.1.562
+pango_lineage	B.1.563
+pango_lineage	B.1.564
+pango_lineage	B.1.564.1
+pango_lineage	B.1.565
+pango_lineage	B.1.566
+pango_lineage	B.1.567
+pango_lineage	B.1.568
+pango_lineage	B.1.569
+pango_lineage	B.1.570
+pango_lineage	B.1.571
+pango_lineage	B.1.572
+pango_lineage	B.1.573
+pango_lineage	B.1.574
+pango_lineage	B.1.575
+pango_lineage	B.1.575.1
+pango_lineage	B.1.576
+pango_lineage	B.1.577
+pango_lineage	B.1.578
+pango_lineage	B.1.579
+pango_lineage	B.1.580
+pango_lineage	B.1.581
+pango_lineage	B.1.582
+pango_lineage	B.1.585
+pango_lineage	B.1.586
+pango_lineage	B.1.587
+pango_lineage	B.1.588
+pango_lineage	B.1.588.1
+pango_lineage	B.1.589
+pango_lineage	B.1.590
+pango_lineage	B.1.591
+pango_lineage	B.1.592
+pango_lineage	B.1.593
+pango_lineage	B.1.594
+pango_lineage	B.1.595
+pango_lineage	B.1.595.1
+pango_lineage	B.1.595.2
+pango_lineage	B.1.595.3
+pango_lineage	B.1.595.4
+pango_lineage	B.1.596
+pango_lineage	B.1.596.1
+pango_lineage	B.1.597
+pango_lineage	B.1.598
+pango_lineage	B.1.599
+pango_lineage	B.1.600
+pango_lineage	B.1.601
+pango_lineage	B.1.602
+pango_lineage	B.1.603
+pango_lineage	B.1.604
+pango_lineage	B.1.605
+pango_lineage	B.1.606
+pango_lineage	B.1.607
+pango_lineage	B.1.608
+pango_lineage	B.1.609
+pango_lineage	B.1.610
+pango_lineage	B.1.611
+pango_lineage	B.1.612
+pango_lineage	B.1.613
+pango_lineage	B.1.614
+pango_lineage	B.1.615
+pango_lineage	B.1.616
+pango_lineage	B.1.617
+pango_lineage	B.1.618
+pango_lineage	B.2.1
+pango_lineage	B.2.6
+pango_lineage	B.2.10
+pango_lineage	B.2.11
+pango_lineage	B.2.12
+pango_lineage	B.3
+pango_lineage	B.3.1
+pango_lineage	B.4
+pango_lineage	B.4.1
+pango_lineage	B.4.2
+pango_lineage	B.4.4
+pango_lineage	B.4.5
+pango_lineage	B.4.6
+pango_lineage	B.4.7
+pango_lineage	B.4.8
+pango_lineage	B.5
+pango_lineage	B.6
+pango_lineage	B.6.1
+pango_lineage	B.6.2
+pango_lineage	B.6.3
+pango_lineage	B.6.4
+pango_lineage	B.6.5
+pango_lineage	B.6.6
+pango_lineage	B.6.7
+pango_lineage	B.6.8
+pango_lineage	B.10
+pango_lineage	B.11
+pango_lineage	B.12
+pango_lineage	B.13
+pango_lineage	B.14
+pango_lineage	B.15
+pango_lineage	B.18
+pango_lineage	B.19
+pango_lineage	B.20
+pango_lineage	B.23
+pango_lineage	B.26
+pango_lineage	B.27
+pango_lineage	B.28
+pango_lineage	B.29
+pango_lineage	B.30
+pango_lineage	B.31
+pango_lineage	B.32
+pango_lineage	B.33
+pango_lineage	B.34
+pango_lineage	B.35
+pango_lineage	B.36
+pango_lineage	B.37
+pango_lineage	B.38
+pango_lineage	B.39
+pango_lineage	B.40
+pango_lineage	B.41
+pango_lineage	B.42
+pango_lineage	B.43
+pango_lineage	B.44
+pango_lineage	B.45
+pango_lineage	B.46
+pango_lineage	B.47
+pango_lineage	B.48
+pango_lineage	B.49
+pango_lineage	B.50
+pango_lineage	B.51
+pango_lineage	B.52
+pango_lineage	B.53
+pango_lineage	B.54
+pango_lineage	B.55
+pango_lineage	B.56
+pango_lineage	B.57
+pango_lineage	B.58
+pango_lineage	B.59
+pango_lineage	B.60
+pango_lineage	B.61
+pango_lineage	C.1
+pango_lineage	C.1.1
+pango_lineage	C.2
+pango_lineage	C.2.1
+pango_lineage	C.3
+pango_lineage	C.4
+pango_lineage	C.5
+pango_lineage	C.6
+pango_lineage	C.7
+pango_lineage	C.8
+pango_lineage	C.9
+pango_lineage	C.10
+pango_lineage	C.11
+pango_lineage	C.12
+pango_lineage	C.13
+pango_lineage	C.14
+pango_lineage	C.15
+pango_lineage	C.16
+pango_lineage	C.17
+pango_lineage	C.18
+pango_lineage	C.19
+pango_lineage	C.20
+pango_lineage	C.21
+pango_lineage	C.22
+pango_lineage	C.23
+pango_lineage	C.25
+pango_lineage	C.26
+pango_lineage	C.27
+pango_lineage	C.28
+pango_lineage	C.29
+pango_lineage	C.30
+pango_lineage	C.30.1
+pango_lineage	C.31
+pango_lineage	C.32
+pango_lineage	C.33
+pango_lineage	C.34
+pango_lineage	C.35
+pango_lineage	C.36
+pango_lineage	C.36.1
+pango_lineage	C.36.2
+pango_lineage	D.2
+pango_lineage	D.3
+pango_lineage	D.4
+pango_lineage	D.5
+pango_lineage	E.1
+pango_lineage	F.1
+pango_lineage	G.1
+pango_lineage	H.1
+pango_lineage	I.1
+pango_lineage	J.1
+pango_lineage	K.1
+pango_lineage	K.2
+pango_lineage	K.3
+pango_lineage	L.1
+pango_lineage	L.2
+pango_lineage	L.3
+pango_lineage	L.4
+pango_lineage	M.1
+pango_lineage	M.2
+pango_lineage	M.3
+pango_lineage	N.1
+pango_lineage	N.2
+pango_lineage	N.3
+pango_lineage	N.4
+pango_lineage	N.5
+pango_lineage	N.6
+pango_lineage	N.7
+pango_lineage	N.8
+pango_lineage	N.9
+pango_lineage	N.10
+pango_lineage	P.1
+pango_lineage	P.1.1
+pango_lineage	P.2
+pango_lineage	P.3
+pango_lineage	R.1
+pango_lineage	R.2
+pango_lineage	S.1
+pango_lineage	U.1
+pango_lineage	U.2
+pango_lineage	U.3
+pango_lineage	V.1
+pango_lineage	V.2
+pango_lineage	W.1
+pango_lineage	W.2
+pango_lineage	W.3
+pango_lineage	W.4
+pango_lineage	Y.1
+pango_lineage	Z.1
+
+################
+
+emerging_lineage	A.23.1
+emerging_lineage	B.1.1.7
+emerging_lineage	B.1.351
+emerging_lineage	B.1.427+B.1.429
+emerging_lineage	B.1.525
+emerging_lineage	B.1.526
+emerging_lineage	B.1.617
+emerging_lineage	P.1
+emerging_lineage	P.3
 
 ################
 

@@ -11,8 +11,8 @@
   ],
   "colorings": [
     {
-      "key": "subclade_membership",
-      "title": "Emerging Clade",
+      "key": "emerging_lineage",
+      "title": "Emerging Lineage",
       "type": "categorical"
     },
     {
@@ -29,7 +29,17 @@
       "key": "S1_mutations",
       "title": "S1 mutations",
       "type": "continuous"
-    },    
+    },
+    {
+      "key": "logistic_growth",
+      "title": "Logistic growth",
+      "type": "continuous"
+    },
+    {
+      "key": "current_frequency",
+      "title": "Current frequency",
+      "type": "continuous"
+    },
     {
       "key": "location",
       "title": "Location",
@@ -126,6 +136,7 @@
   "filters": [
     "recency",
     "clade_membership",
+    "emerging_lineage",
     "region",
     "country",
     "division",

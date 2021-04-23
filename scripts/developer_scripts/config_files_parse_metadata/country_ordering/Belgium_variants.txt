@@ -224,3 +224,4 @@ Houdeng-Gœgnies	Houdeng-Goegnies
 Dorcinelle	Marcinelle
 Imde	Meise
 Concelles	Courcelles
+Sint-Jan-Molenbeek	Molenbeek-Saint-Jean

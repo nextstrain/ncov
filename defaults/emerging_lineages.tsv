@@ -1,0 +1,59 @@
+clade	gene	site	alt
+
+A.23.1	nuc	22000	T
+A.23.1	nuc	22033	A
+A.23.1	nuc	22661	T
+A.23.1	nuc	23401	T
+A.23.1	nuc	23604	G
+A.23.1	nuc	24097	C
+
+B.1.1.7	nuc	8782	C
+B.1.1.7	nuc	14408	T
+B.1.1.7	nuc	23403	G
+B.1.1.7	nuc	28881	A
+B.1.1.7	nuc	28882	A
+B.1.1.7	nuc	23063	T
+B.1.1.7	nuc	14676	T
+B.1.1.7	nuc	15279	T
+
+B.1.351	nuc	1059	T
+B.1.351	nuc	8782	C
+B.1.351	nuc	14408	T
+B.1.351	nuc	23403	G
+B.1.351	nuc	25563	T
+B.1.351	nuc	23063	T
+B.1.351	nuc	23012	A
+
+B.1.427+B.1.429	nuc	17014	T
+B.1.427+B.1.429	nuc	21600	T
+B.1.427+B.1.429	nuc	22018	T
+B.1.427+B.1.429	nuc	22917	G
+
+B.1.525	nuc	14407	T
+B.1.525	nuc	21717	G
+B.1.525	nuc	24224	C
+B.1.525	nuc	24748	T
+
+B.1.526	nuc	16500	C
+B.1.526	nuc	20262	G
+B.1.526	nuc	21575	T
+B.1.526	nuc	22320	G
+
+B.1.617	nuc	17523	T
+B.1.617	nuc	20396	G
+B.1.617	nuc	21895	C
+B.1.617	nuc	23604	G
+
+P.1	nuc	733	C
+P.1	nuc	2749	T
+P.1	nuc	3828	T
+P.1	nuc	5648	C
+P.1	nuc	12778	T
+P.1	nuc	13860	T
+
+P.3	nuc	12049	T
+P.3	nuc	22356	G
+P.3	nuc	23341	C
+P.3	nuc	23604	A
+P.3	nuc	24187	A
+P.3	nuc	24836	A

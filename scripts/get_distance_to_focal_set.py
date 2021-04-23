@@ -10,6 +10,7 @@ from Bio.SeqIO.FastaIO import SimpleFastaParser
 from Bio.Seq import Seq
 from Bio import AlignIO, SeqIO
 from scipy import sparse
+import sys
 
 
 def compactify_sequences(sparse_matrix, sequence_names):
@@ -35,8 +36,10 @@ def sequence_to_int_array(s, fill_value=110, fill_gaps=True):
     return seq
 
 # Function adapted from https://github.com/gtonkinhill/pairsnp-python
-def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110, chunk_size=0):
+def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110, chunk_size=0, ignore_seqs=None):
     # This function generate a sparse matrix where differences to the consensus are coded as integers.
+    if ignore_seqs is None:
+        ignore_seqs = []
 
     row = np.empty(INITIALISATION_LENGTH)
     col = np.empty(INITIALISATION_LENGTH, dtype=np.int64)
@@ -50,6 +53,8 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110
     current_length = INITIALISATION_LENGTH
 
     for h,s in fastafile:
+        if h in ignore_seqs:
+            continue
         if consensus is None:
             align_length = len(s)
             # Take consensus as first sequence
@@ -132,6 +137,7 @@ if __name__ == '__main__':
     )
     parser.add_argument("--alignment", type=str, required=True, help="FASTA file of alignment")
     parser.add_argument("--reference", type = str, required=True, help="reference sequence (FASTA)")
+    parser.add_argument("--ignore-seqs", type = str, nargs='+', help="sequences to ignore in distance calculation")
     parser.add_argument("--focal-alignment", type = str, required=True, help="focal sample of sequences")
     parser.add_argument("--chunk-size", type=int, default=10000, help="number of samples in the global alignment to process at once. Reduce this number to reduce memory usage at the cost of increased run-time.")
     parser.add_argument("--output", type=str, required=True, help="FASTA file of output alignment")
@@ -143,7 +149,15 @@ if __name__ == '__main__':
 
     fh_focal = open(args.focal_alignment, 'rt')
     focal_seqs = SimpleFastaParser(fh_focal)
-    focal_seqs_dict = calculate_snp_matrix(focal_seqs, consensus = ref)
+    focal_seqs_dict = calculate_snp_matrix(focal_seqs, consensus = ref, ignore_seqs=args.ignore_seqs)
+
+    if focal_seqs_dict is None:
+        print(
+            f"ERROR: There are no valid sequences in the focal alignment, '{args.focal_alignment}', to compare against the full alignment.",
+            "Check your subsampling settings for the focal alignment or consider disabling proximity-based subsampling.",
+            file=sys.stderr
+        )
+        sys.exit(1)
 
     fh_seqs = open(args.alignment, 'rt')
     seqs = SimpleFastaParser(fh_seqs)

@@ -1,6 +1,13 @@
-# Developer guide  
+# Developer guide
 
-## Setup  
+## Contents
+
+ 1. [Setup](#setup)
+ 1. [Data](#data)
+ 1. [Running](#running)
+ 1. [Releasing new workflow versions](#releasing-new-workflow-versions)
+
+## Setup
 
 Please see [the main Nextstrain docs](https://nextstrain.org/docs/getting-started/introduction#open-source-tools-for-the-community) for instructions for installing the Nextstrain bioinformatics pipeline (Augur) and visualization tools (Auspice).
 
@@ -47,3 +54,15 @@ When done adjusting lat-longs & orders, remember to run the following command to
 ```bash
 snakemake --profile nextstrain_profiles/nextstrain all_regions
 ```
+
+## Releasing new workflow versions
+
+We use semantic versioning of the ncov workflow, denoting backward incompatible changes with major versions.
+Prior to merging a pull request that introduces a new backward incompatible change (e.g., requirement of a new version of Augur), take the following steps to document these changes:
+
+ 1. Determine the new version number by incrementing [the current version](https://github.com/nextstrain/ncov/releases/) (e.g., "v2" from "v1").
+ 2. As part of the pull request, document the change(s) from the pull request in [`docs/change_log.md`](https://github.com/nextstrain/ncov/blob/master/docs/change_log.md) with the current date and new version number.
+ 3. Merge the pull request
+ 4. [Create a new GitHub release](https://github.com/nextstrain/ncov/releases/new) using the new version as the tag (e.g., "v2") and release title. Leave the release description empty.
+
+We do not release new minor versions for new features, but you should document new features in the change log as part of the corresponding pull request under a heading for the date those features are merged.

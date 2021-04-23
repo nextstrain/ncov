@@ -1,0 +1,11 @@
+configfile:
+  - defaults/parameters.yaml
+  - nextstrain_profiles/nextstrain-genbank/builds.yaml
+
+keep-going: True
+printshellcmds: True
+show-failed-logs: True
+restart-times: 1
+reason: True
+stats: stats.json
+set-threads: tree=4
