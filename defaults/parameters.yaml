@@ -78,7 +78,7 @@ tree:
 
 # TreeTime settings
 refine:
-  root: "Wuhan/Hu-1/2019 Wuhan/WH01/2019" #EPI_ISL_402125  EPI_ISL_406798
+  root: "Wuhan/WH01/2019"
   clock_rate: 0.0008
   clock_std_dev: 0.0004
   coalescent: "skyline"
