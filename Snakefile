@@ -95,7 +95,7 @@ wildcard_constraints:
     date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]",
     origin = r"(_[a-zA-Z0-9-]+)?" # origin starts with an underscore _OR_ it's the empty string
 
-localrules: download_metadata, download_sequences, download, upload, clean
+localrules: download_metadata, download_sequences, clean
 
 # Create a standard ncov build for auspice, by default.
 rule all:
