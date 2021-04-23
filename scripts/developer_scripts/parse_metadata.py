@@ -106,7 +106,7 @@ def read_geography_file(file_name, hierarchical = False):
             data = {"location": {}, "division": {}, "country": {}, "region": {}}
         else:
             # dictionary containing all locations, divisions etc. as lists
-            data = {"location": [], "division": [], "country": [], "region": [], "recency": [], "emerging_lineage": []}
+            data = {"location": [], "division": [], "country": [], "region": [], "recency": [], "emerging_lineage": [], "pango_lineage": []}
 
         for line in data_file:
             if line == "\n":
