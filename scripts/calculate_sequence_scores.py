@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from collections import defaultdict
 from augur.distance import read_distance_map
+from binding_calculator import BindingCalculator
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -28,6 +29,8 @@ if __name__ == '__main__':
 
     if type(args.attribute_name)==str:
         args.attribute_name = [args.attribute_name]
+
+    bc = BindingCalculator()
 
     L=700
     mutations = pd.read_csv(args.mutation_summary, sep='\t', index_col=0)['S'].fillna('')
@@ -78,6 +81,12 @@ if __name__ == '__main__':
                     if pos in dmap["map"]['S']:
                         val += dmap["map"]['S'][pos].get((wt,m),0)
                 scores[s][attribute] = val
+    counter =  0
+    for s,pos in positions.items():
+        counter+=1
+        if counter%1000==0:
+            print(counter)
+        scores[s]['binding_lost'] = 1-bc.binding_retained([p+1 for p in pos if p>330 and p<531])
 
     d = pd.DataFrame(scores).T
     all_scores = pd.concat([all_scores, d], axis=1)
@@ -98,16 +107,27 @@ if __name__ == '__main__':
     #             print(f"{r}\t{row.Nextstrain_clade}\t{row.pango_lineage}\t{row.S}\t{row.c1}\t{row.c2}\t{row.c3}\t{row['sum']}")
 
 
-    nMax = 20
+    nMax = 100
     # print the nMax sequences with the highest score for each map and the sum
-    for a in args.attribute_name+['sum']:
+    for a in args.attribute_name+['sum', 'binding_lost']:
         print("\n\n### ATTRIBUTE ",a)
         print(f"#{'strain':<40}\t{a}\t{'sum'}\tSpike mutations")
         for muts, row in by_spike_scores.sort_values(by=a)[-nMax:].iterrows():
             G = all_scores.loc[by_spike_groups.groups[muts]]
-            print(f"{muts:<80}\t{G.date.min()}\t{G.date.max()}\t{len(G)}\t{G.Nextstrain_clade.mode()[0]}\t{G.pango_lineage.mode()[0]}\t{row[a]:1.2f}\t{row['sum']:1.2f}")
+            if len(G)<5:
+                continue
+            print(f"{muts:<80}\t{G.date.min()}\t{G.date.max()}\t{len(G)}\t{G.Nextstrain_clade.mode()[0]}\t{G.pango_lineage.mode()[0]}\t{row[a]:1.2f}")
 
 
 
         # for r, row in all_scores.sort_values(by=a)[-nMax:].iterrows():
         #     print(f"{r:<40}\t{row.Nextstrain_clade}\t{row.pango_lineage}\t{row[a]:1.2f}\t{row['sum']:1.2f}\t{row.S}")
+
+
+#major_mutations = mutations.apply(lambda x:','.join([y for y in x.split(',') if y and int(y[1:-1]) in [144,152,154,346,378,417,452,484, 681]]))
+major_mutations = mutations.apply(lambda x:','.join([y for y in x.split(',') if y and int(y[1:-1]) in [154,681]]))
+meta_muts = pd.concat([major_mutations, meta.loc[:, ["date", "date_submitted", "country", "region", "Nextstrain_clade", "pango_lineage"]]], axis=1).loc[mutations.index]
+
+for muts, group in meta_muts.groupby(by='S'):
+    if len(group)>5:
+        print(f"{muts:<20}\t{len(group)}\t{[(x,c) for x,c in sorted(Counter(group['pango_lineage']).items(), key=lambda x:-x[1])[:10] if c>3]}")
