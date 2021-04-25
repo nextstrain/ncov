@@ -80,10 +80,10 @@ def fit_groups(data, region, min_date, method="Powell"):
 
     return growth
 
-def analyze_growth(data, min_date)
+def analyze_growth(data, min_date):
     growth_by_region = defaultdict(dict)
-    for region in ['Europe', 'North America', 'South America', 'Africa']:
-        growth = fit_groups(data, region=region, min_date)
+    for region in ['Europe', 'North America', 'South America', 'Africa', 'Asia']:
+        growth = fit_groups(data, region=region, min_date=min_date)
         for muts in growth:
             growth_by_region[muts][region] = growth[muts]
     return growth_by_region
