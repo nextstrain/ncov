@@ -629,7 +629,7 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
 
             c = ["the " + country if country in the else country for country in countries_list]
             tweet_collection_full[region] = (c, h)
-            lengths[region] = len(", ".join(c)) + len(", ".join(h)) + len(links[region])
+            lengths[region] = len(", ".join(c)) + len(", ".join(h)) + len(links.get(region, ""))
 
     tweet = []
     tweet.append((start_tweet + "\n\n", "\n\n[pic_Global]"))
@@ -649,7 +649,7 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
         c = tweet_collection_full[current_region][0]
         h = tweet_collection_full[current_region][1]
         p = "[pic_" + current_region.replace(" ", "") + "]"
-        l = links[current_region]
+        l = links.get(current_region, "")
         if best_partner != "":
             current_length += lengths[best_partner]
             lengths.pop(best_partner)
