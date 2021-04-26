@@ -1231,7 +1231,7 @@ def write_ordering(data, hierarchy):
         mode = "w"
 
     with open(path_to_output_files+"color_ordering.tsv", mode) as out:
-        if hierarchy == "recency" or hierarchy == "emerging_lineage":
+        if hierarchy in ["recency", "emerging_lineage", "pango_lineage"]:
             for l in data[hierarchy]:
                 out.write(hierarchy + "\t" + l + "\n")
             out.write("\n################\n\n\n")
@@ -1413,6 +1413,7 @@ if __name__ == '__main__':
     write_ordering(data, "region")
     write_ordering(ordering, "recency")
     write_ordering(ordering, "emerging_lineage")
+    write_ordering(ordering, "pango_lineage")
 
 
     ##### Bonus step: Print out all collected annotations - if considered correct, they can be copied by the user to annotations.tsv

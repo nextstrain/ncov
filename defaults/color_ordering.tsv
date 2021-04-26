@@ -11240,6 +11240,20 @@ recency	New
 ################
 
 
+emerging_lineage	A.23.1
+emerging_lineage	B.1.1.7
+emerging_lineage	B.1.351
+emerging_lineage	B.1.427+B.1.429
+emerging_lineage	B.1.525
+emerging_lineage	B.1.526
+emerging_lineage	B.1.617
+emerging_lineage	C.37
+emerging_lineage	P.1
+emerging_lineage	P.3
+
+################
+
+
 pango_lineage	A
 pango_lineage	A.1
 pango_lineage	A.2.1
@@ -12750,20 +12764,6 @@ pango_lineage	W.3
 pango_lineage	W.4
 pango_lineage	Y.1
 pango_lineage	Z.1
-
-################
-
-
-emerging_lineage	A.23.1
-emerging_lineage	B.1.1.7
-emerging_lineage	B.1.351
-emerging_lineage	B.1.427+B.1.429
-emerging_lineage	B.1.525
-emerging_lineage	B.1.526
-emerging_lineage	B.1.617
-emerging_lineage	C.37
-emerging_lineage	P.1
-emerging_lineage	P.3
 
 ################
 
