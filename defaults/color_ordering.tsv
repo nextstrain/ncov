@@ -1851,10 +1851,14 @@ location	Sollana
 location	Llombai
 location	Benifaio
 location	Almussafes
+location	Real de Montroy
 location	Picassent
 location	Albal
+location	Paiporta
+location	Picanya
 location	Torrent
 location	Alaquas
+location	Xirivella
 location	Valencia Horta
 location	Valencia ES
 location	Quart de Poblet
@@ -7972,7 +7976,6 @@ location	Concepcion CR
 location	San Ramón District, La Unión
 location	Tres Rios CR
 location	La Union CR
-location	San Isidro CR
 location	El Tejar
 location	Occidental
 location	Cartago CR
@@ -7981,6 +7984,7 @@ location	San Rafael Cartago
 location	Llanos de Santa Lucia
 location	Orosi
 location	Oreamuno
+location	San Isidro CR-C
 location	Paraiso
 location	Carmen
 location	Jimenez
@@ -9658,6 +9662,9 @@ division	Haut-Katanga
 division	Sud Kivu
 division	Nord Kivu
 
+### Africa
+division	Africa
+
 ### Botswana
 division	Goodhope
 division	Lobatse
@@ -11097,6 +11104,7 @@ country	Republic of the Congo
 country	Namibia
 country	Angola
 country	Democratic Republic of the Congo
+country	Africa
 country	Botswana
 country	South Africa
 country	Zambia
