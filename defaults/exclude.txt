@@ -2008,3 +2008,13 @@ mouse/USA/IA-N501Y-MA30/2021
 
 # wrong date; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619220219342700
 Canada/NS-NML-2284/2020
+
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619297565347800
+Panama/GMI-PA963/2020
+Panama/GMI-PABT1906/2020
+Germany/BW-UKT-a021/2020
+India/MH-NCCS-87458/2020
+Italy/CAM-IZSM-115298/2020
+Israel/CVL-n25907/2020
+Lebanon/S10_768/2020
+Panama/GMI-PACH6313/2020
