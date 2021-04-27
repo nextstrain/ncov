@@ -2483,7 +2483,7 @@ Kaprijke
 Maldegem
 	Adegem
 	Maldegem
-	Middelburg
+	Middelburg BE
 Sint-Laureins
 	Sint-Jan-in-Eremo
 	Sint-Laureins
@@ -3364,7 +3364,7 @@ Uccle
 Watermael-Boitsfort
 Woluwe-Saint-Lambert
 Woluwe-Saint-Pierre
-Haren
+Haren BE
 Laken
 Neder-Over-Heembeek
 Moriensart
