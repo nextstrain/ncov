@@ -301,6 +301,7 @@ location	Jharsuguda
 
 # Chhattisgarh
 location	Durg
+location	Raipur
 location	Bilaspur
 location	Janjgir-Champa
 
@@ -489,6 +490,7 @@ location	Kargil
 ### Sri Lanka
 # Kalutara
 location	Beruwala
+location	Horana
 location	Ingiriya
 
 # Sabaragamuwa Province
@@ -496,17 +498,19 @@ location	Ratnapura
 location	Kegalle
 
 # Western Province
+location	Kahathuduwa
+location	Piliyandala
+location	Maligawatta
 location	Avissawella
+location	Negombo
 
 # Uva Province
 location	Badulla
 location	Mahiyangana
 
-# Central Province
-location	Dambulla
-
 # North Central Province
 location	Anuradhapura
+location	Polonnaruwa
 
 ### Nepal
 # Kathmandu
@@ -1858,7 +1862,6 @@ location	Paiporta
 location	Picanya
 location	Torrent
 location	Alaquas
-location	Alaquàs
 location	Xirivella
 location	Valencia Horta
 location	Valencia ES
@@ -1926,6 +1929,7 @@ location	Mollerussa
 location	Linyola
 location	Llimiana
 location	Gavet de La Conca
+location	Miami Platja
 location	Penelles
 location	La Pobla de Segur
 location	Bellpuig
@@ -2081,9 +2085,11 @@ location	Llinars del Valles
 location	Dosrius
 location	Sant Esteve de Palautordera
 location	La Vall D'en Bas
+location	Vilalba Sasserra
 location	Santa Maria de Palautordera
 location	Mataro
 location	Les Preses
+location	Campins
 location	Sant Andreu de Llavaneres
 location	Olot
 location	Sant Celoni
@@ -2153,11 +2159,11 @@ location	Vilabertran
 location	Pubol
 location	Vilatenim
 location	Sant Feliu de Guixols
+location	La Bisbal d'Empordà
 location	S'Agaro
 location	Garriguella
 location	Platja D'Aro
 location	Castello D'Empuries
-location	La Bisbal de l'Emporda
 location	Empuriabrava
 location	Palamos
 location	Llanca
@@ -2337,11 +2343,13 @@ location	Poitiers
 location	Bergerac
 location	Saint-Astier
 location	Agen
+location	Coulounieix Chamiers
 location	Notre-Dame-de-Sanilhac
 location	Perigueux
 location	Limoges
 location	Saint-Mexant
 location	Gueret
+location	Crocq
 location	Budeliere
 location	Bort-les-Orgues
 
@@ -2502,6 +2510,7 @@ location	Uzès
 location	Saint-Gilles FR
 
 # Auvergne-Rhône-Alpes
+location	Laroquebrou
 location	St Mamet la Salvetat
 location	Ytrac
 location	Aurillac
@@ -2512,6 +2521,7 @@ location	Giou de Mamou
 location	Domerat
 location	Premilhat
 location	Messeix
+location	Herment
 location	Champs sur Tarentaine
 location	Vallon en Sully
 location	Montlucon
@@ -2527,6 +2537,7 @@ location	Murat le Quaire
 location	La Bourboule
 location	Condat
 location	La Goutelle
+location	Gelles
 location	St Priest des Champs
 location	Deneuille Les Mines
 location	Les Ancizes Comps
@@ -2549,6 +2560,7 @@ location	Aydat
 location	Charbonnieres Les Vieilles
 location	Charbonnieres Les Varenne
 location	Loubeyrat
+location	Orcines
 location	Volvic
 location	St Hilaire la Croix
 location	Royat
@@ -2560,12 +2572,15 @@ location	Nohanent
 location	Chatel Guyon
 location	Chamalieres
 location	Ceyrat
+location	Teilhede
 location	Blanzat
+location	Bellenaves
 location	Clermont-Ferrand
 location	Marsat
 location	Chateaugay
 location	Beaumont
 location	Combronde
+location	St Saturnin
 location	Yssac la Tourette
 location	Mozac
 location	Romagnat
@@ -2577,6 +2592,7 @@ location	Beauregard Vendon
 location	Riom
 location	Saint Bonnet Pres Riom
 location	Aubiere
+location	Tallende
 location	Menetrol
 location	La Roche Blanche
 location	Champeix
@@ -2598,6 +2614,7 @@ location	Aigueperse
 location	Les Martres sur Morge
 location	Ennezat
 location	Mirefleurs
+location	La Roche Noire
 location	Dallet
 location	Vic le Comte
 location	Pont Du Chateau
@@ -2640,6 +2657,7 @@ location	Thiers
 location	Molles
 location	La Monnerie le Montel
 location	Augerolles
+location	Lapalisse
 location	Le Mayet de Montagne
 location	Le Puy-en-Velay
 location	Brives Charensac
@@ -4757,6 +4775,8 @@ location	Stodůlky
 location	Sedlec
 location	Praha 6
 location	Praha 5
+location	Praha 4
+location	Praha 2
 location	Praha 3
 location	Praha 8
 location	Praha 9
@@ -4777,6 +4797,7 @@ location	Jindřichův Hradec
 # Central Bohemian Region
 location	Malinová
 location	Nové Strašecí
+location	Lochovice
 location	Příbram
 location	Králův Dvůr
 location	Beroun
@@ -4794,6 +4815,7 @@ location	Bášť
 location	Libis
 location	Neratovice
 location	Krhanice
+location	Pruhonice
 location	Herink
 location	Kostelec nad Labem
 location	Radonice
@@ -4821,6 +4843,7 @@ location	Kosmonosy
 location	Hořátev
 location	Nymburk
 location	Poděbrady
+location	Kolin 2
 location	Kolin
 location	Kutná Hora
 
@@ -7049,23 +7072,30 @@ location	Ibitinga
 location	Itapolis
 location	Lencois Paulista
 location	Monte Azul Pulista
+location	Nova Europa
 location	Jau
 location	Igaracu do Tiete
 location	Guapiara
 location	Bocaina
 location	Taiacu
 location	Taquaritinga
+location	Gaviao Peixoto
 location	Bebedouro
 location	Botucatu
 location	Angatuba
+location	Boa Esperanca do Sul
 location	Dois Corregos
 location	Matao
 location	Capao Bonito
+location	Trabiju
+location	Dourado
 location	Viradouro
 location	Guariba
+location	Ribeirao Bonito
 location	Araraquara
 location	Cajati
 location	Pradopolis
+location	Rincao
 location	Morro Agudo
 location	Itapetininga
 location	Jacupiranga
@@ -7108,6 +7138,7 @@ location	Franca
 location	Leme
 location	Araras
 location	Americana
+location	Cajuru
 location	Itu
 location	Nova Odessa
 location	Salto
@@ -7190,9 +7221,11 @@ location	Taubate
 location	Pindamonhangaba
 location	Caraguatatuba
 location	Sao Sebastiao
+location	Guaratingueta
 location	Lorena SP
 location	Ubatuba
 location	Cachoeira Paulista
+location	Cruzeiro
 location	Cunha
 location	Guaira
 
@@ -8613,6 +8646,7 @@ location	Fayette County IL
 location	Crawford County IL
 location	Effingham County
 location	Jersey County
+location	Jersey County IL
 location	Calhoun County IL
 location	Montgomery County IL
 location	Macoupin County
@@ -8647,6 +8681,7 @@ location	Hancock County
 location	McDonough County
 location	McLean County IL
 location	Fulton County IL
+location	Ford County IL
 location	Tazewell County IL
 location	Iroquois County
 location	Peoria County
@@ -8664,6 +8699,7 @@ location	Henry County IL
 location	LaSalle County IL
 location	Bureau County
 location	Will County
+location	Will County IL
 location	Rock Island County
 location	Kendall County IL
 location	Lee County IL
@@ -9198,14 +9234,11 @@ division	Western Province
 division	Colombo
 division	Uva Province
 division	Gampaha
-division	Kandy
-division	Central Province
 division	Matale
 division	Sri Lanka
 division	North Central Province
 division	Vavuniya
 division	Mannar
-division	Kilinochchi
 
 ### Nepal
 division	Rolpa
@@ -10274,7 +10307,6 @@ division	Banska Bystrica
 division	Slovakia
 division	Prešov
 division	Kosice
-division	Stropkov Region
 
 ### Montenegro
 division	Montenegro
