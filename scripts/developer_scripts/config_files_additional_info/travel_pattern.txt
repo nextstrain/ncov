@@ -66,3 +66,10 @@ Baseline surveillance - traveller from XXX
 A quarantined traveller from XXX
 Returnee from XXX
 imported case fro XXX
+Imported case with travel history from XXX
+Imported case with travel history from XXX and Netherlands
+Imported case with travel history from XXX and Portugal
+Imported case with travel history from XXX and UK
+Imported case with travel history from XXX and UAE
+Case from XXX
+Reternee from XXX

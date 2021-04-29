@@ -2002,3 +2002,38 @@ India/MH-NIV-QC-1377/2020
 BosniaandHerzegovina/02-BanjaLuka/2020
 Kazakhstan/6284/2020
 Netherlands/ZH-EMC-1930/2020
+
+# lab mouse
+mouse/USA/IA-N501Y-MA30/2021
+
+# wrong date; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619220219342700
+Canada/NS-NML-2284/2020
+
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619297565347800
+Panama/GMI-PA963/2020
+Panama/GMI-PABT1906/2020
+Germany/BW-UKT-a021/2020
+India/MH-NCCS-87458/2020
+Italy/CAM-IZSM-115298/2020
+Israel/CVL-n25907/2020
+Lebanon/S10_768/2020
+Panama/GMI-PACH6313/2020
+
+# Canada Feb 2020 dates; probably misdated; Qatar over diverged; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619464498366900
+Qatar/QA-QU_18-10-B12/2020
+Qatar/QA-QU_18-10-E12/2020
+Canada/QC-L00324380001/2020
+Canada/QC-L00324383001/2020
+Canada/QC-L00324385001/2020
+Canada/QC-L00324388001/2020
+Canada/QC-L00324389001/2020
+Canada/QC-L00324391001/2020
+Canada/QC-L00324397001/2020
+Canada/QC-L00324399001/2020
+Canada/QC-L00324401001/2020
+Canada/QC-L00324403001/2020
+
+# Date too early for clade, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619678934393000
+Germany/BY-MVP-000004014/2020
+Poland/WGS-CoV_PZH-LUM-0035/2021
+Poland/WGS-CoV_PZH-LUM-0036/2021
