@@ -1257,11 +1257,30 @@ rule export:
             --output {output.auspice_json} 2>&1 | tee {log}
         """
 
+rule add_branch_labels:
+    message: "Adding custom branch labels to the Auspice JSON"
+    input:
+        auspice_json = rules.export.output.auspice_json,
+        mutations = lambda w: rules.aa_muts_explicit.output.node_data if config.get("use_nextalign") else rules.translate.output.node_data,
+        emerging_clades = rules.emerging_lineages.output.clade_data
+    output:
+        auspice_json = "results/{build_name}/ncov_with_branch_labels.json"
+    log:
+        "logs/add_branch_labels{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 ./scripts/add_branch_labels.py \
+            --input {input.auspice_json} \
+            --mutations {input.mutations} \
+            --emerging-clades {input.emerging_clades} \
+            --output {output.auspice_json} 
+        """
 
 rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
-        auspice_json = rules.export.output.auspice_json,
+        auspice_json = rules.add_branch_labels.output.auspice_json,
         colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"]
     params:
@@ -1288,7 +1307,7 @@ rule incorporate_travel_history:
 rule finalize:
     message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = lambda w: rules.export.output.auspice_json if config.get("skip_travel_history_adjustment", False) else rules.incorporate_travel_history.output.auspice_json,
+        auspice_json = lambda w: rules.add_branch_labels.output.auspice_json if config.get("skip_travel_history_adjustment", False) else rules.incorporate_travel_history.output.auspice_json,
         frequencies = rules.tip_frequencies.output.tip_frequencies_json,
         root_sequence_json = rules.export.output.root_sequence_json
     output:
