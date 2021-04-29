@@ -574,7 +574,7 @@ location	Ashkona
 location	Gazipur
 location	Jatrabari
 location	Narayanganj
-location	Narayanganj Sadar
+location	Munshiganj
 location	Narsingdi
 location	Kishoreganj
 location	Kodomtoly
@@ -585,6 +585,7 @@ location	Sirajganj
 
 # Mymensingh
 location	Sherpur
+location	Mymensingh
 
 # Sylhet
 location	Habiganj
@@ -1682,6 +1683,7 @@ location	Leiva
 location	Foncea
 location	Ezcaray
 location	Ojacastro
+location	Cuzcurrita de Rio Tiron
 location	Santo Domingo de la Calzada
 location	Casalarreina
 location	Anguciana
@@ -3159,6 +3161,7 @@ location	Tubize
 location	Clabecq
 location	Ittre
 location	Braine-le-Château
+location	Monstreux
 location	Ophain-Bois-Seigneur-Isaac
 location	Braine-l'Alleud
 location	Lillois-Witterzée
@@ -3289,6 +3292,7 @@ location	Schepdaal
 location	Oudenaken
 location	Asse
 location	Lembeek
+location	Vlezenbeek
 location	Merchtem
 location	Halle
 location	Sint-Pieters-Leeuw
@@ -3389,6 +3393,7 @@ location	Kessel
 location	Putte
 location	Berlaar
 location	Gestel
+location	Beerzel
 location	Nijlen
 location	Bevel
 location	Schriek
@@ -4374,16 +4379,28 @@ location	Prichsenstadt
 location	Dirlewang
 location	Schlusselfeld
 location	Gerhardshofen
+location	Augsburg
 location	Fuerth
 location	Erlangen
 location	Schwabach
 location	Nuremberg
+location	Garmisch
+location	Eichstätt
+location	Karlshuld
 location	Starnberg
+location	Gauting
+location	Kipfenberg
+location	Ingolstadt
+location	Dachau
+location	Karlsfeld
 location	Munich
+location	Bayreuth
+location	Pfaffenhofen
 location	Raubling
 location	Schierling
 location	Neutraubling
 location	Roding
+location	Traunstein
 
 # Mecklenburg-Vorpommern
 location	Rostock
@@ -4917,9 +4934,13 @@ location	Czerwiensk
 location	Dabrowka
 location	Krosno Odrzańskie
 location	Lubrza
+location	Lagow
+location	Staropole
+location	Kunowice
 location	Slubice
 location	Miedzyrzecz
 location	Sulecin
+location	Bobowicko
 location	Osnolubuskie
 location	Gorzyca
 location	Kostrzyn (Lubuskie)
@@ -4972,6 +4993,8 @@ location	Karlino
 location	Bialogard
 location	Zaborze
 location	Koszalin
+location	Walcz
+location	Slawno
 location	Szczecinek
 
 # Dolnośląskie
@@ -5019,6 +5042,7 @@ location	Wroclaw
 location	Trzebnica
 location	Strzelin
 location	Kamieniec Wrocławski
+location	Kielczow
 location	Nadolice Wielkie
 location	Wojnowice
 location	Oława
@@ -5027,6 +5051,7 @@ location	Sycow
 
 # Wielkopolskie
 location	Skwierzyna
+location	Miedzychod
 location	Jaroszewo
 location	Wolsztynski
 location	Nowy Tomysl
@@ -5036,8 +5061,10 @@ location	Pakawie
 location	Niewierz
 location	Wielichowo
 location	Wronki
+location	Jesionowo
 location	Duszniki
 location	Wilkowo Polskie
+location	Wilkowo
 location	Buk
 location	Obrzycko
 location	Galowo
@@ -5119,13 +5146,16 @@ location	Gorzewo
 location	Krotoszyn
 location	Czerniejewo
 location	Jarocin
+location	Szczytniki Czerniejewskie
 location	Dalki
 location	Gniezno
 location	Welnica
+location	Niechanowo
 location	Trzuskołon
 location	Witkowo
 location	Pleszew
 location	Miaty
+location	Ostrow (Wielkopolskie)
 location	Kruchowo
 location	Trzemeszno
 location	Powidz
@@ -5134,11 +5164,12 @@ location	Grodzisk
 location	Kepno
 location	Orchowo
 location	Przeclaw
+location	Witnica
 location	Kalisz
-location	Ostrow
 location	Konin
 location	Turek
 location	Czajkow
+location	Nowa Wioska
 
 # Opolskie
 location	Nysa
@@ -5235,6 +5266,7 @@ location	Tuchola
 
 # Slaskie
 location	Dankowice
+location	Raciborz
 location	Chałupki
 location	Sosnicowice
 location	Rybnik
@@ -5269,9 +5301,11 @@ location	Zawiercie
 
 # Łódzkie
 location	Suliszewice
+location	Wielun
 location	Brzeznio
 location	Losieniec
 location	Sieradz
+location	Zdunska Wola
 location	Pajeczno County
 location	Charbice Gorne
 location	Belchatow County
@@ -5301,8 +5335,13 @@ location	Olkusz
 location	Suchabeskidzka
 location	Olewin
 location	Stanislaw Dolny
+location	Harbutowice
 location	Biertowice
 location	Zelkow
+location	Poreba
+location	Brzezie
+location	Glogoczow
+location	Przybyslawice
 location	Mogilany
 location	Bysina
 location	Krzyszkowice
@@ -5310,8 +5349,13 @@ location	Myślenice
 location	Kraków
 location	Wrzosowa
 location	Siepraw
+location	Rzeszotary
 location	Borzęta
 location	Osieczany
+location	Michalowice
+location	Janowice
+location	Byszyce
+location	Lipnik
 location	Miechow
 location	Grabówki
 location	Brzączowice
@@ -5319,27 +5363,44 @@ location	Stojowice
 location	Wieliczka
 location	Czarnochowice
 location	Slomniki
+location	Sierakow
 location	Choragwica
 location	Zabawa
 location	Dobczyce
+location	Marszowice
 location	Glichów
+location	Tomaszkowice
 location	Strumiany
 location	Sułków
+location	Rudnik
 location	Węgrzce Wielkie
 location	Poznachowice Górne
 location	Modrzewiowa
 location	Raciechowice
 location	Zakrzów
+location	Slawkowice
+location	Zakrzowiec
+location	Zegartowice
+location	Gdow
 location	Gruszów
+location	Wiatowice
 location	Niepołomice
 location	Szczytniki
+location	Zeroslawice
 location	Wola Batorska
+location	Ksiaznice
+location	Klaj
 location	Limanowa
 location	Bochnia
 location	Tymowa
+location	Jelna
+location	Piatkowa
 location	Lopon
+location	Zakliczyn
+location	Ostrow (Malopolskie)
 location	Tarnow
 location	Dąbrowa Tarnowska
+location	Przemysl
 location	Zawada
 location	Nowa Wieś
 
@@ -5369,31 +5430,57 @@ location	Cmielow
 location	Wolka Baltowska
 
 # Warminsko-Mazurskie
+location	Liwa
+location	Nipkowie
+location	Lubnowy Male
+location	Lubnowy Wielkie
 location	Mokajny
 location	Elbląg
 location	Ilawski
+location	Rychliki
 location	Nowomiejski
 location	Ostrodzki
+location	Nowe Kusy
+location	Zalewo
+location	Mszanowo
 location	Elblaski
 location	Paslek
 location	Stegny
+location	Kanty
+location	Lubawa
+location	Maldyty
+location	Franciszkowo
 location	Stepien
+location	Nowa Pasleka
+location	Biedkowo-Osada
 location	Braniewo
 location	Lidzbark
+location	Pierzchaly
 location	Lubowidz
 location	Belk
 location	Ciborz
+location	Szyleny
 location	Rogity
 location	Dobry
+location	Jurki
 location	Braniewski
+location	Tolkowiec
 location	Dzialdowski
+location	Lesiska
 location	Bialczyn
+location	Szyldak
+location	Milakowo
+location	Gnojno
+location	Stare Jablonki
+location	Wyszkowo
 location	Lodwigowo
 location	Stebark
 location	Dabrowa (Warminsko-Mazurskie)
 location	Komorniki WN
 location	Swiatki
 location	Szkotowo
+location	Glebock
+location	Zakrzewo
 location	Kozłowo
 location	Sławka Mała
 location	Lysakowo
@@ -5406,15 +5493,22 @@ location	Gutkowo
 location	Lidzbarski
 location	Kanigowo
 location	Siemiatki
+location	Bartag
 location	Dywity
 location	Olsztyn
 location	Napiwoda
 location	Nidzicki
+location	Jaroty
+location	Jablonka
+location	Lidzbark Warminski
 location	Bartoszycki
 location	Wieckowo
 location	Wólka
 location	Michalki
+location	Julianow
 location	Lutry PL
+location	Dzwierzuty
+location	Adamowo
 location	Szczytno
 location	Szczycienski
 location	Rybno
@@ -5424,6 +5518,7 @@ location	Biały Grunt
 location	Ketrzynski
 location	Spychowo
 location	Mragowski
+location	Dybowo
 location	Wegorzewski
 location	Piski
 location	Gizycki
@@ -5447,6 +5542,7 @@ location	Łaz
 location	Piaseczno
 location	Brodno-Warszawa
 location	Radom
+location	Miedzylesie
 location	Jozefow
 location	Gora Kalwaria
 location	Wesola
@@ -5472,12 +5568,20 @@ location	Kolbuszowa
 location	Strzyzow
 location	Rzeszow
 location	Brzozow
+location	Stalowa Wola
 location	Sanok
 location	Łańcut
+location	Wola Zarczycka
 location	Bachórzec
+location	Nowa Sarzyna
+location	Giedlarowa
 location	Lezajsk
+location	Piskorowice
 location	Ustrzyki Dolne
+location	Dybawka
 location	Szowsko
+location	Rozubowice
+location	Jaksmanice
 
 # Lubelskie
 location	Bilgoraj
@@ -5489,6 +5593,7 @@ location	Milejów-Osada
 location	Wlodawa
 location	Parczew
 location	Hanna
+location	Biała Podlaska
 
 # Podlaskie
 location	Nowogrod
@@ -5499,11 +5604,13 @@ location	Zambrow
 location	Czyżew
 location	Stary Kamień
 location	Grajewo
+location	Wysokie Mazowieckie
 location	Twarogi-Mazury
 location	Rajgród
 location	Olendy
 location	Monki
 location	Popławy
+location	Siemiatycze
 location	Knyszyn
 location	Suwałki
 location	Kowale (Podlaskie)
@@ -7069,6 +7176,7 @@ location	Borebi
 location	Catanduva
 location	Avare
 location	Olimpia
+location	Itapeva
 location	Ibitinga
 location	Itapolis
 location	Lencois Paulista
@@ -8115,6 +8223,7 @@ location	Jefferson County OR
 location	Wasco County
 location	Deschutes County
 location	Sherman County
+location	Morrow County OR
 location	Grant County OR
 location	Harney County
 location	Umatilla County
@@ -8825,7 +8934,7 @@ location	Pickaway County
 location	Franklin County OH
 location	Columbus OH
 location	Delaware County OH
-location	Morrow County
+location	Morrow County OH
 location	Hocking County
 location	Richland County OH
 location	Lorain County
