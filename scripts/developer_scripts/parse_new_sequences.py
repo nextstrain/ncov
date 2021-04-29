@@ -121,18 +121,18 @@ def check_for_recency(counts, list_of_strains, lab_collection, path_to_metadata,
             l = line.split("\t")
             country = l[country_i]
             lab = l[subm_lab_i]
+            orig_lab = l[orig_lab_i]
+            author = l[author_i]
             if country == "United Kingdom":
                 line = f.readline()
                 continue
             if country in counts:
-                if country in subm_labs and lab in subm_labs[country] and subm_labs[country][lab] > 20:
+                if country in subm_labs and lab in subm_labs[country] and subm_labs[country][lab] > 20 and orig_lab in origlab_authors[country] and origlab_authors[country][orig_lab] > 20 and author in origlab_authors[country] and origlab_authors[country][author] > 20:
                     line = f.readline()
                     continue
                 date = datetime.datetime.fromisoformat(l[subm_date_i])
                 if date > cutoff_date:
                     strain = l[strain_i]
-                    orig_lab = l[orig_lab_i]
-                    author = l[author_i]
                     if strain not in list_of_strains:
                         if country not in countries:
                             print(country)
@@ -232,9 +232,10 @@ def check_dates(data, today):
     for id in list(data.keys()):
         date = data[id]["date"]
         strain = data[id]["strain"]
+        country = data[id]["country"]
 
         if len(date) != len(today):
-            invalid_sample_date[strain] = date
+            invalid_sample_date[strain] = (date, country)
             data.pop(id)
             continue
 
@@ -249,13 +250,13 @@ def check_dates(data, today):
 
         #check for past dates
         if year < 2019 or ((year) == 2019 and month < 12):
-            invalid_sample_date[strain] = date
+            invalid_sample_date[strain] = (date, country)
             data.pop(id)
             continue
 
         # Check for future dates
         if (year > year_today) or (year == year_today and month > month_today) or (year == year_today and month == month_today and day > day_today):
-            invalid_sample_date[strain] = date
+            invalid_sample_date[strain] = (date, country)
             data.pop(id)
             continue
 
@@ -264,6 +265,7 @@ def check_dates(data, today):
             #suspicious_sample_date[strain] = date
 
         clade = data[id]["Nextstrain_clade"]
+        dev = data[id]["clock_deviation"]
         if clade == "":
             print("Clade missing for sequence " + id)
         else:
@@ -276,16 +278,29 @@ def check_dates(data, today):
                 year_clade = int(clade_day[:4])
 
                 if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
-                    suspicious_sample_date[strain] = date + " (" + clade + ")"
+                    suspicious_sample_date[strain] = date + " (" + clade + ", clock deviation = " + dev + ")"
                     data.pop(id)
                     continue
+
+
+    invalid_dates_by_country = {}
+    for strain in invalid_sample_date:
+        (date, country) = invalid_sample_date[strain]
+        if country not in invalid_dates_by_country:
+            invalid_dates_by_country[country] = {}
+        if date not in invalid_dates_by_country[country]:
+            invalid_dates_by_country[country][date] = 0
+        invalid_dates_by_country[country][date] += 1
 
 
 
     print("\n----------------------------------------------\n")
     print("Invalid sample dates (automatically excluded from total counts):")
-    for strain in invalid_sample_date:
-        print(strain + ": " + invalid_sample_date[strain])
+    for country in invalid_dates_by_country:
+        print(country)
+        for date in invalid_dates_by_country[country]:
+            print(date + " (" + str(invalid_dates_by_country[country][date]) + ")")
+        print("")
 
     print("\nSample date before clade (automatically excluded from total counts):")
     for strain in suspicious_sample_date:
