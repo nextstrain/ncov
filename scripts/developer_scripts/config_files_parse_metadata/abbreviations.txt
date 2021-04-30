@@ -128,3 +128,4 @@ Navarra	ES
 Norte de Santander	CO
 O'Higgins	CL
 Malopolskie	(Malopolskie)
+Molise	(Molise)

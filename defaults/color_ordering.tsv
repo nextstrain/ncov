@@ -43,6 +43,7 @@ location	Orot
 location	Bnei Ayish
 location	Gedera
 location	Sdema
+location	Kiryat Ekron
 location	Yavne
 location	Rehovot
 location	Modiin
@@ -1272,6 +1273,7 @@ location	Santa Comba
 location	Rianjo
 location	Negreira
 location	Vigo
+location	Dodro
 location	Rois
 location	Padrón
 location	Ames
@@ -1286,9 +1288,11 @@ location	Boqueixón
 location	A Coruna
 location	Oroso
 location	Silleda
+location	Mesía
 location	Villa de Cruces
 location	Lalin
 location	Lugo
+location	Barco De Valdeorras
 location	El Rosal
 location	Santiago de Compostela
 
@@ -2008,7 +2012,9 @@ location	Badia del Valles
 location	Castellterçol
 location	Torre-Romeu
 location	Barbera del Valles
+location	Sentmenat
 location	Cerdanyola del Valles
+location	Sant Boi de Llucanes
 location	Barcelona
 location	Ripollet
 location	Sant Feliu de Codines
@@ -2023,6 +2029,7 @@ location	Ripoll
 location	Gallecs
 location	Santa Coloma de Gramenet
 location	Bigues I Riells
+location	Montesquiu
 location	Oris
 location	Mollet del Valles
 location	Sant Quirze de Besora
@@ -2048,10 +2055,13 @@ location	Torelló
 location	Montornes del Valles
 location	Tiana
 location	Figaro
+location	Sant Vicenc de Torello
 location	Figaro-Montmany
 location	Can Tries
 location	Montgat
 location	Canovelles
+location	Santa Eugenia de Berga
+location	Calldetenes
 location	Seva
 location	Manlleu
 location	Sant Joan de les Abadesses
@@ -2064,8 +2074,10 @@ location	Sant Pere de Torello
 location	Corro d'Avall
 location	Llerona
 location	Vallromanes
+location	Les Franqueses del Valles
 location	Roda de Ter
 location	El Masnou
+location	Folgueroles
 location	Teia
 location	Sant Julia de Vilatorta
 location	La Roca del Valles
@@ -2081,6 +2093,7 @@ location	Cabrils
 location	Santa Maria de Corcó
 location	Sant Pere de Vilamajor
 location	Vilassar de Mar
+location	Viladrau
 location	Cabrera de Mar
 location	Argentona
 location	Sant Antoni de Vilamajor
@@ -4466,23 +4479,36 @@ location	Teramo
 location	Palermo
 
 # Molise
+location	Venafro
+location	Macchia D'Isernia
 location	Isernia
+location	Capracotta
+location	Santa Maria del Molise
 location	Macchiagodena
 location	Frosolone
+location	Bojano (Molise)
 location	Colle d'Anchise
+location	Guardiaregia
+location	Trivento
 location	Vinchiaturo
 location	Montefalcone nel Sannio
 location	Montemitro
+location	Montagano
+location	Lucito
+location	Campodipietra
+location	Campolieto
 location	Palata
 location	Campobasso
 location	Petacciato
 location	Pietracatella
 location	Sant'Elia a Pianisi
 location	Guglionesi
+location	Larino
 location	Colletorto
 location	Santa Croce di Magliano
 location	Termoli
 location	Portocannone
+location	Campomarino
 
 # Campania
 location	Naples
@@ -4522,7 +4548,7 @@ location	Jönköping
 # Vorarlberg
 location	Bludenz
 location	Feldkirch
-location	Gofis
+location	Göfis
 location	Rankweil
 location	Hohenems
 location	Dornbirn
@@ -4532,7 +4558,7 @@ location	Bregenz
 
 # Tyrol
 location	Galtür
-location	St. Anton
+location	St. Anton am Arlberg
 location	Ischgl
 location	Kappl
 location	Pettneu Am Arlberg
@@ -4540,7 +4566,7 @@ location	Elbigenalp
 location	See
 location	Nauders
 location	Landeck
-location	Pfunden
+location	Pfunds
 location	Zams
 location	Tösens
 location	Imst
@@ -4565,9 +4591,10 @@ location	Ramsau im Zillertal
 location	Kirchbichl
 location	Kufstein
 location	Söll
-location	Going
-location	Kitzbuhel-Stadt
+location	Going am Wilden Kaiser
+location	Kitzbühel-Stadt
 location	Kitzbühel
+location	Kitzbühel-Land
 location	Fieberbrunn
 location	Lienz
 
@@ -4577,14 +4604,13 @@ location	Kaprun
 location	Zell am See
 location	St. Johann im Pongau
 location	Bischofshofen
-location	Saalfelden
+location	Saalfelden am Steinernen Meer
 location	Filzmoos
 location	Pfarrwerfen
 location	Abtenau
 location	Golling An Der Salzach
 location	Hallein
 location	Salzburg
-location	Mondsee
 location	Siggerwiesen
 location	Salzburg-Umgebung
 location	Seekirchen am Wallersee
@@ -4604,7 +4630,7 @@ location	Bodensdorf
 location	Rosegg
 location	Velden Am Wörther See
 location	Wachsenberg
-location	Feldkirchen
+location	Feldkirchen in Kärnten
 location	Glödnitz
 location	Klagenfurt Am Wörthersee
 location	Sankt Veit An Der Glan
@@ -4621,6 +4647,7 @@ location	Wolfsberg
 location	Zell Am Moos
 location	Ried
 location	Pöndorf
+location	Mondsee
 location	Frankenmarkt
 location	Fornach
 location	Pfaffing
@@ -4717,7 +4744,7 @@ location	Hartberg-Fürstenfeld
 # Lower Austria
 location	Waidhofen An Der Ybbs
 location	Amstetten
-location	Zwettl
+location	Zwettl-Niederösterreich
 location	Pöggstall
 location	Melk
 location	Waidhofen An Der Thaya
@@ -4725,7 +4752,7 @@ location	Windigsteig
 location	Thaya
 location	Lilienfeld
 location	Horn
-location	Sankt Polten-Land
+location	Sankt Pölten-Land
 location	Hainfeld
 location	Weitersfeld
 location	Sankt Pölten-Stadt
@@ -5106,6 +5133,7 @@ location	Plewiska
 location	Oborniki
 location	Ludomki
 location	Orlowo
+location	Ryczywol
 location	Zlotniki
 location	Mosina
 location	Kowanowko
@@ -5218,7 +5246,7 @@ location	Jeleńska Huta
 location	Wejherowo
 location	Reda
 location	Starogardzki
-location	Bojano
+location	Bojano (Pomorskie)
 location	Rumia
 location	Puck
 location	Gdynia
@@ -5340,6 +5368,7 @@ location	Biertowice
 location	Zelkow
 location	Poreba
 location	Brzezie
+location	Jasienica
 location	Glogoczow
 location	Przybyslawice
 location	Mogilany
@@ -5402,6 +5431,7 @@ location	Tarnow
 location	Dąbrowa Tarnowska
 location	Przemysl
 location	Zawada
+location	Brzezowka
 location	Nowa Wieś
 
 # Swietokrzyskie
@@ -5461,6 +5491,7 @@ location	Belk
 location	Ciborz
 location	Szyleny
 location	Rogity
+location	Bardyny
 location	Dobry
 location	Jurki
 location	Braniewski
@@ -8407,6 +8438,7 @@ location	Midland County TX
 location	Randall County
 location	Potter County TX
 location	Lubbock County
+location	Hale County TX
 location	Swisher County
 location	Reagan County TX
 location	Crosby County
@@ -8415,6 +8447,7 @@ location	Val Verde County
 location	Ochiltree County
 location	Gray County
 location	Tom Green County
+location	Collingsworth County
 location	Wheeler County
 location	Runnels County TX
 location	Taylor
@@ -8856,7 +8889,7 @@ location	Sumter County
 location	Elmore County
 location	Lee County AL
 location	Perry County AL
-location	Hale County
+location	Hale County AL
 location	Chilton County
 location	Tallapoosa County
 location	Chambers County
@@ -9795,6 +9828,9 @@ division	Huila AO
 division	Cuanza Sul
 division	Luanda
 division	Cabinda
+
+### Central African Republic
+division	Bangui
 
 ### Democratic Republic of the Congo
 division	Kongo Central
@@ -11244,6 +11280,7 @@ country	Cameroon
 country	Republic of the Congo
 country	Namibia
 country	Angola
+country	Central African Republic
 country	Democratic Republic of the Congo
 country	Botswana
 country	South Africa
