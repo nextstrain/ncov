@@ -1261,7 +1261,6 @@ rule add_branch_labels:
     message: "Adding custom branch labels to the Auspice JSON"
     input:
         auspice_json = rules.export.output.auspice_json,
-        mutations = lambda w: rules.aa_muts_explicit.output.node_data if config.get("use_nextalign") else rules.translate.output.node_data,
         emerging_clades = rules.emerging_lineages.output.clade_data
     output:
         auspice_json = "results/{build_name}/ncov_with_branch_labels.json"
@@ -1272,7 +1271,6 @@ rule add_branch_labels:
         """
         python3 ./scripts/add_branch_labels.py \
             --input {input.auspice_json} \
-            --mutations {input.mutations} \
             --emerging-clades {input.emerging_clades} \
             --output {output.auspice_json} 
         """

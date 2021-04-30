@@ -25,7 +25,7 @@ if __name__ == '__main__':
     )
 
     parser.add_argument('--input', type=str, metavar="JSON", required=True, help="input Auspice JSON")
-    parser.add_argument('--mutations', type=str, required=True, help="mutations node data file")
+    parser.add_argument('--mutations', type=str, required=False, help="mutations node data file")
     parser.add_argument('--emerging-clades', type=str, required=True, help="emerging clades node data file")
     parser.add_argument('--output', type=str, metavar="JSON", required=True, help="output Auspice JSON")
     args = parser.parse_args()
@@ -33,8 +33,11 @@ if __name__ == '__main__':
     with open(args.input, "r") as f:
         auspice_json = json.load(f)
 
-    with open(args.mutations, "r") as f:
-        spike_mutations = extract_spike_mutations(json.load(f))
+    if args.mutations:
+        with open(args.mutations, "r") as f:
+            spike_mutations = extract_spike_mutations(json.load(f))
+    else:
+        spike_mutations = {}
 
     with open(args.emerging_clades, "r") as f:
         clade_labels = extract_clade_labels(json.load(f))
