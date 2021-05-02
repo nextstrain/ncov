@@ -37,15 +37,52 @@ maps = {
 "cleavage":"defaults/distance_maps/cleavage.json",
 }
 
+def ordinal_to_CW(x):
+    return (x - datetime(2021,1,4).toordinal())//7
+
+def CW_to_ordinal(x):
+    return x*7 + datetime(2021,1,4).toordinal()
+
 def logistic(t, s, tau):
     est = np.exp(s*(t-tau))
     return est/(1+est)
 
+
+def fit_logistic_iterative(observations, all_time_points, method="Powell"):
+    y_obs, bins = np.histogram(observations, bins=4)
+    y_all, b = np.histogram(all_time_points, bins=bins)
+
+    logit = np.log((y_obs+1)/(y_all-y_obs+1))
+    bc = 0.5*(bins[1:] + bins[:-1])
+    res = linregress(bc, logit)
+    s = res.slope
+    tau = np.clip(-res.intercept/s, 737000,738500)
+    M = len(observations)
+    mean_t = np.mean(observations)
+    print(s, tau)
+    for n in range(niter):
+        tau1 = mean_t - np.sum((all_time_points - tau)*np.exp(s*(all_time_points - tau)))/M
+        s1 = s*np.sum(np.exp(s*(all_time_points - tau)))/M
+        s = s1
+        print(s, tau)
+#        tau = tau1
+
+    return sol
+
+
 def fit_logistic(observations, all_time_points, method="Powell"):
     def cost(x, obs, t):
         st_obs = np.clip(x[0]*(obs-x[1]), -100,100)
-        st_all = np.clip(x[0]*(all_time_points-x[1]), -100,100)
+        st_all = np.clip(x[0]*(t-x[1]), -100,100)
         return -np.sum(st_obs) + np.sum(np.log(1+np.exp(st_all)))
+
+    def jac(x, obs, t):
+        st_obs = np.clip(x[0]*(obs-x[1]), -100,100)
+        st_all = np.clip(x[0]*(t-x[1]), -100,100)
+        est = np.exp(st_all)
+        denom = est/(1+est)
+        return np.array([ -np.sum(obs-x[1]) + np.sum((t-x[1])*denom),
+                          x[0]*(len(obs) - np.sum(denom))])
 
     y_obs, bins = np.histogram(observations, bins=4)
     y_all, b = np.histogram(all_time_points, bins=bins)
@@ -53,32 +90,50 @@ def fit_logistic(observations, all_time_points, method="Powell"):
     logit = np.log((y_obs+1)/(y_all-y_obs+1))
     bc = 0.5*(bins[1:] + bins[:-1])
     res = linregress(bc, logit)
-
     sol = minimize(cost, [res.slope, np.clip(-res.intercept/res.slope, 737000,738500)], 
-                   args=(observations, all_time_points), method=method)
+                   args=(observations, all_time_points), jac=jac, method=method, tol=1e-5)
     return sol
+
+def fit_group(data, G, verbose=False, method="Powell"):
+    obs = data.loc[G, "ordinal"]
+    sol = fit_logistic(obs, data.ordinal, method=method)
+    today = datetime.today().toordinal()
+    if np.abs(sol['x'][0])>1:
+        print(" ...failed")
+        return None
+
+    if verbose:
+        print(f": s={sol['x'][0]:1.2f}/day, freq={logistic(today, sol['x'][0], sol['x'][1]):1.2e}")
+    return  {"slope":sol['x'][0], 
+                    "t50_float":sol['x'][1],
+                    "t50":datetime.fromordinal(int(sol['x'][1])).strftime('%Y-%m-%d'),
+                    "current_freq": logistic(today, sol['x'][0], sol['x'][1]), 
+                    "total_count": len(G)}
 
 def fit_groups(data, region, min_date, method="Powell"):
     data_subset = data.loc[(data.region==region)&(data.date>min_date)]
-    today = datetime.today().toordinal()
     by_spike_groups = data_subset.groupby(by='S1_mut_str')
     growth = {}
     for mut, G in by_spike_groups.groups.items():
         if len(G)<50:
             continue
         print("Fitting", mut, len(G), end='')
-        obs = data_subset.loc[G, "ordinal"]
-        sol = fit_logistic(obs, data_subset.ordinal, method=method)
-        if np.abs(sol['x'][0])>1:
-            print(" ...failed")
-            continue
-        print(f": s={sol['x'][0]:1.2f}/day, freq={logistic(today, sol['x'][0], sol['x'][1]):1.2e}")
-        growth[mut] = {"slope":sol['x'][0], 
-                       "t50":datetime.fromordinal(int(sol['x'][1])).strftime('%Y-%m-%d'),
-                       "current_freq": logistic(today, sol['x'][0], sol['x'][1]), 
-                       "total_count": len(G)}
+        res = fit_group(data_subset, G, method=method)
+        if res:
+            growth[mut] = res
 
     return growth
+
+def plot_group(data, G):
+    res = fit_group(data, G)
+    total_count = data.groupby('week').count()['S1']
+    sub_count = data.loc[G].groupby('week').count()['S1']
+    freq = (sub_count/total_count).fillna(0)
+    ordinals = np.array([CW_to_ordinal(x) for x in freq.index])
+    plt.plot(freq.index, freq, 'o')
+    plt.plot(freq.index, logistic(ordinals, res["slope"], res['t50_float']), '-')
+
+
 
 def analyze_growth(data, min_date):
     growth_by_region = defaultdict(dict)
@@ -179,6 +234,7 @@ if __name__ == '__main__':
         data = data.loc[data.region==args.region]
 
     data["ordinal"] = data['date'].apply(lambda x:datetime.strptime(x, '%Y-%m-%d').toordinal())
+    data["week"] = data['ordinal'].apply(ordinal_to_CW)
 
     data["S1_mut_str"] = data.S.apply(lambda muts: ','.join([f'{x[0]}{x[1]}{x[2]}' for x in muts if x[1]<690]))
 
@@ -195,6 +251,6 @@ if __name__ == '__main__':
 
     report_evoscore_variants(data)
 
-    growth_by_region = analyze_growth(data, min_date="2021-02-01")
+    # growth_by_region = analyze_growth(data, min_date="2021-02-01")
 
-    report_growing_variants(data, growth_by_region, focal_region='Europe')
+    # report_growing_variants(data, growth_by_region, focal_region='Asia')
