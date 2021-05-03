@@ -603,7 +603,7 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                                 continue
 
                             # other way around (in case of duplicates overwriting each other in location_to_arrondissement)
-                            if location in arrondissement_to_location[division_c]:
+                            if division_c in arrondissement_to_location and location in arrondissement_to_location[division_c]:
                                 continue
 
                             # location given, but with wrong division - adjust to correct division
