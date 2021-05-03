@@ -1,5 +1,6 @@
 import argparse, json
 from Bio import Phylo, SeqIO
+import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 from collections import defaultdict
@@ -52,28 +53,6 @@ def logit(x):
 
 def logit_inv(x):
     return np.exp(x)/(1+np.exp(x))
-
-def fit_logistic_iterative(observations, all_time_points, method="Powell"):
-    y_obs, bins = np.histogram(observations, bins=4)
-    y_all, b = np.histogram(all_time_points, bins=bins)
-
-    logit = np.log((y_obs+1)/(y_all-y_obs+1))
-    bc = 0.5*(bins[1:] + bins[:-1])
-    res = linregress(bc, logit)
-    s = res.slope
-    tau = np.clip(-res.intercept/s, 737000,738500)
-    M = len(observations)
-    mean_t = np.mean(observations)
-    print(s, tau)
-    for n in range(niter):
-        tau1 = mean_t - np.sum((all_time_points - tau)*np.exp(s*(all_time_points - tau)))/M
-        s1 = s*np.sum(np.exp(s*(all_time_points - tau)))/M
-        s = s1
-        print(s, tau)
-#        tau = tau1
-
-    return sol
-
 
 def fit_logistic(observations, all_time_points, method="Powell"):
     def cost(x, obs, t):
