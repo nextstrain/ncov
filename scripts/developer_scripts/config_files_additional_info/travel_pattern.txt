@@ -73,3 +73,6 @@ Imported case with travel history from XXX and UK
 Imported case with travel history from XXX and UAE
 Case from XXX
 Reternee from XXX
+Patient infected after a stopover in XXX
+Patient infected while traveling from XXX
+Patient travelled from XXX
