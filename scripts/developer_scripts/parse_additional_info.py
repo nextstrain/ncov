@@ -452,7 +452,7 @@ def interpret_location(place, ordering, variants, pattern_found):
 
 
 def adjust_caps(s):
-    s = " ".join(["'".join([f[0].upper() + f[1:].lower() if len(f) > 1 else f.lower() for f in d.split("'")]) for d in s.split(" ")])
+    s = "/".join([" ".join(["'".join([f[0].upper() + f[1:].lower() if len(f) > 1 else f.lower() for f in d.split("'")]) for d in a.split(" ")]) for a in s.split("/")])
     return s
 
 # Check an additional info for patterns fitting additional location info and if possible interpret result
