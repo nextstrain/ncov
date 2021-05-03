@@ -129,10 +129,12 @@ def plot_group(data, G, n_sigma=1.96):
         slope = res['s']
         t50 = res['t50_float']
         CW_points = np.linspace(freq.index[0], freq.index[-1], 100)
-        y_vals = slope*(CW_to_ordinal(CW_points) - t50)
+        x_vals = CW_to_ordinal(CW_points)
+        y_vals = slope*(x_vals - t50)
 
         cov_matrix = np.copy(res['covariance'])
-        dev = n_sigma*np.array([np.sqrt(cov_matrix.dot(np.array([x-t50, -slope])).dot(np.array([x-t50,-slope]))) for x in x_vals])
+        dev = n_sigma*np.array([np.sqrt(cov_matrix.dot(np.array([x-t50, -slope])).dot(np.array([x-t50,-slope])))
+                                for x in x_vals])
         ax.fill_between(CW_points, logit_inv(y_vals-dev), logit_inv(y_vals+dev), alpha=0.2)
         CI = f'±{n_sigma*res["sigma_s"]:1.3f}'
     else: CI=''
