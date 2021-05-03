@@ -47,6 +47,11 @@ def logistic(t, s, tau):
     est = np.exp(s*(t-tau))
     return est/(1+est)
 
+def logit(x):
+    return np.log(x/(1-x))
+
+def logit_inv(x):
+    return np.exp(x)/(1+np.exp(x))
 
 def fit_logistic_iterative(observations, all_time_points, method="Powell"):
     y_obs, bins = np.histogram(observations, bins=4)
@@ -90,11 +95,11 @@ def fit_logistic(observations, all_time_points, method="Powell"):
     logit = np.log((y_obs+1)/(y_all-y_obs+1))
     bc = 0.5*(bins[1:] + bins[:-1])
     res = linregress(bc, logit)
-    sol = minimize(cost, [res.slope, np.clip(-res.intercept/res.slope, 737000,738500)], 
+    sol = minimize(cost, [res.slope, np.clip(-res.intercept/res.slope, 737000,738500)],
                    args=(observations, all_time_points), jac=jac, method=method, tol=1e-5)
     return sol
 
-def fit_group(data, G, verbose=False, method="Powell"):
+def fit_group(data, G, verbose=False, method="BFGS"):
     obs = data.loc[G, "ordinal"]
     sol = fit_logistic(obs, data.ordinal, method=method)
     today = datetime.today().toordinal()
@@ -102,15 +107,21 @@ def fit_group(data, G, verbose=False, method="Powell"):
         print(" ...failed")
         return None
 
-    if verbose:
-        print(f": s={sol['x'][0]:1.2f}/day, freq={logistic(today, sol['x'][0], sol['x'][1]):1.2e}")
-    return  {"slope":sol['x'][0], 
-                    "t50_float":sol['x'][1],
-                    "t50":datetime.fromordinal(int(sol['x'][1])).strftime('%Y-%m-%d'),
-                    "current_freq": logistic(today, sol['x'][0], sol['x'][1]), 
-                    "total_count": len(G)}
+    sig_s = np.sqrt(sol['hess_inv'][0,0])
+    sig_tau = np.sqrt(sol['hess_inv'][1,1])
 
-def fit_groups(data, region, min_date, method="Powell"):
+    if verbose:
+        print(f": s={sol['x'][0]:1.2f}±{sig_s:1.3f}/day, freq={logistic(today, sol['x'][0], sol['x'][1]):1.2e}")
+    return  {"s":sol['x'][0],
+            "sigma_s":sig_s,
+            "t50_float":sol['x'][1],
+            "covariance":sol['hess_inv'],
+            "sigma_t50": sig_tau,
+            "t50":datetime.fromordinal(int(sol['x'][1])).strftime('%Y-%m-%d'),
+            "current_freq": logistic(today, sol['x'][0], sol['x'][1]),
+            "total_count": len(G)}
+
+def fit_groups(data, region, min_date, method="BFGS"):
     data_subset = data.loc[(data.region==region)&(data.date>min_date)]
     by_spike_groups = data_subset.groupby(by='S1_mut_str')
     growth = {}
@@ -124,15 +135,33 @@ def fit_groups(data, region, min_date, method="Powell"):
 
     return growth
 
-def plot_group(data, G):
+def plot_group(data, G, n_sigma=1.96):
+    plt.figure()
+    ax=plt.subplot(111)
+
     res = fit_group(data, G)
     total_count = data.groupby('week').count()['S1']
     sub_count = data.loc[G].groupby('week').count()['S1']
     freq = (sub_count/total_count).fillna(0)
     ordinals = np.array([CW_to_ordinal(x) for x in freq.index])
-    plt.plot(freq.index, freq, 'o')
-    plt.plot(freq.index, logistic(ordinals, res["slope"], res['t50_float']), '-')
+    ax.plot(freq.index, freq, 'o')
 
+    if n_sigma:
+        slope = res['s']
+        t50 = res['t50_float']
+        CW_points = np.linspace(freq.index[0], freq.index[-1], 100)
+        y_vals = slope*(CW_to_ordinal(CW_points) - t50)
+
+        cov_matrix = np.copy(res['covariance'])
+        dev = n_sigma*np.array([np.sqrt(cov_matrix.dot(np.array([x-t50, -slope])).dot(np.array([x-t50,-slope]))) for x in x_vals])
+        ax.fill_between(CW_points, logit_inv(y_vals-dev), logit_inv(y_vals+dev), alpha=0.2)
+        CI = f'±{n_sigma*res["sigma_s"]:1.3f}'
+    else: CI=''
+
+    ax.plot(freq.index, logistic(ordinals, res["s"], res['t50_float']), '-', label=f's={res["s"]:1.3f}{CI}/day')
+    plt.legend()
+    plt.ylabel('frequency')
+    plt.xlabel('week')
 
 
 def analyze_growth(data, min_date):
@@ -157,13 +186,13 @@ def apply_map(spike_mutations, s_map):
     d_val = s_map['default']
     if type(list(s_map['map']['S'].values())[0])==dict:
         # amino acid specific map
-        return spike_mutations.apply(lambda x:np.sum([s_map['map']['S'].get(m[1]-1, {}).get((m[0], m[2]), d_val) 
+        return spike_mutations.apply(lambda x:np.sum([s_map['map']['S'].get(m[1]-1, {}).get((m[0], m[2]), d_val)
                                                       for m in x]))
     else:
         return spike_mutations.apply(lambda x:np.sum([s_map['map']['S'].get(m[1]-1, d_val) for m in x if m[2] not in ['X']]))
 
 
-def report_evoscore_variants(data, nMax = 100, minCount=5, 
+def report_evoscore_variants(data, nMax = 100, minCount=5,
                             fields= ['RBD', 'RBD_cat', 'total', "conv_serum_dms_mean"]):
     by_spike_groups = data.groupby(by='S1_mut_str')
     grouped_scores = by_spike_groups.mean()
@@ -183,13 +212,13 @@ def report_growing_variants(data, growth_by_region, focal_region='Europe'):
     by_spike_groups = data.groupby(by='S1_mut_str')
     constellations_of_interest = []
     for m in growth_by_region:
-        if (focal_region in growth_by_region[m] 
-            and growth_by_region[m][focal_region]['slope']>0.01 
+        if (focal_region in growth_by_region[m]
+            and growth_by_region[m][focal_region]['slope']>0.01
             and growth_by_region[m][focal_region]['total_count']>50):
             lineage = data.loc[by_spike_groups.groups[m]].pango_lineage.mode()
             total_score = data.loc[by_spike_groups.groups[m]].total.mean()
             report_str = ", ".join([f"{r}, s={growth_by_region[m][r]['slope']:1.2f} n={growth_by_region[m][r]['total_count']}" for r in growth_by_region[m]])
-            constellations_of_interest.append((lineage[0], m,  report_str, total_score, 
+            constellations_of_interest.append((lineage[0], m,  report_str, total_score,
                                                growth_by_region[m][focal_region]['slope']))
 
     for c in sorted(constellations_of_interest, key=lambda x:x[-1]):
@@ -211,14 +240,14 @@ if __name__ == '__main__':
 
     print("loading mutations")
     raw_mutations = pd.read_csv(args.mutation_summary, sep='\t', index_col=0)[['ORF1a', 'S']].fillna('')
-    mutations = pd.concat([raw_mutations[col].apply(lambda x: tuple([(y[0], int(y[1:-1]), y[-1]) for y in x.split(',')]) if x else tuple()) 
+    mutations = pd.concat([raw_mutations[col].apply(lambda x: tuple([(y[0], int(y[1:-1]), y[-1]) for y in x.split(',')]) if x else tuple())
                            for col in raw_mutations.columns], axis=1)
 
     print("loading metadata")
     meta = pd.read_csv(args.metadata, sep='\t', index_col=0).fillna('')
-    data = pd.concat([mutations, meta[["date", "date_submitted", "country", "region", 
+    data = pd.concat([mutations, meta[["date", "date_submitted", "country", "region",
                                        "Nextstrain_clade", "pango_lineage"]]], axis=1).loc[mutations.index]
-    
+
     good_sequences = data['S'].apply(lambda x:len(x)<30)
     data = data.loc[good_sequences]
     good_sequences = data['date'].astype(str).apply(lambda x:len(x)==10 and 'X' not in x)
