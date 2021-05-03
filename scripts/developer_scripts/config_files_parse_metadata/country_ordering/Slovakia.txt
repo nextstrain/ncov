@@ -819,7 +819,7 @@ District of Trnava
 	Trstín
 	Voderady
 	Zavar
-	Zeleneč
+	Zeleneč SK
 	Križovany nad Dudváhom
 	Opoj
 	Vlčkovce
@@ -1349,7 +1349,7 @@ District of Nove Zamky
 	Komjatice
 	Komoča
 	Leľa
-	Lipová, district Nove Zamky
+	Lipová
 	Ľubá
 	Malá nad Hronom
 	Malé Kosihy
@@ -2619,7 +2619,7 @@ District of Bardejov
 	Kurov
 	Lascov
 	Lenartov
-	Lipová, district Bardejov
+	Lipová
 	Livov
 	Livovska Huta
 	Lopúchov
