@@ -2053,3 +2053,9 @@ USA/CA-SEARCH-17627/2020
 
 # Duplicate
 EPI_ISL_1804614
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1620068808435700
+Indonesia/SG-NIHRD-PME21007997/2020
+Morocco/ouar254/2020
+USA/CA-CDC-1/2020
+USA/CO-CDPHE-2007152328/2020
