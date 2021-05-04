@@ -1108,8 +1108,11 @@ location	Joe Gqabi
 location	Kempton Park
 
 # Gauteng
+location	Mogale City
 location	West Rand
+location	Emfuleni
 location	Johannesburg Metro
+location	Midvaal
 location	Ekurhuleni Metro
 
 # KwaZulu-Natal
@@ -1178,8 +1181,36 @@ location	Antananarivo
 location	Fenoarivo
 
 ### Mauritius
+# Black River
+location	Tamarin
+location	Canot
+
 # Plaine-Wilhems
+location	Phoenix
+location	Rose Hill
+location	Henrietta
+location	Quatre Bornes
 location	Candos
+location	Floreal
+location	Allee Brillant
+location	Engrais Martial
+location	Castel
+location	Highlands
+location	Curepipe
+location	Eau Coulee
+location	Forest Side
+
+# Moka
+location	Quartier Militaire
+location	Montagne Blanche
+
+# Grand Port
+location	Plaine Magnien
+location	Grand Bel Air
+location	Mahebourg
+
+# Flacq
+location	Poste La Fayette
 
 ################
 
@@ -10139,7 +10170,6 @@ division	Somalia
 ### Mauritius
 division	Black River
 division	Plaine-Wilhems
-division	Mauritius
 division	Moka
 division	Grand Port
 division	Flacq
