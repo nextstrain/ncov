@@ -49,10 +49,11 @@ rule download_metadata:
         metadata = "data/downloaded{origin}.tsv"
     conda: config["conda_environment"]
     params:
-        address = lambda w: config["inputs"][_trim_origin(w.origin)]["metadata"]
+        address = lambda w: config["inputs"][_trim_origin(w.origin)]["metadata"],
+        deflate = lambda w: _infer_decompression(config["inputs"][_trim_origin(w.origin)]["metadata"]),
     shell:
         """
-        aws s3 cp {params.address} - | gunzip -cq >{output.metadata:q}
+        aws s3 cp {params.address} - | {params.deflate} > {output.metadata:q}
         """
 
 rule download_aligned:
