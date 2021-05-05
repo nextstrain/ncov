@@ -100,7 +100,7 @@ def _get_unified_metadata(wildcards):
     if not config.get("inputs"):
         return config["metadata"]
     if len(list(config["inputs"].keys()))==1:
-        return _get_path_for_input("metadata", "_"+list(config["inputs"].keys())[0])
+        return "results/sanitized_metadata{origin}.tsv".format(origin="_"+list(config["inputs"].keys())[0])
     return "results/combined_metadata.tsv"
 
 def _get_unified_alignment(wildcards):
