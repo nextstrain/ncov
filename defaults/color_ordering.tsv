@@ -242,12 +242,16 @@ location	Chikkaballapura
 location	Kolar
 
 # Andhra Pradesh
+location	Ananthapur
+location	Kurnool
+location	Kadapa
 location	Tirupati
 location	Nellore
-location	Kadapa
-location	Kurnool
 location	Guntur
 location	Vijayawada
+location	Kakinada
+location	Vizag
+location	Srikakulam
 
 # Telangana
 location	Jogulamba Gadwal
@@ -259,12 +263,16 @@ location	Nalgonda
 location	Suryapet
 location	Rangareddy
 location	Vikarabad
+location	Vanasthalipuram
+location	King Koti
 location	Hyderabad
+location	Secunderabad
 location	Khammam
 location	Mahboobnagar
 location	Sangareddy
 location	Warangal
 location	Kamareddy
+location	Saidabad
 location	Karimnagar
 location	Nizamabad
 location	Jagtial
@@ -282,19 +290,26 @@ location	Thane
 location	Navimumbai
 location	Raigad
 location	Ratnagiri
+location	Sindhudurg
+location	Nashik
 location	Pune
 location	Kolhapur
 location	Sangli
 location	Ahmednagar
+location	Solapur
 location	Aurangabad
+location	Jalgaon
 location	Jalna
+location	Latur
 location	Hingoli
 location	Akola
 location	Washim
+location	Nanded
 location	Amravati
 location	Yavatmal
 location	Wardha
 location	Nagpur
+location	Chandrapur
 
 # Odisha
 location	Ganjam
@@ -913,8 +928,12 @@ location	Sangalkam
 location	Diamniadio
 
 # Thies
+location	Joal-Fadiouth
 location	Mbour
+location	Thiadiaye
 location	Saly Portudal
+location	Guereo
+location	Popenguine
 location	Khombole
 location	Tivaoune
 
@@ -2050,6 +2069,7 @@ location	Navarcles
 location	Gaia
 location	Puigcerda
 location	Vallirana
+location	Artes
 location	Viladecavalls
 location	Sant Andreu de la Barca
 location	Llivia
@@ -2214,6 +2234,7 @@ location	Malgrat de Mar
 location	Sils
 location	Vilobi Donyar
 location	Sant Gregori
+location	Aiguavivia
 location	Banyoles
 location	Camos
 location	Vilablareix
@@ -2234,6 +2255,7 @@ location	Cassa de la Selva
 location	Sant Esteve de Guialbes
 location	Llagostera
 location	Bordils
+location	Pontos
 location	Vilafant
 location	Castillo de Ferran
 location	Figueres
@@ -2246,6 +2268,7 @@ location	Sant Feliu de Guixols
 location	La Bisbal d'Empordà
 location	S'Agaro
 location	Garriguella
+location	Castell-Platja D'Aro
 location	Platja D'Aro
 location	Castello D'Empuries
 location	Empuriabrava
@@ -2442,24 +2465,25 @@ location	Budeliere
 location	Bort-les-Orgues
 
 # Centre-Val de Loire
-location	Fondettes
-location	Rouziers-de-Touraine
-location	Joue-Les-Tours
-location	Tours
-location	Chambrey Les Tours
-location	Blois
-location	Dreux
-location	Cellettes
-location	Amilly
-location	Abondant
-location	Chartres
-location	Romorantin
-location	Orléans
-location	Mehun sur Yevre
-location	Bourges
+location	St Jeanvrin
 location	Bruere Allichamps
-location	Pannes
 location	Craon
+location	Bourges
+location	Mehun sur Yevre
+location	Chambrey Les Tours
+location	Joue-Les-Tours
+location	Romorantin
+location	Fondettes
+location	Tours
+location	Rouziers-de-Touraine
+location	Cellettes
+location	Blois
+location	Orléans
+location	Pannes
+location	Amilly
+location	Chartres
+location	Dreux
+location	Abondant
 
 # Ile de France
 location	Mantes-la-Jolie
@@ -2600,7 +2624,9 @@ location	Saint-Gilles FR
 # Auvergne-Rhône-Alpes
 location	Laroquebrou
 location	St Mamet la Salvetat
+location	Crandelles
 location	Ytrac
+location	Jussac
 location	Aurillac
 location	Arpajon sur Cere
 location	Lafeuillade en Vezie
@@ -2610,10 +2636,12 @@ location	Domerat
 location	Premilhat
 location	Messeix
 location	Herment
+location	St Maurice Pres Pionsat
 location	Champs sur Tarentaine
 location	Vallon en Sully
 location	Montlucon
 location	Tauves
+location	Villosanges
 location	Riom Es Montagnes
 location	Thiezac
 location	Pontaumur
@@ -2642,8 +2670,10 @@ location	St Ours Les Roches
 location	Chambon sur Lac
 location	Paulhac
 location	Menat
+location	Murat
 location	Manzat
 location	Murol
+location	St Plaisir
 location	Aydat
 location	Charbonnieres Les Vieilles
 location	Charbonnieres Les Varenne
@@ -2673,6 +2703,7 @@ location	Yssac la Tourette
 location	Mozac
 location	Romagnat
 location	Cebazat
+location	Saint Floret
 location	Saint Sandoux
 location	Davayat
 location	St Amant Tallende
@@ -2683,11 +2714,14 @@ location	Aubiere
 location	Tallende
 location	Menetrol
 location	La Roche Blanche
+location	Inconnu
 location	Champeix
 location	Gerzat
 location	Apchat
 location	Chambaron sur Morge
+location	Pessat Villeneuve
 location	La Moutade
+location	Neschers
 location	Veyre Monton
 location	Aulnat
 location	Aumont Aubrac
@@ -2701,6 +2735,7 @@ location	Gannat
 location	Aigueperse
 location	Les Martres sur Morge
 location	Ennezat
+location	Chappes
 location	Mirefleurs
 location	La Roche Noire
 location	Dallet
@@ -2714,9 +2749,11 @@ location	Le Breuil sur Couze
 location	Escurolles
 location	Bayet
 location	Lempdes sur Allagnon
+location	St Ignat
 location	Chauriat
 location	Vertaizon
 location	St Laure
+location	Varennes-sur-Usson
 location	Saint Julien de Coppel
 location	Saint Andre le Coq
 location	Maringues
@@ -2728,7 +2765,9 @@ location	Yzeure
 location	Randan
 location	Montmorin
 location	Fontans
+location	Crevant Laveine
 location	Lezoux
+location	Brioude
 location	Isserteaux
 location	Luzillat
 location	Bellerive sur Allier
@@ -2739,6 +2778,7 @@ location	Abrest
 location	Cusset
 location	St Yorre
 location	Puy Guillaume
+location	Dorat
 location	Chaniat
 location	Paslieres
 location	Thiers
@@ -2747,6 +2787,7 @@ location	La Monnerie le Montel
 location	Augerolles
 location	Lapalisse
 location	Le Mayet de Montagne
+location	Chausseterre
 location	Le Puy-en-Velay
 location	Brives Charensac
 location	Riorges
@@ -3224,6 +3265,7 @@ location	Kieldrecht
 location	Vrasene
 location	Temse
 location	Rupelmonde
+location	Kruibeke
 location	Bazel
 
 # La Louvière
@@ -3998,30 +4040,38 @@ location	Arnhem
 location	Apeldoorn
 
 # Overijssel
+location	Genemuiden
 location	Raalte
 location	Hengelo
 location	Oldenzaal
 
 # Groningen
+location	Haren
 location	Leek
 location	Zuidhorn
 location	Groningen
 location	Haren NL
 location	Uithuizen
 location	Uithuizermeeden
+location	Hoogezand
 location	Appingedam
 location	Wildervank
 location	Delfzijl
+location	Heiligerlee
+location	Bellingwolde
 
 # Drenthe
 location	Meppel
+location	Roden
 location	Zuidwolde
+location	Norg
 location	Bovensmilde
 location	Peize
 location	Assen
 location	Eelde
 location	Coevorden
 location	Dalen
+location	Nieuw Annerveen
 
 ### Luxembourg
 # Luxembourg
@@ -4634,7 +4684,9 @@ location	Hohenems
 location	Dornbirn
 location	Bildstein
 location	Wolfurt
+location	Hard
 location	Bregenz
+location	Hörbranz
 
 # Tyrol
 location	Galtür
@@ -4691,6 +4743,7 @@ location	Abtenau
 location	Golling An Der Salzach
 location	Hallein
 location	Salzburg
+location	Bergheim
 location	Siggerwiesen
 location	Salzburg-Umgebung
 location	Seekirchen am Wallersee
@@ -4745,6 +4798,7 @@ location	Schörfling Am Attersee
 location	Lenzing
 location	Timelkam
 location	Bad Goisern
+location	Bad Goisern Am Hallstättersee
 location	Bad Ischl
 location	Vöcklabruck
 location	Manning
@@ -4808,8 +4862,10 @@ location	Liezen
 location	Murau
 location	Oberwölz
 location	Murtal
+location	Zeltweg
 location	Bad Gams
 location	Bruck-Mürzzuschlag
+location	Diemlach
 location	Kapfenberg
 location	Mariazell
 location	Seiersberg-Pirka
@@ -4824,32 +4880,43 @@ location	Hartberg-Fürstenfeld
 # Lower Austria
 location	Waidhofen An Der Ybbs
 location	Amstetten
+location	Gmünd
+location	Purgstall An Der Erlauf
 location	Zwettl-Niederösterreich
 location	Pöggstall
+location	Klein-Pöchlarn
 location	Melk
 location	Waidhofen An Der Thaya
 location	Windigsteig
 location	Thaya
 location	Lilienfeld
+location	Krems an der Donau
 location	Horn
 location	Sankt Pölten-Land
 location	Hainfeld
 location	Weitersfeld
 location	Sankt Pölten-Stadt
+location	Sankt Pölten
 location	Grunddorf
 location	Oed
 location	Hollabrunn
+location	Aspang Markt
 location	Markt Piesting
+location	Untertullnerbach
 location	Bad Vöslau
 location	Wiener Neustadt-Land
+location	Wiener Neustadt
 location	Baden
 location	Schönau an der Triesting
 location	Mödling
+location	Klosterneuburg
 location	Korneuburg
 location	Hennersdorf
 location	Mistelbach
+location	Schwechat
 location	Gänserndorf
 location	Bruck An Der Leitha
+location	Neusiedl An Der Zaya
 
 # Vienna
 location	Rudolfsheim Fünfhaus
@@ -4857,6 +4924,7 @@ location	Vienna
 
 # Burgenland
 location	Unterwart
+location	Oberpullendorf
 location	Müllendorf
 location	Eisenstadt
 location	Neusiedl Am See
@@ -9603,6 +9671,7 @@ division	Barishal
 division	Khulna
 division	Dhaka
 division	Rajshahi
+division	Kishoregonj
 division	Bangladesh
 division	Mymensingh
 division	Sylhet
