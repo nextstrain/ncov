@@ -2104,6 +2104,7 @@ location	Cerdanyola del Valles
 location	Sant Boi de Llucanes
 location	Barcelona
 location	Ripollet
+location	Polinya
 location	Sant Feliu de Codines
 location	Caldes de Montbui
 location	Campdevànol
@@ -2894,6 +2895,7 @@ location	Fameck
 location	Marange Silvange
 location	Amneville
 location	Woippy
+location	Laxou
 location	Montigny Les Metz
 location	Maizières Les Metz
 location	Maxeville
@@ -2999,6 +3001,7 @@ location	Saint-Benoit
 location	De Panne
 location	Koksijde
 location	Oostduinkerke
+location	Nieuwpoort
 location	Beveren
 
 # Diksmuide
@@ -3039,6 +3042,7 @@ location	Bekegem
 # Roeselare
 location	Staden
 location	Westrozebeke
+location	Oostnieuwkerke
 location	Moorslede
 location	Hooglede
 location	Dadizele
@@ -3064,6 +3068,7 @@ location	Assebroek
 location	Sint-Kruis
 location	Moerkerke
 location	Damme
+location	Zuienkerke
 location	Blankenberge
 location	Zeebrugge
 location	Knokke-Heist
@@ -3082,6 +3087,7 @@ location	Hulste
 location	Harelbeke
 location	Zwevegem
 location	Deerlijk
+location	Spiere-Helkijn
 location	Sint-Denijs
 location	Moen
 location	Sint-Eloois-Vijve
@@ -3246,6 +3252,7 @@ location	Denderleeuw
 
 # Dendermonde
 location	Westrem
+location	Wetteren
 location	Kalken
 location	Serskamp
 location	Wichelen
@@ -4567,6 +4574,7 @@ location	Sassari
 location	Varese
 location	Pavia
 location	Milan
+location	Monza
 location	Brescia
 
 # Tuscany
@@ -5406,6 +5414,7 @@ location	Gdynski
 location	Gdansk
 location	Pruszcz Gdanski
 location	Zalesie (Pomorskie)
+location	Tczew
 location	Hel
 location	Miloradz
 location	Kwidzyn
@@ -5577,7 +5586,6 @@ location	Zakliczyn
 location	Ostrow (Malopolskie)
 location	Tarnow
 location	Dąbrowa Tarnowska
-location	Przemysl
 location	Zawada
 location	Brzezowka
 location	Nowa Wieś
@@ -5736,6 +5744,7 @@ location	Sokolow Podlaski
 location	Siedlce
 
 # Podkarpackie
+location	Przemysl
 location	Debica
 location	Siedliska-Bogusz
 location	Nagoszyn
@@ -5748,6 +5757,7 @@ location	Strzyzow
 location	Rzeszow
 location	Brzozow
 location	Stalowa Wola
+location	Nisko
 location	Sanok
 location	Łańcut
 location	Wola Zarczycka
@@ -5755,24 +5765,27 @@ location	Bachórzec
 location	Nowa Sarzyna
 location	Giedlarowa
 location	Lezajsk
+location	Przeworsk
 location	Piskorowice
 location	Ustrzyki Dolne
+location	Jaroslaw
 location	Dybawka
 location	Szowsko
 location	Rozubowice
 location	Jaksmanice
 
 # Lubelskie
-location	Bilgoraj
-location	Zamość
-location	Krasnystaw
-location	Chełm
+location	Puławy
 location	Lublin
-location	Milejów-Osada
-location	Wlodawa
+location	Bilgoraj
 location	Parczew
-location	Hanna
+location	Milejów-Osada
 location	Biała Podlaska
+location	Krasnystaw
+location	Zamość
+location	Chełm
+location	Hanna
+location	Wlodawa
 
 # Podlaskie
 location	Nowogrod
@@ -6348,6 +6361,7 @@ location	Naro-Fominsk
 location	Zvenigorod
 location	Kalininets
 location	Zelenograd
+location	Troitsk
 location	Rublevo
 location	Dolgoprudny
 location	Moscow
@@ -6457,6 +6471,9 @@ location	Astrakhan
 location	Kamyzyak
 location	Volodarskiy
 location	Multanovo
+
+# Tatarstan
+location	Kazan
 
 # Komi
 location	Ukhta
@@ -7647,16 +7664,25 @@ location	Manhuacu
 location	Governador Valadares
 
 # Rio de Janeiro
+location	Itatiaia
 location	Resende
+location	Angra Dos Reis
 location	Porto Real
+location	Quatis
+location	Barra Mansa
 location	Rio Claro RJ
 location	Volta Redonda
 location	Mangaratiba
+location	Pirai
+location	Barra do Pirai
 location	Itaguaí
+location	Mendes
 location	Paracambi
 location	Seropédica
+location	Vassouras
 location	Rio Das Flores
 location	Queimados
+location	Miguel Pereira
 location	Nova Iguacu
 location	Mesquita
 location	Paty do Alferes
@@ -7668,29 +7694,49 @@ location	Paraiba do Sul
 location	Rio de Janeiro
 location	Tres Rios BR
 location	Petropolis
+location	Areal
 location	Niteroi
 location	Mage
 location	Sao Goncalo
 location	Guapimirim
 location	Teresopolis
+location	Sao Jose do Vale do Rio Preto
 location	Itaborai
 location	Maricá
+location	Sumidouro
 location	Rio Bonito
+location	Carmo
 location	Nova Friburgo
 location	Duas Barras
+location	Saquarema
 location	Bom Jardim
+location	Araruama
+location	Macuco
+location	Iguaba Grande
 location	Miracema
+location	Santo Antonio de Padua
 location	Sao Pedro Da Aldeia
 location	Aperibe
+location	Itaocara
+location	Trajano de Moraes
+location	Arraial do Cabo
 location	Cabo Frio
+location	Santa Maria Madalena
+location	Natividade
 location	Rio Das Ostras
 location	Cambuci
 location	Itaperuna
+location	Varre Sai
 location	Conceicao de Macabu
 location	Macaé
+location	Italva
 location	Bom Jesus do Itabapoana
+location	Carapebus
+location	Cardoso Moreira
+location	Quissama
 location	Campos Dos Goytacazes
 location	Sao Francisco de Itabapoana
+location	Sao Joao Da Barra
 
 # Piaui
 location	Terezina
@@ -7948,6 +7994,7 @@ location	Riobamba
 
 # Pichincha
 location	Quito
+location	Rumiñahui
 location	Cayambe
 
 # Imbabura
@@ -8542,6 +8589,7 @@ location	Benton County WA
 location	Grant County WA
 location	Franklin County WA
 location	Walla Walla County
+location	Ferry County
 location	Adams County WA
 location	Lincoln County WA
 location	Stevens County
@@ -8682,6 +8730,7 @@ location	El Paso County
 location	Presidio County
 location	Pecos
 location	Brewster County
+location	Ward County TX
 location	Winkler County
 location	Bailey County
 location	Pecos County
@@ -8698,6 +8747,7 @@ location	Midland County TX
 location	Randall County
 location	Potter County TX
 location	Lubbock County
+location	Lynn County
 location	Hale County TX
 location	Swisher County
 location	Reagan County TX
@@ -9230,6 +9280,7 @@ location	Hardin County OH
 location	Adams County OH
 location	Marion County OH
 location	Pickaway County
+location	Scioto County
 location	Franklin County OH
 location	Columbus OH
 location	Delaware County OH
@@ -9240,6 +9291,7 @@ location	Lorain County
 location	Medina County OH
 location	Cuyahoga County
 location	Summit County OH
+location	Lake County OH
 location	Trumbull County
 
 # Florida
@@ -9634,6 +9686,7 @@ division	Uttarakhand
 division	Chandigarh
 division	Punjab IN
 division	Himachal Pradesh
+division	Jammu
 division	Jammu and Kashmir
 division	Ladakh
 
@@ -9958,7 +10011,11 @@ division	Harhoura
 division	Temara
 division	Rabat
 division	Salé
+division	Kenitra
+division	Khemisset
 division	Morocco
+division	Sidi Kacem
+division	Meknes
 division	Sidi Lahcen
 division	Ouarzazate
 
@@ -10602,6 +10659,7 @@ division	Istria
 division	Primorje-Gorski Kotar County
 division	Croatia
 division	Lika-Senj County
+division	Zadar County
 division	Karlovac County
 division	Krapina-Zagorje County
 division	Zagreb
