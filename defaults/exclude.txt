@@ -2067,3 +2067,6 @@ Senegal/THI-KHO-0333/2020
 Ireland/D-NVRL-g20IRL77933/2020
 CzechRepublic/VIR-64/2021
 Netherlands/ZH-EMC-1943/2020
+
+# duplicate determined from additional info: Australia/QLD1516/2021  EPI_ISL_1803794 additional_host_info: Specimen source - original patient sample sequence EPI_ISL_1300524, sequence hCoV-19/Australia/QLD1496/2021
+Australia/QLD1516/2021
