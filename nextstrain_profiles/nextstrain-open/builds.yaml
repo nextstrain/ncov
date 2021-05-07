@@ -6,10 +6,10 @@ custom_rules:
 # These parameters are only used by the `export_for_nextstrain` rule and shouldn't need to be modified.
 # To modify the s3 _source_ bucket, specify this directly in the `inputs` section of the config.
 # P.S. These are intentionally set as top-level keys as this allows command-line overrides.
-S3_DST_BUCKET: "nextstrain-data/ncov-intermediates"
+S3_DST_BUCKET: "nextstrain-data/files/ncov/open"
 S3_REF_BUCKET: "nextstrain-data/ncov-reference-datasets"
 S3_DST_COMPRESSION: "xz"
-S3_DST_ORIGINS: ["genbank"]
+S3_DST_ORIGINS: ["open"]
 
 build_sizes:
   standard: 4000
@@ -73,7 +73,7 @@ refine:
    root: "Wuhan/WH01/2019"
 
 files:
-   auspice_config: "nextstrain-profiles/nextstrain-genbank/auspice_config.json"
+   auspice_config: "nextstrain-profiles/nextstrain-open/auspice_config.json"
 
 genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
 use_nextalign: true
@@ -85,20 +85,13 @@ conda_environment: "workflow/envs/nextstrain_with_nextalign.yaml"
 # will start by downloading that file and proceeding straight to
 # subsampling
 inputs:
-  - name: genbank
-    metadata: "s3://nextstrain-data/ncov-ingest/genbank_metadata.tsv.gz"
-    sequences: "s3://nextstrain-data/ncov-ingest/genbank_sequences.fasta.gz"
-    # ---------------------- NOTE --------------------------
-    # PR 550 changed the path of intermediate files on
-    # the S3 bucket to include the origin (e.g. _gisaid).
-    # Some of these files may not yet exist!
-    # ------------------------------------------------------
-    # metadata: "s3://nextstrain-ncov-private/metadata_gisaid.tsv.gz"
-    # sequences: "s3://nextstrain-ncov-private/sequences_gisaid.fasta.gz"
-    # aligned: "s3://nextstrain-ncov-private/aligned_gisaid.fasta.xz"
-    # to-exclude: "s3://nextstrain-ncov-private/to-exclude_gisaid.txt.xz"
-    # masked: "s3://nextstrain-ncov-private/masked_gisaid.fasta.fasta.xz"
-    # filtered: "s3://nextstrain-ncov-private/filtered_gisaid.fasta.xz"
+  - name: open
+    metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.gz"
+    sequences: "s3://nextstrain-data/files/ncov/open/sequences.fasta.gz"
+    # aligned: "s3://nextstrain-data/files/ncov/open/aligned.fasta.xz"
+    # to-exclude: "s3://nextstrain-data/files/ncov/open/to-exclude.txt.xz"
+    # masked: "s3://nextstrain-data/files/ncov/open/masked.fasta.fasta.xz"
+    # filtered: "s3://nextstrain-data/files/ncov/open/filtered.fasta.xz"
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.

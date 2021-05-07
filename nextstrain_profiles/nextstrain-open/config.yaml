@@ -1,6 +1,6 @@
 configfile:
   - defaults/parameters.yaml
-  - nextstrain_profiles/nextstrain-genbank/builds.yaml
+  - nextstrain_profiles/nextstrain-open/builds.yaml
 
 keep-going: True
 printshellcmds: True

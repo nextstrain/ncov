@@ -144,3 +144,38 @@ def _get_max_date_for_frequencies(wildcards):
         return numeric_date(
             date.today() - offset
         )
+
+def _get_upload_inputs(wildcards):
+    # The main workflow supports multiple inputs/origins, but our desired file
+    # structure under data.nextstrain.org/files/ncov/open/… is designed around
+    # a single input/origin.  Intermediates (aligned, masked, filtered, etc)
+    # are specific to each input/origin and thus do not match our desired
+    # structure, while builds (global, europe, africa, etc) span all
+    # inputs/origins (and thus do).  In our desired outcome, the two kinds of
+    # files are comingled.  Without changing the main workflow, the mismatch
+    # has to be reconciled by the upload rule.  Thus, the upload rule enforces
+    # and uses only single-origin configurations.  How third-wave.
+    #   -trs, 7 May 2021
+    if len(config["S3_DST_ORIGINS"]) != 1:
+        raise Exception(f'The "upload" rule requires a single value in S3_DST_ORIGINS (got {config["S3_DST_ORIGINS"]!r}).')
+
+    origin = config["S3_DST_ORIGINS"][0]
+
+    # mapping of remote → local filenames
+    uploads = {
+        f"aligned.fasta.xz":              f"results/aligned_{origin}.fasta.xz",              # from `rule align`
+        f"sequence-diagnostics.tsv.xz":   f"results/sequence-diagnostics_{origin}.tsv.xz",   # from `rule diagnostic`
+        f"flagged-sequences.tsv.xz":      f"results/flagged-sequences_{origin}.tsv.xz",      # from `rule diagnostic`
+        f"to-exclude.txt.xz":             f"results/to-exclude_{origin}.txt.xz",             # from `rule diagnostic`
+        f"masked.fasta.xz":               f"results/masked_{origin}.fasta.xz",               # from `rule mask`
+        f"filtered.fasta.xz":             f"results/filtered_{origin}.fasta.xz",             # from `rule filter`
+        f"mutation-summary.tsv.xz":       f"results/mutation_summary_{origin}.tsv.xz",       # from `rule mutation_summary`
+    }
+
+    for build_name in config["builds"]:
+        uploads.update({
+            f"{build_name}/sequences.fasta.xz": f"results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
+            f"{build_name}/metadata.tsv.xz":    f"results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        })
+
+    return uploads
