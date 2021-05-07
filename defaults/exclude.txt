@@ -2070,3 +2070,11 @@ Netherlands/ZH-EMC-1943/2020
 
 # duplicate determined from additional info: Australia/QLD1516/2021  EPI_ISL_1803794 additional_host_info: Specimen source - original patient sample sequence EPI_ISL_1300524, sequence hCoV-19/Australia/QLD1496/2021
 Australia/QLD1516/2021
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1620344639478100
+Senegal/SN-TH-TIV-2176/2021
+Germany/SL-SU-10428084/2020
+Ireland/LH-NVRL-g20IRL08005/2020
+Germany/SL-SU-10427230/2020
+USA/NV-NSPHL-357909/2020
+USA/TX-HMH-1344/2020
