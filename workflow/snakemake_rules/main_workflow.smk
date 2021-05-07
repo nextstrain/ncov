@@ -2,7 +2,7 @@ rule sanitize_metadata:
     input:
         metadata=lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
     output:
-        metadata="results/sanitized_metadata{origin}.tsv"
+        metadata="pre-processed/sanitized_metadata{origin}.tsv"
     benchmark:
         "benchmarks/sanitize_metadata{origin}.txt"
     conda:
@@ -27,9 +27,9 @@ rule combine_input_metadata:
         Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
     input:
-        metadata=expand("results/sanitized_metadata{origin}.tsv", origin=[f"_{origin}" if origin else "" for origin in config.get("inputs", "")]),
+        metadata=expand("pre-processed/sanitized_metadata{origin}.tsv", origin=[f"_{origin}" if origin else "" for origin in config.get("inputs", "")]),
     output:
-        metadata = "results/combined_metadata.tsv"
+        metadata = "pre-processed/combined_metadata.tsv"
     params:
         origins = lambda wildcards: list(config["inputs"].keys())
     log:
@@ -54,11 +54,11 @@ if "use_nextalign" in config and config["use_nextalign"]:
             genemap = config["files"]["annotation"],
             reference = config["files"]["alignment_reference"]
         output:
-            alignment = "results/aligned{origin}.fasta",
-            insertions = "results/insertions{origin}.tsv",
-            translations = expand("results/translations/seqs{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+            alignment = "pre-processed/aligned{origin}.fasta",
+            insertions = "pre-processed/insertions{origin}.tsv",
+            translations = expand("pre-processed/translations/seqs{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
         params:
-            outdir = "results/translations",
+            outdir = "pre-processed/translations",
             genes = ','.join(config.get('genes', ['S'])),
             basename = "seqs{origin}",
             strain_prefixes=config["strip_strain_prefixes"],
@@ -98,7 +98,7 @@ else:
             sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
             reference = config["files"]["alignment_reference"]
         output:
-            alignment = "results/aligned{origin}.fasta"
+            alignment = "pre-processed/aligned{origin}.fasta"
         log:
             "logs/align{origin}.txt"
         benchmark:
@@ -126,12 +126,12 @@ rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
         alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = "results/sanitized_metadata{origin}.tsv",
+        metadata = "pre-processed/sanitized_metadata{origin}.tsv",
         reference = config["files"]["reference"]
     output:
-        diagnostics = "results/sequence-diagnostics{origin}.tsv",
-        flagged = "results/flagged-sequences{origin}.tsv",
-        to_exclude = "results/to-exclude{origin}.txt"
+        diagnostics = "pre-processed/sequence-diagnostics{origin}.tsv",
+        flagged = "pre-processed/flagged-sequences{origin}.tsv",
+        to_exclude = "pre-processed/to-exclude{origin}.txt"
     log:
         "logs/diagnostics{origin}.txt"
     params:
@@ -176,7 +176,7 @@ rule mask:
     input:
         alignment = lambda w: _get_path_for_input("aligned", w.origin)
     output:
-        alignment = "results/masked{origin}.fasta"
+        alignment = "pre-processed/masked{origin}.fasta"
     log:
         "logs/mask{origin}.txt"
     benchmark:
@@ -207,12 +207,12 @@ rule filter:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
-        metadata = "results/sanitized_metadata{origin}.tsv",
+        metadata = "pre-processed/sanitized_metadata{origin}.tsv",
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = _collect_exclusion_files,
     output:
-        sequences = "results/filtered{origin}.fasta"
+        sequences = "pre-processed/filtered{origin}.fasta"
     log:
         "logs/filtered{origin}.txt"
     benchmark:
@@ -283,7 +283,7 @@ def get_priorities(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
 
     if "priorities" in subsampling_settings and subsampling_settings["priorities"]["type"] == "proximity":
-        return f"results/{wildcards.build_name}/priorities_{subsampling_settings['priorities']['focus']}.tsv"
+        return f"builds/{wildcards.build_name}/priorities_{subsampling_settings['priorities']['focus']}.tsv"
     else:
         # TODO: find a way to make the list of input files depend on config
         return config["files"]["include"]
@@ -352,7 +352,7 @@ rule combine_sequences_for_subsampling:
     input:
         lambda w: [_get_path_for_input("filtered", f"_{origin}") for origin in config.get("inputs", {})]
     output:
-        "results/combined_sequences_for_subsampling.fasta"
+        "pre-processed/combined_sequences_for_subsampling.fasta"
     benchmark:
         "benchmarks/combine_sequences_for_subsampling.txt"
     conda: config["conda_environment"]
@@ -379,7 +379,7 @@ rule index_sequences:
     input:
         sequences = _get_unified_alignment
     output:
-        sequence_index = "results/combined_sequence_index.tsv"
+        sequence_index = "pre-processed/combined_sequence_index.tsv"
     log:
         "logs/index_sequences.txt"
     benchmark:
@@ -416,8 +416,8 @@ rule subsample:
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/{build_name}/sample-{subsample}.fasta",
-        strains="results/{build_name}/sample-{subsample}.txt",
+        sequences = "builds/{build_name}/sample-{subsample}.fasta",
+        strains="builds/{build_name}/sample-{subsample}.txt",
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
     benchmark:
@@ -470,9 +470,9 @@ rule proximity_score:
     input:
         alignment = _get_unified_alignment,
         reference = config["files"]["alignment_reference"],
-        focal_alignment = "results/{build_name}/sample-{focus}.fasta"
+        focal_alignment = "builds/{build_name}/sample-{focus}.fasta"
     output:
-        proximities = "results/{build_name}/proximity_{focus}.tsv"
+        proximities = "builds/{build_name}/proximity_{focus}.tsv"
     log:
         "logs/subsampling_proximity_{build_name}_{focus}.txt"
     benchmark:
@@ -500,7 +500,7 @@ rule priority_score:
         proximity = rules.proximity_score.output.proximities,
         sequence_index = rules.index_sequences.output.sequence_index,
     output:
-        priorities = "results/{build_name}/priorities_{focus}.tsv"
+        priorities = "builds/{build_name}/priorities_{focus}.tsv"
     benchmark:
         "benchmarks/priority_score_{build_name}_{focus}.txt"
     conda: config["conda_environment"]
@@ -517,7 +517,7 @@ def _get_subsampled_files(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
 
     return [
-        f"results/{wildcards.build_name}/sample-{subsample}.txt"
+        f"builds/{wildcards.build_name}/sample-{subsample}.txt"
         for subsample in subsampling_settings
     ]
 
@@ -532,8 +532,8 @@ rule combine_samples:
         metadata=_get_unified_metadata,
         include=_get_subsampled_files,
     output:
-        sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta",
-        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv"
+        sequences = "builds/{build_name}/{build_name}_subsampled_sequences.fasta",
+        metadata = "builds/{build_name}/{build_name}_subsampled_metadata.tsv"
     log:
         "logs/subsample_regions_{build_name}.txt"
     benchmark:
@@ -563,11 +563,11 @@ if "use_nextalign" in config and config["use_nextalign"]:
             genemap = config["files"]["annotation"],
             reference = config["files"]["alignment_reference"]
         output:
-            alignment = "results/{build_name}/aligned.fasta",
-            insertions = "results/{build_name}/insertions.tsv",
-            translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+            alignment = "builds/{build_name}/aligned.fasta",
+            insertions = "builds/{build_name}/insertions.tsv",
+            translations = expand("builds/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
         params:
-            outdir = "results/{build_name}/translations",
+            outdir = "builds/{build_name}/translations",
             genes = ','.join(config.get('genes', ['S'])),
             basename = "aligned"
         log:
@@ -602,7 +602,7 @@ else:
             sequences = rules.combine_samples.output.sequences,
             reference = config["files"]["alignment_reference"]
         output:
-            alignment = "results/{build_name}/aligned.fasta"
+            alignment = "builds/{build_name}/aligned.fasta"
         log:
             "logs/align_{build_name}.txt"
         benchmark:
@@ -630,9 +630,9 @@ if "run_pangolin" in config and config["run_pangolin"]:
         input:
             alignment = rules.build_align.output.alignment,
         output:
-            lineages = "results/{build_name}/pangolineages.csv",
+            lineages = "builds/{build_name}/pangolineages.csv",
         params:
-            outdir = "results/{build_name}",
+            outdir = "builds/{build_name}",
             csv_outfile = "pangolineages.csv",
             node_data_outfile = "pangolineages.json"
         log:
@@ -654,7 +654,7 @@ if "run_pangolin" in config and config["run_pangolin"]:
         input:
             lineages = rules.run_pangolin.output.lineages
         output:
-            node_data = "results/{build_name}/pangolineages.json"
+            node_data = "builds/{build_name}/pangolineages.json"
         log:
             "logs/pangolin_export_{build_name}.txt"
         conda: config["conda_environment"]
@@ -678,7 +678,7 @@ rule adjust_metadata_regions:
     input:
         metadata = _get_unified_metadata
     output:
-        metadata = "results/{build_name}/metadata_adjusted.tsv"
+        metadata = "builds/{build_name}/metadata_adjusted.tsv"
     params:
         region = lambda wildcards: config["builds"][wildcards.build_name]["region"]
     log:
@@ -699,7 +699,7 @@ rule tree:
     input:
         alignment = rules.build_align.output.alignment
     output:
-        tree = "results/{build_name}/tree_raw.nwk"
+        tree = "builds/{build_name}/tree_raw.nwk"
     params:
         args = lambda w: config["tree"].get("tree-builder-args","") if "tree" in config else ""
     log:
@@ -735,8 +735,8 @@ rule refine:
         alignment = rules.build_align.output.alignment,
         metadata = _get_metadata_by_wildcards
     output:
-        tree = "results/{build_name}/tree.nwk",
-        node_data = "results/{build_name}/branch_lengths.json"
+        tree = "builds/{build_name}/tree.nwk",
+        node_data = "builds/{build_name}/branch_lengths.json"
     log:
         "logs/refine_{build_name}.txt"
     benchmark:
@@ -789,7 +789,7 @@ rule ancestral:
         tree = rules.refine.output.tree,
         alignment = rules.build_align.output.alignment
     output:
-        node_data = "results/{build_name}/nt_muts.json"
+        node_data = "builds/{build_name}/nt_muts.json"
     log:
         "logs/ancestral_{build_name}.txt"
     benchmark:
@@ -817,7 +817,7 @@ rule haplotype_status:
     input:
         nt_muts = rules.ancestral.output.node_data
     output:
-        node_data = "results/{build_name}/haplotype_status.json"
+        node_data = "builds/{build_name}/haplotype_status.json"
     log:
         "logs/haplotype_status_{build_name}.txt"
     benchmark:
@@ -840,7 +840,7 @@ rule translate:
         node_data = rules.ancestral.output.node_data,
         reference = config["files"]["reference"]
     output:
-        node_data = "results/{build_name}/aa_muts.json"
+        node_data = "builds/{build_name}/aa_muts.json"
     log:
         "logs/translate_{build_name}.txt"
     benchmark:
@@ -864,8 +864,8 @@ rule aa_muts_explicit:
         tree = rules.refine.output.tree,
         translations = lambda w: rules.build_align.output.translations
     output:
-        node_data = "results/{build_name}/aa_muts_explicit.json",
-        translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}_withInternalNodes.fasta", gene=config.get('genes', ['S']))
+        node_data = "builds/{build_name}/aa_muts_explicit.json",
+        translations = expand("builds/{{build_name}}/translations/aligned.gene.{gene}_withInternalNodes.fasta", gene=config.get('genes', ['S']))
     params:
         genes = config.get('genes', 'S')
     log:
@@ -896,11 +896,11 @@ if "use_nextalign" in config and config["use_nextalign"]:
             reference = config["files"]["alignment_reference"],
             genemap = config["files"]["annotation"]
         output:
-            mutation_summary = "results/{build_name}/mutation_summary.tsv"
+            mutation_summary = "builds/{build_name}/mutation_summary.tsv"
         log:
             "logs/mutation_summary_{build_name}.txt"
         params:
-            outdir = "results/{build_name}/translations",
+            outdir = "builds/{build_name}/translations",
             basename = "aligned"
         conda: config["conda_environment"]
         shell:
@@ -918,14 +918,14 @@ if "use_nextalign" in config and config["use_nextalign"]:
     rule distances:
         input:
             tree = rules.refine.output.tree,
-            alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
+            alignments = "builds/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
             distance_maps = ["defaults/distance_maps/S1.json"]
         params:
             genes = 'S',
             comparisons = ['root'],
             attribute_names = ['S1_mutations']
         output:
-            node_data = "results/{build_name}/distances.json"
+            node_data = "builds/{build_name}/distances.json"
         shell:
             """
             python scripts/mutation_counts.py \
@@ -948,7 +948,7 @@ rule traits:
         tree = rules.refine.output.tree,
         metadata = _get_metadata_by_wildcards
     output:
-        node_data = "results/{build_name}/traits.json"
+        node_data = "builds/{build_name}/traits.json"
     log:
         "logs/traits_{build_name}.txt"
     benchmark:
@@ -981,7 +981,7 @@ rule clade_files:
     input:
         clade_files = _get_clade_files
     output:
-        "results/{build_name}/clades.tsv"
+        "builds/{build_name}/clades.tsv"
     benchmark:
         "benchmarks/clade_files_{build_name}.txt"
     shell:
@@ -997,7 +997,7 @@ rule clades:
         nuc_muts = rules.ancestral.output.node_data,
         clades = rules.clade_files.output
     output:
-        clade_data = "results/{build_name}/clades.json"
+        clade_data = "builds/{build_name}/clades.json"
     log:
         "logs/clades_{build_name}.txt"
     benchmark:
@@ -1023,7 +1023,7 @@ rule emerging_lineages:
         emerging_lineages = config["files"]["emerging_lineages"],
         clades = config["files"]["clades"]
     output:
-        clade_data = "results/{build_name}/temp_emerging_lineages.json"
+        clade_data = "builds/{build_name}/temp_emerging_lineages.json"
     log:
         "logs/emerging_lineages_{build_name}.txt"
     benchmark:
@@ -1044,7 +1044,7 @@ rule rename_emerging_lineages:
     input:
         node_data = rules.emerging_lineages.output.clade_data
     output:
-        clade_data = "results/{build_name}/emerging_lineages.json"
+        clade_data = "builds/{build_name}/emerging_lineages.json"
     benchmark:
         "benchmarks/rename_emerging_lineages_{build_name}.txt"
     run:
@@ -1066,7 +1066,7 @@ rule colors:
         color_schemes = config["files"]["color_schemes"],
         metadata = _get_metadata_by_wildcards
     output:
-        colors = "results/{build_name}/colors.tsv"
+        colors = "builds/{build_name}/colors.tsv"
     log:
         "logs/colors_{build_name}.txt"
     benchmark:
@@ -1091,7 +1091,7 @@ rule recency:
     input:
         metadata = _get_metadata_by_wildcards
     output:
-        node_data = "results/{build_name}/recency.json"
+        node_data = "builds/{build_name}/recency.json"
     log:
         "logs/recency_{build_name}.txt"
     benchmark:
@@ -1113,7 +1113,7 @@ rule tip_frequencies:
         tree = rules.refine.output.tree,
         metadata = _get_metadata_by_wildcards
     output:
-        tip_frequencies_json = "results/{build_name}/tip-frequencies.json"
+        tip_frequencies_json = "builds/{build_name}/tip-frequencies.json"
     log:
         "logs/tip_frequencies_{build_name}.txt"
     benchmark:
@@ -1146,10 +1146,10 @@ rule tip_frequencies:
 
 rule logistic_growth:
     input:
-        tree="results/{build_name}/tree.nwk",
-        frequencies="results/{build_name}/tip-frequencies.json",
+        tree="builds/{build_name}/tree.nwk",
+        frequencies="builds/{build_name}/tip-frequencies.json",
     output:
-        node_data="results/{build_name}/logistic_growth.json"
+        node_data="builds/{build_name}/logistic_growth.json"
     benchmark:
         "benchmarks/logistic_growth_{build_name}.txt"
     conda:
@@ -1185,7 +1185,7 @@ rule nucleotide_mutation_frequencies:
         alignment = rules.build_align.output.alignment,
         metadata = _get_metadata_by_wildcards
     output:
-        frequencies = "results/{build_name}/nucleotide_mutation_frequencies.json"
+        frequencies = "builds/{build_name}/nucleotide_mutation_frequencies.json"
     log:
         "logs/nucleotide_mutation_frequencies_{build_name}.txt"
     benchmark:
@@ -1272,8 +1272,8 @@ rule export:
         lat_longs = config["files"]["lat_longs"],
         description = lambda w: config["builds"][w.build_name]["description"] if "description" in config["builds"][w.build_name] else config["files"]["description"]
     output:
-        auspice_json = "results/{build_name}/ncov_with_accessions.json",
-        root_sequence_json = "results/{build_name}/ncov_with_accessions_root-sequence.json"
+        auspice_json = "builds/{build_name}/ncov_with_accessions.json",
+        root_sequence_json = "builds/{build_name}/ncov_with_accessions_root-sequence.json"
     log:
         "logs/export_{build_name}.txt"
     benchmark:
@@ -1305,7 +1305,7 @@ rule add_branch_labels:
         auspice_json = rules.export.output.auspice_json,
         emerging_clades = rules.emerging_lineages.output.clade_data
     output:
-        auspice_json = "results/{build_name}/ncov_with_branch_labels.json"
+        auspice_json = "builds/{build_name}/ncov_with_branch_labels.json"
     log:
         "logs/add_branch_labels{build_name}.txt"
     conda: config["conda_environment"]
@@ -1314,7 +1314,7 @@ rule add_branch_labels:
         python3 ./scripts/add_branch_labels.py \
             --input {input.auspice_json} \
             --emerging-clades {input.emerging_clades} \
-            --output {output.auspice_json} 
+            --output {output.auspice_json}
         """
 
 rule incorporate_travel_history:
@@ -1327,7 +1327,7 @@ rule incorporate_travel_history:
         sampling = _get_sampling_trait_for_wildcards,
         exposure = _get_exposure_trait_for_wildcards
     output:
-        auspice_json = "results/{build_name}/ncov_with_accessions_and_travel_branches.json"
+        auspice_json = "builds/{build_name}/ncov_with_accessions_and_travel_branches.json"
     log:
         "logs/incorporate_travel_history_{build_name}.txt"
     benchmark:

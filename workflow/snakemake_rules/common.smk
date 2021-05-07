@@ -73,18 +73,18 @@ def _get_path_for_input(stage, origin_wildcard):
     if stage=="sequences":
         return f"data/downloaded{origin_wildcard}.fasta" if remote else path_or_url
     if stage=="aligned":
-        return f"results/precomputed-aligned{origin_wildcard}.fasta" if remote else f"results/aligned{origin_wildcard}.fasta"
+        return f"pre-processed/precomputed-aligned{origin_wildcard}.fasta" if remote else f"pre-processed/aligned{origin_wildcard}.fasta"
     if stage=="to-exclude":
-        return f"results/precomputed-to-exclude{origin_wildcard}.txt" if remote else f"results/to-exclude{origin_wildcard}.txt"
+        return f"pre-processed/precomputed-to-exclude{origin_wildcard}.txt" if remote else f"pre-processed/to-exclude{origin_wildcard}.txt"
     if stage=="masked":
-        return f"results/precomputed-masked{origin_wildcard}.fasta" if remote else f"results/masked{origin_wildcard}.fasta"
+        return f"pre-processed/precomputed-masked{origin_wildcard}.fasta" if remote else f"pre-processed/masked{origin_wildcard}.fasta"
     if stage=="filtered":
         if remote:
-            return f"results/precomputed-filtered{origin_wildcard}.fasta"
+            return f"pre-processed/precomputed-filtered{origin_wildcard}.fasta"
         elif path_or_url:
             return path_or_url
         else:
-            return f"results/filtered{origin_wildcard}.fasta"
+            return f"pre-processed/filtered{origin_wildcard}.fasta"
 
     raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
 
@@ -94,21 +94,21 @@ def _get_unified_metadata(wildcards):
     Returns a single metadata file representing the input metadata file(s).
     If there was only one supplied metadata file (e.g. the deprecated
     `config["metadata"]` syntax, or one entry in the `config["inputs"] dict`)
-    then that file is returned. Else "results/combined_metadata.tsv" is returned
+    then that file is returned. Else "pre-processed/combined_metadata.tsv" is returned
     which will run the `combine_input_metadata` rule to make it.
     """
     if not config.get("inputs"):
         return config["metadata"]
     if len(list(config["inputs"].keys()))==1:
-        return "results/sanitized_metadata{origin}.tsv".format(origin="_"+list(config["inputs"].keys())[0])
-    return "results/combined_metadata.tsv"
+        return "pre-processed/sanitized_metadata{origin}.tsv".format(origin="_"+list(config["inputs"].keys())[0])
+    return "pre-processed/combined_metadata.tsv"
 
 def _get_unified_alignment(wildcards):
     if not config.get("inputs"):
-        return "results/filtered.fasta"
+        return "pre-processed/filtered.fasta"
     if len(list(config["inputs"].keys()))==1:
         return _get_path_for_input("filtered", "_"+list(config["inputs"].keys())[0])
-    return "results/combined_sequences_for_subsampling.fasta",
+    return "pre-processed/combined_sequences_for_subsampling.fasta",
 
 def _get_metadata_by_build_name(build_name):
     """Returns a path associated with the metadata for the given build name.

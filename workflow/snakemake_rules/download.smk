@@ -8,8 +8,8 @@
 #       rule: align
 #           input: _get_path_for_input
 #           ...
-# will result in an input file looking like "results/aligned{origin}.fasta" or
-# "results/download-aligned{origin}.fasta" (which one is chosen depends on the
+# will result in an input file looking like "pre-processed/aligned{origin}.fasta" or
+# "pre-processed/download-aligned{origin}.fasta" (which one is chosen depends on the
 # supplied `config`). In the latter case, `rule download_aligned` will be used.
 # See https://github.com/nextstrain/ncov/compare/remote-files for an example of
 # how we could leverage snakemake to do this without needing a separate rule!
@@ -59,7 +59,7 @@ rule download_metadata:
 rule download_aligned:
     message: "Downloading aligned fasta files from {params.address} -> {output.sequences}"
     output:
-        sequences = "results/precomputed-aligned{origin}.fasta"
+        sequences = "pre-processed/precomputed-aligned{origin}.fasta"
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][_trim_origin(w.origin)]["aligned"],
@@ -77,9 +77,9 @@ rule download_diagnostic:
         {params.to_exclude_address} -> {output.to_exclude}
     """
     output:
-        diagnostics = "results/precomputed-sequence-diagnostics{origin}.tsv",
-        flagged = "results/precomputed-flagged-sequences{origin}.tsv",
-        to_exclude = "results/precomputed-to-exclude{origin}.txt"
+        diagnostics = "pre-processed/precomputed-sequence-diagnostics{origin}.tsv",
+        flagged = "pre-processed/precomputed-flagged-sequences{origin}.tsv",
+        to_exclude = "pre-processed/precomputed-to-exclude{origin}.txt"
     conda: config["conda_environment"]
     params:
         # Only `to-exclude` is defined via the config, so we make some assumptions about the format of the other filenames
@@ -99,7 +99,7 @@ rule download_diagnostic:
 rule download_masked:
     message: "Downloading aligned & masked FASTA from {params.address} -> {output.sequences}"
     output:
-        sequences = "results/precomputed-masked{origin}.fasta"
+        sequences = "pre-processed/precomputed-masked{origin}.fasta"
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][_trim_origin(w.origin)]["masked"],
@@ -113,7 +113,7 @@ rule download_masked:
 rule download_filtered:
     message: "Downloading pre-computed filtered alignment from {params.address} -> {output.sequences}"
     output:
-        sequences = "results/precomputed-filtered{origin}.fasta"
+        sequences = "pre-processed/precomputed-filtered{origin}.fasta"
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][_trim_origin(w.origin)]["filtered"],

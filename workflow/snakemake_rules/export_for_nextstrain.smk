@@ -36,8 +36,8 @@ rule all_regions:
 rule clean_export_regions:
     message: "Removing export files: {input}"
     params:
-        *expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
-        *expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES)
+        *expand("builds/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
+        *expand("builds/{build_name}/colors.tsv", build_name=BUILD_NAMES)
     conda: config["conda_environment"]
     shell:
         "rm -f {params}"
@@ -48,10 +48,10 @@ rule extract_meta:
         alignment = rules.build_align.output.alignment,
         metadata = _get_metadata_by_wildcards
     output:
-        metadata = "results/{build_name}/extracted_metadata.tsv"
+        metadata = "builds/{build_name}/extracted_metadata.tsv"
     run:
-        from Bio import SeqIO 
-        import pandas as pd 
+        from Bio import SeqIO
+        import pandas as pd
 
         seq_names = [s.id for s in SeqIO.parse(input.alignment, 'fasta')]
         all_meta = pd.read_csv(input.metadata, sep='\t', index_col=0, dtype=str)
@@ -63,11 +63,11 @@ rule extract_meta:
 # Runs an additional script to give a list of locations that need colors and/or lat-longs
 rule export_all_regions:
     input:
-        auspice_json = expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
+        auspice_json = expand("builds/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
         lat_longs = config["files"]["lat_longs"],
         metadata = [_get_metadata_by_build_name(build_name).format(build_name=build_name)
                     for build_name in BUILD_NAMES],
-        colors = expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
+        colors = expand("builds/{build_name}/colors.tsv", build_name=BUILD_NAMES),
     benchmark:
         "benchmarks/export_all_regions.txt"
     resources:
@@ -86,7 +86,7 @@ rule export_all_regions:
 
 
 rule all_mutation_frequencies:
-    input: expand("results/{build_name}/nucleotide_mutation_frequencies.json", build_name=BUILD_NAMES)
+    input: expand("builds/{build_name}/nucleotide_mutation_frequencies.json", build_name=BUILD_NAMES)
 
 rule mutation_summary:
     message: "Summarizing {input.alignment}"
@@ -97,13 +97,13 @@ rule mutation_summary:
         reference = config["files"]["alignment_reference"],
         genemap = config["files"]["annotation"]
     output:
-        mutation_summary = "results/mutation_summary{origin}.tsv"
+        mutation_summary = "pre-processed/mutation_summary{origin}.tsv"
     log:
         "logs/mutation_summary{origin}.txt"
     benchmark:
         "benchmarks/mutation_summary{origin}.txt"
     params:
-        outdir = "results/translations",
+        outdir = "pre-processed/translations",
         basename = "seqs{origin}"
     conda: config["conda_environment"]
     shell:
@@ -185,8 +185,8 @@ rule deploy_to_staging:
 
 rule upload_reference_sets:
     input:
-        alignments = expand("results/{build_name}/aligned.fasta", build_name=config["builds"]),
-        metadata = expand("results/{build_name}/extracted_metadata.tsv", build_name=config["builds"])
+        alignments = expand("builds/{build_name}/aligned.fasta", build_name=config["builds"]),
+        metadata = expand("builds/{build_name}/extracted_metadata.tsv", build_name=config["builds"])
     params:
         s3_bucket = config.get("S3_REF_BUCKET",''),
         compression = config["S3_DST_COMPRESSION"]
@@ -199,20 +199,20 @@ rule upload_reference_sets:
             cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.dirname(fname).split('/')[-1]}_metadata.tsv.{params.compression} | tee -a {log}"
             print("upload command:", cmd)
             shell(cmd)
-					    
+
 
 rule upload:
     message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
     input:
-        expand("results/aligned_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
-        expand("results/sequence-diagnostics_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
-        expand("results/flagged-sequences_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
-        expand("results/to-exclude_{origin}.txt", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
-        expand("results/masked_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
-        expand("results/filtered_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
-        expand("results/mutation_summary_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary
-        expand("results/{build_name}/{build_name}_subsampled_sequences.fasta", build_name=config["builds"]),
-        expand("results/{build_name}/{build_name}_subsampled_metadata.tsv", build_name=config["builds"]),
+        expand("pre-processed/aligned_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
+        expand("pre-processed/sequence-diagnostics_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
+        expand("pre-processed/flagged-sequences_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
+        expand("pre-processed/to-exclude_{origin}.txt", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
+        expand("pre-processed/masked_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
+        expand("pre-processed/filtered_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
+        expand("pre-processed/mutation_summary_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary
+        expand("builds/{build_name}/{build_name}_subsampled_sequences.fasta", build_name=config["builds"]),
+        expand("builds/{build_name}/{build_name}_subsampled_metadata.tsv", build_name=config["builds"]),
     params:
         s3_bucket = config["S3_DST_BUCKET"],
         compression = config["S3_DST_COMPRESSION"]
