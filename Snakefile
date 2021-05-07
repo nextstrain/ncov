@@ -8,6 +8,7 @@ from getpass import getuser
 from snakemake.logging import logger
 from snakemake.utils import validate
 from collections import OrderedDict
+import textwrap
 import time
 
 # Store the user's configuration prior to loading defaults, so we can check for
@@ -74,6 +75,26 @@ if "builds" not in config:
 
 include: "workflow/snakemake_rules/reference_build_definitions.smk"
 
+# Check for old-style input file references and alert users to the new format.
+if "sequences" in config or "metadata" in config:
+    logger.error("ERROR: Your configuration file includes references to an unsupported specification of input files (e.g., `config['sequences']` or `config['metadata']`).")
+    logger.error("Update your configuration file (e.g., 'builds.yaml') to define your inputs as follows and try running the workflow again:")
+    logger.error(textwrap.indent(
+        f"\ninputs:\n  name: local-data\n  metadata: {config['metadata']}\n  sequences: {config['sequences']}\n",
+        "  "
+    ))
+    sys.exit(1)
+
+# Check for missing inputs.
+if "inputs" not in config:
+    logger.error("ERROR: Your workflow does not define any input files to start with.")
+    logger.error("Update your configuration file (e.g., 'builds.yaml') to define at least one input dataset as follows and try running the workflow again:")
+    logger.error(textwrap.indent(
+        f"\ninputs:\n  name: local-data\n  metadata: data/example_metadata.tsv\n  sequences: data/example_sequences.fasta.gz\n",
+        "  "
+    ))
+    sys.exit(1)
+
 # Allow users to specify a list of active builds from the command line.
 if config.get("active_builds"):
     BUILD_NAMES = config["active_builds"].split(",")
@@ -93,7 +114,7 @@ wildcard_constraints:
     # but not special strings used for Nextstrain builds.
     build_name = r'(?:[_a-zA-Z-](?!(tip-frequencies)))+',
     date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]",
-    origin = r"(_[a-zA-Z0-9-]+)?" # origin starts with an underscore _OR_ it's the empty string
+    origin = r"[a-zA-Z0-9-_]+"
 
 localrules: download_metadata, download_sequences, clean
 

@@ -85,9 +85,6 @@ rule export_all_regions:
         """
 
 
-rule all_mutation_frequencies:
-    input: expand("results/{build_name}/nucleotide_mutation_frequencies.json", build_name=BUILD_NAMES)
-
 rule mutation_summary:
     message: "Summarizing {input.alignment}"
     input:
@@ -97,14 +94,14 @@ rule mutation_summary:
         reference = config["files"]["alignment_reference"],
         genemap = config["files"]["annotation"]
     output:
-        mutation_summary = "results/mutation_summary{origin}.tsv"
+        mutation_summary = "results/mutation_summary_{origin}.tsv"
     log:
-        "logs/mutation_summary{origin}.txt"
+        "logs/mutation_summary_{origin}.txt"
     benchmark:
-        "benchmarks/mutation_summary{origin}.txt"
+        "benchmarks/mutation_summary_{origin}.txt"
     params:
         outdir = "results/translations",
-        basename = "seqs{origin}"
+        basename = "seqs_{origin}"
     conda: config["conda_environment"]
     shell:
         """

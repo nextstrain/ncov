@@ -11,6 +11,12 @@
 
 # In this example, we use these default methods. See other templates for examples of how to customize this subsampling scheme.
 
+# Define input files.
+inputs:
+  - name: example-data
+    metadata: data/example_metadata.tsv
+    sequences: data/example_sequences.fasta
+
 builds:
   # Focus on King County (location) in Washington State (division) in the USA (country)
   # with a build name that will produce the following URL fragment on Nextstrain/auspice:

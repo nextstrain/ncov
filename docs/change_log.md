@@ -3,6 +3,21 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## v5 (7 May 2021)
+
+[See the corresponding pull request](https://github.com/nextstrain/ncov/pull/615) for more details about this release.
+
+### Major changes
+
+- Drop support for old sequence/metadata inputs
+- Use nextalign for alignment instead of mafft
+
+### Minor changes
+
+- Drop unused haplotype status rule and script
+- Remove unused nucleotide mutation frequencies rule
+- Use augur distance for mutation counts
+
 ## v4 (5 May 2021)
 
 [See the corresponding pull request](https://github.com/nextstrain/ncov/pull/605) for more details about changes in this release.
