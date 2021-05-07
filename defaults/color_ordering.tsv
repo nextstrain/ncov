@@ -316,10 +316,12 @@ location	Ganjam
 location	Jharsuguda
 
 # Chhattisgarh
+location	Gariyaband
 location	Durg
+location	Bhilai
 location	Raipur
-location	Bilaspur
 location	Janjgir-Champa
+location	Bilaspur
 
 # Gujarat
 location	Kodinar
@@ -1132,7 +1134,13 @@ location	West Rand
 location	Emfuleni
 location	Johannesburg Metro
 location	Midvaal
+location	City of Tshwane
+location	Moretele
 location	Ekurhuleni Metro
+location	Thembisile Hani
+
+# Mpumalanga
+location	Dr. JS Moroka
 
 # KwaZulu-Natal
 location	uMkhanyakude
@@ -1907,13 +1915,17 @@ location	Tamarite de Litera
 location	Almenara
 location	Chilches
 location	Torrevieja
+location	Santa Pola
 location	Elche
+location	Aspe
 location	Alicante
 location	Novelda
 location	Monovar
 location	Elda
+location	Petrer
 location	Villajoyosa
 location	Benidorm
+location	Sax ES
 location	Alfas del Pi
 location	Altea
 location	La Nucia
@@ -1941,6 +1953,7 @@ location	Cullera
 location	Guadassuar
 location	Algemesi
 location	El Dosel
+location	Albalat De La Ribera
 location	Sueca
 location	Carlet
 location	Alginet
@@ -1985,8 +1998,12 @@ location	Canet d'en Berenguer
 location	Soneja
 location	Segorbe
 location	Burriana
+location	Almassora
 location	Castello de la Plana
 location	Castellon de la Plana
+location	Benicassim
+location	La Pobla Tornesa
+location	Llucena
 location	Castellón
 
 # Catalunya
@@ -2135,6 +2152,7 @@ location	Llissa de Munt
 location	Lliça de Vall
 location	Montmelo
 location	Badalona
+location	Sant Miquel de Balenya
 location	Aiguafreda
 location	Santa Maria de Martorelle
 location	Vic
@@ -2451,6 +2469,7 @@ location	Idron
 location	Langon
 location	Casteljaloux
 location	Angouleme
+location	Marmande
 location	Poitiers
 location	Bergerac
 location	Saint-Astier
@@ -2480,6 +2499,7 @@ location	Rouziers-de-Touraine
 location	Cellettes
 location	Blois
 location	Orléans
+location	Romilly sur Aigre
 location	Pannes
 location	Amilly
 location	Chartres
@@ -2628,6 +2648,7 @@ location	St Mamet la Salvetat
 location	Crandelles
 location	Ytrac
 location	Jussac
+location	Anglards de Salers
 location	Aurillac
 location	Arpajon sur Cere
 location	Lafeuillade en Vezie
@@ -2647,6 +2668,7 @@ location	Riom Es Montagnes
 location	Thiezac
 location	Pontaumur
 location	Brommat
+location	Chamblet
 location	Miremont
 location	Laqueuille
 location	Montboudif
@@ -2657,6 +2679,7 @@ location	La Goutelle
 location	Gelles
 location	St Priest des Champs
 location	Deneuille Les Mines
+location	Dun sur Auron
 location	Les Ancizes Comps
 location	Rochefort Montagne
 location	Montaigut
@@ -2720,13 +2743,16 @@ location	Champeix
 location	Gerzat
 location	Apchat
 location	Chambaron sur Morge
+location	Plauzat
 location	Pessat Villeneuve
 location	La Moutade
 location	Neschers
 location	Veyre Monton
 location	Aulnat
 location	Aumont Aubrac
+location	Pardines
 location	Saint Beauzire
+location	Le Cendre
 location	Les Martres de Veyre
 location	Clerlande
 location	Lempdes
@@ -2741,6 +2767,7 @@ location	Mirefleurs
 location	La Roche Noire
 location	Dallet
 location	Vic le Comte
+location	St Georges sur Allier
 location	Pont Du Chateau
 location	Issoire
 location	St Bonnet Les Alliers
@@ -2761,6 +2788,7 @@ location	Maringues
 location	Brassac Les Mines
 location	Moulins
 location	St Denis Combarnazat
+location	Usson
 location	Billom
 location	Yzeure
 location	Randan
@@ -2768,9 +2796,12 @@ location	Montmorin
 location	Fontans
 location	Crevant Laveine
 location	Lezoux
+location	Bulhon
 location	Brioude
 location	Isserteaux
 location	Luzillat
+location	Glaine Montaigut
+location	Vinzelles
 location	Bellerive sur Allier
 location	Vichy
 location	Saint Germain des Fosses
@@ -2782,6 +2813,9 @@ location	Puy Guillaume
 location	Dorat
 location	Chaniat
 location	Paslieres
+location	Condat Les Montboissier
+location	Sermentizon
+location	Courpiere
 location	Thiers
 location	Molles
 location	La Monnerie le Montel
@@ -4370,7 +4404,7 @@ location	Grabserberg
 location	Sargans
 location	Gams
 location	Grabs
-location	Sax
+location	Sax CH
 location	Werdenberg
 location	Buchs SG
 location	Buchs
@@ -5115,19 +5149,25 @@ location	Nowogrod Bobrzanski
 location	Nowa Sol
 location	Swidnica LB
 location	Zielona Gora
+location	Gubin
 location	Czerwiensk
 location	Dabrowka
 location	Krosno Odrzańskie
-location	Lubrza
+location	Swiebodzin
+location	Lubrza (Lubuskie)
 location	Lagow
 location	Staropole
 location	Kunowice
 location	Slubice
 location	Miedzyrzecz
-location	Sulecin
+location	Grochowo
+location	Sulecin (Lubuskie)
 location	Bobowicko
 location	Osnolubuskie
 location	Gorzyca
+location	Glisno
+location	Zubrow
+location	Lubniewice
 location	Kostrzyn (Lubuskie)
 location	Kostrzyn nad Odra
 location	Gorzow Wielkopolski
@@ -5138,10 +5178,17 @@ location	Dobiegniew
 # Zachodniopomorskie
 location	Swinoujscie
 location	Nowe Warpno
+location	Barnislaw
 location	Międzyzdroje
+location	Mierzyn
+location	Tanowo
+location	Warzymice
+location	Przeclaw (Zachodniopomorskie)
+location	Pilchowo
 location	Gryfino
 location	Pniewo
 location	Czepino
+location	Wolin
 location	Nowe Brynki
 location	Szczecin
 location	Stare Brynki
@@ -5150,63 +5197,98 @@ location	Trzcinsko-Zdroj
 location	Chwarstnica
 location	Skoszewo
 location	Banie
+location	Miedzywodzie
 location	Kukułowo
+location	Parsowek
+location	Chrzaszczewo
 location	Dziwnow
 location	Kamien Pomorski
+location	Dziwnowek
 location	Goleniow
-location	Mysliborz
+location	Mysliborz (Zachodniopomorskie)
+location	Kobylanka
 location	Pyrzyce
 location	Kretlewo
 location	Samlino
 location	Lipiany
 location	Grzedzice
 location	Golczewo
+location	Stuchowo
 location	Stargard
 location	Witkowo Drugie
 location	Gryfice
+location	Barlinek
 location	Płoty
+location	Pelczyce
+location	Dobra
 location	Bonin
+location	Lubianka
 location	Choszczno
 location	Stradzewo
+location	Wapnica
+location	Krzecin
+location	Sokoliniec
+location	Rzecko
 location	Recz
+location	Zaleze
 location	Kolobrzeg
 location	Lobez
 location	Drawno
+location	Zagozd
 location	Swidwin
-location	Drawsko Pomomorskie
+location	Drawsko Pomorskie
 location	Karlino
 location	Bialogard
+location	Zlocieniec
+location	Witolubie
+location	Mielno
+location	Dargikowo
+location	Miroslawiec
 location	Zaborze
 location	Koszalin
+location	Czaplinek
 location	Walcz
+location	Sowno
 location	Slawno
 location	Szczecinek
 
 # Dolnośląskie
 location	Zatonie
+location	Wrociszow
 location	Mala Kamienica
+location	Piechowice
 location	Lwowek Slaski
 location	Wojcieszyce
 location	Jelenia Gora
+location	Siedlecin
 location	Jezow Sudecki
 location	Myslakowice
 location	Kostrzyca
 location	Debrznik
 location	Witkow
 location	Janowice Wielkie
+location	Kostrza
+location	Dobkow
 location	Blazkowa
+location	Swidnik
 location	Lubawka
 location	Marciszow
 location	Kamienna Gora
 location	Blazejow
 location	Krzeszow
+location	Tarnawa
 location	Bolkow
 location	Czarny Bor
 location	Kochanow
 location	Legnica
 location	Lubin
 location	Walbrzych
+location	Swiebodzice
+location	Strzegom
+location	Przyborow
 location	Swidnica DS
+location	Zarow
+location	Bojanice
 location	Przylesie
 location	Lutomia Dolna
 location	Pieszyce
@@ -5214,29 +5296,42 @@ location	Mikowice
 location	Bielawa
 location	Nowizna
 location	Dzierzoniow
+location	Srebrna Gora
 location	Lomnica
+location	Budzow Kolonia
 location	Przedborowa
 location	Zabor
 location	Pilawa Gorna
 location	Bogdaszowice
+location	Sulislawice
 location	Ząbkowice Śląskie
+location	Jagodnik
+location	Wilkow Wielki
 location	Bobolice
 location	Sosnowa
+location	Zloty Stok
+location	Sieroszow
 location	Cieplowody
+location	Henrykow
 location	Wroclaw
+location	Wegry
+location	Ziebice
 location	Trzebnica
 location	Strzelin
+location	Pruszowice
 location	Kamieniec Wrocławski
 location	Kielczow
 location	Nadolice Wielkie
 location	Wojnowice
 location	Oława
+location	Jenkowice
 location	Olesnica
 location	Sycow
 
 # Wielkopolskie
 location	Skwierzyna
 location	Miedzychod
+location	Trzciel
 location	Jaroszewo
 location	Wolsztynski
 location	Nowy Tomysl
@@ -5326,8 +5421,10 @@ location	Lipka
 location	Sroda Wielkopolska
 location	Pobiedziska
 location	Wysławice
+location	Cybinka
 location	Wola Lagiewnicka
 location	Wierzyce
+location	Lubrza (Wielkopolskie)
 location	Gorzewo
 location	Krotoszyn
 location	Czerniejewo
@@ -5338,22 +5435,32 @@ location	Gniezno
 location	Welnica
 location	Niechanowo
 location	Trzuskołon
+location	Olobok
 location	Witkowo
 location	Pleszew
 location	Miaty
 location	Ostrow (Wielkopolskie)
 location	Kruchowo
 location	Trzemeszno
+location	Sulecin (Wielkopolskie)
 location	Powidz
 location	Ostrzeszow
 location	Grodzisk
 location	Kepno
 location	Orchowo
-location	Przeclaw
+location	Kamien Maly
+location	Przeclaw (Wielkopolskie)
 location	Witnica
+location	Mysliborz (Wielkopolskie)
 location	Kalisz
+location	Dabroszyn
 location	Konin
+location	Tuliszkow
+location	Pietno
+location	Milaczewek
 location	Turek
+location	Skarbki
+location	Kowale Panskie-Kolonia
 location	Czajkow
 location	Nowa Wioska
 
@@ -5367,8 +5474,15 @@ location	Prudnik
 location	Biała
 location	Bąkowice
 location	Namysłów
+location	Zopowy-Osiedle
+location	Glubczyce
+location	Bogdanowice
 location	Głogówek
+location	Grobniki
+location	Lisiecice
 location	Opole
+location	Baborow
+location	Kietrz
 location	Otmice
 location	Kedzierzyn Kozle
 location	K-Kozle
@@ -5455,68 +5569,107 @@ location	Tuchola
 location	Dankowice
 location	Raciborz
 location	Chałupki
+location	Golkowice
+location	Skrbensko
+location	Mszana
 location	Sosnicowice
 location	Rybnik
 location	Kaczyce
+location	Jastrzebie-Zdroj
+location	Zebrzydowice
 location	Konczyce Wielkie
 location	Cieszyn
 location	Gliwice
 location	Wojska
 location	Hażlach
 location	Pruchna
+location	Golasowice
 location	Pawłowice
 location	Bakow
+location	Goleszow
 location	Rudziczka
 location	Suszec
+location	Chybie
 location	Gorki Wielkie
 location	Ruda Śląska
+location	Grodziec
 location	Wisla
 location	Bytom
 location	Wisla Glebce
+location	Jasienica (Slaskie)
+location	Jaworze
+location	Miedzyrzecze Dolne
 location	Mazancowice
 location	Tychy
 location	Czechowice-Dziedzice
 location	Siemianowice Slaskie
+location	Bystra
 location	Katowice
 location	Bielsko-Biała
 location	Wilkowice
+location	Lipowa
+location	Przybedza
 location	Lodygowice
 location	Kozy
+location	Pisarzowice
+location	Wilamowice
+location	Kobiernice
 location	Żywiec
+location	Swinna
+location	Czaniec
+location	Jaworzno
 location	Myszkow
+location	Jelesnia
+location	Slemien
 location	Zawiercie
 
 # Łódzkie
 location	Suliszewice
+location	Wojkow
 location	Wielun
 location	Brzeznio
 location	Losieniec
 location	Sieradz
+location	Strzalki
 location	Zdunska Wola
+location	Wartkowice
 location	Pajeczno County
 location	Charbice Gorne
 location	Belchatow County
+location	Adamow
 location	Konstantynow Lodzki
 location	Pabianice
 location	Adolfow
 location	Kutno
 location	Zgierz
+location	Ostrow (Łódzkie)
 location	Radomsko
 location	Lodz
+location	Laski
 location	Wiaczyn Dolny
 location	Wisniowa Gora
 location	Bedon Przykoscielny
 location	Bedon-Wies
 location	Rogow
+location	Bukowiec
+location	Teodorow
 location	Piotrkow Trybunalski
 location	Brzeziny
+location	Dmosin
+location	Bogdanka
 location	Koluszki
+location	Kraszew
+location	Kalinki
+location	Wągry
+location	Przylek Duzy
+location	Jasienin Maly
 location	Jezow
 location	Skierniewice County
 location	Justynow
 
 # Malopolskie
 location	Oswiecim
+location	Bulowice
 location	Chrzanow
 location	Olkusz
 location	Suchabeskidzka
@@ -5526,8 +5679,8 @@ location	Harbutowice
 location	Biertowice
 location	Zelkow
 location	Poreba
-location	Brzezie
-location	Jasienica
+location	Brzezie (Malopolskie)
+location	Jasienica (Malopolskie)
 location	Glogoczow
 location	Przybyslawice
 location	Mogilany
@@ -5593,29 +5746,53 @@ location	Brzezowka
 location	Nowa Wieś
 
 # Swietokrzyskie
+location	Wloszczowa
 location	Sedziszow
 location	Oksa
+location	Naglowice
+location	Krasocin
 location	Wodzislaw
 location	Jedrzejow
 location	Porzecze
 location	Modliszewice
+location	Sobkow
 location	Michalow
 location	Micigozd
 location	Mniow
 location	Pinczow
+location	Chroberz
 location	Kielce
 location	Zagnansk
+location	Wymyslow
 location	Sukow
 location	Maslow Pierwszy
+location	Chmielnik
+location	Podmachocice
+location	Daleszyce
+location	Drugnia
 location	Bieliny
+location	Lubienia
 location	Lechow
+location	Wachock
+location	Brzezie (Swietokrzyskie)
+location	Mirzec
+location	Starachowice
 location	Zagrody
+location	Rzepin
+location	Pawlow
+location	Mlynek
+location	Ilza
 location	Kunow
+location	Iwaniska
+location	Bidziny
 location	Jeziorko
 location	Ostrowiec Swietokrzyski
+location	Opatow
 location	Bodzechow
 location	Cmielow
 location	Wolka Baltowska
+location	Wojciechowice
+location	Tarlow
 
 # Warminsko-Mazurskie
 location	Liwa
@@ -5721,15 +5898,24 @@ location	Olecko
 # Mazowieckie
 location	Halinow
 location	Plock
+location	Miedniewice
 location	Plonsk
+location	Baranow
+location	Aleksandrow
 location	Grodzisk Mazowiecki
 location	Pruszkow
+location	Bukowno
 location	Piastow
+location	Bleszno
+location	Korzen
 location	Bialobrzegi
 location	Warszawa
 location	Łaz
 location	Piaseczno
 location	Brodno-Warszawa
+location	Bobrek Kolonia
+location	Leczyca
+location	Marki
 location	Radom
 location	Miedzylesie
 location	Jozefow
@@ -5738,9 +5924,21 @@ location	Wesola
 location	Wolomin
 location	Zakret
 location	Sulejowek
+location	Okuniew
+location	Dluga Szlachecka
+location	Ciecierowka
 location	Cisie
+location	Rzeczniow
+location	Sienno
+location	Wielgie
+location	Cyganka
+location	Piaskow
+location	Koszary
 location	Minsk Mazowiecki
+location	Lipsko
 location	Rudzienko
+location	Przedmiescie Dalsze
+location	Boiska-Kolonia
 location	Jozefin
 location	Sokolow Podlaski
 location	Siedlce
@@ -5778,8 +5976,10 @@ location	Jaksmanice
 
 # Lubelskie
 location	Puławy
+location	Bochotnica
 location	Lublin
 location	Bilgoraj
+location	Leczna
 location	Parczew
 location	Milejów-Osada
 location	Biała Podlaska
@@ -5788,6 +5988,8 @@ location	Zamość
 location	Chełm
 location	Hanna
 location	Wlodawa
+location	Gmina Trzeszczany
+location	Turkowice
 
 # Podlaskie
 location	Nowogrod
@@ -9541,6 +9743,7 @@ division	Tubas
 division	Jenin
 
 ### Lebanon
+division	Tyr
 division	Beirut
 division	Lebanon
 
@@ -9826,6 +10029,7 @@ division	Riau
 division	Bengkulu
 division	Jambi
 division	South Sumatra
+division	Sumatera Selatan
 division	Riau Islands
 division	Lampung
 division	Banten
@@ -9840,10 +10044,13 @@ division	Center Kalimantan
 division	Indonesia
 division	Bali
 division	South Kalimantan
+division	Kalimantan Selatan
 division	North Kalimantan
 division	East Kalimantan
 division	West Nusa Tenggara
+division	Nusa Tenggara Barat
 division	West Sulawesi
+division	Palu
 division	South Sulawesi
 division	East Nusa Tenggara
 division	Gorontalo
@@ -10007,7 +10214,10 @@ division	Niakara
 division	Ferkessedougou
 
 ### Morocco
+division	Dakhla
+division	Settat
 division	Casablanca
+division	Berrechid
 division	Mohammedia
 division	Harhoura
 division	Temara
@@ -10018,6 +10228,7 @@ division	Khemisset
 division	Morocco
 division	Sidi Kacem
 division	Meknes
+division	Tinghir
 division	Sidi Lahcen
 division	Ouarzazate
 
