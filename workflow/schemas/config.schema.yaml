@@ -18,3 +18,26 @@ properties:
       required:
         - name
         - metadata
+      properties:
+        name:
+          type: string
+          minLength: 1
+        metadata:
+          type: string
+          minLength: 1
+        sequences:
+          type: string
+          minLength: 1
+        aligned:
+          type: string
+          minLength: 1
+        to-exclude:
+          type: string
+          minLength: 1
+        masked:
+          type: string
+          minLength: 1
+        filtered:
+          type: string
+          minLength: 1
+      additionalProperties: false
