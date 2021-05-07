@@ -214,9 +214,9 @@ rule upload:
     params:
         s3_bucket = config["S3_DST_BUCKET"],
     log:
-        "logs/upload_gisaid.txt"
+        "logs/upload.txt"
     benchmark:
-        "benchmarks/upload_gisaid.txt"
+        "benchmarks/upload.txt"
     run:
         for fname in input:
             cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)} | tee -a {log}"
