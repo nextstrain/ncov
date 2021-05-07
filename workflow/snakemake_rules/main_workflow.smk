@@ -841,6 +841,8 @@ rule distances:
         attribute_names = ['S1_mutations']
     output:
         node_data = "results/{build_name}/distances.json"
+    conda:
+        config["conda_environment"]
     shell:
         """
         augur distance \
