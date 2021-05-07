@@ -129,3 +129,8 @@ Norte de Santander	CO
 O'Higgins	CL
 Malopolskie	(Malopolskie)
 Molise	(Molise)
+Sankt Gallen	CH
+Łódzkie	(Łódzkie)
+Slaskie	(Slaskie)
+Swietokrzyskie	(Swietokrzyskie)
+Zachodniopomorskie	(Zachodniopomorskie)
