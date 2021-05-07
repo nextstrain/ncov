@@ -202,15 +202,7 @@ rule upload_reference_sets:
 rule upload:
     message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
     input:
-        expand("results/aligned_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
-        expand("results/sequence-diagnostics_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
-        expand("results/flagged-sequences_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
-        expand("results/to-exclude_{origin}.txt.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
-        expand("results/masked_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
-        expand("results/filtered_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
-        expand("results/mutation_summary_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary
-        expand("results/{build_name}/{build_name}_subsampled_sequences.fasta.xz", build_name=config["builds"]),
-        expand("results/{build_name}/{build_name}_subsampled_metadata.tsv.xz", build_name=config["builds"]),
+        unpack(_get_upload_inputs)
     params:
         s3_bucket = config["S3_DST_BUCKET"],
     log:
@@ -218,10 +210,8 @@ rule upload:
     benchmark:
         "benchmarks/upload.txt"
     run:
-        for fname in input:
-            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)} | tee -a {log}"
-            print("upload command:", cmd)
-            shell(cmd)
+        for remote, local in input.items():
+            shell("./scripts/upload-to-s3 {local:q} s3://{params.s3_bucket:q}/{remote:q} | tee -a {log:q}")
 
 onstart:
     slack_message = f"Build {deploy_origin} started."
