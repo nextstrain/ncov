@@ -37,7 +37,7 @@ jobs:
           --memory 180GiB \
           --detach \
           . \
-            deploy_to_staging \
+            deploy \
             upload \
             --config \
                 S3_DST_BUCKET=nextstrain-ncov-private/trial/"$TRIAL_NAME" \
