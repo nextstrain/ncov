@@ -480,13 +480,13 @@ Valid attributes for list entries in `inputs` are provided below.
 * description: Enable annotation of Pangolin lineages for a given build’s subsampled sequences.
 * default: `false`
 
-## s3_staging_url
+## deploy_url
 * type: string
-* description: URL to an S3 bucket where Auspice JSONs should be uploaded by the `deploy_to_staging` rule of the Nextstrain workflows. Only valid for Nextstrain builds.
+* description: URL to an S3 bucket where Auspice JSONs should be uploaded by the `deploy` rule of the Nextstrain workflows. Only valid for Nextstrain builds.
 
 ## slack_channel
 * type: string
-* description: Slack channel to notify when Nextstrain builds start, fail, or get deployed to the staging URL. Only valid for Nextstrain builds.
+* description: Slack channel to notify when Nextstrain builds start, fail, or get deployed. Only valid for Nextstrain builds.
 
 ## slack_token
 * type: string

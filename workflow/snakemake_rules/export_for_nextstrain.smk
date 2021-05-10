@@ -157,18 +157,18 @@ except:
     # means that the Snakefile won't crash.
     deploy_origin = "by an unknown identity"
 
-rule deploy_to_staging:
+rule deploy:
     input:
         *rules.all_regions.input
     params:
-        slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
-        s3_staging_url = config["s3_staging_url"]
+        slack_message = f"Deployed to {config['deploy_url']} {deploy_origin}",
+        deploy_url = config["deploy_url"]
     benchmark:
-        "benchmarks/deploy_to_staging.txt"
+        "benchmarks/deploy.txt"
     conda: config["conda_environment"]
     shell:
         """
-        nextstrain deploy {params.s3_staging_url:q} {input:q}
+        nextstrain deploy {params.deploy_url:q} {input:q}
 
         if [[ -n "$SLACK_TOKEN" && -n "$SLACK_CHANNEL" ]]; then
             curl https://slack.com/api/chat.postMessage \
