@@ -27,7 +27,7 @@ The starting point for this section is a FASTA file with sequence data + a TSV f
   3. [Orientation: analysis workflow](orientation-workflow.md)
   4. [Orientation: which files should I touch?](orientation-files.md)
   5. [Running & troubleshooting](running.md)
-  6. [Customizing your analysis](customizing-analysis.md)
+  6. [Customizing your analysis](customizing-analysis.md) (see also: [reference for all configuration parameters](configuration.md))
   7. [Customizing your visualization](customizing-visualization.md)
 
 ### Getting started with visualization & interpretation
@@ -37,11 +37,10 @@ The starting point for this section is a JSON file. You can alternately use our 
   8. [Options for visualizing and sharing results](sharing.md)
   9. [Interpreting your results](interpretation.md)
   10. [Writing a narrative to highlight key findings](narratives.md)
-  11. _Case studies: interpreting your data (coming soon!)_
 
 ### Multiple inputs
 
-  12. [Running the pipeline starting with multiple inputs](multiple_inputs.md)
+  11. [Running the pipeline starting with multiple inputs](multiple_inputs.md)
 
 ## Help
 
