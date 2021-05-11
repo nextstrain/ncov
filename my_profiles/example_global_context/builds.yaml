@@ -1,56 +1,47 @@
 
-## This YAML file is sparsely commented, with a focus on the parts relevant to multiple inputs
-## See my_profiles/example/builds.yaml for more general comments
-## See docs/multiple_inputs.md for a walkthrough of this config.
+# Define an ordered list of input datasets including a "focal" set (e.g., a
+# custom selection of strains from GISAID's "custom selection" or search
+# interfaces) and a "contextual" set (e.g., a curated selection of strains
+# representing global or regional circulation at a specific point in time from
+# GISAID's "nextregion" downloads).
+inputs:
+  - name: focal
+    metadata: "data/example_metadata_aus.tsv.xz"
+    sequences: "data/example_sequences_aus.fasta.xz"
+  - name: contextual
+    metadata: "data/example_metadata_worldwide.tsv.xz"
+    filtered: "data/example_sequences_worldwide.fasta.xz"
 
-# custom_rules:
-#   - my_profiles/example_multiple_inputs/rules.smk
+# Define a single build named "global".
+builds:
+  global:
+    # Use a custom subsampling scheme defined below
+    subsampling_scheme: custom-scheme
 
+# Align sequences with nextalign instead of mafft.
 use_nextalign: true
 
-inputs:
-  - name: local
-    metadata: "data/example_metadata.tsv"
-    sequences: "data/example_sequences.fasta"
-  - name: global
-    # Define local paths to a pre-filtered global context.
-    metadata: "data/global_subsampled_metadata.tsv.gz"
-    filtered: "data/global_subsampled_sequences.fasta.gz"
-    # Paths to files on S3 also work. For example:
-    #metadata: "s3://nextstrain-ncov-private/global_subsampled_metadata.tsv.xz"
-    #filtered: "s3://nextstrain-ncov-private/global_subsampled_sequences.fasta.xz"
-    # TODO: ideally, we could support something like the following, to inject
-    # a collection of contextual sequences into the analysis after all other
-    # subsampling.
-    # subsampled: "data/global_subsampled_sequences.fasta.gz"
-
-builds:
-  global-context:
-    subsampling_scheme: custom-scheme # use a custom subsampling scheme defined below
-
-# STAGE 1: Input-specific filtering parameters
+# Input-specific filtering parameters.
 filter:
-  aus:
-    min_length: 5000 # Allow shorter genomes. Parameter used to filter alignment.
-    skip_diagnostics: True # skip diagnostics (which can remove genomes) for this input
+  focal:
+    # Allow shorter genomes. Parameter used to filter alignment.
+    min_length: 5000
 
-# STAGE 2: Subsampling parameters
+    # Skip diagnostics (which can remove genomes) for this input.
+    skip_diagnostics: True
+
+# Subsampling parameters
 subsampling:
   custom-scheme:
-    # Use metadata key to include ALL from `input1`
-    australian_focus:
-      exclude: "--exclude-where 'aus!=yes'" # subset to sequences from input `aus`
-    # Include all global contextual sequences without subsampling.
-    global_context:
-      exclude: "--exclude-where 'aus=yes'" # i.e. subset to sequences _not_ from input `aus`
-
-files:
-  auspice_config: "my_profiles/example_global_context/my_auspice_config.json"
-  description: "my_profiles/example_global_context/my_description.md"
+    # Subsample from the focal sequences. Remove or comment out the
+    # `max_sequences` line to select all focal sequences.
+    focal:
+      max_sequences: 100
+      query: --query "focal == 'yes'"
+    # Subsample from the contextual sequences. Remove or comment out the
+    # `max_sequences` line to select all contextual sequences.
+    contextual:
+      max_sequences: 100
+      query: --query "contextual == 'yes'"
 
 skip_travel_history_adjustment: True
-
-traits:
-  global-context:
-    sampling_bias_correction: 2.5
-    columns: ["country"]

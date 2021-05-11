@@ -3,6 +3,37 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## v5 (7 May 2021)
+
+[See the corresponding pull request](https://github.com/nextstrain/ncov/pull/615) for more details about this release.
+
+### Major changes
+
+- Drop support for old sequence/metadata inputs
+- Use nextalign for alignment instead of mafft
+
+### Minor changes
+
+- Drop unused haplotype status rule and script
+- Remove unused nucleotide mutation frequencies rule
+- Use augur distance for mutation counts
+
+## v4 (5 May 2021)
+
+[See the corresponding pull request](https://github.com/nextstrain/ncov/pull/605) for more details about changes in this release.
+
+### Major changes
+
+- Change the default build name from "global" to "default-build" and use a default subsampling scheme that selects all input sequences
+- Warn about duplicate sequences found when merging sequences from multiple inputs instead of throwing an error (set `combine_sequences_for_subsampling: warn_about_duplicates: false` in your configuration file to revert this behavior)
+
+### Features
+
+- Define a new subsampling scheme named `all` that selects all input sequences
+- Add a new top-level configuration parameter `default_build_name` to allow overriding new default name of "default-build"
+- Support compressed sequence inputs for alignment with mafft and nextalign (requires mafft upgrade)
+- Sanitize strain names in sequences and metadata from different sources (e.g., `hCoV-19/` from GISAID or `SARS-CoV-2/` from GenBank, etc.)
+
 ## New features since last version update
 
 - 20 April 2021: Surface emerging lineage as a colorby. This replaces the rather stale color by "Emerging Clade" with a new color by "Emerging Lineage". This focuses on PANGO lineages that are of interest triangulated by [CoVariants](https://covariants.org/), [PANGO](https://cov-lineages.org/) international lineage reports, [CDC](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html) VUIs and VOCs and [PHE](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/975742/Variants_of_Concern_VOC_Technical_Briefing_8_England.pdf) VUIs and VOCs. The intention is for the listing at `emerging_lineages.tsv` to be updated frequently with new lineages added and no longer interesting lineages dropped. [#609](https://github.com/nextstrain/ncov/pull/609)

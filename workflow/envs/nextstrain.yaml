@@ -4,24 +4,10 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - cvxopt
-  - datrie
-  - fasttree
-  - iqtree
-  - mafft=7.471
-  - nextalign=0.1.6
-  - pandas
+  - augur=12.0.0
+  - iqtree=2.1.2
+  - mafft=7.475
+  - nextalign=0.2.0
   - pangolin=2.3.8
   - pangolearn=2021.04.01
-  - psutil
-  - python=3.7*
-  - nodejs=10
-  - raxml
-  - vcftools
-  - git
-  - pip
-  - pip:
-      - awscli==1.18.45
-      - nextstrain-augur==11.3.0
-      - nextstrain-cli==1.16.5
-      - rethinkdb==2.3.0.post6
+  - python>=3.7*

@@ -10,3 +10,7 @@ Vranov nad Toplou	Vranov nad Toplov
 Turcianska Stavnicka	Turčianska Štiavnička
 Tvrodsin	Tvrdosin
 Stropkov Region	Stropkov
+Zilina Region	Zilina
+Dolny Kubin Region	Dolný Kubín
+Rimavka Sobota	Rimavská Sobota
+Cierne Pri Cadci	Čierne

@@ -2037,3 +2037,48 @@ Canada/QC-L00324403001/2020
 Germany/BY-MVP-000004014/2020
 Poland/WGS-CoV_PZH-LUM-0035/2021
 Poland/WGS-CoV_PZH-LUM-0036/2021
+
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1619654818389300
+Kazakhstan/123641/2020
+Kazakhstan/125372/2020
+Kazakhstan/125377/2020
+France/PAC-IHUCOVID-2800/2020
+Switzerland/GE-ETHZ-200011/2020
+Egypt/MASRI-C4-025/2020
+Gambia/22138/2020
+Ireland/G-NVRL-72IRL10884/2020
+
+# Date before clade
+USA/CA-SEARCH-17627/2020
+
+# Duplicate
+EPI_ISL_1804614
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1620068808435700
+Indonesia/SG-NIHRD-PME21007997/2020
+Morocco/ouar254/2020
+USA/CA-CDC-1/2020
+USA/CO-CDPHE-2007152328/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1620169932446500
+Germany/BAV-PL-virotum_B6HEM/2020
+SaudiArabia/545/2020
+Senegal/THI-KHO-0333/2020
+Ireland/D-NVRL-g20IRL77933/2020
+CzechRepublic/VIR-64/2021
+Netherlands/ZH-EMC-1943/2020
+
+# duplicate determined from additional info: Australia/QLD1516/2021  EPI_ISL_1803794 additional_host_info: Specimen source - original patient sample sequence EPI_ISL_1300524, sequence hCoV-19/Australia/QLD1496/2021
+Australia/QLD1516/2021
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1620344639478100
+Senegal/SN-TH-TIV-2176/2021
+Germany/SL-SU-10428084/2020
+Ireland/LH-NVRL-g20IRL08005/2020
+Germany/SL-SU-10427230/2020
+USA/NV-NSPHL-357909/2020
+USA/TX-HMH-1344/2020
+
+# Sample date before clade
+USA/TN-UT2050/2020
+USA/TN-UT2063/2020

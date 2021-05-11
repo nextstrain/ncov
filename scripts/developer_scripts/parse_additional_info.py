@@ -326,7 +326,7 @@ def check_environment(strain_list, metadata, annotations_append):
     return annotations_append
 
 
-def interpret_location(place, ordering, variants):
+def interpret_location(place, ordering, variants, pattern_found):
     # Pattern: several hierarchical place names separated by slashes or commas.
     # Remark: Order region/country/division/location is assumed
     for delim in ["/", ","]:
@@ -438,13 +438,22 @@ def interpret_location(place, ordering, variants):
     # Pattern: no slashes contained in place - assume single place name
     ordering_result = find_place_in_ordering(place, ordering, variants)
     if ordering_result == None:
-        print("Unknown location " + bold(place))
-        return ("", "", "", place)
+        if pattern_found:
+            answer = input("Unknown location " + bold(place) + ". Press enter to use division provided by strains, press any key to input division manually: ")
+            if answer == "":
+                return ("", "", "", place)
+            else:
+                return None
+        else:
+            print("Unknown location " + bold(place))
+            return ("", "", "", place)
     else:
         return ordering_result
 
 
-
+def adjust_caps(s):
+    s = "/".join([" ".join(["'".join([f[0].upper() + f[1:].lower() if len(f) > 1 else f.lower() for f in d.split("'")]) for d in a.split(" ")]) for a in s.split("/")])
+    return s
 
 # Check an additional info for patterns fitting additional location info and if possible interpret result
 def check_additional_location(info, strain_list, location_pattern, ordering, metadata, annotations_append, variants):
@@ -465,8 +474,9 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
 
     place = "".join(place.split("_h"))
     place = " ".join(place.split("_"))
+    place = adjust_caps(place)
 
-    place_interpretation = interpret_location(place, ordering, variants)
+    place_interpretation = interpret_location(place, ordering, variants, pattern_found)
 
 
     while place_interpretation == None:
@@ -481,7 +491,7 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
             return annotations_append, False
 
         place = answer
-        place_interpretation = interpret_location(place, ordering, variants)
+        place_interpretation = interpret_location(place, ordering, variants, pattern_found)
 
 
     (region, country, division, location) = place_interpretation
@@ -691,7 +701,7 @@ def check_additional_info(additional_info, path_to_config_files):
                 answer = input("Identified as \"purpose_of_sequencing\". Press " + bold("ENTER") + " to approve, otherwise press any key: ")
                 if answer == "":
                     for (id, strain) in strain_list:
-                        annotations_append.append(strain + "\t" + id + "\t" + "purpose_of_sequencing" + "\t" + purpose_of_sequencing[info] + " # " + info)
+                        annotations_append.append(strain + "\t" + id + "\t" + "sampling_strategy" + "\t" + purpose_of_sequencing[info] + " # " + info)
                         print("purpose_of_sequencing info added as annotation for strain " + id)
                     break
 

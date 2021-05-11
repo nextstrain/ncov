@@ -8,6 +8,12 @@
 # These subsample primarily from the area of interest ("focus"), and add in background ("contextual") sequences from the rest of the world.
 # Contextual sequences that are genetically similar to (hamming distance) and geographically near the focal sequences are heavily prioritized.
 
+# Define input files.
+inputs:
+  - name: example-data
+    metadata: data/example_metadata.tsv
+    sequences: data/example_sequences.fasta.gz
+
 # In this example, we use these default methods. See other templates for examples of how to customize this subsampling scheme.
 builds:
   # This build samples evenly from the globe

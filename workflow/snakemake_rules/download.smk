@@ -8,8 +8,8 @@
 #       rule: align
 #           input: _get_path_for_input
 #           ...
-# will result in an input file looking like "results/aligned{origin}.fasta" or
-# "results/download-aligned{origin}.fasta" (which one is chosen depends on the
+# will result in an input file looking like "results/aligned_{origin}.fasta" or
+# "results/download-aligned_{origin}.fasta" (which one is chosen depends on the
 # supplied `config`). In the latter case, `rule download_aligned` will be used.
 # See https://github.com/nextstrain/ncov/compare/remote-files for an example of
 # how we could leverage snakemake to do this without needing a separate rule!
@@ -33,11 +33,11 @@ def _infer_decompression(input):
 rule download_sequences:
     message: "Downloading sequences from {params.address} -> {output.sequences}"
     output:
-        sequences = "data/downloaded{origin}.fasta"
+        sequences = "data/downloaded_{origin}.fasta"
     conda: config["conda_environment"]
     params:
-        address = lambda w: config["inputs"][_trim_origin(w.origin)]["sequences"],
-        deflate = lambda w: _infer_decompression(config["inputs"][_trim_origin(w.origin)]["sequences"])
+        address = lambda w: config["inputs"][w.origin]["sequences"],
+        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["sequences"])
     shell:
         """
         aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
@@ -46,23 +46,24 @@ rule download_sequences:
 rule download_metadata:
     message: "Downloading metadata from {params.address} -> {output.metadata}"
     output:
-        metadata = "data/downloaded{origin}.tsv"
+        metadata = "data/downloaded_{origin}.tsv"
     conda: config["conda_environment"]
     params:
-        address = lambda w: config["inputs"][_trim_origin(w.origin)]["metadata"]
+        address = lambda w: config["inputs"][w.origin]["metadata"],
+        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["metadata"]),
     shell:
         """
-        aws s3 cp {params.address} - | gunzip -cq >{output.metadata:q}
+        aws s3 cp {params.address} - | {params.deflate} > {output.metadata:q}
         """
 
 rule download_aligned:
     message: "Downloading aligned fasta files from {params.address} -> {output.sequences}"
     output:
-        sequences = "results/precomputed-aligned{origin}.fasta"
+        sequences = "results/precomputed-aligned_{origin}.fasta"
     conda: config["conda_environment"]
     params:
-        address = lambda w: config["inputs"][_trim_origin(w.origin)]["aligned"],
-        deflate = lambda w: _infer_decompression(config["inputs"][_trim_origin(w.origin)]["aligned"])
+        address = lambda w: config["inputs"][w.origin]["aligned"],
+        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["aligned"])
     shell:
         """
         aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
@@ -76,17 +77,17 @@ rule download_diagnostic:
         {params.to_exclude_address} -> {output.to_exclude}
     """
     output:
-        diagnostics = "results/precomputed-sequence-diagnostics{origin}.tsv",
-        flagged = "results/precomputed-flagged-sequences{origin}.tsv",
-        to_exclude = "results/precomputed-to-exclude{origin}.txt"
+        diagnostics = "results/precomputed-sequence-diagnostics_{origin}.tsv",
+        flagged = "results/precomputed-flagged-sequences_{origin}.tsv",
+        to_exclude = "results/precomputed-to-exclude_{origin}.txt"
     conda: config["conda_environment"]
     params:
         # Only `to-exclude` is defined via the config, so we make some assumptions about the format of the other filenames
-        to_exclude_address = lambda w: config["inputs"][_trim_origin(w.origin)]["to-exclude"],
-        flagged_address = lambda w: config["inputs"][_trim_origin(w.origin)]["to-exclude"].replace(f'to-exclude{w.origin}.txt', f'flagged-sequences{w.origin}.tsv'),
-        diagnostics_address = lambda w: config["inputs"][_trim_origin(w.origin)]["to-exclude"].replace(f'to-exclude{w.origin}.txt', f'sequence-diagnostics{w.origin}.tsv'),
+        to_exclude_address = lambda w: config["inputs"][w.origin]["to-exclude"],
+        flagged_address = lambda w: config["inputs"][w.origin]["to-exclude"].replace(f'to-exclude{w.origin}.txt', f'flagged-sequences{w.origin}.tsv'),
+        diagnostics_address = lambda w: config["inputs"][w.origin]["to-exclude"].replace(f'to-exclude{w.origin}.txt', f'sequence-diagnostics{w.origin}.tsv'),
         # assume the compression is the same across all 3 addresses
-        deflate = lambda w: _infer_decompression(config["inputs"][_trim_origin(w.origin)]["to-exclude"])
+        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["to-exclude"])
     shell:
         """
         aws s3 cp {params.to_exclude_address} - | {params.deflate} > {output.to_exclude:q}
@@ -98,11 +99,11 @@ rule download_diagnostic:
 rule download_masked:
     message: "Downloading aligned & masked FASTA from {params.address} -> {output.sequences}"
     output:
-        sequences = "results/precomputed-masked{origin}.fasta"
+        sequences = "results/precomputed-masked_{origin}.fasta"
     conda: config["conda_environment"]
     params:
-        address = lambda w: config["inputs"][_trim_origin(w.origin)]["masked"],
-        deflate = lambda w: _infer_decompression(config["inputs"][_trim_origin(w.origin)]["masked"])
+        address = lambda w: config["inputs"][w.origin]["masked"],
+        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["masked"])
     shell:
         """
         aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
@@ -112,11 +113,11 @@ rule download_masked:
 rule download_filtered:
     message: "Downloading pre-computed filtered alignment from {params.address} -> {output.sequences}"
     output:
-        sequences = "results/precomputed-filtered{origin}.fasta"
+        sequences = "results/precomputed-filtered_{origin}.fasta"
     conda: config["conda_environment"]
     params:
-        address = lambda w: config["inputs"][_trim_origin(w.origin)]["filtered"],
-        deflate = lambda w: _infer_decompression(config["inputs"][_trim_origin(w.origin)]["filtered"])
+        address = lambda w: config["inputs"][w.origin]["filtered"],
+        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["filtered"])
     shell:
         """
         aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}

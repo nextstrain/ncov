@@ -6,10 +6,9 @@
 # This must be a relative path to the top-level Snakefile directory (e.g., `ncov/`).
 conda_environment: "workflow/envs/nextstrain.yaml"
 
-# These are the two main starting files for the run.
-# If they do not exist, we will attempt to fetch them from a S3 bucket (see below)
-sequences: "data/sequences.fasta"
-metadata: "data/metadata.tsv"
+strip_strain_prefixes:
+  - hCoV-19/
+  - SARS-CoV-2/
 
 reference_node_name: "USA/WA1/2020"
 
@@ -31,6 +30,9 @@ files:
   description: "defaults/description.md"
   clades: "defaults/clades.tsv"
   emerging_lineages: "defaults/emerging_lineages.tsv"
+
+# Define genes to translate during alignment by nextalign.
+genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
 
 # Filter settings
 filter:
@@ -62,12 +64,19 @@ mask:
   # 13402, 24389 and 24390 are restricted to Belgian samples
   mask_sites: "13402 24389 24390"
 
+# Depending on how you define focal and contextual inputs, the same strains may
+# appear in both inputs. This option tells the workflow not to throw an error
+# when duplicates occur but to accept the first instance of a given strain's
+# sequences (e.g., the focal set).
+combine_sequences_for_subsampling:
+  warn_about_duplicates: true
+
 tree:
   tree-builder-args: "'-ninit 10 -n 4'"
 
 # TreeTime settings
 refine:
-  root: "Wuhan/Hu-1/2019 Wuhan/WH01/2019" #EPI_ISL_402125  EPI_ISL_406798
+  root: "Wuhan/WH01/2019"
   clock_rate: 0.0008
   clock_std_dev: 0.0004
   coalescent: "skyline"
@@ -141,6 +150,11 @@ exposure:
 # attribute whose value is the name of an entry in the subsampling configuration
 # below or defined elsewhere in another configuration file.
 subsampling:
+  # Default subsampling logic to select all strains from all inputs (i.e., no subsampling).
+  all:
+    all:
+      no_subsampling: true
+
   # Default subsampling logic for regions
   region:
     # Focal samples for region

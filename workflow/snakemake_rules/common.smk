@@ -25,12 +25,6 @@ def numeric_date(dt=None):
 
     return res
 
-def _trim_origin(origin):
-    """the origin wildcard includes a leading `_`. This function returns the value without this `_`"""
-    if origin=="":
-        return ""
-    return origin[1:]
-
 def _get_subsampling_scheme_by_build_name(build_name):
     return config["builds"][build_name].get("subsampling_scheme", build_name)
 
@@ -38,7 +32,7 @@ def _get_filter_value(wildcards, key):
     default = config["filter"].get(key, "")
     if wildcards["origin"] == "":
         return default
-    return config["filter"].get(_trim_origin(wildcards["origin"]), {}).get(key, default)
+    return config["filter"].get(wildcards["origin"], {}).get(key, default)
 
 def _get_path_for_input(stage, origin_wildcard):
     """
@@ -46,45 +40,36 @@ def _get_path_for_input(stage, origin_wildcard):
     This function always returns a local filepath, the format of which decides whether rules should
     create this by downloading from a remote resource, or create it by a local compute rule.
     """
-    if not origin_wildcard:
-        # No origin wildcards => deprecated single inputs (e.g. `config["sequences"]`) which cannot
-        # be downloaded from remote resources
-        if config.get("inputs"):
-            raise Exception("ERROR: empty origin wildcard but config defines 'inputs`")
-        path_or_url = config[stage] if stage in ["metadata", "sequences"] else ""
-        remote = False
-    else:
-        trimmed_origin = _trim_origin(origin_wildcard)
-        path_or_url = config.get("inputs", {}).get(trimmed_origin, {}).get(stage, "")
-        scheme = urlsplit(path_or_url).scheme
-        remote = bool(scheme)
+    path_or_url = config.get("inputs", {}).get(origin_wildcard, {}).get(stage, "")
+    scheme = urlsplit(path_or_url).scheme
+    remote = bool(scheme)
 
-        # Following checking should be the remit of the rule which downloads the remote resource
-        if scheme and scheme!="s3":
-            raise Exception(f"Input defined scheme {scheme} which is not yet supported.")
+    # Following checking should be the remit of the rule which downloads the remote resource
+    if scheme and scheme!="s3":
+        raise Exception(f"Input defined scheme {scheme} which is not yet supported.")
 
-        ## Basic checking which could be taken care of by the config schema
-        ## If asking for metadata/sequences, the config _must_ supply a `path_or_url`
-        if path_or_url=="" and stage in ["metadata", "sequences"]:
-            raise Exception(f"ERROR: config->input->{trimmed_origin}->{stage} is not defined.")
+    ## Basic checking which could be taken care of by the config schema
+    ## If asking for metadata/sequences, the config _must_ supply a `path_or_url`
+    if path_or_url=="" and stage in ["metadata", "sequences"]:
+        raise Exception(f"ERROR: config->input->{origin_wildcard}->{stage} is not defined.")
 
     if stage=="metadata":
-        return f"data/downloaded{origin_wildcard}.tsv" if remote else path_or_url
+        return f"data/downloaded_{origin_wildcard}.tsv" if remote else path_or_url
     if stage=="sequences":
-        return f"data/downloaded{origin_wildcard}.fasta" if remote else path_or_url
+        return f"data/downloaded_{origin_wildcard}.fasta" if remote else path_or_url
     if stage=="aligned":
-        return f"results/precomputed-aligned{origin_wildcard}.fasta" if remote else f"results/aligned{origin_wildcard}.fasta"
+        return f"results/precomputed-aligned_{origin_wildcard}.fasta" if remote else f"results/aligned_{origin_wildcard}.fasta"
     if stage=="to-exclude":
-        return f"results/precomputed-to-exclude{origin_wildcard}.txt" if remote else f"results/to-exclude{origin_wildcard}.txt"
+        return f"results/precomputed-to-exclude_{origin_wildcard}.txt" if remote else f"results/to-exclude_{origin_wildcard}.txt"
     if stage=="masked":
-        return f"results/precomputed-masked{origin_wildcard}.fasta" if remote else f"results/masked{origin_wildcard}.fasta"
+        return f"results/precomputed-masked_{origin_wildcard}.fasta" if remote else f"results/masked_{origin_wildcard}.fasta"
     if stage=="filtered":
         if remote:
-            return f"results/precomputed-filtered{origin_wildcard}.fasta"
+            return f"results/precomputed-filtered_{origin_wildcard}.fasta"
         elif path_or_url:
             return path_or_url
         else:
-            return f"results/filtered{origin_wildcard}.fasta"
+            return f"results/filtered_{origin_wildcard}.fasta"
 
     raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
 
@@ -92,22 +77,17 @@ def _get_path_for_input(stage, origin_wildcard):
 def _get_unified_metadata(wildcards):
     """
     Returns a single metadata file representing the input metadata file(s).
-    If there was only one supplied metadata file (e.g. the deprecated
-    `config["metadata"]` syntax, or one entry in the `config["inputs"] dict`)
+    If there was only one supplied metadata file in the `config["inputs"] dict`,
     then that file is returned. Else "results/combined_metadata.tsv" is returned
     which will run the `combine_input_metadata` rule to make it.
     """
-    if not config.get("inputs"):
-        return config["metadata"]
     if len(list(config["inputs"].keys()))==1:
-        return _get_path_for_input("metadata", "_"+list(config["inputs"].keys())[0])
+        return "results/sanitized_metadata_{origin}.tsv".format(origin=list(config["inputs"].keys())[0])
     return "results/combined_metadata.tsv"
 
 def _get_unified_alignment(wildcards):
-    if not config.get("inputs"):
-        return "results/filtered.fasta"
     if len(list(config["inputs"].keys()))==1:
-        return _get_path_for_input("filtered", "_"+list(config["inputs"].keys())[0])
+        return _get_path_for_input("filtered", list(config["inputs"].keys())[0])
     return "results/combined_sequences_for_subsampling.fasta",
 
 def _get_metadata_by_build_name(build_name):

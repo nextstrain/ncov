@@ -602,6 +602,10 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                             if clean_string(location) in location_to_arrondissement and division == location_to_arrondissement[clean_string(location)]:
                                 continue
 
+                            # other way around (in case of duplicates overwriting each other in location_to_arrondissement)
+                            if division_c in arrondissement_to_location and location in arrondissement_to_location[division_c]:
+                                continue
+
                             # location given, but with wrong division - adjust to correct division
                             #if location in location_to_arrondissement and division != location_to_arrondissement[location]:
                                 #print("Wrong division " + bold(division) + " given for location " + bold(location))
@@ -619,6 +623,7 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                                 #print("Location " + bold(location) + " should be adjusted to " + bold(variants[location]) + ". Wrong division " + bold(division) + " given for location " + bold(variants[location]))
                                 #print("Suggestion: add [" + "\t".join( [region, country, division, location, region, country, location_to_arrondissement[variants[location]], variants[location]]) + "] to manual_adjustments.txt")
                                 #continue
+
 
                         ### location empty
                         else:
@@ -643,6 +648,7 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                                 print("Given division " + bold(division) + " is a misspelled location " + bold(variants[division]) + " within division " + bold(location_to_arrondissement[clean_string(variants[division])]))
                                 print("Suggestion: add [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, location_to_arrondissement[clean_string(variants[division])], variants[division]]) + "] to manual_adjustments.txt")
                                 continue
+
 
                         print("Missing combination in " + country + " database: " + bold(division + ", " + location))
 
@@ -1289,7 +1295,7 @@ def auto_add_annotations(additions_to_annotation):
 
     with open("../ncov-ingest/source-data/gisaid_annotations.tsv") as myfile:
         annotations = myfile.readlines()
-    types = {"geography": ["location", "division", "country", "region", "division_exposure", "country_exposure", "region_exposure"], "special": ["purpose_of_sequencing", "date", "host", "strain"], "paper": ["title", "paper_url"], "genbank": ["genbank_accession"]}
+    types = {"geography": ["location", "division", "country", "region", "division_exposure", "country_exposure", "region_exposure"], "special": ["sampling_strategy", "date", "host", "strain"], "paper": ["title", "paper_url"], "genbank": ["genbank_accession"]}
     sections = {"comments": [], "geography": [], "special": [], "paper": [], "genbank": []}
 
     print("The following annotations have unknown type:")
@@ -1425,7 +1431,7 @@ if __name__ == '__main__':
 
     # Only print line if not yet present
     # Print warning if this GISAID ID is already in the file
-    lines_exclude = ["title", "authors", "paper_url", "genbank_accession", "purpose_of_sequencing"]
+    lines_exclude = ["title", "authors", "paper_url", "genbank_accession", "sampling_strategy"]
     annot_lines_to_write = []
     for line in additions_to_annotation:
         if line in annotations:

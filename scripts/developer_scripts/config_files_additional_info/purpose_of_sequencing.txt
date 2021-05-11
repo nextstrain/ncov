@@ -38,6 +38,7 @@ Returning traveller with S-gene dropout	S dropout
 S-gene dropout	S dropout
 Not S dropout	Not S dropout
 Baseline Surveillance	Not S dropout
+Baseline surveillance	Not S dropout
 SGTF Screening	S dropout
 S-dropout	S dropout
 SGTF screen	S dropout
