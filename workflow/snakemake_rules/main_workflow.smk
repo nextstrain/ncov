@@ -834,11 +834,16 @@ rule distances:
     input:
         tree = rules.refine.output.tree,
         alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
-        distance_maps = ["defaults/distance_maps/S1.json"]
+        distance_maps = ["defaults/distance_maps/S1.json",
+                         "defaults/distance_maps/convalescent_serum_mean_dms.json",
+                         "defaults/distance_maps/class_1_mean_dms.json",
+                         "defaults/distance_maps/class_2_mean_dms.json",
+                         "defaults/distance_maps/class_3_mean_dms.json",
+                         "defaults/distance_maps/ace2.json" ]
     params:
         genes = 'S',
         comparisons = ['root'],
-        attribute_names = ['S1_mutations']
+        attribute_names = ['S1_mutations', 'DMS_convalescent_serum', 'DMS_Class_1', 'DMS_Class_2', 'DMS_Class_3', 'ACE2_binding_site_mutations']
     output:
         node_data = "results/{build_name}/distances.json"
     conda:

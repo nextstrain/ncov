@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from collections import defaultdict
 from augur.distance import read_distance_map
-from binding_calculator import BindingCalculator
+# from binding_calculator import BindingCalculator
 from scipy.optimize import minimize
 from scipy.stats import linregress
 from datetime import datetime
