@@ -161,7 +161,7 @@ location	Jenin
 location	Samawa
 
 ### Saudi Arabia
-# Eastern Province
+# Eastern Province SA
 location	Qatif
 
 ### Kuwait
@@ -515,6 +515,7 @@ location	Bandaragama
 location	Kahathuduwa
 location	Piliyandala
 location	Boralesgamuwa
+location	Nugegoda
 location	Maligawatta
 location	Avissawella
 location	Negombo
@@ -852,6 +853,9 @@ location	Makassar
 
 # East Nusa Tenggara
 location	Kupang
+
+# Central Sulawesi
+location	Palu
 
 # Southeast Sulawesi
 location	Kendari
@@ -9218,6 +9222,7 @@ location	Madison County TX
 location	Walton
 location	Van Zandt County
 location	Fort Bend County
+location	Anderson County TX
 location	Lamar County
 location	Walker County TX
 location	Montgomery County TX
@@ -9254,7 +9259,6 @@ location	Orange County TX
 location	Newton County
 location	Calcasieu County
 location	Jackson
-location	Anderson County
 
 # Oklahoma
 location	Tulsa
@@ -9492,7 +9496,7 @@ location	Livingston County IL
 location	Knox County IL
 location	Marshall County IL
 location	Kankakee County
-location	Mercer County
+location	Mercer County IL
 location	Putnam County IL
 location	Grundy County IL
 location	Henry County IL
@@ -9919,7 +9923,7 @@ division	Madinah
 division	Makkah
 division	Saudi Arabia
 division	Riyadh
-division	Eastern Province
+division	Eastern Province SA
 
 ### Kuwait
 division	Kuwait
@@ -10038,7 +10042,6 @@ division	Uttarakhand
 division	Chandigarh
 division	Punjab IN
 division	Himachal Pradesh
-division	Jammu
 division	Jammu and Kashmir
 division	Ladakh
 
@@ -10114,9 +10117,11 @@ division	Phitsanulok
 division	Chiang Rai
 
 ### Malaysia
+division	Perak
 division	Selangor
 division	Kuala Lumpur
 division	Negeri Sembilan
+division	Melaka
 division	Pahang
 division	Malaysia
 division	Sarawak
@@ -10180,7 +10185,6 @@ division	Riau
 division	Bengkulu
 division	Jambi
 division	South Sumatra
-division	Sumatera Selatan
 division	Riau Islands
 division	Lampung
 division	Banten
@@ -10195,15 +10199,13 @@ division	Center Kalimantan
 division	Indonesia
 division	Bali
 division	South Kalimantan
-division	Kalimantan Selatan
 division	North Kalimantan
 division	East Kalimantan
 division	West Nusa Tenggara
-division	Nusa Tenggara Barat
 division	West Sulawesi
-division	Palu
 division	South Sulawesi
 division	East Nusa Tenggara
+division	Central Sulawesi
 division	Southeast Sulawesi
 division	Gorontalo
 division	North Sulawesi
@@ -10410,6 +10412,7 @@ division	Volta
 ### Togo
 division	Golfe
 division	Grand Lome
+division	Plateaux
 division	Centrale Region TG
 division	Togo
 

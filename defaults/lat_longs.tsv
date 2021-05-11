@@ -251,6 +251,7 @@ location	Andenne	50.487207	5.056619
 location	Anderlecht	50.829058	4.29586
 location	Anderlues	50.4042058	4.264332649553593
 location	Anderson County	34.5258335	-82.652962
+location	Anderson County TX	31.7819242	-95.6258199
 location	Andosilla	42.3776047	-1.9434186
 location	Andovce	47.9950053	18.1042136
 location	Andrade Marin	0.3219959	-78.2098351
@@ -4655,6 +4656,7 @@ location	Merangin	-2.1811376	101.637826
 location	Merced County	37.1641544	-120.7678602
 location	Mercedes	10.0231317	-84.0501518
 location	Mercer County	41.2019729	-90.7398717
+location	Mercer County IL	41.2019729	-90.7398717
 location	Mercer Island	47.5602073	-122.22014226861951
 location	Merchtem	50.9591981	4.2327769
 location	Merelbeke	50.9945	3.7456
@@ -5271,6 +5273,7 @@ location	Nueces County	27.7153774	-97.6199942
 location	Nürensdorf	47.4492605	8.6470753
 location	Nueva Esperanza	8.1236721	-80.71636003659773
 location	Nueva Loja	0.0850662	-76.883564
+location	Nugegoda	6.8699688	79.8882835
 location	Nuglar	47.47110495	7.6942386559422395
 location	Nunningen	47.3939723	7.6197691
 location	Ñuñoa	-33.4543304	-70.60058198319726
@@ -5532,6 +5535,7 @@ location	Palmas	-10.1835604	-48.3337793
 location	Palmela	38.569601	-8.9011653
 location	Palmira	3.534069	-76.297658
 location	Palol D'Onyar	41.9540376	2.8450181
+location	Palu	-0.8957793	119.8679974
 location	Palwal	28.12502575	77.35831300773046
 location	Pamanes	43.3562905	-3.7741084
 location	Pampa del Indio	-26.048588	-59.92678409099645
@@ -8988,6 +8992,7 @@ division	Central Province	7.3819490000000005	80.72342798602898
 division	Central Region	5.7244148	-1.3761749
 division	Central Region GH	5.7244148	-1.3761749
 division	Central Region MW	-13.744272500000001	33.712042353397834
+division	Central Sulawesi	-1.6937786	120.8088555
 division	Central Uganda	0.32690195	32.58405552994708
 division	Central Visayas	10.264054	123.86939597334481
 division	Central Zambia	-14.183507	29.0375543
@@ -9127,6 +9132,7 @@ division	East New Britain	-5.1386278	151.9020187
 division	East Nusa Tenggara	-8.5656787	120.6978581
 division	Eastern Cape	-32.344458	26.497832
 division	Eastern Province	23.3036077	50.1258804
+division	Eastern Province SA	23.3036077	50.1258804
 division	Eastern Region GH	6.2583714101413825	-0.5894044915588438
 division	Eastern Region MK	41.90338969322595	22.44468002723218
 division	Ebolowa	2.71091425	11.253788461354606
@@ -9686,6 +9692,7 @@ division	Medimurje County	46.4232963	16.4661353
 division	Medvedja	42.842459	21.5847305
 division	Medvedzie	49.3417948	19.53357086713877
 division	Meknes	33.897877	-5.5320345
+division	Melaka	2.2245111	102.2614662
 division	Melbourne	-37.8136	144.9631
 division	Melilla	35.291746	-2.938261
 division	Melnik	50.364202	14.482176
@@ -9957,6 +9964,7 @@ division	Pelagonia	41.230157000000005	21.457169901765802
 division	Peloponnese	37.36332825	22.239537343995494
 division	Pennsylvania	41.2033	-77.1945
 division	Penza	53.200001	45.0
+division	Perak	4.812181	100.9797908
 division	Perm Krai	58.5951603	56.3159546
 division	Pernambuco	-8.8137	-36.9541
 division	Pernik	42.62802685	22.88250453463423
@@ -9981,6 +9989,7 @@ division	Plaine-Wilhems	-20.32250438758201	57.50491168170886
 division	Plana	48.94367	14.4527685
 division	Planken	47.1858848	9.5452211
 division	Plateau State	9.0583446	9.6826289
+division	Plateaux	7.450501	1.0892702070507665
 division	Pleven	43.4170	24.6067
 division	Ploiesti	44.9417468	26.0236504
 division	Plovdiv	42.1418541	24.7499297
