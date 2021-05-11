@@ -506,8 +506,14 @@ location	Rupnagar
 location	Kargil
 
 ### Sri Lanka
-# Eastern Province
-location	Batticaloa
+# Kalutara
+location	Beruwala
+location	Horana
+location	Ingiriya
+
+# Sabaragamuwa Province
+location	Ratnapura
+location	Kegalle
 
 # Western Province
 location	Panadura
@@ -520,31 +526,25 @@ location	Maligawatta
 location	Avissawella
 location	Negombo
 
-# Kalutara
-location	Beruwala
-location	Horana
-location	Ingiriya
+# Uva Province
+location	Badulla
+location	Mahiyangana
+
+# Central Province
+location	Kandy
+
+# Eastern Province LK
+location	Batticaloa
 
 # North Western Province
 location	Kurunegala
-
-# Northern Province
-location	Jaffna
-
-# Sabaragamuwa Province
-location	Ratnapura
-location	Kegalle
 
 # North Central Province
 location	Anuradhapura
 location	Polonnaruwa
 
-# Central Province
-location	Kandy
-
-# Uva Province
-location	Badulla
-location	Mahiyangana
+# Northern Province
+location	Jaffna
 
 ### Nepal
 # Kathmandu
@@ -1342,6 +1342,7 @@ location	Limerick City
 ### Spain
 # Canary Islands
 location	Adeje
+location	Santa Cruz De Tenerife
 location	La Aldea de San Nicolas
 location	Agaete
 location	Galdar
@@ -1462,11 +1463,13 @@ location	Ronda
 location	Aguadulce ES
 location	Teba
 location	Campillos
+location	Pozoblanco
 location	Torrenueva
 location	Montilla
 location	Benalmadena
 location	Antequera
 location	Alhaurin de la Torre
+location	Domingo Perez
 location	Torremolinos
 location	Malaga
 location	Rincon de la Victoria
@@ -1493,6 +1496,7 @@ location	Atarfe
 location	Benalua de las Villas
 location	Cullar Vega
 location	Albolote
+location	Alhendin
 location	Churriana de la Vega
 location	Campillo de Arenas
 location	Otura
@@ -1507,6 +1511,7 @@ location	La Zubia
 location	Cogollos de la Vega
 location	Durcal
 location	Alfacar
+location	Motril
 location	Iznalloz
 location	Huetor Santillan
 location	Lanjaron
@@ -1516,6 +1521,7 @@ location	Navas de San Juan
 location	La Peza
 location	Huelago
 location	Alamedilla
+location	Lugros
 location	Pedro Martinez
 location	Purullena
 location	Fonelas
@@ -1525,8 +1531,10 @@ location	Alicun de Ortega
 location	Retamar
 location	Aldeire
 location	La Calahorra
+location	Ugijar
 location	Adra
 location	Pozo Alcon
+location	Cuevas Del Campo
 location	Zujar
 location	Finana
 location	Castril
@@ -1577,27 +1585,43 @@ location	La Baneza
 location	Benavides de Orbigo
 location	Veguellina de Orbigo
 location	Hospital De Orbigo
+location	Soto De La Vega
 location	Villamor de Orbigo
 location	San Pedro de Pegas
 location	Castrillo de San Pelayo
+location	Villanueva De Jamuz
+location	Sardonedo
+location	Alija Del Infantado
 location	Carrizo De La Ribera
+location	Moscas Del Paramo
+location	Audanzas Del Valle
 location	Bercianos del Paramo
 location	Montejos del Camino
 location	La Pola De Gordon
+location	Laguna De Negrillos
 location	La Virgen del Camino
 location	Quintana de Raneros
 location	La Robla
 location	Valdevimbre
 location	San Andres del Rabanedo
 location	Trobajo del Camino
+location	Algadefe
+location	Villamanan
+location	Villademor De La Vega
+location	Toral De Los Guzmanes
 location	Navatejera
 location	Villaquilambre
 location	Villaobispo de las Regueras
+location	Cabreros Del Rio
+location	Villarrodrigo De Las Regueras
 location	Garrafe de Torio
 location	Valencia de Don Juan
 location	Villaturiel
+location	Rebollar De Los Oteros
 location	Mansilla Mayor
 location	Vegaquemada
+location	Villamunio
+location	Joarilla De Las Matas
 location	Gordaliza Del Pino
 location	Cistierna
 location	Sahagun
@@ -1659,6 +1683,7 @@ location	San Roman
 location	Escobedo
 location	Santa Cruz de Bezana
 location	Soto de la Marina
+location	Sancibrian
 location	Camargo
 location	La Penilla
 location	Peñacastillo
@@ -1694,9 +1719,12 @@ location	Somo
 location	Hazas de Cesto
 location	Meruelo
 location	Beranga
+location	Quintana ES
 location	Arnuero
 location	Noja
+location	Gama
 location	Cerecedas
+location	Treto
 location	Ramales de la Victoria
 location	Mortera
 location	Santona
@@ -1727,6 +1755,7 @@ location	Arganda del Rey
 location	Campo Real
 location	Alcala de Henares
 location	Las Rozas
+location	Meco
 location	Valdaracete
 location	Ambite
 location	Estremera
@@ -1755,14 +1784,19 @@ location	Almuradiel
 location	Cuenca ES
 location	El Casar
 location	Valdepenas
+location	Torrejon Del Rey
 location	Villanueva de la Torre
 location	Azuqueca de Henares
 location	Alovera
 location	Cabanillas del Campo
 location	Marchamalo
 location	Pozo de Guadalajara
+location	Pioz
 location	Chiloeches
 location	Humanes
+location	Yebes
+location	Mondejar
+location	Cogolludo
 location	Driebes
 location	Torija
 location	Tomelloso
@@ -1785,6 +1819,8 @@ location	Luzon
 location	Villanueva de Alcoron
 location	Bogarra
 location	Balazote
+location	Aragoncillo
+location	Mochales
 location	Villel de Mesa
 location	Corduente
 location	Villanueva de la Jara
@@ -1847,6 +1883,7 @@ location	El Villar de Arnedo
 location	Pradejon
 location	Autol
 location	Calahorra
+location	Cervera Del Rio Alhama
 location	Ventas del Bano
 location	Aldeanueva de Ebro
 location	Rincon de Soto
@@ -1939,9 +1976,12 @@ location	Chilches
 location	Torrevieja
 location	Santa Pola
 location	Elche
+location	Elx
 location	Aspe
 location	Alicante
+location	La Romana
 location	Novelda
+location	Pinoso
 location	Monovar
 location	Elda
 location	Petrer
@@ -1984,8 +2024,11 @@ location	Llombai
 location	Benifaio
 location	Almussafes
 location	Real de Montroy
+location	Montserrat
 location	Picassent
 location	Albal
+location	Alfafar
+location	Benetusser
 location	Paiporta
 location	Picanya
 location	Torrent
@@ -2006,6 +2049,8 @@ location	Meliana
 location	Vinalesa
 location	Albalat dels Sorells
 location	Albuixech
+location	Moncada
+location	Massalfassar
 location	L’Eliana
 location	Utiel
 location	Massamagrell
@@ -2018,15 +2063,20 @@ location	Gilet
 location	Sagunt
 location	Canet d'en Berenguer
 location	Soneja
+location	Alfondeguilla
 location	Segorbe
 location	Burriana
 location	Vilareal
 location	Almassora
+location	Onda
 location	Castello de la Plana
 location	Castellon de la Plana
+location	Borriol
 location	Benicassim
+location	L’alcora
 location	La Pobla Tornesa
 location	Llucena
+location	Cabanes
 location	Castellón
 
 # Catalunya
@@ -2038,6 +2088,7 @@ location	Soses
 location	Alcarras
 location	Alpicat
 location	Sarroca de Lleida
+location	Alfarras
 location	Alguaire
 location	Torrefarrera
 location	Vilanova de Segria
@@ -2049,9 +2100,13 @@ location	Les
 location	La Clua
 location	Vilanova de la Barca
 location	Els Alamus
+location	El Pont De Suert
+location	Menarguens
 location	Juncosa
+location	Bell-lloc d'Urgell
 location	Viella Mitg Aran
 location	Balaguer
+location	Betren
 location	Vallfogona de Balaguer
 location	Bellvis
 location	Juneda
@@ -2065,11 +2120,14 @@ location	Gavet de La Conca
 location	Miami Platja
 location	Penelles
 location	La Pobla de Segur
+location	Castellsera
 location	Bellpuig
 location	La Fuliola
+location	Artesa De Segre
 location	Cambrils
 location	Agramunt
 location	Reus
+location	Ribera De Montardit
 location	Puigverd d'Agramunt
 location	Sort
 location	Tarrega
@@ -2081,16 +2139,20 @@ location	El Vendrell
 location	Jorba
 location	Calafell
 location	Santa Margarida de Montbui
+location	El Mujal
 location	Cardona
 location	Sant Pere de Riudebitlles
 location	Vilanova i la Geltru
 location	Suria
+location	Puigmolto
+location	Sant Pere De Ribes
 location	Callus
 location	Hostalrich
 location	Cerdanya
 location	Sant Joan Vilatorrada
 location	Masquefa
 location	Bellavista
+location	Sitges
 location	Manresa
 location	Santpedor
 location	Monistrol de Montserrat
@@ -2098,14 +2160,17 @@ location	Berga
 location	Castellbell I El Vilar
 location	San Vicente de Castellet
 location	Baga
+location	Esparreguera
 location	Sant Esteve Sesrovires
 location	Sant Fruitos de Bages
 location	Navas
+location	Gironella
 location	Torruella de Baix
 location	Sallent de Llobregat
 location	Olesa de Montserrat
 location	Vacarisses
 location	Navarcles
+location	Fontanals De Cerdanya
 location	Gaia
 location	Puigcerda
 location	Vallirana
@@ -2160,10 +2225,12 @@ location	Bigues I Riells
 location	Montesquiu
 location	Oris
 location	Mollet del Valles
+location	El Rieral
 location	Sant Quirze de Besora
 location	Centelles
 location	Sant Adria del Besos
 location	Tona
+location	Els Hostalets De Balenya
 location	Santa Eulàlia de Ronçana
 location	Parets del Valles
 location	Les Masies de Voltrega
@@ -2313,6 +2380,7 @@ location	Garriguella
 location	Castell-Platja D'Aro
 location	Platja D'Aro
 location	Castello D'Empuries
+location	Bellcaire d'Emporda
 location	Empuriabrava
 location	Palamos
 location	Mont-Ras
@@ -4755,6 +4823,7 @@ location	Bildstein
 location	Wolfurt
 location	Hard
 location	Bregenz
+location	Leiblachtal
 location	Hörbranz
 
 # Tyrol
@@ -4792,7 +4861,6 @@ location	Ramsau im Zillertal
 location	Kirchbichl
 location	Kufstein
 location	Söll
-location	Ebbs
 location	Going am Wilden Kaiser
 location	Kitzbühel-Stadt
 location	Kitzbühel
@@ -5952,7 +6020,7 @@ location	Jablonka
 location	Lidzbark Warminski
 location	Bartoszycki
 location	Wieckowo
-location	Wólka
+location	Wólka (Warminsko-Mazurskie)
 location	Michalki
 location	Pasym
 location	Julianow
@@ -6033,7 +6101,7 @@ location	Koszary
 location	Minsk Mazowiecki
 location	Lipsko
 location	Rudzienko
-location	Wolka
+location	Wólka (Mazowieckie)
 location	Przedmiescie Dalsze
 location	Sadkowice-Kolonia
 location	Boiska-Kolonia
@@ -8284,6 +8352,7 @@ location	Guayaquil
 location	Duran
 location	El Limonal
 location	San Jacinto de Yaguachi
+location	Isla Mocolí
 location	Samborondon
 location	Salitre
 location	Daule
@@ -9046,12 +9115,20 @@ location	Flathead County
 
 # New Mexico
 location	Dona Ana County
+location	Otero County
+location	Grant County NM
 location	Sierra County
 location	Catron County
+location	Socorro County
+location	Torrance County
 location	Valencia County
+location	Cibola County
+location	Bernalillo County
 location	Santa Fe County
 location	Sandoval County
+location	San Juan County NM
 location	Rio Arriba County
+location	Colfax County
 
 # Colorado
 location	Mesa County
@@ -9328,6 +9405,7 @@ location	St Tammany Parish
 location	St Bernard Parish
 
 # Missouri
+location	Pleasant Hill
 location	Gasconade County
 location	Saint Louis County
 location	St. Louis MO
@@ -9615,8 +9693,8 @@ location	Thomas County
 location	Cobb
 
 # Ohio
-location	Mercer County
 location	Ross
+location	Mercer County OH
 location	Butler County OH
 location	Williams County OH
 location	Hamilton County OH
@@ -9659,7 +9737,7 @@ location	Miami
 
 # South Carolina
 location	Pickens County SC
-location	Anderson County
+location	Anderson County SC
 location	Abbeville County
 location	Greenville County
 location	Greenwood County
@@ -9733,6 +9811,7 @@ location	Gloucester County
 location	Camden County
 location	Burlington County
 location	Ocean County
+location	Mercer County NJ
 location	Monmouth County
 location	Middlesex County NJ
 location	Somerset County
@@ -9905,6 +9984,9 @@ division	Zarqa
 division	Jordan
 division	Mafraq
 
+### Syria
+division	Syria
+
 ### Georgia
 division	Georgia (Europe)
 division	Tbilisi
@@ -10046,21 +10128,21 @@ division	Jammu and Kashmir
 division	Ladakh
 
 ### Sri Lanka
-division	Eastern Province
-division	Colombo
-division	Mannar
-division	Western Province
 division	Kalutara
-division	North Western Province
-division	Gampaha
-division	Northern Province
 division	Sabaragamuwa Province
+division	Western Province
+division	Colombo
+division	Uva Province
+division	Gampaha
+division	Central Province
+division	Matale
+division	Eastern Province LK
+division	Sri Lanka
+division	North Western Province
 division	North Central Province
 division	Vavuniya
-division	Matale
-division	Central Province
-division	Sri Lanka
-division	Uva Province
+division	Mannar
+division	Northern Province
 
 ### Nepal
 division	Rolpa
@@ -10536,6 +10618,9 @@ division	Haut-Katanga
 division	Sud Kivu
 division	Nord Kivu
 
+### Africa
+division	Africa
+
 ### Botswana
 division	Goodhope
 division	Lobatse
@@ -10639,6 +10724,9 @@ division	Kenya
 ### Ethiopia
 division	Addis Ababa
 division	Ethiopia
+
+### Djibouti
+division	Djibouti
 
 ### Union of the Comoros
 division	Moheli
@@ -11915,6 +12003,7 @@ country	Israel
 country	Palestine
 country	Lebanon
 country	Jordan
+country	Syria
 country	Georgia
 country	Iraq
 country	Armenia
@@ -11988,6 +12077,7 @@ country	Namibia
 country	Angola
 country	Central African Republic
 country	Democratic Republic of the Congo
+country	Africa
 country	Botswana
 country	South Africa
 country	Zambia
@@ -12002,6 +12092,7 @@ country	Mozambique
 country	Tanzania
 country	Kenya
 country	Ethiopia
+country	Djibouti
 country	Union of the Comoros
 country	Madagascar
 country	Somalia

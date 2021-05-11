@@ -2082,3 +2082,4 @@ USA/TX-HMH-1344/2020
 # Sample date before clade
 USA/TN-UT2050/2020
 USA/TN-UT2063/2020
+Japan/Donner380/2020
