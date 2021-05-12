@@ -53,14 +53,16 @@ rule align:
         genemap = config["files"]["annotation"],
         reference = config["files"]["alignment_reference"]
     output:
-        alignment = "results/aligned_{origin}.fasta",
+        alignment = "results/aligned_{origin}.fasta.gz",
         insertions = "results/insertions_{origin}.tsv",
-        translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta", gene=config.get('genes', ['S']))
+        translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta.gz", gene=config.get('genes', ['S']))
     params:
         outdir = "results/translations",
         genes = ','.join(config.get('genes', ['S'])),
         basename = "seqs_{origin}",
         strain_prefixes=config["strip_strain_prefixes"],
+        # Strip the compression suffix for the intermediate output from the aligner.
+        uncompressed_alignment=lambda wildcards, output: Path(output.alignment).with_suffix("")
     log:
         "logs/align_{origin}.txt"
     benchmark:
@@ -83,8 +85,10 @@ rule align:
             --sequences /dev/stdin \
             --output-dir {params.outdir} \
             --output-basename {params.basename} \
-            --output-fasta {output.alignment} \
-            --output-insertions {output.insertions} > {log} 2>&1
+            --output-fasta {params.uncompressed_alignment} \
+            --output-insertions {output.insertions} > {log} 2>&1;
+        gzip {params.uncompressed_alignment};
+        gzip {params.outdir}/{params.basename}*.fasta
         """
 
 rule diagnostic:
@@ -141,7 +145,7 @@ rule mask:
     input:
         alignment = lambda w: _get_path_for_input("aligned", w.origin)
     output:
-        alignment = "results/masked_{origin}.fasta"
+        alignment = "results/masked_{origin}.fasta.gz"
     log:
         "logs/mask_{origin}.txt"
     benchmark:
@@ -177,7 +181,7 @@ rule filter:
         include = config["files"]["include"],
         exclude = _collect_exclusion_files,
     output:
-        sequences = "results/filtered_{origin}.fasta"
+        sequences = "results/filtered_{origin}.fasta.gz"
     log:
         "logs/filtered_{origin}.txt"
     benchmark:
@@ -317,7 +321,7 @@ rule combine_sequences_for_subsampling:
     input:
         lambda w: [_get_path_for_input("filtered", origin) for origin in config.get("inputs", {})]
     output:
-        "results/combined_sequences_for_subsampling.fasta"
+        "results/combined_sequences_for_subsampling.fasta.gz"
     benchmark:
         "benchmarks/combine_sequences_for_subsampling.txt"
     conda: config["conda_environment"]

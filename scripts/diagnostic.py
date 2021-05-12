@@ -3,6 +3,7 @@ Run a number QC checks on an alignment. these involve divergence from a referenc
 """
 import argparse, gzip, sys
 sys.path.insert(0,'.')
+from augur.io import open_file
 from collections import defaultdict
 import numpy as np
 from Bio.SeqIO.FastaIO import SimpleFastaParser
@@ -33,7 +34,7 @@ def analyze_divergence(sequences, metadata, reference, mask_5p=0, mask_3p=0):
         known_true_cluster_array[b:e]=0
 
     cluster_cut_off = 10
-    with open(sequences) as fasta:
+    with open_file(sequences) as fasta:
         for h,s in SimpleFastaParser(fasta):
             left_gaps = len(s) - len(s.lstrip('-'))
             right_gaps = len(s) - len(s.rstrip('-'))

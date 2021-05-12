@@ -58,18 +58,18 @@ def _get_path_for_input(stage, origin_wildcard):
     if stage=="sequences":
         return f"data/downloaded_{origin_wildcard}.fasta" if remote else path_or_url
     if stage=="aligned":
-        return f"results/precomputed-aligned_{origin_wildcard}.fasta" if remote else f"results/aligned_{origin_wildcard}.fasta"
+        return f"results/precomputed-aligned_{origin_wildcard}.fasta" if remote else f"results/aligned_{origin_wildcard}.fasta.gz"
     if stage=="to-exclude":
         return f"results/precomputed-to-exclude_{origin_wildcard}.txt" if remote else f"results/to-exclude_{origin_wildcard}.txt"
     if stage=="masked":
-        return f"results/precomputed-masked_{origin_wildcard}.fasta" if remote else f"results/masked_{origin_wildcard}.fasta"
+        return f"results/precomputed-masked_{origin_wildcard}.fasta" if remote else f"results/masked_{origin_wildcard}.fasta.gz"
     if stage=="filtered":
         if remote:
             return f"results/precomputed-filtered_{origin_wildcard}.fasta"
         elif path_or_url:
             return path_or_url
         else:
-            return f"results/filtered_{origin_wildcard}.fasta"
+            return f"results/filtered_{origin_wildcard}.fasta.gz"
 
     raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
 
@@ -88,7 +88,7 @@ def _get_unified_metadata(wildcards):
 def _get_unified_alignment(wildcards):
     if len(list(config["inputs"].keys()))==1:
         return _get_path_for_input("filtered", list(config["inputs"].keys())[0])
-    return "results/combined_sequences_for_subsampling.fasta",
+    return "results/combined_sequences_for_subsampling.fasta.gz",
 
 def _get_metadata_by_build_name(build_name):
     """Returns a path associated with the metadata for the given build name.

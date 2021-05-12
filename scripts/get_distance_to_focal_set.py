@@ -2,6 +2,7 @@
 Calculate minimal distances between sequences in an alignment and a set of focal sequences
 """
 import argparse
+from augur.io import read_sequences
 from random import shuffle
 from collections import defaultdict
 import Bio
@@ -52,7 +53,10 @@ def calculate_snp_matrix(fastafile, consensus=None, zipped=False, fill_value=110
     filled_positions = []
     current_length = INITIALISATION_LENGTH
 
-    for h,s in fastafile:
+    for record in fastafile:
+        h = record.name
+        s = str(record.seq)
+
         if h in ignore_seqs:
             continue
         if consensus is None:
@@ -147,8 +151,7 @@ if __name__ == '__main__':
     ref = sequence_to_int_array(SeqIO.read(args.reference, 'fasta').seq)
     alignment_length = len(ref)
 
-    fh_focal = open(args.focal_alignment, 'rt')
-    focal_seqs = SimpleFastaParser(fh_focal)
+    focal_seqs = read_sequences(args.focal_alignment)
     focal_seqs_dict = calculate_snp_matrix(focal_seqs, consensus = ref, ignore_seqs=args.ignore_seqs)
 
     if focal_seqs_dict is None:
@@ -159,8 +162,7 @@ if __name__ == '__main__':
         )
         sys.exit(1)
 
-    fh_seqs = open(args.alignment, 'rt')
-    seqs = SimpleFastaParser(fh_seqs)
+    seqs = read_sequences(args.alignment)
 
     # export priorities
     fh_out = open(args.output, 'w')
@@ -194,5 +196,3 @@ if __name__ == '__main__':
         chunk_count += 1
 
     fh_out.close()
-    fh_seqs.close()
-    fh_focal.close()
