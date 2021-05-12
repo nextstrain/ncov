@@ -9,14 +9,14 @@ We also use this change log to document new features that maintain backward comp
 
 ### Major changes
 
-- Drop support for old sequence/metadata inputs
-- Use nextalign for alignment instead of mafft
+- Drop support for old sequence/metadata inputs. This change removes support for the `config["sequences"]` and `config["metadata"]` starting points for the workflow in favor of the more flexible `config["inputs"]` format.
+- Use `nextalign` for alignment instead of `mafft`. This change completely removes support for `mafft` in favor of `nextalign`. Future versions may reinstate `mafft` support as part of `augur align` updates.
 
 ### Minor changes
 
 - Drop unused haplotype status rule and script
 - Remove unused nucleotide mutation frequencies rule
-- Use augur distance for mutation counts
+- Use `augur distance` for mutation counts instead of a custom script in the ncov repository. [Recent improvements to `augur distance` in v12.0.0](https://github.com/nextstrain/augur/blob/master/CHANGES.md#1200-13-april-2021) enable this change by properly accounting for insertion/deletion events.
 
 ## v4 (5 May 2021)
 
