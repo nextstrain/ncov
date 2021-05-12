@@ -82,8 +82,8 @@ def _get_unified_metadata(wildcards):
     which will run the `combine_input_metadata` rule to make it.
     """
     if len(list(config["inputs"].keys()))==1:
-        return "results/sanitized_metadata_{origin}.tsv".format(origin=list(config["inputs"].keys())[0])
-    return "results/combined_metadata.tsv"
+        return "results/sanitized_metadata_{origin}.tsv.gz".format(origin=list(config["inputs"].keys())[0])
+    return "results/combined_metadata.tsv.gz"
 
 def _get_unified_alignment(wildcards):
     if len(list(config["inputs"].keys()))==1:

@@ -2,7 +2,7 @@ rule sanitize_metadata:
     input:
         metadata=lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
     output:
-        metadata="results/sanitized_metadata_{origin}.tsv"
+        metadata="results/sanitized_metadata_{origin}.tsv.gz"
     benchmark:
         "benchmarks/sanitize_metadata_{origin}.txt"
     conda:
@@ -27,9 +27,9 @@ rule combine_input_metadata:
         Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
     input:
-        metadata=expand("results/sanitized_metadata_{origin}.tsv", origin=config.get("inputs")),
+        metadata=expand("results/sanitized_metadata_{origin}.tsv.gz", origin=config.get("inputs")),
     output:
-        metadata = "results/combined_metadata.tsv"
+        metadata = "results/combined_metadata.tsv.gz"
     params:
         origins = lambda wildcards: list(config["inputs"].keys())
     log:
@@ -95,7 +95,7 @@ rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
         alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = "results/sanitized_metadata_{origin}.tsv",
+        metadata = "results/sanitized_metadata_{origin}.tsv.gz",
         reference = config["files"]["reference"]
     output:
         diagnostics = "results/sequence-diagnostics_{origin}.tsv",
@@ -176,7 +176,7 @@ rule filter:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
-        metadata = "results/sanitized_metadata_{origin}.tsv",
+        metadata = "results/sanitized_metadata_{origin}.tsv.gz",
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = _collect_exclusion_files,
@@ -348,7 +348,7 @@ rule index_sequences:
     input:
         sequences = _get_unified_alignment
     output:
-        sequence_index = "results/combined_sequence_index.tsv"
+        sequence_index = "results/combined_sequence_index.tsv.gz"
     log:
         "logs/index_sequences.txt"
     benchmark:
