@@ -5,6 +5,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+ - 12 May 2021: Include S1 mutations and nextalign-based ancestral amino acid mutations in Auspice JSONs by default instead of requiring the now-unnecessary `use_nextalign` configuration parameter. ([#630](https://github.com/nextstrain/ncov/pull/630))
  - 12 May 2021: [Document all available workflow configuration parameters](https://nextstrain.github.io/ncov/configuration). ([#633](https://github.com/nextstrain/ncov/pull/633))
 
 ## v5 (7 May 2021)

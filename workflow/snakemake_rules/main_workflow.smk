@@ -1128,12 +1128,11 @@ def _get_node_data_by_wildcards(wildcards):
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data,
-        rules.logistic_growth.output.node_data
+        rules.logistic_growth.output.node_data,
+        rules.aa_muts_explicit.output.node_data,
+        rules.distances.output.node_data
     ]
 
-    if "use_nextalign" in config and config["use_nextalign"]:
-        inputs.append(rules.aa_muts_explicit.output.node_data)
-        inputs.append(rules.distances.output.node_data)
     if "run_pangolin" in config and config["run_pangolin"]:
         inputs.append(rules.make_pangolin_node_data.output.node_data)
 
