@@ -74,3 +74,7 @@ surveillance
 unknwon
 Local case
 Travel
+Contact with a patient with travel history
+--
+None
+None
