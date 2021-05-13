@@ -130,8 +130,8 @@ traits:
 files:
   description: "nextstrain_profiles/nextstrain/nextstrain_description.md"
 
-# S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
-s3_staging_url: s3://nextstrain-staging
+# Deploy and Slack options are related to Nextstrain live builds and don't need to be modified for local builds
+deploy_url: s3://nextstrain-data
 slack_token: ~
 slack_channel: "#ncov-gisaid-updates"
 

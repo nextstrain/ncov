@@ -37,11 +37,11 @@ jobs:
           --memory 180GiB \
           --detach \
           . \
-            deploy_to_staging \
+            deploy \
             upload \
             --config \
                 S3_DST_BUCKET=nextstrain-ncov-private/trial/"$TRIAL_NAME" \
-                s3_staging_url=s3://nextstrain-staging/trial_"$TRIAL_NAME"_ \
+                deploy_url=s3://nextstrain-staging/trial_"$TRIAL_NAME"_ \
             --profile nextstrain_profiles/nextstrain \
             --set-threads tree=16 \
         |& tee build-launch.log
