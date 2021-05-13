@@ -2000,6 +2000,7 @@ location	La Nucia
 location	Polop
 location	Villena
 location	Callosa de Sarria
+location	Guadalest
 location	Olleria
 location	Oliva
 location	Palma de Gandia
@@ -2029,13 +2030,16 @@ location	Sollana
 location	Llombai
 location	Benifaio
 location	Almussafes
+location	El Perellonet
 location	Real de Montroy
 location	Montserrat
 location	Picassent
 location	Albal
 location	Alfafar
 location	Benetusser
+location	Sedavi
 location	Paiporta
+location	Castellar-oliveral
 location	Picanya
 location	Torrent
 location	Alaquas
@@ -2044,7 +2048,6 @@ location	Valencia Horta
 location	Valencia ES
 location	Quart de Poblet
 location	Requena
-location	Manises
 location	Alboraya
 location	Alboraia
 location	Paterna
@@ -2054,6 +2057,7 @@ location	Bonrepos i Mirambell
 location	Godella
 location	Meliana
 location	Vinalesa
+location	Foios
 location	Albalat dels Sorells
 location	Albuixech
 location	Moncada
@@ -2062,6 +2066,8 @@ location	L’Eliana
 location	Utiel
 location	Massamagrell
 location	Museros
+location	La Pobla De Farnals
+location	Rafelbunyol
 location	La Pobla de Vallbona
 location	El Puig
 location	Puzol
@@ -2070,9 +2076,12 @@ location	Gilet
 location	Sagunt
 location	Canet d'en Berenguer
 location	Soneja
+location	Vall d'Uixo
 location	Alfondeguilla
 location	Segorbe
+location	Nules
 location	Burriana
+location	Betxi
 location	Vilareal
 location	Almassora
 location	Onda
@@ -2080,11 +2089,13 @@ location	Castello de la Plana
 location	Castellon de la Plana
 location	Borriol
 location	Benicassim
+location	l'Alcora
 location	L’alcora
 location	La Pobla Tornesa
 location	Llucena
 location	Cabanes
 location	Castellón
+location	Albocasser
 
 # Catalunya
 location	La Granja d’Escarp
@@ -4131,6 +4142,7 @@ location	Vinkeveen
 location	Abcoude
 location	Vleuten
 location	Maarssen
+location	Vianen
 location	Overvecht
 location	Utrecht
 location	Westbroek
@@ -4231,8 +4243,11 @@ location	Uithuizermeeden
 location	Hoogezand
 location	Appingedam
 location	Wildervank
+location	Muntendam
 location	Delfzijl
 location	Heiligerlee
+location	Midwolda
+location	Finsterwolde
 location	Bellingwolde
 
 # Drenthe
@@ -4244,6 +4259,7 @@ location	Bovensmilde
 location	Peize
 location	Assen
 location	Eelde
+location	Zuidlaren
 location	Coevorden
 location	Dalen
 location	Nieuw Annerveen
@@ -9667,7 +9683,6 @@ location	McLean County IL
 location	Fulton County IL
 location	Ford County IL
 location	Tazewell County IL
-location	Tazewell County
 location	Iroquois County
 location	Peoria County
 location	Woodford County IL
