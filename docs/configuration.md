@@ -559,12 +559,18 @@ Each named subsampling scheme supports the following attributes that the workflo
 	* `year`
 
 ### min_date
-* type: float or string
-* description: Minimum collection date for strains to include in the subsampling set used by `augur filter --min-date`. Dates can be numeric floating point values (e.g., `2019.74`) or ISO 8601-style strings (e.g., `2019-10-01`).
+* type: string
+* description: Argument to `augur filter` to set the minimum collection date for strains to include in the subsampling set. Dates can be numeric floating point values (e.g., `2019.74`) or ISO 8601-style strings (e.g., `2019-10-01`).
+* examples:
+  * `--min-date 2019-10-01`
+  * `--min-date 2019.74`
 
 ### max_date
-* type: float or string
-* description: Maximum collection date for strains to include in the subsampling set used by `augur filter --max-date`. Dates can be numeric floating point values (e.g., `2019.74`) or ISO 8601-style strings (e.g., `2019-10-01`).
+* type: string
+* description: Argument to `augur filter` to set the maximum collection date for strains to include in the subsampling set. Dates can be numeric floating point values (e.g., `2019.74`) or ISO 8601-style strings (e.g., `2019-10-01`).
+* examples:
+  * `--max-date 2021-04-01`
+  * `--max-date 2021.25`
 
 ### priorities
 * type: object
