@@ -101,7 +101,8 @@ rule mutation_summary:
         "benchmarks/mutation_summary_{origin}.txt"
     params:
         outdir = "results/translations",
-        basename = "seqs_{origin}"
+        basename = "seqs_{origin}",
+        genes=config["genes"],
     conda: config["conda_environment"]
     shell:
         """
@@ -111,6 +112,7 @@ rule mutation_summary:
             --directory {params.outdir} \
             --basename {params.basename} \
             --reference {input.reference} \
+            --genes {params.genes:q} \
             --genemap {input.genemap} \
             --output {output.mutation_summary} 2>&1 | tee {log}
         """

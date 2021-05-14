@@ -87,8 +87,8 @@ rule align:
             --output-basename {params.basename} \
             --output-fasta {params.uncompressed_alignment} \
             --output-insertions {output.insertions} > {log} 2>&1;
-        gzip {params.uncompressed_alignment};
-        gzip {params.outdir}/{params.basename}*.fasta
+        xz {params.uncompressed_alignment};
+        xz {params.outdir}/{params.basename}*.fasta
         """
 
 rule diagnostic:
@@ -100,7 +100,7 @@ rule diagnostic:
     output:
         diagnostics = "results/sequence-diagnostics_{origin}.tsv.xz",
         flagged = "results/flagged-sequences_{origin}.tsv.xz",
-        to_exclude = "results/to-exclude_{origin}.txt.xz"
+        to_exclude = "results/to-exclude_{origin}.txt"
     log:
         "logs/diagnostics_{origin}.txt"
     params:
@@ -123,6 +123,22 @@ rule diagnostic:
             --output-flagged {output.flagged} \
             --output-diagnostics {output.diagnostics} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
+        """
+
+rule compress_exclusion_file:
+    input:
+        to_exclude="results/to-exclude_{origin}.txt"
+    output:
+        to_exclude="results/to-exclude_{origin}.txt.xz"
+    benchmark:
+        "benchmarks/compress_exclusion_file_{origin}.txt"
+    conda:
+        config["conda_environment"]
+    log:
+        "logs/compress_exclusion_file_{origin}.txt"
+    shell:
+        """
+        xz -c {input} > {output} 2> {log}
         """
 
 def _collect_exclusion_files(wildcards):
@@ -548,12 +564,12 @@ rule build_align:
         mem_mb=3000
     shell:
         """
-        nextalign \
+        xz -c -d {input.sequences} | nextalign \
             --jobs={threads} \
             --reference {input.reference} \
             --genemap {input.genemap} \
             --genes {params.genes} \
-            --sequences {input.sequences} \
+            --sequences /dev/stdin \
             --output-dir {params.outdir} \
             --output-basename {params.basename} \
             --output-fasta {output.alignment} \

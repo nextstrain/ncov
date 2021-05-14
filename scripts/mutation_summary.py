@@ -62,6 +62,7 @@ if __name__ == '__main__':
     parser.add_argument('--insertions', type=str, required=False, help="insertions (if not part of default pattern)")
     parser.add_argument('--basename', type=str, required=True, help="output pattern")
     parser.add_argument('--reference', type=str, required=True, help="reference sequence")
+    parser.add_argument('--genes', nargs="+", required=True, help="list of gene names to summarize mutations for")
     parser.add_argument('--genemap', type=str, required=True, help="annotation")
     parser.add_argument('--output', type=str, required=True, help="output tsv file")
     args = parser.parse_args()
@@ -70,16 +71,18 @@ if __name__ == '__main__':
     ref = res['nuc']
     translations = res['translations']
 
-    nucleotide_alignment = args.alignment or os.path.join(args.directory, args.basename+'.aligned.fasta.xz')
+    nucleotide_alignment = args.alignment or os.path.join(args.directory, args.basename+'.aligned.fasta*')
     insertions = os.path.join(args.directory, args.basename+'.insertions.csv')
 
-    gene_files = glob.glob(os.path.join(args.directory, args.basename+'.gene.*.fasta.xz'))
+    genes = set(args.genes)
+    gene_files = glob.glob(os.path.join(args.directory, args.basename+'.gene.*.fasta*'))
 
     compressed = {}
     res = to_mutations(nucleotide_alignment, ref)
     compressed = {'nucleotide_mutations': pd.DataFrame(res.values(), index=res.keys(), columns=['nucleotide'])}
     for fname in gene_files:
-        gene = fname.split('.')[-2]
+        # Find the gene name in the current gene file, since the filename may have multiple suffixes.
+        gene = (set(fname.split('.')) & genes).pop()
         res = to_mutations(fname, translations[gene], aa=True)
         compressed[gene] = pd.DataFrame(res.values(), index=res.keys(), columns=[gene])
 
