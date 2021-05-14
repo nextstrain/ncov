@@ -134,3 +134,7 @@ Sankt Gallen	CH
 Slaskie	(Slaskie)
 Swietokrzyskie	(Swietokrzyskie)
 Zachodniopomorskie	(Zachodniopomorskie)
+Lisbon	PT
+Santa Catarina	BR
+North Brabant	NL
+Catalunya	ES

@@ -226,3 +226,4 @@ Imde	Meise
 Concelles	Courcelles
 Sint-Jan-Molenbeek	Molenbeek-Saint-Jean
 Brabant Flamand	Vlaams-Brabant
+Roesa	Roeselare

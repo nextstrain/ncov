@@ -1296,7 +1296,7 @@ location	Cova da Moura
 location	Cascais
 location	Sintra
 location	Algueirão-Mem Martins
-location	Mafra
+location	Mafra PT
 location	Rio de Mouro
 location	Cacem
 location	Agualva
@@ -2034,6 +2034,7 @@ location	El Perellonet
 location	Real de Montroy
 location	Montserrat
 location	Picassent
+location	Alcasser
 location	Albal
 location	Alfafar
 location	Benetusser
@@ -2091,6 +2092,7 @@ location	Borriol
 location	Benicassim
 location	l'Alcora
 location	L’alcora
+location	Oropesa
 location	La Pobla Tornesa
 location	Llucena
 location	Cabanes
@@ -2172,6 +2174,7 @@ location	Masquefa
 location	Bellavista
 location	Sitges
 location	Manresa
+location	Pineda de Bages
 location	Santpedor
 location	Monistrol de Montserrat
 location	Berga
@@ -2196,8 +2199,10 @@ location	Artes
 location	Viladecavalls
 location	Sant Andreu de la Barca
 location	Llivia
+location	Ca N'Amat
 location	Castelldefels
 location	Castellbisbal
+location	Borreda
 location	Palleja
 location	Gava
 location	Terrassa
@@ -2339,7 +2344,7 @@ location	Riells I Viabrea
 location	Arenys de Munt
 location	La Batlloria
 location	Arenys de Mar
-location	Breda
+location	Breda ES
 location	Santa Pau
 location	Canet de Mar
 location	Sant Jaume de Llierca
@@ -2508,6 +2513,7 @@ location	Plerin
 location	Saint-Brieuc
 location	Vannes
 location	Sene
+location	Yffiniac
 location	Josselin
 location	La Roche Bernard
 location	Cayenne BRE
@@ -2534,6 +2540,7 @@ location	Les Sables D'Olonne
 location	Saint Herblain
 location	Nantes
 location	La Roche-sur-Yon
+location	Vendee
 location	Luçon
 location	Cholet
 location	Fontenay le Comte
@@ -2553,10 +2560,13 @@ location	Yquelon
 location	Carentan
 location	Bernieres-le-Patry
 location	Caen
+location	Argentan
 location	Le Havre
 location	Lisieux
 location	Saint Valery en Caux
+location	Saint Etienne Du Rouvray
 location	Rouen
+location	Evreux
 location	Gisors
 
 # Nouvelle-Aquitaine
@@ -2645,6 +2655,7 @@ location	Orsay
 location	Garches
 location	Hauts-de-Seine
 location	Val D'Oise
+location	L'Isle-Adam
 location	Meudon la Forêt
 location	Suresnes
 location	Puteaux
@@ -3220,6 +3231,7 @@ location	Hooglede
 location	Dadizele
 location	Ledegem
 location	Lichtervelde
+location	Rumbeke
 location	Izegem
 location	Ingelmunster
 
@@ -3257,12 +3269,14 @@ location	Heule
 location	Kuurne
 location	Hulste
 location	Harelbeke
+location	Bavikhove
 location	Zwevegem
 location	Deerlijk
 location	Spiere-Helkijn
 location	Sint-Denijs
 location	Moen
 location	Sint-Eloois-Vijve
+location	Bossuit
 location	Avelgem
 location	Anzegem
 
@@ -4071,6 +4085,7 @@ location	Rotterdam
 location	Leiden
 location	Zoetermeer
 location	Bleiswijk
+location	Lisse
 location	Hillegom
 location	Alphen Aan Den Rijn
 location	Dordrecht
@@ -4147,18 +4162,23 @@ location	Overvecht
 location	Utrecht
 location	Westbroek
 location	Houten
+location	Bunnik
 location	Zeist
 location	Baarn
 location	Hoogland
 location	Amersfoort
 
 # North Brabant
+location	Roosendaal
+location	Breda NL
 location	Nieuwendijk
+location	Gilze en Rijen
 location	Tilburg
 location	Andel
 location	Loon op Zand
 location	Oisterwijk
 location	Bladel
+location	Vught
 location	'S-Hertogenbosch
 location	Bergeijk
 location	Veldhoven
@@ -6346,7 +6366,7 @@ location	Banovce nad Bebravou
 location	Puchov
 location	Partizanske
 location	Povazska Bystrica
-location	Diviaky
+location	Diviaky nad Nitricou
 location	Bystricany
 location	Novaky
 location	Prievidza
@@ -7378,7 +7398,7 @@ location	Valdivia
 location	La Union CL
 location	Mafil
 location	Paillaco
-location	Los Lagos
+location	Los Lagos (Los Rios)
 location	Lago Ranco
 location	Panguipulli
 
@@ -7705,7 +7725,9 @@ location	Porto Xavier
 location	Santa Rosa BR
 location	Tiradentes
 location	Erechim
+location	Seberi
 location	Tres Passos
+location	Nonoai
 location	Frederico Westphalen
 location	Vista Gaucha
 location	Candelaria
@@ -7766,6 +7788,8 @@ location	Sao Jose Dos Pinhais
 location	Planalto Alegre
 location	Chapeco
 location	Lages
+location	Sao Joaquim
+location	Mafra BR
 location	Balneario Arroio do Silva
 location	Braco do Norte
 location	Blumenau
@@ -7773,6 +7797,7 @@ location	Joinville
 location	Palhoca
 location	Sao Jose
 location	Balneario Camburiu
+location	Itapema
 location	Florianopolis
 
 # Goiás
@@ -8172,6 +8197,7 @@ location	Sabara
 location	Barbacena
 location	Ouro Branco
 location	Desterro do Melo
+location	Santo Antonio do Aventureiro
 location	Alem do Paraiba
 location	Muriae
 location	Caratinga
@@ -8937,9 +8963,9 @@ location	Escazu
 location	San Antonio
 location	Pavas
 location	San Rafael de Escazú
+location	San Jose CR
 location	San Felipe CR
 location	Alajuelita
-location	San Jose
 location	Pitahaya
 location	Aserri
 location	Tibas
@@ -9077,6 +9103,7 @@ location	Jefferson County OR
 location	Wasco County
 location	Deschutes County
 location	Sherman County
+location	Crook County
 location	Grant County OR
 location	Harney County
 location	Umatilla County
@@ -9201,6 +9228,7 @@ location	Bonneville County
 
 # Utah
 location	Utah County
+location	Salt Lake County
 
 # Arizona
 location	Santa Cruz County AZ
@@ -10033,13 +10061,21 @@ location	Branford
 location	Meriden
 location	Northford
 location	Madison CT
+location	Middlesex County CT
 location	Tolland County
+location	New London County
 
 # Massachusetts
 location	Worcester County
 location	Middlesex County MA
 location	Norfolk County
 location	Boston
+
+# New Hampshire
+location	Hillsborough County
+
+# Rhode Island
+location	Washington County RI
 
 # Maine
 location	Penobscot County
@@ -11655,6 +11691,7 @@ division	Vladimir Region
 division	Tambov Region
 division	Ivanovo
 division	Karachay-Cherkess
+division	Kostroma Region
 division	Kabardino-Balkaria
 division	Stavropol
 division	Nizhny Novgorod
@@ -11698,6 +11735,7 @@ division	Amur Region
 division	Sakhalin
 division	Magadan
 division	Kamchatka Krai
+division	Сhukotka Region
 
 ################
 
@@ -11723,10 +11761,17 @@ division	Jujuy
 ### Uruguay
 division	Maldonado
 division	Montevideo
+division	Canelones
+division	Colonia
+division	Departamento San Jose
 division	Rocha
+division	Soriano
 division	Uruguay
 division	Treinta y Tres
+division	Departamento Rio Negro
 division	Cerro Largo
+division	Tacuarembo
+division	Salto
 division	Rivera
 division	Artigas
 
