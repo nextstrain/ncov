@@ -1,4 +1,5 @@
 import argparse, os, glob
+from augur.io import open_file
 from Bio import SeqIO, SeqFeature, Seq
 from Bio.SeqIO.FastaIO import SimpleFastaParser
 import numpy as np
@@ -42,7 +43,7 @@ def to_mutations(aln_file, ref, aa=False):
     res = {}
     ambiguous = 'X' if aa else 'N'
 
-    with open(aln_file, 'r') as fh:
+    with open_file(aln_file, 'r') as fh:
         for si, (name, seq) in enumerate(SimpleFastaParser(fh)):
             if si%1000==0 and si:
                 print(f"sequence {si}")
@@ -69,10 +70,10 @@ if __name__ == '__main__':
     ref = res['nuc']
     translations = res['translations']
 
-    nucleotide_alignment = args.alignment or os.path.join(args.directory, args.basename+'.aligned.fasta')
+    nucleotide_alignment = args.alignment or os.path.join(args.directory, args.basename+'.aligned.fasta.xz')
     insertions = os.path.join(args.directory, args.basename+'.insertions.csv')
 
-    gene_files = glob.glob(os.path.join(args.directory, args.basename+'.gene.*.fasta'))
+    gene_files = glob.glob(os.path.join(args.directory, args.basename+'.gene.*.fasta.xz'))
 
     compressed = {}
     res = to_mutations(nucleotide_alignment, ref)

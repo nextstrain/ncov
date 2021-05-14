@@ -2,7 +2,7 @@ rule sanitize_metadata:
     input:
         metadata=lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
     output:
-        metadata="results/sanitized_metadata_{origin}.tsv.gz"
+        metadata="results/sanitized_metadata_{origin}.tsv.xz"
     benchmark:
         "benchmarks/sanitize_metadata_{origin}.txt"
     conda:
@@ -27,9 +27,9 @@ rule combine_input_metadata:
         Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
     input:
-        metadata=expand("results/sanitized_metadata_{origin}.tsv.gz", origin=config.get("inputs")),
+        metadata=expand("results/sanitized_metadata_{origin}.tsv.xz", origin=config.get("inputs")),
     output:
-        metadata = "results/combined_metadata.tsv.gz"
+        metadata = "results/combined_metadata.tsv.xz"
     params:
         origins = lambda wildcards: list(config["inputs"].keys())
     log:
@@ -53,9 +53,9 @@ rule align:
         genemap = config["files"]["annotation"],
         reference = config["files"]["alignment_reference"]
     output:
-        alignment = "results/aligned_{origin}.fasta.gz",
+        alignment = "results/aligned_{origin}.fasta.xz",
         insertions = "results/insertions_{origin}.tsv",
-        translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta.gz", gene=config.get('genes', ['S']))
+        translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta.xz", gene=config.get('genes', ['S']))
     params:
         outdir = "results/translations",
         genes = ','.join(config.get('genes', ['S'])),
@@ -95,12 +95,12 @@ rule diagnostic:
     message: "Scanning aligned sequences {input.alignment} for problematic sequences"
     input:
         alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = "results/sanitized_metadata_{origin}.tsv.gz",
+        metadata = "results/sanitized_metadata_{origin}.tsv.xz",
         reference = config["files"]["reference"]
     output:
-        diagnostics = "results/sequence-diagnostics_{origin}.tsv",
-        flagged = "results/flagged-sequences_{origin}.tsv",
-        to_exclude = "results/to-exclude_{origin}.txt"
+        diagnostics = "results/sequence-diagnostics_{origin}.tsv.xz",
+        flagged = "results/flagged-sequences_{origin}.tsv.xz",
+        to_exclude = "results/to-exclude_{origin}.txt.xz"
     log:
         "logs/diagnostics_{origin}.txt"
     params:
@@ -145,7 +145,7 @@ rule mask:
     input:
         alignment = lambda w: _get_path_for_input("aligned", w.origin)
     output:
-        alignment = "results/masked_{origin}.fasta.gz"
+        alignment = "results/masked_{origin}.fasta.xz"
     log:
         "logs/mask_{origin}.txt"
     benchmark:
@@ -176,12 +176,12 @@ rule filter:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
-        metadata = "results/sanitized_metadata_{origin}.tsv.gz",
+        metadata = "results/sanitized_metadata_{origin}.tsv.xz",
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = _collect_exclusion_files,
     output:
-        sequences = "results/filtered_{origin}.fasta.gz"
+        sequences = "results/filtered_{origin}.fasta.xz"
     log:
         "logs/filtered_{origin}.txt"
     benchmark:
@@ -321,7 +321,7 @@ rule combine_sequences_for_subsampling:
     input:
         lambda w: [_get_path_for_input("filtered", origin) for origin in config.get("inputs", {})]
     output:
-        "results/combined_sequences_for_subsampling.fasta.gz"
+        "results/combined_sequences_for_subsampling.fasta.xz"
     benchmark:
         "benchmarks/combine_sequences_for_subsampling.txt"
     conda: config["conda_environment"]
@@ -348,7 +348,7 @@ rule index_sequences:
     input:
         sequences = _get_unified_alignment
     output:
-        sequence_index = "results/combined_sequence_index.tsv.gz"
+        sequence_index = "results/combined_sequence_index.tsv.xz"
     log:
         "logs/index_sequences.txt"
     benchmark:
@@ -501,8 +501,8 @@ rule combine_samples:
         metadata=_get_unified_metadata,
         include=_get_subsampled_files,
     output:
-        sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta",
-        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv"
+        sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
+        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz"
     log:
         "logs/subsample_regions_{build_name}.txt"
     benchmark:
