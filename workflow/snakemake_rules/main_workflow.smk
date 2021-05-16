@@ -87,8 +87,8 @@ rule align:
             --output-basename {params.basename} \
             --output-fasta {params.uncompressed_alignment} \
             --output-insertions {output.insertions} > {log} 2>&1;
-        xz {params.uncompressed_alignment};
-        xz {params.outdir}/{params.basename}*.fasta
+        xz -2 {params.uncompressed_alignment};
+        xz -2 {params.outdir}/{params.basename}*.fasta
         """
 
 rule diagnostic:
