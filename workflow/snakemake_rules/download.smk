@@ -33,14 +33,14 @@ def _infer_decompression(input):
 rule download_sequences:
     message: "Downloading sequences from {params.address} -> {output.sequences}"
     output:
-        sequences = "data/downloaded_{origin}.fasta"
+        sequences = "data/downloaded_{origin}.fasta.gz"
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][w.origin]["sequences"],
         deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["sequences"])
     shell:
         """
-        aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
+        aws s3 cp {params.address} {output.sequences:q}
         """
 
 rule download_metadata:
