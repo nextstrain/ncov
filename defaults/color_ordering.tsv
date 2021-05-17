@@ -221,6 +221,9 @@ location	Ibra
 location	Tashkent City
 
 ### Pakistan
+# Punjab PK
+location	Vehari
+
 # Gilgit Baltistan
 location	Gilgit
 
@@ -505,6 +508,14 @@ location	Chamoli
 
 # Punjab IN
 location	Rupnagar
+
+# Himachal Pradesh
+location	Kasauli
+location	Shimla
+location	Ner Chowk
+location	Hamirpur
+location	Kangra
+location	Palampur
 
 # Ladakh
 location	Kargil
@@ -880,6 +891,19 @@ location	Kaohsiung
 location	Taoyuan
 location	Taipei
 
+### Philippines
+# Calabarzon
+location	Indang
+location	Rizal
+
+# Manila
+location	Taguig City
+location	Pasay City
+location	Manila City
+location	Quezon City
+location	Caloocan City
+location	Navotas City
+
 ### South Korea
 # Chungcheongnam
 location	Chungcheongnam
@@ -898,6 +922,9 @@ location	Kyoto
 # Aichi
 location	Nagoya
 location	Aichi
+
+# Kanagawa
+location	Sagamihara
 
 # Tokyo
 location	Tokyo
@@ -957,14 +984,8 @@ location	Sangalkam
 location	Diamniadio
 
 # Thies
-location	Joal-Fadiouth
 location	Mbour
-location	Thiadiaye
 location	Saly Portudal
-location	Guereo
-location	Popenguine
-location	Khombole
-location	Tivaoune
 
 # Diourbel
 location	Touba
@@ -1362,14 +1383,17 @@ location	Las Palmas de Gran Canaria
 location	Lanzarote
 
 # Galicia
+location	Cee
 location	Muros
 location	Puerto del Son
 location	Ribeira
 location	Puebla del Caraminal
+location	A Pobra do Caramiñal
 location	Outes
 location	Noia
 location	Boiro
 location	Lousame
+location	Rianxo
 location	Santa Comba
 location	Rianjo
 location	Negreira
@@ -1387,6 +1411,7 @@ location	Vedra
 location	Pontevedra
 location	Boqueixón
 location	A Coruna
+location	Ordes
 location	Oroso
 location	Silleda
 location	Mesía
@@ -1481,14 +1506,18 @@ location	Malaga
 location	Rincon de la Victoria
 location	Benajarafe
 location	Loja ES
+location	Zafarraya
 location	Axarquia
 location	Velez Malaga
 location	Torre del Mar
+location	Huetor Tajar
 location	Castillo de Locubin
 location	Alcala la Real
+location	Arenas del Rey
 location	Illora
 location	Nerja
 location	Frailes
+location	Chimeneas
 location	Valderrubio
 location	Cijuela
 location	Moclin
@@ -1499,6 +1528,7 @@ location	Santa Fe ES
 location	Vegas del Genil
 location	Las Gabias
 location	Atarfe
+location	Almunecar
 location	Benalua de las Villas
 location	Cullar Vega
 location	Albolote
@@ -1508,6 +1538,7 @@ location	Campillo de Arenas
 location	Otura
 location	Maracena
 location	Peligros
+location	Armilla
 location	Ogijares
 location	Pulianas
 location	Granada ES
@@ -1515,12 +1546,15 @@ location	Guevejar
 location	Jun
 location	La Zubia
 location	Cogollos de la Vega
+location	Cajar
+location	Huetor Vega
 location	Durcal
 location	Alfacar
 location	Motril
 location	Iznalloz
 location	Huetor Santillan
 location	Lanjaron
+location	Orgiva
 location	Ubeda
 location	Jodar
 location	Navas de San Juan
@@ -1529,6 +1563,7 @@ location	Huelago
 location	Alamedilla
 location	Lugros
 location	Pedro Martinez
+location	Albunol
 location	Purullena
 location	Fonelas
 location	Benalua
@@ -1634,6 +1669,7 @@ location	Sahagun
 location	Valladolid
 location	Palencia
 location	Burgos
+location	Aranda de Duero
 
 # Cantabria
 location	Potes
@@ -2001,6 +2037,7 @@ location	Polop
 location	Villena
 location	Callosa de Sarria
 location	Guadalest
+location	Tarbena
 location	Olleria
 location	Oliva
 location	Palma de Gandia
@@ -2014,6 +2051,7 @@ location	Xeraco
 location	Simat de la Valldigna
 location	Tavernes de la Valldigna
 location	Antella
+location	Alberic
 location	Carcaixent
 location	Favara
 location	Massalaves
@@ -2022,6 +2060,7 @@ location	Cullera
 location	Guadassuar
 location	Algemesi
 location	El Dosel
+location	l'Alcudia
 location	Albalat De La Ribera
 location	Sueca
 location	Carlet
@@ -2033,6 +2072,7 @@ location	Almussafes
 location	El Perellonet
 location	Real de Montroy
 location	Montserrat
+location	Silla
 location	Picassent
 location	Alcasser
 location	Albal
@@ -2053,6 +2093,7 @@ location	Alboraya
 location	Alboraia
 location	Paterna
 location	Tavernes Blanques
+location	Burjassot
 location	Almassera
 location	Bonrepos i Mirambell
 location	Godella
@@ -2094,8 +2135,10 @@ location	l'Alcora
 location	L’alcora
 location	Oropesa
 location	La Pobla Tornesa
+location	Lucena del Cid
 location	Llucena
 location	Cabanes
+location	Les Useres
 location	Castellón
 location	Albocasser
 
@@ -2152,6 +2195,7 @@ location	Puigverd d'Agramunt
 location	Sort
 location	Tarrega
 location	Altet
+location	Guimera
 location	Ponts
 location	Cervera
 location	Solsona
@@ -2219,6 +2263,7 @@ location	Sant Llorenc Savall
 location	Cornella de Llobregat
 location	San Cugat del Valles
 location	Sant Quirze del Valles
+location	Castellar del Valles
 location	Esplugues de Llobregat
 location	El Prat de Llobregat
 location	Moia
@@ -4207,6 +4252,7 @@ location	Sneek
 location	Weststellingwerf
 location	Gorredijk
 location	Rottevalle
+location	Harkema
 location	Buitenpost
 
 # Limburg
@@ -4261,6 +4307,8 @@ location	Haren NL
 location	Uithuizen
 location	Uithuizermeeden
 location	Hoogezand
+location	Sappemeer
+location	Schildwolde
 location	Appingedam
 location	Wildervank
 location	Muntendam
@@ -4272,6 +4320,7 @@ location	Bellingwolde
 
 # Drenthe
 location	Meppel
+location	Een
 location	Roden
 location	Zuidwolde
 location	Norg
@@ -4279,6 +4328,7 @@ location	Bovensmilde
 location	Peize
 location	Assen
 location	Eelde
+location	Vries
 location	Zuidlaren
 location	Coevorden
 location	Dalen
@@ -4729,6 +4779,7 @@ location	Jena
 # Bavaria
 location	Hettstadt
 location	Prichsenstadt
+location	Wonfurt
 location	Dirlewang
 location	Schlusselfeld
 location	Gerhardshofen
@@ -4738,11 +4789,13 @@ location	Erlangen
 location	Schwabach
 location	Nuremberg
 location	Garmisch
+location	Neuburg an der Donau
 location	Eichstätt
 location	Karlshuld
 location	Starnberg
 location	Gauting
 location	Kipfenberg
+location	Wettstetten
 location	Ingolstadt
 location	Dachau
 location	Karlsfeld
@@ -8206,6 +8259,7 @@ location	Manhuacu
 location	Governador Valadares
 
 # Rio de Janeiro
+location	Parati
 location	Itatiaia
 location	Resende
 location	Angra Dos Reis
@@ -8215,12 +8269,15 @@ location	Barra Mansa
 location	Rio Claro RJ
 location	Volta Redonda
 location	Mangaratiba
+location	Pinheiral
 location	Pirai
 location	Barra do Pirai
 location	Itaguaí
 location	Mendes
 location	Paracambi
+location	Valenca
 location	Seropédica
+location	Engenheiro Paulo de Frontin
 location	Vassouras
 location	Rio Das Flores
 location	Queimados
@@ -8243,6 +8300,7 @@ location	Sao Goncalo
 location	Guapimirim
 location	Teresopolis
 location	Sao Jose do Vale do Rio Preto
+location	Sapucaia
 location	Itaborai
 location	Maricá
 location	Sumidouro
@@ -8252,11 +8310,14 @@ location	Nova Friburgo
 location	Duas Barras
 location	Saquarema
 location	Bom Jardim
+location	Silva Jardim
+location	Cordeiro
 location	Araruama
 location	Macuco
 location	Iguaba Grande
 location	Miracema
 location	Santo Antonio de Padua
+location	Sao Sebastiao do Alto
 location	Sao Pedro Da Aldeia
 location	Aperibe
 location	Itaocara
@@ -8266,8 +8327,10 @@ location	Cabo Frio
 location	Santa Maria Madalena
 location	Natividade
 location	Rio Das Ostras
+location	Sao Jose de Uba
 location	Cambuci
 location	Itaperuna
+location	Armacao Dos Buzios
 location	Varre Sai
 location	Conceicao de Macabu
 location	Macaé
@@ -8308,6 +8371,7 @@ location	Irupi
 location	Laranjeiras (Espirito Santo)
 location	Cachoeiro de Itapemirim
 location	Baixo Guandu
+location	Marataizes
 location	Barra do Sao Francisco
 location	Santa Maria de Jetiba
 location	Aguia Branca
@@ -8474,11 +8538,14 @@ location	Ambato
 location	Latacunga
 
 # Manabi
+location	Crucita
 location	Pajan
 location	Puerto Lopez
 location	Jipijapa
 location	Colon
+location	Andres de Vera
 location	Portoviejo
+location	San Pablo (Portoviejo)
 location	Manta
 location	Pueblo Nuevo EC
 location	Calceta
@@ -8562,6 +8629,7 @@ location	Urcuqui
 
 # Carchi
 location	Awa Reserve
+location	Tulcan
 
 # Morona Santiago
 location	Macas
@@ -8579,6 +8647,7 @@ location	Nueva Loja
 # Orellana
 location	Coca
 location	Orellana
+location	Nuevo Rocafuerte
 
 ### Colombia
 # Departamento de Amazonas
@@ -8887,6 +8956,7 @@ location	Cirilo Guaynora
 
 ### Costa Rica
 # Guanacaste
+location	Nandayure
 location	Nicoya
 location	Santa Cruz
 location	Abangares
@@ -8966,6 +9036,7 @@ location	San Rafael de Escazú
 location	San Jose CR
 location	San Felipe CR
 location	Alajuelita
+location	San Jose
 location	Pitahaya
 location	Aserri
 location	Tibas
@@ -8986,12 +9057,13 @@ location	San Jerónimo
 location	Granadilla
 location	Moravia
 location	Goicoechea
-location	Vazquez De Coronado
+location	Vazquez de Coronado
 location	Dota
 location	San Isidro de El General
 location	Perez Zeledon
 
 # Cartago CR
+location	Rio Azul
 location	San Juan CR
 location	San Diego CR
 location	Concepcion CR
@@ -9526,15 +9598,20 @@ location	Red River Parish
 location	Natchitoches Parish
 location	Bienville Parish
 location	Claiborne Parish
+location	Jefferson Davis Parish
 location	Lincoln Parish
 location	Grant Parish
 location	Rapides Parish
+location	Acadia Parish
 location	Union Parish
 location	Ouachita Parish
+location	Lafayette Parish
 location	St Landry Parish
 location	Avoyelles Parish
 location	Richland Parish
 location	Morehouse Parish
+location	Iberia Parish
+location	West Feliciana Parish
 location	Iberville Parish
 location	Tensas Parish
 location	East Carroll Parish
@@ -10232,8 +10309,17 @@ division	East-Kazakhstan Region
 ### Pakistan
 division	Karachi
 division	Sindh
+division	Bakhar
+division	Rajanpur
 division	Pakistan
+division	Muzafargarh
+division	Guranwala
+division	Multan
 division	Punjab PK
+division	Kasur
+division	Lahore
+division	Sheikhupura
+division	Sargodha
 division	Rawalpindi
 division	Khyber Pakhtunkhwa
 division	Islamabad
@@ -10347,9 +10433,11 @@ division	Bangkok
 division	Nonthaburi
 division	Pathum Thani
 division	Nakhon Nayok
+division	Saraburi
 division	Ang Thong
 division	Thailand
 division	Singburi
+division	Lop Buri
 division	Khon Kaen
 division	Phitsanulok
 division	Chiang Rai
@@ -11576,6 +11664,7 @@ division	Sliven
 division	Yambol
 division	Razgrad
 division	Targovishte
+division	Shumen
 division	Burgas
 division	Silistra
 division	Dobrich

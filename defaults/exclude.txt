@@ -2095,3 +2095,10 @@ Brazil/GO-HLAGYN-1354344_R2/2021
 Brazil/GO-HLAGYN-1520715_R2/2021
 # Brazil/GO-HLAGYN-1586463_R2/2021 EPI_ISL_2017282 additional_host_info: infection case second episode / first sample (1031607)
 Brazil/GO-HLAGYN-1586463_R2/2021
+# Brazil/GO-HLAGYN-1169409_R1/2021 EPI_ISL_2102517 additional_host_info: Infection case firts episode / second sample (P. 1354344)
+Brazil/GO-HLAGYN-1354344_R2/2021
+
+# Sample date before clade
+Spain/VC-IBV-99028301/2020
+Spain/VC-IBV-99028305/2020
+USA/TX-CDC-4061563-001/2020
