@@ -179,7 +179,7 @@ rule mask:
             --mask-from-end {params.mask_from_end} \
             --mask-sites {params.mask_sites} \
             --mask-terminal-gaps \
-            --output {output.alignment} 2>&1 | tee {log}
+            --output /dev/stdout | xz -c -2 > {output.alignment} 2>| tee {log}
         """
 
 rule filter:
@@ -224,7 +224,7 @@ rule filter:
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
-            --output {output.sequences} 2>&1 | tee {log}
+            --output /dev/stdout | xz -c -2 > {output.sequences} 2>| tee {log}
         """
 
 def _get_subsampling_settings(wildcards):
