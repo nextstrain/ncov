@@ -179,7 +179,7 @@ rule mask:
             --mask-from-end {params.mask_from_end} \
             --mask-sites {params.mask_sites} \
             --mask-terminal-gaps \
-            --output /dev/stdout | xz -c -2 > {output.alignment} 2>| tee {log}
+            --output /dev/stdout | xz -c -2 > {output.alignment} 2> {log}
         """
 
 rule filter:
@@ -207,7 +207,8 @@ rule filter:
         exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
         min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
         ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
-        date = (date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+        date = (date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d"),
+        intermediate_output=lambda wildcards, output: Path(output.sequences).with_suffix("")
     resources:
         # Memory use scales primarily with the size of the metadata file.
         mem_mb=lambda wildcards, input: 15 * int(input.metadata.size / 1024 / 1024)
@@ -224,7 +225,8 @@ rule filter:
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
-            --output /dev/stdout | xz -c -2 > {output.sequences} 2>| tee {log}
+            --output {params.intermediate_output} 2>&1 | tee {log};
+        xz -2 {params.intermediate_output}
         """
 
 def _get_subsampling_settings(wildcards):
