@@ -2103,8 +2103,13 @@ Spain/VC-IBV-99028301/2020
 Spain/VC-IBV-99028305/2020
 USA/TX-CDC-4061563-001/2020
 
-# Divergence
-Australia/SA0633/2020
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1620967910048000
 Japan/Donner381/2020
+Australia/SA0633/2020
+Panama/GMI-PACH6448/2020
+Brazil/SP-2388/2020
+Brazil/SP-2389/2020
+
+# Divergence
 USA/WA-UW-488/2020
 Germany/SL-SU-10427535/2020
