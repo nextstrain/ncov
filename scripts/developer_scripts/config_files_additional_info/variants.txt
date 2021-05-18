@@ -1,3 +1,4 @@
 UK	United Kingdom
 US	USA
 Valencia	Valencia ES
+Granada	Granada ES
