@@ -2113,3 +2113,6 @@ Brazil/SP-2389/2020
 # Divergence
 USA/WA-UW-488/2020
 Germany/SL-SU-10427535/2020
+
+# S1 mutations; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1621370263017600
+USA/TX-HMH-MCoV-25244/2021
