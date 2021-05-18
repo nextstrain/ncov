@@ -62,7 +62,8 @@ rule align:
         basename = "seqs_{origin}",
         strain_prefixes=config["strip_strain_prefixes"],
         # Strip the compression suffix for the intermediate output from the aligner.
-        uncompressed_alignment=lambda wildcards, output: Path(output.alignment).with_suffix("")
+        uncompressed_alignment=lambda wildcards, output: Path(output.alignment).with_suffix(""),
+        sanitize_log="logs/sanitize_sequences_{origin}.txt"
     log:
         "logs/align_{origin}.txt"
     benchmark:
@@ -76,7 +77,7 @@ rule align:
         python3 scripts/sanitize_sequences.py \
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
-            --output /dev/stdout \
+            --output /dev/stdout 2> {params.sanitize_log} \
             | nextalign \
             --jobs={threads} \
             --reference {input.reference} \
