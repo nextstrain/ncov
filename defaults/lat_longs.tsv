@@ -511,6 +511,7 @@ location	Baden	48.0085749	16.2334951
 location	Badhoevedorp	52.3388803	4.7844704
 location	Badia del Valles	41.5078201	2.1153392
 location	Badulla	6.9898202	81.0569425
+location	Badung	-8.60458525	115.17859408310957
 location	Bady Bassitt	-20.9178969	-49.4517911
 location	Bättwil	47.4899611	7.5093058
 location	Baga	42.2527659	1.8625903
@@ -1585,6 +1586,7 @@ location	Chippewa Falls	44.931261	-91.389704
 location	Chisago County	45.4758877	-92.8849411
 location	Chitre	7.98012775	-80.4489823725464
 location	Chittagong	22.3307998	91.8412863
+location	Chittoor	13.1601048	79.15555061803596
 location	Chlumec	50.699992	13.9397526
 location	Chmielnik	50.6145952	20.7510406
 location	Choconta	5.146017	-73.683678
@@ -2675,6 +2677,7 @@ location	Getafe	40.3081807	-3.7302679
 location	Getxo	43.3479409	-3.0087671
 location	Ghlin	50.467281	3.892335
 location	Ghogha	21.6874043	72.2761717
+location	Gianyar	-8.5482357	115.32605401537212
 location	Gibraltar	36.140807	-5.3541295
 location	Giddings	30.1830498	-96.9366112
 location	Giedlarowa	50.2265339	22.4014412
@@ -3507,6 +3510,7 @@ location	Joao Pessoa	-7.1215981	-34.882028
 location	Joarilla De Las Matas	42.2872779	-5.178728
 location	Joboticabel	-21.2560780392603	-48.327711584268236
 location	Jodar	37.8406832	-3.3548686
+location	Jodhpur	26.2967719	73.0351433
 location	Jodoigne	50.724179	4.8679997
 location	Joe Gqabi	-30.94155986620789	27.130695927230565
 location	Jönköping	57.777979	14.160453
@@ -3771,6 +3775,7 @@ location	Klizska Nema	47.7513765	17.8190874
 location	Klodzko	50.43371175	16.642246491692106
 location	Klosterneuburg	48.30499	16.323756
 location	Kluczbork	50.9730701	18.2140089
+location	Klungkung	-8.5350173	115.4032763
 location	Knokke	51.3464525	3.2876342
 location	Knokke-Heist	51.331501	3.308826
 location	Knox County	40.920889	-90.2202325
@@ -5562,6 +5567,7 @@ location	Ondřejov	49.9045659	14.7831213
 location	Oneida County	43.2144051	-75.4039155
 location	Oneida County NY	43.2144051	-75.4039155
 location	Oneida County WI	45.6879163	-89.4779558
+location	Ongole	15.5075545	80.06080046754784
 location	Onondaga County	43.0268	-76.1784
 location	Ontario County	42.8580624	-77.295025
 location	Onze-Lieve-Vrouw-Waver	51.0624896	4.5798347
@@ -7756,6 +7762,7 @@ location	Szyleny	54.33893	19.87045
 location	Szymaniszki	51.8262987	19.7821329
 location	Szymanow	52.1616414	20.3810754
 location	Szymany	53.29914	20.38505
+location	Tabanan	-8.5392306	115.1265683
 location	Tabatinga	-4.2327349	-69.9263372
 location	Tabernas	37.0498879	-2.3913774
 location	Tabira	-7.583661	-37.537735
@@ -9101,6 +9108,7 @@ division	Australia	-24.7761085	134.755
 division	Australian Capital Territory	-35.4883502	149.0026942
 division	Austria	47.5162	14.5501
 division	Auvergne-Rhône-Alpes	45.4471	4.3853
+division	Awdal	10.5000045	43.4999956
 division	Ayacucho	-14.0	-74.0
 division	Aysén	-46.1434629	-74.36488694169807
 division	Azerbaijan	40.3936294	47.7872508
@@ -9163,6 +9171,7 @@ division	Belgrade	44.8178131	20.4568974
 division	Belize	16.8259793	-88.7600927
 division	Belmopan	17.250199	-88.770018
 division	Ben Arous	36.747441	10.234475
+division	Benadir	2.0812612	45.4607164
 division	Bengkulu	-3.5186763	102.5359834
 division	Beni	-14.0	-65.0
 division	Benue State	7.3505747	8.7772877
@@ -9244,6 +9253,7 @@ division	Buzau	45.143297	26.816251
 division	Cabinda	-5.056395	12.3211749
 division	Cabo Delgado	-12.4254942	39.4168743
 division	Cacak	43.891816	20.362815
+division	Cagayan Valley	17.677229	121.88902982109876
 division	Cahul	45.9044087	28.1946583
 division	Cairo	30.041045	31.237176
 division	Cajamarca	-6.25	-78.833333
@@ -9267,6 +9277,7 @@ division	Cantabria	43.1595664	-4.0878382
 division	Canterbury	-43.346635	172.190743
 division	Capital Governorate	26.2285	50.5860
 division	Caqueta	1.1153385	-74.1056838
+division	Caraga	9.2471392	125.85578188652231
 division	Carchi	0.8375163	-78.2075154
 division	Carinthia	46.7500001	13.8333333
 division	Carlow	52.69053605	-6.8250188975846555
@@ -9412,6 +9423,7 @@ division	Dhaka	23.789370	90.415192
 division	Diamond Princess	35.046935	139.419325
 division	Diana	-12.2735552	49.2845719
 division	Diksmuide	51.050218	2.859454
+division	Dinajpur	25.6260712	88.6346228
 division	Dinant	50.239336	4.939426
 division	Diourbel	14.7043898	-16.0511737
 division	Distrito Federal	-15.7998	-47.8645
@@ -9988,6 +10000,7 @@ division	Mari El	56.5767504	47.8817512
 division	Marijampoles Apskritis	54.679230399999994	23.200468079034664
 division	Maritime Region	6.53703405	1.244338916227091
 division	Marmara	40.62164065	27.629427220927305
+division	Maroodi Jeex	6.1206	47.952599
 division	Martin	49.0617	18.919
 division	Martinique	14.6367927	-61.01582685063731
 division	Maryland	39.0458	-76.6413
@@ -10041,6 +10054,7 @@ division	Minsk Region	54.1603039	27.7558157
 division	Mioveni	44.957951	24.939220
 division	Miranda	10.25	-66.416667
 division	Mirpur	23.808569	90.363307
+division	Misiones	-26.737224	-54.4315257
 division	Mississippi	32.9715645	-89.7348497
 division	Missouri	37.9643	-91.8318
 division	Mitrovica	42.8790424	20.8657862

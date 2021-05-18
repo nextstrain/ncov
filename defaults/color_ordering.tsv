@@ -251,8 +251,10 @@ location	Kolar
 location	Ananthapur
 location	Kurnool
 location	Kadapa
+location	Chittoor
 location	Tirupati
 location	Nellore
+location	Ongole
 location	Guntur
 location	Vijayawada
 location	Kakinada
@@ -456,6 +458,7 @@ location	East Singhbhum
 location	Munger
 
 # Rajasthan
+location	Jodhpur
 location	Bikaner
 location	Jaipur
 
@@ -601,7 +604,6 @@ location	Jhenaidah
 # Dhaka
 location	Farmgate
 location	Rajbari
-location	Madhukhali
 location	Faridpur
 location	Tangail
 location	Manikganj
@@ -852,7 +854,11 @@ location	Surabaya
 location	Gresik
 
 # Bali
+location	Tabanan
+location	Badung
 location	Denpasar
+location	Gianyar
+location	Klungkung
 
 # North Kalimantan
 location	Malinau
@@ -10411,6 +10417,7 @@ division	Kishoregonj
 division	Bangladesh
 division	Mymensingh
 division	Sylhet
+division	Dinajpur
 division	Rangpur
 
 ### Myanmar
@@ -10555,6 +10562,7 @@ division	Soccsksargen
 division	Davao Region
 division	Zamboanga Peninsula
 division	Northern Mindanao
+division	Caraga
 division	Central Visayas
 division	Western Visayas
 division	Philippines
@@ -10564,6 +10572,7 @@ division	National Capital Region
 division	Manila
 division	Central Luzon
 division	Cordillera Administrative Region
+division	Cagayan Valley
 
 ### Timor-Leste
 division	Timor-Leste
@@ -10991,7 +11000,10 @@ division	Boeny
 division	Diana
 
 ### Somalia
+division	Benadir
+division	Maroodi Jeex
 division	Somalia
+division	Awdal
 
 ### Mauritius
 division	Black River
@@ -11843,6 +11855,7 @@ division	Santa Fe
 division	Corrientes
 division	Santiago del Estero
 division	Tucuman
+division	Misiones
 division	Chaco
 division	Salta
 division	Jujuy
