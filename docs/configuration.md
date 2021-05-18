@@ -497,6 +497,44 @@ Valid attributes for list entries in `inputs` are provided below.
 * description: A list of prefixes to strip from strain names in metadata and sequence records to maintain consistent strain names when analyzing data from multiple sources.
 * default: `["hCoV-19/", "SARS-CoV-2/"]`
 
+## sanitize_metadata
+* type: object
+* description: Parameters to configure how to sanitize metadata to a Nextstrain-compatible format.
+
+### parse_location_field
+* type: string
+* description: Field in the metadata that stores GISAID-formatted location details (e.g., `North America / USA / Washington`) to be parsed into `region`, `country`, `division`, and `location` fields.
+* default: `Location`
+
+### rename_fields
+* type: array
+* description: List of key/value pairs mapping fields in the input metadata to rename to another value in the sanitized metadata.
+* default:
+```yaml
+    - "Virus name=strain"
+    - "Type=type"
+    - "Accession ID=gisaid_epi_isl"
+    - "Collection date=date"
+    - "Additional location information=additional_location_information"
+    - "Sequence length=length"
+    - "Host=host"
+    - "Patient age=patient_age"
+    - "Gender=sex"
+    - "Clade=GISAID_clade"
+    - "Pango lineage=pango_lineage"
+    - "Pangolin version=pangolin_version"
+    - "Variant=variant"
+    - "AA Substitutions=aa_substitutions"
+    - "aaSubtitutions=aa_substitutions"
+    - "Submission date=date_submitted"
+    - "Is reference?=is_reference"
+    - "Is complete?=is_complete"
+    - "Is high coverage?=is_high_coverage"
+    - "Is low coverage?=is_low_coverage"
+    - "N-Content=n_content"
+    - "GC-Content=gc_content"
+```
+
 ## subsampling
 * type: object
 * description: Schemes for subsampling data prior to phylogenetic inference to avoid sampling bias or focus an analysis on specific spatial and/or temporal scales. [See the SARS-CoV-2 tutorial for more details on defining subsampling schemes](https://docs.nextstrain.org/en/latest/tutorials/SARS-CoV-2/steps/customizing-analysis.html#subsampling).
