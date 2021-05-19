@@ -3,6 +3,8 @@ location	's Herenelderen	50.8064756	5.5030479
 location	'S-Hertogenbosch	51.6889351	5.3031044
 location	18 de Octubre	-0.2761667	-79.4607036
 location	24 De Diciembre	9.0987181	-79.3627883
+location	25 de Mayo	-37.28940505	-59.109341950278974
+location	9 de Julio	-35.4444122	-60.8842325
 location	A Coruna	43.361494	-8.411483
 location	A Pobra do Caramiñal	42.6046249	-8.9402045
 location	Aalsmeer	52.2658344	4.766170039669312
@@ -272,6 +274,7 @@ location	Andradina	-20.896505	-51.3742765
 location	Andres de Vera	-1.0632943	-80.45681529999999
 location	Andrews County TX	32.2690953	-102.6042447
 location	Andrézieux-Bouthéon	45.5351545	4.279901648257095
+location	Anelo	-38.35428	-68.7875804
 location	Anero	43.39724	-3.65293
 location	Angatuba	-23.4938938	-48.4110675
 location	Angelina County	31.2544545	-94.6181177
@@ -692,6 +695,7 @@ location	Belford Roxo	-22.7645	-43.3996
 location	Belfort	47.6379599	6.8628942
 location	Belgorod	50.59770013489837	36.57244052999764
 location	Belgrade	45.773279	-111.184535
+location	Belgrano	-47.85641952765958	-72.15271582082718
 location	Belisario Frías	9.0771648	-79.48888901107873
 location	Belisario Porras	9.054304	-79.499527
 location	Belk	53.2397139	19.8678277
@@ -1027,6 +1031,7 @@ location	Bąkowice	50.93141	17.6995762
 location	Brackenfell	-33.877398609128875	18.69249068258294
 location	Braco do Norte	-28.2728633	-49.1622712
 location	Braffe	50.551795	3.582031
+location	Bragado	-35.1155766	-60.489771
 location	Braganca Paulista	-22.9520235	-46.5418586
 location	Brahmanbaria	23.9675	91.1119
 location	Braine-l'Alleud	50.671286	4.358875
@@ -1325,6 +1330,7 @@ location	Campuzano	43.339676	-4.05821
 location	Can Parellada	41.5384149	2.0422606
 location	Can Pastilla	39.5371206	2.7164955
 location	Can Tries	41.5829824	2.2785017
+location	Canals	38.9623954	-0.5832175
 location	Canaveral	8.51957065	-80.40798483211454
 location	Candamo	43.52549	-5.9143896
 location	Candelaria	-24.7506106	-53.7249794
@@ -1532,6 +1538,7 @@ location	Charleston County	32.8152646	-79.7996814
 location	Charleville-Mezieres	49.7735712	4.7206939
 location	Charolles	46.435311	4.2743162
 location	Chartres	48.4438601	1.4881434
+location	Chascomus	-35.5786869	-58.0138252
 location	Chaspin	32.8450731	35.7928356
 location	Chastre	50.6103813	4.6441773
 location	Chateau-Gontier	47.8263058	-0.7066665
@@ -1568,6 +1575,7 @@ location	Chicago	41.858966	-87.637242
 location	Chickasaw County	43.05994	-92.316679
 location	Chiclana de la Frontera	36.407163	-6.153590
 location	Chiclayo	-6.766417	-79.8408308
+location	Chicoana	-25.16839555	-65.57358375138564
 location	Chiguayante	-36.9295866	-73.0242909
 location	Chiguiri Arriba	8.6748095	-80.189382
 location	Chikkaballapura	13.4358702	77.7312434
@@ -1711,6 +1719,8 @@ location	Cologne	50.938361	6.959974
 location	Colombes	48.9221	2.2533
 location	Colombo	-25.2925439	-49.2243472
 location	Colon	-1.1089917	-80.4165447
+location	Colon AR	-32.2182804	-58.1356171
+location	Colon EC	-1.1089917	-80.4165447
 location	Colonia Benitez	-27.3166014	-58.95024163694664
 location	Colonia Caroya	-31.0217601	-64.0648895
 location	Colonia Margarita	-31.685948	-61.6477453
@@ -1769,6 +1779,7 @@ location	Copiapo	-27.372842	-70.320323
 location	Copperas Cove	31.124062	-97.9030785
 location	Coquelles	50.9280223	1.8144759
 location	Corbel	45.4293708	5.8247577
+location	Corbera	39.1580768	-0.3540631
 location	Cordeiro	-22.0287681	-42.3607442
 location	Cordeiropolis	-22.4768324	-47.4550551
 location	Cordeiros	-15.0397219	-41.9314228
@@ -1866,6 +1877,7 @@ location	Cueto	43.3445887	-3.1528643
 location	Cuevas Del Campo	37.6086165	-2.9316473
 location	Cuiaba	-15.5986686	-56.0991301
 location	Cuite	-6.4855072	-36.1478606
+location	Culhat	45.8633402	3.336213
 location	Cullar Vega	37.1535419	-3.6703193
 location	Cullera	39.1647217	-0.2542313
 location	Cullman County	34.1335332	-86.8779268
@@ -2298,6 +2310,8 @@ location	Ennezat	45.8976947	3.2208875
 location	Ennis	45.348817	-111.729697
 location	Enotaevka	47.2402733931147	47.02771726849827
 location	Ensenada	31.8658887	-116.6029835
+location	Ensenada AR	-34.8569635	-57.9077143
+location	Ensenada MX	31.8658887	-116.6029835
 location	Ensisheim	47.8665246	7.3529099
 location	Entraigues	44.9023909	5.9490438
 location	Enval	45.9	3.0503
@@ -2609,6 +2623,7 @@ location	Garrafe de Torio	42.730915	-5.5233043
 location	Garriguella	42.3446368	3.0642397
 location	Garrovillas de Alconetar	39.7131229	-6.5494671
 location	Gartzain	43.1298357	-1.5366744
+location	Garupa	-27.47856825	-55.8332474840408
 location	Garut	-7.2162543	107.9014912
 location	Gasawy	52.6073677	16.6319272
 location	Gasconade County	38.4575789	-91.5177499
@@ -2650,8 +2665,10 @@ location	General Deheza	-34.6872239	-58.3413787
 location	General Guemes	-24.8076741	-64.9167381759887
 location	General Mosconi	-22.59888955	-63.80834176495482
 location	General Roca	-39.0266276	-67.5754863
+location	General Rodriguez	-34.6082302	-58.9522206
 location	General San Martin	-34.5762765	-58.5388435
 location	General Villamil Playas	-2.5937913000000004	-80.42615751756438
+location	General Villegas	-35.032594	-63.0148473
 location	Genesee County	43.0102726	-78.1780196
 location	Geneva County	31.0862933	-85.803014
 location	Genk	50.966203	5.492020
@@ -2678,6 +2695,7 @@ location	Getxo	43.3479409	-3.0087671
 location	Ghlin	50.467281	3.892335
 location	Ghogha	21.6874043	72.2761717
 location	Gianyar	-8.5482357	115.32605401537212
+location	Giat	45.80177	2.46698
 location	Gibraltar	36.140807	-5.3541295
 location	Giddings	30.1830498	-96.9366112
 location	Giedlarowa	50.2265339	22.4014412
@@ -2780,8 +2798,10 @@ location	Gosau	47.5851071	13.5362156
 location	Gossau	47.4155906	9.249359
 location	Gosselies	50.473588649999996	4.44924225712702
 location	Gostyn	51.8778633	17.0167637
+location	Gostynin	52.424245299999995	19.463338416212153
 location	Gouda	52.018119350000006	4.711122134697802
 location	Goutroux	50.406076	4.360658
+location	Gouttieres	46.0628233	2.7699886
 location	Gouy-lez-Piéton	50.4875628	4.3287132
 location	Governador Lindenberg	-19.25076	-40.462888
 location	Governador Valadares	-18.8539497	-41.9458753
@@ -3324,8 +3344,10 @@ location	Iron County	46.2254778	-90.2125304
 location	Iroquois County	40.7351265	-87.8309209
 location	Irun	43.3383176	-1.7888095
 location	Irupi	-20.346479	-41.6392581
+location	Iruya	-22.791212	-65.2158295
 location	Ischgl	47.011789	10.289683
 location	Isernia	41.649467599999994	14.208148034519315
+location	Isidro Casanova	-34.7047876	-58.5861609
 location	Isla de Maipo	-33.7537387	-70.9039325
 location	Isla del Cerrito	-27.2951994	-58.62300289157733
 location	Isla Mocolí	-2.105443357660198	-79.86027555110115
@@ -3375,6 +3397,7 @@ location	Ittre	50.6501961	4.2637077
 location	Itu	-23.2638828	-47.298892
 location	Itumbiara	-18.4135862	-49.2172596
 location	Ituverava	-20.3366604	-47.7797924
+location	Ituzaingo	-34.6583293	-58.6671441
 location	Ivanka Pri Dunaji	48.1885931	17.2578039
 location	Ivanovo	56.9984452	40.9737394
 location	Ivdel	60.6973287	60.4172583
@@ -3723,6 +3746,7 @@ location	Kikinda	45.8297838	20.4653942
 location	Kilamba Kiaxi	-8.90137245	13.236425787515477
 location	Killeen	31.1171441	-97.727796
 location	Kimble County	30.4744131	-99.8199792
+location	Kimswerd	53.1412169	5.4376572
 location	Kineshma	57.4431	42.1400999
 location	King Cetshwayo	-28.750343899999997	32.050227274984636
 location	King County	47.449221	-121.864246
@@ -3799,6 +3823,7 @@ location	Koersel	51.058003	5.272274
 location	Koksijde	51.109246049999996	2.6352642048261234
 location	Kolar	13.1369996	78.1339606
 location	Kolárovo	47.9182347	17.9966591
+location	Kolasib	24.18947525	92.7133181281124
 location	Kolbuszowa	50.2433277	21.7754563
 location	Kolhapur	16.7028412	74.2405329
 location	Kolin	50.0288894	15.2011571
@@ -4068,6 +4093,7 @@ location	Lamar County	33.6383552	-95.582343
 location	Lamb County	34.0321667	-102.3429233
 location	Lambach	48.0919647	13.8724131
 location	Lamine	50.688307	5.334720
+location	Lamontgie	45.4743272	3.3332332
 location	Lampa	-33.2864213	-70.8729771
 location	Lampasas County	31.1761363	-98.240563
 location	Lanaken	50.884429	5.634002
@@ -4169,6 +4195,7 @@ location	Le Muy	43.4713932	6.566111
 location	Le Pecq	48.8973	2.1064
 location	Le Puy-en-Velay	45.0459739	3.8855537
 location	Le Roeulx	50.505667	4.104105
+location	Le Vernet	46.1084089	3.4626994
 location	Lebbeke	51.0004013	4.1307711
 location	Lebork	54.5326494	17.744474748366954
 location	Lecce	40.354894	18.168455
@@ -4189,6 +4216,7 @@ location	Leers	50.6792095	3.2399516
 location	Leest	51.0350559	4.4150058
 location	Leffinge	51.1746761	2.8776766
 location	Leganés	40.3320	-3.7687
+location	Legionowo	52.4048356	20.933146571453094
 location	Legnica	51.204768900000005	16.174675034638256
 location	Lehavim	31.3703233	34.8136886
 location	Leiblachtal	47.55186295444749	9.760274369402639
@@ -4358,6 +4386,7 @@ location	Llivia	42.4640786	1.9804293
 location	Llombai	39.2816214	-0.5731796
 location	Llorente	9.956165976053066	-84.06629844736024
 location	Lloret de Mar	41.6973503	2.8392392
+location	Llosa de Ranes	39.0185366	-0.5335879
 location	Llubi	39.6994	3.0063
 location	Llucena	40.1372729	-0.2808155
 location	Lluchmayor	39.4908	2.8917
@@ -4429,6 +4458,7 @@ location	Los Muermos	-41.3960568	-73.4617177
 location	Losenstein	47.924273	14.433111
 location	Losia Wolka	52.3666667	20.7141667
 location	Losieniec	51.6069446	18.654896
+location	Lot	50.7651699	4.2762018
 location	Lota	-37.0944223	-73.1563622
 location	Lotenhulle	51.047900	3.465749
 location	Loubeyrat	45.9357694	3.0112633
@@ -4595,6 +4625,7 @@ location	Malabo	3.752828	8.780061
 location	Malacky	48.4347503	17.020348
 location	Malaga	36.718690	-4.432799
 location	Malagon	39.1688771	-3.8512824
+location	Malargue	-35.4752134	-69.585934
 location	Malatina	49.185823	19.4324205
 location	Malauzat	45.8481	3.0542
 location	Malbork	54.0287383	19.039396385383558
@@ -4659,6 +4690,7 @@ location	Mantes-la-Jolie	48.9891971	1.7140683
 location	Manzat	45.9615586	2.9406189
 location	Mao	39.8894819	4.2661641
 location	Maputo City	-25.9710058	32.5644748
+location	Mar del Plata	-37.9977225	-57.5482703
 location	Maracai	-22.6112679	-50.6670685
 location	Maracaju	-21.6163005	-55.164605
 location	Maracena	37.2079	-3.6329
@@ -4734,6 +4766,7 @@ location	Massalaves	39.1437319	-0.523232
 location	Massalfassar	39.5579365	-0.3258587
 location	Massama	38.75563785	-9.28189049097309
 location	Massamagrell	39.5703995	-0.3302101
+location	Massanassa	39.4108561	-0.4000846
 location	Massanes	41.7654696	2.6528719
 location	Massemen	50.9809343	3.8735741
 location	Massenhoven	51.1990199	4.6349603
@@ -4797,6 +4830,7 @@ location	Meerbeek	50.8825784	4.58593
 location	Meerhout	51.1317433	5.0772388
 location	Meerle	51.4743516	4.8051679
 location	Meerssen	50.904709	5.735147732240853
+location	Meerstad	53.2238933	6.657085110466282
 location	Meeuwen	51.0979038	5.5193526
 location	Meeuwen-Gruitrode	51.0979038	5.5193526
 location	Meggen	47.0470746	8.3733992
@@ -4854,6 +4888,7 @@ location	Mesquita	-22.783092	-43.4293599
 location	Messeix	45.6155014	2.5403548
 location	Messina	38.1937571	15.5542082
 location	Meta	3.297576	-73.053515
+location	Metan	-25.4971644	-64.9709701
 location	Meteti	8.5151878	-77.9417372
 location	Mettet	50.3212094	4.6584949
 location	Metz	49.1196964	6.1763552
@@ -4924,6 +4959,7 @@ location	Milnerton	-33.871201766733314	18.515420188107576
 location	Miloradz	54.01432	18.91803
 location	Miloslavov	48.0990612	17.3014502
 location	Milwaukee County	43.008019	-87.937899
+location	Minas	-38.9712949	-68.0266721
 location	Minderhout	51.4174934	4.7636002
 location	Mineiros do Tiete	-22.4133188	-48.450554
 location	Mineral County	38.4815162	-118.498262
@@ -5408,6 +5444,7 @@ location	Nossa Senhora do Socorro	-10.8553115	-37.1264863
 location	Nossegem	50.877645	4.507645
 location	Notre-Dame-de-Sanilhac	45.13292945	0.7080364376276143
 location	Nottinghamshire	53.139677	-1.027527
+location	Nova Alianca	-21.0163728	-49.4981128
 location	Nova Alvorada do Sul	-21.4587274	-54.3760634
 location	Nova Andradina	-22.2477565	-53.3480621
 location	Nova Araça	-28.6604116	-51.7424776
@@ -5532,6 +5569,7 @@ location	Olavarría	-36.8939975	-60.3227331
 location	Oława	50.95709295	17.290269769664455
 location	Olby	45.744596	2.8668699
 location	Old Dhaka	23.72164421566825	90.38330422737843
+location	Oldebroek	52.45673635	5.951864370961877
 location	Oldenzaal	52.30853685	6.914603743122237
 location	Oldham County	35.3907651	-102.6193428
 location	Olecki	54.1471432	22.343437088695246
@@ -5574,6 +5612,7 @@ location	Onze-Lieve-Vrouw-Waver	51.0624896	4.5798347
 location	Ooigem	50.8931388	3.3367124
 location	Oostduinkerke	51.1156338	2.6812656
 location	Oosteeklo	51.1929943	3.687828
+location	Oosterwolde	52.9889778	6.2907791
 location	Oosterzele	50.9456388	3.8032713
 location	Oostkamp	51.1532024	3.2344535
 location	Oostmalle	51.300438	4.734269
@@ -5589,6 +5628,7 @@ location	Opole Lubelskie	51.1475365	21.9664152
 location	Opwijk	50.9690529	4.1896665
 location	Or Haner	31.5566083	34.602628
 location	Or-Yehuda	32.0309712	34.8523936
+location	Oran	-23.33267565	-64.31654187702753
 location	Orange County CA	33.689584	-117.788718
 location	Orange County FL	28.495156	-81.3111658
 location	Orange County NY	41.394693	-74.289170
@@ -5667,6 +5707,7 @@ location	Ottignies	50.666357	4.5690502
 location	Ottignies-Louvain-la-Neuve	50.6654216	4.5674107
 location	Ottonville	49.2186146	6.5222675
 location	Otura	37.0913	-3.6345
+location	Otwock	52.1161661	21.293454716820303
 location	Ouachita Parish	32.4790511	-92.1615004
 location	Oud-Heverlee	50.8376275	4.6629253
 location	Oud-Turnhout	51.319510	5.004179
@@ -5847,6 +5888,7 @@ location	Pedro de Toledo	-24.2769071	-47.23393
 location	Pedro Martinez	37.5014235	-3.2303678
 location	Peel en Maas	51.33064175	5.979363705773345
 location	Peer	51.128120	5.458372
+location	Pehuenches	-38.9624082	-68.0804978
 location	Peize	53.148934	6.4933571
 location	Pelczyce	53.04218	15.30591
 location	Peligros	37.2306631	-3.6279744
@@ -6238,6 +6280,7 @@ location	Puerto Montt	-41.4718121	-72.939621
 location	Puerto Nariño	-3.7897260062514477	-70.35599924696716
 location	Puerto Natales	-51.7262826	-72.5062409
 location	Puerto Santa Maria	36.526984	-6.288553
+location	Puerto Tirol	-27.376511100000002	-59.08500094165363
 location	Puerto Vallarta	20.6407176	-105.220306
 location	Puerto Varas	-41.317802	-72.9829073
 location	Puerto Viejo	10.4541312	-84.0096613
@@ -6316,6 +6359,7 @@ location	Quillon	-36.7443758	-72.4764427
 location	Quilmes	-34.7206	-58.2546
 location	Quimper	47.9960325	-4.1024782
 location	Quimperle	47.8692882	-3.5505644
+location	Quinssaines	46.327	2.51472
 location	Quinta Normal	-33.4283044	-70.69994963332789
 location	Quintana	-22.0705513	-50.308652
 location	Quintana de Raneros	42.5485607	-5.6328788
@@ -6428,6 +6472,7 @@ location	Reims	49.253754	4.035860
 location	Reinach	47.4935369	7.5910891
 location	Reinosa	43.0010076	-4.1378363
 location	Rekem	50.9284078	5.662609475536591
+location	Rekkem	50.7861863	3.1627429
 location	Relegem	50.8998481	4.2808363
 location	Rembau	2.5888688	102.0943404
 location	Remire-Montjoly	4.9050148	-52.2771642
@@ -6507,6 +6552,7 @@ location	Rio Das Ostras	-22.5269448	-41.944972
 location	Rio Das Pedras	-22.8441256	-47.6065667
 location	Rio de Janeiro	-22.89445	-43.2099
 location	Rio de Mouro	38.7723602	-9.3256835
+location	Rio Gallegos	-51.62749345310375	-69.27690105608417
 location	Rio Grande	-53.7856766	-67.7016369
 location	Rio Grande AR	-54.234309	-67.1352849
 location	Rio Grande BR	-32.0334252	-52.0991297
@@ -6539,6 +6585,7 @@ location	Riudarenes	41.8218536	2.7163817
 location	Riudellots de la Selva	41.8954981	2.8022296
 location	Rivadavia	-33.1959388	-68.4662317
 location	Rivas-Vaciamadrid	40.3519	-3.5357
+location	Rive de Gier	45.5288401	4.6187386
 location	River Hills	43.1742	-87.9243
 location	Riverside	41.0338	-73.5785
 location	Riverside County	33.7871393	-117.0109705
@@ -6601,6 +6648,8 @@ location	Rosana	-22.5788641	-53.0552246
 location	Rosario	-32.9595004	-60.6615415
 location	Rosario AR	-32.9493088016599	-60.68393912672859
 location	Rosario BR	-2.9405903	-44.2491088
+location	Rosario de la Frontera	-25.7985752	-64.9739247
+location	Rosario de Lerma	-24.53873	-65.89910908517965
 location	Rosarito	32.3648126	-117.055626
 location	Rose Hill	-20.234269	57.4693447
 location	Rosebud	31.0747037	-96.9755638
@@ -6707,6 +6756,7 @@ location	Sahagun	42.3719042	-5.0313138
 location	Sahy	48.0694559	18.9493378
 location	Saidabad	18.3242258	79.4783324
 location	Saignelegier	47.2557997	6.9963585
+location	Saignes	45.3352148	2.4791426
 location	Saint-Affrique	43.9580035	2.8866641
 location	Saint Andre le Coq	45.9647	3.3108
 location	Saint-Astier	45.1389735	0.5227944
@@ -6878,6 +6928,8 @@ location	San Martin MZ	-32.8660224	-68.8655966
 location	San Martin PA	9.20218555	-79.24000267467781
 location	San Mateo County	37.438721	-122.348737
 location	San Miguel	-33.49755675	-70.65216109880235
+location	San Miguel AR	-34.540349	-58.7157491
+location	San Miguel CL	-33.49755675	-70.65216109880235
 location	San Miguel de Tucuman	-26.8303703	-65.2038133
 location	San-Nicolao	42.3706486	9.5000839
 location	San Pablo (Portoviejo)	-1.0454186	-80.4381871
@@ -6892,6 +6944,7 @@ location	San Pedro de Jujuy	-24.2311801	-64.8620656
 location	San Pedro de la Paz	-36.8414183	-73.1039909
 location	San Pedro de Pegas	42.4507713	-5.8742039
 location	San Pol de Mar	41.6030132	2.6238092
+location	San Rafael	-34.6126025	-68.330514
 location	San Rafael Arriba	9.8760156	-84.0768575
 location	San Rafael Cartago	9.8698026	-83.9036025
 location	San Rafael de Alajuela	9.964081	-84.223595
@@ -6961,6 +7014,7 @@ location	Sant Hilari Sacalm	41.8780822	2.5131751
 location	Sant Hipolit de Voltrega	42.0152733	2.2376471
 location	Sant Jaume de Llierca	42.2119833	2.6074259
 location	Sant Joan de les Abadesses	42.233743	2.2854845
+location	Sant Joan de Moro	40.0609116	-0.1371097
 location	Sant Joan Despi	41.3667951	2.0570346
 location	Sant Joan Les Fonts	42.2132951	2.5134302
 location	Sant Joan Vilatorrada	41.7422073	1.803625
@@ -7418,6 +7472,7 @@ location	Sleman	-7.6952864000000005	110.34462923977276
 location	Slemien	49.7189661	19.3711294
 location	Slinger	43.3336	-88.2862
 location	Slobozia	44.5635999	27.3618477
+location	Slochteren	53.2188327	6.8061724
 location	Slomniki	50.2403739	20.0811369
 location	Slovensky Grob	48.2550032	17.2843332
 location	Slubice	52.3557481	14.5662367
@@ -7436,6 +7491,7 @@ location	Soacha	4.581264	-74.216815
 location	Sobkow	50.6981874	20.4559353
 location	Sobotiste	48.7323967	17.4048253
 location	Sobrance	48.7446501	22.1806628
+location	Sochaczew	52.2367219	20.25712361363545
 location	Sochi	43.5854823	39.723109
 location	Socorro	-22.5902619	-46.5249112
 location	Socorro County	33.9904719	-106.9220832
@@ -7542,14 +7598,18 @@ location	St Alyre D Arlanc	45.3681792	3.6386363
 location	St Amant Tallende	45.6689972	3.1091394
 location	St Bernard Parish	29.805323	-89.660779
 location	St Bonnet Les Alliers	45.74186013804722	3.253496255529513
+location	St Cernin	45.0591427	2.4213159
 location	St Clément	48.2184446	3.2936175
 location	St Denis Combarnazat	45.966417	3.3358182
 location	St Eustatius	17.4865252	-62.9653116
 location	St Gallen	47.4250593	9.3765878
 location	St Georges de Mons	45.9387966	2.8406572
 location	St Georges sur Allier	45.7107569	3.2441974
+location	St Germain Lembron	45.4578213	3.2389896
 location	St Gervais D Auvergne	45.2022356	5.4820229
+location	St Gervazy	45.4146342	3.2164953
 location	St Hilaire la Croix	46.0464674	3.0463657
+location	St Hippolyte	45.2234102	2.7044242
 location	St Ignat	45.9230736	3.2741618
 location	St Jeanvrin	46.5961356	2.2341299
 location	St Landry Parish	30.6174002	-92.0035057
@@ -7583,6 +7643,7 @@ location	St. Pantaleon	47.4601498	7.6910021
 location	Stabroek	51.3352018	4.370408277101575
 location	Staden	50.9705286	3.0013884999155254
 location	Stadl-Predlitz	47.0837184	13.966493771538275
+location	Stadskanaal	52.996240099999994	7.001434882926471
 location	Staffelbach	47.2834729	8.0419242
 location	Stalowa Wola	50.5653105	22.0644075
 location	Stambruges	50.5086579	3.7192008
@@ -7902,6 +7963,7 @@ location	Thanh Hoa	19.805359	105.784515
 location	Thann	47.8101008	7.1020957
 location	Thaur	47.308893	11.462294
 location	Thaya	48.8558271	15.2873599
+location	Thedes	45.7371099	3.0245569
 location	Thembisile Hani	-25.410567098683515	28.95592482297885
 location	Therwil	47.4992969	7.5574673
 location	Theux	50.518906	5.814748
@@ -7992,6 +8054,7 @@ location	Torralba de Calatrava	39.0170808	-3.7502053
 location	Torrance County	34.6356278	-105.9059678
 location	Torre del Mar	36.7413845	-4.0946126
 location	Torre-Romeu	41.5491256	2.1256174
+location	Torreblanca	40.2202661	0.1953363
 location	Torrecilla en Cameros	42.2560793	-2.6305716
 location	Torrefarrera	41.6735377	0.6066894
 location	Torrejon Del Rey	40.6449395	-3.336053
@@ -8038,6 +8101,7 @@ location	Tremp	42.1663681	0.8946181
 location	Trempealeau County	44.2398	-91.3662
 location	Trencianska Tepla	48.9344602	18.1200726
 location	Trenton	40.2170575	-74.7429463
+location	Tres Arroyos	-38.3770869	-60.2753897
 location	Três Cachoeiras	-29.4521243	-49.9190608
 location	Três Coroas	-29.5155023	-50.7770635
 location	Tres de Febrero	-38.7339587	-62.2254137
@@ -8240,6 +8304,7 @@ location	Valinhos	-22.97056	-46.99583
 location	Valkenburg	52.1809225	4.4285918
 location	Valkenburg Aan de Geul	50.86094405	5.813709999149556
 location	Valkenswaard	51.3202409	5.458181897733282
+location	Vall d'Alba	40.17587	-0.0350962
 location	Vall d'Uixo	39.8235837	-0.2316995
 location	Valladolid	41.6521328	-4.728562
 location	Valledupar	10.466023	-73.253272
@@ -8376,6 +8441,7 @@ location	Vilablareix	41.9569396	2.7728439
 location	Viladecans	41.3163083	2.0156034
 location	Viladecavalls	41.5563969	1.9553173
 location	Viladrau	41.8478521	2.3920004
+location	Vilafames	40.1126075	-0.0541178
 location	Vilafant	42.2515266	2.9418008
 location	Vilafranca de Bonany	39.5703083	3.0889977
 location	Vilalba Sasserra	41.6530012	2.4405379
@@ -8806,9 +8872,11 @@ location	Wysławice	52.32239	17.31377
 location	Wysogotowo	52.41152	16.7820305
 location	Wysokie Mazowieckie	52.925635400000004	22.51040144868788
 location	Wyszkowo	54.34074	20.1074271
+location	Węgrow	52.4007333	22.04646417697228
 location	Węgrzce Wielkie	50.0148566	20.1099342
 location	Xai Xai	-25.044479	33.64073
 location	Xangri-la	-29.8039422	-50.0413748
+location	Xativa	38.9957288	-0.5138534074471998
 location	Xeraco	39.0331	-0.2163
 location	Xingtai	37.0616519	114.499746
 location	Xinyu	27.8178	114.9173
@@ -8985,6 +9053,7 @@ location	Zubrohlava	49.4445716	19.5115439
 location	Zubrow	52.4806339	15.1437475
 location	Zürich	47.3744489	8.5410422
 location	Zug	47.1679898	8.5173652
+location	Zuidbroek	53.1593423	6.8667625
 location	Zuidhorn	53.2480055	6.4048657
 location	Zuidlaren	53.0940808	6.6871992
 location	Zuidwolde	52.6749542	6.4317343
@@ -9007,6 +9076,7 @@ location	Zwevegem	50.8128396	3.3331679
 location	Zwijndrecht	51.2306636	4.3183779247034195
 location	Zwingen	47.437887	7.527901
 location	Zydowo	52.0027234	16.6107307
+location	Zyrardow	52.05553205	20.44464353021984
 location	Żywiec	49.706496099999995	19.21914906371902
 
 division	Aalst	50.939656	4.064173
@@ -9174,6 +9244,7 @@ division	Ben Arous	36.747441	10.234475
 division	Benadir	2.0812612	45.4607164
 division	Bengkulu	-3.5186763	102.5359834
 division	Beni	-14.0	-65.0
+division	Beni Mellal	32.334193	-6.353335
 division	Benue State	7.3505747	8.7772877
 division	Beoumi	7.6745381	-5.5827323
 division	Berea	-29.278351	27.5602768
@@ -9477,6 +9548,7 @@ division	Elad	32.0495	34.9507
 division	Elkana	32.1106	35.0321
 division	Emilia-Romagna	44.641437	11.119072
 division	England	52.405994	-1.671707
+division	Entre Rios	-31.6252842	-59.3539578
 division	Enugu	6.5536094	7.4143061
 division	Epirus	39.649766299999996	20.69097798672906
 division	Equatorial Guinea	1.613172	10.5170357
@@ -9506,6 +9578,7 @@ division	Flemish Brabant	50.8686516	4.7886237984620905
 division	Flevoland	52.48851	5.615829
 division	Flines-lès-Mortagne	50.5037	3.4641
 division	Florida	27.6648	-81.5158
+division	Formosa	-24.5955306	-60.4289718
 division	France	46.2276	2.2137
 division	Francistown	-21.16636	27.502515
 division	Free State	-28.7853618	26.4978933
@@ -9583,6 +9656,7 @@ division	Guayas	-1.9575	-79.9193
 division	Guerrero	17.463444	-99.792052
 division	Guiglo	6.43034025	-7.5909032112704775
 division	Guinea	10.7226226	-10.7083587
+division	Guinea Bissau	11.6688305	-15.535471371611191
 division	Gujarat	22.2587	71.1924
 division	Guna Yala	9.20030225	-77.93252243147037
 division	Guranwala	30.1033919	70.6270825
@@ -9875,6 +9949,8 @@ division	La Louvière	50.469989	4.158129
 division	La Pampa	-37.2314643	-65.3972948
 division	La Paz	-16.4955455	-68.1336229
 division	La Rioja	42.2871	-2.5396
+division	La Rioja AR	-29.62487279826059	-66.86176517635946
+division	La Rioja ES	42.31366609897772	-2.583157318755303
 division	Ladakh	34.152588	77.577049
 division	Laghouat	33.750440499999996	2.6431093610595155
 division	Lagos	6.54252	3.286661
@@ -10478,6 +10554,7 @@ division	Samut Songkhram	13.410190	99.949071
 division	San Andres	6.8180711	-72.82070608235979
 division	San Andres y Providencia	12.8086902	-81.4908431
 division	San Jose	9.9281	-84.0907
+division	San Luis	-33.2762202	-65.9515546
 division	San Luis Potosi	22.5000001	-100.5000001
 division	San Martin	-7.0	-76.833333
 division	San Miguelito	9.0551061	-79.4933063
@@ -10487,6 +10564,8 @@ division	Sankt Gallen	47.419862	9.374697
 division	Sanmihaiu Roman	45.7044543	21.0889028
 division	Santa Catarina	-27.15767	-49.888561
 division	Santa Cruz	-17.333333	-61.5
+division	Santa Cruz AR	-49.12597752714287	-69.8566398343734
+division	Santa Cruz BO	-17.30673328564769	-61.43042480176609
 division	Santa Elena	-2.1954593	-80.5669167
 division	Santa Fe	-30.3154739	-61.1645076
 division	Santander	6.746570	-73.476456
@@ -11040,6 +11119,7 @@ country	Guadeloupe	16.2490067	-61.5650444
 country	Guam	13.464887	144.792016
 country	Guatemala	15.6356088	-89.8988087
 country	Guinea	10.7226226	-10.7083587
+country	Guinea Bissau	11.6688305	-15.535471371611191
 country	Hong Kong	22.3964	114.1095
 country	Hungary	47.0	20.0
 country	Iceland	64.90614	-18.4826

@@ -426,6 +426,7 @@ location	Raisen
 location	Lunglei
 location	Serchhip
 location	Aizawl
+location	Kolasib
 
 # West Bengal
 location	Purba Medinipur
@@ -1882,7 +1883,7 @@ location	Hellin
 location	Tobarra
 location	Almansa
 
-# La Rioja
+# La Rioja ES
 location	Leiva
 location	Foncea
 location	Ezcaray
@@ -2052,7 +2053,10 @@ location	Llutxent
 location	Beniganim
 location	Miramar ES
 location	Benirredra
+location	Canals
 location	Gandia
+location	Xativa
+location	Llosa de Ranes
 location	Xeraco
 location	Simat de la Valldigna
 location	Tavernes de la Valldigna
@@ -2062,6 +2066,7 @@ location	Carcaixent
 location	Favara
 location	Massalaves
 location	Alzira
+location	Corbera
 location	Cullera
 location	Guadassuar
 location	Algemesi
@@ -2082,6 +2087,7 @@ location	Silla
 location	Picassent
 location	Alcasser
 location	Albal
+location	Massanassa
 location	Alfafar
 location	Benetusser
 location	Sedavi
@@ -2137,14 +2143,18 @@ location	Castello de la Plana
 location	Castellon de la Plana
 location	Borriol
 location	Benicassim
+location	Sant Joan de Moro
 location	l'Alcora
 location	L’alcora
 location	Oropesa
 location	La Pobla Tornesa
+location	Vilafames
 location	Lucena del Cid
 location	Llucena
 location	Cabanes
 location	Les Useres
+location	Vall d'Alba
+location	Torreblanca
 location	Castellón
 location	Albocasser
 
@@ -2829,13 +2839,17 @@ location	Sansac de Marmiesse
 location	Ytrac
 location	Champagnac
 location	Jussac
+location	St Cernin
 location	Anglards de Salers
 location	Aurillac
 location	Arpajon sur Cere
 location	Lafeuillade en Vezie
+location	Giat
 location	Huriel
+location	Saignes
 location	St Simon
 location	Giou de Mamou
+location	Quinssaines
 location	Domerat
 location	Premilhat
 location	Messeix
@@ -2853,6 +2867,7 @@ location	Verneix
 location	Pontaumur
 location	Brommat
 location	Chamblet
+location	St Hippolyte
 location	Miremont
 location	Laqueuille
 location	Montboudif
@@ -2863,6 +2878,7 @@ location	Condat
 location	La Goutelle
 location	Gelles
 location	St Priest des Champs
+location	Gouttieres
 location	Deneuille Les Mines
 location	Dun sur Auron
 location	Les Ancizes Comps
@@ -2891,6 +2907,7 @@ location	Charbonnieres Les Vieilles
 location	Charbonnieres Les Varenne
 location	Loubeyrat
 location	Orcines
+location	Thedes
 location	Volvic
 location	St Hilaire la Croix
 location	Royat
@@ -2949,6 +2966,7 @@ location	Cournon D Auvergne
 location	Cournon
 location	Gannat
 location	Aigueperse
+location	St Gervazy
 location	Les Martres sur Morge
 location	Ennezat
 location	Leotoing
@@ -2958,6 +2976,7 @@ location	La Roche Noire
 location	Parent
 location	Saint Yvoine
 location	Dallet
+location	St Germain Lembron
 location	Vic le Comte
 location	St Georges sur Allier
 location	Pont Du Chateau
@@ -2982,7 +3001,9 @@ location	Espinasse Vozelle
 location	Maringues
 location	Brassac Les Mines
 location	Moulins
+location	Lamontgie
 location	St Denis Combarnazat
+location	Culhat
 location	Usson
 location	Billom
 location	Yzeure
@@ -3005,6 +3026,7 @@ location	Creuzier le Vieux
 location	Abrest
 location	Cusset
 location	St Yorre
+location	Le Vernet
 location	Puy Guillaume
 location	Dorat
 location	Chaniat
@@ -3035,6 +3057,7 @@ location	Aubenas
 location	Tarare
 location	Saint Prix
 location	Privas
+location	Rive de Gier
 location	Pollionnay
 location	Annonay
 location	Rhone Alpes
@@ -3313,6 +3336,7 @@ location	Knokke
 # Kortrijk
 location	Moorsele
 location	Herthoek
+location	Rekkem
 location	Menen
 location	Wevelgem
 location	Bissegem
@@ -3681,6 +3705,7 @@ location	Itterbeek
 location	Dilbeek
 location	Groot-Bijgaarden
 location	Zellik
+location	Lot
 location	Huizingen
 location	Relegem
 location	Ruisbroek
@@ -4252,6 +4277,7 @@ location	Lelystad
 location	Zeewolde
 
 # Friesland
+location	Kimswerd
 location	Waaksens
 location	Franeker
 location	Sneek
@@ -4260,6 +4286,7 @@ location	Gorredijk
 location	Rottevalle
 location	Harkema
 location	Buitenpost
+location	Oosterwolde
 
 # Limburg
 location	Vaals
@@ -4297,6 +4324,7 @@ location	Wijchen
 location	Nijmegen
 location	Arnhem
 location	Apeldoorn
+location	Oldebroek
 
 # Overijssel
 location	Genemuiden
@@ -4310,15 +4338,19 @@ location	Leek
 location	Zuidhorn
 location	Groningen
 location	Haren NL
+location	Meerstad
 location	Uithuizen
 location	Uithuizermeeden
 location	Hoogezand
 location	Sappemeer
+location	Slochteren
 location	Schildwolde
 location	Appingedam
 location	Wildervank
+location	Zuidbroek
 location	Muntendam
 location	Delfzijl
+location	Stadskanaal
 location	Heiligerlee
 location	Midwolda
 location	Finsterwolde
@@ -6193,11 +6225,14 @@ location	Elk
 location	Olecko
 
 # Mazowieckie
+location	Gostynin
 location	Halinow
 location	Plock
+location	Sochaczew
 location	Miedniewice
 location	Plonsk
 location	Szymanow
+location	Zyrardow
 location	Baranow
 location	Aleksandrow
 location	Grodzisk Mazowiecki
@@ -6211,6 +6246,7 @@ location	Piastow
 location	Bleszno
 location	Korzen
 location	Lekarcice Stare
+location	Legionowo
 location	Bialobrzegi
 location	Warszawa
 location	Łaz
@@ -6229,6 +6265,7 @@ location	Wolomin
 location	Rajec Poduchowny
 location	Zakret
 location	Sulejowek
+location	Otwock
 location	Maziarze Stare
 location	Okuniew
 location	Rybiczyzna
@@ -6252,6 +6289,7 @@ location	Boiska-Kolonia
 location	Kolonia Nadwislanska
 location	Zelechow
 location	Jozefin
+location	Węgrow
 location	Sokolow Podlaski
 location	Siedlce
 
@@ -7177,6 +7215,10 @@ location	Ushuaia
 location	Tolhuin
 location	Rio Grande AR
 
+# Santa Cruz AR
+location	Rio Gallegos
+location	Belgrano
+
 # Rio Negro
 location	Patagones
 location	Jacobacci
@@ -7195,12 +7237,15 @@ location	Viedma
 location	Villa la Angostura
 location	San Martin de los Andes
 location	Senillosa
+location	Minas
+location	Pehuenches
 location	Neuquen
 location	Plottier
 location	Centenario
 location	Cutral Co
 location	Zapala
 location	Las Lajas
+location	Anelo
 location	Loncopue
 location	Las Ovejas
 
@@ -7213,37 +7258,47 @@ location	Intendente Alvear
 location	Larroude
 
 # Mendoza
+location	Malargue
+location	San Rafael
+location	Rivadavia
 location	Guaymallen
 location	Lujan de Cuyo
-location	San Martin MZ
-location	Godoy Cruz
 location	Maipu AR
-location	Rivadavia
+location	Godoy Cruz
+location	San Martin MZ
 
 # Buenos Aires
+location	General Villegas
 location	San Martin BA
 location	Bahia Blanca
 location	Tres de Febrero
 location	Almirante Brown
 location	Junin
+location	9 de Julio
+location	Bragado
 location	Olavarría
+location	Tres Arroyos
 location	Torres AR
 location	San Pedro AR
 location	Luján
+location	25 de Mayo
 location	Campana
-location	Gral Rodriguez
+location	General Rodriguez
 location	Pilar AR
 location	Moreno
 location	José C Paz
 location	Cañuelas
 location	Necochea
 location	Merlo
+location	San Miguel AR
 location	Esteban Echeverria
+location	Ituzaingo
 location	Presidente Perón
 location	Hurlingham
 location	Morón
 location	Máximo Paz
 location	Haedo
+location	Isidro Casanova
 location	Gregorio de Laferrere
 location	Tigre
 location	San Fernando AR
@@ -7263,10 +7318,16 @@ location	Florencio Varela
 location	Quilmes
 location	Brandsen
 location	Berazategui
+location	Chascomus
 location	La Plata
+location	Ensenada AR
 location	Berisso
 location	Malvinas Argentinas
+location	Mar del Plata
 location	La Costa
+
+# Entre Rios
+location	Colon AR
 
 # Cordoba AR
 location	La Falda
@@ -7375,6 +7436,9 @@ location	Yerba Buena
 location	Tafi Viejo
 location	Burruyacu
 
+# Misiones
+location	Garupa
+
 # Chaco
 location	Santa Sylvina
 location	Coronel Du Graty
@@ -7384,6 +7448,7 @@ location	Barranqueras
 location	Gancedo
 location	Resistencia
 location	Fontana
+location	Puerto Tirol
 location	Colonia Benitez
 location	Isla del Cerrito
 location	Charata
@@ -7401,12 +7466,18 @@ location	Juan Jose Castelli
 location	Sauzalito
 
 # Salta
+location	Rosario de la Frontera
+location	Metan
+location	Chicoana
 location	General Guemes
 location	Salta
 location	Salvador Mazza
+location	Rosario de Lerma
 location	Colonia Santa Rosa
+location	Oran
 location	Hipolito Yrigoyen
 location	San Ramon de la Nueva Oran
+location	Iruya
 location	General Mosconi
 location	Tartagal
 location	Aguaray
@@ -7544,7 +7615,7 @@ location	Colina
 location	Conchali
 location	Independencia
 location	La Cisterna
-location	San Miguel
+location	San Miguel CL
 location	Santiago
 location	Huechuraba
 location	San Ramon CL
@@ -7608,7 +7679,7 @@ location	Arica
 # Chuquisaca
 location	Sucre BO
 
-# Santa Cruz
+# Santa Cruz BO
 location	El Torno
 location	Pailon
 
@@ -7999,6 +8070,7 @@ location	Santa Cruz do Rio Pardo
 location	Balsamo
 location	Galia
 location	Mirassol
+location	Nova Alianca
 location	Mirassolandia
 location	Bady Bassitt
 location	Palestina
@@ -8548,7 +8620,7 @@ location	Crucita
 location	Pajan
 location	Puerto Lopez
 location	Jipijapa
-location	Colon
+location	Colon EC
 location	Andres de Vera
 location	Portoviejo
 location	San Pablo (Portoviejo)
@@ -9105,7 +9177,7 @@ location	Pococi
 # Baja California
 location	Rosarito
 location	Tijuana
-location	Ensenada
+location	Ensenada MX
 location	Mexicali
 
 # Sonora
@@ -10664,6 +10736,9 @@ division	Bay of Plenty
 
 # Africa
 
+### Guinea Bissau
+division	Guinea Bissau
+
 ### Gambia
 division	Kombo
 division	Gambia
@@ -10713,6 +10788,7 @@ division	Temara
 division	Rabat
 division	Salé
 division	Kenitra
+division	Beni Mellal
 division	Khemisset
 division	Morocco
 division	Sidi Kacem
@@ -11074,7 +11150,7 @@ division	Spain
 division	Madrid
 division	Castilla la Mancha
 division	Melilla
-division	La Rioja
+division	La Rioja ES
 division	Basque Country
 division	Navarra
 division	Murcia
@@ -11844,20 +11920,25 @@ division	Сhukotka Region
 
 ### Argentina
 division	Tierra del Fuego
+division	Santa Cruz AR
 division	Rio Negro
 division	Neuquen
 division	La Pampa
 division	Mendoza
 division	Buenos Aires
 division	Argentina
+division	San Luis
+division	Entre Rios
 division	Cordoba AR
 division	Santa Fe
+division	La Rioja AR
 division	Corrientes
 division	Santiago del Estero
 division	Tucuman
 division	Misiones
 division	Chaco
 division	Salta
+division	Formosa
 division	Jujuy
 
 ### Uruguay
@@ -11889,6 +11970,7 @@ division	Maule
 division	O'Higgins
 division	Region Metropolitana de Santiago
 division	Valparaiso
+division	Chile
 division	Coquimbo
 division	Atacama
 division	Antofagasta
@@ -11903,7 +11985,7 @@ division	Tarija
 division	Potosi
 division	Chuquisaca
 division	Oruro
-division	Santa Cruz
+division	Santa Cruz BO
 division	Bolivia
 division	La Paz
 division	Beni
@@ -12322,6 +12404,7 @@ country	Guam
 country	New Zealand
 
 # Africa
+country	Guinea Bissau
 country	Gambia
 country	Senegal
 country	Sierra Leone

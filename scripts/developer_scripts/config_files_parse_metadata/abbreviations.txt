@@ -138,3 +138,5 @@ Lisbon	PT
 Santa Catarina	BR
 North Brabant	NL
 Catalunya	ES
+Baja California	MX
+Entre Rios	AR
