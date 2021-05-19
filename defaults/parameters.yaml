@@ -97,6 +97,8 @@ mask:
 combine_sequences_for_subsampling:
   warn_about_duplicates: true
 
+substitutions_field: aa_substitutions
+
 tree:
   tree-builder-args: "'-ninit 10 -n 4'"
 

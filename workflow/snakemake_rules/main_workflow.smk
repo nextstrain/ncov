@@ -406,8 +406,8 @@ rule subsample:
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/{build_name}/sample-{subsample}.fasta",
         strains="results/{build_name}/sample-{subsample}.txt",
+        sequences="results/{build_name}/sample-{subsample}.fasta",
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
     benchmark:
@@ -447,11 +447,11 @@ rule subsample:
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
-            --output {output.sequences} \
+            --output-sequences {output.sequences} \
             --output-strains {output.strains} 2>&1 | tee {log}
         """
 
-rule proximity_score:
+rule snp_proximity_score:
     message:
         """
         determine priority for inclusion in as phylogenetic context by
@@ -462,11 +462,11 @@ rule proximity_score:
         reference = config["files"]["alignment_reference"],
         focal_alignment = "results/{build_name}/sample-{focus}.fasta"
     output:
-        proximities = "results/{build_name}/proximity_{focus}.tsv"
+        proximities = "results/{build_name}/snp_proximity_{focus}.tsv"
     log:
-        "logs/subsampling_proximity_{build_name}_{focus}.txt"
+        "logs/snp_subsampling_proximity_{build_name}_{focus}.txt"
     benchmark:
-        "benchmarks/proximity_score_{build_name}_{focus}.txt"
+        "benchmarks/snp_proximity_score_{build_name}_{focus}.txt"
     params:
         chunk_size=10000,
         ignore_seqs = config['refine']['root']
@@ -482,6 +482,37 @@ rule proximity_score:
             --focal-alignment {input.focal_alignment} \
             --ignore-seqs {params.ignore_seqs} \
             --chunk-size {params.chunk_size} \
+            --output {output.proximities} 2>&1 | tee {log}
+        """
+
+
+rule proximity_score:
+    message:
+        """
+        determine priority for inclusion in as phylogenetic context by
+        genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
+        """
+    input:
+        metadata=_get_unified_metadata,
+        focal_strains="results/{build_name}/sample-{focus}.txt",
+    output:
+        proximities = "results/{build_name}/proximity_{focus}.tsv"
+    log:
+        "logs/subsampling_proximity_{build_name}_{focus}.txt"
+    benchmark:
+        "benchmarks/proximity_score_{build_name}_{focus}.txt"
+    params:
+        substitutions_field=config["substitutions_field"],
+    resources:
+        # Memory scales at ~0.15 MB * chunk_size (e.g., 0.15 MB * 10000 = 1.5GB).
+        mem_mb=4000
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/get_jaccard_distance.py \
+            --metadata {input.metadata} \
+            --focal {input.focal_strains} \
+            --substitutions-field {params.substitutions_field} \
             --output {output.proximities} 2>&1 | tee {log}
         """
 
