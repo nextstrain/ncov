@@ -3,6 +3,7 @@ Run a number QC checks on an alignment. these involve divergence from a referenc
 """
 import argparse, gzip, sys
 sys.path.insert(0,'.')
+from augur.io import open_file
 from collections import defaultdict
 import numpy as np
 from Bio.SeqIO.FastaIO import SimpleFastaParser
@@ -33,7 +34,7 @@ def analyze_divergence(sequences, metadata, reference, mask_5p=0, mask_3p=0):
         known_true_cluster_array[b:e]=0
 
     cluster_cut_off = 10
-    with open(sequences) as fasta:
+    with open_file(sequences) as fasta:
         for h,s in SimpleFastaParser(fasta):
             left_gaps = len(s) - len(s.lstrip('-'))
             right_gaps = len(s) - len(s.rstrip('-'))
@@ -100,7 +101,7 @@ if __name__ == '__main__':
     no_data_cutoff = 3000
     flagged_sequences = []
     # output diagnostics for each sequence, ordered by divergence
-    with open(args.output_diagnostics, 'w') as diag:
+    with open_file(args.output_diagnostics, 'w') as diag:
         diag.write('\t'.join(['strain', 'divergence', 'excess divergence', '#Ns', '#gaps', 'clusters', 'gaps', 'all_snps', 'gap_list'])+'\n')
         for s, d in sorted(diagnostics.items(), key=lambda x:len(x[1]['snps']), reverse=True):
             expected_div = expected_divergence(metadata[s]['date']) if s in metadata else np.nan
@@ -129,14 +130,14 @@ if __name__ == '__main__':
 
     # write out file with sequences flagged for exclusion sorted by date
     to_exclude_by_reason = defaultdict(list)
-    with open(args.output_flagged, 'w') as flag:
+    with open_file(args.output_flagged, 'w') as flag:
         flag.write(f'strain\tcollection_date\tsubmission_date\tflagging_reason\n')
         for s, msg, reasons, meta in sorted(flagged_sequences, key=lambda x:x[3].get('date_submitted', 'XX'), reverse=True):
             flag.write(f"{s}\t{metadata[s]['date'] if s in metadata else 'XXXX-XX-XX'}\t{metadata[s].get('date_submitted', 'XXXX-XX-XX') if s in metadata else 'XXXX-XX-XX'}\t{msg}\n")
             to_exclude_by_reason[reasons].append(s)
 
     # write out file with sequences flagged for exclusion sorted by date
-    with open(args.output_exclusion_list, 'w') as excl:
+    with open_file(args.output_exclusion_list, 'w') as excl:
         for reason in to_exclude_by_reason:
             excl.write(f'\n# {"&".join(reason)}\n')
             excl.write('\n'.join(to_exclude_by_reason[reason])+'\n')

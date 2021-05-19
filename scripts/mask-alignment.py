@@ -2,6 +2,7 @@
 Mask initial bases from alignment FASTA
 """
 import argparse
+from augur.io import open_file, read_sequences, write_sequences
 import Bio
 import Bio.SeqIO
 from Bio.Seq import Seq
@@ -35,8 +36,8 @@ if __name__ == '__main__':
     if args.mask_from_end:
         end_length = args.mask_from_end
 
-    with open(args.output, 'w') as outfile:
-        for record in Bio.SeqIO.parse(args.alignment, 'fasta'):
+    with open_file(args.output, 'w') as outfile:
+        for record in read_sequences(args.alignment):
             seq = str(record.seq)
             if args.mask_terminal_gaps:
                 seq = mask_terminal_gaps(seq)
@@ -49,4 +50,4 @@ if __name__ == '__main__':
                 for site in args.mask_sites:
                     seq_list[site-1] = "N"
             record.seq = Seq("".join(seq_list))
-            Bio.SeqIO.write(record, outfile, 'fasta')
+            write_sequences(record, outfile)

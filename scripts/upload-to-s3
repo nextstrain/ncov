@@ -32,13 +32,7 @@ main() {
 
     if [[ $src_hash != "$dst_hash" ]]; then
         echo "Uploading $src → $dst"
-        if [[ "$dst" == *.gz ]]; then
-            gzip -c "$src"
-        elif [[ "$dst" == *.xz ]]; then
-            xz -2 -c "$src"
-        else
-            cat "$src"
-        fi | aws s3 cp --no-progress - "$dst" --metadata sha256sum="$src_hash" "$(content-type "$dst")" "$(content-encoding "$dst")"
+        aws s3 cp --no-progress "$src" "$dst" --metadata sha256sum="$src_hash" "$(content-type "$dst")" "$(content-encoding "$dst")"
 
         if [[ $quiet == 1 ]]; then
             echo "Quiet mode. No Slack notification sent."

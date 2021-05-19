@@ -94,14 +94,15 @@ rule mutation_summary:
         reference = config["files"]["alignment_reference"],
         genemap = config["files"]["annotation"]
     output:
-        mutation_summary = "results/mutation_summary_{origin}.tsv"
+        mutation_summary = "results/mutation_summary_{origin}.tsv.xz"
     log:
         "logs/mutation_summary_{origin}.txt"
     benchmark:
         "benchmarks/mutation_summary_{origin}.txt"
     params:
         outdir = "results/translations",
-        basename = "seqs_{origin}"
+        basename = "seqs_{origin}",
+        genes=config["genes"],
     conda: config["conda_environment"]
     shell:
         """
@@ -111,6 +112,7 @@ rule mutation_summary:
             --directory {params.outdir} \
             --basename {params.basename} \
             --reference {input.reference} \
+            --genes {params.genes:q} \
             --genemap {input.genemap} \
             --output {output.mutation_summary} 2>&1 | tee {log}
         """
@@ -196,30 +198,29 @@ rule upload_reference_sets:
             cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.dirname(fname).split('/')[-1]}_metadata.tsv.{params.compression} | tee -a {log}"
             print("upload command:", cmd)
             shell(cmd)
-					    
+
 
 rule upload:
     message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
     input:
-        expand("results/aligned_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
-        expand("results/sequence-diagnostics_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
-        expand("results/flagged-sequences_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
-        expand("results/to-exclude_{origin}.txt", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
-        expand("results/masked_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
-        expand("results/filtered_{origin}.fasta", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
-        expand("results/mutation_summary_{origin}.tsv", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary
-        expand("results/{build_name}/{build_name}_subsampled_sequences.fasta", build_name=config["builds"]),
-        expand("results/{build_name}/{build_name}_subsampled_metadata.tsv", build_name=config["builds"]),
+        expand("results/aligned_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
+        expand("results/sequence-diagnostics_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
+        expand("results/flagged-sequences_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
+        expand("results/to-exclude_{origin}.txt.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
+        expand("results/masked_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
+        expand("results/filtered_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
+        expand("results/mutation_summary_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary
+        expand("results/{build_name}/{build_name}_subsampled_sequences.fasta.xz", build_name=config["builds"]),
+        expand("results/{build_name}/{build_name}_subsampled_metadata.tsv.xz", build_name=config["builds"]),
     params:
         s3_bucket = config["S3_DST_BUCKET"],
-        compression = config["S3_DST_COMPRESSION"]
     log:
         "logs/upload_gisaid.txt"
     benchmark:
         "benchmarks/upload_gisaid.txt"
     run:
         for fname in input:
-            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)}.{params.compression} | tee -a {log}"
+            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)} | tee -a {log}"
             print("upload command:", cmd)
             shell(cmd)
 

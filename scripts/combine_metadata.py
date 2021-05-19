@@ -1,4 +1,5 @@
 import argparse
+from augur.io import open_file
 from augur.utils import read_metadata
 from Bio import SeqIO
 import csv
@@ -88,7 +89,7 @@ if __name__ == '__main__':
 
     print(f"Combined metadata: {len(combined_data.keys())} strains x {len(combined_columns)} columns")
 
-    with open(args.output, 'w') as fh:
+    with open_file(args.output, 'w') as fh:
         tsv_writer = csv.writer(fh, delimiter='\t')
         tsv_writer.writerow(combined_columns)
         for row in combined_data.values():
