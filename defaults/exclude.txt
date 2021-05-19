@@ -2116,3 +2116,13 @@ Germany/SL-SU-10427535/2020
 
 # S1 mutations; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1621370263017600
 USA/TX-HMH-MCoV-25244/2021
+
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1621459450055600
+Ecuador/USFQ-1325/2021
+India/GJ-ICMR-NIV-INSACOG-GSEQ-92/2021
+Indonesia/JK-NIHRD-MI2104087/2021
+Gambia/19140/2021
+India/GJ-GBRC522b/2020
+Latvia/445/2021
+Japan/Donner379/2020
+Japan/Donner382/2020
