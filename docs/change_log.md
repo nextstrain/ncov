@@ -3,6 +3,12 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## v6 (20 May 2021)
+
+### Major changes
+
+- Fix bug in precedence of input data such that duplicate sequence and metadata records are resolved by always preferring the record from the last `inputs` dataset. Thank you to @ttung for catching/patching this! If you have depended on the previous behavior where the sequence from first `input` dataset was preferred, you will need to change the order of your `inputs` such that the preferred input appears last in the list. ([#639](https://github.com/nextstrain/ncov/pull/639)).
+
 ## New features since last version update
 
  - 19 May 2021: Compress metadata, sequence indices, and early intermediate sequences (aligned, masked, filtered, combined for subsampling, and subsampled files) to save disk space. ([#636](https://github.com/nextstrain/ncov/pull/636))
