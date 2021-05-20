@@ -2129,3 +2129,31 @@ Japan/Donner382/2020
 
 # wrong date probably; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1621533304060300
 Poland/NIPH-NIH_ECDC-4488/2021
+
+# duplicates; see additional info below.
+# Japan/TY10-395-P1/2021 EPI_ISL_2158612 additional_host_info: Accession ID of original sequence is EPI_ISL_1927433.$
+Japan/TY10-395-P1/2021
+# Japan/TY11-330-P1/2021 EPI_ISL_2158613 additional_host_info: Accession ID of original sequence is EPI_ISL_1927438.$
+Japan/TY11-330-P1/2021
+# Japan/TY11-908-P1/2021 EPI_ISL_2158614 additional_host_info: Accession ID of original sequence is EPI_ISL_1927417.$
+Japan/TY11-908-P1/2021
+# Japan/TY11-912-P1/2021 EPI_ISL_2158615 additional_host_info: Accession ID of original sequence is EPI_ISL_1927845.$
+Japan/TY11-912-P1/2021
+# Japan/TY11-917-P1/2021 EPI_ISL_2158616 additional_host_info: Accession ID of original sequence is EPI_ISL_1927423.$
+Japan/TY11-917-P1/2021
+# Japan/TY11-927-P1/2021 EPI_ISL_2158617 additional_host_info: Accession ID of original sequence is EPI_ISL_1927424.$
+Japan/TY11-927-P1/2021
+# Japan/TY8-005-P0/2021 EPI_ISL_2158606 additional_host_info: Accession ID of original sequence is EPI_ISL_1128142.$
+Japan/TY8-005-P0/2021
+# Japan/TY8-008-P0/2021 EPI_ISL_2158607 additional_host_info: Accession ID of original sequence is EPI_ISL_1128143.$
+Japan/TY8-008-P0/2021
+# Japan/TY8-187-P0/2021 EPI_ISL_2158608 additional_host_info: Accession ID of original sequence is EPI_ISL_1131135.$
+Japan/TY8-187-P0/2021
+# Japan/TY8-689-P0/2021 EPI_ISL_2158605 additional_host_info: Accession ID of original sequence is EPI_ISL_1425704.$
+Japan/TY8-689-P0/2021
+# Japan/TY8-995-P0/2021 EPI_ISL_2158609 additional_host_info: Accession ID of original sequence is EPI_ISL_1198824.$
+Japan/TY8-995-P0/2021
+# Japan/TY9-344-P0/2021 EPI_ISL_2158610 additional_host_info: Accession ID of original sequence is EPI_ISL_1425611$
+Japan/TY9-344-P0/2021
+# Japan/TY9-435-P0/2021 EPI_ISL_2158611 additional_host_info: Accession ID of original sequence is EPI_ISL_1926894.$
+Japan/TY9-435-P0/2021
