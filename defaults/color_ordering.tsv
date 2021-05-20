@@ -239,8 +239,6 @@ location	Taldykorgan
 ### Pakistan
 # Punjab PK
 location	Vehari
-
-# Punjab
 location	Raiwand
 
 # Gilgit Baltistan
@@ -1536,6 +1534,7 @@ location	Aguadulce ES
 location	Teba
 location	Campillos
 location	Pozoblanco
+location	Santaella
 location	Torrenueva
 location	Montilla
 location	Benalmadena
@@ -1646,6 +1645,7 @@ location	El Argamason
 location	Carboneras
 
 # Castilla y Leon
+location	Zamora
 location	Santa Lucia
 location	Villablino
 location	Brazuelo
@@ -1680,6 +1680,7 @@ location	Audanzas Del Valle
 location	Bercianos del Paramo
 location	Montejos del Camino
 location	La Pola De Gordon
+location	Salamanca
 location	Laguna De Negrillos
 location	La Virgen del Camino
 location	Quintana de Raneros
@@ -1708,9 +1709,13 @@ location	Gordaliza Del Pino
 location	Cistierna
 location	Sahagun
 location	Valladolid
+location	Avila
 location	Palencia
+location	Pomar De Valdivia
+location	Segovia
 location	Burgos
 location	Aranda de Duero
+location	Soria
 
 # Cantabria
 location	Potes
@@ -1735,6 +1740,7 @@ location	Los Corrales de Buelna
 location	Santiago de Cartes
 location	Campuzano
 location	Las Fraguas
+location	Viveda
 location	Torrelavega
 location	Hinojedo
 location	Tanos
@@ -1743,6 +1749,7 @@ location	Barreda
 location	Suances
 location	Sierrapando
 location	Polanco
+location	Cudon
 location	Miengo
 location	Rumoroso
 location	Zurita
@@ -1791,6 +1798,7 @@ location	Marina de Cudeyo
 location	Orejo
 location	Lierganes
 location	Solares
+location	Valdecilla
 location	San Roque de Riomiera
 location	Loredo
 location	La Cavada
@@ -1802,6 +1810,7 @@ location	Somo
 location	Hazas de Cesto
 location	Meruelo
 location	Beranga
+location	Isla
 location	Quintana ES
 location	Arnuero
 location	Noja
@@ -1844,17 +1853,24 @@ location	Ambite
 location	Estremera
 
 # Castilla la Mancha
+location	Agudo
 location	Almaden
 location	Horcajo de los Montes
 location	Piedrabuena
 location	Hinojosas Calatrava
+location	Alcolea De Calatrava
 location	Puertollano
 location	Corral de Calatrava
+location	Argamasilla De Calatrava
+location	Picon
 location	Fernan Caballero
 location	Miguelturra
 location	Ciudad Real
 location	Malagon
+location	Aldea Del Rey
 location	Pozuelo de Calatrava
+location	Carrion De Calatrava
+location	Calzada De Calatrava
 location	Fuente el Fresno
 location	Torralba de Calatrava
 location	Ayna
@@ -1864,6 +1880,7 @@ location	Daimiel
 location	Villarrubia de los Ojos
 location	Moral de Calatrava
 location	Almuradiel
+location	Santa Cruz De Mudela
 location	Cuenca ES
 location	El Casar
 location	Valdepenas
@@ -1871,6 +1888,7 @@ location	Torrejon Del Rey
 location	Villanueva de la Torre
 location	Azuqueca de Henares
 location	Alovera
+location	La Solana
 location	Cabanillas del Campo
 location	Marchamalo
 location	Pozo de Guadalajara
@@ -2042,9 +2060,14 @@ location	Murcia
 
 # Aragon
 location	Calatayud
+location	Gallur
 location	Epila
+location	Tauste
+location	Pedrola
+location	Ejea De Los Caballeros
 location	Alagon
 location	Teruel
+location	Cadrete
 location	Zaragoza
 location	Ayerbe
 location	Alcaniz
@@ -4732,12 +4755,15 @@ location	Diepoldsau
 # Graubünden
 location	Vals
 location	Flims Dorf
+location	Cazis
 location	Chur
 location	Landquart
 location	Trimmis
 location	Jenaz
 location	Champfer
+location	Davos
 location	St. Moritz
+location	Celerina/Schlarigna
 location	Zernez
 
 ### Norway
@@ -4819,6 +4845,7 @@ location	Muehlacker
 location	Tuebingen
 location	Konstanz
 location	Sigmaringen
+location	Hasenberg
 location	Ulm
 location	Rammingen
 
@@ -4879,18 +4906,20 @@ location	Gauting
 location	Kipfenberg
 location	Wettstetten
 location	Ingolstadt
+location	Wolfratshausen
 location	Dachau
 location	Karlsfeld
 location	Munich
 location	Bayreuth
 location	Pfaffenhofen
+location	Freising
 location	Oberbayern
-location	Schwaben
 location	Raubling
 location	Schierling
 location	Neutraubling
 location	Roding
 location	Traunstein
+location	Berchtesgaden
 
 # Mecklenburg-Vorpommern
 location	Rostock
@@ -7272,7 +7301,6 @@ location	Sedelnikovo
 
 # Kursk Region
 location	Kursk
-location	Zheleznogorsk
 
 # Novosibirsk
 location	Berdsk
@@ -7290,6 +7318,7 @@ location	Abakan
 
 # Krasnoyarsk
 location	Krasnoyarsk
+location	Zheleznogorsk
 
 # Irkutsk Region
 location	Irkutsk
@@ -9443,6 +9472,7 @@ location	Wasco County
 location	Deschutes County
 location	Sherman County
 location	Crook County
+location	Gilliam County
 location	Grant County OR
 location	Harney County
 location	Umatilla County
@@ -10589,7 +10619,6 @@ division	Guranwala
 division	Multan
 division	Punjab PK
 division	Kasur
-division	Punjab
 division	Lahore
 division	Sheikhupura
 division	Sargodha
