@@ -24,8 +24,10 @@ if __name__ == '__main__':
     with open_file(args.output, "w") as output_handle:
         # Stream sequences from all input files into a single output file,
         # skipping duplicate records (same strain and sequence) and noting
-        # mismatched sequences for the same strain name.
-        for record in read_sequences(*args.input):
+        # mismatched sequences for the same strain name.  In order to
+        # prefer the latter files, we have to reverse the order of the
+        # files.
+        for record in read_sequences(*reversed(args.input)):
             counter += 1
             if counter % 10000 == 0:
                 print(f"Processed {counter} records")

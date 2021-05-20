@@ -18,6 +18,8 @@ if __name__ == '__main__':
         pattern = ""
 
     with open_file(args.output, "w") as output_handle:
-        for sequence in read_sequences(*args.sequences):
+        # In order to prefer the latter files, we have to reverse the order of
+        # the files.
+        for sequence in read_sequences(*reversed(args.sequences)):
             sequence.id = re.sub(pattern, "", sequence.id)
             write_sequences(sequence, output_handle)
