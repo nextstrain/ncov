@@ -1645,7 +1645,6 @@ location	El Argamason
 location	Carboneras
 
 # Castilla y Leon
-location	Zamora
 location	Santa Lucia
 location	Villablino
 location	Brazuelo
@@ -1659,6 +1658,7 @@ location	Posada de la Valduerna
 location	Riego de la Vega
 location	Leon
 location	Antonan del Valle
+location	Zamora ES
 location	Estebanez de la Calzada
 location	Palacios de la Valduerna
 location	San Cristobal de la Polantera
@@ -1731,6 +1731,7 @@ location	Matamorosa
 location	Reinosa
 location	Quijas
 location	Cieza
+location	Reocín
 location	Santillana
 location	Villapresente
 location	Ubiarco
