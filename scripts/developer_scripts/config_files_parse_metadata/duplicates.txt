@@ -162,3 +162,5 @@ Breda
 Ensenada
 San Miguel
 Colon
+Brezovica
+Galapagos

@@ -1488,7 +1488,7 @@ District of Zlaté Moravce
 
 # Zilina
 District of Tvrdosin
-	Brezovica, district Tvrdosin
+	Brezovica (Zilina)
 	Habovka
 	Hladovka
 	Liesek
@@ -2952,7 +2952,7 @@ District of Prešov
 District of Sabinov
 	Bajerovce
 	Bodovce
-	Brezovica, district Sabinov
+	Brezovica (Prešov)
 	Brezovička
 	Červená Voda
 	Červenica pri Sabinove
