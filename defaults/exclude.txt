@@ -2159,3 +2159,15 @@ Togo/C5951/2021
 Togo/C6149/2021
 Australia/VIC16342/2020
 Australia/VIC7953/2020
+
+# excess S1 mutations; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1621627646088600
+SriLanka/KDU8760/2021
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1621628225089500
+Germany/BY-ChVir-1019/2020
+India/GJ-GBRC213a/2020
+India/HP-278/2020
+Indonesia/GO-NIHRD-PME20210/2020
+Indonesia/NB-NIHRD-WGS02319/2021
+Panama/GMI-PA911/2020
+Tunisia/COV1339/2020
