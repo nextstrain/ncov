@@ -1,0 +1,3 @@
+configfile:
+  - defaults/parameters.yaml
+  - nextstrain_profiles/nextstrain-early/builds.yaml

@@ -1,0 +1,19 @@
+use_nextalign: true
+
+inputs:
+  - name: gisaid
+    metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
+    filtered: "s3://nextstrain-ncov-private/filtered_gisaid.fasta.xz"
+
+builds:
+  early:
+    subsampling_scheme: nextstrain_early
+
+subsampling:
+  nextstrain_early:
+    early:
+      group_by: "country year month"
+      max_date: "2020-04-01"
+      min_date: "2019-12-01"
+      max_sequences: 300
+      sampling_scheme: "--probabilistic-sampling"
