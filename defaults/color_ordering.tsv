@@ -1206,6 +1206,7 @@ location	Karoo Hoogland
 location	Siyathemba
 
 # Eastern Cape
+location	Jeffreys Bay
 location	Nelson Mandela Bay
 location	Buffalo City
 location	Sarah Baartman
@@ -1214,6 +1215,10 @@ location	Chris Hani
 location	Middleburg
 location	Joe Gqabi
 location	Kempton Park
+
+# Free State
+location	Welkom
+location	Kroonstad
 
 # Gauteng
 location	Midvaal
@@ -1224,11 +1229,18 @@ location	Ekurhuleni Metro
 location	Mogale City
 location	Pretoria
 location	City of Tshwane
+location	Soshanguve
 location	Moretele
 
+# Limpopo
+location	Polokwane
+
 # Mpumalanga
+location	Ermelo
+location	Trichardt
 location	Thembisile Hani
 location	Dr. JS Moroka
+location	Middelburg
 
 # KwaZulu-Natal
 location	uMkhanyakude
@@ -1885,6 +1897,7 @@ location	Santa Cruz De Mudela
 location	Cuenca ES
 location	El Casar
 location	Valdepenas
+location	Galapagos ES
 location	Torrejon Del Rey
 location	Villanueva de la Torre
 location	Azuqueca de Henares
@@ -1894,11 +1907,16 @@ location	Cabanillas del Campo
 location	Marchamalo
 location	Pozo de Guadalajara
 location	Pioz
+location	Yunquera de Henares
 location	Chiloeches
 location	Humanes
+location	Iriepal
 location	Yebes
 location	Mondejar
+location	Fuentenovilla
 location	Cogolludo
+location	Espinosa de Henares
+location	Horche
 location	Driebes
 location	Torija
 location	Tomelloso
@@ -2596,8 +2614,9 @@ location	Warwickshire
 
 ### France
 # Martinique
-location	Fort-de-France
 location	Schoelcher
+location	Fort-de-France
+location	Le Lamentin
 
 # French Guiana
 location	Grand Santi
@@ -2674,6 +2693,7 @@ location	Mayenne
 location	Montreuil Juigne
 location	Val de Loire
 location	Saumur
+location	La Fleche
 location	Le Mans
 location	Montval sur Loir
 location	Angers
@@ -2838,6 +2858,7 @@ location	Chateau-Thierry
 location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
+location	Beauvais
 location	Laon
 location	Saint Quentin
 location	Amiens
@@ -5167,6 +5188,7 @@ location	Pöndorf
 location	Mondsee
 location	Frankenmarkt
 location	Fornach
+location	Oberwang
 location	Pfaffing
 location	Unterach Am Attersee
 location	Vöcklamarkt
@@ -5176,6 +5198,7 @@ location	Nussdorf Am Attersee
 location	Gosau
 location	Attersee
 location	Aigen-Voglhub
+location	Ampflwang Im Hausruckwald
 location	Weyregg Am Attersee
 location	Seewalchen Am Attersee
 location	Schörfling Am Attersee
@@ -5194,12 +5217,15 @@ location	Neukirchen
 location	Attnang-Puchheim
 location	Gaspoltshofen
 location	Natternbach
+location	Oberndorf bei Schwanenstadt
 location	Altmünster
 location	Pinsdorf
 location	Ebensee Am Traunsee
 location	Schwanenstadt
+location	Traunkirchen
 location	Ohlsdorf
 location	Gmunden
+location	Oberweis
 location	Eschenau Im Hausruckkreis
 location	Laakirchen
 location	Grieskirchen
@@ -5210,6 +5236,7 @@ location	Kirchham
 location	Edt Bei Lambach
 location	Prambachkirchen
 location	Hochficht
+location	Vorchdorf
 location	Gunskirchen
 location	Fischlham
 location	Wels-Land
@@ -5260,11 +5287,11 @@ location	Gutenberg-Stenzengreith
 location	Leibnitz
 location	Gamlitz
 location	Weiz
-location	Südoststeiermark
+location	Feldbach
 location	Hartberg-Fürstenfeld
 
 # Lower Austria
-location	St.Valentin
+location	St. Valentin
 location	Waidhofen An Der Ybbs
 location	Amstetten
 location	Arbesbach
@@ -6775,7 +6802,7 @@ location	Nova Lubovna
 location	Stara Lubovna
 location	Spisske Podhradie
 location	Plavec
-location	Brezovica
+location	Brezovica (Prešov)
 location	Lenartov
 location	Livovska Huta
 location	Sabinov
@@ -9039,7 +9066,7 @@ location	Arauca
 # Antioquia
 location	Argelia
 location	Amagá
-location	Caldas
+location	Caldas (Antioquia)
 location	Retiro
 location	Sabaneta
 location	Rionegro
@@ -10698,6 +10725,7 @@ division	Rautahat
 division	Lalitpur
 division	Kathmandu
 division	Bhaktapur
+division	Central Nepal
 division	Sarlahi
 division	Dolakha
 
@@ -10857,6 +10885,7 @@ division	Bangsamoro Autonomous Region In Muslim Mindanao
 division	Soccsksargen
 division	Davao Region
 division	Zamboanga Peninsula
+division	Lanao del Norte
 division	Northern Mindanao
 division	Caraga
 division	Central Visayas
@@ -10871,6 +10900,7 @@ division	Manila
 division	Central Luzon
 division	Ilocos
 division	Cordillera Administrative Region
+division	Kalinga
 division	Cagayan Valley
 
 ### Timor-Leste
@@ -11035,6 +11065,7 @@ division	Cascades
 division	Hauts-Bassins
 division	Boucle du Mouhoun Region
 division	Sud-Ouest
+division	Diebougou
 division	Burkina Faso
 
 ### Ghana
@@ -11122,6 +11153,7 @@ division	Ariana
 division	Bizerte
 
 ### Niger
+division	Niamey
 division	Niger
 
 ### Equatorial Guinea

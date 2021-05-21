@@ -2085,18 +2085,14 @@ USA/TN-UT2063/2020
 Japan/Donner380/2020
 
 # The following additional info was interpreted to mean that each of these sequences was a duplicate (second sample):
-# Brazil/GO-HLAGYN-1031607_R1/2021 EPI_ISL_2017281 additional_host_info: infection case firts episode / seconde sample (1586463)
-Brazil/GO-HLAGYN-1586463_R2/2021
-# Brazil/GO-HLAGYN-1088252_R1/2021 EPI_ISL_2017323 additional_host_info: infection case firts episode / seconde sample (P.1520715)
-Brazil/GO-HLAGYN-1520715_R2/2021
-# Brazil/GO-HLAGYN-1354344_R2/2021 EPI_ISL_2017447 additional_host_info: infection case second episode / first sample (P. 1169409)
+# Brazil/GO-HLAGYN-1354344_R2/2021 EPI_ISL_2017447 additional_host_info: infection case second episode / first sample (P. 1169409) - exclude "second sample" (same date)
 Brazil/GO-HLAGYN-1354344_R2/2021
-# Brazil/GO-HLAGYN-1520715_R2/2021 EPI_ISL_2017324 additional_host_info: infection case second episode / first sample (P.1088252)
+# Brazil/GO-HLAGYN-1520715_R2/2021 EPI_ISL_2017324 additional_host_info: infection case second episode / first sample (P.1088252) - exclude "second sample" (same date)
 Brazil/GO-HLAGYN-1520715_R2/2021
-# Brazil/GO-HLAGYN-1586463_R2/2021 EPI_ISL_2017282 additional_host_info: infection case second episode / first sample (1031607)
+# Brazil/GO-HLAGYN-1586463_R2/2021 EPI_ISL_2017282 additional_host_info: infection case second episode / first sample (1031607) - exclude 1586463 due to later date
 Brazil/GO-HLAGYN-1586463_R2/2021
-# Brazil/GO-HLAGYN-1169409_R1/2021 EPI_ISL_2102517 additional_host_info: Infection case firts episode / second sample (P. 1354344)
-Brazil/GO-HLAGYN-1354344_R2/2021
+# Brazil/GO-HLAGYN-1623988_R2/2021	EPI_ISL_2187985	additional_host_info: Post-vaccination reinfection, infection case seconde episode / first sample (855822) - exclude 855822 due to later date
+Brazil/GO-HLAGYN-855822/2021
 
 # Sample date before clade
 Spain/VC-IBV-99028301/2020
