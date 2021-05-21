@@ -13,7 +13,7 @@ subsampling:
   nextstrain_early:
     early:
       group_by: "country year month"
-      max_date: "2020-04-01"
-      min_date: "2019-12-01"
-      max_sequences: 300
+      max_date: "--max-date 2020-03-31"
+      min_date: "--min-date 2019-12-01"
+      max_sequences: 2000
       sampling_scheme: "--probabilistic-sampling"
