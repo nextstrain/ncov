@@ -642,7 +642,7 @@ rule adjust_metadata_regions:
     input:
         metadata = _get_unified_metadata
     output:
-        metadata = "results/{build_name}/metadata_adjusted.tsv"
+        metadata = "results/{build_name}/metadata_adjusted.tsv.xz"
     params:
         region = lambda wildcards: config["builds"][wildcards.build_name]["region"]
     log:
