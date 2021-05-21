@@ -2153,3 +2153,9 @@ Japan/TY8-995-P0/2021
 Japan/TY9-344-P0/2021
 # Japan/TY9-435-P0/2021 EPI_ISL_2158611 additional_host_info: Accession ID of original sequence is EPI_ISL_1926894.$
 Japan/TY9-435-P0/2021
+
+# divergence, odd mutations; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1621572185067000
+Togo/C5951/2021
+Togo/C6149/2021
+Australia/VIC16342/2020
+Australia/VIC7953/2020
