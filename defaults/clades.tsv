@@ -77,3 +77,33 @@ clade	gene	site	alt
 21A	nuc	27638	C
 21A	nuc	28881	T
 21A	nuc	29402	T
+
+21B	nuc	14407	T
+21B	nuc	21717	G
+21B	nuc	24224	C
+21B	nuc	24748	T
+
+21C	nuc	16500	C
+21C	nuc	20262	G
+21C	nuc	21575	T
+21C	nuc	22320	G
+
+21D	nuc	17014	T
+21D	nuc	21600	T
+21D	nuc	22018	T
+21D	nuc	22917	G
+
+21E	nuc	21786	T
+21E	nuc	21789	T
+21E	nuc	22917	A
+21E	nuc	23031	C
+
+21F	nuc	5008	T
+21F	nuc	14403	T
+21F	S	936	N
+21F	S	939	F
+
+21G	nuc	6236	A
+21G	nuc	20049	C
+21G	S	1027	I
+21G	S	245	Y
