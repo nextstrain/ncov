@@ -79,3 +79,4 @@ Contact with a patient with travel history
 None
 None
 With History of Travel: YES
+Community Sample
