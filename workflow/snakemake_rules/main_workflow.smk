@@ -349,19 +349,16 @@ rule combine_sequences_for_subsampling:
         "benchmarks/combine_sequences_for_subsampling.txt"
     conda: config["conda_environment"]
     params:
-        warn_about_duplicates="--warn-about-duplicates" if config.get("combine_sequences_for_subsampling", {}).get("warn_about_duplicates") else "",
+        error_on_duplicate_strains="--error-on-duplicate-strains" if not config.get("combine_sequences_for_subsampling", {}).get("warn_about_duplicates") else "",
         strain_prefixes=config["strip_strain_prefixes"],
     shell:
         """
         python3 scripts/sanitize_sequences.py \
                 --sequences {input} \
                 --strip-prefixes {params.strain_prefixes:q} \
+                {params.error_on_duplicate_strains} \
                 --output /dev/stdout \
-        | python3 scripts/combine-and-dedup-fastas.py \
-            --input /dev/stdin \
-            {params.warn_about_duplicates} \
-            --output /dev/stdout \
-        | xz -2 > {output}
+                | xz -c -2 > {output}
         """
 
 rule index_sequences:
