@@ -353,10 +353,11 @@ rule combine_sequences_for_subsampling:
                 --sequences {input} \
                 --strip-prefixes {params.strain_prefixes:q} \
                 --output /dev/stdout \
-                | python3 scripts/combine-and-dedup-fastas.py \
+        | python3 scripts/combine-and-dedup-fastas.py \
             --input /dev/stdin \
             {params.warn_about_duplicates} \
-            --output {output}
+            --output /dev/stdout \
+        | xz -2 > {output}
         """
 
 rule index_sequences:
