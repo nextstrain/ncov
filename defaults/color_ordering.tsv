@@ -4275,6 +4275,7 @@ location	Middelburg NL
 
 # South Holland
 location	Den Haag
+location	's Gravenhage
 location	Spijkenisse
 location	Delft NL
 location	Nootdorp
@@ -4408,6 +4409,7 @@ location	Sneek
 location	Weststellingwerf
 location	Gorredijk
 location	Rottevalle
+location	Jubbega
 location	Harkema
 location	Buitenpost
 location	Oosterwolde
@@ -4453,6 +4455,7 @@ location	Oldebroek
 # Overijssel
 location	Genemuiden
 location	Raalte
+location	Borne
 location	Hengelo
 location	Oldenzaal
 
@@ -4460,6 +4463,7 @@ location	Oldenzaal
 location	Haren
 location	Leek
 location	Zuidhorn
+location	Sauwerd
 location	Groningen
 location	Haren NL
 location	Meerstad
@@ -4488,6 +4492,7 @@ location	Zuidwolde
 location	Norg
 location	Bovensmilde
 location	Peize
+location	Beilen
 location	Assen
 location	Eelde
 location	Vries
@@ -4495,6 +4500,7 @@ location	Zuidlaren
 location	Coevorden
 location	Dalen
 location	Nieuw Annerveen
+location	Emmen
 
 ### Luxembourg
 # Luxembourg
