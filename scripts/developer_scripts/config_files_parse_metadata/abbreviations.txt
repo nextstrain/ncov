@@ -140,3 +140,8 @@ North Brabant	NL
 Catalunya	ES
 Baja California	MX
 Entre Rios	AR
+Dolnośląskie	(Dolnośląskie)
+Rio Grande do Norte	BR
+Central	PY
+Amapa	BR
+Boyaca	CO

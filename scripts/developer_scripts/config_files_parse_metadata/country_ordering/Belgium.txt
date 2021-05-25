@@ -2041,7 +2041,7 @@ Onhaye
 	Serville
 	Sommière
 	Weillen
-Rochefort
+Rochefort BE
 	Ave-et-Auffe
 	Buissonville
 	Éprave
@@ -2050,7 +2050,7 @@ Rochefort
 	Lavaux-Sainte-Anne
 	Lessive
 	Mont-Gauthier
-	Rochefort
+	Rochefort BE
 	Villers-sur-Lesse
 	Wavreille
 Somme-Leuze
