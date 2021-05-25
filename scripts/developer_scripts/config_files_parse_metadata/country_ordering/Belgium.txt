@@ -1,3 +1,5 @@
+### Wallonia
+
 ### Antwerpen
 
 # Antwerpen
@@ -28,8 +30,8 @@ Brecht
 	Sint-Lenaarts
 Edegem
 	Edegem
-Essen
-	Essen
+Essen BE
+	Essen BE
 Hemiksem
 	Hemiksem
 Hove
@@ -99,7 +101,7 @@ Bornem
 	Bornem
 	Hingene
 	Mariekerke
-	Weert
+	Weert BE
 Duffel
 	Duffel
 Heist-op-den-Berg
@@ -132,7 +134,6 @@ Puurs-Sint-Amands
 	Lippelo
 	Oppuurs
 	Puurs
-	Ruisbroek
 	Sint-Amands
 Sint-Katelijne-Waver
 	Onze-Lieve-Vrouw-Waver
@@ -190,9 +191,9 @@ Laakdal
 	Varendonk
 	Veerle
 	Vorst
-Lille
+Lille BE
 	Gierle
-	Lille
+	Lille BE
 	Poederlee
 	Wechelderzande
 Meerhout
@@ -580,7 +581,7 @@ La Louvière
 	Haine-Saint-Paul
 	Haine-Saint-Pierre
 	Houdeng-Aimeries
-	Houdeng-Gœgnies
+	Houdeng-Goegnies
 	La Louvière
 	Maurage
 	Saint-Vaast
@@ -1058,7 +1059,6 @@ Dalhem
 	Dalhem
 	Feneur
 	Mortroux
-	Neufchâteau
 	Saint-André
 	Warsage
 Esneux
@@ -1202,10 +1202,10 @@ Lierneux
 	Arbrefontaine
 	Bra
 	Lierneux
-Limbourg
+Limbourg BE
 	Bilstain
 	Goé
-	Limbourg
+	Limbourg BE
 Lontzen
 	Lontzen
 	Walhorn
@@ -1389,6 +1389,7 @@ Diepenbeek
 	Diepenbeek
 Genk
 	Genk
+	Waterschei-Zwartberg
 Gingelom
 	Boekhout
 	Borlo
@@ -1398,7 +1399,6 @@ Gingelom
 	Kortijs
 	Mielen-boven-Aalst
 	Montenaken
-	Muizen
 	Niel-bij-Sint-Truiden
 	Vorsen
 Halen
@@ -1431,7 +1431,6 @@ Leopoldsburg
 Lummen
 	Linkhout
 	Lummen
-	Meldert
 Nieuwerkerken
 	Binderveld
 	Kozen
@@ -1498,8 +1497,7 @@ Maaseik
 	Opoeteren
 Oudsbergen
 	Ellikom
-	Gruitrode
-	Meeuwen
+	Meeuwen-Gruitrode
 	Neerglabbeek
 	Opglabbeek
 	Wijshagen
@@ -1631,7 +1629,7 @@ Wellen
 
 ---------------
 
-### Luxembourg
+### Luxembourg BE
 
 # Arlon
 Arlon
@@ -1866,6 +1864,7 @@ Chiny
 	Les Bulles
 	Suxy
 	Termes
+	Valansart
 Étalle
 	Buzenol
 	Chantemelle
@@ -2042,7 +2041,7 @@ Onhaye
 	Serville
 	Sommière
 	Weillen
-Rochefort
+Rochefort BE
 	Ave-et-Auffe
 	Buissonville
 	Éprave
@@ -2051,7 +2050,7 @@ Rochefort
 	Lavaux-Sainte-Anne
 	Lessive
 	Mont-Gauthier
-	Rochefort
+	Rochefort BE
 	Villers-sur-Lesse
 	Wavreille
 Somme-Leuze
@@ -2348,7 +2347,6 @@ Aalst
 	Gijzegem
 	Herdersem
 	Hofstade
-	Meldert
 	Moorsel
 Denderleeuw
 	Denderleeuw
@@ -2485,7 +2483,7 @@ Kaprijke
 Maldegem
 	Adegem
 	Maldegem
-	Middelburg
+	Middelburg BE
 Sint-Laureins
 	Sint-Jan-in-Eremo
 	Sint-Laureins
@@ -3150,7 +3148,6 @@ Zonnebeke
 	Beselare
 	Geluveld
 	Passendale
-	Zandvoorde
 	Zonnebeke
 
 # Kortrijk
@@ -3202,6 +3199,7 @@ Wevelgem
 	Gullegem
 	Moorsele
 	Wevelgem
+	Herthoek
 Zwevegem
 	Heestert
 	Moen
@@ -3359,14 +3357,14 @@ Ixelles
 Jette
 Koekelberg
 Molenbeek-Saint-Jean
-Saint-Gilles
+Saint-Gilles BE
 Saint-Josse-ten-Noode
 Schaerbeek
 Uccle
 Watermael-Boitsfort
 Woluwe-Saint-Lambert
 Woluwe-Saint-Pierre
-Haren
+Haren BE
 Laken
 Neder-Over-Heembeek
 Moriensart

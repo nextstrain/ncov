@@ -59,7 +59,7 @@ Castilla la Mancha	ES
 Azuay	EC
 Ecuador	EC
 Spain	ES
-Alajuela	CO
+Alajuela	CR
 Imbabura	EC
 Heredia	CR
 Amur Region	(Amur)
@@ -76,3 +76,72 @@ Cordoba	AR
 Cordoba AR	AR
 Los Rios	EC
 Comunitat Valenciana	ES
+Ivanovo	(Ivanovo)
+Karelia	(Karelia)
+French Guiana	GF
+Bretagne	BRE
+India	IN
+Punjab	PK
+France	FR
+Belgium	BE
+Turnhout	BE
+Hauts de France	FR
+Santo Domingo de los Tsachilas	EC
+Meta	CO
+Tierra del Fuego	AR
+Goiás	BR
+Mechelen	BE
+Limburg	NL
+Israel	IL
+Botswana	BW
+São Paulo	BR
+Region Metropolitana de Santiago	CL
+Valparaiso	CL
+Brussels	BE
+Occitanie	FR
+Bulgaria	BG
+Tuscany	IT
+Setúbal	PT
+Veraguas	PA
+Cocle	PA
+Paraiba	PB
+Panama	PA
+Bolivia	BO
+Manabi	EC
+Colombia	CO
+Loja	EC
+Extremadura	ES
+Panama Oeste	PA
+Valle del Cauca	CO
+Guanacaste	CR
+Los Rios CL	CL
+Wielkopolskie	(Wielkopolskie)
+Warminsko-Mazurskie	(Warminsko-Mazurskie)
+Pomorskie	(Pomorskie)
+Podlaskie	(Podlaskie)
+Maranhão	BR
+South Holland	NL
+Lubuskie	(Lubuskie)
+Espirito Santo	(Espirito Santo)
+Sergipe	(Sergipe)
+Navarra	ES
+Norte de Santander	CO
+O'Higgins	CL
+Malopolskie	(Malopolskie)
+Molise	(Molise)
+Sankt Gallen	CH
+Łódzkie	(Łódzkie)
+Slaskie	(Slaskie)
+Swietokrzyskie	(Swietokrzyskie)
+Zachodniopomorskie	(Zachodniopomorskie)
+Lisbon	PT
+Santa Catarina	BR
+North Brabant	NL
+Catalunya	ES
+Baja California	MX
+Entre Rios	AR
+Dolnośląskie	(Dolnośląskie)
+Rio Grande do Norte	BR
+Central	PY
+Amapa	BR
+Boyaca	CO

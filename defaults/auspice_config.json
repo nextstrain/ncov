@@ -6,13 +6,13 @@
   ],
   "colorings": [
     {
-      "key": "subclade_membership",
-      "title": "Emerging Clade",
+      "key": "emerging_lineage",
+      "title": "Emerging Lineage",
       "type": "categorical"
     },
     {
-      "key": "pangolin_lineage",
-      "title": "Pangolin Lineage",
+      "key": "pango_lineage",
+      "title": "PANGO Lineage",
       "type": "categorical"
     },
     {
@@ -97,6 +97,16 @@
       "key": "region_exposure",
       "title": "Region of exposure",
       "type": "categorical"
+    },
+    {
+      "key": "logistic_growth",
+      "title": "Logistic growth",
+      "type": "continuous"
+    },
+    {
+      "key": "current_frequency",
+      "title": "Current frequency",
+      "type": "continuous"
     }
   ],
   "geo_resolutions": [
@@ -115,6 +125,7 @@
   "filters": [
     "recency",
     "clade_membership",
+    "emerging_lineage",
     "region",
     "country",
     "division",

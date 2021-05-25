@@ -12,3 +12,20 @@ Hospital General de XXX
 Patient residence:XXX
 XXX Health Department
 XXX Health department
+Patient origin XXX
+zip code: XXX
+zip code: XXX  (interpreted as patient residence) (interpreted as patient residence) (interpreted as patient residence) (interpreted as patient residence) (interpreted as patient residence)
+CS XXX
+HG de XXX
+CS de XXX
+HG da XXX
+Lives in XXX
+Resident in XXX
+Patient resident in XXX
+Patient resident in XXX.
+Lives in the XXX
+Patient resides in XXX
+Patient from XXX transferred to Rio Grande do Sul State to receive hospital care
+Patient from XXX relocated to Rondonia State
+Residence XXX
+residence XXX

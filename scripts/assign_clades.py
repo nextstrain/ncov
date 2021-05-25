@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Extract sequences from a given FASTA file that match the given list of sample names.
+"""
+Obsolete: script that assigns clades to sequences based on clade designations in `defaults/clades.tsv`
 """
 import numpy as np
 import argparse, sys, os

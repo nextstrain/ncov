@@ -1,11 +1,11 @@
 import os
-import datetime
 import matplotlib.pyplot as plt
 import pandas as pd
 from pandas.plotting import register_matplotlib_converters
 import random
 import numpy as np
 import math
+import datetime
 register_matplotlib_converters()
 
 
@@ -27,6 +27,7 @@ def cut(s):
 def read_data(path):
 
     data = {} # added and changed sequences
+    list_of_strains = []
 
     for file in sorted(os.listdir(path)):
         if file == '.DS_Store':
@@ -54,6 +55,7 @@ def read_data(path):
                 if k.startswith("gisaid_epi_isl"):
                     (key, id) = cut(k)
                     if added:
+                        list_of_strains.append(id)
                         if id in data:
                             print("Attention, same sequence added two times! (" + id + ")")
                         data[id] = {}
@@ -77,10 +79,152 @@ def read_data(path):
                                     break
                                 k = metadata_changes[i+j]
 
-    return (data)
+        if file.startswith("metadata-additions"):
+            with open(path + file) as f:
+                metadata_additions = f.readlines()
+            header = metadata_additions[0].strip().split("\t")
+            for line in metadata_additions[1:]:
+                l = line.strip().split("\t")
+                id = l[2]
+                if id in data:
+                    print("Attention, same sequence added two times! (" + id + ")")
+                data[id] = {}
+                for i in range(len(header)):
+                    if header != "gisaid_epi_isl":
+                        data[id][header[i]] = l[i]
+
+    return (data, list_of_strains)
+
+def check_for_recency(counts, list_of_strains, lab_collection, path_to_metadata, table_file_name):
+    print("\n----------------------------------------------\n")
+
+    countries = {}
+    subm_labs = {}
+    origlab_authors = {}
+    cutoff_date = datetime.datetime.combine(datetime.date.today(), datetime.datetime.min.time()) - datetime.timedelta(days=30) #last XX days
+
+
+    with open(path_to_metadata + "downloaded_gisaid.tsv") as f:
+        header = f.readline().split("\t")
+        country_i = header.index("country")
+        subm_date_i = header.index("date_submitted")
+        strain_i = header.index("gisaid_epi_isl")
+        subm_lab_i = header.index("submitting_lab")
+        orig_lab_i = header.index("originating_lab")
+        author_i = header.index("authors")
+
+
+        print("Collecting all labs from the last month from metadata... (this may take a while)")
+
+        line = f.readline()
+        while line:
+            l = line.split("\t")
+            country = l[country_i]
+            lab = l[subm_lab_i]
+            orig_lab = l[orig_lab_i]
+            author = l[author_i]
+            if country == "United Kingdom":
+                line = f.readline()
+                continue
+            if country in counts:
+                if country in subm_labs and lab in subm_labs[country] and subm_labs[country][lab] > 20 and orig_lab in origlab_authors[country] and origlab_authors[country][orig_lab] > 20 and author in origlab_authors[country] and origlab_authors[country][author] > 20:
+                    line = f.readline()
+                    continue
+                date = datetime.datetime.fromisoformat(l[subm_date_i])
+                if date > cutoff_date:
+                    strain = l[strain_i]
+                    if strain not in list_of_strains:
+                        if country not in countries:
+                            print(country)
+                            countries[country] = 0
+                        countries[country] += 1
+                        if country not in subm_labs:
+                            subm_labs[country] = {}
+                            origlab_authors[country] = {}
+                        if lab not in subm_labs[country]:
+                            subm_labs[country][lab] = 0
+                        subm_labs[country][lab] += 1
+                        if author not in origlab_authors[country]:
+                            origlab_authors[country][author] = 0
+                        origlab_authors[country][author] += 1
+                        if orig_lab not in origlab_authors[country]:
+                            origlab_authors[country][orig_lab] = 0
+                        origlab_authors[country][orig_lab] += 1
+            line = f.readline()
+
+    print("\nSearching for twitter handles... ")
+
+    rare_countries = []
+    for c in counts:
+        if c != "United Kingdom":
+            if c not in countries or countries[c] <= 20:
+                rare_countries.append(c)
+
+    lab_dictionary = read_excel_lab_file(table_file_name)
+    lab_collection_present = {}
+    for country in subm_labs:
+        if country not in lab_collection_present:
+            lab_collection_present[country] = {}
+
+        for lab in subm_labs[country]:
+            n = subm_labs[country][lab]
+            if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
+                k = lab_dictionary[country][lab.lower()]
+                for l in k.split(", "):
+                    if l not in lab_collection_present[country]:
+                        lab_collection_present[country][l] = 0
+                    lab_collection_present[country][l] += n
+            else:
+                print("Lab " + bold(lab) + " (" + country + ") not found and will be excluded from future steps. Please fill into excel table to include it.")
+        for lab in origlab_authors[country]:
+            n = origlab_authors[country][lab]
+            if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
+                k = lab_dictionary[country][lab.lower()]
+                for l in k.split(", "):
+                    if l not in lab_collection_present[country]:
+                        if l not in lab_collection_present[country]:
+                            lab_collection_present[country][l] = 0
+                        lab_collection_present[country][l] += n
+
+    lab_collection_present["United Kingdom"] = {"@CovidGenomicsUK": 1000}
+
+    rare_labs = {}
+    for region in lab_collection:
+        for country in lab_collection[region]:
+            for lab in lab_collection[region][country]:
+                if country not in lab_collection_present or lab not in lab_collection_present[country] or country in rare_countries:
+                    if region not in rare_labs:
+                        rare_labs[region] = {}
+                    if country not in rare_labs[region]:
+                        rare_labs[region][country] = []
+                    rare_labs[region][country].append(lab)
+
+    print("\nCountries that have submitted < 20 sequences last month (all of these will be included in the tweet):")
+    print(rare_countries)
+
+    print("\nSubmitters that have not submitted last month (all of these will be included in the tweet):")
+    print(rare_labs)
+
+    return rare_countries, rare_labs
+
 
 # Double check sample dates for invalid format or unrealistic / impossible date
 def check_dates(data, today):
+    clade_dates = {
+        "19A": "2019-12-01",
+        "19B": "2019-12-01",
+        "20A": "2020-01-20",
+        "20A.EU2": "2020-02-15",
+        "20B": "2020-02-14",
+        "20C": "2020-02-25",
+        "20D": "2020-03-12",
+        "20E (EU1)": "2020-05-27",
+        "20F": "2020-05-24",
+        "20G": "2020-06-11",
+        "20H/501Y.V2": "2020-08-10",
+        "20I/501Y.V1": "2020-09-20",
+        "20J/501Y.V3": "2020-10-29"
+    }
 
     invalid_sample_date = {}
     suspicious_sample_date = {}
@@ -88,9 +232,10 @@ def check_dates(data, today):
     for id in list(data.keys()):
         date = data[id]["date"]
         strain = data[id]["strain"]
+        country = data[id]["country"]
 
         if len(date) != len(today):
-            invalid_sample_date[strain] = date
+            invalid_sample_date[strain] = (date, country)
             data.pop(id)
             continue
 
@@ -105,26 +250,59 @@ def check_dates(data, today):
 
         #check for past dates
         if year < 2019 or ((year) == 2019 and month < 12):
-            invalid_sample_date[strain] = date
+            invalid_sample_date[strain] = (date, country)
             data.pop(id)
             continue
 
         # Check for future dates
         if (year > year_today) or (year == year_today and month > month_today) or (year == year_today and month == month_today and day > day_today):
-            invalid_sample_date[strain] = date
+            invalid_sample_date[strain] = (date, country)
             data.pop(id)
             continue
 
         #Check for early dates
-        if (year == 2020 and (month == 2 or month == 1)) or year == 2019:
-            suspicious_sample_date[strain] = date
+        #if (year == 2020 and (month == 2 or month == 1)) or year == 2019:
+            #suspicious_sample_date[strain] = date
+
+        clade = data[id]["Nextstrain_clade"]
+        dev = data[id]["clock_deviation"]
+        if clade == "":
+            print("Clade missing for sequence " + id)
+        else:
+            if clade not in clade_dates:
+                print("Unknown clade " + clade + " for sequence " + id)
+            else:
+                clade_day = clade_dates[clade]
+                day_clade = int(clade_day[8:])
+                month_clade = int(clade_day[5:7])
+                year_clade = int(clade_day[:4])
+
+                if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
+                    suspicious_sample_date[strain] = date + " (" + clade + ", clock deviation = " + dev + ")"
+                    data.pop(id)
+                    continue
+
+
+    invalid_dates_by_country = {}
+    for strain in invalid_sample_date:
+        (date, country) = invalid_sample_date[strain]
+        if country not in invalid_dates_by_country:
+            invalid_dates_by_country[country] = {}
+        if date not in invalid_dates_by_country[country]:
+            invalid_dates_by_country[country][date] = 0
+        invalid_dates_by_country[country][date] += 1
+
+
 
     print("\n----------------------------------------------\n")
-    print("Invalid sample dates (please check whether all are automatically excluded):")
-    for strain in invalid_sample_date:
-        print(strain + ": " + invalid_sample_date[strain])
+    print("Invalid sample dates (automatically excluded from total counts):")
+    for country in invalid_dates_by_country:
+        print(country)
+        for date in invalid_dates_by_country[country]:
+            print(date + " (" + str(invalid_dates_by_country[country][date]) + ")")
+        print("")
 
-    print("\nEarly sample dates (might require double checking depending on country):")
+    print("\nSample date before clade (automatically excluded from total counts):")
     for strain in suspicious_sample_date:
         print(strain + ": " + suspicious_sample_date[strain])
 
@@ -156,7 +334,7 @@ def plot_dates(data, path):
         plt.bar(dates, values)
         plt.title(country)
         plt.xticks(rotation=45, ha="right", size = 7)
-        plt.savefig(path + "dates_" + country)
+        plt.savefig(path + "dates_" + country.replace(".", ""))
         plt.close()
 
 
@@ -198,6 +376,20 @@ def print_counts(data):
         out.write("\n\n\n")
     return counts
 
+def read_excel_lab_file(table_file_name):
+    excel_table = pd.read_excel(table_file_name, index_col=0, skiprows=1)
+    excel_table = excel_table.fillna("empty?")
+    lab_dictionary = {}
+    for country, row in excel_table.iterrows():
+        description = row["Who"]
+        handle = row["Who to tag"]
+        if country not in lab_dictionary:
+            lab_dictionary[country] = {}
+        if description in lab_dictionary[country]:
+            print("Warning: lab description is found two times in excel table in same country (" + str(
+                country) + ", " + str(description) + ")")
+        lab_dictionary[country][description.lower()] = handle
+    return lab_dictionary
 
 # Collect all submitting and originating labs as well as authors and try to infer as many twitter handles as possible
 # from a given excel file
@@ -234,19 +426,8 @@ def collect_labs(data, table_file_name):
         if author not in authors[region][country]:
             authors[region][country].append(author)
 
-    excel_table = pd.read_excel(table_file_name, index_col=0, skiprows=1)
-    excel_table = excel_table.fillna("empty?")
-    lab_dictionary = {}
-    for country, row in excel_table.iterrows():
-        description = row["Who"]
-        handle = row["Who to tag"]
-        if country not in lab_dictionary:
-            lab_dictionary[country] = {}
-        if description in lab_dictionary[country]:
-            print("Warning: lab description is found two times in excel table in same country (" + country + ", " + description + ")" )
-        lab_dictionary[country][description.lower()] = handle
 
-
+    lab_dictionary = read_excel_lab_file(table_file_name)
     lab_UK = lab_dictionary["United Kingdom"]["COVID-19 Genomics UK Consortium".lower()]
     lab_collection = {}
 
@@ -276,13 +457,13 @@ def collect_labs(data, table_file_name):
             print(s)
 
     print("----------------------------------------------\n")
-    print("Originating labs (only printed if different from submitting lab):\n")
+    print("Originating labs (only printed if found in excel sheet):\n")
     for region in originating_labs:
         for country in originating_labs[region]:
             s = country + ":\n"
             for lab in originating_labs[region][country]:
-                s += lab
                 if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
+                    s += lab
                     s += ": "
                     k = lab_dictionary[country][lab.lower()]
                     if country == "United Kingdom":
@@ -291,17 +472,19 @@ def collect_labs(data, table_file_name):
                     for l in lab_dictionary[country][lab.lower()].split(", "):
                         if l not in lab_collection[region][country]:
                             lab_collection[region][country].append(l)
-                s += "\n"
-            print(s)
+                    s += "\n"
+            if s != country + ":\n":
+                print(s)
+
 
     print("----------------------------------------------\n")
-    print("Authors:\n")
+    print("Authors (only printed if found in excel sheet):\n")
     for region in authors:
         for country in authors[region]:
             s = country + ":\n"
             for author in authors[region][country]:
-                s += author
                 if country in lab_dictionary and author.lower() in lab_dictionary[country]:
+                    s += author
                     s += ": "
                     k = lab_dictionary[country][author.lower()]
                     if country == "United Kingdom":
@@ -310,8 +493,9 @@ def collect_labs(data, table_file_name):
                     for a in lab_dictionary[country][author.lower()].split(", "):
                         if a not in lab_collection[region][country]:
                             lab_collection[region][country].append(a)
-                s += "\n"
-            print(s)
+                    s += "\n"
+            if s != country + ":\n":
+                print(s)
 
 
     if "Europe" in lab_collection:
@@ -370,7 +554,7 @@ def filter_for_date_region(data, path_to_outputs, params):
                 myfile.write(date + ": " + str(special_strains[country][date]) + "\n")
             myfile.write("\n")
 
-def prepare_tweet(counts, lab_collection):
+def prepare_tweet(counts, total_lab_collection, lab_collection):
 
     links = {
         "Africa": "nextstrain.org/ncov/africa",
@@ -382,31 +566,30 @@ def prepare_tweet(counts, lab_collection):
     }
 
     starters = [
-        ("Check out the new sequences from ", " on "),
+        ("Check out new sequences from ", " on "),
         ("New sequences from ", " can be found on "),
-        ("You can see the new sequences from ", " on "),
-        ("You can find the new sequences from ", " on "),
+        ("You can see new sequences from ", " on "),
+        ("You can find new sequences from ", " on "),
         ("New sequences from ", " can be seen on ")
     ]
 
     starters_split = [
-        ("Check out the new sequences from ", " below"),
+        ("Check out new sequences from ", " below"),
         ("New sequences from ", " can be found below"),
-        ("You can see the new sequences from ", " below"),
-        ("You can find the new sequences from ", " below"),
+        ("You can see new sequences from ", " below"),
+        ("You can find new sequences from ", " below"),
         ("New sequences from ", " can be seen below")
     ]
 
-    the = ["USA", "United Kingdom"]
+    the = ["USA", "United Kingdom", "Democratic Republic of the Congo"]
 
-    counts_country = {region: {country: sum(counts[country].values()) for country in lab_collection[region]} for region in lab_collection}
+    counts_country = {region: {country: sum(counts[country].values()) for country in total_lab_collection[region]} for region in total_lab_collection}
     total = sum([sum(counts_country[region].values()) for region in counts_country])
 
-    start_tweet = "Thanks to #opendata sharing by @GISAID, we've updated nextstrain.org/ncov with " + str(
+    start_tweet = "Thanks to #opendata sharing via @GISAID, we've updated nextstrain.org/ncov with " + str(
         total) + " new #COVID19 #SARSCoV2 sequences!"
-    char_total = 270
+    char_total = 230
     char_available = char_total - len("Check out the new sequences from on ") - len("(Thanks to )") - len("1/1")
-    char_available_first = char_available - len(start_tweet)
 
     tweet_collection_full = {}
     tweet_collection_split = {}
@@ -445,7 +628,7 @@ def prepare_tweet(counts, lab_collection):
                     for l in lab_collection[region][country]:
                         if l not in h:
                             h.append(l)
-                c = ["the " + country + " (" + str(counts_country[region][country]) + ")" if country in the else country + " (" + str(counts_country[region][country]) + ")" for country in countries_list]
+                c = ["the " + country if country in the else country for country in countries_list]
                 r = region
                 if i > 1:
                     r += str(i)
@@ -459,32 +642,12 @@ def prepare_tweet(counts, lab_collection):
                     if l not in h:
                         h.append(l)
 
-            c = ["the " + country + " (" + str(counts_country[region][country]) + ")" if country in the else country + " (" + str(counts_country[region][country]) + ")" for country in countries_list]
+            c = ["the " + country if country in the else country for country in countries_list]
             tweet_collection_full[region] = (c, h)
-            lengths[region] = len(", ".join(c)) + len(", ".join(h)) + len(links[region])
+            lengths[region] = len(", ".join(c)) + len(", ".join(h)) + len(links.get(region, ""))
 
     tweet = []
-
-    first_region = min(lengths)
-    for region, length in sorted(lengths.items(), key=lambda x: x[1]):
-        if length > char_available_first:
-            break
-        first_region = region
-
-
-    if len(tweet_collection_full[first_region][0]) > 1:
-        c = ", ".join(tweet_collection_full[first_region][0][:-1]) + " and " + tweet_collection_full[first_region][0][-1]
-    else:
-        c = tweet_collection_full[first_region][0][0]
-    h = ", ".join(tweet_collection_full[first_region][1])
-
-    s = start_tweet + "\n\n"
-    s += "Check out the new sequences from " + c + " on " + links[first_region] + ".\n\n"
-    s += "(Thanks to " + h + ")\n\n"
-
-    tweet.append((s, "\n\n[pic_" + first_region.replace(" ", "") + "]"))
-
-    lengths.pop(first_region)
+    tweet.append((start_tweet + "\n\n", "\n\n[pic_Global]"))
 
     while len(lengths) > 0:
         current_region = min(lengths, key=lengths.get)
@@ -501,7 +664,7 @@ def prepare_tweet(counts, lab_collection):
         c = tweet_collection_full[current_region][0]
         h = tweet_collection_full[current_region][1]
         p = "[pic_" + current_region.replace(" ", "") + "]"
-        l = links[current_region]
+        l = links.get(current_region, "")
         if best_partner != "":
             current_length += lengths[best_partner]
             lengths.pop(best_partner)
@@ -555,6 +718,26 @@ def prepare_tweet(counts, lab_collection):
             (s, p) = t
             out.write(s + str(i+1) + "/" + str(len(tweet)) + p + "\n\n\n")
 
+def prepare_tweet_new_format(counts, rare_labs):
+    links = {
+        "Africa": "nextstrain.org/ncov/africa",
+        "Asia": "nextstrain.org/ncov/asia",
+        "Europe": "nextstrain.org/ncov/europe",
+        "North America": "nextstrain.org/ncov/north-america",
+        "Oceania": "nextstrain.org/ncov/oceania",
+        "South America": "nextstrain.org/ncov/south-america"
+    }
+
+    counts_country = {region: {country: sum(counts[country].values()) for country in lab_collection[region]} for region
+                      in lab_collection}
+    total = sum([sum(counts_country[region].values()) for region in counts_country])
+
+    start_tweet = "Thanks to #opendata sharing by @GISAID, we've updated nextstrain.org/ncov with " + str(
+        total) + " new #COVID19 #SARSCoV2 sequences!"
+    char_total = 260
+    char_available = char_total - len("Check out the new sequences from on ") - len("(Thanks to )") - len("1/1")
+    char_available_first = char_available - len(start_tweet)
+
 
 
 
@@ -568,14 +751,16 @@ table_file_name = path_to_input + "Who to Tag in Nextstrain Update Posts COVID-1
 today = str(datetime.datetime.now())[:10]
 
 if __name__ == '__main__':
-    data = read_data(path_to_input)
+    data, list_of_strains = read_data(path_to_input)
     data = check_dates(data, today)
-    plot_dates(data, path_to_outputs + "plots/")
+    #plot_dates(data, path_to_outputs + "plots/")
     counts = print_counts(data)
     lab_collection = collect_labs(data, table_file_name)
+
+    rare_countries, rare_labs = check_for_recency(counts, list_of_strains, lab_collection, "data/", table_file_name)
 
     # Special checks for individual user requirements (e.g. produce concise overview over strain names, provide all new
     # sequences from certain countries, etc.)
     overview_with_dates(data, path_to_outputs + "strains_overview.txt")
-    filter_for_date_region(data, path_to_outputs, ("Europe", 11))
-    prepare_tweet(counts, lab_collection)
+    prepare_tweet(counts, lab_collection, rare_labs)
+    prepare_tweet_new_format(counts, rare_labs)

@@ -4,3 +4,17 @@ description: snakemake configuration file
 
 type: object
 
+properties:
+  sequences:
+    type: string
+  metadata:
+    type: string
+  inputs:
+    type:
+      - array
+    minItems: 1
+    items:
+      type: object
+      required:
+        - name
+        - metadata

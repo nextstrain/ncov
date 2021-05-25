@@ -11,9 +11,10 @@
 <!-- WARNING -->
 
 ## Changing parameters
-Each step in the [augur workflow](orientation-workflow.md) can be parameterized; these parameters are specified in `.yaml` files.
 
+You can configure most steps of [the workflow](orientation-workflow.md) by specifying values in a `.yaml` configuration file.
 We've provided reasonable default values for each step in the `defaults/parameters.yaml`; these are the same values the Nextstrain team uses for our analyses.
+For more details, [see the reference for all workflow configuration parameters](https://nextstrain.github.io/ncov/configuration).
 
 We encourage you to take a few minutes to **skim through [the default config file](defaults/parameters.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**
 

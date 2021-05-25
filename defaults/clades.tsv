@@ -31,6 +31,8 @@ clade	gene	site	alt
 20E (EU1)	nuc	14408	T
 20E (EU1)	nuc	23403	G
 20E (EU1)	nuc	22227	T
+20E (EU1)	nuc	28932	T
+20E (EU1)	nuc	29645	T
 
 20F	nuc	1163	T
 20F	nuc	7540	C
@@ -70,3 +72,8 @@ clade	gene	site	alt
 20J/501Y.V3	nuc	5648	C
 20J/501Y.V3	nuc	12778	T
 20J/501Y.V3	nuc	13860	T
+
+21A	nuc	22917	G
+21A	nuc	27638	C
+21A	nuc	28881	T
+21A	nuc	29402	T

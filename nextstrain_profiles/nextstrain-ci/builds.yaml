@@ -1,0 +1,40 @@
+# Only use one build for CI.
+active_builds: europe
+
+# Override full GISAID data with example data for a faster build.
+inputs:
+  - name: gisaid
+    metadata: "data/example_metadata.tsv"
+    sequences: "data/example_sequences.fasta"
+
+builds:
+  # Override the default Nextstrain European build's subsampling scheme for more
+  # stable subsampling of a fixed dataset in continuous integration tests.
+  europe:
+    subsampling_scheme: nextstrain_ci_sampling
+    region: Europe
+
+subsampling:
+  # Custom subsampling logic for CI tests.
+  nextstrain_ci_sampling:
+    # Focal samples for region
+    region:
+      group_by: "division year month"
+      max_sequences: 20
+      sampling_scheme: "--no-probabilistic-sampling"
+      exclude: "--exclude-where 'region!={region}'"
+    # Contextual samples for region from the rest of the world
+    global:
+      group_by: "year month"
+      max_sequences: 10
+      sampling_scheme: "--no-probabilistic-sampling"
+      exclude: "--exclude-where 'region={region}'"
+      priorities:
+        type: "proximity"
+        focus: "region"
+
+# Set CI-specific growth settings, such that the small tree still gets logistic
+# growth values and we properly test the growth calculations script.
+logistic_growth:
+  min_tips: 0
+  max_frequency: 1.0

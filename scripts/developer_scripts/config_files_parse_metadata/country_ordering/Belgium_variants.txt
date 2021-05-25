@@ -97,6 +97,7 @@ Montaigu	Scherpenheuvel
 Spiere	Espierres
 Helkijn	Helchin
 Oudergem	Auderghem
+Auderghelm	Auderghem
 Sint-Agatha-Berchem	Berchem-Sainte-Agathe
 Brussel	Bruxelles
 Vorst	Forest
@@ -104,6 +105,7 @@ Elsene	Ixelles
 Sint-Jans-Molenbeek	Molenbeek-Saint-Jean
 Sint-Gillis	Saint-Gilles
 Sint-Joost-ten-Node	Saint-Josse-ten-Noode
+Sint-Joost-Ten-Node	Saint-Josse-ten-Noode
 Schaarbeek	Schaerbeek
 Ukkel	Uccle
 Watermaal-Bosvoorde	Watermael-Boitsfort
@@ -170,3 +172,58 @@ Heist-op-Den-Berg	Heist-op-den-Berg
 Deuurne	Deurne
 Huldenbergh	Huldenberg
 Tessenderloo	Tessenderlo
+Walloonbrabant	Brabant Wallon
+Walloon Brabant	Brabant Wallon
+Brussels-Capital	Brussels
+Luxembourg	Luxembourg BE
+Flemish Brabant	Vlaams-Brabant
+East Flanders	Oost-Vlaanderen
+Sinttruiden	Sint-Truiden
+Dilsen-Stokken	Dilsen-Stokkem
+Pont-À-Celles	Pont-à-Celles
+Lille (Antwerpen)	Lille BE
+Wallonie	Wallonia
+Westflanders	West-Vlaanderen
+Flemishbrabant	Vlaams-Brabant
+Meeuwen	Meeuwen-Gruitrode
+Gouy-Lez-Pieton	Gouy-lez-Piéton
+Meeuwen-Gruitorde	Meeuwen-Gruitrode
+Korktrijk	Kortrijk
+Zwijndracht	Zwijndrecht
+Florenne	Florennes
+Kortenborg	Kortenberg
+Berverlo	Beverlo
+Ougree	Ougrée
+Fleron	Fléron
+Marchinne-Au-Pont	Marchienne-au-Pont
+Gelbressee	Boninne - Gelbressée
+Boignee	Boignée
+Evelette	Évelette
+Brussels Capital Region	Brussels
+Sint-Josse-Ten-Node	Saint-Josse-ten-Noode
+Emines	Émines
+Achene	Achêne
+Heist-Aan-Zee	Heist
+Zandvliet	Berendrecht - Zandvliet - Lillo
+Keergbergen	Keerbergen
+Atenhoven	Attenhoven
+Fontaine-l'Eveque	Fontaine-l'Évêque
+Merkplas	Merksplas
+Buitenland	Bornem
+Mindehout	Minderhout
+Waterlo	Waterloo
+Houtehalen-Helchteren	Houthalen-Helchteren
+Charlerloi	Charleroi
+Chaumont	Chaumont-Gistoux
+Sambreffe	Sombreffe
+Keesel-Lo	Kessel-Lo
+Hoedeng-Goegnies	Houdeng-Goegnies
+Flemalle	Flémalle
+Loderzeel	Londerzeel
+Houdeng-Gœgnies	Houdeng-Goegnies
+Dorcinelle	Marcinelle
+Imde	Meise
+Concelles	Courcelles
+Sint-Jan-Molenbeek	Molenbeek-Saint-Jean
+Brabant Flamand	Vlaams-Brabant
+Roesa	Roeselare

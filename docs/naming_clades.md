@@ -29,9 +29,9 @@ We name major clades by the year they are estimated to have emerged and a letter
 
 The hierarchical structure of clades is sometimes of interest. Here, the “derivation” of a major clade can be labeled with the familiar “.” notation as in 19A.20A.20C for the major clade 20C.
 
-### Emerging Clades
+### Subclades
 
-Within these major clades, we monitor potential ‘emerging clades', which we will label by their parent clade and the nucleotide mutation(s) that defines them (ex: 19A/28688C). It should be noted however, that these mutations are only meaningful in that they define the clade. Once a subclade reaches (soft) criteria on frequency, spread, and genetic distinctiveness, it will be renamed to a major clade (hypothetically 19A/28688C to 20D).
+Within these major clades, we subclades, which we will label by their parent clade and the nucleotide mutation(s) that defines them (ex: 19A/28688C). It should be noted however, that these mutations are only meaningful in that they define the clade. Once a subclade reaches (soft) criteria on frequency, spread, and genetic distinctiveness, it will be renamed to a major clade (hypothetically 19A/28688C to 20D).
 
 
 ### Current Clades

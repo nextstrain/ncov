@@ -56,3 +56,27 @@ International traveler
 Patient seeking testing in a local hospital
 Hotel
 Hospital
+There is no abroad travel history in the last month.
+COVID-19 triage center
+Contact with a patient who lives in
+Imported
+Seaport Quarantine Station in Japan
+Unbiased surveillance
+unbiased surveillance
+Worker
+e.g. Cruise Ship, Convention, Live animal market
+Surveillance
+International Traveller
+-
+NA
+Traveller
+surveillance
+unknwon
+Local case
+Travel
+Contact with a patient with travel history
+--
+None
+None
+With History of Travel: YES
+Community Sample

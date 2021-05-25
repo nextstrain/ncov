@@ -2,9 +2,37 @@
 custom_rules:
   - workflow/snakemake_rules/export_for_nextstrain.smk
   - nextstrain_profiles/nextstrain/subsampling_ranges.smk
-  # - nextstrain_profiles/nextstrain/download_preprocessed.smk
 
-S3_BUCKET: "nextstrain-ncov-private"
+# These parameters are only used by the `export_for_nextstrain` rule and shouldn't need to be modified.
+# To modify the s3 _source_ bucket, specify this directly in the `inputs` section of the config.
+# P.S. These are intentionally set as top-level keys as this allows command-line overrides.
+S3_DST_BUCKET: "nextstrain-ncov-private"
+S3_DST_COMPRESSION: "xz"
+S3_DST_ORIGINS: ["gisaid"]
+
+genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
+use_nextalign: true
+
+# NOTE for shepherds -- there are commented out inputs here, you can
+# uncomment them to start the pipeline at that stage.
+# E.g. if you uncomment `filtered` then the pipeline
+# will start by downloading that file and proceeding straight to
+# subsampling
+inputs:
+  - name: gisaid
+    metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
+    sequences: "s3://nextstrain-ncov-private/sequences.fasta.gz"
+    # ---------------------- NOTE --------------------------
+    # PR 550 changed the path of intermediate files on
+    # the S3 bucket to include the origin (e.g. _gisaid).
+    # Some of these files may not yet exist!
+    # ------------------------------------------------------
+    # metadata: "s3://nextstrain-ncov-private/metadata_gisaid.tsv.gz"
+    # sequences: "s3://nextstrain-ncov-private/sequences_gisaid.fasta.gz"
+    # aligned: "s3://nextstrain-ncov-private/aligned_gisaid.fasta.xz"
+    # to-exclude: "s3://nextstrain-ncov-private/to-exclude_gisaid.txt.xz"
+    # masked: "s3://nextstrain-ncov-private/masked_gisaid.fasta.fasta.xz"
+    # filtered: "s3://nextstrain-ncov-private/filtered_gisaid.fasta.xz"
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
@@ -25,7 +53,6 @@ builds:
   europe:
     subsampling_scheme: nextstrain_region_grouped_by_country
     region: Europe
-    subclades: "nextstrain_profiles/nextstrain/subclades_EU.tsv"
     auspice_config: "nextstrain_profiles/nextstrain/europe_auspice_config.json"
   north-america:
     subsampling_scheme: nextstrain_region
@@ -39,6 +66,10 @@ builds:
     subsampling_scheme: nextstrain_region
     region: South America
     auspice_config: "nextstrain_profiles/nextstrain/south-america_auspice_config.json"
+
+# remove S dropout sequences and sequences without division label in US
+filter:
+  exclude_where: "division='USA' purpose_of_sequencing='S dropout'"
 
 # if different exposure traits should be used for some builds, specify here
 # otherwise the default exposure in defaults/parameters.yaml will used
@@ -99,8 +130,8 @@ traits:
 files:
   description: "nextstrain_profiles/nextstrain/nextstrain_description.md"
 
-# S3 and slack options are related to Nextstrain live builds and don't need to be modified for local builds
-s3_staging_url: s3://nextstrain-staging
+# Deploy and Slack options are related to Nextstrain live builds and don't need to be modified for local builds
+deploy_url: s3://nextstrain-data
 slack_token: ~
 slack_channel: "#ncov-gisaid-updates"
 
@@ -235,3 +266,7 @@ subsampling:
       priorities:
         type: "proximity"
         focus: "region_late"
+
+# Define frequencies parameters.
+frequencies:
+    recent_days_to_censor: 7

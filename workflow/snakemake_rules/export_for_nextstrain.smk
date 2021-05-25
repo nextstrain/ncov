@@ -42,6 +42,23 @@ rule clean_export_regions:
     shell:
         "rm -f {params}"
 
+# Build specific metadata
+rule extract_meta:
+    input:
+        alignment = rules.build_align.output.alignment,
+        metadata = _get_metadata_by_wildcards
+    output:
+        metadata = "results/{build_name}/extracted_metadata.tsv"
+    run:
+        from Bio import SeqIO 
+        import pandas as pd 
+
+        seq_names = [s.id for s in SeqIO.parse(input.alignment, 'fasta')]
+        all_meta = pd.read_csv(input.metadata, sep='\t', index_col=0, dtype=str)
+        extracted_meta = all_meta.loc[seq_names]
+        extracted_meta.to_csv(output.metadata, sep='\t')
+
+
 # Allows 'normal' run of export to be forced to correct lat-long & ordering
 # Runs an additional script to give a list of locations that need colors and/or lat-longs
 rule export_all_regions:
@@ -51,6 +68,13 @@ rule export_all_regions:
         metadata = [_get_metadata_by_build_name(build_name).format(build_name=build_name)
                     for build_name in BUILD_NAMES],
         colors = expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
+    benchmark:
+        "benchmarks/export_all_regions.txt"
+    resources:
+        # Memory use scales primarily with the size of the metadata file.
+        # Compared to other rules, this rule loads metadata as a pandas
+        # DataFrame instead of a dictionary, so it uses much less memory.
+        mem_mb=lambda wildcards, input: 5 * int(input.metadata.size / 1024 / 1024)
     conda: config["conda_environment"]
     shell:
         """
@@ -60,8 +84,39 @@ rule export_all_regions:
             --latlong {input.lat_longs}
         """
 
-rule all_mutation_frequencies:
-    input: expand("results/{build_name}/nucleotide_mutation_frequencies.json", build_name=BUILD_NAMES)
+
+rule mutation_summary:
+    message: "Summarizing {input.alignment}"
+    input:
+        alignment = rules.align.output.alignment,
+        insertions = rules.align.output.insertions,
+        translations = rules.align.output.translations,
+        reference = config["files"]["alignment_reference"],
+        genemap = config["files"]["annotation"]
+    output:
+        mutation_summary = "results/mutation_summary_{origin}.tsv.xz"
+    log:
+        "logs/mutation_summary_{origin}.txt"
+    benchmark:
+        "benchmarks/mutation_summary_{origin}.txt"
+    params:
+        outdir = "results/translations",
+        basename = "seqs_{origin}",
+        genes=config["genes"],
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/mutation_summary.py \
+            --alignment {input.alignment} \
+            --insertions {input.insertions} \
+            --directory {params.outdir} \
+            --basename {params.basename} \
+            --reference {input.reference} \
+            --genes {params.genes:q} \
+            --genemap {input.genemap} \
+            --output {output.mutation_summary} 2>&1 | tee {log}
+        """
+
 
 #
 # Rules for custom auspice exports for the Nextstrain team.
@@ -75,6 +130,8 @@ rule dated_json:
     output:
         dated_auspice_json = "auspice/ncov_{build_name}_{date}.json",
         dated_tip_frequencies_json = "auspice/ncov_{build_name}_{date}_tip-frequencies.json"
+    benchmark:
+        "benchmarks/dated_json_{build_name}_{date}.txt"
     conda: config["conda_environment"]
     shell:
         """
@@ -102,16 +159,18 @@ except:
     # means that the Snakefile won't crash.
     deploy_origin = "by an unknown identity"
 
-rule deploy_to_staging:
+rule deploy:
     input:
         *rules.all_regions.input
     params:
-        slack_message = f"Deployed <https://nextstrain.org/staging/ncov|nextstrain.org/staging/ncov> {deploy_origin}",
-        s3_staging_url = config["s3_staging_url"]
+        slack_message = f"Deployed to {config['deploy_url']} {deploy_origin}",
+        deploy_url = config["deploy_url"]
+    benchmark:
+        "benchmarks/deploy.txt"
     conda: config["conda_environment"]
     shell:
         """
-        nextstrain deploy {params.s3_staging_url:q} {input:q}
+        nextstrain deploy {params.deploy_url:q} {input:q}
 
         if [[ -n "$SLACK_TOKEN" && -n "$SLACK_CHANNEL" ]]; then
             curl https://slack.com/api/chat.postMessage \
@@ -123,23 +182,45 @@ rule deploy_to_staging:
         fi
         """
 
-rule upload:
-    message: "Uploading intermediate files to {params.s3_bucket}"
+rule upload_reference_sets:
     input:
-        "results/masked.fasta",
-        "results/aligned.fasta",
-        "results/filtered.fasta",
-        "results/sequence-diagnostics.tsv",
-        "results/flagged-sequences.tsv",
-        "results/to-exclude.txt"
+        alignments = expand("results/{build_name}/aligned.fasta", build_name=config["builds"]),
+        metadata = expand("results/{build_name}/extracted_metadata.tsv", build_name=config["builds"])
     params:
-        s3_bucket = config["S3_BUCKET"],
-        compression = config["preprocess"]["compression"]
+        s3_bucket = config.get("S3_REF_BUCKET",''),
+        compression = config["S3_DST_COMPRESSION"]
+    run:
+        for fname in input.alignments:
+            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.dirname(fname).split('/')[-1]}_alignment.fasta.{params.compression} | tee -a {log}"
+            print("upload command:", cmd)
+            shell(cmd)
+        for fname in input.metadata:
+            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.dirname(fname).split('/')[-1]}_metadata.tsv.{params.compression} | tee -a {log}"
+            print("upload command:", cmd)
+            shell(cmd)
+
+
+rule upload:
+    message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
+    input:
+        expand("results/aligned_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
+        expand("results/sequence-diagnostics_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
+        expand("results/flagged-sequences_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
+        expand("results/to-exclude_{origin}.txt.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
+        expand("results/masked_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
+        expand("results/filtered_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
+        expand("results/mutation_summary_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary
+        expand("results/{build_name}/{build_name}_subsampled_sequences.fasta.xz", build_name=config["builds"]),
+        expand("results/{build_name}/{build_name}_subsampled_metadata.tsv.xz", build_name=config["builds"]),
+    params:
+        s3_bucket = config["S3_DST_BUCKET"],
     log:
-        "logs/upload.txt"
+        "logs/upload_gisaid.txt"
+    benchmark:
+        "benchmarks/upload_gisaid.txt"
     run:
         for fname in input:
-            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)}.{params.compression} | tee -a {log}"
+            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)} | tee -a {log}"
             print("upload command:", cmd)
             shell(cmd)
 

@@ -18,7 +18,7 @@ To use Nextstrain to analyze your own data, you'll need to prepare two files:
 1. A `fasta` file with viral genomic sequences
 2. A corresponding `tsv` file with metadata describing each sequence
 
-We've created an example dataset in the `data` directory. This consists of a fasta file with viral genomes sourced from Genbank, and a corresponding TSV with metadata describing these sequences.
+We've created an example dataset in the `data` directory. This consists of a compressed FASTA file with viral genomes sourced from Genbank (`example_sequences.fasta.gz`) and a corresponding TSV with metadata describing these sequences (`example_metadata.tsv`).
 
 ### Formatting your sequence data
 
@@ -28,8 +28,8 @@ The first 2 lines in `data/sequences.fasta` look like this:
 ATTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATC.....
 ```
 **The first line is the `strain` or `name` of the sequence.**
-Names in FASTA files always start with the `>` character (this is not part of the name), and may not contain spaces or `()[]{}|#><`.
-Note that "strain" here carries no biological or functional significance and should be thought of as synonymous with "sample."
+Lines with names in FASTA files always start with the `>` character (this is not part of the name), and may not contain spaces or `()[]{}|#><`.
+Note that "strain" here carries no biological or functional significance and should largely be thought of as synonymous with "sample."
 
 The sequence itself is a **[consensus genome](https://en.wikipedia.org/wiki/Consensus_sequence#:~:text=In%20molecular%20biology%20and%20bioinformatics,position%20in%20a%20sequence%20alignment.)**.
 
@@ -61,10 +61,10 @@ A valid metadata file must include the following fields:
 
 | Field | Example value | Description | Formatting |
 |---|---|---|---|
-|`strain` or `name`| `NewZealand/01/2020` | Sample name / ID | Each header in the fasta file must exactly match a `strain` value in the metadata. Characters `()[]{}|#><` are disallowed |
+|`strain` or `name`| `Australia/NSW01/2020` | Sample name / ID | Each header in the fasta file must exactly match a `strain` value in the metadata. Characters `()[]{}|#><` are disallowed |
 |`date` | `2020-02-27`, `2020-02-XX`, `2020-XX-XX` | Date of _sampling_ | `YYYY-MM-DD`; ambiguities can be indicated with `XX`|
 |`virus`|`ncov`|Pathogen name|Needs to be consistent|
-|`region`|"Africa", "Asia", "Europe", "North America", "Oceania" or "South America"|Global region of _sampling_ ||
+|`region`|`Africa`, `Asia`, `Europe`, `North America`, `Oceania` or `South America`|Global region of _sampling_ ||
 
 Please be aware that **our current pipeline will filter out any genomes with an unknown date - you can change this in your own pipeline.**
 
@@ -103,16 +103,17 @@ Making inferences about a sample's origin is strongly dependent on the makeup of
 
 To address this, we strongly recommend adding contextual background sequences to your dataset. To make this easier, we provide a continually-updated dataset, pre-formatted for Nextstrain, through [GISAID](https://gisaid.org). To download this dataset:
 
-1. Log into GISAID's EpiCoV site
-2. Click "Downloads" to bring up a modal window
-3. In this window click on "nextmeta" to download the file `nextstrain_metadata.tsv.bz2`.
-This should be decompressed and saved as `data/global_metadata.tsv`.
-4. Then, in this window click on "nextfasta" to download the file `nextstrain_sequences.fasta.bz2`.
-This should be decompressed and saved as `data/global_sequences.fasta`.
+1. Register for a GISAID account if you don't have one already and then log into GISAID's EpiCoV database.
+2. Click "Downloads" to bring up a modal window.
+3. If you scroll down to the bottom of this modal window you should see a heading of "Genomic epidemiology" that includes entries "FASTA" and "metadata".
+4. Click on "metadata" to download a compressed file of the form `metadata_2021-04-08_08-30.tsv.gz`. Uncompress this file and save as `data/gisaid_metadata.tsv`.
+5. Click on "FASTA" to download a compressed file of the form `sequences_2021-04-08_08-30.fasta.gz`. Keep this file compressed and save as `data/gisaid_sequences.fasta.gz`.
 
 ![gisaid_downloads](images/gisaid_downloads.png)
 
-You can concatenate these files with your own; make sure the TSV fields are in the same order.
+GISAID maintains multiple tiers of access and many users of GISAID will initially lack access to the "FASTA" and "metadata" under "Genomic epidemiology" (the entries will just be absent). If you find that these files are missing for you, you'll need to email GISAID at hCoV-19@gisaid.org to request access to the specific "FASTA" and "metadata" files under "Genomic epidemiology". Somewhat confusingly, there are separate "FASTA" and "metadata" entries listed under the heading "Download packages". These files are a slightly different format and are not directly compatible with the Nextstrain ncov pipeline. Please feel free to let us know at [discussion.nextstrain.org](https://discussion.nextstrain.org/t/nextmeta-and-nextfasta-not-on-gisaid/224) if you're having difficulties accessing these files.
+
+The Nextstrain team uses this pipeline to include the latest sequences and metadata from GISAID in our builds: [nextstrain/ncov-ingest](https://github.com/nextstrain/ncov-ingest).
 
 ### Subsampling
 
@@ -234,7 +235,6 @@ Typically written as "LastName et al".
 In our example, this is "Storey et al".
 This will show up in auspice when clicking on the tip in the tree which brings up an info box.
 
-
 **Column 21: `url`**
 
 The URL, if available, pointing to the genome data.
@@ -248,7 +248,6 @@ The URL, if available, of the publication announcing these genomes.
 
 Date the genome was submitted to a public database (most often GISAID).
 In `YYYY-MM-DD` format (see `date` for more information on this formatting).
-
 
 ## [Previous Section: Setup and installation](setup.md)
 ## [Next Section: Orientation: workflow](orientation-workflow.md)

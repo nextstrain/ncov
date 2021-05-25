@@ -4,21 +4,41 @@
   "maintainers": [
     {"name": "the Nextstrain team", "url": "https://nextstrain.org/"}
   ],
+  "data_provenance": [
+    {
+      "name": "GISAID"
+    }
+  ],
   "colorings": [
     {
-      "key": "subclade_membership",
-      "title": "Emerging Clade",
+      "key": "emerging_lineage",
+      "title": "Emerging Lineage",
       "type": "categorical"
     },
     {
-      "key": "pangolin_lineage",
-      "title": "Pangolin Lineage",
+      "key": "pango_lineage",
+      "title": "PANGO Lineage",
       "type": "categorical"
     },
     {
       "key": "GISAID_clade",
       "title": "GISAID Clade",
       "type": "categorical"
+    },
+    {
+      "key": "S1_mutations",
+      "title": "S1 mutations",
+      "type": "continuous"
+    },
+    {
+      "key": "logistic_growth",
+      "title": "Logistic growth",
+      "type": "continuous"
+    },
+    {
+      "key": "current_frequency",
+      "title": "Current frequency",
+      "type": "continuous"
     },
     {
       "key": "location",
@@ -109,19 +129,20 @@
     "color_by": "clade_membership",
     "distance_measure": "num_date",
     "geo_resolution": "division",
-    "map_triplicate": true,
+    "map_triplicate": false,
     "branch_label": "clade",
-    "transmission_lines": false    
+    "transmission_lines": false
   },
   "filters": [
     "recency",
     "clade_membership",
+    "emerging_lineage",
     "region",
     "country",
     "division",
     "location",
     "host",
-    "author"
+    "pango_lineage"
   ],
   "panels": [
     "tree",

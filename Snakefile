@@ -1,11 +1,15 @@
 import copy
 from datetime import date
 import os
+from pathlib import Path
+import sys
 from os import environ
 from socket import getfqdn
 from getpass import getuser
 from snakemake.logging import logger
 from snakemake.utils import validate
+from collections import OrderedDict
+import textwrap
 import time
 
 # Store the user's configuration prior to loading defaults, so we can check for
@@ -31,7 +35,12 @@ import time
 user_subsampling = copy.deepcopy(config.get("subsampling", {}))
 
 configfile: "defaults/parameters.yaml"
+
+# Check config file for errors
 validate(config, schema="workflow/schemas/config.schema.yaml")
+# Convert inputs (YAML array) into an OrderedDict with keys of "name" for use by the pipeline. String values are ignored.
+if isinstance(config.get("inputs"), list):
+    config["inputs"] = OrderedDict((v["name"], v) for v in config["inputs"])
 
 # Check for overlapping subsampling schemes in user and default
 # configurations. For now, issue a deprecation warning, so users know they
@@ -55,13 +64,37 @@ if len(overlapping_schemes) > 0:
     logger.warning("")
     time.sleep(5)
 
-# default build if none specified in config
+# Assign a default build if none are specified in the config. Users can define a
+# `default_build_name` in their builds config without assigning any other build
+# information. Otherwise, we use a generic name for the default build.
 if "builds" not in config:
     config["builds"] = {
-        "global": {
-            "subsampling_scheme": "region_global",
+        config.get("default_build_name", "default-build"): {
+            "subsampling_scheme": "all",
         }
     }
+
+include: "workflow/snakemake_rules/reference_build_definitions.smk"
+
+# Check for old-style input file references and alert users to the new format.
+if "sequences" in config or "metadata" in config:
+    logger.error("ERROR: Your configuration file includes references to an unsupported specification of input files (e.g., `config['sequences']` or `config['metadata']`).")
+    logger.error("Update your configuration file (e.g., 'builds.yaml') to define your inputs as follows and try running the workflow again:")
+    logger.error(textwrap.indent(
+        f"\ninputs:\n  name: local-data\n  metadata: {config['metadata']}\n  sequences: {config['sequences']}\n",
+        "  "
+    ))
+    sys.exit(1)
+
+# Check for missing inputs.
+if "inputs" not in config:
+    logger.error("ERROR: Your workflow does not define any input files to start with.")
+    logger.error("Update your configuration file (e.g., 'builds.yaml') to define at least one input dataset as follows and try running the workflow again:")
+    logger.error(textwrap.indent(
+        f"\ninputs:\n  name: local-data\n  metadata: data/example_metadata.tsv\n  sequences: data/example_sequences.fasta.gz\n",
+        "  "
+    ))
+    sys.exit(1)
 
 # Allow users to specify a list of active builds from the command line.
 if config.get("active_builds"):
@@ -81,13 +114,14 @@ wildcard_constraints:
     # Allow build names to contain alpha characters, underscores, and hyphens
     # but not special strings used for Nextstrain builds.
     build_name = r'(?:[_a-zA-Z-](?!(tip-frequencies)))+',
-    date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
+    date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]",
+    origin = r"[a-zA-Z0-9-_]+"
 
 #Load default prefix if not in config file
 if "auspice_json_prefix" not in config:
     config["auspice_json_prefix"] = "ncov"
 
-localrules: download_metadata, download_sequences, download, upload, clean
+localrules: download_metadata, download_sequences, clean
 
 # Create a standard ncov build for auspice, by default.
 rule all:
@@ -103,12 +137,21 @@ rule clean:
     shell:
         "rm -rfv {params}"
 
+rule dump_config:
+    run:
+        import yaml, sys
+        yaml.dump(config, sys.stdout, explicit_start = True, explicit_end = True)
+
 # Include small, shared functions that help build inputs and parameters.
 include: "workflow/snakemake_rules/common.smk"
 
 # Include rules to handle primary build logic from multiple sequence alignment
 # to output of auspice JSONs for a default build.
 include: "workflow/snakemake_rules/main_workflow.smk"
+
+# Include rules to allow downloading of input-specific files from s3 buckets.
+# These have to be opted-into via config params.
+include: "workflow/snakemake_rules/download.smk"
 
 # Include a custom Snakefile that specifies `localrules` required by the user's
 # workflow environment.
