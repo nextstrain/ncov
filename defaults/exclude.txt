@@ -2186,3 +2186,9 @@ USA/WA-UW-4130/2020
 
 # Date
 USA/IL-RIPHL_30044_G/2021
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1621963221128700
+USA/WA-UW-24920/2020
+USA/MDH-7761/2020
+Australia/VIC16738/2020
+SouthKorea/KDCA3594/2020
