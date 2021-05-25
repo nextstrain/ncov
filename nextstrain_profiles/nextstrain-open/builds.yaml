@@ -11,6 +11,15 @@ S3_REF_BUCKET: "nextstrain-data/ncov-reference-datasets"
 S3_DST_COMPRESSION: "xz"
 S3_DST_ORIGINS: ["open"]
 
+# Build sizes are specific to this profile. For each specified build (defined below under `builds`)
+# we will create as many builds as there are keys in `build_sizes`, and the name of these builds
+# will be changed to have the build size appended (e.g. `global` -> `global-xsmall`).
+# (Note: the build size `standard` is not appended, i.e. the original build name remains unchanged.)
+# Each build will have it's own subsampling scheme, which is a copy of the one specified by
+# the build but with the build size appended (e.g. build `global` specifies `nextstrain_region_global`,
+# build `global-xsmall will specify `nextstrain_region_global_xsmall`).
+# The copy of this scheme will be the same as defined in this file with one difference:
+# any `max_sequences` parameters less than 1.0 will be multiplied by the value supplied below. 
 build_sizes:
   standard: 4000
   small: 2000
