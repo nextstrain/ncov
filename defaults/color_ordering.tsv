@@ -534,6 +534,7 @@ location	Rudraprayag
 location	Chamoli
 
 # Punjab IN
+location	Mohali
 location	Rupnagar
 
 # Himachal Pradesh
@@ -626,14 +627,17 @@ location	Magura
 location	Jhenaidah
 
 # Dhaka
+location	Kalukhali Upazila
 location	Farmgate
 location	Rajbari
+location	Rajbari Sadar Upazila
 location	Faridpur
 location	Tangail
 location	Manikganj
 location	Madaripur
 location	Dhamrai
 location	Savar
+location	Shariatpur Sadar Upazila
 location	Shariatpur
 location	Keraniganj
 location	Mohammadpur
@@ -649,6 +653,7 @@ location	Panthapath
 location	Tejgaon
 location	Rahmatganj
 location	Cantonment
+location	Naria Upazila
 location	Banani
 location	Gulshan
 location	Moghbazar
@@ -659,6 +664,10 @@ location	Baridhara
 location	Ashkona
 location	Gazipur
 location	Jatrabari
+location	Damudya Upazila
+location	Basundhara Residential Area
+location	Bhedarganj Upazila
+location	Gosairhat Upazila
 location	Narayanganj
 location	Munshiganj
 location	Narsingdi
@@ -1415,7 +1424,7 @@ location	Torres Novas
 
 # Leiria
 location	Peniche
-location	Obidos
+location	Obidos PT
 location	Caldas Da Rainha
 location	Alcobaca PT
 
@@ -3442,6 +3451,7 @@ location	Beernem
 location	Zedelgem
 location	Loppem
 location	Oostkamp
+location	Oedelem
 location	Sint-Michiels
 location	Jabbeke
 location	Varsenare
@@ -3451,6 +3461,7 @@ location	Sint-Kruis
 location	Moerkerke
 location	Damme
 location	Zuienkerke
+location	Dudzele
 location	Blankenberge
 location	Zeebrugge
 location	Knokke-Heist
@@ -3549,6 +3560,7 @@ location	Lovendegem
 location	Asper
 location	Gavere
 location	Mariakerke
+location	Zwijnaarde
 location	Gent
 location	Merelbeke
 location	Sint-Amandsberg
@@ -5725,6 +5737,7 @@ location	Zarow
 location	Bojanice
 location	Przylesie
 location	Lutomia Dolna
+location	Gora (Dolnośląskie)
 location	Pieszyce
 location	Sroda Slaska
 location	Mikowice
@@ -5843,7 +5856,7 @@ location	Czapury
 location	Poznan-Wilda
 location	Poznan
 location	Baranowo
-location	Gora
+location	Gora (Wielkopolskie)
 location	Koziegłowy
 location	Rogozno
 location	Kamionki
@@ -6164,6 +6177,7 @@ location	Justynow
 location	Oswiecim
 location	Bulowice
 location	Chrzanow
+location	Wadowice
 location	Olkusz
 location	Suchabeskidzka
 location	Olewin
@@ -6230,13 +6244,16 @@ location	Stronie
 location	Kepanow
 location	Wola Batorska
 location	Lapanow
+location	Proszowice
 location	Ksiaznice
 location	Klaj
 location	Limanowa
 location	Bochnia
 location	Siekierczyna
 location	Przyszowa
+location	Brzesko
 location	Tymowa
+location	Nowy Sacz
 location	Jelna
 location	Piatkowa
 location	Lopon
@@ -6246,6 +6263,7 @@ location	Tarnow
 location	Dąbrowa Tarnowska
 location	Zawada
 location	Brzezowka
+location	Gorlice
 location	Nowa Wieś
 
 # Swietokrzyskie
@@ -7169,6 +7187,7 @@ location	Kubinka
 location	Naro-Fominsk
 location	Zvenigorod
 location	Kalininets
+location	Solnechnogorsk
 location	Zelenograd
 location	Troitsk
 location	Rublevo
@@ -7633,7 +7652,7 @@ location	Carcaraña
 location	Capitan Bermudez
 location	Fray Luis Beltran
 location	Ricardone
-location	San Lorenzo
+location	San Lorenzo AR
 location	Puerto Gral San Martin
 location	Totoras
 location	Las Rosas
@@ -7913,6 +7932,18 @@ location	Pozo Almonte
 # Arica and Parinacota
 location	Arica
 
+### Paraguay
+# Central
+location	Lambare
+location	Fernando de la Mora
+location	Ñemby
+location	San Lorenzo PY
+location	Luque
+location	Limpio
+location	Capiata
+location	Juan Augusto Saldívar
+location	Itaugua
+
 ### Bolivia
 # Chuquisaca
 location	Sucre BO
@@ -7922,6 +7953,10 @@ location	El Torno
 location	Pailon
 
 ### Brazil
+# Acre
+location	Rodrigues Alves
+location	Cruzeiro do Sul
+
 # Amazonas BR
 location	Tabatinga
 location	Santo Antônio do Içá
@@ -7954,6 +7989,10 @@ location	Parintins
 location	Sao Miguel do Guapore
 location	Jaru
 location	Porto Velho
+
+# Roraima
+location	Boa Vista
+location	Bonfim
 
 # Mato Grosso
 location	Cuiaba
@@ -8101,8 +8140,27 @@ location	Vista Gaucha
 location	Candelaria
 
 # Para
+location	Juruti
+location	Obidos BR
+location	Prainha
 location	Breves
-location	Belem do Para
+location	Cametá
+location	Conceição do Araguaia
+location	Marabá
+location	Cachoeira do Arari
+location	Moju
+location	Belém
+location	Ananindeua
+location	Santa Isabel do Pará
+location	Santo Antônio do Tauá
+location	Concórdia do Pará
+location	Castanhal
+location	Igarapé-Açú
+location	Santa Maria do Pará
+location	São Miguel do Guamá
+location	Nova Timboteua
+location	Paragominas
+location	Garrafão do Norte
 location	Quatipuru
 location	Tracuateua
 location	Braganca
@@ -8173,6 +8231,11 @@ location	Colombo
 location	Sao Jose Dos Pinhais
 location	Campina Grande do Sul
 location	Paranagua
+
+# Amapa
+location	Santana BR
+location	Macapá
+location	Cutias
 
 # Santa Catarina
 location	Planalto Alegre
@@ -8528,7 +8591,7 @@ location	Itanhaem
 location	Campo Limpo Paulista
 location	Sao Joao Da Boa Vista
 location	Taboao Da Serra
-location	Amparo
+location	Amparo (São Paulo)
 location	Espirito Santo do Pinhal
 location	Francisco Morato
 location	Divinolandia
@@ -8585,20 +8648,22 @@ location	Cunha
 location	Guaira
 
 # Maranhão
+location	Balsas
 location	Imperatriz
-location	Santa Ines
-location	Cajapio
-location	Miranda do Norte
-location	Peritoro
-location	Rosario BR
-location	Sao Luis
-location	Pirapemas
-location	Cachoeira Grande
-location	Sao Jose de Ribamar
-location	Vargem Grande
-location	Caxias
-location	Anapurus
 location	Timon
+location	Caxias
+location	Peritoro
+location	Pirapemas
+location	Anapurus
+location	Santa Ines
+location	Miranda do Norte
+location	Vargem Grande
+location	Rosario BR
+location	Cachoeira Grande
+location	Cajapio
+location	Sao Luis
+location	Sao Jose de Ribamar
+location	Paco do Lumiar
 
 # Minas Gerais
 location	Ituiutaba
@@ -8726,7 +8791,14 @@ location	Sao Francisco de Itabapoana
 location	Sao Joao Da Barra
 
 # Piaui
+location	São João do Piauí
+location	Canto do Buriti
+location	São João Da Canabrava
+location	Prata do Piauí
 location	Terezina
+location	Teresina
+location	Pedreiras
+location	União
 location	Parnaiba
 
 # Bahia
@@ -8746,6 +8818,7 @@ location	Itajuipe
 location	Itapitanga
 location	Caetanos
 location	Itacare
+location	Nazaré
 location	Salvador
 location	Santo Antonio de Jesus
 location	Sao Sebastiao do Passe
@@ -8783,6 +8856,7 @@ location	Rochedo
 # Ceará
 location	Arneiroz
 location	Fortaleza
+location	Tururu
 
 # Sergipe
 location	Tomar do Geru
@@ -8805,6 +8879,7 @@ location	Caninde de Sao Francisco
 
 # Pernambuco
 location	Araripina
+location	Petrolina
 location	Serra Talhada
 location	Petrolandia
 location	Tabira
@@ -8850,28 +8925,50 @@ location	Paulista
 location	Olinda
 
 # Rio Grande do Norte
+location	Riacho de Santana
+location	Água Nova
+location	Pau Dos Ferros
+location	Caicó
+location	Santana do Matos
+location	Currais Novos
+location	Santa Cruz BR
+location	João Câmara
+location	Paranamirim
+location	São José de Mipibu
 location	Natal
 
 # Paraiba
+location	Cajazeiras
 location	Marizopolis
 location	Carrapateira
 location	Sousa
+location	Aguiar
+location	Itaporanga
+location	Pombal
+location	Catole do Rocha
 location	Riacho Dos Cavalos
+location	Água Branca
 location	Sao Jose do Brejo do Cruz
+location	Patos
 location	Monteiro
+location	Amparo (Paraiba)
+location	Sume
 location	Coxixola
 location	Sossego
 location	Olivedos
+location	Nova Floresta
 location	Cuite
 location	Queimadas
 location	Campina Grande
 location	Cacimba de Dentro
 location	Areia
+location	Umbuzeiro
 location	Riachao
 location	Alagoa Grande
 location	Inga
 location	Itabaiana
 location	Pilar BR
+location	Juripiranga
 location	Sape
 location	Pedras de Fogo
 location	Rio Tinto
@@ -9134,7 +9231,7 @@ location	La Dorada
 # Boyaca
 location	Santa Sofia
 location	Togui
-location	Santana
+location	Santana CO
 location	Tunja
 location	Sogamoso
 
@@ -9636,12 +9733,14 @@ location	Asotin County
 location	Humboldt County
 location	Grand Princess Cruise Ship
 location	Mendocino County
+location	Trinity County CA
 location	Sonoma County
 location	Lake County CA
 location	Marin County
 location	San Francisco
 location	San Francisco County
 location	Redding
+location	Glenn County
 location	San Mateo County
 location	Napa County
 location	Tehama County
@@ -9665,6 +9764,7 @@ location	Modesto
 location	Nevada County
 location	Merced County
 location	Placer County
+location	Lassen County
 location	Amador County
 location	El Dorado County
 location	San Luis Obispo County
@@ -9944,7 +10044,7 @@ location	Greater Houston Area
 location	Smith County
 location	San Jacinto County
 location	Rusk
-location	Trinity County
+location	Trinity County TX
 location	Red River County
 location	Galveston County
 location	Camp County
@@ -10834,6 +10934,7 @@ division	Asia
 division	Chattogram
 division	Barishal
 division	Khulna
+division	Cumilla
 division	Dhaka
 division	Rajshahi
 division	Bangladesh
@@ -11233,6 +11334,7 @@ division	Benue State
 division	Plateau State
 division	Bauchi
 division	Adamawa
+division	Maiduguri
 division	Borno State
 
 ### Tunisia
@@ -12019,21 +12121,40 @@ division	Southeastern Region
 ### Greece
 division	Ionian Islands
 division	Epirus
+division	Kastoria
+division	Florina
+division	Grevena
 division	Western Macedonia
+division	Ptolemaida
+division	Amyntaio
 division	Western Greece
+division	Kozani
+division	Arnissa
 division	Greece
+division	Edessa
+division	Aridaia
 division	Thessaly
+division	Skydra
+division	Imathia
+division	Veria
 division	Peloponnese
+division	Giannitsa
+division	Goumenissa
+division	Katerini
+division	Kilkis
 division	Central Macedonia
 division	Thrace
 division	Thessaloniki
 division	Central Greece
+division	Chalkidiki
+division	Serres
 division	Athens
 division	Attica
 division	Evros
 division	Drama
 division	Crete
 division	Xanthi
+division	Naousa
 division	Rodopi
 division	South Aegean
 division	North Aegean
@@ -12350,6 +12471,8 @@ division	Arica and Parinacota
 
 ### Paraguay
 division	Paraguay
+division	Asuncion
+division	Central
 
 ### Bolivia
 division	Tarija
