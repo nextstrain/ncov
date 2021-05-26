@@ -889,6 +889,7 @@ location	Sleman
 
 # Central Java
 location	Cilacap
+location	Brebes
 location	Purwokerto
 
 # East Java
@@ -897,6 +898,10 @@ location	Pasuruan
 location	Sidoarjo
 location	Surabaya
 location	Gresik
+
+# Center Kalimantan
+location	Kotawaringin Barat
+location	Kotawaringin Timur
 
 # Bali
 location	Tabanan
@@ -1035,8 +1040,14 @@ location	Sangalkam
 location	Diamniadio
 
 # Thies
+location	Joal-Fadiouth
 location	Mbour
+location	Thiadiaye
 location	Saly Portudal
+location	Guereo
+location	Popenguine
+location	Khombole
+location	Tivaoune
 
 # Diourbel
 location	Touba
@@ -1558,6 +1569,7 @@ location	Tarifa
 location	Algeciras
 location	San Roque ES
 location	La Linea de la Concepcion
+location	Palma del Rio
 location	Pajara
 location	Ronda
 location	Aguadulce ES
@@ -3517,6 +3529,7 @@ location	Templeuve
 location	Hertain
 location	Dottignies
 location	Blandain
+location	Bailleul
 location	Estaimbourg
 location	Ramegnies-Chin
 location	Froyennes
@@ -5553,6 +5566,7 @@ location	Ratíškovice
 
 # Olomouc Region
 location	Tištín
+location	Držovice
 location	Litovel
 location	Sumperk
 location	Písařov
@@ -6665,6 +6679,7 @@ location	Trencianska Tepla
 location	Nova Dubnica
 location	Bolesov
 location	Dubnica nad Vahom
+location	Bobot
 location	Hornany
 location	Ilava
 location	Timoradza
@@ -6819,6 +6834,7 @@ location	Bartosova Lehotka
 location	Krupina
 location	Zvolen
 location	Donovaly
+location	Vígľašská Huta-Kalinka
 location	Velky Krtis
 location	Horne Strhare
 location	Zelovce
@@ -6885,6 +6901,7 @@ location	Stropkov
 location	Turany nad Ondavou
 location	Vranov nad Toplov
 location	Sedliska
+location	Hencovce
 location	Humenne
 location	Medzilaborce
 location	Dlhe nad Cirochou
@@ -7606,7 +7623,9 @@ location	Villa Maria
 location	Santa Rosa de Calamuchita
 location	Oliva AR
 location	Villa Dolores
+location	Villa del Rosario
 location	Cordoba Villa El Libertador
+location	Villa Carlos Paz
 location	Cordoba AR
 location	San Francisco AR
 location	Saldan
@@ -8034,6 +8053,7 @@ location	Alcinópolis
 location	Sonora
 
 # Rio Grande do Sul
+location	Santa Vitoria do Palmar
 location	Rio Grande BR
 location	Pelotas
 location	Bage
@@ -8066,6 +8086,9 @@ location	Sapucaia do Sul
 location	Xangri-la
 location	Taquari
 location	São Leopoldo
+location	Alegrete
+location	Uruguaiana
+location	Capao Da Canoa
 location	Novo Cabrais
 location	Vera Cruz (Rio Grande do Sul)
 location	Portão
@@ -8112,6 +8135,8 @@ location	Cambará do Sul
 location	Flores Da Cunha
 location	Cotipora
 location	Arvorezinha
+location	Guapore
+location	Nova Bassano
 location	Espumoso
 location	Serafina Correa
 location	Nova Araça
@@ -8199,10 +8224,12 @@ location	Fenix
 location	Maringa
 location	Sao Joao do Ivai
 location	Pitanga
+location	Mandaguari
 location	Ivaipora
 location	Astorga BR
 location	Pinhao
 location	Borrazopolis
+location	Apucarana
 location	Rolandia
 location	Candido de Abreu
 location	Cambe
@@ -8215,16 +8242,20 @@ location	Reboucas
 location	Cornelio Procopio
 location	Irati
 location	Congonhinhas
+location	Sao Mateus do Sul
 location	Bandeirantes
+location	Ibaiti
 location	Ponta Grossa
 location	Carambei
 location	Santo Antonio Da Platina
 location	Cambara
 location	Castro
+location	Wenceslau Braz
 location	Lapa
 location	Campo Largo
 location	Pien
 location	Araucaria
+location	Itaperucu
 location	Almirante Tamandare
 location	Curitiba
 location	Colombo
@@ -8240,10 +8271,15 @@ location	Cutias
 # Santa Catarina
 location	Planalto Alegre
 location	Chapeco
+location	Lajeado Grande
 location	Concordia BR
+location	Joacaba
+location	Porto Uniao
 location	Irineopolis
 location	Canoinhas
 location	Lages
+location	Salete
+location	Praia Grande SC
 location	Sao Joaquim
 location	Itaiopolis
 location	Mafra BR
@@ -8612,7 +8648,7 @@ location	Maua
 location	Jose Bonifacio
 location	Cubatao
 location	Ribeirao Pires
-location	Praia Grande
+location	Praia Grande SP
 location	Rio Grande Da Serra
 location	Sao Vicente
 location	Piracaia
@@ -8672,6 +8708,7 @@ location	Uberaba
 location	Coromandel
 location	Patrocinio
 location	Araxa
+location	Unai
 location	Paracatu
 location	Pocos de Caldas
 location	Ibitiura de Minas
@@ -8685,7 +8722,9 @@ location	Nova Serrana
 location	Divinopolis
 location	Januaria
 location	Esmeraldas BR
+location	Sete Lagoas
 location	Betim
+location	Ibirite
 location	Confins
 location	Belo Horizonte
 location	Lagoa Santa
@@ -8695,6 +8734,7 @@ location	Barbacena
 location	Ouro Branco
 location	Jaiba
 location	Desterro do Melo
+location	Barao de Cocais
 location	Mariana
 location	Santo Antonio do Aventureiro
 location	Alem do Paraiba
@@ -8769,6 +8809,7 @@ location	Sao Pedro Da Aldeia
 location	Aperibe
 location	Itaocara
 location	Trajano de Moraes
+location	Porciuncula
 location	Arraial do Cabo
 location	Cabo Frio
 location	Santa Maria Madalena
@@ -8781,6 +8822,7 @@ location	Armacao Dos Buzios
 location	Varre Sai
 location	Conceicao de Macabu
 location	Macaé
+location	Sao Fidelis
 location	Italva
 location	Bom Jesus do Itabapoana
 location	Carapebus
@@ -8838,6 +8880,7 @@ location	Marataizes
 location	Barra do Sao Francisco
 location	Santa Maria de Jetiba
 location	Aguia Branca
+location	Domingos Martins
 location	Vila Pavao
 location	Santa Teresa
 location	Sao Gabriel Da Palha
@@ -9682,8 +9725,10 @@ location	Jefferson County OR
 location	Wasco County
 location	Deschutes County
 location	Sherman County
+location	Lake County OR
 location	Crook County
 location	Gilliam County
+location	Morrow County OR
 location	Grant County OR
 location	Harney County
 location	Umatilla County
@@ -10790,6 +10835,7 @@ division	Qom
 division	Karaj
 division	Tehran
 division	Iran
+division	Shiraz
 division	Gorgan
 division	Semnan
 division	Yazd
@@ -11165,9 +11211,6 @@ division	Australian Capital Territory
 division	Papua New Guinea
 division	West New Britain
 division	East New Britain
-
-### Guam
-division	Guam
 
 ### New Zealand
 division	Southern
@@ -12837,6 +12880,7 @@ division	Maine
 division	Puerto Rico
 division	Virgin Islands
 division	Diamond Princess
+division	Guam
 division	Northern Mariana Islands
 
 ### Canada
@@ -12906,7 +12950,6 @@ country	Japan
 country	French Polynesia
 country	Australia
 country	Papua New Guinea
-country	Guam
 country	New Zealand
 
 # Africa
