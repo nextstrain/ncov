@@ -631,3 +631,8 @@ Each named traits configuration (`default` or build-named) supports the followin
 * type: string
 * description: Arguments specific to the tree method (`iqtree`) to be passed through to the tree builder command run by `augur tree`.
 * default: `'-ninit 10 -n 4'`
+
+## auspice_json_prefix
+* type: string
+* description: Prefix to use for Auspice JSON outputs. Change this value to produce JSONs named like `auspice/<your_prefix>_global.json` for a build named `global`, for example. If you are using [Nextstrain's Community Sharing](https://docs.nextstrain.org/en/latest/guides/share/community-builds.html) to view your builds, set this value to your GitHub repository name and the `ncov` default. For example, if your repository is named `evolution`, set `auspice_json_prefix: evolution_ncov` to get JSONs you can view your `global` build at https://nextstrain.org/community/*your_github_organization*/evolution/ncov/global.
+* default: `ncov`
