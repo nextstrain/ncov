@@ -8,9 +8,13 @@ if config.get('us_state_builds'):
             "auspice_config": "nextstrain_profiles/nextstrain/north-america_auspice_config.json"
         }
 
+# If `build_sizes` are specified we want to create copies of
+# the builds (one per build size) and create corresponding copies
+# of the subsampling schemes and trait definitions.
 if config.get("build_sizes"):
     from copy import deepcopy
 
+    # Duplicate the subsampling schemes
     new_schemes = {}
     for scheme in config['subsampling']:
         for size, N in config["build_sizes"].items():
@@ -23,6 +27,16 @@ if config.get("build_sizes"):
 
     config['subsampling'].update(new_schemes)
 
+    # duplicate any trait definitions so that there's one per build
+    for build_name in list(config.get("traits", {}).keys()):
+        if build_name not in config['builds']:
+            continue
+        for size in config["build_sizes"]:
+            if size=='standard':
+                continue
+            config['traits'][build_name+"-"+size] = config['traits'][build_name]
+    
+    # duplicate the builds themselves
     new_builds = {}
     for build in config['builds']:
         for size, N in config["build_sizes"].items():
