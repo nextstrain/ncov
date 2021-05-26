@@ -1579,6 +1579,7 @@ location	Pozoblanco
 location	Santaella
 location	Torrenueva
 location	Montilla
+location	Fuengirola
 location	Benalmadena
 location	Antequera
 location	Alhaurin de la Torre
@@ -1599,6 +1600,7 @@ location	Arenas del Rey
 location	Illora
 location	Nerja
 location	Frailes
+location	Lachar
 location	Chimeneas
 location	Valderrubio
 location	Cijuela
@@ -1612,6 +1614,7 @@ location	Las Gabias
 location	Atarfe
 location	Almunecar
 location	Benalua de las Villas
+location	Montillana
 location	Cullar Vega
 location	Albolote
 location	Alhendin
@@ -1624,7 +1627,9 @@ location	Armilla
 location	Ogijares
 location	Pulianas
 location	Granada ES
+location	Dilar
 location	Guevejar
+location	Deifontes
 location	Jun
 location	La Zubia
 location	Cogollos de la Vega
@@ -1635,6 +1640,7 @@ location	Alfacar
 location	Motril
 location	Iznalloz
 location	Huetor Santillan
+location	Beas De Granada
 location	Lanjaron
 location	Orgiva
 location	Ubeda
@@ -1642,13 +1648,16 @@ location	Jodar
 location	Navas de San Juan
 location	La Peza
 location	Huelago
+location	Cortes y Graena
 location	Alamedilla
 location	Lugros
 location	Pedro Martinez
 location	Albunol
+location	Marchal
 location	Purullena
 location	Fonelas
 location	Benalua
+location	Cogollos De Guadix
 location	Guadix
 location	Alicun de Ortega
 location	Retamar
@@ -1768,6 +1777,7 @@ location	Comillas
 location	Ruiloba
 location	Santibanez
 location	Cabezon de la Sal
+location	Ontoria
 location	Mazcuerras
 location	Matamorosa
 location	Reinosa
@@ -1775,6 +1785,7 @@ location	Quijas
 location	Cieza
 location	Reocín
 location	Santillana
+location	Santillana Del Mar
 location	Villapresente
 location	Ubiarco
 location	Puente San Miguel
@@ -1791,6 +1802,7 @@ location	Molledo
 location	Barreda
 location	Suances
 location	Sierrapando
+location	San Felices De Buelna
 location	Polanco
 location	Cudon
 location	Miengo
@@ -1803,6 +1815,7 @@ location	Valderredible
 location	Puente Viesgo
 location	Vargas
 location	Pielagos
+location	Quijano
 location	Barcenilla
 location	Renedo
 location	Renedo de Pielago
@@ -1846,6 +1859,7 @@ location	San Roque de Riomiera
 location	Loredo
 location	La Cavada
 location	La Revilla
+location	Galizano
 location	Hoz de Anero
 location	Anero
 location	Bustablado
@@ -1858,6 +1872,8 @@ location	Quintana ES
 location	Arnuero
 location	Noja
 location	Gama
+location	Barcena De Cicero
+location	Badames
 location	Cerecedas
 location	Treto
 location	Ramales de la Victoria
@@ -1867,6 +1883,8 @@ location	Colindres
 location	Laredo
 location	Ampuero
 location	Guriezo
+location	Valle De Villaverde
+location	Samano
 location	Castro Urdiales
 location	Santullan
 location	Cueto
@@ -2167,6 +2185,7 @@ location	Xeraco
 location	Simat de la Valldigna
 location	Tavernes de la Valldigna
 location	Antella
+location	La Pobla Llarga
 location	Alberic
 location	Carcaixent
 location	Favara
@@ -9659,6 +9678,8 @@ location	Hermosillo
 
 # Sinaloa
 location	Mazatlan
+location	Culiacán
+location	Guasave
 
 # Durango
 location	Gomez Palacios

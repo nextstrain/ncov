@@ -538,6 +538,7 @@ location	Bad Soden Am Taunus	50.1429142	8.5029259
 location	Bad Vilbel	50.1804837	8.7410776
 location	Bad Vöslau	47.9655519	16.2148073
 location	Badalona	41.4493539	2.248254
+location	Badames	43.3547822	-3.4968286
 location	Badaran	42.3677057	-2.8083919
 location	Baden	48.0085749	16.2334951
 location	Badhoevedorp	52.3388803	4.7844704
@@ -609,6 +610,7 @@ location	Barbera del Valles	41.5172534	2.1265942
 location	Barbosa Ferraz	-24.0287182	-52.00811
 location	Barbour County	31.8589311	-85.4032078
 location	Barcelona	41.403267	2.151855
+location	Barcena De Cicero	43.41935	-3.50618
 location	Barcenilla	43.3889333	-3.9547549
 location	Barco De Valdeorras	42.4161908	-6.983967
 location	Bardoli	21.127394	73.105201
@@ -686,6 +688,7 @@ location	Bazel	51.146864	4.298358
 location	Bazenheid	47.4106386	9.0683537
 location	Beacon Falls	41.4426	-73.0618
 location	Beadle County	44.4157764	-98.2751583
+location	Beas De Granada	37.2188678	-3.4807267
 location	Beaufort County	32.3850708	-80.6923169
 location	Beaufort West	-32.353611	22.580556
 location	Beaumont	45.7538477	3.0870638
@@ -1796,6 +1799,7 @@ location	Coconino County	35.9363252	-111.6948197
 location	Coelemu	-36.4876004	-72.7023316
 location	Coevorden	52.6614	6.7411
 location	Coffee County	31.3629619	-85.9870669
+location	Cogollos De Guadix	37.2241755	-3.1610634
 location	Cogollos de la Vega	37.2755727	-3.572149
 location	Cogolludo	40.9470672	-3.0887458
 location	Coinco	-34.2699359	-70.9515801
@@ -1918,6 +1922,7 @@ location	Corro D'Amunt	41.67055895	2.329288533592615
 location	Corro d'Avall	41.632553	2.2982986
 location	Corroios	38.6415327	-9.1522335
 location	Corte	42.3052904	9.1511935
+location	Cortes y Graena	37.2870853	-3.245263385876749
 location	Cortijos Nuevos	38.2471	-2.7259
 location	Cortland County	42.5842136	-76.0704906
 location	Cotia	-23.603889	-46.918889
@@ -1989,6 +1994,7 @@ location	Cuevas Del Campo	37.6086165	-2.9316473
 location	Cuiaba	-15.5986686	-56.0991301
 location	Cuite	-6.4855072	-36.1478606
 location	Culhat	45.8633402	3.336213
+location	Culiacán	24.7978965	-107.393395
 location	Cullar Vega	37.1535419	-3.6703193
 location	Cullera	39.1647217	-0.2542313
 location	Cullman County	34.1335332	-86.8779268
@@ -2100,6 +2106,7 @@ location	Deerlijk	50.837861	3.365039
 location	Deforest	43.244858	-89.351873
 location	Degersheim	47.3735896	9.1990317
 location	Dehradun	30.3255646	78.0436813
+location	Deifontes	37.3263415	-3.5946529
 location	Deinze	50.9875	3.5236
 location	Deir al-Hatab	32.217222	35.320833
 location	Deir Hanna	32.8625037	35.3666613
@@ -2165,6 +2172,7 @@ location	Dietlikon	47.4222808	8.6155979
 location	Digne Les Bains	44.0918144	6.2351431
 location	Digora	43.160561	44.157784
 location	Dijon	47.3220	5.0415
+location	Dilar	37.0737362	-3.6010019
 location	Dilbeek	50.8465	4.2621
 location	Dilsen	51.0354657	5.7246821
 location	Dilsen-Stokkem	51.0284779	5.7311405
@@ -2699,6 +2707,7 @@ location	Frutillar	-41.1258462	-73.0604738
 location	Frýdek-Místek	49.685635	18.3483416
 location	Fryšták	49.2852044	17.6834631
 location	Füllinsdorf	47.5056654	7.7299597
+location	Fuengirola	36.5387779	-4.6233348
 location	Fuenlabrada	40.282476	-3.7923422
 location	Fuenmayor	42.4670856	-2.5614574
 location	Fuente el Fresno	39.2276397	-3.7741252
@@ -2731,6 +2740,7 @@ location	Galdar	28.1442408	-15.6542506
 location	Gales Ferry	41.4298302	-72.0820131
 location	Galia	-22.2936976	-49.5516228
 location	Galilea	42.3475858	-2.2370324
+location	Galizano	43.4682658	-3.6712146
 location	Gallatin County	37.7509507	-88.2264519
 location	Gallatin County IL	37.7509507	-88.2264519
 location	Gallatin County MT	45.4868491	-111.1967693
@@ -3086,6 +3096,7 @@ location	Guarne	6.272654	-75.43925679397356
 location	Guarnizo	43.39953	-3.83026
 location	Guarujá	-23.9927768	-46.2558332
 location	Guarulhos	-23.4430602	-46.524459
+location	Guasave	25.5046381	-108.539960314508
 location	Guatuso	10.703137349999999	-84.84109533332072
 location	Guayaquil	-2.1899066	-79.887726
 location	Guaymallen	-33.0563827	-68.884028
@@ -4253,6 +4264,7 @@ location	La Plata	-34.9206797	-57.9537638
 location	La Pobla De Farnals	39.577785	-0.3264302
 location	La Pobla de Segur	42.2473665	0.9672725
 location	La Pobla de Vallbona	39.5907339	-0.5532185
+location	La Pobla Llarga	39.0854584	-0.4772459
 location	La Pobla Tornesa	40.1026879	-0.0014726
 location	La Pola De Gordon	42.8549855	-5.6725955
 location	La Revilla	43.3453253	-3.6940147
@@ -4283,6 +4295,7 @@ location	Laa An Der Thaya	48.724723749999995	16.407176390998046
 location	Laakdal	51.081957	4.997449
 location	Laakirchen	47.9825598	13.8225156
 location	Labrea	-7.2613683	-64.7924505
+location	Lachar	37.1952099	-3.8340663
 location	Ladario	-19.0036585	-57.6028285
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
@@ -4945,6 +4958,7 @@ location	Marathon County	44.8914036	-89.7748098
 location	Marau	-28.4493053	-52.2002156
 location	Marbach SG	47.3919868	9.5686092
 location	Marcelova	47.7912423	18.2839913
+location	Marchal	37.2963627	-3.2021995
 location	Marchamalo	40.6688655	-3.2021136
 location	Marchienne-au-Pont	50.40897075	4.40234038367136
 location	Marchtrenk	48.1907992	14.1117625
@@ -5362,6 +5376,7 @@ location	Montijo	38.74502535	-8.628858514902682
 location	Montijo PA	7.9930494	-81.0546478
 location	Montijo PT	38.74502535	-8.628858514902682
 location	Montilla	37.5811178	-4.6414726
+location	Montillana	37.5001419	-3.6723589
 location	Montlucon	46.3399276	2.6067229
 location	Montmelo	41.5515189	2.2480812
 location	Montmorin	45.6949585	3.3607158
@@ -5881,6 +5896,7 @@ location	Oneida County WI	45.6879163	-89.4779558
 location	Ongole	15.5075545	80.06080046754784
 location	Onondaga County	43.0268	-76.1784
 location	Ontario County	42.8580624	-77.295025
+location	Ontoria	43.30984	-4.21334
 location	Onze-Lieve-Vrouw-Waver	51.0624896	4.5798347
 location	Ooigem	50.8931388	3.3367124
 location	Oostduinkerke	51.1156338	2.6812656
@@ -6675,6 +6691,7 @@ location	Quévy	50.369910	3.951226
 location	Quezon City	14.6509905	121.0486155
 location	Quibdo	5.691789	-76.654649
 location	Quiévrain	50.4048739	3.6829049
+location	Quijano	43.369238	-3.9572846
 location	Quijas	43.3502379	-4.1325973
 location	Quilicura	-33.35518825	-70.74437318862914
 location	Quillon	-36.7443758	-72.4764427
@@ -7193,6 +7210,7 @@ location	Saly Portudal	14.445536352156282	-16.98986300708038
 location	Salzburg	47.7981346	13.0464806
 location	Salzburg-Umgebung	47.8643961	13.0839322
 location	Samail	23.32	57.98
+location	Samano	43.3578453	-3.2297328
 location	Samarinda	-0.488935	117.142459
 location	Samawa	31.1972649	45.5374068
 location	Sambhal	28.61875255	78.55087405404804
@@ -7221,6 +7239,7 @@ location	San Cugat del Valles	41.4728432	2.0817809
 location	San Diego	32.733024	-117.143358
 location	San Diego County	32.981125	-116.681405
 location	San Diego CR	9.8998392	-84.0023103
+location	San Felices De Buelna	43.26630875	-4.030329207737704
 location	San Felipe	9.9034817	-84.1063339
 location	San Felipe CL	-32.7506976	-70.7252018
 location	San Felipe CR	9.9034817	-84.1063339
@@ -7483,6 +7502,7 @@ location	Santiago de Puriscal	9.8484405	-84.3132776
 location	Santiago PA	8.1097491	-80.9753886
 location	Santibanez	43.28626	-4.24253
 location	Santillana	43.3906511	-4.108048
+location	Santillana Del Mar	43.3906511	-4.108048
 location	Santo Anastacio	-21.974662	-51.652662
 location	Santo Andre	-23.6573395	-46.5322504
 location	Santo Angelo	-28.3000481	-54.2669971
@@ -8744,6 +8764,7 @@ location	Valkovce	49.16663685	21.523461060765122
 location	Vall d'Alba	40.17587	-0.0350962
 location	Vall d'Uixo	39.8235837	-0.2316995
 location	Valladolid	41.6521328	-4.728562
+location	Valle De Villaverde	43.232393900000005	-3.2824230157742376
 location	Valledupar	10.466023	-73.253272
 location	Vallenar	-28.5750438	-70.7616398
 location	Vallendar	50.4001381	7.6142479
