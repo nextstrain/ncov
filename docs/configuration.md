@@ -268,7 +268,7 @@ Builds support any named attributes that can be referenced by subsampling scheme
 
 ## inputs
 * type: array
-* description: A list of named input datasets to use for the workflow. Input order determines the precedence of genome sequences and metadata such that earliest datasets override later datasets. Each input must define a `name`, a path to `metadata`, and a path to sequences at one of many possible starting points. The workflow merged all input metadata and sequences into a single metadata and sequences file prior to subsampling.
+* description: A list of named input datasets to use for the workflow. Input order determines the precedence of genome sequences and metadata such that later datasets override earlier datasets. Each input must define a `name`, a path to `metadata`, and a path to sequences at one of many possible starting points. The workflow merged all input metadata and sequences into a single metadata and sequences file prior to subsampling.
 * required
 	* `name`
 	* `metadata`
