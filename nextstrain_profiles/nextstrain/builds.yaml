@@ -1,3 +1,5 @@
+auspice_json_prefix: ncov_gisaid
+
 # Define custom rules for pre- or post-standard workflow processing of data.
 custom_rules:
   - workflow/snakemake_rules/export_for_nextstrain.smk
