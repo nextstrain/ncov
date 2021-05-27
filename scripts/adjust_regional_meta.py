@@ -41,11 +41,17 @@ if __name__ == '__main__':
     metadata.loc[metadata.region != focal_region, 'location'] = ""
     metadata.loc[metadata.region != focal_region, 'division'] = metadata.region
     metadata.loc[metadata.region != focal_region, 'country'] = metadata.region
-    metadata.loc[metadata.region != focal_region, 'division_exposure'] = metadata.region_exposure
-    metadata.loc[metadata.region != focal_region, 'country_exposure'] = metadata.region_exposure
-    metadata.loc[(metadata.region == focal_region) & (metadata.region_exposure != focal_region), 'division_exposure'] = metadata.region_exposure
-    metadata.loc[(metadata.region == focal_region) & (metadata.region_exposure != focal_region), 'country_exposure'] = metadata.region_exposure
-    metadata.loc[(metadata.region == focal_region) & (metadata.division_exposure.isna()), 'division_exposure'] = metadata.division
-    metadata.loc[(metadata.region == focal_region) & (metadata.country_exposure.isna()), 'country_exposure'] = metadata.country
+
+    if "region_exposure" in metadata.columns:
+        metadata.loc[metadata.region != focal_region, 'division_exposure'] = metadata.region_exposure
+        metadata.loc[metadata.region != focal_region, 'country_exposure'] = metadata.region_exposure
+        metadata.loc[(metadata.region == focal_region) & (metadata.region_exposure != focal_region), 'division_exposure'] = metadata.region_exposure
+        metadata.loc[(metadata.region == focal_region) & (metadata.region_exposure != focal_region), 'country_exposure'] = metadata.region_exposure
+
+    if "division_exposure" in metadata.columns:
+        metadata.loc[(metadata.region == focal_region) & (metadata.division_exposure.isna()), 'division_exposure'] = metadata.division
+
+    if "country_exposure" in metadata.columns:
+        metadata.loc[(metadata.region == focal_region) & (metadata.country_exposure.isna()), 'country_exposure'] = metadata.country
 
     metadata.to_csv(args.output, index=False, sep="\t")

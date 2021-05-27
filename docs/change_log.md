@@ -3,6 +3,19 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## v7 (27 May 2021)
+
+For more details about this release, see [the configuration reference for the new "sanitize metadata" parameters](https://nextstrain.github.io/ncov/configuration.html#sanitize_metadata) and [the corresponding pull request](https://github.com/nextstrain/ncov/pull/640).
+
+### Major changes
+
+- Deduplicate metadata and sequences from each `inputs` dataset at the beginning of the workflow.
+
+### Features
+
+- Support full GISAID metadata and sequences from the "Download packages" interface by converting this default format into Nextstrain-compatible metadata and sequences.
+- Support reading metadata and sequences directly from GISAID's tar archives. For example, you can now define `inputs` as `metadata: data/ncov_north-america.tar.gz` and `sequences: data/ncov_north-america.tar.gz` to decompress and read the corresponding data from the archive.
+
 ## New features since last version update
 
  - 25 May 2021: Support custom Auspice JSON prefixes with a new configuration parameter, `auspice_json_prefix`. [See the configuration reference for more details](https://nextstrain.github.io/ncov/configuration.html#auspice_json_prefix). ([#643](https://github.com/nextstrain/ncov/pull/643))
