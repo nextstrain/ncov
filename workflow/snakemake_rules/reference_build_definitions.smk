@@ -42,6 +42,7 @@ if config.get("build_sizes"):
         for size, N in config["build_sizes"].items():
             tmp = deepcopy(config["builds"][build])
             tmp["subsampling_scheme"] += '_'+size
+            tmp["build_size"] = {"name": size, "n": N}
             if size=='standard':
                 new_builds[build] = tmp
             else:
