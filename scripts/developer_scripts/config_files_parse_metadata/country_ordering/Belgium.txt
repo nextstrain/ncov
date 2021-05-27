@@ -2721,7 +2721,7 @@ Beersel
 	Beersel
 	Dworp
 	Huizingen
-	Lot
+	Lot BE
 Bever
 	Bever
 Dilbeek

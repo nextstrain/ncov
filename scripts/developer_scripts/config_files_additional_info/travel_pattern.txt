@@ -81,3 +81,5 @@ Patient Came From XXX Recently
 After visiting XXX
 recent travel_XXX
 Airport Quarantine Station in Japan,Human, COVID-19 positive case who entered from XXX
+Patient Likely Infected During Travel To XXX
+Patient Likely infected during travel to XXX

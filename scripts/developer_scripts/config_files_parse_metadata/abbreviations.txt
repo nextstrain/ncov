@@ -145,3 +145,4 @@ Rio Grande do Norte	BR
 Central	PY
 Amapa	BR
 Boyaca	CO
+Halle-Vilvoorde	BE
