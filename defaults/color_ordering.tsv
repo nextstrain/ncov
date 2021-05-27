@@ -625,6 +625,7 @@ location	Jashore
 location	Narail
 location	Magura
 location	Jhenaidah
+location	Chuadanga
 
 # Dhaka
 location	Kalukhali Upazila
@@ -675,6 +676,7 @@ location	Kishoreganj
 location	Kodomtoly
 
 # Rajshahi
+location	Chapainawabgonj
 location	Pabna
 location	Sirajganj
 
@@ -694,9 +696,10 @@ location	Kasdobir
 location	Sunamganj
 
 # Rangpur
+location	Panchagarh
 location	Dinajpur
 location	Nilphamari
-location	Panchagarh
+location	Gaibandha
 
 ### Malaysia
 # Selangor
@@ -1252,6 +1255,7 @@ location	Kroonstad
 # Gauteng
 location	Midvaal
 location	Emfuleni
+location	Lesedi
 location	West Rand
 location	Johannesburg Metro
 location	Ekurhuleni Metro
@@ -1267,6 +1271,7 @@ location	Polokwane
 # Mpumalanga
 location	Ermelo
 location	Trichardt
+location	Emalahleni
 location	Thembisile Hani
 location	Dr. JS Moroka
 location	Middelburg
@@ -1341,14 +1346,19 @@ location	Fenoarivo
 location	Tamarin
 location	Canot
 
+# Savanne
+location	Chemin Grenier
+
 # Plaine-Wilhems
 location	Phoenix
 location	Rose Hill
 location	Henrietta
 location	Quatre Bornes
 location	Candos
+location	Vacoas
 location	Floreal
 location	Allee Brillant
+location	Cite Lóiseau
 location	Engrais Martial
 location	Castel
 location	Highlands
@@ -1366,6 +1376,7 @@ location	Grand Bel Air
 location	Mahebourg
 
 # Flacq
+location	Ecroignard
 location	Poste La Fayette
 
 ################
@@ -1784,7 +1795,6 @@ location	Reinosa
 location	Quijas
 location	Cieza
 location	Reocín
-location	Santillana
 location	Santillana Del Mar
 location	Villapresente
 location	Ubiarco
@@ -2489,6 +2499,7 @@ location	Teia
 location	Sant Julia de Vilatorta
 location	Corro D'Amunt
 location	La Roca del Valles
+location	La Roca
 location	Canoves i Samalus
 location	Llanars
 location	Premia de Dalt
@@ -2802,6 +2813,7 @@ location	Angouleme
 location	Marmande
 location	Tonneins
 location	Poitiers
+location	Lot-Et-Garonne
 location	Bergerac
 location	Saint-Astier
 location	Agen
@@ -2955,15 +2967,25 @@ location	Dunkerque
 
 # Occitanie
 location	Tarbes
+location	Hautes-Pyrenees
+location	Gers
 location	Saint-Gaudens
+location	Haute-Garonne
+location	Tarn-Et-Garonne
 location	Muret
 location	Montauban
+location	Ariege
 location	Cahors
 location	Toulouse
+location	Lot FR
 location	Caraman
 location	Castelnaudary
+location	Tarn
 location	Albi
 location	Carcassonne
+location	Pyrenees-Orientales
+location	Aveyron
+location	Aude
 location	Rodez
 location	Saint-Affrique
 location	Perpignan
@@ -3872,8 +3894,8 @@ location	Buizingen
 location	Itterbeek
 location	Dilbeek
 location	Groot-Bijgaarden
+location	Lot BE
 location	Zellik
-location	Lot
 location	Huizingen
 location	Relegem
 location	Ruisbroek
@@ -4418,6 +4440,7 @@ location	Roosendaal
 location	Breda NL
 location	Nieuwendijk
 location	Gilze en Rijen
+location	Waalwijk
 location	Tilburg
 location	Andel
 location	Loon op Zand
@@ -4505,6 +4528,7 @@ location	Oldenzaal
 
 # Groningen
 location	Haren
+location	Grootegast
 location	Leek
 location	Zuidhorn
 location	Sauwerd
@@ -4525,11 +4549,13 @@ location	Delfzijl
 location	Stadskanaal
 location	Heiligerlee
 location	Midwolda
+location	Woldendorp
 location	Finsterwolde
 location	Bellingwolde
 
 # Drenthe
 location	Meppel
+location	Ruinen
 location	Een
 location	Roden
 location	Zuidwolde
@@ -7046,9 +7072,6 @@ location	Kretingos rajono savivaldybė
 # Marijampoles Apskritis
 location	Marijampole
 
-# Alytaus Apskritis
-location	Varėnos rajono savivaldybė
-
 # Kauno Apskritis
 location	Kedainiai
 location	Jonava
@@ -7057,19 +7080,13 @@ location	Jonava
 location	Panevezys
 
 # Vilnius
-location	Elektrėnai
-location	Trakų rajono savivaldybė
-location	Ukmerge
 location	Širvintų rajono savivaldybė
-location	Šalčininkų rajono savivaldybė
-location	Švenčionių rajono savivaldybė
+location	Ukmerge
 
 # Utena Apskritis
-location	Anykščiai
 location	Molėtų rajono savivaldybės
 location	Zarasų rajono savivaldybė
 location	Ignalina
-location	Ignalinos rajono savivaldybė
 location	Visaginas
 
 ### Romania
@@ -8074,8 +8091,10 @@ location	Sonora
 # Rio Grande do Sul
 location	Santa Vitoria do Palmar
 location	Rio Grande BR
+location	Acegua
 location	Pelotas
 location	Bage
+location	Dom Pedrito
 location	Camaquã
 location	Lavras do Sul
 location	Santana do Livramento
@@ -8109,6 +8128,7 @@ location	Alegrete
 location	Uruguaiana
 location	Capao Da Canoa
 location	Novo Cabrais
+location	Santa Cruz do Sul
 location	Vera Cruz (Rio Grande do Sul)
 location	Portão
 location	Novo Hamburgo
@@ -8123,6 +8143,7 @@ location	Sapiranga
 location	Pareci Novo
 location	Parobe
 location	Venancio Aires
+location	Vale do Sol
 location	Bom Retiro do Sul
 location	Sao Sebastiao do Cai
 location	Nova Hartz
@@ -8145,16 +8166,20 @@ location	Torres BR
 location	Carlos Barbosa
 location	Garibaldi
 location	Arroio do Tigre
+location	Encantado
 location	Farroupilha
 location	Nova Brescia
 location	Estrela Velha
 location	Caxias do Sul
+location	Bento Goncalves
 location	Itaqui
+location	Tunas
 location	Cambará do Sul
 location	Flores Da Cunha
 location	Cotipora
 location	Arvorezinha
 location	Guapore
+location	Sao Jose Dos Ausentes
 location	Nova Bassano
 location	Espumoso
 location	Serafina Correa
@@ -8162,6 +8187,7 @@ location	Nova Araça
 location	Sao Borja
 location	Cruz Alta
 location	Ibiruba
+location	Selbach
 location	São Domingos do Sul
 location	Não-Me-Toque
 location	Saldanha Marinho
@@ -8169,6 +8195,7 @@ location	Ijui
 location	Santo Angelo
 location	Carazinho
 location	Passo Fundo
+location	Condor
 location	Tapejara
 location	Girua
 location	Sertao
@@ -8225,6 +8252,7 @@ location	Umuarama
 location	Boa Esperanca do Iguacu
 location	Dois Vizinhos
 location	Francisco Beltrao
+location	Renascenca
 location	Quedas do Iguacu
 location	Vere
 location	Sulina
@@ -8316,6 +8344,7 @@ location	Icara
 location	Braco do Norte
 location	Santa Rosa de Lima
 location	Rio Fortuna
+location	Jaragua do Sul
 location	Blumenau
 location	Jaguaruna
 location	Armazem
@@ -8692,7 +8721,7 @@ location	Taubate
 location	Pindamonhangaba
 location	Natividade Da Serra
 location	Caraguatatuba
-location	Sao Sebastiao
+location	Sao Sebastiao (São Paulo)
 location	Guaratingueta
 location	Piquete
 location	Lorena SP
@@ -8888,6 +8917,9 @@ location	Feira de Santana
 location	Barreiras
 location	Canarana
 location	Serrinha
+location	Satiro Dias
+location	Jandaira
+location	Itapicuru
 location	Alcobaca
 
 # Espirito Santo
@@ -8933,7 +8965,7 @@ location	Nossa Senhora do Socorro
 location	Laranjeiras (Sergipe)
 location	Simao Dias
 location	Riachuelo
-location	Capela
+location	Capela (Sergipe)
 location	Aquidaba
 location	Nossa Senhora Da Gloria
 location	Porto Da Folha
@@ -9044,8 +9076,17 @@ location	Cabedelo
 # Alagoas
 location	Delmiro Gouveia
 location	Santana do Ipanema
+location	Girau do Ponciano
+location	Palmeira Dos Indios
+location	Sao Sebastiao (Alagoas)
+location	Anadia
+location	Cha Preta
+location	Santana do Mundau
+location	Capela (Alagoas)
+location	Uniao Dos Palmares
 location	Marechal Deodoro
 location	Rio Largo
+location	Flexeiras
 location	Maceio
 
 ### Peru
@@ -10119,7 +10160,7 @@ location	Upshur County
 location	Gregg County
 location	Polk County TX
 location	Rusk County TX
-location	Liberty County
+location	Liberty County TX
 location	Clark
 location	Morris County TX
 location	Angelina County
@@ -10368,7 +10409,7 @@ location	DeWitt County IL
 location	Vermilion County
 location	De Witt County
 location	Mason County IL
-location	Hancock County
+location	Hancock County IL
 location	McDonough County
 location	McLean County IL
 location	Fulton County IL
@@ -10498,8 +10539,9 @@ location	Berrien County
 location	Alpena County
 
 # Georgia
-location	Thomas County
 location	Cobb
+location	Thomas County
+location	Liberty County GA
 
 # Ohio
 location	Ross
@@ -10557,7 +10599,7 @@ location	Greenwood County
 location	Spartanburg County
 location	Laurens County SC
 location	Aiken
-location	York County
+location	York County SC
 location	Hampton County
 location	Fairfield County SC
 location	Columbia SC
@@ -10582,6 +10624,8 @@ location	Kanawha
 # North Carolina
 location	Mecklenburg County
 location	Forsyth County
+location	Guilford County
+location	Cumberland County NC
 
 # Virginia
 location	Frederick County
@@ -10593,6 +10637,7 @@ location	Alexandria
 location	Pittsburgh
 location	Allegheny County
 location	Chester County
+location	Lehigh County
 location	Delaware County PA
 location	Montgomery County PA
 location	Monroe County PA
@@ -10707,7 +10752,7 @@ location	Clinton County NY
 location	Nassau County
 location	Rensselaer County
 location	Washington County NY
-location	Suffolk County
+location	Suffolk County NY
 
 # Connecticut
 location	Hartford County
@@ -10733,20 +10778,34 @@ location	Tolland County
 location	New London County
 
 # Massachusetts
+location	Hampshire County
 location	Hampden County
 location	Worcester County
 location	Middlesex County MA
 location	Norfolk County
+location	Bristol County
 location	Boston
+location	Suffolk County MA
+location	Essex County MA
+location	Plymouth County
+location	Barnstable County
 
 # New Hampshire
 location	Hillsborough County
+location	Rockingham County
 
 # Rhode Island
 location	Washington County RI
 
 # Maine
+location	Oxford County
+location	York County ME
+location	Cumberland County ME
+location	Androscoggin County
+location	Kennebec County
+location	Waldo County
 location	Penobscot County
+location	Hancock County ME
 
 # Puerto Rico
 location	Ponce
@@ -11614,6 +11673,7 @@ division	Awdal
 
 ### Mauritius
 division	Black River
+division	Savanne
 division	Plaine-Wilhems
 division	Moka
 division	Grand Port

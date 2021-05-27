@@ -2197,3 +2197,14 @@ SouthKorea/KDCA3594/2020
 NorthAmerica/USA/IL-RED-FUL-39828238/2020
 Switzerland/SO-UHB-42850063/2021
 USA/KS-KHEL-1913/2020
+
+# Suspiciously early for clade
+England/LCST-24DE3CC/2020
+
+Sample date before clade (see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622107826150400):
+Italy/CAM-TIGEM-IZSM-COLLI-14397/2021
+Qatar/QA.QU_18.10.B12/2020
+Qatar/QA.QU_18.10.E12/2020
+USA/UT-UPHL-2104759182/2020
+SouthAfrica/NICD-N3820/2021
+Spain/MD-HRYC-71299296/2020
