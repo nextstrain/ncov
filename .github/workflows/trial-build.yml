@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
-    - name: launch
+    - name: Launch build
       run: |
         PATH="$HOME/.local/bin:$PATH"
         set -x
@@ -47,8 +47,12 @@ jobs:
             --set-threads tree=16 \
         |& tee build-launch.log
         echo "::endgroup::"
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
-        set +x
+    - name: Build info
+      run: |
         echo "--> Trial name is: $TRIAL_NAME"
         echo
         echo "--> Upload prefixes"
