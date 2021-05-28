@@ -1,0 +1,9 @@
+#!/bin/bash
+set -euo pipefail
+
+# Adds $HOME/.local/bin to PATH for subsequent workflow steps (but not this one!).
+echo "$HOME/.local/bin" | tee -a "$GITHUB_PATH"
+
+echo "::group::Install nextstrain-cli"
+python3 -m pip install nextstrain-cli
+echo "::endgroup::"
