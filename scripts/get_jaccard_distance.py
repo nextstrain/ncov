@@ -3,8 +3,8 @@ import argparse
 from augur.io import open_file
 from augur.utils import read_strains
 from collections import defaultdict
-import numpy as np
 import pandas as pd
+import random
 import sys
 import time
 
@@ -20,13 +20,15 @@ if __name__ == '__main__':
     parser.add_argument("--metadata", required=True, help="GISAID metadata with 'aa_substitutions' field for all records")
     parser.add_argument("--focal", required=True, help="strains in the focal data set to find closest strains from the full set")
     parser.add_argument("--substitutions-field", default="aa_substitutions", help="field with annotations of substitutions to use for distance calculations")
+    parser.add_argument("--max-matches-per-focal-strain", type=int, default=10, help="maximum number of times a focal strain can match to a contextual strain before being skipped")
+    parser.add_argument("--min-distance-threshold", type=float, default=0.25, help="minimum Jaccard distance for a match between focal and contextual strains")
     parser.add_argument("--drop-duplicates", action="store_true", help="drop duplicate combinations of substitutions, limiting distances to the first strain with a given set of substitutions in the metadata.")
     parser.add_argument("--output", required=True, help="strain names of closest strains to focal set")
 
     args = parser.parse_args()
 
     # Load names of focal strains.
-    focal_strains = sorted(read_strains(args.focal))
+    focal_strains = set(read_strains(args.focal))
 
     # Load full metadata.
     try:
@@ -53,9 +55,10 @@ if __name__ == '__main__':
     if args.drop_duplicates:
         metadata = metadata.drop_duplicates(args.substitutions_field)
 
-    all_strains = metadata["strain"].values
-    focal_strains = [strain for strain in focal_strains if strain in all_strains]
-    other_strains = [strain for strain in all_strains if strain not in focal_strains]
+    all_strains = set(metadata["strain"].values)
+    focal_strains = focal_strains & all_strains
+    other_strains = list(all_strains - focal_strains)
+    random.shuffle(other_strains)
 
     print("Parsing and enumerating mutations per strain")
     mutations_by_strain = {}
@@ -74,7 +77,7 @@ if __name__ == '__main__':
     del metadata
 
     total_mutations = len(index_by_mutation)
-    print(f"Found {total_mutations} distinct mutations in focal strains")
+    print(f"Found {total_mutations} distinct mutations in {len(focal_strains)} focal strains")
 
     print("Mapping enumerated mutations to strains")
     mutation_indices_by_strain = defaultdict(set)
@@ -90,6 +93,7 @@ if __name__ == '__main__':
     del index_by_mutation
 
     print(f"Calculating distances for {len(other_strains)} non-focal strains")
+    focal_strain_count = defaultdict(int)
     with open_file(args.output, "w") as oh:
         oh.write("strain\tclosest strain\tdistance\n")
 
@@ -102,8 +106,8 @@ if __name__ == '__main__':
                 then = now
 
             counter += 1
-            min_distance = np.inf
             min_strain = None
+            finished_focal_strain = None
 
             for focal_strain in focal_strains:
                 distance = jaccard_distance(
@@ -112,15 +116,26 @@ if __name__ == '__main__':
                     missing_mutations_by_strain[strain]
                 )
 
-                if distance < min_distance:
+                if distance <= args.min_distance_threshold:
                     min_distance = distance
                     min_strain = focal_strain
+                    focal_strain_count[focal_strain] += 1
 
-                if min_distance == 0:
+                    if focal_strain_count[focal_strain] > args.max_matches_per_focal_strain:
+                        finished_focal_strain = focal_strain
+
                     break
 
-            oh.write("{strain}\t{closest_strain}\t{distance:.4f}\n".format(
-                strain=strain,
-                closest_strain=min_strain,
-                distance=min_distance
-            ))
+            if min_strain is not None:
+                oh.write("{strain}\t{closest_strain}\t{distance:.4f}\n".format(
+                    strain=strain,
+                    closest_strain=min_strain,
+                    distance=min_distance
+                ))
+
+            if finished_focal_strain:
+                focal_strains.remove(finished_focal_strain)
+
+            if len(focal_strains) == 0:
+                print("Matched all focal strains, ending early")
+                break
