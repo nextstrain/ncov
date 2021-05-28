@@ -4446,6 +4446,7 @@ location	Breda NL
 location	Nieuwendijk
 location	Gilze en Rijen
 location	Waalwijk
+location	Kaatsheuvel
 location	Tilburg
 location	Andel
 location	Loon op Zand
@@ -4527,6 +4528,7 @@ location	Oldebroek
 # Overijssel
 location	Genemuiden
 location	Raalte
+location	Almelo
 location	Borne
 location	Hengelo
 location	Oldenzaal
@@ -4560,6 +4562,7 @@ location	Bellingwolde
 
 # Drenthe
 location	Meppel
+location	Koekange
 location	Ruinen
 location	Een
 location	Roden
@@ -4576,6 +4579,7 @@ location	Coevorden
 location	Dalen
 location	Nieuw Annerveen
 location	Emmen
+location	Valthermond
 
 ### Luxembourg
 # Luxembourg
@@ -9979,34 +9983,40 @@ location	Coconino County
 location	Benton County
 
 # Montana
-location	West Yellowstone
-location	Big Sky
-location	Ennis
-location	Gallatin County MT
-location	Bozeman
 location	Ravalli County
-location	Lewis and Clark County
 location	Flathead County
+location	Lewis and Clark County
+location	Ennis
+location	Cascade County
+location	Big Sky
+location	Gallatin County MT
+location	West Yellowstone
+location	Bozeman
+location	Chouteau County
+location	Sweet Grass County
+location	Blaine County
+location	Yellowstone County
 
 # New Mexico
-location	Luna County
-location	Dona Ana County
-location	Otero County
-location	Grant County NM
-location	Sierra County
 location	Catron County
-location	Socorro County
-location	Torrance County
-location	Valencia County
+location	Grant County NM
+location	San Juan County NM
 location	Cibola County
+location	Luna County
+location	Sierra County
+location	Socorro County
+location	Valencia County
+location	Dona Ana County
+location	Sandoval County
+location	Rio Arriba County
 location	Bernalillo County
+location	Los Alamos County
 location	Santa Fe County
 location	Santa Fe County NM
-location	Sandoval County
-location	Los Alamos County
-location	San Juan County NM
-location	Rio Arriba County
+location	Torrance County
+location	Otero County
 location	Colfax County
+location	Guadalupe County NM
 
 # Colorado
 location	Mesa County
