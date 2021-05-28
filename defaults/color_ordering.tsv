@@ -9998,25 +9998,25 @@ location	Blaine County
 location	Yellowstone County
 
 # New Mexico
-location	Catron County
-location	Grant County NM
-location	San Juan County NM
-location	Cibola County
 location	Luna County
-location	Sierra County
-location	Socorro County
-location	Valencia County
 location	Dona Ana County
-location	Sandoval County
-location	Rio Arriba County
+location	Otero County
+location	Grant County NM
+location	Sierra County
+location	Catron County
+location	Socorro County
+location	Torrance County
+location	Valencia County
+location	Cibola County
+location	Guadalupe County NM
 location	Bernalillo County
-location	Los Alamos County
 location	Santa Fe County
 location	Santa Fe County NM
-location	Torrance County
-location	Otero County
+location	Sandoval County
+location	Los Alamos County
+location	San Juan County NM
+location	Rio Arriba County
 location	Colfax County
-location	Guadalupe County NM
 
 # Colorado
 location	Mesa County
