@@ -84,3 +84,4 @@ Airport Quarantine Station in Japan,Human, COVID-19 positive case who entered fr
 Patient Likely Infected During Travel To XXX
 Patient Likely infected during travel to XXX
 Travel history: XXX
+Travel related exposure - XXX

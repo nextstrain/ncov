@@ -346,6 +346,8 @@ location	Jharsuguda
 
 # Chhattisgarh
 location	Gariyaband
+location	Dhamtari
+location	Mahasamund
 location	Durg
 location	Bhilai
 location	Raipur
@@ -2107,7 +2109,7 @@ location	Cadreita
 location	Peralta
 location	Andosilla
 location	Lodosa
-location	Viana
+location	Viana ES
 location	Tafalla
 location	Artajona
 location	Barasoain
@@ -2874,6 +2876,7 @@ location	Garches
 location	Hauts-de-Seine
 location	Val D'Oise
 location	L'Isle-Adam
+location	Saint-Cloud
 location	Meudon la Forêt
 location	Suresnes
 location	Puteaux
@@ -2948,6 +2951,7 @@ location	Nord Pas de Calais
 location	Flines-lès-Mortagne
 location	Bethune
 location	Genech
+location	Senlis
 location	Gondecourt
 location	Santes
 location	Lille FR
@@ -3355,6 +3359,7 @@ location	Thann
 location	Soultzeren
 location	Saint-Ulrich
 location	Murbach
+location	Sainte Marie Aux Mines
 location	St-Louis
 location	Guebwiller
 location	Soultz Haut Rhin
@@ -4441,6 +4446,7 @@ location	Breda NL
 location	Nieuwendijk
 location	Gilze en Rijen
 location	Waalwijk
+location	Kaatsheuvel
 location	Tilburg
 location	Andel
 location	Loon op Zand
@@ -4522,6 +4528,7 @@ location	Oldebroek
 # Overijssel
 location	Genemuiden
 location	Raalte
+location	Almelo
 location	Borne
 location	Hengelo
 location	Oldenzaal
@@ -4555,6 +4562,7 @@ location	Bellingwolde
 
 # Drenthe
 location	Meppel
+location	Koekange
 location	Ruinen
 location	Een
 location	Roden
@@ -4571,6 +4579,7 @@ location	Coevorden
 location	Dalen
 location	Nieuw Annerveen
 location	Emmen
+location	Valthermond
 
 ### Luxembourg
 # Luxembourg
@@ -8046,6 +8055,7 @@ location	Jaru
 location	Porto Velho
 
 # Roraima
+location	Caroebe
 location	Boa Vista
 location	Bonfim
 
@@ -8215,6 +8225,7 @@ location	Juruti
 location	Obidos BR
 location	Prainha
 location	Breves
+location	Canaa Doa Carajas
 location	Cametá
 location	Conceição do Araguaia
 location	Marabá
@@ -8222,6 +8233,7 @@ location	Cachoeira do Arari
 location	Moju
 location	Belém
 location	Ananindeua
+location	Benevides
 location	Santa Isabel do Pará
 location	Santo Antônio do Tauá
 location	Concórdia do Pará
@@ -8311,6 +8323,9 @@ location	Campina Grande do Sul
 location	Paranagua
 
 # Amapa
+location	Vitoria do Jari
+location	Laranjal do Jari
+location	Sao Francisco
 location	Santana BR
 location	Macapá
 location	Cutias
@@ -8341,6 +8356,7 @@ location	Forquilhinha
 location	Balneario Arroio do Silva
 location	Sao Bento do Sul
 location	Icara
+location	Campo Alegre
 location	Braco do Norte
 location	Santa Rosa de Lima
 location	Rio Fortuna
@@ -8349,6 +8365,7 @@ location	Blumenau
 location	Jaguaruna
 location	Armazem
 location	Tubarao
+location	Capivari de Baixo
 location	Joinville
 location	Brusque
 location	Laguna
@@ -8733,10 +8750,15 @@ location	Guaira
 
 # Maranhão
 location	Balsas
+location	Grajau
 location	Imperatriz
+location	Marica
 location	Timon
 location	Caxias
+location	Lima Campos
 location	Peritoro
+location	Governador Edson Lobao
+location	Santa Luzia
 location	Pirapemas
 location	Anapurus
 location	Santa Ines
@@ -8748,6 +8770,7 @@ location	Cajapio
 location	Sao Luis
 location	Sao Jose de Ribamar
 location	Paco do Lumiar
+location	Aracagy
 
 # Minas Gerais
 location	Ituiutaba
@@ -8765,7 +8788,10 @@ location	Camanducaia
 location	Alfenas
 location	Guape
 location	Itajuba
+location	Varginha
+location	Formiga
 location	Bom Despacho
+location	Tres Marias
 location	Nova Serrana
 location	Divinopolis
 location	Januaria
@@ -8786,6 +8812,7 @@ location	Barao de Cocais
 location	Mariana
 location	Santo Antonio do Aventureiro
 location	Alem do Paraiba
+location	Recreio
 location	Muriae
 location	Iapu
 location	Caratinga
@@ -8923,8 +8950,11 @@ location	Itapicuru
 location	Alcobaca
 
 # Espirito Santo
+location	Dores do Rio Preto
 location	Irupi
 location	Laranjeiras (Espirito Santo)
+location	Jeronimo Monteiro
+location	Mimoso do Sul
 location	Cachoeiro de Itapemirim
 location	Baixo Guandu
 location	Marataizes
@@ -8932,10 +8962,12 @@ location	Barra do Sao Francisco
 location	Santa Maria de Jetiba
 location	Aguia Branca
 location	Domingos Martins
+location	Anchieta
 location	Vila Pavao
 location	Santa Teresa
 location	Sao Gabriel Da Palha
 location	Guarapari
+location	Viana BR
 location	Governador Lindenberg
 location	Cariacica
 location	Fundao
@@ -8956,6 +8988,7 @@ location	Tururu
 location	Tomar do Geru
 location	Estancia
 location	Tobias Barreto
+location	Riachao do Dantas
 location	Itaporanga Dajuda
 location	Jaboatiana
 location	Aracaju
@@ -8968,6 +9001,7 @@ location	Riachuelo
 location	Capela (Sergipe)
 location	Aquidaba
 location	Nossa Senhora Da Gloria
+location	Propria
 location	Porto Da Folha
 location	Caninde de Sao Francisco
 
@@ -8976,6 +9010,7 @@ location	Araripina
 location	Petrolina
 location	Serra Talhada
 location	Petrolandia
+location	Carnaiba
 location	Tabira
 location	Sao Jose do Egito
 location	Itapetim
@@ -9017,6 +9052,7 @@ location	Igarassu
 location	Recife
 location	Paulista
 location	Olinda
+location	Fernando de Noronha
 
 # Rio Grande do Norte
 location	Riacho de Santana
@@ -9025,6 +9061,7 @@ location	Pau Dos Ferros
 location	Caicó
 location	Santana do Matos
 location	Currais Novos
+location	Guamare
 location	Santa Cruz BR
 location	João Câmara
 location	Paranamirim
@@ -9077,17 +9114,23 @@ location	Cabedelo
 location	Delmiro Gouveia
 location	Santana do Ipanema
 location	Girau do Ponciano
+location	Arapiraca
 location	Palmeira Dos Indios
 location	Sao Sebastiao (Alagoas)
 location	Anadia
 location	Cha Preta
+location	Vicosa
 location	Santana do Mundau
+location	Sao Miguel Dos Campos
 location	Capela (Alagoas)
 location	Uniao Dos Palmares
+location	Murici
 location	Marechal Deodoro
 location	Rio Largo
 location	Flexeiras
+location	Colonia Leopoldina
 location	Maceio
+location	Maragogi
 
 ### Peru
 # Moquegua
@@ -9940,14 +9983,19 @@ location	Coconino County
 location	Benton County
 
 # Montana
-location	West Yellowstone
-location	Big Sky
-location	Ennis
-location	Gallatin County MT
-location	Bozeman
 location	Ravalli County
-location	Lewis and Clark County
 location	Flathead County
+location	Lewis and Clark County
+location	Ennis
+location	Cascade County
+location	Big Sky
+location	Gallatin County MT
+location	West Yellowstone
+location	Bozeman
+location	Chouteau County
+location	Sweet Grass County
+location	Blaine County
+location	Yellowstone County
 
 # New Mexico
 location	Luna County
@@ -9960,6 +10008,7 @@ location	Socorro County
 location	Torrance County
 location	Valencia County
 location	Cibola County
+location	Guadalupe County NM
 location	Bernalillo County
 location	Santa Fe County
 location	Santa Fe County NM
@@ -10596,23 +10645,36 @@ location	Anderson County SC
 location	Abbeville County
 location	Greenville County
 location	Greenwood County
+location	Greenwood County SC
 location	Spartanburg County
 location	Laurens County SC
+location	Edgefield County
 location	Aiken
+location	Union County SC
+location	Barnwell County
+location	Allendale County
+location	Lexington County
 location	York County SC
 location	Hampton County
 location	Fairfield County SC
+location	Jasper County SC
 location	Columbia SC
+location	Bamberg County
 location	Richland County SC
 location	Orangeburg County
 location	Lancaster County SC
 location	Beaufort County
 location	Colleton County
+location	Kershaw County
 location	Dorchester County
+location	Sumter County SC
+location	Lee County SC
+location	Chesterfield County SC
 location	Darlington County
 location	Berkeley County
 location	Charleston County
 location	Williamsburg County
+location	Marlboro County
 location	Florence County
 location	Marion County SC
 location	Georgetown County
@@ -10626,6 +10688,7 @@ location	Mecklenburg County
 location	Forsyth County
 location	Guilford County
 location	Cumberland County NC
+location	Wake County NC
 
 # Virginia
 location	Frederick County
@@ -11383,6 +11446,7 @@ division	Timbuktu
 division	Mali
 
 ### Burkina Faso
+division	Dandé
 division	Cascades
 division	Hauts-Bassins
 division	Boucle du Mouhoun Region
@@ -11668,6 +11732,7 @@ division	Diana
 ### Somalia
 division	Benadir
 division	Maroodi Jeex
+division	Mudug
 division	Somalia
 division	Awdal
 
@@ -12278,6 +12343,7 @@ division	Evros
 division	Drama
 division	Crete
 division	Xanthi
+division	Eastern Macedonia and Thrace
 division	Naousa
 division	Rodopi
 division	South Aegean
