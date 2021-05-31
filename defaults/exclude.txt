@@ -2201,7 +2201,7 @@ USA/KS-KHEL-1913/2020
 # Suspiciously early for clade
 England/LCST-24DE3CC/2020
 
-Sample date before clade (see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622107826150400):
+# Sample date before clade (see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622107826150400):
 Italy/CAM-TIGEM-IZSM-COLLI-14397/2021
 Qatar/QA.QU_18.10.B12/2020
 Qatar/QA.QU_18.10.E12/2020
@@ -2211,3 +2211,20 @@ Spain/MD-HRYC-71299296/2020
 
 # https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622214173170700
 Mongolia/3622/2020
+
+# Sample date before clade
+SouthKorea/KDCA4115/2020
+USA/LA-EVTL2775/2021
+USA/LA-EVTL2776/2021
+
+# Divergence
+Iran/T11514/2021
+USA/LA-EVTL2492/2021
+Brazil/PB-BA1200-250009713/2020
+Brazil/RJ-FIOCRUZ-2188-1P/2020
+Spain/MD-IBV-99018541/2020
+Italy/CAM-TIGEM-IZSM-COLLI-14404/2021
+Italy/CAM-TIGEM-IZSM-COLLI-14404/2021
+USA/WA-UW-2105/2020
+India/MH-ICMR-NIV-INSAGOG-GSEQ-2375/2020
+India/TG-CDFD-N5400/2020
