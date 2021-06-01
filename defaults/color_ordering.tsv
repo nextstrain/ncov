@@ -630,33 +630,34 @@ location	Jhenaidah
 location	Chuadanga
 
 # Dhaka
-location	Kalukhali Upazila
 location	Farmgate
 location	Rajbari
-location	Rajbari Sadar Upazila
 location	Faridpur
 location	Tangail
 location	Manikganj
 location	Madaripur
 location	Dhamrai
 location	Savar
-location	Shariatpur Sadar Upazila
 location	Shariatpur
 location	Keraniganj
 location	Mohammadpur
 location	Shaymoli
 location	Mirpur
+location	West Dhanmondi
 location	Agargaon
+location	East Shewrapara
 location	Dhanmondi
 location	Uttara
 location	Old Dhaka
 location	Kalabagan
 location	Azimpur
+location	Green Road
 location	Panthapath
+location	Elephant Road
+location	Tejkunipara
 location	Tejgaon
 location	Rahmatganj
 location	Cantonment
-location	Naria Upazila
 location	Banani
 location	Gulshan
 location	Moghbazar
@@ -664,13 +665,12 @@ location	Niketan
 location	Dhaka
 location	Nikunja
 location	Baridhara
+location	North Shajahanpur
 location	Ashkona
 location	Gazipur
 location	Jatrabari
-location	Damudya Upazila
+location	Aftabnagar
 location	Basundhara Residential Area
-location	Bhedarganj Upazila
-location	Gosairhat Upazila
 location	Narayanganj
 location	Munshiganj
 location	Narsingdi
@@ -2697,6 +2697,7 @@ location	Sinnamary
 location	Kourou
 location	Macouria
 location	Camopi
+location	Matoury
 location	Cayenne GF
 location	Remire-Montjoly
 location	Regina
@@ -4556,6 +4557,7 @@ location	Oldenzaal
 # Groningen
 location	Haren
 location	Grootegast
+location	Vierhuizen
 location	Leek
 location	Zuidhorn
 location	Sauwerd
@@ -4572,6 +4574,7 @@ location	Appingedam
 location	Wildervank
 location	Zuidbroek
 location	Muntendam
+location	Veendam
 location	Delfzijl
 location	Stadskanaal
 location	Heiligerlee
@@ -4591,6 +4594,7 @@ location	Norg
 location	Bovensmilde
 location	Peize
 location	Beilen
+location	Donderen
 location	Assen
 location	Eelde
 location	Vries
@@ -5333,11 +5337,13 @@ location	Wolfsberg
 # Upper Austria
 location	Zell Am Moos
 location	Ried
+location	Sankt Lorenz
 location	Pöndorf
 location	Mondsee
 location	Frankenmarkt
 location	Fornach
 location	Oberwang
+location	Strass Im Attergau
 location	Pfaffing
 location	Unterach Am Attersee
 location	Vöcklamarkt
@@ -5371,6 +5377,7 @@ location	Altmünster
 location	Pinsdorf
 location	Ebensee Am Traunsee
 location	Schwanenstadt
+location	Rüstorf
 location	Traunkirchen
 location	Ohlsdorf
 location	Gmunden
@@ -5407,6 +5414,7 @@ location	Weißkirchen An Der Traun
 location	Steyr-Land
 location	Linz
 location	Linz-Land
+location	Engerwitzdorf
 location	Losenstein
 location	Freistadt
 
@@ -5917,6 +5925,7 @@ location	Wilkowo
 location	Buk
 location	Obrzycko
 location	Galowo
+location	Czarnków
 location	Kobylniki
 location	Leszno
 location	Szamotuly
@@ -5970,6 +5979,7 @@ location	Wiorek
 location	Czapury
 location	Poznan-Wilda
 location	Poznan
+location	Chodzież
 location	Baranowo
 location	Gora (Wielkopolskie)
 location	Koziegłowy
@@ -5980,6 +5990,7 @@ location	Murowana Goslina
 location	Srem
 location	Gostyn
 location	Przebedowo
+location	Złotów
 location	Piaski
 location	Zalasewo
 location	Tulce
@@ -6005,6 +6016,7 @@ location	Czerniejewo
 location	Jarocin
 location	Szczytniki Czerniejewskie
 location	Dalki
+location	Września
 location	Gniezno
 location	Welnica
 location	Niechanowo
@@ -6017,6 +6029,7 @@ location	Ostrow (Wielkopolskie)
 location	Kruchowo
 location	Trzemeszno
 location	Sulecin (Wielkopolskie)
+location	Słupca
 location	Powidz
 location	Ostrzeszow
 location	Grodzisk
@@ -6039,6 +6052,7 @@ location	Skarbki
 location	Kowale Panskie-Kolonia
 location	Czajkow
 location	Zimotki
+location	Koło
 location	Januszowka
 location	Nowa Wioska
 
@@ -6048,6 +6062,7 @@ location	Bierzow
 location	Polski Swietow
 location	Głuchołazy
 location	Stary las
+location	Brzeg
 location	Łąka Prudnicka
 location	Laskowiec
 location	Prudnik
@@ -6064,6 +6079,7 @@ location	Głogówek
 location	Grobniki
 location	Lisiecice
 location	Opole
+location	Krapkowice
 location	Baborow
 location	Kietrz
 location	Dabrowice
@@ -6172,15 +6188,19 @@ location	Nowiec
 
 # Kujawsko-Pomorskie
 location	Lipno
+location	Mogilno
 location	Wloclawek
 location	Dziarnowo
 location	Znin
 location	Nadborowo
 location	Torun
 location	Bydgoszcz
+location	Nakło
+location	Brodnica
 location	Wabrzezno
 location	Bobrowo
 location	Pruszcz
+location	Chełmno
 location	Swiecie
 location	Sepolno Krajenskie
 location	Grudziadz
@@ -6753,6 +6773,7 @@ location	Wojnowce
 location	Kalinkovo
 location	Rovinka
 location	Miloslavov
+location	Tomasov
 location	Malinovo
 location	Ivanka Pri Dunaji
 location	Senec
@@ -6760,6 +6781,7 @@ location	Slovensky Grob
 location	Stupava
 location	Pezinok
 location	Vinosady
+location	Lozorno
 location	Plavecký Štvrtok
 location	Malacky
 location	Kostoliste
@@ -6791,6 +6813,7 @@ location	Piestany
 location	Hradište pod Vrátnom
 location	Šaštín-Stráže
 location	Senica
+location	Petrova Ves
 location	Sobotiste
 location	Kopcany
 location	Holíč
@@ -6818,6 +6841,7 @@ location	Mutne Dulov
 location	Banovce nad Bebravou
 location	Puchov
 location	Partizanske
+location	Hradiste
 location	Povazska Bystrica
 location	Diviaky nad Nitricou
 location	Bystricany
@@ -6893,10 +6917,13 @@ location	Sahy
 
 # Zilina
 location	Bytca
+location	Fackov
 location	Turzovka
 location	Rajecke Teplice
 location	Zavodie
 location	Lietavska Lucka
+location	Neslusa
+location	Turie
 location	Kysucke Nove Mesto
 location	Cadca
 location	Teplicka nad Vahom
@@ -6914,6 +6941,7 @@ location	Horná Štubňa
 location	Kostany nad Turcom
 location	Vrutky
 location	Martin
+location	Lutise
 location	Bela
 location	Sucany
 location	Turčianska Štiavnička
@@ -6957,6 +6985,7 @@ location	Suchá Hora
 location	Važec
 
 # Banska Bystrica
+location	Nova Bana
 location	Zarnovica
 location	Bzenica
 location	Ziar nad Hronom
@@ -6970,13 +6999,17 @@ location	Velky Krtis
 location	Horne Strhare
 location	Zelovce
 location	Maly Krtis
+location	Detva
 location	Busince
 location	Hrinova
 location	Podbrezova
+location	Halic
 location	Myto Pod Dumbierom
 location	Brezno
 location	Sihla
 location	Lucenec
+location	Rapovce
+location	Michalova
 location	Poltar
 location	Ozdany
 location	Hnusta
@@ -7144,8 +7177,38 @@ location	Berovo
 location	Strumica
 
 ### Greece
+# Ionian Islands
+location	Corfu
+
+# Aegean Islands
+location	Kos
+location	Kalymnos
+location	Ikaria
+location	Lesvos
+
+# Epirus
+location	Thesprotia
+
+# Western Greece
+location	Aetolia Acarnania
+
+# Thessaly
+location	Karditsa
+location	Larissa
+location	Magnesia
+
+# Peloponnese
+location	Lakonia
+location	Arkadia
+location	Argolida
+location	Korinthos
+
 # Central Greece
+location	Evritania
+location	Phthiotis
+location	Voiotia
 location	Livadeia
+location	Euvoia
 
 ### Lithuania
 # Klaipedos Apskritis
@@ -10744,6 +10807,7 @@ location	Barnwell County
 location	Allendale County
 location	Lexington County
 location	York County SC
+location	Chester County SC
 location	Hampton County
 location	Fairfield County SC
 location	Jasper County SC
@@ -11058,6 +11122,7 @@ division	Doha
 division	Qatar
 
 ### Iran
+division	Maku
 division	Urmia
 division	Abadan
 division	Hamedan
@@ -11066,13 +11131,16 @@ division	Arak
 division	Alborz Province
 division	Qom
 division	Karaj
+division	Bushehr
 division	Tehran
+division	Isfahan
 division	Iran
 division	Shiraz
 division	Gorgan
 division	Semnan
 division	Yazd
 division	Hormozgan
+division	Kerman
 division	Kashmar
 division	Sistan and Baluchestan
 
@@ -11213,7 +11281,6 @@ division	Asia
 division	Chattogram
 division	Barishal
 division	Khulna
-division	Cumilla
 division	Dhaka
 division	Rajshahi
 division	Bangladesh
@@ -11229,6 +11296,8 @@ division	Myanmar
 
 ### Thailand
 division	Narathiwat
+division	Pattani
+division	Songkhla
 division	Trang
 division	Phuket
 division	Rayong
@@ -11602,6 +11671,7 @@ division	Alger
 
 ### Nigeria
 division	Lagos
+division	South-West
 division	Ogun State
 division	Oyo State
 division	Kwara State
@@ -12419,6 +12489,7 @@ division	Southeastern Region
 
 ### Greece
 division	Ionian Islands
+division	Aegean Islands
 division	Epirus
 division	Kastoria
 division	Florina

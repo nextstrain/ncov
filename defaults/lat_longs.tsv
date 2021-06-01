@@ -48,7 +48,9 @@ location	Adilabad	19.5	78.5
 location	Adolfow	51.9288315	19.3672643
 location	Adra	36.748834	-3.0203617
 location	Aesch	47.4682447	7.5980395
+location	Aetolia Acarnania	38.70333835	21.249005544410082
 location	Affligem	50.9035063	4.1174675
+location	Aftabnagar	23.788563	90.4444251
 location	Agaete	28.1008499	-15.7023479
 location	Agam	-0.2634005	100.17201627524973
 location	Agargaon	23.7792	90.3737
@@ -388,9 +390,11 @@ location	Argelia	5.70531055	-75.0921269896775
 location	Argentan	48.7428859	-0.0223695
 location	Argenteuil	48.9479069	2.2481797
 location	Argentona	41.5554326	2.4002787
+location	Argolida	37.566266150000004	22.85593894780862
 location	Arica	-18.4785288	-70.3211394
 location	Ariege	42.9455368	1.4065544156065486
 location	Ariel	32.10328222703244	35.174615499721995
+location	Arkadia	37.42908855	22.427377699353286
 location	Arkhara	49.4224283	130.0858308
 location	Arlesheim	47.4931125	7.6202048
 location	Armacao Dos Buzios	-22.7597805	-41.8875267
@@ -1174,6 +1178,7 @@ location	Brives Charensac	45.0474	3.92197
 location	Brixen	46.7165491	11.657851
 location	Brno	49.1922443	16.6113382
 location	Brobo	7.966667	-4.833333
+location	Brodnica	53.2580224	19.405433708150433
 location	Brodno-Warszawa	52.288533	21.0310084
 location	Broechem	51.180793	4.602098
 location	Broek In Waterland	52.432523	4.9957461
@@ -1210,6 +1215,7 @@ location	Bruty	47.9236648	18.5789655
 location	Bruxelles	50.844766	4.351355
 location	Bry sur Marne	48.8352872	2.5193322
 location	Bryansk	53.2423778	34.3668288
+location	Brzeg	50.8588648	17.464124493778538
 location	Brzesko	49.9678396	20.6068496
 location	Brzezie	50.1276855	19.8249971
 location	Brzezie (Malopolskie)	50.1276855	19.8249971
@@ -1707,6 +1713,7 @@ location	Chazemais	46.4829631	2.5259702
 location	Cheboksary	56.1307195	47.2449597
 location	Chelan County	47.8012197	-120.6276904
 location	Chełm	51.13558825	23.493936945891463
+location	Chełmno	53.35250284999999	18.440424707276136
 location	Chemin Grenier	-20.4892003	57.474182068307826
 location	Chemung County	42.1384667	-76.7725493
 location	Chenango County	42.4972	-75.6208
@@ -1721,6 +1728,7 @@ location	Cherokee	30.9809367	-98.7088377
 location	Cherokee County	34.1142554	-85.6004514
 location	Cheshire	41.5084	-72.9106
 location	Chester County	39.9829308	-75.7652424
+location	Chester County SC	34.6859896	-81.1545073
 location	Chesterfield County SC	34.6500578	-80.1417843
 location	Chia	4.8704614500000005	-74.03632158198437
 location	Chicago	41.858966	-87.637242
@@ -1752,6 +1760,7 @@ location	Chmielnik	50.6145952	20.7510406
 location	Chocielewko	54.537536	17.6357496
 location	Choconta	5.146017	-73.683678
 location	Chodorówka Stara	53.5315077	23.1278556
+location	Chodzież	52.994997749999996	16.919925663627275
 location	Chojnice	53.6999165	17.570344138115953
 location	Chojnicki	53.80103495	17.72776527658926
 location	Cholchol	-38.6025592	-72.8476626
@@ -1960,6 +1969,7 @@ location	Cordoba ES	36.1412992	-5.6994821
 location	Cordoba Villa El Libertador	-31.4767681	-64.220012
 location	Cordovin	42.3848664	-2.8153541
 location	Corduente	40.8426955	-1.9783744
+location	Corfu	39.591337	19.859618918733858
 location	Cork	51.899	-8.460
 location	Cormoz	46.4484	5.2327
 location	Cornelio Procopio	-23.1825218	-50.6499263
@@ -2088,6 +2098,7 @@ location	Czaniec	49.84875	19.26204
 location	Czaplinek	53.560673	16.2319428
 location	Czapury	52.3248844	16.9113654
 location	Czarna Białostocka	53.2982835	23.2851013
+location	Czarnków	52.90107245	16.572584219404398
 location	Czarnochowice	50.006516	20.0687187
 location	Czarnowo	52.0352107	14.9584601
 location	Czarny Bor	50.769924	16.133781
@@ -2212,6 +2223,7 @@ location	Desertines	46.3556648	2.6157229
 location	DeSoto Parish	32.071362	-93.725530
 location	Dessel	51.2395713	5.113243
 location	Desterro do Melo	-21.1460033	-43.518329
+location	Detva	48.5449223	19.4152478
 location	Deurne	51.220173	4.458167
 location	DeWitt County	29.0931328	-97.3158457
 location	DeWitt County IL	40.1734773	-88.9003733
@@ -2293,6 +2305,7 @@ location	Domingos Martins	-20.3646483	-40.6585797
 location	Don Bosco	9.0576699	-79.4168184
 location	Dona Ana County	32.32817	-106.8494235
 location	Donceel	50.6478971	5.3199408
+location	Donderen	53.0960429	6.5457328
 location	Dongguan	22.992389	113.744830
 location	Donihue	-34.226074	-70.9648916
 location	Donostia-San Sebastian	43.304023	-1.981439
@@ -2396,6 +2409,7 @@ location	East Godavari	17.233496	81.7225986
 location	East Haven	41.298543	-72.862538
 location	East Medinipur	22.037985	87.811563
 location	East Orange	40.767323	-74.2048677
+location	East Shewrapara	23.7940712	90.3756562
 location	East Sikkim	27.3152014	88.6013621
 location	East Singhbhum	22.7995551	86.1839568
 location	Eau Claire County	44.7257643	-91.3040313
@@ -2483,6 +2497,7 @@ location	Elche	38.2653307	-0.6988391
 location	Elda	38.4765	-0.7966
 location	Elektrostal	55.7903785	38.4405711
 location	Elektrėnai	54.786657	24.6708398
+location	Elephant Road	23.7391943	90.38753499789709
 location	Elewijt	50.9604886	4.4975514
 location	Eliksem	50.78710135	5.00749223194515
 location	Elista	46.306999	44.270187
@@ -2515,6 +2530,7 @@ location	Empuriabrava	42.2443515	3.126551
 location	Encantado	-29.2392716	-51.8744817
 location	Encosta de Sol	38.7673226	-9.2101078
 location	Engenheiro Paulo de Frontin	-22.5504556	-43.6783403
+location	Engerwitzdorf	48.3409827	14.4224476
 location	Enghien	50.690407	4.036980
 location	England	52.405994	-1.671707
 location	Engrais Martial	-20.3003821	57.5164263
@@ -2605,15 +2621,18 @@ location	Euclides Da Cunha Paulista	-22.55452	-52.592779
 location	Eugenio Espejo	0.2105058	-78.2491045
 location	Eugies	50.3906692	3.8883703
 location	Eupen	50.6292	6.0337
+location	Euvoia	38.49417235	23.91108439913793
 location	Évelette	50.4135772	5.171436
 location	Even Shmuel	31.8087214	35.1984071
 location	Everberg	50.8778651	4.5695061
 location	Evere	50.8720096	4.4034182
 location	Evilard	47.1494705	7.2395711
 location	Evreux	49.0268903	1.1510164
+location	Evritania	38.965892999999994	21.678705442804155
 location	Ezcaray	42.3257844	-3.0146438
 location	Ezeiza	-34.816848	-58.54746382802307
 location	Facatativa	4.829488899999999	-74.33464735967988
+location	Fackov	49.0098761	18.5986667
 location	Fahy	47.4184563	6.9505047
 location	Faina	-15.4458005	-50.3633826
 location	Fair Haven	40.3606653	-74.0381947
@@ -3102,6 +3121,7 @@ location	Greater Milwaukee Area	43.0389	-87.9065
 location	Grecia	10.071966	-84.312172
 location	Green County	42.687601	-89.584475
 location	Green Lake County	43.7971612	-89.0402508
+location	Green Road	23.7437581	90.3845921
 location	Greene County	42.2628769	-74.0878112
 location	Greene County IL	39.3573664	-90.3898985
 location	Greene County NY	42.2628769	-74.0878112
@@ -3240,6 +3260,7 @@ location	Hale County TX	34.0321298	-101.8088827
 location	Halen	50.948587	5.090071
 location	Halfweg	52.3826063	4.7546903
 location	Halhul	31.5775471	35.0993156
+location	Halic	48.3542823	19.5742231
 location	Halinow	52.3581586	19.4706484
 location	Hallaar	51.0845683	4.7294097
 location	Halle	50.723860	4.235891
@@ -3490,6 +3511,7 @@ location	Howard County	43.3353641	-92.3230007
 location	Howrah	22.554019	88.182766
 location	Hoz de Anero	43.4064922	-3.6651279
 location	Hozelec	49.02960815	20.338867334449482
+location	Hradiste	48.6861145	18.3787168
 location	Hradište pod Vrátnom	48.6271718	17.4871953
 location	Hranovnica	48.9877666	20.3093442
 location	Hrinova	48.5764603	19.525865
@@ -3578,6 +3600,7 @@ location	Iguape	-24.7042692	-47.5563733
 location	Iguatemi	-23.673555	-54.563731
 location	Ijmuiden	52.4573438	4.6110644
 location	Ijui	-28.3878734	-53.9201692
+location	Ikaria	37.599929450000005	26.151689404867284
 location	Ilava	48.9985674	18.2307598
 location	Ilawski	53.67479095	19.4915030031177
 location	iLembe	-29.240765	31.234110920000003
@@ -3943,6 +3966,7 @@ location	Kalsdorf Bei Graz	46.9644025	15.4786966
 location	Kaltbrunn	47.2134573	9.0249831
 location	Kalukhali Upazila	23.765566034504623	89.48824818987217
 location	Kalyanpur	22.08421335	69.3041972072113
+location	Kalymnos	37.00262545	26.992424179156217
 location	Kamareddy	18.316551	78.05393808043348
 location	Kamenica nad Hronom	47.831347	18.7255594
 location	Kamenicna	47.8162871	18.0426149
@@ -3980,6 +4004,7 @@ location	Kappl	47.05342475	10.342014611207333
 location	Kaprun	47.2713898	12.7573679
 location	Karachayevsk	43.7715594	41.911979
 location	Karawang	-6.3042012	107.307897
+location	Karditsa	39.3639689	21.9213213
 location	Kargil	34.420542600000005	75.6467756307598
 location	Karimnagar	18.4346438	79.1322648
 location	Karkams	-30.36922786960893	17.886940492824987
@@ -4162,6 +4187,7 @@ location	Kolin	50.0288894	15.2011571
 location	Kolin 2	50.0226044	15.1907306
 location	Kolkata	22.543905	88.374991
 location	Kolno	53.401686749999996	21.936077723604825
+location	Koło	52.2019866	18.6359912
 location	Kolobrzeg	54.176211550000005	15.57640369780165
 location	Kolodishchi	53.9454227	27.7749292
 location	Kolonia Nadwislanska	51.1193642	21.787911
@@ -4191,6 +4217,7 @@ location	Koog Aan de Zaan	52.4620521	4.8071394
 location	Koolskamp	51.0020706	3.2092316
 location	Kootenai County	47.654857	-116.7162916
 location	Kopcany	48.7876098	17.114639
+location	Korinthos	37.9386936	22.9280447
 location	Korneuburg	48.3440605	16.3334321
 location	Korolyov	55.9204898	37.8326289
 location	Korsze	54.1707614	21.1442323
@@ -4199,6 +4226,7 @@ location	Kortenaken	50.906611	5.0622937
 location	Kortenberg	50.887699	4.567473
 location	Kortessem	50.8600026	5.3865719
 location	Korzen	51.6412901	20.8785388
+location	Kos	36.793693250000004	27.084826562878217
 location	Kosakowo	54.5887906	18.4926928
 location	Koscian	52.08336945	16.646088826711576
 location	Kościerzyna	54.1210215	17.9781656
@@ -4242,6 +4270,7 @@ location	Kralovsky Chlmec	48.4223618	21.9804775
 location	Králův Dvůr	49.9502063	14.0344556
 location	Kramsach	47.4553157	11.873043308886206
 location	Kranj	46.2417685	14.355964
+location	Krapkowice	50.4747413	17.9675262
 location	Krasnik	50.943493200000006	22.208352670460982
 location	Krasno nad Kysucou	49.3897116	18.8318753
 location	Krasnodar	45.0352566	38.9764814
@@ -4446,6 +4475,7 @@ location	Lake County OR	42.7702847	-120.4528326
 location	Lake Oswego	45.4206749	-122.6706498
 location	Laken	50.887688	4.353935
 location	Lakhimpur	27.985060150000002	80.75384538357649
+location	Lakonia	36.5296636	22.976579215613675
 location	Lakshmipur	22.9444179	90.827495
 location	Lalin	42.6612	-8.1110
 location	Lamar County	33.6383552	-95.582343
@@ -4497,6 +4527,7 @@ location	Laranjeiras do Sul	-25.4073197	-52.4150132
 location	Lardero	42.4272883	-2.4624393
 location	Laredo	43.41063	-3.4173
 location	Larino	41.8055672	14.9210984
+location	Larissa	39.6383092	22.4160706
 location	Laroquebrou	44.967739	2.1911658
 location	Larroude	-35.0259663	-63.5827254
 location	Las Breñas	-27.0863246	-61.0859456
@@ -4629,6 +4660,7 @@ location	Lesneven	48.5718493	-4.3235917
 location	Lesniow Maly	52.0053231	15.278039
 location	Lesno Gorne	53.5091596	14.5144056
 location	Lessines	50.710456	3.828368
+location	Lesvos	39.2074811	26.1342123
 location	Leszczyna	54.1181716	19.6262194
 location	Leszczynski	51.8500649	16.737710773395786
 location	Leszno	51.8436068	16.58042182076424
@@ -4855,6 +4887,7 @@ location	Lourinha	39.246033100000005	-9.271338790806393
 location	Lousame	42.7655657	-8.8489519
 location	Lovendegem	51.100478	3.624891
 location	Lowndes County	32.1088066	-86.6402541
+location	Lozorno	48.3346371	17.0444471
 location	Łąka Prudnicka	50.31122	17.52841
 location	Lu'An	31.7383487	116.5142252
 location	Lubango	-14.9191716	13.4896401
@@ -4908,6 +4941,7 @@ location	Lupsingen	47.4466659	7.6938955
 location	Lupstych	53.7828036	20.3641032
 location	Luque	-25.2665417	-57.4926928
 location	Lusowo	52.4331671	16.6971054
+location	Lutise	49.2937547	18.9556005
 location	Lutomia Dolna	50.7593967	16.5392945
 location	Lutry	46.5032766	6.6867879
 location	Lutry CH	46.5032766	6.6867879
@@ -4986,6 +5020,7 @@ location	Magadan	59.5604768	150.7988617
 location	Magden	47.5283737	7.8116008
 location	Mage	-22.6604221	-43.0426162
 location	Maggiolo	-33.7237065	-62.2465621
+location	Magnesia	39.30122565	23.035284886790997
 location	Magura	23.488333	89.42
 location	Mahajanga	-15.7181492	46.3172577
 location	Mahasamund	21.1882332	82.48484762499999
@@ -5193,6 +5228,7 @@ location	Mateo Iturralde	9.032976446684449	-79.49611275876926
 location	Matera	40.447641899999994	16.47357384028852
 location	Mateur	37.0385985	9.6676974
 location	Matki	53.8350372	20.3450702
+location	Matoury	4.8496712	-52.3268695
 location	Matrei am Brenner	47.128405	11.452845
 location	Matzingen	47.5199826	8.934077
 location	Maua	-23.664006	-46.442663
@@ -5320,6 +5356,7 @@ location	Miami Platja	41.010183	0.9378257
 location	Miaty	52.53533	17.79776
 location	Michal nad Zitavou	48.1845316	18.2828845
 location	Michalki	53.6511665	20.7595838
+location	Michalova	48.7626694	19.7778938
 location	Michalovce	48.7514383	21.9211949
 location	Michalow	50.4900096	20.456102
 location	Michalowice	50.1603193	19.9801697
@@ -5431,6 +5468,7 @@ location	Mogi Das Cruzes	-23.5393	-46.2167
 location	Mogi-Guacu	-22.372222	-46.9425
 location	Mogi Mirim	-22.433009	-46.9581629
 location	Mogilany	49.9413293	19.8877676
+location	Mogilno	52.657341	17.9500677
 location	Mogro	43.4272044	-3.9714117
 location	Moha	50.5471619	5.1878867
 location	Mohali	30.700371669376754	76.69634773710384
@@ -5683,6 +5721,7 @@ location	Nagoya	35.1851045	136.8998438
 location	Nagpur	21.1498134	79.0820556
 location	Najera	42.416745	-2.7336874
 location	Nakhal	23.395468	57.8289398
+location	Nakło	53.1386896	17.5998891
 location	Nalda	42.3351254	-2.4882778
 location	Nalgonda	16.8579636	79.21749353315548
 location	Nalinnes	50.3249486	4.4466922
@@ -5761,6 +5800,7 @@ location	Neringa	55.3064493	20.9963702
 location	Nerja	36.7468565	-3.8790164
 location	Neschers	45.5889848	3.1635232
 location	Neschwil	47.4295716	8.7879574
+location	Neslusa	49.3100483	18.7486916
 location	Nesslau	47.21436275	9.187116980739692
 location	Nesvady	47.9285197	18.1285528
 location	Netanya	32.3286181	34.8566246
@@ -5864,6 +5904,7 @@ location	North 24 Parganas	22.722907	88.734582
 location	North and Middle Andaman	12.61123865	92.83165406414926
 location	North-Branford	41.3276	-72.7673
 location	North Haven	41.383683	-72.858134
+location	North Shajahanpur	23.7457901	90.4217076
 location	Northamtonshire	52.324226	-0.872799
 location	Northern Alaska	67.3274	-161.0159
 location	Northern Queensland	-17.758290	142.643075
@@ -5877,6 +5918,7 @@ location	Nova Alianca	-21.0163728	-49.4981128
 location	Nova Alvorada do Sul	-21.4587274	-54.3760634
 location	Nova Andradina	-22.2477565	-53.3480621
 location	Nova Araça	-28.6604116	-51.7424776
+location	Nova Bana	48.4245994	18.6413651
 location	Nova Bassano	-28.7304074	-51.7034689
 location	Nova Brescia	-29.2158737	-52.0290188
 location	Nova Dubnica	48.9358736	18.1457351
@@ -6410,6 +6452,7 @@ location	Petrolandia	-8.9701861	-38.2213655
 location	Petrolina	-9.3817334	-40.4968875
 location	Petropavlovsk-Kamchatsky	53.0199838	158.6471356
 location	Petropolis	-22.5112	-43.1779
+location	Petrova Ves	48.7225042	17.1614557
 location	Petrovany	48.9166204	21.2616031
 location	Petrozavodsk	61.790039	34.390007
 location	Pettenbach	47.9614255	14.0161792
@@ -6427,6 +6470,7 @@ location	Pfunds	46.9984543	10.5829968
 location	Pfungstadt	49.8023181	8.5987671
 location	Philadelphia County	40.0114538	-75.1326504
 location	Phoenix	33.433362	-112.068786
+location	Phthiotis	38.88734025	22.368030084606932
 location	Piaseczno	52.0747377	21.0270885
 location	Piaski	51.8848287	17.0741589
 location	Piaskow	51.0745472	21.5243699
@@ -6940,6 +6984,7 @@ location	Ransart	50.461008	4.476094
 location	Ranst	51.1962373	4.563813424474654
 location	Rapides County	31.3635131	-92.5868095
 location	Rapides Parish	31.204868	-92.527191
+location	Rapovce	48.27038235	19.683632880964655
 location	Rapperswil	47.2269198	8.8245459
 location	Rastislavice	48.1380649	18.0734754
 location	Ratíškovice	48.923900	17.161986
@@ -7220,6 +7265,7 @@ location	Rudziczka	50.0393136	18.7544775
 location	Rudzienko	52.2960208	21.6653857
 location	Rueda	-33.3355941	-60.4589616
 location	Rümmingen	47.6419637	7.6429253
+location	Rüstorf	48.0416013	13.7896687
 location	Rufina Alfaro	9.068903	-79.456339
 location	Ruili	24.0200662	97.8554177
 location	Ruiloba	43.38064	-4.25244
@@ -7533,6 +7579,7 @@ location	Sangamon County	39.7623668	-89.6454905
 location	Sangareddy	17.86859205	77.8228199507381
 location	Sangli	16.8502534	74.5948885
 location	Sankt Gallenkappel	47.245722	8.9652667
+location	Sankt Lorenz	47.8228118	13.3561241
 location	Sankt Pölten	48.138601449999996	15.817633511871579
 location	Sankt Pölten-Land	48.2852569	15.6955065
 location	Sankt Pölten-Stadt	48.138601449999996	15.817633511871579
@@ -8074,6 +8121,7 @@ location	Slochteren	53.2188327	6.8061724
 location	Slomniki	50.2403739	20.0811369
 location	Slovensky Grob	48.2550032	17.2843332
 location	Slubice	52.3557481	14.5662367
+location	Słupca	52.29070125	17.871644736662404
 location	Slupia	51.0136924	20.1486924
 location	Słupsk	54.460570849999996	17.027730037017736
 location	Smalyavichy	54.0299337	28.089752
@@ -8316,6 +8364,7 @@ location	Storey County	39.4572167	-119.5157991
 location	Stoughton	42.922770	-89.225062
 location	Stradzewo	53.2215482	15.4368102
 location	Strasbourg	48.5734	7.7521
+location	Strass Im Attergau	47.9092541	13.4540582
 location	Strass im Zillertal	47.397430	11.820402
 location	Strasshof an der Nordbahn	48.3189487	16.6429437
 location	Straszyn	54.2722494	18.5823095
@@ -8557,6 +8606,7 @@ location	Teia	41.4970697	2.3214331
 location	Teilhede	45.9567	3.0725
 location	Teixeira de Freitas	-17.5376644	-39.7458096
 location	Tejgaon	23.758670	90.391633
+location	Tejkunipara	23.7625751	90.3914718
 location	Tel-Aviv	32.0804808	34.7805274
 location	Tellin	50.081019	5.216837
 location	Telnice	50.7329577	13.9577771
@@ -8601,6 +8651,7 @@ location	Thaya	48.8558271	15.2873599
 location	Thedes	45.7371099	3.0245569
 location	Thembisile Hani	-25.410567098683515	28.95592482297885
 location	Therwil	47.4992969	7.5574673
+location	Thesprotia	39.54401235	20.308355368968883
 location	Theux	50.518906	5.814748
 location	Thiadiaye	14.4204818	-16.7056134
 location	Thiais	48.7643664	2.391024
@@ -8673,6 +8724,7 @@ location	Tom Green County	31.3782559	-100.4133839
 location	Tomah	43.988774	-90.502952
 location	Tomar do Geru	-11.3752475	-37.8413399
 location	Tomasikovo	48.0811834	17.6941428
+location	Tomasov	48.1420549	17.3348601
 location	Tomaszkowice	49.9761631	20.0973407
 location	Tomaszów Lubelski	50.447922950000006	23.42919536202701
 location	Tomaszowo	51.6215692	15.3970476
@@ -8824,6 +8876,7 @@ location	Turany nad Ondavou	49.09010605	21.661494682930424
 location	Turčianska Štiavnička	49.0863462	19.023593
 location	Turcianske Teplice	48.8614083	18.8608115
 location	Turek	52.0162022	18.511440948960132
+location	Turie	49.1491194	18.7526706
 location	Turin	45.0677551	7.6824892
 location	Turkestan	43.298692	68.26296
 location	Turkowice	50.6570817	23.74354834584146
@@ -9021,6 +9074,7 @@ location	Vavrecka	49.3855959	19.4674903
 location	Važec	49.0592773	19.9816464
 location	Vazquez de Coronado	10.0301109	-83.9519851
 location	Vedra	42.7765527	-8.4821723
+location	Veendam	53.0807517	6.877303483300453
 location	Veerle	51.068963	4.986866
 location	Vega de Pas	43.1585436	-3.7821043
 location	Vegaquemada	42.79869845	-5.339723737661707
@@ -9102,6 +9156,7 @@ location	Viedma	-40.8084274	-62.994722
 location	Viella Mitg Aran	42.7017572	0.7954744
 location	Vienna	48.2083537	16.3725042
 location	Vienne	48.190041	16.382686
+location	Vierhuizen	53.360658	6.2918351
 location	Vieux Ferette	47.6238204	7.2401542
 location	Vieux-Genappe	50.6083965	4.4412263
 location	Vígľašská Huta-Kalinka	48.4936815	19.2767309
@@ -9234,6 +9289,7 @@ location	Vöcklamarkt	48.0022211	13.4850818
 location	Völkermarkt	46.6604246	14.6340505
 location	Voeren	50.7465564	5.8390140411473
 location	Voerendaal	50.8722592	5.913755707785212
+location	Voiotia	38.35744775	23.11012390870053
 location	Voiron	45.3631386	5.5910751
 location	Volcan	8.7734239	-82.6375763
 location	Volendam	52.4963695	5.0683538
@@ -9401,6 +9457,7 @@ location	Wespelaar	50.960557	4.640385
 location	West Baton Rouge Parish	30.4514623	-91.3261882
 location	West Coast	-32.9218992	17.985654577646827
 location	West Delhi	28.6479519	77.08556541088615
+location	West Dhanmondi	23.745763	90.36968610363476
 location	West Feliciana Parish	30.8842729	-91.4016657
 location	West Godavari	17.0	81.166667
 location	West Haven	41.279571	-72.962057
@@ -9564,6 +9621,7 @@ location	Wągry	51.7889488	19.854845
 location	Wrociszow	51.046507	15.0583328
 location	Wroclaw	51.1089776	17.0326689
 location	Wronki	52.7101225	16.3742272
+location	Września	52.3250694	17.5652282
 location	Wrzosowa	49.9002137	19.9627611
 location	Wuhan	30.554807	114.271501
 location	Wuustwezel	51.38525	4.565174345040151
@@ -9744,6 +9802,7 @@ location	Zizur Mayor	42.7887152	-1.692616
 location	Zlocieniec	53.5310697	16.0120665
 location	Zlotniki	52.4937835	16.8450812
 location	Zlotoryja	51.122408899999996	15.919447631385701
+location	Złotów	53.3591987	17.043815994517477
 location	Zloty Stok	50.445143	16.8765836
 location	Znin	52.848462	17.7218791
 location	Znojmo	48.86108	16.034083
@@ -9806,6 +9865,7 @@ division	Addis Ababa	9.0107934	38.7612525
 division	Adıyaman	37.900714	38.309879
 division	Adrar	26.4888155	-1.3582442169365363
 division	Adygea	44.6939006	40.1520421
+division	Aegean Islands	38.2504094	20.6304217
 division	Afghanistan	33.7680065	66.2385139
 division	Africa	4.070194	21.824559
 division	Afyon	38.752653	30.553661
@@ -10044,6 +10104,7 @@ division	Burgenland	47.517438	16.468160
 division	Burkina Faso	12.789980	-1.683734
 division	Bursa	40.1827657	29.0677305
 division	Buryatia	52.311711	108.916732
+division	Bushehr	28.8936645	51.3204877
 division	Buzau	45.143297	26.816251
 division	Cabinda	-5.056395	12.3211749
 division	Cabo Delgado	-12.4254942	39.4168743
@@ -10507,6 +10568,7 @@ division	Iraq	33.0955793	44.1749775
 division	Irbid	32.5568	35.8469
 division	Ireland	52.865	-7.979
 division	Irkutsk Region	56.6370122	104.719221
+division	Isfahan	32.6707877	51.6650002
 division	Ishikawa	36.570185	136.732454
 division	Islamabad	33.714095	73.066832
 division	Israel	31.5	34.75
@@ -10622,6 +10684,7 @@ division	Kenya	0.0236	37.9062
 division	Kepulauan Bangka Belitung	-2.7052886	106.3585607
 division	Kepulauan Riau	0.7439240871682783	104.2466702933411
 division	Kerala	10.359825	76.39955
+division	Kerman	29.571858	57.301047
 division	Kerry	52.14533445	-9.517401092833236
 division	Keski-Suomi	62.609365800000006	25.579461022851078
 division	Kfar Saba	32.180607	34.912861
@@ -10806,6 +10869,7 @@ division	Maharashtra	19.7515	75.7139
 division	Maiduguri	11.8395375	13.1536214
 division	Maine	45.709097	-68.8590201
 division	Makkah	21.3891	39.8579
+division	Maku	39.46963445	44.61957980765516
 division	Malacky	48.4347503	17.020348
 division	Malawi	-13.2687204	33.9301963
 division	Malaysia	2.3923759	112.8471939
@@ -11137,6 +11201,7 @@ division	Partizanske	48.6264092	18.3730067
 division	Pasco	-10.5	-75.25
 division	Pastaza	-1.724421	-76.870721
 division	Pathum Thani	14.018153	100.723973
+division	Pattani	6.8678652	101.2504538
 division	Pavlovce nad Uhom	48.6128015	22.0691252
 division	Pays de la Loire	47.640237	-0.647258
 division	Pazardzhik	42.1928	24.3336
@@ -11441,6 +11506,7 @@ division	Soliman	36.6944327	10.4865924
 division	Solothurn	47.207025	7.528326
 division	Somalia	8.3676771	49.083416
 division	Somogy County	46.439656	17.6212956
+division	Songkhla	6.8790221	100.5498542
 division	Sonora	29.3333331	-110.6666671
 division	Soriano	-33.4921266	-57.7893105
 division	Sormland	59.061157	16.697407
@@ -11466,6 +11532,7 @@ division	South Moravian Region	49.1249179	16.682771628867208
 division	South Sulawesi	-3.6446718	119.9471906
 division	South Sumatra	-3.1266842	104.0930554
 division	South Tyrol	46.762051	11.427443
+division	South-West	6.4550575	3.3941795
 division	South Yorkshire	53.4697	-1.326
 division	Southeast Sulawesi	-3.5491199	121.7279646
 division	Southeastern Region	41.4522215	22.657550068796596
