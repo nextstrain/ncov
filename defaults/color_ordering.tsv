@@ -2242,6 +2242,7 @@ location	Alaquas
 location	Xirivella
 location	Valencia Horta
 location	Valencia ES
+location	Mislata
 location	Quart de Poblet
 location	Requena
 location	Alboraya
@@ -11671,7 +11672,6 @@ division	Alger
 
 ### Nigeria
 division	Lagos
-division	South-West
 division	Ogun State
 division	Oyo State
 division	Kwara State
