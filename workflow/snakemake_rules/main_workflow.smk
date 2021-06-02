@@ -24,168 +24,54 @@ rule sanitize_metadata:
         """
 
 
-rule combine_input_metadata:
-    # this rule is intended to be run _only_ if we have defined multiple inputs ("origins")
+rule sanitize_sequences:
+    # Similar to rule combine_input_metadata, this rule should only be run if multiple inputs are being used (i.e. multiple origins)
     message:
         """
-        Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
+        Combine and deduplicate aligned & filtered FASTAs from multiple origins in preparation for subsampling.
         """
     input:
-        metadata=expand("results/sanitized_metadata_{origin}.tsv.xz", origin=config.get("inputs")),
+        lambda w: [_get_path_for_input("filtered", origin) for origin in config.get("inputs", {})]
     output:
-        metadata = "results/combined_metadata.tsv.xz"
-    params:
-        origins = lambda wildcards: list(config["inputs"].keys())
-    log:
-        "logs/combine_input_metadata.txt"
+        "results/combined_sequences_for_subsampling.fasta.xz"
     benchmark:
-        "benchmarks/combine_input_metadata.txt"
+        "benchmarks/combine_sequences_for_subsampling.txt"
     conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/combine_metadata.py --metadata {input.metadata} --origins {params.origins} --output {output.metadata} 2>&1 | tee {log}
-        """
-
-rule align:
-    message:
-        """
-        Aligning sequences to {input.reference}
-            - gaps relative to reference are considered real
-        """
-    input:
-        sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
-        genemap = config["files"]["annotation"],
-        reference = config["files"]["alignment_reference"]
-    output:
-        alignment = "results/aligned_{origin}.fasta.xz",
-        insertions = "results/insertions_{origin}.tsv",
-        translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta.xz", gene=config.get('genes', ['S']))
     params:
-        outdir = "results/translations",
-        genes = ','.join(config.get('genes', ['S'])),
-        basename = "seqs_{origin}",
+        error_on_duplicate_strains="--error-on-duplicate-strains" if not config.get("combine_sequences_for_subsampling", {}).get("warn_about_duplicates") else "",
         strain_prefixes=config["strip_strain_prefixes"],
-        # Strip the compression suffix for the intermediate output from the aligner.
-        uncompressed_alignment=lambda wildcards, output: Path(output.alignment).with_suffix(""),
-        sanitize_log="logs/sanitize_sequences_{origin}.txt"
-    log:
-        "logs/align_{origin}.txt"
-    benchmark:
-        "benchmarks/align_{origin}.txt"
-    conda: config["conda_environment"]
-    threads: 8
-    resources:
-        mem_mb=3000
     shell:
         """
         python3 scripts/sanitize_sequences.py \
-            --sequences {input.sequences} \
-            --strip-prefixes {params.strain_prefixes:q} \
-            --output /dev/stdout 2> {params.sanitize_log} \
-            | nextalign \
-            --jobs={threads} \
-            --reference {input.reference} \
-            --genemap {input.genemap} \
-            --genes {params.genes} \
-            --sequences /dev/stdin \
-            --output-dir {params.outdir} \
-            --output-basename {params.basename} \
-            --output-fasta {params.uncompressed_alignment} \
-            --output-insertions {output.insertions} > {log} 2>&1;
-        xz -2 {params.uncompressed_alignment};
-        xz -2 {params.outdir}/{params.basename}*.fasta
+                --sequences {input} \
+                --strip-prefixes {params.strain_prefixes:q} \
+                {params.error_on_duplicate_strains} \
+                --output /dev/stdout \
+                | xz -c -2 > {output}
         """
 
-rule diagnostic:
-    message: "Scanning aligned sequences {input.alignment} for problematic sequences"
-    input:
-        alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = "results/sanitized_metadata_{origin}.tsv.xz",
-        reference = config["files"]["reference"]
-    output:
-        diagnostics = "results/sequence-diagnostics_{origin}.tsv.xz",
-        flagged = "results/flagged-sequences_{origin}.tsv.xz",
-        to_exclude = "results/to-exclude_{origin}.txt"
-    log:
-        "logs/diagnostics_{origin}.txt"
-    params:
-        mask_from_beginning = config["mask"]["mask_from_beginning"],
-        mask_from_end = config["mask"]["mask_from_end"]
-    benchmark:
-        "benchmarks/diagnostics_{origin}.txt"
-    resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=lambda wildcards, input: 15 * int(input.metadata.size / 1024 / 1024)
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/diagnostic.py \
-            --alignment {input.alignment} \
-            --metadata {input.metadata} \
-            --reference {input.reference} \
-            --mask-from-beginning {params.mask_from_beginning} \
-            --mask-from-end {params.mask_from_end} \
-            --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostics} \
-            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
-        """
 
-rule compress_exclusion_file:
-    input:
-        to_exclude="results/to-exclude_{origin}.txt"
-    output:
-        to_exclude="results/to-exclude_{origin}.txt.xz"
-    benchmark:
-        "benchmarks/compress_exclusion_file_{origin}.txt"
-    conda:
-        config["conda_environment"]
-    log:
-        "logs/compress_exclusion_file_{origin}.txt"
-    shell:
-        """
-        xz -c {input} > {output} 2> {log}
-        """
-
-def _collect_exclusion_files(wildcards):
-    # Note that we _always_ exclude the sequences from the (config-defined) exclude file
-    # As well as the sequences flagged by the diagnostic step.
-    # Note that we can skip the diagnostic step on a per-input (per-origin) basis.
-    exclude_files = [ config["files"]["exclude"] ]
-    if not config["filter"].get(wildcards["origin"], {}).get("skip_diagnostics", False):
-        exclude_files.append(_get_path_for_input("to-exclude", wildcards.origin))
-    return exclude_files
-
-rule mask:
+rule index_sequences:
     message:
         """
-        Mask bases in alignment {input.alignment}
-          - masking {params.mask_from_beginning} from beginning
-          - masking {params.mask_from_end} from end
-          - masking other sites: {params.mask_sites}
+        Index sequence composition for faster filtering.
         """
     input:
-        alignment = lambda w: _get_path_for_input("aligned", w.origin)
+        sequences = _get_unified_alignment
     output:
-        alignment = "results/masked_{origin}.fasta.xz"
+        sequence_index = "results/combined_sequence_index.tsv.xz"
     log:
-        "logs/mask_{origin}.txt"
+        "logs/index_sequences.txt"
     benchmark:
-        "benchmarks/mask_{origin}.txt"
-    params:
-        mask_from_beginning = config["mask"]["mask_from_beginning"],
-        mask_from_end = config["mask"]["mask_from_end"],
-        mask_sites = config["mask"]["mask_sites"]
+        "benchmarks/index_sequences.txt"
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/mask-alignment.py \
-            --alignment {input.alignment} \
-            --mask-from-beginning {params.mask_from_beginning} \
-            --mask-from-end {params.mask_from_end} \
-            --mask-sites {params.mask_sites} \
-            --mask-terminal-gaps \
-            --output /dev/stdout | xz -c -2 > {output.alignment} 2> {log}
+        augur index \
+            --sequences {input.sequences} \
+            --output {output.sequence_index} 2>&1 | tee {log}
         """
+
 
 rule filter:
     message:
@@ -196,13 +82,12 @@ rule filter:
           - min length: {params.min_length}
         """
     input:
-        sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
         metadata = "results/sanitized_metadata_{origin}.tsv.xz",
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
-        exclude = _collect_exclusion_files,
+        exclude = config["files"]["exclude"],
     output:
-        sequences = "results/filtered_{origin}.fasta.xz"
+        sequences = "results/filtered_{origin}.tsv.xz"
     log:
         "logs/filtered_{origin}.txt"
     benchmark:
@@ -361,27 +246,6 @@ rule combine_sequences_for_subsampling:
                 | xz -c -2 > {output}
         """
 
-rule index_sequences:
-    message:
-        """
-        Index sequence composition for faster filtering.
-        """
-    input:
-        sequences = _get_unified_alignment
-    output:
-        sequence_index = "results/combined_sequence_index.tsv.xz"
-    log:
-        "logs/index_sequences.txt"
-    benchmark:
-        "benchmarks/index_sequences.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur index \
-            --sequences {input.sequences} \
-            --output {output.sequence_index} 2>&1 | tee {log}
-        """
-
 rule subsample:
     message:
         """
@@ -399,7 +263,6 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = _get_unified_alignment,
         metadata = _get_unified_metadata,
         sequence_index = rules.index_sequences.output.sequence_index,
         include = config["files"]["include"],
@@ -407,7 +270,6 @@ rule subsample:
         exclude = config["files"]["exclude"]
     output:
         strains="results/{build_name}/sample-{subsample}.txt",
-        sequences="results/{build_name}/sample-{subsample}.fasta",
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
     benchmark:
@@ -611,6 +473,40 @@ rule build_align:
             --output-fasta {output.alignment} \
             --output-insertions {output.insertions} > {log} 2>&1
         """
+
+
+rule mask:
+    message:
+        """
+        Mask bases in alignment {input.alignment}
+          - masking {params.mask_from_beginning} from beginning
+          - masking {params.mask_from_end} from end
+          - masking other sites: {params.mask_sites}
+        """
+    input:
+        alignment = lambda w: _get_path_for_input("aligned", w.origin)
+    output:
+        alignment = "results/masked_{origin}.fasta.xz"
+    log:
+        "logs/mask_{origin}.txt"
+    benchmark:
+        "benchmarks/mask_{origin}.txt"
+    params:
+        mask_from_beginning = config["mask"]["mask_from_beginning"],
+        mask_from_end = config["mask"]["mask_from_end"],
+        mask_sites = config["mask"]["mask_sites"]
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/mask-alignment.py \
+            --alignment {input.alignment} \
+            --mask-from-beginning {params.mask_from_beginning} \
+            --mask-from-end {params.mask_from_end} \
+            --mask-sites {params.mask_sites} \
+            --mask-terminal-gaps \
+            --output /dev/stdout | xz -c -2 > {output.alignment} 2> {log}
+        """
+
 
 if "run_pangolin" in config and config["run_pangolin"]:
     rule run_pangolin:
