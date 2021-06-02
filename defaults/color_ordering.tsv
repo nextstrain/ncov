@@ -504,11 +504,13 @@ location	Lakhimpur
 location	Lucknow
 location	Barabanki
 location	Jaunpur
+location	Mirzapur
 location	Varanasi
 location	Azamgarh
 location	Sonebhadra
 location	Chandauli
 location	Gorakhpur
+location	Ghazipur
 
 # Sikkim
 location	East Sikkim
@@ -1078,9 +1080,6 @@ location	N'Dorola
 location	Bobo Dioulasso
 location	Houndé
 
-# Boucle du Mouhoun Region
-location	Boromo
-
 # Sud-Ouest
 location	Batié
 location	Gaoua
@@ -1179,6 +1178,7 @@ location	Povo Grande
 
 ### Botswana
 # Southern District
+location	Mmathethe
 location	Jwaneng
 
 # Central District BW
@@ -1193,6 +1193,7 @@ location	Cape Agulhas
 location	Hermanus
 location	Mossel Bay
 location	Grabouw
+location	Theewaterskloof
 location	Hessequa
 location	Garden Route
 location	Mitchells Plain
@@ -1217,15 +1218,19 @@ location	Breede Valley
 location	Kannaland
 location	Oudtshoorn
 location	Prince Albert
+location	Saldanha Bay
 location	West Coast
+location	Cederberg
 location	Beaufort West
 location	Klipfontein
+location	Matzikama
 location	Ga-Segonyana
 
 # Northern Cape
 location	Alexander Bay
 location	Port Nolloth
 location	Kuboes
+location	Richtersveld
 location	Steinkopf
 location	Okiep
 location	Springbok
@@ -1234,6 +1239,7 @@ location	Kamiesberg
 location	Kamieskroon
 location	Concordia SA
 location	Garies
+location	Nama Khoi
 location	Calvinia
 location	Namakwa
 location	Karoo Hoogland
@@ -2307,6 +2313,7 @@ location	La Granja d’Escarp
 location	Seros
 location	Almacelles
 location	Aitona
+location	Alcanar
 location	Soses
 location	Alcarras
 location	Alpicat
@@ -2353,6 +2360,7 @@ location	Reus
 location	Ribera De Montardit
 location	Puigverd d'Agramunt
 location	Sort
+location	La Selva del Camp
 location	Tarrega
 location	Altet
 location	Guimera
@@ -2386,6 +2394,7 @@ location	Castellbell I El Vilar
 location	San Vicente de Castellet
 location	Baga
 location	Esparreguera
+location	Pont de Vilomara
 location	Sant Esteve Sesrovires
 location	Sant Fruitos de Bages
 location	Navas
@@ -2431,6 +2440,7 @@ location	Moia
 location	L'Hospitalet de Llobregat
 location	Sabadell
 location	Badia del Valles
+location	Sant Fruitos
 location	Castellterçol
 location	Torre-Romeu
 location	Barbera del Valles
@@ -2539,6 +2549,7 @@ location	Campins
 location	Sant Andreu de Llavaneres
 location	Olot
 location	Sant Celoni
+location	Gualba
 location	El Maresme
 location	Vallgorguina
 location	Sant Vicenç de Montalt
@@ -2920,6 +2931,7 @@ location	Gonesse
 location	Seine-Saint-Denis
 location	Creteil
 location	Bondy
+location	Saint Maur des Fosses
 location	Aulnay Sous Bois
 location	Bry sur Marne
 location	Seine-Port
@@ -2955,6 +2967,7 @@ location	Saint-Saulve
 location	Crespin
 location	Henin-Beaumont
 location	Lens
+location	Ecuires
 location	Nord Pas de Calais
 location	Flines-lès-Mortagne
 location	Bethune
@@ -2962,7 +2975,9 @@ location	Genech
 location	Senlis
 location	Gondecourt
 location	Santes
+location	Ronchin
 location	Lille FR
+location	Wasquehal
 location	Lyz-Les-Lannoy
 location	Leers
 location	Wambrechies
@@ -3447,6 +3462,7 @@ location	Tende
 # Corse
 location	Porto-Vecchio
 location	Ajaccio
+location	Sarrola-Carcopino
 location	Corte
 location	San-Nicolao
 location	Lucciana
@@ -3457,9 +3473,11 @@ location	Bastia
 location	Mamoudzou
 
 # Réunion
+location	Le Port
 location	Saint-Louis
-location	Saint-Benoit
 location	Saint-Denis de la Réunion
+location	Sainte-Clotilde
+location	Saint-Benoit
 
 ### Belgium
 # Veurne
@@ -3764,6 +3782,7 @@ location	Houdeng-Goegnies
 location	Battignies
 location	Binche
 location	Morlanwelz
+location	Carnières
 
 # Thuin
 location	Chimay
@@ -3783,6 +3802,7 @@ location	Ittre
 location	Braine-le-Château
 location	Monstreux
 location	Ophain-Bois-Seigneur-Isaac
+location	Baulers
 location	Braine-l'Alleud
 location	Lillois-Witterzée
 location	Thines
@@ -3974,6 +3994,7 @@ location	Marchienne-au-Pont
 location	Mont-sur-Marchienne
 location	Liberchies
 location	Marcinelle
+location	Dampremy
 location	Jumet
 location	Lodelinsart
 location	Gosselies
@@ -5202,9 +5223,13 @@ location	Potenza
 location	Matera
 
 # Apulia
+location	Pietramontecorvino
 location	Troia
 location	Lucera
 location	Foggia
+location	Orta Nova
+location	Cerignola
+location	Manfredonia
 location	Barletta-Andria-Trani
 location	Bari
 location	Taranto
@@ -5338,7 +5363,7 @@ location	Wolfsberg
 # Upper Austria
 location	Zell Am Moos
 location	Ried
-location	Sankt Lorenz
+location	St. Lorenz
 location	Pöndorf
 location	Mondsee
 location	Frankenmarkt
@@ -6842,7 +6867,7 @@ location	Mutne Dulov
 location	Banovce nad Bebravou
 location	Puchov
 location	Partizanske
-location	Hradiste
+location	Hradiste (Trenčín)
 location	Povazska Bystrica
 location	Diviaky nad Nitricou
 location	Bystricany
@@ -7823,6 +7848,7 @@ location	Brinkmann
 # Santa Fe
 location	Teodelina
 location	Sancti Spiritu
+location	Sastre
 location	Villa Cañas
 location	Santa Isabel AR
 location	Hughes
@@ -7830,6 +7856,7 @@ location	Wheelwright
 location	Venado Tuerto
 location	Maggiolo
 location	Firmat
+location	San Guillermo
 location	Villada
 location	Rueda
 location	Pavon Arriba
@@ -7852,6 +7879,7 @@ location	Soldini
 location	Perez
 location	Rosario AR
 location	Villa Constitucion
+location	Carlos Pellegrini
 location	Funes
 location	Carcaraña
 location	Capitan Bermudez
@@ -7860,9 +7888,12 @@ location	Ricardone
 location	San Lorenzo AR
 location	Puerto Gral San Martin
 location	Totoras
+location	Progreso
+location	Sarmiento
 location	Las Rosas
 location	Colonia Margarita
 location	Santo Tome
+location	Gobernador Crespo
 location	Santa Fe AR
 location	Monte Vera
 location	Esperanza
@@ -7870,10 +7901,13 @@ location	Helvecia
 location	Laguna Paiva
 location	Rafaela
 location	Coronda
+location	Santo Domingo AR
 location	Sunchales
 location	Villa Gob. Galvez
 location	San Justo
 location	Cayastá
+location	San Cristobal AR
+location	Arrufo
 location	Ceres AR
 location	Reconquista
 location	Fortin Olmos
@@ -7881,6 +7915,7 @@ location	Villa Ocampo
 
 # Corrientes
 location	Corrientes
+location	Itati
 
 # Tucuman
 location	Las Talitas
@@ -9099,6 +9134,7 @@ location	Jeronimo Monteiro
 location	Mimoso do Sul
 location	Cachoeiro de Itapemirim
 location	Baixo Guandu
+location	Vargem Alta
 location	Marataizes
 location	Barra do Sao Francisco
 location	Santa Maria de Jetiba
@@ -9318,7 +9354,7 @@ location	Bongara
 # Galapagos
 location	Santa Cruz EC
 location	Puerto Baquerizo Moreno
-location	San Cristobal
+location	San Cristobal EC
 
 # Tungurahua
 location	Ambato
@@ -11149,7 +11185,7 @@ division	Sistan and Baluchestan
 division	United Arab Emirates
 division	Abu Dhabi
 division	Dubai
-division	Sharja
+division	Sharjah
 
 ### Oman
 division	Buraimi
@@ -11628,9 +11664,9 @@ division	Mali
 division	Dandé
 division	Cascades
 division	Hauts-Bassins
-division	Boucle du Mouhoun Region
 division	Sud-Ouest
 division	Diebougou
+division	Boromo
 division	Burkina Faso
 
 ### Ghana
@@ -11769,6 +11805,7 @@ division	Luanda
 division	Cabinda
 
 ### Central African Republic
+division	Bayanga
 division	Bangui
 
 ### Democratic Republic of the Congo
@@ -11791,6 +11828,7 @@ division	Southern East
 division	Southern District
 division	Gaborone
 division	Botswana
+division	Charles Hill
 division	Central District BW
 division	Orapa
 division	Francistown
