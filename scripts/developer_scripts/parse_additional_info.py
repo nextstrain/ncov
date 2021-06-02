@@ -452,7 +452,8 @@ def interpret_location(place, ordering, variants, pattern_found):
 
 
 def adjust_caps(s):
-    s = "/".join([" ".join(["'".join([f[0].upper() + f[1:].lower() if len(f) > 1 else f.lower() for f in d.split("'")]) for d in a.split(" ")]) for a in s.split("/")])
+    if s.upper() == s:
+        s = "/".join([" ".join(["'".join([f[0].upper() + f[1:].lower() if len(f) > 1 else f.lower() for f in d.split("'")]) for d in a.split(" ")]) for a in s.split("/")])
     return s
 
 # Check an additional info for patterns fitting additional location info and if possible interpret result
@@ -663,7 +664,7 @@ def check_additional_info(additional_info, path_to_config_files):
         while True:
 
             auto_comments = ["travel surveillance"]
-            if info.lower().startswith("zip") or info.endswith(".0") or info.lower() in auto_comments:
+            if info.lower().startswith("zip") or info.endswith(".0") or info.lower() in auto_comments or (info.isnumeric() and int(info) <= 9999 and int(info) >= 1000):
                 print("Auto-add comment for " + bold(info))
                 for (id, strain) in strain_list:
                     annotations_append.append("# " + strain + "\t" + id + "\t" + info_type + ": " + info)
