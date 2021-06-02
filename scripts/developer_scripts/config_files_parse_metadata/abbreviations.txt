@@ -148,3 +148,4 @@ Boyaca	CO
 Halle-Vilvoorde	BE
 Antioquia	CO
 Mazowieckie	(Mazowieckie)
+Galapagos	EC

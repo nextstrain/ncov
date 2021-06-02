@@ -968,7 +968,7 @@ District of Partizanske
 	Veľký Klíž
 	Žabokreky nad Nitrou
 	Bošany
-	Hradište, district Partizanske
+	Hradiste (Trenčín)
 	Chynorany
 	Klátova Nová Ves
 	Kolačno
@@ -2177,7 +2177,7 @@ District of Poltar
 	Breznička, district Poltar
 	Cinobaňa
 	České Brezovo
-	Hradište, district Poltar
+	Hradiste (Banska Bystrica)
 	Kalinovo
 	Kokava nad Rimavicou
 	Krná
