@@ -122,7 +122,7 @@ if __name__ == '__main__':
         prefixes = "|".join(args.strip_prefixes)
         pattern = f"^({prefixes})|{pattern}"
 
-    with open_file(args.output, "w") as output_handle:
+    with open_file(args.output, "w", threads=1) as output_handle:
         # In order to prefer the latter files, we have to reverse the order of
         # the files.
         sequences = read_sequences(*reversed(sequence_files))
