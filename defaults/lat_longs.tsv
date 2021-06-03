@@ -252,6 +252,7 @@ location	Ambon	-3.6959434	128.178785
 location	Amden	47.1496317	9.1411228
 location	Amelia Denis de Icaza	9.041001	-79.516947
 location	Americana	-22.7392463	-47.3306032
+location	Americo Brasiliense	-21.7297099	-48.1052092
 location	Amersfoort	52.163773899999995	5.3965879493517015
 location	Ames	42.9038	-8.6584
 location	Amiens	49.8941708	2.2956951
@@ -395,6 +396,7 @@ location	Argolida	37.566266150000004	22.85593894780862
 location	Arica	-18.4785288	-70.3211394
 location	Ariege	42.9455368	1.4065544156065486
 location	Ariel	32.10328222703244	35.174615499721995
+location	Ariyalur	11.076035950000001	79.11745538182738
 location	Arkadia	37.42908855	22.427377699353286
 location	Arkhara	49.4224283	130.0858308
 location	Arlesheim	47.4931125	7.6202048
@@ -1724,6 +1726,7 @@ location	Chełmno	53.35250284999999	18.440424707276136
 location	Chemin Grenier	-20.4892003	57.474182068307826
 location	Chemung County	42.1384667	-76.7725493
 location	Chenango County	42.4972	-75.6208
+location	Chengalpattu	12.6840886	79.9836371
 location	Chengdu	30.640989	104.067518
 location	Chennai	13.0801721	80.2838331
 location	Chepo	9.1741164	-79.0900045
@@ -1875,6 +1878,7 @@ location	Coffee County	31.3629619	-85.9870669
 location	Cogollos De Guadix	37.2241755	-3.1610634
 location	Cogollos de la Vega	37.2755727	-3.572149
 location	Cogolludo	40.9470672	-3.0887458
+location	Coimbatore	11.0018115	76.9628425
 location	Coinco	-34.2699359	-70.9515801
 location	Colbert County	34.6473396	-87.7921769
 location	Colbun	-35.6960057	-71.4060907
@@ -2060,6 +2064,7 @@ location	Cruzeiro do Sul	-7.6307956	-72.6703869
 location	Cubatao	-23.8857982	-46.4241869
 location	Cucuta	7.907734	-72.507857
 location	Cudahy	42.946879	-87.861992
+location	Cuddalore	11.7564329	79.7634644
 location	Cudon	43.41729	-4.01113
 location	Cuenca EC	-2.8968286	-79.0175358
 location	Cuenca ES	39.9705171	-3.4421805
@@ -2243,6 +2248,7 @@ location	Dhandhuka	22.3816365	71.9791414
 location	Dhanera	24.5064	72.0258
 location	Dhanmondi	23.73642665	90.37624419477338
 location	Dhansura	23.3498	73.2087
+location	Dharmapuri	12.09680475	78.19304301026716
 location	Dharmasraya	-1.0585388500000001	101.64402551163604
 location	Dholka	22.726607	72.4411863
 location	Dhuy	50.5596814	4.8573789
@@ -2267,6 +2273,7 @@ location	Dilsen-Stokkem	51.0284779	5.7311405
 location	Dimmit County	28.3821949	-99.7178226
 location	Dinajpur	25.6428253	88.72247038287404
 location	Dinan	48.4539775	-2.047687
+location	Dindigul	10.3303299	78.0673979084697
 location	Dirlewang	48.0018325	10.5025804
 location	District of Columbia County	38.893661249999994	-76.98788325388196
 location	Dittingen	47.4383276	7.4989147
@@ -2381,6 +2388,7 @@ location	Duivendrecht	52.3235282	4.9364854
 location	Dulce Nombre	9.8155833	-83.5654462
 location	Dulliken	47.3537179	7.9424681
 location	Dun sur Auron	46.822869600000004	2.7914650336384046
+location	Dunajska Streda	47.9893751	17.6202595
 location	Dungari	23.6738243	76.3529551
 location	Dunkerque	51.0347708	2.3772525
 location	Dunn County	44.9333564	-91.8994409
@@ -2568,6 +2576,7 @@ location	Ermelo	-26.515556	29.992222
 location	Ermeton-sur-Biert	50.2975439	4.7197934
 location	Ernakulam	10.1295438	76.4848521
 location	Ernesto Cordoba	9.1046565	-79.49321483019312
+location	Erode	11.369204400000001	77.67662686841793
 location	Erpe-Mere	50.9226391	3.9459888
 location	Erpent	50.4473127	4.900545
 location	Erps-Kwerps	50.9039296	4.5587455
@@ -3973,6 +3982,7 @@ location	Kalinkovo	48.0587538	17.2520824
 location	Kalisz	51.743335	18.073619
 location	Kalisz Pomorski	53.2981616	15.9059903
 location	Kalken	51.037676	3.917157
+location	Kallakurichi	11.7406259	78.9637131
 location	Kallnach	47.0205806	7.2363159
 location	Kalmthout	51.383	4.4752
 location	Kalol	23.238801	72.498547
@@ -4001,6 +4011,7 @@ location	Kamyshlov	56.846161	62.712154
 location	Kamyzyak	46.1175499	48.0884863
 location	Kanash	55.5113818	47.5067782
 location	Kanawha	39.1989653	-81.4601209
+location	Kancheepuram	12.87960515	79.70427615297989
 location	Kandy	7.2930922	80.6350768
 location	Kane County	41.923434	-88.4248315
 location	Kangra	32.06854705	76.24336792335127
@@ -4010,6 +4021,7 @@ location	Kannaland	-33.61886	21.227504095340592
 location	Kannauj	26.999697400000002	79.68861212775874
 location	Kanpur	26.4609135	80.3217588
 location	Kanty	53.8483217	19.7308677
+location	Kanyakumari	8.079252	77.5499338
 location	Kaohsiung	22.622632	120.312435
 location	Kapadvanj	23.0200	73.0700
 location	Kapellen	51.332758999999996	4.431231830555777
@@ -4030,6 +4042,7 @@ location	Karonga	-10.08474695	33.86619181196623
 location	Karoo Hoogland	-31.59588	21.27258581983207
 location	Kartuski	54.326832249999995	18.108863258211223
 location	Kartuzy	54.3342281	18.1973639
+location	Karur	10.9301522	78.08485454572889
 location	Karviná	49.850056	18.546309
 location	Kasauli	30.85844455	76.99796611489867
 location	Kasdobir	24.9115659	91.8753147
@@ -4063,6 +4076,7 @@ location	Kelmis	50.714674	6.023042
 location	Kematen in Tirol	47.253643	11.273540
 location	Kembs	47.6895561	7.5048054
 location	Kemerovo	55.355125	86.087234
+location	Kemmel	50.7828552	2.8258709
 location	Kempton Park	-26.0964372	28.2336325
 location	Kemzeke	51.2065228	4.0771037
 location	Kendall County	41.5853584	-88.4319488
@@ -4125,6 +4139,7 @@ location	Kinrooi	51.14313325	5.74145646069855
 location	Kipen	59.6739	29.8498
 location	Kipfenberg	48.949209	11.3948573
 location	Kirchbichl	47.51380975	12.091103520158118
+location	Kirchdorf	48.0568378	13.6981378
 location	Kirchhain	50.826987700000004	8.927593310210382
 location	Kirchham	47.9706301	13.8992429
 location	Kirishi	59.450325	32.010578
@@ -4307,6 +4322,7 @@ location	Kretlewo	53.8273116	14.8933616
 location	Krhanice	49.8560083	14.557357
 location	Kriens	47.034146	8.2807994
 location	Kriessern	47.3653317	9.6071943
+location	Krishnagiri	12.5188835	78.2206536
 location	Krivá	49.2825832	19.4791415
 location	Krolewo	54.04166	19.13836
 location	Krommenie	52.4954557	4.7664946
@@ -4652,6 +4668,7 @@ location	Lempdes	45.7727	3.19478
 location	Lempdes sur Allagnon	45.3853961	3.2691547
 location	Lenartov	49.3103365	21.0236233
 location	Lencois Paulista	-22.6029897	-48.8031367
+location	Lendelede	50.88542005	3.2311009715425536
 location	Lennik	50.8085632	4.1648626
 location	Lens	50.4291723	2.8319805
 location	Lenzing	47.9733296	13.6049039
@@ -5027,6 +5044,7 @@ location	Madrid	40.444140	-3.680235
 location	Madrid CO	4.734291	-74.262272
 location	Madrigueras	39.2367	-1.8001
 location	Madronera	39.4253942	-5.757169
+location	Madurai	9.9261153	78.1140983
 location	Maffe	50.3537887	5.3115516
 location	Mafil	-39.6659792	-72.9521276
 location	Mafra	38.9369782	-9.3282374
@@ -5735,6 +5753,7 @@ location	Nadborowo	52.8935024	17.5329562
 location	Nadia	23.48454125	88.55676307470536
 location	Nadiad	22.6916	72.8634
 location	Nadolice Wielkie	51.0846172	17.2375659
+location	Nagapattinam	10.805627600000001	79.824659783024
 location	Nagarkurnool	16.415762649999998	78.68304333132829
 location	Naglowice	50.6783328	20.1061001
 location	Nagoszyn	50.1346984	21.422939
@@ -5747,6 +5766,7 @@ location	Nalda	42.3351254	-2.4882778
 location	Nalgonda	16.8579636	79.21749353315548
 location	Nalinnes	50.3249486	4.4466922
 location	Nama Khoi	-29.390525	18.101967701908958
+location	Namakkal	11.284224850000001	78.16615283668403
 location	Namakwa	-30.488880899999998	19.942216005294117
 location	Náměšť nad Oslavou	49.20930535	16.158590934775468
 location	Namestovo	49.423550250000005	19.458483687700223
@@ -5867,6 +5887,7 @@ location	Nidau	47.1250287	7.241157
 location	Nidderau	50.2290263	8.8762327
 location	Nidzicki	53.37347615	20.4883074922381
 location	Niechanowo	52.4643201	17.6777258
+location	Niederbayern	48.7364422	12.1925349
 location	Niederhasli	47.4812949	8.4858049
 location	Niederurnen	47.1257569	9.0547397
 location	Niederuzwil	47.4451709	9.1421696
@@ -6435,6 +6456,7 @@ location	Penagos	43.3413728	-3.8068404
 location	Penalolen	-33.48622465	-70.50929029561439
 location	Penapolis	-21.4192406	-50.0765588
 location	Pencahue	-35.396134	-71.7993832
+location	Pend Oreille County	48.5188671	-117.2778631
 location	Penelles	41.7585402	0.9652356
 location	Peniche	39.337225149999995	-9.312852835582468
 location	Penobscot County	45.2930166	-68.5957766
@@ -6444,6 +6466,7 @@ location	Penza	53.200001	45.0
 location	Peoria County	40.8021278	-89.7713762
 location	Pepin County	44.6351571	-92.0101928
 location	Peralta	42.337833	-1.799176
+location	Perambalur	11.2287716	78.8182555496278
 location	Pereira	4.804771	-75.717885
 location	Pereira Barreto	-20.6378509	-51.1052172
 location	Perez	-32.9982237	-60.7708529
@@ -6828,6 +6851,7 @@ location	Puchov	49.123928	18.3239559
 location	Puck	54.7144128	18.406782113987507
 location	Pucon	-39.2731173	-71.9777605
 location	Pudahuel	-33.4193729	-70.86335607718577
+location	Pudukkottai	10.5	78.833333
 location	Puebla de Don Fadrique	37.9578472	-2.4348912
 location	Puebla del Caraminal	42.6046249	-8.9402045
 location	Pueblo Esther	-33.0788574	-60.5640762
@@ -6984,6 +7008,7 @@ location	Rakowo	54.15067	19.20633
 location	Ramada	38.80800875	-9.196383669904645
 location	Ramales de la Victoria	43.257411	-3.4646482
 location	Ramallah	31.903646311459497	35.20351496013824
+location	Ramanathapuram	9.3895523	78.85907071521498
 location	Ramat Gan	32.0686867	34.8246812
 location	Ramat-Hasharon	32.1431276	34.8380853
 location	Rambouillet	48.6452851	1.819207
@@ -7005,6 +7030,7 @@ location	Rangamati	22.817729149999998	92.21970726375808
 location	Rangareddy	17.133395399999998	78.3970978701631
 location	Rangersdorf	46.8623341	12.9575269
 location	Raniewo	53.74945	19.17994
+location	Ranipet	12.9272641	79.3330076
 location	Rankweil	47.2731056	9.63150938085392
 location	Ransart	50.461008	4.476094
 location	Ranst	51.1962373	4.563813424474654
@@ -7211,6 +7237,7 @@ location	Rodrigues Alves	-7.7380283	-72.6509379
 location	Roedermark	49.9798913	8.8088274
 location	Roerdalen	51.14172275	5.992474016651388
 location	Roermond	51.1933903	5.9882649
+location	Roesbrugge-Haringe	50.9150531	2.6262588
 location	Röschenz	47.4239414	7.4759958
 location	Rogers	30.9315763	-97.2267205
 location	Roggenburg	47.433867	7.3402588
@@ -8135,6 +8162,7 @@ location	Sistrans	47.231579	11.466706
 location	Sitges	41.2366707	1.8228136
 location	Sittard-Geleen	51.0094043	5.8376057867167965
 location	Sittersdorf	46.53971575	14.616718237467305
+location	Sivagangai	9.9650599	78.7204283237222
 location	Siyathemba	-29.59172	22.52017633268437
 location	Skagit County	48.485784	-121.815524
 location	Skalica	48.8452079	17.2279127
@@ -8685,12 +8713,15 @@ location	Teutonia	-29.4816568	-51.813752
 location	Thalwil	47.2944325	8.5635762
 location	Thane	19.1943294	72.9701779
 location	Thanh Hoa	19.805359	105.784515
+location	Thanjavur	10.7860267	79.1381497
 location	Thann	47.8101008	7.1020957
 location	Thaur	47.308893	11.462294
 location	Thaya	48.8558271	15.2873599
+location	The Nilgiris	11.4	76.7
 location	Thedes	45.7371099	3.0245569
 location	Theewaterskloof	-34.15103331620523	19.413194160761417
 location	Thembisile Hani	-25.410567098683515	28.95592482297885
+location	Theni	9.969664300000002	77.47420048524822
 location	Therwil	47.4992969	7.5574673
 location	Thesprotia	39.54401235	20.308355368968883
 location	Theux	50.518906	5.814748
@@ -8703,6 +8734,8 @@ location	Thieulain	50.6179826	3.6085857
 location	Thiezac	45.013702	2.6652774
 location	Thines	50.586787349999994	4.382595409373116
 location	Thionville	49.3579272	6.1675872
+location	Thiruvallur	13.13014755	79.92435386254968
+location	Thiruvarur	10.73618605	79.63318659437627
 location	Thise	47.284553	6.079822
 location	Thomas County	30.8686157	-83.9472421
 location	Thonon-Les-Bains	46.3731303	6.4779448
@@ -8738,7 +8771,12 @@ location	Tiradentes	-27.8310956	-53.7776845
 location	Tirat Carmel	32.7613834	34.9715506
 location	Tirat Zvi	32.4218582	35.5279708
 location	Tirrases	9.9073136	-84.0396595
+location	Tiruchirapalli	10.76208595	78.71277098691044
+location	Tirunelveli	8.7012203	77.5792694
 location	Tirupati	13.6316368	79.4231711
+location	Tirupattur	12.490898	78.564709
+location	Tiruppur	11.1017815	77.345192
+location	Tiruvannamalai	12.22721295	79.07015554906167
 location	Tisá	50.7844989	14.0313007
 location	Tištín	49.3068883	17.1653976
 location	Titel	45.204631	20.311359
@@ -9451,6 +9489,7 @@ location	Waterbury	41.5582	-73.0515
 location	Waterloo	50.710994	4.406944
 location	Watermael-Boitsfort	50.793201	4.423990
 location	Waterschei-Zwartberg	51.003230599999995	5.522580315918505
+location	Watou	50.8585545	2.6202796
 location	Wattwil	47.291534299999995	9.087813825936845
 location	Waukesha County	43.000286	-88.237059
 location	Waunakee	43.185210	-89.446208
@@ -10010,6 +10049,7 @@ division	Azuay	-3.0524451	-79.2395135
 division	Bács-Kiskun County	46.551745	19.374218
 division	Baden-Wuerttemberg	48.712618	9.13403
 division	Bafoussam	5.4758083	10.4215565
+division	Baghdad	33.3024309	44.3787992
 division	Bagherhat	22.655249	89.774093
 division	Baglung	28.356335299999998	83.14253600515775
 division	Bahamas	24.7736546	-78.0000547

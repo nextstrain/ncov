@@ -252,6 +252,37 @@ location	Thrissur
 location	Kozhikode
 
 # Tamil Nadu
+location	Salem
+location	The Nilgiris
+location	Coimbatore
+location	Tiruppur
+location	Theni
+location	Kanyakumari
+location	Tirunelveli
+location	Erode
+location	Dindigul
+location	Karur
+location	Madurai
+location	Namakkal
+location	Dharmapuri
+location	Krishnagiri
+location	Tirupattur
+location	Tiruchirapalli
+location	Sivagangai
+location	Perambalur
+location	Pudukkottai
+location	Ramanathapuram
+location	Kallakurichi
+location	Tiruvannamalai
+location	Ariyalur
+location	Thanjavur
+location	Ranipet
+location	Thiruvarur
+location	Kancheepuram
+location	Cuddalore
+location	Nagapattinam
+location	Thiruvallur
+location	Chengalpattu
 location	Chennai
 
 # Andaman and Nicobar Islands
@@ -3496,8 +3527,11 @@ location	Koekelare
 location	Kortemark
 
 # Ieper
+location	Watou
+location	Roesbrugge-Haringe
 location	Poperinge
 location	Vlamertinge
+location	Kemmel
 location	Brielen
 location	Zillebeke
 location	Langemark-Poelkapelle
@@ -3569,6 +3603,7 @@ location	Rekkem
 location	Menen
 location	Wevelgem
 location	Bissegem
+location	Lendelede
 location	Heule
 location	Kuurne
 location	Hulste
@@ -5104,6 +5139,7 @@ location	Freising
 location	Oberbayern
 location	Raubling
 location	Schierling
+location	Niederbayern
 location	Neutraubling
 location	Roding
 location	Traunstein
@@ -5394,6 +5430,7 @@ location	Aurach Am Hongar
 location	Pilsbach
 location	Altenhof Am Hausruck
 location	Regau
+location	Kirchdorf
 location	Neukirchen
 location	Attnang-Puchheim
 location	Gaspoltshofen
@@ -6816,6 +6853,7 @@ location	Studienka
 
 # Trnava
 location	Velky Meder
+location	Dunajska Streda
 location	Holice
 location	Tomasikovo
 location	Dolne Saliby
@@ -8769,6 +8807,7 @@ location	Ribeirao Bonito
 location	Araraquara
 location	Brotas
 location	Cajati
+location	Americo Brasiliense
 location	Pradopolis
 location	Rincao
 location	Morro Agudo
@@ -10061,6 +10100,7 @@ location	Lincoln County WA
 location	Stevens County
 location	Whitman County
 location	Spokane County
+location	Pend Oreille County
 location	Asotin County
 
 # California
@@ -10410,6 +10450,7 @@ location	Orange County TX
 location	Newton County
 location	Calcasieu County
 location	Jackson
+location	Franklin
 
 # Kansas
 location	Johnson County KS
@@ -11130,6 +11171,7 @@ division	Tbilisi
 ### Iraq
 division	Al-Muthanna Province
 division	Iraq
+division	Baghdad
 division	Erbil
 
 ### Armenia
