@@ -1,1 +1,16 @@
 Before	After
+Africa/Mozambique/Beira/	Africa/Mozambique/Sofala/Beira
+Europe/Belgium/Staza Zagora/	Europe/Belgium/Belgium/
+South America/Brazil/Rn/*	South America/Brazil/Rio Grande do Norte/*
+South America/Brazil/Ma/*	South America/Brazil/Maranhão/*
+South America/Brazil/Mg/*	South America/Brazil/Minas Gerais/*
+Asia/India/Uttar Pradesh/Sonbhadra	Asia/India/Uttar Pradesh/Sonebhadra
+South America/Chile/Maule/Retiro	South America/Chile/Maule/Retiro CL
+South America/Chile/Valparaiso/San Antonio	South America/Chile/Valparaiso/San Antonio CL
+South America/Colombia/Antioquia/Retiro	South America/Colombia/Antioquia/Retiro CO
+North America/Costa Rica/San Jose/San Antonio	North America/Costa Rica/San Jose/San Antonio CR
+North America/Cayman Islands/Caribbean/	Europe/United Kingdom/Cayman Islands/
+South America/Antigua/Caribbean/*	North America/Antigua and Barbuda/Antigua and Barbuda/*
+Asia/India/West Bengal/Maldah	Asia/India/West Bengal/Malda
+North America/USA/California/Long Beach City	North America/USA/California/Los Angeles County
+North America/USA/New Jersey/Teterboro	North America/USA/New Jersey/Bergen County

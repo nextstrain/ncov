@@ -149,3 +149,4 @@ Halle-Vilvoorde	BE
 Antioquia	CO
 Mazowieckie	(Mazowieckie)
 Galapagos	EC
+Maule	CL
