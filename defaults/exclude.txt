@@ -2259,3 +2259,15 @@ Iran/T11529/2021
 Mongolia/3624/2020
 CzechRepublic/VIR-196/2021
 
+# s1 mutations - possible bioinformatic issue; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622838574295600
+India/GA-NCCS-169260/2021
+India/GA-NCCS-NS2561/2021
+India/GA-NCCS-NS2566/2021
+India/MH-NCCS-2748700441970/2021
+India/MH-NCCS-2749001147276/2021
+India/MH-NCCS-2749001185481/2021
+India/MH-NCCS-AFMC-45271/2021
+
+#divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622838574295600
+Brazil/SP-L112-CD4087/2020
+USA/TX-HMH-MCoV-41509/2020
