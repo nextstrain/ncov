@@ -419,6 +419,7 @@ location	Padra
 location	Bodeli
 location	Rajkot
 location	Waghodia
+location	Chhota Udaipur
 location	Vadodara
 location	Dhandhuka
 location	Dashrath
@@ -443,6 +444,7 @@ location	Kapadvanj
 location	Ahmedabad
 location	Panchmahal
 location	Dahegam
+location	Mahisagar
 location	Diu
 location	Gandhinagar
 location	Bayad
@@ -456,6 +458,7 @@ location	Prantij
 location	Modasa
 location	Himatnagar
 location	Mehsana
+location	Mahesana
 location	Patan
 location	Radhanpur
 location	Siddhpur
@@ -474,6 +477,7 @@ location	Mandsaur
 location	Ujjain
 location	Burhanpur
 location	Dungari
+location	Shajapur
 location	Raisen
 
 # Mizoram
@@ -663,52 +667,54 @@ location	Jhenaidah
 location	Chuadanga
 
 # Dhaka
-location	Farmgate
-location	Rajbari
-location	Faridpur
-location	Tangail
-location	Manikganj
+location	Gopalgonj
 location	Madaripur
-location	Dhamrai
-location	Savar
 location	Shariatpur
+location	Munshiganj
+location	Faridpur
+location	Narayanganj
+location	Nawabgonj
 location	Keraniganj
-location	Mohammadpur
-location	Shaymoli
-location	Mirpur
-location	West Dhanmondi
-location	Agargaon
-location	East Shewrapara
-location	Dhanmondi
-location	Uttara
-location	Old Dhaka
-location	Kalabagan
-location	Azimpur
-location	Green Road
-location	Panthapath
-location	Elephant Road
-location	Tejkunipara
-location	Tejgaon
+location	Kodomtoly
+location	Jatrabari
 location	Rahmatganj
-location	Cantonment
+location	Old Dhaka
+location	Azimpur
+location	Dhanmondi
+location	Elephant Road
+location	Rajbari
+location	Green Road
+location	West Dhanmondi
+location	North Shajahanpur
+location	Kalabagan
+location	Moghbazar
+location	Panthapath
+location	Tejgaon
+location	Tejkunipara
+location	Mohammadpur
+location	Farmgate
+location	Niketan
+location	Shaymoli
+location	Agargaon
+location	Aftabnagar
 location	Banani
 location	Gulshan
-location	Moghbazar
-location	Niketan
-location	Dhaka
-location	Nikunja
+location	East Shewrapara
+location	Cantonment
 location	Baridhara
-location	North Shajahanpur
-location	Ashkona
-location	Gazipur
-location	Jatrabari
-location	Aftabnagar
+location	Dhaka
 location	Basundhara Residential Area
-location	Narayanganj
-location	Munshiganj
+location	Mirpur
+location	Nikunja
+location	Ashkona
+location	Savar
+location	Manikganj
+location	Uttara
 location	Narsingdi
+location	Dhamrai
+location	Gazipur
+location	Tangail
 location	Kishoreganj
-location	Kodomtoly
 
 # Rajshahi
 location	Chapainawabgonj
@@ -2335,6 +2341,7 @@ location	Llucena
 location	Cabanes
 location	Les Useres
 location	Vall d'Alba
+location	Benlloc
 location	Torreblanca
 location	Castellón
 location	Albocasser
@@ -2396,6 +2403,7 @@ location	Tarrega
 location	Altet
 location	Guimera
 location	Ponts
+location	Tarragona
 location	Cervera
 location	Solsona
 location	El Vendrell
@@ -7365,8 +7373,9 @@ location	Alushta
 location	Kaliningrad
 
 # Pskov Oblast
-location	Velikiye Luki
+location	Pskov
 location	Borovichi (Pskov)
+location	Velikiye Luki
 
 # Saint-Petersburg
 location	Sestroretsk
@@ -7381,6 +7390,7 @@ location	Lomonosov
 location	Roshchino
 location	Kipen
 location	Gatchina
+location	Pikkolovo
 location	Sertolovo
 location	Fedorovskoe
 location	Yanino-1
@@ -7394,6 +7404,7 @@ location	Volkhov
 location	Smolensk
 
 # Novgorod
+location	Grigorovo
 location	Veliky Novgorod
 location	Chudovo
 location	Borovichi (Novgorod)
@@ -8051,34 +8062,45 @@ location	Guaitecas
 # Los Lagos
 location	Quellon
 location	Ancud
+location	Calbuco
+location	Maullin
 location	Cochamo
 location	Puerto Montt
 location	Los Muermos
 location	Puerto Varas
+location	Fresia
 location	Frutillar
 location	Osorno
 
 # Los Rios CL
 location	Valdivia
 location	La Union CL
+location	Mariquina
+location	Rio Bueno
 location	Mafil
 location	Paillaco
 location	Los Lagos (Los Rios)
+location	Lanco
 location	Lago Ranco
+location	Futrono
 location	Panguipulli
 
 # Araucanía
 location	Loncoche
 location	Villarrica
 location	Pucon
+location	Pitrufquen
 location	Cunco
+location	Saavedra
 location	Padre las Casas
 location	Temuco
+location	Vilcun
 location	Cholchol
 location	Lautaro
 location	Perquenco
 location	Collipulli
 location	Angol
+location	Renaico
 
 # Biobío
 location	Lota
@@ -8091,6 +8113,8 @@ location	Chiguayante
 location	Hualqui
 location	Cabrero
 location	Los Angeles
+location	Mulchen
+location	Tucapel
 location	Antuco
 
 # Ñuble
@@ -8106,6 +8130,9 @@ location	San Carlos CL
 location	Constitucion
 location	Curepto
 location	Pencahue
+location	Retiro CL
+location	Villa Alegre
+location	San Javier
 location	Maule
 location	Talca
 location	Linares
@@ -8117,6 +8144,8 @@ location	Curico
 location	Teno
 
 # O'Higgins
+location	Pichilemu
+location	Litueche
 location	La Estrella CL
 location	Lolol
 location	Pichidegua
@@ -8125,13 +8154,16 @@ location	San Vicente
 location	San Fernando CL
 location	Donihue
 location	Coinco
+location	Rengo
 location	Rancagua
+location	Graneros
 location	San Francisco de Mostazal
 location	Machali
 
 # Region Metropolitana de Santiago
 location	Melipilla
 location	Curacavi
+location	Alhue
 location	Talagante
 location	Isla de Maipo
 location	Penaflor
@@ -8140,14 +8172,17 @@ location	Pudahuel
 location	Padre Hurtado
 location	Maipu
 location	Quilicura
+location	Cerro Navia
 location	Buin
 location	Renca
 location	Lo Prado
+location	Cerrillos
 location	Estacion Central
 location	San Bernardo
 location	Quinta Normal
 location	Colina
 location	Conchali
+location	El Bosque
 location	Independencia
 location	La Cisterna
 location	San Miguel CL
@@ -8171,19 +8206,23 @@ location	Lo Barnechea
 location	San Jose de Maipo
 
 # Valparaiso
-location	Valparaiso CL
-location	Vina del Mar
-location	Con-Con
+location	San Antonio CL
 location	Casablanca
+location	Valparaiso CL
+location	Villa Alemana
+location	Vina del Mar
 location	Limache
-location	La Ligua
-location	Cabildo
-location	San Felipe CL
+location	Con-Con
+location	Rinconada
 location	Calle Larga
 location	Los Andes
+location	San Felipe CL
+location	La Ligua
+location	Cabildo
 
 # Coquimbo
 location	Ovalle
+location	Coquimbo
 location	La Serena
 
 # Atacama
@@ -8195,6 +8234,7 @@ location	Tierra Amarilla
 location	Paipote
 location	Copiapo
 location	Caldera
+location	Diego de Almagro
 location	Chanaral
 location	El Salvador
 
@@ -9026,6 +9066,7 @@ location	Desterro do Melo
 location	Barao de Cocais
 location	Mariana
 location	Juiz de Fora
+location	Pirauba
 location	Santo Antonio do Aventureiro
 location	Alem do Paraiba
 location	Recreio
@@ -9057,6 +9098,7 @@ location	Valenca
 location	Seropédica
 location	Engenheiro Paulo de Frontin
 location	Vassouras
+location	Japeri
 location	Rio Das Flores
 location	Queimados
 location	Miguel Pereira
@@ -9081,6 +9123,7 @@ location	Sao Jose do Vale do Rio Preto
 location	Sapucaia
 location	Itaborai
 location	Marica (Rio de Janeiro)
+location	Tangua
 location	Sumidouro
 location	Rio Bonito
 location	Carmo
@@ -9093,9 +9136,11 @@ location	Cordeiro
 location	Araruama
 location	Macuco
 location	Iguaba Grande
+location	Casimiro de Abreu
 location	Miracema
 location	Santo Antonio de Padua
 location	Sao Sebastiao do Alto
+location	Laje do Muriae
 location	Sao Pedro Da Aldeia
 location	Aperibe
 location	Itaocara
@@ -9615,7 +9660,7 @@ location	Carmen de Viboral
 location	La Ceja
 location	Amagá
 location	Caldas (Antioquia)
-location	Retiro
+location	Retiro CO
 location	Sabaneta
 location	Rionegro
 location	Estrella
@@ -9903,10 +9948,10 @@ location	Puriscal
 location	Barbacoas
 location	Picagres
 location	Santiago de Puriscal
+location	San Antonio CR
 location	Pozos
 location	Santa Ana CR
 location	Escazu
-location	San Antonio
 location	Pavas
 location	San Rafael de Escazú
 location	San Jose CR
@@ -11170,8 +11215,10 @@ division	Tbilisi
 
 ### Iraq
 division	Al-Muthanna Province
+division	Al-Najaf-Al-Ashraf
 division	Iraq
 division	Baghdad
+division	Salahuddin
 division	Erbil
 
 ### Armenia
@@ -11869,6 +11916,8 @@ division	Lobatse
 division	Southern East
 division	Southern District
 division	Gaborone
+division	Sikwane
+division	Mochudi
 division	Botswana
 division	Charles Hill
 division	Central District BW
@@ -11906,6 +11955,9 @@ division	Maseru
 division	Berea
 division	Leribe
 division	Botha Bothe
+
+### Sudan
+division	Sudan
 
 ### Zimbabwe
 division	Zimbabwe
@@ -11945,6 +11997,7 @@ division	Inhambane
 division	Mozambique
 division	Sofala
 division	Manica
+division	Quelimane
 division	Tete
 division	Nampula
 division	Niassa
@@ -12561,6 +12614,7 @@ division	Skopje
 division	Pelagonia
 division	North Macedonia
 division	Vardar
+division	Sveti Nikole
 division	Northeastern Region MK
 division	Kavadarci
 division	Eastern Region MK
@@ -13392,6 +13446,7 @@ country	Botswana
 country	South Africa
 country	Zambia
 country	Lesotho
+country	Sudan
 country	Zimbabwe
 country	Rwanda
 country	Egypt
