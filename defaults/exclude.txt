@@ -2247,3 +2247,15 @@ USA/WA-UW-1972/2020
 # misdated; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622745640267300
 USA/TX-HMH-MCoV-40911/2020
 USA/TX-HMH-MCoV-40926/2020
+
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622798726274300
+Belgium/MBLGc7385/2020
+
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622804065277800 and following threads
+Iran/T11877/2021
+India/UP-CCMB-CIA1758/2021
+Egypt/NRC-5918/2020
+Iran/T11529/2021
+Mongolia/3624/2020
+CzechRepublic/VIR-196/2021
+
