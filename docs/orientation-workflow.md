@@ -11,38 +11,44 @@
 <!-- WARNING -->
 
 Nextstrain has two main parts:
-* **Augur performs the bioinformatic analyses** required to produce a tree, map, and other inferences from your input data.  
-* The outputs of augur form the input for **Auspice, which provides the visualizations** you see on Nextstrain.org  
 
-You can find more information about how these tools fit together [here](https://nextstrain.org/docs/getting-started/introduction). We'll come back to Auspice when we get to the [visualization](sharing.md) section.
+* **Augur performs the bioinformatic analyses** required to produce a tree, map, and other inferences from your input data.
+* **Auspice visualizes the outputs** of Augur you see on Nextstrain.org
 
-First, let's take a look at how augur works.
+You can [read more about how these tools fit together](https://nextstrain.org/docs/getting-started/introduction).
+We'll come back to Auspice when we get to [the visualization section](sharing.md).
 
-## How bioinformatic analyses are managed     
+## How we manage bioinformatic analyses
 
-At its core, augur is a collection of Python scripts, each of which handles one step in the bioinformatic analyses necessary for visualization with auspice.
+To produce the visualizations you see on [nextstrain.org](https://nextstrain.org) from sequences and metadata, we need to run multiple separate Augur commands and other custom scripts designed for SARS-CoV-2 analyses.
+To manage all of these steps, we use a workflow manager called Snakemake.
 
-As you might imagine, keeping track of the input and output files from each step individually can get very confusing, very quickly.
-So, **to manage all of these steps, we use a workflow manager called snakemake**.
+> _Note: there are many other workflow managers out there, such as nextflow. While we fully encourage you to use whichever workflow tools you prefer, we only provide support and maintenance for snakemake._
 
-> _Note: there are many other workflow managers out there, such as nextflow. While we fully encourage you to use whichever workflow tools you prefer, we only provide support and maintenance for snakemake._  
+Snakemake is an incredibly powerful workflow manager with many complex features. For our purposes, though, we only need to understand a few things:
 
-Snakemake is an incredibly powerful workflow manager with many complex features. For our purposes, though, we only need to understand a few things:  
-
-* **Each step in a workflow is called a "rule."** The inputs, outputs, and shell commands for each step/rule are defined in a `.smk` file.    
-* Each rule has a number of **parameters, which are specified in a `.yaml` file**.  
+* **Each step in a workflow is called a "rule."** The inputs, outputs, and shell commands for each step/rule are defined in a `.smk` file.
+* Each rule has a number of **parameters, which are specified in a `.yaml` file**.
 * Each rule produces **output (called a "dependency") which may be used as input to other rules**.
 
 ## Overview of a Nextstrain "build" (analysis workflow)
+
 Below is an illustration of each step in a standard Nextstrain analysis workflow.
 Dependencies (output files from one step that act as input to the next) are indicated by grey arrows. Input files which must be provided are indicated with red outlines. As you can see in yellow, the final output is a JSON file for visualization in auspice.
 
-Required input files (e.g. the sequence data generated in the [data preparation section](data-prep.md), or other files which are part of this repo) are indicated with red outlines. We'll walk through each of these in detail in the next section.
+Required input files (e.g. the sequence data generated in [the data preparation section](data-prep.md), or other files which are part of this repo) are indicated with red outlines. We'll walk through each of these in detail in the next section.
 
-![snakemake_workflow](images/basic_snakemake_build.png)
+```bash
+nextstrain build . --forceall \
+    --dag \
+    --configfile my_profiles/example_multiple_inputs/builds.yaml |
+  sed 's/fontsize=10/fontsize=25/;s/penwidth=2/penwidth=3/' |
+  dot -Tpng > docs/images/ncov_workflow_diagram.png
+```
 
+![SARS-CoV-2 workflow diagram for the "multiple inputs" build](images/ncov_workflow_diagram.png)
 
-We encourage you to take a look at [`main_workflow.smk`](https://github.com/nextstrain/ncov/blob/master/workflow/snakemake_rules/main_workflow.smk) to see what each rule is doing in more detail.  
+We encourage you to take a look at [`main_workflow.smk`](https://github.com/nextstrain/ncov/blob/master/workflow/snakemake_rules/main_workflow.smk) to see what each rule is doing in more detail.
 
 >Note: Not all of the rules included are essential, or may even be desirable for your analysis. Your build may be able to be made a lot simpler, depending on your goals.
 
