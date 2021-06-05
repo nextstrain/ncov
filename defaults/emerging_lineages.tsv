@@ -18,7 +18,7 @@ B.1.1.7 (Alpha)	nuc	15279	T
 
 B.1.1.519	nuc	22995	A
 B.1.1.519	nuc	10954	T
-B.1.1.519	nuc	12789	T
+B.1.1.519	nuc	22995	A
 B.1.1.519	nuc	21306	T
 
 B.1.351 (Beta)	nuc	1059	T
@@ -29,10 +29,10 @@ B.1.351 (Beta)	nuc	25563	T
 B.1.351 (Beta)	nuc	23063	T
 B.1.351 (Beta)	nuc	23012	A
 
-B.1.427+B.1.429 (Epsilon)	nuc	17014	T
-B.1.427+B.1.429 (Epsilon)	nuc	21600	T
-B.1.427+B.1.429 (Epsilon)	nuc	22018	T
-B.1.427+B.1.429 (Epsilon)	nuc	22917	G
+B.1.427/429 (Epsilon)	nuc	17014	T
+B.1.427/429 (Epsilon)	nuc	21600	T
+B.1.427/429 (Epsilon)	nuc	22018	T
+B.1.427/429 (Epsilon)	nuc	22917	G
 
 B.1.525 (Eta)	nuc	14407	T
 B.1.525 (Eta)	nuc	21717	G
