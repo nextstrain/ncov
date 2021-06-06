@@ -13595,18 +13595,22 @@ clade_membership	21F (Iota)
 ################
 
 emerging_lineage	A.23.1
-emerging_lineage	B.1.1.7
-emerging_lineage	B.1.351
-emerging_lineage	B.1.427+B.1.429
-emerging_lineage	B.1.525
-emerging_lineage	B.1.526
-emerging_lineage	B.1.617
+emerging_lineage	B.1.1.7 (Alpha)
+emerging_lineage	B.1.1.519
+emerging_lineage	B.1.351 (Beta)
+emerging_lineage	B.1.427/429 (Epsilon)
+emerging_lineage	B.1.525 (Eta)
+emerging_lineage	B.1.526 (Iota)
+emerging_lineage	B.1.617.1 (Kappa)
+emerging_lineage	B.1.617.2 (Delta)
+emerging_lineage	B.1.619
+emerging_lineage	B.1.620
+emerging_lineage	B.1.621
 emerging_lineage	C.37
-emerging_lineage	P.1
-emerging_lineage	P.3
+emerging_lineage	P.1 (Gamma)
+emerging_lineage	P.3 (Theta)
 
 ################
-
 
 pango_lineage	A
 pango_lineage	A.1
