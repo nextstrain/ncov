@@ -106,7 +106,8 @@ def read_geography_file(file_name, hierarchical = False):
             data = {"location": {}, "division": {}, "country": {}, "region": {}}
         else:
             # dictionary containing all locations, divisions etc. as lists
-            data = {"location": [], "division": [], "country": [], "region": [], "recency": [], "emerging_lineage": [], "pango_lineage": []}
+            data = {"location": [], "division": [], "country": [], "region": []}
+            color_ordering_other = {}
 
         for line in data_file:
             if line == "\n":
@@ -116,16 +117,26 @@ def read_geography_file(file_name, hierarchical = False):
                 continue
             type = l[0] #location, division etc
             name = l[1]
-            if name not in data[type]:
-                if lat_longs:
+
+            if lat_longs:
+                if name not in data[type]:
                     data[type][name] = (float(l[2]), float(l[3]))
                 else:
-                    data[type].append(name)
+                    print("Duplicate in lat_longs? (" + l[0] + " " + l[1] + ")\n")  # if already in the dictionary, print warning
             else:
-                s = "ordering"
-                if lat_longs:
-                    s = "lat_longs"
-                print("Duplicate in " + s + "? (" + l[0] + " " + l[1] + ")\n") #if already in the dictionary, print warning
+                if type in data:
+                    if name not in data[type]:
+                        data[type].append(name)
+                    else:
+                        print("Duplicate in color_ordering? (" + l[0] + " " + l[1] + ")\n")  # if already in the dictionary, print warning
+                else:
+                    if type not in color_ordering_other:
+                        color_ordering_other[type] = []
+                    color_ordering_other[type].append(name)
+        if lat_longs:
+            return data
+        else:
+            return data, color_ordering_other
     else: #hierarchical structure of ordering for checking similar names only in the same country
         data = {"Asia": {}, "Oceania": {}, "Africa": {}, "Europe": {}, "South America": {}, "North America": {}}
 
@@ -1237,7 +1248,7 @@ def write_ordering(data, hierarchy):
         mode = "w"
 
     with open(path_to_output_files+"color_ordering.tsv", mode) as out:
-        if hierarchy in ["recency", "emerging_lineage", "pango_lineage"]:
+        if hierarchy not in ["region", "country", "division", "location"]:
             for l in data[hierarchy]:
                 out.write(hierarchy + "\t" + l + "\n")
             out.write("\n################\n\n\n")
@@ -1356,7 +1367,7 @@ if __name__ == '__main__':
         metadata = myfile.readlines()
 
     # Read orderings and lat_longs
-    ordering = read_geography_file("defaults/color_ordering.tsv") #TODO: combine with read_local_files()?
+    ordering, ordering_other = read_geography_file("defaults/color_ordering.tsv") #TODO: combine with read_local_files()?
     hierarchical_ordering = read_geography_file("defaults/color_ordering.tsv", True)
     lat_longs = read_geography_file("defaults/lat_longs.tsv")
 
@@ -1417,10 +1428,8 @@ if __name__ == '__main__':
     write_ordering(data, "division")
     write_ordering(data, "country")
     write_ordering(data, "region")
-    write_ordering(ordering, "recency")
-    write_ordering(ordering, "emerging_lineage")
-    write_ordering(ordering, "pango_lineage")
-
+    for type in ordering_other:
+        write_ordering(ordering_other, type)
 
     ##### Bonus step: Print out all collected annotations - if considered correct, they can be copied by the user to annotations.tsv
     with open(path_to_output_files+"new_annotations.tsv", 'w') as out:
