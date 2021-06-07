@@ -2271,3 +2271,6 @@ India/MH-NCCS-AFMC-45271/2021
 #divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1622838574295600
 Brazil/SP-L112-CD4087/2020
 USA/TX-HMH-MCoV-41509/2020
+
+# date
+Norway/7651/2020
