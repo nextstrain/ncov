@@ -150,3 +150,6 @@ Antioquia	CO
 Mazowieckie	(Mazowieckie)
 Galapagos	EC
 Maule	CL
+Mons	BE
+Guayas	EC
+Bocas del Toro	PA

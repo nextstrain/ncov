@@ -88,3 +88,4 @@ Travel related exposure - XXX
 Imported With Travel History From XXX
 Imported with travel history from XXX
 A quarantined Traveller from XXX
+Traveler-XXX

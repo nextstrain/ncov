@@ -227,3 +227,25 @@ Concelles	Courcelles
 Sint-Jan-Molenbeek	Molenbeek-Saint-Jean
 Brabant Flamand	Vlaams-Brabant
 Roesa	Roeselare
+Waterscheid-Zwartberg	Waterschei-Zwartberg
+Gruitrode	Meeuwen-Gruitrode
+Sint-Katarina-Lombeek	Sint-Katherina-Lombeek
+Anderlechtt	Anderlecht
+Affliogem	Affligem
+Maaslechelen	Maasmechelen
+Tesselt	Testelt
+Marchienne	Marchienne-au-Pont
+Montignies	Montignies-sur-Sambre
+Honelles	Honnelles
+Phillipeville	Philippeville
+Mont-Su-Marchienne	Mont-sur-Marchienne
+Beauchevain	Beauvechain
+Florens	Florennes
+Laneken	Lanaken
+Sint-Lambrechts-Wouwe	Woluwe-Saint-Lambert
+Couilles	Couillet
+Ham-San-Heune	Ham-sur-Heure-Nalinnes
+Herchtel-Eksel	Hechtel-Eksel
+Sint-Pietsers-Woluwe	Woluwe-Saint-Pierre
+Sint-Pierters-Woluwe	Woluwe-Saint-Pierre
+Marbaix	Ham-sur-Heure-Nalinnes

@@ -634,10 +634,10 @@ Jurbise
 	Jurbise
 	Masnuy-Saint-Jean
 	Masnuy-Saint-Pierre
-Lens
+Lens BE
 	Bauffe
 	Cambron-Saint-Vincent
-	Lens
+	Lens BE
 	Lombise
 	Montignies-lez-Lens
 Mons
