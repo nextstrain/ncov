@@ -637,7 +637,7 @@ rule adjust_metadata_regions:
         Adjusting metadata for build '{wildcards.build_name}'
         """
     input:
-        metadata = _get_unified_metadata
+        metadata="results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv.xz"
     params:
@@ -694,7 +694,7 @@ rule refine:
     input:
         tree = rules.tree.output.tree,
         alignment = rules.build_align.output.alignment,
-        metadata = _get_metadata_by_wildcards
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         tree = "results/{build_name}/tree.nwk",
         node_data = "results/{build_name}/branch_lengths.json"
@@ -888,7 +888,7 @@ rule traits:
         """
     input:
         tree = rules.refine.output.tree,
-        metadata = _get_metadata_by_wildcards
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         node_data = "results/{build_name}/traits.json"
     log:
@@ -1006,7 +1006,7 @@ rule colors:
     input:
         ordering = config["files"]["ordering"],
         color_schemes = config["files"]["color_schemes"],
-        metadata = _get_metadata_by_wildcards
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         colors = "results/{build_name}/colors.tsv"
     log:
@@ -1031,7 +1031,7 @@ rule colors:
 rule recency:
     message: "Use metadata on submission date to construct submission recency field"
     input:
-        metadata = _get_metadata_by_wildcards
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         node_data = "results/{build_name}/recency.json"
     log:
@@ -1053,7 +1053,7 @@ rule tip_frequencies:
     message: "Estimating censored KDE frequencies for tips"
     input:
         tree = rules.refine.output.tree,
-        metadata = _get_metadata_by_wildcards
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         tip_frequencies_json = "results/{build_name}/tip-frequencies.json"
     log:
@@ -1170,7 +1170,7 @@ rule export:
     message: "Exporting data files for for auspice"
     input:
         tree = rules.refine.output.tree,
-        metadata = _get_metadata_by_wildcards,
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         node_data = _get_node_data_by_wildcards,
         auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"][w.build_name] else config["files"]["auspice_config"],
         colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),

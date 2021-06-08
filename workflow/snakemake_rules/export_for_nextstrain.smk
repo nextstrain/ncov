@@ -46,7 +46,7 @@ rule clean_export_regions:
 rule extract_meta:
     input:
         alignment = rules.build_align.output.alignment,
-        metadata = _get_metadata_by_wildcards
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         metadata = "results/{build_name}/extracted_metadata.tsv"
     run:
@@ -65,8 +65,7 @@ rule export_all_regions:
     input:
         auspice_json = expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
         lat_longs = config["files"]["lat_longs"],
-        metadata = [_get_metadata_by_build_name(build_name).format(build_name=build_name)
-                    for build_name in BUILD_NAMES],
+        metadata=expand("results/{build_name}/metadata_adjusted.tsv.xz", build_name=BUILD_NAMES),
         colors = expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
     benchmark:
         "benchmarks/export_all_regions.txt"
