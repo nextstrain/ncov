@@ -249,3 +249,8 @@ Herchtel-Eksel	Hechtel-Eksel
 Sint-Pietsers-Woluwe	Woluwe-Saint-Pierre
 Sint-Pierters-Woluwe	Woluwe-Saint-Pierre
 Marbaix	Ham-sur-Heure-Nalinnes
+Kortijk	Kortrijk
+Beveren (Leie)	Beveren-Leie
+Jabeke	Jabbeke
+Westerloo	Westerlo
+Mariakerke (Gent)	Mariakerke
