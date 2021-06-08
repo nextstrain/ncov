@@ -132,6 +132,16 @@ def _get_sampling_bias_correction_for_wildcards(wildcards):
     else:
         return config["traits"]["default"]["sampling_bias_correction"]
 
+def _get_min_date_for_frequencies(wildcards):
+    if "frequencies" in config and "min_date" in config["frequencies"]:
+        return config["frequencies"]["min_date"]
+    else:
+        # If not explicitly specified, default to 1 year back from the present
+        min_date_cutoff = datetime.date.today() - datetime.timedelta(weeks=52)
+        return numeric_date(
+            min_date_cutoff
+        )
+
 def _get_max_date_for_frequencies(wildcards):
     if "frequencies" in config and "max_date" in config["frequencies"]:
         return config["frequencies"]["max_date"]
