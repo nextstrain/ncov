@@ -641,7 +641,9 @@ rule adjust_metadata_regions:
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv.xz"
     params:
-        region = lambda wildcards: config["builds"][wildcards.build_name]["region"]
+        # Default to a "global" region if none is defined. The adjust metadata
+        # script will not modify the metadata if the region is "global".
+        region = lambda wildcards: config["builds"][wildcards.build_name].get("region", "global")
     log:
         "logs/adjust_metadata_regions_{build_name}.txt"
     benchmark:
