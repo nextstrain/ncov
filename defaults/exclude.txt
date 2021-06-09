@@ -2294,3 +2294,18 @@ Brazil/RS-LMM48674/2021
 
 # deletion in ORF1a
 India/MH-NCCS-2748000335553/2021
+
+# Divergence (see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1623221408342400 and following threads)
+Botswana/CV1507452/2021
+Netherlands/NB-EMC-813/2020
+Iran/Hormozgan/2021
+USA/WA-UW-12659/2020
+Panama/GMI-PA352445/2020
+USA/TX-HMH-MCoV-34797/2020
+Slovakia/UVZ_PL11_G3_8404/2021
+USA/WA-UW306/2020
+USA/WA-UW-9190/2020
+
+
+# Recombinant (see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1623222061345400)
+USA/MN-CDC-LC0060370/2021
