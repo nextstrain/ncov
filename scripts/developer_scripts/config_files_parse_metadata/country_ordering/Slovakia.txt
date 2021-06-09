@@ -2577,6 +2577,7 @@ District of Vranov nad Toplov
 	Hlinné
 	Hencovce
 District of Bardejov
+	Bardejovská Nová Ves
 	Vaniškovce
 	Bardejov
 	Abrahámovce, district Bardejov
