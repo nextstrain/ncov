@@ -2438,6 +2438,7 @@ location	Guimera
 location	Ponts
 location	Tarragona
 location	Cervera
+location	La Seu D'Urgell
 location	Solsona
 location	El Vendrell
 location	Jorba
@@ -2502,11 +2503,13 @@ location	Can Parellada
 location	Sant Feliu de Llobregat
 location	Sant Joan Despi
 location	Sant Llorenc Savall
+location	Mira-Sol
 location	Cornella de Llobregat
 location	San Cugat del Valles
 location	Sant Quirze del Valles
 location	Castellar del Valles
 location	Esplugues de Llobregat
+location	Olost
 location	El Prat de Llobregat
 location	Moia
 location	L'Hospitalet de Llobregat
@@ -2918,6 +2921,7 @@ location	Agen
 location	Coulounieix Chamiers
 location	Notre-Dame-de-Sanilhac
 location	Perigueux
+location	Montmorillon
 location	Limoges
 location	Saint-Mexant
 location	Tulle
@@ -3349,6 +3353,7 @@ location	Andrézieux-Bouthéon
 location	Firminy
 location	Saint-Etienne
 location	Aubenas
+location	Saint-Didier-Sous-Aubenas
 location	Tarare
 location	Saint Prix
 location	Privas
@@ -3524,6 +3529,7 @@ location	Embrun
 location	Le Muy
 location	Frejus
 location	Saint-Vallier-de-Thiey
+location	Auribeau-sur-Siagne
 location	Grasse
 location	Mouans-Sartoux
 location	Cannes
@@ -4448,6 +4454,7 @@ location	Ans
 location	Seraing
 location	Boncelles
 location	Ougrée
+location	Glain
 location	Voroux-lez-Liers
 location	Grivegnée
 location	Bressoux
@@ -6493,6 +6500,7 @@ location	Slemien
 location	Zawiercie
 
 # Łódzkie
+location	Wieruszow
 location	Kamieniki
 location	Suliszewice
 location	Wojkow
@@ -6512,6 +6520,7 @@ location	Zdunska Wola
 location	Wartkowice
 location	Pajeczno County
 location	Charbice Gorne
+location	Lask
 location	Charbice Dolne
 location	Leczyca (Łódzkie)
 location	Belchatow County
@@ -6549,8 +6558,9 @@ location	Rewica Szlachecka
 location	Jasienin Maly
 location	Kaweczyn
 location	Jezow
-location	Skierniewice County
 location	Justynow
+location	Tomaszow Mazowiecki
+location	Skierniewice
 location	Bronislawow
 
 # Malopolskie
@@ -6701,6 +6711,7 @@ location	Zagrody
 location	Rzepin
 location	Pawlow
 location	Kuczow
+location	Staszow
 location	Mlynek
 location	Backowice
 location	Kraszkow
@@ -7123,6 +7134,7 @@ location	Diakovce
 location	Bab
 location	Zemianska Olca
 location	Sala
+location	Velke Zaluzie
 location	Vlcany
 location	Neded
 location	Kolárovo
@@ -7130,6 +7142,7 @@ location	Komoca
 location	Jatov
 location	Kamenicna
 location	Tvrdosovce
+location	Mojmirovce
 location	Palarikovo
 location	Rastislavice
 location	Andovce
@@ -7139,12 +7152,15 @@ location	Imel
 location	Velky Kyr
 location	Nove Zamky
 location	Komjatice
+location	Maly Lapas
 location	Topolcany
 location	Velký Harcáš
+location	Velky Lapas
 location	Surany
 location	Banov
 location	Hurbanovo
 location	Solcany
+location	Vinodol
 location	Bajc
 location	Cernik
 location	Ulany nad Zitavou
@@ -7278,11 +7294,15 @@ location	Rapovce
 location	Michalova
 location	Poltar
 location	Ozdany
+location	Kruzno
+location	Hajnacka
 location	Hnusta
 location	Rimavska Sobota
 location	Muranska Huta
 location	Revuca
+location	Martinova
 location	Chanava
+location	Gemersky Sad
 location	Tornala
 
 # Prešov
@@ -7321,25 +7341,42 @@ location	Livovska Huta
 location	Sabinov
 location	Kurov
 location	Petrovany
+location	Regetovka
+location	Bardejov
 location	Janovce
 location	Zborov
+location	Bardejovska Nova Ves
+location	Raslavice
+location	Hrabovec
+location	Cigla
+location	Poliakovce
 location	Lipova
 location	Valkovce
 location	Svidnik
+location	Kruzlova
 location	Strocin
+location	Sol
 location	Stropkov
 location	Turany nad Ondavou
 location	Vranov nad Toplov
+location	Sacurov
 location	Sedliska
+location	Zalobin
 location	Hencovce
+location	Nizny Hrabovec
 location	Humenne
 location	Medzilaborce
+location	Maskovce
 location	Dlhe nad Cirochou
 location	Bela nad Cirochou
 location	Snina
 location	Ubla
 
 # Kosice
+location	Dobsina
+location	Plesivec
+location	Kecovo
+location	Roznava
 location	Spisska Nova Ves
 location	Krasnohorska Dlha Luka
 location	Chrast nad Hornadom
@@ -7347,7 +7384,9 @@ location	Zehra
 location	Haj
 location	Gelnica
 location	Valaliky
+location	Koksov-Baksa
 location	Mala Trna
+location	Borsa
 location	Trebisov
 location	Tusice
 location	Michalovce
@@ -7355,6 +7394,10 @@ location	Budkovce
 location	Kralovsky Chlmec
 location	Pavlovce nad Uhom
 location	Sobrance
+location	Orechova
+location	Chonkovce
+location	Vysne Nemecke
+location	Inovce
 
 ### Hungary
 # Central Hungary
@@ -7695,6 +7738,9 @@ location	Kamensk-Shakhtinsky
 # Ryazan
 location	Ryazan
 
+# Vologda
+location	Cherepovets
+
 # Voronezh
 location	Voronezh
 
@@ -7702,6 +7748,7 @@ location	Voronezh
 location	Maykop
 
 # Vladimir Region
+location	Pokrov
 location	Vladimir
 location	Kovrov
 
@@ -7904,11 +7951,13 @@ location	Poyarkovo
 location	Progress
 location	Gilchin
 location	Tambovka
+location	Zavitinsk
 location	Blagoveshchensk
 location	Yekaterinoslavka
 location	Romny
 location	Belogorsk
 location	Svobodny (Amur)
+location	Novokiyevsky Uval
 location	Zeya
 
 # Magadan
@@ -8445,16 +8494,27 @@ location	Pozo Almonte
 location	Arica
 
 ### Paraguay
+# Cordillera
+location	Altos
+
 # Central
+location	Ita
+location	Villeta
+location	Guarambare
+location	Ypane
+location	Juan Augusto Saldívar
+location	San Antonio PY
+location	Itagua
+location	Itaugua
+location	Ñemby
+location	Capiata
+location	San Lorenzo PY
 location	Lambare
 location	Fernando de la Mora
-location	Ñemby
-location	San Lorenzo PY
+location	Aregua
 location	Luque
+location	Mariano Roque Alonso
 location	Limpio
-location	Capiata
-location	Juan Augusto Saldívar
-location	Itaugua
 
 ### Bolivia
 # Chuquisaca
@@ -8670,6 +8730,7 @@ location	Candelaria
 
 # Para
 location	Juruti
+location	Trairao
 location	Obidos BR
 location	Prainha
 location	Breves
@@ -8717,6 +8778,7 @@ location	Quedas do Iguacu
 location	Vere
 location	Sulina
 location	Diamante do Sul
+location	Pato Branco
 location	Cianorte
 location	Paranavai
 location	Terra Boa
@@ -8736,7 +8798,9 @@ location	Ivaipora
 location	Astorga BR
 location	Pinhao
 location	Borrazopolis
+location	Guarapuava
 location	Apucarana
+location	Arapongas
 location	Rolandia
 location	Candido de Abreu
 location	Cambe
@@ -8748,6 +8812,7 @@ location	Primeiro de Maio
 location	Reboucas
 location	Cornelio Procopio
 location	Irati
+location	Telemaco Borba
 location	Congonhinhas
 location	Sao Mateus do Sul
 location	Bandeirantes
@@ -8757,8 +8822,11 @@ location	Carambei
 location	Santo Antonio Da Platina
 location	Cambara
 location	Castro
+location	Tomazina
+location	Joaquim Tavora
 location	Wenceslau Braz
 location	Lapa
+location	Balsa Nova
 location	Campo Largo
 location	Pien
 location	Araucaria
@@ -8767,6 +8835,7 @@ location	Almirante Tamandare
 location	Curitiba
 location	Colombo
 location	Sao Jose Dos Pinhais
+location	Pinhais
 location	Campina Grande do Sul
 location	Paranagua
 
@@ -8779,16 +8848,19 @@ location	Macapá
 location	Cutias
 
 # Santa Catarina
+location	Sao Miguel do Oeste
 location	Planalto Alegre
 location	Chapeco
 location	Lajeado Grande
 location	Concordia BR
 location	Joacaba
+location	Videira
 location	Porto Uniao
 location	Irineopolis
 location	Canoinhas
 location	Lages
 location	Salete
+location	Taio
 location	Praia Grande SC
 location	Sao Joaquim
 location	Itaiopolis
@@ -8799,22 +8871,27 @@ location	Aurora
 location	Sombrio
 location	Presidente Getulio
 location	Ituporanga
+location	Lontras
+location	Rio Negrinho
 location	Ararangua
 location	Forquilhinha
 location	Balneario Arroio do Silva
 location	Sao Bento do Sul
 location	Icara
 location	Campo Alegre
+location	Morro Da Fumaca
 location	Braco do Norte
 location	Santa Rosa de Lima
 location	Rio Fortuna
 location	Jaragua do Sul
+location	Schroeder
 location	Blumenau
 location	Jaguaruna
 location	Armazem
 location	Tubarao
 location	Capivari de Baixo
 location	Joinville
+location	Nova Trento
 location	Brusque
 location	Laguna
 location	Araquari
@@ -8822,8 +8899,11 @@ location	Barra Velha
 location	Balneario Picarras
 location	Palhoca
 location	Imbituba
+location	Biguacu
 location	Camboriu
+location	Navegantes
 location	Sao Jose
+location	Penha
 location	Tijucas
 location	Balneario Camburiu
 location	Sao Francisco do Sul
@@ -12126,6 +12206,9 @@ division	Cuanza Sul
 division	Luanda
 division	Cabinda
 
+### Chad
+division	Chad
+
 ### Central African Republic
 division	Bayanga
 division	Bangui
@@ -12191,6 +12274,9 @@ division	Botha Bothe
 
 ### Sudan
 division	Sudan
+
+### South Sudan
+division	South Sudan
 
 ### Zimbabwe
 division	Zimbabwe
@@ -13090,6 +13176,7 @@ division	Lipetsk
 division	Krasnodar
 division	Rostov
 division	Ryazan
+division	Vologda
 division	Voronezh
 division	Adygea
 division	Arkhangelsk Region
@@ -13215,6 +13302,7 @@ division	Arica and Parinacota
 ### Paraguay
 division	Paraguay
 division	Asuncion
+division	Cordillera
 division	Central
 
 ### Bolivia
@@ -13677,6 +13765,7 @@ country	Cameroon
 country	Republic of the Congo
 country	Namibia
 country	Angola
+country	Chad
 country	Central African Republic
 country	Democratic Republic of the Congo
 country	Africa
@@ -13685,6 +13774,7 @@ country	South Africa
 country	Zambia
 country	Lesotho
 country	Sudan
+country	South Sudan
 country	Zimbabwe
 country	Rwanda
 country	Egypt
