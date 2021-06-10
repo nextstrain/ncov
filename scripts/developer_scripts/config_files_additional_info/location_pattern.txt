@@ -29,3 +29,4 @@ Patient from XXX transferred to Rio Grande do Sul State to receive hospital care
 Patient from XXX relocated to Rondonia State
 Residence XXX
 residence XXX
+Residence: XXX
