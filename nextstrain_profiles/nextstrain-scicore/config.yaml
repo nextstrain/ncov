@@ -1,6 +1,6 @@
 configfile:
   - defaults/parameters.yaml
-  - nextstrain_profiles/nextstrain/builds.yaml
+  - nextstrain_profiles/nextstrain-gisaid/builds.yaml
   - nextstrain_profiles/nextstrain-scicore/scicore-config.yaml
 
 keep-going: True

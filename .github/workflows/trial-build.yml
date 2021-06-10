@@ -40,7 +40,7 @@ jobs:
                 S3_DST_BUCKET=nextstrain-ncov-private/trial/"$TRIAL_NAME" \
                 deploy_url=s3://nextstrain-staging/ \
                 auspice_json_prefix=ncov_gisaid_trial_"$TRIAL_NAME" \
-            --profile nextstrain_profiles/nextstrain \
+            --profile nextstrain_profiles/nextstrain-gisaid \
             --set-threads tree=16 \
         |& tee build-launch.log
       env:

@@ -5,7 +5,7 @@ if config.get('us_state_builds'):
             "region": "North America",
             "country": "USA",
             "division": state,
-            "auspice_config": "nextstrain_profiles/nextstrain/north-america_auspice_config.json"
+            "auspice_config": "nextstrain_profiles/nextstrain-gisaid/north-america_auspice_config.json"
         }
 
 # If `build_sizes` are specified we want to create copies of
