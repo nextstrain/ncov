@@ -939,6 +939,8 @@ rule clades:
         clades = rules.clade_files.output
     output:
         clade_data = "results/{build_name}/clades.json"
+    params:
+        attribute_name = "clade" # this is the default, but better to be explicit here
     log:
         "logs/clades_{build_name}.txt"
     benchmark:
@@ -951,6 +953,7 @@ rule clades:
         """
         augur clades --tree {input.tree} \
             --mutations {input.nuc_muts} {input.aa_muts} \
+            --attribute-name {params.attribute_name} \
             --clades {input.clades} \
             --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
@@ -964,7 +967,9 @@ rule emerging_lineages:
         emerging_lineages = config["files"]["emerging_lineages"],
         clades = config["files"]["clades"]
     output:
-        clade_data = "results/{build_name}/temp_emerging_lineages.json"
+        clade_data = "results/{build_name}/emerging_lineages.json"
+    params:
+        attribute_name = "emerging_lineage"
     log:
         "logs/emerging_lineages_{build_name}.txt"
     benchmark:
@@ -977,28 +982,10 @@ rule emerging_lineages:
         """
         augur clades --tree {input.tree} \
             --mutations {input.nuc_muts} {input.aa_muts} \
+            --attribute-name {params.attribute_name} \
             --clades {input.emerging_lineages} \
             --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
-
-rule rename_emerging_lineages:
-    input:
-        node_data = rules.emerging_lineages.output.clade_data
-    output:
-        clade_data = "results/{build_name}/emerging_lineages.json"
-    benchmark:
-        "benchmarks/rename_emerging_lineages_{build_name}.txt"
-    run:
-        import json
-        with open(input.node_data, 'r', encoding='utf-8') as fh:
-            d = json.load(fh)
-            new_data = {}
-            for k,v in d['nodes'].items():
-                if "clade_membership" in v:
-                    new_data[k] = {"emerging_lineage": v["clade_membership"]}
-        with open(output.clade_data, "w") as fh:
-            json.dump({"nodes": new_data}, fh, indent=2)
-
 
 rule colors:
     message: "Constructing colors file"
@@ -1148,7 +1135,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.refine.output.node_data,
         rules.ancestral.output.node_data,
         rules.translate.output.node_data,
-        rules.rename_emerging_lineages.output.clade_data,
+        rules.emerging_lineages.output.clade_data,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data,
@@ -1203,28 +1190,10 @@ rule export:
             --output {output.auspice_json} 2>&1 | tee {log}
         """
 
-rule add_branch_labels:
-    message: "Adding custom branch labels to the Auspice JSON"
-    input:
-        auspice_json = rules.export.output.auspice_json,
-        emerging_clades = rules.emerging_lineages.output.clade_data
-    output:
-        auspice_json = "results/{build_name}/ncov_with_branch_labels.json"
-    log:
-        "logs/add_branch_labels{build_name}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 ./scripts/add_branch_labels.py \
-            --input {input.auspice_json} \
-            --emerging-clades {input.emerging_clades} \
-            --output {output.auspice_json}
-        """
-
 rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
-        auspice_json = rules.add_branch_labels.output.auspice_json,
+        auspice_json = rules.export.output.auspice_json,
         colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"]
     params:
@@ -1251,7 +1220,7 @@ rule incorporate_travel_history:
 rule finalize:
     message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = lambda w: rules.add_branch_labels.output.auspice_json if config.get("skip_travel_history_adjustment", False) else rules.incorporate_travel_history.output.auspice_json,
+        auspice_json = lambda w: rules.export.output.auspice_json if config.get("skip_travel_history_adjustment", False) else rules.incorporate_travel_history.output.auspice_json,
         frequencies = rules.tip_frequencies.output.tip_frequencies_json,
         root_sequence_json = rules.export.output.root_sequence_json
     output:

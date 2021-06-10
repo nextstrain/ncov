@@ -37,7 +37,7 @@ base_config = {
     ],
     "colorings": [
         { "key": "emerging_lineage", "title": "Emerging Lineage", "type": "categorical" },
-        { "key": "clade_membership", "title": "Clade", "type": "categorical"},
+        { "key": "clade", "title": "Clade", "type": "categorical"},
         { "key": "S1_mutations", "title": "S1 mutations", "type": "continuous"},
         { "key": "logistic_growth", "title": "Logistic growth", "type": "continuous"},
         { "key": "current_frequency", "title": "Current frequency", "type": "continuous"},
@@ -55,7 +55,7 @@ base_config = {
         "region"
     ],
     "display_defaults": {
-        "color_by": "clade_membership",
+        "color_by": "clade",
         "distance_measure": "num_date",
         "geo_resolution": "SET_IN_RULE",
         "map_triplicate": "SET_IN_RULE",
@@ -65,7 +65,7 @@ base_config = {
     "filters": [
         "recency",
         "emerging_lineage",
-        "clade_membership",
+        "clade",
         "region",
         "country",
         "division",
