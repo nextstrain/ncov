@@ -263,18 +263,24 @@ location	Ernakulam
 location	Thrissur
 location	Kozhikode
 
+# Puducherry
+location	Puducherry
+
 # Tamil Nadu
 location	Salem
 location	The Nilgiris
 location	Coimbatore
 location	Tiruppur
+location	Tenkasi
 location	Theni
 location	Kanyakumari
 location	Tirunelveli
 location	Erode
+location	Sivakasi
 location	Dindigul
 location	Karur
 location	Madurai
+location	Thoothukudi
 location	Namakkal
 location	Dharmapuri
 location	Krishnagiri
@@ -285,10 +291,12 @@ location	Perambalur
 location	Pudukkottai
 location	Ramanathapuram
 location	Kallakurichi
+location	Vellore
 location	Tiruvannamalai
 location	Ariyalur
 location	Thanjavur
 location	Ranipet
+location	Villupuram
 location	Thiruvarur
 location	Kancheepuram
 location	Cuddalore
@@ -301,6 +309,8 @@ location	Chennai
 location	North and Middle Andaman
 
 # Karnataka
+location	Udupi
+location	Mangalore
 location	Haveri
 location	Tumakuru
 location	Bengaluru Urban
@@ -1321,6 +1331,7 @@ location	Joe Gqabi
 location	Kempton Park
 
 # Free State
+location	Bloemfontein
 location	Welkom
 location	Kroonstad
 
@@ -1328,6 +1339,7 @@ location	Kroonstad
 location	Midvaal
 location	Emfuleni
 location	Lesedi
+location	Vosloorus
 location	West Rand
 location	Johannesburg Metro
 location	Ekurhuleni Metro
@@ -2769,9 +2781,10 @@ location	Warwickshire
 
 ### France
 # Martinique
-location	Schoelcher
 location	Fort-de-France
 location	Le Lamentin
+location	Schoelcher
+location	Le Lorrain
 
 # French Guiana
 location	Grand Santi
@@ -2818,6 +2831,7 @@ location	Vannes
 location	Sene
 location	Yffiniac
 location	Josselin
+location	Lamballe
 location	La Roche Bernard
 location	Cayenne BRE
 location	La Gacilly
@@ -3031,6 +3045,7 @@ location	Provins
 # Hauts de France
 location	Nogent-l'Artaud
 location	Chateau-Thierry
+location	Chambly
 location	Crouy en Thelle
 location	Crépy en Valois
 location	Compiègne
@@ -3748,6 +3763,7 @@ location	Lovendegem
 location	Asper
 location	Gavere
 location	Mariakerke
+location	Evergem
 location	Wondelgem
 location	Zwijnaarde
 location	Gent
@@ -3758,6 +3774,7 @@ location	Gentbrugge
 location	Melle
 location	Heusden
 location	Oosterzele
+location	Lochristi
 location	Wachtebeke
 
 # Ath
@@ -7949,6 +7966,7 @@ location	Arkhara
 location	Konstantinovka
 location	Poyarkovo
 location	Progress
+location	Raychikhinsk
 location	Gilchin
 location	Tambovka
 location	Zavitinsk
@@ -10543,6 +10561,7 @@ location	Missoula County
 location	Lewis and Clark County
 location	Teton County
 location	Jefferson County MT
+location	Toole County
 location	Ennis
 location	Cascade County
 location	Big Sky
@@ -10554,6 +10573,7 @@ location	Sweet Grass County
 location	Stillwater County
 location	Carbon County
 location	Blaine County
+location	Musselshell County
 location	Yellowstone County
 location	Big Horn County
 location	Valley County
@@ -11553,6 +11573,7 @@ division	Abadan
 division	Hamedan
 division	Gilan
 division	Arak
+division	Qazvin
 division	Alborz Province
 division	Qom
 division	Karaj
@@ -11804,14 +11825,30 @@ division	Cambodia
 division	Steung Treng
 
 ### Vietnam
+division	Kien Giang
 division	Ho Chi Minh City
+division	Da Nang
 division	Vietnam
 division	Thanh Hoa
+division	Nam Dinh
+division	Ha Nam
+division	Thai Binh
+division	Hoa Binh
+division	Hung Yen
+division	Hai Phong
 division	Hai Duong
 division	Quangninh
 division	Red River Delta
+division	Bac Ninh
+division	Son la
+division	Bac Giang
 division	Vinhphuc
+division	Phu Tho
+division	Thai Nguyen
+division	Yen Bai
+division	Lang Son
 division	Lao Cai
+division	Cao Bang
 
 ### Hong Kong
 division	Hong Kong
@@ -11859,6 +11896,7 @@ division	Brunei
 ### Taiwan
 division	Tainan
 division	Taiwan
+division	Changhua County
 division	New Taipei City
 division	Keelung
 
@@ -12944,6 +12982,7 @@ division	Southeastern Region
 
 ### Greece
 division	Ionian Islands
+division	Kefalonia
 division	Aegean Islands
 division	Epirus
 division	Kastoria
@@ -12966,6 +13005,7 @@ division	Peloponnese
 division	Giannitsa
 division	Goumenissa
 division	Katerini
+division	Korinthia
 division	Kilkis
 division	Central Macedonia
 division	Thrace

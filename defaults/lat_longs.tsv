@@ -1012,6 +1012,7 @@ location	Bleiswijk	52.0109579	4.5310837
 location	Bleszno	51.5930147	20.862774
 location	Blicquy	50.5878005	3.6857513
 location	Bloemendaal	52.3742917	4.591534676879699
+location	Bloemfontein	-29.116395	26.215496
 location	Blois	47.5876861	1.3337639
 location	Blokker	52.6614915	5.0899615
 location	Blomard	46.2893	2.97642
@@ -1717,6 +1718,7 @@ location	Chambers County	32.8901658	-85.3866953
 location	Chambers County TX	29.7191125	-94.5412295
 location	Chambery	45.5662672	5.9203636
 location	Chamblet	46.3342903	2.7010351
+location	Chambly	49.1662774	2.2444986
 location	Chambon sur Lac	45.5712859	2.8980689
 location	Chambrey Les Tours	47.3390872	0.714368
 location	Chamoli	30.499632300000002	79.61879245944404
@@ -2732,6 +2734,7 @@ location	Évelette	50.4135772	5.171436
 location	Even Shmuel	31.8087214	35.1984071
 location	Everberg	50.8778651	4.5695061
 location	Evere	50.8720096	4.4034182
+location	Evergem	51.1187231	3.705820038711427
 location	Evilard	47.1494705	7.2395711
 location	Evreux	49.0268903	1.1510164
 location	Evritania	38.965892999999994	21.678705442804155
@@ -4661,6 +4664,7 @@ location	Lalin	42.6612	-8.1110
 location	Lamar County	33.6383552	-95.582343
 location	Lamb County	34.0321667	-102.3429233
 location	Lambach	48.0919647	13.8724131
+location	Lamballe	48.46244615	-2.516502292079859
 location	Lambare	-25.3455354	-57.6261456
 location	Lambinowice	50.5384423	17.5596387
 location	Lamine	50.688307	5.334720
@@ -4768,6 +4772,7 @@ location	Le Chesnay	48.8278506	2.1319603
 location	Le Haillan	44.872105	-0.6761661
 location	Le Havre	49.4938975	0.1079732
 location	Le Lamentin	14.614557	-61.0018145
+location	Le Lorrain	14.8326715	-61.0554208
 location	Le Mans	48.0073796	0.1967599
 location	Le Mayet de Montagne	46.070171	3.6663495
 location	Le Mont Dore	45.5749966	2.8094117
@@ -5005,6 +5010,7 @@ location	Lo-Reninge	50.9928529	2.7918753
 location	Lobbes	50.35415555	4.238652470459903
 location	Lobez	53.6391189	15.6213487
 location	Lochovice	49.84228315	13.96652650825936
+location	Lochristi	51.097928350000004	3.835561373149549
 location	Lod	31.9489012	34.8884857
 location	Lodelinsart	50.430796660336036	4.447265702399177
 location	Lodosa	42.4241886	-2.0785646
@@ -5303,6 +5309,7 @@ location	Mandailing	3.3224455	99.1298137
 location	Mandsaur	24.077683	75.067604
 location	Mandvi	21.254369	73.303536
 location	Manfredonia	41.6254728	15.9095926
+location	Mangalore	12.8698101	74.8430082
 location	Mangaratiba	-22.9600193	-44.04111
 location	Mangrol	21.575642	72.8565391
 location	Mangueira	-16.6017274	-49.2617098
@@ -5920,6 +5927,7 @@ location	Muscoda	43.189115	-90.439704
 location	Museros	39.5738	-0.3607
 location	Muskiz	43.31259665	-2.667014112202941
 location	Musques	43.3230375	-3.1243029
+location	Musselshell County	46.4728903	-108.4473635
 location	Muszkowice	50.64165	16.9622
 location	Mutilva	42.789102	-1.616814
 location	Mutne	49.4596226	19.32275
@@ -7076,6 +7084,7 @@ location	Puchov	49.123928	18.3239559
 location	Puck	54.7144128	18.406782113987507
 location	Pucon	-39.2731173	-71.9777605
 location	Pudahuel	-33.4193729	-70.86335607718577
+location	Puducherry	11.9340568	79.8306447
 location	Pudukkottai	10.5	78.833333
 location	Puebla de Don Fadrique	37.9578472	-2.4348912
 location	Puebla del Caraminal	42.6046249	-8.9402045
@@ -7274,6 +7283,7 @@ location	Ravalli County	46.0757223	-114.1139453
 location	Ravels	51.416526	5.022319
 location	Rawicz	51.6101629	16.8583657
 location	Rawson	-43.2991348	-65.1056655
+location	Raychikhinsk	49.78709434760068	129.4093657319707
 location	Reagan County TX	31.3458428	-101.5295291
 location	Real de Montroy	39.3342846	-0.608392
 location	Rebecq	50.670468	4.133291
@@ -8421,6 +8431,7 @@ location	Sitges	41.2366707	1.8228136
 location	Sittard-Geleen	51.0094043	5.8376057867167965
 location	Sittersdorf	46.53971575	14.616718237467305
 location	Sivagangai	9.9650599	78.7204283237222
+location	Sivakasi	9.4669895	77.77597856822051
 location	Siyathemba	-29.59172	22.52017633268437
 location	Skagit County	48.485784	-121.815524
 location	Skalica	48.8452079	17.2279127
@@ -8969,6 +8980,7 @@ location	Temse	51.135398	4.208311
 location	Temuco	-38.7362611	-72.590546
 location	Tena	-0.94387175	-78.10839815239592
 location	Tende	44.0889416	7.5933916
+location	Tenkasi	9.031895800000001	77.36536124793122
 location	Teno	-34.8667952	-71.1612202
 location	Tensas Parish	31.996977	-91.321633
 location	Teo	42.8061	-8.5611
@@ -9026,6 +9038,7 @@ location	Thiruvarur	10.73618605	79.63318659437627
 location	Thise	47.284553	6.079822
 location	Thomas County	30.8686157	-83.9472421
 location	Thonon-Les-Bains	46.3731303	6.4779448
+location	Thoothukudi	8.8052602	78.1452745
 location	Thoricourt	50.6101161	3.9509699
 location	Thrissur	10.5256264	76.2132542
 location	Thulin	50.428445	3.739358
@@ -9101,6 +9114,7 @@ location	Tompkins County	42.4422105	-76.49962462430045
 location	Ton	47.8047007	17.8380937
 location	Tona	41.8538039	2.2280115
 location	Tonneins	44.3905556	0.3091667
+location	Toole County	48.6768334	-111.7313702
 location	Topolcany	48.5594345	18.1754394
 location	Toral De Los Guzmanes	42.2428548	-5.5671476
 location	Tordera	41.6977173	2.7172987
@@ -9284,6 +9298,7 @@ location	Uccle	50.793431	4.355608
 location	Uchoa	-20.951106	-49.171295
 location	Uciechow	50.7547791	16.6815546
 location	Udine	46.0634632	13.2358377
+location	Udupi	13.3419169	74.7473232
 location	Ufa	54.7261409	55.947499
 location	Ugijar	36.9610885	-3.0546834
 location	Ugory	53.98013	14.89773
@@ -9483,6 +9498,7 @@ location	Velky Kyr	48.1843418	18.1556874
 location	Velky Lapas	48.28687805	18.185203076258013
 location	Velky Meder	47.8557806	17.7693671
 location	Velky Slavkov	49.1002831	20.263592479136165
+location	Vellore	12.7948109	79.0006410968549
 location	Velm	50.7790412	5.1324556
 location	Velserbroek	52.4317169	4.6601847
 location	Veltem-Beisem	50.905721	4.620653
@@ -9638,6 +9654,7 @@ location	Villeta	-25.5047339	-57.569182
 location	Villeurbanne	45.7733124	4.886899
 location	Villingen-Schwenningen	48.0632739	8.494588
 location	Villosanges	45.9133856	2.645576
+location	Villupuram	11.9398285	79.4945645
 location	Vilobi Donyar	41.8882291	2.7423246
 location	Vilvoorde	50.932484	4.429885
 location	Vina del Mar	-33.0244535	-71.5517636
@@ -9697,6 +9714,7 @@ location	Vorchdorf	48.0035141	13.922837
 location	Voronezh	51.6605982	39.2005858
 location	Voroux-lez-Liers	50.686830	5.554916
 location	Vorselaar	51.216049	4.773289
+location	Vosloorus	-26.3563889	28.2083333
 location	Vosselaar	51.3129153	4.8878026
 location	Vossem	50.8354014	4.5607522
 location	Votorantim	-23.5386249	-47.440842
@@ -10388,6 +10406,8 @@ division	Aysén	-46.1434629	-74.36488694169807
 division	Azad Kashmir	33.62045585868291	75.12498213019724
 division	Azerbaijan	40.3936294	47.7872508
 division	Azuay	-3.0524451	-79.2395135
+division	Bac Giang	21.3092863	106.6165128
+division	Bac Ninh	21.1212051	106.0880245
 division	Bács-Kiskun County	46.551745	19.374218
 division	Baden-Wuerttemberg	48.712618	9.13403
 division	Bafoussam	5.4758083	10.4215565
@@ -10560,6 +10580,7 @@ division	Canary Islands	28.2916	-16.6291
 division	Canelones	-34.6222482	-55.9903797
 division	Cantabria	43.1595664	-4.0878382
 division	Canterbury	-43.346635	172.190743
+division	Cao Bang	22.7730867	106.0017225
 division	Capital Governorate	26.2285	50.5860
 division	Caqueta	1.1153385	-74.1056838
 division	Caraga	9.2471392	125.85578188652231
@@ -10614,6 +10635,7 @@ division	Chaco	-26.3829647	-60.8816092
 division	Chad	15.6134137	19.0156172
 division	Chalkidiki	40.28948215	23.409392443373925
 division	Chandigarh	30.7334421	76.7797143
+division	Changhua County	24.0755667	120.5444667
 division	Charleroi	50.418039	4.440646
 division	Charles Hill	-22.279611	20.073887
 division	Chattogram	22.3569	91.7832
@@ -10689,6 +10711,7 @@ division	Curacao	12.1845	-68.9640875031406
 division	Cuzco	-13.5170887	-71.9785356
 division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
+division	Da Nang	16.068	108.212
 division	Dagestan	43.0574916	47.1332224
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
@@ -10902,8 +10925,10 @@ division	Guyana	4.8417097	-58.6416891
 division	Gwangju	35.1595775	126.8515089
 division	Gyeonggi Province	37.397957	127.380864
 division	Győr-Moson-Sopron County	47.6610134	17.3796437
+division	Ha Nam	20.5269088	105.9543527
 division	Hadžići	43.8226456	18.2025181
 division	Hai Duong	20.9443681	106.3780373
+division	Hai Phong	20.858864	106.6749591
 division	Haifa District	32.62574995	34.98251402462225
 division	Hainaut	50.524821	3.976235
 division	Haiti	19.1399952	-72.3570972
@@ -10947,6 +10972,7 @@ division	Hiroshima	34.3916058	132.4518156
 division	Hlohovec	48.4278838	17.798782
 division	Hnusta	48.5787043	19.9531888
 division	Ho Chi Minh City	10.790417	106.653985
+division	Hoa Binh	20.6609177	105.3924747
 division	Hokkaido	43.2203	142.8635
 division	Hokuriku	37.9154	139.0356
 division	Hokurikushinsyu	36.708064	137.806500
@@ -10971,6 +10997,7 @@ division	Hukuk	32.8798972	35.4958000
 division	Humenne	48.9350033	21.9020268
 division	Hunan	27.6662087	111.7487063
 division	Hunedoara	45.7958547	22.944483784106403
+division	Hung Yen	20.8193369	106.0314504
 division	Hungary	47	20
 division	Huy	50.510704	5.209278
 division	Hyogo	34.914934	134.860666
@@ -11112,6 +11139,7 @@ division	Kazakhstan	47.2286086	65.2093197
 division	Kecskemet	46.8964	19.6897
 division	Kedainiai	55.2887322	23.9758359
 division	Keelung	25.1276	121.7392
+division	Kefalonia	38.17297630358924	20.56537713229682
 division	Kemerovo	54.5335781	87.342861
 division	Kendari	-3.9918068	122.5180066
 division	Kenitra	34.26457	-6.570169
@@ -11133,6 +11161,7 @@ division	Khomas	-22.9082553	17.09198004041758
 division	Khon Kaen	16.6022387	102.6352933
 division	Khulna	22.815139549999998	89.44492672055918
 division	Khyber Pakhtunkhwa	33.696621	72.636031
+division	Kien Giang	9.9113945	105.2533879
 division	Kigali	-1.950851	30.061507
 division	Kildare	53.15436455	-6.8184175660976445
 division	Kilifi	-3.15073925	39.67507159193717
@@ -11160,6 +11189,7 @@ division	Kongo Central	-5.8162516	13.4908753
 division	Konya	37.859743	32.495438
 division	Koprivnica	46.168157	16.827208
 division	Koprivnica-Križevci County	46.12020575	16.779842997977994
+division	Korinthia	37.93081650716975	22.612476654682165
 division	Koroska	46.52317615	15.077925785868148
 division	Kortrijk	50.802287	3.264668
 division	Kosice	48.7164	21.2611
@@ -11220,6 +11250,7 @@ division	Lampung	-4.8555039	105.0272986
 division	Lamu	-2.2675396	40.9010641
 division	Lanao del Norte	7.963911700000001	123.90410957888747
 division	Landen	39.3120	-84.2830
+division	Lang Son	21.8567012	106.4424353
 division	Lao Cai	22.3381	104.1487
 division	Laois	52.998490450000006	-7.377700166944578
 division	Lapland	67.700017	26.273752
@@ -11454,6 +11485,7 @@ division	Nagasaki	32.796447	129.818142
 division	Nairobi	-1.3031689499999999	36.826061224105075
 division	Nakhon Nayok	14.1494474	101.2177459
 division	Nakhonnayok	14.180467	101.096533
+division	Nam Dinh	20.2712241	106.1629895
 division	Namestovo	49.423550250000005	19.458483687700223
 division	Namibia	-23.2335499	17.3231107
 division	Nampula	-14.966969	39.2707752
@@ -11665,6 +11697,7 @@ division	Philippeville	50.178836	4.592270
 division	Philippines	12.8797	121.774
 division	Phitsanulok	16.9779975	100.3848239
 division	Phnom Penh	11.568271	104.9224426
+division	Phu Tho	21.4000047	105.2238899
 division	Phuket	7.959471	98.339272
 division	Piaui	-7.7183	-42.7289
 division	Pichincha	-0.1465	-78.4752
@@ -11725,6 +11758,7 @@ division	Putumayo	0.5000086	-76.0000086
 division	Qacha's Nek	-30.113327	28.6810971
 division	Qalqilya	32.1922845	34.9670224
 division	Qatar	25.27932	51.52245
+division	Qazvin	36.0156291	49.8398161
 division	Qom	34.6423117	50.8800969
 division	Quangninh	21.0064	107.2925
 division	Quebec	52.9399	-73.5491
@@ -11953,6 +11987,7 @@ division	Soliman	36.6944327	10.4865924
 division	Solothurn	47.207025	7.528326
 division	Somalia	8.3676771	49.083416
 division	Somogy County	46.439656	17.6212956
+division	Son la	21.1508502	103.8884294
 division	Songkhla	6.8790221	100.5498542
 division	Sonora	29.3333331	-110.6666671
 division	Soriano	-33.4921266	-57.7893105
@@ -12075,6 +12110,8 @@ division	Tessin	46.3356506	8.753706
 division	Tete	-15.5205193	32.7682742
 division	Tetovo	42.0068297	20.9728556
 division	Texas	31.146868	-99.188758
+division	Thai Binh	20.5296832	106.3876068
+division	Thai Nguyen	21.592477	105.8435398
 division	Thailand	14.8971921	100.83273
 division	Thanh Hoa	20.026365	105.439044
 division	Thessaloniki	40.636023	22.943965
@@ -12314,6 +12351,7 @@ division	Yaroslavl	57.7781976	39.0021095
 division	Yavne	31.8780	34.7394
 division	Yazd	31.489462	54.46578718200166
 division	Yemen	16.3471243	47.8915271
+division	Yen Bai	21.69611	104.8752392
 division	Yeumbeul	14.771188	-17.358556
 division	Yogyakarta	-7.8011945	110.364917
 division	Yucatan	20.6845957	-88.8755669
