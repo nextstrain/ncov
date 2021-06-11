@@ -37,12 +37,6 @@
 	* `joint`
 	* `marginal`
 
-## build_sizes
-* type: object
-* description: Number of strains to include in a build by name. Experimental.
-* examples
-	* `standard: 4000`
-
 ## builds
 * type: object
 * description: Named builds to produce by the workflow from the given inputs. Builds are indexed by name and include any number of build attributes that can be used to control subsampling, Auspice configuration, and more.
