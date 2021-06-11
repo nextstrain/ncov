@@ -35,30 +35,37 @@ builds:
   global:
     subsampling_scheme: nextstrain_region_global
     auspice_config: nextstrain_profiles/nextstrain-open/global_auspice_config.json
+    title: Genomic epidemiology of GenBank SARS-CoV-2 genomes, global subsampling
   africa:
     subsampling_scheme: nextstrain_region
     region: Africa
     auspice_config: nextstrain_profiles/nextstrain-open/africa_auspice_config.json
+    title: Genomic epidemiology of GenBank SARS-CoV-2 genomes focused on Africa
   asia:
     subsampling_scheme: nextstrain_region
     region: Asia
     auspice_config: nextstrain_profiles/nextstrain-open/asia_auspice_config.json
+    title: Genomic epidemiology of GenBank SARS-CoV-2 genomes focused on Asia
   europe:
     subsampling_scheme: nextstrain_region
     region: Europe
     auspice_config: nextstrain_profiles/nextstrain-open/europe_auspice_config.json
+    title: Genomic epidemiology of GenBank SARS-CoV-2 genomes focused on Europe
   north-america:
     subsampling_scheme: nextstrain_region
     region: North America
     auspice_config: nextstrain_profiles/nextstrain-open/north-america_auspice_config.json
+    title: Genomic epidemiology of GenBank SARS-CoV-2 genomes focused on North America
   oceania:
     subsampling_scheme: nextstrain_region
     region: Oceania
     auspice_config: nextstrain_profiles/nextstrain-open/oceania_auspice_config.json
+    title: Genomic epidemiology of GenBank SARS-CoV-2 genomes focused on Oceania
   south-america:
     subsampling_scheme: nextstrain_region
     region: South America
     auspice_config: nextstrain_profiles/nextstrain-open/south-america_auspice_config.json
+    title: Genomic epidemiology of GenBank SARS-CoV-2 genomes focused on South America
 
 
 # remove S dropout sequences and sequences without division label in US
