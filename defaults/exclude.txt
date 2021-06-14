@@ -2325,3 +2325,6 @@ Panama/GMI-PACNB11556/2020
 
 # Sampling date and clock deviation, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1623307741362800
 India/MP-NCDC-2509230/2020
+
+# duplicate; additional_host_info: Traveller from São Paulo - Same patient from São Paulo, Brazil - hCoV-19/Brazil/SP-2898/2021 - EPI_ISL_2274979
+Brazil/RJ-FIOCRUZ-25683/2021
