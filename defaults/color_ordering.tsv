@@ -461,6 +461,7 @@ location	Mahemdavad
 location	Limkheda
 location	Dahod
 location	Dasa
+location	Vinzol-Ahmedabad
 location	Savali
 location	Daskroi
 location	Kapadvanj
@@ -535,14 +536,28 @@ location	Darjeeling
 
 # Jharkhand
 location	East Singhbhum
+location	Ranchi
+location	Sahibganj
 
 # Tripura
 location	West Tripura
 location	Dhalai
 location	North Tripura
 
+# Manipur
+location	Imphal West
+
 # Bihar
 location	Munger
+
+# Assam
+location	Dhubri
+location	Goalpara
+location	Nalbari
+location	Kamrup
+location	Darrang
+location	Morigaon
+location	Hojai
 
 # Rajasthan
 location	Jodhpur
@@ -578,6 +593,9 @@ location	Ghazipur
 # Sikkim
 location	East Sikkim
 location	South Sikkim
+
+# Arunachal Pradesh
+location	Papum Pare
 
 # Delhi
 location	West Delhi
@@ -648,6 +666,7 @@ location	Batticaloa
 
 # North Western Province
 location	Kurunegala
+location	Puttalam
 
 # North Central Province
 location	Anuradhapura
@@ -657,8 +676,26 @@ location	Polonnaruwa
 location	Jaffna
 
 ### Nepal
-# Kathmandu
+# Sudurpaschim
+location	Dhangadi
+location	Kailali
+
+# Lumbini
+location	Bardiya
+location	Godawari
+location	Rupandehi
+
+# Bagmati
+location	Lalitpur
 location	Kathmandu
+location	Bhaktapur
+
+# Province 2
+location	Janakpur
+
+# Province 1
+location	Okhaldhunga
+location	Jhapa
 
 ### Bangladesh
 # Chattogram
@@ -678,6 +715,7 @@ location	Khagrachari
 location	Chandpur
 location	Comilla
 location	Kunjachaya
+location	Radhanagar
 location	Brahmanbaria Sadar
 location	Brahmanbaria
 location	Sarail
@@ -708,6 +746,7 @@ location	Keraniganj
 location	Kodomtoly
 location	Jatrabari
 location	Rahmatganj
+location	Sayedabad
 location	Old Dhaka
 location	Azimpur
 location	Dhanmondi
@@ -731,7 +770,9 @@ location	Banani
 location	Gulshan
 location	East Shewrapara
 location	Cantonment
+location	Senpara
 location	Baridhara
+location	Vatara
 location	Dhaka
 location	Basundhara Residential Area
 location	Mirpur
@@ -740,6 +781,7 @@ location	Ashkona
 location	Savar
 location	Manikganj
 location	Uttara
+location	Tongi
 location	Narsingdi
 location	Dhamrai
 location	Gazipur
@@ -2780,6 +2822,9 @@ location	London
 location	Warwickshire
 
 ### France
+# Wallis and Futuna
+location	Wallis
+
 # Martinique
 location	Fort-de-France
 location	Le Lamentin
@@ -3147,6 +3192,8 @@ location	Chazemais
 location	Domerat
 location	Premilhat
 location	Messeix
+location	Bourg Lastic
+location	Tremouille Saint Loup
 location	Herment
 location	St Maurice Pres Pionsat
 location	Champs sur Tarentaine
@@ -3154,12 +3201,14 @@ location	Vallon en Sully
 location	Montlucon
 location	Desertines
 location	Tauves
+location	Charensat
 location	Villosanges
 location	Riom Es Montagnes
 location	Thiezac
 location	St Julien Puy Laveze
 location	Verneix
 location	Pontaumur
+location	Chenerailles
 location	St Maigner
 location	Brommat
 location	Chamblet
@@ -3175,6 +3224,7 @@ location	La Goutelle
 location	Gelles
 location	St Priest des Champs
 location	Gouttieres
+location	Perpezat
 location	Deneuille Les Mines
 location	Dun sur Auron
 location	Les Ancizes Comps
@@ -3204,6 +3254,7 @@ location	Aydat
 location	Blomard
 location	Charbonnieres Les Vieilles
 location	Charbonnieres Les Varenne
+location	Fontfreyde
 location	Loubeyrat
 location	Orcines
 location	Saint Genes Champanelle
@@ -3297,6 +3348,7 @@ location	Lempdes sur Allagnon
 location	St Ignat
 location	Chauriat
 location	Orbeil
+location	Pignols
 location	Vertaizon
 location	St Laure
 location	Joze
@@ -3346,6 +3398,7 @@ location	Condat Les Montboissier
 location	Sermentizon
 location	Echandelys
 location	Courpiere
+location	Saugues
 location	Thiers
 location	Molles
 location	St Remy sur Durolle
@@ -3356,6 +3409,7 @@ location	St Alyre D Arlanc
 location	Le Mayet de Montagne
 location	Vertolaye
 location	Chausseterre
+location	Langogne
 location	Le Puy-en-Velay
 location	Brives Charensac
 location	Riorges
@@ -3384,6 +3438,7 @@ location	Chaponost
 location	Montelimar
 location	Dardilly
 location	Givors
+location	Landes
 location	Roussillon
 location	Pierre-Bénite
 location	Lyon
@@ -3413,6 +3468,7 @@ location	Grenoble
 location	Saint-Martin-D'Hères
 location	Corbel
 location	Bellegarde-sur-Valserine
+location	Domene
 location	Chambery
 location	Entraigues
 location	Challes-Les-Eaux
@@ -4235,6 +4291,7 @@ location	Lubbeek
 location	Nieuwrode
 location	Meldert
 location	Boutersem
+location	Houwaart
 location	Roosbeek
 location	Aarschot
 location	Langdorp
@@ -4540,6 +4597,7 @@ location	Büllingen
 location	St Eustatius
 
 # Zeeland
+location	Sluis
 location	Middelburg NL
 
 # South Holland
@@ -5260,11 +5318,13 @@ location	Pfaffenhofen
 location	Freising
 location	Oberbayern
 location	Raubling
+location	Rosenheim
 location	Schierling
 location	Niederbayern
 location	Neutraubling
 location	Roding
 location	Traunstein
+location	Pfarrkirchen
 location	Berchtesgaden
 
 # Mecklenburg-Vorpommern
@@ -5688,9 +5748,12 @@ location	Rudolfsheim Fünfhaus
 location	Vienna
 
 # Burgenland
+location	Güssing
 location	Rotenturm An Der Pinka
 location	Unterwart
+location	Oberwart
 location	Oberpullendorf
+location	Mattersburg
 location	Müllendorf
 location	Eisenstadt
 location	Neusiedl Am See
@@ -7103,9 +7166,12 @@ location	Hlohovec
 location	Boleraz
 location	Smolenice
 location	Drahovce
+location	Chtelnica
 location	Piestany
+location	Moravany nad Vahom
 location	Hradište pod Vrátnom
 location	Šaštín-Stráže
+location	Sajdikove Humence
 location	Senica
 location	Petrova Ves
 location	Sobotiste
@@ -7150,7 +7216,9 @@ location	Ton
 location	Diakovce
 location	Bab
 location	Zemianska Olca
+location	Rumanova
 location	Sala
+location	Risnovce
 location	Velke Zaluzie
 location	Vlcany
 location	Neded
@@ -7166,6 +7234,7 @@ location	Andovce
 location	Nesvady
 location	Komarno
 location	Imel
+location	Branc
 location	Velky Kyr
 location	Nove Zamky
 location	Komjatice
@@ -8735,9 +8804,11 @@ location	Condor
 location	Tapejara
 location	Girua
 location	Sertao
+location	Sarandi
 location	Porto Xavier
 location	Santa Rosa BR
 location	Tiradentes
+location	Tucunduva
 location	Erechim
 location	Seberi
 location	Tres Passos
@@ -8883,6 +8954,7 @@ location	Praia Grande SC
 location	Sao Joaquim
 location	Itaiopolis
 location	Mafra BR
+location	Trombudo Central
 location	Atalanta
 location	Rio do Sul
 location	Aurora
@@ -9352,7 +9424,7 @@ location	Lagoa Santa
 location	Montes Claros
 location	Sabara
 location	Barbacena
-location	Ouro Branco
+location	Ouro Branco MG
 location	Jaiba
 location	Desterro do Melo
 location	Barao de Cocais
@@ -9488,17 +9560,26 @@ location	Itajuipe
 location	Itapitanga
 location	Caetanos
 location	Itacare
+location	Guanambi
+location	Tanhacu
+location	Bom Jesus Da Lapa
+location	Laje
 location	Nazaré
+location	Amargosa
 location	Salvador
 location	Santo Antonio de Jesus
+location	Camacari
+location	Candeias
 location	Sao Sebastiao do Passe
 location	Pojuca
 location	Feira de Santana
 location	Barreiras
+location	Riachao do Jacuipe
 location	Canarana
 location	Serrinha
 location	Satiro Dias
 location	Jandaira
+location	Retirolandia
 location	Itapicuru
 location	Alcobaca
 
@@ -9551,7 +9632,7 @@ location	Barra Dos Coqueiros
 location	Nossa Senhora do Socorro
 location	Laranjeiras (Sergipe)
 location	Simao Dias
-location	Riachuelo
+location	Riachuelo SE
 location	Capela (Sergipe)
 location	Aquidaba
 location	Nossa Senhora Da Gloria
@@ -9611,16 +9692,42 @@ location	Fernando de Noronha
 # Rio Grande do Norte
 location	Riacho de Santana
 location	Água Nova
+location	Rafael Fernandes
 location	Pau Dos Ferros
+location	Marcelino Vieira
+location	Alexandria BR
+location	Serrinha Dos Pintos
+location	Patu
+location	Messias Targino
+location	Jardim de Piranhas
+location	São João do Sabugi
 location	Caicó
+location	Jucurutu
+location	Ouro Branco RN
+location	Açu
+location	São Rafael
+location	São José do Seridó
+location	Florânia
+location	Jardim do Seridó
+location	Tenente Laurentino Cruz
 location	Santana do Matos
 location	Currais Novos
 location	Guamare
 location	Santa Cruz BR
+location	Riachuelo RN
 location	João Câmara
+location	Poco Branco
+location	Passa E Fica
+location	Bom Jesus
+location	Macaiba
+location	Jundia
+location	Extremoz
+location	Luiz Gomes
 location	Paranamirim
 location	São José de Mipibu
+location	Nisia Floresta
 location	Natal
+location	Ares
 
 # Paraiba
 location	Cajazeiras
@@ -9678,12 +9785,15 @@ location	Santana do Mundau
 location	Sao Miguel Dos Campos
 location	Capela (Alagoas)
 location	Uniao Dos Palmares
+location	Roteiro
 location	Murici
 location	Marechal Deodoro
+location	Barra de Sao Miguel
 location	Rio Largo
 location	Flexeiras
 location	Colonia Leopoldina
 location	Maceio
+location	Matriz de Camaragibe
 location	Maragogi
 
 ### Peru
@@ -9859,6 +9969,9 @@ location	Leticia
 location	Puerto Nariño
 location	Tarapacá
 
+# Vaupes
+location	Mitu
+
 # Caqueta
 location	Florencia
 
@@ -9871,6 +9984,9 @@ location	Pasto
 # Cauca
 location	Popayan
 location	Santander de Quilichao
+
+# Guiania
+location	Inirida
 
 # Huila CO
 location	Neiva
@@ -10019,6 +10135,9 @@ location	Barranquilla
 # La Guajira
 location	Riohacha
 location	Maicao
+
+# San Andres y Providencia
+location	San Andres
 
 ################
 
@@ -11434,6 +11553,7 @@ location	Madison CT
 location	Middlesex County CT
 location	Tolland County
 location	New London County
+location	Windham County
 
 # Massachusetts
 location	Hampshire County
@@ -11681,10 +11801,12 @@ division	Jharkhand
 division	Tripura
 division	Manipur
 division	Bihar
+division	Meghalaya
 division	Assam
 division	Rajasthan
 division	Uttar Pradesh
 division	Sikkim
+division	Arunachal Pradesh
 division	Delhi
 division	Haryana
 division	Uttarakhand
@@ -11695,10 +11817,15 @@ division	Jammu and Kashmir
 division	Ladakh
 
 ### Sri Lanka
+division	Matara
+division	Galle
+division	Hambantota
 division	Kalutara
 division	Sabaragamuwa Province
 division	Western Province
+division	Monaragala
 division	Colombo
+division	Nuwara Eliya
 division	Uva Province
 division	Gampaha
 division	Central Province
@@ -11707,23 +11834,26 @@ division	Eastern Province LK
 division	Sri Lanka
 division	North Western Province
 division	North Central Province
+division	Trincomalee
 division	Vavuniya
 division	Mannar
 division	Northern Province
 
 ### Nepal
+division	Sudurpaschim
 division	Rolpa
 division	Kapilvastu
 division	Baglung
+division	Lumbini
 division	Kavre
 division	Nepal
 division	Rautahat
-division	Lalitpur
-division	Kathmandu
-division	Bhaktapur
 division	Central Nepal
+division	Bagmati
 division	Sarlahi
+division	Province 2
 division	Dolakha
+division	Province 1
 
 ### Asia
 division	Asia
@@ -12317,7 +12447,10 @@ division	Sudan
 division	South Sudan
 
 ### Zimbabwe
+division	Masvingo
 division	Zimbabwe
+division	Harare
+division	Mashonaland Central
 
 ### Rwanda
 division	Rwanda
@@ -12500,6 +12633,7 @@ division	England
 division	Andorra
 
 ### France
+division	Wallis and Futuna
 division	Martinique
 division	French Guiana
 division	Bretagne
@@ -13127,6 +13261,7 @@ division	Kanta-Häme
 division	Helsinki
 division	Uusimaa
 division	Keski-Suomi
+division	Päijät-Häme
 division	Southern Finland
 division	Finland
 
@@ -13444,10 +13579,12 @@ division	Orellana
 
 ### Colombia
 division	Departamento de Amazonas
+division	Vaupes
 division	Putumayo
 division	Caqueta
 division	Narino
 division	Cauca
+division	Guiania
 division	Huila CO
 division	Colombia
 division	Meta
@@ -13466,7 +13603,6 @@ division	Choco
 division	Arauca
 division	Antioquia
 division	Santander
-division	San Andres
 division	Norte de Santander
 division	Cordoba CO
 division	Bolivar
@@ -13580,6 +13716,7 @@ division	Belmopan
 
 ### Antigua and Barbuda
 division	Antigua and Barbuda
+division	Antigua
 
 ### Saint Kitts and Nevis
 division	Saint Kitts and Nevis
