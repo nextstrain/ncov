@@ -150,9 +150,11 @@ From the resulting "Download" window, select "Input for the Augur pipeline" as t
 
 ![GISAID search download window showing "Input for the Augur pipeline" option](images/gisaid-search-download-window.png)
 
-Select the "Download" button and save the resulting file (named like `gisaid_auspice_input_hcov-19_2021_06_01_17.tar`) to the `data/` directory.
+Select the "Download" button and save the resulting file to the `data/` directory with a descriptive name like `gisaid_washington.tar`.
 This tar archive contains compressed metadata and sequences named like `1622567829294.metadata.tsv.xz` and `1622567829294.sequences.fasta.xz`, respectively.
-You can use this tar file as an input for the Nextstrain workflow, as shown below, and let the workflow extract the data for you.
+
+You can use this tar file as an input for the Nextstrain workflow, as shown below.
+The workflow will extract the data for you.
 Create a new configuration file, `builds.yaml`, in the top-level of the `ncov` directory that defines your analysis or "builds".
 
 ```yaml
@@ -161,14 +163,22 @@ inputs:
   - name: washington
     # The workflow will detect and extract the metadata and sequences
     # from GISAID tar archives.
-    metadata: data/gisaid_auspice_input_hcov-19_2021_06_01_17.tar
-    sequences: data/gisaid_auspice_input_hcov-19_2021_06_01_17.tar
+    metadata: data/gisaid_washington.tar
+    sequences: data/gisaid_washington.tar
 ```
 
-Alternately, you can extract these files into the `data/` directory prior to analysis.
+Next, you can move on to the heading below to get contextual data for your region of interest.
+Alternately, you can extract the tar file into the `data/` directory prior to analysis.
 
 ```bash
-tar xvf data/gisaid_auspice_input_hcov-19_2021_06_01_17.tar
+tar xvf data/gisaid_washington.tar
+```
+
+Rename the extracted files to match the descriptive name of the original archive.
+
+```bash
+mv data/1622567829294.metadata.tsv.xz data/gisaid_washington_metadata.tsv.xz
+mv data/1622567829294.sequences.fasta.xz data/gisaid_washington_sequences.fasta.xz
 ```
 
 You can use these extracted files as inputs for the workflow.
@@ -179,8 +189,8 @@ inputs:
   - name: washington
     # The workflow also accepts compressed metadata and sequences
     # from GISAID.
-    metadata: data/1622567829294.metadata.tsv.xz
-    sequences: data/1622567829294.sequences.fasta.xz
+    metadata: data/gisaid_washington_metadata.tsv.xz
+    sequences: data/gisaid_washington_sequences.fasta.xz
 ```
 
 ### Download contextual data for your region of interest
@@ -215,8 +225,8 @@ inputs:
   - name: washington
     # The workflow will detect and extract the metadata and sequences
     # from GISAID tar archives.
-    metadata: data/gisaid_auspice_input_hcov-19_2021_06_01_17.tar
-    sequences: data/gisaid_auspice_input_hcov-19_2021_06_01_17.tar
+    metadata: data/gisaid_washington.tar
+    sequences: data/gisaid_washington.tar
   - name: north-america
     # The workflow will similarly detect and extract metadata and
     # sequences from compressed tar archives.
@@ -238,8 +248,8 @@ inputs:
   - name: washington
     # The workflow will detect and extract the metadata and sequences
     # from GISAID tar archives.
-    metadata: data/gisaid_auspice_input_hcov-19_2021_06_01_17.tar
-    sequences: data/gisaid_auspice_input_hcov-19_2021_06_01_17.tar
+    metadata: data/gisaid_washington.tar
+    sequences: data/gisaid_washington.tar
   - name: north-america
     # The workflow supports uncompressed or compressed input files.
     metadata: data/ncov_north-america.tsv
