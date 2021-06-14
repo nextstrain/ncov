@@ -1276,21 +1276,47 @@ location	Lubango
 location	Libolo
 
 # Luanda
-location	Belas
-location	Sumbe
-location	Talatona
-location	Viana AN
-location	Kilamba Kiaxi
-location	Martires
-location	Calemba
-location	Cacuaco
-location	Alvalade
-location	Maianga
-location	Vila Alice
-location	Cazenga
-location	São Paulo AN
-location	Benguela
+location	Miramar
 location	Povo Grande
+location	Benfica
+location	Dande
+location	Belas
+location	Morro Bento
+location	Samba
+location	Prenda
+location	Catambor
+location	Maianga
+location	Nova Vida
+location	Mutamba
+location	Talatona
+location	Alvalade
+location	Kilamba Kiaxi
+location	Martires Kifangondo
+location	Martires
+location	Kinaxixi
+location	Vila Alice
+location	Calemba
+location	Benguela
+location	Ingombota
+location	São Paulo AN
+location	Ambriz
+location	Camama
+location	Rangel
+location	Calemba 2
+location	Sambizanga
+location	Capolo 2
+location	Cazenga
+location	Sumbe
+location	Viana AN
+location	Cacuaco
+location	Icolo E Bengo
+location	Quicama
+location	Ndalatando
+location	Quibala
+location	Lucala
+location	Cazengo
+location	Bolongongo
+location	Saurimo
 
 ### Botswana
 # Southern District
@@ -1419,6 +1445,10 @@ location	uThukela
 location	uMzinyathi
 location	Zululand
 location	Amajuba
+
+### Zimbabwe
+# Mashonaland Central
+location	Bindura
 
 ### Egypt
 # Cairo
@@ -1670,6 +1700,7 @@ location	Herrera del Duque
 
 # Asturias
 location	Tapia de Casariego
+location	Cangas del Narcea
 location	Tineo
 location	Salas
 location	Somiedo
@@ -1679,6 +1710,7 @@ location	Quiros
 location	Candamo
 location	Ribera de Arriba
 location	Oviedo
+location	Pola de Lena
 location	Llanera
 location	Lugones
 location	Mieres
@@ -1763,6 +1795,7 @@ location	Otura
 location	Maracena
 location	Peligros
 location	Armilla
+location	Padul
 location	Ogijares
 location	Pulianas
 location	Granada ES
@@ -1776,15 +1809,18 @@ location	Cajar
 location	Huetor Vega
 location	Durcal
 location	Alfacar
+location	Monachil
 location	Motril
 location	Iznalloz
 location	Huetor Santillan
 location	Beas De Granada
 location	Lanjaron
+location	Huelma
 location	Orgiva
 location	Ubeda
 location	Jodar
 location	Navas de San Juan
+location	Darro
 location	La Peza
 location	Huelago
 location	Cortes y Graena
@@ -1801,6 +1837,7 @@ location	Guadix
 location	Alicun de Ortega
 location	Retamar
 location	Aldeire
+location	Valle del Zalabi
 location	La Calahorra
 location	Ugijar
 location	Adra
@@ -1808,10 +1845,12 @@ location	Pozo Alcon
 location	Cuevas Del Campo
 location	Zujar
 location	Finana
+location	El Ejido
 location	Castril
 location	Abla
 location	Santa Maria del Aguila
 location	Baza
+location	Cortes de Baza
 location	Cortijos Nuevos
 location	Benamaurel
 location	Illar
@@ -1838,6 +1877,7 @@ location	Carboneras
 location	Garrucha
 
 # Castilla y Leon
+location	San Isidro
 location	Santa Lucia
 location	Villablino
 location	Brazuelo
@@ -1854,6 +1894,7 @@ location	Antonan del Valle
 location	Zamora ES
 location	Estebanez de la Calzada
 location	Palacios de la Valduerna
+location	Jimenez de Jamuz
 location	San Cristobal de la Polantera
 location	Villarejo de Orbigo
 location	La Baneza
@@ -1864,8 +1905,10 @@ location	Soto De La Vega
 location	Villamor de Orbigo
 location	San Pedro de Pegas
 location	Castrillo de San Pelayo
+location	Armellada
 location	Villanueva De Jamuz
 location	Sardonedo
+location	San Roman de los Caballeros
 location	Alija Del Infantado
 location	Carrizo De La Ribera
 location	Moscas Del Paramo
@@ -1875,9 +1918,11 @@ location	Montejos del Camino
 location	La Pola De Gordon
 location	Salamanca
 location	Laguna De Negrillos
+location	Ferral del Bernesga
 location	La Virgen del Camino
 location	Quintana de Raneros
 location	La Robla
+location	Azadinos
 location	Valdevimbre
 location	San Andres del Rabanedo
 location	Trobajo del Camino
@@ -1892,14 +1937,17 @@ location	Cabreros Del Rio
 location	Villarrodrigo De Las Regueras
 location	Garrafe de Torio
 location	Valencia de Don Juan
+location	Gigosos de los Oteros
 location	Villaturiel
 location	Rebollar De Los Oteros
 location	Mansilla Mayor
 location	Vegaquemada
+location	Puebla de Lillo
 location	Villamunio
 location	Joarilla De Las Matas
 location	Gordaliza Del Pino
 location	Cistierna
+location	Villamol
 location	Sahagun
 location	Valladolid
 location	Avila
@@ -2037,6 +2085,7 @@ location	Cueto
 location	Galapagar
 location	Majadahonda
 location	Mostoles
+location	Pozuelo de Alarcon
 location	Fuenlabrada
 location	Soto del Real
 location	Parla
@@ -2452,6 +2501,7 @@ location	Algerri
 location	Bossòst
 location	Alcoletge
 location	Les
+location	Tartareu
 location	La Clua
 location	Vilanova de la Barca
 location	Els Alamus
@@ -2466,6 +2516,7 @@ location	Vallfogona de Balaguer
 location	Bellvis
 location	Juneda
 location	Les Borges Blanques
+location	Camarasa
 location	Miralcamp
 location	Tremp
 location	Mollerussa
@@ -2761,6 +2812,7 @@ location	Castell-Platja D'Aro
 location	Platja D'Aro
 location	Castello D'Empuries
 location	Bellcaire d'Emporda
+location	Torroella de Montgri
 location	Empuriabrava
 location	Palamos
 location	Mont-Ras
@@ -10415,6 +10467,7 @@ location	La Union CR
 location	El Tejar
 location	Occidental
 location	Cartago CR
+location	El Guarco
 location	Aguacaliente
 location	San Rafael Cartago
 location	Llanos de Santa Lucia
@@ -12351,6 +12404,7 @@ division	Garoua
 
 ### Republic of the Congo
 division	Brazzaville
+division	Republic of the Congo
 
 ### Namibia
 division	Kunene
@@ -13716,7 +13770,6 @@ division	Belmopan
 
 ### Antigua and Barbuda
 division	Antigua and Barbuda
-division	Antigua
 
 ### Saint Kitts and Nevis
 division	Saint Kitts and Nevis
