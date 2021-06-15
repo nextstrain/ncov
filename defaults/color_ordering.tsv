@@ -1269,6 +1269,12 @@ location	Bata
 location	Nsork
 
 ### Angola
+# Cunene
+location	Cuanhama
+
+# Namibe
+location	Mocamedes
+
 # Huila AO
 location	Lubango
 
@@ -1276,7 +1282,6 @@ location	Lubango
 location	Libolo
 
 # Luanda
-location	Miramar
 location	Povo Grande
 location	Benfica
 location	Dande
@@ -1291,10 +1296,10 @@ location	Mutamba
 location	Talatona
 location	Alvalade
 location	Kilamba Kiaxi
-location	Martires Kifangondo
 location	Martires
 location	Kinaxixi
 location	Vila Alice
+location	Miramar AN
 location	Calemba
 location	Benguela
 location	Ingombota
@@ -1877,7 +1882,6 @@ location	Carboneras
 location	Garrucha
 
 # Castilla y Leon
-location	San Isidro
 location	Santa Lucia
 location	Villablino
 location	Brazuelo
@@ -1919,6 +1923,7 @@ location	La Pola De Gordon
 location	Salamanca
 location	Laguna De Negrillos
 location	Ferral del Bernesga
+location	San Isidro ES
 location	La Virgen del Camino
 location	Quintana de Raneros
 location	La Robla
@@ -12423,6 +12428,8 @@ division	Omaheke
 division	Zambezi
 
 ### Angola
+division	Cunene
+division	Namibe
 division	Huila AO
 division	Cuanza Sul
 division	Luanda
