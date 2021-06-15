@@ -1163,12 +1163,17 @@ def ask_geocoder(full_unknown_place, geolocator):
 def find_place(geo_level, place, full_place, geolocator):
     typed_place = full_place
     redo = True
+    tries = 0
     while redo == True:
-
-        try:
-            new_place = ask_geocoder(typed_place, geolocator)
-        except:
-            continue
+        if tries < 5:
+            try:
+                new_place = ask_geocoder(typed_place, geolocator)
+            except:
+                tries += 1
+                continue
+        else:
+            new_place = None
+            tries = 0
 
         if str(new_place) == 'None':
             print("\nCurrent place for missing {}:\t".format(geo_level) + full_place)
