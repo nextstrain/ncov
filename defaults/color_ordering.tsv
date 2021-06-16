@@ -507,6 +507,7 @@ location	Raisen
 # Mizoram
 location	Lunglei
 location	Serchhip
+location	Champhai
 location	Aizawl
 location	Kolasib
 
@@ -552,6 +553,7 @@ location	Munger
 
 # Assam
 location	Dhubri
+location	Kokrajhar
 location	Goalpara
 location	Nalbari
 location	Kamrup
@@ -1329,6 +1331,7 @@ location	Mmathethe
 location	Jwaneng
 
 # Central District BW
+location	Serowe
 location	Palapye
 
 # North-East District
@@ -3053,7 +3056,7 @@ location	Craon
 location	Bourges
 location	Saint-Doulchard
 location	Mehun sur Yevre
-location	Chambrey Les Tours
+location	Chambray Les Tours
 location	Joue-Les-Tours
 location	Romorantin
 location	Fondettes
@@ -5490,6 +5493,7 @@ location	Campomarino
 # Campania
 location	Caserta
 location	Naples
+location	Massa di Somma
 location	Benevento
 location	Salerno
 
@@ -6080,6 +6084,7 @@ location	Swierzno
 location	Lipiany
 location	Grzedzice
 location	Golczewo
+location	Barnim
 location	Stuchowo
 location	Stargard
 location	Witkowo Drugie
@@ -6626,6 +6631,7 @@ location	Lodygowice
 location	Kozy
 location	Pisarzowice
 location	Wilamowice
+location	Dabrowa Gornicza
 location	Kobiernice
 location	Żywiec
 location	Swinna
@@ -7772,6 +7778,7 @@ location	Kipen
 location	Gatchina
 location	Pikkolovo
 location	Sertolovo
+location	Kudrovo
 location	Fedorovskoe
 location	Yanino-1
 location	Vsevolozhsk
@@ -7784,6 +7791,7 @@ location	Volkhov
 location	Smolensk
 
 # Novgorod
+location	Skirino
 location	Grigorovo
 location	Veliky Novgorod
 location	Chudovo
@@ -8171,7 +8179,7 @@ location	Larroude
 # Mendoza
 location	Malargue
 location	General Alvear
-location	San Rafael
+location	San Rafael AR
 location	Rivadavia
 location	Guaymallen
 location	Lujan de Cuyo
@@ -8481,10 +8489,12 @@ location	Cunco
 location	Saavedra
 location	Padre las Casas
 location	Temuco
+location	Carahue
 location	Vilcun
 location	Cholchol
 location	Lautaro
 location	Perquenco
+location	Galvarino
 location	Collipulli
 location	Angol
 location	Renaico
@@ -8497,6 +8507,7 @@ location	San Pedro de la Paz
 location	Hualpen
 location	Concepcion CL
 location	Chiguayante
+location	Santa Juana
 location	Hualqui
 location	Cabrero
 location	Los Angeles
@@ -8510,12 +8521,17 @@ location	Treguaco
 location	Quillon
 location	Ninhue
 location	Bulnes
+location	Chillan Viejo
 location	Chillan
 location	San Carlos CL
+location	Niquen
+location	San Ignacio
+location	Coihueco
 
 # Maule
 location	Constitucion
 location	Curepto
+location	Licanten
 location	Pencahue
 location	Retiro CL
 location	Villa Alegre
@@ -8523,12 +8539,14 @@ location	San Javier
 location	Maule
 location	Talca
 location	Linares
+location	San Rafael CL
 location	San Clemente CL
 location	Colbun
 location	Sagrada Familia
 location	Molina
 location	Curico
 location	Teno
+location	Rio Claro
 
 # O'Higgins
 location	Pichilemu
@@ -8595,6 +8613,7 @@ location	San Jose de Maipo
 # Valparaiso
 location	San Antonio CL
 location	Casablanca
+location	Quilpue
 location	Valparaiso CL
 location	Villa Alemana
 location	Vina del Mar
@@ -11410,6 +11429,7 @@ location	Palm Beach County
 location	Miami
 
 # South Carolina
+location	Oconee County
 location	Pickens County SC
 location	Anderson County SC
 location	Abbeville County
@@ -11441,6 +11461,7 @@ location	Kershaw County
 location	Dorchester County
 location	Sumter County SC
 location	Lee County SC
+location	Clarendon County
 location	Chesterfield County SC
 location	Darlington County
 location	Berkeley County
@@ -11449,6 +11470,7 @@ location	Williamsburg County
 location	Marlboro County
 location	Florence County
 location	Marion County SC
+location	Dillon County
 location	Georgetown County
 location	Horry County
 
@@ -11486,6 +11508,7 @@ location	District of Columbia County
 location	Montgomery County MD
 location	Prince George's County
 location	Baltimore
+location	Anne Arundel County
 
 # Delaware
 location	Newark
@@ -11871,6 +11894,7 @@ division	Uttarakhand
 division	Chandigarh
 division	Punjab IN
 division	Himachal Pradesh
+division	Jammu
 division	Jammu and Kashmir
 division	Ladakh
 
