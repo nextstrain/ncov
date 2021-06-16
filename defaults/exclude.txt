@@ -2363,3 +2363,6 @@ France/IDF-HB_112010014593/2020
 France/IDF-HB_112010016977/2020
 Zimbabwe/CERI-KRISP-K011643/2020
 Zimbabwe/CERI-KRISP-K011662/2020
+
+# sample date before clade; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1623865783396900
+USA/SC-DHEC-1826/2020
