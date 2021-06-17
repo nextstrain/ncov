@@ -250,8 +250,15 @@ location	Taldykorgan
 
 ### Pakistan
 # Punjab PK
+location	Layyah
 location	Vehari
+location	Faisalabad
+location	Pakpattan
+location	Okara
+location	Nankana Sahib
+location	Gujrat
 location	Raiwand
+location	Muridke
 
 # Gilgit Baltistan
 location	Gilgit
@@ -717,7 +724,6 @@ location	Khagrachari
 location	Chandpur
 location	Comilla
 location	Kunjachaya
-location	Radhanagar
 location	Brahmanbaria Sadar
 location	Brahmanbaria
 location	Sarail
@@ -783,7 +789,6 @@ location	Ashkona
 location	Savar
 location	Manikganj
 location	Uttara
-location	Tongi
 location	Narsingdi
 location	Dhamrai
 location	Gazipur
@@ -2734,6 +2739,7 @@ location	Santa Maria de Palautordera
 location	Mataro
 location	Les Preses
 location	Campins
+location	Santa Fe de Montseny
 location	Sant Andreu de Llavaneres
 location	Olot
 location	Sant Celoni
@@ -3008,6 +3014,7 @@ location	Hendaye
 location	Biarritz
 location	Anglet
 location	Bayonne
+location	Saint-Vincent-de-Tyrosse
 location	Puilboreau
 location	Dax
 location	Saint-Paul-lès-Dax
@@ -3198,6 +3205,7 @@ location	Tarbes
 location	Hautes-Pyrenees
 location	Gers
 location	Saint-Gaudens
+location	Aubiet
 location	Haute-Garonne
 location	Tarn-Et-Garonne
 location	Muret
@@ -3646,6 +3654,7 @@ location	Marseille
 location	Aix-en-Provence
 location	La Penne-sur-Huveaune
 location	Aubagne
+location	Bouilladisse
 location	Manosque
 location	Sanary-sur-Mer
 location	La Seyne-sur-Mer
@@ -3980,6 +3989,7 @@ location	Ninove
 location	Denderhoutem
 location	Welle
 location	Meerbeke
+location	Erembodegem
 location	Denderleeuw
 location	Moorsel
 location	Baardegem
@@ -8526,6 +8536,7 @@ location	Treguaco
 location	Quillon
 location	Ninhue
 location	Bulnes
+location	San Nicolas
 location	Chillan Viejo
 location	Chillan
 location	San Carlos CL
@@ -8546,6 +8557,7 @@ location	Talca
 location	Linares
 location	San Rafael CL
 location	San Clemente CL
+location	Pelarco
 location	Colbun
 location	Sagrada Familia
 location	Molina
@@ -8559,12 +8571,14 @@ location	Litueche
 location	La Estrella CL
 location	Lolol
 location	Pichidegua
+location	Peumo
 location	Coltauco
 location	San Vicente
 location	San Fernando CL
 location	Donihue
 location	Coinco
 location	Rengo
+location	Requinoa
 location	Rancagua
 location	Graneros
 location	San Francisco de Mostazal
@@ -8633,6 +8647,7 @@ location	Cabildo
 
 # Coquimbo
 location	Ovalle
+location	Vicuna
 location	Coquimbo
 location	La Serena
 
@@ -9027,7 +9042,9 @@ location	Joacaba
 location	Videira
 location	Porto Uniao
 location	Irineopolis
+location	Campo Belo do Sul
 location	Canoinhas
+location	Ponte Alta
 location	Lages
 location	Salete
 location	Taio
@@ -9036,6 +9053,7 @@ location	Sao Joaquim
 location	Itaiopolis
 location	Mafra BR
 location	Trombudo Central
+location	Rio Rufino
 location	Atalanta
 location	Rio do Sul
 location	Aurora
@@ -9048,10 +9066,12 @@ location	Ararangua
 location	Forquilhinha
 location	Balneario Arroio do Silva
 location	Sao Bento do Sul
+location	Criciuma
 location	Icara
 location	Campo Alegre
 location	Morro Da Fumaca
 location	Braco do Norte
+location	Treze de Maio
 location	Santa Rosa de Lima
 location	Rio Fortuna
 location	Jaragua do Sul
@@ -9064,7 +9084,9 @@ location	Capivari de Baixo
 location	Joinville
 location	Nova Trento
 location	Brusque
+location	Sao Joao Batista
 location	Laguna
+location	Canelinha
 location	Araquari
 location	Barra Velha
 location	Balneario Picarras
@@ -9218,10 +9240,12 @@ location	Lins
 location	Sao Pedro do Turvo
 location	Alvaro de Carvalho
 location	Ubarana
+location	Monte Aprazivel
 location	Garca
 location	Tanabi
 location	Santa Cruz do Rio Pardo
 location	Balsamo
+location	Jaci
 location	Galia
 location	Mirassol
 location	Nova Alianca
@@ -9235,6 +9259,7 @@ location	Orindiuva
 location	Cabralia Paulista
 location	Itarare
 location	Nova Granada
+location	Onda Verde
 location	Urupes
 location	Uru
 location	Taquarituba
@@ -9513,7 +9538,7 @@ location	Mariana
 location	Juiz de Fora
 location	Pirauba
 location	Santo Antonio do Aventureiro
-location	Alem do Paraiba
+location	Alem Paraiba
 location	Recreio
 location	Muriae
 location	Iapu
@@ -9570,6 +9595,7 @@ location	Itaborai
 location	Marica (Rio de Janeiro)
 location	Tangua
 location	Sumidouro
+location	Cachoeiras de Macacu
 location	Rio Bonito
 location	Carmo
 location	Nova Friburgo
@@ -9577,6 +9603,7 @@ location	Duas Barras
 location	Saquarema
 location	Bom Jardim
 location	Silva Jardim
+location	Cantagalo
 location	Cordeiro
 location	Araruama
 location	Macuco
@@ -9697,6 +9724,7 @@ location	Rochedo
 
 # Ceará
 location	Arneiroz
+location	Crateus
 location	Fortaleza
 location	Tururu
 
@@ -9788,6 +9816,7 @@ location	Ouro Branco RN
 location	Açu
 location	São Rafael
 location	São José do Seridó
+location	Ipanguacu
 location	Florânia
 location	Jardim do Seridó
 location	Tenente Laurentino Cruz
@@ -10659,6 +10688,7 @@ location	Trinity County CA
 location	Sonoma County
 location	Lake County CA
 location	Marin County
+location	Siskiyou County
 location	San Francisco
 location	San Francisco County
 location	Redding
@@ -10712,7 +10742,6 @@ location	Riverside
 # Nevada
 location	Las Vegas
 location	Clark County NV
-location	Mineral County
 location	Mineral County NV
 location	Douglas County NV
 location	Lyon County
@@ -10755,10 +10784,12 @@ location	Coconino County
 location	Benton County
 
 # Montana
+location	Mineral County MT
 location	Lake County MT
 location	Ravalli County
 location	Flathead County
 location	Missoula County
+location	Beaverhead County
 location	Lewis and Clark County
 location	Teton County
 location	Jefferson County MT
@@ -10768,6 +10799,7 @@ location	Cascade County
 location	Big Sky
 location	Gallatin County MT
 location	West Yellowstone
+location	Liberty County MT
 location	Bozeman
 location	Chouteau County
 location	Sweet Grass County
@@ -11777,6 +11809,7 @@ division	Maku
 division	Urmia
 division	Abadan
 division	Hamedan
+division	Ahvaz
 division	Gilan
 division	Arak
 division	Qazvin
@@ -13639,6 +13672,7 @@ division	Cajamarca
 division	Amazonas PE
 division	Loreto
 division	Piura
+division	Tumbes
 
 ### Ecuador
 division	Galapagos
