@@ -101,7 +101,7 @@ traits:
     columns: ["division"]
 
 files:
-  description: "nextstrain_profiles/nextstrain-gisaid/nextstrain_description.md"
+  description: "nextstrain_profiles/nextstrain-open/nextstrain_description.md"
 
 # Deploy and Slack options are related to Nextstrain live builds and don't need to be modified for local builds
 deploy_url: s3://nextstrain-staging
