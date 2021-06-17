@@ -2366,3 +2366,20 @@ Zimbabwe/CERI-KRISP-K011662/2020
 
 # sample date before clade; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1623865783396900
 USA/SC-DHEC-1826/2020
+
+# s1 muts; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1623806802393700
+India/MH-NCCS-AFMC-48121/2021
+
+# misdated; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1623957828406800
+Canada/BC-BCCDC-10959/2020
+Canada/BC-BCCDC-11421/2020
+Canada/BC-BCCDC-11422/2020
+Canada/BC-BCCDC-11602/2020
+Canada/BC-BCCDC-12035/2020
+Canada/BC-BCCDC-12786/2020
+Canada/BC-BCCDC-12881/2020
+Canada/BC-BCCDC-13443/2020
+Canada/BC-BCCDC-13444/2020
+Canada/BC-BCCDC-13632/2020
+Canada/BC-BCCDC-14740/2020
+Canada/BC-BCCDC-9093/2020
