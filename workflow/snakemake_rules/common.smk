@@ -164,9 +164,6 @@ def _get_upload_inputs(wildcards):
     # mapping of remote → local filenames
     uploads = {
         f"aligned.fasta.xz":              f"results/aligned_{origin}.fasta.xz",              # from `rule align`
-        f"sequence-diagnostics.tsv.xz":   f"results/sequence-diagnostics_{origin}.tsv.xz",   # from `rule diagnostic`
-        f"flagged-sequences.tsv.xz":      f"results/flagged-sequences_{origin}.tsv.xz",      # from `rule diagnostic`
-        f"to-exclude.txt.xz":             f"results/to-exclude_{origin}.txt.xz",             # from `rule diagnostic`
         f"masked.fasta.xz":               f"results/masked_{origin}.fasta.xz",               # from `rule mask`
         f"filtered.fasta.xz":             f"results/filtered_{origin}.fasta.xz",             # from `rule filter`
         f"mutation-summary.tsv.xz":       f"results/mutation_summary_{origin}.tsv.xz",       # from `rule mutation_summary`
@@ -174,8 +171,13 @@ def _get_upload_inputs(wildcards):
 
     for build_name in config["builds"]:
         uploads.update({
-            f"{build_name}/sequences.fasta.xz": f"results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
-            f"{build_name}/metadata.tsv.xz":    f"results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+            f"{build_name}/sequences.fasta.xz": f"results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",   # from `rule combine_samples`
+            f"{build_name}/metadata.tsv.xz":    f"results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",      # from `rule combine_samples`
+            f"{build_name}/aligned.fasta.xz":   f"results/{build_name}/aligned.fasta.xz",                             # from `rule build_align`
+            # export the auspice dataset which matches the subsampled sequences / metadata (see `rule finalize`)
+            f"{build_name}/{build_name}.json":                  f"auspice/{config['auspice_json_prefix']}_{build_name}.json",
+            f"{build_name}/{build_name}_tip-frequencies.json":  f"auspice/{config['auspice_json_prefix']}_{build_name}_tip-frequencies.json",
+            f"{build_name}/{build_name}_root-sequence.json":    f"auspice/{config['auspice_json_prefix']}_{build_name}_root-sequence.json"
         })
 
     return uploads

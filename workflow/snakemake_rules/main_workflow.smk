@@ -581,6 +581,24 @@ rule build_align:
             --output-insertions {output.insertions} > {log} 2>&1
         """
 
+rule compress_build_align:
+    message:
+        """Compressing {input.alignment}"""
+    input:
+        alignment = "results/{build_name}/aligned.fasta"
+    output:
+        alignment = "results/{build_name}/aligned.fasta.xz"
+    benchmark:
+        "benchmarks/compress_build_align_{build_name}.txt"
+    conda:
+        config["conda_environment"]
+    log:
+        "logs/compress_build_align_{build_name}.txt"
+    shell:
+        """
+        xz -c {input} > {output} 2> {log}
+        """
+
 if "run_pangolin" in config and config["run_pangolin"]:
     rule run_pangolin:
         message:
