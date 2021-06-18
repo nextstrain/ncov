@@ -53,7 +53,7 @@ Setting default environment to native.
 ```
 
 <p style="color: #212529; background-color: #ffc107; border-color: #b6effb; padding: 1em; border-radius: .25rem;">
-If the final output from the last command is `Setting default environment to docker.`, close Docker and run the last command again.
+If the final output from the last command is <code>Setting default environment to docker.</code>, close Docker and run the last command again.
 The Nextstrain CLI will prefer the Docker environment when it is available, but this tutorial assumes you are running commands in the native environment.
 </p>
 
