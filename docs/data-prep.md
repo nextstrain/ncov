@@ -289,6 +289,10 @@ Find the "Download packages" section and select the "FASTA" button.
 Agree to the terms and conditions and download the corresponding file (named like `sequences_fasta_2021_06_01.tar.xz`) to the `data/` directory.
 Next, select the "metadata" button from that same "Download packages" section and download the corresponding file (named like `metadata_tsv_2021_06_01.tar.xz`) to the `data/` directory.
 
+<p style="color: #212529; background-color: #ffc107; border-color: #b6effb; padding: 1em; border-radius: .25rem;">
+If "FASTA" or "metadata" options do not appear in the "Download packages" window, use the "Contact" link in the top-right of the GISAID website to request access to these files.
+</p>
+
 [We use these data in our official Nextstrain builds](https://github.com/nextstrain/ncov-ingest).
 If you have sufficient computing resources, you can use these files as `inputs` for the workflow in a `builds.yaml` like the one described above.
 However, the workflow starts by aligning all input sequences to a reference and this alignment can take hours to complete even with multiple cores.
