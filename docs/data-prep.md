@@ -12,7 +12,7 @@
 
 <p style="color: #055160; background-color: #cff4fc; border-color: #b6effb; padding: 1em; border-radius: .25rem;">
 We've prepared an example dataset in the `data` directory.
-If you'd like to move ahead with this tutorial with this example dataset, <a href="orientation-workflow.md">skip to the next section</a>.
+If you'd like to move ahead with this tutorial with this example dataset, <a href="orientation-workflow.html">skip to the next section</a>.
 If you'd like to prepare your own data, read on.
 </p>
 

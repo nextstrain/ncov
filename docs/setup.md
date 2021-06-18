@@ -18,8 +18,8 @@ The following instructions use [Conda](https://docs.conda.io/en/latest/) to inst
 Conda is a package and environment management system that allows you to install Python and other software into controlled environments without disrupting other software you have installed (e.g., on your computer, your shared cluster, etc.).
 
 <p style="color: #055160; background-color: #cff4fc; border-color: #b6effb; padding: 1em; border-radius: .25rem;">
-If you use Microsoft Windows, [install the Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-Follow [instructions to open a new WSL window for your Linux distribution](https://docs.microsoft.com/en-us/windows/wsl/wsl-config) and then run the following commands.
+If you use Microsoft Windows, <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">install the Windows Subsystem for Linux (WSL)</a>.
+Follow <a href="https://docs.microsoft.com/en-us/windows/wsl/wsl-config">instructions to open a new WSL window for your Linux distribution</a> and then run the following commands.
 </p>
 
 ### Create the Nextstrain environment
