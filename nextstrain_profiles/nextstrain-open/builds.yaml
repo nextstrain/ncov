@@ -103,6 +103,11 @@ traits:
 files:
   description: "nextstrain_profiles/nextstrain-open/nextstrain_description.md"
 
+# GenBank data includes "Wuhan-Hu-1/2019" which we use as the root for this build
+# as Wuhan/Hu-1/2019 is not in the data.
+refine:
+  root: "Wuhan-Hu-1/2019"
+
 # Deploy and Slack options are related to Nextstrain live builds and don't need to be modified for local builds
 deploy_url: s3://nextstrain-staging
 slack_token: ~
