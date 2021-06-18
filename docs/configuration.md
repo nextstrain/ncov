@@ -227,7 +227,7 @@ Builds support any named attributes that can be referenced by subsampling scheme
 ### min_date
 * type: float or string
 * description: Earliest date to estimate frequencies for. Dates can be numeric floating point values (e.g., `2019.74`) or ISO 8601-style strings (e.g., `2019-10-01`).
-* default: `2020.0`
+* default: without value supplied, defaults to 1 year before present
 
 ### pivot_interval
 * type: integer

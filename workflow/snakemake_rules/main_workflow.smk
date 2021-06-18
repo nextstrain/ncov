@@ -1063,7 +1063,7 @@ rule tip_frequencies:
     benchmark:
         "benchmarks/tip_frequencies_{build_name}.txt"
     params:
-        min_date = config["frequencies"]["min_date"],
+        min_date = _get_min_date_for_frequencies,
         max_date = _get_max_date_for_frequencies,
         pivot_interval = config["frequencies"]["pivot_interval"],
         pivot_interval_units = config["frequencies"]["pivot_interval_units"],

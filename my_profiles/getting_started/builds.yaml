@@ -30,3 +30,7 @@ builds:
 files:
   auspice_config: "my_profiles/example/my_auspice_config.json"
   description: "my_profiles/example/my_description.md"
+
+frequencies:
+  min_date: 2020-01-01
+  max_date: 2020-05-15
