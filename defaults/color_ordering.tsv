@@ -259,6 +259,7 @@ location	Nankana Sahib
 location	Gujrat
 location	Raiwand
 location	Muridke
+location	Lahore
 
 # Gilgit Baltistan
 location	Gilgit
@@ -313,7 +314,11 @@ location	Chengalpattu
 location	Chennai
 
 # Andaman and Nicobar Islands
+location	South Andaman
 location	North and Middle Andaman
+
+# Goa
+location	North Goa
 
 # Karnataka
 location	Udupi
@@ -379,6 +384,7 @@ location	Mumbai Suburban
 location	Thane
 location	Navimumbai
 location	Raigad
+location	Badlapur
 location	Ratnagiri
 location	Sindhudurg
 location	Nashik
@@ -398,8 +404,11 @@ location	Nanded
 location	Amravati
 location	Yavatmal
 location	Wardha
+location	Sevagram
 location	Nagpur
 location	Chandrapur
+location	Bhandara
+location	Gadchiroli
 
 # Odisha
 location	Ganjam
@@ -510,6 +519,7 @@ location	Burhanpur
 location	Dungari
 location	Shajapur
 location	Raisen
+location	Jabalpur
 
 # Mizoram
 location	Lunglei
@@ -539,13 +549,18 @@ location	Malda
 location	Dakshin Dinajpur
 location	Uttar Dinajpur
 location	Cooch Behar
+location	Alipurduar
 location	Jalpaiguri
+location	Kalimpong
 location	Darjeeling
 
 # Jharkhand
-location	East Singhbhum
 location	Ranchi
+location	Bokaro
+location	East Singhbhum
+location	Dhanbad
 location	Sahibganj
+location	Pakur
 
 # Tripura
 location	West Tripura
@@ -556,7 +571,16 @@ location	North Tripura
 location	Imphal West
 
 # Bihar
+location	Nalanda
 location	Munger
+
+# Meghalaya
+location	West Khasi Hills
+location	South West Khasi Hills
+location	East Khasi Hills
+location	Ri-Bhoi
+location	West Jaintia Hills
+location	East Jaintia Hills
 
 # Assam
 location	Dhubri
@@ -628,8 +652,10 @@ location	Rudraprayag
 location	Chamoli
 
 # Punjab IN
-location	Mohali
+location	Jalandhar
+location	Patiala
 location	Rupnagar
+location	Mohali
 
 # Himachal Pradesh
 location	Kasauli
@@ -2351,149 +2377,149 @@ location	Fraga
 location	Tamarite de Litera
 
 # Comunitat Valenciana
-location	Almenara
 location	Chilches
-location	Torrevieja
-location	Santa Pola
-location	Elche
-location	Elx
-location	Aspe
-location	Alicante
-location	La Romana
-location	Novelda
+location	Utiel
+location	Requena
 location	Pinoso
+location	La Romana
+location	Villena
 location	Monovar
+location	Sax ES
 location	Elda
 location	Petrer
-location	Villajoyosa
-location	Benidorm
-location	Sax ES
-location	Alfas del Pi
-location	Altea
-location	La Nucia
-location	Polop
-location	Villena
-location	Callosa de Sarria
-location	Guadalest
-location	Tarbena
-location	Denia
-location	Olleria
-location	Oliva
-location	Palma de Gandia
-location	Piles
-location	Llutxent
-location	Beniganim
+location	Aspe
+location	Novelda
+location	Elche
+location	Elx
+location	Torrevieja
 location	Montesa
-location	Miramar ES
-location	Benirredra
-location	Canals
-location	Gandia
-location	Xativa
-location	Llosa de Ranes
-location	Xeraco
-location	Simat de la Valldigna
-location	Tavernes de la Valldigna
-location	Antella
-location	La Pobla Llarga
-location	Alberic
-location	Carcaixent
-location	Favara
-location	Massalaves
-location	Alzira
-location	Corbera
-location	Cullera
-location	Guadassuar
-location	Algemesi
-location	El Dosel
-location	l'Alcudia
-location	Albalat De La Ribera
-location	Sueca
-location	Carlet
-location	Alginet
-location	Sollana
-location	Llombai
-location	Benifaio
-location	Almussafes
-location	El Perellonet
 location	Real de Montroy
 location	Montserrat
-location	Silla
+location	Antella
+location	Canals
+location	Llombai
+location	Santa Pola
+location	La Pobla de Vallbona
+location	Olleria
+location	Llosa de Ranes
+location	L’Eliana
+location	Massalaves
+location	Carlet
+location	Alberic
+location	Xativa
+location	l'Alcudia
+location	Segorbe
+location	Alicante
+location	La Pobla Llarga
+location	Guadassuar
+location	Alginet
+location	Torrent
 location	Picassent
+location	Alaquas
+location	Carcaixent
 location	Alcasser
+location	Beniganim
+location	Quart de Poblet
+location	Paterna
+location	Picanya
+location	Algemesi
+location	Alzira
+location	Soneja
+location	Xirivella
+location	Benifaio
+location	Valencia Horta
+location	Paiporta
+location	Mislata
+location	Almussafes
 location	Albal
+location	Silla
+location	Burjassot
+location	Godella
 location	Catarroja
 location	Massanassa
-location	Alfafar
 location	Benetusser
+location	Moncada
+location	Alfafar
+location	Albalat De La Ribera
 location	Sedavi
-location	Paiporta
-location	Castellar-oliveral
-location	Picanya
-location	Torrent
-location	Alaquas
-location	Xirivella
-location	Valencia Horta
+location	Sollana
 location	Valencia ES
-location	Mislata
-location	Quart de Poblet
-location	Requena
+location	Vinalesa
+location	Bonrepos i Mirambell
+location	Castellar-oliveral
+location	Tavernes Blanques
+location	Museros
+location	Almassera
+location	Foios
+location	Llutxent
+location	Corbera
 location	Alboraya
 location	Alboraia
-location	Paterna
-location	Tavernes Blanques
-location	Burjassot
-location	Almassera
-location	Bonrepos i Mirambell
-location	Godella
 location	Meliana
-location	Vinalesa
-location	Foios
 location	Albalat dels Sorells
-location	Albuixech
-location	Moncada
-location	Massalfassar
-location	L’Eliana
-location	Utiel
-location	Massamagrell
-location	Museros
-location	La Pobla De Farnals
 location	Rafelbunyol
-location	La Pobla de Vallbona
-location	El Puig
-location	Puzol
-location	Grau de Sagunt
 location	Gilet
-location	Sagunt
-location	Canet d'en Berenguer
-location	Soneja
-location	Vall d'Uixo
-location	Alfondeguilla
-location	Segorbe
-location	Nules
-location	Burriana
-location	Betxi
-location	Vilareal
-location	Almassora
-location	Onda
-location	Castello de la Plana
-location	Castellon de la Plana
-location	Borriol
-location	Benicassim
-location	Sant Joan de Moro
-location	l'Alcora
-location	L’alcora
-location	Oropesa
-location	La Pobla Tornesa
-location	Vilafames
+location	Massamagrell
+location	La Pobla De Farnals
+location	Massalfassar
+location	Albuixech
+location	Sueca
+location	Simat de la Valldigna
+location	El Puig
+location	El Perellonet
+location	Favara
 location	Lucena del Cid
 location	Llucena
-location	Cabanes
+location	Sagunt
+location	Alfondeguilla
+location	Tavernes de la Valldigna
+location	Onda
+location	Cullera
+location	Grau de Sagunt
+location	Vall d'Uixo
+location	Villajoyosa
+location	El Dosel
+location	Almenara ES
+location	Palma de Gandia
+location	Canet d'en Berenguer
+location	Xeraco
+location	l'Alcora
+location	L’alcora
+location	Guadalest
+location	Betxi
+location	Vilareal
+location	Benirredra
+location	Gandia
 location	Les Useres
-location	Vall d'Alba
-location	Benlloc
-location	Torreblanca
+location	Nules
+location	Miramar ES
+location	Sant Joan de Moro
+location	Piles
+location	Alfas del Pi
+location	Benidorm
+location	Polop
+location	La Nucia
+location	Callosa de Sarria
+location	Oliva
+location	Tarbena
+location	Burriana
+location	Borriol
+location	Almassora
 location	Castellón
+location	Vilafames
+location	Altea
+location	Castello de la Plana
+location	Castellon de la Plana
+location	Vall d'Alba
+location	La Pobla Tornesa
 location	Albocasser
+location	Benlloc
+location	Cabanes
+location	Benicassim
+location	Denia
+location	Oropesa
+location	Torreblanca
+location	Puzol
 
 # Catalunya
 location	La Granja d’Escarp
@@ -4180,6 +4206,7 @@ location	Oetingen
 location	Liedekerke
 location	Roosdaal
 location	Affligem
+location	Bogaarden
 location	Borchtlombeek
 location	Sint-Katherina-Lombeek
 location	Lennik
@@ -5864,6 +5891,7 @@ location	Sulejovice
 location	Usti nad Labem
 location	Libochovice
 location	Litomerice
+location	Staňkovice
 location	Děčín
 location	Račice
 
@@ -5972,7 +6000,13 @@ location	Rychnov nad Kněžnou
 
 # South Moravian Region
 location	Znojmo
+location	Vémyslice
+location	Hrušovany nad Jevišovkou
+location	Tišnov
+location	Hrušovany U Brna
 location	Brno
+location	Blansko
+location	Slavkov U Brna
 location	Breclav
 location	Hodonín
 location	Ratíškovice
@@ -5986,6 +6020,7 @@ location	Písařov
 
 # Zlín Region
 location	Buchlovice
+location	Kroměříž
 location	Hluk
 location	Uhersky Brod
 location	Fryšták
@@ -8900,7 +8935,7 @@ location	Condor
 location	Tapejara
 location	Girua
 location	Sertao
-location	Sarandi
+location	Sarandi RS
 location	Porto Xavier
 location	Santa Rosa BR
 location	Tiradentes
@@ -8976,6 +9011,7 @@ location	Barbosa Ferraz
 location	Itambe PR
 location	Fenix
 location	Maringa
+location	Sarandi PR
 location	Sao Joao do Ivai
 location	Pitanga
 location	Mandaguari
@@ -8983,6 +9019,7 @@ location	Ivaipora
 location	Astorga BR
 location	Pinhao
 location	Borrazopolis
+location	Bituruna
 location	Guarapuava
 location	Apucarana
 location	Arapongas
@@ -9507,18 +9544,23 @@ location	Araxa
 location	Unai
 location	Paracatu
 location	Pocos de Caldas
+location	Patos de Minas
 location	Ibitiura de Minas
 location	Rio Paranaiba
+location	Joao Pinheiro
 location	Camanducaia
 location	Alfenas
 location	Guape
 location	Itajuba
 location	Varginha
 location	Formiga
+location	Santo Antonio do Monte
 location	Bom Despacho
 location	Tres Marias
 location	Nova Serrana
 location	Divinopolis
+location	Itauna
+location	Piracema
 location	Januaria
 location	Esmeraldas BR
 location	Sete Lagoas
@@ -9532,9 +9574,12 @@ location	Sabara
 location	Barbacena
 location	Ouro Branco MG
 location	Jaiba
+location	Diamantina
 location	Desterro do Melo
 location	Barao de Cocais
+location	Conceicao do Mato Dentro
 location	Mariana
+location	Alvorada de Minas
 location	Juiz de Fora
 location	Pirauba
 location	Santo Antonio do Aventureiro
@@ -9546,6 +9591,9 @@ location	Caratinga
 location	Aracuai
 location	Manhuacu
 location	Governador Valadares
+location	Itaobim
+location	Almenara BR
+location	Jordania
 
 # Rio de Janeiro
 location	Parati
@@ -9677,7 +9725,9 @@ location	Amargosa
 location	Salvador
 location	Santo Antonio de Jesus
 location	Camacari
+location	Cruz Das Almas
 location	Candeias
+location	Santo Amaro
 location	Sao Sebastiao do Passe
 location	Pojuca
 location	Feira de Santana
@@ -9900,6 +9950,7 @@ location	Murici
 location	Marechal Deodoro
 location	Barra de Sao Miguel
 location	Rio Largo
+location	Santa Luzia do Norte
 location	Flexeiras
 location	Colonia Leopoldina
 location	Maceio
@@ -11880,7 +11931,6 @@ division	Guranwala
 division	Multan
 division	Punjab PK
 division	Kasur
-division	Lahore
 division	Sheikhupura
 division	Sargodha
 division	Rawalpindi
@@ -12121,6 +12171,7 @@ division	West Java
 division	West Kalimantan
 division	Yogyakarta
 division	Central Java
+division	Salatiga
 division	East Java
 division	Center Kalimantan
 division	Indonesia
@@ -13754,9 +13805,6 @@ division	Nueva Esparta
 ### Trinidad and Tobago
 division	Trinidad and Tobago
 
-### Grenada
-division	Grenada
-
 ### Bonaire
 division	Bonaire
 
@@ -13796,6 +13844,9 @@ division	San Jose
 division	Costa Rica
 division	Cartago CR
 division	Limon
+
+### Grenada
+division	Grenada
 
 ### Nicaragua
 division	Nicaragua
@@ -14156,7 +14207,6 @@ country	Suriname
 country	Guyana
 country	Venezuela
 country	Trinidad and Tobago
-country	Grenada
 country	Bonaire
 country	Curacao
 country	Aruba
@@ -14164,6 +14214,7 @@ country	Aruba
 # North America
 country	Panama
 country	Costa Rica
+country	Grenada
 country	Nicaragua
 country	Saint Vincent and the Grenadines
 country	Barbados

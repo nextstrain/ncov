@@ -91,3 +91,4 @@ A quarantined Traveller from XXX
 Traveler-XXX
 Travel History - XXX
 Port of embarkation XXX
+Imported case (Incoming passenger) - Port of embarkation XXX
