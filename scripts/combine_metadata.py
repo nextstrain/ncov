@@ -35,12 +35,6 @@ def parse_args():
 
 if __name__ == '__main__':
     args = parse_args()
-    try:
-        assert(len(args.metadata)==len(args.origins))
-        assert(len(args.origins)>1)
-    except AssertionError:
-        print("Error. Please check your inputs - there must be the same number of metadata files as origins provided, and there must be more than one of each!")
-        sys.exit(2)
 
     # READ IN METADATA FILES
     metadata = []
@@ -64,8 +58,8 @@ if __name__ == '__main__':
     for strain in combined_data:
         for column in combined_columns:
             if column not in combined_data[strain]:
-                combined_data[strain][column] = EMPTY    
-    
+                combined_data[strain][column] = EMPTY
+
     for idx in range(1, len(metadata)):
         for strain, row in metadata[idx]['data'].items():
             if strain not in combined_data:

@@ -46,12 +46,12 @@ rule clean_export_regions:
 rule extract_meta:
     input:
         alignment = rules.build_align.output.alignment,
-        metadata = _get_metadata_by_wildcards
+        metadata = "results/{build_name}/metadata_adjusted.tsv.gz"
     output:
         metadata = "results/{build_name}/extracted_metadata.tsv"
     run:
-        from Bio import SeqIO 
-        import pandas as pd 
+        from Bio import SeqIO
+        import pandas as pd
 
         seq_names = [s.id for s in SeqIO.parse(input.alignment, 'fasta')]
         all_meta = pd.read_csv(input.metadata, sep='\t', index_col=0, dtype=str)
@@ -65,8 +65,7 @@ rule export_all_regions:
     input:
         auspice_json = expand("results/{build_name}/ncov_with_accessions.json", build_name=BUILD_NAMES),
         lat_longs = config["files"]["lat_longs"],
-        metadata = [_get_metadata_by_build_name(build_name).format(build_name=build_name)
-                    for build_name in BUILD_NAMES],
+        metadata=expand("results/{build_name}/metadata_adjusted.tsv.gz", build_name=BUILD_NAMES),
         colors = expand("results/{build_name}/colors.tsv", build_name=BUILD_NAMES),
     benchmark:
         "benchmarks/export_all_regions.txt"
@@ -82,39 +81,6 @@ rule export_all_regions:
             --metadata {input.metadata} \
             --colors {input.colors} \
             --latlong {input.lat_longs}
-        """
-
-
-rule mutation_summary:
-    message: "Summarizing {input.alignment}"
-    input:
-        alignment = rules.align.output.alignment,
-        insertions = rules.align.output.insertions,
-        translations = rules.align.output.translations,
-        reference = config["files"]["alignment_reference"],
-        genemap = config["files"]["annotation"]
-    output:
-        mutation_summary = "results/mutation_summary_{origin}.tsv.xz"
-    log:
-        "logs/mutation_summary_{origin}.txt"
-    benchmark:
-        "benchmarks/mutation_summary_{origin}.txt"
-    params:
-        outdir = "results/translations",
-        basename = "seqs_{origin}",
-        genes=config["genes"],
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/mutation_summary.py \
-            --alignment {input.alignment} \
-            --insertions {input.insertions} \
-            --directory {params.outdir} \
-            --basename {params.basename} \
-            --reference {input.reference} \
-            --genes {params.genes:q} \
-            --genemap {input.genemap} \
-            --output {output.mutation_summary} 2>&1 | tee {log}
         """
 
 
