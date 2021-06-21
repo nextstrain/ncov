@@ -1366,6 +1366,9 @@ location	Cazengo
 location	Bolongongo
 location	Saurimo
 
+# Bengo
+location	Quiba
+
 ### Botswana
 # Southern East
 location	Ramotswa
@@ -12626,6 +12629,7 @@ division	Namibe
 division	Huila AO
 division	Cuanza Sul
 division	Luanda
+division	Bengo
 division	Cabinda
 
 ### Chad
