@@ -50,8 +50,8 @@ rule extract_meta:
     output:
         metadata = "results/{build_name}/extracted_metadata.tsv"
     run:
-        from Bio import SeqIO 
-        import pandas as pd 
+        from Bio import SeqIO
+        import pandas as pd
 
         seq_names = [s.id for s in SeqIO.parse(input.alignment, 'fasta')]
         all_meta = pd.read_csv(input.metadata, sep='\t', index_col=0, dtype=str)
@@ -203,8 +203,6 @@ rule upload:
     message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
     input:
         expand("results/aligned_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
-        expand("results/sequence-diagnostics_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),   # from `rule diagnostic`
-        expand("results/flagged-sequences_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),      # from `rule diagnostic`
         expand("results/to-exclude_{origin}.txt.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
         expand("results/masked_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
         expand("results/filtered_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
