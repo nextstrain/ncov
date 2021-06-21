@@ -84,3 +84,4 @@ Community Sample
 infection
 Traveler
 Overseas Case
+Infection

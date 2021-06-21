@@ -48,3 +48,5 @@ Active Surveillance, N-gene dropout	N dropout
 Baseline surveillance (random sampling)	Not S dropout
 ICU patient, baseline surveillance	Not S dropout
 Baseline	Not S dropout
+Non-random selection: SGTF	S dropout
+Non-random selection: Non-SGTF	Not S dropout
