@@ -1340,11 +1340,11 @@ location	Martires
 location	Kinaxixi
 location	Luanda
 location	Vila Alice
-location	Miramar AN
+location	Miramar AO
 location	Calemba
 location	Benguela
 location	Ingombota
-location	São Paulo AN
+location	São Paulo AO
 location	Nelito Soares
 location	Ambriz
 location	Camama
@@ -1354,7 +1354,8 @@ location	Sambizanga
 location	Capolo 2
 location	Cazenga
 location	Sumbe
-location	Viana AN
+location	Viana AO
+location	Zango 4
 location	Cacuaco
 location	Icolo E Bengo
 location	Quicama
@@ -1717,6 +1718,7 @@ location	Pontecesures
 location	Bertamirans
 location	Valga
 location	Teo
+location	Tordoia
 location	Trazo
 location	La Estrada
 location	Vedra
