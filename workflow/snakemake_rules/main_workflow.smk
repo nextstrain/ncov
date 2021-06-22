@@ -97,11 +97,14 @@ rule align:
         """
 
 rule diagnostic:
-    message: "Scanning metadata {input.metadata} for problematic sequences"
+    message: "Scanning metadata {input.metadata} for problematic sequences. Removing sequences with >{params.clock_filter} deviation from the clock and with more than {params.snp_clusters}."
     input:
         metadata = "results/sanitized_metadata_{origin}.tsv.xz"
     output:
         to_exclude = "results/to-exclude_{origin}.txt"
+    params:
+        clock_filter = 20,
+        snp_clusters = 1
     log:
         "logs/diagnostics_{origin}.txt"
     benchmark:
@@ -114,6 +117,8 @@ rule diagnostic:
         """
         python3 scripts/diagnostic.py \
             --metadata {input.metadata} \
+            --clock-filter {params.clock_filter} \
+            --snp-clusters {params.snp_clusters} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
