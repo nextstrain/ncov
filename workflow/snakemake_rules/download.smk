@@ -37,7 +37,6 @@ rule download_sequences:
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][w.origin]["sequences"],
-        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["sequences"])
     shell:
         """
         aws s3 cp {params.address} {output.sequences:q}
