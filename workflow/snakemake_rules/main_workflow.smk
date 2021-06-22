@@ -373,9 +373,10 @@ rule combine_samples:
     input:
         metadata="results/metadata.tsv.gz",
         sequence_index="results/sequence_index.tsv.gz",
+        sequences=expand("results/{origin}/sequences.fasta.gz", origin=ORIGINS),
         include=_get_subsampled_files,
     output:
-        strains="results/{build_name}/subsampled_strains.txt",
+        sequences="results/{build_name}/subsampled_sequences.fasta.gz",
         metadata="results/{build_name}/subsampled_metadata.tsv.gz"
     log:
         "logs/subsample_regions_{build_name}.txt"
@@ -385,33 +386,13 @@ rule combine_samples:
     shell:
         """
         augur filter \
-            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
+            --sequence-index {input.sequence_index} \
+            --sequences {input.sequences} \
             --exclude-all \
             --include {input.include} \
-            --output-strains {output.strains} \
+            --output-sequences {output.sequences} \
             --output-metadata {output.metadata} 2>&1 | tee {log}
-        """
-
-
-rule extract_samples:
-    input:
-        sequences=expand("results/{origin}/sequences.fasta.gz", origin=ORIGINS),
-        samtools_indices=expand("results/{origin}/sequences.fasta.gz.fai", origin=ORIGINS),
-        strains="results/{build_name}/subsampled_strains.txt",
-    output:
-        sequences="results/{build_name}/subsampled_sequences.fasta.gz",
-    benchmark:
-        "benchmarks/extract_samples_{build_name}.txt"
-    conda: config["conda_environment"]
-    log:
-        "logs/extract_samples_{build_name}.txt"
-    shell:
-        """
-        for sequence in {input.sequences}
-        do
-            samtools faidx -c -r {input.strains} $sequence
-        done | bgzip -c > {output.sequences} 2> {log}
         """
 
 
@@ -443,7 +424,7 @@ rule build_align:
         mem_mb=3000
     shell:
         """
-        bgzip -c -d {input.sequences} | nextalign \
+        gzip -c -d {input.sequences} | nextalign \
             --jobs={threads} \
             --reference {input.reference} \
             --genemap {input.genemap} \
