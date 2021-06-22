@@ -59,8 +59,6 @@ def _get_path_for_input(stage, origin_wildcard):
         return f"data/downloaded_{origin_wildcard}.fasta.gz" if remote else path_or_url
     if stage=="aligned":
         return f"results/precomputed-aligned_{origin_wildcard}.fasta" if remote else f"results/aligned_{origin_wildcard}.fasta.xz"
-    if stage=="to-exclude":
-        return f"results/precomputed-to-exclude_{origin_wildcard}.txt" if remote else f"results/to-exclude_{origin_wildcard}.txt"
     if stage=="masked":
         return f"results/precomputed-masked_{origin_wildcard}.fasta" if remote else f"results/masked_{origin_wildcard}.fasta.xz"
     if stage=="filtered":

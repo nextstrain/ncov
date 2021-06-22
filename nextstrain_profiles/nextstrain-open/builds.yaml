@@ -23,7 +23,6 @@ inputs:
     metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.gz"
     sequences: "s3://nextstrain-data/files/ncov/open/sequences.fasta.gz"
     # aligned: "s3://nextstrain-data/files/ncov/open/aligned.fasta.xz"
-    # to-exclude: "s3://nextstrain-data/files/ncov/open/to-exclude.txt.xz"
     # masked: "s3://nextstrain-data/files/ncov/open/masked.fasta.fasta.xz"
     # filtered: "s3://nextstrain-data/files/ncov/open/filtered.fasta.xz"
 
