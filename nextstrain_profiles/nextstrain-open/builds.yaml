@@ -141,51 +141,6 @@ subsampling:
       exclude: "--exclude-where 'region={region}'"
       sampling_scheme: "--probabilistic-sampling"
 
-  # Custom subsampling logic for regions
-  nextstrain_local:
-    # Focal samples for region
-    division_early:
-      group_by: "year month"
-      max_sequences: 200
-      sampling_scheme: "--probabilistic-sampling"
-      exclude: "--exclude-where 'division!={division}'"
-    # Contextual samples for region from the rest of the world
-    region_early:
-      group_by: "division year month"
-      max_sequences: 600
-      sampling_scheme: "--probabilistic-sampling"
-      exclude: "--exclude-where 'region!={region}'"
-    # Contextual samples for region from the rest of the world
-    global_early:
-      group_by: "country year month"
-      max_sequences: 400
-      sampling_scheme: "--probabilistic-sampling"
-      exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
-
-    division_late:
-      group_by: "year month"
-      max_sequences: 1200
-      sampling_scheme: "--probabilistic-sampling"
-      exclude: "--exclude-where 'division!={division}'"
-    # Contextual samples for region from the rest of the world
-    region_late:
-      group_by: "division year month"
-      max_sequences: 1200
-      sampling_scheme: "--probabilistic-sampling"
-      exclude: "--exclude-where 'region!={region}'"
-    # Contextual samples for region from the rest of the world
-    global_late:
-      group_by: "country year month"
-      max_sequences: 400
-      exclude: "--exclude-where 'region={region}'"
-      sampling_scheme: "--probabilistic-sampling"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
-
   # Custom subsampling logic for global region.
   nextstrain_region_global:
     africa_early:
