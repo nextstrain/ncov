@@ -283,9 +283,13 @@ def get_priorities(wildcards):
 
 def get_priority_argument(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
+    if "priorities" not in subsampling_settings:
+        return ""
 
-    if "priorities" in subsampling_settings and subsampling_settings["priorities"]["type"] == "proximity":
+    if subsampling_settings["priorities"]["type"] == "proximity":
         return "--priority " + get_priorities(wildcards)
+    elif subsampling_settings["priorities"]["type"] == "file" and "file" in subsampling_settings["priorities"]:
+        return "--priority " + subsampling_settings["priorities"]["file"]
     else:
         return ""
 
