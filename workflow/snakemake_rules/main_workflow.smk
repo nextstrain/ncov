@@ -37,14 +37,20 @@ rule sanitize_sequences:
     params:
         error_on_duplicate_strains="--error-on-duplicate-strains" if not config.get("combine_sequences_for_subsampling", {}).get("warn_about_duplicates") else "",
         strain_prefixes=config["strip_strain_prefixes"],
+        bgzip_threads=lambda wildcards, threads: threads - 1,
+        bgzip_compression_level=2,
+    # Use one thread for the Python process and the remaining threads for bgzip
+    # compression.
+    threads: 2
     shell:
         """
         python3 scripts/sanitize_sequences.py \
-                --sequences {input} \
-                --strip-prefixes {params.strain_prefixes:q} \
-                {params.error_on_duplicate_strains} \
-                --output /dev/stdout \
-                | bgzip -c > {output}
+            --verbose \
+            --sequences {input} \
+            --strip-prefixes {params.strain_prefixes:q} \
+            {params.error_on_duplicate_strains} \
+            --output /dev/stdout \
+                | bgzip -c -l {params.bgzip_compression_level} --threads {params.bgzip_threads}  > {output}
         """
 
 

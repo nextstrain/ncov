@@ -86,6 +86,7 @@ if __name__ == '__main__':
     parser.add_argument("--sequences", nargs="+", required=True, help="sequences to be sanitized")
     parser.add_argument("--strip-prefixes", nargs="+", help="prefixes to strip from strain names in the sequences")
     parser.add_argument('--error-on-duplicate-strains', action="store_true", help="exit with an error when the same strain is detected multiple times with different sequences. By default, use the first occurrence of each duplicated sequence.")
+    parser.add_argument("--verbose", action="store_true", help="print additional details to stderr")
     parser.add_argument("--output", required=True, help="sanitized sequences")
 
     args = parser.parse_args()
@@ -132,9 +133,15 @@ if __name__ == '__main__':
             args.error_on_duplicate_strains
         )
 
+        records_processed = 0
+
         try:
             for sequence in deduplicated_sequences:
+                if args.verbose and records_processed % 10000 == 0:
+                    print(f"Processed {records_processed} records", file=sys.stderr)
+
                 write_sequences(sequence, output_handle)
+                records_processed += 1
         except DuplicateSequenceError as error:
             print(
                 f"ERROR: The following strains have duplicate sequences: {error}",
