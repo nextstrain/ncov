@@ -66,3 +66,15 @@ Prior to merging a pull request that introduces a new backward incompatible chan
  4. [Create a new GitHub release](https://github.com/nextstrain/ncov/releases/new) using the new version as the tag (e.g., "v2") and release title. Leave the release description empty.
 
 We do not release new minor versions for new features, but you should document new features in the change log as part of the corresponding pull request under a heading for the date those features are merged.
+
+
+## Triggering routine builds
+
+Typically, everything’s triggered from the  `ncov-ingest` pipeline’s `trigger` command.
+After updating the intermediate files, that command will run this `ncov` pipeline force-requiring the rules `deploy` and `upload`.
+
+## Triggering trial builds
+
+This repository contains a GitHub Action `trial-build` which is manually run [via github.com](https://github.com/nextstrain/ncov/actions/workflows/trial-build.yml).
+This will ask for a “trial name” and upload intermediate files to  `nextstrain-ncov-private/trial/$TRIAL_NAME` and `nextstrain-staging/files/ncov/open/trial/$TRIAL_NAME`.
+Auspice datasets for visualisation will be available at `https://nextstrain.org/staging/ncov/gisaid/trial/$TRIAL_NAME/$BUILD_NAME` and `https://nextstrain.org/staging/ncov/open/trial/$TRIAL_NAME/$BUILD_NAME`.
