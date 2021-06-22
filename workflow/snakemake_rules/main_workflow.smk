@@ -97,20 +97,16 @@ rule align:
         """
 
 rule diagnostic:
-    message: "Scanning aligned sequences {input.alignment} for problematic sequences"
+    message: "Scanning metadata {input.metadata} for problematic sequences. Removing sequences with >{params.clock_filter} deviation from the clock and with more than {params.snp_clusters}."
     input:
-        alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = "results/sanitized_metadata_{origin}.tsv.xz",
-        reference = config["files"]["reference"]
+        metadata = "results/sanitized_metadata_{origin}.tsv.xz"
     output:
-        diagnostics = "results/sequence-diagnostics_{origin}.tsv.xz",
-        flagged = "results/flagged-sequences_{origin}.tsv.xz",
         to_exclude = "results/to-exclude_{origin}.txt"
+    params:
+        clock_filter = 20,
+        snp_clusters = 1
     log:
         "logs/diagnostics_{origin}.txt"
-    params:
-        mask_from_beginning = config["mask"]["mask_from_beginning"],
-        mask_from_end = config["mask"]["mask_from_end"]
     benchmark:
         "benchmarks/diagnostics_{origin}.txt"
     resources:
@@ -120,13 +116,9 @@ rule diagnostic:
     shell:
         """
         python3 scripts/diagnostic.py \
-            --alignment {input.alignment} \
             --metadata {input.metadata} \
-            --reference {input.reference} \
-            --mask-from-beginning {params.mask_from_beginning} \
-            --mask-from-end {params.mask_from_end} \
-            --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostics} \
+            --clock-filter {params.clock_filter} \
+            --snp-clusters {params.snp_clusters} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
