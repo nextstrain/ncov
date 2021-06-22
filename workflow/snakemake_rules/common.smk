@@ -37,8 +37,8 @@ def _get_filter_value(wildcards, key):
 def _get_path_for_input(stage, origin_wildcard):
     """
     A function called to define an input for a Snakemake rule
-    This function always returns a local filepath, the format of which decides whether rules should
-    create this by downloading from a remote resource, or create it by a local compute rule.
+    This function always returns a local filepath, the format of which lets snakemake decide
+    whether to create it (via another rule) or use is as-is.
     """
     path_or_url = config.get("inputs", {}).get(origin_wildcard, {}).get(stage, "")
     scheme = urlsplit(path_or_url).scheme
@@ -48,19 +48,28 @@ def _get_path_for_input(stage, origin_wildcard):
     if scheme and scheme!="s3":
         raise Exception(f"Input defined scheme {scheme} which is not yet supported.")
 
-    ## Basic checking which could be taken care of by the config schema
-    ## If asking for metadata/sequences, the config _must_ supply a `path_or_url`
-    if path_or_url=="" and stage in ["metadata", "sequences"]:
-        raise Exception(f"ERROR: config->input->{origin_wildcard}->{stage} is not defined.")
-
     if stage=="metadata":
+        if not path_or_url:
+            raise Exception(f"ERROR: config->input->{origin_wildcard}->metadata is not defined.")
         return f"data/downloaded_{origin_wildcard}.tsv" if remote else path_or_url
     if stage=="sequences":
+        if not path_or_url:
+            raise Exception(f"ERROR: config->input->{origin_wildcard}->sequences is not defined.")
         return f"data/downloaded_{origin_wildcard}.fasta.gz" if remote else path_or_url
     if stage=="aligned":
-        return f"results/precomputed-aligned_{origin_wildcard}.fasta" if remote else f"results/aligned_{origin_wildcard}.fasta.xz"
+        if remote:
+            return f"results/precomputed-aligned_{origin_wildcard}.fasta"
+        elif path_or_url:
+            return path_or_url
+        else:
+            return f"results/aligned_{origin_wildcard}.fasta.xz"
     if stage=="masked":
-        return f"results/precomputed-masked_{origin_wildcard}.fasta" if remote else f"results/masked_{origin_wildcard}.fasta.xz"
+        if remote:
+            return f"results/precomputed-masked_{origin_wildcard}.fasta"
+        elif path_or_url:
+            return path_or_url
+        else:
+            return f"results/masked_{origin_wildcard}.fasta.xz"
     if stage=="filtered":
         if remote:
             return f"results/precomputed-filtered_{origin_wildcard}.fasta"
