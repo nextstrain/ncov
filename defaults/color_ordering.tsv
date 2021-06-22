@@ -740,13 +740,18 @@ location	Jhapa
 # Chattogram
 location	Cox's Bazar
 location	Bandarban
+location	Bandar
 location	Port Colony
 location	Chittagong
 location	Jamal Khan
 location	Kazir Dewri
 location	Sholokbahar
+location	Khulshi
+location	Rangunia
+location	Hathazari
 location	Noakhali
 location	Muradpur
+location	Fatikchari
 location	Rangamati
 location	Lakshmipur
 location	Feni
@@ -790,6 +795,7 @@ location	Azimpur
 location	Dhanmondi
 location	Elephant Road
 location	Rajbari
+location	Nimtola
 location	Green Road
 location	West Dhanmondi
 location	North Shajahanpur
@@ -1065,12 +1071,18 @@ location	Denpasar
 location	Gianyar
 location	Klungkung
 
+# South Kalimantan
+location	Tapin
+
 # North Kalimantan
 location	Malinau
 location	Tarakan
 
 # East Kalimantan
 location	Samarinda
+
+# West Nusa Tenggara
+location	Mataram
 
 # West Sulawesi
 location	Mamuju
@@ -1086,6 +1098,9 @@ location	Palu
 
 # Southeast Sulawesi
 location	Kendari
+
+# Gorontalo
+location	Bone Bolango
 
 # North Sulawesi
 location	Manado
@@ -3690,6 +3705,7 @@ location	Baldersheim
 location	Rixheim
 location	Folgensbourg
 location	Bartenheim
+location	Obernai
 location	Leymen
 location	Kembs
 location	Hegenheim
@@ -3781,6 +3797,7 @@ location	Kortemark
 location	Watou
 location	Roesbrugge-Haringe
 location	Poperinge
+location	Vleteren
 location	Vlamertinge
 location	Kemmel
 location	Brielen
@@ -3855,6 +3872,7 @@ location	Herthoek
 location	Rekkem
 location	Menen
 location	Wevelgem
+location	Lauwe
 location	Bissegem
 location	Lendelede
 location	Heule
@@ -4035,6 +4053,7 @@ location	Bellecourt
 location	Seneffe
 
 # Aalst
+location	Zottegem
 location	Bavegem
 location	Borsbeke
 location	Herzele
@@ -6526,6 +6545,7 @@ location	K-Kozle
 location	Kluczbork
 location	Sucha
 location	Strzelce Opolskie
+location	Dziewkowice
 location	Ujazd
 location	Olesno
 location	Barut
@@ -6745,6 +6765,7 @@ location	Sieradz
 location	Oplotki
 location	Strzalki
 location	Zdunska Wola
+location	Poddebice
 location	Wartkowice
 location	Pajeczno County
 location	Charbice Gorne
@@ -6789,6 +6810,7 @@ location	Jezow
 location	Justynow
 location	Tomaszow Mazowiecki
 location	Skierniewice
+location	Rawa Mazowiecka
 location	Bronislawow
 
 # Malopolskie
@@ -6879,9 +6901,11 @@ location	Bochnia
 location	Siekierczyna
 location	Przyszowa
 location	Brzesko
+location	Tymowa
 location	Nowy Sacz
 location	Jelna
 location	Piatkowa
+location	Lopon
 location	Zakliczyn
 location	Ostrow (Malopolskie)
 location	Tarnow
@@ -6965,6 +6989,7 @@ location	Liwa
 location	Nipkowie
 location	Lubnowy Male
 location	Lubnowy Wielkie
+location	Susz
 location	Wladyslawowo
 location	Mokajny
 location	Elbląg
@@ -7160,6 +7185,7 @@ location	Antoniowka
 location	Helenowka
 location	Lipsko
 location	Rudzienko
+location	Dobre
 location	Wólka (Mazowieckie)
 location	Przedmiescie Dalsze
 location	Sadkowice-Kolonia
@@ -7585,7 +7611,7 @@ location	Janovce
 location	Zborov
 location	Bardejovska Nova Ves
 location	Raslavice
-location	Podhorany
+location	Podhorany (Prešov)
 location	Hrabovec
 location	Cigla
 location	Poliakovce
@@ -10264,6 +10290,7 @@ location	Fusagasuga
 location	Soacha
 location	Funza
 location	Madrid CO
+location	Cota
 location	Facatativa
 location	Chia
 location	Cajica
@@ -10299,11 +10326,15 @@ location	Arauca
 # Antioquia
 location	Andes
 location	Argelia
+location	Bolivar (Antioquia)
+location	La Union CO
 location	Carmen de Viboral
 location	La Ceja
 location	Amagá
 location	Caldas (Antioquia)
 location	Retiro CO
+location	Titiribi
+location	El Santuario
 location	Sabaneta
 location	Rionegro
 location	Estrella
@@ -10322,12 +10353,20 @@ location	San Roque CO
 location	Barbosa
 location	Don Matias
 location	Sopetran
+location	Santa Fe de Antioquia
 location	Santa Rosa de Osos
+location	Amalfi
+location	Mutata
 location	Zaragoza CO
 location	El Carmen
 location	Chigorodo
+location	El Bagre
+location	Carepa
+location	Caucasia
 location	Apartado
+location	Nechi
 location	Turbo
+location	Necocli
 
 # Santander
 location	Barrancabermeja
@@ -10341,7 +10380,6 @@ location	Pamplona CO
 location	Cucuta
 
 # Cordoba CO
-location	El Bagre Antioquia
 location	Tierralta
 location	Monteria
 location	Cienaga de Oro
@@ -12109,7 +12147,6 @@ division	Province 1
 division	Asia
 
 ### Bangladesh
-division	Cox'S Bazar
 division	Chattogram
 division	Barishal
 division	Khulna
@@ -12163,6 +12200,7 @@ division	Perak
 division	Selangor
 division	Wilayah Persekutuan
 division	Kuala Lumpur
+division	Kelantan
 division	Negeri Sembilan
 division	Melaka
 division	Johor
@@ -12898,6 +12936,7 @@ division	Balear Islands
 division	Cayman Islands
 division	British Virgin Islands
 division	Anguilla
+division	Montserrat
 division	Northern Ireland
 division	Gibraltar
 division	Scotland
@@ -13243,6 +13282,7 @@ division	Slavetin
 division	Pardubice Region
 division	Trutnov District
 division	Hradec Králové Region
+division	Eastern Bohemia
 division	Nachod
 division	Kunice
 division	South Moravian Region
