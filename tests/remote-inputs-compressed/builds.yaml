@@ -1,0 +1,23 @@
+inputs:
+  - name: test-remote-compressed-asia-sequences
+    metadata: s3://nextstrain-data/files/ncov/test-data/asia_metadata.tsv.xz
+    sequences: s3://nextstrain-data/files/ncov/test-data/asia_sequences.fasta.xz
+  - name: test-remote-compressed-europe-aligned
+    metadata: s3://nextstrain-data/files/ncov/test-data/europe_metadata.tsv.xz
+    aligned: s3://nextstrain-data/files/ncov/test-data/europe_aligned.fasta.xz
+  - name: test-remote-compressed-oceania-masked
+    metadata: s3://nextstrain-data/files/ncov/test-data/oceania_metadata.tsv.xz
+    masked: s3://nextstrain-data/files/ncov/test-data/oceania_masked.fasta.xz
+  - name: test-remote-compressed-americas-filtered
+    metadata: s3://nextstrain-data/files/ncov/test-data/americas_metadata.tsv.xz
+    filtered: s3://nextstrain-data/files/ncov/test-data/americas_filtered.fasta.xz
+
+builds:
+  test-remote-compressed:
+    subsampling_scheme: small
+
+subsampling:
+  small:
+    small-sample:
+      group_by: "region"
+      max_sequences: 100

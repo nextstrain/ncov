@@ -1,0 +1,24 @@
+inputs:
+  # Note: paths are relative to the --directory handed to snakemake
+  - name: test-local-compressed-asia-sequences
+    metadata: ../local-inputs-compressed/data/asia_metadata.tsv.xz
+    sequences: ../local-inputs-compressed/data/asia_sequences.fasta.xz
+  - name: test-local-compressed-europe-aligned
+    metadata: ../local-inputs-compressed/data/europe_metadata.tsv.xz
+    aligned: ../local-inputs-compressed/data/europe_aligned.fasta.xz
+  - name: test-local-compressed-oceania-masked
+    metadata: ../local-inputs-compressed/data/oceania_metadata.tsv.xz
+    masked: ../local-inputs-compressed/data/oceania_masked.fasta.xz
+  - name: test-local-compressed-americas-filtered
+    metadata: ../local-inputs-compressed/data/americas_metadata.tsv.xz
+    filtered: ../local-inputs-compressed/data/americas_filtered.fasta.xz
+
+builds:
+  test-local-compressed:
+    subsampling_scheme: small
+
+subsampling:
+  small:
+    small-sample:
+      group_by: "region"
+      max_sequences: 100
