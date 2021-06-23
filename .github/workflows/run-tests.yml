@@ -1,0 +1,32 @@
+name: "Run tests"
+
+on:
+  pull_request:
+
+jobs:
+  run-integration-tests:
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        activate-environment: nextstrain
+        environment-file: ./workflow/envs/nextstrain.yaml
+
+    - name: Install CRAM
+      run: pip install --no-input cram
+
+    - name: Run test covering different input stages
+      run: cram --preserve-env tests/different-inputs.t
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: us-east-1
+
+    - name: Print logs if tests failed
+      if: ${{ failure() }}
+      run: for i in tests/output/*cram.log.txt; do echo "-------"; echo $i; cat $i; done

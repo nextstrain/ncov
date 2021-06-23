@@ -11,7 +11,7 @@ Cram should be run in an environment which can run the pipeline via
 Set-up test environment. We could set up the correct data inside $TMP for each test
 if we prefer. For simplicity, we create a directory "output".
 
-  $ pushd "$TESTDIR" > /dev/null
+  $ cd $TESTDIR
   $ basename $( pwd )
   tests
   $ rm -rf output && mkdir output && cd output
