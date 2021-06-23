@@ -37,7 +37,6 @@ rule download_sequences:
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][w.origin]["sequences"],
-        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["sequences"])
     shell:
         """
         aws s3 cp {params.address} {output.sequences:q}
@@ -67,32 +66,6 @@ rule download_aligned:
     shell:
         """
         aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
-        """
-
-rule download_diagnostic:
-    message: """
-    Downloading diagnostic files:
-        {params.diagnostics_address} -> {output.diagnostics}
-        {params.flagged_address} -> {output.flagged}
-        {params.to_exclude_address} -> {output.to_exclude}
-    """
-    output:
-        diagnostics = "results/precomputed-sequence-diagnostics_{origin}.tsv",
-        flagged = "results/precomputed-flagged-sequences_{origin}.tsv",
-        to_exclude = "results/precomputed-to-exclude_{origin}.txt"
-    conda: config["conda_environment"]
-    params:
-        # Only `to-exclude` is defined via the config, so we make some assumptions about the format of the other filenames
-        to_exclude_address = lambda w: config["inputs"][w.origin]["to-exclude"],
-        flagged_address = lambda w: config["inputs"][w.origin]["to-exclude"].replace(f'to-exclude{w.origin}.txt', f'flagged-sequences{w.origin}.tsv'),
-        diagnostics_address = lambda w: config["inputs"][w.origin]["to-exclude"].replace(f'to-exclude{w.origin}.txt', f'sequence-diagnostics{w.origin}.tsv'),
-        # assume the compression is the same across all 3 addresses
-        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["to-exclude"])
-    shell:
-        """
-        aws s3 cp {params.to_exclude_address} - | {params.deflate} > {output.to_exclude:q}
-        aws s3 cp {params.flagged_address} - | {params.deflate} > {output.flagged:q}
-        aws s3 cp {params.diagnostics_address} - | {params.deflate} > {output.diagnostics:q}
         """
 
 

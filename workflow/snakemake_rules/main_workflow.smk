@@ -130,30 +130,17 @@ rule diagnostic:
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
-rule compress_exclusion_file:
-    input:
-        to_exclude="results/to-exclude_{origin}.txt"
-    output:
-        to_exclude="results/to-exclude_{origin}.txt.xz"
-    benchmark:
-        "benchmarks/compress_exclusion_file_{origin}.txt"
-    conda:
-        config["conda_environment"]
-    log:
-        "logs/compress_exclusion_file_{origin}.txt"
-    shell:
-        """
-        xz -c {input} > {output} 2> {log}
-        """
-
 def _collect_exclusion_files(wildcards):
-    # Note that we _always_ exclude the sequences from the (config-defined) exclude file
-    # As well as the sequences flagged by the diagnostic step.
-    # Note that we can skip the diagnostic step on a per-input (per-origin) basis.
-    exclude_files = [ config["files"]["exclude"] ]
-    if not config["filter"].get(wildcards["origin"], {}).get("skip_diagnostics", False):
-        exclude_files.append(_get_path_for_input("to-exclude", wildcards.origin))
-    return exclude_files
+    # This rule creates a per-input exclude file for `rule filter`. This file contains one or both of the following:
+    # (1) a config-defined exclude file
+    # (2) a dynamically created file (`rule diagnostic`) which scans the alignment for potential errors
+    # The second file is optional - it may be opted out via config → skip_diagnostics
+    # If the input starting point is "masked" then we also ignore the second file, as the alignment is not available
+    if config["filter"].get(wildcards["origin"], {}).get("skip_diagnostics", False):
+        return [ config["files"]["exclude"] ]
+    if "masked" in config["inputs"][wildcards["origin"]]:
+        return [ config["files"]["exclude"] ]
+    return [ config["files"]["exclude"], f"results/to-exclude_{wildcards['origin']}.txt" ]
 
 rule mask:
     message:

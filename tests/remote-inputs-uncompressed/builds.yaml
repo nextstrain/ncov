@@ -1,0 +1,31 @@
+inputs:
+  # NOTE: there is no input defining an uncompressed `sequences` address
+  # as this pipeline only supports compressed sequence input
+  - name: test-remote-uncompressed-europe-aligned
+    metadata: s3://nextstrain-data/files/ncov/test-data/europe_metadata.tsv
+    aligned: s3://nextstrain-data/files/ncov/test-data/europe_aligned.fasta
+  - name: test-remote-uncompressed-oceania-masked
+    metadata: s3://nextstrain-data/files/ncov/test-data/oceania_metadata.tsv
+    masked: s3://nextstrain-data/files/ncov/test-data/oceania_masked.fasta
+  - name: test-remote-uncompressed-americas-filtered
+    metadata: s3://nextstrain-data/files/ncov/test-data/americas_metadata.tsv
+    filtered: s3://nextstrain-data/files/ncov/test-data/americas_filtered.fasta
+  - name: reference
+    metadata: data/references_metadata.tsv
+    sequences: data/references_sequences.fasta
+
+# As we are not including the test data from Asia (see above), this build will
+# be missing the default root sequence. We instead use
+# `data/references_sequences.fasta` (Wuhan/WH01/2019)
+refine:
+  root: "Wuhan/WH01/2019"
+
+builds:
+  test-remote-uncompressed:
+    subsampling_scheme: small
+
+subsampling:
+  small:
+    small-sample:
+      group_by: "region"
+      max_sequences: 100
