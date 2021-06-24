@@ -1685,7 +1685,7 @@ location	Vila Franca de Xira
 location	Santa Maria dos Olivais
 location	Seia
 
-# Santarem
+# Santarem PT
 location	Benavente
 location	Almeirim
 location	Santarem PT
@@ -9893,46 +9893,45 @@ location	Alcobaca
 
 # Espirito Santo
 location	Sao Mateus
-location	Mimoso do Sul
-location	Marataizes
-location	Itapemirim
-location	Rio Novo do Sul
-location	Cachoeiro de Itapemirim
-location	Anchieta
-location	Iconha
-location	Jeronimo Monteiro
-location	Alegre
 location	Dores do Rio Preto
-location	Vargem Alta
-location	Guarapari
-location	Laranjeiras (Espirito Santo)
-location	Alfredo Chaves
 location	Ibitirama
-location	Rochedo
-location	Viana BR
-location	Domingos Martins
-location	Vila Velha
 location	Irupi
-location	Vitoria
-location	Cariacica
-location	Serra
+location	Alegre
+location	Laranjeiras (Espirito Santo)
+location	Jeronimo Monteiro
+location	Mimoso do Sul
 location	Afonso Claudio
-location	Santa Maria de Jetiba
-location	Santa Teresa
-location	Fundao
-location	Aracruz
-location	Colatina
+location	Cachoeiro de Itapemirim
+location	Presidente Kennedy ES
 location	Baixo Guandu
-location	Linhares
-location	Governador Lindenberg
-location	Sooretama
-location	Sao Gabriel Da Palha
-location	Vila Valerio
-location	Aguia Branca
+location	Vargem Alta
+location	Rio Novo do Sul
+location	Itapemirim
+location	Marataizes
 location	Barra do Sao Francisco
+location	Iconha
+location	Alfredo Chaves
+location	Santa Maria de Jetiba
+location	Aguia Branca
+location	Domingos Martins
+location	Anchieta
+location	Colatina
 location	Vila Pavao
-location	Presidente Kennedy
-location	Viana
+location	Santa Teresa
+location	Sao Gabriel Da Palha
+location	Guarapari
+location	Viana BR
+location	Governador Lindenberg
+location	Cariacica
+location	Fundao
+location	Vila Valerio
+location	Vitoria
+location	Serra
+location	Vila Velha
+location	Aracruz
+location	Sooretama
+location	Linhares
+location	Rochedo
 
 # Ceará
 location	Arneiroz
@@ -12951,6 +12950,7 @@ division	Setúbal
 division	Évora
 division	Lisbon
 division	Sobral de Monte AgracO
+division	Santarem PT
 division	Santarem
 division	Portugal
 division	Leiria
