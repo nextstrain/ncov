@@ -183,6 +183,9 @@ location	Abmangol
 # Sistan and Baluchestan
 location	Zahedan
 
+# South Khorasan
+location	Birjand
+
 ### Oman
 # Buraimi
 location	Buraimi
@@ -778,58 +781,64 @@ location	Jhenaidah
 location	Chuadanga
 
 # Dhaka
-location	Gopalgonj
-location	Madaripur
-location	Shariatpur
-location	Munshiganj
-location	Faridpur
-location	Narayanganj
-location	Nawabgonj
-location	Keraniganj
-location	Kodomtoly
-location	Jatrabari
-location	Rahmatganj
-location	Sayedabad
-location	Old Dhaka
-location	Azimpur
-location	Dhanmondi
-location	Elephant Road
-location	Rajbari
-location	Nimtola
-location	Green Road
-location	West Dhanmondi
-location	North Shajahanpur
-location	Kalabagan
-location	Moghbazar
-location	Panthapath
-location	Tejgaon
-location	Tejkunipara
-location	Mohammadpur
+location	Pangsha Upazila
 location	Farmgate
-location	Niketan
+location	Rajbari
+location	Rajbari Sadar Upazila
+location	Goalanda
+location	Gopalgonj
+location	Faridpur
+location	Tangail
+location	Manikganj
+location	Nawabgonj
+location	Madaripur
+location	Dhamrai
+location	Savar
+location	Shariatpur
+location	Keraniganj
+location	Mohammadpur
 location	Shaymoli
+location	Nimtola
+location	Mirpur
+location	Senpara
+location	West Dhanmondi
 location	Agargaon
-location	Aftabnagar
+location	East Shewrapara
+location	Dhanmondi
+location	Uttara
+location	Old Dhaka
+location	Kalabagan
+location	Azimpur
+location	Green Road
+location	Panthapath
+location	Elephant Road
+location	Tejkunipara
+location	Tejgaon
+location	Rahmatganj
+location	Cantonment
+location	Mohakhali
 location	Banani
 location	Gulshan
-location	East Shewrapara
-location	Cantonment
-location	Senpara
-location	Baridhara
-location	Vatara
+location	Moghbazar
+location	Niketan
+location	Modhubag
 location	Dhaka
-location	Basundhara Residential Area
-location	Mirpur
 location	Nikunja
+location	Baridhara
+location	North Shajahanpur
 location	Ashkona
-location	Savar
-location	Manikganj
-location	Uttara
-location	Narsingdi
-location	Dhamrai
 location	Gazipur
-location	Tangail
+location	Vatara
+location	Sayedabad
+location	Jatrabari
+location	Damudya
+location	Aftabnagar
+location	Basundhara Residential Area
+location	Narayanganj
+location	Munshiganj
+location	Narsingdi
 location	Kishoreganj
+location	Kodomtoly
 
 # Rajshahi
 location	Chapainawabgonj
@@ -1679,7 +1688,7 @@ location	Seia
 # Santarem
 location	Benavente
 location	Almeirim
-location	Santarem
+location	Santarem PT
 location	Rio Maior
 location	Torres Novas
 
@@ -2916,8 +2925,8 @@ location	Ibiza
 location	Santa Ponca
 location	Calvia
 location	Palmanova
-location	Palma
 location	Palma de Mallorca
+location	Palma ES
 location	Pont d'Inca
 location	Soller
 location	Can Pastilla
@@ -2980,6 +2989,7 @@ location	Iracoubo
 location	Sinnamary
 location	Kourou
 location	Macouria
+location	Cacao
 location	Camopi
 location	Matoury
 location	Cayenne GF
@@ -3103,6 +3113,7 @@ location	Gradignan
 location	Bordeaux
 location	Pons
 location	La Brède
+location	Mont-de-Marsan
 location	Niort
 location	Pau
 location	Faye l'Abbesse
@@ -3281,6 +3292,7 @@ location	Saint-Gaudens
 location	Aubiet
 location	Haute-Garonne
 location	Tarn-Et-Garonne
+location	Cornebarrieu
 location	Muret
 location	Montauban
 location	Ariege
@@ -4263,6 +4275,7 @@ location	Borchtlombeek
 location	Sint-Katherina-Lombeek
 location	Lennik
 location	Ternat
+location	Gaasbeek
 location	Opwijk
 location	Schepdaal
 location	Oudenaken
@@ -4645,6 +4658,7 @@ location	Borgloon
 location	Vechmaal
 location	Bommershoven
 location	Kortessem
+location	Vliermaalroot
 location	Vliermaal
 location	Beverst
 location	Hoeselt
@@ -4750,6 +4764,7 @@ location	Sluis
 location	Middelburg NL
 
 # South Holland
+location	Nissewaard
 location	Den Haag
 location	's Gravenhage
 location	Spijkenisse
@@ -4934,6 +4949,7 @@ location	Oldebroek
 
 # Overijssel
 location	Genemuiden
+location	Deventer
 location	Raalte
 location	Almelo
 location	Borne
@@ -9029,35 +9045,64 @@ location	Vista Gaucha
 location	Candelaria
 
 # Para
-location	Juruti
-location	Trairao
-location	Obidos BR
-location	Prainha
-location	Breves
-location	Canaa Doa Carajas
-location	Cametá
 location	Conceição do Araguaia
+location	Redencao
+location	Canaa Doa Carajas
 location	Marabá
-location	Cachoeira do Arari
+location	Itupiranga
+location	Trairao
+location	Dom Eliseu
+location	Novo Repartimento
+location	Ruropolis
+location	Goianesia do Para
+location	Tucurui
+location	Brasil Novo
+location	Altamira
+location	Paragominas
+location	Baiao
+location	Santarem BR
+location	Cametá
+location	Juruti
+location	Monte Alegre
+location	Concórdia do Pará
+location	Garrafão do Norte
+location	Obidos BR
 location	Moju
+location	Curua
+location	Prainha
+location	Irituia
+location	Abaetetuba
+location	Breves
+location	Sao Domingos do Capim
+location	São Miguel do Guamá
+location	Bujaru
 location	Belém
 location	Ananindeua
 location	Benevides
-location	Santa Isabel do Pará
-location	Santo Antônio do Tauá
-location	Concórdia do Pará
-location	Castanhal
-location	Igarapé-Açú
 location	Santa Maria do Pará
-location	São Miguel do Guamá
+location	Santa Isabel do Pará
+location	Castanhal
+location	Santa Barbara do Para
 location	Nova Timboteua
-location	Paragominas
-location	Garrafão do Norte
-location	Quatipuru
-location	Tracuateua
-location	Braganca
-location	Augusto Correa
 location	Viseu
+location	Sao Francisco do Para
+location	Santo Antônio do Tauá
+location	Igarapé-Açú
+location	Tracuateua
+location	Terra Alta
+location	Augusto Correa
+location	Cachoeira do Arari
+location	Braganca
+location	Primavera PA
+location	Colares
+location	Quatipuru
+location	Vigia
+location	Sao Joao Da Ponta
+location	Sao Joao de Pirabas
+location	Maracana
+location	Sao Caetano de Odivelas
+location	Curuca
+location	Obidos
 
 # Paraná
 location	Foz do Iguacu
@@ -9073,6 +9118,7 @@ location	Umuarama
 location	Boa Esperanca do Iguacu
 location	Dois Vizinhos
 location	Francisco Beltrao
+location	Ubirata
 location	Renascenca
 location	Quedas do Iguacu
 location	Vere
@@ -9100,6 +9146,8 @@ location	Ivaipora
 location	Astorga BR
 location	Pinhao
 location	Lidianopolis
+location	Jandaia do Sul
+location	Marumbi
 location	Borrazopolis
 location	Bituruna
 location	Guarapuava
@@ -9131,6 +9179,7 @@ location	Santo Antonio Da Platina
 location	Cambara
 location	Palmeira
 location	Castro
+location	Jacarezinho
 location	Tomazina
 location	Joaquim Tavora
 location	Wenceslau Braz
@@ -9274,15 +9323,17 @@ location	Mundo Novo
 location	Monte Alegre de Goias
 
 # Tocantins
+location	Combinado
 location	Sandolandia
 location	Figueiropolis
 location	Formoso do Araguaia
 location	Gurupi
 location	Mateiros
+location	Pium
 location	Palmas
 location	Paraiso do Tacantins
 location	Guarai
-location	Presidente Kennedy
+location	Presidente Kennedy TO
 location	Araguaiana
 location	Araguaina
 location	Araguatins
@@ -9664,6 +9715,7 @@ location	Betim
 location	Ibirite
 location	Confins
 location	Belo Horizonte
+location	Palma BR
 location	Lagoa Santa
 location	Montes Claros
 location	Sabara
@@ -9823,11 +9875,13 @@ location	Santo Antonio de Jesus
 location	Camacari
 location	Cruz Das Almas
 location	Candeias
+location	Sao Francisco do Conde
 location	Santo Amaro
 location	Sao Sebastiao do Passe
 location	Pojuca
 location	Feira de Santana
 location	Barreiras
+location	Utinga
 location	Riachao do Jacuipe
 location	Canarana
 location	Serrinha
@@ -9838,35 +9892,47 @@ location	Itapicuru
 location	Alcobaca
 
 # Espirito Santo
-location	Dores do Rio Preto
-location	Irupi
-location	Laranjeiras (Espirito Santo)
-location	Jeronimo Monteiro
+location	Sao Mateus
 location	Mimoso do Sul
-location	Cachoeiro de Itapemirim
-location	Baixo Guandu
-location	Vargem Alta
 location	Marataizes
-location	Barra do Sao Francisco
-location	Santa Maria de Jetiba
-location	Aguia Branca
-location	Domingos Martins
+location	Itapemirim
+location	Rio Novo do Sul
+location	Cachoeiro de Itapemirim
 location	Anchieta
-location	Vila Pavao
-location	Santa Teresa
-location	Sao Gabriel Da Palha
+location	Iconha
+location	Jeronimo Monteiro
+location	Alegre
+location	Dores do Rio Preto
+location	Vargem Alta
 location	Guarapari
-location	Viana BR
-location	Governador Lindenberg
-location	Cariacica
-location	Fundao
-location	Vila Valerio
-location	Vitoria
-location	Serra
-location	Vila Velha
-location	Aracruz
-location	Linhares
+location	Laranjeiras (Espirito Santo)
+location	Alfredo Chaves
+location	Ibitirama
 location	Rochedo
+location	Viana BR
+location	Domingos Martins
+location	Vila Velha
+location	Irupi
+location	Vitoria
+location	Cariacica
+location	Serra
+location	Afonso Claudio
+location	Santa Maria de Jetiba
+location	Santa Teresa
+location	Fundao
+location	Aracruz
+location	Colatina
+location	Baixo Guandu
+location	Linhares
+location	Governador Lindenberg
+location	Sooretama
+location	Sao Gabriel Da Palha
+location	Vila Valerio
+location	Aguia Branca
+location	Barra do Sao Francisco
+location	Vila Pavao
+location	Presidente Kennedy
+location	Viana
 
 # Ceará
 location	Arneiroz
@@ -9924,7 +9990,7 @@ location	Passira
 location	Gravata
 location	Cha Grande
 location	Gameleira
-location	Primavera
+location	Primavera PE
 location	Lagoa do Carro
 location	Vitoria de Santo Antao
 location	Carpina
@@ -10038,9 +10104,11 @@ location	Anadia
 location	Cha Preta
 location	Vicosa
 location	Santana do Mundau
+location	Boca Da Mata
 location	Sao Miguel Dos Campos
 location	Capela (Alagoas)
 location	Uniao Dos Palmares
+location	Branquinha
 location	Roteiro
 location	Murici
 location	Marechal Deodoro
@@ -10051,6 +10119,7 @@ location	Flexeiras
 location	Colonia Leopoldina
 location	Maceio
 location	Matriz de Camaragibe
+location	Passo de Camaragibe
 location	Maragogi
 
 ### Peru
@@ -10385,9 +10454,6 @@ location	Monteria
 location	Cienaga de Oro
 location	Santa Cruz de Lorica
 
-# Bolivar
-location	Cartagena
-
 # Sucre
 location	Sincelejo
 
@@ -10397,6 +10463,9 @@ location	Valledupar
 # Magdalena
 location	Cienaga
 location	Santa Marta
+
+# Bolivar CO
+location	Cartagena
 
 # Atlantico
 location	Soledad
@@ -10945,15 +11014,19 @@ location	Coconino County
 location	Benton County
 
 # Montana
+location	Sanders County
 location	Mineral County MT
 location	Lake County MT
 location	Ravalli County
 location	Flathead County
 location	Missoula County
+location	Powell County MT
 location	Beaverhead County
+location	Glacier County
 location	Lewis and Clark County
 location	Teton County
 location	Jefferson County MT
+location	Madison County MT
 location	Toole County
 location	Ennis
 location	Broadwater County
@@ -10975,6 +11048,7 @@ location	Yellowstone County
 location	Big Horn County
 location	Valley County
 location	Roosevelt County
+location	Dawson County MT
 
 # New Mexico
 location	Luna County
@@ -11638,6 +11712,7 @@ location	Pickens County SC
 location	Anderson County SC
 location	Abbeville County
 location	Greenville County
+location	McCormick County
 location	Greenwood County
 location	Greenwood County SC
 location	Spartanburg County
@@ -11682,6 +11757,7 @@ location	Horry County
 location	Kanawha
 
 # North Carolina
+location	Rutherford County NC
 location	Mecklenburg County
 location	Forsyth County
 location	Guilford County
@@ -11996,6 +12072,7 @@ division	Hormozgan
 division	Kerman
 division	Kashmar
 division	Sistan and Baluchestan
+division	South Khorasan
 
 ### United Arab Emirates
 division	United Arab Emirates
@@ -13567,8 +13644,22 @@ division	Riga
 division	Latvia
 
 ### Estonia
+division	Saare
+division	Hiiu
+division	Lääne
 division	Harjumaa
+division	Rapla
+division	Pärnu
+division	Järva
+division	Viljandi
 division	Estonia
+division	Valga
+division	Lääne-Viru
+division	Jõgeva
+division	Tartu
+division	Võru
+division	Põlva
+division	Ida-Viru
 
 ### Finland
 division	Ostrobothnia
@@ -13923,10 +14014,10 @@ division	Antioquia
 division	Santander
 division	Norte de Santander
 division	Cordoba CO
-division	Bolivar
 division	Sucre
 division	Cesar
 division	Magdalena
+division	Bolivar CO
 division	Atlantico
 division	La Guajira
 division	San Andres y Providencia
@@ -13939,10 +14030,18 @@ division	Guyana
 
 ### Venezuela
 division	Zulia
+division	Yaracuy
+division	Carabobo
 division	Los Roques
+division	La Guaira
+division	Aragua
+division	Distrito Capital
 division	Miranda
+division	Amazonas VE
 division	Venezuela
 division	Nueva Esparta
+division	Bolivar VE
+division	Delta Amacuro
 
 ### Trinidad and Tobago
 division	Trinidad and Tobago
@@ -14007,6 +14106,9 @@ division	Saint Lucia
 
 ### Honduras
 division	Honduras
+
+### Dominica
+division	Dominica
 
 ### Guatemala
 division	Guatemala
@@ -14364,6 +14466,7 @@ country	Barbados
 country	El Salvador
 country	Saint Lucia
 country	Honduras
+country	Dominica
 country	Guatemala
 country	Guadeloupe
 country	Belize

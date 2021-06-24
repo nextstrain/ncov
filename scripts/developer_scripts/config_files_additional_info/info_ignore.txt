@@ -85,3 +85,4 @@ infection
 Traveler
 Overseas Case
 Infection
+Other: local case
