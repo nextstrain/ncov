@@ -2437,3 +2437,18 @@ USA/SEARCH-101991/2020
 USA/SEARCH-101999/2020
 USA/SEARCH-102007/2020
 USA/SEARCH-102015/2020
+
+# probably misdated, 20B clade
+Japan/20200409-129/2020
+
+# duplicates; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1624647415473100
+# additional_host_info: Same host as sample hCoV-19/Mauritius/104633/2021
+Mauritius/102293/2021
+# additional_host_info: Same host as sample hCoV-19/Mauritius/77706/2021
+Mauritius/104670/2021
+# additional_host_info: Same host as sample hCoV-19/Mauritius/88835/2021
+Mauritius/131631/2021
+# additional_host_info: Same host as sample hCoV-19/Mauritius/98032/2021
+Mauritius/50585/2021
+# additional_host_info: Same host as sample hCoV-19/Mauritius/104643/2021
+Mauritius/81784/2021
