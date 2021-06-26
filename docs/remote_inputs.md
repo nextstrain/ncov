@@ -25,16 +25,16 @@ A side-effect of this is the creation and upload of processed versions of the en
 * `aligned.fasta.xz` alignment via [nextalign](https://github.com/nextstrain/nextclade/tree/master/packages/nextalign_cli). The default reference genome is [MN908947](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) (Wuhan-Hu-1).
 * `mutation-summary.tsv.xz` A summary of the data in `aligned.fasta.xz`.
 * `masked.fasta.xz` Masked alignment
-* `filtered.fasta.xz` The masked alignment excluding data with incomplete / invalid dates, unexpected genome lengths, missing metadata etc. We also maintain a [list of sequences to exclude](https://github.com/nextstrain/ncov/blob/master/defaults/exclude.txt) which are removed at this step.
+* `filtered.fasta.xz` The masked alignment excluding data with incomplete / invalid dates, unexpected genome lengths, missing metadata etc. We also maintain a [list of sequences to exclude](https://github.com/nextstrain/ncov/blob/master/defaults/exclude.txt) which are removed at this step. These sequences represent duplicates, outliers in terms of divergence or sequences with faulty metadata.
 
 ## Subsampled datasets
 
-Our GISAID and GenBank (open) profiles each define 7 builds (a Global build and one build per region: Asia, Africa, Oceania, Europe, North & South America).
+Our GISAID and GenBank (open) profiles each define 7 builds (a Global build and one build per region: Africa, Asia, Europe, Oceania, North and South America).
 Each of these is a different subsample of the entire dataset, and each will result in the following intermediates uploaded:
 
-* `{build_name}/sequences.fasta.xz` 
+* `{build_name}/sequences.fasta.xz`
 * `{build_name}/metadata.tsv.xz`
-* `{build_name}/aligned.fasta.xz` 
+* `{build_name}/aligned.fasta.xz`
 * `{build_name}/{build_name}.json` (the main Auspice dataset file)
 * `{build_name}/{build_name}_tip-frequencies.json`
 * `{build_name}/{build_name}_root-sequence.json`
@@ -43,53 +43,53 @@ Each of these is a different subsample of the entire dataset, and each will resu
 
 # Summary of available GenBank (open) files
 
-Each regional build (global, asia, africa, oceania, europe, north-america & south-america) contains a subsampled set of approximately 4000 sequences.
+Each regional build (`global`, `africa`, `asia`, `europe`, `north-america`, `oceania` and `south-america`) contains a subsampled set of approximately 4000 sequences.
 They are a good starting point if you are seeking a representative sample of data.
 Where available, this table also provides the URL for the resulting Auspice visualisation of the data.
 
 > Please note that these files are uploaded in two batches (see above for details).
-This means that the all-GenBank metadata & sequences are typically updated a couple of hours before the other files.
+This means that the full GenBank metadata and sequences are typically updated a couple of hours before the more processed files.
 
-| description      | type      | address                                                         |
-| ---              | ---       | ---                                                             |
-| All GenBank data | metadata  | s3://nextstrain-data/files/ncov/open/metadata.tsv.gz            |
-|                  | sequences | s3://nextstrain-data/files/ncov/open/sequences.fasta.gz         |
-|                  | aligned   | s3://nextstrain-data/files/ncov/open/aligned.fasta.gz           |
-|                  | masked    | s3://nextstrain-data/files/ncov/open/masked.fasta.gz            |
-|                  | filtered  | s3://nextstrain-data/files/ncov/open/filtered.fasta.gz          |
-| Global sample    | metadata  | s3://nextstrain-data/files/ncov/open/global/metadata.tsv.gz     |
-|                  | sequences | s3://nextstrain-data/files/ncov/open/global/sequences.fasta.gz  |
-|                  | aligned   | s3://nextstrain-data/files/ncov/open/global/aligned.fasta.gz    |
-|                  | auspice   | nextstrain.org/ncov/open/global                                 |
-| Asia sample      | metadata  | s3://nextstrain-data/files/ncov/open/asia/metadata.tsv.gz    |
-|                  | sequences | s3://nextstrain-data/files/ncov/open/asia/sequences.fasta.gz |
-|                  | aligned   | s3://nextstrain-data/files/ncov/open/asia/aligned.fasta.gz   |
-|                  | auspice   | nextstrain.org/ncov/open/asia                                |
-| Africa sample    | metadata  | s3://nextstrain-data/files/ncov/open/africa/metadata.tsv.gz    |
-|                  | sequences | s3://nextstrain-data/files/ncov/open/africa/sequences.fasta.gz |
-|                  | aligned   | s3://nextstrain-data/files/ncov/open/africa/aligned.fasta.gz   |
-|                  | auspice   | nextstrain.org/ncov/open/africa                                |
-| Europe sample    | metadata  | s3://nextstrain-data/files/ncov/open/europe/metadata.tsv.gz    |
-|                  | sequences | s3://nextstrain-data/files/ncov/open/europe/sequences.fasta.gz |
-|                  | aligned   | s3://nextstrain-data/files/ncov/open/europe/aligned.fasta.gz   |
-|                  | auspice   | nextstrain.org/ncov/open/europe                                |
-| North-America sample    | metadata  | s3://nextstrain-data/files/ncov/open/north-america/metadata.tsv.gz    |
-|                  | sequences | s3://nextstrain-data/files/ncov/open/north-america/sequences.fasta.gz |
-|                  | aligned   | s3://nextstrain-data/files/ncov/open/north-america/aligned.fasta.gz   |
-|                  | auspice   | nextstrain.org/ncov/open/north-america    
-| South-America sample    | metadata  | s3://nextstrain-data/files/ncov/open/south-america/metadata.tsv.gz    |
-|                  | sequences | s3://nextstrain-data/files/ncov/open/south-america/sequences.fasta.gz |
-|                  | aligned   | s3://nextstrain-data/files/ncov/open/south-america/aligned.fasta.gz   |
-|                  | auspice   | nextstrain.org/ncov/open/south-america    
-| Oceania sample   | metadata  | s3://nextstrain-data/files/ncov/open/oceania/metadata.tsv.gz    |
-|                  | sequences | s3://nextstrain-data/files/ncov/open/oceania/sequences.fasta.gz |
-|                  | aligned   | s3://nextstrain-data/files/ncov/open/oceania/aligned.fasta.gz   |
-|                  | auspice   | nextstrain.org/ncov/open/oceania                                |
+| description          | type      | address                                                         |
+| ---                  | ---       | ---                                                             |
+| Full GenBank data    | metadata  | s3://nextstrain-data/files/ncov/open/metadata.tsv.gz            |
+|                      | sequences | s3://nextstrain-data/files/ncov/open/sequences.fasta.gz         |
+|                      | aligned   | s3://nextstrain-data/files/ncov/open/aligned.fasta.gz           |
+|                      | masked    | s3://nextstrain-data/files/ncov/open/masked.fasta.gz            |
+|                      | filtered  | s3://nextstrain-data/files/ncov/open/filtered.fasta.gz          |
+| Global sample        | metadata  | s3://nextstrain-data/files/ncov/open/global/metadata.tsv.gz     |
+|                      | sequences | s3://nextstrain-data/files/ncov/open/global/sequences.fasta.gz  |
+|                      | aligned   | s3://nextstrain-data/files/ncov/open/global/aligned.fasta.gz    |
+|                      | auspice   | nextstrain.org/ncov/open/global                                 |
+| Africa sample        | metadata  | s3://nextstrain-data/files/ncov/open/africa/metadata.tsv.gz     |
+|                      | sequences | s3://nextstrain-data/files/ncov/open/africa/sequences.fasta.gz  |
+|                      | aligned   | s3://nextstrain-data/files/ncov/open/africa/aligned.fasta.gz    |
+|                      | auspice   | nextstrain.org/ncov/open/africa                                 |
+| Asia sample          | metadata  | s3://nextstrain-data/files/ncov/open/asia/metadata.tsv.gz       |
+|                      | sequences | s3://nextstrain-data/files/ncov/open/asia/sequences.fasta.gz    |
+|                      | aligned   | s3://nextstrain-data/files/ncov/open/asia/aligned.fasta.gz      |
+|                      | auspice   | nextstrain.org/ncov/open/asia                                   |
+| Europe sample        | metadata  | s3://nextstrain-data/files/ncov/open/europe/metadata.tsv.gz     |
+|                      | sequences | s3://nextstrain-data/files/ncov/open/europe/sequences.fasta.gz  |
+|                      | aligned   | s3://nextstrain-data/files/ncov/open/europe/aligned.fasta.gz    |
+|                      | auspice   | nextstrain.org/ncov/open/europe                                 |
+| North America sample | metadata  | s3://nextstrain-data/files/ncov/open/north-america/metadata.tsv.gz    |
+|                      | sequences | s3://nextstrain-data/files/ncov/open/north-america/sequences.fasta.gz |
+|                      | aligned   | s3://nextstrain-data/files/ncov/open/north-america/aligned.fasta.gz   |
+|                      | auspice   | nextstrain.org/ncov/open/north-america                          |
+| Oceania sample       | metadata  | s3://nextstrain-data/files/ncov/open/oceania/metadata.tsv.gz    |
+|                      | sequences | s3://nextstrain-data/files/ncov/open/oceania/sequences.fasta.gz |
+|                      | aligned   | s3://nextstrain-data/files/ncov/open/oceania/aligned.fasta.gz   |
+|                      | auspice   | nextstrain.org/ncov/open/oceania                                |
+| South America sample | metadata  | s3://nextstrain-data/files/ncov/open/south-america/metadata.tsv.gz    |
+|                      | sequences | s3://nextstrain-data/files/ncov/open/south-america/sequences.fasta.gz |
+|                      | aligned   | s3://nextstrain-data/files/ncov/open/south-america/aligned.fasta.gz   |
+|                      | auspice   | nextstrain.org/ncov/open/south-america                          |
 
 
 ---
 
-# Starting your build from these intermediates 
+# Starting your build from these intermediates
 
 Each workflow defines one or more inputs in the `builds.yaml` file.
 
