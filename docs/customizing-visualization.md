@@ -18,7 +18,7 @@ files:
   auspice_config: "my_profiles/example/my_auspice_config.json"
 ```
 
-This points to a JSON file that parameterizes the output files used for visualizion with Auspice.
+This points to a JSON file that parametrizes the output files used for visualizion with Auspice.
 Let's look at what kinds of customization options we can use this for.
 
 

@@ -171,7 +171,7 @@ files:
 ## Here are some examples below - uncomment if you want to use them:
 
 ## Modify filter settings. By default we filter out sequences less than 27000 bases
-## If you wanted to include slightly shorter sequeces, change this:
+## If you wanted to include slightly shorter sequences, change this:
 #filter:
 #  min_length: 25000
 

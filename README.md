@@ -72,6 +72,6 @@ If you're a lab and you'd like to get started sequencing, please see:
 
 # Get in touch
 
-To report a bug, error, or feature request, please [open an isssue](https://github.com/nextstrain/ncov/issues).
+To report a bug, error, or feature request, please [open an issue](https://github.com/nextstrain/ncov/issues).
 
 For questions, head over to the [discussion board](https://discussion.nextstrain.org/); we're happy to help!

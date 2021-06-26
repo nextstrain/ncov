@@ -234,7 +234,7 @@ subsampling:
       exclude: "--exclude-where 'region!=Oceania'"
 
   # Custom subsampling for regions like Europe where grouping by country
-  # is the smallest resolution requied
+  # is the smallest resolution required
   nextstrain_region_grouped_by_country:
     # Focal samples for region
     region_late:

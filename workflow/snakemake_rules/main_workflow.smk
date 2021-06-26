@@ -292,7 +292,7 @@ def _get_specific_subsampling_setting(setting, optional=False):
     # augur argument in their value, and some must not. For instance:
     # subsamplingScheme -> sampleName -> group_by: year                            (`--group-by` is _not_ part of this value)
     #                                 -> exclude: "--exclude-where 'country=USA'"  (`--exclude-where` IS part of this value)
-    # Since there are a lot of subsampling schemes out there, backwards compatability
+    # Since there are a lot of subsampling schemes out there, backwards compatibility
     # is important!                                 james hadfield, feb 2021
     def _get_setting(wildcards):
         if optional:
@@ -451,7 +451,7 @@ rule proximity_score:
     message:
         """
         determine priority for inclusion in as phylogenetic context by
-        genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
+        genetic similarity to sequences in focal set for build '{wildcards.build_name}'.
         """
     input:
         alignment = _get_unified_alignment,

@@ -1,6 +1,6 @@
 ## Data Submitter's FAQ
 
-We often recieve questions from data submittors about why their data is not visible on the [Nextstrain SARS-CoV-2 runs](https://nextstrain.org/ncov). 
+We often receive questions from data submittors about why their data is not visible on the [Nextstrain SARS-CoV-2 runs](https://nextstrain.org/ncov). 
 This short FAQ highlights some of the main reasons why data may not be showing up on Nextstrain.
 
 ### Sequence Length & Number of N's

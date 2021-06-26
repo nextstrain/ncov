@@ -33,7 +33,7 @@ def read_local_file(file_name): #TODO: how will final file structure look like? 
 
     second_files = [path_to_config_files+fi for fi in ["wrong_regions.txt", "abbreviations.txt", "false_divisions.txt"] ]
 
-    if path_file_name in second_files: #dictionary, keys seperated from content with tabs
+    if path_file_name in second_files: #dictionary, keys separated from content with tabs
         content = {}
         for line in file_content[1:]:
             l = line.strip().split("\t")

@@ -134,7 +134,7 @@ To facilitate spotting such problematic sequences, we added an additional qualit
  * `results/to-exclude.txt`
 
 These files are the output of `scripts/diagnostics.py` and are produced by rule `diagnostic`.
-The first file contains statistics for every sequence in the aligment, sorted by divergence worst highest to lowest.
+The first file contains statistics for every sequence in the alignment, sorted by divergence worst highest to lowest.
 The second file contains only those sequences with diagnostics exceeding thresholds each with their specific reason for flagging -- these are sorted by submission date (newest to oldest).
 The third file contains only the names of the flagged sequences and mirrors the format of `config/exclude.txt`.
 These names could be added to `config/exclude.txt` for permanent exclusion.

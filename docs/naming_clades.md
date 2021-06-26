@@ -48,7 +48,7 @@ You can view the current clades on the Global SARS-CoV-2 Nextstrain tree [here](
 
 ### Identifying Nextstrain Clades
 
-To make it easy for users to identify the Nextstrain clade of their own sequences, we provide a clade assigment tool at [clades.nextstrain.org](https://clades.nextstrain.org/).
+To make it easy for users to identify the Nextstrain clade of their own sequences, we provide a clade assignment tool at [clades.nextstrain.org](https://clades.nextstrain.org/).
 In addition to assigning clades, this tool will call mutations in your sequences relative to the reference and performs some basic QC.
 
 You can also use the [simple python script](https://github.com/nextstrain/ncov/blob/master/assign_clades.py) to assign appropriate clades to sequences in a fasta file.

@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
 
             # print the last match as clade assignment and all others as ancestral clades
-            # note that this assumes that clades in the tsv are ordered by order of appearence.
+            # note that this assumes that clades in the tsv are ordered by order of appearance.
             # furthermore, this will only work if parent clades don't have definitions that exclude
             # child clades, i.e. positions can only be additive for this to work.
             if matches:
