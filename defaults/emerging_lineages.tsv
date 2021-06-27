@@ -16,6 +16,11 @@ B.1.1.7 (Alpha)	nuc	23063	T
 B.1.1.7 (Alpha)	nuc	14676	T
 B.1.1.7 (Alpha)	nuc	15279	T
 
+B.1.1.318	nuc	21846	T
+B.1.1.318	nuc	24382	T
+B.1.1.318	nuc	25276	A
+B.1.1.318	nuc	26767	C
+
 B.1.1.519	nuc	22995	A
 B.1.1.519	nuc	10954	T
 B.1.1.519	nuc	22995	A
@@ -73,10 +78,15 @@ B.1.621	nuc	13057	T
 B.1.621	nuc	17491	T
 B.1.621	nuc	19035	C
 
-C.37	nuc	21786	T
-C.37	nuc	21789	T
-C.37	nuc	22917	A
-C.37	nuc	23031	C
+C.36.3	nuc	17743	A
+C.36.3	nuc	22016	A
+C.36.3	nuc	23329	A
+C.36.3	nuc	24257	T
+
+C.37 (Lambda)	nuc	21786	T
+C.37 (Lambda)	nuc	21789	T
+C.37 (Lambda)	nuc	22917	A
+C.37 (Lambda)	nuc	23031	C
 
 P.1 (Gamma)	nuc	733	C
 P.1 (Gamma)	nuc	2749	T
