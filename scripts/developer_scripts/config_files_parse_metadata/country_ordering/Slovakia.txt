@@ -299,7 +299,7 @@ District of Gelnica
 	Gelnica
 	Helcmanovce
 	Henclová
-	Závadka, district Gelnica
+	Závadka (Gelnica)
 	Žakarovce
 	Hrišovce
 	Jaklovce
@@ -361,7 +361,7 @@ District of Kosice – okolie
 	Bohdanovce
 	Boliarov
 	Budimír
-	Bukovec, district Kosice - okolie
+	Bukovec (Kosice)
 	Bunetice
 	Buzica
 	Cestice
@@ -1554,7 +1554,7 @@ District of Zilina
 	Ovčiarsko
 	Paština Závada
 	Lietavská Lúčka
-	Porúbka, district Zilina
+	Porúbka (Zilina)
 	Ďurčiná
 	Kľače
 	Nezbudská Lúčka
@@ -2278,7 +2278,7 @@ District of Rimavska Sobota
 	Chrámec
 	Ivanice
 	Janice
-	Jesenské, district Rimavska Sobota
+	Jesenské (Rimavska Sobota)
 	Jestice
 	Kaloša
 	Kesovce
@@ -2682,7 +2682,7 @@ District of Humenne
 	Jankovce
 	Kamenica nad Cirochou
 	Karná
-	Kochanovce, district Humenne
+	Kochanovce (Humenne)
 	Koškovce
 	Lieskovec, district Humenne
 	Ľubiša
@@ -2830,7 +2830,7 @@ District of Poprad
 	Poprad
 	Batizovce
 	Gánovce
-	Gerlachov, district Poprad
+	Gerlachov (Poprad)
 	Hôrka
 	Hozelec
 	Hranovnica
