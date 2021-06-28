@@ -14765,12 +14765,15 @@ clade_membership	21C (Epsilon)
 clade_membership	21D (Eta)
 clade_membership	21E (Theta)
 clade_membership	21F (Iota)
+clade_membership	21G (Lambda)
+clade_membership	21H
 
 ################
 
 
 emerging_lineage	A.23.1
 emerging_lineage	B.1.1.7 (Alpha)
+emerging_lineage	B.1.1.318
 emerging_lineage	B.1.1.519
 emerging_lineage	B.1.351 (Beta)
 emerging_lineage	B.1.427/429 (Epsilon)
@@ -14781,7 +14784,8 @@ emerging_lineage	B.1.617.2 (Delta)
 emerging_lineage	B.1.619
 emerging_lineage	B.1.620
 emerging_lineage	B.1.621
-emerging_lineage	C.37
+emerging_lineage	C.36.3
+emerging_lineage	C.37 (Lambda)
 emerging_lineage	P.1 (Gamma)
 emerging_lineage	P.3 (Theta)
 
@@ -14789,13 +14793,9 @@ emerging_lineage	P.3 (Theta)
 
 
 pango_lineage	A
-pango_lineage	A.1
 pango_lineage	A.2
-pango_lineage	A.2.1
 pango_lineage	A.2.2
-pango_lineage	A.2.3
 pango_lineage	A.2.4
-pango_lineage	A.2.5
 pango_lineage	A.2.5.1
 pango_lineage	A.2.5.2
 pango_lineage	A.3
@@ -14825,6 +14825,7 @@ pango_lineage	A.25
 pango_lineage	A.26
 pango_lineage	A.27
 pango_lineage	A.28
+pango_lineage	A.29
 pango_lineage	AA.1
 pango_lineage	AA.2
 pango_lineage	AA.3
@@ -14866,6 +14867,10 @@ pango_lineage	AQ.2
 pango_lineage	AS.1
 pango_lineage	AS.2
 pango_lineage	AT.1
+pango_lineage	AU.1
+pango_lineage	AU.2
+pango_lineage	AU.3
+pango_lineage	AV.1
 pango_lineage	B
 pango_lineage	B.1
 pango_lineage	B.1.1
@@ -15334,6 +15339,8 @@ pango_lineage	B.1.1.517
 pango_lineage	B.1.1.518
 pango_lineage	B.1.1.519
 pango_lineage	B.1.1.521
+pango_lineage	B.1.1.522
+pango_lineage	B.1.1.523
 pango_lineage	B.1.2
 pango_lineage	B.1.3
 pango_lineage	B.1.3.1
@@ -15856,6 +15863,7 @@ pango_lineage	B.1.350.1
 pango_lineage	B.1.351
 pango_lineage	B.1.351.1
 pango_lineage	B.1.351.2
+pango_lineage	B.1.351.3
 pango_lineage	B.1.352
 pango_lineage	B.1.353
 pango_lineage	B.1.355
@@ -16075,7 +16083,6 @@ pango_lineage	B.1.549
 pango_lineage	B.1.550
 pango_lineage	B.1.551
 pango_lineage	B.1.552
-pango_lineage	B.1.553
 pango_lineage	B.1.554
 pango_lineage	B.1.555
 pango_lineage	B.1.556
@@ -16136,7 +16143,6 @@ pango_lineage	B.1.604
 pango_lineage	B.1.605
 pango_lineage	B.1.606
 pango_lineage	B.1.607
-pango_lineage	B.1.608
 pango_lineage	B.1.609
 pango_lineage	B.1.610
 pango_lineage	B.1.611
@@ -16153,6 +16159,8 @@ pango_lineage	B.1.618
 pango_lineage	B.1.619
 pango_lineage	B.1.620
 pango_lineage	B.1.621
+pango_lineage	B.1.622
+pango_lineage	B.1.623
 pango_lineage	B.2.1
 pango_lineage	B.2.6
 pango_lineage	B.2.10
@@ -16312,6 +16320,7 @@ pango_lineage	W.1
 pango_lineage	W.2
 pango_lineage	W.3
 pango_lineage	W.4
+pango_lineage	XA
 pango_lineage	Y.1
 pango_lineage	Z.1
 
