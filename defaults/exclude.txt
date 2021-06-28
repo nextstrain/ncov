@@ -2458,3 +2458,16 @@ India/MH-NCCS-2749001178208/2021
 
 # too early for clade v1; https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1624653775475600?thread_ts=1624585918.467900&cid=CTZKJC7PZ
 USA/TX-HMH-MCoV-40964/2020
+
+# Too early for clade
+Thailand/Songkhla-CONI-0807/2020
+Thailand/Songkhla-CONI-0808/2020
+USA/DC-DFS-PHL-0666/2021
+USA/NY-COV-1352/2020
+
+# Divergence, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1624863126484500
+USA/LA-EVTL3005/2021
+Iran/Krj-12-107/2021
+CzechRepublic/191056-21cs/2021
+Kuwait/JAH2380/2021
+India/GJ-GBRC327b/2020
