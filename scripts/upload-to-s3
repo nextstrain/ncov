@@ -52,6 +52,7 @@ content-type() {
         *.tsv)      echo --content-type=text/tab-separated-values;;
         *.csv)      echo --content-type=text/comma-separated-values;;
         *.ndjson)   echo --content-type=application/x-ndjson;;
+        *.json)     echo --content-type=application/json;;
         *)          echo --content-type=text/plain;;
     esac
 }
