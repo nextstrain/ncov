@@ -610,6 +610,7 @@ location	Kamrup
 location	Darrang
 location	Morigaon
 location	Hojai
+location	Dibrugarh
 
 # Rajasthan
 location	Jodhpur
@@ -853,7 +854,6 @@ location	Gazipur
 location	Vatara
 location	Sayedabad
 location	Jatrabari
-location	Damudya
 location	Aftabnagar
 location	Basundhara Residential Area
 location	Narayanganj
@@ -1068,6 +1068,7 @@ location	Tangerang
 
 # Jakarta
 location	South Jakarta
+location	Central Jakarta
 
 # West Java
 location	Bogor
@@ -1266,6 +1267,9 @@ location	Velingara
 location	Brobo
 
 ### Morocco
+# Souss-Massa
+location	Inezgane
+
 # Rabat
 location	Ain Aouda
 
@@ -3076,6 +3080,9 @@ location	Redon
 location	Dinan
 location	Maxent
 location	Saint Malo
+location	Romille
+location	Les Iffs
+location	Mordelles
 location	Goven
 location	Tinteniac
 location	Saint Gilles (Bretagne)
@@ -3084,6 +3091,7 @@ location	Saint Gregoire
 location	Noyal Chatillon sur Seiche
 location	Betton
 location	Vern sur Seiche
+location	Cesson Sevigne
 location	Sens de Bretagne
 location	Vitre
 location	Fougères
@@ -6147,16 +6155,22 @@ location	Albrechtice
 location	Karviná
 location	Cesky Tesin
 
+### Bosnia and Herzegovina
+# Zenica-Doboj
+location	Visoko
+
 ### Poland
 # Lubuskie
 location	Bronowice
 location	Szprotawa
 location	Zagan
 location	Tomaszowo
+location	Nowe Miasteczko
 location	Bytom Odrzanski
 location	Lubsko
 location	Nowogrod Bobrzanski
 location	Nowa Sol
+location	Modrzyca
 location	Swidnica LB
 location	Zielona Gora
 location	Gubin
@@ -6333,9 +6347,11 @@ location	Czarny Bor
 location	Kochanow
 location	Legnica
 location	Lubin
+location	Rynarcice
 location	Walbrzych
 location	Swiebodzice
 location	Strzegom
+location	Witoszow Gorny
 location	Przyborow
 location	Swidnica DS
 location	Zarow
@@ -6364,6 +6380,7 @@ location	Zachowice
 location	Sulislawice
 location	Ząbkowice Śląskie
 location	Jagodnik
+location	Niemcza
 location	Wilkow Wielki
 location	Bobolice
 location	Sosnowa
@@ -6488,6 +6505,7 @@ location	Gostyn
 location	Przebedowo
 location	Tworzymirki
 location	Złotów
+location	Wasosz
 location	Piaski
 location	Zalasewo
 location	Tulce
@@ -6496,6 +6514,7 @@ location	Smogorzewo
 location	Skoki
 location	Wagrowiec
 location	Borowo-Mlyn
+location	Czerlejno
 location	Kostrzyn (Wielkopolskie)
 location	Jarosławiec
 location	Pogorzela
@@ -6525,6 +6544,7 @@ location	Pleszew
 location	Miaty
 location	Ostrow (Wielkopolskie)
 location	Kruchowo
+location	Stary Dwor
 location	Trzemeszno
 location	Sulecin (Wielkopolskie)
 location	Słupca
@@ -6551,6 +6571,7 @@ location	Kowale Ksieze
 location	Turek
 location	Skarbki
 location	Kowale Panskie-Kolonia
+location	Kaczki Srednie
 location	Czajkow
 location	Zimotki
 location	Koło
@@ -6559,6 +6580,7 @@ location	Nowa Wioska
 
 # Opolskie
 location	Goscice
+location	Paczkow
 location	Otmuchow
 location	Galazczyce
 location	Biala Nyska
@@ -6570,12 +6592,15 @@ location	Głuchołazy
 location	Bodzanow
 location	Stary las
 location	Brzeg
+location	Malerzowice Wielkie
 location	Tarnica
+location	Koscierzyce
 location	Laka Prudnicka
 location	Łąka Prudnicka
 location	Lambinowice
 location	Laskowiec
 location	Prudnik
+location	Smicz
 location	Biała
 location	Bąkowice
 location	Namysłów
@@ -6583,6 +6608,7 @@ location	Zopowy-Osiedle
 location	Branice
 location	Nowe Goluszowice
 location	Chroscina
+location	Chroscice
 location	Gluszyna
 location	Komprachcice
 location	Glubczyce
@@ -6592,6 +6618,7 @@ location	Grobniki
 location	Lisiecice
 location	Stare Kotkowice
 location	Opole
+location	Rogow (Opolskie)
 location	Krapkowice
 location	Baborow
 location	Kietrz
@@ -6610,6 +6637,7 @@ location	Ujazd
 location	Olesno
 location	Barut
 location	Zedowice
+location	Janinow
 
 # Pomorskie
 location	Grzybno
@@ -6717,30 +6745,30 @@ location	Katy Rybackie
 location	Nowiec
 
 # Kujawsko-Pomorskie
-location	Lipno
-location	Mogilno
-location	Wloclawek
-location	Dziarnowo
-location	Znin
-location	Barcin
-location	Aleksandrow Kujawski
 location	Nadborowo
+location	Sepolno Krajenskie
+location	Nakło
+location	Znin
 location	Dobrylewo
 location	Redczyce
-location	Torun
+location	Tuchola
+location	Barcin
+location	Mogilno
 location	Bydgoszcz
-location	Nakło
-location	Brodnica
-location	Wabrzezno
-location	Bobrowo
+location	Ludwichowo
+location	Dziarnowo
 location	Pruszcz
 location	Chełmno
-location	Bialy Bor
 location	Swiecie
-location	Sepolno Krajenskie
+location	Torun
+location	Aleksandrow Kujawski
+location	Bialy Bor
 location	Grudziadz
-location	Tuchola
-location	Ludwichowo
+location	Wabrzezno
+location	Wloclawski
+location	Lipnowski
+location	Bobrowo
+location	Brodnica
 
 # Slaskie
 location	Dankowice
@@ -6823,9 +6851,12 @@ location	Brzeznio
 location	Miklesz
 location	Losieniec
 location	Klocko
+location	Sokolow
 location	Sieradz
 location	Oplotki
 location	Strzalki
+location	Chojne
+location	Zalesie (Łódzkie)
 location	Zdunska Wola
 location	Poddebice
 location	Wartkowice
@@ -6849,7 +6880,7 @@ location	Wiaczyn Dolny
 location	Wisniowa Gora
 location	Bedon Przykoscielny
 location	Bedon-Wies
-location	Rogow
+location	Rogow (Łódzkie)
 location	Bukowiec
 location	Teodorow
 location	Jordanow
@@ -7178,6 +7209,7 @@ location	Dabrowka (Mazowieckie)
 location	Gostynin
 location	Halinow
 location	Plock
+location	Zaluskow
 location	Laziska
 location	Sochaczew
 location	Miedniewice
@@ -7195,11 +7227,13 @@ location	Losia Wolka
 location	Kostrzyn (Mazowieckie)
 location	Cyganka MZ
 location	Oltarzew
+location	Dylew
 location	Pruszkow
 location	Bukowno
 location	Walendow
 location	Piastow
 location	Przybyszew
+location	Latchorzew
 location	Bleszno
 location	Korzen
 location	Lekarcice Stare
@@ -7211,6 +7245,7 @@ location	Stara Blotnica
 location	Warszawa
 location	Nowy Kielbow
 location	Łaz
+location	Szczyty
 location	Piaseczno
 location	Brodno-Warszawa
 location	Stromiecka Wola
@@ -11540,6 +11575,7 @@ location	Calcasieu Parish
 location	Beauregard Parish
 location	Webster Parish
 location	Red River Parish
+location	Cameron Parish
 location	Natchitoches Parish
 location	Bienville Parish
 location	Claiborne Parish
@@ -12588,7 +12624,6 @@ division	Lampung
 division	Banten
 division	Kepulauan Bangka Belitung
 division	Jakarta
-division	Central Jakarta
 division	West Java
 division	West Kalimantan
 division	Yogyakarta
@@ -12617,6 +12652,7 @@ division	Papua
 division	Brunei
 
 ### Taiwan
+division	Pingtung County
 division	Tainan
 division	Taiwan
 division	Changhua County
@@ -12794,6 +12830,7 @@ division	Ferkessedougou
 
 ### Morocco
 division	Dakhla
+division	Souss-Massa
 division	Settat
 division	Casablanca
 division	Berrechid
@@ -13613,6 +13650,7 @@ division	Bosnia and Herzegovina
 division	Vitez
 division	Mostar
 division	Zenica
+division	Zenica-Doboj
 division	Zepce
 division	Maglaj
 division	Kakanj
