@@ -277,9 +277,6 @@ location	Ernakulam
 location	Thrissur
 location	Kozhikode
 
-# Puducherry
-location	Puducherry
-
 # Tamil Nadu
 location	Salem
 location	The Nilgiris
@@ -291,6 +288,7 @@ location	Kanyakumari
 location	Tirunelveli
 location	Erode
 location	Sivakasi
+location	Virudhunagar
 location	Dindigul
 location	Karur
 location	Madurai
@@ -315,6 +313,7 @@ location	Thiruvarur
 location	Kancheepuram
 location	Cuddalore
 location	Nagapattinam
+location	Puducherry
 location	Thiruvallur
 location	Chengalpattu
 location	Chennai
@@ -1087,7 +1086,6 @@ location	Sleman
 # Central Java
 location	Cilacap
 location	Brebes
-location	Salatiga
 location	Purwokerto
 
 # East Java
@@ -9790,6 +9788,7 @@ location	Braganca Paulista
 location	Santo Andre
 location	Socorro
 location	Guarulhos
+location	Ilha Bela
 location	Maua
 location	Jose Bonifacio
 location	Cubatao
@@ -11025,6 +11024,7 @@ location	Danlí
 # Baja California
 location	Rosarito
 location	Tijuana
+location	Tecate
 location	Ensenada MX
 location	Mexicali
 
@@ -11265,12 +11265,14 @@ location	Lake County MT
 location	Ravalli County
 location	Flathead County
 location	Missoula County
+location	Deer Lodge County
 location	Powell County MT
 location	Beaverhead County
 location	Glacier County
 location	Lewis and Clark County
 location	Teton County
 location	Jefferson County MT
+location	Pondera County
 location	Madison County MT
 location	Toole County
 location	Ennis
@@ -11281,6 +11283,7 @@ location	Gallatin County MT
 location	West Yellowstone
 location	Liberty County MT
 location	Bozeman
+location	Park County MT
 location	Chouteau County
 location	Hill County MT
 location	Sweet Grass County
@@ -12402,7 +12405,6 @@ division	Kyrgyzstan
 
 ### India
 division	Kerala
-division	Puducherry
 division	Tamil Nadu
 division	Andaman and Nicobar Islands
 division	Goa
