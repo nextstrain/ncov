@@ -8013,3 +8013,14 @@ France/HDF-100002988278/2021
 
 # passaged; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1624988310016900?thread_ts=1624986578.014900&cid=CTZKJC7PZ
 Germany/un-FLI-B.1.351/2021
+
+# Divergence, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1625040602026000 and following threads
+Angola/CERI-KRISP-K013423/2020 
+Mozambique/CERI-KRISP-K015076/2021
+Mozambique/INS-K011777/2020
+SouthAfrica/NICD-N3577/2021
+USA/LA-EVTL2810/2021
+Angola/CERI-KRISP-K013705/2020
+USA/LA-EVTL3006/2021
+Brazil/AL-FIOCRUZ-33813/2020
+Ireland/G-NVRL-g20IRL11348/2020
