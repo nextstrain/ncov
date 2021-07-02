@@ -58,7 +58,9 @@ if __name__ == '__main__':
     to_exclude |= snp_clusters>args.snp_clusters
     to_exclude |= rare_mutations>args.rare_mutations
     to_exclude |= np.abs(clock_deviation+rare_mutations)>args.clock_plus_rare
-    to_exclude |= metadata.QC_mixed_sites=='bad'
+
+    if "QC_mixed_sites" in metadata.columns:
+        to_exclude |= metadata.QC_mixed_sites=='bad'
 
     # write out file with sequences flagged for exclusion
     with open(args.output_exclusion_list, 'w') as excl:
