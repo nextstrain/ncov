@@ -254,3 +254,13 @@ Beveren (Leie)	Beveren-Leie
 Jabeke	Jabbeke
 Westerloo	Westerlo
 Mariakerke (Gent)	Mariakerke
+Ruislede	Ruiselede
+Mouskroen	Mouscron
+Roesel	Roeselare
+Purs-Sint-Amands	Puurs-Sint-Amands
+Hontaine-l'Eveque	Fontaine-l'Évêque
+Louvain-la-Neuve	Ottignies-Louvain-la-Neuve
+Hiest-op-Den-Berg	Heist-op-den-Berg
+1367	Ramillies
+Winkesele	Winksele
+
