@@ -143,7 +143,7 @@ def resolve_duplicates(metadata, strain_field, error_on_duplicates=False):
     # "?"), we end up returning the last record for a given strain as a
     # reasonable default.
     sort_fields = [strain_field]
-    if len(accession_fields) > 0:
+    if accession_fields:
         sort_fields.extend(accession_fields)
 
     # Return the last record from each group after sorting by strain and

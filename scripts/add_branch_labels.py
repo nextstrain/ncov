@@ -12,11 +12,11 @@ def extract_spike_mutations(node_data):
     return data
 
 def extract_clade_labels(node_data):
-    data = {}
-    for name, node in node_data["nodes"].items():
-        if "clade_annotation" in node:
-            data[name] = node["clade_annotation"]
-    return data
+    return {
+        name: node["clade_annotation"]
+        for name, node in node_data["nodes"].items()
+        if "clade_annotation" in node
+    }
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -44,14 +44,14 @@ if __name__ == '__main__':
 
     def attach_labels(n): # closure
       if n["name"] in spike_mutations or n["name"] in clade_labels:
-          if "branch_attrs" not in n:
-              n["branch_attrs"]={}
-          if "labels" not in n["branch_attrs"]:
-              n["branch_attrs"]["labels"]={}
-          if n["name"] in spike_mutations:
-              n["branch_attrs"]["labels"]["spike_mutations"] = spike_mutations[n["name"]]
-          if n["name"] in clade_labels:
-              n["branch_attrs"]["labels"]["emerging_lineage"] = clade_labels[n["name"]]
+        if "branch_attrs" not in n:
+            n["branch_attrs"]={}
+        if "labels" not in n["branch_attrs"]:
+            n["branch_attrs"]["labels"]={}
+      if n["name"] in spike_mutations:
+          n["branch_attrs"]["labels"]["spike_mutations"] = spike_mutations[n["name"]]
+      if n["name"] in clade_labels:
+          n["branch_attrs"]["labels"]["emerging_lineage"] = clade_labels[n["name"]]
 
       if "children" in n:
           for c in n["children"]:
