@@ -2447,6 +2447,7 @@ location	Leitza
 location	Gartzain
 
 # Murcia
+location	El Palmar
 location	Murcia
 
 # Aragon
@@ -2956,6 +2957,7 @@ location	Torroella de Montgri
 location	Empuriabrava
 location	Palamos
 location	Mont-Ras
+location	Pals
 location	Llanca
 location	Palafrugell
 location	Regencos
@@ -3481,7 +3483,7 @@ location	Bellenaves
 location	Clermont-Ferrand
 location	Marsat
 location	Chateaugay
-location	Beaumont
+location	Beaumont FR
 location	Combronde
 location	St Saturnin
 location	Yssac la Tourette
@@ -3799,6 +3801,7 @@ location	Manosque
 location	Sanary-sur-Mer
 location	La Seyne-sur-Mer
 location	Toulon
+location	Sisteron
 location	Gap
 location	Provence
 location	Var
@@ -3846,9 +3849,11 @@ location	Saint-Benoit
 ### Belgium
 # Veurne
 location	De Panne
+location	Leisele
 location	Koksijde
 location	Oostduinkerke
 location	Nieuwpoort
+location	Sint-Joris (Veurne)
 location	Beveren
 
 # Diksmuide
@@ -3864,13 +3869,17 @@ location	Watou
 location	Roesbrugge-Haringe
 location	Poperinge
 location	Vleteren
+location	Westouter
+location	Elverdinge
 location	Vlamertinge
 location	Kemmel
 location	Brielen
 location	Wulvergem
+location	Boezinge
 location	Wijtschate
 location	Zillebeke
 location	Langemark-Poelkapelle
+location	Hollebeke
 location	Langemark
 location	Zonnebeke
 location	Wervik
@@ -3880,6 +3889,7 @@ location	Geluwe
 location	Westende
 location	Middelkerke
 location	Mannekensvere
+location	Wilskerke
 location	Schore
 location	Leffinge
 location	Zevekote
@@ -3955,9 +3965,11 @@ location	Sint-Denijs
 location	Moen
 location	Sint-Eloois-Vijve
 location	Bossuit
+location	Heestert
 location	Waregem
 location	Avelgem
 location	Anzegem
+location	Kaster
 
 # Tielt
 location	Ardooie
@@ -3971,6 +3983,7 @@ location	Wielsbeke
 location	Ruiselede
 location	Wakken
 location	Dentergem
+location	Aarsele
 
 # Tournai-Mouscron
 location	Ploegsteert
@@ -4014,10 +4027,14 @@ location	Maldegem
 location	Bassevelde
 location	Oosteeklo
 location	Assenede
+location	Zelzate
 
 # Oudenaarde
+location	Nokere
+location	Kluisbergen
 location	Wortegem-Petegem
 location	Ronse
+location	Horebeke
 location	Brakel
 location	Bevere
 
@@ -4028,13 +4045,16 @@ location	Zulte
 location	Deinze
 location	Nevele
 location	Lovendegem
+location	Sint-Martens-Latem
 location	Asper
 location	Gavere
+location	Drongen
 location	Mariakerke
 location	Evergem
 location	Wondelgem
 location	Zwijnaarde
 location	Gent
+location	Ledeberg
 location	Merelbeke
 location	Sint-Amandsberg
 location	Bottelare
@@ -4158,9 +4178,11 @@ location	Stekene
 location	Kemzeke
 location	De Klinge
 location	Sint-Gillis-Waas
+location	Sint-Niklaas
 location	Kieldrecht
 location	Vrasene
 location	Temse
+location	Melsele
 location	Rupelmonde
 location	Kruibeke
 location	Bazel
@@ -4181,6 +4203,7 @@ location	Carnières
 location	Momignies
 location	Chimay
 location	Barbençon
+location	Beaumont BE
 location	Thirimont
 location	Cour-sur-Heure
 location	Erquelinnes
@@ -4218,6 +4241,7 @@ location	Genval
 location	Rixensart
 location	Villers-la-Ville
 location	Céroux-Mousty
+location	Rosières
 location	Ottignies-Louvain-la-Neuve
 location	Court-Saint-Étienne
 location	Ottignies
@@ -4229,13 +4253,18 @@ location	Pécrot
 location	Walhain
 location	Grez-Doiceau
 location	Chaumont-Gistoux
+location	Biez
 location	Tourinnes-la-Grosse
 location	Beauvechain
 location	Perwez
 location	Mélin
 location	Glimes
 location	Jodoigne
+location	Ramillies
 location	Autre-Église
+location	Énines
+location	Marilles
+location	Hélécine
 
 # Brussels
 location	Moriensart
@@ -4405,6 +4434,7 @@ location	Jumet
 location	Lodelinsart
 location	Gosselies
 location	Couillet
+location	Les Bons Villers
 location	Ransart
 location	Montignies-sur-Sambre
 location	Mellet
@@ -4418,6 +4448,7 @@ location	Gerpinnes
 location	Wagnelée
 location	Farciennes
 location	Fleurus
+location	Aiseau-Presles
 location	Aiseau
 location	Wanfercée-Baulet
 location	Buzet
@@ -4460,6 +4491,7 @@ location	Wiekevorst
 location	Walcourt
 location	Gourdinne
 location	Couvin
+location	Sautour
 location	Florennes
 location	Doische
 
@@ -4476,12 +4508,14 @@ location	Meerbeek
 location	Huldenberg
 location	Leefdaal
 location	Loonbeek
+location	Ottenburg
 location	Veltem-Beisem
 location	Keerbergen
 location	Bertem
 location	Sint-Agatha-Rode
 location	Haacht
 location	Wespelaar
+location	Tildonk
 location	Winksele
 location	Herent
 location	Sint-Joris-Weert
@@ -4504,6 +4538,7 @@ location	Bierbeek
 location	Betekom
 location	Begijnendijk
 location	Pellenberg
+location	Sint-Pieters-Rode
 location	Lubbeek
 location	Nieuwrode
 location	Meldert
@@ -4518,6 +4553,8 @@ location	Kumtich
 location	Tielt-Winge
 location	Hoegaarden
 location	Rillaar
+location	Meensel-Kiezegem
+location	Outgaarden
 location	Attenrode
 location	Molenbeek-Wersbeek
 location	Tienen
@@ -4537,6 +4574,7 @@ location	Waanrode
 location	Eliksem
 location	Molenstede
 location	Wommersom
+location	Assent
 location	Neerlinter
 location	Kaggevinne
 location	Neerwinden
@@ -4545,6 +4583,7 @@ location	Kortenaken
 location	Waasmont
 location	Diest
 location	Landen BE
+location	Schaffen
 location	Walshoutem
 location	Attenhoven
 location	Dormaal
@@ -4651,6 +4690,7 @@ location	Wanze
 location	Antheit
 location	Villers-le-Bouillet
 location	Amay
+location	Clavier
 location	Yernée-Fraineux
 
 # Waremme
@@ -4669,10 +4709,12 @@ location	Loksbergen
 location	Halen
 location	Gingelom
 location	Velm
+location	Linkhout
 location	Duras
 location	Ham
 location	Paal
 location	Binderveld
+location	Oostham
 location	Lummen
 location	Herk-de-Stad
 location	Sint-Truiden
@@ -4689,6 +4731,7 @@ location	Groot-Gelmen
 location	Koersel
 location	Heusden-Zolder
 location	Kuringen
+location	Wimmertingen
 location	Zonhoven
 location	Diepenbeek
 location	Genk
@@ -4700,8 +4743,10 @@ location	Zutendaal
 location	Hotton
 
 # Neufchâteau
-location	Tellin
+location	Auby-sur-Semois
+location	Bras
 location	Saint-Hubert
+location	Tellin
 
 # Tongeren
 location	Klein-Gelmen
@@ -4715,6 +4760,7 @@ location	Bommershoven
 location	Kortessem
 location	Vliermaalroot
 location	Vliermaal
+location	Sint-Huibrechts-Hern
 location	Beverst
 location	Hoeselt
 location	's Herenelderen
@@ -4728,6 +4774,7 @@ location	Lanaken
 location	Mechelen-aan-de-Maas
 location	Rekem
 location	Opgrimbie
+location	Neerharen
 location	Maasmechelen
 location	Eisden
 location	Uikhoven
@@ -4742,6 +4789,8 @@ location	Valansart
 # Liège
 location	Flémalle
 location	Bierset
+location	Loncin
+location	Grâce-Hollogne
 location	Ans
 location	Seraing
 location	Boncelles
@@ -4758,6 +4807,7 @@ location	Harzé
 location	Fléron
 location	Saive
 location	Retinne
+location	Fraipont
 location	Soumagne
 location	Dalhem
 
@@ -4779,6 +4829,7 @@ location	Hamont
 location	Oudsbergen
 location	Bocholt
 location	Opglabbeek
+location	Neerglabbeek
 location	Bree
 location	Neeroeteren
 location	Dilsen
@@ -4788,9 +4839,11 @@ location	Molenbeersel
 location	Kinrooi
 location	Stokkem
 location	Elen
+location	Ophoven
 location	Kessenich
 
 # Bastogne
+location	Bertogne
 location	Vielsalm
 
 # Arlon
@@ -4798,6 +4851,7 @@ location	Aubange
 location	Sélange
 
 # Verviers
+location	Bra
 location	Herve
 location	Theux
 location	Chaineux
@@ -4822,6 +4876,7 @@ location	Middelburg NL
 location	Nissewaard
 location	Den Haag
 location	's Gravenhage
+location	Rijswijk
 location	Spijkenisse
 location	Delft NL
 location	Nootdorp
@@ -4999,10 +5054,12 @@ location	Venray
 location	Wijchen
 location	Nijmegen
 location	Arnhem
+location	Brummen
 location	Apeldoorn
 location	Oldebroek
 
 # Overijssel
+location	Ijsselmuiden
 location	Genemuiden
 location	Deventer
 location	Raalte
@@ -8746,6 +8803,7 @@ location	Loncoche
 location	Villarrica
 location	Pucon
 location	Pitrufquen
+location	Freire
 location	Cunco
 location	Saavedra
 location	Padre las Casas
@@ -8787,6 +8845,8 @@ location	Bulnes
 location	San Nicolas
 location	Chillan Viejo
 location	Chillan
+location	Pemuco
+location	Yungay
 location	San Carlos CL
 location	Niquen
 location	San Ignacio
@@ -8794,8 +8854,11 @@ location	Coihueco
 
 # Maule
 location	Constitucion
+location	Empedrado
+location	Cauquenes
 location	Curepto
 location	Licanten
+location	Hualane
 location	Pencahue
 location	Retiro CL
 location	Villa Alegre
@@ -8816,6 +8879,7 @@ location	Rio Claro
 # O'Higgins
 location	Pichilemu
 location	Paredones
+location	Navidad
 location	Litueche
 location	La Estrella CL
 location	Lolol
@@ -8834,28 +8898,34 @@ location	Graneros
 location	San Francisco de Mostazal
 location	Codegua
 location	Machali
+location	Mostazal
 
 # Region Metropolitana de Santiago
 location	Melipilla
 location	Curacavi
 location	Alhue
+location	El Monte
 location	Talagante
 location	Isla de Maipo
 location	Penaflor
 location	Lampa
 location	Pudahuel
 location	Padre Hurtado
+location	Calera de Tango
 location	Maipu
 location	Quilicura
 location	Cerro Navia
 location	Buin
+location	Paine
 location	Renca
 location	Lo Prado
 location	Cerrillos
 location	Estacion Central
 location	San Bernardo
 location	Quinta Normal
+location	Los Sauces
 location	Lo Espejo
+location	Pedro Aguirre Cerda
 location	Colina
 location	Conchali
 location	El Bosque
@@ -8890,6 +8960,7 @@ location	Villa Alemana
 location	Vina del Mar
 location	Limache
 location	Con-Con
+location	Quillota
 location	Rinconada
 location	Calle Larga
 location	Los Andes
@@ -9014,7 +9085,9 @@ location	Primavera do Leste
 
 # Mato Grosso do Sul
 location	Sete Quedas
+location	Paranhos
 location	Rondonopolis
+location	Eldorado
 location	Iguatemi
 location	Itaquirai
 location	Amambai
@@ -9025,6 +9098,7 @@ location	Vicentina
 location	Fatima do Sul
 location	Nova Andradina
 location	Dourados
+location	Itapora
 location	Douradinho
 location	Maracaju
 location	Guia Lopes Da Laguna
@@ -9033,6 +9107,7 @@ location	Nova Alvorada do Sul
 location	Bonito
 location	Sidrolandia
 location	Tres Lagoas
+location	Dois Irmaos do Buriti
 location	Anastacio
 location	Aquidauana
 location	Campo Grande
@@ -9040,7 +9115,9 @@ location	Agua Clara
 location	Selviria
 location	Miranda
 location	Camapua
+location	Paraiso Das Aguas
 location	Ladario
+location	Corumba
 location	Chapadao do Sul
 location	Figueirao
 location	Coxim
@@ -9442,6 +9519,7 @@ location	Catalao
 location	Davinopolis
 location	Jatai
 location	Morrinhos
+location	Pires do Rio
 location	Aparecida de Goiania
 location	Cristalina
 location	Abadia de Goias
@@ -9472,6 +9550,7 @@ location	Mundo Novo
 location	Monte Alegre de Goias
 
 # Tocantins
+location	Arraias
 location	Combinado
 location	Sandolandia
 location	Figueiropolis
@@ -9481,6 +9560,8 @@ location	Mateiros
 location	Pium
 location	Palmas
 location	Paraiso do Tacantins
+location	Miracema do Tocantins
+location	Pedro Afonso
 location	Guarai
 location	Presidente Kennedy TO
 location	Araguaiana
@@ -9689,6 +9770,7 @@ location	Ribeirao Preto
 location	Luis Antonio
 location	Ituverava
 location	Jardinopolis
+location	Igarapava
 location	Capela do Alto
 location	Cravinhos
 location	Tiete
@@ -11233,6 +11315,7 @@ location	Elko County
 location	Nez Perce County
 location	Kootenai County
 location	Ada County
+location	Shoshone County
 location	Madison County ID
 location	Bonneville County
 
@@ -11269,6 +11352,7 @@ location	Deer Lodge County
 location	Powell County MT
 location	Beaverhead County
 location	Glacier County
+location	Silver Bow County
 location	Lewis and Clark County
 location	Teton County
 location	Jefferson County MT
@@ -11287,6 +11371,7 @@ location	Park County MT
 location	Chouteau County
 location	Hill County MT
 location	Sweet Grass County
+location	Wheatland County
 location	Stillwater County
 location	Fergus County
 location	Carbon County
@@ -11690,6 +11775,7 @@ location	Winnebago County WI
 location	Walworth County
 location	Fond Du Lac County
 location	Outagamie County
+location	Florence County WI
 location	Campbellsport
 location	Oconto County
 location	Waukesha County
@@ -12004,7 +12090,7 @@ location	Berkeley County
 location	Charleston County
 location	Williamsburg County
 location	Marlboro County
-location	Florence County
+location	Florence County SC
 location	Marion County SC
 location	Dillon County
 location	Georgetown County
@@ -13308,6 +13394,7 @@ division	France
 division	Ile de France
 division	Hauts de France
 division	Occitanie
+division	Hon-Hergies
 division	Auvergne-Rhône-Alpes
 division	Bourgogne-France-Comté
 division	Grand Est
