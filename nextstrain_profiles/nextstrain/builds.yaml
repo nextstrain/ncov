@@ -270,3 +270,5 @@ subsampling:
 # Define frequencies parameters.
 frequencies:
     recent_days_to_censor: 7
+
+include_hcov19_prefix: True
