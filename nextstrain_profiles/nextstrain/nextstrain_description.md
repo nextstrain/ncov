@@ -9,6 +9,6 @@ Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.
 We gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequence and metadata made available through [GISAID](https://gisaid.org) on which this research is based. An attribution table is available by clicking on "Download Data" at the bottom of the page and then clicking on "Acknowledgments" in the resulting dialog box.
 
 At the specific request of GISAID, we:
- - prefix each strain included here with `hCoV-19/`
+ - maintain the prefix `hCoV-19/` in the names of viral isolates
  - disable download of full metadata TSV and provide instead an acknowledgments TSV in the "download data" link at the bottom of the page
  - refrain from sharing alignments or other intermediate files computed in our pipeline
