@@ -98,7 +98,6 @@ clade	gene	site	alt
 21D (Eta)	nuc	24748	T
 
 21E (Theta)	nuc	12049	T
-21E (Theta)	nuc	22356	G
 21E (Theta)	nuc	23341	C
 21E (Theta)	nuc	23604	A
 21E (Theta)	nuc	24187	A
@@ -117,4 +116,6 @@ clade	gene	site	alt
 21H	nuc	11451	G
 21H	nuc	13057	T
 21H	nuc	17491	T
-21H	nuc	19035	C
+21H	nuc	21995	A
+21H	nuc	21993	C
+21H	nuc	22599	A
