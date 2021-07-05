@@ -790,6 +790,7 @@ location	Lakshmipur
 location	Feni
 location	Khagrachari
 location	Chandpur
+location	Chadpur
 location	Comilla
 location	Kunjachaya
 location	Brahmanbaria Sadar
@@ -916,6 +917,9 @@ location	Bukit Bintang
 
 # Negeri Sembilan
 location	Rembau
+
+# Pahang
+location	Kuantan
 
 ### Singapore
 # Singapore
@@ -1169,15 +1173,25 @@ location	Taipei
 ### Philippines
 # Calabarzon
 location	Indang
+location	Calamba City
+location	Tanay
 location	Rizal
+location	Rodriguez
 
 # Manila
 location	Taguig City
 location	Pasay City
+location	Makati City
+location	Paco
 location	Manila City
+location	San Juan City
+location	Cavite City
 location	Quezon City
 location	Caloocan City
 location	Navotas City
+
+# Central Luzon
+location	San Jose Del Monte City
 
 ### South Korea
 # Chungcheongnam
@@ -1273,6 +1287,10 @@ location	Touba
 
 # Kolda
 location	Velingara
+
+### Sierra Leone
+# Western Area
+location	Freetown
 
 ### Côte d'Ivoire
 # Bouaké
@@ -1585,12 +1603,6 @@ location	Bindura
 location	Giza
 location	Al Matariyyah
 
-### Uganda
-# Central Uganda
-location	Wakiso
-location	Kyadondo
-location	Mukono
-
 ### Malawi
 # Southern Region MW
 location	Blantyre
@@ -1645,6 +1657,10 @@ location	Antananarivo
 
 # Analanjirofo
 location	Fenoarivo
+
+### Somalia
+# Benadir
+location	Mogadishu
 
 ### Mauritius
 # Black River
@@ -3031,9 +3047,11 @@ location	Cardiff
 location	Derbyshire
 location	Yorkshire
 location	South Yorkshire
+location	Oxford
 location	Nottinghamshire
 location	Northamtonshire
 location	London
+location	Norfolk
 location	Warwickshire
 
 ### France
@@ -5015,6 +5033,7 @@ location	Bergeijk
 location	Veldhoven
 location	Best
 location	Berlicum
+location	Loon
 location	Valkenswaard
 location	Geffen
 location	Heeswijk Dinther
@@ -5901,9 +5920,11 @@ location	Nussdorf Am Attersee
 location	Gosau
 location	Attersee
 location	Aigen-Voglhub
+location	Gampern
 location	Ampflwang Im Hausruckwald
 location	Weyregg Am Attersee
 location	Seewalchen Am Attersee
+location	Roitham
 location	Schörfling Am Attersee
 location	Lenzing
 location	Timelkam
@@ -5925,6 +5946,7 @@ location	Oberndorf bei Schwanenstadt
 location	Altmünster
 location	Pinsdorf
 location	Ebensee Am Traunsee
+location	Ebensee
 location	Schwanenstadt
 location	Rüstorf
 location	Traunkirchen
@@ -10592,7 +10614,11 @@ location	Coronel Portillo
 location	La Libertad
 
 # Lambayeque
+location	Monsefu
+location	La Victoria
 location	Chiclayo
+location	Jose Leonardo Ortiz
+location	Lambayeque
 
 # Amazonas PE
 location	Chachapoyas
@@ -11543,6 +11569,7 @@ location	Mesa County
 location	Pitkin County
 location	Denver County
 location	Colorado Springs
+location	El Paso County CO
 
 # South Dakota
 location	Beadle County
@@ -11607,7 +11634,6 @@ location	San Saba County
 location	Starr County
 location	Kendall County TX
 location	Wichita County
-location	Cherokee
 location	Jim Hogg County
 location	Llano County
 location	Young County
@@ -11837,6 +11863,9 @@ location	St Tammany Parish
 location	St Bernard Parish
 location	Plaquemines Parish
 
+# Arkansas
+location	Pulaski County AR
+
 # Missouri
 location	Pleasant Hill
 location	Gasconade County
@@ -11932,7 +11961,7 @@ location	Door County
 # Illinois
 location	Alexander County
 location	Massac County
-location	Pulaski County
+location	Pulaski County IL
 location	Pope County
 location	Johnson County IL
 location	Union County IL
@@ -12039,7 +12068,6 @@ location	Lake County IL
 location	Stephenson County
 location	Stephenson County IL
 location	Jo Daviess County
-location	Madison
 
 # Alabama
 location	Baldwin County
@@ -12088,7 +12116,7 @@ location	Walker County AL
 location	Blount County AL
 location	Etowah County
 location	Marion County AL
-location	Cherokee County
+location	Cherokee County AL
 location	Winston County
 location	Cullman County
 location	Marshall County AL
@@ -12133,6 +12161,7 @@ location	Alpena County
 # Georgia
 location	Cobb
 location	Thomas County
+location	Richmond County GA
 location	Liberty County GA
 
 # Ohio
@@ -12159,6 +12188,7 @@ location	Delaware County OH
 location	Morrow County OH
 location	Hocking County
 location	Richland County OH
+location	Licking County
 location	Lorain County
 location	Medina County OH
 location	Wayne County OH
@@ -12195,7 +12225,9 @@ location	Greenwood County SC
 location	Spartanburg County
 location	Laurens County SC
 location	Edgefield County
+location	Saluda County
 location	Aiken
+location	Cherokee County SC
 location	Union County SC
 location	Barnwell County
 location	Allendale County
@@ -12228,7 +12260,7 @@ location	Florence County SC
 location	Marion County SC
 location	Dillon County
 location	Georgetown County
-location	Horry County
+location	Horry County SC
 
 # West Virginia
 location	Kanawha
@@ -12238,12 +12270,14 @@ location	Rutherford County NC
 location	Mecklenburg County
 location	Forsyth County
 location	Guilford County
+location	Scotland County
+location	Durham County
 location	Cumberland County NC
 location	Wake County NC
 location	Pitt County
 
 # Virginia
-location	Frederick County
+location	Frederick County VA
 location	Loudoun County
 location	Fairfax County
 location	Alexandria
@@ -12343,7 +12377,6 @@ location	Montgomery County NY
 location	Franklin County NY
 location	Ulster County
 location	Orange County NY
-location	Richmond County
 location	Staten Island
 location	Greene County NY
 location	Schenectady County
@@ -12396,6 +12429,7 @@ location	New London County
 location	Windham County
 
 # Massachusetts
+location	Berkshire County
 location	Hampshire County
 location	Hampden County
 location	Worcester County
@@ -12491,7 +12525,7 @@ division	Mafraq
 division	Syria
 
 ### Georgia
-division	Georgia (Europe)
+division	Georgia (Asia)
 division	Tbilisi
 
 ### Iraq
@@ -12713,6 +12747,7 @@ division	Asia
 division	Chattogram
 division	Barishal
 division	Khulna
+division	Cumilla
 division	Dhaka
 division	Rajshahi
 division	Bangladesh
@@ -13042,6 +13077,8 @@ division	Kolda
 division	Senegal
 
 ### Sierra Leone
+division	Western Area
+division	Bonthe
 division	Sierra Leone
 
 ### Guinea
@@ -13126,6 +13163,7 @@ division	Togo
 ### Benin
 division	Cotonou
 division	Oueme
+division	Benin
 
 ### Algeria
 division	Adrar
@@ -13348,7 +13386,6 @@ division	Mbabane
 division	Hhohho
 
 ### Uganda
-division	Kampala
 division	Central Uganda
 division	Uganda
 
@@ -13415,6 +13452,7 @@ division	Ethiopia
 
 ### Djibouti
 division	Djibouti
+division	Camp Lemonnier
 
 ### Union of the Comoros
 division	Moheli
@@ -13454,6 +13492,7 @@ division	Flacq
 
 ### Iceland
 division	Reykjavik
+division	Iceland
 
 ### Portugal
 division	Beja
@@ -13641,6 +13680,7 @@ division	Neuchâtel
 division	Fribourg
 division	Jura
 division	Solothurn
+division	North-West CH
 division	Valais
 division	Bern
 division	Basel-Stadt
