@@ -1,143 +1,68 @@
 """
-Run a number QC checks on an alignment. these involve divergence from a reference, clusters of mutations, and completeness
+Use nextclade QC to produce a list of sequences to be excluded.
 """
-import argparse, gzip, sys
-sys.path.insert(0,'.')
-from augur.io import open_file
-from collections import defaultdict
+import argparse
 import numpy as np
-from Bio.SeqIO.FastaIO import SimpleFastaParser
-from Bio.Seq import Seq
-from Bio import AlignIO, SeqIO
-from get_distance_to_focal_set import sequence_to_int_array
-from augur.utils import read_metadata
-from datetime import datetime
+import pandas as pd
+from datetime import datetime, timedelta
 
-tmrca = datetime(2019, 12, 1).toordinal()
-
-def expected_divergence(date, rate_per_day = 25/365):
+def isfloat(value):
     try:
-        return (datetime.strptime(date, '%Y-%m-%d').toordinal() - tmrca)*rate_per_day
+        float(value)
+        return True
+    except ValueError:
+        return False
+
+def datestr_to_ordinal(x):
+    try:
+        return datetime.strptime(x,"%Y-%m-%d").toordinal()
     except:
         return np.nan
-
-
-def analyze_divergence(sequences, metadata, reference, mask_5p=0, mask_3p=0):
-    int_ref = sequence_to_int_array(reference, fill_gaps=False)
-    diagnostics = defaultdict(dict)
-    fill_value = 110
-    gap_value = 45
-    ws = 50
-    known_true_clusters = [(28880,28883)]
-    known_true_cluster_array = np.ones_like(int_ref, dtype=int)
-    for b,e in known_true_clusters:
-        known_true_cluster_array[b:e]=0
-
-    cluster_cut_off = 10
-    with open_file(sequences) as fasta:
-        for h,s in SimpleFastaParser(fasta):
-            left_gaps = len(s) - len(s.lstrip('-'))
-            right_gaps = len(s) - len(s.rstrip('-'))
-            s = sequence_to_int_array(s, fill_value=fill_value, fill_gaps=False)
-            # mask from both ends to avoid exclusion for problems at sites that will be masked anyway
-            if mask_5p:
-                s[:mask_5p] = fill_value
-            if mask_3p:
-                s[-mask_3p:] = fill_value
-
-            # fill terminal gaps -- those will be filled anyway
-            if left_gaps:
-                s[:left_gaps] = fill_value
-            if right_gaps:
-                s[-right_gaps:] = fill_value
-
-            # determine non-gap non-N mismatches
-            snps = (int_ref!=s) & (s!=fill_value) & (s!=gap_value)
-            # determine N positions
-            filled = s==fill_value
-            # determine gap positions (cast to int to detect start and ends)
-            gaps = np.array(s==gap_value, dtype=int)
-            gap_start = np.where(np.diff(gaps)==1)[0]
-            gap_end = np.where(np.diff(gaps)==-1)[0]
-
-            # determined mutation clusters by convolution with an array of ones => running window average
-            clusters = np.array(np.convolve(snps*known_true_cluster_array, np.ones(ws), mode='same')>=cluster_cut_off, dtype=int)
-            # determine start and end of clusters. extend by half window size on both ends.
-            cluster_start = [0] if clusters[0] else []
-            cluster_start.extend([max(0, x-ws//2) for x in np.where(np.diff(clusters)==1)[0]])
-            cluster_end = [min(int_ref.shape[0], x+ws//2) for x in np.where(np.diff(clusters)==-1)[0]]
-            if clusters[-1]:
-                cluster_end.append(int_ref.shape[0])
-
-            diagnostics[h] = {'snps':list(np.where(snps)[0]), 'gaps': list(zip(gap_start, gap_end)), 'gap_sum':np.sum(gaps),
-                              'no_data':np.sum(filled) - mask_3p - mask_5p,
-                              'clusters': [(b,e,np.sum(snps[b:e])) for b,e in zip(cluster_start, cluster_end)]}
-
-    return diagnostics
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="check sequences for anomalies",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    parser.add_argument("--alignment", type=str, required=True, help="FASTA file of alignment")
-    parser.add_argument("--reference", type = str, required=True, help="reference sequence")
     parser.add_argument("--metadata", type = str, required=True, help="metadata")
-    parser.add_argument("--mask-from-beginning", type = int, default=0, help="number of bases to mask from start")
-    parser.add_argument("--mask-from-end", type = int, default=0, help="number of bases to mask from end")
-    parser.add_argument("--output-diagnostics", type=str, required=True, help="Output of stats for every sequence")
-    parser.add_argument("--output-flagged", type=str, required=True, help="Output of sequences flagged for exclusion with specific reasons")
+    parser.add_argument("--clock-filter-recent", type=float, default=20, help="maximal allowed deviation from the molecular clock")
+    parser.add_argument("--clock-filter", type=float, default=15, help="maximal allowed deviation from the molecular clock")
+    parser.add_argument("--snp-clusters", type=int, default=1, help="maximal allowed SNP clusters (as defined by nextclade)")
+    parser.add_argument("--rare-mutations", type=int, default=15, help="maximal allowed rare mutations as defined by nextclade")
+    parser.add_argument("--clock-plus-rare", type=int, default=25, help="maximal allowed rare mutations as defined by nextclade")
     parser.add_argument("--output-exclusion-list", type=str, required=True, help="Output to-be-reviewed addition to exclude.txt")
     args = parser.parse_args()
 
-    # load entire alignment and the alignment of focal sequences (upper case -- probably not necessary)
-    ref  = SeqIO.read(args.reference, 'genbank').seq
-    metadata, _ = read_metadata(args.metadata)
+    metadata = pd.read_csv(args.metadata, sep='\t')
+    recency_cutoff = (datetime.today() - timedelta(weeks=4)).toordinal()
+    recent_sequences = metadata.date_submitted.apply(lambda x: datestr_to_ordinal(x)>recency_cutoff)
 
-    diagnostics = analyze_divergence(args.alignment, metadata, ref,
-                                     mask_5p=args.mask_from_beginning,
-                                     mask_3p=args.mask_from_end)
-    snp_cutoff = 25
-    no_data_cutoff = 3000
-    flagged_sequences = []
-    # output diagnostics for each sequence, ordered by divergence
-    with open_file(args.output_diagnostics, 'w') as diag:
-        diag.write('\t'.join(['strain', 'divergence', 'excess divergence', '#Ns', '#gaps', 'clusters', 'gaps', 'all_snps', 'gap_list'])+'\n')
-        for s, d in sorted(diagnostics.items(), key=lambda x:len(x[1]['snps']), reverse=True):
-            expected_div = expected_divergence(metadata[s]['date']) if s in metadata else np.nan
-            diag.write('\t'.join(map(str,[s, len(d['snps']), round(len(d['snps']) - expected_div,2),
-                     d['no_data'], d['gap_sum'],
-                     ','.join([f'{b}-{e}' for b,e,n in d['clusters']]),
-                     ','.join([f'{b}-{e}' for b,e in d['gaps']]),
-                     ','.join(map(str, d['snps'])),
-                     ",".join([",".join([str(x) for x in range(b,e)]) for b,e in d["gaps"]])]))+'\n')
+    if "clock_deviation" in metadata.columns:
+        clock_deviation = np.array([float(x) if isfloat(x) else np.nan for x in metadata.clock_deviation])
+    else:
+        clock_deviation = np.zeros(len(metadata), dtype=bool)
 
+    if "rare_mutations" in metadata.columns:
+        rare_mutations = np.array([float(x) if isfloat(x) else np.nan for x in metadata.rare_mutations])
+    else:
+        rare_mutations = np.zeros(len(metadata), dtype=bool)
 
-            msg = ""
-            reasons = []
-            if not np.isnan(expected_div) and np.abs(len(d['snps']) - expected_div) > snp_cutoff:
-                msg += f"too high divergence {np.abs(len(d['snps']) - expected_div):1.2f}>{snp_cutoff};"
-                reasons.append('divergence')
-            if len(d['clusters']):
-                msg += f"{len(d['clusters'])} SNP clusters with {','.join([str(x[2]) for x in d['clusters']])} SNPs each;"
-                reasons.append('clustered mutations')
-            if d['no_data']>no_data_cutoff:
-                msg += f"too many Ns ({d['no_data']}>{no_data_cutoff})"
-                reasons.append('too many ambigous sites')
+    if "snp_clusters" in metadata.columns:
+        snp_clusters = np.array([float(x) if isfloat(x) else np.nan for x in metadata.snp_clusters])
+    else:
+        snp_clusters = np.zeros(len(metadata), dtype=bool)
 
-            if msg:
-                flagged_sequences.append([s, msg, tuple(reasons), metadata.get(s,{})])
+    to_exclude = np.zeros_like(clock_deviation, dtype=bool)
+    to_exclude |= np.abs(clock_deviation)>args.clock_filter_recent
+    to_exclude |= (np.abs(clock_deviation)>args.clock_filter)&(~recent_sequences)
+    to_exclude |= snp_clusters>args.snp_clusters
+    to_exclude |= rare_mutations>args.rare_mutations
+    to_exclude |= np.abs(clock_deviation+rare_mutations)>args.clock_plus_rare
 
-    # write out file with sequences flagged for exclusion sorted by date
-    to_exclude_by_reason = defaultdict(list)
-    with open_file(args.output_flagged, 'w') as flag:
-        flag.write(f'strain\tcollection_date\tsubmission_date\tflagging_reason\n')
-        for s, msg, reasons, meta in sorted(flagged_sequences, key=lambda x:x[3].get('date_submitted', 'XX'), reverse=True):
-            flag.write(f"{s}\t{metadata[s]['date'] if s in metadata else 'XXXX-XX-XX'}\t{metadata[s].get('date_submitted', 'XXXX-XX-XX') if s in metadata else 'XXXX-XX-XX'}\t{msg}\n")
-            to_exclude_by_reason[reasons].append(s)
+    if "QC_mixed_sites" in metadata.columns:
+        to_exclude |= metadata.QC_mixed_sites=='bad'
 
-    # write out file with sequences flagged for exclusion sorted by date
-    with open_file(args.output_exclusion_list, 'w') as excl:
-        for reason in to_exclude_by_reason:
-            excl.write(f'\n# {"&".join(reason)}\n')
-            excl.write('\n'.join(to_exclude_by_reason[reason])+'\n')
+    # write out file with sequences flagged for exclusion
+    with open(args.output_exclusion_list, 'w') as excl:
+        for s in metadata.loc[to_exclude,'strain']:
+            excl.write(f'{s}\n')

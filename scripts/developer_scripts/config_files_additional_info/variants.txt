@@ -6,3 +6,4 @@ UAE	United Arab Emirates
 United States	USA
 Czechia	Czech Republic
 Pamplona	Pamplona ES
+Tshwane	City of Tshwane

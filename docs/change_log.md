@@ -3,6 +3,12 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## New features since last version update
+
+ - 27 June 2021: Update clade definitions with 21G (Lambda, C.37) emerging from Peru and 21H (B.1.621) emerging from Colombia.
+ - 22 June 2021: Add the ability to specify subsampling via a `priorities.tsv` file. To use, set the `priorities > type: file` and add `priorities > file: path/to/priorities.tsv` to your build's `subsampling` schema. `priorities.tsv` contains `strain name\tarbitrary numerical value`. Higher values = higher priority. ([#664](https://github.com/nextstrain/ncov/pull/664))
+ - 18 June 2021: Change default behavior of frequency estimation to estimate frequencies starting 1 year prior to the current date. To override this default behavior, define a `min_date` in the `frequencies` section of the builds configuration. ([#659](https://github.com/nextstrain/ncov/pull/659))
+
 ## v7 (27 May 2021)
 
 For more details about this release, see [the configuration reference for the new "sanitize metadata" parameters](https://nextstrain.github.io/ncov/configuration.html#sanitize_metadata) and [the corresponding pull request](https://github.com/nextstrain/ncov/pull/640).

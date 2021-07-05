@@ -28,6 +28,11 @@ We maintain a number of publicly-available builds, visible at [nextstrain.org/nc
 10. [**Writing a narrative to highlight key findings**](https://nextstrain.github.io/ncov/narratives)
 11. [**Running the pipeline starting with multiple inputs**](https://nextstrain.github.io/ncov/multiple_inputs)
 
+## Reference guides
+
+  - [Metadata field definitions](metadata-fields.md)
+  - [Workflow configuration parameters](configuration.md)
+
 ## Download formatted datasets
 
 The hCoV-19 / SARS-CoV-2 genomes were generously shared via GISAID. We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based.

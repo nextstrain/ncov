@@ -730,9 +730,9 @@ Soignies
 # Thuin
 Anderlues
 	Anderlues
-Beaumont
+Beaumont BE
 	Barbençon
-	Beaumont
+	Beaumont BE
 	Leugnies
 	Leval-Chaudeville
 	Renlies
@@ -3015,7 +3015,7 @@ Zoutleeuw
 Beernem
 	Beernem
 	Oedelem
-	Sint-Joris
+	Sint-Joris (Brugge)
 Blankenberge
 	Blankenberge
 	Uitkerke
@@ -3324,7 +3324,7 @@ Koksijde
 Nieuwpoort
 	Nieuwpoort
 	Ramskapelle
-	Sint-Joris
+	Sint-Joris (Veurne)
 Veurne
 	Avekapelle
 	Vinkem

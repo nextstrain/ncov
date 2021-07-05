@@ -15,3 +15,25 @@ Dolny Kubin Region	Dolný Kubín
 Rimavka Sobota	Rimavská Sobota
 Cierne Pri Cadci	Čierne
 Diviaky	Diviaky nad Nitricou
+Zlat Moravce	Zlaté Moravce
+Komano	Komarno
+Bardejov Region	Bardejov
+Humenne Region	Humenne
+Kosice Region	Kosice
+Senica Region	Senica
+Senec Region	Senec
+Banovce nad Bebravou Region	Banovce nad Bebravou
+Rimavske Sobota	Rimavska Sobota
+Šaľa Region	Sala
+Medzilaborce Region	Medzilaborce
+Leopolodov	Leopoldov
+Sobrance Region	Sobrance
+Hlohovec Region	Hlohovec
+Michalovce Region	Michalovce
+Košice Region	Kosice
+Humenné Region	Humenné
+Nižné Raslavice	Raslavice
+Rožňava Region	Rožňava
+Trebišov Region	Trebisov
+Nitra Region	Nitra
+

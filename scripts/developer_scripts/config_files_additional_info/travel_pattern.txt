@@ -91,3 +91,6 @@ A quarantined Traveller from XXX
 Traveler-XXX
 Travel History - XXX
 Port of embarkation XXX
+Imported case (Incoming passenger) - Port of embarkation XXX
+Other: Airport Quarantine Station in Japan. COVID-19 positive case who entered from XXX.
+Patient infected while traveling in XXX.

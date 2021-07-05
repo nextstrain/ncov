@@ -115,7 +115,9 @@ ancestral:
 
 # Frequencies settings
 frequencies:
-  min_date: 2020.0
+
+  # min_date is set by default to 1 year before present
+  # but can be explicitly set if desired
 
   # Number of months between pivots
   pivot_interval: 1

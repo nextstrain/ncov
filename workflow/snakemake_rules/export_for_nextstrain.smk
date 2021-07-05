@@ -50,8 +50,8 @@ rule extract_meta:
     output:
         metadata = "results/{build_name}/extracted_metadata.tsv"
     run:
-        from Bio import SeqIO 
-        import pandas as pd 
+        from Bio import SeqIO
+        import pandas as pd
 
         seq_names = [s.id for s in SeqIO.parse(input.alignment, 'fasta')]
         all_meta = pd.read_csv(input.metadata, sep='\t', index_col=0, dtype=str)

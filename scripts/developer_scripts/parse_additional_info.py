@@ -469,6 +469,10 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
         pattern_found = False
         place = info
         print("Testing for single location name...")
+        ordering_result = find_place_in_ordering(place, ordering, variants)
+        if ordering_result == None:
+            print("Location not found. Returning to manual processing...\n")
+            return annotations_append, False
     else:
         pattern_found = True
         print("Known " + bold("patient residence") + " pattern found. Extracted location(s): " + bold(place))
@@ -664,7 +668,7 @@ def check_additional_info(additional_info, path_to_config_files):
         while True:
 
             auto_comments = ["travel surveillance"]
-            if info.lower().startswith("zip") or info.lower().startswith("postal code") or info.endswith(".0") or info.lower() in auto_comments or (info.isnumeric() and int(info) <= 9999 and int(info) >= 1000):
+            if info.lower().startswith("zip") or info.lower().startswith("other: zip") or info.lower().startswith("postal code") or info.lower().startswith("other: postal code") or info.endswith(".0") or info.lower() in auto_comments or info.split("Other: ").pop().isnumeric() or (info.isnumeric() and int(info) <= 9999 and int(info) >= 1000):
                 print("Auto-add comment for " + bold(info))
                 for (id, strain) in strain_list:
                     annotations_append.append("# " + strain + "\t" + id + "\t" + info_type + ": " + info)

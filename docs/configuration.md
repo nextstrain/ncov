@@ -221,7 +221,7 @@ Builds support any named attributes that can be referenced by subsampling scheme
 ### min_date
 * type: float or string
 * description: Earliest date to estimate frequencies for. Dates can be numeric floating point values (e.g., `2019.74`) or ISO 8601-style strings (e.g., `2019-10-01`).
-* default: `2020.0`
+* default: without value supplied, defaults to 1 year before present
 
 ### pivot_interval
 * type: integer
@@ -606,8 +606,9 @@ Each named subsampling scheme supports the following attributes that the workflo
 
 ### priorities
 * type: object
-* description: Parameters to prioritize strains selected for the current subsampling rule. Currently, the workflow only supports one `type` of priority which is `proximity`. The proximity-based priority requires an additional reference to the rule in the current subsampling scheme whose sequences should be used to calculate genetic proximity.
-* examples:
+* description: Parameters to prioritize strains selected for the current subsampling rule. Currently, the workflow supports two `type`s of priority, `proximity` and `file`.
+* description [proximity]: `proximity` selects samples that are genetically similar to the `focus` sample set; the `focus` sample set must be a rule in the current subsampling scheme.
+* example [proximity]:
 ```yaml
 subsampling:
   my-scheme:
@@ -621,6 +622,25 @@ subsampling:
       priorities:
         type: proximity
         focus: my-first-rule
+```
+* description [file]: `file` selects samples based on arbitrarily-defined rankings in a TSV file formatted as `strain\tnumber`. The numbers are only used to sort the samples, and are therefore arbitrary. Higher values = higher priority.
+
+* example [file]:
+```yaml
+subsampling:
+  my-scheme:
+    my-first-rule:
+      max_sequences: 10
+      group_by: "country"
+      priorities:
+        type: "file"
+        file: "path/to/priorities.tsv"
+```
+
+```
+hCoV-19/USA/CZB-1234/2021	8.2
+hCoV-19/USA/CZB-2345/2021	0
+hCoV-19/USA/CZB-3456/2021	-3.1
 ```
 
 ## title

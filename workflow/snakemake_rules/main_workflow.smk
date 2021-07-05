@@ -97,20 +97,16 @@ rule align:
         """
 
 rule diagnostic:
-    message: "Scanning aligned sequences {input.alignment} for problematic sequences"
+    message: "Scanning metadata {input.metadata} for problematic sequences. Removing sequences with >{params.clock_filter} deviation from the clock and with more than {params.snp_clusters}."
     input:
-        alignment = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = "results/sanitized_metadata_{origin}.tsv.xz",
-        reference = config["files"]["reference"]
+        metadata = "results/sanitized_metadata_{origin}.tsv.xz"
     output:
-        diagnostics = "results/sequence-diagnostics_{origin}.tsv.xz",
-        flagged = "results/flagged-sequences_{origin}.tsv.xz",
         to_exclude = "results/to-exclude_{origin}.txt"
+    params:
+        clock_filter = 20,
+        snp_clusters = 1
     log:
         "logs/diagnostics_{origin}.txt"
-    params:
-        mask_from_beginning = config["mask"]["mask_from_beginning"],
-        mask_from_end = config["mask"]["mask_from_end"]
     benchmark:
         "benchmarks/diagnostics_{origin}.txt"
     resources:
@@ -120,13 +116,9 @@ rule diagnostic:
     shell:
         """
         python3 scripts/diagnostic.py \
-            --alignment {input.alignment} \
             --metadata {input.metadata} \
-            --reference {input.reference} \
-            --mask-from-beginning {params.mask_from_beginning} \
-            --mask-from-end {params.mask_from_end} \
-            --output-flagged {output.flagged} \
-            --output-diagnostics {output.diagnostics} \
+            --clock-filter {params.clock_filter} \
+            --snp-clusters {params.snp_clusters} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
@@ -270,9 +262,13 @@ def get_priorities(wildcards):
 
 def get_priority_argument(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
+    if "priorities" not in subsampling_settings:
+        return ""
 
-    if "priorities" in subsampling_settings and subsampling_settings["priorities"]["type"] == "proximity":
+    if subsampling_settings["priorities"]["type"] == "proximity":
         return "--priority " + get_priorities(wildcards)
+    elif subsampling_settings["priorities"]["type"] == "file" and "file" in subsampling_settings["priorities"]:
+        return "--priority " + subsampling_settings["priorities"]["file"]
     else:
         return ""
 
@@ -1068,7 +1064,7 @@ rule tip_frequencies:
     benchmark:
         "benchmarks/tip_frequencies_{build_name}.txt"
     params:
-        min_date = config["frequencies"]["min_date"],
+        min_date = _get_min_date_for_frequencies,
         max_date = _get_max_date_for_frequencies,
         pivot_interval = config["frequencies"]["pivot_interval"],
         pivot_interval_units = config["frequencies"]["pivot_interval_units"],
