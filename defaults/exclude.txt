@@ -8046,3 +8046,28 @@ India/MH-NCCS-136584/2021
 SouthAfrica/NICD-N8965/2021
 Iran/T11094/2020
 Iran/T11095/2020
+
+# Date, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1625466519073100
+India/un-IRSHA-CD210871/2020
+India/un-IRSHA-CD210927/2020
+India/un-IRSHA-CD210929/2020
+Japan/PG-50814/2020
+Japan/PG-50815/2020
+Japan/PG-50816/2020
+Japan/PG-50817/2020
+Japan/PG-50818/2020
+Japan/PG-50819/2020
+Japan/PG-50820/2020
+USA/CA-CZB-32337/2020
+Japan/PG-54688/2020
+
+# Time-series samples, possible duplicates; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1625466645073800
+Israel/CVL_S11-2/2020
+Israel/CVL_S13-2/2020
+Israel/CVL_S14-2/2020
+Israel/CVL_S15-2/2020
+Israel/CVL_S15-3/2020
+Israel/CVL_S16-2/2020
+Israel/CVL_S16-3/2020
+Israel/CVL_S5-2/2020
+Israel/CVL_S8-3/2020
