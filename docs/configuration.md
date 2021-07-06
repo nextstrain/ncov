@@ -266,6 +266,11 @@ Builds support any named attributes that can be referenced by subsampling scheme
 * description: A list of genes for which `nextalign` should generate amino acid sequences during the alignment process. Gene names must match the names provided in the gene map from the `annotation` parameter.
 * default: `["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]`
 
+## include_hcov19_prefix
+* type: boolean
+* description: Prepend strain names with `hCoV-19/` per GISAID requirements for web display
+* default: `false`
+
 ## inputs
 * type: array
 * description: A list of named input datasets to use for the workflow. Input order determines the precedence of genome sequences and metadata such that later datasets override earlier datasets. Each input must define a `name`, a path to `metadata`, and a path to sequences at one of many possible starting points. The workflow merged all input metadata and sequences into a single metadata and sequences file prior to subsampling.

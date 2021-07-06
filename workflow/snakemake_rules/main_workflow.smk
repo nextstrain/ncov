@@ -1220,10 +1220,33 @@ rule add_branch_labels:
             --output {output.auspice_json}
         """
 
+rule include_hcov19_prefix:
+    message: "Rename strains to include hCoV-19/ prefix"
+    input:
+        auspice_json = rules.add_branch_labels.output.auspice_json,
+        tip_frequencies = rules.tip_frequencies.output.tip_frequencies_json
+    output:
+        auspice_json = "results/{build_name}/ncov_with_hcov19_prefix.json",
+        tip_frequencies = "results/{build_name}/tip-frequencies_with_hcov19_prefix.json"
+    log:
+        "logs/include_hcov19_prefix{build_name}.txt"
+    conda: config["conda_environment"]
+    params:
+        prefix = lambda w: "hCoV-19/" if config.get("include_hcov19_prefix", False) else ""
+    shell:
+        """
+        python3 ./scripts/include_prefix.py \
+            --input-auspice {input.auspice_json} \
+            --input-tip-frequencies {input.tip_frequencies} \
+            --prefix {params.prefix} \
+            --output-auspice {output.auspice_json} \
+            --output-tip-frequencies {output.tip_frequencies}
+        """
+
 rule incorporate_travel_history:
     message: "Adjusting main auspice JSON to take into account travel history"
     input:
-        auspice_json = rules.add_branch_labels.output.auspice_json,
+        auspice_json = rules.include_hcov19_prefix.output.auspice_json,
         colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"]
     params:
@@ -1250,8 +1273,8 @@ rule incorporate_travel_history:
 rule finalize:
     message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = lambda w: rules.add_branch_labels.output.auspice_json if config.get("skip_travel_history_adjustment", False) else rules.incorporate_travel_history.output.auspice_json,
-        frequencies = rules.tip_frequencies.output.tip_frequencies_json,
+        auspice_json = lambda w: rules.include_hcov19_prefix.output.auspice_json if config.get("skip_travel_history_adjustment", False) else rules.incorporate_travel_history.output.auspice_json,
+        frequencies = rules.include_hcov19_prefix.output.tip_frequencies,
         root_sequence_json = rules.export.output.root_sequence_json
     output:
         auspice_json = f"auspice/{config['auspice_json_prefix']}_{{build_name}}.json",
