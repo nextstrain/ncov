@@ -511,7 +511,7 @@ location	Bhuj
 location	Kadi
 location	Dhansura
 location	Talod
-location	Mansa
+location	Mansa IN
 location	Prantij
 location	Modasa
 location	Himatnagar
@@ -719,11 +719,20 @@ location	Panadura
 location	Bandaragama
 location	Kahathuduwa
 location	Piliyandala
+location	Ratmalana
 location	Boralesgamuwa
+location	Homagama
+location	Maharagama
+location	Dehiwala
 location	Nugegoda
+location	Kolonnawa
 location	Dematagoda
 location	Maligawatta
+location	Angoda
+location	Kelaniya
 location	Avissawella
+location	Wattala
+location	Ragama
 location	Negombo
 
 # Uva Province
@@ -731,13 +740,16 @@ location	Badulla
 location	Mahiyangana
 
 # Central Province
+location	Hatton
 location	Kandy
 
 # Eastern Province LK
+location	Ampara
 location	Batticaloa
 
 # North Western Province
 location	Kurunegala
+location	Madampe
 location	Puttalam
 
 # North Central Province
@@ -790,7 +802,6 @@ location	Lakshmipur
 location	Feni
 location	Khagrachari
 location	Chandpur
-location	Chadpur
 location	Comilla
 location	Kunjachaya
 location	Brahmanbaria Sadar
@@ -1593,6 +1604,34 @@ location	uThukela
 location	uMzinyathi
 location	Zululand
 location	Amajuba
+
+### Zambia
+# Western
+location	Sioma
+
+# Southern Zambia
+location	Monze
+location	Siavonga
+
+# Copperbelt
+location	Chililabombwe
+location	Ndola
+
+# Lusaka
+location	Kafue
+location	Lusaka
+location	Chirundu
+location	Rufunsa
+
+# Central Zambia
+location	Kabwe
+
+# Luapula
+location	Mansa ZM
+
+# Muchinga
+location	Chinsali
+location	Isoka
 
 ### Zimbabwe
 # Mashonaland Central
@@ -13339,11 +13378,15 @@ division	Mpumalanga
 division	KwaZulu-Natal
 
 ### Zambia
+division	Western
 division	Livingstone
-division	Lusaka
+division	Southern Zambia
 division	Zambia
-division	Central Zambia
 division	Copperbelt
+division	Lusaka
+division	Central Zambia
+division	Luapula
+division	Muchinga
 
 ### Lesotho
 division	Quthing
