@@ -16,7 +16,7 @@ You can configure most steps of [the workflow](orientation-workflow.md) by speci
 We've provided reasonable default values for each step in the `defaults/parameters.yaml`; these are the same values the Nextstrain team uses for our analyses.
 For more details, [see the reference for all workflow configuration parameters](https://nextstrain.github.io/ncov/configuration).
 
-We encourage you to take a few minutes to **skim through [the default config file](defaults/parameters.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**
+We encourage you to take a few minutes to **skim through [the default config file](https://github.com/nextstrain/ncov/blob/master/defaults/parameters.yaml). Although these default values should be fine for most users, it's helpful to get a sense for what options are available.**
 
 If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the `my_profiles/<name>/builds.yaml` file. Any values not overridden in this way will fall back to the default values.**
 Keeping build-specific parameters separate this way prevents mixups of settings between runs, and gives you a cleaner file to work with (rather than having to wrestle the _entire_ default parameterization file).
