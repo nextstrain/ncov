@@ -154,3 +154,5 @@ Mons	BE
 Guayas	EC
 Bocas del Toro	PA
 Aragon	ES
+Gujarat	IN
+Luapula	ZM
