@@ -21,7 +21,7 @@ S3_DST_ORIGINS: ["open"]
 inputs:
   - name: open
     metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.gz"
-    sequences: "s3://nextstrain-data/files/ncov/open/sequences.fasta.gz"
+    sequences: "s3://nextstrain-data/files/ncov/open/sequences.fasta.xz"
     # aligned: "s3://nextstrain-data/files/ncov/open/aligned.fasta.xz"
     # masked: "s3://nextstrain-data/files/ncov/open/masked.fasta.fasta.xz"
     # filtered: "s3://nextstrain-data/files/ncov/open/filtered.fasta.xz"

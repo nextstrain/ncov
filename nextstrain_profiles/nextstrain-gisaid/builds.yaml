@@ -23,7 +23,7 @@ use_nextalign: true
 inputs:
   - name: gisaid
     metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
-    sequences: "s3://nextstrain-ncov-private/sequences.fasta.gz"
+    sequences: "s3://nextstrain-ncov-private/sequences.fasta.xz"
     # aligned: "s3://nextstrain-ncov-private/aligned.fasta.xz"
     # masked: "s3://nextstrain-ncov-private/masked.fasta.fasta.xz"
     # filtered: "s3://nextstrain-ncov-private/filtered.fasta.xz"
