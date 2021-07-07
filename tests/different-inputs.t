@@ -54,7 +54,7 @@ Test various input starting points, all from local uncompressed files
 
   $ rm -rf tests/output/results tests/local-inputs-uncompressed/data/*.fasta tests/local-inputs-uncompressed/data/*.tsv
 
-Test various input starting points which support remote uncompressed files (this is a subset of available inputs)
+Test various input starting points which support remote uncompressed files
 
   $ snakemake --directory tests/output  --profile tests/remote-inputs-uncompressed \
   > auspice/ncov_test-remote-uncompressed.json >tests/output/remote-inputs-uncompressed.cram.log.txt 2>&1

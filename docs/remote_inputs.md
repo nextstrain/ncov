@@ -135,12 +135,11 @@ The following table summarises the current situation:
 
 |            | local (uncompressed)  | local (compressed)| remote (uncompressed) | remote (compressed)|
 | ---        | ---                   | ---               | ---                   | ---               |
-| sequences  |  ✅                   |  ✅                |  ❌  <sup>1</sup>     |  ✅  <sup>2</sup> |
-| metadata   |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>3</sup> |
-| aligned    |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>3</sup> |
-| masked     |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>3</sup> |
-| filtered   |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>3</sup> |
+| sequences  |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>1</sup> |
+| metadata   |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>2</sup> |
+| aligned    |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>1</sup> |
+| masked     |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>1</sup> |
+| filtered   |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>1</sup> |
 
-1. Download succeeds but `.xz` suffix is appended which causes errors downstream in the pipeline.
-2. File is downloaded with a `.xz` suffix, but gzip compression will still work!
-3. Decompressed during download.
+1. Compression suffix (e.g. `.xz`, `.gz`) is not part of the filename after downloading. Compression must be inferred by inspecting the file contents.
+2. Decompressed during download.

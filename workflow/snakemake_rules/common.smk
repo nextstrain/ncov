@@ -55,7 +55,7 @@ def _get_path_for_input(stage, origin_wildcard):
     if stage=="sequences":
         if not path_or_url:
             raise Exception(f"ERROR: config->input->{origin_wildcard}->sequences is not defined.")
-        return f"data/downloaded_{origin_wildcard}.fasta.gz" if remote else path_or_url
+        return f"data/downloaded_{origin_wildcard}.fasta" if remote else path_or_url
     if stage=="aligned":
         if remote:
             return f"results/precomputed-aligned_{origin_wildcard}.fasta"

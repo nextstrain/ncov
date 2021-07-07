@@ -33,7 +33,7 @@ def _infer_decompression(input):
 rule download_sequences:
     message: "Downloading sequences from {params.address} -> {output.sequences}"
     output:
-        sequences = "data/downloaded_{origin}.fasta.gz"
+        sequences = "data/downloaded_{origin}.fasta"
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][w.origin]["sequences"],
@@ -62,10 +62,9 @@ rule download_aligned:
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][w.origin]["aligned"],
-        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["aligned"])
     shell:
         """
-        aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
+        aws s3 cp {params.address} {output.sequences:q}
         """
 
 
@@ -76,10 +75,9 @@ rule download_masked:
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][w.origin]["masked"],
-        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["masked"])
     shell:
         """
-        aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
+        aws s3 cp {params.address} {output.sequences:q}
         """
 
 
@@ -90,8 +88,7 @@ rule download_filtered:
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][w.origin]["filtered"],
-        deflate = lambda w: _infer_decompression(config["inputs"][w.origin]["filtered"])
     shell:
         """
-        aws s3 cp {params.address} - | {params.deflate} > {output.sequences:q}
+        aws s3 cp {params.address} {output.sequences:q}
         """
