@@ -12,7 +12,7 @@ def read_reference(fname, genemap):
         ref = str(SeqIO.read(fname, 'fasta').seq)
     except:
         with open(fname, 'r') as fh:
-            ref = "".join([x.strip() for x in fh])
+            ref = "".join(x.strip() for x in fh)
 
     translations = {}
     with open(genemap, 'r') as fh:
@@ -47,7 +47,11 @@ def to_mutations(aln_file, ref, aa=False):
         for si, (name, seq) in enumerate(SimpleFastaParser(fh)):
             if si%1000==0 and si:
                 print(f"sequence {si}")
-            res[name] = ",".join([f"{a}{p}{d}" for a,p,d in get_differences(ref, seq, ambiguous)])
+            res[name] = ",".join(
+                f"{a}{p}{d}"
+                for a, p, d in get_differences(ref, seq, ambiguous)
+            )
+
 
     return res
 

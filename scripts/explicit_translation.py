@@ -1,4 +1,3 @@
-
 import argparse
 import json
 from Bio import Phylo, SeqIO
@@ -25,12 +24,7 @@ if __name__ == '__main__':
 
     node_data = {}
     for gene, translation in zip(genes, translations):
-        seqs = []
-        for s in SeqIO.parse(translation, 'fasta'):
-            if s.id in leafs:
-                seqs.append(s)
-
-
+        seqs = [s for s in SeqIO.parse(translation, 'fasta') if s.id in leafs]
         tt = TreeAnc(tree=T, aln=MultipleSeqAlignment(seqs), alphabet='aa')
 
         tt.infer_ancestral_sequences(reconstruct_tip_states=True)

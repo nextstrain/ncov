@@ -154,19 +154,19 @@ def check_for_recency(counts, list_of_strains, lab_collection, path_to_metadata,
 
     print("\nSearching for twitter handles... ")
 
-    rare_countries = []
-    for c in counts:
-        if c != "United Kingdom":
-            if c not in countries or countries[c] <= 20:
-                rare_countries.append(c)
+    rare_countries = [
+        c
+        for c in counts
+        if c != "United Kingdom" and (c not in countries or countries[c] <= 20)
+    ]
 
     lab_dictionary = read_excel_lab_file(table_file_name)
     lab_collection_present = {}
-    for country in subm_labs:
+    for country, value in subm_labs.items():
         if country not in lab_collection_present:
             lab_collection_present[country] = {}
 
-        for lab in subm_labs[country]:
+        for lab in value:
             n = subm_labs[country][lab]
             if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
                 k = lab_dictionary[country][lab.lower()]
@@ -268,27 +268,22 @@ def check_dates(data, today):
             data.pop(id)
             continue
 
-        #Check for early dates
-        #if (year == 2020 and (month == 2 or month == 1)) or year == 2019:
-            #suspicious_sample_date[strain] = date
-
         clade = data[id]["Nextstrain_clade"]
         dev = data[id]["clock_deviation"]
         if clade == "":
             print("Clade missing for sequence " + id)
+        elif clade not in clade_dates:
+            print("Unknown clade " + clade + " for sequence " + id)
         else:
-            if clade not in clade_dates:
-                print("Unknown clade " + clade + " for sequence " + id)
-            else:
-                clade_day = clade_dates[clade]
-                day_clade = int(clade_day[8:])
-                month_clade = int(clade_day[5:7])
-                year_clade = int(clade_day[:4])
+            clade_day = clade_dates[clade]
+            day_clade = int(clade_day[8:])
+            month_clade = int(clade_day[5:7])
+            year_clade = int(clade_day[:4])
 
-                if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
-                    suspicious_sample_date[strain] = date + " (" + clade + ", clock deviation = " + dev + ")"
-                    data.pop(id)
-                    continue
+            if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
+                suspicious_sample_date[strain] = date + " (" + clade + ", clock deviation = " + dev + ")"
+                data.pop(id)
+                continue
 
 
     invalid_dates_by_country = {}
@@ -304,15 +299,15 @@ def check_dates(data, today):
 
     print("\n----------------------------------------------\n")
     print("Invalid sample dates (automatically excluded from total counts):")
-    for country in invalid_dates_by_country:
+    for country, value_ in invalid_dates_by_country.items():
         print(country)
         for date in invalid_dates_by_country[country]:
-            print(date + " (" + str(invalid_dates_by_country[country][date]) + ")")
+            print(date + " (" + str(value_[date]) + ")")
         print("")
 
     print("\nSample date before clade (automatically excluded from total counts):")
-    for strain in suspicious_sample_date:
-        print(strain + ": " + suspicious_sample_date[strain])
+    for strain, value in suspicious_sample_date.items():
+        print(strain + ": " + value)
 
     return data
 
@@ -322,11 +317,10 @@ flagged_properties = {"originating_lab": ["Synlab Haut de France"]}
 # Check for certain unique properties and potentially exclude (e.g. all sequences from a certain submission lab)
 def check_flagged_properties(data):
 
-    flagged_strains = {}
-    for p in flagged_properties:
-        flagged_strains[p] = {}
-        for name in flagged_properties[p]:
-            flagged_strains[p][name] = []
+    flagged_strains = {
+        p: {name: [] for name in flagged_properties[p]}
+        for p in flagged_properties
+    }
 
     seqs_found = False
     for id in list(data.keys()):
@@ -349,10 +343,10 @@ def check_flagged_properties(data):
 
     with open(path_to_outputs + "sequences_exclude.txt", "w") as out:
         out.write("\n\nStrains to add to exclude (based on flagged properties):\n")
-        for p in flagged_strains:
+        for p, value in flagged_strains.items():
             for name in flagged_properties[p]:
                 out.write(p + " = \"" + name + "\":\n")
-                for strain in flagged_strains[p][name]:
+                for strain in value[name]:
                     out.write(strain + "\n")
                 out.write("\n")
 
@@ -401,26 +395,33 @@ def print_counts(data):
         counts[country][division] += 1
 
     sum_total = 0
-    for country in counts:
-        sum_country = 0
-        for division in counts[country]:
-            sum_country += counts[country][division]
+    for country, value_ in counts.items():
+        sum_country = sum(value_[division] for division in counts[country])
         sum_total += sum_country
 
     print("\n----------------------------------------------\n")
     print("Total counts: " + str(sum_total))
 
     with open(path_to_outputs + "tweet_resources.txt", "w") as out:
-        for country in counts:
+        for country, value in counts.items():
             s = country + ": "
             sum_country = 0
             for division in counts[country]:
-                sum_country += counts[country][division]
+                sum_country += value[division]
             s = s + str(sum_country)
             if len(counts[country]) == 1:
                 s = s + " (" + division + ")"
             else:
-                s = s + " (" + ", ".join([str(counts[country][division]) + " " + division for division in counts[country]]) + ")"
+                s = (
+                    s
+                    + " ("
+                    + ", ".join(
+                        str(counts[country][division]) + " " + division
+                        for division in counts[country]
+                    )
+                    + ")"
+                )
+
             print(s)
             out.write(s + "\n")
         out.write("\n\n\n")
@@ -455,12 +456,9 @@ def collect_labs(data, table_file_name):
         originating_lab = data[id]["originating_lab"]
         author = data[id]["authors"]
 
-        if region not in submitting_labs:
-            submitting_labs[region] = {}
-        if country not in submitting_labs[region]:
-            submitting_labs[region][country] = []
-        if submitting_lab not in submitting_labs[region][country]:
-            submitting_labs[region][country].append(submitting_lab)
+        _extracted_from_collect_labs_13(
+            region, submitting_labs, country, submitting_lab
+        )
 
         if region not in originating_labs:
             originating_labs[region] = {}
@@ -469,20 +467,13 @@ def collect_labs(data, table_file_name):
         if originating_lab not in originating_labs[region][country] and originating_lab != submitting_lab:
             originating_labs[region][country].append(originating_lab)
 
-        if region not in authors:
-            authors[region] = {}
-        if country not in authors[region]:
-            authors[region][country] = []
-        if author not in authors[region][country]:
-            authors[region][country].append(author)
-
-
+        _extracted_from_collect_labs_13(region, authors, country, author)
     lab_dictionary = read_excel_lab_file(table_file_name)
     lab_UK = lab_dictionary["United Kingdom"]["COVID-19 Genomics UK Consortium".lower()]
     lab_collection = {}
 
     print("\nSubmitting labs:\n(Note: small differences in spelling might cause lab to not be identified. Consider adjusting the spelling in the spreadsheet!)\n")
-    for region in submitting_labs:
+    for region, value_ in submitting_labs.items():
         if region not in lab_collection:
             lab_collection[region] = {}
         for country in sorted(submitting_labs[region]):
@@ -490,7 +481,7 @@ def collect_labs(data, table_file_name):
                 lab_collection[region][country] = []
 
             s = country + ":\n"
-            for lab in submitting_labs[region][country]:
+            for lab in value_[country]:
                 s += lab + ": "
                 if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
                     k = lab_dictionary[country][lab.lower()]
@@ -508,10 +499,10 @@ def collect_labs(data, table_file_name):
 
     print("----------------------------------------------\n")
     print("Originating labs (only printed if found in excel sheet):\n")
-    for region in originating_labs:
+    for region, value__ in originating_labs.items():
         for country in originating_labs[region]:
             s = country + ":\n"
-            for lab in originating_labs[region][country]:
+            for lab in value__[country]:
                 if country in lab_dictionary and lab.lower() in lab_dictionary[country]:
                     s += lab
                     s += ": "
@@ -529,8 +520,8 @@ def collect_labs(data, table_file_name):
 
     print("----------------------------------------------\n")
     print("Authors (only printed if found in excel sheet):\n")
-    for region in authors:
-        for country in authors[region]:
+    for region, value in authors.items():
+        for country in value:
             s = country + ":\n"
             for author in authors[region][country]:
                 if country in lab_dictionary and author.lower() in lab_dictionary[country]:
@@ -548,11 +539,21 @@ def collect_labs(data, table_file_name):
                 print(s)
 
 
-    if "Europe" in lab_collection:
-        if "United Kingdom" in lab_collection["Europe"]:
-            lab_collection["Europe"]["United Kingdom"] = [lab_UK]
+    if (
+        "Europe" in lab_collection
+        and "United Kingdom" in lab_collection["Europe"]
+    ):
+        lab_collection["Europe"]["United Kingdom"] = [lab_UK]
 
     return lab_collection
+
+def _extracted_from_collect_labs_13(region, arg1, country, arg3):
+    if region not in arg1:
+        arg1[region] = {}
+    if country not in arg1[region]:
+        arg1[region][country] = []
+    if arg3 not in arg1[region][country]:
+        arg1[region][country].append(arg3)
 
 
 
@@ -574,9 +575,9 @@ def overview_with_dates(data, file_name):
 
     with open(file_name, "w") as myfile:
         myfile.write("strain\tsampling date\tsubmission date\n")
-        for country in data_sorted:
+        for country, value in data_sorted.items():
             myfile.write(country + "\n")
-            for s in data_sorted[country]:
+            for s in value:
                 myfile.write(s + "\n")
             myfile.write("\n")
 
@@ -598,10 +599,10 @@ def filter_for_date_region(data, path_to_outputs, params):
 
     with open(path_to_outputs + "special_check_" + region + "_" + str(month) + ".txt", "w") as myfile:
         myfile.write("New sequences from " + region + " after month " + str(month) + "\n\n")
-        for country in special_strains:
+        for country, value in special_strains.items():
             myfile.write(country + "\n")
             for date in sorted(special_strains[country]):
-                myfile.write(date + ": " + str(special_strains[country][date]) + "\n")
+                myfile.write(date + ": " + str(value[date]) + "\n")
             myfile.write("\n")
 
 def prepare_tweet(counts, total_lab_collection, lab_collection):
@@ -634,7 +635,7 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
     the = ["USA", "United Kingdom", "Democratic Republic of the Congo"]
 
     counts_country = {region: {country: sum(counts[country].values()) for country in total_lab_collection[region]} for region in total_lab_collection}
-    total = sum([sum(counts_country[region].values()) for region in counts_country])
+    total = sum(sum(counts_country[region].values()) for region in counts_country)
 
     start_tweet = "Thanks to #opendata sharing via @GISAID, we've updated nextstrain.org/ncov with " + str(
         total) + " new #COVID19 #SARSCoV2 sequences!"
@@ -649,13 +650,13 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
         length_prediction = [len(country) + len(", ".join(lab_collection[region][country])) for country in lab_collection[region]]
         if sum(length_prediction) > char_available:
             countries_extra = [] #extra large countries
-            while len(length_prediction) > 0 and max(length_prediction) > char_available:
+            while length_prediction and max(length_prediction) > char_available:
                 i = np.argmax(length_prediction)
                 countries_extra.append([countries_list[i]])
                 countries_list.pop(i)
                 length_prediction.pop(i)
 
-            if len(countries_list) > 0:
+            if countries_list:
                 countries = []
 
                 while(sum(length_prediction) > char_available):
@@ -666,12 +667,11 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
                     length_prediction = length_prediction[k:]
 
                 countries.append(countries_list)
-                countries = countries + countries_extra
+                countries += countries_extra
             else:
                 countries = countries_extra
 
-            i = 1
-            for countries_list in countries:
+            for i, countries_list in enumerate(countries, start=1):
 
                 h = []
                 for country in countries_list:
@@ -683,8 +683,6 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
                 if i > 1:
                     r += str(i)
                 tweet_collection_split[r] = (c, h)
-                i += 1
-
         else:
             h = []
             for country in lab_collection[region]:
@@ -696,10 +694,8 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
             tweet_collection_full[region] = (c, h)
             lengths[region] = len(", ".join(c)) + len(", ".join(h)) + len(links.get(region, ""))
 
-    tweet = []
-    tweet.append((start_tweet + "\n\n", "\n\n[pic_Global]"))
-
-    while len(lengths) > 0:
+    tweet = [(start_tweet + "\n\n", "\n\n[pic_Global]")]
+    while lengths:
         current_region = min(lengths, key=lengths.get)
         best_partner = ""
         current_length = lengths[current_region]
@@ -723,16 +719,8 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
             l += " and " + links[best_partner]
             p += " " + "[pic_" + best_partner.replace(" ", "") + "]"
 
-        if len(c) > 1:
-            c = ", ".join(c[:-1]) + " and " + c[-1]
-        else:
-            c = c[0]
-
-        if current_length > char_available:
-            h = " ".join(h)
-        else:
-            h = ", ".join(h)
-
+        c = ", ".join(c[:-1]) + " and " + c[-1] if len(c) > 1 else c[0]
+        h = " ".join(h) if current_length > char_available else ", ".join(h)
         starter = random.choice(starters)
         s = starter[0] + c + starter[1] + l + ".\n\n"
         s += "(Thanks to " + h + ")\n\n"
@@ -748,11 +736,7 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
         else:
             starter = random.choice(starters_split)
             l = ""
-        if len(c) > 1:
-            c = ", ".join(c[:-1]) + " and " + c[-1]
-        else:
-            c = c[0]
-
+        c = ", ".join(c[:-1]) + " and " + c[-1] if len(c) > 1 else c[0]
         if len(", ".join(c)) + len(", ".join(h)) + len(l) > char_available:
             h = " ".join(h)
         else:
@@ -780,7 +764,7 @@ def prepare_tweet_new_format(counts, rare_labs):
 
     counts_country = {region: {country: sum(counts[country].values()) for country in lab_collection[region]} for region
                       in lab_collection}
-    total = sum([sum(counts_country[region].values()) for region in counts_country])
+    total = sum(sum(counts_country[region].values()) for region in counts_country)
 
     start_tweet = "Thanks to #opendata sharing by @GISAID, we've updated nextstrain.org/ncov with " + str(
         total) + " new #COVID19 #SARSCoV2 sequences!"

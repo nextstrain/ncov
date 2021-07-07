@@ -77,7 +77,7 @@ def drop_duplicate_sequences(sequences, error_on_duplicates=False):
         yield sequence
 
     # Report names of duplicate strains with different sequences when requested.
-    if len(duplicate_strains) > 0 and error_on_duplicates:
+    if duplicate_strains and error_on_duplicates:
         raise DuplicateSequenceError(", ".join(duplicate_strains))
 
 
