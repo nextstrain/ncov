@@ -291,6 +291,7 @@ location	Ames	42.9038	-8.6584
 location	Amiens	49.8941708	2.2956951
 location	Amilly	48.4418021	1.3930652
 location	Amneville	49.2603613	6.1420739
+location	Ampara	7.2978118	81.6790194
 location	Amparo	-22.70111	-46.76444
 location	Amparo (Paraiba)	-7.56394725	-37.04652873235175
 location	Amparo (São Paulo)	-22.70111	-46.76444
@@ -344,6 +345,7 @@ location	Angers	47.6781742	2.4367044
 location	Anglards de Salers	45.203454	2.4401267
 location	Angles	41.9559224	2.6359493
 location	Anglet	43.4813927	-1.5149935
+location	Angoda	6.9360192	79.9257199
 location	Angol	-37.798787	-72.7086097
 location	Angouleme	45.6512748	0.1576745
 location	Angra Dos Reis	-23.0063966	-44.316326
@@ -1975,6 +1977,7 @@ location	Chiguiri Arriba	8.6748095	-80.189382
 location	Chikkaballapura	13.4358702	77.7312434
 location	Chilches	36.726129	-4.224430
 location	Chilibre	9.1643168	-79.6191005
+location	Chililabombwe	-12.3680056	27.8350811
 location	Chillan	-36.6063	-72.1023
 location	Chillan Viejo	-36.6230032	-72.1317093
 location	Chiloeches	40.5732118	-3.1627206
@@ -1984,8 +1987,10 @@ location	Chimay	50.0358705	4.321416517933619
 location	Chimeneas	37.1312258	-3.8235177
 location	Chimoio	-19.110921	33.476659
 location	Chinchinales	-39.11282445467734	-66.94023390054608
+location	Chinsali	-10.549972	32.0660837
 location	Chippewa County WI	45.0740585	-91.2947258
 location	Chippewa Falls	44.931261	-91.389704
+location	Chirundu	-16.02937074830482	28.84883842000355
 location	Chisago County	45.4758877	-92.8849411
 location	Chitre	7.98012775	-80.4489823725464
 location	Chittagong	22.3307998	91.8412863
@@ -2477,6 +2482,7 @@ location	Deer Lodge County	46.0753795	-113.089332
 location	Deerlijk	50.837861	3.365039
 location	Deforest	43.244858	-89.351873
 location	Degersheim	47.3735896	9.1990317
+location	Dehiwala	6.8512785	79.8659769
 location	Dehradun	30.3255646	78.0436813
 location	Deifontes	37.3263415	-3.5946529
 location	Deinze	50.9875	3.5236
@@ -3748,6 +3754,7 @@ location	Harzé	50.4409138	5.6672743
 location	Hasenberg	48.3370128	9.8370729
 location	Hathazari	22.498691	91.8071182
 location	Hattersheim	50.0723339	8.4858331
+location	Hatton	6.8916333	80.5984591
 location	Haulchin	50.383200	4.081708
 location	Haus	47.42343325	13.756522860009792
 location	Haute-Garonne	43.305454600000004	0.9716791701901577
@@ -3898,6 +3905,7 @@ location	Holon	32.0193121	34.7804076
 location	Holsbeek	50.9211	4.757
 location	Holy Cross	43.469964	-87.900967
 location	Holzhausen	48.2230119	14.0968764
+location	Homagama	6.841273	80.0030581
 location	Hombeek	51.0158695	4.4398366
 location	Hong Kong	22.3964	114.1095
 location	Honnelles	50.350747	3.714603
@@ -4140,6 +4148,7 @@ location	Isla de Maipo	-33.7537387	-70.9039325
 location	Isla del Cerrito	-27.2951994	-58.62300289157733
 location	Isla Mocolí	-2.105443357660198	-79.86027555110115
 location	Island County	48.2162669	-122.6842402
+location	Isoka	-10.1535149	32.6368762
 location	Isserteaux	45.6528133	3.3872068
 location	Issoire	45.5432973	3.2502213
 location	Issy-Les-Moulineaux	48.8250508	2.273457
@@ -4464,6 +4473,7 @@ location	Ka'Abiyye-Tabbash-Hajajre	32.748855882519834	35.183732222189015
 location	Kaarst	51.226675	6.6193924
 location	Kaatsheuvel	51.6598038	5.0319484
 location	Kabirhat	22.8220772	91.1170328
+location	Kabwe	-14.5262739	28.34204494171865
 location	Kachkanar	58.6981697	59.4810114
 location	Kacik	54.1679868	18.9557149
 location	Kaczki Srednie	51.9702995	18.5501365
@@ -4471,6 +4481,7 @@ location	Kaczyce	49.834077	18.592432
 location	Kadapa	14.4752936	78.8216861
 location	Kadi	23.294922	72.333046
 location	Kafr Kanna	32.7516395	35.3464804
+location	Kafue	-15.7445125	28.1755158
 location	Kaggevinne	50.980233	5.021191
 location	Kahathuduwa	6.7831285	79.9839654
 location	Kailali	28.6869857	80.8731502
@@ -4594,6 +4605,7 @@ location	Kedzierzyn Kozle	50.3448836	18.2109594
 location	Keerbergen	51.0049242	4.6265551
 location	Kefar Sava	32.1773471	34.907459
 location	Kegalle	7.2532006	80.3454132
+location	Kelaniya	6.9501246	79.9172715
 location	Kelmis	50.714674	6.023042
 location	Kematen in Tirol	47.253643	11.273540
 location	Kembs	47.6895561	7.5048054
@@ -4757,6 +4769,7 @@ location	Koło	52.2019866	18.6359912
 location	Kolobrzeg	54.176211550000005	15.57640369780165
 location	Kolodishchi	53.9454227	27.7749292
 location	Kolonia Nadwislanska	51.1193642	21.787911
+location	Kolonnawa	6.9326254	79.8903143
 location	Kolozab	53.8814583	19.1301651
 location	Kolpino	59.748444	30.604479
 location	Kolta	48.0176388	18.4138373
@@ -5604,6 +5617,7 @@ location	Lupionopolis	-22.7558205	-51.6575301
 location	Lupsingen	47.4466659	7.6938955
 location	Lupstych	53.7828036	20.3641032
 location	Luque	-25.2665417	-57.4926928
+location	Lusaka	-15.4164488	28.2821535
 location	Lusowo	52.4331671	16.6971054
 location	Lutise	49.2937547	18.9556005
 location	Lutomia Dolna	50.7593967	16.5392945
@@ -5660,6 +5674,7 @@ location	Macoupin County	39.2420653	-89.925212
 location	Macouria	5.0130354	-52.4744678
 location	Macuco	-21.9849747	-42.2539464
 location	Macul	-33.49194265	-70.59973215756841
+location	Madampe	7.4954162	79.8413815
 location	Madaripur	23.1675473	90.2049733
 location	Madera County	37.1716264	-119.7737991
 location	Madhukhali	23.5434411	89.6255061
@@ -5693,6 +5708,7 @@ location	Maggiolo	-33.7237065	-62.2465621
 location	Magnesia	39.30122565	23.035284886790997
 location	Magura	23.488333	89.42
 location	Mahajanga	-15.7181492	46.3172577
+location	Maharagama	6.8472783	79.9266082
 location	Mahasamund	21.1882332	82.48484762499999
 location	Mahboobnagar	17.7203392	79.6280587
 location	Mahbubnagar	16.7434538	77.9923191
@@ -5799,6 +5815,8 @@ location	Manning	48.07126875	13.662845949249277
 location	Manosque	43.8338026	5.7826657
 location	Manresa	41.7288939	1.8286765
 location	Mansa	23.428814	72.656249
+location	Mansa IN	23.425103	72.6583024
+location	Mansa ZM	-11.2006743	28.8893922
 location	Mansilla Mayor	42.5093156	-5.4436183
 location	Manta	-1.0321775	-80.82221666609834
 location	Mantes-la-Jolie	48.9891971	1.7140683
@@ -6330,6 +6348,7 @@ location	Montseny	41.7593697	2.3952061
 location	Montserrat	39.3576494	-0.6031
 location	Montval sur Loir	47.69545275	0.44213227296009794
 location	Monza	45.5834418	9.2735257
+location	Monze	-16.278664639244255	27.476123144042734
 location	Monzon	41.9143981	0.1922412
 location	Moody	31.3082273	-97.3613977
 location	Moorsel	50.9477279	4.0983893
@@ -6559,6 +6578,7 @@ location	Nazaré	-13.0345586	-39.0062515
 location	Nazareth	32.7066301	35.3048161
 location	Nazran	43.2320774	44.7540128
 location	Ndalatando	-9.2513735	14.1254422
+location	Ndola	-12.9693056	28.6365894
 location	Nechi	7.9838411	-74.68428522913838
 location	Nechvalova Polianka	49.0697609	22.0929084
 location	Necochea	-38.5545494	-58.7392624
@@ -7897,6 +7917,7 @@ location	Radzyń Podlaski	51.77566625	22.624946716255053
 location	Rafael Fernandes	-6.1892485	-38.2238647
 location	Rafaela	-31.2526923	-61.4916758
 location	Rafelbunyol	39.5884632	-0.3325421
+location	Ragama	7.0284392	79.9219776
 location	Rahat	31.3933637	34.7546784
 location	Rahmatganj	23.7134024	90.392844
 location	Raigad	18.4928092	73.13807095426539
@@ -7958,6 +7979,7 @@ location	Rasht	37.2793607	49.5846102
 location	Raslavice	49.1495809	21.3191619
 location	Rastislavice	48.1380649	18.0734754
 location	Ratíškovice	48.923900	17.161986
+location	Ratmalana	6.815259449999999	79.86677775
 location	Ratnagiri	17.282607900000002	73.4569787039826
 location	Ratnapura	6.6803691	80.4022975
 location	Raubling	47.7892574	12.1100042
@@ -8290,6 +8312,7 @@ location	Rueda	-33.3355941	-60.4589616
 location	Rümmingen	47.6419637	7.6429253
 location	Rüstorf	48.0416013	13.7896687
 location	Rufina Alfaro	9.068903	-79.456339
+location	Rufunsa	-15.0813281	29.6344169
 location	Ruili	24.0200662	97.8554177
 location	Ruiloba	43.38064	-4.25244
 location	Ruinen	52.7641537	6.3600084
@@ -9159,6 +9182,7 @@ location	Shuya	61.900646	34.242317
 location	Shuya (Ivanovo)	56.8558465	41.3838496
 location	Shuya (Karelia)	61.900646	34.242317
 location	Sialkot	32.4935378	74.5411575
+location	Siavonga	-16.511069	28.7586151
 location	Sibin	53.9059007	14.6752944
 location	Siddhpur	23.918279	72.3681846
 location	Sidi Bouzid	35.0382386	9.4865301
@@ -9236,6 +9260,7 @@ location	Sint-Pieters-Rode	50.9321326	4.8214061
 location	Sint-Stevens-Woluwe	50.8662434	4.436057976358823
 location	Sint-Truiden	50.810338	5.192644
 location	Sintra	38.8355605	-9.352225245746453
+location	Sioma	-16.6018637	23.5028306
 location	Siquirres	10.1513812	-83.48051634442399
 location	Sirajganj	24.4566253	89.7081281
 location	Siran	44.9543549	2.1270458
@@ -10741,6 +10766,7 @@ location	Waterloo	50.710994	4.406944
 location	Watermael-Boitsfort	50.793201	4.423990
 location	Waterschei-Zwartberg	51.003230599999995	5.522580315918505
 location	Watou	50.8585545	2.6202796
+location	Wattala	6.9898705	79.8927094
 location	Wattwil	47.291534299999995	9.087813825936845
 location	Waukesha County	43.000286	-88.237059
 location	Waunakee	43.185210	-89.446208
@@ -12325,6 +12351,7 @@ division	Lower Austria	48.360214	15.824134
 division	Lower Manya Krobo	6.1467264	0.0111251
 division	Lualaba	-9.69691495	23.02254385532696
 division	Luanda	-8.8272699	13.2439512
+division	Luapula	-11.9004565	29.7949916
 division	Lubelskie	50.8586338	22.7732404
 division	Lubuskie	52.18772680160436	15.244301130159887
 division	Lucerne	47.0502	8.3093
@@ -12486,6 +12513,7 @@ division	Mostar	43.356900	17.795491
 division	Mouscron	50.7459	3.2193
 division	Mozambique	-19.302233	34.9144977
 division	Mpumalanga	-25.5653	30.5279
+division	Muchinga	-11.385112	31.9525422
 division	Mudug	6.6507279	48.3009945
 division	Multan	30.1979793	71.4724978
 division	Mumbai	19.0760	72.8777
@@ -13081,6 +13109,7 @@ division	Southern East	-24.911789240188916	24.61204567229615
 division	Southern Finland	60.7373759	25.814587585061936
 division	Southern Province	6.149	80.73181777500001
 division	Southern Region MW	-15.30637685	35.32814794075438
+division	Southern Zambia	-16.5381715	26.7374997
 division	Southwestern Region	41.384177	20.831282438959253
 division	Spain	40.4637	-3.7492
 division	Special Region of Yogyakarta	-7.9778383999999996	110.36722565020224
@@ -13392,6 +13421,7 @@ division	West Sulawesi	-2.4974546	119.3918955
 division	West Sumatra	-1.33589025	100.07222762395327
 division	West Virginia	38.4758406	-80.8408415
 division	West-Vlaanderen	51.04047465	2.9994213387887116
+division	Western	-15.8543496	23.8016799
 division	Western Area	8.33460325	-13.065601629260717
 division	Western Australia	-27.055937	122.236663
 division	Western Cape Province	-33.493715	20.219852

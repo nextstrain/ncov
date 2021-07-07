@@ -8071,3 +8071,12 @@ Israel/CVL_S16-2/2020
 Israel/CVL_S16-3/2020
 Israel/CVL_S5-2/2020
 Israel/CVL_S8-3/2020
+
+# Divergence, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1625550603094100
+Bulgaria/21BG-EU_003246_Pl29/2021
+Bulgaria/21BG-EU_003284_Pl29/2021
+Bulgaria/21BG-EU_002988_Pl27/2021
+Bulgaria/21BG-EU_003283_Pl29/2021
+env/Austria/CeMM3279/2021
+Venezuela/LaG6888/2021
+France/IDF_HB_112003050333/2020
