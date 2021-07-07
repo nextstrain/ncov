@@ -16,7 +16,7 @@ To maximize the utility and visibility of these generously shared data, we provi
 
 #### Ingested and parsed data
 
- * [sequences.fasta.gz](https://data.nextstrain.org/files/ncov/open/sequences.fasta.gz)
+ * [sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz)
  * [metadata.tsv.gz](https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz)
 
 #### Pre-processed files
@@ -31,9 +31,9 @@ To maximize the utility and visibility of these generously shared data, we provi
 The files below exist for the `global` and the regional builds (`africa`, `asia`, `europe`, `north-america`, `oceania` and `south-america`).
 The links below refer to the `global` build, substitute `global` with the desired region in the links if necessary
 
- * [sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.xz)
- * [metadata.tsv.xz](https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz)
- * [aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.xz)
- * [auspice tree](https://data.nextstrain.org/files/ncov/open/global/global.json)
- * [auspice root sequence](https://data.nextstrain.org/files/ncov/open/global/global_root-sequence.json)
- * [auspice tip frequencies](https://data.nextstrain.org/files/ncov/open/global/global_tip-frequencies.json)
+ * [global/sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.xz)
+ * [global/metadata.tsv.xz](https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz)
+ * [global/aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.xz)
+ * [global auspice tree](https://data.nextstrain.org/files/ncov/open/global/global.json)
+ * [global auspice root sequence](https://data.nextstrain.org/files/ncov/open/global/global_root-sequence.json)
+ * [global auspice tip frequencies](https://data.nextstrain.org/files/ncov/open/global/global_tip-frequencies.json)
