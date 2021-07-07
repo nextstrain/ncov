@@ -5,18 +5,18 @@
 # To run a regional build, be sure to update the list of regions in `config/nextstrain_profiles.yaml`.
 #
 # You can run all builds in parallel!
-#   snakemake --profile nextstrain_profiles/nextstrain all_regions
+#   snakemake --profile nextstrain_profiles/nextstrain-gisaid all_regions
 #
 # Or you can specify final or intermediate output files like so:
-#   snakemake --profile nextstrain_profiles/nextstrain auspice/ncov_europe.json (subsampled regional focal)
-#   snakemake --profile nextstrain_profiles/nextstrain auspice/ncov_global.json (subsampled global)
+#   snakemake --profile nextstrain_profiles/nextstrain-gisaid auspice/ncov_europe.json (subsampled regional focal)
+#   snakemake --profile nextstrain_profiles/nextstrain-gisaid auspice/ncov_global.json (subsampled global)
 #
 # To update ordering/lat_longs after AWS download:
-#   snakemake --touch --forceall --profile nextstrain_profiles/nextstrain
-#   snakemake --profile nextstrain_profiles/nextstrain clean_export_regions
-#   snakemake --profile nextstrain_profiles/nextstrain export_all_regions
+#   snakemake --touch --forceall --profile nextstrain_profiles/nextstrain-gisaid
+#   snakemake --profile nextstrain_profiles/nextstrain-gisaid clean_export_regions
+#   snakemake --profile nextstrain_profiles/nextstrain-gisaid export_all_regions
 # When done adjusting lat-longs & orders, remember to run
-#   snakemake --profile nextstrain_profiles/nextstrain all_regions
+#   snakemake --profile nextstrain_profiles/nextstrain-gisaid all_regions
 # to produce the final Auspice files!
 
 def get_todays_date():
@@ -202,24 +202,16 @@ rule upload_reference_sets:
 rule upload:
     message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
     input:
-        expand("results/aligned_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),              # from `rule align`
-        expand("results/to-exclude_{origin}.txt.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule diagnostic`
-        expand("results/masked_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),               # from `rule mask`
-        expand("results/filtered_{origin}.fasta.xz", origin=config["S3_DST_ORIGINS"]),             # from `rule filter`
-        expand("results/mutation_summary_{origin}.tsv.xz", origin=config["S3_DST_ORIGINS"]),       # from `rule mutation_summary
-        expand("results/{build_name}/{build_name}_subsampled_sequences.fasta.xz", build_name=config["builds"]),
-        expand("results/{build_name}/{build_name}_subsampled_metadata.tsv.xz", build_name=config["builds"]),
+        unpack(_get_upload_inputs)
     params:
         s3_bucket = config["S3_DST_BUCKET"],
     log:
-        "logs/upload_gisaid.txt"
+        "logs/upload.txt"
     benchmark:
-        "benchmarks/upload_gisaid.txt"
+        "benchmarks/upload.txt"
     run:
-        for fname in input:
-            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.basename(fname)} | tee -a {log}"
-            print("upload command:", cmd)
-            shell(cmd)
+        for remote, local in input.items():
+            shell("./scripts/upload-to-s3 {local:q} s3://{params.s3_bucket:q}/{remote:q} | tee -a {log:q}")
 
 onstart:
     slack_message = f"Build {deploy_origin} started."

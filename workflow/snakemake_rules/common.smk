@@ -37,8 +37,8 @@ def _get_filter_value(wildcards, key):
 def _get_path_for_input(stage, origin_wildcard):
     """
     A function called to define an input for a Snakemake rule
-    This function always returns a local filepath, the format of which decides whether rules should
-    create this by downloading from a remote resource, or create it by a local compute rule.
+    This function always returns a local filepath, the format of which lets snakemake decide
+    whether to create it (via another rule) or use is as-is.
     """
     path_or_url = config.get("inputs", {}).get(origin_wildcard, {}).get(stage, "")
     scheme = urlsplit(path_or_url).scheme
@@ -48,21 +48,28 @@ def _get_path_for_input(stage, origin_wildcard):
     if scheme and scheme!="s3":
         raise Exception(f"Input defined scheme {scheme} which is not yet supported.")
 
-    ## Basic checking which could be taken care of by the config schema
-    ## If asking for metadata/sequences, the config _must_ supply a `path_or_url`
-    if path_or_url=="" and stage in ["metadata", "sequences"]:
-        raise Exception(f"ERROR: config->input->{origin_wildcard}->{stage} is not defined.")
-
     if stage=="metadata":
+        if not path_or_url:
+            raise Exception(f"ERROR: config->input->{origin_wildcard}->metadata is not defined.")
         return f"data/downloaded_{origin_wildcard}.tsv" if remote else path_or_url
     if stage=="sequences":
+        if not path_or_url:
+            raise Exception(f"ERROR: config->input->{origin_wildcard}->sequences is not defined.")
         return f"data/downloaded_{origin_wildcard}.fasta.gz" if remote else path_or_url
     if stage=="aligned":
-        return f"results/precomputed-aligned_{origin_wildcard}.fasta" if remote else f"results/aligned_{origin_wildcard}.fasta.xz"
-    if stage=="to-exclude":
-        return f"results/precomputed-to-exclude_{origin_wildcard}.txt" if remote else f"results/to-exclude_{origin_wildcard}.txt"
+        if remote:
+            return f"results/precomputed-aligned_{origin_wildcard}.fasta"
+        elif path_or_url:
+            return path_or_url
+        else:
+            return f"results/aligned_{origin_wildcard}.fasta.xz"
     if stage=="masked":
-        return f"results/precomputed-masked_{origin_wildcard}.fasta" if remote else f"results/masked_{origin_wildcard}.fasta.xz"
+        if remote:
+            return f"results/precomputed-masked_{origin_wildcard}.fasta"
+        elif path_or_url:
+            return path_or_url
+        else:
+            return f"results/masked_{origin_wildcard}.fasta.xz"
     if stage=="filtered":
         if remote:
             return f"results/precomputed-filtered_{origin_wildcard}.fasta"
@@ -155,15 +162,39 @@ def _get_max_date_for_frequencies(wildcards):
             date.today() - offset
         )
 
-def _get_first(config, *keys):
-    """
-    Get the value of the first key in *keys* that exists in *config* and has a
-    non-empty value.
+def _get_upload_inputs(wildcards):
+    # The main workflow supports multiple inputs/origins, but our desired file
+    # structure under data.nextstrain.org/files/ncov/open/… is designed around
+    # a single input/origin.  Intermediates (aligned, masked, filtered, etc)
+    # are specific to each input/origin and thus do not match our desired
+    # structure, while builds (global, europe, africa, etc) span all
+    # inputs/origins (and thus do).  In our desired outcome, the two kinds of
+    # files are comingled.  Without changing the main workflow, the mismatch
+    # has to be reconciled by the upload rule.  Thus, the upload rule enforces
+    # and uses only single-origin configurations.  How third-wave.
+    #   -trs, 7 May 2021
+    if len(config["S3_DST_ORIGINS"]) != 1:
+        raise Exception(f'The "upload" rule requires a single value in S3_DST_ORIGINS (got {config["S3_DST_ORIGINS"]!r}).')
 
-    Raises a :class:`KeyError` if none of the *keys* exist with a suitable
-    value.
-    """
-    for key in keys:
-        if config.get(key) not in {"", None}:
-            return config[key]
-    raise KeyError(str(keys))
+    origin = config["S3_DST_ORIGINS"][0]
+
+    # mapping of remote → local filenames
+    uploads = {
+        f"aligned.fasta.xz":              f"results/aligned_{origin}.fasta.xz",              # from `rule align`
+        f"masked.fasta.xz":               f"results/masked_{origin}.fasta.xz",               # from `rule mask`
+        f"filtered.fasta.xz":             f"results/filtered_{origin}.fasta.xz",             # from `rule filter`
+        f"mutation-summary.tsv.xz":       f"results/mutation_summary_{origin}.tsv.xz",       # from `rule mutation_summary`
+    }
+
+    for build_name in config["builds"]:
+        uploads.update({
+            f"{build_name}/sequences.fasta.xz": f"results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",   # from `rule combine_samples`
+            f"{build_name}/metadata.tsv.xz":    f"results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",      # from `rule combine_samples`
+            f"{build_name}/aligned.fasta.xz":   f"results/{build_name}/aligned.fasta.xz",                             # from `rule build_align`
+            # export the auspice dataset which matches the subsampled sequences / metadata (see `rule finalize`)
+            f"{build_name}/{build_name}.json":                  f"auspice/{config['auspice_json_prefix']}_{build_name}.json",
+            f"{build_name}/{build_name}_tip-frequencies.json":  f"auspice/{config['auspice_json_prefix']}_{build_name}_tip-frequencies.json",
+            f"{build_name}/{build_name}_root-sequence.json":    f"auspice/{config['auspice_json_prefix']}_{build_name}_root-sequence.json"
+        })
+
+    return uploads

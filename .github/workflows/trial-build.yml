@@ -17,20 +17,17 @@ env:
   NEXTSTRAIN_DOCKER_IMAGE: ${{ github.event.inputs.image }}
 
 jobs:
-  trial-build:
+  gisaid:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
-    - name: launch
+
+    - name: Setup
+      run: ./scripts/setup-github-workflow
+
+    - name: Launch build
       run: |
-        PATH="$HOME/.local/bin:$PATH"
         set -x
-
-        echo "::group::Install nextstrain-cli"
-        python3 -m pip install nextstrain-cli
-        echo "::endgroup::"
-
-        echo "::group::nextstrain build"
         nextstrain build \
           --aws-batch \
           --cpus 96 \
@@ -41,22 +38,65 @@ jobs:
             upload \
             --config \
                 S3_DST_BUCKET=nextstrain-ncov-private/trial/"$TRIAL_NAME" \
-                deploy_url=s3://nextstrain-staging/trial_"$TRIAL_NAME"_ \
-            --profile nextstrain_profiles/nextstrain \
+                deploy_url=s3://nextstrain-staging/ \
+                auspice_json_prefix=ncov_gisaid_trial_"$TRIAL_NAME" \
+            --profile nextstrain_profiles/nextstrain-gisaid \
             --set-threads tree=16 \
         |& tee build-launch.log
-        echo "::endgroup::"
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
-        set +x
+    - name: Build info
+      run: |
         echo "--> Trial name is: $TRIAL_NAME"
         echo
         echo "--> Upload prefixes"
         echo "intermediates: s3://nextstrain-ncov-private/trial/$TRIAL_NAME/"
-        echo "results: s3://nextstrain-staging/trial_${TRIAL_NAME}_"
-        echo "         https://nextstrain.org/staging/trial/$TRIAL_NAME/"
+        echo "results: s3://nextstrain-staging/ncov_gisaid_trial_${TRIAL_NAME}_"
+        echo "         https://nextstrain.org/staging/ncov/gisaid/trial/$TRIAL_NAME/"
         echo
         echo "--> Attach command"
         tail -n1 build-launch.log
+
+  open:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup
+      run: ./scripts/setup-github-workflow
+
+    - name: Launch build
+      run: |
+        set -x
+        nextstrain build \
+          --aws-batch \
+          --cpus 96 \
+          --memory 180GiB \
+          --detach \
+          . \
+            deploy \
+            upload \
+            --config \
+                S3_DST_BUCKET=nextstrain-staging/files/ncov/open/trial/"$TRIAL_NAME" \
+                deploy_url=s3://nextstrain-staging/ \
+                auspice_json_prefix=ncov_open_trial_"$TRIAL_NAME" \
+            --profile nextstrain_profiles/nextstrain-open \
+            --set-threads tree=16 \
+        |& tee build-launch.log
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+    - name: Build info
+      run: |
+        echo "--> Trial name is: $TRIAL_NAME"
+        echo
+        echo "--> Upload prefixes"
+        echo "intermediates: s3://nextstrain-staging/files/ncov/open/trial/$TRIAL_NAME/"
+        echo "results: s3://nextstrain-staging/ncov_open_trial_${TRIAL_NAME}_"
+        echo "         https://nextstrain.org/staging/ncov/open/trial/$TRIAL_NAME/"
+        echo
+        echo "--> Attach command"
+        tail -n1 build-launch.log

@@ -18,3 +18,46 @@ properties:
       required:
         - name
         - metadata
+      properties:
+        name:
+          type: string
+          minLength: 1
+        metadata:
+          type: string
+          minLength: 1
+        sequences:
+          type: string
+          minLength: 1
+        aligned:
+          type: string
+          minLength: 1
+        masked:
+          type: string
+          minLength: 1
+        filtered:
+          type: string
+          minLength: 1
+      additionalProperties: false
+
+  builds:
+    type: object
+    minProperties: 1
+    propertyNames:
+      # Allow build names to contain alpha characters, underscores, and hyphens
+      # but not special strings used for Nextstrain builds.  Also used in the
+      # workflow's wildcard_constraints.
+      pattern: "^(?:[_a-zA-Z-](?!(tip-frequencies)))+$"
+
+  S3_DST_COMPRESSION:
+    type: string
+    enum:
+      - gz
+      - xz
+
+  S3_DST_ORIGINS:
+    type: array
+    minItems: 1
+    items:
+      type: string
+      # A similar pattern is used in the workflow's wildcard constraints.
+      pattern: "^[a-zA-Z0-9-]+$"

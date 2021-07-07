@@ -74,8 +74,6 @@ if "builds" not in config:
         }
     }
 
-include: "workflow/snakemake_rules/reference_build_definitions.smk"
-
 # Check for old-style input file references and alert users to the new format.
 if "sequences" in config or "metadata" in config:
     logger.error("ERROR: Your configuration file includes references to an unsupported specification of input files (e.g., `config['sequences']` or `config['metadata']`).")

@@ -1,0 +1,104 @@
+{
+  "build_url": "https://github.com/nextstrain/ncov",
+  "maintainers": [
+    {
+      "name": "the Nextstrain team",
+      "url": "https://nextstrain.org/"
+    }
+  ],
+  "data_provenance": [
+    {
+      "name": "GenBank",
+      "url": "https://www.ncbi.nlm.nih.gov/genbank/"
+    }
+  ],
+  "colorings": [
+    {
+      "key": "emerging_lineage",
+      "title": "Emerging Lineage",
+      "type": "categorical"
+    },
+    {
+      "key": "clade_membership",
+      "title": "Clade",
+      "type": "categorical"
+    },
+    {
+      "key": "S1_mutations",
+      "title": "S1 mutations",
+      "type": "continuous"
+    },
+    {
+      "key": "logistic_growth",
+      "title": "Logistic growth",
+      "type": "continuous"
+    },
+    {
+      "key": "current_frequency",
+      "title": "Current frequency",
+      "type": "continuous"
+    },
+    {
+      "key": "division",
+      "title": "Admin Division",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "author",
+      "title": "Authors",
+      "type": "categorical"
+    },
+    {
+      "key": "recency",
+      "title": "Submission Date",
+      "type": "categorical"
+    },
+    {
+      "key": "genbank_accession",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "division",
+    "country",
+    "region"
+  ],
+  "display_defaults": {
+    "color_by": "clade_membership",
+    "distance_measure": "num_date",
+    "geo_resolution": "country",
+    "map_triplicate": true,
+    "branch_label": "clade",
+    "transmission_lines": false
+  },
+  "filters": [
+    "recency",
+    "emerging_lineage",
+    "clade_membership",
+    "region",
+    "country",
+    "division",
+    "host"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy",
+    "frequencies"
+  ]
+}

@@ -1,0 +1,12 @@
+configfile:
+  - defaults/parameters.yaml
+  - tests/remote-inputs-uncompressed/builds.yaml
+
+# Set the maximum number of cores you want Snakemake to use for this pipeline.
+cores: 2
+
+# Always print the commands that will be run to the screen for debugging.
+printshellcmds: True
+
+# Print log files of failed jobs
+show-failed-logs: True
