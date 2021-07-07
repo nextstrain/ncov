@@ -5,6 +5,12 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+ - 7 July 2021: Extensive changes to internally-used Nextstrain profiles.
+ There should be no breaking changes to existing workflows outside of `./nextstrain_profiles/`.
+ Please see [PR #628](https://github.com/nextstrain/ncov/pull/628) for full details. Briefly:
+     - The (GISAID) profile has been renamed to `./nextstrain_profiles/nextstrain-gisaid`
+     - A new "open" (GenBank) profile has been added `./nextstrain_profiles/nextstrain-open`
+     - Intermediate open (GenBank) files, including sequences, & alignments are now publicly available for workflows to use as starting points. See the [remote inputs documentation](https://github.com/nextstrain/ncov/blob/master/docs/remote_inputs.md) for details.
  - 27 June 2021: Update clade definitions with 21G (Lambda, C.37) emerging from Peru and 21H (B.1.621) emerging from Colombia.
  - 22 June 2021: Add the ability to specify subsampling via a `priorities.tsv` file. To use, set the `priorities > type: file` and add `priorities > file: path/to/priorities.tsv` to your build's `subsampling` schema. `priorities.tsv` contains `strain name\tarbitrary numerical value`. Higher values = higher priority. ([#664](https://github.com/nextstrain/ncov/pull/664))
  - 18 June 2021: Change default behavior of frequency estimation to estimate frequencies starting 1 year prior to the current date. To override this default behavior, define a `min_date` in the `frequencies` section of the builds configuration. ([#659](https://github.com/nextstrain/ncov/pull/659))
