@@ -33,7 +33,7 @@ def _infer_decompression(input):
 rule download_sequences:
     message: "Downloading sequences from {params.address} -> {output.sequences}"
     output:
-        sequences = "data/downloaded_{origin}.fasta.gz"
+        sequences = "data/downloaded_{origin}.fasta.xz"
     conda: config["conda_environment"]
     params:
         address = lambda w: config["inputs"][w.origin]["sequences"],
