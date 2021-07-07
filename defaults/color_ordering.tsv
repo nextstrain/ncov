@@ -586,7 +586,13 @@ location	Dhalai
 location	North Tripura
 
 # Manipur
+location	Tamenglong
+location	Bishnupur
 location	Imphal West
+location	Kakching
+location	Imphal East
+location	Thoubal
+location	Kamjong
 
 # Bihar
 location	Nalanda
@@ -883,13 +889,16 @@ location	Kishoreganj
 location	Kodomtoly
 
 # Rajshahi
-location	Shibganj
+location	Chapai
 location	Chapainawabgonj
 location	Rajshahi
+location	Mohadebpur
+location	Komaigari
+location	Doyaler Mor
+location	Bangabaria
 location	Naogaon
 location	Natore
 location	Pabna
-location	Kalitola
 location	Sirajganj
 
 # Mymensingh
@@ -2804,6 +2813,7 @@ location	Viladecavalls
 location	Ullastrell
 location	Avinyo
 location	Sant Andreu de la Barca
+location	Sant Miquel de Gonteres
 location	Llivia
 location	Ca N'Amat
 location	Castelldefels
@@ -2855,6 +2865,7 @@ location	Moncada y Reixach
 location	La Llagosta
 location	Ripoll
 location	Gallecs
+location	Palaudalba
 location	Santa Coloma de Gramenet
 location	Bigues I Riells
 location	Montesquiu
@@ -6310,6 +6321,7 @@ location	Kotor Varos
 location	Knezevo
 location	Srbac
 location	Istocno Sarajevo
+location	Foca
 location	Visegrad
 
 # Herzegowina-Neretva
@@ -6468,6 +6480,7 @@ location	Broczyno
 location	Walcz
 location	Rekowo
 location	Sowno
+location	Karsino
 location	Wierzchowo
 location	Slawno
 location	Szczecinek
@@ -6515,7 +6528,7 @@ location	Przyborow
 location	Swidnica DS
 location	Zarow
 location	Bojanice
-location	Przylesie
+location	Przylesie (Dolnośląskie)
 location	Lutomia Dolna
 location	Gora (Dolnośląskie)
 location	Pieszyce
@@ -6581,12 +6594,14 @@ location	Wielen
 location	Lwowek
 location	Lubosz
 location	Pakawie
+location	Pożarowo
 location	Rosko
 location	Niewierz
 location	Wielichowo
 location	Wronki
 location	Jesionowo
 location	Duszniki
+location	Opalenica
 location	Strozki
 location	Samolez
 location	Wilkowo Polskie
@@ -6725,6 +6740,7 @@ location	Konin
 location	Tuliszkow
 location	Pietno
 location	Milaczewek
+location	Slodkow-Kolonia
 location	Targowka
 location	Kowale Ksieze
 location	Turek
@@ -6749,6 +6765,7 @@ location	Polski Swietow
 location	Malujowice
 location	Głuchołazy
 location	Bodzanow
+location	Przylesie (Opolskie)
 location	Stary las
 location	Brzeg
 location	Malerzowice Wielkie
@@ -6778,6 +6795,7 @@ location	Lisiecice
 location	Stare Kotkowice
 location	Opole
 location	Rogow (Opolskie)
+location	Pietna
 location	Krapkowice
 location	Baborow
 location	Kietrz
@@ -7018,6 +7036,7 @@ location	Chojne
 location	Zalesie (Łódzkie)
 location	Zdunska Wola
 location	Poddebice
+location	Ostrowek
 location	Wartkowice
 location	Pajeczno County
 location	Charbice Gorne
@@ -7052,6 +7071,7 @@ location	Szymaniszki
 location	Bogdanka
 location	Koluszki
 location	Kraszew
+location	Kolo
 location	Kalinki
 location	Wągry
 location	Przylek Duzy
@@ -8683,7 +8703,7 @@ location	25 de Mayo
 location	Campana
 location	General Rodriguez
 location	Pilar AR
-location	Moreno
+location	Moreno AR
 location	José C Paz
 location	Cañuelas
 location	Necochea
@@ -9696,7 +9716,7 @@ location	Cristalina
 location	Abadia de Goias
 location	Senador Canedo
 location	Goiania
-location	Trindade
+location	Trindade (Goiás)
 location	Turvania
 location	Mangueira
 location	Santa Barbara de Goias
@@ -10259,7 +10279,7 @@ location	Carmo
 location	Nova Friburgo
 location	Duas Barras
 location	Saquarema
-location	Bom Jardim
+location	Bom Jardim (Rio de Janeiro)
 location	Silva Jardim
 location	Cantagalo
 location	Cordeiro
@@ -10461,33 +10481,51 @@ location	Caninde de Sao Francisco
 # Pernambuco
 location	Araripina
 location	Petrolina
+location	Lagoa Grande
+location	Trindade (Pernambuco)
+location	Ouricuri
+location	Granito
+location	Cabrobo
+location	Serrita
+location	Cedro
+location	Salgueiro
 location	Serra Talhada
 location	Petrolandia
 location	Carnaiba
 location	Tabira
 location	Sao Jose do Egito
 location	Itapetim
+location	Águas Belas
+location	Aguas Belas
 location	Arcoverde
+location	Venturosa
 location	Poção
 location	Pesqueira
+location	Capoeiras
 location	Sao Bento do Una
 location	Santa Cruz do Capibaribe
 location	Ibirajuba
 location	Sao Caetano
 location	Toritama
 location	Caruaru
+location	Cupira
+location	Agrestina
+location	Belém de Maria
 location	Sao Joaquim do Monte
 location	Jaqueira
 location	Camocim de Sao Felix
 location	Bezerros
 location	Catende
 location	Barra de Guabiraba
+location	Xexeu
 location	Palmares
+location	Bom Jardim (Pernambuco)
 location	Passira
 location	Gravata
 location	Cha Grande
 location	Gameleira
 location	Primavera PE
+location	Vicência
 location	Lagoa do Carro
 location	Vitoria de Santo Antao
 location	Carpina
@@ -10495,6 +10533,8 @@ location	Alianca
 location	Itambe PE
 location	Tamandaré
 location	Condado
+location	Aracoiaba
+location	Moreno BR
 location	Ipojuca
 location	Sao Lourenco Da Mata
 location	Cabo de Santo Agostinho
@@ -11913,6 +11953,7 @@ location	St. Louis MO
 
 # Mississippi
 location	Pearl River County
+location	Oktibbeha County
 
 # Wisconsin
 location	Saint Croix County
@@ -12199,6 +12240,7 @@ location	Alpena County
 
 # Georgia
 location	Cobb
+location	Henry County GA
 location	Thomas County
 location	Richmond County GA
 location	Liberty County GA
@@ -12868,6 +12910,7 @@ division	Guangdong
 division	Jiangxi
 division	Hebei
 division	Beijing
+division	Jining
 division	Anhui
 division	Fujian
 division	Shandong
@@ -13349,6 +13392,9 @@ division	Nord Kivu
 division	Africa
 
 ### Botswana
+division	Rakhuna
+division	Tlhareseleele
+division	Pitsane
 division	Goodhope
 division	Lobatse
 division	Southern East
