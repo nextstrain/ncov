@@ -7,7 +7,8 @@ We have two GitHub repositories which routinely upload files to [S3 buckets](htt
 Each of those runs separate pipelines for GISAID and GenBank (aka "open") data sources; these pipelines start with data curation and QC steps and end with the phylogenetic analyses you can see on [nextstrain.org](https://nextstrain.org/sars-cov-2/)
 
 The GISAID data is stored at `s3://nextstrain-ncov-private` and is not publicly available, in line with the GISAID Terms of Use (this is used internally by Nextstrain).
-The open (GenBank) data is available in the public bucket `s3://nextstrain-data/files/ncov/open`.
+
+The open (GenBank) data is available in the public AWS bucket `s3://nextstrain-data/files/ncov/open`. These open data are also mirrored daily to the public GCP bucket `gs://nextstrain-data/files/ncov/open`.
 **Our intention is to make GenBank intermediate files open and available for everyone to use, and to keep these files up-to-date.**
 
 ## All available genomes and metadata
