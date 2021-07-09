@@ -298,30 +298,48 @@ def auto_add_lat_longs(new_lat_longs):
 ##### Step 1.1: Collection of all standard, non-exposure related data
 
 # Read the metadata and return in dictionary format data[region][country][division][location] = list of all strains + GISAID id with this combination
-def read_metadata(metadata):
-    data = {}
+def read_metadata(metadata, data, source):
+
+    header = metadata[0].split("\t")
+    region_i = header.index("region")
+    country_i = header.index("country")
+    division_i = header.index("division")
+    location_i = header.index("location")
+
+    strain_i = header.index("strain")
+
+    if source == "gisaid":
+        epi_i = header.index("gisaid_epi_isl")
+    if source == "genbank":
+        epi_i = header.index("genbank_accession")
 
     for line in metadata[1:]:
         l = line.split("\t")
-        region = l[5]
-        country = l[6]
-        division = l[7]
-        location = l[8]
-        id = l[2]
-        strain = l[0]
+
+        region = l[region_i]
+        country = l[country_i]
+        division = l[division_i]
+        location = l[location_i]
+        strain = l[strain_i]
+        id = l[epi_i]
 
         host = l[14]
         if host == "Neovison vison" or host ==  "Mustela lutreola":
             print("Adjust host " + host + " to Mink")
-            additions_to_annotation.append(strain + "\t" + id + "\thost\tMink # previously " + host)
-
+            if source == "gisaid":
+                additions_to_annotation.append(strain + "\t" + id + "\thost\tMink # previously " + host)
+            if source == "genbank":
+                additions_to_annotation.append(id + "\thost\tMink # previously " + host)
         problematic_char = ["'", "`"]
 
         for c in problematic_char:
             if c in strain:
                 strain2 = strain.replace(c, "-")
                 print("Adjust strain " + strain + " to " + strain2)
-                additions_to_annotation.append(strain + "\t" + id + "\tstrain\t" + strain2 + " # previously " + strain)
+                if source == "gisaid":
+                    additions_to_annotation.append(strain + "\t" + id + "\tstrain\t" + strain2 + " # previously " + strain)
+                if source == "genbank":
+                    additions_to_annotation.append(id + "\tstrain\t" + strain2 + " # previously " + strain)
             
 
         if region not in data:
@@ -332,7 +350,10 @@ def read_metadata(metadata):
             data[region][country][division] = {}
         if location not in data[region][country][division]:
             data[region][country][division][location] = []
-        data[region][country][division][location].append(strain + "\t" + id)  # store strain and id of each seq with this combination of region/country/division/location
+        if source == "gisaid":
+            data[region][country][division][location].append(strain + "\t" + id)  # store strain and id of each seq with this combination of region/country/division/location
+        if source == "genbank":
+            data[region][country][division][location].append(id)
     return data
 
 
@@ -349,13 +370,16 @@ def read_exposure(data, metadata):
     bad_div = {}
     bad_ctry = {}
 
+    header = metadata[0].split("\t")
+    region_i = header.index("region_exposure")
+    country_i = header.index("country_exposure")
+    division_i = header.index("division_exposure")
+
     for line in metadata[1:]:
         l = line.split("\t")
-        region2 = l[9]
-        country2 = l[10]
-        division2 = l[11]
-        id = l[2]
-        strain = l[0]
+        region2 = l[region_i]
+        country2 = l[country_i]
+        division2 = l[division_i]
 
         if region2 == "United Kingdom": #TODO: separate this, make it more applicable for other countries
             region2 = "Europe"
@@ -950,6 +974,8 @@ def check_for_missing(data):
 
     missing = {"country": [], "division": {}, "location": {}}
     clean_missing = {"country": [], "division": {}, "location": {}} # Same as above, but without formatting or notes
+    locations_skipped = {}
+    n_skipped_locations = 0
 
     for region in data:
         data_clean[region] = {}
@@ -1016,54 +1042,74 @@ def check_for_missing(data):
                     if location == "":
                         continue
 
-                    if location not in ordering["location"] or location not in lat_longs["location"]:
-                        s = bold(location)
-                        name0 = check_similar(hierarchical_ordering[region][country][division], location, "location") if hierarchical_ordering[region].get(country) is not None and hierarchical_ordering[region][country].get(division) else ""
-                        if location not in ordering["location"] and location in lat_longs["location"]:
-                            s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
+                    if region == "North America":
+                        if location not in ordering["location"] or location not in lat_longs["location"]:
+                            s = bold(location)
+                            name0 = check_similar(hierarchical_ordering[region][country][division], location, "location") if hierarchical_ordering[region].get(country) is not None and hierarchical_ordering[region][country].get(division) else ""
+                            if location not in ordering["location"] and location in lat_longs["location"]:
+                                s = s + " (only missing in ordering => auto-added to color_ordering.tsv)"
+                                if country not in data_clean[region]:
+                                    print("Conflict: location " + location + " should be added to color_ordering.tsv, but country " + country + " is missing from dataset")
+                                else:
+                                    if division not in data_clean[region][country]:
+                                        if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
+                                            print("Conflict: location " + location + " should be added to color_ordering.tsv, but division " + division + " is missing from dataset")
+                                    else:
+                                        data_clean[region][country][division].append(location)
+                            else: #only check for additional hints like "similar name" or "present as division" if not auto-added to color_ordering
+                                if name0 != "":
+                                    s += " (similar name in same division: " + bold(name0) + " - consider adding " + "[" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, name0]) + "]" + " to manual_adjustments.txt)"
+                                if location in ordering["location"] and location not in lat_longs["location"]:
+                                    s = s + " (only missing in lat_longs)"
+                                if location in ordering["division"] or location in lat_longs["division"]:
+                                    s = s + " (present as division)"
+                                if country == "USA" and "County" not in location:
+                                    ct = "County"
+                                    if division == "Louisiana":
+                                        ct = "Parish"
+                                    s = s + " (correction to " + ct + " might be necessary using [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location + " " + ct]) + "]"
+
+                            if country not in missing["location"]:
+                                missing["location"][country] = {}
+                                clean_missing["location"][country] = {}
+                            if division not in missing["location"][country]:
+                                if any(x in division for x in cruise_abbrev):
+                                    print("Cruise-associated division ignored ("+division+")")
+                                else:
+                                    missing["location"][country][division] = []
+                                    clean_missing["location"][country][division] = []
+                            if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
+                                missing["location"][country][division].append(s)
+                                if "(only missing in ordering" not in s:
+                                    clean_missing["location"][country][division].append(location)
+                            else:
+                                print("Cruise-associated location ignored ("+location+")")
+                        else:
                             if country not in data_clean[region]:
-                                print("Conflict: location " + location + " should be added to color_ordering.tsv, but country " + country + " is missing from dataset")
+                                print(
+                                            "Conflict: location " + location + " should be added to color_ordering.tsv, but country " + country + " is missing from dataset")
                             else:
                                 if division not in data_clean[region][country]:
                                     if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
                                         print("Conflict: location " + location + " should be added to color_ordering.tsv, but division " + division + " is missing from dataset")
                                 else:
                                     data_clean[region][country][division].append(location)
-                        else: #only check for additional hints like "similar name" or "present as division" if not auto-added to color_ordering
-                            if name0 != "":
-                                s += " (similar name in same division: " + bold(name0) + " - consider adding " + "[" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, name0]) + "]" + " to manual_adjustments.txt)"
-                            if location in ordering["location"] and location not in lat_longs["location"]:
-                                s = s + " (only missing in lat_longs)"
-                            if location in ordering["division"] or location in lat_longs["division"]:
-                                s = s + " (present as division)"
-                            if country == "USA" and "County" not in location:
-                                s = s + " (correction to County might be necessary using [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location + " County"]) + "]"
-
-                        if country not in missing["location"]:
-                            missing["location"][country] = {}
-                            clean_missing["location"][country] = {}
-                        if division not in missing["location"][country]:
-                            if any(x in division for x in cruise_abbrev):
-                                print("Cruise-associated division ignored ("+division+")")
-                            else:
-                                missing["location"][country][division] = []
-                                clean_missing["location"][country][division] = []
-                        if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
-                            missing["location"][country][division].append(s)
-                            if "(only missing in ordering" not in s:
-                                clean_missing["location"][country][division].append(location)
-                        else:
-                            print("Cruise-associated location ignored ("+location+")")
-
                     else:
-                        if country not in data_clean[region]:
-                            print("Conflict: location " + location + " should be added to color_ordering.tsv, but country " + country + " is missing from dataset")
-                        else:
-                            if division not in data_clean[region][country]:
-                                if not any(x in location for x in cruise_abbrev) and not any(x in division for x in cruise_abbrev):
-                                    print("Conflict: location " + location + " should be added to color_ordering.tsv, but division " + division + " is missing from dataset")
-                            else:
+                        if country in data_clean[region]:
+                            if division in data_clean[region][country]:
                                 data_clean[region][country][division].append(location)
+                        if location not in lat_longs["location"] and location not in ordering["location"]: #only completely new locations are considered for the counting
+                            if region not in locations_skipped:
+                                locations_skipped[region] = {}
+                            if country not in locations_skipped [region]:
+                                locations_skipped[region][country] = {}
+                            if division not in locations_skipped[region][country]:
+                                locations_skipped[region][country][division] = []
+                            locations_skipped[region][country][division].append(location)
+                            n_skipped_locations += 1
+
+    print("Number of non-North American locations skipped: " + str(n_skipped_locations))
+
 
     if missing['location']:
         print("\n\nMissing locations:")
@@ -1297,7 +1343,7 @@ def write_ordering(data, hierarchy):
                     if len(data[region][country][division]) > 0:  # only write division as a comment if there is data following it
                         out.write("\n# " + division + "\n")
 
-                    for location in sort_by_coordinates(data[region][country][division], lat_longs["location"]):
+                    for location in sorted(data[region][country][division]):
                         out.write("location\t" + location + "\n")
 
             if hierarchy == "location" or hierarchy == "division":
@@ -1369,7 +1415,11 @@ if __name__ == '__main__':
     # Read current metadata
     #path_to_ncov = "../../" # TODO: adjust file structure properly
     with open("data/downloaded_gisaid.tsv") as myfile:
-        metadata = myfile.readlines()
+        metadata_gisaid = myfile.readlines()
+
+    with open("data/metadata_genbank.tsv") as myfile:
+        metadata_genbank = myfile.readlines()
+
 
     # Read orderings and lat_longs
     ordering, ordering_other = read_geography_file("defaults/color_ordering.tsv") #TODO: combine with read_local_files()?
@@ -1390,7 +1440,10 @@ if __name__ == '__main__':
 
     # Hierarchical ordering of all regions, countries, divisions and locations
     # Each location (also empty ones) hold a list of all strains & GISAID IDs with this region+country+division+location
-    data = read_metadata(metadata)
+    data = {}
+    data = read_metadata(metadata_gisaid, data, "gisaid")
+    data = read_metadata(metadata_genbank, data, "genbank")
+
 
 
     ##### Step 1.2: Collection of regions, countries and divisions of exposure
@@ -1398,7 +1451,7 @@ if __name__ == '__main__':
     # Since travel history related entries are prone to errors, check for each entry whether it collides with already existing data.
 
     # TODO: Currently commented out due to numerous inconsistencies
-    data = read_exposure(data, metadata)
+    data = read_exposure(data, metadata_gisaid)
 
 
     ################################################################################
