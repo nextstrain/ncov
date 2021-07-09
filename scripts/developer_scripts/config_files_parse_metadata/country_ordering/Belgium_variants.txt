@@ -263,4 +263,15 @@ Louvain-la-Neuve	Ottignies-Louvain-la-Neuve
 Hiest-op-Den-Berg	Heist-op-den-Berg
 1367	Ramillies
 Winkesele	Winksele
-
+Lettingen	Lettelingen
+Mecchelen-Aan-de-Maas	Mechelen-aan-de-Maas
+Sint-Joost-Te-Node	Saint-Josse-ten-Noode
+Beerts	Beerse
+Jemeppe-sur-Sombre	Jemeppe-sur-Sambre
+Meeuwe-Gruitrode	Meeuwen-Gruitrode
+Afsnee	Sint-Denijs-Westrem - Afsnee
+Bervelo	Beverlo
+Verdrin	Vedrin - Daussoulx
+Pietrebas	Piétrebais
+Sint-Gensius-Rode	Sint-Genesius-Rode
+Ceusmes	Cuesmes

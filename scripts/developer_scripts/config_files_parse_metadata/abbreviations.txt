@@ -156,3 +156,10 @@ Bocas del Toro	PA
 Aragon	ES
 Gujarat	IN
 Luapula	ZM
+Pernambuco	BR
+Opolskie	(Opolskie)
+Quiche	GT
+Zacapa	GT
+Castilla y Leon	ES
+Guatemala	GT
+Ile de France	FR

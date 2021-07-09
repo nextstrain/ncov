@@ -233,6 +233,7 @@ Westerlo
 ### Brabant Wallon
 
 # Nivelles
+Argenteuil BE
 Beauvechain
 	Beauvechain
 	Hamme-Mille
@@ -655,7 +656,7 @@ Mons
 	Mons
 	Nimy
 	Nouvelles
-	Saint-Denis
+	Saint-Denis (Mons)
 	Obourg
 	Saint-Symphorien
 	Spiennes
@@ -2180,7 +2181,7 @@ La Bruyère
 	Émines
 	Meux
 	Rhisnes
-	Saint-Denis
+	Saint-Denis (La Bruyère)
 	Villers-lez-Heest
 	Warisoulx
 Mettet
@@ -2755,7 +2756,7 @@ Halle
 Herne
 	Herfelingen
 	Herne
-	Sint-Pieters-Kapelle
+	Sint-Pieters-Kapelle (Herne)
 Hoeilaart
 	Hoeilaart
 Kampenhout
@@ -3229,7 +3230,7 @@ Middelkerke
 	Mannekensvere
 	Middelkerke
 	Schore
-	Sint-Pieters-Kapelle
+	Sint-Pieters-Kapelle (Middelkerke)
 	Slijpe
 	Westende
 	Wilskerke
