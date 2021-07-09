@@ -4370,6 +4370,7 @@ location	Jaworzno	50.203439	19.2721559
 location	Jazernica	48.9265839	18.8306113
 location	Jedrzejow	50.6394435	20.3046116
 location	Jefferson County AL	33.5228184	-86.9164513
+location	Jefferson County CO	39.5699803	-105.2561919
 location	Jefferson County IL	38.3010487	-88.9344303
 location	Jefferson County IN	38.8166724	-85.4299489
 location	Jefferson County MT	46.1850019	-112.1388102
@@ -5805,6 +5806,7 @@ location	Maldyty	53.9203373	19.741694
 location	Malerzowice Wielkie	50.58294	17.49461
 location	Malewicze Gorne	53.4008735	23.6112554
 location	Malgrat de Mar	41.6459118	2.7414054
+location	Malheur County	43.1023481	-117.6916892
 location	Maliano	43.41845	-3.83623
 location	Maligawatta	6.935291149999999	79.8721047873205
 location	Malinau	2.6185545	115.69049695186618
@@ -10850,6 +10852,7 @@ location	Washington County OR	45.544427	-123.010435
 location	Washington County RI	41.46361564311959	-71.64806019561742
 location	Washington County TX	30.2226352	-96.3936114
 location	Washington County WI	43.362309	-88.235107
+location	Washoe	38.305749	-122.7358219
 location	Washoe County	40.5849048	-119.6131606
 location	Wasilla	61.579538	-149.468390
 location	Wasosz	53.30815	17.06443
@@ -11371,6 +11374,7 @@ division	Aegean Islands	38.2504094	20.6304217
 division	Afghanistan	33.7680065	66.2385139
 division	Africa	4.070194	21.824559
 division	Afyon	38.752653	30.553661
+division	Agadez	16.972556	7.990739
 division	Agder	58.71944225	8.034963534558171
 division	Agri	39.7191	43.0506
 division	Aguascalientes	22.0000001	-102.5000001
@@ -11588,6 +11592,7 @@ division	Bolivar VE	8.1080955	-63.551078
 division	Bolivia	-17.0568696	-64.9912286
 division	Bomet	-0.7196054000000001	35.23963801252495
 division	Bonaire	12.1558998	-68.242427
+division	Bono East Region	7.8035236	-1.0876492
 division	Bono Region	7.6761791	-2.4735401
 division	Bonthe	7.5292766	-12.5131866
 division	Bordj-Bou-Arreridj	36.095506	4.661100173631754
@@ -12180,6 +12185,7 @@ division	Jammu and Kashmir	33.796268	76.481097
 division	Jamtland	63.1712	14.9592
 division	Jamtland Harjedalen	62.162882	13.755564
 division	Japan	35.68536	139.75309
+division	Jarva Maakond	58.9380564	25.73324175837961
 division	Jarvis Island	-0.37228059999999996	-159.99736118989586
 division	Jász-Nagykun-Szolnok County	47.2556	20.5232
 division	Jatov	48.1284623	18.028264
@@ -12506,6 +12512,7 @@ division	Manitoba	55.182879	-97.823531
 division	Mannar	8.9772444	79.9137786
 division	Manzini	-26.4958706	31.3695887
 division	Maputo	-25.966213	32.56745
+division	Maradi	13.501206	7.102534
 division	Maranhão	-4.9609	-45.2744
 division	Marche	43.374025	13.161012
 division	Marche-en-Famenne	50.2265147	5.3407365
@@ -12829,6 +12836,7 @@ division	Pahang	3.8126	103.3256
 division	Pakistan	30	70
 division	Palmyra Atoll	5.882204	-162.0748745
 division	Palu	-0.8957793	119.8679974
+division	Pamplemousses	-20.098318499999998	57.573905604159094
 division	Panama	8.3096067	-81.3066245
 division	Panama Center	9.207626	-79.426783
 division	Panama City	8.98333	-79.5166
@@ -12903,6 +12911,7 @@ division	Pomorskie	54.2944	18.1531
 division	Pomurska	46.67145575	16.232207554958055
 division	Poprad	49.0541521	20.2976401
 division	Port-Gentil	-0.7149116	8.7797434
+division	Port Louis	-20.1637281	57.5045331
 division	Portugal	39.54046	-8.174701
 division	Posavska	45.94246699999999	15.525654263313344
 division	Potosi	-20.666667	-66.666667
@@ -12999,6 +13008,7 @@ division	Rio Negro	-40.8261	-63.0266
 division	Risaralda	4.921633	-75.900759
 division	Rivera	-30.906491	-55.540612
 division	Rivers	4.8416028	6.8604088
+division	Riviere Du Rempart	-20.0667738	57.65058957251499
 division	Rivne	50.6196175	26.2513165
 division	Riyadh	23.197563	45.243845
 division	Rocha	-34.0	-54.0
@@ -13091,6 +13101,7 @@ division	Sarlahi	26.96881835	85.56383497003685
 division	Saskatchewan	53.934278	-106.16006
 division	Saudi Arabia	25	45
 division	Savanne	-20.45806125	57.489206513345835
+division	Savinja	46.3171858	15.0169865
 division	Savinjska	46.238152400000004	15.341413795874667
 division	Saxony	50.9295798	13.4585052
 division	Saxony-Anhalt	52.0089065	11.7003344
@@ -13605,6 +13616,7 @@ division	Zhejiang	29.22571	120.299125
 division	Zielonogorskie	52.2275	15.2559
 division	Zilina	49.2234674	18.7393139
 division	Zimbabwe	-18.4554963	29.7468414
+division	Zinder	13.8063421	8.9891659
 division	Ziri	46.0510703	14.1106226
 division	Zlatibor District	43.587981600000006	19.761440498601697
 division	Zlin	49.226766	17.6667415
