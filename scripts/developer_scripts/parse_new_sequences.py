@@ -607,12 +607,12 @@ def filter_for_date_region(data, path_to_outputs, params):
 def prepare_tweet(counts, total_lab_collection, lab_collection):
 
     links = {
-        "Africa": "nextstrain.org/ncov/africa",
-        "Asia": "nextstrain.org/ncov/asia",
-        "Europe": "nextstrain.org/ncov/europe",
-        "North America": "nextstrain.org/ncov/north-america",
-        "Oceania": "nextstrain.org/ncov/oceania",
-        "South America": "nextstrain.org/ncov/south-america"
+        "Africa": "nextstrain.org/ncov/gisaid/africa",
+        "Asia": "nextstrain.org/ncov/gisaid/asia",
+        "Europe": "nextstrain.org/ncov/gisaid/europe",
+        "North America": "nextstrain.org/ncov/gisaid/north-america",
+        "Oceania": "nextstrain.org/ncov/gisaid/oceania",
+        "South America": "nextstrain.org/ncov/gisaid/south-america"
     }
 
     starters = [
