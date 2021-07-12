@@ -94,3 +94,7 @@ Port of embarkation XXX
 Imported case (Incoming passenger) - Port of embarkation XXX
 Other: Airport Quarantine Station in Japan. COVID-19 positive case who entered from XXX.
 Patient infected while traveling in XXX.
+XXX Returning Overseas Filipino
+With History of Travel: XXX Returning Overseas Filipino
+Travel history: XXX Returning Overseas Filipino
+Travel History: XXX Returning Overseas Filipino

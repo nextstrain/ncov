@@ -3124,6 +3124,7 @@ location	Floresta Azul	-14.8602238	-39.6561384
 location	Florestopolis	-22.8663942	-51.3905121
 location	Florianopolis	-27.581052	-48.481313
 location	Florida	27.6648	-81.5158
+location	Florida PR	18.3636604	-66.57201242195136
 location	Floridablanca	7.0625358	-73.0858228
 location	Florinea	-22.9016004	-50.7268005
 location	Flüh	47.4850563	7.4978069
@@ -3778,6 +3779,8 @@ location	Harney County	43.055195	-119.0240263
 location	Haro	42.5768922	-2.8466768
 location	Harris County	29.8119769	-95.3741247
 location	Harrison County	32.5233959	-94.3982158
+location	Harrison County MS	30.4553392	-89.1313136
+location	Harrison County TX	32.5233959	-94.3982158
 location	Harry Gwala	-30.0841649	29.745542074375365
 location	Hartberg-Fürstenfeld	47.2809371	15.9691769
 location	Hartford County	43.3178	-88.3790
@@ -5107,6 +5110,7 @@ location	Ladario	-19.0036585	-57.6028285
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
 location	Lafayette County	42.662913	-90.134986
+location	Lafayette County WI	42.6632391	-90.1317754
 location	Lafayette Parish	30.2141462	-92.0710624
 location	Lafeuillade en Vezie	44.7893536	2.4594014
 location	Lafourche Parish	29.5820155	-90.3964889
@@ -8660,6 +8664,7 @@ location	San Juan County NM	36.4755752	-108.3046555
 location	San Juan CR	9.9100082	-84.0111808
 location	San Juan de Dios	8.5537982	-80.2261377
 location	San Juan PA	9.246644700000001	-79.62199176532462
+location	San Juan PR	18.465299	-66.116666
 location	San Juan Sacatepequez	14.78429445	-90.6579108363871
 location	San Julian Chinautla	14.685830641450886	-90.49018171603218
 location	San Justo	-30.7890512	-60.5930565
@@ -10063,6 +10068,7 @@ location	Titiribi	6.0655797	-75.80294800576844
 location	Titus County	33.2040399	-94.9651725
 location	Tivaoune	14.947976337828274	-16.815980822916263
 location	Tkoa	31.65328	35.2293265
+location	Toa Baja	18.432654	-66.21260602081739
 location	Toabre	8.6551956	-80.3209618
 location	Tobarra	38.5910	-1.6931
 location	Tobias Barreto	-11.1878721	-38.0030397
@@ -12518,6 +12524,7 @@ division	Marche	43.374025	13.161012
 division	Marche-en-Famenne	50.2265147	5.3407365
 division	Mardin	37.3129	40.7340
 division	Mari El	56.5767504	47.8817512
+division	Maribor	46.5576439	15.6455854
 division	Marijampoles Apskritis	54.679230399999994	23.200468079034664
 division	Maritime Region	6.53703405	1.244338916227091
 division	Marmara	40.62164065	27.629427220927305
@@ -12574,6 +12581,7 @@ division	Midtjylland	56.23564835	9.234602771636588
 division	Midway Islands	70.47911904852143	-148.3112732497243
 division	Mie	34.7339685	136.5154489
 division	Migori	-1.0211616000000001	34.30964322421073
+division	Miklavž na Dravskem Polju	46.5073791	15.6973717
 division	Miloslavov	48.0990612	17.3014502
 division	Mimaropa	13.0152201	121.40641830505142
 division	Minas Gerais	-18.35789	-44.411895
@@ -12867,6 +12875,7 @@ division	Penza	53.200001	45.0
 division	Perak	4.812181	100.9797908
 division	Perm Krai	58.5951603	56.3159546
 division	Pernambuco	-8.8137	-36.9541
+division	Pernica	46.5780413	15.7265468
 division	Pernik	42.62802685	22.88250453463423
 division	Peru	-10	-75.25
 division	Peshawar	34.0123846	71.5787458
@@ -13178,6 +13187,7 @@ division	Sligo	54.2720696	-8.4751357
 division	Sliven	42.6817633	26.3153528
 division	Slovakia	48.66667	19.5
 division	Slovenia	45.8133113	14.4808369
+division	Slovenska Bistrica	46.391944	15.5727757
 division	Småland	57.528294	14.463824
 division	Smolensk Region	54.77897005	32.04718121915615
 division	Smolyan	41.5774	24.7011
@@ -13266,6 +13276,7 @@ division	Sulawesi Selatan	-3.6446718	119.9471906
 division	Šumadija District	44.1202429	20.85199400301452
 division	Sumatera Barat	-1.33589025	100.07222762395327
 division	Sumatera Selatan	-3.1266842	104.0930554
+division	Sumatera Utara	2.1923519	99.3812201
 division	Surany	48.0861055	18.1868344
 division	Suriname	4.1413025	-56.0771187
 division	Sverdlovsk	59.0077	61.9316
@@ -13412,6 +13423,7 @@ division	Tyrol	47.220292	11.277287
 division	Tyumen Region	58.8206488	70.3658837
 division	Uasin Gishu	0.4771938	35.30505973699228
 division	Ucayali	-9.0	-73.5
+division	Udon Thani	17.5211917	102.6680012
 division	Uganda	1.3733	32.2903
 division	Uhlirske Janovice	49.8807582	15.064492
 division	UK	54.234125	-2.078794
