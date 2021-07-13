@@ -528,6 +528,7 @@ location	Sutrapada
 location	Talala
 location	Talod
 location	Tapi
+location	Una
 location	Una IN
 location	Vadiya
 location	Vadodara
@@ -1530,6 +1531,8 @@ location	Capolo 2
 location	Catambor
 location	Cazenga
 location	Cazengo
+location	Cond Jardim do Edem
+location	Cond Vila Flor
 location	Dande
 location	Icolo E Bengo
 location	Ingombota
@@ -1551,6 +1554,7 @@ location	Prenda
 location	Quibala
 location	Quicama
 location	Rangel
+location	Regedoria
 location	Samba
 location	Sambizanga
 location	Saurimo
@@ -1657,6 +1661,7 @@ location	Kroonstad
 location	Welkom
 
 # Gauteng
+location	City of Johannesburg
 location	City of Tshwane
 location	Ekurhuleni Metro
 location	Emfuleni
@@ -1675,6 +1680,7 @@ location	Polokwane
 
 # Mpumalanga
 location	Dr. JS Moroka
+location	Ehlanzeni
 location	Emalahleni
 location	Ermelo
 location	Middelburg
@@ -3350,6 +3356,7 @@ location	Idron
 location	La Brède
 location	La Rochelle
 location	Langon
+location	Latille
 location	Le Haillan
 location	Limoges
 location	Lot-Et-Garonne
@@ -3373,8 +3380,11 @@ location	Saint-Mexant
 location	Saint-Paul-lès-Dax
 location	Saint-Vincent-de-Tyrosse
 location	Saintes
+location	Savigny Levescault
+location	St Courant
 location	Tonneins
 location	Tulle
+location	Villeneuve-sur-Lot
 
 # Centre-Val de Loire
 location	Abondant
@@ -3532,6 +3542,7 @@ location	Wasquehal
 location	Albi
 location	Ariege
 location	Aubiet
+location	Auch
 location	Aude
 location	Aveyron
 location	Beziers
@@ -3574,6 +3585,7 @@ location	Annecy
 location	Annemasse
 location	Annonay
 location	Apchat
+location	Arnas
 location	Arpajon sur Cere
 location	Aubenas
 location	Aubiat
@@ -3739,6 +3751,7 @@ location	Mazet-Saint-Voy
 location	Menat
 location	Menetrol
 location	Messeix
+location	Meyzieu
 location	Mirefleurs
 location	Miremont
 location	Molles
@@ -4243,6 +4256,7 @@ location	Asper
 location	Bottelare
 location	Deinze
 location	Destelbergen
+location	Desteldonk
 location	Drongen
 location	Eke
 location	Evergem
@@ -4255,6 +4269,7 @@ location	Lochristi
 location	Lotenhulle
 location	Lovendegem
 location	Mariakerke
+location	Melle
 location	Merelbeke
 location	Nevele
 location	Oosterzele
@@ -4281,6 +4296,7 @@ location	Harchies
 location	Ladeuze
 location	Lessines
 location	Lettelingen
+location	Ligne
 location	Marcq
 location	Quevaucamps
 location	Stambruges
@@ -4358,6 +4374,7 @@ location	Herzele
 location	Kerksken
 location	Lede
 location	Ninove
+location	Ressegem
 location	Welle
 location	Zottegem
 
@@ -4428,6 +4445,7 @@ location	Beauvechain
 location	Bierges
 location	Bierghes
 location	Biez
+location	Bornival
 location	Braine-l'Alleud
 location	Braine-le-Château
 location	Chastre
@@ -4441,6 +4459,7 @@ location	Glimes
 location	Grez-Doiceau
 location	Houtain-le-Val
 location	Hélécine
+location	Incourt
 location	Ittre
 location	Jodoigne
 location	La Hulpe
@@ -4704,6 +4723,7 @@ location	Willebroek
 location	Couvin
 location	Doische
 location	Florennes
+location	Gochenee
 location	Gourdinne
 location	Sautour
 location	Walcourt
@@ -4738,6 +4758,7 @@ location	Glabbeek
 location	Glabbeek-Zuurbemde
 location	Haacht
 location	Haasrode
+location	Halle-Booienhoven
 location	Herent
 location	Hever
 location	Heverlee
@@ -4799,6 +4820,7 @@ location	Walshoutem
 location	Werchter
 location	Wespelaar
 location	Wezemaal
+location	Wezeren
 location	Wijgmaal
 location	Wilsele
 location	Winksele
@@ -4896,7 +4918,6 @@ location	Tielen
 location	Varendonk
 location	Veerle
 location	Vorselaar
-location	Vorst
 location	Vosselaar
 location	Weelde
 location	Westerlo
@@ -4910,6 +4931,7 @@ location	Burdinne
 location	Clavier
 location	Couthuin
 location	Engis
+location	Marchin
 location	Moha
 location	Tavier
 location	Villers-le-Bouillet
@@ -4921,6 +4943,7 @@ location	Acosse
 location	Berloz
 location	Bettincourt
 location	Braives
+location	Crisnee
 location	Donceel
 location	Hannut
 location	Lamine
@@ -4965,11 +4988,18 @@ location	Zonhoven
 location	Zutendaal
 
 # Marche-en-Famenne
+location	Durbuy
 location	Hotton
+
+# Wallonia
+location	Marbehan
 
 # Neufchâteau
 location	Auby-sur-Semois
+location	Bertrix
 location	Bras
+location	Libin
+location	Orgeo
 location	Saint-Hubert
 location	Tellin
 
@@ -5016,6 +5046,7 @@ location	Valansart
 
 # Liège
 location	Alleur
+location	Angleur
 location	Ans
 location	Bassenge
 location	Bierset
@@ -5023,6 +5054,7 @@ location	Boncelles
 location	Bressoux
 location	Dalhem
 location	Dolembreux
+location	Esneux
 location	Flémalle
 location	Fléron
 location	Fraipont
@@ -5033,6 +5065,7 @@ location	Harzé
 location	Herstal
 location	Horion-Hozémont
 location	Loncin
+location	Montegnee
 location	Neupré
 location	Ougrée
 location	Plainevaux
@@ -5077,6 +5110,7 @@ location	Stokkem
 
 # Bastogne
 location	Bertogne
+location	Gouvy
 location	Houffalize
 location	Vielsalm
 
@@ -5091,6 +5125,7 @@ location	Chaineux
 location	Eupen
 location	Henri-Chapelle
 location	Herve
+location	Jalhay
 location	Kelmis
 location	Limbourg BE
 location	Lontzen
@@ -7782,6 +7817,7 @@ location	Brestovany
 location	Castkov
 location	Chtelnica
 location	Cierna Voda
+location	Dechtice
 location	Dojc
 location	Dolna Streda
 location	Dolne Lovcice
@@ -7798,6 +7834,7 @@ location	Horne Saliby
 location	Horne Trhoviste
 location	Hradište pod Vrátnom
 location	Jahodna
+location	Jalsove
 location	Klacany
 location	Kopcany
 location	Kovalov
@@ -7819,6 +7856,7 @@ location	Soporna
 location	Tomasikovo
 location	Velke Ulany
 location	Velky Meder
+location	Vesele
 location	Voderady
 location	Vrbove
 location	Zelenec SK
@@ -7840,6 +7878,7 @@ location	Hornany
 location	Hradiste (Trenčín)
 location	Ilava
 location	Kostolna-Zariecie
+location	Lednicke Rovne
 location	Moravske Lieskove
 location	Mutne Dulov
 location	Myjava
@@ -7852,8 +7891,10 @@ location	Povazska Bystrica
 location	Prievidza
 location	Puchov
 location	Selec
+location	Skacany
 location	Timoradza
 location	Trencianska Tepla
+location	Trencianske Teplice
 location	Velky Kliz
 location	Vrbovce
 
@@ -7891,6 +7932,7 @@ location	Komjatice
 location	Komoca
 location	Kovarce
 location	Levice
+location	Ludanice
 location	Maly Lapas
 location	Malá nad Hronom
 location	Mana
@@ -7985,9 +8027,11 @@ location	Rajecke Teplice
 location	Rosina
 location	Ruzomberok
 location	Sihelne
+location	Skalite
 location	Slanicka Osada
 location	Sucany
 location	Suchá Hora
+location	Sulov Hradna
 location	Svrcinovec
 location	Tapesovo
 location	Teplicka nad Vahom
@@ -8072,8 +8116,10 @@ location	Cicava
 location	Cigla
 location	Dlhe nad Cirochou
 location	Doľany
+location	Dubová
 location	Gaboltov
 location	Gerlachov (Poprad)
+location	Giraltovce
 location	Gruzovce
 location	Hencovce
 location	Hermanovce nad Toplou
@@ -8123,11 +8169,13 @@ location	Poliakovce
 location	Poprad
 location	Ptičie
 location	Radvaň nad Laborcom
+location	Rafajovce
 location	Raslavice
 location	Regetovka
 location	Roskovce
 location	Sabinov
 location	Sacurov
+location	Sarisske Cierne
 location	Secovska Polianka
 location	Sedliska
 location	Slovenska Volova
@@ -8155,6 +8203,7 @@ location	Vranov nad Toplov
 location	Vydrnik
 location	Vysne Hagy
 location	Zalobin
+location	Zamutov
 location	Zborov
 location	Zubne
 location	Žakovce
@@ -8175,6 +8224,7 @@ location	Hlivistia
 location	Inovce
 location	Kecovo
 location	Koksov-Baksa
+location	Kostolany nad Hornadom
 location	Kralovsky Chlmec
 location	Krasnohorska Dlha Luka
 location	Lozin
@@ -8192,10 +8242,12 @@ location	Slavec
 location	Slavkovce
 location	Sobrance
 location	Spisska Nova Ves
+location	Spišská Nová Ves
 location	Strážske
 location	Trebejov
 location	Trebisov
 location	Tusice
+location	Ubrez
 location	Valaliky
 location	Veľké Revištia
 location	Vinne
@@ -9177,6 +9229,7 @@ location	Hualqui
 location	Los Angeles
 location	Lota
 location	Mulchen
+location	Negrete
 location	Quilleco
 location	San Pedro de la Paz
 location	Santa Juana
@@ -9189,6 +9242,7 @@ location	Chillan
 location	Chillan Viejo
 location	Coelemu
 location	Coihueco
+location	El Carmen
 location	Ninhue
 location	Niquen
 location	Pemuco
@@ -9210,12 +9264,14 @@ location	Empedrado
 location	Hualane
 location	Licanten
 location	Linares
+location	Longavi
 location	Maule
 location	Molina
 location	Pelarco
 location	Pencahue
 location	Retiro CL
 location	Rio Claro
+location	Romeral
 location	Sagrada Familia
 location	San Clemente CL
 location	San Javier
@@ -9223,6 +9279,7 @@ location	San Rafael CL
 location	Talca
 location	Teno
 location	Villa Alegre
+location	Yerbas Buenas
 
 # O'Higgins
 location	Codegua
@@ -9234,13 +9291,17 @@ location	La Estrella CL
 location	Litueche
 location	Lolol
 location	Machali
+location	Malloa
+location	Marchihue
 location	Mostazal
 location	Nancagua
 location	Navidad
+location	Olivar
 location	Paredones
 location	Peumo
 location	Pichidegua
 location	Pichilemu
+location	Quinta de Tilcoco
 location	Rancagua
 location	Rengo
 location	Requinoa
@@ -9267,6 +9328,7 @@ location	La Cisterna
 location	La Florida
 location	La Granja
 location	La Pintana
+location	La Reina
 location	Lampa
 location	Las Condes
 location	Lo Barnechea
@@ -9293,6 +9355,7 @@ location	San Bernardo
 location	San Joaquin
 location	San Jose de Maipo
 location	San Miguel CL
+location	San Pedro CL
 location	San Ramon CL
 location	Santiago
 location	Talagante
@@ -9542,7 +9605,7 @@ location	Lagoa Vermelha
 location	Lajeado
 location	Lavras do Sul
 location	Linha Nova
-location	Montenegro
+location	Montenegro BR
 location	Morro Reuter
 location	Nonoai
 location	Nova Araca
@@ -11107,6 +11170,7 @@ location	Tolemaida
 
 # Quindio
 location	Armenia
+location	Montenegro CO
 
 # Bogota
 location	Bogota
@@ -11178,7 +11242,7 @@ location	Copacabana
 location	Dabeiba
 location	Don Matias
 location	El Bagre
-location	El Carmen
+location	El Carmen de Viboral
 location	El Peñol
 location	El Santuario
 location	Envigado
@@ -12895,7 +12959,10 @@ division	Jenin
 
 ### Lebanon
 division	Tyr
+division	South
 division	Beirut
+division	Mount Lebanon
+division	Bekaa
 division	Lebanon
 
 ### Jordan
