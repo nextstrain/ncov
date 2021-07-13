@@ -10,6 +10,10 @@ defaults/colors.tsv
 defaults/colors_*.tsv
 stats.json
 
+# Downloaded remote files from sources we expect
+/nextstrain-data/
+/data.nextstrain.org/
+
 # Sensitive environment variables
 environment*
 

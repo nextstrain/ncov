@@ -40,45 +40,17 @@ def _get_path_for_input(stage, origin_wildcard):
     This function always returns a local filepath, the format of which lets snakemake decide
     whether to create it (via another rule) or use is as-is.
     """
-    path_or_url = config.get("inputs", {}).get(origin_wildcard, {}).get(stage, "")
-    scheme = urlsplit(path_or_url).scheme
-    remote = bool(scheme)
+    input_file = config.get("inputs", {}).get(origin_wildcard, {}).get(stage, "")
 
-    # Following checking should be the remit of the rule which downloads the remote resource
-    if scheme and scheme!="s3":
-        raise Exception(f"Input defined scheme {scheme} which is not yet supported.")
+    if input_file:
+        return path_or_url(input_file, keep_local=True)
 
-    if stage=="metadata":
-        if not path_or_url:
-            raise Exception(f"ERROR: config->input->{origin_wildcard}->metadata is not defined.")
-        return f"data/downloaded_{origin_wildcard}.tsv" if remote else path_or_url
-    if stage=="sequences":
-        if not path_or_url:
-            raise Exception(f"ERROR: config->input->{origin_wildcard}->sequences is not defined.")
-        return f"data/downloaded_{origin_wildcard}.fasta.xz" if remote else path_or_url
-    if stage=="aligned":
-        if remote:
-            return f"results/precomputed-aligned_{origin_wildcard}.fasta"
-        elif path_or_url:
-            return path_or_url
-        else:
-            return f"results/aligned_{origin_wildcard}.fasta.xz"
-    if stage=="masked":
-        if remote:
-            return f"results/precomputed-masked_{origin_wildcard}.fasta"
-        elif path_or_url:
-            return path_or_url
-        else:
-            return f"results/masked_{origin_wildcard}.fasta.xz"
-    if stage=="filtered":
-        if remote:
-            return f"results/precomputed-filtered_{origin_wildcard}.fasta"
-        elif path_or_url:
-            return path_or_url
-        else:
-            return f"results/filtered_{origin_wildcard}.fasta.xz"
-
-    raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
+    if stage in {"metadata", "sequences"}:
+        raise Exception(f"ERROR: config->input->{origin_wildcard}->{stage} is not defined.")
+    elif stage in {"aligned", "masked", "filtered"}:
+        return f"results/{stage}_{origin_wildcard}.fasta.xz"
+    else:
+        raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
 
 
 def _get_unified_metadata(wildcards):

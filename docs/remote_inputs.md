@@ -137,18 +137,5 @@ The following starting points are available:
 
 ## Compressed vs uncompressed starting points
 
-In general, we try to transparently support compressed metadata and sequences for any input stage.
+The workflow supports compressed metadata and sequences for any input stage.
 Files may be compressed using `xz` (`.xz`) or `gzip` (`.gz`) compression.
-The following table summarises the current situation:
-
-|            | local (uncompressed)  | local (compressed)| remote (uncompressed) | remote (compressed)|
-| ---        | ---                   | ---               | ---                   | ---               |
-| sequences  |  ✅                   |  ✅                |  ❌  <sup>1</sup>     |  ✅  <sup>2</sup> |
-| metadata   |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>3</sup> |
-| aligned    |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>3</sup> |
-| masked     |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>3</sup> |
-| filtered   |  ✅                   |  ✅                |  ✅                   |  ✅  <sup>3</sup> |
-
-1. Download succeeds but `.xz` suffix is appended which causes errors downstream in the pipeline.
-2. File is downloaded with a `.xz` suffix, but gzip compression will still work!
-3. Decompressed during download.

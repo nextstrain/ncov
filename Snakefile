@@ -119,7 +119,7 @@ wildcard_constraints:
     date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]",
     origin = r"[a-zA-Z0-9-_]+"
 
-localrules: download_metadata, download_sequences, clean
+localrules: clean
 
 # Create a standard ncov build for auspice, by default.
 rule all:
@@ -147,10 +147,6 @@ include: "workflow/snakemake_rules/remote_files.smk"
 # Include rules to handle primary build logic from multiple sequence alignment
 # to output of auspice JSONs for a default build.
 include: "workflow/snakemake_rules/main_workflow.smk"
-
-# Include rules to allow downloading of input-specific files from s3 buckets.
-# These have to be opted-into via config params.
-include: "workflow/snakemake_rules/download.smk"
 
 # Include a custom Snakefile that specifies `localrules` required by the user's
 # workflow environment.

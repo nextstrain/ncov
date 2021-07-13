@@ -1,6 +1,7 @@
 inputs:
-  # NOTE: there is no input defining an uncompressed `sequences` address
-  # as this pipeline only supports compressed sequence input
+  - name: test-remote-uncompressed-asia-sequences
+    metadata: s3://nextstrain-data/files/ncov/test-data/asia_metadata.tsv
+    sequences: s3://nextstrain-data/files/ncov/test-data/asia_sequences.fasta
   - name: test-remote-uncompressed-europe-aligned
     metadata: s3://nextstrain-data/files/ncov/test-data/europe_metadata.tsv
     aligned: s3://nextstrain-data/files/ncov/test-data/europe_aligned.fasta
@@ -10,9 +11,6 @@ inputs:
   - name: test-remote-uncompressed-americas-filtered
     metadata: s3://nextstrain-data/files/ncov/test-data/americas_metadata.tsv
     filtered: s3://nextstrain-data/files/ncov/test-data/americas_filtered.fasta
-  - name: reference
-    metadata: data/references_metadata.tsv
-    sequences: data/references_sequences.fasta
 
 # As we are not including the test data from Asia (see above), this build will
 # be missing the default root sequence. We instead use
