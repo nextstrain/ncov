@@ -1887,6 +1887,7 @@ Habay
 	Habay-la-Vieille
 	Hachy
 	Houdemont
+	Marbehan
 	Rulles
 Meix-devant-Virton
 	Gérouville
@@ -2549,6 +2550,7 @@ Gent
 	Sint-Denijs-Westrem - Afsnee
 	Wondelgem
 	Zwijnaarde
+	Desteldonk
 Lievegem
 	Lovendegem
 	Oostwinkel
@@ -2883,6 +2885,7 @@ Diest
 	Molenstede
 	Schaffen
 	Webbekom
+	Deurne (Leuven)
 Geetbets
 	Geetbets
 	Grazen

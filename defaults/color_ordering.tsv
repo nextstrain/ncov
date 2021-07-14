@@ -366,8 +366,10 @@ location	West Godavari
 
 # Telangana
 location	Adilabad
+location	Bhupalapally
 location	Gadwal
 location	Hyderabad
+location	Jagital
 location	Jagtial
 location	Jangaon
 location	Jogulamba Gadwal
@@ -375,9 +377,12 @@ location	Kamareddy
 location	Karimnagar
 location	Khammam
 location	King Koti
+location	Mahabubabad
+location	Mahabubnagar
 location	Mahboobnagar
 location	Mahbubnagar
 location	Mancherial
+location	Mulugu
 location	Nagarkurnool
 location	Nalgonda
 location	Nirmal
@@ -387,6 +392,7 @@ location	Rangareddy
 location	Saidabad
 location	Sangareddy
 location	Secunderabad
+location	Siddipet
 location	Suryapet
 location	Vanasthalipuram
 location	Vikarabad
@@ -402,6 +408,7 @@ location	Aurangabad
 location	Badlapur
 location	Bhandara
 location	Boisar
+location	Buldana
 location	Chandrapur
 location	Gadchiroli
 location	Hingoli
@@ -413,6 +420,7 @@ location	Mumbai
 location	Mumbai Suburban
 location	Nagpur
 location	Nanded
+location	Nandurbar
 location	Nashik
 location	Navi Mumbai
 location	Navimumbai
@@ -724,8 +732,6 @@ location	West Delhi
 # Haryana
 location	Ambala
 location	Bhiwani
-location	Chandigarh
-location	Delhi
 location	Faridabad
 location	Fathehabad
 location	Gurugram
@@ -901,6 +907,7 @@ location	Satkhira
 # Dhaka
 location	Aftabnagar
 location	Agargaon
+location	Agargoon
 location	Ashkona
 location	Azimpur
 location	Banani
@@ -927,6 +934,7 @@ location	Kodomtoly
 location	Madaripur
 location	Manikganj
 location	Mirpur
+location	Mirpur13
 location	Modhubag
 location	Moghbazar
 location	Mohakhali
@@ -958,16 +966,11 @@ location	Vatara
 location	West Dhanmondi
 
 # Rajshahi
-location	Bangabaria
 location	Chapai
 location	Chapainawabgonj
-location	Doyaler Mor
 location	Issordi
-location	Komaigari
-location	Mohadebpur
 location	Naogaon
 location	Natore
-location	Noagaon
 location	Pabna
 location	Rajshahi
 location	Sirajganj
@@ -1214,6 +1217,7 @@ location	Tulungagung
 # Center Kalimantan
 location	Kotawaringin Barat
 location	Kotawaringin Timur
+location	Palangkaraya
 
 # Bali
 location	Badung
@@ -2839,6 +2843,7 @@ location	Borreda
 location	Bossòst
 location	Breda ES
 location	Ca N'Amat
+location	Cabestany
 location	Cabrera de Mar
 location	Cabrils
 location	Calaf
@@ -4991,9 +4996,6 @@ location	Zutendaal
 location	Durbuy
 location	Hotton
 
-# Wallonia
-location	Marbehan
-
 # Neufchâteau
 location	Auby-sur-Semois
 location	Bertrix
@@ -5042,6 +5044,7 @@ location	Wellen
 
 # Virton
 location	Dampicourt
+location	Marbehan
 location	Valansart
 
 # Liège
@@ -9959,6 +9962,7 @@ location	Damolandia
 location	Davinopolis
 location	Faina
 location	Formosa
+location	Gioania
 location	Goiania
 location	Iaciara
 location	Itapaci
@@ -9991,6 +9995,7 @@ location	Araguaiana
 location	Araguaina
 location	Araguatins
 location	Arraias
+location	Augustinopolis
 location	Combinado
 location	Figueiropolis
 location	Formoso do Araguaia
@@ -10057,6 +10062,7 @@ location	Bocaina
 location	Bofete
 location	Boituva
 location	Bora
+location	Boraceia
 location	Borborema
 location	Borebi
 location	Botucatu
@@ -10271,6 +10277,7 @@ location	Pitangueiras
 location	Planalto
 location	Poa
 location	Pontal
+location	Populina
 location	Porangaba
 location	Porto Feliz
 location	Porto Ferreira
@@ -10366,6 +10373,7 @@ location	Uchoa
 location	Uniao Paulista
 location	Uru
 location	Urupes
+location	Valentim Gentil
 location	Valinhos
 location	Valparaiso BR
 location	Vargem Grande Paulista
