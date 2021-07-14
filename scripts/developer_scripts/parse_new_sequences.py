@@ -636,7 +636,7 @@ def prepare_tweet(counts, total_lab_collection, lab_collection):
     counts_country = {region: {country: sum(counts[country].values()) for country in total_lab_collection[region]} for region in total_lab_collection}
     total = sum([sum(counts_country[region].values()) for region in counts_country])
 
-    start_tweet = "Thanks to #opendata sharing via @GISAID, we've updated nextstrain.org/ncov with " + str(
+    start_tweet = "Thanks to #opendata sharing via @GISAID, we've updated nextstrain.org/ncov/gisaid with " + str(
         total) + " new #COVID19 #SARSCoV2 sequences!"
     char_total = 230
     char_available = char_total - len("Check out the new sequences from on ") - len("(Thanks to )") - len("1/1")
