@@ -6030,6 +6030,7 @@ location	Murska Sobota
 location	Jönköping
 
 # Vastra Gotaland
+location	Goteborg
 location	Skovde
 
 ### Austria
@@ -11939,7 +11940,6 @@ location	Pima County
 location	Pinal County
 location	Santa Cruz County AZ
 location	Yavapai County
-location	Yuma
 location	Yuma County
 location	Yuma County AZ
 
@@ -12392,7 +12392,6 @@ location	Calhoun County IL
 location	Carroll County IL
 location	Cass County IL
 location	Champaign County IL
-location	Chicago
 location	Christian County IL
 location	Clark County IL
 location	Clay County IL
@@ -12497,7 +12496,6 @@ location	Autauga County
 location	Baldwin County
 location	Barbour County
 location	Bibb County
-location	Birmingham
 location	Blount County AL
 location	Butler County AL
 location	Calhoun County AL
@@ -12637,7 +12635,6 @@ location	Walton County FL
 
 # South Carolina
 location	Abbeville County
-location	Aiken
 location	Aiken County
 location	Allendale County
 location	Anderson County SC
@@ -12775,7 +12772,6 @@ location	Genesee County
 location	Greene County NY
 location	Hamilton County NY
 location	Herkimer County
-location	Ithaca
 location	Jefferson County NY
 location	Kings County NY
 location	Lewis County NY
