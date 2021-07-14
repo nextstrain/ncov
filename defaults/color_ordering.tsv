@@ -11242,7 +11242,6 @@ location	Copacabana
 location	Dabeiba
 location	Don Matias
 location	El Bagre
-location	El Carmen de Viboral
 location	El Peñol
 location	El Santuario
 location	Envigado
@@ -11816,15 +11815,12 @@ location	Pacific County
 location	Pend Oreille County
 location	Pierce County WA
 location	San Juan County
-location	Seattle
 location	Skagit County
 location	Skamania County
 location	Snohomish County
 location	Spokane County
 location	Stevens County
-location	Tacoma
 location	Thurston County
-location	Vancouver
 location	Walla Walla County
 location	Whatcom County
 location	Whitman County
@@ -11856,7 +11852,6 @@ location	Marin County
 location	Mariposa County
 location	Mendocino County
 location	Merced County
-location	Modesto
 location	Modoc County
 location	Mono County
 location	Monterey County CA
@@ -11865,8 +11860,6 @@ location	Nevada County
 location	Orange County CA
 location	Placer County
 location	Plumas County
-location	Redding
-location	Riverside
 location	Riverside County
 location	Sacramento County
 location	San Benito County
@@ -11905,7 +11898,6 @@ location	Clark County NV
 location	Douglas County NV
 location	Elko County
 location	Lander County
-location	Las Vegas
 location	Lyon County
 location	Mineral County NV
 location	Pershing County
@@ -11941,20 +11933,18 @@ location	Santa Cruz County AZ
 location	Yavapai County
 location	Yuma
 location	Yuma County
+location	Yuma County AZ
 
 # Montana
 location	Beaverhead County
 location	Big Horn County
-location	Big Sky
 location	Blaine County
-location	Bozeman
 location	Broadwater County
 location	Carbon County
 location	Cascade County
 location	Chouteau County
 location	Dawson County MT
 location	Deer Lodge County
-location	Ennis
 location	Fergus County
 location	Flathead County
 location	Gallatin County MT
@@ -11980,7 +11970,6 @@ location	Sweet Grass County
 location	Teton County
 location	Toole County
 location	Valley County
-location	West Yellowstone
 location	Wheatland County
 location	Yellowstone County
 
@@ -12007,7 +11996,6 @@ location	Torrance County
 location	Valencia County
 
 # Colorado
-location	Colorado Springs
 location	Denver County
 location	El Paso County CO
 location	Jefferson County CO
@@ -12019,8 +12007,8 @@ location	Beadle County
 location	Minnehaha County
 
 # Nebraska
+location	Douglas County NE
 location	Lancaster County NE
-location	Omaha
 
 # Texas
 location	Anderson County TX
@@ -12035,7 +12023,6 @@ location	Bastrop County
 location	Bee County
 location	Bell County
 location	Bell County TX
-location	Belton
 location	Bexar County
 location	Bosque County
 location	Bowie County
@@ -12055,10 +12042,8 @@ location	Cameron County
 location	Camp County
 location	Cass County TX
 location	Castro County
-location	Cedar Park
 location	Chambers County TX
 location	Clark
-location	College Station
 location	Collin County
 location	Collingsworth County
 location	Colorado County
@@ -12066,7 +12051,7 @@ location	Colorado County TX
 location	Comal County
 location	Comanche County
 location	Cooke County
-location	Copperas Cove
+location	Coryell County
 location	Crosby
 location	Crosby County
 location	Dallas County TX
@@ -12084,11 +12069,8 @@ location	Fayette County TX
 location	Fort Bend County
 location	Franklin
 location	Freestone County
-location	Frisco
 location	Galveston County
-location	Gatesville
 location	Georgetown TX
-location	Giddings
 location	Gillespie County
 location	Gonzales County
 location	Gray County
@@ -12101,8 +12083,6 @@ location	Hale County TX
 location	Harris County
 location	Harrison County TX
 location	Hays County
-location	Hearne
-location	Hewitt
 location	Hidalgo County
 location	Hill County TX
 location	Hockley County
@@ -12119,7 +12099,6 @@ location	Karnes County
 location	Kaufman County
 location	Kendall County TX
 location	Kerr County
-location	Killeen
 location	Kimble County
 location	Kleberg County
 location	Knox County TX
@@ -12135,13 +12114,10 @@ location	Limestone County TX
 location	Little River Academy
 location	Live Oak County
 location	Llano County
-location	Lometa
 location	Lorena TX
 location	Lubbock County
 location	Lynn County
 location	Madison County TX
-location	Marlin
-location	Mart
 location	Matagorda County
 location	McCulloch County
 location	Mclennan County
@@ -12150,7 +12126,6 @@ location	Midland County TX
 location	Milam County
 location	Montague County
 location	Montgomery County TX
-location	Moody
 location	Morris County TX
 location	Nacogdoches County
 location	Navarro County
@@ -12165,7 +12140,6 @@ location	Parmer County
 location	Pecos
 location	Pecos County
 location	Polk County TX
-location	Portland
 location	Potter County TX
 location	Presidio County
 location	Randall County
@@ -12173,10 +12147,8 @@ location	Reagan County TX
 location	Red River County
 location	Refugio County
 location	Robertson County
+location	Robertson County TX
 location	Rockwall County
-location	Rogers
-location	Rosebud
-location	Round Rock
 location	Runnels County TX
 location	Rusk
 location	Rusk County TX
@@ -12190,7 +12162,6 @@ location	Swisher County
 location	Tarrant County
 location	Taylor
 location	Taylor County TX
-location	Temple
 location	Terry County
 location	Titus County
 location	Tom Green County
@@ -12200,7 +12171,6 @@ location	Upshur County
 location	Val Verde County
 location	Van Zandt County
 location	Victoria County
-location	Waco
 location	Walker County TX
 location	Waller County
 location	Walton
@@ -12287,6 +12257,7 @@ location	Madison Parish
 location	Morehouse Parish
 location	Natchitoches Parish
 location	New Orleans
+location	Orleans Parish LA
 location	Ouachita Parish
 location	Plaquemines Parish
 location	Rapides Parish
@@ -12397,7 +12368,6 @@ location	Washburn County
 location	Washington County WI
 location	Waukesha County
 location	Waupaca County
-location	Waupun
 location	Waushara County
 location	Whitefish Bay
 location	Winnebago County WI
@@ -12584,7 +12554,6 @@ location	Shelby County TN
 location	Boone County IN
 location	Dearborn County
 location	Elkhart County
-location	Indianapolis
 location	Jefferson County IN
 location	Johnson County IN
 location	Lake County IN
@@ -12651,7 +12620,6 @@ location	Broward County
 location	Duval County
 location	Lee County FL
 location	Levy County
-location	Miami
 location	Miami-Dade County
 location	Monroe County FL
 location	Orange County FL
@@ -12662,6 +12630,7 @@ location	Walton County FL
 # South Carolina
 location	Abbeville County
 location	Aiken
+location	Aiken County
 location	Allendale County
 location	Anderson County SC
 location	Bamberg County
@@ -12750,16 +12719,11 @@ location	Montgomery County MD
 location	Prince George's County
 
 # Delaware
-location	Dover
 location	Georgetown DE
 location	Kent County
-location	Milford
+location	Kent County DE
 location	New Castle County
-location	Newark
-location	Seaford
-location	Smyrna
 location	Sussex County DE
-location	Wilmington
 
 # New Jersey
 location	Bergen County
@@ -12784,7 +12748,6 @@ location	Warren County NJ
 location	Albany County
 location	Allegany County NY
 location	Bronx County
-location	Brooklyn
 location	Broome County
 location	Cattaraugus County
 location	Cayuga County
@@ -12810,12 +12773,10 @@ location	Kings County NY
 location	Lewis County NY
 location	Livingston County NY
 location	Madison County NY
-location	Manhattan
 location	Monroe County NY
 location	Montgomery County NY
 location	Nassau County
-location	New Hyde Park
-location	New Rochelle
+location	Nassau County NY
 location	New York City
 location	New York County
 location	Niagara County
@@ -12829,6 +12790,7 @@ location	Otsego County
 location	Putnam County NY
 location	Queens County
 location	Rensselaer County
+location	Richmond County NY
 location	Rockland County
 location	Saratoga County
 location	Schenectady County
@@ -12836,7 +12798,6 @@ location	Schoharie County
 location	Schuyler County NY
 location	Seneca County
 location	St. Lawrence County
-location	Staten Island
 location	Steuben County
 location	Suffolk County NY
 location	Sullivan County

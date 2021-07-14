@@ -96,6 +96,7 @@ location	Aiguafreda	41.7692525	2.2517162
 location	Aiguavivia	41.93775487813436	2.7623831155149223
 location	Aigueperse	46.0219319	3.20189
 location	Aiken	33.5598586	-81.721952
+location	Aiken County	33.5723191	-81.6182086
 location	Ain Aouda	33.803077	-6.79413
 location	Aiseau	50.404827	4.576191
 location	Aiseau-Presles	50.40228075	4.575366574303365
@@ -2285,6 +2286,7 @@ location	Cortes y Graena	37.2870853	-3.245263385876749
 location	Cortijos Nuevos	38.2471	-2.7259
 location	Cortland County	42.5842136	-76.0704906
 location	Corumba	-19.0016365	-57.6534316
+location	Coryell County	31.3689333	-97.8184077
 location	Cosmopolis	-22.6437398	-47.1972086
 location	Cota	4.8093624	-74.1015739
 location	Cotia	-23.603889	-46.918889
@@ -2677,6 +2679,7 @@ location	Dottignies	50.7273981	3.3037301
 location	Dottikon	47.3838825	8.241593
 location	Douai	50.3675677	3.0804641
 location	Douglas County IL	39.7628415	-88.2170516
+location	Douglas County NE	41.2954112	-96.1415672
 location	Douglas County NV	38.9072611	-119.6201824
 location	Douglas County OR	43.1922115	-123.1135963
 location	Douglas County WA	47.7652709	-119.6075365
@@ -4666,6 +4669,7 @@ location	Kendari	-3.9918068	122.5180066
 location	Kennebec County	44.4184616	-69.8250659
 location	Kenosha County	42.5729233	-88.0679837
 location	Kent County	39.1156908	-75.4841394
+location	Kent County DE	39.1156594	-75.484116
 location	Kepanow	49.8329152	20.2611704
 location	Kepno	51.2790265	17.9866632
 location	Keqiao	30.0819	120.4951
@@ -6606,6 +6610,7 @@ location	Naro-Fominsk	55.3879473	36.7398309
 location	Narsingdi	23.9156451	90.6981963
 location	Nashik	20.0112475	73.7902364
 location	Nassau County	40.7333	-73.58010
+location	Nassau County NY	40.7430237	-73.56882214900722
 location	Nastatten	50.199081	7.858179
 location	Natal	-5.805398	-35.2080905
 location	Natales	-51.7262003	-72.5059982
@@ -7066,6 +7071,7 @@ location	Orlandia	-20.720278	-47.886667
 location	Orléans	47.9027336	1.9086066
 location	Orleans County	43.2244513	-78.2272835
 location	Orleans Parish	30.0801436	-89.9319134
+location	Orleans Parish LA	30.0801436	-89.9319134
 location	Orlowo	52.7728216	16.8245874
 location	Ormalingen	47.4696552	7.8755353
 location	Orodara	10.9821014	-4.9148962
@@ -8171,6 +8177,7 @@ location	Richland County WI	43.4060	-90.3748
 location	Richland Parish	32.4196791	-91.8105911
 location	Richmond County	40.5795	-74.1502
 location	Richmond County GA	33.385076	-82.09207958530698
+location	Richmond County NY	40.564209	-74.12530461995391
 location	Richtersveld	-27.92537575	17.08797835418535
 location	Rickenbach	47.6209218	7.9788595
 location	Rickenbach CH	47.0156619	8.6669086
@@ -8262,6 +8269,7 @@ location	Riyadh	24.705304	46.738279
 location	Rizal	14.65	121.25
 location	Roanne	46.0345572	4.0729178
 location	Robertson County	31.0339058	-96.5079742
+location	Robertson County TX	31.0339058	-96.5079742
 location	Rochedo	-20.4769832	-28.8516786
 location	Rochefort	50.1588503	5.2233447
 location	Rochefort BE	50.1663541	5.0705752
@@ -11174,6 +11182,7 @@ location	Yuba County	39.2839755	-121.3556818
 location	Yuecheng	29.9882	120.5826
 location	Yuma	32.665135	-114.47603157249804
 location	Yuma County	32.7915374	-113.8975031
+location	Yuma County AZ	32.7915374	-113.8975031
 location	Yumbo	3.525117	-76.502240
 location	Yungay	-37.1193665	-72.0188531
 location	Yunquera de Henares	40.7546981	-3.1662667
