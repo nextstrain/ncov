@@ -8156,3 +8156,6 @@ Sweden/01_SE100_21CS503247/2020
 Switzerland/BE-ETHZ-550001/2020
 India/WB-1931500893545/2021
 hCoV-19/Latvia/906/2020
+
+# mutations; see https://bedfordlab.slack.com/archives/CSKMU6YUC/p1626345645156400
+Egypt/CCHE57357-A-13/2020
