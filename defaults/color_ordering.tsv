@@ -194,27 +194,17 @@ location	Zahedan
 location	Birjand
 
 ### Oman
-# Buraimi
-location	Buraimi
-
-# Dhahirah
-location	Ibri
-
-# North Batinah
-location	Sohar
-
-# South Batinah
-location	Al Awabi
-location	Ar Rustaq
-location	Barka
-location	Nakhal
-location	Rustaq
+# North Sharqiyah
+location	Ibra
 
 # Dakhiliyah
 location	Bahla
 location	Manah
 location	Nizwa
 location	Samail
+
+# Dhahirah
+location	Ibri
 
 # Muscat
 location	Al Amrat
@@ -223,8 +213,18 @@ location	Bawshar
 location	Mutrah
 location	Qurayyat
 
-# North Sharqiyah
-location	Ibra
+# South Batinah
+location	Al Awabi
+location	Ar Rustaq
+location	Barka
+location	Nakhal
+location	Rustaq
+
+# Buraimi
+location	Buraimi
+
+# North Batinah
+location	Sohar
 
 ### Uzbekistan
 # Tashkent
@@ -377,11 +377,14 @@ location	Kamareddy
 location	Karimnagar
 location	Khammam
 location	King Koti
+location	Kumrambheem
 location	Mahabubabad
 location	Mahabubnagar
 location	Mahboobnagar
 location	Mahbubnagar
 location	Mancherial
+location	Medak
+location	Medchal
 location	Mulugu
 location	Nagarkurnool
 location	Nalgonda
@@ -393,10 +396,12 @@ location	Saidabad
 location	Sangareddy
 location	Secunderabad
 location	Siddipet
+location	Sircilla
 location	Suryapet
 location	Vanasthalipuram
 location	Vikarabad
 location	Wanaparthy
+location	Warangal Urban
 location	Yadadri Bhuvanagiri
 
 # Maharashtra
@@ -1188,8 +1193,11 @@ location	Bogor
 location	Bogor Regency
 location	Depok
 location	Garut
+location	Indramayu
 location	Karawang
+location	Kuningan
 location	Purwakarta
+location	Sumedang
 location	Tasikmalaya
 
 # West Kalimantan
@@ -1206,6 +1214,7 @@ location	Magelang City
 location	Magelang Regency
 location	Purwokerto
 location	Salatiga
+location	Semarang
 
 # East Java
 location	Gresik
@@ -3003,9 +3012,11 @@ location	Olot
 location	Organya
 location	Oris
 location	Orrius
+location	Ourense
 location	Palafrugell
 location	Palamos
 location	Palau Solita i Plegamans
+location	Palau-Saverdera
 location	Palaudalba
 location	Palleja
 location	Palol D'Onyar
@@ -3128,6 +3139,7 @@ location	Torrefarrera
 location	Torroella de Montgri
 location	Torruella de Baix
 location	Tortellà
+location	Tortosa
 location	Tremp
 location	Ullastrell
 location	Ulldecona
@@ -3403,7 +3415,9 @@ location	Chartres
 location	Craon
 location	Dreux
 location	Fondettes
+location	Issoudun
 location	Joue-Les-Tours
+location	La Chatre
 location	Mehun sur Yevre
 location	Orléans
 location	Pannes
@@ -3452,6 +3466,7 @@ location	Le Chesnay
 location	Le Pecq
 location	Levallois-Perret
 location	Limay
+location	Lisses
 location	Longjumeau
 location	Maisons Alfort
 location	Mantes-la-Jolie
@@ -3462,8 +3477,10 @@ location	Montfermeil
 location	Montigny le Bretonneux
 location	Montreuil
 location	Moussy Le Neuf
+location	Nanterre
 location	Nemours
 location	Neuilly sur Seine
+location	Neuilly sur Seine Cédex
 location	Noisy le Roi
 location	Noisy-le-Roi
 location	Orsay
@@ -6019,7 +6036,7 @@ location	Kranj
 # Jugovzhodna
 location	Novo Mesto
 
-# Savinja
+# Savinjska
 location	Celje
 
 # Pomurska
@@ -6474,13 +6491,21 @@ location	Červený Kostelec
 location	Blansko
 location	Breclav
 location	Brno
+location	Bystrice Pod Hostynem
 location	Hodonín
 location	Hrušovany U Brna
 location	Hrušovany nad Jevišovkou
+location	Kratochvilka
 location	Kromeriz
+location	Kvasice
+location	Lelekovice
+location	Moravska Ostrava
 location	Ratíškovice
 location	Slavkov U Brna
+location	Strelice
 location	Tišnov
+location	Trebic
+location	Vrbice
 location	Vémyslice
 location	Zborovice
 location	Znojmo
@@ -9252,6 +9277,7 @@ location	Niquen
 location	Pemuco
 location	Portezuelo
 location	Quillon
+location	San Carlos
 location	San Carlos CL
 location	San Ignacio
 location	San Nicolas
@@ -11521,7 +11547,6 @@ location	Naranjo
 location	Orotina
 location	Quesada
 location	Sabanilla
-location	San Carlos
 location	San Carlos CR
 location	San Isidro (Alajuela)
 location	San Rafael de Alajuela
@@ -13017,13 +13042,16 @@ division	Dubai
 division	Sharjah
 
 ### Oman
-division	Buraimi
-division	Dhahirah
-division	North Batinah
-division	South Batinah
-division	Dakhiliyah
-division	Muscat
+division	Dhofar
+division	Al Wusta
 division	North Sharqiyah
+division	Dakhiliyah
+division	Dhahirah
+division	Muscat
+division	South Batinah
+division	Buraimi
+division	North Batinah
+division	Musandam
 
 ### Uzbekistan
 division	Uzbekistan
@@ -13303,7 +13331,6 @@ division	Riau
 division	Bengkulu
 division	Jambi
 division	South Sumatra
-division	Sumatera Selatan
 division	Riau Islands
 division	Lampung
 division	Banten
@@ -13800,6 +13827,9 @@ division	Zimbabwe
 division	Harare
 division	Mashonaland Central
 
+### Burundi
+division	Burundi
+
 ### Rwanda
 division	Rwanda
 division	Kigali
@@ -14236,7 +14266,6 @@ division	Slovenia
 division	Osrednjeslovenska
 division	Jugovzhodna
 division	Zasavska
-division	Savinja
 division	Koroska
 division	Velenje
 division	Savinjska
@@ -15402,6 +15431,7 @@ country	Lesotho
 country	Sudan
 country	South Sudan
 country	Zimbabwe
+country	Burundi
 country	Rwanda
 country	Egypt
 country	Eswatini
