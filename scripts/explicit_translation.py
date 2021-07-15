@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
     genes = args.genes if type(args.genes)==list else [args.genes]
     translations = args.translations if type(args.translations)==list else [args.translations]
-    features = read_gff(args.annotations)
+    features = read_gff(args.annotation)
     ref = SeqIO.read(args.reference, format='fasta')
 
     if not set(features.keys())==set(args.genes):
