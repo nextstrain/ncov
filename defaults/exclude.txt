@@ -8159,3 +8159,11 @@ hCoV-19/Latvia/906/2020
 
 # mutations; see https://bedfordlab.slack.com/archives/CSKMU6YUC/p1626345645156400
 Egypt/CCHE57357-A-13/2020
+
+# divergence see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1626374502230900
+Kuwait/KCCC-90880-3327303/2021
+Belgium/UMONS-P02-03101-01/2021
+Scotland/QEUH-141F19B/2021
+
+# divergence see https://bedfordlab.slack.com/archives/C0159227X7Y/p1626374687105600
+USA/NMDOH-2021083688/2020
