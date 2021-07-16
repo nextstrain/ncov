@@ -38,6 +38,7 @@ def annotation_json(features, reference):
                             'start': 1,
                             'end': len(reference),
                             'strand': '+'}
+    return annotations
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -81,9 +82,10 @@ if __name__ == '__main__':
             for n in tt.tree.find_clades():
                 if n.name not in node_data:
                     node_data[n.name] = {"aa_muts":{}}
-                node_data[n.name]["aa_muts"][gene] = [f"{a}{p+1}{d}" for a,p,d in n.mutations]
+                if len(n.mutations):
+                    node_data[n.name]["aa_muts"][gene] = [f"{a}{p+1}{d}" for a,p,d in n.mutations]
                 fh.write(f">{n.name}\n{tt.sequence(n, as_string=True, reconstructed=True)}\n")
 
-    annotation = annotation_json(features, ref)
+    annotations = annotation_json(features, ref)
     with open(args.output, 'w') as fh:
-        json.dump({"nodes":node_data, "annotation":annotation}, fh)
+        json.dump({"nodes":node_data, "annotations":annotations}, fh)
