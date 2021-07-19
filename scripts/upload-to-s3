@@ -32,7 +32,7 @@ main() {
 
     if [[ $src_hash != "$dst_hash" ]]; then
         echo "Uploading $src → $dst"
-        aws s3 cp --no-progress "$src" "$dst" --metadata sha256sum="$src_hash" "$(content-type "$dst")""$(content-encoding "$dst")"
+        aws s3 cp --no-progress "$src" "$dst" --metadata sha256sum="$src_hash" "$(content-type "$dst")"
 
         if [[ $quiet == 1 ]]; then
             echo "Quiet mode. No Slack notification sent."
@@ -48,19 +48,14 @@ main() {
 }
 
 content-type() {
-    case "${1%.gz}" in
+    case "$1" in
         *.tsv)      echo --content-type=text/tab-separated-values;;
         *.csv)      echo --content-type=text/comma-separated-values;;
         *.ndjson)   echo --content-type=application/x-ndjson;;
         *.json)     echo --content-type=application/json;;
+        *.gz)       echo --content-type=application/gzip;;
+        *.xz)       echo --content-type=application/x-xz;;
         *)          echo --content-type=text/plain;;
-    esac
-}
-
-content-encoding() {
-    case "$1" in
-        *.gz) echo " --content-encoding=gzip";;
-        *.xz) echo " --content-encoding=xz";;
     esac
 }
 
