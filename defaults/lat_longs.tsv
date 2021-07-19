@@ -2953,6 +2953,8 @@ location	Erquelinnes	50.3030663	4.158586422257155
 location	Erro	42.9419631	-1.4498042
 location	Erschwil	47.3735346	7.5416739
 location	Escambia County	31.1168422	-87.1070947
+location	Escambia County AL	31.1168422	-87.1070947
+location	Escambia County FL	30.6625885	-87.3451089
 location	Escazu	9.919781	-84.142340
 location	Eschenau Im Hausruckkreis	48.3891584	13.82061
 location	Eschenbach	47.2401739	8.9217296
@@ -3189,6 +3191,7 @@ location	Frankenburg Am Hausruck	48.0680308	13.4921448
 location	Frankenmarkt	47.9855432	13.4191655
 location	Frankfurt	50.1106444	8.6820917
 location	Franklin	42.882823	-88.009275
+location	Franklin County AL	34.440962	-87.8339064
 location	Franklin County IL	37.9765409	-88.9335327
 location	Franklin County NY	44.5926	-74.3388
 location	Franklin County OH	39.982385093297296	-83.0017763810311
@@ -3550,6 +3553,7 @@ location	Grand Princess Cruise Ship	38.308882	-123.779663
 location	Grand Santi	4.2734484	-54.3810948
 location	Grandola	38.1761212	-8.5680717
 location	Graneros	-34.0644743	-70.7262983
+location	Granite County	46.3944149	-113.4687025
 location	Granito	-7.7166517	-39.6161866
 location	Granollers	41.6079555	2.2876008
 location	Grant County NM	32.7548776	-108.3634144
@@ -6037,6 +6041,7 @@ location	McDonough County	40.4376858	-90.6780272
 location	McHenry County	42.3294391	-88.4605713
 location	McLean County IL	40.4631789	-88.8196613
 location	Mclennan County	31.5487691	-97.2189254
+location	Meagher County	46.6305891	-110.8988278
 location	Meaux	48.9582708	2.8773541
 location	Mechelen-aan-de-Maas	50.9764002	5.645665449842765
 location	Mecklenburg County	35.2356385	-80.8139485
@@ -7715,6 +7720,7 @@ location	Povazska Bystrica	49.1159316	18.4469936
 location	Povenets	62.848721	34.820995
 location	Povina	49.3110622	18.812491
 location	Povo Grande	-5.6149565	12.1961052
+location	Powder River County	45.3655661	-105.5982213
 location	Powell County MT	46.9109569	-113.0294193
 location	Powidz	52.4125881	17.9169686
 location	Poyarkovo	49.621155	128.65097
@@ -8343,6 +8349,7 @@ location	Rosario do Sul	-30.2527151	-54.9179382
 location	Rosarito	32.3648126	-117.055626
 location	Rose Hill	-20.234269	57.4693447
 location	Rosebud	31.0747037	-96.9755638
+location	Rosebud County	46.3894251	-106.6296053
 location	Rosegg	46.5898126	14.0200876
 location	Rosenau	47.6375154	7.5371474
 location	Rosenheim	47.8539273	12.127262
@@ -10866,6 +10873,7 @@ location	Washington County OR	45.544427	-123.010435
 location	Washington County RI	41.46361564311959	-71.64806019561742
 location	Washington County TX	30.2226352	-96.3936114
 location	Washington County WI	43.362309	-88.235107
+location	Washington Parish	30.8337523	-90.0721467
 location	Washoe	38.305749	-122.7358219
 location	Washoe County	40.5849048	-119.6131606
 location	Wasilla	61.579538	-149.468390
@@ -11545,6 +11553,7 @@ division	Basel-Stadt	47.557238	7.595666
 division	Bashkortostan	54.8573563	57.1439682
 division	Basilicata	40.447062	16.081705
 division	Basque Country	42.9896	-2.
+division	Basse	13.40499765	-14.149557582246608
 division	Basse-Terre	16.0000778	-61.7333373
 division	Bastogne	50.006852823238276	5.760870385343908
 division	Bat Yam	32.0132	34.7480
@@ -11717,6 +11726,7 @@ division	Ceará	-5.4984	-39.3206
 division	Čelinac	44.724001	17.324755
 division	Celje	46.2293889	15.2616828
 division	Center Kalimantan	-2.2072919	113.9164372
+division	Central African Republic	7.0323598	19.9981227
 division	Central Banat District	45.4481444	20.8551358
 division	Central Bohemian Region	49.860420	14.668725
 division	Central District	31.9521	34.9066
@@ -11821,6 +11831,7 @@ division	Cox'S Bazar	21.16587175	92.03996424949702
 division	Crete	35.3084749	24.463320724202934
 division	Crimea	45.28350435	34.20081877526554
 division	Croatia	45.1	15.2
+division	Cross River State	5.8671966	8.5204774
 division	Csongrád County	46.7084	20.1436
 division	Cuanza Norte	-9.0296752	15.0926324
 division	Cuanza Sul	-10.7707527	15.0975712
@@ -11834,6 +11845,7 @@ division	Cuzco	-13.5170887	-71.9785356
 division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
 division	Da Nang	16.068	108.212
+division	Dadra and Nagar Haveli	20.2733604	73.0044988
 division	Dagestan	43.0574916	47.1332224
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
@@ -11861,6 +11873,7 @@ division	Departamento Rio Negro	-32.74987614834329	-57.488110257077594
 division	Departamento San Jose	-34.270719079415876	-56.750977760339524
 division	Dhahirah	22.65052325	56.0616295382364
 division	Dhaka	23.789370	90.415192
+division	Dhi Qar Province	31.464444	45.1025
 division	Dhofar	18.2356054	54.266734945996774
 division	Diamond Princess	35.046935	139.419325
 division	Diana	-12.2735552	49.2845719
@@ -11960,6 +11973,7 @@ division	Flandre-Orientale	51.016552	3.770099
 division	Flemish Brabant	50.8686516	4.7886237984620905
 division	Flevoland	52.48851	5.615829
 division	Flines-lès-Mortagne	50.5037	3.4641
+division	Flores	-33.583333	-56.833333
 division	Florida	27.6648	-81.5158
 division	Florina	40.779442	21.407594
 division	Formosa	-24.5955306	-60.4289718
@@ -12085,6 +12099,7 @@ division	Haryana	29.0588	76.0856
 division	Haskovo	41.7637519	25.925984569140283
 division	Hasselt	50.925347	5.311394
 division	Haut-Katanga	-10.457682	27.690512
+division	Haut-Uélé	2.7936527	27.6435943
 division	Haute Matsiatra	-21.44975755	47.08703075
 division	Hauts-Bassins	11.389027500000001	-4.041364986476256
 division	Hauts de France	49.934396	2.783002
@@ -12193,6 +12208,7 @@ division	Ivory Coast	7.9897371	-5.5679458
 division	Iwate	39.9724169	141.2124422
 division	Ixelles	50.8333	4.3666
 division	Järva	58.882046	25.5509865
+division	Jahra	29.498561549999998	47.544040757906274
 division	Jakarta	-6.221537	106.838429
 division	Jalapa	14.65079355	-89.93908531263284
 division	Jalisco	20.422362	-103.793697
@@ -12290,6 +12306,8 @@ division	Kaulille	51.1872	5.5257
 division	Kauno Apskritis	55.0163259	24.085757831305433
 division	Kavadarci	41.4332802	22.0122593
 division	Kavango	-19.2632632	17.708643
+division	Kavango East	-18.3982355	20.72468
+division	Kavango West	-18.256111	18.970201
 division	Kavre	28.0301754	83.7116467
 division	Kayseri	38.7205	35.4826
 division	Kazakhstan	47.2286086	65.2093197
@@ -12315,6 +12333,7 @@ division	Khakassia	53.4399379	90.0664303
 division	Khanty-Mansi	61.0259025	69.0982628
 division	Kharkiv	49.9902794	36.2303893
 division	Khemisset	33.830287	-6.072605
+division	Kherson	46.5421715	33.4079326
 division	Khomas	-22.9082553	17.09198004041758
 division	Khon Kaen	16.6022387	102.6352933
 division	Khulna	22.815139549999998	89.44492672055918
@@ -12383,6 +12402,7 @@ division	Kuwait	29.452987	47.447194
 division	Kwale	-4.1836067	39.10509552821773
 division	Kwara State	9.172913	4.409729
 division	KwaZulu-Natal	-28.704798	30.693005
+division	Kwilu	-5.0213398	18.8445746
 division	Kyiv	50.4500336	30.5241361
 division	Kyoto	35.007542	135.768455
 division	Kyrgyzstan	41.927675	75.142149
@@ -12410,6 +12430,7 @@ division	Lahore	31.5656822	74.3141829
 division	Laikipia	0.2858452	36.825771076829064
 division	Laken	50.8778	4.3481
 division	Lakes	-38.5882085	175.9492056
+division	Lakshadweep	10.8132489	73.6804620941119
 division	Lalitpur	27.6676649	85.3183888179628
 division	Lambarene	-0.695844	10.2215963
 division	Lambayeque	-6.707066	-79.907239
@@ -12424,6 +12445,7 @@ division	Laois	52.998490450000006	-7.377700166944578
 division	Lapland	67.700017	26.273752
 division	Las Piedras	-34.7274904	-56.2164982
 division	Latvia	56.799689	25.441386
+division	Lavalleja	-33.9971964	-54.9992242
 division	Lazio	41.994328	12.622686
 division	Le Gosier	16.2072112	-61.4931309
 division	Le Moule	16.3316709	-61.3476233
@@ -13293,6 +13315,7 @@ division	Šumadija District	44.1202429	20.85199400301452
 division	Sumatera Barat	-1.33589025	100.07222762395327
 division	Sumatera Selatan	-3.1266842	104.0930554
 division	Sumatera Utara	2.1923519	99.3812201
+division	Sumy	50.9070007	34.798386
 division	Surany	48.0861055	18.1868344
 division	Suriname	4.1413025	-56.0771187
 division	Sverdlovsk	59.0077	61.9316
@@ -13445,6 +13468,7 @@ division	Uhlirske Janovice	49.8807582	15.064492
 division	UK	54.234125	-2.078794
 division	Ukraine	49.4871968	31.2718321
 division	Umbria	42.965916	12.490236
+division	Una-Sana	44.8064912	15.8874438
 division	Unhost	50.08499	14.1318613
 division	Union of the Comoros	-12.2045176	44.2832964
 division	United Arab Emirates	23.546651	54.065059
@@ -13617,6 +13641,7 @@ division	Yeumbeul	14.771188	-17.358556
 division	Yogyakarta	-7.8011945	110.364917
 division	Yucatan	20.6845957	-88.8755669
 division	Yunnan	24.556297	101.36621
+division	Zabaykalsky Krai	52.248521	115.956325
 division	Zabiedovo	49.320123	19.6069033
 division	Zabreh Na Morave	49.8837547	16.879471619265
 division	Zabrezi	50.4109017	15.7362133

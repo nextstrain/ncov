@@ -1783,6 +1783,7 @@ District of Ruzomberok
 	Ludrová
 	Martincek
 	Potok, district Ruzomberok
+	Rojkov
 	Ruzomberok
 	Liptovské Sliače
 	Stankovany
