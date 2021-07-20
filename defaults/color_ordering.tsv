@@ -227,8 +227,27 @@ location	Buraimi
 location	Sohar
 
 ### Uzbekistan
+# Bukhara Region
+location	Bukhara City
+
+# Qashqadaryo Region
+location	Shakhrisabz District
+
 # Tashkent
+location	Almazar District
+location	Chilanzar District
+location	Kibray District
+location	Mirabad District
+location	Shayhantahurskiy District
 location	Tashkent City
+location	Uchtepa District
+location	Yakkasaray District
+location	Yashnabad District
+location	Yunusabad District
+location	Zangiota District
+
+# Fergana Region
+location	Fergana District
 
 ### Kazakhstan
 # West-Kazakhstan Region
@@ -12562,6 +12581,7 @@ location	Saint Louis County
 location	St. Louis MO
 
 # Mississippi
+location	Adams County MS
 location	Harrison County MS
 location	Oktibbeha County
 location	Pearl River County
@@ -13302,8 +13322,11 @@ division	North Batinah
 division	Musandam
 
 ### Uzbekistan
+division	Bukhara Region
 division	Uzbekistan
+division	Qashqadaryo Region
 division	Tashkent
+division	Fergana Region
 
 ### Afghanistan
 division	Afghanistan
