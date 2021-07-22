@@ -12,6 +12,10 @@ from collections import OrderedDict
 import textwrap
 import time
 
+# Set the maximum recursion limit globally for all shell commands, to avoid
+# issues with large trees crashing the workflow.
+shell.prefix("export AUGUR_RECURSION_LIMIT=10000; ")
+
 # Store the user's configuration prior to loading defaults, so we can check for
 # reused subsampling scheme names in the user's config. We need to make a deep
 # copy because Snakemake will deep merge the subsampling dictionary later,
