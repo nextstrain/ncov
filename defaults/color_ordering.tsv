@@ -464,6 +464,9 @@ location	Wardha
 location	Washim
 location	Yavatmal
 
+# Dadra and Nagar Haveli and Daman and Diu
+location	Dadra and Nagar Haveli
+
 # Odisha
 location	Ganjam
 location	Jharsuguda
@@ -631,6 +634,8 @@ location	West Tripura
 
 # Manipur
 location	Bishnupur
+location	Chandel
+location	Churachandpur
 location	Imphal East
 location	Imphal West
 location	Kakching
@@ -743,7 +748,9 @@ location	Varanasi
 
 # Sikkim
 location	East Sikkim
+location	North Sikkim
 location	South Sikkim
+location	West Sikkim
 
 # Arunachal Pradesh
 location	Papum Pare
@@ -1041,6 +1048,9 @@ location	Dengkil
 location	Bukit Bintang
 location	Salak
 
+# Kelantan
+location	Kota Bharu
+
 # Negeri Sembilan
 location	Rembau
 
@@ -1196,10 +1206,8 @@ location	Muaro Bungo
 location	Sarolangun
 
 # South Sumatra
-location	Palembang
-
-# Sumatera Selatan
 location	Musi Banyuasin
+location	Palembang
 
 # Riau Islands
 location	Batam
@@ -2783,6 +2791,7 @@ location	Llutxent
 location	Lucena del Cid
 location	L’Eliana
 location	L’alcora
+location	Manises
 location	Massalaves
 location	Massalfassar
 location	Massamagrell
@@ -3067,6 +3076,7 @@ location	Palol D'Onyar
 location	Pals
 location	Parets del Valles
 location	Penelles
+location	Piedrahita
 location	Pineda de Bages
 location	Pineda de Mar
 location	Platja D'Aro
@@ -3358,6 +3368,7 @@ location	Fontenay le Comte
 location	La Fleche
 location	La Roche-sur-Yon
 location	Laval
+location	Laval C
 location	Le Mans
 location	Les Ponts-de-Cé
 location	Les Sables D'Olonne
@@ -3583,6 +3594,7 @@ location	Coquelles
 location	Crespin
 location	Crouy en Thelle
 location	Crépy en Valois
+location	Denain
 location	Douai
 location	Dunkerque
 location	Ecuires
@@ -3606,6 +3618,7 @@ location	Saint Quentin
 location	Saint-Saulve
 location	Santes
 location	Senlis
+location	Soissons
 location	Somain
 location	Thiant
 location	Tourcoing
@@ -3670,6 +3683,7 @@ location	Augerolles
 location	Aulnat
 location	Aumont Aubrac
 location	Aurillac
+location	Auvers sur Oise
 location	Avermes
 location	Aydat
 location	Bayet
@@ -3692,6 +3706,7 @@ location	Bourg-en-Bresse
 location	Bourgoin-Jallieu
 location	Bouzel
 location	Brassac Les Mines
+location	Briffons
 location	Brioude
 location	Brives Charensac
 location	Brommat
@@ -3702,6 +3717,7 @@ location	Cebazat
 location	Ceyrat
 location	Challes-Les-Eaux
 location	Chamalieres
+location	Chamalliere
 location	Chambaron sur Morge
 location	Chambery
 location	Chamblet
@@ -3757,6 +3773,7 @@ location	Domerat
 location	Dorat
 location	Dun sur Auron
 location	Durtol
+location	Ebreuil
 location	Echandelys
 location	Ennezat
 location	Entraigues
@@ -3786,6 +3803,7 @@ location	Issoire
 location	Joze
 location	Jussac
 location	La Bourboule
+location	La Combelle
 location	La Goutelle
 location	La Monnerie le Montel
 location	La Moutade
@@ -4780,6 +4798,7 @@ location	Breendonk
 location	Duffel
 location	Gestel
 location	Hallaar
+location	Heffen
 location	Heist-op-den-Berg
 location	Hombeek
 location	Itegem
@@ -5369,6 +5388,7 @@ location	Gorredijk
 location	Harkema
 location	Jubbega
 location	Kimswerd
+location	Noordwolde
 location	Oosterwolde
 location	Rottevalle
 location	Sneek
@@ -5427,35 +5447,45 @@ location	Raalte
 # Groningen
 location	Appingedam
 location	Bellingwolde
+location	Bierum
 location	Delfzijl
 location	Finsterwolde
 location	Foxhol
+location	Grijpskerk
 location	Groningen
 location	Grootegast
 location	Haren
 location	Haren NL
+location	Harkstede
 location	Heiligerlee
 location	Hoogezand
+location	Kropswolde
 location	Leek
 location	Meerstad
 location	Midwolda
 location	Muntendam
+location	Noordhorn
 location	Sappemeer
 location	Sauwerd
 location	Schildwolde
+location	Siddeburen
 location	Slochteren
 location	Stadskanaal
 location	Uithuizen
 location	Uithuizermeeden
 location	Veendam
 location	Vierhuizen
+location	Warffum
 location	Wildervank
+location	Winschoten
 location	Winsum
 location	Woldendorp
 location	Zuidbroek
 location	Zuidhorn
 
 # Drenthe
+location	Adorp
+location	Annen
 location	Assen
 location	Beilen
 location	Bovensmilde
@@ -5465,6 +5495,7 @@ location	Donderen
 location	Eelde
 location	Een
 location	Emmen
+location	Hollandscheveld
 location	Hoogeveen
 location	Koekange
 location	Meppel
@@ -5491,6 +5522,7 @@ location	Vandoeuvres
 
 # Vaud
 location	Chavannes-Renens
+location	Lausanne
 location	Lutry CH
 location	Renens
 
@@ -5535,6 +5567,7 @@ location	Starrkirch-Wil
 location	Witterswil
 
 # Valais
+location	Sion
 location	Visp
 
 # Bern
@@ -5558,7 +5591,6 @@ location	Wasen Im Emmental
 
 # Basel-Stadt
 location	Basel
-location	Basle
 location	Bettingen
 location	Riehen
 
@@ -5641,7 +5673,7 @@ location	Hochdorf
 location	Horw
 location	Hämikon
 location	Kriens
-location	Luzern
+location	Lucerne
 location	Meggen
 location	Reiden
 location	Schötz
@@ -5770,8 +5802,6 @@ location	Rieden
 location	Rorschach
 location	Rorschacherberg
 location	Ruthi
-location	Saint Gallen
-location	Sankt Gallenkappel
 location	Sargans
 location	Sax CH
 location	Schmerikon
@@ -5779,7 +5809,7 @@ location	Schänis
 location	Sennwald
 location	Sevelen
 location	Speicher
-location	St Gallen
+location	St Gall
 location	St. Margrethen
 location	Unterterzen
 location	Uznach
@@ -6036,6 +6066,7 @@ location	Catania
 location	Enna
 location	Messina
 location	Palermo
+location	Ragusa
 location	Siracusa
 
 # Molise
@@ -7903,6 +7934,7 @@ location	Opole Lubelskie
 location	Ossowka
 location	Parczew
 location	Piszczac-Kolonia
+location	Polatycze
 location	Puławy
 location	Radzyń Podlaski
 location	Rakowiska
@@ -8924,6 +8956,7 @@ location	Perm
 location	Ufa
 
 # Chelyabinsk
+location	Chelyabinsk
 location	Ozyorsk
 
 # Sverdlovsk
@@ -10285,6 +10318,7 @@ location	Pindorama do Tocantins
 location	Pium
 location	Presidente Kennedy TO
 location	Sandolandia
+location	Xambioa
 
 # Distrito Federal
 location	Brasilia
@@ -10332,6 +10366,7 @@ location	Bilac
 location	Birigui
 location	Biritiba Mirim
 location	Boa Esperanca do Sul
+location	Boa Esperança do Sul
 location	Bocaina
 location	Bofete
 location	Boituva
@@ -10718,6 +10753,7 @@ location	Conceicao do Mato Dentro
 location	Confins
 location	Conselheiro Lafaiete
 location	Conselheiro Pena
+location	Contagem
 location	Coromandel
 location	Coronel Fabriciano
 location	Coronel Pacheco
@@ -10761,6 +10797,7 @@ location	Ouro Branco MG
 location	Palma BR
 location	Paracatu
 location	Paraopeba
+location	Pará de Minas
 location	Patos de Minas
 location	Patrocinio
 location	Pedras de Maria Da Cruz
@@ -10791,6 +10828,7 @@ location	Uberaba
 location	Unai
 location	Varginha
 location	Varjão de Minas
+location	Vespasiano
 
 # Rio de Janeiro
 location	Angra Dos Reis
@@ -12868,7 +12906,8 @@ location	Berrien County
 location	Ingham County
 
 # Georgia
-location	Cobb
+location	Cobb County
+location	Fulton County GA
 location	Henry County GA
 location	Liberty County GA
 location	Richmond County GA
@@ -12985,6 +13024,7 @@ location	Pitt County
 location	Rutherford County NC
 location	Scotland County
 location	Wake County NC
+location	Wayne County NC
 
 # Virginia
 location	Alexandria
@@ -12994,14 +13034,21 @@ location	Loudoun County
 
 # Pennsylvania
 location	Allegheny County
-location	Chester County
+location	Berks County
+location	Bucks County
+location	Chester County PA
+location	Dauphin County
 location	Delaware County PA
+location	Lancaster County PA
+location	Lebanon County
 location	Lehigh County
 location	Monroe County PA
 location	Montgomery County PA
+location	Northampton County PA
 location	Philadelphia County
 location	Pike County PA
 location	Pittsburgh
+location	York County PA
 
 # Washington DC
 location	District of Columbia County
@@ -13023,17 +13070,21 @@ location	Sussex County DE
 # New Jersey
 location	Bergen County
 location	Burlington County
+location	Burlington County NJ
 location	Camden County
+location	Camden County NJ
+location	Cumberland County NJ
 location	Essex County NJ
-location	Gloucester County
+location	Gloucester County NJ
 location	Hudson County NJ
+location	Hunterdon County
 location	Mercer County NJ
 location	Middlesex County NJ
 location	Monmouth County
 location	Morris County NJ
 location	Ocean County
 location	Passaic County
-location	Salem County
+location	Salem County NJ
 location	Somerset County
 location	Sussex County NJ
 location	Union County NJ
@@ -13389,7 +13440,7 @@ division	Karnataka
 division	Andhra Pradesh
 division	Telangana
 division	Maharashtra
-division	Dadra and Nagar Haveli
+division	Dadra and Nagar Haveli and Daman and Diu
 division	Odisha
 division	India
 division	Chhattisgarh
@@ -13604,7 +13655,6 @@ division	Riau
 division	Bengkulu
 division	Jambi
 division	South Sumatra
-division	Sumatera Selatan
 division	Riau Islands
 division	Lampung
 division	Banten
@@ -13642,7 +13692,9 @@ division	Pingtung County
 division	Tainan
 division	Taiwan
 division	Changhua County
+division	Hsinchu County
 division	New Taipei City
+division	Taipei City
 division	Keelung
 
 ### Philippines
@@ -14022,6 +14074,7 @@ division	Bengo
 division	Cabinda
 
 ### Chad
+division	N'Djamena
 division	Chad
 
 ### Central African Republic
@@ -14172,6 +14225,7 @@ division	Migori
 division	Kisii
 division	Bomet
 division	Homa Bay
+division	Nyeri
 division	Nyandarua
 division	Nakuru
 division	Kisumu
@@ -15256,12 +15310,14 @@ division	Brazilian Cruise
 division	Tacna
 division	Moquegua
 division	Arequipa
+division	Puno
 division	Ica
 division	Apurimac
 division	Ayacucho
 division	Cuzco
 division	Huancavelica
 division	Callao
+division	Madre de Dios
 division	Lima
 division	Junin
 division	Pasco

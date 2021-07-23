@@ -946,6 +946,7 @@ location	Bergheim	47.8408541	13.0221612
 location	Beringen	51.064162	5.224601
 location	Berisso	-34.8688565	-57.8828667
 location	Berkeley County	33.1595951	-79.9070461
+location	Berks County	40.4113762	-75.9433305
 location	Berkshire County	42.3999954	-73.2322639
 location	Berlaar	51.103037349999994	4.664038763459683
 location	Berlare	51.0301606	4.011347029715423
@@ -1406,6 +1407,7 @@ location	Buchkirchen	48.2241613	14.0226453
 location	Buchlovice	49.0862718	17.3385196
 location	Buchs	47.1687116	9.4787656
 location	Buchs SG	47.1627634	9.4764086
+location	Bucks County	40.3451668	-75.1263909
 location	Budapest	47.482728	19.084269
 location	Budeliere	46.21961	2.46811
 location	Budkovce	48.6343517	21.9274867
@@ -1455,6 +1457,7 @@ location	Burlada	42.8230299	-1.614076
 location	Burleson	32.535768554050875	-97.32722170343142
 location	Burleson County	30.4764878	-96.6353488
 location	Burlington County	39.9325409	-74.7226665
+location	Burlington County NJ	39.9325409	-74.7226665
 location	Burnet County	30.7763939	-98.1700016
 location	Burnett County	45.8652437	-92.2673161
 location	Burriana	39.8873342	-0.0838341
@@ -1608,6 +1611,7 @@ location	Cambrils	41.0679423	1.0657579
 location	Cambuci	-21.5749919	-41.9107833
 location	Cambuquira	-21.853056	-45.2953619
 location	Camden County	39.814507	-74.986182
+location	Camden County NJ	39.8014709	-74.968553
 location	Cameron County	26.1291189	-97.4134281
 location	Cameron Parish	29.888055	-93.1843025
 location	Cametá	-2.242949	-49.497885
@@ -1981,6 +1985,7 @@ location	Cherokee County AL	34.1142554	-85.6004514
 location	Cherokee County SC	35.0372626	-81.6480755
 location	Cheshire	41.5084	-72.9106
 location	Chester County	39.9829308	-75.7652424
+location	Chester County PA	39.9829308	-75.7652424
 location	Chester County SC	34.6859896	-81.1545073
 location	Chesterfield County SC	34.6500578	-80.1417843
 location	Chhota Udaipur	22.3048651	74.0126114
@@ -2135,6 +2140,7 @@ location	Cmielow	50.8918364	21.5100875
 location	Cminsk	50.9844445	20.5405892
 location	Coatepeque	14.7026327	-91.8656361
 location	Cobb	33.9373948	-84.5732006
+location	Cobb County	33.9373948	-84.5732006
 location	Coca	-0.4721804	-76.9837216
 location	Cochamo	-41.4925628	-72.3079293
 location	Cochise County	31.8514532	-109.8181858
@@ -2375,6 +2381,7 @@ location	Cumberland County	39.2744299	-88.2423795
 location	Cumberland County IL	39.2744299	-88.2423795
 location	Cumberland County ME	43.8506432	-70.4001498
 location	Cumberland County NC	35.0461723	-78.8394255
+location	Cumberland County NJ	39.3183341	-75.1623239
 location	Cumberland County TN	35.953805	-84.9748195
 location	Cunco	-38.9328331	-72.0320492
 location	Cunha	-23.07753	-44.9567436
@@ -2478,6 +2485,7 @@ location	Dashrath	22.3877702	73.1513259
 location	Daskroi	22.95840725	72.71852429515411
 location	Dasman	29.386491	47.999895
 location	Daule	-1.0447171	-79.6366882
+location	Dauphin County	40.398036	-76.8115168
 location	Dausa	26.80486585	76.44374569929329
 location	Davayat	45.9468101	3.108931
 location	Davezieux	45.2567222	4.7057799
@@ -3238,6 +3246,7 @@ location	Fuentes	-33.1729451	-61.0773558
 location	Fuerth	49.477263	10.989616
 location	Fulda	50.5521486	9.676511
 location	Fulton County	43.1061507	-74.4461771
+location	Fulton County GA	34.0580391	-84.2961283
 location	Fulton County IL	40.4714305	-90.1845556
 location	Fulton County NY	43.1061507	-74.4461771
 location	Fundao	-19.9332174	-40.4049674
@@ -3443,6 +3452,7 @@ location	Glogoczow	49.8948023	19.8759729
 location	Głogówek	50.3534373	17.8619329
 location	Glorinha	-29.8790534	-50.7869437
 location	Gloucester County	39.7267303	-75.1535378
+location	Gloucester County NJ	39.7267303	-75.1535378
 location	Glowno	51.96239825	19.71166242050556
 location	Glubczyce	50.2000941	17.8293199
 location	Głuchołazy	50.3170828	17.3833809
@@ -4065,6 +4075,7 @@ location	Humenne	48.9350033	21.9020268
 location	Huncovce	49.12824315	20.378241965790373
 location	Huningue	47.5941514	7.5794613
 location	Hunt County	33.1161567	-96.0808922
+location	Hunterdon County	40.5770634	-74.9261552
 location	Hurbanovo	47.8761227	18.198313
 location	Hurefeish	33.021767395388366	35.34665715770681
 location	Huriel	46.3733261	2.477798
@@ -5171,6 +5182,7 @@ location	Lanaken	50.884429	5.634002
 location	Lanaudière	46.76678	-73.83248
 location	Lancaster County	40.7768326	-96.7111039
 location	Lancaster County NE	40.7768326	-96.7111039
+location	Lancaster County PA	40.08067	-76.2411283
 location	Lancaster County SC	34.6628067	-80.700546
 location	Lanco	-39.4522225	-72.7754222
 location	Landeck	47.1274736	10.555680223492256
@@ -5287,6 +5299,7 @@ location	Le Puy-en-Velay	45.0459739	3.8855537
 location	Le Roeulx	50.505667	4.104105
 location	Le Vernet	46.1084089	3.4626994
 location	Leba	54.7604388	17.531376945616415
+location	Lebanon County	40.375713	-76.4626118
 location	Lebbeke	51.0004013	4.1307711
 location	Lebork	54.5326494	17.744474748366954
 location	Lecce	40.354894	18.168455
@@ -6804,6 +6817,7 @@ location	North Goa	15.4939104	73.8241103
 location	North Haven	41.383683	-72.858134
 location	North Shajahanpur	23.7457901	90.4217076
 location	North Tripura	24.092147599999997	92.24512135019847
+location	Northampton County PA	40.7451356	-75.3289302
 location	Northamtonshire	52.324226	-0.872799
 location	Northern Alaska	67.3274	-161.0159
 location	Northern Queensland	-17.758290	142.643075
@@ -8571,6 +8585,7 @@ location	Saldanha Bay	-32.97779805372684	18.022125380907177
 location	Saldanha Marinho	-28.394081	-53.097006
 location	Salem	44.9391565	-123.033121
 location	Salem County	39.5980987	-75.3488201
+location	Salem County NJ	39.5980987	-75.3488201
 location	Salerno	40.419441649999996	15.310756230322482
 location	Sales	-21.3418263	-49.4999228
 location	Sales Oliveira	-20.769612	-47.836873
@@ -10896,6 +10911,7 @@ location	Wauwatosa	43.054646	-88.039969
 location	Wavre	50.7162425	4.60845
 location	Wayne County	43.1500557	-77.0377603
 location	Wayne County IL	38.4251958	-88.4197678
+location	Wayne County NC	35.3546293	-78.0149444
 location	Wayne County NY	43.1500557	-77.0377603
 location	Wayne County OH	40.8615819	-81.9034617
 location	Webb County	27.6983621	-99.2523577
@@ -11178,6 +11194,7 @@ location	Yongchuan	29.374774	105.925391
 location	Yopal	5.3356662	-72.3936931
 location	York County	34.9603293	-81.1655408
 location	York County ME	43.4229305	-70.6546639
+location	York County PA	39.9067499	-76.7008946
 location	York County SC	34.9603293	-81.1655408
 location	Yorkshire	53.3833	-1.4599
 location	Yorktown Heights	41.2709	-73.7776
@@ -11848,6 +11865,7 @@ division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
 division	Da Nang	16.068	108.212
 division	Dadra and Nagar Haveli	20.2733604	73.0044988
+division	Dadra and Nagar Haveli and Daman and Diu	20.718174949999998	70.93238341010638
 division	Dagestan	43.0574916	47.1332224
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
@@ -12148,6 +12166,7 @@ division	Hovedstaden	55.86170985	12.313743483194546
 division	Howland Island	0.8075145	-176.61686999040523
 division	Hradec Králové Region	50.2094963	15.832719
 division	Hranice Na Moravě	49.5497	17.7349
+division	Hsinchu County	24.8267	121.0128333
 division	Huancavelica	-13.0	-75.0
 division	Huanuco	-9.893964	-76.299456
 division	Huasco	-28.467340	-71.221674
@@ -12523,6 +12542,7 @@ division	Maaseik	51.104005	5.714000
 division	Machakos	-1.27900465	37.39526976452546
 division	Madhya Pradesh	22.9734	78.6569
 division	Madinah	24.5247	39.5692
+division	Madre de Dios	-12.0	-70.25
 division	Madrid	40.4168	-3.7038
 division	Mafeteng	-29.8224468	27.2388281
 division	Mafraq	32.536378799999994	38.13152652312604
@@ -12693,6 +12713,7 @@ division	Myeik	12.4319552	98.5955711
 division	Mymensingh	24.8386014	90.41126950462677
 division	Myto Pod Dumbierom	48.8556374	19.62969423799256
 division	Māzandarān	36.3159159	51.8968597
+division	N'Djamena	12.1191543	15.0502758
 division	Nabeul	36.4512854	10.7355969
 division	Nablus	32.2205316	35.2569374
 division	Nachod	50.41472735	16.166904528325247
@@ -12818,6 +12839,7 @@ division	Nur-Sultan	51.147862	71.433377
 division	Nusa Tenggara Barat	-8.7892855	117.146169
 division	Nuwara Eliya	6.9738863	80.767127
 division	Nyandarua	-0.39155344999999997	36.49776838093413
+division	Nyeri	-0.4192962	36.9517005
 division	O'Higgins	-34.534538	-71.0354822
 division	Oaxaca	17.0	-96.5
 division	Obalnokraska	45.6444142	13.990988309164146
@@ -12990,6 +13012,7 @@ division	Pula	44.870671	13.867625
 division	Punjab	31.1471	75.3412
 division	Punjab IN	30.9293211	75.5004841
 division	Punjab PK	31.0	72.0
+division	Puno	-15.0	-70.0
 division	Puntarenas	10.0730022	-84.8622981
 division	Putumayo	0.5000086	-76.0000086
 division	Põlva	58.05789625	27.062388312390027
@@ -13339,6 +13362,7 @@ division	Tacna	-18.0138521	-70.2511614
 division	Tacuarembo	-32.166667	-55.5
 division	Tahiti	-17.68734395	-149.44516811423745
 division	Tainan	22.9912348	120.184982
+division	Taipei City	25.0375198	121.5636796
 division	Taita Taveta	-3.4178355	38.36706756969934
 division	Taiwan	23.8169	121.031365
 division	Tajikistan	38.8610	71.2761
