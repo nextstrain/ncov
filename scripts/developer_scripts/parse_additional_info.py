@@ -579,8 +579,8 @@ def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, 
         results = {"region_exposure": [], "country_exposure": [], "division_exposure": []}
         # In case several travels are listed, check all of them and find overlaps
         for place in places:
-            if " / " in place:
-                place = place.split(" / ")[-1]
+            if "/" in place:
+                place = place.split("/")[-1].strip()
             ordering_result = find_place_in_ordering(place, ordering, variants)
             while ordering_result == None:
                 s = "Could not identify " + bold(place) + ". You have the following options:"
