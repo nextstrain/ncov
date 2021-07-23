@@ -8781,3 +8781,8 @@ India/OR-ILSGS01254/2021
 India/CH-NCDC-2509329/2021
 India/ILSGS00720/2021
 India/ILSGS00928/2021
+
+# Excess S1 mutations and reversions
+Canada/QC-1nIOU-A9012019/2021
+
+
