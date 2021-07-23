@@ -633,6 +633,11 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                         ### location given
                         if location != "":
 
+                            # Ignore location, only check for correct division
+                            if division_c in arrondissement_to_location:
+                                continue
+
+                            '''
                             # consistent with dataset
                             if clean_string(location) in location_to_arrondissement and division == location_to_arrondissement[clean_string(location)]:
                                 continue
@@ -658,6 +663,7 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
                                 print("Location " + bold(location) + " should be adjusted to " + bold(variants[location]) + ". Wrong division " + bold(division) + " given for location " + bold(variants[location]))
                                 print("Suggestion: add [" + "/".join([region, country, division, location]) + "\t" + "/".join([region, country, location_to_arrondissement[clean_string(variants[location])], variants[location]]) + "] to manual_adjustments.txt")
                                 continue
+                            '''
 
 
                         ### location empty
@@ -696,36 +702,39 @@ def adjust_to_database(data): #TODO: temporary solution, needs reworking
 def manual_adjustments(data):
     manual_adjustments = read_local_file("manual_adjustments.txt")
 
-    seqs_to_correct = []
-    for region in data:
-        for country in data[region]:
-            for division in data[region][country]:
-                for location in data[region][country][division]:
-                    for g in manual_adjustments:
-                        (region2, country2, division2, location2) = g.split("/")
-                        (region_correct, country_correct, division_correct, location_correct) = manual_adjustments[g].split("/")
-                        if region2 == "*":
-                            region2 = region
+    for g in manual_adjustments:
+        seqs_to_correct = []
+        (region_before, country_before, division_before, location_before) = g.split("/")
+        (region_correct, country_correct, division_correct, location_correct) = manual_adjustments[g].split("/")
+        for region in data:
+            for country in data[region]:
+                for division in data[region][country]:
+                    for location in data[region][country][division]:
                         if region_correct == "*":
-                            region_correct = region
-                        if country2 == "*":
-                            country2 = country
+                            region2 = region
+                        else:
+                            region2 = region_correct
+
                         if country_correct == "*":
-                            country_correct = country
-                        if division2 == "*":
-                            division2 = division
+                            country2 = country
+                        else:
+                            country2 = country_correct
+
                         if division_correct == "*":
-                            division_correct = division
-                        if location2 == "*":
-                            location2 = location
+                            division2 = division
+                        else:
+                            division2 = division_correct
+
                         if location_correct == "*":
-                            location_correct = location
+                            location2 = location
+                        else:
+                            location2 = location_correct
 
-                        if region == region2 and country == country2 and division == division2 and location == location2:
-                            seqs_to_correct.append((region, country, division, location, region_correct, country_correct, division_correct, location_correct))
-                            print("Manual adjustment: " + bold("/".join([region, country, division, location])) + " -> " + bold("/".join([region_correct, country_correct, division_correct, location_correct])))
+                        if (region == region_before or region_before == "*") and (country == country_before or country_before == "*") and (division == division_before or division_before == "*") and (location == location_before or location_before == "*"):
+                            seqs_to_correct.append((region, country, division, location, region2, country2, division2, location2))
+                            print("Manual adjustment: " + bold("/".join([region, country, division, location])) + " -> " + bold("/".join([region2, country2, division2, location2])))
 
-    data = correct_data(data, "location", seqs_to_correct)
+        data = correct_data(data, "location", seqs_to_correct)
     print("\n=============================\n")
     return data
 
