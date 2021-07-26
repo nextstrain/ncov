@@ -223,6 +223,16 @@ Builds support any named attributes that can be referenced by subsampling scheme
 * description: Earliest date to estimate frequencies for. Dates can be numeric floating point values (e.g., `2019.74`) or ISO 8601-style strings (e.g., `2019-10-01`).
 * default: without value supplied, defaults to 1 year before present
 
+### max_date
+* type: float or string
+* description: Earliest date to estimate frequencies for. Dates can be numeric floating point values (e.g., `2021.5`) or ISO 8601-style strings (e.g., `2021-07-01`). Specifying `max_date` overrides `recent_days_to_censor`.
+* default: without value supplied, defaults to today's date minus `recent_days_to_censor` parameter
+
+### recent_days_to_censor
+* type: integer
+* description: How many days back from today's date should samples be hidden from frequencies calculations? This is in place to help with sampling bias where some regions have faster sequencing turnarounds than other regions.
+* default: without value supplied, defaults to `0`
+
 ### pivot_interval
 * type: integer
 * description: Number of units between frequency estimates based on the units defined in the `pivot_interval_units` parameter. A “pivot” corresponds to a time point when frequencies are estimated.
