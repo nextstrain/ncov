@@ -34,8 +34,13 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     metadata = pd.read_csv(args.metadata, sep='\t')
-    recency_cutoff = (datetime.today() - timedelta(weeks=4)).toordinal()
-    recent_sequences = metadata.date_submitted.apply(lambda x: datestr_to_ordinal(x)>recency_cutoff)
+
+    check_recency = "date_submitted" in metadata
+    if check_recency:
+        recency_cutoff = (datetime.today() - timedelta(weeks=4)).toordinal()
+        recent_sequences = metadata.date_submitted.apply(lambda x: datestr_to_ordinal(x)>recency_cutoff)
+    else:
+        print("Skipping QC steps which rely on submission recency, as metadata is missing 'date_submitted'")
 
     if "clock_deviation" in metadata.columns:
         clock_deviation = np.array([float(x) if isfloat(x) else np.nan for x in metadata.clock_deviation])
@@ -54,7 +59,8 @@ if __name__ == '__main__':
 
     to_exclude = np.zeros_like(clock_deviation, dtype=bool)
     to_exclude |= np.abs(clock_deviation)>args.clock_filter_recent
-    to_exclude |= (np.abs(clock_deviation)>args.clock_filter)&(~recent_sequences)
+    if check_recency:
+        to_exclude |= (np.abs(clock_deviation)>args.clock_filter)&(~recent_sequences)
     to_exclude |= snp_clusters>args.snp_clusters
     to_exclude |= rare_mutations>args.rare_mutations
     to_exclude |= np.abs(clock_deviation+rare_mutations)>args.clock_plus_rare
