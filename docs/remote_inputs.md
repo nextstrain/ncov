@@ -8,8 +8,15 @@ Each of those runs separate pipelines for GISAID and GenBank (aka "open") data s
 
 The GISAID data is stored at `s3://nextstrain-ncov-private` and is not publicly available, in line with the GISAID Terms of Use (this is used internally by Nextstrain).
 
-The open (GenBank) data is available in the public AWS bucket `s3://nextstrain-data/files/ncov/open`. These open data are also mirrored daily to the public GCP bucket `gs://nextstrain-data/files/ncov/open`.
+The open (GenBank) data is publicly available at three endpoints:
+
+  - `https://data.nextstrain.org/files/ncov/open/`
+  - `s3://nextstrain-data/files/ncov/open/`
+  - `gs://nextstrain-data/files/ncov/open/` (mirrored daily from S3 by the Broad Institute)
+
 **Our intention is to make GenBank intermediate files open and available for everyone to use, and to keep these files up-to-date.**
+The paths for specific files are the same under each endpoint, e.g. `https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz`, `s3://nextstrain-data/files/ncov/open/metadata.tsv.gz`, and `gs://nextstrain-data/files/ncov/open/metadata.tsv.gz` all exist.
+See below for a list of files that exist.
 
 ## All available genomes and metadata
 Entire metadata & sequences data is uploaded from the `ncov-ingest` workflows for each of the `gisaid` and `open` sources:
