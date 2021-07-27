@@ -17,6 +17,8 @@ The open (GenBank) data is publicly available at three endpoints:
 **Our intention is to make GenBank intermediate files open and available for everyone to use, and to keep these files up-to-date.**
 The paths for specific files are the same under each endpoint, e.g. `https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz`, `s3://nextstrain-data/files/ncov/open/metadata.tsv.gz`, and `gs://nextstrain-data/files/ncov/open/metadata.tsv.gz` all exist.
 See below for a list of files that exist.
+If you're running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLS.
+Otherwise, please use the https://data.nextstrain.org URLs.
 
 ## All available genomes and metadata
 Entire metadata & sequences data is uploaded from the `ncov-ingest` workflows for each of the `gisaid` and `open` sources:
@@ -60,39 +62,39 @@ This means that the full GenBank metadata and sequences are typically updated a 
 
 | description          | type      | address                                                         |
 | ---                  | ---       | ---                                                             |
-| Full GenBank data    | metadata  | s3://nextstrain-data/files/ncov/open/metadata.tsv.gz            |
-|                      | sequences | s3://nextstrain-data/files/ncov/open/sequences.fasta.xz         |
-|                      | aligned   | s3://nextstrain-data/files/ncov/open/aligned.fasta.xz           |
-|                      | masked    | s3://nextstrain-data/files/ncov/open/masked.fasta.xz            |
-|                      | filtered  | s3://nextstrain-data/files/ncov/open/filtered.fasta.xz          |
-| Global sample        | metadata  | s3://nextstrain-data/files/ncov/open/global/metadata.tsv.xz     |
-|                      | sequences | s3://nextstrain-data/files/ncov/open/global/sequences.fasta.xz  |
-|                      | aligned   | s3://nextstrain-data/files/ncov/open/global/aligned.fasta.xz    |
-|                      | auspice   | nextstrain.org/ncov/open/global                                 |
-| Africa sample        | metadata  | s3://nextstrain-data/files/ncov/open/africa/metadata.tsv.xz     |
-|                      | sequences | s3://nextstrain-data/files/ncov/open/africa/sequences.fasta.xz  |
-|                      | aligned   | s3://nextstrain-data/files/ncov/open/africa/aligned.fasta.xz    |
-|                      | auspice   | nextstrain.org/ncov/open/africa                                 |
-| Asia sample          | metadata  | s3://nextstrain-data/files/ncov/open/asia/metadata.tsv.xz       |
-|                      | sequences | s3://nextstrain-data/files/ncov/open/asia/sequences.fasta.xz    |
-|                      | aligned   | s3://nextstrain-data/files/ncov/open/asia/aligned.fasta.xz      |
-|                      | auspice   | nextstrain.org/ncov/open/asia                                   |
-| Europe sample        | metadata  | s3://nextstrain-data/files/ncov/open/europe/metadata.tsv.xz     |
-|                      | sequences | s3://nextstrain-data/files/ncov/open/europe/sequences.fasta.xz  |
-|                      | aligned   | s3://nextstrain-data/files/ncov/open/europe/aligned.fasta.xz    |
-|                      | auspice   | nextstrain.org/ncov/open/europe                                 |
-| North America sample | metadata  | s3://nextstrain-data/files/ncov/open/north-america/metadata.tsv.xz    |
-|                      | sequences | s3://nextstrain-data/files/ncov/open/north-america/sequences.fasta.xz |
-|                      | aligned   | s3://nextstrain-data/files/ncov/open/north-america/aligned.fasta.xz   |
-|                      | auspice   | nextstrain.org/ncov/open/north-america                          |
-| Oceania sample       | metadata  | s3://nextstrain-data/files/ncov/open/oceania/metadata.tsv.xz    |
-|                      | sequences | s3://nextstrain-data/files/ncov/open/oceania/sequences.fasta.xz |
-|                      | aligned   | s3://nextstrain-data/files/ncov/open/oceania/aligned.fasta.xz   |
-|                      | auspice   | nextstrain.org/ncov/open/oceania                                |
-| South America sample | metadata  | s3://nextstrain-data/files/ncov/open/south-america/metadata.tsv.xz    |
-|                      | sequences | s3://nextstrain-data/files/ncov/open/south-america/sequences.fasta.xz |
-|                      | aligned   | s3://nextstrain-data/files/ncov/open/south-america/aligned.fasta.xz   |
-|                      | auspice   | nextstrain.org/ncov/open/south-america                          |
+| Full GenBank data    | metadata  | https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz            |
+|                      | sequences | https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz         |
+|                      | aligned   | https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz           |
+|                      | masked    | https://data.nextstrain.org/files/ncov/open/masked.fasta.xz            |
+|                      | filtered  | https://data.nextstrain.org/files/ncov/open/filtered.fasta.xz          |
+| Global sample        | metadata  | https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz     |
+|                      | sequences | https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.xz  |
+|                      | aligned   | https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.xz    |
+|                      | auspice   | https://nextstrain.org/ncov/open/global                                |
+| Africa sample        | metadata  | https://data.nextstrain.org/files/ncov/open/africa/metadata.tsv.xz     |
+|                      | sequences | https://data.nextstrain.org/files/ncov/open/africa/sequences.fasta.xz  |
+|                      | aligned   | https://data.nextstrain.org/files/ncov/open/africa/aligned.fasta.xz    |
+|                      | auspice   | https://nextstrain.org/ncov/open/africa                                |
+| Asia sample          | metadata  | https://data.nextstrain.org/files/ncov/open/asia/metadata.tsv.xz       |
+|                      | sequences | https://data.nextstrain.org/files/ncov/open/asia/sequences.fasta.xz    |
+|                      | aligned   | https://data.nextstrain.org/files/ncov/open/asia/aligned.fasta.xz      |
+|                      | auspice   | https://nextstrain.org/ncov/open/asia                                  |
+| Europe sample        | metadata  | https://data.nextstrain.org/files/ncov/open/europe/metadata.tsv.xz     |
+|                      | sequences | https://data.nextstrain.org/files/ncov/open/europe/sequences.fasta.xz  |
+|                      | aligned   | https://data.nextstrain.org/files/ncov/open/europe/aligned.fasta.xz    |
+|                      | auspice   | https://nextstrain.org/ncov/open/europe                                |
+| North America sample | metadata  | https://data.nextstrain.org/files/ncov/open/north-america/metadata.tsv.xz    |
+|                      | sequences | https://data.nextstrain.org/files/ncov/open/north-america/sequences.fasta.xz |
+|                      | aligned   | https://data.nextstrain.org/files/ncov/open/north-america/aligned.fasta.xz   |
+|                      | auspice   | https://nextstrain.org/ncov/open/north-america                               |
+| Oceania sample       | metadata  | https://data.nextstrain.org/files/ncov/open/oceania/metadata.tsv.xz    |
+|                      | sequences | https://data.nextstrain.org/files/ncov/open/oceania/sequences.fasta.xz |
+|                      | aligned   | https://data.nextstrain.org/files/ncov/open/oceania/aligned.fasta.xz   |
+|                      | auspice   | https://nextstrain.org/ncov/open/oceania                               |
+| South America sample | metadata  | https://data.nextstrain.org/files/ncov/open/south-america/metadata.tsv.xz    |
+|                      | sequences | https://data.nextstrain.org/files/ncov/open/south-america/sequences.fasta.xz |
+|                      | aligned   | https://data.nextstrain.org/files/ncov/open/south-america/aligned.fasta.xz   |
+|                      | auspice   | https://nextstrain.org/ncov/open/south-america                               |
 
 
 ---
@@ -115,8 +117,8 @@ Using the above table, we can easily modify this to create a build which uses th
 ```yaml
 inputs:
   - name: global-representative-genbank-sample
-    metadata: s3://nextstrain-data/files/ncov/open/global/metadata.tsv.gz
-    sequences: s3://nextstrain-data/files/ncov/open/global/sequences.fasta.gz
+    metadata: https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.gz
+    sequences: https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.gz
 ```
 
 To avoid unnecessarily aligning these sequences, we can instead start from the aligned sequences, like so:
@@ -124,8 +126,8 @@ To avoid unnecessarily aligning these sequences, we can instead start from the a
 ```yaml
 inputs:
   - name: global-representative-genbank-sample
-    metadata: s3://nextstrain-data/files/ncov/open/global/metadata.tsv.gz
-    aligned: s3://nextstrain-data/files/ncov/open/global/aligned.fasta.gz
+    metadata: https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.gz
+    aligned: https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.gz
 ```
 
 The following starting points are available:
