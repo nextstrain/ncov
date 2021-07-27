@@ -15,7 +15,7 @@ The open (GenBank) data is available in the public AWS bucket `s3://nextstrain-d
 Entire metadata & sequences data is uploaded from the `ncov-ingest` workflows for each of the `gisaid` and `open` sources:
 
 * `metadata.tsv.gz`
-* `sequences.fasta.gz`
+* `sequences.fasta.xz`
 * `nextclade.tsv.gz`
 * `additional_info.tsv.gz` (GISAID only)
 * `flagged_metadata.txt.gz` (GISAID only)
