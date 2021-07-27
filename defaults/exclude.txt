@@ -8785,4 +8785,18 @@ India/ILSGS00928/2021
 # Excess S1 mutations and reversions
 Canada/QC-1nIOU-A9012019/2021
 
+# Duplicates, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1627287831055900
+Brazil/AM-FIOCRUZ-21321-1P/2021
+DominicanRepublic/21895-3P/2021
+DominicanRepublic/21901-2P/2021
+DominicanRepublic/21916-2P/2021
+SouthAfrica/Tygerberg_372/2020
+SouthAfrica/Tygerberg_374/2020
+SouthAfrica/Tygerberg_376/2020
+SouthAfrica/Tygerberg_466/2020
+SouthAfrica/Tygerberg_468/2020
 
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1627285903050400
+Egypt/NRC-6317/2020
+Turkey/HSGM-B18711/2021
+Niger/ZR-157/2020
