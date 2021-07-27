@@ -181,23 +181,6 @@ rule deploy:
         fi
         """
 
-rule upload_reference_sets:
-    input:
-        alignments = expand("results/{build_name}/aligned.fasta", build_name=config["builds"]),
-        metadata = expand("results/{build_name}/extracted_metadata.tsv", build_name=config["builds"])
-    params:
-        s3_bucket = config.get("S3_REF_BUCKET",''),
-        compression = config["S3_DST_COMPRESSION"]
-    run:
-        for fname in input.alignments:
-            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.dirname(fname).split('/')[-1]}_alignment.fasta.{params.compression} | tee -a {log}"
-            print("upload command:", cmd)
-            shell(cmd)
-        for fname in input.metadata:
-            cmd = f"./scripts/upload-to-s3 {fname} s3://{params.s3_bucket}/{os.path.dirname(fname).split('/')[-1]}_metadata.tsv.{params.compression} | tee -a {log}"
-            print("upload command:", cmd)
-            shell(cmd)
-
 
 rule upload:
     message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
