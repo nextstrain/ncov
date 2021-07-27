@@ -338,17 +338,17 @@ Valid attributes for list entries in `inputs` are provided below.
 * type: string
 * description: Path to a local or remote (S3) FASTA file with **aligned, masked, and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
-	* `data/aligned.fasta`
-	* `data/aligned.fasta.xz`
-	* `s3://your-bucket/aligned.fasta.gz`
+	* `data/masked.fasta`
+	* `data/masked.fasta.xz`
+	* `s3://your-bucket/masked.fasta.gz`
 
 ### filtered
 * type: string
 * description: Path to a local or remote (S3) FASTA file with **aligned, masked, and filtered** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
-	* `data/aligned.fasta`
-	* `data/aligned.fasta.xz`
-	* `s3://your-bucket/aligned.fasta.gz`
+	* `data/filtered.fasta`
+	* `data/filtered.fasta.xz`
+	* `s3://your-bucket/filtered.fasta.gz`
 
 ## localrules
 * type: string
