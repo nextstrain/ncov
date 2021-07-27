@@ -267,6 +267,7 @@ location	Altstatten	47.3783471	9.5412765
 location	Alumim	31.4521295	34.5137154
 location	Alushta	44.677112	34.4095393
 location	Alvalade	-8.8307726	13.235761
+location	Alvarado	9.94319685	-83.80198292263356
 location	Alvares Machado	-22.076415	-51.47224
 location	Alvaro de Carvalho	-22.0787992	-49.7194861
 location	Alveringem	51.0150603	2.722044376111538
@@ -3133,6 +3134,7 @@ location	Florencia	1.7554212	-75.60811976268113
 location	Florencio Varela	-34.8044384	-58.2783224
 location	Florennes	50.2514227	4.6030187
 location	Flores	10.0062179	-84.1572343
+location	Flores CR	10.0058446	-84.15868270968596
 location	Flores Da Cunha	-29.030129	-51.1833349
 location	Floresta Azul	-14.8602238	-39.6561384
 location	Florestopolis	-22.8663942	-51.3905121
@@ -9488,6 +9490,7 @@ location	Sombreffe	50.529666132703525	4.602426167675574
 location	Sombrio	-29.107985	-49.632776
 location	Someren	51.38632235	5.688884477579495
 location	Somerset County	40.5675084	-74.6189556
+location	Somervell County	32.2275813	-97.7724138
 location	Somiedo	43.102801150000005	-6.251455743067364
 location	Somo	43.2964299	-3.6030979
 location	Son Servera	39.6201	3.3603
@@ -9592,6 +9595,7 @@ location	St Hippolyte	45.2234102	2.7044242
 location	St Ignat	45.9230736	3.2741618
 location	St James Parish	30.0096684	-90.7989525
 location	St Jeanvrin	46.5961356	2.2341299
+location	St John The Baptist Parish	30.1141748	-90.5276838
 location	St Julien Puy Laveze	45.665626	2.6724466
 location	St Landry Parish	30.6174002	-92.0035057
 location	St Laure	45.901565	3.2903151
@@ -9614,6 +9618,7 @@ location	St. Anton am Arlberg	47.1288996	10.2663669
 location	St. Clair County	38.4616972	-89.9324347
 location	St. Clair County AL	33.7086407	-86.3364
 location	St. Clair County IL	38.4616972	-89.9324347
+location	St. Croix	17.7289564	-64.75901597858353
 location	St. Georgen Im Attergau	47.9336035	13.4908056
 location	St. Jakob	46.6785854	14.6904763
 location	St. Johann im Pongau	47.3475782	13.2026049
@@ -9626,6 +9631,7 @@ location	St. Lucie County	27.3900897	-80.457904
 location	St. Margrethen	47.4510277	9.6410249
 location	St. Moritz	46.4960592	9.8386578
 location	St. Pantaleon	47.4601498	7.6910021
+location	St. Thomas	18.34290815	-64.91889970060265
 location	St. Valentin	48.16847735	14.549624526556675
 location	St.Valentin	48.16847735	14.549624526556675
 location	Stabroek	51.3352018	4.370408277101575
@@ -10848,6 +10854,7 @@ location	Waller County	29.9443902	-95.9955885
 location	Wallingford	41.460399	-72.804432
 location	Wallis	-13.2846405	-176.20665679493294
 location	Wallisellen	47.4166195	8.5919985
+location	Wallowa County	45.5582608	-117.1990173
 location	Walshoutem	50.7208713	5.0883752
 location	Walton	32.360678225278846	-95.84836813156247
 location	Walton County	30.6204939	-86.1912678
@@ -11787,6 +11794,7 @@ division	Chernivtsi	48.2633717	25.9504602
 division	Chhattisgarh	21.6637359	81.8406351
 division	Chiang Rai	19.7589517	99.6734592
 division	Chiapas	16.520858	-92.643133
+division	Chiayi City	23.4811089	120.4535412
 division	Chiba	35.463961	140.223882
 division	Chihuahua	28.633	-106.0691
 division	Chile	-31.7613364	-71.3187696
@@ -11931,6 +11939,7 @@ division	Duesseldorf	51.236437	6.809537
 division	Dupnitza	42.2613	23.1125
 division	Durango	24.019546	-104.658028
 division	Durazno	-33.0833329	-56.0833331
+division	East Azerbaijan Province	37.9211202	46.6821517
 division	East Java	-7.6977397	112.4914199
 division	East Kalimantan	0.241323	116.558975
 division	East-Kazakhstan Region	48.6130209	81.7489928
@@ -12509,6 +12518,7 @@ division	Livno	43.8250	17.0077
 division	Ljubljana	46.0499803	14.5068602
 division	Lobatse	-25.2100604	25.6819594
 division	Łódzkie	51.4721678	19.3460637
+division	Loei	17.3158563	101.4638277
 division	Loja	-4.0528506	-79.8053425
 division	Lombardy	45.4791	9.8452
 division	Longford	53.726262750000004	-7.791969209626598
@@ -12632,6 +12642,7 @@ division	Métropole	16.2532002	-61.2750706
 division	Meuse	49.01296845	5.428669076639772
 division	Mexico	19.4325301	-99.1332101
 division	Mexico City	19.404497	-99.143041
+division	Miaoli County	24.5647667	120.8205167
 division	Michigan	45.021203	-84.762273
 division	Michoacan	19.207098	-101.878113
 division	Midcentral	-40.398721	175.799685
@@ -12742,6 +12753,7 @@ division	Navarra	42.687776	-1.645699
 division	Navassa Island	18.409422917106408	-75.01198769630226
 division	Nay Pyi Taw	19.7540045	96.1344976
 division	Nayarit	21.8438765	-104.87148535201122
+division	Neamt	46.990657	26.48491657449838
 division	Nebraska	41.4925	-99.9018
 division	Negeri Sembilan	2.7831895	102.1925319
 division	Nelson Marlborough	-41.436949	173.142614
@@ -12877,6 +12889,7 @@ division	Orebro Lan	59.378174	14.948348
 division	Oregon	43.8041	-120.5542
 division	Orellana	-0.78618	-76.4803184
 division	Orenburg	51.7634	54.6188
+division	Oromia	7.6721644	40.0299727
 division	Oroshaza	46.5684	20.6545
 division	Oruro	-18.666667	-67.666667
 division	Oryol	52.9685433	36.0692477
@@ -12945,6 +12958,7 @@ division	Peshawar	34.0123846	71.5787458
 division	Pest County	47.3715943	19.3452624
 division	Petah Tikva	32.0840	34.8878
 division	Pezinok	48.2854539	17.270194
+division	Phetchabun	16.4165039	101.1595234
 division	Phetchaburi	13.0692869	99.6044376
 division	Philippeville	50.178836	4.592270
 division	Philippines	12.8797	121.774
@@ -13374,6 +13388,7 @@ division	Tamu	24.18735435	94.39209374929968
 division	Tana River	-1.53651195	39.55083745466502
 division	Tangail	24.248630	89.917926
 division	Tanzania	-6.5247123	35.7878438
+division	Taoyuan City	24.9929995	121.3010003
 division	Tapesovo	49.3740873	19.4467954
 division	Taranaki	-39.2711067	174.154795
 division	Tarapacá	-20.1636672	-69.5463448
@@ -13490,6 +13505,7 @@ division	Tyr	33.2721211	35.1964023
 division	Tyrol	47.220292	11.277287
 division	Tyumen Region	58.8206488	70.3658837
 division	Uasin Gishu	0.4771938	35.30505973699228
+division	Ubonratchathani	15.226428	104.8581711
 division	Ucayali	-9.0	-73.5
 division	Udon Thani	17.5211917	102.6680012
 division	Uganda	1.3733	32.2903
