@@ -1194,7 +1194,7 @@ rule export:
     conda: config["conda_environment"]
     shell:
         """
-        export AUGUR_RECURSION_LIMIT=10000 && augur export v2 \
+        augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
             --node-data {input.node_data} \
