@@ -20,6 +20,9 @@ See below for a list of files that exist.
 If you're running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLS.
 Otherwise, please use the https://data.nextstrain.org URLs.
 
+Note that even though the `s3://nextstrain-data/` and `gs://nextstrain-data/` buckets are public, the defaults for most S3 and GS clients require _some_ user to be authenticated, though the specific user/account doesn't matter.
+In the rare case you need to access the S3 or GS buckets anonymously, the easiest way is to configure your inputs using `https://nextstrain-data.s3.amazonaws.com/files/ncov/open/` or `https://storage.googleapis.com/nextstrain-data/files/ncov/open/` URLs instead.
+
 ## All available genomes and metadata
 Entire metadata & sequences data is uploaded from the `ncov-ingest` workflows for each of the `gisaid` and `open` sources:
 
