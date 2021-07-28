@@ -9,7 +9,6 @@ custom_rules:
 # To modify the s3 _source_ bucket, specify this directly in the `inputs` section of the config.
 # P.S. These are intentionally set as top-level keys as this allows command-line overrides.
 S3_DST_BUCKET: "nextstrain-data/files/ncov/open"
-S3_REF_BUCKET: "nextstrain-data/ncov-reference-datasets"
 S3_DST_COMPRESSION: "xz"
 S3_DST_ORIGINS: ["open"]
 

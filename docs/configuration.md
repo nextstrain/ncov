@@ -320,7 +320,7 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ### sequences
 * type: string
-* description: Path to a local or remote (S3) FASTA file with **unaligned, unmasked, and unfiltered** genome sequences. Sequences can be uncompressed or compressed.
+* description: Path to a local or remote (S3) FASTA file with **_un_aligned, _un_masked, and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
 	* `data/example_sequences.fasta`
 	* `data/example_sequences.fasta.xz`
@@ -328,7 +328,7 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ### aligned
 * type: string
-* description: Path to a local or remote (S3) FASTA file with **aligned, unmasked, and unfiltered** genome sequences. Sequences can be uncompressed or compressed.
+* description: Path to a local or remote (S3) FASTA file with **aligned, _un_masked, and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
 	* `data/aligned.fasta`
 	* `data/aligned.fasta.xz`
@@ -336,19 +336,19 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ### masked
 * type: string
-* description: Path to a local or remote (S3) FASTA file with **aligned, masked, and unfiltered** genome sequences. Sequences can be uncompressed or compressed.
+* description: Path to a local or remote (S3) FASTA file with **aligned, masked, and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
-	* `data/aligned.fasta`
-	* `data/aligned.fasta.xz`
-	* `s3://your-bucket/aligned.fasta.gz`
+	* `data/masked.fasta`
+	* `data/masked.fasta.xz`
+	* `s3://your-bucket/masked.fasta.gz`
 
 ### filtered
 * type: string
 * description: Path to a local or remote (S3) FASTA file with **aligned, masked, and filtered** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
-	* `data/aligned.fasta`
-	* `data/aligned.fasta.xz`
-	* `s3://your-bucket/aligned.fasta.gz`
+	* `data/filtered.fasta`
+	* `data/filtered.fasta.xz`
+	* `s3://your-bucket/filtered.fasta.gz`
 
 ## localrules
 * type: string
