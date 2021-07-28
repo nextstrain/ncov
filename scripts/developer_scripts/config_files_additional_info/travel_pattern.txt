@@ -102,3 +102,4 @@ Private Hospital; Travel history: XXX
 Non-Omani / Imported-Travel from XXX
 Private Lab; Travel history: XXX
 Omani / Imported-Travel from XXX
+He traveled to XXX

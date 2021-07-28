@@ -572,6 +572,7 @@ location	Una
 location	Una IN
 location	Vadiya
 location	Vadodara
+location	Valsad
 location	Veraval
 location	Vinzol-Ahmedabad
 location	Waghodia
@@ -1262,6 +1263,7 @@ location	Sanggau
 location	Sleman
 
 # Central Java
+location	Banyumas
 location	Brebes
 location	Cilacap
 location	Jepara
@@ -7326,6 +7328,7 @@ location	Pruszcz Gdanski
 location	Przelek
 location	Przywidz
 location	Puck
+location	Pucki
 location	Rakowe Pole
 location	Rakowo
 location	Raniewo
@@ -7359,10 +7362,12 @@ location	Zukczyn
 
 # Kujawsko-Pomorskie
 location	Aleksandrow Kujawski
+location	Aleksandrowski
 location	Barcin
 location	Bialy Bor
 location	Bobrowo
 location	Brodnica
+location	Brodnicki
 location	Bydgoszcz
 location	Chełmno
 location	Dobrylewo
@@ -8048,6 +8053,7 @@ location	Porosly
 location	Rajgród
 location	Sejny
 location	Siemiatycze
+location	Sokolski
 location	Sokółka
 location	Stary Kamień
 location	Suwałki
@@ -11043,6 +11049,7 @@ location	Camacan
 location	Camacari
 location	Canarana BA
 location	Candeias
+location	Capela do Alto Alegre
 location	Conceicao do Jacuipe
 location	Cordeiros
 location	Cruz Das Almas
@@ -11146,6 +11153,7 @@ location	Caucaia
 location	Crateus
 location	Crato
 location	Fortaleza
+location	Guaraciaba do Norte
 location	Horizonte
 location	Ipu
 location	Jaguaruana
@@ -12769,6 +12777,7 @@ location	St. Louis MO
 # Mississippi
 location	Adams County MS
 location	Harrison County MS
+location	Madison County MS
 location	Oktibbeha County
 location	Pearl River County
 
