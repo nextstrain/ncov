@@ -10157,3 +10157,9 @@ SouthAfrica/Tygerberg_468/2020
 Egypt/NRC-6317/2020
 Turkey/HSGM-B18711/2021
 Niger/ZR-157/2020
+
+# divergence
+Canada/QC-1nJWFTV-3643537/2020
+
+# s1 mutations
+Netherlands/Flevoland_1/2020
