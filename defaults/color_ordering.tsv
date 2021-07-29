@@ -5645,6 +5645,7 @@ location	Nidau
 location	Oberhofen
 location	Orvin
 location	Spiegel B. Bern
+location	Spiez
 location	Steffisburg
 location	Wasen Im Emmental
 
@@ -6181,6 +6182,7 @@ location	Lecce
 location	Lucera
 location	Manfredonia
 location	Martina Franca
+location	Napoli
 location	Orta Nova
 location	Pietramontecorvino
 location	Taranto
@@ -6562,6 +6564,8 @@ location	Sedlec
 location	Stodůlky
 
 # Southern Bohemia Region
+location	Ceske Budejovice
+location	Cesky Krumlov
 location	Dobra Voda
 location	Dubné
 location	Jindrichuv Hradec
@@ -6940,6 +6944,7 @@ location	Komorow
 location	Kostrza
 location	Kostrzyca
 location	Krzeszow
+location	Lazisko
 location	Legnica
 location	Lomnica
 location	Lubawka
@@ -7303,6 +7308,7 @@ location	Legowo
 location	Lichnowy
 location	Lipinka
 location	Lubieszewo
+location	Lubiszynek Pierwszy
 location	Lubkowo
 location	Lubuczewo
 location	Luzino
@@ -11511,6 +11517,7 @@ location	Samborondon
 location	San Jacinto de Yaguachi
 
 # El Oro
+location	Huaquillas
 location	Machala
 
 # Loja
@@ -11521,7 +11528,9 @@ location	Saraguro
 
 # Los Rios EC
 location	Babahoyo
+location	Montalvo
 location	Quevedo
+location	Urdaneta
 location	Valencia EC
 location	Ventanas
 
@@ -11539,6 +11548,7 @@ location	Santo Domingo de los Colorados
 
 # Bolivar EC
 location	Guaranda
+location	San Miguel EC
 
 # Cañar
 location	Azogues
@@ -12391,10 +12401,12 @@ location	Washoe County
 # Idaho
 location	Ada County
 location	Bonneville County
+location	Canyon County
 location	Kootenai County
 location	Madison County ID
 location	Nez Perce County
 location	Shoshone County
+location	Twin Falls County
 
 # Utah
 location	Salt Lake County
@@ -12734,6 +12746,7 @@ location	East Feliciana Parish
 location	Grant Parish
 location	Iberia Parish
 location	Iberville Parish
+location	Jackson Parish
 location	Jefferson Davis Parish
 location	Jefferson Parish
 location	Lafayette Parish
@@ -12912,6 +12925,7 @@ location	Jersey County IL
 location	Jo Daviess County
 location	Johnson County IL
 location	Kane County
+location	Kane County IL
 location	Kankakee County
 location	Kendall County IL
 location	Knox County IL
@@ -15400,6 +15414,7 @@ division	Uruguay
 division	Treinta y Tres
 division	Departamento Rio Negro
 division	Cerro Largo
+division	Paysandu
 division	Tacuarembo
 division	Salto
 division	Rivera
