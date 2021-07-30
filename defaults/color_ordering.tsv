@@ -3337,6 +3337,7 @@ location	Belz
 location	Berril
 location	Betton
 location	Brest
+location	Bruz
 location	Cancale
 location	Carentoir
 location	Cayenne BRE
@@ -3344,14 +3345,18 @@ location	Cesson Sevigne
 location	Chateaugiron
 location	Chateaulin
 location	Chavagne
+location	Coatreven
+location	Corps Nuds
 location	Dinan
 location	Dinard
 location	Etables sur Mer
 location	Etel
 location	Fougères
+location	Geveze
 location	Goven
 location	Granville
 location	Guingamp
+location	Guipry Messac
 location	Hennebont
 location	Irodouer
 location	Josselin
@@ -3368,9 +3373,11 @@ location	Lannion
 location	Les Iffs
 location	Lesneven
 location	Lorient
+location	Mantallot
 location	Maxent
 location	Melesse
 location	Mesnil Roc H
+location	Montreuil le Gast
 location	Mordelles
 location	Morlaix
 location	Noyal Chatillon
@@ -3381,6 +3388,8 @@ location	Pace
 location	Paimpol
 location	Plelan le Grand
 location	Plerin
+location	Plestin Les Greves
+location	Pleugriffet
 location	Ploezal
 location	Ploudalmezeau
 location	Plouzane
@@ -3398,6 +3407,7 @@ location	Saint Perreux
 location	Saint Pierre Quiberon
 location	Saint-Brieuc
 location	Saint-M'Herve
+location	Saint-Pol-de-Léon
 location	Saulnieres
 location	Sene
 location	Sens de Bretagne
@@ -3410,6 +3420,7 @@ location	St Malo
 location	St Samson sur Rance
 location	Tinteniac
 location	Val D Anast
+location	Val D'Anast
 location	Vannes
 location	Vern sur Seiche
 location	Vitre
@@ -4611,6 +4622,7 @@ location	Chastre
 location	Chaumont-Gistoux
 location	Clabecq
 location	Court-Saint-Étienne
+location	Couture-Saint-Germain
 location	Céroux-Mousty
 location	Genappe
 location	Genval
@@ -6209,6 +6221,9 @@ location	Jönköping
 location	Goteborg
 location	Skovde
 
+# Sodermanland
+location	Eskilstuna
+
 ### Austria
 # Vorarlberg
 location	Bildstein
@@ -6380,6 +6395,7 @@ location	Pfaffing
 location	Pilsbach
 location	Pinsdorf
 location	Prambachkirchen
+location	Puchkirchen am Trattberg
 location	Pöndorf
 location	Regau
 location	Ried
@@ -6552,6 +6568,7 @@ location	Všebořice
 # Prague
 location	Kvetnice
 location	Prague-Miskovice
+location	Praha
 location	Praha 17
 location	Praha 2
 location	Praha 3
@@ -6638,9 +6655,27 @@ location	Vratislavice nad Nisou
 
 # Vysocina Region
 location	Bela - Ledec Na Sazavou
+location	Benetice
+location	Bily Kamen
+location	Bohdalec
+location	Budisov
+location	Cervena Lhota
+location	Chotebor
+location	Havlickova Borova
+location	Havlickuv Brod
+location	Hodov
+location	Knezice
 location	Kynice
+location	Namest nad Oslavou
 location	Náměšť nad Oslavou
+location	Polna
+location	Pribyslav
+location	Rudikov
+location	Stranecka Zhor
+location	Stribrne Hory
 location	Trebic
+location	Trnava
+location	Velka Bites
 location	Zdar nad Sazavou
 
 # Pardubice Region
@@ -6667,13 +6702,18 @@ location	Drnholec
 location	Hodonín
 location	Hrušovany U Brna
 location	Hrušovany nad Jevišovkou
+location	Ivanovice Na Hane
 location	Jinacovice
 location	Kostice
 location	Kratochvilka
+location	Krenovice
 location	Kurim
 location	Lelekovice
+location	Mikulov
+location	Nesovice
 location	Petrovice
 location	Pozorice
+location	Pribyslavice
 location	Prstice
 location	Prusanky
 location	Pustimer
@@ -6682,7 +6722,9 @@ location	Ratíškovice
 location	Rudice
 location	Slavkov U Brna
 location	Strelice
+location	Svatoslav
 location	Tišnov
+location	Velke Bilovice
 location	Vrbice
 location	Vémyslice
 location	Zidlochovice
@@ -6693,6 +6735,7 @@ location	Držovice
 location	Kojetin
 location	Litovel
 location	Oldrichov
+location	Prostejov
 location	Písařov
 location	Sumperk
 location	Tištín
@@ -6711,11 +6754,9 @@ location	Kromeriz
 location	Kroměříž
 location	Kvasice
 location	Prasklice
+location	Sobelice
 location	Uhersky Brod
 location	Zdounky
-
-# Hranice Na Moravě
-location	Prostejov
 
 # Moravian-Silesian Region
 location	Albrechtice
@@ -10916,6 +10957,7 @@ location	Pirapora
 location	Pirauba
 location	Pocos de Caldas
 location	Recreio
+location	Riachinho
 location	Ribeirao Das Neves
 location	Rio Espera
 location	Rio Manso
@@ -11074,6 +11116,7 @@ location	Jandaira
 location	Jequie
 location	Jussari
 location	Laje
+location	Lauro de Freitas
 location	Madre de Deus
 location	Maracas
 location	Marau
@@ -11151,34 +11194,73 @@ location	Vitoria
 
 # Ceará
 location	Abaiara
+location	Alto Santo
 location	Antonina do Norte
+location	Aquiraz
 location	Aracati
+location	Aracoiaba CE
 location	Arneiroz
+location	Arneizoz
+location	Baturite
+location	Beberibe
+location	Boa Viagem
 location	Cascavel CE
 location	Caucaia
 location	Crateus
 location	Crato
+location	Eusebio
 location	Fortaleza
+location	Fortim
 location	Guaraciaba do Norte
+location	Hidrolandia
 location	Horizonte
+location	Ibiapina
+location	Icapui
+location	Iguatu
 location	Ipu
+location	Iracema
+location	Itaitinga
+location	Itapaje
+location	Jaguaretama
+location	Jaguaribe
 location	Jaguaruana
 location	Jardim (Ceará)
 location	Juazeiro do Norte
+location	Limoeiro do Norte
+location	Maraba
 location	Maracanau
+location	Maranguape
+location	Mauriti
 location	Milagres
 location	Milha
+location	Missao Velha
+location	Morada Nova
+location	Mulungu
+location	Ocara
 location	Oros
 location	Pacajus
 location	Palmacia
 location	Paracuru
+location	Paramoti
+location	Pentecoste
+location	Piquet Carneiro
+location	Quiterianopolis
+location	Quixada
+location	Quixeramobim
 location	Russas
+location	Salitre BR
 location	Sao Benedito
 location	Sao Goncalo do Amarante
+location	Sobral
 location	São Luis de Curu
 location	Tabuleiro do Norte
+location	Tamboril
+location	Taua
+location	Tejucuoca
 location	Tiangua
 location	Tururu
+location	Uruoca
+location	Varzea Alegre
 location	Vicosa do Ceara
 
 # Sergipe
@@ -11213,6 +11295,48 @@ location	Simao Dias
 location	Tobias Barreto
 location	Tomar do Geru
 
+# Rio Grande do Norte
+location	Alexandria BR
+location	Ares
+location	Açu
+location	Bom Jesus
+location	Caicó
+location	Currais Novos
+location	Extremoz
+location	Florânia
+location	Guamare
+location	Ipanguacu
+location	Jardim de Piranhas
+location	Jardim do Seridó
+location	João Câmara
+location	Jucurutu
+location	Jundia
+location	Luiz Gomes
+location	Macaiba
+location	Marcelino Vieira
+location	Messias Targino
+location	Natal
+location	Nisia Floresta
+location	Nova Cruz
+location	Ouro Branco RN
+location	Paranamirim
+location	Passa E Fica
+location	Patu
+location	Pau Dos Ferros
+location	Poco Branco
+location	Rafael Fernandes
+location	Riacho de Santana
+location	Riachuelo RN
+location	Santa Cruz BR
+location	Santana do Matos
+location	Serrinha Dos Pintos
+location	São José de Mipibu
+location	São José do Seridó
+location	São João do Sabugi
+location	São Rafael
+location	Tenente Laurentino Cruz
+location	Água Nova
+
 # Pernambuco
 location	Afogados Da Ingazeira
 location	Afranio
@@ -11221,7 +11345,7 @@ location	Aguas Belas
 location	Alianca
 location	Altinho
 location	Angelim
-location	Aracoiaba
+location	Aracoiaba PE
 location	Araripina
 location	Arcoverde
 location	Barra de Guabiraba
@@ -11316,48 +11440,6 @@ location	Vicência
 location	Vitoria de Santo Antao
 location	Xexeu
 location	Águas Belas
-
-# Rio Grande do Norte
-location	Alexandria BR
-location	Ares
-location	Açu
-location	Bom Jesus
-location	Caicó
-location	Currais Novos
-location	Extremoz
-location	Florânia
-location	Guamare
-location	Ipanguacu
-location	Jardim de Piranhas
-location	Jardim do Seridó
-location	João Câmara
-location	Jucurutu
-location	Jundia
-location	Luiz Gomes
-location	Macaiba
-location	Marcelino Vieira
-location	Messias Targino
-location	Natal
-location	Nisia Floresta
-location	Nova Cruz
-location	Ouro Branco RN
-location	Paranamirim
-location	Passa E Fica
-location	Patu
-location	Pau Dos Ferros
-location	Poco Branco
-location	Rafael Fernandes
-location	Riacho de Santana
-location	Riachuelo RN
-location	Santa Cruz BR
-location	Santana do Matos
-location	Serrinha Dos Pintos
-location	São José de Mipibu
-location	São José do Seridó
-location	São João do Sabugi
-location	São Rafael
-location	Tenente Laurentino Cruz
-location	Água Nova
 
 # Paraiba
 location	Aguiar
@@ -11512,7 +11594,7 @@ location	General Villamil Playas
 location	Guayaquil
 location	Isla Mocolí
 location	Milagro
-location	Salitre
+location	Salitre EC
 location	Samborondon
 location	San Jacinto de Yaguachi
 
@@ -12737,6 +12819,7 @@ location	Bienville Parish
 location	Bossier Parish
 location	Caddo Parish
 location	Calcasieu Parish
+location	Caldwell Parish
 location	Cameron Parish
 location	Claiborne Parish
 location	DeSoto Parish
@@ -13227,6 +13310,7 @@ location	District of Columbia County
 # Maryland
 location	Anne Arundel County
 location	Baltimore
+location	Cecil County
 location	Frederick County MD
 location	Montgomery County MD
 location	Prince George's County
@@ -13389,6 +13473,7 @@ location	Guaynabo
 location	Ponce
 location	Puerto Rico
 location	San Juan PR
+location	San Lorenzo County
 location	Toa Baja
 
 # Virgin Islands
@@ -14909,7 +14994,6 @@ division	South Moravian Region
 division	Zabreh Na Morave
 division	Olomouc Region
 division	Zlín Region
-division	Hranice Na Moravě
 division	Moravian-Silesian Region
 
 ### Bosnia and Herzegovina
@@ -15485,8 +15569,8 @@ division	Bahia
 division	Espirito Santo
 division	Ceará
 division	Sergipe
-division	Pernambuco
 division	Rio Grande do Norte
+division	Pernambuco
 division	Paraiba
 division	Alagoas
 division	Brazilian Cruise
