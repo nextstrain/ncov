@@ -1,4 +1,24 @@
-"""Shared functions to transparently handle local and remote inputs/outputs.
+"""
+Shared functions to transparently handle local and remote inputs/outputs.
+
+Snakemake itself tries to offer a similar sort of scheme-level transparency for
+remote files through its ``AUTO`` provider, but it's broken.
+
+The ``AUTO`` provider enumerates and loads all the various
+``snakemake.remote.*`` modules on each call to ``AUTO.remote()``.  This slows
+things down unnecessarily, though isn't a deal breaker.  However, during
+enumeration, it protects against unsupported modules due to missing deps, but
+*not* supported modules which fail to initialize because of missing required
+credentials/config from the environment or missing required parameters to the
+remote provider constructor or ``AUTO.remote()``.  This alone makes it
+completely unusable.  Even with a usable ``AUTO``, we'd still need some
+additional handling for local paths.
+
+We could make a better functioning ``AUTO`` equivalent ourselves by similarly
+building the scheme → remote function mapping dynamically, but it didn't seem
+worth it to support use cases that aren't concrete right now (http(s), s3, gs
+are all known use cases for us).  The implementation here could certainly be
+further developed in that direction in the future, however.
 """
 from functools import partial
 from importlib import import_module
