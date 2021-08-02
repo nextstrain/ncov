@@ -23,6 +23,10 @@ Otherwise, please use the https://data.nextstrain.org URLs.
 Note that even though the `s3://nextstrain-data/` and `gs://nextstrain-data/` buckets are public, the defaults for most S3 and GS clients require _some_ user to be authenticated, though the specific user/account doesn't matter.
 In the rare case you need to access the S3 or GS buckets anonymously, the easiest way is to configure your inputs using `https://nextstrain-data.s3.amazonaws.com/files/ncov/open/` or `https://storage.googleapis.com/nextstrain-data/files/ncov/open/` URLs instead.
 
+Depending on your execution environment, you may need to install additional Python dependencies for specific support of the different URL schemes (`https`, `s3`, `gs`).
+The workflow will produce an error at the start if additional dependencies are needed to fetch your configured inputs.
+Both `https` and `s3` should work out of the box in the standard Nextstrain Conda and Docker execution environments.
+
 ## All available genomes and metadata
 Entire metadata & sequences data is uploaded from the `ncov-ingest` workflows for each of the `gisaid` and `open` sources:
 
