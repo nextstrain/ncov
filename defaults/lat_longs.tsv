@@ -2120,6 +2120,7 @@ location	Clamecy	47.4598895	3.5187552
 location	Clarendon County	33.6653463	-80.2277002
 location	Clark	30.3921523	-94.7663151
 location	Clark County IL	39.3260541	-87.7838526
+location	Clark County MO	40.3962004	-91.7362195
 location	Clark County NV	36.3467726	-115.0907378
 location	Clark County OH	39.9229676	-83.7905959
 location	Clark County WA	45.7669047	-122.4940866
@@ -2475,6 +2476,7 @@ location	Damudya Upazila	23.13983025	90.44031160051017
 location	Dande	-8.9217683	13.1668451
 location	Dane County	43.0186	-89.5498
 location	Daniec	50.62028	18.13765
+location	Daniels County	48.7710629	-105.5123296
 location	Dankowice	50.8571693	16.8714051
 location	Danli	14.0324698	-86.5682844
 location	Dano	11.1435597	-3.0637939
@@ -3071,6 +3073,7 @@ location	Fawwar	31.4806083	35.0613504
 location	Faye l'Abbesse	46.8303723	-0.3525362
 location	Fayette County	42.9258	-91.9099
 location	Fayette County AL	33.7303493	-87.7419088
+location	Fayette County GA	33.3899269	-84.4953763
 location	Fayette County IA	42.8420766	-91.850265
 location	Fayette County IL	39.0001282	-89.0430211
 location	Fayette County TX	29.8381635	-96.9559692
@@ -8202,6 +8205,7 @@ location	Říčany	49.99144789993997	14.656143375191796
 location	Ricardone	-32.7706222	-60.7840699
 location	Richland Center	43.339975	-90.385959
 location	Richland County IL	38.7060457	-88.0949352
+location	Richland County MT	47.8314138	-104.559421
 location	Richland County OH	40.776322	-82.5302254
 location	Richland County SC	34.0190006	-80.9176832
 location	Richland County WI	43.4060	-90.3748
@@ -8859,6 +8863,7 @@ location	Santa Catarina Pinula	14.56562755	-90.47611786893953
 location	Santa Clara	9.0336879	-79.7526466
 location	Santa Clara County	37.236094	-121.683399
 location	Santa Clara de Louredo	37.9701683	-7.8720098
+location	Santa Clara PA	9.0336879	-79.7526466
 location	Santa Coloma de Cervello	41.3687006	2.0174512
 location	Santa Coloma de Farners	41.8603109	2.6659047
 location	Santa Coloma de Gramenet	41.4515626	2.2083371
@@ -10007,6 +10012,7 @@ location	Teo	42.8061	-8.5611
 location	Teodelina	-34.3695677	-62.1327106
 location	Teodoro Sampaio	-22.5300202	-52.1686847
 location	Teodorow	51.815941	19.6752026
+location	Tepic	21.5043446	-104.894676
 location	Teplice	50.6406644	13.8244461
 location	Teplicka nad Vahom	49.2251922	18.7943585
 location	Teramo	42.661036	13.710926
@@ -11627,6 +11633,7 @@ division	Bermuda	32.3018217	-64.7603583
 division	Bern	46.855135	7.570549
 division	Berrechid	33.2676746	-7.5811465
 division	Bethlehem	31.7043556	35.2061876
+division	Beyla	8.909431999999999	-8.367475476673686
 division	Bhaktapur	27.6720657	85.428171
 division	Bicol	13.100588	123.52313310936306
 division	Bielsk Podlaski	52.764915	23.188210662123517
@@ -11645,8 +11652,10 @@ division	Blida	36.48329	2.808751
 division	Bobrov	49.4291733	19.5421527
 division	Bocas del Toro	9.3040914	-82.12843877974339
 division	Boeny	-16.23492785	46.12926718059281
+division	Boffa	10.1812281	-14.0377043
 division	Bogota	4.629337	-74.095588
 division	Bohol	9.833333	124.1615579
+division	Boke	11.3406898	-13.9440724
 division	Bolivar	8.753508	-74.367735
 division	Bolivar CO	10.4190661	-75.5267671
 division	Bolivar EC	-1.574489	-79.103194
@@ -11866,6 +11875,7 @@ division	Cotopaxi	-3.4804754	-80.2302215
 division	Counties Manukau	-37.101403	175.005947
 division	Covasna	45.896679250000005	26.010180611745668
 division	Cox'S Bazar	21.16587175	92.03996424949702
+division	Coyah	9.709041	-13.388956
 division	Crete	35.3084749	24.463320724202934
 division	Crimea	45.28350435	34.20081877526554
 division	Croatia	45.1	15.2
@@ -11883,6 +11893,7 @@ division	Cuzco	-13.5170887	-71.9785356
 division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
 division	Da Nang	16.068	108.212
+division	Dabola	10.742172	-11.106486
 division	Dadra and Nagar Haveli	20.2733604	73.0044988
 division	Dadra and Nagar Haveli and Daman and Diu	20.718174949999998	70.93238341010638
 division	Dagestan	43.0574916	47.1332224
@@ -11944,6 +11955,7 @@ division	Dschang	5.4469923	10.053309
 division	Dubai	25.0750095	55.18876088183319
 division	Dublin	53.3431	-6.262191
 division	Dubnica Nd Váhom	48.969555799999995	18.153944404948856
+division	Dubréka	9.7889809	-13.5169725
 division	Dubrovnik	42.651307	18.102801
 division	Dubrovnik-Neretva County	42.7580845	17.3352326
 division	Duesseldorf	51.236437	6.809537
@@ -12010,6 +12022,7 @@ division	Ferizaj	42.3682168	21.1532848
 division	Ferkessedougou	9.5939778	-5.1975952
 division	Finland	61.751734	26.186437
 division	Flacq	-20.221731249999998	57.72234951618523
+division	Flanders	51.096246199999996	4.178629103169916
 division	Flandre-Orientale	51.016552	3.770099
 division	Flemish Brabant	50.8686516	4.7886237984620905
 division	Flevoland	52.48851	5.615829
@@ -12017,6 +12030,7 @@ division	Flines-lès-Mortagne	50.5037	3.4641
 division	Flores	-33.583333	-56.833333
 division	Florida	27.6648	-81.5158
 division	Florina	40.779442	21.407594
+division	Forecariah	9.4300088	-13.0833859
 division	Formosa	-24.5955306	-60.4289718
 division	France	46.2276	2.2137
 division	Francisco Morazán	14.34304775	-87.11422636083512
@@ -12104,6 +12118,7 @@ division	Guangxi	23.717754	108.701872
 division	Guardav	40.5308	-7.2221
 division	Guatemala	15.6356088	-89.8988087
 division	Guayas	-1.9575	-79.9193
+division	Gueckedou	8.561649	-10.132821
 division	Guerrero	17.463444	-99.792052
 division	Guiania	2.5000086	-69.0000086
 division	Guiglo	6.43034025	-7.5909032112704775
@@ -12367,6 +12382,7 @@ division	Kepulauan Bangka Belitung	-2.7052886	106.3585607
 division	Kepulauan Riau	0.7439240871682783	104.2466702933411
 division	Kerala	10.359825	76.39955
 division	Kerman	29.571858	57.301047
+division	Kerouane	9.2705687	-9.0076196
 division	Kerry	52.14533445	-9.517401092833236
 division	Keski-Suomi	62.609365800000006	25.579461022851078
 division	Kfar Saba	32.180607	34.912861
@@ -12388,13 +12404,16 @@ division	Kilifi	-3.15073925	39.67507159193717
 division	Kilinochchi	9.3840068	80.4087224
 division	Kilkenny	52.6510216	-7.2484948
 division	Kilkis	40.9935874	22.8741455
+division	Kindia	10.1154374	-13.1916883
 division	Kingman Reef	6.41581875	-162.43869642053994
 division	Kinshasa	-4.2978	15.2962
+division	Kirov Oblast	57.9665589	49.4074599
 division	Kiryat Gat	31.6111	34.7685
 division	Kiryat Ono	32.059259	34.859216
 division	Kisantu	-5.1367411	15.0592273
 division	Kishoregonj	24.433904289338148	90.78213209247555
 division	Kisii	-0.7385550000000001	34.757159597379605
+division	Kissidougou	9.2101274	-10.1215917
 division	Kisumu	-0.1029109	34.7541761
 division	Klaipedos Apskritis	55.7826477	21.170343190765912
 division	Kocaeli	40.886367	29.905212
@@ -12586,6 +12605,7 @@ division	Malopolskie	49.7225	20.2503
 division	Malta	35.8885993	14.4476911
 division	Maluku	-5.3580518	130.35838229206553
 division	Malý Dunaj	48.13132375	17.19760319392066
+division	Mamou	10.6619269	-12.1139542
 division	Manabi	-0.7588025	-80.0612131
 division	Mandalay	21.9812746	96.082375
 division	Mandera	3.2285332	40.70561647260599
@@ -12822,6 +12842,7 @@ division	North Dakota	47.6201461	-100.540737
 division	North District	32.8972	35.3027
 division	North-East District	-21.0244816	27.5147504
 division	North Holland	52.5206	4.7885
+division	North Jeolla	34.759837149999996	127.65168920003353
 division	North Kalimantan	3.0235817	116.2049306
 division	North Macedonia	41.6171214	21.7168387
 division	North Maluku	0.6301215	127.9720219
@@ -12843,6 +12864,8 @@ division	Northern Region MW	-11.04916995	33.7722246394023
 division	Northern Territory	-19.4914	132.551
 division	Northland	-35.3712702	173.7405337
 division	Norway	64.574131	11.52701029
+division	Nossa Senhora da Graça	17.10265065	-25.037743474498058
+division	Nossa Senhora da Luz	16.885447399999997	-24.98805016948336
 division	Nottinghamshire	53.134734	-0.989052
 division	Nouvelle-Aquitaine	45.4039367	0.3756199
 division	Nova Scotia	44.879119	-64.020314
@@ -13249,6 +13272,7 @@ division	Sidi Bouzid	34.881181	9.526359847182345
 division	Sidi Kacem	34.226412	-5.711434
 division	Sidi Lahcen	33.7890814	-4.6804442
 division	Sierra Leone	8.6400349	-11.8400269
+division	Siguiri	11.4195265	-9.1751513
 division	Sihanoukville	10.616351	103.512278
 division	Siirt	37.911394	42.115166
 division	Sikkim	27.601029	88.45413638680145
@@ -13468,6 +13492,7 @@ division	Tongeren	50.774275	5.464625
 division	Topolcany	48.5594345	18.1754394
 division	Tottori	35.3555075	133.8678525
 division	Touba	14.856713	-15.87911
+division	Tougue	11.4394566	-11.6629484
 division	Toulouse	43.597198	1.431465
 division	Tournai	50.616724	3.395329
 division	Tournai-Mouscron	50.610622	3.406319
@@ -13524,6 +13549,7 @@ division	Uganda	1.3733	32.2903
 division	Uhlirske Janovice	49.8807582	15.064492
 division	UK	54.234125	-2.078794
 division	Ukraine	49.4871968	31.2718321
+division	Ulyanovsk Oblast	54.1463177	47.2324921
 division	Umbria	42.965916	12.490236
 division	Una-Sana	44.8064912	15.8874438
 division	Unhost	50.08499	14.1318613
@@ -13617,6 +13643,7 @@ division	Vladimir Region	56.0503336	40.6561633
 division	Vogosca	43.901488	18.3433749
 division	Volgograd Region	49.6048339	44.2903582
 division	Vologda	59.218876	39.893276
+division	Vologda Oblast	60.0391461	43.1215213
 division	Volta	6.5348624	0.4556055
 division	Volyn	50.765553049999994	25.34908213724668
 division	Vorarlberg	47.232027	9.897419
@@ -13770,6 +13797,7 @@ country	Brunei	4.5353	114.7277
 country	Bulgaria	42.782450	25.193668
 country	Burkina Faso	12.78998	-1.683734
 country	Burundi	-3.3634357	29.8870575
+country	Cabo Verde	16.0000552	-24.0083947
 country	Cambodia	13.0	105.0
 country	Cameroon	4.6125522	13.1535811
 country	Canada	61.0666922	-107.991707
