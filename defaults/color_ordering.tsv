@@ -2993,6 +2993,7 @@ location	Darnius
 location	Dosrius
 location	El Maresme
 location	El Masnou
+location	El Molinot
 location	El Mujal
 location	El Pont De Suert
 location	El Port de la Selva
@@ -3036,6 +3037,7 @@ location	La Batlloria
 location	La Bisbal d'Empordà
 location	La Cellera de Ter
 location	La Clua
+location	La Floresta
 location	La Fuliola
 location	La Garriga
 location	La Granja d’Escarp
@@ -3054,6 +3056,7 @@ location	Les Borges Blanques
 location	Les Fonts
 location	Les Franqueses del Valles
 location	Les Masies de Voltrega
+location	Les Planes de Sant Cugat
 location	Les Preses
 location	Linyola
 location	Llagostera
@@ -3072,6 +3075,7 @@ location	Macanet de la Selva
 location	Malgrat de Mar
 location	Manlleu
 location	Manresa
+location	Martorell
 location	Martorelles
 location	Masarac
 location	Masquefa
@@ -3252,6 +3256,7 @@ location	Viladrau
 location	Vilafant
 location	Vilalba Sasserra
 location	Vilamalla
+location	Vilanova I la Geltru
 location	Vilanova de Segria
 location	Vilanova de la Barca
 location	Vilanova del Vallés
@@ -12345,6 +12350,7 @@ location	Santa Cruz Balanya
 
 # Escuintla
 location	Escuintla
+location	Santa Lucía Cotzumalguapa
 
 # Santa Rosa
 location	Barberena
@@ -13017,6 +13023,7 @@ location	Harrison County MS
 location	Madison County MS
 location	Oktibbeha County
 location	Pearl River County
+location	Rankin County
 
 # Wisconsin
 location	Adams County WI
@@ -13275,6 +13282,7 @@ location	Winston County
 # Tennessee
 location	Blount County TN
 location	Cumberland County TN
+location	Davidson County TN
 location	Grainger County
 location	Shelby County TN
 
