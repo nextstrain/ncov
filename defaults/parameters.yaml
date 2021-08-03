@@ -23,6 +23,7 @@ sanitize_metadata:
     - "Gender=sex"
     - "Clade=GISAID_clade"
     - "Pango lineage=pango_lineage"
+    - "Lineage=pango_lineage"
     - "Pangolin version=pangolin_version"
     - "Variant=variant"
     - "AA Substitutions=aa_substitutions"
