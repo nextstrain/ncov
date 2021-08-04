@@ -168,6 +168,11 @@ logistic_growth:
   min_frequency: 0.000001
   max_frequency: 0.95
 
+# Cluster-specific settings
+cluster:
+  # Find clusters per division.
+  group_by: division
+
 #
 # Region-specific settings
 #
