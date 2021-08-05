@@ -5,6 +5,7 @@ channels:
   - defaults
 dependencies:
   - augur=12.0.0
+  - epiweeks=2.1.2
   - iqtree=2.1.2
   - mafft=7.475
   - nextalign=0.2.0

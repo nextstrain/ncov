@@ -112,6 +112,11 @@
       "key": "region_exposure",
       "title": "Region of exposure",
       "type": "categorical"
+    },
+    {
+      "key": "epiweek",
+      "title": "Epiweek (CDC)",
+      "type": "continuous"
     }
   ],
   "geo_resolutions": [
@@ -136,7 +141,7 @@
     "division",
     "location",
     "host",
-    "author"
+    "epiweek"
   ],
   "panels": [
     "tree",
