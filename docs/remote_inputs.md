@@ -17,7 +17,7 @@ The open (GenBank) data is publicly available at three endpoints:
 **Our intention is to make GenBank intermediate files open and available for everyone to use, and to keep these files up-to-date.**
 The paths for specific files are the same under each endpoint, e.g. `https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz`, `s3://nextstrain-data/files/ncov/open/metadata.tsv.gz`, and `gs://nextstrain-data/files/ncov/open/metadata.tsv.gz` all exist.
 See below for a list of files that exist.
-If you're running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLS.
+If you're running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLs, respectively, for cheaper (for us) and faster (for you) data transfers.
 Otherwise, please use the https://data.nextstrain.org URLs.
 
 Note that even though the `s3://nextstrain-data/` and `gs://nextstrain-data/` buckets are public, the defaults for most S3 and GS clients require _some_ user to be authenticated, though the specific user/account doesn't matter.
