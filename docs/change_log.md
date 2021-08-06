@@ -6,7 +6,7 @@ We also use this change log to document new features that maintain backward comp
 ## New features since last version update
 
  - 6 August 2021: We've replaced the mechanisms that support remote file inputs (e.g. `s3://` URLs) to improve internal workflow structure, extend support to `gs://`, `http://`, and `https://` URLs, and expand support for compressed inputs.
-   Our [remote file inputs documentation](docs/remote_inputs.md) is updated to reflect the changes.
+   Our [remote file inputs documentation](remote_inputs.md) is updated to reflect the changes.
 
    This change should be backwards compatible and largely transparent to end users.
    The most visible change for anyone using remote file inputs is the local download location of the remote files: instead of being within the `results/` directory, dynamic directories based on the remote URL are now used.
