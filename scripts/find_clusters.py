@@ -60,7 +60,7 @@ if __name__ == "__main__":
             if polytomy.name:
                 writer.writerow({
                     "strain": polytomy.name,
-                    args.attribute_name: clusters,
+                    args.attribute_name: f"cluster_{clusters}",
                     group_by: metadata[polytomy.name][group_by]
                 })
 
@@ -68,7 +68,7 @@ if __name__ == "__main__":
                 if child.is_terminal():
                     writer.writerow({
                         "strain": child.name,
-                        args.attribute_name: clusters,
+                        args.attribute_name: f"cluster_{clusters}",
                         group_by: metadata[child.name][group_by]
                     })
 
