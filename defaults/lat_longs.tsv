@@ -322,6 +322,7 @@ location	Anaz	43.362544	-3.7539036
 location	Anchieta	-20.8057672	-40.6454564
 location	Anchorage	61.203109	-149.888095
 location	Anchorage and Matanuska-Susitna	61.2902	-149.7073
+location	Anchorage Municipality	61.2163129	-149.894852
 location	Ancón	9.065597	-79.613801
 location	Ancona	43.480120400000004	13.218790609151764
 location	Ancud	-41.8682162	-73.8287225
@@ -3031,6 +3032,7 @@ location	Eugenio Espejo	0.2105058	-78.2491045
 location	Eugies	50.3906692	3.8883703
 location	Eupen	50.6292	6.0337
 location	Euvoia	38.49417235	23.91108439913793
+location	Evangeline Parish	30.6976776	-92.4217813
 location	Évelette	50.4135772	5.171436
 location	Even Shmuel	31.8087214	35.1984071
 location	Everberg	50.8778651	4.5695061
@@ -3332,6 +3334,7 @@ location	Gasawy	52.6073677	16.6319272
 location	Gasconade County	38.4575789	-91.5177499
 location	Gasel	46.8996747	7.4034016
 location	Gaspoltshofen	48.1438731	13.7351465
+location	Gaston County	35.2849659	-81.179014
 location	Gatchina	59.5706273	30.1305083
 location	Gatesville	31.4351645	-97.743911
 location	Gaufelden	48.5534259	8.8229748
@@ -5405,6 +5408,7 @@ location	Levoca	49.0251116	20.587999
 location	Levy County	29.3008632	-82.7824592
 location	Lewis and Clark County	47.2117026	-112.4768049
 location	Lewis County	43.7344277	-75.440289
+location	Lewis County MO	40.0902418	-91.7013355
 location	Lewis County NY	43.7344277	-75.440289
 location	Lewis County WA	46.5612011	-122.4225561
 location	Lexington County	33.8986841	-81.275054
@@ -5960,8 +5964,10 @@ location	Maringues	45.9210457	3.328959
 location	Marinilla	6.1781321	-75.30746437196609
 location	Marion County	44.924528	-122.798248
 location	Marion County AL	34.1128132	-87.8544031
+location	Marion County FL	29.2182454	-82.0626948
 location	Marion County IL	38.6477381	-88.9232112
 location	Marion County IN	39.7810289	-86.1365457
+location	Marion County MO	39.8080573	-91.6318781
 location	Marion County OH	40.5885271	-83.1895249
 location	Marion County OR	44.8964425	-122.7203248
 location	Marion County SC	34.0572007	-79.3987578
@@ -6823,6 +6829,7 @@ location	Norderstedt	53.7089898	9.9891914
 location	Norena	43.394016	-5.703602308901823
 location	Norfolk	52.666667	1.0
 location	Norfolk County	42.1538607	-71.1828015
+location	Norfolk VA	36.8462923	-76.2929252
 location	Norg	53.0663002	6.459462
 location	North 24 Parganas	22.722907	88.734582
 location	North and Middle Andaman	12.61123865	92.83165406414926
@@ -7644,6 +7651,7 @@ location	Pogorze	54.557956450000006	18.481311262201153
 location	Pogorzela	51.8224142	17.2310362
 location	Pogwizdow	49.8035035	18.5997983
 location	Pohronsky Ruskov	47.97535465	18.645135718003026
+location	Pointe Coupee Parish	30.6194283	-91.5740887
 location	Poissy	48.927439	2.0428293
 location	Poitiers	46.5802596	0.340196
 location	Pojuca	-12.4260268	-38.3266573
@@ -8052,6 +8060,7 @@ location	Rajpipla	21.8697448	73.5048135
 location	Rajshahi	24.3715513	88.5921038
 location	Rakowe Pole	54.1867471	19.1782759
 location	Rakowo	54.15067	19.20633
+location	Ralls County	39.552012	-91.547611
 location	Ramada	38.80800875	-9.196383669904645
 location	Ramales de la Victoria	43.257411	-3.4646482
 location	Ramallah	31.903646311459497	35.20351496013824
@@ -10401,6 +10410,7 @@ location	Uniao Paulista	-20.8878168	-49.8986804
 location	Uniemysl	53.6264707	14.5041675
 location	Union County	40.6652251	-74.3045277
 location	Union County IL	37.4616454	-89.2504793
+location	Union County NC	34.9795158	-80.5128209
 location	Union County NJ	40.6652251	-74.3045277
 location	Union County OR	45.2680014	-118.0257466
 location	Union County SC	34.6941696	-81.642794
@@ -11468,6 +11478,7 @@ division	Alberta	55.001251	-115.002136
 division	Alborz Province	35.9413239	50.7884216
 division	Alger	36.7753606	3.0601882
 division	Algeria	28.0000272	2.9999825
+division	Algiers	36.70649229138003	3.0544471144244483
 division	Almaty	43.2363924	76.9457275
 division	Altai Krai	52.6932243	82.6931424
 division	Alytaus Apskritis	54.22953895	24.07911990913408
@@ -11691,6 +11702,7 @@ division	Brabant Wallon	50.652853	4.555627
 division	Brahmanbaria	23.96059985	91.11908934668182
 division	Braine-l'Alleud	50.6854	4.3779
 division	Brandenburg	52.8455492	13.2461296
+division	Braničevo District	44.452519699999996	21.527150035837593
 division	Brasov	45.6580	25.6012
 division	Bratislava	48.1486	17.1077
 division	Brazil	-10.3333332	-53.1999999
@@ -12078,6 +12090,7 @@ division	Georgia (Asia)	42.013868	43.575124
 division	Germany	51.1657	10.4515
 division	Gevgelija	41.1388664	22.5033192
 division	Ghana	8.0300284	-1.080027
+division	Ghanzi District	-22.145794	22.7610828
 division	Giannitsa	40.7929908	22.4140645
 division	Gibraltar	36.140807	-5.3541295
 division	Gifu	35.7867449	137.0460777
@@ -12353,6 +12366,7 @@ division	Karelia	62.6194031	33.4920267
 division	Kargil	34.5539	76.1349
 division	Karlovac County	45.2826564	15.4190997
 division	Karlovy Vary	50.2304694	12.8710769
+division	Karnali	29.2989975	82.47499387507119
 division	Karnataka	15.3173	75.7139
 division	Kars Province	40.6076749	43.0948497
 division	Kasane	-17.799239	25.156546
@@ -12427,6 +12441,7 @@ division	Koersel	51.0584	5.2718
 division	Kogi State	7.7949602	6.6868669
 division	Kolárovo	47.9182347	17.9966591
 division	Kolda	12.9493	-14.4723
+division	Kolubara District	44.3276249	19.85822351638606
 division	Komarno	47.7574079	18.1298249
 division	Komárom-Esztergom	47.6511599	18.2551911
 division	Kombo	13.294035	-16.656832
@@ -12585,6 +12600,7 @@ division	Luxembourg BE	49.978352826667525	5.501312530195323
 division	Lviv	49.841952	24.0315921
 division	Maaseik	51.104005	5.714000
 division	Machakos	-1.27900465	37.39526976452546
+division	Madagascar	-18.9249604	46.4416422
 division	Madhya Pradesh	22.9734	78.6569
 division	Madinah	24.5247	39.5692
 division	Madre de Dios	-12.0	-70.25
@@ -13029,6 +13045,7 @@ division	Plzeň Region	49.7477415	13.3775249
 division	Podkarpackie	49.9927121	22.177107
 division	Podlaskie	53.2668455	22.8525787
 division	Podravska	46.4809178	15.745088519392077
+division	Podunavlje District	44.447787453394106	20.99815259869355
 division	Pointe-A-Pitre	16.2408636	-61.5334077
 division	Poland	52.0977181	19.0258159
 division	Polleur	50.580257	5.866744
@@ -13163,6 +13180,7 @@ division	Saarland	49.3841872	6.9537369
 division	Sabac	44.7571535	19.6953972
 division	Sabah	5.4257359	117.0326392
 division	Sabaragamuwa Province	6.8124018	80.33547643025922
+division	Saga	33.2185408	130.1296585
 division	Sagaing	24.4768486	95.47473996361609
 division	Sahy	48.0694559	18.9493378
 division	Saint Barthélemy	17.9036287	-62.811568843006896
@@ -13644,6 +13662,7 @@ division	Virton	49.5605149	5.5196466
 division	Vitebsk Region	55.2381972	28.7742203
 division	Vitez	44.1525	17.7903
 division	Vlaams-Brabant	50.8686516	4.7886237984620905
+division	Vlaanderen	51.096246199999996	4.178629103169916
 division	Vladimir Region	56.0503336	40.6561633
 division	Vogosca	43.901488	18.3433749
 division	Volgograd Region	49.6048339	44.2903582
