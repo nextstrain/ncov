@@ -33,14 +33,14 @@ if __name__ == "__main__":
         if node == tree.root:
             continue
 
-        any_muts = False
         count_by_group = Counter()
         for child in node.clades:
             if child.is_terminal() and child.name:
-                any_muts |= (len(muts["nodes"].get(child.name, {}).get("muts", [])) > 0)
-                count_by_group[metadata[child.name][group_by]] += 1
+                any_muts = (len(muts["nodes"].get(child.name, {}).get("muts", [])) > 0)
+                if not any_muts:
+                    count_by_group[metadata[child.name][group_by]] += 1
 
-        if not any_muts and any(count >= args.min_tips for count in count_by_group.values()):
+        if any(count >= args.min_tips for count in count_by_group.values()):
             polytomies.append(node)
 
     with open(args.output, "w") as oh:
