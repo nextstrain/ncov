@@ -10166,3 +10166,7 @@ Netherlands/Flevoland_1/2020
 
 # s1 mutations
 Slovenia/296829/2021
+
+# Divergence
+EGY/EGY_CCHE57357_A_51/2020
+USA/TX-HMH-MCoV-34879/2020
