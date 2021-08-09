@@ -1,4 +1,5 @@
 ### Wallonia
+### Vlaanderen
 
 ### Antwerpen
 
@@ -3049,7 +3050,7 @@ Jabbeke
 Knokke-Heist
 	Heist
 	Knokke
-	Ramskapelle
+	Ramskapelle (Knokke-Heist)
 	Westkapelle
 Oostkamp
 	Hertsberge
@@ -3327,7 +3328,7 @@ Koksijde
 	Wulpen
 Nieuwpoort
 	Nieuwpoort
-	Ramskapelle
+	Ramskapelle (Nieuwpoort)
 	Sint-Joris (Veurne)
 Veurne
 	Avekapelle

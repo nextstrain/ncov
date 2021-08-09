@@ -276,3 +276,5 @@ Pietrebas	Piétrebais
 Sint-Gensius-Rode	Sint-Genesius-Rode
 Ceusmes	Cuesmes
 Herinnes-Lez-Pecq	Hérinnes
+Flanders	Vlaanderen
+Brussels-Capital Region	Brussels

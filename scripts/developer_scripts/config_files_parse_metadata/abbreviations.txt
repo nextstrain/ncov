@@ -163,3 +163,4 @@ Zacapa	GT
 Castilla y Leon	ES
 Guatemala	GT
 Ile de France	FR
+Coquimbo	CL
