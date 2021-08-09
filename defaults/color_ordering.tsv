@@ -310,6 +310,7 @@ location	Thrissur
 
 # Puducherry
 location	Karaikal
+location	Puducherry
 
 # Tamil Nadu
 location	Ariyalur
@@ -6133,6 +6134,9 @@ location	Wetter
 
 # Niedersachsen
 location	Hannover
+
+# Lower Saxony
+location	Gottingen
 
 # Baden-Wuerttemberg
 location	Albbruck
@@ -15250,6 +15254,7 @@ division	Rheinland-Pfalz
 division	North Rhine Westphalia
 division	Bremen
 division	Niedersachsen
+division	Lower Saxony
 division	Baden-Wuerttemberg
 division	Hesse
 division	Schleswig-Holstein
