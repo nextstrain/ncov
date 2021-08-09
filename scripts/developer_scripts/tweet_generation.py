@@ -73,10 +73,9 @@ def read_metadata(filename, date_g, tweet):
 
             year = date[:4]
             month = date[5:7]
-            day = date[8:10]
 
             # Collect all labs and countries from the specified month
-            if year == year_g and month == month_g and int(day) > 13: # Special only for half of July
+            if year == year_g and month == month_g:
                 new_seqs_count += 1
                 if country not in countries[region]:
                     countries[region].append(country)
@@ -211,7 +210,13 @@ def generate_tweet(new_seqs_count, lab_collection, lab_collection_old, new_count
     if len(new_countries) > 0:
         countries = [country for region in new_countries for country in new_countries[region]]
         countries_links = [links[region] for region in new_countries]
-        tweet.append("We have received our first sequences from " + ", ".join(countries[:-1]) + " and " + countries[-1] + ". Check them out on " + ", ".join(countries_links[:-1]) + " and " + countries_links[-1] + "!")
+        if len(countries) > 1:
+            c = ", ".join(countries[:-1]) + " and " + countries[-1]
+            l = ", ".join(countries_links[:-1]) + " and " + countries_links[-1]
+        else:
+            c = countries[0]
+            l = countries_links[0]
+        tweet.append("We have received our first sequences from " + c + ". Check them out on " + l + "!")
 
     # create simple list of all labs without duplicates
     labs = []
