@@ -336,14 +336,17 @@ location	Ranipet
 location	Salem
 location	Sivagangai
 location	Sivakasi
+location	Tanjore
 location	Tenkasi
 location	Thanjavur
 location	The Nilgiris
 location	Theni
 location	Thiruvallur
+location	Thiruvannamalai
 location	Thiruvarur
 location	Thoothukudi
 location	Tiruchirapalli
+location	Tiruchirappalli
 location	Tirunelveli
 location	Tirupattur
 location	Tiruppur
@@ -362,13 +365,16 @@ location	North Goa
 location	South Goa
 
 # Karnataka
+location	Belgavi
 location	Bengaluru Rural
 location	Bengaluru Urban
 location	Bidar
 location	Chikkaballapura
+location	Dakshina Kannada
 location	Haveri
 location	Kolar
 location	Mangalore
+location	Mysore
 location	Tumakuru
 location	Udupi
 
@@ -847,6 +853,7 @@ location	Kargil
 
 ### Sri Lanka
 # Southern Province
+location	Ahungalla
 location	Karapitiya
 location	Koggala
 
@@ -868,10 +875,13 @@ location	Boralesgamuwa
 location	Dehiwala
 location	Dematagoda
 location	Homagama
+location	Kadawatha
+location	Kaduwela
 location	Kahathuduwa
 location	Kalubowila
 location	Katunayake
 location	Kelaniya
+location	Kesbewa
 location	Kolonnawa
 location	Maharagama
 location	Malabe
@@ -893,6 +903,7 @@ location	Weliweriya
 # Uva Province
 location	Badulla
 location	Mahiyangana
+location	Passara
 
 # Central Province
 location	Bogambara
@@ -916,6 +927,7 @@ location	Polonnaruwa
 # Northern Province
 location	Jaffna
 location	Karainagar
+location	Kayts
 location	Kilinochchi
 location	Mullaitivu
 location	Point Pedro
@@ -6426,14 +6438,20 @@ location	Wolfurt
 # Tyrol
 location	Achenkirch
 location	Aldrans
+location	Baumkirchen
+location	Birgitz
+location	Breitenbach Am Inn
 location	Elbigenalp
 location	Fieberbrunn
+location	Fulpmes
 location	Galtür
 location	Going am Wilden Kaiser
+location	Hall In Tirol
 location	Imst
 location	Innsbruck
 location	Innsbruck-Land
 location	Ischgl
+location	Jenbach
 location	Kappl
 location	Kematen in Tirol
 location	Kirchbichl
@@ -6445,6 +6463,7 @@ location	Kramsach
 location	Kufstein
 location	Laengenfeld
 location	Landeck
+location	Lans
 location	Lienz
 location	Matrei am Brenner
 location	Mayrhofen
@@ -6453,6 +6472,7 @@ location	Pettneu Am Arlberg
 location	Pfunds
 location	Ramsau im Zillertal
 location	Reutte
+location	Schoenwies
 location	Schwaz
 location	See
 location	Seefeld in Tirol
@@ -6465,6 +6485,10 @@ location	Sölden
 location	Söll
 location	Thaur
 location	Tösens
+location	Untermieming
+location	Vomp
+location	Wattens
+location	Woergl
 location	Zams
 
 # Salzburg
@@ -8347,6 +8371,7 @@ location	Lozorno
 location	Malacky
 location	Malinovo
 location	Miloslavov
+location	Nová Dedinka
 location	Pezinok
 location	Plavecký Štvrtok
 location	Rovinka
@@ -8357,6 +8382,7 @@ location	Stupava
 location	Tomasov
 location	Veľké Leváre
 location	Vinosady
+location	Šenkvice
 
 # Trnava
 location	Bojnicky
@@ -8401,6 +8427,7 @@ location	Skalica
 location	Smolenice
 location	Smrdáky
 location	Sobotiste
+location	Sokolovce
 location	Soporna
 location	Tomasikovo
 location	Velke Ulany
@@ -8427,10 +8454,12 @@ location	Drietoma
 location	Dubnica nad Vahom
 location	Handlová
 location	Hornany
+location	Horné Srnie
 location	Hradiste (Trenčín)
 location	Ilava
 location	Kostolna-Zariecie
 location	Lednicke Rovne
+location	Mníchova Lehota
 location	Moravske Lieskove
 location	Mutne Dulov
 location	Myjava
@@ -8465,6 +8494,7 @@ location	Banov
 location	Bardoňovo
 location	Batorove Kosihy
 location	Besenov
+location	Biskupová
 location	Branc
 location	Bruty
 location	Buc
@@ -8490,6 +8520,8 @@ location	Komarno
 location	Komjatice
 location	Komoca
 location	Kovarce
+location	Krusovce
+location	Lehota
 location	Levice
 location	Ludanice
 location	Maly Lapas
@@ -8523,6 +8555,7 @@ location	Svaty Peter
 location	Tesedikovo
 location	Ton
 location	Topolcany
+location	Tovarníky
 location	Travnica
 location	Tvrdosovce
 location	Ulany nad Zitavou
@@ -8726,6 +8759,7 @@ location	Kravany
 location	Kruzlova
 location	Kurimka
 location	Kurov
+location	Kučín, district Bardejov
 location	Lazany
 location	Lenartov
 location	Levoca
@@ -8737,6 +8771,8 @@ location	Lubisa
 location	Malcov
 location	Maskovce
 location	Medzilaborce
+location	Mestisko
+location	Miňovce
 location	Nechvalova Polianka
 location	Nizne Ladickovce
 location	Nizny Hrabovec
@@ -8776,6 +8812,7 @@ location	Stropkov
 location	Svidnik
 location	Svit
 location	Tatranská Štrba
+location	Tisinec
 location	Topolovka
 location	Turany nad Ondavou
 location	Ubla
@@ -8794,6 +8831,7 @@ location	Zubne
 location	Žakovce
 
 # Kosice
+location	Bežovce
 location	Blatné Remety
 location	Borsa
 location	Budkovce
@@ -8823,11 +8861,14 @@ location	Michalovce
 location	Mnisek nad Hnilcom
 location	Orechova
 location	Pavlovce nad Uhom
+location	Plechotice
 location	Plesivec
+location	Pozdišovce
 location	Prakovce
 location	Rankovce
 location	Roznava
 location	Rudník, district Kosice - okolie
+location	Seňa
 location	Silica
 location	Slavec
 location	Slavkovce
@@ -8841,12 +8882,15 @@ location	Turna nad Bodvou
 location	Tusice
 location	Ubrez
 location	Valaliky
+location	Veľké Kapušany
 location	Veľké Revištia
 location	Vinne
 location	Vojnatina
 location	Vrbnica
 location	Vysne Nemecke
+location	Zalužice
 location	Zehra
+location	Zemplínska Teplica
 location	Závadka (Gelnica)
 location	Úbrež
 location	Štítnik
@@ -12162,16 +12206,19 @@ location	Saravena
 location	Amagá
 location	Amalfi
 location	Andes
+location	Anza
 location	Apartado
 location	Argelia
 location	Barbosa
 location	Bello
 location	Bolivar (Antioquia)
+location	Caceres CO
 location	Caldas (Antioquia)
 location	Carepa
 location	Carmen de Viboral
 location	Caucasia
 location	Chigorodo
+location	Cisneros
 location	Copacabana
 location	Dabeiba
 location	Don Matias
@@ -12232,7 +12279,12 @@ location	Cienaga
 location	Santa Marta
 
 # Bolivar CO
+location	Arjona
 location	Cartagena
+location	Cartagena de Indias
+location	San Cristobal CO
+location	San Jacinto
+location	Turbaco
 
 # Atlantico
 location	Barranquilla
@@ -14091,6 +14143,15 @@ division	Gilgit Baltistan
 division	Tajikistan
 
 ### Maldives
+division	Feeali
+division	Himandhoo
+division	Maafushi
+division	Vilimalé
+division	Malé
+division	Mathiveri
+division	Rasdhoo
+division	Himmafushi
+division	Huraa
 division	Maldives
 
 ### Kyrgyzstan
@@ -16194,6 +16255,7 @@ division	Barbados
 
 ### El Salvador
 division	San Salvador
+division	El Salvador
 
 ### Saint Lucia
 division	Saint Lucia
