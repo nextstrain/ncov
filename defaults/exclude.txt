@@ -10173,3 +10173,6 @@ USA/TX-HMH-MCoV-34879/2020
 
 # Divergence
 Canada/QC-1nJWFTV-3642019/2020
+
+# Divergence, https://github.com/nextstrain/ncov/issues/704
+Egypt/NRC-6631/2020
