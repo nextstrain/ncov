@@ -33,6 +33,12 @@ subsampling:
         type: "proximity"
         focus: "region"
 
+# Override default frequency settings, so we can estimate frequencies from older
+# data with a fixed time range.
+frequencies:
+  min_date: 2020-01-01
+  max_date: 2020-05-10
+
 # Set CI-specific growth settings, such that the small tree still gets logistic
 # growth values and we properly test the growth calculations script.
 logistic_growth:
