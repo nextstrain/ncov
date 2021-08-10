@@ -11,6 +11,7 @@ defaults/colors_*.tsv
 stats.json
 
 # Downloaded remote files from sources we expect
+/nextstrain-ncov-private/
 /nextstrain-data/
 /data.nextstrain.org/
 
