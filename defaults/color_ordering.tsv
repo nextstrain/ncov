@@ -408,6 +408,7 @@ location	Hyderabad
 location	Jagital
 location	Jagtial
 location	Jangaon
+location	Jogulamba
 location	Jogulamba Gadwal
 location	Kamareddy
 location	Karimnagar
@@ -440,6 +441,7 @@ location	Vanasthalipuram
 location	Vikarabad
 location	Wanaparthy
 location	Warangal Urban
+location	Yadadri
 location	Yadadri Bhuvanagiri
 
 # Maharashtra
@@ -1339,6 +1341,7 @@ location	Kediri
 location	Lamongan
 location	Malang
 location	Pasuruan
+location	Sampang
 location	Sidoarjo
 location	Surabaya
 location	Tulungagung
@@ -16185,6 +16188,10 @@ division	Guyana
 
 ### Venezuela
 division	Zulia
+division	Tachira
+division	Merida
+division	Lara
+division	Apure
 division	Yaracuy
 division	Carabobo
 division	Los Roques
