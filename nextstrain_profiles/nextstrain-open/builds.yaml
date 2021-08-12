@@ -22,7 +22,7 @@ inputs:
     metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.gz"
     sequences: "s3://nextstrain-data/files/ncov/open/sequences.fasta.xz"
     # aligned: "s3://nextstrain-data/files/ncov/open/aligned.fasta.xz"
-    # masked: "s3://nextstrain-data/files/ncov/open/masked.fasta.fasta.xz"
+    # masked: "s3://nextstrain-data/files/ncov/open/masked.fasta.xz"
     # filtered: "s3://nextstrain-data/files/ncov/open/filtered.fasta.xz"
 
 # Define locations for which builds should be created.
