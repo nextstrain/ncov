@@ -28,12 +28,12 @@ cluster-config: nextstrain_profiles/nextstrain-rhino/cluster.json
 # with this key tells SLURM how to map cluster resources with those defined in
 # the cluster config above.
 default-resources: mem_mb=256
-drmaa: " {cluster.partition} --nodes=1 --ntasks=1 --mem={resources.mem_mb} --cpus-per-task={threads} --time={cluster.time}"
+#drmaa: " {cluster.partition} --nodes=1 --ntasks=1 --mem={resources.mem_mb} --cpus-per-task={threads} --time={cluster.time}"
 
 # NOTE: Use the settings from the next block if DRMAA is not an option.
 # Use a custom script to evaluate the status of jobs on the cluster. This
 # prevents jobs from dying silently and not being caught by Snakemake.
-#cluster: "sbatch {cluster.partition} --nodes=1 --ntasks=1 --mem={cluster.memory} --cpus-per-task={cluster.cores} --tmp={cluster.disk} --time={cluster.time}"
+cluster: "sbatch {cluster.partition} --nodes=1 --ntasks=1 --mem={resources.mem_mb} --cpus-per-task={threads} --time={cluster.time}"
 #cluster-status: "slurm-status.py"
 
 # Wait a fixed number of seconds for missing files since the cluster file system
