@@ -146,6 +146,10 @@ If you need to download more records, constrain your search results to smaller w
 </p>
 
 Select the "Download" button in the bottom right of the search results.
+There are two options to download data from GISAID, both of which we describe below.
+
+#### Option 1: Download "Input for the Augur pipeline"
+
 From the resulting "Download" window, select "Input for the Augur pipeline" as the download format.
 
 ![GISAID search download window showing "Input for the Augur pipeline" option](images/gisaid-search-download-window.png)
@@ -191,6 +195,31 @@ inputs:
     # from GISAID.
     metadata: data/gisaid_washington_metadata.tsv.xz
     sequences: data/gisaid_washington_sequences.fasta.xz
+```
+
+#### Option 2: Download "Sequences" and "Patient status metadata"
+
+Alternately, you can download sequences and metadata as two separate uncompressed files.
+First, select "Sequences (FASTA)" as the download format.
+Check the box for replacing spaces with underscores.
+Select the "Download" button and save the resulting file to the `data/` directory with a descriptive name like `gisaid_washington_sequences.fasta`.
+
+![GISAID search download window showing "Sequences (FASTA)" option](images/gisaid-search-download-window-sequences.png)
+
+From the search results interface, select the "Download" button in the bottom right again.
+Select "Patient status metadata" as the download format.
+Select the "Download" button and save the file to `data/` with a descriptive name like `gisaid_washington_metadata.tsv`.
+
+![GISAID search download window showing "Patient status metadata" option](images/gisaid-search-download-window-metadata.png)
+
+You can use these files as inputs for the workflow like so.
+
+```yaml
+# Define inputs for the workflow.
+inputs:
+  - name: washington
+    metadata: data/gisaid_washington_metadata.tsv
+    sequences: data/gisaid_washington_sequences.fasta
 ```
 
 ### Download contextual data for your region of interest

@@ -259,9 +259,9 @@ if __name__ == '__main__':
             )
         )
 
-    # Remove whitespaces from strain names since they are not allowed in FASTA
-    # record names.
-    metadata[strain_field] = metadata[strain_field].str.replace(" ", "")
+    # Replace whitespaces from strain names with underscores to match GISAID's
+    # convention since whitespaces are not allowed in FASTA record names.
+    metadata[strain_field] = metadata[strain_field].str.replace(" ", "_")
 
     # Check for duplicates and try to resolve these by default.
     try:
