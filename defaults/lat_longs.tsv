@@ -2006,6 +2006,8 @@ location	Chhota Udaipur	22.3048651	74.0126114
 location	Chia	4.8704614500000005	-74.03632158198437
 location	Chicago	41.858966	-87.637242
 location	Chickasaw County	43.05994	-92.316679
+location	Chickasaw County IA	43.05994	-92.316679
+location	Chickasaw County MS	33.9137474	-88.9357382
 location	Chiclana de la Frontera	36.407163	-6.153590
 location	Chiclayo	-6.766417	-79.8408308
 location	Chicoana	-25.16839555	-65.57358375138564
@@ -2139,6 +2141,7 @@ location	Clavijo	42.3494671	-2.4262521
 location	Clay County	33.2423393	-85.819651
 location	Clay County AL	33.2423393	-85.819651
 location	Clay County IL	38.7340694	-88.4910693
+location	Clay County MS	33.6393012	-88.7957063
 location	Clayton AU	-37.9173212	145.1304242
 location	Clayton County	42.8547706	-91.3667151
 location	Clayton PA	9.01106725	-79.57271645992734
@@ -2184,6 +2187,7 @@ location	Colle d'Anchise	41.506325	14.516827
 location	College Station	30.5955289	-96.3071042
 location	Colleton County	32.8620726	-80.677114
 location	Colletorto	41.6629186	14.9733645
+location	Collier County	26.087964	-81.3794941
 location	Collin County	33.1609629	-96.6060984
 location	Collingsworth County	34.9487017	-100.2669137
 location	Collipulli	-37.9566312	-72.4374375
@@ -2263,6 +2267,7 @@ location	Coos County	43.2184144	-124.109621
 location	Coosa County	32.9181762	-86.2327497
 location	Copacabana	6.3600462	-75.49786997389143
 location	Copenhagen	55.6867243	12.5700724
+location	Copiah County	31.8563532	-90.4798717
 location	Copiapo	-27.372842	-70.320323
 location	Copperas Cove	31.124062	-97.9030785
 location	Coquelles	50.9280223	1.8144759
@@ -2414,6 +2419,7 @@ location	Curua	-1.887754	-55.116842
 location	Curuca	-0.7276792	-47.856568
 location	Curundú	8.979600699999999	-79.53767981960621
 location	Cusset	46.1324239	3.4602736
+location	Custer County	46.2426088	-105.5692958
 location	Cutias	0.9708625	-50.8000608
 location	Cutral Co	-38.9350862	-69.23884548141301
 location	Cutris	10.693809900000002	-84.32793748889281
@@ -2575,6 +2581,7 @@ location	Desamparados	9.895826	-84.062458
 location	Descalvado	-21.9090404	-47.6203241
 location	Deschutes County	43.8194838	-121.1669662
 location	Desertines	46.3556648	2.6157229
+location	DeSoto County MS	34.8702932	-89.9778704
 location	DeSoto Parish	32.071362	-93.725530
 location	Dessel	51.2395713	5.113243
 location	Desselgem	50.8866327	3.3497336
@@ -3737,6 +3744,7 @@ location	Gunskirchen	48.1334587	13.9427447
 location	Guntramsdorf	48.04717635	16.32019634126145
 location	Guntur	16.2915189	80.4541588
 location	Gunzwil	47.2116702	8.1800549
+location	Gurabo County	18.2555647	-65.9723799
 location	Guriezo	43.33683555	-3.324953504422364
 location	Gurugram	28.4646148	77.0299194
 location	Gurupi	-11.72794	-49.068046
@@ -3793,6 +3801,7 @@ location	Hanau	50.1335542	8.9168179
 location	Hancock County	40.3941712	-91.1458063
 location	Hancock County IL	40.3941712	-91.1458063
 location	Hancock County ME	44.7135397	-68.2994753
+location	Hancock County MS	30.3892456	-89.4782116
 location	Handlová	48.7314317	18.7626944
 location	Hangzhou	30.272732	120.154501
 location	Hanna	51.7183255	23.5037805
@@ -3931,6 +3940,7 @@ location	Hever	50.9925865	4.5553278
 location	Heverlee	50.861704	4.695889
 location	Hewitt	31.4623902	-97.1958377
 location	Hidalgo County	26.3530256	-98.216445
+location	Hidalgo County TX	26.3530256	-98.216445
 location	Highlands	-20.281674	57.521123
 location	Hill County	31.993848238478744	-97.15210246163512
 location	Hill County MT	48.6655784	-110.2107103
@@ -4325,6 +4335,7 @@ location	Jaci	-20.8844434	-49.5710544
 location	Jackson County AL	34.7692447	-85.9867941
 location	Jackson County IA	42.195909	-90.570525
 location	Jackson County IL	37.7668943	-89.3563845
+location	Jackson County MS	30.4899024	-88.6486325
 location	Jackson County OR	42.398015	-122.7540948
 location	Jackson County TX	28.9224028	-96.55561
 location	Jackson County WI	44.312857	-90.780626
@@ -4402,6 +4413,7 @@ location	Jasienin Maly	51.8156695	19.9418137
 location	Jasova	47.9866478	18.3984991
 location	Jasper County	30.7485258	-94.000884
 location	Jasper County IL	39.0082423	-88.1552371
+location	Jasper County IN	41.0321808	-87.1066598
 location	Jasper County SC	32.4048602	-81.0414726
 location	Jasper County TX	30.7485258	-94.000884
 location	Jastrzebie-Zdroj	49.96067945	18.599367592200732
@@ -4810,6 +4822,7 @@ location	Kleinvlei	-33.98849192171085	18.71260483036835
 location	Klenčí	49.4348	12.8147
 location	Klenovec	48.5971614	19.8902514
 location	Klickitat County	45.8767731	-120.7976033
+location	Klickitat County WA	45.8767731	-120.7976033
 location	Klin	49.4350714	19.4971363
 location	Klipfontein	-32.0027832	18.5072125
 location	Klizska Nema	47.7513765	17.8190874
@@ -5157,6 +5170,7 @@ location	Ladario	-19.0036585	-57.6028285
 location	Ladeuze	50.563047	3.768438
 location	Laengenfeld	47.073729	10.969964
 location	Lafayette County	42.662913	-90.134986
+location	Lafayette County MS	34.3519035	-89.4664677
 location	Lafayette County WI	42.6632391	-90.1317754
 location	Lafayette Parish	30.2141462	-92.0710624
 location	Lafeuillade en Vezie	44.7893536	2.4594014
@@ -5302,6 +5316,7 @@ location	Lavras do Sul	-30.8118057	-53.8982856
 location	Lawrence County	34.4776367	-87.3017331
 location	Lawrence County AL	34.4776367	-87.3017331
 location	Lawrence County IL	38.7108998	-87.7194375
+location	Lawrence County PA	41.001415	-80.350071
 location	Laxmipur Sadar	22.9428644	90.9181638
 location	Laxou	48.6848709	6.1522232
 location	Layyah	30.964868	70.9455995
@@ -5488,6 +5503,7 @@ location	Limon	9.9951608	-83.0303724
 location	Limpio	-25.1736487	-57.4780665
 location	Linares	-35.8452905	-71.5977173
 location	Lincoln County	45.3265631	-89.7326216
+location	Lincoln County MT	48.5891095	-115.4911526
 location	Lincoln County NM	33.7525727	-105.4158806
 location	Lincoln County OR	44.6201742	-123.9276915
 location	Lincoln County WA	47.5664588	-118.3588615
@@ -5657,6 +5673,7 @@ location	Lourinha	39.246033100000005	-9.271338790806393
 location	Lousame	42.7655657	-8.8489519
 location	Lovendegem	51.100478	3.624891
 location	Lowndes County	32.1088066	-86.6402541
+location	Lowndes County MS	33.4466925	-88.4108384
 location	Lozin	48.6608699	21.8365915
 location	Lozorno	48.3346371	17.0444471
 location	Łąka Prudnicka	50.31122	17.52841
@@ -7220,6 +7237,7 @@ location	Pacajus	-4.171073	-38.464988
 location	Pacaraima	4.4791253	-61.1471016
 location	Pacho	5.135952	-74.156902
 location	Pacific County	46.5334929	-123.768029
+location	Pacific County WA	46.5334929	-123.768029
 location	Paco	14.5793612	120.9950209
 location	Paco do Lumiar	-2.5325902	-44.1591104
 location	Pacora	9.0827803	-79.288579
@@ -7722,6 +7740,7 @@ location	Popławy	52.7292735	22.8560017
 location	Popowko	52.63039	16.67122
 location	Poppel	51.445671	5.042493
 location	Poprad	49.0541521	20.2976401
+location	Poptun	16.32120005	-89.56145465494458
 location	Porciuncula	-20.9627278	-42.0405703
 location	Pordenone	45.9562503	12.6597197
 location	Pordic	48.56955725	-2.8189686278528208
@@ -8703,6 +8722,7 @@ location	San Francisco CR	9.9950234	-84.1279718
 location	San Francisco de Dos Rios	9.9084178	-84.0594842
 location	San Francisco de Mostazal	-33.9799035	-70.7121737
 location	San Francisco PA	8.990150	-79.506474
+location	San Germán County	18.0808972	-67.0408635
 location	San Guillermo	-33.350998	-61.4428099
 location	San Ignacio	-36.437888	-71.9154445
 location	San Isidro	9.8303018	-83.9536131
@@ -8743,6 +8763,7 @@ location	San Justo	-30.7890512	-60.5930565
 location	San Lorenzo	-32.7434258	-60.7496742
 location	San Lorenzo AR	-32.74528101079663	-60.742480547054136
 location	San Lorenzo County	18.1524948	-65.97563436136883
+location	San Lorenzo GT	15.01794045	-91.74565153007444
 location	San Lorenzo PY	-25.35467544347727	-57.5093107016072
 location	San Luis Obispo County	35.3102	-120.4358
 location	San Luis Rio Colorado	31.9939146	-114.29077314185326
@@ -9323,6 +9344,7 @@ location	Shariatpur	23.2132841	90.3481247
 location	Shariatpur Sadar Upazila	23.21955261848975	90.31721072972182
 location	Shasta County	40.7965121	-121.9979194
 location	Shawano County	44.7817214	-88.7118868
+location	Shawnee County	39.0273676	-95.7627535
 location	Shaymoli	23.7763809	90.3638875
 location	Sheboygan County	43.7128967	-87.9370433
 location	Shelby County	33.2503347	-86.6639746
@@ -10296,6 +10318,7 @@ location	Trondheim	63.4305658	10.3951929
 location	Troyes	48.2971626	4.0746257
 location	Trstena	49.3593197	19.6078094
 location	Trujillo	4.212089	-76.319157
+location	Trujillo Alto	18.33707575	-66.00174210279962
 location	Trujillo CO	4.2336249	-76.33654405213005
 location	Trujillo ES	39.3370725	-5.4872328
 location	Trumbull	41.247238	-73.194570
@@ -10939,6 +10962,7 @@ location	Wasen Im Emmental	47.0429032	7.7944281
 location	Washburn County	45.8926321	-91.7971652
 location	Washim	20.28792095	77.23606281061035
 location	Washington County IL	38.3662806	-89.4201902
+location	Washington County MS	33.2626706	-90.9183546
 location	Washington County NY	43.303560	-73.428260
 location	Washington County OR	45.544427	-123.010435
 location	Washington County RI	41.46361564311959	-71.64806019561742
@@ -11179,6 +11203,7 @@ location	Wommersom	50.8130597	5.0173851
 location	Wondelgem	51.0885639	3.7132822
 location	Wonfurt	50.0115757	10.4662369
 location	Wood County	44.4517617	-90.0199618
+location	Wood County OH	41.2776661	-83.6643025
 location	Wood County TX	32.7577475	-95.3812941
 location	Wood County WI	44.4517617	-90.0199618
 location	Wood Village	45.5351189	-122.4212226
@@ -11529,6 +11554,7 @@ division	Antofagasta	-23.6509	-70.3975
 division	Antwerpen	51.225698	4.420885
 division	Aomori	40.886943	140.590121
 division	Appenzell Ausserrhoden	47.3960076	9.3705839
+division	Appenzell Innerrhoden	47.3007262	9.3991527
 division	Apulia	40.7928	17.1012
 division	Apure	7.166667	-68.833333
 division	Apurimac	-14.0	-73.0
@@ -12820,6 +12846,9 @@ division	Nagano	36.1143945	138.0319015
 division	Nagasaki	32.796447	129.818142
 division	Nairobi	-1.3031689499999999	36.826061224105075
 division	Nakhon Nayok	14.1494474	101.2177459
+division	Nakhon Pathom	13.8918425	100.0165659
+division	Nakhon Ratchasima	15.2241917	101.9313754
+division	Nakhon Sawan	15.7054772	99.9288481
 division	Nakhonnayok	14.180467	101.096533
 division	Nakuru	-0.2802724	36.0712048
 division	Nam Dinh	20.2712241	106.1629895
@@ -13049,6 +13078,7 @@ division	Peru	-10	-75.25
 division	Peshawar	34.0123846	71.5787458
 division	Pest County	47.3715943	19.3452624
 division	Petah Tikva	32.0840	34.8878
+division	Peten	16.9	-89.9
 division	Pezinok	48.2854539	17.270194
 division	Phetchabun	16.4165039	101.1595234
 division	Phetchaburi	13.0692869	99.6044376
