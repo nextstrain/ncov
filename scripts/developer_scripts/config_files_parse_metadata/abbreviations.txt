@@ -164,3 +164,7 @@ Castilla y Leon	ES
 Guatemala	GT
 Ile de France	FR
 Coquimbo	CL
+San Marcos	GT
+Trnava	SK
+South Moravian Region	CZ
+Mato Grosso	BR
