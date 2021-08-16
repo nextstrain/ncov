@@ -168,3 +168,6 @@ San Marcos	GT
 Trnava	SK
 South Moravian Region	CZ
 Mato Grosso	BR
+Magdalena	CO
+Chaco	AR
+Paraná	BR
