@@ -915,6 +915,7 @@ location	Benešov	49.7818921	14.6869121
 location	Benetusser	39.4228928	-0.3974783
 location	Benevento	41.247642600000006	14.705466481850998
 location	Benevides	-1.3555577	-48.252235
+location	Benewah County	47.2162961	-116.6654616
 location	Benfica	-8.944328	13.1639942
 location	Bengaluru Urban	12.94514225	77.55364499971128
 location	Benguela	-8.8120807	13.2532494
@@ -1174,6 +1175,7 @@ location	Boleraz	48.4645308	17.4927358
 location	Bolesławice	54.44729	16.95203
 location	Bolesov	48.9854933	18.1565106
 location	Bolivar (Antioquia)	5.850170374360093	-76.02236228267127
+location	Bolivar County	33.7702263	-90.8519798
 location	Bolkow	50.9219695	16.1006519
 location	Bollene	44.2803882	4.7484092
 location	Bolligen	46.9755611	7.4983298
@@ -1348,6 +1350,7 @@ location	Brisbane	-27.484246	153.026118
 location	Brislach	47.4181317	7.5433687
 location	Bristol	41.6718	-72.9493
 location	Bristol County	41.7425538	-71.0856545
+location	Bristol County MA	41.7425538	-71.0856545
 location	Britania	-15.2427599	-51.1602061
 location	Brives Charensac	45.0474	3.92197
 location	Brixen	46.7165491	11.657851
@@ -2155,6 +2158,7 @@ location	Clinton County NY	44.7278943	-73.6686982
 location	Cluses	46.0603171	6.5804218
 location	Cmielow	50.8918364	21.5100875
 location	Cminsk	50.9844445	20.5405892
+location	Coahoma County	34.1931314	-90.5653906
 location	Coamo County	18.0807012	-66.3565542
 location	Coatepeque	14.7026327	-91.8656361
 location	Cobb	33.9373948	-84.5732006
@@ -3776,6 +3780,7 @@ location	Halfweg	52.3826063	4.7546903
 location	Halhul	31.5775471	35.0993156
 location	Halic	48.3542823	19.5742231
 location	Halinow	52.3581586	19.4706484
+location	Hall County	34.5036637	-100.6536777
 location	Hallaar	51.0845683	4.7294097
 location	Halle	50.723860	4.235891
 location	Hallein	47.6821521	13.0956313
@@ -3887,6 +3892,7 @@ location	Hemiksem	51.143514	4.339896
 location	Hencovce	48.8718203	21.7294565
 location	Hendaye	43.3641518	-1.7616499
 location	Henderson County IL	40.8156124	-90.9104547
+location	Hendricks County	39.7565309	-86.5173641
 location	Hengelo	52.2523195	6.795525590808008
 location	Henin-Beaumont	50.4194308	2.9469926
 location	Hennebont	47.8057224	-3.2751147
@@ -3948,6 +3954,8 @@ location	Hill County TX	31.9595085	-97.0881654
 location	Hillegom	52.29482605	4.572971256401671
 location	Hillpoint	43.423267	-90.113371
 location	Hillsborough County	42.9373379	-71.751376
+location	Hillsborough County FL	27.9184543	-82.3488057
+location	Hillsborough County NH	42.9373379	-71.751376
 location	Hilversum	52.23158695	5.173493602392345
 location	Himatnagar	23.5969	72.9630
 location	Himmelried	47.4212297	7.5980409
@@ -3989,6 +3997,7 @@ location	Holíč	48.808256	17.1628162
 location	Holice	47.9916159	17.4809847
 location	Hollabrunn	48.54884285	16.071909806521816
 location	Hollebeke	50.8056486	2.9383694
+location	Holmes County MS	33.1018124	-90.0656168
 location	Holon	32.0193121	34.7804076
 location	Holsbeek	50.9211	4.757
 location	Holy Cross	43.469964	-87.900967
@@ -4414,6 +4423,7 @@ location	Jasova	47.9866478	18.3984991
 location	Jasper County	30.7485258	-94.000884
 location	Jasper County IL	39.0082423	-88.1552371
 location	Jasper County IN	41.0321808	-87.1066598
+location	Jasper County MO	37.176515	-94.3103412
 location	Jasper County SC	32.4048602	-81.0414726
 location	Jasper County TX	30.7485258	-94.000884
 location	Jastrzebie-Zdroj	49.96067945	18.599367592200732
@@ -4433,6 +4443,7 @@ location	Jefferson County CO	39.5699803	-105.2561919
 location	Jefferson County ID	43.8010248	-112.3498022
 location	Jefferson County IL	38.3010487	-88.9344303
 location	Jefferson County IN	38.8166724	-85.4299489
+location	Jefferson County KY	38.1787175	-85.664528
 location	Jefferson County MT	46.1850019	-112.1388102
 location	Jefferson County NY	44.095507	-75.890072
 location	Jefferson County OH	40.3792938	-80.7847619
@@ -5297,6 +5308,7 @@ location	Lasne	50.679575	4.463992
 location	Lassen County	40.7685579	-120.730998
 location	Lastenia	-26.866667	-65.15
 location	Latacunga	-0.931685	-78.605732
+location	Latah County	46.8171611	-116.693441
 location	Latchorzew	52.2456507	20.8581513
 location	Latur	18.35146855	76.7551212230513
 location	Lauderdale County	34.9049555	-87.6747398
@@ -6021,6 +6033,7 @@ location	Marshall	43.167355	-89.066568
 location	Marshall County	34.3396046	-86.3301801
 location	Marshall County AL	34.3396046	-86.3301801
 location	Marshall County IL	41.0324537	-89.2998456
+location	Marshall County MS	34.7329208	-89.4725635
 location	Marszowice	50.1811429	20.0936447
 location	Mart	31.5423911	-96.8336015
 location	Martigues	43.4057279	5.0548176
@@ -6086,6 +6099,7 @@ location	Maxent	47.9823348	-2.0331515
 location	Maxeville	48.7119046	6.1641314
 location	Máximo Paz	-34.9370091	-58.6192087
 location	Maxixe	-23.86996285	35.310326824828735
+location	Mayaguez	18.2011161	-67.1391124
 location	Mayenne	48.1507819	-0.6491273812007092
 location	Maykop	44.6062079	40.104053
 location	Mayrhofen	47.163296	11.862115
@@ -6743,6 +6757,7 @@ location	Neringa	55.3064493	20.9963702
 location	Nerja	36.7468565	-3.8790164
 location	Neschers	45.5889848	3.1635232
 location	Neschwil	47.4295716	8.7879574
+location	Neshoba County	32.7237573	-89.103199
 location	Neslusa	49.3100483	18.7486916
 location	Nesslau	47.21436275	9.187116980739692
 location	Nesvady	47.9285197	18.1285528
@@ -7379,6 +7394,7 @@ location	Partizanske	48.6264092	18.3730067
 location	Pasay City	14.5436995	120.9946503
 location	Paschim Bardhaman	23.64260775	87.16448126068323
 location	Paschim Medinipur	22.3599134	87.41331447600871
+location	Pasco County	28.2996183	-82.4522702
 location	Paslek	54.0626346	19.6565365
 location	Paslieres	45.9314279	3.4962468
 location	Passa E Fica	-6.4356697	-35.6434459
@@ -7563,6 +7579,7 @@ location	Pignols	45.6447255	3.283029
 location	Pike County	31.7615793	-85.9259465
 location	Pike County AL	31.7615793	-85.9259465
 location	Pike County IL	39.6108707	-90.8538306
+location	Pike County MS	31.1712493	-90.4093394
 location	Pike County PA	41.340546	-75.008326
 location	Pikine	14.751544	-17.396413
 location	Pikkolovo	59.699724818705235	30.137854541905703
@@ -7878,6 +7895,7 @@ location	Prospect	41.5023	-72.9787
 location	Prostějov	49.4724	17.1068
 location	Proszowice	50.1926479	20.2917555
 location	Provence	43.66473079064977	6.155280148468886
+location	Providence County	41.8677428	-71.5814834
 location	Providencia	-33.4288379	-70.61133725589745
 location	Provins	48.5602959	3.2988089
 location	Pruchna	49.8662823	18.6835263
@@ -10148,6 +10166,7 @@ location	Timoradza	48.8110952	18.2362612
 location	Tineo	43.309275299999996	-6.491952249131376
 location	Tinteniac	48.32761014747541	-1.8361087310980118
 location	Tioga County	42.1333395	-76.3309339
+location	Tippah County	34.7296814	-88.9119403
 location	Tippecanoe County	40.3916066	-86.8879689
 location	Tira	32.2346856	34.9544553
 location	Tiradentes	-27.8310956	-53.7776845
@@ -10648,6 +10667,7 @@ location	Vere	-25.8812309	-52.9081757
 location	Verkhny Tagil	57.3748048	59.9320354
 location	Verkhnyaya Pyshma	56.9724682	60.5738926
 location	Vermilion County	40.1749809	-87.7323857
+location	Vermilion Parish	29.8411106	-92.3501175
 location	Vermillion County	39.8763626	-87.4635672
 location	Vern sur Seiche	48.0452053	-1.6045972
 location	Verneix	46.3974	2.67254
@@ -10927,6 +10947,7 @@ location	Wallis	-13.2846405	-176.20665679493294
 location	Wallisellen	47.4166195	8.5919985
 location	Wallowa County	45.5582608	-117.1990173
 location	Walshoutem	50.7208713	5.0883752
+location	Walthall County	31.1241919	-90.1197687
 location	Walton	32.360678225278846	-95.84836813156247
 location	Walton County	30.6204939	-86.1912678
 location	Walton County FL	30.6204939	-86.1912678
@@ -11211,6 +11232,7 @@ location	Woodbridge	41.357409	-73.009510
 location	Woodbury County	42.3775361	-96.0607187
 location	Woodford County IL	40.8145359	-89.2074215
 location	Worcester County	42.3705781	-71.8677242
+location	Worcester County MA	42.3705781	-71.8677242
 location	Wormer	52.4983303	4.8122972
 location	Wortegem-Petegem	50.8485315	3.5375547
 location	Wortel	51.397672	4.7951262
@@ -11515,6 +11537,7 @@ division	Alabama	32.3182	-86.9023
 division	Alagoas	-9.74863	-36.417626
 division	Alajuela	10.020137	-84.210339
 division	Alaska	65.797699	-152.214189
+division	Alba	46.015921250000005	23.54685524706489
 division	Albania	41.000028	19.9999619
 division	Alberta	55.001251	-115.002136
 division	Alborz Province	35.9413239	50.7884216
@@ -11612,6 +11635,7 @@ division	Azerbaijan	40.3936294	47.7872508
 division	Azuay	-3.0524451	-79.2395135
 division	Bac Giang	21.3092863	106.6165128
 division	Bac Ninh	21.1212051	106.0880245
+division	Bacau	46.42613415	26.71205400126924
 division	Bács-Kiskun County	46.551745	19.374218
 division	Baden-Wuerttemberg	48.712618	9.13403
 division	Bafoussam	5.4758083	10.4215565
@@ -11875,6 +11899,7 @@ division	Chelyabinsk	54.4319	60.8789
 division	Cherkasy	49.1460165	31.2271744
 division	Chernivtsi	48.2633717	25.9504602
 division	Chhattisgarh	21.6637359	81.8406351
+division	Chiang Mai	18.7882778	98.9868056
 division	Chiang Rai	19.7589517	99.6734592
 division	Chiapas	16.520858	-92.643133
 division	Chiayi City	23.4811089	120.4535412
@@ -12186,6 +12211,7 @@ division	Guangdong	23.615762	114.483257
 division	Guangxi	23.717754	108.701872
 division	Guardav	40.5308	-7.2221
 division	Guatemala	15.6356088	-89.8988087
+division	Guaviare	1.6894444	-72.8202864
 division	Guayas	-1.9575	-79.9193
 division	Gueckedou	8.561649	-10.132821
 division	Guerrero	17.463444	-99.792052
@@ -12224,6 +12250,7 @@ division	Haryana	29.0588	76.0856
 division	Haskovo	41.7637519	25.925984569140283
 division	Hasselt	50.925347	5.311394
 division	Haut-Katanga	-10.457682	27.690512
+division	Haut-Ogooue	-1.638962	13.5895258
 division	Haut-Uélé	2.7936527	27.6435943
 division	Haute Matsiatra	-21.44975755	47.08703075
 division	Hauts-Bassins	11.389027500000001	-4.041364986476256
@@ -12734,6 +12761,7 @@ division	Mbour	14.427132	-16.966574
 division	Meath	53.649784350000004	-6.588529492009938
 division	Mechelen	51.033475	4.444398
 division	Mecklenburg-Vorpommern	53.7735064	12.5755471
+division	Medea	36.265344	2.766957
 division	Medenine	33.3434395	10.4910529
 division	Medimurje County	46.4232963	16.4661353
 division	Medvedja	42.842459	21.5847305
@@ -13490,6 +13518,7 @@ division	Sumatera Selatan	-3.1266842	104.0930554
 division	Sumatera Utara	2.1923519	99.3812201
 division	Sumy	50.9070007	34.798386
 division	Surany	48.0861055	18.1868344
+division	Surat Thani	9.4674663	98.830042
 division	Suriname	4.1413025	-56.0771187
 division	Sverdlovsk	59.0077	61.9316
 division	Sveti Nikole	41.8647339	21.9420506
