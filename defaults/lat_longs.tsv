@@ -11790,6 +11790,7 @@ division	Bryansk	52.8873315	33.415853
 division	Bryansk Oblast	52.8873315	33.415853
 division	Bucharest	44.4268	26.1025
 division	Budapest	47.482728	19.084269
+division	Bueng Kan	18.3658615	103.6511582
 division	Buenos Aires	-34.6037	-58.3816
 division	Bukhara Region	40.229366	63.5470584
 division	Bulgaria	42.6073975	25.4856617
@@ -11797,6 +11798,7 @@ division	Bungoma	0.78292445	34.71916810731902
 division	Buraimi	24.268575	55.826808
 division	Burgas	42.446600000000004	27.20620689265119
 division	Burgenland	47.517438	16.468160
+division	Buriram	14.9955693	103.1079187
 division	Burkina Faso	12.789980	-1.683734
 division	Bursa	40.1827657	29.0677305
 division	Burundi	-3.3634357	29.8870575
@@ -11886,6 +11888,8 @@ division	Cesar	9.654915	-73.528255
 division	Ceuta	35.888361	-5.304138
 division	Chaco	-26.3829647	-60.8816092
 division	Chad	15.6134137	19.0156172
+division	Chai Nat	15.1853305	100.1250568
+division	Chaiyaphum	16.2720349	101.7153824
 division	Chalkidiki	40.28948215	23.409392443373925
 division	Chandigarh	30.7334421	76.7797143
 division	Changhua County	24.0755667	120.5444667
@@ -12112,6 +12116,7 @@ division	Fejer	47.0939434	18.6088562
 division	Fergana Region	40.5	71.25
 division	Ferizaj	42.3682168	21.1532848
 division	Ferkessedougou	9.5939778	-5.1975952
+division	Fiji	-18.1239696	179.0122737
 division	Finland	61.751734	26.186437
 division	Flacq	-20.221731249999998	57.72234951618523
 division	Flanders	51.096246199999996	4.178629103169916
@@ -12417,6 +12422,7 @@ division	Kaisiadorys	54.8602337	24.4544785
 division	Kajiado	-2.12171705	36.78625503675998
 division	Kakamega	0.4957104	34.801548861634615
 division	Kakanj	44.1280	18.1178
+division	Kalasin	16.4320082	103.506929
 division	Kalimantan Selatan	-2.9285686	115.3700718
 division	Kalinga	17.46	121.31
 division	Kaliningrad Region	54.7293041	21.1489473
@@ -12429,6 +12435,7 @@ division	Kamchatka Krai	57.1914882	160.0383819
 division	Kamenicna	47.8162871	18.0426149
 division	Kamnik	46.2257358	14.6118936
 division	Kampala	0.3177137	32.5813539
+division	Kamphaengphet	16.4183581	99.6111616
 division	Kanagawa	35.403801	139.294288
 division	Kandy	7.2930922	80.6350768
 division	Kano State	11.8948389	8.5364136
@@ -12542,6 +12549,7 @@ division	Kostanay Region	52.0615626	62.9372689
 division	Kostoliste	48.4467	16.9868
 division	Kostroma Region	58.37795228570701	43.268817529168906
 division	Kozani	40.3007259	21.7883119
+division	Krabi	8.1111653	99.1097298
 division	Kragujevac	44.0125745	20.91877
 division	Kraljevo	43.7238	20.6873
 division	Kralovehradecky Region	50.40939265	15.68500539430977
@@ -12598,6 +12606,7 @@ division	Lalitpur	27.6676649	85.3183888179628
 division	Lambarene	-0.695844	10.2215963
 division	Lambayeque	-6.707066	-79.907239
 division	Lamentin	16.2703423	-61.6303025
+division	Lamphun	18.2661422	98.96749
 division	Lampung	-4.8555039	105.0272986
 division	Lamu	-2.2675396	40.9010641
 division	Lanao del Norte	7.963911700000001	123.90410957888747
@@ -12696,6 +12705,7 @@ division	Magadan	59.5604768	150.7988617
 division	Magallanes	-53.3527518	-71.5547782
 division	Magdalena	10.258546	-74.366995
 division	Maglaj	44.5455	18.1034
+division	Maha Sarakham	16.1861887	103.2955401
 division	Maharashtra	19.7515	75.7139
 division	Maiduguri	11.8395375	13.1536214
 division	Maine	45.709097	-68.8590201
@@ -12877,6 +12887,7 @@ division	Nakhon Nayok	14.1494474	101.2177459
 division	Nakhon Pathom	13.8918425	100.0165659
 division	Nakhon Ratchasima	15.2241917	101.9313754
 division	Nakhon Sawan	15.7054772	99.9288481
+division	Nakhon Si Thammarat	8.6772337	99.7309635
 division	Nakhonnayok	14.180467	101.096533
 division	Nakuru	-0.2802724	36.0712048
 division	Nam Dinh	20.2712241	106.1629895
@@ -13108,6 +13119,7 @@ division	Pest County	47.3715943	19.3452624
 division	Petah Tikva	32.0840	34.8878
 division	Peten	16.9	-89.9
 division	Pezinok	48.2854539	17.270194
+division	Phatthalung	7.543525	99.9971582
 division	Phetchabun	16.4165039	101.1595234
 division	Phetchaburi	13.0692869	99.6044376
 division	Philippeville	50.178836	4.592270
@@ -13154,6 +13166,7 @@ division	Portugal	39.54046	-8.174701
 division	Posavska	45.94246699999999	15.525654263313344
 division	Potosi	-20.666667	-66.666667
 division	Pozega-Slavonia County	45.4381151	17.5133687
+division	Prachuap Khiri Khan	12.0432669	99.7487235
 division	Prague	50.0755	14.4378
 division	Prahova	45.10875455	26.03762296377709
 division	Prešov	48.9975724	21.2401811
@@ -13260,6 +13273,7 @@ division	Roermond	51.1933903	5.9882649
 division	Roeselaere	50.9444948	3.124765
 division	Roeselare	50.9444948	3.124765
 division	Rogaland	58.93631375	5.805878643040238
+division	Roi Et	15.7486448	103.7013017
 division	Rolpa	28.32642895	82.64483525627038
 division	Romania	45.9852129	24.6859225
 division	Rondonia	-10.943145	-62.8277863
@@ -13383,6 +13397,7 @@ division	Shiselweni	-27.024344	31.313400298036466
 division	Shizuoka	34.979149	138.38299
 division	Shoam	31.9958	34.9488
 division	Shumen	43.2703797	26.9247362
+division	Si Sa Ket	15.116794	104.332348
 division	Siauliu Apskritis	55.93985585	23.39385766209714
 division	Siaya	-0.06040135	34.200135009996295
 division	Sibenik-Knin County	43.8410419	16.022628
@@ -13511,14 +13526,17 @@ division	Sud Kivu	-3.223156	28.386665
 division	Sud-Ouest	10.38692085	-3.283188627811005
 division	Sudan	14.5844444	29.4917691
 division	Sudurpaschim	28.7037278	80.5666463
+division	Sukhothai	17.1446985	99.4375845
 division	Sulawesi Selatan	-3.6446718	119.9471906
 division	Šumadija District	44.1202429	20.85199400301452
 division	Sumatera Barat	-1.33589025	100.07222762395327
 division	Sumatera Selatan	-3.1266842	104.0930554
 division	Sumatera Utara	2.1923519	99.3812201
+division	Sumatra	-0.14329415	101.62410241439257
 division	Sumy	50.9070007	34.798386
 division	Surany	48.0861055	18.1868344
 division	Surat Thani	9.4674663	98.830042
+division	Surin	14.8841804	103.4906232
 division	Suriname	4.1413025	-56.0771187
 division	Sverdlovsk	59.0077	61.9316
 division	Sveti Nikole	41.8647339	21.9420506
@@ -13694,8 +13712,10 @@ division	Usti nad Labem	50.656527	14.053702
 division	Utah	39.4225192	-111.7143583
 division	Utena	55.4984381	25.6025772
 division	Utena Apskritis	55.4984381	25.6025772
+division	Uthai Thani	15.3912084	99.4560531
 division	Utrecht	52.08532	5.184968
 division	Uttar Pradesh	26.8467	80.9462
+division	Uttaradit	17.625163	100.4029452
 division	Uttarakhand	30.091993549999998	79.32176659343018
 division	Uusimaa	60.2187	25.2716
 division	Uva Province	7.0788965	81.336532
@@ -13956,6 +13976,7 @@ country	Equatorial Guinea	1.613172	10.5170357
 country	Estonia	58.850111	25.808524
 country	Eswatini	-26.5624806	31.3991317
 country	Ethiopia	9.1450	40.4897
+country	Fiji	-18.1239696	179.0122737
 country	Finland	61.751734	26.186437
 country	France	46.2276	2.2137
 country	French Polynesia	-16.03442485	-146.0490931059517

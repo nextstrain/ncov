@@ -1275,6 +1275,9 @@ location	South Solok
 location	Tanah Datar
 location	West Pasaman
 
+# Sumatra
+location	Bangka Belitung
+
 # Riau
 location	Pekanbaru
 
@@ -10773,15 +10776,27 @@ location	Xavantina
 
 # Goiás
 location	Abadia de Goias
+location	Aguas Lindas de Goias
+location	Alexania
+location	Alexânia
 location	Anapolis
 location	Aparecida de Goiania
+location	Aparecida de Goiânia
+location	Aragarças
 location	Araguapaz
+location	Bom Jardim de Goias
 location	Bom Jesus de Goias
 location	Britania
+location	Cachoeira Alta
+location	Caldazinha
+location	Campinorte
 location	Catalao
+location	Cavalcante
 location	Ceres BR
 location	Cezarina
+location	Chapadão do Céu
 location	Cidade Ocidental
+location	Corumbá de Goiás
 location	Cristalina
 location	Damolandia
 location	Davinopolis
@@ -10790,24 +10805,40 @@ location	Faina
 location	Formosa
 location	Gioania
 location	Goiania
+location	Goianésia
 location	Goias
+location	Goiatuba
+location	Goiás
+location	Guapo
 location	Iaciara
+location	Indiara
+location	Inhumas
+location	Itaguaru
 location	Itapaci
+location	Itaucu
 location	Itumbiara
 location	Jaragua
 location	Jatai
+location	Jataí
 location	Jussara
 location	Luziania
+location	Luziânia
+location	Mambai
 location	Mangueira
+location	Maurilandia
 location	Mineiros
 location	Monte Alegre de Goias
 location	Montes Claros de Goias
 location	Morrinhos
+location	Morro Agudo de Goias
 location	Mundo Novo GO
 location	Ouvidor
 location	Paranaiguara
 location	Parauna
+location	Petrolina de Goias
+location	Pirenópolis
 location	Pires do Rio
+location	Planaltina
 location	Quirinopolis
 location	Rio Verde
 location	Sanclerlandia
@@ -10817,9 +10848,17 @@ location	Santa Helena de Goias
 location	Sao Luis de Montes Belos
 location	Sao Simao (Goiás)
 location	Senador Canedo
+location	São João D’Aliança
+location	São Luis de Montes Belos
+location	São Simão
+location	Terezopolis de Goias
 location	Trindade (Goiás)
 location	Turvania
+location	Uruacu
+location	Uruana
 location	Valparaiso de Goias
+location	Valparaíso de Goias
+location	Vianopolis
 
 # Tocantins
 location	Araguacema
@@ -10853,7 +10892,6 @@ location	Xambioa
 # Distrito Federal
 location	Brasilia
 location	Ceilandia
-location	Planaltina
 location	Samambaia
 location	Santa Maria DF
 location	Taguatinga
@@ -14382,8 +14420,12 @@ division	Narathiwat
 division	Pattani
 division	Songkhla
 division	Trang
+division	Phatthalung
 division	Phuket
+division	Krabi
+division	Nakhon Si Thammarat
 division	Surat Thani
+division	Prachuap Khiri Khan
 division	Rayong
 division	Phetchaburi
 division	Chonburi
@@ -14398,18 +14440,32 @@ division	Pathum Thani
 division	Nakhon Nayok
 division	Saraburi
 division	Ang Thong
+division	Surin
 division	Thailand
 division	Singburi
+division	Buriram
 division	Lop Buri
+division	Si Sa Ket
+division	Chai Nat
 division	Nakhon Ratchasima
 division	Ubonratchathani
+division	Uthai Thani
 division	Nakhon Sawan
+division	Roi Et
+division	Maha Sarakham
+division	Chaiyaphum
 division	Phetchabun
+division	Kamphaengphet
+division	Kalasin
 division	Khon Kaen
 division	Phitsanulok
 division	Tak
+division	Sukhothai
 division	Loei
 division	Udon Thani
+division	Uttaradit
+division	Lamphun
+division	Bueng Kan
 division	Chiang Mai
 division	Chiang Rai
 
@@ -14500,6 +14556,7 @@ division	Aceh
 division	North Sumatra
 division	Sumatera Utara
 division	West Sumatra
+division	Sumatra
 division	Riau
 division	Bengkulu
 division	Jambi
@@ -14684,6 +14741,9 @@ division	Midcentral
 division	Lakes
 division	Hawkes Bay
 division	Bay of Plenty
+
+### Fiji
+division	Fiji
 
 ################
 
@@ -16646,6 +16706,7 @@ country	French Polynesia
 country	Australia
 country	Papua New Guinea
 country	New Zealand
+country	Fiji
 
 # Africa
 country	Cabo Verde
