@@ -994,6 +994,7 @@ location	Khulshi
 location	Kunjachaya
 location	Lakshmipur
 location	Lashmipur
+location	Mirsarai
 location	Muradpur
 location	Noakhali
 location	Panchlaish
@@ -1030,6 +1031,7 @@ location	Azimpur
 location	Banani
 location	Baridhara
 location	Basundhara Residential Area
+location	Boalmari
 location	Cantonment
 location	Dhaka
 location	Dhamrai
@@ -3088,6 +3090,7 @@ location	Collbato
 location	Corca
 location	Cornella de Llobregat
 location	Cornella de Terri
+location	Corro D Avall
 location	Corro D'Amunt
 location	Corro d'Avall
 location	Darnius
@@ -3927,6 +3930,7 @@ location	Annecy
 location	Annemasse
 location	Annonay
 location	Apchat
+location	Arith
 location	Arnas
 location	Arpajon sur Cere
 location	Aubenas
@@ -3967,6 +3971,8 @@ location	Brommat
 location	Bron
 location	Bulhon
 location	Busseol
+location	Bussieres Et Pruns
+location	Caumont sur Durance
 location	Cebazat
 location	Ceyrat
 location	Challes-Les-Eaux
@@ -4002,9 +4008,11 @@ location	Combronde
 location	Commentry
 location	Condat
 location	Condat Les Montboissier
+location	Conilhac-Corbieres
 location	Contamine-sur-Arve
 location	Contamines
 location	Corbel
+location	Corent
 location	Cormoz
 location	Coulandon
 location	Cournon
@@ -4017,6 +4025,7 @@ location	Crevant Laveine
 location	Culhat
 location	Cusset
 location	Dallet
+location	Dammartin en Goele
 location	Dardilly
 location	Davayat
 location	Davezieux
@@ -4073,6 +4082,7 @@ location	Langogne
 location	Lapalisse
 location	Laqueuille
 location	Laroquebrou
+location	Lauris
 location	Le Breuil sur Couze
 location	Le Cendre
 location	Le Mayet de Montagne
@@ -4097,6 +4107,7 @@ location	Malintrat
 location	Manzat
 location	Maringues
 location	Marsat
+location	Marseille 01
 location	Mazet-Saint-Voy
 location	Menat
 location	Menetrol
@@ -4108,6 +4119,7 @@ location	Molles
 location	Montagnieu
 location	Montaigut
 location	Montboudif
+location	Monteignet sur l Andelot
 location	Montelimar
 location	Montlucon
 location	Montmorin
@@ -4116,12 +4128,14 @@ location	Mozac
 location	Murat
 location	Murat le Quaire
 location	Murol
+location	Nebouzat
 location	Neschers
 location	Nohanent
 location	Olby
 location	Orbeil
 location	Orcet
 location	Orcines
+location	Orleat
 location	Oyonnax
 location	Pardines
 location	Parent
@@ -4169,6 +4183,7 @@ location	Saint Germain des Fosses
 location	Saint Julien de Coppel
 location	Saint Prix
 location	Saint Sandoux
+location	Saint Sauves
 location	Saint Yvoine
 location	Saint-Didier-Sous-Aubenas
 location	Saint-Etienne
@@ -4186,6 +4201,7 @@ location	Saulzais le Potier
 location	Sayat
 location	Serbannes
 location	Sermentizon
+location	Siant Ignat
 location	Siran
 location	St Alyre D Arlanc
 location	St Amant Tallende
@@ -4193,6 +4209,7 @@ location	St Bonnet Les Alliers
 location	St Cernin
 location	St Denis Combarnazat
 location	St Eloy Les Mines
+location	St Felix
 location	St Georges de Mons
 location	St Georges sur Allier
 location	St Germain Lembron
@@ -4217,6 +4234,7 @@ location	St Sauves D Auvergne
 location	St Simon
 location	St Sylvestre Pragoulin
 location	St Yorre
+location	Ste Florine
 location	Tallende
 location	Tarare
 location	Tauves
@@ -4243,6 +4261,7 @@ location	Vichy
 location	Vienne
 location	Villefranche-d'Allier
 location	Villefranche-sur-Saône
+location	Villeneuve Les Cerfs
 location	Villeurbanne
 location	Villosanges
 location	Vinzelles
@@ -4268,6 +4287,7 @@ location	Dijon
 location	Lons le Saunier
 location	Luxeuil-Les-Bains
 location	Macon
+location	Montceau-Les-Mines
 location	Montcenis
 location	Montreux-Chateau
 location	Nevers
@@ -10659,6 +10679,7 @@ location	Vere
 location	Wenceslau Braz
 
 # Amapa
+location	Amapa
 location	Cutias
 location	Itaubal
 location	Laranjal do Jari
@@ -10672,6 +10693,7 @@ location	Vitoria do Jari
 
 # Santa Catarina
 location	Abdon Batista
+location	Agrolandia
 location	Agronomica
 location	Antonio Carlos
 location	Araquari
@@ -10693,7 +10715,7 @@ location	Braco do Norte
 location	Braco do Trombudo
 location	Brusque
 location	Camboriu
-location	Campo Alegre
+location	Campo Alegre SC
 location	Campo Belo do Sul
 location	Campos Novos
 location	Canelinha
@@ -10710,10 +10732,12 @@ location	Forquilhinha
 location	Garopaba
 location	Governador Celso Ramos
 location	Herval D''Oeste
+location	Herval Doeste
 location	Ibicare
 location	Ibirama
 location	Icara
 location	Imbituba
+location	Imbuia
 location	Indaial
 location	Ipira
 location	Irani
@@ -10730,14 +10754,18 @@ location	Joinville
 location	Lages
 location	Laguna
 location	Lajeado Grande
+location	Laurentino
 location	Lauro Muller
 location	Lontras
+location	Luzerna
 location	Mafra BR
 location	Morro Da Fumaca
 location	Navegantes
 location	Nova Trento
 location	Ouro
 location	Palhoca
+location	Passo de Torres
+location	Paulo Lopes
 location	Penha
 location	Planalto Alegre
 location	Ponte Alta
@@ -10765,6 +10793,7 @@ location	Schroeder
 location	Seara
 location	Sombrio
 location	Taio
+location	Tangara
 location	Tijucas
 location	Treze de Maio
 location	Trombudo Central
@@ -11593,6 +11622,7 @@ location	Fundao
 location	Governador Lindenberg
 location	Guacui
 location	Guarapari
+location	Ibiracu
 location	Ibitirama
 location	Iconha
 location	Irupi
@@ -11915,9 +11945,11 @@ location	Águas Belas
 # Paraiba
 location	Aguiar
 location	Alagoa Grande
+location	Alhandra
 location	Amparo (Paraiba)
 location	Areia
 location	Bayeux
+location	Boa Ventura
 location	Cabedelo
 location	Cacimba de Dentro
 location	Cajazeiras
@@ -11925,8 +11957,10 @@ location	Campina Grande
 location	Carrapateira
 location	Catole do Rocha
 location	Conde
+location	Coremas
 location	Coxixola
 location	Cuite
+location	Ibiara
 location	Inga
 location	Itabaiana PB
 location	Itaporanga (Paraiba)
@@ -11937,19 +11971,23 @@ location	Lucena
 location	Marizopolis
 location	Monteiro
 location	Nova Floresta
+location	Nova Palmeira
 location	Olivedos
 location	Patos
 location	Pedras de Fogo
 location	Pianco
+location	Picui
 location	Pilar BR
 location	Pombal
 location	Queimadas
+location	Remigio
 location	Riachao
 location	Riacho Dos Cavalos
 location	Rio Tinto
 location	Santa Rita PB
 location	Sao Jose do Brejo do Cruz
 location	Sape
+location	Serido
 location	Sossego
 location	Sousa
 location	Sume
@@ -11965,25 +12003,31 @@ location	Atalaia
 location	Barra de Sao Miguel
 location	Boca Da Mata
 location	Branquinha
+location	Campo Alegre AL
 location	Capela (Alagoas)
 location	Carneiros
 location	Cha Preta
 location	Colonia Leopoldina
 location	Coruripe
 location	Delmiro Gouveia
+location	Feliz Deserto
 location	Flexeiras
 location	Girau do Ponciano
 location	Igaci
 location	Igreja Nova
 location	Limoeiro de Anadia
 location	Maceio
+location	Mar Vermelho
 location	Maragogi
 location	Marechal Deodoro
+location	Maribondo
 location	Matriz de Camaragibe
 location	Murici
 location	Palmeira Dos Indios
 location	Passo de Camaragibe
+location	Penedo
 location	Piranhas
+location	Quebrangulo
 location	Rio Largo
 location	Roteiro
 location	Santa Luzia do Norte
@@ -11991,6 +12035,7 @@ location	Santana do Ipanema
 location	Santana do Mundau
 location	Sao Miguel Dos Campos
 location	Sao Sebastiao (Alagoas)
+location	Traipu
 location	Uniao Dos Palmares
 location	Vicosa
 
@@ -13686,6 +13731,8 @@ location	Lawrence County AL
 location	Lee County AL
 location	Limestone County AL
 location	Lowndes County
+location	Lowndes County AL
+location	Macon County AL
 location	Madison County AL
 location	Marion County AL
 location	Marshall County AL
@@ -13855,21 +13902,39 @@ location	York County SC
 location	Kanawha
 
 # North Carolina
+location	Alamance County
+location	Cabarrus County
+location	Catawba County
+location	Columbus County
 location	Cumberland County NC
+location	Davidson County NC
 location	Durham County
 location	Forsyth County
+location	Forsyth County NC
 location	Gaston County
 location	Guilford County
+location	Harnett County
+location	Iredell County
+location	Lincoln County NC
 location	Mecklenburg County
+location	Mecklenburg County NC
+location	Montgomery County NC
+location	New Hanover County
+location	Northampton County
+location	Orange County NC
 location	Pitt County
+location	Randolph County NC
+location	Rowan County NC
 location	Rutherford County NC
 location	Scotland County
+location	Stanly County
 location	Union County NC
 location	Wake County NC
 location	Wayne County NC
 
 # Virginia
 location	Alexandria
+location	Chesapeake
 location	Fairfax County
 location	Frederick County VA
 location	Loudoun County
@@ -14902,6 +14967,7 @@ division	Ekiti State
 division	Sokoto
 division	Niger State
 division	Edo
+division	Bayelsa State
 division	Delta
 division	Zamfara State
 division	Kogi State
