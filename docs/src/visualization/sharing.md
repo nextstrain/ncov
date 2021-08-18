@@ -22,7 +22,7 @@ Doing so will enable you to color by any of the values in this extra metadata fi
 2. Add your sensitive metadata to the remaining columns  
 3. On your computer, drag and drop the file onto the browser window where Auspice is visualizing your JSON    
 
-_For more help formatting this metadata file, including how to do so using Excel, [see this page](data-prep.md)_
+_For more help formatting this metadata file, including how to do so using Excel, [see this page](../analysis/data-prep.md)_
 
 ---
 
@@ -110,5 +110,5 @@ With Nextstrain Groups, you can choose whether each dataset is publicly viewable
 #### Privacy and security  
 Independently hosted Auspice servers can be configured with any security protocols necessary.
 
-## [Previous Section: Orientation: Customizing your visualization](customizing-visualization.md)
+## [Previous Section: Orientation: Customizing your visualization](../analysis/customizing-visualization.md)
 ## [Next Section: Interpreting your results](interpretation.md)

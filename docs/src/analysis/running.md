@@ -83,12 +83,12 @@ If you have a question which is not addressed here, please don't hestitate to [a
 
 #### My country / division does not show up on the map
 
-This is most often a result of the country / division not being present in [the file defining the latitude & longitude of each deme](../defaults/lat_longs.tsv).
+This is most often a result of the country / division not being present in [the file defining the latitude & longitude of each deme](https://github.com/nextstrain/ncov/blob/master/defaults/lat_longs.tsv).
 Adding it to that file (and rerunning the Snakemake rules downstream of this) should fix this.
 
 #### My trait (e.g. division) is grey instead of colored
 
-We generate the colors from the `colors` rule in the Snakefile, which uses the [ordering TSV](./defaults/ordering.tsv) to generate these. See ['customizing your analysis'](customizing-analysis.md) for more info.
+We generate the colors from the `colors` rule in the Snakefile, which uses the [ordering TSV](https://github.com/nextstrain/ncov/blob/master/defaults/color_ordering.tsv) to generate these. See ['customizing your analysis'](customizing-analysis.md) for more info.
 
 _*A note about locations and colors:*_
 Unless you want to specifically override the colors generated, it's usually easier to _add_ information to the default `ncov` files, so that you can benefit from all the information already in those files.
@@ -98,7 +98,7 @@ Unless you want to specifically override the colors generated, it's usually easi
 There are a few steps where sequences can be removed:
 
 - During the `filter` step:
-    - Samples which are included in [the exclude file](../defaults/exclude.tsv) are removed
+    - Samples which are included in [the exclude file](https://github.com/nextstrain/ncov/blob/master/defaults/exclude.tsv) are removed
     - Samples which fail the current filtering criteria, as defined in the `parameters.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
         - Minimum sequence length of 25kb
         - No ambiguity in (sample collection) date

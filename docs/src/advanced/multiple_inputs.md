@@ -164,7 +164,7 @@ The following figure shows the graph (DAG) of steps which Snakemake will run to 
 You can generate this yourself via
 `snakemake --profile my_profiles/example_multiple_inputs -f auspice/ncov_multiple-inputs.json --dag | dot -Tpdf > dag.pdf`.
 
-![snakemake-graph](images/multiple_inputs_dag.png)
+![snakemake-graph](../images/multiple_inputs_dag.png)
 
 
 ## Extra examples

@@ -1,5 +1,5 @@
 ****************
-Reference guides
+Advanced options
 ****************
 
 .. toctree::
@@ -7,6 +7,4 @@ Reference guides
    :titlesonly:
    :caption: Table of contents
 
-   configuration
-   metadata-fields
-   naming_clades
+   multiple_inputs
