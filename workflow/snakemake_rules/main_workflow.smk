@@ -1124,6 +1124,24 @@ rule logistic_growth:
             --output {output.node_data} 2>&1 | tee {log}
         """
 
+rule calculate_epiweeks:
+    input:
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
+    output:
+        node_data="results/{build_name}/epiweeks.json",
+    benchmark:
+        "benchmarks/calculate_epiweeks_{build_name}.txt",
+    conda:
+        config["conda_environment"],
+    log:
+        "logs/calculate_epiweeks_{build_name}.txt",
+    shell:
+        """
+        python3 scripts/calculate_epiweek.py \
+            --metadata {input.metadata} \
+            --output-node-data {output.node_data}
+        """
+
 def export_title(wildcards):
     # TODO: maybe we could replace this with a config entry for full/human-readable build name?
     location_name = wildcards.build_name
@@ -1158,7 +1176,8 @@ def _get_node_data_by_wildcards(wildcards):
         rules.traits.output.node_data,
         rules.logistic_growth.output.node_data,
         rules.aa_muts_explicit.output.node_data,
-        rules.distances.output.node_data
+        rules.distances.output.node_data,
+        rules.calculate_epiweeks.output.node_data
     ]
 
     if "run_pangolin" in config and config["run_pangolin"]:
