@@ -982,6 +982,7 @@ location	Besse Et St Anastaise	45.5115738	2.9329614
 location	Best	51.510017	5.398661990056466
 location	Bestwinka	49.9291282	19.0663839
 location	Betania	9.011641	-79.527928
+location	Betania PA	9.012685000000001	-79.52920651978945
 location	Betekom	50.9861112	4.7808123
 location	Bethany	41.427181	-72.993597
 location	Bethlehem	31.703183199999998	35.194854545710655
@@ -2128,6 +2129,7 @@ location	Cite Lóiseau	-20.301906013804143	57.511609154718506
 location	City of Tshwane	-25.6798828	28.2730697
 location	Ciudad Quetzal	14.6989331	-90.5765304
 location	Ciudad Real	38.95975095	-3.88284645910809
+location	Ciudad Vieja	14.512764350000001	-90.7698852760732
 location	Cizur Menor	42.786144	-1.677269
 location	Clabecq	50.6893737	4.2214131
 location	Clackamas County	45.1608821	-122.2305038
@@ -2261,6 +2263,7 @@ location	Condor	-28.2058277	-53.4844696
 location	Conecuh County	31.3966783	-86.9437104
 location	Confins	-19.6278749	-43.9912311
 location	Congonhinhas	-23.5497241	-50.5520182
+location	Conguaco	14.048676	-90.034499
 location	Conil de la Frontera	36.277924	-6.088770
 location	Conselheiro Lafaiete	-20.6596107	-43.785743
 location	Conselheiro Pena	-19.1720883	-41.471995
@@ -2523,6 +2526,7 @@ location	Davezieux	45.2567222	4.7057799
 location	David	8.4949423	-82.48261591569641
 location	Davidson County NC	35.7902384	-80.2115053
 location	Davidson County TN	36.189724	-86.7857862
+location	Daviess County IN	38.6776099	-87.0813484
 location	Davinopolis	-18.1536888	-47.5624052
 location	Davis	38.5449	-121.7405
 location	Davos	46.7961744	9.8237266
@@ -3764,6 +3768,7 @@ location	Gutkowo	53.7997465	20.400654230051003
 location	Guttaring	46.8903519	14.5113664
 location	Guttenberg	40.7920454	-74.0037505
 location	Guyancourt	48.7629	2.0753
+location	Gwinnett County	33.9566869	-84.0227467
 location	Gyeonggi	37.397957	127.380864
 location	Haacht	50.9769286	4.6386824
 location	Haag Rheintal	47.2089851	9.4886539
@@ -7968,6 +7973,7 @@ location	Puente San Miguel	43.3598835	-4.0876115
 location	Puente Viesgo	43.2989919	-3.9649215
 location	Puerto Armuelles	8.2725603	-82.8604458
 location	Puerto Baquerizo Moreno	-0.902599	-89.610191
+location	Puerto Barrios	15.7275154	-88.5952506
 location	Puerto Caimito	8.8730234	-79.7161814
 location	Puerto Carreno	6.1879711	-67.4894667
 location	Puerto Cortes	9.02269455	-83.56518644848431
@@ -8718,6 +8724,7 @@ location	Sambreville	50.44606145	4.617878113126531
 location	Sambu	8.0273361	-78.2083096
 location	Samlino	53.8477497	14.9513205
 location	Samolez	52.6930942	16.4216948
+location	San Agustín Acasaguastlán	15.01663735	-89.99179796315836
 location	San Andres	12.537597850000001	-81.72041550499901
 location	San Andres del Rabanedo	42.6112327	-5.6168662
 location	San Antonio	9.89580112196045	-84.1399822884991
@@ -8997,6 +9004,7 @@ location	Santa Luzia MG	-19.7702097	-43.8505291
 location	Santa Margalida	39.7033676	3.1026602
 location	Santa Margarida de Montbui	41.5746303	1.6087408
 location	Santa Maria	-29.6860512	-53.8069214
+location	Santa María Chiquimula	15.0296151	-91.329326
 location	Santa Maria de Cayon	43.30976	-3.85548
 location	Santa Maria de Corcó	42.0340216	2.3697082
 location	Santa Maria de Guia de Gran Canaria	28.1390522	-15.6318282
@@ -10354,6 +10362,7 @@ location	Troitsk	55.4728168	37.3017465
 location	Trombudo Central	-27.3040981	-49.79316
 location	Troncal	-2.433689	-79.37516322526545
 location	Trondheim	63.4305658	10.3951929
+location	Troup County	33.0237625	-85.0254022
 location	Troyes	48.2971626	4.0746257
 location	Trstena	49.3593197	19.6078094
 location	Trujillo	4.212089	-76.319157
@@ -11051,6 +11060,7 @@ location	Weitersfeld	48.7817161	15.8115924
 location	Weiz	47.2174206	15.6221694
 location	Weißkirchen An Der Traun	48.1642098	14.1271488
 location	Wejherowo	54.606068199999996	18.23178605516042
+location	Weld County	40.5632344	-104.4835287
 location	Welkom	-27.982298	26.737969
 location	Welle	50.9005405	4.0448599
 location	Wellen	50.8414946	5.337092
@@ -12237,6 +12247,7 @@ division	Guangdong	23.615762	114.483257
 division	Guangxi	23.717754	108.701872
 division	Guardav	40.5308	-7.2221
 division	Guatemala	15.6356088	-89.8988087
+division	Guatemala City	14.6222328	-90.5185188
 division	Guaviare	1.6894444	-72.8202864
 division	Guayas	-1.9575	-79.9193
 division	Gueckedou	8.561649	-10.132821
@@ -12389,6 +12400,7 @@ division	Ivanovo	57.04529735	41.37804415061976
 division	Ivory Coast	7.9897371	-5.5679458
 division	Iwate	39.9724169	141.2124422
 division	Ixelles	50.8333	4.3666
+division	Izabal	15.7379098	-88.5888038
 division	Järva	58.882046	25.5509865
 division	Jahra	29.498561549999998	47.544040757906274
 division	Jakarta	-6.221537	106.838429
@@ -13313,6 +13325,7 @@ division	Saarland	49.3841872	6.9537369
 division	Sabac	44.7571535	19.6953972
 division	Sabah	5.4257359	117.0326392
 division	Sabaragamuwa Province	6.8124018	80.33547643025922
+division	Sacatepequez	14.5531759	-90.75470179488752
 division	Saga	33.2185408	130.1296585
 division	Sagaing	24.4768486	95.47473996361609
 division	Sahy	48.0694559	18.9493378
@@ -13655,6 +13668,7 @@ division	Tolemaida	4.2448718	-74.6580418
 division	Tolima	4.065944	-75.215716
 division	Tongeren	50.774275	5.464625
 division	Topolcany	48.5594345	18.1754394
+division	Totonicapan	15.0424999	-91.40610219934399
 division	Tottori	35.3555075	133.8678525
 division	Touba	14.856713	-15.87911
 division	Tougue	11.4394566	-11.6629484
@@ -13797,6 +13811,7 @@ division	Viken	59.9263265	9.904234519577855
 division	Vilimalé	4.1732095	73.4842739
 division	Viljandi	58.3646073	25.5876563
 division	Vilkaviskis	54.6501751	23.0358705
+division	Villa Nueva	14.5308826	-90.5963325
 division	Villavicencio	4.134000	-73.623483
 division	Vilniaus Apskritis	54.82269205	25.249534001679514
 division	Vilnius	54.697979	25.279095
@@ -13907,6 +13922,7 @@ division	Zadar County	44.2232882	15.3739652
 division	Zagreb	45.8131847	15.9771774
 division	Zagreb County	45.7017634	16.2347136
 division	Zambezi	-17.6912922	24.1377371
+division	Zambezia	-16.6460178	36.991932
 division	Zambia	-14.5186239	27.5599164
 division	Zamboanga Peninsula	7.77301775	122.75600476636146
 division	Zamfara State	12.0078998	6.4191432

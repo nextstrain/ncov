@@ -730,6 +730,7 @@ location	Tinsukia
 location	West Karbi Anglong
 
 # Rajasthan
+location	Ajmer
 location	Alwar
 location	Barmer
 location	Bharatpur
@@ -738,14 +739,18 @@ location	Bikaner
 location	Churu
 location	Danta
 location	Dausa
+location	Dholpur
 location	Dungarpur
 location	Jaipur
+location	Jhunjhunu
 location	Jodhpur
 location	Karauli
 location	Kota
 location	Nagaur
 location	Nathudwara
+location	Pratapgarh
 location	Sikar
+location	Tonk
 location	Udaipur
 
 # Uttar Pradesh
@@ -1026,11 +1031,14 @@ location	Satkhira
 location	Aftabnagar
 location	Agargaon
 location	Agargoon
+location	Airport
 location	Ashkona
 location	Azimpur
+location	Badda
 location	Banani
 location	Baridhara
 location	Basundhara Residential Area
+location	Bhatara
 location	Boalmari
 location	Cantonment
 location	Dhaka
@@ -1048,6 +1056,7 @@ location	Gulshan
 location	Jatrabari
 location	Kalabagan
 location	Keraniganj
+location	Khilkhet
 location	Kishoreganj
 location	Kodomtoly
 location	Madaripur
@@ -1073,6 +1082,7 @@ location	Panthapath
 location	Rahmatganj
 location	Rajbari
 location	Rajbari Sadar Upazila
+location	Rupgona
 location	Savar
 location	Sayedabad
 location	Senpara
@@ -1773,7 +1783,12 @@ location	Mmathethe
 location	Mamuno
 
 # Central District BW
+location	Mabeleapudi
+location	Malatswai
+location	Mmashoro
+location	Paje
 location	Palapye
+location	Selebi Phikwe
 location	Serowe
 location	Sowa
 
@@ -1966,6 +1981,8 @@ location	Bagamoio
 location	Katembe
 location	Maputo City
 location	Marracuene
+location	Marracune
+location	Matola
 location	Mavalane
 location	Polana Canico
 
@@ -1975,6 +1992,7 @@ location	Xai Xai
 # Inhambane
 location	Inhambane
 location	Maxixe
+location	Zavala
 
 # Sofala
 location	Beira
@@ -1982,10 +2000,18 @@ location	Beira
 # Manica
 location	Chimoio
 
+# Zambezia
+location	Gurue
+location	Macanja Da Costa
+location	Murrumbala
+location	Namacurra
+location	Quelimane
+
 # Tete
 location	Chiuta
 
 # Niassa
+location	Cuamba
 location	Lichinga
 
 # Cabo Delgado
@@ -3511,6 +3537,7 @@ location	La Gacilly
 location	La Roche Bernard
 location	La Roche Jaudy
 location	Lamballe
+location	Lamballe Armor
 location	Lannilis
 location	Lannion
 location	Les Iffs
@@ -3523,6 +3550,7 @@ location	Mesnil Roc H
 location	Montreuil le Gast
 location	Mordelles
 location	Morlaix
+location	Mouaze
 location	Noyal Chatillon
 location	Noyal Chatillon sur Seiche
 location	Noyal Pontivy
@@ -3534,9 +3562,12 @@ location	Plerin
 location	Plestin Les Greves
 location	Pleugriffet
 location	Ploezal
+location	Ploubazlanec
 location	Ploudalmezeau
+location	Plourivo
 location	Plouzane
 location	Pommerit le Vicomte
+location	Pommerite le Vicomte
 location	Pontivy
 location	Pontrieux
 location	Pordic
@@ -3565,7 +3596,10 @@ location	St Gregoire
 location	St Jacut Les Pins
 location	St Jean Du Corail Du Bois
 location	St Malo
+location	St Quay Portrieux
 location	St Samson sur Rance
+location	Talence
+location	Thorigne Fouillard
 location	Tinteniac
 location	Tregueux
 location	Val D Anast
@@ -4989,6 +5023,7 @@ location	Elewijt
 location	Eppegem
 location	Gaasbeek
 location	Galmaarden
+location	Gooik
 location	Grimbergen
 location	Groot-Bijgaarden
 location	Halle
@@ -6778,10 +6813,13 @@ location	Bela - Ledec Na Sazavou
 location	Benetice
 location	Bily Kamen
 location	Bohdalec
+location	Bonkov
 location	Budisov
 location	Bystrice nad Pernstejnem
 location	Cervena Lhota
 location	Chotebor
+location	Dobronin
+location	Golcuv Jenikov
 location	Havlickova Borova
 location	Havlickuv Brod
 location	Helenin
@@ -6791,21 +6829,28 @@ location	Jihlava
 location	Jirikovice
 location	Knezice
 location	Kojcice
+location	Kozlov
 location	Kratka Ves
 location	Kynice
+location	Luka nad Jihlavou
 location	Naloucany
 location	Namest nad Oslavou
+location	Nizkov
 location	Nova Ves U Noveho Mesta Na Morave
 location	Nove Dvory
 location	Nove Mesto Na Morave
 location	Náměšť nad Oslavou
 location	Osová Bityska
 location	Pavlov
+location	Pelhrimov
 location	Polna
 location	Pribyslav
 location	Pribyslavice (Vysocina Region)
+location	Radostin nad Oslavou
 location	Rudikov
+location	Rynarec
 location	Skrinarov
+location	Sobinov
 location	Starec
 location	Stonarov
 location	Stranecka Zhor
@@ -6818,6 +6863,7 @@ location	Velka Bites
 location	Velky Beranov
 location	Velké Mezirici
 location	Veprikov
+location	Vilanec
 location	Zdar nad Sazavou
 location	Zdirec
 location	Zdirec nad Doubravou
@@ -6841,14 +6887,18 @@ location	Červený Kostelec
 # South Moravian Region
 location	Bedrichovice
 location	Blansko
+location	Blazovice
 location	Bluatina
+location	Bohdalice-Pavlovice
 location	Boskovice
 location	Breclav
+location	Brezi
 location	Brezina
 location	Brno
 location	Ceben
 location	Chudcice
 location	Damborice
+location	Dolni Kounice
 location	Domanin
 location	Drazuvky
 location	Drnholec
@@ -6871,6 +6921,8 @@ location	Krenovice
 location	Kurim
 location	Kyjov
 location	Lelekovice
+location	Letonice
+location	Luzice
 location	Mikulov
 location	Moravska Nova Ves
 location	Moravske Kninice
@@ -6898,10 +6950,13 @@ location	Svatoslav
 location	Temice
 location	Tišnov
 location	Tynec
+location	Velka nad Velickou
 location	Velke Bilovice
 location	Veseli nad Moravou
 location	Veverska Bityska
+location	Vinicné Sumice
 location	Vrbice
+location	Vyskov
 location	Vémyslice
 location	Zidlochovice
 location	Znojmo
@@ -6911,6 +6966,7 @@ location	Držovice
 location	Kojetin
 location	Litovel
 location	Oldrichov
+location	Prerov
 location	Prostejov
 location	Písařov
 location	Sumperk
@@ -7012,6 +7068,7 @@ location	Nowe Miasteczko
 location	Nowogrod Bobrzanski
 location	Osno Lubuskie
 location	Osnolubuskie
+location	Skwierzyna
 location	Slubice
 location	Staropole
 location	Strzelce Krajenskie
@@ -7252,6 +7309,7 @@ location	Baranowo
 location	Bogdanki
 location	Borowo-Mlyn
 location	Buk
+location	Chodziez
 location	Chodzież
 location	Chwalkowo
 location	Cieradz Koscielny
@@ -7374,7 +7432,6 @@ location	Sierosław
 location	Skarbki
 location	Skarszew
 location	Skoki
-location	Skwierzyna
 location	Skórzewo
 location	Slodkow-Kolonia
 location	Smogorzewo
@@ -7460,6 +7517,7 @@ location	Kedzierzyn Kozle
 location	Kietrz
 location	Kluczbork
 location	Komprachcice
+location	Korfantow
 location	Koscierzyce
 location	Krapkowice
 location	Krapkowicki
@@ -7544,6 +7602,7 @@ location	Kościerzyna
 location	Kramarzyny
 location	Krepiec
 location	Krolewo
+location	Kuksy
 location	Kuleszewo
 location	Kwidzyn
 location	Leba
@@ -7563,6 +7622,8 @@ location	Malbork
 location	Marynowy
 location	Mikolajki Pomorskie
 location	Miloradz
+location	Morany
+location	Myszewko
 location	Nowe Ostrowite
 location	Nowiec
 location	Nowodworski
@@ -7796,6 +7857,7 @@ location	Zgierski
 location	Zgierz
 
 # Malopolskie
+location	Balice
 location	Bialka Tatrzanska
 location	Bibice
 location	Biertowice
@@ -8326,6 +8388,7 @@ location	Nowodziel
 location	Nowogrod
 location	Olendy
 location	Olmonty
+location	Panki
 location	Popławy
 location	Porosly
 location	Rajgród
@@ -11820,18 +11883,22 @@ location	Tenente Laurentino Cruz
 location	Água Nova
 
 # Pernambuco
+location	Abreu E Lima
 location	Afogados Da Ingazeira
 location	Afranio
 location	Agrestina
 location	Aguas Belas
 location	Alianca
 location	Altinho
+location	Amaraji
 location	Angelim
 location	Aracoiaba PE
 location	Araripina
 location	Arcoverde
 location	Barra de Guabiraba
+location	Belo Jardim
 location	Belém de Maria
+location	Betania BR
 location	Bezerros
 location	Bodoco
 location	Bodocó
@@ -11839,6 +11906,7 @@ location	Bom Jardim (Pernambuco)
 location	Buique
 location	Cabo de Santo Agostinho
 location	Cabrobo
+location	Cachoeirinha
 location	Caetes
 location	Calcado
 location	Camaragibe
@@ -11875,14 +11943,17 @@ location	Ipubi
 location	Itaiba
 location	Itambe PE
 location	Itapetim
+location	Itaquitinga
 location	Jaboatao Dos Guararapes
 location	Jaqueira
+location	Jatauba
 location	Lagoa Grande
 location	Lagoa do Carro
 location	Lajeado (Pernambuco)
 location	Lajedo
 location	Limoeiro
 location	Manari
+location	Moreilandia
 location	Moreilândia
 location	Moreno BR
 location	Nazare Da Mata
@@ -11900,6 +11971,7 @@ location	Petrolina
 location	Pombos
 location	Poção
 location	Primavera PE
+location	Quipapa
 location	Recife
 location	Riacho Das Almas
 location	Ribeirao
@@ -11907,15 +11979,19 @@ location	Salgueiro
 location	Sanharo
 location	Sanharó
 location	Santa Cruz (Pernambuco)
+location	Santa Cruz Da Baixa Verde
 location	Santa Cruz do Capibaribe
 location	Santa Filomena
+location	Santa Maria Da Boa Vista
 location	Santa Terezinha (Pernambuco)
 location	Sao Bento do Una
 location	Sao Caetano
 location	Sao Joao
 location	Sao Joaquim do Monte
+location	Sao Jose do Belmonte
 location	Sao Jose do Egito
 location	Sao Lourenco Da Mata
+location	Sao Vicente Ferrer
 location	Serra Talhada
 location	Serrita
 location	Sertania
@@ -11925,6 +12001,7 @@ location	São Bento do Una
 location	São Caitano
 location	São Jose do Belmonte
 location	Tabira
+location	Tacaimbo
 location	Tamandaré
 location	Taquaritinga do Norte
 location	Timbauba
@@ -11933,6 +12010,7 @@ location	Toritama
 location	Trindade (Pernambuco)
 location	Triunfo (Pernambuco)
 location	Tupanatinga
+location	Tuparetama
 location	Venturosa
 location	Vertente do Lerio
 location	Vertentes
@@ -12553,7 +12631,7 @@ location	Arnulfo Arias
 location	Belisario Frías
 location	Belisario Porras
 location	Bella Vista
-location	Betania
+location	Betania PA
 location	Boqueron
 location	Caimitillo
 location	Calidonia
@@ -12757,16 +12835,47 @@ location	Talamanca
 location	Danli
 
 ### Guatemala
-# Jutiapa
-location	Jutiapa
+# San Marcos
+location	San Lorenzo GT
+
+# Quetzaltenango
+location	Coatepeque
+
+# Huehuetenango
+location	Barillas
+location	Huehuetenango
+location	Malacatancito
+
+# Totonicapan
+location	Santa María Chiquimula
+
+# Quiche
+location	Nebaj
+location	Playa Grande
+location	Pueblo Nuevo GT
+location	Uspantan
+
+# Chimaltenango
+location	Santa Cruz Balanya
+
+# Escuintla
+location	Escuintla
+location	Santa Lucía Cotzumalguapa
+
+# Sacatepequez
+location	Ciudad Vieja
 
 # Santa Rosa
 location	Barberena
 location	Guazacapan
 
-# Escuintla
-location	Escuintla
-location	Santa Lucía Cotzumalguapa
+# Baja Verapaz
+location	Baja Verapaz
+
+# El Progreso
+location	Guastatoya
+location	San Agustín Acasaguastlán
+location	Sanarate
 
 # Jalapa
 location	Jalapa
@@ -12776,37 +12885,8 @@ location	San Manuel Chaparron
 location	San Pedro Pinula
 location	Sanyuyo
 
-# Chimaltenango
-location	Santa Cruz Balanya
-
-# Chiquimula
-location	Chiquimula
-location	Esquipulas
-location	Ipala
-location	Jocotan
-
-# Quetzaltenango
-location	Coatepeque
-
-# El Progreso
-location	Guastatoya
-location	Sanarate
-
-# San Marcos
-location	San Lorenzo GT
-
-# Zacapa
-location	La Union GT
-location	Zacapa
-
-# Baja Verapaz
-location	Baja Verapaz
-
-# Quiche
-location	Nebaj
-location	Playa Grande
-location	Pueblo Nuevo GT
-location	Uspantan
+# Peten
+location	Poptun
 
 # Guatemala
 location	Barcena
@@ -12829,13 +12909,22 @@ location	San Raymundo
 location	Santa Catarina Pinula
 location	Tierra Nueva
 
-# Huehuetenango
-location	Barillas
-location	Huehuetenango
-location	Malacatancito
+# Jutiapa
+location	Conguaco
+location	Jutiapa
 
-# Peten
-location	Poptun
+# Zacapa
+location	La Union GT
+location	Zacapa
+
+# Chiquimula
+location	Chiquimula
+location	Esquipulas
+location	Ipala
+location	Jocotan
+
+# Izabal
+location	Puerto Barrios
 
 ### Mexico
 # Baja California
@@ -13170,6 +13259,7 @@ location	El Paso County CO
 location	Jefferson County CO
 location	Mesa County
 location	Pitkin County
+location	Weld County
 
 # South Dakota
 location	Beadle County
@@ -13763,6 +13853,7 @@ location	Shelby County TN
 
 # Indiana
 location	Boone County IN
+location	Daviess County IN
 location	Dearborn County
 location	Elkhart County
 location	Hendricks County
@@ -13790,10 +13881,12 @@ location	Ingham County
 location	Cobb County
 location	Fayette County GA
 location	Fulton County GA
+location	Gwinnett County
 location	Henry County GA
 location	Liberty County GA
 location	Richmond County GA
 location	Thomas County
+location	Troup County
 
 # Ohio
 location	Adams County OH
@@ -15208,7 +15301,7 @@ division	Inhambane
 division	Mozambique
 division	Sofala
 division	Manica
-division	Quelimane
+division	Zambezia
 division	Tete
 division	Nampula
 division	Niassa
@@ -16532,21 +16625,26 @@ division	Departamento Colon
 division	Dominica
 
 ### Guatemala
-division	Jutiapa
-division	Santa Rosa
-division	Escuintla
-division	Jalapa
-division	Chimaltenango
-division	Chiquimula
-division	Quetzaltenango
-division	El Progreso
 division	San Marcos
-division	Zacapa
-division	Baja Verapaz
-division	Quiche
-division	Guatemala
+division	Quetzaltenango
 division	Huehuetenango
+division	Totonicapan
+division	Quiche
+division	Chimaltenango
+division	Escuintla
+division	Sacatepequez
+division	Villa Nueva
+division	Guatemala City
+division	Santa Rosa
+division	Baja Verapaz
+division	El Progreso
+division	Jalapa
 division	Peten
+division	Guatemala
+division	Jutiapa
+division	Zacapa
+division	Chiquimula
+division	Izabal
 
 ### Guadeloupe
 division	Vieux Habitants
