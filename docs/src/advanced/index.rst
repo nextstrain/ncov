@@ -1,5 +1,5 @@
 ****************
-Advanced options
+Advanced guides
 ****************
 
 .. toctree::
@@ -8,3 +8,6 @@ Advanced options
    :caption: Table of contents
 
    multiple_inputs
+   configuration
+   metadata-fields
+   naming_clades

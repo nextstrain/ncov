@@ -11,7 +11,6 @@ A Getting Started Guide to the Genomic Epidemiology of SARS-CoV-2
    analysis/index
    visualization/index
    advanced/index
-   reference/index
 
 This template and tutorial will walk you through the process of running a basic phylogenetic analysis on SARS-CoV-2 data.
 We've created these resources with the goal of enabling Departments of Public Health to start using Nextstrain to understand their SARS-CoV-2 genomic data within 1-2 hours.
