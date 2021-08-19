@@ -3,6 +3,20 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## v8 (19 Aug 2021)
+
+### Major changes
+
+- Annotate CDC-style epiweeks (e.g., "202019") as a color-by and filter option in Auspice JSONs ([#703](https://github.com/nextstrain/ncov/pull/703)). This functionality requires [the Python epiweeks package](https://pypi.org/project/epiweeks/). You will need to update your software environment to include this package, depending on how you run your builds.
+  - If you use the Nextstrain CLI with Docker, update the Docker image with `nextstrain update` and then run your builds as usual with `nextstrain build`.
+  - If you use the Nextstrain CLI without Docker, run your builds with `nextstrain build . --use-conda <...other options...>`.
+  - If you use Snakemake, run your builds with `snakemake --use-conda <...other options...>`.
+  - If you manage your own Conda environment, install epiweeks manually in the environment with `conda install -c bioconda epiweeks`.
+
+### Features
+
+- Update Conda environment to use [Augur 13.0.0](https://github.com/nextstrain/augur/blob/master/CHANGES.md#1300-17-august-2021) for an improved filtering experience ([#703](https://github.com/nextstrain/ncov/pull/703)).
+
 ## New features since last version update
 
  - 11 August 2021: Add support for "Sequences" and "Patient status metadata" downloads from GISAID's search interface including [documentation in the tutorial of how to use these data](https://docs.nextstrain.org/en/latest/tutorials/SARS-CoV-2/steps/data-prep.html#curate-data-from-gisaid-search-and-downloads). ([#701](https://github.com/nextstrain/ncov/pull/701))
