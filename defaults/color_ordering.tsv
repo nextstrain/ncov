@@ -281,6 +281,9 @@ location	Kaskelen City
 location	Taldykorgan
 
 ### Pakistan
+# Balochistan
+location	Panjgur
+
 # Punjab PK
 location	Faisalabad
 location	Gujrat
@@ -1259,6 +1262,9 @@ location	Hanoi
 location	Hong Kong
 
 ### Indonesia
+# Aceh
+location	Banda Aceh
+
 # North Sumatra
 location	Binjai
 location	Langkat
@@ -3680,6 +3686,7 @@ location	Bressuire
 location	Brive-la-Gaillarde
 location	Budeliere
 location	Casteljaloux
+location	Cenon
 location	Champdeniers Saint Denis
 location	Chauray
 location	Coulounieix Chamiers
@@ -3702,6 +3709,7 @@ location	Langon
 location	Latille
 location	Le Bourdet
 location	Le Haillan
+location	Libourne
 location	Limoges
 location	Lot-Et-Garonne
 location	Marmande
@@ -3958,6 +3966,7 @@ location	Uzès
 # Auvergne-Rhône-Alpes
 location	Abrest
 location	Aigueperse
+location	Aix-Les-Bains
 location	Andrézieux-Bouthéon
 location	Anglards de Salers
 location	Annecy
@@ -4056,6 +4065,7 @@ location	Crandelles
 location	Craponne
 location	Creuzier le Vieux
 location	Crevant Laveine
+location	Cruseilles
 location	Culhat
 location	Cusset
 location	Dallet
@@ -4139,6 +4149,7 @@ location	Lyon
 location	Malauzat
 location	Malintrat
 location	Manzat
+location	Marignier
 location	Maringues
 location	Marsat
 location	Marseille 01
@@ -4205,6 +4216,7 @@ location	Romagnat
 location	Romans-sur-Isere
 location	Roussillon
 location	Royat
+location	Rumilly
 location	Saignes
 location	Saint Andre le Coq
 location	Saint Beauzire
@@ -4270,6 +4282,7 @@ location	St Sylvestre Pragoulin
 location	St Yorre
 location	Ste Florine
 location	Tallende
+location	Taninges
 location	Tarare
 location	Tauves
 location	Teilhede
@@ -5692,6 +5705,7 @@ location	Breda NL
 location	Cranendonck
 location	Eindhoven
 location	Geffen
+location	Geldrop-Mierlo
 location	Gilze en Rijen
 location	Heeswijk Dinther
 location	Heeze-Leende
@@ -5701,6 +5715,7 @@ location	Loon
 location	Loon op Zand
 location	Milheeze
 location	Nieuwendijk
+location	Oirschot
 location	Oisterwijk
 location	Oss
 location	Roosendaal
@@ -8411,6 +8426,7 @@ location	Łomża
 # Bratislava
 location	Bernolakovo
 location	Budmerice
+location	Báhoň
 location	Chorvatsky Grob
 location	Ivanka Pri Dunaji
 location	Kalinkovo
@@ -8895,6 +8911,7 @@ location	Hlivistia
 location	Iliasovce
 location	Inovce
 location	Jablonov nad Turnou
+location	Kazimír
 location	Kecovo
 location	Koksov-Baksa
 location	Kostolany nad Hornadom
@@ -9626,18 +9643,25 @@ location	Tunuyan
 location	25 de Mayo
 location	9 de Julio
 location	Almirante Brown
+location	Arrecifes
 location	Avellaneda
 location	Bahia Blanca
+location	Baradero
 location	Barracas
 location	Berazategui
 location	Berisso
 location	Bragado
 location	Brandsen
 location	Campana
+location	Capiatán Sarmiento
+location	Capitan Sarmiento
+location	Capitán Sarmiento
 location	Carlos Casares
+location	Carmen de Areco
 location	Cañuelas
 location	Chacabuco
 location	Chascomus
+location	Colon BA
 location	Ensenada AR
 location	Esteban Echeverria
 location	Ezeiza
@@ -9673,10 +9697,15 @@ location	Pilar AR
 location	Presidente Peron
 location	Puerto Madero
 location	Quilmes
+location	Ramallo
+location	Rojas
+location	Salto AR
+location	San Andres de Giles
 location	San Fernando AR
 location	San Isidro AR
 location	San Martin BA
 location	San Miguel AR
+location	San Nicolas AR
 location	San Pedro AR
 location	San Telmo
 location	Tigre
@@ -9684,6 +9713,7 @@ location	Torres AR
 location	Tres Arroyos
 location	Tres de Febrero
 location	Vicente Lopez
+location	Villa Ramallo
 
 # Entre Rios
 location	Colon AR
@@ -10028,7 +10058,7 @@ location	Quirihue
 location	San Carlos CL
 location	San Fabian
 location	San Ignacio
-location	San Nicolas
+location	San Nicolas CL
 location	Treguaco
 location	Yungay
 
@@ -11283,7 +11313,7 @@ location	Rio Grande Da Serra
 location	Rosana
 location	Sales
 location	Sales Oliveira
-location	Salto
+location	Salto BR
 location	Sandovalina
 location	Santa Adelia
 location	Santa Barbara D'Oeste
@@ -11731,6 +11761,7 @@ location	Arneizoz
 location	Baturite
 location	Beberibe
 location	Boa Viagem
+location	Camocim
 location	Cascavel CE
 location	Caucaia
 location	Crateus
@@ -11752,6 +11783,7 @@ location	Jaguaretama
 location	Jaguaribe
 location	Jaguaruana
 location	Jardim (Ceará)
+location	Joao Cabral
 location	Juazeiro do Norte
 location	Limoeiro do Norte
 location	Maraba
@@ -11762,6 +11794,7 @@ location	Milagres
 location	Milha
 location	Missao Velha
 location	Morada Nova
+location	Morada Nova 4
 location	Mulungu
 location	Ocara
 location	Oros
@@ -11778,6 +11811,7 @@ location	Russas
 location	Salitre BR
 location	Sao Benedito
 location	Sao Goncalo do Amarante (Ceará)
+location	Sitio Morada Nova
 location	Sobral
 location	São Luis de Curu
 location	Tabuleiro do Norte
@@ -11926,6 +11960,7 @@ location	Escada
 location	Exu
 location	Feira Nova
 location	Fernando de Noronha
+location	Ferreiro
 location	Flores BR
 location	Floresta
 location	Gameleira
@@ -11960,7 +11995,7 @@ location	Nazare Da Mata
 location	Olinda
 location	Orobo
 location	Ouricuri
-location	Palmares
+location	Palmares BR
 location	Parnamirim
 location	Passira
 location	Paudalho
@@ -12026,6 +12061,7 @@ location	Alagoa Grande
 location	Alhandra
 location	Amparo (Paraiba)
 location	Areia
+location	Barra de Santa Rosa
 location	Bayeux
 location	Boa Ventura
 location	Cabedelo
@@ -12037,6 +12073,7 @@ location	Catole do Rocha
 location	Conde
 location	Coremas
 location	Coxixola
+location	Cruz do Espirito Santo
 location	Cuite
 location	Ibiara
 location	Inga
@@ -12631,6 +12668,7 @@ location	Arnulfo Arias
 location	Belisario Frías
 location	Belisario Porras
 location	Bella Vista
+location	Betania
 location	Betania PA
 location	Boqueron
 location	Caimitillo
@@ -12724,6 +12762,7 @@ location	Guatuso
 location	Los Chiles
 location	Naranjo
 location	Orotina
+location	Palmares CR
 location	Quesada
 location	Sabanilla
 location	San Carlos
@@ -12734,6 +12773,7 @@ location	San Ramon CR
 location	San Roque CR
 location	Santiago (Alajuela)
 location	Sarchi
+location	Upala
 
 # Heredia
 location	Barva
@@ -14577,6 +14617,7 @@ division	Yala
 division	Narathiwat
 division	Pattani
 division	Songkhla
+division	Satun
 division	Trang
 division	Phatthalung
 division	Phuket
@@ -14584,6 +14625,7 @@ division	Krabi
 division	Nakhon Si Thammarat
 division	Surat Thani
 division	Prachuap Khiri Khan
+division	Trat
 division	Rayong
 division	Phetchaburi
 division	Chonburi
@@ -14596,6 +14638,7 @@ division	Nonthaburi
 division	Nakhon Pathom
 division	Pathum Thani
 division	Nakhon Nayok
+division	Prachinburi
 division	Saraburi
 division	Ang Thong
 division	Surin
@@ -14624,6 +14667,7 @@ division	Udon Thani
 division	Uttaradit
 division	Lamphun
 division	Bueng Kan
+division	Nan
 division	Chiang Mai
 division	Chiang Rai
 
