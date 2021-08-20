@@ -17,7 +17,7 @@ const path = require("path");
 /* ------------------------------------------------------------------------ */
 
 const mainRTD = `https://docs.nextstrain.org/en/latest`;
-const ncovRTD = `https://docs.nextstrain.org/projects/ncov/en/tutorial-subproject`;
+const ncovRTD = `https://docs.nextstrain.org/projects/ncov/en/latest`;
 
 const redirects = [
   // MAIN DOCS SPLASH
