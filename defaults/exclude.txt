@@ -10230,3 +10230,11 @@ India/DL-ILBS-17395/2020
 SouthKorea/KDCA3859/2020
 India/MP-NCDC-2509239/2020
 India/AS-1829300261090/2021
+
+# divergence; see https://bedfordlab.slack.com/archives/C0159227X7Y/p1629400240054300
+IND/RGCB-LMMD-17/2020
+IND/RGCB-LMMD-15/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1629399228069400
+Sweden/10048381/2020
+Argentina/PAIS-A0394/2020
