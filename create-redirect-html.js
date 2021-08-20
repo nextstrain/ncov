@@ -17,7 +17,7 @@ const path = require("path");
 /* ------------------------------------------------------------------------ */
 
 const mainRTD = `https://docs.nextstrain.org/en/latest`;
-const ncovRTD = `https://docs.nextstrain.org/projects/ncov/tutorial-subproject/en/latest`;
+const ncovRTD = `https://docs.nextstrain.org/projects/ncov/en/tutorial-subproject`;
 
 const redirects = [
   // MAIN DOCS SPLASH
@@ -78,8 +78,8 @@ function generateHtml(newUrl) {
 function githubPagesUrlToFilenames(url) {
   const subFolderStruct = url.replace("https://nextstrain.github.io/ncov", "");
   const fnames = [
-    path.join(__dirname, ".", "docs", subFolderStruct) + ".html",
-    path.join(__dirname, "..", "docs", subFolderStruct, "index.html")
+    path.join(__dirname, "docs", subFolderStruct) + ".html",
+    path.join(__dirname, "docs", subFolderStruct, "index.html")
   ];
   if (subFolderStruct==="/") return [fnames[1]];
   return fnames;
