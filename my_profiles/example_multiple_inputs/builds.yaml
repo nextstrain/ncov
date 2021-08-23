@@ -8,11 +8,11 @@
 
 inputs:
   - name: "aus" 
-    metadata: "data/example_metadata_aus.tsv"
-    sequences: "data/example_sequences_aus.fasta"
+    metadata: "data/example_metadata_aus.tsv.xz"
+    sequences: "data/example_sequences_aus.fasta.xz"
   - name: "worldwide"
-    metadata: "data/example_metadata_worldwide.tsv"
-    sequences: "data/example_sequences_worldwide.fasta"
+    metadata: "data/example_metadata_worldwide.tsv.xz"
+    sequences: "data/example_sequences_worldwide.fasta.xz"
 
 builds:
   multiple-inputs:
