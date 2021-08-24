@@ -1076,6 +1076,7 @@ location	Comilla
 location	Cox's Bazar
 location	Fatikchari
 location	Feni
+location	Halishahar
 location	Hathazari
 location	Jamal Khan
 location	Kazir Dewri
@@ -6513,15 +6514,20 @@ location	Birgitz
 location	Breitenbach Am Inn
 location	Elbigenalp
 location	Fieberbrunn
+location	Fliess
 location	Fulpmes
 location	Galtür
+location	Goetzens
 location	Going am Wilden Kaiser
 location	Hall In Tirol
+location	Hopfgarten
 location	Imst
+location	Imsterberg
 location	Innsbruck
 location	Innsbruck-Land
 location	Ischgl
 location	Jenbach
+location	Jerzens
 location	Kappl
 location	Kematen in Tirol
 location	Kirchbichl
@@ -6537,11 +6543,16 @@ location	Lans
 location	Lienz
 location	Matrei am Brenner
 location	Mayrhofen
+location	Mieming
 location	Nauders
 location	Pettneu Am Arlberg
 location	Pfunds
 location	Ramsau im Zillertal
+location	Ranggen
+location	Reith Bei Seefeld
 location	Reutte
+location	Sankt Anton Am Arlberg
+location	Sankt Leonhard Im Pitztal
 location	Schoenwies
 location	Schwaz
 location	See
@@ -6549,15 +6560,19 @@ location	Seefeld in Tirol
 location	Sistrans
 location	St. Anton am Arlberg
 location	Statutory City (Tyrol)
+location	Steinach Am Brenner
 location	Steinach am Brenner
 location	Strass im Zillertal
 location	Sölden
 location	Söll
+location	Telfs
 location	Thaur
 location	Tösens
+location	Umhausen
 location	Untermieming
 location	Vomp
 location	Wattens
+location	Wildschoenau
 location	Woergl
 location	Zams
 
@@ -8839,6 +8854,7 @@ location	Vrutky
 location	Zabiedovo
 location	Zakamenne
 location	Zavodie
+location	Zborov nad Bystricou
 location	Zuberec
 location	Zubrohlava
 location	Čierne
@@ -8855,6 +8871,7 @@ location	Bátka
 location	Chanava
 location	Detva
 location	Dolna Strehova
+location	Dolná Lehota
 location	Donovaly
 location	Dulovo
 location	Gemersky Sad
@@ -8893,12 +8910,14 @@ location	Tisovec
 location	Torna'A
 location	Tornala
 location	Velky Krtis
+location	Vlkanová
 location	Vrbovce nad Rimavou
 location	Vígľašská Huta-Kalinka
 location	Zarnovica
 location	Zelovce
 location	Ziar nad Hronom
 location	Zvolen
+location	Ľubietová
 location	Štiavnické Bane
 location	Žíp
 
@@ -8914,6 +8933,7 @@ location	Cernina
 location	Cicava
 location	Cigla
 location	Dlhe nad Cirochou
+location	Domaňovce
 location	Doľany
 location	Dubová
 location	Gaboltov
@@ -9037,6 +9057,7 @@ location	Hlivistia
 location	Iliasovce
 location	Inovce
 location	Jablonov nad Turnou
+location	Jamník, district Spisska Nova Ves
 location	Kazimír
 location	Kecovo
 location	Koksov-Baksa
@@ -9044,13 +9065,16 @@ location	Kostolany nad Hornadom
 location	Kralovsky Chlmec
 location	Krasnohorska Dlha Luka
 location	Krompachy
+location	Letanovce
 location	Lozin
 location	Mala Trna
 location	Malčice
 location	Margecany
 location	Markuska
+location	Markušovce
 location	Michalovce
 location	Mnisek nad Hnilcom
+location	Nálepkovo
 location	Orechova
 location	Pavlovce nad Uhom
 location	Plechotice
@@ -9064,10 +9088,13 @@ location	Seňa
 location	Silica
 location	Slavec
 location	Slavkovce
+location	Slovinky
 location	Sobrance
 location	Somotor
 location	Spisska Nova Ves
 location	Spišská Nová Ves
+location	Spišské Tomášovce
+location	Spišské Vlachy
 location	Streda nad Bordrogom
 location	Strážske
 location	Trebejov
@@ -9079,6 +9106,7 @@ location	Valaliky
 location	Veľké Kapušany
 location	Veľké Revištia
 location	Vinne
+location	Vojkovce
 location	Vojnatina
 location	Vrbnica
 location	Vysne Nemecke
@@ -10114,7 +10142,7 @@ location	Puerto Varas
 location	Purranque
 location	Puyehue
 location	Quellon
-location	Rio Negro
+location	Rio Negro CL
 location	San Juan de la Costa
 
 # Los Rios CL
@@ -10471,7 +10499,7 @@ location	Sao Miguel do Guapore
 # Roraima
 location	Amajari
 location	Boa Vista
-location	Bonfim
+location	Bonfim RR
 location	Canta
 location	Caroebe
 location	Pacaraima
@@ -10484,6 +10512,7 @@ location	Alto Paraguai
 location	Alto Taquari
 location	Araputanga
 location	Aripuana
+location	Barra do Garcas
 location	Brasnorte
 location	Caceres BR
 location	Campo Novo do Parecis
@@ -10493,25 +10522,36 @@ location	Chapada Dos Guimaraes
 location	Colider
 location	Comodoro
 location	Cuiaba
+location	Curvelandia
+location	Feliz Natal
+location	Indiavai
+location	Jangada
 location	Juara
 location	Juruena
 location	Lucas do Rio Verde
 location	Marcelandia
 location	Mirassol D Oeste
+location	Nobres
 location	Nortelandia
+location	Nossa Senhora do Livramento
 location	Nova Canaa do Norte
 location	Nova Lacerda
 location	Nova Olimpia
+location	Pocone
+location	Pontes E Lacerda
 location	Primavera do Leste
 location	Rondonopolis
 location	Santo Antonio do Leverger
+location	Sao Jose Dos Quatro Marcos
 location	Sapezal
 location	Sinop
 location	Sorriso
 location	Tangara Da Serra
+location	Tapurah
 location	Terra Nova do Norte
 location	Varzea Grande
 location	Vila Bela
+location	Vila Bela Da Santissima Trindade
 
 # Mato Grosso do Sul
 location	Agua Clara
@@ -10522,6 +10562,7 @@ location	Angelica
 location	Aquidauana
 location	Aquiduana
 location	Aral Moreira
+location	Bandeirantes MS
 location	Bataypora
 location	Bela Vista
 location	Bonito
@@ -10540,6 +10581,7 @@ location	Fatima do Sul
 location	Figueirao
 location	Guia Lopes Da Laguna
 location	Iguatemi
+location	Inocencia
 location	Itapora
 location	Itaquirai
 location	Jardim (Mato Grosso do Sul)
@@ -10552,15 +10594,19 @@ location	Navirai
 location	Nova Alvorada do Sul
 location	Nova Andradina
 location	Paraiso Das Aguas
+location	Paranaiba
 location	Paranhos
 location	Ponta Pora
 location	Porto Murtinho
+location	Ribas do Rio Pardo
 location	Rio Brilhante
+location	Rio Negro BR
 location	Rio Verde de Mato Grosso
 location	Selviria
 location	Sete Quedas
 location	Sidrolandia
 location	Sonora
+location	Tacuru
 location	Tres Lagoas
 location	Vicentina
 
@@ -10800,7 +10846,7 @@ location	Araucaria
 location	Assis Chateaubriand
 location	Astorga BR
 location	Balsa Nova
-location	Bandeirantes
+location	Bandeirantes PR
 location	Barbosa Ferraz
 location	Bela Vista do Paraiso
 location	Bituruna
@@ -11582,30 +11628,46 @@ location	Vitoria do Mearim
 location	Ze Doca
 
 # Minas Gerais
+location	Aguas Vermelhas
 location	Alem Paraiba
 location	Alfenas
 location	Almenara BR
+location	Alterosa
+location	Alvinopolis
 location	Alvorada de Minas
+location	Andradas
 location	Aracuai
 location	Araxa
+location	Arceburgo
 location	Astolfo Dutra
+location	Baldim
 location	Barao de Cocais
 location	Barbacena
 location	Belmiro Braga
 location	Belo Horizonte
 location	Belo Oriente
 location	Betim
+location	Bocaiuva
 location	Bom Despacho
 location	Bom Jardim de Minas
+location	Bonfim MG
+location	Botumirim
+location	Brumadinho
+location	Cabeceira Grande
+location	Cabo Verde
 location	Caetanopolis
 location	Camanducaia
 location	Cambuquira
+location	Campanha
+location	Capinopolis
 location	Caratinga
+location	Carmo de Minas
 location	Carmo do Paranaiba
 location	Cataguases
 location	Chacara
 location	Conceicao do Mato Dentro
 location	Confins
+location	Congonhas
 location	Conselheiro Lafaiete
 location	Conselheiro Pena
 location	Contagem
@@ -11613,23 +11675,32 @@ location	Coromandel
 location	Coronel Fabriciano
 location	Coronel Pacheco
 location	Cruzilia
+location	Curvelo
+location	Desterro de Entre Rios
 location	Desterro do Melo
 location	Diamantina
 location	Divinopolis
+location	Divisa Alegre
+location	Divisopolis
 location	Esmeraldas BR
 location	Formiga
 location	Fronteira
 location	Frutal
 location	Governador Valadares
+location	Guanhaes
 location	Guape
+location	Guaranesia
 location	Iapu
 location	Ibirite
 location	Ibitiura de Minas
 location	Imbe de Minas
+location	Inhapim
+location	Ipatinga
 location	Itabirito
 location	Itajuba
 location	Itaobim
 location	Itauna
+location	Itueta
 location	Ituiutaba
 location	Jaiba
 location	Januaria
@@ -11638,31 +11709,44 @@ location	Jenipapo de Minas
 location	Joao Pinheiro
 location	Jordania
 location	Juiz de Fora
+location	Lagoa Dourada
 location	Lagoa Formosa
 location	Lagoa Santa
+location	Lambari
 location	Leopoldina
+location	Manga
 location	Manhuacu
 location	Mariana
 location	Mendes Pimentel
+location	Minas Novas
 location	Monte Alegre de Minas
+location	Monte Santo de Minas
 location	Montes Claros
 location	Muriae
 location	Nova Ponte
 location	Nova Serrana
+location	Nova Uniao
 location	Olhos-d'Água
 location	Ouro Branco MG
 location	Palma BR
+location	Para de Minas
 location	Paracatu
 location	Paraopeba
 location	Pará de Minas
+location	Patis
 location	Patos de Minas
 location	Patrocinio
 location	Pedras de Maria Da Cruz
+location	Pedro Leopoldo
 location	Piracema
+location	Piranga
 location	Pirapora
 location	Pirauba
 location	Pocos de Caldas
+location	Ponto Chique
+location	Raul Soares
 location	Recreio
+location	Resplendor
 location	Riachinho
 location	Ribeirao Das Neves
 location	Rio Espera
@@ -11671,22 +11755,30 @@ location	Rio Paranaiba
 location	Sabara
 location	Santa Barbara do Monte Verde
 location	Santa Luzia MG
+location	Santa Maria de Itabira
+location	Santa Vitoria
 location	Santo Antonio do Aventureiro
 location	Santo Antonio do Monte
+location	Sao Joao del Rei
 location	Sao Jose Da Lapa
 location	Sao Lourenco
+location	Sao Sebastiao do Paraiso
 location	Serra do Salitre
 location	Sete Lagoas
+location	Soledade de Minas
 location	São Gotardo
 location	Taiobeiras
 location	Tiros
 location	Tombos
+location	Tres Coracoes
 location	Tres Marias
+location	Turmalina
 location	Uberaba
 location	Unai
 location	Varginha
 location	Varjão de Minas
 location	Vespasiano
+location	Visconde do Rio Branco
 
 # Rio de Janeiro
 location	Angra Dos Reis
@@ -12508,6 +12600,9 @@ location	Morona
 # Napo
 location	Tena
 
+# Nueva Loja
+location	Lago Agrio
+
 # Pastaza
 location	Puyo
 
@@ -12912,6 +13007,7 @@ location	Salto Dupi
 location	Abangares
 location	Bagaces
 location	Carrillo
+location	La Cruz
 location	La Cruz CR
 location	Liberia
 location	Nandayure
@@ -13395,7 +13491,9 @@ location	Bonner County
 location	Bonneville County
 location	Canyon County
 location	Elmore County ID
+location	Fremont County ID
 location	Gem County
+location	Idaho County
 location	Jefferson County ID
 location	Kootenai County
 location	Latah County
@@ -13830,6 +13928,7 @@ location	Jackson County MS
 location	Lafayette County MS
 location	Lowndes County MS
 location	Madison County MS
+location	Marion County MS
 location	Marshall County MS
 location	Neshoba County
 location	Oktibbeha County
@@ -16178,7 +16277,13 @@ division	Prešov
 division	Kosice
 
 ### Montenegro
+division	Bar
+division	Podgorica
+division	Rozaje
+division	Berane
 division	Montenegro
+division	Bijelo Polje
+division	Pljevlja
 
 ### Albania
 division	Albania
@@ -16763,6 +16868,7 @@ division	Imbabura
 division	Carchi
 division	Morona Santiago
 division	Napo
+division	Nueva Loja
 division	Pastaza
 division	Sucumbios
 division	Orellana
