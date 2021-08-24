@@ -58,7 +58,7 @@ Each of these is a different subsample of the entire dataset, and each will resu
 
 ---
 
-# Summary of available GenBank (open) files
+## Summary of available GenBank (open) files
 
 Each regional build (`global`, `africa`, `asia`, `europe`, `north-america`, `oceania` and `south-america`) contains a subsampled set of approximately 4000 sequences.
 They are a good starting point if you are seeking a representative sample of data.
@@ -106,7 +106,7 @@ This means that the full GenBank metadata and sequences are typically updated a 
 
 ---
 
-# Starting your build from these intermediates
+## Starting your build from these intermediates
 
 Each workflow defines one or more inputs in the `builds.yaml` file.
 

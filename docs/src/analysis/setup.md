@@ -141,4 +141,3 @@ The resulting phylogeny should look something like this.
 
 ![Phylogenetic tree from the "getting started" build as visualized in Auspice](../images/getting-started-tree.png)
 
-## [Next Section: Preparing your data](data-prep.md)

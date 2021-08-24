@@ -16,7 +16,7 @@ If you haven't done this step yet, check out our [data prep](data-prep.md) guide
 
 In the orientation section, we learned that
 - [Nextstrain analyses are run using a workflow manager called Snakemake](orientation-workflow.md)
-- [A "build"](glossary.md#Build) is a bundle of input files, parameters, and commands
+- [A "build"](https://docs.nextstrain.org/projects/augur/en/latest/faq/what-is-a-build.html) is a bundle of input files, parameters, and commands
 - [Each build is primarily configured by your `builds.yaml` file](orientation-files.md): `builds.yaml` and `config.yaml`
 
 Let's start with defining a build in `./my_profiles/example/builds.yaml`.
@@ -78,7 +78,7 @@ ncov$ snakemake --cores 1 --profile my_profiles/example -p
 
 ## Step 4: Troubleshoot common issues
 
-If you have a question which is not addressed here, please don't hestitate to [ask for help](index.md#Help)
+If you have a question which is not addressed here, please don't hestitate to [ask for help](https://discussion.nextstrain.org/)
 
 
 #### My country / division does not show up on the map
@@ -98,7 +98,7 @@ Unless you want to specifically override the colors generated, it's usually easi
 There are a few steps where sequences can be removed:
 
 - During the `filter` step:
-    - Samples which are included in [the exclude file](https://github.com/nextstrain/ncov/blob/master/defaults/exclude.tsv) are removed
+    - Samples which are included in [the exclude file](https://github.com/nextstrain/ncov/blob/master/defaults/exclude.txt) are removed
     - Samples which fail the current filtering criteria, as defined in the `parameters.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
         - Minimum sequence length of 25kb
         - No ambiguity in (sample collection) date
@@ -149,5 +149,3 @@ the pipeline will produce
 
 These files are meant to facilitate checking whether sequences in `config/exclude.txt` are excluded for valid reasons.
 
-## [Previous Section: Orientation: which files should I touch?](orientation-files.md)
-## [Next Section: Orientation: Customizing your analysis](customizing-analysis.md)

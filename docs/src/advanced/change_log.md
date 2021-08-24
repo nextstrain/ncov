@@ -19,9 +19,9 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
- - 11 August 2021: Add support for "Sequences" and "Patient status metadata" downloads from GISAID's search interface including [documentation in the tutorial of how to use these data](https://docs.nextstrain.org/en/latest/tutorials/SARS-CoV-2/steps/data-prep.html#curate-data-from-gisaid-search-and-downloads). ([#701](https://github.com/nextstrain/ncov/pull/701))
+ - 11 August 2021: Add support for "Sequences" and "Patient status metadata" downloads from GISAID's search interface including [documentation in the tutorial of how to use these data](../analysis/data-prep.html#curate-data-from-gisaid-search-and-downloads). ([#701](https://github.com/nextstrain/ncov/pull/701))
  - 6 August 2021: We've replaced the mechanisms that support remote file inputs (e.g. `s3://` URLs) to improve internal workflow structure, extend support to `gs://`, `http://`, and `https://` URLs, and expand support for compressed inputs.
-   Our [remote file inputs documentation](remote_inputs.md) is updated to reflect the changes.
+   Our [remote file inputs documentation](remote_inputs) is updated to reflect the changes.
 
    This change should be backwards compatible and largely transparent to end users.
    The most visible change for anyone using remote file inputs is the local download location of the remote files: instead of being within the `results/` directory, dynamic directories based on the remote URL are now used.
@@ -32,7 +32,7 @@ We also use this change log to document new features that maintain backward comp
  Please see [PR #628](https://github.com/nextstrain/ncov/pull/628) for full details. Briefly:
      - The (GISAID) profile has been renamed to `./nextstrain_profiles/nextstrain-gisaid`
      - A new "open" (GenBank) profile has been added `./nextstrain_profiles/nextstrain-open`
-     - Intermediate open (GenBank) files, including sequences, & alignments are now publicly available for workflows to use as starting points. See the [remote inputs documentation](https://github.com/nextstrain/ncov/blob/master/docs/remote_inputs.md) for details.
+     - Intermediate open (GenBank) files, including sequences, & alignments are now publicly available for workflows to use as starting points. See the [remote inputs documentation](remote_inputs) for details.
  - 3 July 2021: Allow optional prefixing of `hCoV-19/` to strain names when exporting Auspice JSON for visualization. This is specified via the config option `include_hcov19_prefix`. This is included in Nextstrain-maintained builds at the request of GISAID.
  - 27 June 2021: Update clade definitions with 21G (Lambda, C.37) emerging from Peru and 21H (B.1.621) emerging from Colombia.
  - 22 June 2021: Add the ability to specify subsampling via a `priorities.tsv` file. To use, set the `priorities > type: file` and add `priorities > file: path/to/priorities.tsv` to your build's `subsampling` schema. `priorities.tsv` contains `strain name\tarbitrary numerical value`. Higher values = higher priority. ([#664](https://github.com/nextstrain/ncov/pull/664))
@@ -40,7 +40,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## v7 (27 May 2021)
 
-For more details about this release, see [the configuration reference for the new "sanitize metadata" parameters](https://nextstrain.github.io/ncov/configuration.html#sanitize_metadata) and [the corresponding pull request](https://github.com/nextstrain/ncov/pull/640).
+For more details about this release, see [the configuration reference for the new "sanitize metadata" parameters](configuration.html#sanitize_metadata) and [the corresponding pull request](https://github.com/nextstrain/ncov/pull/640).
 
 ### Major changes
 
@@ -53,7 +53,7 @@ For more details about this release, see [the configuration reference for the ne
 
 ## New features since last version update
 
- - 25 May 2021: Support custom Auspice JSON prefixes with a new configuration parameter, `auspice_json_prefix`. [See the configuration reference for more details](https://nextstrain.github.io/ncov/configuration.html#auspice_json_prefix). ([#643](https://github.com/nextstrain/ncov/pull/643))
+ - 25 May 2021: Support custom Auspice JSON prefixes with a new configuration parameter, `auspice_json_prefix`. [See the configuration reference for more details](configuration.html#auspice_json_prefix). ([#643](https://github.com/nextstrain/ncov/pull/643))
 
 ## v6 (20 May 2021)
 
@@ -73,7 +73,7 @@ For more details about this release, see [the configuration reference for the ne
 
 ### Major changes
 
-- Drop support for old sequence/metadata inputs. This change removes support for the `config["sequences"]` and `config["metadata"]` starting points for the workflow in favor of the more flexible [`config["inputs"]` format](https://nextstrain.github.io/ncov/configuration.html#inputs).
+- Drop support for old sequence/metadata inputs. This change removes support for the `config["sequences"]` and `config["metadata"]` starting points for the workflow in favor of the more flexible [`config["inputs"]` format](configuration.html#inputs).
 - Use `nextalign` for alignment instead of `mafft`. This change completely removes support for `mafft` in favor of `nextalign`. Future versions may reinstate `mafft` support as part of `augur align` updates.
 
 ### Minor changes

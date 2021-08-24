@@ -60,5 +60,3 @@ We'll walk through all of the files one by one, but here are the most important 
 |`./workflow/schemas/`|`config.schema.yaml`|Defines format (e.g., required fields and types) for  `config.yaml` files.|Useful reference, but no modification needed.|
 |`./scripts/`| `add_priorities_to_meta.py`, etc.| Helper scripts for common tasks | No modification needed |
 
-## [Previous Section: Orientation: analysis workflow](orientation-workflow.md)
-## [Next Section: Orientation: Running & troubleshooting](running.md)

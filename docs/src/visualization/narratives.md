@@ -8,6 +8,5 @@ You can [read more about Narratives here](https://nextstrain.org/docs/narratives
 We've also [provided a template narrative file](https://github.com/nextstrain/ncov/tree/master/narratives/template_narrative.md) for you to edit.  
 You can preview the template narrative by navigating to [https://nextstrain.org/community/narratives/nextstrain/ncov/template_narrative](https://nextstrain.org/community/narratives/nextstrain/ncov/template_narrative).
 
-We'll add more to this page soon; in the meantime, if you get stuck, don't hesitate to [ask for help](README.md#Help)! :)
+We'll add more to this page soon; in the meantime, if you get stuck, don't hesitate to [ask for help](https://discussion.nextstrain.org/)! :)
 
-## [Previous Section: Interpreting your results](interpretation.md)

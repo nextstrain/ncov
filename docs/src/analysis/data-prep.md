@@ -285,7 +285,7 @@ For example, analyses that investigate specific variants or transmission pattern
 These specific searches can easily exceed the 5000-record download limit from GISAID's search interface and the diversity of data available in the Nextstrain "nextregions" downloads.
 
 The following instructions describe how to curate data for a region-specific analysis using the full GISAID sequence and metadata files.
-As with [the curation process described above](data-prep.md#curate-data-from-gisaid-search-and-downloads), we describe how to select contextual data from the rest of the world to improve estimates of introductions to your region.
+As with [the curation process described above](#curate-data-from-gisaid-search-and-downloads), we describe how to select contextual data from the rest of the world to improve estimates of introductions to your region.
 This type of analysis also provides a path to selecting contextual data that are as genetically similar as possible to your region's data.
 
 In this example, we will select the following subsets of GISAID data:
@@ -296,7 +296,7 @@ In this example, we will select the following subsets of GISAID data:
 
 ### Download all SARS-CoV-2 metadata and sequences from GISAID
 
-The following instructions assume you have already registered for a free GISAID account, logged into that account, and selected the "EpiCoV" link from the navigation bar, [as described above](data-prep.md#login-to-gisaid).
+The following instructions assume you have already registered for a free GISAID account, logged into that account, and selected the "EpiCoV" link from the navigation bar, [as described above](#login-to-gisaid).
 Select the "Downloads" link from the EpiCoV navigation bar.
 
 ![GISAID EpiCoV navigation bar with "Downloads" link](../images/gisaid-epicov-navigation-bar-with-downloads.png)
@@ -432,7 +432,5 @@ inputs:
 
 ## Subsampling
 
-We've outlined several methods for subsampling, including builds with a focus area and genetically similar contextual sequences, in the [section on customizing your analysis](customizing-analysis.md#subsampling).
+We've outlined several methods for subsampling, including builds with a focus area and genetically similar contextual sequences, in the [section on customizing your analysis](https://docs.nextstrain.org/projects/ncov/en/latest/analysis/customizing-analysis.html#subsampling).
 
-## [Previous Section: Setup and installation](setup.md)
-## [Next Section: Orientation: workflow](orientation-workflow.md)

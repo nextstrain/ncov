@@ -47,7 +47,7 @@ When your browser connects to auspice.us, it downloads from the server a version
 
 
 ## Option 2: Nextstrain community pages  
-* **Example:** [CZBiohub's California COVID Tracker](https://nextstrain.org/community/czbiohub/covidtracker/ca)
+* **Example:** [CZBiohub's California COVID Tracker](https://nextstrain.org/community/czbiohub/covidtracker/)
 * **Advantages:** Fully featured, plug-and-play visualization of any JSON file hosted on Github.
 * **Limitations:** Only available for publicly viewable JSON files in public repositories.
 
@@ -110,5 +110,3 @@ With Nextstrain Groups, you can choose whether each dataset is publicly viewable
 #### Privacy and security  
 Independently hosted Auspice servers can be configured with any security protocols necessary.
 
-## [Previous Section: Orientation: Customizing your visualization](../analysis/customizing-visualization.md)
-## [Next Section: Interpreting your results](interpretation.md)
