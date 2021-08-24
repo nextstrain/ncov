@@ -343,12 +343,12 @@ location	Kulhudhuffushi
 # Haa Alif Atoll
 location	Dhidhdhooo
 
+# Gaafu Alifu Atoll
+location	Villingili
+
 # Shaviyani Atoll
 location	Feevah
 location	Foakaidhoo
-
-# Gaafu Alifu Atoll
-location	Villingili
 
 ### India
 # Kerala
@@ -10291,7 +10291,6 @@ location	Los Sauces
 location	Macul
 location	Maipu
 location	Melipilla
-location	Nunoa
 location	Padre Hurtado
 location	Paine
 location	Pedro Aguirre Cerda
@@ -12509,9 +12508,6 @@ location	Morona
 # Napo
 location	Tena
 
-# Nueva Loja
-location	Lago Agrio
-
 # Pastaza
 location	Puyo
 
@@ -13259,6 +13255,7 @@ location	Lake County OR
 location	Lane County OR
 location	Lincoln County OR
 location	Linn County
+location	Linn County OR
 location	Malheur County
 location	Marion County OR
 location	Morrow County OR
@@ -13486,6 +13483,7 @@ location	Catron County
 location	Cibola County
 location	Colfax County
 location	Dona Ana County
+location	Eddy County
 location	Grant County NM
 location	Guadalupe County NM
 location	Lincoln County NM
@@ -14105,6 +14103,7 @@ location	Cumberland County TN
 location	Davidson County TN
 location	Grainger County
 location	Shelby County TN
+location	Sumner County TN
 
 # Indiana
 location	Boone County IN
@@ -14451,7 +14450,6 @@ location	Hampshire County
 location	Middlesex County MA
 location	Norfolk County
 location	Plymouth County
-location	Suffolk
 location	Suffolk County MA
 location	Worcester County MA
 
@@ -14730,8 +14728,8 @@ division	Kaafu Atoll
 division	Raa Atoll
 division	Haa Dhaalu Atoll
 division	Haa Alif Atoll
-division	Shaviyani Atoll
 division	Gaafu Alifu Atoll
+division	Shaviyani Atoll
 
 ### Kyrgyzstan
 division	Kyrgyzstan
@@ -16765,7 +16763,6 @@ division	Imbabura
 division	Carchi
 division	Morona Santiago
 division	Napo
-division	Nueva Loja
 division	Pastaza
 division	Sucumbios
 division	Orellana
