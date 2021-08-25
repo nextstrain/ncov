@@ -104,7 +104,8 @@ rule diagnostic:
         to_exclude = "results/to-exclude_{origin}.txt"
     params:
         clock_filter = 20,
-        snp_clusters = 1
+        snp_clusters = 1,
+        rare_mutations = 100,
     log:
         "logs/diagnostics_{origin}.txt"
     benchmark:
@@ -118,6 +119,7 @@ rule diagnostic:
         python3 scripts/diagnostic.py \
             --metadata {input.metadata} \
             --clock-filter {params.clock_filter} \
+            --rare-mutations {params.rate_mutations} \
             --snp-clusters {params.snp_clusters} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
