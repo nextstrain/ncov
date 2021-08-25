@@ -10238,3 +10238,12 @@ IND/RGCB-LMMD-15/2020
 # divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1629399228069400
 Sweden/10048381/2020
 Argentina/PAIS-A0394/2020
+
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1629877765090200
+Venezuela/LaG1401/2021
+Indonesia/JK-FKUI-MKIM30/2020
+Indonesia/JK-FKUI-MKIM26/2020
+USA/AZ-TG968459/2020
+Indonesia/JK-FKUI-MKIM33/2020
+USA/AZ-TG968499/2020
+Switzerland/VD-ETHZ-500009/2020
