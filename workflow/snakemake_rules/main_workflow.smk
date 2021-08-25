@@ -119,7 +119,7 @@ rule diagnostic:
         python3 scripts/diagnostic.py \
             --metadata {input.metadata} \
             --clock-filter {params.clock_filter} \
-            --rare-mutations {params.rate_mutations} \
+            --rare-mutations {params.rare_mutations} \
             --snp-clusters {params.snp_clusters} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
