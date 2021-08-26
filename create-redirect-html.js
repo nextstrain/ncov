@@ -33,18 +33,15 @@ const redirects = [
   [`https://nextstrain.github.io/ncov/sharing`, `${ncovRTD}/visualization/sharing.html`],
   [`https://nextstrain.github.io/ncov/interpretation`, `${ncovRTD}/visualization/interpretation.html`],
   [`https://nextstrain.github.io/ncov/narratives`, `${ncovRTD}/visualization/narratives.html`],
-  [`https://nextstrain.github.io/ncov/multiple_inputs`, `${ncovRTD}/advanced/multiple_inputs.html`],
-  [`https://nextstrain.github.io/ncov/configuration`, `${ncovRTD}/advanced/configuration.html`],
-  [`https://nextstrain.github.io/ncov/naming_clades`, `${ncovRTD}/advanced/naming_clades.html`],
-  [`https://nextstrain.github.io/ncov/metadata-fields`, `${ncovRTD}/advanced/metadata-fields.html`],
-/** these aren't in the subproject but maybe people had them 
- * saved from the github pages even if they aren't in the gh pages toc tree,
- * they could have been linked to / discovered otherwise (they are valid urls)
- * change_log.md
- * data_submitter_faq.md
+  [`https://nextstrain.github.io/ncov/multiple_inputs`, `${ncovRTD}/reference/multiple_inputs.html`],
+  [`https://nextstrain.github.io/ncov/configuration`, `${ncovRTD}/reference/configuration.html`],
+  [`https://nextstrain.github.io/ncov/naming_clades`, `${ncovRTD}/reference/naming_clades.html`],
+  [`https://nextstrain.github.io/ncov/metadata-fields`, `${ncovRTD}/reference/metadata-fields.html`],
+  [`https://nextstrain.github.io/ncov/change_log`, `${ncovRTD}/reference/change_log.html`],
+  [`https://nextstrain.github.io/ncov/data_submitter_faq`, `${ncovRTD}/reference/data_submitter_faq.html`],
+/** these aren't in the subproject as of the time of these redirects being implemented
  * dev_docs.md
  * glossary.md
- * remote_inputs.md
  * translation_docs.md */
 ];
 
