@@ -13,7 +13,7 @@ def mask_terminal_gaps(seq):
     left_gaps = L - len(seq_trimmed)
     seq_trimmed = seq_trimmed.rstrip('-')
     right_gaps = L - len(seq_trimmed) - left_gaps
-    return "N"*left_gaps + seq_trimmed + "N"*right_gaps 
+    return "N"*left_gaps + seq_trimmed + "N"*right_gaps
 
 
 if __name__ == '__main__':
@@ -48,6 +48,7 @@ if __name__ == '__main__':
             seq_list = list(start + middle + end)
             if args.mask_sites:
                 for site in args.mask_sites:
-                    seq_list[site-1] = "N"
+                    if seq_list[site-1]!='-':
+                        seq_list[site-1] = "N"
             record.seq = Seq("".join(seq_list))
             write_sequences(record, outfile)

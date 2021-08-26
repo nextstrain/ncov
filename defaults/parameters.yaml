@@ -88,8 +88,7 @@ mask:
 
   # Specific sites to mask in the reference genome's coordinates.
   # These are 1-indexed coordinates of sites that have been identified as prone to sequencing errors.
-  # 13402, 24389 and 24390 are restricted to Belgian samples
-  mask_sites: "13402 24389 24390"
+  mask_sites: "21987"
 
 # Depending on how you define focal and contextual inputs, the same strains may
 # appear in both inputs. This option tells the workflow not to throw an error
