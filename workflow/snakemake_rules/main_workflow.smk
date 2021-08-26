@@ -106,6 +106,7 @@ rule diagnostic:
         clock_filter = 20,
         snp_clusters = 1,
         rare_mutations = 100,
+        clock_plus_rare = 100,
     log:
         "logs/diagnostics_{origin}.txt"
     benchmark:
@@ -120,6 +121,7 @@ rule diagnostic:
             --metadata {input.metadata} \
             --clock-filter {params.clock_filter} \
             --rare-mutations {params.rare_mutations} \
+            --clock-plus-rare {params.clock_plus_rare} \
             --snp-clusters {params.snp_clusters} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
