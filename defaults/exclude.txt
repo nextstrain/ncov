@@ -8015,7 +8015,7 @@ France/HDF-100002988278/2021
 Germany/un-FLI-B.1.351/2021
 
 # Divergence, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1625040602026000 and following threads
-Angola/CERI-KRISP-K013423/2020 
+Angola/CERI-KRISP-K013423/2020
 Mozambique/CERI-KRISP-K015076/2021
 Mozambique/INS-K011777/2020
 SouthAfrica/NICD-N3577/2021
@@ -10250,3 +10250,12 @@ Switzerland/VD-ETHZ-500009/2020
 
 # https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1629990683004500
 KOR/SNUH-34/2020
+
+# likely misdating, Overdivergent, or stops
+Mexico/AGU-InDRE_FB18599_S4467/2020
+Senegal/SC20-504/2020
+NorthMacedonia/19400-k/2021
+NorthMacedonia/20482-k/2021
+NorthMacedonia/42455/2021
+Venezuela/Mir8310/2021
+USA/TX-HMH-MCoV-41496/2020
