@@ -19,5 +19,5 @@ If you have a specific question, post a note over at the `discussion board <http
 
    analysis/index
    visualization/index
-   advanced/index
+   reference/index
    Stuck? Ask us on the discussion board. We're happy to help! <https://discussion.nextstrain.org/>

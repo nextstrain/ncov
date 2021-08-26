@@ -50,7 +50,7 @@ strain              virus  gisaid_epi_isl  genbank_accession   date        regio
 NewZealand/01/2020  ncov   EPI_ISL_413490  ?                   2020-02-27  Oceania  ...
 ```
 
-[See the reference guide on metadata fields for more details](../advanced/metadata-fields.md).
+[See the reference guide on metadata fields for more details](../reference/metadata-fields.md).
 
 #### Required metadata
 

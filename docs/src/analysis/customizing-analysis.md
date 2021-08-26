@@ -195,7 +195,7 @@ exposure:
 
 ## Labeling clades
 
-We assign clade labels according to [this schema](../advanced/naming_clades.md).
+We assign clade labels according to [this schema](../reference/naming_clades.md).
 
 Because the exact topology of the tree will vary across runs, clades are defined based on their unique mutations.
 These are specified in `defaults/clades.tsv` like so:

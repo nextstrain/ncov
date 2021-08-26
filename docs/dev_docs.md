@@ -61,7 +61,7 @@ We use semantic versioning of the ncov workflow, denoting backward incompatible 
 Prior to merging a pull request that introduces a new backward incompatible change (e.g., requirement of a new version of Augur), take the following steps to document these changes:
 
  1. Determine the new version number by incrementing [the current version](https://github.com/nextstrain/ncov/releases/) (e.g., "v2" from "v1").
- 2. As part of the pull request, document the change(s) from the pull request in [`docs/src/advanced/change_log.md`](https://github.com/nextstrain/ncov/blob/master/docs/src/advanced/change_log.md) with the current date and new version number.
+ 2. As part of the pull request, document the change(s) from the pull request in [`docs/src/reference/change_log.md`](https://github.com/nextstrain/ncov/blob/master/docs/src/reference/change_log.md) with the current date and new version number.
  3. Merge the pull request
  4. [Create a new GitHub release](https://github.com/nextstrain/ncov/releases/new) using the new version as the tag (e.g., "v2") and release title. Leave the release description empty.
 

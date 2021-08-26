@@ -1,6 +1,6 @@
-****************
-Advanced guides
-****************
+******************
+Reference material
+******************
 
 .. toctree::
    :maxdepth: 1

@@ -81,7 +81,7 @@ We update the official workflow regularly with:
 
  - [curated metadata including latitudes/longitudes, clade annotations, and low quality sequences](https://github.com/nextstrain/ncov/commits/master)
  - bug fixes
- - [new features](../advanced/change_log)
+ - [new features](../reference/change_log)
 
 Update your local copy of the workflow, to benefit from these changes.
 
@@ -98,7 +98,7 @@ git pull --rebase origin master
 ```
 
 Alternately, download a specific version of the workflow that you know works for you.
-We create new [releases of the workflow](https://github.com/nextstrain/ncov/releases/) any time we introduce breaking changes, so you can choose when to update based on [what has changed](../advanced/change_log).
+We create new [releases of the workflow](https://github.com/nextstrain/ncov/releases/) any time we introduce breaking changes, so you can choose when to update based on [what has changed](../reference/change_log).
 
 ```bash
 # Download version 7 (v7) of the workflow.
