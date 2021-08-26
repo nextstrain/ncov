@@ -19,6 +19,11 @@
       "type": "categorical"
     },
     {
+      "key": "pango_lineage",
+      "title": "PANGO Lineage",
+      "type": "categorical"
+    },
+    {
       "key": "clade_membership",
       "title": "Clade",
       "type": "categorical"
@@ -61,6 +66,16 @@
     {
       "key": "author",
       "title": "Authors",
+      "type": "categorical"
+    },
+    {
+      "key":"originating_lab",
+      "title": "Originating Lab",
+      "type": "categorical"
+    },
+    {
+      "key": "submitting_lab",
+      "title": "Submitting Lab",
       "type": "categorical"
     },
     {
