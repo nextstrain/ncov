@@ -1,3 +1,4 @@
 # python dependencies for developer scripts in this directory; install with pip install -r scripts/developer_scripts/requirements.txt
+boto3
 geopy
 xlrd
