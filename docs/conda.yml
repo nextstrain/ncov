@@ -1,0 +1,14 @@
+name: ncov-docs
+channels:
+  - defaults
+dependencies:
+  - make
+  - recommonmark
+  - requests
+  - sphinx
+  - pip
+  - pip:
+    - nextstrain-sphinx-theme>=2020.2
+    - sphinx-markdown-tables
+    - sphinx-argparse
+    - sphinx-tabs

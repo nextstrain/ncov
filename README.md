@@ -1,5 +1,5 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/nextstrain/ncov)](https://github.com/nextstrain/ncov/releases)
-[![See recent changes](https://img.shields.io/badge/changelog-See%20recent%20changes-blue)](https://github.com/nextstrain/ncov/blob/master/docs/change_log.md)
+[![See recent changes](https://img.shields.io/badge/changelog-See%20recent%20changes-blue)](https://docs.nextstrain.org/projects/ncov/en/latest/reference/change_log.html)
 
 # About
 
@@ -7,7 +7,7 @@ This repository analyzes viral genomes using [Nextstrain](https://nextstrain.org
 
 We maintain a number of publicly-available builds, visible at [nextstrain.org/ncov](https://nextstrain.org/ncov).
 
-[See our change log for details about backwards-incompatible or breaking changes to the workflow](https://github.com/nextstrain/ncov/blob/master/docs/change_log.md).
+[See our change log for details about backwards-incompatible or breaking changes to the workflow](https://docs.nextstrain.org/projects/ncov/en/latest/reference/change_log.html).
 
 # Resources
 
