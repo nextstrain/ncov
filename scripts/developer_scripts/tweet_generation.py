@@ -26,6 +26,7 @@ def read_excel_lab_file(table_file_name):
 #   - Also make a collection of all countries all time in order to detect newly appeared countries this month
 #   - Return all labs of specified month & new countries
 def read_metadata(filename, date_g, tweet):
+    uk_divisions = ["England", "Wales", "Northern Ireland", "Scotland", "United Kingdom"]
 
     year_g = date_g[:4]
     month_g = date_g[5:7]
@@ -47,20 +48,26 @@ def read_metadata(filename, date_g, tweet):
     new_seqs_count = 0
 
     with open(filename) as f:
-        header = f.readline().split("\t")
+
+        header = f.readline().strip().split("\t")
         country_i = header.index("country")
         region_i = header.index("region")
+        division_i = header.index("division")
         subm_date_i = header.index("date_submitted")
         sampl_date_i = header.index("date")
         subm_lab_i = header.index("submitting_lab")
         orig_lab_i = header.index("originating_lab")
         author_i = header.index("authors")
+        clock_deviation_i = header.index("rare_mutations")
+        pango_lineage_i = header.index("pango_lineage")
+
 
         line = f.readline()
         while line:
             l = line.split("\t")
             country = l[country_i]
             region = l[region_i]
+            division = l[division_i]
             lab = l[subm_lab_i]
             orig_lab = l[orig_lab_i]
             author = l[author_i]
@@ -77,16 +84,18 @@ def read_metadata(filename, date_g, tweet):
             # Collect all labs and countries from the specified month
             if year == year_g and month == month_g:
                 new_seqs_count += 1
+
                 if country not in countries[region]:
                     countries[region].append(country)
                     labs[region][country] = {"submitting_lab": [], "originating_lab": [], "authors": []}
 
-                if lab not in labs[region][country]["submitting_lab"]:
-                    labs[region][country]["submitting_lab"].append(lab)
-                if orig_lab not in labs[region][country]["originating_lab"]:
-                    labs[region][country]["originating_lab"].append(orig_lab)
-                if author not in labs[region][country]["authors"]:
-                    labs[region][country]["authors"].append(author)
+                if country != "United Kingdom" or division not in uk_divisions: # Skip all UK entries that are not overseas territories
+                    if lab not in labs[region][country]["submitting_lab"]:
+                        labs[region][country]["submitting_lab"].append(lab)
+                    if orig_lab not in labs[region][country]["originating_lab"]:
+                        labs[region][country]["originating_lab"].append(orig_lab)
+                    if author not in labs[region][country]["authors"]:
+                        labs[region][country]["authors"].append(author)
             else:
                 if tweet:
                     # Also check for next month in case we're late with tweeting
@@ -97,12 +106,13 @@ def read_metadata(filename, date_g, tweet):
                             countries_old[region].append(country)
                             labs_old[region][country] = {"submitting_lab": [], "originating_lab": [], "authors": []}
 
-                        if lab not in labs_old[region][country]["submitting_lab"]:
-                            labs_old[region][country]["submitting_lab"].append(lab)
-                        if orig_lab not in labs_old[region][country]["originating_lab"]:
-                            labs_old[region][country]["originating_lab"].append(orig_lab)
-                        if author not in labs_old[region][country]["authors"]:
-                            labs_old[region][country]["authors"].append(author)
+                        if country != "United Kingdom" or division not in uk_divisions:
+                            if lab not in labs_old[region][country]["submitting_lab"]:
+                                labs_old[region][country]["submitting_lab"].append(lab)
+                            if orig_lab not in labs_old[region][country]["originating_lab"]:
+                                labs_old[region][country]["originating_lab"].append(orig_lab)
+                            if author not in labs_old[region][country]["authors"]:
+                                labs_old[region][country]["authors"].append(author)
 
             line = f.readline()
 
