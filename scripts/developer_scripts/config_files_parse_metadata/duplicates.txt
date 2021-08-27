@@ -97,7 +97,6 @@ Crawford County
 Johnson County
 Mason County
 Central District
-Lorena
 Georgetown
 San Ramon
 San Felipe
@@ -154,7 +153,6 @@ Mysliborz
 Sulecin
 Lubrza
 Jasper County
-Toledo
 Anderson County
 Wólka
 Mafra
