@@ -2396,6 +2396,8 @@ location	Crosby County	33.5778818	-101.2855737
 location	Cross Plains	43.115305	-89.646827
 location	Crouy en Thelle	49.213817	2.320688
 location	Crucita	-1.7063836	-80.5745459
+location	Cruise_Ship_1	35.4494305991609	-122.69846089824118
+location	Cruise_Ship_2	37.44646442694522	-124.08273825216106
 location	Crusnes	49.4344038	5.9154872
 location	Cruz Alta	-28.645056	-53.6058047
 location	Cruz Das Almas	-12.6722649	-39.1053665
@@ -10698,6 +10700,7 @@ location	Vechmaal	50.7608875	5.373733
 location	Vedra	42.7765527	-8.4821723
 location	Veendam	53.0807517	6.877303483300453
 location	Veerle	51.068963	4.986866
+location	Vega Alta County	18.4121187	-66.3312486
 location	Vega Baja	18.41776575	-66.39944742043909
 location	Vega de Pas	43.1585436	-3.7821043
 location	Vegaquemada	42.79869845	-5.339723737661707
@@ -11969,8 +11972,8 @@ division	Center Kalimantan	-2.2072919	113.9164372
 division	Central African Republic	7.0323598	19.9981227
 division	Central Banat District	45.4481444	20.8551358
 division	Central Bohemian Region	49.860420	14.668725
-division	Central District	31.9521	34.9066
 division	Central District BW	-21.4790187	26.2154174
+division	Central District IL	31.9521	34.9066
 division	Central Greece	38.58000405	23.151988380646536
 division	Central Hungary	47.360008	19.252798
 division	Central Jakarta	-6.18233995	106.84287153600738
@@ -12095,6 +12098,7 @@ division	Da Nang	16.068	108.212
 division	Dabola	10.742172	-11.106486
 division	Dadra and Nagar Haveli	20.2733604	73.0044988
 division	Dadra and Nagar Haveli and Daman and Diu	20.718174949999998	70.93238341010638
+division	Daegu	35.8713	128.6018
 division	Dagestan	43.0574916	47.1332224
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
@@ -12386,6 +12390,7 @@ division	Hebron	31.528902	35.0944873
 division	Heilongjiang	47.286490	127.992676
 division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
+division	Herceg Novi	42.4517622	18.5367516
 division	Heredia	9.997549	-84.121162
 division	Herrera	7.8432774	-80.75877048589277
 division	Herselt	51.0524	4.8807
@@ -12768,6 +12773,7 @@ division	Lika-Senj County	44.66818	15.3324696
 division	Lima	-11.971424	-77.070229
 division	Limburg	50.612763	5.936255
 division	Limburg BE	51.018966	5.426288
+division	Limburg NL	51.2015196	5.9046302
 division	Limerick	52.662235	-8.627565
 division	Limon	10.3787478	-83.5848401
 division	Limpopo	-23.4013	29.4179
@@ -12813,6 +12819,7 @@ division	Lummen	50.9876	5.1951
 division	Lusaka	-15.4164488	28.2821535
 division	Luxembourg	49.755428	6.119486
 division	Luxembourg BE	49.978352826667525	5.501312530195323
+division	Luxembourg LU	49.8158683	6.1296751
 division	Lviv	49.841952	24.0315921
 division	Maafushi	3.9411571	73.48992800644209
 division	Maaseik	51.104005	5.714000
@@ -13107,6 +13114,7 @@ division	North Sulawesi	0.950357	124.450132
 division	North Sumatra	2.1923519	99.3812201
 division	North-West	-26.524595	25.625515
 division	North-West CH	47.330017637070874	7.563016736235331
+division	North-West ZA	-26.1347819	25.6546729
 division	North Western Province	7.9745867	79.97200526412345
 division	Northeastern Region MK	42.1670929	22.002467993493266
 division	Northern Cape	-29.573402	21.2051361
@@ -13692,6 +13700,7 @@ division	Svit	49.0582357	20.1965291
 division	Sweden	59.6749712	14.5208584
 division	Swietokrzyskie	50.7504894	20.7829122
 division	Switzerland	46.8182	8.2275
+division	Świętokrzyskie Voivodeship	50.7504894	20.7829122
 division	Syddanmark	55.3784583	9.13192766793894
 division	Sylhet	24.8949	91.8687
 division	Syria	34.6401861	39.0494106

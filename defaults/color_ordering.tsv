@@ -37,7 +37,7 @@ location	Kdumim
 location	Mevo Horon
 location	Modi'in Illit
 
-# Central District
+# Central District IL
 location	Beerot-Itzhak
 location	Bnei Ayish
 location	Elad
@@ -1161,6 +1161,7 @@ location	Goalanda
 location	Gopalgonj
 location	Green Road
 location	Gulshan
+location	Jamalpur (Dhaka)
 location	Jatrabari
 location	Kalabagan
 location	Keraniganj
@@ -1225,9 +1226,10 @@ location	Pabna
 location	Rajpara BD
 location	Rajshahi
 location	Sirajganj
+location	Sirajgonj
 
 # Mymensingh
-location	Jamalpur
+location	Jamalpur (Mymensingh)
 location	Mymensingh
 location	Netrokona
 location	Sherpur
@@ -1247,6 +1249,7 @@ location	Sylhet
 location	City Corporation
 location	Dinajpur
 location	Gaibandha
+location	Kurigram
 location	Mithapukur
 location	Nilphamari
 location	Panchagarh
@@ -1602,6 +1605,9 @@ location	Taguig City
 location	San Jose Del Monte City
 
 ### South Korea
+# Daegu
+location	Buk-Gu
+
 # Chungcheongnam
 location	Chungcheongnam
 
@@ -1932,10 +1938,12 @@ location	Tati Siding
 ### South Africa
 # Western Cape Province
 location	Beaufort West
+location	Bergrivier
 location	Bishop Lavis
 location	Bitou
 location	Brackenfell
 location	Breede Valley
+location	Breede Valley Municipality
 location	Breedevalley
 location	Cape Agulhas
 location	Cape Town
@@ -1958,19 +1966,26 @@ location	Kleinvlei
 location	Klipfontein
 location	Knysna
 location	Kraaifontein
+location	Langeberg
+location	Langeberg Municipality
 location	Matzikama
 location	Milnerton
 location	Mitchells Plain
 location	Mossel Bay
 location	Oudtshoorn
 location	Overberg
+location	Overstrand
 location	Prince Albert
 location	Saldanha Bay
 location	Stellenbosch
+location	Swartland
 location	Swellendam
 location	Theewaterskloof
+location	Theewaterskloof Municipality
 location	Tygerberg
 location	West Coast
+location	Witzenberg
+location	Witzenberg Municipality
 
 # Northern Cape
 location	Alexander Bay
@@ -1991,9 +2006,6 @@ location	Richtersveld
 location	Siyathemba
 location	Springbok
 location	Steinkopf
-
-# North-West
-location	Jouberton
 
 # Eastern Cape
 location	Amathole
@@ -2097,6 +2109,7 @@ location	Al Matariyyah
 ### Malawi
 # Southern Region MW
 location	Blantyre
+location	Thyolo
 
 # Central Region MW
 location	Lilongwe
@@ -2123,6 +2136,7 @@ location	Xai Xai
 
 # Inhambane
 location	Inhambane
+location	Massinga
 location	Maxixe
 location	Zavala
 
@@ -2260,7 +2274,7 @@ location	São Domingos da Benfica
 location	Torres Vedras
 location	Vila Franca de Xira
 
-# Santarem PT
+# Santarem
 location	Almeirim
 location	Benavente
 location	Rio Maior
@@ -3611,7 +3625,7 @@ location	Iracoubo
 location	Javouhey
 location	Kourou
 location	Macouria
-location	Mana (French Guiana)
+location	Mana FR
 location	Maripasoula
 location	Matoury
 location	Montsinéry-Tonnegrande
@@ -5460,7 +5474,7 @@ location	Jemeppe-sur-Sambre
 location	Ligny
 location	Mettet
 location	Profondeville
-location	Saint-Denis (Namur)
+location	Saint-Denis BE
 location	Saint-Servais
 location	Sambreville
 location	Sombreffe
@@ -5904,7 +5918,7 @@ location	Sneek
 location	Waaksens
 location	Weststellingwerf
 
-# Limburg
+# Limburg NL
 location	Beek
 location	Beekdaelen
 location	Brunssum
@@ -6035,7 +6049,7 @@ location	Zuidlaren
 location	Zuidwolde
 
 ### Luxembourg
-# Luxembourg
+# Luxembourg LU
 location	Luxembourg
 
 ### Switzerland
@@ -7340,6 +7354,7 @@ location	Lipiany
 location	Lobez
 location	Lubianka
 location	Miedzywodzie
+location	Miedzyzdroje
 location	Mielno
 location	Mierzyn
 location	Miroslawiec
@@ -7642,6 +7657,7 @@ location	Smogorzewo
 location	Srem
 location	Sroda Wielkopolska
 location	Stary Dwor
+location	Stary Tomysl
 location	Strozki
 location	Strykowo
 location	Suchy las
@@ -8507,6 +8523,7 @@ location	Przemysl
 location	Przeworsk
 location	Ropczyce
 location	Rozubowice
+location	Ruda
 location	Rudnik nad Sanem
 location	Rzeszow
 location	Rzeszowski
@@ -8600,7 +8617,9 @@ location	Sejny
 location	Siemiatycze
 location	Sokolski
 location	Sokółka
+location	Srodlesie
 location	Stary Kamień
+location	Suchowola
 location	Suwałki
 location	Szudziałowo
 location	Twarogi-Mazury
@@ -11556,7 +11575,9 @@ location	Potirendaba
 location	Pradopolis
 location	Praia Grande (São Paulo)
 location	Pratania
+location	Presidente Bernarde
 location	Presidente Bernardes
+location	Presidente Epiacio
 location	Presidente Epitacio
 location	Presidente Prudente
 location	Presidente Venceslau
@@ -12629,7 +12650,7 @@ location	Imbabura
 location	Jordán
 location	Miguel Egas
 location	Otavalo
-location	San Pablo EC
+location	San Pablo (Imbabura)
 location	San Roque EC
 location	Urcuqui
 
@@ -12714,9 +12735,6 @@ location	Tolemaida
 location	Armenia
 location	Montenegro CO
 
-# Bogota
-location	Bogota
-
 # Cartago CO
 location	Cartago CO
 
@@ -12728,6 +12746,7 @@ location	Pereira
 location	Puerto Carreno
 
 # Cundinamarca
+location	Bogota
 location	Cajica
 location	Chia
 location	Choconta
@@ -12796,6 +12815,7 @@ location	Fredonia
 location	Frontino
 location	Girardota
 location	Guarne
+location	Guatape
 location	Itagui
 location	Itagüi
 location	La Ceja
@@ -12810,7 +12830,7 @@ location	Retiro CO
 location	Rionegro
 location	Sabaneta
 location	San Luis
-location	San Pedro CO
+location	San Pedro (Antioquia)
 location	San Pedro de Uraba
 location	San Pedro de los Milagros
 location	San Rafael CO
@@ -12844,8 +12864,13 @@ location	Santa Cruz de Lorica
 location	Tierralta
 
 # Sucre
+location	Chinu
+location	Corozal
 location	Galeras
+location	San Pedro (Sucre)
+location	Santiago de Tolu
 location	Sincelejo
+location	Tolu
 
 # Cesar
 location	Valledupar
@@ -13147,7 +13172,6 @@ location	San Francisco de Dos Rios
 location	San Isidro de El General
 location	San Jerónimo
 location	San Jose
-location	San Jose CR
 location	San Pedro CR
 location	San Rafael Arriba
 location	San Rafael de Escazú
@@ -13390,7 +13414,6 @@ location	Klamath County
 location	Lake County OR
 location	Lane County OR
 location	Lincoln County OR
-location	Linn County
 location	Linn County OR
 location	Malheur County
 location	Marion County OR
@@ -13454,6 +13477,8 @@ location	Butte County
 location	Calaveras County
 location	Colusa County
 location	Contra Costa County
+location	Cruise_Ship_1
+location	Cruise_Ship_2
 location	Del Norte County
 location	El Dorado County
 location	Fresno County
@@ -13568,7 +13593,6 @@ location	Pima County
 location	Pinal County
 location	Santa Cruz County AZ
 location	Yavapai County
-location	Yuma County
 location	Yuma County AZ
 
 # Montana
@@ -13634,7 +13658,6 @@ location	Otero County
 location	Rio Arriba County
 location	San Juan County NM
 location	Sandoval County
-location	Santa Fe County
 location	Santa Fe County NM
 location	Sierra County NM
 location	Socorro County
@@ -13668,7 +13691,6 @@ location	Bailey County
 location	Bandera County
 location	Bastrop County
 location	Bee County
-location	Bell County
 location	Bell County TX
 location	Bexar County
 location	Bosque County
@@ -13692,7 +13714,6 @@ location	Castro County
 location	Chambers County TX
 location	Collin County
 location	Collingsworth County
-location	Colorado County
 location	Colorado County TX
 location	Comal County
 location	Comanche County
@@ -13730,7 +13751,6 @@ location	Hall County
 location	Harris County
 location	Harrison County TX
 location	Hays County
-location	Hidalgo County
 location	Hidalgo County TX
 location	Hill County TX
 location	Hockley County
@@ -13793,7 +13813,6 @@ location	Randall County
 location	Reagan County TX
 location	Red River County
 location	Refugio County
-location	Robertson County
 location	Robertson County TX
 location	Rockwall County
 location	Runnels County TX
@@ -14092,7 +14111,6 @@ location	Coles County IL
 location	Cook County IL
 location	Crawford County IL
 location	Cumberland County IL
-location	De Witt County
 location	DeWitt County IL
 location	Dekalb County IL
 location	Douglas County IL
@@ -14116,11 +14134,9 @@ location	Iroquois County
 location	Jackson County IL
 location	Jasper County IL
 location	Jefferson County IL
-location	Jersey County
 location	Jersey County IL
 location	Jo Daviess County
 location	Johnson County IL
-location	Kane County
 location	Kane County IL
 location	Kankakee County
 location	Kendall County IL
@@ -14147,7 +14163,6 @@ location	Monroe County IL
 location	Montgomery County IL
 location	Morgan County IL
 location	Moultrie County
-location	Ogle County
 location	Ogle County IL
 location	Peoria County
 location	Perry County IL
@@ -14166,7 +14181,6 @@ location	Scott County IL
 location	Shelby County IL
 location	St. Clair County IL
 location	Stark County
-location	Stephenson County
 location	Stephenson County IL
 location	Tazewell County IL
 location	Union County IL
@@ -14177,7 +14191,6 @@ location	Washington County IL
 location	Wayne County IL
 location	White County
 location	Whiteside County
-location	Will County
 location	Will County IL
 location	Williamson County IL
 location	Winnebago County IL
@@ -14369,7 +14382,6 @@ location	Fairfield County SC
 location	Florence County SC
 location	Georgetown County
 location	Greenville County
-location	Greenwood County
 location	Greenwood County SC
 location	Hampton County
 location	Horry County SC
@@ -14405,14 +14417,12 @@ location	Columbus County
 location	Cumberland County NC
 location	Davidson County NC
 location	Durham County
-location	Forsyth County
 location	Forsyth County NC
 location	Gaston County
 location	Guilford County
 location	Harnett County
 location	Iredell County
 location	Lincoln County NC
-location	Mecklenburg County
 location	Mecklenburg County NC
 location	Montgomery County NC
 location	New Hanover County
@@ -14468,16 +14478,13 @@ location	Prince George's County
 
 # Delaware
 location	Georgetown DE
-location	Kent County
 location	Kent County DE
 location	New Castle County
 location	Sussex County DE
 
 # New Jersey
 location	Bergen County
-location	Burlington County
 location	Burlington County NJ
-location	Camden County
 location	Camden County NJ
 location	Cumberland County NJ
 location	Essex County NJ
@@ -14526,7 +14533,6 @@ location	Livingston County NY
 location	Madison County NY
 location	Monroe County NY
 location	Montgomery County NY
-location	Nassau County
 location	Nassau County NY
 location	New York City
 location	New York County
@@ -14642,6 +14648,7 @@ location	San Lorenzo County
 location	Toa Alta County
 location	Toa Baja
 location	Trujillo Alto
+location	Vega Alta County
 location	Vega Baja
 
 # Virgin Islands
@@ -14677,7 +14684,7 @@ division	South District
 division	Israel
 division	Jerusalem District
 division	Judea and Samaria
-division	Central District
+division	Central District IL
 division	Tel Aviv District
 division	Haifa District
 division	North District
@@ -15219,6 +15226,7 @@ division	Timor-Leste
 division	North Jeolla
 division	Jeonnam
 division	Gwangju
+division	Daegu
 division	South Korea
 division	Chungcheongnam
 division	Gyeonggi Province
@@ -15648,7 +15656,7 @@ division	Kasane
 division	Western Cape Province
 division	Northern Cape
 division	South Africa
-division	North-West
+division	North-West ZA
 division	Eastern Cape
 division	Free State
 division	Gauteng
@@ -15838,7 +15846,6 @@ division	Setúbal
 division	Évora
 division	Lisbon
 division	Sobral de Monte AgracO
-division	Santarem PT
 division	Santarem
 division	Portugal
 division	Leiria
@@ -16000,14 +16007,14 @@ division	North Brabant
 division	Netherlands
 division	Flevoland
 division	Friesland
-division	Limburg
+division	Limburg NL
 division	Gelderland
 division	Overijssel
 division	Groningen
 division	Drenthe
 
 ### Luxembourg
-division	Luxembourg
+division	Luxembourg LU
 
 ### Monaco
 division	Monaco
@@ -16310,6 +16317,7 @@ division	Slaskie
 division	Łódzkie
 division	Malopolskie
 division	Swietokrzyskie
+division	Świętokrzyskie Voivodeship
 division	Warminsko-Mazurskie
 division	Mazowieckie
 division	Masovia
@@ -16329,16 +16337,17 @@ division	Prešov
 division	Kosice
 
 ### Montenegro
-division	Ulcinj
-division	Bar
+division	Herceg Novi
 division	Cetinje
-division	Podgorica
 division	Niksic
-division	Rozaje
-division	Berane
+division	Bar
+division	Ulcinj
+division	Podgorica
+division	Pljevlja
 division	Montenegro
 division	Bijelo Polje
-division	Pljevlja
+division	Berane
+division	Rozaje
 
 ### Albania
 division	Albania
@@ -16949,7 +16958,6 @@ division	Meta
 division	Valle del Cauca
 division	Tolima
 division	Quindio
-division	Bogota
 division	Cartago CO
 division	Risaralda
 division	Vichada
