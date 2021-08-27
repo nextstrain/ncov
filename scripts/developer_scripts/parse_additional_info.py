@@ -673,6 +673,10 @@ def check_additional_info(additional_info, path_to_config_files):
             info = info[7:]
             print("Treating \"Other: " + info + "\" as \"" + info + "\"")
 
+        if info.startswith("other: "):
+            info = info[7:]
+            print("Treating \"other: " + info + "\" as \"" + info + "\"")
+
         print("Processing " + bold(info) + ":")
 
         while True:
