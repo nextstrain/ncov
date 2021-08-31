@@ -418,6 +418,7 @@ location	Araguapaz	-15.0937927	-50.626417
 location	Araguatins	-5.6522925	-48.1158973
 location	Aranda de Duero	41.6715067	-3.6851172
 location	Aransas County	28.1987876	-96.947708
+location	Arapahoe County	39.6416781	-104.3628567
 location	Arapiraca	-9.754866	-36.661471
 location	Arapongas	-23.4152862	-51.4293961
 location	Araquari	-26.3703324	-48.7210994
@@ -837,6 +838,7 @@ location	Bebedouro	-20.949077	-48.479083
 location	Becej	45.6153745	20.0490085
 location	Beckov	48.7882419	17.8964776
 location	Bedargowo	53.02122	15.36883
+location	Bedford County TN	35.5099479	-86.4507189
 location	Bedon Przykoscielny	51.7386094	19.6354333
 location	Bedon-Wies	51.7472146	19.6392637
 location	Bee County	28.3871179	-97.7191838
@@ -1696,6 +1698,7 @@ location	Canhoba	-10.1373681	-36.9710796
 location	Canillas de Rio Tuerto	42.3994057	-2.8412029
 location	Caninde de Sao Francisco	-9.6597475	-37.7904456
 location	Cannes	43.5515198	7.0134418
+location	Cannon County	35.8044159	-86.0512075
 location	Canoas BR	-29.9216045	-51.1799525
 location	Canoas CR	8.56429535	-82.88464012507875
 location	Canobbio	46.0349781	8.9670996
@@ -1990,6 +1993,7 @@ location	Chausseterre	45.8964	3.78453
 location	Chautauqua County	42.2894671	-79.421728
 location	Chavannes-Renens	46.5339199	6.578038
 location	Chazemais	46.4829631	2.5259702
+location	Cheatham County	36.2444954	-87.0967857
 location	Cheboksary	56.1307195	47.2449597
 location	Chelan County	47.8012197	-120.6276904
 location	Chełm	51.13558825	23.493936945891463
@@ -2189,6 +2193,8 @@ location	Codegua	-34.0377	-70.6565422
 location	Coelemu	-36.4876004	-72.7023316
 location	Coevorden	52.6614	6.7411
 location	Coffee County	31.3629619	-85.9870669
+location	Coffee County AL	31.3629619	-85.9870669
+location	Coffee County TN	35.4906115	-86.069633
 location	Cogollos De Guadix	37.2241755	-3.1610634
 location	Cogollos de la Vega	37.2755727	-3.572149
 location	Cogolludo	40.9470672	-3.0887458
@@ -2643,6 +2649,7 @@ location	Diamante do Sul	-25.0436147	-52.6800923
 location	Diamantina	-18.2440862	-43.6006487
 location	Diamniadio	14.7202187	-17.1842439
 location	Dibrugarh	27.4844597	94.9019447
+location	Dickson County	36.1459327	-87.3480592
 location	Diegem	50.8945555	4.4365042
 location	Diego de Almagro	-26.3910794	-70.0459281
 location	Diemen	52.3390	4.9592
@@ -2741,6 +2748,7 @@ location	Dota	9.58474375	-83.89090654843775
 location	Dottignies	50.7273981	3.3037301
 location	Dottikon	47.3838825	8.241593
 location	Douai	50.3675677	3.0804641
+location	Douglas County CO	39.3420437	-104.9468945
 location	Douglas County IL	39.7628415	-88.2170516
 location	Douglas County NE	41.2954112	-96.1415672
 location	Douglas County NV	38.9072611	-119.6201824
@@ -3985,6 +3993,7 @@ location	Heusden-Zolder	51.016671	5.290726
 location	Hever	50.9925865	4.5553278
 location	Heverlee	50.861704	4.695889
 location	Hewitt	31.4623902	-97.1958377
+location	Hickman County	35.794948	-87.4646163
 location	Hidalgo County	26.3530256	-98.216445
 location	Hidalgo County TX	26.3530256	-98.216445
 location	Highlands	-20.281674	57.521123
@@ -4893,6 +4902,7 @@ location	Knokke-Heist	51.331501	3.308826
 location	Knox County	40.920889	-90.2202325
 location	Knox County IL	40.920889	-90.2202325
 location	Knox County MO	40.122723	-92.1573551
+location	Knox County TN	35.9859998	-83.9375598
 location	Knox County TX	33.5871385	-99.7073621
 location	Knysna	-34.035734	23.048485
 location	Knyszyn	53.3122442	22.9200387
@@ -5563,6 +5573,7 @@ location	Limon	9.9951608	-83.0303724
 location	Limpio	-25.1736487	-57.4780665
 location	Linares	-35.8452905	-71.5977173
 location	Lincoln County	45.3265631	-89.7326216
+location	Lincoln County ID	43.0138672	-114.1650584
 location	Lincoln County MT	48.5891095	-115.4911526
 location	Lincoln County NC	35.4866424	-81.2062724
 location	Lincoln County NM	33.7525727	-105.4158806
@@ -6066,6 +6077,7 @@ location	Marion County MS	31.2247688	-89.8217717
 location	Marion County OH	40.5885271	-83.1895249
 location	Marion County OR	44.8964425	-122.7203248
 location	Marion County SC	34.0572007	-79.3987578
+location	Marion County TX	32.7931661	-94.344488
 location	Maripasoula	3.643385087483412	-54.03331837441771
 location	Mariposa County	37.570148	-119.9036592
 location	Mariquina	-39.497403	-73.04271375277717
@@ -6087,6 +6099,7 @@ location	Marshall County	34.3396046	-86.3301801
 location	Marshall County AL	34.3396046	-86.3301801
 location	Marshall County IL	41.0324537	-89.2998456
 location	Marshall County MS	34.7329208	-89.4725635
+location	Marshall County TN	35.4814932	-86.7711675
 location	Marszowice	50.1811429	20.0936447
 location	Mart	31.5423911	-96.8336015
 location	Martigues	43.4057279	5.0548176
@@ -6147,6 +6160,7 @@ location	Maui County	20.7580586	-156.3105232
 location	Maule	-35.521347	-71.6918891
 location	Maullin	-41.6160139	-73.5950711
 location	Maurage	50.455601	4.099269
+location	Maury County	35.6285992	-87.0736684
 location	Mavalane	-25.932045	32.5850819
 location	Maxent	47.9823348	-2.0331515
 location	Maxeville	48.7119046	6.1641314
@@ -6524,6 +6538,7 @@ location	Montgomery County NC	35.3299572	-79.8979019
 location	Montgomery County NY	42.8941269	-74.4099745
 location	Montgomery County OH	39.6837328	-84.2854817
 location	Montgomery County PA	40.2154361	-75.3702305
+location	Montgomery County TN	36.4803824	-87.3786221
 location	Montgomery County TX	30.301949	-95.5065944
 location	Montignies-sur-Sambre	50.401302	4.478466
 location	Montigny le Bretonneux	48.7739	2.0360
@@ -7665,6 +7680,7 @@ location	Pindushi	62.9177751	34.5791755
 location	Pine County	46.0820957	-92.7542126
 location	Pineda de Bages	41.7597912	1.8365883
 location	Pineda de Mar	41.6276807	2.6898707
+location	Pinellas County	27.8778904	-82.7329309
 location	Pingxiang	27.632413	113.892981
 location	Pinhais	-25.4443488	-49.1900307
 location	Pinhao	-25.6960895	-51.6566366
@@ -7811,6 +7827,7 @@ location	Pontinha	38.7622108	-9.1968418
 location	Pontivy	48.0695882686933	-2.9639488211463747
 location	Pontoise	49.049228	2.098595
 location	Pontos	42.1858949	2.9172363
+location	Pontotoc County MS	34.2114655	-89.0382651
 location	Ponts	41.9160096	1.1882504
 location	Popayan	2.458755	-76.606118
 location	Pope County	37.3933531	-88.5904425
@@ -8434,6 +8451,7 @@ location	Riyadh	24.705304	46.738279
 location	Rizal	14.65	121.25
 location	Roanne	46.0345572	4.0729178
 location	Robertson County	31.0339058	-96.5079742
+location	Robertson County TN	36.4996336	-86.8519164
 location	Robertson County TX	31.0339058	-96.5079742
 location	Rochedo	-20.4769832	-28.8516786
 location	Rochefort	50.1588503	5.2233447
@@ -8589,6 +8607,7 @@ location	Russkaya Polyana	53.780357	73.882103
 location	Rustaq	23.777294849999997	57.78447565275601
 location	Rusy	54.4241469	19.830552
 location	Rutherford County NC	35.3994626	-81.9023191
+location	Rutherford County TN	35.8563421	-86.4205249
 location	Ruthi	47.2955927	9.537187
 location	Ruza	55.6998907	36.1946992
 location	Ruzomberok	49.0815718	19.3034168
@@ -9602,6 +9621,8 @@ location	Słupsk	54.460570849999996	17.027730037017736
 location	Smalyavichy	54.0299337	28.089752
 location	Smicz	50.41111	17.61525
 location	Smith County	32.3402898	-95.2563971
+location	Smith County TN	36.2549331	-85.9741567918973
+location	Smith County TX	32.3402898	-95.2563971
 location	Smogorzewo	51.9133741	17.0878088
 location	Smolenice	48.5063832	17.4319834
 location	Smolensk	54.77897005	32.04718121915615
@@ -11080,6 +11101,7 @@ location	Washington County MS	33.2626706	-90.9183546
 location	Washington County NY	43.303560	-73.428260
 location	Washington County OR	45.544427	-123.010435
 location	Washington County RI	41.46361564311959	-71.64806019561742
+location	Washington County TN	36.2636501	-82.4911791
 location	Washington County TX	30.2226352	-96.3936114
 location	Washington County WI	43.362309	-88.235107
 location	Washington Parish	30.8337523	-90.0721467
@@ -11107,6 +11129,7 @@ location	Wayne County IL	38.4251958	-88.4197678
 location	Wayne County NC	35.3546293	-78.0149444
 location	Wayne County NY	43.1500557	-77.0377603
 location	Wayne County OH	40.8615819	-81.9034617
+location	Weakley County	36.2902404	-88.7263475
 location	Webb County	27.6983621	-99.2523577
 location	Webster Parish	32.726688	-93.341411
 location	Weelde	51.4071394	4.9905925
@@ -11179,6 +11202,7 @@ location	Wheatland County	46.4335302	-109.8498047
 location	Wheeler County	35.3921902	-100.2632764
 location	Wheelwright	-33.7922704	-61.2107401
 location	White County	38.0632329	-88.1577725
+location	White Pine County	39.5298185	-114.8899563
 location	Whitefish Bay	43.111041	-87.901408
 location	Whitehall County	44.366840	-91.324050
 location	Whiteside County	41.7612332	-89.9214744
@@ -11229,12 +11253,15 @@ location	Williamsburg	33.6442699	-79.7442135
 location	Williamsburg County	33.6442699	-79.7442135
 location	Williamson County	30.6580927	-97.6041649
 location	Williamson County IL	37.737632500000004	-88.92944520134037
+location	Williamson County TN	35.8772991	-86.8978708
 location	Williamson County TX	30.6580927	-97.6041649
 location	Wilmington	39.7459468	-75.546589
 location	Wilrijk	51.169169	4.396261
 location	Wilsele	50.889602	4.693823
 location	Wilskerke	51.1809498	2.8401373
 location	Wilson County	29.1589961	-98.1251465
+location	Wilson County TN	36.1466658	-86.3119998
+location	Wilson County TX	29.1589961	-98.1251465
 location	Wilsonville	45.3099218	-122.7681602
 location	Wimmertingen	50.8829843	5.3517691
 location	Windham County	41.8208345	-72.0051201
@@ -11827,6 +11854,7 @@ division	Bethlehem	31.7043556	35.2061876
 division	Beyla	8.909431999999999	-8.367475476673686
 division	Bhaktapur	27.6720657	85.428171
 division	Bicol	13.100588	123.52313310936306
+division	Bie	-12.2630485	17.4967812
 division	Bielsk Podlaski	52.764915	23.188210662123517
 division	Bihac	44.8120	15.8686
 division	Bihar	25.0961	85.3131
@@ -11912,6 +11940,7 @@ division	Burundi	-3.3634357	29.8870575
 division	Buryatia	52.311711	108.916732
 division	Bushehr	28.8936645	51.3204877
 division	Busia	0.3712048	34.26479520608315
+division	Buskerud	59.5435778	11.4230694
 division	Buzau	45.143297	26.816251
 division	Caaguazu	-25.4661756	-56.0181685
 division	Cabinda	-5.056395	12.3211749
@@ -12083,6 +12112,7 @@ division	Crimea	45.28350435	34.20081877526554
 division	Croatia	45.1	15.2
 division	Cross River State	5.8671966	8.5204774
 division	Csongrád County	46.7084	20.1436
+division	Cuando Cubango	-16.0457694	19.5621532
 division	Cuanza Norte	-9.0296752	15.0926324
 division	Cuanza Sul	-10.7707527	15.0975712
 division	Cuba	23.0131338	-80.8328748
@@ -12352,6 +12382,7 @@ division	Gwangju	35.1595775	126.8515089
 division	Gyeonggi Province	37.397957	127.380864
 division	Győr-Moson-Sopron County	47.6610134	17.3796437
 division	Ha Nam	20.5269088	105.9543527
+division	Ha Tinh	18.2879059	105.7842774
 division	Haa Alif Atoll	7.00898255	72.92348820538749
 division	Haa Dhaalu Atoll	6.3103185	72.61034925814599
 division	Hadžići	43.8226456	18.2025181
@@ -12427,6 +12458,7 @@ division	Howland Island	0.8075145	-176.61686999040523
 division	Hradec Králové Region	50.2094963	15.832719
 division	Hranice Na Moravě	49.5497	17.7349
 division	Hsinchu County	24.8267	121.0128333
+division	Huambo	-12.6076318	15.7411039
 division	Huancavelica	-13.0	-75.0
 division	Huanuco	-9.893964	-76.299456
 division	Huasco	-28.467340	-71.221674
@@ -12821,6 +12853,7 @@ division	Luxembourg	49.755428	6.119486
 division	Luxembourg BE	49.978352826667525	5.501312530195323
 division	Luxembourg LU	49.8158683	6.1296751
 division	Lviv	49.841952	24.0315921
+division	M'Sila Province	35.7087553	4.5371552
 division	Maafushi	3.9411571	73.48992800644209
 division	Maaseik	51.104005	5.714000
 division	Machakos	-1.27900465	37.39526976452546
@@ -12882,6 +12915,7 @@ division	Maryland	39.0458	-76.6413
 division	Maryland LR	4.6355376	-7.7281669
 division	Maseru	-29.310054	27.478222
 division	Mashonaland Central	-16.742872	31.2952086
+division	Mashonaland East Province	-17.7927323	31.7678044
 division	Masovia	54.033698650000005	21.77436913174548
 division	Massachusetts	42.340741	-71.998513
 division	Masvingo	-20.307118600000003	30.88137696875768
@@ -12929,6 +12963,7 @@ division	Miaoli County	24.5647667	120.8205167
 division	Michigan	45.021203	-84.762273
 division	Michoacan	19.207098	-101.878113
 division	Midcentral	-40.398721	175.799685
+division	Midlands	-19.2785043	29.8790852
 division	Midtjylland	56.23564835	9.234602771636588
 division	Midway Islands	70.47911904852143	-148.3112732497243
 division	Mie	34.7339685	136.5154489
@@ -13066,6 +13101,7 @@ division	New York	40.703395	-73.904193
 division	New Zealand	-41.500083	172.8344077
 division	Newfoundland and Labrador	53.655784	-61.203723
 division	Ngazidja	-11.652670350000001	43.33078712107961
+division	Nghe An	19.3738868	104.9233469
 division	Niakara	8.660329	-5.291088
 division	Niamey	13.524834	2.109823
 division	Niassa	-13.0638577	36.4669964
@@ -13629,6 +13665,7 @@ division	South Banat District	44.994743150000005	20.939077025910777
 division	South Batinah	23.760421	57.045212
 division	South Canterbury	-43.49417615	171.8098447584145
 division	South Carolina	33.8361	-81.1637
+division	South Central Coast	13.323058450000001	109.22808897663754
 division	South China	27.022173229024762	103.91491112256124
 division	South Dakota	44.6471761	-100.348761
 division	South District	30.8296	35.0388
@@ -13645,6 +13682,7 @@ division	South Sumatra	-3.1266842	104.0930554
 division	South Tyrol	46.762051	11.427443
 division	South-West	6.4550575	3.3941795
 division	South Yorkshire	53.4697	-1.326
+division	Southeast Region	10.356735749999999	108.59241422176846
 division	Southeast Sulawesi	-3.5491199	121.7279646
 division	Southeastern Region	41.4522215	22.657550068796596
 division	Southern	-46.040582	169.144142
@@ -13655,6 +13693,7 @@ division	Southern Finland	60.7373759	25.814587585061936
 division	Southern Province	6.149	80.73181777500001
 division	Southern Region MW	-15.30637685	35.32814794075438
 division	Southern Zambia	-16.5381715	26.7374997
+division	Southland	-45.7255555	168.2936808
 division	Southwestern Region	41.384177	20.831282438959253
 division	Spain	40.4637	-3.7492
 division	Special Region of Yogyakarta	-7.9778383999999996	110.36722565020224
