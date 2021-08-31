@@ -1077,6 +1077,7 @@ location	Brahmanbaria
 location	Brahmanbaria Sadar
 location	C&B Colony
 location	Cda
+location	Chakaria
 location	Chalkbazar
 location	Chandgaon
 location	Chandpur
@@ -1101,6 +1102,7 @@ location	Muradpur
 location	Noakhali
 location	Panchlaish
 location	Patharghata
+location	Pekua
 location	Port Colony
 location	Rangamati
 location	Rangamati Sadar Upazila
@@ -1109,6 +1111,7 @@ location	Sandwip
 location	Sarail
 location	Satkania
 location	Sholokbahar
+location	Ukhia
 
 # Barishal
 location	Barisal
@@ -1117,12 +1120,12 @@ location	Bhola
 location	Indurkani
 location	Nazirpur
 location	Pirojpur
-location	Sadar
 
 # Khulna
 location	Ashashuni
 location	Bagerhat
 location	Chuadanga
+location	Daulatpur
 location	Jashore
 location	Jhenaidah
 location	Kaligonj
@@ -1132,8 +1135,10 @@ location	Kushtia
 location	Magura
 location	Meherpur
 location	Narail
+location	Rupsha
 location	Satkhira
 location	Shatkhira
+location	Sonadanga
 
 # Dhaka
 location	Aftabnagar
@@ -1193,6 +1198,7 @@ location	Nikunja
 location	Nimtola
 location	North Shajahanpur
 location	Old Dhaka
+location	Palton
 location	Pangsha Upazila
 location	Panthapath
 location	Rahmatganj
@@ -1210,9 +1216,11 @@ location	Shahjahanpur BD
 location	Shamoly
 location	Shariatpur
 location	Shaymoli
+location	Shibpur
 location	Tangail
 location	Tejgaon
 location	Tejkunipara
+location	Tongi
 location	Uttara
 location	Vatara
 location	Wari
@@ -1239,6 +1247,7 @@ location	Sirajgonj
 
 # Mymensingh
 location	Jamalpur (Mymensingh)
+location	Madan
 location	Mymensingh
 location	Netrokona
 location	Sherpur
@@ -1255,7 +1264,6 @@ location	Sunamganj
 location	Sylhet
 
 # Rangpur
-location	City Corporation
 location	Dinajpur
 location	Gaibandha
 location	Kurigram
@@ -8716,6 +8724,7 @@ location	Łomża
 ### Slovakia
 # Bratislava
 location	Bernolakovo
+location	Blatne
 location	Budmerice
 location	Báhoň
 location	Chorvatsky Grob
@@ -8767,9 +8776,11 @@ location	Jahodna
 location	Jalsove
 location	Klacany
 location	Kopcany
+location	Koplotovce
 location	Kovalov
 location	Leopoldov
 location	Madunice
+location	Matuskovo
 location	Moravany nad Vahom
 location	Mostova
 location	Petrova Ves
@@ -8780,11 +8791,13 @@ location	Samorin
 location	Senica
 location	Sereď
 location	Skalica
+location	Sladkovicovo
 location	Smolenice
 location	Smrdáky
 location	Sobotiste
 location	Sokolovce
 location	Soporna
+location	Stefanov
 location	Tomasikovo
 location	Velke Ulany
 location	Velky Meder
@@ -8803,6 +8816,7 @@ location	Bojnice
 location	Bolesov
 location	Brezova Pod Bradlom
 location	Bystricany
+location	Chvojnica, district Myjava
 location	Diviaky nad Nitricou
 location	Dolna Poruba
 location	Dolna Suca
@@ -8815,6 +8829,7 @@ location	Hornany
 location	Horné Srnie
 location	Hradiste (Trenčín)
 location	Ilava
+location	Kocovce
 location	Kostolna-Zariecie
 location	Lednicke Rovne
 location	Mníchova Lehota
@@ -8955,6 +8970,7 @@ location	Lietavska Lucka
 location	Likavka
 location	Liptovska Luzna
 location	Liptovska Tepla
+location	Liptovsky Hradok
 location	Liptovsky Mikulas
 location	Lokca
 location	Lutise
@@ -9090,6 +9106,7 @@ location	Brekov
 location	Brestov nad Laborcom
 location	Brezovica (Prešov)
 location	Cernina
+location	Chotca
 location	Cicava
 location	Cigla
 location	Dlhe nad Cirochou
@@ -9164,6 +9181,7 @@ location	Sarisske Cierne
 location	Sarisske Dravce
 location	Secovska Polianka
 location	Sedliska
+location	Slovenska Kajna
 location	Slovenska Volova
 location	Snina
 location	Sol
@@ -9173,9 +9191,11 @@ location	Spisske Bystre
 location	Spisske Podhradie
 location	Spissky Stiavnik
 location	Stara Lubovna
+location	Staskovce
 location	Strba
 location	Strocin
 location	Stropkov
+location	Stulany
 location	Svidnik
 location	Svit
 location	Tatranská Štrba
@@ -9199,6 +9219,7 @@ location	Zubne
 location	Žakovce
 
 # Kosice
+location	Bajany
 location	Bezovce
 location	Bežovce
 location	Blatné Remety
@@ -9213,6 +9234,7 @@ location	Chrast nad Hornadom
 location	Dobsina
 location	Gelnica
 location	Haj
+location	Hatalov
 location	Hlivistia
 location	Iliasovce
 location	Inovce
@@ -9235,6 +9257,7 @@ location	Markušovce
 location	Michalovce
 location	Mnisek nad Hnilcom
 location	Nálepkovo
+location	Opatka
 location	Orechova
 location	Pavlovce nad Uhom
 location	Plechotice
@@ -9268,6 +9291,7 @@ location	Veľké Revištia
 location	Vinne
 location	Vojkovce
 location	Vojnatina
+location	Vola
 location	Vrbnica
 location	Vysne Nemecke
 location	Zalužice
@@ -11415,6 +11439,7 @@ location	Atibaia
 location	Auriflama
 location	Avanhandava
 location	Avare
+location	Bady Bassit
 location	Bady Bassitt
 location	Balsamo
 location	Bariri
@@ -11465,6 +11490,7 @@ location	Casa Branca
 location	Castilho
 location	Catanduva
 location	Catigua
+location	Cedral
 location	Cerqueira Cesar
 location	Cesário Lange
 location	Conchal
@@ -11577,6 +11603,7 @@ location	Lorena
 location	Luis Antonio
 location	Lupercio
 location	Macatuba
+location	Macaubal
 location	Mairinque
 location	Mairipora
 location	Manduri
@@ -11873,6 +11900,7 @@ location	Ipatinga
 location	Itabirito
 location	Itajuba
 location	Itaobim
+location	Itapegipe
 location	Itauna
 location	Itueta
 location	Ituiutaba
@@ -13505,6 +13533,7 @@ location	Clatsop County
 location	Columbia County OR
 location	Coos County
 location	Crook County
+location	Crook County OR
 location	Curry County
 location	Deschutes County
 location	Douglas County OR
