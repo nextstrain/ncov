@@ -967,6 +967,9 @@ def build_ordering(data, new_latlongs):
                                     for location in sorted(data_clean[region][country][division]):
                                         out.write("location\t" + location + "\n")
 
+                    if hierarchy == "location" or hierarchy == "division":
+                        out.write("\n################\n")
+
             out.write("\n################\n\n\n")
 
     new_ordering = read_ordering(path_to_output_files)
@@ -1258,6 +1261,10 @@ if __name__ == '__main__':
 
         if annotations_altered_gisaid:
             print(bold("Attention: " + gisaidAnnotationsFile + " was altered! Remember to replace the old file in " + path_to_annotations + "."))
+        else:
+            print("No changes to " + gisaidAnnotationsFile + ".")
         if annotations_altered_open:
             print(bold("Attention: " + genbankAnnotationsFile + " was altered! Remember to replace the old file in " + path_to_annotations + "."))
+        else:
+            print("No changes to " + genbankAnnotationsFile + ".")
 
